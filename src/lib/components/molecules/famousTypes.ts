@@ -158,6 +158,7 @@ export const famousTypes: { [index: number]: { name: string; link: boolean; hasI
 		{ name: 'Janelle-Monae', link: false, hasImage: false, lastmod: '2025-06-25', personaTitle: null, contentGrade: null },
 		{ name: 'Jonathan-Graff', link: false, hasImage: false, lastmod: '2025-06-25', personaTitle: null, contentGrade: null },
 		{ name: 'Oscar-Isaac', link: false, hasImage: false, lastmod: '2025-06-25', personaTitle: null, contentGrade: null },
+		{ name: 'Sarah-J-Maas', link: false, hasImage: false, lastmod: '2026-03-04', personaTitle: 'Fantasy\'s Emotional Architect', contentGrade: 8.9 },
 		{ name: 'Vincent-van-Gogh', link: false, hasImage: false, lastmod: '2025-06-25', personaTitle: null, contentGrade: null }
 	],
 	5: [
@@ -300,6 +301,7 @@ export const famousTypes: { [index: number]: { name: string; link: boolean; hasI
 		{ name: 'Winston-Churchill', link: true, hasImage: true, lastmod: '2026-01-17', personaTitle: 'Britain\'s Weeping Iron', contentGrade: null },
 		{ name: 'Xi-Jinping', link: true, hasImage: true, lastmod: '2026-01-23', personaTitle: 'China\'s Iron Hand', contentGrade: null },
 		{ name: 'Bryce-Hall', link: false, hasImage: false, lastmod: '2025-06-25', personaTitle: null, contentGrade: null },
+		{ name: 'Conor-McGregor', link: false, hasImage: false, lastmod: '2026-03-04', personaTitle: 'Combat\'s Self-Made Wrecking Ball', contentGrade: 8.6 },
 		{ name: 'Dr-Phil', link: false, hasImage: false, lastmod: '2025-06-25', personaTitle: null, contentGrade: null },
 		{ name: 'Gordon-Ramsay', link: false, hasImage: false, lastmod: '2025-06-25', personaTitle: null, contentGrade: null },
 		{ name: 'Idris-Elba', link: false, hasImage: false, lastmod: '2025-06-25', personaTitle: null, contentGrade: null },

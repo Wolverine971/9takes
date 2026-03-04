@@ -6,6 +6,7 @@ import { uploadQuestionImage } from '$lib/server/questionImages';
 import { elasticClient } from '$lib/server/elasticSearch';
 import { checkDemoTime } from '../../../../utils/api';
 import { logger } from '$lib/utils/logger';
+import { QUESTION_SOCIAL_CARD_VARIANT } from '$lib/socialCards/questionSocialCard';
 
 const MAX_IMAGE_BYTES = 10 * 1024 * 1024;
 
@@ -14,7 +15,8 @@ const uploadSchema = z.object({
 	url: z.string().min(1).max(200),
 	img_url: z.string().refine((val) => val.startsWith('data:image/'), {
 		message: 'Invalid image format'
-	})
+	}),
+	variant: z.literal(QUESTION_SOCIAL_CARD_VARIANT).optional()
 });
 
 export const POST: RequestHandler = async ({ request, locals }) => {
@@ -64,7 +66,14 @@ export const POST: RequestHandler = async ({ request, locals }) => {
 			supabase,
 			dataUrl: validated.img_url,
 			questionUrl: validated.url,
-			maxBytes: MAX_IMAGE_BYTES
+			maxBytes: MAX_IMAGE_BYTES,
+			variant: validated.variant
+		});
+
+		logger.info('Question image uploaded', {
+			questionId,
+			path: upload.path,
+			variant: validated.variant || 'default'
 		});
 
 		const { data: updatedQuestion, error: updateError } = await supabase
@@ -76,6 +85,12 @@ export const POST: RequestHandler = async ({ request, locals }) => {
 
 		if (updateError) {
 			logger.error('Failed to update question image path', updateError, { questionId });
+		} else {
+			logger.info('Question image path updated', {
+				questionId,
+				path: upload.path,
+				variant: validated.variant || 'default'
+			});
 		}
 
 		const esId = updatedQuestion?.es_id ?? question.es_id;

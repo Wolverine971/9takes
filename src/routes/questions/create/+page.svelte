@@ -4,13 +4,17 @@
 	import { page } from '$app/stores';
 	import { goto } from '$app/navigation';
 	import { deserialize } from '$app/forms';
-	import QRCode from 'qrcode';
 	import Modal2, { getModal } from '$lib/components/atoms/Modal2.svelte';
 	import RightIcon from '$lib/components/icons/rightIcon.svelte';
 	import { notifications } from '$lib/components/molecules/notifications';
 	import { fade, fly } from 'svelte/transition';
 	import type { PageData } from './$types';
-	import QuestionDisplay from '$lib/components/questions/QuestionDisplay.svelte';
+	import QuestionSocialCardTemplate from '$lib/components/questions/QuestionSocialCardTemplate.svelte';
+	import {
+		QUESTION_SOCIAL_CARD_HEIGHT,
+		QUESTION_SOCIAL_CARD_VARIANT,
+		QUESTION_SOCIAL_CARD_WIDTH
+	} from '$lib/socialCards/questionSocialCard';
 
 	let { data }: { data: PageData } = $props();
 
@@ -24,27 +28,23 @@
 		if (createProgressStage === 'generatingImage') return 'Preparing your question card...';
 		return 'Question created. Taking you there now...';
 	});
-	let qrImageSrc = $state('');
-	let imgPreview = $state('');
 	let html2canvasModule = $state<
 		((element: HTMLElement, options?: object) => Promise<HTMLCanvasElement>) | null
 	>(null);
 	let fontLoaded = $state(false);
 	let resizeDebounceTimer: ReturnType<typeof setTimeout>;
+	let questionPublicUrl = $derived(
+		url ? `https://9takes.com/questions/${url}` : 'https://9takes.com/questions'
+	);
 
 	const MIN_CHAR_COUNT = 10;
 	const MAX_CHAR_COUNT = 280;
+	const IMAGE_UPLOAD_TIMEOUT_MS = 7000;
+	const SOCIAL_CARD_CAPTURE_ID = 'question-social-card-capture';
 	let isQuestionValid = $derived(
 		question.trim().length >= MIN_CHAR_COUNT && question.length <= MAX_CHAR_COUNT
 	);
 	let questionCharCount = $derived(question.length);
-
-	const QR_OPTS: QRCode.QRCodeToDataURLOptions = {
-		errorCorrectionLevel: 'H' as QRCode.QRCodeErrorCorrectionLevel,
-		type: 'image/png' as 'image/png',
-		margin: 1,
-		color: { dark: '#5407d9', light: '#ffffff' }
-	};
 
 	onMount(() => {
 		question = $page.url.searchParams.get('question') || '';
@@ -112,12 +112,39 @@
 				throw new Error('No URL generated');
 			}
 
-			qrImageSrc = await QRCode.toDataURL(`https://9takes.com/questions/${url}`, QR_OPTS);
 			getModal('question-create').open();
 		} catch (error) {
-			console.error('Error generating URL or QR code:', error);
+			console.error('Error generating URL:', error);
 			const message = error instanceof Error ? error.message : 'Failed to prepare question';
 			notifications.danger(message, 5000);
+		}
+	}
+
+	async function waitForImagesToLoad(element: HTMLElement): Promise<void> {
+		const images = Array.from(element.querySelectorAll('img')).filter((img) => !img.complete);
+		if (!images.length) return;
+
+		await Promise.all(
+			images.map(
+				(image) =>
+					new Promise<void>((resolve) => {
+						image.addEventListener('load', () => resolve(), { once: true });
+						image.addEventListener('error', () => resolve(), { once: true });
+					})
+			)
+		);
+	}
+
+	async function withTimeout<T>(promise: Promise<T>, timeoutMs: number): Promise<T> {
+		let timeoutRef: ReturnType<typeof setTimeout> | undefined;
+		const timeoutPromise = new Promise<never>((_, reject) => {
+			timeoutRef = setTimeout(() => reject(new Error(`Timed out after ${timeoutMs}ms`)), timeoutMs);
+		});
+
+		try {
+			return await Promise.race([promise, timeoutPromise]);
+		} finally {
+			if (timeoutRef) clearTimeout(timeoutRef);
 		}
 	}
 
@@ -133,65 +160,25 @@
 			throw new Error('Question element not found');
 		}
 
-		// Get the computed styles of the original element
-		const computedStyle = window.getComputedStyle(questionNode);
-		const width = parseInt(computedStyle.width);
-
-		// Calculate a reasonable scale factor based on the element's width
-		const scale = Math.min(2, 1200 / width);
-
 		// Wait for fonts to load
 		if (!fontLoaded) {
 			await document.fonts.ready;
 		}
+		await waitForImagesToLoad(questionNode);
 
 		const canvas = await html2canvasModule!(questionNode, {
 			useCORS: true,
 			allowTaint: true,
-			backgroundColor: computedStyle.backgroundColor || '#d4d4d4',
-			scale: scale,
+			backgroundColor: '#10111f',
+			scale: 1,
 			logging: false,
-			width: width,
-			height: parseInt(computedStyle.height),
-			onclone: (clonedDoc: Document) => {
-				const element = clonedDoc.getElementById(elementId);
-				if (element) {
-					element.style.cssText = computedStyle.cssText;
-					element.style.transform = 'none';
-					element.style.margin = '0';
-					element.style.padding = computedStyle.padding;
-					element.style.fontFamily = '"Space Grotesk", sans-serif';
-					element.style.width = `${width}px`;
-					element.style.height = `${parseInt(computedStyle.height)}px`;
-					element.style.fontSize = computedStyle.fontSize;
-					element.style.lineHeight = computedStyle.lineHeight;
-					element.style.fontWeight = computedStyle.fontWeight;
-					element.style.textAlign = computedStyle.textAlign;
-					element.style.color = computedStyle.color;
-					element.style.transition = 'none';
-					element.style.backgroundColor = computedStyle.backgroundColor || '#d4d4d4';
-					element.style.overflow = 'hidden';
-				}
-			}
+			width: QUESTION_SOCIAL_CARD_WIDTH,
+			height: QUESTION_SOCIAL_CARD_HEIGHT,
+			windowWidth: QUESTION_SOCIAL_CARD_WIDTH,
+			windowHeight: QUESTION_SOCIAL_CARD_HEIGHT
 		});
 
-		// Resize if needed
-		const maxWidth = 800;
-		let finalCanvas = canvas;
-
-		if (canvas.width > maxWidth) {
-			const resizeScale = maxWidth / canvas.width;
-			finalCanvas = document.createElement('canvas');
-			finalCanvas.width = canvas.width * resizeScale;
-			finalCanvas.height = canvas.height * resizeScale;
-			const ctx = finalCanvas.getContext('2d');
-			if (ctx) {
-				ctx.scale(resizeScale, resizeScale);
-				ctx.drawImage(canvas, 0, 0);
-			}
-		}
-
-		return finalCanvas.toDataURL('image/png', 0.5);
+		return canvas.toDataURL('image/png');
 	}
 
 	async function createQuestion() {
@@ -237,7 +224,7 @@
 			if (questionId) {
 				try {
 					createProgressStage = 'generatingImage';
-					const png = await generateQuestionImage('question-pic');
+					const png = await generateQuestionImage(SOCIAL_CARD_CAPTURE_ID);
 					// Check image size (rough estimate: base64 is ~1.37x larger than binary)
 					const estimatedSize = png.length * 0.75;
 					if (estimatedSize > 10 * 1024 * 1024) {
@@ -248,14 +235,21 @@
 					uploadBody.append('questionId', questionId.toString());
 					uploadBody.append('url', url);
 					uploadBody.append('img_url', png);
+					uploadBody.append('variant', QUESTION_SOCIAL_CARD_VARIANT);
 
-					void fetch('/api/questions/upload-image', { method: 'POST', body: uploadBody }).catch(
-						(error) => {
-							console.error('Image upload failed:', error);
-						}
+					await withTimeout(
+						fetch('/api/questions/upload-image', { method: 'POST', body: uploadBody }).then(
+							async (uploadResp) => {
+								if (!uploadResp.ok) {
+									const uploadError = await uploadResp.text();
+									throw new Error(uploadError || 'Image upload failed');
+								}
+							}
+						),
+						IMAGE_UPLOAD_TIMEOUT_MS
 					);
 				} catch (error) {
-					console.error('Error generating image:', error);
+					console.error('Error generating or uploading image:', error);
 				}
 			}
 
@@ -273,16 +267,6 @@
 			loading = false;
 		}
 	}
-
-	// Preview function (currently unused but available for testing)
-	// const showImage = async () => {
-	// 	try {
-	// 		imgPreview = await generateQuestionImage('question-pic');
-	// 	} catch (error) {
-	// 		console.error('Error generating preview:', error);
-	// 		notifications.danger('Failed to generate preview', 3000);
-	// 	}
-	// };
 
 	function handleInput(event: Event) {
 		const target = event.target as HTMLTextAreaElement;
@@ -369,13 +353,14 @@
 		<div class={loading ? 'pointer-events-none select-none opacity-40' : ''}>
 			<h2 class="mt-0 text-2xl font-semibold text-purple-400">Create Question</h2>
 
-			<div class="mt-4 rounded-2xl border border-purple-500/30 bg-[#1a1a2e] p-4" id="question-pic">
-				<QuestionDisplay question={{ id: '', url: '', question, question_formatted: '' }} />
-				<p class="mt-4 text-center text-sm text-slate-400">
-					<strong class="text-base font-semibold text-slate-200">
-						https://9takes.com/questions/{url}
-					</strong>
-				</p>
+			<div class="mt-4 rounded-2xl border border-purple-500/30 bg-[#1a1a2e] p-4">
+				<div
+					class="mx-auto h-[168px] w-[320px] overflow-hidden rounded-xl sm:h-[209px] sm:w-[400px] md:h-[251px] md:w-[480px]"
+				>
+					<div class="origin-top-left scale-[0.2667] sm:scale-[0.3334] md:scale-[0.4]">
+						<QuestionSocialCardTemplate questionText={question} questionUrl={questionPublicUrl} />
+					</div>
+				</div>
 			</div>
 			<button
 				class="mt-5 inline-flex w-full items-center justify-center rounded-full bg-gradient-to-r from-purple-600 to-purple-700 px-5 py-3 text-base font-semibold text-white shadow-[0_0_15px_rgba(124,58,237,0.3)] transition hover:from-purple-500 hover:to-purple-600 hover:shadow-[0_0_20px_rgba(124,58,237,0.4)] disabled:cursor-not-allowed disabled:opacity-70"
@@ -388,3 +373,11 @@
 		</div>
 	</div>
 </Modal2>
+
+<div class="pointer-events-none fixed -left-[200vw] top-0" aria-hidden="true">
+	<QuestionSocialCardTemplate
+		id={SOCIAL_CARD_CAPTURE_ID}
+		questionText={question}
+		questionUrl={questionPublicUrl}
+	/>
+</div>

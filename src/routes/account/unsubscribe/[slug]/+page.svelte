@@ -8,17 +8,13 @@
 	export let data: PageData;
 
 	const confirmUnsubscribe = async () => {
-		const email = data.userSignup?.email;
-		if (!email) {
+		if (!data.userSignup?.email) {
 			notifications.danger('Unable to identify signup email', 3000);
 			return;
 		}
 
-		let body = new FormData();
-		body.append('email', email);
 		const resp = await fetch('?/confirmUnsubscribe', {
-			method: 'POST',
-			body
+			method: 'POST'
 		});
 		const respFormatted = await deserialize(await resp.text());
 		if (

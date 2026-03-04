@@ -1,17 +1,83 @@
 // src/routes/email/+page.server.ts
-import { PRIVATE_gmail_private_key } from '$env/static/private';
-
-import type { PageServerLoad } from './$types';
-
-import { google } from 'googleapis';
+import type { Actions, PageServerLoad } from './$types';
+import type { EmailRecipient } from '$lib/types/email';
+import { error, redirect } from '@sveltejs/kit';
+import { checkDemoTime } from '../../utils/api';
 import {
-	emailSubmissionSchema,
-	emailTemplateSchema,
-	customEmailSchema
-} from '$lib/validation/schemas';
-import { z } from 'zod';
-import { logger } from '$lib/utils/logger';
+	forgotPass,
+	joinEmail,
+	joinEmail2,
+	personSuggestionEmail,
+	signupEmail
+} from '../../emails';
+import { supabase } from '$lib/supabase';
+import {
+	sendBatchEmails,
+	sendEmail as sendManagedEmail,
+	sendEmailWithTracking
+} from '$lib/email/sender';
 import { getSuppressedEmailSet, normalizeEmail } from '$lib/email/suppression';
+import { logger } from '$lib/utils/logger';
+import { emailSubmissionSchema, emailTemplateSchema } from '$lib/validation/schemas';
+import { z } from 'zod';
+
+const db = supabase as any;
+
+function toLegacyRecipient(
+	email: string,
+	source: EmailRecipient['source'] = 'signups',
+	sourceId?: string,
+	name?: string | null
+): EmailRecipient {
+	const normalizedEmail = normalizeEmail(email);
+	const resolvedSourceId = sourceId || normalizedEmail || email;
+	return {
+		id: resolvedSourceId,
+		email,
+		name: name || undefined,
+		source,
+		source_id: resolvedSourceId
+	};
+}
+
+async function sendUntrackedLegacyEmail(options: {
+	to: string;
+	subject: string;
+	body: string;
+	includeFooter?: boolean;
+}) {
+	const { to, subject, body, includeFooter = false } = options;
+	const result = await sendManagedEmail({
+		to,
+		subject,
+		htmlContent: body,
+		includeFooter
+	});
+	if (!result.success) {
+		throw new Error(result.error || 'Failed to send email');
+	}
+}
+
+async function sendTrackedLegacyEmail(options: {
+	supabaseClient: any;
+	recipient: EmailRecipient;
+	subject: string;
+	body: string;
+	sentBy: string;
+	includeFooter?: boolean;
+}) {
+	const { supabaseClient, recipient, subject, body, sentBy, includeFooter = true } = options;
+	const result = await sendEmailWithTracking(supabaseClient, {
+		recipient,
+		subject,
+		htmlContent: body,
+		sentBy,
+		includeFooter
+	});
+	if (!result.success) {
+		throw new Error(result.error || `Failed to send email to ${recipient.email}`);
+	}
+}
 
 export const load: PageServerLoad = async (event) => {
 	const session = event.locals.session;
@@ -42,19 +108,6 @@ export const load: PageServerLoad = async (event) => {
 	};
 };
 
-import type { Actions } from '@sveltejs/kit';
-import { supabase } from '$lib/supabase';
-import {
-	forgotPass,
-	joinEmail,
-	joinEmail2,
-	personSuggestionEmail,
-	signupEmail
-} from '../../emails';
-import { error, redirect } from '@sveltejs/kit';
-import { checkDemoTime } from '../../utils/api';
-const db = supabase as any;
-
 export const actions: Actions = {
 	submit: async ({ request }) => {
 		const body = Object.fromEntries(await request.formData());
@@ -81,7 +134,7 @@ export const actions: Actions = {
 
 		// Send confirmation email
 		try {
-			await sendEmail({
+			await sendUntrackedLegacyEmail({
 				to: email,
 				subject: 'Welcome to 9takes!',
 				body: signupEmail()
@@ -139,16 +192,11 @@ export const actions: Actions = {
 		}
 
 		try {
-			const sent = await sendEmail({
+			await sendUntrackedLegacyEmail({
 				to: email,
 				subject: `Thanks for suggesting ${suggestedPerson}`,
 				body: personSuggestionEmail()
 			});
-
-			if (!sent) {
-				logger.warn('Failed to send confirmation email', { email });
-				// Don't fail the request if email fails - suggestion was saved
-			}
 
 			logger.info('Person suggestion submitted', { email, suggestedPerson });
 			return { success: true };
@@ -223,16 +271,14 @@ export const actions: Actions = {
 		}
 
 		try {
-			const sent = await sendEmail({
-				to: email,
+			await sendTrackedLegacyEmail({
+				supabaseClient: dbLocal,
+				recipient: toLegacyRecipient(email, 'signups', normalizeEmail(email)),
 				subject,
-				body: emailTypeToSend
+				body: emailTypeToSend,
+				sentBy: locals.session.user.id,
+				includeFooter: false
 			});
-
-			if (!sent) {
-				logger.warn('Failed to send test email', { email, emailType });
-				throw error(500, 'Failed to send test email');
-			}
 
 			logger.info('Test email sent', { email, emailType, adminId: locals.session.user.id });
 			return { success: true };
@@ -282,18 +328,15 @@ export const actions: Actions = {
 		}
 
 		try {
-			const sent = await sendEmail({
-				to: body.email.toString(),
+			await sendTrackedLegacyEmail({
+				supabaseClient: dbLocal,
+				recipient: toLegacyRecipient(email, 'signups', normalizedEmail),
 				subject,
-				body: emailToSend
+				body: emailToSend,
+				sentBy: locals.session.user.id,
+				includeFooter: true
 			});
-			if (sent) {
-				return { success: true };
-			} else {
-				throw error(404, {
-					message: `Failed to test email, no error available`
-				});
-			}
+			return { success: true };
 		} catch (e) {
 			throw error(404, {
 				message: `Failed to send email, ${JSON.stringify(e)}`
@@ -349,81 +392,56 @@ export const actions: Actions = {
 		);
 
 		try {
-			for (const signup of eligibleSignups) {
-				const sent = await sendEmail({
-					to: signup.email.toString(),
-					subject,
-					body: emailToSend
-				});
-				if (sent) {
-					console.log(`sent to ${signup.email.toString()}`);
-				} else {
-					throw error(404, {
-						message: `Failed to test email, no error available`
-					});
-				}
+			const recipients = eligibleSignups
+				.map(
+					(signup: {
+						id?: string | number | null;
+						email?: string | null;
+						name?: string | null;
+					}) => {
+						const recipientEmail = String(signup.email || '').trim();
+						if (!recipientEmail) return null;
+						return toLegacyRecipient(
+							recipientEmail,
+							'signups',
+							signup.id ? String(signup.id) : normalizeEmail(recipientEmail),
+							signup.name
+						);
+					}
+				)
+				.filter((recipient: EmailRecipient | null): recipient is EmailRecipient =>
+					Boolean(recipient)
+				);
+
+			if (recipients.length === 0) {
+				return {
+					success: true,
+					sent: 0,
+					failed: 0,
+					skipped_suppressed: signupRows.length - eligibleSignups.length
+				};
 			}
+
+			const result = await sendBatchEmails(dbLocal, {
+				recipients,
+				subject,
+				htmlContent: emailToSend,
+				sentBy: locals.session.user.id,
+				delayMs: 100,
+				includeFooter: true
+			});
+
 			return {
-				success: true,
-				sent: eligibleSignups.length,
-				skipped_suppressed: signupRows.length - eligibleSignups.length
+				success: result.sent > 0 || recipients.length === 0,
+				sent: result.sent,
+				failed: result.failed,
+				skipped_suppressed: signupRows.length - eligibleSignups.length,
+				results: result.results
 			};
 		} catch (e) {
 			throw error(404, {
 				message: `Failed to send email, ${JSON.stringify(e)}`
 			});
 		}
-	}
-};
-
-const makeBody = ({
-	toEmails,
-	fromEmail,
-	subject,
-	message
-}: {
-	toEmails: string[];
-	fromEmail: string;
-	subject: string;
-	message: string;
-}) => {
-	const str = [
-		'Content-Type: text/html; charset="UTF-8"\n',
-		'MIME-Version: 1.0\n',
-		'Content-Transfer-Encoding: 7bit\n',
-		`to: ${toEmails.join(',')}\n`,
-		`from: ${fromEmail}\n`,
-		`subject: ${subject}\n\n`,
-		message
-	].join('');
-
-	return Buffer.from(str).toString('base64').replace(/\+/g, '-').replace(/\//g, '_');
-};
-
-const sendEmail = async ({ to, subject, body }: { to: string; subject: string; body: string }) => {
-	try {
-		const { privateKey } = JSON.parse(PRIVATE_gmail_private_key);
-		const authClient = new google.auth.JWT(
-			'id-takes-gmail-service-account@smart-mark-302504.iam.gserviceaccount.com',
-			'',
-			privateKey,
-			['https://www.googleapis.com/auth/gmail.send'],
-			'usersup@9takes.com'
-		);
-		const gmail = google.gmail({
-			auth: authClient,
-			version: 'v1'
-		});
-
-		return await gmail.users.messages.send({
-			requestBody: {
-				raw: makeBody({ toEmails: [to], fromEmail: 'usersup@9takes.com', subject, message: body })
-			},
-			userId: 'me'
-		});
-	} catch (e) {
-		throw error(404, {
-			message: `Failed send email, ${JSON.stringify(e)}`
-		});
 	}
 };

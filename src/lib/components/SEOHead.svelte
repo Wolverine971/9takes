@@ -13,9 +13,11 @@
 	export let additionalMeta: Array<{ name?: string; property?: string; content: string }> = [];
 	export let noindex = false;
 	export let author = 'DJ Wayne';
+	export let twitterImageAlt = '';
 
 	const TITLE_SUFFIX = ' - 9takes';
-	$: twitterImageAlt = title ? `9takes - ${title.replace(TITLE_SUFFIX, '')}` : '9takes';
+	$: computedTwitterImageAlt =
+		twitterImageAlt || (title ? `9takes - ${title.replace(TITLE_SUFFIX, '')}` : '9takes');
 </script>
 
 <svelte:head>
@@ -53,7 +55,7 @@
 	<meta name="twitter:title" content={title} />
 	<meta name="twitter:description" content={description} />
 	<meta name="twitter:image" content={twitterImage} />
-	<meta name="twitter:image:alt" content={twitterImageAlt} />
+	<meta name="twitter:image:alt" content={computedTwitterImageAlt} />
 
 	<!-- Additional Meta Tags -->
 	{#each additionalMeta as meta}

@@ -109,7 +109,7 @@
 
 <style>
 	.admin-layout {
-		--site-header-height: 64px;
+		--site-header-height: 65px;
 		width: 100%;
 		max-width: 100%;
 		min-height: 100vh;

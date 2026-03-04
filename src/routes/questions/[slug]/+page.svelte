@@ -7,9 +7,15 @@
 	import QuestionDisplay from '$lib/components/questions/QuestionDisplay.svelte';
 	import Interact from '$lib/components/molecules/Interact.svelte';
 	import QuestionContent from '$lib/components/questions/QuestionContent.svelte';
+	import SEOHead from '$lib/components/SEOHead.svelte';
 	import type { PageData } from './$types';
 	import type { QuestionPageData, Comment } from '$lib/types/questions';
 	import { PUBLIC_SUPABASE_URL } from '$env/static/public';
+	import {
+		isQuestionSocialCardV1,
+		toQuestionPublicImageUrl,
+		toQuestionSocialCardRoute
+	} from '$lib/socialCards/questionSocialCard';
 
 	let { data }: { data: PageData } = $props();
 
@@ -251,10 +257,21 @@
 		`🏛️ Give your take to the question: ${data.question?.question_formatted || data.question?.question}`
 	);
 	let url = $derived(`https://9takes.com/questions/${data.question.url}`);
-	let imgUrl = $derived(
-		data.question?.img_url
-			? `${PUBLIC_SUPABASE_URL}/storage/v1/object/public/questions/${data.question.img_url}`
-			: `https://9takes.com/blogs/looking-at-questions.webp`
+	let imgUrl = $derived.by(() => {
+		if (
+			data.question?.img_url &&
+			isQuestionSocialCardV1(data.question.img_url) &&
+			PUBLIC_SUPABASE_URL
+		) {
+			return toQuestionPublicImageUrl(PUBLIC_SUPABASE_URL, data.question.img_url);
+		}
+		if (data.question?.url) {
+			return toQuestionSocialCardRoute(data.question.url);
+		}
+		return 'https://9takes.com/questions-default.webp';
+	});
+	let twitterImageAlt = $derived(
+		`Question on 9takes: ${data.question?.question_formatted || data.question?.question || 'Share your perspective'}`
 	);
 
 	// Prepare JSON-LD for structured data (derived for reactivity)
@@ -300,57 +317,55 @@
 				: undefined
 	);
 
-	let questionJsonLd = $derived(
-		JSON.stringify({
-			'@context': 'https://schema.org',
-			'@type': 'QAPage',
-			url: url,
-			name: title,
-			description: description,
-			isPartOf: {
-				'@type': 'WebSite',
-				name: '9takes',
-				url: 'https://9takes.com'
-			},
-			breadcrumb: {
-				'@type': 'BreadcrumbList',
-				itemListElement: [
-					{
-						'@type': 'ListItem',
-						position: 1,
-						name: 'Home',
-						item: 'https://9takes.com'
-					},
-					{
-						'@type': 'ListItem',
-						position: 2,
-						name: 'Questions',
-						item: 'https://9takes.com/questions'
-					},
-					{
-						'@type': 'ListItem',
-						position: 3,
-						name: data.question.question_formatted || data.question.question,
-						item: url
+	let questionJsonLd = $derived({
+		'@context': 'https://schema.org',
+		'@type': 'QAPage',
+		url: url,
+		name: title,
+		description: description,
+		isPartOf: {
+			'@type': 'WebSite',
+			name: '9takes',
+			url: 'https://9takes.com'
+		},
+		breadcrumb: {
+			'@type': 'BreadcrumbList',
+			itemListElement: [
+				{
+					'@type': 'ListItem',
+					position: 1,
+					name: 'Home',
+					item: 'https://9takes.com'
+				},
+				{
+					'@type': 'ListItem',
+					position: 2,
+					name: 'Questions',
+					item: 'https://9takes.com/questions'
+				},
+				{
+					'@type': 'ListItem',
+					position: 3,
+					name: data.question.question_formatted || data.question.question,
+					item: url
+				}
+			]
+		},
+		mainEntity: {
+			'@type': 'Question',
+			name: data.question.question_formatted || data.question.question,
+			text: data.question.context || data.question.question_formatted || data.question.question,
+			answerCount: data.question.comment_count || 0,
+			dateCreated: data.question.created_at,
+			author: data.question.author_id
+				? {
+						'@type': 'Person',
+						identifier: data.question.author_id
 					}
-				]
-			},
-			mainEntity: {
-				'@type': 'Question',
-				name: data.question.question_formatted || data.question.question,
-				text: data.question.context || data.question.question_formatted || data.question.question,
-				answerCount: data.question.comment_count || 0,
-				dateCreated: data.question.created_at,
-				author: data.question.author_id
-					? {
-							'@type': 'Person',
-							identifier: data.question.author_id
-						}
-					: undefined,
-				...(suggestedAnswers && { suggestedAnswer: suggestedAnswers })
-			}
-		})
-	);
+				: undefined,
+			...(suggestedAnswers && { suggestedAnswer: suggestedAnswers })
+		}
+	});
 
 	function selectRootCategory(rootId: number) {
 		selectedRootCategoryId = rootId;
@@ -478,25 +493,16 @@
 
 <svelte:window bind:innerWidth />
 
-<svelte:head>
-	<title>{title}</title>
-	<link rel="canonical" href={url} />
-	<meta name="description" content={description} />
-	<meta property="og:site_name" content="9takes" />
-	<meta property="og:title" content={title} />
-	<meta property="og:description" content={description} />
-	<meta property="og:type" content="website" />
-	<meta property="og:url" content={url} />
-	<meta property="og:image" content={imgUrl} />
-	<meta name="twitter:site" content="@9takesdotcom" />
-	<meta name="twitter:description" content={description} />
-	<meta name="twitter:card" content="summary" />
-	<meta name="twitter:creator" content="@djwayne3" />
-	<meta name="twitter:title" content={title} />
-	<meta name="twitter:url" content={url} />
-	<meta name="twitter:image" content={imgUrl} />
-	{@html `<script type="application/ld+json">${questionJsonLd}</script>`}
-</svelte:head>
+<SEOHead
+	{title}
+	{description}
+	canonical={url}
+	twitterCardType="summary_large_image"
+	ogImage={imgUrl}
+	twitterImage={imgUrl}
+	jsonLd={questionJsonLd}
+	{twitterImageAlt}
+/>
 
 <div class="question-page-container mx-auto w-full max-w-6xl px-4 pb-12 sm:px-6 lg:px-8">
 	<article itemscope itemtype="https://schema.org/QAPage">

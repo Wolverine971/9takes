@@ -1,5 +1,9 @@
 // src/lib/server/questionImages.ts
 import { v4 as uuidv4 } from 'uuid';
+import {
+	QUESTION_SOCIAL_CARD_VARIANT,
+	buildQuestionSocialCardPath
+} from '$lib/socialCards/questionSocialCard';
 
 const DATA_URL_REGEX = /^data:(image\/[a-zA-Z0-9.+-]+);base64,/;
 const DEFAULT_EXTENSION = 'png';
@@ -16,6 +20,17 @@ export interface UploadQuestionImageOptions {
 	questionUrl: string;
 	maxBytes?: number;
 	imageId?: string;
+	variant?: string;
+}
+
+export interface UploadQuestionImageBufferOptions {
+	supabase: any;
+	buffer: Buffer;
+	contentType: string;
+	questionUrl: string;
+	maxBytes?: number;
+	imageId?: string;
+	variant?: string;
 }
 
 export const parseImageDataUrl = (dataUrl: string): ParsedImageDataUrl => {
@@ -41,19 +56,44 @@ export const buildQuestionImagePath = ({
 	imageId?: string;
 }) => `images/${questionUrl}/${imageId}.${extension}`;
 
-export const uploadQuestionImage = async ({
+const resolveQuestionImagePath = ({
+	questionUrl,
+	extension,
+	imageId,
+	variant
+}: {
+	questionUrl: string;
+	extension: string;
+	imageId?: string;
+	variant?: string;
+}) => {
+	if (variant === QUESTION_SOCIAL_CARD_VARIANT) {
+		return buildQuestionSocialCardPath(questionUrl);
+	}
+	return buildQuestionImagePath({ questionUrl, extension, imageId });
+};
+
+export const uploadQuestionImageBuffer = async ({
 	supabase,
-	dataUrl,
+	buffer,
+	contentType,
 	questionUrl,
 	maxBytes,
-	imageId
-}: UploadQuestionImageOptions): Promise<{ path: string; bytes: number; contentType: string }> => {
-	const { buffer, contentType, extension } = parseImageDataUrl(dataUrl);
+	imageId,
+	variant
+}: UploadQuestionImageBufferOptions): Promise<{
+	path: string;
+	bytes: number;
+	contentType: string;
+}> => {
 	if (maxBytes && buffer.length > maxBytes) {
 		throw new Error('Image file too large');
 	}
 
-	const path = buildQuestionImagePath({ questionUrl, extension, imageId });
+	const rawExtension = contentType.split('/')[1]?.toLowerCase() || DEFAULT_EXTENSION;
+	const extension = rawExtension === 'jpeg' ? 'jpg' : rawExtension;
+	const path = resolveQuestionImagePath({ questionUrl, extension, imageId, variant });
+
 	const { error } = await supabase.storage
 		.from('questions')
 		.upload(path, buffer, { upsert: true, contentType, cacheControl: '3600' });
@@ -63,4 +103,24 @@ export const uploadQuestionImage = async ({
 	}
 
 	return { path, bytes: buffer.length, contentType };
+};
+
+export const uploadQuestionImage = async ({
+	supabase,
+	dataUrl,
+	questionUrl,
+	maxBytes,
+	imageId,
+	variant
+}: UploadQuestionImageOptions): Promise<{ path: string; bytes: number; contentType: string }> => {
+	const { buffer, contentType } = parseImageDataUrl(dataUrl);
+	return uploadQuestionImageBuffer({
+		supabase,
+		buffer,
+		contentType,
+		questionUrl,
+		maxBytes,
+		imageId,
+		variant
+	});
 };

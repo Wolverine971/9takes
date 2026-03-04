@@ -80,6 +80,9 @@ importers:
       remark-github:
         specifier: ^11.2.4
         version: 11.2.4
+      sharp:
+        specifier: ^0.34.5
+        version: 0.34.5
       stemmer:
         specifier: ^2.0.1
         version: 2.0.1
