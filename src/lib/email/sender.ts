@@ -38,21 +38,31 @@ function makeBody({
 	fromEmail,
 	subject,
 	htmlMessage,
-	plainTextMessage
+	plainTextMessage,
+	unsubscribeUrl
 }: {
 	toEmails: string[];
 	fromEmail: string;
 	subject: string;
 	htmlMessage: string;
 	plainTextMessage?: string;
+	unsubscribeUrl?: string;
 }): string {
 	const boundary = `boundary_${Date.now()}`;
+	const listUnsubscribeMailto =
+		'mailto:usersup@9takes.com?subject=unsubscribe&body=Please%20unsubscribe%20me';
 
 	const parts = [
 		`MIME-Version: 1.0`,
 		`To: ${toEmails.join(', ')}`,
 		`From: 9takes <${fromEmail}>`,
 		`Subject: ${subject}`,
+		...(unsubscribeUrl
+			? [
+					`List-Unsubscribe: <${unsubscribeUrl}>, <${listUnsubscribeMailto}>`,
+					`List-Unsubscribe-Post: List-Unsubscribe=One-Click`
+				]
+			: []),
 		`Content-Type: multipart/alternative; boundary="${boundary}"`,
 		'',
 		`--${boundary}`,
@@ -140,7 +150,8 @@ export async function sendEmail(options: SendEmailOptions): Promise<SendEmailRes
 					toEmails: [to],
 					fromEmail: 'usersup@9takes.com',
 					subject,
-					htmlMessage: fullHtml
+					htmlMessage: fullHtml,
+					unsubscribeUrl
 				})
 			},
 			userId: 'me'

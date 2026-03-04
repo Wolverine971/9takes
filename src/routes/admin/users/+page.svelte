@@ -8,75 +8,81 @@
 	import StatCard from '$lib/components/charts/StatCard.svelte';
 	import EnneagramBarChart from '$lib/components/charts/EnneagramBarChart.svelte';
 
-	export let data: PageData;
+	let { data }: { data: PageData } = $props();
 
 	type Signup = NonNullable<PageData['signups']>[number] & { createdAt: string };
 	type Profile = NonNullable<PageData['profiles']>[number] & { createdAt: string };
 	type SortField = 'last_sign_in_at' | 'email' | 'enneagram' | 'admin';
 
 	// Format data with readable dates
-	const formattedSignups: Signup[] =
+	let formattedSignups = $derived<Signup[]>(
 		data?.signups?.map((s) => ({
 			...s,
 			createdAt: s.created_at ? convertDateToReadable(s.created_at) : ''
-		})) || [];
+		})) || []
+	);
 
-	let formattedProfiles: Profile[] =
+	let formattedProfiles = $derived<Profile[]>(
 		data?.profiles?.map((p) => ({
 			...p,
 			createdAt: p.created_at ? convertDateToReadable(p.created_at) : ''
-		})) || [];
+		})) || []
+	);
 
 	// User editing state
-	let active: any = null;
-	let activeAdmin = false;
+	let active = $state<any>(null);
+	let activeAdmin = $state(false);
 
 	// Sorting state
-	let sortField: SortField = 'last_sign_in_at';
-	let sortDirection: 'asc' | 'desc' = 'desc';
+	let sortField = $state<SortField>('last_sign_in_at');
+	let sortDirection = $state<'asc' | 'desc'>('desc');
 
 	// Search/filter state
-	let searchQuery = '';
-	let filterType: 'all' | 'admins' | 'with-type' | 'no-type' = 'all';
+	let searchQuery = $state('');
+	let filterType = $state<'all' | 'admins' | 'with-type' | 'no-type'>('all');
 
 	// Compute enneagram distribution
-	$: enneagramDistribution = formattedProfiles.reduce(
-		(acc: Record<number, number>, p: any) => {
-			if (p.enneagram) {
-				acc[p.enneagram] = (acc[p.enneagram] || 0) + 1;
-			}
-			return acc;
-		},
-		{} as Record<number, number>
+	let enneagramDistribution = $derived(
+		formattedProfiles.reduce(
+			(acc: Record<number, number>, p: any) => {
+				if (p.enneagram) {
+					acc[p.enneagram] = (acc[p.enneagram] || 0) + 1;
+				}
+				return acc;
+			},
+			{} as Record<number, number>
+		)
 	);
 
 	// Filter profiles based on search and filter
-	$: filteredProfiles = formattedProfiles.filter((p) => {
-		// Search filter
-		const matchesSearch =
-			!searchQuery ||
-			p.email?.toLowerCase().includes(searchQuery.toLowerCase()) ||
-			p.username?.toLowerCase().includes(searchQuery.toLowerCase()) ||
-			p.first_name?.toLowerCase().includes(searchQuery.toLowerCase()) ||
-			p.last_name?.toLowerCase().includes(searchQuery.toLowerCase());
+	let filteredProfiles = $derived(
+		formattedProfiles.filter((p) => {
+			const matchesSearch =
+				!searchQuery ||
+				p.email?.toLowerCase().includes(searchQuery.toLowerCase()) ||
+				p.username?.toLowerCase().includes(searchQuery.toLowerCase()) ||
+				p.first_name?.toLowerCase().includes(searchQuery.toLowerCase()) ||
+				p.last_name?.toLowerCase().includes(searchQuery.toLowerCase());
 
-		// Type filter
-		let matchesFilter = true;
-		if (filterType === 'admins') matchesFilter = p.admin === true;
-		else if (filterType === 'with-type') matchesFilter = !!p.enneagram;
-		else if (filterType === 'no-type') matchesFilter = !p.enneagram;
+			let matchesFilter = true;
+			if (filterType === 'admins') matchesFilter = p.admin === true;
+			else if (filterType === 'with-type') matchesFilter = !!p.enneagram;
+			else if (filterType === 'no-type') matchesFilter = !p.enneagram;
 
-		return matchesSearch && matchesFilter;
-	});
+			return matchesSearch && matchesFilter;
+		})
+	);
 
 	// Sort profiles by field
-	$: sortedProfiles = [...filteredProfiles].sort((a, b) => {
-		const aVal = (a[sortField] ?? '') as string | number | boolean;
-		const bVal = (b[sortField] ?? '') as string | number | boolean;
-		if (aVal < bVal) return sortDirection === 'asc' ? -1 : 1;
-		if (aVal > bVal) return sortDirection === 'asc' ? 1 : -1;
-		return 0;
-	});
+	let sortedProfiles = $derived(
+		[...filteredProfiles].sort((a, b) => {
+			const aVal = (a[sortField] ?? '') as string | number | boolean;
+			const bVal = (b[sortField] ?? '') as string | number | boolean;
+			if (aVal < bVal) return sortDirection === 'asc' ? -1 : 1;
+			if (aVal > bVal) return sortDirection === 'asc' ? 1 : -1;
+			return 0;
+		})
+	);
 
 	function toggleSort(field: SortField) {
 		if (sortField === field) {
@@ -107,17 +113,12 @@
 			) {
 				notifications.success('User updated successfully', 3000);
 
-				// Update local data
+				// Update local data - formattedProfiles derives from data.profiles automatically
 				if (data.profiles) {
 					data.profiles = data.profiles.map((p) => ({
 						...p,
 						admin: p.email === active.email ? activeAdmin : p.admin
 					}));
-
-					formattedProfiles = formattedProfiles.map((p) => ({
-						...p,
-						admin: p.email === active.email ? activeAdmin : p.admin
-					})) as Profile[];
 				}
 			} else {
 				notifications.danger('Error updating user', 3000);
@@ -214,26 +215,26 @@
 					<table class="data-table">
 						<thead>
 							<tr>
-								<th class="sortable" on:click={() => toggleSort('last_sign_in_at')}>
+								<th class="sortable" onclick={() => toggleSort('last_sign_in_at')}>
 									Last Active
 									{#if sortField === 'last_sign_in_at'}
 										<span class="sort-icon">{sortDirection === 'asc' ? '↑' : '↓'}</span>
 									{/if}
 								</th>
-								<th class="sortable" on:click={() => toggleSort('email')}>
+								<th class="sortable" onclick={() => toggleSort('email')}>
 									Email
 									{#if sortField === 'email'}
 										<span class="sort-icon">{sortDirection === 'asc' ? '↑' : '↓'}</span>
 									{/if}
 								</th>
-								<th class="sortable" on:click={() => toggleSort('enneagram')}>
+								<th class="sortable" onclick={() => toggleSort('enneagram')}>
 									Type
 									{#if sortField === 'enneagram'}
 										<span class="sort-icon">{sortDirection === 'asc' ? '↑' : '↓'}</span>
 									{/if}
 								</th>
 								<th>Name</th>
-								<th class="sortable" on:click={() => toggleSort('admin')}>
+								<th class="sortable" onclick={() => toggleSort('admin')}>
 									Admin
 									{#if sortField === 'admin'}
 										<span class="sort-icon">{sortDirection === 'asc' ? '↑' : '↓'}</span>
@@ -281,7 +282,7 @@
 										<button
 											type="button"
 											class="edit-btn"
-											on:click={() => {
+											onclick={() => {
 												active = { ...profile };
 												activeAdmin = !!active.admin;
 												getModal('user-modal').open();
@@ -371,11 +372,11 @@
 			<button
 				type="button"
 				class="btn btn-secondary"
-				on:click={() => getModal('user-modal').close()}
+				onclick={() => getModal('user-modal').close()}
 			>
 				Cancel
 			</button>
-			<button type="button" class="btn btn-primary" on:click={saveUserAdminChanges}>
+			<button type="button" class="btn btn-primary" onclick={saveUserAdminChanges}>
 				Save Changes
 			</button>
 		</div>
@@ -391,13 +392,13 @@
 	.page-header {
 		margin-bottom: 20px;
 		padding-bottom: 12px;
-		border-bottom: 1px solid var(--border-color, #e2e8f0);
+		border-bottom: 1px solid var(--void-elevated);
 	}
 
 	.page-title {
 		font-size: 1.375rem;
 		font-weight: 700;
-		color: var(--text-primary, #1e293b);
+		color: var(--text-primary);
 		margin: 0;
 	}
 
@@ -418,8 +419,8 @@
 	}
 
 	.distribution-card {
-		background: var(--card-background, #fff);
-		border: 1px solid var(--border-color, #e2e8f0);
+		background: var(--void-surface);
+		border: 1px solid var(--void-elevated);
 		border-radius: 10px;
 		overflow: hidden;
 	}
@@ -430,16 +431,16 @@
 	}
 
 	.table-card {
-		background: var(--card-background, #fff);
-		border: 1px solid var(--border-color, #e2e8f0);
+		background: var(--void-surface);
+		border: 1px solid var(--void-elevated);
 		border-radius: 10px;
 		overflow: hidden;
 	}
 
 	.table-header {
 		padding: 12px 16px;
-		border-bottom: 1px solid var(--border-color, #e2e8f0);
-		background: var(--hover-background, #f8fafc);
+		border-bottom: 1px solid var(--void-elevated);
+		background: var(--void-deep);
 		display: flex;
 		justify-content: space-between;
 		align-items: center;
@@ -454,7 +455,7 @@
 		margin: 0;
 		font-size: 0.8125rem;
 		font-weight: 600;
-		color: var(--text-primary, #1e293b);
+		color: var(--text-primary);
 	}
 
 	.title-icon {
@@ -463,7 +464,7 @@
 
 	.count-badge {
 		padding: 2px 8px;
-		background: var(--primary, #3b82f6);
+		background: var(--shadow-monarch);
 		color: white;
 		border-radius: 10px;
 		font-size: 0.6875rem;
@@ -478,26 +479,26 @@
 
 	.search-input {
 		padding: 8px 12px;
-		border: 1px solid var(--border-color, #e2e8f0);
+		border: 1px solid var(--void-elevated);
 		border-radius: 6px;
 		font-size: 0.75rem;
 		min-width: 160px;
-		background: var(--card-background, #fff);
-		color: var(--text-primary, #1e293b);
+		background: var(--void-surface);
+		color: var(--text-primary);
 	}
 
 	.search-input:focus {
 		outline: none;
-		border-color: var(--primary, #3b82f6);
+		border-color: var(--shadow-monarch);
 	}
 
 	.filter-select {
 		padding: 8px 12px;
-		border: 1px solid var(--border-color, #e2e8f0);
+		border: 1px solid var(--void-elevated);
 		border-radius: 6px;
 		font-size: 0.75rem;
-		background: var(--card-background, #fff);
-		color: var(--text-primary, #1e293b);
+		background: var(--void-surface);
+		color: var(--text-primary);
 		cursor: pointer;
 	}
 
@@ -517,7 +518,7 @@
 	.data-table thead {
 		position: sticky;
 		top: 0;
-		background: var(--card-background, #fff);
+		background: var(--void-surface);
 		z-index: 1;
 	}
 
@@ -525,11 +526,11 @@
 		padding: 10px 12px;
 		text-align: left;
 		font-weight: 600;
-		color: var(--text-secondary, #64748b);
+		color: var(--text-secondary);
 		font-size: 0.625rem;
 		text-transform: uppercase;
 		letter-spacing: 0.5px;
-		border-bottom: 1px solid var(--border-color, #e2e8f0);
+		border-bottom: 1px solid var(--void-elevated);
 		white-space: nowrap;
 	}
 
@@ -539,28 +540,28 @@
 	}
 
 	.data-table th.sortable:hover {
-		color: var(--primary, #3b82f6);
+		color: var(--shadow-monarch);
 	}
 
 	.sort-icon {
 		margin-left: 4px;
-		color: var(--primary, #3b82f6);
+		color: var(--shadow-monarch);
 	}
 
 	.data-table td {
 		padding: 10px 12px;
-		border-bottom: 1px solid var(--border-color, #e2e8f0);
-		color: var(--text-primary, #1e293b);
+		border-bottom: 1px solid var(--void-elevated);
+		color: var(--text-primary);
 	}
 
 	.data-table tbody tr:hover {
-		background: var(--hover-background, #f8fafc);
+		background: var(--void-deep);
 	}
 
 	.date-cell {
 		white-space: nowrap;
 		font-size: 0.6875rem;
-		color: var(--text-secondary, #64748b);
+		color: var(--text-secondary);
 	}
 
 	.name-cell {
@@ -571,12 +572,12 @@
 	}
 
 	.email-link {
-		color: var(--text-primary, #1e293b);
+		color: var(--text-primary);
 		text-decoration: none;
 	}
 
 	.email-link:hover {
-		color: var(--primary, #3b82f6);
+		color: var(--shadow-monarch);
 	}
 
 	.type-badge {
@@ -592,7 +593,7 @@
 	}
 
 	.empty-badge {
-		color: var(--text-secondary, #94a3b8);
+		color: var(--text-secondary);
 	}
 
 	.admin-badge {
@@ -606,8 +607,8 @@
 
 	.user-badge {
 		padding: 2px 6px;
-		background: var(--hover-background, #f1f5f9);
-		color: var(--text-secondary, #64748b);
+		background: var(--void-deep);
+		color: var(--text-secondary);
 		border-radius: 10px;
 		font-size: 0.625rem;
 		font-weight: 500;
@@ -615,9 +616,9 @@
 
 	.edit-btn {
 		padding: 4px 10px;
-		background: var(--card-background, #fff);
-		color: var(--primary, #3b82f6);
-		border: 1px solid var(--primary, #3b82f6);
+		background: var(--void-surface);
+		color: var(--shadow-monarch);
+		border: 1px solid var(--shadow-monarch);
 		border-radius: 5px;
 		font-size: 0.6875rem;
 		font-weight: 500;
@@ -626,7 +627,7 @@
 	}
 
 	.edit-btn:hover {
-		background: var(--primary, #3b82f6);
+		background: var(--shadow-monarch);
 		color: white;
 	}
 
@@ -639,7 +640,7 @@
 		margin: 0 0 16px 0;
 		font-size: 1.125rem;
 		font-weight: 600;
-		color: var(--text-primary, #1e293b);
+		color: var(--text-primary);
 	}
 
 	.modal-user-info {
@@ -647,7 +648,7 @@
 		align-items: center;
 		gap: 12px;
 		padding: 12px;
-		background: var(--hover-background, #f8fafc);
+		background: var(--void-deep);
 		border-radius: 10px;
 		margin-bottom: 16px;
 	}
@@ -677,8 +678,8 @@
 		border-radius: 10px;
 		font-size: 1.125rem;
 		font-weight: 700;
-		background: var(--border-color, #e2e8f0);
-		color: var(--text-secondary, #64748b);
+		background: var(--void-elevated);
+		color: var(--text-secondary);
 	}
 
 	.user-details {
@@ -688,7 +689,7 @@
 	.user-email {
 		font-size: 0.8125rem;
 		font-weight: 600;
-		color: var(--text-primary, #1e293b);
+		color: var(--text-primary);
 		margin: 0 0 4px 0;
 		overflow: hidden;
 		text-overflow: ellipsis;
@@ -697,7 +698,7 @@
 
 	.user-name {
 		font-size: 0.75rem;
-		color: var(--text-secondary, #64748b);
+		color: var(--text-secondary);
 		margin: 0;
 	}
 
@@ -709,24 +710,24 @@
 		display: block;
 		margin-bottom: 6px;
 		font-weight: 500;
-		color: var(--text-primary, #1e293b);
+		color: var(--text-primary);
 		font-size: 0.8125rem;
 	}
 
 	.form-select {
 		width: 100%;
 		padding: 10px 12px;
-		border: 1px solid var(--border-color, #e2e8f0);
+		border: 1px solid var(--void-elevated);
 		border-radius: 6px;
-		background: var(--card-background, #fff);
-		color: var(--text-primary, #1e293b);
+		background: var(--void-surface);
+		color: var(--text-primary);
 		font-size: 0.8125rem;
 		cursor: pointer;
 	}
 
 	.form-select:focus {
 		outline: none;
-		border-color: var(--primary, #3b82f6);
+		border-color: var(--shadow-monarch);
 	}
 
 	.modal-actions {
@@ -745,23 +746,23 @@
 	}
 
 	.btn-secondary {
-		background: var(--card-background, #fff);
-		color: var(--text-primary, #1e293b);
-		border: 1px solid var(--border-color, #e2e8f0);
+		background: var(--void-surface);
+		color: var(--text-primary);
+		border: 1px solid var(--void-elevated);
 	}
 
 	.btn-secondary:hover {
-		background: var(--hover-background, #f8fafc);
+		background: var(--void-deep);
 	}
 
 	.btn-primary {
-		background: var(--primary, #3b82f6);
+		background: var(--shadow-monarch);
 		color: white;
 		border: none;
 	}
 
 	.btn-primary:hover {
-		background: #2563eb;
+		opacity: 0.85;
 	}
 
 	/* Mobile */

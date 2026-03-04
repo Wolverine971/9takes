@@ -4,6 +4,7 @@
 import { json, error } from '@sveltejs/kit';
 import type { RequestHandler } from './$types';
 import type { ScheduleEmailRequest } from '$lib/types/email';
+import { getSuppressedEmailSet, normalizeEmail } from '$lib/email/suppression';
 
 export const POST: RequestHandler = async ({ request, locals }) => {
 	const session = locals.session;
@@ -55,17 +56,14 @@ export const POST: RequestHandler = async ({ request, locals }) => {
 
 		const scheduledForIso = scheduledDate.toISOString();
 
-		// Check for unsubscribed emails
-		const { data: unsubscribes } = await supabase
-			.from('email_unsubscribes')
-			.select('email')
-			.in(
-				'email',
-				recipients.map((r) => r.email)
-			);
-
-		const unsubscribedEmails = new Set((unsubscribes || []).map((u) => u.email));
-		const validRecipients = recipients.filter((r) => !unsubscribedEmails.has(r.email));
+		// Check suppression list (email_unsubscribes + legacy signup unsubscribes).
+		const suppressedEmails = await getSuppressedEmailSet(
+			supabase,
+			recipients.map((r) => r.email)
+		);
+		const validRecipients = recipients.filter(
+			(r) => !suppressedEmails.has(normalizeEmail(r.email))
+		);
 
 		if (validRecipients.length === 0) {
 			throw error(400, 'All recipients have unsubscribed');

@@ -5,6 +5,7 @@ import { json, error } from '@sveltejs/kit';
 import type { RequestHandler } from './$types';
 import type { SendEmailRequest, SendEmailResponse } from '$lib/types/email';
 import { sendBatchEmails } from '$lib/email/sender';
+import { getSuppressedEmailSet, normalizeEmail } from '$lib/email/suppression';
 
 export const POST: RequestHandler = async ({ request, locals }) => {
 	const session = locals.session;
@@ -43,17 +44,14 @@ export const POST: RequestHandler = async ({ request, locals }) => {
 			throw error(400, 'Email content is required');
 		}
 
-		// Check for unsubscribed emails
-		const { data: unsubscribes } = await supabase
-			.from('email_unsubscribes')
-			.select('email')
-			.in(
-				'email',
-				recipients.map((r) => r.email)
-			);
-
-		const unsubscribedEmails = new Set((unsubscribes || []).map((u) => u.email));
-		const validRecipients = recipients.filter((r) => !unsubscribedEmails.has(r.email));
+		// Check suppression list (email_unsubscribes + legacy signup unsubscribes).
+		const suppressedEmails = await getSuppressedEmailSet(
+			supabase,
+			recipients.map((r) => r.email)
+		);
+		const validRecipients = recipients.filter(
+			(r) => !suppressedEmails.has(normalizeEmail(r.email))
+		);
 
 		if (validRecipients.length === 0) {
 			throw error(400, 'All recipients have unsubscribed');
@@ -67,13 +65,14 @@ export const POST: RequestHandler = async ({ request, locals }) => {
 			campaignId: campaign_id,
 			sentBy: session.user.id,
 			delayMs: 100, // 100ms delay between sends
-			includeFooter: false
+			includeFooter: true
 		});
 
 		const response: SendEmailResponse = {
 			success: result.sent > 0,
 			sent: result.sent,
 			failed: result.failed,
+			excluded_count: recipients.length - validRecipients.length,
 			results: result.results
 		};
 

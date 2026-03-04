@@ -213,18 +213,12 @@
 	{:else}
 		<!-- View Mode -->
 		<div class="view-section">
-			<div class="question-texts">
-				<div class="field-group">
-					<span class="field-label">Original</span>
-					<p class="question-text">{questionData.question}</p>
-				</div>
-				{#if questionData.question_formatted && questionData.question_formatted !== questionData.question}
-					<div class="field-group">
-						<span class="field-label">Formatted</span>
-						<p class="question-text formatted">{questionData.question_formatted}</p>
-					</div>
-				{/if}
-			</div>
+			<span class="field-label">Original</span>
+			<p class="question-text">{questionData.question}</p>
+			{#if questionData.question_formatted && questionData.question_formatted !== questionData.question}
+				<span class="field-label">Formatted</span>
+				<p class="question-text formatted">{questionData.question_formatted}</p>
+			{/if}
 		</div>
 
 		<div class="meta-row">
@@ -269,22 +263,21 @@
 			</div>
 		{/if}
 
-		{#if confirmingTag}
-			<div class="confirm-bar">
-				<p class="confirm-text">Run AI tagging on this question?</p>
-				<div class="confirm-actions">
+		<div class="action-row">
+			{#if confirmingTag}
+				<div class="confirm-inline">
+					<span class="confirm-text">Run AI tagging?</span>
 					<button class="btn btn-primary btn-sm" disabled={taggingLoading} on:click={tagQuestion}>
-						{taggingLoading ? 'Tagging...' : 'Yes, Tag'}
+						{taggingLoading ? 'Tagging...' : 'Confirm'}
 					</button>
 					<button class="btn btn-secondary btn-sm" on:click={() => (confirmingTag = false)}>
 						Cancel
 					</button>
 				</div>
-			</div>
-		{/if}
-
-		<div class="action-row">
-			<button class="btn btn-outline" on:click={() => (confirmingTag = true)}>AI Tag</button>
+			{:else}
+				<button class="btn btn-outline" on:click={() => (confirmingTag = true)}>AI Tag</button>
+			{/if}
+			<div class="action-spacer"></div>
 			<button class="btn btn-outline" on:click={startEditing}>Edit</button>
 			<a href="/questions/{questionData.url}" class="btn btn-primary" target="_blank">View</a>
 		</div>
@@ -293,8 +286,9 @@
 
 <style>
 	.question-card {
+		display: flex;
+		flex-direction: column;
 		width: 100%;
-		max-width: 720px;
 		background: var(--card-background, #fff);
 		border: 1px solid var(--border-color, #e2e8f0);
 		border-radius: 12px;
@@ -514,25 +508,21 @@
 
 	/* View Mode */
 	.view-section {
-		padding: 20px;
-		padding-bottom: 12px;
-	}
-
-	.question-texts {
 		display: flex;
 		flex-direction: column;
-		gap: 10px;
+		gap: 4px;
+		padding: 20px 20px 12px;
 	}
 
 	.question-text {
-		font-size: 0.9rem;
+		font-size: 0.95rem;
 		color: var(--text-primary, #1e293b);
-		margin: 0;
+		margin: 0 0 8px;
 		line-height: 1.5;
+		word-break: break-word;
 	}
 
 	.question-text.formatted {
-		color: var(--text-primary, #1e293b);
 		font-weight: 500;
 	}
 
@@ -580,40 +570,38 @@
 		color: #059669;
 	}
 
-	/* Confirm Bar */
-	.confirm-bar {
+	/* Action Row */
+	.action-row {
 		display: flex;
+		flex-wrap: wrap;
 		align-items: center;
-		justify-content: space-between;
-		gap: 12px;
-		margin: 0 20px;
-		margin-bottom: 12px;
-		padding: 10px 14px;
-		background: rgba(59, 130, 246, 0.05);
+		gap: 8px;
+		padding: 12px 20px;
+		border-top: 1px solid var(--border-color, #e2e8f0);
+		background: var(--hover-background, #f8fafc);
+	}
+
+	.action-spacer {
+		flex: 1;
+		min-width: 0;
+	}
+
+	/* Confirm Inline */
+	.confirm-inline {
+		display: flex;
+		flex-wrap: wrap;
+		align-items: center;
+		gap: 6px;
+		padding: 4px 12px;
+		background: rgba(59, 130, 246, 0.06);
 		border: 1px solid rgba(59, 130, 246, 0.15);
 		border-radius: 8px;
 	}
 
 	.confirm-text {
-		margin: 0;
 		font-size: 0.8rem;
 		font-weight: 500;
 		color: var(--text-primary, #1e293b);
-	}
-
-	.confirm-actions {
-		display: flex;
-		gap: 6px;
-		flex-shrink: 0;
-	}
-
-	/* Action Row */
-	.action-row {
-		display: flex;
-		gap: 8px;
-		padding: 12px 20px;
-		border-top: 1px solid var(--border-color, #e2e8f0);
-		background: var(--hover-background, #f8fafc);
 	}
 
 	/* Buttons */

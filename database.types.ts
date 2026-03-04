@@ -3531,6 +3531,12 @@ export type Database = {
           persona_title: string
         }[]
       }
+      get_suppressed_emails: {
+        Args: { p_emails: string[] }
+        Returns: {
+          email: string
+        }[]
+      }
       get_user_question_comments: {
         Args: { authorid: string }
         Returns: {
@@ -3582,6 +3588,7 @@ export type Database = {
       is_analytics_utility_path: { Args: { p_path: string }; Returns: boolean }
       jsonb_array_to_text: { Args: { arr: Json }; Returns: string }
       mark_emails_ready_for_processing: { Args: never; Returns: number }
+      normalize_email_text: { Args: { p_email: string }; Returns: string }
       parse_json_with_escapes: { Args: { json_text: string }; Returns: Json }
       process_scheduled_emails: { Args: never; Returns: undefined }
       promote_waitlist_to_client: {
@@ -3708,6 +3715,15 @@ export type Database = {
           source: string
           title: string
         }[]
+      }
+      unsubscribe_email_direct: {
+        Args: {
+          p_email: string
+          p_reason?: string
+          p_source?: string
+          p_source_id?: string
+        }
+        Returns: string
       }
       upsert_page_analytics_visit: {
         Args: {

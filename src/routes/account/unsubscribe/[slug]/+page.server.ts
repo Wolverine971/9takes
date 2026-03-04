@@ -44,13 +44,36 @@ export const actions: Actions = {
 
 			const body = Object.fromEntries(await request.formData());
 			const email = String(body.email ?? '');
+			const normalizedEmail = email.trim().toLowerCase();
+			if (!normalizedEmail) {
+				throw error(400, { message: 'Email is required' });
+			}
 
 			const { error: updateUserError } = await supabase
 				.from('signups')
 				.update({ unsubscribed_date: new Date().toISOString() })
 				.eq('email', email)
 				.eq('unsubscribe_id', slug);
+			const { data: signupRow } = await supabase
+				.from('signups')
+				.select('id')
+				.eq('email', email)
+				.eq('unsubscribe_id', slug)
+				.single();
+			const sourceId = signupRow?.id ? String(signupRow.id) : null;
+			const { error: suppressionError } = await (supabase as any).rpc('unsubscribe_email_direct', {
+				p_email: normalizedEmail,
+				p_source: 'signups',
+				p_source_id: sourceId,
+				p_reason: 'legacy_unsubscribe_page'
+			});
 			if (!updateUserError) {
+				if (suppressionError) {
+					console.error(
+						'Failed to sync legacy unsubscribe into suppression list',
+						suppressionError
+					);
+				}
 				return { success: true };
 			} else {
 				throw error(500, {

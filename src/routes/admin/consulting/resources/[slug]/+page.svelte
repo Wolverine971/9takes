@@ -2,7 +2,7 @@
 <script lang="ts">
 	import type { PageData } from './$types';
 
-	export let data: PageData;
+	let { data }: { data: PageData } = $props();
 
 	const categoryLabels: Record<string, string> = {
 		playbook: 'Playbook',

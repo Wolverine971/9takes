@@ -7,6 +7,7 @@
 		EmailAnalytics,
 		EmailDraft,
 		EmailSend,
+		EmailUnsubscribe,
 		EmailTrackingEvent,
 		ScheduledEmail,
 		RecipientSource,
@@ -15,14 +16,14 @@
 	import { notifications } from '$lib/components/molecules/notifications';
 	import EmailComposeModal from '$lib/components/email/EmailComposeModal.svelte';
 
-	export let data: PageData;
+	let { data }: { data: PageData } = $props();
 
 	// State
-	let activeTab: 'users' | 'drafts' | 'sent' | 'scheduled' = 'users';
-	let users = (data.users || []) as EmailRecipient[];
-	let totalUsers = data.totalUsers || 0;
-	let drafts = (data.drafts || []) as unknown as EmailDraft[];
-	let scheduledEmails = (data.scheduledEmails || []) as unknown as ScheduledEmail[];
+	let activeTab = $state<'users' | 'drafts' | 'sent' | 'scheduled' | 'unsubscribes'>('users');
+	let users = $state((data.users || []) as EmailRecipient[]);
+	let totalUsers = $state(data.totalUsers || 0);
+	let drafts = $state((data.drafts || []) as unknown as EmailDraft[]);
+	let scheduledEmails = $state((data.scheduledEmails || []) as unknown as ScheduledEmail[]);
 	const analyticsDefaults: EmailAnalytics = {
 		total_sent: 0,
 		total_opened: 0,
@@ -36,48 +37,56 @@
 		click_rate: 0,
 		unsubscribe_rate: 0
 	};
-	let analytics: EmailAnalytics = { ...analyticsDefaults, ...data.analytics };
-	let cronStatus = data.cronStatus;
+	let analytics = $state<EmailAnalytics>({ ...analyticsDefaults, ...data.analytics });
+	let cronStatus = $state(data.cronStatus);
 
 	// Analytics filter state
-	let analyticsRange: 'all' | '7d' | '30d' | '90d' | 'custom' = 'all';
-	let analyticsFrom = '';
-	let analyticsTo = '';
-	let analyticsLoading = false;
+	let analyticsRange = $state<'all' | '7d' | '30d' | '90d' | 'custom'>('all');
+	let analyticsFrom = $state('');
+	let analyticsTo = $state('');
+	let analyticsLoading = $state(false);
 
 	// Selection state
-	let selectedUsers = new Set<string>();
-	let selectAll = false;
+	let selectedUsers = $state(new Set<string>());
+	let selectAll = $state(false);
 
 	// Search and filter state
-	let searchQuery = '';
-	let sourceFilter: 'all' | 'profiles' | 'signups' | 'coaching_waitlist' = 'all';
-	let currentPage = 1;
-	let isLoading = false;
+	let searchQuery = $state('');
+	let sourceFilter = $state<'all' | 'profiles' | 'signups' | 'coaching_waitlist'>('all');
+	let currentPage = $state(1);
+	let isLoading = $state(false);
 
 	// Sent email state
 	const sentLimit = 50;
-	let sentEmails: EmailSend[] = [];
-	let sentTotal = 0;
-	let sentPage = 1;
-	let sentIsLoading = false;
-	let sentSearch = '';
-	let sentStatusFilter: 'all' | 'sent' | 'failed' | 'bounced' = 'all';
-	let sentSourceFilter: 'all' | 'profiles' | 'signups' | 'coaching_waitlist' = 'all';
-	let sentDetailOpen = false;
-	let sentDetailLoading = false;
-	let sentDetailEmail: EmailSend | null = null;
-	let sentDetailEvents: EmailTrackingEvent[] = [];
-	let sentDetailRaw = false;
+	let sentEmails = $state<EmailSend[]>([]);
+	let sentTotal = $state(0);
+	let sentPage = $state(1);
+	let sentIsLoading = $state(false);
+	let sentSearch = $state('');
+	let sentStatusFilter = $state<'all' | 'sent' | 'failed' | 'bounced'>('all');
+	let sentSourceFilter = $state<'all' | 'profiles' | 'signups' | 'coaching_waitlist'>('all');
+	let sentDetailOpen = $state(false);
+	let sentDetailLoading = $state(false);
+	let sentDetailEmail = $state<EmailSend | null>(null);
+	let sentDetailEvents = $state<EmailTrackingEvent[]>([]);
+	let sentDetailRaw = $state(false);
+
+	// Unsubscribe list state
+	const unsubLimit = 50;
+	let unsubscribes = $state<EmailUnsubscribe[]>([]);
+	let unsubTotal = $state(0);
+	let unsubPage = $state(1);
+	let unsubIsLoading = $state(false);
+	let unsubSearch = $state('');
 
 	// Compose modal state
-	let showCompose = false;
-	let composeRecipients: EmailRecipient[] = [];
-	let initialSubject = '';
-	let initialContent = '';
-	let initialScheduledFor = '';
-	let initialDraftId: string | undefined = undefined;
-	let loadingBatchRecipients = false;
+	let showCompose = $state(false);
+	let composeRecipients = $state<EmailRecipient[]>([]);
+	let initialSubject = $state('');
+	let initialContent = $state('');
+	let initialScheduledFor = $state('');
+	let initialDraftId = $state<string | undefined>(undefined);
+	let loadingBatchRecipients = $state(false);
 
 	const batchSourceOptions: Array<{ value: RecipientSource; label: string }> = [
 		{ value: 'profiles', label: 'Profiles' },
@@ -85,7 +94,7 @@
 		{ value: 'coaching_waitlist', label: 'Coaching Waitlist' }
 	];
 	const allRecipientSources: RecipientSource[] = batchSourceOptions.map((option) => option.value);
-	let selectedBatchSources = new Set<RecipientSource>(allRecipientSources);
+	let selectedBatchSources = $state(new Set<RecipientSource>(allRecipientSources));
 
 	const usersPerPage = 50;
 
@@ -302,6 +311,32 @@
 		}
 	}
 
+	async function fetchUnsubscribes() {
+		unsubIsLoading = true;
+		try {
+			const params = new URLSearchParams({
+				page: unsubPage.toString(),
+				limit: unsubLimit.toString()
+			});
+			if (unsubSearch) params.set('search', unsubSearch);
+
+			const response = await fetch(`/api/admin/email-dashboard/unsubscribes?${params}`);
+			const result = await response.json();
+
+			if (!response.ok) {
+				throw new Error(result.message || 'Failed to fetch unsubscribes');
+			}
+
+			unsubscribes = result.unsubscribes || [];
+			unsubTotal = result.pagination?.total || 0;
+		} catch (error) {
+			console.error('Error fetching unsubscribes:', error);
+			notifications.danger('Failed to fetch unsubscribes', 3000);
+		} finally {
+			unsubIsLoading = false;
+		}
+	}
+
 	function handleSentFilterChange() {
 		sentPage = 1;
 		void fetchSentEmails();
@@ -313,6 +348,15 @@
 			if (activeTab !== 'sent') return;
 			sentPage = 1;
 			void fetchSentEmails();
+		}, 300);
+	}
+
+	function handleUnsubSearchInput() {
+		clearTimeout(unsubSearchTimeout);
+		unsubSearchTimeout = setTimeout(() => {
+			if (activeTab !== 'unsubscribes') return;
+			unsubPage = 1;
+			void fetchUnsubscribes();
 		}, 300);
 	}
 
@@ -358,7 +402,7 @@
 		}
 	}
 
-	function setActiveTab(tab: 'users' | 'drafts' | 'sent' | 'scheduled') {
+	function setActiveTab(tab: 'users' | 'drafts' | 'sent' | 'scheduled' | 'unsubscribes') {
 		activeTab = tab;
 		if (tab === 'sent') {
 			void fetchSentEmails();
@@ -368,6 +412,9 @@
 		}
 		if (tab === 'scheduled') {
 			void fetchScheduledEmails();
+		}
+		if (tab === 'unsubscribes') {
+			void fetchUnsubscribes();
 		}
 	}
 
@@ -568,10 +615,12 @@
 
 	let searchTimeout: ReturnType<typeof setTimeout> | undefined;
 	let sentSearchTimeout: ReturnType<typeof setTimeout> | undefined;
+	let unsubSearchTimeout: ReturnType<typeof setTimeout> | undefined;
 
 	onDestroy(() => {
 		if (searchTimeout) clearTimeout(searchTimeout);
 		if (sentSearchTimeout) clearTimeout(sentSearchTimeout);
+		if (unsubSearchTimeout) clearTimeout(unsubSearchTimeout);
 	});
 </script>
 
@@ -588,7 +637,7 @@
 			<select
 				id="analytics-range"
 				bind:value={analyticsRange}
-				on:change={handleAnalyticsRangeChange}
+				onchange={handleAnalyticsRangeChange}
 				class="filter-select"
 			>
 				<option value="all">All time</option>
@@ -608,13 +657,13 @@
 					aria-label="Start date"
 				/>
 				<input type="date" bind:value={analyticsTo} class="filter-select" aria-label="End date" />
-				<button class="btn btn-secondary btn-sm" on:click={applyAnalyticsRange}> Apply </button>
+				<button class="btn btn-secondary btn-sm" onclick={applyAnalyticsRange}> Apply </button>
 			</div>
 		{/if}
 
 		<button
 			class="btn btn-secondary btn-sm"
-			on:click={applyAnalyticsRange}
+			onclick={applyAnalyticsRange}
 			disabled={analyticsLoading}
 		>
 			{analyticsLoading ? 'Updating...' : 'Refresh'}
@@ -676,25 +725,32 @@
 
 	<!-- Tabs -->
 	<div class="tabs">
-		<button class="tab" class:active={activeTab === 'users'} on:click={() => setActiveTab('users')}>
+		<button class="tab" class:active={activeTab === 'users'} onclick={() => setActiveTab('users')}>
 			Users ({totalUsers})
 		</button>
 		<button
 			class="tab"
 			class:active={activeTab === 'drafts'}
-			on:click={() => setActiveTab('drafts')}
+			onclick={() => setActiveTab('drafts')}
 		>
 			Drafts ({drafts.length})
 		</button>
 		<button
 			class="tab"
 			class:active={activeTab === 'scheduled'}
-			on:click={() => setActiveTab('scheduled')}
+			onclick={() => setActiveTab('scheduled')}
 		>
 			Scheduled ({scheduledEmails.length})
 		</button>
-		<button class="tab" class:active={activeTab === 'sent'} on:click={() => setActiveTab('sent')}>
+		<button class="tab" class:active={activeTab === 'sent'} onclick={() => setActiveTab('sent')}>
 			Sent
+		</button>
+		<button
+			class="tab"
+			class:active={activeTab === 'unsubscribes'}
+			onclick={() => setActiveTab('unsubscribes')}
+		>
+			Unsubscribed ({unsubTotal})
 		</button>
 	</div>
 
@@ -704,7 +760,7 @@
 			<!-- Toolbar -->
 			<div class="toolbar">
 				<div class="toolbar-left">
-					<select bind:value={sourceFilter} on:change={handleFilterChange} class="filter-select">
+					<select bind:value={sourceFilter} onchange={handleFilterChange} class="filter-select">
 						<option value="all">All Sources</option>
 						<option value="profiles">Profiles</option>
 						<option value="signups">Signups</option>
@@ -715,12 +771,12 @@
 						bind:value={searchQuery}
 						placeholder="Search by email or name..."
 						class="search-input"
-						on:input={handleSearchInput}
+						oninput={handleSearchInput}
 					/>
 				</div>
 				<div class="toolbar-right">
 					{#if selectedUsers.size > 0}
-						<button class="btn btn-primary" on:click={openComposeWithSelected}>
+						<button class="btn btn-primary" onclick={openComposeWithSelected}>
 							Email {selectedUsers.size} Selected
 						</button>
 					{/if}
@@ -739,27 +795,27 @@
 								<input
 									type="checkbox"
 									checked={selectedBatchSources.has(option.value)}
-									on:change={() => toggleBatchSource(option.value)}
+									onchange={() => toggleBatchSource(option.value)}
 								/>
 								<span>{option.label}</span>
 							</label>
 						{/each}
 					</div>
 					<div class="batch-compose-actions">
-						<button class="btn btn-secondary btn-sm" on:click={selectAllBatchSources}>
+						<button class="btn btn-secondary btn-sm" onclick={selectAllBatchSources}>
 							Select All
 						</button>
-						<button class="btn btn-secondary btn-sm" on:click={clearBatchSources}>Clear</button>
+						<button class="btn btn-secondary btn-sm" onclick={clearBatchSources}>Clear</button>
 						<button
 							class="btn btn-secondary"
-							on:click={openComposeWithSelectedBatches}
+							onclick={openComposeWithSelectedBatches}
 							disabled={loadingBatchRecipients}
 						>
 							{loadingBatchRecipients ? 'Loading...' : 'Email Selected Sources'}
 						</button>
 						<button
 							class="btn btn-primary"
-							on:click={openComposeWithEveryone}
+							onclick={openComposeWithEveryone}
 							disabled={loadingBatchRecipients}
 						>
 							{loadingBatchRecipients ? 'Loading...' : 'Email Everyone'}
@@ -777,7 +833,7 @@
 						<thead>
 							<tr>
 								<th class="checkbox-col">
-									<input type="checkbox" checked={selectAll} on:change={toggleSelectAll} />
+									<input type="checkbox" checked={selectAll} onchange={toggleSelectAll} />
 								</th>
 								<th>Email</th>
 								<th>Name</th>
@@ -795,7 +851,7 @@
 											type="checkbox"
 											checked={selectedUsers.has(`${user.source}-${user.id}`)}
 											disabled={user.unsubscribed}
-											on:change={() => toggleUserSelection(user)}
+											onchange={() => toggleUserSelection(user)}
 										/>
 									</td>
 									<td class="email-cell">{user.email}</td>
@@ -831,7 +887,7 @@
 					<button
 						class="btn btn-secondary"
 						disabled={currentPage === 1}
-						on:click={() => {
+						onclick={() => {
 							currentPage--;
 							fetchUsers();
 						}}
@@ -844,7 +900,7 @@
 					<button
 						class="btn btn-secondary"
 						disabled={currentPage >= Math.ceil(totalUsers / usersPerPage)}
-						on:click={() => {
+						onclick={() => {
 							currentPage++;
 							fetchUsers();
 						}}
@@ -876,7 +932,7 @@
 							<div class="draft-actions">
 								<button
 									class="btn btn-secondary"
-									on:click={() => {
+									onclick={() => {
 										initialDraftId = draft.id || undefined;
 										initialSubject = draft.subject || '';
 										initialContent = draft.html_content || '';
@@ -935,11 +991,11 @@
 						bind:value={sentSearch}
 						placeholder="Search subject or recipient..."
 						class="search-input"
-						on:input={handleSentSearchInput}
+						oninput={handleSentSearchInput}
 					/>
 					<select
 						bind:value={sentStatusFilter}
-						on:change={handleSentFilterChange}
+						onchange={handleSentFilterChange}
 						class="filter-select"
 					>
 						<option value="all">All Statuses</option>
@@ -949,7 +1005,7 @@
 					</select>
 					<select
 						bind:value={sentSourceFilter}
-						on:change={handleSentFilterChange}
+						onchange={handleSentFilterChange}
 						class="filter-select"
 					>
 						<option value="all">All Sources</option>
@@ -1003,12 +1059,12 @@
 									<td>{email.click_count || 0}</td>
 									<td>{email.unsubscribed_at ? formatDate(email.unsubscribed_at) : '-'}</td>
 									<td class="actions-cell">
-										<button class="btn btn-secondary btn-sm" on:click={() => openSentDetail(email)}>
+										<button class="btn btn-secondary btn-sm" onclick={() => openSentDetail(email)}>
 											View
 										</button>
 										<button
 											class="btn btn-secondary btn-sm"
-											on:click={() => copyTrackingId(email.tracking_id)}
+											onclick={() => copyTrackingId(email.tracking_id)}
 										>
 											Copy ID
 										</button>
@@ -1029,7 +1085,7 @@
 					<button
 						class="btn btn-secondary"
 						disabled={sentPage === 1}
-						on:click={() => {
+						onclick={() => {
 							sentPage--;
 							fetchSentEmails();
 						}}
@@ -1042,9 +1098,90 @@
 					<button
 						class="btn btn-secondary"
 						disabled={sentPage >= Math.ceil(sentTotal / sentLimit)}
-						on:click={() => {
+						onclick={() => {
 							sentPage++;
 							fetchSentEmails();
+						}}
+					>
+						Next
+					</button>
+				</div>
+			{/if}
+		</div>
+	{/if}
+
+	<!-- Unsubscribes Tab -->
+	{#if activeTab === 'unsubscribes'}
+		<div class="section-card">
+			<div class="section-header">
+				<h2>Unsubscribed Recipients</h2>
+			</div>
+			<div class="toolbar">
+				<div class="toolbar-left">
+					<input
+						type="text"
+						bind:value={unsubSearch}
+						placeholder="Search email, source, or reason..."
+						class="search-input"
+						oninput={handleUnsubSearchInput}
+					/>
+				</div>
+			</div>
+
+			<div class="table-wrapper">
+				{#if unsubIsLoading}
+					<div class="loading">Loading...</div>
+				{:else}
+					<table class="data-table">
+						<thead>
+							<tr>
+								<th>Unsubscribed</th>
+								<th>Email</th>
+								<th>Source</th>
+								<th>Source ID</th>
+								<th>Reason</th>
+							</tr>
+						</thead>
+						<tbody>
+							{#each unsubscribes as unsubscribe (unsubscribe.id)}
+								<tr>
+									<td class="unsub-date">{formatDateTime(unsubscribe.unsubscribed_at)}</td>
+									<td class="unsub-email">{unsubscribe.email}</td>
+									<td>{unsubscribe.source || '-'}</td>
+									<td class="email-cell">{unsubscribe.source_id || '-'}</td>
+									<td class="unsub-reason">{unsubscribe.reason || '-'}</td>
+								</tr>
+							{:else}
+								<tr>
+									<td colspan="5" class="empty-state">No unsubscribes found</td>
+								</tr>
+							{/each}
+						</tbody>
+					</table>
+				{/if}
+			</div>
+
+			{#if unsubTotal > unsubLimit}
+				<div class="pagination">
+					<button
+						class="btn btn-secondary"
+						disabled={unsubPage === 1}
+						onclick={() => {
+							unsubPage--;
+							fetchUnsubscribes();
+						}}
+					>
+						Previous
+					</button>
+					<span class="page-info">
+						Page {unsubPage} of {Math.ceil(unsubTotal / unsubLimit)}
+					</span>
+					<button
+						class="btn btn-secondary"
+						disabled={unsubPage >= Math.ceil(unsubTotal / unsubLimit)}
+						onclick={() => {
+							unsubPage++;
+							fetchUnsubscribes();
 						}}
 					>
 						Next
@@ -1057,11 +1194,17 @@
 
 {#if sentDetailOpen}
 	<!-- svelte-ignore a11y_no_static_element_interactions a11y_click_events_have_key_events -->
-	<div class="sent-detail-overlay" role="presentation" on:click|self={closeSentDetail}>
+	<div
+		class="sent-detail-overlay"
+		role="presentation"
+		onclick={(e) => {
+			if (e.target === e.currentTarget) closeSentDetail();
+		}}
+	>
 		<div class="sent-detail-panel">
 			<div class="sent-detail-header">
 				<h2>Sent Email</h2>
-				<button class="sent-detail-close" aria-label="Close" on:click={closeSentDetail}>
+				<button class="sent-detail-close" aria-label="Close" onclick={closeSentDetail}>
 					&times;
 				</button>
 			</div>
@@ -1107,7 +1250,7 @@
 								<span class="detail-value">{sentDetailEmail.tracking_id}</span>
 								<button
 									class="btn btn-secondary btn-sm"
-									on:click={() => sentDetailEmail && copyTrackingId(sentDetailEmail.tracking_id)}
+									onclick={() => sentDetailEmail && copyTrackingId(sentDetailEmail.tracking_id)}
 								>
 									Copy
 								</button>
@@ -1120,7 +1263,7 @@
 							<h3>Content</h3>
 							<button
 								class="btn btn-secondary btn-sm"
-								on:click={() => (sentDetailRaw = !sentDetailRaw)}
+								onclick={() => (sentDetailRaw = !sentDetailRaw)}
 							>
 								{sentDetailRaw ? 'Preview' : 'Raw'}
 							</button>
@@ -1232,9 +1375,9 @@
 	}
 
 	.stat-chip {
-		background: var(--card-background);
-		border: 1px solid var(--border-color);
-		border-radius: var(--border-radius);
+		background: var(--void-surface);
+		border: 1px solid var(--void-elevated);
+		border-radius: 12px;
 		padding: 0.75rem 1rem;
 		display: flex;
 		align-items: center;
@@ -1252,7 +1395,7 @@
 	}
 
 	.stat-rate {
-		color: var(--success);
+		color: #22c55e;
 		font-size: 0.75rem;
 		background: rgba(34, 197, 94, 0.1);
 		padding: 0.125rem 0.375rem;
@@ -1306,7 +1449,7 @@
 		display: flex;
 		gap: 0.25rem;
 		margin-bottom: 1rem;
-		border-bottom: 1px solid var(--border-color);
+		border-bottom: 1px solid var(--void-elevated);
 		padding-bottom: 0;
 	}
 
@@ -1328,15 +1471,15 @@
 	}
 
 	.tab.active {
-		color: var(--primary);
-		border-bottom-color: var(--primary);
+		color: var(--shadow-monarch);
+		border-bottom-color: var(--shadow-monarch);
 	}
 
 	/* Section Card */
 	.section-card {
-		background: var(--card-background);
-		border: 1px solid var(--border-color);
-		border-radius: var(--border-radius);
+		background: var(--void-surface);
+		border: 1px solid var(--void-elevated);
+		border-radius: 12px;
 		padding: 1rem;
 	}
 
@@ -1368,10 +1511,10 @@
 	.filter-select,
 	.search-input {
 		padding: 0.5rem 0.75rem;
-		border: 1px solid var(--border-color);
-		border-radius: var(--border-radius);
+		border: 1px solid var(--void-elevated);
+		border-radius: 12px;
 		font-size: 0.875rem;
-		background: var(--background);
+		background: var(--void-deep);
 	}
 
 	.search-input {
@@ -1379,11 +1522,11 @@
 	}
 
 	.batch-compose-card {
-		border: 1px solid var(--border-color);
-		border-radius: var(--border-radius);
+		border: 1px solid var(--void-elevated);
+		border-radius: 12px;
 		padding: 0.875rem;
 		margin-bottom: 1rem;
-		background: var(--background);
+		background: var(--void-deep);
 	}
 
 	.batch-compose-header {
@@ -1419,7 +1562,7 @@
 		display: inline-flex;
 		align-items: center;
 		gap: 0.4rem;
-		border: 1px solid var(--border-color);
+		border: 1px solid var(--void-elevated);
 		border-radius: 999px;
 		padding: 0.35rem 0.65rem;
 		font-size: 0.8125rem;
@@ -1453,7 +1596,7 @@
 	.data-table td {
 		padding: 0.75rem 0.5rem;
 		text-align: left;
-		border-bottom: 1px solid var(--border-color);
+		border-bottom: 1px solid var(--void-elevated);
 	}
 
 	.data-table th {
@@ -1555,7 +1698,7 @@
 		gap: 1rem;
 		margin-top: 1rem;
 		padding-top: 1rem;
-		border-top: 1px solid var(--border-color);
+		border-top: 1px solid var(--void-elevated);
 	}
 
 	.page-info {
@@ -1567,7 +1710,7 @@
 	.btn {
 		padding: 0.5rem 1rem;
 		border: none;
-		border-radius: var(--border-radius);
+		border-radius: 12px;
 		font-size: 0.875rem;
 		font-weight: 500;
 		cursor: pointer;
@@ -1580,22 +1723,22 @@
 	}
 
 	.btn-primary {
-		background: var(--primary);
+		background: var(--shadow-monarch);
 		color: white;
 	}
 
 	.btn-primary:hover:not(:disabled) {
-		background: var(--primary-dark, #5b4cdb);
+		opacity: 0.85;
 	}
 
 	.btn-secondary {
-		background: var(--background);
-		border: 1px solid var(--border-color);
+		background: var(--void-deep);
+		border: 1px solid var(--void-elevated);
 		color: var(--text-primary);
 	}
 
 	.btn-secondary:hover:not(:disabled) {
-		background: var(--hover-background);
+		background: var(--void-elevated);
 	}
 
 	.btn-sm {
@@ -1652,6 +1795,21 @@
 		gap: 0.5rem;
 	}
 
+	.unsub-date {
+		white-space: nowrap;
+	}
+
+	.unsub-email {
+		font-family: var(--font-mono);
+		font-size: 0.8125rem;
+	}
+
+	.unsub-reason {
+		max-width: 360px;
+		word-break: break-word;
+		color: var(--text-secondary);
+	}
+
 	/* Drafts & Scheduled Lists */
 	.draft-list,
 	.scheduled-list {
@@ -1666,9 +1824,9 @@
 		justify-content: space-between;
 		align-items: center;
 		padding: 1rem;
-		background: var(--background);
-		border-radius: var(--border-radius);
-		border: 1px solid var(--border-color);
+		background: var(--void-deep);
+		border-radius: 12px;
+		border: 1px solid var(--void-elevated);
 	}
 
 	.draft-info h3,
@@ -1687,7 +1845,7 @@
 	.draft-date,
 	.scheduled-date {
 		font-size: 0.75rem;
-		color: var(--text-tertiary);
+		color: var(--text-secondary);
 	}
 
 	/* Sent Detail */
@@ -1705,10 +1863,10 @@
 	.sent-detail-panel {
 		width: min(900px, 100%);
 		max-height: 90vh;
-		background: var(--card-background);
-		border: 1px solid var(--border-color);
-		border-radius: var(--border-radius);
-		box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1);
+		background: var(--void-surface);
+		border: 1px solid var(--void-elevated);
+		border-radius: 12px;
+		box-shadow: var(--glow-md);
 		display: flex;
 		flex-direction: column;
 	}
@@ -1718,7 +1876,7 @@
 		justify-content: space-between;
 		align-items: center;
 		padding: 1rem 1.5rem;
-		border-bottom: 1px solid var(--border-color);
+		border-bottom: 1px solid var(--void-elevated);
 	}
 
 	.sent-detail-body {
@@ -1776,8 +1934,8 @@
 	}
 
 	.email-preview {
-		border: 1px solid var(--border-color);
-		border-radius: var(--border-radius);
+		border: 1px solid var(--void-elevated);
+		border-radius: 12px;
 		padding: 1rem;
 		background: #ffffff;
 		color: #111111;
@@ -1802,9 +1960,9 @@
 	}
 
 	.raw-html {
-		background: var(--background);
-		border: 1px solid var(--border-color);
-		border-radius: var(--border-radius);
+		background: var(--void-deep);
+		border: 1px solid var(--void-elevated);
+		border-radius: 12px;
 		padding: 1rem;
 		font-size: 0.75rem;
 		font-family: var(--font-mono);
@@ -1822,9 +1980,9 @@
 
 	.event-item {
 		padding: 0.75rem;
-		border: 1px solid var(--border-color);
-		border-radius: var(--border-radius);
-		background: var(--background);
+		border: 1px solid var(--void-elevated);
+		border-radius: 12px;
+		background: var(--void-deep);
 		display: flex;
 		flex-direction: column;
 		gap: 0.25rem;
@@ -1845,7 +2003,7 @@
 
 	.event-link {
 		font-size: 0.75rem;
-		color: var(--primary);
+		color: var(--shadow-monarch);
 		word-break: break-word;
 	}
 

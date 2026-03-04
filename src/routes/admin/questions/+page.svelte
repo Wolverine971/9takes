@@ -5,10 +5,9 @@
 	import { invalidateAll } from '$app/navigation';
 	import Modal2, { getModal } from '$lib/components/atoms/Modal2.svelte';
 	import { convertDateToReadable } from '../../../utils/conversions';
-	import { onMount } from 'svelte';
 	import StatCard from '$lib/components/charts/StatCard.svelte';
 
-	export let data: PageData;
+	let { data }: { data: PageData } = $props();
 
 	// Question sorting functions
 	const sortFunctions: Record<string, (questions: any[]) => any[]> = {
@@ -40,24 +39,23 @@
 	};
 
 	// Question state management
-	let selectedQuestion: any = null;
-	let displayedQuestions: any[] = [];
-	let currentSort = 'lastComment';
-	let searchQuery = '';
-	let filterStatus: 'all' | 'active' | 'flagged' | 'removed' = 'all';
+	let selectedQuestion = $state<any>(null);
+	let currentSort = $state('lastComment');
+	let searchQuery = $state('');
+	let filterStatus = $state<'all' | 'active' | 'flagged' | 'removed'>('all');
 
 	// Stats
-	$: totalQuestions = data.questions?.length || 0;
-	$: totalComments =
-		data.questions?.reduce((sum: number, q: any) => sum + (q.comment_count || 0), 0) || 0;
-	$: flaggedCount = data.questions?.filter((q: any) => q.flagged).length || 0;
-	$: removedCount = data.questions?.filter((q: any) => q.removed).length || 0;
+	let totalQuestions = $derived(data.questions?.length || 0);
+	let totalComments = $derived(
+		data.questions?.reduce((sum: number, q: any) => sum + (q.comment_count || 0), 0) || 0
+	);
+	let flaggedCount = $derived(data.questions?.filter((q: any) => q.flagged).length || 0);
+	let removedCount = $derived(data.questions?.filter((q: any) => q.removed).length || 0);
 
 	// Filter and sort questions
-	$: {
+	let displayedQuestions = $derived.by(() => {
 		let filtered = data.questions || [];
 
-		// Apply search filter
 		if (searchQuery) {
 			const query = searchQuery.toLowerCase();
 			filtered = filtered.filter(
@@ -67,7 +65,6 @@
 			);
 		}
 
-		// Apply status filter
 		if (filterStatus === 'flagged') {
 			filtered = filtered.filter((q: any) => q.flagged);
 		} else if (filterStatus === 'removed') {
@@ -76,9 +73,8 @@
 			filtered = filtered.filter((q: any) => !q.flagged && !q.removed);
 		}
 
-		// Apply sorting
-		displayedQuestions = sortFunctions[currentSort](filtered);
-	}
+		return sortFunctions[currentSort](filtered);
+	});
 
 	// Open question details modal
 	const openModal = (questionData: any) => {
@@ -87,13 +83,6 @@
 			selectedQuestion = null;
 		});
 	};
-
-	// Initialize on mount
-	onMount(() => {
-		if (data.questions) {
-			displayedQuestions = sortFunctions[currentSort](data.questions);
-		}
-	});
 </script>
 
 <svelte:head>
@@ -154,28 +143,28 @@
 						<button
 							class="sort-tab"
 							class:active={currentSort === 'lastComment'}
-							on:click={() => (currentSort = 'lastComment')}
+							onclick={() => (currentSort = 'lastComment')}
 						>
 							Recent Activity
 						</button>
 						<button
 							class="sort-tab"
 							class:active={currentSort === 'mostComments'}
-							on:click={() => (currentSort = 'mostComments')}
+							onclick={() => (currentSort = 'mostComments')}
 						>
 							Most Comments
 						</button>
 						<button
 							class="sort-tab"
 							class:active={currentSort === 'newest'}
-							on:click={() => (currentSort = 'newest')}
+							onclick={() => (currentSort = 'newest')}
 						>
 							Newest
 						</button>
 						<button
 							class="sort-tab"
 							class:active={currentSort === 'oldest'}
-							on:click={() => (currentSort = 'oldest')}
+							onclick={() => (currentSort = 'oldest')}
 						>
 							Oldest
 						</button>
@@ -227,7 +216,7 @@
 								<button
 									type="button"
 									class="action-btn details"
-									on:click={() => openModal(question)}
+									onclick={() => openModal(question)}
 								>
 									Details
 								</button>
@@ -267,7 +256,7 @@
 	.page-header {
 		margin-bottom: 24px;
 		padding-bottom: 16px;
-		border-bottom: 1px solid var(--border-color, #e2e8f0);
+		border-bottom: 1px solid var(--void-elevated);
 	}
 
 	.header-content {
@@ -281,13 +270,13 @@
 	.page-title {
 		font-size: 1.5rem;
 		font-weight: 700;
-		color: var(--text-primary, #1e293b);
+		color: var(--text-primary);
 		margin: 0;
 	}
 
 	.hierarchy-btn {
 		padding: 8px 16px;
-		background: var(--primary, #3b82f6);
+		background: var(--shadow-monarch);
 		color: white;
 		border-radius: 8px;
 		text-decoration: none;
@@ -297,7 +286,7 @@
 	}
 
 	.hierarchy-btn:hover {
-		background: #2563eb;
+		opacity: 0.85;
 	}
 
 	/* Stats Section */
@@ -317,16 +306,16 @@
 	}
 
 	.questions-card {
-		background: var(--card-background, #fff);
-		border: 1px solid var(--border-color, #e2e8f0);
+		background: var(--void-surface);
+		border: 1px solid var(--void-elevated);
 		border-radius: 12px;
 		overflow: hidden;
 	}
 
 	.card-header {
 		padding: 16px;
-		border-bottom: 1px solid var(--border-color, #e2e8f0);
-		background: var(--hover-background, #f8fafc);
+		border-bottom: 1px solid var(--void-elevated);
+		background: var(--void-deep);
 	}
 
 	.card-title {
@@ -336,7 +325,7 @@
 		margin: 0 0 12px 0;
 		font-size: 0.9rem;
 		font-weight: 600;
-		color: var(--text-primary, #1e293b);
+		color: var(--text-primary);
 	}
 
 	.title-icon {
@@ -345,7 +334,7 @@
 
 	.count-badge {
 		padding: 2px 8px;
-		background: var(--primary, #3b82f6);
+		background: var(--shadow-monarch);
 		color: white;
 		border-radius: 12px;
 		font-size: 0.75rem;
@@ -361,26 +350,26 @@
 
 	.search-input {
 		padding: 8px 12px;
-		border: 1px solid var(--border-color, #e2e8f0);
+		border: 1px solid var(--void-elevated);
 		border-radius: 8px;
 		font-size: 0.8rem;
 		min-width: 200px;
-		background: var(--card-background, #fff);
-		color: var(--text-primary, #1e293b);
+		background: var(--void-surface);
+		color: var(--text-primary);
 	}
 
 	.search-input:focus {
 		outline: none;
-		border-color: var(--primary, #3b82f6);
+		border-color: var(--shadow-monarch);
 	}
 
 	.filter-select {
 		padding: 8px 12px;
-		border: 1px solid var(--border-color, #e2e8f0);
+		border: 1px solid var(--void-elevated);
 		border-radius: 8px;
 		font-size: 0.8rem;
-		background: var(--card-background, #fff);
-		color: var(--text-primary, #1e293b);
+		background: var(--void-surface);
+		color: var(--text-primary);
 		cursor: pointer;
 	}
 
@@ -392,10 +381,10 @@
 
 	.sort-tab {
 		padding: 6px 12px;
-		border: 1px solid var(--border-color, #e2e8f0);
+		border: 1px solid var(--void-elevated);
 		border-radius: 6px;
-		background: var(--card-background, #fff);
-		color: var(--text-secondary, #64748b);
+		background: var(--void-surface);
+		color: var(--text-secondary);
 		font-size: 0.75rem;
 		font-weight: 500;
 		cursor: pointer;
@@ -403,13 +392,13 @@
 	}
 
 	.sort-tab:hover {
-		border-color: var(--primary, #3b82f6);
-		color: var(--primary, #3b82f6);
+		border-color: var(--shadow-monarch);
+		color: var(--shadow-monarch);
 	}
 
 	.sort-tab.active {
-		background: var(--primary, #3b82f6);
-		border-color: var(--primary, #3b82f6);
+		background: var(--shadow-monarch);
+		border-color: var(--shadow-monarch);
 		color: white;
 	}
 
@@ -426,12 +415,12 @@
 		align-items: flex-start;
 		gap: 16px;
 		padding: 16px;
-		border-bottom: 1px solid var(--border-color, #e2e8f0);
+		border-bottom: 1px solid var(--void-elevated);
 		transition: background 0.2s ease;
 	}
 
 	.question-item:hover {
-		background: var(--hover-background, #f8fafc);
+		background: var(--void-deep);
 	}
 
 	.question-item:last-child {
@@ -464,7 +453,7 @@
 	.question-text {
 		font-size: 0.95rem;
 		font-weight: 500;
-		color: var(--text-primary, #1e293b);
+		color: var(--text-primary);
 		margin: 0;
 		line-height: 1.4;
 	}
@@ -498,7 +487,7 @@
 		align-items: center;
 		gap: 4px;
 		font-size: 0.75rem;
-		color: var(--text-secondary, #64748b);
+		color: var(--text-secondary);
 	}
 
 	.meta-item.comments {
@@ -530,37 +519,36 @@
 	}
 
 	.action-btn.view {
-		background: var(--card-background, #fff);
-		color: var(--text-secondary, #64748b);
-		border: 1px solid var(--border-color, #e2e8f0);
+		background: var(--void-surface);
+		color: var(--text-secondary);
+		border: 1px solid var(--void-elevated);
 	}
 
 	.action-btn.view:hover {
-		border-color: var(--primary, #3b82f6);
-		color: var(--primary, #3b82f6);
+		border-color: var(--shadow-monarch);
+		color: var(--shadow-monarch);
 	}
 
 	.action-btn.details {
-		background: var(--primary, #3b82f6);
+		background: var(--shadow-monarch);
 		color: white;
 		border: none;
 	}
 
 	.action-btn.details:hover {
-		background: #2563eb;
+		opacity: 0.85;
 	}
 
 	/* Empty State */
 	.empty-state {
 		padding: 48px 24px;
 		text-align: center;
-		color: var(--text-secondary, #64748b);
+		color: var(--text-secondary);
 	}
 
 	/* Modal */
 	.modal-content {
-		max-width: 800px;
-		width: 100%;
+		width: min(600px, 85vw);
 	}
 
 	/* Responsive */

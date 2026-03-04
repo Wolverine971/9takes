@@ -9,57 +9,63 @@
 	import { getModal } from '$lib/components/atoms/Modal2.svelte';
 	import StatCard from '$lib/components/charts/StatCard.svelte';
 
-	export let data: PageData;
+	let { data }: { data: PageData } = $props();
 
 	// State variables
-	let loading = false;
-	let currentCommentId: number | null = null;
-	let actionType: 'remove' | 'unflag' | null = null;
-	let searchQuery = '';
-	let activeTab: 'flagged' | 'recent' | 'blog' = 'flagged';
+	let loading = $state(false);
+	let currentCommentId = $state<number | null>(null);
+	let actionType = $state<'remove' | 'unflag' | null>(null);
+	let searchQuery = $state('');
+	let activeTab = $state<'flagged' | 'recent' | 'blog'>('flagged');
 
 	// Computed stats
-	$: flaggedCount = data.flaggedComments?.length ?? 0;
-	$: recentCount = data.comments?.length ?? 0;
-	$: blogCount = data.blogComments?.length ?? 0;
-	$: totalCount = flaggedCount + recentCount + blogCount;
+	let flaggedCount = $derived(data.flaggedComments?.length ?? 0);
+	let recentCount = $derived(data.comments?.length ?? 0);
+	let blogCount = $derived(data.blogComments?.length ?? 0);
+	let totalCount = $derived(flaggedCount + recentCount + blogCount);
 
 	// Filtered comments based on search
-	$: filteredFlagged = (data.flaggedComments ?? []).filter((c) => {
-		if (!searchQuery) return true;
-		const comment = c?.comments?.comment?.toLowerCase() ?? '';
-		const reason = c?.description?.toLowerCase() ?? '';
-		const email = c?.profiles?.email?.toLowerCase() ?? '';
-		return (
-			comment.includes(searchQuery.toLowerCase()) ||
-			reason.includes(searchQuery.toLowerCase()) ||
-			email.includes(searchQuery.toLowerCase())
-		);
-	});
+	let filteredFlagged = $derived(
+		(data.flaggedComments ?? []).filter((c) => {
+			if (!searchQuery) return true;
+			const comment = c?.comments?.comment?.toLowerCase() ?? '';
+			const reason = c?.description?.toLowerCase() ?? '';
+			const email = c?.profiles?.email?.toLowerCase() ?? '';
+			return (
+				comment.includes(searchQuery.toLowerCase()) ||
+				reason.includes(searchQuery.toLowerCase()) ||
+				email.includes(searchQuery.toLowerCase())
+			);
+		})
+	);
 
-	$: filteredRecent = (data.comments ?? []).filter((c) => {
-		if (!searchQuery) return true;
-		const comment = c?.comment?.toLowerCase() ?? '';
-		const email = c?.profiles?.email?.toLowerCase() ?? '';
-		const question = c?.parentQuestion?.question_formatted?.toLowerCase() ?? '';
-		return (
-			comment.includes(searchQuery.toLowerCase()) ||
-			email.includes(searchQuery.toLowerCase()) ||
-			question.includes(searchQuery.toLowerCase())
-		);
-	});
+	let filteredRecent = $derived(
+		(data.comments ?? []).filter((c) => {
+			if (!searchQuery) return true;
+			const comment = c?.comment?.toLowerCase() ?? '';
+			const email = c?.profiles?.email?.toLowerCase() ?? '';
+			const question = c?.parentQuestion?.question_formatted?.toLowerCase() ?? '';
+			return (
+				comment.includes(searchQuery.toLowerCase()) ||
+				email.includes(searchQuery.toLowerCase()) ||
+				question.includes(searchQuery.toLowerCase())
+			);
+		})
+	);
 
-	$: filteredBlog = (data.blogComments ?? []).filter((c) => {
-		if (!searchQuery) return true;
-		const comment = c?.comment?.toLowerCase() ?? '';
-		const blogLink = c?.blog_link?.toLowerCase() ?? '';
-		const email = c?.profiles?.email?.toLowerCase() ?? '';
-		return (
-			comment.includes(searchQuery.toLowerCase()) ||
-			blogLink.includes(searchQuery.toLowerCase()) ||
-			email.includes(searchQuery.toLowerCase())
-		);
-	});
+	let filteredBlog = $derived(
+		(data.blogComments ?? []).filter((c) => {
+			if (!searchQuery) return true;
+			const comment = c?.comment?.toLowerCase() ?? '';
+			const blogLink = c?.blog_link?.toLowerCase() ?? '';
+			const email = c?.profiles?.email?.toLowerCase() ?? '';
+			return (
+				comment.includes(searchQuery.toLowerCase()) ||
+				blogLink.includes(searchQuery.toLowerCase()) ||
+				email.includes(searchQuery.toLowerCase())
+			);
+		})
+	);
 
 	// Set up action confirmation
 	const confirmAction = (id: number, type: 'remove' | 'unflag') => {
@@ -216,7 +222,7 @@
 			<button
 				class="tab"
 				class:active={activeTab === 'flagged'}
-				on:click={() => (activeTab = 'flagged')}
+				onclick={() => (activeTab = 'flagged')}
 			>
 				Flagged
 				{#if flaggedCount > 0}
@@ -226,12 +232,12 @@
 			<button
 				class="tab"
 				class:active={activeTab === 'recent'}
-				on:click={() => (activeTab = 'recent')}
+				onclick={() => (activeTab = 'recent')}
 			>
 				Recent
 				<span class="tab-badge">{recentCount}</span>
 			</button>
-			<button class="tab" class:active={activeTab === 'blog'} on:click={() => (activeTab = 'blog')}>
+			<button class="tab" class:active={activeTab === 'blog'} onclick={() => (activeTab = 'blog')}>
 				Blog
 				<span class="tab-badge">{blogCount}</span>
 			</button>
@@ -271,14 +277,14 @@
 									<div class="comment-actions">
 										<button
 											class="btn btn-success"
-											on:click={() => confirmAction(comment?.comments?.id, 'unflag')}
+											onclick={() => confirmAction(comment?.comments?.id, 'unflag')}
 											disabled={loading || !comment?.comments?.id}
 										>
 											Approve
 										</button>
 										<button
 											class="btn btn-danger"
-											on:click={() => confirmAction(comment?.comments?.id, 'remove')}
+											onclick={() => confirmAction(comment?.comments?.id, 'remove')}
 											disabled={loading || !comment?.comments?.id}
 										>
 											Remove
@@ -406,10 +412,10 @@
 				{/if}
 			</p>
 			<div class="modal-actions">
-				<button class="btn btn-secondary" on:click={cancelAction}> Cancel </button>
+				<button class="btn btn-secondary" onclick={cancelAction}> Cancel </button>
 				<button
 					class="btn {actionType === 'remove' ? 'btn-danger' : 'btn-success'}"
-					on:click={executeAction}
+					onclick={executeAction}
 				>
 					{actionType === 'remove' ? 'Remove' : 'Approve'}
 				</button>
@@ -433,8 +439,8 @@
 
 	/* Controls Card */
 	.controls-card {
-		background: var(--card-background, #fff);
-		border: 1px solid var(--border-color, #e2e8f0);
+		background: var(--void-surface);
+		border: 1px solid var(--void-elevated);
 		border-radius: 10px;
 		padding: 12px 14px;
 		margin-bottom: 20px;
@@ -453,10 +459,10 @@
 	.search-input {
 		width: 100%;
 		padding: 8px 12px;
-		border: 1px solid var(--border-color, #e2e8f0);
+		border: 1px solid var(--void-elevated);
 		border-radius: 6px;
 		font-size: 0.8125rem;
-		background: var(--card-background, #fff);
+		background: var(--void-surface);
 		transition:
 			border-color 0.15s,
 			box-shadow 0.15s;
@@ -464,14 +470,14 @@
 
 	.search-input:focus {
 		outline: none;
-		border-color: var(--primary, #6366f1);
+		border-color: var(--shadow-monarch);
 		box-shadow: 0 0 0 2px rgba(99, 102, 241, 0.1);
 	}
 
 	.tabs {
 		display: flex;
 		gap: 2px;
-		background: var(--hover-background, #f1f5f9);
+		background: var(--void-deep);
 		padding: 3px;
 		border-radius: 6px;
 	}
@@ -486,18 +492,18 @@
 		border-radius: 5px;
 		font-size: 0.75rem;
 		font-weight: 500;
-		color: var(--text-secondary, #64748b);
+		color: var(--text-secondary);
 		cursor: pointer;
 		transition: all 0.15s;
 	}
 
 	.tab:hover {
-		color: var(--text-primary, #1e293b);
+		color: var(--text-primary);
 	}
 
 	.tab.active {
-		background: var(--card-background, #fff);
-		color: var(--text-primary, #1e293b);
+		background: var(--void-surface);
+		color: var(--text-primary);
 		box-shadow: 0 1px 2px rgba(0, 0, 0, 0.08);
 	}
 
@@ -505,8 +511,8 @@
 		font-size: 0.625rem;
 		padding: 1px 5px;
 		border-radius: 8px;
-		background: var(--border-color, #e2e8f0);
-		color: var(--text-secondary, #64748b);
+		background: var(--void-elevated);
+		color: var(--text-secondary);
 	}
 
 	.tab-badge.warning {
@@ -516,8 +522,8 @@
 
 	/* Content Card */
 	.content-card {
-		background: var(--card-background, #fff);
-		border: 1px solid var(--border-color, #e2e8f0);
+		background: var(--void-surface);
+		border: 1px solid var(--void-elevated);
 		border-radius: 10px;
 		overflow: hidden;
 	}
@@ -527,14 +533,14 @@
 		align-items: center;
 		justify-content: space-between;
 		padding: 12px 16px;
-		border-bottom: 1px solid var(--border-color, #e2e8f0);
-		background: var(--hover-background, #f8fafc);
+		border-bottom: 1px solid var(--void-elevated);
+		background: var(--void-deep);
 	}
 
 	.card-header h2 {
 		font-size: 0.875rem;
 		font-weight: 600;
-		color: var(--text-primary, #1e293b);
+		color: var(--text-primary);
 		margin: 0;
 	}
 
@@ -542,8 +548,8 @@
 		font-size: 0.6875rem;
 		padding: 3px 8px;
 		border-radius: 10px;
-		background: var(--border-color, #e2e8f0);
-		color: var(--text-secondary, #64748b);
+		background: var(--void-elevated);
+		color: var(--text-secondary);
 	}
 
 	.header-badge.warning {
@@ -570,7 +576,7 @@
 
 	.comment-item {
 		padding: 12px 16px;
-		border-bottom: 1px solid var(--border-color, #e2e8f0);
+		border-bottom: 1px solid var(--void-elevated);
 		transition: background-color 0.15s;
 	}
 
@@ -579,7 +585,7 @@
 	}
 
 	.comment-item:hover {
-		background: var(--hover-background, #f8fafc);
+		background: var(--void-deep);
 	}
 
 	.comment-item.flagged {
@@ -598,7 +604,7 @@
 
 	.comment-text {
 		font-size: 0.8125rem;
-		color: var(--text-primary, #1e293b);
+		color: var(--text-primary);
 		line-height: 1.5;
 		margin: 0;
 	}
@@ -625,7 +631,7 @@
 	.flag-info {
 		margin-top: 8px;
 		padding: 8px 10px;
-		background: var(--hover-background, #f1f5f9);
+		background: var(--void-deep);
 		border-radius: 6px;
 		font-size: 0.75rem;
 	}
@@ -642,7 +648,7 @@
 
 	.flag-label {
 		font-weight: 600;
-		color: var(--text-secondary, #64748b);
+		color: var(--text-secondary);
 	}
 
 	.comment-footer {
@@ -666,19 +672,19 @@
 
 	.meta-link {
 		font-size: 0.75rem;
-		color: var(--primary, #6366f1);
+		color: var(--shadow-monarch);
 		text-decoration: none;
 		transition: color 0.15s;
 	}
 
 	.meta-link:hover {
-		color: var(--primary-dark, #4f46e5);
+		color: var(--shadow-monarch);
 		text-decoration: underline;
 	}
 
 	.comment-date {
 		font-size: 0.6875rem;
-		color: var(--text-secondary, #64748b);
+		color: var(--text-secondary);
 	}
 
 	/* Buttons */
@@ -719,12 +725,12 @@
 	}
 
 	.btn-secondary {
-		background: var(--border-color, #e2e8f0);
-		color: var(--text-primary, #1e293b);
+		background: var(--void-elevated);
+		color: var(--text-primary);
 	}
 
 	.btn-secondary:hover:not(:disabled) {
-		background: var(--hover-background, #cbd5e1);
+		background: var(--void-deep);
 	}
 
 	/* Empty State */
@@ -744,7 +750,7 @@
 	}
 
 	.empty-state p {
-		color: var(--text-secondary, #64748b);
+		color: var(--text-secondary);
 		margin: 0;
 		font-size: 0.8125rem;
 	}
@@ -764,7 +770,7 @@
 		display: flex;
 		flex-direction: column;
 		align-items: center;
-		background: var(--card-background, #fff);
+		background: var(--void-surface);
 		padding: 20px 28px;
 		border-radius: 10px;
 		box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
@@ -772,7 +778,7 @@
 
 	.loading-content p {
 		margin-top: 12px;
-		color: var(--text-secondary, #64748b);
+		color: var(--text-secondary);
 		font-size: 0.8125rem;
 	}
 
@@ -784,12 +790,12 @@
 	.modal-title {
 		font-size: 1rem;
 		font-weight: 600;
-		color: var(--text-primary, #1e293b);
+		color: var(--text-primary);
 		margin: 0 0 10px 0;
 	}
 
 	.modal-text {
-		color: var(--text-secondary, #64748b);
+		color: var(--text-secondary);
 		margin: 0 0 20px 0;
 		line-height: 1.5;
 		font-size: 0.8125rem;

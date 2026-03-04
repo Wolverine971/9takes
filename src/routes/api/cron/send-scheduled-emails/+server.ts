@@ -7,6 +7,7 @@ import type { RequestHandler } from './$types';
 import { PRIVATE_CRON_SECRET } from '$env/static/private';
 import { supabase } from '$lib/supabase';
 import { sendBatchEmails } from '$lib/email/sender';
+import { getSuppressedEmailSet, normalizeEmail } from '$lib/email/suppression';
 
 type ScheduledRecipient = {
 	email: string;
@@ -73,26 +74,63 @@ async function processScheduledEmails(request: Request) {
 
 			try {
 				const recipients = Array.isArray(scheduled.recipients) ? scheduled.recipients : [];
+				const mappedRecipients = recipients.map((r) => ({
+					id: r.source_id,
+					email: r.email,
+					name: r.name,
+					source: r.source,
+					source_id: r.source_id
+				}));
+				const suppressedEmails = await getSuppressedEmailSet(
+					supabase,
+					mappedRecipients.map((r) => r.email)
+				);
+				const validRecipients = mappedRecipients.filter(
+					(r) => !suppressedEmails.has(normalizeEmail(r.email))
+				);
+
+				if (validRecipients.length === 0) {
+					const suppressionLog = [...suppressedEmails].map((email) => ({
+						email,
+						error: 'Skipped: recipient unsubscribed before scheduled send'
+					}));
+
+					await scheduledEmailsTable()
+						.update({
+							status: 'completed',
+							processed_at: new Date().toISOString(),
+							emails_sent: 0,
+							emails_failed: 0,
+							error_log: suppressionLog
+						})
+						.eq('id', scheduled.id);
+
+					results.push({
+						id: scheduled.id,
+						sent: 0,
+						failed: 0,
+						status: 'completed'
+					});
+					continue;
+				}
 
 				// Send emails
 				const result = await sendBatchEmails(supabase, {
-					recipients: recipients.map((r) => ({
-						id: r.source_id,
-						email: r.email,
-						name: r.name,
-						source: r.source,
-						source_id: r.source_id
-					})),
+					recipients: validRecipients,
 					subject: scheduled.subject,
 					htmlContent: scheduled.html_content ?? '',
 					campaignId: scheduled.campaign_id ?? undefined,
 					sentBy: scheduled.created_by ?? 'system-cron',
 					delayMs: 100,
-					includeFooter: false
+					includeFooter: true
 				});
 
 				// Collect errors
-				const errors = result.results
+				const suppressionLog = [...suppressedEmails].map((email) => ({
+					email,
+					error: 'Skipped: recipient unsubscribed before scheduled send'
+				}));
+				const sendErrors = result.results
 					.filter((r) => !r.success)
 					.map((r) => ({ email: r.email, error: r.error || 'Unknown error' }));
 
@@ -103,7 +141,7 @@ async function processScheduledEmails(request: Request) {
 						processed_at: new Date().toISOString(),
 						emails_sent: result.sent,
 						emails_failed: result.failed,
-						error_log: errors
+						error_log: [...suppressionLog, ...sendErrors]
 					})
 					.eq('id', scheduled.id);
 

@@ -200,6 +200,12 @@
 					});
 				} else {
 					notifications.success(`Sent ${result.sent} emails, ${result.failed} failed`, 5000);
+					if (result.excluded_count) {
+						notifications.warning(
+							`Excluded ${result.excluded_count} unsubscribed recipient(s)`,
+							5000
+						);
+					}
 					dispatch('send', { sent: result.sent, failed: result.failed });
 				}
 				closeModal();
@@ -393,6 +399,9 @@
 						class="form-input"
 						min={minScheduleDateTime}
 					/>
+					<p class="field-hint">
+						Every sent email includes a footer unsubscribe link for compliance.
+					</p>
 				</div>
 			</div>
 
@@ -574,6 +583,12 @@
 		font-weight: 500;
 		font-size: 0.875rem;
 		color: var(--text-primary, #1f2937);
+	}
+
+	.field-hint {
+		margin: 0.5rem 0 0;
+		font-size: 0.75rem;
+		color: var(--text-secondary, #6b7280);
 	}
 
 	.form-input,

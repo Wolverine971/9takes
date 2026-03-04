@@ -167,6 +167,7 @@ export interface SendEmailResponse {
 	success: boolean;
 	sent: number;
 	failed: number;
+	excluded_count?: number;
 	results: Array<{
 		email: string;
 		success: boolean;

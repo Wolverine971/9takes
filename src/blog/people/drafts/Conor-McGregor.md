@@ -1,5 +1,5 @@
 ---
-title: "Conor McGregor: The Enneagram Behind the Notorious One"
+title: 'Conor McGregor: The Enneagram Behind the Notorious One'
 meta_title: "Why Conor McGregor Can't Stop Destroying What He Builds"
 persona_title: "Combat's Self-Made Wrecking Ball"
 description: "The psychology behind Conor McGregor's rise, rage, and reinvention — through the lens of Enneagram Type 8."
@@ -18,6 +18,15 @@ wikipedia: 'https://en.wikipedia.org/wiki/Conor_McGregor'
 twitter: 'TheNotoriousMMA'
 instagram: 'thenotoriousmma'
 tiktok: ''
+content_quality:
+  hook: 9
+  enneagram: 8.5
+  evidence: 8
+  writing: 9
+  originality: 8.5
+  overall: 8.6
+  letter: 'B+'
+  graded_at: '2026-03-04'
 path: src/blog/people/drafts/Conor-McGregor.md
 ---
 
@@ -75,7 +84,7 @@ And here is where the McGregor story tips from sports biography into something m
 
 "This is the law of attraction," McGregor explained. "When things are going good and you visualize these good things, that's easy. What's not easy to do is when things are going bad, and you're visualizing the good stuff. And that was what I was able to do. Driving in my girlfriend's little car, a little Peugeot 206 shaking down the road, I was visualizing my success."
 
-A man on welfare, in a shaking Peugeot, seeing himself holding a belt that didn't exist for him yet. Not hoping. Not wishing. *Seeing.*
+A man on welfare, in a shaking Peugeot, seeing himself holding a belt that didn't exist for him yet. Not hoping. Not wishing. _Seeing._
 
 "If you have a clear picture in your head that something is going to happen and a clear belief that it will happen no matter what, then nothing can stop it."
 
@@ -95,7 +104,7 @@ The peak was Jose Aldo. The Brazilian featherweight champion had been undefeated
 
 He wasn't just talking about confidence. He was describing something closer to a religious conviction — a belief system in which speaking something into existence was not metaphor but mechanism. And for years, the evidence kept proving him right.
 
-He became the first fighter in UFC history to hold two championship belts simultaneously. He talked his way into a boxing match with Floyd Mayweather and earned over $100 million for it. He launched <a href="https://www.espn.com/mma/story/_/id/31346618/conor-mcgregor-sells-majority-whiskey-brand-proper-no-twelve-600m">Proper No. Twelve whiskey</a> and sold his majority stake for $600 million.
+He became the first fighter in UFC history to hold two championship belts simultaneously. He talked his way into a boxing match with Floyd Mayweather and earned over $100 million for it — a spectacle that fellow combat-sports crossover [Jake Paul](/personality-analysis/Jake-Paul) would later try to replicate. He launched <a href="https://www.espn.com/mma/story/_/id/31346618/conor-mcgregor-sells-majority-whiskey-brand-proper-no-twelve-600m">Proper No. Twelve whiskey</a> and sold his majority stake for $600 million.
 
 The plumber's apprentice from Crumlin had willed himself into a different universe. But the armor he'd built to get there — the absolute refusal to be vulnerable, the conversion of every soft emotion into aggression, the belief that he could will any outcome — that armor doesn't come off just because you've arrived.
 
@@ -161,7 +170,7 @@ A dagger into his heart. Not the old man's jaw. His heart. The distinction matte
 
 Between the Khabib loss in October 2018 and the broken leg in July 2021, McGregor went 1-3 in the octagon. His last real dominance was 2016. For five years, the man who built his identity on being unstoppable was getting stopped. And during those same five years, every major off-cage incident occurred.
 
-This is the Type 8 stress pattern mapped onto a life in real time. Under extreme stress, 8s don't crumble outward like some types. They either withdraw into paranoid isolation (moving toward unhealthy Type 5) or they escalate — pressing harder on the same lever that used to work, unable to process the possibility that the lever is broken.
+This is the Type 8 stress pattern mapped onto a life in real time. Under extreme stress, 8s don't crumble outward like some types. They either withdraw into paranoid isolation (moving toward unhealthy [Type 5](/enneagram-corner/enneagram-type-5)) or they escalate — pressing harder on the same lever that used to work, unable to process the possibility that the lever is broken.
 
 McGregor escalated. Every time.
 
@@ -179,7 +188,7 @@ The one who launched Proper No. Twelve and poured himself into it not as a celeb
 
 He has four children with Dee — Conor Jr., Croía, Rian, and Mack. They married in Vatican City in December 2025. Through every scandal, every court case, every tabloid headline, Dee has been there. Not in silence, but in choice.
 
-This is the 8's integration path — the movement toward Type 2, the Helper. When the 8 is healthy, when the armor isn't being tested, the ferocity that terrorizes opponents becomes the devotion that surrounds the inner circle. The same intensity. Different direction.
+This is the 8's integration path — the movement toward [Type 2](/enneagram-corner/enneagram-type-2), the Helper. When the 8 is healthy, when the armor isn't being tested, the ferocity that terrorizes opponents becomes the devotion that surrounds the inner circle. The same intensity. Different direction.
 
 McGregor described it himself without knowing he was describing it: "A lack of commitment is an insult to people who believe in you."
 

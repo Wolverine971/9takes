@@ -7,19 +7,19 @@
 	import type { EmailRecipient } from '$lib/types/email';
 	import type { PageData } from './$types';
 
-	export let data: PageData;
+	let { data }: { data: PageData } = $props();
 	const client = data.client;
 
 	// Edit mode
-	let isEditing = false;
-	let editData = { ...client };
+	let isEditing = $state(false);
+	let editData = $state({ ...client });
 
 	// Email modal state
-	let showEmailModal = false;
-	let emailRecipients: EmailRecipient[] = [];
-	let emailSubject = '';
-	let emailContent = '';
-	let isGettingIntakeLink = false;
+	let showEmailModal = $state(false);
+	let emailRecipients = $state<EmailRecipient[]>([]);
+	let emailSubject = $state('');
+	let emailContent = $state('');
+	let isGettingIntakeLink = $state(false);
 
 	function openEmailModal() {
 		emailRecipients = [
@@ -99,23 +99,24 @@
 	}
 
 	// Modals
-	let showNoteModal = false;
-	let showSessionModal = false;
+	let showNoteModal = $state(false);
+	let showSessionModal = $state(false);
 
 	// Note form
-	let noteTitle = '';
-	let noteContent = '';
-	let noteType = 'observation';
+	let noteTitle = $state('');
+	let noteContent = $state('');
+	let noteType = $state('observation');
 
 	// Session form
-	let sessionDate = '';
-	let sessionTime = '';
-	let sessionType = 'discovery';
-	let sessionDuration = '60';
-	let sessionLink = '';
-	let scheduledAtValue = '';
+	let sessionDate = $state('');
+	let sessionTime = $state('');
+	let sessionType = $state('discovery');
+	let sessionDuration = $state('60');
+	let sessionLink = $state('');
 
-	$: scheduledAtValue = sessionDate && sessionTime ? `${sessionDate}T${sessionTime}` : '';
+	let scheduledAtValue = $derived(
+		sessionDate && sessionTime ? `${sessionDate}T${sessionTime}` : ''
+	);
 
 	function formatDate(dateStr: string | null): string {
 		if (!dateStr) return '-';
@@ -183,18 +184,22 @@
 	];
 
 	// Get upcoming sessions
-	$: upcomingSessions = (client.sessions || [])
-		.filter((s: any) => new Date(s.scheduled_at) >= new Date() && s.status !== 'cancelled')
-		.sort(
-			(a: any, b: any) => new Date(a.scheduled_at).getTime() - new Date(b.scheduled_at).getTime()
-		);
+	let upcomingSessions = $derived(
+		(client.sessions || [])
+			.filter((s: any) => new Date(s.scheduled_at) >= new Date() && s.status !== 'cancelled')
+			.sort(
+				(a: any, b: any) => new Date(a.scheduled_at).getTime() - new Date(b.scheduled_at).getTime()
+			)
+	);
 
 	// Get past sessions
-	$: pastSessions = (client.sessions || [])
-		.filter((s: any) => new Date(s.scheduled_at) < new Date() || s.status === 'completed')
-		.sort(
-			(a: any, b: any) => new Date(b.scheduled_at).getTime() - new Date(a.scheduled_at).getTime()
-		);
+	let pastSessions = $derived(
+		(client.sessions || [])
+			.filter((s: any) => new Date(s.scheduled_at) < new Date() || s.status === 'completed')
+			.sort(
+				(a: any, b: any) => new Date(b.scheduled_at).getTime() - new Date(a.scheduled_at).getTime()
+			)
+	);
 </script>
 
 <div class="client-detail">
@@ -207,7 +212,7 @@
 		</div>
 		<div class="header-actions">
 			{#if !isEditing}
-				<button class="btn btn-secondary" on:click={() => (isEditing = true)}> Edit </button>
+				<button class="btn btn-secondary" onclick={() => (isEditing = true)}> Edit </button>
 			{/if}
 		</div>
 	</div>
@@ -223,7 +228,7 @@
 						<div class="edit-actions">
 							<button
 								class="btn btn-sm btn-secondary"
-								on:click={() => {
+								onclick={() => {
 									isEditing = false;
 									editData = { ...client };
 								}}
@@ -392,7 +397,7 @@
 				<div class="section-header">
 					<h2>Intake Form</h2>
 					{#if !client.intake?.length}
-						<button class="btn btn-sm btn-primary" on:click={openIntakeEmailModal}>
+						<button class="btn btn-sm btn-primary" onclick={openIntakeEmailModal}>
 							{isGettingIntakeLink ? 'Creating...' : 'Send Intake'}
 						</button>
 					{/if}
@@ -415,7 +420,7 @@
 									<code class="intake-link">/intake/{intake.id}</code>
 									<button
 										class="btn btn-sm btn-secondary"
-										on:click={() => {
+										onclick={() => {
 											const url = `${window.location.origin}/intake/${intake.id}`;
 											navigator.clipboard.writeText(url);
 											notifications.success('Link copied!', 2000);
@@ -466,7 +471,7 @@
 			<section class="section-card" id="sessions">
 				<div class="section-header">
 					<h2>Sessions</h2>
-					<button class="btn btn-sm btn-primary" on:click={() => (showSessionModal = true)}>
+					<button class="btn btn-sm btn-primary" onclick={() => (showSessionModal = true)}>
 						+ Schedule
 					</button>
 				</div>
@@ -541,7 +546,7 @@
 			<section class="section-card" id="notes">
 				<div class="section-header">
 					<h2>Notes</h2>
-					<button class="btn btn-sm btn-secondary" on:click={() => (showNoteModal = true)}>
+					<button class="btn btn-sm btn-secondary" onclick={() => (showNoteModal = true)}>
 						+ Add Note
 					</button>
 				</div>
@@ -572,11 +577,11 @@
 			<section class="section-card compact">
 				<h3>Quick Actions</h3>
 				<div class="quick-actions">
-					<button class="action-btn email-btn" on:click={openEmailModal}> Send Email </button>
+					<button class="action-btn email-btn" onclick={openEmailModal}> Send Email </button>
 					{#if !client.intake?.length || client.intake[0]?.status === 'pending'}
 						<button
 							class="action-btn intake-btn"
-							on:click={openIntakeEmailModal}
+							onclick={openIntakeEmailModal}
 							disabled={isGettingIntakeLink}
 						>
 							{isGettingIntakeLink ? 'Creating...' : 'Send Intake Form'}
@@ -584,16 +589,16 @@
 					{:else if client.intake[0]?.status === 'sent'}
 						<button
 							class="action-btn intake-btn"
-							on:click={openIntakeEmailModal}
+							onclick={openIntakeEmailModal}
 							disabled={isGettingIntakeLink}
 						>
 							Resend Intake Form
 						</button>
 					{/if}
-					<button class="action-btn" on:click={() => (showSessionModal = true)}>
+					<button class="action-btn" onclick={() => (showSessionModal = true)}>
 						Schedule Session
 					</button>
-					<button class="action-btn" on:click={() => (showNoteModal = true)}> Add Note </button>
+					<button class="action-btn" onclick={() => (showNoteModal = true)}> Add Note </button>
 				</div>
 			</section>
 
@@ -660,11 +665,16 @@
 <!-- Add Note Modal -->
 {#if showNoteModal}
 	<!-- svelte-ignore a11y-click-events-have-key-events a11y-no-static-element-interactions -->
-	<div class="modal-overlay" on:click|self={closeNoteModal}>
+	<div
+		class="modal-overlay"
+		onclick={(e) => {
+			if (e.target === e.currentTarget) closeNoteModal();
+		}}
+	>
 		<div class="modal" role="dialog" aria-modal="true" aria-labelledby="note-modal-title">
 			<div class="modal-header">
 				<h2 id="note-modal-title">Add Note</h2>
-				<button class="close-btn" on:click={closeNoteModal}>&times;</button>
+				<button class="close-btn" onclick={closeNoteModal}>&times;</button>
 			</div>
 			<form
 				method="POST"
@@ -699,7 +709,7 @@
 					</div>
 				</div>
 				<div class="modal-footer">
-					<button type="button" class="btn btn-secondary" on:click={closeNoteModal}>Cancel</button>
+					<button type="button" class="btn btn-secondary" onclick={closeNoteModal}>Cancel</button>
 					<button type="submit" class="btn btn-primary">Add Note</button>
 				</div>
 			</form>
@@ -710,11 +720,16 @@
 <!-- Schedule Session Modal -->
 {#if showSessionModal}
 	<!-- svelte-ignore a11y-click-events-have-key-events a11y-no-static-element-interactions -->
-	<div class="modal-overlay" on:click|self={closeSessionModal}>
+	<div
+		class="modal-overlay"
+		onclick={(e) => {
+			if (e.target === e.currentTarget) closeSessionModal();
+		}}
+	>
 		<div class="modal" role="dialog" aria-modal="true" aria-labelledby="session-modal-title">
 			<div class="modal-header">
 				<h2 id="session-modal-title">Schedule Session</h2>
-				<button class="close-btn" on:click={closeSessionModal}>&times;</button>
+				<button class="close-btn" onclick={closeSessionModal}>&times;</button>
 			</div>
 			<form
 				method="POST"
@@ -771,8 +786,7 @@
 					</div>
 				</div>
 				<div class="modal-footer">
-					<button type="button" class="btn btn-secondary" on:click={closeSessionModal}
-						>Cancel</button
+					<button type="button" class="btn btn-secondary" onclick={closeSessionModal}>Cancel</button
 					>
 					<button type="submit" class="btn btn-primary">Schedule</button>
 				</div>

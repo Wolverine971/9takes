@@ -5,29 +5,29 @@
 	import { notifications } from '$lib/components/molecules/notifications';
 	import type { PageData } from './$types';
 
-	export let data: PageData;
+	let { data }: { data: PageData } = $props();
 	const session = data.session;
 	const sessionNotes = data.sessionNotes;
 
 	// Note form state
-	let noteContent = '';
-	let noteType = 'observation';
-	let noteTitle = '';
+	let noteContent = $state('');
+	let noteType = $state('observation');
+	let noteTitle = $state('');
 
 	// Completion form state
-	let showCompleteModal = false;
-	let sessionSummary = '';
-	let nextSteps = '';
-	let clientProgress = '';
+	let showCompleteModal = $state(false);
+	let sessionSummary = $state('');
+	let nextSteps = $state('');
+	let clientProgress = $state('');
 
 	// Prep checklist state
-	let prepChecklist = {
+	let prepChecklist = $state({
 		reviewedIntake: false,
 		reviewedPreviousSessions: false,
 		preparedQuestions: false,
 		testedMeetingLink: false,
 		clearedMentalSpace: false
-	};
+	});
 
 	// Copy question to clipboard
 	function copyQuestion(question: string) {
@@ -97,8 +97,8 @@
 	];
 
 	// Calculate prep completion
-	$: prepProgress = Object.values(prepChecklist).filter(Boolean).length;
-	$: prepTotal = Object.values(prepChecklist).length;
+	let prepProgress = $derived(Object.values(prepChecklist).filter(Boolean).length);
+	let prepTotal = $derived(Object.values(prepChecklist).length);
 </script>
 
 <div class="session-detail">
@@ -161,7 +161,7 @@
 				{/if}
 
 				{#if session.status === 'in_progress'}
-					<button class="btn btn-primary" on:click={() => (showCompleteModal = true)}>
+					<button class="btn btn-primary" onclick={() => (showCompleteModal = true)}>
 						Complete Session
 					</button>
 				{/if}
@@ -445,7 +445,7 @@
 
 					<div class="questions-list">
 						{#each data.typeInfo.suggestedQuestions as question}
-							<button class="question-item" on:click={() => copyQuestion(question)}>
+							<button class="question-item" onclick={() => copyQuestion(question)}>
 								<span class="question-text">{question}</span>
 								<span class="copy-hint">Click to copy</span>
 							</button>
@@ -531,11 +531,16 @@
 <!-- Complete Session Modal -->
 {#if showCompleteModal}
 	<!-- svelte-ignore a11y-click-events-have-key-events a11y-no-static-element-interactions -->
-	<div class="modal-overlay" on:click|self={() => (showCompleteModal = false)}>
+	<div
+		class="modal-overlay"
+		onclick={(e) => {
+			if (e.target === e.currentTarget) showCompleteModal = false;
+		}}
+	>
 		<div class="modal complete-modal" role="dialog" aria-modal="true" aria-labelledby="modal-title">
 			<div class="modal-header">
 				<h2 id="modal-title">Complete Session</h2>
-				<button class="close-btn" on:click={() => (showCompleteModal = false)}>&times;</button>
+				<button class="close-btn" onclick={() => (showCompleteModal = false)}>&times;</button>
 			</div>
 			<form
 				method="POST"
@@ -589,7 +594,7 @@
 					<button
 						type="button"
 						class="btn btn-secondary"
-						on:click={() => (showCompleteModal = false)}
+						onclick={() => (showCompleteModal = false)}
 					>
 						Cancel
 					</button>

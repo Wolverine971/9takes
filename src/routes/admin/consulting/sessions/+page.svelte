@@ -3,7 +3,7 @@
 	import { goto } from '$app/navigation';
 	import type { PageData } from './$types';
 
-	export let data: PageData;
+	let { data }: { data: PageData } = $props();
 
 	function setFilter(key: string, value: string) {
 		const url = new URL(window.location.href);
@@ -74,7 +74,7 @@
 		<button
 			class="stat-btn"
 			class:active={data.filters.view === 'today'}
-			on:click={() => setFilter('view', 'today')}
+			onclick={() => setFilter('view', 'today')}
 		>
 			<span class="stat-num">{data.stats.today}</span>
 			<span class="stat-label">Today</span>
@@ -82,7 +82,7 @@
 		<button
 			class="stat-btn"
 			class:active={data.filters.view === 'upcoming'}
-			on:click={() => setFilter('view', 'upcoming')}
+			onclick={() => setFilter('view', 'upcoming')}
 		>
 			<span class="stat-num">{data.stats.upcoming}</span>
 			<span class="stat-label">Upcoming</span>
@@ -90,7 +90,7 @@
 		<button
 			class="stat-btn"
 			class:active={data.filters.view === 'past'}
-			on:click={() => setFilter('view', 'past')}
+			onclick={() => setFilter('view', 'past')}
 		>
 			<span class="stat-num">{data.stats.completed}</span>
 			<span class="stat-label">Completed</span>
@@ -104,7 +104,7 @@
 			<select
 				id="client-filter"
 				value={data.filters.clientId || 'all'}
-				on:change={(e) => setFilter('client', e.currentTarget.value)}
+				onchange={(e) => setFilter('client', e.currentTarget.value)}
 			>
 				<option value="all">All Clients</option>
 				{#each data.clients as client}

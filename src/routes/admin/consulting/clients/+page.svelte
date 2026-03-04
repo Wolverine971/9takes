@@ -5,22 +5,22 @@
 	import { notifications } from '$lib/components/molecules/notifications';
 	import type { PageData } from './$types';
 
-	export let data: PageData;
+	let { data }: { data: PageData } = $props();
 
 	// Modal state
-	let showCreateModal = false;
-	let isCreating = false;
+	let showCreateModal = $state(false);
+	let isCreating = $state(false);
 
 	// Form data
-	let newClientName = '';
-	let newClientEmail = '';
-	let newClientPhone = '';
-	let newClientType = '';
-	let newClientSource = '';
-	let newClientGoal = '';
+	let newClientName = $state('');
+	let newClientEmail = $state('');
+	let newClientPhone = $state('');
+	let newClientType = $state('');
+	let newClientSource = $state('');
+	let newClientGoal = $state('');
 
 	// Search/filter
-	let searchInput = data.filters.search;
+	let searchInput = $state(data.filters.search);
 	let searchTimeout: ReturnType<typeof setTimeout>;
 
 	function handleSearch() {
@@ -95,9 +95,7 @@
 			<h1>Clients</h1>
 			<p class="subtitle">{data.totalClients} total clients</p>
 		</div>
-		<button class="btn btn-primary" on:click={() => (showCreateModal = true)}>
-			+ New Client
-		</button>
+		<button class="btn btn-primary" onclick={() => (showCreateModal = true)}> + New Client </button>
 	</div>
 
 	<!-- Filters -->
@@ -107,7 +105,7 @@
 				type="text"
 				placeholder="Search by name or email..."
 				bind:value={searchInput}
-				on:input={handleSearch}
+				oninput={handleSearch}
 			/>
 		</div>
 
@@ -116,7 +114,7 @@
 			<select
 				id="status-filter"
 				value={data.filters.status}
-				on:change={(e) => setFilter('status', e.currentTarget.value)}
+				onchange={(e) => setFilter('status', e.currentTarget.value)}
 			>
 				<option value="all">All ({data.totalClients})</option>
 				{#each Object.entries(statusLabels) as [value, { label }]}
@@ -130,7 +128,7 @@
 			<select
 				id="type-filter"
 				value={data.filters.type}
-				on:change={(e) => setFilter('type', e.currentTarget.value)}
+				onchange={(e) => setFilter('type', e.currentTarget.value)}
 			>
 				<option value="all">All Types</option>
 				{#each [1, 2, 3, 4, 5, 6, 7, 8, 9] as type}
@@ -145,7 +143,7 @@
 		{#if data.clients.length === 0}
 			<div class="empty-state">
 				<p>No clients found</p>
-				<button class="btn btn-primary" on:click={() => (showCreateModal = true)}>
+				<button class="btn btn-primary" onclick={() => (showCreateModal = true)}>
 					Create your first client
 				</button>
 			</div>
@@ -239,13 +237,15 @@
 		aria-modal="true"
 		aria-labelledby="create-client-title"
 		tabindex="-1"
-		on:click|self={closeModal}
+		onclick={(e) => {
+			if (e.target === e.currentTarget) closeModal();
+		}}
 		on:keydown={handleOverlayKeydown}
 	>
 		<div class="modal">
 			<div class="modal-header">
 				<h2 id="create-client-title">New Client</h2>
-				<button class="close-btn" on:click={closeModal}>&times;</button>
+				<button class="close-btn" onclick={closeModal}>&times;</button>
 			</div>
 
 			<form
@@ -315,7 +315,7 @@
 				</div>
 
 				<div class="modal-footer">
-					<button type="button" class="btn btn-secondary" on:click={closeModal}> Cancel </button>
+					<button type="button" class="btn btn-secondary" onclick={closeModal}> Cancel </button>
 					<button type="submit" class="btn btn-primary" disabled={isCreating}>
 						{isCreating ? 'Creating...' : 'Create Client'}
 					</button>

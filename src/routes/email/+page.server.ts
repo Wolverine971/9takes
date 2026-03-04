@@ -11,6 +11,7 @@ import {
 } from '$lib/validation/schemas';
 import { z } from 'zod';
 import { logger } from '$lib/utils/logger';
+import { getSuppressedEmailSet, normalizeEmail } from '$lib/email/suppression';
 
 export const load: PageServerLoad = async (event) => {
 	const session = event.locals.session;
@@ -265,10 +266,18 @@ export const actions: Actions = {
 		const email = body.email.toString();
 		const emailToSend = body.emailToSend.toString();
 		const subject = body.subject ? body.subject.toString() : 'TEST EMAIL for 9takes';
+		const normalizedEmail = normalizeEmail(email);
 
 		if (!email) {
 			throw error(404, {
 				message: 'no email'
+			});
+		}
+
+		const suppressedSet = await getSuppressedEmailSet(dbLocal, [normalizedEmail]);
+		if (suppressedSet.has(normalizedEmail)) {
+			throw error(400, {
+				message: 'Recipient has unsubscribed and is suppressed'
 			});
 		}
 
@@ -330,8 +339,17 @@ export const actions: Actions = {
 			});
 		}
 
+		const signupRows = signups || [];
+		const suppressedSet = await getSuppressedEmailSet(
+			dbLocal,
+			signupRows.map((signup: { email?: string | null }) => signup.email)
+		);
+		const eligibleSignups = signupRows.filter(
+			(signup: { email?: string | null }) => !suppressedSet.has(normalizeEmail(signup.email))
+		);
+
 		try {
-			for (const signup of signups) {
+			for (const signup of eligibleSignups) {
 				const sent = await sendEmail({
 					to: signup.email.toString(),
 					subject,
@@ -345,6 +363,11 @@ export const actions: Actions = {
 					});
 				}
 			}
+			return {
+				success: true,
+				sent: eligibleSignups.length,
+				skipped_suppressed: signupRows.length - eligibleSignups.length
+			};
 		} catch (e) {
 			throw error(404, {
 				message: `Failed to send email, ${JSON.stringify(e)}`

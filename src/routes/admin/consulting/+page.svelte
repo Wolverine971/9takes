@@ -7,34 +7,36 @@
 	import type { EmailRecipient } from '$lib/types/email';
 	import type { PageData } from './$types';
 
-	export let data: PageData;
+	let { data }: { data: PageData } = $props();
 
 	// Email modal state
-	let showEmailModal = false;
-	let emailRecipients: EmailRecipient[] = [];
-	let emailSubject = '';
-	let emailContent = '';
+	let showEmailModal = $state(false);
+	let emailRecipients = $state<EmailRecipient[]>([]);
+	let emailSubject = $state('');
+	let emailContent = $state('');
 
 	// Search/filter state
-	let waitlistSearch = '';
-	let showConvertedOnly = false;
+	let waitlistSearch = $state('');
+	let showConvertedOnly = $state(false);
 
 	// Collapsible section state
-	let frameworksExpanded = true;
-	let checklistExpanded = true;
+	let frameworksExpanded = $state(true);
+	let checklistExpanded = $state(true);
 
 	// Filtered waitlist entries
-	$: filteredWaitlist = data.recentWaitlist.filter((entry: any) => {
-		const matchesSearch =
-			!waitlistSearch ||
-			entry.name?.toLowerCase().includes(waitlistSearch.toLowerCase()) ||
-			entry.email?.toLowerCase().includes(waitlistSearch.toLowerCase()) ||
-			entry.session_goal?.toLowerCase().includes(waitlistSearch.toLowerCase());
+	let filteredWaitlist = $derived(
+		data.recentWaitlist.filter((entry: any) => {
+			const matchesSearch =
+				!waitlistSearch ||
+				entry.name?.toLowerCase().includes(waitlistSearch.toLowerCase()) ||
+				entry.email?.toLowerCase().includes(waitlistSearch.toLowerCase()) ||
+				entry.session_goal?.toLowerCase().includes(waitlistSearch.toLowerCase());
 
-		const matchesFilter = !showConvertedOnly || entry.isConverted;
+			const matchesFilter = !showConvertedOnly || entry.isConverted;
 
-		return matchesSearch && matchesFilter;
-	});
+			return matchesSearch && matchesFilter;
+		})
+	);
 
 	function openEmailForWaitlist(entry: any) {
 		const firstName = entry.name?.split(' ')[0] || 'there';
@@ -535,7 +537,7 @@
 							<button
 								type="button"
 								class="clear-search"
-								on:click={() => (waitlistSearch = '')}
+								onclick={() => (waitlistSearch = '')}
 								aria-label="Clear search"
 							>
 								<svg
@@ -585,7 +587,7 @@
 						<button
 							type="button"
 							class="btn btn-secondary btn-sm"
-							on:click={() => {
+							onclick={() => {
 								waitlistSearch = '';
 								showConvertedOnly = false;
 							}}
@@ -675,7 +677,7 @@
 												<button
 													type="button"
 													class="btn btn-sm btn-icon btn-email"
-													on:click={() => openEmailForWaitlist(entry)}
+													onclick={() => openEmailForWaitlist(entry)}
 													title="Send email to {entry.name}"
 													aria-label="Send email to {entry.name}"
 												>
@@ -868,7 +870,7 @@
 				<button
 					type="button"
 					class="section-header collapsible"
-					on:click={() => (checklistExpanded = !checklistExpanded)}
+					onclick={() => (checklistExpanded = !checklistExpanded)}
 					aria-expanded={checklistExpanded}
 					aria-controls="prep-content"
 				>
@@ -923,7 +925,7 @@
 				<button
 					type="button"
 					class="section-header collapsible"
-					on:click={() => (frameworksExpanded = !frameworksExpanded)}
+					onclick={() => (frameworksExpanded = !frameworksExpanded)}
 					aria-expanded={frameworksExpanded}
 					aria-controls="frameworks-content"
 				>

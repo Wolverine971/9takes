@@ -327,9 +327,7 @@
 {:else}
 	<div class="empty-state">
 		<p>Enter a search query to find content across your blog</p>
-		<p class="hint">
-			Try searching for: "anxiety", "relationships", "type 4", or a celebrity name
-		</p>
+		<p class="hint">Try searching for: "anxiety", "relationships", "type 4", or a celebrity name</p>
 	</div>
 {/if}
 

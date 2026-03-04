@@ -2,7 +2,7 @@
 <script lang="ts">
 	import type { PageData } from './$types';
 
-	export let data: PageData;
+	let { data }: { data: PageData } = $props();
 
 	const categoryInfo: Record<string, { label: string; description: string; icon: string }> = {
 		playbook: {
@@ -33,8 +33,8 @@
 	};
 
 	// Filter out empty categories
-	$: activeCategories = Object.entries(data.groupedResources).filter(
-		([_, resources]) => resources.length > 0
+	let activeCategories = $derived(
+		Object.entries(data.groupedResources).filter(([_, resources]) => resources.length > 0)
 	);
 </script>
 
