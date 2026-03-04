@@ -8,15 +8,15 @@
 	import type { RealtimeChannel } from '@supabase/supabase-js';
 	import { supabase } from '$lib/supabase';
 
-	export let data: PageData;
+	let { data }: { data: PageData } = $props();
 
-	let serverMessage: string;
-	let messages: Message[] = [];
-	let userMessage: string;
-	let userMessages: Message[] = [];
-	let userid: string;
-	let channelListeningOn: string;
-	let onlineUsers: { id: string; email: string; presence_ref: string }[] = [];
+	let serverMessage = $state('');
+	let messages = $state<Message[]>([]);
+	let userMessage = $state('');
+	let userMessages = $state<Message[]>([]);
+	let userid = $state('');
+	let channelListeningOn = $state('');
+	let onlineUsers = $state<{ id: string; email: string; presence_ref: string }[]>([]);
 
 	let messaging: RealtimeMessaging;
 	let presenceChannel: RealtimeChannel;
@@ -25,27 +25,21 @@
 
 	onMount(async () => {
 		if (browser) {
-			// Initialize realtime messaging with browser client
 			messaging = new RealtimeMessaging(supabase);
-
-			// Set up user's personal channel
 			channelListeningOn = `user-${data?.user?.external_id || 'anonymous'}`;
 
-			// Subscribe to global admin channel for server messages
 			globalChannel = messaging.subscribeToChannel('admin-global', (message) => {
 				if (message.type === 'server') {
 					messages = [...messages, message];
 				}
 			});
 
-			// Subscribe to user's personal channel
 			userChannel = messaging.subscribeToChannel(channelListeningOn, (message) => {
 				if (message.type === 'user') {
 					userMessages = [...userMessages, message];
 				}
 			});
 
-			// Set up presence channel to track online users
 			if (data?.user) {
 				presenceChannel = createPresenceChannel(supabase, 'admin-presence', {
 					id: data.user.external_id,
@@ -105,7 +99,6 @@
 			content: serverMessage
 		});
 
-		// Add to local messages if broadcasting to global
 		if (!userid) {
 			messages = [
 				...messages,
@@ -137,548 +130,545 @@
 	}
 </script>
 
-<div class="admin-messages">
-	<!-- Page Header -->
-	<div class="page-header">
-		<h1>Real-time Messaging Center</h1>
-		<p class="subtitle">Send instant messages to users and monitor conversations in real-time</p>
-		<div class="info-banner">
-			<div class="info-icon">ℹ️</div>
-			<div class="info-content">
-				<p>
-					<strong>How it works:</strong> This page uses Supabase Realtime for instant messaging.
-				</p>
-				<ul>
-					<li>
-						📢 <strong>Global Broadcast</strong>: Leave user ID empty to message all online users
-					</li>
-					<li>👤 <strong>Direct Message</strong>: Enter a user ID to send a private message</li>
-					<li>🟢 <strong>Online Status</strong>: See who's currently active in real-time</li>
-				</ul>
-			</div>
-		</div>
+<div class="page-header">
+	<h1>Messaging Center</h1>
+	<p class="subtitle">Send instant messages to users and monitor conversations in real-time</p>
+</div>
+
+<div class="info-banner">
+	<span class="info-icon">i</span>
+	<div class="info-content">
+		<p><strong>How it works:</strong> Uses Supabase Realtime for instant messaging.</p>
+		<ul>
+			<li>Leave user ID empty to broadcast to all online users</li>
+			<li>Enter a user ID to send a direct message</li>
+			<li>See who's currently active in real-time</li>
+		</ul>
 	</div>
+</div>
 
-	<div class="section-card">
-		<div class="message-grid">
-			<div class="flex-1">
-				<h2 class="mb-4 text-xl font-semibold text-neutral-800">📤 Send Messages</h2>
-				<div class="mb-4">
-					<label for="userid" class="mb-2 block text-sm font-medium text-neutral-700">
-						Target User ID
-						<span class="text-xs font-normal text-neutral-500"
-							>(Leave empty to broadcast to all)</span
-						>
-					</label>
-					<input
-						type="text"
-						name="userid"
-						id="userid"
-						bind:value={userid}
-						placeholder="e.g., user-123 or leave empty"
-						class="w-full rounded-md border border-neutral-300 px-3 py-2 focus:outline-none focus:ring-2 focus:ring-primary-500"
-					/>
-					<p class="mt-1 text-xs text-neutral-600">
-						💡 Tip: Copy a user ID from the "Online Users" or "All Users" sections below
-					</p>
-				</div>
+<div class="section-card">
+	<div class="message-grid">
+		<div class="panel">
+			<h2 class="panel-title">Send Messages</h2>
 
-				<div class="mb-4">
-					<label for="message" class="mb-2 block text-sm font-medium text-neutral-700"
-						>Message</label
-					>
-					<input
-						type="text"
-						name="message"
-						id="message"
-						bind:value={serverMessage}
-						placeholder="Enter message"
-						class="w-full rounded-md border border-neutral-300 px-3 py-2 focus:outline-none focus:ring-2 focus:ring-primary-500"
-					/>
-				</div>
-				<button
-					type="button"
-					class="flex items-center gap-2 rounded bg-primary-600 px-4 py-2 text-white shadow-sm transition-colors hover:bg-primary-700 focus:outline-none focus:ring-2 focus:ring-primary-500 focus:ring-offset-2"
-					on:click={broadcastServerMessage}
-					disabled={!serverMessage}
-				>
-					{#if userid}
-						<span>📨</span> Send Direct Message
-					{:else}
-						<span>📢</span> Broadcast to All
-					{/if}
-				</button>
+			<div class="field-group">
+				<label for="userid" class="field-label">
+					Target User ID
+					<span class="field-hint">(Leave empty to broadcast to all)</span>
+				</label>
+				<input
+					type="text"
+					id="userid"
+					bind:value={userid}
+					placeholder="e.g., user-123 or leave empty"
+					class="field-input"
+				/>
 			</div>
 
-			<div class="flex-1">
-				<h3 class="mb-4 text-lg font-semibold text-neutral-800">📥 Broadcast History</h3>
-				<div
-					class="max-h-96 overflow-y-auto rounded-lg border border-neutral-200 bg-neutral-50 p-4"
-				>
-					{#if messages.length === 0}
-						<p class="py-8 text-center text-sm text-neutral-500">
-							No broadcast messages yet. Send your first message!
-						</p>
-					{:else}
-						<ul class="space-y-2">
-							{#each messages as m}
-								<li class="rounded bg-white p-3 transition-shadow hover:shadow-sm">
-									<div class="mb-1 flex items-start justify-between">
-										<span class="text-xs font-medium text-primary-600">
-											{m.from === `admin-${data?.user?.external_id}` ? '👤 You' : m.from}
-										</span>
-										<span class="text-xs text-neutral-500"
-											>{new Date(m.timestamp).toLocaleTimeString()}</span
-										>
-									</div>
-									<div class="text-sm text-neutral-700">{m.content}</div>
-								</li>
-							{/each}
-						</ul>
-					{/if}
-				</div>
+			<div class="field-group">
+				<label for="message" class="field-label">Message</label>
+				<input
+					type="text"
+					id="message"
+					bind:value={serverMessage}
+					placeholder="Enter message"
+					class="field-input"
+				/>
 			</div>
-		</div>
-	</div>
 
-	<div class="section-card">
-		<h2 class="section-title">👥 User Management & Direct Messaging</h2>
-		<p class="section-description">View online users, browse all users, and send direct messages</p>
-
-		<div class="message-grid">
-			<div class="flex-1">
-				<h3 class="mb-4 text-lg font-semibold text-neutral-800">📨 Send Direct Message</h3>
-				<div class="mb-4">
-					<label for="user" class="mb-2 block text-sm font-medium text-neutral-700">
-						Recipient User ID
-						<span class="text-xs font-normal text-neutral-500">(Required for direct messages)</span>
-					</label>
-					<input
-						type="text"
-						name="user"
-						id="user"
-						bind:value={userid}
-						placeholder="Enter user ID (e.g., user-123)"
-						class="w-full rounded-md border border-neutral-300 px-3 py-2 focus:outline-none focus:ring-2 focus:ring-primary-500"
-					/>
-				</div>
-
-				<div class="mb-4">
-					<label for="message2" class="mb-2 block text-sm font-medium text-neutral-700"
-						>Message</label
-					>
-					<input
-						type="text"
-						name="message"
-						id="message2"
-						bind:value={userMessage}
-						placeholder="Enter message"
-						class="w-full rounded-md border border-neutral-300 px-3 py-2 focus:outline-none focus:ring-2 focus:ring-primary-500"
-					/>
-				</div>
-				<button
-					type="button"
-					class="flex items-center gap-2 rounded bg-primary-600 px-4 py-2 text-white shadow-sm transition-colors hover:bg-primary-700 focus:outline-none focus:ring-2 focus:ring-primary-500 focus:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50"
-					on:click={sendUserMessage}
-					disabled={!userMessage || !userid}
-				>
-					<span>📤</span> Send Direct Message
-				</button>
-				{#if !userid && userMessage}
-					<p class="mt-2 text-sm text-amber-600">
-						⚠️ Please enter a user ID to send a direct message
-					</p>
+			<button
+				type="button"
+				class="btn btn-primary"
+				onclick={broadcastServerMessage}
+				disabled={!serverMessage}
+			>
+				{#if userid}
+					Send Direct Message
+				{:else}
+					Broadcast to All
 				{/if}
-				<div class="mt-6">
-					<h3 class="mb-3 text-lg font-semibold text-neutral-800">
-						🟢 Online Users
-						<span class="text-sm font-normal text-neutral-500">({onlineUsers.length})</span>
-					</h3>
-					{#if onlineUsers.length > 0}
-						<div
-							class="max-h-48 overflow-y-auto rounded-lg border border-neutral-200 bg-neutral-50 p-4"
-						>
-							<ul class="space-y-2">
-								{#each onlineUsers as user}
-									<li>
-										<button
-											type="button"
-											class="flex w-full items-center justify-between rounded bg-white p-2 text-left text-sm transition-colors hover:bg-neutral-50"
-											on:click={() => (userid = user.id)}
-										>
-											<div>
-												<span class="font-medium text-neutral-800">{user.email}</span>
-												<span class="block text-xs text-neutral-500">ID: {user.id}</span>
-											</div>
-											<div class="flex items-center gap-2">
-												<span class="text-xs text-neutral-500">Click to select</span>
-												<span class="h-2 w-2 animate-pulse rounded-full bg-green-500"></span>
-											</div>
-										</button>
-									</li>
-								{/each}
-							</ul>
-						</div>
-					{:else}
-						<p class="py-4 text-center text-sm text-neutral-600">No users currently online</p>
-					{/if}
-				</div>
+			</button>
+		</div>
 
-				<div class="mt-6">
-					<h3 class="mb-3 text-lg font-semibold text-neutral-800">
-						📋 All Users
-						<span class="text-sm font-normal text-neutral-500"
-							>({data?.users?.length || 0} total)</span
-						>
-					</h3>
-					{#if data?.users?.length}
-						<div
-							class="max-h-48 overflow-y-auto rounded-lg border border-neutral-200 bg-neutral-50 p-4"
-						>
-							<ul class="space-y-2">
-								{#each data?.users as u}
-									{#if u}
-										<li>
-											<button
-												type="button"
-												class="w-full rounded bg-white p-2 text-left text-sm transition-colors hover:bg-neutral-50"
-												on:click={() => (userid = u.external_id)}
-											>
-												<div class="flex items-center justify-between">
-													<div>
-														<span class="font-medium text-neutral-800">{u?.email}</span>
-														<span class="block text-xs text-neutral-500">
-															ID: {u?.external_id}
-														</span>
-													</div>
-													<span class="text-xs text-neutral-500">Click to select</span>
-												</div>
-											</button>
-										</li>
-									{/if}
-								{/each}
-							</ul>
+		<div class="panel">
+			<h2 class="panel-title">Broadcast History</h2>
+			<div class="message-list">
+				{#if messages.length === 0}
+					<p class="empty-text">No broadcast messages yet.</p>
+				{:else}
+					{#each messages as m}
+						<div class="message-item">
+							<div class="message-header">
+								<span class="message-from">
+									{m.from === `admin-${data?.user?.external_id}` ? 'You' : m.from}
+								</span>
+								<span class="message-time">
+									{new Date(m.timestamp).toLocaleTimeString()}
+								</span>
+							</div>
+							<p class="message-content">{m.content}</p>
 						</div>
-					{:else}
-						<p class="py-4 text-center text-sm text-neutral-600">No users in database</p>
-					{/if}
-				</div>
-			</div>
-			<div class="flex-1">
-				<h3 class="mb-4 text-lg font-semibold text-neutral-800">
-					💬 Direct Message History
-					<span class="block text-sm font-normal text-neutral-500"
-						>Messages sent to specific users</span
-					>
-				</h3>
-				<div
-					class="max-h-96 overflow-y-auto rounded-lg border border-neutral-200 bg-neutral-50 p-4"
-				>
-					{#if userMessages.length === 0}
-						<div class="py-8 text-center">
-							<p class="mb-2 text-sm text-neutral-500">No direct messages yet</p>
-							<p class="text-xs text-neutral-400">
-								Select a user from the left panel and send them a message
-							</p>
-						</div>
-					{:else}
-						<ul class="space-y-2">
-							{#each userMessages as um}
-								<li class="rounded bg-white p-3 transition-shadow hover:shadow-sm">
-									<div class="mb-1 flex items-start justify-between">
-										<span class="text-xs font-medium text-primary-600">
-											{um.from === channelListeningOn ? '👤 You' : um.from}
-											{#if um.to}
-												<span class="text-neutral-500">→ {um.to}</span>
-											{/if}
-										</span>
-										<span class="text-xs text-neutral-500"
-											>{new Date(um.timestamp).toLocaleTimeString()}</span
-										>
-									</div>
-									<div class="text-sm text-neutral-700">{um.content}</div>
-								</li>
-							{/each}
-						</ul>
-					{/if}
-				</div>
+					{/each}
+				{/if}
 			</div>
 		</div>
 	</div>
 </div>
 
-<style lang="scss">
-	.admin-messages {
-		max-width: 1200px;
-		margin: 0 auto;
-		padding: 1.5rem;
-		background-color: var(--background);
-		min-height: calc(100vh - 4rem);
-	}
+<div class="section-card">
+	<h2 class="section-title">User Management & Direct Messaging</h2>
+	<p class="section-description">View online users, browse all users, and send direct messages</p>
 
-	.page-header {
-		margin-bottom: 2rem;
-	}
+	<div class="message-grid">
+		<div class="panel">
+			<h3 class="panel-title">Send Direct Message</h3>
 
-	.page-header h1 {
-		font-size: 2rem;
-		font-weight: 700;
-		color: var(--text-primary);
-		margin: 0 0 0.5rem 0;
-	}
+			<div class="field-group">
+				<label for="user" class="field-label">
+					Recipient User ID
+					<span class="field-hint">(Required for direct messages)</span>
+				</label>
+				<input
+					type="text"
+					id="user"
+					bind:value={userid}
+					placeholder="Enter user ID (e.g., user-123)"
+					class="field-input"
+				/>
+			</div>
 
-	.subtitle {
-		color: var(--text-secondary);
-		margin: 0 0 1rem 0;
-		font-size: 1.125rem;
-	}
+			<div class="field-group">
+				<label for="message2" class="field-label">Message</label>
+				<input
+					type="text"
+					id="message2"
+					bind:value={userMessage}
+					placeholder="Enter message"
+					class="field-input"
+				/>
+			</div>
 
+			<button
+				type="button"
+				class="btn btn-primary"
+				onclick={sendUserMessage}
+				disabled={!userMessage || !userid}
+			>
+				Send Direct Message
+			</button>
+
+			{#if !userid && userMessage}
+				<p class="warning-text">Please enter a user ID to send a direct message</p>
+			{/if}
+
+			<!-- Online Users -->
+			<div class="user-section">
+				<h3 class="panel-subtitle">
+					Online Users
+					<span class="count-badge online">{onlineUsers.length}</span>
+				</h3>
+				{#if onlineUsers.length > 0}
+					<div class="user-list">
+						{#each onlineUsers as user}
+							<button type="button" class="user-item" onclick={() => (userid = user.id)}>
+								<div class="user-info">
+									<span class="user-email">{user.email}</span>
+									<span class="user-id">ID: {user.id}</span>
+								</div>
+								<div class="user-status">
+									<span class="select-hint">Select</span>
+									<span class="online-dot"></span>
+								</div>
+							</button>
+						{/each}
+					</div>
+				{:else}
+					<p class="empty-text">No users currently online</p>
+				{/if}
+			</div>
+
+			<!-- All Users -->
+			<div class="user-section">
+				<h3 class="panel-subtitle">
+					All Users
+					<span class="count-badge">{data?.users?.length || 0}</span>
+				</h3>
+				{#if data?.users?.length}
+					<div class="user-list">
+						{#each data?.users as u}
+							{#if u}
+								<button type="button" class="user-item" onclick={() => (userid = u.external_id)}>
+									<div class="user-info">
+										<span class="user-email">{u?.email}</span>
+										<span class="user-id">ID: {u?.external_id}</span>
+									</div>
+									<span class="select-hint">Select</span>
+								</button>
+							{/if}
+						{/each}
+					</div>
+				{:else}
+					<p class="empty-text">No users in database</p>
+				{/if}
+			</div>
+		</div>
+
+		<div class="panel">
+			<h3 class="panel-title">Direct Message History</h3>
+			<p class="panel-description">Messages sent to specific users</p>
+			<div class="message-list">
+				{#if userMessages.length === 0}
+					<div class="empty-state">
+						<p class="empty-text">No direct messages yet</p>
+						<p class="empty-hint">Select a user from the left panel and send them a message</p>
+					</div>
+				{:else}
+					{#each userMessages as um}
+						<div class="message-item">
+							<div class="message-header">
+								<span class="message-from">
+									{um.from === channelListeningOn ? 'You' : um.from}
+									{#if um.to}
+										<span class="message-to"> &rarr; {um.to}</span>
+									{/if}
+								</span>
+								<span class="message-time">
+									{new Date(um.timestamp).toLocaleTimeString()}
+								</span>
+							</div>
+							<p class="message-content">{um.content}</p>
+						</div>
+					{/each}
+				{/if}
+			</div>
+		</div>
+	</div>
+</div>
+
+<style>
+	/* Info Banner */
 	.info-banner {
-		background-color: var(--primary-light, #e3f2fd);
-		border: 1px solid var(--primary, #2196f3);
-		border-radius: var(--border-radius);
-		padding: 1rem;
 		display: flex;
-		gap: 1rem;
-		margin-top: 1rem;
+		gap: 12px;
+		padding: 14px 16px;
+		margin-bottom: 20px;
+		background: var(--void-elevated);
+		border: 1px solid var(--void-highlight);
+		border-radius: 12px;
 	}
 
 	.info-icon {
-		font-size: 1.5rem;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		width: 24px;
+		height: 24px;
+		border-radius: 50%;
+		background: var(--shadow-monarch);
+		color: white;
+		font-size: 0.75rem;
+		font-weight: 700;
 		flex-shrink: 0;
 	}
 
 	.info-content p {
-		margin: 0 0 0.5rem 0;
-		font-weight: 500;
+		margin: 0 0 6px;
+		font-size: 0.85rem;
 		color: var(--text-primary);
 	}
 
 	.info-content ul {
 		margin: 0;
-		padding-left: 1.25rem;
+		padding: 0;
 		list-style: none;
 	}
 
 	.info-content li {
-		margin: 0.25rem 0;
+		font-size: 0.8rem;
 		color: var(--text-secondary);
-		font-size: 0.875rem;
+		padding: 2px 0;
 	}
 
+	/* Section Card */
 	.section-card {
-		background-color: var(--card-background);
-		border: 1px solid var(--border-color);
+		background: var(--void-surface);
+		border: 1px solid var(--void-elevated);
 		border-radius: 12px;
-		padding: 2rem;
-		margin-bottom: 2rem;
-		box-shadow:
-			0 1px 3px 0 rgba(0, 0, 0, 0.1),
-			0 1px 2px 0 rgba(0, 0, 0, 0.06);
-		transition: box-shadow 0.2s ease;
-	}
-
-	.section-card:hover {
-		box-shadow:
-			0 4px 6px -1px rgba(0, 0, 0, 0.1),
-			0 2px 4px -1px rgba(0, 0, 0, 0.06);
+		padding: 20px;
+		margin-bottom: 20px;
 	}
 
 	.section-title {
-		font-size: 1.5rem;
+		font-size: 1.1rem;
 		font-weight: 600;
 		color: var(--text-primary);
-		margin: 0 0 0.5rem 0;
+		margin: 0 0 4px;
 	}
 
 	.section-description {
+		font-size: 0.8rem;
 		color: var(--text-secondary);
-		margin: 0 0 1.5rem 0;
-		font-size: 0.875rem;
+		margin: 0 0 20px;
 	}
 
+	/* Grid Layout */
 	.message-grid {
 		display: grid;
 		grid-template-columns: 1fr 1fr;
-		gap: 2.5rem;
+		gap: 24px;
 		align-items: start;
 	}
 
-	@media (max-width: 1024px) {
-		.message-grid {
-			grid-template-columns: 1fr;
-			gap: 2rem;
-		}
+	/* Panels */
+	.panel {
+		min-width: 0;
 	}
 
-	h2 {
-		font-size: 1.375rem;
-		font-weight: 700;
-		color: var(--text-primary);
-		margin-bottom: 1.5rem;
-		display: flex;
-		align-items: center;
-		gap: 0.5rem;
-	}
-
-	h3 {
-		font-size: 1.125rem;
+	.panel-title {
+		font-size: 0.95rem;
 		font-weight: 600;
 		color: var(--text-primary);
-		margin-bottom: 1rem;
-		display: flex;
-		align-items: center;
-		gap: 0.5rem;
+		margin: 0 0 16px;
 	}
 
-	label {
+	.panel-subtitle {
+		display: flex;
+		align-items: center;
+		gap: 8px;
+		font-size: 0.85rem;
+		font-weight: 600;
+		color: var(--text-primary);
+		margin: 0 0 10px;
+	}
+
+	.panel-description {
+		font-size: 0.8rem;
+		color: var(--text-secondary);
+		margin: 0 0 12px;
+	}
+
+	/* Form Fields */
+	.field-group {
+		margin-bottom: 14px;
+	}
+
+	.field-label {
 		display: block;
-		margin-bottom: 0.75rem;
+		font-size: 0.8rem;
 		font-weight: 600;
 		color: var(--text-primary);
-		font-size: 0.875rem;
-		letter-spacing: 0.025em;
+		margin-bottom: 6px;
 	}
 
-	label .text-xs {
+	.field-hint {
 		font-weight: 400;
 		color: var(--text-secondary);
-		letter-spacing: 0;
+		font-size: 0.75rem;
 	}
 
-	input[type='text'] {
+	.field-input {
 		width: 100%;
-		padding: 0.75rem 1rem;
-		border: 2px solid var(--border-color);
+		padding: 9px 12px;
+		border: 1px solid var(--void-elevated);
 		border-radius: 8px;
-		background-color: var(--background);
+		background: var(--void-deep);
 		color: var(--text-primary);
-		font-size: 0.875rem;
-		transition: all 0.2s ease;
+		font-size: 0.85rem;
+		font-family: inherit;
+		transition: border-color 0.15s ease;
+		box-sizing: border-box;
 	}
 
-	input[type='text']:focus {
+	.field-input:focus {
 		outline: none;
-		border-color: var(--primary);
-		box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.1);
-		transform: translateY(-1px);
+		border-color: var(--shadow-monarch);
+		box-shadow: 0 0 0 3px rgba(139, 92, 246, 0.15);
 	}
 
-	input[type='text']::placeholder {
+	.field-input::placeholder {
 		color: var(--text-secondary);
-		opacity: 0.7;
+		opacity: 0.6;
 	}
 
-	button[type='button'] {
-		padding: 0.75rem 1.5rem;
-		background: linear-gradient(135deg, var(--primary) 0%, #2563eb 100%);
-		color: white;
-		border: none;
-		border-radius: 8px;
-		font-size: 0.875rem;
-		font-weight: 600;
-		cursor: pointer;
-		transition: all 0.2s ease;
+	/* Buttons */
+	.btn {
 		display: inline-flex;
 		align-items: center;
 		justify-content: center;
-		gap: 0.5rem;
-		box-shadow: 0 2px 4px rgba(59, 130, 246, 0.2);
-	}
-
-	button[type='button']:hover:not(:disabled) {
-		background: linear-gradient(135deg, #2563eb 0%, #1d4ed8 100%);
-		transform: translateY(-2px);
-		box-shadow: 0 4px 12px rgba(59, 130, 246, 0.3);
-	}
-
-	button[type='button']:disabled {
-		opacity: 0.6;
-		cursor: not-allowed;
-		transform: none;
-		box-shadow: none;
-	}
-
-	.max-h-96 {
-		max-height: 28rem;
-	}
-
-	.overflow-y-auto {
-		overflow-y: auto;
-		scrollbar-width: thin;
-		scrollbar-color: var(--border-color) transparent;
-	}
-
-	.overflow-y-auto::-webkit-scrollbar {
-		width: 6px;
-	}
-
-	.overflow-y-auto::-webkit-scrollbar-track {
-		background: transparent;
-	}
-
-	.overflow-y-auto::-webkit-scrollbar-thumb {
-		background-color: var(--border-color);
-		border-radius: 3px;
-	}
-
-	.overflow-y-auto::-webkit-scrollbar-thumb:hover {
-		background-color: var(--text-secondary);
-	}
-
-	.rounded-lg {
-		border-radius: 12px;
-	}
-
-	.border {
-		border: 1px solid var(--border-color);
-	}
-
-	.bg-neutral-50 {
-		background: linear-gradient(145deg, var(--hover-background) 0%, #f8fafc 100%);
-	}
-
-	.p-4 {
-		padding: 1.5rem;
-	}
-
-	ul {
-		list-style: none;
-		padding: 0;
-		margin: 0;
-	}
-
-	ul li {
-		padding: 1rem;
-		background-color: var(--background);
+		gap: 6px;
+		padding: 9px 18px;
 		border-radius: 8px;
-		margin-bottom: 0.75rem;
-		font-size: 0.875rem;
-		color: var(--text-primary);
-		border: 1px solid var(--border-color);
-		transition: all 0.2s ease;
+		font-size: 0.8rem;
+		font-weight: 600;
+		cursor: pointer;
+		transition: all 0.15s ease;
+		border: none;
 	}
 
-	ul li:hover {
-		transform: translateY(-1px);
-		box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-		border-color: var(--primary);
+	.btn:disabled {
+		opacity: 0.5;
+		cursor: not-allowed;
 	}
 
-	ul li:last-child {
+	.btn-primary {
+		background: linear-gradient(135deg, var(--shadow-monarch) 0%, var(--shadow-monarch-dark) 100%);
+		color: white;
+		box-shadow: var(--glow-sm);
+	}
+
+	.btn-primary:hover:not(:disabled) {
+		box-shadow: var(--glow-md);
+	}
+
+	/* Warning */
+	.warning-text {
+		margin: 8px 0 0;
+		font-size: 0.8rem;
+		color: #f59e0b;
+	}
+
+	/* Message List */
+	.message-list {
+		max-height: 400px;
+		overflow-y: auto;
+		background: var(--void-deep);
+		border: 1px solid var(--void-elevated);
+		border-radius: 10px;
+		padding: 12px;
+	}
+
+	.message-item {
+		padding: 10px 12px;
+		background: var(--void-surface);
+		border: 1px solid var(--void-elevated);
+		border-radius: 8px;
+		margin-bottom: 8px;
+		transition: border-color 0.15s ease;
+	}
+
+	.message-item:last-child {
 		margin-bottom: 0;
 	}
 
-	.font-medium {
-		font-weight: 500;
+	.message-item:hover {
+		border-color: var(--void-highlight);
 	}
 
-	.text-neutral-500 {
+	.message-header {
+		display: flex;
+		justify-content: space-between;
+		align-items: flex-start;
+		margin-bottom: 4px;
+	}
+
+	.message-from {
+		font-size: 0.75rem;
+		font-weight: 600;
+		color: var(--shadow-monarch);
+	}
+
+	.message-to {
+		color: var(--text-secondary);
+		font-weight: 400;
+	}
+
+	.message-time {
+		font-size: 0.7rem;
 		color: var(--text-secondary);
 	}
 
-	.text-primary-600 {
-		color: var(--primary);
+	.message-content {
+		margin: 0;
+		font-size: 0.85rem;
+		color: var(--text-primary);
+		line-height: 1.4;
+	}
+
+	/* User Sections */
+	.user-section {
+		margin-top: 20px;
+	}
+
+	.count-badge {
+		padding: 1px 8px;
+		background: var(--void-elevated);
+		color: var(--text-secondary);
+		border-radius: 12px;
+		font-size: 0.7rem;
+		font-weight: 600;
+	}
+
+	.count-badge.online {
+		background: rgba(16, 185, 129, 0.15);
+		color: #10b981;
+	}
+
+	.user-list {
+		max-height: 200px;
+		overflow-y: auto;
+		background: var(--void-deep);
+		border: 1px solid var(--void-elevated);
+		border-radius: 10px;
+		padding: 6px;
+	}
+
+	.user-item {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		width: 100%;
+		padding: 8px 10px;
+		background: transparent;
+		border: none;
+		border-radius: 6px;
+		cursor: pointer;
+		text-align: left;
+		font-family: inherit;
+		transition: background 0.15s ease;
+	}
+
+	.user-item:hover {
+		background: var(--void-surface);
+	}
+
+	.user-info {
+		display: flex;
+		flex-direction: column;
+		min-width: 0;
+	}
+
+	.user-email {
+		font-size: 0.8rem;
+		font-weight: 500;
+		color: var(--text-primary);
+		overflow: hidden;
+		text-overflow: ellipsis;
+		white-space: nowrap;
+	}
+
+	.user-id {
+		font-size: 0.7rem;
+		color: var(--text-secondary);
+	}
+
+	.user-status {
+		display: flex;
+		align-items: center;
+		gap: 6px;
+	}
+
+	.select-hint {
+		font-size: 0.7rem;
+		color: var(--text-secondary);
+	}
+
+	.online-dot {
+		width: 8px;
+		height: 8px;
+		border-radius: 50%;
+		background: #10b981;
+		animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
 	}
 
 	@keyframes pulse {
@@ -691,44 +681,38 @@
 		}
 	}
 
-	.animate-pulse {
-		animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+	/* Empty States */
+	.empty-text {
+		font-size: 0.85rem;
+		color: var(--text-secondary);
+		text-align: center;
+		padding: 16px 0;
+		margin: 0;
 	}
 
-	li[role='button'] {
-		cursor: pointer;
+	.empty-state {
+		padding: 32px 16px;
+		text-align: center;
 	}
 
-	li[role='button']:focus {
-		outline: 2px solid var(--primary);
-		outline-offset: -2px;
+	.empty-hint {
+		font-size: 0.75rem;
+		color: var(--text-secondary);
+		opacity: 0.7;
+		margin: 4px 0 0;
+	}
+
+	/* Responsive */
+	@media (max-width: 1024px) {
+		.message-grid {
+			grid-template-columns: 1fr;
+			gap: 20px;
+		}
 	}
 
 	@media (max-width: 768px) {
-		.admin-messages {
-			padding: 1rem;
-		}
-
-		.message-grid {
-			grid-template-columns: 1fr;
-			gap: 1.5rem;
-		}
-
 		.section-card {
-			padding: 1.5rem;
-			border-radius: 8px;
-		}
-
-		.max-h-96 {
-			max-height: 20rem;
-		}
-
-		h2 {
-			font-size: 1.25rem;
-		}
-
-		.section-title {
-			font-size: 1.25rem;
+			padding: 16px;
 		}
 	}
 </style>

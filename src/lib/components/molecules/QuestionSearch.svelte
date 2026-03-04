@@ -128,14 +128,16 @@
 	.search-input {
 		width: 100%;
 		padding: 0.75rem 1rem;
-		border: 1px solid #ccc;
-		border-radius: 4px;
+		border: 1px solid var(--void-elevated, #252538);
+		border-radius: var(--border-radius, 0.5rem);
 		font-size: 1rem;
+		background-color: var(--void-surface, #1a1a2e);
+		color: var(--text-primary, #f8fafc);
 
 		&:focus {
 			outline: none;
-			border-color: #4f46e5;
-			box-shadow: 0 0 0 2px rgba(79, 70, 229, 0.2);
+			border-color: var(--shadow-monarch, #7c3aed);
+			box-shadow: 0 0 0 2px rgba(124, 58, 237, 0.2);
 		}
 	}
 
@@ -149,8 +151,8 @@
 		display: inline-block;
 		width: 1rem;
 		height: 1rem;
-		border: 2px solid #ccc;
-		border-top-color: #4f46e5;
+		border: 2px solid var(--void-elevated, #252538);
+		border-top-color: var(--shadow-monarch, #7c3aed);
 		border-radius: 50%;
 		animation: spin 1s linear infinite;
 	}
@@ -165,11 +167,11 @@
 		background: none;
 		border: none;
 		cursor: pointer;
-		color: #6b7280;
+		color: var(--text-tertiary, #64748b);
 		font-size: 1.25rem;
 
 		&:hover {
-			color: #1f2937;
+			color: var(--text-primary, #f8fafc);
 		}
 	}
 
@@ -181,13 +183,13 @@
 		right: 0;
 		max-height: 300px;
 		overflow-y: auto;
-		background: white;
-		border: 1px solid #ccc;
-		border-radius: 4px;
+		background: var(--void-surface, #1a1a2e);
+		border: 1px solid var(--void-elevated, #252538);
+		border-radius: var(--border-radius, 0.5rem);
 		margin-top: 0.25rem;
 		box-shadow:
-			0 4px 6px -1px rgba(0, 0, 0, 0.1),
-			0 2px 4px -1px rgba(0, 0, 0, 0.06);
+			0 4px 6px -1px rgba(0, 0, 0, 0.3),
+			0 2px 4px -1px rgba(0, 0, 0, 0.2);
 		padding: 0;
 		list-style-type: none;
 	}
@@ -203,25 +205,26 @@
 		border: none;
 		text-align: left;
 		cursor: pointer;
+		color: var(--text-primary, #f8fafc);
 
 		&:hover {
-			background-color: #f3f4f6;
+			background-color: var(--void-elevated, #252538);
 		}
 	}
 
 	.result-item.active .result-button {
-		background-color: #f3f4f6;
+		background-color: var(--void-elevated, #252538);
 	}
 
 	.no-results {
 		padding: 0.75rem 1rem;
-		color: #6b7280;
-		background: white;
-		border: 1px solid #ccc;
-		border-radius: 4px;
+		color: var(--text-tertiary, #64748b);
+		background: var(--void-surface, #1a1a2e);
+		border: 1px solid var(--void-elevated, #252538);
+		border-radius: var(--border-radius, 0.5rem);
 		margin-top: 0.25rem;
 		box-shadow:
-			0 4px 6px -1px rgba(0, 0, 0, 0.1),
-			0 2px 4px -1px rgba(0, 0, 0, 0.06);
+			0 4px 6px -1px rgba(0, 0, 0, 0.3),
+			0 2px 4px -1px rgba(0, 0, 0, 0.2);
 	}
 </style>

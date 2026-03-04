@@ -5,7 +5,6 @@
 	import { notifications } from '$lib/components/molecules/notifications';
 	import MasterCommentIcon from '$lib/components/icons/masterCommentIcon.svelte';
 	import XmarkIcon from '$lib/components/icons/xmarkIcon.svelte';
-	import { Button, Badge } from 'flowbite-svelte';
 
 	export let questionData: any;
 	export let tags: any[];
@@ -130,166 +129,556 @@
 	}
 </script>
 
-<div class="question-card mb-4 rounded-lg bg-white p-4 shadow-md dark:bg-gray-800">
+<div class="question-card">
 	{#if editing}
 		<!-- Edit Mode -->
 		<div class="edit-form">
-			<h2 class="mb-4 text-xl font-bold">Edit Question</h2>
+			<div class="edit-header">
+				<h2 class="edit-title">Edit Question</h2>
+				<button class="close-btn" on:click={cancelEditing}>
+					<XmarkIcon height="0.85rem" fill="currentColor" />
+				</button>
+			</div>
 
-			<div class="mb-4">
-				<p class="mb-2 text-sm text-gray-600 dark:text-gray-400">
-					<b>Original:</b>
-					{questionData.question}
-				</p>
-				<label
-					for="formatted-question"
-					class="mb-1 block text-sm font-medium text-gray-700 dark:text-gray-300">Formatted:</label
-				>
+			<div class="field-group">
+				<label class="field-label">Original</label>
+				<p class="original-text">{questionData.question}</p>
+			</div>
+
+			<div class="field-group">
+				<label class="field-label" for="formatted-question">Formatted</label>
 				<textarea
 					id="formatted-question"
 					bind:value={questionData.question_formatted}
-					class="w-full rounded-md border border-gray-300 p-2 dark:border-gray-600 dark:bg-gray-700"
+					class="field-textarea"
 					rows="3"
 				></textarea>
 			</div>
 
-			<div class="mb-4 flex gap-3">
-				<Button
-					size="sm"
-					color={questionData.flagged ? 'red' : 'gray'}
+			<div class="toggle-row">
+				<button
+					class="toggle-btn"
+					class:active={questionData.flagged}
+					class:warning={questionData.flagged}
 					on:click={() => (questionData.flagged = !questionData.flagged)}
 				>
-					Flagged: {questionData.flagged}
-				</Button>
-				<Button
-					size="sm"
-					color={questionData.removed ? 'red' : 'gray'}
+					Flagged
+				</button>
+				<button
+					class="toggle-btn"
+					class:active={questionData.removed}
+					class:danger={questionData.removed}
 					on:click={() => (questionData.removed = !questionData.removed)}
 				>
-					Removed: {questionData.removed}
-				</Button>
+					Removed
+				</button>
 			</div>
 
-			<div class="mb-4">
-				<h3 class="mb-2 text-sm font-semibold">Selected Tags</h3>
-				<div class="flex flex-wrap gap-2">
+			<div class="field-group">
+				<label class="field-label">Selected Tags</label>
+				<div class="tag-list">
 					{#each selectedTags as tag}
-						<Badge color="indigo">
+						<span class="tag selected">
 							{tag.tag_name}
-							<button class="ml-1 text-xs" on:click={() => removeTag(tag)}>
-								<XmarkIcon iconStyle="" height="0.75rem" fill="currentColor" />
+							<button class="tag-remove" on:click={() => removeTag(tag)}>
+								<XmarkIcon height="0.6rem" fill="currentColor" />
 							</button>
-						</Badge>
+						</span>
 					{:else}
-						<span class="text-sm text-gray-500">No tags selected</span>
+						<span class="empty-text">No tags selected</span>
 					{/each}
 				</div>
 			</div>
 
-			<div class="mb-4">
-				<h3 class="mb-2 text-sm font-semibold">Add Tags</h3>
-				<div class="flex max-h-40 flex-wrap gap-2 overflow-y-auto rounded-md border p-2">
+			<div class="field-group">
+				<label class="field-label">Add Tags</label>
+				<div class="tag-picker">
 					{#each availableTags as tag}
-						<Button size="xs" on:click={() => addTag(tag)}>{tag.tag_name}</Button>
+						<button class="tag-add-btn" on:click={() => addTag(tag)}>
+							+ {tag.tag_name}
+						</button>
 					{:else}
-						<span class="text-sm text-gray-500">All tags assigned</span>
+						<span class="empty-text">All tags assigned</span>
 					{/each}
 				</div>
 			</div>
 
-			<div class="flex justify-end gap-2">
-				<Button color="gray" on:click={cancelEditing}>Cancel</Button>
-				<Button disabled={questionEditsSaving} on:click={saveQuestionEdits}>
-					{questionEditsSaving ? 'Saving...' : 'Save'}
-				</Button>
+			<div class="edit-actions">
+				<button class="btn btn-secondary" on:click={cancelEditing}>Cancel</button>
+				<button class="btn btn-primary" disabled={questionEditsSaving} on:click={saveQuestionEdits}>
+					{questionEditsSaving ? 'Saving...' : 'Save Changes'}
+				</button>
 			</div>
 		</div>
 	{:else}
 		<!-- View Mode -->
-		<div class="mb-4">
-			<p class="text-sm text-gray-600 dark:text-gray-400">
-				<b>Original:</b>
-				{questionData.question}
-			</p>
-			<p class="text-sm text-gray-600 dark:text-gray-400">
-				<b>Formatted:</b>
-				{questionData.question_formatted}
-			</p>
+		<div class="view-section">
+			<div class="question-texts">
+				<div class="field-group">
+					<span class="field-label">Original</span>
+					<p class="question-text">{questionData.question}</p>
+				</div>
+				{#if questionData.question_formatted && questionData.question_formatted !== questionData.question}
+					<div class="field-group">
+						<span class="field-label">Formatted</span>
+						<p class="question-text formatted">{questionData.question_formatted}</p>
+					</div>
+				{/if}
+			</div>
 		</div>
 
-		<div class="mb-4 flex flex-wrap gap-2">
-			<Badge color={questionData.flagged ? 'red' : 'gray'}>Flagged: {questionData.flagged}</Badge>
-			<Badge color={questionData.removed ? 'red' : 'gray'}>Removed: {questionData.removed}</Badge>
-			<Badge color="blue">{formattedDate}</Badge>
-			<Badge color="purple">
-				{questionData.comment_count || '0'}
+		<div class="meta-row">
+			{#if questionData.flagged}
+				<span class="status-badge warning">Flagged</span>
+			{/if}
+			{#if questionData.removed}
+				<span class="status-badge danger">Removed</span>
+			{/if}
+			<span class="meta-badge">
+				{formattedDate}
+			</span>
+			<span class="meta-badge comments">
 				<MasterCommentIcon
-					iconStyle="margin-left: .5rem"
-					height="1rem"
-					fill={questionData.comment_count ? 'currentColor' : ''}
+					height="0.85rem"
+					fill="currentColor"
 					type={questionData.comment_count ? 'multiple' : 'empty'}
 				/>
-			</Badge>
+				{questionData.comment_count || '0'}
+			</span>
 		</div>
 
-		<div class="mb-4">
-			<h3 class="mb-2 text-sm font-semibold">Keywords:</h3>
-			<div class="flex flex-wrap gap-2">
-				{#if questionData.keywords?.length}
+		{#if questionData.keywords?.length}
+			<div class="tag-section">
+				<span class="field-label">Keywords</span>
+				<div class="tag-list">
 					{#each questionData.keywords as keyword}
-						<Badge color="green">{keyword}</Badge>
+						<span class="tag keyword">{keyword}</span>
 					{/each}
-				{:else}
-					<span class="text-sm text-gray-500">No keywords</span>
-				{/if}
-			</div>
-		</div>
-
-		<div class="mb-4">
-			<h3 class="mb-2 text-sm font-semibold">Tags:</h3>
-			<div class="flex flex-wrap gap-2">
-				{#if selectedTags.length}
-					{#each selectedTags as tag}
-						<Badge color="indigo">{tag.tag_name}</Badge>
-					{/each}
-				{:else}
-					<span class="text-sm text-gray-500">No tags</span>
-				{/if}
-			</div>
-		</div>
-
-		{#if confirmingTag}
-			<div
-				class="mb-4 flex items-center gap-3 rounded-md border border-blue-200 bg-blue-50 p-3 dark:border-blue-800 dark:bg-blue-900/30"
-			>
-				<p class="flex-1 text-sm font-medium">Run AI tagging on this question?</p>
-				<Button size="xs" disabled={taggingLoading} on:click={tagQuestion}>
-					{taggingLoading ? 'Tagging...' : 'Yes, Tag'}
-				</Button>
-				<Button size="xs" color="gray" on:click={() => (confirmingTag = false)}>Cancel</Button>
+				</div>
 			</div>
 		{/if}
 
-		<div class="flex flex-wrap gap-2">
-			<Button size="sm" on:click={() => (confirmingTag = true)}>AI Tag</Button>
-			<Button size="sm" on:click={startEditing}>Edit</Button>
-			<Button size="sm" href="/questions/{questionData.url}">Go to</Button>
+		{#if selectedTags.length}
+			<div class="tag-section">
+				<span class="field-label">Tags</span>
+				<div class="tag-list">
+					{#each selectedTags as tag}
+						<span class="tag">{tag.tag_name}</span>
+					{/each}
+				</div>
+			</div>
+		{/if}
+
+		{#if confirmingTag}
+			<div class="confirm-bar">
+				<p class="confirm-text">Run AI tagging on this question?</p>
+				<div class="confirm-actions">
+					<button class="btn btn-primary btn-sm" disabled={taggingLoading} on:click={tagQuestion}>
+						{taggingLoading ? 'Tagging...' : 'Yes, Tag'}
+					</button>
+					<button class="btn btn-secondary btn-sm" on:click={() => (confirmingTag = false)}>
+						Cancel
+					</button>
+				</div>
+			</div>
+		{/if}
+
+		<div class="action-row">
+			<button class="btn btn-outline" on:click={() => (confirmingTag = true)}>AI Tag</button>
+			<button class="btn btn-outline" on:click={startEditing}>Edit</button>
+			<a href="/questions/{questionData.url}" class="btn btn-primary" target="_blank">View</a>
 		</div>
 	{/if}
 </div>
 
-<style lang="scss">
+<style>
 	.question-card {
 		width: 100%;
-		max-width: 1000px;
-		position: relative;
-		box-shadow:
-			0 3px 1px -2px rgba(0, 0, 0, 0.2),
-			0 2px 2px 0 rgba(0, 0, 0, 0.14),
-			0 1px 5px 0 rgba(0, 0, 0, 0.12);
+		max-width: 720px;
+		background: var(--card-background, #fff);
+		border: 1px solid var(--border-color, #e2e8f0);
+		border-radius: 12px;
+		overflow: hidden;
 	}
+
+	/* Edit Mode */
 	.edit-form {
+		padding: 20px;
 		max-height: 70vh;
 		overflow-y: auto;
+		display: flex;
+		flex-direction: column;
+		gap: 16px;
+	}
+
+	.edit-header {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	.edit-title {
+		font-size: 1rem;
+		font-weight: 600;
+		color: var(--text-primary, #1e293b);
+		margin: 0;
+	}
+
+	.close-btn {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		width: 28px;
+		height: 28px;
+		border-radius: 6px;
+		border: none;
+		background: transparent;
+		color: var(--text-secondary, #64748b);
+		cursor: pointer;
+		transition: all 0.15s ease;
+	}
+
+	.close-btn:hover {
+		background: var(--hover-background, #f1f5f9);
+		color: var(--text-primary, #1e293b);
+	}
+
+	/* Field Groups */
+	.field-group {
+		display: flex;
+		flex-direction: column;
+		gap: 4px;
+	}
+
+	.field-label {
+		font-size: 0.7rem;
+		font-weight: 600;
+		color: var(--text-secondary, #64748b);
+		text-transform: uppercase;
+		letter-spacing: 0.04em;
+	}
+
+	.original-text {
+		font-size: 0.85rem;
+		color: var(--text-secondary, #64748b);
+		margin: 0;
+		padding: 8px 12px;
+		background: var(--hover-background, #f8fafc);
+		border-radius: 8px;
+		line-height: 1.5;
+	}
+
+	.field-textarea {
+		width: 100%;
+		padding: 10px 12px;
+		border: 1px solid var(--border-color, #e2e8f0);
+		border-radius: 8px;
+		font-size: 0.85rem;
+		font-family: inherit;
+		color: var(--text-primary, #1e293b);
+		background: var(--card-background, #fff);
+		resize: vertical;
+		line-height: 1.5;
+		transition: border-color 0.15s ease;
+	}
+
+	.field-textarea:focus {
+		outline: none;
+		border-color: var(--primary, #3b82f6);
+		box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.1);
+	}
+
+	/* Toggle Buttons */
+	.toggle-row {
+		display: flex;
+		gap: 8px;
+	}
+
+	.toggle-btn {
+		padding: 6px 14px;
+		border: 1px solid var(--border-color, #e2e8f0);
+		border-radius: 6px;
+		background: var(--card-background, #fff);
+		color: var(--text-secondary, #64748b);
+		font-size: 0.8rem;
+		font-weight: 500;
+		cursor: pointer;
+		transition: all 0.15s ease;
+	}
+
+	.toggle-btn:hover {
+		border-color: var(--primary, #3b82f6);
+	}
+
+	.toggle-btn.active.warning {
+		background: rgba(245, 158, 11, 0.1);
+		border-color: #f59e0b;
+		color: #d97706;
+	}
+
+	.toggle-btn.active.danger {
+		background: rgba(239, 68, 68, 0.1);
+		border-color: #ef4444;
+		color: #dc2626;
+	}
+
+	/* Tags */
+	.tag-section {
+		padding: 0 20px;
+		padding-bottom: 12px;
+		display: flex;
+		flex-direction: column;
+		gap: 6px;
+	}
+
+	.tag-list {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 6px;
+	}
+
+	.tag {
+		display: inline-flex;
+		align-items: center;
+		gap: 4px;
+		padding: 3px 10px;
+		background: rgba(99, 102, 241, 0.08);
+		color: #6366f1;
+		border-radius: 12px;
+		font-size: 0.75rem;
+		font-weight: 500;
+	}
+
+	.tag.keyword {
+		background: rgba(16, 185, 129, 0.08);
+		color: #059669;
+	}
+
+	.tag.selected {
+		background: rgba(99, 102, 241, 0.12);
+	}
+
+	.tag-remove {
+		display: inline-flex;
+		align-items: center;
+		justify-content: center;
+		width: 16px;
+		height: 16px;
+		border: none;
+		background: transparent;
+		color: inherit;
+		cursor: pointer;
+		border-radius: 50%;
+		padding: 0;
+		opacity: 0.6;
+		transition: opacity 0.15s ease;
+	}
+
+	.tag-remove:hover {
+		opacity: 1;
+	}
+
+	.tag-picker {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 6px;
+		max-height: 140px;
+		overflow-y: auto;
+		padding: 8px;
+		border: 1px solid var(--border-color, #e2e8f0);
+		border-radius: 8px;
+	}
+
+	.tag-add-btn {
+		padding: 3px 10px;
+		border: 1px dashed var(--border-color, #cbd5e1);
+		border-radius: 12px;
+		background: transparent;
+		color: var(--text-secondary, #64748b);
+		font-size: 0.75rem;
+		font-weight: 500;
+		cursor: pointer;
+		transition: all 0.15s ease;
+	}
+
+	.tag-add-btn:hover {
+		border-color: var(--primary, #3b82f6);
+		color: var(--primary, #3b82f6);
+		background: rgba(59, 130, 246, 0.04);
+	}
+
+	.empty-text {
+		font-size: 0.8rem;
+		color: var(--text-secondary, #94a3b8);
+	}
+
+	/* View Mode */
+	.view-section {
+		padding: 20px;
+		padding-bottom: 12px;
+	}
+
+	.question-texts {
+		display: flex;
+		flex-direction: column;
+		gap: 10px;
+	}
+
+	.question-text {
+		font-size: 0.9rem;
+		color: var(--text-primary, #1e293b);
+		margin: 0;
+		line-height: 1.5;
+	}
+
+	.question-text.formatted {
+		color: var(--text-primary, #1e293b);
+		font-weight: 500;
+	}
+
+	/* Meta Row */
+	.meta-row {
+		display: flex;
+		flex-wrap: wrap;
+		align-items: center;
+		gap: 8px;
+		padding: 0 20px;
+		padding-bottom: 12px;
+	}
+
+	.status-badge {
+		padding: 2px 10px;
+		border-radius: 12px;
+		font-size: 0.7rem;
+		font-weight: 600;
+	}
+
+	.status-badge.warning {
+		background: rgba(245, 158, 11, 0.1);
+		color: #d97706;
+	}
+
+	.status-badge.danger {
+		background: rgba(239, 68, 68, 0.1);
+		color: #dc2626;
+	}
+
+	.meta-badge {
+		display: inline-flex;
+		align-items: center;
+		gap: 4px;
+		padding: 2px 10px;
+		background: var(--hover-background, #f1f5f9);
+		color: var(--text-secondary, #64748b);
+		border-radius: 12px;
+		font-size: 0.75rem;
+		font-weight: 500;
+	}
+
+	.meta-badge.comments {
+		background: rgba(16, 185, 129, 0.08);
+		color: #059669;
+	}
+
+	/* Confirm Bar */
+	.confirm-bar {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		gap: 12px;
+		margin: 0 20px;
+		margin-bottom: 12px;
+		padding: 10px 14px;
+		background: rgba(59, 130, 246, 0.05);
+		border: 1px solid rgba(59, 130, 246, 0.15);
+		border-radius: 8px;
+	}
+
+	.confirm-text {
+		margin: 0;
+		font-size: 0.8rem;
+		font-weight: 500;
+		color: var(--text-primary, #1e293b);
+	}
+
+	.confirm-actions {
+		display: flex;
+		gap: 6px;
+		flex-shrink: 0;
+	}
+
+	/* Action Row */
+	.action-row {
+		display: flex;
+		gap: 8px;
+		padding: 12px 20px;
+		border-top: 1px solid var(--border-color, #e2e8f0);
+		background: var(--hover-background, #f8fafc);
+	}
+
+	/* Buttons */
+	.btn {
+		display: inline-flex;
+		align-items: center;
+		justify-content: center;
+		padding: 7px 16px;
+		border-radius: 8px;
+		font-size: 0.8rem;
+		font-weight: 500;
+		cursor: pointer;
+		transition: all 0.15s ease;
+		text-decoration: none;
+		border: none;
+		line-height: 1.3;
+	}
+
+	.btn:disabled {
+		opacity: 0.5;
+		cursor: not-allowed;
+	}
+
+	.btn-sm {
+		padding: 5px 12px;
+		font-size: 0.75rem;
+	}
+
+	.btn-primary {
+		background: var(--primary, #3b82f6);
+		color: white;
+	}
+
+	.btn-primary:hover:not(:disabled) {
+		background: #2563eb;
+	}
+
+	.btn-secondary {
+		background: var(--card-background, #fff);
+		color: var(--text-secondary, #64748b);
+		border: 1px solid var(--border-color, #e2e8f0);
+	}
+
+	.btn-secondary:hover {
+		border-color: var(--text-secondary, #94a3b8);
+		color: var(--text-primary, #1e293b);
+	}
+
+	.btn-outline {
+		background: var(--card-background, #fff);
+		color: var(--text-secondary, #64748b);
+		border: 1px solid var(--border-color, #e2e8f0);
+	}
+
+	.btn-outline:hover {
+		border-color: var(--primary, #3b82f6);
+		color: var(--primary, #3b82f6);
+	}
+
+	/* Edit Actions */
+	.edit-actions {
+		display: flex;
+		justify-content: flex-end;
+		gap: 8px;
+		padding-top: 8px;
+		border-top: 1px solid var(--border-color, #e2e8f0);
 	}
 </style>

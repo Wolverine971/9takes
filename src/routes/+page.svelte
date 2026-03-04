@@ -281,17 +281,6 @@
 	<div class="bg-ambient"></div>
 	<div class="bg-grid"></div>
 
-	<!-- Floating particles -->
-	<div class="particles" aria-hidden="true">
-		{#each Array(12) as _, i}
-			<div
-				class="particle"
-				style="--delay: {i * 0.8}s; --x: {8 + Math.random() * 84}%; --size: {2 +
-					Math.random() * 2}px; --duration: {20 + Math.random() * 10}s;"
-			></div>
-		{/each}
-	</div>
-
 	<main class="content">
 		<!-- ========== HERO SECTION ========== -->
 		{#if loaded}
@@ -578,21 +567,18 @@
 	   CSS VARIABLES
 	   ========================================== */
 	.sl-page {
-		/* Void */
-		--void-abyss: #05050a;
+		/* Homepage-specific void shades (supplement the global --void-* tokens) */
 		--void-shadow: #0a0a12;
 		--void-umbra: #12121c;
 		--void-penumbra: #1a1a28;
 
-		/* Text */
+		/* Homepage-specific text shades */
 		--text-pale: #e8e8f0;
 		--text-mist: #9898a8;
 		--text-faded: #585868;
 
-		/* Shadow Power */
-		--shadow-monarch: #7c3aed;
+		/* Homepage-specific accent colors */
 		--shadow-flame: #a855f7;
-		--shadow-deep: #5b21b6;
 		--shadow-ethereal: #c084fc;
 
 		/* System */
@@ -606,11 +592,6 @@
 		--status-gold-bright: #fbbf24;
 		--status-success: #14b8a6;
 
-		/* Fonts */
-		--font-display: 'Rajdhani', sans-serif;
-		--font-body: 'Space Grotesk', sans-serif;
-		--font-mono: 'JetBrains Mono', monospace;
-
 		/* Transitions */
 		--ease-out: cubic-bezier(0.4, 0, 0.2, 1);
 	}
@@ -623,7 +604,7 @@
 		min-height: 100vh;
 		background: var(--void-abyss);
 		color: var(--text-pale);
-		font-family: var(--font-body);
+		font-family: var(--font-family);
 		overflow-x: hidden;
 	}
 
@@ -664,45 +645,6 @@
 		background-size: 60px 60px;
 		z-index: 2;
 		pointer-events: none;
-	}
-
-	/* Particles */
-	.particles {
-		position: fixed;
-		inset: 0;
-		z-index: 3;
-		pointer-events: none;
-		overflow: hidden;
-	}
-
-	.particle {
-		position: absolute;
-		width: var(--size);
-		height: var(--size);
-		background: var(--shadow-ethereal);
-		border-radius: 50%;
-		left: var(--x);
-		bottom: -20px;
-		opacity: 0;
-		animation: particle-rise var(--duration) linear infinite;
-		animation-delay: var(--delay);
-	}
-
-	@keyframes particle-rise {
-		0% {
-			transform: translateY(0);
-			opacity: 0;
-		}
-		5% {
-			opacity: 0.4;
-		}
-		95% {
-			opacity: 0.4;
-		}
-		100% {
-			transform: translateY(-105vh);
-			opacity: 0;
-		}
 	}
 
 	/* ==========================================

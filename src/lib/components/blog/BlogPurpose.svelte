@@ -162,8 +162,8 @@
 		display: inline-flex;
 		align-items: center;
 		gap: 0.5rem;
-		background: #fff;
-		color: #5046c7;
+		background: var(--shadow-monarch, #7c3aed);
+		color: #fff;
 		padding: 0.625rem 1.25rem;
 		border-radius: 8px;
 		font-weight: 600;
@@ -174,9 +174,9 @@
 		flex-shrink: 0;
 
 		&:hover {
-			background: #f8f7ff;
+			background: var(--shadow-monarch-light, #8b5cf6);
 			transform: translateY(-1px);
-			box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+			box-shadow: 0 4px 12px rgba(124, 58, 237, 0.3);
 		}
 
 		.arrow-icon {

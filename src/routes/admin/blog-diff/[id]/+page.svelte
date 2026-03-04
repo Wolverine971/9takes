@@ -5,40 +5,35 @@
 	import PopCard from '$lib/components/atoms/PopCard.svelte';
 	import { goto } from '$app/navigation';
 
-	export let data: PageData;
+	let { data }: { data: PageData } = $props();
 
-	let selectedLeftVersion: string = '';
-	let selectedRightVersion: string = '';
-	let leftContent: string = '';
-	let rightContent: string = '';
-	let leftTitle: string = '';
-	let rightTitle: string = '';
-	let viewMode: 'diff' | 'single' = 'diff';
-	let activeTab: 'diff' | 'preview' = 'diff';
+	let selectedLeftVersion = $state('');
+	let selectedRightVersion = $state('');
+	let leftContent = $state('');
+	let rightContent = $state('');
+	let leftTitle = $state('');
+	let rightTitle = $state('');
+	let viewMode = $state<'diff' | 'single'>('diff');
+	let activeTab = $state<'diff' | 'preview'>('diff');
 
-	// Get source type for the selected version
-	$: selectedRightSource = data.versions?.find(
-		(v) => v.id.toString() === selectedRightVersion
-	)?.source;
+	let selectedRightSource = $derived(
+		data.versions?.find((v) => v.id.toString() === selectedRightVersion)?.source
+	);
 
-	// Initialize with latest two versions if available, or single view mode
-	$: if (
-		data.versions &&
-		data.versions.length > 0 &&
-		!selectedLeftVersion &&
-		!selectedRightVersion
-	) {
-		if (data.versions.length >= 2) {
-			selectedLeftVersion = data.versions[1].id.toString();
-			selectedRightVersion = data.versions[0].id.toString();
-			viewMode = 'diff';
-		} else {
-			// Only one version - show single view mode
-			selectedRightVersion = data.versions[0].id.toString();
-			viewMode = 'single';
+	// Initialize with latest two versions if available
+	$effect(() => {
+		if (data.versions?.length > 0 && !selectedLeftVersion && !selectedRightVersion) {
+			if (data.versions.length >= 2) {
+				selectedLeftVersion = data.versions[1].id.toString();
+				selectedRightVersion = data.versions[0].id.toString();
+				viewMode = 'diff';
+			} else {
+				selectedRightVersion = data.versions[0].id.toString();
+				viewMode = 'single';
+			}
+			updateDiffContent();
 		}
-		updateDiffContent();
-	}
+	});
 
 	function updateDiffContent() {
 		const leftVersion = data.versions.find((v) => v.id.toString() === selectedLeftVersion);
@@ -55,16 +50,16 @@
 			: 'Select Version';
 	}
 
-	$: {
-		(selectedLeftVersion, selectedRightVersion);
+	$effect(() => {
+		selectedLeftVersion;
+		selectedRightVersion;
 		updateDiffContent();
-		// Update view mode based on selection
 		if (selectedLeftVersion && selectedRightVersion) {
 			viewMode = 'diff';
 		} else if (selectedRightVersion && !selectedLeftVersion) {
 			viewMode = 'single';
 		}
-	}
+	});
 
 	function formatDate(dateString: string): string {
 		return new Date(dateString).toLocaleString();
@@ -92,273 +87,544 @@
 	<title>Blog Version Diff - {data.blog?.title || 'Unknown Blog'}</title>
 </svelte:head>
 
-<div class="container mx-auto px-4 py-6">
-	<!-- Header -->
-	<div class="mb-6">
-		<button
-			on:click={goBack}
-			class="mb-4 flex items-center gap-2 text-blue-600 hover:text-blue-800"
-		>
-			← Back to Content Board
-		</button>
+<!-- Header -->
+<div class="header-section">
+	<button class="back-btn" onclick={goBack}> &larr; Back to Content Board </button>
 
-		<h1 class="mb-2 text-3xl font-bold text-gray-900">Blog Version History</h1>
-
-		{#if data.blog}
-			<div class="text-gray-600">
-				<p class="text-lg font-medium">{data.blog.title}</p>
-				<p class="text-sm">Person: {data.blog.person}</p>
-			</div>
-		{/if}
+	<div class="page-header">
+		<h1>Blog Version History</h1>
 	</div>
 
-	<!-- Version Selectors -->
-	<div class="mb-6 rounded-lg border bg-white p-6 shadow-sm">
-		<h2 class="mb-4 text-lg font-medium">Compare Versions</h2>
-
-		<div class="grid gap-6 md:grid-cols-2">
-			<!-- Left Version Selector -->
-			<div>
-				<label for="leftVersion" class="mb-2 block text-sm font-medium text-gray-700">
-					Left Side (Older Version)
-				</label>
-				<select
-					id="leftVersion"
-					bind:value={selectedLeftVersion}
-					class="w-full rounded-md border border-gray-300 px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500"
-				>
-					<option value="">Select version...</option>
-					{#each data.versions as version}
-						<option value={version.id}>
-							Version {version.version_number} - {formatDate(version.changed_at)} - {getVersionLabel(
-								version
-							)}
-							{version.is_current ? ' (Current)' : ''}
-						</option>
-					{/each}
-				</select>
-			</div>
-
-			<!-- Right Version Selector -->
-			<div>
-				<label for="rightVersion" class="mb-2 block text-sm font-medium text-gray-700">
-					Right Side (Newer Version)
-				</label>
-				<select
-					id="rightVersion"
-					bind:value={selectedRightVersion}
-					class="w-full rounded-md border border-gray-300 px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500"
-				>
-					<option value="">Select version...</option>
-					{#each data.versions as version}
-						<option value={version.id}>
-							Version {version.version_number} - {formatDate(version.changed_at)} - {getVersionLabel(
-								version
-							)}
-							{version.is_current ? ' (Current)' : ''}
-						</option>
-					{/each}
-				</select>
-			</div>
-		</div>
-	</div>
-
-	<!-- Version Summary -->
-	{#if data.versions && data.versions.length > 0}
-		<div class="mb-6 rounded-lg border border-blue-200 bg-blue-50 p-4">
-			<h3 class="mb-2 font-medium text-blue-900">Version History Summary</h3>
-			<p class="text-sm text-blue-800">
-				{#if data.versions.length === 1}
-					This is the first version of this blog. No previous versions to compare.
-				{:else}
-					Total versions: {data.versions.length} | Latest update: {formatDate(
-						data.versions[0].changed_at
-					)}
-				{/if}
-				{#if data.hasDraft}
-					<span class="ml-2 rounded-full bg-green-100 px-2 py-1 text-xs font-medium text-green-800">
-						Draft Available
-					</span>
-				{/if}
-			</p>
-		</div>
-	{/if}
-
-	<!-- View Mode Tabs -->
-	{#if selectedRightVersion}
-		<div class="mb-4">
-			<div class="flex border-b border-gray-200">
-				<button
-					on:click={() => (activeTab = 'diff')}
-					class="px-6 py-3 text-sm font-medium transition-colors {activeTab === 'diff'
-						? 'border-b-2 border-blue-500 text-blue-600'
-						: 'text-gray-500 hover:text-gray-700'}"
-				>
-					{viewMode === 'diff' ? 'Diff View' : 'Source View'}
-				</button>
-				<button
-					on:click={() => (activeTab = 'preview')}
-					class="px-6 py-3 text-sm font-medium transition-colors {activeTab === 'preview'
-						? 'border-b-2 border-blue-500 text-blue-600'
-						: 'text-gray-500 hover:text-gray-700'}"
-				>
-					Preview
-				</button>
-			</div>
-		</div>
-	{/if}
-
-	<!-- Content Viewer -->
-	{#if activeTab === 'diff'}
-		{#if viewMode === 'single' && selectedRightVersion}
-			<!-- Single Version View -->
-			<div class="overflow-hidden rounded-lg border bg-white shadow-sm">
-				<div class="border-b bg-blue-50 px-4 py-3">
-					<div class="flex items-center justify-between">
-						<h3 class="font-medium text-blue-900">{rightTitle}</h3>
-						<span class="rounded-full bg-blue-100 px-3 py-1 text-xs font-medium text-blue-800">
-							First Version - No Previous History
-						</span>
-					</div>
-				</div>
-				<div class="max-h-[70vh] overflow-y-auto bg-white p-4">
-					<pre class="whitespace-pre-wrap font-mono text-sm text-gray-700">{rightContent}</pre>
-				</div>
-			</div>
-		{:else if selectedLeftVersion && selectedRightVersion}
-			<!-- Diff View -->
-			<div class="overflow-hidden rounded-lg border bg-white shadow-sm">
-				<BlogDiffViewer {leftContent} {rightContent} {leftTitle} {rightTitle} />
-			</div>
-		{:else if selectedRightVersion && !selectedLeftVersion}
-			<!-- Single version selected from dropdown -->
-			<div class="overflow-hidden rounded-lg border bg-white shadow-sm">
-				<div class="border-b bg-gray-100 px-4 py-3">
-					<h3 class="font-medium text-gray-800">{rightTitle}</h3>
-					<p class="mt-1 text-sm text-gray-600">
-						Select a version on the left to compare, or view this version's content below.
-					</p>
-				</div>
-				<div class="max-h-[70vh] overflow-y-auto bg-white p-4">
-					<pre class="whitespace-pre-wrap font-mono text-sm text-gray-700">{rightContent}</pre>
-				</div>
-			</div>
-		{:else}
-			<div class="rounded-lg border-2 border-dashed border-gray-300 bg-gray-50 p-12 text-center">
-				<div class="text-gray-500">
-					<svg
-						class="mx-auto mb-4 h-12 w-12 text-gray-400"
-						fill="none"
-						viewBox="0 0 24 24"
-						stroke="currentColor"
-					>
-						<path
-							stroke-linecap="round"
-							stroke-linejoin="round"
-							stroke-width="2"
-							d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"
-						/>
-					</svg>
-					<h3 class="mb-2 text-lg font-medium text-gray-900">Select Versions to Compare</h3>
-					<p class="text-gray-500">
-						Choose at least one version from the dropdowns above to see the differences.
-					</p>
-				</div>
-			</div>
-		{/if}
-	{:else if activeTab === 'preview' && selectedRightVersion}
-		<!-- Preview View - Matches /personality-analysis/[slug] layout -->
-		<div class="overflow-hidden rounded-lg border bg-white shadow-sm">
-			<div class="border-b bg-purple-50 px-4 py-3">
-				<div class="flex flex-col gap-2">
-					<div class="flex items-center justify-between">
-						<h3 class="font-medium text-purple-900">Preview: {rightTitle}</h3>
-						{#if selectedRightSource === 'draft'}
-							<span
-								class="rounded-full bg-yellow-100 px-3 py-1 text-xs font-medium text-yellow-800"
-							>
-								Draft (Markdown)
-							</span>
-						{:else}
-							<span class="rounded-full bg-green-100 px-3 py-1 text-xs font-medium text-green-800">
-								Published HTML
-							</span>
-						{/if}
-					</div>
-					<p class="text-xs text-purple-700">
-						This preview shows how the content will appear on the actual page. The PopCard image and
-						BlogPurpose component are added automatically by the page template.
-					</p>
-				</div>
-			</div>
-			<div class="blog-preview max-h-[80vh] overflow-y-auto bg-white p-6">
-				<article class="article-body prose prose-lg mx-auto max-w-4xl">
-					<!-- Featured Image PopCard - Added automatically by page template -->
-					<div class="featured-image mb-6 flex justify-center">
-						<div class="relative">
-							<div
-								class="absolute -top-2 right-0 z-10 rounded-full bg-blue-100 px-2 py-0.5 text-[10px] font-medium text-blue-700"
-							>
-								Auto-added by template
-							</div>
-							<PopCard
-								image={`/types/${data.blog?.enneagram}s/${data.blog?.person}.webp`}
-								showIcon={false}
-								enneagramType={data.blog?.enneagram}
-								displayText={data.blog?.person?.split('-').join(' ') || ''}
-								subtext=""
-							/>
-						</div>
-					</div>
-
-					<!-- Blog Content -->
-					{@html rightContent}
-
-					<!-- BlogPurpose placeholder - Added automatically before last H2 -->
-					<div
-						class="blog-purpose-placeholder my-6 rounded-lg border-2 border-dashed border-blue-300 bg-blue-50 p-4 text-center"
-					>
-						<p class="text-sm text-blue-600">
-							<strong>BlogPurpose Component</strong> - Automatically inserted here (before the last H2)
-						</p>
-					</div>
-				</article>
-			</div>
-		</div>
-	{/if}
-
-	<!-- Legend (only shown when comparing versions in diff tab) -->
-	{#if activeTab === 'diff' && viewMode === 'diff' && selectedLeftVersion && selectedRightVersion}
-		<div class="mt-6 rounded-lg border bg-white p-4 shadow-sm">
-			<h3 class="mb-3 font-medium text-gray-900">Legend</h3>
-			<div class="grid grid-cols-2 gap-3 text-sm md:grid-cols-4">
-				<div class="flex items-center gap-2">
-					<div class="h-4 w-4 border-l-4 border-green-500 bg-green-100"></div>
-					<span class="text-green-800">Added</span>
-				</div>
-				<div class="flex items-center gap-2">
-					<div class="h-4 w-4 border-l-4 border-red-500 bg-red-100"></div>
-					<span class="text-red-800">Removed</span>
-				</div>
-				<div class="flex items-center gap-2">
-					<div class="h-4 w-4 border-l-4 border-yellow-500 bg-yellow-100"></div>
-					<span class="text-yellow-800">Modified</span>
-				</div>
-				<div class="flex items-center gap-2">
-					<div class="h-4 w-4 border-l-4 border-gray-200 bg-gray-100"></div>
-					<span class="text-gray-700">Unchanged</span>
-				</div>
-			</div>
+	{#if data.blog}
+		<div class="blog-meta">
+			<p class="blog-title">{data.blog.title}</p>
+			<p class="blog-person">Person: {data.blog.person}</p>
 		</div>
 	{/if}
 </div>
 
+<!-- Version Selectors -->
+<div class="section-card">
+	<h2 class="card-title">Compare Versions</h2>
+	<div class="selector-grid">
+		<div class="selector-group">
+			<label for="leftVersion" class="field-label">Left Side (Older)</label>
+			<select id="leftVersion" bind:value={selectedLeftVersion} class="field-select">
+				<option value="">Select version...</option>
+				{#each data.versions as version}
+					<option value={version.id}>
+						Version {version.version_number} - {formatDate(version.changed_at)} - {getVersionLabel(
+							version
+						)}
+						{version.is_current ? ' (Current)' : ''}
+					</option>
+				{/each}
+			</select>
+		</div>
+
+		<div class="selector-group">
+			<label for="rightVersion" class="field-label">Right Side (Newer)</label>
+			<select id="rightVersion" bind:value={selectedRightVersion} class="field-select">
+				<option value="">Select version...</option>
+				{#each data.versions as version}
+					<option value={version.id}>
+						Version {version.version_number} - {formatDate(version.changed_at)} - {getVersionLabel(
+							version
+						)}
+						{version.is_current ? ' (Current)' : ''}
+					</option>
+				{/each}
+			</select>
+		</div>
+	</div>
+</div>
+
+<!-- Version Summary -->
+{#if data.versions?.length > 0}
+	<div class="summary-banner">
+		<h3 class="summary-title">Version History Summary</h3>
+		<p class="summary-text">
+			{#if data.versions.length === 1}
+				This is the first version. No previous versions to compare.
+			{:else}
+				Total versions: {data.versions.length} | Latest update: {formatDate(
+					data.versions[0].changed_at
+				)}
+			{/if}
+			{#if data.hasDraft}
+				<span class="draft-badge">Draft Available</span>
+			{/if}
+		</p>
+	</div>
+{/if}
+
+<!-- View Mode Tabs -->
+{#if selectedRightVersion}
+	<div class="tab-bar">
+		<button
+			class="tab-btn"
+			class:active={activeTab === 'diff'}
+			onclick={() => (activeTab = 'diff')}
+		>
+			{viewMode === 'diff' ? 'Diff View' : 'Source View'}
+		</button>
+		<button
+			class="tab-btn"
+			class:active={activeTab === 'preview'}
+			onclick={() => (activeTab = 'preview')}
+		>
+			Preview
+		</button>
+	</div>
+{/if}
+
+<!-- Content Viewer -->
+{#if activeTab === 'diff'}
+	{#if viewMode === 'single' && selectedRightVersion}
+		<div class="content-card">
+			<div class="content-header info">
+				<h3 class="content-header-title">{rightTitle}</h3>
+				<span class="source-badge info">First Version - No Previous History</span>
+			</div>
+			<div class="content-body">
+				<pre class="source-code">{rightContent}</pre>
+			</div>
+		</div>
+	{:else if selectedLeftVersion && selectedRightVersion}
+		<div class="content-card">
+			<BlogDiffViewer {leftContent} {rightContent} {leftTitle} {rightTitle} />
+		</div>
+	{:else if selectedRightVersion && !selectedLeftVersion}
+		<div class="content-card">
+			<div class="content-header">
+				<h3 class="content-header-title">{rightTitle}</h3>
+				<p class="content-header-hint">
+					Select a version on the left to compare, or view this version below.
+				</p>
+			</div>
+			<div class="content-body">
+				<pre class="source-code">{rightContent}</pre>
+			</div>
+		</div>
+	{:else}
+		<div class="empty-state">
+			<svg class="empty-icon" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+				<path
+					stroke-linecap="round"
+					stroke-linejoin="round"
+					stroke-width="2"
+					d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"
+				/>
+			</svg>
+			<h3 class="empty-title">Select Versions to Compare</h3>
+			<p class="empty-hint">Choose at least one version from the dropdowns above.</p>
+		</div>
+	{/if}
+{:else if activeTab === 'preview' && selectedRightVersion}
+	<div class="content-card">
+		<div class="content-header preview">
+			<div class="preview-header-row">
+				<h3 class="content-header-title">Preview: {rightTitle}</h3>
+				{#if selectedRightSource === 'draft'}
+					<span class="source-badge warning">Draft (Markdown)</span>
+				{:else}
+					<span class="source-badge success">Published HTML</span>
+				{/if}
+			</div>
+			<p class="content-header-hint">
+				This preview shows how the content will appear. PopCard image and BlogPurpose are added by
+				the page template.
+			</p>
+		</div>
+		<div class="blog-preview content-body">
+			<article class="article-body">
+				<div class="featured-image">
+					<div class="template-indicator">Auto-added by template</div>
+					<PopCard
+						image={`/types/${data.blog?.enneagram}s/${data.blog?.person}.webp`}
+						showIcon={false}
+						enneagramType={data.blog?.enneagram}
+						displayText={data.blog?.person?.split('-').join(' ') || ''}
+						subtext=""
+					/>
+				</div>
+
+				{@html rightContent}
+
+				<div class="blog-purpose-placeholder">
+					<p>
+						<strong>BlogPurpose Component</strong> - Automatically inserted here (before the last H2)
+					</p>
+				</div>
+			</article>
+		</div>
+	</div>
+{/if}
+
+<!-- Legend -->
+{#if activeTab === 'diff' && viewMode === 'diff' && selectedLeftVersion && selectedRightVersion}
+	<div class="legend-card">
+		<h3 class="legend-title">Legend</h3>
+		<div class="legend-grid">
+			<div class="legend-item">
+				<div class="legend-swatch added"></div>
+				<span>Added</span>
+			</div>
+			<div class="legend-item">
+				<div class="legend-swatch removed"></div>
+				<span>Removed</span>
+			</div>
+			<div class="legend-item">
+				<div class="legend-swatch modified"></div>
+				<span>Modified</span>
+			</div>
+			<div class="legend-item">
+				<div class="legend-swatch unchanged"></div>
+				<span>Unchanged</span>
+			</div>
+		</div>
+	</div>
+{/if}
+
 <style lang="scss">
-	/* Blog preview styles to match the actual blog appearance */
+	/* Header */
+	.header-section {
+		margin-bottom: 20px;
+	}
+
+	.back-btn {
+		display: inline-flex;
+		align-items: center;
+		gap: 6px;
+		padding: 6px 12px;
+		margin-bottom: 12px;
+		background: transparent;
+		border: 1px solid var(--void-elevated);
+		border-radius: 8px;
+		color: var(--shadow-monarch);
+		font-size: 0.8rem;
+		font-weight: 500;
+		cursor: pointer;
+		transition: all 0.15s ease;
+	}
+
+	.back-btn:hover {
+		border-color: var(--shadow-monarch);
+		background: var(--void-elevated);
+	}
+
+	.blog-meta {
+		margin-top: 8px;
+	}
+
+	.blog-title {
+		font-size: 1rem;
+		font-weight: 500;
+		color: var(--text-primary);
+		margin: 0 0 2px;
+	}
+
+	.blog-person {
+		font-size: 0.8rem;
+		color: var(--text-secondary);
+		margin: 0;
+	}
+
+	/* Section Card */
+	.section-card {
+		background: var(--void-surface);
+		border: 1px solid var(--void-elevated);
+		border-radius: 12px;
+		padding: 20px;
+		margin-bottom: 16px;
+	}
+
+	.card-title {
+		font-size: 0.95rem;
+		font-weight: 600;
+		color: var(--text-primary);
+		margin: 0 0 16px;
+	}
+
+	/* Selectors */
+	.selector-grid {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		gap: 20px;
+	}
+
+	.selector-group {
+		display: flex;
+		flex-direction: column;
+		gap: 6px;
+	}
+
+	.field-label {
+		font-size: 0.8rem;
+		font-weight: 600;
+		color: var(--text-secondary);
+	}
+
+	.field-select {
+		width: 100%;
+		padding: 9px 12px;
+		border: 1px solid var(--void-elevated);
+		border-radius: 8px;
+		background: var(--void-deep);
+		color: var(--text-primary);
+		font-size: 0.8rem;
+		font-family: inherit;
+		cursor: pointer;
+		transition: border-color 0.15s ease;
+	}
+
+	.field-select:focus {
+		outline: none;
+		border-color: var(--shadow-monarch);
+		box-shadow: 0 0 0 3px rgba(139, 92, 246, 0.15);
+	}
+
+	/* Summary Banner */
+	.summary-banner {
+		padding: 14px 16px;
+		background: var(--void-elevated);
+		border: 1px solid var(--void-highlight);
+		border-radius: 12px;
+		margin-bottom: 16px;
+	}
+
+	.summary-title {
+		font-size: 0.85rem;
+		font-weight: 600;
+		color: var(--text-primary);
+		margin: 0 0 4px;
+	}
+
+	.summary-text {
+		font-size: 0.8rem;
+		color: var(--text-secondary);
+		margin: 0;
+	}
+
+	.draft-badge {
+		display: inline-block;
+		padding: 2px 8px;
+		margin-left: 8px;
+		background: rgba(16, 185, 129, 0.15);
+		color: #10b981;
+		border-radius: 12px;
+		font-size: 0.7rem;
+		font-weight: 600;
+	}
+
+	/* Tab Bar */
+	.tab-bar {
+		display: flex;
+		gap: 2px;
+		border-bottom: 1px solid var(--void-elevated);
+		margin-bottom: 16px;
+	}
+
+	.tab-btn {
+		padding: 10px 20px;
+		background: transparent;
+		border: none;
+		border-bottom: 2px solid transparent;
+		color: var(--text-secondary);
+		font-size: 0.8rem;
+		font-weight: 500;
+		cursor: pointer;
+		transition: all 0.15s ease;
+		margin-bottom: -1px;
+	}
+
+	.tab-btn:hover {
+		color: var(--text-primary);
+	}
+
+	.tab-btn.active {
+		color: var(--shadow-monarch);
+		border-bottom-color: var(--shadow-monarch);
+	}
+
+	/* Content Card */
+	.content-card {
+		background: var(--void-surface);
+		border: 1px solid var(--void-elevated);
+		border-radius: 12px;
+		overflow: hidden;
+	}
+
+	.content-header {
+		padding: 14px 16px;
+		border-bottom: 1px solid var(--void-elevated);
+		background: var(--void-deep);
+	}
+
+	.content-header.info {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		flex-wrap: wrap;
+		gap: 8px;
+	}
+
+	.content-header.preview {
+		background: var(--void-deep);
+	}
+
+	.preview-header-row {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		flex-wrap: wrap;
+		gap: 8px;
+		margin-bottom: 4px;
+	}
+
+	.content-header-title {
+		font-size: 0.85rem;
+		font-weight: 600;
+		color: var(--text-primary);
+		margin: 0;
+	}
+
+	.content-header-hint {
+		font-size: 0.75rem;
+		color: var(--text-secondary);
+		margin: 4px 0 0;
+	}
+
+	.source-badge {
+		display: inline-block;
+		padding: 3px 10px;
+		border-radius: 12px;
+		font-size: 0.7rem;
+		font-weight: 600;
+		flex-shrink: 0;
+	}
+
+	.source-badge.info {
+		background: var(--void-elevated);
+		color: var(--text-secondary);
+	}
+
+	.source-badge.warning {
+		background: rgba(245, 158, 11, 0.15);
+		color: #f59e0b;
+	}
+
+	.source-badge.success {
+		background: rgba(16, 185, 129, 0.15);
+		color: #10b981;
+	}
+
+	.content-body {
+		max-height: 70vh;
+		overflow-y: auto;
+		padding: 16px;
+	}
+
+	.source-code {
+		white-space: pre-wrap;
+		font-family: var(--font-mono, monospace);
+		font-size: 0.8rem;
+		color: var(--text-primary);
+		line-height: 1.6;
+		margin: 0;
+	}
+
+	/* Empty State */
+	.empty-state {
+		padding: 48px 24px;
+		text-align: center;
+		border: 2px dashed var(--void-elevated);
+		border-radius: 12px;
+		background: var(--void-deep);
+	}
+
+	.empty-icon {
+		width: 48px;
+		height: 48px;
+		margin: 0 auto 12px;
+		color: var(--text-secondary);
+		opacity: 0.5;
+	}
+
+	.empty-title {
+		font-size: 1rem;
+		font-weight: 600;
+		color: var(--text-primary);
+		margin: 0 0 4px;
+	}
+
+	.empty-hint {
+		font-size: 0.85rem;
+		color: var(--text-secondary);
+		margin: 0;
+	}
+
+	/* Legend */
+	.legend-card {
+		background: var(--void-surface);
+		border: 1px solid var(--void-elevated);
+		border-radius: 12px;
+		padding: 16px;
+		margin-top: 16px;
+	}
+
+	.legend-title {
+		font-size: 0.85rem;
+		font-weight: 600;
+		color: var(--text-primary);
+		margin: 0 0 10px;
+	}
+
+	.legend-grid {
+		display: grid;
+		grid-template-columns: repeat(4, 1fr);
+		gap: 12px;
+	}
+
+	.legend-item {
+		display: flex;
+		align-items: center;
+		gap: 8px;
+		font-size: 0.8rem;
+		color: var(--text-primary);
+	}
+
+	.legend-swatch {
+		width: 16px;
+		height: 16px;
+		border-radius: 3px;
+	}
+
+	.legend-swatch.added {
+		background: rgba(16, 185, 129, 0.2);
+		border-left: 3px solid #10b981;
+	}
+
+	.legend-swatch.removed {
+		background: rgba(239, 68, 68, 0.2);
+		border-left: 3px solid #ef4444;
+	}
+
+	.legend-swatch.modified {
+		background: rgba(245, 158, 11, 0.2);
+		border-left: 3px solid #f59e0b;
+	}
+
+	.legend-swatch.unchanged {
+		background: var(--void-elevated);
+		border-left: 3px solid var(--void-highlight);
+	}
+
+	/* Blog Preview - content-specific styles */
 	.blog-preview {
 		font-family: 'Noticia Text', serif;
 		line-height: 1.8;
-		color: #2d3436;
+		color: var(--text-primary);
 
 		:global(h1),
 		:global(h2),
@@ -370,21 +636,18 @@
 			line-height: 1.3;
 			margin-top: 2rem;
 			margin-bottom: 1rem;
-			color: #18191a;
+			color: var(--text-primary);
 		}
 
 		:global(h1) {
 			font-size: 2.25rem;
 		}
-
 		:global(h2) {
 			font-size: 1.875rem;
 		}
-
 		:global(h3) {
 			font-size: 1.5rem;
 		}
-
 		:global(h4) {
 			font-size: 1.25rem;
 		}
@@ -394,11 +657,10 @@
 		}
 
 		:global(a) {
-			color: #6c5ce7;
+			color: var(--shadow-monarch);
 			text-decoration: underline;
-
 			&:hover {
-				color: #4834d4;
+				opacity: 0.8;
 			}
 		}
 
@@ -413,32 +675,31 @@
 		}
 
 		:global(blockquote) {
-			border-left: 4px solid #6c5ce7;
-			padding-left: 1rem;
+			border-left: 4px solid var(--shadow-monarch);
+			padding: 1rem;
 			margin: 1.5rem 0;
 			font-style: italic;
-			color: #636e72;
-			background-color: #f7f7ff;
-			padding: 1rem;
-			border-radius: 0 0.5rem 0.5rem 0;
+			color: var(--text-secondary);
+			background: var(--void-elevated);
+			border-radius: 0 8px 8px 0;
 		}
 
 		:global(img) {
 			max-width: 100%;
 			height: auto;
-			border-radius: 0.5rem;
+			border-radius: 8px;
 			margin: 1.5rem 0;
 		}
 
 		:global(pre),
 		:global(code) {
-			font-family: var(--font-mono);
-			background-color: #f0f2f5;
-			border-radius: 0.25rem;
+			font-family: var(--font-mono, monospace);
+			background: var(--void-deep);
+			border-radius: 4px;
 		}
 
 		:global(code) {
-			padding: 0.125rem 0.375rem;
+			padding: 2px 6px;
 			font-size: 0.875em;
 		}
 
@@ -446,7 +707,6 @@
 			padding: 1rem;
 			overflow-x: auto;
 			margin: 1.5rem 0;
-
 			:global(code) {
 				padding: 0;
 				background: none;
@@ -455,7 +715,7 @@
 
 		:global(hr) {
 			border: none;
-			border-top: 1px solid #e3e1f0;
+			border-top: 1px solid var(--void-elevated);
 			margin: 2rem 0;
 		}
 
@@ -466,38 +726,36 @@
 
 			:global(th),
 			:global(td) {
-				border: 1px solid #e3e1f0;
+				border: 1px solid var(--void-elevated);
 				padding: 0.75rem;
 				text-align: left;
 			}
 
 			:global(th) {
-				background-color: #f7f7ff;
+				background: var(--void-deep);
 				font-weight: 600;
 			}
 
 			:global(tr:nth-child(even)) {
-				background-color: #fafafa;
+				background: var(--void-deep);
 			}
 		}
 
-		:global(strong) {
-			font-weight: 700;
-		}
-
-		:global(em) {
-			font-style: italic;
-		}
-
-		/* Handle any embedded components/cards that might be in the HTML */
 		:global(.pop-card),
 		:global([class*='card']) {
 			margin: 1.5rem 0;
 		}
 	}
 
-	/* Featured image container */
+	.article-body {
+		max-width: 56rem;
+		margin: 0 auto;
+	}
+
 	.featured-image {
+		display: flex;
+		justify-content: center;
+		margin-bottom: 1.5rem;
 		position: relative;
 
 		:global(.pop-card) {
@@ -505,8 +763,48 @@
 		}
 	}
 
-	/* Blog purpose placeholder styling */
+	.template-indicator {
+		position: absolute;
+		top: -8px;
+		right: 0;
+		z-index: 10;
+		padding: 2px 8px;
+		background: var(--void-elevated);
+		color: var(--text-secondary);
+		border-radius: 12px;
+		font-size: 0.6rem;
+		font-weight: 600;
+	}
+
 	.blog-purpose-placeholder {
-		background: linear-gradient(135deg, #eff6ff 0%, #f5f3ff 100%);
+		margin: 1.5rem 0;
+		padding: 16px;
+		border: 2px dashed var(--void-elevated);
+		border-radius: 12px;
+		background: var(--void-deep);
+		text-align: center;
+
+		p {
+			margin: 0;
+			font-size: 0.8rem;
+			color: var(--text-secondary);
+		}
+	}
+
+	/* Responsive */
+	@media (max-width: 768px) {
+		.selector-grid {
+			grid-template-columns: 1fr;
+			gap: 12px;
+		}
+
+		.legend-grid {
+			grid-template-columns: repeat(2, 1fr);
+		}
+
+		.content-header.info {
+			flex-direction: column;
+			align-items: flex-start;
+		}
 	}
 </style>
