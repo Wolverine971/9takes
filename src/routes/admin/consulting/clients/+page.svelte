@@ -240,7 +240,7 @@
 		onclick={(e) => {
 			if (e.target === e.currentTarget) closeModal();
 		}}
-		on:keydown={handleOverlayKeydown}
+		onkeydown={handleOverlayKeydown}
 	>
 		<div class="modal">
 			<div class="modal-header">

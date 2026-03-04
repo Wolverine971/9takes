@@ -141,10 +141,11 @@
 	}
 
 	// Calculate progress percentage
-	$: progressPercentage =
+	let progressPercentage = $derived(
 		data.stats.totalClients > 0
 			? Math.round((data.stats.activeClients / data.stats.totalClients) * 100)
-			: 0;
+			: 0
+	);
 </script>
 
 <svelte:head>
@@ -614,7 +615,7 @@
 									<tr
 										class:converted={entry.isConverted}
 										tabindex="0"
-										on:keydown={(e) => handleRowKeydown(e, entry)}
+										onkeydown={(e) => handleRowKeydown(e, entry)}
 									>
 										<td class="name-cell">
 											<div class="person-info">
@@ -996,8 +997,8 @@
 	recipients={emailRecipients}
 	initialSubject={emailSubject}
 	initialContent={emailContent}
-	on:send={handleEmailSent}
-	on:close={() => (showEmailModal = false)}
+	onsend={handleEmailSent}
+	onclose={() => (showEmailModal = false)}
 />
 
 <style>
