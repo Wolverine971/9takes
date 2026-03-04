@@ -64,7 +64,7 @@
 		showDeleteConfirm = false;
 	}
 
-	function handleCreateTemplate(event: SubmitEvent) {
+	function handleCreateTemplate() {
 		return ({ result }: any) => {
 			if (result.type === 'success') {
 				closeCreateModal();

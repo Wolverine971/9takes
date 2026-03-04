@@ -446,12 +446,6 @@ main {
 	min-height: 100vh;
 }
 
-.section-wrapper {
-	margin-bottom: 4rem;
-	contain: layout style;
-	contain-intrinsic-size: 700px;
-}
-
 .column {
 	display: flex;
 	flex: 1;
@@ -802,102 +796,6 @@ table {
 	}
 }
 
-/* Hero Section */
-.hero-content {
-	display: flex;
-	flex-wrap: wrap;
-	gap: 2rem;
-}
-
-.hero-image,
-.hero-text {
-	flex: 1 1 45%;
-}
-
-.question-links,
-.answer-types {
-	display: flex;
-	flex-direction: column;
-	gap: 0.5rem;
-}
-
-.question-link {
-	font-size: 1.2rem;
-	color: var(--primary-dark);
-	text-decoration: none;
-	transition: color 0.3s ease;
-
-	&:hover {
-		text-decoration: underline;
-	}
-}
-
-.arrow {
-	font-size: 2rem;
-	color: var(--primary-dark);
-}
-
-/* Bento-style Components */
-
-.bento {
-	position: relative;
-	overflow: hidden;
-	border-radius: 1rem;
-	transition: transform 0.3s ease;
-	box-shadow: 0 4px 6px var(--shadow-color);
-
-	&:hover {
-		transform: translateY(-5px);
-	}
-
-	img {
-		width: 100%;
-		height: 200px;
-		object-fit: cover;
-	}
-
-	h3 {
-		position: absolute;
-		bottom: 0;
-		left: 0;
-		right: 0;
-		margin: 0;
-		padding: 1rem;
-		background: rgba(0, 0, 0, 0.7);
-		color: var(--white);
-		font-size: 1rem;
-	}
-}
-
-/* Benefits Section */
-.benefits {
-	ul {
-		list-style-type: none;
-		padding: 0;
-	}
-
-	li {
-		display: flex;
-		align-items: center;
-		margin-bottom: 1rem;
-
-		svg {
-			width: 1.5em;
-			height: 1.5em;
-			margin-right: 1rem;
-			fill: var(--primary-dark);
-		}
-	}
-}
-
-/* Signup Section */
-.signup {
-	text-align: center;
-	padding: 2rem;
-	border-radius: 1rem;
-	box-shadow: 0 4px 6px var(--shadow-color);
-}
-
 /*==============================================
   VISUAL EFFECTS
 ==============================================*/
@@ -906,20 +804,6 @@ table {
 	border-bottom-color: transparent;
 	border-radius: 50%;
 	animation: rotation 1s linear infinite;
-}
-
-/* Animation */
-.animate-on-scroll {
-	opacity: 0;
-	transform: translateY(20px);
-	transition:
-		opacity 0.6s ease-out,
-		transform 0.6s ease-out;
-
-	&.in-view {
-		opacity: 1;
-		transform: translateY(0);
-	}
 }
 
 /*==============================================
@@ -994,12 +878,6 @@ body::-webkit-scrollbar-thumb,
 	main {
 		padding: 1rem;
 	}
-
-	.hero-image,
-	.hero-text {
-		flex: 0 0 100%;
-		max-width: 100%;
-	}
 }
 
 @include desktop-sm {
@@ -1032,16 +910,6 @@ body::-webkit-scrollbar-thumb,
 		font-size: 1.5rem;
 	}
 
-	.hero {
-		margin: 2rem 0;
-	}
-
-	.question-links,
-	.answer-types {
-		flex-direction: row;
-		flex-wrap: wrap;
-		justify-content: center;
-	}
 }
 
 @include mobile {
@@ -1123,18 +991,4 @@ body::-webkit-scrollbar-thumb,
 	:root [style*='--tag'] {
 		view-transition-name: var(--tag);
 	}
-}
-
-#component-0,
-#component-1,
-#component-2 {
-	width: 100%;
-	display: flex;
-	justify-content: center;
-	height: 100%;
-}
-
-.book-img {
-	min-height: 400px;
-	min-width: 360px;
 }

@@ -27,18 +27,17 @@
 		error?: string;
 	}
 
-	let query = '';
-	let enneagramFilter: string = '';
-	let categoryFilter: string = '';
-	let typeFilter: string = '';
+	let query = $state('');
+	let enneagramFilter = $state('');
+	let categoryFilter = $state('');
+	let typeFilter = $state('');
 
-	let results: SearchResult[] = [];
-	let isLoading = false;
-	let error = '';
-	let totalResults = 0;
-	let searchPerformed = false;
+	let results = $state<SearchResult[]>([]);
+	let isLoading = $state(false);
+	let error = $state('');
+	let totalResults = $state(0);
+	let searchPerformed = $state(false);
 
-	// Available filter options
 	const enneagramTypes = [1, 2, 3, 4, 5, 6, 7, 8, 9];
 	const categories = [
 		'enneagram',
@@ -190,219 +189,215 @@
 	<title>Blog Search | Admin</title>
 </svelte:head>
 
-<div class="search-container">
-	<div class="search-tabs">
-		<a href="/admin/search" class="tab active">Full Search</a>
-		<a href="/admin/search/typeahead" class="tab">Quick Search</a>
-	</div>
+<div class="search-tabs">
+	<a href="/admin/search" class="tab active">Full Search</a>
+	<a href="/admin/search/typeahead" class="tab">Quick Search</a>
+</div>
 
-	<h1>Blog Content Search</h1>
-	<p class="subtitle">Search across all enneagram content and celebrity analyses</p>
+<h1>Blog Content Search</h1>
+<p class="subtitle">Search across all enneagram content and celebrity analyses</p>
 
-	<!-- Search Input -->
-	<div class="search-box">
-		<input
-			type="text"
-			bind:value={query}
-			on:input={debounceSearch}
-			on:keydown={handleKeydown}
-			placeholder="Search for topics, types, celebrities..."
-			class="search-input"
-		/>
-		<button on:click={search} disabled={isLoading || query.length < 2} class="search-button">
-			{isLoading ? 'Searching...' : 'Search'}
-		</button>
-	</div>
+<!-- Search Input -->
+<div class="search-box">
+	<input
+		type="text"
+		bind:value={query}
+		oninput={debounceSearch}
+		onkeydown={handleKeydown}
+		placeholder="Search for topics, types, celebrities..."
+		class="search-input"
+	/>
+	<button onclick={search} disabled={isLoading || query.length < 2} class="search-button">
+		{isLoading ? 'Searching...' : 'Search'}
+	</button>
+</div>
 
-	<!-- Filters -->
-	<div class="filters">
-		<div class="filter-group">
-			<label for="enneagram">Enneagram Type</label>
-			<select
-				id="enneagram"
-				bind:value={enneagramFilter}
-				on:change={() => query.length >= 2 && search()}
-			>
-				<option value="">All Types</option>
-				{#each enneagramTypes as type}
-					<option value={type.toString()}>Type {type}</option>
-				{/each}
-			</select>
-		</div>
-
-		<div class="filter-group">
-			<label for="category">Category</label>
-			<select
-				id="category"
-				bind:value={categoryFilter}
-				on:change={() => query.length >= 2 && search()}
-			>
-				<option value="">All Categories</option>
-				{#each categories as cat}
-					<option value={cat}>{cat}</option>
-				{/each}
-			</select>
-		</div>
-
-		<div class="filter-group">
-			<label for="type">Content Type</label>
-			<select id="type" bind:value={typeFilter} on:change={() => query.length >= 2 && search()}>
-				<option value="">All Content Types</option>
-				{#each contentTypes as t}
-					<option value={t}>{t}</option>
-				{/each}
-			</select>
-		</div>
-
-		{#if enneagramFilter || categoryFilter || typeFilter}
-			<button on:click={clearFilters} class="clear-button">Clear Filters</button>
-		{/if}
-	</div>
-
-	<!-- Error Display -->
-	{#if error}
-		<div class="error-message">{error}</div>
-	{/if}
-
-	<!-- Results -->
-	{#if isLoading}
-		<div class="loading">
-			<div class="spinner"></div>
-			<p>Searching...</p>
-		</div>
-	{:else if searchPerformed}
-		<div class="results-header">
-			<h2>
-				{#if results.length > 0}
-					Found {totalResults} result{totalResults !== 1 ? 's' : ''} for "{query}"
-				{:else}
-					No results found for "{query}"
-				{/if}
-			</h2>
-		</div>
-
-		<div class="results-grid">
-			{#each results as result}
-				<a href={result.url} class="result-card" target="_blank" rel="noopener">
-					<div class="result-header">
-						<span class="source-badge {getSourceBadgeClass(result.source)}">
-							{result.source === 'famous_people' ? 'Celebrity' : 'Article'}
-						</span>
-						{#if result.enneagram}
-							<span
-								class="enneagram-badge"
-								style="background-color: {getEnneagramColor(result.enneagram)}"
-							>
-								Type {result.enneagram}
-							</span>
-						{/if}
-					</div>
-
-					<h3 class="result-title">{result.title}</h3>
-
-					{#if result.description}
-						<p class="result-description">
-							{result.description.length > 150
-								? result.description.slice(0, 150) + '...'
-								: result.description}
-						</p>
-					{/if}
-
-					<div class="result-meta">
-						{#if result.category}
-							<span class="meta-item category">{result.category}</span>
-						{/if}
-						{#if result.type?.length > 0}
-							{#each result.type.slice(0, 3) as t}
-								<span class="meta-item type">{t}</span>
-							{/each}
-						{/if}
-					</div>
-
-					<div class="result-footer">
-						<span class="date">Updated: {formatDate(result.lastmod)}</span>
-						<span class="url">{result.url}</span>
-					</div>
-				</a>
+<!-- Filters -->
+<div class="filters">
+	<div class="filter-group">
+		<label for="enneagram">Enneagram Type</label>
+		<select
+			id="enneagram"
+			bind:value={enneagramFilter}
+			onchange={() => query.length >= 2 && search()}
+		>
+			<option value="">All Types</option>
+			{#each enneagramTypes as type}
+				<option value={type.toString()}>Type {type}</option>
 			{/each}
-		</div>
-	{:else}
-		<div class="empty-state">
-			<p>Enter a search query to find content across your blog</p>
-			<p class="hint">
-				Try searching for: "anxiety", "relationships", "type 4", or a celebrity name
-			</p>
-		</div>
+		</select>
+	</div>
+
+	<div class="filter-group">
+		<label for="category">Category</label>
+		<select
+			id="category"
+			bind:value={categoryFilter}
+			onchange={() => query.length >= 2 && search()}
+		>
+			<option value="">All Categories</option>
+			{#each categories as cat}
+				<option value={cat}>{cat}</option>
+			{/each}
+		</select>
+	</div>
+
+	<div class="filter-group">
+		<label for="type">Content Type</label>
+		<select id="type" bind:value={typeFilter} onchange={() => query.length >= 2 && search()}>
+			<option value="">All Content Types</option>
+			{#each contentTypes as t}
+				<option value={t}>{t}</option>
+			{/each}
+		</select>
+	</div>
+
+	{#if enneagramFilter || categoryFilter || typeFilter}
+		<button onclick={clearFilters} class="clear-button">Clear Filters</button>
 	{/if}
 </div>
 
-<style>
-	.search-container {
-		max-width: 1200px;
-		margin: 0 auto;
-		padding: 2rem;
-	}
+<!-- Error Display -->
+{#if error}
+	<div class="error-message">{error}</div>
+{/if}
 
+<!-- Results -->
+{#if isLoading}
+	<div class="loading">
+		<div class="spinner"></div>
+		<p>Searching...</p>
+	</div>
+{:else if searchPerformed}
+	<div class="results-header">
+		<h2>
+			{#if results.length > 0}
+				Found {totalResults} result{totalResults !== 1 ? 's' : ''} for "{query}"
+			{:else}
+				No results found for "{query}"
+			{/if}
+		</h2>
+	</div>
+
+	<div class="results-grid">
+		{#each results as result}
+			<a href={result.url} class="result-card" target="_blank" rel="noopener">
+				<div class="result-header">
+					<span class="source-badge {getSourceBadgeClass(result.source)}">
+						{result.source === 'famous_people' ? 'Celebrity' : 'Article'}
+					</span>
+					{#if result.enneagram}
+						<span
+							class="enneagram-badge"
+							style="background-color: {getEnneagramColor(result.enneagram)}"
+						>
+							Type {result.enneagram}
+						</span>
+					{/if}
+				</div>
+
+				<h3 class="result-title">{result.title}</h3>
+
+				{#if result.description}
+					<p class="result-description">
+						{result.description.length > 150
+							? result.description.slice(0, 150) + '...'
+							: result.description}
+					</p>
+				{/if}
+
+				<div class="result-meta">
+					{#if result.category}
+						<span class="meta-item category">{result.category}</span>
+					{/if}
+					{#if result.type?.length > 0}
+						{#each result.type.slice(0, 3) as t}
+							<span class="meta-item type">{t}</span>
+						{/each}
+					{/if}
+				</div>
+
+				<div class="result-footer">
+					<span class="date">Updated: {formatDate(result.lastmod)}</span>
+					<span class="url">{result.url}</span>
+				</div>
+			</a>
+		{/each}
+	</div>
+{:else}
+	<div class="empty-state">
+		<p>Enter a search query to find content across your blog</p>
+		<p class="hint">
+			Try searching for: "anxiety", "relationships", "type 4", or a celebrity name
+		</p>
+	</div>
+{/if}
+
+<style lang="scss">
 	h1 {
-		font-size: 2rem;
+		font-size: 1.75rem;
+		font-weight: 700;
 		margin-bottom: 0.5rem;
-		color: var(--color-text, #1a1a1a);
+		color: var(--text-primary);
 	}
 
 	.subtitle {
-		color: #6b7280;
-		margin-bottom: 2rem;
+		color: var(--text-secondary);
+		margin-bottom: 1.5rem;
 	}
 
 	.search-box {
 		display: flex;
-		gap: 1rem;
-		margin-bottom: 1.5rem;
+		gap: 0.75rem;
+		margin-bottom: 1.25rem;
 	}
 
 	.search-input {
 		flex: 1;
-		padding: 0.75rem 1rem;
-		font-size: 1rem;
-		border: 2px solid #e5e7eb;
+		padding: 0.625rem 0.875rem;
+		font-size: 0.95rem;
+		border: 1px solid var(--void-elevated);
 		border-radius: 8px;
-		transition: border-color 0.2s;
-	}
+		background: var(--void-surface);
+		color: var(--text-primary);
+		transition: border-color 0.15s ease;
 
-	.search-input:focus {
-		outline: none;
-		border-color: #6366f1;
+		&:focus {
+			outline: none;
+			border-color: var(--shadow-monarch);
+		}
 	}
 
 	.search-button {
-		padding: 0.75rem 1.5rem;
-		font-size: 1rem;
+		padding: 0.625rem 1.25rem;
+		font-size: 0.875rem;
 		font-weight: 600;
-		background: #6366f1;
+		background: var(--shadow-monarch);
 		color: white;
 		border: none;
 		border-radius: 8px;
 		cursor: pointer;
-		transition: background-color 0.2s;
-	}
+		transition: opacity 0.15s ease;
 
-	.search-button:hover:not(:disabled) {
-		background: #4f46e5;
-	}
+		&:hover:not(:disabled) {
+			opacity: 0.85;
+		}
 
-	.search-button:disabled {
-		opacity: 0.5;
-		cursor: not-allowed;
+		&:disabled {
+			opacity: 0.4;
+			cursor: not-allowed;
+		}
 	}
 
 	.filters {
 		display: flex;
 		flex-wrap: wrap;
-		gap: 1rem;
+		gap: 0.75rem;
 		align-items: flex-end;
-		margin-bottom: 2rem;
-		padding: 1rem;
-		background: #f9fafb;
+		margin-bottom: 1.5rem;
+		padding: 0.875rem;
+		background: var(--void-deep);
+		border: 1px solid var(--void-elevated);
 		border-radius: 8px;
 	}
 
@@ -410,39 +405,47 @@
 		display: flex;
 		flex-direction: column;
 		gap: 0.25rem;
-	}
 
-	.filter-group label {
-		font-size: 0.875rem;
-		font-weight: 500;
-		color: #4b5563;
-	}
+		label {
+			font-size: 0.8rem;
+			font-weight: 500;
+			color: var(--text-secondary);
+		}
 
-	.filter-group select {
-		padding: 0.5rem 0.75rem;
-		font-size: 0.875rem;
-		border: 1px solid #d1d5db;
-		border-radius: 6px;
-		background: white;
-		min-width: 150px;
+		select {
+			padding: 0.4rem 0.625rem;
+			font-size: 0.8rem;
+			border: 1px solid var(--void-elevated);
+			border-radius: 6px;
+			background: var(--void-surface);
+			color: var(--text-primary);
+			min-width: 150px;
+		}
 	}
 
 	.clear-button {
-		padding: 0.5rem 1rem;
-		font-size: 0.875rem;
+		padding: 0.4rem 0.875rem;
+		font-size: 0.8rem;
 		background: #ef4444;
 		color: white;
 		border: none;
 		border-radius: 6px;
 		cursor: pointer;
+		transition: opacity 0.15s ease;
+
+		&:hover {
+			opacity: 0.85;
+		}
 	}
 
 	.error-message {
-		padding: 1rem;
-		background: #fef2f2;
-		color: #dc2626;
+		padding: 0.875rem;
+		background: rgba(239, 68, 68, 0.1);
+		color: #ef4444;
+		border: 1px solid rgba(239, 68, 68, 0.2);
 		border-radius: 8px;
 		margin-bottom: 1rem;
+		font-size: 0.875rem;
 	}
 
 	.loading {
@@ -450,16 +453,16 @@
 		flex-direction: column;
 		align-items: center;
 		padding: 3rem;
-		color: #6b7280;
+		color: var(--text-secondary);
 	}
 
 	.spinner {
-		width: 40px;
-		height: 40px;
-		border: 3px solid #e5e7eb;
-		border-top-color: #6366f1;
+		width: 32px;
+		height: 32px;
+		border: 3px solid var(--void-elevated);
+		border-top-color: var(--shadow-monarch);
 		border-radius: 50%;
-		animation: spin 0.8s linear infinite;
+		animation: spin 0.7s linear infinite;
 	}
 
 	@keyframes spin {
@@ -469,151 +472,151 @@
 	}
 
 	.results-header h2 {
-		font-size: 1.25rem;
-		color: #374151;
-		margin-bottom: 1.5rem;
+		font-size: 1.1rem;
+		color: var(--text-primary);
+		margin-bottom: 1.25rem;
 	}
 
 	.results-grid {
 		display: grid;
-		grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
-		gap: 1.5rem;
+		grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+		gap: 1rem;
 	}
 
 	.result-card {
 		display: block;
-		padding: 1.5rem;
-		background: white;
-		border: 1px solid #e5e7eb;
+		padding: 1.25rem;
+		background: var(--void-surface);
+		border: 1px solid var(--void-elevated);
 		border-radius: 12px;
 		text-decoration: none;
 		color: inherit;
-		transition:
-			box-shadow 0.2s,
-			transform 0.2s;
-	}
+		transition: all 0.15s ease;
 
-	.result-card:hover {
-		box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-		transform: translateY(-2px);
+		&:hover {
+			border-color: var(--shadow-monarch);
+			box-shadow: var(--glow-sm);
+			transform: translateY(-1px);
+		}
 	}
 
 	.result-header {
 		display: flex;
 		gap: 0.5rem;
-		margin-bottom: 0.75rem;
+		margin-bottom: 0.625rem;
 	}
 
 	.source-badge {
-		padding: 0.25rem 0.5rem;
-		font-size: 0.75rem;
+		padding: 0.2rem 0.5rem;
+		font-size: 0.7rem;
 		font-weight: 600;
 		border-radius: 4px;
 		text-transform: uppercase;
+		letter-spacing: 0.03em;
 	}
 
 	.badge-famous {
-		background: #fef3c7;
-		color: #92400e;
+		background: rgba(245, 158, 11, 0.12);
+		color: #f59e0b;
 	}
 
 	.badge-content {
-		background: #dbeafe;
-		color: #1e40af;
+		background: rgba(59, 130, 246, 0.12);
+		color: #3b82f6;
 	}
 
 	.enneagram-badge {
-		padding: 0.25rem 0.5rem;
-		font-size: 0.75rem;
+		padding: 0.2rem 0.5rem;
+		font-size: 0.7rem;
 		font-weight: 600;
 		border-radius: 4px;
 		color: white;
 	}
 
 	.result-title {
-		font-size: 1.125rem;
+		font-size: 1rem;
 		font-weight: 600;
-		color: #1f2937;
-		margin-bottom: 0.5rem;
+		color: var(--text-primary);
+		margin-bottom: 0.375rem;
 		line-height: 1.4;
 	}
 
 	.result-description {
-		font-size: 0.875rem;
-		color: #6b7280;
+		font-size: 0.8rem;
+		color: var(--text-secondary);
 		line-height: 1.5;
-		margin-bottom: 1rem;
+		margin-bottom: 0.75rem;
 	}
 
 	.result-meta {
 		display: flex;
 		flex-wrap: wrap;
-		gap: 0.5rem;
-		margin-bottom: 1rem;
+		gap: 0.375rem;
+		margin-bottom: 0.75rem;
 	}
 
 	.meta-item {
-		padding: 0.25rem 0.5rem;
-		font-size: 0.75rem;
+		padding: 0.2rem 0.5rem;
+		font-size: 0.7rem;
 		border-radius: 4px;
-	}
 
-	.meta-item.category {
-		background: #f3e8ff;
-		color: #7c3aed;
-	}
+		&.category {
+			background: rgba(139, 92, 246, 0.1);
+			color: #8b5cf6;
+		}
 
-	.meta-item.type {
-		background: #ecfdf5;
-		color: #059669;
+		&.type {
+			background: rgba(16, 185, 129, 0.1);
+			color: #10b981;
+		}
 	}
 
 	.result-footer {
 		display: flex;
 		justify-content: space-between;
-		font-size: 0.75rem;
-		color: #9ca3af;
+		font-size: 0.7rem;
+		color: var(--text-secondary);
 	}
 
 	.empty-state {
 		text-align: center;
-		padding: 4rem 2rem;
-		color: #6b7280;
-	}
+		padding: 3rem 1.5rem;
+		color: var(--text-secondary);
 
-	.empty-state .hint {
-		font-size: 0.875rem;
-		margin-top: 0.5rem;
-		font-style: italic;
+		.hint {
+			font-size: 0.8rem;
+			margin-top: 0.5rem;
+			font-style: italic;
+		}
 	}
 
 	.search-tabs {
 		display: flex;
 		gap: 0.5rem;
-		margin-bottom: 1.5rem;
+		margin-bottom: 1.25rem;
 	}
 
 	.tab {
-		padding: 0.5rem 1rem;
-		font-size: 0.875rem;
+		padding: 0.4rem 0.875rem;
+		font-size: 0.8rem;
 		font-weight: 500;
 		text-decoration: none;
-		color: #6b7280;
-		border: 1px solid #e5e7eb;
+		color: var(--text-secondary);
+		border: 1px solid var(--void-elevated);
 		border-radius: 8px;
-		background: white;
-		transition: all 0.2s ease;
-	}
+		background: var(--void-surface);
+		transition: all 0.15s ease;
 
-	.tab:hover {
-		color: #6366f1;
-		border-color: #6366f1;
-	}
+		&:hover {
+			color: var(--shadow-monarch);
+			border-color: var(--shadow-monarch);
+		}
 
-	.tab.active {
-		background: #6366f1;
-		color: white;
-		border-color: #6366f1;
+		&.active {
+			background: var(--shadow-monarch);
+			color: white;
+			border-color: var(--shadow-monarch);
+		}
 	}
 
 	@media (max-width: 640px) {

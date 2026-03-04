@@ -18,7 +18,7 @@
 	/>
 </svelte:head>
 
-<main class="mx-auto max-w-4xl px-4 py-8">
+<div class="mx-auto max-w-4xl px-4 py-8">
 	<div class="text-center">
 		<h1 class="mb-4 text-3xl font-bold">Enneagram Assessment</h1>
 		<p class="mb-6 text-lg text-gray-600">Redirecting you to our personality-based assessment...</p>
@@ -26,4 +26,4 @@
 			Click here if you're not redirected automatically
 		</a>
 	</div>
-</main>
+</div>

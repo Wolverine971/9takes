@@ -5,7 +5,7 @@
 	import QRCode from 'qrcode';
 	import LinkMap from '$lib/components/molecules/LinkMap.svelte';
 
-	export let data: PageData;
+	let { data }: { data: PageData } = $props();
 
 	const opts = {
 		errorCorrectionLevel: 'H',
@@ -18,9 +18,11 @@
 		}
 	};
 
-	let numberOfQRCodes = 12;
-	let qrCodes: { id: string; url: string }[] = [];
-	let showPrintView = false;
+	let numberOfQRCodes = $state(12);
+	let qrCodes = $state<{ id: string; url: string }[]>([]);
+	let showPrintView = $state(false);
+
+	let linkDropCount = $derived(data?.linkDrops?.length || 0);
 
 	function generateQRCodes() {
 		qrCodes = [];
@@ -44,171 +46,161 @@
 	function regenerateQRCodes() {
 		generateQRCodes();
 	}
-
-	$: linkDropCount = data?.linkDrops?.length || 0;
 </script>
 
-<div class="links-page">
-	<div class="page-header">
-		<div class="header-content">
-			<h1>Link Management</h1>
-			<p class="subtitle">Generate QR codes and manage link drops</p>
+<div class="page-header">
+	<div class="header-content">
+		<h1>Link Management</h1>
+		<p class="subtitle">Generate QR codes and manage link drops</p>
+	</div>
+	<div class="header-stats">
+		<div class="stat-pill">
+			<span class="stat-value">{qrCodes.length}</span>
+			<span class="stat-label">QR Codes</span>
 		</div>
-		<div class="header-stats">
-			<div class="stat-pill">
-				<span class="stat-value">{qrCodes.length}</span>
-				<span class="stat-label">QR Codes</span>
-			</div>
-			<div class="stat-pill">
-				<span class="stat-value">{linkDropCount}</span>
-				<span class="stat-label">Link Drops</span>
-			</div>
+		<div class="stat-pill">
+			<span class="stat-value">{linkDropCount}</span>
+			<span class="stat-label">Link Drops</span>
+		</div>
+	</div>
+</div>
+
+<!-- QR Code Generator Section -->
+<section class="section-card">
+	<div class="section-header">
+		<h2>QR Code Generator</h2>
+		<div class="section-actions">
+			<label class="count-control">
+				<span>Count:</span>
+				<input type="number" bind:value={numberOfQRCodes} min="1" max="50" />
+			</label>
+			<button class="btn btn-secondary" onclick={regenerateQRCodes}>Regenerate</button>
+			<button class="btn btn-primary" onclick={() => (showPrintView = !showPrintView)}>
+				{showPrintView ? 'Grid View' : 'Print View'}
+			</button>
 		</div>
 	</div>
 
-	<!-- QR Code Generator Section -->
-	<section class="section-card">
-		<div class="section-header">
-			<h2>QR Code Generator</h2>
-			<div class="section-actions">
-				<label class="count-control">
-					<span>Count:</span>
-					<input type="number" bind:value={numberOfQRCodes} min="1" max="50" />
-				</label>
-				<button class="btn btn-secondary" on:click={regenerateQRCodes}> Regenerate </button>
-				<button class="btn btn-primary" on:click={() => (showPrintView = !showPrintView)}>
-					{showPrintView ? 'Grid View' : 'Print View'}
-				</button>
-			</div>
+	{#if qrCodes.length === 0}
+		<div class="loading-state">
+			<div class="spinner"></div>
+			<p>Generating QR codes...</p>
 		</div>
-
-		{#if qrCodes.length === 0}
-			<div class="loading-state">
-				<div class="spinner"></div>
-				<p>Generating QR codes...</p>
-			</div>
-		{:else if showPrintView}
-			<div class="print-grid">
-				{#each qrCodes as qr}
-					<div class="print-item">
-						<img src={qr.url} alt="QR code {qr.id}" />
-						<span class="brand-label">9takes</span>
+	{:else if showPrintView}
+		<div class="print-grid">
+			{#each qrCodes as qr}
+				<div class="print-item">
+					<img src={qr.url} alt="QR code {qr.id}" />
+					<span class="brand-label">9takes</span>
+				</div>
+			{/each}
+		</div>
+	{:else}
+		<div class="qr-grid">
+			{#each qrCodes as qr}
+				<div class="qr-card">
+					<img src={qr.url} alt="QR code {qr.id}" />
+					<div class="qr-info">
+						<span class="qr-id">{qr.id}</span>
+						<span class="brand">9takes.com</span>
 					</div>
-				{/each}
-			</div>
-		{:else}
-			<div class="qr-grid">
-				{#each qrCodes as qr}
-					<div class="qr-card">
-						<img src={qr.url} alt="QR code {qr.id}" />
-						<div class="qr-info">
-							<span class="qr-id">{qr.id}</span>
-							<span class="brand">9takes.com</span>
-						</div>
-					</div>
-				{/each}
-			</div>
-		{/if}
-	</section>
-
-	<!-- Link Map Section -->
-	<section class="section-card">
-		<div class="section-header">
-			<h2>Link Drop Locations</h2>
-			<span class="badge">{linkDropCount} locations</span>
+				</div>
+			{/each}
 		</div>
-		<div class="map-container">
-			<LinkMap linkDrops={data?.linkDrops} />
-		</div>
-	</section>
-</div>
+	{/if}
+</section>
 
-<style>
-	.links-page {
-		max-width: 1400px;
-		margin: 0 auto;
-		padding: 2rem;
-	}
+<!-- Link Map Section -->
+<section class="section-card">
+	<div class="section-header">
+		<h2>Link Drop Locations</h2>
+		<span class="badge">{linkDropCount} locations</span>
+	</div>
+	<div class="map-container">
+		<LinkMap linkDrops={data?.linkDrops} />
+	</div>
+</section>
 
+<style lang="scss">
 	.page-header {
 		display: flex;
 		justify-content: space-between;
 		align-items: flex-start;
-		margin-bottom: 2rem;
+		margin-bottom: 1.5rem;
 		flex-wrap: wrap;
-		gap: 1.5rem;
+		gap: 1rem;
 	}
 
 	.header-content h1 {
 		font-size: 1.75rem;
 		font-weight: 700;
-		color: var(--text-primary, #1e293b);
+		color: var(--text-primary);
 		margin: 0 0 0.5rem 0;
 	}
 
 	.subtitle {
-		color: var(--text-secondary, #64748b);
-		font-size: 0.95rem;
+		color: var(--text-secondary);
+		font-size: 0.9rem;
 		margin: 0;
 	}
 
 	.header-stats {
 		display: flex;
-		gap: 1rem;
+		gap: 0.75rem;
 	}
 
 	.stat-pill {
 		display: flex;
 		flex-direction: column;
 		align-items: center;
-		padding: 0.75rem 1.25rem;
-		background: var(--card-background, #fff);
-		border: 1px solid var(--border-color, #e2e8f0);
+		padding: 0.625rem 1rem;
+		background: var(--void-surface);
+		border: 1px solid var(--void-elevated);
 		border-radius: 12px;
-		min-width: 100px;
+		min-width: 90px;
 	}
 
 	.stat-value {
-		font-size: 1.5rem;
+		font-size: 1.375rem;
 		font-weight: 700;
-		color: var(--primary, #6366f1);
+		color: var(--shadow-monarch);
 	}
 
 	.stat-label {
-		font-size: 0.7rem;
+		font-size: 0.65rem;
 		font-weight: 500;
-		color: var(--text-secondary, #64748b);
+		color: var(--text-secondary);
 		text-transform: uppercase;
-		letter-spacing: 0.5px;
+		letter-spacing: 0.04em;
 	}
 
 	.section-card {
-		background: var(--card-background, #fff);
-		border: 1px solid var(--border-color, #e2e8f0);
-		border-radius: 16px;
-		padding: 1.5rem;
-		margin-bottom: 2rem;
+		background: var(--void-surface);
+		border: 1px solid var(--void-elevated);
+		border-radius: 12px;
+		padding: 1.25rem;
+		margin-bottom: 1.25rem;
 	}
 
 	.section-header {
 		display: flex;
 		justify-content: space-between;
 		align-items: center;
-		margin-bottom: 1.5rem;
+		margin-bottom: 1.25rem;
 		flex-wrap: wrap;
-		gap: 1rem;
-	}
+		gap: 0.75rem;
 
-	.section-header h2 {
-		font-size: 1.25rem;
-		font-weight: 600;
-		color: var(--text-primary, #1e293b);
-		margin: 0;
+		h2 {
+			font-size: 1.1rem;
+			font-weight: 600;
+			color: var(--text-primary);
+			margin: 0;
+		}
 	}
 
 	.section-actions {
 		display: flex;
-		gap: 0.75rem;
+		gap: 0.625rem;
 		align-items: center;
 		flex-wrap: wrap;
 	}
@@ -216,53 +208,55 @@
 	.count-control {
 		display: flex;
 		align-items: center;
-		gap: 0.5rem;
-		font-size: 0.875rem;
-		color: var(--text-secondary, #64748b);
-	}
+		gap: 0.375rem;
+		font-size: 0.8rem;
+		color: var(--text-secondary);
 
-	.count-control input {
-		width: 60px;
-		padding: 0.375rem 0.5rem;
-		border: 1px solid var(--border-color, #e2e8f0);
-		border-radius: 6px;
-		font-size: 0.875rem;
+		input {
+			width: 56px;
+			padding: 0.3rem 0.4rem;
+			border: 1px solid var(--void-elevated);
+			border-radius: 6px;
+			font-size: 0.8rem;
+			background: var(--void-deep);
+			color: var(--text-primary);
+		}
 	}
 
 	.btn {
-		padding: 0.5rem 1rem;
-		font-size: 0.875rem;
+		padding: 0.4rem 0.875rem;
+		font-size: 0.8rem;
 		font-weight: 500;
 		border: none;
 		border-radius: 8px;
 		cursor: pointer;
-		transition: all 0.2s ease;
+		transition: all 0.15s ease;
 	}
 
 	.btn-primary {
-		background: var(--primary, #6366f1);
+		background: var(--shadow-monarch);
 		color: white;
-	}
 
-	.btn-primary:hover {
-		background: #4f46e5;
+		&:hover {
+			opacity: 0.85;
+		}
 	}
 
 	.btn-secondary {
-		background: var(--border-color, #e2e8f0);
-		color: var(--text-primary, #1e293b);
-	}
+		background: var(--void-elevated);
+		color: var(--text-primary);
 
-	.btn-secondary:hover {
-		background: #cbd5e1;
+		&:hover {
+			background: var(--void-deep);
+		}
 	}
 
 	.badge {
-		padding: 0.25rem 0.75rem;
-		font-size: 0.75rem;
+		padding: 0.2rem 0.625rem;
+		font-size: 0.7rem;
 		font-weight: 500;
-		background: rgba(99, 102, 241, 0.1);
-		color: var(--primary, #6366f1);
+		background: rgba(139, 92, 246, 0.1);
+		color: var(--shadow-monarch);
 		border-radius: 20px;
 	}
 
@@ -270,18 +264,18 @@
 		display: flex;
 		flex-direction: column;
 		align-items: center;
-		padding: 3rem;
-		color: var(--text-secondary, #64748b);
+		padding: 2.5rem;
+		color: var(--text-secondary);
 	}
 
 	.spinner {
 		width: 32px;
 		height: 32px;
-		border: 3px solid var(--border-color, #e2e8f0);
-		border-top-color: var(--primary, #6366f1);
+		border: 3px solid var(--void-elevated);
+		border-top-color: var(--shadow-monarch);
 		border-radius: 50%;
-		animation: spin 0.8s linear infinite;
-		margin-bottom: 1rem;
+		animation: spin 0.7s linear infinite;
+		margin-bottom: 0.75rem;
 	}
 
 	@keyframes spin {
@@ -292,48 +286,48 @@
 
 	.qr-grid {
 		display: grid;
-		grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
-		gap: 1rem;
+		grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
+		gap: 0.75rem;
 	}
 
 	.qr-card {
-		background: #f8fafc;
-		border: 1px solid var(--border-color, #e2e8f0);
+		background: var(--void-deep);
+		border: 1px solid var(--void-elevated);
 		border-radius: 12px;
-		padding: 1rem;
+		padding: 0.875rem;
 		text-align: center;
-		transition: all 0.2s ease;
-	}
+		transition: all 0.15s ease;
 
-	.qr-card:hover {
-		border-color: var(--primary, #6366f1);
-		box-shadow: 0 4px 12px rgba(99, 102, 241, 0.1);
-	}
+		&:hover {
+			border-color: var(--shadow-monarch);
+			box-shadow: var(--glow-sm);
+		}
 
-	.qr-card img {
-		width: 100%;
-		max-width: 100px;
-		height: auto;
-		border-radius: 8px;
-		margin-bottom: 0.5rem;
+		img {
+			width: 100%;
+			max-width: 100px;
+			height: auto;
+			border-radius: 8px;
+			margin-bottom: 0.375rem;
+		}
 	}
 
 	.qr-info {
 		display: flex;
 		flex-direction: column;
-		gap: 0.25rem;
+		gap: 0.2rem;
 	}
 
 	.qr-id {
-		font-size: 0.7rem;
+		font-size: 0.65rem;
 		font-family: monospace;
-		color: var(--text-secondary, #64748b);
+		color: var(--text-secondary);
 	}
 
 	.brand {
-		font-size: 0.75rem;
+		font-size: 0.7rem;
 		font-weight: 600;
-		color: var(--primary, #6366f1);
+		color: var(--shadow-monarch);
 	}
 
 	/* Print view for cutting */
@@ -345,22 +339,22 @@
 
 	.print-item {
 		position: relative;
-		border: 1px dashed #ccc;
+		border: 1px dashed var(--void-elevated);
 		padding: 4px;
 		text-align: center;
-	}
 
-	.print-item img {
-		width: 100%;
-		max-width: 80px;
-		height: auto;
+		img {
+			width: 100%;
+			max-width: 80px;
+			height: auto;
+		}
 	}
 
 	.brand-label {
 		display: block;
 		font-size: 0.6rem;
 		font-weight: 700;
-		color: #1e293b;
+		color: var(--text-primary);
 		margin-top: 2px;
 	}
 
@@ -371,10 +365,6 @@
 	}
 
 	@media (max-width: 768px) {
-		.links-page {
-			padding: 1rem;
-		}
-
 		.page-header {
 			flex-direction: column;
 		}

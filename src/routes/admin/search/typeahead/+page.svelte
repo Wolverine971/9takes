@@ -15,29 +15,25 @@
 		rank: number;
 	}
 
-	let query = '';
-	let results: TypeaheadResult[] = [];
-	let isLoading = false;
-	let selectedIndex = -1;
-	let showResults = false;
-	let inputElement: HTMLInputElement;
-	let navigatingToId: number | null = null;
+	let query = $state('');
+	let results = $state<TypeaheadResult[]>([]);
+	let isLoading = $state(false);
+	let selectedIndex = $state(-1);
+	let showResults = $state(false);
+	let inputElement = $state<HTMLInputElement | null>(null);
+	let navigatingToId = $state<number | null>(null);
 
 	let debounceTimer: ReturnType<typeof setTimeout>;
 
-	// Watch for navigation completion to reset state
-	$: if (!$navigating && navigatingToId !== null) {
-		navigatingToId = null;
-	}
+	$effect(() => {
+		if (!$navigating && navigatingToId !== null) {
+			navigatingToId = null;
+		}
+	});
 
-	/**
-	 * Clean up and render text snippets for display
-	 * Preserves <mark> highlight tags while stripping other HTML and rendering basic markdown
-	 */
 	function renderMarkdown(text: string): string {
 		if (!text) return '';
 
-		// Step 1: Extract and preserve <mark> tags with unique tokens
 		const markMatches: string[] = [];
 		let processed = text.replace(/<mark>([\s\S]*?)<\/mark>/gi, (_, content) => {
 			const token = `\u0000MARK${markMatches.length}\u0000`;
@@ -45,30 +41,18 @@
 			return token;
 		});
 
-		// Step 2: Strip all other HTML tags (from markdown source)
 		processed = processed.replace(/<[^>]+>/g, ' ');
-
-		// Step 3: Clean up whitespace
 		processed = processed.replace(/\s+/g, ' ').trim();
-
-		// Step 4: Escape HTML entities for safety
 		processed = processed.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
 
-		// Step 5: Convert basic markdown to HTML
 		processed = processed
-			// Bold: **text**
 			.replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>')
-			// Italic: *text* (not ** which is bold)
 			.replace(/(?<!\*)\*([^*]+)\*(?!\*)/g, '<em>$1</em>')
-			// Inline code: `code`
 			.replace(/`([^`]+)`/g, '<code>$1</code>')
-			// Links: [text](url) - just show the text
 			.replace(/\[([^\]]+)\]\([^)]+\)/g, '$1');
 
-		// Step 6: Restore <mark> tags
 		markMatches.forEach((content, index) => {
 			const token = `\u0000MARK${index}\u0000`;
-			// Also escape the content inside mark tags
 			const safeContent = content
 				.replace(/&/g, '&amp;')
 				.replace(/</g, '&lt;')
@@ -144,8 +128,7 @@
 		}
 	}
 
-	function handleBlur(e: FocusEvent) {
-		// Delay hiding to allow click events on results
+	function handleBlur() {
 		setTimeout(() => {
 			if (!navigatingToId) {
 				showResults = false;
@@ -177,7 +160,7 @@
 	<title>Blog Typeahead Search | Admin</title>
 </svelte:head>
 
-<div class="typeahead-container">
+<div class="typeahead-page">
 	<div class="search-tabs">
 		<a href="/admin/search" class="tab">Full Search</a>
 		<a href="/admin/search/typeahead" class="tab active">Quick Search</a>
@@ -204,10 +187,10 @@
 			<input
 				bind:this={inputElement}
 				bind:value={query}
-				on:input={debounceSearch}
-				on:keydown={handleKeydown}
-				on:focus={handleFocus}
-				on:blur={handleBlur}
+				oninput={debounceSearch}
+				onkeydown={handleKeydown}
+				onfocus={handleFocus}
+				onblur={handleBlur}
 				type="text"
 				placeholder="Search blogs, articles, celebrities..."
 				class="search-input"
@@ -223,7 +206,7 @@
 				<button
 					class="clear-btn"
 					aria-label="Clear search"
-					on:click={() => {
+					onclick={() => {
 						query = '';
 						results = [];
 						showResults = false;
@@ -244,8 +227,8 @@
 						class="result-item"
 						class:selected={selectedIndex === index}
 						class:navigating={navigatingToId === result.id}
-						on:click={() => navigateToResult(result)}
-						on:mouseenter={() => (selectedIndex = index)}
+						onclick={() => navigateToResult(result)}
+						onmouseenter={() => (selectedIndex = index)}
 						disabled={navigatingToId !== null}
 					>
 						<div class="result-left">
@@ -308,57 +291,56 @@
 	</div>
 </div>
 
-<style>
-	.typeahead-container {
+<style lang="scss">
+	.typeahead-page {
 		max-width: 800px;
 		margin: 0 auto;
-		padding: 2rem;
 	}
 
 	.search-tabs {
 		display: flex;
 		gap: 0.5rem;
-		margin-bottom: 1.5rem;
+		margin-bottom: 1.25rem;
 	}
 
 	.tab {
-		padding: 0.5rem 1rem;
-		font-size: 0.875rem;
+		padding: 0.4rem 0.875rem;
+		font-size: 0.8rem;
 		font-weight: 500;
 		text-decoration: none;
-		color: #6b7280;
-		border: 1px solid #e5e7eb;
+		color: var(--text-secondary);
+		border: 1px solid var(--void-elevated);
 		border-radius: 8px;
-		background: white;
-		transition: all 0.2s ease;
-	}
+		background: var(--void-surface);
+		transition: all 0.15s ease;
 
-	.tab:hover {
-		color: #6366f1;
-		border-color: #6366f1;
-	}
+		&:hover {
+			color: var(--shadow-monarch);
+			border-color: var(--shadow-monarch);
+		}
 
-	.tab.active {
-		background: #6366f1;
-		color: white;
-		border-color: #6366f1;
+		&.active {
+			background: var(--shadow-monarch);
+			color: white;
+			border-color: var(--shadow-monarch);
+		}
 	}
 
 	.header {
 		text-align: center;
-		margin-bottom: 2rem;
-	}
+		margin-bottom: 1.5rem;
 
-	h1 {
-		font-size: 2.5rem;
-		font-weight: 700;
-		color: #1f2937;
-		margin-bottom: 0.5rem;
+		h1 {
+			font-size: 2rem;
+			font-weight: 700;
+			color: var(--text-primary);
+			margin-bottom: 0.5rem;
+		}
 	}
 
 	.subtitle {
-		color: #6b7280;
-		font-size: 1rem;
+		color: var(--text-secondary);
+		font-size: 0.9rem;
 	}
 
 	.search-wrapper {
@@ -369,27 +351,22 @@
 		display: flex;
 		align-items: center;
 		gap: 0.75rem;
-		padding: 1rem 1.25rem;
-		background: white;
-		border: 2px solid #e5e7eb;
-		border-radius: 16px;
-		box-shadow:
-			0 4px 6px -1px rgba(0, 0, 0, 0.1),
-			0 2px 4px -2px rgba(0, 0, 0, 0.1);
-		transition: all 0.2s ease;
-	}
+		padding: 0.875rem 1rem;
+		background: var(--void-surface);
+		border: 2px solid var(--void-elevated);
+		border-radius: 12px;
+		transition: all 0.15s ease;
 
-	.search-box:focus-within {
-		border-color: #6366f1;
-		box-shadow:
-			0 4px 6px -1px rgba(99, 102, 241, 0.2),
-			0 2px 4px -2px rgba(99, 102, 241, 0.2);
+		&:focus-within {
+			border-color: var(--shadow-monarch);
+			box-shadow: var(--glow-sm);
+		}
 	}
 
 	.search-icon {
-		width: 24px;
-		height: 24px;
-		color: #9ca3af;
+		width: 22px;
+		height: 22px;
+		color: var(--text-secondary);
 		flex-shrink: 0;
 	}
 
@@ -397,20 +374,20 @@
 		flex: 1;
 		border: none;
 		outline: none;
-		font-size: 1.125rem;
-		color: #1f2937;
+		font-size: 1rem;
+		color: var(--text-primary);
 		background: transparent;
-	}
 
-	.search-input::placeholder {
-		color: #9ca3af;
+		&::placeholder {
+			color: var(--text-secondary);
+		}
 	}
 
 	.spinner {
 		width: 20px;
 		height: 20px;
-		border: 2px solid #e5e7eb;
-		border-top-color: #6366f1;
+		border: 2px solid var(--void-elevated);
+		border-top-color: var(--shadow-monarch);
 		border-radius: 50%;
 		animation: spin 0.6s linear infinite;
 	}
@@ -429,21 +406,21 @@
 		height: 24px;
 		padding: 0;
 		border: none;
-		background: #f3f4f6;
+		background: var(--void-elevated);
 		border-radius: 50%;
 		cursor: pointer;
-		color: #6b7280;
+		color: var(--text-secondary);
 		transition: all 0.15s ease;
-	}
 
-	.clear-btn:hover {
-		background: #e5e7eb;
-		color: #374151;
-	}
+		&:hover {
+			background: var(--void-deep);
+			color: var(--text-primary);
+		}
 
-	.clear-btn svg {
-		width: 14px;
-		height: 14px;
+		svg {
+			width: 14px;
+			height: 14px;
+		}
 	}
 
 	.results-dropdown {
@@ -451,12 +428,10 @@
 		top: calc(100% + 8px);
 		left: 0;
 		right: 0;
-		background: white;
-		border: 1px solid #e5e7eb;
+		background: var(--void-surface);
+		border: 1px solid var(--void-elevated);
 		border-radius: 12px;
-		box-shadow:
-			0 10px 25px -5px rgba(0, 0, 0, 0.1),
-			0 8px 10px -6px rgba(0, 0, 0, 0.1);
+		box-shadow: var(--glow-md);
 		max-height: 480px;
 		overflow-y: auto;
 		z-index: 50;
@@ -467,26 +442,42 @@
 		align-items: flex-start;
 		gap: 0.75rem;
 		width: 100%;
-		padding: 1rem 1.25rem;
+		padding: 0.875rem 1rem;
 		border: none;
 		background: transparent;
 		text-align: left;
 		cursor: pointer;
-		border-bottom: 1px solid #f3f4f6;
+		border-bottom: 1px solid var(--void-deep);
 		transition: background-color 0.1s ease;
-	}
+		font-family: inherit;
+		color: inherit;
 
-	.result-item:last-child {
-		border-bottom: none;
-	}
+		&:last-child {
+			border-bottom: none;
+		}
 
-	.result-item:hover,
-	.result-item.selected {
-		background: #f9fafb;
-	}
+		&:hover,
+		&.selected {
+			background: var(--void-deep);
+		}
 
-	.result-item.selected {
-		background: #eef2ff;
+		&.selected {
+			background: var(--void-elevated);
+		}
+
+		&.navigating {
+			background: var(--void-elevated);
+			pointer-events: none;
+		}
+
+		&:disabled {
+			opacity: 0.6;
+			cursor: wait;
+		}
+
+		&.navigating:not(:disabled) {
+			opacity: 1;
+		}
 	}
 
 	.result-left {
@@ -514,8 +505,8 @@
 
 	.result-title {
 		font-weight: 600;
-		font-size: 1rem;
-		color: #1f2937;
+		font-size: 0.95rem;
+		color: var(--text-primary);
 		margin-bottom: 0.25rem;
 		white-space: nowrap;
 		overflow: hidden;
@@ -523,114 +514,98 @@
 	}
 
 	.result-headline {
-		font-size: 0.875rem;
-		color: #6b7280;
+		font-size: 0.8rem;
+		color: var(--text-secondary);
 		line-height: 1.5;
-		margin-bottom: 0.5rem;
+		margin-bottom: 0.375rem;
 		display: -webkit-box;
 		-webkit-line-clamp: 2;
 		-webkit-box-orient: vertical;
 		overflow: hidden;
-	}
 
-	.result-headline :global(mark) {
-		background: #fef08a;
-		color: #1f2937;
-		padding: 0 2px;
-		border-radius: 2px;
-		font-weight: 500;
-	}
+		:global(mark) {
+			background: rgba(245, 158, 11, 0.3);
+			color: var(--text-primary);
+			padding: 0 2px;
+			border-radius: 2px;
+			font-weight: 500;
+		}
 
-	/* Markdown styling in headlines */
-	.result-headline :global(strong) {
-		font-weight: 600;
-		color: #374151;
-	}
+		:global(strong) {
+			font-weight: 600;
+			color: var(--text-primary);
+		}
 
-	.result-headline :global(em) {
-		font-style: italic;
-	}
+		:global(em) {
+			font-style: italic;
+		}
 
-	.result-headline :global(code) {
-		background: #f3f4f6;
-		padding: 0.125rem 0.25rem;
-		border-radius: 3px;
-		font-family: var(--font-mono);
-		font-size: 0.8em;
-	}
+		:global(code) {
+			background: var(--void-elevated);
+			padding: 0.125rem 0.25rem;
+			border-radius: 3px;
+			font-family: var(--font-mono);
+			font-size: 0.8em;
+		}
 
-	.result-headline :global(.md-link) {
-		color: #6366f1;
-		text-decoration: underline;
+		:global(.md-link) {
+			color: var(--shadow-monarch);
+			text-decoration: underline;
+		}
 	}
 
 	.result-meta {
 		display: flex;
-		gap: 0.5rem;
+		gap: 0.375rem;
 		flex-wrap: wrap;
 	}
 
 	.source-label,
 	.category-label {
-		font-size: 0.75rem;
+		font-size: 0.7rem;
 		padding: 0.125rem 0.5rem;
 		border-radius: 4px;
 	}
 
 	.source-label {
-		background: #dbeafe;
-		color: #1e40af;
+		background: rgba(59, 130, 246, 0.12);
+		color: #3b82f6;
 	}
 
 	.category-label {
-		background: #f3e8ff;
-		color: #7c3aed;
+		background: rgba(139, 92, 246, 0.1);
+		color: #8b5cf6;
 	}
 
 	.result-arrow {
 		display: flex;
 		align-items: center;
 		padding-top: 2px;
-		color: #9ca3af;
-	}
+		color: var(--text-secondary);
 
-	.result-arrow svg {
-		width: 20px;
-		height: 20px;
+		svg {
+			width: 20px;
+			height: 20px;
+		}
 	}
 
 	.result-item:hover .result-arrow,
 	.result-item.selected .result-arrow {
-		color: #6366f1;
-	}
-
-	/* Navigation loading state */
-	.result-item.navigating {
-		background: #eef2ff;
-		pointer-events: none;
-	}
-
-	.result-item:disabled {
-		opacity: 0.6;
-		cursor: wait;
-	}
-
-	.result-item.navigating:not(:disabled) {
-		opacity: 1;
+		color: var(--shadow-monarch);
 	}
 
 	.nav-spinner {
 		width: 20px;
 		height: 20px;
-		border: 2px solid #e5e7eb;
-		border-top-color: #6366f1;
+		border: 2px solid var(--void-elevated);
+		border-top-color: var(--shadow-monarch);
 		border-radius: 50%;
 		animation: spin 0.6s linear infinite;
 	}
 
 	.loading-text {
-		font-size: 0.75rem;
-		color: #6366f1;
+		font-size: 0.7rem;
+		color: var(--shadow-monarch);
 		font-weight: 500;
 		animation: pulse 1s ease-in-out infinite;
 	}
@@ -646,45 +621,46 @@
 	}
 
 	.no-results {
-		padding: 2rem;
+		padding: 1.5rem;
 		text-align: center;
-		color: #6b7280;
-	}
-
-	.hints {
-		margin-top: 1.5rem;
-		text-align: center;
-		color: #9ca3af;
+		color: var(--text-secondary);
 		font-size: 0.875rem;
 	}
 
-	.hints kbd {
-		display: inline-block;
-		padding: 0.125rem 0.375rem;
-		font-size: 0.75rem;
-		font-family: inherit;
-		background: #f3f4f6;
-		border: 1px solid #d1d5db;
-		border-radius: 4px;
-		margin: 0 0.125rem;
+	.hints {
+		margin-top: 1.25rem;
+		text-align: center;
+		color: var(--text-secondary);
+		font-size: 0.8rem;
+
+		kbd {
+			display: inline-block;
+			padding: 0.125rem 0.375rem;
+			font-size: 0.7rem;
+			font-family: inherit;
+			background: var(--void-elevated);
+			border: 1px solid var(--void-deep);
+			border-radius: 4px;
+			margin: 0 0.125rem;
+			color: var(--text-primary);
+		}
 	}
 
-	/* Scrollbar styling */
 	.results-dropdown::-webkit-scrollbar {
 		width: 8px;
 	}
 
 	.results-dropdown::-webkit-scrollbar-track {
-		background: #f3f4f6;
+		background: var(--void-deep);
 		border-radius: 0 12px 12px 0;
 	}
 
 	.results-dropdown::-webkit-scrollbar-thumb {
-		background: #d1d5db;
+		background: var(--void-elevated);
 		border-radius: 4px;
-	}
 
-	.results-dropdown::-webkit-scrollbar-thumb:hover {
-		background: #9ca3af;
+		&:hover {
+			background: var(--text-secondary);
+		}
 	}
 </style>

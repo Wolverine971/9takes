@@ -389,6 +389,7 @@
 		margin: 0 auto;
 		padding-bottom: 1rem;
 		overflow: visible;
+		height: 100%;
 	}
 
 	.diagram-wrapper.size-sm {
@@ -407,7 +408,6 @@
 	.enneagram-container {
 		position: relative;
 		width: 100%;
-		padding-bottom: 100%; /* Square container for proper circle rendering */
 		overflow: visible;
 	}
 
@@ -416,12 +416,12 @@
 	   ========================================== */
 	.glow-layer {
 		position: absolute;
-		inset: -20%;
+		inset: -10%;
 		background: radial-gradient(
 			circle at 50% 50%,
-			rgba(124, 58, 237, 0.15) 0%,
-			rgba(59, 130, 246, 0.08) 40%,
-			transparent 70%
+			rgba(124, 58, 237, 0.12) 0%,
+			rgba(59, 130, 246, 0.06) 40%,
+			transparent 65%
 		);
 		pointer-events: none;
 		animation: glow-pulse 4s ease-in-out infinite;
@@ -441,10 +441,9 @@
 	   SVG
 	   ========================================== */
 	.diagram-svg {
-		position: absolute;
-		inset: 0;
+		display: block;
 		width: 100%;
-		height: 100%;
+		height: auto;
 	}
 
 	/* ==========================================

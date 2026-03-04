@@ -329,7 +329,7 @@
 {/if}
 
 <!-- Main Content with Tabs -->
-<main class="main-card">
+<section class="main-card" aria-label="Marketing content">
 	<div class="tabs" role="tablist" aria-label="Marketing sections">
 		{#each tabs as tab, index}
 			{@const badge = getTabBadge(tab.id)}
@@ -441,7 +441,7 @@
 							contentItems={data.content}
 							campaigns={data.campaigns}
 							templates={data.templates}
-							on:calendarUpdated={() => invalidateAll()}
+							oncalendarUpdated={() => invalidateAll()}
 						/>
 					{:else if activeTab === 'campaigns'}
 						<CampaignManager campaigns={data.campaigns} />
@@ -458,7 +458,7 @@
 			{/key}
 		{/if}
 	</div>
-</main>
+</section>
 
 <style lang="scss">
 	/* Stats Section */

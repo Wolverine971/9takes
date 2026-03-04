@@ -175,8 +175,12 @@
 			const result = await submitForm('?/createCampaign', formData);
 
 			if (result.type === 'success') {
-				campaigns = [...campaigns, result.data.campaign];
-				await createPrimerContent(result.data.campaign);
+				const data = result.data as { campaign: Campaign } | undefined;
+				const campaign = data?.campaign;
+				if (campaign) {
+					campaigns = [...campaigns, campaign];
+					await createPrimerContent(campaign);
+				}
 				form.reset();
 				newCampaign = {
 					name: '',
@@ -190,7 +194,7 @@
 					campaign_hashtags: '',
 					campaign_promotion_accounts: ''
 				};
-				formSuccess = `Campaign "${result.data.campaign.name}" created successfully!`;
+				formSuccess = `Campaign "${campaign?.name || ''}" created successfully!`;
 				showFormSuccess = true;
 				setTimeout(() => {
 					showFormSuccess = false;
@@ -227,22 +231,25 @@
 			const result = await submitForm('?/updateCampaign', formData);
 
 			if (result.type === 'success') {
-				const updatedCampaign = result.data.campaign;
-				const index = campaigns.findIndex((c) => c.id === updatedCampaign.id);
-				if (index !== -1) {
-					campaigns[index] = updatedCampaign;
-					campaigns = [...campaigns];
+				const data = result.data as { campaign: Campaign } | undefined;
+				const updatedCampaign = data?.campaign;
+				if (updatedCampaign) {
+					const index = campaigns.findIndex((c) => c.id === updatedCampaign.id);
+					if (index !== -1) {
+						campaigns[index] = updatedCampaign;
+						campaigns = [...campaigns];
+					}
+
+					if (originalStartDate && updatedCampaign.start_date !== originalStartDate) {
+						await updateAssociatedContent(
+							updatedCampaign.id,
+							originalStartDate,
+							updatedCampaign.start_date
+						);
+					}
 				}
 
-				if (originalStartDate && updatedCampaign.start_date !== originalStartDate) {
-					await updateAssociatedContent(
-						updatedCampaign.id,
-						originalStartDate,
-						updatedCampaign.start_date
-					);
-				}
-
-				formSuccess = `Campaign "${updatedCampaign.name}" updated successfully!`;
+				formSuccess = `Campaign "${updatedCampaign?.name || ''}" updated successfully!`;
 				showFormSuccess = true;
 				setTimeout(() => {
 					showFormSuccess = false;
@@ -275,7 +282,8 @@
 
 		const result = await submitForm('?/createContent', formData);
 		if (result.type === 'success') {
-			oncontentCreated?.(result.data.content);
+			const data = result.data as { content: any } | undefined;
+			oncontentCreated?.(data?.content);
 		}
 	}
 
@@ -291,7 +299,8 @@
 
 		const result = await submitForm('?/updateCampaignContent', formData);
 		if (result.type === 'success') {
-			oncontentUpdated?.(result.data.updatedContent);
+			const data = result.data as { updatedContent: any } | undefined;
+			oncontentUpdated?.(data?.updatedContent);
 		}
 	}
 
