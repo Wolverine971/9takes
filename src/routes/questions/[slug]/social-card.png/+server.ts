@@ -77,7 +77,9 @@ export const GET: RequestHandler = async ({ params, locals, request }) => {
 		const cardBuffer = await renderQuestionSocialCard({
 			questionText: question.question_formatted || question.question || 'Share your perspective',
 			questionUrl,
-			backgroundUrl: new URL('/greek_pantheon.png', request.url).toString()
+			backgroundUrl: new URL('/greek_pantheon.png', request.url).toString(),
+			fontRegularUrl: new URL('/fonts/NoticiaText-Regular.ttf', request.url).toString(),
+			fontBoldUrl: new URL('/fonts/NoticiaText-Bold.ttf', request.url).toString()
 		});
 
 		const upload = await uploadQuestionImageBuffer({
