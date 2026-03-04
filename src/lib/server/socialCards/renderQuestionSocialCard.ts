@@ -1,5 +1,6 @@
 // src/lib/server/socialCards/renderQuestionSocialCard.ts
 import path from 'path';
+import { readFile } from 'node:fs/promises';
 import sharp from 'sharp';
 import { calculateQuestionCardTextLayout } from '$lib/socialCards/questionCardTextLayout';
 import {
@@ -8,6 +9,10 @@ import {
 } from '$lib/socialCards/questionSocialCard';
 
 const BACKGROUND_PATH = path.resolve('static/greek_pantheon.png');
+const DEFAULT_BACKGROUND_URL = 'https://9takes.com/greek_pantheon.png';
+const BACKGROUND_FETCH_TIMEOUT_MS = 5000;
+
+let cachedBackgroundBuffer: Buffer | null = null;
 
 const escapeXml = (value: string): string =>
 	value
@@ -20,11 +25,42 @@ const escapeXml = (value: string): string =>
 export interface RenderQuestionSocialCardOptions {
 	questionText: string;
 	questionUrl: string;
+	backgroundUrl?: string;
 }
+
+const loadBackgroundBuffer = async (backgroundUrl?: string): Promise<Buffer> => {
+	if (cachedBackgroundBuffer) {
+		return cachedBackgroundBuffer;
+	}
+
+	try {
+		cachedBackgroundBuffer = await readFile(BACKGROUND_PATH);
+		return cachedBackgroundBuffer;
+	} catch {
+		// Vercel serverless runtime does not always include /static files in function filesystem.
+	}
+
+	const fetchUrl = backgroundUrl || DEFAULT_BACKGROUND_URL;
+	const controller = new AbortController();
+	const timeoutRef = setTimeout(() => controller.abort(), BACKGROUND_FETCH_TIMEOUT_MS);
+
+	try {
+		const response = await fetch(fetchUrl, { signal: controller.signal });
+		if (!response.ok) {
+			throw new Error(`Failed to fetch background image (${response.status})`);
+		}
+		const arrayBuffer = await response.arrayBuffer();
+		cachedBackgroundBuffer = Buffer.from(arrayBuffer);
+		return cachedBackgroundBuffer;
+	} finally {
+		clearTimeout(timeoutRef);
+	}
+};
 
 export const renderQuestionSocialCard = async ({
 	questionText,
-	questionUrl
+	questionUrl,
+	backgroundUrl
 }: RenderQuestionSocialCardOptions): Promise<Buffer> => {
 	const textLayout = calculateQuestionCardTextLayout(questionText);
 	const lineHeightPx = textLayout.fontSize * textLayout.lineHeight;
@@ -65,7 +101,9 @@ export const renderQuestionSocialCard = async ({
 		</svg>`
 	);
 
-	const base = await sharp(BACKGROUND_PATH)
+	const backgroundBuffer = await loadBackgroundBuffer(backgroundUrl);
+
+	const base = await sharp(backgroundBuffer)
 		.resize(QUESTION_SOCIAL_CARD_WIDTH, QUESTION_SOCIAL_CARD_HEIGHT, {
 			fit: 'cover',
 			position: 'attention'

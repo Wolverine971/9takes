@@ -24,7 +24,7 @@ const redirectWithCache = (url: string, status = 302) =>
 		}
 	});
 
-export const GET: RequestHandler = async ({ params, locals }) => {
+export const GET: RequestHandler = async ({ params, locals, request }) => {
 	const slug = params.slug;
 	const supabase = locals.supabase;
 
@@ -76,7 +76,8 @@ export const GET: RequestHandler = async ({ params, locals }) => {
 		const questionUrl = `https://9takes.com/questions/${question.url}`;
 		const cardBuffer = await renderQuestionSocialCard({
 			questionText: question.question_formatted || question.question || 'Share your perspective',
-			questionUrl
+			questionUrl,
+			backgroundUrl: new URL('/greek_pantheon.png', request.url).toString()
 		});
 
 		const upload = await uploadQuestionImageBuffer({

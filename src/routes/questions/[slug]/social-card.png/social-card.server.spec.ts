@@ -76,7 +76,8 @@ describe('GET /questions/[slug]/social-card.png', () => {
 
 		const response = await GET({
 			params: { slug: 'why-do-i-overthink' },
-			locals: { supabase }
+			locals: { supabase },
+			request: new Request('https://9takes.com/questions/why-do-i-overthink/social-card.png')
 		} as any);
 
 		expect(response.status).toBe(302);
@@ -105,7 +106,8 @@ describe('GET /questions/[slug]/social-card.png', () => {
 
 		const response = await GET({
 			params: { slug: 'legacy-question' },
-			locals: { supabase }
+			locals: { supabase },
+			request: new Request('https://9takes.com/questions/legacy-question/social-card.png')
 		} as any);
 
 		expect(response.status).toBe(302);
@@ -130,7 +132,8 @@ describe('GET /questions/[slug]/social-card.png', () => {
 
 		const response = await GET({
 			params: { slug: 'broken-question' },
-			locals: { supabase }
+			locals: { supabase },
+			request: new Request('https://9takes.com/questions/broken-question/social-card.png')
 		} as any);
 
 		expect(response.status).toBe(302);
