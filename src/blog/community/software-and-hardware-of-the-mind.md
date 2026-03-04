@@ -340,3 +340,43 @@ MINOR:
 OVERALL:
 This is a strong essay with a compelling central metaphor. The Greek section elevates it above a typical "why personality tests matter" blog post. The main thing holding it back is repetition (the same 2-3 points are made 3-4 times each) and the Advocates section feeling tacked on. Tighten those and add one concrete human story, and this goes from good to really good.
 -->
+
+<!--
+READER REVIEW (2026-03-04)
+
+Reading this as a normal person — not an editor, not a psychologist, just someone scrolling through.
+
+WHAT GRABBED ME:
+- The opening paragraph actually works. I *can* name the lobes but I *can't* explain why I get defensive when someone questions my work. That contrast hits.
+- The Greek theater section is the crown jewel. "If a modern city did this, we would call it a public mental health program" — I actually stopped and reread that. That's the line I'd text to a friend.
+- The three types of neuroticism example (fear vs shame vs repressed anger all scoring the same on Big Five) is the most convincing argument in the piece. If you had to cut everything else and keep one section, keep that one.
+- The closing three questions are strong. The follow-up "notice which one you wanted to skip" is even better — that's the kind of thing that makes a reader actually do something instead of just nodding.
+
+WHAT FELT OFF OR OUTDATED:
+- The Quora link about psychiatrists being incentivized to prescribe feels flimsy. Quora as a source undermines credibility in a piece that's otherwise well-sourced with PubMed and Wikipedia. Either find a stronger source (there are plenty of real studies on this) or cut the claim. It also feels like a bit of an anti-pharma detour that doesn't serve the main argument.
+- The Instagram embed of Ray Dalio is a risk — embeds break over time, and if someone reads this in 2027 and sees a blank box, it hurts the article. More importantly, the embed is doing the work that your writing should be doing. Summarize what he says in one sentence and link to it instead.
+- The "Advocates" section reads like a listicle dropped into the middle of an essay. Brené Brown connects naturally (shame research → Enneagram shame center). Esther Perel is a softer fit but okay. Jordan Peterson feels like a lightning rod — readers will either love or hate his inclusion, and either reaction distracts from your actual argument. Ray Dalio is basically "rich guy uses personality tests" which... isn't that compelling? Either make each advocate earn their place by connecting directly to the hardware/software thesis, or honestly just cut this section. The article is stronger going from Greeks → Enneagram without the celebrity endorsement detour.
+
+REPETITION I NOTICED:
+- "The Big Five tells you what, not why" appears in: (1) the Personality Theory section, (2) the Enneagram Goes Deeper section, (3) the FAQ, and (4) the closing. By the third time I thought "yes, I got it." The argument is strong — strong enough that you only need to make it once, well.
+- "Brain scans can't explain personality" shows up in the intro, the Software section, the FAQ, and indirectly in the closing. The intro version and FAQ version are nearly identical sentences. A reader who makes it to the FAQ will feel déjà vu.
+- The specific phrases "why you sabotage every relationship" and "why success never feels like enough" appear word-for-word in both the opening and the FAQ. Small thing, but it breaks the illusion that each section was written fresh.
+
+WHAT'S MISSING:
+- A human story. The whole article argues that emotions are the key to understanding personality, but there's zero emotional storytelling in it. No "I once met someone who..." or "consider Sarah, who spent 15 years in therapy before..." — even a brief, anonymized example of someone recognizing themselves in the Enneagram after years of trait-based tests would make the argument visceral instead of intellectual.
+- The gap between ancient Greece and modernity. You jump from "the Greeks had this figured out" to "Jung tried psychoanalysis" with ~2,000 years unaccounted for. The reader is left wondering: if the Greeks were so good at this, why did it disappear? Even two sentences — the rise of Christianity absorbing mythology into sin/virtue frameworks, the Enlightenment elevating reason over emotion — would close that gap.
+- Where the Enneagram actually came from. The article positions it as the successor to Greek emotional wisdom, but never explains its origins. A skeptical reader will Google this and find "Sufi mystics, Oscar Ichazo, Claudio Naranjo" — none of which sounds Greek. That's not a problem, but the article should acknowledge it rather than letting the implied connection hang.
+- A stronger counterargument. The FAQ handles "isn't this astrology?" — the softball. The real objection is: "The Enneagram has weak empirical validation and poor test-retest reliability compared to the Big Five. Why should I take it seriously?" Addressing this honestly (e.g., "the Big Five is better at measurement; the Enneagram is better at meaning — they're answering different questions") would make the piece more credible, not less.
+
+STRUCTURAL SUGGESTION:
+The article currently goes: Problem → Personality Theory → Enneagram → Greeks → Advocates → FAQ → Conclusion. The Greeks section is so strong that it probably belongs earlier — maybe right after the problem statement. The current structure makes the reader wade through Big Five critique before getting to the most interesting part. Consider: Problem → Greeks (they had the software figured out) → What happened (Jung, behaviorism, neuroscience) → Why the Enneagram picks up where the Greeks left off → Conclusion. This would also naturally eliminate some repetition since you'd only need to critique the Big Five once, in the context of "what replaced the Greek approach."
+
+MINOR THINGS:
+- The "Check Yourself" callout feels like it's quizzing me before I've bought in. The opening paragraph already earned my attention — the callout breaks the momentum with a rhetorical question I can't actually answer yet.
+- The Panksepp citation is doing a lot of work in one sentence. "Traits are downstream of emotions" is a big claim — give me one more sentence about what Panksepp actually found so it doesn't feel like a drive-by citation.
+- "To make up the difference" (line 142) is an awkward transition. The previous paragraph is about prescriptions; this one is about personality tests. The connection isn't obvious.
+- Date says 2023-12-10 with a lastmod of 2026-02-21, but some of the framing ("more relevant now than ever") feels generic-timeless rather than current. If you're updating it, consider adding a reference to something recent — AI, the loneliness epidemic, the mental health crisis in young people — to signal this isn't a dusty 2023 post.
+
+BOTTOM LINE:
+The core thesis is genuinely compelling and the Greek mythology section is publication-quality writing. The main issues are: (1) the same 2-3 points are hammered 3-4 times each, (2) the Advocates section dilutes rather than strengthens the argument, and (3) the piece is all framework with no human story to anchor it emotionally. Fix the repetition, cut or rework the Advocates section, add one concrete example of the Enneagram doing what you claim it does, and this becomes a much tighter, more persuasive essay.
+-->

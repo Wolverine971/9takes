@@ -261,7 +261,9 @@
 
 			createProgressStage = 'redirecting';
 			notifications.success('Question created successfully!', 3000);
+			const questionCreateModal = getModal('question-create');
 			await goto(`/questions/${url}`);
+			questionCreateModal?.close();
 		} catch (error) {
 			console.error('Error creating question:', error);
 			const message = error instanceof Error ? error.message : 'Failed to create question';

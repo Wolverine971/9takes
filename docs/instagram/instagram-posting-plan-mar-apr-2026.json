@@ -1,0 +1,695 @@
+{
+	"title": "Instagram Posting Plan: 8-Week Series Strategy",
+	"generatedAt": "2026-03-04T13:57:24.874Z",
+	"referenceDate": "2026-03-04",
+	"timezone": "America/New_York",
+	"defaults": {
+		"primaryGoal": "reach_growth",
+		"contentScope": "published_only",
+		"polarizationPolicy": "moderate_mix",
+		"cadenceMode": "2_baseline_plus_bursts",
+		"seriesRule": "back_to_back_posts",
+		"historyMix": "mostly_current"
+	},
+	"canonicalModel": {
+		"primaryLanes": ["creator_media", "entrepreneur_tech", "politics_public"],
+		"optionalBurstLanes": ["music", "film_tv", "comedy", "authors", "other"],
+		"normalizationNotes": {
+			"creator_media": ["creator", "influencer", "tiktoker", "journalist"],
+			"entrepreneur_tech": ["entrepreneur", "techie", "business"],
+			"politics_public": ["politician", "activist", "historical (rare)"]
+		}
+	},
+	"inventory": {
+		"total": 326,
+		"published": 231,
+		"queued": 95,
+		"publishedWithImages": 230,
+		"queuedWithImages": 5,
+		"graded": 169,
+		"highQuality": 79
+	},
+	"schedule": [
+		{
+			"weekStartDate": "2026-03-10",
+			"lane": "entrepreneur_tech",
+			"post1": {
+				"name": "Sam-Altman",
+				"date": "2026-03-10",
+				"path": "/personality-analysis/Sam-Altman",
+				"link": true,
+				"hasImage": true,
+				"contentGrade": 9.5,
+				"lastmod": "2026-03-01",
+				"timelinessScore": 1,
+				"overallScore": 98.25,
+				"canonicalIndustry": "entrepreneur_tech"
+			},
+			"post2": {
+				"name": "Peter-Thiel",
+				"date": "2026-03-13",
+				"path": "/personality-analysis/Peter-Thiel",
+				"link": true,
+				"hasImage": true,
+				"contentGrade": 9.7,
+				"lastmod": "2026-03-02",
+				"timelinessScore": 1,
+				"overallScore": 98.95,
+				"canonicalIndustry": "entrepreneur_tech"
+			},
+			"burstOptional": true
+		},
+		{
+			"weekStartDate": "2026-03-17",
+			"lane": "creator_media",
+			"post1": {
+				"name": "Shaan-Puri",
+				"date": "2026-03-17",
+				"path": "/personality-analysis/Shaan-Puri",
+				"link": true,
+				"hasImage": true,
+				"contentGrade": 9.3,
+				"lastmod": "2026-02-26",
+				"timelinessScore": 1,
+				"overallScore": 97.55,
+				"canonicalIndustry": "creator_media"
+			},
+			"post2": {
+				"name": "Sam-Parr",
+				"date": "2026-03-20",
+				"path": "/personality-analysis/Sam-Parr",
+				"link": true,
+				"hasImage": true,
+				"contentGrade": 9.1,
+				"lastmod": "2026-02-26",
+				"timelinessScore": 1,
+				"overallScore": 96.85,
+				"canonicalIndustry": "creator_media"
+			},
+			"burstOptional": true
+		},
+		{
+			"weekStartDate": "2026-03-24",
+			"lane": "creator_media",
+			"post1": {
+				"name": "Lex-Fridman",
+				"date": "2026-03-24",
+				"path": "/personality-analysis/Lex-Fridman",
+				"link": true,
+				"hasImage": true,
+				"contentGrade": 9.1,
+				"lastmod": "2026-02-19",
+				"timelinessScore": 0.85,
+				"overallScore": 87.1,
+				"canonicalIndustry": "creator_media"
+			},
+			"post2": {
+				"name": "Tim-Ferriss",
+				"date": "2026-03-27",
+				"path": "/personality-analysis/Tim-Ferriss",
+				"link": true,
+				"hasImage": true,
+				"contentGrade": 9.1,
+				"lastmod": "2026-02-19",
+				"timelinessScore": 0.85,
+				"overallScore": 87.1,
+				"canonicalIndustry": "creator_media"
+			},
+			"burstOptional": true
+		},
+		{
+			"weekStartDate": "2026-03-31",
+			"lane": "politics_public",
+			"post1": {
+				"name": "Donald-Trump",
+				"date": "2026-03-31",
+				"path": "/personality-analysis/Donald-Trump",
+				"link": true,
+				"hasImage": true,
+				"contentGrade": 9.2,
+				"lastmod": "2026-02-20",
+				"timelinessScore": 0.85,
+				"overallScore": 85.95,
+				"canonicalIndustry": "politics_public"
+			},
+			"post2": {
+				"name": "Kamala-Harris",
+				"date": "2026-04-03",
+				"path": "/personality-analysis/Kamala-Harris",
+				"link": true,
+				"hasImage": true,
+				"contentGrade": 9,
+				"lastmod": "2026-02-19",
+				"timelinessScore": 0.95,
+				"overallScore": 90.25,
+				"canonicalIndustry": "politics_public"
+			},
+			"burstOptional": false
+		},
+		{
+			"weekStartDate": "2026-04-07",
+			"lane": "entrepreneur_tech",
+			"post1": {
+				"name": "Mark-Zuckerberg",
+				"date": "2026-04-07",
+				"path": "/personality-analysis/Mark-Zuckerberg",
+				"link": true,
+				"hasImage": true,
+				"contentGrade": 9,
+				"lastmod": "2026-03-03",
+				"timelinessScore": 1,
+				"overallScore": 96.5,
+				"canonicalIndustry": "entrepreneur_tech"
+			},
+			"post2": {
+				"name": "Satya-Nadella",
+				"date": "2026-04-10",
+				"path": "/personality-analysis/Satya-Nadella",
+				"link": true,
+				"hasImage": true,
+				"contentGrade": 9.4,
+				"lastmod": "2026-02-18",
+				"timelinessScore": 0.85,
+				"overallScore": 88.15,
+				"canonicalIndustry": "entrepreneur_tech"
+			},
+			"burstOptional": true
+		},
+		{
+			"weekStartDate": "2026-04-14",
+			"lane": "creator_media",
+			"post1": {
+				"name": "IShowSpeed",
+				"date": "2026-04-14",
+				"path": "/personality-analysis/IShowSpeed",
+				"link": true,
+				"hasImage": true,
+				"contentGrade": 9.1,
+				"lastmod": "2026-02-19",
+				"timelinessScore": 0.85,
+				"overallScore": 87.1,
+				"canonicalIndustry": "creator_media"
+			},
+			"post2": {
+				"name": "Kai-Cenat",
+				"date": "2026-04-17",
+				"path": "/personality-analysis/Kai-Cenat",
+				"link": true,
+				"hasImage": true,
+				"contentGrade": 8.7,
+				"lastmod": "2026-02-19",
+				"timelinessScore": 0.85,
+				"overallScore": 85.7,
+				"canonicalIndustry": "creator_media"
+			},
+			"burstOptional": true
+		},
+		{
+			"weekStartDate": "2026-04-21",
+			"lane": "politics_public",
+			"post1": {
+				"name": "Joe-Biden",
+				"date": "2026-04-21",
+				"path": "/personality-analysis/Joe-Biden",
+				"link": true,
+				"hasImage": true,
+				"contentGrade": 9,
+				"lastmod": "2026-02-19",
+				"timelinessScore": 0.9,
+				"overallScore": 87.75,
+				"canonicalIndustry": "politics_public"
+			},
+			"post2": {
+				"name": "Justin-Trudeau",
+				"date": "2026-04-24",
+				"path": "/personality-analysis/Justin-Trudeau",
+				"link": true,
+				"hasImage": true,
+				"contentGrade": 9.1,
+				"lastmod": "2026-02-19",
+				"timelinessScore": 0.85,
+				"overallScore": 85.6,
+				"canonicalIndustry": "politics_public"
+			},
+			"burstOptional": false
+		},
+		{
+			"weekStartDate": "2026-04-28",
+			"lane": "entrepreneur_tech",
+			"post1": {
+				"name": "Chamath-Palihapitiya",
+				"date": "2026-04-28",
+				"path": "/personality-analysis/Chamath-Palihapitiya",
+				"link": true,
+				"hasImage": true,
+				"contentGrade": 9.5,
+				"lastmod": "2026-02-20",
+				"timelinessScore": 0.85,
+				"overallScore": 88.5,
+				"canonicalIndustry": "entrepreneur_tech"
+			},
+			"post2": {
+				"name": "Alex-Hormozi",
+				"date": "2026-05-01",
+				"path": "/personality-analysis/Alex-Hormozi",
+				"link": true,
+				"hasImage": true,
+				"contentGrade": 9.2,
+				"lastmod": "2026-02-19",
+				"timelinessScore": 0.85,
+				"overallScore": 87.45,
+				"canonicalIndustry": "entrepreneur_tech"
+			},
+			"burstOptional": true
+		}
+	],
+	"burstRules": [
+		{
+			"id": "two_credible_outlets_72h",
+			"description": "Add a 3rd post if 2+ credible outlets covered the person in the last 72 hours."
+		},
+		{
+			"id": "event_window_7d",
+			"description": "Add a 3rd post if a known event window opens within 7 days."
+		},
+		{
+			"id": "saves_share_outperform_25",
+			"description": "Add a 3rd post if the previous post in the same lane beat the rolling 4-week saves/share median by 25%+."
+		}
+	],
+	"burstSwapCandidates": [
+		{
+			"name": "Sundar-Pichai",
+			"lane": "entrepreneur_tech",
+			"eventWindowStart": "2026-05-19",
+			"eventWindowEnd": "2026-05-20",
+			"rationale": "Google I/O timing window",
+			"sourceUrl": "https://blog.google/technology/developers/google-io-2026/"
+		},
+		{
+			"name": "Satya-Nadella",
+			"lane": "entrepreneur_tech",
+			"eventWindowStart": "2026-06-02",
+			"eventWindowEnd": "2026-06-03",
+			"rationale": "Microsoft Build timing window",
+			"sourceUrl": "https://www.theverge.com/news/638653/microsoft-build-2026-date-details"
+		},
+		{
+			"name": "Charli-xcx",
+			"lane": "music",
+			"eventWindowStart": "2026-07-01",
+			"eventWindowEnd": "2026-08-31",
+			"rationale": "Festival and ticket-cycle timing for summer music windows",
+			"sourceUrl": "https://www.sfoutsidelands.com/"
+		}
+	],
+	"acceptanceCriteria": [
+		"No major news in scheduled week: keep pair and do not burst.",
+		"Major breaking news in same lane: swap only within lane and preserve 2-post series.",
+		"Politics over-indexes comments but under-indexes saves/shares: reduce politics from 2/8 weeks to 1/8 in the next cycle.",
+		"Scheduled candidate has link=false or missing image: reject candidate and replace from same lane.",
+		"4-week checkpoint: publish consistency 8/8 scheduled posts shipped.",
+		"4-week checkpoint: saves/share rate +15% vs previous 4-week baseline.",
+		"4-week checkpoint: 70%+ of posts from creator_media + entrepreneur_tech lanes."
+	],
+	"assumptions": [
+		"Reach growth is prioritized over click-through as the primary objective.",
+		"Published-only execution: only people with link=true are valid for schedule slots.",
+		"Moderate polarization: no more than one high-polarization week every 3 weeks.",
+		"\"Two in series\" means back-to-back same-lane posts in the same week.",
+		"Mostly current/living figures for the primary sequence."
+	],
+	"validation": {
+		"slotIssues": [],
+		"controversyIssues": [],
+		"unresolvedNames": []
+	},
+	"reservePool": {
+		"creator_media": [
+			{
+				"name": "Chris-Williamson",
+				"link": true,
+				"hasImage": true,
+				"lastmod": "2026-02-22",
+				"contentGrade": 9.3,
+				"canonicalIndustry": "creator_media",
+				"canonicalIndustries": ["creator_media"],
+				"rawTypes": ["creator"],
+				"timelinessScore": 0.85,
+				"overallScore": 87.8
+			},
+			{
+				"name": "Krystal-Ball",
+				"link": true,
+				"hasImage": true,
+				"lastmod": "2026-02-23",
+				"contentGrade": 9,
+				"canonicalIndustry": "creator_media",
+				"canonicalIndustries": ["creator_media"],
+				"rawTypes": ["creator"],
+				"timelinessScore": 0.85,
+				"overallScore": 86.75
+			},
+			{
+				"name": "Pokimane",
+				"link": true,
+				"hasImage": true,
+				"lastmod": "2026-02-19",
+				"contentGrade": 9,
+				"canonicalIndustry": "creator_media",
+				"canonicalIndustries": ["creator_media"],
+				"rawTypes": ["creator"],
+				"timelinessScore": 0.85,
+				"overallScore": 86.75
+			},
+			{
+				"name": "Taylor-Lorenz",
+				"link": true,
+				"hasImage": true,
+				"lastmod": "2026-02-19",
+				"contentGrade": 9,
+				"canonicalIndustry": "creator_media",
+				"canonicalIndustries": ["creator_media"],
+				"rawTypes": ["journalist", "creator"],
+				"timelinessScore": 0.85,
+				"overallScore": 86.75
+			},
+			{
+				"name": "xQc",
+				"link": true,
+				"hasImage": true,
+				"lastmod": "2026-02-23",
+				"contentGrade": 9,
+				"canonicalIndustry": "creator_media",
+				"canonicalIndustries": ["creator_media"],
+				"rawTypes": ["creator"],
+				"timelinessScore": 0.85,
+				"overallScore": 86.75
+			},
+			{
+				"name": "Mr-Beast",
+				"link": true,
+				"hasImage": true,
+				"lastmod": "2026-02-19",
+				"contentGrade": 9,
+				"canonicalIndustry": "creator_media",
+				"canonicalIndustries": ["creator_media"],
+				"rawTypes": ["creator"],
+				"timelinessScore": 0.85,
+				"overallScore": 86.75
+			},
+			{
+				"name": "Charli-D'Amelio",
+				"link": true,
+				"hasImage": true,
+				"lastmod": "2026-02-18",
+				"contentGrade": 8.9,
+				"canonicalIndustry": "creator_media",
+				"canonicalIndustries": ["creator_media"],
+				"rawTypes": ["tiktoker"],
+				"timelinessScore": 0.85,
+				"overallScore": 86.4
+			},
+			{
+				"name": "PewDiePie",
+				"link": true,
+				"hasImage": true,
+				"lastmod": "2026-02-20",
+				"contentGrade": 8.8,
+				"canonicalIndustry": "creator_media",
+				"canonicalIndustries": ["creator_media"],
+				"rawTypes": ["creator"],
+				"timelinessScore": 0.85,
+				"overallScore": 86.05
+			},
+			{
+				"name": "Ashby",
+				"link": true,
+				"hasImage": true,
+				"lastmod": "2026-02-18",
+				"contentGrade": 8.8,
+				"canonicalIndustry": "creator_media",
+				"canonicalIndustries": ["creator_media"],
+				"rawTypes": ["creator"],
+				"timelinessScore": 0.85,
+				"overallScore": 86.05
+			},
+			{
+				"name": "Saagar-Enjeti",
+				"link": true,
+				"hasImage": true,
+				"lastmod": "2026-02-23",
+				"contentGrade": 8.8,
+				"canonicalIndustry": "creator_media",
+				"canonicalIndustries": ["creator_media"],
+				"rawTypes": ["creator"],
+				"timelinessScore": 0.85,
+				"overallScore": 86.05
+			}
+		],
+		"entrepreneur_tech": [
+			{
+				"name": "Palmer-Luckey",
+				"link": true,
+				"hasImage": true,
+				"lastmod": "2026-02-20",
+				"contentGrade": 9,
+				"canonicalIndustry": "entrepreneur_tech",
+				"canonicalIndustries": ["entrepreneur_tech"],
+				"rawTypes": ["techie"],
+				"timelinessScore": 0.85,
+				"overallScore": 86.75
+			},
+			{
+				"name": "Elon-Musk",
+				"link": true,
+				"hasImage": true,
+				"lastmod": "2026-02-18",
+				"contentGrade": 8.9,
+				"canonicalIndustry": "entrepreneur_tech",
+				"canonicalIndustries": ["entrepreneur_tech"],
+				"rawTypes": ["techie"],
+				"timelinessScore": 0.85,
+				"overallScore": 86.4
+			},
+			{
+				"name": "David-Sacks",
+				"link": true,
+				"hasImage": true,
+				"lastmod": "2026-02-20",
+				"contentGrade": 8.9,
+				"canonicalIndustry": "entrepreneur_tech",
+				"canonicalIndustries": ["entrepreneur_tech"],
+				"rawTypes": ["techie"],
+				"timelinessScore": 0.85,
+				"overallScore": 86.4
+			},
+			{
+				"name": "Taylor-Swift",
+				"link": true,
+				"hasImage": true,
+				"lastmod": "2026-02-18",
+				"contentGrade": 8.8,
+				"canonicalIndustry": "entrepreneur_tech",
+				"canonicalIndustries": ["entrepreneur_tech", "music", "other"],
+				"rawTypes": ["musician", "entrepreneur", "cultural icon"],
+				"timelinessScore": 0.85,
+				"overallScore": 86.05
+			},
+			{
+				"name": "Sundar-Pichai",
+				"link": true,
+				"hasImage": true,
+				"lastmod": "2026-02-23",
+				"contentGrade": 8.8,
+				"canonicalIndustry": "entrepreneur_tech",
+				"canonicalIndustries": ["entrepreneur_tech"],
+				"rawTypes": ["techie"],
+				"timelinessScore": 0.85,
+				"overallScore": 86.05
+			},
+			{
+				"name": "Paul-Graham",
+				"link": true,
+				"hasImage": true,
+				"lastmod": "2026-02-20",
+				"contentGrade": 8.7,
+				"canonicalIndustry": "entrepreneur_tech",
+				"canonicalIndustries": ["entrepreneur_tech"],
+				"rawTypes": ["techie"],
+				"timelinessScore": 0.85,
+				"overallScore": 85.7
+			},
+			{
+				"name": "Reed-Hastings",
+				"link": true,
+				"hasImage": true,
+				"lastmod": "2026-02-20",
+				"contentGrade": 8.6,
+				"canonicalIndustry": "entrepreneur_tech",
+				"canonicalIndustries": ["entrepreneur_tech"],
+				"rawTypes": ["techie"],
+				"timelinessScore": 0.85,
+				"overallScore": 85.35
+			},
+			{
+				"name": "David-Friedberg",
+				"link": true,
+				"hasImage": true,
+				"lastmod": "2026-02-20",
+				"contentGrade": 8.5,
+				"canonicalIndustry": "entrepreneur_tech",
+				"canonicalIndustries": ["entrepreneur_tech"],
+				"rawTypes": ["techie", "entrepreneur"],
+				"timelinessScore": 0.85,
+				"overallScore": 85
+			},
+			{
+				"name": "Gary-Vee",
+				"link": true,
+				"hasImage": true,
+				"lastmod": "2026-02-18",
+				"contentGrade": 8.4,
+				"canonicalIndustry": "entrepreneur_tech",
+				"canonicalIndustries": ["entrepreneur_tech"],
+				"rawTypes": ["business"],
+				"timelinessScore": 0.85,
+				"overallScore": 84.65
+			},
+			{
+				"name": "Jason-Calacanis",
+				"link": true,
+				"hasImage": true,
+				"lastmod": "2026-01-21",
+				"contentGrade": 8.2,
+				"canonicalIndustry": "entrepreneur_tech",
+				"canonicalIndustries": ["entrepreneur_tech"],
+				"rawTypes": ["techie"],
+				"timelinessScore": 0.65,
+				"overallScore": 70.95
+			}
+		],
+		"politics_public": [
+			{
+				"name": "JD-Vance",
+				"link": true,
+				"hasImage": true,
+				"lastmod": "2026-02-17",
+				"contentGrade": 9.6,
+				"canonicalIndustry": "politics_public",
+				"canonicalIndustries": ["politics_public"],
+				"rawTypes": ["politician"],
+				"timelinessScore": 0.85,
+				"overallScore": 88.85
+			},
+			{
+				"name": "Vladimir-Putin",
+				"link": true,
+				"hasImage": true,
+				"lastmod": "2026-02-19",
+				"contentGrade": 9,
+				"canonicalIndustry": "politics_public",
+				"canonicalIndustries": ["politics_public"],
+				"rawTypes": ["politician"],
+				"timelinessScore": 0.85,
+				"overallScore": 86.75
+			},
+			{
+				"name": "Meghan-Markle",
+				"link": true,
+				"hasImage": true,
+				"lastmod": "2026-02-20",
+				"contentGrade": 8.9,
+				"canonicalIndustry": "politics_public",
+				"canonicalIndustries": ["politics_public", "film_tv"],
+				"rawTypes": ["celebrity", "politician"],
+				"timelinessScore": 0.85,
+				"overallScore": 86.4
+			},
+			{
+				"name": "Martin-Luther-King-Jr",
+				"link": true,
+				"hasImage": true,
+				"lastmod": "2026-02-19",
+				"contentGrade": 8.9,
+				"canonicalIndustry": "politics_public",
+				"canonicalIndustries": ["politics_public"],
+				"rawTypes": ["politician"],
+				"timelinessScore": 0.85,
+				"overallScore": 86.4
+			},
+			{
+				"name": "Zohran-Mamdani",
+				"link": true,
+				"hasImage": true,
+				"lastmod": "2026-02-18",
+				"contentGrade": 8.8,
+				"canonicalIndustry": "politics_public",
+				"canonicalIndustries": ["politics_public"],
+				"rawTypes": ["politician"],
+				"timelinessScore": 0.85,
+				"overallScore": 86.05
+			},
+			{
+				"name": "Greta-Thunberg",
+				"link": true,
+				"hasImage": true,
+				"lastmod": "2026-01-23",
+				"contentGrade": 9.7,
+				"canonicalIndustry": "politics_public",
+				"canonicalIndustries": ["politics_public"],
+				"rawTypes": ["activist"],
+				"timelinessScore": 0.65,
+				"overallScore": 76.2
+			},
+			{
+				"name": "Prince-Harry",
+				"link": true,
+				"hasImage": true,
+				"lastmod": "2026-01-26",
+				"contentGrade": 7.6,
+				"canonicalIndustry": "politics_public",
+				"canonicalIndustries": ["politics_public"],
+				"rawTypes": ["politician"],
+				"timelinessScore": 0.65,
+				"overallScore": 68.85
+			},
+			{
+				"name": "Xi-Jinping",
+				"link": true,
+				"hasImage": true,
+				"lastmod": "2026-01-23",
+				"contentGrade": null,
+				"canonicalIndustry": "politics_public",
+				"canonicalIndustries": ["politics_public"],
+				"rawTypes": ["politician"],
+				"timelinessScore": 0.65,
+				"overallScore": 65
+			},
+			{
+				"name": "Hillary-Clinton",
+				"link": true,
+				"hasImage": true,
+				"lastmod": "2026-01-17",
+				"contentGrade": 9.2,
+				"canonicalIndustry": "politics_public",
+				"canonicalIndustries": ["politics_public"],
+				"rawTypes": ["politician"],
+				"timelinessScore": 0.4,
+				"overallScore": 58.2
+			},
+			{
+				"name": "Alexandria-Ocasio-Cortez",
+				"link": true,
+				"hasImage": true,
+				"lastmod": "2025-12-05",
+				"contentGrade": 9,
+				"canonicalIndustry": "politics_public",
+				"canonicalIndustries": ["politics_public"],
+				"rawTypes": ["politician"],
+				"timelinessScore": 0.4,
+				"overallScore": 57.5
+			}
+		]
+	}
+}
