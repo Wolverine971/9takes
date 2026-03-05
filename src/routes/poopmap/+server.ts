@@ -59,7 +59,7 @@ const getAllPosts = async () => {
 const getQuestions = async () => {
 	const { data: questions } = await db
 		.from('questions')
-		.select('url, created_at')
+		.select('url, created_at, updated_at')
 		.eq('flagged', false)
 		.eq('removed', false)
 		.eq('tagged', true);
@@ -97,13 +97,13 @@ export async function GET() {
 
 	<url>
 	    <loc>https://9takes.com</loc>
-	    <lastmod>2025-05-22</lastmod>
+	    <lastmod>2026-01-22</lastmod>
 	    <changefreq>monthly</changefreq>
 	    <priority>1.0</priority>
 	</url>
 	<url>
 	    <loc>https://9takes.com/blog</loc>
-	    <lastmod>2024-05-04</lastmod>
+	    <lastmod>2026-02-01</lastmod>
 	    <changefreq>weekly</changefreq>
 	    <priority>1.0</priority>
 	</url>
@@ -121,7 +121,7 @@ export async function GET() {
 	</url>
 	<url>
 	    <loc>https://9takes.com/enneagram-corner</loc>
-	    <lastmod>2024-07-14</lastmod>
+	    <lastmod>2026-02-14</lastmod>
 	    <changefreq>weekly</changefreq>
 	    <priority>0.7</priority>
 	</url>
@@ -175,13 +175,13 @@ export async function GET() {
 	</url>
 	<url>
 	    <loc>https://9takes.com/community</loc>
-	    <lastmod>2024-04-13</lastmod>
+	    <lastmod>2026-03-04</lastmod>
 	    <changefreq>weekly</changefreq>
 	    <priority>0.7</priority>
 	</url>
 	<url>
 	    <loc>https://9takes.com/personality-analysis</loc>
-	    <lastmod>2024-08-16</lastmod>
+	    <lastmod>2026-03-04</lastmod>
 	    <changefreq>weekly</changefreq>
 	    <priority>0.7</priority>
 	</url>
@@ -324,7 +324,7 @@ export async function GET() {
 					?.map((q) => {
 						return `<url>
 	    <loc>https://9takes.com/questions/${q.url}</loc>
-	    <lastmod>${new Date(q.created_at).toISOString()}</lastmod>
+	    <lastmod>${new Date(q.updated_at).toISOString()}</lastmod>
 	    <changefreq>weekly</changefreq>
 	    <priority>0.7</priority>
 	  </url>`;

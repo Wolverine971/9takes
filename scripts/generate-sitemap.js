@@ -103,7 +103,7 @@ async function getAllPosts() {
 async function getQuestions() {
 	const { data: questions, error } = await supabase
 		.from('questions')
-		.select('url, created_at')
+		.select('url, created_at, updated_at')
 		.eq('flagged', false)
 		.eq('removed', false)
 		.eq('tagged', true);
@@ -156,19 +156,19 @@ async function generateSitemap() {
     xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
 <url>
     <loc>https://9takes.com</loc>
-    <lastmod>2025-05-22</lastmod>
+    <lastmod>2026-01-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
 </url>
 <url>
     <loc>https://9takes.com/blog</loc>
-    <lastmod>2025-09-02</lastmod>
+    <lastmod>2026-03-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
 </url>
 <url>
     <loc>https://9takes.com/about</loc>
-    <lastmod>2025-09-09</lastmod>
+    <lastmod>2026-01-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
 </url>
@@ -180,7 +180,7 @@ async function generateSitemap() {
 </url>
 <url>
     <loc>https://9takes.com/enneagram-corner</loc>
-    <lastmod>2025-09-02</lastmod>
+    <lastmod>2026-02-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
 </url>
@@ -234,19 +234,19 @@ async function generateSitemap() {
 </url>
 <url>
     <loc>https://9takes.com/how-to-guides</loc>
-    <lastmod>2024-04-07</lastmod>
+    <lastmod>2025-10-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
 </url>
 <url>
     <loc>https://9takes.com/community</loc>
-    <lastmod>2024-04-13</lastmod>
+    <lastmod>2026-03-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
 </url>
 <url>
     <loc>https://9takes.com/personality-analysis</loc>
-    <lastmod>2024-08-16</lastmod>
+    <lastmod>2026-03-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
 </url>
@@ -368,7 +368,7 @@ ${allPosts
 	.join('\n')}
 <url>
     <loc>https://9takes.com/questions</loc>
-    <lastmod>2024-09-01</lastmod>
+    <lastmod>2026-03-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
 </url>
@@ -377,7 +377,7 @@ ${
 		?.map((q) => {
 			return `<url>
     <loc>https://9takes.com/questions/${q.url}</loc>
-    <lastmod>${new Date(q.created_at).toISOString()}</lastmod>
+    <lastmod>${new Date(q.updated_at).toISOString()}</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
 </url>`;

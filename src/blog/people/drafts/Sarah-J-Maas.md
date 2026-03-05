@@ -20,12 +20,12 @@ instagram: 'therealsjmaas'
 tiktok: ''
 content_quality:
   hook: 9
-  enneagram: 9
-  evidence: 8.5
+  enneagram: 9.5
+  evidence: 9
   writing: 9
   originality: 9
-  overall: 8.9
-  letter: 'B+'
+  overall: 9.1
+  letter: 'A-'
   graded_at: '2026-03-04'
 path: src/blog/people/drafts/Sarah-J-Maas.md
 ---
@@ -173,13 +173,13 @@ The magic house in _Silver Flames_ — the sentient building that draws baths, d
 
 One of the things Nesta is searching for, Maas explained, "is a sense of home and feeling like home is a safe place for her. And the house kind of becomes that."
 
-The readers who reread her books three times during lockdown understood this instinctively. The fictional world felt more like home than the real one. Maas had built a house that took care of you — inside a book that took care of you — because she needed both.
+The readers who reread her books three times during lockdown understood this instinctively. The fictional world felt more like home than the real one.
 
 ## The Gap No One Mentions
 
 There is a version of Sarah J Maas that writes female characters who scream at injustice, who refuse to minimize their own pain, who call out men and systems and power structures with volcanic clarity.
 
-And there is the real Sarah J Maas, who — when criticized for poor representation of BIPOC and LGBTQ+ characters, for killing off her sole major positively-represented character of color to fuel a white protagonist's story, for reducing Breonna Taylor's murder to a mention in a book cover reveal post — said nothing.
+And there is the real Sarah J Maas, who — when criticized for killing off Nehemia, her sole major positively-represented Black character, to fuel Celaena's revenge arc; for forcing her bisexual character Mor to out herself in a scene readers found exploitative; for mentioning Breonna Taylor's murder in a _book cover reveal post_ — said nothing.
 
 Not a defense. Not an apology. Not an acknowledgment. Silence.
 
@@ -192,6 +192,16 @@ The Four's shadow includes this precise mechanism. When the inner world is so va
 Her characters fight. She retreats. The woman who wrote "find something new to call us" in response to being called a bitch — who channels her college trauma into warrior women who destroy bro-dudes and never apologize — cannot bring herself to face real-world criticism with the same directness.
 
 That gap is not hypocrisy. It's the Four's fundamental architecture: the inner world is where power lives. The outer world is where you get hurt.
+
+## Why BookTok Chose Her
+
+The #ACOTAR hashtag on TikTok has over 8.5 billion views. Not million. _Billion._ Maas is arguably the defining BookTok author — the one whose audience doesn't just read her books but _inhabits_ them, making fan art, casting dream adaptations, arguing about ships with the intensity of constitutional scholars.
+
+Why her? Why not any of the other fantasy romance writers?
+
+Because the emotional extremity _is_ the product. Maas doesn't write books where feelings are proportionate and reasonable. She writes books where grief levels cities and love literally reshapes the laws of physics. That's the Four's frequency — and it's the frequency BookTok runs on. The platform rewards intensity, sincerity, and the kind of reading experience that makes you ugly-cry on camera. Maas was engineered for this audience before the audience existed.
+
+"I'm sitting here today because of social media," she told Jenna Bush Hager. But the deeper truth is that social media didn't create her audience. It revealed how many people were already reading with that same emotional voltage and had nowhere to go with it.
 
 ## "I Have Zero Interest in Writing About Sweet Little Perfect People"
 

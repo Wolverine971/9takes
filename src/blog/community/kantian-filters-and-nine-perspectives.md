@@ -26,6 +26,7 @@ Concrete classroom experiment: one shared object, nine physical filters, nine di
 
 <script>
 	import PopCard from "$lib/components/atoms/PopCard.svelte";
+	const videoUrl = "https://www.youtube.com/embed/BtlWoqWLm9Q";
 </script>
 
 <svelte:head>
@@ -98,9 +99,13 @@ Concrete classroom experiment: one shared object, nine physical filters, nine di
     />
 </div>
 
-<p class="firstLetter">A lecture called "How Evil Triumphs" has racked up over 2 million views on YouTube. It was delivered by Jiang Xueqin — a Yale-educated Chinese-Canadian educator who teaches Western Philosophy at Moonshot Academy in Beijing — and posted to his channel <a class="external-link" target="_blank" rel="noreferrer" href="https://www.youtube.com/@PredictiveHistory">Predictive History</a>, which now has over 1.5 million subscribers.</p>
+<p class="firstLetter">A lecture called <a class="external-link" target="_blank" rel="noreferrer" href="https://www.youtube.com/watch?v=BtlWoqWLm9Q">"Secret History #4: How Evil Triumphs"</a> has racked up nearly 2 million views on YouTube. It was delivered by Jiang Xueqin — a Yale-educated Chinese-Canadian educator who teaches Western Philosophy at Moonshot Academy in Beijing — and posted to his channel <a class="external-link" target="_blank" rel="noreferrer" href="https://www.youtube.com/@PredictiveHistory">Predictive History</a>, which is approaching a million subscribers.</p>
 
-Jiang is not your typical YouTuber. He's a former deputy principal at schools affiliated with both Peking University and Tsinghua University, a researcher with Harvard's Global Education Innovation Initiative, a Fellow of the Royal Society of Arts, and a contributor to the Wall Street Journal and CNN. His channel — inspired by Isaac Asimov's concept of "psychohistory" from the Foundation series — applies structural historical analysis and game theory to predict geopolitical events. He went viral in 2025 after his predictions about Trump's re-election and conflict with Iran appeared to materialize, earning him the label "China's Nostradamus."
+<div class="iframe-container">
+<iframe width="100%" height="315" loading="lazy" src={videoUrl} title="Secret History #4: How Evil Triumphs — Predictive History" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+
+Jiang is a Harvard Global Education Innovation Initiative researcher and contributor to the Wall Street Journal and CNN. His channel — inspired by Isaac Asimov's concept of "psychohistory" from the Foundation series — applies structural historical analysis and game theory to predict geopolitical events. He went viral in 2025 after his predictions about Trump's re-election and conflict with Iran appeared to materialize, earning him the label "China's Nostradamus."
 
 In this particular lecture, Jiang walks his students through Kant, Hegel, Plato, Dante, Gnosticism, game theory, and ritual sacrifice. He explains why secret groups hold power, why transgression creates cohesion, and why the material world might be a prison. He says all this while telling his students "this is just a theory" and "don't believe this is truth."
 
@@ -132,7 +137,7 @@ Same question. Three completely different phenomenal worlds. Kant would recogniz
 
 Jiang uses Kant's filter problem to build toward a specific conclusion: **powerful groups exploit the gap between noumena and phenomena.** They keep people trapped in the material "shadow world" and deny the spiritual reality underneath. That's his theory of how evil triumphs — through coordinated secrecy, shared transgression, and the systematic denial of truth.
 
-It's a compelling narrative. The analysis appended to the transcript correctly notes it's "rhetorically strong but evidentially weak" — a story that feels true even when the evidence is thin. The framework is self-sealing: missing evidence gets interpreted as proof that the secrets are being kept.
+It's a compelling narrative — "rhetorically strong but evidentially weak," as one analysis put it. A story that feels true even when the evidence is thin. The framework is self-sealing: missing evidence gets interpreted as proof that the secrets are being kept. (In fairness, the Enneagram itself faces evidence debates — its empirical validation lags behind models like the Big Five, even as its clinical usefulness keeps practitioners coming back. The difference is that the Enneagram doesn't claim to explain global power structures — just the patterns in how individuals process reality.)
 
 But separate the philosophical infrastructure from the conspiracy framework, and something interesting remains.
 
@@ -152,18 +157,12 @@ Jiang builds to the lecture's biggest philosophical tension: two paths back to w
 
 **Dante says: love.** The Monad wouldn't create a system only the educated can access. The capacity to love is universal. Everyone has it. That's the path home.
 
-Jiang frames this as a debate between two schools of thought. But there's no reason to pick one.
+Jiang frames this as a debate between two schools of thought. But there's no reason to pick one. Any system that takes perspective-taking seriously has to do both.
 
-9takes combines both.
+1. **Give your take first** — share your honest perspective before seeing anyone else's. This echoes Dante: you start with authentic self-expression, not performance.
+2. **See the other 8 perspectives** — discover how people with different emotional architectures processed the exact same situation. This echoes Plato: understanding the structure behind reactions that initially seem irrational.
 
-The platform's core mechanic works like this:
-
-1. **Give your take first** — share your honest perspective before seeing anyone else's. This is Dante's path. Vulnerability. Authentic self-expression. Connecting through honesty rather than performance.
-2. **See the other 8 perspectives** — discover how people with different emotional architectures processed the exact same situation. This is Plato's path. Pattern recognition. Understanding the emotional logic behind behavior that initially seems irrational.
-
-The outcome? You develop both knowledge of human patterns AND empathy for people who see the world differently. Plato gets his understanding. Dante gets his love. Neither has to lose.
-
-The brand philosophy of 9takes says it simply: **"Replace judgment with curiosity."** Curiosity IS the knowledge path. Replacing judgment IS the love path. They're not in conflict. They reinforce each other.
+The interesting thing about this tension is that it resolves itself in practice. Curiosity IS the knowledge path. Suspending judgment IS the love path. You don't have to choose between understanding human patterns and developing empathy for people who see the world differently — they reinforce each other.
 
 ## Cohesion Through Vulnerability, Not Transgression
 
@@ -187,7 +186,7 @@ Both create bonds. One through shared violation. The other through shared authen
 
 Jiang would probably call the second version weaker. But within his own philosophical framework — where Dante says the path to ultimate reality is through love — the version built on understanding and connection is the one that moves toward the Monad. The transgressive version, by definition, moves away from it.
 
-His own framework argues against his thesis. He just doesn't notice.
+His own framework may point in a different direction than his conclusion.
 
 ## The Geist and the Enneagram's Universal Patterns
 
@@ -201,13 +200,11 @@ Across all cultures, all backgrounds, all eras, humans process reality through t
 - **Freud's model**: Id, Superego, Ego
 - **Neuroscience's triune brain**: Reptilian brain, Limbic system, Neocortex
 
-Four frameworks. Four different eras. [Same three dimensions](/community/consensus-on-human-nature).
+These aren't perfect 1:1 mappings — Plato's "Appetite" isn't identical to the Enneagram's Gut center, and Freud's superego isn't the Heart center with a different label. But the structural observation is striking: independent thinkers across millennia keep arriving at a [three-dimensional model of human motivation](/community/consensus-on-human-nature). That pattern is hard to dismiss.
 
 Jiang asks: "Why do different religions in different places arrive at the same conception of the universe?" His answer is the Geist — a shared spiritual source feeding ideas to all of humanity.
 
-The Enneagram suggests something more grounded: universal emotional architecture. Humans are wired with the same three emotional centers. The patterns that emerge from those centers are recognizable across every culture because they're built into us. You don't need a metaphysical explanation for convergence when the hardware is shared.
-
-But the observation is the same: **beneath the surface diversity of human opinion, there's an underlying structure that's universal.** The lecture calls it the Geist. The Enneagram calls it the three centers. Both are pointing at the fact that human experience isn't random — it follows patterns you can learn to read.
+A more grounded explanation: universal emotional architecture. Humans are wired with the same three processing centers. The patterns that emerge from those centers are recognizable across cultures because they're built into us. You don't need a metaphysical explanation for convergence when the hardware is shared.
 
 ## Evil as Anti-Love, Isolation as Anti-Connection
 
@@ -215,37 +212,21 @@ Jiang defines evil through Dante's framework: evil is whatever moves you away fr
 
 Jiang gives a specific example that hits close to home, given his career reforming Chinese education: school. Parents stop caring about your happiness and start caring about your grades. The system denies your free will and agency. Authentic relationship is sacrificed for institutional compliance.
 
-Now read the [9takes About page](/about):
+The same diagnosis applies to how we communicate now. Social media turned conversation into performance. Reddit became tribes defending territory. Everyone talks. Nobody listens. We're past polarization — we've moved into isolation.
 
-> "Social media turned conversation into performance. Reddit became tribes defending territory. Everyone talks. Nobody listens."
+Current platforms are anti-connection by design. Algorithms feed you what you already believe. Upvote systems surface the most popular take, not the most honest one. The architecture rewards performance over vulnerability.
 
-> "We're past polarization. We've moved into isolation."
-
-The diagnosis is the same. Current platforms are anti-connection by design. Algorithms feed you what you already believe. Upvote systems surface the most popular take, not the most honest one. The architecture rewards performance over vulnerability.
-
-In Dante's framework, this IS evil — not the dramatic, conspiratorial evil of the lecture, but the quiet, structural kind. Systems that make it impossible for people to genuinely see each other.
-
-9takes exists because that problem is solvable. Not through revealing hidden conspiracies. Through building a structure where honest perspective-taking can actually happen.
+In Dante's framework, this IS evil — not the dramatic, conspiratorial evil of the lecture, but the quiet, structural kind. Systems that make it impossible for people to genuinely see each other. And unlike the conspiratorial version, this one is fixable — not by exposing hidden secrets, but by building structures where honest perspective-taking can actually happen.
 
 ## What Jiang Gets Right — and Where He Stops Short
 
-Jiang is a serious thinker. His channel's premise — inspired by Asimov's fictional "psychohistory" — is that recurring historical patterns can help us predict the future. That's an ambitious project, and the philosophical infrastructure he introduces in this lecture is genuinely interesting:
+Jiang is a serious thinker. His channel's premise — inspired by Asimov's fictional "psychohistory" — is that recurring historical patterns can help us predict the future. That's an ambitious project, and the philosophical infrastructure he builds in this lecture — Kant on perception, Hegel on shared symbolic systems, Plato on understanding, Dante on love as universal access — is genuinely interesting.
 
-- **Kant**: We don't see reality directly. Our mental architecture filters everything.
-- **Hegel**: Shared symbolic systems coordinate how groups perceive reality.
-- **Plato**: The pursuit of understanding reveals deeper layers of truth.
-- **Dante**: Love — genuine connection and the honoring of free will — is universally accessible.
-- **Convergence**: Independent traditions arriving at similar insights suggests something real about the underlying structure of human experience.
+Where Jiang goes sideways — and where <a class="external-link" target="_blank" rel="noreferrer" href="https://www.thefp.com/p/meet-the-internets-new-iran-expert-who">The Free Press</a> and other critics have pushed back — is in applying these ideas exclusively to explain power and evil. He takes a framework about human perception and uses it to build conspiracy theory. The argument becomes self-sealing: any counter-evidence becomes proof of the conspiracy. Jiang himself acknowledges this tension repeatedly ("this is just a theory"), but the presentation carries a confidence the evidence doesn't support.
 
-Where Jiang goes sideways — and where The Free Press and other critics have pushed back — is in applying these ideas exclusively to explain power and evil. He takes a framework about human perception and uses it to build conspiracy theory. The argument becomes "self-sealing" — designed so that any counter-evidence becomes proof of the conspiracy. Jiang himself acknowledges this tension repeatedly ("this is just a theory"), but the presentation carries a confidence the evidence doesn't support.
+The philosophical bones are solid, though. And they support a very different conclusion.
 
-But the philosophical bones are solid. And they support a very different conclusion than the one Jiang draws.
-
-If Kant is right that we all see through filters, the most valuable thing you can do is **learn what other filters look like.** Not to expose a hidden elite — but to stop being trapped in your own single perspective.
-
-If Dante is right that love is the universal path, the most valuable thing you can do is **build systems where authentic human connection can happen.** Not bonding through shared transgression — but through the harder, quieter work of seeing someone else's reality and recognizing it as valid.
-
-If the convergence of independent traditions tells us anything, it's that **human nature has a shared structure** — and systems that help you decode that structure are worth paying attention to.
+If Kant is right about our filters, the most valuable thing you can do is **learn what other filters look like.** If Dante is right about love, the most valuable thing you can do is **build structures where people can genuinely see each other.** Not bonding through shared transgression — but through the harder, quieter work of recognizing someone else's reality as valid.
 
 ## The Real Conspiracy Is Your Own Perspective Bubble
 
@@ -253,46 +234,15 @@ Jiang wants you to ask: "Who is manipulating reality behind the scenes?"
 
 Here's a harder question: **What are you refusing to see because your own filters won't let you?**
 
-You have blindspots. Not because someone put them there — because that's how human perception works. Your Enneagram type, your core emotion, your intelligence center — they give you extraordinary clarity in one direction and near-total blindness in others.
+You have blindspots. Not because someone put them there — because that's how perception works. Your core emotion, your intelligence center — they give you clarity in one direction and near-total blindness in others.
 
-A Type 8 sees power dynamics everywhere and misses the emotional vulnerability underneath. A Type 5 sees the analytical framework and misses the human cost. A Type 2 sees the relational dynamics and misses the structural problem.
+A Type 1 sees what's wrong and needs fixing — and misses that not everyone wants to be corrected. A Type 4 sees the emotional depth others are skipping over — and misses the practical solution sitting right in front of them. A Type 7 sees possibility and opportunity everywhere — and misses the grief that someone needs to sit with before moving on.
 
 **None of them are wrong. All of them are incomplete.**
 
-The question isn't whether you have filters. Kant settled that 250 years ago. The question is whether you're willing to look through someone else's.
-
-That's what 9takes is for. Not to reveal hidden truths about who controls the world. To reveal the hidden truth about how you process reality — and to show you the 8 other ways people are processing the exact same situation right now.
+Kant settled whether you have filters 250 years ago. The only question left is whether you're willing to look through someone else's.
 
 One situation. Nine ways to see it. The conspiracy isn't out there. It's the one your own mind is running on you.
 
 <style lang="scss">
 </style>
-
-<!--
-## Reader Review Notes
-
-### What works well
-- The hook is strong. Tying into a 2M-view viral lecture gives the piece immediate relevance and curiosity pull.
-- The Kant filter explanation is genuinely accessible. "Your brain is a filter" lands better than most philosophy explainers.
-- The transgression vs. vulnerability comparison (Section 4) is the best section in the piece. The two models laid out side by side are clear and compelling.
-- The final line — "The conspiracy isn't out there. It's the one your own mind is running on you" — is a great closer.
-
-### What's overdone / could be trimmed
-- **Jiang's credentials paragraph is too long.** The second paragraph reads like a LinkedIn bio. A normal reader doesn't need to know he was a deputy principal at schools affiliated with both Peking AND Tsinghua, a Harvard researcher, a Fellow of the RSA, AND a WSJ/CNN contributor. Pick 2-3 that establish credibility and move on. Right now it stalls the momentum right after the hook.
-- **The "filters" thesis gets restated too many times.** The core idea (you see through filters, the Enneagram shows you other filters) appears in the intro, the Kant section, the "different question" section, the Geist section, and the conclusion. By the fourth time you're reading a variation of "we all see through filters," it starts feeling repetitive. Trust the reader to hold the concept — state it once powerfully and then build on it rather than re-establishing it.
-- **The 9takes About page quote (Section 6) feels self-referential.** Quoting your own About page in the middle of a philosophy essay breaks the voice. The diagnosis about social media isolation is valid but make the point in your own words here rather than citing yourself.
-
-### What feels like a stretch
-- **The Plato/Dante mapping to 9takes' mechanics (Section 3) is forced.** Calling the give-first mechanic "Dante's path of love" is a reach. Submitting your take before seeing others is a design pattern for reducing groupthink — calling it "vulnerability" and "authentic self-expression" and then equating that with Dante's theology of divine love is doing a lot of philosophical heavy lifting that the mechanic doesn't actually support. The connection is poetic but not rigorous, and it undercuts the credibility you build in the Kant section.
-- **The Geist / three-centers convergence (Section 5) is loose.** Plato's tripartite soul, Freud's id/ego/superego, and the triune brain model are not saying the same thing as the Enneagram's three centers. They share a superficial "three-part" structure but the contents don't map cleanly. If you're going to critique Jiang for being "evidentially thin," this section needs to be tighter or have a disclaimer.
-
-### What's missing
-- **You never link to the actual video.** You describe a 2M-view lecture but don't give the reader a way to watch it. This feels like an oversight — link the video title in the first paragraph so people can judge for themselves.
-- **No acknowledgment of the Enneagram's own evidence gap.** You call Jiang's framework "rhetorically strong but evidentially weak" and "self-sealing." But the Enneagram itself has limited empirical validation and faces similar critiques from psychologists. A single sentence acknowledging this ("The Enneagram isn't without its own evidence debates...") would make the piece feel more intellectually honest rather than selectively skeptical.
-- **The Type examples are only 8, 5, and 2.** You use the same three types for both the workplace conflict example and the blindspot example at the end. If the whole point is 9 perspectives, showing the same 3 twice reinforces the idea that you're only really thinking about a third of the system. Swap out one set for different types, or add a fourth example somewhere.
-
-### Tone check
-- "His own framework argues against his thesis. He just doesn't notice." — This line is a bit smug. You've been fair and even generous to Jiang throughout the piece. This sentence reads like a dunk. Consider softening it to something like "His own framework may point in a different direction than his thesis" — you can make the same point without the implied intellectual superiority.
-- The piece walks a line between philosophy essay and 9takes pitch. It mostly stays on the essay side, which is good. But sections 3, 4, and 6 all end with "and 9takes solves this." Three consecutive sections that resolve into product positioning is noticeable. Consider letting at least one section end with the philosophical insight without tying it back to the platform.
--->
-

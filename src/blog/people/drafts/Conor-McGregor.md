@@ -36,7 +36,7 @@ path: src/blog/people/drafts/Conor-McGregor.md
 
 He was seventeen. He hated plumbing. And something about that cold, about that helplessness, about depending on someone else's schedule to get through the day, broke something open in him that has never fully closed.
 
-What happened next is one of the most documented rags-to-riches stories in sports history. The welfare checks. The visualization. The trash talk that turned out to be prophecy. The two UFC belts. The $100 million Mayweather payday. The whiskey empire.
+What happened next is one of the most documented rags-to-riches stories in sports history. The welfare checks. The visualization. The trash talk that turned out to be prophecy. The Mayweather payday. The whiskey empire.
 
 But there's a detail that gets buried beneath the highlight reel. The same man who visualized every victory with terrifying accuracy — who predicted knockdowns, rounds, and finishes before they happened — is the man who punched an old man in a pub for declining his whiskey. Who attacked a bus full of fighters with a steel dolly. Who, after the most devastating loss of his career, screamed threats at his opponent's wife from the canvas with a broken leg.
 
@@ -104,9 +104,9 @@ The peak was Jose Aldo. The Brazilian featherweight champion had been undefeated
 
 He wasn't just talking about confidence. He was describing something closer to a religious conviction — a belief system in which speaking something into existence was not metaphor but mechanism. And for years, the evidence kept proving him right.
 
-He became the first fighter in UFC history to hold two championship belts simultaneously. He talked his way into a boxing match with Floyd Mayweather and earned over $100 million for it — a spectacle that fellow combat-sports crossover [Jake Paul](/personality-analysis/Jake-Paul) would later try to replicate. He launched <a href="https://www.espn.com/mma/story/_/id/31346618/conor-mcgregor-sells-majority-whiskey-brand-proper-no-twelve-600m">Proper No. Twelve whiskey</a> and sold his majority stake for $600 million.
+He became the first fighter in UFC history to hold two championship belts simultaneously. He talked his way into a boxing match with Floyd Mayweather and earned over $100 million for it — a spectacle that fellow combat-sports crossover [Jake Paul](/personality-analysis/Jake-Paul) would later try to replicate. He launched Proper No. Twelve whiskey and turned it into a nine-figure empire.
 
-The plumber's apprentice from Crumlin had willed himself into a different universe. But the armor he'd built to get there — the absolute refusal to be vulnerable, the conversion of every soft emotion into aggression, the belief that he could will any outcome — that armor doesn't come off just because you've arrived.
+The plumber's apprentice from Crumlin had willed himself into a different universe. But the operating system he'd built to get there — the absolute refusal to be vulnerable, the conversion of every soft emotion into aggression, the belief that he could will any outcome — that wiring doesn't rewire just because you've arrived.
 
 ## What is Conor McGregor's Personality Type?
 
@@ -145,11 +145,21 @@ Both are true. And the split is where the Enneagram becomes useful.
 
 He pled guilty to disorderly conduct. Five days of community service. An anger management evaluation.
 
+**October 2018**: UFC 229. The biggest pay-per-view in UFC history — 2.4 million buys. McGregor versus Khabib Nurmagomedov, the undefeated Dagestani wrestler who represented everything McGregor couldn't out-talk or out-punch: quiet discipline, grinding pressure, an iron will that didn't need an audience.
+
+For three rounds, Khabib controlled McGregor on the ground — the place where an 8's striking power means nothing. In the fourth round, Khabib took his back and locked in a rear-naked choke. Lip-readers caught what McGregor said as the choke tightened: _"It's only business."_
+
+Then he tapped.
+
+For a Type 8, there is no more psychologically devastating act than public submission. Not losing — 8s can rationalize a knockout as a single mistake, a flash. But tapping is surrender. It is the body admitting, in front of 20,000 people and millions watching at home, _I cannot escape this. I give up._ For the man who built an identity on never yielding to anyone, the tap was the one outcome his visualization had never rehearsed.
+
+Then Khabib leapt over the cage to attack McGregor's teammate, Khabib's cornermen swarmed McGregor inside the octagon, and the entire arena descended into chaos. In the locker room afterward, McGregor reportedly said, "I was beat and that's that." But the simplicity of that sentence masked the damage. He wouldn't win another fight for over two years.
+
 **April 2019**: McGregor walks into The Marble Arch pub in Dublin. He lines up glasses of his Proper No. Twelve whiskey for the patrons. An older man declines. McGregor punches him in the head.
 
 The video went viral months later. McGregor pled guilty. He was fined €1,000.
 
-In his interview with ESPN's Ariel Helwani about the pub incident, McGregor showed something rare — genuine remorse that pierced the armor: "To see it is like a dagger into my heart as a young martial artist."
+In his interview with ESPN's Ariel Helwani about the pub incident, McGregor showed something rare — genuine remorse that pierced the fortress: "To see it is like a dagger into my heart as a young martial artist."
 
 A dagger into his heart. Not the old man's jaw. His heart. The distinction matters. For an 8, the worst thing isn't the consequence — it's the evidence that you've become the thing you were supposed to protect people from.
 
@@ -170,6 +180,8 @@ A dagger into his heart. Not the old man's jaw. His heart. The distinction matte
 
 Between the Khabib loss in October 2018 and the broken leg in July 2021, McGregor went 1-3 in the octagon. His last real dominance was 2016. For five years, the man who built his identity on being unstoppable was getting stopped. And during those same five years, every major off-cage incident occurred.
 
+The timeline is damning in its precision. The bus attack happened before the Khabib fight — when the loss of control was anticipatory. The pub punch happened six months after the Khabib submission — when the loss was confirmed. The broken-leg screaming happened during the third consecutive defeat. Each escalation tracks the narrowing of legitimate outlets. When an 8 can dominate inside the rules, the aggression has a container. When the container breaks, the aggression doesn't disappear. It floods.
+
 This is the Type 8 stress pattern mapped onto a life in real time. Under extreme stress, 8s don't crumble outward like some types. They either withdraw into paranoid isolation (moving toward unhealthy [Type 5](/enneagram-corner/enneagram-type-5)) or they escalate — pressing harder on the same lever that used to work, unable to process the possibility that the lever is broken.
 
 McGregor escalated. Every time.
@@ -180,15 +192,17 @@ There's another Conor McGregor that doesn't make the tabloids.
 
 The one who, after making $100 million from the Mayweather fight, tracked down his old plumbing employer and paid back a debt that was 15 years old.
 
-The one who, in the middle of negotiations that would make him the highest-paid athlete on earth, said: "For me to be able to take her out of work, give her everything she's ever wanted and to travel the world with her fills me with pride."
-
 The one who, when Ariel Helwani lost his job at Showtime, privately reached out with support — a gesture Helwani later described as "the epitome of class."
 
-The one who launched Proper No. Twelve and poured himself into it not as a celebrity endorsement but as an obsession — developing the product, building the brand, studying the whiskey market. He sold his majority stake for $600 million. The plumber's apprentice who couldn't afford a round became the man who bought the rounds for an entire country.
+The one who launched Proper No. Twelve and poured himself into it not as a celebrity endorsement but as an obsession — developing the product, building the brand, studying the whiskey market. He sold his majority stake for <a href="https://www.espn.com/mma/story/_/id/31346618/conor-mcgregor-sells-majority-whiskey-brand-proper-no-twelve-600m">$600 million</a>. The plumber's apprentice who couldn't afford a round became the man who bought the rounds for an entire country.
 
-He has four children with Dee — Conor Jr., Croía, Rian, and Mack. They married in Vatican City in December 2025. Through every scandal, every court case, every tabloid headline, Dee has been there. Not in silence, but in choice.
+Then there's Road House. In 2024, McGregor made his acting debut as Knox — a psychopathic Irish enforcer — opposite Jake Gyllenhaal. Critics were split, but the role itself is telling. The 8w7's Seven wing doesn't sit still when the primary arena closes. It hunts for the next one. Acting, bare-knuckle fighting, whiskey — the impulse isn't diversification. It's the refusal to let a single arena define or contain him.
 
-This is the 8's integration path — the movement toward [Type 2](/enneagram-corner/enneagram-type-2), the Helper. When the 8 is healthy, when the armor isn't being tested, the ferocity that terrorizes opponents becomes the devotion that surrounds the inner circle. The same intensity. Different direction.
+That same impulse led him to acquire a minority ownership stake in BKFC in 2024. "I'm not up here as just an owner," he told reporters. "I'm player-manager." Bare-knuckle fighting — rawer, less regulated, more primal than the UFC — is an interesting gravitational pull for a man whose career has been a steady escalation toward something more unfiltered. The 8 moving toward a purer expression of the thing itself.
+
+He has four children with Dee — Conor Jr., Croía, Rían, and Mack. They married at the Church of Santo Stefano degli Abissini in Vatican City on December 12, 2025 — at exactly 12:12 p.m., because even a wedding required the precision of a man who visualizes outcomes. An 8 who once said he feared no man, kneeling in one of the oldest churches inside the Vatican walls. Through every scandal, every court case, every tabloid headline, Dee has been there. Not in silence, but in choice.
+
+This is the 8's integration path — the movement toward [Type 2](/enneagram-corner/enneagram-type-2), the Helper. When the 8 is healthy, when the wiring isn't being tested, the ferocity that terrorizes opponents becomes the devotion that surrounds the inner circle. The same intensity. Different direction.
 
 McGregor described it himself without knowing he was describing it: "A lack of commitment is an insult to people who believe in you."
 
@@ -200,17 +214,25 @@ In October 2025, at a BKFC press conference in Italy, McGregor did something no 
 
 "Since around that time that you mentioned, at the last event, I've engaged in a spiritual journey, and I've been saved. I'm saved. I am healed."
 
-The broken leg, he said, became a turning point. Not just physically — spiritually. The man who built an empire on believing in himself was now talking about believing in something bigger.
+The broken leg, he said, became a turning point. Not just physically — spiritually. The man who built an empire on believing in himself was now talking about believing in something bigger. After his Vatican wedding, he went further: "God's hand guided every detail. Serving God is my number one priority."
 
-For Type 8s, the concept of surrender is almost biologically repulsive. Surrender means vulnerability. Vulnerability means destruction. The operating system rejects it at the deepest level.
+Let that land. A man whose number one priority was once _himself_ — who said it out loud, who made it a brand — now naming a higher authority. Whether you believe it or not, the language itself represents a revolution in the McGregor operating system.
 
-But the healthiest 8s eventually reach a point where the armor has become heavier than what it's protecting them from. Where the intensity that saved them is now the thing doing the damage. Where the only path forward requires the one thing they've spent their entire life avoiding.
+For Type 8s, the concept of surrender is almost biologically repulsive. Surrender means vulnerability. Vulnerability means destruction. Every instinct rejects it at the deepest level.
+
+But the healthiest 8s eventually reach a point where the fortress has become heavier than what it's protecting them from. Where the intensity that saved them is now the thing doing the damage. Where the only path forward requires the one thing they've spent their entire life avoiding.
 
 Letting go.
 
-Whether McGregor's faith transformation is genuine, performed, or somewhere in between — and the civil sexual assault verdict, the drug testing failures, the continued controversies suggest the old patterns haven't fully loosened — the fact that he's publicly naming it matters. A man who once said "I fear no man. If you breathe oxygen, I do not fear you" is now saying "God saved me."
+Whether McGregor's faith transformation is genuine, performed, or somewhere in between is the hardest question in the McGregor story — and it's not the only one.
 
-For an 8, that's not a small sentence. That's a structural shift.
+In November 2024, a Dublin jury found McGregor civilly liable for sexual assault against Nikita Hand, stemming from an incident in December 2018 — two months after the Khabib loss. He was ordered to pay approximately €250,000 in damages. His appeal was unanimously dismissed in July 2025. McGregor denied the allegations and maintained the encounter was consensual. A separate civil suit was filed in the United States in January 2025.
+
+This is the part of the story that resists any neat psychological framing. You can map the 8's stress patterns onto the timeline. You can note that the incident occurred during the most destabilized period of his life. But none of that explains it away, and it shouldn't. Some damage doesn't fit into a personality framework. It just sits there, demanding to be reckoned with.
+
+What we can say is this: the faith testimony, the drug testing failures, the civil verdict, the continued controversies — they all coexist. The man saying "God saved me" is the same man whose actions suggest the saving isn't finished.
+
+For an 8, publicly saying "I am saved" is still seismic. A man who once said "I fear no man. If you breathe oxygen, I do not fear you" is now saying someone else did for him what he couldn't do alone. That's a structural shift — even if the structure is still shifting.
 
 ## The Comeback That Hasn't Happened Yet
 
