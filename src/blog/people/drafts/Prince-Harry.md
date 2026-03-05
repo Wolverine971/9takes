@@ -6,7 +6,7 @@ description: "Harry's contradictions make perfect sense when you understand his 
 author: 'DJ Wayne'
 date: '2024-09-29'
 loc: 'https://9takes.com/personality-analysis/Prince-Harry'
-lastmod: '2026-01-26'
+lastmod: '2026-03-04'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
@@ -19,38 +19,17 @@ twitter: ''
 instagram: ''
 tiktok: ''
 path: src/blog/people/drafts/Prince-Harry.md
-content_quality:
-  hook: 7
-  enneagram: 8
-  evidence: 9
-  writing: 7
-  originality: 7
-  overall: 7.6
-  letter: C
-  graded_at: '2026-02-24'
 ---
-
-<!-- QUALITY GRADE: C (7.6)
-Hook: 7 | Enneagram: 8 | Evidence: 9 | Writing: 7 | Originality: 7
-
-FEEDBACK (2026-02-24):
-- Evidence is exceptional — YouGov polling (72%→31%, 43-point gap), Archewell financials ($13M→$2.1M), specific dated events with hyperlinked sources, named observers (Arthur Edwards). Harry's voice heard in direct quotes across nearly every section.
-- The "trust calculus" framework is the piece's genuine contribution — privacy + memoir both serve Type 6 function, Megxit as risk calculation, institution shifting from "security" to "threat." This is the analytical engine that holds everything together.
-- Critics section is unusually balanced for this format — specific numbers, legitimate criticisms, then Type 6 shadow analysis ("seeing enemies in critics who have a point"). Shows intellectual honesty.
-- Final line lands: "a twelve-year-old's survival strategy is being renegotiated, piece by piece, by the adult it made."
-
-- NEEDS WORK: Hook opens with contradiction list (craves privacy but writes memoir, left royals but fights for title) — analytical, not visceral. Lead with a SCENE: Harry choking up at the 2026 High Court, or walking behind Diana's coffin, or the moment Meghan told him she was suicidal. Give the reader a person before giving them a framework.
-- NEEDS WORK: Fatherhood and Security Fight sections read report-like — events summarized chronologically rather than narrated with psychological insight driving the structure. The Fatherhood section states "consent is a really key piece" but doesn't connect it back to Harry's own experience of having zero consent over his public childhood.
-
-- TO REACH B (8.0): (1) Rewrite the hook — open with the January 2026 courtroom scene (tears, "they continue to come after me"), THEN reveal the contradictions. (2) Tighten Fatherhood — cut the Christmas card/Our Big Kitchen details, keep the "cutting children off from relationships that shaped him" tension which is the section's real point. (3) Remove the disclaimer and "More on Key Figures" — end at "the adult it made."
-- TO REACH B+ (8.5): (1) Find the signature detail — one small, specific moment only Harry experienced that crystallizes the Type 6 analysis. The coffin walk? A specific Spare passage? Something that fails the swap test completely. (2) Add counter-typing paragraph: why not Type 4? He's dramatic, identity-focused, feels misunderstood — address this directly. (3) Develop the William comparison into a full parallel-structure section: same inputs, different wiring, specific divergent decisions side by side.
--->
 
 > "I was born into this position. I inherited the risk. Those who have been dating or married to members of the Royal Family are fleeing the institution."
 
-<p class="firstLetter">Prince Harry makes contradictory choices that baffle observers. He craves privacy but writes a tell-all memoir. He left the royal family for independence but still fights to keep his prince title. He criticizes the institution but married into it knowing full well what that meant.</p>
+<p class="firstLetter">January 2026. London's High Court. Prince Harry is on the witness stand, leading seven claimants — including Elton John and Elizabeth Hurley — against Associated Newspapers Limited. His voice breaks. <a href="https://www.usnews.com/news/entertainment/articles/2026-01-21/prince-harry-set-to-give-evidence-at-londons-high-court-in-privacy-case">"They continue to come after me,"</a> he says, choking back tears. "They have made my wife's life an absolute misery."</p>
+
+This is the man who left the most famous family on earth for privacy — and then wrote a 416-page memoir about it. Who renounced his royal duties but fights in court to keep his prince title. Who criticizes the institution but married into it knowing what that meant.
 
 The contradictions dissolve once you understand the [Enneagram Type 6, the "Loyal Skeptic"](/enneagram-corner/enneagram-type-6) framework. His entire worldview rotates around a single question: _Who can I actually trust?_
+
+A casual reader might object: why not Type 4? Harry is dramatic, identity-focused, feels perpetually misunderstood, casts himself as the outsider. Fair observations. But watch what actually drives his decisions. A Type 4 leaves the royal family because it fails to see his uniqueness. Harry left because it failed to protect his wife. A 4 writes a memoir to express an inner world. Harry wrote _Spare_ to get the record straight — to combat what he perceived as institutional gaslighting. The emotional fuel isn't "no one understands me." It's "no one is keeping us safe." That difference runs through everything.
 
 ## The 12-Year-Old Who Learned the World Isn't Safe
 
@@ -84,21 +63,9 @@ _"I will not be bullied into playing a game that killed my mum."_
 
 That's not melodrama. That's Harry expressing his core operating system: threats that resemble past traumas trigger maximum defensive response.
 
-In Meghan, Harry found a partner who shares his skepticism of the royal establishment. She gives him unconditional alliance. He gives her a platform where her instinct to help is not just welcomed but needed. That mutual reinforcement is less a romantic story than a strategic compact — two people who decided the world outside the institution was safer than the world inside it.
+In Meghan, Harry found a partner who shares his skepticism of the royal establishment. She gives him unconditional alliance. He gives her a platform where her instinct to help is not just welcomed but needed. That mutual reinforcement is less a romantic story than a strategic compact — two people who decided the world outside the institution was safer than the world inside it. That framing sounds cold, but love and strategy aren't mutually exclusive. Most lasting partnerships involve both. The point is that Harry didn't choose Meghan despite her willingness to challenge the system — he chose her partly because of it.
 
 This explains why Harry was willing to sacrifice his royal position, family relationships, and homeland for his marriage. When the institution threatened his inner circle, the institution had to go.
-
-## Fatherhood: Breaking the Cycle
-
-_"Once you become a parent yourself, everything changes."_
-
-Harry's role as father to Archie (born 2019) and Lilibet (born 2021) has become central to his decision-making. His approach reflects both protective instincts and determination not to repeat patterns from his childhood.
-
-He and Meghan have shielded their children from public view, a stark contrast to Harry's fishbowl upbringing. _"Consent is a really key piece. If you have children, it should be your consent to what you share."_ But this is evolving. In December 2025, Archewell Foundation rebranded to include "the couple and their children" in family philanthropy. Archie and Lilibet appeared on the 2025 Christmas card. In November, the family volunteered at Our Big Kitchen Los Angeles, with the kids baking cookies for community meals.
-
-Harry hopes Archie and Lilibet can eventually visit King Charles during upcoming US trips. Whether these children will know their grandfather the King, their uncle the future King, remains one of the most painful questions in this whole story — and one Harry created by leaving, even if he had reasons.
-
-That tension is the sharpest edge of his situation: protecting his children from an institution he believes harmed him, while potentially cutting them off from relationships that shaped him. There's no clean answer there, and Harry hasn't found one.
 
 ## Megxit: The Risk Calculation Most People Miss
 
@@ -110,17 +77,19 @@ _"It was frightening. I was desperate. I went to all the places which I thought 
 
 His description of feeling "trapped" reveals the core fear. Once Harry perceived the royal family as failing Meghan, their status shifted from "security" to "threat." And when your inner circle is threatened, you protect it or lose everything that matters.
 
-## The Critics Have a Point
+## Fatherhood: Breaking the Cycle
 
-Any honest analysis of Harry must acknowledge the substantial criticism he faces, particularly in Britain.
+_"Once you become a parent yourself, everything changes."_
 
-The numbers are not kind. YouGov polling shows Harry's favorability among Britons has dropped from 72% in November 2019 to 31% in January 2026. His brother William maintains 74% approval — a 43-point gap. The generational divide is stark: 48% of 18-24 year-olds view Harry positively versus just 18% of those over 55.
+Harry's role as father to Archie (born 2019) and Lilibet (born 2021) has become central to his decision-making. He and Meghan have shielded their children from public view, a stark contrast to Harry's fishbowl upbringing.
 
-Royal photographer Arthur Edwards noted Harry "attacked his family for profit" despite not being financially desperate. His estimated $120 million from Netflix and Spotify deals came largely from content about royal life. The Archewell Foundation's own report condemned "performative" and "inauthentic" online personalities motivated by profit — which critics point to as hypocrisy, given the Sussexes' commercial model. The Foundation's 2024 finances showed donations dropping from $13M in 2021 to $2.1M while expenses reached $5.1M. High-profile trips to Nigeria and Colombia produced under $20,000 in combined donations to those regions.
+_"Consent is a really key piece. If you have children, it should be your consent to what you share."_
 
-These aren't just tabloid grievances. They're legitimate questions about whether Harry's declared values and his actual revenue model are coherent.
+That word — consent — lands differently when you know Harry never had any. His childhood played out in tabloid photographs, on palace balconies, and behind a coffin on live television. Every major moment of his youth was public property. The insistence on consent for his own children isn't abstract parenting philosophy. It's a direct correction.
 
-The Type 6 framework doesn't excuse this — it explains the mechanism. The same vigilance that protects can calcify into something uglier: seeing enemies in critics who have a point, framing accountability as attack, treating any challenge to the narrative as evidence of bad faith. Whether Harry has developed that kind of self-awareness is the more interesting question, and the honest answer is that we don't know.
+Harry hopes Archie and Lilibet can eventually visit King Charles during upcoming US trips. Whether these children will know their grandfather the King, their uncle the future King, remains one of the most painful questions in this whole story — and one Harry created by leaving, even if he had reasons.
+
+That tension is the sharpest edge of his situation: protecting his children from an institution he believes harmed him, while potentially cutting them off from relationships that shaped him. There's no clean answer there, and Harry hasn't found one.
 
 ## Fighting the Force That Killed His Mother
 
@@ -128,13 +97,7 @@ Harry's ongoing legal battles against British tabloids aren't celebrity grievanc
 
 _"My wife has become one of the latest victims of a British tabloid press that wages campaigns against individuals with no thought to the consequences."_
 
-For most people, media intrusion is annoying. For Harry, it's existential. He witnessed the worst-case scenario at age 12.
-
-**January 2026:** In [testimony at London's High Court](https://www.nbcnews.com/world/united-kingdom/prince-harry-testifies-daily-mail-publisher-phone-hacking-elton-john-rcna255159), Harry led seven high-profile claimants (including <a href="/personality-analysis/Elton-John">Elton John</a> and Elizabeth Hurley) against Associated Newspapers Limited for alleged unlawful snooping.
-
-[An emotional Harry choked back tears](https://www.usnews.com/news/entertainment/articles/2026-01-21/prince-harry-set-to-give-evidence-at-londons-high-court-in-privacy-case): "They continue to come after me, they have made my wife's life an absolute misery."
-
-The nine-week trial represents his determination to confront threats directly, regardless of personal cost. This isn't about privacy violations. It's about fighting the forces he believes killed his mother.
+The [nine-week High Court trial](https://www.nbcnews.com/world/united-kingdom/prince-harry-testifies-daily-mail-publisher-phone-hacking-elton-john-rcna255159) against Associated Newspapers Limited — the one that opened this article — represents his determination to confront threats directly, regardless of personal cost. This isn't about privacy violations. It's about fighting the forces he believes killed his mother.
 
 ## Spare: Why He Had to Tell His Version
 
@@ -164,14 +127,6 @@ Throughout the memoir, you can track Harry's trust calculus in action. He return
 
 By publicly declaring his version of events, Harry challenged the official narrative of a family that distorts reality. For someone who constantly asks "what's really true here?", getting his story on the record was necessary for psychological survival.
 
-## Inside Harry's Head
-
-The internal monologue his public statements suggest isn't complicated. _Is this situation safe? Who can I actually count on? What's the worst that could happen, and how do I prepare for it? Why does this rule exist, and who benefits from it?_
-
-That's not neurosis. That's a coherent operating system built by a twelve-year-old whose mother died and whose protective institutions then closed ranks.
-
-He's been running trustworthiness calculations in real-time ever since.
-
 ## The Security Fight Was Never Just About Logistics
 
 In May 2025, Harry revealed his father had stopped speaking to him over his lawsuit for UK security. That detail matters. He wasn't fighting for a convenience. He was fighting the UK Home Office's refusal to formally acknowledge that a threat to him existed — which, for someone whose mother's death he attributes partly to institutional negligence, wasn't an abstract bureaucratic dispute.
@@ -179,6 +134,18 @@ In May 2025, Harry revealed his father had stopped speaking to him over his laws
 [The UK Home Office completed a new threat assessment](https://www.deseret.com/entertainment/2026/01/07/prince-harry-security-family-reconciliation/) in December 2025, and Harry is now expected to regain publicly funded police protection. That outcome means the Home Office, which previously argued his threat level didn't warrant official protection, has revised its position. For Harry, that isn't a logistics win. It's the government confirming that the danger he'd been describing as real is, in fact, real — and that the years of legal battle to establish that reality were not paranoia.
 
 With that settled, Meghan and the children can visit the UK without Harry carrying the security cost himself. The path to family reconciliation, which had been partly blocked by this dispute, is now less obstructed.
+
+## The Critics Have a Point
+
+Any honest analysis of Harry must acknowledge the substantial criticism he faces, particularly in Britain.
+
+The numbers are not kind. YouGov polling shows Harry's favorability among Britons has dropped from 72% in November 2019 to 31% in January 2026. His brother William maintains 74% approval — a 43-point gap. The generational divide is stark: 48% of 18-24 year-olds view Harry positively versus just 18% of those over 55.
+
+Royal photographer Arthur Edwards noted Harry "attacked his family for profit" despite not being financially desperate. His estimated $120 million from Netflix and Spotify deals came largely from content about royal life. The Archewell Foundation's own report condemned "performative" and "inauthentic" online personalities motivated by profit — which critics point to as hypocrisy, given the Sussexes' commercial model. The Foundation's 2024 finances showed donations dropping from $13M in 2021 to $2.1M while expenses reached $5.1M. High-profile trips to Nigeria and Colombia produced under $20,000 in combined donations to those regions.
+
+These aren't just tabloid grievances. They're legitimate questions about whether Harry's declared values and his actual revenue model are coherent.
+
+The Type 6 framework doesn't excuse this — it explains the mechanism. The same vigilance that protects can calcify into something uglier: seeing enemies in critics who have a point, framing accountability as attack, treating any challenge to the narrative as evidence of bad faith. Whether Harry has developed that kind of self-awareness is the more interesting question, and the honest answer is that we don't know.
 
 ## Charles: The Father He's Cautiously Rebuilding With
 
@@ -225,11 +192,3 @@ When Type 6 personalities mature, they integrate toward Type 9, the Peacemaker: 
 But notice how he's doing it: short meetings, maintaining the California base, keeping William at distance. He's not abandoning vigilance. He's learning to balance it with something that looks, cautiously, like openness.
 
 That's the work. Not resolution. Just the first signs that a twelve-year-old's survival strategy is being renegotiated, piece by piece, by the adult it made.
-
-> **Disclaimer:** This analysis of Prince Harry's Enneagram type is speculative, based on publicly available information, and may not reflect his actual personality type.
-
-## More on the Key Figures in Harry's Life
-
-- [**Meghan Markle's Type 2 Personality**](/personality-analysis/Meghan-Markle): How the Helper nature complements Harry's Loyalist tendencies
-- [**Queen Elizabeth II**](/personality-analysis/Queen-Elizabeth-II): The institution Harry ultimately left
-- [**Princess Diana**](/personality-analysis/Princess-Diana): The mother whose loss shaped everything
