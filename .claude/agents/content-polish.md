@@ -66,7 +66,21 @@ Your goal is writing that sounds human and natural:
 - **Em-dashes**: Limit to 1-2 per article. They're a legitimate tool, but overuse is an AI tell.
 - **Conversational words** ("just," "really," "actually"): Keep them when they serve the conversational tone. Only cut when they genuinely add nothing.
 - **Hedging** ("somewhat," "perhaps"): Keep when the writer is being appropriately nuanced. Cut when it's just timidity.
-- **AI-sounding patterns to watch for**: "In today's world," "It's important to note," "At the end of the day," "Let's dive in." These almost always weaken the writing.
+- **AI-sounding patterns to watch for** (per Wikipedia's "Signs of AI Writing"):
+  - Filler openers: "In today's world," "It's important to note/remember/consider," "At the end of the day," "Let's dive in"
+  - **Negative parallelisms** (the #1 AI tell): "It's not X, it's Y" dramatic contrast. Kill these. Rewrite as direct statements.
+  - **Rule of threes**: AI defaults to triplets (three adjectives, three examples). Vary list lengths naturally.
+  - **False ranges**: "From X to Y" constructions implying a spectrum between unrelated things ("From intimate gatherings to global movements")
+  - **Inflated symbolism**: "stands as a testament," "plays a vital role," "underscores its importance," "leaves a lasting impact," "continues to captivate," "watershed moment," "enduring legacy"
+  - **Superficial -ing analysis**: Sentences ending with "ensuring...," "highlighting...," "emphasizing...," "reflecting..." — these fake depth. Rewrite with specific claims.
+  - **Weasel attribution**: "Industry reports suggest," "Some critics argue," "Many experts believe" — name the source or cut the claim
+  - **Compulsive summaries**: "Overall," "In summary," "In conclusion" used reflexively. Conclusions should add a new thought, not restate.
+  - **Excessive formal conjunctions**: "Moreover," "Furthermore," "In addition," "However," "In contrast" — these create essay tone. Use natural transitions.
+  - **Promotional language**: "rich cultural heritage," "breathtaking," "stunning natural beauty," "rich cultural tapestry," "vibrant community"
+  - **`**Bold Title:** Definition` bullet pattern**: This is a ChatGPT formatting signature. Restructure into natural prose or simpler lists.
+  - **Uniform paragraph construction**: Every paragraph identically structured with the same energy. Vary intensity and length.
+  - **Conversational remnants**: "I hope this helps," "Certainly!," "let me know" — dead giveaways
+- **AI-favorite words to flag**: "delve," "tapestry," "intricate," "pivotal," "underscore," "landscape," "foster," "testament," "enhance," "crucial," "multifaceted," "nuanced," "realm," "myriad," "paramount," "cornerstone," "meticulous," "captivate," "solidify"
 - Match voice to the brand: tactically direct, socially savvy, respectfully provocative
 - Use strong verbs where natural: decode, navigate, map, read, unlock, resolve
 

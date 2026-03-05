@@ -106,7 +106,8 @@ async function getQuestions() {
 		.select('url, created_at, updated_at')
 		.eq('flagged', false)
 		.eq('removed', false)
-		.eq('tagged', true);
+		.eq('tagged', true)
+		.order('updated_at');
 
 	if (error) {
 		console.warn('⚠️  Error fetching questions:', error.message);

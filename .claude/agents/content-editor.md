@@ -104,18 +104,55 @@ Strategic repetition reinforces key points. Redundant repetition wastes the read
 
 - Eliminate AI-sounding patterns:
   - Remove ALL em-dashes (—) and replace with commas, periods, or restructure
-  - Cut filler openers: "In today's world," "It's important to note," "At the end of the day," "In the world of," "When it comes to," "It's worth noting that"
+  - Cut filler openers: "In today's world," "It's important to note," "At the end of the day," "In the world of," "When it comes to," "It's worth noting that," "It's important to remember/consider"
   - Cut AI transition phrases: "Let's explore," "Let's dive into," "Let's take a closer look," "Let's unpack"
   - Remove excessive hedging ("somewhat," "perhaps," "it could be argued")
   - Eliminate the pattern of [statement] + [restatement in different words]
+  - **The "negative parallelism" tell** (Wikipedia calls this the MOST prominent AI tell):
+    - The "It's not X, it's Y" dramatic contrast structure ("It's not a product launch. It's a paradigm shift.")
+    - Kill every instance. Rewrite as a direct statement instead.
+  - **Rule of threes**:
+    - AI defaults to triplets everywhere: three adjectives, three examples, three benefits
+    - Vary list lengths. Sometimes two items. Sometimes four. Let content dictate structure.
+  - **False ranges**:
+    - "From intimate gatherings to global movements" — implying a spectrum between unrelated things
+    - "From X to Y" constructions that sound profound but say nothing
+  - **Inflated symbolism and grandiose language**:
+    - "stands as a testament," "serves as a testament," "is a testament"
+    - "plays a vital/significant/crucial role"
+    - "underscores its importance," "leaves a lasting impact," "continues to captivate"
+    - "watershed moment," "key turning point," "deeply rooted," "steadfast dedication," "solidifies"
+    - "enduring legacy," "lasting legacy," "profound heritage"
+  - **Editorializing / opinion-inserting phrases**:
+    - "no discussion would be complete without," "in this article," "as we've seen"
+  - **Superficial analysis via dangling -ing phrases**:
+    - Sentences that end with "ensuring...," "highlighting...," "emphasizing...," "reflecting..."
+    - These create the illusion of depth while saying nothing. Rewrite with actual specific claims.
+  - **Weasel attribution**:
+    - "Industry reports suggest," "Observers have cited," "Some critics argue," "Many experts believe"
+    - Either name the source or cut the claim
+  - **Conversational remnants** (dead giveaways):
+    - "I hope this helps," "Certainly!," "let me know," "as an AI language model"
+    - "Up to my last training update," knowledge cut-off disclaimers
+  - **Compulsive summaries**:
+    - "Overall," "In summary," "In conclusion" used reflexively even in short passages
+    - Conclusions should add a new thought or call to action, not mechanically restate
+  - **Excessive conjunctions as transitions**:
+    - "Moreover," "Furthermore," "In addition," "However," "In contrast," "On the other hand"
+    - These create a formal essay tone. Use natural transitions or restructure.
+  - **Promotional/travel-brochure language**:
+    - "rich cultural heritage," "breathtaking," "stunning natural beauty," "must-visit," "must-see"
+    - "rich cultural tapestry," "vibrant community"
   - **Structural AI tells to catch**:
-    - Lists of exactly 5 items (AI defaults to groups of 5; vary list lengths)
+    - Lists of exactly 3 or 5 items (AI defaults to these; vary list lengths)
     - Every section having the same number of paragraphs (vary section lengths)
-    - The `[Concept]: [definition]. [Elaboration].` sentence template
+    - The `**[Concept]:** [definition]. [Elaboration].` bullet-with-bold-title template
     - Overly balanced "on one hand... on the other hand" structures
     - Sections that all open with the same syntactic pattern
     - The vague contextual opener paragraph that adds no information
     - Conclusions that mechanically summarize every section
+    - Uniform tone throughout—every paragraph identically constructed with no variation in energy or intensity
+    - Title Case In Every Heading instead of natural sentence case
 - Vary sentence length: mix short punchy sentences with longer flowing ones
 - Read sentences aloud mentally—if they're awkward to speak, rewrite them
 - Match voice to brand: tactically direct, socially savvy, respectfully provocative
@@ -123,7 +160,7 @@ Strategic repetition reinforces key points. Redundant repetition wastes the read
 
 ### 7. Word-Level Polish
 
-- Hunt and eliminate clichés and AI-favorite words: "game-changer," "deep dive," "unpack," "leverage," "tapestry," "landscape," "navigate the complexities," "at its core," "shed light on," "resonates with," "multifaceted," "delve," "nuanced," "realm," "foster," "pivotal," "embark," "myriad," "paramount," "groundbreaking," "cutting-edge"
+- Hunt and eliminate clichés and AI-favorite words: "game-changer," "deep dive," "unpack," "leverage," "tapestry," "landscape," "navigate the complexities," "at its core," "shed light on," "resonates with," "multifaceted," "delve," "nuanced," "realm," "foster," "pivotal," "embark," "myriad," "paramount," "groundbreaking," "cutting-edge," "intricate," "underscore," "enhance," "crucial," "testament," "captivate," "solidify," "cornerstone," "spearhead," "bolster," "commendable," "meticulous"
 - Replace weak verbs (is, are, was, were, has, have) with active alternatives
 - Cut unnecessary adverbs and adjectives
 - Remove bloat words: very, really, just, quite, rather, somewhat, basically
