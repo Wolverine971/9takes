@@ -12,8 +12,17 @@ type: ['idea']
 blog: true
 previewHtml: 'A viral lecture on evil and Kant accidentally made the strongest case for perspective-taking.'
 pic: 'kantian-filters-nine-perspectives'
+pic_alt: 'Nine Greek bust statues in a classroom viewing one candle through different colored glass lenses'
 path: src/blog/community/kantian-filters-and-nine-perspectives.md
 ---
+
+<!--
+Midjourney prompt:
+wide cinematic shot, marble philosophy classroom in an ancient greek academy, one bright candle on a stone pedestal at center, nine greek marble bust statues seated in a semicircle around a wooden table, each statue holding a different colored glass lens in front of one eye (red, orange, yellow, green, cyan, blue, violet, smoke gray, clear), each lens casting a matching color patch onto a white plaster wall, notebooks with charcoal sketches and measuring calipers on the table, one instructor statue pointing at the same candle, natural sunset light from tall windows plus warm candlelight, realistic stone and wood textures, museum-quality photography, no floating symbols, no magic effects, no readable text, Unreal Engine, Cinematic, Color Grading, Shot on 50mm lens, Ultra-Wide Angle, Depth of Field, hyper-detailed, 32k, Super-Resolution, Megapixel, Dramatic Cinematic Lighting, Global Illumination, Ray Tracing Global Illumination, elegant, hyper realistic --ar 16:9 --v 6 --style raw --stylize 120
+
+Image intent:
+Concrete classroom experiment: one shared object, nine physical filters, nine different visual outputs.
+-->
 
 <script>
 	import PopCard from "$lib/components/atoms/PopCard.svelte";
@@ -55,7 +64,7 @@ path: src/blog/community/kantian-filters-and-nine-perspectives.md
   "image": {
     "@type": "ImageObject",
     "url": "https://9takes.com/blogs/kantian-filters-nine-perspectives.webp",
-    "width": 900,
+    "width": 1600,
     "height": 900
   },
   "articleSection": "Philosophy",
@@ -84,7 +93,7 @@ path: src/blog/community/kantian-filters-and-nine-perspectives.md
         showIcon={false}
         tint={false}
         displayText=""
-        altText="Philosophical perspectives on reality"
+        altText="Nine Greek bust statues in a classroom viewing one candle through different colored lenses"
         subtext=""
     />
 </div>

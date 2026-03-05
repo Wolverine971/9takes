@@ -38,6 +38,20 @@
 	let subscriptionLoading = $state(false);
 	let anonymousComment = $state(false);
 	let textareaHeight = $state('auto');
+	let shortAnswerNudge = $state(false);
+	let confirmShortSubmit = $state(false);
+
+	const SHORT_ANSWER_THRESHOLD = 100;
+
+	const depthPrompts = [
+		'What personal experience shaped your view on this?',
+		'Can you share a specific example or story?',
+		'What would someone who disagrees with you say?',
+		'How has your perspective on this changed over time?',
+		'What emotion comes up first when you think about this?'
+	];
+
+	let currentPromptIndex = $state(Math.floor(Math.random() * 5));
 
 	// Cached fingerprint - loaded once on mount
 	let cachedFingerprint = $state<string | null>(null);
@@ -132,6 +146,19 @@
 			return;
 		}
 
+		// Nudge for short answers on questions (not replies)
+		if (
+			parentType === 'question' &&
+			comment.trim().length < SHORT_ANSWER_THRESHOLD &&
+			!confirmShortSubmit
+		) {
+			shortAnswerNudge = true;
+			confirmShortSubmit = true;
+			return;
+		}
+
+		shortAnswerNudge = false;
+		confirmShortSubmit = false;
 		loading = true;
 
 		try {
@@ -218,6 +245,8 @@
 			oncommentAdded?.(commentData);
 			comment = '';
 			textareaHeight = 'auto';
+			shortAnswerNudge = false;
+			confirmShortSubmit = false;
 
 			// Hide comment box after submitting for non-first-time users
 			if (userHasAnswered) {
@@ -284,6 +313,13 @@
 	// Handle textarea auto-growth
 	const handleTextareaInput = (e: Event) => {
 		const target = e.target as HTMLTextAreaElement;
+
+		// Reset nudge when user keeps typing
+		if (shortAnswerNudge && target.value.trim().length >= SHORT_ANSWER_THRESHOLD) {
+			shortAnswerNudge = false;
+			confirmShortSubmit = false;
+		}
+
 		// Reset height temporarily to get the right scrollHeight
 		target.style.height = 'auto';
 		// Set new height based on scrollHeight (with a small buffer)
@@ -388,6 +424,12 @@
 			in:slide={{ duration: 300 }}
 		>
 			<div class="p-4">
+				{#if parentType === 'question' && comment.length === 0}
+					<p class="mb-2 text-xs text-purple-400/70">
+						<span class="font-medium text-purple-400">Dig deeper:</span>
+						{depthPrompts[currentPromptIndex]}
+					</p>
+				{/if}
 				<div
 					class="textarea-container"
 					data-replicated-value={comment}
@@ -395,22 +437,45 @@
 				>
 					<textarea
 						placeholder={parentType === 'question'
-							? "What's your perspective on this question? Share your thoughts..."
+							? "Go beyond the surface — share a real experience, a specific example, or explain the 'why' behind your take...\\n\\nThe most interesting answers are the honest, detailed ones."
 							: 'Write your reply...'}
 						class="w-full resize-none overflow-y-auto rounded-md border border-slate-600/40 bg-[#12121a]/80 px-3 py-2 text-sm leading-relaxed text-slate-100 placeholder:text-slate-500 focus:border-purple-500 focus:outline-none focus:ring-1 focus:ring-purple-500"
 						bind:value={comment}
 						id="comment-box"
-						rows="3"
+						rows="4"
 						oninput={handleTextareaInput}
 						onkeydown={handleKeydown}
 					></textarea>
 				</div>
+				{#if shortAnswerNudge}
+					<div
+						class="mt-2 flex items-start gap-2 rounded-lg border border-amber-500/20 bg-amber-500/5 px-3 py-2"
+						in:slide={{ duration: 200 }}
+					>
+						<span class="mt-0.5 text-amber-400">&#9997;</span>
+						<p class="text-xs leading-relaxed text-amber-300/90">
+							<span class="font-medium">Your take could go deeper.</span> Try adding a personal
+							story, a specific example, or what shaped your perspective. You can still
+							<button
+								class="inline font-medium text-amber-200 underline underline-offset-2 hover:text-amber-100"
+								type="button"
+								onclick={createComment}
+							>
+								post as-is
+							</button>.
+						</p>
+					</div>
+				{/if}
 			</div>
 			<div
 				class="flex items-center justify-between rounded-b-xl border-t border-purple-500/10 bg-[#12121a]/80 px-4 py-3"
 			>
 				<span class="text-xs text-slate-500">
-					{#if comment.length > 0}
+					{#if parentType === 'question' && comment.length > 0 && comment.length < SHORT_ANSWER_THRESHOLD}
+						<span class="text-amber-500/80"
+							>{comment.length} chars — keep going, add some detail</span
+						>
+					{:else if comment.length > 0}
 						{comment.length} characters
 					{:else}
 						Press Ctrl+Enter to submit
@@ -440,6 +505,8 @@
 							<div
 								class="h-3.5 w-3.5 animate-spin rounded-full border-2 border-white/30 border-t-white"
 							></div>
+						{:else if confirmShortSubmit}
+							Post Anyway
 						{:else}
 							{parentType === 'question' ? 'Post Comment' : 'Reply'}
 						{/if}
@@ -457,11 +524,7 @@
 		<p class="mb-5 text-sm text-slate-400">Scan the QR code to share with others</p>
 
 		<div class="mb-5 rounded-2xl border border-purple-500/20 bg-[#12121a] p-4">
-			<img
-				src={qrCodeUrl}
-				alt="Share question QR code"
-				class="h-[180px] w-[180px]"
-			/>
+			<img src={qrCodeUrl} alt="Share question QR code" class="h-[180px] w-[180px]" />
 		</div>
 
 		<p class="text-xs text-slate-500">Share and explore different perspectives</p>

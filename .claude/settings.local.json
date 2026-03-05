@@ -1207,7 +1207,14 @@
 			"WebFetch(domain:www.booktrust.org.uk)",
 			"WebFetch(domain:emcastellan.com)",
 			"WebFetch(domain:www.hisandhersbookclub.com)",
-			"WebFetch(domain:letthewordsflow.wordpress.com)"
+			"WebFetch(domain:letthewordsflow.wordpress.com)",
+			"WebFetch(domain:moonshotacademy.cn)",
+			"WebFetch(domain:www.wise-qatar.org)",
+			"WebFetch(domain:www.sixthtone.com)",
+			"WebFetch(domain:globaled.gse.harvard.edu)",
+			"WebFetch(domain:akhliswrites.com)",
+			"WebFetch(domain:www.chinafile.com)",
+			"Bash(xxd:*)"
 		],
 		"deny": [],
 		"ask": [],

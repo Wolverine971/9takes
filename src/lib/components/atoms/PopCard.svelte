@@ -252,7 +252,9 @@
 
 				<div class="spec-hud__row">
 					<span class="spec-hud__key">CLASS</span>
-					<span class="spec-hud__val">{enneagramTypes[enneagramType - 1].EnneagramType.split(' - ')[1]}</span>
+					<span class="spec-hud__val"
+						>{enneagramTypes[enneagramType - 1].EnneagramType.split(' - ')[1]}</span
+					>
 				</div>
 
 				<div class="spec-hud__divider"></div>
@@ -270,7 +272,9 @@
 				<div class="spec-hud__divider"></div>
 
 				<div class="spec-hud__row spec-hud__row--highlight">
-					<span class="spec-hud__key">{enneagramTypes[enneagramType - 1].CoreEmotion.toUpperCase()}</span>
+					<span class="spec-hud__key"
+						>{enneagramTypes[enneagramType - 1].CoreEmotion.toUpperCase()}</span
+					>
 					<span class="spec-hud__val">{enneagramTypes[enneagramType - 1].EmotionalStance}</span>
 				</div>
 			</div>
@@ -406,10 +410,26 @@
 			border-color: rgba(124, 58, 237, 0.8);
 			border-style: solid;
 
-			&--tl { top: -1px; left: -1px; border-width: 2px 0 0 2px; }
-			&--tr { top: -1px; right: -1px; border-width: 2px 2px 0 0; }
-			&--bl { bottom: -1px; left: -1px; border-width: 0 0 2px 2px; }
-			&--br { bottom: -1px; right: -1px; border-width: 0 2px 2px 0; }
+			&--tl {
+				top: -1px;
+				left: -1px;
+				border-width: 2px 0 0 2px;
+			}
+			&--tr {
+				top: -1px;
+				right: -1px;
+				border-width: 2px 2px 0 0;
+			}
+			&--bl {
+				bottom: -1px;
+				left: -1px;
+				border-width: 0 0 2px 2px;
+			}
+			&--br {
+				bottom: -1px;
+				right: -1px;
+				border-width: 0 2px 2px 0;
+			}
 		}
 
 		&__header {

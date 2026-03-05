@@ -1,4 +1,5 @@
 <!-- docs/development/email-sequence-health-audit-2026-03-04.md -->
+
 # Email Sequence Health Audit and Remediation Spec
 
 Date: 2026-03-04  
@@ -55,6 +56,7 @@ The following are now implemented and active:
   - Added **Unsubscribed** tab in `/admin/email-dashboard` to view who unsubscribed, source, reason, and timestamp.
 
 Current outcome:
+
 - Unsubscribed users are tracked in `email_unsubscribes`.
 - Admin can review unsubscribed users in dashboard UI.
 - Send-now, schedule, cron, and legacy bulk paths block/suppress unsubscribed emails.
@@ -86,11 +88,11 @@ Note: findings below are the original audit set; resolved/partial statuses are u
 
 ### High
 
-4. Partially resolved (2026-03-04): legacy mass-send path now enforces suppression before send.
+4. Resolved (2026-03-04): legacy `/email` admin send paths now use shared sender stack.
 
-- Evidence: suppression fetch in legacy path: [+page.server.ts](/Users/djwayne/9takes/src/routes/email/+page.server.ts:343).
-- Evidence: only eligible signups are sent: [+page.server.ts](/Users/djwayne/9takes/src/routes/email/+page.server.ts:352).
-- Remaining risk: legacy path still uses older sender implementation (without full modern tracking stack).
+- Evidence: legacy single/template sends now route through tracked sender helper in route: [+page.server.ts](/Users/djwayne/9takes/src/routes/email/+page.server.ts:61).
+- Evidence: legacy bulk send now routes through `sendBatchEmails`: [+page.server.ts](/Users/djwayne/9takes/src/routes/email/+page.server.ts:425).
+- Impact addressed: removed direct raw-Gmail sender implementation from this route.
 
 5. Resolved (2026-03-04): suppression matching is normalized/canonicalized.
 
@@ -101,7 +103,7 @@ Note: findings below are the original audit set; resolved/partial statuses are u
 6. Resolved (2026-03-04): unsubscribe systems are now bridged through unified helpers.
 
 - Evidence: `track_email_unsubscribe` now calls `unsubscribe_email_direct`: [20260304_email_suppression_helpers.sql](/Users/djwayne/9takes/supabase/migrations/20260304_email_suppression_helpers.sql:215).
-- Evidence: legacy signup unsubscribe page syncs into unified suppression list: [unsubscribe/[slug]/+page.server.ts](/Users/djwayne/9takes/src/routes/account/unsubscribe/[slug]/+page.server.ts:64).
+- Evidence: legacy signup unsubscribe page syncs into unified suppression list: [unsubscribe/[slug]/+page.server.ts](/Users/djwayne/9takes/src/routes/account/unsubscribe/[slug]/+page.server.ts:83).
 - Impact addressed: suppression state convergence across tracking + legacy unsubscribe paths.
 
 ### Medium
@@ -116,6 +118,13 @@ Note: findings below are the original audit set; resolved/partial statuses are u
 
 - Evidence: live `email_cron_status` reports `never_run`; health logic is defined here: [20251204_pg_cron_scheduled_emails.sql](/Users/djwayne/9takes/supabase/migrations/20251204_pg_cron_scheduled_emails.sql:183).
 - Impact: scheduled campaigns will not process automatically.
+
+## Remaining Issues (Open)
+
+1. Deliverability telemetry is still incomplete (no delivered/bounced provider event ingestion).
+2. Recipient deduplication is not enforced in `send`/`schedule` APIs (same email can be included multiple times).
+3. Cron endpoint auth is optional when `PRIVATE_CRON_SECRET` is unset.
+4. `email_sends` anon read policy is broad and should be tightened to least privilege.
 
 ## Open Tracking and Deliverability Research Notes
 

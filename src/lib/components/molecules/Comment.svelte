@@ -546,7 +546,7 @@
 			>
 				<div class="mb-3">
 					<textarea
-						placeholder="Write your reply..."
+						placeholder="Share your perspective — what's your experience with this? The more detail, the better the conversation."
 						class="w-full resize-y rounded-xl border border-slate-700/30 bg-[#252538] p-3 text-sm text-slate-200 placeholder-slate-500 focus:border-purple-500/50 focus:outline-none focus:ring-2 focus:ring-purple-500/20"
 						bind:value={newcomment}
 						rows="3"
