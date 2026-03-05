@@ -3299,6 +3299,15 @@
     </image:image>
 </url>
 <url>
+    <loc>https://9takes.com/personality-analysis/Jelly-Roll</loc>
+    <lastmod>2026-03-03T00:00:00.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+        <image:loc>https://9takes.com/types/9s/Jelly-Roll.webp</image:loc>
+    </image:image>
+</url>
+<url>
     <loc>https://9takes.com/personality-analysis/Jon-Stewart</loc>
     <lastmod>2026-03-03T00:00:00.000Z</lastmod>
     <changefreq>monthly</changefreq>
@@ -3323,6 +3332,24 @@
     <priority>0.7</priority>
     <image:image>
         <image:loc>https://9takes.com/types/6s/Trevor-Noah.webp</image:loc>
+    </image:image>
+</url>
+<url>
+    <loc>https://9takes.com/personality-analysis/Conor-McGregor</loc>
+    <lastmod>2026-03-04T00:00:00.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+        <image:loc>https://9takes.com/types/8s/Conor-McGregor.webp</image:loc>
+    </image:image>
+</url>
+<url>
+    <loc>https://9takes.com/personality-analysis/Sarah-J-Maas</loc>
+    <lastmod>2026-03-04T00:00:00.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+        <image:loc>https://9takes.com/types/4s/Sarah-J-Maas.webp</image:loc>
     </image:image>
 </url>
 <url>
