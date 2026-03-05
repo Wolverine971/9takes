@@ -43,7 +43,7 @@
 		display: flex;
 		gap: 2px;
 		margin-bottom: 20px;
-		border-bottom: 1px solid var(--border-color, #e2e8f0);
+		border-bottom: 1px solid var(--void-elevated);
 		padding-bottom: 0;
 		overflow-x: auto;
 		-webkit-overflow-scrolling: touch;
@@ -59,7 +59,7 @@
 		cursor: pointer;
 		font-size: 0.8125rem;
 		font-weight: 500;
-		color: var(--text-secondary, #64748b);
+		color: var(--text-secondary);
 		border-bottom: 2px solid transparent;
 		margin-bottom: -1px;
 		transition: all 0.15s ease;
@@ -73,12 +73,12 @@
 	}
 
 	.sub-nav-link:hover {
-		color: var(--text-primary, #1e293b);
+		color: var(--text-primary);
 	}
 
 	.sub-nav-link.active {
-		color: var(--primary, #6366f1);
-		border-bottom-color: var(--primary, #6366f1);
+		color: var(--shadow-monarch);
+		border-bottom-color: var(--shadow-monarch);
 	}
 
 	.consulting-content {

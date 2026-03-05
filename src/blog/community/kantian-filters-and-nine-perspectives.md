@@ -7,7 +7,7 @@ loc: 'https://9takes.com/community/kantian-filters-and-nine-perspectives'
 lastmod: '2026-03-04'
 changefreq: 'monthly'
 priority: '0.6'
-published: false
+published: true
 type: ['idea']
 blog: true
 previewHtml: 'A viral lecture on evil and Kant accidentally made the strongest case for perspective-taking.'
@@ -267,3 +267,32 @@ One situation. Nine ways to see it. The conspiracy isn't out there. It's the one
 
 <style lang="scss">
 </style>
+
+<!--
+## Reader Review Notes
+
+### What works well
+- The hook is strong. Tying into a 2M-view viral lecture gives the piece immediate relevance and curiosity pull.
+- The Kant filter explanation is genuinely accessible. "Your brain is a filter" lands better than most philosophy explainers.
+- The transgression vs. vulnerability comparison (Section 4) is the best section in the piece. The two models laid out side by side are clear and compelling.
+- The final line — "The conspiracy isn't out there. It's the one your own mind is running on you" — is a great closer.
+
+### What's overdone / could be trimmed
+- **Jiang's credentials paragraph is too long.** The second paragraph reads like a LinkedIn bio. A normal reader doesn't need to know he was a deputy principal at schools affiliated with both Peking AND Tsinghua, a Harvard researcher, a Fellow of the RSA, AND a WSJ/CNN contributor. Pick 2-3 that establish credibility and move on. Right now it stalls the momentum right after the hook.
+- **The "filters" thesis gets restated too many times.** The core idea (you see through filters, the Enneagram shows you other filters) appears in the intro, the Kant section, the "different question" section, the Geist section, and the conclusion. By the fourth time you're reading a variation of "we all see through filters," it starts feeling repetitive. Trust the reader to hold the concept — state it once powerfully and then build on it rather than re-establishing it.
+- **The 9takes About page quote (Section 6) feels self-referential.** Quoting your own About page in the middle of a philosophy essay breaks the voice. The diagnosis about social media isolation is valid but make the point in your own words here rather than citing yourself.
+
+### What feels like a stretch
+- **The Plato/Dante mapping to 9takes' mechanics (Section 3) is forced.** Calling the give-first mechanic "Dante's path of love" is a reach. Submitting your take before seeing others is a design pattern for reducing groupthink — calling it "vulnerability" and "authentic self-expression" and then equating that with Dante's theology of divine love is doing a lot of philosophical heavy lifting that the mechanic doesn't actually support. The connection is poetic but not rigorous, and it undercuts the credibility you build in the Kant section.
+- **The Geist / three-centers convergence (Section 5) is loose.** Plato's tripartite soul, Freud's id/ego/superego, and the triune brain model are not saying the same thing as the Enneagram's three centers. They share a superficial "three-part" structure but the contents don't map cleanly. If you're going to critique Jiang for being "evidentially thin," this section needs to be tighter or have a disclaimer.
+
+### What's missing
+- **You never link to the actual video.** You describe a 2M-view lecture but don't give the reader a way to watch it. This feels like an oversight — link the video title in the first paragraph so people can judge for themselves.
+- **No acknowledgment of the Enneagram's own evidence gap.** You call Jiang's framework "rhetorically strong but evidentially weak" and "self-sealing." But the Enneagram itself has limited empirical validation and faces similar critiques from psychologists. A single sentence acknowledging this ("The Enneagram isn't without its own evidence debates...") would make the piece feel more intellectually honest rather than selectively skeptical.
+- **The Type examples are only 8, 5, and 2.** You use the same three types for both the workplace conflict example and the blindspot example at the end. If the whole point is 9 perspectives, showing the same 3 twice reinforces the idea that you're only really thinking about a third of the system. Swap out one set for different types, or add a fourth example somewhere.
+
+### Tone check
+- "His own framework argues against his thesis. He just doesn't notice." — This line is a bit smug. You've been fair and even generous to Jiang throughout the piece. This sentence reads like a dunk. Consider softening it to something like "His own framework may point in a different direction than his thesis" — you can make the same point without the implied intellectual superiority.
+- The piece walks a line between philosophy essay and 9takes pitch. It mostly stays on the essay side, which is good. But sections 3, 4, and 6 all end with "and 9takes solves this." Three consecutive sections that resolve into product positioning is noticeable. Consider letting at least one section end with the philosophical insight without tying it back to the platform.
+-->
+

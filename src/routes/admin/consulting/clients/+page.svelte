@@ -365,8 +365,8 @@
 	.search-box input {
 		width: 100%;
 		padding: 0.5rem 0.75rem;
-		border: 1px solid var(--border-color);
-		border-radius: var(--border-radius);
+		border: 1px solid var(--void-elevated);
+		border-radius: 12px;
 		font-size: 0.875rem;
 	}
 
@@ -383,17 +383,17 @@
 
 	.filter-group select {
 		padding: 0.5rem 0.75rem;
-		border: 1px solid var(--border-color);
-		border-radius: var(--border-radius);
+		border: 1px solid var(--void-elevated);
+		border-radius: 12px;
 		font-size: 0.875rem;
-		background: var(--card-background);
+		background: var(--void-surface);
 	}
 
 	/* Table */
 	.clients-table-wrapper {
-		background: var(--card-background);
-		border: 1px solid var(--border-color);
-		border-radius: var(--border-radius);
+		background: var(--void-surface);
+		border: 1px solid var(--void-elevated);
+		border-radius: 12px;
 		overflow-x: auto;
 	}
 
@@ -410,17 +410,17 @@
 		color: var(--text-secondary);
 		font-size: 0.75rem;
 		text-transform: uppercase;
-		border-bottom: 1px solid var(--border-color);
-		background: var(--hover-background);
+		border-bottom: 1px solid var(--void-elevated);
+		background: var(--void-deep);
 	}
 
 	.clients-table td {
 		padding: 0.75rem;
-		border-bottom: 1px solid var(--border-color);
+		border-bottom: 1px solid var(--void-elevated);
 	}
 
 	.clients-table tbody tr:hover {
-		background: var(--hover-background);
+		background: var(--void-deep);
 	}
 
 	.client-cell {
@@ -430,7 +430,7 @@
 	.client-name {
 		display: block;
 		font-weight: 500;
-		color: var(--primary);
+		color: var(--shadow-monarch);
 		text-decoration: none;
 	}
 
@@ -518,7 +518,7 @@
 	}
 
 	.action-link {
-		color: var(--primary);
+		color: var(--shadow-monarch);
 		text-decoration: none;
 		font-size: 0.8rem;
 		margin-right: 0.75rem;
@@ -555,8 +555,8 @@
 	}
 
 	.modal {
-		background: var(--card-background);
-		border-radius: var(--border-radius);
+		background: var(--void-surface);
+		border-radius: 12px;
 		width: 100%;
 		max-width: 500px;
 		max-height: 90vh;
@@ -568,7 +568,7 @@
 		justify-content: space-between;
 		align-items: center;
 		padding: 1rem 1.5rem;
-		border-bottom: 1px solid var(--border-color);
+		border-bottom: 1px solid var(--void-elevated);
 	}
 
 	.modal-header h2 {
@@ -611,8 +611,8 @@
 	.form-group select,
 	.form-group textarea {
 		padding: 0.5rem 0.75rem;
-		border: 1px solid var(--border-color);
-		border-radius: var(--border-radius);
+		border: 1px solid var(--void-elevated);
+		border-radius: 12px;
 		font-size: 0.875rem;
 		font-family: inherit;
 	}
@@ -626,7 +626,7 @@
 		justify-content: flex-end;
 		gap: 0.75rem;
 		padding: 1rem 1.5rem;
-		border-top: 1px solid var(--border-color);
+		border-top: 1px solid var(--void-elevated);
 	}
 
 	/* Buttons */
@@ -636,7 +636,7 @@
 		justify-content: center;
 		padding: 0.5rem 1rem;
 		border: none;
-		border-radius: var(--border-radius);
+		border-radius: 12px;
 		font-size: 0.875rem;
 		font-weight: 500;
 		cursor: pointer;
@@ -644,13 +644,13 @@
 	}
 
 	.btn-primary {
-		background: var(--primary);
+		background: var(--shadow-monarch);
 		color: white;
 	}
 
 	.btn-secondary {
-		background: var(--background);
-		border: 1px solid var(--border-color);
+		background: var(--void-deep);
+		border: 1px solid var(--void-elevated);
 		color: var(--text-primary);
 	}
 

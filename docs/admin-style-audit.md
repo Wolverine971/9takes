@@ -107,54 +107,70 @@ Most other pages use an older, incompatible set with hardcoded light-mode fallba
 
 ### 7. `admin/comments/+page.svelte`
 
-- **Status:** NOT FIXED
-- **Issues:**
-  - Old token set with hardcoded hex fallbacks
-  - Hardcoded semantic colors (`#f59e0b`, `#ef4444`, `#10b981`, `#dc2626`)
-  - No dark mode awareness
-  - Legacy Svelte 4
+- **Status:** FIXED (2026-03-04)
+- **Changes:**
+  - `export let data` → `$props()`, state vars → `$state()`, `$:` → `$derived()`
+  - `on:click` → `onclick`, `on:change` → `onchange`
+  - Replaced `--card-background` → `--void-surface`, `--border-color` → `--void-elevated`
+  - Replaced `--primary` → `--shadow-monarch`, `--hover-background` → `--void-deep`
+  - Fixed `border-radius` → `12px`, removed hex fallbacks
+  - Note: Pre-existing `GenericStringError` type mismatches remain (not style-related)
 
 ### 8. `admin/users/+page.svelte`
 
-- **Status:** NOT FIXED
-- **Issues:**
-  - Old token set
-  - Hardcoded hover colors (`background: #2563eb`)
-  - Legacy Svelte 4
+- **Status:** FIXED (2026-03-04)
+- **Changes:**
+  - `export let data` → `$props()`, state vars → `$state()`
+  - `formattedProfiles` and `formattedSignups` → `$derived<>()` for proper reactivity
+  - `on:click` → `onclick`, `on:change` → `onchange`
+  - Replaced `--card-background` → `--void-surface`, `--border-color` → `--void-elevated`
+  - Replaced hardcoded `#2563eb` hover → `opacity: 0.85`
+  - Fixed `border-radius` → `12px`
 
 ### 9. `admin/questions/+page.svelte`
 
-- **Status:** NOT FIXED
-- **Issues:**
-  - Old token set
-  - Hardcoded action button colors
-  - Double-padding wrapper conflicts with layout
+- **Status:** FIXED (2026-03-04)
+- **Changes:**
+  - `export let data` → `$props()`, state vars → `$state()`, `$:` → `$derived()`
+  - `on:click` → `onclick` (kept `on:questionRemoved` for dispatcher-based component)
+  - Replaced old tokens → `--void-*` tokens, `--primary` → `--shadow-monarch`
+  - Fixed `border-radius` → `12px`, removed hex fallbacks
 
 ### 10. `admin/questions/hierarchy/+page.svelte`
 
-- **Status:** NOT FIXED
-- **Issues:**
-  - Old token set with hex fallbacks
-  - Double-padding wrapper
+- **Status:** FIXED (2026-03-04)
+- **Changes:**
+  - `export let data` → `$props()`, `let categories` → `$derived(data.categories)`
+  - `on:click` → `onclick`
+  - Replaced old tokens → `--void-*` tokens
+  - Fixed `border-radius` → `12px`, removed hex fallbacks
 
 ### 11. `admin/email-dashboard/+page.svelte`
 
-- **Status:** NOT FIXED
-- **Issues:**
-  - Old token set
-  - Inline box-shadow with raw `rgba()` values
-  - No dark mode intent
-  - Legacy Svelte 4
+- **Status:** FIXED (2026-03-04)
+- **Changes:**
+  - `export let data` → `$props()`, ~40 state vars → `$state()`
+  - `on:click` → `onclick`, `on:change` → `onchange`, `on:input` → `oninput`
+  - `on:click|self` → manual `e.target === e.currentTarget` check
+  - Replaced `--card-background` → `--void-surface`, `--border-color` → `--void-elevated`
+  - Replaced `--background` → `--void-deep`, `--primary` → `--shadow-monarch`
+  - Replaced raw box-shadow → `var(--glow-md)`
+  - `var(--success)` → `#22c55e`, `var(--text-tertiary)` → `var(--text-secondary)`
+  - `var(--primary-dark, #5b4cdb)` hover → `opacity: 0.85`
 
 ### 12. `admin/consulting/*` (layout + all sub-pages)
 
-- **Status:** NOT FIXED
-- **Files:** `+layout.svelte`, `+page.svelte`, `clients/+page.svelte`, `clients/[id]/+page.svelte`, `sessions/+page.svelte`, `resources/+page.svelte`, `resources/[slug]/+page.svelte`
-- **Issues:**
-  - All use old token set
-  - Reference undefined `--border-radius` token
-  - Hardcode colors like `#6366f1` instead of tokens
-  - Legacy Svelte 4 patterns throughout
+- **Status:** FIXED (2026-03-04)
+- **Files:** `+layout.svelte`, `+page.svelte`, `clients/+page.svelte`, `clients/[id]/+page.svelte`, `sessions/+page.svelte`, `sessions/[id]/+page.svelte`, `resources/+page.svelte`, `resources/[slug]/+page.svelte`
+- **Changes:**
+  - All 8 files: `export let` → `$props()`, state vars → `$state()`, `$:` → `$derived()`
+  - `on:click` → `onclick`, `on:change` → `onchange`, `on:input` → `oninput`
+  - `on:click|self` → manual self-check (5 instances across files)
+  - Kept `on:send`/`on:close` for `EmailComposeModal` (uses `createEventDispatcher`)
+  - Replaced `--card-background` → `--void-surface`, `--border-color` → `--void-elevated`
+  - Replaced `--border-radius` → `12px`, `--primary` → `--shadow-monarch`
+  - Replaced `--background` → `--void-deep`, `--hover-background` → `--void-deep`
+  - Removed all hex fallbacks (`#e2e8f0`, `#64748b`, `#1e293b`, `#6366f1`)
 
 ---
 

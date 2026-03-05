@@ -159,9 +159,9 @@
 
 	/* Section Cards */
 	.section-card {
-		background: var(--card-background);
-		border: 1px solid var(--border-color);
-		border-radius: var(--border-radius);
+		background: var(--void-surface);
+		border: 1px solid var(--void-elevated);
+		border-radius: 12px;
 		padding: 1.25rem;
 		margin-bottom: 1rem;
 	}
@@ -194,15 +194,15 @@
 		display: flex;
 		gap: 0.75rem;
 		padding: 1rem;
-		background: var(--card-background);
-		border: 1px solid var(--border-color);
-		border-radius: var(--border-radius);
+		background: var(--void-surface);
+		border: 1px solid var(--void-elevated);
+		border-radius: 12px;
 		text-decoration: none;
 		transition: all 0.2s;
 	}
 
 	.pinned-card:hover {
-		border-color: var(--primary);
+		border-color: var(--shadow-monarch);
 		box-shadow: 0 2px 8px rgba(99, 102, 241, 0.15);
 	}
 
@@ -229,7 +229,7 @@
 		align-items: flex-start;
 		margin-bottom: 1rem;
 		padding-bottom: 0.75rem;
-		border-bottom: 1px solid var(--border-color);
+		border-bottom: 1px solid var(--void-elevated);
 	}
 
 	.category-icon {
@@ -258,7 +258,7 @@
 		justify-content: space-between;
 		align-items: center;
 		padding: 0.75rem;
-		background: var(--hover-background);
+		background: var(--void-deep);
 		border-radius: 6px;
 		text-decoration: none;
 		transition: all 0.2s;
@@ -281,7 +281,7 @@
 	}
 
 	.resource-arrow {
-		color: var(--primary);
+		color: var(--shadow-monarch);
 		font-size: 1rem;
 	}
 
@@ -295,7 +295,7 @@
 	.blog-link {
 		display: block;
 		padding: 0.75rem;
-		background: var(--hover-background);
+		background: var(--void-deep);
 		border-radius: 6px;
 		text-decoration: none;
 		transition: all 0.2s;
@@ -309,7 +309,7 @@
 		display: block;
 		font-weight: 500;
 		font-size: 0.85rem;
-		color: var(--primary);
+		color: var(--shadow-monarch);
 		margin-bottom: 0.125rem;
 	}
 
@@ -322,9 +322,9 @@
 	.empty-state {
 		text-align: center;
 		padding: 2rem;
-		background: var(--card-background);
-		border: 1px solid var(--border-color);
-		border-radius: var(--border-radius);
+		background: var(--void-surface);
+		border: 1px solid var(--void-elevated);
+		border-radius: 12px;
 		color: var(--text-secondary);
 	}
 

@@ -633,7 +633,7 @@
 
 	.back-link:hover,
 	.client-link:hover {
-		color: var(--primary);
+		color: var(--shadow-monarch);
 	}
 
 	.header-main {
@@ -694,9 +694,9 @@
 
 	/* Section Cards */
 	.section-card {
-		background: var(--card-background);
-		border: 1px solid var(--border-color);
-		border-radius: var(--border-radius);
+		background: var(--void-surface);
+		border: 1px solid var(--void-elevated);
+		border-radius: 12px;
 		padding: 1rem;
 		margin-bottom: 1rem;
 	}
@@ -726,7 +726,7 @@
 
 	.prep-progress {
 		font-size: 0.75rem;
-		color: var(--primary);
+		color: var(--shadow-monarch);
 		font-weight: 500;
 	}
 
@@ -741,14 +741,14 @@
 		align-items: center;
 		gap: 0.75rem;
 		padding: 0.5rem;
-		background: var(--card-background);
+		background: var(--void-surface);
 		border-radius: 6px;
 		cursor: pointer;
 		transition: all 0.2s;
 	}
 
 	.prep-item:hover {
-		background: var(--hover-background);
+		background: var(--void-deep);
 	}
 
 	.prep-item.checked {
@@ -779,13 +779,13 @@
 
 	.context-item {
 		padding: 0.5rem;
-		background: var(--hover-background);
+		background: var(--void-deep);
 		border-radius: 6px;
 	}
 
 	.context-item.highlight {
 		background: rgba(99, 102, 241, 0.1);
-		border-left: 3px solid var(--primary);
+		border-left: 3px solid var(--shadow-monarch);
 	}
 
 	.context-label {
@@ -812,9 +812,9 @@
 
 	.prev-session-item {
 		padding: 0.75rem;
-		background: var(--hover-background);
+		background: var(--void-deep);
 		border-radius: 6px;
-		border-left: 3px solid var(--border-color);
+		border-left: 3px solid var(--void-elevated);
 	}
 
 	.prev-session-header {
@@ -842,7 +842,7 @@
 
 	.prev-session-next {
 		font-size: 0.8rem;
-		color: var(--primary);
+		color: var(--shadow-monarch);
 		margin-bottom: 0.5rem;
 	}
 
@@ -865,7 +865,7 @@
 
 	/* Notes Section */
 	.notes-section {
-		border: 2px solid var(--primary);
+		border: 2px solid var(--shadow-monarch);
 	}
 
 	.note-count {
@@ -876,7 +876,7 @@
 	.quick-note-form {
 		margin-bottom: 1rem;
 		padding-bottom: 1rem;
-		border-bottom: 1px solid var(--border-color);
+		border-bottom: 1px solid var(--void-elevated);
 	}
 
 	.note-type-selector {
@@ -891,8 +891,8 @@
 		align-items: center;
 		gap: 0.25rem;
 		padding: 0.25rem 0.5rem;
-		background: var(--hover-background);
-		border: 1px solid var(--border-color);
+		background: var(--void-deep);
+		border: 1px solid var(--void-elevated);
 		border-radius: 4px;
 		cursor: pointer;
 		font-size: 0.75rem;
@@ -904,9 +904,9 @@
 	}
 
 	.note-type-option.selected {
-		background: var(--primary);
+		background: var(--shadow-monarch);
 		color: white;
-		border-color: var(--primary);
+		border-color: var(--shadow-monarch);
 	}
 
 	.note-type-icon {
@@ -917,8 +917,8 @@
 	.note-content-input {
 		width: 100%;
 		padding: 0.5rem 0.75rem;
-		border: 1px solid var(--border-color);
-		border-radius: var(--border-radius);
+		border: 1px solid var(--void-elevated);
+		border-radius: 12px;
 		font-size: 0.875rem;
 		font-family: inherit;
 		margin-bottom: 0.5rem;
@@ -937,9 +937,9 @@
 
 	.note-item {
 		padding: 0.75rem;
-		background: var(--hover-background);
+		background: var(--void-deep);
 		border-radius: 6px;
-		border-left: 3px solid var(--border-color);
+		border-left: 3px solid var(--void-elevated);
 	}
 
 	.note-observation {
@@ -1006,7 +1006,7 @@
 
 	.type-name {
 		font-size: 0.75rem;
-		color: var(--primary);
+		color: var(--shadow-monarch);
 	}
 
 	.type-core {
@@ -1121,8 +1121,8 @@
 		width: 100%;
 		text-align: left;
 		padding: 0.625rem;
-		background: var(--hover-background);
-		border: 1px solid var(--border-color);
+		background: var(--void-deep);
+		border: 1px solid var(--void-elevated);
 		border-radius: 6px;
 		cursor: pointer;
 		transition: all 0.2s;
@@ -1130,7 +1130,7 @@
 
 	.question-item:hover {
 		background: rgba(99, 102, 241, 0.1);
-		border-color: var(--primary);
+		border-color: var(--shadow-monarch);
 	}
 
 	.question-text {
@@ -1187,7 +1187,7 @@
 
 	.quick-link {
 		font-size: 0.8rem;
-		color: var(--primary);
+		color: var(--shadow-monarch);
 		text-decoration: none;
 		padding: 0.375rem;
 		border-radius: 4px;
@@ -1203,7 +1203,7 @@
 	}
 
 	.empty-type a {
-		color: var(--primary);
+		color: var(--shadow-monarch);
 	}
 
 	/* Buttons */
@@ -1213,7 +1213,7 @@
 		justify-content: center;
 		padding: 0.5rem 1rem;
 		border: none;
-		border-radius: var(--border-radius);
+		border-radius: 12px;
 		font-size: 0.875rem;
 		font-weight: 500;
 		cursor: pointer;
@@ -1227,7 +1227,7 @@
 	}
 
 	.btn-primary {
-		background: var(--primary);
+		background: var(--shadow-monarch);
 		color: white;
 	}
 
@@ -1237,8 +1237,8 @@
 	}
 
 	.btn-secondary {
-		background: var(--hover-background);
-		border: 1px solid var(--border-color);
+		background: var(--void-deep);
+		border: 1px solid var(--void-elevated);
 		color: var(--text-primary);
 	}
 
@@ -1258,8 +1258,8 @@
 	}
 
 	.modal {
-		background: var(--card-background);
-		border-radius: var(--border-radius);
+		background: var(--void-surface);
+		border-radius: 12px;
 		width: 100%;
 		max-width: 550px;
 		max-height: 90vh;
@@ -1271,7 +1271,7 @@
 		justify-content: space-between;
 		align-items: center;
 		padding: 1rem;
-		border-bottom: 1px solid var(--border-color);
+		border-bottom: 1px solid var(--void-elevated);
 	}
 
 	.modal-header h2 {
@@ -1296,7 +1296,7 @@
 		justify-content: flex-end;
 		gap: 0.5rem;
 		padding: 1rem;
-		border-top: 1px solid var(--border-color);
+		border-top: 1px solid var(--void-elevated);
 	}
 
 	.form-group {
@@ -1313,8 +1313,8 @@
 	.form-group textarea {
 		width: 100%;
 		padding: 0.5rem 0.75rem;
-		border: 1px solid var(--border-color);
-		border-radius: var(--border-radius);
+		border: 1px solid var(--void-elevated);
+		border-radius: 12px;
 		font-size: 0.875rem;
 		font-family: inherit;
 		resize: vertical;

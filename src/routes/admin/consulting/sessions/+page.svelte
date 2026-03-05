@@ -207,21 +207,21 @@
 	.stat-btn {
 		flex: 1;
 		padding: 0.75rem;
-		background: var(--card-background);
-		border: 1px solid var(--border-color);
-		border-radius: var(--border-radius);
+		background: var(--void-surface);
+		border: 1px solid var(--void-elevated);
+		border-radius: 12px;
 		cursor: pointer;
 		text-align: center;
 		transition: all 0.2s;
 	}
 
 	.stat-btn:hover {
-		border-color: var(--primary);
+		border-color: var(--shadow-monarch);
 	}
 
 	.stat-btn.active {
 		background: rgba(99, 102, 241, 0.1);
-		border-color: var(--primary);
+		border-color: var(--shadow-monarch);
 	}
 
 	.stat-num {
@@ -256,10 +256,10 @@
 
 	.filter-group select {
 		padding: 0.5rem 0.75rem;
-		border: 1px solid var(--border-color);
-		border-radius: var(--border-radius);
+		border: 1px solid var(--void-elevated);
+		border-radius: 12px;
 		font-size: 0.875rem;
-		background: var(--card-background);
+		background: var(--void-surface);
 	}
 
 	/* Sessions List */
@@ -274,9 +274,9 @@
 		align-items: center;
 		gap: 1.5rem;
 		padding: 1rem;
-		background: var(--card-background);
-		border: 1px solid var(--border-color);
-		border-radius: var(--border-radius);
+		background: var(--void-surface);
+		border: 1px solid var(--void-elevated);
+		border-radius: 12px;
 	}
 
 	.session-card.today {
@@ -297,7 +297,7 @@
 	}
 
 	.session-date.highlight {
-		color: var(--primary);
+		color: var(--shadow-monarch);
 	}
 
 	.session-time {
@@ -323,7 +323,7 @@
 	}
 
 	.client-name:hover {
-		color: var(--primary);
+		color: var(--shadow-monarch);
 	}
 
 	.type-badge {
@@ -390,9 +390,9 @@
 	.empty-state {
 		text-align: center;
 		padding: 3rem;
-		background: var(--card-background);
-		border: 1px solid var(--border-color);
-		border-radius: var(--border-radius);
+		background: var(--void-surface);
+		border: 1px solid var(--void-elevated);
+		border-radius: 12px;
 	}
 
 	.empty-state p {
@@ -407,7 +407,7 @@
 		justify-content: center;
 		padding: 0.5rem 1rem;
 		border: none;
-		border-radius: var(--border-radius);
+		border-radius: 12px;
 		font-size: 0.875rem;
 		font-weight: 500;
 		cursor: pointer;
@@ -420,13 +420,13 @@
 	}
 
 	.btn-primary {
-		background: var(--primary);
+		background: var(--shadow-monarch);
 		color: white;
 	}
 
 	.btn-secondary {
-		background: var(--background);
-		border: 1px solid var(--border-color);
+		background: var(--void-deep);
+		border: 1px solid var(--void-elevated);
 		color: var(--text-primary);
 	}
 

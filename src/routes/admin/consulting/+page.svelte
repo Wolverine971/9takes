@@ -125,7 +125,7 @@
 	];
 
 	// Handle promote action
-	let promotingId: number | null = null;
+	let promotingId = $state<number | null>(null);
 
 	// Keyboard handler for waitlist table rows
 	function handleRowKeydown(event: KeyboardEvent, entry: any) {
@@ -997,8 +997,8 @@
 	recipients={emailRecipients}
 	initialSubject={emailSubject}
 	initialContent={emailContent}
-	onsend={handleEmailSent}
-	onclose={() => (showEmailModal = false)}
+	on:send={handleEmailSent}
+	on:close={() => (showEmailModal = false)}
 />
 
 <style>

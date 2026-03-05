@@ -827,7 +827,7 @@
 	}
 
 	.back-link:hover {
-		color: var(--primary);
+		color: var(--shadow-monarch);
 	}
 
 	.page-header h1 {
@@ -849,9 +849,9 @@
 
 	/* Section Cards */
 	.section-card {
-		background: var(--card-background);
-		border: 1px solid var(--border-color);
-		border-radius: var(--border-radius);
+		background: var(--void-surface);
+		border: 1px solid var(--void-elevated);
+		border-radius: 12px;
 		padding: 1rem;
 		margin-bottom: 1rem;
 	}
@@ -1046,7 +1046,7 @@
 	.intake-link-section {
 		margin-top: 0.75rem;
 		padding: 0.75rem;
-		background: var(--hover-background);
+		background: var(--void-deep);
 		border-radius: 6px;
 	}
 
@@ -1065,8 +1065,8 @@
 	.intake-link {
 		flex: 1;
 		padding: 0.375rem 0.5rem;
-		background: var(--background);
-		border: 1px solid var(--border-color);
+		background: var(--void-deep);
+		border: 1px solid var(--void-elevated);
 		border-radius: 4px;
 		font-size: 0.75rem;
 		overflow: hidden;
@@ -1104,7 +1104,7 @@
 		align-items: center;
 		gap: 1rem;
 		padding: 0.5rem;
-		background: var(--hover-background);
+		background: var(--void-deep);
 		border-radius: 6px;
 	}
 
@@ -1154,7 +1154,7 @@
 
 	.session-link {
 		font-size: 0.75rem;
-		color: var(--primary);
+		color: var(--shadow-monarch);
 		text-decoration: none;
 	}
 
@@ -1167,9 +1167,9 @@
 
 	.note-item {
 		padding: 0.75rem;
-		background: var(--hover-background);
+		background: var(--void-deep);
 		border-radius: 6px;
-		border-left: 3px solid var(--border-color);
+		border-left: 3px solid var(--void-elevated);
 	}
 
 	.note-observation {
@@ -1234,8 +1234,8 @@
 		width: 100%;
 		padding: 0.5rem;
 		text-align: center;
-		background: var(--hover-background);
-		border: 1px solid var(--border-color);
+		background: var(--void-deep);
+		border: 1px solid var(--void-elevated);
 		border-radius: 6px;
 		color: var(--text-primary);
 		text-decoration: none;
@@ -1245,13 +1245,13 @@
 
 	.action-btn:hover {
 		background: rgba(99, 102, 241, 0.1);
-		border-color: var(--primary);
+		border-color: var(--shadow-monarch);
 	}
 
 	.action-btn.email-btn {
-		background: var(--primary);
+		background: var(--shadow-monarch);
 		color: white;
-		border-color: var(--primary);
+		border-color: var(--shadow-monarch);
 	}
 
 	.action-btn.email-btn:hover {
@@ -1284,7 +1284,7 @@
 
 	.ref-link {
 		font-size: 0.8rem;
-		color: var(--primary);
+		color: var(--shadow-monarch);
 		text-decoration: none;
 	}
 
@@ -1326,8 +1326,8 @@
 	.form-group select,
 	.form-group textarea {
 		padding: 0.5rem 0.75rem;
-		border: 1px solid var(--border-color);
-		border-radius: var(--border-radius);
+		border: 1px solid var(--void-elevated);
+		border-radius: 12px;
 		font-size: 0.875rem;
 		font-family: inherit;
 	}
@@ -1335,7 +1335,7 @@
 	.form-footer {
 		margin-top: 1rem;
 		padding-top: 1rem;
-		border-top: 1px solid var(--border-color);
+		border-top: 1px solid var(--void-elevated);
 	}
 
 	.form-row {
@@ -1351,7 +1351,7 @@
 		justify-content: center;
 		padding: 0.5rem 1rem;
 		border: none;
-		border-radius: var(--border-radius);
+		border-radius: 12px;
 		font-size: 0.875rem;
 		font-weight: 500;
 		cursor: pointer;
@@ -1364,13 +1364,13 @@
 	}
 
 	.btn-primary {
-		background: var(--primary);
+		background: var(--shadow-monarch);
 		color: white;
 	}
 
 	.btn-secondary {
-		background: var(--background);
-		border: 1px solid var(--border-color);
+		background: var(--void-deep);
+		border: 1px solid var(--void-elevated);
 		color: var(--text-primary);
 	}
 
@@ -1395,8 +1395,8 @@
 	}
 
 	.modal {
-		background: var(--card-background);
-		border-radius: var(--border-radius);
+		background: var(--void-surface);
+		border-radius: 12px;
 		width: 100%;
 		max-width: 450px;
 	}
@@ -1406,7 +1406,7 @@
 		justify-content: space-between;
 		align-items: center;
 		padding: 1rem;
-		border-bottom: 1px solid var(--border-color);
+		border-bottom: 1px solid var(--void-elevated);
 	}
 
 	.modal-header h2 {
@@ -1434,7 +1434,7 @@
 		justify-content: flex-end;
 		gap: 0.5rem;
 		padding: 1rem;
-		border-top: 1px solid var(--border-color);
+		border-top: 1px solid var(--void-elevated);
 	}
 
 	@media (max-width: 768px) {
