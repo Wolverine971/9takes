@@ -210,8 +210,8 @@
 		type: 'image/png' as const,
 		margin: 1,
 		color: {
-			dark: '',
-			light: '#c1c0c036'
+			dark: '#a78bfa',
+			light: '#12121a'
 		}
 	};
 
@@ -739,6 +739,7 @@
 <style>
 	.question-page-container {
 		position: relative;
+		overflow-x: hidden;
 	}
 
 	/* Gradient transition zone: ethereal particle space fades into content area */

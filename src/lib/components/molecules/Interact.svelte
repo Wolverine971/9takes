@@ -452,44 +452,19 @@
 
 <!-- QR Code Modal -->
 <Modal2 id="qr-modal">
-	<div class="mx-auto flex max-w-md flex-col items-center p-8 text-center sm:p-6">
-		<div class="mb-6 flex h-14 w-14 items-center justify-center rounded-2xl bg-purple-900/30">
-			<svg class="h-7 w-7 text-purple-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-				<path
-					stroke-linecap="round"
-					stroke-linejoin="round"
-					stroke-width="2"
-					d="M8.684 13.342C8.886 12.938 9 12.482 9 12c0-.482-.114-.938-.316-1.342m0 2.684a3 3 0 110-2.684m9.632 4.684C18.886 16.938 19 17.482 19 18c0 .482-.114.938-.316 1.342m0-2.684a3 3 0 110 2.684M15 12a3 3 0 11-6 0 3 3 0 016 0zm6 0a9 9 0 11-18 0 9 9 0 0118 0z"
-				/>
-			</svg>
+	<div class="mx-auto flex max-w-sm flex-col items-center py-2 text-center">
+		<h2 class="mb-1 text-xl font-semibold text-slate-100">Share This Question</h2>
+		<p class="mb-5 text-sm text-slate-400">Scan the QR code to share with others</p>
+
+		<div class="mb-5 rounded-2xl border border-purple-500/20 bg-[#12121a] p-4">
+			<img
+				src={qrCodeUrl}
+				alt="Share question QR code"
+				class="h-[180px] w-[180px]"
+			/>
 		</div>
 
-		<h2 class="mb-2 text-2xl font-semibold text-slate-100">Share This Question</h2>
-		<p class="mb-8 text-sm text-slate-400">Scan the QR code to share with others</p>
-
-		<div
-			class="mb-8 rounded-3xl bg-gradient-to-b from-[#252538] to-[#1a1a2e] p-6 shadow-[0_0_20px_rgba(124,58,237,0.15)]"
-		>
-			<div class="rounded-2xl bg-[#12121a] p-4 shadow-sm">
-				<img
-					src={qrCodeUrl}
-					alt="Share question QR code"
-					class="h-[200px] w-[200px] sm:h-[160px] sm:w-[160px]"
-				/>
-			</div>
-		</div>
-
-		<div class="flex items-center gap-2 text-xs text-slate-500">
-			<svg class="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-				<path
-					stroke-linecap="round"
-					stroke-linejoin="round"
-					stroke-width="2"
-					d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197M13 7a4 4 0 11-8 0 4 4 0 018 0z"
-				/>
-			</svg>
-			<span>Share and explore different perspectives</span>
-		</div>
+		<p class="text-xs text-slate-500">Share and explore different perspectives</p>
 	</div>
 </Modal2>
 
