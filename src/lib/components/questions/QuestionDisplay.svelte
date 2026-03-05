@@ -157,7 +157,7 @@
 </script>
 
 <div
-	class="question-display-card relative overflow-hidden rounded-2xl border border-purple-500/15 bg-[#1a1a2e]/70 p-8 shadow-[0_0_30px_rgba(124,58,237,0.15)] backdrop-blur-md sm:p-6"
+	class="question-display-card relative overflow-hidden rounded-2xl border border-purple-500/15 bg-[#1a1a2e]/70 px-4 py-6 shadow-[0_0_30px_rgba(124,58,237,0.15)] backdrop-blur-md sm:p-6"
 >
 	<h1
 		class="relative m-0 w-full text-center font-bold leading-snug text-slate-100 drop-shadow-[0_0_12px_rgba(124,58,237,0.15)]"
@@ -168,15 +168,6 @@
 		{#if !question.question_formatted && addQuestionMark}?{/if}
 	</h1>
 
-	{#if innerWidth <= 576 && qrCodeUrl}
-		<div class="mt-6 flex justify-center">
-			<img
-				src={qrCodeUrl}
-				alt="Share this question"
-				class="h-20 w-20 rounded-lg border border-slate-600 bg-[#12121a] p-2"
-			/>
-		</div>
-	{/if}
 </div>
 
 <style>

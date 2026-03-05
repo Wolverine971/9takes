@@ -361,7 +361,7 @@
 				</span>
 			</button>
 
-			{#if qrCodeUrl && innerWidth > 576}
+			{#if qrCodeUrl}
 				<button
 					title="Share via QR Code"
 					class="flex items-center justify-center gap-2 rounded-lg border border-slate-600/40 bg-[#1a1a2e]/60 px-5 py-2.5 text-sm font-medium text-slate-300 backdrop-blur-sm transition-all duration-200 hover:bg-[#252538]/80 active:scale-[0.98]"

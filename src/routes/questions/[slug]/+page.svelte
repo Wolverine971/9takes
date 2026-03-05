@@ -504,7 +504,7 @@
 	{twitterImageAlt}
 />
 
-<div class="question-page-container mx-auto w-full max-w-6xl px-4 pb-12 sm:px-6 lg:px-8">
+<div class="question-page-container mx-auto w-full max-w-6xl px-1 pb-12 sm:px-6 lg:px-8">
 	<article itemscope itemtype="https://schema.org/QAPage">
 		<!-- Question Display -->
 		<div class="mb-6">
