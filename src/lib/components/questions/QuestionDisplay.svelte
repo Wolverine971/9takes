@@ -1,7 +1,5 @@
 <!-- src/lib/components/questions/QuestionDisplay.svelte -->
 <script lang="ts">
-	import { onMount } from 'svelte';
-	import QRCode from 'qrcode';
 	import { viewportWidth } from '$lib/stores/viewport';
 
 	export let question: {
@@ -12,21 +10,8 @@
 	};
 	export let addQuestionMark = false;
 
-	let qrCodeUrl = '';
-
 	// Use shared viewport store
 	$: innerWidth = $viewportWidth;
-
-	// QR Code options - Solo Leveling dark theme
-	const QR_OPTS = {
-		errorCorrectionLevel: 'H',
-		type: 'image/png',
-		margin: 1,
-		color: {
-			dark: '#a78bfa', // Purple-400 for dark theme
-			light: '#12121a' // Void background
-		}
-	};
 
 	// Dynamically calculate font size based on text length
 	$: fontSize = question.question ? calculateFontSize(question.question) : '2rem';
@@ -145,15 +130,6 @@
 		// Default size for very long text
 		return innerWidth > 500 ? '1rem' : '0.8rem';
 	}
-
-	// Generate QR code on mount
-	onMount(() => {
-		if (question.url) {
-			QRCode.toDataURL(`https://9takes.com/questions/${question.url}`, QR_OPTS)
-				.then((url) => (qrCodeUrl = url))
-				.catch((err) => console.error('QR Code generation failed:', err));
-		}
-	});
 </script>
 
 <div
@@ -167,7 +143,6 @@
 		{question.question_formatted || question.question}
 		{#if !question.question_formatted && addQuestionMark}?{/if}
 	</h1>
-
 </div>
 
 <style>

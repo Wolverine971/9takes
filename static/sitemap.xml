@@ -3347,12 +3347,6 @@
     <priority>0.7</priority>
 </url>
 <url>
-    <loc>https://9takes.com/questions/what-would-it-take-for-you-to-change-your-mind-politically</loc>
-    <lastmod>2024-07-17T20:08:48.094Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-</url>
-<url>
     <loc>https://9takes.com/questions/i-need-date-ideas</loc>
     <lastmod>2023-10-12T03:40:26.069Z</lastmod>
     <changefreq>weekly</changefreq>
@@ -3385,6 +3379,12 @@
 <url>
     <loc>https://9takes.com/questions/whats-your-biggest-fear</loc>
     <lastmod>2023-12-03T02:55:25.796Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+</url>
+<url>
+    <loc>https://9takes.com/questions/what-would-it-take-for-you-to-change-your-mind-politically</loc>
+    <lastmod>2024-07-17T20:08:48.094Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
 </url>
@@ -3569,14 +3569,14 @@
     <priority>0.7</priority>
 </url>
 <url>
-    <loc>https://9takes.com/questions/how-do-you-handle-stress</loc>
-    <lastmod>2024-06-05T05:02:18.527Z</lastmod>
+    <loc>https://9takes.com/questions/think-real-objective-us-war-iran-public-isnt-told</loc>
+    <lastmod>2026-03-04T18:47:47.896Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
 </url>
 <url>
-    <loc>https://9takes.com/questions/think-real-objective-us-war-iran-public-isnt-told</loc>
-    <lastmod>2026-03-04T18:47:47.896Z</lastmod>
+    <loc>https://9takes.com/questions/how-do-you-handle-stress</loc>
+    <lastmod>2024-06-05T05:02:18.527Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
 </url>

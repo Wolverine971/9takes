@@ -229,27 +229,52 @@
 		</div>
 	</div>
 
-	<!-- Enneagram overlay - always rendered, visibility controlled by CSS -->
+	<!-- Enneagram overlay - tech spec analysis HUD -->
 	{#if enneagramType && enneagramType > 0 && enneagramType <= 9}
 		<div class="enneagram-overlay" class:enneagram-overlay--visible={showDescription}>
-			<div class="enneagram-info">
+			<div class="spec-hud">
+				<div class="spec-hud__corner spec-hud__corner--tl"></div>
+				<div class="spec-hud__corner spec-hud__corner--tr"></div>
+				<div class="spec-hud__corner spec-hud__corner--bl"></div>
+				<div class="spec-hud__corner spec-hud__corner--br"></div>
+
+				<div class="spec-hud__header">
+					<span class="spec-hud__label">SUBJECT ANALYSIS</span>
+					<span class="spec-hud__type-badge">TYPE {enneagramType}</span>
+				</div>
+
 				{#if subtext}
-					<p class="enneagram-info__persona">{subtext}</p>
+					<div class="spec-hud__row">
+						<span class="spec-hud__key">DESIGNATION</span>
+						<span class="spec-hud__val">{subtext}</span>
+					</div>
 				{/if}
-				<h2 class="enneagram-info__title">{enneagramTypes[enneagramType - 1].EnneagramType}</h2>
-				<p class="enneagram-info__detail">
-					<b>Motivation:</b>
-					{enneagramTypes[enneagramType - 1].CoreMotivation}
-				</p>
-				<p class="enneagram-info__detail">
-					<b>Fear:</b>
-					{enneagramTypes[enneagramType - 1].CoreFear}
-				</p>
-				<p class="enneagram-info__detail enneagram-info__stance">
-					<b>Core {enneagramTypes[enneagramType - 1].CoreEmotion}:</b>
-					{enneagramTypes[enneagramType - 1].EmotionalStance}
-				</p>
+
+				<div class="spec-hud__row">
+					<span class="spec-hud__key">CLASS</span>
+					<span class="spec-hud__val">{enneagramTypes[enneagramType - 1].EnneagramType.split(' - ')[1]}</span>
+				</div>
+
+				<div class="spec-hud__divider"></div>
+
+				<div class="spec-hud__row">
+					<span class="spec-hud__key">CORE DRIVE</span>
+					<span class="spec-hud__val">{enneagramTypes[enneagramType - 1].CoreMotivation}</span>
+				</div>
+
+				<div class="spec-hud__row">
+					<span class="spec-hud__key">CORE FEAR</span>
+					<span class="spec-hud__val">{enneagramTypes[enneagramType - 1].CoreFear}</span>
+				</div>
+
+				<div class="spec-hud__divider"></div>
+
+				<div class="spec-hud__row spec-hud__row--highlight">
+					<span class="spec-hud__key">{enneagramTypes[enneagramType - 1].CoreEmotion.toUpperCase()}</span>
+					<span class="spec-hud__val">{enneagramTypes[enneagramType - 1].EmotionalStance}</span>
+				</div>
 			</div>
+			<div class="spec-hud__scanlines"></div>
 		</div>
 	{/if}
 </div>
@@ -276,34 +301,49 @@
 		align-items: center;
 		justify-content: center;
 		border-radius: inherit;
-		// Start hidden
 		opacity: 0;
 		backdrop-filter: blur(0);
+		background: rgba(0, 0, 0, 0);
 		transition:
 			opacity 0.3s ease,
-			backdrop-filter 0.4s ease;
+			backdrop-filter 0.4s ease,
+			background 0.4s ease;
 		pointer-events: none;
 
-		// Text panel starts translated down
-		.enneagram-info {
-			transform: translateY(30px);
+		.spec-hud {
+			transform: translateY(20px);
 			opacity: 0;
 			transition:
-				transform 0.4s ease 0.15s,
-				opacity 0.4s ease 0.15s;
+				transform 0.35s ease 0.1s,
+				opacity 0.35s ease 0.1s;
 		}
 
-		// Visible state on hover
 		&--visible {
 			opacity: 1;
-			backdrop-filter: blur(12px);
+			backdrop-filter: blur(6px);
+			background: rgba(0, 5, 15, 0.7);
 			pointer-events: auto;
 
-			.enneagram-info {
+			.spec-hud {
 				transform: translateY(0);
 				opacity: 1;
 			}
 		}
+	}
+
+	// Scanline effect over entire overlay
+	.spec-hud__scanlines {
+		position: absolute;
+		inset: 0;
+		pointer-events: none;
+		background: repeating-linear-gradient(
+			0deg,
+			transparent,
+			transparent 2px,
+			rgba(255, 255, 255, 0.015) 2px,
+			rgba(255, 255, 255, 0.015) 4px
+		);
+		border-radius: inherit;
 	}
 
 	// Content positioning overrides
@@ -346,52 +386,102 @@
 		border-radius: 0.75rem;
 	}
 
-	// Enneagram info panel - white text, high contrast
-	.enneagram-info {
-		@include glass(0.5, 10px, 0.3);
-		color: white;
-		text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8);
-		text-wrap: balance;
-		font-weight: 600;
-		border-radius: 1rem;
-		padding: 1.5rem;
+	// Tech spec HUD panel
+	.spec-hud {
+		position: relative;
+		font-family: 'SF Mono', 'Fira Code', 'Cascadia Code', 'Consolas', monospace;
+		color: rgba(255, 255, 255, 0.9);
+		padding: 1.25rem 1.5rem;
 		margin: 1rem;
-		max-width: 90%;
-		text-align: center;
+		max-width: 92%;
+		text-align: left;
+		border: 1px solid rgba(124, 58, 237, 0.4);
+		background: rgba(10, 10, 25, 0.5);
 
-		&__persona {
-			font-size: clamp(1rem, 3vw, 1.3rem);
-			margin-bottom: 0.5rem;
-			color: rgba(255, 255, 255, 0.9);
-			font-weight: 500;
-			font-style: italic;
-			padding-bottom: 0.5rem;
-			border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+		// Corner bracket accents
+		&__corner {
+			position: absolute;
+			width: 12px;
+			height: 12px;
+			border-color: rgba(124, 58, 237, 0.8);
+			border-style: solid;
+
+			&--tl { top: -1px; left: -1px; border-width: 2px 0 0 2px; }
+			&--tr { top: -1px; right: -1px; border-width: 2px 2px 0 0; }
+			&--bl { bottom: -1px; left: -1px; border-width: 0 0 2px 2px; }
+			&--br { bottom: -1px; right: -1px; border-width: 0 2px 2px 0; }
 		}
 
-		&__title {
-			font-size: clamp(1.4rem, 4vw, 2rem);
+		&__header {
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
 			margin-bottom: 0.75rem;
-			color: white;
+			padding-bottom: 0.5rem;
+			border-bottom: 1px solid rgba(124, 58, 237, 0.3);
+		}
+
+		&__label {
+			font-size: clamp(0.6rem, 1.8vw, 0.7rem);
+			letter-spacing: 0.15em;
+			color: rgba(167, 139, 250, 0.8);
+			text-transform: uppercase;
+		}
+
+		&__type-badge {
+			font-size: clamp(0.6rem, 1.8vw, 0.7rem);
+			letter-spacing: 0.1em;
+			color: #a78bfa;
+			border: 1px solid rgba(124, 58, 237, 0.5);
+			padding: 0.15rem 0.5rem;
 			font-weight: 700;
 		}
 
-		&__detail {
-			font-size: clamp(1rem, 3vw, 1.4rem);
-			margin-bottom: 0.5rem;
-			line-height: 1.4;
-			color: white;
+		&__divider {
+			height: 1px;
+			background: linear-gradient(
+				90deg,
+				transparent,
+				rgba(124, 58, 237, 0.3) 20%,
+				rgba(124, 58, 237, 0.3) 80%,
+				transparent
+			);
+			margin: 0.4rem 0;
+		}
 
-			b {
-				font-weight: 700;
+		&__row {
+			display: flex;
+			gap: 0.75rem;
+			margin: 0.35rem 0;
+			line-height: 1.4;
+			align-items: baseline;
+
+			&--highlight {
+				margin-top: 0.25rem;
+				.spec-hud__key {
+					color: #c4b5fd;
+				}
+				.spec-hud__val {
+					font-style: italic;
+					color: rgba(255, 255, 255, 0.8);
+				}
 			}
 		}
 
-		&__stance {
-			margin-top: 0.75rem;
-			padding-top: 0.75rem;
-			border-top: 1px solid rgba(255, 255, 255, 0.2);
-			font-style: italic;
+		&__key {
+			font-size: clamp(0.55rem, 1.6vw, 0.65rem);
+			letter-spacing: 0.1em;
+			color: rgba(167, 139, 250, 0.7);
+			white-space: nowrap;
+			flex-shrink: 0;
+			padding-top: 0.1rem;
+		}
+
+		&__val {
+			font-size: clamp(0.75rem, 2.2vw, 0.9rem);
+			color: rgba(255, 255, 255, 0.9);
+			font-weight: 500;
+			text-wrap: pretty;
 		}
 	}
 </style>

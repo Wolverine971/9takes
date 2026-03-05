@@ -507,12 +507,12 @@
 <div class="question-page-container mx-auto w-full max-w-6xl px-1 pb-12 sm:px-6 lg:px-8">
 	<article itemscope itemtype="https://schema.org/QAPage">
 		<!-- Question Display -->
-		<div class="mb-6">
+		<div class="mb-3 sm:mb-6">
 			<QuestionDisplay question={data.question} />
 		</div>
 
 		<!-- Interaction Area -->
-		<div class="mb-6">
+		<div class="mb-3 sm:mb-6">
 			<Interact
 				data={dataForChild}
 				questionId={data.question.id}
@@ -525,7 +525,7 @@
 
 		<!-- Tags -->
 		{#if (data.questionTags && data.questionTags.length > 0) || data.canEditTags}
-			<div class="mb-6 rounded-xl border border-purple-500/15 bg-[#1a1a2e]/40 p-4">
+			<div class="mb-3 rounded-xl border border-purple-500/15 bg-[#1a1a2e]/40 p-3 sm:mb-6 sm:p-4">
 				<div class="mb-3 flex flex-wrap items-center justify-between gap-3">
 					<div class="text-sm font-semibold text-slate-100">Question Categories</div>
 					{#if data.canEditTags}

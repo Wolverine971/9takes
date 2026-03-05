@@ -318,10 +318,10 @@
 </script>
 
 <div class="my-4 flex flex-col gap-4">
-	<div class="flex flex-wrap gap-3">
+	<div class="flex gap-2 sm:gap-3">
 		<button
 			title="Comment"
-			class="flex items-center justify-center gap-2 rounded-lg bg-purple-600 px-5 py-2.5 text-sm font-medium text-white shadow-[0_0_15px_rgba(124,58,237,0.3)] transition-all duration-200 hover:bg-purple-700 hover:shadow-[0_0_20px_rgba(124,58,237,0.4)] active:scale-[0.98]"
+			class="flex items-center justify-center gap-1.5 rounded-lg bg-purple-600 px-3 py-2 text-sm font-medium text-white shadow-[0_0_15px_rgba(124,58,237,0.3)] transition-all duration-200 hover:bg-purple-700 hover:shadow-[0_0_20px_rgba(124,58,237,0.4)] active:scale-[0.98] sm:gap-2 sm:px-5 sm:py-2.5"
 			onclick={() => (commenting = !commenting)}
 			aria-label={commenting ? 'Hide comment box' : 'Write a comment'}
 		>
@@ -337,7 +337,7 @@
 		{#if parentType === 'question'}
 			<button
 				title={subscriptions.some((e) => e.user_id === user?.id) ? 'Unsubscribe' : 'Subscribe'}
-				class="flex items-center justify-center gap-2 rounded-lg border px-5 py-2.5 text-sm font-medium transition-all duration-200 active:scale-[0.98] disabled:cursor-not-allowed disabled:opacity-50 {subscriptions.some(
+				class="flex items-center justify-center gap-1.5 rounded-lg border px-3 py-2 text-sm font-medium transition-all duration-200 active:scale-[0.98] disabled:cursor-not-allowed disabled:opacity-50 sm:gap-2 sm:px-5 sm:py-2.5 {subscriptions.some(
 					(e) => e.user_id === user?.id
 				)
 					? 'border-purple-500 bg-purple-900/30 text-purple-300 hover:bg-purple-900/50'
@@ -364,15 +364,18 @@
 			{#if qrCodeUrl}
 				<button
 					title="Share via QR Code"
-					class="flex items-center justify-center gap-2 rounded-lg border border-slate-600/40 bg-[#1a1a2e]/60 px-5 py-2.5 text-sm font-medium text-slate-300 backdrop-blur-sm transition-all duration-200 hover:bg-[#252538]/80 active:scale-[0.98]"
+					class="flex items-center justify-center gap-1.5 rounded-lg border border-slate-600/40 bg-[#1a1a2e]/60 px-3 py-2 text-sm font-medium text-slate-300 backdrop-blur-sm transition-all duration-200 hover:bg-[#252538]/80 active:scale-[0.98] sm:gap-2 sm:px-5 sm:py-2.5"
 					onclick={openQRModal}
 					aria-label="Share via QR Code"
 				>
-					<img
-						src={qrCodeUrl}
-						alt="9takes QR Code"
-						class="h-6 w-6 rounded transition-transform duration-200 hover:scale-110"
-					/>
+					<svg class="h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+						<path
+							stroke-linecap="round"
+							stroke-linejoin="round"
+							stroke-width="2"
+							d="M8.684 13.342C8.886 12.938 9 12.482 9 12c0-.482-.114-.938-.316-1.342m0 2.684a3 3 0 110-2.684m9.632 4.684a3 3 0 110 2.684M15 12a3 3 0 11-6 0 3 3 0 016 0z"
+						/>
+					</svg>
 					<span class="whitespace-nowrap">Share</span>
 				</button>
 			{/if}
