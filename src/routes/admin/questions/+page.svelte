@@ -42,15 +42,41 @@
 	let selectedQuestion = $state<any>(null);
 	let currentSort = $state('lastComment');
 	let searchQuery = $state('');
-	let filterStatus = $state<'all' | 'active' | 'flagged' | 'removed'>('all');
+	let filterStatus = $state<
+		'all' | 'active' | 'flagged' | 'removed' | 'tagged' | 'untagged' | 'processed' | 'unprocessed'
+	>('all');
 
 	// Stats
 	let totalQuestions = $derived(data.questions?.length || 0);
 	let totalComments = $derived(
 		data.questions?.reduce((sum: number, q: any) => sum + (q.comment_count || 0), 0) || 0
 	);
-	let flaggedCount = $derived(data.questions?.filter((q: any) => q.flagged).length || 0);
-	let removedCount = $derived(data.questions?.filter((q: any) => q.removed).length || 0);
+	let taggedCount = $derived(
+		data.questions?.filter((q: any) => q.tagged || q.question_tag?.length > 0).length || 0
+	);
+	let untaggedCount = $derived(totalQuestions - taggedCount);
+	let processedCount = $derived(
+		data.questions?.filter((q: any) => q.question_formatted && q.question_formatted !== q.question)
+			.length || 0
+	);
+	let unprocessedCount = $derived(totalQuestions - processedCount);
+
+	// Build unique tag list for category filter
+	let allTags = $derived.by(() => {
+		const tagMap = new Map<number, string>();
+		for (const q of data.questions || []) {
+			for (const t of q.question_tag || []) {
+				if (t.tag_id && t.tag_name) {
+					tagMap.set(t.tag_id, t.tag_name);
+				}
+			}
+		}
+		return Array.from(tagMap.entries())
+			.map(([id, name]) => ({ id, name }))
+			.sort((a, b) => a.name.localeCompare(b.name));
+	});
+
+	let filterCategory = $state<number | null>(null);
 
 	// Filter and sort questions
 	let displayedQuestions = $derived.by(() => {
@@ -71,10 +97,39 @@
 			filtered = filtered.filter((q: any) => q.removed);
 		} else if (filterStatus === 'active') {
 			filtered = filtered.filter((q: any) => !q.flagged && !q.removed);
+		} else if (filterStatus === 'tagged') {
+			filtered = filtered.filter((q: any) => q.tagged || q.question_tag?.length > 0);
+		} else if (filterStatus === 'untagged') {
+			filtered = filtered.filter(
+				(q: any) => !q.tagged && (!q.question_tag || q.question_tag.length === 0)
+			);
+		} else if (filterStatus === 'processed') {
+			filtered = filtered.filter(
+				(q: any) => q.question_formatted && q.question_formatted !== q.question
+			);
+		} else if (filterStatus === 'unprocessed') {
+			filtered = filtered.filter(
+				(q: any) => !q.question_formatted || q.question_formatted === q.question
+			);
+		}
+
+		if (filterCategory !== null) {
+			filtered = filtered.filter((q: any) =>
+				q.question_tag?.some((t: any) => t.tag_id === filterCategory)
+			);
 		}
 
 		return sortFunctions[currentSort](filtered);
 	});
+
+	// Helpers
+	function hasAiTags(question: any): boolean {
+		return question.tagged || question.question_tag?.length > 0;
+	}
+
+	function isProcessed(question: any): boolean {
+		return question.question_formatted && question.question_formatted !== question.question;
+	}
 
 	// Open question details modal
 	const openModal = (questionData: any) => {
@@ -93,7 +148,7 @@
 	<header class="page-header">
 		<div class="header-content">
 			<h1 class="page-title">Questions</h1>
-			<a href="/admin/questions/hierarchy" class="hierarchy-btn"> View Hierarchy </a>
+			<a href="/admin/questions/hierarchy" class="hierarchy-btn">View Hierarchy</a>
 		</div>
 	</header>
 
@@ -103,16 +158,18 @@
 			<StatCard icon="❓" label="Total Questions" value={totalQuestions} color="primary" />
 			<StatCard icon="💬" label="Total Comments" value={totalComments} color="success" />
 			<StatCard
-				icon="🚩"
-				label="Flagged"
-				value={flaggedCount}
-				color={flaggedCount > 0 ? 'warning' : 'default'}
+				icon="🏷️"
+				label="AI Tagged"
+				value="{taggedCount}/{totalQuestions}"
+				color={untaggedCount > 0 ? 'warning' : 'success'}
+				subValue="{untaggedCount} untagged"
 			/>
 			<StatCard
-				icon="🗑️"
-				label="Removed"
-				value={removedCount}
-				color={removedCount > 0 ? 'danger' : 'default'}
+				icon="✅"
+				label="Processed"
+				value="{processedCount}/{totalQuestions}"
+				color={unprocessedCount > 0 ? 'warning' : 'success'}
+				subValue="{unprocessedCount} unprocessed"
 			/>
 		</div>
 	</section>
@@ -122,7 +179,6 @@
 		<div class="questions-card">
 			<div class="card-header">
 				<h3 class="card-title">
-					<span class="title-icon">❓</span>
 					All Questions
 					<span class="count-badge">{displayedQuestions.length}</span>
 				</h3>
@@ -138,7 +194,30 @@
 						<option value="active">Active</option>
 						<option value="flagged">Flagged</option>
 						<option value="removed">Removed</option>
+						<optgroup label="AI Tags">
+							<option value="tagged">Has AI Tags</option>
+							<option value="untagged">No AI Tags</option>
+						</optgroup>
+						<optgroup label="Processing">
+							<option value="processed">Processed</option>
+							<option value="unprocessed">Unprocessed</option>
+						</optgroup>
 					</select>
+					{#if allTags.length > 0}
+						<select
+							class="filter-select"
+							value={filterCategory ?? ''}
+							onchange={(e) => {
+								const val = (e.target as HTMLSelectElement).value;
+								filterCategory = val ? Number(val) : null;
+							}}
+						>
+							<option value="">All Categories</option>
+							{#each allTags as tag}
+								<option value={tag.id}>{tag.name}</option>
+							{/each}
+						</select>
+					{/if}
 					<div class="sort-tabs">
 						<button
 							class="sort-tab"
@@ -185,25 +264,45 @@
 									<h3 class="question-text">
 										{question.question_formatted || question.question}
 									</h3>
-									{#if question.flagged}
-										<span class="status-badge flagged">Flagged</span>
-									{/if}
-									{#if question.removed}
-										<span class="status-badge removed">Removed</span>
-									{/if}
+									<div class="status-badges">
+										{#if hasAiTags(question)}
+											<span class="status-badge tagged">AI Tagged</span>
+										{:else}
+											<span class="status-badge untagged">No Tags</span>
+										{/if}
+										{#if isProcessed(question)}
+											<span class="status-badge processed">Processed</span>
+										{:else}
+											<span class="status-badge unprocessed">Unprocessed</span>
+										{/if}
+										{#if question.flagged}
+											<span class="status-badge flagged-badge">Flagged</span>
+										{/if}
+										{#if question.removed}
+											<span class="status-badge removed-badge">Removed</span>
+										{/if}
+									</div>
 								</div>
+
+								<!-- Category Tags -->
+								{#if question.question_tag?.length > 0}
+									<div class="category-tags">
+										{#each question.question_tag as tag}
+											<span class="category-tag">{tag.tag_name}</span>
+										{/each}
+									</div>
+								{/if}
+
 								<div class="question-meta">
 									<span class="meta-item comments">
 										<span class="meta-icon">💬</span>
 										{question.comment_count} comments
 									</span>
 									<span class="meta-item">
-										<span class="meta-icon">📅</span>
 										Created {convertDateToReadable(question.created_at)}
 									</span>
 									{#if question.last_comment_date}
 										<span class="meta-item">
-											<span class="meta-icon">🕐</span>
 											Last activity {convertDateToReadable(question.last_comment_date)}
 										</span>
 									{/if}
@@ -296,7 +395,7 @@
 
 	.stats-grid {
 		display: grid;
-		grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+		grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
 		gap: 16px;
 	}
 
@@ -326,10 +425,6 @@
 		font-size: 0.9rem;
 		font-weight: 600;
 		color: var(--text-primary);
-	}
-
-	.title-icon {
-		font-size: 1rem;
 	}
 
 	.count-badge {
@@ -404,9 +499,7 @@
 
 	/* Questions List */
 	.questions-list {
-		max-height: calc(100vh - 400px);
-		min-height: 400px;
-		overflow-y: auto;
+		/* Full page scrolling - no constrained height */
 	}
 
 	.question-item {
@@ -446,7 +539,7 @@
 		display: flex;
 		align-items: flex-start;
 		gap: 8px;
-		margin-bottom: 8px;
+		margin-bottom: 6px;
 		flex-wrap: wrap;
 	}
 
@@ -456,30 +549,78 @@
 		color: var(--text-primary);
 		margin: 0;
 		line-height: 1.4;
+		flex: 1;
+		min-width: 200px;
+	}
+
+	.status-badges {
+		display: flex;
+		gap: 4px;
+		flex-wrap: wrap;
+		flex-shrink: 0;
 	}
 
 	.status-badge {
 		padding: 2px 8px;
 		border-radius: 12px;
-		font-size: 0.7rem;
+		font-size: 0.65rem;
 		font-weight: 600;
-		flex-shrink: 0;
+		white-space: nowrap;
 	}
 
-	.status-badge.flagged {
+	.status-badge.tagged {
+		background: rgba(16, 185, 129, 0.12);
+		color: #059669;
+	}
+
+	.status-badge.untagged {
+		background: rgba(245, 158, 11, 0.12);
+		color: #d97706;
+	}
+
+	.status-badge.processed {
+		background: rgba(99, 102, 241, 0.12);
+		color: #6366f1;
+	}
+
+	.status-badge.unprocessed {
+		background: rgba(156, 163, 175, 0.15);
+		color: #6b7280;
+	}
+
+	.status-badge.flagged-badge {
 		background: rgba(245, 158, 11, 0.1);
 		color: #d97706;
 	}
 
-	.status-badge.removed {
+	.status-badge.removed-badge {
 		background: rgba(239, 68, 68, 0.1);
 		color: #dc2626;
+	}
+
+	/* Category Tags */
+	.category-tags {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 4px;
+		margin-bottom: 6px;
+	}
+
+	.category-tag {
+		display: inline-flex;
+		align-items: center;
+		padding: 2px 8px;
+		background: rgba(124, 58, 237, 0.1);
+		color: #7c3aed;
+		border-radius: 10px;
+		font-size: 0.7rem;
+		font-weight: 500;
 	}
 
 	.question-meta {
 		display: flex;
 		flex-wrap: wrap;
-		gap: 16px;
+		gap: 12px;
 	}
 
 	.meta-item {
