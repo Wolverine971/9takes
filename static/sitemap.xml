@@ -167,6 +167,15 @@
     </image:image>
 </url>
 <url>
+    <loc>https://9takes.com/community/fear-triad-intellectual-fortress-or-prison</loc>
+    <lastmod>2026-03-05T00:00:00.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+        <image:loc>https://9takes.com/blogs/intellectual-fortress-prison.webp</image:loc>
+    </image:image>
+</url>
+<url>
     <loc>https://9takes.com/community/how-minds-change-on-9takes</loc>
     <lastmod>2026-02-18T00:00:00.000Z</lastmod>
     <changefreq>monthly</changefreq>
@@ -3368,6 +3377,33 @@
     <priority>0.7</priority>
     <image:image>
         <image:loc>https://9takes.com/types/4s/Sarah-J-Maas.webp</image:loc>
+    </image:image>
+</url>
+<url>
+    <loc>https://9takes.com/personality-analysis/Julius-Caesar</loc>
+    <lastmod>2026-03-09T00:00:00.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+        <image:loc>https://9takes.com/types/3s/Julius-Caesar.webp</image:loc>
+    </image:image>
+</url>
+<url>
+    <loc>https://9takes.com/personality-analysis/Kendall-Jenner</loc>
+    <lastmod>2026-03-09T00:00:00.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+        <image:loc>https://9takes.com/types/6s/Kendall-Jenner.webp</image:loc>
+    </image:image>
+</url>
+<url>
+    <loc>https://9takes.com/personality-analysis/Lupita-Nyongo</loc>
+    <lastmod>2026-03-09T00:00:00.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+        <image:loc>https://9takes.com/types/2s/Lupita-Nyongo.webp</image:loc>
     </image:image>
 </url>
 <url>
