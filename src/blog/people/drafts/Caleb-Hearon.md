@@ -4,9 +4,9 @@ meta_title: "Why Caleb Hearon Can't Stop Making Pain Funny (And What It Costs Hi
 persona_title: "Comedy's Desperate Connector"
 description: 'How growing up poor, closeted, and suicidal in rural Missouri made Caleb Hearon the funniest person in any room — and what he still can not outrun.'
 author: 'DJ Wayne'
-date: '2026-03-01'
+date: '2026-03-10'
 loc: 'https://9takes.com/personality-analysis/Caleb-Hearon'
-lastmod: '2026-03-01'
+lastmod: '2026-03-10'
 changefreq: 'monthly'
 priority: '0.6'
 published: false

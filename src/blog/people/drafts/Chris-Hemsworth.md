@@ -4,9 +4,9 @@ meta_title: "Why Chris Hemsworth Built a God's Body to Hide a Boy's Fear"
 persona_title: "Hollywood's Restless Thunder"
 description: 'Chris Hemsworth used Thor as armor against panic attacks and imposter syndrome. Inside the psychology of the man behind the hammer.'
 author: 'DJ Wayne'
-date: '2026-03-01'
+date: '2026-03-10'
 loc: 'https://9takes.com/personality-analysis/Chris-Hemsworth'
-lastmod: '2026-03-01'
+lastmod: '2026-03-10'
 changefreq: 'monthly'
 priority: '0.6'
 published: false

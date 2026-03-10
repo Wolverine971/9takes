@@ -1,10 +1,10 @@
 ---
-title: "The Enneagram Parent's Guide to Children's Mental Health"
-description: 'Learn to recognize early mental health warning signs in children based on their Enneagram type. Build resilience and know when to seek help.'
+title: "What Every Parent Should Know About Personality Patterns and Children's Mental Health"
+description: 'How personality patterns in children can shape stress responses, emotional needs, and when to seek professional support — from one parent to another.'
 author: 'DJ Wayne'
 date: '2025-08-25'
 loc: 'https://9takes.com/enneagram-corner/mental-health/enneagram-parenting-mental-health'
-lastmod: '2025-12-04'
+lastmod: '2026-03-10'
 changefreq: 'monthly'
 priority: '0.8'
 published: true
@@ -18,6 +18,7 @@ quality_score: 6.9
 quality_graded_at: '2026-02-22'
 quality_rewrite_priority: 'rebuild'
 quality_safety_gate: 'fail'
+quality_update_note: 'Safety edits applied 2026-03-10: softened diagnostic language, added parent disclaimer, reframed clinical claims as observational patterns'
 ---
 
 <!-- QUALITY_FEEDBACK_START
@@ -26,6 +27,7 @@ Strengths: practical utility (9.9); Enneagram depth (9.7).
 Improve next: Add explicit educational/clinical boundaries and remove diagnostic-or-prescriptive phrasing.
 Tags: safety-boundary-risk
 Graded: 2026-02-22
+UPDATE 2026-03-10: Safety edits applied — softened diagnostic language, added parent disclaimer, reframed clinical claims as observational patterns, softened warning signs table. Needs re-grading.
 QUALITY_FEEDBACK_END -->
 
 <script>
@@ -35,8 +37,12 @@ QUALITY_FEEDBACK_END -->
 </script>
 
 <QuickAnswer question="How do I recognize mental health warning signs in my child based on their personality?">
-Each child's personality pattern predicts specific mental health vulnerabilities. Perfectionist (Type 1) children develop anxiety and self-punishment. Helper (Type 2) children experience emotional exhaustion and codependency. Achiever (Type 3) children mask burnout behind success. Individualist (Type 4) children face depression and self-harm risk. Understanding your child's patterns: their stress responses, comfort needs, and deepest fears, helps you recognize when normal struggles become concerning and when to seek professional help.
+Children's personality patterns can shape how they respond to stress and what they struggle with. Perfectionist-leaning children may develop anxiety and self-punishment. Helper-leaning children may experience emotional exhaustion. Achiever-leaning children sometimes mask burnout behind success. Deeply feeling children may struggle with intense emotions that overwhelm them. Understanding your child's patterns — their stress responses, comfort needs, and deepest fears — can help you recognize when normal struggles become concerning and when to seek professional help.
 </QuickAnswer>
+
+<div class="medical-disclaimer">
+  <p><strong>A note for parents:</strong> This article shares observational patterns from a parent's perspective — not clinical diagnoses. Every child is unique, and personality frameworks are tools for understanding, not labels. If you're concerned about your child's mental health, always consult a licensed pediatrician, therapist, or child psychologist. If your child is in immediate danger, call 988 (Suicide & Crisis Lifeline) or go to the ER.</p>
+</div>
 
 <p class="firstLetter">Your daughter came home from school silent. You asked if something happened. She said "I'm fine." But you know she's not fine. You've watched her disappear into herself before, and the last time it took months to get her back.</p>
 
@@ -79,21 +85,23 @@ For each Enneagram pattern, I'll share:
 - When to trust your gut and seek professional help
 - How to build resilience without dismissing their struggles
 
-### Warning Signs at a Glance
+### Patterns to Watch For at a Glance
 
-| Child Pattern | Normal Struggle   | Warning Sign            | Crisis Indicator                        |
-| ------------- | ----------------- | ----------------------- | --------------------------------------- |
-| Type 1        | Upset by mistakes | Constant self-criticism | Self-harm, eating restriction           |
-| Type 2        | Wants to please   | Exhausted from helping  | Identity loss, codependency             |
-| Type 3        | Works hard        | Can't stop achieving    | Burnout, anxiety, depression            |
-| Type 4        | Big emotions      | Chronic sadness         | Self-harm, suicidal thoughts            |
-| Type 5        | Needs alone time  | Complete withdrawal     | Failure to thrive, dissociation         |
-| Type 6        | Some anxiety      | Constant worry          | Panic attacks, phobias                  |
-| Type 7        | Energetic         | Can't sit still         | Substance experimentation, recklessness |
-| Type 8        | Strong-willed     | Frequent aggression     | Violence, cruelty                       |
-| Type 9        | Easy-going        | Chronic avoidance       | Depression, dissociation                |
+_This table reflects common observations parents report — not diagnostic criteria. Only a licensed professional can assess your child's mental health. Use this as a starting point for conversations with your pediatrician or therapist._
 
-💡 **The Moment of Recognition:** If your child's struggles have moved from the "Normal" column to "Warning Sign", trust that instinct.
+| Child Pattern | Typical Behavior  | May Become Concerning When...   | Talk to a Professional If...            |
+| ------------- | ----------------- | ------------------------------- | --------------------------------------- |
+| Type 1        | Upset by mistakes | Self-criticism becomes constant | Self-punishment, eating restriction     |
+| Type 2        | Wants to please   | Exhaustion from over-helping    | Identity wrapped entirely in caretaking |
+| Type 3        | Works hard        | Achievement feels compulsive    | Burnout symptoms, anxiety, depression   |
+| Type 4        | Big emotions      | Sadness becomes baseline        | Self-harm, talk of not wanting to exist |
+| Type 5        | Needs alone time  | Withdrawal becomes total        | Stops eating, dissociates regularly     |
+| Type 6        | Some anxiety      | Worry becomes constant          | Panic attacks, can't attend school      |
+| Type 7        | Energetic         | Can't tolerate stillness        | Risk-taking escalates, substance use    |
+| Type 8        | Strong-willed     | Aggression becomes frequent     | Hurting others, emotional shutdown      |
+| Type 9        | Easy-going        | Avoidance becomes chronic       | Stops expressing any preferences        |
+
+**Trust your instinct.** If your child's struggles have moved from the "Typical" column to "May Become Concerning," that gut feeling matters. You don't need to wait for a crisis to reach out to a professional.
 
 <div class="scroll-fade">
 <MarqueeHorizontal displayList={[
@@ -283,7 +291,7 @@ We live in a culture that celebrates achievement, so it's easy to miss when a dr
 - **The burnout before puberty**: Exhaustion, headaches, insomnia: their body screaming what they won't say: "I can't keep this up"
 - **The imposter emergence**: "If people knew the real me, they wouldn't like me"
 
-**The breaking point**: When your child starts lying about achievements, when they choose performance-enhancing substances (yes, even in middle school), when they sabotage others' success, or when they say things like "I'd rather die than fail": these are crisis moments, not dramatic phases.
+**When to be concerned**: If your child starts lying about achievements, uses substances to maintain performance (yes, even in middle school), sabotages others' success, or says things like "I'd rather die than fail" — these are serious signals, not dramatic phases. Reach out to your pediatrician or a child therapist.
 
 ### Teaching Your Achiever That They're Enough
 
@@ -368,7 +376,7 @@ Having a deeply feeling child is both gift and challenge. Type 4 pattern childre
 - **Identity quicksand**: "Who am I?" becomes an obsession, not exploration
 - **The artistic block of pain**: When they can't create, they feel they can't breathe
 
-**The crisis moments**: When you find cut marks, when they romanticize death in their journal, when they stop eating to "feel more deeply," when they say "I don't belong in this world": these aren't dramatic phases. These are cries for help that need immediate response.
+**When to act immediately**: If you find cut marks, if they write about death in their journal, if they stop eating to "feel more deeply," if they say "I don't belong in this world" — these aren't dramatic phases. Please reach out to a professional right away. Call 988 if you're unsure.
 
 ### Helping Your Intense Child Navigate Their Depth
 
@@ -425,7 +433,7 @@ These kids need anchors in the storm of their emotions:
 
 ### When Professional Support Is Critical
 
-Type 4 pattern children are at higher risk for self-harm and suicidal ideation. Don't wait. Get help when:
+Deeply feeling children sometimes express their pain in alarming ways. If you see any of the following, don't wait — reach out to a professional:
 
 - You find evidence of self-harm (cutting, burning, hair pulling)
 - They express suicidal thoughts, even "romantically"
@@ -463,7 +471,7 @@ Introverted children are beautiful. But Type 5 pattern children take self-suffic
 - **The basic needs neglect**: Forgetting to eat because they're absorbed, not showering because "what's the point?"
 - **The emotional flatline**: Not just quiet, but absent, like they've checked out of their own life
 
-**The danger zone**: When they stop making eye contact entirely, when they go days without speaking, when they're losing weight from forgetting to eat, when they say things like "I wish everyone would just leave me alone forever": these are signs of serious withdrawal that needs attention.
+**When to seek help**: If they stop making eye contact entirely, go days without speaking, lose weight from forgetting to eat, or say things like "I wish everyone would just leave me alone forever" — these are signs that professional support may be needed.
 
 Many Type 5 pattern children also show [traits that overlap with autism](/enneagram-corner/mental-health/enneagram-neurodivergence-guide), and understanding both patterns can be crucial for proper support.
 
@@ -548,7 +556,7 @@ Anxiety in children is increasingly common, but Type 6 pattern children experien
 - **The trust collapse**: One broken promise, one unexpected change, and their whole world feels unsafe
 - **The regression response**: Your 10-year-old suddenly needs nightlights, your 8-year-old won't sleep alone
 
-**When worry becomes disorder**: Panic attacks that seem to come from nowhere, complete school refusal, OCD-like behaviors (checking, counting, rituals), or paranoid thoughts ("Everyone's lying to me"): these signal that anxiety has taken over their life.
+**When to be concerned**: Panic attacks that seem to come from nowhere, complete school refusal, compulsive checking or counting rituals, or persistent thoughts like "Everyone's lying to me" — these may signal that anxiety needs professional support.
 
 ### Building Security in an Uncertain World
 
@@ -612,7 +620,7 @@ Anxiety disorders are highly treatable, but only if we catch them. Get help when
 - Sleep is severely impacted for weeks
 - They're developing paranoid thoughts
 
-Cognitive Behavioral Therapy (CBT) works particularly well for Type 6 pattern children. They like the logic, the plans, the concrete strategies. Don't wait, early intervention can prevent a lifetime of anxiety.
+Many parents report that structured, logic-based therapeutic approaches resonate well with anxious children — they like having plans and concrete strategies. Ask your child's therapist what approach might be the best fit. Don't wait — early intervention makes a real difference.
 
 ## Type 7 Patterns: The Little Adventurer
 
@@ -632,7 +640,7 @@ We love their enthusiasm, their infectious energy, their ability to find fun any
 - **The FOMO monster**: Missing out on anything feels like death, even when they're exhausted
 - **The feeling phobia**: They'll do anything, ANYTHING, to avoid sitting with difficult emotions
 
-**The danger signs**: When they can't sleep because their mind won't stop, when they're taking physical risks for thrills, when they experiment with substances to maintain the high, when even happy things don't bring real joy anymore: these are signs that their escape pattern has become a prison.
+**When to be concerned**: If they can't sleep because their mind won't stop, if they're taking physical risks for thrills, if they experiment with substances, or if even happy things don't bring real joy anymore — these are signs their pattern may need professional support.
 
 ### Teaching Your Adventurer to Land
 
@@ -695,7 +703,7 @@ These kids are masters at looking fine: they're the "happy ones," after all. Wat
 - Substance experimentation to maintain highs
 - Manic-like episodes of unsustainable energy
 
-Many Type 7 pattern children are misdiagnosed with ADHD when they're actually fleeing from feelings. A good therapist can help distinguish between neurological differences and emotional avoidance patterns.
+Some parents wonder whether their energetic child has ADHD or is expressing an emotional pattern. A good therapist can help you understand whether neurological differences, emotional avoidance patterns, or both are at play.
 
 ## Type 8 Patterns: The Little Challenger
 
@@ -715,7 +723,7 @@ We admire their confidence, their fearlessness, their ability to stand up for th
 - **The trust test**: Constantly pushing boundaries to see if you'll betray them like they expect
 - **The isolation fortress**: "I don't need anyone" becomes a prison of loneliness
 
-**The crisis points**: When they become the bully they once protected others from, when aggression becomes physical, when they'd rather fail alone than succeed with help, when they say "I don't care about anyone": these are cries for help disguised as roars.
+**When to be concerned**: If they become the bully they once protected others from, if aggression becomes physical, if they'd rather fail alone than succeed with help, or if they say "I don't care about anyone" — these behaviors often mask deep pain. A therapist experienced with strong-willed children can help.
 
 ### Raising a Warrior with a Tender Heart
 
@@ -798,7 +806,7 @@ We appreciate their flexibility, their ability to go with the flow, their gift f
 - **The passive aggressive puzzle**: They can't say no directly, so their resistance comes out sideways
 - **The dissociation default**: Checking out when things get intense, floating away from their own life
 
-**The emergency signals**: When they stop speaking in certain situations, when they have no preferences about anything, when they're sleeping 12+ hours and still exhausted, when they say "Nothing I want matters anyway": these are signs that peacekeeping has become self-erasure.
+**When to be concerned**: If they stop speaking in certain situations, have no preferences about anything, sleep 12+ hours and are still exhausted, or say "Nothing I want matters anyway" — these may be signs that their peacekeeping pattern needs professional support.
 
 ### Helping Your Peacemaker Find Their Voice
 
@@ -929,9 +937,9 @@ Instead of generic parenting books, try these pattern-specific resources:
 - **For your challenger**: "The Explosive Child" by Ross Greene
 - **For your peacemaker**: "How to Be Yourself" by Ellen Hendriksen
 
-### Activities That Heal
+### Activities That Can Help
 
-The right activity can be therapy:
+The right activity can support emotional growth:
 
 - **Type 1**: Yoga (perfection isn't the goal), pottery (embracing imperfection)
 - **Type 2**: Theater (exploring different roles), animal care (giving with boundaries)
@@ -1022,7 +1030,7 @@ Immediately if: they express suicidal thoughts, show self-harm, or pose danger t
   "@graph": [
     {
       "@type": "Article",
-      "articleBody": "Comprehensive guide for parents to recognize early mental health warning signs in children based on Enneagram patterns, with strategies for building resilience and knowing when to seek professional help.",
+      "articleBody": "Parent-to-parent exploration of how personality patterns in children can shape stress responses, emotional needs, and when to seek professional support.",
       "author": {
         "@type": "Person",
         "name": "DJ Wayne",
@@ -1033,10 +1041,10 @@ Immediately if: they express suicidal thoughts, show self-harm, or pose danger t
           "https://twitter.com/djwayne3"
         ]
       },
-      "dateModified": "2025-12-04",
+      "dateModified": "2026-03-10",
       "datePublished": "2025-08-25",
-      "description": "Learn to recognize early mental health warning signs in children based on their Enneagram type. Build resilience and know when to seek help.",
-      "headline": "The Enneagram Parent's Guide to Children's Mental Health",
+      "description": "How personality patterns in children can shape stress responses, emotional needs, and when to seek professional support — from one parent to another.",
+      "headline": "What Every Parent Should Know About Personality Patterns and Children's Mental Health",
       "image": {
         "@type": "ImageObject",
         "height": 900,
@@ -1109,4 +1117,16 @@ Immediately if: they express suicidal thoughts, show self-harm, or pose danger t
 </svelte:head>
 
 <style lang="scss">
+  .medical-disclaimer {
+    background-color: #fff3cd;
+    border: 2px solid #ffc107;
+    padding: 1.5rem;
+    margin: 2rem 0;
+    border-radius: 8px;
+
+    p {
+      color: #856404;
+      margin-bottom: 0;
+    }
+  }
 </style>

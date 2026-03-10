@@ -1146,7 +1146,7 @@
 </url>
 <url>
     <loc>https://9takes.com/enneagram-corner/mental-health/enneagram-medication-mental-health</loc>
-    <lastmod>2026-01-18T00:00:00.000Z</lastmod>
+    <lastmod>2026-03-10T00:00:00.000Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -1164,7 +1164,7 @@
 </url>
 <url>
     <loc>https://9takes.com/enneagram-corner/mental-health/enneagram-parenting-mental-health</loc>
-    <lastmod>2025-12-04T00:00:00.000Z</lastmod>
+    <lastmod>2026-03-10T00:00:00.000Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -3404,6 +3404,33 @@
     <priority>0.7</priority>
     <image:image>
         <image:loc>https://9takes.com/types/2s/Lupita-Nyongo.webp</image:loc>
+    </image:image>
+</url>
+<url>
+    <loc>https://9takes.com/personality-analysis/Caleb-Hearon</loc>
+    <lastmod>2026-03-10T00:00:00.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+        <image:loc>https://9takes.com/types/7s/Caleb-Hearon.webp</image:loc>
+    </image:image>
+</url>
+<url>
+    <loc>https://9takes.com/personality-analysis/Chris-Hemsworth</loc>
+    <lastmod>2026-03-10T00:00:00.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+        <image:loc>https://9takes.com/types/7s/Chris-Hemsworth.webp</image:loc>
+    </image:image>
+</url>
+<url>
+    <loc>https://9takes.com/personality-analysis/Napoleon-Bonaparte</loc>
+    <lastmod>2026-03-10T00:00:00.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+        <image:loc>https://9takes.com/types/8s/Napoleon-Bonaparte.webp</image:loc>
     </image:image>
 </url>
 <url>

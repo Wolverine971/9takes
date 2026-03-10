@@ -4,9 +4,9 @@ meta_title: "Napoleon's Hidden Weakness: The Love That Conquered the Conqueror"
 persona_title: "History's Restless Conqueror"
 description: "Inside Napoleon's psychology: the Corsican outsider who conquered Europe but couldn't conquer his need to be loved."
 author: 'DJ Wayne'
-date: '2026-03-01'
+date: '2026-03-10'
 loc: 'https://9takes.com/personality-analysis/Napoleon-Bonaparte'
-lastmod: '2026-03-01'
+lastmod: '2026-03-10'
 changefreq: 'monthly'
 priority: '0.6'
 published: false

@@ -12,16 +12,16 @@ type: ['idea']
 blog: true
 previewHtml: 'The fear triad builds fortresses of intellect. But fortresses become prisons when you stop letting fear in.'
 pic: 'intellectual-fortress-prison'
-pic_alt: 'A solitary scholar in a stone archive tower holding open a heavy iron door to a sunlit cliff path'
+pic_alt: 'Three Greek marble statues inside a fortress library: one with books, one with a lantern and map, and one facing multiple archways while a gate stands open to the dawn'
 path: src/blog/community/fear-triad-intellectual-fortress-or-prison.md
 ---
 
 <!--
 Midjourney prompt:
-wide cinematic interior of a fortified stone archive tower at dawn, shelves of books and rolled maps, compass, lantern, ring of keys and packed satchel on a wooden desk, a heavy iron door standing wide open to a narrow sunlit cliff path, solitary scholar halfway between the desk and doorway with one hand on the open door, window-grid shadows falling across the stone floor behind them, warm morning light flooding in while the interior stays cool blue and gray, realistic architectural photography, tactile stone and paper textures, no text, no symbols, no fantasy magic, photorealistic, shot on 35mm lens, subtle depth of field --ar 16:9 --v 7 --raw --s 75
+three classical Greek marble statues inside a fortress library courtyard, left statue seated behind stacked books and scrolls with guarded contemplative expression, center statue standing over a branching map with lantern and shield with alert worried expression, right statue at a crossroads of open archways reaching toward multiple paths with excited but unsettled expression, open fortress gate in the background revealing dawn light beyond, marble white and gold accents with deep blue shadows, Unreal Engine, Cinematic, Color Grading, portrait Photography, Shot on 50mm lens, Ultra-Wide Angle, Depth of Field, hyper-detailed, beautifully color-coded, insane details, intricate details, beautifully color graded, 32k, Super-Resolution, Megapixel, Dramatic Cinematic Lighting, Global Illumination, Ray Tracing Global Illumination, hypermaximalist, elegant, hyper realistic, super detailed --ar 16:9 --stylize 700
 
 Image intent:
-Concrete scene, not symbolic collage: a room filled with knowledge, plans, and escape tools that only becomes a prison if the person refuses the open door.
+The fortress contains knowledge, preparation, and options, but the open gate is what keeps it from becoming a prison.
 -->
 
 <script>
@@ -93,8 +93,9 @@ Concrete scene, not symbolic collage: a room filled with knowledge, plans, and e
         showIcon={false}
         tint={false}
         displayText=""
-        altText="A solitary scholar in a stone archive tower holding open a heavy iron door to a sunlit cliff path"
+        altText="Three Greek marble statues inside a fortress library: one with books, one with a lantern and map, and one facing multiple archways while a gate stands open to the dawn"
         subtext=""
+        aspectRatio="16/9"
     />
 </div>
 
