@@ -570,6 +570,7 @@
 		aspect-ratio: auto !important; // Let image determine height on mobile
 		margin-bottom: 0;
 		width: 100%;
+		min-height: 200px; // Prevent CLS before image loads
 
 		.image-card__content {
 			padding: 1rem;

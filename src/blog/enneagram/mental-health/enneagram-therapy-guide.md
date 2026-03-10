@@ -1,10 +1,10 @@
 ---
-title: 'The Enneagram Guide to Therapy: Which Approach Actually Works for Your Type'
-description: 'Your Enneagram type predicts how you will sabotage therapy. Find the modality that cuts through your defenses, from CBT to somatic work.'
+title: 'How Your Enneagram Type Shapes Your Therapy Experience'
+description: 'Your personality patterns affect how you show up in therapy — and which approaches tend to resonate. Understand your tendencies so you can get more out of the process.'
 author: 'DJ Wayne'
 date: '2025-09-09'
 loc: 'https://9takes.com/enneagram-corner/mental-health/enneagram-therapy-guide'
-lastmod: '2026-01-21'
+lastmod: '2026-03-10'
 changefreq: 'monthly'
 priority: '0.8'
 published: true
@@ -18,6 +18,7 @@ quality_score: 6.9
 quality_graded_at: '2026-02-22'
 quality_rewrite_priority: 'rebuild'
 quality_safety_gate: 'fail'
+quality_update_note: 'Safety edits applied 2026-03-10: added disclaimer, softened prescriptive modality-to-type mappings, reframed directive language'
 ---
 
 <!-- QUALITY_FEEDBACK_START
@@ -26,6 +27,7 @@ Strengths: practical utility (9.4); Enneagram depth (9.2).
 Improve next: Add explicit educational/clinical boundaries and remove diagnostic-or-prescriptive phrasing.
 Tags: safety-boundary-risk
 Graded: 2026-02-22
+UPDATE 2026-03-10: Safety edits applied — added disclaimer, softened prescriptive modality assignments, reframed directive language. Needs re-grading.
 QUALITY_FEEDBACK_END -->
 
 <script>
@@ -35,8 +37,12 @@ QUALITY_FEEDBACK_END -->
 </script>
 
 <QuickAnswer question="Which therapy works best for my personality type?">
-Your Enneagram type determines your ideal approach: CBT works best for Head types (5, 6, 7) who need structure. DBT is essential for Type 4s with emotional dysregulation. Somatic therapy is non-negotiable for Body types (8, 9, 1) who store trauma physically. Psychodynamic works for Types 3 and 9 who have buried their authentic self. The key is not finding a therapist you like. It is finding one who can penetrate your specific defenses.
+Your personality patterns shape how you show up in therapy — and which approaches tend to click. Head types (5, 6, 7) often respond well to structured, logic-based approaches. Body types (8, 9, 1) may benefit from body-aware modalities. Heart types (2, 3, 4) often need approaches that bypass image management and access authentic feeling. The key isn't just finding a therapist you like — it's finding one who understands your particular patterns and can work with them.
 </QuickAnswer>
+
+<div class="medical-disclaimer">
+  <p><strong>Note:</strong> This article explores how personality patterns can shape the therapy experience. It is not a substitute for professional clinical assessment. A licensed therapist can help you determine the best approach for your specific needs. The modality suggestions below reflect commonly reported patterns — not clinical prescriptions.</p>
+</div>
 
 <p class="firstLetter">The Type 7 has been in therapy for three years and has not felt a single real emotion. She learned to perform insight, describe breakthroughs that never happened, and leave each session unchanged. Her therapist thinks she is making progress.</p>
 
@@ -52,17 +58,17 @@ The right approach changes everything. The wrong one? You waste years feeling li
 
 ## Why Your Type Determines Your Therapy Success
 
-Your Enneagram type predicts exactly how you will resist growth, what defenses you will deploy, and which approaches will penetrate your armor.
+Your Enneagram type can illuminate how you tend to resist growth, what defenses you're likely to deploy, and which approaches may resonate with you.
 
-This is not theory. These are observable, predictable patterns. They determine whether you waste years in the wrong modality or break through in months with the right one.
+These are commonly observed patterns that many therapists and clients report. Understanding them can help you have more productive conversations with your therapist about what's working and what isn't.
 
 ### The Three Centers: Your Operating System
 
-**Body Types (8, 9, 1):** You store trauma in your muscles. Talk therapy alone will not cut it. You need somatic work to unlock what your body is holding.
+**Body Types (8, 9, 1):** You may store tension and unprocessed experience in your body. Talk therapy alone may not fully reach what your body is holding — body-aware approaches can help.
 
-**Heart Types (2, 3, 4):** You perform even in therapy. You need approaches that bypass your image management and access authentic feeling.
+**Heart Types (2, 3, 4):** You may perform even in therapy. Approaches that bypass image management and access authentic feeling can be particularly valuable.
 
-**Head Types (5, 6, 7):** You will intellectualize forever if allowed. You need modalities that drop you into your body before you can think your way out.
+**Head Types (5, 6, 7):** You may intellectualize if given the opportunity. Modalities that include embodiment or experiential elements can complement cognitive approaches.
 
 <div class="scroll-fade">
 <MarqueeHorizontal displayList={[
@@ -73,28 +79,28 @@ This is not theory. These are observable, predictable patterns. They determine w
 ]} />
 </div>
 
-## The Therapy Modalities That Actually Work
+## Therapy Modalities Worth Understanding
 
-Forget the brochure descriptions. Here is what each approach actually does.
+_Your therapist is the best person to recommend a specific modality for your situation. This overview can help you have a more informed conversation about what might resonate._
 
-| Modality          | What It Does                     | Best For                           | Avoid If                             |
-| ----------------- | -------------------------------- | ---------------------------------- | ------------------------------------ |
-| **CBT**           | Rewires thoughts through logic   | Types 5, 6, 7 (need structure)     | You intellectualize to avoid feeling |
-| **DBT**           | Emotional regulation toolkit     | Type 4, anyone with self-harm      | You are stable and need depth work   |
-| **Psychodynamic** | Excavates childhood wounds       | Types 3, 9 (buried authentic self) | You need immediate crisis help       |
-| **Somatic**       | Releases body-stored trauma      | Types 8, 9, 1 (Body center)        | You are dissociated (start gentler)  |
-| **IFS**           | Negotiates internal parts        | Types 1, 6 (inner critic)          | You are in acute crisis              |
-| **EMDR**          | Trauma processing without story  | Anyone with PTSD/trauma            | You cannot tolerate distress yet     |
-| **Gestalt**       | Real-time confrontation          | Types 2, 9 (deflectors)            | You are fragile or in crisis         |
-| **ACT**           | Accept what is, commit to action | Types 1, 6 (stuck in paralysis)    | You need emotional processing first  |
+| Modality          | What It Does                     | Often Resonates With               | May Not Be the Best Fit If           |
+| ----------------- | -------------------------------- | ----------------------------------- | ------------------------------------ |
+| **CBT**           | Rewires thoughts through logic   | Types who appreciate structure      | You intellectualize to avoid feeling |
+| **DBT**           | Emotional regulation toolkit     | Types with intense emotions         | You are stable and need depth work   |
+| **Psychodynamic** | Excavates childhood wounds       | Types who have buried their true self | You need immediate crisis help     |
+| **Somatic**       | Releases body-stored tension     | Body-centered types (8, 9, 1)       | You are dissociated (start gentler)  |
+| **IFS**           | Negotiates internal parts        | Types with strong inner critics     | You are in acute crisis              |
+| **EMDR**          | Trauma processing without story  | Anyone with PTSD/trauma             | You cannot tolerate distress yet     |
+| **Gestalt**       | Real-time confrontation          | Types who tend to deflect           | You are fragile or in crisis         |
+| **ACT**           | Accept what is, commit to action | Types stuck in paralysis            | You need emotional processing first  |
 
-**Check Yourself:** Which modality have you tried? If it did not work, was it the wrong match for your type? Or did you sabotage it in your type's predictable way?
+**Reflect:** Which modality have you tried? If it didn't click, was it the wrong match for your patterns? Or did you fall into your type's typical resistance?
 
 ## Type 1: The Perfectionist
 
 **Your therapy sabotage:** You turn healing into another performance metric. You judge the therapist, the process, and yourself for not "doing therapy right."
 
-### What Actually Works
+### Approaches That Tend to Resonate
 
 **ACT (Acceptance and Commitment Therapy):** Stop fighting reality. ACT teaches you that perfection is the enemy of progress. You learn to act on values, not rules.
 
@@ -121,7 +127,7 @@ Find someone who models self-compassion without being a pushover. They need to h
 
 **Your therapy sabotage:** You spend sessions talking about everyone else's problems. You try to take care of your therapist. You give them what you think they want to hear.
 
-### What Actually Works
+### Approaches That Tend to Resonate
 
 **Emotionally Focused Therapy:** Cuts through your caretaking to find what YOU actually need. No more emotional breadcrumbs. You learn to ask for the whole meal.
 
@@ -158,7 +164,7 @@ Need someone with titanium boundaries who will not let you caretake them. If the
 
 **Your therapy sabotage:** You perform vulnerability. You bring a PowerPoint of your problems. You want a therapy graduation certificate in 6 sessions.
 
-### What Actually Works
+### Approaches That Tend to Resonate
 
 **Mindfulness-Based Therapy:** Forces you to stop achieving for 5 seconds. You cannot optimize sitting still. Being beats doing.
 
@@ -185,7 +191,7 @@ Need someone unimpressed by your resume who sees through your polish with compas
 
 **Your therapy sabotage:** You compete for "most tragic backstory." You reject anything that threatens your uniqueness. Stability feels like death.
 
-### What Actually Works
+### Approaches That Tend to Resonate
 
 **DBT:** Finally, someone teaches you to surf emotional tsunamis instead of drowning in them. Wise mind beats emotional mind.
 
@@ -212,7 +218,7 @@ Need someone who appreciates depth without fetishizing your pain. If they are to
 
 **Your therapy sabotage:** You analyze feelings instead of feeling them. You research your therapist more than trust them. You think your way around growth.
 
-### What Actually Works
+### Approaches That Tend to Resonate
 
 **CBT:** Speaks your language. Logic first, feelings later. Clear rationales for everything. No surprises.
 
@@ -239,7 +245,7 @@ Need someone competent who respects boundaries and explains their methods. If th
 
 **Your therapy sabotage:** You test your therapist like they are applying for security clearance. You doubt everything works. You scan for danger instead of healing. Understanding [your type's unique anxiety signature](/enneagram-corner/anxiety-and-enneagram-types-guide#head-triad) helps you recognize when vigilance is productive versus when it's keeping you stuck.
 
-### What Actually Works
+### Approaches That Tend to Resonate
 
 **CBT:** Evidence-based and transparent. Challenges your catastrophic thinking with facts, not feelings. You can trust data.
 
@@ -266,7 +272,7 @@ Need someone transparent and consistent who earns trust through reliability, not
 
 **Your therapy sabotage:** You turn therapy into stand-up comedy. You future-trip instead of feeling. You have seventeen backup plans to avoid one feeling.
 
-### What Actually Works
+### Approaches That Tend to Resonate
 
 **ACT:** Keeps you moving forward while processing. You can commit to action without drowning in analysis.
 
@@ -293,7 +299,7 @@ Need someone who can match your energy but will not let you perform. They need t
 
 **Your therapy sabotage:** You test your therapist's spine. You deny having feelings. You try to therapize yourself.
 
-### What Actually Works
+### Approaches That Tend to Resonate
 
 **Gestalt:** Matches your intensity. Calls you out in real-time. No hiding behind intellectualization.
 
@@ -320,7 +326,7 @@ Need someone with a titanium spine who will not collapse under your intensity bu
 
 **Your therapy sabotage:** You agree with everything and change nothing. You merge with your therapist's agenda. You literally fall asleep mid-session.
 
-### What Actually Works
+### Approaches That Tend to Resonate
 
 **Gestalt:** Forces you to answer "What do YOU want?" until you stop deflecting. No more hiding in the fog.
 
@@ -381,13 +387,13 @@ One modality rarely fixes everything. Here is what works when you stack them:
 - Three months, zero growth
 - They trigger your core wounds without helping you heal
 
-### Non-Negotiables by Center
+### Worth Considering by Center
 
-**Body Types (8, 9, 1):** You MUST include body work
+**Body Types (8, 9, 1):** Including some form of body awareness work can make a real difference.
 
-**Heart Types (2, 3, 4):** You MUST practice authentic relating
+**Heart Types (2, 3, 4):** Practicing authentic relating — not performing — tends to unlock the most growth.
 
-**Head Types (5, 6, 7):** You MUST feel, not just think
+**Head Types (5, 6, 7):** Finding ways to feel, not just think, can complement cognitive approaches.
 
 ## Red Flags: Therapists to Avoid
 
@@ -446,13 +452,15 @@ Give them this script in your first session:
 
 Most insurance covers CBT, DBT, and standard talk therapy. Specialized bodywork? Usually out of pocket. Ask about sliding scale. No shame in negotiating.
 
-### How Often You Actually Need It
+### How Often Tends to Work
 
-**Weekly:** Types 1, 2, 3, 6, 9. You need consistency or you will avoid.
+_Discuss frequency with your therapist — these are general patterns, not rules._
 
-**Flexible:** Types 4, 5. Bi-weekly works if you are processing between sessions.
+**Weekly:** Types who benefit from consistency and accountability (often 1, 2, 3, 6, 9).
 
-**Intensive:** Types 7, 8. Deep dives work better than slow drips.
+**Flexible:** Types who process deeply between sessions may do well bi-weekly (often 4, 5).
+
+**Intensive:** Types who prefer deep dives over slow drips may respond to intensive formats (often 7, 8).
 
 ## What Now
 
@@ -513,11 +521,11 @@ Online works well for Head types (5, 6, 7) and anyone doing CBT or talk-based th
           "https://twitter.com/djwayne3"
         ]
       },
-	      "dateModified": "2026-01-21",
+	      "dateModified": "2026-03-10",
 	      "datePublished": "2025-09-09",
-	      "description": "Your Enneagram type predicts how you will sabotage therapy. Find the modality that cuts through your defenses, from CBT to somatic work.",
-	      "headline": "The Enneagram Guide to Therapy: Which Approach Actually Works for Your Type",
-	      "name": "The Enneagram Guide to Therapy: Which Approach Actually Works for Your Type",
+	      "description": "Your personality patterns affect how you show up in therapy — and which approaches tend to resonate. Understand your tendencies so you can get more out of the process.",
+	      "headline": "How Your Enneagram Type Shapes Your Therapy Experience",
+	      "name": "How Your Enneagram Type Shapes Your Therapy Experience",
 	      "url": "https://9takes.com/enneagram-corner/mental-health/enneagram-therapy-guide",
 	      "image": {
 	        "@type": "ImageObject",
@@ -596,4 +604,15 @@ Online works well for Head types (5, 6, 7) and anyone doing CBT or talk-based th
 </svelte:head>
 
 <style lang="scss">
+  .medical-disclaimer {
+    background-color: #fff3cd;
+    border: 2px solid #ffc107;
+    padding: 1.5rem;
+    margin: 2rem 0;
+    border-radius: 8px;
+    p {
+      color: #856404;
+      margin-bottom: 0;
+    }
+  }
 </style>
