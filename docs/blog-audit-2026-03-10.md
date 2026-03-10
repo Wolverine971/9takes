@@ -35,7 +35,7 @@ All D-grade (6.9) with prescriptive medical/diagnostic phrasing that creates lia
 
 - [x] 1. enneagram-medication-mental-health.md (safety edits applied 2026-03-10)
 - [x] 2. enneagram-parenting-mental-health.md (safety edits applied 2026-03-10)
-- [ ] 3. enneagram-addiction-recovery-guide.md
+- [x] 3. enneagram-addiction-recovery-guide.md (safety edits applied 2026-03-10)
 - [ ] 4. enneagram-therapy-guide.md
 - [ ] 5. enneagram-trauma-response-guide.md
 - [ ] 6. enneagram-neurodivergence-guide.md

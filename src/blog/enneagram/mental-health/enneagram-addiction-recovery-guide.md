@@ -1,10 +1,10 @@
 ---
 title: "Enneagram and Addiction: Understanding Each Type's Escape Patterns"
-description: 'Discover how each Enneagram type develops specific addictions, from substances to behaviors. Learn recovery strategies tailored to your personality type.'
+description: 'How each Enneagram type tends to develop escape patterns — and recovery approaches that address the personality-driven "why" behind addiction.'
 author: 'DJ Wayne'
 date: '2025-09-01'
 loc: 'https://9takes.com/enneagram-corner/mental-health/enneagram-addiction-recovery-guide'
-lastmod: '2026-01-21'
+lastmod: '2026-03-10'
 changefreq: 'monthly'
 priority: '0.8'
 published: true
@@ -18,6 +18,7 @@ quality_score: 6.9
 quality_graded_at: '2026-02-22'
 quality_rewrite_priority: 'rebuild'
 quality_safety_gate: 'fail'
+quality_update_note: 'Safety edits applied 2026-03-10: added disclaimer, softened diagnostic claims and prescriptive treatment mappings'
 ---
 
 <!-- QUALITY_FEEDBACK_START
@@ -26,6 +27,7 @@ Strengths: practical utility (9.9); Enneagram depth (9.7).
 Improve next: Add explicit educational/clinical boundaries and remove diagnostic-or-prescriptive phrasing.
 Tags: safety-boundary-risk
 Graded: 2026-02-22
+UPDATE 2026-03-10: Safety edits applied — added disclaimer, softened diagnostic claims, reframed prescriptive treatment mappings. Needs re-grading.
 QUALITY_FEEDBACK_END -->
 
 <script>
@@ -35,8 +37,12 @@ QUALITY_FEEDBACK_END -->
 </script>
 
 <QuickAnswer question="How does personality affect addiction and recovery?">
-Each Enneagram type has distinct addiction vulnerabilities: Type 1s become workaholics to escape their inner critic; Type 7s use multiple substances to avoid pain; Type 9s numb with food and TV. Recovery must match your type. Type 3s need authenticity work, Type 4s need DBT skills, Type 6s need anxiety management. Understanding your type's "why" behind addiction transforms recovery from willpower to wisdom.
+Each Enneagram type tends to develop distinct escape patterns: Type 1s may become workaholics to silence their inner critic; Type 7s may use multiple substances to stay ahead of pain; Type 9s may numb with food and screens. Recovery approaches that address each type's underlying "why" — not just the addiction itself — can transform the process from white-knuckling to genuine growth.
 </QuickAnswer>
+
+<div class="medical-disclaimer">
+  <p><strong>Important:</strong> This article explores personality-driven patterns around addiction — it is not a substitute for professional treatment. Addiction is a complex condition that requires qualified clinical support. If you or someone you know is struggling, please contact <strong>SAMHSA's National Helpline: 1-800-662-4357</strong> (free, confidential, 24/7) or reach out to a licensed addiction counselor.</p>
+</div>
 
 <p class="firstLetter">The Type 1 attorney who bills 80 hours a week isn't "dedicated." She's running from an inner critic that attacks every moment she slows down. The Type 7 life of the party isn't "fun-loving." He's cycling through alcohol, cocaine, shopping, and sex to stay one step ahead of grief he's never processed. The Type 9 who can't stop eating isn't lacking discipline. She's filling a void created by decades of disappearing.</p>
 
@@ -121,7 +127,7 @@ This perfectionist drive often leads Type 1s to seek [therapy approaches that ad
 6. **Collapse**: Rules fail under their own weight
 7. **Repeat**: Cycle intensifies
 
-### Recovery That Works for Type 1s
+### Recovery Approaches That Resonate with Type 1s
 
 **The core shift:** Progress, not perfection. Recovery is messy. Accept it now or suffer longer.
 
@@ -172,7 +178,7 @@ Understanding [trauma responses in Type 2s](/enneagram-corner/mental-health/enne
 5. **Overcompensation**: Double down on helping others
 6. **Burnout**: Empty tank returns them to addiction
 
-### Recovery That Works for Type 2s
+### Recovery Approaches That Resonate with Type 2s
 
 **The core shift:** Your needs matter. Full stop. Not "your needs matter after everyone else's." Your needs matter, period.
 
@@ -223,7 +229,7 @@ The Achiever's addiction often manifests in [workplace environments](/enneagram-
 5. **Crash**: Emptiness floods back
 6. **Escalation**: Need more to maintain the illusion
 
-### Recovery That Works for Type 3s
+### Recovery Approaches That Resonate with Type 3s
 
 **The core shift:** Your worth isn't earned. It exists. The performance can stop.
 
@@ -272,11 +278,11 @@ The romantic fantasy provides the connection that reality never delivers. The me
 5. **Shame**: Self-hatred spiral confirms their fundamental flaw
 6. **Isolation**: Pulls away, deepening the abandonment wound
 
-### Recovery That Works for Type 4s
+### Recovery Approaches That Resonate with Type 4s
 
 **The core shift:** You can feel deeply without drowning. Emotions are visitors, not your identity.
 
-**Emotional regulation:** DBT skills training is particularly effective for Type 4s. Learn to surf emotions instead of being pulled under. Build routine as stability, not as imprisonment.
+**Emotional regulation:** Many Type 4s report that skills-based approaches for managing intense emotions (like those used in DBT) resonate with them. Learning to surf emotions instead of being pulled under. Building routine as stability, not as imprisonment.
 
 **Find beauty in ordinary:** Gratitude practices that aren't performative. Mindfulness of simple pleasures. Connection with community that doesn't require you to be special to belong.
 
@@ -321,7 +327,7 @@ Gaming offers complete worlds with no social drain. Information addiction feels 
 5. **Disconnection**: Increasing alienation from life
 6. **Depletion**: Paradoxically, isolation depletes more than connection would
 
-### Recovery That Works for Type 5s
+### Recovery Approaches That Resonate with Type 5s
 
 **The core shift:** Connection doesn't deplete you. Isolation does. The walls you built to protect yourself became the prison.
 
@@ -379,7 +385,7 @@ Alcohol provides courage they can't find sober. Anxiety medication offers chemic
 5. **Anxiety**: Returns worse than before
 6. **Dependence**: External solution becomes the only solution
 
-### Recovery That Works for Type 6s
+### Recovery Approaches That Resonate with Type 6s
 
 **The core shift:** You can handle uncertainty. You already have. The evidence is that you're still here.
 
@@ -399,7 +405,7 @@ Watch for: Doubt spirals intensifying. Testing people to see if they'll abandon 
 
 ## Type 7: The Enthusiast's Addictions
 
-The Type 7 is the most obviously addictive personality, and paradoxically, one of the hardest to treat. They'll charm their way through rehab, collect sobriety like another experience, and relapse the moment it stops being novel.
+Type 7s often have the most visible escape patterns — and paradoxically, some of the trickiest recovery journeys. They may charm their way through rehab, collect sobriety like another experience, and lose interest the moment it stops being novel.
 
 ### What Type 7s Reach For
 
@@ -430,7 +436,7 @@ Type 7s often struggle with multiple addictions simultaneously, making [crisis m
 5. **Crash**: Reality returns, often worse
 6. **Escalation**: Need more variety, higher doses, new experiences
 
-### Recovery That Works for Type 7s
+### Recovery Approaches That Resonate with Type 7s
 
 **The core shift:** You can survive difficult feelings. They won't kill you. Running from them might.
 
@@ -481,7 +487,7 @@ The Challenger's addiction often stems from early [trauma that taught them vulne
 5. **Isolation**: Pushed everyone away who got too close
 6. **Emptiness**: Need more power to fill the void
 
-### Recovery That Works for Type 8s
+### Recovery Approaches That Resonate with Type 8s
 
 **The core shift:** Vulnerability is not weakness. It's courage. And you have more than enough courage.
 
@@ -530,7 +536,7 @@ Television fills the space without demanding anything. Food comforts without con
 5. **Stagnation**: Life passes by while they're checked out
 6. **Resignation**: Why bother waking up anyway?
 
-### Recovery That Works for Type 9s
+### Recovery Approaches That Resonate with Type 9s
 
 **The core shift:** Your presence matters. Your voice deserves to be heard. Disappearing isn't peace. It's slow death.
 
@@ -576,19 +582,19 @@ Each center has predictable ways they sabotage their own recovery:
 
 ## Recovery Resources by Type
 
-### Recommended Programs
+### Programs Worth Exploring
 
-Different types respond to different recovery environments:
+_Different people respond to different recovery environments. These are starting points for exploration — not clinical recommendations. A licensed addiction counselor can help you find the right fit._
 
-- **Type 1**: SMART Recovery's structure without shame; CoDA for relationship patterns
-- **Type 2**: CoDA, Al-Anon, SLAA for relationship-based recovery
-- **Type 3**: Workaholics Anonymous; AA groups that value authenticity over achievement
-- **Type 4**: DBT-informed groups; AA/NA with space for emotional depth
-- **Type 5**: Online meetings as a bridge; SMART Recovery's evidence-based approach
-- **Type 6**: Traditional 12-step's community and structure
-- **Type 7**: AA/NA with engaging, dynamic groups that make recovery interesting
-- **Type 8**: Men's or women's focused groups; programs that respect strength
-- **Type 9**: Groups with accountability and gentle activation
+- **Type 1**: May appreciate structured, goal-oriented programs; codependency-focused groups for relationship patterns
+- **Type 2**: Often drawn to relationship-focused recovery communities like CoDA or Al-Anon
+- **Type 3**: May benefit from groups that value authenticity over achievement
+- **Type 4**: Often resonates with groups that honor emotional depth and creative expression
+- **Type 5**: Online meetings can serve as a bridge; evidence-based approaches often appeal
+- **Type 6**: Often thrives in community-based programs with consistent structure
+- **Type 7**: Tends to engage with dynamic, varied groups that make recovery interesting
+- **Type 8**: May prefer gender-focused groups or programs that respect strength
+- **Type 9**: Often benefits from groups with accountability and gentle activation
 
 ### Books Worth Reading
 
@@ -724,9 +730,9 @@ Look for licensed addiction counselors or therapists who mention the Enneagram i
           "https://twitter.com/djwayne3"
         ]
       },
-	      "dateModified": "2026-01-21",
+	      "dateModified": "2026-03-10",
 	      "datePublished": "2025-09-01",
-	      "description": "Discover how each Enneagram type develops specific addictions, from substances to behaviors. Learn recovery strategies tailored to your personality type.",
+	      "description": "How each Enneagram type tends to develop escape patterns — and recovery approaches that address the personality-driven why behind addiction.",
 	      "headline": "Enneagram and Addiction: Understanding Each Type's Escape Patterns",
 	      "name": "Enneagram and Addiction: Understanding Each Type's Escape Patterns",
 	      "url": "https://9takes.com/enneagram-corner/mental-health/enneagram-addiction-recovery-guide",
@@ -805,4 +811,16 @@ Look for licensed addiction counselors or therapists who mention the Enneagram i
 </svelte:head>
 
 <style lang="scss">
+  .medical-disclaimer {
+    background-color: #fff3cd;
+    border: 2px solid #ffc107;
+    padding: 1.5rem;
+    margin: 2rem 0;
+    border-radius: 8px;
+
+    p {
+      color: #856404;
+      margin-bottom: 0;
+    }
+  }
 </style>
