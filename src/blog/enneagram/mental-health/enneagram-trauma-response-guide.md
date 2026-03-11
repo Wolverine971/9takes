@@ -1,10 +1,10 @@
 ---
 title: 'Enneagram Types and Trauma Response: Understanding Your Survival Patterns'
-description: 'Explore how each Enneagram type processes trauma differently through fight, flight, freeze, and fawn responses. Discover healing pathways tailored to your personality type.'
+description: 'How each Enneagram type tends to process trauma through fight, flight, freeze, and fawn responses — and what healing approaches may resonate with your patterns.'
 author: 'DJ Wayne'
 date: '2025-09-09'
 loc: 'https://9takes.com/enneagram-corner/mental-health/enneagram-trauma-response-guide'
-lastmod: '2026-01-23'
+lastmod: '2026-03-10'
 changefreq: 'monthly'
 priority: '0.8'
 published: true
@@ -18,6 +18,7 @@ quality_score: 6.9
 quality_graded_at: '2026-02-22'
 quality_rewrite_priority: 'rebuild'
 quality_safety_gate: 'fail'
+quality_update_note: 'Safety edits applied 2026-03-10: added disclaimer, softened diagnostic claims and prescriptive healing sections'
 ---
 
 <!-- QUALITY_FEEDBACK_START
@@ -26,6 +27,7 @@ Strengths: Enneagram depth (9.7); practical utility (9.5).
 Improve next: Strengthen the first 2-3 paragraphs with a sharper promise and clearer stakes. Add explicit educational/clinical boundaries and remove diagnostic-or-prescriptive phrasing.
 Tags: weak-hook, safety-boundary-risk
 Graded: 2026-02-22
+UPDATE 2026-03-10: Safety edits applied — added disclaimer, softened diagnostic claims and prescriptive healing sections. Needs re-grading.
 QUALITY_FEEDBACK_END -->
 
 <!--
@@ -43,7 +45,11 @@ NOTES:
   import MarqueeHorizontal from "$lib/components/atoms/MarqueeHorizontal.svelte";
 </script>
 
-<p class="firstLetter">Your trauma response isn't random. It's as predictable as your Enneagram type. And that's your way out.</p>
+<div class="medical-disclaimer">
+  <p><strong>Important:</strong> This article explores how personality patterns may relate to trauma responses. It is not a clinical assessment or diagnosis. Trauma is complex and requires professional support. If you're in crisis, call <strong>988 (Suicide & Crisis Lifeline)</strong> or text HOME to 741741 (Crisis Text Line).</p>
+</div>
+
+<p class="firstLetter">Your trauma response isn't random. It often follows patterns that align closely with your personality type. And understanding those patterns can be a powerful step toward healing.</p>
 
 Every type developed specific survival strategies [in childhood](/enneagram-corner/enneagram-childhood-stereotypes). Type 8s learned to attack first. Type 9s learned to disappear. Type 3s learned to outrun their pain through achievement.
 
@@ -58,7 +64,7 @@ Most Enneagram patterns don't form from one bad day. They form from **complex tr
 - **PTSD:** Single incident trauma (car accident, assault, natural disaster). Clear before/after.
 - **C-PTSD:** Death by a thousand cuts. Ongoing neglect, emotional abuse, chaotic homes, parentification. No single event to point to, just years of survival mode.
 
-Your Enneagram type IS your C-PTSD adaptation. It's not who you are. It's who you became to survive an environment where your needs weren't met.
+Some researchers and therapists observe strong parallels between Enneagram patterns and C-PTSD adaptations — the idea that your personality style may partly reflect how you learned to survive environments where your needs weren't fully met.
 
 **The three additional symptoms of C-PTSD:**
 
@@ -92,7 +98,7 @@ Physical symptoms: heart palpitations, chest tightness, chronic fatigue, thyroid
 
 Physical symptoms: migraines, insomnia, IBS, nervous system disorders.
 
-**A note on physical symptoms:** Your back pain might not be "just posture." Your migraines might not be "just stress." Unresolved trauma manifests physically. If doctors can't find a cause, consider trauma as a factor.
+**A note on physical symptoms:** Persistent physical symptoms without clear medical cause — chronic pain, migraines, digestive issues — sometimes have a stress or trauma component. This doesn't mean it's "in your head." It means the body and mind are connected. Talk to your doctor about the full picture.
 
 <div class="scroll-fade">
 <MarqueeHorizontal displayList={[
@@ -118,7 +124,7 @@ Physical symptoms: migraines, insomnia, IBS, nervous system disorders.
 - Body holds so much tension you're basically a human fist
 - Self-compassion feels like moral failure
 
-### What Actually Heals Type 1s
+### Healing Approaches That Tend to Resonate with Type 1s
 
 **Body work first.** Your trauma lives in your muscles. Massage, yoga, somatic therapy. Release the physical prison before addressing the mental one.
 
@@ -149,7 +155,7 @@ Physical symptoms: migraines, insomnia, IBS, nervous system disorders.
 - Manipulation tactics when desperate
 - Burnout is your default state
 
-### What Actually Heals Type 2s
+### Healing Approaches That Tend to Resonate with Type 2s
 
 **Attachment repair.** EFT to learn that love doesn't require performance. Group therapy to practice receiving without giving.
 
@@ -180,7 +186,7 @@ Physical symptoms: migraines, insomnia, IBS, nervous system disorders.
 - Without achievements, you don't exist
 - Emotions are inefficient so you deleted them
 
-### What Actually Heals Type 3s
+### Healing Approaches That Tend to Resonate with Type 3s
 
 **Gestalt to get present.** You can't perform your way through real-time confrontation.
 
@@ -211,7 +217,7 @@ Physical symptoms: migraines, insomnia, IBS, nervous system disorders.
 - Self-sabotage when things go well
 - Push people away, then panic when they leave
 
-### What Actually Heals Type 4s
+### Healing Approaches That Tend to Resonate with Type 4s
 
 **DBT for the emotional tsunami.** Learn to surf the waves instead of drowning.
 
@@ -242,7 +248,7 @@ Physical symptoms: migraines, insomnia, IBS, nervous system disorders.
 - Hoarding knowledge like it's food
 - Asking for help feels like death
 
-### What Actually Heals Type 5s
+### Healing Approaches That Tend to Resonate with Type 5s
 
 **Somatic experiencing.** Gentle reconnection to the body you abandoned.
 
@@ -273,7 +279,7 @@ Physical symptoms: migraines, insomnia, IBS, nervous system disorders.
 - Analysis paralysis on every decision
 - Seeing danger where there's none
 
-### What Actually Heals Type 6s
+### Healing Approaches That Tend to Resonate with Type 6s
 
 **EMDR for betrayal trauma.** Process without retraumatizing.
 
@@ -314,7 +320,7 @@ Physical symptoms: migraines, insomnia, IBS, nervous system disorders.
 - FOMO runs your life
 - Depression hiding under the party mask
 
-### What Actually Heals Type 7s
+### Healing Approaches That Tend to Resonate with Type 7s
 
 **DBT for distress tolerance.** Learn to sit in discomfort without dying.
 
@@ -345,7 +351,7 @@ Physical symptoms: migraines, insomnia, IBS, nervous system disorders.
 - Anger is your only emotion
 - Control everything or lose everything
 
-### What Actually Heals Type 8s
+### Healing Approaches That Tend to Resonate with Type 8s
 
 **Safe vulnerability practice.** Men's/women's circles where strength includes tears.
 
@@ -376,7 +382,7 @@ Physical symptoms: migraines, insomnia, IBS, nervous system disorders.
 - Anger terrifies you
 - Procrastination is self-erasure
 
-### What Actually Heals Type 9s
+### Healing Approaches That Tend to Resonate with Type 9s
 
 **Somatic therapy.** Inhabit the body you abandoned.
 
@@ -541,15 +547,15 @@ However, know the difference between productive discomfort and retraumatization.
 - You can't get out of bed
 - The trauma is winning
 
-### What Actually Works
+### Approaches Worth Discussing with a Therapist
 
-- **EMDR:** Reprocess without retraumatizing
+- **EMDR:** Reprocess trauma without retraumatizing
 - **Somatic Experiencing:** Body-based healing
 - **IFS:** Make peace with all your parts
-- **CPT:** Rewrite the trauma story
-- **Neurofeedback:** Train your brain out of trauma
+- **CPT:** Rewrite the trauma narrative
+- **Neurofeedback:** Brain-based training for trauma recovery
 
-## Required Reading by Type
+## Books Worth Exploring by Type
 
 - **Type 1:** "Self-Compassion" by Kristin Neff. Learn to stop beating yourself up.
 - **Type 2:** "Codependent No More" by Melody Beattie. Your recovery bible.
@@ -569,12 +575,12 @@ But you're not in danger anymore. The war is over, yet you're still in combat mo
 
 Your Enneagram type shows you exactly how you survived and exactly how to heal. The pattern that saved you is now the prison. But you built it, which means you can dismantle it.
 
-**The non-negotiables:**
+**What many trauma survivors find:**
 
-- Healing happens in relationship
-- The body keeps the score
-- You can't think your way out
-- Professional help isn't optional
+- Healing often happens in relationship
+- The body holds more than we realize
+- Thinking alone rarely resolves what the body carries
+- Professional support makes a meaningful difference
 
 ### When Self-Help Isn't Enough
 
@@ -621,7 +627,7 @@ For the full arsenal: [Trauma-informed therapy](/enneagram-corner/mental-health/
         ]
       },
       "datePublished": "2025-09-09",
-      "dateModified": "2026-01-23",
+      "dateModified": "2026-03-10",
       "image": {
         "@type": "ImageObject",
         "url": "https://9takes.com/blogs/enneagram-trauma-response.webp",
@@ -757,6 +763,14 @@ For the full arsenal: [Trauma-informed therapy](/enneagram-corner/mental-health/
 </svelte:head>
 
 <style lang="scss">
+  .medical-disclaimer {
+    background-color: #fff3cd;
+    border: 2px solid #ffc107;
+    padding: 1.5rem;
+    margin: 2rem 0;
+    border-radius: 8px;
+    p { color: #856404; margin-bottom: 0; }
+  }
 </style>
 
 <!--

@@ -4,7 +4,7 @@ description: "Therapy wasn't designed for everyone. The talking cure assumes you
 author: 'DJ Wayne'
 date: '2026-01-30'
 loc: 'https://9takes.com/enneagram-corner/why-therapy-doesnt-work-the-same-for-every-type'
-lastmod: '2026-01-30'
+lastmod: '2026-03-10'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
@@ -19,6 +19,7 @@ quality_score: 6.9
 quality_graded_at: '2026-02-22'
 quality_rewrite_priority: 'rebuild'
 quality_safety_gate: 'fail'
+quality_update_note: 'Safety edits applied 2026-03-10: added disclaimer, softened prescriptive modality claims, reframed anti-therapy tone'
 ---
 
 <!-- QUALITY_FEEDBACK_START
@@ -37,6 +38,10 @@ QUALITY_FEEDBACK_END -->
 <QuickAnswer question="Why doesn't therapy work for everyone?">
 Therapy was built around one core assumption: that talking about feelings leads to healing. But research shows people process emotions differently — some through words, some through their bodies, some through analytical thinking. The dominant therapeutic model works beautifully for certain personality types and systematically fails others. It's not that you're broken. It's that the system wasn't designed for how your brain actually works.
 </QuickAnswer>
+
+<div class="medical-disclaimer">
+  <p><strong>Important note:</strong> This article is about finding the right therapeutic <em>approach</em> — not about avoiding therapy. If you're struggling, please seek professional support. The right match can be transformative. Call the <strong>988 Suicide and Crisis Lifeline</strong> (call or text 988) if you need immediate help.</p>
+</div>
 
 <p class="firstLetter">You've done everything right. Weekly sessions. Homework completed. You can articulate your childhood wounds with clinical precision. And yet — nothing has actually changed.</p>
 
@@ -64,7 +69,7 @@ If you're someone who processes emotions through your body, sitting in a chair t
 
 If you're someone who processes through analytical thinking, you can become an expert on your own psychology while remaining completely stuck. You collect insights like trophies. You understand everything and change nothing.
 
-**The talking cure has a 50% response rate.** That's not a success story — that's a coin flip. And the 50% it fails aren't failing because they're resistant or unmotivated. They're failing because the tool doesn't match how they're built.
+**Some research suggests the talking cure has roughly a 50% response rate** — which means many people benefit, but many don't. And those who don't aren't necessarily failing because they're resistant or unmotivated. The approach may simply not match how they're built.
 
 <div style="overflow: hidden;">
 <MarqueeHorizontal displayList={[
@@ -156,13 +161,13 @@ The system selects for its own success.
 
 When personality types DO make it to therapy, they face another obstacle: being seen through the wrong lens.
 
-Research shows that **12 million adults are misdiagnosed annually** in the US healthcare system. In mental health specifically, certain personality presentations are consistently misread:
+Some estimates suggest that **millions of adults may be misdiagnosed** within the US healthcare system each year. In mental health specifically, certain personality presentations can be misread:
 
-**Type 8 directness** → diagnosed as "anger management issues" or oppositional behavior
-**Type 5 withdrawal** → diagnosed as avoidant personality or depression
-**Type 4 emotional intensity** → diagnosed as borderline or "dramatic"
-**Type 6 vigilance** → diagnosed as generalized anxiety or paranoid features
-**Type 1 standards** → diagnosed as OCD-like or perfectionistic personality
+**Type 8 directness** → sometimes misread as "anger management issues" or oppositional behavior
+**Type 5 withdrawal** → sometimes misread as avoidant personality or depression
+**Type 4 emotional intensity** → sometimes misread as borderline or "dramatic"
+**Type 6 vigilance** → sometimes misread as generalized anxiety or paranoid features
+**Type 1 standards** → sometimes misread as OCD-like or perfectionistic personality
 
 **Women face particular challenges:** Nearly 80% of women with autism are initially misdiagnosed — often with borderline personality disorder, eating disorders, or anxiety. The average delay between first mental health contact and correct autism diagnosis is **10 years.** Personality presentations that don't match stereotyped expectations get pathologized.
 
@@ -186,9 +191,9 @@ Therapists are trained to build rapport. Clients are supposed to feel comfortabl
 
 For some types, the therapist needs to be _less_ comfortable. The dynamic needs _more_ friction. "Good rapport" becomes a trap when it lets the client's defenses run the show.
 
-## What Actually Works: Matching Modality to Emotional Center
+## Finding a Better Match: Modality and Emotional Center
 
-The solution isn't "therapy doesn't work." The solution is matching the approach to how your brain actually processes emotions.
+The takeaway isn't "therapy doesn't work." It's that matching the approach to how your brain processes emotions can make a significant difference. These are patterns worth discussing with a therapist you trust — not prescriptions.
 
 ### For Heart Types (2, 3, 4): Get Out of the Feelings Loop
 
@@ -314,7 +319,7 @@ If therapy has consistently left you:
 - A different context (group rather than individual)
 - A different channel entirely (bodywork, meditation practice, experiential programs)
 
-The therapeutic industrial complex has one main product: talk therapy in weekly 50-minute sessions. That doesn't make it the only path to change. For some types, the path runs through the body, through action, through experience — not through words.
+The dominant therapeutic model centers on talk therapy in weekly 50-minute sessions. That doesn't make it the only path to change. For some types, the path runs through the body, through action, through experience — not through words.
 
 ## The Bottom Line
 
@@ -379,7 +384,7 @@ If you're consistently doing the work (showing up, engaging, trying homework) an
           "https://twitter.com/djwayne3"
         ]
       },
-      "dateModified": "2026-01-30",
+      "dateModified": "2026-03-10",
       "datePublished": "2026-01-30",
       "description": "Therapy wasn't designed for everyone. The talking cure assumes you process emotions through words — but what if your brain works differently? Here's why the system fails certain types.",
       "headline": "Why Therapy Doesn't Work the Same for Every Personality Type",
@@ -454,4 +459,15 @@ If you're consistently doing the work (showing up, engaging, trying homework) an
 </svelte:head>
 
 <style lang="scss">
+  .medical-disclaimer {
+    background-color: #fff3cd;
+    border: 2px solid #ffc107;
+    padding: 1.5rem;
+    margin: 2rem 0;
+    border-radius: 8px;
+    p {
+      color: #856404;
+      margin-bottom: 0;
+    }
+  }
 </style>

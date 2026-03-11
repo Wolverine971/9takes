@@ -1101,7 +1101,7 @@
 </url>
 <url>
     <loc>https://9takes.com/enneagram-corner/why-therapy-doesnt-work-the-same-for-every-type</loc>
-    <lastmod>2026-01-30T00:00:00.000Z</lastmod>
+    <lastmod>2026-03-10T00:00:00.000Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -1155,7 +1155,7 @@
 </url>
 <url>
     <loc>https://9takes.com/enneagram-corner/mental-health/enneagram-neurodivergence-guide</loc>
-    <lastmod>2026-01-21T00:00:00.000Z</lastmod>
+    <lastmod>2026-03-10T00:00:00.000Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -1182,7 +1182,7 @@
 </url>
 <url>
     <loc>https://9takes.com/enneagram-corner/mental-health/enneagram-therapy-guide</loc>
-    <lastmod>2026-01-21T00:00:00.000Z</lastmod>
+    <lastmod>2026-03-10T00:00:00.000Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -1191,7 +1191,7 @@
 </url>
 <url>
     <loc>https://9takes.com/enneagram-corner/mental-health/enneagram-trauma-response-guide</loc>
-    <lastmod>2026-01-23T00:00:00.000Z</lastmod>
+    <lastmod>2026-03-10T00:00:00.000Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -1200,7 +1200,7 @@
 </url>
 <url>
     <loc>https://9takes.com/enneagram-corner/mental-health/enneagram-workplace-mental-health</loc>
-    <lastmod>2025-12-04T00:00:00.000Z</lastmod>
+    <lastmod>2026-03-10T00:00:00.000Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -3431,6 +3431,24 @@
     <priority>0.7</priority>
     <image:image>
         <image:loc>https://9takes.com/types/8s/Napoleon-Bonaparte.webp</image:loc>
+    </image:image>
+</url>
+<url>
+    <loc>https://9takes.com/personality-analysis/Howard-Stern</loc>
+    <lastmod>2026-03-11T00:00:00.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+        <image:loc>https://9takes.com/types/6s/Howard-Stern.webp</image:loc>
+    </image:image>
+</url>
+<url>
+    <loc>https://9takes.com/personality-analysis/Stephen-Colbert</loc>
+    <lastmod>2026-03-11T00:00:00.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+        <image:loc>https://9takes.com/types/6s/Stephen-Colbert.webp</image:loc>
     </image:image>
 </url>
 <url>

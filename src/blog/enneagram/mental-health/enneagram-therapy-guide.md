@@ -83,16 +83,16 @@ These are commonly observed patterns that many therapists and clients report. Un
 
 _Your therapist is the best person to recommend a specific modality for your situation. This overview can help you have a more informed conversation about what might resonate._
 
-| Modality          | What It Does                     | Often Resonates With               | May Not Be the Best Fit If           |
-| ----------------- | -------------------------------- | ----------------------------------- | ------------------------------------ |
-| **CBT**           | Rewires thoughts through logic   | Types who appreciate structure      | You intellectualize to avoid feeling |
-| **DBT**           | Emotional regulation toolkit     | Types with intense emotions         | You are stable and need depth work   |
-| **Psychodynamic** | Excavates childhood wounds       | Types who have buried their true self | You need immediate crisis help     |
-| **Somatic**       | Releases body-stored tension     | Body-centered types (8, 9, 1)       | You are dissociated (start gentler)  |
-| **IFS**           | Negotiates internal parts        | Types with strong inner critics     | You are in acute crisis              |
-| **EMDR**          | Trauma processing without story  | Anyone with PTSD/trauma             | You cannot tolerate distress yet     |
-| **Gestalt**       | Real-time confrontation          | Types who tend to deflect           | You are fragile or in crisis         |
-| **ACT**           | Accept what is, commit to action | Types stuck in paralysis            | You need emotional processing first  |
+| Modality          | What It Does                     | Often Resonates With                  | May Not Be the Best Fit If           |
+| ----------------- | -------------------------------- | ------------------------------------- | ------------------------------------ |
+| **CBT**           | Rewires thoughts through logic   | Types who appreciate structure        | You intellectualize to avoid feeling |
+| **DBT**           | Emotional regulation toolkit     | Types with intense emotions           | You are stable and need depth work   |
+| **Psychodynamic** | Excavates childhood wounds       | Types who have buried their true self | You need immediate crisis help       |
+| **Somatic**       | Releases body-stored tension     | Body-centered types (8, 9, 1)         | You are dissociated (start gentler)  |
+| **IFS**           | Negotiates internal parts        | Types with strong inner critics       | You are in acute crisis              |
+| **EMDR**          | Trauma processing without story  | Anyone with PTSD/trauma               | You cannot tolerate distress yet     |
+| **Gestalt**       | Real-time confrontation          | Types who tend to deflect             | You are fragile or in crisis         |
+| **ACT**           | Accept what is, commit to action | Types stuck in paralysis              | You need emotional processing first  |
 
 **Reflect:** Which modality have you tried? If it didn't click, was it the wrong match for your patterns? Or did you fall into your type's typical resistance?
 

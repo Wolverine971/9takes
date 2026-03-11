@@ -4,7 +4,7 @@ description: 'Learn how each Enneagram type experiences workplace stress and bur
 author: 'DJ Wayne'
 date: '2025-08-25'
 loc: 'https://9takes.com/enneagram-corner/mental-health/enneagram-workplace-mental-health'
-lastmod: '2025-12-04'
+lastmod: '2026-03-10'
 changefreq: 'monthly'
 priority: '0.8'
 published: true
@@ -19,6 +19,7 @@ quality_score: 6.9
 quality_graded_at: '2026-02-22'
 quality_rewrite_priority: 'rebuild'
 quality_safety_gate: 'fail'
+quality_update_note: 'Safety edits applied 2026-03-10: added disclaimer, softened prescriptive language, fixed dangerous depression-dismissal claim'
 ---
 
 <!-- QUALITY_FEEDBACK_START
@@ -39,6 +40,10 @@ QUALITY_FEEDBACK_END -->
 <QuickAnswer question="Why are you burning out at work?">
 **Your Enneagram type has a specific "burnout formula"—a predictable set of workplace conditions that drain you.** Type 1s burn out from fixing broken systems nobody cares about. Type 2s burn out from being everyone's unpaid therapist. Type 3s burn out when achievements feel hollow. Type 5s burn out from open offices and meetings about meetings. The fix isn't working harder—it's knowing your kryptonite and building around it.
 </QuickAnswer>
+
+<div class="medical-disclaimer">
+  <p><strong>Important note:</strong> This article explores personality-driven burnout patterns, not clinical diagnoses. Burnout can overlap with depression, anxiety, and other conditions that require professional support. If you're struggling, please reach out to a mental health professional or call the <strong>988 Suicide and Crisis Lifeline</strong> (call or text 988).</p>
+</div>
 
 <p class="firstLetter">Your personality type is burning out at work in a specific, predictable way. And nobody's talking about it.</p>
 
@@ -96,7 +101,7 @@ Every type has a workplace kryptonite—the specific condition that breaks them.
 **Then comes the rage**: Everyone's an idiot
 **Finally, paralysis**: Can't start because can't perfect
 
-### Survival Tactics That Actually Work
+### Strategies That Often Help
 
 **The 80/20 Rule**:
 
@@ -215,7 +220,7 @@ Here's what nobody tells you: Vulnerability gets you promoted faster than perfec
 
 Try this: Share one failure in your next meeting. Watch how people connect with you.
 
-**Danger Zone**: When coffee becomes meals and achievements become empty, you're 30 days from collapse. Act now.
+**Worth paying attention to**: When coffee replaces meals and achievements feel empty, these can be signs of burnout — or something deeper. Consider talking to someone you trust or a professional.
 
 ## Type 4: The Individualist's Burnout
 
@@ -266,7 +271,7 @@ You NEED creative expression like others need coffee:
 - Evening passion project
 - Weekend deep dives
 
-**Warning**: When everything feels gray and nothing sparks joy, you're not depressed—you're in the wrong environment. The cure isn't therapy; it's a new job.
+**Warning**: When everything feels gray and nothing sparks joy, environment mismatch could be a factor — but these are also signs of clinical depression. Talk to a mental health professional to sort out what's situational and what may need clinical support. Sometimes the answer is a new job, sometimes it's therapy, and often it's both.
 
 ## Type 5: The Investigator's Burnout
 
@@ -366,7 +371,7 @@ You start with 100 energy units daily:
 
 You test authority because you need to know if they're reliable. Try this instead: Ask directly: "What's your leadership philosophy on X?" Their answer tells you everything.
 
-**Emergency Signal**: When you're checking job boards at 2am, creating doomsday spreadsheets, or testing your boss daily, you need intervention—therapy, new job, or both.
+**Worth paying attention to**: When you're checking job boards at 2am, creating doomsday spreadsheets, or testing your boss daily — these patterns suggest something needs to change. A therapist, career coach, or trusted mentor can help you figure out what.
 
 ## Type 7: The Enthusiast's Burnout
 
@@ -470,7 +475,7 @@ You ignore your body until it forces you to stop:
 
 As a Type 8, I learned this the hard way: You can control everything and accomplish nothing, or control a few things and dominate.
 
-**Code Red**: When you trust no one, do everything yourself, and your body's breaking down—you're not strong, you're stupid. Get help or get out.
+**Worth paying attention to**: When you trust no one, do everything yourself, and your body's breaking down — that's not strength, it's a pattern worth examining. Consider talking to a coach, therapist, or trusted mentor.
 
 ## Type 9: The Peacemaker's Burnout
 
@@ -543,7 +548,7 @@ quotes={[
 ]}
 />
 
-### The 3-Question Diagnostic
+### The 3-Question Check-In
 
 Ask your team these three questions:
 
@@ -634,7 +639,7 @@ I recommend option 2.
 
 ### Final Reality Check
 
-Most workplace mental health issues aren't mental health issues—they're job-fit issues. You're not broken. You're in the wrong environment.
+Many workplace mental health struggles have a job-fit component. You may not be broken — your environment may be the mismatch. But persistent symptoms deserve professional evaluation, not just a job change.
 
 Stop trying to fix yourself. Start finding where you fit.
 
@@ -658,7 +663,7 @@ Three steps: Stop the bleeding (take time off, say no to everything new), identi
 
 ### Should I quit my job if I'm burned out?
 
-Not immediately. Burnout clouds judgment. First, recover enough to think clearly (usually 2-4 weeks of genuine rest). Then assess: Can this job accommodate your type's needs? Have you tried the strategies in this guide? If you've tried everything for 90 days and conditions can't change, then yes—plan your exit. Staying in a toxic environment isn't perseverance, it's self-harm.
+Not immediately. Burnout clouds judgment. First, recover enough to think clearly (usually 2-4 weeks of genuine rest). Then assess: Can this job accommodate your type's needs? Have you tried the strategies in this guide? If you've tried everything for 90 days and conditions can't change, then yes—plan your exit. Staying in a toxic environment when you have options isn't perseverance — it's worth examining why you're staying.
 
 ### How do managers use the Enneagram to prevent team burnout?
 
@@ -683,7 +688,7 @@ Ask three questions: "What drains your energy fastest?", "When do you do your be
           "https://twitter.com/djwayne3"
         ]
       },
-      "dateModified": "2025-09-09",
+      "dateModified": "2026-03-10",
       "datePublished": "2025-08-25",
       "description": "Learn how each Enneagram type experiences workplace stress and burnout. Discover type-specific strategies for maintaining mental health at work.",
       "headline": "Enneagram and Workplace Mental Health: Preventing Burnout by Type",
@@ -714,4 +719,15 @@ Ask three questions: "What drains your energy fastest?", "When do you do your be
 </svelte:head>
 
 <style lang="scss">
+  .medical-disclaimer {
+    background-color: #fff3cd;
+    border: 2px solid #ffc107;
+    padding: 1.5rem;
+    margin: 2rem 0;
+    border-radius: 8px;
+    p {
+      color: #856404;
+      margin-bottom: 0;
+    }
+  }
 </style>

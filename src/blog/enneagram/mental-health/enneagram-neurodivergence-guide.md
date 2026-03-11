@@ -1,10 +1,10 @@
 ---
 title: 'Enneagram and Neurodivergence: When Personality Meets Brain Wiring'
-description: 'Explore how ADHD, autism, and other neurodivergent conditions interact with each Enneagram type. Learn accommodations and strategies for thriving.'
+description: 'How ADHD, autism, and other neurodivergent conditions interact with each Enneagram type — and strategies that address both your brain wiring and personality patterns.'
 author: 'DJ Wayne'
 date: '2025-08-25'
 loc: 'https://9takes.com/enneagram-corner/mental-health/enneagram-neurodivergence-guide'
-lastmod: '2026-01-21'
+lastmod: '2026-03-10'
 changefreq: 'monthly'
 priority: '0.8'
 published: true
@@ -19,6 +19,7 @@ quality_score: 6.9
 quality_graded_at: '2026-02-22'
 quality_rewrite_priority: 'rebuild'
 quality_safety_gate: 'fail'
+quality_update_note: 'Safety edits applied 2026-03-10: added formal disclaimer box, softened prescriptive claims'
 ---
 
 <!-- QUALITY_FEEDBACK_START
@@ -27,6 +28,7 @@ Strengths: practical utility (9.9); Enneagram depth (9.7).
 Improve next: Reduce repeated section scaffolding and make type sections more differentiated. Add explicit educational/clinical boundaries and remove diagnostic-or-prescriptive phrasing.
 Tags: template-fatigue, safety-boundary-risk
 Graded: 2026-02-22
+UPDATE 2026-03-10: Safety edits applied — added formal disclaimer box, softened prescriptive claims. Needs re-grading.
 QUALITY_FEEDBACK_END -->
 
 <!--
@@ -49,6 +51,10 @@ NOTES:
 <QuickAnswer question="How do ADHD and autism interact with Enneagram types?">
 **Neurodivergence can amplify, mask, or reshape how your Enneagram type shows up.** ADHD might crank up Type 7's stimulation seeking, while Type 1 can get stuck in a loop where executive dysfunction triggers mistakes and mistakes trigger harsh self-judgment. Autism can intensify Type 4's feeling of being different, or make Type 5's systematic thinking feel like home. Generic advice fails because you need strategies that respect both your brain wiring and your personality patterns, not one or the other.
 </QuickAnswer>
+
+<div class="medical-disclaimer">
+  <p><strong>Note:</strong> This article explores how neurodivergent conditions and personality patterns can interact. It cannot diagnose you. If you suspect ADHD, autism, dyslexia, dyspraxia, or other neurodivergent conditions, formal evaluation by a qualified professional is the best path forward.</p>
+</div>
 
 <p class="firstLetter">Generic ADHD advice tells everyone to "embrace the chaos" or "use a planner." That works fine until you're a Type 1 who already has 47 planners and still feels like a failure every time you miss a step.</p>
 
@@ -309,7 +315,7 @@ Emotional swings that feel like weather you can't predict. Hyperfocus on identit
 
 **Strategies That Fit**:
 
-- DBT skills are essential (emotional regulation tools you can actually use)
+- Emotional regulation skills (like those taught in DBT) can be particularly helpful
 - Structure your creative time even when it feels like it kills spontaneity
 - Stable identity anchors: things about you that don't change with mood
 - Integrate ADHD into your uniqueness rather than treating it as a flaw
@@ -815,7 +821,7 @@ Your type helps you know how to ask for what your brain needs.
           "https://twitter.com/djwayne3"
         ]
       },
-	      "dateModified": "2026-01-21",
+	      "dateModified": "2026-03-10",
 	      "datePublished": "2025-08-25",
 	      "description": "Explore how ADHD, autism, and other neurodivergent conditions interact with each Enneagram type. Learn accommodations and strategies for thriving.",
 	      "headline": "Enneagram and Neurodivergence: When Personality Meets Brain Wiring",
@@ -852,4 +858,12 @@ Your type helps you know how to ask for what your brain needs.
 </svelte:head>
 
 <style lang="scss">
+  .medical-disclaimer {
+    background-color: #fff3cd;
+    border: 2px solid #ffc107;
+    padding: 1.5rem;
+    margin: 2rem 0;
+    border-radius: 8px;
+    p { color: #856404; margin-bottom: 0; }
+  }
 </style>

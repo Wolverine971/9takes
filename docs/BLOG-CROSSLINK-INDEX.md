@@ -1,7 +1,7 @@
 <!-- docs/BLOG-CROSSLINK-INDEX.md -->
 # Blog Cross-Link Index
 
-_Generated: 2026-03-10_
+_Generated: 2026-03-11_
 _Total Posts Analyzed: 163 (Published: 137, Unpublished: 26)_
 _Note: Individual type pages (enneagram-type-1 through 9) excluded from link counts_
 
@@ -156,7 +156,7 @@ These posts are "orphaned" - no other content links to them.
 | 12 | 12 | Enneagram Self Development: Transform Your Personality Into ... | `enneagram/enneagram-self-development.md` |
 | 12 | 7 | Enneagram Types on a First Date: What to Expect | `enneagram/enneagram-types-on-a-first-date.md` |
 | 12 | 9 | Crisis Management by Enneagram Type: Your Emergency Mental H... | `enneagram/mental-health/enneagram-crisis-management-guide.md` |
-| 12 | 10 | The Enneagram Guide to Therapy: Which Approach Actually Work... | `enneagram/mental-health/enneagram-therapy-guide.md` |
+| 12 | 10 | How Your Enneagram Type Shapes Your Therapy Experience | `enneagram/mental-health/enneagram-therapy-guide.md` |
 | 11 | 8 | How Your Enneagram Type Shapes Your Relationship with Medica... | `enneagram/mental-health/enneagram-medication-mental-health.md` |
 | 11 | 11 | Enneagram and Workplace Mental Health: Preventing Burnout by... | `enneagram/mental-health/enneagram-workplace-mental-health.md` |
 | 10 | 10 | Enneagram and Addiction: Understanding Each Type | `enneagram/mental-health/enneagram-addiction-recovery-guide.md` |
@@ -186,7 +186,7 @@ These posts are "orphaned" - no other content links to them.
 | 10 | 9 | Enneagram and Neurodivergence: When Personality Meets Brain ... | `enneagram/mental-health/enneagram-neurodivergence-guide.md` |
 | 10 | 10 | What Every Parent Should Know About Personality Patterns and... | `enneagram/mental-health/enneagram-parenting-mental-health.md` |
 | 10 | 9 | Is the Enneagram Scientifically Valid? (What the Research Ac... | `enneagram/mental-health/enneagram-science-mental-health.md` |
-| 10 | 12 | The Enneagram Guide to Therapy: Which Approach Actually Work... | `enneagram/mental-health/enneagram-therapy-guide.md` |
+| 10 | 12 | How Your Enneagram Type Shapes Your Therapy Experience | `enneagram/mental-health/enneagram-therapy-guide.md` |
 | 10 | 19 | 9 Toxic Personality Traits: The Hidden Dark Side of Each Enn... | `enneagram/toxic-traits-of-each-enneagram-type.md` |
 | 10 | 3 | Productivity Systems by Enneagram Type: Work With Your Perso... | `guides/productivity-systems-by-enneagram-type.md` |
 | 10 | 2 | The Crash Course on Emotions We All Missed in Kindergarten | `guides/the-crash-course-on-emotions-that-we-missed-in-kindergarten.md` |
@@ -220,7 +220,7 @@ Sorted by total connections (incoming + outgoing).
 | 24 | 12 | 12 | Enneagram Self Development: Transform Your Personality Into ... | `enneagram/enneagram-self-development.md` |
 | 24 | 8 | 16 | Relationship Communication Guide: The Enneagram Key to Under... | `enneagram/relationship-communication-guide.md` |
 | 22 | 9 | 13 | Enneagram and ADHD: Which Types Struggle Most (And Why) | `enneagram/enneagram-and-adhd-which-types-struggle-most.md` |
-| 22 | 12 | 10 | The Enneagram Guide to Therapy: Which Approach Actually Work... | `enneagram/mental-health/enneagram-therapy-guide.md` |
+| 22 | 12 | 10 | How Your Enneagram Type Shapes Your Therapy Experience | `enneagram/mental-health/enneagram-therapy-guide.md` |
 | 22 | 11 | 11 | Enneagram and Workplace Mental Health: Preventing Burnout by... | `enneagram/mental-health/enneagram-workplace-mental-health.md` |
 | 21 | 14 | 7 | Your Dark Side Has a Number (And It | `enneagram/enneagram-stress-number.md` |
 | 21 | 12 | 9 | Crisis Management by Enneagram Type: Your Emergency Mental H... | `enneagram/mental-health/enneagram-crisis-management-guide.md` |
