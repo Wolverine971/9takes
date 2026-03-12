@@ -213,7 +213,6 @@
 	box-shadow: var(--glow-purple-subtle);
 	max-width: 32rem;
 	width: 100%;
-	min-width: 100%;
 	max-height: 90vh;
 	overflow-y: auto;
 	position: relative;
@@ -224,10 +223,6 @@
 		max-height: calc(100vh - 3rem);
 		border-radius: var(--border-radius) var(--border-radius) 0 0;
 		margin-top: auto;
-	}
-
-	@media (max-width: 480px) {
-		max-width: 28rem;
 	}
 }
 
