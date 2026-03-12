@@ -98,6 +98,15 @@ From Plato to Freud to modern neuroscience to the Enneagram, the three-part mode
 
 ## Plato is to Aristotle as Freud is to Pinker
 
+<!--
+Image concept: rationality versus layered human nature.
+Scene: marble classroom split into two study zones, one side orderly with geometry tools and clean diagrams, the other side crowded with masks, mirrored water, layered anatomy sketches, and unfinished notes.
+Props: compasses, scrolls, busts, theater masks, brain sketches, stacked books, half-open curtain, measuring tools.
+Lighting: crisp white light on the rational side, deeper amber shadow on the layered side.
+Midjourney prompt:
+split marble classroom scene with a Greek scholar statue standing between two study zones, left side orderly with geometry tools, clean diagrams, stacked scrolls, bright white light, right side layered with theater masks, mirrored water bowl, anatomy sketches, unfinished notes, half-open curtain, deeper amber shadow, editorial still life photography, realistic stone paper and brass textures, no readable text --ar 16:9 --v 6 --style raw --q 2 --stylize 125
+-->
+
 There's a recurring split in how great thinkers approach human nature. Some look at people and see layered complexity. Others look at people and see one defining trait — rationality — with everything else as noise.
 
 **Plato** saw a layered picture. His "Tripartite Soul" described three forces constantly interacting: reason, spirit (emotion and courage), and appetite (instinct and desire). For Plato, being human meant navigating the tension between all three. No single part was the whole story.
@@ -195,6 +204,15 @@ This isn't just ancient philosophy. Modern neuroscience is saying the same thing
 Huberman and Conti developed their own version of the iceberg model (<a class="external-link" target="_blank" rel="noreferrer" href="https://hubermanlab.com/wp-content/uploads/2023/09/The-Iceberg-Model.pdf">view the full PDF here</a>) that breaks down the layers of consciousness in clinical terms. The takeaway is the same one Plato and Freud arrived at: rational thought is real and valuable, but it's only the visible tip of a much larger structure.
 
 ## The Pattern That Won't Go Away
+
+<!--
+Image concept: four traditions discovering the same three-part pattern.
+Scene: long stone study table with four workstations for Plato, Freud, neuroscience, and the Enneagram, each station arranged differently but all built around the same three colored tokens.
+Props: parchment scrolls, quill, small brain model, carved stone enneagram disc, three colored glass pieces, calipers, oil lamps.
+Lighting: museum study-room light, grounded and scholarly.
+Midjourney prompt:
+long stone study table in a museum-like library, four distinct workstations representing Plato, Freud, neuroscience, and the Enneagram, each arranged with different tools yet all centered around the same three colored glass tokens, parchment scrolls, quill, small brain model, carved stone enneagram disc, brass calipers, oil lamps, grounded scholarly atmosphere, balanced natural window light, photorealistic editorial photography, no readable text --ar 16:9 --v 6 --style raw --q 2 --stylize 100
+-->
 
 Here's the thing that should stop us in our tracks: **the three-part model keeps showing up.** Not once or twice — across completely independent traditions, separated by centuries.
 

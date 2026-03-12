@@ -106,6 +106,15 @@ margin: 1rem 0;"
 
 ## What the Greeks Understood About Discourse
 
+<!--
+Image concept: structured disagreement in the agora.
+Scene: open marble marketplace with small groups of Greek statues in active discussion around a central question stele, merchants and thinkers sharing the same civic space.
+Props: carved stone question stele, scrolls, market baskets, benches, fountain, pigeons, shaded portico, sandals.
+Lighting: bright Mediterranean morning light.
+Midjourney prompt:
+open marble agora marketplace in ancient Athens, small groups of Greek marble statues in animated discussion around a central carved question stele, merchants and thinkers sharing the same civic space, scrolls, market baskets, benches, fountain, pigeons, shaded portico, bright Mediterranean morning light, candid editorial photography, realistic stone texture, no readable text --ar 16:9 --v 6 --style raw --q 2 --stylize 125
+-->
+
 The ancient Greeks didn't just invent democracy—they invented the infrastructure for productive disagreement. They understood something we've forgotten: **you can't have good answers without good questions.**
 
 The Socratic method wasn't about winning arguments. It was about:
@@ -162,6 +171,15 @@ If Socrates were designing a platform, three things would have been non-negotiab
 3. **Emotional honesty**: The Greeks studied pathos (emotion) alongside logos (logic). 9takes treats emotional responses to questions as valid data, not noise to be eliminated. How you feel about a question reveals as much as how you reason through it.
 
 ## The Modern Agora
+
+<!--
+Image concept: the digital agora made physical.
+Scene: neoclassical courtyard adapted for modern conversation, with statues submitting answers at separate writing stands before walking toward a central gallery of responses.
+Props: individual writing stands, rolled answers, sealed slots, marble arches, bronze type medallions, shallow reflecting pool, cypress trees.
+Lighting: sunset gold with long shadows across the courtyard.
+Midjourney prompt:
+neoclassical courtyard adapted for modern conversation, Greek marble statues at separate writing stands submitting rolled answers into sealed slots before walking toward a central response gallery under arches, bronze type medallions, shallow reflecting pool, cypress trees, sunset gold light with long shadows, photorealistic architectural editorial photography, no readable text --ar 16:9 --v 6 --style raw --q 2 --stylize 125
+-->
 
 The physical agora served multiple functions—and 9takes recreates each one digitally:
 

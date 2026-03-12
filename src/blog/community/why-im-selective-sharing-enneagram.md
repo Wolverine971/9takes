@@ -1,5 +1,4 @@
 ---
-
 title: 'The Enneagram Changed My Life, But I Learned to Shut Up About It'
 description: 'Why enthusiasm for the Enneagram backfires, and the tactical approach to sharing without becoming that person who psychoanalyzes everyone at parties.'
 author: 'DJ Wayne'
@@ -14,7 +13,6 @@ blog: true
 previewHtml:
 pic: 'giving-a-speech'
 path: src/blog/community/why-im-selective-sharing-enneagram.md
-
 ---
 
 <script>
@@ -271,7 +269,6 @@ Observing patterns is natural and the Enneagram makes you better at it. The issu
 ### What's the best way to recommend the Enneagram to a skeptic?
 
 Don't recommend it directly. Live your growth visibly. When they notice you handling conflict differently or understanding them better, they might ask what changed. That's your opening. For the analytically minded, you might mention [how the Enneagram compares to MBTI](/community/mbti-vs-enneagram) — framing it against something they already know can lower resistance.
-
 
 <!--
 

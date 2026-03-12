@@ -1,5 +1,4 @@
 ---
-
 title: "Memetic Comments: Why Your Online Opinions Aren't Really Yours"
 description: "A single fake upvote shifts a comment's score by 25%. Here's how mimesis hijacks online discourse — and how to think for yourself again."
 author: 'DJ Wayne'
@@ -14,7 +13,6 @@ blog: true
 previewHtml: 'You have never had an original opinion in a comment section — and science proves it.'
 pic: 'greek-sculpture-on-a-laptop'
 path: src/blog/community/memetic-comments.md
-
 ---
 
 <svelte:head>
@@ -96,7 +94,6 @@ path: src/blog/community/memetic-comments.md
     altText="a Greek statue on his laptop reading the comments"
     subtext=""
   />
-
 </div>
 
 <p class="firstLetter">You've never had an original opinion in the comments section. Neither have I.</p>
@@ -132,6 +129,15 @@ And you almost never notice it happening.
 ---
 
 ## Watch It Happen in Real Time
+
+<!--
+Image concept: the first comment sets the frame.
+Scene: marble forum wall with one top scroll already pinned high while rows of Greek statues below copy its phrasing onto their own tablets without looking at each other.
+Props: stone bulletin wall, pinned scroll, wax tablets, styluses, stools, discarded draft sheets, face-up phone showing a thread.
+Lighting: bright skylight on the first scroll, softer shadow over the copying crowd.
+Midjourney prompt:
+marble forum wall in an ancient-modern civic hall, one top scroll pinned high under a skylight, rows of Greek marble statues below copying its phrasing onto wax tablets without looking at each other, stools, discarded draft sheets on stone floor, one face-up phone glowing with a thread, strong top light on the first scroll, softer shadow over the copying crowd, photorealistic scene, realistic marble texture, no readable text --ar 16:9 --v 6 --style raw --q 2 --stylize 125
+-->
 
 Picture a Reddit thread. Someone posts: **"Is it okay to not want kids?"**
 
@@ -205,6 +211,15 @@ The first version plays the game. The second version breaks it.
 ---
 
 ## Breaking the Mimetic Loop
+
+<!--
+Image concept: original thought before social proof.
+Scene: solitary marble statue in a quiet colonnade writing an answer with a face-down phone beside them and a still-sealed stack of other comments unopened at arm's length.
+Props: wax tablet, stylus, face-down phone, sealed comment bundle, coffee cup, stone column, courtyard bench.
+Lighting: soft dawn light, calm and private.
+Midjourney prompt:
+solitary Greek marble statue in a quiet colonnade at dawn writing an answer on a wax tablet, face-down smartphone beside them, sealed bundle of unopened comments resting at arm's length on a stone bench, coffee cup, columns, courtyard beyond, soft dawn light, calm private atmosphere, shallow depth of field, editorial photography, realistic marble texture, no readable text --ar 16:9 --v 6 --style raw --q 2 --stylize 100
+-->
 
 How do you have an original thought online when the infrastructure is designed to prevent it?
 

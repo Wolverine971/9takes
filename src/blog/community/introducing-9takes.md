@@ -1,5 +1,4 @@
 ---
-
 title: 'Introducing 9takes: Answer First, Then Compare Perspectives'
 description: 'A Q&A platform where you answer before you read, built to surface diverse perspectives with an optional Enneagram lens.'
 author: 'DJ Wayne'
@@ -14,7 +13,6 @@ blog: true
 previewHtml: ''
 pic: 'greek-statue-introducing-9takes'
 path: src/blog/community/introducing-9takes.md
-
 ---
 
 <svelte:head>
@@ -157,6 +155,15 @@ On most platforms, the first few comments set the frame. Everyone else reacts, c
 
 ## Why Social Media Isn't Social Anymore
 
+<!--
+Image concept: old feed culture versus question-first culture.
+Scene: split marble courtyard, left side packed with Greek statues staring up at a glowing bulletin wall covered in repeated reactions, right side smaller circle of statues quietly writing their own answers before speaking.
+Props: stone benches, pinned comment cards, handheld phones, wax tablets, styluses, olive tree, marble steps, bronze lanterns.
+Lighting: cold electric blue on the feed side, warm late-afternoon gold on the question side.
+Midjourney prompt:
+split-scene editorial photograph in a neoclassical marble courtyard, left side crowded Greek marble statues staring up at a glowing bulletin wall covered with repeated pinned reaction cards and raised phones, statues mirroring each other, right side small circle of Greek statues seated on stone benches quietly writing independent answers on wax tablets before speaking, olive tree, bronze lanterns, marble steps, cold electric-blue light on left, warm late-afternoon sunlight on right, realistic stone texture, cinematic depth, museum-quality photography, no readable text, no UI --ar 16:9 --v 6 --style raw --q 2 --stylize 125
+-->
+
 Most feeds reward engagement, not understanding. Engagement loves conflict, so the loudest take wins and the rest of us scroll.
 
 <div>
@@ -201,6 +208,15 @@ A question-centered approach:
 But asking questions online is easy. Getting _good_ answers is the hard part. You want original takes, not echoes. You don't want early answers steering everyone else. You want context for where someone is coming from.
 
 ## How 9takes Gets Better Answers
+
+<!--
+Image concept: answer first, then compare.
+Scene: one Greek statue drops a folded answer tablet into a sealed bronze box while a curtain behind them is just opening to reveal nine other stored responses in an arc.
+Props: wax tablet, stylus, sealed bronze box, drawn curtain, nine scroll cases, marble floor mosaic, sandals, low torchlight.
+Lighting: focused highlight on the answer box with soft academy light in the background.
+Midjourney prompt:
+classical Greek marble statue dropping a rolled parchment answer into a sealed bronze box in an academy hall, wooden wax tablet and stylus in the other hand, curtain just opening behind to reveal nine stored scroll cases arranged in an arc, marble floor mosaic, sandals, low torchlight, focused highlight on the bronze box, quiet anticipatory atmosphere, photorealistic editorial photography, realistic stone and bronze texture, no readable text --ar 16:9 --v 6 --style raw --q 2 --stylize 125
+-->
 
 Here's what it actually looks like:
 

@@ -538,9 +538,9 @@ Getting mistyped isn't just annoying — it can actively harm your growth. You w
 
 Here's the uncomfortable truth that most test providers won't tell you: **every single test assumes you can objectively analyze yourself.** You can't. Here's why.
 
-When you see a question like "I am a helpful person," your brain doesn't answer based on how you actually behave. It answers based on how you *want* to see yourself (ego ideal), how you think you *should* be (social conditioning), and what mood you're in (state dependency). You're not lying — you're just human.
+When you see a question like "I am a helpful person," your brain doesn't answer based on how you actually behave. It answers based on how you _want_ to see yourself (ego ideal), how you think you _should_ be (social conditioning), and what mood you're in (state dependency). You're not lying — you're just human.
 
-Consider this: if your spouse, best friend, and therapist all answered the test *for* you, the results would likely differ from your own — and from each other. Enneagram teachers commonly see these blind spots: Type 8s think they're more vulnerable than they appear, Type 2s underestimate how controlling they can seem, Type 9s overestimate their assertiveness, and Type 3s miss their own competitiveness.
+Consider this: if your spouse, best friend, and therapist all answered the test _for_ you, the results would likely differ from your own — and from each other. Enneagram teachers commonly see these blind spots: Type 8s think they're more vulnerable than they appear, Type 2s underestimate how controlling they can seem, Type 9s overestimate their assertiveness, and Type 3s miss their own competitiveness.
 
 ## Our Recommendation: Understanding + Testing
 

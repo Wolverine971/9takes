@@ -158,6 +158,15 @@ If you embarrassed them? Now everyone who shares their views sees you as mean, h
 
 ## What Winning Actually Looks Like
 
+<!--
+Image concept: steelmanning instead of dunking.
+Scene: two Greek statues at a small cafe table, one sketching the other person's argument on a slate while the other leans in and nods instead of fighting back.
+Props: chalk slate with simple diagram shapes, two coffee cups, face-down phones, open notebook, marble chairs, folded jacket.
+Lighting: warm cafe window light with low contrast and human-scale intimacy.
+Midjourney prompt:
+two Greek marble statues seated at a small modern cafe table, one sketching the other person's argument on a chalk slate while the other leans in and nods, two coffee cups, face-down phones, open notebook, folded jacket over chair, warm window light, intimate low-contrast atmosphere, candid editorial photography, realistic marble texture, no readable text --ar 16:9 --v 6 --style raw --q 2 --stylize 100
+-->
+
 Real winning? Both sides learn something. Both sides walk away thinking.
 
 This requires a complete mindset flip. Instead of building the best case against them, you build the best case _for_ them. This is called **steel manning**.
@@ -233,6 +242,15 @@ Good questions are specific, not broad. "Why do you believe that?" is lazy. "Wha
 This is a skill worth developing. The quality of your questions determines the quality of your conversations.
 
 ### Bonus: Invite Correction
+
+<!--
+Image concept: invite correction and collaborate on the summary.
+Scene: one statue rotates a chalkboard toward another and points to a written summary while the second statue reaches up to edit a line with chalk.
+Props: chalkboard easel, chalk dust on fingers, stools, two closed laptops, paper notes, water glasses.
+Lighting: soft indoor workshop light with sunlight from a side window.
+Midjourney prompt:
+classical Greek marble statues in a workshop room, one rotating a chalkboard easel toward another and pointing to a hand-drawn summary, second statue reaching up to edit a line with chalk, chalk dust on fingers, stools, two closed laptops, paper notes, water glasses, sunlight from a side window, soft indoor light, collaborative mood, photorealistic editorial photography, no readable text --ar 16:9 --v 6 --style raw --q 2 --stylize 100
+-->
 
 This is the accelerant.
 

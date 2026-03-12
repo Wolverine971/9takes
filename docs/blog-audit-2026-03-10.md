@@ -80,11 +80,11 @@ All D-grade (6.9) with prescriptive medical/diagnostic phrasing that creates lia
 
 ### Status Tracker
 
-- [ ] first-impression-cheat-sheet.md
-- [ ] enneagram-test-comparison-2025.md
-- [ ] enneagram-personal-growth.md
-- [ ] enneagram-types-working-in-teams.md
-- [ ] enneagram-workplace-team-building.md
+- [x] first-impression-cheat-sheet.md (fixed blog:false→true, removed duplicate type value, 2026-03-12)
+- [x] enneagram-test-comparison-2025.md (merged 5 redundant bottom sections, 57→44 headers, 2026-03-12)
+- [x] enneagram-personal-growth.md (converted 45 template h3s to bold labels, 61→16 headers, 2026-03-12)
+- [x] enneagram-types-working-in-teams.md (converted 54 template h4s to bold labels, 66→12 headers, 2026-03-12)
+- [x] enneagram-workplace-team-building.md (converted 54 template h3s to bold labels, 82→28 headers, 2026-03-12)
 
 ---
 

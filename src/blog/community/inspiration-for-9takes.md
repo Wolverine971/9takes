@@ -56,7 +56,7 @@ path: src/blog/community/inspiration-for-9takes.md
   },
   "articleSection": "Personal Story",
   "keywords": ["9takes inspiration", "marriage counseling", "Enneagram", "personality tests", "relationship communication", "listening skills"],
-  "wordCount": 1532,
+  "wordCount": 1800,
   "isPartOf": {
     "@type": "Blog",
     "name": "9takes Community Blog",
@@ -111,7 +111,7 @@ At the time, many topics of conversation would quickly lead to yelling and/or te
 
 We were being triggered and rushing to conclusions.
 
-Over time, we zeroed in on our differences by taking personality tests. Intellectually, we knew we were different, but we would get surprised every time the other person didn't see things our way. The personality tests started to give us language around our thoughts and feelings. We started with the MBTI and then moved on to the Enneagram because it went deeper, uncovering our emotional baggage ([MBTI and Enneagram comparison](/enneagram-corner/enneagram-vs-meyers-briggs)).
+Over time, we zeroed in on our differences by taking personality tests. Intellectually, we knew we were different, but we would get surprised every time the other person didn't see things our way. The personality tests started to give us language around our thoughts and feelings. We started with the MBTI and then moved on to the Enneagram because it went deeper, uncovering our emotional baggage ([MBTI and Enneagram comparison](/enneagram-corner/enneagram-vs-meyers-briggs)). Turns out I'm an Enneagram 8 — direct to the point of blunt, and I don't always realize how hard my words land. My wife is a 7 — optimistic, fast-moving, but when she feels cornered her mind races to the worst possible version of what's happening.
 
 As we started diving deep into all these personality layers, listening became the most important skill that we were developing.
 
@@ -127,62 +127,31 @@ This is echoed by an FBI hostage negotiator, Chris Voss. He talks about how nego
 <iframe width="560" height="315" loading="lazy" src="https://www.youtube.com/embed/8EguLJgkc54?si=eBarFdPjKOxM8nRW&amp;start=2203" title="Chris Voss talking about the feeling of being heard" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
 
-We learned that most of your relationship problems can be sorted out if you slow down and listen to each other. I noticed that this seemed to be the main thing therapists do. Therapists don’t talk at you; they sit and listen to you and help you feel understood before they give any input.
+We learned that most of your relationship problems can be sorted out if you slow down and listen to each other. I noticed that this seemed to be the main thing therapists do. Therapists don't talk at you; they sit and listen to you and help you feel understood before they give any input.
 
 ## What happens when you don't feel understood
 
-It is not a small thing seeking to be understood. People do unexpected things when they don’t feel understood.
+It is not a small thing seeking to be understood. When someone tries to express something and you don't show them you understand, it's as if you're telling them their reality doesn't make sense. That they need to change how they think and feel.
 
-- They may stop talking to you.
-- They may feel depressed.
-- They may think you are dumb.
-- They may start a personal vendetta against you to make you understand.
+People react to this in ways that make everything worse. They go quiet. They get angry. They write you off as someone who can't understand them. Sometimes they start a vendetta to _make_ you understand. Be on the lookout for a topic changing too fast, someone suddenly going silent, or someone saying "you are not listening to me." They may be right — you may be hearing the words, but the other person does not feel understood.
 
-<!-- Its as if you are saying that they don't belong. -->
+My wife and I lived all of this. We'd start talking about something, and it would build and build until we both realized nothing was getting through. We'd have to stop and take a break.
 
-When someone comes to you trying to express something and they feel as though you don't understand them, it's as if you are saying that their reality doesn't make sense. They need to change and think, feel and do things that do make sense.
+Here's what understanding our types revealed: when my wife (a 7) feels misunderstood, her brain spirals. After our worst fights she'd later tell me, "I thought you were the worst person ever." Then when we'd make up: "Oh my gosh, I forgot — you're not actually the worst person ever." She needed to pull herself out of the spiral and remember who I actually was beneath the argument.
 
-<!-- Obviously this can happen to varying degrees but it is no small thing when someone doesn't feel understood. -->
+On my side (an 8), I say things harshly without realizing it. Something I think is just direct, she hears as an attack. I've had to learn to say, "Hey, I'm trying to say something and I want to say it the right way — work with me as I get this out." That one disclaimer changed our fights more than any grand insight about personality.
 
-There are a range of emotions that can pop up when someone feels like they aren't being understood.
-
-- They might feel anger towards the person who is not understanding.
-- They might feel anxious that they aren't making sense.
-- They may feel like an outcast and that they don't belong.
-
-Be on the lookout for a topic changing too fast. Be on the lookout for someone suddenly becoming quiet. Be on the lookout for someone saying "you are not listening to me." You may be listening but the other person does not feel understood.
-
-⬆️ My wife and I reacted in all the ways listed above. We felt all of the above emotions. It wasn't good.
-
-<!-- So they will go away and talk to someone where their reality does make sense. They may only give you one chance
-
-what you are saying to the other person when you dont show that you understand them is that they are
-They may have given you a chance and opened up to you but
-
-Get revenge- like a confirmation bias
-
-Try to force you to understand -->
-
-<!-- The topic gets changed too fast
-They say "You are not listening to me"
-
-They say, “You are not listening to me.” The other side may be listening, but they must seek to understand. They may be butting in and interrupting. They may be thinking about counter-examples and comebacks. There are many reasons why someone might feel like they need to be listened to, which creates a gap between the two sides.
-
-When an individual feels that they are not being heard, it can lead to a range of emotions. They might feel anger towards the person who is not listening. Their fear may grow if they feel like the other side isn’t listening when discussing topics that evoke fear. Additionally, if a person feels like they are being ignored, this can foster insecurity where they feel like they are less worthy of being heard. -->
+It takes real effort to make sure you're saying what you mean _and_ that it's landing the way you intend. Words mean different things to different people. You might say something and the other person takes it in a completely different direction than you meant. The gap between what you said and what they heard — that's where most relationship damage happens.
 
 ### You, me, and others need to be listened to 👂
 
 After having a series of conversations where my wife and I felt like we were understanding each other, she told me to take a personality test.
 
-At first, I didn’t want to because I thought personality tests were pseudo-science. I didn't think I would get anything out of it. However, since I couldn’t solve our relationship problems, I figured that I should be open to other solutions and perspectives. I figured I had nothing to lose. So I gave it a shot.
+At first, I didn't want to because I thought personality tests were pseudo-science. I didn't think I would get anything out of it. However, since I couldn't solve our relationship problems, I figured that I should be open to other solutions and perspectives. I figured I had nothing to lose. So I gave it a shot.
 
 And yeah, I got something out of it.
 
-I was mind-blown 🤯. It was telling me things about myself that I felt but had never verbalized. It made me see myself from a bird’s eye view. It gave me a framework for understanding why I was the way I was. And I agreed with the framework. I wanted to know more about myself, my wife, and all the other people in my life. I went down a rabbit hole, reading everything I could about personality. A new language opened up to me. It felt like I had a secret.
-
-<!-- Everyone was learning something
-about themselves and was vulnerable and could listen and tried to talk about it with anyone who would listen.
-The pushback -->
+I was mind-blown 🤯. It was telling me things about myself that I felt but had never verbalized. It made me see myself from a bird's eye view. It gave me a framework for understanding why I was the way I was. And I agreed with the framework. I wanted to know more about myself, my wife, and all the other people in my life. I went down a rabbit hole, reading everything I could about personality. A new language opened up to me. It felt like I had a secret.
 
 I would start conversations with other people about personality, but only some were open to it.
 
@@ -190,25 +159,27 @@ Some people didn't want to talk about personality, thinking it was pseudo-scienc
 
 It was better to ask specific questions.
 
-### Questions are the key; they highlight our similarities and differences
+### Questions are the key
 
 Don't tell someone to go on a journey. Ask them questions that lead them on a journey.
 
-I only started making progress when I started asking them questions.
+I only started making progress when I started asking people questions. And this applies everywhere — not just when exploring personality, but in every conversation where something feels off.
 
-<!-- //here -->
+When you hear something and have an immediate reaction, that's a cue. There's uncertainty in the gap between what was said and what you heard. A way to help yourself: "Hey, so you said this — did you mean this?" That one move — clarifying before reacting — defuses more conflict than any comeback or counterpoint ever will.
 
-How are they similar or different from the other people in their lives? <a href="/personality-analysis" >What celebrity are they similar to?</a> If you start thinking about that, you can quickly get into discussions about personality. The responses usually fell into two broad categories:
+If you're upset with something someone said, ask a question before you respond. Did they want to hurt you? Likely not. Did they have ill intention? Likely not. If you approach things with curiosity instead of certainty, it changes the entire dynamic.
+
+This applies to personality too. How are people similar or different from others in their lives? <a href="/personality-analysis">What celebrity are they similar to?</a> Start thinking about that and you can quickly get into discussions about personality. The responses usually fell into two broad categories:
 
 - "I am too unique, and no one is like me"
 - "I am like everyone else, everyone is the same"
 
-Both responses were partially true. People are both similar and different. But it is a spectrum. There is a spectrum of similarities and differences between people. Realizing that spectrum is the unlock and it is where growth happens. At the extreme end, people feel like they have nothing to learn from exploring their personality.
+Both are partially true. People are both similar and different — it's a spectrum. Realizing that spectrum is the unlock, and it's where growth happens. At the extreme end, people feel like there's nothing to learn:
 
 - "People are too similar ➡️ there is nothing to learn from personality"
-- "People are too different ➡️there is nothing to learn from personality"
+- "People are too different ➡️ there is nothing to learn from personality"
 
-These perspectives stifle curiosity. Have the person ever met someone similar to them? Have they ever met someone different from them? These similarities and differences are personality traits. That is all it is. Personality attempts to map out the dimensions by which people are similar and different.
+These perspectives stifle curiosity. Personality attempts to map out the dimensions by which people are similar and different. That is all it is. And questions are the tool that gets people curious enough to explore it.
 
 ### Finding a place to explore people's similarities and differences
 
@@ -222,89 +193,27 @@ I scoured Reddit, Discord, every online community I could find. The conversation
 
 I wanted to explore personality — specifically the [Enneagram](/enneagram-corner/enneagram-tldr). I wanted a space where people could share their fears, motivations, and [how they actually communicate](/enneagram-corner/enneagram-communication-styles). I wanted to help couples like my wife and me stop talking past each other.
 
-The Enneagram has nine core types. For every question, there are at least nine perspectives worth hearing.
+But I also wanted something bigger: a place where people say what they actually think. Right now, online, people aren't honest because they know they'll get harassed in the comments. It stifles real conversation. I wanted a space where people could be genuinely honest without the fear of being piled on.
 
-That's where the name came from: **9takes**.
+The Enneagram has nine core types. For every question, there are at least nine perspectives worth hearing. That's where the name came from: **9takes**. And the Greek aesthetic is a nod to question-first discourse — here's [why the Greek vibe](/community/why-the-greek-vibe).
 
-And the Greek aesthetic is a nod to question-first discourse—here’s [why the Greek vibe](/community/why-the-greek-vibe).
+I built 9takes because I wish it had existed when my wife and I were screaming past each other. Maybe it would have helped us hear each other sooner. But beyond our marriage — think about it from first principles. What could you accomplish if you could actually ask the world real questions and get honest, unbiased answers?
 
-One question. Nine ways to see it. And finally — a place to explore them all.
+That's what I'm trying to build.
 
 ## Frequently Asked Questions
 
-### What is 9takes and how does it work?
+### Did the Enneagram fix your marriage?
 
-9takes is a Q&A platform built around the Enneagram personality system. You answer a question before you can see anyone else's responses — removing the echo chamber effect. Each response can be tagged with a personality type, so you can see how different types approach the same question. The name comes from the nine Enneagram types: one question, nine takes.
+No. We still fight. The difference is now the fights actually go somewhere. Before the Enneagram, we'd argue in circles — same patterns, same dead ends, no resolution. Now when things escalate, we have language for what's happening. I can catch myself being too blunt (classic 8) and she can catch herself spiraling into worst-case thinking (classic 7). The Enneagram didn't eliminate conflict. It made conflict productive.
 
-### How did the Enneagram help your marriage?
+### What if someone doesn't believe in personality tests?
 
-The Enneagram gave us language for patterns we could feel but couldn't name. Instead of "you always shut down," it became "your Type processes conflict by withdrawing because X." Understanding the _why_ behind each other's behavior made it possible to stop taking things personally and start actually listening. The fights didn't disappear, but they stopped being about who was right and started being about understanding.
+I was that person. I thought it was pseudo-science. What changed my mind wasn't being convinced — it was being desperate. When nothing else was working in my marriage, I figured I had nothing to lose. My suggestion: don't try to convince anyone. Just ask them questions about themselves. Most people will talk about their own patterns all day if you give them the right question.
 
-### Why did you build 9takes instead of just using Reddit or Discord?
+### Why the Enneagram over MBTI?
 
-I tried both. Reddit's structure [makes deep connection nearly impossible](/community/reddit-deep-connections-limitations) — quick takes get upvoted, thoughtful responses get buried. Discord communities were either too shallow or too fragmented. Neither platform was designed to surface how personality shapes perspective. I needed something that organized conversations around people's inner worlds, not just their opinions.
-
-### What does the name "9takes" mean?
-
-Nine takes. The Enneagram describes nine core personality types, each with a distinct way of seeing the world. For any meaningful question, there are at least nine valid perspectives worth hearing. The platform is built to surface all of them — not to find the "right" answer, but to help you see what you're missing.
+We started with MBTI and it helped. But the Enneagram goes deeper — it maps your core fears, motivations, and the emotional baggage you carry into every conversation. MBTI tells you how someone processes information. The Enneagram tells you _why_ they react the way they do when things get heated. For relationships, that "why" is everything. [Full comparison here.](/enneagram-corner/enneagram-vs-meyers-briggs)
 
 <style lang="scss">
 </style>
-
-<!--
-
-# BLOG AUDIT — Grade: B- (Personal story carries it)
-
-WHAT WORKS:
-
-- The marriage story is genuine and compelling. This is your real
-  voice — it reads nothing like AI content.
-- Chris Voss reference (FBI hostage negotiator on listening) is a
-  specific, interesting connection that adds credibility.
-- The progression from personal crisis → discovery → building 9takes
-  is logical and earned.
-- "Don't tell someone to go on a journey. Ask them questions that
-  lead them on a journey." — strong line.
-
-WHAT NEEDS WORK:
-
-1. FAQ SECTION: Worst offender. After reading a deeply personal story
-   about your marriage, the reader hits "What is 9takes and how does
-   it work?" — they just LEARNED this from the story. It breaks the
-   emotional arc with redundant SEO padding. SUGGESTION: Either cut
-   the FAQ entirely (this blog works best as pure narrative) or
-   replace with questions a reader would ACTUALLY ask after this
-   story: "Did the Enneagram save your marriage?" / "What's the
-   hardest part about building a platform around personality?" /
-   "Do you and your wife still fight about the same things?"
-2. "WHAT HAPPENS WHEN YOU DON'T FEEL UNDERSTOOD" section has
-   redundant bullet lists:
-   - List 1: what people DO when not understood
-   - List 2: what people FEEL when not understood
-     These overlap. Merge into one tighter list. Or better: replace
-     both lists with ONE specific example from your marriage. "My wife
-     stopped talking for three days. Not because she was angry — because
-     she'd concluded I was incapable of understanding her." That's more
-     powerful than any bullet list.
-3. COMMENTED-OUT HTML throughout the file is sloppy. Clean it up —
-   either integrate the ideas or delete them.
-4. ENDING: "One question. Nine ways to see it. And finally — a place
-   to explore them all." — This is marketing copy. After a personal
-   story, end personally. Something like: "I built 9takes because I
-   wish it had existed when my wife and I were screaming past each
-   other. Maybe it would have helped us hear each other sooner."
-5. "Questions are the key" section: The two-category observation
-   ("I am too unique" vs "I am like everyone else") is interesting
-   but could hit harder with a specific conversation where someone
-   said one of these to you.
-
-SUGGESTIONS:
-
-- This blog should lean HARDER into the personal narrative. Cut the
-  FAQ, tighten the bullet lists into anecdotes, end with a personal
-  line instead of a tagline. Your real story is the value here —
-  don't dilute it with SEO scaffolding.
-- The description "TLDR: My wife and I were fighting..." is actually
-  a great description. Keep it.
-  ==========================================================
-  -->

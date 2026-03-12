@@ -189,7 +189,7 @@ These posts are "orphaned" - no other content links to them.
 | 10 | 12 | How Your Enneagram Type Shapes Your Therapy Experience | `enneagram/mental-health/enneagram-therapy-guide.md` |
 | 10 | 19 | 9 Toxic Personality Traits: The Hidden Dark Side of Each Enn... | `enneagram/toxic-traits-of-each-enneagram-type.md` |
 | 10 | 3 | Productivity Systems by Enneagram Type: Work With Your Perso... | `guides/productivity-systems-by-enneagram-type.md` |
-| 10 | 2 | The Crash Course on Emotions We All Missed in Kindergarten | `guides/the-crash-course-on-emotions-that-we-missed-in-kindergarten.md` |
+| 10 | 1 | The Crash Course on Emotions We All Missed in Kindergarten | `guides/the-crash-course-on-emotions-that-we-missed-in-kindergarten.md` |
 | 9 | 29 | Find Your Enneagram Type in 10 Minutes (4 Simple Steps) | `enneagram/beginners-guide-to-determining-your-enneagram-type.md` |
 | 9 | 3 | Why Your Anxiety Doesn | `enneagram/enneagram-anxiety-management-guide.md` |
 
@@ -239,20 +239,20 @@ Sorted by total connections (incoming + outgoing).
 | 13 | 8 | 5 | 9 Childhood Stereotypes Based on the Enneagram | `enneagram/enneagram-childhood-stereotypes.md` |
 | 13 | 5 | 8 | What to Say to Each Enneagram Type (Scripts That Actually Wo... | `enneagram/enneagram-communication-tips.md` |
 | 13 | 3 | 10 | Is the Enneagram Real? 27 Questions Everyone Asks (Finally A... | `enneagram/enneagram-faqs.md` |
+| 13 | 9 | 4 | Why You Don | `enneagram/enneagram-instinctual-subtypes.md` |
 | 13 | 5 | 8 | Best Free Enneagram Test (2025): Which One Actually Works? | `enneagram/enneagram-test-comparison-2025.md` |
 | 13 | 3 | 10 | Productivity Systems by Enneagram Type: Work With Your Perso... | `guides/productivity-systems-by-enneagram-type.md` |
 | 13 | 4 | 9 | Dark Triad Meets Enneagram: How Each Type Goes Wrong | `pop-culture/dark-triad-meets-enneagram.md` |
 | 12 | 4 | 8 | Why MBTI Failed and What to Use Instead | `community/mbti-vs-enneagram.md` |
 | 12 | 3 | 9 | Why Your Anxiety Doesn | `enneagram/enneagram-anxiety-management-guide.md` |
 | 12 | 4 | 8 | Enneagram Dating Guide for Men: Type-Specific Strategies Tha... | `enneagram/enneagram-dating-guide-for-men.md` |
-| 12 | 8 | 4 | Why You Don | `enneagram/enneagram-instinctual-subtypes.md` |
 | 12 | 6 | 6 | Enneagram Personal Growth: Unlock Your Type | `enneagram/enneagram-personal-growth.md` |
-| 12 | 2 | 10 | The Crash Course on Emotions We All Missed in Kindergarten | `guides/the-crash-course-on-emotions-that-we-missed-in-kindergarten.md` |
 | 11 | 4 | 7 | Introducing 9takes: Answer First, Then Compare Perspectives | `community/introducing-9takes.md` |
 | 11 | 4 | 7 | Enneagram Communication Guide: Decode Any Personality Type i... | `enneagram/enneagram-communication-guide.md` |
 | 11 | 4 | 7 | Enneagram Mental Health Red Flags: Early Warning Signs for A... | `enneagram/enneagram-mental-health-flags.md` |
 | 11 | 3 | 8 | Enneagram Types Working in Teams | `enneagram/enneagram-types-working-in-teams.md` |
 | 11 | 2 | 9 | Why You Keep Sabotaging New Relationships (Your Enneagram Kn... | `enneagram/how-to-navigate-early-relationship-stages.md` |
+| 11 | 1 | 10 | The Crash Course on Emotions We All Missed in Kindergarten | `guides/the-crash-course-on-emotions-that-we-missed-in-kindergarten.md` |
 | 11 | 2 | 9 | The Enneagram and Self-Development: A Guide to Personal Grow... | `guides/using-the-enneagram-for-self-development.md` |
 | 10 | 5 | 5 | How Minds Actually Change | `community/how-minds-change-on-9takes.md` |
 | 10 | 6 | 4 | Love Languages & Enneagram Types: The Ultimate Compatibility... | `enneagram/love-languages-and-enneagram-types.md` |

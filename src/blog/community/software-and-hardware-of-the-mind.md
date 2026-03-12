@@ -135,6 +135,15 @@ There's a better way. And it's actually ancient.
 
 ## Understanding the Software in the Brain
 
+<!--
+Image concept: hardware mapped, software neglected.
+Scene: marble lab table with a polished brain model opened like machinery on one side while theater masks, journals, and myth scrolls sit pushed aside on the other.
+Props: metal calipers, glass specimen jars, brain model, tragic and comic masks, wax tablets, prescription bottle, oil lamp.
+Lighting: surgical white light over the hardware, warmer shadow over the neglected storytelling tools.
+Midjourney prompt:
+marble laboratory table, polished brain model opened like precise machinery on one side under surgical white light, theater masks, journals, myth scrolls, wax tablets, and an oil lamp pushed aside into warm shadow on the other, metal calipers, specimen jars, prescription bottle, strong contrast between clinical and humanistic tools, photorealistic still life, no readable text --ar 16:9 --v 6 --style raw --q 2 --stylize 100
+-->
+
 The brain has hardware and software. We've mastered the hardware. The software — emotions, personality, the patterns that shape how you actually live — remains poorly understood. So we leave it to the experts.
 
 But "experts" do not have all the answers. To make matters worse, they are <a class="external-link" target="_blank" rel="noopener" href="https://www.quora.com/Do-psychiatrists-get-money-from-prescribing-patients-drugs">incentivized to give prescriptions</a>. The **brain's "software" is often only examined when something goes wrong** and a prescription is needed. This means that much remains to be explored and understood.
@@ -222,6 +231,15 @@ Narcissus was extraordinarily beautiful and rejected everyone who loved him. He 
 The myth is so psychologically precise that we named an entire personality disorder after it. But the Greeks included a detail that modern psychology often misses: the nymph Echo, who loved Narcissus, also wasted away until only her voice remained. **Narcissism doesn't just destroy the narcissist. It hollows out everyone around them.**
 
 ### Theater as State-Sponsored Psychological Practice
+
+<!--
+Image concept: Athens as a public mental health program.
+Scene: packed Theatre of Dionysus at dusk with citizens filing in using clay admission tokens while masked actors wait backstage and musicians prepare near the stage.
+Props: stone amphitheater benches, clay tickets, tragedy masks, torches, instruments, stage curtains, city skyline beyond the theater.
+Lighting: dusk blue sky with torchlight and warm stage glow.
+Midjourney prompt:
+wide cinematic photograph of the Theatre of Dionysus at dusk, citizens in ancient Greek dress filing in with clay admission tokens, masked actors waiting backstage near musicians, stone amphitheater benches full, torches lit, warm stage glow against blue evening sky, city skyline in distance, realistic historical detail, photorealistic editorial scene, no readable text --ar 16:9 --v 6 --style raw --q 2 --stylize 150
+-->
 
 Here is the part that should stop you in your tracks.
 

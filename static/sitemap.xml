@@ -194,6 +194,15 @@
     </image:image>
 </url>
 <url>
+    <loc>https://9takes.com/community/introducing-9takes</loc>
+    <lastmod>2026-03-12T00:00:00.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+        <image:loc>https://9takes.com/blogs/greek-statue-introducing-9takes.webp</image:loc>
+    </image:image>
+</url>
+<url>
     <loc>https://9takes.com/community/kantian-filters-and-nine-perspectives</loc>
     <lastmod>2026-03-04T00:00:00.000Z</lastmod>
     <changefreq>monthly</changefreq>
@@ -209,6 +218,15 @@
     <priority>0.7</priority>
     <image:image>
         <image:loc>https://9takes.com/blogs/the-MBTI-sucks.webp</image:loc>
+    </image:image>
+</url>
+<url>
+    <loc>https://9takes.com/community/memetic-comments</loc>
+    <lastmod>2026-03-12T00:00:00.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+        <image:loc>https://9takes.com/blogs/greek-sculpture-on-a-laptop.webp</image:loc>
     </image:image>
 </url>
 <url>
@@ -251,6 +269,15 @@
     <priority>0.7</priority>
     <image:image>
         <image:loc>https://9takes.com/blogs/greek-statue-arguing-online.webp</image:loc>
+    </image:image>
+</url>
+<url>
+    <loc>https://9takes.com/community/why-im-selective-sharing-enneagram</loc>
+    <lastmod>2026-03-12T00:00:00.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+        <image:loc>https://9takes.com/blogs/giving-a-speech.webp</image:loc>
     </image:image>
 </url>
 <url>
@@ -705,7 +732,7 @@
 </url>
 <url>
     <loc>https://9takes.com/enneagram-corner/enneagram-test-comparison-2025</loc>
-    <lastmod>2025-12-21T00:00:00.000Z</lastmod>
+    <lastmod>2026-03-12T00:00:00.000Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>

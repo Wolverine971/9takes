@@ -82,30 +82,30 @@ Each Enneagram type brings distinct strengths and challenges to your team. Here'
 
 ## Type 1: The Principled Perfectionist
 
-### What Drives Them at Work
+**What Drives Them at Work**
 
 **Core Motivation:** To be right, to reform, to improve
 **Greatest Fear:** Being corrupt, defective, or imperfect
 
 Type 1s are your quality control specialists. They ensure everything meets the highest standards. They notice what others miss and hold themselves and others to exacting principles.
 
-### Communication Style
+**Communication Style**
 
 Direct and precise. They say exactly what they mean and expect others to do the same. They value clarity and correctness.
 
-### Conflict Approach
+**Conflict Approach**
 
 They argue based on principles, not personal preferences. "This is the right way" rather than "I prefer this way."
 
-### How They Sabotage Team Dynamics
+**How They Sabotage Team Dynamics**
 
 Their critical inner voice often becomes an external critical voice. They can shut down creative brainstorming with premature judgment and create tension with their perfectionism.
 
-### Secret Strength for Teams
+**Secret Strength for Teams**
 
 Their ability to create systems and processes that actually work. When a Type 1 designs a workflow, it typically accounts for every contingency and maintains consistent quality.
 
-### What They Need From Leaders
+**What They Need From Leaders**
 
 Clear standards and the autonomy to maintain them. Recognition for their integrity and attention to detail. Permission to improve systems.
 
@@ -119,30 +119,30 @@ Clear standards and the autonomy to maintain them. Recognition for their integri
 
 ## Type 2: The Empathetic Connector
 
-### What Drives Them at Work
+**What Drives Them at Work**
 
 **Core Motivation:** To be needed, appreciated, and loved
 **Greatest Fear:** Being unwanted or unworthy of love
 
 Type 2s are your relationship specialists. They build bridges between team members and create the emotional glue that holds projects together. They sense others' needs intuitively.
 
-### Communication Style
+**Communication Style**
 
 Warm and personal. They check in about your weekend before discussing work tasks. They remember personal details and use them to establish connection.
 
-### Conflict Approach
+**Conflict Approach**
 
 They often avoid direct confrontation, preferring to smooth things over or mediate between conflicting parties.
 
-### How They Sabotage Team Dynamics
+**How They Sabotage Team Dynamics**
 
 They may enable underperformance by picking up others' slack. They can create unhealthy dependencies or burn out from overcommitting.
 
-### Secret Strength for Teams
+**Secret Strength for Teams**
 
 Their emotional intelligence creates psychological safety that allows innovation to flourish. Research shows teams with at least one strong Type 2 report 37% higher levels of trust.
 
-### What They Need From Leaders
+**What They Need From Leaders**
 
 Regular appreciation and recognition. Clear boundaries to prevent burnout. Permission to nurture team relationships as legitimate work.
 
@@ -156,30 +156,30 @@ Regular appreciation and recognition. Clear boundaries to prevent burnout. Permi
 
 ## Type 3: The Dynamic Achiever
 
-### What Drives Them at Work
+**What Drives Them at Work**
 
 **Core Motivation:** To be successful, admired, and valuable
 **Greatest Fear:** Being worthless or failing to achieve
 
 Type 3s are your results specialists. They drive projects forward and maintain momentum when others lose focus. They adapt quickly to whatever will lead to success.
 
-### Communication Style
+**Communication Style**
 
 Efficient and goal-oriented. They focus on actionable points and measurable outcomes. They speak in terms of achievements and results.
 
-### Conflict Approach
+**Conflict Approach**
 
 They view conflict as inefficient and prefer to find win-win solutions that maintain image and productivity.
 
-### How They Sabotage Team Dynamics
+**How They Sabotage Team Dynamics**
 
 Their focus on appearance and results can sideline deeper issues. They may push teams too hard or prioritize quick wins over sustainable solutions.
 
-### Secret Strength for Teams
+**Secret Strength for Teams**
 
 Their ability to inspire action and create momentum. When engagement is flagging, a Type 3 can remotivate the team with their energy and focus.
 
-### What They Need From Leaders
+**What They Need From Leaders**
 
 Clear metrics for success. Recognition for achievements. Challenges that leverage their talents.
 
@@ -193,30 +193,30 @@ Clear metrics for success. Recognition for achievements. Challenges that leverag
 
 ## Type 4: The Intuitive Innovator
 
-### What Drives Them at Work
+**What Drives Them at Work**
 
 **Core Motivation:** To be unique, authentic, and deeply understood
 **Greatest Fear:** Being ordinary or having no significant identity
 
 Type 4s are your meaning specialists. They bring depth, creativity, and emotional intelligence to projects. They excel at making work resonate on a human level.
 
-### Communication Style
+**Communication Style**
 
 Expressive and layered. They use metaphors and stories. They prefer authentic dialogue over surface-level small talk.
 
-### Conflict Approach
+**Conflict Approach**
 
 They engage deeply with emotional aspects of conflict others might miss, sometimes intensifying feelings in the process.
 
-### How They Sabotage Team Dynamics
+**How They Sabotage Team Dynamics**
 
 Their mood fluctuations can affect team energy. They may disengage when work feels too conventional or withdraw when not feeling understood.
 
-### Secret Strength for Teams
+**Secret Strength for Teams**
 
 Their ability to infuse projects with meaning and emotional resonance. When customers need to feel genuinely understood, Type 4s create that connection.
 
-### What They Need From Leaders
+**What They Need From Leaders**
 
 Space for self-expression. Recognition of their unique contributions. Projects with meaning beyond metrics.
 
@@ -230,30 +230,30 @@ Space for self-expression. Recognition of their unique contributions. Projects w
 
 ## Type 5: The Strategic Analyst
 
-### What Drives Them at Work
+**What Drives Them at Work**
 
 **Core Motivation:** To be knowledgeable, capable, and self-sufficient
 **Greatest Fear:** Being useless, incapable, or overwhelmed
 
 Type 5s are your knowledge specialists. They dive deep into subjects and emerge with insights others miss. They conserve energy for what matters most.
 
-### Communication Style
+**Communication Style**
 
 Concise and information-focused. They value data-driven discussions and dislike emotional appeals without supporting evidence.
 
-### Conflict Approach
+**Conflict Approach**
 
 They detach to analyze conflicts objectively. They prefer written communication during disagreements to maintain emotional distance.
 
-### How They Sabotage Team Dynamics
+**How They Sabotage Team Dynamics**
 
 Their need for privacy can be perceived as aloofness. They may withhold crucial information until they've fully processed it, creating information silos.
 
-### Secret Strength for Teams
+**Secret Strength for Teams**
 
 Their ability to solve problems others consider impossible. When a project hits a technical roadblock, Type 5s often find the breakthrough.
 
-### What They Need From Leaders
+**What They Need From Leaders**
 
 Intellectual autonomy. Clear boundaries around their time and energy. Advance notice before being put on the spot.
 
@@ -271,30 +271,30 @@ Intellectual autonomy. Clear boundaries around their time and energy. Advance no
 
 ## Type 6: The Loyal Guardian
 
-### What Drives Them at Work
+**What Drives Them at Work**
 
 **Core Motivation:** To be secure, supported, and certain
 **Greatest Fear:** Being without guidance, unprepared for danger
 
 Type 6s are your risk management specialists. They anticipate problems before they happen and make sure the team isn't blindsided by unforeseen challenges.
 
-### Communication Style
+**Communication Style**
 
 Questioning and thorough. They play devil's advocate to test ideas. They seek clarification and want to understand underlying assumptions.
 
-### Conflict Approach
+**Conflict Approach**
 
 They may be either confrontational or conflict-avoidant, depending on their subtype, but they always want to know where others stand.
 
-### How They Sabotage Team Dynamics
+**How They Sabotage Team Dynamics**
 
 Their questioning can be mistaken for resistance. Their worst-case scenario thinking can dampen enthusiasm for new initiatives.
 
-### Secret Strength for Teams
+**Secret Strength for Teams**
 
 Their ability to create contingency plans that actually work. When crisis hits, Type 6s have already thought through responses while others are still in shock.
 
-### What They Need From Leaders
+**What They Need From Leaders**
 
 Consistent and transparent communication. Clear decision-making processes. Acknowledgment of potential risks alongside opportunities.
 
@@ -308,30 +308,30 @@ Consistent and transparent communication. Clear decision-making processes. Ackno
 
 ## Type 7: The Visionary Catalyst
 
-### What Drives Them at Work
+**What Drives Them at Work**
 
 **Core Motivation:** To be happy, satisfied, and free from limitation
 **Greatest Fear:** Being deprived, trapped, or in pain
 
 Type 7s are your innovation specialists. They generate exciting possibilities and infuse energy into projects. They see opportunities others miss.
 
-### Communication Style
+**Communication Style**
 
 Enthusiastic and fast-paced. They connect disparate ideas rapidly and communicate with optimism and excitement.
 
-### Conflict Approach
+**Conflict Approach**
 
 They reframe conflicts as opportunities and use humor to defuse tension. They may avoid deeper issues by shifting to new topics.
 
-### How They Sabotage Team Dynamics
+**How They Sabotage Team Dynamics**
 
 Their enthusiasm for new ideas can lead to abandoned projects. They may resist necessary structure or detailed follow-through.
 
-### Secret Strength for Teams
+**Secret Strength for Teams**
 
 Their ability to rally teams through challenging periods with genuine optimism. When morale is low, Type 7s find authentic reasons for hope.
 
-### What They Need From Leaders
+**What They Need From Leaders**
 
 Freedom to explore ideas. Appreciation for their vision. Systems to help them follow through on their best concepts.
 
@@ -345,30 +345,30 @@ Freedom to explore ideas. Appreciation for their vision. Systems to help them fo
 
 ## Type 8: The Decisive Challenger
 
-### What Drives Them at Work
+**What Drives Them at Work**
 
 **Core Motivation:** To be strong, in control, and protect others
 **Greatest Fear:** Being harmed, controlled, or violated
 
 Type 8s are your power specialists. They move projects forward through sheer force of will and protect team members from external threats.
 
-### Communication Style
+**Communication Style**
 
 Direct and assertive. They speak with conviction and expect straightforward communication in return. They dislike sugarcoating or ambiguity.
 
-### Conflict Approach
+**Conflict Approach**
 
 They address issues head-on and prefer immediate resolution. They respect those who stand their ground in disagreements.
 
-### How They Sabotage Team Dynamics
+**How They Sabotage Team Dynamics**
 
 Their forceful approach can overwhelm quieter team members. They may escalate minor disagreements into power struggles.
 
-### Secret Strength for Teams
+**Secret Strength for Teams**
 
 Their ability to make tough decisions when others are paralyzed by analysis. When swift action is needed, Type 8s provide decisive leadership.
 
-### What They Need From Leaders
+**What They Need From Leaders**
 
 Respect for their autonomy. Direct feedback without manipulation. Recognition of their protective instincts toward the team.
 
@@ -382,30 +382,30 @@ Respect for their autonomy. Direct feedback without manipulation. Recognition of
 
 ## Type 9: The Harmonizing Mediator
 
-### What Drives Them at Work
+**What Drives Them at Work**
 
 **Core Motivation:** To maintain peace, harmony, and stability
 **Greatest Fear:** Loss, separation, or conflict
 
 Type 9s are your consensus specialists. They ensure all perspectives are considered and teams move forward together rather than fragmenting.
 
-### Communication Style
+**Communication Style**
 
 Inclusive and diplomatic. They synthesize different viewpoints and prioritize language that unites rather than divides.
 
-### Conflict Approach
+**Conflict Approach**
 
 They mediate between opposing positions and find common ground others miss. They may temporarily withdraw to process tensions.
 
-### How They Sabotage Team Dynamics
+**How They Sabotage Team Dynamics**
 
 Their conflict avoidance can allow problems to fester. Their accommodating nature may mask important disagreements that need addressing.
 
-### Secret Strength for Teams
+**Secret Strength for Teams**
 
 Their ability to create genuine alignment without forcing false consensus. When deadlocks occur, Type 9s find the third option that bridges divides.
 
-### What They Need From Leaders
+**What They Need From Leaders**
 
 Time to process before deciding. Recognition of their peacekeeping contributions. Gentle encouragement to share their perspectives.
 
