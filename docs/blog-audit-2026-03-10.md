@@ -58,13 +58,13 @@ All D-grade (6.9) with prescriptive medical/diagnostic phrasing that creates lia
 
 ### Status Tracker
 
-- [ ] reddit-deep-connections-limitations.md (900 words)
-- [ ] introducing-9takes.md (1,190 words)
-- [ ] mbti-vs-enneagram.md (1,284 words)
-- [ ] why-im-selective-sharing-enneagram.md (1,413 words)
-- [ ] memetic-comments.md (1,580 words)
-- [ ] inspiration-for-9takes.md (1,773 words)
-- [ ] why-the-greek-vibe.md (1,781 words)
+- [x] reddit-deep-connections-limitations.md (expanded from 900 to ~2,000 words, 2026-03-12)
+- [x] introducing-9takes.md (expanded with QuickAnswer, platform comparison, FAQs, 2026-03-12)
+- [x] mbti-vs-enneagram.md (added FAQ section + structured data, cross-links, 2026-03-12)
+- [x] why-im-selective-sharing-enneagram.md (added QuickAnswer + 4 FAQs, 2026-03-12)
+- [x] memetic-comments.md (added QuickAnswer + 4 FAQs, 2026-03-12)
+- [x] inspiration-for-9takes.md (added QuickAnswer + 4 FAQs, 2026-03-12)
+- [x] why-the-greek-vibe.md (already had QuickAnswer + FAQs, updated dates, 2026-03-12)
 
 ---
 

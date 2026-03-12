@@ -4,7 +4,7 @@ description: 'TLDR: My wife and I were fighting, and we went to a counselor whic
 author: 'DJ Wayne'
 date: '2023-06-17'
 loc: 'https://9takes.com/community/inspiration-for-9takes'
-lastmod: '2025-12-05'
+lastmod: '2026-03-12'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
@@ -46,7 +46,7 @@ path: src/blog/community/inspiration-for-9takes.md
     ]
   },
   "datePublished": "2023-06-17",
-  "dateModified": "2024-04-18",
+  "dateModified": "2026-03-12",
   "url": "https://9takes.com/community/inspiration-for-9takes",
   "image": {
     "@type": "ImageObject",
@@ -73,7 +73,12 @@ path: src/blog/community/inspiration-for-9takes.md
 
 <script>
 	import  PopCard  from "$lib/components/atoms/PopCard.svelte";
+	import  QuickAnswer  from "$lib/components/blog/callouts/QuickAnswer.svelte";
 </script>
+
+<QuickAnswer question="What inspired 9takes?">
+**A marriage that was falling apart.** My wife and I couldn't stop fighting until a counselor introduced us to personality tests — first MBTI, then the Enneagram. Understanding *why* we processed things differently changed everything. I went looking for a place to explore personality online, couldn't find one that worked, and built 9takes: one question, nine ways to see it.
+</QuickAnswer>
 
 <div
     style="display: flex;
@@ -85,7 +90,7 @@ path: src/blog/community/inspiration-for-9takes.md
         showIcon={false}
         tint={false}
         displayText=""
-        altText="My wife and I arguing 💑"
+        altText="My wife and I arguing"
         subtext=""
     />
 </div>
@@ -225,5 +230,81 @@ And the Greek aesthetic is a nod to question-first discourse—here’s [why the
 
 One question. Nine ways to see it. And finally — a place to explore them all.
 
+## Frequently Asked Questions
+
+### What is 9takes and how does it work?
+
+9takes is a Q&A platform built around the Enneagram personality system. You answer a question before you can see anyone else's responses — removing the echo chamber effect. Each response can be tagged with a personality type, so you can see how different types approach the same question. The name comes from the nine Enneagram types: one question, nine takes.
+
+### How did the Enneagram help your marriage?
+
+The Enneagram gave us language for patterns we could feel but couldn't name. Instead of "you always shut down," it became "your Type processes conflict by withdrawing because X." Understanding the _why_ behind each other's behavior made it possible to stop taking things personally and start actually listening. The fights didn't disappear, but they stopped being about who was right and started being about understanding.
+
+### Why did you build 9takes instead of just using Reddit or Discord?
+
+I tried both. Reddit's structure [makes deep connection nearly impossible](/community/reddit-deep-connections-limitations) — quick takes get upvoted, thoughtful responses get buried. Discord communities were either too shallow or too fragmented. Neither platform was designed to surface how personality shapes perspective. I needed something that organized conversations around people's inner worlds, not just their opinions.
+
+### What does the name "9takes" mean?
+
+Nine takes. The Enneagram describes nine core personality types, each with a distinct way of seeing the world. For any meaningful question, there are at least nine valid perspectives worth hearing. The platform is built to surface all of them — not to find the "right" answer, but to help you see what you're missing.
+
 <style lang="scss">
 </style>
+
+<!--
+
+# BLOG AUDIT — Grade: B- (Personal story carries it)
+
+WHAT WORKS:
+
+- The marriage story is genuine and compelling. This is your real
+  voice — it reads nothing like AI content.
+- Chris Voss reference (FBI hostage negotiator on listening) is a
+  specific, interesting connection that adds credibility.
+- The progression from personal crisis → discovery → building 9takes
+  is logical and earned.
+- "Don't tell someone to go on a journey. Ask them questions that
+  lead them on a journey." — strong line.
+
+WHAT NEEDS WORK:
+
+1. FAQ SECTION: Worst offender. After reading a deeply personal story
+   about your marriage, the reader hits "What is 9takes and how does
+   it work?" — they just LEARNED this from the story. It breaks the
+   emotional arc with redundant SEO padding. SUGGESTION: Either cut
+   the FAQ entirely (this blog works best as pure narrative) or
+   replace with questions a reader would ACTUALLY ask after this
+   story: "Did the Enneagram save your marriage?" / "What's the
+   hardest part about building a platform around personality?" /
+   "Do you and your wife still fight about the same things?"
+2. "WHAT HAPPENS WHEN YOU DON'T FEEL UNDERSTOOD" section has
+   redundant bullet lists:
+   - List 1: what people DO when not understood
+   - List 2: what people FEEL when not understood
+     These overlap. Merge into one tighter list. Or better: replace
+     both lists with ONE specific example from your marriage. "My wife
+     stopped talking for three days. Not because she was angry — because
+     she'd concluded I was incapable of understanding her." That's more
+     powerful than any bullet list.
+3. COMMENTED-OUT HTML throughout the file is sloppy. Clean it up —
+   either integrate the ideas or delete them.
+4. ENDING: "One question. Nine ways to see it. And finally — a place
+   to explore them all." — This is marketing copy. After a personal
+   story, end personally. Something like: "I built 9takes because I
+   wish it had existed when my wife and I were screaming past each
+   other. Maybe it would have helped us hear each other sooner."
+5. "Questions are the key" section: The two-category observation
+   ("I am too unique" vs "I am like everyone else") is interesting
+   but could hit harder with a specific conversation where someone
+   said one of these to you.
+
+SUGGESTIONS:
+
+- This blog should lean HARDER into the personal narrative. Cut the
+  FAQ, tighten the bullet lists into anecdotes, end with a personal
+  line instead of a tagline. Your real story is the value here —
+  don't dilute it with SEO scaffolding.
+- The description "TLDR: My wife and I were fighting..." is actually
+  a great description. Keep it.
+  ==========================================================
+  -->

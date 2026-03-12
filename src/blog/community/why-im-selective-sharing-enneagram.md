@@ -1,10 +1,11 @@
 ---
+
 title: 'The Enneagram Changed My Life, But I Learned to Shut Up About It'
 description: 'Why enthusiasm for the Enneagram backfires, and the tactical approach to sharing without becoming that person who psychoanalyzes everyone at parties.'
 author: 'DJ Wayne'
 date: '2024-03-09'
 loc: 'https://9takes.com/community/why-im-selective-sharing-enneagram'
-lastmod: '2025-06-25'
+lastmod: '2026-03-12'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
@@ -13,10 +14,12 @@ blog: true
 previewHtml:
 pic: 'giving-a-speech'
 path: src/blog/community/why-im-selective-sharing-enneagram.md
+
 ---
 
 <script>
 	import  PopCard  from "$lib/components/atoms/PopCard.svelte";
+	import  QuickAnswer  from "$lib/components/blog/callouts/QuickAnswer.svelte";
 </script>
 
 <svelte:head>
@@ -50,7 +53,7 @@ path: src/blog/community/why-im-selective-sharing-enneagram.md
     ]
   },
   "datePublished": "2024-03-09",
-  "dateModified": "2025-06-25",
+  "dateModified": "2026-03-12",
   "url": "https://9takes.com/community/why-im-selective-sharing-enneagram",
   "image": {
     "@type": "ImageObject",
@@ -74,6 +77,10 @@ path: src/blog/community/why-im-selective-sharing-enneagram.md
 </script>
 
 </svelte:head>
+
+<QuickAnswer question="How do you share the Enneagram without being annoying?">
+**Share your own growth, not their diagnosis.** Talk about what you learned about yourself, not what you've figured out about them. Invite curiosity instead of assigning types. Be a beacon — people who need what you've found will come to it when they're ready.
+</QuickAnswer>
 
 <div
     style="display: flex;
@@ -246,3 +253,77 @@ People notice when you handle conflict differently. When you stop reacting the s
 That's the invitation. Not your explanation. Your transformation.
 
 Those who need what you've found will find their way to it. When they're ready. On their terms. And when they ask, you'll know exactly what to say.
+
+## Frequently Asked Questions
+
+### How do I introduce someone to the Enneagram without turning them off?
+
+Start with your own story, not their type. Say "I learned something about myself that was eye-opening" rather than "I figured out your type." Share one specific insight about your own patterns and let them ask questions. If they don't ask, that's your answer — they're not ready, and that's okay.
+
+### Why do people get defensive when you tell them their Enneagram type?
+
+Because it feels like unsolicited analysis. Your personality feels personal — when someone categorizes it without permission, it registers as invasion, not insight. You're essentially saying "I've been observing you and I have conclusions about your psychology." Even when you're right, the delivery bypasses consent.
+
+### Is it okay to type people in your head without telling them?
+
+Observing patterns is natural and the Enneagram makes you better at it. The issue isn't noticing — it's announcing. Keep your observations to yourself unless asked. Use what you see to be more empathetic and understanding, not to demonstrate how clever you are at reading people.
+
+### What's the best way to recommend the Enneagram to a skeptic?
+
+Don't recommend it directly. Live your growth visibly. When they notice you handling conflict differently or understanding them better, they might ask what changed. That's your opening. For the analytically minded, you might mention [how the Enneagram compares to MBTI](/community/mbti-vs-enneagram) — framing it against something they already know can lower resistance.
+
+
+<!--
+
+# BLOG AUDIT — Grade: B (Great opening, but one point x5)
+
+WHAT WORKS:
+
+- Opening anecdote is the BEST in the entire blog set. Killing your
+  brother's interest in 5 minutes is specific, vulnerable, relatable.
+- "Are there peer-reviewed research papers on this? Sounds like
+  horoscopes." — perfect. This is what people actually say.
+- Beacon vs. spotlight metaphor is strong and memorable.
+- "Nobody likes surprise homework." — genuinely funny.
+- The tactical playbook format is useful and actionable.
+
+WHAT NEEDS WORK:
+
+1. REDUNDANCY — This blog makes ONE point FIVE different ways:
+   - "Why Unsolicited Analysis Backfires" → don't diagnose people
+   - "The Teacher Trap" → don't lecture people
+   - "The Curse of Knowledge" → don't dump everything at once
+   - "Why Pushing Creates Resistance" → don't push
+   - "Your Type Colors Everything" → your perspective is biased
+     These are the same insight wearing different hats. A smart reader
+     gets it after two. SUGGESTION: Merge "Teacher Trap" and "Curse of
+     Knowledge" into one section. Cut "Why Pushing Creates Resistance"
+     — the insight is already covered by the others.
+2. "YOUR TYPE COLORS EVERYTHING YOU SAY" is the weakest section. The
+   point is valid but it doesn't go deep enough to justify its own
+   heading. Either expand with a specific example (e.g., "When I
+   explained the Enneagram to my coworker, I spent 10 minutes on core
+   fears because that's what hit ME hardest as a Type X. She glazed
+   over. Turns out she's a Type 7 — she would have lit up if I'd led
+   with growth and adventure.") — or fold it into another section.
+3. TACTICAL PLAYBOOK at the end is useful but also restates what each
+   section already said. Consider making this the ONLY place these
+   appear and cutting the "What pushes / What works" pairs from the
+   body sections. That way each body section tells the story, and the
+   playbook is the actionable cheat sheet.
+4. The blog could be 30-40% shorter and hit significantly harder.
+   The word count is fighting the message ("be concise, be selective")
+   which is ironic.
+
+SUGGESTIONS:
+
+- Restructure to: Opening anecdote (keep as-is) → Why it backfires
+  (merge into ONE section with the psychological reasoning) → Your
+  lens is biased (expand with a specific example) → Beacon not
+  spotlight (keep as-is) → Three questions before sharing (keep) →
+  Tactical playbook (keep). That's 6 sections instead of 9.
+- Add your Enneagram type somewhere. You're writing about how your
+  type colors your explanation — but you never say what YOUR type is.
+  That's a missed opportunity for authenticity and self-demonstration.
+  ==========================================================
+  -->

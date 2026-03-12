@@ -1,10 +1,11 @@
 ---
+
 title: 'Introducing 9takes: Answer First, Then Compare Perspectives'
 description: 'A Q&A platform where you answer before you read, built to surface diverse perspectives with an optional Enneagram lens.'
 author: 'DJ Wayne'
 date: '2023-04-17'
 loc: 'https://9takes.com/community/introducing-9takes'
-lastmod: '2026-02-18'
+lastmod: '2026-03-12'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
@@ -13,6 +14,7 @@ blog: true
 previewHtml: ''
 pic: 'greek-statue-introducing-9takes'
 path: src/blog/community/introducing-9takes.md
+
 ---
 
 <svelte:head>
@@ -20,52 +22,100 @@ path: src/blog/community/introducing-9takes.md
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "BlogPosting",
-  "headline": "Introducing 9takes: Answer First, Then Compare Perspectives",
-  "description": "A Q&A platform where you answer before you read, built to surface diverse perspectives with an optional Enneagram lens.",
-  "author": {
-    "@type": "Person",
-    "name": "DJ Wayne",
-    "sameAs": [
-      "https://www.instagram.com/djwayne3/",
-      "https://www.youtube.com/@djwayne3",
-      "https://www.linkedin.com/in/davidtwayne/",
-      "https://twitter.com/djwayne3"
-    ]
-  },
-  "publisher": {
-    "@type": "Organization",
-    "name": "9takes",
-    "logo": {
-      "@type": "ImageObject",
-      "url": "https://9takes.com/brand/aero.png"
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "headline": "Introducing 9takes: Answer First, Then Compare Perspectives",
+      "description": "A Q&A platform where you answer before you read, built to surface diverse perspectives with an optional Enneagram lens.",
+      "author": {
+        "@type": "Person",
+        "name": "DJ Wayne",
+        "sameAs": [
+          "https://www.instagram.com/djwayne3/",
+          "https://www.youtube.com/@djwayne3",
+          "https://www.linkedin.com/in/davidtwayne/",
+          "https://twitter.com/djwayne3"
+        ]
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "9takes",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://9takes.com/brand/aero.png"
+        },
+        "sameAs": [
+          "https://www.instagram.com/9takesdotcom/",
+          "https://twitter.com/9takesdotcom"
+        ]
+      },
+      "datePublished": "2023-04-17",
+      "dateModified": "2026-03-12",
+      "url": "https://9takes.com/community/introducing-9takes",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://9takes.com/blogs/greek-statue-introducing-9takes.webp",
+        "width": 900,
+        "height": 900
+      },
+      "articleSection": "Technology",
+      "keywords": ["9takes platform", "online conversations", "Enneagram", "Q&A platform", "anonymous discussions", "diverse perspectives", "personality types"],
+      "isPartOf": {
+        "@type": "Blog",
+        "name": "9takes Community Blog",
+        "url": "https://9takes.com/community"
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://9takes.com/community/introducing-9takes"
+      }
     },
-    "sameAs": [
-      "https://www.instagram.com/9takesdotcom/",
-      "https://twitter.com/9takesdotcom"
-    ]
-  },
-  "datePublished": "2023-04-17",
-  "dateModified": "2026-02-18",
-  "url": "https://9takes.com/community/introducing-9takes",
-  "image": {
-    "@type": "ImageObject",
-    "url": "https://9takes.com/blogs/greek-statue-introducing-9takes.webp",
-    "width": 900,
-    "height": 900
-  },
-  "articleSection": "Technology",
-  "keywords": ["9takes platform", "online conversations", "Enneagram", "social media", "anonymous discussions", "diverse perspectives"],
-  "wordCount": 720,
-  "isPartOf": {
-    "@type": "Blog",
-    "name": "9takes Community Blog",
-    "url": "https://9takes.com/community"
-  },
-  "mainEntityOfPage": {
-    "@type": "WebPage",
-    "@id": "https://9takes.com/community/introducing-9takes"
-  }
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Do I need to know my Enneagram type to use 9takes?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. The Enneagram lens is optional. You can answer questions, read others' perspectives, and participate fully without ever selecting a type."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why do I have to answer before I can see other comments?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Because seeing other people's answers first changes yours. Research on social priming shows a single early comment can shift an entire thread's direction. Writing your take first ensures an independent perspective."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is 9takes anonymous?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. You don't need a real name, photo, or social profile. Your personality type gives readers context without exposing your identity."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What kinds of questions work best on 9takes?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Questions that don't have a single right answer. The best 9takes questions tap into lived experience, personal values, and emotional truth — the kind of answers that reveal how personality shapes perspective."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How is the Enneagram used on the platform?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "When you answer a question, you can optionally tag your response with your Enneagram type. Readers can then filter answers by type, surfacing patterns in how different personality types approach the same question."
+          }
+        }
+      ]
+    }
+  ]
 }
 </script>
 
@@ -73,9 +123,13 @@ path: src/blog/community/introducing-9takes.md
 
 <script>
 	import  PopCard  from "$lib/components/atoms/PopCard.svelte";
-
+	import  QuickAnswer  from "$lib/components/blog/callouts/QuickAnswer.svelte";
 	import Rubix from "$lib/components/icons/rubix.svelte";
 </script>
+
+<QuickAnswer question="What is 9takes?">
+**9takes is a Q&A platform where you answer first, then compare perspectives.** Comments are hidden until you contribute your own take — removing the echo chamber effect that plagues every other platform. An optional Enneagram personality lens lets you see *why* people think differently, not just *that* they do. One question, nine ways to see it.
+</QuickAnswer>
 
 <div
 	style="display: flex;
@@ -187,6 +241,18 @@ The Enneagram maps nine personality types based on core motivations — what dri
 
 Compare how different types answer the same question. Spot patterns, common ground, and blind spots across all nine perspectives.
 
+## What Makes This Different From Reddit, Quora, or Twitter?
+
+Every Q&A platform claims to value diverse perspectives. Here's how they actually work:
+
+**Reddit** organizes by topic, rewards speed, and buries dissent with downvotes. The first commenter sets the frame and everyone else reacts to it. Deep conversations happen occasionally — despite the design, not because of it. ([Why Reddit can't deliver deep connections](/community/reddit-deep-connections-limitations).)
+
+**Quora** rewards long-form expertise but optimizes for authority, not diversity. You get one "best answer" — usually from whoever has the most followers. Different perspectives get pushed to the bottom.
+
+**Twitter/X** rewards hot takes and engagement bait. The loudest voice wins. Nuance dies in 280 characters.
+
+**9takes** does something none of them do: it forces you to think independently before you see anyone else's answer. Then it shows you how personality shapes perspective. You're not reacting to a thread — you're contributing to a mosaic.
+
 ## Go Answer Something
 
 Most questions that matter don't have a single right answer. The point is not to win — it's to see what you're missing.
@@ -198,6 +264,28 @@ Most questions that matter don't have a single right answer. The point is not to
 Pick a question that makes you pause. Write what you actually think, not what sounds right. That's where it starts.
 
 Curious how 9takes came to be? It started with a marriage counselor and a personality test. [Read the origin story](/community/inspiration-for-9takes). And if you're wondering about the design choices, the [Greek vibe is intentional](/community/why-the-greek-vibe).
+
+## Frequently Asked Questions
+
+### Do I need to know my Enneagram type to use 9takes?
+
+No. The Enneagram lens is optional. You can answer questions, read others' perspectives, and participate fully without ever selecting a type. If you're curious, you can [find your type here](/enneagram-corner/beginners-guide-to-determining-your-enneagram-type) — but it's not required.
+
+### Why do I have to answer before I can see other comments?
+
+Because seeing other people's answers first changes yours. Research on social priming shows that a single early comment can shift an entire thread's direction. By writing your take first, you contribute an independent perspective. Then you get to compare it against others — which is where the real insight happens.
+
+### Is 9takes anonymous?
+
+Yes. You don't need a real name, photo, or social profile. Your personality type (if you choose to share it) gives readers context about where you're coming from without exposing your identity. This creates a space where people can be honest without the social consequences that silence most voices on other platforms.
+
+### What kinds of questions work best on 9takes?
+
+Questions that don't have a single right answer. "What's the hardest thing about being honest?" works better than "What year did X happen?" The best 9takes questions tap into lived experience, personal values, and emotional truth — the kind of answers that reveal how personality shapes perspective.
+
+### How is the Enneagram used on the platform?
+
+When you answer a question, you can optionally tag your response with your Enneagram type. Readers can then filter answers by type — seeing how all the Type 8s answered versus the Type 4s, for example. This surfaces patterns in how different personality types approach the same question, giving you insight into perspectives you might never have considered.
 
 <style lang="scss">
 	.point-list {
@@ -252,3 +340,52 @@ Curious how 9takes came to be? It started with a marriage counselor and a person
 		align-items: center;
 	}
 </style>
+
+<!--
+
+# BLOG AUDIT — Grade: B+ (Strongest product manifesto)
+
+WHAT WORKS:
+
+- "Where do good conversations happen online?" — strong hook.
+- "Posts perform. Questions invite." — memorable and punchy.
+- The 25% fake upvote stat grounds the argument in evidence.
+- The scenario walkthrough (someone asks "What's the hardest thing
+  about being honest?") makes the platform concrete and compelling.
+- Platform comparisons (Reddit/Quora/Twitter) are direct, fair, and
+  name what each does well before saying what it can't do.
+- Three mechanics section with SVGs is well-structured.
+
+WHAT NEEDS WORK:
+
+1. FAQ SECTION: Every answer restates something already thoroughly
+   covered in the body. "Why do I have to answer before I can see
+   other comments?" was already explained in detail. A smart reader
+   who just finished the article doesn't need this. Either cut the
+   FAQ entirely or replace with genuinely NEW questions (e.g.,
+   "What happens if someone posts a low-effort answer just to unlock
+   the thread?" or "How does moderation work without downvotes?").
+2. "TWO WAVES" SECTION: The "new wave" examples (Discord, BeReal,
+   Substack Notes) are already years old. A smart reader won't see
+   these as "new wave." Either update with genuinely current examples
+   or reframe — these aren't "new," they're evidence that the shift
+   has already been happening for years and 9takes is the next step.
+3. The "old wave" description is slightly reductive. "Sharing became
+   broadcasting. Reading became lurking." — these are true but feel
+   like things every social media critique says. Add one specific,
+   less-obvious observation to stand out.
+
+SUGGESTIONS:
+
+- Cut or heavily trim the FAQ section. If you keep it, replace the
+  questions with ones that address real objections/friction: "What if
+  I don't know my Enneagram type?" is good (keep that one). Add:
+  "What stops people from posting garbage just to see the thread?"
+  or "How do you prevent the platform from becoming another echo
+  chamber once communities form?"
+- In the "Two waves" section, change framing from "new wave" to
+  something like "The shift is already happening" — acknowledge these
+  aren't predictions, they're evidence. Then position 9takes as
+  building on that momentum.
+- # The "Go Answer Something" CTA is good. No changes needed.
+  -->

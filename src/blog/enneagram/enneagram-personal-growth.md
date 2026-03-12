@@ -54,11 +54,11 @@ In this guide, you'll decode your type's exact growth path—the strategies that
 
 ## Type 1: The Perfectionist - From Critic to Coach
 
-### The Pattern That Keeps You Stuck
+**The Pattern That Keeps You Stuck**
 
 Your inner critic runs 24/7, finding flaws in everything—especially yourself. You think "I must be perfect" but this creates paralysis, not progress.
 
-### Your Growth Formula
+**Your Growth Formula**
 
 **Tactical shift**: Transform your inner critic into an inner coach.
 
@@ -66,19 +66,19 @@ Your inner critic runs 24/7, finding flaws in everything—especially yourself. 
 - When you spot a flaw, ask: "What's the 80% solution here?"
 - Set "imperfection goals"—deliberately do B+ work on low-stakes tasks
 
-### Environmental Hacks
+**Environmental Hacks**
 
 - Work in spaces with natural imperfections (coffee shops, not sterile offices)
 - Surround yourself with Type 7s and 9s who model flexibility
 - Create "done lists" instead of endless to-do lists
 
-### Red Flags You're Regressing
+**Red Flags You're Regressing**
 
 - Criticizing others more harshly
 - Procrastinating due to perfectionism
 - Physical tension in jaw/shoulders
 
-### Your 5-Year Transformation
+**Your 5-Year Transformation**
 
 You'll shift from "I must be perfect" to "I choose excellence where it matters." The constant self-criticism quiets, replaced by strategic standards that actually serve your goals.
 
@@ -86,11 +86,11 @@ You'll shift from "I must be perfect" to "I choose excellence where it matters."
 
 ## Type 2: The Helper - From People-Pleaser to Powerful
 
-### The Pattern That Keeps You Stuck
+**The Pattern That Keeps You Stuck**
 
 You've made yourself indispensable to everyone else while running on empty. The belief "I'm only worthy if I help" creates resentment disguised as generosity.
 
-### Your Growth Formula
+**Your Growth Formula**
 
 **Tactical shift**: Build power through boundaries, not sacrifice.
 
@@ -98,19 +98,19 @@ You've made yourself indispensable to everyone else while running on empty. The 
 - Track your energy: Rate it 1-10 before and after helping someone
 - Practice saying "I need..." three times daily (start small)
 
-### Environmental Hacks
+**Environmental Hacks**
 
 - Schedule "selfish hours" where you're unavailable to help
 - Find accountability partners who call out your over-giving
 - Join activities where you receive, not give (massage, classes, etc.)
 
-### Red Flags You're Regressing
+**Red Flags You're Regressing**
 
 - Feeling secretly resentful after helping
 - Exhaustion with no clear source
 - Keeping mental score of who "owes" you
 
-### Your 5-Year Transformation
+**Your 5-Year Transformation**
 
 You'll evolve from compulsive helper to strategic supporter. Your help becomes a choice, not a compulsion. People respect you more because you respect yourself first.
 
@@ -118,11 +118,11 @@ You'll evolve from compulsive helper to strategic supporter. Your help becomes a
 
 ## Type 3: The Achiever - From Performer to Person
 
-### The Pattern That Keeps You Stuck
+**The Pattern That Keeps You Stuck**
 
 You've become a human doing, not a human being. The mask of success is suffocating the real you, but taking it off feels like career suicide.
 
-### Your Growth Formula
+**Your Growth Formula**
 
 **Tactical shift**: Make authenticity your new achievement metric.
 
@@ -130,19 +130,19 @@ You've become a human doing, not a human being. The mask of success is suffocati
 - Schedule "unproductive time" and protect it like a meeting
 - Ask "Who am I when I'm not achieving?" journal for 5 minutes daily
 
-### Environmental Hacks
+**Environmental Hacks**
 
 - Spend time with people who knew you before your success
 - Join groups based on interests, not networking potential
 - Create achievement-free zones (bedroom, certain friend groups)
 
-### Red Flags You're Regressing
+**Red Flags You're Regressing**
 
 - Lying about or exaggerating accomplishments
 - Feeling empty after achieving goals
 - Avoiding people who've seen you fail
 
-### Your 5-Year Transformation
+**Your 5-Year Transformation**
 
 You'll shift from "I am my achievements" to "I achieve from who I am." Success becomes sustainable because it's rooted in authenticity, not performance.
 
@@ -158,11 +158,11 @@ Before diving into more types, understand this: **Each Enneagram type has secret
 
 ## Type 4: The Individualist - From Special to Substantial
 
-### The Pattern That Keeps You Stuck
+**The Pattern That Keeps You Stuck**
 
 You're addicted to emotional intensity, mistaking drama for depth. The story "I'm too unique to be understood" keeps you isolated in your feelings.
 
-### Your Growth Formula
+**Your Growth Formula**
 
 **Tactical shift**: Channel emotional depth into creative discipline.
 
@@ -170,19 +170,19 @@ You're addicted to emotional intensity, mistaking drama for depth. The story "I'
 - Emotion timer: Feel fully for 20 minutes, then take action
 - Collect evidence of being understood (screenshot kind messages)
 
-### Environmental Hacks
+**Environmental Hacks**
 
 - Work in busy, ordinary places to ground your energy
 - Collaborate with practical Type 1s and 6s
 - Join structured creative groups with deadlines
 
-### Red Flags You're Regressing
+**Red Flags You're Regressing**
 
 - Comparing your insides to others' outsides
 - Creating drama when life feels "too normal"
 - Withdrawing when you feel misunderstood
 
-### Your 5-Year Transformation
+**Your 5-Year Transformation**
 
 You'll evolve from "I am my emotions" to "I create from my emotions." The need to be special transforms into the ability to create something special.
 
@@ -190,11 +190,11 @@ You'll evolve from "I am my emotions" to "I create from my emotions." The need t
 
 ## Type 5: The Investigator - From Observer to Participant
 
-### The Pattern That Keeps You Stuck
+**The Pattern That Keeps You Stuck**
 
 You're hoarding knowledge and energy like a doomsday prepper. The belief "I must understand completely before engaging" keeps you on life's sidelines.
 
-### Your Growth Formula
+**Your Growth Formula**
 
 **Tactical shift**: Share incomplete thoughts to build connection.
 
@@ -202,19 +202,19 @@ You're hoarding knowledge and energy like a doomsday prepper. The belief "I must
 - Energy investment: Spend energy like a renewable resource, not savings
 - Body scan: Notice physical sensations during conversations
 
-### Environmental Hacks
+**Environmental Hacks**
 
 - Work in collaborative spaces, not isolation chambers
 - Join discussion groups where thinking out loud is required
 - Partner with expressive Type 2s and 7s
 
-### Red Flags You're Regressing
+**Red Flags You're Regressing**
 
 - Feeling drained by basic social interactions
 - Researching instead of experiencing
 - Believing you have nothing valuable to contribute
 
-### Your 5-Year Transformation
+**Your 5-Year Transformation**
 
 You'll shift from "I observe life" to "I engage with life." Knowledge becomes a bridge to others, not a wall. Your insights gain power through connection.
 
@@ -222,11 +222,11 @@ You'll shift from "I observe life" to "I engage with life." Knowledge becomes a 
 
 ## Type 6: The Loyalist - From Anxious to Authoritative
 
-### The Pattern That Keeps You Stuck
+**The Pattern That Keeps You Stuck**
 
 Your mind is a worst-case scenario generator running overtime. Seeking reassurance from others just feeds the anxiety loop—you need 10 opinions to trust none.
 
-### Your Growth Formula
+**Your Growth Formula**
 
 **Tactical shift**: Build internal authority through small risks.
 
@@ -234,19 +234,19 @@ Your mind is a worst-case scenario generator running overtime. Seeking reassuran
 - Fear inventory: Write fears down, then add "So what?"
 - Trust building: Act on your first instinct once daily
 
-### Environmental Hacks
+**Environmental Hacks**
 
 - Limit access to news and doom-scrolling
 - Surround yourself with calm Type 9s and confident Type 8s
 - Create decision deadlines to prevent analysis paralysis
 
-### Red Flags You're Regressing
+**Red Flags You're Regressing**
 
 - Texting multiple people for the same advice
 - Catastrophizing normal situations
 - Testing others' loyalty through manipulation
 
-### Your 5-Year Transformation
+**Your 5-Year Transformation**
 
 You'll evolve from "What could go wrong?" to "I can handle what comes." Anxiety transforms into preparation, doubt into discernment.
 
@@ -254,11 +254,11 @@ You'll evolve from "What could go wrong?" to "I can handle what comes." Anxiety 
 
 ## Type 7: The Enthusiast - From Scattered to Satisfied
 
-### The Pattern That Keeps You Stuck
+**The Pattern That Keeps You Stuck**
 
 You're a professional escape artist, running from discomfort into the next shiny possibility. FOMO has you everywhere and nowhere, collecting experiences but not digesting them.
 
-### Your Growth Formula
+**Your Growth Formula**
 
 **Tactical shift**: Find abundance through limitation.
 
@@ -266,19 +266,19 @@ You're a professional escape artist, running from discomfort into the next shiny
 - Discomfort timer: Sit with boredom for 10 minutes daily
 - Joy journaling: Record what you already have, not what you want
 
-### Environmental Hacks
+**Environmental Hacks**
 
 - Use physical constraints (small workspace, limited options)
 - Partner with detail-oriented Type 1s and 6s
 - Schedule "JOMO" time (Joy of Missing Out)
 
-### Red Flags You're Regressing
+**Red Flags You're Regressing**
 
 - Starting multiple projects without finishing any
 - Constant phone checking and tab switching
 - Reframing problems instead of solving them
 
-### Your 5-Year Transformation
+**Your 5-Year Transformation**
 
 You'll shift from "Life is elsewhere" to "Life is here." The addiction to possibility transforms into appreciation for reality. Depth replaces breadth.
 
@@ -286,11 +286,11 @@ You'll shift from "Life is elsewhere" to "Life is here." The addiction to possib
 
 ## Type 8: The Challenger - From Dominator to Leader
 
-### The Pattern That Keeps You Stuck
+**The Pattern That Keeps You Stuck**
 
 You've confused control with strength, steamrolling others to avoid feeling powerless. The armor you wear to protect yourself is suffocating your relationships.
 
-### Your Growth Formula
+**Your Growth Formula**
 
 **Tactical shift**: Lead through vulnerability, not dominance.
 
@@ -298,19 +298,19 @@ You've confused control with strength, steamrolling others to avoid feeling powe
 - Vulnerability practice: Share one fear or uncertainty weekly
 - Listen first: In 3 conversations daily, speak last
 
-### Environmental Hacks
+**Environmental Hacks**
 
 - Engage in activities where you're a beginner
 - Spend time with gentle but strong Type 2s and 9s
 - Join collaborative projects where consensus matters
 
-### Red Flags You're Regressing
+**Red Flags You're Regressing**
 
 - Seeing every interaction as a power struggle
 - Bulldozing others' opinions
 - Denying any emotional needs
 
-### Your 5-Year Transformation
+**Your 5-Year Transformation**
 
 You'll evolve from "I control" to "I inspire." True power comes from lifting others up, not keeping them down. Your strength includes softness.
 
@@ -318,11 +318,11 @@ You'll evolve from "I control" to "I inspire." True power comes from lifting oth
 
 ## Type 9: The Peacemaker - From Invisible to Influential
 
-### The Pattern That Keeps You Stuck
+**The Pattern That Keeps You Stuck**
 
 You've disappeared into others' agendas, becoming a human Switzerland. The belief "conflict will destroy everything" keeps you small and resentful.
 
-### Your Growth Formula
+**Your Growth Formula**
 
 **Tactical shift**: Make waves to make change.
 
@@ -330,19 +330,19 @@ You've disappeared into others' agendas, becoming a human Switzerland. The belie
 - Conflict micro-dosing: Disagree about small things daily
 - Energy tracking: Notice when you feel most alive and do more of that
 
-### Environmental Hacks
+**Environmental Hacks**
 
 - Join debate clubs or discussion groups
 - Partner with direct Type 8s and 3s who encourage assertion
 - Set phone reminders to check in with your needs
 
-### Red Flags You're Regressing
+**Red Flags You're Regressing**
 
 - Saying "I don't care" when you do
 - Feeling foggy about your own wants
 - Building silent resentment
 
-### Your 5-Year Transformation
+**Your 5-Year Transformation**
 
 You'll shift from "I keep the peace" to "I create the peace." Your presence becomes powerful because you're fully present. Harmony includes your voice.
 

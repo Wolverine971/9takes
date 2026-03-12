@@ -8,8 +8,8 @@ lastmod: '2025-07-19'
 changefreq: 'monthly'
 priority: '0.7'
 published: true
-type: ['situational', 'situational', 'practical']
-blog: false
+type: ['situational', 'practical']
+blog: true
 previewHtml: ''
 pic: 'greek-statue-taking-notes'
 path: src/blog/enneagram/first-impression-cheat-sheet.md
