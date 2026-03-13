@@ -4,10 +4,16 @@
 	import SEOHead from '$lib/components/SEOHead.svelte';
 	import ArrowRightIcon from '$lib/components/icons/arrowRightIcon.svelte';
 	import EmailSignup from '$lib/components/molecules/Email-Signup.svelte';
+	import {
+		PRIMARY_PERSONALITY_CATEGORY_SLUGS,
+		getPersonalityCategoryBySlug
+	} from '$lib/personalityCategories';
 
 	let { data }: { data: PageData } = $props();
 
-	function getRecencyLabel(lastmod: string): string | null {
+	function getRecencyLabel(lastmod: string | null): string | null {
+		if (!lastmod) return null;
+
 		const days = Math.floor((Date.now() - new Date(lastmod).getTime()) / 86400000);
 		if (days <= 3) return 'New';
 		if (days <= 7) return 'This week';
@@ -33,6 +39,10 @@
 			.map((word) => word.charAt(0).toUpperCase() + word.slice(1))
 			.join(' ');
 	}
+
+	const primaryCategories = PRIMARY_PERSONALITY_CATEGORY_SLUGS.map((slug) =>
+		getPersonalityCategoryBySlug(slug)
+	).filter((category): category is NonNullable<typeof category> => Boolean(category));
 </script>
 
 <svelte:head>
@@ -131,6 +141,20 @@
 	<!-- Hero Section -->
 	<header class="hero">
 		<h1>Famous Personality Analysis</h1>
+		<p class="hero-copy">Browse the library by Enneagram number or by public-figure category.</p>
+		<div class="hero-actions">
+			<a href="/personality-analysis/categories" class="hero-link hero-link-primary">
+				Browse Categories
+			</a>
+			<a href="#type-1" class="hero-link">Jump to Enneagram Types</a>
+		</div>
+		<div class="category-pills" aria-label="Category Navigation">
+			{#each primaryCategories as category}
+				<a href="/personality-analysis/categories/{category.slug}" class="category-pill">
+					<span class="category-pill-label">{category.shortLabel}</span>
+				</a>
+			{/each}
+		</div>
 	</header>
 
 	<!-- Quick Type Navigation -->
@@ -183,7 +207,9 @@
 								{/if}
 								<span class="featured-person-name">{formatName(person.slug)}</span>
 								<span class="featured-person-type">
-									Type {person.enneagram}: {typeNames[parseInt(person.enneagram)]?.name || ''}
+									Type {person.enneagram}: {person.enneagram
+										? typeNames[parseInt(person.enneagram)]?.name || ''
+										: ''}
 								</span>
 							</div>
 						</a>
@@ -239,7 +265,9 @@
 
 		<!-- Type Sections -->
 		{#each Array.from({ length: 9 }, (_, i) => i + 1) as typeNum}
-			{@const typePeople = data.people.filter((p) => parseInt(p.enneagram) === typeNum)}
+			{@const typePeople = data.people.filter(
+				(p) => p.enneagram && parseInt(p.enneagram) === typeNum
+			)}
 			{#if typePeople.length > 0}
 				<section class="type-section" id="type-{typeNum}">
 					<div class="section-header">
@@ -344,6 +372,79 @@
 		-webkit-background-clip: text;
 		-webkit-text-fill-color: transparent;
 		background-clip: text;
+	}
+
+	.hero-copy {
+		max-width: 640px;
+		margin: 0.85rem auto 0;
+		color: #94a3b8;
+		font-size: 0.98rem;
+		line-height: 1.7;
+	}
+
+	.hero-actions {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		flex-wrap: wrap;
+		gap: 0.75rem;
+		margin-top: 1.1rem;
+	}
+
+	.hero-link {
+		display: inline-flex;
+		align-items: center;
+		justify-content: center;
+		padding: 0.65rem 1rem;
+		border-radius: 999px;
+		border: 1px solid rgba(148, 163, 184, 0.18);
+		background: rgba(15, 23, 42, 0.72);
+		color: #cbd5e1;
+		font-size: 0.85rem;
+		font-weight: 600;
+		text-decoration: none;
+		transition:
+			transform 0.2s ease,
+			border-color 0.2s ease,
+			color 0.2s ease;
+
+		&:hover {
+			transform: translateY(-1px);
+			color: #f8fafc;
+			border-color: rgba(124, 58, 237, 0.45);
+		}
+	}
+
+	.hero-link-primary {
+		background: linear-gradient(135deg, rgba(124, 58, 237, 0.24) 0%, rgba(109, 40, 217, 0.14) 100%);
+		color: #e9d5ff;
+	}
+
+	.category-pills {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		gap: 0.5rem;
+		margin-top: 1rem;
+	}
+
+	.category-pill {
+		display: inline-flex;
+		align-items: center;
+		padding: 0.45rem 0.75rem;
+		border-radius: 999px;
+		border: 1px solid rgba(148, 163, 184, 0.14);
+		background: rgba(15, 23, 42, 0.58);
+		color: #94a3b8;
+		font-size: 0.78rem;
+		text-decoration: none;
+		transition: all 0.2s ease;
+
+		&:hover {
+			color: #ddd6fe;
+			border-color: rgba(124, 58, 237, 0.3);
+			background: rgba(124, 58, 237, 0.08);
+		}
 	}
 
 	/* Quick Navigation */
@@ -993,6 +1094,20 @@
 
 		.hero h1 {
 			font-size: 1.5rem;
+		}
+
+		.hero-copy {
+			font-size: 0.9rem;
+		}
+
+		.hero-actions {
+			gap: 0.5rem;
+		}
+
+		.hero-link,
+		.category-pill {
+			padding: 0.5rem 0.75rem;
+			font-size: 0.75rem;
 		}
 
 		.quick-nav {

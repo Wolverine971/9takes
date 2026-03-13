@@ -1229,7 +1229,8 @@
 			"WebFetch(domain:www.blakestockton.com)",
 			"WebFetch(domain:www.oreateai.com)",
 			"Bash(echo === QUALITY TIER SUMMARY \\(published posts only\\) ===:*)",
-			"Bash(grep -A5 -B5 \"\\\\.single\\(\\)\" /Users/djwayne/9takes/src/routes/api/admin/content/[id]/+server.ts)"
+			"Bash(grep -A5 -B5 \"\\\\.single\\(\\)\" /Users/djwayne/9takes/src/routes/api/admin/content/[id]/+server.ts)",
+			"Bash(timeout 15 pnpm dev 2>&1 | tail -10 || true)"
 		],
 		"deny": [],
 		"ask": [],

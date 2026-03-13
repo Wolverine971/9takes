@@ -74,38 +74,40 @@
 		}
 	};
 
-	// Benefits/How it works content
-	const benefits = [
+	// The Three Pillars — mapped to Enneagram intelligence triads
+	const pillars = [
 		{
-			icon: '?',
-			title: 'Give Your Take First',
+			icon: '◉',
+			title: 'See It Coming',
+			triad: 'Head Center',
+			types: '5, 6, 7',
+			color: '#3b82f6',
 			description:
-				'Answer questions before seeing others. Get your authentic perspective without groupthink bias.',
-			stat: 'INT',
-			boost: '+15'
+				"Most bad outcomes aren't from stupidity — they're from blind spots. Your blind spot is someone else's obvious.",
+			tagline: "Reveal what you're missing",
+			link: '/questions'
 		},
 		{
-			icon: '9',
-			title: 'See 9 Perspectives',
-			description: 'Discover how each personality type approaches the same situation differently.',
-			stat: 'PER',
-			boost: '+20'
+			icon: '⚡',
+			title: 'Know What To Do',
+			triad: 'Gut Center',
+			types: '8, 9, 1',
+			color: '#ef4444',
+			description:
+				'Personality insight is useless if it stays abstract. We turn understanding into the actual move.',
+			tagline: 'Equip yourself to act',
+			link: '/how-to-guides'
 		},
 		{
-			icon: '!',
-			title: 'Spot Your Blind Spots',
+			icon: '◈',
+			title: 'Feel Understood',
+			triad: 'Heart Center',
+			types: '2, 3, 4',
+			color: '#c084fc',
 			description:
-				'Understand your patterns, triggers, and superpowers through the Enneagram lens.',
-			stat: 'WIS',
-			boost: '+25'
-		},
-		{
-			icon: '*',
-			title: 'Decode People',
-			description:
-				'Learn to read others by understanding the emotional logic behind their behavior.',
-			stat: 'CHA',
-			boost: '+30'
+				"Your reaction isn't broken — it's one of 9 valid emotional realities. Every type's response makes sense.",
+			tagline: 'Connect through understanding',
+			link: '/personality-analysis'
 		}
 	];
 
@@ -299,7 +301,7 @@
 					</h1>
 
 					<p class="hero-desc">
-						Decode social dynamics. Personality-max your EQ. Turn conflict into understanding.
+						See what you're missing. Know what to do about it. Feel understood along the way.
 					</p>
 				</div>
 
@@ -337,9 +339,45 @@
 			<div class="hero-placeholder"></div>
 		{/if}
 
-		<!-- ========== UNIFIED 9 TYPES SECTION ========== -->
+		<!-- ========== THREE PILLARS ========== -->
 		<div class="section-observer">
 			{#if sectionsVisible[0] || !browser}
+				<section class="section pillars-section" in:fly={getTransition()}>
+					<header class="section-header">
+						<div class="section-badge accent">
+							<span class="badge-dot"></span>
+							<span>WHY 9TAKES EXISTS</span>
+						</div>
+						<h2 class="section-title">Every Person Wants 3 Things</h2>
+						<p class="section-desc">
+							These map to the 3 types of human intelligence the Enneagram reveals.
+						</p>
+					</header>
+
+					<div class="pillars-grid">
+						{#each pillars as pillar}
+							<a href={pillar.link} class="pillar-card" style="--pillar-color: {pillar.color}">
+								<div class="pillar-bg"></div>
+								<div class="pillar-content">
+									<div class="pillar-icon">{pillar.icon}</div>
+									<div class="pillar-triad">
+										<span class="triad-label">{pillar.triad}</span>
+										<span class="triad-types">Types {pillar.types}</span>
+									</div>
+									<h3 class="pillar-title">{pillar.title}</h3>
+									<p class="pillar-desc">{pillar.description}</p>
+									<span class="pillar-tagline">{pillar.tagline} →</span>
+								</div>
+							</a>
+						{/each}
+					</div>
+				</section>
+			{/if}
+		</div>
+
+		<!-- ========== UNIFIED 9 TYPES SECTION ========== -->
+		<div class="section-observer">
+			{#if sectionsVisible[1] || !browser}
 				<section class="section types-section" in:fly={getTransition()}>
 					<header class="section-header">
 						<div class="section-badge accent">
@@ -413,40 +451,6 @@
 			{/if}
 		</div>
 
-		<!-- ========== HOW IT WORKS ========== -->
-		<div class="section-observer">
-			{#if sectionsVisible[1] || !browser}
-				<section class="section how-section" in:fly={getTransition()}>
-					<header class="section-header">
-						<div class="section-badge">
-							<span class="badge-dot"></span>
-							<span>HOW IT WORKS</span>
-						</div>
-						<h2 class="section-title">Level Up Your EQ</h2>
-						<p class="section-desc">
-							Perspective-taking is the mental gym. Each new viewpoint is a rep.
-						</p>
-					</header>
-
-					<div class="benefits-grid">
-						{#each benefits as benefit, i}
-							<div class="benefit-card">
-								<div class="benefit-header">
-									<div class="benefit-icon">{benefit.icon}</div>
-									<div class="benefit-stat">
-										<span class="stat-label">{benefit.stat}</span>
-										<span class="stat-boost">{benefit.boost}</span>
-									</div>
-								</div>
-								<h3 class="benefit-title">{benefit.title}</h3>
-								<p class="benefit-desc">{benefit.description}</p>
-							</div>
-						{/each}
-					</div>
-				</section>
-			{/if}
-		</div>
-
 		<!-- ========== WHY ENNEAGRAM ========== -->
 		<div class="section-observer">
 			{#if sectionsVisible[2] || !browser}
@@ -458,7 +462,8 @@
 
 						<p class="feature-text">
 							Your brain defaults to <span class="text-system">one lens</span>, missing 8 others.
-							The Enneagram maps the core motivations that drive how people filter reality.
+							The Enneagram maps <strong>3 types of intelligence</strong> — Head (foresight), Gut (agency),
+							Heart (belonging) — across 9 personality types. Everyone leads with one. All 3 matter.
 						</p>
 
 						<!-- Interactive Enneagram Diagram -->
@@ -543,10 +548,10 @@
 							</div>
 
 							<h2 class="final-title">
-								Begin Your <span class="text-glow">Journey</span>
+								See. Act. <span class="text-glow">Connect.</span>
 							</h2>
 
-							<p class="final-desc">Give your take. See 9 perspectives. Build understanding.</p>
+							<p class="final-desc">See what you're missing. Know what to do. Feel understood.</p>
 
 							<div class="final-actions">
 								<a href="/questions" class="btn-shadow lg">
@@ -1222,95 +1227,129 @@
 	}
 
 	/* ==========================================
-	   BENEFITS GRID
+	   THREE PILLARS
 	   ========================================== */
-	.how-section {
+	.pillars-section {
 		background: linear-gradient(180deg, var(--void-umbra) 0%, var(--void-abyss) 100%);
 		border-radius: 20px;
 		margin: 1rem 0;
 	}
 
-	.benefits-grid {
+	.pillars-grid {
 		display: grid;
 		gap: 1rem;
 	}
 
-	@media (min-width: 640px) {
-		.benefits-grid {
-			grid-template-columns: repeat(2, 1fr);
+	@media (min-width: 768px) {
+		.pillars-grid {
+			grid-template-columns: repeat(3, 1fr);
 			gap: 1.25rem;
 		}
 	}
 
-	.benefit-card {
+	.pillar-card {
+		--pillar-color: var(--shadow-monarch);
+		position: relative;
+		display: block;
 		background: linear-gradient(180deg, var(--void-shadow) 0%, var(--void-umbra) 100%);
-		border: 1px solid rgba(59, 130, 246, 0.1);
-		border-radius: 12px;
-		padding: 1.25rem;
-		transition: all 250ms var(--ease-out);
+		border: 1px solid color-mix(in srgb, var(--pillar-color) 20%, transparent);
+		border-radius: 16px;
+		padding: 1.75rem 1.5rem;
+		text-decoration: none;
+		overflow: hidden;
+		transition: all 300ms var(--ease-out);
 	}
 
-	.benefit-card:hover {
-		border-color: rgba(59, 130, 246, 0.3);
-		box-shadow: 0 0 25px rgba(59, 130, 246, 0.1);
+	.pillar-card:hover {
+		border-color: color-mix(in srgb, var(--pillar-color) 50%, transparent);
+		box-shadow: 0 0 40px color-mix(in srgb, var(--pillar-color) 20%, transparent);
+		transform: translateY(-4px);
 	}
 
-	.benefit-header {
+	.pillar-bg {
+		position: absolute;
+		inset: 0;
+		background: radial-gradient(
+			circle at 50% 0%,
+			color-mix(in srgb, var(--pillar-color) 10%, transparent) 0%,
+			transparent 70%
+		);
+		opacity: 0;
+		transition: opacity 300ms ease;
+	}
+
+	.pillar-card:hover .pillar-bg {
+		opacity: 1;
+	}
+
+	.pillar-content {
+		position: relative;
 		display: flex;
-		justify-content: space-between;
-		align-items: center;
-		margin-bottom: 0.75rem;
+		flex-direction: column;
 	}
 
-	.benefit-icon {
+	.pillar-icon {
 		display: flex;
 		align-items: center;
 		justify-content: center;
-		width: 2rem;
-		height: 2rem;
-		background: var(--system-deep);
-		border-radius: 6px;
-		font-family: var(--font-mono);
-		font-size: 1rem;
-		font-weight: 700;
-		color: var(--system-hologram);
+		width: 2.5rem;
+		height: 2.5rem;
+		background: color-mix(in srgb, var(--pillar-color) 12%, var(--void-abyss));
+		border: 1px solid color-mix(in srgb, var(--pillar-color) 30%, transparent);
+		border-radius: 10px;
+		font-size: 1.25rem;
+		color: var(--pillar-color);
+		margin-bottom: 1rem;
 	}
 
-	.benefit-stat {
+	.pillar-triad {
 		display: flex;
 		align-items: center;
 		gap: 0.5rem;
+		margin-bottom: 0.75rem;
 	}
 
-	.stat-label {
-		padding: 0.2rem 0.4rem;
-		background: var(--void-penumbra);
-		border-radius: 3px;
+	.triad-label {
+		font-family: var(--font-mono);
+		font-size: 0.65rem;
+		font-weight: 600;
+		color: var(--pillar-color);
+		letter-spacing: 0.06em;
+		text-transform: uppercase;
+	}
+
+	.triad-types {
 		font-family: var(--font-mono);
 		font-size: 0.6rem;
-		font-weight: 700;
-		color: var(--system-hologram);
+		color: var(--text-faded);
 	}
 
-	.stat-boost {
-		font-family: var(--font-mono);
-		font-size: 0.75rem;
-		font-weight: 700;
-		color: var(--shadow-flame);
-	}
-
-	.benefit-title {
+	.pillar-title {
 		font-family: var(--font-display);
-		font-size: 1.05rem;
-		font-weight: 600;
+		font-size: 1.35rem;
+		font-weight: 700;
 		color: var(--text-pale);
-		margin-bottom: 0.4rem;
+		margin-bottom: 0.6rem;
 	}
 
-	.benefit-desc {
-		font-size: 0.85rem;
+	.pillar-desc {
+		font-size: 0.9rem;
 		color: var(--text-mist);
-		line-height: 1.5;
+		line-height: 1.55;
+		margin-bottom: 1rem;
+		flex-grow: 1;
+	}
+
+	.pillar-tagline {
+		font-family: var(--font-mono);
+		font-size: 0.8rem;
+		font-weight: 600;
+		color: var(--pillar-color);
+		transition: transform 200ms ease;
+	}
+
+	.pillar-card:hover .pillar-tagline {
+		transform: translateX(4px);
 	}
 
 	/* ==========================================

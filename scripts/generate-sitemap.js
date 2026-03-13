@@ -252,6 +252,54 @@ async function generateSitemap() {
     <priority>0.7</priority>
 </url>
 <url>
+    <loc>https://9takes.com/personality-analysis/categories</loc>
+    <lastmod>2026-03-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+</url>
+<url>
+    <loc>https://9takes.com/personality-analysis/categories/film-tv</loc>
+    <lastmod>2026-03-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+</url>
+<url>
+    <loc>https://9takes.com/personality-analysis/categories/creator-media</loc>
+    <lastmod>2026-03-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+</url>
+<url>
+    <loc>https://9takes.com/personality-analysis/categories/music</loc>
+    <lastmod>2026-03-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+</url>
+<url>
+    <loc>https://9takes.com/personality-analysis/categories/politics-public</loc>
+    <lastmod>2026-03-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+</url>
+<url>
+    <loc>https://9takes.com/personality-analysis/categories/tech-business</loc>
+    <lastmod>2026-03-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+</url>
+<url>
+    <loc>https://9takes.com/personality-analysis/categories/comedy</loc>
+    <lastmod>2026-03-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+</url>
+<url>
+    <loc>https://9takes.com/personality-analysis/categories/authors-thinkers</loc>
+    <lastmod>2026-03-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+</url>
+<url>
     <loc>https://9takes.com/personality-analysis/type/1</loc>
     <lastmod>2024-08-29</lastmod>
     <changefreq>weekly</changefreq>

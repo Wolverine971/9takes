@@ -116,6 +116,9 @@ function deriveSlugFromSegments(
 
 	switch (contentType) {
 		case 'people':
+			if (segments[1] === 'categories') {
+				return segments[2] ?? null;
+			}
 			if (segments[1] && segments[0] === 'personality-analysis' && segments[1] !== 'type') {
 				return segments[1];
 			}
@@ -147,6 +150,11 @@ function derivePathGroupFromPath(path: string, contentType: ClassifiedPath['cont
 	switch (contentType) {
 		case 'people':
 			if (normalized === '/personality-analysis') return '/personality-analysis';
+			if (segments[1] === 'categories') {
+				return segments.length > 2
+					? '/personality-analysis/categories/[slug]'
+					: '/personality-analysis/categories';
+			}
 			if (segments[1] === 'type') {
 				return segments.length > 2
 					? '/personality-analysis/type/[slug]'
