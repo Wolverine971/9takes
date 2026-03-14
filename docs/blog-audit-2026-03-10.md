@@ -2,15 +2,20 @@
 
 # Blog Quality Audit — 2026-03-10
 
+**Last updated: 2026-03-13**
+
 ## Summary: 128 published posts audited
 
-| Priority                    | Count | Issue                                          |
-| --------------------------- | ----- | ---------------------------------------------- |
-| **Critical (D-grade)**      | 8     | Safety failures — prescriptive medical content |
-| **Major rewrite (C-grade)** | 3     | Structural/content issues                      |
-| **Thin content**            | 7     | Under 1,800 words, ungraded                    |
-| **Outdated (2023)**         | 5     | Old + short, need refresh                      |
-| **Ungraded**                | 37    | Never quality-assessed                         |
+| Priority                    | Count | Status       | Issue                                          |
+| --------------------------- | ----- | ------------ | ---------------------------------------------- |
+| **Critical (D-grade)**      | 8     | **COMPLETE** | Safety failures — prescriptive medical content |
+| **Major rewrite (C-grade)** | 3     | **COMPLETE** | Structural/content issues                      |
+| **Thin content**            | 7     | **COMPLETE** | Under 1,800 words, ungraded                    |
+| **Outdated (2023)**         | 5     | **COMPLETE** | Old + short, need refresh                      |
+| **Structural issues**       | 5     | **COMPLETE** | Header bloat, frontmatter conflicts            |
+| **Ungraded**                | 37    | NOT STARTED  | Never quality-assessed                         |
+
+### Progress: 23/60 issues resolved (Tiers 1–3 complete)
 
 ---
 
@@ -101,8 +106,19 @@ All D-grade (6.9) with prescriptive medical/diagnostic phrasing that creates lia
 
 ## Recommended Priority Order
 
-1. Fix the 8 mental health safety failures — liability risk
-2. Expand `reddit-deep-connections-limitations.md` — 900 words is too thin
-3. Bulk up `mbti-vs-enneagram.md` — high-value SEO keyword, only 1,284 words
-4. Refresh the 5 oldest 2023 community posts — dated content on foundational topics
+1. ~~Fix the 8 mental health safety failures — liability risk~~ **DONE 2026-03-10**
+2. ~~Expand `reddit-deep-connections-limitations.md` — 900 words is too thin~~ **DONE 2026-03-12**
+3. ~~Bulk up `mbti-vs-enneagram.md` — high-value SEO keyword, only 1,284 words~~ **DONE 2026-03-12**
+4. ~~Refresh the 5 oldest 2023 community posts — dated content on foundational topics~~ **DONE 2026-03-12**
 5. Grade and assess all 37 ungraded posts — especially the community section
+
+---
+
+## Change Log
+
+| Date       | Tier | Work Done                                                                                     |
+| ---------- | ---- | --------------------------------------------------------------------------------------------- |
+| 2026-03-10 | 1    | Safety edits on 6 of 8 mental health blogs (disclaimers, softened prescriptive language)      |
+| 2026-03-10 | 1    | Completed blogs #7 and #8 (workplace mental health, therapy-by-type)                          |
+| 2026-03-12 | 2    | Expanded reddit-deep-connections (900→~2,000 words), added QuickAnswers + FAQs to all 7 posts |
+| 2026-03-12 | 3    | Fixed frontmatter on first-impression-cheat-sheet, reduced header bloat on 4 template blogs   |

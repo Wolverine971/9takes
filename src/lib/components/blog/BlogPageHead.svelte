@@ -2,6 +2,7 @@
 <script lang="ts">
 	export let data: App.BlogPost;
 	export let slug: string;
+	export let skipJsonLd: boolean = false;
 
 	// Use meta_title for SEO/social if available, otherwise fall back to title
 	let title: string = data?.meta_title || data?.title;
@@ -11,53 +12,31 @@
 	const shareImage = data?.pic ? `https://9takes.com/blogs/${data.pic}.webp` : defaultShareImage;
 	const shareImageAlt = data?.pic ? data.pic.split('-').join(' ') : title || '9takes';
 
-	let jsonldString = {
-		'@context': 'https://schema.org',
-		'@type': 'Article',
-		headline: title,
-		name: title,
-		url: `https://9takes.com/${slug}`,
-		mainEntityOfPage: {
-			'@type': 'WebPage',
-			'@id': `https://9takes.com/${slug}`
-		},
-		author: {
-			'@type': 'Person',
-			name: 'DJ Wayne',
-			sameAs: [
-				'https://www.instagram.com/djwayne3/',
-				'https://www.youtube.com/@djwayne3',
-				'https://www.linkedin.com/in/davidtwayne/',
-				'https://twitter.com/djwayne3'
-			]
-		},
-		description: description,
-		datePublished: data.date,
-		dateModified: data.lastmod,
-		image: shareImage,
-		publisher: {
-			'@type': 'Organization',
-			sameAs: ['https://www.instagram.com/9takesdotcom/', 'https://twitter.com/9takesdotcom'],
-			logo: {
-				'@type': 'ImageObject',
-				url: 'https://9takes.com/brand/aero.png'
-			},
-			name: '9takes'
-		}
-	};
+	// Detect blog section from slug
+	function getArticleSection(s: string): string {
+		if (s.startsWith('how-to-guides/')) return 'How-To Guides';
+		if (s.startsWith('community/')) return 'Community';
+		if (s.startsWith('enneagram-corner/')) return 'Enneagram';
+		if (s.startsWith('pop-culture/')) return 'Pop Culture';
+		return 'Blog';
+	}
 
-	// let jsonld = {
-	// 	'@context': '',
-	// 	'@type': 'Blog',
-	// 	name: 'This-Is-Why-Not-Everyone-Agrees-With-You',
-	// 	url: 'https://9takes.comThis-Is-Why-Not-Everyone-Agrees-With-You',
-	// 	description: 'Lets explore how and why people may not see eye to eye',
-	// 	publisher: { '@type': 'Person', name: 'DJ Wayne' }
-	// };
+	function getBlogName(s: string): string {
+		if (s.startsWith('how-to-guides/')) return '9takes How-To Guides';
+		if (s.startsWith('community/')) return '9takes Community Blog';
+		if (s.startsWith('enneagram-corner/')) return '9takes Enneagram Corner';
+		if (s.startsWith('pop-culture/')) return '9takes Pop Culture';
+		return '9takes Blog';
+	}
 
-	let jsonld = JSON.stringify(jsonldString);
+	function getBlogUrl(s: string): string {
+		const section = s.split('/')[0];
+		return `https://9takes.com/${section}`;
+	}
 
-	const isHowToGuide = slug.includes('how-to');
+	const articleSection = getArticleSection(slug);
+	const isHowToGuide = slug.startsWith('how-to-guides/');
+
 	const tags = (
 		isHowToGuide
 			? ['How to', 'Guide']
@@ -68,6 +47,62 @@
 					data.person ? data.person.split('-').join(' ') : null
 				]
 	).filter((tag): tag is string => Boolean(tag));
+
+	const jsonldObj = {
+		'@context': 'https://schema.org',
+		'@type': 'BlogPosting',
+		headline: title,
+		name: title,
+		url: `https://9takes.com/${slug}`,
+		mainEntityOfPage: {
+			'@type': 'WebPage',
+			'@id': `https://9takes.com/${slug}`
+		},
+		author: {
+			'@type': 'Person',
+			'@id': 'https://9takes.com/#person/dj-wayne',
+			name: 'DJ Wayne',
+			url: 'https://9takes.com/about',
+			jobTitle: 'Creator of 9takes',
+			image: 'https://9takes.com/brand/djface.webp',
+			knowsAbout: ['Enneagram', 'personality psychology', 'emotional intelligence'],
+			sameAs: [
+				'https://www.instagram.com/djwayne3/',
+				'https://www.linkedin.com/in/djwayne/',
+				'https://twitter.com/djwayne3'
+			]
+		},
+		description: description,
+		datePublished: data.date,
+		dateModified: data.lastmod || data.date,
+		image: data?.pic
+			? {
+					'@type': 'ImageObject',
+					url: shareImage,
+					width: 900,
+					height: 900
+				}
+			: shareImage,
+		publisher: {
+			'@type': 'Organization',
+			name: '9takes',
+			logo: {
+				'@type': 'ImageObject',
+				url: 'https://9takes.com/brand/aero.png'
+			},
+			sameAs: ['https://www.instagram.com/9takesdotcom/', 'https://twitter.com/9takesdotcom']
+		},
+		articleSection: articleSection,
+		inLanguage: 'en-US',
+		keywords: tags,
+		isPartOf: {
+			'@type': 'Blog',
+			name: getBlogName(slug),
+			url: getBlogUrl(slug)
+		}
+	};
+
+	let jsonld = JSON.stringify(jsonldObj);
 </script>
 
 <svelte:head>
@@ -81,6 +116,8 @@
 	<meta property="og:type" content="article" />
 	<meta property="og:url" content={`https://9takes.com/${slug}`} />
 	<meta property="og:image" content={shareImage} />
+	<meta property="og:image:width" content="900" />
+	<meta property="og:image:height" content="900" />
 
 	<meta name="twitter:site" content="@9takesdotcom" />
 	<meta name="twitter:description" content={description || title} />
@@ -93,9 +130,11 @@
 	<meta property="article:author" content="DJ Wayne" />
 
 	<meta property="article:published_time" content={data.date} />
-	<meta property="article:modified_time" content={data.lastmod} />
-	<meta property="article:section" content={isHowToGuide ? 'How-To-Guides' : 'Enneagram-Corner'} />
+	<meta property="article:modified_time" content={data.lastmod || data.date} />
+	<meta property="article:section" content={articleSection} />
 	<meta property="article:tag" content={tags.join(', ')} />
 
-	{@html `<script type="application/ld+json">${jsonld}</script>`}
+	{#if !skipJsonLd}
+		{@html `<script type="application/ld+json">${jsonld}</script>`}
+	{/if}
 </svelte:head>

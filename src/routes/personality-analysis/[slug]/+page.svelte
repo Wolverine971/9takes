@@ -20,6 +20,7 @@
 
 	import BlogPurpose from '$lib/components/blog/BlogPurpose.svelte';
 	import QuickAnswer from '$lib/components/blog/callouts/QuickAnswer.svelte';
+	import AuthorBio from '$lib/components/blog/AuthorBio.svelte';
 
 	export let data: PageData;
 
@@ -304,6 +305,8 @@
 	<div class="article-body" itemprop="articleBody">
 		{@html post.content}
 	</div>
+
+	<AuthorBio />
 </article>
 
 <TableOfContents {contentStore} sidePosition="right" renderMode="sidebar-only" />

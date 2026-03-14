@@ -640,22 +640,24 @@
 			? `left: ${sidebarPosition.left}`
 			: `right: ${sidebarPosition.right}`};"
 		transition:fly={{ x: sidePosition === 'left' ? -100 : 100, duration: 300 }}
-		aria-label="Table of contents navigation"
+		aria-label="Table of contents"
 	>
-		<nav>
-			<h3 class="toc-title">{title}</h3>
+		<nav aria-label="Table of contents">
+			<p class="toc-title">{title}</p>
 			{@html toc}
 		</nav>
 	</aside>
 {/if}
 
 {#if toc && (renderMode === 'both' || renderMode === 'accordion-only')}
-	<details class="toc-accordion" open>
-		<summary class="toc-summary">{title}</summary>
-		<div class="toc-accordion-content">
-			{@html toc}
-		</div>
-	</details>
+	<nav aria-label="Table of contents" class="toc-nav-wrapper">
+		<details class="toc-accordion" open>
+			<summary class="toc-summary">{title}</summary>
+			<div class="toc-accordion-content">
+				{@html toc}
+			</div>
+		</details>
+	</nav>
 {/if}
 
 <style lang="scss">
@@ -707,8 +709,13 @@
 		padding: 0 0 0.35rem 0;
 		font-size: 1rem;
 		font-weight: 600;
+		line-height: 1.4;
 		color: var(--text-primary);
 		border-bottom: 1px solid rgba(100, 116, 139, 0.3);
+	}
+
+	.toc-nav-wrapper {
+		display: contents;
 	}
 
 	.toc-accordion {

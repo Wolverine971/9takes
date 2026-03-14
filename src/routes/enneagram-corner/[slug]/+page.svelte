@@ -14,6 +14,7 @@
 	import ArticleDescription from '$lib/components/blog/ArticleDescription.svelte';
 	import SuggestionsBlog from '$lib/components/blog/SuggestionsBlog.svelte';
 	import EmailSignup from '$lib/components/molecules/Email-Signup.svelte';
+	import AuthorBio from '$lib/components/blog/AuthorBio.svelte';
 
 	export let data: PageData;
 	type C = Component;
@@ -130,6 +131,8 @@
 	<div class="article-body" itemprop="articleBody">
 		<svelte:component this={component} />
 	</div>
+
+	<AuthorBio author={data.frontmatter.author} />
 </article>
 
 <hr class="section-divider" />

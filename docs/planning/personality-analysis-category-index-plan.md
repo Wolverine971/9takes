@@ -1,4 +1,5 @@
 <!-- docs/planning/personality-analysis-category-index-plan.md -->
+
 # Personality Analysis Category Index Plan
 
 _Last updated: 2026-03-12_

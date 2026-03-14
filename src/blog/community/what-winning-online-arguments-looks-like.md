@@ -17,7 +17,6 @@ path: src/blog/community/what-winning-online-arguments-looks-like.md
 
 <svelte:head>
 
-<script async src="//www.instagram.com/embed.js"></script>
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -71,49 +70,6 @@ path: src/blog/community/what-winning-online-arguments-looks-like.md
 </script>
 
 </svelte:head>
-
-<!--
-
-Part 1- To set the scene- no one really wins
-each side walks away and goes further into their biases
-
-If you prove your point and embarrass the other side- they aren't going to change their mind, they are going to dig in deeper.
-
-There is no winning when you are trying to "win."
-Your approach is wrong. You are spiteful. You want to be right.
-
-Part 2- Redefine winning- Winning is about learning-
-mindset should be about learning
-accept influence to give influence
-learn from the other side and really try to understand their perspective
-There is a word for this, it is called steelmanning the other side
-
-The news does not steelman the other side. They straw man the other side
-Explain straw manning
-
-Part 3- With that as the foundation, we are going to get into the tactics of how it can be done.
-
-Biggest mistake people make in an argument is they want to be understood before they want to understand
-
-1st step- change your mindset is mindset
-- you are there to learn
-- you should have done research and thought deeply about the other side's views so that you understand them
-- you should think "How could a smart, reasonable, loving, and kind person who has real-life experience have these views?" and actually think about how they arrived at those views
-- if you have properly steelmaned the other side you should be able to explain their point of view in such a way that they agree with it
--
-2nd step- establish common ground
-- Start by acknowledging points of agreement.
-
-3rd step- be vulnerable
-- admit you dont know everything
-- admit you have feelings about these topics and you want to be understood
-
-4th step- set the goal to be to learn
-- you have questions that you would like answered
-- you want to learn deeper why the other person thinks the way they do
-
-Bonus step- lay out your perception of the other person's argument and ask them to correct you
- -->
 
 <script>
 	import  PopCard  from "$lib/components/atoms/PopCard.svelte";

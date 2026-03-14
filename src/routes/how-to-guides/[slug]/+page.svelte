@@ -16,6 +16,7 @@
 	import SuggestionsBlog from '$lib/components/blog/SuggestionsBlog.svelte';
 	import EmailSignup from '$lib/components/molecules/Email-Signup.svelte';
 	import { buildHowToSchema } from '$lib/utils/schema';
+	import AuthorBio from '$lib/components/blog/AuthorBio.svelte';
 	export let data: PageData;
 
 	// Build HowTo schema if steps are defined in frontmatter
@@ -127,6 +128,8 @@
 	<TableOfContents {contentStore} />
 
 	<svelte:component this={component} />
+
+	<AuthorBio author={data.frontmatter.author} />
 </article>
 
 <hr style="margin: 5rem;" />

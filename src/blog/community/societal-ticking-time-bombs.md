@@ -15,6 +15,89 @@ previewHtml: 'SSRIs, gambling, and IQ decline — three ticking time bombs nobod
 path: src/blog/community/societal-ticking-time-bombs.md
 ---
 
+<svelte:head>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "headline": "3 Societal Ticking Time Bombs Nobody Is Connecting",
+      "description": "SSRIs, gambling addiction, and collective IQ decline are quietly reshaping society. Here is why these three issues keep me up at night.",
+      "author": {
+        "@type": "Person",
+        "name": "DJ Wayne",
+        "sameAs": [
+          "https://www.instagram.com/djwayne3/",
+          "https://www.youtube.com/@djwayne3",
+          "https://www.linkedin.com/in/davidtwayne/",
+          "https://twitter.com/djwayne3"
+        ]
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "9takes",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://9takes.com/brand/aero.png"
+        },
+        "sameAs": [
+          "https://www.instagram.com/9takesdotcom/",
+          "https://twitter.com/9takesdotcom"
+        ]
+      },
+      "datePublished": "2026-02-20",
+      "dateModified": "2026-02-20",
+      "url": "https://9takes.com/community/societal-ticking-time-bombs",
+      "articleSection": "Community",
+      "inLanguage": "en-US",
+      "keywords": ["SSRIs", "gambling addiction", "IQ decline", "mental health", "psychiatry", "society", "brain rot"],
+      "isPartOf": {
+        "@type": "Blog",
+        "name": "9takes Community Blog",
+        "url": "https://9takes.com/community"
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://9takes.com/community/societal-ticking-time-bombs"
+      }
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What percentage of psychiatrists receive payments from pharmaceutical companies?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "55.7% of practicing psychiatrists receive payments from pharmaceutical companies, totaling approximately $110.5 million over a two-year period according to Open Payments data analysis."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much of antidepressant response is due to placebo effect?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Research by Irving Kirsch found that approximately 82% of the antidepressant response can be duplicated by placebo, with only about a 1.8 point difference on the Hamilton Rating Scale for Depression."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How does sports gambling legalization affect personal bankruptcy rates?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "UCLA Anderson Review reports a 25-30% increase in personal bankruptcy filing likelihood after online sports gambling legalization, along with increases in delinquencies and collections."
+          }
+        }
+      ]
+    }
+  ]
+}
+</script>
+
+</svelte:head>
+
 <script>
 	import InsightBox from '$lib/components/blog/callouts/InsightBox.svelte';
 </script>

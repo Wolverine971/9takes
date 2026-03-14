@@ -30,6 +30,95 @@ QUALITY_FEEDBACK_END -->
 
 <!-- Midjourney Prompt: two ancient greek statues, one kneeling with head bowed in humble apologetic gesture, hands extended forward, the other standing with a compassionate expression and hands reaching down to help the kneeling figure up, showing forgiveness and reconciliation, marble white with warm golden light, Unreal Engine, Cinematic, Shot on 50mm lens, Ultra-Wide Angle, Depth of Field, hyper-detailed, beautifully color-coded, insane details, intricate details, beautifully color graded, 32k, Super-Resolution, Megapixel, Soft Lighting, Global Illumination, Ray Tracing Global Illumination, hypermaximalist, elegant, hyper realistic, super detailed --ar 16:9 --stylize 750 -->
 
+<svelte:head>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "headline": "How to Apologize Like a Pro: The Enneagram Guide to Authentic Apologies",
+      "description": "Master the art of apologizing based on your Enneagram type. Learn why different personality types struggle with apologies and discover personalized strategies for making genuine amends.",
+      "author": {
+        "@type": "Person",
+        "name": "DJ Wayne",
+        "sameAs": [
+          "https://www.instagram.com/djwayne3/",
+          "https://www.youtube.com/@djwayne3",
+          "https://www.linkedin.com/in/davidtwayne/",
+          "https://twitter.com/djwayne3"
+        ]
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "9takes",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://9takes.com/brand/aero.png"
+        },
+        "sameAs": [
+          "https://www.instagram.com/9takesdotcom/",
+          "https://twitter.com/9takesdotcom"
+        ]
+      },
+      "datePublished": "2025-09-14",
+      "dateModified": "2026-02-22",
+      "url": "https://9takes.com/enneagram-corner/how-to-apologize-like-a-pro",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://9takes.com/blogs/greek-statue-apology-reconciliation.webp",
+        "width": 900,
+        "height": 900
+      },
+      "articleSection": "Enneagram",
+      "inLanguage": "en-US",
+      "keywords": ["apology", "Enneagram", "personality types", "relationships", "communication", "conflict resolution", "emotional intelligence"],
+      "isPartOf": {
+        "@type": "Blog",
+        "name": "9takes Enneagram Corner",
+        "url": "https://9takes.com/enneagram-corner"
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://9takes.com/enneagram-corner/how-to-apologize-like-a-pro"
+      }
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What makes an apology effective according to research?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ohio State University research on 750+ people found six components ranked by importance: acknowledgment of responsibility (most important), offer of repair, expression of regret, explanation, declaration of repentance, and request for forgiveness (least effective alone). The key finding is that if you don't clearly own what you did, nothing else lands."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why do some Enneagram types struggle more with apologies?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Each Enneagram type has specific ego protections that activate during vulnerability. Types 1, 3, and 8 protect their competence. Types 2, 6, and 7 protect their security. Types 4, 5, and 9 protect their identity. These defense mechanisms make certain components of effective apologies harder for each type."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How should you apologize to different Enneagram types?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Different types need different things from apologies. Type 1s need you to acknowledge the principle you violated. Type 2s need to feel their generosity was recognized. Type 3s need the apology to be private and respect their image. Type 4s need emotional authenticity. Type 5s need space and logical acknowledgment. Type 6s need reassurance of loyalty. Type 7s need to see a path forward. Type 8s need directness without excuses. Type 9s need genuine attention to their feelings."
+          }
+        }
+      ]
+    }
+  ]
+}
+</script>
+
+</svelte:head>
+
 <script>
   import MarqueeHorizontal from "$lib/components/atoms/MarqueeHorizontal.svelte";
 </script>

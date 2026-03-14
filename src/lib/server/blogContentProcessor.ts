@@ -2,7 +2,7 @@
 // Server-only module for processing blog content with marked
 // This keeps the marked library out of the client bundle
 
-import { marked } from 'marked';
+import { marked, type Tokens } from 'marked';
 
 interface Placeholder {
 	id: string;
@@ -14,6 +14,27 @@ interface ProcessedContent {
 	content: string;
 	placeholders: Placeholder[];
 }
+
+/**
+ * Generate a URL-friendly slug from heading text.
+ * Matches the behavior of rehype-slug used for MDsvex content.
+ */
+function slugify(text: string): string {
+	return text
+		.toLowerCase()
+		.replace(/<[^>]*>/g, '') // strip HTML tags
+		.replace(/[^\w\s-]/g, '') // remove non-word chars
+		.replace(/\s+/g, '-') // spaces to hyphens
+		.replace(/-+/g, '-') // collapse multiple hyphens
+		.replace(/^-|-$/g, ''); // trim leading/trailing hyphens
+}
+
+// Custom renderer to add IDs to headings for SEO (enables fragment links without JS)
+const renderer = new marked.Renderer();
+renderer.heading = function ({ text, depth }: Tokens.Heading) {
+	const id = slugify(text);
+	return `<h${depth} id="${id}">${text}</h${depth}>\n`;
+};
 
 // Component tags that can appear in blog content
 const COMPONENT_TAGS = ['PopCard', 'BlogPurpose', 'MarqueeHorizontal', 'QuickAnswer'];
@@ -27,8 +48,8 @@ export async function processBlogContent(content: string): Promise<ProcessedCont
 		return { content: '', placeholders: [] };
 	}
 
-	// Parse markdown to HTML
-	let htmlContent = await marked.parse(content);
+	// Parse markdown to HTML with custom renderer that adds IDs to headings
+	let htmlContent = await marked.parse(content, { renderer });
 
 	// Initialize placeholders array
 	const placeholders: Placeholder[] = [];
