@@ -3,6 +3,7 @@ import { defineMDSveXConfig as defineConfig } from 'mdsvex';
 import path from 'path';
 import { fileURLToPath } from 'url';
 import rehypeSlug from 'rehype-slug';
+import rehypeExtractHeadings from './src/lib/rehype-extract-headings.js';
 import remarkAbbr from 'remark-abbr';
 import remarkGithub from 'remark-github';
 
@@ -29,7 +30,8 @@ const config = defineConfig({
 		remarkAbbr
 	],
 	rehypePlugins: [
-		rehypeSlug
+		rehypeSlug,
+		rehypeExtractHeadings // must run after rehype-slug to read assigned IDs
 		// Uncomment the following lines if you want to use rehypeAutolinkHeadings
 		// [
 		//   rehypeAutolinkHeadings,

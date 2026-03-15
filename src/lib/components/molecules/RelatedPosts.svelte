@@ -1,40 +1,34 @@
 <!-- src/lib/components/molecules/RelatedPosts.svelte -->
 <script lang="ts">
 	import { onMount } from 'svelte';
-	import Pluralize from 'pluralize';
 	import { deserialize } from '$app/forms';
 
+	type RelatedPostCard = {
+		slug: string;
+		enneagram: string | number | null;
+	};
+
+	type RelatedPostsPayload = {
+		sameNichePosts?: RelatedPostCard[];
+		sameEnneagramPosts?: RelatedPostCard[];
+	};
+
 	export let slug: string;
-	export let postType: string;
+	export let postTypes: string[] = [];
 	export let enneagramType: string | null = null;
 
 	let loading = true;
-	let sameNichePosts: any[] = [];
-	let sameEnneagramPosts: any[] = [];
+	let sameNichePosts: RelatedPostCard[] = [];
+	let sameEnneagramPosts: RelatedPostCard[] = [];
 	let error: string | null = null;
 
 	// For responsive layout
 	let innerWidth: number;
 
-	// Format niche name (e.g., "movieStar" -> "Movie Stars")
-	function formatNiche(niche: string): string {
-		const plural = Pluralize(niche);
-		return (
-			plural.charAt(0).toUpperCase() +
-			plural
-				.slice(1)
-				.split(/(?=[A-Z])/)
-				.join(' ')
-		);
-	}
-
 	// Responsive post count based on screen width
-	function slicePosts(posts: any[]) {
+	function slicePosts(posts: RelatedPostCard[]) {
 		return posts.slice(0, innerWidth > 920 ? 6 : innerWidth > 576 ? 6 : 4);
 	}
-
-	// Format the niche type
-	$: capitalizedPluralNiche = postType ? formatNiche(postType) : '';
 
 	onMount(async () => {
 		try {
@@ -42,8 +36,8 @@
 			const formData = new FormData();
 			formData.append('slug', slug);
 
-			if (postType) {
-				formData.append('postType', postType);
+			if (postTypes.length) {
+				formData.append('postTypes', JSON.stringify(postTypes));
 			}
 
 			if (enneagramType) {
@@ -59,10 +53,16 @@
 			const result = await deserialize(await response.text());
 
 			if (result.type === 'success') {
-				sameNichePosts = result.data.sameNichePosts || [];
-				sameEnneagramPosts = result.data.sameEnneagramPosts || [];
+				const payload = (result.data ?? {}) as RelatedPostsPayload;
+				sameNichePosts = Array.isArray(payload.sameNichePosts) ? payload.sameNichePosts : [];
+				sameEnneagramPosts = Array.isArray(payload.sameEnneagramPosts)
+					? payload.sameEnneagramPosts
+					: [];
 			} else {
-				error = result.error;
+				error =
+					result.type === 'error'
+						? result.error?.message || 'Unable to load related content'
+						: 'Unable to load related content';
 			}
 		} catch (e) {
 			error = 'Failed to load related posts';
@@ -96,7 +96,7 @@
 		<div class="suggestions-grid">
 			{#if sameNichePosts.length}
 				<div class="suggestion-section" aria-labelledby="niche-suggestions">
-					<h3 id="niche-suggestions" class="section-title">More {capitalizedPluralNiche}</h3>
+					<h3 id="niche-suggestions" class="section-title">Similar Profiles</h3>
 					<ul class="people-grid" role="list">
 						{#each slicePosts(sameNichePosts) as post}
 							<li class="grid-item">

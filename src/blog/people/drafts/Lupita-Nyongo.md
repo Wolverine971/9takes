@@ -4,9 +4,9 @@ meta_title: "Why Lupita Nyong'o Makes Everyone Visible But Herself"
 persona_title: "Hollywood's Invisible Healer"
 description: "How a girl who prayed to disappear became the most visible advocate for those unseen. Inside Lupita Nyong'o's psychology."
 author: 'DJ Wayne'
-date: '2026-03-01'
+date: '2026-03-09'
 loc: 'https://9takes.com/personality-analysis/Lupita-Nyongo'
-lastmod: '2026-03-01'
+lastmod: '2026-03-09'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
@@ -26,7 +26,7 @@ content_quality:
   originality: 9
   overall: 8.6
   letter: B+
-  graded_at: '2026-03-01'
+  graded_at: '2026-03-09'
 path: src/blog/people/drafts/Lupita-Nyongo.md
 ---
 

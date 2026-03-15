@@ -5,6 +5,10 @@ import { dev } from '$app/environment';
 import type { Actions } from './$types';
 import { error } from '@sveltejs/kit';
 import type { Database } from '../../../../database.types';
+import {
+	rankSimilarPeople,
+	type PersonalitySimilarityRow
+} from '$lib/server/personalitySimilarity';
 
 type FamousPersonRow = Database['public']['Tables']['blogs_famous_people']['Row'];
 type BlogCommentRow = Database['public']['Tables']['blog_comments']['Row'];
@@ -70,7 +74,7 @@ export const load: PageServerLoad = async (event) => {
 		comments = blogComments || [];
 	}
 
-	const { content, placeholders } = await processBlogContent(personData.content ?? '');
+	const { content, placeholders, headings } = await processBlogContent(personData.content ?? '');
 
 	return {
 		user: session?.user ? { id: session?.user?.id, email: session?.user?.email } : null, // Pass user info to components
@@ -81,6 +85,7 @@ export const load: PageServerLoad = async (event) => {
 		post: { ...(personData as FamousPersonRow), slug, content },
 		slug,
 		placeholders,
+		headings,
 		comments
 	};
 };
@@ -92,17 +97,17 @@ export const actions: Actions = {
 	getRelatedPosts: async ({ request }) => {
 		const data = await request.formData();
 		const slug = data.get('slug')?.toString();
-		const postType = data.get('postType')?.toString();
+		const postTypes = parsePostTypes(data.get('postTypes'));
 		const enneagram = data.get('enneagram')
 			? parseInt(data.get('enneagram')?.toString() || '0')
 			: null;
 
-		if (!slug || (!postType && !enneagram)) {
+		if (!slug || (!postTypes.length && !enneagram)) {
 			return { success: false, error: 'Missing required parameters' };
 		}
 
 		// Check cache first
-		const cacheKey = `${slug}:${postType || ''}:${enneagram || ''}`;
+		const cacheKey = `${slug}:${JSON.stringify(postTypes)}:${enneagram || ''}`;
 		const cachedResult = relatedPostsCache.get(cacheKey);
 
 		if (cachedResult) {
@@ -113,14 +118,16 @@ export const actions: Actions = {
 		let sameNichePosts: any[] = [];
 		let sameEnneagramPosts: any[] = [];
 
-		// Get posts by niche
-		if (postType) {
-			sameNichePosts = await getNichePosts(slug, postType);
+		// Get similar posts by shared tags/categories
+		if (postTypes.length) {
+			sameNichePosts = await getSimilarPosts(slug, postTypes, enneagram);
 		}
 
-		// Get posts by enneagram
+		// Get posts by enneagram, ranked by overall similarity
 		if (enneagram) {
-			sameEnneagramPosts = await getEnneagramPosts(slug, enneagram);
+			sameEnneagramPosts = await getEnneagramPosts(slug, enneagram, postTypes).then((posts) =>
+				posts.filter((post) => !sameNichePosts.some((candidate) => candidate.slug === post.slug))
+			);
 		}
 
 		const result = {
@@ -138,49 +145,71 @@ export const actions: Actions = {
 	}
 };
 
-// Functions to get related posts by niche
-async function getNichePosts(currentSlug: string, postType: string) {
+function parsePostTypes(value: FormDataEntryValue | null): string[] {
+	if (typeof value !== 'string' || value.trim().length === 0) return [];
+
+	try {
+		const parsed = JSON.parse(value);
+		return Array.isArray(parsed) ? parsed.map(String) : [];
+	} catch {
+		return value
+			.split(',')
+			.map((item) => item.trim())
+			.filter(Boolean);
+	}
+}
+
+function mapSimilarResults(rows: PersonalitySimilarityRow[]) {
+	return rows.map((row) => ({ ...row, slug: row.person ?? '' }));
+}
+
+async function getSimilarPosts(currentSlug: string, postTypes: string[], enneagram: number | null) {
 	const { data: personDataRaw, error: personDataError } = await supabase
 		.from('blogs_famous_people')
-		.select('*')
-		.filter('type', 'cs', `["${postType}"]`);
-	const personData = (personDataRaw ?? []) as FamousPersonRow[];
+		.select(
+			'person, enneagram, title, description, persona_title, lastmod, date, type, published, content_quality'
+		)
+		.eq('published', true);
+	const personData = (personDataRaw ?? []) as PersonalitySimilarityRow[];
 
 	if (personDataError) {
 		console.log(personDataError);
 	}
 
-	// Return at most 3 posts, randomly sorted
-	return personData
-		.filter((p) => p.published === true && p.person !== currentSlug)
-		.sort(() => 0.5 - Math.random())
-		.slice(0, 4)
-		.map((e) => {
-			return { ...e, slug: e.person ?? currentSlug };
-		});
+	return mapSimilarResults(
+		rankSimilarPeople({
+			currentSlug,
+			currentTypes: postTypes,
+			currentEnneagram: enneagram,
+			rows: personData
+		}).map((entry) => entry.row)
+	);
 }
 
 // Function to get posts by enneagram number
-async function getEnneagramPosts(currentSlug: string, enneagramNum: number) {
-	// Check celebrities
+async function getEnneagramPosts(currentSlug: string, enneagramNum: number, postTypes: string[]) {
 	const { data: personDataRaw, error: personDataError } = await supabase
 		.from('blogs_famous_people')
-		.select('*')
+		.select(
+			'person, enneagram, title, description, persona_title, lastmod, date, type, published, content_quality'
+		)
+		.eq('published', true)
 		.eq('enneagram', enneagramNum);
-	const personData = (personDataRaw ?? []) as FamousPersonRow[];
+	const personData = (personDataRaw ?? []) as PersonalitySimilarityRow[];
 
 	if (personDataError) {
 		console.log(personDataError);
 	}
 
-	// Return at most 3 posts, randomly sorted
-	return personData
-		.filter((p) => p.published === true && p.person !== currentSlug)
-		.sort(() => 0.5 - Math.random())
-		.slice(0, 4)
-		.map((e) => {
-			return { ...e, slug: e.person ?? currentSlug };
-		});
+	return mapSimilarResults(
+		rankSimilarPeople({
+			currentSlug,
+			currentTypes: postTypes,
+			currentEnneagram: enneagramNum,
+			rows: personData,
+			requireSameEnneagram: true
+		}).map((entry) => entry.row)
+	);
 }
 
 // Server-only blog content processor - keeps marked library out of client bundle

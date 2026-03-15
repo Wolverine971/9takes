@@ -7,6 +7,9 @@
 
 	export let contentStore: Writable<string>;
 
+	// Server-side headings for SSR rendering (optional, falls back to client-side DOM parsing)
+	export let headings: App.TocHeading[] | undefined = undefined;
+
 	// Configuration options with defaults
 	export let showAtScrollY: number = 1000;
 	export let hideBeforeBottom: number = 300;
@@ -54,6 +57,98 @@
 
 	let expandedSections: Set<string> = new Set();
 	let contentAnalysis: ContentAnalysis | null = null;
+
+	/**
+	 * SSR-safe TOC generation from heading data (no DOM dependency).
+	 * Produces identical HTML structure to the client-side generateTableOfContents().
+	 */
+	function generateTocFromHeadings(items: App.TocHeading[]): string {
+		if (!items || items.length < 2) return '';
+
+		// Filter out headings matching the title prop
+		const filtered = items.filter((h) => h.text.trim() !== title);
+		if (filtered.length < 2) return '';
+
+		// Determine structure: single-level or hierarchical
+		const levels = [...new Set(filtered.map((h) => h.level))].sort();
+		const isHierarchical = levels.length > 1;
+
+		// Apply maxTocEntries limit
+		const limited = filtered.length > maxTocEntries ? filtered.slice(0, maxTocEntries) : filtered;
+
+		// Build HTML
+		let html = '<ul class="toc-list">';
+
+		if (!isHierarchical) {
+			// Flat structure
+			for (const h of limited) {
+				html += `<li class="toc-item toc-level-h${h.level}">`;
+				html += `<a href="#${h.id}" class="toc-link" title="${escapeAttr(h.text)}">${escapeHtml(h.text)}</a>`;
+				html += '</li>';
+			}
+		} else {
+			// Hierarchical structure
+			const topLevel = levels[0];
+			let i = 0;
+
+			while (i < limited.length) {
+				const h = limited[i];
+
+				if (h.level === topLevel) {
+					html += `<li class="toc-item toc-level-h${h.level}">`;
+					html += `<a href="#${h.id}" class="toc-link" title="${escapeAttr(h.text)}">${escapeHtml(h.text)}</a>`;
+
+					// Collect children (next items with deeper level until next top-level)
+					const children: App.TocHeading[] = [];
+					let j = i + 1;
+					while (j < limited.length && limited[j].level > topLevel) {
+						children.push(limited[j]);
+						j++;
+					}
+
+					if (children.length > 0) {
+						html += '<ul class="toc-sublist">';
+						for (const child of children) {
+							html += `<li class="toc-item toc-level-h${child.level}">`;
+							html += `<a href="#${child.id}" class="toc-link" title="${escapeAttr(child.text)}">${escapeHtml(child.text)}</a>`;
+							html += '</li>';
+						}
+						html += '</ul>';
+					}
+
+					html += '</li>';
+					i = j;
+				} else {
+					// Orphan child (no parent) - render at top level
+					html += `<li class="toc-item toc-level-h${h.level}">`;
+					html += `<a href="#${h.id}" class="toc-link" title="${escapeAttr(h.text)}">${escapeHtml(h.text)}</a>`;
+					html += '</li>';
+					i++;
+				}
+			}
+		}
+
+		html += '</ul>';
+		return html;
+	}
+
+	function escapeHtml(text: string): string {
+		return text.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+	}
+
+	function escapeAttr(text: string): string {
+		return escapeHtml(text).replace(/"/g, '&quot;');
+	}
+
+	// If server-provided headings exist, generate TOC immediately (SSR-safe)
+	$: if (headings && headings.length > 0 && !contentProcessed) {
+		const ssrToc = generateTocFromHeadings(headings);
+		if (ssrToc) {
+			toc = ssrToc;
+			contentProcessed = true;
+			initialized = true;
+		}
+	}
 
 	// Calculate sidebar position
 	$: sidebarPosition = calculateSidebarPosition(windowWidth, contentWidth, sidebarWidth);

@@ -72,7 +72,7 @@
 		<ArticleSubTitle metaData={data.frontmatter} />
 	</div>
 
-	<TableOfContents {contentStore} />
+	<TableOfContents {contentStore} headings={data.frontmatter.headings} />
 
 	<svelte:component this={component} />
 

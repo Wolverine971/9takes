@@ -121,7 +121,7 @@
 		</div>
 	{/if}
 
-	<TableOfContents {contentStore} />
+	<TableOfContents {contentStore} headings={data.frontmatter.headings} />
 
 	<div class="article-content">
 		<Article />

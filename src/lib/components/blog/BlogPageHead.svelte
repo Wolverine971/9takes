@@ -51,6 +51,7 @@
 	const jsonldObj = {
 		'@context': 'https://schema.org',
 		'@type': 'BlogPosting',
+		'@id': `https://9takes.com/${slug}#article`,
 		headline: title,
 		name: title,
 		url: `https://9takes.com/${slug}`,

@@ -27,6 +27,7 @@ content_quality:
   overall: 8.8
   letter: B+
   graded_at: '2026-03-14'
+path: src/blog/people/drafts/Tim-Robinson.md
 ---
 
 > "I think every interaction I have, there's something I walk away going, 'Oh my God, I sound like a jerk.' It's constantly happening."

@@ -125,7 +125,7 @@
 		</div>
 	{/if}
 
-	<TableOfContents {contentStore} />
+	<TableOfContents {contentStore} headings={data.frontmatter.headings} />
 
 	<svelte:component this={component} />
 

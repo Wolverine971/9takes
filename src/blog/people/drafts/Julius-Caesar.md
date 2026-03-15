@@ -4,9 +4,9 @@ meta_title: "Why Julius Caesar Couldn't Stop (The Psychology Behind History's Mo
 persona_title: "History's Relentless Conqueror"
 description: "Explore Julius Caesar's psychology through the Enneagram. From crushing debt to divine honors, discover the pattern behind history's most ambitious man."
 author: 'DJ Wayne'
-date: '2026-03-01'
+date: '2026-03-09'
 loc: 'https://9takes.com/personality-analysis/Julius-Caesar'
-lastmod: '2026-03-01'
+lastmod: '2026-03-09'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
@@ -26,7 +26,7 @@ content_quality:
   originality: 8.5
   overall: 8.8
   letter: 'B+'
-  graded_at: '2026-03-01'
+  graded_at: '2026-03-09'
 path: src/blog/people/drafts/Julius-Caesar.md
 ---
 

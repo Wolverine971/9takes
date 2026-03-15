@@ -108,6 +108,12 @@ declare global {
 
 		type MdsvexResolver = () => Promise<MdsvexFile>;
 
+		interface TocHeading {
+			level: number;
+			text: string;
+			id: string;
+		}
+
 		interface BlogPost {
 			slug: string;
 			title: string;
@@ -135,6 +141,7 @@ declare global {
 			howToSteps?: Array<{ name?: string; text?: string } | string>;
 			totalTime?: string;
 			pic?: string;
+			headings?: TocHeading[];
 		}
 	}
 }

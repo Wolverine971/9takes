@@ -10,9 +10,16 @@ interface Placeholder {
 	props: Record<string, any>;
 }
 
+interface TocHeading {
+	level: number;
+	text: string;
+	id: string;
+}
+
 interface ProcessedContent {
 	content: string;
 	placeholders: Placeholder[];
+	headings: TocHeading[];
 }
 
 /**
@@ -29,13 +36,6 @@ function slugify(text: string): string {
 		.replace(/^-|-$/g, ''); // trim leading/trailing hyphens
 }
 
-// Custom renderer to add IDs to headings for SEO (enables fragment links without JS)
-const renderer = new marked.Renderer();
-renderer.heading = function ({ text, depth }: Tokens.Heading) {
-	const id = slugify(text);
-	return `<h${depth} id="${id}">${text}</h${depth}>\n`;
-};
-
 // Component tags that can appear in blog content
 const COMPONENT_TAGS = ['PopCard', 'BlogPurpose', 'MarqueeHorizontal', 'QuickAnswer'];
 
@@ -45,8 +45,17 @@ const COMPONENT_TAGS = ['PopCard', 'BlogPurpose', 'MarqueeHorizontal', 'QuickAns
  */
 export async function processBlogContent(content: string): Promise<ProcessedContent> {
 	if (!content) {
-		return { content: '', placeholders: [] };
+		return { content: '', placeholders: [], headings: [] };
 	}
+
+	// Create renderer per-call to safely collect headings for concurrent requests
+	const headings: TocHeading[] = [];
+	const renderer = new marked.Renderer();
+	renderer.heading = function ({ text, depth }: Tokens.Heading) {
+		const id = slugify(text);
+		headings.push({ level: depth, text, id });
+		return `<h${depth} id="${id}">${text}</h${depth}>\n`;
+	};
 
 	// Parse markdown to HTML with custom renderer that adds IDs to headings
 	let htmlContent = await marked.parse(content, { renderer });
@@ -106,7 +115,7 @@ export async function processBlogContent(content: string): Promise<ProcessedCont
 		}
 	}
 
-	return { content: htmlContent, placeholders };
+	return { content: htmlContent, placeholders, headings };
 }
 
 /**

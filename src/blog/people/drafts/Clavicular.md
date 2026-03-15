@@ -27,6 +27,7 @@ content_quality:
   overall: 8.8
   letter: 'B+'
   graded_at: '2026-03-14'
+path: src/blog/people/drafts/Clavicular.md
 ---
 
 > "It's like a cheat code. Why would I not do this?"
@@ -94,11 +95,11 @@ The evidence:
 - **Identity fused with image.** He named himself after a bone measurement. His biacromial width — 19.5 inches — is public information he volunteers like a résumé line. He is 6'2", 180 pounds, 31-inch waist. These are not facts about him. They are him.
 - **The shape-shifting.** He describes himself as "apolitical" and supports whoever provides "the fattest bag." He can be filmed singing alongside <a href="/personality-analysis/Andrew-Tate">Andrew Tate</a> and Nick Fuentes one month and walking a high-fashion runway the next. The allegiance shifts because the audience shifts.
 - **Achievement as existence.** He dismissed traditional life paths — college, employment, marriage — as no longer feeling "tangible enough." But streaming viewership? Follower counts? Monthly income from Kick? Those are tangible. Those are metrics. Those are the scoreboard of a Type 3 who has relocated the game from career to body.
-- **The emotional bypass.** When asked about his dating life by the *New York Times*, he explained that knowing he *could* have sex with a woman was more satisfying than the act itself. "It's a big time saver," he said. On *The Adam Friedland Show*, he said sex takes him approximately one minute and agreed that masturbation would be more efficient. This isn't a man describing pleasure. This is a man describing a performance review.
+- **The emotional bypass.** When asked about his dating life by the _New York Times_, he explained that knowing he _could_ have sex with a woman was more satisfying than the act itself. "It's a big time saver," he said. On _The Adam Friedland Show_, he said sex takes him approximately one minute and agreed that masturbation would be more efficient. This isn't a man describing pleasure. This is a man describing a performance review.
 
 What makes this a specifically **Social 3** expression — the subtype that fixates on image, status, and influence — is that his achievement doesn't happen in private. It happens on camera. Always on camera. The Elena Velez runway show at New York Fashion Week? He walked it while livestreaming. The "only goal is to be the alpha in the room," as one observer noted, "so long as the room is constantly being recorded."
 
-The **3w4 wing** explains the aesthetic specificity that separates him from a standard image-obsessed influencer. His aspirational ideal isn't "attractive" in any generic sense. It's Matt Bomer — "the most harmonious male face in the world," according to Clavicular's own framework. The 4-wing drives the desire to not just succeed but to achieve something original, something singular. Not the most popular streamer. The most *beautiful* man. There's melancholy underneath the metrics, a nihilistic depth that the pure Social 3 doesn't usually carry.
+The **3w4 wing** explains the aesthetic specificity that separates him from a standard image-obsessed influencer. His aspirational ideal isn't "attractive" in any generic sense. It's Matt Bomer — "the most harmonious male face in the world," according to Clavicular's own framework. The 4-wing drives the desire to not just succeed but to achieve something original, something singular. Not the most popular streamer. The most _beautiful_ man. There's melancholy underneath the metrics, a nihilistic depth that the pure Social 3 doesn't usually carry.
 
 ---
 
@@ -130,7 +131,7 @@ And yet the project continues. Why?
 
 Because sex was never the point. For Clavicular, as for many in the looksmaxxing community, the real transaction happens between men. "Mogging" — outshining another man aesthetically — is the actual currency. Women function as validators, as proof of concept, as scorecard entries. Not as people.
 
-He told the *New York Times* that he would rather "relish the knowledge that he can score with a woman than actually go through with the deed." He has described not having sex as "a big time saver."
+He told the _New York Times_ that he would rather "relish the knowledge that he can score with a woman than actually go through with the deed." He has described not having sex as "a big time saver."
 
 Read those words again. A twenty-year-old man who has rendered himself infertile in pursuit of sexual desirability describes the absence of sex as efficient time management. The Type 3 efficiency drive has consumed the very thing it was ostensibly building toward.
 
@@ -142,7 +143,7 @@ In February 2026, Elena Velez's Fall/Winter show at New York Fashion Week center
 
 The star of the evening was Clavicular. He closed the show wearing a unisex "Universal Work Suit" — and livestreamed every step of it.
 
-The *New York Times* had profiled him days earlier. "Handsome at Any Cost," the headline read. GQ had featured him. NPR discussed him. Articles proliferated in the *New Statesman*, the *Guardian*, *Slate*, *Jacobin*. A boy from Hoboken who failed out of college in three weeks had become the subject of more cultural commentary than most politicians.
+The _New York Times_ had profiled him days earlier. "Handsome at Any Cost," the headline read. GQ had featured him. NPR discussed him. Articles proliferated in the _New Statesman_, the _Guardian_, _Slate_, _Jacobin_. A boy from Hoboken who failed out of college in three weeks had become the subject of more cultural commentary than most politicians.
 
 The controversies accumulated with the coverage. On Christmas Eve 2025, a livestream captured him apparently striking a pedestrian with his Tesla Cybertruck. "Is he dead?" he said to his passenger. "Hopefully." He later claimed self-defense. In January 2026, he was filmed singing along to Kanye West's antisemitic "Heil Hitler" at a Miami nightclub alongside Fuentes, Andrew Tate, and Sneako. In February, he was arrested in Scottsdale for a forged ID and drug possession. Charges were declined.
 

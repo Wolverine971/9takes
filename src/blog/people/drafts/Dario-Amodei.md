@@ -27,19 +27,16 @@ content_quality:
   overall: 8.9
   letter: 'B+'
   graded_at: '2026-03-14'
+path: src/blog/people/drafts/Dario-Amodei.md
 ---
 
 > "My father died because of cures that could have happened a few years earlier. I understand the benefit of this technology."
 
-<p class="firstLetter">In 2006, Dario Amodei's father Riccardo — an Italian-American leather craftsman from Tuscany who had raised his children in San Francisco's Mission District — died after a long illness. What happened next is the detail that explains everything about Dario Amodei.</p>
+<p class="firstLetter">In 2006, Dario Amodei's father died after a long illness. Within a few years, the cure rate for the disease that killed him surged from roughly 50% to 95%.</p>
 
-Within three to four years of his father's death, the cure rate for the disease that killed him went from 50% to roughly 95%.
+A handful of years. The difference between a father's gravestone and a father's recovery.
 
-Jade Wang, Dario's former girlfriend, put it plainly: "It's the difference between his father most likely dying and most likely living, okay?"
-
-Four years. The difference between a father's gravestone and a father's recovery. Not a century of delayed progress. Not an impossible scientific frontier. Four years. A rounding error in the history of medicine. An eternity for one family.
-
-That gap — between what science *could* have done and what it *did* in time — is the engine that drives the most consequential AI company on earth. Dario Amodei builds machines that might compress a century of scientific progress into a decade. He also writes 14,000-word essays about how those same machines might destroy everything. He does both things with equal intensity, and neither one is an act.
+That gap — between what science _could_ have done and what it _did_ in time — is the engine that drives one of the most consequential AI companies on earth. Dario Amodei builds machines that might compress a century of scientific progress into a decade. He also writes 14,000-word essays about how those same machines might destroy everything. He does both things with equal intensity, and neither one is an act.
 
 <details>
 <summary class="accordion">TL;DR: Why Dario Amodei is an Enneagram Type 5</summary>
@@ -81,7 +78,9 @@ But biology frustrated him in a way physics never had.
 
 "The complexity of the underlying problems in biology felt like it was beyond human scale," he said. The biological systems he was trying to decode didn't yield to elegant equations. They were messy, recursive, impossibly layered. A single human mind — even a brilliant one — couldn't hold enough of the picture to make progress fast enough.
 
-Then came the breakthrough that haunted him: the cure rate for his father's disease surged from 50% to 95% in the years just after Riccardo died.
+Then came the breakthrough that haunted him: the cure rate for his father's disease surged from 50% to 95% in the years just after Riccardo died. Dario has never publicly named the illness — a boundary he maintains even in long interviews — but the math doesn't require a diagnosis to understand.
+
+Jade Wang, Dario's former girlfriend, put it plainly: "It's the difference between his father most likely dying and most likely living, okay?"
 
 "There was someone who worked on the cure to this disease, that managed to cure it, and save a bunch of people's lives, but could have saved even more."
 
@@ -95,7 +94,7 @@ Not bridge the gap between disciplines. Bridge the gap between what science know
 
 ## The Most Talented Graduate Student
 
-At Princeton, Dario earned his Ph.D. in computational neuroscience under advisor Michael Berry. Berry later called him "the most talented graduate student he ever had."
+At Princeton, Dario earned his Ph.D. in computational neuroscience under advisor Michael Berry, co-inventing a new sensor to measure retinal signals. His dissertation won the Hertz Thesis Prize. Berry later called him "the most talented graduate student he ever had," as reported in Alex Kantrowitz's profile for Big Technology.
 
 But he added something else: "I think internally, he was kind of a proud person."
 
@@ -128,13 +127,13 @@ Consider the evidence:
 
 The Five's wing matters here. Dario is a 5w6 — the Investigator with a Loyalist wing. The 6 wing adds something the core Five often lacks: institutional thinking, loyalty bonds, and a visceral concern for security. This is the wing that explains Anthropic.
 
-A pure Five might have stayed in academia, accumulating knowledge for its own sake. The [6 wing](/enneagram-corner/enneagram-type-6) is what made Dario build an *institution* around his understanding — a company explicitly designed to prepare for worst-case scenarios. It's also what made fourteen researchers follow him out of OpenAI. People don't follow pure intellects. They follow people they trust.
+A pure Five might have stayed in academia, accumulating knowledge for its own sake. The [6 wing](/enneagram-corner/enneagram-type-6) is what made Dario build an _institution_ around his understanding — a company explicitly designed to prepare for worst-case scenarios. It's also what made fourteen researchers follow him out of OpenAI. People don't follow pure intellects. They follow people they trust.
 
 ---
 
 ## Fourteen People Followed Him Out the Door
 
-By 2020, Dario was VP of Research at OpenAI and increasingly convinced that the organization he'd joined *because* of its safety mission was not treating safety seriously enough.
+By 2020, Dario was VP of Research at OpenAI and increasingly convinced that the organization he'd joined _because_ of its safety mission was not treating safety seriously enough.
 
 His proposal inside OpenAI — where [Sam Altman](/personality-analysis/Sam-Altman) was CEO — was straightforward: dramatically increase investment in interpretability and alignment research. The gap between what AI could do and what humans understood about controlling it was widening with each new model generation.
 
@@ -148,7 +147,19 @@ Daniela has described the dynamic simply: "It's genuinely a privilege to run Ant
 
 On working with Daniela, Dario has been characteristically direct: "Total and complete trust."
 
-Not "we complement each other well." Not "she handles ops and I handle strategy." Total and complete trust. The rarest sentence a Five can speak about another person — because for a Five, trust means allowing someone else inside the fortress.
+Not "we complement each other well." Not "she handles ops and I handle strategy." Total and complete trust. For someone who processes the world by mapping it alone, letting another person share the map is no small thing.
+
+In practice, the division is clean. Dario drives research strategy, technical direction, and AI policy — the long-range vision work that plays to his strengths. Daniela runs operations, hiring, commercial partnerships, and the organizational scaling that a company growing this fast demands. An early investor described it plainly: building the leadership team and growing at speed is Daniela's wheelhouse. She is married to Holden Karnofsky, the former head of Open Philanthropy who now works at Anthropic on AI safety strategy — a connection that has drawn scrutiny but also reflects how tightly the Amodei orbit integrates mission-aligned thinking.
+
+---
+
+## The Constitution
+
+Anthropic's valuation rests on Claude — a family of AI models positioned as both the safest and most capable in the industry. But what separates Anthropic from OpenAI or Google DeepMind isn't the chatbot. It's the training.
+
+Anthropic developed **Constitutional AI**: instead of relying entirely on human reviewers to rate outputs, they wrote a set of principles — drawing from the UN Declaration of Human Rights and other sources — and trained the model to critique and revise its own responses against them. The AI learns to evaluate itself. It's a characteristically Dario solution: systematize the ethics so they scale with the technology rather than depending on an ever-growing army of human judgment calls.
+
+They also built the **Responsible Scaling Policy**, which defines AI Safety Levels modeled after biosafety levels in laboratories. Current Claude sits at ASL-2 — early signs of dangerous capabilities, but not yet reliably weaponizable. The critical feature: the policy requires pausing development if safety measures can't keep pace with capability gains. No other major lab has a comparable brake.
 
 ---
 
@@ -156,7 +167,7 @@ Not "we complement each other well." Not "she handles ops and I handle strategy.
 
 Running a company whose valuation hit $380 billion by early 2026 might seem natural for a tech CEO. For Dario, it's an ongoing act of integration — a theoretical physicist forcing himself into the messiest, most human domain imaginable: organizational leadership.
 
-"I probably spend a third, maybe 40%, of my time making sure the culture of Anthropic is good," he has said. This number should surprise you. A Five spending 40% of their energy on *culture* — the squishiest, most subjective thing in any organization — is like a marathon runner volunteering for a swim meet. It doesn't come naturally. He does it because he's mapped the terrain and concluded it matters more than anything else.
+"I probably spend a third, maybe 40%, of my time making sure the culture of Anthropic is good," he has said. For someone who came up through physics and computational neuroscience — someone who valued math because "it had a sense of objectivity" — spending 40% of his energy on the squishiest, most subjective thing in any organization is a deliberate choice. He does it because he's studied the terrain and concluded it matters more than anything else.
 
 The "Dario Vision Quest" — a name he initially resisted because of its "psychedelic connotation" but eventually kept — is where this plays out most visibly. Every two weeks, the entire company gathers. Dario stands up with his pages and talks.
 
@@ -166,7 +177,7 @@ And then, with the quiet conviction of someone who has thought about this more t
 
 "If you have a company of people who you trust — and we try to hire people that we trust — then you can really just be entirely unfiltered."
 
-He also admitted something that most CEOs would never say out loud: "Perhaps I have too much pride in my own writing." This was about using Claude to help with his communication. A small line. But it cracks open a window — the Five's quiet certainty that their internal articulation of the world is more precise than anyone else's. The fortress isn't just protective. It's a point of pride.
+He also admitted something that most CEOs would never say out loud: "Perhaps I have too much pride in my own writing." This was about using Claude — his own company's AI — to help draft his communication. A small line. But it cracks open a window: even the man who built one of the most capable writing tools on the planet would rather trust his own sentences.
 
 "There is zero time for bullshit," he told Dwarkesh Patel in February 2026, the day after closing a $30 billion funding round. "There is zero time for feeling like we're productive when we're not."
 
@@ -174,9 +185,7 @@ He also admitted something that most CEOs would never say out loud: "Perhaps I h
 
 ## The Bomb and the Manual
 
-In October 2024, Dario published "Machines of Loving Grace" — a 14,000-word essay describing what the world could look like if AI goes right. AI curing all major diseases within a decade. AI lifting the developing world out of poverty. AI solving mental health crises. The essay was dense with science, rigorous in its analysis, and startlingly optimistic.
-
-Fifteen months later, in January 2026, he published "The Adolescence of Technology" — an equally ambitious essay describing how AI could go catastrophically wrong. Autonomous systems that slip human control. Biological weapons designed by AI. Authoritarian regimes using AI to consolidate power forever. Economic disruption that makes millions of workers obsolete overnight.
+In October 2024, Dario published "Machines of Loving Grace" — a 14,000-word essay on what the world looks like if AI goes right. Fifteen months later, in January 2026, he published "The Adolescence of Technology" — equally ambitious, equally detailed, describing how it all goes wrong.
 
 <div class="contrast-panel">
 <div class="contrast-left">
@@ -193,7 +202,7 @@ Two essays. Two visions. Both written with total conviction by the same person.
 
 "One of my main reasons for focusing on risks," Dario wrote, "is that they're the only thing standing between us and what I see as a fundamentally positive future."
 
-This is the sentence that unlocks Dario Amodei. He's not oscillating between optimism and pessimism. He's holding both simultaneously, with equal force, because he's mapped the territory and concluded that the utopia and the catastrophe are *the same distance away from each other.* The margin is thin. A few years. A few decisions. A gap not unlike the one that separated his father's death from a cure.
+This is the sentence that unlocks Dario Amodei. He's not oscillating between optimism and pessimism. He's holding both simultaneously, with equal force, because he's mapped the territory and concluded that the utopia and the catastrophe are _the same distance away from each other._ The margin is thin. A few years. A few decisions.
 
 "I get really angry when someone's like, 'This guy's a doomer. He wants to slow things down,'" he said in a 2025 interview.
 
@@ -220,6 +229,14 @@ On the autonomous weapons question, he was specific and unsparing: "It doesn't s
 "We have to find a way to win in a way that preserves those values," he said. "We can't just be a total race to the bottom."
 
 A senior Pentagon official accused the CEO of an AI company of having a God-complex. But the man on the other side of that accusation is someone whose parents taught him "a sense of right and wrong and what was important in the world" — and whose father's death proved, with brutal clarity, that the most important thing in the world is getting the science right in time.
+
+The fallout was swift and wide. Defense contractors including Lockheed Martin cut ties. President Trump told the entire federal government to stop using Anthropic's technology. OpenAI struck a Pentagon deal hours after Anthropic was blacklisted. Anthropic claims hundreds of millions in lost revenue, with billions potentially at risk as private-sector customers scrambled to renegotiate contracts.
+
+On March 9, 2026, Anthropic filed lawsuits in two federal courts, alleging the designation punishes them for being outspoken on AI policy. In a striking show of industry solidarity, over thirty employees from OpenAI and Google DeepMind — including Google chief scientist Jeff Dean — filed an amicus brief warning that the designation threatens the entire American AI industry. OpenAI CEO [Sam Altman](/personality-analysis/Sam-Altman) publicly disagreed with the government's decision.
+
+The red lines held. The cost of holding them is still being calculated.
+
+Outside of work, Dario is almost invisible. He is married, but his wife's name has never appeared in public reporting. No social media footprint. No weekend-profile features. The privacy is complete and, by all appearances, non-negotiable.
 
 ---
 

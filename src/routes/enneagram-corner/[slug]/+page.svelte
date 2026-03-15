@@ -126,7 +126,7 @@
 		<Carousel type={parseInt(type)} gridDisplay={true} />
 	{/if}
 
-	<TableOfContents {contentStore} />
+	<TableOfContents {contentStore} headings={data.frontmatter.headings} />
 
 	<div class="article-body" itemprop="articleBody">
 		<svelte:component this={component} />

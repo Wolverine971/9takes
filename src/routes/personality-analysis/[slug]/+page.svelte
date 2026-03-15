@@ -24,6 +24,45 @@
 
 	export let data: PageData;
 
+	function toStringValue(value: unknown, fallback: string = ''): string {
+		return typeof value === 'string' ? value : value == null ? fallback : String(value);
+	}
+
+	function toStringArray(value: unknown): string[] {
+		if (!Array.isArray(value)) return [];
+		return value.filter((item): item is string => typeof item === 'string');
+	}
+
+	function toEnneagramNumber(value: unknown): number | undefined {
+		if (typeof value === 'number' && Number.isFinite(value)) return value;
+		if (typeof value === 'string' && value.trim() !== '') {
+			const parsed = Number.parseInt(value, 10);
+			return Number.isFinite(parsed) ? parsed : undefined;
+		}
+		return undefined;
+	}
+
+	function normalizePost(post: PageData['post']): App.BlogPost {
+		return {
+			...(post as unknown as App.BlogPost),
+			slug: toStringValue(post.slug),
+			title: toStringValue(post.title),
+			meta_title: toStringValue(post.meta_title),
+			author: toStringValue(post.author, 'DJ Wayne'),
+			description: toStringValue(post.description),
+			date: toStringValue(post.date),
+			loc: toStringValue(post.loc),
+			lastmod: toStringValue(post.lastmod),
+			changefreq: toStringValue(post.changefreq),
+			priority: toStringValue(post.priority),
+			published: post.published === true,
+			enneagram: toEnneagramNumber(post.enneagram),
+			type: toStringArray(post.type),
+			suggestions: toStringArray(post.suggestions),
+			person: toStringValue(post.person)
+		};
+	}
+
 	const componentTypes = [
 		{ tag: 'PopCard', component: PopCard },
 		{ tag: 'BlogPurpose', component: BlogPurpose },
@@ -40,10 +79,18 @@
 	let post: PageData['post'] = data.post;
 	let comments: PageData['comments'] = data.comments;
 	let userHasAnswered: PageData['flags']['userHasAnswered'] = data.flags.userHasAnswered;
+	let postMeta: App.BlogPost = normalizePost(data.post);
+	let postTypes: string[] = postMeta.type || [];
+	let postSuggestions: string[] = postMeta.suggestions || [];
+	let postPerson: string = postMeta.person || '';
 
 	$: post = data.post;
 	$: comments = data.comments;
 	$: userHasAnswered = data.flags.userHasAnswered;
+	$: postMeta = normalizePost(post);
+	$: postTypes = postMeta.type || [];
+	$: postSuggestions = postMeta.suggestions || [];
+	$: postPerson = postMeta.person || '';
 
 	// Table of Contents support
 	const contentStore = writable('');
@@ -55,10 +102,14 @@
 	};
 
 	// Dynamically import less critical components
-	let BlogComments: typeof import('$lib/components/blog/BlogComments.svelte').default;
-	let BlogInteract: typeof import('$lib/components/blog/BlogInteract.svelte').default;
-	let SuggestFamousPerson: typeof import('$lib/components/molecules/SuggestFamousPerson.svelte').default;
-	let EnneagramCTASidebar: typeof import('$lib/components/blog/EnneagramCTASidebar.svelte').default;
+	let BlogComments: typeof import('$lib/components/blog/BlogComments.svelte').default | undefined;
+	let BlogInteract: typeof import('$lib/components/blog/BlogInteract.svelte').default | undefined;
+	let SuggestFamousPerson:
+		| typeof import('$lib/components/molecules/SuggestFamousPerson.svelte').default
+		| undefined;
+	let EnneagramCTASidebar:
+		| typeof import('$lib/components/blog/EnneagramCTASidebar.svelte').default
+		| undefined;
 
 	// Set up lazy loading for components
 	onMount(() => {
@@ -276,10 +327,10 @@
 
 <article itemscope itemtype="https://schema.org/BlogPosting" class="blog">
 	<div class="article-header">
-		<PeopleBlogPageHead data={post} />
-		<ArticleTitle title={post.title} />
-		<ArticleSubTitle metaData={post} />
-		<meta itemprop="description" content={post.description} />
+		<PeopleBlogPageHead data={postMeta} />
+		<ArticleTitle title={postMeta.title} />
+		<ArticleSubTitle metaData={postMeta} />
+		<meta itemprop="description" content={postMeta.description} />
 	</div>
 
 	<div class="featured-image" itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
@@ -290,17 +341,22 @@
 		<meta itemprop="width" content="900" />
 		<meta itemprop="height" content="900" />
 		<PopCard
-			image={`/types/${post.enneagram}s/${post.person}.webp`}
+			image={`/types/${post.enneagram}s/${postPerson}.webp`}
 			showIcon={false}
-			enneagramType={post.enneagram}
-			displayText={post.person.split('-').join(' ')}
+			enneagramType={postMeta.enneagram}
+			displayText={postPerson.split('-').join(' ')}
 			priority={true}
 			scramble={false}
 			aspectRatio="1/1"
-			subtext={post.persona_title || ''}
+			subtext={toStringValue(post.persona_title)}
 		/>
 	</div>
-	<TableOfContents {contentStore} sidePosition="right" renderMode="accordion-only" />
+	<TableOfContents
+		{contentStore}
+		headings={data.headings}
+		sidePosition="right"
+		renderMode="accordion-only"
+	/>
 
 	<div class="article-body" itemprop="articleBody">
 		{@html post.content}
@@ -309,12 +365,17 @@
 	<AuthorBio />
 </article>
 
-<TableOfContents {contentStore} sidePosition="right" renderMode="sidebar-only" />
+<TableOfContents
+	{contentStore}
+	headings={data.headings}
+	sidePosition="right"
+	renderMode="sidebar-only"
+/>
 <!-- Sidebar components - positioned absolutely -->
 <div class="sidebar-container">
 	{#key post.slug}
-		{#if post.suggestions?.length}
-			<PeopleSuggestionsSideBar links={post.suggestions} />
+		{#if postSuggestions.length}
+			<PeopleSuggestionsSideBar links={postSuggestions} />
 		{/if}
 
 		{#if !data?.user && EnneagramCTASidebar}
@@ -339,7 +400,7 @@
 				{userHasAnswered}
 			/>
 			<BlogInteract
-				{data}
+				data={data as any}
 				parentType={'personality-analysis'}
 				on:commentAdded={({ detail }) => commentAdded(detail)}
 				user={data?.user}
@@ -359,8 +420,8 @@
 	{#key post.slug}
 		<RelatedPosts
 			slug={data.slug}
-			postType={post.type?.[0] || ''}
-			enneagramType={post.enneagram?.toString() || null}
+			{postTypes}
+			enneagramType={postMeta.enneagram?.toString() || null}
 		/>
 	{/key}
 </section>
