@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: '1'
-type: ['celebrity']
+type: ['celebrity', 'newMovieStar']
 person: 'Emma-Watson'
 suggestions: ['Millie Bobby Brown', 'Natalie Portman', 'Zoe Kravitz', 'Anya Taylor Joy']
 wikipedia: 'https://en.wikipedia.org/wiki/Emma_Watson'

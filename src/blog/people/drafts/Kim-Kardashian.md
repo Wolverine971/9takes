@@ -10,7 +10,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 3
-type: ['celebrity']
+type: ['celebrity', 'creator']
 person: 'Kim-Kardashian'
 suggestions: ['Paris-Hilton', 'Kylie-Jenner', 'Taylor-Swift', 'Meghan-Markle', 'Donald-Trump']
 wikipedia: 'https://en.wikipedia.org/wiki/Kim_Kardashian'

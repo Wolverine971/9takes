@@ -9,7 +9,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 8
-type: ['celebrity']
+type: ['celebrity', 'movieStar']
 person: 'Amy-Poehler'
 suggestions: ['Tina-Fey', 'Aubrey-Plaza', 'Chelsea-Handler', 'Kevin-Hart']
 wikipedia: 'https://en.wikipedia.org/wiki/Amy_Poehler'

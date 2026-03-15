@@ -10,7 +10,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 6
-type: ['newMovieStar']
+type: ['newMovieStar', 'movieStar']
 person: 'Zendaya'
 persona_title: "Hollywood's Weaponized Worrier"
 suggestions:

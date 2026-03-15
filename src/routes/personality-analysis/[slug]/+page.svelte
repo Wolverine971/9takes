@@ -329,7 +329,7 @@
 <div id="comments-section">
 	<h3 title="additional comments">What would you add?</h3>
 
-	{#if commentsVisible && BlogComments && BlogInteract}
+	{#if BlogComments && BlogInteract}
 		<div>
 			<BlogComments
 				slug={post.slug}
@@ -345,7 +345,7 @@
 				user={data?.user}
 			/>
 		</div>
-	{:else}
+	{:else if commentsVisible}
 		<div class="loading-placeholder">
 			<div class="loading-spinner"></div>
 		</div>

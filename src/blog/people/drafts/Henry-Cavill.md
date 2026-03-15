@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 2
-type: ['celebrity']
+type: ['celebrity', 'movieStar']
 person: 'Henry-Cavill'
 suggestions: ['Tom-Hardy', 'Tom-Cruise', 'Brad-Pitt', 'Harry-Styles', 'Kristen-Bell']
 wikipedia: 'https://en.wikipedia.org/wiki/Henry_Cavill'

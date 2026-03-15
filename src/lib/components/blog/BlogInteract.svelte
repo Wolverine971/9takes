@@ -136,6 +136,11 @@
 		width: 100%;
 		background-color: var(--medium-gray);
 		border: 1px solid var(--base-white-outline) !important;
+		color: var(--text-primary);
+
+		&::placeholder {
+			color: #94a3b8;
+		}
 
 		&:focus {
 			outline: none !important;

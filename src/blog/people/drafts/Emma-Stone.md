@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 7
-type: ['newMovieStar']
+type: ['newMovieStar', 'movieStar']
 person: 'Emma-Stone'
 suggestions: ['Ryan-Gosling', 'Jennifer-Lawrence', 'Margot-Robbie', 'Scarlett-Johansson']
 wikipedia: 'https://en.wikipedia.org/wiki/Emma_Stone'

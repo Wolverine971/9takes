@@ -10,7 +10,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 3
-type: ['newMovieStar']
+type: ['newMovieStar', 'celebrity']
 person: 'Sydney-Sweeney'
 suggestions:
   ['Zendaya', 'Margot-Robbie', 'Timothee-Chalamet', 'Anya-Taylor-Joy', 'Millie-Bobby-Brown']

@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 3
-type: ['other']
+type: ['creator', 'entrepreneur']
 person: 'Tony-Robbins'
 suggestions: ['Alex-Hormozi', 'Oprah-Winfrey', 'Arnold-Schwarzenegger', 'Gary-Vee', 'Robert-Greene']
 wikipedia: 'https://en.wikipedia.org/wiki/Tony_Robbins'

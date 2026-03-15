@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 9
-type: ['comedian']
+type: ['comedian', 'celebrity']
 person: 'Dave-Chappelle'
 suggestions: ['Kevin-Hart', 'Jon-Stewart', 'Will-Smith', 'Morgan-Freeman']
 wikipedia: 'https://en.wikipedia.org/wiki/Dave_Chappelle'

@@ -19,7 +19,27 @@ twitter: ''
 instagram: ''
 tiktok: ''
 path: src/blog/people/drafts/Xi-Jinping.md
+content_quality:
+  hook: 9
+  enneagram: 9
+  evidence: 9
+  writing: 9
+  originality: 9
+  overall: 9.0
+  letter: A
+  graded_at: '2026-03-14'
 ---
+
+<!-- QUALITY GRADE: A (9.0)
+Hook: 9 | Enneagram: 9 | Evidence: 9 | Writing: 9 | Originality: 9
+
+FEEDBACK (2026-03-14):
+- SIGNATURE DETAIL: The father drinking cheap liquor and crying alone on Xi's birthday — and the birthday letter signed "Son. Jinping. Kowtow." — are the emotional spine of this piece. They make the Type 8 armor thesis visceral rather than theoretical.
+- BEST LINE: "He built a system that can't function without him. Then he complained that it can't function without him." — this is the kind of insight that justifies the Enneagram framework. Also: "Detention camps are detention camps. That sentence has to survive the psychological framing, and it does" — rare moral clarity in a personality analysis.
+- ENNEAGRAM AS ENGINE: Belt and Road as anti-isolation psychology, reading as Type 5 stress retreat, zero-COVID as Type 8 rigidity — every major initiative is explained through the type without feeling forced.
+- NEEDS WORK: FAQs section is the weakest part — "Is Xi Jinping a dictator?" reads like generic SEO padding compared to the quality of the analysis sections. Consider trimming to 3 FAQs max and making them sharper.
+- TO REACH A+: (1) Add explicit wing discussion — Xi likely has a strong 9 wing (patience, strategic waiting) which distinguishes him from 8w7 leaders like Trump. (2) Address counter-typing: Xi's controlled, patient demeanor doesn't match the stereotypical loud Type 8 — explain why. (3) Trim or sharpen FAQs. (4) The opening quote is good but consider leading with the cave scene directly for maximum impact — "In 1969, a fifteen-year-old boy climbed off a train in rural Shaanxi..." would hit harder than starting with the proverb.
+-->
 
 > "The knife is sharpened on a stone, people are strengthened in adversity."
 

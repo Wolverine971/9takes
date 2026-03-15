@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 4
-type: ['musician']
+type: ['musician', 'lifestyleInfluencer']
 person: 'Madison-Beer'
 suggestions: ['Billie-Eilish', 'Olivia-Rodrigo', 'Sabrina-Carpenter', 'Ariana-Grande']
 wikipedia: 'https://en.wikipedia.org/wiki/Madison_Beer'

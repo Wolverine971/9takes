@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 4
-type: ['movieStar']
+type: ['movieStar', 'newMovieStar']
 person: 'Robert-Pattinson'
 suggestions: ['Johnny-Depp', 'Zendaya', 'Joaquin-Phoenix', 'Zoe-Kravitz']
 wikipedia: 'https://en.wikipedia.org/wiki/Robert_Pattinson'

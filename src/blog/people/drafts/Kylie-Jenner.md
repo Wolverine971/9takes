@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 9
-type: ['celebrity']
+type: ['celebrity', 'lifestyleInfluencer']
 person: 'Kylie-Jenner'
 suggestions:
   ['Kim-Kardashian', 'Timothee-Chalamet', 'Kendall-Jenner', 'Travis-Scott', 'Paris-Hilton']

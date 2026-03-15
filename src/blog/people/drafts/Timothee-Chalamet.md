@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 6
-type: ['newMovieStar']
+type: ['newMovieStar', 'movieStar']
 person: 'Timothee-Chalamet'
 suggestions: ['Zendaya', 'Kylie-Jenner', 'Bob-Dylan', 'Johnny-Depp', 'Aubrey-Plaza', 'Jared-Leto']
 wikipedia: 'https://en.wikipedia.org/wiki/Timoth%C3%A9e_Chalamet'
