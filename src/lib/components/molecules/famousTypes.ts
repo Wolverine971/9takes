@@ -280,7 +280,7 @@ export const famousTypes: { [index: number]: { name: string; link: boolean; hasI
 	8: [
 		{ name: 'Amy-Poehler', link: true, hasImage: true, lastmod: '2026-01-06', personaTitle: null, contentGrade: 9 },
 		{ name: 'Andrew-Tate', link: true, hasImage: true, lastmod: '2026-01-23', personaTitle: 'Masculinity\'s Unapologetic Warlord', contentGrade: 9.1 },
-		{ name: 'Beyonce-Knowles', link: true, hasImage: true, lastmod: '2025-04-10', personaTitle: 'Pop\'s Untouchable Queen', contentGrade: null },
+		{ name: 'Beyonce-Knowles', link: true, hasImage: true, lastmod: '2026-03-15', personaTitle: 'Pop\'s Untouchable Queen', contentGrade: 8.9 },
 		{ name: 'Chappell-Roan', link: true, hasImage: true, lastmod: '2026-02-09', personaTitle: 'Pop\'s Unapologetic Rebel', contentGrade: 9.5 },
 		{ name: 'Chelsea-Handler', link: true, hasImage: true, lastmod: '2025-03-24', personaTitle: 'Comedy\'s Unfiltered Truth-Teller', contentGrade: null },
 		{ name: 'Conor-McGregor', link: true, hasImage: true, lastmod: '2026-03-04', personaTitle: 'Combat\'s Self-Made Wrecking Ball', contentGrade: 8.6 },
@@ -288,7 +288,7 @@ export const famousTypes: { [index: number]: { name: string; link: boolean; hasI
 		{ name: 'Denzel-Washington', link: true, hasImage: true, lastmod: '2026-03-01', personaTitle: 'The Preacher Who Chose a Different Pulpit', contentGrade: 9 },
 		{ name: 'Druski', link: true, hasImage: true, lastmod: '2025-12-21', personaTitle: 'Comedy\'s Self-Appointed CEO', contentGrade: 8.4 },
 		{ name: 'Emily-Ratajkowski', link: true, hasImage: true, lastmod: '2026-01-23', personaTitle: 'The Intellectual Provocateur', contentGrade: 8.8 },
-		{ name: 'Halsey', link: true, hasImage: true, lastmod: '2025-05-02', personaTitle: 'Pop\'s Fierce Survivor', contentGrade: null },
+		{ name: 'Halsey', link: true, hasImage: true, lastmod: '2026-03-15', personaTitle: 'Pop\'s Armored Heart', contentGrade: 8.9 },
 		{ name: 'Hasan-Piker', link: true, hasImage: true, lastmod: '2026-01-26', personaTitle: 'Twitch\'s Political Firebrand', contentGrade: 8 },
 		{ name: 'IShowSpeed', link: true, hasImage: true, lastmod: '2026-02-19', personaTitle: 'Streaming\'s Homesick Warlord', contentGrade: 9.1 },
 		{ name: 'Jeff-Bezos', link: true, hasImage: true, lastmod: '2026-01-18', personaTitle: 'Commerce\'s Immortal Architect', contentGrade: 8 },

@@ -1673,15 +1673,6 @@
     </image:image>
 </url>
 <url>
-    <loc>https://9takes.com/personality-analysis/Beyonce-Knowles</loc>
-    <lastmod>2025-04-10T00:00:00.000Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-    <image:image>
-        <image:loc>https://9takes.com/types/8s/Beyonce-Knowles.webp</image:loc>
-    </image:image>
-</url>
-<url>
     <loc>https://9takes.com/personality-analysis/Meryl-Streep</loc>
     <lastmod>2025-04-10T00:00:00.000Z</lastmod>
     <changefreq>monthly</changefreq>
@@ -1706,15 +1697,6 @@
     <priority>0.7</priority>
     <image:image>
         <image:loc>https://9takes.com/types/5s/Tina-Fey.webp</image:loc>
-    </image:image>
-</url>
-<url>
-    <loc>https://9takes.com/personality-analysis/Halsey</loc>
-    <lastmod>2025-05-02T00:00:00.000Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-    <image:image>
-        <image:loc>https://9takes.com/types/8s/Halsey.webp</image:loc>
     </image:image>
 </url>
 <url>
@@ -3497,6 +3479,24 @@
     <priority>0.7</priority>
     <image:image>
         <image:loc>https://9takes.com/types/4s/Tim-Robinson.webp</image:loc>
+    </image:image>
+</url>
+<url>
+    <loc>https://9takes.com/personality-analysis/Beyonce-Knowles</loc>
+    <lastmod>2026-03-15T00:00:00.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+        <image:loc>https://9takes.com/types/8s/Beyonce-Knowles.webp</image:loc>
+    </image:image>
+</url>
+<url>
+    <loc>https://9takes.com/personality-analysis/Halsey</loc>
+    <lastmod>2026-03-15T00:00:00.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+        <image:loc>https://9takes.com/types/8s/Halsey.webp</image:loc>
     </image:image>
 </url>
 <url>

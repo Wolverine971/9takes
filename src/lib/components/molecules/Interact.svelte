@@ -437,7 +437,7 @@
 				>
 					<textarea
 						placeholder={parentType === 'question'
-							? "Go beyond the surface — share a real experience, a specific example, or explain the 'why' behind your take...\\n\\nThe most interesting answers are the honest, detailed ones."
+							? "Go beyond the surface — share a real experience, a specific example, or explain the 'why' behind your take...\n\nThe most interesting answers are the honest, detailed ones."
 							: 'Write your reply...'}
 						class="w-full resize-none overflow-y-auto rounded-md border border-slate-600/40 bg-[#12121a]/80 px-3 py-2 text-sm leading-relaxed text-slate-100 placeholder:text-slate-500 focus:border-purple-500 focus:outline-none focus:ring-1 focus:ring-purple-500"
 						bind:value={comment}

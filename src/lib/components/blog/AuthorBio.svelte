@@ -8,7 +8,7 @@
 	<a href="/about" class="author-photo-link">
 		<img
 			src="/brand/s-djface.webp"
-			alt="{author}, founder of 9takes"
+			alt={`${author}, founder of 9takes`}
 			class="author-photo"
 			width="72"
 			height="72"
@@ -36,7 +36,7 @@
 				href="https://twitter.com/djwayne3"
 				target="_blank"
 				rel="noopener noreferrer"
-				aria-label="{author} on Twitter"
+				aria-label={`${author} on Twitter`}
 				class="social-link"
 			>
 				<svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor" aria-hidden="true">
@@ -49,7 +49,7 @@
 				href="https://www.linkedin.com/in/djwayne/"
 				target="_blank"
 				rel="noopener noreferrer"
-				aria-label="{author} on LinkedIn"
+				aria-label={`${author} on LinkedIn`}
 				class="social-link"
 			>
 				<svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor" aria-hidden="true">
@@ -62,7 +62,7 @@
 				href="https://www.instagram.com/djwayne3/"
 				target="_blank"
 				rel="noopener noreferrer"
-				aria-label="{author} on Instagram"
+				aria-label={`${author} on Instagram`}
 				class="social-link"
 			>
 				<svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor" aria-hidden="true">

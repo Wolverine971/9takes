@@ -506,7 +506,7 @@
 						</svg>
 						Waitlist
 					</h2>
-					<span class="count-badge" aria-label="{data.stats.waitlistCount} people on waitlist">
+					<span class="count-badge" aria-label={`${data.stats.waitlistCount} people on waitlist`}>
 						{data.stats.waitlistCount}
 					</span>
 				</div>
