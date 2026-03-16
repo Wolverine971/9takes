@@ -269,3 +269,44 @@ Observing patterns is natural and the Enneagram makes you better at it. The issu
 ### What's the best way to recommend the Enneagram to a skeptic?
 
 Don't recommend it directly. Live your growth visibly. When they notice you handling conflict differently or understanding them better, they might ask what changed. That's your opening. For the analytically minded, you might mention [how the Enneagram compares to MBTI](/community/mbti-vs-enneagram) — framing it against something they already know can lower resistance.
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How do I introduce someone to the Enneagram without turning them off?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Start with your own story, not their type. Say \"I learned something about myself that was eye-opening\" rather than \"I figured out your type.\" Share one specific insight about your own patterns and let them ask questions. If they don't ask, that's your answer — they're not ready, and that's okay."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Why do people get defensive when you tell them their Enneagram type?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Because it feels like unsolicited analysis. Your personality feels personal — when someone categorizes it without permission, it registers as invasion, not insight. You're essentially saying \"I've been observing you and I have conclusions about your psychology.\" Even when you're right, the delivery bypasses consent."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is it okay to type people in your head without telling them?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Observing patterns is natural and the Enneagram makes you better at it. The issue isn't noticing — it's announcing. Keep your observations to yourself unless asked. Use what you see to be more empathetic and understanding, not to demonstrate how clever you are at reading people."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What's the best way to recommend the Enneagram to a skeptic?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Don't recommend it directly. Live your growth visibly. When they notice you handling conflict differently or understanding them better, they might ask what changed. That's your opening. For the analytically minded, you might mention how the Enneagram compares to MBTI — framing it against something they already know can lower resistance."
+      }
+    }
+  ]
+}
+</script>

@@ -16,6 +16,9 @@ pic: 'trump-biden-contrast'
 path: src/blog/pop-culture/trump-type-8-vs-biden-type-2.md
 ---
 
+<svelte:head>
+</svelte:head>
+
 <script>
 	import PopCard from "$lib/components/atoms/PopCard.svelte";
 	import QuickAnswer from "$lib/components/blog/callouts/QuickAnswer.svelte";
@@ -357,3 +360,52 @@ The same patterns that drive Trump and Biden drive everyone, including you. Know
 - [All about Type 2](/enneagram-corner/enneagram-type-2)
 
 > **Note:** This look at Trump and Biden's Enneagram types is based on public behavior and may not reflect how they actually see themselves.
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Why do people say Trump and Biden represent such different Americas?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Because they really do. Trump's Type 8 brain values strength, dominance, and winning. That clicks with people who feel the world is dangerous and you need to be tough. Biden's Type 2 brain values connection, empathy, and community. That clicks with people who believe relationships and helping each other matter most."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What would it take for Trump and Biden to actually understand each other?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "It would take each man recognizing his own shadow. Trump would need to see that Biden's relationship-building isn't weakness — it's a different kind of strength. Biden would need to see that Trump's dominance isn't cruelty — it's a survival system. These patterns formed in childhood and run deep, so bridging the gap would require the kind of self-awareness that rarely happens in the public spotlight."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is one type better for leadership?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Neither is better or worse. Type 8 leaders shine in crises that need fast, clear action. Type 2 leaders shine in healing times that need empathy and team-building. It depends on what the country needs right then."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do their types affect their mental health?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Under stress, Type 8s pull back and get secretive (like a Type 5). Type 2s get pushy and controlling (like a Type 8). The funny thing is, each type's stress response looks like the other type's normal behavior."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What about other presidents? What types were they?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Obama is often seen as a Type 9 (Peacemaker). Putin is a Type 8 like Trump. Clinton was likely a Type 3. Reagan and George W. Bush were Type 9s. Nixon was a Type 6. Each type brings different strengths and blind spots to the job. ---"
+      }
+    }
+  ]
+}
+</script>

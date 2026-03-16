@@ -867,3 +867,52 @@ Your type helps you know how to ask for what your brain needs.
     p { color: #856404; margin-bottom: 0; }
   }
 </style>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Can I have ADHD and still be Type 1?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. It's one of the more challenging combinations. Type 1's perfectionist standards clash directly with ADHD's executive dysfunction. The result is often intense internal frustration and shame. You know what you should do, and your brain won't cooperate. Many Type 1s respond by building rigid compensatory systems: detailed schedules, checklists everywhere, backup plans for backup plans. Those can help, until the system becomes another way to judge yourself when it fails. The goal is \"perfect for me,\" not absolute perfection."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Why do some Enneagram types get misdiagnosed with autism or ADHD?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Some Enneagram traits look like neurodivergent traits from the outside. A Type 5 prefers solitude and deep interests. A Type 7 chases novelty. A Type 4 has intense emotions. These patterns can be mistaken for autism or ADHD if the observer isn't careful. The key distinction: clinicians diagnose ADHD and autism based on development and day-to-day functioning, not motivation. The Enneagram tracks motivation (why you do what you do). Neurodivergence is neurological (how your brain processes). You can have type patterns without being neurodivergent. You can be neurodivergent without typical type patterns. You can be both. Proper assessment sorts this out."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I know if my challenges are from my Enneagram type or my neurodivergence?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Ask: is this about motivation or processing? Motivation examples: Type 5 withdraws to conserve energy and protect privacy. Type 7 distracts to avoid discomfort. Processing examples: Autism changes how you process sensory input and social communication. ADHD makes attention and executive function inconsistent regardless of motivation. Often it's both at once. A Type 5 might withdraw (motivation) and struggle with social cues (processing). Build strategies that address both layers."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What accommodations work for neurodivergent people of specific Enneagram types?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Accommodations work best when they honor both processing and motivation. Type 1 + ADHD: Structured flexibility, written instructions, movement breaks without shame. The structure respects Type 1 values; the flexibility respects ADHD realities. Type 4 + Autism: Creative outlets, explicit communication, sensory-friendly spaces for authenticity. Expression matters; so does clear information about expectations. Type 6 + ADHD: Clear procedures, predictable feedback, reassurance that symptoms are normal. Security needs meet executive function support. Generic accommodations fail when they only address one layer."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Should I tell employers about both my Enneagram type and neurodivergence?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Share neurodivergence only as needed for formal accommodations. Keep Enneagram knowledge for your own strategic use. Use type insights to frame accommodation requests effectively: Type 5s can ask for deep work blocks and minimal interruptions. Type 8s can advocate for autonomy and clear decision rights. Type 2s can frame requests around serving others better. Your type helps you know how to ask for what your brain needs."
+      }
+    }
+  ]
+}
+</script>

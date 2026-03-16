@@ -138,18 +138,21 @@
 
 	<!-- Related Content Section -->
 	<section class="related-content">
+		<p class="related-eyebrow">Keep Reading</p>
 		<h2>Explore More Pop Culture Psychology</h2>
 		<div class="related-grid">
-			<div class="related-card">
-				<h3>🎭 Dark Psychology</h3>
+			<a href="/pop-culture#dark-psychology" class="related-card">
+				<span class="card-icon">🎭</span>
+				<h3>Dark Psychology</h3>
 				<p>Explore the shadow side of personality through famous cases.</p>
-				<a href="/pop-culture#dark-psychology">View Articles →</a>
-			</div>
-			<div class="related-card">
-				<h3>⭐ Celebrity Analysis</h3>
+				<span class="card-link">View Articles →</span>
+			</a>
+			<a href="/pop-culture#celebrity-analysis" class="related-card">
+				<span class="card-icon">⭐</span>
+				<h3>Celebrity Analysis</h3>
 				<p>Deep dives into the personalities of public figures.</p>
-				<a href="/pop-culture#celebrity-analysis">View Articles →</a>
-			</div>
+				<span class="card-link">View Articles →</span>
+			</a>
 		</div>
 	</section>
 </article>
@@ -346,55 +349,85 @@
 	}
 
 	.related-content {
-		margin-top: 4rem;
-		padding: 3rem;
-		background: linear-gradient(135deg, #7c3aed 0%, #5b21b6 100%);
-		border-radius: 20px;
-		color: white;
+		margin-top: 3rem;
+		padding: 2.5rem;
+		background: #1a1a2e;
+		border-radius: 16px;
+		border: 1px solid rgba(124, 58, 237, 0.25);
+
+		.related-eyebrow {
+			text-transform: uppercase;
+			font-size: 0.75rem;
+			font-weight: 700;
+			letter-spacing: 0.1em;
+			color: #a78bfa;
+			text-align: center;
+			margin-bottom: 0.25rem;
+		}
 
 		h2 {
-			font-size: 2rem;
-			margin-bottom: 2rem;
+			font-size: 1.5rem;
+			font-weight: 600;
+			margin-bottom: 1.5rem;
 			text-align: center;
-			color: white;
+			color: #f1f5f9;
 		}
 
 		.related-grid {
 			display: grid;
 			grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-			gap: 1.5rem;
+			gap: 1rem;
 		}
 
 		.related-card {
-			background: rgba(255, 255, 255, 0.1);
-			backdrop-filter: blur(10px);
+			display: flex;
+			flex-direction: column;
 			padding: 1.5rem;
+			background: rgba(124, 58, 237, 0.08);
 			border-radius: 12px;
-			border: 1px solid rgba(255, 255, 255, 0.2);
+			border: 1px solid rgba(124, 58, 237, 0.15);
+			text-decoration: none;
+			color: inherit;
+			transition:
+				border-color 0.2s ease,
+				background 0.2s ease,
+				transform 0.2s ease;
+
+			&:hover {
+				border-color: rgba(124, 58, 237, 0.5);
+				background: rgba(124, 58, 237, 0.14);
+				transform: translateY(-2px);
+
+				.card-link {
+					color: #c4b5fd;
+				}
+			}
+
+			.card-icon {
+				font-size: 1.75rem;
+				margin-bottom: 0.75rem;
+			}
 
 			h3 {
-				font-size: 1.25rem;
-				margin-bottom: 0.75rem;
-				color: white;
+				font-size: 1.1rem;
+				font-weight: 600;
+				margin-bottom: 0.5rem;
+				color: #f1f5f9;
 			}
 
 			p {
-				margin-bottom: 1rem;
-				opacity: 0.9;
+				font-size: 0.9rem;
 				line-height: 1.5;
+				color: #94a3b8;
+				margin-bottom: 1rem;
+				flex: 1;
 			}
 
-			a {
-				color: white;
+			.card-link {
+				font-size: 0.85rem;
 				font-weight: 600;
-				text-decoration: none;
-				display: inline-flex;
-				align-items: center;
-				transition: transform 0.2s ease;
-
-				&:hover {
-					transform: translateX(5px);
-				}
+				color: #a78bfa;
+				transition: color 0.2s ease;
 			}
 		}
 	}
@@ -471,7 +504,11 @@
 		}
 
 		.related-content {
-			padding: 2rem 1.5rem;
+			padding: 1.5rem;
+
+			h2 {
+				font-size: 1.25rem;
+			}
 
 			.related-grid {
 				grid-template-columns: 1fr;

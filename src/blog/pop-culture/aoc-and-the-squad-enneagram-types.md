@@ -17,6 +17,9 @@ mjPrompt: 'Four greek marble statues of powerful women standing together in unif
 path: src/blog/pop-culture/aoc-and-the-squad-enneagram-types.md
 ---
 
+<svelte:head>
+</svelte:head>
+
 <script>
 	import PopCard from "$lib/components/atoms/PopCard.svelte";
 	import QuickAnswer from "$lib/components/blog/callouts/QuickAnswer.svelte";
@@ -287,3 +290,52 @@ Type patterns suggest eventual divergence. Type 2 Pressley may drift toward esta
 Unknown. But self-awareness doesn't change the patterns—it just makes them more conscious.
 
 > **Disclaimer:** This analysis of the Squad's Enneagram types is speculative, based on publicly available information, and may not reflect their actual personality types.
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Are all progressive politicians these types?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. Bernie Sanders appears to be a Type 1 like Tlaib. Elizabeth Warren seems like a Type 1 with a 2 wing. The Squad's specific combination is unique to them."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Why isn't the Squad more effective at passing legislation?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Legislative effectiveness requires Type 3 skills (navigating systems for achievement). The Squad's types are better suited for shifting discourse and building movements than inside-game maneuvering."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Could Republicans form their own \"Squad\"?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Theoretically, but Republican coalition psychology is different. The Tea Party and MAGA movements have their own personality patterns worth analyzing separately."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Will the Squad stay together?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Type patterns suggest eventual divergence. Type 2 Pressley may drift toward establishment acceptance. Type 8 Omar may become increasingly isolated. Type 1 Tlaib may maintain principle regardless. Type 6 AOC will read the coalition's health most accurately."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do they know their Enneagram types?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Unknown. But self-awareness doesn't change the patterns—it just makes them more conscious. > Disclaimer: This analysis of the Squad's Enneagram types is speculative, based on publicly available information, and may not reflect their actual personality types."
+      }
+    }
+  ]
+}
+</script>

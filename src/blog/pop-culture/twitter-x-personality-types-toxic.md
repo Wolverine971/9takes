@@ -17,6 +17,9 @@ mjPrompt: 'Greek marble arena with multiple statues engaged in heated battle, ce
 path: src/blog/pop-culture/twitter-x-personality-types-toxic.md
 ---
 
+<svelte:head>
+</svelte:head>
+
 <script>
 	import PopCard from "$lib/components/atoms/PopCard.svelte";
 	import QuickAnswer from "$lib/components/blog/callouts/QuickAnswer.svelte";
@@ -318,3 +321,52 @@ Usually Type 8s who genuinely enjoy conflict, or Type 3s who've figured out how 
 Depends on your type and what you're getting from it. If the psychological cost exceeds the benefit—information, community, professional necessity—then yes. If you've found a sustainable way to use it, no.
 
 > **Disclaimer:** This analysis of Twitter personality types is observational and speculative, not based on tested typing of specific accounts.
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Why can't I stop checking Twitter even though it makes me miserable?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Variable reward schedules (sometimes good content, sometimes bad) are addictive. For Type 6s, there's also anxiety about missing threats. For Type 3s, there's fear of missing opportunities. The platform is designed to be hard to quit."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is Twitter getting worse or am I just noticing it more?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Both. The platform has genuinely changed (moderation, algorithm, user base), AND your tolerance for its psychological cost may have decreased. Burnout is real."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I use Twitter without getting sucked into the toxicity?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Possible but difficult. Requires ruthless curation, strict time limits, and likely muting/blocking liberally. Most people who try eventually either get sucked in or leave."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Why do some people seem to thrive on Twitter drama?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Usually Type 8s who genuinely enjoy conflict, or Type 3s who've figured out how to monetize the attention. For these types, what looks exhausting to you is energizing to them."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Should I delete my account?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Depends on your type and what you're getting from it. If the psychological cost exceeds the benefit—information, community, professional necessity—then yes. If you've found a sustainable way to use it, no. > Disclaimer: This analysis of Twitter personality types is observational and speculative, not based on tested typing of specific accounts."
+      }
+    }
+  ]
+}
+</script>

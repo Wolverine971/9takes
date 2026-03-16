@@ -8,6 +8,7 @@ import { PRIVATE_CRON_SECRET } from '$env/static/private';
 import { env } from '$env/dynamic/private';
 import { sendBatchEmails } from '$lib/email/sender';
 import { getSuppressedEmailSet, normalizeEmail } from '$lib/email/suppression';
+import { isAuthorizedCronRequest } from '$lib/server/cronAuth';
 import { getSupabaseAdminClient } from '$lib/server/supabaseAdmin';
 
 type ScheduledRecipient = {
@@ -36,13 +37,12 @@ const scheduledEmailsTable = (supabaseClient: any) =>
 // Shared handler for both GET and POST
 async function processScheduledEmails(request: Request) {
 	const supabase = getSupabaseAdminClient() as any;
-	const expectedCronSecret = PRIVATE_CRON_SECRET || env.CRON_SECRET;
 
 	// Verify cron secret (Vercel adds this header, pg_cron sends it via pg_net)
 	const authHeader = request.headers.get('authorization');
 
 	// In production, verify the secret
-	if (expectedCronSecret && authHeader !== `Bearer ${expectedCronSecret}`) {
+	if (!isAuthorizedCronRequest(authHeader, [env.CRON_SECRET, PRIVATE_CRON_SECRET])) {
 		throw error(401, 'Unauthorized');
 	}
 

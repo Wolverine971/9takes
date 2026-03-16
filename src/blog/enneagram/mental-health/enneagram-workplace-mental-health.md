@@ -731,3 +731,52 @@ Ask three questions: "What drains your energy fastest?", "When do you do your be
     }
   }
 </style>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How do I know if I'm experiencing burnout or just work stress?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Burnout has three distinct markers: emotional exhaustion (feeling drained even after rest), cynicism about work (detachment from your job and colleagues), and reduced performance (tasks that used to be easy now feel impossible). Regular stress typically resolves with time off; burnout lingers. If Sunday night fills you with dread and your body shows chronic symptoms—headaches, back pain, insomnia—you're likely past stress and into burnout territory."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can my Enneagram type change how quickly I burn out?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Some types burn faster than others depending on workplace conditions. Type 2s in cold, transactional environments burn out rapidly because their core need for connection goes unmet. Type 5s in open-plan offices with constant interruptions deplete within weeks. Type 8s forced to report to incompetent leadership spiral fast. Your burnout speed depends on the mismatch between your type's needs and your environment."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What's the fastest way to recover from workplace burnout?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Three steps: Stop the bleeding (take time off, say no to everything new), identify your kryptonite (which type-specific conditions caused this), and build recovery systems (not just rest, but active strategies from this guide). Most people need 2-4 weeks minimum to reset their nervous system. Don't make career decisions during recovery—your judgment is compromised."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Should I quit my job if I'm burned out?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Not immediately. Burnout clouds judgment. First, recover enough to think clearly (usually 2-4 weeks of genuine rest). Then assess: Can this job accommodate your type's needs? Have you tried the strategies in this guide? If you've tried everything for 90 days and conditions can't change, then yes—plan your exit. Staying in a toxic environment when you have options isn't perseverance — it's worth examining why you're staying."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do managers use the Enneagram to prevent team burnout?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Ask three questions: 'What drains your energy fastest?', 'When do you do your best work?', and 'What makes you want to quit?' Answers reveal type and needs without requiring formal typing. Then match assignments and environments to natural strengths. Type 5s need deep work blocks. Type 3s need visible impact. Type 9s need their opinions actively solicited. One-size-fits-all management guarantees some types will burn out."
+      }
+    }
+  ]
+}
+</script>

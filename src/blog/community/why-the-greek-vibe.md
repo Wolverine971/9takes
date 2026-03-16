@@ -224,3 +224,52 @@ No. 9takes serves a different purpose than Twitter, Instagram, or TikTok. Those 
 
 <style lang="scss">
 </style>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Why does 9takes use Greek statues in its imagery?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Greek statues represent idealized human form—not because the Greeks ignored human flaws, but because they believed in human potential. The statues remind us that we're capable of deep thought, meaningful discourse, and understanding each other across differences. They're aspirational, pointing toward what conversation could be, not what it typically is on modern social media."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the connection between Greek philosophy and personality types?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The Greeks pioneered systematic thinking about human temperament. Hippocrates' four humors (sanguine, choleric, melancholic, phlegmatic) were an early personality typology. The Enneagram, while not Greek in origin, continues this tradition of recognizing that humans have different fundamental orientations. 9takes uses the Enneagram to add a Greek-style systematic understanding of how different minds approach the same questions."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How does 9takes bring back Socratic dialogue?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Three key ways: First, the platform is question-centered, not statement-centered—you start with inquiry, not assertion. Second, you must contribute your own answer before seeing others, preventing the groupthink that Socrates fought against. Third, seeing 9 different personality perspectives mirrors the Socratic practice of considering multiple viewpoints rather than accepting the first plausible answer."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What would Socrates think of modern social media?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "He'd probably be horrified—but also recognize the potential. Socrates was killed for \"corrupting the youth\" by teaching them to question authority. Social media has democratized information but not democratized wisdom. Socrates would likely appreciate platforms that slow down reaction and encourage reflection. He'd probably spend his time asking uncomfortable questions that got him banned from Twitter."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is 9takes trying to replace other social media?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. 9takes serves a different purpose than Twitter, Instagram, or TikTok. Those platforms excel at entertainment, news distribution, and casual connection. 9takes is specifically designed for exploratory conversation—the kind where you're genuinely curious what other people think, not just looking to share your own take or consume content. Think of it as a complement, not a replacement."
+      }
+    }
+  ]
+}
+</script>

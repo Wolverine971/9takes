@@ -719,494 +719,6 @@ For a zero-cost deep dive: read the type descriptions on the Enneagram Institute
 </article>
 
 <svelte:head>
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BlogPosting",
-  "about": {
-    "@type": "Thing",
-    "name": "Enneagram of Personality",
-    "description": "The Enneagram of Personality or simply the Enneagram is a model of the human psyche which is principally understood and taught as a typology of nine interconnected personality types. Although the origins and history of ideas associated with the Enneagram of Personality are disputed contemporary approaches are principally derived from the teachings of the Bolivian psycho-spiritual teacher Oscar Ichazo from the 1950s and the Chilean psychiatrist Claudio Naranjo from the 1970s",
-    "sameAs": [
-      "https://www.wikidata.org/wiki/Q273047",
-      "http://en.wikipedia.org/wiki/Enneagram_of_Personality"
-    ]
-  },
-  "articleSection": "Psychology",
-  "author": {
-    "@type": "Person",
-    "name": "DJ Wayne",
-    "sameAs": [
-      "https://www.instagram.com/djwayne3/",
-      "https://www.youtube.com/@djwayne3",
-      "https://www.linkedin.com/in/davidtwayne/",
-      "https://twitter.com/djwayne3"
-    ]
-  },
-  "dateModified": "2026-02-10",
-  "datePublished": "2023-04-01",
-  "description": "The definitive guide to Enneagram resources: 60+ vetted books, podcasts, YouTube channels, apps, certification programs, and online communities for every learning style and experience level.",
-  "headline": "Enneagram Books, Websites, Podcasts & Influencers: The Ultimate Resource Guide (2026)",
-  "mainEntityOfPage": {
-    "id": "https://9takes.com/enneagram-corner/enneagram-books-websites-podcasts",
-    "@type": "WebPage"
-  },
-  "image": {
-    "@type": "ImageObject",
-    "height": 900,
-    "url": "https://9takes.com/blogs/greek-statue-listening-to-a-podcast.webp",
-    "width": 900
-  },
-  "keywords": [
-    "Enneagram",
-    "personality types",
-    "Enneagram books",
-    "Enneagram websites",
-    "Enneagram podcasts",
-    "Enneagram YouTube",
-    "Enneagram apps",
-    "Enneagram certification",
-    "Enneagram influencers",
-    "personal growth",
-    "self-discovery",
-    "Enneagram resources",
-    "Enneagram test",
-    "Enneagram training",
-    "best Enneagram resources 2026"
-  ],
-  "wordCount": 7200,
-  "url": "https://9takes.com/enneagram-corner/enneagram-books-websites-podcasts",
-  "articleBody": "The definitive guide to Enneagram resources, bringing together 60+ vetted books, websites, YouTube channels, podcasts, apps, certification programs, and online communities. Covers must-read classics like The Wisdom of the Enneagram and The Complete Enneagram, popular contemporary titles, workplace and leadership books, and recent releases. For online resources, we review essential sites, typing tools and tests, and the best Enneagram apps. The YouTube section highlights top channels for visual learners including Dr. Tom LaHue, Frank James, and Your Enneagram Coach. Podcasts range from established favorites like Typology and The Enneagram Journey to specialized shows on business, faith, and subtypes. A dedicated training and certification section covers IEA-accredited programs including The Narrative Enneagram, Enneagram Spectrum, and The Enneagram in Business. We profile leading influencers and experts from Steph Barron Hall and Ian Morgan Cron to IEA leaders. The guide includes 2026 trends: trauma-informed teaching, neuroscience integration, AI-powered tools, and an NIH-funded clinical trial. Online communities section covers Reddit, Facebook groups, and professional networks.",
-  "articleSection": "Enneagram",
-  "mentions": [
-    {
-      "@type": "Thing",
-      "name": "Enneagram of Personality",
-      "description": "The Enneagram of Personality or simply the Enneagram is a model of the human psyche which is principally understood and taught as a typology of nine interconnected personality types. Although the origins and history of ideas associated with the Enneagram of Personality are disputed contemporary approaches are principally derived from the teachings of the Bolivian psycho-spiritual teacher Oscar Ichazo from the 1950s and the Chilean psychiatrist Claudio Naranjo from the 1970s",
-      "sameAs": [
-        "https://www.wikidata.org/wiki/Q273047",
-        "http://en.wikipedia.org/wiki/Enneagram_of_Personality"
-      ]
-    },
-    {
-      "@type": "Book",
-      "author": [
-        {
-          "@type": "Person",
-          "name": "Don Richard Riso",
-          "sameAs": [
-            "https://en.wikipedia.org/wiki/Don_Richard_Riso",
-            "https://www.amazon.com/stores/Don-Richard-Riso/author/B001H6SD5U"
-          ]
-        },
-        {
-          "@type": "Person",
-          "name": "Russ Hudson",
-          "sameAs": [
-            "https://www.instagram.com/hudson_russ/",
-            "https://twitter.com/russ_hudson54",
-            "https://www.linkedin.com/in/russ-hudson-2a4596109/"
-          ],
-          "url": "https://russhudson.com/"
-        }
-      ],
-      "name": "The Wisdom of the Enneagram",
-      "url": "https://www.amazon.com/Wisdom-Enneagram-Psychological-Spiritual-Personality/dp/0553378201"
-    },
-    {
-      "@type": "Book",
-      "author": {
-        "@type": "Person",
-        "name": "Beatrice Chestnut",
-        "sameAs": [
-          "https://twitter.com/beatricemc2",
-          "https://www.instagram.com/beatrice_chestnut_phd_enneagram/"
-        ],
-        "url": "https://www.beatricechestnut.com/"
-      },
-      "name": "The Complete Enneagram: 27 Paths to Greater Self-Knowledge",
-      "url": "https://www.amazon.com/Complete-Enneagram-Paths-Greater-Self-Knowledge/dp/1938314549"
-    },
-    {
-      "@type": "Book",
-      "author": {
-        "@type": "Person",
-        "name": "Hannah Paasch",
-        "sameAs": [
-          "https://www.instagram.com/theenneagramletters/",
-          "https://twitter.com/hannahpaasch"
-        ]
-      },
-      "name": "Millenneagram: The Enneagram Guide for Discovering Your Truest, Baddest Self",
-      "url": "https://www.amazon.com/Millenneagram-Enneagram-Discovering-Truest-Baddest/dp/0062872397"
-    },
-    {
-      "@type": "Book",
-      "author": {
-        "@type": "Person",
-        "name": "Sarajane Case",
-        "sameAs": [
-          "https://www.instagram.com/enneagramandcoffee/",
-          "https://twitter.com/sarajanecase"
-        ]
-      },
-      "name": "The Honest Enneagram: Know Your Type, Own Your Challenges, Live Your Life",
-      "url": "https://www.amazon.com/Honest-Enneagram-Know-Love-Yourself/dp/0310356539"
-    },
-    {
-      "@type": "Book",
-      "author": {
-        "@type": "Person",
-        "name": "Sarajane Case",
-        "sameAs": [
-          "https://www.instagram.com/enneagramandcoffee/",
-          "https://twitter.com/sarajanecase"
-        ]
-      },
-      "name": "The Enneagram Letters",
-      "url": "https://www.amazon.com/Enneagram-Letters-Poetic-Exploration-Thought/dp/1524875694"
-    },
-    {
-      "@type": "Book",
-      "author": [
-        {
-          "@type": "Person",
-          "jobTitle": "Author",
-          "name": "Ian Morgan Cron",
-          "sameAs": [
-            "https://twitter.com/ianmorgancron/",
-            "https://www.instagram.com/ianmorgancron/"
-          ],
-          "url": "https://www.ianmorgancron.com/"
-        },
-        {
-          "@type": "Person",
-          "jobTitle": "Author",
-          "name": "Suzanne Stabile",
-          "sameAs": [
-            "https://www.instagram.com/suzannestabile/",
-            "https://twitter.com/SuzanneStabile"
-          ],
-          "url": "https://suzannestabile.com/"
-        }
-      ],
-      "name": "The Road Back to You: An Enneagram Journey to Self-Discovery",
-      "url": "https://www.amazon.com/dp/0830846190/"
-    },
-    {
-      "@type": "Book",
-      "author": {
-        "@type": "Person",
-        "name": "Suzanne Stabile",
-        "sameAs": [
-          "https://www.instagram.com/suzannestabile/",
-          "https://twitter.com/SuzanneStabile"
-        ],
-        "url": "https://suzannestabile.com/"
-      },
-      "name": "The Journey Toward Wholeness: Enneagram Wisdom for Stress, Balance, and Transformation",
-      "url": "https://www.amazon.com/Journey-Toward-Wholeness-Enneagram-Transformation/dp/0310358884"
-    },
-    {
-      "@type": "Book",
-      "author": [
-        {
-          "@type": "Person",
-          "name": "Renee Baron"
-        },
-        {
-          "@type": "Person",
-          "name": "Elizabeth Wagele"
-        }
-      ],
-      "name": "The Enneagram Made Easy: Discover the 9 Types of People",
-      "url": "https://www.amazon.com/Enneagram-Made-Easy-Discover-People/dp/0062510266"
-    },
-    {
-      "@type": "Book",
-      "author": {
-        "@type": "Person",
-        "name": "Christopher L. Heuertz",
-        "sameAs": [
-          "https://www.instagram.com/chrisheuertz/",
-          "https://twitter.com/ChrisHeuertz"
-        ],
-        "url": "https://chrisheuertz.com"
-      },
-      "name": "The Sacred Enneagram: Finding Your Unique Path to Spiritual Growth",
-      "url": "https://www.amazon.com/Sacred-Enneagram-Finding-Unique-Spiritual/dp/0310348277"
-    },
-    {
-      "@type": "Book",
-      "author": {
-        "@type": "Person",
-        "name": "Christopher L. Heuertz",
-        "sameAs": [
-          "https://www.instagram.com/chrisheuertz/",
-          "https://twitter.com/ChrisHeuertz"
-        ],
-        "url": "https://chrisheuertz.com"
-      },
-      "name": "The Enneagram of Belonging: How to Stay in Relationship When You're in Over Your Head",
-      "url": "https://www.amazon.com/Enneagram-Belonging-Relationship-Youre-Over/dp/0310357772"
-    },
-    {
-      "@type": "Book",
-      "author": [
-        {
-          "@type": "Person",
-          "name": "Richard Rohr"
-        },
-        {
-          "@type": "Person",
-          "name": "Andreas Ebert"
-        }
-      ],
-      "name": "The Enneagram: A Christian Perspective",
-      "url": "https://www.amazon.com/Enneagram-Christian-Perspective-Richard-Rohr/dp/0824519507"
-    },
-    {
-      "@type": "WebSite",
-      "name": "The Enneagram Institute",
-      "url": "https://www.enneagraminstitute.com/"
-    },
-    {
-      "@type": "WebSite",
-      "name": "The Narrative Enneagram",
-      "url": "https://www.narrativeenneagram.org/"
-    },
-    {
-      "@type": "WebSite",
-      "name": "Enneagram User Guide",
-      "url": "https://enneagramuserguide.com/"
-    },
-    {
-      "@type": "WebSite",
-      "name": "The Enneagram in Business",
-      "url": "https://theenneagraminbusiness.com/"
-    },
-    {
-      "@type": "WebSite",
-      "name": "Truity",
-      "url": "https://www.truity.com/test/enneagram-personality-test"
-    },
-    {
-      "@type": "WebSite",
-      "name": "EnneaApp",
-      "url": "https://enneaapp.com/"
-    },
-    {
-      "@type": "Book",
-      "author": {
-        "@type": "Person",
-        "name": "Ian Morgan Cron",
-        "sameAs": [
-          "https://twitter.com/ianmorgancron/",
-          "https://www.instagram.com/ianmorgancron/"
-        ],
-        "url": "https://www.ianmorgancron.com/"
-      },
-      "name": "The Story of You: An Enneagram Journey to Becoming Your True Self",
-      "url": "https://www.amazon.com/Story-You-Enneagram-Journey-Becoming/dp/006282581X"
-    },
-    {
-      "@type": "Book",
-      "author": {
-        "@type": "Person",
-        "name": "Ginger Lapid-Bogda",
-        "url": "https://theenneagraminbusiness.com/"
-      },
-      "name": "Bringing Out the Best in Yourself at Work",
-      "url": "https://www.amazon.com/Bringing-Out-Best-Yourself-Work/dp/0071439609"
-    },
-    {
-      "@type": "PodcastSeries",
-      "name": "The Enneagram Journey",
-      "author": {
-        "@type": "Person",
-        "name": "Suzanne Stabile",
-        "sameAs": [
-          "https://www.instagram.com/suzannestabile/",
-          "https://twitter.com/SuzanneStabile"
-        ]
-      },
-      "url": "https://podcasts.apple.com/us/podcast/the-enneagram-journey/id1292950516"
-    },
-    {
-      "@type": "PodcastSeries",
-      "name": "Typology",
-      "author": {
-        "@type": "Person",
-        "name": "Ian Morgan Cron",
-        "sameAs": [
-          "https://twitter.com/ianmorgancron/",
-          "https://www.instagram.com/ianmorgancron/"
-        ]
-      },
-      "url": "https://podcasts.apple.com/us/podcast/typology/id1254061093"
-    },
-    {
-      "@type": "PodcastSeries",
-      "name": "The Enneagram and Coffee",
-      "author": {
-        "@type": "Person",
-        "name": "Sarajane Case",
-        "sameAs": [
-          "https://www.instagram.com/enneagramandcoffee/",
-          "https://twitter.com/sarajanecase"
-        ]
-      },
-      "url": "https://podcasts.apple.com/us/podcast/enneagram-coffee/id1447982978"
-    },
-    {
-      "@type": "PodcastSeries",
-      "name": "Enneagram 2.0",
-      "author": [
-        {
-          "@type": "Person",
-          "name": "Beatrice Chestnut",
-          "sameAs": [
-            "https://twitter.com/beatricemc2",
-            "https://www.instagram.com/beatrice_chestnut_phd_enneagram/"
-          ]
-        },
-        {
-          "@type": "Person",
-          "name": "Uranio Paes"
-        }
-      ],
-      "url": "https://podcasts.apple.com/us/podcast/enneagram-2-0/id1494930629"
-    },
-    {
-      "@type": "PodcastSeries",
-      "name": "Millenneagram",
-      "author": {
-        "@type": "Person",
-        "name": "Hannah Paasch",
-        "sameAs": [
-          "https://www.instagram.com/theenneagramletters/",
-          "https://twitter.com/hannahpaasch"
-        ]
-      },
-      "url": "https://podcasts.apple.com/us/podcast/millenneagram/id1397269650"
-    },
-    {
-      "@type": "PodcastSeries",
-      "name": "Do It For The Gram",
-      "author": {
-        "@type": "Person",
-        "name": "Milton Stewart"
-      },
-      "url": "https://podcasts.apple.com/us/podcast/do-it-for-the-gram/id1470825708"
-    },
-    {
-      "@type": "PodcastSeries",
-      "name": "Simply Wholehearted",
-      "author": {
-        "@type": "Person",
-        "name": "Amy Wicks"
-      },
-      "url": "https://podcasts.apple.com/us/podcast/simply-wholehearted/id1216920050"
-    },
-    {
-      "@type": "PodcastSeries",
-      "name": "Enneagram for Idiots",
-      "author": [
-        {
-          "@type": "Person",
-          "name": "Tara"
-        },
-        {
-          "@type": "Person",
-          "name": "Marissa"
-        }
-      ],
-      "sameAs": "https://twitter.com/enneaforidiots",
-      "url": "https://www.podbean.com/podcast-detail/afar6-65fca/Enneagram-for-Idiots-Podcast"
-    },
-    {
-      "@type": "PodcastSeries",
-      "name": "Enneagram at Work Podcast",
-      "author": {
-        "@type": "Person",
-        "name": "Sarah Wallace"
-      },
-      "url": "https://www.enneagrammba.com/podcast"
-    },
-    {
-      "@type": "Person",
-      "name": "Steph Barron Hall",
-      "jobTitle": "Enneagram Coach",
-      "sameAs": [
-        "https://www.instagram.com/ninetypesco/",
-        "https://twitter.com/stephbarronhall"
-      ]
-    },
-    {
-      "@type": "Person",
-      "name": "Hannah Paasch",
-      "jobTitle": "Enneagram Coach",
-      "sameAs": [
-        "https://www.instagram.com/theenneagramletters/",
-        "https://twitter.com/hannahpaasch"
-      ]
-    },
-    {
-      "@type": "Person",
-      "name": "Jessica Denise Dickson",
-      "jobTitle": "Enneagram Coach",
-      "sameAs": [
-        "https://www.instagram.com/jessicaddickson/",
-        "https://www.youtube.com/@jessicadenisedickson80"
-      ]
-    },
-    {
-      "@type": "Person",
-      "name": "Tyler Zach",
-      "jobTitle": "Enneagram Teacher",
-      "sameAs": [
-        "https://www.instagram.com/tylerzachcoaching/",
-        "https://twitter.com/tylerzach77"
-      ]
-    },
-    {
-      "@type": "Person",
-      "name": "Milton Stewart",
-      "jobTitle": "Enneagram Coach",
-      "sameAs": [
-        "https://www.instagram.com/miltonstewart_/"
-      ]
-    },
-    {
-      "@type": "Person",
-      "name": "Amy Wicks",
-      "jobTitle": "Enneagram Coach",
-      "sameAs": [
-        "https://www.instagram.com/simplywholehearted/"
-      ]
-    },
-    {
-      "@type": "Organization",
-      "name": "International Enneagram Association",
-      "url": "https://www.internationalenneagram.org/"
-    }
-  ],
-  "publisher": {
-    "@type": "Organization",
-    "sameAs": [
-      "https://www.instagram.com/9takesdotcom/",
-      "https://twitter.com/9takesdotcom"
-    ],
-    "logo": {
-      "@type": "ImageObject",
-      "url": "https://9takes.com/brand/aero.png"
-    },
-    "name": "9takes"
-  }
-}
-</script>
-
 </svelte:head>
 
 <style lang="scss">
@@ -1437,3 +949,86 @@ For a zero-cost deep dive: read the type descriptions on the Enneagram Institute
 		}
 	}
 </style>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What's the best Enneagram book for beginners?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The Road Back to You by Ian Morgan Cron and Suzanne Stabile. It uses relatable stories instead of dense theory, making the nine types immediately recognizable. If you prefer a visual approach, The Enneagram Made Easy by Baron and Wagele uses illustrations and humor. For a modern take aimed at millennials, try Millenneagram by Hannah Paasch."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Are free Enneagram tests accurate?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "They give you a starting point, not a definitive answer. The best tests (like the RHETI from the Enneagram Institute) cost money because they're validated instruments. Free tests from Truity or Eclectic Energies are useful for narrowing down to 2-3 possible types, but you'll need to read the type descriptions carefully and self-reflect to confirm. Mistyping is common, especially confusing types like 4 vs 6, or 9 vs 2."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What's the difference between the Riso-Hudson and Narrative Enneagram approaches?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Riso-Hudson (Enneagram Institute) uses levels of development: healthy, average, and unhealthy versions of each type. The Narrative Enneagram emphasizes storytelling and panel interviews where people of each type share their experiences. Neither is \"better\"; Riso-Hudson works well for self-study, while the Narrative approach is powerful in workshops and coaching settings."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Which Enneagram podcast should I listen to first?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Typology with Ian Morgan Cron if you want celebrity interviews and accessible conversations. Enneagram 2.0 with Beatrice Chestnut and Uranio Paes if you want deep dives into subtypes and theory (episodes are often 90+ minutes). Enneagram and Coffee with Sarajane Case for a lighthearted, practical approach."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I know if an Enneagram teacher is credible?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Look for certification from the International Enneagram Association (IEA), training in the Narrative Tradition, or credentials from the Enneagram Institute. Be cautious of influencers who learned only from social media. The best teachers can explain subtypes, instinctual variants, and growth paths, not just surface-level type descriptions. They also acknowledge the system's limitations rather than treating it as absolute truth."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is the Enneagram scientifically validated?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The honest answer: it's promising but not settled science. A <a target=\"blank\" rel=\"noopener\" href=\"https://pubmed.ncbi.nlm.nih.gov/33332604/\">2021 systematic review</a> in the Journal of Clinical Psychology_ (Hook et al.) analyzed 104 independent samples and found mixed but growing evidence of reliability and validity. The majority of published studies are doctoral dissertations and specialty journal articles; relatively few have appeared in mainstream psychology journals yet. The Enneagram lacks the extensive validation of the Big Five, but practitioners and a growing number of researchers argue it captures dimensions of personality (especially around motivation and defense mechanisms) that other models miss. Read more in our guide to Enneagram science and mental health."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How is the Enneagram different from Myers-Briggs?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The Enneagram focuses on core motivations, fears, and desires—why you do what you do. Myers-Briggs (MBTI) focuses on cognitive preferences—how you process information. The Enneagram includes growth paths and stress patterns that show how your type changes under different conditions, while MBTI types are more static. Many people find the Enneagram more useful for personal growth and relationships, while MBTI is popular in workplace settings. See our full comparison."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can my Enneagram type change over time?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Your core type doesn't change, but how you express it absolutely does. The Enneagram's levels of development (healthy → average → unhealthy) describe how the same type can look radically different depending on a person's self-awareness and growth. You also access different types through wings, stress/growth arrows, and instinctual subtypes."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the best free Enneagram resources?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "For a zero-cost deep dive: read the type descriptions on the Enneagram Institute website, listen to the Typology or Enneagram 2.0 podcasts, and watch Dr. Tom LaHue's YouTube channel. For tests, Truity and Eclectic Energies offer free assessments (see our test comparison guide). Reddit's r/Enneagram community is also a valuable free resource for discussion and typing help."
+
+      }
+    }
+
+]
+}
+</script>

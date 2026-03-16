@@ -348,7 +348,18 @@
 		isCategoryPage = pathname.includes('/categories');
 		isAdminPage = pathname.startsWith('/admin');
 		shouldShowMaxWidth = !MAX_WIDTH_PAGES.includes(pathname) && !isAdminPage;
-		showBackButton = !isHomePage && !isCategoryPage && !isAdminPage;
+		// Blog article pages render their own Breadcrumbs component, so hide BackNavigation
+		const blogSections = [
+			'/community/',
+			'/enneagram-corner/',
+			'/how-to-guides/',
+			'/personality-analysis/',
+			'/pop-culture/'
+		];
+		const hasBreadcrumbs = blogSections.some(
+			(section) => pathname.startsWith(section) && pathname !== section.slice(0, -1)
+		);
+		showBackButton = !isHomePage && !isCategoryPage && !isAdminPage && !hasBreadcrumbs;
 	}
 
 	// Defer analytics loading to after page is interactive
@@ -499,6 +510,7 @@
 </script>
 
 <svelte:head>
+	<link rel="manifest" href="/site.webmanifest" />
 	<link rel="apple-touch-icon" href="/brand/apple-touch-icon.png" />
 	<meta
 		name="viewport"

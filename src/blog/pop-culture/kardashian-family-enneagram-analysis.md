@@ -17,6 +17,9 @@ mjPrompt: 'Six greek marble statues arranged as family portrait in opulent mansi
 path: src/blog/pop-culture/kardashian-family-enneagram-analysis.md
 ---
 
+<svelte:head>
+</svelte:head>
+
 <script>
 	import PopCard from "$lib/components/atoms/PopCard.svelte";
 	import QuickAnswer from "$lib/components/blog/callouts/QuickAnswer.svelte";
@@ -479,3 +482,68 @@ Understanding your type doesn't excuse behavior. It reveals it. And revelation i
 **Curious about other celebrity personality analyses?** Check out [The Psychology of Influence: How Each Enneagram Type Gains a Following](/pop-culture/influencer-enneagram-types-instagram) or explore our [full celebrity personality database](/personality-analysis).
 
 > **Disclaimer:** This analysis of the Kardashian family's Enneagram types is speculative, based on publicly available information, and may not reflect their actual personality types. We're interpreting public behavior through a psychological lens—not claiming definitive knowledge of their inner lives.
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Are the Kardashians actually this psychologically complex?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Every human has psychological architecture. The Kardashians' just plays out on camera. Their types emerged through childhood experiences, family dynamics, and individual temperament—same as everyone else."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Why is there no Type 5, 6, 7, or 8 in the immediate family?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Families often cluster around certain types. The Kardashian family culture rewards Types 2, 3, and 4 (relationship-focused, achievement-focused, image-focused). Types that value withdrawal (5), security-seeking (6), or dominance (8) might not thrive in this specific system. Scott Disick (likely Type 7) is arguably the closest—and we saw how that worked out."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What about Robert Kardashian Sr.?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Robert was likely a Type 6 (Loyalist)—security-focused, devoted to his family, professionally successful in law. His death in 2003 shaped all his children's psychology. Kim, Kourtney, Khloé, and Rob lost their father during formative years. That loss echoes through their adult patterns."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Why do their relationships keep failing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "See the \"Kardashian Curse\" section above. It's not mystical—it's predictable type dynamics under maximum public pressure. Type 2s over-give. Type 3s outshine. Type 1s criticize. Type 4s withdraw. Add zero privacy, and even healthy relationships would struggle."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is the show scripted to emphasize these conflicts?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The production amplifies real tensions. You can't script Type 1 moral frustration or Type 2 caretaking compulsion. But producers know which buttons to push. The psychology is real; the emphasis is curated."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What would healthy Kardashian dynamics look like?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "• Kris (Type 3) would value her children's wellbeing over their output • Kim (Type 3w4) would accept imperfection and privacy • Kourtney (Type 1) would release judgment of her family's choices • Khloé (Type 2) would set boundaries without guilt • Rob (Type 9) would claim space without withdrawing entirely • Kendall (Type 9) would express her needs directly • Kylie (Type 4) would find connection without losing uniqueness We've seen glimpses of this growth. Kourtney's step back from filming. Khloé's boundaries with Tristan. Kendall's public anxiety discussions. Growth is possible."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What about Caitlyn Jenner?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Caitlyn's psychology deserves its own analysis. Her transition, her relationship with Kris, her distance from the Kardashian children—all of this reflects complex type dynamics. Likely a Type 3 or Type 5, but her journey is too significant to reduce to a paragraph."
+      }
+    }
+  ]
+}
+</script>

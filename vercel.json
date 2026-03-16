@@ -11,6 +11,68 @@
 			"schedule": "*/15 * * * *"
 		}
 	],
+	"redirects": [
+		{
+			"source": "/blog/famous-enneagram-types/type/:slug",
+			"destination": "/personality-analysis/type/:slug",
+			"permanent": true
+		},
+		{
+			"source": "/blog/famous-enneagram-types/type",
+			"destination": "/personality-analysis/type",
+			"permanent": true
+		},
+		{
+			"source": "/blog/famous-enneagram-types/:slug",
+			"destination": "/personality-analysis/:slug",
+			"permanent": true
+		},
+		{
+			"source": "/blog/famous-enneagram-types",
+			"destination": "/personality-analysis",
+			"permanent": true
+		},
+		{
+			"source": "/apple-touch-icon.png",
+			"destination": "/brand/apple-touch-icon.png",
+			"permanent": true
+		},
+		{
+			"source": "/apple-touch-icon-precomposed.png",
+			"destination": "/brand/apple-touch-icon.png",
+			"permanent": true
+		},
+		{
+			"source": "/apple-touch-icon-120x120.png",
+			"destination": "/brand/apple-touch-icon.png",
+			"permanent": true
+		},
+		{
+			"source": "/apple-touch-icon-120x120-precomposed.png",
+			"destination": "/brand/apple-touch-icon.png",
+			"permanent": true
+		},
+		{
+			"source": "/sitemap_index.xml",
+			"destination": "/sitemap.xml",
+			"permanent": true
+		},
+		{
+			"source": "/sitemap-index.xml",
+			"destination": "/sitemap.xml",
+			"permanent": true
+		},
+		{
+			"source": "/sitemap.html",
+			"destination": "/sitemap.xml",
+			"permanent": true
+		},
+		{
+			"source": "/sitemap.txt",
+			"destination": "/sitemap.xml",
+			"permanent": true
+		}
+	],
 	"rewrites": [
 		{
 			"source": "/proxytown/gtm",

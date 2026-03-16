@@ -838,3 +838,68 @@ Not sure which therapeutic approach fits your personality? [Different types need
   "keywords": ["shadow work", "enneagram shadow work", "shadow work exercises", "what is shadow work", "shadow integration", "dark side personality types", "carl jung shadow work", "shadow work by personality type"]
 }
 </script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Is Shadow Work Dangerous?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Not dangerous, but respect-worthy. It can surface intense emotions and memories. Work with a therapist if you have trauma history or mental health concerns."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How Long Does Integration Take?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "It's lifelong, but you'll see benefits within weeks. Most people notice significant shifts in 6-12 months of consistent practice. New layers emerge as you grow."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I Do This Without Knowing My Type?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Possible but less effective. Generic shadow work misses the specific patterns and entry points that work for your psychological structure. If unsure of your type, start with our beginner's guide to determining your Enneagram type."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What If I Don't Want to Face My Shadow?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "That resistance IS your shadow talking. The parts you least want to explore usually need integration most. Start small. Get support. Avoiding your shadow gives it more power, not less."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How Do I Know If I'm Making Progress?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Signs of integration: Less triggered by behaviors that used to upset you. More self-compassion. Increased emotional range. Better relationships. More energy. Signs you're stuck: You can describe patterns eloquently but behavior hasn't changed. Shadow work has become your identity. You use psychological language to avoid accountability. Years pass with no concrete improvement."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can Shadow Work Become Its Own Trap?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. More common than you'd think. Some people discover shadow work and it becomes their entire personality. They perform self-awareness instead of having it. The shadow is clever. It shapeshifts. If your ego was built around being \"perfect\" (Type 1), it might become built around being \"deeply self-aware\" instead. Same defensive structure, different costume. Red flags: You spend more time analyzing patterns than changing them. Shadow work is how you avoid difficult conversations. You've become superior about psychological knowledge. The test: Are you actually different in your relationships, work, and daily life? Or are you just better at explaining why you're still stuck?"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What If I'm Too Exhausted for This Work?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Life circumstances matter. When you're depleted, going through a divorce, caring for a sick parent, surviving burnout, your shadow will run the show. That's not failure. That's reality. During depleted states: Lower your expectations. Simple awareness is enough. Focus on stabilization, not integration. Sleep, eat, move, connect. Maslow before Jung. If your Type 8 aggression is protecting you during a custody battle, let it work. Integrate later. Integration happens in seasons. There are times for deep excavation and times for simply getting through the day. Both are valid."
+      }
+    }
+  ]
+}
+</script>

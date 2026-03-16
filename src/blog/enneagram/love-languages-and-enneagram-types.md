@@ -842,3 +842,44 @@ The most meaningful relationships happen when two people understand not just how
   "keywords": ["love languages", "enneagram types", "relationship compatibility", "personality types", "love language compatibility", "5 love languages", "enneagram love languages"]
 }
 </script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Can Your Love Language Change?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, but your core patterns remain consistent. Life stages, stress levels, and relationship dynamics can shift your priorities: • New parents often need more Acts of Service • During stress, Types 1-9 may crave their security love language more • As relationships deepen, Quality Time often becomes more important"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What If We Have Completely Different Love Languages?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "This is actually an opportunity for growth. The most transformative relationships often involve learning to love in a completely different way: • You expand your capacity for love expression • You learn to appreciate love in new forms • You develop empathy for different emotional needs"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Why Don't Traditional Love Language Tests Work?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "They don't account for personality psychology. Knowing you're a \"Words of Affirmation\" person doesn't tell you: • WHY you need verbal appreciation • WHAT specific words land for your type • HOW your personality sabotages receiving love • WHEN your love language needs change"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How Do You Handle Love Language Conflicts?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Focus on the underlying need, not the specific expression: • Type 1 needing Acts of Service = \"Help me feel less alone in my standards\" • Type 4 needing Quality Time = \"See me as unique and special\" • Type 8 needing Physical Touch = \"Match my intensity and don't fear my power\""
+      }
+    }
+  ]
+}
+</script>

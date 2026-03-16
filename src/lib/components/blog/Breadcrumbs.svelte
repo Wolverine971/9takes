@@ -1,17 +1,11 @@
 <!-- src/lib/components/blog/Breadcrumbs.svelte -->
 <script lang="ts">
-	import { buildBreadcrumbSchema, type BreadcrumbItem } from '$lib/utils/schema';
+	import type { BreadcrumbItem } from '$lib/utils/schema';
 
 	export let items: BreadcrumbItem[] = [];
-
-	$: breadcrumbJsonLd = items.length > 0 ? JSON.stringify(buildBreadcrumbSchema(items)) : null;
 </script>
 
-<svelte:head>
-	{#if breadcrumbJsonLd}
-		{@html `<script type="application/ld+json">${breadcrumbJsonLd}</script>`}
-	{/if}
-</svelte:head>
+<!-- JSON-LD breadcrumb schema is already emitted by BlogPageHead/PeopleBlogPageHead -->
 
 <nav aria-label="Breadcrumb" class="breadcrumbs">
 	<ol itemscope itemtype="https://schema.org/BreadcrumbList">

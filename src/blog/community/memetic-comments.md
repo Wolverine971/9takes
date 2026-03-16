@@ -253,3 +253,44 @@ The first comment doesn't just express an opinion — it defines the terms of th
 
 <style lang="scss">
 </style>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is mimetic theory and who came up with it?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Mimetic theory was developed by French philosopher René Girard. His core insight: humans don't desire independently — we learn what to want by watching what others want. In online spaces, this means the first few comments in a thread shape what everyone else thinks, not because those comments are better, but because humans instinctively mirror what they see others valuing."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do upvotes create echo chambers?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Upvotes create a feedback loop: early-upvoted comments get more visibility, which gets them more upvotes, which pushes them higher. Latecomers see a thread that already appears to have a \"correct\" answer. The MIT study found that a single artificial upvote inflated a comment's final score by 25%. The system doesn't surface the best ideas — it amplifies the fastest ones."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can you actually have an original opinion in a comment section?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Not easily — not on platforms that show you other people's responses first. By the time you type your comment, the framing has already been set. The only reliable way to form an independent take is to think before you read. Platforms that hide comments until you contribute your own — like 9takes — structurally prevent mimetic priming."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Why does the first comment in a thread matter so much?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The first comment doesn't just express an opinion — it defines the terms of the conversation. Every subsequent reply responds to that frame, either agreeing, amplifying, or carefully hedging. The first commenter decides what the argument is about, and everyone else arranges themselves accordingly. This is why the same question produces radically different threads depending on who shows up first."
+      }
+    }
+  ]
+}
+</script>

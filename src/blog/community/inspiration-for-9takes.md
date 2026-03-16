@@ -217,3 +217,36 @@ We started with MBTI and it helped. But the Enneagram goes deeper — it maps yo
 
 <style lang="scss">
 </style>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Did the Enneagram fix your marriage?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. We still fight. The difference is now the fights actually go somewhere. Before the Enneagram, we'd argue in circles — same patterns, same dead ends, no resolution. Now when things escalate, we have language for what's happening. I can catch myself being too blunt (classic 8) and she can catch herself spiraling into worst-case thinking (classic 7). The Enneagram didn't eliminate conflict. It made conflict productive."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What if someone doesn't believe in personality tests?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "I was that person. I thought it was pseudo-science. What changed my mind wasn't being convinced — it was being desperate. When nothing else was working in my marriage, I figured I had nothing to lose. My suggestion: don't try to convince anyone. Just ask them questions about themselves. Most people will talk about their own patterns all day if you give them the right question."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Why the Enneagram over MBTI?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "We started with MBTI and it helped. But the Enneagram goes deeper — it maps your core fears, motivations, and the emotional baggage you carry into every conversation. MBTI tells you how someone processes information. The Enneagram tells you why they react the way they do when things get heated. For relationships, that 'why' is everything. Full comparison here."
+      }
+    }
+  ]
+}
+</script>

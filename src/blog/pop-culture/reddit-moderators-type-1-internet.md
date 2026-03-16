@@ -17,6 +17,9 @@ mjPrompt: 'Greek marble statue seated at command center with multiple glowing mo
 path: src/blog/pop-culture/reddit-moderators-type-1-internet.md
 ---
 
+<svelte:head>
+</svelte:head>
+
 <script>
 	import PopCard from "$lib/components/atoms/PopCard.svelte";
 	import QuickAnswer from "$lib/components/blog/callouts/QuickAnswer.svelte";
@@ -263,3 +266,36 @@ Understanding this doesn't mean accepting bad moderation. It helps everyone navi
 **Related:** [The Psychology of Twitter Toxicity](/pop-culture/twitter-x-personality-types-toxic) | [How Different Types Become Influencers](/pop-culture/influencer-enneagram-types-instagram)
 
 > **Disclaimer:** This analysis of moderator and editor personality types is observational and speculative, based on behavioral patterns rather than tested typing of specific individuals. The internet governance patterns described are generalizations that won't apply to every moderator or community.
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How can communities get better moderation?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Type-diverse mod teams (don't let one type dominate). Clear escalation paths (so Type 1s don't feel personally responsible for everything). Defined boundaries (hours per week, specific responsibilities). Burnout protocols (mandatory breaks, rotation systems)."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Should I become a moderator?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Ask yourself which psychological need it would serve. Type 1s seeking perfection will find constant wrongness they can't fix. Type 5s will encounter users ignoring their elegant solutions. Type 6s will face endless potential threats. Type 8s will exhaust themselves fighting everyone. Moderation is most sustainable when you understand your type's limits and build in safeguards."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How can understanding type psychology help me navigate moderation decisions?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "When a mod removes your post, consider what type they might be. A Type 1 needs to see you acknowledge the rule. A Type 6 needs reassurance you're not a threat. A Type 8 needs you to not challenge their authority directly. A Type 5 needs you to follow the system. This doesn't mean accepting bad moderation, but it helps you respond more effectively."
+      }
+    }
+  ]
+}
+</script>

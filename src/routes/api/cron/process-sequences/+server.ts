@@ -2,19 +2,20 @@
 import { PRIVATE_CRON_SECRET } from '$env/static/private';
 import { env } from '$env/dynamic/private';
 import { processPendingSequenceSends } from '$lib/server/emailSequences';
+import { isAuthorizedCronRequest } from '$lib/server/cronAuth';
 import { error, json } from '@sveltejs/kit';
 import type { RequestHandler } from './$types';
 
 async function handleSequenceCron(request: Request) {
 	const authHeader = request.headers.get('authorization');
-	const expectedCronSecret = PRIVATE_CRON_SECRET || env.CRON_SECRET;
 
-	if (expectedCronSecret && authHeader !== `Bearer ${expectedCronSecret}`) {
+	if (!isAuthorizedCronRequest(authHeader, [env.CRON_SECRET, PRIVATE_CRON_SECRET])) {
 		throw error(401, 'Unauthorized');
 	}
 
 	try {
 		const summary = await processPendingSequenceSends(10);
+		console.info('Processed email sequence cron run', summary);
 		return json({
 			message:
 				summary.claimed === 0

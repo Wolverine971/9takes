@@ -461,6 +461,51 @@ Yes! Have each type share their homework experiences. Type 4s often feel less al
           "url": "https://9takes.com/brand/aero.png"
         }
       }
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How long should Enneagram homework take?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Keep it under 10 minutes daily. Type 7s and 9s especially need bite-sized commitments. The key is consistency, not duration."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What if my client doesn't do their homework?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "That's data. Each type avoids homework differently. A Type 6 fears doing it wrong. A Type 8 resents being told what to do. Decode their resistance because it reveals their core pattern."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Should I give the same homework to people of the same type?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Start with type-specific templates, then customize based on their growth level. A healthy Type 1 needs different work than an average Type 1."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I know if the homework is working?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Look for pattern interruption stories: 'I noticed myself doing X and chose Y instead.' That's the gold. Awareness leading to new choices."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I use these exercises in group coaching?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes! Have each type share their homework experiences. Type 4s often feel less alone, Type 3s get motivated by others' progress, and Type 2s love supporting the group."
+          }
+        }
+      ]
     }
  ]
 }

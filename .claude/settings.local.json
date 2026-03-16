@@ -1325,7 +1325,14 @@
 			"Bash(npm view:*)",
 			"WebFetch(domain:podcast.app)",
 			"WebFetch(domain:www.theinformation.com)",
-			"WebFetch(domain:www.wsj.com)"
+			"WebFetch(domain:www.wsj.com)",
+			"WebFetch(domain:substack.com)",
+			"WebFetch(domain:notboring.co)",
+			"WebFetch(domain:12ft.io)",
+			"WebFetch(domain:pitchbook.com)",
+			"Bash(for f:*)",
+			"Read(//Users/djwayne/9takes/**)",
+			"WebFetch(domain:soundsdebatable.substack.com)"
 		],
 		"deny": [],
 		"ask": [],
