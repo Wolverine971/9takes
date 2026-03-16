@@ -1,5 +1,7 @@
 <!-- src/lib/components/blog/BlogPageHead.svelte -->
 <script lang="ts">
+	import { buildBreadcrumbSchemaForGraph } from '$lib/utils/schema';
+
 	export let data: App.BlogPost;
 	export let slug: string;
 	export let skipJsonLd: boolean = false;
@@ -16,6 +18,7 @@
 	function getArticleSection(s: string): string {
 		if (s.startsWith('how-to-guides/')) return 'How-To Guides';
 		if (s.startsWith('community/')) return 'Community';
+		if (s.startsWith('enneagram-corner/mental-health/')) return 'Mental Health';
 		if (s.startsWith('enneagram-corner/')) return 'Enneagram';
 		if (s.startsWith('pop-culture/')) return 'Pop Culture';
 		return 'Blog';
@@ -34,7 +37,13 @@
 		return `https://9takes.com/${section}`;
 	}
 
+	function getSectionRoute(s: string): string {
+		if (s.startsWith('enneagram-corner/mental-health/')) return 'enneagram-corner/mental-health';
+		return s.split('/')[0];
+	}
+
 	const articleSection = getArticleSection(slug);
+	const sectionRoute = getSectionRoute(slug);
 	const isHowToGuide = slug.startsWith('how-to-guides/');
 
 	const tags = (
@@ -48,59 +57,71 @@
 				]
 	).filter((tag): tag is string => Boolean(tag));
 
+	// Build breadcrumb items
+	const breadcrumbItems = [
+		{ name: 'Home', url: 'https://9takes.com/' },
+		{ name: articleSection, url: `https://9takes.com/${sectionRoute}` },
+		{ name: title, url: `https://9takes.com/${slug}` }
+	];
+
 	const jsonldObj = {
 		'@context': 'https://schema.org',
-		'@type': 'BlogPosting',
-		'@id': `https://9takes.com/${slug}#article`,
-		headline: title,
-		name: title,
-		url: `https://9takes.com/${slug}`,
-		mainEntityOfPage: {
-			'@type': 'WebPage',
-			'@id': `https://9takes.com/${slug}`
-		},
-		author: {
-			'@type': 'Person',
-			'@id': 'https://9takes.com/#person/dj-wayne',
-			name: 'DJ Wayne',
-			url: 'https://9takes.com/about',
-			jobTitle: 'Creator of 9takes',
-			image: 'https://9takes.com/brand/djface.webp',
-			knowsAbout: ['Enneagram', 'personality psychology', 'emotional intelligence'],
-			sameAs: [
-				'https://www.instagram.com/djwayne3/',
-				'https://www.linkedin.com/in/djwayne/',
-				'https://twitter.com/djwayne3'
-			]
-		},
-		description: description,
-		datePublished: data.date,
-		dateModified: data.lastmod || data.date,
-		image: data?.pic
-			? {
-					'@type': 'ImageObject',
-					url: shareImage,
-					width: 900,
-					height: 900
+		'@graph': [
+			{
+				'@type': 'BlogPosting',
+				'@id': `https://9takes.com/${slug}#article`,
+				headline: title,
+				name: title,
+				url: `https://9takes.com/${slug}`,
+				mainEntityOfPage: {
+					'@type': 'WebPage',
+					'@id': `https://9takes.com/${slug}`
+				},
+				author: {
+					'@type': 'Person',
+					'@id': 'https://9takes.com/#person/dj-wayne',
+					name: 'DJ Wayne',
+					url: 'https://9takes.com/about',
+					jobTitle: 'Creator of 9takes',
+					image: 'https://9takes.com/brand/djface.webp',
+					knowsAbout: ['Enneagram', 'personality psychology', 'emotional intelligence'],
+					sameAs: [
+						'https://www.instagram.com/djwayne3/',
+						'https://www.linkedin.com/in/djwayne/',
+						'https://twitter.com/djwayne3'
+					]
+				},
+				description: description,
+				datePublished: data.date,
+				dateModified: data.lastmod || data.date,
+				image: data?.pic
+					? {
+							'@type': 'ImageObject',
+							url: shareImage,
+							width: 900,
+							height: 900
+						}
+					: shareImage,
+				publisher: {
+					'@type': 'Organization',
+					name: '9takes',
+					logo: {
+						'@type': 'ImageObject',
+						url: 'https://9takes.com/brand/aero.png'
+					},
+					sameAs: ['https://www.instagram.com/9takesdotcom/', 'https://twitter.com/9takesdotcom']
+				},
+				articleSection: articleSection,
+				inLanguage: 'en-US',
+				keywords: tags,
+				isPartOf: {
+					'@type': 'Blog',
+					name: getBlogName(slug),
+					url: getBlogUrl(slug)
 				}
-			: shareImage,
-		publisher: {
-			'@type': 'Organization',
-			name: '9takes',
-			logo: {
-				'@type': 'ImageObject',
-				url: 'https://9takes.com/brand/aero.png'
 			},
-			sameAs: ['https://www.instagram.com/9takesdotcom/', 'https://twitter.com/9takesdotcom']
-		},
-		articleSection: articleSection,
-		inLanguage: 'en-US',
-		keywords: tags,
-		isPartOf: {
-			'@type': 'Blog',
-			name: getBlogName(slug),
-			url: getBlogUrl(slug)
-		}
+			buildBreadcrumbSchemaForGraph(breadcrumbItems)
+		]
 	};
 
 	let jsonld = JSON.stringify(jsonldObj);

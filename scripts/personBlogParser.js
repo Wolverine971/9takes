@@ -14,18 +14,28 @@ import path from 'path';
 import matter from 'gray-matter';
 import dotenv from 'dotenv';
 import { createClient } from '@supabase/supabase-js';
+import { pathToFileURL } from 'url';
 
 dotenv.config();
 
 const SUPABASE_URL = process.env.SUPABASE_URL || process.env.PUBLIC_SUPABASE_URL;
 const SUPABASE_SERVICE_KEY = process.env.SUPABASE_SERVICE_KEY;
+const EXCLUDED_FILE_BASENAMES = new Set([
+	'person-template.md',
+	'POLITICIAN_FACT_CHECK_REPORT.md',
+	'david-perrel-thiel-essay.md'
+]);
+const EXCLUDED_FILE_SUFFIXES = ['-research.md', '-updated-sections.md'];
 
-if (!SUPABASE_URL || !SUPABASE_SERVICE_KEY) {
-	console.error('Error: Missing SUPABASE_URL or SUPABASE_SERVICE_KEY environment variables');
-	process.exit(1);
+function createSupabaseServiceClient() {
+	if (!SUPABASE_URL || !SUPABASE_SERVICE_KEY) {
+		throw new Error('Missing SUPABASE_URL or SUPABASE_SERVICE_KEY environment variables');
+	}
+
+	return createClient(SUPABASE_URL, SUPABASE_SERVICE_KEY);
 }
 
-function getLetterGrade(overall) {
+export function getLetterGrade(overall) {
 	if (overall >= 9.5) return 'A+';
 	if (overall >= 9.0) return 'A';
 	if (overall >= 8.5) return 'B+';
@@ -35,13 +45,13 @@ function getLetterGrade(overall) {
 	return 'F';
 }
 
-function normalizeScore(value) {
+export function normalizeScore(value) {
 	if (value === null || value === undefined || value === '') return null;
 	const n = Number(value);
 	return Number.isFinite(n) ? n : null;
 }
 
-function normalizeContentQuality(raw) {
+export function normalizeContentQuality(raw) {
 	if (raw === null) return null;
 	if (raw === undefined) return undefined;
 
@@ -88,6 +98,20 @@ function normalizeContentQuality(raw) {
 	return Object.keys(normalized).length > 0 ? normalized : undefined;
 }
 
+export function shouldProcessMarkdownFile(filePath) {
+	const basename = path.basename(filePath);
+
+	if (EXCLUDED_FILE_BASENAMES.has(basename)) {
+		return false;
+	}
+
+	return !EXCLUDED_FILE_SUFFIXES.some((suffix) => basename.endsWith(suffix));
+}
+
+export function filterProcessableMarkdownFiles(markdownFiles) {
+	return markdownFiles.filter((filePath) => shouldProcessMarkdownFile(filePath));
+}
+
 /**
  * Recursively finds all markdown files in a directory
  * @param {string} dir - Directory to search
@@ -117,7 +141,7 @@ async function findMarkdownFiles(dir, fileList = []) {
  * @param {string} content - HTML content
  * @returns {string|null} - JSON-LD string or null if not found
  */
-function extractJsonLd(content) {
+export function extractJsonLd(content) {
 	const ldJsonRegex = /<script type="application\/ld\+json">([\s\S]*?)<\/script>/;
 	const match = content.match(ldJsonRegex);
 
@@ -133,7 +157,7 @@ function extractJsonLd(content) {
  * @param {string} content - HTML content
  * @returns {string} - Cleaned HTML content
  */
-function cleanupContent(content) {
+export function cleanupContent(content) {
 	// Remove import statements
 	let cleanedContent = content.replace(/<script>[\s\S]*?<\/script>/g, '');
 
@@ -157,7 +181,7 @@ function cleanupContent(content) {
  * @param {string} filePath - Path to markdown file
  * @returns {Object} - Parsed blog data
  */
-async function parseMarkdownFile(filePath) {
+export async function parseMarkdownFile(filePath) {
 	const fileContent = await fs.readFile(filePath, 'utf8');
 	const { data, content } = matter(fileContent);
 	const hasContentQualityField =
@@ -211,7 +235,7 @@ async function parseMarkdownFile(filePath) {
  * @returns {Promise<Array>} - Array of parsed blog entries
  */
 async function processBlogEntries(rootDir) {
-	const markdownFiles = await findMarkdownFiles(rootDir);
+	const markdownFiles = filterProcessableMarkdownFiles(await findMarkdownFiles(rootDir));
 	return processBlogFiles(markdownFiles);
 }
 
@@ -257,7 +281,7 @@ function getChangedDraftMarkdownFiles() {
 		.filter(Boolean)
 		.map((entry) => (entry.includes(' -> ') ? entry.split(' -> ').at(-1) : entry))
 		.filter((filePath) => filePath.endsWith('.md') || filePath.endsWith('.mdx'))
-		.filter((filePath) => !filePath.endsWith('person-template.md'));
+		.filter((filePath) => shouldProcessMarkdownFile(filePath));
 }
 
 /**
@@ -275,7 +299,7 @@ async function saveBlogEntriesToJson(entries, outputPath) {
  * @param {Array} entries - Blog entries to insert
  */
 async function insertIntoSupabase(entries, options = {}) {
-	const supabase = createClient(SUPABASE_URL, SUPABASE_SERVICE_KEY);
+	const supabase = createSupabaseServiceClient();
 	const gradesOnly = options.gradesOnly === true;
 
 	console.log(`Processing ${entries.length} blog entries...`);
@@ -436,7 +460,7 @@ async function main() {
 			console.log(`Found ${changedDraftFiles.length} changed draft files`);
 			blogEntries = await processBlogFiles(changedDraftFiles);
 		} else {
-			const rootDir = 'src/blog/people';
+			const rootDir = 'src/blog/people/drafts';
 			blogEntries = await processBlogEntries(rootDir);
 		}
 
@@ -458,4 +482,9 @@ async function main() {
 	}
 }
 
-main();
+const isDirectRun =
+	process.argv[1] && import.meta.url === pathToFileURL(path.resolve(process.argv[1])).href;
+
+if (isDirectRun) {
+	main();
+}

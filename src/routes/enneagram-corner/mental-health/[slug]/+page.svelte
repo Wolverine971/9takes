@@ -12,6 +12,7 @@
 	import ArticleSubTitle from '$lib/components/blog/ArticleSubTitle.svelte';
 	import SuggestionsBlog from '$lib/components/blog/SuggestionsBlog.svelte';
 	import EmailSignup from '$lib/components/molecules/Email-Signup.svelte';
+	import Breadcrumbs from '$lib/components/blog/Breadcrumbs.svelte';
 
 	export let data: PageData;
 	type C = Component;
@@ -76,6 +77,18 @@
 		}
 	};
 </script>
+
+<Breadcrumbs
+	items={[
+		{ name: 'Home', url: 'https://9takes.com/' },
+		{ name: 'Enneagram Corner', url: 'https://9takes.com/enneagram-corner' },
+		{ name: 'Mental Health', url: 'https://9takes.com/enneagram-corner/mental-health' },
+		{
+			name: data.frontmatter.title,
+			url: `https://9takes.com/enneagram-corner/mental-health/${data.slug}`
+		}
+	]}
+/>
 
 <!-- Crisis Notice Banner -->
 <div class="crisis-notice">

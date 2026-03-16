@@ -1,5 +1,7 @@
 <!-- src/lib/components/blog/PeopleBlogPageHead.svelte -->
 <script lang="ts">
+	import { buildBreadcrumbSchema } from '$lib/utils/schema';
+
 	export let data: App.BlogPost;
 
 	let title: string = data?.meta_title || data?.title;
@@ -7,6 +9,25 @@
 	let slug = `personality-analysis/${data.slug}`;
 	const formattedTitle = title ? `${title}` : '9takes';
 	let jsonLdString: string;
+	let breadcrumbJsonLd: string;
+
+	// Build breadcrumb items for personality analysis pages
+	const personName = data.person ? data.person.split('-').join(' ') : title;
+	const breadcrumbItems = [
+		{ name: 'Home', url: 'https://9takes.com/' },
+		{ name: 'Personality Analysis', url: 'https://9takes.com/personality-analysis' },
+		{ name: personName, url: `https://9takes.com/${slug}` }
+	];
+	breadcrumbJsonLd = JSON.stringify(buildBreadcrumbSchema(breadcrumbItems));
+
+	// Build Wikipedia URL from person slug (e.g., "Taylor-Swift" -> "https://en.wikipedia.org/wiki/Taylor_Swift")
+	const wikipediaName = data.person
+		? data.person
+				.split('-')
+				.map((w: string) => w.charAt(0).toUpperCase() + w.slice(1))
+				.join('_')
+		: '';
+	const personSameAs = wikipediaName ? [`https://en.wikipedia.org/wiki/${wikipediaName}`] : [];
 
 	// Prepare common JSON-LD fields
 	const commonJsonLDFields = {
@@ -23,6 +44,11 @@
 				'https://www.linkedin.com/in/davidtwayne/',
 				'https://twitter.com/djwayne3'
 			]
+		},
+		about: {
+			'@type': 'Person',
+			name: personName,
+			...(personSameAs.length > 0 && { sameAs: personSameAs })
 		},
 		publisher: {
 			'@type': 'Organization',
@@ -133,5 +159,8 @@
 	<!-- JSON-LD snippet - Use {@html} to avoid double-escaping -->
 	{#if jsonLdString}
 		{@html `<script type="application/ld+json">${jsonLdString}</script>`}
+	{/if}
+	{#if breadcrumbJsonLd}
+		{@html `<script type="application/ld+json">${breadcrumbJsonLd}</script>`}
 	{/if}
 </svelte:head>

@@ -12,6 +12,7 @@
 	import ArticleSubTitle from '$lib/components/blog/ArticleSubTitle.svelte';
 	import SuggestionsBlog from '$lib/components/blog/SuggestionsBlog.svelte';
 	import EmailSignup from '$lib/components/molecules/Email-Signup.svelte';
+	import Breadcrumbs from '$lib/components/blog/Breadcrumbs.svelte';
 
 	let { data }: { data: PageData } = $props();
 	type C = Component;
@@ -79,6 +80,14 @@
 			data?.frontmatter?.tags?.includes('dark-psychology')
 	);
 </script>
+
+<Breadcrumbs
+	items={[
+		{ name: 'Home', url: 'https://9takes.com/' },
+		{ name: 'Pop Culture', url: 'https://9takes.com/pop-culture' },
+		{ name: data.frontmatter.title, url: `https://9takes.com/pop-culture/${data.slug}` }
+	]}
+/>
 
 <article
 	itemscope
