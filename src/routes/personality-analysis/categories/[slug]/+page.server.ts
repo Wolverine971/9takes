@@ -5,6 +5,7 @@ import { getPersonalityCategoryBySlug } from '$lib/personalityCategories';
 import {
 	getEnneagramDistribution,
 	getLatestCategoryDate,
+	getPersonalityCategoryGroups,
 	mapPersonalityCategoryRows,
 	sortPeopleForCategory,
 	type PersonalityCategoryRow
@@ -37,6 +38,7 @@ export const load: PageServerLoad = async ({ locals, params }) => {
 	const featured = people.slice(0, 4);
 	const latestUpdate = getLatestCategoryDate(people);
 	const distribution = getEnneagramDistribution(people);
+	const groups = getPersonalityCategoryGroups(category.slug, people);
 
 	const relatedCategories = category.related
 		.map((slug) => {
@@ -53,6 +55,7 @@ export const load: PageServerLoad = async ({ locals, params }) => {
 	return {
 		category,
 		people,
+		groups,
 		featured,
 		distribution,
 		latestUpdate,

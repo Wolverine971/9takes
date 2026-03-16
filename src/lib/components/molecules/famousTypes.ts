@@ -271,6 +271,7 @@ export const famousTypes: { [index: number]: { name: string; link: boolean; hasI
 		{ name: 'Julia-Roberts', link: false, hasImage: false, lastmod: '2025-06-25', personaTitle: null, contentGrade: null },
 		{ name: 'KSI', link: false, hasImage: false, lastmod: '2025-06-25', personaTitle: null, contentGrade: null },
 		{ name: 'Lele-Pons', link: false, hasImage: false, lastmod: '2025-06-25', personaTitle: null, contentGrade: null },
+		{ name: 'Marcello-Hernandez', link: false, hasImage: false, lastmod: '2026-03-15', personaTitle: 'SNL\'s Joyful Parachute', contentGrade: 8.5 },
 		{ name: 'Marie-Antoinette', link: false, hasImage: false, lastmod: '2025-06-25', personaTitle: null, contentGrade: null },
 		{ name: 'Markiplier', link: false, hasImage: false, lastmod: '2025-06-25', personaTitle: null, contentGrade: null },
 		{ name: 'Spencer-X', link: false, hasImage: false, lastmod: '2025-06-25', personaTitle: null, contentGrade: null },
@@ -317,7 +318,8 @@ export const famousTypes: { [index: number]: { name: string; link: boolean; hasI
 		{ name: 'Lizzo', link: false, hasImage: false, lastmod: '2025-06-25', personaTitle: null, contentGrade: null },
 		{ name: 'Morgan-Wallen', link: false, hasImage: false, lastmod: '2025-06-25', personaTitle: null, contentGrade: null },
 		{ name: 'Sean-Connery', link: false, hasImage: false, lastmod: '2025-06-25', personaTitle: null, contentGrade: null },
-		{ name: 'Sean-Penn', link: false, hasImage: false, lastmod: '2025-06-25', personaTitle: null, contentGrade: null }
+		{ name: 'Sean-Penn', link: false, hasImage: false, lastmod: '2025-06-25', personaTitle: null, contentGrade: null },
+		{ name: 'Travis-Kalanick', link: false, hasImage: false, lastmod: '2026-03-15', personaTitle: 'Tech\'s Armored Disruptor', contentGrade: 8.8 }
 	],
 	9: [
 		{ name: 'Abraham-Lincoln', link: true, hasImage: true, lastmod: '2026-02-18', personaTitle: null, contentGrade: 9 },

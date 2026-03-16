@@ -154,33 +154,81 @@
 			<div class="section-head">
 				<div>
 					<p class="section-kicker">Library</p>
-					<h2>All {data.category.label}</h2>
+					<h2>
+						{data.groups.length > 0
+							? `${data.category.shortLabel} Clusters`
+							: `All ${data.category.label}`}
+					</h2>
 				</div>
-				<p class="section-copy">Sorted by content quality first, then freshness.</p>
+				<p class="section-copy">
+					{#if data.groups.length > 0}
+						Grouped by the kind of creator pressure these personalities actually live inside.
+					{:else}
+						Sorted by content quality first, then freshness.
+					{/if}
+				</p>
 			</div>
 
 			{#if data.people.length > 0}
-				<div class="people-grid">
-					{#each data.people as person}
-						<a href="/personality-analysis/{person.slug}" class="person-card">
-							<div class="person-image">
-								<img
-									src={`/types/${person.enneagram}s/s-${person.slug}.webp`}
-									alt={`Portrait of ${person.name}`}
-									loading="lazy"
-									width="240"
-									height="240"
-								/>
-							</div>
-							<div class="person-overlay"></div>
-							<div class="person-copy">
-								<span class="person-type">Type {person.enneagram}</span>
-								<h3>{formatPersonName(person.slug)}</h3>
-								<p>{person.personaTitle ?? person.title ?? person.description}</p>
-							</div>
-						</a>
-					{/each}
-				</div>
+				{#if data.groups.length > 0}
+					<div class="group-stack">
+						{#each data.groups as group}
+							<section class="group-card">
+								<div class="group-head">
+									<div>
+										<p class="section-kicker">{group.people.length} profiles</p>
+										<h3>{group.label}</h3>
+									</div>
+									<p class="group-copy">{group.description}</p>
+								</div>
+
+								<div class="people-grid">
+									{#each group.people as person}
+										<a href="/personality-analysis/{person.slug}" class="person-card">
+											<div class="person-image">
+												<img
+													src={`/types/${person.enneagram}s/s-${person.slug}.webp`}
+													alt={`Portrait of ${person.name}`}
+													loading="lazy"
+													width="240"
+													height="240"
+												/>
+											</div>
+											<div class="person-overlay"></div>
+											<div class="person-copy">
+												<span class="person-type">Type {person.enneagram}</span>
+												<h3>{formatPersonName(person.slug)}</h3>
+												<p>{person.personaTitle ?? person.title ?? person.description}</p>
+											</div>
+										</a>
+									{/each}
+								</div>
+							</section>
+						{/each}
+					</div>
+				{:else}
+					<div class="people-grid">
+						{#each data.people as person}
+							<a href="/personality-analysis/{person.slug}" class="person-card">
+								<div class="person-image">
+									<img
+										src={`/types/${person.enneagram}s/s-${person.slug}.webp`}
+										alt={`Portrait of ${person.name}`}
+										loading="lazy"
+										width="240"
+										height="240"
+									/>
+								</div>
+								<div class="person-overlay"></div>
+								<div class="person-copy">
+									<span class="person-type">Type {person.enneagram}</span>
+									<h3>{formatPersonName(person.slug)}</h3>
+									<p>{person.personaTitle ?? person.title ?? person.description}</p>
+								</div>
+							</a>
+						{/each}
+					</div>
+				{/if}
 			{:else}
 				<div class="empty-state">
 					<p>This category exists, but it does not have any published profiles yet.</p>
@@ -503,6 +551,32 @@
 		gap: 1rem;
 	}
 
+	.group-stack {
+		display: grid;
+		gap: 1.25rem;
+	}
+
+	.group-card {
+		padding: 1.2rem;
+		border-radius: 1.25rem;
+		background: rgba(9, 14, 26, 0.72);
+		border: 1px solid rgba(148, 163, 184, 0.14);
+	}
+
+	.group-head {
+		display: grid;
+		grid-template-columns: minmax(0, 0.95fr) minmax(0, 1.1fr);
+		gap: 1rem;
+		align-items: start;
+		margin-bottom: 1rem;
+	}
+
+	.group-copy {
+		font-size: 0.95rem;
+		color: #cbd5e1;
+		line-height: 1.6;
+	}
+
 	.person-card {
 		aspect-ratio: 1;
 	}
@@ -589,6 +663,10 @@
 		.section-head {
 			flex-direction: column;
 			align-items: start;
+		}
+
+		.group-head {
+			grid-template-columns: 1fr;
 		}
 
 		.section-copy {

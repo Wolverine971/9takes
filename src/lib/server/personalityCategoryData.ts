@@ -41,6 +41,20 @@ export interface EnneagramDistributionItem {
 	count: number;
 }
 
+export interface PersonalityCategoryGroup {
+	slug: string;
+	label: string;
+	description: string;
+	people: PersonalityCategoryPerson[];
+}
+
+interface PersonalityCategoryGroupDefinition {
+	slug: string;
+	label: string;
+	description: string;
+	matches: (person: PersonalityCategoryPerson) => boolean;
+}
+
 export function extractContentQualityScore(value: Json | null): number | null {
 	if (value === null || value === undefined) return null;
 
@@ -144,4 +158,167 @@ export function getEnneagramDistribution(
 	return [...counts.entries()]
 		.sort((a, b) => Number(a[0]) - Number(b[0]))
 		.map(([enneagram, count]) => ({ enneagram, count }));
+}
+
+const CREATOR_MEDIA_PODCASTER_SLUGS = new Set([
+	'Alex-Cooper',
+	'Chris-Williamson',
+	'Dax-Shepard',
+	'Joe-Rogan',
+	'Lex-Fridman',
+	'Shawn-Ryan',
+	'Theo-Von',
+	'Tim-Ferriss'
+]);
+
+const CREATOR_MEDIA_COMMENTARY_SLUGS = new Set([
+	'Andrew-Callaghan',
+	'Hasan-Piker',
+	'Saagar-Enjeti',
+	'Taylor-Lorenz'
+]);
+
+const CREATOR_MEDIA_BUSINESS_SLUGS = new Set([
+	'Ali-Abdaal',
+	'John-Coogan',
+	'Shaan-Puri',
+	'Steven-Bartlett',
+	'Tony-Robbins'
+]);
+
+const CREATOR_MEDIA_STREAMER_SLUGS = new Set([
+	'Adin-Ross',
+	'Clavicular',
+	'IShowSpeed',
+	'Kai-Cenat',
+	'Pokimane',
+	'xQc'
+]);
+
+const CREATOR_MEDIA_ENTERTAINER_SLUGS = new Set([
+	'Brittany-Broski',
+	'Druski',
+	'Logan-Paul',
+	'Mr-Beast'
+]);
+
+const CREATOR_MEDIA_LIFESTYLE_SLUGS = new Set([
+	'Addison-Rae',
+	'Alix-Earle',
+	'Ashby',
+	'Bobbi-Althoff',
+	'Emma-Chamberlain',
+	'James-Charles',
+	'Kim-Kardashian',
+	'Kylie-Jenner',
+	'Madison-Beer'
+]);
+
+const CREATOR_MEDIA_GROUP_DEFINITIONS: PersonalityCategoryGroupDefinition[] = [
+	{
+		slug: 'podcasters-interviewers',
+		label: 'Podcasters & Interviewers',
+		description:
+			'Long-form hosts built around conversation, chemistry, and the ability to keep attention for an hour instead of a clip.',
+		matches: (person) => CREATOR_MEDIA_PODCASTER_SLUGS.has(person.slug)
+	},
+	{
+		slug: 'news-commentary',
+		label: 'News & Commentary',
+		description:
+			'Personalities whose output revolves around politics, media narratives, reporting, or real-time cultural interpretation.',
+		matches: (person) =>
+			CREATOR_MEDIA_COMMENTARY_SLUGS.has(person.slug) || person.types.includes('journalist')
+	},
+	{
+		slug: 'business-self-improvement',
+		label: 'Business & Self-Improvement',
+		description:
+			'Creators selling frameworks, advice, and aspirational operating systems rather than pure entertainment.',
+		matches: (person) =>
+			CREATOR_MEDIA_BUSINESS_SLUGS.has(person.slug) || person.types.includes('entrepreneur')
+	},
+	{
+		slug: 'streamers-live',
+		label: 'Streamers & Live Personalities',
+		description:
+			'Internet figures whose appeal depends on spontaneity, volume, parasocial energy, and what happens when the camera never really turns off.',
+		matches: (person) => CREATOR_MEDIA_STREAMER_SLUGS.has(person.slug)
+	},
+	{
+		slug: 'viral-entertainers',
+		label: 'Viral Entertainers & Platform Giants',
+		description:
+			'Big-internet personalities who win through scale, spectacle, bits, and repeatable attention mechanics.',
+		matches: (person) => CREATOR_MEDIA_ENTERTAINER_SLUGS.has(person.slug)
+	},
+	{
+		slug: 'lifestyle-brand-builders',
+		label: 'Lifestyle & Celebrity Brand Builders',
+		description:
+			'Image-first creators whose leverage comes from taste, status, beauty, aspiration, and turning personal identity into a product line.',
+		matches: (person) =>
+			CREATOR_MEDIA_LIFESTYLE_SLUGS.has(person.slug) ||
+			person.types.includes('lifestyleInfluencer') ||
+			person.types.includes('influencer') ||
+			person.types.includes('tiktoker')
+	}
+];
+
+function buildCategoryGroups(
+	people: PersonalityCategoryPerson[],
+	definitions: PersonalityCategoryGroupDefinition[],
+	fallback: Pick<PersonalityCategoryGroup, 'slug' | 'label' | 'description'>
+): PersonalityCategoryGroup[] {
+	const grouped = new Map<string, PersonalityCategoryPerson[]>();
+	const unassigned: PersonalityCategoryPerson[] = [];
+
+	for (const definition of definitions) {
+		grouped.set(definition.slug, []);
+	}
+
+	for (const person of people) {
+		const definition = definitions.find((candidate) => candidate.matches(person));
+
+		if (!definition) {
+			unassigned.push(person);
+			continue;
+		}
+
+		grouped.get(definition.slug)?.push(person);
+	}
+
+	const results = definitions
+		.map((definition) => ({
+			slug: definition.slug,
+			label: definition.label,
+			description: definition.description,
+			people: sortPeopleForCategory(grouped.get(definition.slug) ?? [])
+		}))
+		.filter((group) => group.people.length > 0);
+
+	if (unassigned.length > 0) {
+		results.push({
+			...fallback,
+			people: sortPeopleForCategory(unassigned)
+		});
+	}
+
+	return results;
+}
+
+export function getPersonalityCategoryGroups(
+	categorySlug: PersonalityCategorySlug,
+	people: PersonalityCategoryPerson[]
+): PersonalityCategoryGroup[] {
+	if (categorySlug === 'creator-media') {
+		return buildCategoryGroups(people, CREATOR_MEDIA_GROUP_DEFINITIONS, {
+			slug: 'other-internet-personalities',
+			label: 'Other Internet Personalities',
+			description:
+				'Useful profiles that still belong in this category, but do not yet fit one of the tighter creator clusters.'
+		});
+	}
+
+	return [];
 }
