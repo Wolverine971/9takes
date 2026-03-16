@@ -20,15 +20,27 @@ instagram: ''
 tiktok: ''
 content_quality:
   hook: 9
-  enneagram: 9
+  enneagram: 8.5
   evidence: 8.5
   writing: 9
   originality: 9
-  overall: 8.9
+  overall: 8.8
   letter: 'B+'
-  graded_at: '2026-03-14'
+  graded_at: '2026-03-15'
 path: src/blog/people/drafts/Dario-Amodei.md
 ---
+
+<!-- QUALITY GRADE: B+ (8.8)
+Hook: 9 | Enneagram: 8.5 | Evidence: 8.5 | Writing: 9 | Originality: 9
+
+FEEDBACK (2026-03-15):
+- STANDOUT: The four-year gap between father's death and 95% cure rate is a signature detail that makes the entire analysis click — it explains the urgency, the safety obsession, and the acceleration through a single biographical fact.
+- STRONG PROSE: Multiple memorable lines — "The 14,000-word essay isn't procrastination. It's propulsion" and "For someone who processes the world by mapping it alone, letting another person share the map is no small thing" are both quotable.
+- STRONG STRUCTURE: The Pentagon red lines section adds current, high-stakes material that no other analysis has, and the ending circles back to the four-year gap without summarizing.
+- NEEDS WORK: Enneagram section lacks counter-typing (who might argue he's a 1 or a 6?), stress/growth arrows (what does a Five look like moving to 7 in growth or 8 in stress?), and instinctual variants. These would deepen the analysis significantly.
+- NEEDS WORK: Several quotes use vague attribution ("he has said," "he told Fortune") — adding specific interview dates/titles for at least 2-3 of these would strengthen evidence score.
+- TO REACH A (9.0): (1) Add a counter-typing paragraph — address why someone might type Dario as a 1 (moral conviction, red lines) or 6 (institutional loyalty, worst-case thinking) and explain why 5 fits better. (2) Weave in stress/growth arrows — his Pentagon defiance reads as a Five moving to Eight under stress (confrontational, line-drawing). His "Machines of Loving Grace" optimism reads as integration toward Seven. (3) Source 2-3 of the vaguely attributed quotes with specific interview names/dates.
+-->
 
 > "My father died because of cures that could have happened a few years earlier. I understand the benefit of this technology."
 

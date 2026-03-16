@@ -41,12 +41,14 @@ Instagram is much more aggressive about rate limiting than Twitter. Space action
 - `/docs/brand/brand-positioning.md` — Brand positioning and target audience
 - `/docs/instagram/gen-z-instagram-posting-cheat-sheet-2026.md` — Content framework
 - `/docs/instagram/instagram-launch-plan-feb-2026.md` — Voice and examples
-- `/docs/instagram/instagram-engagement-targets.md` — Account tracking with tiers (create if missing)
+- `/docs/instagram/instagram-engagement-targets.md` — Master account list with tiers (APPEND-ONLY — never overwrite)
+- `/docs/instagram/instagram-accounts-to-follow.md` — Full account descriptions and strategic context
 
 **Cross-Links:**
 
 - `/docs/instagram/instagram-posting-plan-mar-apr-2026.md` — Current posting schedule
 - `/docs/marketing/blog-distribution-strategy.md` — Instagram playbook section
+- `/docs/instagram/daily-engagement/` — Dated daily scan outputs (never overwritten)
 
 ---
 
@@ -227,8 +229,9 @@ Scroll through the home feed for:
    - `docs/brand/brand-style-guide-v2.md`
 
 2. **Engagement Targets** (who to scan + tiers):
-   - `docs/instagram/instagram-engagement-targets.md`
-   - If this file doesn't exist, create it with the competitor/niche accounts listed above and any accounts you discover during scanning.
+   - `docs/instagram/instagram-engagement-targets.md` — Master account list (APPEND-ONLY)
+   - If this file doesn't exist, create it with the competitor/niche accounts listed above.
+   - **NEVER overwrite or rewrite this file.** Only APPEND new rows to existing tables.
 
 3. **Instagram Strategy** (content pillars, posting schedule):
    - `docs/instagram/gen-z-instagram-posting-cheat-sheet-2026.md`
@@ -675,17 +678,46 @@ For each post, add this to the document:
 
 ---
 
-## After Each Scan — Update Living Documents
+## After Each Scan — Update Documents (APPEND-ONLY)
 
-**IMPORTANT:** After completing a warmup scan, update these living documents:
+**CRITICAL: NEVER overwrite or rewrite `instagram-engagement-targets.md`.** This is a master list that accumulates over time.
 
-1. **Engagement Targets** (`docs/instagram/instagram-engagement-targets.md`)
-   - Add any newly discovered accounts to appropriate tiers
-   - Update follower counts if changed significantly
-   - Note engagement quality observations
+### Step 1: Create a dated new-targets file
 
-2. **Instagram Posting Plan** (`docs/instagram/instagram-posting-plan-mar-apr-2026.md`)
-   - Note if content calendar adjustments are needed based on what's trending
+If new accounts were discovered during this scan, write them to a NEW dated file:
+`docs/instagram/daily-engagement/YYYY-MM-DD_new-targets.md`
+
+Format:
+
+```markdown
+# New Instagram Targets Discovered - [Date]
+
+**Scan date:** YYYY-MM-DD
+**Source:** /instagram-warmup scan
+
+## New Accounts
+
+| Account | Followers | Category                         | Content Type          | Engagement Quality | Suggested Tier | Why      |
+| ------- | --------- | -------------------------------- | --------------------- | ------------------ | -------------- | -------- |
+| @handle | Xk        | [Enneagram/Psychology/MBTI/etc.] | [Reels/Carousels/Mix] | [High/Medium/Low]  | [1/2/3/4]      | [reason] |
+
+## Updated Observations on Existing Accounts
+
+| Account | Update                                                                       | Date       |
+| ------- | ---------------------------------------------------------------------------- | ---------- |
+| @handle | [follower count change / content strategy shift / engagement quality change] | YYYY-MM-DD |
+```
+
+### Step 2: APPEND new accounts to the master list
+
+Open `docs/instagram/instagram-engagement-targets.md` and **add new rows** to the appropriate tier table. Do NOT delete, reorder, or rewrite existing rows. Only add.
+
+### Step 3: Note posting plan adjustments
+
+If trending content suggests calendar adjustments:
+
+- Note in the daily engagement doc's "Strategy Observations" section
+- Do NOT modify the posting plan directly
 
 ---
 
@@ -705,7 +737,7 @@ For each post, add this to the document:
 1. Note in daily engagement doc with HIGH PRIORITY flag
 2. Draft engagement options immediately
 3. Consider whether this warrants a 9takes content response (new post, Story, Reel)
-4. Update engagement targets if new accounts are worth tracking
+4. APPEND new accounts to engagement targets if worth tracking (never overwrite existing rows)
 
 ---
 
