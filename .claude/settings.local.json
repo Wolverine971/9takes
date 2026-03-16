@@ -1313,7 +1313,10 @@
 			"WebFetch(domain:dialectic.fm)",
 			"WebFetch(domain:podtranscript.com)",
 			"WebFetch(domain:www.thevitalizepodcast.com)",
-			"WebFetch(domain:apexventurestudio.substack.com)"
+			"WebFetch(domain:apexventurestudio.substack.com)",
+			"WebFetch(domain:www.magzter.com)",
+			"WebFetch(domain:www.vitalize.vc)",
+			"WebFetch(domain:www.wjournalpr.com)"
 		],
 		"deny": [],
 		"ask": [],

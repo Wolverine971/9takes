@@ -4,6 +4,7 @@ import { supabase } from '$lib/supabase';
 import type { Actions, PageServerLoad } from './$types';
 import { error } from '@sveltejs/kit';
 import { addESComment, addESCommentLike, addESSubscription } from '$lib/server/elasticSearch';
+import { safelyExitWelcomeSequenceForCommentCreation } from '$lib/server/welcomeSequenceGuards';
 import { checkDemoTime } from '../../../utils/api';
 import { mapDemoValues } from '../../../utils/demo';
 import { extractFirstURL } from '../../../utils/StringUtils';
@@ -170,7 +171,19 @@ export const actions: Actions = {
 		}
 
 		const commentData = await createCommentData(body, ip, demo_time);
-		return handleCommentCreation(commentData, body.parent_type as string, demo_time);
+		const record = await handleCommentCreation(commentData, body.parent_type as string, demo_time);
+
+		if (!demo_time && commentData.author_id) {
+			await safelyExitWelcomeSequenceForCommentCreation({
+				userId: commentData.author_id,
+				parentType: commentData.parent_type,
+				onError: (sequenceError) => {
+					console.error('Failed to exit welcome sequence after comment creation:', sequenceError);
+				}
+			});
+		}
+
+		return record;
 	},
 
 	createCommentRando: async ({ request, getClientAddress }) => {

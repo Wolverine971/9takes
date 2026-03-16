@@ -4,6 +4,7 @@ import { AuthApiError } from '@supabase/supabase-js';
 import type { PageServerLoad } from './$types';
 import { logger } from '$lib/utils/logger';
 import { verifyRecaptcha, isHoneypotTriggered } from '$lib/utils/recaptcha';
+import { safelyEnrollUserInWelcomeSequence } from '$lib/server/welcomeSequenceGuards';
 import { z } from 'zod';
 
 // Validation schema
@@ -60,7 +61,7 @@ export const actions: Actions = {
 
 			logger.info('Registration attempt', { email });
 
-			const { error: err } = await locals.supabase.auth.signUp({
+			const { data: signUpData, error: err } = await locals.supabase.auth.signUp({
 				email,
 				password,
 				options: {
@@ -81,6 +82,18 @@ export const actions: Actions = {
 					error: 'Server error. Please try again later.'
 				});
 			}
+
+			const newUserId = signUpData.user?.id;
+			await safelyEnrollUserInWelcomeSequence({
+				userId: newUserId,
+				email,
+				onError: (sequenceError) => {
+					logger.error('Failed to enroll user in welcome sequence', sequenceError as Error, {
+						email,
+						userId: newUserId
+					});
+				}
+			});
 
 			logger.info('Registration successful', { email });
 			return { success: true };

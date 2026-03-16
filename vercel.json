@@ -5,6 +5,12 @@
 	"installCommand": "pnpm i --no-frozen-lockfile",
 	"buildCommand": "pnpm run build",
 	"outputDirectory": ".svelte-kit/vercel",
+	"crons": [
+		{
+			"path": "/api/cron/process-sequences",
+			"schedule": "*/15 * * * *"
+		}
+	],
 	"rewrites": [
 		{
 			"source": "/proxytown/gtm",

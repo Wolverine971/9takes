@@ -19,6 +19,7 @@ interface SendEmailOptions {
 	to: string;
 	subject: string;
 	htmlContent: string;
+	plainTextContent?: string;
 	recipientName?: string;
 	trackingId?: string;
 	includeFooter?: boolean;
@@ -28,6 +29,13 @@ interface SendEmailResult {
 	success: boolean;
 	messageId?: string;
 	error?: string;
+}
+
+const UUID_PATTERN = /^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/i;
+
+function normalizeSentBy(sentBy?: string | null): string | null {
+	const normalized = sentBy?.trim();
+	return normalized && UUID_PATTERN.test(normalized) ? normalized : null;
 }
 
 /**
@@ -87,7 +95,15 @@ function makeBody({
  * Send a single email via Gmail API
  */
 export async function sendEmail(options: SendEmailOptions): Promise<SendEmailResult> {
-	const { to, subject, htmlContent, recipientName, trackingId, includeFooter = true } = options;
+	const {
+		to,
+		subject,
+		htmlContent,
+		plainTextContent,
+		recipientName,
+		trackingId,
+		includeFooter = true
+	} = options;
 
 	try {
 		// Validate that the private key environment variable is set
@@ -151,6 +167,7 @@ export async function sendEmail(options: SendEmailOptions): Promise<SendEmailRes
 					fromEmail: 'usersup@9takes.com',
 					subject,
 					htmlMessage: fullHtml,
+					plainTextMessage: plainTextContent,
 					unsubscribeUrl
 				})
 			},
@@ -180,12 +197,21 @@ export async function sendEmailWithTracking(
 		recipient: EmailRecipient;
 		subject: string;
 		htmlContent: string;
+		plainTextContent?: string;
 		campaignId?: string;
-		sentBy: string;
+		sentBy?: string | null;
 		includeFooter?: boolean;
 	}
 ): Promise<{ success: boolean; emailSend?: EmailSend; error?: string }> {
-	const { recipient, subject, htmlContent, campaignId, sentBy, includeFooter = true } = options;
+	const {
+		recipient,
+		subject,
+		htmlContent,
+		plainTextContent,
+		campaignId,
+		sentBy,
+		includeFooter = true
+	} = options;
 
 	// Create email_send record first to get tracking_id
 	const { data: emailSend, error: insertError } = await supabase
@@ -197,9 +223,9 @@ export async function sendEmailWithTracking(
 			recipient_source_id: recipient.source_id,
 			subject,
 			html_content: htmlContent,
-			plain_text_content: htmlToPlainText(htmlContent),
+			plain_text_content: plainTextContent ?? htmlToPlainText(htmlContent),
 			campaign_id: campaignId,
-			sent_by: sentBy,
+			sent_by: normalizeSentBy(sentBy),
 			status: 'pending'
 		})
 		.select()
@@ -217,6 +243,7 @@ export async function sendEmailWithTracking(
 		to: recipient.email,
 		subject,
 		htmlContent,
+		plainTextContent,
 		recipientName: recipient.name ?? undefined,
 		trackingId: emailSend.tracking_id,
 		includeFooter
@@ -245,8 +272,9 @@ export async function sendBatchEmails(
 		recipients: EmailRecipient[];
 		subject: string;
 		htmlContent: string;
+		plainTextContent?: string;
 		campaignId?: string;
-		sentBy: string;
+		sentBy?: string | null;
 		delayMs?: number; // Delay between sends to avoid rate limiting
 		includeFooter?: boolean;
 	}
@@ -259,6 +287,7 @@ export async function sendBatchEmails(
 		recipients,
 		subject,
 		htmlContent,
+		plainTextContent,
 		campaignId,
 		sentBy,
 		delayMs = 100,
@@ -275,6 +304,7 @@ export async function sendBatchEmails(
 			recipient,
 			subject,
 			htmlContent,
+			plainTextContent,
 			campaignId,
 			sentBy,
 			includeFooter

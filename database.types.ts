@@ -1677,6 +1677,164 @@ export type Database = {
           },
         ]
       }
+      email_sequence_enrollments: {
+        Row: {
+          created_at: string
+          current_step_number: number
+          enrolled_at: string
+          exit_reason: string | null
+          failure_count: number
+          id: string
+          last_email_send_id: string | null
+          last_error: string | null
+          last_sent_at: string | null
+          next_send_at: string | null
+          next_step_number: number | null
+          processing_started_at: string | null
+          recipient_email: string
+          recipient_source: string
+          recipient_source_id: string
+          sequence_id: string
+          status: string
+          updated_at: string
+          user_id: string
+        }
+        Insert: {
+          created_at?: string
+          current_step_number?: number
+          enrolled_at?: string
+          exit_reason?: string | null
+          failure_count?: number
+          id?: string
+          last_email_send_id?: string | null
+          last_error?: string | null
+          last_sent_at?: string | null
+          next_send_at?: string | null
+          next_step_number?: number | null
+          processing_started_at?: string | null
+          recipient_email: string
+          recipient_source: string
+          recipient_source_id: string
+          sequence_id: string
+          status?: string
+          updated_at?: string
+          user_id: string
+        }
+        Update: {
+          created_at?: string
+          current_step_number?: number
+          enrolled_at?: string
+          exit_reason?: string | null
+          failure_count?: number
+          id?: string
+          last_email_send_id?: string | null
+          last_error?: string | null
+          last_sent_at?: string | null
+          next_send_at?: string | null
+          next_step_number?: number | null
+          processing_started_at?: string | null
+          recipient_email?: string
+          recipient_source?: string
+          recipient_source_id?: string
+          sequence_id?: string
+          status?: string
+          updated_at?: string
+          user_id?: string
+        }
+        Relationships: [
+          {
+            foreignKeyName: "email_sequence_enrollments_last_email_send_id_fkey"
+            columns: ["last_email_send_id"]
+            isOneToOne: false
+            referencedRelation: "email_sends"
+            referencedColumns: ["id"]
+          },
+          {
+            foreignKeyName: "email_sequence_enrollments_sequence_id_fkey"
+            columns: ["sequence_id"]
+            isOneToOne: false
+            referencedRelation: "email_sequences"
+            referencedColumns: ["id"]
+          },
+        ]
+      }
+      email_sequence_steps: {
+        Row: {
+          created_at: string
+          delay_days_after_previous: number
+          html_content: string
+          id: string
+          plain_text: string | null
+          sequence_id: string
+          step_number: number
+          subject: string
+          updated_at: string
+        }
+        Insert: {
+          created_at?: string
+          delay_days_after_previous?: number
+          html_content: string
+          id?: string
+          plain_text?: string | null
+          sequence_id: string
+          step_number: number
+          subject: string
+          updated_at?: string
+        }
+        Update: {
+          created_at?: string
+          delay_days_after_previous?: number
+          html_content?: string
+          id?: string
+          plain_text?: string | null
+          sequence_id?: string
+          step_number?: number
+          subject?: string
+          updated_at?: string
+        }
+        Relationships: [
+          {
+            foreignKeyName: "email_sequence_steps_sequence_id_fkey"
+            columns: ["sequence_id"]
+            isOneToOne: false
+            referencedRelation: "email_sequences"
+            referencedColumns: ["id"]
+          },
+        ]
+      }
+      email_sequences: {
+        Row: {
+          created_at: string
+          description: string | null
+          display_name: string
+          id: string
+          key: string
+          status: string
+          trigger_type: string
+          updated_at: string
+        }
+        Insert: {
+          created_at?: string
+          description?: string | null
+          display_name: string
+          id?: string
+          key: string
+          status?: string
+          trigger_type: string
+          updated_at?: string
+        }
+        Update: {
+          created_at?: string
+          description?: string | null
+          display_name?: string
+          id?: string
+          key?: string
+          status?: string
+          trigger_type?: string
+          updated_at?: string
+        }
+        Relationships: []
+      }
       email_templates: {
         Row: {
           created_at: string | null
@@ -3210,6 +3368,23 @@ export type Database = {
         }
         Returns: boolean
       }
+      claim_pending_sequence_sends: {
+        Args: { p_limit?: number }
+        Returns: {
+          enneagram: string
+          enrollment_id: string
+          html_content: string
+          plain_text: string
+          recipient_email: string
+          recipient_name: string
+          recipient_source: string
+          recipient_source_id: string
+          sequence_key: string
+          step_number: number
+          subject: string
+          user_id: string
+        }[]
+      }
       cleanup_blogs_famous_people_history:
         | {
             Args: { p_famous_people_id: number }
@@ -3230,6 +3405,10 @@ export type Database = {
           number_modified: number
           number_of_comments: number
         }[]
+      }
+      complete_sequence_send: {
+        Args: { p_email_send_id?: string; p_enrollment_id: string }
+        Returns: undefined
       }
       count_email_dashboard_users: {
         Args: { p_search?: string; p_source?: string }
@@ -3262,6 +3441,24 @@ export type Database = {
         }[]
       }
       decrement_like_count: { Args: { comment_id: number }; Returns: undefined }
+      enroll_user_in_sequence: {
+        Args: {
+          p_email: string
+          p_recipient_source?: string
+          p_recipient_source_id?: string
+          p_sequence_key: string
+          p_user_id: string
+        }
+        Returns: string
+      }
+      exit_email_from_sequence: {
+        Args: { p_email: string; p_reason: string; p_sequence_key: string }
+        Returns: number
+      }
+      exit_user_from_sequence: {
+        Args: { p_reason: string; p_sequence_key: string; p_user_id: string }
+        Returns: number
+      }
       get_10_question_tags: {
         Args: never
         Returns: {
@@ -3661,6 +3858,10 @@ export type Database = {
           p_visit_key: string
         }
         Returns: boolean
+      }
+      retry_or_fail_sequence_send: {
+        Args: { p_enrollment_id: string; p_error: string }
+        Returns: undefined
       }
       search_all_blogs: {
         Args: {

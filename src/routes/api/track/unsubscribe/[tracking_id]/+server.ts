@@ -3,7 +3,7 @@
 
 import { error } from '@sveltejs/kit';
 import type { RequestHandler } from './$types';
-import { supabase } from '$lib/supabase';
+import { exitWelcomeSequenceForEmail } from '$lib/server/emailSequences';
 
 function escapeHtml(value: string): string {
 	return value.replace(/[&<>"']/g, (char) => {
@@ -24,8 +24,11 @@ function escapeHtml(value: string): string {
 	});
 }
 
-async function getRecipientEmailByTrackingId(trackingId: string): Promise<string | null> {
-	const supabaseAny = supabase as any;
+async function getRecipientEmailByTrackingId(
+	supabaseClient: any,
+	trackingId: string
+): Promise<string | null> {
+	const supabaseAny = supabaseClient as any;
 	const { data: emailSend, error: emailSendError } = await supabaseAny
 		.from('email_sends')
 		.select('recipient_email')
@@ -41,13 +44,14 @@ async function getRecipientEmailByTrackingId(trackingId: string): Promise<string
 }
 
 async function unsubscribeWithTrackingId(
+	supabaseClient: any,
 	trackingId: string,
 	request: Request
 ): Promise<{ recipientEmail: string | null; unsubscribeError: any }> {
 	const ip = request.headers.get('x-forwarded-for')?.split(',')[0]?.trim() || 'unknown';
 	const userAgent = request.headers.get('user-agent') || 'unknown';
 
-	const supabaseAny = supabase as any;
+	const supabaseAny = supabaseClient as any;
 	const { data: recipientEmail, error: unsubscribeError } = await supabaseAny.rpc(
 		'track_email_unsubscribe',
 		{
@@ -60,9 +64,9 @@ async function unsubscribeWithTrackingId(
 	return { recipientEmail, unsubscribeError };
 }
 
-export const GET: RequestHandler = async ({ params }) => {
+export const GET: RequestHandler = async ({ params, locals }) => {
 	const { tracking_id } = params;
-	const recipientEmail = await getRecipientEmailByTrackingId(tracking_id);
+	const recipientEmail = await getRecipientEmailByTrackingId(locals.supabase, tracking_id);
 
 	if (!recipientEmail) {
 		throw error(404, 'Email not found');
@@ -138,10 +142,11 @@ export const GET: RequestHandler = async ({ params }) => {
 	});
 };
 
-export const POST: RequestHandler = async ({ params, request }) => {
+export const POST: RequestHandler = async ({ params, request, locals }) => {
 	const { tracking_id } = params;
 
 	const { recipientEmail, unsubscribeError } = await unsubscribeWithTrackingId(
+		locals.supabase,
 		tracking_id,
 		request
 	);
@@ -154,6 +159,13 @@ export const POST: RequestHandler = async ({ params, request }) => {
 	if (!recipientEmail) {
 		throw error(404, 'Email not found');
 	}
+
+	try {
+		await exitWelcomeSequenceForEmail(recipientEmail, 'unsubscribed');
+	} catch (sequenceError) {
+		console.error('Failed to exit welcome sequence on unsubscribe:', sequenceError);
+	}
+
 	const escapedRecipientEmail = escapeHtml(recipientEmail);
 
 	const acceptsHtml = request.headers.get('accept')?.includes('text/html');

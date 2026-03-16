@@ -46,6 +46,7 @@ import { elasticClient } from '$lib/server/elasticSearch';
 import { checkDemoTime } from '../../../utils/api';
 import { mapDemoValues } from '../../../utils/demo';
 import { uploadQuestionImage } from '$lib/server/questionImages';
+import { safelyExitWelcomeSequenceForQuestionCreation } from '$lib/server/welcomeSequenceGuards';
 
 export const actions: Actions = {
 	getUrl: async ({ request, locals }) => {
@@ -280,6 +281,23 @@ export const actions: Actions = {
 					url,
 					userId: session.user.id
 				});
+
+				if (!demo_time) {
+					await safelyExitWelcomeSequenceForQuestionCreation({
+						userId: author_id,
+						onError: (sequenceError) => {
+							logger.error(
+								'Failed to exit welcome sequence after question creation',
+								sequenceError as Error,
+								{
+									questionId,
+									userId: author_id
+								}
+							);
+						}
+					});
+				}
+
 				return mapDemoValues(insertedQuestion);
 			}
 

@@ -5,9 +5,10 @@
 import { json, error } from '@sveltejs/kit';
 import type { RequestHandler } from './$types';
 import { PRIVATE_CRON_SECRET } from '$env/static/private';
-import { supabase } from '$lib/supabase';
+import { env } from '$env/dynamic/private';
 import { sendBatchEmails } from '$lib/email/sender';
 import { getSuppressedEmailSet, normalizeEmail } from '$lib/email/suppression';
+import { getSupabaseAdminClient } from '$lib/server/supabaseAdmin';
 
 type ScheduledRecipient = {
 	email: string;
@@ -25,26 +26,29 @@ type ScheduledEmailRow = {
 	created_by: string | null;
 };
 
-const scheduledEmailsTable = () =>
+const scheduledEmailsTable = (supabaseClient: any) =>
 	(
-		supabase as unknown as {
+		supabaseClient as {
 			from: (table: 'scheduled_emails') => any;
 		}
 	).from('scheduled_emails');
 
 // Shared handler for both GET and POST
 async function processScheduledEmails(request: Request) {
+	const supabase = getSupabaseAdminClient() as any;
+	const expectedCronSecret = PRIVATE_CRON_SECRET || env.CRON_SECRET;
+
 	// Verify cron secret (Vercel adds this header, pg_cron sends it via pg_net)
 	const authHeader = request.headers.get('authorization');
 
 	// In production, verify the secret
-	if (PRIVATE_CRON_SECRET && authHeader !== `Bearer ${PRIVATE_CRON_SECRET}`) {
+	if (expectedCronSecret && authHeader !== `Bearer ${expectedCronSecret}`) {
 		throw error(401, 'Unauthorized');
 	}
 
 	try {
 		// Get pending scheduled emails that are due
-		const { data: scheduledEmailsData, error: fetchError } = await scheduledEmailsTable()
+		const { data: scheduledEmailsData, error: fetchError } = await scheduledEmailsTable(supabase)
 			.select('*')
 			.eq('status', 'pending')
 			.lte('scheduled_for', new Date().toISOString())
@@ -70,7 +74,7 @@ async function processScheduledEmails(request: Request) {
 
 		for (const scheduled of scheduledEmails) {
 			// Mark as processing
-			await scheduledEmailsTable().update({ status: 'processing' }).eq('id', scheduled.id);
+			await scheduledEmailsTable(supabase).update({ status: 'processing' }).eq('id', scheduled.id);
 
 			try {
 				const recipients = Array.isArray(scheduled.recipients) ? scheduled.recipients : [];
@@ -95,7 +99,7 @@ async function processScheduledEmails(request: Request) {
 						error: 'Skipped: recipient unsubscribed before scheduled send'
 					}));
 
-					await scheduledEmailsTable()
+					await scheduledEmailsTable(supabase)
 						.update({
 							status: 'completed',
 							processed_at: new Date().toISOString(),
@@ -120,7 +124,7 @@ async function processScheduledEmails(request: Request) {
 					subject: scheduled.subject,
 					htmlContent: scheduled.html_content ?? '',
 					campaignId: scheduled.campaign_id ?? undefined,
-					sentBy: scheduled.created_by ?? 'system-cron',
+					sentBy: scheduled.created_by ?? undefined,
 					delayMs: 100,
 					includeFooter: true
 				});
@@ -135,7 +139,7 @@ async function processScheduledEmails(request: Request) {
 					.map((r) => ({ email: r.email, error: r.error || 'Unknown error' }));
 
 				// Mark as completed
-				await scheduledEmailsTable()
+				await scheduledEmailsTable(supabase)
 					.update({
 						status: 'completed',
 						processed_at: new Date().toISOString(),
@@ -155,7 +159,7 @@ async function processScheduledEmails(request: Request) {
 				console.error('Error processing scheduled email:', scheduled.id, err);
 
 				// Mark as failed
-				await scheduledEmailsTable()
+				await scheduledEmailsTable(supabase)
 					.update({
 						status: 'failed',
 						processed_at: new Date().toISOString(),
