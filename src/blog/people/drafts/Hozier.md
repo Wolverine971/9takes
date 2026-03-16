@@ -1,5 +1,6 @@
 ---
 title: "Hozier: The Poetic Soul Behind Ireland's Most Moving Songwriting"
+persona_title: "Ireland's Devotional Mourner"
 meta_title: "Why Hozier Can't Stop Turning Pain Into Art (His Hidden Personality Pattern)"
 description: "Discover the psychological depth behind Hozier's melancholic genius. Explore how his Type 4 personality shapes his music, activism, and poetic vision."
 author: 'DJ Wayne'

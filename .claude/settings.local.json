@@ -1308,7 +1308,12 @@
 			"WebFetch(domain:www.antler.co)",
 			"WebFetch(domain:justgogrind.com)",
 			"WebFetch(domain:www.listennotes.com)",
-			"WebFetch(domain:justgogrind.libsyn.com)"
+			"WebFetch(domain:justgogrind.libsyn.com)",
+			"WebFetch(domain:www.superangel.blog)",
+			"WebFetch(domain:dialectic.fm)",
+			"WebFetch(domain:podtranscript.com)",
+			"WebFetch(domain:www.thevitalizepodcast.com)",
+			"WebFetch(domain:apexventurestudio.substack.com)"
 		],
 		"deny": [],
 		"ask": [],

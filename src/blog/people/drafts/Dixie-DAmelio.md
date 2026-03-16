@@ -1,5 +1,6 @@
 ---
 title: "Dixie D'Amelio: The Hidden Struggle Behind TikTok's Other Sister"
+persona_title: "TikTok's Shadow Sister"
 meta_title: "Why Dixie D'Amelio Can't Escape Charli's Shadow (Psychology Explained)"
 description: "Inside Dixie D'Amelio's battle with identity, anxiety, and being the 'other' D'Amelio sister. A deep Type 4 personality analysis."
 author: 'DJ Wayne'

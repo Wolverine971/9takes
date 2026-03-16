@@ -58,6 +58,43 @@ export function buildHowToSchema(options: {
 	};
 }
 
+export interface BreadcrumbItem {
+	name: string;
+	url: string;
+}
+
+/**
+ * Builds BreadcrumbList JSON-LD schema
+ * @see https://schema.org/BreadcrumbList
+ */
+export function buildBreadcrumbSchema(items: BreadcrumbItem[]) {
+	return {
+		'@context': 'https://schema.org',
+		'@type': 'BreadcrumbList',
+		itemListElement: items.map((item, index) => ({
+			'@type': 'ListItem',
+			position: index + 1,
+			name: item.name,
+			item: item.url
+		}))
+	};
+}
+
+/**
+ * Builds BreadcrumbList schema as part of a @graph array
+ */
+export function buildBreadcrumbSchemaForGraph(items: BreadcrumbItem[]) {
+	return {
+		'@type': 'BreadcrumbList',
+		itemListElement: items.map((item, index) => ({
+			'@type': 'ListItem',
+			position: index + 1,
+			name: item.name,
+			item: item.url
+		}))
+	};
+}
+
 /**
  * Builds FAQPage schema as part of a @graph array (for pages with multiple schema types)
  */

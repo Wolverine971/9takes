@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 6
-type: ['celebrity']
+type: ['comedian', 'celebrity']
 person: 'Stephen-Colbert'
 suggestions: ['Trevor-Noah', 'Jon-Stewart', 'Jimmy-Fallon', 'Aubrey-Plaza']
 wikipedia: 'https://en.wikipedia.org/wiki/Stephen_Colbert'

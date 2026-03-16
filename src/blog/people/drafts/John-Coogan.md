@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 3
-type: ['creator']
+type: ['creator', 'entrepreneur']
 person: 'John-Coogan'
 suggestions: ['Jason-Calacanis', 'Alex-Hormozi', 'Steven-Bartlett', 'Sam-Altman']
 wikipedia: ''

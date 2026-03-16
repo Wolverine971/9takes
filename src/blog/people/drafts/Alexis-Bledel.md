@@ -1,5 +1,6 @@
 ---
 title: 'Alexis Bledel: The Woman Who Stumbled Into Fame and Chose Her Own Disappearance'
+persona_title: "Television's Deliberate Ghost"
 meta_title: 'Why Alexis Bledel Disappeared From Hollywood (And What It Reveals)'
 description: "She couldn't find her marks on set and needed Lauren Graham to physically steer her through scenes. How did Alexis Bledel become one of TV's most iconic stars — and why did she walk away?"
 author: 'DJ Wayne'

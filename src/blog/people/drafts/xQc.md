@@ -1,5 +1,6 @@
 ---
 title: "xQc: The Psychology Behind Twitch's Most Chaotic Streamer"
+persona_title: "Streaming's Doomsday Escape Artist"
 meta_title: "Why xQc Can't Stop Chasing the Next Thrill (Type 7 Psychology Explained)"
 description: "xQc's Type 7 personality explains everything: the $100M Kick deal, 200-hour streaming months, gambling addiction, and why he can't sit still. Here's the psychology."
 author: 'DJ Wayne'

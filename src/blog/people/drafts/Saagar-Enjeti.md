@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 7
-type: ['creator']
+type: ['journalist', 'creator']
 person: 'Saagar-Enjeti'
 suggestions: ['Tucker-Carlson', 'Lex-Fridman', 'Joe-Rogan', 'Ben-Shapiro']
 wikipedia: 'https://en.wikipedia.org/wiki/Saagar_Enjeti'

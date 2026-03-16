@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: '6'
-type: ['movieStar']
+type: ['comedian', 'movieStar']
 person: 'Aubrey-Plaza'
 suggestions: ['Zoe Kravitz', 'Blake Lively', 'Margot Robbie', 'Timothee Chalamet']
 wikipedia: 'None'

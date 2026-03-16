@@ -1,5 +1,6 @@
 ---
 title: 'George R.R. Martin: The Enneagram Type 5 Who Built Westeros From a Toy Turtle Castle'
+persona_title: "Fantasy's Fortress Gardener"
 meta_title: "Why George R.R. Martin Can't Finish The Winds of Winter (The Psychology Explained)"
 description: "George R.R. Martin turned pet turtle deaths into epic fantasy. Now he's trapped in a world so detailed even its creator can't escape."
 author: 'DJ Wayne'

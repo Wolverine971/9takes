@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 6
-type: ['celebrity']
+type: ['comedian', 'celebrity']
 person: 'Trevor-Noah'
 suggestions: ['Jon-Stewart', 'Dave-Chappelle', 'Kevin-Hart', 'Dax-Shepard']
 wikipedia: 'https://en.wikipedia.org/wiki/Trevor_Noah'

@@ -1,5 +1,6 @@
 ---
 title: 'Jocko Willink: The Psychology Behind Extreme Ownership'
+persona_title: "Discipline's Unresting Protector"
 meta_title: "Why Jocko Willink Can't Stop Waking Up at 4AM (The Real Reason)"
 description: "What drives a Navy SEAL to embrace total responsibility? Discover Jocko Willink's Type 8 personality and the psychology behind his extreme discipline."
 author: 'DJ Wayne'

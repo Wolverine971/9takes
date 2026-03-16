@@ -1,5 +1,6 @@
 ---
 title: "Justin Trudeau: The Type 3 Psychology Behind Canada's Hope Brand"
+persona_title: "Canada's Hope Brand"
 meta_title: 'Justin Trudeau Enneagram Type 3 | The Hope Brand and the Fear of Failure'
 description: 'At five, Justin Trudeau saw his mother crying and his father stone-faced. The psychology behind his career: keep the face on, no matter what it costs.'
 author: 'DJ Wayne'

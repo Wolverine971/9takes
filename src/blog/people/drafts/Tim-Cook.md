@@ -1,5 +1,6 @@
 ---
 title: "Tim Cook: The Quiet Perfectionist Running the World's Most Valuable Company"
+persona_title: "Apple's Moral Metronome"
 meta_title: "Why Tim Cook's Moral Compass Made Him Steve Jobs' Successor"
 description: "Tim Cook calls inventory 'fundamentally evil' and wakes at 3:45 AM. The personality forged by a childhood cross burning in Alabama."
 author: 'DJ Wayne'

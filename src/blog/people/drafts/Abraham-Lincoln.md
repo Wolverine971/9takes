@@ -1,5 +1,6 @@
 ---
 title: 'Abraham Lincoln: Accessible to Everyone, Known by No One'
+persona_title: "America's Melancholy Peacemaker"
 description: "The man who held a nation together never trusted himself with a pocket knife. Inside Abraham Lincoln's Type 9 psychology — the hot letters, the scheduled grief, and the cost of being the Peacemaker."
 author: 'DJ Wayne'
 date: '2025-03-24'

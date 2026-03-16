@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 8
-type: ['creator']
+type: ['creator', 'comedian']
 person: 'Joe-Rogan'
 suggestions:
   [

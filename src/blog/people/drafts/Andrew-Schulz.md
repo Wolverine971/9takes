@@ -1,5 +1,6 @@
 ---
 title: "Andrew Schulz: The Psychology Behind Comedy's Most Fearless Entrepreneur"
+persona_title: "Comedy's Freedom Addict"
 meta_title: "Why Andrew Schulz Can't Stop Fighting the System (It's Not Just Ego)"
 description: 'Amazon told Andrew Schulz to cut jokes. He spent his life savings buying the special back and made 3x more. Inside the psychology of never being controlled.'
 author: 'DJ Wayne'

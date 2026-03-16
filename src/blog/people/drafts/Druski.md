@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 8
-type: ['creator']
+type: ['comedian', 'creator']
 person: 'Druski'
 suggestions: ['Kai-Cenat', 'IShowSpeed', 'Kevin-Hart', 'Theo-Von']
 wikipedia: 'https://en.wikipedia.org/wiki/Druski'

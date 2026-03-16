@@ -1,5 +1,6 @@
 ---
 title: 'Michael B. Jordan: The Actor Who Keeps Disappearing'
+persona_title: "Hollywood's Self-Erasing Leading Man"
 meta_title: "Michael B. Jordan Isn't Performing — He's Disappearing"
 description: "Michael B. Jordan's mother couldn't recognize him in Sinners. His Enneagram Type 3 personality explains why: the compulsive need to transform, the Killmonger crash, and the loneliness underneath."
 author: 'DJ Wayne'

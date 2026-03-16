@@ -1,5 +1,6 @@
 ---
 title: "Bella Hadid: The Supermodel's Battle for Identity, Health & Authenticity"
+persona_title: "Fashion's Erased Daughter"
 meta_title: "Why Bella Hadid Can't Stop Searching for Her True Self"
 description: "She got a nose job at 14 and lost the face of her ancestors before knowing who she was. Bella Hadid's search for identity started with erasure."
 author: 'DJ Wayne'

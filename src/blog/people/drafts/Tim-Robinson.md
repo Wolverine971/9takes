@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 4
-type: ['comedian', 'creator']
+type: ['comedian']
 person: 'Tim-Robinson'
 suggestions: ['Pete-Davidson', 'Aubrey-Plaza', 'Billie-Eilish', 'Paul-Rudd']
 wikipedia: 'https://en.wikipedia.org/wiki/Tim_Robinson_(comedian)'

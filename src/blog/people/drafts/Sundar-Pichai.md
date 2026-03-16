@@ -1,5 +1,6 @@
 ---
 title: "Sundar Pichai: The Quiet Force Behind Google's Empire"
+persona_title: "Google's Quiet Shock Absorber"
 meta_title: "Why Sundar Pichai Never Fights Back - The Psychology of Google's Calm CEO"
 description: "Sundar Pichai's father spent a year's salary on one plane ticket. That sacrifice forged the personality now leading Google — quiet, steady, and selfless."
 author: 'DJ Wayne'

@@ -1,5 +1,6 @@
 ---
 title: 'Shane Gillis: The Man Who Quit Everything Except Comedy'
+persona_title: "Comedy's Quiet Holdout"
 meta_title: "Shane Gillis's Type 9 Personality — The Quiet Stubbornness Behind the Comeback"
 description: "Shane Gillis quit West Point, got fired from SNL, and kept going. Inside the Type 9 psychology that turned the man who quits into the comedian who won't stop."
 author: 'DJ Wayne'

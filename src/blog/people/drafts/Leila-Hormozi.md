@@ -1,5 +1,6 @@
 ---
 title: "Leila Hormozi: The Debt She's Still Paying Has Nothing to Do With Money"
+persona_title: "Business's Worthiness Machine"
 meta_title: "Inside Leila Hormozi's Mind: The Dark Past Behind Her $100M Empire"
 description: "Leila Hormozi said 'I'd sleep with you under a bridge' and 'we're assets to each other.' The personality behind both: shame is the engine."
 author: 'DJ Wayne'

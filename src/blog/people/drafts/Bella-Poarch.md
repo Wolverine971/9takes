@@ -1,5 +1,6 @@
 ---
 title: 'Bella Poarch: The Girl Forbidden to Speak Who Conquered the Internet in Silence'
+persona_title: "TikTok's Silent Survivor"
 meta_title: 'Why Bella Poarch Never Needed Words to Break the Internet'
 description: "Explore how Bella Poarch's silenced childhood shaped her rise as TikTok's most-liked creator. A Type 9 story of quiet rebellion."
 author: 'DJ Wayne'

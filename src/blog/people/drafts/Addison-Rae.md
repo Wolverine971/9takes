@@ -1,5 +1,6 @@
 ---
 title: "Addison Rae: The Psychology of TikTok's Most Strategic Reinvention"
+persona_title: "Pop's Comeback Engineer"
 meta_title: 'Why Addison Rae Became Cool Again (After the Internet Wrote Her Off)'
 description: 'The internet called her cringe in 2021. By 2026, she was Grammy-nominated. Addison Rae treated every public failure as data for the next reinvention.'
 author: 'DJ Wayne'

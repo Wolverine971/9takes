@@ -1,5 +1,6 @@
 ---
 title: 'Hailey Bieber: The Billion-Dollar Brand Behind the Balanced Exterior'
+persona_title: "Beauty's Polished Prover"
 description: 'Hailey Bieber built Rhode into a billion-dollar brand in three years. The personality behind the polish? A belief that love must be earned, never given.'
 author: 'DJ Wayne'
 date: '2025-06-25'

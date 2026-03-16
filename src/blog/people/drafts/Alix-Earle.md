@@ -1,5 +1,6 @@
 ---
 title: "Alix Earle: Inside the Mind of TikTok's Most Relatable Achiever"
+persona_title: "TikTok's Messy Valedictorian"
 meta_title: 'Why Millions Feel Like Alix Earle Is Their Best Friend (The Psychology Explained)'
 description: "How Alix Earle built a TikTok empire by showing her mess. Discover the Enneagram Type 3 patterns behind her influence, from family scandal to the 'Alix Earle effect.'"
 author: 'DJ Wayne'

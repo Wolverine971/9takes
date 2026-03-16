@@ -1,5 +1,6 @@
 ---
 title: "Amy Poehler: The Fierce Protector Behind Comedy's Warmest Smile"
+persona_title: "Comedy's Warm-Hearted Enforcer"
 description: "'I don't care if you like it.' Amy Poehler said it to Fallon's face at SNL — then built three organizations so other women could say it too."
 author: 'DJ Wayne'
 date: '2025-12-03'
@@ -9,7 +10,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 8
-type: ['celebrity', 'movieStar']
+type: ['comedian', 'celebrity', 'movieStar']
 person: 'Amy-Poehler'
 suggestions: ['Tina-Fey', 'Aubrey-Plaza', 'Chelsea-Handler', 'Kevin-Hart']
 wikipedia: 'https://en.wikipedia.org/wiki/Amy_Poehler'

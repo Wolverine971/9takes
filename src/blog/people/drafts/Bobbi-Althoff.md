@@ -1,5 +1,6 @@
 ---
 title: 'Bobbi Althoff: The Psychology Behind the Deadpan Persona'
+persona_title: "Podcasting's Awkward Alchemist"
 meta_title: 'Why Bobbi Althoff Acts So Awkward (The Dark Truth Behind Her Persona)'
 description: "Inside Bobbi Althoff's psychology: how childhood trauma, a suicide attempt at 14, and deep insecurity created her viral deadpan persona."
 author: 'DJ Wayne'

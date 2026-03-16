@@ -1,5 +1,6 @@
 ---
 title: 'Ashby: The Woman Who Had to Become Everyone Else Before Anyone Would See Her'
+persona_title: "The Internet's Character Escape Artist"
 meta_title: "Inside Ashby Florence's Type 7 Mind: Why Playing Characters Is How She Finally Got to Be Herself"
 description: "She trained for Broadway since childhood. The world ignored her for 20 years. Then a fevered TikTok in a Sharpie goatee changed everything. Inside Ashby Florence's Type 7 psychology."
 author: 'DJ Wayne'

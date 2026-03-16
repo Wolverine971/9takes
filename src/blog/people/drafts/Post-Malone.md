@@ -1,5 +1,6 @@
 ---
 title: "Post Malone: The Enneagram Type 9 Who Couldn't Disappear"
+persona_title: "Music's Tattooed Ghost"
 meta_title: "Why Post Malone Tattooed His Face (It's Not What You Think)"
 description: 'Post Malone spent his life trying to disappear. His face tattoos, genre-hopping, and laid-back persona hide a Type 9 war between numbness and presence.'
 author: 'DJ Wayne'

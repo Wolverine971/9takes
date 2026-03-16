@@ -1,5 +1,6 @@
 ---
 title: "Princess Diana: The Helper Who Became the People's Princess"
+persona_title: "The People's Wounded Caretaker"
 description: 'Princess Diana waited on a doorstep at five for a mother who never came back. Her entire personality — the giving, the rebellion — was an answer to that moment.'
 author: 'DJ Wayne'
 date: '2025-03-24'

@@ -1,5 +1,6 @@
 ---
 title: "Charli D'Amelio: The Girl Who Disappeared Into Her Own Fame"
+persona_title: "TikTok's Vanishing Center"
 meta_title: "Inside Charli D'Amelio's Psychology: Why Fame Made Her Lose Herself"
 description: "At 100 million followers, Charli D'Amelio was having 15 panic attacks a day. The psychology behind TikTok's most watched identity crisis."
 author: 'DJ Wayne'

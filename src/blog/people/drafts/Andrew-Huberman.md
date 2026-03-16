@@ -1,5 +1,6 @@
 ---
 title: "Andrew Huberman: Inside the Mind of Neuroscience's Most Influential Voice"
+persona_title: "Neuroscience's Protocol Monk"
 meta_title: "Why Andrew Huberman Can't Stop Optimizing Everything | The Pattern Behind the Protocols"
 description: 'Andrew Huberman had a childhood tic he could only control by learning. That same psychology now runs a wellness empire — and nearly destroyed his personal life.'
 author: 'DJ Wayne'

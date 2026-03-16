@@ -1,5 +1,6 @@
 ---
 title: 'Cillian Murphy: The Invisible Man Behind Intense Eyes'
+persona_title: "Cinema's Invisible Vessel"
 description: 'No internet at home. No social media. No smartphone. Cillian Murphy built the most extreme privacy fortress in Hollywood — then empties himself completely on screen.'
 author: 'DJ Wayne'
 date: '2024-12-03'
