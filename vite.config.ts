@@ -1,6 +1,7 @@
 // vite.config.ts
 import { enhancedImages } from '@sveltejs/enhanced-img';
 import { sveltekit } from '@sveltejs/kit/vite';
+import { svelteTesting } from '@testing-library/svelte/vite';
 import { nodeLoaderPlugin } from '@vavite/node-loader/plugin';
 import path from 'path';
 import { fileURLToPath } from 'url';
@@ -10,7 +11,7 @@ const dev = process.env.NODE_ENV === 'development';
 
 /** @type {import('vite').UserConfig} */
 const config = {
-	plugins: [enhancedImages(), sveltekit(), nodeLoaderPlugin()],
+	plugins: [enhancedImages(), sveltekit(), svelteTesting(), nodeLoaderPlugin()],
 	resolve: {
 		preserveSymlinks: false
 	},

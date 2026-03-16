@@ -53,6 +53,7 @@
 		"eslint-plugin-svelte": "^3.14.0",
 		"fast-glob": "^3.3.3",
 		"flowbite": "^2.5.1",
+		"jsdom": "^29.0.0",
 		"mdsvex": "^0.12.6",
 		"postcss": "^8.4.47",
 		"postcss-load-config": "^4.0.2",

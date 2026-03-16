@@ -1,7 +1,8 @@
+// src/routes/register/register.page.server.spec.ts
 import { beforeEach, describe, expect, it, vi } from 'vitest';
 
-const { verifyRecaptchaMock, isHoneypotTriggeredMock, safelyEnrollMock, loggerMocks } =
-	vi.hoisted(() => ({
+const { verifyRecaptchaMock, isHoneypotTriggeredMock, safelyEnrollMock, loggerMocks } = vi.hoisted(
+	() => ({
 		verifyRecaptchaMock: vi.fn(),
 		isHoneypotTriggeredMock: vi.fn(),
 		safelyEnrollMock: vi.fn(),
@@ -10,7 +11,8 @@ const { verifyRecaptchaMock, isHoneypotTriggeredMock, safelyEnrollMock, loggerMo
 			warn: vi.fn(),
 			error: vi.fn()
 		}
-	}));
+	})
+);
 
 vi.mock('$lib/utils/recaptcha', () => ({
 	verifyRecaptcha: verifyRecaptchaMock,
@@ -40,10 +42,7 @@ function buildRegisterRequest(overrides: Record<string, string> = {}) {
 	});
 }
 
-function buildEvent(signUpResult?: {
-	data?: { user?: { id: string } | null };
-	error?: unknown;
-}) {
+function buildEvent(signUpResult?: { data?: { user?: { id: string } | null }; error?: unknown }) {
 	const signUp = vi.fn().mockResolvedValue(
 		signUpResult ?? {
 			data: { user: { id: 'user-123' } },

@@ -1,57 +1,154 @@
 // src/lib/components/molecules/Interact.spec.ts
-import { beforeEach, describe, expect, it } from 'vitest';
+// @vitest-environment jsdom
+
+import { fireEvent, render, waitFor } from '@testing-library/svelte';
+import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
+
+const {
+	deserializeMock,
+	notificationsSuccessMock,
+	notificationsInfoMock,
+	notificationsDangerMock,
+	fingerprintGetMock,
+	fetchMock
+} = vi.hoisted(() => ({
+	deserializeMock: vi.fn(),
+	notificationsSuccessMock: vi.fn(),
+	notificationsInfoMock: vi.fn(),
+	notificationsDangerMock: vi.fn(),
+	fingerprintGetMock: vi.fn(),
+	fetchMock: vi.fn()
+}));
+
+vi.mock('$app/forms', () => ({
+	deserialize: deserializeMock
+}));
+
+vi.mock('$lib/components/molecules/notifications', () => ({
+	notifications: {
+		success: notificationsSuccessMock,
+		info: notificationsInfoMock,
+		danger: notificationsDangerMock
+	}
+}));
+
+vi.mock('@fingerprintjs/fingerprintjs', () => ({
+	default: {
+		load: vi.fn().mockResolvedValue({
+			get: fingerprintGetMock
+		})
+	}
+}));
+
+vi.mock('svelte/transition', () => ({
+	slide: vi.fn(() => ({
+		duration: 0
+	}))
+}));
+
 import Interact from './Interact.svelte';
 
-import { render, fireEvent } from '@testing-library/svelte';
-
 describe('Interact', () => {
-	it('Should be able to add comment', async () => {
-		const { getByText, getByTestId } = render(Interact, {
-			parentType: 'question',
-			questionId: 85,
-			qrCodeUrl: '',
-			user: null,
+	beforeEach(() => {
+		deserializeMock.mockReset();
+		deserializeMock.mockReturnValue({
+			type: 'success',
 			data: {
-				question: {
-					id: 85,
-					question: 'what are you thinking about these days',
-					created_at: '2023-09-22T05:23:03.858015+00:00',
-					url: 'what-are-you-thinking-about-these-days',
-					img_url: '',
-					es_id: '48FXu4oBxTGqyww5ba_8',
-					comment_count: 10,
-					removed: false,
-					flagged: false,
-					subscriptions: []
-				},
-				comments: [],
-				removedComments: [],
-				comment_count: 11,
-				removed_comment_count: 0,
-				questionTags: [],
-				user: null,
-				flags: {
-					userHasAnswered: false,
-					userSignedIn: false
-				},
-				aiComments: null,
-				links: null,
-				links_count: 0,
-				flagReasons: []
+				id: 123,
+				comment: 'Posted comment'
 			}
 		});
 
-		const commentBox = getByTestId('comment-box');
+		notificationsSuccessMock.mockReset();
+		notificationsInfoMock.mockReset();
+		notificationsDangerMock.mockReset();
 
-		commentBox.innerText = 'test comment';
+		fingerprintGetMock.mockReset();
+		fingerprintGetMock.mockResolvedValue({
+			visitorId: 'visitor-123'
+		});
 
-		const button = getByTestId('comment-button');
+		fetchMock.mockReset();
+		fetchMock.mockResolvedValue({
+			text: vi.fn().mockResolvedValue('{"type":"success","data":"[]"}')
+		});
 
-		// Using await when firing events is unique to the svelte testing library because
-		// we have to wait for the next `tick` so that Svelte flushes all pending state changes.
+		vi.stubGlobal('fetch', fetchMock);
+	});
+
+	afterEach(() => {
+		vi.unstubAllGlobals();
+	});
+
+	it('Should be able to add comment', async () => {
+		const oncommentAdded = vi.fn();
+		const longComment =
+			'This is a detailed comment that is intentionally long enough to avoid the short-answer confirmation path and submit immediately.';
+
+		const { getByRole } = render(Interact, {
+			intro: false,
+			props: {
+				parentType: 'question',
+				questionId: 85,
+				qrCodeUrl: '',
+				user: null,
+				oncommentAdded,
+				data: {
+					question: {
+						id: 85,
+						question: 'what are you thinking about these days',
+						created_at: '2023-09-22T05:23:03.858015+00:00',
+						url: 'what-are-you-thinking-about-these-days',
+						img_url: '',
+						es_id: '48FXu4oBxTGqyww5ba_8',
+						comment_count: 10,
+						removed: false,
+						flagged: false,
+						subscriptions: []
+					},
+					comments: [],
+					removedComments: [],
+					comment_count: 11,
+					removed_comment_count: 0,
+					questionTags: [],
+					user: null,
+					flags: {
+						userHasAnswered: false,
+						userSignedIn: false
+					},
+					aiComments: null,
+					links: null,
+					links_count: 0,
+					flagReasons: []
+				}
+			}
+		});
+
+		const commentBox = getByRole('textbox');
+		await fireEvent.input(commentBox, {
+			target: { value: longComment }
+		});
+
+		const button = getByRole('button', { name: /post comment/i });
 		await fireEvent.click(button);
-		// value = 'test comment';
 
-		expect(() => getByText(/Loading.../i)).not.toThrow();
+		await waitFor(() => {
+			expect(fetchMock).toHaveBeenCalledTimes(1);
+		});
+
+		expect(fetchMock).toHaveBeenCalledWith(
+			'?/createCommentRando',
+			expect.objectContaining({
+				method: 'POST',
+				body: expect.any(FormData)
+			})
+		);
+		expect(deserializeMock).toHaveBeenCalledWith('{"type":"success","data":"[]"}');
+		expect(oncommentAdded).toHaveBeenCalledWith({
+			id: 123,
+			comment: 'Posted comment'
+		});
+		expect(notificationsSuccessMock).toHaveBeenCalledWith('Comment Added', 3000);
+		expect((commentBox as HTMLTextAreaElement).value).toBe('');
 	});
 });

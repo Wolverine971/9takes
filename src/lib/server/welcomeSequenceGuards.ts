@@ -1,3 +1,4 @@
+// src/lib/server/welcomeSequenceGuards.ts
 import { enrollUserInWelcomeSequence, exitWelcomeSequenceForUser } from './emailSequences';
 
 export type WelcomeSequenceExitReason =
@@ -5,7 +6,9 @@ export type WelcomeSequenceExitReason =
 	| 'answered_question'
 	| 'created_comment';
 
-export function getWelcomeSequenceExitReasonForComment(parentType: string): WelcomeSequenceExitReason {
+export function getWelcomeSequenceExitReasonForComment(
+	parentType: string
+): WelcomeSequenceExitReason {
 	return parentType === 'question' ? 'answered_question' : 'created_comment';
 }
 

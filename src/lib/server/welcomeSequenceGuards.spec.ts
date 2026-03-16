@@ -1,3 +1,4 @@
+// src/lib/server/welcomeSequenceGuards.spec.ts
 import { beforeEach, describe, expect, it, vi } from 'vitest';
 
 const { enrollUserInWelcomeSequenceMock, exitWelcomeSequenceForUserMock } = vi.hoisted(() => ({

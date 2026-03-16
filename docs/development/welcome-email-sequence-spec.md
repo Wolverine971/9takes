@@ -431,8 +431,7 @@ Update the `createComment` action signature to include `locals`. After `handleCo
 ```ts
 const record = await handleCommentCreation(commentData, body.parent_type as string, demo_time);
 
-const exitReason =
-	commentData.parent_type === 'question' ? 'answered_question' : 'created_comment';
+const exitReason = commentData.parent_type === 'question' ? 'answered_question' : 'created_comment';
 
 await locals.supabase.rpc('exit_user_from_sequence', {
 	p_user_id: commentData.author_id,

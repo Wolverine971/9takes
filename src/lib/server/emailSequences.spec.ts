@@ -1,3 +1,4 @@
+// src/lib/server/emailSequences.spec.ts
 import { beforeEach, describe, expect, it, vi } from 'vitest';
 
 const {
