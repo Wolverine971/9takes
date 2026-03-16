@@ -119,6 +119,26 @@ describe('GET /questions/[slug]/social-card.png', () => {
 		expect(elasticUpdateMock).toHaveBeenCalledTimes(1);
 	});
 
+	it('treats mixed slugs as URLs instead of numeric ids', async () => {
+		const supabase = makeSupabase({
+			id: 4,
+			url: '123abc',
+			question: 'Question with numeric prefix slug',
+			question_formatted: null,
+			img_url: `images/123abc/${QUESTION_SOCIAL_CARD_FILENAME}`,
+			es_id: 'es-4'
+		});
+
+		const response = await GET({
+			params: { slug: '123abc' },
+			locals: { supabase },
+			request: new Request('https://9takes.com/questions/123abc/social-card.png')
+		} as any);
+
+		expect(response.status).toBe(302);
+		expect(supabase._mocks.eqSelect).toHaveBeenCalledWith('url', '123abc');
+	});
+
 	it('falls back to default image when regeneration fails', async () => {
 		const supabase = makeSupabase({
 			id: 3,

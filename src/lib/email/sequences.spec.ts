@@ -62,4 +62,15 @@ describe('prepareSequenceSend', () => {
 		expect(prepared.subject).toBe('Welcome, there');
 		expect(prepared.recipient.name).toBeUndefined();
 	});
+
+	it('treats whitespace-only names as missing recipient metadata', () => {
+		const prepared = prepareSequenceSend(
+			makeSequenceRow({
+				recipient_name: '   '
+			})
+		);
+
+		expect(prepared.subject).toBe('Welcome, there');
+		expect(prepared.recipient.name).toBeUndefined();
+	});
 });

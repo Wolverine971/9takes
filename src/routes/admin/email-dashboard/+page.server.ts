@@ -1,6 +1,7 @@
 // src/routes/admin/email-dashboard/+page.server.ts
 import type { PageServerLoad } from './$types';
 import { error, redirect } from '@sveltejs/kit';
+import { getWelcomeSequenceOverview } from '$lib/server/emailAdminSequences';
 
 export const load: PageServerLoad = async (event) => {
 	const session = event.locals.session;
@@ -25,33 +26,40 @@ export const load: PageServerLoad = async (event) => {
 	}
 
 	// Fetch initial data in parallel
-	const [usersResult, draftsResult, scheduledResult, analyticsResult, cronStatusResult] =
-		await Promise.all([
-			// Get first page of users
-			supabase.rpc('get_email_dashboard_users', {
-				p_source: 'all',
-				p_search: undefined,
-				p_limit: 50,
-				p_offset: 0
-			}),
-			// Get drafts
-			supabase.from('email_drafts').select('*').order('updated_at', { ascending: false }).limit(10),
-			// Get pending scheduled emails
-			supabase
-				.from('scheduled_emails')
-				.select('*')
-				.eq('status', 'pending')
-				.order('scheduled_for', { ascending: true })
-				.limit(10),
-			// Get overall analytics
-			supabase.rpc('get_email_analytics', {
-				p_campaign_id: undefined,
-				p_from_date: undefined,
-				p_to_date: undefined
-			}),
-			// Get cron status (from view created by migration)
-			supabase.from('email_cron_status').select('*').single()
-		]);
+	const [
+		usersResult,
+		draftsResult,
+		scheduledResult,
+		analyticsResult,
+		cronStatusResult,
+		welcomeSequence
+	] = await Promise.all([
+		// Get first page of users
+		supabase.rpc('get_email_dashboard_users', {
+			p_source: 'all',
+			p_search: undefined,
+			p_limit: 50,
+			p_offset: 0
+		}),
+		// Get drafts
+		supabase.from('email_drafts').select('*').order('updated_at', { ascending: false }).limit(10),
+		// Get pending scheduled emails
+		supabase
+			.from('scheduled_emails')
+			.select('*')
+			.eq('status', 'pending')
+			.order('scheduled_for', { ascending: true })
+			.limit(10),
+		// Get overall analytics
+		supabase.rpc('get_email_analytics', {
+			p_campaign_id: undefined,
+			p_from_date: undefined,
+			p_to_date: undefined
+		}),
+		// Get cron status (from view created by migration)
+		supabase.from('email_cron_status').select('*').single(),
+		getWelcomeSequenceOverview(supabase)
+	]);
 
 	// Get total user count
 	const { data: totalCount } = await supabase.rpc('count_email_dashboard_users', {
@@ -86,6 +94,7 @@ export const load: PageServerLoad = async (event) => {
 		drafts: draftsResult.data || [],
 		scheduledEmails: scheduledResult.data || [],
 		analytics: { ...analyticsDefaults, ...analyticsData },
-		cronStatus: cronStatusResult.data || null
+		cronStatus: cronStatusResult.data || null,
+		welcomeSequence
 	};
 };

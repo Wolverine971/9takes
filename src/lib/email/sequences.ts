@@ -60,22 +60,24 @@ function renderSequenceTemplate(
 
 export function prepareSequenceSend(row: SequenceSendRow) {
 	const firstName = row.recipient_name?.trim() || 'there';
+	const trimmedRecipientName = row.recipient_name?.trim() || undefined;
+	const trimmedEnneagram = row.enneagram?.trim() || undefined;
 	const tokens = {
 		first_name: firstName,
 		email: row.recipient_email,
 		questions_url: QUESTIONS_URL,
 		ask_question_url: ASK_QUESTION_URL,
-		enneagram: row.enneagram?.trim() || ''
+		enneagram: trimmedEnneagram || ''
 	};
 
 	return {
 		recipient: {
 			id: row.recipient_source_id,
 			email: row.recipient_email,
-			name: row.recipient_name || undefined,
+			name: trimmedRecipientName,
 			source: row.recipient_source,
 			source_id: row.recipient_source_id,
-			enneagram: row.enneagram || undefined
+			enneagram: trimmedEnneagram
 		} satisfies EmailRecipient,
 		subject: renderSequenceTemplate(row.subject, tokens),
 		htmlContent: renderSequenceTemplate(row.html_content, tokens, {

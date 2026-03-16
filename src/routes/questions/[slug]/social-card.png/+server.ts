@@ -32,9 +32,9 @@ export const GET: RequestHandler = async ({ params, locals, request }) => {
 		const query = supabase
 			.from('questions')
 			.select('id, url, question, question_formatted, img_url, es_id');
-		const numericSlug = Number.parseInt(slug, 10);
-		const { data: question, error: questionError } = await (Number.isInteger(numericSlug)
-			? query.eq('id', numericSlug).single()
+		const isNumericSlug = /^\d+$/.test(slug);
+		const { data: question, error: questionError } = await (isNumericSlug
+			? query.eq('id', Number(slug)).single()
 			: query.eq('url', slug).single());
 
 		if (questionError || !question) {

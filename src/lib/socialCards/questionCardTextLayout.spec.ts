@@ -18,6 +18,15 @@ describe('questionCardTextLayout', () => {
 		expect(layout.lines.length).toBeGreaterThan(2);
 	});
 
+	it('wraps long unbroken words instead of letting them overflow', () => {
+		const text = 'A'.repeat(200);
+		const layout = calculateQuestionCardTextLayout(text);
+
+		expect(layout.lines.join('')).toBe(text);
+		expect(layout.lines.length).toBeGreaterThan(1);
+		expect(Math.max(...layout.lines.map((line) => line.length))).toBeLessThan(text.length);
+	});
+
 	it('returns a safe fallback when text is empty', () => {
 		const layout = calculateQuestionCardTextLayout('   ');
 		expect(layout.lines.join(' ')).toBe('Share your perspective');

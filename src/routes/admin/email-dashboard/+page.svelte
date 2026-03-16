@@ -39,6 +39,7 @@
 	};
 	let analytics = $state<EmailAnalytics>({ ...analyticsDefaults, ...data.analytics });
 	let cronStatus = $state(data.cronStatus);
+	let welcomeSequence = $derived(data.welcomeSequence);
 
 	// Analytics filter state
 	let analyticsRange = $state<'all' | '7d' | '30d' | '90d' | 'custom'>('all');
@@ -722,6 +723,104 @@
 			</div>
 		{/if}
 	</div>
+
+	{#if welcomeSequence}
+		<div class="sequence-panel">
+			<div class="sequence-panel-header">
+				<div>
+					<h2>{welcomeSequence.sequence.display_name}</h2>
+					<p>
+						{welcomeSequence.stepCount} steps • trigger: {welcomeSequence.sequence.trigger_type} • status:
+						{welcomeSequence.sequence.status}
+					</p>
+				</div>
+			</div>
+
+			<div class="sequence-stats">
+				<div class="sequence-stat">
+					<span class="sequence-stat-label">Total</span>
+					<span class="sequence-stat-value">{welcomeSequence.counts.total}</span>
+				</div>
+				<div class="sequence-stat">
+					<span class="sequence-stat-label">Active</span>
+					<span class="sequence-stat-value">{welcomeSequence.counts.active}</span>
+				</div>
+				<div class="sequence-stat">
+					<span class="sequence-stat-label">Due Now</span>
+					<span class="sequence-stat-value">{welcomeSequence.counts.dueNow}</span>
+				</div>
+				<div class="sequence-stat">
+					<span class="sequence-stat-label">Completed</span>
+					<span class="sequence-stat-value">{welcomeSequence.counts.completed}</span>
+				</div>
+				<div class="sequence-stat">
+					<span class="sequence-stat-label">Exited</span>
+					<span class="sequence-stat-value">{welcomeSequence.counts.exited}</span>
+				</div>
+				<div class="sequence-stat">
+					<span class="sequence-stat-label">Errored</span>
+					<span class="sequence-stat-value">{welcomeSequence.counts.errored}</span>
+				</div>
+			</div>
+
+			<div class="table-wrapper">
+				{#if welcomeSequence.recentEnrollments.length === 0}
+					<div class="empty-state">No welcome-sequence enrollments yet</div>
+				{:else}
+					<table class="data-table sequence-table">
+						<thead>
+							<tr>
+								<th>Updated</th>
+								<th>Recipient</th>
+								<th>Source</th>
+								<th>Status</th>
+								<th>Step</th>
+								<th>Next Send</th>
+								<th>Exit / Error</th>
+							</tr>
+						</thead>
+						<tbody>
+							{#each welcomeSequence.recentEnrollments as enrollment (enrollment.id)}
+								<tr>
+									<td>{formatDateTime(enrollment.updated_at)}</td>
+									<td class="email-cell">{enrollment.recipient_email}</td>
+									<td>
+										<span class="source-badge source-{enrollment.recipient_source}">
+											{enrollment.recipient_source === 'coaching_waitlist'
+												? 'coaching'
+												: enrollment.recipient_source}
+										</span>
+									</td>
+									<td>
+										<span class="status-badge status-{enrollment.status}">
+											{enrollment.status}
+										</span>
+									</td>
+									<td>
+										{enrollment.current_step_number}
+										{#if enrollment.next_step_number !== null}
+											→ {enrollment.next_step_number}
+										{/if}
+									</td>
+									<td>{formatDateTime(enrollment.next_send_at)}</td>
+									<td class="sequence-detail-cell">
+										{#if enrollment.exit_reason}
+											<div class="sequence-detail-primary">{enrollment.exit_reason}</div>
+										{/if}
+										{#if enrollment.last_error}
+											<div class="sequence-detail-error">{enrollment.last_error}</div>
+										{:else if !enrollment.exit_reason}
+											-
+										{/if}
+									</td>
+								</tr>
+							{/each}
+						</tbody>
+					</table>
+				{/if}
+			</div>
+		</div>
+	{/if}
 
 	<!-- Tabs -->
 	<div class="tabs">
@@ -1444,6 +1543,81 @@
 		color: var(--text-secondary);
 	}
 
+	.sequence-panel {
+		background: var(--void-surface);
+		border: 1px solid var(--void-elevated);
+		border-radius: 12px;
+		padding: 1rem;
+		margin-bottom: 1.25rem;
+	}
+
+	.sequence-panel-header {
+		display: flex;
+		justify-content: space-between;
+		align-items: flex-start;
+		gap: 1rem;
+		margin-bottom: 1rem;
+	}
+
+	.sequence-panel-header h2 {
+		margin: 0;
+		font-size: 1.125rem;
+	}
+
+	.sequence-panel-header p {
+		margin: 0.25rem 0 0;
+		color: var(--text-secondary);
+		font-size: 0.875rem;
+	}
+
+	.sequence-stats {
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(110px, 1fr));
+		gap: 0.75rem;
+		margin-bottom: 1rem;
+	}
+
+	.sequence-stat {
+		background: var(--void-deep);
+		border: 1px solid var(--void-elevated);
+		border-radius: 12px;
+		padding: 0.75rem;
+		display: flex;
+		flex-direction: column;
+		gap: 0.25rem;
+	}
+
+	.sequence-stat-label {
+		font-size: 0.75rem;
+		color: var(--text-secondary);
+		text-transform: uppercase;
+		letter-spacing: 0.03em;
+	}
+
+	.sequence-stat-value {
+		font-size: 1.125rem;
+		font-weight: 600;
+	}
+
+	.sequence-table {
+		font-size: 0.875rem;
+	}
+
+	.sequence-detail-cell {
+		min-width: 220px;
+	}
+
+	.sequence-detail-primary {
+		font-weight: 500;
+	}
+
+	.sequence-detail-error {
+		color: #fca5a5;
+		font-size: 0.8125rem;
+		margin-top: 0.25rem;
+		white-space: normal;
+	}
+
 	/* Tabs */
 	.tabs {
 		display: flex;
@@ -1674,6 +1848,24 @@
 		color: rgb(34, 197, 94);
 	}
 
+	.status-processing {
+		background: rgba(59, 130, 246, 0.1);
+		color: rgb(59, 130, 246);
+	}
+
+	.status-paused,
+	.status-exited,
+	.status-bounced {
+		background: rgba(234, 179, 8, 0.1);
+		color: rgb(202, 138, 4);
+	}
+
+	.status-errored,
+	.status-cancelled {
+		background: rgba(239, 68, 68, 0.1);
+		color: rgb(239, 68, 68);
+	}
+
 	.status-sent,
 	.status-delivered {
 		background: rgba(34, 197, 94, 0.1);
@@ -1683,11 +1875,6 @@
 	.status-failed {
 		background: rgba(239, 68, 68, 0.1);
 		color: rgb(239, 68, 68);
-	}
-
-	.status-bounced {
-		background: rgba(234, 179, 8, 0.1);
-		color: rgb(202, 138, 4);
 	}
 
 	/* Pagination */

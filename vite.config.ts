@@ -5,12 +5,27 @@ import { svelteTesting } from '@testing-library/svelte/vite';
 import { nodeLoaderPlugin } from '@vavite/node-loader/plugin';
 import path from 'path';
 import { fileURLToPath } from 'url';
+import { createLogger } from 'vite';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const dev = process.env.NODE_ENV === 'development';
 
+const logger = createLogger();
+const originalWarn = logger.warn.bind(logger);
+logger.warn = (msg, options) => {
+	// Suppress flowbite-svelte Carousel sourcemap/annotation warnings
+	if (msg.includes('sourcemap for reporting an error') && msg.includes('node_modules')) return;
+	if (
+		msg.includes('contains an annotation that Rollup cannot interpret') &&
+		msg.includes('node_modules')
+	)
+		return;
+	originalWarn(msg, options);
+};
+
 /** @type {import('vite').UserConfig} */
 const config = {
+	customLogger: logger,
 	plugins: [enhancedImages(), sveltekit(), svelteTesting(), nodeLoaderPlugin()],
 	resolve: {
 		preserveSymlinks: false

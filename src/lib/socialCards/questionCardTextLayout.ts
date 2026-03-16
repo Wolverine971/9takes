@@ -20,6 +20,12 @@ const wrapLine = (text: string, maxCharsPerLine: number): string[] => {
 	const lines: string[] = [];
 	let current = '';
 
+	const pushLongWord = (word: string) => {
+		for (let index = 0; index < word.length; index += maxCharsPerLine) {
+			lines.push(word.slice(index, index + maxCharsPerLine));
+		}
+	};
+
 	for (const word of words) {
 		const candidate = current ? `${current} ${word}` : word;
 		if (candidate.length <= maxCharsPerLine) {
@@ -30,6 +36,13 @@ const wrapLine = (text: string, maxCharsPerLine: number): string[] => {
 		if (current) {
 			lines.push(current);
 		}
+
+		if (word.length > maxCharsPerLine) {
+			pushLongWord(word);
+			current = '';
+			continue;
+		}
+
 		current = word;
 	}
 
