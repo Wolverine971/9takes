@@ -17,6 +17,139 @@ path: src/blog/pop-culture/world-leaders-enneagram-personality-dynamics.md
 ---
 
 <svelte:head>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "articleBody": "A personality-psychology analysis of world leaders through the Enneagram lens, examining how different power styles shape conflict, alliance-building, and mutual misunderstanding on the global stage.",
+      "author": {
+        "@type": "Person",
+        "name": "DJ Wayne",
+        "sameAs": [
+          "https://www.instagram.com/djwayne3/",
+          "https://www.youtube.com/@djwayne3",
+          "https://www.linkedin.com/in/davidtwayne/",
+          "https://twitter.com/djwayne3"
+        ]
+      },
+      "dateModified": "2025-01-20",
+      "datePublished": "2025-01-20",
+      "description": "Three strongmen. Two image-builders. One analyst. How personality psychology explains why world leaders clash, cooperate, and constantly misread each other.",
+      "headline": "Why World Leaders Can't Understand Each Other: The Psychology of Global Power",
+      "image": {
+        "@type": "ImageObject",
+        "height": 900,
+        "url": "https://9takes.com/blogs/world-leaders-psychology.webp",
+        "width": 900
+      },
+      "mainEntityOfPage": {
+        "@id": "https://9takes.com/pop-culture/world-leaders-enneagram-personality-dynamics",
+        "@type": "WebPage"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "9takes",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://9takes.com/brand/aero.png"
+        },
+        "sameAs": [
+          "https://www.instagram.com/9takesdotcom/",
+          "https://twitter.com/9takesdotcom"
+        ]
+      },
+      "keywords": [
+        "world leaders",
+        "Enneagram",
+        "political psychology",
+        "Trump",
+        "Putin",
+        "Xi Jinping",
+        "Narendra Modi",
+        "Emmanuel Macron",
+        "Angela Merkel",
+        "global power",
+        "leadership styles"
+      ],
+      "articleSection": "Pop Culture",
+      "wordCount": 3679
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Why are so many world leaders Type 8s?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Because gaining and holding national power requires someone comfortable with confrontation, willing to make enemies, and driven to dominate. Type 8s are psychologically equipped for this in ways other types aren't. Democracies and authoritarian systems both tend to elevate people who can fight their way to the top."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can different personality types work together effectively?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, but it requires understanding. Type 8s need their strength acknowledged. Type 3s need their achievements recognized. Type 5s need time to analyze. When leaders accommodate these needs rather than triggering defensive reactions, cooperation becomes possible."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Who was the most effective leader in this group?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Depends on your criteria. For raw power consolidation: Putin or Xi. For domestic economic transformation: Modi. For European stability: Merkel. For shaking up the establishment: Trump. Each type has different strengths, and \"effectiveness\" means different things to different people."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Will future world leaders follow these same patterns?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Probably. The psychological demands of leadership tend to select for certain types. But the specific expressions change. A future Type 8 American president might project strength differently than Trump. A future Type 3 Indian leader might build a different achievement narrative than Modi."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How can understanding these dynamics help ordinary people?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "By making sense of events that otherwise seem irrational. When Putin does something that seems \"crazy\" to Western observers, understanding Type 8 psychology reveals coherent (if dangerous) logic. When diplomatic efforts fail despite everyone's stated desire for peace, personality dynamics often explain why. ---"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Which type are YOU when it comes to conflict and power?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "These same patterns that drive world leaders drive your relationships, your career, and your conflicts. Understanding your Enneagram type helps you see when your automatic reactions help or hurt you. → Find your Enneagram type"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Dig deeper into individual leaders:",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "- Donald Trump's full personality breakdown - Vladimir Putin's full personality breakdown - Joe Biden's personality (Trump's counterpoint)"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Understand the types:",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "- Type 8: The Challenger - Type 3: The Achiever - Type 5: The Investigator"
+          }
+        }
+      ]
+    }
+  ]
+}
+</script>
+
 </svelte:head>
 
 <script>
@@ -398,51 +531,3 @@ These same patterns that drive world leaders drive your relationships, your care
 
 > **Note:** These personality assessments are speculative, based on public behavior and may not reflect how these leaders see themselves.
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Why are so many world leaders Type 8s?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Because gaining and holding national power requires someone comfortable with confrontation, willing to make enemies, and driven to dominate. Type 8s are psychologically equipped for this in ways other types aren't. Democracies and authoritarian systems both tend to elevate people who can fight their way to the top."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can different personality types work together effectively?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes, but it requires understanding. Type 8s need their strength acknowledged. Type 3s need their achievements recognized. Type 5s need time to analyze. When leaders accommodate these needs rather than triggering defensive reactions, cooperation becomes possible."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Who was the most effective leader in this group?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Depends on your criteria. For raw power consolidation: Putin or Xi. For domestic economic transformation: Modi. For European stability: Merkel. For shaking up the establishment: Trump. Each type has different strengths, and \"effectiveness\" means different things to different people."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Will future world leaders follow these same patterns?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Probably. The psychological demands of leadership tend to select for certain types. But the specific expressions change. A future Type 8 American president might project strength differently than Trump. A future Type 3 Indian leader might build a different achievement narrative than Modi."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How can understanding these dynamics help ordinary people?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "By making sense of events that otherwise seem irrational. When Putin does something that seems \"crazy\" to Western observers, understanding Type 8 psychology reveals coherent (if dangerous) logic. When diplomatic efforts fail despite everyone's stated desire for peace, personality dynamics often explain why. ---"
-      }
-    }
-  ]
-}
-</script>

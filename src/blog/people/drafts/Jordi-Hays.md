@@ -38,7 +38,9 @@ He also wakes up at 6:30 every morning to hit the gym with his co-host. Spends s
 
 Jordi Hays treats techno-capitalism like a fantasy football league. That's what The New York Times said, and they weren't wrong. But they missed the second half of the sentence. He also treats it like his life's work. The fantasy league energy is the delivery mechanism. The seriousness underneath is the product.
 
-That tension — between spectacle and substance, between the gong and the grind — is what makes Jordi Hays one of the most psychologically interesting figures in tech media right now. And it's what makes the question nobody's asking the most important one: is the showman performing, or has the show become the man?
+That tension — between spectacle and substance, between the gong and the grind — is what makes Jordi Hays one of the most psychologically interesting figures in tech media right now.
+
+The Patrick Bateman comparison is worth sitting with. The Times tossed it off as a style note — the suit, the hair, the polished confidence. But Patrick Bateman is a character defined by surface: impeccable taste masking nothing underneath. That's a loaded reference for a man whose entire career has been an argument that the show is not the whole story. Whether the comparison is fair or just lazy shorthand for "ambitious guy in a bespoke suit" depends on a question the article never bothered to ask: what's actually underneath?
 
 <details>
 <summary class="accordion">TL;DR: Why Jordi Hays is an Enneagram Type 3</summary>
@@ -115,13 +117,13 @@ That line comes from Packy McCormick's Not Boring newsletter, and it might be th
 
 McCormick spent time with Jordi in 2021 and 2022 and came away calling him a "Worldbuilder" — a founder who predicts something non-obvious about the world, creates a wedge into the market, and timestamps their vision publicly. "The plan Jordi laid out to me back then seemed crazy," McCormick wrote. "In the intervening year and a half, I've become more and more impressed with both Jordi and the company that he's building."
 
-Fellow investor Ian Kar put it more directly: "Jordi is the visionary, and Sarah makes sure that everything is done to the highest standard."
-
 But here's what's easy to miss when you're watching the viral stunts and the NFT drops: Jordi knew exactly where all of it was going. He told McCormick in their first call — years before the exit — that he was building a media business that would monetize through financial services. He shared Figmas. He walked through the long-term memo. He had already started hiring.
 
 "Imagine being 25, raising money from Andreessen and Google and all these prominent investors, and then like two years later you're just getting hammered by the market," Jordi said on the Dialectic podcast. "We've gone through that, and I think that's really important for how we approach our coverage."
 
-That line matters. He's not just talking about TBPN's editorial perspective. He's talking about the scar tissue that separates the people who perform confidence from the people who've earned it.
+The details of that hammering are mostly private, but the timeline tells the story. Party Round launched into the 2021 zero-interest-rate euphoria — SPACs, meme stocks, NFTs as marketing tools. By late 2022, the party was over in every sense. Jordi rebranded to Capital, dropped the viral stunts, and started talking about business checking accounts and SAFE note automation. "Being funny and entertaining is great," he told TechCrunch, "but in the long term, we think the most important thing is building the best products and software for founders, period." The meme king had to become a fintech CEO overnight. The fact that he pulled it off — that Rho eventually acquired the company — says more about his adaptability than any viral stunt ever did.
+
+That line about getting hammered matters. He's not just talking about TBPN's editorial perspective. He's talking about the scar tissue that separates the people who perform confidence from the people who've earned it.
 
 <p class="inner-thought">They see the gong. They see the bronze horse. They don't see the year the market was trying to kill us and we had to keep smiling anyway.</p>
 
@@ -157,7 +159,7 @@ This might be the most revealing thing Jordi Hays has ever said. Not because it'
 
 He watched the Browser Company name itself and thought it was brilliant. Then he watched a hundred other startups copy the naming convention and it pained him. "People in tech just copy from within the industry," he said on the Dialectic podcast. "We've been trained to think that the best people copy — that great artists steal. But I think that great artists actually steal from _elsewhere_."
 
-For TBPN, that meant refusing to look at other tech podcasts for inspiration. Instead, he and Coogan studied Formula One racing teams. SportsCenter broadcasts. The cinematography of The Newsroom and The Morning Show. 1980s news anchors. Cinema cameras instead of television cameras.
+For TBPN, that meant refusing to look at other tech podcasts for inspiration. Instead, he and Coogan studied SportsCenter broadcasts, the cinematography of The Newsroom and The Morning Show, 1980s news anchors. They shot with cinema cameras instead of television cameras.
 
 "You can spend a billion dollars on marketing and still be bad at marketing," Jordi wrote on LinkedIn. "That's because taste isn't something you can buy, or even hire, your way into. If the founder has bad taste, it will trickle down through the whole company."
 
@@ -169,9 +171,9 @@ McCormick's newsletter about Capital was literally titled "Capital & Taste." Eve
 
 ## The TBPN Machine
 
-Here's what the audience sees: two guys riffing on tech news, ringing a gong, eating smashburgers, running a Super Bowl ad for less than $50,000 that featured Mark Zuckerberg, Sam Altman, and Marc Andreessen.
+Here's what the audience sees: two guys riffing on tech news, ringing a gong, running a Super Bowl ad for less than $50,000 that featured Mark Zuckerberg, Sam Altman, and Marc Andreessen.
 
-Here's what the audience doesn't see: the machine underneath.
+Here's what it takes to make that look effortless:
 
 Jordi and Coogan meet at 6:30 AM to work out. By 8, they're eating breakfast and debating which stories matter. From 9 to 11, it's newsletter writing and show prep. Then they go live for three hours. After the show, they do post-mortem analysis. They take essentially no days off.
 
@@ -182,7 +184,7 @@ Jordi and Coogan meet at 6:30 AM to work out. By 8, they're eating breakfast and
 <li>A 36-inch gong</li>
 <li>A life-size bronze horse</li>
 <li>Air horns and red flags</li>
-<li>Double smashburgers at 9 AM</li>
+<li>"Patrick Bateman-core" wardrobe</li>
 <li>A Super Bowl ad</li>
 </ul>
 </div>
@@ -206,6 +208,10 @@ A Formula One team. Not a podcast. Not a media company. A racing operation where
 
 Focus. Discipline. Obligation. These aren't the words you'd associate with the guy ringing the gong. But they're the operating system underneath the show.
 
+What makes the machine run is the partnership at its center. John Coogan is 36 to Jordi's 29 — a documentary filmmaker who brings analytical weight to Jordi's salesmanship. Coogan has said he writes the newsletter "for one person" — Jordi — and their 6:30 AM conversations seed everything that follows. If Jordi is the engine, Coogan is the chassis. "Jordi is a concerningly good sales person," one Reddit user observed. "Even the satirical takes sound pretty convincing." What goes unsaid is that someone has to keep that energy from spinning into pure performance. That's Coogan's job, and the fact that it's invisible is evidence he's good at it.
+
+Not everyone buys the act. On Reddit, the criticism is consistent if not widespread: "They're moving from tech bro to ad bro territory," one commenter wrote. Others note the show has "a ton of sponsors despite having very small viewership" and question whether insider backing explains their rapid rise. The show averages 3,000 to 4,000 concurrent viewers on YouTube, spiking to 50,000 for a guest like GameStop's Ryan Cohen — numbers that are modest by media standards but disproportionately influential because of who's watching. When your 200,000 viewers are the people writing the checks and building the companies, you don't need millions.
+
 In a world of the Technology Brothers, Vanity Fair wrote, "a willingness to spend in service of the bit has become the bit itself." They drive expensive cars. They wear luxury watches. They bought a bronze horse modeled after Napoleon's warhorse. They're "unseriously serious."
 
 But even that framing gets it slightly wrong. The spending isn't in service of the bit. The spending IS the bit. And the bit IS the business. And the business IS the brand. And the brand IS Jordi Hays.
@@ -214,19 +220,19 @@ But even that framing gets it slightly wrong. The spending isn't in service of t
 
 ## The Man Behind the Gong
 
-Jordi married Sarah Chase — who also happened to be his co-founder at Party Round. They met when he pitched her his previous startup. They got to talking about the archaic process of raising money from individuals. One thing led to another, and Party Round was born.
+Jordi married Sarah Chase — his co-founder at Party Round. They met when he pitched her his previous startup and ended up building a company together instead. Chase ran the operational side while Jordi ran the narrative. Investor Ian Kar described the split: "Jordi is the visionary, and Sarah makes sure that everything is done to the highest standard." In every profile of Party Round, she's mentioned and immediately passed over — TechCrunch's coverage quotes only "Hays" and "the founder," singular. She co-built a company that raised $7 million from a16z and Alexis Ohanian and got acquired, and the internet barely knows her name.
 
-That origin story is doing double duty. It's romantic, sure. But it also reveals something about how Jordi processes connection: through the work. The relationship started in a pitch meeting. The partnership became a company became a marriage. Even love passed through the filter of building something.
+That tells you something about how the world covers Threes. The person performing gets the camera. The person executing gets a co-founder credit and a footnote.
 
 They live in Malibu now with their kids. Jordi co-founded Rorra, a water filtration company, after his child developed eczema that he traced to contaminants in the tap water. "Wanting clean water for our families," he said simply when asked about his motivation. The product is, in his words, "by far the most beautiful product I've been involved with making."
 
 "Play the long game," he told a Superangel interviewer. "I believe that when we launch we'll look like an overnight success to the world, but we've been building Rorra for two years in silence."
 
-Two years in silence. From the man who broadcasts live three hours a day, five days a week, to millions. The man who ran a Super Bowl ad. Building something beautiful in the dark.
+Two years in silence, from the man who broadcasts live three hours a day to 200,000 of the most connected people in tech.
 
 When asked what he does in his free time, Jordi gave an answer that is either refreshingly honest or accidentally revealing: "Hang with my family, invest in other startups, and drive fast cars."
 
-Three activities. Only one of them doesn't involve building or performing.
+Three activities. Only one of them doesn't involve building or performing. His LinkedIn bio tells a similar story in miniature: "I record a daily show with my friend John called TBPN and angel invest in startups." No titles, no Forbes mention, no exit history. It's the most unguarded sentence he's ever published — and possibly the closest the public gets to an off-camera Jordi.
 
 ---
 
@@ -236,52 +242,11 @@ Three activities. Only one of them doesn't involve building or performing.
 
 It sounds like passion. It sounds like curiosity. And maybe it is both of those things. But there's another way to read it — as the confession of someone who has fused so completely with the work that separating the two isn't a choice anymore. It's not that he doesn't want to stop. It's that stopping isn't a category his operating system recognizes.
 
-The son of a school teacher and a non-profit worker. The kid who sold skateboards at the skatepark. The founder who raised from Andreessen and got hammered by the market and kept smiling. The husband who married his co-founder. The father who traced his baby's eczema to the water and built a company to fix it. The host who rings the gong and wears the bespoke suit and eats the smashburger and never, ever stops.
-
 "The only thing we have a monopoly on is like ourselves," he told Axios.
 
-He meant it as a business insight — that TBPN's competitive advantage is its hosts, not its guests or its format. But the sentence works as a psychological confession too. The monopoly IS himself. The brand IS the person. The performance and the performer converged somewhere around the third or fourth company, and now there's no separating them.
+He meant it as a business insight — that TBPN's competitive advantage is its hosts, not its format or its guests. But the sentence works as a psychological confession too. The monopoly IS himself. The brand IS the person. And the Patrick Bateman comparison from the Times? It gets the surface right and the substance wrong. Bateman's taste masked nothing. Jordi's taste masks a machine that never stops building.
 
-That's either his greatest achievement or the one question he'll never be able to answer. And the thing about Jordi Hays is that he's already building the next stage before anyone thinks to ask.
+Whether that machine is driven by vision or by a need he can't name is the question that makes Enneagram Threes the most fascinating and the most difficult type to truly know — even for themselves.
 
 > **Disclaimer:** This analysis is speculative, based on publicly available information, and explores Jordi Hays's personality through the lens of the Enneagram framework. Jordi Hays has not publicly confirmed his Enneagram type.
 
-<!--
-READER FEEDBACK (2026-03-16)
-============================
-
-WHAT WORKS:
-- The opening hook is killer. "Patrick Bateman-core" into the pants-changing anecdote grabs you immediately.
-- The contrast panel (what audience sees vs. doesn't see) is the strongest visual in the piece — it lands the thesis in one glance.
-- The timeline is clean and easy to scan.
-- The Enneagram analysis doesn't feel shoehorned in — it's actually supported with specific quotes and behavior.
-
-WHAT'S MISSING / SHOULD BE EXPANDED:
-
-1. **The John Coogan dynamic is underdeveloped.** He's Jordi's daily co-host, gym partner, and creative counterpart — arguably the most important relationship in Jordi's professional life right now — and he gets maybe two sentences. How do they complement each other? Who pushes whom? Readers who know TBPN will notice this gap immediately.
-
-2. **No criticism or counterpoints.** The article reads as almost entirely favorable. Some people find the TBPN style grating, performative, or exclusionary. Even a brief acknowledgment of that ("not everyone buys it") would make the praise feel more earned and the analysis more credible.
-
-3. **The "Patrick Bateman-core" comparison gets dropped.** The NYT said it, you open with it, but you never unpack why that specific reference is interesting. Patrick Bateman is a character defined by surfaces masking emptiness — that's a loaded comp for a Type 3 analysis. There's a whole paragraph hiding in there about whether the comparison is fair or just lazy shorthand for "guy in a suit."
-
-4. **What was the market downturn actually like?** You quote Jordi saying "we were getting hammered by the market" but then move on quickly. A normal reader wants the texture here — did they lay people off? Did they pivot under pressure? How close did it get? That's where the real character reveals itself, and right now it reads like a speed bump instead of a turning point.
-
-5. **Sarah Chase is a ghost in this article.** She's his wife, co-founder, described by others as the operational backbone — and she gets less space than the bronze horse. Even two more sentences about what their working dynamic actually looks like would help.
-
-6. **What is Jordi like off-camera?** We get spectacle vs. discipline, but never spectacle vs. the actual private person. Any anecdote about him in a normal conversation, being quiet, being uncertain — something that breaks the "always on" frame — would add a dimension.
-
-WHAT'S OVERDONE / DUPLICATE:
-
-1. **The "spectacle vs. substance" thesis is restated too many times.** You make this point in the intro ("the gong and the grind"), the Packy McCormick section ("While Party Round Was Fun, Jordi Was Dead Serious"), the TBPN Machine section ("the machine underneath"), and the closing ("the performance and the performer converged"). Each version is slightly different wording for the same insight. You could cut at least one full restatement and the piece would be tighter.
-
-2. **The closing paragraph recaps things we already know.** "The son of a school teacher... the kid who sold skateboards... the founder who raised from Andreessen..." — this is a list of facts from earlier sections. It reads like a summary, not a conclusion. Either give us something new in the close or cut the recap and end on "the monopoly IS himself."
-
-3. **The Formula One analogy appears in both the taste section AND the TBPN machine section** within a few scrolls of each other. Pick one place for it.
-
-4. **"Two years in silence" — the juxtaposition with his daily broadcasting is made and then immediately re-explained** ("From the man who broadcasts live three hours a day, five days a week, to millions"). Trust the reader to get it the first time.
-
-MINOR NOTES:
-- "to millions" — is TBPN actually reaching millions of viewers? Earlier you say he "deliberately limits TBPN's audience to roughly 200,000 people." That's a contradiction. Pick the accurate number.
-- The smashburger detail appears twice (intro and contrast panel). Once is charming, twice is filler.
-- "One thing led to another, and Party Round was born" is a throwaway line in what should be a more interesting origin story. Either tell the story or skip the setup.
--->

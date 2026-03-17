@@ -921,6 +921,126 @@ If they're open to learning, share information selectively. If they're not, prot
 Type 2s, 6s, and 9s struggle most with family disapproval because they value harmony and others' opinions. Remember: advocating for your own health isn't betraying your family. It's taking care of yourself so you can show up for them.
 
 <svelte:head>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "MedicalWebPage",
+      "about": {
+        "@type": "MedicalCondition",
+        "name": "Mental Health Conditions"
+      },
+      "disclaimer": "This content is for educational purposes only and does not constitute medical advice. Always consult with qualified healthcare providers about medication decisions.",
+      "articleBody": "Exploration of how each Enneagram type tends to approach psychiatric medication - common fears, resistance patterns, and strategies for more productive conversations with healthcare providers.",
+      "author": {
+        "@type": "Person",
+        "name": "DJ Wayne",
+        "sameAs": [
+          "https://www.instagram.com/djwayne3/",
+          "https://www.youtube.com/@djwayne3",
+          "https://www.linkedin.com/in/davidtwayne/",
+          "https://twitter.com/djwayne3"
+        ]
+      },
+      "dateModified": "2026-03-10",
+      "datePublished": "2025-08-25",
+      "description": "Explore how each Enneagram type tends to approach psychiatric medication - common fears, resistance patterns, and strategies for better conversations with your provider.",
+      "headline": "How Your Enneagram Type Shapes Your Relationship with Medication",
+      "image": {
+        "@type": "ImageObject",
+        "height": 900,
+        "url": "https://9takes.com/blogs/medications_and_stress.webp",
+        "width": 900
+      },
+      "mainEntityOfPage": {
+        "@id": "https://9takes.com/enneagram-corner/mental-health/enneagram-medication-mental-health",
+        "@type": "WebPage"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "9takes",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://9takes.com/brand/aero.png"
+        }
+      },
+      "keywords": [
+        "enneagram medication",
+        "psychiatric medication",
+        "mental health medication",
+        "personality types",
+        "medication fears",
+        "natural alternatives",
+        "psychiatrist communication"
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How do I know if I need medication vs. therapy alone?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Therapy alone isn't enough when: you've been in therapy for months without meaningful improvement, your functioning is impaired at work or in relationships, safety becomes a concern, or your quality of life stays poor despite genuine effort. Here's what the research shows: medication combined with therapy typically produces better outcomes than either alone. They work on different levels. Therapy changes thought patterns and behaviors. Medication changes brain chemistry. For many conditions, you need both. Your type affects how you'll approach this decision. Type 1s often exhaust every other option first. Type 7s sometimes want medication as a quick fix without doing the therapy work. Neither extreme serves you."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why do some Enneagram types resist medication more than others?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Because medication threatens different core fears. Type 8s fear losing control. Type 5s fear becoming dependent on anything external. Type 4s fear losing the emotional depth that defines them. Type 1s view needing medication as moral failure. These aren't surface-level preferences. They're rooted in each type's fundamental way of seeing the world. That's why generic encouragement (\"just try it!\") doesn't work. You need to address the actual fear underneath."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can medication change my Enneagram type?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. Your type is your fundamental personality structure. Medication affects symptoms, not your core self. What people actually report: medication helps them become a healthier version of their type. A Type 4 on antidepressants still feels deeply. They just don't drown in it. A Type 1 on anxiety medication still has standards. Their inner critic just quiets down enough to let them live. A Type 8 on mood stabilizers still has power. They're just not fighting themselves constantly."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What should I tell my psychiatrist about my Enneagram type?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Skip the Enneagram terminology. Most psychiatrists won't know it, and explaining the system takes time away from your actual treatment. Instead, translate your type patterns into language they understand: - Type 5: \"I need detailed information before starting anything, and I prefer minimal appointments.\" - Type 2: \"I tend to downplay my own needs. Please ask follow-up questions.\" - Type 6: \"I need extra reassurance about side effects. I'll have a lot of questions.\" - Type 8: \"I need to feel like I'm in control of this process. Don't tell me what to do.\" This gets you what you need without requiring your psychiatrist to learn a new system."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Are there medications that work better for certain Enneagram types?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "There's no direct research linking Enneagram types to medication response. But people tend to have consistent priorities based on their personality patterns: Type 5s often prefer low-dose options with minimal intervention. Type 3s prioritize avoiding side effects that affect performance or body weight. Type 7s want to preserve energy and joy. Type 6s feel reassured by well-studied medications with decades of safety data. Type 4s want to avoid emotional blunting. These aren't prescriptions — they're priorities to bring into conversations with your provider about what matters most to you."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How long should I wait before deciding a medication isn't working?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Most antidepressants need 4-8 weeks to reach full effectiveness. This is biology, not patience-testing. Your brain receptors need time to adapt. Here's the timeline most people don't know: - Weeks 1-2: Side effects peak. Mood effects minimal. - Weeks 2-4: Side effects improve. Mood may begin to shift. - Weeks 4-8: Full therapeutic effects develop. Many people quit at week 2 thinking \"it's not working.\" They're barely getting started. Give each medication a real trial before deciding. If you've genuinely tried 6-8 weeks with no improvement, that's when to discuss alternatives. And remember: over half of people try more than one medication before finding the right fit. The first failure isn't the end of the road."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What if my family doesn't support me taking medication?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "\"Just exercise more.\" \"You don't need pills.\" \"We don't believe in that.\" This is painful and common. Many families carry stigma around psychiatric medication. Some come from cultures where mental health treatment is taboo. Some have outdated beliefs. Some are genuinely scared for you based on bad information. Here's what's true: your medical decisions are yours. You don't owe anyone an explanation. Your family isn't living in your brain. If they're open to learning, share information selectively. If they're not, protect yourself by finding support elsewhere: therapists, support groups, trusted friends who get it. Type 2s, 6s, and 9s struggle most with family disapproval because they value harmony and others' opinions. Remember: advocating for your own health isn't betraying your family. It's taking care of yourself so you can show up for them."
+          }
+        }
+      ]
+    }
+  ]
+}
+</script>
+
 </svelte:head>
 
 <style lang="scss">
@@ -959,69 +1079,3 @@ FEEDBACK ADDRESSED (2026-01-18):
 ✓ Quality of life side effects - Added comprehensive section on sexual, weight, and emotional blunting side effects
 -->
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How do I know if I need medication vs. therapy alone?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Therapy alone isn't enough when: you've been in therapy for months without meaningful improvement, your functioning is impaired at work or in relationships, safety becomes a concern, or your quality of life stays poor despite genuine effort. Here's what the research shows: medication combined with therapy typically produces better outcomes than either alone. They work on different levels. Therapy changes thought patterns and behaviors. Medication changes brain chemistry. For many conditions, you need both. Your type affects how you'll approach this decision. Type 1s often exhaust every other option first. Type 7s sometimes want medication as a quick fix without doing the therapy work. Neither extreme serves you."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Why do some Enneagram types resist medication more than others?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Because medication threatens different core fears. Type 8s fear losing control. Type 5s fear becoming dependent on anything external. Type 4s fear losing the emotional depth that defines them. Type 1s view needing medication as moral failure. These aren't surface-level preferences. They're rooted in each type's fundamental way of seeing the world. That's why generic encouragement (\"just try it!\") doesn't work. You need to address the actual fear underneath."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can medication change my Enneagram type?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "No. Your type is your fundamental personality structure. Medication affects symptoms, not your core self. What people actually report: medication helps them become a healthier version of their type. A Type 4 on antidepressants still feels deeply. They just don't drown in it. A Type 1 on anxiety medication still has standards. Their inner critic just quiets down enough to let them live. A Type 8 on mood stabilizers still has power. They're just not fighting themselves constantly."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What should I tell my psychiatrist about my Enneagram type?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Skip the Enneagram terminology. Most psychiatrists won't know it, and explaining the system takes time away from your actual treatment. Instead, translate your type patterns into language they understand: • Type 5: \"I need detailed information before starting anything, and I prefer minimal appointments.\" • Type 2: \"I tend to downplay my own needs. Please ask follow-up questions.\" • Type 6: \"I need extra reassurance about side effects. I'll have a lot of questions.\" • Type 8: \"I need to feel like I'm in control of this process. Don't tell me what to do.\" This gets you what you need without requiring your psychiatrist to learn a new system."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Are there medications that work better for certain Enneagram types?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "There's no direct research linking Enneagram types to medication response. But people tend to have consistent priorities based on their personality patterns: Type 5s often prefer low-dose options with minimal intervention. Type 3s prioritize avoiding side effects that affect performance or body weight. Type 7s want to preserve energy and joy. Type 6s feel reassured by well-studied medications with decades of safety data. Type 4s want to avoid emotional blunting. These aren't prescriptions — they're priorities to bring into conversations with your provider about what matters most to you."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How long should I wait before deciding a medication isn't working?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Most antidepressants need 4-8 weeks to reach full effectiveness. This is biology, not patience-testing. Your brain receptors need time to adapt. Here's the timeline most people don't know: • Weeks 1-2: Side effects peak. Mood effects minimal. • Weeks 2-4: Side effects improve. Mood may begin to shift. • Weeks 4-8: Full therapeutic effects develop. Many people quit at week 2 thinking \"it's not working.\" They're barely getting started. Give each medication a real trial before deciding. If you've genuinely tried 6-8 weeks with no improvement, that's when to discuss alternatives. And remember: over half of people try more than one medication before finding the right fit. The first failure isn't the end of the road."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What if my family doesn't support me taking medication?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "This is painful and common. Many families carry stigma around psychiatric medication. Here's what's true: your medical decisions are yours. You don't owe anyone an explanation. If they're open to learning, share information selectively. If not, protect yourself by finding support elsewhere: therapists, support groups, trusted friends who get it. Type 2s, 6s, and 9s struggle most with family disapproval because they value harmony. Remember: advocating for your own health isn't betraying your family."
-
-      }
-    }
-
-]
-}
-</script>

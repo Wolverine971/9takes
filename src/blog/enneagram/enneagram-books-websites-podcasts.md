@@ -719,6 +719,161 @@ For a zero-cost deep dive: read the type descriptions on the Enneagram Institute
 </article>
 
 <svelte:head>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "about": {
+        "@type": "Thing",
+        "name": "Enneagram of Personality",
+        "description": "The Enneagram of Personality or simply the Enneagram is a model of the human psyche which is principally understood and taught as a typology of nine interconnected personality types. Although the origins and history of ideas associated with the Enneagram of Personality are disputed, contemporary approaches are principally derived from the teachings of the Bolivian psycho-spiritual teacher Oscar Ichazo from the 1950s and the Chilean psychiatrist Claudio Naranjo from the 1970s.",
+        "sameAs": [
+          "https://www.wikidata.org/wiki/Q273047",
+          "http://en.wikipedia.org/wiki/Enneagram_of_Personality"
+        ]
+      },
+      "author": {
+        "@type": "Person",
+        "name": "DJ Wayne",
+        "sameAs": [
+          "https://www.instagram.com/djwayne3/",
+          "https://www.youtube.com/@djwayne3",
+          "https://www.linkedin.com/in/davidtwayne/",
+          "https://twitter.com/djwayne3"
+        ]
+      },
+      "dateModified": "2026-02-10",
+      "datePublished": "2023-04-01",
+      "description": "The definitive guide to Enneagram resources: 60+ vetted books, podcasts, YouTube channels, apps, certification programs, and online communities for every learning style and experience level.",
+      "headline": "Enneagram Books, Websites, Podcasts & Influencers: The Ultimate Resource Guide (2026)",
+      "mainEntityOfPage": {
+        "@id": "https://9takes.com/enneagram-corner/enneagram-books-websites-podcasts",
+        "@type": "WebPage"
+      },
+      "image": {
+        "@type": "ImageObject",
+        "height": 900,
+        "url": "https://9takes.com/blogs/greek-statue-listening-to-a-podcast.webp",
+        "width": 900
+      },
+      "keywords": [
+        "Enneagram",
+        "personality types",
+        "Enneagram books",
+        "Enneagram websites",
+        "Enneagram podcasts",
+        "Enneagram YouTube",
+        "Enneagram apps",
+        "Enneagram certification",
+        "Enneagram influencers",
+        "personal growth",
+        "self-discovery",
+        "Enneagram resources",
+        "Enneagram test",
+        "Enneagram training",
+        "best Enneagram resources 2026"
+      ],
+      "wordCount": 7200,
+      "url": "https://9takes.com/enneagram-corner/enneagram-books-websites-podcasts",
+      "articleBody": "The definitive guide to Enneagram resources, bringing together 60+ vetted books, websites, YouTube channels, podcasts, apps, certification programs, and online communities. Covers must-read classics like The Wisdom of the Enneagram and The Complete Enneagram, popular contemporary titles, workplace and leadership books, and recent releases. For online resources, we review essential sites, typing tools and tests, and the best Enneagram apps. The YouTube section highlights top channels for visual learners including Dr. Tom LaHue, Frank James, and Your Enneagram Coach. Podcasts range from established favorites like Typology and The Enneagram Journey to specialized shows on business, faith, and subtypes. A dedicated training and certification section covers IEA-accredited programs including The Narrative Enneagram, Enneagram Spectrum, and The Enneagram in Business. We profile leading influencers and experts from Steph Barron Hall and Ian Morgan Cron to IEA leaders. The guide includes 2026 trends: trauma-informed teaching, neuroscience integration, AI-powered tools, and an NIH-funded clinical trial. Online communities section covers Reddit, Facebook groups, and professional networks.",
+      "articleSection": "Enneagram",
+      "publisher": {
+        "@type": "Organization",
+        "name": "9takes",
+        "sameAs": [
+          "https://www.instagram.com/9takesdotcom/",
+          "https://twitter.com/9takesdotcom"
+        ],
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://9takes.com/brand/aero.png"
+        }
+      }
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What's the best Enneagram book for beginners?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The Road Back to You by Ian Morgan Cron and Suzanne Stabile. It uses relatable stories instead of dense theory, making the nine types immediately recognizable. If you prefer a visual approach, The Enneagram Made Easy by Baron and Wagele uses illustrations and humor. For a modern take aimed at millennials, try Millenneagram by Hannah Paasch."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Are free Enneagram tests accurate?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "They give you a starting point, not a definitive answer. The best tests (like the RHETI from the Enneagram Institute) cost money because they're validated instruments. Free tests from Truity or Eclectic Energies are useful for narrowing down to 2-3 possible types, but you'll need to read the type descriptions carefully and self-reflect to confirm. Mistyping is common, especially confusing types like 4 vs 6, or 9 vs 2."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What's the difference between the Riso-Hudson and Narrative Enneagram approaches?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Riso-Hudson (Enneagram Institute) uses levels of development: healthy, average, and unhealthy versions of each type. The Narrative Enneagram emphasizes storytelling and panel interviews where people of each type share their experiences. Neither is \"better\"; Riso-Hudson works well for self-study, while the Narrative approach is powerful in workshops and coaching settings."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Which Enneagram podcast should I listen to first?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Typology with Ian Morgan Cron if you want celebrity interviews and accessible conversations. Enneagram 2.0 with Beatrice Chestnut and Uranio Paes if you want deep dives into subtypes and theory (episodes are often 90+ minutes). Enneagram and Coffee with Sarajane Case for a lighthearted, practical approach."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I know if an Enneagram teacher is credible?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Look for certification from the International Enneagram Association (IEA), training in the Narrative Tradition, or credentials from the Enneagram Institute. Be cautious of influencers who learned only from social media. The best teachers can explain subtypes, instinctual variants, and growth paths, not just surface-level type descriptions. They also acknowledge the system's limitations rather than treating it as absolute truth."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is the Enneagram scientifically validated?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The honest answer: it's promising but not settled science. A 2021 systematic review in the Journal of Clinical Psychology (Hook et al.) analyzed 104 independent samples and found mixed but growing evidence of reliability and validity. The majority of published studies are doctoral dissertations and specialty journal articles; relatively few have appeared in mainstream psychology journals yet. The Enneagram lacks the extensive validation of the Big Five, but practitioners and a growing number of researchers argue it captures dimensions of personality (especially around motivation and defense mechanisms) that other models miss. Read more in our guide to Enneagram science and mental health."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How is the Enneagram different from Myers-Briggs?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The Enneagram focuses on core motivations, fears, and desires—why you do what you do. Myers-Briggs (MBTI) focuses on cognitive preferences—how you process information. The Enneagram includes growth paths and stress patterns that show how your type changes under different conditions, while MBTI types are more static. Many people find the Enneagram more useful for personal growth and relationships, while MBTI is popular in workplace settings. See our full comparison."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can my Enneagram type change over time?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Your core type doesn't change, but how you express it absolutely does. The Enneagram's levels of development (healthy → average → unhealthy) describe how the same type can look radically different depending on a person's self-awareness and growth. You also access different types through wings, stress/growth arrows, and instinctual subtypes."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What are the best free Enneagram resources?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "For a zero-cost deep dive: read the type descriptions on the Enneagram Institute website, listen to the Typology or Enneagram 2.0 podcasts, and watch Dr. Tom LaHue's YouTube channel. For tests, Truity and Eclectic Energies offer free assessments (see our test comparison guide). Reddit's r/Enneagram community is also a valuable free resource for discussion and typing help."
+          }
+        }
+      ]
+    }
+  ]
+}
+</script>
+
 </svelte:head>
 
 <style lang="scss">
@@ -950,85 +1105,3 @@ For a zero-cost deep dive: read the type descriptions on the Enneagram Institute
 	}
 </style>
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What's the best Enneagram book for beginners?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The Road Back to You by Ian Morgan Cron and Suzanne Stabile. It uses relatable stories instead of dense theory, making the nine types immediately recognizable. If you prefer a visual approach, The Enneagram Made Easy by Baron and Wagele uses illustrations and humor. For a modern take aimed at millennials, try Millenneagram by Hannah Paasch."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Are free Enneagram tests accurate?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "They give you a starting point, not a definitive answer. The best tests (like the RHETI from the Enneagram Institute) cost money because they're validated instruments. Free tests from Truity or Eclectic Energies are useful for narrowing down to 2-3 possible types, but you'll need to read the type descriptions carefully and self-reflect to confirm. Mistyping is common, especially confusing types like 4 vs 6, or 9 vs 2."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What's the difference between the Riso-Hudson and Narrative Enneagram approaches?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Riso-Hudson (Enneagram Institute) uses levels of development: healthy, average, and unhealthy versions of each type. The Narrative Enneagram emphasizes storytelling and panel interviews where people of each type share their experiences. Neither is \"better\"; Riso-Hudson works well for self-study, while the Narrative approach is powerful in workshops and coaching settings."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Which Enneagram podcast should I listen to first?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Typology with Ian Morgan Cron if you want celebrity interviews and accessible conversations. Enneagram 2.0 with Beatrice Chestnut and Uranio Paes if you want deep dives into subtypes and theory (episodes are often 90+ minutes). Enneagram and Coffee with Sarajane Case for a lighthearted, practical approach."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How do I know if an Enneagram teacher is credible?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Look for certification from the International Enneagram Association (IEA), training in the Narrative Tradition, or credentials from the Enneagram Institute. Be cautious of influencers who learned only from social media. The best teachers can explain subtypes, instinctual variants, and growth paths, not just surface-level type descriptions. They also acknowledge the system's limitations rather than treating it as absolute truth."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Is the Enneagram scientifically validated?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The honest answer: it's promising but not settled science. A <a target=\"blank\" rel=\"noopener\" href=\"https://pubmed.ncbi.nlm.nih.gov/33332604/\">2021 systematic review</a> in the Journal of Clinical Psychology_ (Hook et al.) analyzed 104 independent samples and found mixed but growing evidence of reliability and validity. The majority of published studies are doctoral dissertations and specialty journal articles; relatively few have appeared in mainstream psychology journals yet. The Enneagram lacks the extensive validation of the Big Five, but practitioners and a growing number of researchers argue it captures dimensions of personality (especially around motivation and defense mechanisms) that other models miss. Read more in our guide to Enneagram science and mental health."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How is the Enneagram different from Myers-Briggs?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The Enneagram focuses on core motivations, fears, and desires—why you do what you do. Myers-Briggs (MBTI) focuses on cognitive preferences—how you process information. The Enneagram includes growth paths and stress patterns that show how your type changes under different conditions, while MBTI types are more static. Many people find the Enneagram more useful for personal growth and relationships, while MBTI is popular in workplace settings. See our full comparison."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can my Enneagram type change over time?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Your core type doesn't change, but how you express it absolutely does. The Enneagram's levels of development (healthy → average → unhealthy) describe how the same type can look radically different depending on a person's self-awareness and growth. You also access different types through wings, stress/growth arrows, and instinctual subtypes."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What are the best free Enneagram resources?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "For a zero-cost deep dive: read the type descriptions on the Enneagram Institute website, listen to the Typology or Enneagram 2.0 podcasts, and watch Dr. Tom LaHue's YouTube channel. For tests, Truity and Eclectic Energies offer free assessments (see our test comparison guide). Reddit's r/Enneagram community is also a valuable free resource for discussion and typing help."
-
-      }
-    }
-
-]
-}
-</script>

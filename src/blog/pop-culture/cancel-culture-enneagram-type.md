@@ -18,6 +18,106 @@ path: src/blog/pop-culture/cancel-culture-enneagram-type.md
 ---
 
 <svelte:head>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "articleBody": "An Enneagram breakdown of cancel culture, exploring which personality types initiate online pile-ons, which types are most vulnerable to being cancelled, and why social media punishment follows predictable psychological patterns.",
+      "author": {
+        "@type": "Person",
+        "name": "DJ Wayne",
+        "sameAs": [
+          "https://www.instagram.com/djwayne3/",
+          "https://www.youtube.com/@djwayne3",
+          "https://www.linkedin.com/in/davidtwayne/",
+          "https://twitter.com/djwayne3"
+        ]
+      },
+      "dateModified": "2025-12-17",
+      "datePublished": "2025-12-17",
+      "description": "Why do some people lead cancel campaigns while others get destroyed by them? Enneagram types reveal the psychology behind social media mob justice.",
+      "headline": "Cancel Culture by Enneagram Type: Who Cancels and Who Gets Cancelled",
+      "image": {
+        "@type": "ImageObject",
+        "height": 900,
+        "url": "https://9takes.com/blogs/cancel-culture-psychology.webp",
+        "width": 900
+      },
+      "mainEntityOfPage": {
+        "@id": "https://9takes.com/pop-culture/cancel-culture-enneagram-type",
+        "@type": "WebPage"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "9takes",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://9takes.com/brand/aero.png"
+        },
+        "sameAs": [
+          "https://www.instagram.com/9takesdotcom/",
+          "https://twitter.com/9takesdotcom"
+        ]
+      },
+      "keywords": [
+        "cancel culture",
+        "Enneagram",
+        "social media",
+        "mob psychology",
+        "online outrage",
+        "internet culture",
+        "callout culture",
+        "personality psychology",
+        "Twitter",
+        "public shaming"
+      ],
+      "articleSection": "Pop Culture",
+      "wordCount": 2251
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Is cancel culture a left-wing or right-wing phenomenon?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Both. The types driving cancellation (1, 6, 8) exist across the political spectrum. The moral frameworks differ, but the psychological patterns are identical. Right-wing cancellations focus on different transgressions but use the same Type 1 righteousness, Type 6 protection, and Type 8 aggression."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Has anyone deserved to be cancelled?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Some people have done genuinely harmful things and faced appropriate consequences. The issue isn't whether accountability should exist—it's whether mob justice produces proportional, accurate, and growth-oriented outcomes. Often it doesn't."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I know if I'm participating in cancel culture unhealthily?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ask yourself: Am I trying to correct behavior or destroy a person? Is my participation driven by genuine concern or psychological satisfaction? Would I want this treatment if I made a similar mistake? If your answers are uncomfortable, examine your motivations."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Will cancel culture continue?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "As long as social media exists, yes. The platforms create conditions for mob formation, and human psychology hasn't changed. What may evolve is cultural wisdom about when cancellation is appropriate and when it's excess."
+          }
+        }
+      ]
+    }
+  ]
+}
+</script>
+
 </svelte:head>
 
 <script>
@@ -331,43 +431,3 @@ As long as social media exists, yes. The platforms create conditions for mob for
 
 > **Disclaimer:** This analysis of cancel culture psychology is observational and speculative, not based on tested typing of specific individuals or incidents.
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Is cancel culture a left-wing or right-wing phenomenon?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Both. The types driving cancellation (1, 6, 8) exist across the political spectrum. The moral frameworks differ, but the psychological patterns are identical. Right-wing cancellations focus on different transgressions but use the same Type 1 righteousness, Type 6 protection, and Type 8 aggression."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Has anyone deserved to be cancelled?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Some people have done genuinely harmful things and faced appropriate consequences. The issue isn't whether accountability should exist—it's whether mob justice produces proportional, accurate, and growth-oriented outcomes. Often it doesn't."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How do I know if I'm participating in cancel culture unhealthily?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Ask yourself: Am I trying to correct behavior or destroy a person? Is my participation driven by genuine concern or psychological satisfaction? Would I want this treatment if I made a similar mistake? If your answers are uncomfortable, examine your motivations."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Will cancel culture continue?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "As long as social media exists, yes. The platforms create conditions for mob formation, and human psychology hasn't changed. What may evolve is cultural wisdom about when cancellation is appropriate and when it's excess. > Disclaimer: This analysis of cancel culture psychology is observational and speculative, not based on tested typing of specific individuals or incidents."
-      }
-    }
-  ]
-}
-</script>

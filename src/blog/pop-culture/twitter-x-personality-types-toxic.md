@@ -18,6 +18,114 @@ path: src/blog/pop-culture/twitter-x-personality-types-toxic.md
 ---
 
 <svelte:head>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "articleBody": "An Enneagram analysis of Twitter/X, showing why conflict-driven personality styles dominate the platform and how its design amplifies outrage, moral certainty, and tribal escalation.",
+      "author": {
+        "@type": "Person",
+        "name": "DJ Wayne",
+        "sameAs": [
+          "https://www.instagram.com/djwayne3/",
+          "https://www.youtube.com/@djwayne3",
+          "https://www.linkedin.com/in/davidtwayne/",
+          "https://twitter.com/djwayne3"
+        ]
+      },
+      "dateModified": "2025-12-18",
+      "datePublished": "2025-12-18",
+      "description": "The platform that amplifies conflict. Why Type 8s, Type 1s, and Type 6s dominate Twitter discourse—and why it makes everyone miserable.",
+      "headline": "Twitter/X Personality Types: Why It's So Toxic",
+      "image": {
+        "@type": "ImageObject",
+        "height": 900,
+        "url": "https://9takes.com/blogs/twitter-toxic-psychology.webp",
+        "width": 900
+      },
+      "mainEntityOfPage": {
+        "@id": "https://9takes.com/pop-culture/twitter-x-personality-types-toxic",
+        "@type": "WebPage"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "9takes",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://9takes.com/brand/aero.png"
+        },
+        "sameAs": [
+          "https://www.instagram.com/9takesdotcom/",
+          "https://twitter.com/9takesdotcom"
+        ]
+      },
+      "keywords": [
+        "Twitter",
+        "X",
+        "Enneagram",
+        "social media toxicity",
+        "online conflict",
+        "internet culture",
+        "political discourse",
+        "Type 8",
+        "Type 1",
+        "Type 6"
+      ],
+      "articleSection": "Pop Culture",
+      "wordCount": 2142
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Why can't I stop checking Twitter even though it makes me miserable?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Variable reward schedules (sometimes good content, sometimes bad) are addictive. For Type 6s, there's also anxiety about missing threats. For Type 3s, there's fear of missing opportunities. The platform is designed to be hard to quit."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is Twitter getting worse or am I just noticing it more?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Both. The platform has genuinely changed (moderation, algorithm, user base), AND your tolerance for its psychological cost may have decreased. Burnout is real."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I use Twitter without getting sucked into the toxicity?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Possible but difficult. Requires ruthless curation, strict time limits, and likely muting/blocking liberally. Most people who try eventually either get sucked in or leave."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why do some people seem to thrive on Twitter drama?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Usually Type 8s who genuinely enjoy conflict, or Type 3s who've figured out how to monetize the attention. For these types, what looks exhausting to you is energizing to them."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Should I delete my account?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Depends on your type and what you're getting from it. If the psychological cost exceeds the benefit—information, community, professional necessity—then yes. If you've found a sustainable way to use it, no."
+          }
+        }
+      ]
+    }
+  ]
+}
+</script>
+
 </svelte:head>
 
 <script>
@@ -322,51 +430,3 @@ Depends on your type and what you're getting from it. If the psychological cost 
 
 > **Disclaimer:** This analysis of Twitter personality types is observational and speculative, not based on tested typing of specific accounts.
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Why can't I stop checking Twitter even though it makes me miserable?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Variable reward schedules (sometimes good content, sometimes bad) are addictive. For Type 6s, there's also anxiety about missing threats. For Type 3s, there's fear of missing opportunities. The platform is designed to be hard to quit."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Is Twitter getting worse or am I just noticing it more?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Both. The platform has genuinely changed (moderation, algorithm, user base), AND your tolerance for its psychological cost may have decreased. Burnout is real."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can I use Twitter without getting sucked into the toxicity?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Possible but difficult. Requires ruthless curation, strict time limits, and likely muting/blocking liberally. Most people who try eventually either get sucked in or leave."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Why do some people seem to thrive on Twitter drama?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Usually Type 8s who genuinely enjoy conflict, or Type 3s who've figured out how to monetize the attention. For these types, what looks exhausting to you is energizing to them."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Should I delete my account?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Depends on your type and what you're getting from it. If the psychological cost exceeds the benefit—information, community, professional necessity—then yes. If you've found a sustainable way to use it, no. > Disclaimer: This analysis of Twitter personality types is observational and speculative, not based on tested typing of specific accounts."
-      }
-    }
-  ]
-}
-</script>

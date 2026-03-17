@@ -18,6 +18,98 @@ path: src/blog/pop-culture/reddit-moderators-type-1-internet.md
 ---
 
 <svelte:head>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "articleBody": "An Enneagram analysis of Reddit moderators and other unpaid internet janitors, examining why Type 1-style psychology is drawn to rules, order, cleanup, and thankless digital governance.",
+      "author": {
+        "@type": "Person",
+        "name": "DJ Wayne",
+        "sameAs": [
+          "https://www.instagram.com/djwayne3/",
+          "https://www.youtube.com/@djwayne3",
+          "https://www.linkedin.com/in/davidtwayne/",
+          "https://twitter.com/djwayne3"
+        ]
+      },
+      "dateModified": "2026-02-03",
+      "datePublished": "2025-12-19",
+      "description": "The thankless, unpaid, obsessive work of moderating Reddit and Wikipedia. Why certain personality types are psychologically compelled to govern the internet for free.",
+      "headline": "Reddit Moderators: Why Type 1s Run the Internet",
+      "image": {
+        "@type": "ImageObject",
+        "height": 900,
+        "url": "https://9takes.com/blogs/reddit-mod-psychology.webp",
+        "width": 900
+      },
+      "mainEntityOfPage": {
+        "@id": "https://9takes.com/pop-culture/reddit-moderators-type-1-internet",
+        "@type": "WebPage"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "9takes",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://9takes.com/brand/aero.png"
+        },
+        "sameAs": [
+          "https://www.instagram.com/9takesdotcom/",
+          "https://twitter.com/9takesdotcom"
+        ]
+      },
+      "keywords": [
+        "Reddit moderators",
+        "internet moderation",
+        "Enneagram",
+        "Type 1",
+        "Reddit",
+        "Wikipedia",
+        "online communities",
+        "digital governance",
+        "volunteer moderation",
+        "internet culture"
+      ],
+      "articleSection": "Pop Culture",
+      "wordCount": 2947
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How can communities get better moderation?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Type-diverse mod teams (don't let one type dominate). Clear escalation paths (so Type 1s don't feel personally responsible for everything). Defined boundaries (hours per week, specific responsibilities). Burnout protocols (mandatory breaks, rotation systems)."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Should I become a moderator?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ask yourself which psychological need it would serve. Type 1s seeking perfection will find constant wrongness they can't fix. Type 5s will encounter users ignoring their elegant solutions. Type 6s will face endless potential threats. Type 8s will exhaust themselves fighting everyone. Moderation is most sustainable when you understand your type's limits and build in safeguards."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How can understanding type psychology help me navigate moderation decisions?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "When a mod removes your post, consider what type they might be. A Type 1 needs to see you acknowledge the rule. A Type 6 needs reassurance you're not a threat. A Type 8 needs you to not challenge their authority directly. A Type 5 needs you to follow the system. This doesn't mean accepting bad moderation, but it helps you respond more effectively."
+          }
+        }
+      ]
+    }
+  ]
+}
+</script>
+
 </svelte:head>
 
 <script>
@@ -267,35 +359,3 @@ Understanding this doesn't mean accepting bad moderation. It helps everyone navi
 
 > **Disclaimer:** This analysis of moderator and editor personality types is observational and speculative, based on behavioral patterns rather than tested typing of specific individuals. The internet governance patterns described are generalizations that won't apply to every moderator or community.
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How can communities get better moderation?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Type-diverse mod teams (don't let one type dominate). Clear escalation paths (so Type 1s don't feel personally responsible for everything). Defined boundaries (hours per week, specific responsibilities). Burnout protocols (mandatory breaks, rotation systems)."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Should I become a moderator?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Ask yourself which psychological need it would serve. Type 1s seeking perfection will find constant wrongness they can't fix. Type 5s will encounter users ignoring their elegant solutions. Type 6s will face endless potential threats. Type 8s will exhaust themselves fighting everyone. Moderation is most sustainable when you understand your type's limits and build in safeguards."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How can understanding type psychology help me navigate moderation decisions?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "When a mod removes your post, consider what type they might be. A Type 1 needs to see you acknowledge the rule. A Type 6 needs reassurance you're not a threat. A Type 8 needs you to not challenge their authority directly. A Type 5 needs you to follow the system. This doesn't mean accepting bad moderation, but it helps you respond more effectively."
-      }
-    }
-  ]
-}
-</script>

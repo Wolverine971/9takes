@@ -18,6 +18,114 @@ path: src/blog/pop-culture/onlyfans-creators-enneagram-digital-intimacy.md
 ---
 
 <svelte:head>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "articleBody": "A psychological analysis of OnlyFans creators through the Enneagram lens, exploring which personality types thrive in monetized intimacy, which struggle with the emotional costs, and why digital closeness becomes a business model.",
+      "author": {
+        "@type": "Person",
+        "name": "DJ Wayne",
+        "sameAs": [
+          "https://www.instagram.com/djwayne3/",
+          "https://www.youtube.com/@djwayne3",
+          "https://www.linkedin.com/in/davidtwayne/",
+          "https://twitter.com/djwayne3"
+        ]
+      },
+      "dateModified": "2025-12-21",
+      "datePublished": "2025-12-21",
+      "description": "Why certain personality types thrive on OnlyFans while others struggle. The Enneagram psychology behind selling intimacy—and the psychological costs involved.",
+      "headline": "OnlyFans Creators by Enneagram: The Psychology of Digital Intimacy",
+      "image": {
+        "@type": "ImageObject",
+        "height": 900,
+        "url": "https://9takes.com/blogs/onlyfans-creator-psychology.webp",
+        "width": 900
+      },
+      "mainEntityOfPage": {
+        "@id": "https://9takes.com/pop-culture/onlyfans-creators-enneagram-digital-intimacy",
+        "@type": "WebPage"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "9takes",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://9takes.com/brand/aero.png"
+        },
+        "sameAs": [
+          "https://www.instagram.com/9takesdotcom/",
+          "https://twitter.com/9takesdotcom"
+        ]
+      },
+      "keywords": [
+        "OnlyFans",
+        "Enneagram",
+        "digital intimacy",
+        "creator economy",
+        "parasocial relationships",
+        "online sexuality",
+        "internet culture",
+        "personality psychology",
+        "subscription platforms",
+        "emotional labor"
+      ],
+      "articleSection": "Pop Culture",
+      "wordCount": 2225
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Is OnlyFans psychologically harmful?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Depends on the person. Some types (3, 7, 8) have psychological architecture that handles it well. Others (1, 2, 6, 9) are likely to pay significant costs. The work isn't inherently harmful—but it's not for everyone."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why do some creators seem fine while others are destroyed?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Personality type is a major factor. A Type 3 treating it as business has fundamentally different experience than a Type 2 emotionally invested in every subscriber."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can you maintain real relationships while doing OnlyFans?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Possible but challenging. Requires clear communication with partners and internal boundaries many types struggle to maintain. Types who separate easily (3, 5, 8) have advantages."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is the stigma the biggest problem?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "For some types (particularly 1 and 6), yes—the judgment is harder than the work itself. For others (particularly 8), stigma is irrelevant. Your type determines what costs you most."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Should I start OnlyFans?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Consider your type honestly. If you're Type 1, 2, 6, or 9, the costs likely outweigh benefits. If you're Type 3, 7, or 8, you have better odds—but still examine your motivations and set boundaries."
+          }
+        }
+      ]
+    }
+  ]
+}
+</script>
+
 </svelte:head>
 
 <script>
@@ -337,51 +445,3 @@ Consider your type honestly. If you're Type 1, 2, 6, or 9, the costs likely outw
 
 > **Disclaimer:** This analysis of OnlyFans creator psychology by Enneagram type is observational and speculative, not based on clinical research or tested typing of specific individuals.
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Is OnlyFans psychologically harmful?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Depends on the person. Some types (3, 7, 8) have psychological architecture that handles it well. Others (1, 2, 6, 9) are likely to pay significant costs. The work isn't inherently harmful—but it's not for everyone."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Why do some creators seem fine while others are destroyed?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Personality type is a major factor. A Type 3 treating it as business has fundamentally different experience than a Type 2 emotionally invested in every subscriber."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can you maintain real relationships while doing OnlyFans?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Possible but challenging. Requires clear communication with partners and internal boundaries many types struggle to maintain. Types who separate easily (3, 5, 8) have advantages."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Is the stigma the biggest problem?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "For some types (particularly 1 and 6), yes—the judgment is harder than the work itself. For others (particularly 8), stigma is irrelevant. Your type determines what costs you most."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Should I start OnlyFans?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Consider your type honestly. If you're Type 1, 2, 6, or 9, the costs likely outweigh benefits. If you're Type 3, 7, or 8, you have better odds—but still examine your motivations and set boundaries. > Disclaimer: This analysis of OnlyFans creator psychology by Enneagram type is observational and speculative, not based on clinical research or tested typing of specific individuals."
-      }
-    }
-  ]
-}
-</script>

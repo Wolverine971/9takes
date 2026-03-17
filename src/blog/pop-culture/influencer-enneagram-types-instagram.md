@@ -18,6 +18,114 @@ path: src/blog/pop-culture/influencer-enneagram-types-instagram.md
 ---
 
 <svelte:head>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "articleBody": "A psychology of influencer culture through the Enneagram lens, showing why Type 3s dominate Instagram and how each personality type approaches visibility, performance, attention, and online fame.",
+      "author": {
+        "@type": "Person",
+        "name": "DJ Wayne",
+        "sameAs": [
+          "https://www.instagram.com/djwayne3/",
+          "https://www.youtube.com/@djwayne3",
+          "https://www.linkedin.com/in/davidtwayne/",
+          "https://twitter.com/djwayne3"
+        ]
+      },
+      "dateModified": "2025-12-16",
+      "datePublished": "2025-12-16",
+      "description": "The psychology behind why certain personality types thrive as influencers. Type 3 Achievers built Instagram culture—here's how each type approaches fame.",
+      "headline": "Influencer Enneagram Types: Why Type 3s Dominate Instagram",
+      "image": {
+        "@type": "ImageObject",
+        "height": 900,
+        "url": "https://9takes.com/blogs/influencer-types-instagram.webp",
+        "width": 900
+      },
+      "mainEntityOfPage": {
+        "@id": "https://9takes.com/pop-culture/influencer-enneagram-types-instagram",
+        "@type": "WebPage"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "9takes",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://9takes.com/brand/aero.png"
+        },
+        "sameAs": [
+          "https://www.instagram.com/9takesdotcom/",
+          "https://twitter.com/9takesdotcom"
+        ]
+      },
+      "keywords": [
+        "influencers",
+        "Instagram",
+        "Enneagram",
+        "Type 3",
+        "social media psychology",
+        "internet fame",
+        "creator economy",
+        "personality types",
+        "attention economy",
+        "online identity"
+      ],
+      "articleSection": "Pop Culture",
+      "wordCount": 2172
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Can introverted types succeed as influencers?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, but with specific strategies. Type 5s can succeed with educational content that doesn't require constant presence. Type 4s can succeed with aesthetic-focused content. Type 9s can succeed with ASMR or calming content. The key is finding a niche that doesn't fight their psychology."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Are all successful influencers Type 3s?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No, but Type 3s are overrepresented because the platform rewards their natural psychology. Other types can succeed by finding niches that align with their strengths—Type 1 expertise, Type 2 community-building, Type 4 aesthetics, Type 7 energy, Type 8 controversy."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why do influencers seem fake?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Because you're often seeing Type 3 image-management, which prioritizes appearance over authenticity. Type 3s aren't being \"fake\"—they're being their authentic selves, and their authentic selves are highly image-conscious. The disconnect you feel might be your type's different relationship to authenticity."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is influencer culture psychologically harmful?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It depends on type fit. For Type 3s, it can be affirming and energizing. For types that value privacy, depth, or internal validation, the constant pressure to perform can be depleting. The harm comes from assuming everyone should engage with social media the same way."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I know if I should try influencing?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ask yourself: Does external validation energize or deplete you? Do you enjoy curating your image? Are you comfortable with constant exposure? If yes, you might have the psychology for it. If no, you might find the experience exhausting regardless of success."
+          }
+        }
+      ]
+    }
+  ]
+}
+</script>
+
 </svelte:head>
 
 <script>
@@ -291,51 +399,3 @@ Ask yourself: Does external validation energize or deplete you? Do you enjoy cur
 
 > **Disclaimer:** This analysis of influencer personality types is speculative and observational, not based on tested typing of specific individuals.
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Can introverted types succeed as influencers?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes, but with specific strategies. Type 5s can succeed with educational content that doesn't require constant presence. Type 4s can succeed with aesthetic-focused content. Type 9s can succeed with ASMR or calming content. The key is finding a niche that doesn't fight their psychology."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Are all successful influencers Type 3s?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "No, but Type 3s are overrepresented because the platform rewards their natural psychology. Other types can succeed by finding niches that align with their strengths—Type 1 expertise, Type 2 community-building, Type 4 aesthetics, Type 7 energy, Type 8 controversy."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Why do influencers seem fake?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Because you're often seeing Type 3 image-management, which prioritizes appearance over authenticity. Type 3s aren't being \"fake\"—they're being their authentic selves, and their authentic selves are highly image-conscious. The disconnect you feel might be your type's different relationship to authenticity."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Is influencer culture psychologically harmful?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "It depends on type fit. For Type 3s, it can be affirming and energizing. For types that value privacy, depth, or internal validation, the constant pressure to perform can be depleting. The harm comes from assuming everyone should engage with social media the same way."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How do I know if I should try influencing?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Ask yourself: Does external validation energize or deplete you? Do you enjoy curating your image? Are you comfortable with constant exposure? If yes, you might have the psychology for it. If no, you might find the experience exhausting regardless of success. > Disclaimer: This analysis of influencer personality types is speculative and observational, not based on tested typing of specific individuals."
-      }
-    }
-  ]
-}
-</script>

@@ -18,6 +18,114 @@ path: src/blog/pop-culture/parasocial-relationships-enneagram-type.md
 ---
 
 <svelte:head>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "articleBody": "An Enneagram guide to parasocial relationships, explaining why different personality types become attached to celebrities and influencers and what emotional needs those one-sided bonds are trying to meet.",
+      "author": {
+        "@type": "Person",
+        "name": "DJ Wayne",
+        "sameAs": [
+          "https://www.instagram.com/djwayne3/",
+          "https://www.youtube.com/@djwayne3",
+          "https://www.linkedin.com/in/davidtwayne/",
+          "https://twitter.com/djwayne3"
+        ]
+      },
+      "dateModified": "2026-02-02",
+      "datePublished": "2026-02-02",
+      "description": "Why do you feel emotionally connected to someone who doesn't know you exist? Your Enneagram type explains your parasocial relationship patterns with celebrities and influencers.",
+      "headline": "Parasocial Relationships: Why Each Enneagram Type Forms Them",
+      "image": {
+        "@type": "ImageObject",
+        "height": 900,
+        "url": "https://9takes.com/blogs/parasocial-relationships-psychology.webp",
+        "width": 900
+      },
+      "mainEntityOfPage": {
+        "@id": "https://9takes.com/pop-culture/parasocial-relationships-enneagram-type",
+        "@type": "WebPage"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "9takes",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://9takes.com/brand/aero.png"
+        },
+        "sameAs": [
+          "https://www.instagram.com/9takesdotcom/",
+          "https://twitter.com/9takesdotcom"
+        ]
+      },
+      "keywords": [
+        "parasocial relationships",
+        "Enneagram",
+        "celebrities",
+        "influencers",
+        "fan psychology",
+        "internet culture",
+        "attachment",
+        "social media",
+        "personality types",
+        "online intimacy"
+      ],
+      "articleSection": "Pop Culture",
+      "wordCount": 3083
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Are parasocial relationships unhealthy?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Not inherently. Light-to-moderate connections are normal and can provide genuine enjoyment, inspiration, and connection. They become unhealthy when they replace real relationships or create significant distress."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why do I feel like certain celebrities \"get\" me?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Because their curated content is designed to resonate. Type 4s especially feel \"uniquely understood,\" but that artist's expression is reaching millions who feel the same way. The resonance is real. The uniqueness isn't."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I know if my parasocial relationship is too intense?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Three questions: Is it replacing real connection? Do I expect reciprocation? Does their behavior cause me significant distress? If yes to any, examine the connection."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do celebrities understand parasocial dynamics?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Increasingly, yes. Many consciously cultivate these connections because they drive engagement. This isn't necessarily manipulative, but understanding it helps you see the relationship more clearly."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can parasocial relationships help with loneliness?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Short-term, yes. They provide a sense of connection. Long-term, they can become substitutes for real relationship investment, perpetuating the loneliness they temporarily relieve."
+          }
+        }
+      ]
+    }
+  ]
+}
+</script>
+
 </svelte:head>
 
 <script>
@@ -326,51 +434,3 @@ The question isn't whether parasocial connections are normal. They are. The ques
 
 Your Enneagram type shows you what you're looking for. Now find it somewhere it can look back.
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Are parasocial relationships unhealthy?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Not inherently. Light-to-moderate connections are normal and can provide genuine enjoyment, inspiration, and connection. They become unhealthy when they replace real relationships or create significant distress."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Why do I feel like certain celebrities \"get\" me?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Because their curated content is designed to resonate. Type 4s especially feel \"uniquely understood,\" but that artist's expression is reaching millions who feel the same way. The resonance is real. The uniqueness isn't."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How do I know if my parasocial relationship is too intense?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Three questions: Is it replacing real connection? Do I expect reciprocation? Does their behavior cause me significant distress? If yes to any, examine the connection."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Do celebrities understand parasocial dynamics?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Increasingly, yes. Many consciously cultivate these connections because they drive engagement. This isn't necessarily manipulative, but understanding it helps you see the relationship more clearly."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can parasocial relationships help with loneliness?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Short-term, yes. They provide a sense of connection. Long-term, they can become substitutes for real relationship investment, perpetuating the loneliness they temporarily relieve. > Disclaimer: This analysis is observational and speculative, not based on clinical research. --- When news breaks about your favorite celebrity, you'll still feel something. That's not a problem. The feeling is real even if the relationship isn't. The question isn't whether parasocial connections are normal. They are. The question is whether they're enough. Whether the one-sided intimacy you feel with someone who doesn't know you exist is supplementing real relationships, or replacing them. Your Enneagram type shows you what you're looking for. Now find it somewhere it can look back."
-      }
-    }
-  ]
-}
-</script>
