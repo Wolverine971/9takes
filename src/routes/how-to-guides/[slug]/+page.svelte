@@ -17,7 +17,6 @@
 	import EmailSignup from '$lib/components/molecules/Email-Signup.svelte';
 	import { buildHowToSchema } from '$lib/utils/schema';
 	import AuthorBio from '$lib/components/blog/AuthorBio.svelte';
-	import Breadcrumbs from '$lib/components/blog/Breadcrumbs.svelte';
 	export let data: PageData;
 
 	// Build HowTo schema if steps are defined in frontmatter
@@ -104,14 +103,6 @@
 		{@html `<script type="application/ld+json">${howToSchema}</script>`}
 	{/if}
 </svelte:head>
-
-<Breadcrumbs
-	items={[
-		{ name: 'Home', url: 'https://9takes.com/' },
-		{ name: 'How-To Guides', url: 'https://9takes.com/how-to-guides' },
-		{ name: data.frontmatter.title, url: `https://9takes.com/how-to-guides/${data.slug}` }
-	]}
-/>
 
 <article itemscope itemtype="https://schema.org/BlogPosting" style="" class="blog" id="blogA">
 	<div style="align-items: inherit;">

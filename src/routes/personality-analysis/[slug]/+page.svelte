@@ -21,7 +21,6 @@
 	import BlogPurpose from '$lib/components/blog/BlogPurpose.svelte';
 	import QuickAnswer from '$lib/components/blog/callouts/QuickAnswer.svelte';
 	import AuthorBio from '$lib/components/blog/AuthorBio.svelte';
-	import Breadcrumbs from '$lib/components/blog/Breadcrumbs.svelte';
 
 	export let data: PageData;
 
@@ -325,17 +324,6 @@
 		}
 	});
 </script>
-
-<Breadcrumbs
-	items={[
-		{ name: 'Home', url: 'https://9takes.com/' },
-		{ name: 'Personality Analysis', url: 'https://9takes.com/personality-analysis' },
-		{
-			name: postPerson ? postPerson.split('-').join(' ') : postMeta.title,
-			url: `https://9takes.com/personality-analysis/${post.slug}`
-		}
-	]}
-/>
 
 <article itemscope itemtype="https://schema.org/BlogPosting" class="blog">
 	<div class="article-header">

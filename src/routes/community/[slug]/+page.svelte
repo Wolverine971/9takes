@@ -13,7 +13,6 @@
 	import SuggestionsBlog from '$lib/components/blog/SuggestionsBlog.svelte';
 	import EmailSignup from '$lib/components/molecules/Email-Signup.svelte';
 	import AuthorBio from '$lib/components/blog/AuthorBio.svelte';
-	import Breadcrumbs from '$lib/components/blog/Breadcrumbs.svelte';
 	export let data: PageData;
 	type C = Component;
 	$: component = data.component as unknown as C;
@@ -64,14 +63,6 @@
 		}
 	};
 </script>
-
-<Breadcrumbs
-	items={[
-		{ name: 'Home', url: 'https://9takes.com/' },
-		{ name: 'Community', url: 'https://9takes.com/community' },
-		{ name: data.frontmatter.title, url: `https://9takes.com/community/${data.slug}` }
-	]}
-/>
 
 <article itemscope itemtype="https://schema.org/BlogPosting" style="" class="blog" id="blogA">
 	<div style="align-items: inherit;">
