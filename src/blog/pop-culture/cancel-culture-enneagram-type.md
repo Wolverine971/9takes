@@ -430,4 +430,3 @@ Ask yourself: Am I trying to correct behavior or destroy a person? Is my partici
 As long as social media exists, yes. The platforms create conditions for mob formation, and human psychology hasn't changed. What may evolve is cultural wisdom about when cancellation is appropriate and when it's excess.
 
 > **Disclaimer:** This analysis of cancel culture psychology is observational and speculative, not based on tested typing of specific individuals or incidents.
-

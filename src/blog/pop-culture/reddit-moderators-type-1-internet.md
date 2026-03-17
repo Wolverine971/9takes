@@ -358,4 +358,3 @@ Understanding this doesn't mean accepting bad moderation. It helps everyone navi
 **Related:** [The Psychology of Twitter Toxicity](/pop-culture/twitter-x-personality-types-toxic) | [How Different Types Become Influencers](/pop-culture/influencer-enneagram-types-instagram)
 
 > **Disclaimer:** This analysis of moderator and editor personality types is observational and speculative, based on behavioral patterns rather than tested typing of specific individuals. The internet governance patterns described are generalizations that won't apply to every moderator or community.
-

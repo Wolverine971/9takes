@@ -1,3 +1,4 @@
+// src/lib/server/cronAuth.spec.ts
 import { describe, expect, it } from 'vitest';
 import { isAuthorizedCronRequest } from './cronAuth';
 

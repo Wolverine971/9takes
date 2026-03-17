@@ -484,4 +484,3 @@ The same patterns that drive Trump and Biden drive everyone, including you. Know
 - [All about Type 2](/enneagram-corner/enneagram-type-2)
 
 > **Note:** This look at Trump and Biden's Enneagram types is based on public behavior and may not reflect how they actually see themselves.
-

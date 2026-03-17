@@ -429,4 +429,3 @@ Usually Type 8s who genuinely enjoy conflict, or Type 3s who've figured out how 
 Depends on your type and what you're getting from it. If the psychological cost exceeds the benefit—information, community, professional necessity—then yes. If you've found a sustainable way to use it, no.
 
 > **Disclaimer:** This analysis of Twitter personality types is observational and speculative, not based on tested typing of specific accounts.
-

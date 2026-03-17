@@ -1,5 +1,7 @@
 // scripts/add-faq-schema.js
 #!/usr/bin/env node
+
+// scripts/add-faq-schema.js
 /**
  * Extracts FAQ Q&A pairs from blog markdown files and appends FAQPage JSON-LD schema.
  * Handles two patterns:

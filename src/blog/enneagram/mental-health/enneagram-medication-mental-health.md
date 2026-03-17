@@ -1078,4 +1078,3 @@ FEEDBACK ADDRESSED (2026-01-18):
 ✓ Pregnancy/nursing - Added acknowledgment in medical disclaimer
 ✓ Quality of life side effects - Added comprehensive section on sexual, weight, and emotional blunting side effects
 -->
-

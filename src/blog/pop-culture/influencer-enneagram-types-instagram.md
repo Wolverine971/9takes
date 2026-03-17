@@ -398,4 +398,3 @@ It depends on type fit. For Type 3s, it can be affirming and energizing. For typ
 Ask yourself: Does external validation energize or deplete you? Do you enjoy curating your image? Are you comfortable with constant exposure? If yes, you might have the psychology for it. If no, you might find the experience exhausting regardless of success.
 
 > **Disclaimer:** This analysis of influencer personality types is speculative and observational, not based on tested typing of specific individuals.
-

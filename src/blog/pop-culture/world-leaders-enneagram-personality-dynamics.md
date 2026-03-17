@@ -530,4 +530,3 @@ These same patterns that drive world leaders drive your relationships, your care
 - [Type 5: The Investigator](/enneagram-corner/enneagram-type-5)
 
 > **Note:** These personality assessments are speculative, based on public behavior and may not reflect how these leaders see themselves.
-

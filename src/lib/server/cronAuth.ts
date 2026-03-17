@@ -1,3 +1,4 @@
+// src/lib/server/cronAuth.ts
 export function isAuthorizedCronRequest(
 	authHeader: string | null,
 	secrets: Array<string | null | undefined>

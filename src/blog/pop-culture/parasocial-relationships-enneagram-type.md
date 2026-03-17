@@ -433,4 +433,3 @@ When news breaks about your favorite celebrity, you'll still feel something. Tha
 The question isn't whether parasocial connections are normal. They are. The question is whether they're _enough_. Whether the one-sided intimacy you feel with someone who doesn't know you exist is supplementing real relationships, or replacing them.
 
 Your Enneagram type shows you what you're looking for. Now find it somewhere it can look back.
-

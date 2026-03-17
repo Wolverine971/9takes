@@ -399,4 +399,3 @@ Type patterns suggest eventual divergence. Type 2 Pressley may drift toward esta
 Unknown. But self-awareness doesn't change the patterns—it just makes them more conscious.
 
 > **Disclaimer:** This analysis of the Squad's Enneagram types is speculative, based on publicly available information, and may not reflect their actual personality types.
-

@@ -351,7 +351,7 @@ The through-line: pain avoidance at any cost. Even when the cost is other people
 displayList={[
 {name: 'at their worst 😰', link: '/enneagram-corner/enneagram-types-in-stress'},
 {name: 'being toxic ☣️', link: '/enneagram-corner/toxic-traits-of-each-enneagram-type'},
-{name: 'unhealthy relationships 💔', link: '/enneagram-corner/relationship/enneagram-communication-guide'},
+{name: 'unhealthy relationships 💔', link: '/enneagram-corner/enneagram-communication-guide'},
 {name: 'manipulation tactics 🎭', link: '/enneagram-corner/how-each-enneagram-type-manipulates'},
 {name: 'shadow work guide 🌑', link: '/enneagram-corner/shadow-work-by-enneagram-type'}
 ]}

@@ -614,4 +614,3 @@ Understanding your type doesn't excuse behavior. It reveals it. And revelation i
 **Curious about other celebrity personality analyses?** Check out [The Psychology of Influence: How Each Enneagram Type Gains a Following](/pop-culture/influencer-enneagram-types-instagram) or explore our [full celebrity personality database](/personality-analysis).
 
 > **Disclaimer:** This analysis of the Kardashian family's Enneagram types is speculative, based on publicly available information, and may not reflect their actual personality types. We're interpreting public behavior through a psychological lens—not claiming definitive knowledge of their inner lives.
-

@@ -444,4 +444,3 @@ For some types (particularly 1 and 6), yes—the judgment is harder than the wor
 Consider your type honestly. If you're Type 1, 2, 6, or 9, the costs likely outweigh benefits. If you're Type 3, 7, or 8, you have better odds—but still examine your motivations and set boundaries.
 
 > **Disclaimer:** This analysis of OnlyFans creator psychology by Enneagram type is observational and speculative, not based on clinical research or tested typing of specific individuals.
-

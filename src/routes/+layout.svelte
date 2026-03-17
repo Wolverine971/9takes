@@ -348,18 +348,7 @@
 		isCategoryPage = pathname.includes('/categories');
 		isAdminPage = pathname.startsWith('/admin');
 		shouldShowMaxWidth = !MAX_WIDTH_PAGES.includes(pathname) && !isAdminPage;
-		// Blog article pages render their own Breadcrumbs component, so hide BackNavigation
-		const blogSections = [
-			'/community/',
-			'/enneagram-corner/',
-			'/how-to-guides/',
-			'/personality-analysis/',
-			'/pop-culture/'
-		];
-		const hasBreadcrumbs = blogSections.some(
-			(section) => pathname.startsWith(section) && pathname !== section.slice(0, -1)
-		);
-		showBackButton = !isHomePage && !isCategoryPage && !isAdminPage && !hasBreadcrumbs;
+		showBackButton = !isHomePage && !isCategoryPage && !isAdminPage;
 	}
 
 	// Defer analytics loading to after page is interactive

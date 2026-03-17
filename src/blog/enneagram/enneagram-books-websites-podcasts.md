@@ -1104,4 +1104,3 @@ For a zero-cost deep dive: read the type descriptions on the Enneagram Institute
 		}
 	}
 </style>
-

@@ -249,4 +249,3 @@ He meant it as a business insight — that TBPN's competitive advantage is its h
 Whether that machine is driven by vision or by a need he can't name is the question that makes Enneagram Threes the most fascinating and the most difficult type to truly know — even for themselves.
 
 > **Disclaimer:** This analysis is speculative, based on publicly available information, and explores Jordi Hays's personality through the lens of the Enneagram framework. Jordi Hays has not publicly confirmed his Enneagram type.
-
