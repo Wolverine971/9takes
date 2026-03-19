@@ -13,6 +13,7 @@
 	import SuggestionsBlog from '$lib/components/blog/SuggestionsBlog.svelte';
 	import EmailSignup from '$lib/components/molecules/Email-Signup.svelte';
 	import AuthorBio from '$lib/components/blog/AuthorBio.svelte';
+	import PopCard from '$lib/components/atoms/PopCard.svelte';
 	export let data: PageData;
 	type C = Component;
 	$: component = data.component as unknown as C;
@@ -71,6 +72,19 @@
 		<!-- <ArticleDescription description={data.frontmatter.description} /> -->
 		<ArticleSubTitle metaData={data.frontmatter} />
 	</div>
+
+	{#if data.frontmatter.pic}
+		<div style="display: flex; justify-content: center; margin: 1rem 0;">
+			<PopCard
+				image={`/blogs/${data.frontmatter.pic}.webp`}
+				showIcon={false}
+				tint={false}
+				displayText=""
+				altText={data.frontmatter.pic.split('-').join(' ')}
+				subtext=""
+			/>
+		</div>
+	{/if}
 
 	<TableOfContents {contentStore} headings={data.frontmatter.headings} />
 

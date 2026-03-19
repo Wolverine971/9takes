@@ -44,9 +44,7 @@
 </script>
 
 <svelte:head>
-	<script type="application/ld+json">
-		{JSON.stringify(structuredData)}
-	</script>
+	{@html `<script type="application/ld+json">${JSON.stringify(structuredData)}</script>`}
 </svelte:head>
 
 <SEOHead

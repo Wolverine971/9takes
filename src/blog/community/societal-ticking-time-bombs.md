@@ -4,16 +4,28 @@ description: 'SSRIs, gambling addiction, and collective IQ decline are quietly r
 author: 'DJ Wayne'
 date: '2026-02-20'
 loc: 'https://9takes.com/community/societal-ticking-time-bombs'
-lastmod: '2026-02-20'
+lastmod: '2026-03-18'
 changefreq: 'monthly'
 priority: '0.7'
 published: true
 type: ['idea']
 blog: true
 previewHtml: 'SSRIs, gambling, and IQ decline — three ticking time bombs nobody is connecting.'
-# pic: 'greek-statues-warning-society'
+pic: 'empty-room'
 path: src/blog/community/societal-ticking-time-bombs.md
 ---
+
+<!--
+Image concept: three linked crises, one extraction loop.
+Scene: a dark modern apartment split into three connected zones, each occupied by a Greek marble statue caught in a different version of the same trap.
+Props: amber prescription pill bottle and water glass, glowing smartphone with sports-betting style interface, betting slips, crumpled cash, credit card, unread book face-down on the floor, multiple screens flickering short-form video, tangled charging cables linking the zones.
+Lighting: cold phone glow, one harsh clinical light over the pills, subtle red warning LEDs, pale dawn leaking through blinds.
+Midjourney prompt:
+wide cinematic shot of a dark modern apartment divided into three connected zones, three Greek marble statues caught in one extraction loop, left statue seated beside an amber prescription pill bottle and water glass with emotionally flattened exhausted expression, center statue hunched over a glowing smartphone with sports betting style interface, betting slips, crumpled cash, and credit card scattered across the table, face tense and desperate, right statue frozen in cold blue light from multiple screens flickering short-form video, unread book face-down on the floor, posture slack and mentally drained, tangled charging cables linking all three spaces, pale dawn through blinds, subtle red warning lights, candid editorial photography, realistic marble texture, no readable text --ar 16:9 --v 6 --style raw --q 2 --stylize 125
+
+Image intent:
+Show that SSRIs, gambling, and cognitive overload are not separate stories; they are one modern loop of numbing, chasing, and mental depletion.
+-->
 
 <svelte:head>
 
