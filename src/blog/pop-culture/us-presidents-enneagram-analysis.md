@@ -27,6 +27,19 @@ Abraham Lincoln was a Type 9 (Peacemaker) who held the nation together through s
 
 <p class="firstLetter">Every four years, America picks a personality type to lead it. And the choice is never about policy. It's about psychology.</p>
 
+## Questions This Blog Will Answer
+
+- **Does America elect the personality type it needs—or the one it deserves?** Is there a pattern between national anxiety levels and which Enneagram type wins the election?
+- **Why have so many presidents been Type 9s?** Lincoln, Reagan, Obama—three of the most transformative presidents share the same type. Is there something about the Peacemaker that America keeps choosing?
+- **Was Trump's presidency inevitable from a personality standpoint?** After decades of 9s and 6s, did America psychologically NEED a Type 3 disruptor? And what does that say about where the country was?
+- **Why did JFK's assassination traumatize America more than other presidential deaths?** Was it about the man—or about losing the personality type he represented (the Enthusiast's sense of possibility)?
+- **Do presidents' personality types predict their biggest failures?** Lincoln's delay on emancipation (9 avoidance), Reagan's Iran-Contra (9 delegation gone wrong), Bush's Iraq War (6 threat response)—are presidential scandals type-predictable?
+- **Why do father-son presidents share personality types?** Both Bushes were Type 6s. Is presidential ambition hereditary, or is it the personality type that gets passed down?
+- **What personality type would America elect next?** If the country feels scared, does it pick an 8? If it wants healing, a 9? Can you actually predict elections through personality psychology?
+- **Why was Biden a Type 2 president in a Type 8 moment?** Did America want a Helper when it actually needed a Challenger—and did that mismatch explain his presidency's struggles?
+- **How does a president's type affect their cabinet picks?** Lincoln's "Team of Rivals" was a 9 including every voice. Trump's revolving door was a 3 firing anyone who threatened the brand. Is cabinet management a personality test?
+- **What happens when a president's type is wrong for the crisis they face?** A Type 9 during wartime. A Type 6 during prosperity. Does the mismatch between type and moment define failed presidencies?
+
 <!-- TODO: Intro about how presidential elections are personality contests disguised as policy debates. The nation's psychological state determines which type it elects. Anxious times elect 8s and 3s. Stable times elect 9s. Crisis times elect 1s. -->
 
 ## The Presidential Personality Map
@@ -73,3 +86,12 @@ Abraham Lincoln was a Type 9 (Peacemaker) who held the nation together through s
 ## What the Next President's Type Will Tell Us
 
 <!-- TODO: Conclusion about how predicting the next president is really about reading the nation's psychological temperature. If America feels scared, it'll elect an 8 or 6. If it wants healing, a 9. If it wants reinvention, a 3 or 7. The president we choose reveals who we are as a country right now. -->
+
+## Rabbit Holes Worth Exploring
+
+- **First Ladies as Type Complements**: Eleanor Roosevelt, Jackie Kennedy, Michelle Obama—do presidents marry types that compensate for their blind spots? Is the First Lady the president's psychological balance?
+- **Presidential Assassinations and Type**: Were the presidents who were shot (Lincoln, JFK, McKinley, Garfield) sharing personality traits that made them both beloved and vulnerable?
+- **Wartime Presidents vs. Peacetime Presidents**: Does the Enneagram predict which presidents thrive in crisis vs. stability? Why do some 9s become great wartime leaders while others coast?
+- **The Vice President Type Dynamic**: Biden (2) under Obama (9). Pence (1) under Trump (3). Does the VP selection reveal what the president knows they're missing psychologically?
+- **Presidential Debates as Type Theater**: Nixon vs. Kennedy. Obama vs. Romney. Trump vs. Biden. Can you predict who "won" each debate by understanding which personality types perform best under confrontation?
+- **The Two-Term Pattern**: Do certain personality types have the psychological endurance for 8 years? Which types burn out by year 6?

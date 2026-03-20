@@ -1,5 +1,5 @@
 // scripts/add-faq-schema.js
-#!/usr/bin/env node
+// #!/usr/bin/env node
 
 // scripts/add-faq-schema.js
 /**

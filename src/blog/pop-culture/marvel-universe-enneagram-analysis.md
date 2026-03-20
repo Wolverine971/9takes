@@ -29,6 +29,16 @@ Robert Downey Jr. is a Type 7 (Enthusiast) whose real personality is so close to
 
 <!-- TODO: Intro about how the MCU's casting was essentially personality-type matching—the actors whose real personalities most closely matched their characters became the franchise anchors. This isn't acting. It's amplification. -->
 
+## Questions This Blog Will Answer
+
+- **Did Marvel essentially cast people as themselves?** Robert Downey Jr. IS Tony Stark. Tom Holland IS Peter Parker. Did the MCU succeed because it stopped asking actors to act and started asking them to amplify?
+- **Why did Tony Stark/RDJ become the emotional center of the entire MCU?** Twenty-three movies and the death that mattered most was a Type 7's sacrifice. Why does losing the fun one hurt the most?
+- **Is Tom Holland's inability to keep secrets endearing or actually a problem?** He spoiled multiple Marvel movies. Fans think it's cute. But is uncontrollable impulsivity actually a Type 7 red flag that gets repackaged as charm?
+- **Why did Scarlett Johansson sue Disney?** She's a Type 9—the most conflict-avoidant type. What pushed the person least likely to fight into a public legal battle? And what does that tell us about when 9s finally snap?
+- **Does Hugh Jackman's real personality explain why Wolverine worked so well?** Logan is brooding and angry. Jackman is a song-and-dance man. How did a Type 7 play the angriest character in comics for 24 years—and why did it resonate?
+- **Why do audiences connect with 7s and 9s more than any other types in superhero movies?** The MCU's most beloved characters map to Enthusiasts and Peacemakers. Is there something about these types that makes them ideal for "save the world" stories?
+- **Does the actor's real type affect how you experience the character?** When you know RDJ struggled with addiction, does Tony Stark's arc hit differently? Is acting just personality types filtered through fiction?
+
 ## The Marvel Actor Personality Map
 
 | Actor                                                          | Enneagram Type      | MCU Role                  | Type Match                   | Content Grade |
@@ -57,3 +67,11 @@ Robert Downey Jr. is a Type 7 (Enthusiast) whose real personality is so close to
 ## What Marvel's Casting Reveals About Audiences
 
 <!-- TODO: Conclusion about type-casting as audience psychology. We don't just watch characters—we watch personality types. Marvel's most beloved heroes are 7s (optimistic, funny, resilient) and 9s (steady, trustworthy, quietly powerful). The MCU's less successful characters often lacked a strong type-match between actor and role. Casting is personality science, whether Hollywood knows it or not. -->
+
+## Rabbit Holes Worth Exploring
+
+- **MCU Villains and Type**: Thanos (Type 1—"perfectly balanced"). Loki (Type 4—misunderstood outsider). Killmonger (Type 8—challenging the system). Do the most compelling villains represent shadow versions of the heroes' types?
+- **The Chris Problem**: Chris Evans, Chris Hemsworth, Chris Pratt—three Chrises, three different types, three different audience relationships. Why did Pratt become the "least favorite Chris" while Evans became a cultural icon?
+- **Post-MCU Career Paths by Type**: RDJ went to prestige films. Holland took a break. Johansson pivoted to directing. Does post-franchise career choice map to personality type?
+- **Marvel vs. DC as a Type Preference**: Marvel skews 7 (fun, quippy, optimistic). DC skews 4/5 (dark, brooding, cerebral). Do audience preferences for one franchise over the other reveal their own type?
+- **The MCU Fatigue Question**: Is superhero fatigue really about too many movies, or is it about audiences tiring of the Type 7 formula (every scene needs a joke) and craving more Type 4/5 storytelling depth?

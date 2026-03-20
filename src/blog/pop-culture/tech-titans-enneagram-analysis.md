@@ -29,6 +29,18 @@ Sam Altman is a Type 4 (Individualist) who sees himself as uniquely positioned t
 
 <!-- TODO: Intro about the current AI/tech power struggle and how personality types explain why these three approach technology so differently -->
 
+## Questions This Blog Will Answer
+
+- **Why can't Elon Musk, Mark Zuckerberg, and Sam Altman get along?** They're all building the future, but they fundamentally disagree on how. Is this a personality collision or a vision collision—and is there a difference?
+- **Is Sam Altman actually a visionary or just performing one?** His firing and rehiring at OpenAI played out like a movie script. Was that a Type 4's dramatic narrative or genuine boardroom chaos?
+- **Why did Zuckerberg suddenly start doing MMA and wearing chains?** The hoodie-to-jiu-jitsu pipeline. What's happening psychologically when a Type 5 who built a social network starts seeking physical dominance?
+- **Why does Elon Musk buy things when he gets upset?** Twitter. The Boring Company. Neuralink. Is acquiring companies a Type 5's way of processing anxiety—solving problems by owning them?
+- **Who's actually going to build AGI first—and does personality type determine the approach?** Altman wants to be the one. Zuckerberg wants to open-source it. Musk wants to control it. Three types, three strategies. Which one's most dangerous?
+- **Why do tech founders keep failing at social skills?** Zuckerberg's congressional testimony. Musk's Twitter meltdowns. Is there a personality type that's brilliant at systems but terrible at humans—and should we let them run the world?
+- **What would happen if these three had to work together?** Seriously—a Type 4, and two Type 5s in a room. Would anything get built, or would they just argue about first principles forever?
+- **Is the tech industry selecting for certain personality types?** Why are 5s and 3s overrepresented in Silicon Valley? What does that mean for the products being built?
+- **Why did Musk's Twitter acquisition go so wrong?** A Type 5 who understands rockets, cars, and neural interfaces thought he could understand social media. What blind spot made him think human behavior was just another system to optimize?
+
 ## The Tech Titan Personality Map
 
 | Leader                                                   | Enneagram Type         | Core Drive                | Greatest Fear  | What They're Building         |
@@ -60,3 +72,12 @@ Sam Altman is a Type 4 (Individualist) who sees himself as uniquely positioned t
 ## What History Will Remember
 
 <!-- TODO: Conclusion about how personality types shape not just companies but civilization. These three men's psychological wiring will literally determine whether AI helps or harms humanity. The 4's need for significance could lead to rushing AGI. The 5's need for mastery could lead to hoarding it. Understanding their types isn't gossip—it's survival intelligence. -->
+
+## Rabbit Holes Worth Exploring
+
+- **The Founder-CEO Personality Split**: Why do some founders (Zuckerberg) stay CEO forever while others (Jack Dorsey) get pushed out? Is it about type—and which types can survive the transition from builder to operator?
+- **AI Alignment as a Personality Problem**: Altman, Musk, and Dario Amodei (Anthropic) all claim to care about AI safety but pursue radically different strategies. Do their types predict their safety approaches?
+- **Tech Wives and Partners**: Priscilla Chan (Zuckerberg), Grimes/then others (Musk)—do tech titans' relationship patterns reveal their type dynamics? Why do 5s tend toward partners who are emotionally expressive (compensating for their withdrawal)?
+- **The Peter Thiel Connection**: Thiel (Type 6) funded Facebook, co-founded PayPal, backed Palantir. How does a 6's loyalty-and-threat worldview shape which technologies get funded?
+- **Second-Generation Tech Leaders**: Satya Nadella (Microsoft), Tim Cook (Apple), Sundar Pichai (Google)—the operators who replaced the founders. Are they consistently different personality types than the founders they succeeded?
+- **The Loneliness of the Tech Titan**: All three of these men describe feeling misunderstood. Is that a function of power, personality type, or both?

@@ -29,6 +29,16 @@ Johnny Depp is a Type 4 (Individualist) who retreats into fantasy worlds when re
 
 <!-- TODO: Intro about how the Depp-Heard trial became a cultural Rorschach test—people saw what their own psychology needed them to see. But underneath the memes and hot takes, there's a personality collision that explains why this relationship was doomed from the start. -->
 
+## Questions This Blog Will Answer
+
+- **Why did everyone have such a strong opinion about this trial?** The internet divided into Team Johnny and Team Amber with religious fervor. Was the reaction about the evidence—or about which personality type you instinctively trust?
+- **Is Johnny Depp's "authenticity" actually authentic?** He rambled, made jokes, and seemed unpolished on the stand. The internet loved it. But is a Type 4's "messy realness" just a different kind of performance?
+- **Why did Amber Heard's testimony feel "off" to so many people?** Even people who believed her claims found her delivery unsettling. Is that a credibility issue—or a Type 3's natural communication style being misread as insincerity?
+- **Are Type 4s and Type 3s destined to destroy each other in relationships?** The 4 craves depth and authenticity. The 3 performs and curates. When these two types fall in love, is the explosion inevitable?
+- **Did the internet meme-ify a domestic violence case?** TikTok edits, reaction videos, Team Johnny merchandise. How did a trial about serious allegations become entertainment—and what does personality psychology say about why we did that?
+- **Can you determine who's telling the truth based on personality type?** Short answer: no. But can type explain why two people experience the same relationship as completely different realities?
+- **What does your reaction to this trial reveal about YOU?** If you were immediately Team Johnny, Team Amber, or Team "This Is Complicated"—does your instinct map to your own Enneagram type?
+
 ## The Personality Collision
 
 | Person                                           | Enneagram Type         | Core Fear                           | Coping Mechanism     | Trial Strategy                     |
@@ -55,3 +65,11 @@ Johnny Depp is a Type 4 (Individualist) who retreats into fantasy worlds when re
 ## What We Projected Onto the Trial
 
 <!-- TODO: Conclusion about how the public's split reaction mapped to personality types. Type 4s/5s/9s tended to believe Depp (they value authenticity). Type 3s/1s/2s were more likely to believe Heard (they trust structured narratives). The trial became a personality Rorschach test because both parties were performing their type, and viewers responded based on which type they trust more. The lesson: personality psychology doesn't determine truth, but it determines how truth gets communicated and received. -->
+
+## Rabbit Holes Worth Exploring
+
+- **Celebrity Trials as Personality Rorschach Tests**: OJ Simpson. Michael Jackson. Depp vs. Heard. Does the public's reaction to celebrity trials consistently map to personality-type-based trust patterns?
+- **The "Believe Women" Paradox**: This trial complicated the cultural conversation about believing accusers. Does personality type affect whether someone defaults to "believe the accuser" or "require evidence"?
+- **Toxic Relationship Patterns by Type Pairing**: 4-3, 8-2, 6-7—some type pairings are more volatile than others. Could personality typing help people avoid destructive relationships before they start?
+- **The Role of Substance Abuse in Type Dynamics**: Both Depp and Heard had substance issues. Do different types use substances differently in relationships—and does that change the dynamic?
+- **Post-Trial Identity Reconstruction**: Depp returned to acting and music. Heard largely disappeared. How does each type rebuild identity after public destruction?

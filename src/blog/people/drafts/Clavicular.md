@@ -56,7 +56,7 @@ The question everyone asks about Clavicular is whether he's serious. That's the 
 
 ## The Boy Before the Bone
 
-Before "Clavicular" existed, there was a kid in Hoboken, New Jersey, with a businessman father and a stay-at-home mother, who moved through his obsessions like someone searching for the right lock to fit a key he couldn't describe.
+Before "Clavicular" existed, there was a kid in Hoboken, New Jersey, with a businessman father and a stay-at-home mother, who cycled through obsessions like he was trying to scratch an itch he couldn't locate.
 
 First it was Nerf guns. Then bodybuilder Rich Piana on YouTube. Then bodybuilding forums. Then Looksmax.org, the forum where men reduce themselves to composites of measurable facial features and argue about canthal tilt and infraorbital support the way other teenagers argue about video games.
 
@@ -88,7 +88,7 @@ And through it all, he streams. Every moment filmed. Every interaction recorded.
 
 ### Clavicular is an Enneagram Type 3
 
-The Enneagram's Type 3, the Achiever, is the personality structure that forms when a child learns that love has a price tag: performance. Achievement equals attention. Image equals worth. Stop producing, stop mattering.
+The Enneagram's Type 3 is the Achiever — the kid who learned early that love comes with a price tag: performance. Achievement equals attention. Image equals worth. Stop producing, stop mattering.
 
 Most people encounter Type 3s in corporate settings: the executive who can't stop optimizing, the influencer who curates every pixel of their online presence, the athlete who measures self-worth in trophies. Clavicular is what happens when a Type 3's achievement engine gets pointed at the body itself.
 
@@ -98,9 +98,9 @@ The evidence:
 - **Achievement as existence.** He dismissed traditional life paths — college, employment, marriage — as no longer feeling "tangible enough." But streaming viewership? Follower counts? Monthly income from Kick? Those are tangible. Those are the scoreboard of a Type 3 who has relocated the game from career to body.
 - **The emotional bypass.** He described not having sex as "a big time saver" and said knowing he _could_ sleep with a woman was more satisfying than the act itself.
 
-What makes this a specifically **Social 3** expression (the subtype that fixates on image, status, and influence) is that his achievement doesn't happen in private. It happens on camera. Always on camera. The Elena Velez runway show at New York Fashion Week? He walked it while livestreaming. The "only goal is to be the alpha in the room," as one observer noted, "so long as the room is constantly being recorded."
+What makes this a specifically **Social 3** expression (the subtype that fixates on image, status, and influence) is that his achievement doesn't happen in private. It happens on camera. Always on camera. The Elena Velez runway show at New York Fashion Week? He walked it while livestreaming. The only goal is to be the alpha in the room — so long as the room is constantly being recorded.
 
-The **3w4 wing** explains the aesthetic specificity that separates him from a standard image-obsessed influencer. His aspirational ideal isn't "attractive" in any generic sense. It's Matt Bomer, "the most harmonious male face in the world," according to Clavicular's own framework. The 4-wing drives the desire to not just succeed but to achieve something original, something singular. Not the most popular streamer. The most _beautiful_ man. There's melancholy underneath the metrics, a nihilistic depth that the pure Social 3 doesn't usually carry.
+The **3w4 wing** explains the aesthetic specificity that separates him from a standard image-obsessed influencer. His aspirational ideal isn't "attractive" in any generic sense. It's Matt Bomer, "the most harmonious male face in the world," according to Clavicular's own framework. The 4-wing drives the desire to not just succeed but to achieve something original, something singular. Not the most popular streamer. The most _beautiful_ man. There's something darker underneath the metrics — a nihilism that the pure Social 3 doesn't usually carry.
 
 ---
 
@@ -116,9 +116,9 @@ He called Vice President <a href="/personality-analysis/JD-Vance">JD Vance</a> "
 
 This is the Type 3 achievement engine stripped to its purest form. Most Threes channel the drive into careers, companies, creative work. Clavicular channels it into his skeleton. The product isn't a business or an album or a film. The product is his face.
 
-> One cultural critic described him as living "the life of a beautiful woman, as imagined by a man."
+> He lives "the life of a beautiful woman, as imagined by a man."
 
-The Enneagram framework illuminates why: he has turned the male gaze inward. He fragments his own body into marketable units (clavicles, jawline, waist) the way advertising fragments women's bodies. He has become both the sculptor and the sculpture, the marketer and the product, the achiever and the achievement. And the more complete the product becomes, the less remains of the person who built it.
+The Enneagram framework illuminates why: he has turned the male gaze inward. He fragments his own body into marketable units (clavicles, jawline, waist) the way advertising fragments women's bodies. He has become both the sculptor and the sculpture, the marketer and the product. And the more complete the product becomes, the less remains of the person who built it.
 
 ## "It's a Big Time Saver"
 
@@ -152,7 +152,7 @@ The star of the evening was Clavicular. He closed the show wearing a unisex "Uni
 
 The _New York Times_ had profiled him days earlier. "Handsome at Any Cost," the headline read. GQ had featured him. NPR discussed him. Articles proliferated in the _New Statesman_, the _Guardian_, _Slate_, _Jacobin_. A boy from Hoboken who failed out of college in three weeks had become the subject of more cultural commentary than most politicians.
 
-The controversies accumulated with the coverage. On Christmas Eve 2025, a livestream captured him apparently striking a pedestrian with his Tesla Cybertruck. The camera kept rolling. His passenger asked what happened. "Is he dead?" Clavicular replied. "Hopefully." He drove on without stopping or calling for help. He later claimed self-defense, and the incident remains under investigation. What the footage reveals isn't cruelty so much as absence: a twenty-year-old who has optimized every visible surface of his existence responds to a potential fatality with the same flat affect he brings to a bad stream metric. Consequence doesn't register because consequence requires a self that can be wounded.
+The controversies accumulated with the coverage. On Christmas Eve 2025, a livestream captured him apparently striking a pedestrian with his Tesla Cybertruck. The camera kept rolling. His passenger asked what happened. "Is he dead?" Clavicular replied. "Hopefully." He drove on without stopping or calling for help. He later claimed self-defense, and the incident remains under investigation. What the footage reveals isn't cruelty so much as absence. A twenty-year-old responds to a potential fatality with the same flat affect he brings to a bad stream metric. Consequence doesn't register because consequence requires a self that can be wounded.
 
 In January 2026, he was filmed singing along to Kanye West's antisemitic "Heil Hitler" at a Miami nightclub alongside Fuentes, Andrew Tate, and Sneako. In February, Scottsdale police arrested him outside a nightclub for carrying a fake ID, unprescribed Adderall, and Anavar. He was twenty. Charges were declined.
 
@@ -162,10 +162,10 @@ He told Piers Morgan he wasn't apologizing. He told Michael Knowles that vanity 
 
 ---
 
-One writer observed that Clavicular's story could have gone differently. A boy who matures naturally, clears his skin, grows comfortable in his body without quantifying it. Learns, slowly, to navigate conversation. Finds connection not through dominance but through the awkward, incremental process of becoming a person.
+Clavicular's story could have gone differently. A boy who matures naturally, clears his skin, grows comfortable in his body without quantifying it. Learns, slowly, to navigate conversation. Finds connection not through dominance but through the awkward, incremental process of becoming a person.
 
 Instead, at fourteen, he internalized the harshest possible self-assessment. He decided his body was a problem to be solved with chemicals. He narrowed the range of futures available to him before any of them had a chance to unfold. And now, through the coaching and the streams and the vocabulary he popularizes, he narrows other boys' futures too.
 
-He is twenty. He is infertile. He is worth six figures a month. He named himself after a bone. He has been building toward something his entire conscious life, and the building has become the thing, and the thing he was building toward (connection, acceptance, the warmth that small talk provides ordinary people for free) recedes at exactly the speed of his ascension.
+He is twenty. He is infertile. He is worth six figures a month. He named himself after a bone. He has been building toward something his entire conscious life, and the building has become the thing, and the thing he was building toward (connection, acceptance, the warmth that small talk provides other people for free) recedes at exactly the speed of his ascension.
 
 At some point, the optimization will be complete. There will be nothing left to measure, nothing left to inject, no remaining distance between his face and Matt Bomer's. And on that day, he will still be a boy from Hoboken who doesn't know how to make small talk. The bone will be perfect. The room will still be unreadable. The cheat code, it turns out, was for a game that nobody else was playing.

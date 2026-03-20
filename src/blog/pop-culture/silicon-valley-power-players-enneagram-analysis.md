@@ -29,6 +29,16 @@ Chamath Palihapitiya is a Type 3 (Achiever) who constantly reinvents his public 
 
 <!-- TODO: Intro about the All-In podcast as a window into Silicon Valley's psychological operating system. How the show's popularity reveals what people really want from tech leaders: unfiltered personality, not polished PR. -->
 
+## Questions This Blog Will Answer
+
+- **Why does the All-In podcast feel like eavesdropping on the people who actually run the world?** Four billionaires arguing about politics and tech. No scripts. No PR handlers. Is this what power actually sounds like behind closed doors?
+- **Is Chamath the most interesting or the most exhausting person in tech?** He reinvents himself every 18 months—Facebook exec, SPAC king, political commentator, podcast star. Is that vision or identity crisis?
+- **Why did David Sacks end up in government?** A Type 6 who spent years critiquing systems from the outside is now inside the system. Does a 6's need to protect explain why contrarians eventually become insiders?
+- **Is David Friedberg the most underrated person in Silicon Valley?** He talks the least on the pod but arguably thinks the deepest. Why do Type 5s consistently get overshadowed by louder types in tech—and does that actually work in their favor?
+- **What does the PayPal Mafia tell us about personality-based loyalty?** Thiel, Sacks, Musk, Reid Hoffman—they built one company together and then funded each other for decades. Is the "mafia" actually a Type 6 loyalty network?
+- **Why do tech billionaires need a podcast?** They don't need the money or the fame. So what need is the All-In show actually serving for each host?
+- **Is Silicon Valley a personality type monoculture?** If the same types (3s, 5s, 6s) keep building the same kinds of companies, what products and perspectives are being systematically left out?
+
 ## The All-In Personality Map
 
 | Host                                                               | Enneagram Type        | Role on Pod     | Core Drive                    | Silicon Valley Archetype |
@@ -64,3 +74,11 @@ Chamath Palihapitiya is a Type 3 (Achiever) who constantly reinvents his public 
 ## Why This Matters Beyond Tech
 
 <!-- TODO: Conclusion about how understanding these personality dynamics helps you navigate any power structure. Silicon Valley just makes it visible because these people are famous. Every boardroom, every startup, every organization has these same type dynamics playing out. -->
+
+## Rabbit Holes Worth Exploring
+
+- **The Political Awakening of Tech**: All four hosts have become increasingly political. Is that a natural evolution for people with power (8 energy) or a Type 6 threat response to feeling the world is unstable?
+- **Wealth and Type Integration**: Does having billions change your Enneagram type expression? Does a 3 who's already achieved everything finally relax, or just find bigger things to achieve?
+- **The All-In Friendship Dynamic**: Are these four actually friends, or is this a professional alliance with friendship aesthetics? Can you tell from type dynamics whether the bond is genuine?
+- **Tech Conference Culture as Type Theater**: Davos, TED, All-In Summit—these events are personality showcases disguised as idea exchanges. Which types thrive vs. hide at conferences?
+- **The Next Generation of Tech Power Players**: Who are the 25-year-olds building the next wave? Are they the same types as the current generation, or is the personality makeup of tech shifting?

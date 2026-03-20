@@ -29,6 +29,17 @@ Joe Rogan is a Type 8 (Challenger) who turns every interview into a dominance te
 
 <!-- TODO: Intro about how podcasting became the dominant media form and how personality type determines what kind of podcaster you become -->
 
+## Questions This Blog Will Answer
+
+- **Why do men listen to Joe Rogan for 3 hours but won't go to therapy for 1?** Is podcasting filling a psychological need that traditional institutions aren't meeting—and does the host's personality type determine what need gets filled?
+- **Is Lex Fridman actually that nice or is it strategic?** He tells guests "I love you." He practices martial arts. He interviews dictators with the same calm. What's real and what's a Type 5 performing connection?
+- **Why did Tim Ferriss pivot from "4-Hour" optimization to psychedelics?** Is that a natural Type 5 evolution—from optimizing the body to optimizing consciousness—or a midlife crisis with good branding?
+- **How did Andrew Huberman's personal life scandal reveal his type's shadow?** A Type 5 who built a brand on evidence-based living while his personal relationships told a different story. What does that split reveal?
+- **Why does Rogan push back on every guest?** It's not rudeness—it's Type 8 testing. But does that create better conversations or just louder ones?
+- **Could a Type 2 or Type 4 host a successful podcast?** The top podcasters are all 5s and 8s. Is there something about long-form conversation that excludes certain personality types—or is there an untapped audience waiting?
+- **Why do these four men's audiences barely overlap?** Rogan listeners aren't Lex listeners aren't Ferriss listeners. If they cover similar topics, why does personality type create such distinct audience tribes?
+- **Is the podcast era creating a new kind of intellectual authority?** These four men have more influence over how young men think than most professors. What does it mean that personality type—not credentials—determines who gets that influence?
+
 ## The Podcast Personality Map
 
 | Podcaster                                                | Enneagram Type        | Interview Style          | Core Need                        | Audience Type                 |
@@ -61,3 +72,11 @@ Joe Rogan is a Type 8 (Challenger) who turns every interview into a dominance te
 ## The Future of Podcasting by Type
 
 <!-- TODO: Conclusion on how personality type will continue to shape media. Prediction: as AI and short-form content dominate, long-form podcasting will become more type-specific, not less. Each host's Enneagram type IS their competitive moat. -->
+
+## Rabbit Holes Worth Exploring
+
+- **The Female Podcaster Gap**: Call Her Daddy, Crime Junkie, The Read—women dominate certain podcast genres. But the "intellectual conversation" space is almost exclusively male. Is that a type thing or a culture thing?
+- **Podcast Voice as Type Indicator**: Rogan's boom. Lex's whisper. Ferriss's measured pace. Huberman's lecture cadence. Can you identify Enneagram types just by how someone speaks?
+- **The Guest Selection Psychology**: Who each host invites reveals their type. Rogan wants fighters and comedians (8 energy). Lex wants philosophers and scientists (5 energy). What does guest selection tell us about the host's inner world?
+- **Podcast as Modern Salon**: In the 18th century, intellectuals gathered in salons. Now they gather on mics. Is podcasting the natural medium for Type 5s who want connection without the messiness of real relationships?
+- **The Monetization Personality**: Rogan took the $250M Spotify deal (8 power move). Lex stayed independent (5 autonomy). How does type determine how creators monetize—and who sells out vs. stays indie?

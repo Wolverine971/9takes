@@ -29,6 +29,21 @@ Theo Von is a Type 7 who reframes trauma as absurdist storytelling. Dave Chappel
 
 <!-- TODO: Intro about comedy as a coping mechanism and how different Enneagram types process pain through humor differently -->
 
+## Questions This Blog Will Answer
+
+Before we break down each comedian, here are the questions you're probably already asking:
+
+- **Why do so many comedians have traumatic childhoods?** Is there a specific personality type that's more likely to turn pain into punchlines—and is that healthy or just sophisticated avoidance?
+- **Why are Theo Von and Dave Chappelle both "funny" but in completely opposite ways?** One can't stop talking, the other walked away from $50 million to sit in silence. What's driving that difference?
+- **Is Pete Davidson's dating life actually a personality pattern?** Kim Kardashian, Ariana Grande, Kate Beckinsale—is there a psychological reason he attracts and merges with powerful women?
+- **Why did Dave Chappelle walk away from Comedy Central?** Everyone says "the money wasn't worth it." But what was actually happening inside his head? What personality type leaves $50 million on the table?
+- **Are comedy podcasts replacing therapy for men?** Theo Von's podcast feels like a confessional. Tim Dillon's feels like a manic episode you're invited to. Why do millions of men listen to comedians process their pain instead of going to actual therapy?
+- **Why did Shane Gillis get fired from SNL and then become MORE famous?** What is it about his personality that made cancellation fuel instead of career poison?
+- **What makes crowd work comedy different psychologically?** Andrew Schulz built an empire on reading strangers in real time. What personality type can do that—and what does it cost them?
+- **Why is Kevin Hart everywhere?** He's in movies, Netflix specials, commercials, podcasts. Is that ambition or is something deeper driving the need to never stop?
+- **Is Dax Shepard's openness about addiction a Type 7 thing?** He talks about relapse on his podcast with millions listening. Why would someone be that vulnerable publicly?
+- **Do different personality types laugh at different things?** If comedy is pattern recognition + pain processing, do Type 7s and Type 9s literally see different jokes as funny?
+
 ## The Comedy Personality Map
 
 | Comedian                                               | Enneagram Type      | Comedy Style                    | Core Wound                        | Content Grade |
@@ -86,3 +101,12 @@ Theo Von is a Type 7 who reframes trauma as absurdist storytelling. Dave Chappel
 ## What Their Types Reveal About Comedy Itself
 
 <!-- TODO: Conclusion tying it together. Comedy is pattern recognition + pain processing. Different types see different patterns and process different pain. That's why comedy feels like "truth"—it IS truth, filtered through someone else's psychological operating system. The audience laughs because they recognize the truth they've been avoiding. -->
+
+## Rabbit Holes Worth Exploring
+
+- **The Comedian-to-Podcaster Pipeline**: Why did every major comedian launch a podcast between 2015-2025? Is long-form conversation just standup without the structure—and which personality types thrive in that format?
+- **Comedy and Substance Abuse**: Theo Von got sober. Dax Shepard relapsed publicly. Chappelle smokes on stage. Is there a pattern between Enneagram type and substance of choice?
+- **The "Canceled Comedian" Archetype**: Shane Gillis, Louis CK, Dave Chappelle—all were "canceled" and all came back stronger. Is cancellation actually fuel for certain personality types? Which types crumble under it?
+- **Why Comedy Clubs Are Dying But Comedy Is Booming**: The medium changed but the psychological need didn't. What does the shift from clubs to arenas to podcasts tell us about how audiences want to consume emotional processing?
+- **The Wife/Girlfriend Dynamic**: Many of these comedians' partners become part of the content (Christina P with Tom Segura, Leila with Hormozi, etc.). What type pairings show up most in comedian relationships?
+- **Regional Comedy Styles and Personality**: Theo Von's Southern storytelling. Schulz's New York aggression. Gillis's Philly blue-collar. Does where you grew up shape which Enneagram defense mechanisms your comedy uses?

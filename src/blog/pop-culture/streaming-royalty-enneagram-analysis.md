@@ -29,6 +29,16 @@ MrBeast is a Type 8 (Challenger) who turned content creation into an industrial 
 
 <!-- TODO: Intro about how streaming/YouTube replaced traditional entertainment and how personality type determines which creators break through -->
 
+## Questions This Blog Will Answer
+
+- **How did MrBeast turn generosity into a billion-dollar business?** He gives away money and builds homeless shelters, but he also runs his operation like a military campaign. Is the generosity genuine or is it content—and can it be both?
+- **Why is Kai Cenat the #1 streamer in the world?** He doesn't have the best gameplay or the deepest commentary. He just has... energy. How does raw Type 7 enthusiasm become the most valuable commodity on Twitch?
+- **Is xQc okay?** He streams 20 hours a day, gambles on stream, and his chat moves so fast it's basically visual static. What's happening psychologically when a Type 7 literally cannot stop?
+- **Why does IShowSpeed's chaos work?** He screams, he destroys things, he has unhinged reactions. In any other context this would be concerning. Why does a streaming audience find Type 8 intensity entertaining instead of alarming?
+- **Why did PewDiePie quit—and why does no one else?** He was the biggest YouTuber ever and just... left for Japan. What personality type can actually walk away from 100M+ subscribers?
+- **Is streaming a personality test?** If you're a Type 5, you commentate. If you're a 7, you react. If you're an 8, you build empires. Can you predict someone's streaming success based on their type alone?
+- **Why do streamers burn out faster than any other content creators?** The "always on" nature of live streaming seems designed to destroy people. Which types survive and which types collapse?
+
 ## The Streaming Personality Map
 
 | Creator                                        | Enneagram Type        | Content Style               | Core Drive                        | Content Grade |
@@ -62,3 +72,12 @@ MrBeast is a Type 8 (Challenger) who turned content creation into an industrial 
 ## Why Personality Type IS the Content Strategy
 
 <!-- TODO: Conclusion about how trying to be a creator whose style doesn't match your type is a recipe for burnout. 8s should build empires (MrBeast). 7s should create chaos (Kai, xQc). 5s should observe and comment (PewDiePie). The creators who flame out are usually performing a type that isn't theirs. -->
+
+## Rabbit Holes Worth Exploring
+
+- **The Streamer-to-Business Pipeline**: MrBeast has Feastables. Logan Paul has Prime. KSI has multiple companies. Is content creation just a Type 8/3 proving ground before they build "real" businesses?
+- **Parasocial Relationships and Type**: Chat members feel like they "know" these streamers. But is the intimacy real or manufactured? Do certain types create deeper parasocial bonds than others?
+- **The Gambling Stream Controversy**: xQc, Trainwreck, and others gambled millions on stream. Is gambling addiction a Type 7 pattern—seeking stimulation at any cost—or something that crosses all types?
+- **Creator Houses and Type Dynamics**: The Hype House, OTK, 100 Thieves—creator collectives always implode eventually. Can you predict which personality conflicts will destroy the group?
+- **The Age Cliff**: Most top streamers are under 30. What happens to streaming careers as creators age? Do different types have different expiration dates in the attention economy?
+- **Streaming as the New Working Class**: Many streamers work harder for less money than corporate employees. The top 0.1% are millionaires, but most barely survive. Is the "anyone can make it" narrative a Type 3 myth that keeps people grinding?

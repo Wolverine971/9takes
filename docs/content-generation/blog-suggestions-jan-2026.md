@@ -57,13 +57,13 @@ These people dominate current cultural conversation - everyone has an opinion an
 
 ### Fight Game (Massive Psychology Interest)
 
-| Person             | Why Zeitgeisty                                 | Likely Type | Priority |
-| ------------------ | ---------------------------------------------- | ----------- | -------- |
-| **Conor McGregor** | Psychology of decline, still magnetic          | 3 or 8      | HIGH     |
-| **Sean O'Malley**  | Sugar Sean, style vs substance debate          | 3 or 7      | HIGH     |
-| **Alex Pereira**   | Quiet killer archetype, mystical energy        | 8 or 9      | MEDIUM   |
-| **Ryan Garcia**    | Mental health chaos, conspiracy posts          | 7           | MEDIUM   |
-| **Hasbulla**       | Internet's favorite tiny man, huge personality | 8           | LOW      |
+| Person                 | Why Zeitgeisty                                 | Likely Type | Priority |
+| ---------------------- | ---------------------------------------------- | ----------- | -------- |
+| ~~**Conor McGregor**~~ | ~~Psychology of decline, still magnetic~~      | 3 or 8      | ✅ DONE  |
+| **Sean O'Malley**      | Sugar Sean, style vs substance debate          | 3 or 7      | HIGH     |
+| **Alex Pereira**       | Quiet killer archetype, mystical energy        | 8 or 9      | MEDIUM   |
+| **Ryan Garcia**        | Mental health chaos, conspiracy posts          | 7           | MEDIUM   |
+| **Hasbulla**           | Internet's favorite tiny man, huge personality | 8           | LOW      |
 
 ### Sports Personalities
 
@@ -158,20 +158,20 @@ These people dominate current cultural conversation - everyone has an opinion an
 
 These are in famousTypes.ts with `link: false` - immediate opportunities:
 
-| Person                 | Type | Search Volume Potential     |
-| ---------------------- | ---- | --------------------------- |
-| **Cristiano Ronaldo**  | 3    | MASSIVE - biggest gap       |
-| **David Goggins**      | 6    | High - motivational niche   |
-| **Gordon Ramsay**      | 8    | High - perfect archetype    |
-| **Jennifer Aniston**   | 6    | High - evergreen searches   |
-| **Stephen King**       | 5    | Medium - literary audience  |
-| **Conan O'Brien**      | 7    | Medium - podcast following  |
-| **Volodymyr Zelensky** | 6    | Medium - courage study      |
-| **Ben Shapiro**        | 6    | Medium - political audience |
-| **Florence Pugh**      | 7    | Medium - rising star        |
-| **the-Weeknd**         | 4    | High - already has image    |
-| **Emma Stone**         | 7    | Medium - already has image  |
-| **Bella Poarch**       | 9    | Medium - already has image  |
+| Person                    | Type | Search Volume Potential     |
+| ------------------------- | ---- | --------------------------- |
+| ~~**Cristiano Ronaldo**~~ | 3    | ✅ DONE                     |
+| **David Goggins**         | 6    | High - motivational niche   |
+| **Gordon Ramsay**         | 8    | High - perfect archetype    |
+| **Jennifer Aniston**      | 6    | High - evergreen searches   |
+| **Stephen King**          | 5    | Medium - literary audience  |
+| **Conan O'Brien**         | 7    | Medium - podcast following  |
+| **Volodymyr Zelensky**    | 6    | Medium - courage study      |
+| **Ben Shapiro**           | 6    | Medium - political audience |
+| **Florence Pugh**         | 7    | Medium - rising star        |
+| **the-Weeknd**            | 4    | High - already has image    |
+| **Emma Stone**            | 7    | Medium - already has image  |
+| **Bella Poarch**          | 9    | Medium - already has image  |
 
 ---
 
@@ -190,10 +190,10 @@ These are in famousTypes.ts with `link: false` - immediate opportunities:
 ## Recommended Next 25 (Prioritized)
 
 1. **Matt Rife** - TikTok comedy phenomenon, polarizing
-2. **Cristiano Ronaldo** - Biggest search volume gap
+2. ~~**Cristiano Ronaldo**~~ - ✅ DONE
 3. **Ice Spice** - Defining Gen Z sound
 4. **Glen Powell** - Actor everyone's talking about
-5. **Conor McGregor** - Psychology of decline
+5. ~~**Conor McGregor**~~ - ✅ DONE
 6. **Nate Bargatze** - Clean comedy king
 7. **Travis Kelce** - Taylor effect psychology
 8. **David Goggins** - Motivational niche (already in system)

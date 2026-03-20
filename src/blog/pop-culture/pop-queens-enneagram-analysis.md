@@ -29,6 +29,17 @@ Chappell Roan is a Type 8 (Challenger) who went from unknown to setting boundari
 
 <!-- TODO: Intro about the current pop landscape and how this generation of female artists represents a wider range of Enneagram types than any previous era. The old model: be sexy, be talented, be likable. The new model: be yourself, whatever that means psychologically. -->
 
+## Questions This Blog Will Answer
+
+- **Why does Chappell Roan setting boundaries make people so angry?** Male rockstars have been rude to fans for decades. When a woman does it, it's national news. Is the backlash about her Type 8 energy or about gender?
+- **Is Charli xcx actually messy or is "brat" the most calculated brand in pop?** She makes chaos look effortless. But Type 3s don't do anything accidentally. How much of "brat summer" was engineered?
+- **Why does Billie Eilish's sadness feel more real than other sad pop stars?** Lana Del Rey, Olivia Rodrigo, Billie—they all do sad. But Billie's hits different. Is it because she's a genuine Type 4 while others might be performing the aesthetic?
+- **Is Taylor Swift the most psychologically strategic person in entertainment?** The re-recordings. The Eras Tour. The boyfriend reveals. Every move feels calculated for maximum impact. Is that admirable Type 3 mastery or exhausting manipulation?
+- **Why did Doja Cat shave her head and then seemingly try to destroy her own career?** She alienated fans, quit rap, embraced a demon aesthetic. Is that a Type 7 running from expectations—or something deeper?
+- **What does it mean that this era has a pop queen for every personality type?** Previous eras were dominated by one or two archetypes. Now there's a Chappell for the rebels, a Billie for the sensitive ones, a Sabrina for the romantics. Is pop music more psychologically diverse than ever?
+- **Why does Sabrina Carpenter's "nice girl" energy work when it feels like the culture wants edge?** In an era of Chappell Roan setting boundaries and Doja Cat going dark, Sabrina is... winking and making espresso jokes. How is that working?
+- **Is Olivia Rodrigo's heartbreak content sustainable?** SOUR was devastating. GUTS was growing up. What happens to a Type 2 pop star when the breakup well runs dry?
+
 ## The Pop Queen Personality Map
 
 | Artist                                                       | Enneagram Type         | Musical Identity              | Core Drive                        | Content Grade |
@@ -72,3 +83,12 @@ Chappell Roan is a Type 8 (Challenger) who went from unknown to setting boundari
 ## Why This Era Is Different
 
 <!-- TODO: Conclusion about how previous pop eras were dominated by one or two types (3s in the 2000s, 3s and 4s in the 2010s). The 2020s broke the mold: 8s (Chappell), 7s (Doja), 4s (Billie), 3s (Charli, Sabrina, Taylor), and 2s (Olivia) all coexist at the top. This diversity of personality types means there's a pop queen for every listener's psychology. Music has never been this psychologically inclusive. -->
+
+## Rabbit Holes Worth Exploring
+
+- **The Pop Star Burnout Cycle by Type**: Britney (Type 9) shut down. Demi Lovato (Type 4) fought publicly. Ariana Grande (Type 3) retreated into work. Does Enneagram type predict how and when pop stars break?
+- **Producers and Pop Star Types**: Dan Nigro works with Chappell Roan AND Olivia Rodrigo—two completely different types. How does a producer adapt to the psychology of the artist they're shaping?
+- **K-Pop vs. Western Pop Psychology**: K-pop idols suppress personality for the group. Western pop queens amplify personality as brand. What does each system's approach to personality reveal about the culture?
+- **The Stan Culture Psychology**: Swifties, Rihanna Navy, Beyhive—each fandom has a distinct personality. Do fans self-sort by type into fandoms that match their psychological needs?
+- **Pop Queens and Their Romantic Narratives**: Taylor dates publicly. Billie dates privately. Doja dates chaotically. How does each type's approach to relationships become content—or get weaponized by the media?
+- **The Album Rollout as Type Expression**: How each pop queen launches an album reveals their type. Taylor's year-long Easter egg campaigns (3). Beyoncé's surprise drops (8). Billie's intimate whisper rollouts (4). Charli's chaotic meme campaigns (3 performing 7).

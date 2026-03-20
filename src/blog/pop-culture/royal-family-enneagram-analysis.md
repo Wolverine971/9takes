@@ -29,6 +29,18 @@ Princess Diana was a Type 2 (Helper) whose desperate need to be loved collided w
 
 <!-- TODO: Intro about the Royal Family as the world's most visible case study in family systems psychology. How the institution of monarchy functions as a personality suppression machine—and what happens when certain types refuse to be suppressed. -->
 
+## Questions This Blog Will Answer
+
+- **Did Harry marry his mother?** Diana and Meghan are both typed as Type 2s. Did Harry unconsciously seek out the same personality type he lost as a child—and is he recreating the same dynamic that destroyed Diana?
+- **Why couldn't the Royal Family just... be nice to Meghan?** Was the institution's rejection of her inevitable based on personality types, or was there a version of this story where it worked?
+- **Was Diana's death the wound the monarchy never recovered from?** Not politically—psychologically. What happens to a family system when the person who expressed all the emotions gets removed?
+- **Why does Prince William seem so different from Harry?** Same parents, same trauma, completely different responses. Is that birth order, personality type, or both? And what's William's type?
+- **Did Queen Elizabeth know the family was falling apart—and just choose not to act?** "Recollections may vary" is the most Type 9 sentence in history. Was her non-response wisdom or avoidance?
+- **Why did the Oprah interview feel like a bomb going off?** What personality dynamics were at play when Harry and Meghan sat down with Oprah? Was that a Type 6 declaring his allegiance and a Type 2 demanding to be heard?
+- **Is King Charles equipped to hold the family together?** Elizabeth was a 9 who maintained peace through silence. If Charles is a different type, does the monarchy's psychological architecture collapse?
+- **Why do people feel SO strongly about the Harry/Meghan situation?** Why does this family's drama trigger such intense reactions worldwide? Is it because the Royal Family's type dynamics mirror every family's dynamics?
+- **Could the monarchy survive a Type 8?** The family has been run by 9s and 1s for generations. What would happen if someone with real confrontational energy took the throne?
+
 ## The Royal Personality Map
 
 | Royal                                                          | Enneagram Type      | Role in Dynasty       | Core Need                 | What Went Wrong                      |
@@ -61,3 +73,12 @@ Princess Diana was a Type 2 (Helper) whose desperate need to be loved collided w
 ## What the Royal Fracture Reveals About All Families
 
 <!-- TODO: Conclusion tying it back to universal family dynamics. Every family has a 9 who keeps the peace, a 2 who gives too much, a 6 who eventually revolts, and an institution (traditions, expectations, "how we do things") that suppresses authentic expression. The Windsors just do it on a global stage. Understanding these types doesn't take sides—it explains why the fracture was inevitable. -->
+
+## Rabbit Holes Worth Exploring
+
+- **The Spare's Psychology**: Harry's book title is the whole thesis. What does being "the spare" do to a child's personality development? Does it create 6s (hypervigilant, constantly assessing their place) or 4s (feeling fundamentally different)?
+- **Royal Marriages as Type Experiments**: Charles and Diana (likely a 4 and a 2). William and Kate (likely a 1 and a 9). Harry and Meghan (a 6 and a 2). Do the pairings predict the outcomes?
+- **The Queen's Corgis**: Seriously—Elizabeth surrounded herself with loyal, calm animals. Is that a 9's way of getting unconditional love without emotional complexity?
+- **The Diana Effect on British Culture**: Diana was the Royal who hugged AIDS patients and walked through minefields. Did her Type 2 energy permanently shift British emotional culture?
+- **Monarchy as a Personality Suppression Machine**: The institution literally requires people to suppress their authentic type. Which types can survive that (9s, 1s) and which types get destroyed by it (2s, 7s, 8s)?
+- **The Commonwealth's Psychological Relationship with the Crown**: Former colonies relating to the monarchy is its own personality dynamic. Does the Crown function as a global Type 9—maintaining "peace" through avoidance of colonial accountability?

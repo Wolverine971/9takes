@@ -29,6 +29,16 @@ Krystal Ball is a Type 1 (Perfectionist) whose principled outrage at systemic in
 
 <!-- TODO: Intro about Breaking Points as the most successful independent news show and how the Krystal-Saagar dynamic isn't just left-right balance—it's a specific personality type pairing that creates intellectual chemistry -->
 
+## Questions This Blog Will Answer
+
+- **How do a progressive and a conservative agree on anything?** Krystal Ball and Saagar Enjeti disagree on policy constantly—but they built one of the most successful shows in independent media together. What personality dynamic makes this work when political tribalism should tear it apart?
+- **Is Breaking Points actually less biased, or is it just a different kind of bias?** They position themselves as anti-establishment truth-tellers. But is a Type 1 and a Type 7 criticizing mainstream media just replacing one lens with two others?
+- **Why did they leave The Hill?** Krystal and Saagar were doing well at Rising. What personality-driven need pushed them to go independent—and was it the same need for both of them, or different ones?
+- **Is Krystal Ball's anger genuine or performative?** Her monologues burn with righteous fury. But after years of daily outrage, does the anger sustain itself or become a content formula?
+- **Why does Saagar seem to genuinely change his mind on things?** He's conservative but disagrees with conservatives regularly. Is that intellectual honesty, Type 7 restlessness, or both?
+- **Can this partnership model save journalism?** If Type 1 conviction + Type 7 curiosity = better news, could you replicate this with other type pairings? Or is this specific chemistry unreproducible?
+- **Why does independent media feel more trustworthy right now?** CNN and Fox feel like machines. Breaking Points feels like two people thinking out loud. Is the personality-forward format the future of news?
+
 ## The Breaking Points Personality Map
 
 | Host                                                 | Enneagram Type         | Political Lean        | Driving Force              | Audience Appeal                   |
@@ -55,3 +65,11 @@ Krystal Ball is a Type 1 (Perfectionist) whose principled outrage at systemic in
 ## What Their Types Predict About the Show's Future
 
 <!-- TODO: Conclusion about the inherent tension in a 1-7 partnership. 1s become more rigid under stress (Krystal getting more strident). 7s become more scattered under stress (Saagar spreading too thin). The show works as long as each type stays healthy. If stress takes over, the 1 becomes preachy and the 7 becomes flighty—and the chemistry dies. The key to longevity: mutual respect for what each type brings. -->
+
+## Rabbit Holes Worth Exploring
+
+- **The 1-7 Relationship Dynamic Beyond Media**: 1s and 7s are connected on the Enneagram (1s go to 7 in growth, 7s go to 1 in growth). Is this partnership actually a model for how these types heal each other?
+- **Other Media Duos by Type**: Colbert and Stewart. Hannity and Colmes. Morning Joe. Does the chemistry of every successful media duo map to a specific type pairing?
+- **The Populist Personality**: Both Krystal and Saagar identify as populists—left-populist and right-populist. Is populism itself a personality-type-driven political stance? Which types are drawn to anti-establishment movements?
+- **Media Business Models and Type**: Ad-supported media rewards Type 3 (flashy, viral). Subscription media rewards Type 5 (deep, loyal). Breaking Points went subscription. Does the business model match the hosts' types?
+- **The Third-Party Fantasy**: Both hosts flirt with anti-two-party rhetoric. Is the desire for a third party a psychological need for certain types who can't tolerate binary choices?

@@ -29,6 +29,17 @@ Alex Hormozi is a Type 3 (Achiever) who turned business education into a persona
 
 <!-- TODO: Intro about the online guru phenomenon and the uncomfortable truth that the personality type most obsessed with image and achievement is the one teaching everyone else how to live -->
 
+## Questions This Blog Will Answer
+
+- **Why is almost every online guru a Type 3?** Hormozi, Gary Vee, Abdaal, Robbins—they're all Achievers. Is that because Type 3s are actually the best at teaching success, or because they're the best at PERFORMING success?
+- **Is Alex Hormozi's "I don't care about money" claim genuine?** He says it constantly while building a portfolio worth hundreds of millions. Is that a Type 3 who genuinely integrated past status—or a Type 3 who learned that "not caring about money" is the most profitable brand?
+- **Why does Gary Vee's advice resonate with young men but annoy everyone else?** "Just hustle harder" is either profound or toxic depending on who you ask. Does your reaction to Gary reveal YOUR personality type?
+- **Is Ali Abdaal's "effortless productivity" brand honest?** He looks like he does everything easily. But he also works constantly. Is the "effortless" aesthetic a Type 3 performing ease while grinding behind the scenes?
+- **Why did Tony Robbins last 40 years when most gurus flame out in 5?** What's different about his Type 3 that made him sustainable when others are disposable?
+- **Is Jordan Peterson actually a guru or something different?** He explicitly rejects the guru label. His message is "clean your room" not "manifest abundance." What makes a Type 1 in the guru space feel fundamentally different from a Type 3?
+- **Why did the Huberman scandal hit so hard?** Other gurus have had personal controversies without losing credibility. But a Type 5 whose brand is evidence-based protocols getting exposed for chaotic personal behavior feels like a different kind of betrayal. Why?
+- **Should you follow a guru who matches your type or one who doesn't?** If you're a 3 following Hormozi, are you just reinforcing your existing patterns? Would a Type 3 benefit more from Peterson's 1 energy?
+
 ## The Guru Personality Map
 
 | Guru                                                     | Enneagram Type         | Core Message                       | Selling                | Content Grade |
@@ -73,3 +84,12 @@ Alex Hormozi is a Type 3 (Achiever) who turned business education into a persona
 ## What Your Favorite Guru Says About You
 
 <!-- TODO: Conclusion mapping audience type to guru type. If you follow Hormozi, you're probably a 3 or aspiring 3. If you follow Peterson, you're probably a 1 or 6 seeking structure. If you follow Huberman, you're probably a 5 or 1 seeking evidence. Your guru choice is a personality mirror. The healthiest move: follow gurus who complement your type, not reinforce it. -->
+
+## Rabbit Holes Worth Exploring
+
+- **The Female Guru Gap**: Why are almost all mega-famous online gurus male? Are women building similar empires but in different formats, or does the "guru" archetype itself code as masculine?
+- **Guru Origin Stories and Type**: Every guru has a "rock bottom" story. Hormozi was broke. Robbins was homeless. Gary Vee immigrated with nothing. Is the redemption arc required for Type 3 guru credibility—and are any of them embellished?
+- **The Guru-to-Politician Pipeline**: RFK Jr., Vivek Ramaswamy, Andrew Yang—gurus entering politics. Does the Type 3 need for achievement inevitably lead to the biggest stage?
+- **Course Economics and Type**: Gurus sell courses, masterminds, and coaching. The price point often matches the type: 3s sell expensive transformation, 5s sell information products, 1s sell structured programs. Is pricing a personality tell?
+- **Guru Burnout**: Many gurus eventually "retire" or pivot to philanthropy. Is this genuine growth or a Type 3 rebranding when the achievement game stops delivering dopamine?
+- **Your Guru is Your Mirror**: The guru you follow reveals your aspirational type, not your actual type. A Type 6 who follows Hormozi wants to be a 3. A Type 3 who follows Peterson wants to be a 1. Is guru selection actually useful for self-typing?

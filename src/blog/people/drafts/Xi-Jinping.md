@@ -47,7 +47,7 @@ FEEDBACK (2026-03-14):
 
 Fifty years later, he controls the world's second-largest economy and commands the largest standing army on Earth. No Chinese leader since Mao has held this much concentrated power.
 
-The distance from that cave to Zhongnanhai isn't a rags-to-riches story. It's a study in what a particular kind of personality does when the world tries to crush it.
+The distance from that cave to Zhongnanhai isn't a rags-to-riches story. It's what happens when you try to crush someone who refuses to stay down.
 
 <details>
 <summary class="accordion">TL;DR: Why Xi Jinping is an Enneagram Type 8</summary>
@@ -70,7 +70,7 @@ The distance from that cave to Zhongnanhai isn't a rags-to-riches story. It's a 
 
 Think about that in the context of Xi's childhood: at age nine, watching his father dragged away on false charges. Red Guards ransacking his family home. His half-sister hanging herself at her military academy. Enduring "struggle sessions" where mobs screamed denunciations and called him an "enemy of the revolution."
 
-These experiences forge something harder than trauma. They create a determination — iron, quiet, patient — that sounds like: _This will never happen to me again._
+What comes out the other side isn't just trauma. It's a determination — iron, quiet, patient — that sounds like: _This will never happen to me again._
 
 Type 8s process the world through gut instinct. They move fast, assert their position, challenge anything that threatens their autonomy. They test people to find out who can be trusted with their vulnerability (almost no one) and who needs to be countered before they become dangerous. They are not naturally cruel.
 
@@ -132,7 +132,7 @@ Xi's love of books isn't a PR talking point. It's how he survived.
 
 > "I have many hobbies. I love reading the most. Reading has become a way of life for me."
 
-He devoured Dostoevsky ("the deepest Russian writer"), Tolstoy, Shakespeare, Victor Hugo. For Type 8s under stress, intellectual retreat is a known pattern — movement toward [Type 5](/enneagram-corner/enneagram-type-5), a way of processing a chaotic world at one remove. In the cave, the books gave Xi a mental space where the physical world couldn't reach him.
+He devoured Dostoevsky ("the deepest Russian writer"), Tolstoy, Shakespeare, Victor Hugo. For Type 8s under stress, intellectual retreat is a known pattern — movement toward [Type 5](/enneagram-corner/enneagram-type-5), a way of retreating into your head when the world outside is uncontrollable. In the cave, the books gave Xi somewhere the physical world couldn't reach him.
 
 Today, Xi name-drops authors constantly. Some former princelings attribute this to insecurity about his interrupted education. One who has known him for decades remarked: "Xi is not cultured. He was basically just an elementary schooler. He's very sensitive about that."
 
@@ -242,7 +242,7 @@ Detention camps are detention camps. That sentence has to survive the psychologi
 
 The property market collapse, deflation, youth unemployment above 20% — China's economy has hit serious structural problems that weren't supposed to arrive yet.
 
-Xi's response has been to name Western "containment" as the cause and add more state control as the solution. Whether that framing is accurate is a legitimate debate among economists. What's observable is the pattern: when stress increases, the external threat narrative intensifies and internal tolerance for dissent decreases. The psychology doesn't move toward openness under pressure. It moves away from it.
+Xi's response has been to name Western "containment" as the cause and add more state control as the solution. Whether that framing is accurate is a legitimate debate among economists. What's observable is the pattern: when stress increases, the external threat narrative intensifies and internal tolerance for dissent decreases. Under pressure, the psychology tightens. It doesn't open up.
 
 ## Xi Jinping's Legacy and Current Work
 
@@ -264,13 +264,13 @@ The sent-down youth who refused ten party rejections, who built trust in a remot
 
 But the same psychology that got him there doesn't stop once he arrives.
 
-Protection becomes control. Control becomes the only thing that feels like safety. The walls built to keep danger out become prisons for everyone inside. His father's dying instruction — "don't persecute people" — has become the instruction Xi has most conspicuously failed to follow.
+Protection becomes control. Control becomes the only thing that feels like safety. And the people inside the fortress don't get a say in the arrangement. His father's dying instruction — "don't persecute people" — has become the instruction Xi has most conspicuously failed to follow.
 
 He protects his daughter with the ferocity of someone who watched his sister hang herself. He consolidates power with the determination of someone who saw everything evaporate overnight. He trusts almost no one because, at a formative moment, almost no one proved trustworthy.
 
 None of that makes detention camps less real. None of it softens the surveillance state or the 18-year sentences for critics. The psychology explains the shape of the choices. It doesn't justify them.
 
-What it does do is make Xi comprehensible. And comprehensible actors are easier to anticipate than mysterious ones — a distinction that matters a great deal when the actor in question commands the largest standing army on Earth.
+What it does do is make Xi comprehensible. And comprehensible actors are easier to anticipate than mysterious ones — which matters when the person in question commands the largest standing army on Earth.
 
 ## FAQs About Xi Jinping's Personality
 
@@ -288,7 +288,7 @@ Complicated. He genuinely identifies with rural peasants from his sent-down year
 
 **Does Xi have any weaknesses?**
 
-His greatest strength is his vulnerability. The same psychology that drives his determination makes him rigid under stress, as the zero-COVID debacle showed. Type 8s struggle to admit error because vulnerability feels like death. This leads to doubling down on failing strategies rather than adapting.
+The thing that makes him effective is also what breaks him. The same refusal to show weakness that powered his rise makes him rigid under stress — the zero-COVID debacle was a textbook example. Type 8s struggle to admit error because vulnerability feels like death. So they double down on failing strategies rather than adapt.
 
 **What will Xi's legacy be?**
 

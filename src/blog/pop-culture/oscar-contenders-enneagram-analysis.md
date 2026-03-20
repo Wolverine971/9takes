@@ -29,6 +29,16 @@ Timothee Chalamet (Type 6) channels anxiety into transformative performances. Mi
 
 <!-- TODO: Intro about how personality type determines an actor's approach to transformation and why the Academy consistently rewards certain approaches over others -->
 
+## Questions This Blog Will Answer
+
+- **Why do method actors dominate Oscar season?** Daniel Day-Lewis, Cillian Murphy, Jared Leto—they disappear into roles so completely it becomes the story itself. Is method acting a specific personality type's coping mechanism?
+- **Does the Academy reward acting or personality type?** When Denzel Washington wins, is the Academy rewarding his performance—or responding to the psychological authority of a Type 8 who simply commands belief?
+- **Why is Timothee Chalamet's Oscar trajectory so different from other young actors?** He's not taking the blockbuster route. Every role is a risk. Is that Type 6 anxiety making him choose carefully—or Type 6 courage in disguise?
+- **What did Mikey Madison do in Anora that no one else could?** She played a loud, aggressive character despite being a quiet, withdrawn person in real life. How does a Type 9 channel energy that's the opposite of their nature—and why is that so compelling to watch?
+- **Can you predict who'll win the Oscar based on personality type?** If 4s win for depth, 8s for authority, 9s for transformation, and 5s for precision—does the cultural moment determine which type the Academy rewards?
+- **Why do some brilliant actors never win Oscars?** Glenn Close has been nominated 8 times without a win. Does personality type affect how "Oscar-worthy" your work appears?
+- **Is there a difference between "acting" and "being" on screen?** RDJ played himself as Tony Stark and was never nominated. Cillian Murphy became Oppenheimer and won. The Academy seems to reward transformation over amplification. Why?
+
 ## The Oscar Contender Personality Map
 
 | Actor                                                        | Enneagram Type        | Acting Approach        | What the Academy Rewards | Content Grade |
@@ -61,3 +71,11 @@ Timothee Chalamet (Type 6) channels anxiety into transformative performances. Mi
 ## What Oscar Choices Say About the Culture
 
 <!-- TODO: Conclusion about how which performances get rewarded reflects collective psychological needs. In anxious times, we reward vulnerability (6s). In stable times, we reward power (8s). The Academy's choices are a cultural Rorschach test. -->
+
+## Rabbit Holes Worth Exploring
+
+- **The Oscar Acceptance Speech as Type Revelation**: Some winners cry (4s). Some list accomplishments (3s). Some deflect to others (9s). Some give a manifesto (1s). Is the speech the most authentic personality reveal in Hollywood?
+- **Oscar Campaigns and Type**: Some actors campaign aggressively (3s). Others refuse to play the game (4s, 5s). Does your type determine whether you can win the political game of Oscar season?
+- **Directors vs. Actors**: Do certain director types consistently get the best performances from certain actor types? Is the director-actor relationship a type pairing that can be optimized?
+- **The Post-Oscar Curse**: Many actors experience a career dip after winning. Is that because the achievement satisfies their type's core need so completely that motivation collapses?
+- **International Film and Type**: Non-English-language Oscar winners often represent types underrepresented in Hollywood (more 5s, 9s, 4s). Does Hollywood's type bias explain its storytelling blind spots?

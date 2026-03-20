@@ -47,7 +47,7 @@ Same city. Same dream. Completely different door.
 
 In an interview with Liza Banks, she was asked which of her many characters is her favorite to play. She didn't say Hamilton. She didn't say the Lorax. She said "myself." Then immediately added: "Contrary to popular belief I am a very insecure person."
 
-The woman who can become anyone finds that the hardest character to inhabit is the one she already is. And that gap — between the shape-shifter the internet loves and the person she's still learning to be — explains everything about how Ashby Florence's mind works.
+The woman who can become anyone finds that the hardest character to inhabit is the one she already is. That gap — between the shape-shifter the internet loves and the person she's still learning to be — is the key to Ashby Florence.
 
 <details>
 <summary class="accordion">TL;DR: Why Ashby is an Enneagram Type 7</summary>
@@ -78,15 +78,15 @@ Then one night, sick in bed, in what she described to Liza Banks as "quite liter
 
 The breakthrough comes not from the obsessive planning and training — that's the [stress arrow to Type 1](/enneagram-corner/enneagram-type-1), the perfectionist energy that drove her childhood — but from the moment she lets go and plays.
 
-### The Characters as Emotional Architecture
+### What the Characters Actually Do for Her
 
-Here's the insight most coverage misses: Ashby's character rotation isn't just "Type 7 loves variety." Each character is an escape hatch into a different emotional register.
+Most people write off Ashby's character rotation as "Type 7 loves variety." But each character is an escape hatch into a different emotional register.
 
 Her Lorax — orange spandex jumpsuit, wiry mustache, stuffed belly — is the standout creation. Mid-livestream, she'll deadpan to thousands of viewers: "Give me money." Beat. Then in a stretched, vaguely Midwestern drawl: "I'm jokinnnn." Tongue out. The bit mocks the unspoken creator economy norm of pretending you don't post for income — she says the quiet part loud, then fake-walks it back, and the transparency itself becomes the joke. In the same breath, she'll announce official environmental decrees: "The squirrels will be relocated. The pigeons will be executed." An environmental character issuing authoritarian kill orders. That's her comedic signature — full commitment to the absurd, delivered deadpan.
 
 The Lorax lets Ashby be aggressive and entitled in a way "insecure Ashby" never could. Hamilton lets her be heroic and dramatic. Megamind lets her play the villain. King Julien (with Ben playing Mort) lets her be imperious and ridiculous simultaneously.
 
-She told Betches her character selection process is "purely because it is a funny visual" — but the psychology beneath that instinct is revealing. The characters aren't masks hiding the real Ashby. They're amplifiers for parts of her that insecurity keeps locked down.
+She told Betches her character selection process is "purely because it is a funny visual" — but that doesn't hold up. The characters aren't masks hiding the real Ashby. They're amplifiers for parts of her that insecurity keeps locked down.
 
 The proof? She's never even seen The Lorax movie. "I've never seen the Lorax, I'm just capitalizing off of it," she joked. The character she created has nothing to do with the source material. It's entirely her — filtered through a costume that gives her permission.
 
@@ -94,11 +94,11 @@ The proof? She's never even seen The Lorax movie. "I've never seen the Lorax, I'
 
 Ashby's [6 wing](/enneagram-corner/enneagram-type-6) shows up in two places: anxiety and loyalty.
 
-The anxiety: she admits to being "very insecure" despite the manic on-camera confidence. The fame has been "therapeutic" and "reaffirming" — words that reveal how much she needed external validation to quiet the internal doubt. That's the 6 wing whispering beneath the 7's bravado.
+The anxiety: she admits to being "very insecure" despite the manic on-camera confidence. The fame has been "therapeutic" and "reaffirming" — those aren't words you use if you were already okay. The 6 wing lives in that need for external validation.
 
 The loyalty: she's been with Ben Hunt for eight years. They met on an elementary school bus over fifteen years ago. In a world of content-creator relationships that flame out publicly, Ashby and Ben are quiet and steady. He serves as her livestream moderator — literally keeping the chat in order while she spirals into absurdist comedy. During their first Gru-and-Minion livestream, the chat convinced Ben to sit in a plastic bin she uses as a stage prop. It shattered underneath him. The comedy comes from chaos; the relationship holds the structure.
 
-Ben, a Chapman University film school graduate and aspiring director, brings industry knowledge from his own career in film and TV. But their dynamic works because he doesn't try to direct her — he moderates. For a Type 7 who fears being controlled, the distinction matters.
+Ben, a Chapman University film school graduate and aspiring director, brings industry knowledge from his own career in film and TV. But their dynamic works because he doesn't try to direct her — he moderates. A Type 7 who feels controlled will bolt. Ben keeps things running without making it feel like a leash.
 
 ## The Detour That Built the Instrument
 

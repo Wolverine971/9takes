@@ -580,28 +580,37 @@ For each prioritized post in the document (the top 5-7), craft 2-3 comment optio
 4. **NEVER mention 9takes** on mental health posts, personal vulnerability posts, or someone's personal story.
 5. **When mentioning 9takes** (rare), be extremely casual: "this is literally what we mapped out on our site lol"
 
-### The Two Modes
+### The Three Modes (Mix These Across the Batch)
 
-**Mode 1: Add Value (When You Have Insight)**
-- Share a pattern observation or reframe using Enneagram knowledge (without naming it)
-- Lead with curiosity, not authority
-- Warm and conversational — like texting a friend who happens to see human patterns clearly
-- 1-3 sentences, specific and genuine
+**Mode 1: Add Value (When You Have One Sharp Insight)**
+- ONE specific observation or reframe, not a mini-essay
+- Use Enneagram knowledge internally but express it in plain language
+- 1-2 sentences. Lead with the insight, not a compliment about the post.
+- Don't open with "this is so good because" or "the part about X is everything" — just say the thing
 
-**Mode 2: Cheerleader (When the Post Is Solid)**
-- Genuine excitement for their content
-- Specific praise (not "amazing!")
-- Curious questions about their experience
-- Supportive energy
+**Mode 2: Cheerleader (When the Post Deserves Hype)**
+- Pure energy. Short. No thesis attached.
+- "this is getting screenshotted for sure" > "this is really important work because..."
+- Specific praise beats generic praise, but keep it to 1 sentence
+- Don't turn cheerleading into a value comment with a compliment on top
+
+**Mode 3: Casual/Human (When You Just Want to Be Present)**
+- React like a real person in the comments, not a brand strategist
+- Short observations, gut reactions, personal relatability
+- "the [type] slide called me out honestly" — that's it, that's the comment
+- This mode keeps you from sounding like every comment was workshopped
+
+**CRITICAL: Vary the modes across the batch.** If you wrote 3 value comments in a row, the next one should be cheerleader or casual. The batch should feel like a real person's comment history — some deep, some quick, some just vibing.
 
 ### Instagram Comment Guidelines
 
-1. **1-3 sentences** — Instagram comments should be concise but meaningful
-2. **Specific references** — "the part about X" or "that slide about Y"
-3. **Natural emoji use** — 1-2 max, only when genuine
-4. **Questions drive replies** — End with a question when possible
-5. **No hashtags in comments** on other people's posts
-6. **Match the energy** — Casual post = casual comment, serious post = thoughtful comment
+1. **1-2 sentences is the sweet spot.** 3 sentences is the max. If you're writing more than 3 sentences, you're writing too much.
+2. **Don't start every comment by affirming the post.** "this is so good" / "love this" / "the X framing is everything" — these are fine occasionally but not as a pattern. Sometimes just make your observation without the praise lead-in.
+3. **Not every comment needs a question at the end.** Questions are good for driving replies, but ending every comment with "genuinely curious about X?" is an AI tell. Use questions on maybe half the comments.
+4. **Natural emoji use** — 1-2 max, only when genuine. Some comments should have zero emoji.
+5. **No hashtags in comments** on other people's posts.
+6. **Match the energy** — Casual post = casual comment, serious post = thoughtful comment.
+7. **Vary the length across the batch.** Some comments should be one punchy sentence. Others can be 2-3 sentences with a real insight. Don't make them all the same length.
 
 ### Tone Calibration
 
@@ -611,9 +620,26 @@ For each prioritized post in the document (the top 5-7), craft 2-3 comment optio
 - Emoji-friendly (but not overdone)
 - Like leaving a note for a sharp friend
 
-**Phrases to use:** "yo this hit different", "genuinely curious about...", "the part about X is so real", "this is the part most people miss", "the way you framed this"
+**Anti-AI checklist — if the comment has any of these, rewrite it:**
+- Starts with affirming the post ("this is so good", "love this", "the X framing is everything")
+- Uses "genuinely curious" — this phrase is a dead giveaway for AI
+- Uses "this is the part most people miss" or "most people don't realize" — preachy and formulaic
+- Every sentence builds on the previous one like a mini-essay with a thesis
+- Ends with a question that sounds like an interview ("have you found that...?", "do you notice...?")
+- Has more than 3 sentences
+- Sounds like it was written by a brand strategist, not a person scrolling Instagram
 
-**Phrases to avoid:** "love this!", "so inspiring!", "great content!", "most people don't realize...", anything preachy, anything that sounds like a brand account
+**Phrases to avoid:** "love this!", "so inspiring!", "great content!", "genuinely curious", "most people don't realize...", "the X framing is everything", "this is the part most people miss", anything preachy, anything that sounds like a brand account, anything that reads like a LinkedIn comment
+
+**What GOOD comments sound like:**
+- "the [type] slide called me out honestly"
+- "it's never about the milk"
+- "screenshot-and-send-to-one-person energy"
+- "this one's getting screenshotted for sure"
+- "the cover-up strategy tells you as much as the actual feeling"
+- "same defensive reaction on the surface, completely different wound underneath"
+
+Notice: short, specific, sounds like a human typed it on their phone.
 
 ### Visibility Level Rules
 
@@ -623,10 +649,10 @@ For each prioritized post in the document (the top 5-7), craft 2-3 comment optio
 
 ## Comment Format
 
-For each post, add this to the document:
+For each post, craft 2-3 options using DIFFERENT modes. Don't write 3 value comments — give a value option, a cheerleader option, and/or a casual option so the user can pick the energy that fits their mood.
 
-**Suggested Comment Option 1 ([mode: value/cheerleader] - [angle]):**
-> [comment text]
+**Suggested Comment Option 1 ([mode: value/cheerleader/casual] - [2-3 word angle]):**
+> [comment text — 1-2 sentences preferred, 3 max]
 
 **Suggested Comment Option 2 ([mode] - [angle]):**
 > [comment text]
