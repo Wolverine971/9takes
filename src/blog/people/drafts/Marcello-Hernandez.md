@@ -9,7 +9,7 @@ loc: 'https://9takes.com/personality-analysis/Marcello-Hernandez'
 lastmod: '2026-03-15'
 changefreq: 'monthly'
 priority: '0.6'
-published: false
+published: true
 enneagram: 7
 type: ['comedian']
 person: 'Marcello-Hernandez'

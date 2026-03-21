@@ -1361,15 +1361,6 @@
     </image:image>
 </url>
 <url>
-    <loc>https://9takes.com/personality-analysis/Nancy-Pelosi</loc>
-    <lastmod>2024-08-30T00:00:00.000Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-    <image:image>
-        <image:loc>https://9takes.com/types/3s/Nancy-Pelosi.webp</image:loc>
-    </image:image>
-</url>
-<url>
     <loc>https://9takes.com/personality-analysis/Jack-Dorsey</loc>
     <lastmod>2024-09-29T00:00:00.000Z</lastmod>
     <changefreq>monthly</changefreq>
@@ -3500,6 +3491,15 @@
     <priority>0.7</priority>
     <image:image>
         <image:loc>https://9takes.com/types/2s/Meryl-Streep.webp</image:loc>
+    </image:image>
+</url>
+<url>
+    <loc>https://9takes.com/personality-analysis/Nancy-Pelosi</loc>
+    <lastmod>2026-03-20T00:00:00.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+        <image:loc>https://9takes.com/types/3s/Nancy-Pelosi.webp</image:loc>
     </image:image>
 </url>
 <url>

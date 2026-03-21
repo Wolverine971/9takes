@@ -114,7 +114,7 @@ Show that SSRIs, gambling, and cognitive overload are not separate stories; they
 	import InsightBox from '$lib/components/blog/callouts/InsightBox.svelte';
 </script>
 
-<p class="firstLetter">My dad repeatedly told me that constantly listening to the news makes you dumber.</p> 
+<p class="firstLetter">My dad repeatedly told me that constantly listening to the news makes you dumber.</p>
 
 He was right about that -- which is ironic because one of the things I want to talk about is literally about us getting dumber. But we'll get there.
 
@@ -461,124 +461,57 @@ This is why I'm drawn to frameworks like the Enneagram. It maps how different pe
 The ticking time bombs are real. But the fuse is emotional illiteracy -- and that's something we can actually fix. Not by consuming more content about emotions. By finding people we can practice with.
 
 <!--
-READER FEEDBACK (review notes — remove before publishing)
+FRESH REVIEW — 2026-03-20
 
-WHAT WORKS WELL:
-- The research depth is genuinely impressive. This doesn't read like someone skimming headlines — the citations are strong and the stats land hard. The pharma incentives breakdown (the $20 lunch stat, the 53% of psychiatrists doing zero therapy) is the kind of stuff that makes you stop scrolling and actually think.
-- The gambling-as-masculinity-proxy angle is the freshest take in the piece. Most gambling articles just say "it's addictive." Connecting it to blocked pathways for young men and the need for agency/mastery is a genuinely interesting lens.
-- The emotional literacy thesis tying all three together is compelling. It doesn't feel like a stretch — it actually holds up.
-- Writing style is engaging. Conversational without being sloppy. The "read that again" moment with the relapse stats is effective.
+=== WHAT'S WORKING ===
 
-WHAT I THINK YOU MISSED OR SHOULD EXPAND:
+The research is strong. The gambling-as-masculinity-proxy angle is still the freshest section. The "But Don't We Already Have That?" addition is a solid improvement — it preempts the obvious objection. The IQ section reframing ("Everyone Says We're Getting Dumber" instead of claiming it outright) is better. Vaccine tangent is gone — good cut. The community line ("It says something about our society that the only place many people feel safe being vulnerable is in a room they're paying $200 an hour to sit in") is the best sentence in the piece.
 
-1. THE THREE BOMBS AREN'T CONNECTED UNTIL THE END. You promise at the top that "these aren't separate problems, they feed into each other" — but then you write three basically separate essays and only connect them in a single paragraph in "The Fix" section. That connection paragraph ("screen addiction delivers the gambling apps, SSRIs numb the warning signals...") is actually one of the most interesting claims in the whole piece, and it gets one sentence. I wanted that thread woven throughout. Maybe add brief "bridge" paragraphs between sections showing how they feed each other.
+=== STRUCTURAL: THE BIG REMAINING ISSUES ===
 
-2. THE IQ SECTION UNDERMINES ITS OWN FRAMING. You title it "We're Getting Dumber" and open with IQ decline data, but then spend most of the section arguing we're NOT actually getting dumber — we're emotionally overwhelmed. That's a more interesting argument! But it undercuts the "ticking time bomb" framing. If the bomb is emotional overwhelm rather than actual cognitive decline, say that more directly up front instead of the bait-and-switch.
+1. THE THREE SECTIONS ARE STILL THREE SEPARATE ESSAYS. You promise "these aren't separate problems" in the intro and deliver one excellent connecting paragraph. But between sections, there's nothing. The SSRI-to-gambling transition (line 247) is a brief bridge, but gambling-to-IQ (line 303) is just a horizontal rule. Add a 2-3 sentence bridge after each section showing how it feeds the next. Example after gambling: "And where does a 23-year-old go when the betting losses pile up and the shame becomes unbearable? The same place everyone goes — to a doctor who writes a prescription in 15 minutes." The connection IS the article's unique value prop. Without it, this is three good blog posts, not one great one.
 
-3. THE SSRI SECTION IS ALMOST TOO THOROUGH — it's nearly its own standalone article. By contrast, the gambling and IQ sections feel shorter and less developed. The piece feels top-heavy. I'd either trim the SSRI section (the vaccine comparison subsection is the easiest cut — see below) or beef up the other two.
+2. SSRI SECTION IS STILL TOP-HEAVY. ~1,800 words vs ~800 for gambling and ~1,200 for IQ. The DSM expansion bullet (line 194) and revolving door bullet (line 195) are tangential — the $20 lunch stat and 53% zero-therapy stat already make the incentives case. Consider trimming 2-3 bullets to even out the sections.
 
-4. THE VACCINE COMPARISON IS A TANGENT THAT COULD LOSE READERS. The "Spotlight Is on the Wrong Thing" subsection comparing SSRIs to the vaccine debate is a hot-button detour that doesn't strengthen your core argument. People who agree with you already agree. People who disagree will bounce. And it's not necessary — the SSRI case is strong enough on its own merits without positioning it relative to vaccines. I'd cut this subsection entirely or reduce it to a single sentence.
+3. FIX SECTION IS STILL ABSTRACT. "Don't be a rat" and "learn to grapple with your emotions" are correct but not actionable. Give one concrete action per bomb:
+   - Gambling: "Delete the sportsbook app. Replace the group chat energy with a fantasy league with no money, pickup basketball, something with real skin in the game."
+   - SSRIs: "If you've been on SSRIs for 2+ years, ask your doctor specifically about a gradual tapering plan. Look into survivingantidepressants.org."
+   - Cognitive decline: "Set a 30-minute daily phone-free block. Do one thing that requires sustained focus — read a chapter, write, have a conversation without checking your phone."
+   The community section is the strongest part of the fix — but "finding people you can be honest with" still needs a HOW. Even one example: men's groups, regular dinners with a no-phones rule, etc.
 
-5. THE FIX SECTION IS THIN COMPARED TO THE PROBLEM SECTIONS. You spend thousands of words on the problems with hard data and compelling arguments, then the solutions feel like "just develop emotional literacy" and "find honest people." The gambling fix is especially weak — basically "don't gamble, don't be a rat." What does someone actually DO after reading this? Are there specific practices? Apps that aren't predatory? Community models that are working? The Harvard study and the community collapse stats are great, but they describe the problem again rather than the solution.
+=== WRITING / VOICE ===
 
-6. THE ENNEAGRAM PLUG AT THE END FEELS FORCED. The article builds a genuinely strong case on its own merits. When you drop "that's what frameworks like the Enneagram do" in the conclusion, it retroactively makes the whole article feel like a sales funnel. Either integrate the Enneagram more naturally throughout (like using it as one of the "tools" in the fix section with a concrete example) or save the pitch for a separate CTA below the article. The conclusion is powerful without it.
+4. STILL NO HUMAN STORIES. You say "I've heard the stories" (line 139) but never tell one. Even a brief composite: "A friend of mine went on Lexapro after a breakup. Two years later he described himself as 'fine but empty.' When he tried to taper off, the brain zaps lasted four months." That's 2 sentences and it makes the SSRI section hit emotionally, not just intellectually. Same gap in gambling — describe one person at 2am chasing losses.
 
-WHAT'S OVERDONE / DUPLICATE INFO TO TRIM:
+5. BOLDING IS STILL HEAVY. There are 30+ bolded phrases. When everything is emphasized, nothing is. Cut bolding by half. Keep it on stats that should shock ("82% of the antidepressant response was duplicated by sugar pills") and remove it from editorial commentary.
 
-- "Emotions are signals, not disorders" appears in almost the same phrasing at least 3 times (SSRI section, IQ section, and conclusion). Once is powerful. Three times is a sermon.
-- The therapy vs. medication comparison is made in the SSRI section AND restated in the fix section. The fix section version could just reference back instead of re-arguing.
-- The prefrontal cortex / amygdala shutdown is explained in the IQ section and then re-explained more briefly in the fix. Consolidate.
-- "The system is designed to create customers, not heal people" — this sentiment appears multiple times in slightly different phrasings across the SSRI section. Pick the strongest version and cut the rest.
+6. "THIS ISN'T [X]. IT'S [Y]" PATTERN still appears 4+ times:
+   - "This isn't rare" (line 143)
+   - "It's also not true" (line 160)
+   - "This isn't a metaphor. It's visible on brain scans." (line 375)
+   - "That's not a therapy problem. That's a community problem." (line 415)
+   The last one is the strongest — keep it. Rewrite the others to vary the construction.
 
-SMALLER NOTES:
-- "Hella" in the subheading "The Incentives Are Hella Off" — this is a stylistic call, but it reads younger/more casual than the rest of the piece. Your voice elsewhere is "smart person at a bar explaining something important." "Hella" pushes it toward "podcast bro." Up to you.
-- The Polymarket paragraph in the gambling section feels tacked on. Prediction markets are an interesting adjacent topic but it breaks the flow of the sports betting argument. Consider cutting or making it its own brief subsection.
-- You mention "brainrot generation" in the opening list but then the IQ section is really about everyone, not just one generation. The framing narrows the audience when the argument is actually broader.
-- The piece is ~5,000+ words. That's a big ask for the audience you're describing (people with 47-second attention spans). Consider whether this should be a series of three shorter posts rather than one mega-post. Each bomb could be its own piece with the emotional literacy thesis as the connective thread.
+7. THE SHAME/FEAR/ANGER FRAMEWORK IS OVER-SIGNPOSTED. It's introduced in the intro, applied in gambling, applied in IQ, gets its own subsection ("Fear, Shame, and Anger"), and restated in "The Thread Through All Three." That's 5 appearances. Cut "The Thread Through All Three" restatement (lines 429-436) — it's the weakest version and just repeats what you've already shown. Go straight from "But Don't We Already Have That?" into "So What Actually Changes?"
 
-OVERALL: This is a strong piece with a genuine thesis. The main thing holding it back is structural — the three sections feel like separate articles stapled together, and the payoff (the connection + the fix) is rushed. Tighten the connections, trim the redundancy, and beef up the solutions, and this goes from "interesting blog post" to "the thing I send people when they ask what's wrong."
--->
+=== TRIM CANDIDATES ===
 
-<!--
-CLAUDE REVIEW — reading this as a normal person, not an editor
+8. POLYMARKET PARAGRAPH (line 299) — still tacked on. Different product, different user base, breaks the sports betting flow. Cut or footnote it.
 
-=== AI-SOUNDING LANGUAGE TO KILL ===
+9. ADHD PARAGRAPH (line 317) — still one massive wall covering 5 ideas (ADHD diagnoses, evolutionary psychology, Kenyan tribesmen, entrepreneur stats, Northwestern IQ nuance). At minimum break into 2-3 paragraphs. Better: trim the Kenyan tribesmen and entrepreneur stats — they undermine the "ticking time bomb" framing by arguing ADHD is adaptive.
 
-This article is mostly well-written, but there are patterns that scream "I had help" or "I'm performing smartness." Kill these:
+10. BILL MAHER REFERENCE (line 301) — quoting him just to disagree annoys half your readers for free. Just make the point directly: "Gambling isn't a tax on the stupid. It's a tax on the desperate."
 
-1. THE "HERE'S" PATTERN. You use "Here's the thing," "Here's what I," "Here's the part that," "Here's something that" as transitions ~15 times. Normal people don't do this. It's the AI equivalent of a throat-clear. Pick your 2-3 best ones, rewrite the rest. Some can just be deleted — the sentence after them is usually stronger without the windup.
+11. "the exact capacities you need to navigate a complex world" (line 375) — sounds generated. Say it plainly: "creative thinking, problem-solving, seeing multiple sides of an issue."
 
-2. "LET ME [VERB]" TRANSITIONS. "Let me be clear upfront," "Let me tell you what a brain zap is," "Let me shift gears," "Let me land this plane." You're already telling me — you don't need to announce that you're about to tell me. Just say the thing. "A brain zap is..." is tighter than "Let me tell you what a brain zap is."
+=== SMALLER NOTES ===
 
-3. EMOTIONAL STAGE DIRECTIONS. "This is the part that really gets me," "here's the part that should make you angry," "this one hits different." You're telling the reader how to feel before they feel it. Trust your material — the $20 lunch stat IS infuriating. You don't need to pre-label it. If the reader doesn't feel it, the writing needs to be better, not louder.
-
-4. "THIS ISN'T [X]. IT'S [Y]." This construction appears at least 5-6 times. ("This isn't rare." "This isn't speculation." "This isn't a metaphor." "That's not a therapy problem. That's a community problem.") It's a powerful rhetorical move ONCE. Used repeatedly it becomes a tic. Keep the best one (the therapy/community one is strongest), rewrite the rest.
-
-5. BOLDING AS A CRUTCH. You bold SO many phrases for emphasis. When everything is emphasized, nothing is. Go through and cut the bolding by at least half. The stats and key claims should pop. The emotional editorializing ("The fuse is emotional illiteracy") doesn't need bold — if your argument is built right, the reader arrives there on their own.
-
-6. NEAT PACKAGING. "Shame, fear, and anger — running on a loop" and similar formulations appear in nearly every section. The framework is good but you over-signpost it. By the third time you say "notice these three emotions," I feel like I'm in a TED talk, not reading a blog post from someone who's genuinely alarmed. You can trust that readers who are still reading at section 3 remember the framework from section 1.
-
-7. SPECIFIC PHRASES THAT SOUND GENERATED:
-   - "a genuinely incredible tool" — nobody talks like this. "really useful" or just cut it.
-   - "the exact capacities you need to navigate a complex world" — too tidy. Say what you mean plainly.
-   - "These are skills. You build them." — this staccato-for-emphasis thing is overused in AI writing. Once in the piece, fine. You do it multiple times.
-   - "Every one of these problems traces back to the same root" — too clean. Real insights are messy. Something like "I keep coming back to the same thing" is more human.
-   - "The ticking time bombs are real. But the fuse isn't intelligence or willpower or morality." — this is trying too hard to be a mic drop. Your actual argument landed three paragraphs earlier.
-
-=== DIGESTIBILITY ===
-
-1. IT'S TOO LONG. I say this as someone who found it interesting — I still checked how much was left twice. The SSRI section alone is ~2,000 words. The whole thing is pushing 5,500+. Your target audience (the people you're describing with 47-second attention spans) will not finish this. Options:
-   - Cut 30% (my recommendation — see trim notes below)
-   - Break into a 3-part series (each bomb + shared emotional literacy thread)
-   - Add a TL;DR at the top with anchor links so people can jump to what interests them
-
-2. THE STATS PILE UP. In the gambling section you hit me with like 8 bullet-pointed stats in a row, then more stats in prose right after. By stat #5 my eyes are glazing. Pick your 3-4 hardest-hitting numbers and cut the rest. The "96% lose money" and "3% generate 50% of revenue" stats are devastating — they get diluted by the ones around them.
-
-3. SOME PARAGRAPHS ARE WALLS. The one starting "And here's what's happening with ADHD" (line 325) is a single monster paragraph that covers ADHD diagnoses, evolutionary psychology, Kenyan tribesmen, entrepreneur stats, AND the Northwestern IQ nuance. That's 5 ideas in one paragraph. Break it up.
-
-=== WHAT YOU MISSED / SHOULD EXPAND ===
-
-1. WHERE ARE THE REAL PEOPLE? This article is all stats and studies. It's convincing but it's not *moving*. You start with "I've heard the stories" about SSRI zombies but you never actually tell one. You don't need to name names — even a brief "I know a guy who..." or a composite sketch would make the SSRI section hit emotionally, not just intellectually. Same with gambling — you describe the psychology but there's no moment where I feel the desperation of an actual person staring at their phone at 2am chasing losses.
-
-2. WHAT DO I ACTUALLY DO ON MONDAY? The "fix" section gives me:
-   - "Don't gamble" (thanks)
-   - "Learn to process emotions" (how?)
-   - "Find honest people" (where?)
-
-   These are correct but useless. Give me ONE concrete thing per section. Like: "Start a weekly dinner with 2-3 friends where you actually talk about your lives — not just banter." Or: "If you're on SSRIs, ask your doctor about a tapering plan and look into [specific resource]." Or: "Delete the sportsbook app right now. Not tomorrow. Right now. Here's what to replace it with." The specificity is what makes advice actionable vs. inspirational.
-
-3. THE CONNECTION BETWEEN THE THREE IS THE WHOLE POINT AND IT'S BARELY THERE. You literally promise "these feed into each other" in the intro, then write three separate essays. The one paragraph in "The Fix" that connects them is the most interesting claim in the piece and gets one sentence. What if SSRIs are making people more susceptible to gambling addiction by blunting the emotional warning signals? What if the cognitive overwhelm from screens is what's driving the demand for SSRIs? These are fascinating questions and you just... don't explore them.
-
-4. YOU DON'T ADDRESS THE COUNTERARGUMENT TO YOUR THESIS. Someone reading this will think: "If emotional literacy is the fix, why are rates of therapy and self-help higher than ever? People have MORE emotional vocabulary than any prior generation — they just also have more problems." That's a real objection and ignoring it weakens your argument.
-
-=== OVERDONE / TRIM CANDIDATES ===
-
-1. THE VACCINE COMPARISON SUBSECTION ("The Spotlight Is on the Wrong Thing") — cut entirely. It's the one place in the piece where you'll lose people for political reasons rather than keeping them for intellectual ones. The SSRI argument is strong on its own.
-
-2. THE DSM EXPANSION BULLET POINT — interesting but tangential. You're already making the incentives case with the $20 lunch and the 53% zero-therapy stat. The DSM point is a whole separate argument that deserves its own piece.
-
-3. THE POLYMARKET PARAGRAPH — doesn't belong in the gambling section. It's a different product with a different user base. Cut it or save it for something else.
-
-4. THE ADHD/EVOLUTIONARY PSYCHOLOGY TANGENT — this is interesting but it's a 200-word detour that doesn't serve the "ticking time bomb" framing. It actually undermines it by arguing ADHD is adaptive. If you want to make that argument, it needs its own space.
-
-5. DUPLICATE CONCEPTS TO CONSOLIDATE:
-   - Prefrontal cortex shutdown: explained in IQ section AND fix section. Keep the IQ section version (it's better), just reference it in the fix.
-   - Therapy vs. medication relapse rates: argued in SSRI section AND re-argued in fix section. The fix section version should be a callback, not a re-argument.
-   - "Emotions are signals not disorders" / "people don't understand their emotions" — this sentiment appears in at least 3 places. Pick one.
-   - The shame/fear/anger framework: introduced, then applied to gambling, then applied to IQ, then restated in the conclusion. That's one too many. The conclusion restatement is the weakest — by then I've heard it three times.
-
-=== SMALLER THINGS ===
-
-- "Hella Off" in the subheading — I actually don't mind this, it fits your voice. But it's the only time you use slang in a heading, so it sticks out. Either be consistent or change it.
-- The Bill Maher reference in gambling — quoting Bill Maher to then disagree with him is a move that will annoy half your readers for free. Just make your point without the name-drop.
-- "brainrot generation" in the opening — you then argue it's not really about one generation. The framing contradicts your own argument.
-- "I take no pleasure in being an alarmist" as an opener — this IS the thing an alarmist would say. Your dad anecdote is the stronger opening. Start with "My dad repeatedly told me that constantly listening to the news makes you dumber" and go from there.
+- "Hella" in "The Incentives Are Hella Off" (line 182) — only slang in any heading, sticks out. Either use casual register throughout headings or change this one.
+- "the generation that jokes about brainrot" (line 125) — the IQ section argues this isn't about one generation. Consider: "Collective IQ decline and the brainrot we all pretend is a joke."
+- "This one hits different" (line 253) — emotional stage direction. Trust the material. Cut it and start with "In 2018..."
+- The intro connection paragraph (line 127) is strong but dense — consider breaking it into 2-3 shorter punchy sentences.
 
 === BOTTOM LINE ===
 
-The research is legit. The thesis (emotional illiteracy → all three problems) is genuinely compelling. The gambling-as-masculinity section is the freshest writing in the piece. But right now it reads like three well-researched articles duct-taped together with a thesis statement, and the "fix" doesn't match the ambition of the "problem."
-
-The article promises "nobody is connecting these" — so the CONNECTION is the product. That's what should make this piece different from three separate articles about SSRIs, gambling, and IQ decline. Right now the connection is an afterthought. Make it the spine.
-
-Cut 25-30%, add one real human story, make the fixes concrete, and weave the connections throughout — and this becomes something people actually share.
+Meaningfully improved since last round. The three remaining big moves: (1) weave connections between sections throughout instead of front-loading and back-loading them, (2) add one human story to make it hit emotionally, (3) make the fixes concrete enough that someone can act on them Monday morning. Those three changes take this from "strong blog post" to "the thing people forward to friends."
 -->

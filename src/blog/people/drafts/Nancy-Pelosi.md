@@ -1,5 +1,5 @@
 ---
-title: "Nancy Pelosi: The Enneagram Type 3 Who Kept the Favor File"
+title: 'Nancy Pelosi: The Enneagram Type 3 Who Kept the Favor File'
 meta_title: "Nancy Pelosi's Hidden Psychology: The Shy Girl Who Became America's Most Feared Politician"
 persona_title: "Politics' Velvet Sledgehammer"
 description: "Inside the psychology of Nancy Pelosi — from her Baltimore favor file to the Speaker's gavel. The shy girl who became America's most effective power broker."
@@ -27,6 +27,7 @@ content_quality:
   overall: 8.8
   letter: 'B+'
   graded_at: '2026-03-20'
+path: src/blog/people/drafts/Nancy-Pelosi.md
 ---
 
 > "My parents didn't raise me to be Speaker. They raised me to be holy."

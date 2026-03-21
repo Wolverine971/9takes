@@ -4,12 +4,12 @@ meta_title: "Why Jake Gyllenhaal Can't Stop Choosing Roles That Terrify Him"
 persona_title: "Hollywood's Fearful Daredevil"
 description: 'Jake Gyllenhaal runs toward fear. Discover how his anxiety, loyalty, and counterphobic instincts reveal a classic Enneagram Type 6.'
 author: 'DJ Wayne'
-date: '2026-03-17'
+date: '2026-03-21'
 loc: 'https://9takes.com/personality-analysis/Jake-Gyllenhaal'
-lastmod: '2026-03-17'
+lastmod: '2026-03-21'
 changefreq: 'monthly'
 priority: '0.6'
-published: false
+published: true
 enneagram: 6
 type: ['movieStar']
 person: 'Jake-Gyllenhaal'

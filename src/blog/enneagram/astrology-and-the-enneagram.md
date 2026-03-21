@@ -55,21 +55,21 @@ The power move is using both. The Enneagram anchors you in your core psychology.
 
 Which zodiac signs tend to show up with which Enneagram types? Here's the pattern:
 
-| Enneagram Type             | Primary Zodiac | Zodiac Ruler  | Alternative Signs | Core Connection                 | Key Overlap                                              |
-| -------------------------- | -------------- | ------------- | ----------------- | ------------------------------- | -------------------------------------------------------- |
-| **Type 1** - Perfectionist | Virgo          | Mercury       | Gemini, Capricorn | Critical eye, improvement focus | Detail-oriented, high standards, moral clarity           |
-| **Type 2** - Helper        | Cancer         | Moon          | Pisces            | Nurturing instinct              | Emotional sensitivity, caregiving, intuitive needs       |
-| **Type 3** - Achiever      | Leo            | Sun           | Aries             | Success drive, image            | Leadership, recognition seeking, performance mode        |
-| **Type 4** - Individualist | Pisces         | Neptune       | Scorpio, Cancer   | Emotional depth                 | Creativity, introspection, uniqueness seeking            |
-| **Type 5** - Investigator  | Aquarius       | Uranus        | Virgo             | Intellectual pursuit            | Analytical mind, independence, information gathering     |
-| **Type 6** - Loyalist      | Capricorn      | Saturn        | Cancer, Taurus    | Security focus                  | Cautiousness, responsibility, trust issues               |
-| **Type 7** - Enthusiast    | Sagittarius    | Jupiter       | Gemini, Aquarius  | Freedom seeking                 | Optimism, adventure, possibility thinking                |
-| **Type 8** - Challenger    | Aries          | Mars          | Scorpio, Leo      | Power assertion                 | Intensity, control needs, protective instincts           |
-| **Type 9** - Peacemaker    | Taurus         | Venus         | Libra, Pisces     | Harmony desire                  | Stability seeking, conflict avoidance, diplomatic nature |
+| Enneagram Type             | Primary Zodiac | Zodiac Ruler | Alternative Signs | Core Connection                 | Key Overlap                                              |
+| -------------------------- | -------------- | ------------ | ----------------- | ------------------------------- | -------------------------------------------------------- |
+| **Type 1** - Perfectionist | Virgo          | Mercury      | Gemini, Capricorn | Critical eye, improvement focus | Detail-oriented, high standards, moral clarity           |
+| **Type 2** - Helper        | Cancer         | Moon         | Pisces            | Nurturing instinct              | Emotional sensitivity, caregiving, intuitive needs       |
+| **Type 3** - Achiever      | Leo            | Sun          | Aries             | Success drive, image            | Leadership, recognition seeking, performance mode        |
+| **Type 4** - Individualist | Pisces         | Neptune      | Scorpio, Cancer   | Emotional depth                 | Creativity, introspection, uniqueness seeking            |
+| **Type 5** - Investigator  | Aquarius       | Uranus       | Virgo             | Intellectual pursuit            | Analytical mind, independence, information gathering     |
+| **Type 6** - Loyalist      | Capricorn      | Saturn       | Cancer, Taurus    | Security focus                  | Cautiousness, responsibility, trust issues               |
+| **Type 7** - Enthusiast    | Sagittarius    | Jupiter      | Gemini, Aquarius  | Freedom seeking                 | Optimism, adventure, possibility thinking                |
+| **Type 8** - Challenger    | Aries          | Mars         | Scorpio, Leo      | Power assertion                 | Intensity, control needs, protective instincts           |
+| **Type 9** - Peacemaker    | Taurus         | Venus        | Libra, Pisces     | Harmony desire                  | Stability seeking, conflict avoidance, diplomatic nature |
 
 **Reality check:** These patterns are common, not universal. You can absolutely be a Taurus Type 8 or an Aries Type 9. The systems measure different things.
 
-**A note on planets:** The "Zodiac Ruler" column above shows the ruling planet of each type's primary zodiac sign. But some types resonate more with a *different* planet psychologically. Type 1 maps to Virgo (Mercury) by zodiac, but Saturn's discipline better captures the 1's inner critic. Type 5 maps to Aquarius (Uranus) by zodiac, but Mercury's analytical energy fits the 5's mind. When you see planets mentioned below, we're talking about psychological resonance — which planet's energy matches the type's motivation — not just zodiac rulership.
+**A note on planets:** The "Zodiac Ruler" column above shows the ruling planet of each type's primary zodiac sign. But some types resonate more with a _different_ planet psychologically. Type 1 maps to Virgo (Mercury) by zodiac, but Saturn's discipline better captures the 1's inner critic. Type 5 maps to Aquarius (Uranus) by zodiac, but Mercury's analytical energy fits the 5's mind. When you see planets mentioned below, we're talking about psychological resonance — which planet's energy matches the type's motivation — not just zodiac rulership.
 
 ## Why Each Enneagram Type Matches Its Zodiac Sign
 
@@ -185,14 +185,14 @@ Beatrice Chestnut's work on Enneagram **countertypes** offers another angle. Eac
 
 If you know your birth chart, look at which houses are most active. The house where your planets cluster often echoes your Enneagram type's focus:
 
-| House | Domain | Enneagram Type | Why It Fits |
-|---|---|---|---|
-| **1st** (Self) | Identity, presence | Types 8, 9 | 8s fill a room with power; 9s with calm. Both define the first impression. |
-| **4th** (Home) | Family, security | Types 2, 6 | 2s build their identity around nurturing. 6s need a safe base to operate from. |
-| **5th** (Creativity) | Self-expression | Type 4 | The 4's entire project: turning inner experience into something visible. |
-| **8th** (Transformation) | Intensity, shadow | Type 8 | Where others flinch, 8s lean in. Power and vulnerability live in the same house. |
-| **10th** (Career) | Public image | Types 1, 3 | 1s want to be seen as competent. 3s want to be seen as exceptional. |
-| **12th** (Unconscious) | Hidden depths | Types 4, 5 | Both are drawn to what's underneath — the 4 through feeling, the 5 through investigation. |
+| House                    | Domain             | Enneagram Type | Why It Fits                                                                               |
+| ------------------------ | ------------------ | -------------- | ----------------------------------------------------------------------------------------- |
+| **1st** (Self)           | Identity, presence | Types 8, 9     | 8s fill a room with power; 9s with calm. Both define the first impression.                |
+| **4th** (Home)           | Family, security   | Types 2, 6     | 2s build their identity around nurturing. 6s need a safe base to operate from.            |
+| **5th** (Creativity)     | Self-expression    | Type 4         | The 4's entire project: turning inner experience into something visible.                  |
+| **8th** (Transformation) | Intensity, shadow  | Type 8         | Where others flinch, 8s lean in. Power and vulnerability live in the same house.          |
+| **10th** (Career)        | Public image       | Types 1, 3     | 1s want to be seen as competent. 3s want to be seen as exceptional.                       |
+| **12th** (Unconscious)   | Hidden depths      | Types 4, 5     | Both are drawn to what's underneath — the 4 through feeling, the 5 through investigation. |
 
 If your chart has a heavy 8th house and you're a Type 8, that intensity is echoing from both directions. If your chart emphasizes the 5th house but you're a Type 1, that creative tension might explain why your perfectionism comes out in artistic standards rather than organizational ones.
 
@@ -200,25 +200,25 @@ If your chart has a heavy 8th house and you're a Type 8, that intensity is echoi
 
 The Enneagram has three instinctual subtypes — self-preservation, social, and sexual (one-to-one) — and each maps to an astrological element:
 
-| Subtype | Element | What It Drives | Zodiac Signs That Amplify It |
-|---|---|---|---|
-| **Self-Preservation** | Earth | Physical security, comfort, routines, material stability | Taurus, Virgo, Capricorn |
-| **Social** | Air | Group belonging, status, reading the social field | Gemini, Libra, Aquarius |
-| **Sexual (One-to-One)** | Fire + Water | Intensity, chemistry, merging, attraction | Aries, Leo, Sagittarius (fire) + Cancer, Scorpio, Pisces (water) |
+| Subtype                 | Element      | What It Drives                                           | Zodiac Signs That Amplify It                                     |
+| ----------------------- | ------------ | -------------------------------------------------------- | ---------------------------------------------------------------- |
+| **Self-Preservation**   | Earth        | Physical security, comfort, routines, material stability | Taurus, Virgo, Capricorn                                         |
+| **Social**              | Air          | Group belonging, status, reading the social field        | Gemini, Libra, Aquarius                                          |
+| **Sexual (One-to-One)** | Fire + Water | Intensity, chemistry, merging, attraction                | Aries, Leo, Sagittarius (fire) + Cancer, Scorpio, Pisces (water) |
 
 A Self-Preservation Type 7 with strong Earth signs in their chart channels that 7 energy into financial security and physical comfort — adventure means great restaurants and travel, not risky cliff-jumping. A Sexual Type 5 with heavy Scorpio placements turns the 5's detachment inside out: they withdraw from the world in general but become intensely focused in one-to-one connections.
 
-Your dominant subtype combined with your astrological element emphasis tells you *where* your Enneagram type's energy gets expressed. The type tells you why. The subtype and element tell you the arena.
+Your dominant subtype combined with your astrological element emphasis tells you _where_ your Enneagram type's energy gets expressed. The type tells you why. The subtype and element tell you the arena.
 
 ## How to Read Your Birth Chart and Enneagram Type Together
 
 The real value comes from layering these systems. Your sun sign, moon sign, and rising sign each interact differently with your Enneagram type:
 
-| Chart Placement | Enneagram Parallel | What It Shapes |
-|---|---|---|
-| **Sun Sign** | Core type | Your dominant energy and conscious motivation |
-| **Moon Sign** | Wing energy | How you process emotions — modifies your type's inner world |
-| **Rising Sign** | Social mask | How your type presents to strangers before they know the real you |
+| Chart Placement | Enneagram Parallel | What It Shapes                                                    |
+| --------------- | ------------------ | ----------------------------------------------------------------- |
+| **Sun Sign**    | Core type          | Your dominant energy and conscious motivation                     |
+| **Moon Sign**   | Wing energy        | How you process emotions — modifies your type's inner world       |
+| **Rising Sign** | Social mask        | How your type presents to strangers before they know the real you |
 
 Your moon sign modifies your Enneagram type's emotional expression the way your wing modifies your core behavior. A Type 8 with a Cancer moon still leads with power, but they feel protective tenderness underneath that others rarely see. A Type 3 with a Scorpio moon doesn't just want admiration — they want it from people they respect, and they can see through flattery instantly.
 
@@ -256,32 +256,32 @@ A **Type 6w7** mixes Saturn (caution, responsibility) with Jupiter (optimism, ad
 
 A **Type 2w3** blends Moon (emotional nurturing) with Sun (visibility, performance). They don't just help — they help visibly. Like a Sun-Moon conjunction, their giving has a public-facing quality. The warmth is real, but it also serves their image.
 
-A **Type 9w1** combines Venus (harmony, peace) with Saturn (discipline, standards). They want everyone to get along, but they have quiet opinions about how things *should* be. Like a Venus-Saturn aspect, there's structure underneath the softness.
+A **Type 9w1** combines Venus (harmony, peace) with Saturn (discipline, standards). They want everyone to get along, but they have quiet opinions about how things _should_ be. Like a Venus-Saturn aspect, there's structure underneath the softness.
 
 A **Type 3w4** merges Sun (achievement, visibility) with Neptune (depth, emotion). They don't just perform — they perform with feeling. Success without authenticity rings hollow for them. A Sun-Neptune aspect creates someone who shines but also searches.
 
 Here's the quick-reference for all wing combinations:
 
-| Wing | Planetary Blend | One-Line Feel |
-|---|---|---|
-| 1w9 | Saturn + Venus | Principled calm — standards held gently |
-| 1w2 | Saturn + Moon | Principled warmth — corrects you because they care |
-| 2w1 | Moon + Saturn | Helpful with standards — gives with expectations |
-| 2w3 | Moon + Sun | Helpful and visible — generosity on display |
-| 3w2 | Sun + Moon | Charming achiever — wins you over while winning |
-| 3w4 | Sun + Neptune | Authentic achiever — success with emotional depth |
-| 4w3 | Neptune + Sun | Creative performer — feelings polished for an audience |
-| 4w5 | Neptune + Mercury | Creative analyst — turns melancholy into insight |
-| 5w4 | Mercury + Neptune | Intellectual with depth — knowledge meets feeling |
-| 5w6 | Mercury + Saturn | Intellectual with caution — knowledge as safety net |
-| 6w5 | Saturn + Mercury | Cautious analyst — thinks through every scenario |
-| 6w7 | Saturn + Jupiter | Cautious adventurer — scans for danger, leaps anyway |
-| 7w6 | Jupiter + Saturn | Adventurer with a safety plan — fun with contingencies |
-| 7w8 | Jupiter + Mars | Adventurer with force — won't just explore, will conquer |
-| 8w7 | Mars + Jupiter | Powerful visionary — assertive and expansive |
-| 8w9 | Mars + Venus | Powerful calm — commands the room without raising their voice |
-| 9w8 | Venus + Mars | Peaceful force — gentle until pushed, then unmovable |
-| 9w1 | Venus + Saturn | Peaceful standards — harmony with quiet convictions |
+| Wing | Planetary Blend   | One-Line Feel                                                 |
+| ---- | ----------------- | ------------------------------------------------------------- |
+| 1w9  | Saturn + Venus    | Principled calm — standards held gently                       |
+| 1w2  | Saturn + Moon     | Principled warmth — corrects you because they care            |
+| 2w1  | Moon + Saturn     | Helpful with standards — gives with expectations              |
+| 2w3  | Moon + Sun        | Helpful and visible — generosity on display                   |
+| 3w2  | Sun + Moon        | Charming achiever — wins you over while winning               |
+| 3w4  | Sun + Neptune     | Authentic achiever — success with emotional depth             |
+| 4w3  | Neptune + Sun     | Creative performer — feelings polished for an audience        |
+| 4w5  | Neptune + Mercury | Creative analyst — turns melancholy into insight              |
+| 5w4  | Mercury + Neptune | Intellectual with depth — knowledge meets feeling             |
+| 5w6  | Mercury + Saturn  | Intellectual with caution — knowledge as safety net           |
+| 6w5  | Saturn + Mercury  | Cautious analyst — thinks through every scenario              |
+| 6w7  | Saturn + Jupiter  | Cautious adventurer — scans for danger, leaps anyway          |
+| 7w6  | Jupiter + Saturn  | Adventurer with a safety plan — fun with contingencies        |
+| 7w8  | Jupiter + Mars    | Adventurer with force — won't just explore, will conquer      |
+| 8w7  | Mars + Jupiter    | Powerful visionary — assertive and expansive                  |
+| 8w9  | Mars + Venus      | Powerful calm — commands the room without raising their voice |
+| 9w8  | Venus + Mars      | Peaceful force — gentle until pushed, then unmovable          |
+| 9w1  | Venus + Saturn    | Peaceful standards — harmony with quiet convictions           |
 
 ## Enneagram Stress and Growth Points During Astrological Transits
 
@@ -318,13 +318,13 @@ For a deeper exploration of these connections, check out [Enneagram Astrology: H
 
 ## Are Astrology and the Enneagram Scientific?
 
-Neither system is scientifically validated to clinical standards. Combining them doesn't make them more empirical.
+Neither system meets clinical-grade scientific validation. That's the honest baseline.
 
-What they offer is pattern recognition. You look at the frameworks, then at yourself, and notice what fits. The danger is confirmation bias. The value is self-awareness.
+But they're not equally positioned. The Enneagram has moderate empirical support: test-retest reliability of 70-85%, meaningful overlap with the Big Five personality traits, and descriptions of core motivations that align with established psychological frameworks like attachment theory and defense mechanisms. Several peer-reviewed studies treat it as a useful personality assessment tool, even if it doesn't meet the bar of something like the MBTI's standardized testing protocols.
 
-The Enneagram has more empirical support than astrology — studies show moderate reliability in personality assessment, and its descriptions of core motivations align with established psychological frameworks. Astrology relies on a different kind of evidence: centuries of observational tradition and personal resonance.
+Astrology relies on a different kind of evidence entirely: centuries of observational tradition, personal resonance, and a premise (celestial positions influence temperament) that mainstream science hasn't validated. Researcher Lynn Roulo, who studies both systems, found **no statistical correlation** between Enneagram type and zodiac sign in her data. The correlations in this article are pattern-based, not empirical.
 
-Use these as lenses, not labels. Test them against your actual experience. Keep what works. Discard what doesn't.
+The real danger with combining these systems is confirmation bias — you see what you want to see. The real value is self-awareness. These frameworks give you language for patterns you already live but haven't named. Test them against your actual experience. If a description doesn't fit, it doesn't fit. The map is not the territory.
 
 ## Mapping Your Full Personality Profile
 
@@ -338,35 +338,9 @@ That's the only test that matters.
 
 **Small experiment:** Pull up your birth chart and identify your Sun sign's ruling planet. Then look at the Enneagram type associated with that planet in the chart above. Even if it's not your core type, notice how that energy shows up in your life. You might discover a pattern you've been living but never named.
 
-<!--
-READER FEEDBACK (2026-03-20)
-
-WHAT'S WORKING:
-- The opening hook is strong. "You've typed yourself twice" immediately tells me you get why I'm here.
-- The "tells" in the reverse lookup section are the best part of the article. "8s push back against authority. 3s outperform it." — those one-liners are sharp and actually help me distinguish types. More of this energy throughout.
-- The three layered examples (Type 4/Scorpio Sun, Type 7/Gemini Moon, Type 1/Libra Rising) are genuinely useful and feel like real people, not textbook descriptions.
-- The reality check after the correlation chart is smart. Preempts the "but I'm a Taurus Type 8" objection.
-
-WHAT COULD BE EXPANDED:
-- The Astrological Houses section feels thin compared to everything else. You give each house one line. Either flesh it out with mini-examples like you did for the zodiac matchups, or trim it to a brief mention and link out. Right now it's in an awkward middle ground — enough to confuse someone who doesn't know houses, not enough to satisfy someone who does.
-- The Wings and Planetary Aspects section only covers 3 of the 18 wing combos. You say "the pattern holds across all 18" but I'm left wanting at least a few more. Maybe add a quick-reference table of all 18 with one-line planet pairings?
-- Missing: What about moon signs and rising signs beyond the three examples? You mention sun/moon/rising in the "How to Read Together" intro but only give one example of each. A brief table or even a general framework ("your moon sign modifies your Enneagram type the way your wing does") would add a lot.
-- The "For relationship insight" bullet under practical applications is interesting but underdeveloped. You mention Mars/Venus and Mercury/Neptune combos but don't go deeper. This could be its own section or at least a small table of common pairings.
-
-WHAT FELT OVERDONE / DUPLICATE:
-- The planetary rulers show up THREE times: once in the main correlation chart (Ruling Planet column), once in the type-by-type breakdown (mentioning each planet), and again in the dedicated Planetary Rulers table. By the third time I'm reading "Neptune dissolves boundaries" I'm skimming. Consider cutting the dedicated planetary table and just referencing the info already in the correlation chart, or making the dedicated table add NEW information (like how to check if that planet is prominent in your chart).
-- The "neither is scientifically validated" disclaimer appears twice — once in the comparison section (line 52) and again in the "Are they scientific?" section (line 280-286). The second instance mostly repeats the first. Merge them or make the second one say something new (like addressing specific criticisms or studies).
-- Type 1's planetary ruler switches between Mercury (in the correlation chart, via Virgo) and Saturn (in the planetary rulers table). This is confusing. Pick one framing or explain why both apply.
-
-WHAT I WANTED THAT WASN'T THERE:
-- A "what if my type and sign contradict each other?" section. You say it's possible to be a Taurus Type 8 but don't explore what that tension looks like in practice. That's exactly the situation a lot of readers will be in and it's the most interesting question.
-- Some mention of how subtypes (self-preservation, social, sexual/one-to-one) might map to astrological concepts. You cover wings but skip subtypes entirely.
-- A personal anecdote or example from someone real. The article is thorough but clinical. One "I'm a Type 6 Sagittarius and here's how that plays out" story would make it land harder.
-
-MINOR:
-- The word count in the schema says 3800 but the article reads longer. Not a content issue but might want to update that.
-- The marquee component in the middle breaks the reading flow a bit. Might work better at the end.
--->
+<div style="overflow: hidden;">
+<MarqueeHorizontal displayList={[{name: 'at a party 🎉', link: '/enneagram-corner/enneagram-types-at-party'}, {name: 'in stress 😰', link: '/enneagram-corner/enneagram-types-in-stress'}, {name: 'religion? 🙏', link: '/enneagram-corner/enneagram-and-religion'}, {name: 'strengths 💪 and weaknesses', link: '/enneagram-corner/enneagram-strengths-and-weaknesses'}, {name: 'communication styles 🙊', link: '/enneagram-corner/enneagram-communication-styles'} ]} />
+</div>
 
 <svelte:head>
 
@@ -429,7 +403,7 @@ MINOR:
         "personality types astrology",
         "enneagram and astrology connection"
       ],
-      "wordCount": 3800,
+      "wordCount": 5200,
       "articleSection": "Enneagram",
       "url": "https://9takes.com/enneagram-corner/astrology-and-the-enneagram"
     },
