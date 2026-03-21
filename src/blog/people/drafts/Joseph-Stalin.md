@@ -4,9 +4,9 @@ meta_title: "Why Stalin Couldn't Trust Anyone — Not Even Himself"
 persona_title: "History's Paranoid Architect"
 description: 'Stalin said he trusted no one, not even himself. His 40,000-book library, midnight purges, and lonely death reveal the terrified man inside the Man of Steel.'
 author: 'DJ Wayne'
-date: '2026-03-10'
+date: '2026-03-21'
 loc: 'https://9takes.com/personality-analysis/Joseph-Stalin'
-lastmod: '2026-03-10'
+lastmod: '2026-03-21'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
@@ -23,7 +23,7 @@ content_quality:
   originality: 9
   overall: 9.0
   letter: A
-  graded_at: '2026-03-10'
+  graded_at: '2026-03-21'
 twitter: ''
 instagram: ''
 tiktok: ''

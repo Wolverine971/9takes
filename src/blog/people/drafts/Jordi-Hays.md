@@ -4,9 +4,9 @@ meta_title: "Why Jordi Hays Can't Stop Building (The Pattern Nobody Talks About)
 persona_title: "Tech's Calculated Showman"
 description: "Inside the mind of TBPN's co-host: how a teacher's kid from California turned spectacle into strategy and built Silicon Valley's daily obsession."
 author: 'DJ Wayne'
-date: '2026-03-16'
+date: '2026-03-21'
 loc: 'https://9takes.com/personality-analysis/Jordi-Hays'
-lastmod: '2026-03-16'
+lastmod: '2026-03-21'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
@@ -26,7 +26,7 @@ content_quality:
   originality: 8.5
   overall: 8.7
   letter: 'B+'
-  graded_at: '2026-03-16'
+  graded_at: '2026-03-21'
 path: src/blog/people/drafts/Jordi-Hays.md
 ---
 

@@ -4,9 +4,9 @@ meta_title: "Why Marcello Hernández Can't Stop Moving (The Psychology Behind th
 persona_title: "SNL's Joyful Parachute"
 description: "Inside Marcello Hernández's psychology: how an immigrant mom's trauma, a COVID depression, and a quit soccer career built comedy's happiest escape artist."
 author: 'DJ Wayne'
-date: '2026-03-15'
+date: '2026-03-21'
 loc: 'https://9takes.com/personality-analysis/Marcello-Hernandez'
-lastmod: '2026-03-15'
+lastmod: '2026-03-21'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
@@ -22,7 +22,7 @@ content_quality:
   originality: 8.5
   overall: 8.5
   letter: 'B+'
-  graded_at: '2026-03-15'
+  graded_at: '2026-03-21'
 wikipedia: 'https://en.wikipedia.org/wiki/Marcello_Hern%C3%A1ndez'
 twitter: 'marcaboricua'
 instagram: 'marcellohdz'

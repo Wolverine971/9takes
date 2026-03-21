@@ -2,7 +2,7 @@
 # Blog Cross-Link Index
 
 _Generated: 2026-03-21_
-_Total Posts Analyzed: 163 (Published: 137, Unpublished: 26)_
+_Total Posts Analyzed: 169 (Published: 137, Unpublished: 32)_
 _Note: Individual type pages (enneagram-type-1 through 9) excluded from link counts_
 
 ---
@@ -11,18 +11,18 @@ _Note: Individual type pages (enneagram-type-1 through 9) excluded from link cou
 
 | Metric | Count |
 |--------|-------|
-| Total posts | 163 |
+| Total posts | 169 |
 | Published posts | 137 |
-| Unpublished posts | 26 |
-| Posts with 0 outgoing links | 33 |
-| Posts with 0 incoming links | 49 |
-| Completely isolated (0 in, 0 out) | 31 |
-| Total internal cross-links | 856 |
-| Average outgoing links per post | 5.3 |
+| Unpublished posts | 32 |
+| Posts with 0 outgoing links | 32 |
+| Posts with 0 incoming links | 48 |
+| Completely isolated (0 in, 0 out) | 30 |
+| Total internal cross-links | 868 |
+| Average outgoing links per post | 5.1 |
 
 ---
 
-## Priority 1: Completely Isolated Posts (31 posts)
+## Priority 1: Completely Isolated Posts (30 posts)
 
 These posts have NO links in or out. Fix these first!
 
@@ -46,7 +46,6 @@ These posts have NO links in or out. Fix these first!
 | Pop Queens: The Personality Types Ruling Music Right Now | `pop-culture/pop-queens-enneagram-analysis.md` | Add 3+ outgoing links |
 | Silicon Valley Power Players: The All-In Pod and the Psychol... | `pop-culture/silicon-valley-power-players-enneagram-analysis.md` | Add 3+ outgoing links |
 | Streaming Royalty: The Personality Types That Built Empires ... | `pop-culture/streaming-royalty-enneagram-analysis.md` | Add 3+ outgoing links |
-| Tech Titans: The Personality Types Building (and Breaking) t... | `pop-culture/tech-titans-enneagram-analysis.md` | Add 3+ outgoing links |
 | The Enneagram | `enneagram/enneagram-vs-personality-frameworks-comparison.md` | Add 3+ outgoing links |
 | The Royal Family: Four Enneagram Types, One Fractured Dynast... | `pop-culture/royal-family-enneagram-analysis.md` | Add 3+ outgoing links |
 | Untitled | `community/societal-ticking-time-bombs-fact-check.md` | Add 3+ outgoing links |
@@ -62,7 +61,7 @@ These posts have NO links in or out. Fix these first!
 
 ---
 
-## Priority 2: Posts with NO Outgoing Links (33 posts)
+## Priority 2: Posts with NO Outgoing Links (32 posts)
 
 These posts don't link to any other content.
 
@@ -99,12 +98,11 @@ These posts don't link to any other content.
 | The Royal Family: Four Enneagram Types, One Fractured Dynast... | `pop-culture/royal-family-enneagram-analysis.md` | 0 |
 | Silicon Valley Power Players: The All-In Pod and the Psychol... | `pop-culture/silicon-valley-power-players-enneagram-analysis.md` | 0 |
 | Streaming Royalty: The Personality Types That Built Empires ... | `pop-culture/streaming-royalty-enneagram-analysis.md` | 0 |
-| Tech Titans: The Personality Types Building (and Breaking) t... | `pop-culture/tech-titans-enneagram-analysis.md` | 0 |
 | US Presidents by Enneagram Type: The Psychology of the Oval ... | `pop-culture/us-presidents-enneagram-analysis.md` | 0 |
 
 ---
 
-## Priority 3: Posts with NO Incoming Links (49 posts)
+## Priority 3: Posts with NO Incoming Links (48 posts)
 
 These posts are "orphaned" - no other content links to them.
 
@@ -249,6 +247,7 @@ Sorted by total connections (incoming + outgoing).
 | 12 | 4 | 8 | Enneagram Dating Guide for Men: Type-Specific Strategies Tha... | `enneagram/enneagram-dating-guide-for-men.md` |
 | 12 | 6 | 6 | Enneagram Personal Growth: Unlock Your Type | `enneagram/enneagram-personal-growth.md` |
 | 12 | 3 | 9 | Why You Keep Sabotaging New Relationships (Your Enneagram Kn... | `enneagram/how-to-navigate-early-relationship-stages.md` |
+| 12 | 6 | 6 | Tech Titans Through the Enneagram: A Series on the Personali... | `pop-culture/tech-titans-enneagram-analysis.md` |
 | 11 | 4 | 7 | Introducing 9takes: Answer First, Then Compare Perspectives | `community/introducing-9takes.md` |
 | 11 | 4 | 7 | Enneagram Mental Health Red Flags: Early Warning Signs for A... | `enneagram/enneagram-mental-health-flags.md` |
 | 11 | 3 | 8 | Enneagram Types Working in Teams | `enneagram/enneagram-types-working-in-teams.md` |
@@ -328,6 +327,12 @@ Sorted by total connections (incoming + outgoing).
 | 2 | 1 | 1 | The Stress Paradox: Why Your Emotional Patterns Outlast Ever... | `enneagram/situations-change-emotions-dont.md` |
 | 2 | 2 | 0 | Influencer Enneagram Types: Why Type 3s Dominate Instagram | `pop-culture/influencer-enneagram-types-instagram.md` |
 | 2 | 0 | 2 | The Kardashian Family Enneagram: How Each Type Built a Billi... | `pop-culture/kardashian-family-enneagram-analysis.md` |
+| 2 | 1 | 1 | The AI Wars: Why Personality Types Determine Who Gets to Bui... | `pop-culture/tech-titans-ai-wars.md` |
+| 2 | 1 | 1 | The Disruptors: Why Type 8s Break Industries and Type 5s Dec... | `pop-culture/tech-titans-disruptors.md` |
+| 2 | 1 | 1 | Founders vs Stewards: The Personality Types That Replace Tec... | `pop-culture/tech-titans-founders-vs-stewards.md` |
+| 2 | 1 | 1 | Tech Leadership by Personality Type: How Each Enneagram Type... | `pop-culture/tech-titans-leadership-styles.md` |
+| 2 | 1 | 1 | The PayPal Mafia: How One Company Produced More Tech Billion... | `pop-culture/tech-titans-paypal-mafia.md` |
+| 2 | 1 | 1 | The Platform Emperors: How Personality Types Shape the Produ... | `pop-culture/tech-titans-platform-emperors.md` |
 | 1 | 0 | 1 | The Intellectual Fortress That Becomes a Prison | `community/fear-triad-intellectual-fortress-or-prison.md` |
 | 1 | 0 | 1 | The Psychology of Epstein | `pop-culture/epstien-research/Jeffrey-Epstein-Psychology-Of-The-Web.md` |
 | 1 | 0 | 1 | Trump | `pop-culture/trump-type-8-vs-biden-type-2.md` |
@@ -362,7 +367,6 @@ Sorted by total connections (incoming + outgoing).
 | 0 | 0 | 0 | The Royal Family: Four Enneagram Types, One Fractured Dynast... | `pop-culture/royal-family-enneagram-analysis.md` |
 | 0 | 0 | 0 | Silicon Valley Power Players: The All-In Pod and the Psychol... | `pop-culture/silicon-valley-power-players-enneagram-analysis.md` |
 | 0 | 0 | 0 | Streaming Royalty: The Personality Types That Built Empires ... | `pop-culture/streaming-royalty-enneagram-analysis.md` |
-| 0 | 0 | 0 | Tech Titans: The Personality Types Building (and Breaking) t... | `pop-culture/tech-titans-enneagram-analysis.md` |
 | 0 | 0 | 0 | US Presidents by Enneagram Type: The Psychology of the Oval ... | `pop-culture/us-presidents-enneagram-analysis.md` |
 
 ---
