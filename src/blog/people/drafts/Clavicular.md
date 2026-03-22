@@ -4,9 +4,9 @@ meta_title: "Inside Clavicular's Mind: The Cheat Code That Consumed Him"
 persona_title: "Looksmaxxing's Hollow Architect"
 description: 'How a boy who struggled with small talk built a $100K/month empire on bone measurements — and destroyed what beauty was supposed to unlock.'
 author: 'DJ Wayne'
-date: '2026-03-21'
+date: '2026-03-22'
 loc: 'https://9takes.com/personality-analysis/Clavicular'
-lastmod: '2026-03-21'
+lastmod: '2026-03-22'
 changefreq: 'monthly'
 priority: '0.6'
 published: false

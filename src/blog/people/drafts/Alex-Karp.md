@@ -4,9 +4,9 @@ meta_title: "Why Palantir's CEO Can't Sit Still (It's Not What You Think)"
 persona_title: "Silicon Valley's Ornery Poet"
 description: "A biracial, dyslexic philosopher who dreamed of spending his life in bed became America's highest-paid CEO. The Enneagram explains how."
 author: 'DJ Wayne'
-date: '2026-03-21'
+date: '2026-03-22'
 loc: 'https://9takes.com/personality-analysis/Alex-Karp'
-lastmod: '2026-03-21'
+lastmod: '2026-03-22'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
