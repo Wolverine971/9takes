@@ -272,7 +272,9 @@ He is, by any measure, an extraordinarily present father — a transformation th
 
 He said that. And he meant: I was a boy in a man's body until 42. I was reckless, drunk, selfish, and brilliant enough to get away with it. Then I held my son and the armor cracked in a place I couldn't patch.
 
-He crossed $100 million and pledged the surplus to charity. <div class="contrast-panel">
+He crossed $100 million and pledged the surplus to charity.
+
+<div class="contrast-panel">
 
 <div class="contrast-left">
 <h4>The Public Galloway</h4>
