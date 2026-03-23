@@ -109,6 +109,7 @@ export const handle: Handle = async ({ event, resolve }) => {
 					method: event.request.method,
 					pathname: event.url.pathname,
 					userAgent,
+					clientIp,
 					isAuthenticated: !!session?.user,
 					anonymousId: anonCookieValue ?? pendingAnonCookieValue
 				});

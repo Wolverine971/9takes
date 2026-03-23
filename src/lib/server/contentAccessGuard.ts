@@ -1,4 +1,6 @@
 // src/lib/server/contentAccessGuard.ts
+import { createHash } from 'node:crypto';
+
 type ProtectedContentRequest = {
 	method: string;
 	pathname: string;
@@ -7,6 +9,7 @@ type ProtectedContentRequest = {
 
 type ContentRequesterInput = ProtectedContentRequest & {
 	anonymousId: string | null;
+	clientIp: string | null;
 	isAuthenticated: boolean;
 };
 
@@ -243,6 +246,7 @@ export function getContentRequester({
 	pathname,
 	userAgent,
 	anonymousId,
+	clientIp,
 	isAuthenticated
 }: ContentRequesterInput): ContentRequester | null {
 	if (!isInspectableContentRequest(method, pathname)) {
@@ -287,7 +291,15 @@ export function getContentRequester({
 	}
 
 	if (!anonymousId) {
-		return null;
+		const bootstrapActorKey = buildAnonymousBootstrapActorKey(clientIp, normalizedUserAgent);
+
+		return {
+			kind: 'anonymous_human',
+			name: 'anonymous_human',
+			actorKey: bootstrapActorKey,
+			actorType: 'anonymous_human',
+			anonymousId: bootstrapActorKey
+		};
 	}
 
 	return {
@@ -406,4 +418,17 @@ function matchBotDefinition<Name extends string>(
 	definitions: BotDefinition<Name>[]
 ): BotDefinition<Name> | null {
 	return definitions.find((definition) => definition.pattern.test(value)) ?? null;
+}
+
+function buildAnonymousBootstrapActorKey(clientIp: string | null, userAgent: string): string {
+	const normalizedIp = clientIp?.trim() || 'unknown';
+	const normalizedUserAgent = userAgent.trim() || 'unknown';
+	const hash = createHash('sha256')
+		.update(normalizedIp)
+		.update('|')
+		.update(normalizedUserAgent)
+		.digest('hex')
+		.slice(0, 24);
+
+	return `bootstrap:${hash}`;
 }

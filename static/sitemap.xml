@@ -1319,6 +1319,12 @@
     <priority>0.7</priority>
 </url>
 <url>
+    <loc>https://9takes.com/pop-culture/tech-titans-ai-wars</loc>
+    <lastmod>2026-03-23T00:00:00.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+</url>
+<url>
     <loc>https://9takes.com/pop-culture/trump-type-8-vs-biden-type-2</loc>
     <lastmod>2026-02-26T00:00:00.000Z</lastmod>
     <changefreq>monthly</changefreq>
@@ -3536,6 +3542,33 @@
     <priority>0.7</priority>
     <image:image>
         <image:loc>https://9takes.com/types/3s/Nancy-Pelosi.webp</image:loc>
+    </image:image>
+</url>
+<url>
+    <loc>https://9takes.com/personality-analysis/Clavicular</loc>
+    <lastmod>2026-03-23T00:00:00.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+        <image:loc>https://9takes.com/types/3s/Clavicular.webp</image:loc>
+    </image:image>
+</url>
+<url>
+    <loc>https://9takes.com/personality-analysis/Dario-Amodei</loc>
+    <lastmod>2026-03-23T00:00:00.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+        <image:loc>https://9takes.com/types/5s/Dario-Amodei.webp</image:loc>
+    </image:image>
+</url>
+<url>
+    <loc>https://9takes.com/personality-analysis/Travis-Kalanick</loc>
+    <lastmod>2026-03-23T00:00:00.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+        <image:loc>https://9takes.com/types/8s/Travis-Kalanick.webp</image:loc>
     </image:image>
 </url>
 <url>

@@ -37,6 +37,7 @@ describe('contentAccessGuard', () => {
 			method: 'GET',
 			pathname: '/enneagram-corner/enneagram-type-9',
 			userAgent: 'ClaudeBot/1.0',
+			clientIp: '203.0.113.1',
 			anonymousId: null,
 			isAuthenticated: false
 		});
@@ -73,6 +74,7 @@ describe('contentAccessGuard', () => {
 			method: 'GET',
 			pathname: '/personality-analysis/scott-galloway',
 			userAgent: 'Mozilla/5.0',
+			clientIp: '203.0.113.9',
 			anonymousId,
 			isAuthenticated: false
 		});
@@ -92,6 +94,7 @@ describe('contentAccessGuard', () => {
 			method: 'GET',
 			pathname: '/how-to-guides/article-1',
 			userAgent: 'Mozilla/5.0',
+			clientIp: '203.0.113.10',
 			anonymousId: 'anon-123',
 			isAuthenticated: false
 		});
@@ -117,6 +120,7 @@ describe('contentAccessGuard', () => {
 			method: 'GET',
 			pathname: '/how-to-guides/article-1',
 			userAgent: 'Mozilla/5.0',
+			clientIp: '203.0.113.10',
 			anonymousId: 'anon-123',
 			isAuthenticated: false
 		});
@@ -146,6 +150,7 @@ describe('contentAccessGuard', () => {
 			method: 'GET',
 			pathname: '/pop-culture/tech-titans-ai-wars',
 			userAgent: 'GPTBot/1.0',
+			clientIp: '203.0.113.11',
 			anonymousId: null,
 			isAuthenticated: false
 		});
@@ -173,5 +178,36 @@ describe('contentAccessGuard', () => {
 	it('exports the expected cookie name and cache policy', () => {
 		expect(CONTENT_ACCESS_ANON_COOKIE_NAME).toBe('9tanon');
 		expect(CONTENT_GUARD_CACHE_CONTROL).toBe('private, no-store');
+	});
+
+	it('uses a stable bootstrap key when no anon cookie exists yet', () => {
+		const firstRequester = getContentRequester({
+			method: 'GET',
+			pathname: '/community/kantian-filters-and-nine-perspectives',
+			userAgent: 'Mozilla/5.0',
+			clientIp: '198.51.100.10',
+			anonymousId: null,
+			isAuthenticated: false
+		});
+		const secondRequester = getContentRequester({
+			method: 'GET',
+			pathname: '/community/fear-triad-intellectual-fortress-or-prison',
+			userAgent: 'Mozilla/5.0',
+			clientIp: '198.51.100.10',
+			anonymousId: null,
+			isAuthenticated: false
+		});
+
+		expect(firstRequester).not.toBeNull();
+		expect(secondRequester).not.toBeNull();
+		if (!firstRequester || !secondRequester) {
+			throw new Error('Expected bootstrap requesters');
+		}
+		if (firstRequester.kind !== 'anonymous_human' || secondRequester.kind !== 'anonymous_human') {
+			throw new Error('Expected anonymous human requesters');
+		}
+
+		expect(firstRequester.actorKey).toBe(secondRequester.actorKey);
+		expect(firstRequester.actorKey.startsWith('bootstrap:')).toBe(true);
 	});
 });
