@@ -230,7 +230,7 @@ In November 2024, a Dublin jury found McGregor civilly liable for sexual assault
 
 This is the part of the story that resists any neat psychological framing. You can map the 8's stress patterns onto the timeline. You can note that the incident occurred during the most destabilized period of his life. But none of that explains it away, and it shouldn't. Some damage doesn't fit into a personality framework. It just sits there, demanding to be reckoned with.
 
-What we can say is this: the faith testimony, the drug testing failures, the civil verdict, the continued controversies — they all coexist. The man saying "God saved me" is the same man whose actions suggest the saving isn't finished.
+What we can say is this: the faith testimony, the missed drug tests, the civil verdict, the continued controversies — they all coexist. The man saying "God saved me" is the same man whose actions suggest the saving isn't finished.
 
 For an 8, publicly saying "I am saved" is still seismic. A man who once said "I fear no man. If you breathe oxygen, I do not fear you" is now saying someone else did for him what he couldn't do alone. That's a structural shift — even if the structure is still shifting.
 

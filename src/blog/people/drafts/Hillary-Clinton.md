@@ -6,7 +6,7 @@ persona_title: "Politics' Iron Administrator"
 author: 'DJ Wayne'
 date: '2024-09-12'
 loc: 'https://9takes.com/personality-analysis/Hillary-Clinton'
-lastmod: '2026-01-17'
+lastmod: '2026-03-23'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
@@ -345,13 +345,19 @@ That's the Type 1 journey: from rigid idealism to nuanced acceptance of complexi
 
 ## Current Events (2025-2026)
 
-In January 2026, House Republicans moved to hold Hillary in contempt of Congress as part of an Epstein investigation.
+In January 2026, House Republicans moved to hold Hillary in contempt of Congress as part of their Epstein investigation. The Clintons initially fought the subpoenas, calling them "legally invalid" and "designed to embarrass political rivals."
 
-Her response: principled defiance. Through her attorney, she stated she "has no personal knowledge of Epstein or Maxwell's criminal activities, never flew on his aircraft, never visited his island, and cannot recall ever speaking to Epstein."
+Then they showed up anyway.
 
-The Clintons called the subpoenas "legally invalid" and "designed to embarrass political rivals," adding: "**Every person has to decide when they have seen or had enough and are ready to fight for this country, its principles and its people.**"
+On February 26, Hillary sat for a six-hour closed-door deposition in Chappaqua, New York. She opened by telling the committee directly: "**You have compelled me to testify, fully aware that I have no knowledge that would assist your investigation, in order to distract attention from President Trump's actions.**"
 
-Whether you read this as righteous resistance or political evasion depends on your perspective. But that language, "fight for this country, its principles and its people," is unmistakably Type 1.
+For six hours, she repeated the same answers. She never met Epstein. She knew Ghislaine Maxwell only as a casual acquaintance. She had no knowledge of their crimes. Near the end, the questioning veered into UFOs and the Pizzagate conspiracy theory. At one point, Rep. Lauren Boebert leaked photos of Clinton mid-deposition to a conservative influencer, forcing a pause.
+
+Afterward, she told reporters: "**I answered every one of their questions as fully as I could.**"
+
+The videos were released on March 2. No evidence of wrongdoing emerged.
+
+Whether you read this as principled cooperation or political theater depends on your perspective. But the pattern is familiar: a Type 1 showing up because she believed she should, enduring the process, and insisting on the record being complete.
 
 ## The Reformer's Unfinished Work
 

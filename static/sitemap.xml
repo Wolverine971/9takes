@@ -1304,6 +1304,15 @@
     </image:image>
 </url>
 <url>
+    <loc>https://9takes.com/pop-culture/masculinity-strength-and-the-enneagram</loc>
+    <lastmod>2026-03-23T00:00:00.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+        <image:loc>https://9takes.com/blogs/shattered-mirror-dark.webp</image:loc>
+    </image:image>
+</url>
+<url>
     <loc>https://9takes.com/pop-culture/parasocial-relationships-enneagram-type</loc>
     <lastmod>2026-02-02T00:00:00.000Z</lastmod>
     <changefreq>monthly</changefreq>
@@ -1327,6 +1336,12 @@
 <url>
     <loc>https://9takes.com/pop-culture/trump-type-8-vs-biden-type-2</loc>
     <lastmod>2026-02-26T00:00:00.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+</url>
+<url>
+    <loc>https://9takes.com/pop-culture/twitter-x-personality-types-toxic</loc>
+    <lastmod>2026-03-23T00:00:00.000Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
 </url>
@@ -1373,15 +1388,6 @@
     <priority>0.7</priority>
     <image:image>
         <image:loc>https://9takes.com/types/7s/John-F-Kennedy.webp</image:loc>
-    </image:image>
-</url>
-<url>
-    <loc>https://9takes.com/personality-analysis/Jack-Dorsey</loc>
-    <lastmod>2024-09-29T00:00:00.000Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-    <image:image>
-        <image:loc>https://9takes.com/types/5s/Jack-Dorsey.webp</image:loc>
     </image:image>
 </url>
 <url>
@@ -2066,15 +2072,6 @@
     <priority>0.7</priority>
     <image:image>
         <image:loc>https://9takes.com/types/2s/Harry-Styles.webp</image:loc>
-    </image:image>
-</url>
-<url>
-    <loc>https://9takes.com/personality-analysis/Hillary-Clinton</loc>
-    <lastmod>2026-01-17T00:00:00.000Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-    <image:image>
-        <image:loc>https://9takes.com/types/1s/Hillary-Clinton.webp</image:loc>
     </image:image>
 </url>
 <url>
@@ -3077,15 +3074,6 @@
     </image:image>
 </url>
 <url>
-    <loc>https://9takes.com/personality-analysis/PewDiePie</loc>
-    <lastmod>2026-02-20T00:00:00.000Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-    <image:image>
-        <image:loc>https://9takes.com/types/5s/PewDiePie.webp</image:loc>
-    </image:image>
-</url>
-<url>
     <loc>https://9takes.com/personality-analysis/Post-Malone</loc>
     <lastmod>2026-02-20T00:00:00.000Z</lastmod>
     <changefreq>monthly</changefreq>
@@ -3546,7 +3534,7 @@
 </url>
 <url>
     <loc>https://9takes.com/personality-analysis/Clavicular</loc>
-    <lastmod>2026-03-23T00:00:00.000Z</lastmod>
+    <lastmod>2026-03-22T00:00:00.000Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -3560,6 +3548,33 @@
     <priority>0.7</priority>
     <image:image>
         <image:loc>https://9takes.com/types/5s/Dario-Amodei.webp</image:loc>
+    </image:image>
+</url>
+<url>
+    <loc>https://9takes.com/personality-analysis/Hillary-Clinton</loc>
+    <lastmod>2026-03-23T00:00:00.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+        <image:loc>https://9takes.com/types/1s/Hillary-Clinton.webp</image:loc>
+    </image:image>
+</url>
+<url>
+    <loc>https://9takes.com/personality-analysis/Jack-Dorsey</loc>
+    <lastmod>2026-03-23T00:00:00.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+        <image:loc>https://9takes.com/types/5s/Jack-Dorsey.webp</image:loc>
+    </image:image>
+</url>
+<url>
+    <loc>https://9takes.com/personality-analysis/PewDiePie</loc>
+    <lastmod>2026-03-23T00:00:00.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+        <image:loc>https://9takes.com/types/5s/PewDiePie.webp</image:loc>
     </image:image>
 </url>
 <url>

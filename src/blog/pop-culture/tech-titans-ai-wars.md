@@ -55,12 +55,12 @@ This isn't a technology race. It's a personality collision.
 
 ## The AI War Personality Map
 
-| Leader                                         | Enneagram Type         | Core Drive            | AI Philosophy                              | Greatest Fear     | Company   |
-| ---------------------------------------------- | ---------------------- | --------------------- | ------------------------------------------ | ----------------- | --------- |
-| [Sam Altman](/personality-analysis/Sam-Altman) | Type 4 - Individualist | Unique significance   | Build AGI, be the one who does it          | Being ordinary    | OpenAI    |
-| Dario Amodei                                   | Type 5 - Investigator  | Mastery through rigor | Build AI safely through deep understanding | Being incompetent | Anthropic |
-| [Elon Musk](/personality-analysis/Elon-Musk)   | Type 5 - Investigator  | Decoding all systems  | Control AI or build a competing one        | Being useless     | xAI       |
-| Mark Zuckerberg                                | Type 5 - Investigator  | Systems at scale      | Distribute AI to everyone                  | Being locked out  | Meta AI   |
+| Leader                                                   | Enneagram Type         | Core Drive            | AI Philosophy                              | Greatest Fear     | Company   |
+| -------------------------------------------------------- | ---------------------- | --------------------- | ------------------------------------------ | ----------------- | --------- |
+| [Sam Altman](/personality-analysis/Sam-Altman)           | Type 4 - Individualist | Unique significance   | Build AGI, be the one who does it          | Being ordinary    | OpenAI    |
+| [Dario Amodei](/personality-analysis/Dario-Amodei)       | Type 5 - Investigator  | Mastery through rigor | Build AI safely through deep understanding | Being incompetent | Anthropic |
+| [Elon Musk](/personality-analysis/Elon-Musk)             | Type 5 - Investigator  | Decoding all systems  | Control AI or build a competing one        | Being useless     | xAI       |
+| [Mark Zuckerberg](/personality-analysis/Mark-Zuckerberg) | Type 5 - Investigator  | Systems at scale      | Distribute AI to everyone                  | Being locked out  | Meta AI   |
 
 ## Sam Altman: The Type 4 Building His Magnum Opus
 
@@ -265,7 +265,7 @@ The AI industry has a personality monoculture. The people building the most huma
 The future of AI isn't being shaped by technology. It's being shaped by the psychological wiring of a handful of people who are brilliant at systems and mediocre at people. Understanding their types isn't gossip. It's the closest thing we have to a user manual for what's coming.
 
 <div style="text-align: center; margin: 2rem 0;">
-<p><i>This post is part of the <a href="/pop-culture/tech-titans-enneagram-analysis">Tech Titans Through the Enneagram</a> series.</i></p>
+<p><i>This post is part of the Tech Titans Through the Enneagram series.</i></p>
 </div>
 
 ## Rabbit Holes Worth Exploring
