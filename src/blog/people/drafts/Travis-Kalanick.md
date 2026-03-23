@@ -4,9 +4,9 @@ meta_title: 'Why Travis Kalanick Destroyed the Thing He Built (The Pattern No On
 persona_title: "Tech's Armored Disruptor"
 description: 'Travis Kalanick built Uber into a $70B empire then lost it all. The Enneagram reveals the pattern behind his rise, his fall, and his silent comeback.'
 author: 'DJ Wayne'
-date: '2026-03-22'
+date: '2026-03-23'
 loc: 'https://9takes.com/personality-analysis/Travis-Kalanick'
-lastmod: '2026-03-22'
+lastmod: '2026-03-23'
 changefreq: 'monthly'
 priority: '0.6'
 published: false

@@ -4,9 +4,9 @@ meta_title: "Why Dario Amodei Can't Stop Building the Thing He Fears Most"
 persona_title: "AI's Reluctant Prometheus"
 description: "A four-year gap between his father's death and a medical breakthrough drives everything Dario Amodei builds and fears. Here's his personality decoded."
 author: 'DJ Wayne'
-date: '2026-03-21'
+date: '2026-03-23'
 loc: 'https://9takes.com/personality-analysis/Dario-Amodei'
-lastmod: '2026-03-21'
+lastmod: '2026-03-23'
 changefreq: 'monthly'
 priority: '0.6'
 published: false

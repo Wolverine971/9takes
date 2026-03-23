@@ -1307,6 +1307,39 @@ export type Database = {
           },
         ]
       }
+      content_access_events: {
+        Row: {
+          actor_key: string
+          actor_name: string
+          actor_type: string
+          created_at: string
+          id: number
+          path: string
+          request_kind: string
+          requested_at: string
+        }
+        Insert: {
+          actor_key: string
+          actor_name: string
+          actor_type: string
+          created_at?: string
+          id?: number
+          path: string
+          request_kind: string
+          requested_at?: string
+        }
+        Update: {
+          actor_key?: string
+          actor_name?: string
+          actor_type?: string
+          created_at?: string
+          id?: number
+          path?: string
+          request_kind?: string
+          requested_at?: string
+        }
+        Relationships: []
+      }
       content_community: {
         Row: {
           author: string | null
@@ -3849,6 +3882,24 @@ export type Database = {
               isSetofReturn: true
             }
           }
+      record_content_access_event: {
+        Args: {
+          p_actor_key: string
+          p_actor_name: string
+          p_actor_type: string
+          p_path: string
+          p_request_kind?: string
+          p_requested_at?: string
+        }
+        Returns: {
+          total_10m: number
+          total_1h: number
+          total_24h: number
+          unique_10m: number
+          unique_1h: number
+          unique_24h: number
+        }[]
+      }
       record_page_analytics_ping: {
         Args: {
           p_ended_at?: string

@@ -6,8 +6,6 @@ import matter from 'gray-matter';
 
 import type { PageServerLoad } from './$types';
 
-// Example: 5 minutes in production
-const MAX_AGE = 60 * 5;
 const MAX_POSTS = 6;
 const RAW_ENNEAGRAM_MODULES = import.meta.glob(`/src/blog/enneagram/**/*.{md,svx,svelte.md}`, {
 	query: '?raw',
@@ -93,15 +91,12 @@ const loadPosts = async (): Promise<App.BlogPost[]> => {
 };
 
 export const load: PageServerLoad = async ({ params, setHeaders }) => {
-	// 1. Set HTTP Cache-Control headers. In production, allow a 5-minute cache
 	if (!dev) {
 		setHeaders({
-			'Cache-Control': `public, max-age=${MAX_AGE}`
-			// optional: you could also add `s-maxage` or `stale-while-revalidate`
-			// 'Cache-Control': `public, s-maxage=${MAX_AGE}, stale-while-revalidate=300`
+			// Keep article requests uncached so hooks.server can inspect every fetch.
+			'Cache-Control': 'private, no-store'
 		});
 	} else {
-		// In dev mode, disable caching so changes appear instantly
 		setHeaders({
 			'Cache-Control': 'no-store'
 		});
