@@ -105,6 +105,7 @@ export const famousTypes: { [index: number]: { name: string; link: boolean; hasI
 		{ name: 'Cleopatra', link: false, hasImage: false, lastmod: '2025-06-25', personaTitle: null, contentGrade: null },
 		{ name: 'Corina-Conf', link: false, hasImage: false, lastmod: '2025-06-25', personaTitle: null, contentGrade: null },
 		{ name: 'Dalton-Cadwell', link: false, hasImage: false, lastmod: '2025-06-25', personaTitle: null, contentGrade: null },
+		{ name: 'Gavin-Newsom', link: false, hasImage: false, lastmod: '2026-03-22', personaTitle: 'California\'s Polished Shapeshifter', contentGrade: 8.8 },
 		{ name: 'Gigi-Hadid', link: false, hasImage: false, lastmod: '2025-06-25', personaTitle: null, contentGrade: null },
 		{ name: 'Jackson-Wang', link: false, hasImage: false, lastmod: '2025-06-25', personaTitle: null, contentGrade: null },
 		{ name: 'James-Charles-Lifestyle', link: false, hasImage: false, lastmod: '2025-06-25', personaTitle: null, contentGrade: null },
@@ -276,6 +277,7 @@ export const famousTypes: { [index: number]: { name: string; link: boolean; hasI
 		{ name: 'Lele-Pons', link: false, hasImage: false, lastmod: '2025-06-25', personaTitle: null, contentGrade: null },
 		{ name: 'Marie-Antoinette', link: false, hasImage: false, lastmod: '2025-06-25', personaTitle: null, contentGrade: null },
 		{ name: 'Markiplier', link: false, hasImage: false, lastmod: '2025-06-25', personaTitle: null, contentGrade: null },
+		{ name: 'Reid-Hoffman', link: false, hasImage: false, lastmod: '2026-03-22', personaTitle: 'Silicon Valley\'s Restless Philosopher', contentGrade: 8.8 },
 		{ name: 'Spencer-X', link: false, hasImage: false, lastmod: '2025-06-25', personaTitle: null, contentGrade: null },
 		{ name: 'Steve-Irwin', link: false, hasImage: false, lastmod: '2025-06-25', personaTitle: null, contentGrade: null },
 		{ name: 'Tana-Mongeau', link: false, hasImage: false, lastmod: '2025-06-25', personaTitle: null, contentGrade: null }
@@ -316,10 +318,12 @@ export const famousTypes: { [index: number]: { name: string; link: boolean; hasI
 		{ name: 'Idris-Elba', link: false, hasImage: false, lastmod: '2025-06-25', personaTitle: null, contentGrade: null },
 		{ name: 'Jenna-Marbles', link: false, hasImage: false, lastmod: '2025-06-25', personaTitle: null, contentGrade: null },
 		{ name: 'Kabib', link: false, hasImage: false, lastmod: '2025-06-25', personaTitle: null, contentGrade: null },
+		{ name: 'Kara-Swisher', link: false, hasImage: false, lastmod: '2026-03-22', personaTitle: 'Tech\'s Unapologetic Inquisitor', contentGrade: 8.9 },
 		{ name: 'Katharine-Hepburn', link: false, hasImage: false, lastmod: '2025-06-25', personaTitle: null, contentGrade: null },
 		{ name: 'Lisa-Koshy', link: false, hasImage: false, lastmod: '2025-06-25', personaTitle: null, contentGrade: null },
 		{ name: 'Lizzo', link: false, hasImage: false, lastmod: '2025-06-25', personaTitle: null, contentGrade: null },
 		{ name: 'Morgan-Wallen', link: false, hasImage: false, lastmod: '2025-06-25', personaTitle: null, contentGrade: null },
+		{ name: 'Scott-Galloway', link: false, hasImage: false, lastmod: '2026-03-22', personaTitle: 'Academia\'s Tender Brawler', contentGrade: 8.9 },
 		{ name: 'Sean-Connery', link: false, hasImage: false, lastmod: '2025-06-25', personaTitle: null, contentGrade: null },
 		{ name: 'Sean-Penn', link: false, hasImage: false, lastmod: '2025-06-25', personaTitle: null, contentGrade: null }
 	],

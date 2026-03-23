@@ -17,7 +17,7 @@ export const load: PageLoad = async ({ params }) => {
 
 	const post = await match?.resolver?.();
 
-	if (!post) {
+	if (!post || !post.metadata.published) {
 		throw error(404, {
 			message: `Post not found: ${params.slug}`
 		});

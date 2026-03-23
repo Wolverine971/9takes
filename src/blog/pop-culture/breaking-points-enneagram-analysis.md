@@ -3,9 +3,9 @@ title: "Breaking Points: How a Type 1 and a Type 7 Built Media's Most Unlikely P
 meta_title: 'Krystal Ball & Saagar Enjeti Enneagram Types: Breaking Points Psychology'
 description: 'A left populist and a right populist built the biggest independent news show in America. Their Enneagram types reveal why this partnership works when nothing else in media does.'
 author: 'DJ Wayne'
-date: '2026-03-04'
+date: '2026-03-22'
 loc: 'https://9takes.com/pop-culture/breaking-points-enneagram-analysis'
-lastmod: '2026-03-04'
+lastmod: '2026-03-22'
 changefreq: 'monthly'
 priority: '0.6'
 published: true

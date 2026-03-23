@@ -62,6 +62,10 @@ There are two ways to read that sentence. The first is resilience — a child le
 
 "There's not a day that goes by I don't think about my dad."
 
+Years later, when her own son turned five, Swisher had a revelation. "I don't remember a lot of my father," she told Tim Ferriss. "You remember little snatches and memories." But watching her son at that age, she realized: "He knew me incredibly well at 5. We were very close. We had conversations." She paused. "So I must have had that and I don't remember it." She has said she's always wanted to get hypnotized to recover those memories but isn't sure it would work.
+
+The absence of the memory is almost worse than the loss. She doesn't know what she lost. She only knows it was everything.
+
 Her family moved from Long Island to Princeton, New Jersey. She was the middle child, the only daughter between two brothers. Her mother, who had worked at the department store Bonwit Teller and later ran her own boutique, called Kara her "greatest disappointment in regard to fashion." The comment is funny, but it's also revealing: even as a girl, Swisher was already too much of something for the people around her to comfortably hold.
 
 "Why? Why? Why was my favorite word."
@@ -106,7 +110,7 @@ Her approach is the opposite of flattery. Tim Ferriss described it: instead of a
 
 "I treat them like people, not potentates — imagining every day they have problems like I do, and I treat the president the same way I would a janitor that I'm interviewing."
 
-She has said she's best as a solo operator. That she had a sense, even early on, that she had more talent than most people around her. "I'm not more experienced than some guys, but I'm going to be bigger than they are someday." There is zero self-deprecation in Kara Swisher's operating system. She knows she's good and doesn't waste time pretending otherwise.
+She has said she's best as a solo operator. That she had a sense, even early on, that she had more talent than most people around her. "I'm not more experienced than some guys, but I'm going to be bigger than they are someday." When someone once told her she was "too confident," her response was immediate: "I'm not too confident. I'm fantastic." There is zero self-deprecation in Kara Swisher's operating system.
 
 The bosses who worked best for her were forthright and clear. "People who are sensitive probably don't do as well with me. But I'm not a rude person. It's never personal."
 
@@ -190,7 +194,9 @@ She waited until she was disappointed. The book's real engine isn't anger. It's 
 
 She coined the term "man-boys" for the founders who accumulated world-altering power without the emotional development to wield it. "What I hate is persistent puerile behavior and lack of care about the pain it causes, qualities too often tinged with odd personal grievance and deep-seated insecurity."
 
-The line could describe anyone. But coming from Swisher, it carries a specific charge: she recognizes insecurity because she has spent a lifetime converting her own into fuel. She recognizes grievance because she has her own. The difference, in her accounting, is that she channels hers into accountability rather than avoidance.
+The line could describe anyone. But coming from Swisher, it carries a specific charge: she recognizes insecurity because she has spent a lifetime converting her own into fuel. She recognizes grievance because she has her own. The difference, in her accounting, is that she channels hers into accountability rather than avoidance. "Some of them have stayed true to the people they are," she told Barry Ritholtz. "Others have been warped by money."
+
+And then there's the line that should be on a plaque somewhere: "Data is people." She said it the way someone says _Soylent Green is people_ — same cadence, same horror, same point. The companies "collect all the money and have none of the responsibility."
 
 "We're going to change the world. We're going to make the world a better place. We're going to flatten organizations. We're going to bring education to everybody," she said on NPR, summarizing what tech leaders had promised. They talked like change-makers "in ways you never hear from Wall Street or pharmaceutical executives."
 
