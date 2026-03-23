@@ -1,7 +1,7 @@
 <!-- docs/BLOG-CROSSLINK-INDEX.md -->
 # Blog Cross-Link Index
 
-_Generated: 2026-03-21_
+_Generated: 2026-03-22_
 _Total Posts Analyzed: 169 (Published: 137, Unpublished: 32)_
 _Note: Individual type pages (enneagram-type-1 through 9) excluded from link counts_
 
@@ -14,15 +14,15 @@ _Note: Individual type pages (enneagram-type-1 through 9) excluded from link cou
 | Total posts | 169 |
 | Published posts | 137 |
 | Unpublished posts | 32 |
-| Posts with 0 outgoing links | 32 |
-| Posts with 0 incoming links | 48 |
-| Completely isolated (0 in, 0 out) | 30 |
-| Total internal cross-links | 868 |
+| Posts with 0 outgoing links | 31 |
+| Posts with 0 incoming links | 47 |
+| Completely isolated (0 in, 0 out) | 29 |
+| Total internal cross-links | 870 |
 | Average outgoing links per post | 5.1 |
 
 ---
 
-## Priority 1: Completely Isolated Posts (30 posts)
+## Priority 1: Completely Isolated Posts (29 posts)
 
 These posts have NO links in or out. Fix these first!
 
@@ -33,7 +33,6 @@ These posts have NO links in or out. Fix these first!
 | Breaking Points: How a Type 1 and a Type 7 Built Media | `pop-culture/breaking-points-enneagram-analysis.md` | Add 3+ outgoing links |
 | Cancel Culture by Enneagram Type: Who Cancels and Who Gets C... | `pop-culture/cancel-culture-enneagram-type.md` | Add 3+ outgoing links |
 | Comedy Kings: Why the Funniest Men Alive Are Wired Completel... | `pop-culture/comedy-kings-enneagram-analysis.md` | Add 3+ outgoing links |
-| Depp vs Heard: A Type 4 and a Type 3 in the Trial of the Cen... | `pop-culture/depp-vs-heard-enneagram-analysis.md` | Add 3+ outgoing links |
 | Hollywood Heartthrobs: Why the Men Women Obsess Over Are Wir... | `pop-culture/hollywood-heartthrobs-enneagram-analysis.md` | Add 3+ outgoing links |
 | Jeffrey Epstein | `pop-culture/epstein-web-of-manipulation.md` | Add 3+ outgoing links |
 | Jeffrey Epstein: The Dark Helper - An Enneagram Type 2 Analy... | `pop-culture/epstien-research/Jeffrey-Epstein-citations.md` | Add 3+ outgoing links |
@@ -61,7 +60,7 @@ These posts have NO links in or out. Fix these first!
 
 ---
 
-## Priority 2: Posts with NO Outgoing Links (32 posts)
+## Priority 2: Posts with NO Outgoing Links (31 posts)
 
 These posts don't link to any other content.
 
@@ -76,7 +75,6 @@ These posts don't link to any other content.
 | Breaking Points: How a Type 1 and a Type 7 Built Media | `pop-culture/breaking-points-enneagram-analysis.md` | 0 |
 | Cancel Culture by Enneagram Type: Who Cancels and Who Gets C... | `pop-culture/cancel-culture-enneagram-type.md` | 0 |
 | Comedy Kings: Why the Funniest Men Alive Are Wired Completel... | `pop-culture/comedy-kings-enneagram-analysis.md` | 0 |
-| Depp vs Heard: A Type 4 and a Type 3 in the Trial of the Cen... | `pop-culture/depp-vs-heard-enneagram-analysis.md` | 0 |
 | Jeffrey Epstein | `pop-culture/epstein-web-of-manipulation.md` | 0 |
 | Jeffrey Epstein: The Dark Helper - An Enneagram Type 2 Analy... | `pop-culture/epstien-research/Jeffrey-Epstein-citations.md` | 0 |
 | Untitled | `pop-culture/epstien-research/Jeffrey-Epstein-luring-tactics.md` | 0 |
@@ -102,7 +100,7 @@ These posts don't link to any other content.
 
 ---
 
-## Priority 3: Posts with NO Incoming Links (48 posts)
+## Priority 3: Posts with NO Incoming Links (47 posts)
 
 These posts are "orphaned" - no other content links to them.
 
@@ -121,10 +119,10 @@ These posts are "orphaned" - no other content links to them.
 | Why the Next Thing Won | `enneagram/why-the-next-thing-wont-fix-it-type-7.md` | 5 |
 | Kant Said You | `community/kantian-filters-and-nine-perspectives.md` | 3 |
 | The Bible Doesn | `community/questions-are-the-engine-of-moral-awakening.md` | 2 |
+| Depp vs Heard: Why a Type 4 and a Type 3 Were Built to Destr... | `pop-culture/depp-vs-heard-enneagram-analysis.md` | 2 |
 | The Kardashian Family Enneagram: How Each Type Built a Billi... | `pop-culture/kardashian-family-enneagram-analysis.md` | 2 |
 | The Intellectual Fortress That Becomes a Prison | `community/fear-triad-intellectual-fortress-or-prison.md` | 1 |
 | The Psychology of Epstein | `pop-culture/epstien-research/Jeffrey-Epstein-Psychology-Of-The-Web.md` | 1 |
-| Trump | `pop-culture/trump-type-8-vs-biden-type-2.md` | 1 |
 | Why World Leaders Can | `pop-culture/world-leaders-enneagram-personality-dynamics.md` | 1 |
 
 ---
@@ -139,8 +137,8 @@ These posts are "orphaned" - no other content links to them.
 | 49 | 8 | Why Nobody Understands You (It | `enneagram/enneagram-communication-styles.md` |
 | 32 | 12 | The Party Test: What Your Social Style Reveals About Your Ty... | `enneagram/enneagram-types-at-party.md` |
 | 31 | 8 | Why They Ghosted You (Based on Their Enneagram Type) | `enneagram/enneagram-types-being-ghosted.md` |
+| 30 | 9 | Find Your Enneagram Type in 10 Minutes (4 Simple Steps) | `enneagram/beginners-guide-to-determining-your-enneagram-type.md` |
 | 30 | 13 | How Each Enneagram Type Self-Sabotages Success (And How to S... | `enneagram/how-each-enneagram-type-self-sabotages-success.md` |
-| 29 | 9 | Find Your Enneagram Type in 10 Minutes (4 Simple Steps) | `enneagram/beginners-guide-to-determining-your-enneagram-type.md` |
 | 29 | 15 | Enneagram Types in Relationships: How Each Type Loves (And W... | `enneagram/enneagram-types-in-relationships.md` |
 | 27 | 34 | What | `enneagram/enneagram-tldr.md` |
 | 26 | 6 | Your Type | `enneagram/enneagram-strengths-and-weaknesses.md` |
@@ -205,9 +203,9 @@ Sorted by total connections (incoming + outgoing).
 | 44 | 32 | 12 | The Party Test: What Your Social Style Reveals About Your Ty... | `enneagram/enneagram-types-at-party.md` |
 | 44 | 29 | 15 | Enneagram Types in Relationships: How Each Type Loves (And W... | `enneagram/enneagram-types-in-relationships.md` |
 | 43 | 30 | 13 | How Each Enneagram Type Self-Sabotages Success (And How to S... | `enneagram/how-each-enneagram-type-self-sabotages-success.md` |
+| 39 | 30 | 9 | Find Your Enneagram Type in 10 Minutes (4 Simple Steps) | `enneagram/beginners-guide-to-determining-your-enneagram-type.md` |
 | 39 | 21 | 18 | The Enneagram and Mental Illness: Understand Each Type | `enneagram/enneagram-and-mental-illness.md` |
 | 39 | 31 | 8 | Why They Ghosted You (Based on Their Enneagram Type) | `enneagram/enneagram-types-being-ghosted.md` |
-| 38 | 29 | 9 | Find Your Enneagram Type in 10 Minutes (4 Simple Steps) | `enneagram/beginners-guide-to-determining-your-enneagram-type.md` |
 | 36 | 24 | 12 | Red Flags You Are Dating Each Enneagram Type (And What to Do... | `enneagram/red-flags-dating-each-enneagram-type.md` |
 | 33 | 22 | 11 | How Each Enneagram Type Manipulates (And How to Spot It) | `enneagram/how-each-enneagram-type-manipulates.md` |
 | 32 | 26 | 6 | Your Type | `enneagram/enneagram-strengths-and-weaknesses.md` |
@@ -325,6 +323,7 @@ Sorted by total connections (incoming + outgoing).
 | 2 | 0 | 2 | The Bible Doesn | `community/questions-are-the-engine-of-moral-awakening.md` |
 | 2 | 1 | 1 | Enneagram First Impression Cheat Sheet: Instant Connection G... | `enneagram/first-impression-cheat-sheet.md` |
 | 2 | 1 | 1 | The Stress Paradox: Why Your Emotional Patterns Outlast Ever... | `enneagram/situations-change-emotions-dont.md` |
+| 2 | 0 | 2 | Depp vs Heard: Why a Type 4 and a Type 3 Were Built to Destr... | `pop-culture/depp-vs-heard-enneagram-analysis.md` |
 | 2 | 2 | 0 | Influencer Enneagram Types: Why Type 3s Dominate Instagram | `pop-culture/influencer-enneagram-types-instagram.md` |
 | 2 | 0 | 2 | The Kardashian Family Enneagram: How Each Type Built a Billi... | `pop-culture/kardashian-family-enneagram-analysis.md` |
 | 2 | 1 | 1 | The AI Wars: Why Personality Types Determine Who Gets to Bui... | `pop-culture/tech-titans-ai-wars.md` |
@@ -333,9 +332,9 @@ Sorted by total connections (incoming + outgoing).
 | 2 | 1 | 1 | Tech Leadership by Personality Type: How Each Enneagram Type... | `pop-culture/tech-titans-leadership-styles.md` |
 | 2 | 1 | 1 | The PayPal Mafia: How One Company Produced More Tech Billion... | `pop-culture/tech-titans-paypal-mafia.md` |
 | 2 | 1 | 1 | The Platform Emperors: How Personality Types Shape the Produ... | `pop-culture/tech-titans-platform-emperors.md` |
+| 2 | 1 | 1 | Trump | `pop-culture/trump-type-8-vs-biden-type-2.md` |
 | 1 | 0 | 1 | The Intellectual Fortress That Becomes a Prison | `community/fear-triad-intellectual-fortress-or-prison.md` |
 | 1 | 0 | 1 | The Psychology of Epstein | `pop-culture/epstien-research/Jeffrey-Epstein-Psychology-Of-The-Web.md` |
-| 1 | 0 | 1 | Trump | `pop-culture/trump-type-8-vs-biden-type-2.md` |
 | 1 | 1 | 0 | Twitter/X Personality Types: Why It | `pop-culture/twitter-x-personality-types-toxic.md` |
 | 1 | 0 | 1 | Why World Leaders Can | `pop-culture/world-leaders-enneagram-personality-dynamics.md` |
 | 0 | 0 | 0 | Untitled | `community/societal-ticking-time-bombs-fact-check.md` |
@@ -345,7 +344,6 @@ Sorted by total connections (incoming + outgoing).
 | 0 | 0 | 0 | Breaking Points: How a Type 1 and a Type 7 Built Media | `pop-culture/breaking-points-enneagram-analysis.md` |
 | 0 | 0 | 0 | Cancel Culture by Enneagram Type: Who Cancels and Who Gets C... | `pop-culture/cancel-culture-enneagram-type.md` |
 | 0 | 0 | 0 | Comedy Kings: Why the Funniest Men Alive Are Wired Completel... | `pop-culture/comedy-kings-enneagram-analysis.md` |
-| 0 | 0 | 0 | Depp vs Heard: A Type 4 and a Type 3 in the Trial of the Cen... | `pop-culture/depp-vs-heard-enneagram-analysis.md` |
 | 0 | 0 | 0 | Jeffrey Epstein | `pop-culture/epstein-web-of-manipulation.md` |
 | 0 | 0 | 0 | Jeffrey Epstein: The Dark Helper - An Enneagram Type 2 Analy... | `pop-culture/epstien-research/Jeffrey-Epstein-citations.md` |
 | 0 | 0 | 0 | Untitled | `pop-culture/epstien-research/Jeffrey-Epstein-luring-tactics.md` |

@@ -5,6 +5,7 @@
 	import { browser } from '$app/environment';
 	import TableOfContents from '$lib/components/blog/TableOfContents.svelte';
 	import PopCard from '$lib/components/atoms/PopCard.svelte';
+	import PopCardGroup from '$lib/components/atoms/PopCardGroup.svelte';
 	import type { PageData } from './$types';
 	import type { Component } from 'svelte';
 	import BlogPageHead from '$lib/components/blog/BlogPageHead.svelte';
@@ -107,7 +108,11 @@
 		</div>
 	</div>
 
-	{#if data?.frontmatter?.pic}
+	{#if data?.frontmatter?.picGroup}
+		<div class="featured-image" class:dark-image={isDarkContent}>
+			<PopCardGroup people={data.frontmatter.picGroup} />
+		</div>
+	{:else if data?.frontmatter?.pic}
 		<div class="featured-image" class:dark-image={isDarkContent}>
 			<PopCard
 				image={`/blogs/${data?.frontmatter?.pic}.webp`}
