@@ -1,4 +1,5 @@
 <!-- docs/research/tyler-perry-research.md -->
+
 # Tyler Perry Research
 
 ## 1. Faith / Christianity

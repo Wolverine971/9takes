@@ -12,8 +12,8 @@
 
 https://docs.google.com/document/d/1G4U6YqqOpmxc0_hD8u1JIBpwgl0kklmW8znFN3yszqE/edit?tab=t.0
 
-cwebp "twitter-toxic-psychology.png" -o "twitter-toxic-psychology.webp"
-cwebp -sns 70 -f 50 -size 20000 "twitter-toxic-psychology.webp" -o "./s-twitter-toxic-psychology.webp"
+cwebp "Joe-Biden.png" -o "Joe-Biden.webp"
+cwebp -sns 70 -f 50 -size 20000 "Joe-Biden.webp" -o "./s-Joe-Biden.webp"
 
 <!-- find missing links
 find-markdown.bat C:\Users\djway\Desktop\svelte\9takes\src\blog\people -->
@@ -32,7 +32,6 @@ src/blog/community/memetic-comments.md
 src/blog/people/drafts/Howard-Stern.md
 src/blog/people/drafts/Tom-Holland.md
 src/blog/people/drafts/Conor-McGregor.md
-
 
 Miley-Cyrus
 

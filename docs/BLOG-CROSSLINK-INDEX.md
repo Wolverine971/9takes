@@ -2,7 +2,7 @@
 # Blog Cross-Link Index
 
 _Generated: 2026-03-24_
-_Total Posts Analyzed: 170 (Published: 141, Unpublished: 29)_
+_Total Posts Analyzed: 171 (Published: 141, Unpublished: 30)_
 _Note: Individual type pages (enneagram-type-1 through 9) excluded from link counts_
 
 ---
@@ -11,24 +11,25 @@ _Note: Individual type pages (enneagram-type-1 through 9) excluded from link cou
 
 | Metric | Count |
 |--------|-------|
-| Total posts | 170 |
+| Total posts | 171 |
 | Published posts | 141 |
-| Unpublished posts | 29 |
-| Posts with 0 outgoing links | 31 |
-| Posts with 0 incoming links | 46 |
-| Completely isolated (0 in, 0 out) | 27 |
+| Unpublished posts | 30 |
+| Posts with 0 outgoing links | 32 |
+| Posts with 0 incoming links | 47 |
+| Completely isolated (0 in, 0 out) | 28 |
 | Total internal cross-links | 871 |
 | Average outgoing links per post | 5.1 |
 
 ---
 
-## Priority 1: Completely Isolated Posts (27 posts)
+## Priority 1: Completely Isolated Posts (28 posts)
 
 These posts have NO links in or out. Fix these first!
 
 | Post Title | Path | Action |
 |------------|------|--------|
 | 3 Societal Ticking Time Bombs Nobody Is Connecting | `community/societal-ticking-time-bombs.md` | Add 3+ outgoing links |
+| Alex Cooper vs Alix Earle: Why the Mentor-Protegee Pipeline ... | `pop-culture/alex-cooper-alix-earle-beef-enneagram-analysis.md` | Add 3+ outgoing links |
 | AOC and the Squad: The Enneagram Types of Millennial Politic... | `pop-culture/aoc-and-the-squad-enneagram-types.md` | Add 3+ outgoing links |
 | Cancel Culture by Enneagram Type: Who Cancels and Who Gets C... | `pop-culture/cancel-culture-enneagram-type.md` | Add 3+ outgoing links |
 | Comedy Kings: Why the Funniest Men Alive Are Wired Completel... | `pop-culture/comedy-kings-enneagram-analysis.md` | Add 3+ outgoing links |
@@ -58,7 +59,7 @@ These posts have NO links in or out. Fix these first!
 
 ---
 
-## Priority 2: Posts with NO Outgoing Links (31 posts)
+## Priority 2: Posts with NO Outgoing Links (32 posts)
 
 These posts don't link to any other content.
 
@@ -71,6 +72,7 @@ These posts don't link to any other content.
 | Untitled | `community/societal-ticking-time-bombs-fact-check.md` | 0 |
 | 3 Societal Ticking Time Bombs Nobody Is Connecting | `community/societal-ticking-time-bombs.md` | 0 |
 | The Enneagram | `enneagram/enneagram-vs-personality-frameworks-comparison.md` | 0 |
+| Alex Cooper vs Alix Earle: Why the Mentor-Protegee Pipeline ... | `pop-culture/alex-cooper-alix-earle-beef-enneagram-analysis.md` | 0 |
 | AOC and the Squad: The Enneagram Types of Millennial Politic... | `pop-culture/aoc-and-the-squad-enneagram-types.md` | 0 |
 | Cancel Culture by Enneagram Type: Who Cancels and Who Gets C... | `pop-culture/cancel-culture-enneagram-type.md` | 0 |
 | Comedy Kings: Why the Funniest Men Alive Are Wired Completel... | `pop-culture/comedy-kings-enneagram-analysis.md` | 0 |
@@ -98,7 +100,7 @@ These posts don't link to any other content.
 
 ---
 
-## Priority 3: Posts with NO Incoming Links (46 posts)
+## Priority 3: Posts with NO Incoming Links (47 posts)
 
 These posts are "orphaned" - no other content links to them.
 
@@ -342,6 +344,7 @@ Sorted by total connections (incoming + outgoing).
 | 0 | 0 | 0 | Untitled | `community/societal-ticking-time-bombs-fact-check.md` |
 | 0 | 0 | 0 | 3 Societal Ticking Time Bombs Nobody Is Connecting | `community/societal-ticking-time-bombs.md` |
 | 0 | 0 | 0 | The Enneagram | `enneagram/enneagram-vs-personality-frameworks-comparison.md` |
+| 0 | 0 | 0 | Alex Cooper vs Alix Earle: Why the Mentor-Protegee Pipeline ... | `pop-culture/alex-cooper-alix-earle-beef-enneagram-analysis.md` |
 | 0 | 0 | 0 | AOC and the Squad: The Enneagram Types of Millennial Politic... | `pop-culture/aoc-and-the-squad-enneagram-types.md` |
 | 0 | 0 | 0 | Cancel Culture by Enneagram Type: Who Cancels and Who Gets C... | `pop-culture/cancel-culture-enneagram-type.md` |
 | 0 | 0 | 0 | Comedy Kings: Why the Funniest Men Alive Are Wired Completel... | `pop-culture/comedy-kings-enneagram-analysis.md` |

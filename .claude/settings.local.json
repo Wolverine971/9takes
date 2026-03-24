@@ -1462,7 +1462,8 @@
 			"Bash(curl -s \"https://en.wikipedia.org/wiki/Llama_\\(language_model\\)\")",
 			"WebFetch(domain:www.anthropic.com)",
 			"WebFetch(domain:www.webpronews.com)",
-			"WebFetch(domain:sg.news.yahoo.com)"
+			"WebFetch(domain:sg.news.yahoo.com)",
+			"WebFetch(domain:deepestdream.com)"
 		],
 		"deny": [],
 		"ask": [],
