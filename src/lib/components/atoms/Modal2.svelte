@@ -2,6 +2,7 @@
 <script context="module" lang="ts">
 	import { browser } from '$app/environment';
 	const modals: Record<string, { open: Function; close: Function }> = {};
+	let openModalCount = 0;
 
 	export function getModal(id = '') {
 		return modals[id];
@@ -39,6 +40,7 @@
 		prevOnTop = onTop;
 		onTop = topDiv;
 		if (browser) {
+			openModalCount += 1;
 			window.addEventListener('keydown', keyPress);
 			document.body.style.overflow = 'hidden';
 		}
@@ -49,9 +51,10 @@
 	function close(retVal: any) {
 		if (!visible) return;
 		if (browser) {
+			openModalCount = Math.max(0, openModalCount - 1);
 			window.removeEventListener('keydown', keyPress);
 			onTop = prevOnTop;
-			if (onTop === null) document.body.style.overflow = '';
+			if (openModalCount === 0) document.body.style.overflow = '';
 		}
 		visible = false;
 		if (closeCallback) closeCallback(retVal);
@@ -63,6 +66,12 @@
 		delete modals[id];
 		if (browser) {
 			window.removeEventListener('keydown', keyPress);
+			if (visible) {
+				openModalCount = Math.max(0, openModalCount - 1);
+			}
+			if (openModalCount === 0) {
+				document.body.style.overflow = '';
+			}
 		}
 	});
 </script>

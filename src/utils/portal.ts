@@ -1,4 +1,12 @@
 // src/utils/portal.ts
 export const portal = (node: HTMLElement) => {
-	document.querySelector('main')?.appendChild(node).focus();
+	const target = document.querySelector('main') ?? document.body;
+	target.appendChild(node);
+	node.focus();
+
+	return {
+		destroy() {
+			node.parentNode?.removeChild(node);
+		}
+	};
 };
