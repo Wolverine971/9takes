@@ -27,6 +27,8 @@ Joe Rogan is a Type 8 (Challenger) who turns every interview into a dominance te
 
 <p class="firstLetter">Four microphones. Four completely different psychological operating systems. And somehow, they've replaced mainstream media for an entire generation.</p>
 
+For the broader landscape of how personality type maps across the _entire_ podcasting ecosystem—including Alex Cooper, Theo Von, Howard Stern, and more—check out [The Podcaster Personality Map](/pop-culture/podcaster-personality-map). This blog goes deep on the four men who dominate the intellectual conversation space specifically.
+
 <!-- TODO: Intro about how podcasting became the dominant media form and how personality type determines what kind of podcaster you become -->
 
 ## Questions This Blog Will Answer

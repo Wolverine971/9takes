@@ -1,8 +1,8 @@
 <!-- docs/BLOG-CROSSLINK-INDEX.md -->
 # Blog Cross-Link Index
 
-_Generated: 2026-03-23_
-_Total Posts Analyzed: 169 (Published: 139, Unpublished: 30)_
+_Generated: 2026-03-24_
+_Total Posts Analyzed: 170 (Published: 141, Unpublished: 29)_
 _Note: Individual type pages (enneagram-type-1 through 9) excluded from link counts_
 
 ---
@@ -11,18 +11,18 @@ _Note: Individual type pages (enneagram-type-1 through 9) excluded from link cou
 
 | Metric | Count |
 |--------|-------|
-| Total posts | 169 |
-| Published posts | 139 |
-| Unpublished posts | 30 |
+| Total posts | 170 |
+| Published posts | 141 |
+| Unpublished posts | 29 |
 | Posts with 0 outgoing links | 31 |
-| Posts with 0 incoming links | 47 |
-| Completely isolated (0 in, 0 out) | 29 |
-| Total internal cross-links | 870 |
+| Posts with 0 incoming links | 46 |
+| Completely isolated (0 in, 0 out) | 27 |
+| Total internal cross-links | 871 |
 | Average outgoing links per post | 5.1 |
 
 ---
 
-## Priority 1: Completely Isolated Posts (29 posts)
+## Priority 1: Completely Isolated Posts (27 posts)
 
 These posts have NO links in or out. Fix these first!
 
@@ -30,7 +30,6 @@ These posts have NO links in or out. Fix these first!
 |------------|------|--------|
 | 3 Societal Ticking Time Bombs Nobody Is Connecting | `community/societal-ticking-time-bombs.md` | Add 3+ outgoing links |
 | AOC and the Squad: The Enneagram Types of Millennial Politic... | `pop-culture/aoc-and-the-squad-enneagram-types.md` | Add 3+ outgoing links |
-| Breaking Points: How a Type 1 and a Type 7 Built Media | `pop-culture/breaking-points-enneagram-analysis.md` | Add 3+ outgoing links |
 | Cancel Culture by Enneagram Type: Who Cancels and Who Gets C... | `pop-culture/cancel-culture-enneagram-type.md` | Add 3+ outgoing links |
 | Comedy Kings: Why the Funniest Men Alive Are Wired Completel... | `pop-culture/comedy-kings-enneagram-analysis.md` | Add 3+ outgoing links |
 | Hollywood Heartthrobs: Why the Men Women Obsess Over Are Wir... | `pop-culture/hollywood-heartthrobs-enneagram-analysis.md` | Add 3+ outgoing links |
@@ -41,7 +40,6 @@ These posts have NO links in or out. Fix these first!
 | Online Gurus: The Personality Types Selling You a Better Lif... | `pop-culture/online-gurus-enneagram-analysis.md` | Add 3+ outgoing links |
 | OnlyFans Creators by Enneagram: The Psychology of Digital In... | `pop-culture/onlyfans-creators-enneagram-digital-intimacy.md` | Add 3+ outgoing links |
 | Oscar Contenders: The Personality Types That Win Academy Awa... | `pop-culture/oscar-contenders-enneagram-analysis.md` | Add 3+ outgoing links |
-| Podcast Bros: The Personality Types Dominating Long-Form Con... | `pop-culture/podcast-bros-enneagram-analysis.md` | Add 3+ outgoing links |
 | Pop Queens: The Personality Types Ruling Music Right Now | `pop-culture/pop-queens-enneagram-analysis.md` | Add 3+ outgoing links |
 | Silicon Valley Power Players: The All-In Pod and the Psychol... | `pop-culture/silicon-valley-power-players-enneagram-analysis.md` | Add 3+ outgoing links |
 | Streaming Royalty: The Personality Types That Built Empires ... | `pop-culture/streaming-royalty-enneagram-analysis.md` | Add 3+ outgoing links |
@@ -67,12 +65,13 @@ These posts don't link to any other content.
 | Post Title | Path | Incoming Links |
 |------------|------|----------------|
 | Influencer Enneagram Types: Why Type 3s Dominate Instagram | `pop-culture/influencer-enneagram-types-instagram.md` | 2 |
+| Breaking Points: How a Type 1 and a Type 7 Built Media | `pop-culture/breaking-points-enneagram-analysis.md` | 1 |
+| The AI Wars: Why Personality Types Determine Who Gets to Bui... | `pop-culture/tech-titans-ai-wars.md` | 1 |
 | Twitter/X Personality Types: Why It | `pop-culture/twitter-x-personality-types-toxic.md` | 1 |
 | Untitled | `community/societal-ticking-time-bombs-fact-check.md` | 0 |
 | 3 Societal Ticking Time Bombs Nobody Is Connecting | `community/societal-ticking-time-bombs.md` | 0 |
 | The Enneagram | `enneagram/enneagram-vs-personality-frameworks-comparison.md` | 0 |
 | AOC and the Squad: The Enneagram Types of Millennial Politic... | `pop-culture/aoc-and-the-squad-enneagram-types.md` | 0 |
-| Breaking Points: How a Type 1 and a Type 7 Built Media | `pop-culture/breaking-points-enneagram-analysis.md` | 0 |
 | Cancel Culture by Enneagram Type: Who Cancels and Who Gets C... | `pop-culture/cancel-culture-enneagram-type.md` | 0 |
 | Comedy Kings: Why the Funniest Men Alive Are Wired Completel... | `pop-culture/comedy-kings-enneagram-analysis.md` | 0 |
 | Jeffrey Epstein | `pop-culture/epstein-web-of-manipulation.md` | 0 |
@@ -91,7 +90,6 @@ These posts don't link to any other content.
 | Online Gurus: The Personality Types Selling You a Better Lif... | `pop-culture/online-gurus-enneagram-analysis.md` | 0 |
 | OnlyFans Creators by Enneagram: The Psychology of Digital In... | `pop-culture/onlyfans-creators-enneagram-digital-intimacy.md` | 0 |
 | Oscar Contenders: The Personality Types That Win Academy Awa... | `pop-culture/oscar-contenders-enneagram-analysis.md` | 0 |
-| Podcast Bros: The Personality Types Dominating Long-Form Con... | `pop-culture/podcast-bros-enneagram-analysis.md` | 0 |
 | Pop Queens: The Personality Types Ruling Music Right Now | `pop-culture/pop-queens-enneagram-analysis.md` | 0 |
 | The Royal Family: Four Enneagram Types, One Fractured Dynast... | `pop-culture/royal-family-enneagram-analysis.md` | 0 |
 | Silicon Valley Power Players: The All-In Pod and the Psychol... | `pop-culture/silicon-valley-power-players-enneagram-analysis.md` | 0 |
@@ -100,7 +98,7 @@ These posts don't link to any other content.
 
 ---
 
-## Priority 3: Posts with NO Incoming Links (47 posts)
+## Priority 3: Posts with NO Incoming Links (46 posts)
 
 These posts are "orphaned" - no other content links to them.
 
@@ -123,6 +121,7 @@ These posts are "orphaned" - no other content links to them.
 | The Kardashian Family Enneagram: How Each Type Built a Billi... | `pop-culture/kardashian-family-enneagram-analysis.md` | 2 |
 | The Intellectual Fortress That Becomes a Prison | `community/fear-triad-intellectual-fortress-or-prison.md` | 1 |
 | The Psychology of Epstein | `pop-culture/epstien-research/Jeffrey-Epstein-Psychology-Of-The-Web.md` | 1 |
+| Podcast Bros: The Personality Types Dominating Long-Form Con... | `pop-culture/podcast-bros-enneagram-analysis.md` | 1 |
 | Why World Leaders Can | `pop-culture/world-leaders-enneagram-personality-dynamics.md` | 1 |
 
 ---
@@ -245,13 +244,13 @@ Sorted by total connections (incoming + outgoing).
 | 12 | 4 | 8 | Enneagram Dating Guide for Men: Type-Specific Strategies Tha... | `enneagram/enneagram-dating-guide-for-men.md` |
 | 12 | 6 | 6 | Enneagram Personal Growth: Unlock Your Type | `enneagram/enneagram-personal-growth.md` |
 | 12 | 3 | 9 | Why You Keep Sabotaging New Relationships (Your Enneagram Kn... | `enneagram/how-to-navigate-early-relationship-stages.md` |
-| 12 | 6 | 6 | Tech Titans Through the Enneagram: A Series on the Personali... | `pop-culture/tech-titans-enneagram-analysis.md` |
 | 11 | 4 | 7 | Introducing 9takes: Answer First, Then Compare Perspectives | `community/introducing-9takes.md` |
 | 11 | 4 | 7 | Enneagram Mental Health Red Flags: Early Warning Signs for A... | `enneagram/enneagram-mental-health-flags.md` |
 | 11 | 3 | 8 | Enneagram Types Working in Teams | `enneagram/enneagram-types-working-in-teams.md` |
 | 11 | 7 | 4 | Love Languages & Enneagram Types: The Ultimate Compatibility... | `enneagram/love-languages-and-enneagram-types.md` |
 | 11 | 1 | 10 | The Crash Course on Emotions We All Missed in Kindergarten | `guides/the-crash-course-on-emotions-that-we-missed-in-kindergarten.md` |
 | 11 | 2 | 9 | The Enneagram and Self-Development: A Guide to Personal Grow... | `guides/using-the-enneagram-for-self-development.md` |
+| 11 | 5 | 6 | Tech Titans Through the Enneagram: A Series on the Personali... | `pop-culture/tech-titans-enneagram-analysis.md` |
 | 10 | 5 | 5 | How Minds Actually Change | `community/how-minds-change-on-9takes.md` |
 | 10 | 2 | 8 | Red Flags You | `enneagram/toxic-traits-relationships-warning-signs.md` |
 | 9 | 3 | 6 | Enneagram Leadership Styles: Why Your Natural Approach Keeps... | `enneagram/enneagram-leadership.md` |
@@ -326,7 +325,7 @@ Sorted by total connections (incoming + outgoing).
 | 2 | 0 | 2 | Depp vs Heard: Why a Type 4 and a Type 3 Were Built to Destr... | `pop-culture/depp-vs-heard-enneagram-analysis.md` |
 | 2 | 2 | 0 | Influencer Enneagram Types: Why Type 3s Dominate Instagram | `pop-culture/influencer-enneagram-types-instagram.md` |
 | 2 | 0 | 2 | The Kardashian Family Enneagram: How Each Type Built a Billi... | `pop-culture/kardashian-family-enneagram-analysis.md` |
-| 2 | 1 | 1 | The AI Wars: Why Personality Types Determine Who Gets to Bui... | `pop-culture/tech-titans-ai-wars.md` |
+| 2 | 1 | 1 | The Podcaster Personality Map: Why Every Host Gravitates to ... | `pop-culture/podcaster-personality-map.md` |
 | 2 | 1 | 1 | The Disruptors: Why Type 8s Break Industries and Type 5s Dec... | `pop-culture/tech-titans-disruptors.md` |
 | 2 | 1 | 1 | Founders vs Stewards: The Personality Types That Replace Tec... | `pop-culture/tech-titans-founders-vs-stewards.md` |
 | 2 | 1 | 1 | Tech Leadership by Personality Type: How Each Enneagram Type... | `pop-culture/tech-titans-leadership-styles.md` |
@@ -334,14 +333,16 @@ Sorted by total connections (incoming + outgoing).
 | 2 | 1 | 1 | The Platform Emperors: How Personality Types Shape the Produ... | `pop-culture/tech-titans-platform-emperors.md` |
 | 2 | 1 | 1 | Trump | `pop-culture/trump-type-8-vs-biden-type-2.md` |
 | 1 | 0 | 1 | The Intellectual Fortress That Becomes a Prison | `community/fear-triad-intellectual-fortress-or-prison.md` |
+| 1 | 1 | 0 | Breaking Points: How a Type 1 and a Type 7 Built Media | `pop-culture/breaking-points-enneagram-analysis.md` |
 | 1 | 0 | 1 | The Psychology of Epstein | `pop-culture/epstien-research/Jeffrey-Epstein-Psychology-Of-The-Web.md` |
+| 1 | 0 | 1 | Podcast Bros: The Personality Types Dominating Long-Form Con... | `pop-culture/podcast-bros-enneagram-analysis.md` |
+| 1 | 1 | 0 | The AI Wars: Why Personality Types Determine Who Gets to Bui... | `pop-culture/tech-titans-ai-wars.md` |
 | 1 | 1 | 0 | Twitter/X Personality Types: Why It | `pop-culture/twitter-x-personality-types-toxic.md` |
 | 1 | 0 | 1 | Why World Leaders Can | `pop-culture/world-leaders-enneagram-personality-dynamics.md` |
 | 0 | 0 | 0 | Untitled | `community/societal-ticking-time-bombs-fact-check.md` |
 | 0 | 0 | 0 | 3 Societal Ticking Time Bombs Nobody Is Connecting | `community/societal-ticking-time-bombs.md` |
 | 0 | 0 | 0 | The Enneagram | `enneagram/enneagram-vs-personality-frameworks-comparison.md` |
 | 0 | 0 | 0 | AOC and the Squad: The Enneagram Types of Millennial Politic... | `pop-culture/aoc-and-the-squad-enneagram-types.md` |
-| 0 | 0 | 0 | Breaking Points: How a Type 1 and a Type 7 Built Media | `pop-culture/breaking-points-enneagram-analysis.md` |
 | 0 | 0 | 0 | Cancel Culture by Enneagram Type: Who Cancels and Who Gets C... | `pop-culture/cancel-culture-enneagram-type.md` |
 | 0 | 0 | 0 | Comedy Kings: Why the Funniest Men Alive Are Wired Completel... | `pop-culture/comedy-kings-enneagram-analysis.md` |
 | 0 | 0 | 0 | Jeffrey Epstein | `pop-culture/epstein-web-of-manipulation.md` |
@@ -360,7 +361,6 @@ Sorted by total connections (incoming + outgoing).
 | 0 | 0 | 0 | Online Gurus: The Personality Types Selling You a Better Lif... | `pop-culture/online-gurus-enneagram-analysis.md` |
 | 0 | 0 | 0 | OnlyFans Creators by Enneagram: The Psychology of Digital In... | `pop-culture/onlyfans-creators-enneagram-digital-intimacy.md` |
 | 0 | 0 | 0 | Oscar Contenders: The Personality Types That Win Academy Awa... | `pop-culture/oscar-contenders-enneagram-analysis.md` |
-| 0 | 0 | 0 | Podcast Bros: The Personality Types Dominating Long-Form Con... | `pop-culture/podcast-bros-enneagram-analysis.md` |
 | 0 | 0 | 0 | Pop Queens: The Personality Types Ruling Music Right Now | `pop-culture/pop-queens-enneagram-analysis.md` |
 | 0 | 0 | 0 | The Royal Family: Four Enneagram Types, One Fractured Dynast... | `pop-culture/royal-family-enneagram-analysis.md` |
 | 0 | 0 | 0 | Silicon Valley Power Players: The All-In Pod and the Psychol... | `pop-culture/silicon-valley-power-players-enneagram-analysis.md` |

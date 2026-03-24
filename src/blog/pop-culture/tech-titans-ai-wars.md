@@ -275,3 +275,28 @@ The future of AI isn't being shaped by technology. It's being shaped by the psyc
 - **Jensen Huang: The Arms Dealer**: Nvidia's Type 3 CEO sells GPUs to all of them. A 3's achievement-orientation means he doesn't pick sides—he sells shovels during a gold rush.
 - **The Zuckerberg Pivot**: Meta went from open-source champion to closed-model developer in under a year. What personality dynamics drove the shift—and what does it mean for the open-source AI movement?
 - **The Anthropic-Google vs OpenAI-Microsoft Axis**: How do the personality types of Nadella (5) and Pichai (9) shape which AI company they back—and why?
+
+<!--
+READER FEEDBACK (from a normal person reading this):
+
+WHAT WORKS:
+- The personality map table at the top is great — gives me the whole thesis in one glance before I commit to the full read.
+- The "Products Reflect the Founders" section is the strongest part of the article. Connecting ChatGPT's personality to Altman's type, Claude's caution to Amodei's type, and Grok's chaos to Musk's type — that's the kind of concrete, "oh wow" insight that makes you want to share the article.
+- The Musk-as-5-not-8 argument is genuinely compelling. The self-description quote about learning to be on stage is a killer piece of evidence.
+- The wings/subtypes breakdown explaining why Amodei and Musk look nothing alike despite being the same type — that's the most educational part. It shows the Enneagram has real depth, not just "you're a number."
+
+WHAT COULD BE EXPANDED:
+- The Zuckerberg section feels rushed compared to the other three. He gets maybe 1/3 the space Altman or Musk gets. If he's important enough to be in the personality map table, he deserves a comparable deep dive. What's his shadow side? What's his firing/departure equivalent story? The Llama 4 pivot is interesting but it's like one paragraph where the others get full narrative arcs.
+- You mention the sycophantic GPT-4o incident and the Bing/Sydney meltdown as "Type 4 failure modes" — but you don't give Amodei a concrete failure example. Claude's over-refusal is mentioned but framed pretty gently. A specific embarrassing Claude moment would make the analysis feel more balanced and less like you're playing favorites.
+- The "Types Missing From the Table" section is fascinating but feels like it appeared out of nowhere. You spend the whole article on 4s and 5s, then suddenly introduce Type 2 and Type 9 hypotheticals. Maybe bridge this with a sentence about why the tech industry self-selects for 4s and 5s — what about the industry attracts those types specifically?
+
+WHAT FEELS OVERDONE / COULD BE TRIMMED:
+- "Amodei left quietly / no drama / just built something better" is said at least 3 times in slightly different ways (once in the Altman section as a contrast, once in the Amodei section, once more in the xAI section). You can probably keep the strongest version and cut the other two. By the third time I was like "yeah I got it, he's quiet."
+- The safety debate section (lines 223-237) mostly restates what you already showed through the individual profiles. By that point, the reader already understands that each person's safety philosophy maps to their type. You could probably cut this to 2-3 sentences or fold it into the conclusion instead of giving it its own full section.
+- The "Questions This Blog Will Answer" section at the top feels like SEO scaffolding. Most of those questions are already implied by reading the article. If you keep it, at least trim it — 8 questions is a lot to list upfront.
+
+SMALL THINGS:
+- "Building God" in the title is a strong hook but it's never really paid off in the article itself. Nobody in the piece is literally framed as building God except one Zuckerberg line about "personal god." Either lean into that framing more throughout or adjust the subtitle.
+- The closing line — "brilliant at systems and mediocre at people" — is a great closer. Keep that.
+- "Same engine. Completely different vehicles." — good line but it lands a bit too cute after a dense technical paragraph about wings and subtypes. Might hit harder if there was a beat of space before it.
+-->
