@@ -122,7 +122,7 @@ export const famousTypes: { [index: number]: { name: string; link: boolean; hasI
 		{ name: 'Ted-Bundy', link: false, hasImage: false, lastmod: '2025-06-25', personaTitle: null, contentGrade: null }
 	],
 	4: [
-		{ name: 'Alex-Karp', link: false, hasImage: true, lastmod: '2026-03-23', personaTitle: 'Silicon Valley\'s Ornery Poet', contentGrade: 8.9 },
+		{ name: 'Alex-Karp', link: true, hasImage: true, lastmod: '2026-03-24', personaTitle: 'Silicon Valley\'s Ornery Poet', contentGrade: 8.9 },
 		{ name: 'Anya-Taylor-Joy', link: true, hasImage: true, lastmod: '2026-03-21', personaTitle: 'Cinema\'s Beautiful Exile', contentGrade: null },
 		{ name: 'Bella-Hadid', link: true, hasImage: true, lastmod: '2025-12-21', personaTitle: 'Fashion\'s Erased Daughter', contentGrade: 8.3 },
 		{ name: 'Billie-Eilish', link: true, hasImage: true, lastmod: '2026-02-19', personaTitle: 'Gen Z\'s Beautiful Wound', contentGrade: 9.1 },
@@ -302,7 +302,7 @@ export const famousTypes: { [index: number]: { name: string; link: boolean; hasI
 		{ name: 'Jeff-Bezos', link: true, hasImage: true, lastmod: '2026-01-18', personaTitle: 'The Challenger Who Thinks in Centuries', contentGrade: 8 },
 		{ name: 'Jocko-Willink', link: true, hasImage: true, lastmod: '2025-12-09', personaTitle: 'Discipline\'s Unresting Protector', contentGrade: 8.6 },
 		{ name: 'Joe-Rogan', link: true, hasImage: true, lastmod: '2026-02-10', personaTitle: 'Podcasting\'s Alpha Interrogator', contentGrade: 9.4 },
-		{ name: 'Kara-Swisher', link: false, hasImage: true, lastmod: '2026-03-22', personaTitle: 'Tech\'s Unapologetic Inquisitor', contentGrade: 8.9 },
+		{ name: 'Kara-Swisher', link: true, hasImage: true, lastmod: '2026-03-24', personaTitle: 'Tech\'s Unapologetic Inquisitor', contentGrade: 8.9 },
 		{ name: 'Malcolm-X', link: true, hasImage: true, lastmod: '2026-03-04', personaTitle: 'Justice\'s Incorruptible Fire', contentGrade: 8.8 },
 		{ name: 'Martin-Luther-King-Jr', link: true, hasImage: true, lastmod: '2026-02-19', personaTitle: 'The Pastor Who Weaponized Love', contentGrade: 8.9 },
 		{ name: 'Mr-Beast', link: true, hasImage: true, lastmod: '2026-02-19', personaTitle: 'The Algorithm Monk Who Can\'t Stop Building', contentGrade: 9 },
@@ -310,7 +310,7 @@ export const famousTypes: { [index: number]: { name: string; link: boolean; hasI
 		{ name: 'Reed-Hastings', link: true, hasImage: true, lastmod: '2026-02-20', personaTitle: 'Entertainment\'s Unapologetic Disruptor', contentGrade: 8.6 },
 		{ name: 'Rihanna', link: true, hasImage: true, lastmod: '2026-01-26', personaTitle: 'Pop\'s Unbothered Mogul', contentGrade: 8 },
 		{ name: 'Sam-Parr', link: true, hasImage: true, lastmod: '2026-02-26', personaTitle: 'Media\'s Brute-Force Builder', contentGrade: 9.1 },
-		{ name: 'Scott-Galloway', link: false, hasImage: true, lastmod: '2026-03-22', personaTitle: 'Academia\'s Tender Brawler', contentGrade: 8.9 },
+		{ name: 'Scott-Galloway', link: false, hasImage: true, lastmod: '2026-03-24', personaTitle: 'Academia\'s Tender Brawler', contentGrade: 8.9 },
 		{ name: 'Shia-LaBeouf', link: true, hasImage: true, lastmod: '2026-02-20', personaTitle: 'Hollywood\'s Confessing Arsonist', contentGrade: 8.8 },
 		{ name: 'Tom-Hardy', link: true, hasImage: true, lastmod: '2026-01-17', personaTitle: 'Cinema\'s Armored Brawler', contentGrade: null },
 		{ name: 'Travis-Kalanick', link: true, hasImage: true, lastmod: '2026-03-23', personaTitle: 'Tech\'s Armored Disruptor', contentGrade: 8.8 },

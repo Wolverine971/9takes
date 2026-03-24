@@ -4,9 +4,9 @@ meta_title: "Why Scott Galloway Can't Stop Fighting (The Wound Behind the Rage)"
 persona_title: "Academia's Tender Brawler"
 description: "Inside the psychology of Scott Galloway: how an absent father, a secretary mother, and a 2.23 GPA forged one of America's fiercest public voices."
 author: 'DJ Wayne'
-date: '2026-03-22'
+date: '2026-03-24'
 loc: 'https://9takes.com/personality-analysis/Scott-Galloway'
-lastmod: '2026-03-22'
+lastmod: '2026-03-24'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
@@ -26,7 +26,7 @@ content_quality:
   originality: 9
   overall: 8.9
   letter: 'B+'
-  graded_at: '2026-03-22'
+  graded_at: '2026-03-24'
 path: src/blog/people/drafts/Scott-Galloway.md
 ---
 

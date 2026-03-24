@@ -4,9 +4,9 @@ meta_title: 'Why Kara Swisher Makes Billionaires Sweat (The Psychology Behind He
 persona_title: "Tech's Unapologetic Inquisitor"
 description: 'Inside the psychology of Kara Swisher: how a father''s death at five, a closeted youth, and a nickname meaning "storm" forged Silicon Valley''s fiercest journalist.'
 author: 'DJ Wayne'
-date: '2026-03-22'
+date: '2026-03-24'
 loc: 'https://9takes.com/personality-analysis/Kara-Swisher'
-lastmod: '2026-03-22'
+lastmod: '2026-03-24'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
@@ -26,7 +26,7 @@ content_quality:
   originality: 9
   overall: 8.9
   letter: 'B+'
-  graded_at: '2026-03-22'
+  graded_at: '2026-03-24'
 path: src/blog/people/drafts/Kara-Swisher.md
 ---
 
