@@ -9,6 +9,10 @@ import {
 	rankSimilarPeople,
 	type PersonalitySimilarityRow
 } from '$lib/server/personalitySimilarity';
+import {
+	buildPersonalityAnalysisUrl,
+	normalizePersonalitySlug
+} from '$lib/utils/personalityAnalysis';
 
 type FamousPersonRow = Database['public']['Tables']['blogs_famous_people']['Row'];
 type BlogCommentRow = Database['public']['Tables']['blog_comments']['Row'];
@@ -17,7 +21,7 @@ export const load: PageServerLoad = async (event) => {
 	const setHeaders = event.setHeaders;
 	const session = event.locals.session;
 	const user = session?.user;
-	const slug = event.params.slug;
+	const requestedSlug = event.params.slug;
 	const cookie = event.cookies.get('9tfingerprint');
 
 	if (!dev) {
@@ -35,25 +39,29 @@ export const load: PageServerLoad = async (event) => {
 	const { data: personDataRaw } = await supabase
 		.from('blogs_famous_people')
 		.select('*')
-		.ilike('person', slug)
+		.ilike('person', requestedSlug)
 		.maybeSingle();
 	const personData = personDataRaw as FamousPersonRow | null;
 
 	if (!personData) {
-		throw error(404, `Person not found: ${slug}`);
+		throw error(404, `Person not found: ${requestedSlug}`);
 	}
+
+	const legacySlug = personData.person ?? requestedSlug;
+	const canonicalSlug = normalizePersonalitySlug(legacySlug);
+	const commentSlugCandidates = [...new Set([legacySlug, canonicalSlug].filter(Boolean))];
 
 	const queryPromise = user?.id
 		? supabase
 				.from('blog_comments')
 				.select('id')
-				.eq('blog_link', slug)
+				.in('blog_link', commentSlugCandidates)
 				.eq('author_id', user?.id)
 				.maybeSingle()
 		: supabase
 				.from('blog_comments')
 				.select('id')
-				.eq('blog_link', slug)
+				.in('blog_link', commentSlugCandidates)
 				.eq('fingerprint', cookie ?? '')
 				.maybeSingle();
 
@@ -67,7 +75,7 @@ export const load: PageServerLoad = async (event) => {
 		const { data: blogComments } = await supabase
 			.from('blog_comments')
 			.select('*')
-			.eq('blog_link', slug)
+			.in('blog_link', commentSlugCandidates)
 			.order('created_at', { ascending: false })
 			.limit(100);
 
@@ -82,8 +90,14 @@ export const load: PageServerLoad = async (event) => {
 			userHasAnswered,
 			userSignedIn: !!event?.locals?.session?.user?.aud
 		},
-		post: { ...(personData as FamousPersonRow), slug, content },
-		slug,
+		post: {
+			...(personData as FamousPersonRow),
+			slug: canonicalSlug,
+			loc: buildPersonalityAnalysisUrl(canonicalSlug),
+			content
+		},
+		slug: canonicalSlug,
+		canonicalSlug,
 		placeholders,
 		headings,
 		comments
@@ -160,7 +174,7 @@ function parsePostTypes(value: FormDataEntryValue | null): string[] {
 }
 
 function mapSimilarResults(rows: PersonalitySimilarityRow[]) {
-	return rows.map((row) => ({ ...row, slug: row.person ?? '' }));
+	return rows.map((row) => ({ ...row, slug: normalizePersonalitySlug(row.person) }));
 }
 
 async function getSimilarPosts(currentSlug: string, postTypes: string[], enneagram: number | null) {

@@ -1,6 +1,11 @@
 <!-- src/routes/blog/+page.svelte -->
 <script lang="ts">
 	import SEOHead from '$lib/components/SEOHead.svelte';
+	import {
+		buildPersonalityAnalysisPath,
+		buildPersonalityImagePath,
+		formatPersonalityDisplayName
+	} from '$lib/utils/personalityAnalysis';
 	import type { PageData } from './$types';
 
 	let { data }: { data: PageData } = $props();
@@ -130,14 +135,16 @@
 						{@const isPerson = section.isPerson}
 						{@const pic = 'pic' in blog ? blog.pic : null}
 						<a
-							href="{section.linkPrefix}/{blog.slug}"
+							href={isPerson
+								? buildPersonalityAnalysisPath(blog.slug)
+								: `${section.linkPrefix}/${blog.slug}`}
 							class="blog-card"
 							class:has-image={pic || isPerson}
 						>
 							{#if isPerson && blog.enneagram}
 								<div
 									class="card-image"
-									style="background-image: url(/types/{blog.enneagram}s/s-{blog.slug}.webp);"
+									style={`background-image: url(${buildPersonalityImagePath(blog.enneagram, blog.slug, 'thumbnail')});`}
 								></div>
 							{:else if pic}
 								<div class="card-image" style="background-image: url(/blogs/s-{pic}.webp);"></div>
@@ -146,7 +153,7 @@
 							<div class="card-content">
 								<h3>
 									{#if isPerson && blog.slug}
-										{blog.slug.split('-').join(' ')}
+										{formatPersonalityDisplayName(blog.slug)}
 									{:else}
 										{blog.title}
 									{/if}

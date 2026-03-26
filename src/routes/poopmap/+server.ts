@@ -1,6 +1,11 @@
 // src/routes/poopmap/+server.ts
 import { error } from '@sveltejs/kit';
 import { supabase } from '$lib/supabase';
+import {
+	buildPersonalityImagePath,
+	normalizePersonalityAnalysisUrl,
+	normalizePersonalitySlug
+} from '$lib/utils/personalityAnalysis';
 
 // const SITE_URL = '9takes.com';
 const db = supabase as any;
@@ -82,7 +87,7 @@ export async function GET() {
 		throw error(404, { message: 'Error getting posts' });
 	}
 	const peoplePosts: any = (personData ?? []).map((e: any) => {
-		return { ...e, slug: e.person };
+		return { ...e, slug: normalizePersonalitySlug(e.person) };
 	});
 
 	const posts = [...(await getAllPosts()), ...peoplePosts];
@@ -297,22 +302,25 @@ export async function GET() {
 	  ${posts
 			.map((post) => {
 				if (post.loc.includes('personality-analysis')) {
-					if (post.person && post.enneagram) {
+					const normalizedLoc = normalizePersonalityAnalysisUrl(post.loc, post.person ?? post.slug);
+					const imagePath = buildPersonalityImagePath(post.enneagram, post.person ?? post.slug);
+
+					if (imagePath) {
 						return `		
 	  <url>
-	    <loc>${post.loc}</loc>
+	    <loc>${normalizedLoc}</loc>
 	    <lastmod>${post.lastmod && new Date(post.lastmod).toISOString()}</lastmod>
 	    <changefreq>${post.changefreq}</changefreq>
 	    <priority>0.7</priority>
 		<image:image>
-			<image:loc>https://9takes.com/types/${post.enneagram}s/${post.person}.webp</image:loc>
+			<image:loc>https://9takes.com${imagePath}</image:loc>
 		</image:image>
 	  </url>
 	  `;
 					} else {
 						return `
 	  <url>
-	    <loc>${post.loc}</loc>
+	    <loc>${normalizedLoc}</loc>
 	    <lastmod>${post.lastmod && new Date(post.lastmod).toISOString()}</lastmod>
 	    <changefreq>${post.changefreq}</changefreq>
 	    <priority>0.7</priority>

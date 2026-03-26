@@ -1,6 +1,7 @@
 // src/routes/blog/+page.server.ts
 import type { PageServerLoad } from './$types';
 import { slugFromPath } from '$lib/slugFromPath';
+import { normalizePersonalitySlug } from '$lib/utils/personalityAnalysis';
 
 export const load: PageServerLoad = async ({ locals }) => {
 	const supabase = locals.supabase;
@@ -62,7 +63,7 @@ export const load: PageServerLoad = async ({ locals }) => {
 	}
 
 	const people: BlogCardPerson[] = (peopleResult.data ?? []).map((e) => ({
-		slug: e.person ?? '',
+		slug: normalizePersonalitySlug(e.person),
 		enneagram: e.enneagram ? Number(e.enneagram) : null
 	}));
 

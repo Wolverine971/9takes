@@ -217,7 +217,7 @@ The metaverse. $83.6 billion spent on Reality Labs between 2020 and 2025. A virt
 
 By Q4 2025, Zuckerberg had stopped saying the word "metaverse" entirely. He replaced it with "AI-generated social media" and "Personal Super Intelligence." He cut 30% of Reality Labs' budget and laid off 1,500 employees from the VR division. In March 2026, Meta announced Horizon Worlds would be shut down.
 
-For a Type 5, this is fascinating. A 5's core fear is being useless—incompetent, unable to master the domain that matters. Zuckerberg spent nearly a decade and $83 billion trying to master virtual reality and failed publicly. The pivot to AI isn't just strategy. It's a 5 running from the thing that made him feel incompetent toward the thing that might restore his mastery. The speed and scale of the pivot—$115–135 billion in 2026 capex, a data center the size of Manhattan—that's not rational resource allocation. That's a 5 building a fortress so massive that nobody can question his competence again.
+For a Type 5, this is fascinating. A 5's core fear is being useless—incompetent, unable to master the domain that matters. Zuckerberg spent nearly a decade and $83 billion trying to master virtual reality and failed publicly. The pivot to AI isn't just strategy. It's a 5 running from the thing that made him feel incompetent toward the thing that might restore his mastery. The speed and scale of the pivot—$115-135 billion in 2026 capex, a data center the size of Manhattan—that's not rational resource allocation. That's a 5 building a fortress so massive that nobody can question his competence again.
 
 ### The Open-Source Gospel (and Its Limits)
 

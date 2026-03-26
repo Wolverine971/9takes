@@ -7,6 +7,7 @@ import {
 	normalizePeopleTypes,
 	type PersonalityCategorySlug
 } from '$lib/personalityCategories';
+import { normalizePersonalitySlug } from '$lib/utils/personalityAnalysis';
 
 export type PersonalityCategoryRow = Pick<
 	Database['public']['Tables']['blogs_famous_people']['Row'],
@@ -95,12 +96,13 @@ export function mapPersonalityCategoryRow(
 ): PersonalityCategoryPerson | null {
 	if (!row.person) return null;
 
+	const normalizedSlug = normalizePersonalitySlug(row.person);
 	const types = normalizePeopleTypes(row.type);
 	const categorySlugs = getPersonalityCategorySlugs(types);
 
 	return {
-		slug: row.person,
-		name: formatPersonName(row.person),
+		slug: normalizedSlug,
+		name: formatPersonName(normalizedSlug),
 		enneagram: row.enneagram ? String(row.enneagram) : null,
 		title: row.title,
 		description: row.description,
@@ -160,7 +162,11 @@ export function getEnneagramDistribution(
 		.map(([enneagram, count]) => ({ enneagram, count }));
 }
 
-const CREATOR_MEDIA_PODCASTER_SLUGS = new Set([
+function createNormalizedSlugSet(slugs: string[]): Set<string> {
+	return new Set(slugs.map((slug) => normalizePersonalitySlug(slug)));
+}
+
+const CREATOR_MEDIA_PODCASTER_SLUGS = createNormalizedSlugSet([
 	'Alex-Cooper',
 	'Chris-Williamson',
 	'Dax-Shepard',
@@ -171,14 +177,14 @@ const CREATOR_MEDIA_PODCASTER_SLUGS = new Set([
 	'Tim-Ferriss'
 ]);
 
-const CREATOR_MEDIA_COMMENTARY_SLUGS = new Set([
+const CREATOR_MEDIA_COMMENTARY_SLUGS = createNormalizedSlugSet([
 	'Andrew-Callaghan',
 	'Hasan-Piker',
 	'Saagar-Enjeti',
 	'Taylor-Lorenz'
 ]);
 
-const CREATOR_MEDIA_BUSINESS_SLUGS = new Set([
+const CREATOR_MEDIA_BUSINESS_SLUGS = createNormalizedSlugSet([
 	'Ali-Abdaal',
 	'John-Coogan',
 	'Shaan-Puri',
@@ -186,7 +192,7 @@ const CREATOR_MEDIA_BUSINESS_SLUGS = new Set([
 	'Tony-Robbins'
 ]);
 
-const CREATOR_MEDIA_STREAMER_SLUGS = new Set([
+const CREATOR_MEDIA_STREAMER_SLUGS = createNormalizedSlugSet([
 	'Adin-Ross',
 	'Clavicular',
 	'IShowSpeed',
@@ -195,14 +201,14 @@ const CREATOR_MEDIA_STREAMER_SLUGS = new Set([
 	'xQc'
 ]);
 
-const CREATOR_MEDIA_ENTERTAINER_SLUGS = new Set([
+const CREATOR_MEDIA_ENTERTAINER_SLUGS = createNormalizedSlugSet([
 	'Brittany-Broski',
 	'Druski',
 	'Logan-Paul',
 	'Mr-Beast'
 ]);
 
-const CREATOR_MEDIA_LIFESTYLE_SLUGS = new Set([
+const CREATOR_MEDIA_LIFESTYLE_SLUGS = createNormalizedSlugSet([
 	'Addison-Rae',
 	'Alix-Earle',
 	'Ashby',

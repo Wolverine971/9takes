@@ -1,5 +1,9 @@
 // src/routes/api/blog/typeahead/+server.ts
 import { generateBlogUrl } from '$lib/server/blogSearchUtils';
+import {
+	buildPersonalityAnalysisPath,
+	normalizePersonalitySlug
+} from '$lib/utils/personalityAnalysis';
 import { json } from '@sveltejs/kit';
 import type { RequestHandler } from './$types';
 
@@ -55,17 +59,22 @@ export const GET: RequestHandler = async ({ url, locals }) => {
 			return await fallbackSearch(supabase, query);
 		}
 
-		const formattedResults: TypeaheadResult[] = (results || []).map((row: any) => ({
-			id: row.id,
-			source: row.source,
-			title: row.title,
-			slug: row.slug,
-			url: generateBlogUrl(row.source, row.slug, row.category),
-			enneagram: row.enneagram,
-			category: row.category,
-			headline: row.headline || row.title,
-			rank: row.rank
-		}));
+		const formattedResults: TypeaheadResult[] = (results || []).map((row: any) => {
+			const normalizedSlug =
+				row.source === 'famous_people' ? normalizePersonalitySlug(row.slug) : row.slug;
+
+			return {
+				id: row.id,
+				source: row.source,
+				title: row.title,
+				slug: normalizedSlug,
+				url: generateBlogUrl(row.source, normalizedSlug, row.category),
+				enneagram: row.enneagram,
+				category: row.category,
+				headline: row.headline || row.title,
+				rank: row.rank
+			};
+		});
 
 		return json({ results: formattedResults, query });
 	} catch (error) {
@@ -116,12 +125,13 @@ async function fallbackSearch(supabase: any, query: string): Promise<Response> {
 
 	if (peopleData) {
 		for (const row of peopleData) {
+			const slug = normalizePersonalitySlug(row.person);
 			allResults.push({
 				id: row.id,
 				source: 'famous_people',
 				title: row.title,
-				slug: row.person,
-				url: `/personality-analysis/${row.person}`,
+				slug,
+				url: buildPersonalityAnalysisPath(slug),
 				enneagram: row.enneagram,
 				category: row.category,
 				headline: findMatchingSnippet(query, row.title, row.person, row.description, row.content),

@@ -320,7 +320,7 @@ There's a pattern that repeats:
 <span class="timeline__event">The Studio: earns first Emmy nomination by letting the weird theater kid loose on camera</span>
 </div>
 <div class="timeline__item">
-<span class="timeline__year">2025–26</span>
+<span class="timeline__year">2025-26</span>
 <span class="timeline__event">Caught Stealing with Darren Aronofsky. How to Rob a Bank with David Leitch. Writing new projects to direct.</span>
 </div>
 </div>

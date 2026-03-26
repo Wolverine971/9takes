@@ -3,13 +3,17 @@
 	import { onMount, tick } from 'svelte';
 	import { fly, fade } from 'svelte/transition';
 	import { browser } from '$app/environment';
+	import {
+		buildPersonalityAnalysisPath,
+		buildPersonalityImagePath,
+		formatPersonalityDisplayName
+	} from '$lib/utils/personalityAnalysis';
 	import type { PageData } from './$types';
 	import type { FamousPerson } from './+page.server';
 	import EnneagramDiagram from '$lib/components/blog/EnneagramDiagram.svelte';
 
 	let { data }: { data: PageData } = $props();
 	let innerWidth = $state(0);
-	let loaded = $state(false);
 	let observer: IntersectionObserver | null = null;
 	let sectionsVisible = $state(Array(6).fill(browser ? false : true));
 
@@ -145,7 +149,6 @@
 	}
 
 	onMount(() => {
-		loaded = true;
 		tick().then(() => {
 			setupIntersectionObserver();
 		});
@@ -163,8 +166,8 @@
 </script>
 
 <svelte:head>
-	<title>9takes | See the Emotions Behind Every Take</title>
-	<meta name="title" content="9takes | See the Emotions Behind Every Take" />
+	<title>9takes - See the Emotions Behind Every Take</title>
+	<meta name="title" content="9takes - See the Emotions Behind Every Take" />
 	<meta
 		name="description"
 		content="Decode social dynamics using the Enneagram. Give your take, see 9 perspectives, and build emotional intelligence. One situation, 9 ways to see it."
@@ -186,7 +189,7 @@
 	<meta property="og:type" content="website" />
 	<meta property="og:url" content="https://9takes.com" />
 	<meta property="og:site_name" content="9takes" />
-	<meta property="og:title" content="9takes | See the Emotions Behind Every Take" />
+	<meta property="og:title" content="9takes - See the Emotions Behind Every Take" />
 	<meta
 		property="og:description"
 		content="Decode social dynamics using the Enneagram. Give your take, see 9 perspectives, and build emotional intelligence."
@@ -200,13 +203,13 @@
 	<meta name="twitter:card" content="summary_large_image" />
 	<meta name="twitter:site" content="@9takesdotcom" />
 	<meta name="twitter:creator" content="@djwayne3" />
-	<meta name="twitter:title" content="9takes | See the Emotions Behind Every Take" />
+	<meta name="twitter:title" content="9takes - See the Emotions Behind Every Take" />
 	<meta
 		name="twitter:description"
 		content="Decode social dynamics using the Enneagram. Give your take, see 9 perspectives, and build emotional intelligence."
 	/>
 	<meta name="twitter:image" content="https://9takes.com/greek_pantheon.png" />
-	<meta name="twitter:image:alt" content="9takes – One situation, 9 ways to see it" />
+	<meta name="twitter:image:alt" content="9takes - One situation, 9 ways to see it" />
 
 	<!-- FAQ Schema -->
 	<script type="application/ld+json">
@@ -273,6 +276,32 @@
 			}
 		}
 	</script>
+
+	<script type="application/ld+json">
+		{
+			"@context": "https://schema.org",
+			"@graph": [
+				{
+					"@type": "Organization",
+					"@id": "https://9takes.com/#organization",
+					"name": "9takes",
+					"url": "https://9takes.com",
+					"logo": {
+						"@type": "ImageObject",
+						"url": "https://9takes.com/brand/darkRubix.png"
+					},
+					"sameAs": ["https://www.instagram.com/9takesdotcom/", "https://twitter.com/9takesdotcom"]
+				},
+				{
+					"@type": "WebSite",
+					"@id": "https://9takes.com/#website",
+					"name": "9takes",
+					"url": "https://9takes.com",
+					"description": "Decode social dynamics using the Enneagram."
+				}
+			]
+		}
+	</script>
 </svelte:head>
 
 <svelte:window bind:innerWidth />
@@ -285,59 +314,55 @@
 
 	<main class="content">
 		<!-- ========== HERO SECTION ========== -->
-		{#if loaded}
-			<section class="hero" in:fly={getTransition()}>
-				<div class="hero-inner">
-					<!-- Tagline badge -->
-					<div class="tagline-badge" in:fade={{ delay: 200, duration: 400 }}>
-						<span class="badge-glow"></span>
-						<span class="badge-text">One situation, 9 ways to see it</span>
-					</div>
-
-					<h1 class="hero-title">
-						<span class="title-line">See the</span>
-						<span class="title-glow">Emotions Behind</span>
-						<span class="title-line">Every Take</span>
-					</h1>
-
-					<p class="hero-desc">
-						See what you're missing. Know what to do about it. Feel understood along the way.
-					</p>
+		<section class="hero" in:fly={getTransition()}>
+			<div class="hero-inner">
+				<!-- Tagline badge -->
+				<div class="tagline-badge" in:fade={{ delay: 200, duration: 400 }}>
+					<span class="badge-glow"></span>
+					<span class="badge-text">One situation, 9 ways to see it</span>
 				</div>
 
-				<!-- Daily Quest Card -->
-				<a href={`/questions/${data.questionOfTheDay?.url}`} class="quest-card">
-					<div class="quest-header">
-						<div class="quest-badge">
-							<span class="quest-icon">!</span>
-							<span class="quest-label">TODAY'S QUESTION</span>
-						</div>
-						<div class="quest-responses">
-							<span class="response-count">{data.questionOfTheDay?.comment_count || 0}</span>
-							<span class="response-label">responses</span>
-						</div>
+				<h1 class="hero-title">
+					<span class="title-line">See the</span>
+					<span class="title-glow">Emotions Behind</span>
+					<span class="title-line">Every Take</span>
+				</h1>
+
+				<p class="hero-desc">
+					See what you're missing. Know what to do about it. Feel understood along the way.
+				</p>
+			</div>
+
+			<!-- Daily Quest Card -->
+			<a href={`/questions/${data.questionOfTheDay?.url}`} class="quest-card">
+				<div class="quest-header">
+					<div class="quest-badge">
+						<span class="quest-icon">!</span>
+						<span class="quest-label">TODAY'S QUESTION</span>
 					</div>
-
-					<h2 class="quest-title">
-						{data.questionOfTheDay ? data.questionOfTheDay.question_formatted : 'Loading...'}
-					</h2>
-
-					<div class="quest-cta">
-						<span class="cta-text">Give Your Take</span>
-						<span class="cta-arrow">→</span>
+					<div class="quest-responses">
+						<span class="response-count">{data.questionOfTheDay?.comment_count || 0}</span>
+						<span class="response-label">responses</span>
 					</div>
-				</a>
-
-				<!-- Secondary actions -->
-				<div class="hero-actions">
-					<a href="/questions" class="btn-system">Browse All Questions</a>
 				</div>
 
-				<p class="hero-note">Free to join. No personality test required.</p>
-			</section>
-		{:else}
-			<div class="hero-placeholder"></div>
-		{/if}
+				<h2 class="quest-title">
+					{data.questionOfTheDay ? data.questionOfTheDay.question_formatted : 'Loading...'}
+				</h2>
+
+				<div class="quest-cta">
+					<span class="cta-text">Give Your Take</span>
+					<span class="cta-arrow">→</span>
+				</div>
+			</a>
+
+			<!-- Secondary actions -->
+			<div class="hero-actions">
+				<a href="/questions" class="btn-system">Browse All Questions</a>
+			</div>
+
+			<p class="hero-note">Free to join. No personality test required.</p>
+		</section>
 
 		<!-- ========== THREE PILLARS ========== -->
 		<div class="section-observer">
@@ -397,7 +422,7 @@
 							{@const typeInfo = shadowTypes[typeNum]}
 							<a
 								href={person.hasLink
-									? `/personality-analysis/${person.name}`
+									? buildPersonalityAnalysisPath(person.name)
 									: `/enneagram-corner/enneagram-type-${typeNum}`}
 								class="type-card"
 								style="--type-color: {typeInfo.color}"
@@ -409,8 +434,8 @@
 									<div class="avatar-wrap">
 										{#if person.hasImage}
 											<img
-												src={`/types/${typeNum}s/s-${person.name}.webp`}
-												alt={person.name.split('-').join(' ')}
+												src={buildPersonalityImagePath(typeNum, person.name, 'thumbnail')}
+												alt={formatPersonalityDisplayName(person.name)}
 												class="avatar"
 												loading={i < 3 ? 'eager' : 'lazy'}
 											/>
@@ -425,11 +450,11 @@
 										{#if person.personaTitle}
 											<span class="type-title">{person.personaTitle}</span>
 										{/if}
-										<span class="type-name">{typeInfo.name} – {typeInfo.stancePhrase}</span>
+										<span class="type-name">{typeInfo.name} - {typeInfo.stancePhrase}</span>
 									</div>
 
 									<div class="type-meta">
-										<span class="meta-value">{person.name.split('-').join(' ')}</span>
+										<span class="meta-value">{formatPersonalityDisplayName(person.name)}</span>
 									</div>
 								</div>
 							</a>

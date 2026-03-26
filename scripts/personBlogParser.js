@@ -15,6 +15,12 @@ import matter from 'gray-matter';
 import dotenv from 'dotenv';
 import { createClient } from '@supabase/supabase-js';
 import { pathToFileURL } from 'url';
+import {
+	buildPersonalityAnalysisUrl,
+	normalizePersonalityAnalysisUrl,
+	normalizePersonalitySlug,
+	normalizePersonalitySuggestions
+} from './lib/personalitySeo.js';
 
 dotenv.config();
 
@@ -184,6 +190,7 @@ export function cleanupContent(content) {
 export async function parseMarkdownFile(filePath) {
 	const fileContent = await fs.readFile(filePath, 'utf8');
 	const { data, content } = matter(fileContent);
+	const normalizedPerson = normalizePersonalitySlug(data.person || '');
 	const hasContentQualityField =
 		Object.prototype.hasOwnProperty.call(data, 'content_quality') ||
 		Object.prototype.hasOwnProperty.call(data, 'content_grade');
@@ -208,15 +215,17 @@ export async function parseMarkdownFile(filePath) {
 		description: data.description || '',
 		author: data.author || '',
 		date: data.date || '',
-		loc: data.loc || '',
+		loc: normalizedPerson
+			? buildPersonalityAnalysisUrl(normalizedPerson)
+			: normalizePersonalityAnalysisUrl(data.loc || '', normalizedPerson),
 		lastmod: data.lastmod || '',
 		changefreq: data.changefreq || '',
 		priority: data.priority || '',
 		published: data.published !== undefined ? data.published : true,
 		enneagram: data.enneagram || null,
 		type: Array.isArray(data.type) ? data.type : [],
-		person: data.person || '',
-		suggestions: Array.isArray(data.suggestions) ? data.suggestions : [],
+		person: normalizedPerson,
+		suggestions: normalizePersonalitySuggestions(data.suggestions),
 		wikipedia: data.wikipedia || '',
 		twitter: data.twitter || '',
 		instagram: data.instagram || '',
@@ -362,7 +371,7 @@ async function insertIntoSupabase(entries, options = {}) {
 				const { data: existing, error: existingError } = await supabase
 					.from('blogs_famous_people')
 					.select('id')
-					.eq('person', entry.person)
+					.ilike('person', entry.person)
 					.maybeSingle();
 
 				if (existingError) {
@@ -399,7 +408,7 @@ async function insertIntoSupabase(entries, options = {}) {
 			const { data: existing, error: existingError } = await supabase
 				.from('blogs_famous_people')
 				.select('id,published')
-				.eq('person', entry.person)
+				.ilike('person', entry.person)
 				.maybeSingle();
 
 			if (existingError) {
@@ -449,6 +458,7 @@ async function main() {
 		const changedOnly = args.includes('--changed');
 		const gradesOnly = args.includes('--grades-only');
 		const personFilter = args.find((arg) => !arg.startsWith('--')); // Optional: e.g. "Malcolm-Gladwell"
+		const normalizedPersonFilter = normalizePersonalitySlug(personFilter);
 		let blogEntries = [];
 
 		if (changedOnly) {
@@ -465,12 +475,14 @@ async function main() {
 		}
 
 		if (personFilter) {
-			blogEntries = blogEntries.filter((e) => e.person === personFilter);
+			blogEntries = blogEntries.filter(
+				(e) => normalizePersonalitySlug(e.person) === normalizedPersonFilter
+			);
 			if (blogEntries.length === 0) {
 				console.error(`No blog entry found for person: ${personFilter}`);
 				process.exit(1);
 			}
-			console.log(`Filtered to: ${personFilter}`);
+			console.log(`Filtered to: ${normalizedPersonFilter}`);
 		}
 
 		console.log(`Found ${blogEntries.length} entries to process`);

@@ -3,6 +3,7 @@ import { dev } from '$app/environment';
 import { createServerClient } from '@supabase/ssr';
 import { PUBLIC_SUPABASE_PUBLISHABLE_KEY, PUBLIC_SUPABASE_URL } from '$env/static/public';
 import type { Database } from '../database.types';
+import { normalizePersonalitySlug } from '$lib/utils/personalityAnalysis';
 import {
 	CONTENT_ACCESS_ANON_COOKIE_MAX_AGE_SECONDS,
 	CONTENT_ACCESS_ANON_COOKIE_NAME,
@@ -41,6 +42,19 @@ export const handle: Handle = async ({ event, resolve }) => {
 			}
 		}
 	) as unknown as App.Locals['supabase'];
+
+	const canonicalSeoLocation = getCanonicalSeoLocation(event.url.pathname);
+
+	if (canonicalSeoLocation) {
+		const redirectUrl = new URL(event.url);
+		redirectUrl.pathname = canonicalSeoLocation;
+		return new Response(null, {
+			status: 308,
+			headers: {
+				location: redirectUrl.toString()
+			}
+		});
+	}
 
 	const userAgent = event.request.headers.get('user-agent');
 	const protectedContentPath = getProtectedContentPath(event.url.pathname);
@@ -176,6 +190,8 @@ export const handle: Handle = async ({ event, resolve }) => {
 		);
 	}
 
+	applySecurityHeaders(response.headers);
+
 	return response;
 	// let buffer = '';
 
@@ -199,6 +215,53 @@ export const handle: Handle = async ({ event, resolve }) => {
 	// 	}
 	// });
 };
+
+function getCanonicalSeoLocation(pathname: string): string | null {
+	const dataSuffix = '/__data.json';
+	const isDataRequest = pathname.endsWith(dataSuffix);
+	const normalizedPath = isDataRequest ? pathname.slice(0, -dataSuffix.length) : pathname;
+	const segments = normalizedPath.split('/').filter(Boolean);
+
+	if (segments[0] !== 'personality-analysis') {
+		return null;
+	}
+
+	const nextSegments = [...segments];
+	let changed = false;
+
+	if (segments.length === 2 && segments[1] !== 'categories' && segments[1] !== 'type') {
+		const canonicalSlug = normalizePersonalitySlug(segments[1]);
+		if (canonicalSlug && canonicalSlug !== segments[1]) {
+			nextSegments[1] = canonicalSlug;
+			changed = true;
+		}
+	}
+
+	if (segments.length === 3 && segments[1].toLowerCase() === 'categories') {
+		if (segments[1] !== 'categories') {
+			nextSegments[1] = 'categories';
+			changed = true;
+		}
+
+		const categorySlug = segments[2].toLowerCase();
+		if (categorySlug !== segments[2]) {
+			nextSegments[2] = categorySlug;
+			changed = true;
+		}
+	}
+
+	if (segments.length >= 2 && segments[1].toLowerCase() === 'type' && segments[1] !== 'type') {
+		nextSegments[1] = 'type';
+		changed = true;
+	}
+
+	if (!changed) {
+		return null;
+	}
+
+	const canonicalPath = `/${nextSegments.join('/')}`;
+	return isDataRequest ? `${canonicalPath}${dataSuffix}` : canonicalPath;
+}
 
 function getClientIp(event: Parameters<Handle>[0]['event']): string {
 	const forwardedFor =
@@ -252,6 +315,8 @@ function createContentGuardResponse({
 		);
 	}
 
+	applySecurityHeaders(headers);
+
 	return new Response(message, { status, headers });
 }
 
@@ -262,4 +327,18 @@ function getAnonCookieOptions() {
 		sameSite: 'lax' as const,
 		maxAge: CONTENT_ACCESS_ANON_COOKIE_MAX_AGE_SECONDS
 	};
+}
+
+function applySecurityHeaders(headers: Headers) {
+	headers.set(
+		'Content-Security-Policy',
+		"default-src 'self' https: data: blob:; script-src 'self' 'unsafe-inline' 'unsafe-eval' https: blob:; style-src 'self' 'unsafe-inline' https:; img-src 'self' data: blob: https:; font-src 'self' data: https:; connect-src 'self' https: wss:; frame-ancestors 'self'; object-src 'none'; base-uri 'self'; form-action 'self' https:;"
+	);
+	headers.set('X-Frame-Options', 'SAMEORIGIN');
+	headers.set('X-Content-Type-Options', 'nosniff');
+	headers.set('Referrer-Policy', 'strict-origin-when-cross-origin');
+	headers.set(
+		'Permissions-Policy',
+		'accelerometer=(), camera=(), geolocation=(), gyroscope=(), magnetometer=(), microphone=(), payment=(), usb=()'
+	);
 }

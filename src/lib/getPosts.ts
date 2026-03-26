@@ -1,6 +1,7 @@
 // src/lib/getPosts.ts
 import { slugFromPath } from './slugFromPath';
 import { supabase } from './supabase';
+import { normalizePersonalitySlug } from './utils/personalityAnalysis';
 import type { Database } from '../../database.types';
 
 type MdsvexModuleResolver = () => Promise<App.MdsvexFile>;
@@ -65,7 +66,7 @@ export const getPosts = async (): Promise<App.BlogPost[]> => {
 		const fallbackSlugSource = row.loc ?? row.title ?? `person-${row.id}.md`;
 		return {
 			...(row as unknown as App.BlogPost),
-			slug: row.person ?? slugFromPath(fallbackSlugSource),
+			slug: normalizePersonalitySlug(row.person) || slugFromPath(fallbackSlugSource),
 			title: row.title ?? '',
 			author: row.author ?? '',
 			description: row.description ?? '',

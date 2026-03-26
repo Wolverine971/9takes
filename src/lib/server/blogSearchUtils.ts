@@ -1,5 +1,6 @@
 // src/lib/server/blogSearchUtils.ts
 // Shared helpers for blog search endpoints
+import { buildPersonalityAnalysisPath } from '$lib/utils/personalityAnalysis';
 
 export const ROUTE_MAP: Record<string, string> = {
 	// Main categories
@@ -19,7 +20,7 @@ export const ROUTE_MAP: Record<string, string> = {
 
 export function generateBlogUrl(source: string, slug: string, category: string | null): string {
 	if (source === 'famous_people') {
-		return `/personality-analysis/${slug}`;
+		return buildPersonalityAnalysisPath(slug);
 	}
 
 	// Handle slugs that include nested paths (e.g., mental-health/foo)

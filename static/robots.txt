@@ -8,8 +8,6 @@ Disallow: /users
 Disallow: /register/
 Disallow: /login/
 Disallow: /users/
-Disallow: /questions/categories/
-Disallow: /questions/categories
 Disallow: /admin
 Disallow: /admin/
 Allow: /
@@ -37,8 +35,8 @@ Allow: /
 User-agent: CCBot
 Allow: /
 
-# Google-Extended is Google's training opt-out token.
+# Google-Extended is Google's AI access token.
 User-agent: Google-Extended
-Disallow: /
+Allow: /
 
 Sitemap: https://9takes.com/sitemap.xml

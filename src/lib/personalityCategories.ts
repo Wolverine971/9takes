@@ -1,4 +1,6 @@
 // src/lib/personalityCategories.ts
+import { formatPersonalityDisplayName } from '$lib/utils/personalityAnalysis';
+
 export const PERSONALITY_CATEGORY_SLUGS = [
 	'film-tv',
 	'creator-media',
@@ -211,9 +213,5 @@ export function formatPersonalityRawType(type: string): string {
 }
 
 export function formatPersonName(slug: string): string {
-	return slug
-		.split('-')
-		.filter(Boolean)
-		.map((word) => word.charAt(0).toUpperCase() + word.slice(1))
-		.join(' ');
+	return formatPersonalityDisplayName(slug);
 }

@@ -2,6 +2,11 @@
 <script lang="ts">
 	import { onMount } from 'svelte';
 	import { deserialize } from '$app/forms';
+	import {
+		buildPersonalityAnalysisPath,
+		buildPersonalityImagePath,
+		formatPersonalityDisplayName
+	} from '$lib/utils/personalityAnalysis';
 
 	type RelatedPostCard = {
 		slug: string;
@@ -99,8 +104,10 @@
 					<h3 id="niche-suggestions" class="section-title">Similar Profiles</h3>
 					<ul class="people-grid" role="list">
 						{#each slicePosts(sameNichePosts) as post}
+							{@const personName = formatPersonalityDisplayName(post.slug)}
+							{@const imagePath = buildPersonalityImagePath(post.enneagram, post.slug, 'thumbnail')}
 							<li class="grid-item">
-								<a href="/personality-analysis/{post.slug}" class="person-link">
+								<a href={buildPersonalityAnalysisPath(post.slug)} class="person-link">
 									<div class="image-container">
 										<img
 											loading="lazy"
@@ -108,12 +115,12 @@
 											class="grid-img"
 											height="218"
 											width="218"
-											title="Personality analysis of {post.slug.split('-').join(' ')}"
-											src={`/types/${post.enneagram}s/s-${post.slug}.webp`}
-											alt="Portrait of {post.slug.split('-').join(' ')}"
+											title="Personality analysis of {personName}"
+											src={imagePath}
+											alt="Portrait of {personName}"
 										/>
 										<div class="name-overlay">
-											<span class="person-name">{post.slug.split('-').join(' ')}</span>
+											<span class="person-name">{personName}</span>
 										</div>
 									</div>
 								</a>
@@ -130,8 +137,10 @@
 					</h3>
 					<ul class="people-grid" role="list">
 						{#each slicePosts(sameEnneagramPosts) as post}
+							{@const personName = formatPersonalityDisplayName(post.slug)}
+							{@const imagePath = buildPersonalityImagePath(post.enneagram, post.slug, 'thumbnail')}
 							<li class="grid-item">
-								<a href="/personality-analysis/{post.slug}" class="person-link">
+								<a href={buildPersonalityAnalysisPath(post.slug)} class="person-link">
 									<div class="image-container">
 										<img
 											loading="lazy"
@@ -139,12 +148,12 @@
 											class="grid-img"
 											height="218"
 											width="218"
-											title="Personality analysis of {post.slug.split('-').join(' ')}"
-											src={`/types/${post.enneagram}s/s-${post.slug}.webp`}
-											alt="Portrait of {post.slug.split('-').join(' ')}"
+											title="Personality analysis of {personName}"
+											src={imagePath}
+											alt="Portrait of {personName}"
 										/>
 										<div class="name-overlay">
-											<span class="person-name">{post.slug.split('-').join(' ')}</span>
+											<span class="person-name">{personName}</span>
 										</div>
 									</div>
 								</a>

@@ -1,5 +1,11 @@
 <!-- src/lib/components/blog/PersonSuggestion.svelte -->
 <script lang="ts">
+	import {
+		buildPersonalityAnalysisPath,
+		buildPersonalityImagePath,
+		formatPersonalityDisplayName
+	} from '$lib/utils/personalityAnalysis';
+
 	export let title: string;
 	export let posts: App.BlogPost[];
 	export let sectionId: string;
@@ -9,13 +15,15 @@
 	<h3 id={sectionId} class="section-title">{title}</h3>
 	<ul class="people-grid" role="list">
 		{#each posts as { slug, enneagram }}
+			{@const personName = formatPersonalityDisplayName(slug)}
+			{@const imagePath = buildPersonalityImagePath(enneagram, slug, 'thumbnail')}
 			<li class="grid-item">
 				<a
-					href="/personality-analysis/{slug}"
+					href={buildPersonalityAnalysisPath(slug)}
 					class="person-link"
-					aria-label="Read personality analysis of {slug.split('-').join(' ')}"
+					aria-label="Read personality analysis of {personName}"
 				>
-					{#if enneagram}
+					{#if enneagram && imagePath}
 						<div class="image-container">
 							<img
 								loading="lazy"
@@ -23,20 +31,19 @@
 								class="grid-img"
 								height="218"
 								width="218"
-								title="Personality analysis of {slug.split('-').join(' ')}"
-								srcset={`/types/${enneagram}s/s-${slug}.webp 218w`}
-								src={`/types/${enneagram}s/s-${slug}.webp`}
-								alt="Portrait of {slug.split('-').join(' ')}"
+								title="Personality analysis of {personName}"
+								src={imagePath}
+								alt="Portrait of {personName}"
 							/>
 							<div class="name-overlay" aria-hidden="true">
-								<span class="person-name">{slug.split('-').join(' ')}</span>
+								<span class="person-name">{personName}</span>
 							</div>
 						</div>
 					{/if}
 					<div class="content-description">
-						<h4 class="person-name">{slug.split('-').join(' ')}</h4>
+						<h4 class="person-name">{personName}</h4>
 						<p class="person-description">
-							Explore the personality analysis of {slug.split('-').join(' ')}, an Enneagram type {enneagram}.
+							Explore the personality analysis of {personName}, an Enneagram type {enneagram}.
 						</p>
 					</div>
 				</a>

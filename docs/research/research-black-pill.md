@@ -37,7 +37,7 @@ act on it remains largely unstudied through first-person accounts.
 While Green et al. [1] identified a progressive "Black pill pipeline" of radicalization,
 their work focused on process-tracing rather than analyzing incels' own narratives of
 transformation. Our study addresses this gap by examining self-reports of "taking the
-blackpill" – the incel term for accepting their fatalistic worldview – as expressed
+blackpill" - the incel term for accepting their fatalistic worldview - as expressed
 spontaneously by community members in their natural online environments.
 2 Background and Related Work
 The Internet has transformed how extremist ideologies spread and how radicalization
@@ -66,8 +66,8 @@ their radicalization process.
 Self-reported accounts of radicalization provide insights that complement
 observational research, often emphasizing psychological needs, social contexts, and
 triggering events rather than purely ideological factors. Our study addresses this gap by
-examining self-reports of "taking the blackpill" – the incel term for accepting their
-fatalistic worldview – as expressed spontaneously by community members in their
+examining self-reports of "taking the blackpill" - the incel term for accepting their
+fatalistic worldview - as expressed spontaneously by community members in their
 natural online environments.
 3 Method
 We conducted a reflexive thematic analysis of posts from incels.is, a popular Redditlike forum used by incels. These forums are accessible to anyone online; no account is
@@ -122,7 +122,7 @@ something or someone to blame for the difficulties of their lives in the pre-rad
 phase. The third chronological category, with Theme 5, describes the process of
 becoming radicalized, and the fourth, with Theme 6, describes feelings in the postradicalization state.
 Figure 1. Thematic map with the six themes organized in a chronological framework
-4.1 Pre-Radicalization – Themes 1-3
+4.1 Pre-Radicalization - Themes 1-3
 Before discovering incel communities or becoming radicalized, posters describe
 difficult conditions in their lives. There are three themes: Appearance (Theme 1), Social
 Isolation (Theme 2), and Psychological (Theme 3). The first two are explicitly named
@@ -206,7 +206,7 @@ linked hopelessness with risk of suicide. Suicide is an extremely common topic o
 discussion on incel forums. Hopelessness has also been linked to violence in many
 contexts [11]. Though most incels do not carry out acts of violence, they are responsible
 for a number of high-profile incidents, including mass murders. Incel communities
-celebrate these acts – and other mass shootings carried out by non-incels.
+celebrate these acts - and other mass shootings carried out by non-incels.
 5 Discussion
 The findings in this study echo more general findings on the radicalization process. In
 studying radicalization among terrorists, Doosje et al. [5] describe a three-stage

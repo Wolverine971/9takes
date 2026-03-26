@@ -85,7 +85,7 @@ Understanding this framework doesn't excuse bad behavior. It explains it—so yo
 <MarqueeHorizontal displayList={[{name: 'at a party 🎉', link: '/enneagram-corner/enneagram-types-at-party'}, {name: 'in stress 😰', link: '/enneagram-corner/enneagram-types-in-stress'}, {name: 'being ghosted 👻', link: '/enneagram-corner/enneagram-types-being-ghosted'}, {name: 'on a first date 💜', link: '/enneagram-corner/enneagram-types-on-a-first-date'}, {name: 'communication styles 🙊', link: '/enneagram-corner/enneagram-communication-styles'} ]} />
 </div>
 
-## Type 1: The Perfectionist – Red Flags to Watch
+## Type 1: The Perfectionist - Red Flags to Watch
 
 ### What Drew You In
 
@@ -93,12 +93,12 @@ Their integrity, reliability, and moral compass. They seemed like someone who wo
 
 ### The Red Flags
 
-- **Constant criticism disguised as "helping you improve"** – Nothing you do is ever quite right. There's always a better way, and they'll make sure you know it.
-- **Rigid rules about the "right way" to do everything** – From loading the dishwasher to planning a vacation, they have opinions about how things should be done—and little tolerance for deviation.
-- **Unable to relax without finding something wrong** – Quiet moments become opportunities to point out flaws. Even on vacation, they're critiquing the hotel, the restaurant, you.
-- **Silent resentment that explodes unexpectedly** – They swallow frustration until they can't anymore, then erupt over something minor.
-- **Making you feel like you're never quite good enough** – Their standards apply to you as harshly as they apply to themselves.
-- **Controlling behavior justified as "doing what's correct"** – Their way isn't just preferred—it's morally superior.
+- **Constant criticism disguised as "helping you improve"** - Nothing you do is ever quite right. There's always a better way, and they'll make sure you know it.
+- **Rigid rules about the "right way" to do everything** - From loading the dishwasher to planning a vacation, they have opinions about how things should be done—and little tolerance for deviation.
+- **Unable to relax without finding something wrong** - Quiet moments become opportunities to point out flaws. Even on vacation, they're critiquing the hotel, the restaurant, you.
+- **Silent resentment that explodes unexpectedly** - They swallow frustration until they can't anymore, then erupt over something minor.
+- **Making you feel like you're never quite good enough** - Their standards apply to you as harshly as they apply to themselves.
+- **Controlling behavior justified as "doing what's correct"** - Their way isn't just preferred—it's morally superior.
 
 ### Why This Happens
 
@@ -115,7 +115,7 @@ Say: _"I appreciate you wanting things to be better. But when you point out what
 
 ---
 
-## Type 2: The Helper – Red Flags to Watch
+## Type 2: The Helper - Red Flags to Watch
 
 ### What Drew You In
 
@@ -123,12 +123,12 @@ Their warmth, attentiveness, and how they made you feel special. They seemed to 
 
 ### The Red Flags
 
-- **Giving with strings attached** – They remember every favor, every sacrifice, every time they showed up for you. And they'll bring it up when they want something.
-- **Making you feel guilty for not needing them enough** – Your independence threatens them. They need to be needed.
-- **Ignoring your boundaries with "helpful" intrusions** – They decide what's best for you, whether you asked or not.
-- **Martyrdom and scorekeeping** – "After everything I do for you!" becomes a weapon.
-- **Triangulating** – Being everyone's savior creates a web where you're competing for their attention.
-- **Emotional manipulation through guilt** – They make you feel like a terrible person for not reciprocating at their level.
+- **Giving with strings attached** - They remember every favor, every sacrifice, every time they showed up for you. And they'll bring it up when they want something.
+- **Making you feel guilty for not needing them enough** - Your independence threatens them. They need to be needed.
+- **Ignoring your boundaries with "helpful" intrusions** - They decide what's best for you, whether you asked or not.
+- **Martyrdom and scorekeeping** - "After everything I do for you!" becomes a weapon.
+- **Triangulating** - Being everyone's savior creates a web where you're competing for their attention.
+- **Emotional manipulation through guilt** - They make you feel like a terrible person for not reciprocating at their level.
 
 ### Why This Happens
 
@@ -145,7 +145,7 @@ Say: _"I love what you do for me, but I need to know it's freely given. When I f
 
 ---
 
-## Type 3: The Achiever – Red Flags to Watch
+## Type 3: The Achiever - Red Flags to Watch
 
 ### What Drew You In
 
@@ -153,12 +153,12 @@ Their confidence, success, and how they made you feel like you were with someone
 
 ### The Red Flags
 
-- **Image management** – You're a trophy, not a partner. How you make them look matters more than how you feel.
-- **Workaholism that leaves no room for connection** – There's always another goal, another deadline, another achievement that takes priority over you.
-- **Lying or exaggerating to maintain their image** – Small deceptions pile up. You start questioning what's real.
-- **Competing with you instead of supporting you** – Your success threatens them. They need to be the star.
-- **Emotional unavailability** – Feelings are inefficient. Vulnerability is weakness.
-- **Chameleon behavior** – They're a different person with different audiences. You wonder who they really are.
+- **Image management** - You're a trophy, not a partner. How you make them look matters more than how you feel.
+- **Workaholism that leaves no room for connection** - There's always another goal, another deadline, another achievement that takes priority over you.
+- **Lying or exaggerating to maintain their image** - Small deceptions pile up. You start questioning what's real.
+- **Competing with you instead of supporting you** - Your success threatens them. They need to be the star.
+- **Emotional unavailability** - Feelings are inefficient. Vulnerability is weakness.
+- **Chameleon behavior** - They're a different person with different audiences. You wonder who they really are.
 
 ### Why This Happens
 
@@ -175,7 +175,7 @@ Say: _"I'm not impressed by your success—I'm impressed by who you are when no 
 
 ---
 
-## Type 4: The Individualist – Red Flags to Watch
+## Type 4: The Individualist - Red Flags to Watch
 
 ### What Drew You In
 
@@ -183,12 +183,12 @@ Their depth, emotional intensity, and ability to see you like no one else. They 
 
 ### The Red Flags
 
-- **Emotional volatility** – Everything becomes a crisis. Small disappointments trigger major meltdowns.
-- **Push-pull dynamics** – Intense pursuit followed by sudden withdrawal. You never know where you stand.
-- **Comparing your relationship to an idealized fantasy** – Real life can't compete with the romance in their head.
-- **Making everything about their feelings** – Your experiences get hijacked by their emotional reactions.
-- **Chronic dissatisfaction** – "Something is missing." Nothing is ever enough.
-- **Using melancholy to demand attention** – Their sadness becomes a tool to keep you focused on them.
+- **Emotional volatility** - Everything becomes a crisis. Small disappointments trigger major meltdowns.
+- **Push-pull dynamics** - Intense pursuit followed by sudden withdrawal. You never know where you stand.
+- **Comparing your relationship to an idealized fantasy** - Real life can't compete with the romance in their head.
+- **Making everything about their feelings** - Your experiences get hijacked by their emotional reactions.
+- **Chronic dissatisfaction** - "Something is missing." Nothing is ever enough.
+- **Using melancholy to demand attention** - Their sadness becomes a tool to keep you focused on them.
 
 ### Why This Happens
 
@@ -205,7 +205,7 @@ Say: _"I can't compete with a fantasy. I'm real, and I'm here. If that's not eno
 
 ---
 
-## Type 5: The Investigator – Red Flags to Watch
+## Type 5: The Investigator - Red Flags to Watch
 
 ### What Drew You In
 
@@ -213,12 +213,12 @@ Their intelligence, independence, and fascinating inner world. They didn't need 
 
 ### The Red Flags
 
-- **Extreme withdrawal** – Disappearing for days without explanation. You wonder if they forgot you exist.
-- **Emotional unavailability** – Every feeling gets intellectualized. You want connection; they offer analysis.
-- **Hoarding time and energy** – The relationship gets their scraps after work, hobbies, and alone time take their share.
-- **Making you feel like a burden** – Your needs are "too much." You start apologizing for existing.
-- **Compartmentalizing you** – You're in one box, separate from their "real" life. You never fully integrate.
-- **Using intellectual superiority to create distance** – They make you feel stupid to keep you at arm's length.
+- **Extreme withdrawal** - Disappearing for days without explanation. You wonder if they forgot you exist.
+- **Emotional unavailability** - Every feeling gets intellectualized. You want connection; they offer analysis.
+- **Hoarding time and energy** - The relationship gets their scraps after work, hobbies, and alone time take their share.
+- **Making you feel like a burden** - Your needs are "too much." You start apologizing for existing.
+- **Compartmentalizing you** - You're in one box, separate from their "real" life. You never fully integrate.
+- **Using intellectual superiority to create distance** - They make you feel stupid to keep you at arm's length.
 
 ### Why This Happens
 
@@ -235,7 +235,7 @@ Say: _"I understand you need space. But I also need to feel like I'm part of you
 
 ---
 
-## Type 6: The Loyalist – Red Flags to Watch
+## Type 6: The Loyalist - Red Flags to Watch
 
 ### What Drew You In
 
@@ -243,12 +243,12 @@ Their loyalty, commitment, and how seriously they took the relationship. They we
 
 ### The Red Flags
 
-- **Constantly testing your loyalty** – They set up scenarios to see if you'll fail. Pass one test, and another appears.
-- **Worst-case-scenario spiraling** – Every situation becomes a disaster waiting to happen. Their anxiety becomes yours.
-- **Suspicion without cause** – They interrogate you about where you were, who you were with, why you didn't text back immediately.
-- **Flip-flopping between trust and doubt** – One day they're confident in you; the next, they're questioning everything.
-- **Needing reassurance that's never enough** – No matter how many times you prove yourself, they need more proof.
-- **Projecting fear** – "You're going to leave me" becomes a self-fulfilling prophecy as they push you away.
+- **Constantly testing your loyalty** - They set up scenarios to see if you'll fail. Pass one test, and another appears.
+- **Worst-case-scenario spiraling** - Every situation becomes a disaster waiting to happen. Their anxiety becomes yours.
+- **Suspicion without cause** - They interrogate you about where you were, who you were with, why you didn't text back immediately.
+- **Flip-flopping between trust and doubt** - One day they're confident in you; the next, they're questioning everything.
+- **Needing reassurance that's never enough** - No matter how many times you prove yourself, they need more proof.
+- **Projecting fear** - "You're going to leave me" becomes a self-fulfilling prophecy as they push you away.
 
 ### Why This Happens
 
@@ -265,7 +265,7 @@ Say: _"I understand you're afraid. But constantly questioning my commitment make
 
 ---
 
-## Type 7: The Enthusiast – Red Flags to Watch
+## Type 7: The Enthusiast - Red Flags to Watch
 
 ### What Drew You In
 
@@ -273,12 +273,12 @@ Their optimism, spontaneity, and how they made everything feel exciting. Life fe
 
 ### The Red Flags
 
-- **Avoiding serious conversations** – Every attempt to discuss problems gets deflected with humor or changed subjects.
-- **Commitment phobia** – They always keep their options open. You're never quite sure where you stand.
-- **Minimizing your problems** – "Just be positive!" dismisses your legitimate concerns.
-- **Scattered attention** – You're one of many interests. They can't focus on anything—or anyone—for long.
-- **Impulsivity that affects your stability** – Surprise purchases, sudden job changes, spontaneous decisions that affect both of you.
-- **Running when things get hard** – The moment the relationship requires real work, they're looking for the exit.
+- **Avoiding serious conversations** - Every attempt to discuss problems gets deflected with humor or changed subjects.
+- **Commitment phobia** - They always keep their options open. You're never quite sure where you stand.
+- **Minimizing your problems** - "Just be positive!" dismisses your legitimate concerns.
+- **Scattered attention** - You're one of many interests. They can't focus on anything—or anyone—for long.
+- **Impulsivity that affects your stability** - Surprise purchases, sudden job changes, spontaneous decisions that affect both of you.
+- **Running when things get hard** - The moment the relationship requires real work, they're looking for the exit.
 
 ### Why This Happens
 
@@ -295,7 +295,7 @@ Say: _"I love your optimism. But sometimes I need you to sit with me in hard mom
 
 ---
 
-## Type 8: The Challenger – Red Flags to Watch
+## Type 8: The Challenger - Red Flags to Watch
 
 ### What Drew You In
 
@@ -303,12 +303,12 @@ Their strength, confidence, and how protected you felt around them. They were a 
 
 ### The Red Flags
 
-- **Dominating conversations and decisions** – Your opinion is noted and overruled. They know best.
-- **Anger as their default expression** – Every emotion comes out as intensity, aggression, or intimidation.
-- **"My way or the highway"** – Compromise is weakness. They're always right.
-- **Dismissing your feelings** – Your emotions are inconvenient, illogical, or signs of weakness.
-- **Power plays** – Every interaction has a winner and loser. They need to win.
-- **Inability to admit being wrong** – Apologizing would mean being vulnerable, which is unacceptable.
+- **Dominating conversations and decisions** - Your opinion is noted and overruled. They know best.
+- **Anger as their default expression** - Every emotion comes out as intensity, aggression, or intimidation.
+- **"My way or the highway"** - Compromise is weakness. They're always right.
+- **Dismissing your feelings** - Your emotions are inconvenient, illogical, or signs of weakness.
+- **Power plays** - Every interaction has a winner and loser. They need to win.
+- **Inability to admit being wrong** - Apologizing would mean being vulnerable, which is unacceptable.
 
 ### Why This Happens
 
@@ -325,7 +325,7 @@ Say: _"I feel safest with you when you're strong AND soft. When you only show me
 
 ---
 
-## Type 9: The Peacemaker – Red Flags to Watch
+## Type 9: The Peacemaker - Red Flags to Watch
 
 ### What Drew You In
 
@@ -333,12 +333,12 @@ Their calm, accepting presence. They didn't judge. They went with the flow. Bein
 
 ### The Red Flags
 
-- **Passive aggression** – They won't tell you they're upset. You'll find out through silence, sighs, or sabotage.
-- **"Going along to get along"** – They agree to everything, then resent you for it.
-- **Numbing out** – They're physically present but emotionally absent. You talk; they're not really there.
-- **Procrastinating on important issues** – Conversations that need to happen keep getting postponed.
-- **Stubbornness disguised as agreeableness** – They say yes but do nothing. Their inaction is resistance.
-- **Making you the bad guy** – By having needs, preferences, or opinions, you become the demanding one.
+- **Passive aggression** - They won't tell you they're upset. You'll find out through silence, sighs, or sabotage.
+- **"Going along to get along"** - They agree to everything, then resent you for it.
+- **Numbing out** - They're physically present but emotionally absent. You talk; they're not really there.
+- **Procrastinating on important issues** - Conversations that need to happen keep getting postponed.
+- **Stubbornness disguised as agreeableness** - They say yes but do nothing. Their inaction is resistance.
+- **Making you the bad guy** - By having needs, preferences, or opinions, you become the demanding one.
 
 ### Why This Happens
 

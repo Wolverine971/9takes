@@ -1463,7 +1463,13 @@
 			"WebFetch(domain:www.anthropic.com)",
 			"WebFetch(domain:www.webpronews.com)",
 			"WebFetch(domain:sg.news.yahoo.com)",
-			"WebFetch(domain:deepestdream.com)"
+			"WebFetch(domain:deepestdream.com)",
+			"WebFetch(domain:www.theobservereffect.org)",
+			"WebFetch(domain:a16z.com)",
+			"WebFetch(domain:spiritsjournal.klwines.com)",
+			"WebFetch(domain:www.russrhudson.com)",
+			"WebFetch(domain:idaeira.com)",
+			"WebFetch(domain:cloverleaf.me)"
 		],
 		"deny": [],
 		"ask": [],

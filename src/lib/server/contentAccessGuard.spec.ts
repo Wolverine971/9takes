@@ -51,14 +51,34 @@ describe('contentAccessGuard', () => {
 		expect(isTrackableContentRequester(requester)).toBe(true);
 	});
 
-	it('blocks generic bot user agents and scraping clients', () => {
+	it('allows Google-Extended when AI crawling is enabled', () => {
+		expect(
+			getHardBlockedReason({
+				method: 'GET',
+				pathname: '/personality-analysis/scott-galloway',
+				userAgent: 'Google-Extended/1.0'
+			})
+		).toBeNull();
+	});
+
+	it('does not block HEAD requests used by audits and link checks', () => {
+		expect(
+			getHardBlockedReason({
+				method: 'HEAD',
+				pathname: '/personality-analysis/scott-galloway',
+				userAgent: 'curl/8.7.1'
+			})
+		).toBeNull();
+	});
+
+	it('allows plain HTTP clients but blocks unknown bot user agents', () => {
 		expect(
 			getHardBlockedReason({
 				method: 'GET',
 				pathname: '/community/kantian-filters-and-nine-perspectives',
 				userAgent: 'curl/8.7.1'
 			})
-		).toBe('automated_http_client');
+		).toBeNull();
 		expect(
 			getHardBlockedReason({
 				method: 'GET',
@@ -145,7 +165,7 @@ describe('contentAccessGuard', () => {
 		});
 	});
 
-	it('throttles allowed AI crawlers after the sixth unique article in a day', () => {
+	it('throttles allowed AI crawlers only after large daily crawl volume', () => {
 		const requester = getContentRequester({
 			method: 'GET',
 			pathname: '/pop-culture/tech-titans-ai-wars',
@@ -161,16 +181,16 @@ describe('contentAccessGuard', () => {
 
 		expect(
 			getContentAccessDecision(requester, {
-				total_10m: 4,
-				unique_10m: 3,
-				total_1h: 6,
-				unique_1h: 5,
-				total_24h: 6,
-				unique_24h: 6
+				total_10m: 80,
+				unique_10m: 40,
+				total_1h: 120,
+				unique_1h: 90,
+				total_24h: 1001,
+				unique_24h: 450
 			})
 		).toEqual({
 			action: 'throttle',
-			reason: 'allowed_ai_crawler_24h_unique_limit',
+			reason: 'allowed_ai_crawler_24h_total_limit',
 			retryAfterSeconds: 86400
 		});
 	});

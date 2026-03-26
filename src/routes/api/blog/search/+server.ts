@@ -6,6 +6,7 @@ import {
 	parseLimit,
 	parseOffset
 } from '$lib/server/blogSearchUtils';
+import { normalizePersonalitySlug } from '$lib/utils/personalityAnalysis';
 import { json } from '@sveltejs/kit';
 import type { RequestHandler } from './$types';
 
@@ -120,20 +121,24 @@ export const GET: RequestHandler = async ({ url, locals }) => {
 		);
 
 		if (!rpcError && rpcResults) {
-			const results: SearchResult[] = rpcResults.map((row: any) => ({
-				id: row.id,
-				source: row.source === 'famous_people' ? 'famous_people' : 'content',
-				slug: row.slug,
-				title: row.title,
-				description: row.description,
-				enneagram: row.enneagram ?? null,
-				type: normalizeTextArray(row.type),
-				tags: normalizeTextArray(row.tags),
-				category: row.category ?? null,
-				lastmod: row.lastmod ?? null,
-				rank: row.rank ?? 0,
-				url: generateBlogUrl(row.source, row.slug, row.category ?? null)
-			}));
+			const results: SearchResult[] = rpcResults.map((row: any) => {
+				const slug = row.source === 'famous_people' ? normalizePersonalitySlug(row.slug) : row.slug;
+
+				return {
+					id: row.id,
+					source: row.source === 'famous_people' ? 'famous_people' : 'content',
+					slug,
+					title: row.title,
+					description: row.description,
+					enneagram: row.enneagram ?? null,
+					type: normalizeTextArray(row.type),
+					tags: normalizeTextArray(row.tags),
+					category: row.category ?? null,
+					lastmod: row.lastmod ?? null,
+					rank: row.rank ?? 0,
+					url: generateBlogUrl(row.source, slug, row.category ?? null)
+				};
+			});
 
 			return json({
 				results,
@@ -229,10 +234,11 @@ export const GET: RequestHandler = async ({ url, locals }) => {
 
 		if (peopleData) {
 			peopleData.forEach((row: any) => {
+				const slug = normalizePersonalitySlug(row.person);
 				allResults.push({
 					id: row.id,
 					source: 'famous_people',
-					slug: row.person,
+					slug,
 					title: row.title,
 					description: row.description,
 					enneagram: row.enneagram ?? null,
@@ -241,7 +247,7 @@ export const GET: RequestHandler = async ({ url, locals }) => {
 					category: row.category ?? null,
 					lastmod: row.lastmod ?? null,
 					rank: 0,
-					url: generateBlogUrl('famous_people', row.person, row.category ?? null)
+					url: generateBlogUrl('famous_people', slug, row.category ?? null)
 				});
 			});
 		}

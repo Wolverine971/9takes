@@ -285,15 +285,15 @@
 										class="form-input w-full rounded-lg border border-slate-600 bg-slate-800/50 p-3 text-slate-200 transition-colors focus:border-purple-500 focus:ring-2 focus:ring-purple-500/30 focus-visible:outline-none disabled:cursor-not-allowed disabled:opacity-50"
 									>
 										<option value="">Your Enneagram Type (optional)</option>
-										<option value="1">Type 1 – The Perfectionist</option>
-										<option value="2">Type 2 – The Helper</option>
-										<option value="3">Type 3 – The Achiever</option>
-										<option value="4">Type 4 – The Individualist</option>
-										<option value="5">Type 5 – The Investigator</option>
-										<option value="6">Type 6 – The Loyalist</option>
-										<option value="7">Type 7 – The Enthusiast</option>
-										<option value="8">Type 8 – The Challenger</option>
-										<option value="9">Type 9 – The Peacemaker</option>
+										<option value="1">Type 1 - The Perfectionist</option>
+										<option value="2">Type 2 - The Helper</option>
+										<option value="3">Type 3 - The Achiever</option>
+										<option value="4">Type 4 - The Individualist</option>
+										<option value="5">Type 5 - The Investigator</option>
+										<option value="6">Type 6 - The Loyalist</option>
+										<option value="7">Type 7 - The Enthusiast</option>
+										<option value="8">Type 8 - The Challenger</option>
+										<option value="9">Type 9 - The Peacemaker</option>
 									</select>
 								</div>
 								<div>

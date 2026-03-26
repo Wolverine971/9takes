@@ -23,6 +23,7 @@ export type SearchPreviewBotName =
 	| 'Bingbot'
 	| 'DuckDuckBot'
 	| 'Applebot'
+	| 'YandexBot'
 	| 'Twitterbot'
 	| 'FacebookExternalHit'
 	| 'Slackbot'
@@ -35,8 +36,8 @@ export type SearchPreviewBotName =
 	| 'PerplexityBot';
 
 export type UserFetchBotName = 'ChatGPT-User' | 'Claude-User' | 'Perplexity-User';
-export type AllowedAiCrawlerName = 'GPTBot' | 'ClaudeBot' | 'CCBot';
-export type HardBlockedReason = 'automated_http_client' | 'unknown_bot_user_agent';
+export type AllowedAiCrawlerName = 'GPTBot' | 'ClaudeBot' | 'CCBot' | 'Google-Extended';
+export type HardBlockedReason = 'unknown_bot_user_agent';
 export type ContentActorType = 'anonymous_human' | 'allowed_ai_crawler';
 export type ContentRequestKind = 'page' | 'data';
 
@@ -98,21 +99,22 @@ export const CONTENT_GUARD_CACHE_CONTROL = 'private, no-store';
 export const CONTENT_ACCESS_ANON_COOKIE_NAME = '9tanon';
 export const CONTENT_ACCESS_ANON_COOKIE_MAX_AGE_SECONDS = 60 * 60 * 24 * 30;
 
-const CONTENT_METHODS = new Set(['GET', 'HEAD']);
+const CONTENT_METHODS = new Set(['GET']);
 const DATA_SUFFIX = '/__data.json';
 const ANONYMOUS_HUMAN_UNIQUE_LIMIT_10M = 24;
 const ANONYMOUS_HUMAN_UNIQUE_LIMIT_1H = 60;
 const ANONYMOUS_HUMAN_UNIQUE_LIMIT_24H = 120;
-const ALLOWED_AI_CRAWLER_UNIQUE_LIMIT_10M = 3;
-const ALLOWED_AI_CRAWLER_TOTAL_LIMIT_10M = 4;
-const ALLOWED_AI_CRAWLER_UNIQUE_LIMIT_24H = 5;
-const ALLOWED_AI_CRAWLER_TOTAL_LIMIT_24H = 8;
+const ALLOWED_AI_CRAWLER_UNIQUE_LIMIT_10M = 50;
+const ALLOWED_AI_CRAWLER_TOTAL_LIMIT_10M = 100;
+const ALLOWED_AI_CRAWLER_UNIQUE_LIMIT_24H = 500;
+const ALLOWED_AI_CRAWLER_TOTAL_LIMIT_24H = 1000;
 
 const SEARCH_PREVIEW_BOTS: BotDefinition<SearchPreviewBotName>[] = [
 	{ name: 'Googlebot', pattern: /googlebot/i },
 	{ name: 'Bingbot', pattern: /bingbot/i },
 	{ name: 'DuckDuckBot', pattern: /duckduckbot/i },
 	{ name: 'Applebot', pattern: /applebot/i },
+	{ name: 'YandexBot', pattern: /yandex(bot)?/i },
 	{ name: 'Twitterbot', pattern: /twitterbot/i },
 	{ name: 'FacebookExternalHit', pattern: /facebookexternalhit/i },
 	{ name: 'Slackbot', pattern: /slackbot/i },
@@ -134,23 +136,8 @@ const USER_FETCH_BOTS: BotDefinition<UserFetchBotName>[] = [
 const ALLOWED_AI_CRAWLERS: BotDefinition<AllowedAiCrawlerName>[] = [
 	{ name: 'GPTBot', pattern: /gptbot/i },
 	{ name: 'ClaudeBot', pattern: /claudebot/i },
-	{ name: 'CCBot', pattern: /\bccbot\b/i }
-];
-
-const AUTOMATED_HTTP_CLIENT_PATTERNS = [
-	/\bcurl\b/i,
-	/\bwget\b/i,
-	/\bpython-requests\b/i,
-	/\bpython-urllib\b/i,
-	/\bhttpx\b/i,
-	/\baiohttp\b/i,
-	/\bgo-http-client\b/i,
-	/\bokhttp\b/i,
-	/\blibwww-perl\b/i,
-	/\bnode-fetch\b/i,
-	/\bundici\b/i,
-	/\baxios\b/i,
-	/\bscrapy\b/i
+	{ name: 'CCBot', pattern: /\bccbot\b/i },
+	{ name: 'Google-Extended', pattern: /google-extended/i }
 ];
 
 const GENERIC_BOT_PATTERNS = [/\bbot\b/i, /\bcrawler\b/i, /\bspider\b/i, /\bscraper\b/i];
@@ -228,10 +215,6 @@ export function getHardBlockedReason({
 		matchBotDefinition(normalizedUserAgent, ALLOWED_AI_CRAWLERS)
 	) {
 		return null;
-	}
-
-	if (matchesAny(normalizedUserAgent, AUTOMATED_HTTP_CLIENT_PATTERNS)) {
-		return 'automated_http_client';
 	}
 
 	if (matchesAny(normalizedUserAgent, GENERIC_BOT_PATTERNS)) {

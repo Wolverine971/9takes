@@ -3,6 +3,10 @@
 	import { onMount, onDestroy } from 'svelte';
 	import { fly } from 'svelte/transition';
 	import { browser } from '$app/environment';
+	import {
+		buildPersonalityAnalysisPath,
+		formatPersonalityDisplayName
+	} from '$lib/utils/personalityAnalysis';
 
 	export let links: string[] = [];
 	export let title: string = 'More Personalities';
@@ -98,8 +102,8 @@
 			<ul class="sidebar-list">
 				{#each links as link}
 					<li class="sidebar-item">
-						<a href={`/personality-analysis/${link.split(' ').join('-')}`} class="sidebar-link">
-							{link}
+						<a href={buildPersonalityAnalysisPath(link)} class="sidebar-link">
+							{formatPersonalityDisplayName(link)}
 						</a>
 					</li>
 				{/each}

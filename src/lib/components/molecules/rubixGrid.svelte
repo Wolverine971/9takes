@@ -2,6 +2,11 @@
 <script lang="ts">
 	import { onMount } from 'svelte';
 	import { fly } from 'svelte/transition';
+	import {
+		buildPersonalityAnalysisPath,
+		buildPersonalityImagePath,
+		formatPersonalityDisplayName
+	} from '$lib/utils/personalityAnalysis';
 
 	type Person = { name: string; link: boolean; hasImage: boolean };
 
@@ -139,19 +144,19 @@
 	{#each firstGroup as person, i}
 		<a
 			class="face front grid-item"
-			href={person.link ? `/personality-analysis/${person.name}` : '#'}
+			href={person.link ? buildPersonalityAnalysisPath(person.name) : '#'}
 		>
 			<div class="pop-card" title="">
 				<!-- ${firstGroup[Math.floor(Math.random() * 8)] -->
 				<img
 					class="pop-card-image profileFace tint"
-					src={`/types/${type}s/s-${person.name}.webp`}
-					alt={person.name.split('-').join(' ')}
+					src={buildPersonalityImagePath(type, person.name, 'thumbnail')}
+					alt={formatPersonalityDisplayName(person.name)}
 					in:fly={{ y: 200, duration: 2000 }}
 				/>
 				<div class="pop-card-user">
-					<p class="name-pop" data-value={person.name.split('-').join(' ')}>
-						{person.name.split('-').join(' ')}
+					<p class="name-pop" data-value={formatPersonalityDisplayName(person.name)}>
+						{formatPersonalityDisplayName(person.name)}
 					</p>
 				</div>
 			</div>

@@ -6,6 +6,7 @@ import path from 'path';
 import { fileURLToPath } from 'url';
 import { createClient } from '@supabase/supabase-js';
 import dotenv from 'dotenv';
+import { buildPersonalityImagePath, normalizePersonalitySlug } from './lib/personalitySeo.js';
 
 // Load environment variables
 dotenv.config();
@@ -39,24 +40,22 @@ async function getFamousPeople() {
 }
 
 function checkImageExists(personName, enneagramType) {
-	// Check for small thumbnail (s-{name}.webp) used in UI components
-	const smallImagePath = path.join(
-		STATIC_DIR,
-		'types',
-		`${enneagramType}s`,
-		`s-${personName}.webp`
-	);
+	const smallImageRelativePath = buildPersonalityImagePath(enneagramType, personName, 'thumbnail');
+	if (!smallImageRelativePath) {
+		return false;
+	}
+
+	const smallImagePath = path.join(STATIC_DIR, smallImageRelativePath.replace(/^\//, ''));
 	if (existsSync(smallImagePath)) {
 		return true;
 	}
 
-	// Also check for regular image ({name}.webp) as fallback
-	const regularImagePath = path.join(
-		STATIC_DIR,
-		'types',
-		`${enneagramType}s`,
-		`${personName}.webp`
-	);
+	const regularImageRelativePath = buildPersonalityImagePath(enneagramType, personName);
+	if (!regularImageRelativePath) {
+		return false;
+	}
+
+	const regularImagePath = path.join(STATIC_DIR, regularImageRelativePath.replace(/^\//, ''));
 	return existsSync(regularImagePath);
 }
 
@@ -78,7 +77,7 @@ function groupByEnneagramType(people) {
 		if (type >= 1 && type <= 9) {
 			const hasImage = checkImageExists(person.person, type);
 			grouped[type].push({
-				name: person.person,
+				name: normalizePersonalitySlug(person.person),
 				link: person.published === true,
 				hasImage,
 				lastmod: person.lastmod || null,

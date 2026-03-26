@@ -268,7 +268,7 @@ The relationship ended in allegations. The allegations calcified into global nar
 
 ## "I Knew I'd Have to Semi-Eviscerate Myself"
 
-The Depp–Heard legal battle turned his private life into global entertainment. Plenty of public figures would have tried to outlast it quietly.
+The Depp-Heard legal battle turned his private life into global entertainment. Plenty of public figures would have tried to outlast it quietly.
 
 Depp chose the opposite: exposure.
 

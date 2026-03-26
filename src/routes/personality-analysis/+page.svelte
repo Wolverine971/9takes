@@ -5,6 +5,11 @@
 	import ArrowRightIcon from '$lib/components/icons/arrowRightIcon.svelte';
 	import EmailSignup from '$lib/components/molecules/Email-Signup.svelte';
 	import {
+		buildPersonalityAnalysisPath,
+		buildPersonalityImagePath,
+		formatPersonalityDisplayName
+	} from '$lib/utils/personalityAnalysis';
+	import {
 		PRIMARY_PERSONALITY_CATEGORY_SLUGS,
 		getPersonalityCategoryBySlug
 	} from '$lib/personalityCategories';
@@ -32,13 +37,6 @@
 		8: { name: 'The Challenger', tagline: 'Self-confident, decisive, confrontational' },
 		9: { name: 'The Peacemaker', tagline: 'Receptive, reassuring, complacent' }
 	};
-
-	function formatName(slug: string) {
-		return slug
-			.split('-')
-			.map((word) => word.charAt(0).toUpperCase() + word.slice(1))
-			.join(' ');
-	}
 
 	const primaryCategories = PRIMARY_PERSONALITY_CATEGORY_SLUGS.map((slug) =>
 		getPersonalityCategoryBySlug(slug)
@@ -186,14 +184,14 @@
 					{#each data.featured as person (person.slug)}
 						{@const label = getRecencyLabel(person.lastmod || person.date)}
 						<a
-							href="/personality-analysis/{person.slug}"
+							href={buildPersonalityAnalysisPath(person.slug)}
 							class="featured-person-card"
-							aria-label="Read analysis of {formatName(person.slug)}"
+							aria-label="Read analysis of {formatPersonalityDisplayName(person.slug)}"
 						>
 							<div class="featured-person-image">
 								<img
-									src={`/types/${person.enneagram}s/${person.slug}.webp`}
-									alt={formatName(person.slug)}
+									src={buildPersonalityImagePath(person.enneagram, person.slug)}
+									alt={formatPersonalityDisplayName(person.slug)}
 									loading="eager"
 									width="400"
 									height="533"
@@ -205,7 +203,8 @@
 								{#if label}
 									<span class="recency-badge" class:new={label === 'New'}>{label}</span>
 								{/if}
-								<span class="featured-person-name">{formatName(person.slug)}</span>
+								<span class="featured-person-name">{formatPersonalityDisplayName(person.slug)}</span
+								>
 								<span class="featured-person-type">
 									Type {person.enneagram}: {person.enneagram
 										? typeNames[parseInt(person.enneagram)]?.name || ''
@@ -234,14 +233,14 @@
 					{#each data.recentlyUpdated as person (person.slug)}
 						{@const label = getRecencyLabel(person.lastmod || person.date)}
 						<a
-							href="/personality-analysis/{person.slug}"
+							href={buildPersonalityAnalysisPath(person.slug)}
 							class="recent-person-card"
-							aria-label="Read analysis of {formatName(person.slug)}"
+							aria-label="Read analysis of {formatPersonalityDisplayName(person.slug)}"
 						>
 							<div class="recent-person-image">
 								<img
-									src={`/types/${person.enneagram}s/s-${person.slug}.webp`}
-									alt={formatName(person.slug)}
+									src={buildPersonalityImagePath(person.enneagram, person.slug, 'thumbnail')}
+									alt={formatPersonalityDisplayName(person.slug)}
 									loading="lazy"
 									width="200"
 									height="200"
@@ -252,7 +251,7 @@
 								{#if label}
 									<span class="recency-badge" class:new={label === 'New'}>{label}</span>
 								{/if}
-								<span class="recent-person-name">{formatName(person.slug)}</span>
+								<span class="recent-person-name">{formatPersonalityDisplayName(person.slug)}</span>
 								<span class="recent-person-type">
 									Type {person.enneagram}
 								</span>
@@ -291,21 +290,21 @@
 					<div class="people-grid">
 						{#each typePeople.slice(0, 5) as person}
 							<a
-								href="/personality-analysis/{person.slug}"
+								href={buildPersonalityAnalysisPath(person.slug)}
 								class="person-card"
-								aria-label="Read analysis of {formatName(person.slug)}"
+								aria-label="Read analysis of {formatPersonalityDisplayName(person.slug)}"
 							>
 								<div class="person-image">
 									<img
-										src={`/types/${person.enneagram}s/s-${person.slug}.webp`}
-										alt={formatName(person.slug)}
+										src={buildPersonalityImagePath(person.enneagram, person.slug, 'thumbnail')}
+										alt={formatPersonalityDisplayName(person.slug)}
 										loading="lazy"
 										width="200"
 										height="200"
 									/>
 								</div>
 								<div class="person-info">
-									<span class="person-name">{formatName(person.slug)}</span>
+									<span class="person-name">{formatPersonalityDisplayName(person.slug)}</span>
 								</div>
 							</a>
 						{/each}

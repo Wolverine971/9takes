@@ -1,5 +1,11 @@
 <!-- src/lib/components/molecules/BlogTiles.svelte -->
 <script lang="ts">
+	import {
+		buildPersonalityAnalysisPath,
+		buildPersonalityImagePath,
+		formatPersonalityDisplayName
+	} from '$lib/utils/personalityAnalysis';
+
 	export let blogs: {
 		people: App.BlogPost[];
 		enneagram: App.BlogPost[];
@@ -100,7 +106,7 @@
 	<div class="blog-grid-container temp-three-row">
 		{#each blogs?.people as person}
 			<a
-				href="/personality-analysis/{person.slug}"
+				href={buildPersonalityAnalysisPath(person.slug)}
 				class="grid-item max-high"
 				data-sveltekit-preload-data="tap"
 			>
@@ -109,14 +115,13 @@
 						fetchPriority="low"
 						loading="lazy"
 						class="grid-img"
-						srcset={`/types/${person.enneagram}s/s-${person.slug}.webp 218w`}
-						src={`/types/${person.enneagram}s/s-${person.slug}.webp`}
-						alt={person.slug.split('-').join(' ')}
+						src={buildPersonalityImagePath(person.enneagram, person.slug, 'thumbnail')}
+						alt={formatPersonalityDisplayName(person.slug)}
 					/>
 				{/if}
 				<div class="fit-card txt-white">
 					<h3>
-						{person.slug.split('-').join(' ')}
+						{formatPersonalityDisplayName(person.slug)}
 					</h3>
 				</div>
 			</a>

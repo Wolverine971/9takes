@@ -6,6 +6,7 @@ import {
 	type PersonalityCategorySlug
 } from '$lib/personalityCategories';
 import { extractContentQualityScore } from '$lib/server/personalityCategoryData';
+import { normalizePersonalitySlug } from '$lib/utils/personalityAnalysis';
 
 export type PersonalitySimilarityRow = Pick<
 	Database['public']['Tables']['blogs_famous_people']['Row'],
@@ -88,10 +89,17 @@ export function rankSimilarPeople({
 }: RankSimilarPeopleOptions): PersonalitySimilarityResult[] {
 	const currentEnneagramValue =
 		currentEnneagram === null || currentEnneagram === undefined ? null : String(currentEnneagram);
+	const normalizedCurrentSlug = normalizePersonalitySlug(currentSlug);
 
 	return rows
 		.filter((row) => {
-			if (!row.person || row.person === currentSlug || row.published !== true) return false;
+			if (
+				!row.person ||
+				normalizePersonalitySlug(row.person) === normalizedCurrentSlug ||
+				row.published !== true
+			) {
+				return false;
+			}
 			if (!requireSameEnneagram) return true;
 			if (!currentEnneagramValue) return false;
 			return row.enneagram !== null && String(row.enneagram) === currentEnneagramValue;
@@ -129,7 +137,9 @@ export function rankSimilarPeople({
 			const freshnessDiff = getSortTimestamp(b.row) - getSortTimestamp(a.row);
 			if (freshnessDiff !== 0) return freshnessDiff;
 
-			return (a.row.person ?? '').localeCompare(b.row.person ?? '');
+			return normalizePersonalitySlug(a.row.person).localeCompare(
+				normalizePersonalitySlug(b.row.person)
+			);
 		})
 		.slice(0, limit);
 }

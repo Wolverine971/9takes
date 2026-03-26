@@ -5,6 +5,11 @@
 	import EnneagramTypeIntro from '$lib/components/blog/EnneagramTypeIntro.svelte';
 	import EmailSignup from '$lib/components/molecules/Email-Signup.svelte';
 	import EnneagramTypeBottom from '$lib/components/blog/EnneagramTypeBottom.svelte';
+	import {
+		buildPersonalityAnalysisPath,
+		buildPersonalityImagePath,
+		formatPersonalityDisplayName
+	} from '$lib/utils/personalityAnalysis';
 
 	export let data: PageData;
 
@@ -50,21 +55,20 @@
 			</div>
 			<div class="people-grid-container">
 				{#each data.people as person}
-					<a href="/personality-analysis/{person.slug}" class="grid-item">
+					<a href={buildPersonalityAnalysisPath(person.slug)} class="grid-item">
 						{#if person.enneagram}
 							<img
-								srcset="{`/types/${person.enneagram}s/s-${person.slug}.webp`} 218w"
 								loading="lazy"
 								class="grid-img"
-								src={`/types/${person.enneagram}s/s-${person.slug}.webp`}
-								alt={`${person.slug.split('-').join(' ')} - Enneagram Type ${data.slug}`}
+								src={buildPersonalityImagePath(person.enneagram, person.slug, 'thumbnail')}
+								alt={`${formatPersonalityDisplayName(person.slug)} - Enneagram Type ${data.slug}`}
 								width="218"
 								height="218"
 							/>
 						{/if}
 						<div class="person-name">
 							<h3 style:--tag={`h-blog-${person.title.toLowerCase().replace(/[^a-zA-Z0-9]/g, '')}`}>
-								{person.slug.split('-').join(' ')}
+								{formatPersonalityDisplayName(person.slug)}
 							</h3>
 						</div>
 					</a>

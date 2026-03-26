@@ -7,6 +7,11 @@ import { createClient } from '@supabase/supabase-js';
 import pkg from 'fast-glob';
 const { glob } = pkg;
 import dotenv from 'dotenv';
+import {
+	buildPersonalityImagePath,
+	normalizePersonalityAnalysisUrl,
+	normalizePersonalitySlug
+} from './lib/personalitySeo.js';
 
 // Load environment variables
 dotenv.config();
@@ -132,7 +137,7 @@ async function getFamousPeople() {
 
 	return (personData || []).map((e) => ({
 		...e,
-		slug: e.person
+		slug: normalizePersonalitySlug(e.person)
 	}));
 }
 
@@ -362,19 +367,22 @@ async function generateSitemap() {
 ${allPosts
 	.map((post) => {
 		if (post.loc.includes('personality-analysis')) {
-			if (post.person && post.enneagram) {
+			const normalizedLoc = normalizePersonalityAnalysisUrl(post.loc, post.person ?? post.slug);
+			const imagePath = buildPersonalityImagePath(post.enneagram, post.person ?? post.slug);
+
+			if (imagePath) {
 				return `<url>
-    <loc>${post.loc}</loc>
+    <loc>${normalizedLoc}</loc>
     <lastmod>${post.lastmod && new Date(post.lastmod).toISOString()}</lastmod>
     <changefreq>${post.changefreq}</changefreq>
     <priority>0.7</priority>
     <image:image>
-        <image:loc>https://9takes.com/types/${post.enneagram}s/${post.person}.webp</image:loc>
+        <image:loc>https://9takes.com${imagePath}</image:loc>
     </image:image>
 </url>`;
 			} else {
 				return `<url>
-    <loc>${post.loc}</loc>
+    <loc>${normalizedLoc}</loc>
     <lastmod>${post.lastmod && new Date(post.lastmod).toISOString()}</lastmod>
     <changefreq>${post.changefreq}</changefreq>
     <priority>0.7</priority>

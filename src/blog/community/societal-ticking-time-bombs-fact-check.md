@@ -4,8 +4,8 @@
 
 ### SSRIs / psychiatry section
 
-- **“55.7% of practicing psychiatrists receive payments… totaling ~$110.5M in 2 years”** — This matches a peer-reviewed analysis of Open Payments data (2016–2017) showing **55.7%** received payments totaling **$110.5M**. ([PMC][1])
-- **Psychiatrists providing psychotherapy declined from ~44% of visits (1996–97) to ~22% (2015–16), and ~53% provided no psychotherapy (2010–16)** — Supported by AJ Psych / Columbia writeup. ([PubMed][2])
+- **“55.7% of practicing psychiatrists receive payments… totaling ~$110.5M in 2 years”** — This matches a peer-reviewed analysis of Open Payments data (2016-2017) showing **55.7%** received payments totaling **$110.5M**. ([PMC][1])
+- **Psychiatrists providing psychotherapy declined from ~44% of visits (1996-97) to ~22% (2015-16), and ~53% provided no psychotherapy (2010-16)** — Supported by AJ Psych / Columbia writeup. ([PubMed][2])
 - **“Primary care prescribes 79% of antidepressants”** — Commonly cited; supported by a review noting **79%** prescribed in primary care settings. ([PMC][3])
 - **“Antidepressants prescribed with no psychiatric diagnosis noted… rose to 72.7%”** — Supported by _Health Affairs_ analysis (1996→2007 trend; “no psychiatric diagnoses were noted”). ([Health Affairs][4])
 - **NEJM maintenance vs discontinuation trial:** Your use of **“44% … did not relapse”** is consistent with the discontinuation arm not relapsing by 52 weeks (discontinuation relapse 56%). ([New England Journal of Medicine][5])
@@ -18,12 +18,12 @@
 ### Gambling legalization / growth
 
 - **“$157B wagered legally in 2025”** — This figure is being reported by multiple outlets (with some variation: some project 2025 was ~$157B; others suggest handle could exceed ~$165B depending on final regulator tallies). Your number is plausible but you should acknowledge it’s an estimate and may be revised. ([Yahoo Sports][11])
-- **Bankruptcy increase claim:** UCLA Anderson Review reports **25–30% increase** in personal bankruptcy filings likelihood after online sports gambling legalization (plus delinquencies/collections). ([UCLA Anderson Review][12])
+- **Bankruptcy increase claim:** UCLA Anderson Review reports **25-30% increase** in personal bankruptcy filings likelihood after online sports gambling legalization (plus delinquencies/collections). ([UCLA Anderson Review][12])
 
 ### IQ decline / reading / attention
 
 - **Bratsberg & Rogeberg (Norway) within-family decline** — Correct and well-cited. ([PNAS][13])
-- **US cognitive score declines (2006–2018, ~394k)** — Supported by Northwestern summary of the SAPA dataset findings. ([Northwestern Now][14])
+- **US cognitive score declines (2006-2018, ~394k)** — Supported by Northwestern summary of the SAPA dataset findings. ([Northwestern Now][14])
 - **Lead exposure stat (170M Americans, 824M IQ points)** — Supported by PNAS paper + Duke summary. ([PNAS][15])
 - **“Brain rot” as Oxford Word of the Year 2024 + 230% usage increase** — Correct. ([Oxford University Press][16])
 - **Gloria Mark attention spans (“2.5 minutes… 75 seconds… 47 seconds”)** — She states these figures in APA podcast and on her site; good to frame as _average time on a screen/task before switching_ in her research context (not “human attention span” universally). ([American Psychological Association][17])
@@ -37,7 +37,7 @@
 
 This is the **shakiest** and most likely to get attacked.
 
-- The newer large meta-analysis coverage in 2024–2025 has been widely reported as **~15%** experiencing withdrawal symptoms _caused by discontinuation_ and **~3% severe** (depending on definitions/method). ([BMJ][19])
+- The newer large meta-analysis coverage in 2024-2025 has been widely reported as **~15%** experiencing withdrawal symptoms _caused by discontinuation_ and **~3% severe** (depending on definitions/method). ([BMJ][19])
 - Your linked JAMA Psychiatry item is not what most people cite for “56%” in a clean way, and across the literature the _rate depends heavily on how you define/attribute symptoms_ and whether you include nonspecific symptoms. (This is exactly where critics will hit you.)
 
 **Suggested edit:**
@@ -81,7 +81,7 @@ Either (a) quote the paper exactly with the specific relapse figures from the fu
 ### 5) **Gambling stats that look like universal truths**
 
 - **“96% of sports bettors lose money”** — This is plausible as a _survey-based_ claim (and you cite a consumer finance article), but it’s not an audited industry statistic. Keep it, but label it as survey/self-report and avoid implying it’s a law of nature.
-- **“10% of men 18–30 meet criteria for gambling addiction” / “45% men under 30 reported at least one gambling problem behavior”** — These are the kind of stats that vary massively by instrument and sample. You should treat them as “in some surveys” and keep the sample context prominent (e.g., “a poll found…”).
+- **“10% of men 18-30 meet criteria for gambling addiction” / “45% men under 30 reported at least one gambling problem behavior”** — These are the kind of stats that vary massively by instrument and sample. You should treat them as “in some surveys” and keep the sample context prominent (e.g., “a poll found…”).
 - **“Problem gamblers have the highest suicide rate of any addiction disorder”** — The relationship between gambling disorder and suicidality is strong, but “highest of any addiction disorder” is an over-broad superlative that’s hard to prove cleanly across disorders. Better to say “very high” and cite systematic review findings (ideation/attempt rates). ([PMC][21])
 
 ### 6) **Microplastics section**

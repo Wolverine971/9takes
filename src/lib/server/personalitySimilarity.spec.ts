@@ -73,4 +73,17 @@ describe('personalitySimilarity', () => {
 
 		expect(ranked.map((entry) => entry.row.person)).toEqual(['Alex-Hormozi', 'Taylor-Swift']);
 	});
+
+	it('treats current slugs case-insensitively when excluding the active profile', () => {
+		const ranked = rankSimilarPeople({
+			currentSlug: 'tony-robbins',
+			currentTypes: ['creator', 'entrepreneur'],
+			rows: [
+				makeRow({ person: 'Tony-Robbins', type: ['creator', 'entrepreneur'] }),
+				makeRow({ person: 'Alex-Hormozi', type: ['entrepreneur'] })
+			]
+		});
+
+		expect(ranked.map((entry) => entry.row.person)).toEqual(['Alex-Hormozi']);
+	});
 });

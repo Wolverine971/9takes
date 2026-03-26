@@ -1,6 +1,11 @@
 <!-- src/lib/components/molecules/PeopleBoard.svelte -->
 <script lang="ts">
 	import { onMount } from 'svelte';
+	import {
+		buildPersonalityAnalysisPath,
+		buildPersonalityImagePath,
+		formatPersonalityDisplayName
+	} from '$lib/utils/personalityAnalysis';
 	import { famousTypes } from './famousTypes'; // adjust path as needed
 	import SmallPopCard from '../atoms/SmallPopCard.svelte';
 
@@ -36,12 +41,12 @@
 			<!-- Normal cell: show name immediately, show actual image only if `loaded` -->
 			<div class="grid-cell">
 				<SmallPopCard
-					image={`/types/${person.type}s/s-${person.name}.webp`}
+					image={buildPersonalityImagePath(person.type, person.name, 'thumbnail')}
 					showIcon={false}
 					enneagramType={person.type}
-					displayText={person.name.split('-').join(' ')}
+					displayText={formatPersonalityDisplayName(person.name)}
 					subtext=""
-					link={person.url ? `/personality-analysis/${person.name}` : ''}
+					link={person.url ? buildPersonalityAnalysisPath(person.name) : ''}
 				/>
 			</div>
 		{/if}

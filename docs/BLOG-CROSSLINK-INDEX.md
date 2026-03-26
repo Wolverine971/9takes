@@ -1,7 +1,7 @@
 <!-- docs/BLOG-CROSSLINK-INDEX.md -->
 # Blog Cross-Link Index
 
-_Generated: 2026-03-24_
+_Generated: 2026-03-26_
 _Total Posts Analyzed: 171 (Published: 141, Unpublished: 30)_
 _Note: Individual type pages (enneagram-type-1 through 9) excluded from link counts_
 
@@ -17,7 +17,7 @@ _Note: Individual type pages (enneagram-type-1 through 9) excluded from link cou
 | Posts with 0 outgoing links | 32 |
 | Posts with 0 incoming links | 47 |
 | Completely isolated (0 in, 0 out) | 28 |
-| Total internal cross-links | 871 |
+| Total internal cross-links | 873 |
 | Average outgoing links per post | 5.1 |
 
 ---
@@ -149,16 +149,16 @@ These posts are "orphaned" - no other content links to them.
 | 19 | 10 | 9 Toxic Personality Traits: The Hidden Dark Side of Each Enn... | `enneagram/toxic-traits-of-each-enneagram-type.md` |
 | 17 | 9 | Enneagram Types and Trauma Response: Understanding Your Surv... | `enneagram/mental-health/enneagram-trauma-response-guide.md` |
 | 16 | 13 | Why You Can | `enneagram/why-you-cant-stop-overthinking-enneagram.md` |
-| 14 | 7 | Your Dark Side Has a Number (And It | `enneagram/enneagram-stress-number.md` |
+| 15 | 7 | Your Dark Side Has a Number (And It | `enneagram/enneagram-stress-number.md` |
 | 12 | 12 | Enneagram Self Development: Transform Your Personality Into ... | `enneagram/enneagram-self-development.md` |
 | 12 | 7 | Enneagram Types on a First Date: What to Expect | `enneagram/enneagram-types-on-a-first-date.md` |
 | 12 | 9 | Crisis Management by Enneagram Type: Your Emergency Mental H... | `enneagram/mental-health/enneagram-crisis-management-guide.md` |
 | 12 | 10 | How Your Enneagram Type Shapes Your Therapy Experience | `enneagram/mental-health/enneagram-therapy-guide.md` |
 | 11 | 8 | How Your Enneagram Type Shapes Your Relationship with Medica... | `enneagram/mental-health/enneagram-medication-mental-health.md` |
 | 11 | 11 | Enneagram and Workplace Mental Health: Preventing Burnout by... | `enneagram/mental-health/enneagram-workplace-mental-health.md` |
+| 10 | 6 | Why You Don | `enneagram/enneagram-wings-complete-guide.md` |
 | 10 | 10 | Enneagram and Addiction: Understanding Each Type | `enneagram/mental-health/enneagram-addiction-recovery-guide.md` |
 | 10 | 10 | What Every Parent Should Know About Personality Patterns and... | `enneagram/mental-health/enneagram-parenting-mental-health.md` |
-| 9 | 7 | Why Your Anxiety Is Different (And What Actually Works for Y... | `enneagram/anxiety-and-enneagram-types-guide.md` |
 
 ### Most Links OUT (link to the most other posts)
 
@@ -217,9 +217,9 @@ Sorted by total connections (incoming + outgoing).
 | 25 | 9 | 16 | Relationship Communication Guide: The Enneagram Key to Under... | `enneagram/relationship-communication-guide.md` |
 | 24 | 12 | 12 | Enneagram Self Development: Transform Your Personality Into ... | `enneagram/enneagram-self-development.md` |
 | 22 | 9 | 13 | Enneagram and ADHD: Which Types Struggle Most (And Why) | `enneagram/enneagram-and-adhd-which-types-struggle-most.md` |
+| 22 | 15 | 7 | Your Dark Side Has a Number (And It | `enneagram/enneagram-stress-number.md` |
 | 22 | 12 | 10 | How Your Enneagram Type Shapes Your Therapy Experience | `enneagram/mental-health/enneagram-therapy-guide.md` |
 | 22 | 11 | 11 | Enneagram and Workplace Mental Health: Preventing Burnout by... | `enneagram/mental-health/enneagram-workplace-mental-health.md` |
-| 21 | 14 | 7 | Your Dark Side Has a Number (And It | `enneagram/enneagram-stress-number.md` |
 | 21 | 12 | 9 | Crisis Management by Enneagram Type: Your Emergency Mental H... | `enneagram/mental-health/enneagram-crisis-management-guide.md` |
 | 20 | 10 | 10 | Enneagram and Addiction: Understanding Each Type | `enneagram/mental-health/enneagram-addiction-recovery-guide.md` |
 | 20 | 10 | 10 | What Every Parent Should Know About Personality Patterns and... | `enneagram/mental-health/enneagram-parenting-mental-health.md` |
@@ -228,33 +228,34 @@ Sorted by total connections (incoming + outgoing).
 | 19 | 11 | 8 | How Your Enneagram Type Shapes Your Relationship with Medica... | `enneagram/mental-health/enneagram-medication-mental-health.md` |
 | 19 | 9 | 10 | Enneagram and Neurodivergence: When Personality Meets Brain ... | `enneagram/mental-health/enneagram-neurodivergence-guide.md` |
 | 19 | 9 | 10 | Is the Enneagram Scientifically Valid? (What the Research Ac... | `enneagram/mental-health/enneagram-science-mental-health.md` |
+| 17 | 10 | 7 | Shadow Work by Enneagram Type: Your Dark Side Has a Pattern | `enneagram/shadow-work-by-enneagram-type.md` |
 | 17 | 8 | 9 | Why Therapy Doesn | `enneagram/why-therapy-doesnt-work-the-same-for-every-type.md` |
 | 16 | 9 | 7 | Why Your Anxiety Is Different (And What Actually Works for Y... | `enneagram/anxiety-and-enneagram-types-guide.md` |
-| 16 | 9 | 7 | Shadow Work by Enneagram Type: Your Dark Side Has a Pattern | `enneagram/shadow-work-by-enneagram-type.md` |
+| 16 | 10 | 6 | Why You Don | `enneagram/enneagram-wings-complete-guide.md` |
 | 15 | 9 | 6 | Attachment Styles and Enneagram Types: Why the Same Style Lo... | `enneagram/attachment-styles-and-enneagram-types.md` |
-| 15 | 9 | 6 | Why You Don | `enneagram/enneagram-wings-complete-guide.md` |
 | 14 | 4 | 10 | Dark Triad Meets Enneagram: How Each Type Goes Wrong | `pop-culture/dark-triad-meets-enneagram.md` |
 | 13 | 8 | 5 | 9 Childhood Stereotypes Based on the Enneagram | `enneagram/enneagram-childhood-stereotypes.md` |
 | 13 | 5 | 8 | What to Say to Each Enneagram Type (Scripts That Actually Wo... | `enneagram/enneagram-communication-tips.md` |
 | 13 | 3 | 10 | Is the Enneagram Real? 27 Questions Everyone Asks (Finally A... | `enneagram/enneagram-faqs.md` |
 | 13 | 9 | 4 | Why You Don | `enneagram/enneagram-instinctual-subtypes.md` |
+| 13 | 7 | 6 | Enneagram Personal Growth: Unlock Your Type | `enneagram/enneagram-personal-growth.md` |
 | 13 | 5 | 8 | Best Free Enneagram Test (2025): Which One Actually Works? | `enneagram/enneagram-test-comparison-2025.md` |
 | 13 | 3 | 10 | Productivity Systems by Enneagram Type: Work With Your Perso... | `guides/productivity-systems-by-enneagram-type.md` |
 | 12 | 4 | 8 | Why MBTI Failed and What to Use Instead | `community/mbti-vs-enneagram.md` |
-| 12 | 3 | 9 | Why Your Anxiety Doesn | `enneagram/enneagram-anxiety-management-guide.md` |
 | 12 | 5 | 7 | Enneagram Communication Guide: Decode Any Personality Type i... | `enneagram/enneagram-communication-guide.md` |
 | 12 | 4 | 8 | Enneagram Dating Guide for Men: Type-Specific Strategies Tha... | `enneagram/enneagram-dating-guide-for-men.md` |
-| 12 | 6 | 6 | Enneagram Personal Growth: Unlock Your Type | `enneagram/enneagram-personal-growth.md` |
 | 12 | 3 | 9 | Why You Keep Sabotaging New Relationships (Your Enneagram Kn... | `enneagram/how-to-navigate-early-relationship-stages.md` |
 | 11 | 4 | 7 | Introducing 9takes: Answer First, Then Compare Perspectives | `community/introducing-9takes.md` |
+| 11 | 3 | 8 | Why Your Anxiety Doesn | `enneagram/enneagram-anxiety-management-guide.md` |
 | 11 | 4 | 7 | Enneagram Mental Health Red Flags: Early Warning Signs for A... | `enneagram/enneagram-mental-health-flags.md` |
 | 11 | 3 | 8 | Enneagram Types Working in Teams | `enneagram/enneagram-types-working-in-teams.md` |
-| 11 | 7 | 4 | Love Languages & Enneagram Types: The Ultimate Compatibility... | `enneagram/love-languages-and-enneagram-types.md` |
 | 11 | 1 | 10 | The Crash Course on Emotions We All Missed in Kindergarten | `guides/the-crash-course-on-emotions-that-we-missed-in-kindergarten.md` |
 | 11 | 2 | 9 | The Enneagram and Self-Development: A Guide to Personal Grow... | `guides/using-the-enneagram-for-self-development.md` |
 | 11 | 5 | 6 | Tech Titans Through the Enneagram: A Series on the Personali... | `pop-culture/tech-titans-enneagram-analysis.md` |
 | 10 | 5 | 5 | How Minds Actually Change | `community/how-minds-change-on-9takes.md` |
+| 10 | 6 | 4 | Love Languages & Enneagram Types: The Ultimate Compatibility... | `enneagram/love-languages-and-enneagram-types.md` |
 | 10 | 2 | 8 | Red Flags You | `enneagram/toxic-traits-relationships-warning-signs.md` |
+| 9 | 4 | 5 | Enneagram Connecting Lines: The Hidden Dynamics of Growth an... | `enneagram/enneagram-connecting-lines.md` |
 | 9 | 3 | 6 | Enneagram Leadership Styles: Why Your Natural Approach Keeps... | `enneagram/enneagram-leadership.md` |
 | 9 | 0 | 9 | Enneagram Type 9: The Peacemaker - Finding Your Voice | `enneagram/enneagram-type-9.md` |
 | 9 | 2 | 7 | Why Type 6 Isn | `enneagram/mental-health/enneagram-anxiety-complete-guide.md` |
@@ -290,7 +291,6 @@ Sorted by total connections (incoming + outgoing).
 | 7 | 2 | 5 | The Psychology of Jeffrey Epstein: Understanding the Dark He... | `pop-culture/epstein-psychology-part-1.md` |
 | 7 | 1 | 6 | The Blackpill Pipeline: How Shame, Rejection, and Anger Radi... | `pop-culture/incel-blackpill-radicalization-enneagram.md` |
 | 6 | 1 | 5 | What Was The Inspiration For 9takes? | `community/inspiration-for-9takes.md` |
-| 6 | 4 | 2 | Enneagram Connecting Lines: The Hidden Dynamics of Growth an... | `enneagram/enneagram-connecting-lines.md` |
 | 6 | 1 | 5 | How to Throw a Party Everyone Actually Wants to Attend | `enneagram/enneagram-party-planner.md` |
 | 6 | 2 | 4 | The Voice in Your Head: Master Positive Self-Talk for Your E... | `enneagram/enneagram-positive-self-talk.md` |
 | 6 | 3 | 3 | Enneagram Team Dynamics: The Complete Guide to High-Performa... | `enneagram/enneagram-team-dynamics.md` |

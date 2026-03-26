@@ -6,6 +6,11 @@
 	import type { PageData } from './$types';
 	import { browser } from '$app/environment';
 	import { page } from '$app/stores';
+	import {
+		buildPersonalityImagePath,
+		buildPersonalityImageUrl,
+		formatPersonalityDisplayName
+	} from '$lib/utils/personalityAnalysis';
 
 	// Only import critical components for initial render
 	import PeopleBlogPageHead from '$lib/components/blog/PeopleBlogPageHead.svelte';
@@ -82,7 +87,15 @@
 	let postMeta: App.BlogPost = normalizePost(data.post);
 	let postTypes: string[] = postMeta.type || [];
 	let postSuggestions: string[] = postMeta.suggestions || [];
-	let postPerson: string = postMeta.person || '';
+	let postDisplayName: string = formatPersonalityDisplayName(data.post.person || data.post.slug);
+	let postImagePath: string = buildPersonalityImagePath(
+		data.post.enneagram,
+		data.post.person || data.post.slug
+	);
+	let postImageUrl: string = buildPersonalityImageUrl(
+		data.post.enneagram,
+		data.post.person || data.post.slug
+	);
 
 	$: post = data.post;
 	$: comments = data.comments;
@@ -90,7 +103,12 @@
 	$: postMeta = normalizePost(post);
 	$: postTypes = postMeta.type || [];
 	$: postSuggestions = postMeta.suggestions || [];
-	$: postPerson = postMeta.person || '';
+	$: postDisplayName = formatPersonalityDisplayName(postMeta.person || postMeta.slug);
+	$: postImagePath = buildPersonalityImagePath(
+		postMeta.enneagram,
+		postMeta.person || postMeta.slug
+	);
+	$: postImageUrl = buildPersonalityImageUrl(postMeta.enneagram, postMeta.person || postMeta.slug);
 
 	// Table of Contents support
 	const contentStore = writable('');
@@ -334,17 +352,14 @@
 	</div>
 
 	<div class="featured-image" itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
-		<meta
-			itemprop="url"
-			content={`https://9takes.com/types/${post.enneagram}s/${post.person}.webp`}
-		/>
+		<meta itemprop="url" content={postImageUrl} />
 		<meta itemprop="width" content="900" />
 		<meta itemprop="height" content="900" />
 		<PopCard
-			image={`/types/${post.enneagram}s/${postPerson}.webp`}
+			image={postImagePath}
 			showIcon={false}
 			enneagramType={postMeta.enneagram}
-			displayText={postPerson.split('-').join(' ')}
+			displayText={postDisplayName}
 			priority={true}
 			scramble={false}
 			aspectRatio="1/1"

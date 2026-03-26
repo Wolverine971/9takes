@@ -3,6 +3,7 @@ import type { Actions } from './$types';
 import type { PageServerLoad } from './$types';
 import { error } from '@sveltejs/kit';
 import type { Database } from '../../../database.types';
+import { normalizePersonalitySlug } from '$lib/utils/personalityAnalysis';
 
 type FamousPersonRow = Database['public']['Tables']['blogs_famous_people']['Row'];
 type PersonPost = Pick<FamousPersonRow, 'person' | 'enneagram' | 'lastmod' | 'date'> & {
@@ -22,7 +23,7 @@ export const load: PageServerLoad = async ({ locals }) => {
 	}
 	const posts: PersonPost[] = (personData ?? []).map((e) => ({
 		...e,
-		slug: e.person ?? ''
+		slug: normalizePersonalitySlug(e.person)
 	}));
 
 	const uniqueTypes = Array.from(new Set(posts.map((obj) => obj.enneagram)));

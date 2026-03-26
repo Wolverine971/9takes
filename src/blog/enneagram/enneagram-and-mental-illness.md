@@ -133,21 +133,21 @@ Type 1s are susceptible to a range of mental health challenges, including:
 - Intense guilt
 - Self-destructive behaviors
 
-### Unhealthy Behaviors – The Spectrum of Perfectionist Tendencies
+### Unhealthy Behaviors - The Spectrum of Perfectionist Tendencies
 
-#### Mild – Early Signs of Obsessive Thinking
+#### Mild - Early Signs of Obsessive Thinking
 
 - Occasional self-criticism over minor mistakes
 - Difficulty relaxing due to a constant need for improvement
 - Frustration with others who don't meet their standards
 
-#### Moderate – Escalating Compulsive Behaviors
+#### Moderate - Escalating Compulsive Behaviors
 
 - Frequent mood swings based on perceived performance
 - Rigid adherence to self-imposed rules
 - Difficulty maintaining relationships due to high expectations
 
-#### Severe – Debilitating Perfectionism and OCD Symptoms
+#### Severe - Debilitating Perfectionism and OCD Symptoms
 
 - Paralyzing perfectionism leading to inability to complete tasks
 - Extreme self-punishment for perceived failures
@@ -167,7 +167,7 @@ Type 1s are susceptible to a range of mental health challenges, including:
    - Experiencing intense anger and shame when receiving constructive criticism
    - Isolating herself from the art community, exacerbating loneliness
 
-### Negative Coping Mechanisms – The Perfectionist's Maladaptive Strategies
+### Negative Coping Mechanisms - The Perfectionist's Maladaptive Strategies
 
 - Excessive self-criticism and negative self-talk
 - Projecting high standards onto others, straining relationships
@@ -192,21 +192,21 @@ Type 2s are susceptible to:
 - Emotional dependency
 - Obsessive jealousy
 
-### Unhealthy Behaviors – The Spectrum of Codependent Tendencies
+### Unhealthy Behaviors - The Spectrum of Codependent Tendencies
 
-#### Mild – Early Signs of Codependency
+#### Mild - Early Signs of Codependency
 
 - Over-involvement in others' problems, neglecting personal needs
 - Subtle manipulation to gain appreciation or validation
 - Feeling slighted when help is not acknowledged
 
-#### Moderate – Escalating Emotional Dependency
+#### Moderate - Escalating Emotional Dependency
 
 - Developing an intense need to be indispensable
 - Resentment when others do not follow their advice
 - Emotional volatility when feeling unappreciated or rejected
 
-#### Severe – Manipulative and Obsessive Behaviors
+#### Severe - Manipulative and Obsessive Behaviors
 
 - Engaging in coercive or controlling behaviors to maintain relationships
 - Intense jealousy leading to obsessive thoughts or actions
@@ -227,7 +227,7 @@ Type 2s are susceptible to:
    - Progresses into stalking to maintain perceived importance in someone’s life
    - Relationship deteriorates, leading to isolation and distress
 
-### Negative Coping Mechanisms – The Helper's Maladaptive Strategies
+### Negative Coping Mechanisms - The Helper's Maladaptive Strategies
 
 - Manipulating situations to feel needed or indispensable
 - Neglecting self-care, leading to burnout
@@ -252,21 +252,21 @@ Type 3s are susceptible to:
 - Narcissistic rage
 - Imposter syndrome
 
-### Unhealthy Behaviors – The Spectrum of Narcissistic Tendencies
+### Unhealthy Behaviors - The Spectrum of Narcissistic Tendencies
 
-#### Mild – Early Signs of Narcissistic Traits
+#### Mild - Early Signs of Narcissistic Traits
 
 - Overworking to achieve recognition and success
 - Constantly seeking external validation
 - Difficulty acknowledging personal flaws
 
-#### Moderate – Escalating Narcissistic Behaviors
+#### Moderate - Escalating Narcissistic Behaviors
 
 - Deceptive practices to maintain a successful image
 - Stress-related physical symptoms (e.g., hypertension)
 - Alienating others due to excessive focus on personal achievements
 
-#### Severe – Full-Blown Narcissistic Personality Disorder
+#### Severe - Full-Blown Narcissistic Personality Disorder
 
 - False self-image and living a double life
 - Justifying unethical behavior to reach goals
@@ -286,7 +286,7 @@ Type 3s are susceptible to:
    - Becomes hostile toward anyone challenging her intellect
    - Develops narcissistic traits and isolates herself socially
 
-### Negative Coping Mechanisms – The Achiever's Maladaptive Strategies
+### Negative Coping Mechanisms - The Achiever's Maladaptive Strategies
 
 - Dishonesty to maintain a facade of success
 - Overworking to the point of physical/mental strain
@@ -311,21 +311,21 @@ Type 4s are susceptible to:
 - Self-destructive behaviors
 - Obsessive thoughts about death or morbidity
 
-### Unhealthy Behaviors – The Spectrum of Depressive and Identity-Related Issues
+### Unhealthy Behaviors - The Spectrum of Depressive and Identity-Related Issues
 
-#### Mild – Early Signs of Emotional Turmoil
+#### Mild - Early Signs of Emotional Turmoil
 
 - Persistent feelings of inadequacy or envy
 - Romanticizing personal suffering
 - Difficulty feeling connected or understood
 
-#### Moderate – Escalating Depression and Identity Confusion
+#### Moderate - Escalating Depression and Identity Confusion
 
 - Emotional volatility, straining relationships
 - Withdrawal from social interactions
 - Preoccupation with themes of death or loss
 
-#### Severe – Chronic Depression and Identity Crisis
+#### Severe - Chronic Depression and Identity Crisis
 
 - Long-term isolation and alienation
 - Obsessive thoughts about mortality or morbidity
@@ -344,7 +344,7 @@ Type 4s are susceptible to:
    - Self-sabotage through distancing from positive influences
    - Worsening self-hatred and isolation
 
-### Negative Coping Mechanisms – The Individualist's Maladaptive Strategies
+### Negative Coping Mechanisms - The Individualist's Maladaptive Strategies
 
 - Retreating into fantasies or creative expressions of suffering
 - Rejecting support, leading to deeper isolation
@@ -381,21 +381,21 @@ Type 5s are susceptible to:
 - Psychotic breaks
 - Suicidal tendencies
 
-### Unhealthy Behaviors – The Spectrum of Isolation and Detachment
+### Unhealthy Behaviors - The Spectrum of Isolation and Detachment
 
-#### Mild – Early Signs of Social Withdrawal
+#### Mild - Early Signs of Social Withdrawal
 
 - Preferring isolation and solitude over social engagement
 - Over-focus on intellectual pursuits at the expense of health
 - Difficulty trusting others or accepting help
 
-#### Moderate – Escalating Detachment and Eccentric Behavior
+#### Moderate - Escalating Detachment and Eccentric Behavior
 
 - Growing eccentricity and detachment from day-to-day reality
 - Neglect of basic needs such as sleep and nutrition
 - Paranoia or distrust toward any form of assistance
 
-#### Severe – Extreme Isolation and Psychotic Tendencies
+#### Severe - Extreme Isolation and Psychotic Tendencies
 
 - Severe isolation, severe mental health decline
 - Distorted perceptions or potential psychotic breaks
@@ -414,7 +414,7 @@ Type 5s are susceptible to:
    - Insomnia and nightmares deepen her sense of disconnection
    - Potential psychotic breaks due to sleep deprivation and isolation
 
-### Negative Coping Mechanisms – The Investigator's Maladaptive Strategies
+### Negative Coping Mechanisms - The Investigator's Maladaptive Strategies
 
 - Withdrawing socially to avoid external demands
 - Neglecting physical health in favor of mental pursuits
@@ -441,21 +441,21 @@ Type 6s are susceptible to:
 
 Research shows Type 6 has the highest correlation with anxiety—72% in one major study. For a deeper dive into [how anxiety manifests differently for Type 6 versus other types](/enneagram-corner/anxiety-and-enneagram-types-guide#head-triad), and practical strategies that actually work, see our anxiety guide.
 
-### Unhealthy Behaviors – The Spectrum of Anxiety and Paranoia
+### Unhealthy Behaviors - The Spectrum of Anxiety and Paranoia
 
-#### Mild – Early Signs of Anxiety and Insecurity
+#### Mild - Early Signs of Anxiety and Insecurity
 
 - Persistent worry about potential threats
 - Seeking constant reassurance
 - Difficulty making decisions independently
 
-#### Moderate – Escalating Anxiety and Dependency
+#### Moderate - Escalating Anxiety and Dependency
 
 - Growing dependency on others for emotional security
 - Heightened suspicion and paranoia in relationships
 - Passive-aggressive actions when feeling insecure
 
-#### Severe – Extreme Anxiety and Paranoid Tendencies
+#### Severe - Extreme Anxiety and Paranoid Tendencies
 
 - Frequent panic episodes
 - Paranoid or defiant behavior straining relationships
@@ -476,7 +476,7 @@ Research shows Type 6 has the highest correlation with anxiety—72% in one majo
    - Impulsive defiance and aggression isolate her further
    - Emotional instability disrupts both personal and professional life
 
-### Negative Coping Mechanisms – The Loyalist's Maladaptive Strategies
+### Negative Coping Mechanisms - The Loyalist's Maladaptive Strategies
 
 - Excessive reassurance-seeking, limiting autonomy
 - Passive-aggressive behaviors to cope with perceived threats
@@ -500,21 +500,21 @@ Type 7s are susceptible to:
 - Substance abuse issues
 - Impulsivity and mood swings
 
-### Unhealthy Behaviors – The Spectrum of Mania and Addiction
+### Unhealthy Behaviors - The Spectrum of Mania and Addiction
 
-#### Mild – Early Signs of Impulsivity and Escapism
+#### Mild - Early Signs of Impulsivity and Escapism
 
 - Seeking constant novelty to avoid discomfort
 - Struggling with long-term commitments
 - Impulsive decisions and frequent changes in life direction
 
-#### Moderate – Escalating Manic Tendencies and Compulsive Behaviors
+#### Moderate - Escalating Manic Tendencies and Compulsive Behaviors
 
 - Compulsive activities (shopping, gambling, binge eating, etc.)
 - Mood swings from euphoria to anxiety
 - Risk-taking behaviors in pursuit of excitement
 
-#### Severe – Full-Blown Mania and Severe Addiction
+#### Severe - Full-Blown Mania and Severe Addiction
 
 - Potential severe substance or activity addictions
 - Uncontrolled behavior and panic attacks
@@ -534,7 +534,7 @@ Type 7s are susceptible to:
    - Dramatic or attention-seeking behavior escalates with stress
    - Addiction or unstable relationships severely impact her well-being
 
-### Negative Coping Mechanisms – The Enthusiast's Maladaptive Strategies
+### Negative Coping Mechanisms - The Enthusiast's Maladaptive Strategies
 
 - Excessive escapism through indulgences, risking addiction
 - Frequent shifts in focus to avoid confronting emotions
@@ -558,21 +558,21 @@ Type 8s are susceptible to:
 - Social isolation
 - Intense rage and aggression
 
-### Unhealthy Behaviors – The Spectrum of Aggression and Antisocial Tendencies
+### Unhealthy Behaviors - The Spectrum of Aggression and Antisocial Tendencies
 
-#### Mild – Early Signs of Dominance and Distrust
+#### Mild - Early Signs of Dominance and Distrust
 
 - Controlling or domineering to assert power
 - Difficulty trusting others, leading to defensiveness
 - Anger or hostility when feeling threatened
 
-#### Moderate – Escalating Aggression and Conflict
+#### Moderate - Escalating Aggression and Conflict
 
 - Withdrawing due to perceived betrayals
 - Frequent interpersonal conflicts
 - “Might makes right” mentality justifies aggression
 
-#### Severe – Antisocial Behavior and Violence
+#### Severe - Antisocial Behavior and Violence
 
 - Possible violent or sadistic acts to regain control
 - Extreme paranoia and distrust of society
@@ -591,7 +591,7 @@ Type 8s are susceptible to:
    - Violent or criminal acts become her means of asserting power
    - Intensifies isolation from society, compounding mental health issues
 
-### Negative Coping Mechanisms – The Challenger's Maladaptive Strategies
+### Negative Coping Mechanisms - The Challenger's Maladaptive Strategies
 
 - Using dominance to manage vulnerability or fear
 - Self-isolation triggered by perceived threats or betrayals
@@ -615,21 +615,21 @@ Type 9s are susceptible to:
 - Schizoid Personality Disorder
 - Severe depersonalization
 
-### Unhealthy Behaviors – The Spectrum of Avoidance and Dissociation
+### Unhealthy Behaviors - The Spectrum of Avoidance and Dissociation
 
-#### Mild – Early Signs of Avoidance and Emotional Numbing
+#### Mild - Early Signs of Avoidance and Emotional Numbing
 
 - Avoiding conflict to keep the peace
 - Numbing or disengaging from stressful situations
 - Deferring decisions to others
 
-#### Moderate – Escalating Withdrawal and Dependency
+#### Moderate - Escalating Withdrawal and Dependency
 
 - Withdrawing from reality to sidestep stress
 - Over-dependence on others for emotional stability
 - Emotional flatness or chronic disengagement
 
-#### Severe – Severe Dissociation and Loss of Self
+#### Severe - Severe Dissociation and Loss of Self
 
 - Chronic depression and emotional numbness
 - Severe depersonalization or dissociative episodes
@@ -648,7 +648,7 @@ Type 9s are susceptible to:
    - Feels detached from her own body and reality
    - Worsening confusion, as each conflict is avoided rather than resolved
 
-### Negative Coping Mechanisms – The Peacemaker's Maladaptive Strategies
+### Negative Coping Mechanisms - The Peacemaker's Maladaptive Strategies
 
 - Denial or avoidance of personal problems to maintain “peace”
 - Emotional numbing or disconnection to escape discomfort
@@ -685,25 +685,25 @@ By integrating Enneagram insights with professional advice and personal reflecti
 
 Explore these comprehensive guides for specific mental health topics by Enneagram type:
 
-- **[Why Your Anxiety Is Different](/enneagram-corner/anxiety-and-enneagram-types-guide)** – How anxiety manifests uniquely for each type and practical strategies that actually work for your wiring
-- **[Why Therapy Doesn't Work the Same for Everyone](/enneagram-corner/why-therapy-doesnt-work-the-same-for-every-type)** – The talking cure was built for certain types. Find out if it matches how your brain processes emotions.
-- **[Enneagram and Addiction Recovery](/enneagram-corner/mental-health/enneagram-addiction-recovery-guide)** – How each type develops specific addictions and type-tailored recovery strategies
-- **[Enneagram Trauma Response Guide](/enneagram-corner/mental-health/enneagram-trauma-response-guide)** – Understanding your type's fight, flight, freeze, or fawn patterns
-- **[Enneagram and Therapy](/enneagram-corner/mental-health/enneagram-therapy-guide)** – Finding the right therapeutic approach for your personality type
-- **[Enneagram Crisis Management](/enneagram-corner/mental-health/enneagram-crisis-management-guide)** – Type-specific strategies for mental health emergencies
-- **[Enneagram and Neurodivergence](/enneagram-corner/mental-health/enneagram-neurodivergence-guide)** – When personality meets ADHD, autism, and other brain differences
-- **[Enneagram Workplace Mental Health](/enneagram-corner/mental-health/enneagram-workplace-mental-health)** – Preventing burnout by understanding your type's work stress patterns
-- **[Enneagram and Medication](/enneagram-corner/mental-health/enneagram-medication-mental-health)** – How each type responds to psychiatric medications
-- **[Enneagram Parenting and Mental Health](/enneagram-corner/mental-health/enneagram-parenting-mental-health)** – Raising mentally healthy children based on their emerging type
+- **[Why Your Anxiety Is Different](/enneagram-corner/anxiety-and-enneagram-types-guide)** - How anxiety manifests uniquely for each type and practical strategies that actually work for your wiring
+- **[Why Therapy Doesn't Work the Same for Everyone](/enneagram-corner/why-therapy-doesnt-work-the-same-for-every-type)** - The talking cure was built for certain types. Find out if it matches how your brain processes emotions.
+- **[Enneagram and Addiction Recovery](/enneagram-corner/mental-health/enneagram-addiction-recovery-guide)** - How each type develops specific addictions and type-tailored recovery strategies
+- **[Enneagram Trauma Response Guide](/enneagram-corner/mental-health/enneagram-trauma-response-guide)** - Understanding your type's fight, flight, freeze, or fawn patterns
+- **[Enneagram and Therapy](/enneagram-corner/mental-health/enneagram-therapy-guide)** - Finding the right therapeutic approach for your personality type
+- **[Enneagram Crisis Management](/enneagram-corner/mental-health/enneagram-crisis-management-guide)** - Type-specific strategies for mental health emergencies
+- **[Enneagram and Neurodivergence](/enneagram-corner/mental-health/enneagram-neurodivergence-guide)** - When personality meets ADHD, autism, and other brain differences
+- **[Enneagram Workplace Mental Health](/enneagram-corner/mental-health/enneagram-workplace-mental-health)** - Preventing burnout by understanding your type's work stress patterns
+- **[Enneagram and Medication](/enneagram-corner/mental-health/enneagram-medication-mental-health)** - How each type responds to psychiatric medications
+- **[Enneagram Parenting and Mental Health](/enneagram-corner/mental-health/enneagram-parenting-mental-health)** - Raising mentally healthy children based on their emerging type
 
 ## Related Reading
 
-- **[Enneagram and ADHD: Which Types Struggle Most](/enneagram-corner/enneagram-and-adhd-which-types-struggle-most)** – How ADHD affects each personality type differently, plus type-specific coping strategies
-- **[Why You Can't Stop Overthinking](/enneagram-corner/why-you-cant-stop-overthinking-enneagram)** – Your type's specific overthinking loop and how to interrupt it
-- **[How Each Type Self-Sabotages Success](/enneagram-corner/how-each-enneagram-type-self-sabotages-success)** – The protection mechanisms that hold you back
-- **[Shadow Work by Enneagram Type](/enneagram-corner/shadow-work-by-enneagram-type)** – Integrating your hidden self for wholeness
-- **[Red Flags You're Dating Each Enneagram Type](/enneagram-corner/red-flags-dating-each-enneagram-type)** – Relationship warning signs rooted in each type's shadow side
-- **[Toxic Traits of Each Enneagram Type](/enneagram-corner/toxic-traits-of-each-enneagram-type)** – The predictable patterns that emerge under stress
+- **[Enneagram and ADHD: Which Types Struggle Most](/enneagram-corner/enneagram-and-adhd-which-types-struggle-most)** - How ADHD affects each personality type differently, plus type-specific coping strategies
+- **[Why You Can't Stop Overthinking](/enneagram-corner/why-you-cant-stop-overthinking-enneagram)** - Your type's specific overthinking loop and how to interrupt it
+- **[How Each Type Self-Sabotages Success](/enneagram-corner/how-each-enneagram-type-self-sabotages-success)** - The protection mechanisms that hold you back
+- **[Shadow Work by Enneagram Type](/enneagram-corner/shadow-work-by-enneagram-type)** - Integrating your hidden self for wholeness
+- **[Red Flags You're Dating Each Enneagram Type](/enneagram-corner/red-flags-dating-each-enneagram-type)** - Relationship warning signs rooted in each type's shadow side
+- **[Toxic Traits of Each Enneagram Type](/enneagram-corner/toxic-traits-of-each-enneagram-type)** - The predictable patterns that emerge under stress
 
 <svelte:head>
 

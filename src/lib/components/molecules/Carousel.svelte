@@ -4,6 +4,10 @@
 	import PopCard from '$lib/components/atoms/PopCard.svelte';
 	import RubixGrid from '$lib/components/molecules/rubixGrid.svelte';
 	import { famousTypes } from '$lib/components/molecules/famousTypes';
+	import {
+		buildPersonalityImagePath,
+		formatPersonalityDisplayName
+	} from '$lib/utils/personalityAnalysis';
 
 	export let type: number;
 	export let gridDisplay: boolean = false;
@@ -37,9 +41,9 @@
 		<RubixGrid peopleList={peopleWithImages} {type} />
 	{:else if type && visiblePerson}
 		<PopCard
-			image={`/types/${type}s/s-${visiblePerson.name}.webp`}
+			image={buildPersonalityImagePath(type, visiblePerson.name, 'thumbnail')}
 			showIcon={false}
-			displayText={visiblePerson.name.split('-').join(' ')}
+			displayText={formatPersonalityDisplayName(visiblePerson.name)}
 			subtext={''}
 		/>
 	{/if}

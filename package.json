@@ -20,15 +20,17 @@
 		"gen:sctx": "tsx scripts/generateStreamlinedProjectContext2.ts . -o ./sproject-context.json",
 		"label-paths": "tsx scripts/labelFilePaths.ts",
 		"gen:types": "node scripts/generate-types.js",
+		"gen:personality-image-map": "node scripts/generate-personality-image-slug-map.js",
 		"gen:sitemap": "node scripts/generate-sitemap.js",
 		"gen:famous-types": "node scripts/generate-famous-types.js",
 		"gen:instagram-plan": "node --import tsx scripts/build-instagram-posting-plan.ts",
 		"gen:crosslinks": "node scripts/generate-crosslink-report.js",
-		"gen:all": "pnpm format && pnpm gen:types && pnpm gen:famous-types && pnpm gen:sitemap && pnpm gen:crosslinks && pnpm label-paths",
+		"gen:all": "pnpm format && pnpm gen:types && pnpm gen:personality-image-map && pnpm gen:famous-types && pnpm gen:sitemap && pnpm gen:crosslinks && pnpm label-paths",
 		"index:blogs": "node scripts/index-blogs-to-supabase.js",
 		"index:blogs:dry": "node scripts/index-blogs-to-supabase.js --dry-run",
 		"index:blogs:force": "node scripts/index-blogs-to-supabase.js --force",
-		"push:people": "node scripts/personBlogParser.js"
+		"push:people": "node scripts/personBlogParser.js",
+		"supabase:normalize-personality-slugs": "node scripts/normalize-personality-slugs.js"
 	},
 	"devDependencies": {
 		"@babel/parser": "^7.27.4",

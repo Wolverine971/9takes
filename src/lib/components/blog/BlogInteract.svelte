@@ -2,6 +2,7 @@
 <script lang="ts">
 	import { deserialize } from '$app/forms';
 	import RightIcon from '$lib/components/icons/rightIcon.svelte';
+	import { formatPersonalityDisplayName } from '$lib/utils/personalityAnalysis';
 
 	import { notifications } from '$lib/components/molecules/notifications';
 	// import { page } from '$app/stores';
@@ -93,7 +94,7 @@
 
 <div class="interact-text-container">
 	<textarea
-		placeholder="What are your thoughts on {data.slug.split('-').join(' ')}?"
+		placeholder="What are your thoughts on {formatPersonalityDisplayName(data.slug)}?"
 		class="interact-textbox"
 		bind:value={comment}
 	></textarea>

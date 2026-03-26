@@ -3,6 +3,10 @@
 	import type { PageData } from './$types';
 	import SEOHead from '$lib/components/SEOHead.svelte';
 	import ArrowRightIcon from '$lib/components/icons/arrowRightIcon.svelte';
+	import {
+		buildPersonalityAnalysisPath,
+		buildPersonalityImagePath
+	} from '$lib/utils/personalityAnalysis';
 	import { formatPersonalityRawType, formatPersonName } from '$lib/personalityCategories';
 
 	let { data }: { data: PageData } = $props();
@@ -45,7 +49,7 @@
 				'@type': 'ListItem',
 				position: index + 1,
 				name: person.name,
-				url: `https://9takes.com/personality-analysis/${person.slug}`
+				url: `https://9takes.com${buildPersonalityAnalysisPath(person.slug)}`
 			}))
 		}
 	}));
@@ -126,10 +130,10 @@
 
 				<div class="featured-grid">
 					{#each data.featured as person}
-						<a href="/personality-analysis/{person.slug}" class="featured-card">
+						<a href={buildPersonalityAnalysisPath(person.slug)} class="featured-card">
 							<div class="image-wrap">
 								<img
-									src={`/types/${person.enneagram}s/${person.slug}.webp`}
+									src={buildPersonalityImagePath(person.enneagram, person.slug)}
 									alt={`Portrait of ${person.name}`}
 									loading="lazy"
 									width="400"
@@ -182,10 +186,14 @@
 
 								<div class="people-grid">
 									{#each group.people as person}
-										<a href="/personality-analysis/{person.slug}" class="person-card">
+										<a href={buildPersonalityAnalysisPath(person.slug)} class="person-card">
 											<div class="person-image">
 												<img
-													src={`/types/${person.enneagram}s/s-${person.slug}.webp`}
+													src={buildPersonalityImagePath(
+														person.enneagram,
+														person.slug,
+														'thumbnail'
+													)}
 													alt={`Portrait of ${person.name}`}
 													loading="lazy"
 													width="240"
@@ -207,10 +215,10 @@
 				{:else}
 					<div class="people-grid">
 						{#each data.people as person}
-							<a href="/personality-analysis/{person.slug}" class="person-card">
+							<a href={buildPersonalityAnalysisPath(person.slug)} class="person-card">
 								<div class="person-image">
 									<img
-										src={`/types/${person.enneagram}s/s-${person.slug}.webp`}
+										src={buildPersonalityImagePath(person.enneagram, person.slug, 'thumbnail')}
 										alt={`Portrait of ${person.name}`}
 										loading="lazy"
 										width="240"
