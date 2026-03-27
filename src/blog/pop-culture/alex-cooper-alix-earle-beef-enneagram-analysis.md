@@ -13,6 +13,13 @@ type: ['situational']
 blog: true
 previewHtml: ''
 pic: 'alex-cooper-alix-earle-beef'
+picGroup:
+  - image: '/types/7s/Alex-Cooper.webp'
+    text: 'Alex Cooper'
+    enneagramType: 7
+  - image: '/types/3s/Alix-Earle.webp'
+    text: 'Alix Earle'
+    enneagramType: 3
 path: src/blog/pop-culture/alex-cooper-alix-earle-beef-enneagram-analysis.md
 ---
 

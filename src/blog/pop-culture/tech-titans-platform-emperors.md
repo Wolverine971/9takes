@@ -13,6 +13,19 @@ type: ['situational']
 blog: true
 previewHtml: ''
 pic: 'tech-titans-platform-emperors'
+picGroup:
+  - image: '/types/5s/Mark-Zuckerberg.webp'
+    text: 'Mark Zuckerberg'
+    enneagramType: 5
+  - image: '/types/8s/Jeff-Bezos.webp'
+    text: 'Jeff Bezos'
+    enneagramType: 8
+  - image: '/types/5s/Jack-Dorsey.webp'
+    text: 'Jack Dorsey'
+    enneagramType: 5
+  - image: '/types/5s/Elon-Musk.webp'
+    text: 'Elon Musk'
+    enneagramType: 5
 path: src/blog/pop-culture/tech-titans-platform-emperors.md
 ---
 

@@ -14,15 +14,7 @@ enneagram: '3'
 type: ['politician']
 person: 'Donald-Trump'
 suggestions:
-  [
-    'Joe-Biden',
-    'Elon-Musk',
-    'Hillary-Clinton',
-    'Barack-Obama',
-    'Kim-Kardashian',
-    'Joe-Rogan',
-    'Vladimir-Putin'
-  ]
+  ['Joe-Biden', 'Kamala-Harris', 'Hillary-Clinton', 'JD-Vance', 'Joe-Rogan', 'Vladimir-Putin']
 wikipedia: 'https://en.wikipedia.org/wiki/Donald_Trump'
 twitter: 'realDonaldTrump'
 instagram: 'realdonaldtrump'
@@ -196,7 +188,7 @@ One word deserves special attention.
 
 When a reporter asks Trump a challenging question, the word that surfaces most reliably isn't "unfair" or "biased" or "wrong." It's "nasty." "What a nasty question." "You're a very nasty person." "That's a nasty thing to say."
 
-He called CNN's Kaitlan Collins "a nasty person." He called Kamala Harris "nasty" for grilling Brett Kavanaugh. He called Denmark's prime minister "nasty" for calling his Greenland proposal absurd. He called Meghan Markle "nasty" for calling him misogynistic.
+He called CNN's Kaitlan Collins "a nasty person." He called [Kamala Harris](/personality-analysis/Kamala-Harris) "nasty" for grilling Brett Kavanaugh. He called Denmark's prime minister "nasty" for calling his Greenland proposal absurd. He called Meghan Markle "nasty" for calling him misogynistic.
 
 The word choice reveals the wound. "Nasty" isn't an intellectual rebuttal. It isn't "you're incorrect" or "that's misleading." It's a word that lives in the world of _manners_ and _propriety_ — the world of social shame. A nasty person isn't wrong. A nasty person has violated the social contract by saying something that should have stayed unsaid. They've been _mean._
 
@@ -328,7 +320,7 @@ The most powerful military alliance in history had concluded that the most effec
 
 When Ukrainian President Zelensky visited the Oval Office in February 2025, Trump's team asked him to wear a suit instead of his military uniform. Zelensky refused. Trump greeted him on camera: "He's all dressed up today." The meeting devolved. Vance demanded: "Have you said thank you once this entire meeting?" The visit was cut short. Lunch canceled. Joint press conference scrapped.
 
-The offense wasn't about policy. Zelensky refused to dress the part Trump had cast him in. He didn't perform sufficient gratitude. The entire diplomatic encounter collapsed over image management.
+The offense wasn't about policy. Zelensky refused to dress the part Trump had cast him in. He didn't perform sufficient gratitude. The entire diplomatic encounter collapsed over image management. [JD Vance](/personality-analysis/JD-Vance) was in the room enforcing the same logic.
 
 ## When the Image Cracks: Trump Under Stress
 
@@ -374,7 +366,7 @@ Then there's his ability to sit across from his enemies.
 
 He called Kim Jong Un "Little Rocket Man." Kim called him a "mentally deranged dotard." Eighteen months later, Trump became the first sitting president to meet a North Korean leader. They exchanged 27 letters. "He wrote me beautiful letters," Trump said at a rally. "We fell in love."
 
-After publicly calling New York mayoral candidate Zohran Mamdani a "communist lunatic," Trump met him in the Oval Office and emerged calling him "a very rational person." Minnesota Governor Tim Walz, after a private phone call, marveled: "It's hard to believe that's the same guy I watch on television."
+After publicly calling New York mayoral candidate [Zohran Mamdani](/personality-analysis/Zohran-Mamdani) a "communist lunatic," Trump met him in the Oval Office and emerged calling him "a very rational person." Minnesota Governor Tim Walz, after a private phone call, marveled: "It's hard to believe that's the same guy I watch on television."
 
 The public Trump sorts the world into winners and losers. The private Trump sits across from people he's publicly savaged and listens until he finds the angle. The Nine integration gives him something the performer normally lacks: the ability to stop performing long enough to actually take someone in.
 

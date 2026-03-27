@@ -13,7 +13,7 @@ published: false
 enneagram: 2
 type: ['politician']
 person: 'Zohran-Mamdani'
-suggestions: ['Alexandria-Ocasio-Cortez', 'Bernie-Sanders', 'Barack-Obama', 'Jimmy-Carter']
+suggestions: ['Alexandria-Ocasio-Cortez', 'Gavin-Newsom', 'Kamala-Harris', 'Nancy-Pelosi']
 wikipedia: 'https://en.wikipedia.org/wiki/Zohran_Mamdani'
 twitter: '@ZohranKMamdani'
 instagram: '@zohran'
@@ -117,7 +117,7 @@ His pre-political career also tells the story. Type 3s optimize for advancement.
 
 Mamdani graduated from Bowdoin College in 2014 with a degree in Africana Studies; his senior thesis was on Frantz Fanon and Jean-Jacques Dessalines. He didn't go into academia like his father, or film like his mother. He went to Queens and started knocking on doors.
 
-His first political act had been knocking for [Obama](/personality-analysis/Barack-Obama) in 2008, while still in high school. Then he picked up a copy of _The Village Voice_, saw that one of his favorite rappers had endorsed a childhood friend running for city council, and got on the F train to 169th Street.
+His first political act had been knocking for Obama in 2008, while still in high school. Then he picked up a copy of _The Village Voice_, saw that one of his favorite rappers had endorsed a childhood friend running for city council, and got on the F train to 169th Street.
 
 "I moved to the city when I was seven," he said on _The Breakfast Club_. "This is the city I fell in love with, the city where I got my citizenship, where I got married. And yet there was also a point where I knew I was a New Yorker. I didn't know if I had a place in New York City politics. I thought those two things were separate."
 

@@ -13,7 +13,7 @@ published: false
 enneagram: 6
 type: ['historical', 'politician']
 person: 'Joseph-Stalin'
-suggestions: ['Donald-Trump', 'Peter-Thiel', 'Xi-Jinping', 'Napoleon-Bonaparte']
+suggestions: ['Vladimir-Putin', 'Xi-Jinping', 'Napoleon-Bonaparte', 'Donald-Trump']
 wikipedia: 'https://en.wikipedia.org/wiki/Joseph_Stalin'
 content_quality:
   hook: 9
@@ -111,7 +111,7 @@ Consider the evidence:
 - **He tested everyone, constantly.** The late-night dinners where he drank little but pressured guests to drink heavily. The jokes laced with menace. Watching who laughed too eagerly, who hesitated, who sweated. Data collection disguised as hospitality.
 - **"I trust no one, not even myself."** That sentence is not an Eight's sentence. Eights trust themselves absolutely. That sentence belongs to someone whose internal threat-detection system has turned on its own operator.
 
-Khrushchev, who served under him for years, described him as "a man of faces." Lazar Kaganovich said there were "four or five different versions of Stalin." This isn't the behavior of someone performing power. It's the behavior of someone performing safety — scanning, calculating, presenting whatever face keeps the threat level lowest. (For a modern parallel, see how another Type 6 — <a href="/personality-analysis/Peter-Thiel">Peter Thiel</a> — channels the same counterphobic fear into building rather than destroying.)
+Khrushchev, who served under him for years, described him as "a man of faces." Lazar Kaganovich said there were "four or five different versions of Stalin." This isn't the behavior of someone performing power. It's the behavior of someone performing safety — scanning, calculating, presenting whatever face keeps the threat level lowest. (For a modern political parallel, see how [Vladimir Putin](/personality-analysis/Vladimir-Putin) turns the same threat-detection into permanent control.)
 
 ---
 

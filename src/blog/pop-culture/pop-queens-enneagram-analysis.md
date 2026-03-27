@@ -13,6 +13,25 @@ type: ['situational']
 blog: true
 previewHtml: ''
 pic: 'pop-queens-enneagram'
+picGroup:
+  - image: '/types/8s/Chappell-Roan.webp'
+    text: 'Chappell Roan'
+    enneagramType: 8
+  - image: '/types/3s/Charli-xcx.webp'
+    text: 'Charli xcx'
+    enneagramType: 3
+  - image: '/types/4s/Billie-Eilish.webp'
+    text: 'Billie Eilish'
+    enneagramType: 4
+  - image: '/types/3s/Sabrina-Carpenter.webp'
+    text: 'Sabrina Carpenter'
+    enneagramType: 3
+  - image: '/types/7s/Doja-Cat.webp'
+    text: 'Doja Cat'
+    enneagramType: 7
+  - image: '/types/3s/Taylor-Swift.webp'
+    text: 'Taylor Swift'
+    enneagramType: 3
 path: src/blog/pop-culture/pop-queens-enneagram-analysis.md
 ---
 

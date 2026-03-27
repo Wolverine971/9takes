@@ -13,6 +13,13 @@ type: ['situational']
 blog: true
 previewHtml: ''
 pic: 'trump-biden-contrast'
+picGroup:
+  - image: '/types/3s/Donald-Trump.webp'
+    text: 'Donald Trump'
+    enneagramType: 3
+  - image: '/types/2s/Joe-Biden.webp'
+    text: 'Joe Biden'
+    enneagramType: 2
 path: src/blog/pop-culture/trump-type-8-vs-biden-type-2.md
 ---
 

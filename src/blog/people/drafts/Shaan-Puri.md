@@ -13,7 +13,7 @@ published: false
 enneagram: 7
 type: ['creator', 'entrepreneur']
 person: 'Shaan-Puri'
-suggestions: ['Sam-Parr', 'Alex-Hormozi', 'Gary-Vee', 'Tim-Ferriss']
+suggestions: ['Sam-Parr', 'John-Coogan', 'Steven-Bartlett', 'Tim-Ferriss']
 wikipedia: ''
 twitter: 'https://twitter.com/ShaanVP'
 instagram: ''

@@ -222,7 +222,7 @@ export const famousTypes: { [index: number]: { name: string; link: boolean; hasI
 		{ name: 'timothee-chalamet', link: true, hasImage: true, lastmod: '2026-02-18', personaTitle: 'The Prodigy Who Needs Protecting', contentGrade: 8.7 },
 		{ name: 'tom-hanks', link: true, hasImage: true, lastmod: '2025-06-25', personaTitle: 'America\'s Trusted Dad', contentGrade: null },
 		{ name: 'trevor-noah', link: true, hasImage: true, lastmod: '2026-03-03', personaTitle: 'Comedy\'s Stateless Ambassador', contentGrade: 8.9 },
-		{ name: 'tucker-carlson', link: true, hasImage: true, lastmod: '2025-12-22', personaTitle: 'Media\'s Contrarian Watchdog', contentGrade: null },
+		{ name: 'tucker-carlson', link: true, hasImage: true, lastmod: '2026-03-27', personaTitle: 'Media\'s Contrarian Watchdog', contentGrade: null },
 		{ name: 'zendaya', link: true, hasImage: true, lastmod: '2026-01-17', personaTitle: 'Hollywood\'s Weaponized Worrier', contentGrade: 9 },
 		{ name: 'ben-shapiro', link: false, hasImage: false, lastmod: '2025-06-25', personaTitle: null, contentGrade: null },
 		{ name: 'david-goggins', link: false, hasImage: false, lastmod: '2025-06-25', personaTitle: null, contentGrade: null },

@@ -13,6 +13,19 @@ type: ['situational']
 blog: true
 previewHtml: ''
 pic: 'oscar-contenders-enneagram'
+picGroup:
+  - image: '/types/6s/Timothee-Chalamet.webp'
+    text: 'Timothée Chalamet'
+    enneagramType: 6
+  - image: '/types/9s/Mikey-Madison.webp'
+    text: 'Mikey Madison'
+    enneagramType: 9
+  - image: '/types/8s/Denzel-Washington.webp'
+    text: 'Denzel Washington'
+    enneagramType: 8
+  - image: '/types/5s/Cillian-Murphy.webp'
+    text: 'Cillian Murphy'
+    enneagramType: 5
 path: src/blog/pop-culture/oscar-contenders-enneagram-analysis.md
 ---
 

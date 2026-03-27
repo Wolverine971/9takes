@@ -13,6 +13,22 @@ type: ['situational']
 blog: true
 previewHtml: ''
 pic: 'streaming-royalty-enneagram'
+picGroup:
+  - image: '/types/8s/Mr-Beast.webp'
+    text: 'MrBeast'
+    enneagramType: 8
+  - image: '/types/7s/Kai-Cenat.webp'
+    text: 'Kai Cenat'
+    enneagramType: 7
+  - image: '/types/7s/xQc.webp'
+    text: 'xQc'
+    enneagramType: 7
+  - image: '/types/8s/IShowSpeed.webp'
+    text: 'IShowSpeed'
+    enneagramType: 8
+  - image: '/types/5s/PewDiePie.webp'
+    text: 'PewDiePie'
+    enneagramType: 5
 path: src/blog/pop-culture/streaming-royalty-enneagram-analysis.md
 ---
 

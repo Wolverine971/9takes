@@ -13,7 +13,7 @@ published: false
 enneagram: 8
 type: ['techie', 'author']
 person: 'Scott-Galloway'
-suggestions: ['Peter-Thiel', 'Jeff-Bezos', 'Joe-Rogan', 'Jordan-Peterson']
+suggestions: ['Kara-Swisher', 'Marc-Andreessen', 'Peter-Thiel', 'Jordan-Peterson']
 wikipedia: 'https://en.wikipedia.org/wiki/Scott_Galloway_(professor)'
 twitter: '@profgalloway'
 instagram: '@profgalloway'

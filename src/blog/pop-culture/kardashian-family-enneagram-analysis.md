@@ -13,6 +13,13 @@ type: ['situational']
 blog: true
 previewHtml: ''
 pic: 'kardashian-family-enneagram'
+picGroup:
+  - image: '/types/3s/Kim-Kardashian.webp'
+    text: 'Kim Kardashian'
+    enneagramType: 3
+  - image: '/types/1s/Kourtney-Kardashian.webp'
+    text: 'Kourtney Kardashian'
+    enneagramType: 1
 mjPrompt: 'Six greek marble statues arranged as family portrait in opulent mansion setting with gold accents, central matriarch figure slightly forward with calculating expression, surrounding figures each displaying distinct poses - one preening, one with arms crossed critically, one reaching to help another, one peaceful and withdrawn, one dramatically unique in style, crystal chandelier above, marble floors reflecting golden hour light through tall windows, dynasty aesthetic, editorial fashion photography style --ar 16:9 --v 6'
 path: src/blog/pop-culture/kardashian-family-enneagram-analysis.md
 ---

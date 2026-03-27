@@ -13,7 +13,7 @@ published: false
 enneagram: 7
 type: ['techie']
 person: 'Reid-Hoffman'
-suggestions: ['Peter-Thiel', 'Elon-Musk', 'Paul-Graham', 'Mark-Zuckerberg']
+suggestions: ['Peter-Thiel', 'Marc-Andreessen', 'Sam-Altman', 'Paul-Graham']
 wikipedia: 'https://en.wikipedia.org/wiki/Reid_Hoffman'
 twitter: 'reidhoffman'
 instagram: ''

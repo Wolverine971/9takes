@@ -13,6 +13,19 @@ type: ['situational']
 blog: true
 previewHtml: ''
 pic: 'silicon-valley-power-players'
+picGroup:
+  - image: '/types/3s/Chamath-Palihapitiya.webp'
+    text: 'Chamath Palihapitiya'
+    enneagramType: 3
+  - image: '/types/6s/David-Sacks.webp'
+    text: 'David Sacks'
+    enneagramType: 6
+  - image: '/types/5s/David-Friedberg.webp'
+    text: 'David Friedberg'
+    enneagramType: 5
+  - image: '/types/3s/Jason-Calacanis.webp'
+    text: 'Jason Calacanis'
+    enneagramType: 3
 path: src/blog/pop-culture/silicon-valley-power-players-enneagram-analysis.md
 ---
 

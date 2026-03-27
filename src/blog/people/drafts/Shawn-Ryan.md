@@ -13,7 +13,7 @@ published: false
 enneagram: 5
 type: ['creator']
 person: 'Shawn-Ryan'
-suggestions: ['Joe-Rogan', 'Jocko-Willink', 'Tucker-Carlson', 'Lex-Fridman']
+suggestions: ['Joe-Rogan', 'Lex-Fridman', 'Chris-Williamson', 'Jocko-Willink']
 wikipedia: 'https://en.wikipedia.org/wiki/Shawn_Ryan_(United_States_Navy)'
 twitter: 'ShawnRyan762'
 instagram: 'shawnryan762'

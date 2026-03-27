@@ -13,6 +13,25 @@ type: ['situational']
 blog: true
 previewHtml: ''
 pic: 'comedy-kings-enneagram'
+picGroup:
+  - image: '/types/7s/Theo-Von.webp'
+    text: 'Theo Von'
+    enneagramType: 7
+  - image: '/types/9s/Dave-Chappelle.webp'
+    text: 'Dave Chappelle'
+    enneagramType: 9
+  - image: '/types/9s/Shane-Gillis.webp'
+    text: 'Shane Gillis'
+    enneagramType: 9
+  - image: '/types/9s/Pete-Davidson.webp'
+    text: 'Pete Davidson'
+    enneagramType: 9
+  - image: '/types/7s/Jon-Stewart.webp'
+    text: 'Jon Stewart'
+    enneagramType: 7
+  - image: '/types/7s/Kevin-Hart.webp'
+    text: 'Kevin Hart'
+    enneagramType: 7
 path: src/blog/pop-culture/comedy-kings-enneagram-analysis.md
 ---
 

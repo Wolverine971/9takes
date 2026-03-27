@@ -13,6 +13,19 @@ type: ['situational']
 blog: true
 previewHtml: ''
 pic: 'royal-family-enneagram'
+picGroup:
+  - image: '/types/2s/Princess-Diana.webp'
+    text: 'Princess Diana'
+    enneagramType: 2
+  - image: '/types/6s/Prince-Harry.webp'
+    text: 'Prince Harry'
+    enneagramType: 6
+  - image: '/types/2s/Meghan-Markle.webp'
+    text: 'Meghan Markle'
+    enneagramType: 2
+  - image: '/types/9s/Queen-Elizabeth-II.webp'
+    text: 'Queen Elizabeth II'
+    enneagramType: 9
 path: src/blog/pop-culture/royal-family-enneagram-analysis.md
 ---
 

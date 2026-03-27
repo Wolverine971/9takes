@@ -13,6 +13,16 @@ type: ['situational']
 blog: true
 previewHtml: ''
 pic: 'tech-titans-paypal-mafia'
+picGroup:
+  - image: '/types/6s/Peter-Thiel.webp'
+    text: 'Peter Thiel'
+    enneagramType: 6
+  - image: '/types/5s/Elon-Musk.webp'
+    text: 'Elon Musk'
+    enneagramType: 5
+  - image: '/types/6s/David-Sacks.webp'
+    text: 'David Sacks'
+    enneagramType: 6
 path: src/blog/pop-culture/tech-titans-paypal-mafia.md
 ---
 

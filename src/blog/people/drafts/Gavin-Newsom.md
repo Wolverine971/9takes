@@ -13,7 +13,7 @@ published: false
 enneagram: 3
 type: ['politician']
 person: 'Gavin-Newsom'
-suggestions: ['Donald-Trump', 'Nancy-Pelosi', 'JD-Vance', 'Justin-Trudeau']
+suggestions: ['Donald-Trump', 'JD-Vance', 'Kamala-Harris', 'Justin-Trudeau']
 wikipedia: 'https://en.wikipedia.org/wiki/Gavin_Newsom'
 twitter: '@GavinNewsom'
 instagram: '@gavinnewsom'

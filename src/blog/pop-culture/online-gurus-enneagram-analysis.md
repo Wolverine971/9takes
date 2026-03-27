@@ -13,6 +13,25 @@ type: ['situational']
 blog: true
 previewHtml: ''
 pic: 'online-gurus-enneagram'
+picGroup:
+  - image: '/types/3s/Alex-Hormozi.webp'
+    text: 'Alex Hormozi'
+    enneagramType: 3
+  - image: '/types/3s/Gary-Vee.webp'
+    text: 'Gary Vee'
+    enneagramType: 3
+  - image: '/types/3s/Ali-Abdaal.webp'
+    text: 'Ali Abdaal'
+    enneagramType: 3
+  - image: '/types/3s/Tony-Robbins.webp'
+    text: 'Tony Robbins'
+    enneagramType: 3
+  - image: '/types/1s/Jordan-Peterson.webp'
+    text: 'Jordan Peterson'
+    enneagramType: 1
+  - image: '/types/5s/Andrew-Huberman.webp'
+    text: 'Andrew Huberman'
+    enneagramType: 5
 path: src/blog/pop-culture/online-gurus-enneagram-analysis.md
 ---
 

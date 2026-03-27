@@ -13,7 +13,7 @@ published: false
 enneagram: '3'
 type: ['politician']
 person: 'Kamala-Harris'
-suggestions: ['Donald-Trump', 'Joe-Biden', 'Barack-Obama', 'Hillary-Clinton']
+suggestions: ['Donald-Trump', 'Joe-Biden', 'Hillary-Clinton', 'Gavin-Newsom']
 wikipedia: 'https://en.wikipedia.org/wiki/Kamala_Harris'
 twitter: 'KamalaHarris'
 instagram: 'kamalaharris'

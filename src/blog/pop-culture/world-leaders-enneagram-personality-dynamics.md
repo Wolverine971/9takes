@@ -13,6 +13,13 @@ type: ['situational']
 blog: true
 previewHtml: ''
 pic: 'world-leaders-psychology'
+picGroup:
+  - image: '/types/3s/Donald-Trump.webp'
+    text: 'Donald Trump'
+    enneagramType: 3
+  - image: '/types/8s/Vladimir-Putin.webp'
+    text: 'Vladimir Putin'
+    enneagramType: 8
 path: src/blog/pop-culture/world-leaders-enneagram-personality-dynamics.md
 ---
 

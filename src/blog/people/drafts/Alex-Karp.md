@@ -13,7 +13,7 @@ published: false
 enneagram: 4
 type: ['techie', 'entrepreneur']
 person: 'Alex-Karp'
-suggestions: ['Peter-Thiel', 'Elon-Musk', 'Mark-Zuckerberg', 'Sam-Altman']
+suggestions: ['Peter-Thiel', 'Dario-Amodei', 'Sam-Altman', 'Marc-Andreessen']
 wikipedia: 'https://en.wikipedia.org/wiki/Alex_Karp'
 twitter: ''
 instagram: ''

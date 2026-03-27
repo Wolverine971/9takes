@@ -13,6 +13,19 @@ type: ['situational']
 blog: true
 previewHtml: ''
 pic: 'marvel-universe-enneagram'
+picGroup:
+  - image: '/types/7s/Robert-Downey-Jr.webp'
+    text: 'Robert Downey Jr.'
+    enneagramType: 7
+  - image: '/types/7s/Tom-Holland.webp'
+    text: 'Tom Holland'
+    enneagramType: 7
+  - image: '/types/9s/Scarlett-Johansson.webp'
+    text: 'Scarlett Johansson'
+    enneagramType: 9
+  - image: '/types/7s/Hugh-Jackman.webp'
+    text: 'Hugh Jackman'
+    enneagramType: 7
 path: src/blog/pop-culture/marvel-universe-enneagram-analysis.md
 ---
 

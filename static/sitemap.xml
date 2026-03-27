@@ -1295,6 +1295,15 @@
     <priority>0.7</priority>
 </url>
 <url>
+    <loc>https://9takes.com/pop-culture/hollywood-heartthrobs-enneagram-analysis</loc>
+    <lastmod>2026-03-27T00:00:00.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+        <image:loc>https://9takes.com/blogs/hollywood-heartthrobs-enneagram.webp</image:loc>
+    </image:image>
+</url>
+<url>
     <loc>https://9takes.com/pop-culture/incel-blackpill-radicalization-enneagram</loc>
     <lastmod>2026-02-26T00:00:00.000Z</lastmod>
     <changefreq>monthly</changefreq>
@@ -1319,6 +1328,15 @@
     <priority>0.7</priority>
     <image:image>
         <image:loc>https://9takes.com/blogs/parasocial-relationships-psychology.webp</image:loc>
+    </image:image>
+</url>
+<url>
+    <loc>https://9takes.com/pop-culture/podcast-bros-enneagram-analysis</loc>
+    <lastmod>2026-03-27T00:00:00.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+        <image:loc>https://9takes.com/blogs/podcast-bros-enneagram.webp</image:loc>
     </image:image>
 </url>
 <url>
@@ -1964,15 +1982,6 @@
     <priority>0.7</priority>
     <image:image>
         <image:loc>https://9takes.com/types/1s/Michelle-Obama.webp</image:loc>
-    </image:image>
-</url>
-<url>
-    <loc>https://9takes.com/personality-analysis/tucker-carlson</loc>
-    <lastmod>2025-12-22T00:00:00.000Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-    <image:image>
-        <image:loc>https://9takes.com/types/6s/Tucker-Carlson.webp</image:loc>
     </image:image>
 </url>
 <url>
@@ -3647,6 +3656,15 @@
     <priority>0.7</priority>
     <image:image>
         <image:loc>https://9takes.com/types/7s/reid-hoffman.webp</image:loc>
+    </image:image>
+</url>
+<url>
+    <loc>https://9takes.com/personality-analysis/tucker-carlson</loc>
+    <lastmod>2026-03-27T00:00:00.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+        <image:loc>https://9takes.com/types/6s/Tucker-Carlson.webp</image:loc>
     </image:image>
 </url>
 <url>

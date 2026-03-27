@@ -13,6 +13,19 @@ type: ['situational']
 blog: true
 previewHtml: ''
 pic: 'tech-titans-disruptors'
+picGroup:
+  - image: '/types/8s/Jeff-Bezos.webp'
+    text: 'Jeff Bezos'
+    enneagramType: 8
+  - image: '/types/8s/Reed-Hastings.webp'
+    text: 'Reed Hastings'
+    enneagramType: 8
+  - image: '/types/8s/Travis-Kalanick.webp'
+    text: 'Travis Kalanick'
+    enneagramType: 8
+  - image: '/types/5s/Elon-Musk.webp'
+    text: 'Elon Musk'
+    enneagramType: 5
 path: src/blog/pop-culture/tech-titans-disruptors.md
 ---
 

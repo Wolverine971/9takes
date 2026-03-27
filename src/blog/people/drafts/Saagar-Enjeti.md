@@ -13,7 +13,7 @@ published: false
 enneagram: 7
 type: ['journalist', 'creator']
 person: 'Saagar-Enjeti'
-suggestions: ['Tucker-Carlson', 'Lex-Fridman', 'Joe-Rogan', 'Ben-Shapiro']
+suggestions: ['Krystal-Ball', 'Tucker-Carlson', 'Joe-Rogan', 'Lex-Fridman']
 wikipedia: 'https://en.wikipedia.org/wiki/Saagar_Enjeti'
 twitter: 'https://twitter.com/esaagar'
 instagram: 'https://www.instagram.com/esaagar'
@@ -160,7 +160,7 @@ Track the career and the Seven pattern emerges in every move: each step eliminat
 
 Think tanks were too narrow — he wanted a microphone. The Daily Caller had editorial limits — he wanted the White House beat. The White House press room turned out to be theater: "Playing within a bullshit system" where "everyone is just asking questions, not to inform the public or on the public interest, but to score ratings for their network." He called it "all performance art" and "all a game."
 
-So he left. Then The Hill's Rising had corporate ownership. So he and Krystal Ball walked away from that too — launching Breaking Points independently. No backing. No oversight. Just a webcam and credibility.
+So he left. Then The Hill's Rising had corporate ownership. So he and [Krystal Ball](/personality-analysis/Krystal-Ball) walked away from that too — launching Breaking Points independently. No backing. No oversight. Just a webcam and credibility.
 
 "There are a lot of people out there who can see through the BS too," he explained, "and they were really hungry for somebody quote unquote on the inside to tell them that the system is bullshit."
 
@@ -196,7 +196,7 @@ This is what the Seven's fear looks like when it channels outward. The threats k
 
 For all the Seven's restlessness — the serial obsessions, the expanding platforms, the new crusade every month — the inner circle doesn't rotate.
 
-Saagar and Krystal Ball have survived three platform changes together. Rising. Breaking Points. Their co-authored book, _The Populist's Guide to 2020_. They left stable jobs together. Built from nothing together. Disagreed publicly on air while maintaining a partnership that shows no sign of fracture.
+Saagar and [Krystal Ball](/personality-analysis/Krystal-Ball) have survived three platform changes together. Rising. Breaking Points. Their co-authored book, _The Populist's Guide to 2020_. They left stable jobs together. Built from nothing together. Disagreed publicly on air while maintaining a partnership that shows no sign of fracture.
 
 "What if we hated each other less, and the elites more."
 

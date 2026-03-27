@@ -13,7 +13,7 @@ published: false
 enneagram: 1
 type: ['creator']
 person: 'Krystal-Ball'
-suggestions: ['Hillary-Clinton', 'Alexandria-Ocasio-Cortez', 'Tucker-Carlson', 'Bernie-Sanders']
+suggestions: ['Alexandria-Ocasio-Cortez', 'Saagar-Enjeti', 'Tucker-Carlson', 'Hillary-Clinton']
 wikipedia: 'https://en.wikipedia.org/wiki/Krystal_Ball'
 twitter: 'https://twitter.com/krystalball'
 instagram: 'https://www.instagram.com/krystalmball'
@@ -122,11 +122,11 @@ The scandal paradoxically launched her media career. She got regular guest spots
 
 Ball spent three years at MSNBC from 2012 to 2015. By her own admission, she arrived as "definitely more of a Democratic partisan, like a party cheerleader."
 
-That didn't last. And years later, she'd look back at some of what she said during that era with the merciless eye she turns on everything else. "Some of it I watch and I'm proud of," she told Joe Rogan. "I focused on a lot of the same issues — labor, economic inequality, things that I really care a lot about. But especially on foreign policy, some of that stuff I go back and watch it and I'm like, oh my God, this is so cringe. I just bought into the corporate line."
+That didn't last. And years later, she'd look back at some of what she said during that era with the merciless eye she turns on everything else. "Some of it I watch and I'm proud of," she told [Joe Rogan](/personality-analysis/Joe-Rogan). "I focused on a lot of the same issues — labor, economic inequality, things that I really care a lot about. But especially on foreign policy, some of that stuff I go back and watch it and I'm like, oh my God, this is so cringe. I just bought into the corporate line."
 
 The reformer reforming her own past. Auditing her own record and finding it wanting. Most people rewrite their history to make themselves the hero. Ball rewrites hers to make herself the cautionary tale.
 
-As Hillary Clinton's 2016 presidential campaign took shape, Ball delivered a monologue that would define her career. On air, she argued Clinton was too tied to Wall Street and the wrong candidate for the political moment.
+As [Hillary Clinton](/personality-analysis/Hillary-Clinton)'s 2016 presidential campaign took shape, Ball delivered a monologue that would define her career. On air, she argued Clinton was too tied to Wall Street and the wrong candidate for the political moment.
 
 The network allowed it to air. Then came the meeting.
 
@@ -194,7 +194,7 @@ But there's a healthier direction too. When Type 1s feel secure, they access [Ty
 
 ## Building the Thing She Said Was Possible
 
-In 2018, Ball landed at The Hill's web show _Rising_ with conservative co-host Saagar Enjeti. The partnership worked because it was built on a shared diagnosis rather than a shared prescription.
+In 2018, Ball landed at The Hill's web show _Rising_ with conservative co-host [Saagar Enjeti](/personality-analysis/Saagar-Enjeti). The partnership worked because it was built on a shared diagnosis rather than a shared prescription.
 
 "We want to make people hate each other less and hate the ruling class more," Enjeti said at the top of their first episode.
 
@@ -258,7 +258,7 @@ And in the small moments too. Ball talks about living in a small Kentucky town w
 
 ## The Reformer's Curse
 
-In November 2024, after Kamala Harris lost to Donald Trump, Ball published an essay on Drop Site News titled "Bernie Would Have Won." The argument was the same one she'd been making since 2016 — since her book, since her MSNBC monologue, since she ran for Congress. Democrats keep running neoliberal campaigns in a post-neoliberal era. They keep abandoning the working class. They keep losing.
+In November 2024, after [Kamala Harris](/personality-analysis/Kamala-Harris) lost to [Donald Trump](/personality-analysis/Donald-Trump), Ball published an essay on Drop Site News titled "Bernie Would Have Won." The argument was the same one she'd been making since 2016 — since her book, since her MSNBC monologue, since she ran for Congress. Democrats keep running neoliberal campaigns in a post-neoliberal era. They keep abandoning the working class. They keep losing.
 
 She's been right for fifteen years. About Clinton. About the working-class abandonment. About the Russia obsession distracting from economic issues. Right about the direction the country was heading while the people with power to change it did, in her words, "zero, absolutely zero" to learn from their mistakes.
 

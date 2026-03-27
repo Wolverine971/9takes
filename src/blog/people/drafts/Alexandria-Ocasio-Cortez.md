@@ -6,7 +6,7 @@ persona_title: "Congress's Vigilant Insurgent"
 author: 'DJ Wayne'
 date: '2024-05-06'
 loc: 'https://9takes.com/personality-analysis/Alexandria-Ocasio-Cortez'
-lastmod: '2025-12-05'
+lastmod: '2026-03-27'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
@@ -14,44 +14,27 @@ enneagram: 6
 type: ['politician']
 person: 'Alexandria-Ocasio-Cortez'
 suggestions:
-  ['Bernie-Sanders', 'Kamala-Harris', 'Hillary-Clinton', 'Nancy-Pelosi', 'Martin-Luther-King-Jr']
+  ['Zohran-Mamdani', 'Kamala-Harris', 'Hillary-Clinton', 'Nancy-Pelosi', 'Martin-Luther-King-Jr']
 wikipedia: 'https://en.wikipedia.org/wiki/Alexandria_Ocasio-Cortez'
 twitter: 'AOC'
 instagram: 'aoc'
 tiktok: ''
 path: src/blog/people/drafts/Alexandria-Ocasio-Cortez.md
-content_quality:
-  hook: 9
-  enneagram: 9.5
-  evidence: 9
-  writing: 8.5
-  originality: 9
-  overall: 9.0
-  letter: A
-  graded_at: '2026-02-18'
 ---
 
-<!-- QUALITY GRADE: A (9.0)
-Hook: 9 | Enneagram: 9.5 | Evidence: 9 | Writing: 8.5 | Originality: 9
+<p class="firstLetter">Past 3AM. May 2025. The Energy and Commerce Committee is marking up the Republican tax bill. Most members are half-asleep. Alexandria Ocasio-Cortez leans into her microphone and asks whether women who suffer miscarriages would be exempt from proposed Medicaid work requirements.</p>
 
-FEEDBACK (2026-02-18):
-- Zuckerberg confrontation opening is vivid and specific — "Then Alexandria Ocasio-Cortez leans into her microphone" immediately demonstrates counterphobic Type 6 in action.
-- The Pelosi dynamic section is the piece's intellectual peak and arguably one of the best Enneagram-informed relationship analyses in the entire collection. "Type 3 sees politics as achievement. Type 6 sees politics as protection." That contrast illuminates both women.
-- Counterphobic vs. phobic distinction is clearly explained and consistently applied throughout: sit-in before sworn in, Musk exchange, Zuckerberg grilling.
-- Father's death as Type 6 origin is devastating and specific: "He left behind no life insurance. No investments. No safety net." Then the Star Trek / Captain Janeway detail — father pointing at the captain, then at Alexandria. Emotionally powerful.
-- 2024 election section adds genuine surprise: "22% Trump in 2020. 33% in 2024. Yet voters still backed her personally." And the voter quote: "I voted Trump, but I like you and Bernie. I don't trust either party's establishment politicians." Brilliant Type 6 detail.
-- Twitch Among Us stream (438K viewers, #1 traffic to IWillVote.com) as community-building evidence is well-deployed.
-- The "Criticism from the Left" section adds needed balance — not hagiography.
-- NEEDS WORK: The ending wraps up formulaically with "What drives you?" — the piece's natural ending is "Not just for herself. For everyone without a safety net." Cut the rhetorical question.
-- NEEDS WORK: The Met Gala section feels obligatory and doesn't add much psychological insight. Could be trimmed to 2-3 sentences.
-- TO REACH A+: Sharper ending (cut "What drives you?"), trim Met Gala section, consider adding one or two private life details about Riley Roberts and what the relationship reveals about Type 6 attachment.
--->
+A colleague tells her to stop addressing the camera.
 
-<p class="firstLetter">October 2019. Mark Zuckerberg sits before Congress, expecting the usual grandstanding. Then Alexandria Ocasio-Cortez leans into her microphone and asks if she can run Facebook ads claiming Republicans voted for the Green New Deal. His answer—"I think probably", goes viral. Millions watch a bartender-turned-congresswoman corner the world's fifth-richest man.</p>
+**"I will not yield because it was a terribly disrespectful comment, and I will not yield to disrespectful men."**
 
-This is what AOC does. She walks into rooms full of people who could destroy her career and picks fights anyway.
+She turns directly to the lens: **"There are 13.7 million Americans on the other side of that screen right there... I'm talking to you because I work for you."**
 
-Why?
+The question about miscarriages and Medicaid isn't abstract for her. Her family nearly lost their home to medical debt when her father was dying. She knows what it costs to be one bill away from nothing.
+
+Weber apologized the next morning. She accepted.
+
+Why does she keep picking these fights — at 3AM over Medicaid, at noon grilling Zuckerberg over Facebook ads, at midnight daring the administration's top immigration enforcer to come after her?
 
 <details>
 <summary class="accordion">TL;DR: Why AOC is an Enneagram Type 6</summary>
@@ -74,13 +57,25 @@ AOC is an [Enneagram Type 6](/enneagram-corner/enneagram-type-6)—"The Loyal Sk
 
 But they're also driven by a core fear: being without support when everything falls apart.
 
-This fear doesn't paralyze AOC. It propels her. Every policy she champions, Medicare for All, the Green New Deal, economic justice, aims to create the safety net her own family never had.
+That fear doesn't make AOC cautious. It makes her dangerous. Every policy she champions — Medicare for All, the Green New Deal, economic justice — aims to build the safety net her own family never had.
 
 ### The Counterphobic Six
 
-Here's where it gets interesting. Type 6s respond to fear in two ways: phobic (retreat) or counterphobic (charge forward). AOC is textbook counterphobic.
+Type 6s respond to fear in two ways: phobic (retreat) or counterphobic (charge forward). AOC is textbook counterphobic.
 
-Where most people see a billionaire CEO, she sees a target. Where others retreat from powerful institutions, she walks straight in and demands answers. This isn't recklessness. It's a survival strategy, neutralize threats before they neutralize you.
+Most politicians calculate which fights to pick. AOC walks into rooms full of people who could end her career and picks fights anyway — grilling Zuckerberg, calling Musk "unintelligent" on a 92-minute livestream, demanding Trump's impeachment while her own party hedged. The pattern isn't recklessness. It's a survival instinct: neutralize threats before they neutralize you.
+
+### Under Pressure and In Growth
+
+The Enneagram maps how personality shifts under stress and security — and AOC's public life provides textbook examples of both.
+
+When Type 6s are under extreme stress, they slide toward the unhealthy patterns of Type 3: suddenly image-conscious, performing rather than protecting. The 2021 Met Gala "Tax the Rich" gown was AOC at her most Three — a calculated spectacle, a branded message designed for maximum visibility. It worked. It also drew the only ethics investigation of her career. When a Six starts performing, they've left home territory.
+
+When Type 6s feel secure, they move toward the healthy patterns of Type 9: trusting, cooperative, willing to work within systems they don't fully trust. This explains her most confusing behavior to observers on both left and right — voting for Pelosi as Speaker while publicly challenging her, working within Hakeem Jeffries's leadership structure while maintaining outsider rhetoric. The growth arrow reveals a Six who has learned that operating within a system doesn't require trusting it completely.
+
+Her wing tells the rest of the story. AOC is a 6w7 — the "Buddy." The Seven wing adds the social electricity: Twitch streams, Instagram Lives, cooking sessions with constituents, the ability to make policy feel like a conversation rather than a lecture. A 6w5 would research in isolation (she does that too), but a 6w7 turns preparation into performance and isolation into community. The Seven wing is why she's the most-followed member of Congress on every major platform. It's not just strategy. It's instinct.
+
+And her instinctual stacking centers on Social — her security-seeking isn't personal but communal. She doesn't stockpile resources for herself. She builds systems that protect the group. Universal healthcare, living wages, the Green New Deal. Every policy is a safety net thrown wider.
 
 ## The Bronx: Where It Started
 
@@ -112,11 +107,11 @@ Economics and international relations. A combination that would later inform her
 
 But the pivotal experience was her internship in Senator Ted Kennedy's immigration office. She saw firsthand how policy decisions rippled through immigrant families. How bureaucracy could crush people.
 
-It was also at BU where she met Riley Roberts at a student town hall. They were both 19. After a college breakup and years apart, they reconnected. In 2022, more than a decade later, Roberts proposed in her family's hometown in Puerto Rico.
+It was also at BU where she met Riley Roberts at a student town hall. They were both 19. After a college breakup and years apart, they reconnected. In April 2022, Roberts proposed in her family's hometown in Puerto Rico.
 
-**"It's my resolution that perhaps we can be engaged by the end of the year,"** he'd told her during New Year's resolutions. He kept his word.
+Roberts built her early campaign website. He's a web developer who avoids cameras and interviews — four years after the engagement, no public wedding has been announced. One of the most visible politicians in America keeps this part of her life almost completely private.
 
-Roberts worked on her early campaign website. He's remained steady and low-profile: the kind of loyal partner a Type 6 treasures.
+The pairing makes sense through an Enneagram lens. Type 6s don't need flashy partners. They need reliable ones. Someone who shows up, stays steady, and doesn't add chaos to an already combative public life. Roberts fits that pattern exactly.
 
 ## From Bartender to Congress
 
@@ -128,7 +123,7 @@ Joe Crowley had held the seat for a decade. He was fourth in House Democratic le
 
 She ran anyway. Knocked on doors. Made calls. Built an army of volunteers fueled by small donations. And on primary night, she beat a ten-term incumbent by 15 points.
 
-The political establishment was stunned. Type 6s are good at seeing what others miss.
+The political establishment was stunned.
 
 The documentary _Knock Down the House_ captured the journey. It introduced her to a national audience hungry for something different.
 
@@ -136,29 +131,27 @@ The documentary _Knock Down the House_ captured the journey. It introduced her t
 
 ### Unfiltered
 
-Politicians usually sand down their edges. AOC sharpens hers.
+Politicians sand down their edges. AOC sharpens hers.
 
 **"I'm not a superhero. I'm not a villain. I'm just a person trying to do the right thing."**
 
-This admission, self-doubt alongside moral conviction, is pure Type 6. They never quite trust their own competence, but they push forward anyway.
+Self-doubt alongside moral conviction. She never quite trusts her own competence, but she pushes forward anyway — the defining internal tension of the counterphobic Six.
 
-### Digital Native
+### Platform Dominance
 
-Instagram Live cooking sessions. Twitter exchanges that draw blood. But her most innovative moment came in October 2020.
+AOC doesn't just use social media. She colonizes it.
 
-She launched a Twitch stream playing _Among Us_ with Rep. Ilhan Omar and streamers like Pokimane and HasanAbi. Peak viewership: 438,000, one of the highest individual streams ever. Her channel hit 700,000 followers.
+Instagram Live cooking sessions. A 2020 Twitch stream playing _Among Us_ that hit 438,000 peak viewers and drove more traffic to IWillVote.com than any other source. In December 2024, she became the **first person to reach 1 million followers on Bluesky**, hitting 2 million by March 2025.
 
-This wasn't about being trendy. She was building community, meeting young voters in their own space. During the stream, she became the **#1 traffic driver** to IWillVote.com. <a href="/personality-analysis/Bernie-Sanders">Bernie Sanders</a>, for comparison, has about 150,000 Twitch followers.
+Then there's the 92-minute unscripted Instagram Live in February 2025 where she called Musk **"one of the most unintelligent billionaires I have ever met"** and **"one of the most morally vacant"** people in government. No teleprompter. No staff approval. Just a congresswoman going live for an hour and a half to say what she thought about the world's richest man.
 
-Type 6s crave connection and transparency. Twitch delivered both.
+9.6 million Instagram followers. 13.1 million on X. Most-followed politician on Bluesky. She meets people where they are — and she does it unfiltered, which is exactly what makes it work.
 
 ### Relentless Preparation
 
 **"I prepare and prepare and prepare, and then I get up there and just let it rip."**
 
-Congressional hearings aren't performances. They're ambushes, five minutes to make your point before time expires. AOC treats them like a trial lawyer preparing for cross-examination.
-
-The results speak for themselves.
+Congressional hearings give you five minutes. AOC treats them like cross-examinations. The Zuckerberg clip. The 3AM Medicaid confrontation. The Homan standoff. Each one was surgical because the preparation happened long before the cameras rolled.
 
 ## Taking on Titans
 
@@ -174,17 +167,13 @@ Zuckerberg hesitates. **"I think probably."**
 
 She pivots to Cambridge Analytica. Catches him in contradictions about when Facebook knew about the data breach. The clip resurfaces years later on TikTok. Over 1.3 million views.
 
-### The Musk Exchange
+### The Homan Standoff
 
-When <a href="/personality-analysis/Elon-Musk">Elon Musk</a> bought Twitter and launched the $8 verification subscription, AOC didn't wait for others to react.
+February 2025. Trump's border czar Tom Homan threatened AOC on Fox News after she hosted a "Know Your Rights" webinar teaching constituents about their Fourth Amendment protections during ICE encounters. Homan said she'd **"be in trouble now"** and requested the Deputy AG investigate her.
 
-**"Lmao at a billionaire earnestly trying to sell people on the idea that 'free speech' is actually an $8/mo subscription plan."**
+AOC wrote directly to Attorney General Pam Bondi asking if the DOJ had **"bowed to political pressure."** Her public response: **"The Fourth Amendment is clear and I am well within my duties to educate people of their rights."**
 
-Musk's reply: **"Your feedback is appreciated, now pay $8."**
-
-She'd taken a shot at the world's richest man. He shot back. Neither blinked.
-
-Counterphobic Sixes don't pick easy fights.
+The administration's top immigration enforcer told her to back down. She escalated instead.
 
 ## The Pelosi Dynamic: Type 6 Meets Type 3
 
@@ -236,11 +225,11 @@ Type 6s understand strategic loyalty. You can distrust an authority figure and s
 
 ### "My Life Has Completely Transformed"
 
-When Pelosi stepped down from leadership in 2022, AOC's experience in Congress changed dramatically.
+When Pelosi stepped down from leadership in 2022, everything changed.
 
-**"Senior members talk to me. Chairs are nice to me. People want to work together,"** she told journalist Ryan Grim. With Pelosi gone, the constant surveillance lifted. The Type 6 could finally breathe.
+**"Senior members talk to me. Chairs are nice to me. People want to work together,"** AOC told journalist Ryan Grim. The constant surveillance lifted.
 
-But the détente didn't last. In December 2024, when AOC ran for Oversight Committee ranking member, Pelosi was back on the phones, lobbying for her opponent Gerry Connolly. He won, 131-84.
+But the détente didn't last. In December 2024, when AOC ran for Oversight Committee ranking member, Pelosi was back on the phones, lobbying for Gerry Connolly. He won, 131-84.
 
 ### What This Reveals
 
@@ -258,94 +247,98 @@ The irony? They actually share a goal: Democratic power. They just can't agree o
 
 ### The Green New Deal
 
-The 2019 resolution sent shockwaves through Washington. Combat climate change while addressing economic inequality? The establishment called it naive. Impractical. Too ambitious.
+The 2019 resolution was dismissed as naive. It changed the conversation anyway. Policies once considered fringe — universal healthcare, a living wage, aggressive climate action — now occupy mainstream Democratic discourse. She didn't just push for change. She expanded what change was possible.
 
-It changed the conversation anyway.
+### Legislation That Actually Passes
 
-In 2024, she and Bernie Sanders relaunched it with a focus on public housing. The vision adapted. The core ambition remained.
+The knock on AOC is that she's all rhetoric. The record complicates that.
 
-### Anti-Corruption Work
+The Bipartisan Healthy Start Reauthorization Act, co-led with Republican Rep. Nicole Malliotakis, passed the Health Subcommittee and then the full Energy and Commerce Committee **unanimously**. A progressive firebrand getting unanimous bipartisan support isn't supposed to happen.
 
-The Bipartisan Restoring Faith in Government Act. The High Court Gift Ban Act with Rep. Jamie Raskin, proposing to limit Supreme Court gifts to $50.
+The High Court Gift Ban Act with Rep. Jamie Raskin proposed limiting Supreme Court gifts to $50. The AI Data Center Moratorium Act with Bernie Sanders, introduced in March 2026, targets the unchecked buildout of data centers that drove household electricity costs up 7% in 2025.
 
-Type 6s distrust systems that can be corrupted. They build safeguards.
-
-### Moving the Overton Window
-
-This might be her most significant impact. Policies once dismissed as radical, universal healthcare, a living wage, aggressive climate action, now occupy mainstream Democratic discourse.
-
-She didn't just push for change. She expanded what change was possible.
+She picks high-profile fights and she does the committee grind. The combination is rarer than it looks.
 
 ## Controversies
 
 ### The Met Gala Dress
 
-September 2021. AOC attends the Met Gala in a white gown with **"Tax the Rich"** blazoned across the back. Critics called it hypocritical, preaching economic justice at a $35,000-per-ticket event.
-
-Her defense: New York officials are invited to oversee cultural institutions. She didn't pay for the ticket. She didn't keep the dress.
-
-The saga ended in 2025. The House Ethics Committee found her violations weren't intentional but ordered her to pay $3,000 for undervalued accessories. She complied.
-
-Type 6s try to work within systems while pushing their limits. Sometimes they miscalculate.
+The 2021 "Tax the Rich" gown — the stress arrow toward Type 3 on full display. The House Ethics Committee closed the matter in 2025 — violations weren't intentional, but she paid $3,000 for undervalued accessories. A miscalculation that came from performing rather than protecting.
 
 ### The Oversight Committee Loss
 
-The December 2024 defeat to Gerry Connolly, with Pelosi working against her, stung. But it revealed something important: AOC was willing to challenge established power structures even when the odds were against her.
+The December 2024 defeat to Gerry Connolly, 131-84, with Pelosi working the phones against her, could have been a humiliation. Her response on Bluesky: **"Tried my best. Sorry I couldn't pull it through everyone — we live to fight another day."**
 
-Counterphobic Sixes don't back down from fights they believe in. Even ones they might lose.
+She pivoted to Energy and Commerce in January 2025. The loss actually broadened her portfolio — energy, healthcare, tech regulation, telecom — better credentials for a statewide or national run than Oversight alone would have provided.
 
 ### Criticism from the Left
 
-Some progressives accuse her of becoming too cozy with the Democratic establishment. Her willingness to work within party structures while maintaining outsider rhetoric creates tension.
+Some progressives accuse her of shielding the establishment. She hasn't backed any push to unseat House Minority Leader Hakeem Jeffries, which frustrates voices further left. Her willingness to work within party structures while maintaining outsider rhetoric creates a tension she seems comfortable with.
 
-But this duality is itself a Type 6 survival strategy. Build alliances for security. Maintain the capacity to challenge when necessary. The alliances only work if the threat remains credible.
+This duality makes more sense through the Type 6 lens. Build alliances for security. Maintain the capacity to challenge when necessary. The alliances only work if the threat remains credible — and she keeps it credible.
 
 ## The 2024 Election: Reading the Room
 
-<a href="/personality-analysis/Donald-Trump">Donald Trump</a> won. AOC's response was pure Type 6: acknowledge the threat, then immediately build community.
+<a href="/personality-analysis/Donald-Trump">Donald Trump</a> won. AOC's response: acknowledge the threat, then immediately build community.
 
 **"I'm not here to sugarcoat what we all are about to collectively experience. But what we can do to prepare is build community."**
 
 What surprised her: her own district swung toward Trump. 22% in 2020. 33% in 2024. Yet voters still backed her personally.
 
-She went directly to her constituents. Asked why they split their tickets.
-
-The responses were revealing. Many saw both her and Trump as outsiders against the establishment.
+She went directly to her constituents and asked why they split their tickets. The responses were revealing — many saw both her and Trump as outsiders against the establishment.
 
 **"I voted Trump, but I like you and Bernie. I don't trust either party's establishment politicians."**
 
-Classic Type 6 response to confusion: gather data by confronting it directly.
+A Type 6 hears that and doesn't dismiss it. She files it away. If voters are angry at institutions, that's data she can use.
 
 ## 2028 and Beyond
 
-Her team is positioning her for either a Senate run against Chuck Schumer or a presidential bid. Town halls across Upstate New York. Millions spent on digital advertising. Lists of potential supporters acquired and organized.
+The numbers tell the story before she does.
 
-Polls show strength: 55% of likely Democratic voters backed her over Schumer in one survey. She placed third in a hypothetical presidential primary behind Newsom and Harris.
+**$9.6 million raised in Q1 2025** — her strongest quarter ever. **$15.4 million** in her campaign account by mid-2025, the most of any House member. 736,000 individual contributions at an average of $20. No corporate PAC money. Ever.
+
+Polls show her leading Schumer by 19 points in a hypothetical 2028 Senate matchup. She placed third in a hypothetical presidential primary behind [Gavin Newsom](/personality-analysis/Gavin-Newsom) and [Kamala Harris](/personality-analysis/Kamala-Harris).
 
 Her advisers won't confirm anything. They're not ruling anything out either.
 
-Type 6s prepare for uncertainty. They keep options open.
-
-In 2025, she joined the House Energy and Commerce Committee. Broadening her portfolio. Building for what comes next.
+Then there's the Fighting Oligarchy tour with Bernie Sanders. Fifteen states. **261,100 total attendees** as of late 2025. Denver drew 34,000. Los Angeles, 36,000. But the telling numbers are from red territory: 20,000 in Salt Lake City. 12,500 in Nampa, Idaho. 7,500 in Missoula, Montana. She's not just preaching to the converted.
 
 ## Building a Movement
 
-She's called for the party to support "brawlers" who will fight harder against Republican control. When Schumer voted for a Republican spending bill, she criticized him publicly.
+When Schumer announced he'd vote for the Republican spending bill in March 2025, AOC called it **"a tremendous mistake,"** **"a huge slap in the face,"** and said there was **"a deep sense of outrage and betrayal."** Colleagues privately urged her to primary him.
 
-Her loyalty is to principles. Not party hierarchy.
+NBC News ran the headline: **"Democrats are desperately searching for new leaders. AOC is stepping into the void."**
 
-**"Change takes courage. Change takes long-term thinking."**
+Her loyalty is to principles over party hierarchy. When Trump bombed Iranian nuclear sites without congressional authorization in June 2025, she was one of the first elected Democrats to invoke the word "impeachment" — while most of her party avoided it. Trump responded by calling her **"one of the 'dumbest' people in Congress."** She didn't flinch.
 
-The movement she's building extends beyond her district. Beyond Congress. A new generation watches someone who looks like them challenge power and sometimes win.
+The movement she's building extends beyond her district and beyond Congress. Funded entirely by small donors. Drawing crowds in deep-red states that haven't voted Democrat in decades.
 
-## The Pattern Behind the Politics
+Twenty thousand in Salt Lake City. Twelve thousand five hundred in Nampa, Idaho. Seven thousand five hundred in Missoula, Montana.
 
-Alexandria Ocasio-Cortez watched her family's security shatter at eighteen. She spent years rebuilding, bartending, waitressing, organizing, before taking on a ten-term incumbent and winning.
-
-Now she grills billionaires in congressional hearings. Challenges her own party leadership. Positions herself for higher office while building safety nets for communities that remind her of her own.
-
-The counterphobic tendencies explain the fearlessness. The loyalty explains the community-building. The skepticism explains the relentless questioning of authority.
-
-And beneath it all, the Type 6's deepest motivation: create the security she once lost. Not just for herself. For everyone without a safety net.
+Her father pointed at Captain Janeway, then at his daughter. Back and forth.
 
 > **Disclaimer:** This analysis of Alexandria Ocasio-Cortez's Enneagram type is speculative, based on publicly available information, and may not reflect her actual personality type.
+
+<!--
+REVIEWER COMMENTS (2026-03-27)
+=============================
+
+DUPLICATE / REDUNDANT:
+- The rally attendance numbers (Salt Lake City 20,000, Nampa 12,500, Missoula 7,500) appear almost word-for-word in BOTH "2028 and Beyond" and "Building a Movement." Pick one place for them and cut the other. Having it twice makes it feel like a copy-paste error.
+- "Building a Movement" and "2028 and Beyond" cover very similar ground (fundraising, polls, tour, Schumer tension). Consider merging them into one section. Right now it reads like two drafts of the same section that both made it in.
+
+COULD TRIM / OVERDONE:
+- The Pelosi section is massive — almost a third of the article. It's the most detailed section by far. The blow-by-blow timeline (sit-in, glass of water, Twitter exchange, private meeting, Oversight loss) is interesting but could be tightened. A reader who came for AOC might lose patience with how much real estate Pelosi gets. Consider cutting one of the sub-incidents or condensing the "What This Reveals" analysis, which re-explains the Type 6 vs Type 3 dynamic that the reader already gets from the earlier examples.
+
+MISSING / SHOULD EXPAND:
+- Who is Weber? The opening mentions "Weber apologized the next morning" but he's never introduced. The reader has no idea who this is. Add a line identifying him when the colleague tells her to stop addressing the camera.
+- The 10-year gap between her father's death (2008) and running for Congress (2018) is barely covered. She went from BU to bartending to... what? The Brand New Congress recruitment, her organizing work, the transition from bartender to candidate — that's actually the most interesting part of the story and it gets one paragraph. A normal person reading this would wonder what happened in that decade.
+- The "What She Actually Built" / legislation section feels thin compared to the personality analysis sections. You list three bills in quick succession but don't give the reader a sense of impact. The Healthy Start Act getting unanimous committee support is a great detail — give it a beat to land instead of rushing to the next bill.
+- No sense of her as a person outside politics. What's she like when she's not fighting? The Among Us stream and cooking sessions are mentioned but just as political tools. Any hobbies, interests, or humanizing details would balance the "fearless warrior" framing and make her feel more real.
+- The criticism section is short and only covers criticism from the left. There's no mention of the right-wing attacks (death threats, the viral "dancing video" thing, constant Fox News targeting). Even a brief mention would round things out — and honestly the fact that she deals with persistent threats ties right back into the Type 6 security theme.
+
+MINOR NOTES:
+- The Captain Janeway callback at the very end is a nice touch, but it lands a bit abruptly after the rally numbers. Consider adding a transitional sentence so it doesn't feel like the article just... stops.
+- "She colonizes it" (re: social media) is a strong verb choice that some readers might find off-putting. Maybe "dominates" or "owns" works better.
+- The article leans heavily on the "fearless" and "dangerous" framing. A Type 6 piece might benefit from showing more of the doubt and anxiety that drives the courage — you hint at it with the "never quite trusts her own competence" line but could do more. The most compelling insight in the article is that her courage comes FROM fear, not despite it. That deserves more space.
+-->

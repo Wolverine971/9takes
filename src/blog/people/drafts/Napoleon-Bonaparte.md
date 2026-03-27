@@ -13,7 +13,7 @@ published: false
 enneagram: 8
 type: ['historical']
 person: 'Napoleon-Bonaparte'
-suggestions: ['Winston-Churchill', 'Vladimir-Putin', 'Abraham-Lincoln', 'Martin-Luther-King-Jr']
+suggestions: ['Julius-Caesar', 'Winston-Churchill', 'Vladimir-Putin', 'Joseph-Stalin']
 wikipedia: 'https://en.wikipedia.org/wiki/Napoleon'
 content_quality:
   hook: 9
@@ -154,6 +154,8 @@ Goethe, after a single audience, said two words: "There is a man."
 ### Napoleon is an Enneagram Type 8
 
 The popular reading of Napoleon is ambition — a man driven by achievement, glory, and legacy. That reading points toward [Enneagram Type 3](/enneagram-corner/enneagram-type-3), the Achiever.
+
+And that's exactly why he makes such a useful foil to [Julius Caesar](/personality-analysis/Julius-Caesar). Caesar turned conquest into personal mythmaking. Napoleon turned it into personal sovereignty.
 
 But watch what happens at the coronation in 1804. The Pope traveled from Rome to Notre-Dame to crown the new Emperor. Protocol, precedent, and a thousand years of European tradition all demanded that the Pope place the crown on Napoleon's head. At the decisive moment, Napoleon turned, took the crown from Pius VII's hands, and placed it on his own head.
 

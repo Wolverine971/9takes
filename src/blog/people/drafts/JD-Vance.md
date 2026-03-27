@@ -13,7 +13,7 @@ published: false
 enneagram: 3
 type: ['politician']
 person: 'JD-Vance'
-suggestions: ['Donald-Trump', 'Kamala-Harris', 'Peter-Thiel', 'Tucker-Carlson']
+suggestions: ['Donald-Trump', 'Peter-Thiel', 'Tucker-Carlson', 'Gavin-Newsom']
 wikipedia: 'https://en.wikipedia.org/wiki/JD_Vance'
 twitter: 'JDVance'
 instagram: 'jd_vance'
@@ -126,7 +126,7 @@ When Trump announced Vance as his VP pick in July 2024, Usha's biography was rem
 
 _Hillbilly Elegy_ did something extraordinary: it turned a working-class childhood into an elite credential.
 
-Published in 2016, the memoir arrived at exactly the right cultural moment. America was trying to understand the rural white voters who would propel Trump to the presidency, and here was a Yale-educated venture capitalist who could translate. The _New York Times_ listed it among "6 Books to Help Understand Trump's Win." The _Washington Post_ called Vance "the voice of the Rust Belt." The book became a bestseller, a Netflix film, and, most importantly, a political origin story.
+Published in 2016, the memoir arrived at exactly the right cultural moment. America was trying to understand the rural white voters who would propel [Donald Trump](/personality-analysis/Donald-Trump) to the presidency, and here was a Yale-educated venture capitalist who could translate. The _New York Times_ listed it among "6 Books to Help Understand Trump's Win." The _Washington Post_ called Vance "the voice of the Rust Belt." The book became a bestseller, a Netflix film, and, most importantly, a political origin story.
 
 What's revealing is the construction. Vance shares devastating details: his mother chasing him with a car, the parade of unstable men, the shame of watching his family unravel in public. But every wound serves the narrative arc. Every failure sets up the comeback. The book's thesis is ultimately optimistic, _I made it out, and here's what I learned_, and that optimism is what made it useful.
 
@@ -164,7 +164,7 @@ He also called Trump "a moral disaster," "a total fraud who didn't care about re
 
 As late as February 2020, he privately wrote that Trump had "so thoroughly failed to deliver on his economic populism." In June 2020: "I think Trump will probably lose."
 
-Then Peter Thiel brought him to Mar-a-Lago in February 2021. According to NBC, the meeting began with "ten minutes of President Trump busting JD's chops" about his past criticism. Tucker Carlson, Donald Trump Jr., and Elon Musk ran what Axios called a "secret lobbying campaign" for Vance. Carlson's argument: he was the only top contender who "doesn't secretly hate Trump, as all the rest of them do."
+Then Peter Thiel brought him to Mar-a-Lago in February 2021. According to NBC, the meeting began with "ten minutes of President [Trump](/personality-analysis/Donald-Trump) busting JD's chops" about his past criticism. [Tucker Carlson](/personality-analysis/Tucker-Carlson), Donald Trump Jr., and Elon Musk ran what Axios called a "secret lobbying campaign" for Vance. Carlson's argument: he was the only top contender who "doesn't secretly hate Trump, as all the rest of them do."
 
 By July 2021, Vance was on Fox News apologizing: "I ask folks not to judge me based on what I said in 2016, because I've been very open that I did say those critical things and I regret them, and I regret being wrong about the guy." He deleted dozens of critical tweets. He forgot to delete his Likes, which still showed support for Hillary Clinton's 2016 candidacy.
 

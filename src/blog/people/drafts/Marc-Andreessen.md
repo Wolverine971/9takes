@@ -13,7 +13,7 @@ published: false
 enneagram: 5
 type: ['techie']
 person: 'Marc-Andreessen'
-suggestions: ['Peter-Thiel', 'Elon-Musk', 'Mark-Zuckerberg', 'Bill-Gates']
+suggestions: ['Peter-Thiel', 'Reid-Hoffman', 'Sam-Altman', 'Kara-Swisher']
 wikipedia: 'https://en.wikipedia.org/wiki/Marc_Andreessen'
 twitter: '@pmarca'
 instagram: ''

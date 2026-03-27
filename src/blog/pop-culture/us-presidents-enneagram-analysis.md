@@ -13,6 +13,25 @@ type: ['situational']
 blog: true
 previewHtml: ''
 pic: 'us-presidents-enneagram'
+picGroup:
+  - image: '/types/9s/Abraham-Lincoln.webp'
+    text: 'Abraham Lincoln'
+    enneagramType: 9
+  - image: '/types/7s/John-F-Kennedy.webp'
+    text: 'John F. Kennedy'
+    enneagramType: 7
+  - image: '/types/9s/Ronald-Reagan.webp'
+    text: 'Ronald Reagan'
+    enneagramType: 9
+  - image: '/types/9s/Barack-Obama.webp'
+    text: 'Barack Obama'
+    enneagramType: 9
+  - image: '/types/3s/Donald-Trump.webp'
+    text: 'Donald Trump'
+    enneagramType: 3
+  - image: '/types/2s/Joe-Biden.webp'
+    text: 'Joe Biden'
+    enneagramType: 2
 path: src/blog/pop-culture/us-presidents-enneagram-analysis.md
 ---
 

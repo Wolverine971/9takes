@@ -13,7 +13,7 @@ published: false
 enneagram: 5
 type: ['techie', 'entrepreneur']
 person: 'Dario-Amodei'
-suggestions: ['Sam-Altman', 'Elon-Musk', 'Mark-Zuckerberg', 'Satya-Nadella']
+suggestions: ['Sam-Altman', 'Alex-Karp', 'David-Sacks', 'Marc-Andreessen']
 wikipedia: 'https://en.wikipedia.org/wiki/Dario_Amodei'
 twitter: 'DarioAmodei'
 instagram: ''

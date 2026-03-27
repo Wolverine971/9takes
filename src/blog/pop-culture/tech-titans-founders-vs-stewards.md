@@ -13,6 +13,22 @@ type: ['situational']
 blog: true
 previewHtml: ''
 pic: 'tech-titans-founders-vs-stewards'
+picGroup:
+  - image: '/types/1s/Steve-Jobs.webp'
+    text: 'Steve Jobs'
+    enneagramType: 1
+  - image: '/types/1s/Tim-Cook.webp'
+    text: 'Tim Cook'
+    enneagramType: 1
+  - image: '/types/5s/Bill-Gates.webp'
+    text: 'Bill Gates'
+    enneagramType: 5
+  - image: '/types/5s/Satya-Nadella.webp'
+    text: 'Satya Nadella'
+    enneagramType: 5
+  - image: '/types/9s/Sundar-Pichai.webp'
+    text: 'Sundar Pichai'
+    enneagramType: 9
 path: src/blog/pop-culture/tech-titans-founders-vs-stewards.md
 ---
 

@@ -13,6 +13,25 @@ type: ['situational']
 blog: true
 previewHtml: ''
 pic: 'tech-titans-leadership-styles'
+picGroup:
+  - image: '/types/1s/Steve-Jobs.webp'
+    text: 'Steve Jobs'
+    enneagramType: 1
+  - image: '/types/5s/Elon-Musk.webp'
+    text: 'Elon Musk'
+    enneagramType: 5
+  - image: '/types/5s/Mark-Zuckerberg.webp'
+    text: 'Mark Zuckerberg'
+    enneagramType: 5
+  - image: '/types/6s/Peter-Thiel.webp'
+    text: 'Peter Thiel'
+    enneagramType: 6
+  - image: '/types/8s/Jeff-Bezos.webp'
+    text: 'Jeff Bezos'
+    enneagramType: 8
+  - image: '/types/9s/Sundar-Pichai.webp'
+    text: 'Sundar Pichai'
+    enneagramType: 9
 path: src/blog/pop-culture/tech-titans-leadership-styles.md
 ---
 

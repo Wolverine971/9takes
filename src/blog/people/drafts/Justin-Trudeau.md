@@ -13,7 +13,7 @@ published: false
 enneagram: 3
 type: ['politician']
 person: 'Justin-Trudeau'
-suggestions: ['Barack-Obama', 'Kamala-Harris', 'Donald-Trump', 'Joe-Biden']
+suggestions: ['Gavin-Newsom', 'Kamala-Harris', 'Donald-Trump', 'Joe-Biden']
 wikipedia: 'https://en.wikipedia.org/wiki/Justin_Trudeau'
 twitter: 'JustinTrudeau'
 instagram: 'justinpjtrudeau'
@@ -81,7 +81,7 @@ When asked what drives him, Trudeau didn't name ideology. He described a role he
 
 That's not a policy platform. It's an identity statement.
 
-A 2021 personality study from the Unit for the Study of Personality in Politics at St. John's University, conducted by researchers Khoury and Immelman using the Millon Inventory of Diagnostic Criteria, found Trudeau's primary personality pattern to be "outgoing/gregarious" paired with "ambitious/confident." His highest score was on the Outgoing scale, 18 out of a possible range, compared to [Donald Trump's](/personality-analysis/Donald-Trump) 20 and [Barack Obama's](/personality-analysis/Barack-Obama) 3. The researchers classified him as the **"energetic extravert"** subtype: "optimistic, cheerful, and radiating charm and vigor." They predicted a charismatic leadership style with "a flair for the dramatic."
+A 2021 personality study from the Unit for the Study of Personality in Politics at St. John's University, conducted by researchers Khoury and Immelman using the Millon Inventory of Diagnostic Criteria, found Trudeau's primary personality pattern to be "outgoing/gregarious" paired with "ambitious/confident." His highest score was on the Outgoing scale, 18 out of a possible range, compared to [Donald Trump's](/personality-analysis/Donald-Trump) 20 and Barack Obama's 3. The researchers classified him as the **"energetic extravert"** subtype: "optimistic, cheerful, and radiating charm and vigor." They predicted a charismatic leadership style with "a flair for the dramatic."
 
 Translate that into Enneagram terms and you get a textbook Three: image-conscious, confident in their ability to charm, and fundamentally wired to read a room and become what it needs.
 
@@ -309,7 +309,7 @@ Now the same metric had arrived in his private life.
 
 ## The Curtain Call
 
-On Friday, December 13, 2024, Trudeau called Chrystia Freeland on Zoom and told her he no longer wanted her to serve as Finance Minister. He offered her a different portfolio, managing Canada's fraught relations with the incoming Trump administration, but without a department.
+On Friday, December 13, 2024, Trudeau called Chrystia Freeland on Zoom and told her he no longer wanted her to serve as Finance Minister. He offered her a different portfolio, managing Canada's fraught relations with the incoming [Trump](/personality-analysis/Donald-Trump) administration, but without a department.
 
 Freeland spent the weekend deliberating.
 

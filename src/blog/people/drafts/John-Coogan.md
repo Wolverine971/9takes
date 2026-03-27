@@ -13,7 +13,7 @@ published: false
 enneagram: 3
 type: ['creator', 'entrepreneur']
 person: 'John-Coogan'
-suggestions: ['Jason-Calacanis', 'Alex-Hormozi', 'Steven-Bartlett', 'Sam-Altman']
+suggestions: ['Jordi-Hays', 'Shaan-Puri', 'Sam-Altman', 'Peter-Thiel', 'Steven-Bartlett']
 wikipedia: ''
 twitter: 'https://twitter.com/johncoogan'
 instagram: 'https://instagram.com/johncoogan'

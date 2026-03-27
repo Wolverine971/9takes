@@ -13,7 +13,7 @@ published: false
 enneagram: 3
 type: ['creator']
 person: 'Chris-Williamson'
-suggestions: ['Steven-Bartlett', 'Alex-Hormozi', 'Andrew-Huberman', 'Lex-Fridman']
+suggestions: ['Joe-Rogan', 'Lex-Fridman', 'Shawn-Ryan', 'Steven-Bartlett']
 wikipedia: 'https://en.wikipedia.org/wiki/Chris_Williamson_(TV_personality)'
 twitter: 'https://twitter.com/ChrisWillx'
 instagram: 'https://www.instagram.com/chriswillx/'
@@ -170,7 +170,7 @@ What separates him from hundreds of other curiosity-driven interviewers is his w
 
 No single episode changed everything. The transformation was cumulative, 800+ conversations slowly reshaping him. But certain moments stand out. A man approached him at a fitness expo, emotionally overwhelmed, and told Chris how a Modern Wisdom conversation had helped him reconnect with his wife and daughter after his father's death. Chris has pointed to that moment as proof the pivot was worthwhile. As he put it: "Getting people drunk never really felt like I was transcending the suffering of day-to-day existence."
 
-Then came the Rogan call. In July 2022, Joe Rogan messaged Chris directly about appearing on JRE. The episode aired weeks before Chris moved to Austin. He's now appeared three times. The moment validated what years of silent grinding hadn't: that the nerdy kid from Stockton-on-Tees belonged in the room.
+Then came the Rogan call. In July 2022, [Joe Rogan](/personality-analysis/Joe-Rogan) messaged Chris directly about appearing on JRE. The episode aired weeks before Chris moved to Austin. He's now appeared three times. The moment validated what years of silent grinding hadn't: that the nerdy kid from Stockton-on-Tees belonged in the room.
 
 His quality obsession reveals the achiever underneath. The internal motto for his team: "Make the most beautiful podcast in the world." His creative director Dean Hindmarch helped build a world-first LED volume video-wall studio using the same Unreal Engine 5 technology as _The Mandalorian_. Chris describes himself as a nightmare to work with, someone who notices every mismatched color grade, every imprecise thumbnail, every sentence that isn't right. "Control freak is a word that people with low standards use to describe people with high standards."
 
@@ -198,7 +198,7 @@ In September 2022, Chris made what he's called the biggest decision of his adult
 
 He frames the decision through Christopher Hitchens via Douglas Murray: **"In life we must choose our regrets."** He could live with the regret of trying and failing. He couldn't live with the regret of "what if."
 
-Austin wasn't just a new city. It was proximity to the center of gravity. Joe Rogan had already invited him on JRE weeks earlier. The broader Texas podcast and creator ecosystem gave him access to guests, collaborators, and an American audience that didn't flinch at ambition.
+Austin wasn't just a new city. It was proximity to the center of gravity. [Joe Rogan](/personality-analysis/Joe-Rogan) had already invited him on JRE weeks earlier. The broader Texas podcast and creator ecosystem gave him access to guests, collaborators, and an American audience that didn't flinch at ambition.
 
 Chris has talked openly about what he calls the UK's "tall poppy syndrome," the tendency to cut down anyone who grows beyond the acceptable height. When the 2025 Spotify Wrapped revealed three Brits in the top 10 podcasts globally (Chris, [Steven Bartlett](/personality-analysis/Steven-Bartlett), and Jay Shetty), a prominent British journalist wrote that their success was "a rejection of our patriotic inheritance." Chris's response:
 

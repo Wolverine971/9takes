@@ -13,7 +13,7 @@ published: false
 enneagram: 8
 type: ['techie', 'author']
 person: 'Kara-Swisher'
-suggestions: ['Elon-Musk', 'Peter-Thiel', 'Mark-Zuckerberg', 'Oprah-Winfrey']
+suggestions: ['Scott-Galloway', 'Peter-Thiel', 'Sam-Altman', 'Marc-Andreessen']
 wikipedia: 'https://en.wikipedia.org/wiki/Kara_Swisher'
 twitter: '@karaswisher'
 instagram: '@karaswisher'
@@ -216,7 +216,7 @@ An Eight's relationship to [power and truth](/enneagram-corner/enneagram-communi
 
 She said that about being closeted. But she meant it as a universal law.
 
-Her interview subjects describe the experience as disorienting. She arrives knowing more than they expect, asks questions they haven't rehearsed answers for, and treats their authority as irrelevant to the conversation. This isn't technique. It's temperament. She walks into a room with [Peter Thiel](/personality-analysis/Peter-Thiel) or Sam Altman and genuinely does not feel smaller. Not because she's performing confidence. Because the hierarchy in her head isn't organized by wealth or title. It's organized by honesty.
+Her interview subjects describe the experience as disorienting. She arrives knowing more than they expect, asks questions they haven't rehearsed answers for, and treats their authority as irrelevant to the conversation. This isn't technique. It's temperament. She walks into a room with [Peter Thiel](/personality-analysis/Peter-Thiel) or [Sam Altman](/personality-analysis/Sam-Altman) and genuinely does not feel smaller. Not because she's performing confidence. Because the hierarchy in her head isn't organized by wealth or title. It's organized by honesty.
 
 "I am fair. I think one of the things that always happens when I interview people is they start with the 'you're mean.'"
 

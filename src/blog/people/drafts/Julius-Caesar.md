@@ -13,7 +13,7 @@ published: false
 enneagram: 3
 type: ['historical']
 person: 'Julius-Caesar'
-suggestions: ['Abraham-Lincoln', 'Donald-Trump', 'Napoleon-Bonaparte', 'Winston-Churchill']
+suggestions: ['Napoleon-Bonaparte', 'Joseph-Stalin', 'Abraham-Lincoln', 'Winston-Churchill']
 wikipedia: 'https://en.wikipedia.org/wiki/Julius_Caesar'
 twitter: ''
 instagram: ''
@@ -131,6 +131,8 @@ The elder Curio called Caesar "every woman's man and every man's woman." Cato sa
 What makes Caesar specifically a Three, rather than just ambitious, becomes clearer when you compare him to Pompey. Pompey was also ambitious. He wanted glory, triumph, supreme command. But Pompey received his title "Magnus" from his soldiers and waited for Sulla to confirm it. He sought his extraordinary commands through legal channels (the _lex Gabinia_, the _lex Manilia_), needing assemblies to grant him authority. He styled his hair like Alexander the Great and waited for people to notice the resemblance. He worked within the system until the system rewarded him.
 
 Caesar didn't wait. He manufactured his own authority. When the Senate wouldn't give him what he wanted, he crossed a river with one legion and took it. Pompey believed power was conferred by institutions. Caesar believed power was performed into existence, that if you acted like the most important man in the room, the room would eventually agree.
+
+That instinct makes him a useful contrast with [Napoleon Bonaparte](/personality-analysis/Napoleon-Bonaparte). Both men seized legitimacy instead of waiting for it. Caesar did it through the Three's mythmaking instinct; Napoleon did it through the Eight's demand for sovereignty.
 
 ---
 
