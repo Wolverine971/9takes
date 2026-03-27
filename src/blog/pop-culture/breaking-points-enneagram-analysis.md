@@ -44,8 +44,8 @@ This blog is about _why_. Not just politically—psychologically. Their Enneagra
 
 | Host                                                 | Enneagram Type             | Their Own Political Label           | Core Drive                                         | What Viewers Get                         |
 | ---------------------------------------------------- | -------------------------- | ----------------------------------- | -------------------------------------------------- | ---------------------------------------- |
-| [Krystal Ball](/personality-analysis/Krystal-Ball)   | Type 1 — The Perfectionist | Left populist                       | Moral conviction—things _should_ be better         | Righteous anger with structure           |
-| [Saagar Enjeti](/personality-analysis/Saagar-Enjeti) | Type 7 — The Enthusiast    | Social conservative, fiscal liberal | Intellectual curiosity—follow the interesting idea | Eclectic analysis that keeps you engaged |
+| [Krystal Ball](/personality-analysis/krystal-ball)   | Type 1 — The Perfectionist | Left populist                       | Moral conviction—things _should_ be better         | Righteous anger with structure           |
+| [Saagar Enjeti](/personality-analysis/saagar-enjeti) | Type 7 — The Enthusiast    | Social conservative, fiscal liberal | Intellectual curiosity—follow the interesting idea | Eclectic analysis that keeps you engaged |
 
 ## Krystal Ball: The Making of a Moral Worldview
 

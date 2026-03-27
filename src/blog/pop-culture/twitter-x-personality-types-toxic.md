@@ -293,7 +293,7 @@ Twitter Spaces—the live audio feature—briefly hinted at a different dynamic.
 
 ### What Actually Changed
 
-When [Elon Musk](/personality-analysis/Elon-Musk) bought Twitter, the changes weren't just cultural—they were mechanical.
+When [Elon Musk](/personality-analysis/elon-musk) bought Twitter, the changes weren't just cultural—they were mechanical.
 
 **Staffing gutted.** The workforce dropped from 8,000 to under 1,500. Content moderation teams were decimated. The Trust and Safety Council—responsible for policies on hate speech, child exploitation, and self-harm—was dissolved entirely in December 2022.
 

@@ -4,9 +4,9 @@ meta_title: "Why Palantir's CEO Can't Sit Still (It's Not What You Think)"
 persona_title: "Silicon Valley's Ornery Poet"
 description: "A biracial, dyslexic philosopher who dreamed of spending his life in bed became America's highest-paid CEO. The Enneagram explains how."
 author: 'DJ Wayne'
-date: '2026-03-24'
+date: '2026-03-25'
 loc: 'https://9takes.com/personality-analysis/Alex-Karp'
-lastmod: '2026-03-24'
+lastmod: '2026-03-25'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
@@ -111,11 +111,13 @@ What makes the partnership last is not agreement but the appetite for conflict i
 
 When Thiel publicly backed Trump in 2016, Karp said bluntly: "I didn't enjoy it." It made government contracts harder to win, since having your co-founder as the most visible tech supporter of the incoming president raised suspicions about Palantir's motives on both sides. Yet Thiel asked Karp to lead Palantir in the first place, precisely because a self-described socialist running a national-security company would be harder for critics to dismiss as an authoritarian project. They chose the fight over the friendship, and got both.
 
+They still have both. Thiel remains on Palantir's board. They still disagree about nearly everything political. But they share the conviction that the West needs better technology to defend itself, and that the old defense establishment will never build it. It is a partnership held together not by affection but by a shared enemy: mediocrity in the institutions that matter most.
+
 Karp didn't stay for a conventional career. He left for Germany, earning a PhD in social theory from the Johann Wolfgang Goethe University in Frankfurt, the intellectual home of critical theory, of Adorno and Habermas. His dissertation explored how language and aggression shape culture. He studied the mechanics of power while dreaming of a contemplative life.
 
 "I just wanted to move to Berlin and spend all day in bed," he admitted in a 2025 Semafor interview.
 
-The man who now runs a defense technology company valued at over $250 billion, who writes shareholder letters quoting St. Augustine and President Nixon, once wanted nothing more than to lie in bed in Berlin. He didn't get to be a poet. He got to be something far stranger.
+The man who now runs a defense technology company valued at over $250 billion once wanted nothing more than to lie in bed in Berlin. He didn't get to be a poet. He got to be something far stranger.
 
 ---
 
@@ -123,15 +125,19 @@ The man who now runs a defense technology company valued at over $250 billion, w
 
 In 2004, Karp and Thiel co-founded Palantir Technologies, named, like so many Thiel ventures, after Tolkien. A palantir is a seeing stone, a device for observing things at great distance.
 
-Karp had no technical background. No business training. He had a philosophy degree and a PhD in critical theory, a resume more akin to [Sam Altman's](/personality-analysis/Sam-Altman) dropout mythology than anything in the CEO playbook. He became CEO anyway.
+Karp had no technical background. No business training. He had a philosophy degree and a PhD in critical theory — credentials that qualified him to teach a seminar, not run a startup. He became CEO anyway. And for years, it looked like a mistake.
+
+Palantir's first client was the CIA, through its venture capital arm In-Q-Tel. But beyond the intelligence community, almost no one would buy the software. For roughly five years, Palantir bled money. Thiel personally poured in around $30 million to keep the company alive. Karp didn't code. He didn't read architecture documents. What he did was sit in rooms with intelligence analysts and military officers, listen to what they actually needed, and translate that back to his engineers in the language of a philosopher asking what the problem _meant_. It was an absurd way to run a tech company. It also worked.
+
+The real breakthrough came when Palantir's software reached troops in Iraq and Afghanistan. U.S. forces used it to map IED networks, track insurgent supply chains, and identify bomb-makers. Soldiers in the field loved it. Word-of-mouth from the front lines created demand that eventually forced the Pentagon bureaucracy to adopt it, bottom-up, against the wishes of defense contractors who had been building the same failed systems for decades.
 
 "If you were to do a sitcom on Palantir," Karp told The New York Times, "it's equal parts Larry David, a philosophy class, tech and James Bond."
 
-He was not joking. Palantir's culture, part national-security contractor, part software startup, part intellectual commune, is a direct expression of Karp's psychology. Consider what he built:
+He was not joking. Palantir's culture is a direct expression of Karp's psychology. Consider what he built:
 
 A flat hierarchy where disagreement is the norm. "Half the people disagree with me, at least on any issue," Karp has said. He constructed "this incredibly painful internal structure of flatness" specifically so he could "hear how wrong I am all day."
 
-A company that treats product building "more like art than enterprise software." A workplace where a tai chi master works alongside the CEO. Where the shareholder letters read like philosophy papers. Where Karp calls the whole operation a "freak show" and means it as the highest compliment.
+A company that treats product building "more like art than enterprise software." A workplace where Karp calls the whole operation a "freak show" and means it as the highest compliment.
 
 <div class="pull-quote">"We cultivate minds by being exceedingly difficult."</div>
 
@@ -166,7 +172,7 @@ At the New York Times DealBook Summit in December 2025, Karp broke his own rule 
 
 What followed went viral.
 
-He made big, looping gestures. He fidgeted in his seat. He talked fast and nervously adjusted his chair. He gripped both sides of the chair and leaned forward. Katherine Boyle of a16z posted the clip with the caption: "Every pre-school teacher in America should be required to watch this video of Alex Karp being completely unable to sit still in his chair."
+He made big, looping gestures. He fidgeted in his seat. He talked fast and nervously adjusted his chair. He gripped both sides of the chair and leaned forward. A prominent venture capitalist posted the clip with the caption: "Every pre-school teacher in America should be required to watch this video of Alex Karp being completely unable to sit still in his chair."
 
 Most CEOs would have ignored it or issued a polished PR statement. Karp's response was pure Karp: while cross-country skiing the next morning, he decided to launch Palantir's "Neurodivergent Fellowship," a recruitment pathway for people who think faster than they can speak and cannot sit still.
 
@@ -174,20 +180,7 @@ Most CEOs would have ignored it or issued a polished PR statement. Karp's respon
 
 The man who hid his dyslexia for decades turned his inability to sit in a chair into a hiring program.
 
-<div class="contrast-panel">
-<div class="contrast-panel__side contrast-panel__side--left">
-<div class="contrast-panel__label">What the World Sees</div>
-<p>Fidgety. Combative. Can't sit in a chair. Quotes dead philosophers. Calls himself a freak.</p>
-</div>
-<div class="contrast-panel__side contrast-panel__side--right">
-<div class="contrast-panel__label">What's Actually Happening</div>
-<p>A body that has never fit the container. Not the chair, not the category, not the playbook. 7% body fat, Norwegian special forces bodyguards, five hours of skiing a week.</p>
-</div>
-</div>
-
-His physical life tells the same story. He practices tai chi daily (not to be confused with qigong, he insists). He cross-country skis five hours a week, 90% of it at a glacial pace, and carries 7% body fat, the same as Michael Phelps during Olympic training. "To run like a deer," he told Axios, "you have to spend 90% of your time running like a snail." He used to keep 20 identical pairs of swimming goggles, then quit swimming entirely because it felt "empty." His security detail is composed largely of Norwegian special forces veterans, the only bodyguards fit enough to keep up with him on the ski trails.
-
-Karp's body is not at war with his mind. It _is_ his mind: restless, intense, incapable of performing stillness when there is none inside.
+He cross-country skis five hours a week, 90% of it at a glacial pace. "To run like a deer," he told Axios, "you have to spend 90% of your time running like a snail." His security detail is composed largely of Norwegian special forces veterans — the only bodyguards fit enough to keep up with him on the trails.
 
 ---
 
@@ -199,7 +192,11 @@ This is the contradiction that makes headlines. The man who calls himself a soci
 
 His critics are not subtle. _The Nation_ called Steinberger's book "the fables of weapons dealers." When a Palestinian-American activist confronted him at an event, saying Palantir's technology "kills Palestinians," Karp reportedly responded: "That's true, mostly terrorists."
 
-Karp does not flinch. But he makes an argument most critics never engage with.
+Karp does not flinch. But he makes two arguments most critics never engage with. One is philosophical. The other is operational.
+
+The operational one first. In Ukraine, Palantir's software fuses satellite imagery, drone footage, intercepted communications, and open-source intelligence into a single battlefield picture. Ukrainian commanders use it to identify Russian positions, coordinate strikes, and track logistics convoys. The system compresses the time between detecting a target and acting on it from hours to minutes. Critically, every data point, every analyst decision, every step in the chain is logged. If a targeting decision goes wrong, there is a complete, reviewable record of why.
+
+This is the accountability argument made concrete. And it extends beyond the battlefield.
 
 Take the ICE contracts, which prompted 60 of his own employees to sign a petition demanding Palantir walk away. Karp's response was counterintuitive: "If you are critical of ICE, you should be out there protesting for _more_ Palantir." His reasoning: the software creates audit trails and constraints on enforcement agents. Without it, agents have unchecked discretion. With it, every action is logged, trackable, reviewable. Whether you buy that argument depends on whether you trust the institution wielding the tool. But it is not a dismissal.
 
@@ -243,7 +240,7 @@ He quotes Nixon's resignation speech: "Always remember, others may hate you. But
 
 He told Fortune that these letters are written "to people we believe to be intellectually curious and intelligent." He is not addressing shareholders. He is addressing kindred spirits. Fellow outsiders who might understand.
 
-<p class="inner-thought">If I make the company extraordinary enough, maybe the ordinary things I cannot do won't matter.</p>
+The company has become the extraordinary thing he could not be as a poet. And it might be enough.
 
 ---
 

@@ -45,10 +45,10 @@ Princess Diana was a Type 2 (Helper) whose desperate need to be loved collided w
 
 | Royal                                                          | Enneagram Type      | Role in Dynasty       | Core Need                 | What Went Wrong                      |
 | -------------------------------------------------------------- | ------------------- | --------------------- | ------------------------- | ------------------------------------ |
-| [Princess Diana](/personality-analysis/Princess-Diana)         | Type 2 - Helper     | The People's Princess | To be loved authentically | The institution couldn't love back   |
-| [Prince Harry](/personality-analysis/Prince-Harry)             | Type 6 - Loyalist   | The Spare             | Safety for his family     | Loyalty to wife vs. loyalty to crown |
-| [Meghan Markle](/personality-analysis/Meghan-Markle)           | Type 2 - Helper     | The Outsider          | To be valued and accepted | The institution rejected her help    |
-| [Queen Elizabeth II](/personality-analysis/Queen-Elizabeth-II) | Type 9 - Peacemaker | The Steady Crown      | Stability above all       | Peace came at the cost of truth      |
+| [Princess Diana](/personality-analysis/princess-diana)         | Type 2 - Helper     | The People's Princess | To be loved authentically | The institution couldn't love back   |
+| [Prince Harry](/personality-analysis/prince-harry)             | Type 6 - Loyalist   | The Spare             | Safety for his family     | Loyalty to wife vs. loyalty to crown |
+| [Meghan Markle](/personality-analysis/meghan-markle)           | Type 2 - Helper     | The Outsider          | To be valued and accepted | The institution rejected her help    |
+| [Queen Elizabeth II](/personality-analysis/queen-elizabeth-ii) | Type 9 - Peacemaker | The Steady Crown      | Stability above all       | Peace came at the cost of truth      |
 
 ## Princess Diana: Love's Martyr
 

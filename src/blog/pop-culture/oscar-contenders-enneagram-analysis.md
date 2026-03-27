@@ -43,10 +43,10 @@ Timothee Chalamet (Type 6) channels anxiety into transformative performances. Mi
 
 | Actor                                                        | Enneagram Type        | Acting Approach        | What the Academy Rewards | Content Grade |
 | ------------------------------------------------------------ | --------------------- | ---------------------- | ------------------------ | ------------- |
-| [Timothee Chalamet](/personality-analysis/Timothee-Chalamet) | Type 6 - Loyalist     | Anxious immersion      | Visible vulnerability    | 8.7           |
-| [Mikey Madison](/personality-analysis/Mikey-Madison)         | Type 9 - Peacemaker   | Complete disappearance | Ego-less transformation  | 9.2           |
-| [Denzel Washington](/personality-analysis/Denzel-Washington) | Type 8 - Challenger   | Commanding presence    | Moral authority          | 9.0           |
-| [Cillian Murphy](/personality-analysis/Cillian-Murphy)       | Type 5 - Investigator | Methodical study       | Intellectual precision   | 8.8           |
+| [Timothee Chalamet](/personality-analysis/timothee-chalamet) | Type 6 - Loyalist     | Anxious immersion      | Visible vulnerability    | 8.7           |
+| [Mikey Madison](/personality-analysis/mikey-madison)         | Type 9 - Peacemaker   | Complete disappearance | Ego-less transformation  | 9.2           |
+| [Denzel Washington](/personality-analysis/denzel-washington) | Type 8 - Challenger   | Commanding presence    | Moral authority          | 9.0           |
+| [Cillian Murphy](/personality-analysis/cillian-murphy)       | Type 5 - Investigator | Methodical study       | Intellectual precision   | 8.8           |
 
 ## Timothee Chalamet: The Anxious Chameleon
 

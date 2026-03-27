@@ -38,9 +38,9 @@ Apple replaced Steve Jobs (Type 1) with Tim Cook (Type 1)—the company's DNA re
 
 | Company   | Founder Type                                            | Successor Type                                                | What Changed                                 | What Stayed                      |
 | --------- | ------------------------------------------------------- | ------------------------------------------------------------- | -------------------------------------------- | -------------------------------- |
-| Apple     | [Steve Jobs](/personality-analysis/Steve-Jobs) (Type 1) | [Tim Cook](/personality-analysis/Tim-Cook) (Type 1)           | Volcanic intensity → Measured discipline     | Perfectionism as religion        |
-| Microsoft | [Bill Gates](/personality-analysis/Bill-Gates) (Type 5) | [Satya Nadella](/personality-analysis/Satya-Nadella) (Type 5) | Knowledge hoarding → Empathetic systems      | Intellectual rigor as foundation |
-| Google    | Founders                                                | [Sundar Pichai](/personality-analysis/Sundar-Pichai) (Type 9) | Experimental ambition → Diplomatic stability | Engineering culture              |
+| Apple     | [Steve Jobs](/personality-analysis/steve-jobs) (Type 1) | [Tim Cook](/personality-analysis/tim-cook) (Type 1)           | Volcanic intensity → Measured discipline     | Perfectionism as religion        |
+| Microsoft | [Bill Gates](/personality-analysis/bill-gates) (Type 5) | [Satya Nadella](/personality-analysis/satya-nadella) (Type 5) | Knowledge hoarding → Empathetic systems      | Intellectual rigor as foundation |
+| Google    | Founders                                                | [Sundar Pichai](/personality-analysis/sundar-pichai) (Type 9) | Experimental ambition → Diplomatic stability | Engineering culture              |
 
 ## Apple: Type 1 → Type 1
 

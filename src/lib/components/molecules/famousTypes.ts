@@ -64,7 +64,7 @@ export const famousTypes: { [index: number]: { name: string; link: boolean; hasI
 		{ name: 'chamath-palihapitiya', link: true, hasImage: true, lastmod: '2026-02-20', personaTitle: 'Silicon Valley\'s Restless Reinventor', contentGrade: 9.5 },
 		{ name: 'charli-xcx', link: true, hasImage: true, lastmod: '2026-02-22', personaTitle: 'Pop\'s Calculated Anarchist', contentGrade: 9.6 },
 		{ name: 'chris-williamson', link: true, hasImage: true, lastmod: '2026-02-22', personaTitle: 'Podcasting\'s Relentless Optimizer', contentGrade: 9.3 },
-		{ name: 'clavicular', link: true, hasImage: true, lastmod: '2026-03-23', personaTitle: 'Looksmaxxing\'s Hollow Architect', contentGrade: 8.8 },
+		{ name: 'clavicular', link: true, hasImage: true, lastmod: '2026-03-27', personaTitle: 'Looksmaxxing\'s Hollow Architect', contentGrade: 8.8 },
 		{ name: 'cristiano-ronaldo', link: true, hasImage: true, lastmod: '2026-01-23', personaTitle: 'Football\'s Relentless Perfectionist', contentGrade: 8.7 },
 		{ name: 'donald-trump', link: true, hasImage: true, lastmod: '2026-02-20', personaTitle: 'The Showman Who Became the Show', contentGrade: 9.2 },
 		{ name: 'drake', link: true, hasImage: true, lastmod: '2026-01-26', personaTitle: 'The Achiever Who Made Vulnerability Win', contentGrade: 8.6 },
@@ -122,7 +122,7 @@ export const famousTypes: { [index: number]: { name: string; link: boolean; hasI
 		{ name: 'ted-bundy', link: false, hasImage: false, lastmod: '2025-06-25', personaTitle: null, contentGrade: null }
 	],
 	4: [
-		{ name: 'alex-karp', link: true, hasImage: true, lastmod: '2026-03-24', personaTitle: 'Silicon Valley\'s Ornery Poet', contentGrade: 8.9 },
+		{ name: 'alex-karp', link: true, hasImage: true, lastmod: '2026-03-25', personaTitle: 'Silicon Valley\'s Ornery Poet', contentGrade: 8.9 },
 		{ name: 'anya-taylor-joy', link: true, hasImage: true, lastmod: '2026-03-21', personaTitle: 'Cinema\'s Beautiful Exile', contentGrade: null },
 		{ name: 'bella-hadid', link: true, hasImage: true, lastmod: '2025-12-21', personaTitle: 'Fashion\'s Erased Daughter', contentGrade: 8.3 },
 		{ name: 'billie-eilish', link: true, hasImage: true, lastmod: '2026-02-19', personaTitle: 'Gen Z\'s Beautiful Wound', contentGrade: 9.1 },
@@ -205,9 +205,9 @@ export const famousTypes: { [index: number]: { name: string; link: boolean; hasI
 		{ name: 'george-w-bush', link: true, hasImage: true, lastmod: '2025-04-06', personaTitle: 'The Reluctant Wartime President', contentGrade: null },
 		{ name: 'howard-stern', link: true, hasImage: true, lastmod: '2026-03-01', personaTitle: 'Radio\'s Counterphobic Sentinel', contentGrade: 9.1 },
 		{ name: 'jake-gyllenhaal', link: true, hasImage: true, lastmod: '2026-03-21', personaTitle: 'Hollywood\'s Fearful Daredevil', contentGrade: 8.7 },
-		{ name: 'jake-shane', link: true, hasImage: true, lastmod: '2026-03-24', personaTitle: 'TikTok\'s Anxious Sweetheart', contentGrade: 8.8 },
+		{ name: 'jake-shane', link: true, hasImage: true, lastmod: '2026-03-27', personaTitle: 'TikTok\'s Anxious Sweetheart', contentGrade: 8.8 },
 		{ name: 'jennifer-lawrence', link: true, hasImage: true, lastmod: '2026-02-20', personaTitle: 'Hollywood\'s Armored Sweetheart', contentGrade: 9.1 },
-		{ name: 'joseph-stalin', link: false, hasImage: true, lastmod: '2026-03-21', personaTitle: 'History\'s Paranoid Architect', contentGrade: 9 },
+		{ name: 'joseph-stalin', link: true, hasImage: true, lastmod: '2026-03-27', personaTitle: 'History\'s Paranoid Architect', contentGrade: 9 },
 		{ name: 'kendall-jenner', link: true, hasImage: true, lastmod: '2026-03-01', personaTitle: 'Fashion\'s Quiet Sentinel', contentGrade: null },
 		{ name: 'khloe-kardashian', link: true, hasImage: true, lastmod: '2025-12-09', personaTitle: 'The Loyal Sister', contentGrade: null },
 		{ name: 'marilyn-monroe', link: true, hasImage: true, lastmod: '2026-02-19', personaTitle: 'Hollywood\'s Armored Icon', contentGrade: 9 },
@@ -280,7 +280,7 @@ export const famousTypes: { [index: number]: { name: string; link: boolean; hasI
 		{ name: 'lele-pons', link: false, hasImage: false, lastmod: '2025-06-25', personaTitle: null, contentGrade: null },
 		{ name: 'marie-antoinette', link: false, hasImage: false, lastmod: '2025-06-25', personaTitle: null, contentGrade: null },
 		{ name: 'markiplier', link: false, hasImage: false, lastmod: '2025-06-25', personaTitle: null, contentGrade: null },
-		{ name: 'reid-hoffman', link: false, hasImage: false, lastmod: '2026-03-22', personaTitle: 'Silicon Valley\'s Restless Philosopher', contentGrade: 8.8 },
+		{ name: 'reid-hoffman', link: true, hasImage: false, lastmod: '2026-03-27', personaTitle: 'Silicon Valley\'s Restless Philosopher', contentGrade: 8.8 },
 		{ name: 'spencer-x', link: false, hasImage: false, lastmod: '2025-06-25', personaTitle: null, contentGrade: null },
 		{ name: 'steve-irwin', link: false, hasImage: false, lastmod: '2025-06-25', personaTitle: null, contentGrade: null },
 		{ name: 'tana-mongeau', link: false, hasImage: false, lastmod: '2025-06-25', personaTitle: null, contentGrade: null }

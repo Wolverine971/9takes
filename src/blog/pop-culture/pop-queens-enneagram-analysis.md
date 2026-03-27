@@ -44,13 +44,13 @@ Chappell Roan is a Type 8 (Challenger) who went from unknown to setting boundari
 
 | Artist                                                       | Enneagram Type         | Musical Identity              | Core Drive                        | Content Grade |
 | ------------------------------------------------------------ | ---------------------- | ----------------------------- | --------------------------------- | ------------- |
-| [Chappell Roan](/personality-analysis/Chappell-Roan)         | Type 8 - Challenger    | Unapologetic queer anthems    | Autonomy + truth                  | 9.5           |
-| [Charli xcx](/personality-analysis/Charli-xcx)               | Type 3 - Achiever      | Calculated pop anarchy        | Achievement through subversion    | 9.6           |
-| [Billie Eilish](/personality-analysis/Billie-Eilish)         | Type 4 - Individualist | Whispered darkness            | Authentic emotional expression    | 9.1           |
-| [Sabrina Carpenter](/personality-analysis/Sabrina-Carpenter) | Type 3 - Achiever      | Winking pop perfection        | Likability through craft          | 8.0           |
-| [Doja Cat](/personality-analysis/Doja-Cat)                   | Type 7 - Enthusiast    | Unpredictable shapeshifting   | Freedom through reinvention       | 9.3           |
-| [Taylor Swift](/personality-analysis/Taylor-Swift)           | Type 3 - Achiever      | Strategic emotional narrative | Legacy through connection         | 8.8           |
-| [Olivia Rodrigo](/personality-analysis/Olivia-Rodrigo)       | Type 2 - Helper        | Tender confession             | Being loved through vulnerability | 8.9           |
+| [Chappell Roan](/personality-analysis/chappell-roan)         | Type 8 - Challenger    | Unapologetic queer anthems    | Autonomy + truth                  | 9.5           |
+| [Charli xcx](/personality-analysis/charli-xcx)               | Type 3 - Achiever      | Calculated pop anarchy        | Achievement through subversion    | 9.6           |
+| [Billie Eilish](/personality-analysis/billie-eilish)         | Type 4 - Individualist | Whispered darkness            | Authentic emotional expression    | 9.1           |
+| [Sabrina Carpenter](/personality-analysis/sabrina-carpenter) | Type 3 - Achiever      | Winking pop perfection        | Likability through craft          | 8.0           |
+| [Doja Cat](/personality-analysis/doja-cat)                   | Type 7 - Enthusiast    | Unpredictable shapeshifting   | Freedom through reinvention       | 9.3           |
+| [Taylor Swift](/personality-analysis/taylor-swift)           | Type 3 - Achiever      | Strategic emotional narrative | Legacy through connection         | 8.8           |
+| [Olivia Rodrigo](/personality-analysis/olivia-rodrigo)       | Type 2 - Helper        | Tender confession             | Being loved through vulnerability | 8.9           |
 
 ## Chappell Roan: The Unapologetic Rebel
 

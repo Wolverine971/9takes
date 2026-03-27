@@ -142,9 +142,9 @@ Both women are telling the truth. And both are leaving out the part that persona
 
 Here's what you need to understand before the timeline matters.
 
-[Alex Cooper is an Enneagram Type 7](/personality-analysis/Alex-Cooper) — the Enthusiast. Her core fear is being trapped. Her core drive is freedom and forward motion. When something stops feeling expansive, she moves. Not to be cruel. Because staying feels like suffocating.
+[Alex Cooper is an Enneagram Type 7](/personality-analysis/alex-cooper) — the Enthusiast. Her core fear is being trapped. Her core drive is freedom and forward motion. When something stops feeling expansive, she moves. Not to be cruel. Because staying feels like suffocating.
 
-[Alix Earle is an Enneagram Type 3](/personality-analysis/Alix-Earle) — the Achiever. Her core fear is being worthless. Her core drive is recognition and validated success. She doesn't just want to win. She needs the scoreboard to reflect it.
+[Alix Earle is an Enneagram Type 3](/personality-analysis/alix-earle) — the Achiever. Her core fear is being worthless. Her core drive is recognition and validated success. She doesn't just want to win. She needs the scoreboard to reflect it.
 
 When these types align, it's electric. The 7 brings energy, vision, and "let's build something massive." The 3 brings execution, polish, and "I'll make it look effortless." Cooper saw in Earle someone who could make Unwell bigger. Earle saw in Cooper someone who'd already built the road she wanted to walk.
 
@@ -160,7 +160,7 @@ Both patterns showed up. Exactly on schedule.
 
 ### September 2023: The Honeymoon
 
-Earle launches "Hot Mess" as the inaugural show on Cooper's Unwell Network. The debut episode briefly dethrones [Joe Rogan](/personality-analysis/Joe-Rogan) from the top of Spotify's podcast charts. A position Rogan held for two years.
+Earle launches "Hot Mess" as the inaugural show on Cooper's Unwell Network. The debut episode briefly dethrones [Joe Rogan](/personality-analysis/joe-rogan) from the top of Spotify's podcast charts. A position Rogan held for two years.
 
 **What Cooper is likely feeling**: Validation. Her network concept works. She found the right talent. The 7's vision is paying off. This is the high — the new venture, the proof of concept, the next expansion.
 
@@ -214,7 +214,7 @@ The "it girl" who built an empire on reading rooms just read this one and walked
 
 Variety breaks the news. Hot Mess has been dropped from the Unwell Network. SiriusXM will no longer sell ads for the show. Unwell "renounces all rights."
 
-Hours later, [Dave Portnoy](/personality-analysis/Dave-Portnoy) posts a screenshot of a 22-minute outgoing call to "Alixearlenew," captioning it with Cooper's own words from the Grace O'Malley announcement: "You can stop tagging me. I know what needs to be done."
+Hours later, [Dave Portnoy](/personality-analysis/dave-portnoy) posts a screenshot of a 22-minute outgoing call to "Alixearlenew," captioning it with Cooper's own words from the Grace O'Malley announcement: "You can stop tagging me. I know what needs to be done."
 
 He later clarifies: "I didn't call her. I just thought it was funny."
 

@@ -33,6 +33,7 @@
 <svelte:head>
 	<title>9takes Login</title>
 	<meta name="description" content="Login for a good time" />
+	<meta name="robots" content="noindex, follow" />
 	<link rel="canonical" href="https://9takes.com/login" />
 	<meta property="og:site_name" content="9takes" />
 	<meta property="og:title" content="9takes - Login" />

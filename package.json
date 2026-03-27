@@ -30,7 +30,8 @@
 		"index:blogs:dry": "node scripts/index-blogs-to-supabase.js --dry-run",
 		"index:blogs:force": "node scripts/index-blogs-to-supabase.js --force",
 		"push:people": "node scripts/personBlogParser.js",
-		"supabase:normalize-personality-slugs": "node scripts/normalize-personality-slugs.js"
+		"supabase:normalize-personality-slugs": "node scripts/normalize-personality-slugs.js",
+		"seo:normalize-internal-personality-links": "node scripts/normalize-internal-personality-links.js"
 	},
 	"devDependencies": {
 		"@babel/parser": "^7.27.4",

@@ -162,7 +162,7 @@ Trump and Biden aren't just political rivals. They're wired to process the world
 
 ### Trump's Type 8 Operating System
 
-[Donald Trump](/personality-analysis/Donald-Trump) is a classic [Enneagram Type 8](/enneagram-corner/enneagram-type-8), called "The Challenger." Type 8s have one big fear: being controlled or hurt by others. Their answer? Control first. Dominate before you get dominated.
+[Donald Trump](/personality-analysis/donald-trump) is a classic [Enneagram Type 8](/enneagram-corner/enneagram-type-8), called "The Challenger." Type 8s have one big fear: being controlled or hurt by others. Their answer? Control first. Dominate before you get dominated.
 
 For Trump, the world is a ring where the strong survive and the weak get crushed. Every conversation could be a fight. Every relationship has a winner and a loser.
 
@@ -181,7 +181,7 @@ You can see this play out in how he leads:
 
 ### Biden's Type 2 Operating System
 
-[Joe Biden](/personality-analysis/Joe-Biden) is an [Enneagram Type 2](/enneagram-corner/enneagram-type-2), called "The Helper." Type 2s have a different fear: being unloved or unwanted. Their answer? Make yourself so helpful that people can't live without you.
+[Joe Biden](/personality-analysis/joe-biden) is an [Enneagram Type 2](/enneagram-corner/enneagram-type-2), called "The Helper." Type 2s have a different fear: being unloved or unwanted. Their answer? Make yourself so helpful that people can't live without you.
 
 For Biden, the world is a web of relationships to take care of. Every chat is a chance to bond. Success means being valued by others.
 
@@ -460,7 +460,7 @@ Under stress, Type 8s pull back and get secretive (like a Type 5). Type 2s get p
 
 **What about other presidents? What types were they?**
 
-[Obama](/personality-analysis/Barack-Obama) is often seen as a Type 9 (Peacemaker). [Putin](/personality-analysis/Vladimir-Putin) is a Type 8 like Trump. Clinton was likely a Type 3. Reagan and George W. Bush were Type 9s. Nixon was a Type 6. Each type brings different strengths and blind spots to the job.
+[Obama](/personality-analysis/barack-obama) is often seen as a Type 9 (Peacemaker). [Putin](/personality-analysis/vladimir-putin) is a Type 8 like Trump. Clinton was likely a Type 3. Reagan and George W. Bush were Type 9s. Nixon was a Type 6. Each type brings different strengths and blind spots to the job.
 
 ---
 
@@ -478,8 +478,8 @@ The same patterns that drive Trump and Biden drive everyone, including you. Know
 
 **Dig deeper:**
 
-- [Donald Trump's full personality breakdown](/personality-analysis/Donald-Trump)
-- [Joe Biden's full personality breakdown](/personality-analysis/Joe-Biden)
+- [Donald Trump's full personality breakdown](/personality-analysis/donald-trump)
+- [Joe Biden's full personality breakdown](/personality-analysis/joe-biden)
 - [All about Type 8](/enneagram-corner/enneagram-type-8)
 - [All about Type 2](/enneagram-corner/enneagram-type-2)
 

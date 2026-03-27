@@ -201,3 +201,31 @@ For all his failures — and they were real, and they killed people — when Wes
 That's the Type 8 at full extension. Not a hero without shadows. Someone whose will to never be defeated made them equal to a moment that would have broken almost anyone else.
 
 > **Disclaimer** This analysis of Winston Churchill's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Churchill.
+
+<!--
+## Reader Review Notes (2026-03-27)
+
+### What works really well
+- The opening is genuinely arresting. Leading with Churchill crying instead of the bronze-statue version hooks you immediately. The "blubbery" quote is perfect.
+- The Mrs. Everest section is the emotional core of the piece and it earns its length. The detail about keeping her photo for 70 years lands hard.
+- The Bengal Famine section is the best part of the article. The "proximity and abstraction" framework is original, honest, and doesn't do the typical internet thing of either excusing or condemning. The line "the same ferocity that makes an 8 an extraordinary protector to those inside the circle makes them capable of extraordinary indifference to those outside it" is the smartest sentence in the piece.
+- The 1945 election section has great pacing. "The order of the boot" quote is perfectly placed.
+
+### What could be expanded
+- The Wilderness Years section feels rushed compared to everything else. He spent nearly a decade being right while being ignored — that's a huge 8 theme (the cost of not backing down). You could add more about what it actually felt like day-to-day. Was he angry? Resigned? Did he doubt himself? One or two quotes from that period about his internal state would make it hit harder.
+- The wartime leadership itself barely appears. There's the "We shall fight on the beaches" mention in the intro but no section on the actual war years — the decisions, the style, the way he ran the war room. That's where most readers will expect the 8 analysis to live. Even a short section on how he led during the Blitz (the midnight visits to bomb sites, the bullying of generals, the relationship with Roosevelt) would fill a real gap.
+- The Clementine section could use one more concrete scene. The pet names and cartoons are great but it reads slightly abstract. A specific fight or a specific moment where she changed his mind on something would make "the woman who could challenge an 8" feel more earned.
+
+### What could be trimmed
+- The painting section has some redundancy. "This is what 8s do under serious stress. They move toward Type 5" appears here AND again almost identically in "The Type 8's Growth Path" section. Pick one place to explain the stress-to-5 movement and cut the repeat. I'd keep it in the Growth Path section and just let the painting section be the story.
+- The Eisenhower detail (painting studio in the White House) feels like a fun fact that doesn't serve the Churchill analysis. It pulls you out of the emotional arc for a trivia sidebar.
+- The closing section ("What Remains") restates a lot of what's already been said — the train platforms, the photographs, the tears. It works as a summary but some of the specific callbacks (Mrs. Everest photo, the railing) have already been used and feel like you're re-dealing the same cards. Consider keeping 2-3 of those callbacks instead of 5-6.
+
+### Tone / style notes
+- The piece is strongest when it's telling stories and weakest when it's explaining the Enneagram framework. Lines like "8s organize their lives around a single, unspoken rule" read like a textbook. The Bengal section proves you can do framework analysis through storytelling — try to bring more sections up to that standard.
+- "Bone-deep" appears twice (loyalty and self-reliance). Small thing but it stood out on a close read.
+- The YouTube embed feels random without context. What is it? A documentary clip? A speech? A sentence of setup before it would help.
+
+### Missing angle
+- Churchill's relationship with alcohol is conspicuously absent. He drank constantly — champagne at breakfast, whisky throughout the day. Whether you frame it as self-medication for the Black Dog or as part of the 8's appetite for excess, it's something readers will notice you skipped. Even a paragraph acknowledging it would round out the portrait.
+-->

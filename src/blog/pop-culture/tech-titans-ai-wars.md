@@ -54,10 +54,10 @@ This isn't a technology race. It's a personality collision.
 
 | Leader                                                   | Enneagram Type         | Core Drive            | AI Philosophy                              | Greatest Fear     | Company   |
 | -------------------------------------------------------- | ---------------------- | --------------------- | ------------------------------------------ | ----------------- | --------- |
-| [Sam Altman](/personality-analysis/Sam-Altman)           | Type 4 - Individualist | Unique significance   | Build AGI, be the one who does it          | Being ordinary    | OpenAI    |
-| [Dario Amodei](/personality-analysis/Dario-Amodei)       | Type 5 - Investigator  | Mastery through rigor | Build AI safely through deep understanding | Being incompetent | Anthropic |
-| [Elon Musk](/personality-analysis/Elon-Musk)             | Type 5 - Investigator  | Decoding all systems  | Control AI or build a competing one        | Being useless     | xAI       |
-| [Mark Zuckerberg](/personality-analysis/Mark-Zuckerberg) | Type 5 - Investigator  | Systems at scale      | Distribute AI to everyone                  | Being locked out  | Meta AI   |
+| [Sam Altman](/personality-analysis/sam-altman)           | Type 4 - Individualist | Unique significance   | Build AGI, be the one who does it          | Being ordinary    | OpenAI    |
+| [Dario Amodei](/personality-analysis/dario-amodei)       | Type 5 - Investigator  | Mastery through rigor | Build AI safely through deep understanding | Being incompetent | Anthropic |
+| [Elon Musk](/personality-analysis/elon-musk)             | Type 5 - Investigator  | Decoding all systems  | Control AI or build a competing one        | Being useless     | xAI       |
+| [Mark Zuckerberg](/personality-analysis/mark-zuckerberg) | Type 5 - Investigator  | Systems at scale      | Distribute AI to everyone                  | Being locked out  | Meta AI   |
 
 ## Sam Altman: The Type 4 Building His Magnum Opus
 

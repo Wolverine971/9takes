@@ -35,23 +35,23 @@ This series maps those patterns. Not as gossip. As intelligence.
 
 | Leader                                                             | Enneagram Type         | Company                 | Core Drive                        |
 | ------------------------------------------------------------------ | ---------------------- | ----------------------- | --------------------------------- |
-| [Steve Jobs](/personality-analysis/Steve-Jobs)                     | Type 1 - Reformer      | Apple (founder)         | Moral perfectionism               |
-| [Tim Cook](/personality-analysis/Tim-Cook)                         | Type 1 - Reformer      | Apple (successor)       | Principled operations             |
+| [Steve Jobs](/personality-analysis/steve-jobs)                     | Type 1 - Reformer      | Apple (founder)         | Moral perfectionism               |
+| [Tim Cook](/personality-analysis/tim-cook)                         | Type 1 - Reformer      | Apple (successor)       | Principled operations             |
 | Jensen Huang                                                       | Type 3 - Achiever      | Nvidia                  | Achievement through adaptation    |
-| [Chamath Palihapitiya](/personality-analysis/Chamath-Palihapitiya) | Type 3 - Achiever      | Social Capital          | Achievement through capital       |
-| [Sam Altman](/personality-analysis/Sam-Altman)                     | Type 4 - Individualist | OpenAI                  | Unique significance               |
-| [Elon Musk](/personality-analysis/Elon-Musk)                       | Type 5 - Investigator  | Tesla, SpaceX, xAI, X   | System mastery across all domains |
-| [Mark Zuckerberg](/personality-analysis/Mark-Zuckerberg)           | Type 5 - Investigator  | Meta                    | Connection as engineering         |
-| [Satya Nadella](/personality-analysis/Satya-Nadella)               | Type 5 - Investigator  | Microsoft               | Empathetic systems                |
-| [Bill Gates](/personality-analysis/Bill-Gates)                     | Type 5 - Investigator  | Microsoft (founder)     | Knowledge as power                |
-| [Jack Dorsey](/personality-analysis/Jack-Dorsey)                   | Type 5 - Investigator  | Twitter, Block          | Minimalist systems                |
+| [Chamath Palihapitiya](/personality-analysis/chamath-palihapitiya) | Type 3 - Achiever      | Social Capital          | Achievement through capital       |
+| [Sam Altman](/personality-analysis/sam-altman)                     | Type 4 - Individualist | OpenAI                  | Unique significance               |
+| [Elon Musk](/personality-analysis/elon-musk)                       | Type 5 - Investigator  | Tesla, SpaceX, xAI, X   | System mastery across all domains |
+| [Mark Zuckerberg](/personality-analysis/mark-zuckerberg)           | Type 5 - Investigator  | Meta                    | Connection as engineering         |
+| [Satya Nadella](/personality-analysis/satya-nadella)               | Type 5 - Investigator  | Microsoft               | Empathetic systems                |
+| [Bill Gates](/personality-analysis/bill-gates)                     | Type 5 - Investigator  | Microsoft (founder)     | Knowledge as power                |
+| [Jack Dorsey](/personality-analysis/jack-dorsey)                   | Type 5 - Investigator  | Twitter, Block          | Minimalist systems                |
 | Dario Amodei                                                       | Type 5 - Investigator  | Anthropic               | Rigorous safety                   |
-| [Peter Thiel](/personality-analysis/Peter-Thiel)                   | Type 6 - Loyalist      | Palantir, Founders Fund | Contrarian threat detection       |
-| [David Sacks](/personality-analysis/David-Sacks)                   | Type 6 - Loyalist      | Craft Ventures          | Loyalty networks                  |
-| [Jeff Bezos](/personality-analysis/Jeff-Bezos)                     | Type 8 - Challenger    | Amazon                  | Dominance through logistics       |
-| [Reed Hastings](/personality-analysis/Reed-Hastings)               | Type 8 - Challenger    | Netflix                 | Confrontational disruption        |
+| [Peter Thiel](/personality-analysis/peter-thiel)                   | Type 6 - Loyalist      | Palantir, Founders Fund | Contrarian threat detection       |
+| [David Sacks](/personality-analysis/david-sacks)                   | Type 6 - Loyalist      | Craft Ventures          | Loyalty networks                  |
+| [Jeff Bezos](/personality-analysis/jeff-bezos)                     | Type 8 - Challenger    | Amazon                  | Dominance through logistics       |
+| [Reed Hastings](/personality-analysis/reed-hastings)               | Type 8 - Challenger    | Netflix                 | Confrontational disruption        |
 | Travis Kalanick                                                    | Type 8 - Challenger    | Uber                    | Unrestrained aggression           |
-| [Sundar Pichai](/personality-analysis/Sundar-Pichai)               | Type 9 - Peacemaker    | Google                  | Consensus diplomacy               |
+| [Sundar Pichai](/personality-analysis/sundar-pichai)               | Type 9 - Peacemaker    | Google                  | Consensus diplomacy               |
 
 ## The Series
 

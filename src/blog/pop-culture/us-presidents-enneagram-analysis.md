@@ -37,15 +37,15 @@ Here's the map.
 
 | President                                                 | Enneagram Type      | Era                    | National Mood      | How the Type Answered It            |
 | --------------------------------------------------------- | ------------------- | ---------------------- | ------------------ | ----------------------------------- |
-| [Abraham Lincoln](/personality-analysis/Abraham-Lincoln)  | Type 9 - Peacemaker | Civil War (1860s)      | Fracturing         | Patient unity through stubborn calm |
-| [John F. Kennedy](/personality-analysis/John-F-Kennedy)   | Type 7 - Enthusiast | Cold War (1960s)       | Conformist anxiety | Charismatic possibility             |
-| [Ronald Reagan](/personality-analysis/Ronald-Reagan)      | Type 9 - Peacemaker | Post-Vietnam (1980s)   | Demoralized        | Smiling revolution                  |
-| [George H.W. Bush](/personality-analysis/George-H-W-Bush) | Type 6 - Loyalist   | End of Cold War (1989) | Uncertain          | Cautious stewardship                |
-| [George W. Bush](/personality-analysis/George-W-Bush)     | Type 6 - Loyalist   | Post-9/11 (2001)       | Traumatized        | Counterphobic protection            |
-| [Barack Obama](/personality-analysis/Barack-Obama)        | Type 9 - Peacemaker | Post-crash (2008)      | Exhausted          | Calm bridge-building                |
-| [Donald Trump](/personality-analysis/Donald-Trump)        | Type 3 - Achiever   | Populist era (2016)    | Furious            | Disruptive performance              |
-| [Joe Biden](/personality-analysis/Joe-Biden)              | Type 2 - Helper     | Post-Trump (2020)      | Pandemic-ravaged   | Relational healing                  |
-| [Donald Trump](/personality-analysis/Donald-Trump)        | Type 3 - Achiever   | Iran War era (2025)    | Wanting action     | Wartime image management            |
+| [Abraham Lincoln](/personality-analysis/abraham-lincoln)  | Type 9 - Peacemaker | Civil War (1860s)      | Fracturing         | Patient unity through stubborn calm |
+| [John F. Kennedy](/personality-analysis/john-f-kennedy)   | Type 7 - Enthusiast | Cold War (1960s)       | Conformist anxiety | Charismatic possibility             |
+| [Ronald Reagan](/personality-analysis/ronald-reagan)      | Type 9 - Peacemaker | Post-Vietnam (1980s)   | Demoralized        | Smiling revolution                  |
+| [George H.W. Bush](/personality-analysis/george-h-w-bush) | Type 6 - Loyalist   | End of Cold War (1989) | Uncertain          | Cautious stewardship                |
+| [George W. Bush](/personality-analysis/george-w-bush)     | Type 6 - Loyalist   | Post-9/11 (2001)       | Traumatized        | Counterphobic protection            |
+| [Barack Obama](/personality-analysis/barack-obama)        | Type 9 - Peacemaker | Post-crash (2008)      | Exhausted          | Calm bridge-building                |
+| [Donald Trump](/personality-analysis/donald-trump)        | Type 3 - Achiever   | Populist era (2016)    | Furious            | Disruptive performance              |
+| [Joe Biden](/personality-analysis/joe-biden)              | Type 2 - Helper     | Post-Trump (2020)      | Pandemic-ravaged   | Relational healing                  |
+| [Donald Trump](/personality-analysis/donald-trump)        | Type 3 - Achiever   | Iran War era (2025)    | Wanting action     | Wartime image management            |
 
 Each presidency makes sense when you see it as the nation's psychological answer to the previous era's unresolved tension. Lincoln's calm followed decades of failed compromise. Kennedy's energy followed Eisenhower's caution. Reagan's optimism followed Carter's malaise. And Trump's performance followed Obama's measured restraint.
 
@@ -67,7 +67,7 @@ But the 9's shadow is avoidance. Lincoln waited—and waited, and waited—to is
 
 Here's what most people miss about the Type 9 in crisis: their anger is the most powerful in the Enneagram precisely because it's the most repressed. When a 9 finally decides to fight, there's no negotiating, no second-guessing. The stubbornness that kept Lincoln from acting too early is the same stubbornness that kept him from ever giving up. He didn't burn with righteous fury like a 1. He didn't charge forward like an 8. He sat with the full weight of the war's horror, absorbed it into his own depression, and refused to let go.
 
-The man who [never carried a pocket knife](/personality-analysis/Abraham-Lincoln) because he didn't trust himself with a blade spent four years holding a nation together through sheer, quiet force of will.
+The man who [never carried a pocket knife](/personality-analysis/abraham-lincoln) because he didn't trust himself with a blade spent four years holding a nation together through sheer, quiet force of will.
 
 **What it set up**: Lincoln proved that America's default presidential setting is the Peacemaker. When the fracture is total, the nation reaches for someone who can mirror everyone's needs back to them. It's a pattern that would repeat—with Reagan, with Obama—every time the country felt like it was falling apart.
 
@@ -95,7 +95,7 @@ Even the Camelot mythology is peak 7. The 7's deepest fear is being trapped in p
 
 **Why a Type 9 (again)**: America needed someone who could make it feel good about itself without making it feel like it had to fight for it. Reagan's optimism wasn't performed—[Type 9s](/enneagram-corner/enneagram-type-9) genuinely see the positive. His "Morning in America" wasn't spin. It was the 9's authentic experience of the world: things are basically fine, everything will work out, why is everyone so upset?
 
-Reagan was a [9w8](/personality-analysis/Ronald-Reagan)—the Peacemaker with a hard edge underneath. That combination explains everything. The warmth was real. The humor was genuine. "There you go again" ended the 1980 debate in four words—not with an attack, but with the 9's disarming refusal to engage in conflict on the opponent's terms. But beneath the smile, Reagan reshaped the federal government more fundamentally than anyone since FDR. He wasn't fighting for change. He was _calmly rearranging_ the furniture while everyone was distracted by how pleasant he was.
+Reagan was a [9w8](/personality-analysis/ronald-reagan)—the Peacemaker with a hard edge underneath. That combination explains everything. The warmth was real. The humor was genuine. "There you go again" ended the 1980 debate in four words—not with an attack, but with the 9's disarming refusal to engage in conflict on the opponent's terms. But beneath the smile, Reagan reshaped the federal government more fundamentally than anyone since FDR. He wasn't fighting for change. He was _calmly rearranging_ the furniture while everyone was distracted by how pleasant he was.
 
 The 9's shadow showed up in two devastating ways:
 
@@ -111,7 +111,7 @@ The 9's shadow showed up in two devastating ways:
 
 **National mood**: The Cold War was ending. New uncertainty. The enemy America had oriented around for 40 years was dissolving. The old rules no longer applied and no one knew the new ones yet.
 
-**Why a Type 6**: [Type 6s](/enneagram-corner/enneagram-type-6)—the Loyalists—are the threat-scanners of the Enneagram. They build coalitions, check every angle, prepare for danger. In a moment of geopolitical uncertainty, America elected the most institutionally loyal president in modern history. CIA director. Ambassador. Vice president. [George H.W. Bush](/personality-analysis/George-H-W-Bush) didn't inspire. He _prepared_.
+**Why a Type 6**: [Type 6s](/enneagram-corner/enneagram-type-6)—the Loyalists—are the threat-scanners of the Enneagram. They build coalitions, check every angle, prepare for danger. In a moment of geopolitical uncertainty, America elected the most institutionally loyal president in modern history. CIA director. Ambassador. Vice president. [George H.W. Bush](/personality-analysis/george-h-w-bush) didn't inspire. He _prepared_.
 
 His Gulf War coalition was textbook Type 6 leadership: 35 nations assembled, every alliance checked, the operation executed with methodical restraint. And then—the move that defines him—he stopped at Kuwait's border. Didn't march to Baghdad. Didn't pursue regime change. The 6's threat calculus said the risks of going further outweighed the gains. He was right. His son would prove it by doing the opposite a decade later.
 
@@ -127,7 +127,7 @@ Bush couldn't sell himself in a media age. He governed well. He lacked performan
 
 **National mood**: Before 9/11—complacent. After 9/11—pure terror. The nation experienced a collective trauma response and demanded someone who would make them feel protected immediately.
 
-**Why a Type 6 (again)**: Same type as his father. Completely different expression. [George W. Bush](/personality-analysis/George-W-Bush) was a _counterphobic_ 6—the version that responds to fear by running directly toward the threat instead of building careful coalitions around it.
+**Why a Type 6 (again)**: Same type as his father. Completely different expression. [George W. Bush](/personality-analysis/george-w-bush) was a _counterphobic_ 6—the version that responds to fear by running directly toward the threat instead of building careful coalitions around it.
 
 This is where the Enneagram gets genuinely predictive.
 
@@ -145,7 +145,7 @@ The 6's shadow isn't cowardice. It's seeing threats that aren't there. Or more p
 
 **National mood**: Iraq fatigue. Financial collapse. Racial tension. The country felt broken in multiple directions simultaneously—and humiliated by it.
 
-**Why a Type 9 (third time)**: America's pattern is clear. When the fracture reaches a breaking point, the nation reaches for the Peacemaker. Lincoln after secession. Reagan after Vietnam and Watergate. [Obama](/personality-analysis/Barack-Obama) after Iraq and the financial crisis. The 9's promise is always the same: _I see all sides. I can hold this together. No drama._
+**Why a Type 9 (third time)**: America's pattern is clear. When the fracture reaches a breaking point, the nation reaches for the Peacemaker. Lincoln after secession. Reagan after Vietnam and Watergate. [Obama](/personality-analysis/barack-obama) after Iraq and the financial crisis. The 9's promise is always the same: _I see all sides. I can hold this together. No drama._
 
 "No drama Obama" wasn't branding. It was Type 9 psychology in action. The 9's unflappable calm—the ability to sit in a room full of screaming, terrified people and lower the temperature just by being present—was exactly what a traumatized nation needed. His 2008 campaign didn't run on specific policies. It ran on a feeling: _things will be okay now_.
 
@@ -161,7 +161,7 @@ Obama's bipartisan instincts—the 9's belief that if you listen to all sides, y
 
 **National mood**: Furious. Distrustful of every institution. The working class felt abandoned. The political establishment felt like a closed loop. Americans didn't want another bridge-builder. They wanted someone who looked like they would burn the bridge down.
 
-**Why a Type 3**: [Type 3s](/enneagram-corner/enneagram-type-3)—the Achievers—are the performers of the Enneagram. Image-conscious. Adaptive. Driven by success and, beneath it, a terror of being worthless. [Trump](/personality-analysis/Donald-Trump) didn't enter politics with a governing philosophy. He entered with a brand. And in 2016, the brand—winner, outsider, fighter, disruptor—was exactly what a furious nation wanted to buy.
+**Why a Type 3**: [Type 3s](/enneagram-corner/enneagram-type-3)—the Achievers—are the performers of the Enneagram. Image-conscious. Adaptive. Driven by success and, beneath it, a terror of being worthless. [Trump](/personality-analysis/donald-trump) didn't enter politics with a governing philosophy. He entered with a brand. And in 2016, the brand—winner, outsider, fighter, disruptor—was exactly what a furious nation wanted to buy.
 
 Here's where 9takes' typing of Trump matters. Most Enneagram sites type him as a Type 8 (the Challenger). But the 8 dominates through raw power—direct, confrontational, honest about wanting control. Trump's operating system is different. The gold surfaces. The constant superlatives. The "very stable genius" claims. The hair. The need to reframe every setback as a win. That's not the 8's blunt power drive. That's the 3's shame-prevention architecture—every achievement is another brick in the wall between him and the feeling of worthlessness.
 
@@ -179,7 +179,7 @@ Every president before Trump governed through some combination of ideology and r
 
 **National mood**: Pandemic-ravaged. 400,000 dead. Polarized beyond recognition. Exhausted by spectacle. The country wanted someone who would just _care_.
 
-**Why a Type 2**: [Joe Biden](/personality-analysis/Joe-Biden) was elected as the anti-Trump in every psychological dimension. Where the 3 performs strength, the [Type 2](/enneagram-corner/enneagram-type-2) offers warmth. Where the 3 governs through transactions, the 2 governs through relationships. Where the 3 asks "How does this make me look?", the 2 asks "How can I help?"
+**Why a Type 2**: [Joe Biden](/personality-analysis/joe-biden) was elected as the anti-Trump in every psychological dimension. Where the 3 performs strength, the [Type 2](/enneagram-corner/enneagram-type-2) offers warmth. Where the 3 governs through transactions, the 2 governs through relationships. Where the 3 asks "How does this make me look?", the 2 asks "How can I help?"
 
 Biden's entire career is the Type 2 story: turning private wounds into public offerings. His first wife and daughter killed in a car accident—he became the senator who understood loss. His son Beau's death—he became the leader who knew grief. Every tragedy was alchemized into connection. That's the 2's gift. Suffering becomes service. Pain becomes proximity.
 
@@ -189,7 +189,7 @@ But the 2's shadow is the inability to set boundaries. And Biden's final acts as
 
 He promised—publicly, repeatedly, categorically—that he would never pardon Hunter. His press secretary said "It's still a no. It will be a no. It is a no." Then he did it. And in his final 20 minutes as president, he signed preemptive pardons for his brothers, his sister, and their spouses. No charges had been filed against any of them.
 
-The most institutionalist president in a generation broke the institution in his final moments. Why? Because the [Type 2's deepest fear](/personality-analysis/Joe-Biden)—that the people they love will suffer—overrides everything. The Helper who spent 50 years offering his wounds to the public finally hit a wound too close. The offering became a shield. The bridge-builder built a wall.
+The most institutionalist president in a generation broke the institution in his final moments. Why? Because the [Type 2's deepest fear](/personality-analysis/joe-biden)—that the people they love will suffer—overrides everything. The Helper who spent 50 years offering his wounds to the public finally hit a wound too close. The offering became a shield. The bridge-builder built a wall.
 
 **What it set up**: Biden's presidency confirmed what the nation was already feeling—that empathy alone couldn't match the moment. The Helper's warmth couldn't cut through polarization that had hardened into permanent hostility. The country didn't want to be helped. It wanted to be _led_. And the next election would prove it.
 

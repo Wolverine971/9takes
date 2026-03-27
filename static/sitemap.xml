@@ -1026,7 +1026,7 @@
 </url>
 <url>
     <loc>https://9takes.com/enneagram-corner/how-type-8-challengers-actually-succeed</loc>
-    <lastmod>2026-02-09T00:00:00.000Z</lastmod>
+    <lastmod>2026-03-27T00:00:00.000Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -3488,15 +3488,6 @@
     </image:image>
 </url>
 <url>
-    <loc>https://9takes.com/personality-analysis/clavicular</loc>
-    <lastmod>2026-03-23T00:00:00.000Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-    <image:image>
-        <image:loc>https://9takes.com/types/3s/Clavicular.webp</image:loc>
-    </image:image>
-</url>
-<url>
     <loc>https://9takes.com/personality-analysis/dario-amodei</loc>
     <lastmod>2026-03-23T00:00:00.000Z</lastmod>
     <changefreq>monthly</changefreq>
@@ -3539,24 +3530,6 @@
     <priority>0.7</priority>
     <image:image>
         <image:loc>https://9takes.com/types/8s/Travis-Kalanick.webp</image:loc>
-    </image:image>
-</url>
-<url>
-    <loc>https://9takes.com/personality-analysis/alex-karp</loc>
-    <lastmod>2026-03-24T00:00:00.000Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-    <image:image>
-        <image:loc>https://9takes.com/types/4s/Alex-Karp.webp</image:loc>
-    </image:image>
-</url>
-<url>
-    <loc>https://9takes.com/personality-analysis/jake-shane</loc>
-    <lastmod>2026-03-24T00:00:00.000Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-    <image:image>
-        <image:loc>https://9takes.com/types/6s/Jake-Shane.webp</image:loc>
     </image:image>
 </url>
 <url>
@@ -3629,6 +3602,51 @@
     <priority>0.7</priority>
     <image:image>
         <image:loc>https://9takes.com/types/4s/Zoe-Kravitz.webp</image:loc>
+    </image:image>
+</url>
+<url>
+    <loc>https://9takes.com/personality-analysis/alex-karp</loc>
+    <lastmod>2026-03-25T00:00:00.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+        <image:loc>https://9takes.com/types/4s/Alex-Karp.webp</image:loc>
+    </image:image>
+</url>
+<url>
+    <loc>https://9takes.com/personality-analysis/clavicular</loc>
+    <lastmod>2026-03-27T00:00:00.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+        <image:loc>https://9takes.com/types/3s/Clavicular.webp</image:loc>
+    </image:image>
+</url>
+<url>
+    <loc>https://9takes.com/personality-analysis/jake-shane</loc>
+    <lastmod>2026-03-27T00:00:00.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+        <image:loc>https://9takes.com/types/6s/Jake-Shane.webp</image:loc>
+    </image:image>
+</url>
+<url>
+    <loc>https://9takes.com/personality-analysis/joseph-stalin</loc>
+    <lastmod>2026-03-27T00:00:00.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+        <image:loc>https://9takes.com/types/6s/Joseph-Stalin.webp</image:loc>
+    </image:image>
+</url>
+<url>
+    <loc>https://9takes.com/personality-analysis/reid-hoffman</loc>
+    <lastmod>2026-03-27T00:00:00.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+        <image:loc>https://9takes.com/types/7s/reid-hoffman.webp</image:loc>
     </image:image>
 </url>
 <url>

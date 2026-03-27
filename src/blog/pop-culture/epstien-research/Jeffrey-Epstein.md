@@ -4,7 +4,7 @@ meta_title: "Inside Jeffrey Epstein's Mind: How a Corrupted 'Helper' Ensnared th
 description: "A psychological deep-dive into Jeffrey Epstein through the Enneagram lens. How a Type 2's need to be needed became a weapon of manipulation and control."
 author: 'DJ Wayne'
 date: '2026-02-02'
-loc: 'https://9takes.com/personality-analysis/Jeffrey-Epstein'
+loc: 'https://9takes.com/personality-analysis/jeffrey-epstein'
 lastmod: '2026-02-02'
 changefreq: 'monthly'
 priority: '0.6'
@@ -343,7 +343,7 @@ When you spend decades making yourself indispensable to the powerful, documentin
 
 ## The Bill Gates Case Study
 
-The [Gates-Epstein relationship](/personality-analysis/Bill-Gates) illustrates how Epstein operated with Type 5s specifically.
+The [Gates-Epstein relationship](/personality-analysis/bill-gates) illustrates how Epstein operated with Type 5s specifically.
 
 ### The Intellectual Hook
 
@@ -456,4 +456,4 @@ The question is: **what do they expect to own?**
 
 > **Disclaimer:** This analysis of Jeffrey Epstein's Enneagram type is speculative, based on publicly available information. This profile focuses on psychological patterns to understand how manipulation operates, not to excuse criminal behavior. The victims of Epstein's crimes deserve acknowledgment: their testimonies made prosecution possible and their courage revealed a system of abuse that had operated for decades.
 
-_If you found this analysis valuable, explore how personality patterns shape other powerful figures: [Bill Gates](/personality-analysis/Bill-Gates), [Elon Musk](/personality-analysis/Elon-Musk), [Donald Trump](/personality-analysis/Donald-Trump)._
+_If you found this analysis valuable, explore how personality patterns shape other powerful figures: [Bill Gates](/personality-analysis/bill-gates), [Elon Musk](/personality-analysis/elon-musk), [Donald Trump](/personality-analysis/donald-trump)._

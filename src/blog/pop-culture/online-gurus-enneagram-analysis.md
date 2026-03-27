@@ -44,12 +44,12 @@ Alex Hormozi is a Type 3 (Achiever) who turned business education into a persona
 
 | Guru                                                     | Enneagram Type         | Core Message                       | Selling                | Content Grade |
 | -------------------------------------------------------- | ---------------------- | ---------------------------------- | ---------------------- | ------------- |
-| [Alex Hormozi](/personality-analysis/Alex-Hormozi)       | Type 3 - Achiever      | "Here's exactly how to make money" | Systems + frameworks   | 9.2           |
-| [Gary Vee](/personality-analysis/Gary-Vee)               | Type 3 - Achiever      | "Hustle harder, complain less"     | Motivation + mindset   | 8.4           |
-| [Ali Abdaal](/personality-analysis/Ali-Abdaal)           | Type 3 - Achiever      | "Work smarter, not harder"         | Productivity tools     | 9.2           |
-| [Tony Robbins](/personality-analysis/Tony-Robbins)       | Type 3 - Achiever      | "Unleash the power within"         | Transformation         | 9.0           |
-| [Jordan Peterson](/personality-analysis/Jordan-Peterson) | Type 1 - Perfectionist | "Clean your room, find meaning"    | Order + responsibility | 9.4           |
-| [Andrew Huberman](/personality-analysis/Andrew-Huberman) | Type 5 - Investigator  | "Here's the science behind it"     | Protocols + evidence   | 8.5           |
+| [Alex Hormozi](/personality-analysis/alex-hormozi)       | Type 3 - Achiever      | "Here's exactly how to make money" | Systems + frameworks   | 9.2           |
+| [Gary Vee](/personality-analysis/gary-vee)               | Type 3 - Achiever      | "Hustle harder, complain less"     | Motivation + mindset   | 8.4           |
+| [Ali Abdaal](/personality-analysis/ali-abdaal)           | Type 3 - Achiever      | "Work smarter, not harder"         | Productivity tools     | 9.2           |
+| [Tony Robbins](/personality-analysis/tony-robbins)       | Type 3 - Achiever      | "Unleash the power within"         | Transformation         | 9.0           |
+| [Jordan Peterson](/personality-analysis/jordan-peterson) | Type 1 - Perfectionist | "Clean your room, find meaning"    | Order + responsibility | 9.4           |
+| [Andrew Huberman](/personality-analysis/andrew-huberman) | Type 5 - Investigator  | "Here's the science behind it"     | Protocols + evidence   | 8.5           |
 
 ## The Type 3 Guru Factory
 

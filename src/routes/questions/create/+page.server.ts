@@ -1,8 +1,21 @@
 // src/routes/questions/create/+page.server.ts
 import { redirect } from '@sveltejs/kit';
-import type { PageServerLoad } from './$types';
+import { error } from '@sveltejs/kit';
+import { createESQuestion, elasticClient } from '$lib/server/elasticSearch';
+import { uploadQuestionImage } from '$lib/server/questionImages';
+import { safelyExitWelcomeSequenceForQuestionCreation } from '$lib/server/welcomeSequenceGuards';
+import {
+	appendQuestionSlugSuffix,
+	buildQuestionSlug,
+	QUESTION_URL_MAX_LENGTH
+} from '$lib/utils/questionSlug';
 import { logger } from '$lib/utils/logger';
 import { z } from 'zod';
+import { checkDemoTime } from '../../../utils/api';
+import { mapDemoValues } from '../../../utils/demo';
+import { typeaheadQuery } from '../../../utils/elasticSearch';
+import { tagQuestion } from '../../../utils/server/openai';
+import type { Actions, PageServerLoad } from './$types';
 
 // Validation schemas
 // Character limit constants - must match frontend MAX_CHAR_COUNT
@@ -17,7 +30,7 @@ const createQuestionSchema = z.object({
 	question: z.string().min(QUESTION_MIN_LENGTH).max(QUESTION_MAX_LENGTH).trim(),
 	author_id: z.string().uuid(),
 	context: z.string().max(2000).optional().default(''),
-	url: z.string().min(1).max(200),
+	url: z.string().min(1).max(QUESTION_URL_MAX_LENGTH),
 	img_url: z
 		.string()
 		.optional()
@@ -34,19 +47,6 @@ export const load: PageServerLoad = async (event) => {
 		session: session
 	};
 };
-
-import type { Actions } from './$types';
-// import type { RequestHandler } from '@sveltejs/kit';
-import { createESQuestion } from '$lib/server/elasticSearch';
-import { error } from '@sveltejs/kit';
-import { tagQuestion } from '../../../utils/server/openai';
-import { typeaheadQuery } from '../../../utils/elasticSearch';
-
-import { elasticClient } from '$lib/server/elasticSearch';
-import { checkDemoTime } from '../../../utils/api';
-import { mapDemoValues } from '../../../utils/demo';
-import { uploadQuestionImage } from '$lib/server/questionImages';
-import { safelyExitWelcomeSequenceForQuestionCreation } from '$lib/server/welcomeSequenceGuards';
 
 export const actions: Actions = {
 	getUrl: async ({ request, locals }) => {
@@ -66,7 +66,7 @@ export const actions: Actions = {
 			// Validate input
 			const validatedData = getUrlSchema.parse(body);
 			const question = validatedData.question;
-			const tempUrl = getUrlString(question);
+			const tempUrl = buildQuestionSlug(question);
 
 			if (demo_time === true) {
 				return tempUrl;
@@ -81,7 +81,7 @@ export const actions: Actions = {
 				})
 			);
 			if (response.hits.hits.length) {
-				return `${tempUrl}-${response.hits.hits.length}`;
+				return appendQuestionSlugSuffix(tempUrl, response.hits.hits.length);
 				// res.json({ url: `${tempUrl}-${response.hits.hits.length}` });
 			} else {
 				return tempUrl;
@@ -317,146 +317,3 @@ export const actions: Actions = {
 		}
 	}
 };
-
-const getUrlString = (unalteredText: string) => {
-	const text = unalteredText.trim();
-	let url = '';
-	const leftOver = removeStopwords(text.split(' '));
-	if (leftOver && leftOver.length && leftOver.length <= 3) {
-		// if there is less than 3 key words keep the whole string up to the last key word
-		const lastWord = leftOver[leftOver.length - 1];
-		const index = text.indexOf(lastWord);
-		url = text
-			.substring(0, index + lastWord.length)
-			.split(' ')
-			.join('-')
-			.toLowerCase();
-	} else {
-		url = leftOver.join('-').toLowerCase();
-	}
-	if (!url) {
-		return text.split(' ').join('-');
-	}
-	return url;
-};
-
-const removeStopwords = function (tokens: string[]) {
-	const stopwords = eng;
-	if (typeof tokens !== 'object' || typeof stopwords !== 'object') {
-		throw new Error('expected Arrays try: removeStopwords(Array[, Array])');
-	}
-	return tokens.filter(function (value) {
-		return stopwords.indexOf(value.toLowerCase()) === -1;
-	});
-};
-
-const eng = [
-	'about',
-	'after',
-	'all',
-	'also',
-	'am',
-	'an',
-	'and',
-	'another',
-	'any',
-	'are',
-	'as',
-	'at',
-	'be',
-	'because',
-	'been',
-	'before',
-	'being',
-	'between',
-	'both',
-	'but',
-	'by',
-	'came',
-	'can',
-	'come',
-	'could',
-	'did',
-	'do',
-	'each',
-	'for',
-	'from',
-	'get',
-	'got',
-	'has',
-	'had',
-	'he',
-	'have',
-	'her',
-	'here',
-	'him',
-	'himself',
-	'his',
-	'how',
-	'if',
-	'in',
-	'into',
-	'is',
-	'it',
-	'like',
-	'make',
-	'many',
-	'me',
-	'might',
-	'more',
-	'most',
-	'much',
-	'must',
-	'my',
-	'never',
-	'now',
-	'of',
-	'on',
-	'only',
-	'or',
-	'other',
-	'our',
-	'out',
-	'over',
-	'said',
-	'same',
-	'should',
-	'since',
-	'some',
-	'still',
-	'such',
-	'take',
-	'than',
-	'that',
-	'the',
-	'their',
-	'them',
-	'then',
-	'there',
-	'these',
-	'they',
-	'this',
-	'those',
-	'through',
-	'to',
-	'too',
-	'under',
-	'up',
-	'very',
-	'was',
-	'way',
-	'we',
-	'well',
-	'were',
-	'what',
-	'where',
-	'which',
-	'while',
-	'who',
-	'with',
-	'would',
-	'you',
-	'your',
-	'a',
-	'i'
-];

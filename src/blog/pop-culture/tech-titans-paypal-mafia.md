@@ -41,9 +41,9 @@ No single company in history has produced more consequential tech leaders than P
 
 | Leader                                           | Enneagram Type        | PayPal Role               | Post-PayPal Empire                         | Core Drive                         |
 | ------------------------------------------------ | --------------------- | ------------------------- | ------------------------------------------ | ---------------------------------- |
-| [Peter Thiel](/personality-analysis/Peter-Thiel) | Type 6 - Loyalist     | Co-founder, CEO           | Palantir, Founders Fund, Facebook investor | Loyalty and threat detection       |
-| [Elon Musk](/personality-analysis/Elon-Musk)     | Type 5 - Investigator | Co-founder (X.com merger) | Tesla, SpaceX, xAI, X                      | System mastery across domains      |
-| [David Sacks](/personality-analysis/David-Sacks) | Type 6 - Loyalist     | COO                       | Craft Ventures, Yammer, White House AI     | Loyalty networks and contrarianism |
+| [Peter Thiel](/personality-analysis/peter-thiel) | Type 6 - Loyalist     | Co-founder, CEO           | Palantir, Founders Fund, Facebook investor | Loyalty and threat detection       |
+| [Elon Musk](/personality-analysis/elon-musk)     | Type 5 - Investigator | Co-founder (X.com merger) | Tesla, SpaceX, xAI, X                      | System mastery across domains      |
+| [David Sacks](/personality-analysis/david-sacks) | Type 6 - Loyalist     | COO                       | Craft Ventures, Yammer, White House AI     | Loyalty networks and contrarianism |
 
 ## The PayPal Crucible: Why This Team Worked
 

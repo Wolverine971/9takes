@@ -43,10 +43,10 @@ Chamath Palihapitiya is a Type 3 (Achiever) who constantly reinvents his public 
 
 | Host                                                               | Enneagram Type        | Role on Pod     | Core Drive                    | Silicon Valley Archetype |
 | ------------------------------------------------------------------ | --------------------- | --------------- | ----------------------------- | ------------------------ |
-| [Chamath Palihapitiya](/personality-analysis/Chamath-Palihapitiya) | Type 3 - Achiever     | The Provocateur | Status through reinvention    | The Visionary Pitch Man  |
-| [David Sacks](/personality-analysis/David-Sacks)                   | Type 6 - Loyalist     | The Contrarian  | Security through skepticism   | The Risk Assessor        |
-| [David Friedberg](/personality-analysis/David-Friedberg)           | Type 5 - Investigator | The Professor   | Understanding through systems | The Deep Thinker         |
-| [Jason Calacanis](/personality-analysis/Jason-Calacanis)           | Type 3 - Achiever     | The Hype Man    | Success through connection    | The Networker            |
+| [Chamath Palihapitiya](/personality-analysis/chamath-palihapitiya) | Type 3 - Achiever     | The Provocateur | Status through reinvention    | The Visionary Pitch Man  |
+| [David Sacks](/personality-analysis/david-sacks)                   | Type 6 - Loyalist     | The Contrarian  | Security through skepticism   | The Risk Assessor        |
+| [David Friedberg](/personality-analysis/david-friedberg)           | Type 5 - Investigator | The Professor   | Understanding through systems | The Deep Thinker         |
+| [Jason Calacanis](/personality-analysis/jason-calacanis)           | Type 3 - Achiever     | The Hype Man    | Success through connection    | The Networker            |
 
 <!-- Also weave in these adjacent Silicon Valley figures: -->
 <!-- Peter Thiel (6), Palmer Luckey (7), Paul Graham (7), Shaan Puri (7), Sam Parr (8) -->

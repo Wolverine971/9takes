@@ -43,11 +43,11 @@ MrBeast is a Type 8 (Challenger) who turned content creation into an industrial 
 
 | Creator                                        | Enneagram Type        | Content Style               | Core Drive                        | Content Grade |
 | ---------------------------------------------- | --------------------- | --------------------------- | --------------------------------- | ------------- |
-| [MrBeast](/personality-analysis/Mr-Beast)      | Type 8 - Challenger   | Industrial-scale stunts     | Control through generosity        | 9.0           |
-| [Kai Cenat](/personality-analysis/Kai-Cenat)   | Type 7 - Enthusiast   | Chaotic community streams   | Joy through connection            | 8.7           |
-| [xQc](/personality-analysis/xQc)               | Type 7 - Enthusiast   | Raw consciousness streaming | Stimulation through everything    | 9.0           |
-| [IShowSpeed](/personality-analysis/IShowSpeed) | Type 8 - Challenger   | Explosive reaction content  | Dominance through intensity       | 9.1           |
-| [PewDiePie](/personality-analysis/PewDiePie)   | Type 5 - Investigator | Commentary + gaming         | Understanding through observation | 8.8           |
+| [MrBeast](/personality-analysis/mr-beast)      | Type 8 - Challenger   | Industrial-scale stunts     | Control through generosity        | 9.0           |
+| [Kai Cenat](/personality-analysis/kai-cenat)   | Type 7 - Enthusiast   | Chaotic community streams   | Joy through connection            | 8.7           |
+| [xQc](/personality-analysis/xqc)               | Type 7 - Enthusiast   | Raw consciousness streaming | Stimulation through everything    | 9.0           |
+| [IShowSpeed](/personality-analysis/ishowspeed) | Type 8 - Challenger   | Explosive reaction content  | Dominance through intensity       | 9.1           |
+| [PewDiePie](/personality-analysis/pewdiepie)   | Type 5 - Investigator | Commentary + gaming         | Understanding through observation | 8.8           |
 
 ## MrBeast: The Algorithm Monk
 

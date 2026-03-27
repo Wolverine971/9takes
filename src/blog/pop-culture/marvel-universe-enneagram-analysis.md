@@ -43,10 +43,10 @@ Robert Downey Jr. is a Type 7 (Enthusiast) whose real personality is so close to
 
 | Actor                                                          | Enneagram Type      | MCU Role                  | Type Match                   | Content Grade |
 | -------------------------------------------------------------- | ------------------- | ------------------------- | ---------------------------- | ------------- |
-| [Robert Downey Jr.](/personality-analysis/Robert-Downey-Jr)    | Type 7 - Enthusiast | Iron Man / Tony Stark     | Near-perfect                 | —             |
-| [Tom Holland](/personality-analysis/Tom-Holland)               | Type 7 - Enthusiast | Spider-Man / Peter Parker | High (youthful 7)            | 8.9           |
-| [Scarlett Johansson](/personality-analysis/Scarlett-Johansson) | Type 9 - Peacemaker | Black Widow / Natasha     | Moderate (9 playing spy)     | 9.0           |
-| [Hugh Jackman](/personality-analysis/Hugh-Jackman)             | Type 7 - Enthusiast | Wolverine / Logan         | Inverted (7 playing brooder) | —             |
+| [Robert Downey Jr.](/personality-analysis/robert-downey-jr)    | Type 7 - Enthusiast | Iron Man / Tony Stark     | Near-perfect                 | —             |
+| [Tom Holland](/personality-analysis/tom-holland)               | Type 7 - Enthusiast | Spider-Man / Peter Parker | High (youthful 7)            | 8.9           |
+| [Scarlett Johansson](/personality-analysis/scarlett-johansson) | Type 9 - Peacemaker | Black Widow / Natasha     | Moderate (9 playing spy)     | 9.0           |
+| [Hugh Jackman](/personality-analysis/hugh-jackman)             | Type 7 - Enthusiast | Wolverine / Logan         | Inverted (7 playing brooder) | —             |
 
 ## Robert Downey Jr.: The Man Who Was Already Iron Man
 

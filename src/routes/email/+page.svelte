@@ -187,6 +187,7 @@
 </script>
 
 <svelte:head>
+	<meta name="robots" content="noindex, nofollow" />
 	<script src="//cdn.jsdelivr.net/npm/medium-editor@latest/dist/js/medium-editor.min.js"></script>
 	<link
 		rel="stylesheet"

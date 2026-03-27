@@ -48,15 +48,15 @@ Before we break down each comedian, here are the questions you're probably alrea
 
 | Comedian                                               | Enneagram Type      | Comedy Style                    | Core Wound                        | Content Grade |
 | ------------------------------------------------------ | ------------------- | ------------------------------- | --------------------------------- | ------------- |
-| [Theo Von](/personality-analysis/Theo-Von)             | Type 7 - Enthusiast | Absurdist Southern storytelling | Chaotic childhood, absent father  | 9.7           |
-| [Dave Chappelle](/personality-analysis/Dave-Chappelle) | Type 9 - Peacemaker | Truth-telling through calm      | Fame threatening inner peace      | 9.0           |
-| [Shane Gillis](/personality-analysis/Shane-Gillis)     | Type 9 - Peacemaker | Everyman observations           | Being canceled, outsider status   | 9.0           |
-| [Pete Davidson](/personality-analysis/Pete-Davidson)   | Type 9 - Peacemaker | Self-deprecating confessional   | Father's death on 9/11            | 9.0           |
-| [Jon Stewart](/personality-analysis/Jon-Stewart)       | Type 7 - Enthusiast | Righteous satirical anger       | Injustice, restless moral compass | 9.0           |
-| [Tim Dillon](/personality-analysis/Tim-Dillon)         | Type 7 - Enthusiast | Conspiracy-tinged rants         | Running from stillness            | 9.0           |
-| [Andrew Schulz](/personality-analysis/Andrew-Schulz)   | Type 7 - Enthusiast | Aggressive crowd work           | Need for constant stimulation     | 8.0           |
-| [Kevin Hart](/personality-analysis/Kevin-Hart)         | Type 7 - Enthusiast | High-energy physical comedy     | Small guy proving himself         | 8.7           |
-| [Dax Shepard](/personality-analysis/Dax-Shepard)       | Type 7 - Enthusiast | Honest vulnerability + humor    | Addiction, self-destruction       | 9.6           |
+| [Theo Von](/personality-analysis/theo-von)             | Type 7 - Enthusiast | Absurdist Southern storytelling | Chaotic childhood, absent father  | 9.7           |
+| [Dave Chappelle](/personality-analysis/dave-chappelle) | Type 9 - Peacemaker | Truth-telling through calm      | Fame threatening inner peace      | 9.0           |
+| [Shane Gillis](/personality-analysis/shane-gillis)     | Type 9 - Peacemaker | Everyman observations           | Being canceled, outsider status   | 9.0           |
+| [Pete Davidson](/personality-analysis/pete-davidson)   | Type 9 - Peacemaker | Self-deprecating confessional   | Father's death on 9/11            | 9.0           |
+| [Jon Stewart](/personality-analysis/jon-stewart)       | Type 7 - Enthusiast | Righteous satirical anger       | Injustice, restless moral compass | 9.0           |
+| [Tim Dillon](/personality-analysis/tim-dillon)         | Type 7 - Enthusiast | Conspiracy-tinged rants         | Running from stillness            | 9.0           |
+| [Andrew Schulz](/personality-analysis/andrew-schulz)   | Type 7 - Enthusiast | Aggressive crowd work           | Need for constant stimulation     | 8.0           |
+| [Kevin Hart](/personality-analysis/kevin-hart)         | Type 7 - Enthusiast | High-energy physical comedy     | Small guy proving himself         | 8.7           |
+| [Dax Shepard](/personality-analysis/dax-shepard)       | Type 7 - Enthusiast | Honest vulnerability + humor    | Addiction, self-destruction       | 9.6           |
 
 ## The Type 7 Comedy Machine: Running From Pain at 100 MPH
 

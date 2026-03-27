@@ -438,12 +438,12 @@ On his crimes (to acquaintances): Referred to sex acts as "erotic massages" and 
 
 | Profile         | Link                                                                           | Connection                                         |
 | --------------- | ------------------------------------------------------------------------------ | -------------------------------------------------- |
-| Bill Gates      | [/personality-analysis/Bill-Gates](/personality-analysis/Bill-Gates)           | Multiple documented meetings post-conviction       |
-| Elon Musk       | [/personality-analysis/Elon-Musk](/personality-analysis/Elon-Musk)             | Profile mentions Epstein posts; named in documents |
-| Donald Trump    | [/personality-analysis/Donald-Trump](/personality-analysis/Donald-Trump)       | Mar-a-Lago friendship, later distancing            |
-| Peter Thiel     | [/personality-analysis/Peter-Thiel](/personality-analysis/Peter-Thiel)         | Silicon Valley sphere                              |
-| Mark Zuckerberg | [/personality-analysis/Mark-Zuckerberg](/personality-analysis/Mark-Zuckerberg) | Tech billionaire culture, Type 5 vulnerability     |
-| Grimes          | [/personality-analysis/Grimes](/personality-analysis/Grimes)                   | Elon adjacent, tech/hedonism culture               |
+| Bill Gates      | [/personality-analysis/bill-gates](/personality-analysis/bill-gates)           | Multiple documented meetings post-conviction       |
+| Elon Musk       | [/personality-analysis/elon-musk](/personality-analysis/elon-musk)             | Profile mentions Epstein posts; named in documents |
+| Donald Trump    | [/personality-analysis/donald-trump](/personality-analysis/donald-trump)       | Mar-a-Lago friendship, later distancing            |
+| Peter Thiel     | [/personality-analysis/peter-thiel](/personality-analysis/peter-thiel)         | Silicon Valley sphere                              |
+| Mark Zuckerberg | [/personality-analysis/mark-zuckerberg](/personality-analysis/mark-zuckerberg) | Tech billionaire culture, Type 5 vulnerability     |
+| Grimes          | [/personality-analysis/grimes](/personality-analysis/grimes)                   | Elon adjacent, tech/hedonism culture               |
 
 ---
 

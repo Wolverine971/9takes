@@ -49,6 +49,7 @@
 <svelte:head>
 	<title>9takes Forgot Password Page</title>
 	<meta name="description" content="Reset your password for 9takes" />
+	<meta name="robots" content="noindex, follow" />
 	<link rel="canonical" href="https://9takes.com/forgotPassword" />
 	<meta property="og:site_name" content="9takes" />
 	<meta property="og:title" content="9takes - Forgot Password Page" />

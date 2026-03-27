@@ -1,7 +1,7 @@
 <!-- docs/BLOG-CROSSLINK-INDEX.md -->
 # Blog Cross-Link Index
 
-_Generated: 2026-03-26_
+_Generated: 2026-03-27_
 _Total Posts Analyzed: 171 (Published: 141, Unpublished: 30)_
 _Note: Individual type pages (enneagram-type-1 through 9) excluded from link counts_
 
@@ -14,15 +14,15 @@ _Note: Individual type pages (enneagram-type-1 through 9) excluded from link cou
 | Total posts | 171 |
 | Published posts | 141 |
 | Unpublished posts | 30 |
-| Posts with 0 outgoing links | 32 |
+| Posts with 0 outgoing links | 31 |
 | Posts with 0 incoming links | 47 |
-| Completely isolated (0 in, 0 out) | 28 |
-| Total internal cross-links | 873 |
+| Completely isolated (0 in, 0 out) | 27 |
+| Total internal cross-links | 874 |
 | Average outgoing links per post | 5.1 |
 
 ---
 
-## Priority 1: Completely Isolated Posts (28 posts)
+## Priority 1: Completely Isolated Posts (27 posts)
 
 These posts have NO links in or out. Fix these first!
 
@@ -33,7 +33,6 @@ These posts have NO links in or out. Fix these first!
 | AOC and the Squad: The Enneagram Types of Millennial Politic... | `pop-culture/aoc-and-the-squad-enneagram-types.md` | Add 3+ outgoing links |
 | Cancel Culture by Enneagram Type: Who Cancels and Who Gets C... | `pop-culture/cancel-culture-enneagram-type.md` | Add 3+ outgoing links |
 | Comedy Kings: Why the Funniest Men Alive Are Wired Completel... | `pop-culture/comedy-kings-enneagram-analysis.md` | Add 3+ outgoing links |
-| Hollywood Heartthrobs: Why the Men Women Obsess Over Are Wir... | `pop-culture/hollywood-heartthrobs-enneagram-analysis.md` | Add 3+ outgoing links |
 | Jeffrey Epstein | `pop-culture/epstein-web-of-manipulation.md` | Add 3+ outgoing links |
 | Jeffrey Epstein: The Dark Helper - An Enneagram Type 2 Analy... | `pop-culture/epstien-research/Jeffrey-Epstein-citations.md` | Add 3+ outgoing links |
 | Jeffrey Epstein: The Dark Helper - An Enneagram Type 2 Analy... | `pop-culture/epstien-research/Jeffrey-Epstein.md` | Add 3+ outgoing links |
@@ -59,7 +58,7 @@ These posts have NO links in or out. Fix these first!
 
 ---
 
-## Priority 2: Posts with NO Outgoing Links (32 posts)
+## Priority 2: Posts with NO Outgoing Links (31 posts)
 
 These posts don't link to any other content.
 
@@ -86,7 +85,6 @@ These posts don't link to any other content.
 | Untitled | `pop-culture/epstien-research/epstien-pltr.md` | 0 |
 | Untitled | `pop-culture/epstien-research/epstien-politicians.md` | 0 |
 | Untitled | `pop-culture/epstien-research/epstien-uk.md` | 0 |
-| Hollywood Heartthrobs: Why the Men Women Obsess Over Are Wir... | `pop-culture/hollywood-heartthrobs-enneagram-analysis.md` | 0 |
 | Untitled | `pop-culture/incel-exit-post.md` | 0 |
 | Marvel | `pop-culture/marvel-universe-enneagram-analysis.md` | 0 |
 | Online Gurus: The Personality Types Selling You a Better Lif... | `pop-culture/online-gurus-enneagram-analysis.md` | 0 |
@@ -123,7 +121,8 @@ These posts are "orphaned" - no other content links to them.
 | The Kardashian Family Enneagram: How Each Type Built a Billi... | `pop-culture/kardashian-family-enneagram-analysis.md` | 2 |
 | The Intellectual Fortress That Becomes a Prison | `community/fear-triad-intellectual-fortress-or-prison.md` | 1 |
 | The Psychology of Epstein | `pop-culture/epstien-research/Jeffrey-Epstein-Psychology-Of-The-Web.md` | 1 |
-| Podcast Bros: The Personality Types Dominating Long-Form Con... | `pop-culture/podcast-bros-enneagram-analysis.md` | 1 |
+| Inside the Heartthrob Machine: What Fame Does to the Men Wom... | `pop-culture/hollywood-heartthrobs-enneagram-analysis.md` | 1 |
+| Podcast Bros: Inside the Movement That Replaced Mainstream M... | `pop-culture/podcast-bros-enneagram-analysis.md` | 1 |
 | Why World Leaders Can | `pop-culture/world-leaders-enneagram-personality-dynamics.md` | 1 |
 
 ---
@@ -255,6 +254,7 @@ Sorted by total connections (incoming + outgoing).
 | 10 | 5 | 5 | How Minds Actually Change | `community/how-minds-change-on-9takes.md` |
 | 10 | 6 | 4 | Love Languages & Enneagram Types: The Ultimate Compatibility... | `enneagram/love-languages-and-enneagram-types.md` |
 | 10 | 2 | 8 | Red Flags You | `enneagram/toxic-traits-relationships-warning-signs.md` |
+| 10 | 6 | 4 | Parasocial Relationships: Why Each Enneagram Type Forms Them | `pop-culture/parasocial-relationships-enneagram-type.md` |
 | 9 | 4 | 5 | Enneagram Connecting Lines: The Hidden Dynamics of Growth an... | `enneagram/enneagram-connecting-lines.md` |
 | 9 | 3 | 6 | Enneagram Leadership Styles: Why Your Natural Approach Keeps... | `enneagram/enneagram-leadership.md` |
 | 9 | 0 | 9 | Enneagram Type 9: The Peacemaker - Finding Your Voice | `enneagram/enneagram-type-9.md` |
@@ -262,7 +262,6 @@ Sorted by total connections (incoming + outgoing).
 | 9 | 5 | 4 | Philosophy and Psychology Gave Birth to the Enneagram | `enneagram/philosophy-psychology-and-the-enneagram.md` |
 | 9 | 4 | 5 | Why Dating Apps Are Harder for Certain Personality Types | `enneagram/why-dating-apps-are-harder-for-certain-personality-types.md` |
 | 9 | 3 | 6 | The Definitive Guide to Relationship Conflict [Part 1] | `guides/definitive-guide-to-relationship-conflict-part-1.md` |
-| 9 | 5 | 4 | Parasocial Relationships: Why Each Enneagram Type Forms Them | `pop-culture/parasocial-relationships-enneagram-type.md` |
 | 8 | 2 | 6 | 5 Reasons Reddit Can | `community/reddit-deep-connections-limitations.md` |
 | 8 | 2 | 6 | Enneagram Compatibility: Why Charts Lie and What Actually Pr... | `enneagram/enneagram-compatibility-guide.md` |
 | 8 | 6 | 2 | The Complete Enneagram Compatibility Matrix: All 81 Type Com... | `enneagram/enneagram-compatibility-matrix.md` |
@@ -337,7 +336,8 @@ Sorted by total connections (incoming + outgoing).
 | 1 | 0 | 1 | The Intellectual Fortress That Becomes a Prison | `community/fear-triad-intellectual-fortress-or-prison.md` |
 | 1 | 1 | 0 | Breaking Points: How a Type 1 and a Type 7 Built Media | `pop-culture/breaking-points-enneagram-analysis.md` |
 | 1 | 0 | 1 | The Psychology of Epstein | `pop-culture/epstien-research/Jeffrey-Epstein-Psychology-Of-The-Web.md` |
-| 1 | 0 | 1 | Podcast Bros: The Personality Types Dominating Long-Form Con... | `pop-culture/podcast-bros-enneagram-analysis.md` |
+| 1 | 0 | 1 | Inside the Heartthrob Machine: What Fame Does to the Men Wom... | `pop-culture/hollywood-heartthrobs-enneagram-analysis.md` |
+| 1 | 0 | 1 | Podcast Bros: Inside the Movement That Replaced Mainstream M... | `pop-culture/podcast-bros-enneagram-analysis.md` |
 | 1 | 1 | 0 | The AI Wars: Why Personality Types Determine Who Gets to Bui... | `pop-culture/tech-titans-ai-wars.md` |
 | 1 | 1 | 0 | Twitter/X Personality Types: Why It | `pop-culture/twitter-x-personality-types-toxic.md` |
 | 1 | 0 | 1 | Why World Leaders Can | `pop-culture/world-leaders-enneagram-personality-dynamics.md` |
@@ -358,7 +358,6 @@ Sorted by total connections (incoming + outgoing).
 | 0 | 0 | 0 | Untitled | `pop-culture/epstien-research/epstien-pltr.md` |
 | 0 | 0 | 0 | Untitled | `pop-culture/epstien-research/epstien-politicians.md` |
 | 0 | 0 | 0 | Untitled | `pop-culture/epstien-research/epstien-uk.md` |
-| 0 | 0 | 0 | Hollywood Heartthrobs: Why the Men Women Obsess Over Are Wir... | `pop-culture/hollywood-heartthrobs-enneagram-analysis.md` |
 | 0 | 0 | 0 | Untitled | `pop-culture/incel-exit-post.md` |
 | 0 | 0 | 0 | Marvel | `pop-culture/marvel-universe-enneagram-analysis.md` |
 | 0 | 0 | 0 | Online Gurus: The Personality Types Selling You a Better Lif... | `pop-culture/online-gurus-enneagram-analysis.md` |

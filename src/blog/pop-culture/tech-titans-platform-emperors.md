@@ -46,10 +46,10 @@ The products you use are just their personality types, scaled to billions.
 
 | Leader                                                   | Enneagram Type        | Core Drive                  | Greatest Fear    | Platform Built       | Platform Personality       |
 | -------------------------------------------------------- | --------------------- | --------------------------- | ---------------- | -------------------- | -------------------------- |
-| [Mark Zuckerberg](/personality-analysis/Mark-Zuckerberg) | Type 5 - Investigator | Mastery through knowledge   | Incompetence     | Facebook/Meta        | Surveillance as connection |
-| [Jeff Bezos](/personality-analysis/Jeff-Bezos)           | Type 8 - Challenger   | Control and self-protection | Being controlled | Amazon               | Dominance as convenience   |
-| [Jack Dorsey](/personality-analysis/Jack-Dorsey)         | Type 5 - Investigator | Understanding systems       | Being useless    | Twitter              | Minimalism birthing chaos  |
-| [Elon Musk](/personality-analysis/Elon-Musk)             | Type 5 - Investigator | Decoding all systems        | Being useless    | X (formerly Twitter) | Engineering over discourse |
+| [Mark Zuckerberg](/personality-analysis/mark-zuckerberg) | Type 5 - Investigator | Mastery through knowledge   | Incompetence     | Facebook/Meta        | Surveillance as connection |
+| [Jeff Bezos](/personality-analysis/jeff-bezos)           | Type 8 - Challenger   | Control and self-protection | Being controlled | Amazon               | Dominance as convenience   |
+| [Jack Dorsey](/personality-analysis/jack-dorsey)         | Type 5 - Investigator | Understanding systems       | Being useless    | Twitter              | Minimalism birthing chaos  |
+| [Elon Musk](/personality-analysis/elon-musk)             | Type 5 - Investigator | Decoding all systems        | Being useless    | X (formerly Twitter) | Engineering over discourse |
 
 ## Mark Zuckerberg: The Type 5 Who Solved Friendship
 

@@ -42,10 +42,10 @@ That means 8s and 5s. And they disrupt in fundamentally different ways.
 
 | Leader                                               | Enneagram Type        | Industry Disrupted                  | Method                         | Outcome                                  |
 | ---------------------------------------------------- | --------------------- | ----------------------------------- | ------------------------------ | ---------------------------------------- |
-| [Jeff Bezos](/personality-analysis/Jeff-Bezos)       | Type 8 - Challenger   | Retail, cloud, media                | Dominance through logistics    | Built empire, still standing             |
-| [Reed Hastings](/personality-analysis/Reed-Hastings) | Type 8 - Challenger   | Entertainment                       | Confrontation then replacement | Transformed industry, stepped back       |
+| [Jeff Bezos](/personality-analysis/jeff-bezos)       | Type 8 - Challenger   | Retail, cloud, media                | Dominance through logistics    | Built empire, still standing             |
+| [Reed Hastings](/personality-analysis/reed-hastings) | Type 8 - Challenger   | Entertainment                       | Confrontation then replacement | Transformed industry, stepped back       |
 | Travis Kalanick                                      | Type 8 - Challenger   | Transportation                      | Raw aggression                 | Disrupted industry, got ousted           |
-| [Elon Musk](/personality-analysis/Elon-Musk)         | Type 5 - Investigator | Automotive, aerospace, social media | First-principles decoding      | Multi-industry disruption, mixed results |
+| [Elon Musk](/personality-analysis/elon-musk)         | Type 5 - Investigator | Automotive, aerospace, social media | First-principles decoding      | Multi-industry disruption, mixed results |
 
 ## The 8s: Disruption Through Force
 

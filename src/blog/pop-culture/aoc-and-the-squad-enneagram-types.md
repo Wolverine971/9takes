@@ -142,7 +142,7 @@ AOC is a counterphobic Type 6 (Loyalist) who runs toward fear. Ilhan Omar is lik
 
 What made these four women so threatening that they triggered both the Democratic establishment and the Republican base simultaneously?
 
-The answer lies in their personality architecture. [Alexandria Ocasio-Cortez](/personality-analysis/Alexandria-Ocasio-Cortez), Ilhan Omar, Rashida Tlaib, and Ayanna Pressley each bring distinct psychological strengths that, combined, create a coalition more powerful than its parts.
+The answer lies in their personality architecture. [Alexandria Ocasio-Cortez](/personality-analysis/alexandria-ocasio-cortez), Ilhan Omar, Rashida Tlaib, and Ayanna Pressley each bring distinct psychological strengths that, combined, create a coalition more powerful than its parts.
 
 ## The Squad's Psychological Architecture
 
@@ -163,7 +163,7 @@ These aren't ideological traits. They're personality traits. And the Squad has t
 
 ### Type 6 - The Loyalist (Counterphobic Subtype)
 
-AOC's full analysis is available [here](/personality-analysis/Alexandria-Ocasio-Cortez), but understanding her role in the Squad requires grasping her counterphobic Type 6 psychology.
+AOC's full analysis is available [here](/personality-analysis/alexandria-ocasio-cortez), but understanding her role in the Squad requires grasping her counterphobic Type 6 psychology.
 
 [Type 6s](/enneagram-corner/enneagram-type-6) are driven by a core need for security and support. They anticipate threats, build alliances, and test authority figures to see if they can be trusted.
 

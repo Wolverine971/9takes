@@ -173,8 +173,8 @@ Before diving into the dynamics, let's establish what type each leader operates 
 
 | Leader                                                 | Enneagram Type            | Core Drive            | Greatest Fear               |
 | ------------------------------------------------------ | ------------------------- | --------------------- | --------------------------- |
-| [Donald Trump](/personality-analysis/Donald-Trump)     | Type 8 - The Challenger   | Control, strength     | Being controlled or weak    |
-| [Vladimir Putin](/personality-analysis/Vladimir-Putin) | Type 8 - The Challenger   | Control, strength     | Being controlled or weak    |
+| [Donald Trump](/personality-analysis/donald-trump)     | Type 8 - The Challenger   | Control, strength     | Being controlled or weak    |
+| [Vladimir Putin](/personality-analysis/vladimir-putin) | Type 8 - The Challenger   | Control, strength     | Being controlled or weak    |
 | Xi Jinping                                             | Type 8 - The Challenger   | Control, strength     | Being controlled or weak    |
 | Narendra Modi                                          | Type 3 - The Achiever     | Success, image        | Being worthless or failing  |
 | Emmanuel Macron                                        | Type 3 - The Achiever     | Success, image        | Being worthless or failing  |
@@ -519,9 +519,9 @@ These same patterns that drive world leaders drive your relationships, your care
 
 **Dig deeper into individual leaders:**
 
-- [Donald Trump's full personality breakdown](/personality-analysis/Donald-Trump)
-- [Vladimir Putin's full personality breakdown](/personality-analysis/Vladimir-Putin)
-- [Joe Biden's personality (Trump's counterpoint)](/personality-analysis/Joe-Biden)
+- [Donald Trump's full personality breakdown](/personality-analysis/donald-trump)
+- [Vladimir Putin's full personality breakdown](/personality-analysis/vladimir-putin)
+- [Joe Biden's personality (Trump's counterpoint)](/personality-analysis/joe-biden)
 
 **Understand the types:**
 

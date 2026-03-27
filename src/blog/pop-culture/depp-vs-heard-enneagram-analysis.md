@@ -148,7 +148,7 @@ This is the story of a Type 4 and a Type 3 who found in each other exactly what 
 
 ## The Personality Collision at a Glance
 
-| Dimension                 | [Johnny Depp](/personality-analysis/Johnny-Depp) — Type 4 | [Amber Heard](/personality-analysis/Amber-Heard) — Type 3 |
+| Dimension                 | [Johnny Depp](/personality-analysis/johnny-depp) — Type 4 | [Amber Heard](/personality-analysis/amber-heard) — Type 3 |
 | ------------------------- | --------------------------------------------------------- | --------------------------------------------------------- |
 | **Core Fear**             | Being ordinary / having no identity                       | Being worthless / failing                                 |
 | **Core Need**             | To be seen for who he really is                           | To be valued for what she achieves                        |
@@ -494,10 +494,40 @@ The same personality machinery that drove Depp and Heard drives your own relatio
 
 **Go deeper:**
 
-- [Johnny Depp's full personality analysis](/personality-analysis/Johnny-Depp)
-- [Amber Heard's full personality analysis](/personality-analysis/Amber-Heard)
+- [Johnny Depp's full personality analysis](/personality-analysis/johnny-depp)
+- [Amber Heard's full personality analysis](/personality-analysis/amber-heard)
 - [All about Type 4 — The Individualist](/enneagram-corner/enneagram-type-4)
 - [All about Type 3 — The Achiever](/enneagram-corner/enneagram-type-3)
 - [Trump vs Biden: Type 8 vs Type 2](/pop-culture/trump-type-8-vs-biden-type-2)
 
 > **Disclaimer:** This analysis of Johnny Depp and Amber Heard's Enneagram types is speculative, based on publicly available information, and may not reflect their actual personality types. This article does not adjudicate abuse allegations or legal findings.
+
+<!-- READER REVIEW NOTES
+
+WHAT'S WORKING:
+- The opening hook is strong. "One hundred million people watched a marriage die on camera and picked a side within forty-eight hours" — that pulls you right in.
+- The comparison tables throughout are genuinely useful. The "Combustion Phase" table with the internal monologues ("She doesn't really feel things the way I do" / "He's drowning in his emotions instead of doing something") is the best part of the article. That's where the Enneagram framework earns its keep.
+- The "What Your Reaction Reveals About You" section is the most original angle here. Most Depp-Heard takes are about them. This one turns the mirror on the reader. That's the differentiator.
+- The post-trial section is underrated — the contrast between Depp retreating into art and Heard relocating to Spain is clean and concrete.
+
+WHAT COULD BE EXPANDED:
+- The "Substances in the Room" section feels underdeveloped compared to everything else. You set up an interesting idea (Four-flavored numbing vs Three-flavored social use) but don't go deep enough. How did substance use specifically escalate the 4-3 dynamic? There's a whole article hiding in that section and right now it's just a sketch.
+- The piece is almost entirely sympathetic to Depp and analytical about Heard. I get why — the Type 4 framework naturally generates more emotional resonance in writing — but it would be stronger if you gave Heard a moment of genuine humanity that isn't immediately reframed through the Type 3 lens. Even one paragraph where she's just a person, not a type. The "strived" analysis of her motherhood quote feels like you're reaching.
+- You mention the age gap and power imbalance in one line ("Add the age gap, the power imbalance") but never unpack it. That's a significant factor that your personality framework should be able to address — how does a 4-3 dynamic change when there's a 23-year age gap and a massive fame differential? That deserves at least a paragraph.
+
+WHAT FEELS OVERDONE / COULD BE TRIMMED:
+- The Winona Ryder / Vanessa Paradis history is fine for context but runs a little long. You could cut the Burton quote about Winona taking Johnny's soul without losing anything — you've already made the point about Fours losing themselves in partners.
+- The "Trial as Personality Theater" section and the "Meme-ification" section overlap significantly. Both are making the same argument: Depp's messiness read as authentic, Heard's polish read as fake. You could merge these into one tighter section. Right now you're saying the same thing twice with different examples.
+- The FAQ/structured data at the top is long. Not a content issue per se but it's a lot of scroll before the article starts for anyone looking at the raw markdown.
+
+THINGS I WANTED TO KNOW THAT WEREN'T ADDRESSED:
+- What about the lawyers? Camille Vasquez became a celebrity during this trial. Did her personality type play into why she was effective against Heard specifically? Feels like a missed opportunity.
+- You don't mention the role of social media bots/paid campaigns at all. There's been reporting that some of the anti-Heard sentiment was artificially amplified. That complicates the "personality Rorschach" thesis — were people responding to their own wiring or to a manufactured narrative? At least acknowledging this would make the piece feel more honest.
+- The "Types Who Felt Torn" section only lists Type 7 and gives them one line. That feels incomplete. Were there really no other types who were conflicted? What about Type 4s who recognized their own dark text energy and felt uncomfortable siding with Depp because of it?
+
+TONE NOTE:
+- The piece does a good job of trying to be balanced but ultimately reads as more sympathetic to Depp. That might be intentional (the audience skews that way anyway) but if the goal is to be the "personality psychology" take rather than the "Team Johnny" take, you might want to audit the emotional temperature. Count the number of times Depp gets described with warm/authentic language vs how many times Heard gets described with clinical/analytical language. The asymmetry is noticeable.
+
+OVERALL: This is one of the stronger pop-culture Enneagram pieces. The framework genuinely adds something to the conversation rather than just being a coat of paint on a standard take. The main issue is structural — some sections repeat each other and the piece could be 15-20% shorter without losing impact. The "your reaction reveals your type" angle is the unique selling point and could honestly be expanded.
+
+-->

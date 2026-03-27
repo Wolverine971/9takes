@@ -53,18 +53,18 @@ This is a map of that engine—across 12 of the biggest podcasters working today
 
 | Podcaster                                                  | Enneagram Type        | Podcast                  | Topic Gravity                      | Interview Style             |
 | ---------------------------------------------------------- | --------------------- | ------------------------ | ---------------------------------- | --------------------------- |
-| [Joe Rogan](/personality-analysis/Joe-Rogan)               | Type 8 — Challenger   | The Joe Rogan Experience | Power, combat, who's real          | Pressure test               |
-| [Dave Portnoy](/personality-analysis/Dave-Portnoy)         | Type 8 — Challenger   | BFFs / Barstool          | Sports, business, dominance        | Confrontation               |
-| [Sam Parr](/personality-analysis/Sam-Parr)                 | Type 8 — Challenger   | My First Million         | Business, deals, survival          | Brute-force honesty         |
-| [Lex Fridman](/personality-analysis/Lex-Fridman)           | Type 5 — Investigator | Lex Fridman Podcast      | Truth, meaning, consciousness      | Philosophical excavation    |
-| [Shawn Ryan](/personality-analysis/Shawn-Ryan)             | Type 5 — Investigator | Shawn Ryan Show          | Military, intelligence, survival   | Silent observation          |
-| [Alex Cooper](/personality-analysis/Alex-Cooper)           | Type 7 — Enthusiast   | Call Her Daddy           | Sex, relationships, drama          | Chaotic energy              |
-| [Theo Von](/personality-analysis/Theo-Von)                 | Type 7 — Enthusiast   | This Past Weekend        | Trauma, absurdity, life            | Storytelling riff           |
-| [Dax Shepard](/personality-analysis/Dax-Shepard)           | Type 7 — Enthusiast   | Armchair Expert          | Vulnerability, psychology, honesty | Confessional                |
-| [Brittany Broski](/personality-analysis/Brittany-Broski)   | Type 7 — Enthusiast   | Broski Nation            | Obsessions, culture, chaos         | Enthusiasm tornado          |
-| [Shaan Puri](/personality-analysis/Shaan-Puri)             | Type 7 — Enthusiast   | My First Million         | Ideas, trends, what's next         | Riff machine                |
-| [Chris Williamson](/personality-analysis/Chris-Williamson) | Type 3 — Achiever     | Modern Wisdom            | Self-improvement, optimization     | Benchmark interview         |
-| [Howard Stern](/personality-analysis/Howard-Stern)         | Type 6 — Loyalist     | The Howard Stern Show    | Fear, taboo, power dynamics        | Counterphobic interrogation |
+| [Joe Rogan](/personality-analysis/joe-rogan)               | Type 8 — Challenger   | The Joe Rogan Experience | Power, combat, who's real          | Pressure test               |
+| [Dave Portnoy](/personality-analysis/dave-portnoy)         | Type 8 — Challenger   | BFFs / Barstool          | Sports, business, dominance        | Confrontation               |
+| [Sam Parr](/personality-analysis/sam-parr)                 | Type 8 — Challenger   | My First Million         | Business, deals, survival          | Brute-force honesty         |
+| [Lex Fridman](/personality-analysis/lex-fridman)           | Type 5 — Investigator | Lex Fridman Podcast      | Truth, meaning, consciousness      | Philosophical excavation    |
+| [Shawn Ryan](/personality-analysis/shawn-ryan)             | Type 5 — Investigator | Shawn Ryan Show          | Military, intelligence, survival   | Silent observation          |
+| [Alex Cooper](/personality-analysis/alex-cooper)           | Type 7 — Enthusiast   | Call Her Daddy           | Sex, relationships, drama          | Chaotic energy              |
+| [Theo Von](/personality-analysis/theo-von)                 | Type 7 — Enthusiast   | This Past Weekend        | Trauma, absurdity, life            | Storytelling riff           |
+| [Dax Shepard](/personality-analysis/dax-shepard)           | Type 7 — Enthusiast   | Armchair Expert          | Vulnerability, psychology, honesty | Confessional                |
+| [Brittany Broski](/personality-analysis/brittany-broski)   | Type 7 — Enthusiast   | Broski Nation            | Obsessions, culture, chaos         | Enthusiasm tornado          |
+| [Shaan Puri](/personality-analysis/shaan-puri)             | Type 7 — Enthusiast   | My First Million         | Ideas, trends, what's next         | Riff machine                |
+| [Chris Williamson](/personality-analysis/chris-williamson) | Type 3 — Achiever     | Modern Wisdom            | Self-improvement, optimization     | Benchmark interview         |
+| [Howard Stern](/personality-analysis/howard-stern)         | Type 6 — Loyalist     | The Howard Stern Show    | Fear, taboo, power dynamics        | Counterphobic interrogation |
 
 Look at the distribution. Five Type 7s. Three Type 8s. Two Type 5s. One Type 3. One Type 6. No Type 1s, 2s, 4s, or 9s in the top tier. That's not an accident. It's a pattern that tells us something fundamental about what podcasting _is_ as a medium—and who it selects for.
 
@@ -231,13 +231,13 @@ The podcast you skip to first on Monday morning? That's your type's comfort food
 
 Here's the ghost in the data: Type 1s, 2s, 4s, and 9s are almost completely absent from the top of the podcasting landscape. That absence is revealing.
 
-**Type 1s (The Perfectionists)** struggle with the unstructured format. A podcast is messy. You can't edit a live riff. You can't footnote a spontaneous take. 1s need to be _correct_, and podcasting rewards being _interesting_. [Krystal Ball](/personality-analysis/Krystal-Ball) is the exception—but notice that Breaking Points has more structure than any other show on this list.
+**Type 1s (The Perfectionists)** struggle with the unstructured format. A podcast is messy. You can't edit a live riff. You can't footnote a spontaneous take. 1s need to be _correct_, and podcasting rewards being _interesting_. [Krystal Ball](/personality-analysis/krystal-ball) is the exception—but notice that Breaking Points has more structure than any other show on this list.
 
 **Type 2s (The Helpers)** tend to put others first. They make incredible producers, editors, therapists, and behind-the-scenes operators. But a podcast requires you to be the center of attention for hours, and 2s are uncomfortable claiming that space for themselves. Oprah may be the closest thing to a Type 2 mega-podcaster—and her format is built around elevating _other_ people's stories.
 
 **Type 4s (The Individualists)** want to be unique and authentic, but the content machine of weekly episodes can feel like factory work to a 4. They'd rather release one perfect thing per year than fifty decent things. 4s become artists, musicians, writers—mediums where they control every detail. Podcasting's publish-or-perish pace doesn't match their rhythm.
 
-**Type 9s (The Peacemakers)** avoid conflict, and podcasting increasingly rewards taking a strong position. 9s also struggle with the self-promotion required to build an audience. They're the type most likely to have great insights and never share them publicly. Notice that several top comedians are 9s ([Dave Chappelle](/personality-analysis/Dave-Chappelle), [Shane Gillis](/personality-analysis/Shane-Gillis))—standup gives them a format where "just being themselves" IS the product. But hosting a podcast requires more initiative than a 9 typically musters.
+**Type 9s (The Peacemakers)** avoid conflict, and podcasting increasingly rewards taking a strong position. 9s also struggle with the self-promotion required to build an audience. They're the type most likely to have great insights and never share them publicly. Notice that several top comedians are 9s ([Dave Chappelle](/personality-analysis/dave-chappelle), [Shane Gillis](/personality-analysis/shane-gillis))—standup gives them a format where "just being themselves" IS the product. But hosting a podcast requires more initiative than a 9 typically musters.
 
 The absence isn't about capability. It's about fit. Podcasting as a medium selects for assertiveness (8s), intellectual hunger (5s), restless energy (7s), and performance instinct (3s). If you don't have those traits dialed up, you can still podcast—but the algorithm and the audience will find someone who does.
 
