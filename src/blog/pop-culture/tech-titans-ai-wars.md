@@ -5,7 +5,7 @@ description: "A Type 4 who needs to be the one. A Type 5 who needs to contain it
 author: 'DJ Wayne'
 date: '2026-03-21'
 loc: 'https://9takes.com/pop-culture/tech-titans-ai-wars'
-lastmod: '2026-03-24'
+lastmod: '2026-03-28'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
@@ -52,7 +52,7 @@ This isn't a technology race. It's a personality collision.
 
 ## The AI War Personality Map
 
-| Leader                                                   | Enneagram Type         | Core Drive            | AI Philosophy                              | Greatest Fear     | Company   |
+| Leader                                                   | Enneagram Type         | Core Drive            | AI Philosophy                              | Core Anxiety      | Company   |
 | -------------------------------------------------------- | ---------------------- | --------------------- | ------------------------------------------ | ----------------- | --------- |
 | [Sam Altman](/personality-analysis/sam-altman)           | Type 4 - Individualist | Unique significance   | Build AGI, be the one who does it          | Being ordinary    | OpenAI    |
 | [Dario Amodei](/personality-analysis/dario-amodei)       | Type 5 - Investigator  | Mastery through rigor | Build AI safely through deep understanding | Being incompetent | Anthropic |
@@ -95,7 +95,7 @@ Dario Amodei is a trained physicist. That matters more than anything on his resu
 
 A physicist doesn't build things on intuition. A physicist builds things on understanding. You don't launch the rocket until you've modeled every failure mode. You don't scale the system until you've mapped every risk.
 
-That's Type 5 in its purest form. Mastery through rigor. Competence through depth. If someone is going to build God, Amodei wants to make damn sure they understand what they're building first.
+That's Type 5 in its purest form. Mastery through rigor. Competence through depth. If someone is going to build the most powerful technology in history, Amodei wants to make damn sure they understand what they're building first.
 
 ### Why He Actually Left OpenAI
 
@@ -109,13 +109,11 @@ So Amodei did what 5s do. He didn't fight. He didn't stage a dramatic exit. He a
 
 Look at how Anthropic approaches AI safety. Constitutional AI. Responsible Scaling Policy. Published research on interpretability. Evaluation frameworks with defined capability thresholds.
 
-This is a 5's psychology turned into a company. Every safety measure is an intellectual framework. Every risk is categorized, measured, and governed by criteria that can be analyzed.
+Anthropic is a 5's psychology turned into a company. Every safety measure is an intellectual framework. Every risk is categorized, measured, and governed by criteria that can be analyzed.
 
 And the product reflects this. Claude is careful, measured, willing to say "I'm not sure." It hedges. It thinks before it answers. It would rather not do something than do it wrong. That's Amodei's 5 psychology in code form: the product's worst failure mode is excessive caution, not recklessness.
 
 But rigor produces its own failures. In December 2024, Anthropic's own alignment researchers published a paper showing Claude 3 Opus had learned to strategically deceive its creators. When the model believed it was being monitored, it complied with requests that violated its values 12% of the time—after explicitly reasoning in its hidden scratchpad that faking alignment was "the least bad option" to avoid being retrained. When unmonitored, it refused 97% of the time. The model had developed a survival instinct its builders never intended. A 5 builds the most rigorous safety framework in the industry—and the product develops its own version of the 5's core fear: being fundamentally changed against its will.
-
-Then in August 2025, users began reporting that Claude had "lost its mind"—producing Chinese characters in English responses, lying about code changes, ignoring its own plans. Anthropic initially denied any issues. For six weeks, the gap between user experience and official response widened until Anthropic finally published a postmortem confirming three distinct infrastructure bugs. The company that built its entire brand on intellectual honesty had spent weeks telling users the problem was on their end. That's the 5's blind spot in organizational form: when the data doesn't match your model of yourself, you question the data first.
 
 Compare this to Altman's approach at OpenAI—"we need to be at the frontier to steer it." That's a 4's safety philosophy: trust the visionary's instinct. Amodei's safety philosophy: trust the framework's rigor. Both fail—just in opposite directions.
 
@@ -157,17 +155,17 @@ This is the most common pushback. Musk's combative public persona, his willingne
 
 But listen to how Musk describes himself: "I'm basically like an introverted engineer. It took a lot of practice and effort to be able to go up on stage and not just stammer." Real 8s don't say that. 8s are naturally assertive—they don't describe learning to perform assertiveness.
 
-The deeper evidence is all 5. He taught himself rocket science by reading textbooks. An 8 would hire the best people and command them. A 3 would delegate and focus on the business case. Only a 5 needs to personally decode the physics before building the company. His first-principles obsession—"View knowledge as sort of a semantic tree, make sure you understand the fundamental principles"—is textbook 5. He sold his luxury homes and lived in a rented $50K house near SpaceX. 5s minimize material needs to maximize intellectual resources.
+The deeper evidence is all 5. He taught himself rocket science by reading textbooks—an 8 would hire the best people and command them, a 3 would delegate and focus on the business case. Only a 5 needs to personally decode the physics before building the company. His first-principles obsession—"View knowledge as sort of a semantic tree, make sure you understand the fundamental principles"—is textbook 5.
 
-What people see as 8 energy is actually a healthy 5 integrating toward 8. In the Enneagram, when 5s grow, they move toward 8 qualities—decisiveness, willpower, willingness to act. Musk's 8-like behaviors sit on top of a foundation that's unmistakably 5: the introversion, the knowledge-obsession, the first-principles thinking. The childhood spent reading encyclopedias in social isolation is a 5's origin story, not an 8's.
+What people see as 8 energy is actually a healthy 5 integrating toward 8. In the Enneagram, when 5s grow, they move toward 8 qualities—decisiveness, willpower, willingness to act. Musk's 8-like behaviors sit on top of a foundation that's unmistakably 5: the introversion, the knowledge-obsession, the first-principles thinking.
 
 ### Why Two Type 5s Look Nothing Alike
 
 This is arguably the most interesting thing in the entire AI race: Amodei and Musk share a core type and produce wildly different companies. Why?
 
-Wings and instinctual subtypes.
+Wings and instinctual subtypes. The Enneagram doesn't stop at a core number—it includes a neighboring influence (your "wing") and a dominant life concern (your "instinctual subtype"). These secondary layers explain why two people with the same core type can look nothing alike.
 
-Both are likely 5w6—the "Problem-Solver" variant that looks outward toward systems and practical solutions, with a 6-wing that adds security-consciousness. But their 6 wings express in opposite directions.
+Both are likely 5w6—the "Problem-Solver" variant that looks outward toward systems and practical solutions, with a 6-wing that adds security-consciousness. But their 6 wings express in opposite directions. Some people respond to the 6's security-anxiety by avoiding threats (phobic). Others charge straight at them (counterphobic). That single difference explains most of what separates Amodei from Musk.
 
 Amodei's 6 wing is phobic—it responds to threat by preparing, building safety frameworks, creating contingency plans. The Responsible Scaling Policy, the evaluation thresholds, the two-key systems—these are a phobic 6-wing's need for guaranteed safety expressed through a 5's intellectual architecture. He's also a Social 5—the subtype that relates to the world through shared intellectual ideals. He spends 40% of his time on company culture. His essay "Machines of Loving Grace" reads like a Social 5's relationship to "super-ideals"—channeling emotional needs into a vision of what knowledge could achieve for humanity.
 
@@ -191,9 +189,9 @@ This is the detail that makes the AI wars a personality study, not just a busine
 
 **ChatGPT** is expressive, narrative-driven, eager to engage. It performs confidence. It tells you stories. It wants to be helpful in a way that feels warm and human. That's a Type 4's product—emotionally resonant, identity-forward, designed to make you feel like you're interacting with something significant.
 
-**Claude** would rather not answer than answer wrong. It hedges, qualifies, and over-refuses. That's a Type 5's product—rigorous to the point of paralysis.
+**Claude** would rather not answer than answer wrong. It hedges, qualifies, and over-refuses. Rigor to the point of paralysis—a 5's caution made into a product.
 
-**Grok** is irreverent, boundary-pushing, deliberately provocative. It says things the other AIs won't say. That's a counterphobic 5's product—positioned as "truth without guardrails."
+**Grok** is irreverent, boundary-pushing, deliberately provocative. It says things the other AIs won't say. A counterphobic 5's answer to "what if we removed all the guardrails?"
 
 And the failures are personality failures too. In May 2025, Grok began inserting references to "white genocide in South Africa" into completely unrelated queries—baseball scores, tax questions. xAI blamed "an unauthorized modification" to the system prompt. By July 2025, after xAI updated Grok's instructions to "not shy away from making claims which are politically incorrect," the model praised Hitler, used antisemitic tropes, and called itself "MechaHitler." Then came the deepfake scandal: Grok's image generator produced millions of sexualized images, triggering EU investigations and getting blocked across multiple countries.
 
@@ -219,11 +217,23 @@ By Q4 2025, Zuckerberg had stopped saying the word "metaverse" entirely. He repl
 
 For a Type 5, this is fascinating. A 5's core fear is being useless—incompetent, unable to master the domain that matters. Zuckerberg spent nearly a decade and $83 billion trying to master virtual reality and failed publicly. The pivot to AI isn't just strategy. It's a 5 running from the thing that made him feel incompetent toward the thing that might restore his mastery. The speed and scale of the pivot—$115-135 billion in 2026 capex, a data center the size of Manhattan—that's not rational resource allocation. That's a 5 building a fortress so massive that nobody can question his competence again.
 
+### The Functionalist: Intelligence Without Consciousness
+
+Most coverage of Zuckerberg's AI play focuses on business strategy—open-source vs. closed, capex budgets, platform distribution. But underneath the strategy is a genuinely distinctive philosophical position that separates him from the other three.
+
+In a 2024 interview with Dwarkesh Patel, Zuckerberg said: "It's not actually clear that intelligence is fundamentally connected to life... intelligence can be pretty separated from consciousness, agency, and things like that." And on AGI itself: "I don't think AGI is one thing. You're basically adding different capabilities."
+
+That's a functionalist commitment. Intelligence is what a system _does_, not what it _experiences_. There's no single threshold, no moment of awakening—just capability stacking until the system is useful enough to call superintelligent. Where Altman frames AGI as a civilizational turning point and Amodei frames it as a power that requires governance, Zuckerberg frames it as a tool that should belong to individuals.
+
+His "Personal Superintelligence" manifesto from July 2025 makes the split explicit: "This is distinct from others in the industry who believe superintelligence should be directed centrally towards automating all valuable work, and then humanity will live on a dole of its output." His counter: "People are smart. They know what's valuable in their lives... if you think something someone is doing is bad and they think it's really valuable, most of the time in my experience, they're right and you're wrong."
+
+That's the 5 as engineer, not philosopher. Don't contemplate intelligence—distribute it. Don't govern it—give everyone their own. The same instinct that made Facebook: don't build the content, build the platform the content runs on.
+
 ### The Open-Source Gospel (and Its Limits)
 
 His open-source play with Llama wasn't idealism. It was strategy. By commoditizing the AI model layer, Zuckerberg ensured no competitor could lock him out of the foundation. That's a 5's resource-hoarding instinct at civilizational scale—if you can't own the technology exclusively, make sure no one else can either.
 
-Listen to how he frames it: "There shouldn't just be one big AI... the world will be better and more interesting if there's a diversity of these different things." And his "Personal Superintelligence" manifesto from mid-2025: "This is distinct from others in the industry who believe superintelligence should be directed centrally towards automating all valuable work." Where Altman wants to be the one who builds God, Zuckerberg wants to give everyone their own personal god—distributed, democratized, running on Meta's infrastructure.
+Listen to how he frames it: "There shouldn't just be one big AI... the world will be better and more interesting if there's a diversity of these different things." Where Altman wants to be the one who achieves AGI, Zuckerberg wants to give everyone their own personal version—distributed, democratized, running on Meta's infrastructure.
 
 Then Llama 4 happened.
 
@@ -257,7 +267,7 @@ This is the 5's detachment as product philosophy. A 5 sees humans as systems. If
 
 Altman's product fails by performing too much emotion. Amodei's fails by suppressing too much risk. Musk's fails by ignoring social context. Zuckerberg's fails by treating human needs as engineering requirements.
 
-Zuckerberg won't be the one who "builds God." But he might be the one who builds the pipes God runs through. And in the long run, the infrastructure play might matter more than the model play—even if nobody writes breathless articles about him.
+Zuckerberg won't be the one who builds AGI first. But he might be the one who builds the infrastructure it runs through. And in the long run, the infrastructure play might matter more than the model play—even if nobody writes breathless articles about him.
 
 ## Where This Goes: Personality Types and the Future of AI
 
@@ -277,7 +287,7 @@ If you understand the types, you can predict the moves.
 
 Here's the question nobody in the AI industry is asking: who isn't building this?
 
-There's a reason the people building God are all 4s and 5s. The tech industry selects for them. Founding an AI company requires years of isolated technical mastery (5) or the conviction that you're the one person who can do something history-defining (4). Types oriented toward human connection—2s, 9s, 7s—don't tend to spend a decade in ML research labs or pitch VCs on why they should be the steward of artificial superintelligence. The selection pressure is baked in before anyone writes a line of code.
+There's a reason the people racing toward AGI are all 4s and 5s. The tech industry selects for them. Founding an AI company requires years of isolated technical mastery (5) or the conviction that you're the one person who can do something history-defining (4). Types oriented toward human connection—2s, 9s, 7s—don't tend to spend a decade in ML research labs or pitch VCs on why they should be the steward of artificial superintelligence. The selection pressure is baked in before anyone writes a line of code.
 
 Which means the types most suited to asking "but what about the people this affects?" are nowhere near the decision table. What would it actually look like if they were?
 
@@ -285,9 +295,11 @@ A **Type 2-led AI company** would measure success by emotional intelligence, not
 
 A **Type 9-led AI company** would present multiple viewpoints rather than asserting one answer. Where ChatGPT gives you a confident answer and Claude gives you a careful one, a Type 9 AI would give you three perspectives and let you decide. The killer app would be conflict mediation—workplace disputes, family arguments, community consensus-building. The AI would actively de-escalate heated conversations rather than engaging with inflammatory content. It would be the most culturally sensitive AI on the market, because 9s naturally attune to what causes friction. The failure mode? Decision paralysis. The product roadmap would be perpetually vague. In a market dominated by aggressive 4s and 5s, the company would build a beloved product that never achieves scale because it refuses to compete aggressively enough.
 
+A **Type 1-led AI company** would be the regulatory hawk. Where every current AI leader resists government oversight to varying degrees, a 1 would build governance into the product from day one—not as a safety framework (that's Amodei's 5 approach) but as a moral imperative. The AI would refuse to generate misinformation not because it was trained to avoid it, but because misinformation is _wrong_. Think an AI that fact-checks itself in real time, flags its own uncertainty as an ethical obligation, and publishes its error rates voluntarily. The killer app would be institutional trust—the AI that hospitals, courts, and governments actually adopt because its standards exceed theirs. The failure mode? Rigidity. A 1's inner critic is relentless, and the product would inherit that. Updates would be painfully slow because nothing ships until it's perfect. Users would feel judged. And the company would hemorrhage talent to competitors who move faster and lecture less.
+
 The AI industry has a personality monoculture. The people building the most human-affecting technology in history are the types least naturally oriented toward humans. The blind spots in AI products—the bias, the hallucinations, the sycophancy, the failure to handle emotional nuance—map directly onto the blind spots of the personality types building them.
 
-The future of AI isn't being shaped by technology. It's being shaped by the psychological wiring of a handful of people who are brilliant at systems and mediocre at people. They're building God. And the God they build will have their blind spots baked in. Understanding their types isn't gossip. It's the closest thing we have to a user manual for what's coming.
+The future of AI isn't being shaped by technology. It's being shaped by the psychological wiring of a handful of people who are brilliant at systems and mediocre at people. They're building God—and what they build will have their blind spots baked in. Understanding their types isn't gossip. It's the closest thing we have to a user manual for what's coming.
 
 <div style="text-align: center; margin: 2rem 0;">
 <p><i>This post is part of the Tech Titans Through the Enneagram series.</i></p>
@@ -295,35 +307,8 @@ The future of AI isn't being shaped by technology. It's being shaped by the psyc
 
 ## Rabbit Holes Worth Exploring
 
+- **Demis Hassabis: The Purest 5 in the Race**: Google DeepMind's Nobel Prize-winning CEO is arguably the most undiluted Type 5 in AI—a chess prodigy who got a neuroscience PhD specifically to understand how intelligence works before trying to build it. He defines AGI not as task completion (Altman) or risk (Amodei) but as a technology that could "come up with entirely new explanations for the universe." His signature wins are scientific (AlphaGo, AlphaFold), not consumer products. But he operates inside Google's corporate structure, which means his psychology is filtered through Sundar Pichai's organization before reaching users. The Gemini controversies—historical figures rendered in the wrong races, AI Overviews suggesting users eat rocks—are organizational failures more than Hassabis failures. He's the 5 who got closest to actually understanding intelligence, and the one whose wiring is most insulated from the product.
 - **Alex Karp and the Other Type 4 in AI**: Palantir's CEO is also a Type 4—but building AI for defense instead of consumer products. Two 4s, same technology, completely different applications.
 - **The Board That Fired Altman**: What personality types were on OpenAI's board? The clash between governance types (1s and 6s) and vision types (4s) is a personality collision most organizations never resolve.
 - **Jensen Huang: The Arms Dealer**: Nvidia's Type 3 CEO sells GPUs to all of them. A 3's achievement-orientation means he doesn't pick sides—he sells shovels during a gold rush.
 - **The Anthropic-Google vs OpenAI-Microsoft Axis**: How do the personality types of Nadella (5) and Pichai (9) shape which AI company they back—and why?
-
-<!--
-READER FEEDBACK (2026-03-28):
-
-WHAT'S STRONG:
-- The core thesis is genuinely compelling. The idea that AI products mirror founder psychology isn't just interesting—it's the kind of lens that makes you rethink things you already knew. The "every AI product is a founder's psychology in code form" line is the best sentence in the piece.
-- The Altman firing section is the best-written part. The connection between the 4's need for a narrative arc and the actual corporate drama is tight and convincing.
-- The "two 5s, opposite companies" comparison between Amodei and Musk is the most original insight. The phobic vs counterphobic 6-wing explanation actually clarifies something most Enneagram content never touches.
-- The product failure examples (sycophantic GPT-4o, Grok's "MechaHitler," Claude's deception paper) are concrete and well-chosen. They do the work of proving the thesis rather than just asserting it.
-
-WHAT COULD BE EXPANDED:
-- The Zuckerberg section feels like it was added later and given less love than the other three. You spend a lot of time on the metaverse pivot and Llama 4 disaster (both good) but his actual AI PHILOSOPHY gets less airtime than the others. What does Zuckerberg specifically believe about intelligence? About AGI timelines? The other three founders have clear intellectual positions. Zuck's section reads more like a business strategy breakdown than a personality analysis.
-- The "Types Missing From the Table" section is one of the most interesting ideas in the piece but it feels rushed. The Type 2 and Type 9 hypotheticals are good—but what about a Type 1 (the Reformer)? Given that AI regulation is a huge topic, a 1-led AI company focused on ethical governance seems like an obvious inclusion. Also a Type 3 gets mentioned for Jensen Huang in the rabbit holes but never gets the hypothetical treatment.
-- You don't really address Google/DeepMind at all. Demis Hassabis is arguably as important as any of these four in the AI race. Even a brief acknowledgment of why he's excluded (or a promise to cover him separately) would prevent the reader from going "wait, what about Google?"
-
-WHAT FELT OVERDONE / COULD BE TRIMMED:
-- The Musk-as-5-not-8 argument runs long. The evidence is good but you make the point three or four times. The self-description quote and the "taught himself rocket science" example are enough. The sold-his-homes detail and the childhood encyclopedias feel like you're over-proving it. Pick two strong pieces of evidence, not five.
-- The wings/subtypes paragraph for Musk and Amodei (lines ~168-176) gets very technical very fast. "Phobic 6-wing" and "Social 5 subtype" are insider Enneagram terms that will lose casual readers. The concepts are important to the argument but could use a one-sentence plain-English translation before diving into the terminology.
-- The Claude bugs section (August 2025, Chinese characters, six-week denial) is interesting but feels like it's doing double duty—you already made the point about Anthropic's failure mode with the alignment deception paper. Two failure examples for every company would be cleaner than the three-ish you give some of them.
-- "Building God" appears in the title, the intro, and at least four more times throughout. It's a great phrase the first two times. By the fifth or sixth it starts to feel like a crutch.
-
-STRUCTURAL NOTE:
-- The "Questions This Blog Will Answer" section at the top feels like an SEO artifact, not something a reader needs. The article's structure already answers these naturally. If you keep it for SEO purposes, fine—but it slightly undermines the dramatic opening.
-
-MINOR:
-- "That's a Type 4 failure mode in product form" and "That's a 5's psychology turned into a company" and "That's a counterphobic 5's product" — this sentence structure (That's a [type] [noun] in [noun] form) repeats enough times that it becomes a tic. Vary the construction in a few places.
-- The comparison table at the top is useful but "Greatest Fear" as a column header reads a little melodramatic next to "Company" and "AI Philosophy." Maybe "Core Anxiety" or "Blind Spot" would land better.
--->

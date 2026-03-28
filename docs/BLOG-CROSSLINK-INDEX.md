@@ -2,7 +2,7 @@
 # Blog Cross-Link Index
 
 _Generated: 2026-03-28_
-_Total Posts Analyzed: 171 (Published: 144, Unpublished: 27)_
+_Total Posts Analyzed: 173 (Published: 146, Unpublished: 27)_
 _Note: Individual type pages (enneagram-type-1 through 9) excluded from link counts_
 
 ---
@@ -11,18 +11,18 @@ _Note: Individual type pages (enneagram-type-1 through 9) excluded from link cou
 
 | Metric | Count |
 |--------|-------|
-| Total posts | 171 |
-| Published posts | 144 |
+| Total posts | 173 |
+| Published posts | 146 |
 | Unpublished posts | 27 |
-| Posts with 0 outgoing links | 31 |
-| Posts with 0 incoming links | 47 |
-| Completely isolated (0 in, 0 out) | 27 |
+| Posts with 0 outgoing links | 33 |
+| Posts with 0 incoming links | 49 |
+| Completely isolated (0 in, 0 out) | 29 |
 | Total internal cross-links | 874 |
 | Average outgoing links per post | 5.1 |
 
 ---
 
-## Priority 1: Completely Isolated Posts (27 posts)
+## Priority 1: Completely Isolated Posts (29 posts)
 
 These posts have NO links in or out. Fix these first!
 
@@ -54,11 +54,13 @@ These posts have NO links in or out. Fix these first!
 | Untitled | `pop-culture/epstien-research/epstien-politicians.md` | Add 3+ outgoing links |
 | Untitled | `pop-culture/epstien-research/epstien-uk.md` | Add 3+ outgoing links |
 | Untitled | `pop-culture/incel-exit-post.md` | Add 3+ outgoing links |
+| Untitled | `pop-culture/tech-titans-ai-wars-twitter.md` | Add 3+ outgoing links |
+| Untitled | `pop-culture/tech-titans-founders-vs-stewards-twitter.md` | Add 3+ outgoing links |
 | US Presidents by Enneagram Type: The Psychology of the Oval ... | `pop-culture/us-presidents-enneagram-analysis.md` | Add 3+ outgoing links |
 
 ---
 
-## Priority 2: Posts with NO Outgoing Links (31 posts)
+## Priority 2: Posts with NO Outgoing Links (33 posts)
 
 These posts don't link to any other content.
 
@@ -94,11 +96,13 @@ These posts don't link to any other content.
 | The Royal Family: Four Enneagram Types, One Fractured Dynast... | `pop-culture/royal-family-enneagram-analysis.md` | 0 |
 | Silicon Valley Power Players: The All-In Pod and the Psychol... | `pop-culture/silicon-valley-power-players-enneagram-analysis.md` | 0 |
 | Streaming Royalty: The Personality Types That Built Empires ... | `pop-culture/streaming-royalty-enneagram-analysis.md` | 0 |
+| Untitled | `pop-culture/tech-titans-ai-wars-twitter.md` | 0 |
+| Untitled | `pop-culture/tech-titans-founders-vs-stewards-twitter.md` | 0 |
 | US Presidents by Enneagram Type: The Psychology of the Oval ... | `pop-culture/us-presidents-enneagram-analysis.md` | 0 |
 
 ---
 
-## Priority 3: Posts with NO Incoming Links (47 posts)
+## Priority 3: Posts with NO Incoming Links (49 posts)
 
 These posts are "orphaned" - no other content links to them.
 
@@ -367,6 +371,8 @@ Sorted by total connections (incoming + outgoing).
 | 0 | 0 | 0 | The Royal Family: Four Enneagram Types, One Fractured Dynast... | `pop-culture/royal-family-enneagram-analysis.md` |
 | 0 | 0 | 0 | Silicon Valley Power Players: The All-In Pod and the Psychol... | `pop-culture/silicon-valley-power-players-enneagram-analysis.md` |
 | 0 | 0 | 0 | Streaming Royalty: The Personality Types That Built Empires ... | `pop-culture/streaming-royalty-enneagram-analysis.md` |
+| 0 | 0 | 0 | Untitled | `pop-culture/tech-titans-ai-wars-twitter.md` |
+| 0 | 0 | 0 | Untitled | `pop-culture/tech-titans-founders-vs-stewards-twitter.md` |
 | 0 | 0 | 0 | US Presidents by Enneagram Type: The Psychology of the Oval ... | `pop-culture/us-presidents-enneagram-analysis.md` |
 
 ---
