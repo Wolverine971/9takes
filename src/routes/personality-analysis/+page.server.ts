@@ -54,7 +54,7 @@ export const load: PageServerLoad = async ({ locals }) => {
 	const featuredSlugs = new Set(featured.map((p) => p.slug));
 	const recentlyUpdated = sortedByLastmod.filter((p) => !featuredSlugs.has(p.slug)).slice(0, 4);
 
-	return { people: uniqueObjects, featured, recentlyUpdated };
+	return { people: uniqueObjects, featured, recentlyUpdated, totalPeople: posts.length };
 };
 
 export const actions: Actions = {

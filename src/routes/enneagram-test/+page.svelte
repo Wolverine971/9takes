@@ -12,6 +12,7 @@
 	<meta http-equiv="refresh" content="0;url=/questions" />
 	<link rel="canonical" href="https://9takes.com/questions" />
 	<title>Enneagram Test - 9takes</title>
+	<meta name="robots" content="noindex, follow" />
 	<meta
 		name="description"
 		content="Take our personality-based assessment on 9takes to discover your Enneagram type through authentic questions and discussions."

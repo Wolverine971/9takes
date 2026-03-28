@@ -14,6 +14,8 @@
 	$: title = data?.meta_title || data?.title;
 	$: description = data?.description;
 	$: formattedTitle = title ? `${title}` : '9takes';
+	const robotsContent =
+		'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1';
 	let jsonLdString: string;
 	let breadcrumbJsonLd: string;
 	$: canonicalUrl = data?.loc || buildPersonalityAnalysisUrl(data?.person || data?.slug);
@@ -127,7 +129,11 @@
 <svelte:head>
 	<title>{formattedTitle}</title>
 	<link rel="canonical" href={canonicalUrl} />
+	<link rel="alternate" href={canonicalUrl} hreflang="en-US" />
+	<link rel="alternate" href={canonicalUrl} hreflang="x-default" />
 	<meta name="description" content={description || title} />
+	<meta name="robots" content={robotsContent} />
+	<meta name="author" content="DJ Wayne" />
 
 	<!-- Preload LCP image for faster paint -->
 	{#if shareImagePath}
@@ -140,8 +146,10 @@
 	<meta property="og:description" content={description} />
 	<meta property="og:type" content="article" />
 	<meta property="og:url" content={canonicalUrl} />
+	<meta property="og:locale" content="en_US" />
 	{#if shareImageUrl}
 		<meta property="og:image" content={shareImageUrl} />
+		<meta property="og:image:alt" content={personName} />
 	{/if}
 
 	<meta name="twitter:site" content="@9takesdotcom" />

@@ -32,26 +32,92 @@
 	const canonicalUrl = $derived(
 		`https://9takes.com/personality-analysis/categories/${data.category.slug}`
 	);
+
+	const seoTitle = $derived(`${data.category.label} Enneagram & Personality Types | 9takes`);
+
+	const seoDescription = $derived(
+		`${data.people.length} ${data.category.shortLabel.toLowerCase()} personality analyses decoded through the Enneagram. ${data.category.intro}`
+	);
+
 	const structuredData = $derived.by(() => ({
 		'@context': 'https://schema.org',
-		'@type': 'CollectionPage',
-		name: `${data.category.label} Personality Analysis | 9takes`,
-		description: data.category.intro,
-		url: canonicalUrl,
-		isPartOf: {
-			'@type': 'CollectionPage',
-			name: 'Personality Analysis Categories',
-			url: 'https://9takes.com/personality-analysis/categories'
-		},
-		mainEntity: {
-			'@type': 'ItemList',
-			itemListElement: data.people.slice(0, 24).map((person, index) => ({
-				'@type': 'ListItem',
-				position: index + 1,
-				name: person.name,
-				url: `https://9takes.com${buildPersonalityAnalysisPath(person.slug)}`
-			}))
-		}
+		'@graph': [
+			{
+				'@type': 'BreadcrumbList',
+				itemListElement: [
+					{
+						'@type': 'ListItem',
+						position: 1,
+						name: 'Home',
+						item: 'https://9takes.com'
+					},
+					{
+						'@type': 'ListItem',
+						position: 2,
+						name: 'Personality Analysis',
+						item: 'https://9takes.com/personality-analysis'
+					},
+					{
+						'@type': 'ListItem',
+						position: 3,
+						name: 'Categories',
+						item: 'https://9takes.com/personality-analysis/categories'
+					},
+					{
+						'@type': 'ListItem',
+						position: 4,
+						name: data.category.label
+					}
+				]
+			},
+			{
+				'@type': 'CollectionPage',
+				name: `${data.category.label} Personality Analysis`,
+				description: seoDescription,
+				url: canonicalUrl,
+				inLanguage: 'en-US',
+				...(data.latestUpdate ? { dateModified: data.latestUpdate } : {}),
+				isPartOf: {
+					'@type': 'CollectionPage',
+					name: 'Personality Analysis Categories',
+					url: 'https://9takes.com/personality-analysis/categories'
+				},
+				about: [
+					{
+						'@type': 'Thing',
+						name: 'Enneagram of Personality',
+						sameAs: 'https://en.wikipedia.org/wiki/Enneagram_of_Personality'
+					},
+					{
+						'@type': 'Thing',
+						name: data.category.label
+					}
+				],
+				publisher: {
+					'@type': 'Organization',
+					name: '9takes',
+					url: 'https://9takes.com',
+					logo: {
+						'@type': 'ImageObject',
+						url: 'https://9takes.com/brand/aero.png'
+					}
+				},
+				mainEntity: {
+					'@type': 'ItemList',
+					numberOfItems: data.people.length,
+					itemListOrder: 'https://schema.org/ItemListUnordered',
+					itemListElement: data.people.map((person, index) => ({
+						'@type': 'ListItem',
+						position: index + 1,
+						name: person.name,
+						url: `https://9takes.com${buildPersonalityAnalysisPath(person.slug)}`,
+						...(person.personaTitle || person.description
+							? { description: person.personaTitle ?? person.description }
+							: {})
+					}))
+				}
+			}
+		]
 	}));
 </script>
 
@@ -60,11 +126,12 @@
 </svelte:head>
 
 <SEOHead
-	title={`${data.category.label} Personality Analysis | 9takes`}
-	description={data.category.intro}
+	title={seoTitle}
+	description={seoDescription}
 	canonical={canonicalUrl}
 	twitterCardType="summary_large_image"
 	ogImage="https://9takes.com/personality-analysis-card.webp"
+	author="9takes"
 />
 
 <div
@@ -115,6 +182,27 @@
 				{/if}
 			</div>
 		</div>
+
+		{#if data.groups.length > 0}
+			<div class="cluster-nav">
+				<div class="cluster-nav-head">
+					<div>
+						<p class="section-kicker">Subcategories</p>
+						<h2>Jump to a Section</h2>
+					</div>
+					<p class="cluster-nav-copy">{data.category.groupingDescription}</p>
+				</div>
+
+				<div class="cluster-nav-grid">
+					{#each data.groups as group}
+						<a href={`#${group.slug}`} class="cluster-link">
+							<span>{group.label}</span>
+							<strong>{group.people.length}</strong>
+						</a>
+					{/each}
+				</div>
+			</div>
+		{/if}
 	</header>
 
 	<main class="content">
@@ -155,16 +243,16 @@
 		<section class="section">
 			<div class="section-head">
 				<div>
-					<p class="section-kicker">Library</p>
+					<p class="section-kicker">{data.groups.length > 0 ? 'Subcategories' : 'Library'}</p>
 					<h2>
 						{data.groups.length > 0
-							? `${data.category.shortLabel} Clusters`
+							? `${data.category.label} Subcategories`
 							: `All ${data.category.label}`}
 					</h2>
 				</div>
 				<p class="section-copy">
 					{#if data.groups.length > 0}
-						Grouped by the kind of creator pressure these personalities actually live inside.
+						{data.category.groupingDescription}
 					{:else}
 						Sorted by content quality first, then freshness.
 					{/if}
@@ -175,7 +263,7 @@
 				{#if data.groups.length > 0}
 					<div class="group-stack">
 						{#each data.groups as group}
-							<section class="group-card">
+							<section class="group-card" id={group.slug}>
 								<div class="group-head">
 									<div>
 										<p class="section-kicker">{group.people.length} profiles</p>
@@ -401,6 +489,68 @@
 	.distribution-card h2 {
 		font-size: 1.25rem;
 		margin-bottom: 0.9rem;
+	}
+
+	.cluster-nav {
+		margin-top: 1.25rem;
+		padding: 1.1rem;
+		border-radius: 1.15rem;
+		background: linear-gradient(180deg, rgba(15, 23, 42, 0.82) 0%, rgba(15, 23, 42, 0.94) 100%);
+		border: 1px solid rgba(148, 163, 184, 0.14);
+	}
+
+	.cluster-nav-head {
+		display: flex;
+		align-items: end;
+		justify-content: space-between;
+		gap: 1rem;
+		margin-bottom: 0.9rem;
+	}
+
+	.cluster-nav-copy {
+		max-width: 460px;
+		color: #cbd5e1;
+		text-align: right;
+		line-height: 1.6;
+	}
+
+	.cluster-nav-grid {
+		display: grid;
+		grid-template-columns: repeat(3, minmax(0, 1fr));
+		gap: 0.65rem;
+	}
+
+	.cluster-link {
+		display: inline-flex;
+		align-items: center;
+		justify-content: space-between;
+		gap: 0.75rem;
+		padding: 0.8rem 0.9rem;
+		border-radius: 0.9rem;
+		text-decoration: none;
+		background: rgba(9, 14, 26, 0.72);
+		border: 1px solid rgba(148, 163, 184, 0.14);
+		color: #e2e8f0;
+
+		&:hover {
+			border-color: var(--accent);
+			color: #fff;
+		}
+
+		span {
+			line-height: 1.35;
+		}
+
+		strong {
+			display: inline-flex;
+			align-items: center;
+			justify-content: center;
+			min-width: 2rem;
+			padding: 0.25rem 0.45rem;
+			border-radius: 999px;
+			background: rgba(15, 23, 42, 0.76);
+			font-size: 0.78rem;
+		}
 	}
 
 	.distribution-grid {
@@ -640,6 +790,7 @@
 
 	@media (max-width: 980px) {
 		.hero-grid,
+		.cluster-nav-grid,
 		.featured-grid,
 		.people-grid,
 		.related-grid {
@@ -659,6 +810,7 @@
 		}
 
 		.hero-grid,
+		.cluster-nav-grid,
 		.distribution-grid,
 		.featured-grid,
 		.people-grid,
@@ -671,11 +823,17 @@
 			align-items: start;
 		}
 
+		.cluster-nav-head {
+			flex-direction: column;
+			align-items: start;
+		}
+
 		.group-head {
 			grid-template-columns: 1fr;
 		}
 
-		.section-copy {
+		.section-copy,
+		.cluster-nav-copy {
 			text-align: left;
 		}
 

@@ -78,10 +78,17 @@
 		content="Take the 1-minute emotions experiment. List negative emotions and discover how they all trace back to three root emotions: anger, fear, and shame. Based on the Enneagram."
 	/>
 	<meta
+		name="robots"
+		content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+	/>
+	<meta
 		name="keywords"
 		content="emotions experiment, emotion analyzer, root emotions, anger fear shame, enneagram emotions, emotional intelligence, 9takes"
 	/>
 	<meta name="author" content="DJ Wayne" />
+	<link rel="canonical" href="https://9takes.com/blog/experiment" />
+	<link rel="alternate" href="https://9takes.com/blog/experiment" hreflang="en-US" />
+	<link rel="alternate" href="https://9takes.com/blog/experiment" hreflang="x-default" />
 	<meta property="og:title" content="Emotions Experiment | Map Your Feelings to 3 Root Emotions" />
 	<meta
 		property="og:description"
@@ -90,15 +97,18 @@
 	<meta property="og:type" content="website" />
 	<meta property="og:url" content="https://9takes.com/blog/experiment" />
 	<meta property="og:image" content="https://9takes.com/blogs/experiment.webp" />
+	<meta property="og:image:alt" content="Emotions experiment on 9takes" />
+	<meta property="og:locale" content="en_US" />
 	<meta name="twitter:card" content="summary_large_image" />
 	<meta name="twitter:site" content="@9takesdotcom" />
+	<meta name="twitter:creator" content="@djwayne3" />
 	<meta name="twitter:title" content="Emotions Experiment | Map Your Feelings to 3 Root Emotions" />
 	<meta
 		name="twitter:description"
 		content="List negative emotions for 60 seconds. Then see how every one maps to anger, fear, or shame."
 	/>
 	<meta name="twitter:image" content="https://9takes.com/blogs/experiment.webp" />
-	<link rel="canonical" href="https://9takes.com/blog/experiment" />
+	<meta name="twitter:image:alt" content="Emotions experiment on 9takes" />
 	<script type="application/ld+json">
 		{
 			"@context": "http://schema.org",

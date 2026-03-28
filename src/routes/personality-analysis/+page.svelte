@@ -41,98 +41,77 @@
 	const primaryCategories = PRIMARY_PERSONALITY_CATEGORY_SLUGS.map((slug) =>
 		getPersonalityCategoryBySlug(slug)
 	).filter((category): category is NonNullable<typeof category> => Boolean(category));
-</script>
 
-<svelte:head>
-	<script type="application/ld+json">
-		{
-			"@context": "https://schema.org",
-			"@type": "CollectionPage",
-			"mainEntity": {
-				"@type": "ItemList",
-				"itemListElement": [
+	const totalPeople = $derived(data.totalPeople);
+
+	const structuredData = $derived({
+		'@context': 'https://schema.org',
+		'@graph': [
+			{
+				'@type': 'BreadcrumbList',
+				itemListElement: [
 					{
-						"@type": "ListItem",
-						"position": 1,
-						"name": "Enneagram Type 1 Personalities",
-						"url": "https://9takes.com/personality-analysis/type/1"
+						'@type': 'ListItem',
+						position: 1,
+						name: 'Home',
+						item: 'https://9takes.com'
 					},
 					{
-						"@type": "ListItem",
-						"position": 2,
-						"name": "Enneagram Type 2 Personalities",
-						"url": "https://9takes.com/personality-analysis/type/2"
-					},
-					{
-						"@type": "ListItem",
-						"position": 3,
-						"name": "Enneagram Type 3 Personalities",
-						"url": "https://9takes.com/personality-analysis/type/3"
-					},
-					{
-						"@type": "ListItem",
-						"position": 4,
-						"name": "Enneagram Type 4 Personalities",
-						"url": "https://9takes.com/personality-analysis/type/4"
-					},
-					{
-						"@type": "ListItem",
-						"position": 5,
-						"name": "Enneagram Type 5 Personalities",
-						"url": "https://9takes.com/personality-analysis/type/5"
-					},
-					{
-						"@type": "ListItem",
-						"position": 6,
-						"name": "Enneagram Type 6 Personalities",
-						"url": "https://9takes.com/personality-analysis/type/6"
-					},
-					{
-						"@type": "ListItem",
-						"position": 7,
-						"name": "Enneagram Type 7 Personalities",
-						"url": "https://9takes.com/personality-analysis/type/7"
-					},
-					{
-						"@type": "ListItem",
-						"position": 8,
-						"name": "Enneagram Type 8 Personalities",
-						"url": "https://9takes.com/personality-analysis/type/8"
-					},
-					{
-						"@type": "ListItem",
-						"position": 9,
-						"name": "Enneagram Type 9 Personalities",
-						"url": "https://9takes.com/personality-analysis/type/9"
+						'@type': 'ListItem',
+						position: 2,
+						name: 'Personality Analysis'
 					}
 				]
 			},
-			"name": "Famous Personality Analysis | Character Studies",
-			"description": "In-depth Enneagram-based personality analyses of influential figures across music, film, politics, tech, and history.",
-			"url": "https://9takes.com/personality-analysis",
-			"author": {
-				"@type": "Organization",
-				"name": "9takes",
-				"url": "https://9takes.com"
+			{
+				'@type': 'CollectionPage',
+				name: 'Famous People Personality Analysis',
+				description: `Browse ${totalPeople} in-depth Enneagram personality analyses of celebrities, historical figures, and public personalities across music, film, politics, tech, and more.`,
+				url: 'https://9takes.com/personality-analysis',
+				inLanguage: 'en-US',
+				about: {
+					'@type': 'Thing',
+					name: 'Enneagram of Personality',
+					sameAs: 'https://en.wikipedia.org/wiki/Enneagram_of_Personality'
+				},
+				publisher: {
+					'@type': 'Organization',
+					name: '9takes',
+					url: 'https://9takes.com',
+					logo: {
+						'@type': 'ImageObject',
+						url: 'https://9takes.com/brand/aero.png'
+					},
+					sameAs: ['https://www.instagram.com/9takesdotcom/', 'https://twitter.com/9takesdotcom']
+				},
+				mainEntity: {
+					'@type': 'ItemList',
+					numberOfItems: 9,
+					itemListOrder: 'https://schema.org/ItemListOrderAscending',
+					itemListElement: Array.from({ length: 9 }, (_, i) => ({
+						'@type': 'ListItem',
+						position: i + 1,
+						name: `Enneagram Type ${i + 1} (${typeNames[i + 1].name}) Personalities`,
+						url: `https://9takes.com/personality-analysis/type/${i + 1}`,
+						description: typeNames[i + 1].tagline
+					}))
+				}
 			}
-		}
-	</script>
+		]
+	});
+</script>
+
+<svelte:head>
+	{@html `<script type="application/ld+json">${JSON.stringify(structuredData)}</script>`}
 </svelte:head>
 
 <SEOHead
 	title="Famous People Personality Analysis | Enneagram Character Studies | 9takes"
-	description="Explore in-depth Enneagram-based personality analyses of celebrities, historical figures, and influential people. Understand what drives the world's most fascinating personalities."
+	description={`Explore ${totalPeople} in-depth Enneagram personality analyses of celebrities, historical figures, and influential people. Browse by type or category to decode what drives the world's most fascinating personalities.`}
 	canonical="https://9takes.com/personality-analysis"
 	twitterCardType="summary_large_image"
 	ogImage="https://9takes.com/personality-analysis-card.webp"
-	additionalMeta={[
-		{
-			name: 'keywords',
-			content:
-				'celebrity personality types, famous enneagram types, personality analysis, character studies, celebrity psychology'
-		},
-		{ name: 'author', content: '9takes' }
-	]}
+	author="9takes"
 />
 
 <div class="page-wrapper">

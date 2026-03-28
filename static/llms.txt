@@ -12,6 +12,7 @@
 ## Key sections
 
 - Home: https://9takes.com/
+- Full index: https://9takes.com/llms-full.txt
 - Enneagram Corner: https://9takes.com/enneagram-corner
 - Personality Analysis: https://9takes.com/personality-analysis
 - Personality Analysis Categories: https://9takes.com/personality-analysis/categories

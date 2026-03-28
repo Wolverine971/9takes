@@ -80,7 +80,14 @@
 <svelte:head>
 	<title>{pageTitle}</title>
 	<meta name="description" content={pageDescription} />
+	<meta
+		name="robots"
+		content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+	/>
+	<meta name="author" content="DJ Wayne" />
 	<link rel="canonical" href={canonicalUrl} />
+	<link rel="alternate" href={canonicalUrl} hreflang="en-US" />
+	<link rel="alternate" href={canonicalUrl} hreflang="x-default" />
 	<meta property="og:type" content="website" />
 	<meta property="og:url" content={canonicalUrl} />
 	<meta property="og:site_name" content="9takes" />

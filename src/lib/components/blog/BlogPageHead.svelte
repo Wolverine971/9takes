@@ -13,6 +13,9 @@
 	const defaultShareImage = 'https://9takes.com/brand/aero.png';
 	const shareImage = data?.pic ? `https://9takes.com/blogs/${data.pic}.webp` : defaultShareImage;
 	const shareImageAlt = data?.pic ? data.pic.split('-').join(' ') : title || '9takes';
+	const robotsContent =
+		'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1';
+	$: canonicalUrl = `https://9takes.com/${slug}`;
 
 	// Detect blog section from slug
 	function getArticleSection(s: string): string {
@@ -61,7 +64,7 @@
 	const breadcrumbItems = [
 		{ name: 'Home', url: 'https://9takes.com/' },
 		{ name: articleSection, url: `https://9takes.com/${sectionRoute}` },
-		{ name: title, url: `https://9takes.com/${slug}` }
+		{ name: title, url: canonicalUrl }
 	];
 
 	const jsonldObj = {
@@ -69,13 +72,13 @@
 		'@graph': [
 			{
 				'@type': 'BlogPosting',
-				'@id': `https://9takes.com/${slug}#article`,
+				'@id': `${canonicalUrl}#article`,
 				headline: title,
 				name: title,
-				url: `https://9takes.com/${slug}`,
+				url: canonicalUrl,
 				mainEntityOfPage: {
 					'@type': 'WebPage',
-					'@id': `https://9takes.com/${slug}`
+					'@id': canonicalUrl
 				},
 				author: {
 					'@type': 'Person',
@@ -129,24 +132,30 @@
 
 <svelte:head>
 	<title>{formattedTitle}</title>
-	<link rel="canonical" href={`https://9takes.com/${slug}`} />
+	<link rel="canonical" href={canonicalUrl} />
+	<link rel="alternate" href={canonicalUrl} hreflang="en-US" />
+	<link rel="alternate" href={canonicalUrl} hreflang="x-default" />
 	<meta name="description" content={description || title} />
+	<meta name="robots" content={robotsContent} />
+	<meta name="author" content="DJ Wayne" />
 
 	<meta property="og:site_name" content="9takes" />
 	<meta property="og:title" content={title} />
 	<meta property="og:description" content={data.description} />
 	<meta property="og:type" content="article" />
-	<meta property="og:url" content={`https://9takes.com/${slug}`} />
+	<meta property="og:url" content={canonicalUrl} />
 	<meta property="og:image" content={shareImage} />
 	<meta property="og:image:width" content="900" />
 	<meta property="og:image:height" content="900" />
+	<meta property="og:image:alt" content={shareImageAlt} />
+	<meta property="og:locale" content="en_US" />
 
 	<meta name="twitter:site" content="@9takesdotcom" />
 	<meta name="twitter:description" content={description || title} />
 	<meta name="twitter:card" content="summary" />
 	<meta name="twitter:creator" content="@djwayne3" />
 	<meta name="twitter:title" content={title} />
-	<meta name="twitter:url" content={`https://9takes.com/${slug}`} />
+	<meta name="twitter:url" content={canonicalUrl} />
 	<meta name="twitter:image" content={shareImage} />
 	<meta name="twitter:image:alt" content={shareImageAlt} />
 	<meta property="article:author" content="DJ Wayne" />

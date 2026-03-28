@@ -14,10 +14,14 @@
 	export let noindex = false;
 	export let author = 'DJ Wayne';
 	export let twitterImageAlt = '';
+	export let locale = 'en_US';
 
 	const TITLE_SUFFIX = ' - 9takes';
 	$: computedTwitterImageAlt =
 		twitterImageAlt || (title ? `9takes - ${title.replace(TITLE_SUFFIX, '')}` : '9takes');
+	$: robotsContent = noindex
+		? 'noindex, nofollow'
+		: 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1';
 </script>
 
 <svelte:head>
@@ -25,11 +29,10 @@
 	<meta name="description" content={description} />
 	{#if canonical}
 		<link rel="canonical" href={canonical} />
+		<link rel="alternate" href={canonical} hreflang="en-US" />
+		<link rel="alternate" href={canonical} hreflang="x-default" />
 	{/if}
-
-	{#if noindex}
-		<meta name="robots" content="noindex, nofollow" />
-	{/if}
+	<meta name="robots" content={robotsContent} />
 
 	{#if author}
 		<meta name="author" content={author} />
@@ -46,7 +49,8 @@
 	<meta property="og:image" content={ogImage} />
 	<meta property="og:image:width" content="1200" />
 	<meta property="og:image:height" content="628" />
-	<meta property="og:locale" content="en_US" />
+	<meta property="og:image:alt" content={computedTwitterImageAlt} />
+	<meta property="og:locale" content={locale} />
 
 	<!-- Twitter Card -->
 	<meta name="twitter:card" content={twitterCardType} />

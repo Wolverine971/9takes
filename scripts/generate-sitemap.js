@@ -1,11 +1,8 @@
-// scripts/generate-sitemap.js
-
 import fs from 'fs/promises';
 import path from 'path';
-import { fileURLToPath, pathToFileURL } from 'url';
+import { fileURLToPath } from 'url';
 import { createClient } from '@supabase/supabase-js';
 import pkg from 'fast-glob';
-const { glob } = pkg;
 import dotenv from 'dotenv';
 import {
 	buildPersonalityImagePath,
@@ -13,21 +10,91 @@ import {
 	normalizePersonalitySlug
 } from './lib/personalitySeo.js';
 
-// Load environment variables
+const { glob } = pkg;
+
 dotenv.config();
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
+const SITE_URL = 'https://9takes.com';
+const TODAY = new Date().toISOString().slice(0, 10);
 
 const SUPABASE_URL = process.env.PUBLIC_SUPABASE_URL;
 const SUPABASE_ANON_KEY = process.env.PUBLIC_SUPABASE_PUBLISHABLE_KEY;
 
 if (!SUPABASE_URL || !SUPABASE_ANON_KEY) {
-	console.error('❌ Missing Supabase environment variables');
+	console.error('Missing Supabase environment variables');
 	process.exit(1);
 }
 
 const supabase = createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
+
+const STATIC_PAGES = [
+	{ loc: `${SITE_URL}`, lastmod: TODAY },
+	{ loc: `${SITE_URL}/blog`, lastmod: TODAY },
+	{ loc: `${SITE_URL}/about`, lastmod: TODAY },
+	{ loc: `${SITE_URL}/book-session`, lastmod: '2025-05-22' },
+	{ loc: `${SITE_URL}/community`, lastmod: TODAY },
+	{ loc: `${SITE_URL}/enneagram-corner`, lastmod: TODAY },
+	{ loc: `${SITE_URL}/enneagram-corner/mental-health`, lastmod: TODAY },
+	{ loc: `${SITE_URL}/enneagram-corner/subtopic/overview`, lastmod: '2024-05-04' },
+	{ loc: `${SITE_URL}/enneagram-corner/subtopic/nine-types`, lastmod: '2024-05-04' },
+	{ loc: `${SITE_URL}/enneagram-corner/subtopic/development`, lastmod: '2024-05-04' },
+	{ loc: `${SITE_URL}/enneagram-corner/subtopic/relationships`, lastmod: '2024-05-04' },
+	{ loc: `${SITE_URL}/enneagram-corner/subtopic/workplace`, lastmod: '2024-05-04' },
+	{ loc: `${SITE_URL}/enneagram-corner/subtopic/resources`, lastmod: '2024-05-04' },
+	{ loc: `${SITE_URL}/enneagram-corner/subtopic/situational`, lastmod: '2024-05-04' },
+	{ loc: `${SITE_URL}/how-to-guides`, lastmod: TODAY },
+	{ loc: `${SITE_URL}/personality-analysis`, lastmod: TODAY },
+	{ loc: `${SITE_URL}/personality-analysis/categories`, lastmod: TODAY },
+	{ loc: `${SITE_URL}/personality-analysis/categories/film-tv`, lastmod: TODAY },
+	{ loc: `${SITE_URL}/personality-analysis/categories/creator-media`, lastmod: TODAY },
+	{ loc: `${SITE_URL}/personality-analysis/categories/music`, lastmod: TODAY },
+	{ loc: `${SITE_URL}/personality-analysis/categories/politics-public`, lastmod: TODAY },
+	{ loc: `${SITE_URL}/personality-analysis/categories/tech-business`, lastmod: TODAY },
+	{ loc: `${SITE_URL}/personality-analysis/categories/comedy`, lastmod: TODAY },
+	{ loc: `${SITE_URL}/personality-analysis/categories/authors-thinkers`, lastmod: TODAY },
+	{ loc: `${SITE_URL}/questions`, lastmod: TODAY },
+	...Array.from({ length: 9 }, (_, index) => ({
+		loc: `${SITE_URL}/personality-analysis/type/${index + 1}`,
+		lastmod: '2024-08-29'
+	})),
+	{ loc: `${SITE_URL}/blog/experiment`, lastmod: '2024-09-13' }
+];
+
+function formatLastmod(value) {
+	if (!value) return null;
+
+	const date = new Date(value);
+	if (Number.isNaN(date.getTime())) return null;
+
+	return date.toISOString().slice(0, 10);
+}
+
+function renderUrlEntry(entry) {
+	const imageBlock = entry.imageLoc
+		? `
+    <image:image>
+      <image:loc>${entry.imageLoc}</image:loc>
+    </image:image>`
+		: '';
+
+	return `  <url>
+    <loc>${entry.loc}</loc>
+    <lastmod>${entry.lastmod}</lastmod>${imageBlock}
+  </url>`;
+}
+
+function dedupeEntries(entries) {
+	const byLoc = new Map();
+
+	for (const entry of entries) {
+		if (!entry.loc || !entry.lastmod) continue;
+		byLoc.set(entry.loc, entry);
+	}
+
+	return [...byLoc.values()];
+}
 
 async function getAllPosts() {
 	const categories = [
@@ -54,50 +121,39 @@ async function getAllPosts() {
 
 		for (const file of files) {
 			try {
-				// Read the file content
 				const content = await fs.readFile(file, 'utf-8');
-
-				// Extract frontmatter metadata using regex
 				const frontmatterMatch = content.match(/^---\s*\n([\s\S]*?)\n---/);
 
-				if (frontmatterMatch) {
-					// Parse the frontmatter YAML-like content manually
-					const frontmatter = frontmatterMatch[1];
-					const metadata = {};
+				if (!frontmatterMatch) continue;
 
-					// Parse each line of frontmatter
-					const lines = frontmatter.split('\n');
-					for (const line of lines) {
-						const colonIndex = line.indexOf(':');
-						if (colonIndex > 0) {
-							const key = line.substring(0, colonIndex).trim();
-							let value = line.substring(colonIndex + 1).trim();
+				const metadata = {};
+				const lines = frontmatterMatch[1].split('\n');
 
-							// Remove quotes if present
-							if (
-								(value.startsWith('"') && value.endsWith('"')) ||
-								(value.startsWith("'") && value.endsWith("'"))
-							) {
-								value = value.slice(1, -1);
-							}
+				for (const line of lines) {
+					const colonIndex = line.indexOf(':');
+					if (colonIndex <= 0) continue;
 
-							// Convert 'true'/'false' strings to booleans
-							if (value === 'true') value = true;
-							else if (value === 'false') value = false;
+					const key = line.substring(0, colonIndex).trim();
+					let value = line.substring(colonIndex + 1).trim();
 
-							metadata[key] = value;
-						}
+					if (
+						(value.startsWith('"') && value.endsWith('"')) ||
+						(value.startsWith("'") && value.endsWith("'"))
+					) {
+						value = value.slice(1, -1);
 					}
 
-					if (metadata.published && metadata.loc) {
-						posts.push({
-							...metadata,
-							path: file
-						});
-					}
+					if (value === 'true') value = true;
+					else if (value === 'false') value = false;
+
+					metadata[key] = value;
+				}
+
+				if (metadata.published && metadata.loc) {
+					posts.push(metadata);
 				}
 			} catch (error) {
-				console.warn(`⚠️  Could not read ${path.basename(file)}: ${error.message}`);
+				console.warn(`Could not read ${path.basename(file)}: ${error.message}`);
 			}
 		}
 	}
@@ -106,362 +162,107 @@ async function getAllPosts() {
 }
 
 async function getQuestions() {
-	const { data: questions, error } = await supabase
+	const { data, error } = await supabase
 		.from('questions')
-		.select('url, created_at, updated_at')
+		.select('url, updated_at')
 		.eq('flagged', false)
 		.eq('removed', false)
 		.eq('tagged', true)
 		.order('updated_at');
 
 	if (error) {
-		console.warn('⚠️  Error fetching questions:', error.message);
+		console.warn('Error fetching questions:', error.message);
 		return [];
 	}
 
-	return questions || [];
+	return data ?? [];
 }
 
 async function getFamousPeople() {
-	const { data: personData, error: personDataError } = await supabase
+	const { data, error } = await supabase
 		.from('blogs_famous_people')
 		.select('*')
 		.eq('published', true)
 		.order('lastmod')
 		.order('person');
 
-	if (personDataError) {
-		console.warn('⚠️  Error fetching famous people posts:', personDataError.message);
+	if (error) {
+		console.warn('Error fetching famous people posts:', error.message);
 		return [];
 	}
 
-	return (personData || []).map((e) => ({
-		...e,
-		slug: normalizePersonalitySlug(e.person)
+	return (data ?? []).map((person) => ({
+		...person,
+		slug: normalizePersonalitySlug(person.person)
 	}));
 }
 
-async function generateSitemap() {
-	try {
-		console.log('🚀 Generating sitemap...');
+function buildPostEntry(post) {
+	const loc =
+		post.loc?.includes('personality-analysis') || post.person
+			? normalizePersonalityAnalysisUrl(post.loc, post.person ?? post.slug)
+			: post.loc;
 
-		const [posts, peoplePosts, questions] = await Promise.all([
-			getAllPosts(),
-			getFamousPeople(),
-			getQuestions()
-		]);
+	const lastmod = formatLastmod(post.lastmod ?? post.date);
+	if (!loc || !lastmod) return null;
 
-		const allPosts = [...posts, ...peoplePosts];
+	if (post.person || loc.includes('/personality-analysis/')) {
+		const imagePath = buildPersonalityImagePath(post.enneagram, post.person ?? post.slug);
+		return {
+			loc,
+			lastmod,
+			...(imagePath && { imageLoc: `${SITE_URL}${imagePath}` })
+		};
+	}
 
-		console.log(`📝 Found ${posts.length} blog posts`);
-		console.log(`👥 Found ${peoplePosts.length} famous people posts`);
-		console.log(`❓ Found ${questions.length} questions`);
+	if (post.pic) {
+		return {
+			loc,
+			lastmod,
+			imageLoc: `${SITE_URL}/blogs/${post.pic}.webp`
+		};
+	}
 
-		const sitemapContent = `<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-    xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
-<url>
-    <loc>https://9takes.com</loc>
-    <lastmod>2026-01-22</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>1.0</priority>
-</url>
-<url>
-    <loc>https://9takes.com/blog</loc>
-    <lastmod>2026-03-04</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
-</url>
-<url>
-    <loc>https://9takes.com/about</loc>
-    <lastmod>2026-01-09</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-</url>
-<url>
-    <loc>https://9takes.com/book-session</loc>
-    <lastmod>2025-05-22</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-</url>
-<url>
-    <loc>https://9takes.com/enneagram-corner</loc>
-    <lastmod>2026-02-02</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-</url>
-<url>
-    <loc>https://9takes.com/enneagram-corner/subtopic/overview</loc>
-    <lastmod>2024-05-04</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-</url>
-<url>
-    <loc>https://9takes.com/enneagram-corner/subtopic/nine-types</loc>
-    <lastmod>2024-05-04</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-</url>
-<url>
-    <loc>https://9takes.com/enneagram-corner/subtopic/development</loc>
-    <lastmod>2024-05-04</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-</url>
-<url>
-    <loc>https://9takes.com/enneagram-corner/subtopic/relationships</loc>
-    <lastmod>2024-05-04</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-</url>
-<url>
-    <loc>https://9takes.com/enneagram-corner/subtopic/workplace</loc>
-    <lastmod>2024-05-04</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-</url>
-<url>
-    <loc>https://9takes.com/enneagram-corner/subtopic/resources</loc>
-    <lastmod>2024-05-04</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-</url>
-<url>
-    <loc>https://9takes.com/enneagram-corner/subtopic/situational</loc>
-    <lastmod>2024-05-04</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-</url>
-<url>
-    <loc>https://9takes.com/enneagram-corner/mental-health</loc>
-    <lastmod>2026-01-06</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-</url>
-<url>
-    <loc>https://9takes.com/how-to-guides</loc>
-    <lastmod>2025-10-07</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-</url>
-<url>
-    <loc>https://9takes.com/community</loc>
-    <lastmod>2026-03-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-</url>
-<url>
-    <loc>https://9takes.com/personality-analysis</loc>
-    <lastmod>2026-03-04</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-</url>
-<url>
-    <loc>https://9takes.com/personality-analysis/categories</loc>
-    <lastmod>2026-03-12</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-</url>
-<url>
-    <loc>https://9takes.com/personality-analysis/categories/film-tv</loc>
-    <lastmod>2026-03-12</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-</url>
-<url>
-    <loc>https://9takes.com/personality-analysis/categories/creator-media</loc>
-    <lastmod>2026-03-12</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-</url>
-<url>
-    <loc>https://9takes.com/personality-analysis/categories/music</loc>
-    <lastmod>2026-03-12</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-</url>
-<url>
-    <loc>https://9takes.com/personality-analysis/categories/politics-public</loc>
-    <lastmod>2026-03-12</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-</url>
-<url>
-    <loc>https://9takes.com/personality-analysis/categories/tech-business</loc>
-    <lastmod>2026-03-12</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-</url>
-<url>
-    <loc>https://9takes.com/personality-analysis/categories/comedy</loc>
-    <lastmod>2026-03-12</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-</url>
-<url>
-    <loc>https://9takes.com/personality-analysis/categories/authors-thinkers</loc>
-    <lastmod>2026-03-12</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-</url>
-<url>
-    <loc>https://9takes.com/personality-analysis/type/1</loc>
-    <lastmod>2024-08-29</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-</url>
-<url>
-    <loc>https://9takes.com/personality-analysis/type/2</loc>
-    <lastmod>2024-08-29</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-</url>
-<url>
-    <loc>https://9takes.com/personality-analysis/type/3</loc>
-    <lastmod>2024-08-29</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-</url>
-<url>
-    <loc>https://9takes.com/personality-analysis/type/4</loc>
-    <lastmod>2024-08-29</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-</url>
-<url>
-    <loc>https://9takes.com/personality-analysis/type/5</loc>
-    <lastmod>2024-08-29</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-</url>
-<url>
-    <loc>https://9takes.com/personality-analysis/type/6</loc>
-    <lastmod>2024-08-29</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-</url>
-<url>
-    <loc>https://9takes.com/personality-analysis/type/7</loc>
-    <lastmod>2024-08-29</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-</url>
-<url>
-    <loc>https://9takes.com/personality-analysis/type/8</loc>
-    <lastmod>2024-08-29</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-</url>
-<url>
-    <loc>https://9takes.com/personality-analysis/type/9</loc>
-    <lastmod>2024-08-29</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-</url>
-<url>
-    <loc>https://9takes.com/blog/experiment</loc>
-    <lastmod>2024-09-13</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.5</priority>
-</url>
-${allPosts
-	.map((post) => {
-		if (post.loc.includes('personality-analysis')) {
-			const normalizedLoc = normalizePersonalityAnalysisUrl(post.loc, post.person ?? post.slug);
-			const imagePath = buildPersonalityImagePath(post.enneagram, post.person ?? post.slug);
-
-			if (imagePath) {
-				return `<url>
-    <loc>${normalizedLoc}</loc>
-    <lastmod>${post.lastmod && new Date(post.lastmod).toISOString()}</lastmod>
-    <changefreq>${post.changefreq}</changefreq>
-    <priority>0.7</priority>
-    <image:image>
-        <image:loc>https://9takes.com${imagePath}</image:loc>
-    </image:image>
-</url>`;
-			} else {
-				return `<url>
-    <loc>${normalizedLoc}</loc>
-    <lastmod>${post.lastmod && new Date(post.lastmod).toISOString()}</lastmod>
-    <changefreq>${post.changefreq}</changefreq>
-    <priority>0.7</priority>
-</url>`;
-			}
-		}
-
-		if (
-			post.loc.includes('enneagram') ||
-			post.loc.includes('guides') ||
-			post.loc.includes('community')
-		) {
-			if (post.pic) {
-				return `<url>
-    <loc>${post.loc}</loc>
-    <lastmod>${post.lastmod && new Date(post.lastmod).toISOString()}</lastmod>
-    <changefreq>${post.changefreq}</changefreq>
-    <priority>0.7</priority>
-    <image:image>
-        <image:loc>https://9takes.com/blogs/${post.pic}.webp</image:loc>
-    </image:image>
-</url>`;
-			} else {
-				return `<url>
-    <loc>${post.loc}</loc>
-    <lastmod>${post.lastmod && new Date(post.lastmod).toISOString()}</lastmod>
-    <changefreq>${post.changefreq}</changefreq>
-    <priority>0.7</priority>
-</url>`;
-			}
-		} else {
-			return `<url>
-    <loc>${post.loc}</loc>
-    <lastmod>${post.lastmod && new Date(post.lastmod).toISOString()}</lastmod>
-    <changefreq>${post.changefreq}</changefreq>
-    <priority>0.7</priority>
-</url>`;
-		}
-	})
-	.join('\n')}
-<url>
-    <loc>https://9takes.com/questions</loc>
-    <lastmod>2026-03-04</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-</url>
-${
-	questions
-		?.map((q) => {
-			return `<url>
-    <loc>https://9takes.com/questions/${q.url}</loc>
-    <lastmod>${new Date(q.updated_at).toISOString()}</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-</url>`;
-		})
-		.join('\n') || ''
+	return { loc, lastmod };
 }
+
+async function generateSitemap() {
+	console.log('Generating sitemap...');
+
+	const [posts, peoplePosts, questions] = await Promise.all([
+		getAllPosts(),
+		getFamousPeople(),
+		getQuestions()
+	]);
+
+	const dynamicEntries = [
+		...posts.map(buildPostEntry),
+		...peoplePosts.map(buildPostEntry),
+		...questions.map((question) => ({
+			loc: `${SITE_URL}/questions/${question.url}`,
+			lastmod: formatLastmod(question.updated_at)
+		}))
+	].filter(Boolean);
+
+	const entries = dedupeEntries([...STATIC_PAGES, ...dynamicEntries]).sort((a, b) =>
+		a.loc.localeCompare(b.loc)
+	);
+
+	const xml = `<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+${entries.map(renderUrlEntry).join('\n')}
 </urlset>`;
 
-		// Write to static/sitemap.xml
-		const sitemapPath = path.join(__dirname, '..', 'static', 'sitemap.xml');
-		await fs.writeFile(sitemapPath, sitemapContent.trim(), 'utf-8');
+	const sitemapPath = path.join(__dirname, '..', 'static', 'sitemap.xml');
+	await fs.writeFile(sitemapPath, xml, 'utf-8');
 
-		console.log('✅ Sitemap generated successfully at static/sitemap.xml');
-
-		// Get file size for verification
-		const stats = await fs.stat(sitemapPath);
-		const fileSizeInKb = (stats.size / 1024).toFixed(2);
-		console.log(`📄 Sitemap size: ${fileSizeInKb} KB`);
-
-		// Count URLs in sitemap for verification
-		const urlCount = (sitemapContent.match(/<url>/g) || []).length;
-		console.log(`🔗 Total URLs in sitemap: ${urlCount}`);
-	} catch (error) {
-		console.error('❌ Error generating sitemap:', error);
-		process.exit(1);
-	}
+	const stats = await fs.stat(sitemapPath);
+	console.log(`Sitemap generated at static/sitemap.xml (${(stats.size / 1024).toFixed(2)} KB)`);
+	console.log(`Total URLs: ${entries.length}`);
 }
 
-// Run the script
-generateSitemap();
+generateSitemap().catch((error) => {
+	console.error('Error generating sitemap:', error);
+	process.exit(1);
+});

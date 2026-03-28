@@ -1,0 +1,85 @@
+# 9takes full index
+
+9takes is an Enneagram-based site focused on personality analysis, emotional intelligence, communication, conflict, dating, and public-figure interpretation.
+
+Use this file for article-level discovery when you need more than the summary in `llms.txt`.
+
+## Core pages
+
+- https://9takes.com/ - Homepage for the platform and primary explanation of the site.
+- https://9takes.com/about - Background on the founder, mission, and how 9takes approaches personality analysis.
+- https://9takes.com/questions - Anonymous give-first question flow for comparing perspectives.
+- https://9takes.com/personality-analysis - Main hub for famous people personality analysis.
+- https://9takes.com/community - Essays about the 9takes philosophy and community.
+- https://9takes.com/how-to-guides - Practical guides for communication, conflict, and self-development.
+
+## Enneagram foundations
+
+- https://9takes.com/enneagram-corner/enneagram-tldr - Quick introduction to the Enneagram.
+- https://9takes.com/enneagram-corner/beginners-guide-to-determining-your-enneagram-type - Beginner guide to identifying your Enneagram type.
+- https://9takes.com/enneagram-corner/enneagram-concepts - Core Enneagram concepts and principles.
+- https://9takes.com/enneagram-corner/enneagram-influences - How environment and experience shape type expression.
+- https://9takes.com/enneagram-corner/enneagram-strengths-and-weaknesses - Overview of strengths, liabilities, and growth edges.
+- https://9takes.com/enneagram-corner/enneagram-types-in-relationships - How each type shows up in romantic relationships.
+- https://9takes.com/enneagram-corner/enneagram-communication-guide - Practical communication guidance across types.
+- https://9takes.com/enneagram-corner/enneagram-personal-growth - Long-form guide to Enneagram-based personal growth.
+
+## Type guides
+
+- https://9takes.com/enneagram-corner/enneagram-type-1
+- https://9takes.com/enneagram-corner/enneagram-type-2
+- https://9takes.com/enneagram-corner/enneagram-type-3
+- https://9takes.com/enneagram-corner/enneagram-type-4
+- https://9takes.com/enneagram-corner/enneagram-type-5
+- https://9takes.com/enneagram-corner/enneagram-type-6
+- https://9takes.com/enneagram-corner/enneagram-type-7
+- https://9takes.com/enneagram-corner/enneagram-type-8
+- https://9takes.com/enneagram-corner/enneagram-type-9
+
+## Practical guides
+
+- https://9takes.com/how-to-guides/ultimate-guide-to-active-listening - Listening and conversation skills.
+- https://9takes.com/how-to-guides/how-to-psychoanalyze-people - Framework for reading patterns without flattening people.
+- https://9takes.com/how-to-guides/using-the-enneagram-for-self-development - Applying type insight to habits and growth.
+- https://9takes.com/how-to-guides/dating-dynamics-by-enneagram-type - Dating dynamics and attraction patterns by type.
+- https://9takes.com/how-to-guides/definitive-guide-to-relationship-conflict-part-1 - Relationship conflict fundamentals.
+- https://9takes.com/how-to-guides/definitive-guide-to-relationship-conflict-part-2 - Relationship conflict repair and follow-through.
+
+## Community and philosophy
+
+- https://9takes.com/community/introducing-9takes - Origin story and thesis for the platform.
+- https://9takes.com/community/inspiration-for-9takes - Why the project exists and what problem it is trying to solve.
+- https://9takes.com/community/what-winning-online-arguments-looks-like - Argument quality, persuasion, and disagreement.
+- https://9takes.com/community/mbti-vs-enneagram - Why 9takes emphasizes the Enneagram over simpler typologies.
+- https://9takes.com/community/consensus-on-human-nature - Community essay on social dynamics and shared assumptions.
+
+## Public-figure analysis hubs
+
+- https://9takes.com/personality-analysis/type/1
+- https://9takes.com/personality-analysis/type/2
+- https://9takes.com/personality-analysis/type/3
+- https://9takes.com/personality-analysis/type/4
+- https://9takes.com/personality-analysis/type/5
+- https://9takes.com/personality-analysis/type/6
+- https://9takes.com/personality-analysis/type/7
+- https://9takes.com/personality-analysis/type/8
+- https://9takes.com/personality-analysis/type/9
+- https://9takes.com/personality-analysis/categories/film-tv
+- https://9takes.com/personality-analysis/categories/music
+- https://9takes.com/personality-analysis/categories/creator-media
+- https://9takes.com/personality-analysis/categories/politics-public
+- https://9takes.com/personality-analysis/categories/tech-business
+
+## Pop culture analysis examples
+
+- https://9takes.com/pop-culture/tech-titans-ai-wars
+- https://9takes.com/pop-culture/world-leaders-enneagram-personality-dynamics
+- https://9takes.com/pop-culture/parasocial-relationships-enneagram-type
+- https://9takes.com/pop-culture/streaming-royalty-enneagram-analysis
+- https://9takes.com/pop-culture/dark-triad-meets-enneagram
+
+## Notes
+
+- 9takes is an interpretation and analysis site, not a medical or clinical authority.
+- Personality analysis pages are perspective-driven essays, not definitive diagnoses.
+- For the broad site summary and positioning guidance, see `https://9takes.com/llms.txt`.

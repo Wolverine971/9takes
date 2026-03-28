@@ -12,8 +12,14 @@
 		name="description"
 		content="9takes uses the Enneagram to break you out of your perspective bubble. See how 9 personality types answer the same question differently."
 	/>
+	<meta
+		name="robots"
+		content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+	/>
 	<meta name="author" content="9takes" />
 	<link rel="canonical" href="https://9takes.com/about" />
+	<link rel="alternate" href="https://9takes.com/about" hreflang="en-US" />
+	<link rel="alternate" href="https://9takes.com/about" hreflang="x-default" />
 
 	<!-- Open Graph -->
 	<meta property="og:title" content="About 9takes - One Situation, 9 Ways to See It" />

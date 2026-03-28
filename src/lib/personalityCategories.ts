@@ -19,6 +19,7 @@ export interface PersonalityCategoryDefinition {
 	shortLabel: string;
 	summary: string;
 	intro: string;
+	groupingDescription: string;
 	accent: string;
 	accentSoft: string;
 	rawTypes: string[];
@@ -31,9 +32,11 @@ export const PERSONALITY_CATEGORY_DEFINITIONS: PersonalityCategoryDefinition[] =
 		label: 'Film & TV',
 		shortLabel: 'Film & TV',
 		summary:
-			'Actors, celebrities, and crossover figures whose public identity is built on performance.',
+			'Actors, TV personalities, celebrities, and crossover figures whose public identity is built on performance and image.',
 		intro:
-			'Actors and screen celebrities reveal how personality handles image pressure, reinvention, romantic projection, and the tension between public myth and private self.',
+			'Actors, television personalities, and celebrity figures reveal how personality handles image pressure, reinvention, romantic projection, and the tension between public myth and private self.',
+		groupingDescription:
+			'Split into screen icons, rising stars, TV/comedy crossovers, and celebrity-image figures so actors are not mixed together with pure fame personalities.',
 		accent: '#f59e0b',
 		accentSoft: 'rgba(245, 158, 11, 0.18)',
 		rawTypes: ['movieStar', 'newMovieStar', 'celebrity'],
@@ -47,6 +50,8 @@ export const PERSONALITY_CATEGORY_DEFINITIONS: PersonalityCategoryDefinition[] =
 			'YouTubers, podcasters, influencers, and media figures living inside the feedback loop.',
 		intro:
 			'Internet personalities make status, attention, audience trust, and identity management visible in real time. This category is where personality meets algorithms, parasociality, and platform economics.',
+		groupingDescription:
+			'Split into podcasters, commentators, business/self-improvement creators, streamers, viral entertainers, and lifestyle brand builders.',
 		accent: '#38bdf8',
 		accentSoft: 'rgba(56, 189, 248, 0.18)',
 		rawTypes: ['creator', 'influencer', 'tiktoker', 'lifestyleInfluencer', 'journalist'],
@@ -57,9 +62,11 @@ export const PERSONALITY_CATEGORY_DEFINITIONS: PersonalityCategoryDefinition[] =
 		label: 'Musicians & Artists',
 		shortLabel: 'Music',
 		summary:
-			'Performers whose psychology shows up through style, voice, ambition, and artistic identity.',
+			'Pop stars, rappers, singer-songwriters, and crossover performers whose psychology shows up through style, voice, ambition, and artistic identity.',
 		intro:
 			'Musicians are often where personality becomes the most theatrical: authenticity versus performance, creative obsession versus commercial pressure, vulnerability versus persona.',
+		groupingDescription:
+			'Split into pop stars, rappers, alternative voices, singer-songwriters, and crossovers so the music page feels like real lanes instead of one pile.',
 		accent: '#f472b6',
 		accentSoft: 'rgba(244, 114, 182, 0.18)',
 		rawTypes: ['musician'],
@@ -70,9 +77,11 @@ export const PERSONALITY_CATEGORY_DEFINITIONS: PersonalityCategoryDefinition[] =
 		label: 'Politics & Public Figures',
 		shortLabel: 'Politics',
 		summary:
-			'Politicians, activists, and historical figures operating in power, ideology, and public loyalty.',
+			'Politicians, activists, royals, and historical leaders operating in power, ideology, and public duty.',
 		intro:
-			'Public leadership makes power style visible. These profiles are useful for seeing how fear, conviction, charisma, duty, and ambition scale under pressure.',
+			'Public leadership makes power style visible. These profiles are useful for seeing how fear, conviction, charisma, duty, ambition, and symbolic responsibility scale under pressure.',
+		groupingDescription:
+			'Splits leaders into heads of state, campaign politicians, activists, and royals/public-duty figures so power styles are easier to compare.',
 		accent: '#fb7185',
 		accentSoft: 'rgba(251, 113, 133, 0.18)',
 		rawTypes: ['politician', 'historical', 'activist'],
@@ -83,9 +92,11 @@ export const PERSONALITY_CATEGORY_DEFINITIONS: PersonalityCategoryDefinition[] =
 		label: 'Tech, Founders & Business',
 		shortLabel: 'Tech & Business',
 		summary:
-			'Builders, operators, and founders whose psychology shapes products, companies, and strategy.',
+			'Founders, CEOs, investors, and operators whose psychology shapes products, companies, and strategy.',
 		intro:
 			'Founders and operators reveal how personality handles leverage, risk, optimization, control, long-term strategy, and the pressure to turn identity into systems.',
+		groupingDescription:
+			'Splits the category into big-tech CEOs, investors, frontier builders, operators, and tech interpreters.',
 		accent: '#34d399',
 		accentSoft: 'rgba(52, 211, 153, 0.18)',
 		rawTypes: ['techie', 'entrepreneur', 'business'],
@@ -96,9 +107,11 @@ export const PERSONALITY_CATEGORY_DEFINITIONS: PersonalityCategoryDefinition[] =
 		label: 'Comedians',
 		shortLabel: 'Comedy',
 		summary:
-			'Profiles where insecurity, aggression, absurdity, and social radar all sit close to the surface.',
+			'Stand-ups, sketch comics, satirists, and crossover comedians where insecurity, aggression, absurdity, and social radar all sit close to the surface.',
 		intro:
 			'Comedy is a strong personality laboratory because the coping style is part of the performance. These profiles often expose shame, status games, intimacy avoidance, and honesty through humor.',
+		groupingDescription:
+			'Splits the library into stand-up headliners, sketch/TV comics, satire hosts, and internet-native comedians.',
 		accent: '#facc15',
 		accentSoft: 'rgba(250, 204, 21, 0.18)',
 		rawTypes: ['comedian'],
@@ -109,9 +122,11 @@ export const PERSONALITY_CATEGORY_DEFINITIONS: PersonalityCategoryDefinition[] =
 		label: 'Authors & Thinkers',
 		shortLabel: 'Authors',
 		summary:
-			'Writers, idea people, and psychological interpreters where inner structure matters more than spectacle.',
+			'Writers, psychologists, strategists, and interpreters where inner structure matters more than spectacle.',
 		intro:
 			'This group is less about fame performance and more about world-building. These profiles are useful for seeing how personality shapes ideas, frameworks, obsession, and narrative control.',
+		groupingDescription:
+			'Splits the page into novelists, strategy/psychology writers, and business/media interpreters.',
 		accent: '#818cf8',
 		accentSoft: 'rgba(129, 140, 248, 0.18)',
 		rawTypes: ['author', 'psychology', 'essay'],

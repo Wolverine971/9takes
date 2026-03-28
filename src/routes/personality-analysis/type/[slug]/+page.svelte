@@ -1,7 +1,7 @@
 <!-- src/routes/personality-analysis/type/[slug]/+page.svelte -->
 <script lang="ts">
 	import type { PageData } from './$types';
-	import BlogPageHead from '$lib/components/blog/BlogPageHead.svelte';
+	import SEOHead from '$lib/components/SEOHead.svelte';
 	import EnneagramTypeIntro from '$lib/components/blog/EnneagramTypeIntro.svelte';
 	import EmailSignup from '$lib/components/molecules/Email-Signup.svelte';
 	import EnneagramTypeBottom from '$lib/components/blog/EnneagramTypeBottom.svelte';
@@ -25,15 +25,116 @@
 		'9': { name: 'The Peacemaker', tagline: 'Receptive, reassuring, complacent' }
 	};
 
+	function getLatestDate(people: PageData['people']): string | null {
+		let latestDate: string | null = null;
+		let latestTimestamp = 0;
+
+		for (const person of people) {
+			const candidate = person.lastmod ?? person.date;
+			if (!candidate) continue;
+
+			const timestamp = new Date(candidate).getTime();
+			if (!Number.isFinite(timestamp) || timestamp <= latestTimestamp) continue;
+
+			latestDate = candidate;
+			latestTimestamp = timestamp;
+		}
+
+		return latestDate;
+	}
+
 	$: typeInfo = enneagramTypes[data.slug] || { name: '', tagline: '' };
+
+	$: seoTitle = `Famous Enneagram Type ${data.slug}s: ${typeInfo.name} | 9takes`;
+	$: seoDescription = `${data.people.length} famous Enneagram Type ${data.slug} (${typeInfo.name}) personalities analyzed. ${typeInfo.tagline}. See how this type shows up in celebrities, leaders, and creators.`;
+	$: canonicalUrl = `https://9takes.com/personality-analysis/type/${data.slug}`;
+
+	$: latestDate = getLatestDate(data.people);
+
+	$: structuredData = {
+		'@context': 'https://schema.org',
+		'@graph': [
+			{
+				'@type': 'BreadcrumbList',
+				itemListElement: [
+					{
+						'@type': 'ListItem',
+						position: 1,
+						name: 'Home',
+						item: 'https://9takes.com'
+					},
+					{
+						'@type': 'ListItem',
+						position: 2,
+						name: 'Personality Analysis',
+						item: 'https://9takes.com/personality-analysis'
+					},
+					{
+						'@type': 'ListItem',
+						position: 3,
+						name: `Type ${data.slug}: ${typeInfo.name}`
+					}
+				]
+			},
+			{
+				'@type': 'CollectionPage',
+				name: `Enneagram Type ${data.slug} (${typeInfo.name}) Famous People`,
+				description: seoDescription,
+				url: canonicalUrl,
+				inLanguage: 'en-US',
+				...(latestDate ? { dateModified: latestDate } : {}),
+				isPartOf: {
+					'@type': 'CollectionPage',
+					name: 'Famous Personality Analysis',
+					url: 'https://9takes.com/personality-analysis'
+				},
+				about: [
+					{
+						'@type': 'Thing',
+						name: 'Enneagram of Personality',
+						sameAs: 'https://en.wikipedia.org/wiki/Enneagram_of_Personality'
+					},
+					{
+						'@type': 'Thing',
+						name: `Enneagram Type ${data.slug}: ${typeInfo.name}`
+					}
+				],
+				publisher: {
+					'@type': 'Organization',
+					name: '9takes',
+					url: 'https://9takes.com',
+					logo: {
+						'@type': 'ImageObject',
+						url: 'https://9takes.com/brand/aero.png'
+					}
+				},
+				mainEntity: {
+					'@type': 'ItemList',
+					numberOfItems: data.people.length,
+					itemListOrder: 'https://schema.org/ItemListUnordered',
+					itemListElement: data.people.map((person: any, index: number) => ({
+						'@type': 'ListItem',
+						position: index + 1,
+						name: formatPersonalityDisplayName(person.slug),
+						url: `https://9takes.com${buildPersonalityAnalysisPath(person.slug)}`
+					}))
+				}
+			}
+		]
+	};
 </script>
 
-<BlogPageHead
-	data={{
-		title: `Enneagram Type ${data.slug}: ${typeInfo.name} - 9takes Analysis of Famous People`,
-		description: `Explore characteristics and famous examples of Enneagram Type ${data.slug} (${typeInfo.name}). Discover how this personality type manifests in various aspects of life.`
-	}}
-	slug={`personality-analysis/type/${data.slug}`}
+<svelte:head>
+	{@html `<script type="application/ld+json">${JSON.stringify(structuredData)}</script>`}
+</svelte:head>
+
+<SEOHead
+	title={seoTitle}
+	description={seoDescription}
+	canonical={canonicalUrl}
+	twitterCardType="summary_large_image"
+	ogImage="https://9takes.com/personality-analysis-card.webp"
+	author="9takes"
 />
 
 <div class="page-wrapper">

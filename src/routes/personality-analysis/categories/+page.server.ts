@@ -10,6 +10,7 @@ import {
 import {
 	getEnneagramDistribution,
 	getLatestCategoryDate,
+	getPersonalityCategoryGroups,
 	mapPersonalityCategoryRows,
 	sortPeopleForCategory,
 	type PersonalityCategoryRow
@@ -35,13 +36,15 @@ export const load: PageServerLoad = async ({ locals }) => {
 		const categoryPeople = sortPeopleForCategory(
 			people.filter((person) => person.categorySlugs.includes(category.slug))
 		);
+		const groups = getPersonalityCategoryGroups(category.slug, categoryPeople);
 
 		return {
 			...category,
 			count: categoryPeople.length,
 			featured: categoryPeople.slice(0, 4),
 			distribution: getEnneagramDistribution(categoryPeople),
-			latestUpdate: getLatestCategoryDate(categoryPeople)
+			latestUpdate: getLatestCategoryDate(categoryPeople),
+			groups
 		};
 	});
 
@@ -53,6 +56,7 @@ export const load: PageServerLoad = async ({ locals }) => {
 		featured: ReturnType<typeof sortPeopleForCategory>;
 		distribution: ReturnType<typeof getEnneagramDistribution>;
 		latestUpdate: string | null;
+		groups: ReturnType<typeof getPersonalityCategoryGroups>;
 	} => value !== undefined;
 
 	return {

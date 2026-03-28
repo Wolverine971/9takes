@@ -17,29 +17,72 @@
 		});
 	}
 
+	const allCategories = $derived([...data.primaryCategories, ...data.secondaryCategories]);
+
 	const structuredData = $derived.by(() => ({
 		'@context': 'https://schema.org',
-		'@type': 'CollectionPage',
-		name: 'Personality Analysis Categories | 9takes',
-		description:
-			'Browse 9takes personality-analysis profiles by category, including film, creators, music, politics, and tech.',
-		url: 'https://9takes.com/personality-analysis/categories',
-		isPartOf: {
-			'@type': 'CollectionPage',
-			name: 'Famous Personality Analysis',
-			url: 'https://9takes.com/personality-analysis'
-		},
-		mainEntity: {
-			'@type': 'ItemList',
-			itemListElement: [...data.primaryCategories, ...data.secondaryCategories].map(
-				(category, index) => ({
-					'@type': 'ListItem',
-					position: index + 1,
-					name: category.label,
-					url: `https://9takes.com/personality-analysis/categories/${category.slug}`
-				})
-			)
-		}
+		'@graph': [
+			{
+				'@type': 'BreadcrumbList',
+				itemListElement: [
+					{
+						'@type': 'ListItem',
+						position: 1,
+						name: 'Home',
+						item: 'https://9takes.com'
+					},
+					{
+						'@type': 'ListItem',
+						position: 2,
+						name: 'Personality Analysis',
+						item: 'https://9takes.com/personality-analysis'
+					},
+					{
+						'@type': 'ListItem',
+						position: 3,
+						name: 'Categories'
+					}
+				]
+			},
+			{
+				'@type': 'CollectionPage',
+				name: 'Famous People Personality Analysis by Category',
+				description: `Browse ${data.totalPeople} personality analyses organized into ${allCategories.length} categories — film, music, creators, politics, tech, comedy, and authors.`,
+				url: 'https://9takes.com/personality-analysis/categories',
+				inLanguage: 'en-US',
+				isPartOf: {
+					'@type': 'CollectionPage',
+					name: 'Famous Personality Analysis',
+					url: 'https://9takes.com/personality-analysis'
+				},
+				about: {
+					'@type': 'Thing',
+					name: 'Enneagram of Personality',
+					sameAs: 'https://en.wikipedia.org/wiki/Enneagram_of_Personality'
+				},
+				publisher: {
+					'@type': 'Organization',
+					name: '9takes',
+					url: 'https://9takes.com',
+					logo: {
+						'@type': 'ImageObject',
+						url: 'https://9takes.com/brand/aero.png'
+					}
+				},
+				mainEntity: {
+					'@type': 'ItemList',
+					numberOfItems: allCategories.length,
+					itemListOrder: 'https://schema.org/ItemListUnordered',
+					itemListElement: allCategories.map((category, index) => ({
+						'@type': 'ListItem',
+						position: index + 1,
+						name: category.label,
+						url: `https://9takes.com/personality-analysis/categories/${category.slug}`,
+						description: category.summary
+					}))
+				}
+			}
+		]
 	}));
 </script>
 
@@ -48,11 +91,12 @@
 </svelte:head>
 
 <SEOHead
-	title="Browse Personality Analysis Categories | 9takes"
-	description="Explore 9takes personality-analysis profiles by category: creators, musicians, politicians, movie stars, and tech founders."
+	title="Personality Analysis by Category: Film, Music, Tech & More | 9takes"
+	description={`Browse ${data.totalPeople} famous personality analyses across ${allCategories.length} categories — film & TV, musicians, creators, politicians, tech founders, comedians, and authors. Each profile decoded through the Enneagram.`}
 	canonical="https://9takes.com/personality-analysis/categories"
 	twitterCardType="summary_large_image"
 	ogImage="https://9takes.com/personality-analysis-card.webp"
+	author="9takes"
 />
 
 <div class="page-shell">
@@ -60,9 +104,9 @@
 		<p class="eyebrow">New Browse Layer</p>
 		<h1>Explore Famous People by Category</h1>
 		<p class="lede">
-			Browse the personality-analysis library by domain instead of just Enneagram number. This makes
-			it easier to compare movie stars to movie stars, creators to creators, and politicians to
-			politicians.
+			Browse the personality-analysis library by domain instead of just Enneagram number. Each hub
+			now breaks into cleaner sections, so you can compare screen icons to rising actors, pop stars
+			to rappers, and heads of state to activists.
 		</p>
 		<div class="hero-stats">
 			<span>{data.totalPeople} published profiles</span>
@@ -101,6 +145,20 @@
 						</div>
 
 						<p class="summary">{category.summary}</p>
+
+						{#if category.groups.length > 0}
+							<div class="cluster-preview">
+								<span class="mini-label">Subcategories</span>
+								<div class="cluster-chip-row">
+									{#each category.groups.slice(0, 3) as group}
+										<span class="cluster-chip">{group.label}</span>
+									{/each}
+									{#if category.groups.length > 3}
+										<span class="cluster-chip muted">+{category.groups.length - 3} more</span>
+									{/if}
+								</div>
+							</div>
+						{/if}
 
 						<div class="tag-row">
 							{#each category.rawTypes as rawType}
@@ -161,6 +219,16 @@
 								<span class="count-pill">{category.count}</span>
 							</div>
 							<p>{category.summary}</p>
+							{#if category.groups.length > 0}
+								<div class="cluster-preview compact-preview">
+									<span class="mini-label">Subcategories</span>
+									<div class="cluster-chip-row">
+										{#each category.groups.slice(0, 3) as group}
+											<span class="cluster-chip">{group.label}</span>
+										{/each}
+									</div>
+								</div>
+							{/if}
 							<div class="tag-row compact">
 								{#each category.rawTypes as rawType}
 									<span class="tag-chip">{formatPersonalityRawType(rawType)}</span>
@@ -284,8 +352,8 @@
 
 	.category-grid {
 		display: grid;
-		grid-template-columns: repeat(5, minmax(0, 1fr));
-		gap: 1rem;
+		grid-template-columns: repeat(3, minmax(0, 1fr));
+		gap: 1.25rem;
 	}
 
 	.category-card,
@@ -296,10 +364,10 @@
 			linear-gradient(180deg, rgba(15, 23, 42, 0.96) 0%, rgba(15, 23, 42, 0.98) 100%);
 		border: 1px solid rgba(148, 163, 184, 0.16);
 		border-radius: 1.1rem;
-		padding: 1rem;
+		padding: 1.25rem;
 		display: flex;
 		flex-direction: column;
-		gap: 1rem;
+		gap: 0.85rem;
 		transition:
 			transform 0.2s ease,
 			border-color 0.2s ease,
@@ -310,6 +378,10 @@
 			border-color: var(--accent);
 			box-shadow: 0 14px 30px rgba(0, 0, 0, 0.28);
 		}
+	}
+
+	.category-card h3 {
+		font-size: 1.15rem;
 	}
 
 	.card-top,
@@ -336,13 +408,39 @@
 	.secondary-card p {
 		margin: 0;
 		color: #cbd5e1;
-		line-height: 1.6;
+		font-size: 0.9rem;
+		line-height: 1.55;
 	}
 
 	.tag-row {
 		display: flex;
 		flex-wrap: wrap;
 		gap: 0.45rem;
+	}
+
+	.cluster-preview {
+		display: grid;
+		gap: 0.45rem;
+	}
+
+	.cluster-chip-row {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 0.4rem;
+	}
+
+	.cluster-chip {
+		padding: 0.35rem 0.55rem;
+		border-radius: 0.75rem;
+		background: rgba(15, 23, 42, 0.68);
+		border: 1px solid rgba(148, 163, 184, 0.12);
+		color: #e2e8f0;
+		font-size: 0.72rem;
+		line-height: 1.3;
+	}
+
+	.cluster-chip.muted {
+		color: #94a3b8;
 	}
 
 	.tag-chip {
@@ -396,16 +494,21 @@
 
 	.secondary-grid {
 		display: grid;
-		grid-template-columns: repeat(2, minmax(0, 1fr));
-		gap: 1rem;
+		grid-template-columns: repeat(3, minmax(0, 1fr));
+		gap: 1.25rem;
 	}
 
 	.compact {
 		gap: 0.35rem;
 	}
 
+	.compact-preview {
+		margin-top: 0.1rem;
+	}
+
 	@media (max-width: 1100px) {
-		.category-grid {
+		.category-grid,
+		.secondary-grid {
 			grid-template-columns: repeat(2, minmax(0, 1fr));
 		}
 	}

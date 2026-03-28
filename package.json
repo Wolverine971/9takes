@@ -88,6 +88,9 @@
 	"dependencies": {
 		"@elastic/elasticsearch": "^8.15.0",
 		"@fingerprintjs/fingerprintjs": "^4.5.0",
+		"@fontsource/jetbrains-mono": "^5.2.8",
+		"@fontsource/rajdhani": "^5.2.7",
+		"@fontsource/space-grotesk": "^5.2.10",
 		"@supabase/auth-helpers-sveltekit": "^0.8.7",
 		"@supabase/ssr": "^0.6.1",
 		"@supabase/supabase-js": "^2.45.4",
