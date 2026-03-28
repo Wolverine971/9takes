@@ -18,6 +18,48 @@
 	}
 
 	const allCategories = $derived([...data.primaryCategories, ...data.secondaryCategories]);
+	const canonicalUrl = 'https://9takes.com/personality-analysis/categories';
+	const seoTitle = 'Famous People Personality Analysis by Category | 9takes';
+	const seoDescription =
+		'Browse famous people personality analysis by category, including film & TV, creators, music, politics, tech founders, comedians, and authors. Compare Enneagram patterns by domain.';
+	const seoFaqs = [
+		{
+			question: 'What can you browse on the personality analysis category page?',
+			answer:
+				'You can browse the 9takes personality-analysis library by domain, including film and TV, creators, musicians, politics, tech, comedy, and authors or thinkers.'
+		},
+		{
+			question: 'How are the category pages organized?',
+			answer:
+				'Each category page is subdivided into cleaner sections so readers can compare similar public figures inside the same lane instead of looking through one flat archive.'
+		},
+		{
+			question: 'Can a person appear in more than one category?',
+			answer:
+				'Yes. A profile can appear in more than one category when that person genuinely overlaps multiple domains, such as music and creators or film and politics.'
+		}
+	] as const;
+
+	function getLatestDate(values: Array<{ latestUpdate: string | null }>): string | null {
+		let latestDate: string | null = null;
+		let latestTimestamp = 0;
+
+		for (const value of values) {
+			if (!value.latestUpdate) continue;
+			const timestamp = new Date(value.latestUpdate).getTime();
+			if (!Number.isFinite(timestamp) || timestamp <= latestTimestamp) continue;
+
+			latestTimestamp = timestamp;
+			latestDate = value.latestUpdate;
+		}
+
+		return latestDate;
+	}
+
+	const latestCategoryUpdate = $derived.by(() => getLatestDate(allCategories));
+	const seoKeywords = $derived.by(() =>
+		[...new Set(allCategories.flatMap((category) => category.seoKeywords))].slice(0, 14).join(', ')
+	);
 
 	const structuredData = $derived.by(() => ({
 		'@context': 'https://schema.org',
@@ -46,20 +88,29 @@
 			},
 			{
 				'@type': 'CollectionPage',
+				'@id': canonicalUrl,
 				name: 'Famous People Personality Analysis by Category',
-				description: `Browse ${data.totalPeople} personality analyses organized into ${allCategories.length} categories — film, music, creators, politics, tech, comedy, and authors.`,
-				url: 'https://9takes.com/personality-analysis/categories',
+				description: seoDescription,
+				url: canonicalUrl,
 				inLanguage: 'en-US',
+				...(latestCategoryUpdate ? { dateModified: latestCategoryUpdate } : {}),
+				keywords: seoKeywords,
 				isPartOf: {
 					'@type': 'CollectionPage',
 					name: 'Famous Personality Analysis',
 					url: 'https://9takes.com/personality-analysis'
 				},
-				about: {
-					'@type': 'Thing',
-					name: 'Enneagram of Personality',
-					sameAs: 'https://en.wikipedia.org/wiki/Enneagram_of_Personality'
-				},
+				about: [
+					{
+						'@type': 'Thing',
+						name: 'Enneagram of Personality',
+						sameAs: 'https://en.wikipedia.org/wiki/Enneagram_of_Personality'
+					},
+					{
+						'@type': 'Thing',
+						name: 'Famous people personality analysis'
+					}
+				],
 				publisher: {
 					'@type': 'Organization',
 					name: '9takes',
@@ -80,23 +131,46 @@
 						url: `https://9takes.com/personality-analysis/categories/${category.slug}`,
 						description: category.summary
 					}))
-				}
+				},
+				hasPart: allCategories.map((category) => ({
+					'@type': 'CollectionPage',
+					name: category.label,
+					url: `${canonicalUrl}/${category.slug}`,
+					description: category.seoDescription
+				}))
+			},
+			{
+				'@type': 'FAQPage',
+				'@id': `${canonicalUrl}#faq`,
+				mainEntity: seoFaqs.map((faq) => ({
+					'@type': 'Question',
+					name: faq.question,
+					acceptedAnswer: {
+						'@type': 'Answer',
+						text: faq.answer
+					}
+				}))
 			}
 		]
 	}));
 </script>
 
-<svelte:head>
-	{@html `<script type="application/ld+json">${JSON.stringify(structuredData)}</script>`}
-</svelte:head>
-
 <SEOHead
-	title="Personality Analysis by Category: Film, Music, Tech & More | 9takes"
-	description={`Browse ${data.totalPeople} famous personality analyses across ${allCategories.length} categories — film & TV, musicians, creators, politicians, tech founders, comedians, and authors. Each profile decoded through the Enneagram.`}
-	canonical="https://9takes.com/personality-analysis/categories"
+	title={seoTitle}
+	description={seoDescription}
+	canonical={canonicalUrl}
 	twitterCardType="summary_large_image"
 	ogImage="https://9takes.com/personality-analysis-card.webp"
 	author="9takes"
+	twitterImageAlt="Browse famous people personality analysis by category on 9takes"
+	jsonLd={structuredData}
+	additionalMeta={[
+		{ name: 'keywords', content: seoKeywords },
+		{
+			name: 'googlebot',
+			content: 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1'
+		}
+	]}
 />
 
 <div class="page-shell">

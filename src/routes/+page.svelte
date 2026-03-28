@@ -288,7 +288,6 @@
 				...buildBreadcrumbSchemaForGraph([{ name: 'Home', url: siteUrl }])
 			},
 			{
-				'@type': 'FAQPage',
 				'@id': faqId,
 				...buildFAQSchemaForGraph(faqItems)
 			}
@@ -380,6 +379,7 @@
 	<meta property="og:image" content="https://9takes.com/greek_pantheon.png" />
 	<meta property="og:image:width" content="1200" />
 	<meta property="og:image:height" content="630" />
+	<meta property="og:image:alt" content="9takes - One situation, 9 ways to see it" />
 	<meta property="og:locale" content="en_US" />
 
 	<!-- Twitter -->

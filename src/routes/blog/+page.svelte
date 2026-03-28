@@ -10,6 +10,18 @@
 
 	let { data }: { data: PageData } = $props();
 
+	type BlogCardPost = PageData['popCulture'][number];
+	type BlogCardPerson = PageData['people'][number];
+	type BlogCard = BlogCardPost | BlogCardPerson;
+
+	function isPersonCard(blog: BlogCard): blog is BlogCardPerson {
+		return 'enneagram' in blog;
+	}
+
+	function isPostCard(blog: BlogCard): blog is BlogCardPost {
+		return 'title' in blog;
+	}
+
 	const sections = [
 		{
 			id: 'pop-culture',
@@ -69,25 +81,50 @@
 
 	const jsonLd = {
 		'@context': 'https://schema.org',
-		'@type': 'CollectionPage',
-		name: 'Personality & Enneagram Blog',
-		description:
-			'Explore personality through pop culture psychology, famous people analysis, Enneagram deep dives, and practical guides.',
-		url: 'https://9takes.com/blog',
-		publisher: {
-			'@type': 'Organization',
-			name: '9takes',
-			url: 'https://9takes.com'
-		},
-		mainEntity: {
-			'@type': 'ItemList',
-			itemListElement: sections.map((section, index) => ({
-				'@type': 'ListItem',
-				position: index + 1,
-				name: section.title,
-				url: `https://9takes.com${section.href}`
-			}))
-		}
+		'@graph': [
+			{
+				'@type': 'CollectionPage',
+				'@id': 'https://9takes.com/blog#webpage',
+				name: 'Personality & Enneagram Blog',
+				description:
+					'Explore personality through pop culture psychology, famous people analysis, Enneagram deep dives, and practical guides.',
+				url: 'https://9takes.com/blog',
+				inLanguage: 'en-US',
+				publisher: {
+					'@type': 'Organization',
+					name: '9takes',
+					url: 'https://9takes.com'
+				},
+				breadcrumb: { '@id': 'https://9takes.com/blog#breadcrumb' },
+				mainEntity: {
+					'@type': 'ItemList',
+					itemListElement: sections.map((section, index) => ({
+						'@type': 'ListItem',
+						position: index + 1,
+						name: section.title,
+						url: `https://9takes.com${section.href}`
+					}))
+				}
+			},
+			{
+				'@type': 'BreadcrumbList',
+				'@id': 'https://9takes.com/blog#breadcrumb',
+				itemListElement: [
+					{
+						'@type': 'ListItem',
+						position: 1,
+						name: 'Home',
+						item: 'https://9takes.com'
+					},
+					{
+						'@type': 'ListItem',
+						position: 2,
+						name: 'Blog',
+						item: 'https://9takes.com/blog'
+					}
+				]
+			}
+		]
 	};
 </script>
 
@@ -132,19 +169,20 @@
 
 				<div class="blog-grid">
 					{#each data[section.key] as blog}
-						{@const isPerson = section.isPerson}
-						{@const pic = 'pic' in blog ? blog.pic : null}
+						{@const personCard = isPersonCard(blog) ? blog : null}
+						{@const postCard = isPostCard(blog) ? blog : null}
+						{@const pic = postCard?.pic ?? null}
 						<a
-							href={isPerson
-								? buildPersonalityAnalysisPath(blog.slug)
+							href={personCard
+								? buildPersonalityAnalysisPath(personCard.slug)
 								: `${section.linkPrefix}/${blog.slug}`}
 							class="blog-card"
-							class:has-image={pic || isPerson}
+							class:has-image={pic || Boolean(personCard)}
 						>
-							{#if isPerson && blog.enneagram}
+							{#if personCard?.enneagram}
 								<div
 									class="card-image"
-									style={`background-image: url(${buildPersonalityImagePath(blog.enneagram, blog.slug, 'thumbnail')});`}
+									style={`background-image: url(${buildPersonalityImagePath(personCard.enneagram, personCard.slug, 'thumbnail')});`}
 								></div>
 							{:else if pic}
 								<div class="card-image" style="background-image: url(/blogs/s-{pic}.webp);"></div>
@@ -152,14 +190,14 @@
 							<div class="card-overlay"></div>
 							<div class="card-content">
 								<h3>
-									{#if isPerson && blog.slug}
-										{formatPersonalityDisplayName(blog.slug)}
-									{:else}
-										{blog.title}
+									{#if personCard}
+										{formatPersonalityDisplayName(personCard.slug)}
+									{:else if postCard}
+										{postCard.title}
 									{/if}
 								</h3>
-								{#if !isPerson && blog.description}
-									<p>{blog.description}</p>
+								{#if postCard?.description}
+									<p>{postCard.description}</p>
 								{/if}
 							</div>
 						</a>

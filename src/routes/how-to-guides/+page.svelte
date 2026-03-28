@@ -5,7 +5,7 @@
 	import ArrowRightIcon from '$lib/components/icons/arrowRightIcon.svelte';
 	import SEOHead from '$lib/components/SEOHead.svelte';
 	import FAQSection from '$lib/components/blog/FAQSection.svelte';
-	import { buildFAQSchema } from '$lib/utils/schema';
+	import { buildBreadcrumbSchemaForGraph, buildFAQSchemaForGraph } from '$lib/utils/schema';
 
 	let { data }: { data: PageData } = $props();
 
@@ -56,15 +56,44 @@
 		}
 	];
 
-	// Build FAQ schema for SEO
-	const faqSchema = buildFAQSchema(guidesFAQs);
+	const jsonLd = {
+		'@context': 'https://schema.org',
+		'@graph': [
+			{
+				'@type': 'CollectionPage',
+				'@id': 'https://9takes.com/how-to-guides#webpage',
+				name: 'How-To Guides | Practical Life Advice | 9takes',
+				description:
+					'Practical guides to help you navigate life, relationships, and personal growth with the Enneagram.',
+				url: 'https://9takes.com/how-to-guides',
+				inLanguage: 'en-US',
+				publisher: {
+					'@type': 'Organization',
+					name: '9takes',
+					url: 'https://9takes.com'
+				},
+				breadcrumb: { '@id': 'https://9takes.com/how-to-guides#breadcrumb' }
+			},
+			{
+				'@id': 'https://9takes.com/how-to-guides#breadcrumb',
+				...buildBreadcrumbSchemaForGraph([
+					{ name: 'Home', url: 'https://9takes.com' },
+					{ name: 'How-To Guides', url: 'https://9takes.com/how-to-guides' }
+				])
+			},
+			{
+				'@id': 'https://9takes.com/how-to-guides#faq',
+				...buildFAQSchemaForGraph(guidesFAQs)
+			}
+		]
+	};
 </script>
 
 <SEOHead
 	title="How-To Guides | Practical Life Advice | 9takes"
 	description="Practical guides to help you navigate life, relationships, and personal growth with the Enneagram."
 	canonical="https://9takes.com/how-to-guides"
-	jsonLd={faqSchema}
+	{jsonLd}
 />
 
 <div class="page-wrapper">

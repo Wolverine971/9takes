@@ -15,7 +15,8 @@
 - Full index: https://9takes.com/llms-full.txt
 - Enneagram Corner: https://9takes.com/enneagram-corner
 - Personality Analysis: https://9takes.com/personality-analysis
-- Personality Analysis Categories: https://9takes.com/personality-analysis/categories
+- Personality Analysis by Category: https://9takes.com/personality-analysis/categories
+- Personality Analysis by Enneagram Type: https://9takes.com/personality-analysis/type/1 (through /type/9)
 - Questions: https://9takes.com/questions
 - How-To Guides: https://9takes.com/how-to-guides
 - Community: https://9takes.com/community

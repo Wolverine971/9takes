@@ -3,6 +3,10 @@
 	import { page } from '$app/stores';
 </script>
 
+<svelte:head>
+	<meta name="robots" content="noindex, nofollow" />
+</svelte:head>
+
 <div>
 	<h1>{$page.status} {$page?.error?.message}</h1>
 

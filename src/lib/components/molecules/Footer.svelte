@@ -13,6 +13,7 @@
 
 	// Blog section links (from navbar dropdown)
 	const blogLinks = [
+		{ href: '/blog', label: 'All Blog Topics' },
 		{ href: '/community', label: 'The Takes of 9takes' },
 		{ href: '/enneagram-corner', label: 'Enneagram Corner' },
 		{ href: '/personality-analysis', label: 'Personality Analysis' },
@@ -37,7 +38,7 @@
 	];
 
 	// Helper functions
-	$: isActive = (path) =>
+	$: isActive = (path: string) =>
 		$page.url.pathname === path || ($page.url.pathname.startsWith(path) && path !== '/');
 	$: homeUrl = $page.url.pathname.includes('9takes') ? 'https://9takes.com' : '/';
 	$: currentYear = new Date().getFullYear();

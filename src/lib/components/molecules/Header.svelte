@@ -31,6 +31,7 @@
 	];
 
 	const blogItems = [
+		{ href: '/blog', label: 'All Blog Topics' },
 		{ href: '/community', label: 'The Takes of 9takes' },
 		{ href: '/enneagram-corner', label: 'Enneagram Corner' },
 		{ href: '/personality-analysis', label: 'Personality Analysis' },

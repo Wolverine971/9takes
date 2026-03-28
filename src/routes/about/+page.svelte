@@ -28,8 +28,10 @@
 		content="9takes shows you HOW different personality types see the same situation. Break out of your perspective bubble."
 	/>
 	<meta property="og:image" content="https://9takes.com/brand/aero.png" />
+	<meta property="og:image:alt" content="9takes brand mark" />
 	<meta property="og:url" content="https://9takes.com/about" />
 	<meta property="og:type" content="website" />
+	<meta property="og:locale" content="en_US" />
 
 	<!-- Twitter Card -->
 	<meta name="twitter:card" content="summary_large_image" />
@@ -41,6 +43,7 @@
 		content="500 million people share opinions online every day. Almost none change their minds. 9takes fixes that."
 	/>
 	<meta name="twitter:image" content="https://9takes.com/brand/aero.png" />
+	<meta name="twitter:image:alt" content="9takes brand mark" />
 
 	<!-- Structured Data for Person and Organization -->
 	<script type="application/ld+json">

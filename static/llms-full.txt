@@ -55,20 +55,26 @@ Use this file for article-level discovery when you need more than the summary in
 
 ## Public-figure analysis hubs
 
-- https://9takes.com/personality-analysis/type/1
-- https://9takes.com/personality-analysis/type/2
-- https://9takes.com/personality-analysis/type/3
-- https://9takes.com/personality-analysis/type/4
-- https://9takes.com/personality-analysis/type/5
-- https://9takes.com/personality-analysis/type/6
-- https://9takes.com/personality-analysis/type/7
-- https://9takes.com/personality-analysis/type/8
-- https://9takes.com/personality-analysis/type/9
-- https://9takes.com/personality-analysis/categories/film-tv
-- https://9takes.com/personality-analysis/categories/music
-- https://9takes.com/personality-analysis/categories/creator-media
-- https://9takes.com/personality-analysis/categories/politics-public
-- https://9takes.com/personality-analysis/categories/tech-business
+### By Enneagram type
+- https://9takes.com/personality-analysis/type/1 - Famous Type 1 (The Perfectionist) personalities
+- https://9takes.com/personality-analysis/type/2 - Famous Type 2 (The Helper) personalities
+- https://9takes.com/personality-analysis/type/3 - Famous Type 3 (The Achiever) personalities
+- https://9takes.com/personality-analysis/type/4 - Famous Type 4 (The Individualist) personalities
+- https://9takes.com/personality-analysis/type/5 - Famous Type 5 (The Investigator) personalities
+- https://9takes.com/personality-analysis/type/6 - Famous Type 6 (The Loyalist) personalities
+- https://9takes.com/personality-analysis/type/7 - Famous Type 7 (The Enthusiast) personalities
+- https://9takes.com/personality-analysis/type/8 - Famous Type 8 (The Challenger) personalities
+- https://9takes.com/personality-analysis/type/9 - Famous Type 9 (The Peacemaker) personalities
+
+### By category
+- https://9takes.com/personality-analysis/categories - Browse all categories
+- https://9takes.com/personality-analysis/categories/film-tv - Actors and screen celebrities
+- https://9takes.com/personality-analysis/categories/music - Musicians and artists
+- https://9takes.com/personality-analysis/categories/creator-media - YouTubers, podcasters, and internet personalities
+- https://9takes.com/personality-analysis/categories/politics-public - Politicians and public figures
+- https://9takes.com/personality-analysis/categories/tech-business - Tech founders and business leaders
+- https://9takes.com/personality-analysis/categories/comedy - Comedians
+- https://9takes.com/personality-analysis/categories/authors-thinkers - Authors and thinkers
 
 ## Pop culture analysis examples
 

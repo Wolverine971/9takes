@@ -522,6 +522,61 @@
 		<!-- Use dns-prefetch instead of preconnect for lighter initial load -->
 		<link rel="dns-prefetch" href="https://www.googletagmanager.com" />
 	{/if}
+
+	<!-- Site-wide Organization + WebSite schema (every page inherits site identity) -->
+	{@html `<script type="application/ld+json">${JSON.stringify({
+		'@context': 'https://schema.org',
+		'@graph': [
+			{
+				'@type': 'Organization',
+				'@id': 'https://9takes.com/#organization',
+				name: '9takes',
+				url: 'https://9takes.com',
+				description:
+					'9takes helps people decode social dynamics, personality patterns, and emotional blind spots using the Enneagram.',
+				foundingDate: '2022',
+				founder: { '@id': 'https://9takes.com/about/#person' },
+				logo: {
+					'@type': 'ImageObject',
+					url: 'https://9takes.com/brand/aero.png',
+					width: 512,
+					height: 512
+				},
+				contactPoint: [
+					{
+						'@type': 'ContactPoint',
+						contactType: 'customer support',
+						email: 'usersup@9takes.com',
+						url: 'https://9takes.com/about',
+						availableLanguage: ['English']
+					}
+				],
+				sameAs: ['https://www.instagram.com/9takesdotcom/', 'https://twitter.com/9takesdotcom']
+			},
+			{
+				'@type': 'Person',
+				'@id': 'https://9takes.com/about/#person',
+				name: 'DJ Wayne',
+				jobTitle: 'Founder',
+				description:
+					'Founder of 9takes, a former USMC infantry Marine turned software entrepreneur who writes about personality, self-awareness, and the Enneagram.',
+				image: 'https://9takes.com/brand/djface.webp',
+				url: 'https://9takes.com/about',
+				worksFor: { '@id': 'https://9takes.com/#organization' },
+				sameAs: ['https://twitter.com/djwayne3', 'https://www.linkedin.com/in/djwayne3']
+			},
+			{
+				'@type': 'WebSite',
+				'@id': 'https://9takes.com/#website',
+				name: '9takes',
+				url: 'https://9takes.com',
+				description:
+					'An Enneagram site for personality analysis, emotional intelligence, and understanding social dynamics.',
+				publisher: { '@id': 'https://9takes.com/#organization' },
+				inLanguage: 'en-US'
+			}
+		]
+	})}</script>`}
 </svelte:head>
 
 <svelte:window bind:innerWidth bind:scrollY />

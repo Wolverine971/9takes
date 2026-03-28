@@ -18,7 +18,7 @@ path: src/blog/community/consensus-on-human-nature.md
 <script>
 	import  PopCard  from "$lib/components/atoms/PopCard.svelte";
 	const pinkerVideoUrl = "https://www.youtube.com/embed/qdzNKQwkp-Y?clip=Ugkx11XnGz8VeWrGta-a6JkOjd8jug3kSFB3&clipt=EOjvARjzygM";
-	const haidtVideoUrl = "https://www.youtube.com/embed/tLRCS48Ens4?si=Jt2NsKputVcqcHfy&start=1221";
+	const hubermanVideoUrl = "https://www.youtube.com/embed/tLRCS48Ens4?si=Jt2NsKputVcqcHfy&start=1221";
 </script>
 
 <svelte:head>
@@ -52,7 +52,7 @@ path: src/blog/community/consensus-on-human-nature.md
     ]
   },
   "datePublished": "2023-05-13",
-  "dateModified": "2024-04-05",
+  "dateModified": "2026-02-21",
   "url": "https://9takes.com/community/consensus-on-human-nature",
   "image": {
     "@type": "ImageObject",
@@ -123,21 +123,6 @@ Aristotle and Pinker both offer something reassuring: a clean framework. Be rati
 
 But Plato and Freud saw something that pure rationality can't explain. Why do smart people make terrible decisions? Why do we sabotage ourselves? Why do entire societies act against their own interests? If rationality were the whole story, none of that would happen.
 
-<div
-    style="display: flex;
-    justify-content: center;
-margin: 2rem 0;"
->
- <PopCard
-        image={`/blogs/greeks-debating-human-nature.webp`}
-        showIcon={false}
-        tint={false}
-        displayText=""
-        altText="Greeks debating human nature"
-        subtext=""
-    />
-</div>
-
 ## Plato and Freud's concepts side by side
 
 The parallels between Plato and Freud aren't vague. They map directly onto each other:
@@ -198,7 +183,7 @@ This isn't just ancient philosophy. Modern neuroscience is saying the same thing
 [Andrew Huberman](https://www.youtube.com/@hubermanlab) and psychiatrist Dr. Paul Conti, M.D. (who trained at Stanford School of Medicine) discuss this exact iceberg model on the Huberman Lab podcast. Their key point: what we're consciously aware of — our rational thoughts — sits on top of a vast unconscious structure that drives most of our behavior. The conscious mind doesn't run the show nearly as much as we think it does.
 
 <div class="iframe-container" >
-<iframe width="100%" height="315" loading="lazy" src={haidtVideoUrl} title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="100%" height="315" loading="lazy" src={hubermanVideoUrl} title="Huberman and Conti on the iceberg model of consciousness" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
 
 Huberman and Conti developed their own version of the iceberg model (<a class="external-link" target="_blank" rel="noreferrer" href="https://hubermanlab.com/wp-content/uploads/2023/09/The-Iceberg-Model.pdf">view the full PDF here</a>) that breaks down the layers of consciousness in clinical terms. The takeaway is the same one Plato and Freud arrived at: rational thought is real and valuable, but it's only the visible tip of a much larger structure.
@@ -255,43 +240,3 @@ If human nature really does operate on three dimensions, the implications are pr
 Which might be exactly why the Aristotle/Pinker view keeps winning the popularity contest. It's not that rationality isn't valuable — it is. It's that the other two dimensions are harder to examine, harder to talk about, and harder to admit you're governed by.
 
 The three-part model keeps showing up because it's true. The question isn't whether human nature has these three dimensions. The question is whether you're willing to look at all three in yourself — or just the one that feels safest.
-
-<!--
-
-## Reader Feedback (DJ - review and delete this section)
-
-### What's missing / could be expanded:
-
-1. **The triune brain model gets one sentence but it's doing heavy lifting in your argument.** You drop MacLean's name in the comparison table section and move on. But this is your neuroscience evidence — the thing that bridges ancient philosophy to modern science. Give it a real paragraph. What did MacLean actually observe? Why did he land on three layers independently?
-
-2. **The Enneagram connection feels rushed for a 9takes article.** It shows up late, gets a couple paragraphs, and then you move on to the conclusion. This is YOUR framework — the thing that ties it all together and makes 9takes different. A concrete example would help here: pick a real scenario (a workplace disagreement, a relationship conflict) and show how a head-center person vs. a heart-center person vs. a gut-center person would each process it differently. That would make the abstract argument click.
-
-3. **No counter-arguments addressed.** A skeptical reader is going to think: "Okay, but lots of things come in threes — that could just be a human pattern-matching bias." You should name that objection and respond to it. Also, the triune brain model has actually been criticized pretty heavily by modern neuroscientists (the brain doesn't really have three cleanly separated layers). If a reader Googles that, it could undermine your whole piece. Better to acknowledge the criticism and explain why the *pattern* still holds even if MacLean's specific anatomy was oversimplified.
-
-4. **No concrete real-world examples.** The "What This Actually Means" section makes three big claims but doesn't illustrate any of them. "A relationship falling apart because of unprocessed shame" — give me a specific scenario so I can feel it. Right now those bullet points read like thesis statements without the supporting paragraphs.
-
-### What's overdone / could be trimmed:
-
-1. **The Plato-Freud parallel is stated three times.** You explain it in prose, show it in a comparison table, and then reference it again later ("Two frameworks separated by millennia, arriving at the same architecture"). The table is great — it makes the point visually. You could trim the surrounding prose and trust the table to do its job.
-
-2. **"The three-part model keeps showing up" is repeated in slightly different words at least 4 times** (intro, end of Plato/Freud section, "The Pattern That Won't Go Away" header, and the conclusion). Once you make this point clearly, you don't need to keep re-landing it. It starts feeling like you don't trust the reader to get it.
-
-3. **Pinker is introduced twice with similar framing.** He gets described in the Aristotle comparison AND gets his own section with another description of his argument. These could be consolidated — introduce him once, thoroughly, and then reference back.
-
-### Structural notes:
-
-1. **The Huberman/Conti section feels like a detour.** It supports the iceberg metaphor but doesn't directly advance your three-part model argument. The iceberg model is about conscious vs. unconscious — which is a two-part split, not a three-part one. Consider either tying it more explicitly to the three dimensions or trimming it down.
-
-2. **The transition from "Why We Default to Rationality" into the Huberman section is abrupt.** You're explaining why people focus on rationality (because it's accessible), and then suddenly you're summarizing a podcast. A bridge sentence connecting Freud's iceberg idea to its modern validation would smooth this out.
-
-3. **The conclusion is strong but could hit harder with a callback.** You end with a good challenge to the reader, but it could be even better if you circled back to a specific example from earlier in the piece. Right now the ending is slightly abstract.
-
-### Minor:
-
-- The emoji column in the first table (🧠❤️💪) is a nice touch but having it in both tables feels like a design choice that slightly cheapens the second, more important table.
-- The Huberman Lab PDF link may break over time — worth checking periodically or summarizing the key points so the argument doesn't depend on it.
-
--->
-
-<style lang="scss">
-</style>

@@ -5,7 +5,7 @@
 	import ArrowRightIcon from '$lib/components/icons/arrowRightIcon.svelte';
 	import SEOHead from '$lib/components/SEOHead.svelte';
 	import FAQSection from '$lib/components/blog/FAQSection.svelte';
-	import { buildFAQSchema } from '$lib/utils/schema';
+	import { buildBreadcrumbSchemaForGraph, buildFAQSchemaForGraph } from '$lib/utils/schema';
 
 	let { data }: { data: PageData } = $props();
 
@@ -62,15 +62,44 @@
 		}
 	];
 
-	// Build FAQ schema for SEO
-	const faqSchema = buildFAQSchema(communityFAQs);
+	const jsonLd = {
+		'@context': 'https://schema.org',
+		'@graph': [
+			{
+				'@type': 'CollectionPage',
+				'@id': 'https://9takes.com/community#webpage',
+				name: '9takes Community | Ideas & Inspiration',
+				description:
+					'Discover the inspiration and ideas behind 9takes. Explore our community blog posts.',
+				url: 'https://9takes.com/community',
+				inLanguage: 'en-US',
+				publisher: {
+					'@type': 'Organization',
+					name: '9takes',
+					url: 'https://9takes.com'
+				},
+				breadcrumb: { '@id': 'https://9takes.com/community#breadcrumb' }
+			},
+			{
+				'@id': 'https://9takes.com/community#breadcrumb',
+				...buildBreadcrumbSchemaForGraph([
+					{ name: 'Home', url: 'https://9takes.com' },
+					{ name: 'Community', url: 'https://9takes.com/community' }
+				])
+			},
+			{
+				'@id': 'https://9takes.com/community#faq',
+				...buildFAQSchemaForGraph(communityFAQs)
+			}
+		]
+	};
 </script>
 
 <SEOHead
 	title="9takes Community | Ideas & Inspiration"
 	description="Discover the inspiration and ideas behind 9takes. Explore our community blog posts."
 	canonical="https://9takes.com/community"
-	jsonLd={faqSchema}
+	{jsonLd}
 />
 
 <div class="page-wrapper">

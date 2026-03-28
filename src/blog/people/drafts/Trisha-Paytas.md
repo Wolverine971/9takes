@@ -72,9 +72,9 @@ Here's a detail that tells you everything: Trisha Paytas's first identity on the
 
 In 2007, she created a YouTube channel called blndsundoll4mj — "blind sundoll for MJ" — and dedicated it entirely to filmmaker Quentin Tarantino. Her Facebook name was once Trisha Tarantino. She posted odes, covers, and fan content about a man she'd never met. Before she was famous for being herself, she was famous for being obsessed with someone else.
 
-She'd moved to Los Angeles to become an actress. The dream hit concrete immediately. She worked as a lingerie model, a stripper, and an extra on television sets where nobody learned her name. She appeared on _The Greg Behrendt Show_, _Who Wants to Be a Superhero?_, and _The Ellen DeGeneres Show_ — blink-and-miss-it moments that went nowhere.
+She'd moved to Los Angeles to become an actress. The dream hit concrete immediately. She worked as a lingerie model, a stripper, and an extra on television sets where nobody learned her name. She was a correspondent for _The Greg Behrendt Show_, which was cancelled after one season. She lasted four episodes on _Who Wants to Be a Superhero?_. She appeared as "Plastic Surgery Girl" on _Modern Family_ and danced next to a car in Eminem's "We Made You" music video. On _America's Got Talent_, three judges buzzed her out within ten seconds.
 
-"I was broke," she said later. "I thought, 'How can I make a lot of money? Let me just, you know, troll the internet and make money in any way that I possibly could.'"
+"I was broke," she said later. "I thought, 'How can I make a lot of money? Let me just, you know, troll the internet and make money in any way that I possibly could.'" But years later, she'd admit the real motive: "I was lonely and I didn't think anyone else felt the way I did." A fan once told her that as a lonely, closeted tween, watching Trisha's videos felt "like I had a friend." The money was real. The loneliness was realer.
 
 Substance abuse followed. At a party, someone handed her what they said was cocaine. It was methamphetamine. She was nineteen. An overdose on prescription pills landed her in a hospital, where she woke up on a gurney, naked, trying to run. They restrained her and forced a shot of Ativan into her thigh. She later called it "the scariest night of my life from what I remember." Between ages 19 and 22, the Hollywood dream became survival, and survival became performance — if she couldn't be someone the industry wanted, she'd be someone the internet couldn't look away from.
 
@@ -190,7 +190,7 @@ The career transformation is staggering — and it happened fast.
 
 SNL cast her as herself in a Spotify Wrapped parody in December 2024. Two months later, she headlined a benefit show at the St. James Theatre, sharing the stage with Sutton Foster, Ben Platt, and Rachel Zegler. By November 2025, she was performing eight shows a week as Maxine Dean in _Beetlejuice: The Musical_ at The Palace Theatre.
 
-On her opening night, the audience brought the show to a standstill with entrance applause — a rare honor on Broadway, especially for a debut. Then she broke a chair during the Act I finale. "I fell over!" she told People afterward.
+On her opening night, the audience brought the show to a standstill with entrance applause — a rare honor on Broadway, especially for a debut. Then she broke a chair during the Act I finale. "I fell over!" she told People afterward. "I think I owe a lot, obviously, to the people who support me, because that's why this is all possible," she said. "Even though I have 11 million followers on TikTok, to see even 100 of them come out is very overwhelming."
 
 The _Eras of Trish_ tour sold out 30+ cities — part concert, part retrospective, part therapy session. She sang while a montage of her life played behind her: the early career, the wedding, the births. A Type 4 act of reclamation — assembling all the fractured selves into a single narrative and daring the audience to watch the whole thing.
 
@@ -213,31 +213,3 @@ Or it might not. The Broadway role was literally playing a character. The growth
 "I've showed so many different versions of me that were not me," she said. "Now I think just being myself has been the most rewarding. I was doing it wrong the whole time."
 
 After seventeen years, tens of thousands of videos, and three children named like declarations of independence — she might actually believe that.
-
-<!--
-## Reader Review Notes (2026-03-27)
-
-### What landed well
-- The opening with the trash bag video is a killer hook. Immediately makes me want to keep reading.
-- "She overshares everything. Nobody knows her. That contradiction isn't a marketing strategy. It's the wound." — Best line in the piece. That's the thesis and it hits.
-- The blndsundoll4mj section is great — the detail that her first internet identity was literally someone else's initials is perfect evidence for the Type 4 argument without being heavy-handed.
-- The meth/overdose story is handled well. Matter-of-fact, no sensationalism.
-- Moses section earns its emotional weight. "The sound of someone discovering they might be worth something apart from the performance" — that's a genuinely good sentence.
-- The Beetlejuice/Broadway arc is satisfying. The chair-breaking detail keeps it human.
-
-### What could be expanded
-- The Frenemies section feels rushed for how important it was to her public story. You mention it imploded but don't really dig into what that period did to her psychologically. For a lot of readers, Frenemies IS how they know Trisha. It deserves another paragraph or two — what made it work, why it specifically hurt when it ended, how it connects to the Type 4 pattern of intense connection followed by rupture.
-- The eating disorder / mukbang connection is introduced in the childhood section but never really comes back. You mention binge eating as a shame engine in the TL;DR but the body of the article drops that thread. For someone whose relationship with food was so central to her content (and her pain), this feels like a gap.
-- The 3 wing paragraph is interesting but could use a concrete example or two. You say the ambition is the wound's loudest expression — show me that with a specific moment. The 30-city tour and CAA signing are mentioned later but aren't connected back to the wing discussion.
-- Her relationship with her audience is underexplored. She has one of the most complicated creator-audience dynamics ever. The audience simultaneously bullied her, enabled her, and kept her going. That push-pull deserves a beat.
-
-### What felt overdone or could be trimmed
-- The ending hedges too much. You do the "or it might not" reversal which is smart, but then you also restate the "is this one me?" question which you've already established multiple times. The piece earns a more confident landing. Pick either the skeptical hedge OR the poetic restatement, not both.
-- "That's not a rebrand. That's integration." and "That's not clever. It's a confession." — You use this [short declarative]. [Shorter reframe] structure at least 3-4 times. It's effective the first time or two but starts to feel like a tic. Cut one or two instances.
-- The parenthetical about Jake Paul and Logan Paul feels like a detour. You're making a point about the quality of her trolling vs. calculated trolling, but the comparison pulls the reader out of Trisha's story for a beat. Could be tightened to just "it wasn't calculated provocation" without naming other creators.
-
-### Minor stuff
-- "Between ages 19 and 22, the Hollywood dream became survival, and survival became performance" — good line but it's doing a lot of summary work for what was clearly a complex period. If you have another specific anecdote from those years it would anchor it better.
-- The transition from the Moses/marriage section into the motherhood section could be smoother. It jumps from "Moses stayed" to "Malibu Barbie was born" without much connective tissue about what that stable period looked like before the kids arrived.
-- Three kids named Malibu Barbie, Elvis, and Aquaman — that's inherently entertaining and you handle it well, but you could briefly note how even her kids' names reflect the Type 4 tendency toward the dramatic/unique. It's right there.
--->

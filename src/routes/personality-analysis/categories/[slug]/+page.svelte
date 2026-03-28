@@ -33,11 +33,11 @@
 		`https://9takes.com/personality-analysis/categories/${data.category.slug}`
 	);
 
-	const seoTitle = $derived(`${data.category.label} Enneagram & Personality Types | 9takes`);
+	const seoTitle = $derived(data.category.seoTitle);
 
-	const seoDescription = $derived(
-		`${data.people.length} ${data.category.shortLabel.toLowerCase()} personality analyses decoded through the Enneagram. ${data.category.intro}`
-	);
+	const seoDescription = $derived(data.category.seoDescription);
+
+	const seoKeywords = $derived(data.category.seoKeywords.join(', '));
 
 	const structuredData = $derived.by(() => ({
 		'@context': 'https://schema.org',
@@ -72,11 +72,13 @@
 			},
 			{
 				'@type': 'CollectionPage',
+				'@id': canonicalUrl,
 				name: `${data.category.label} Personality Analysis`,
 				description: seoDescription,
 				url: canonicalUrl,
 				inLanguage: 'en-US',
 				...(data.latestUpdate ? { dateModified: data.latestUpdate } : {}),
+				keywords: seoKeywords,
 				isPartOf: {
 					'@type': 'CollectionPage',
 					name: 'Personality Analysis Categories',
@@ -104,6 +106,7 @@
 				},
 				mainEntity: {
 					'@type': 'ItemList',
+					'@id': `${canonicalUrl}#people`,
 					numberOfItems: data.people.length,
 					itemListOrder: 'https://schema.org/ItemListUnordered',
 					itemListElement: data.people.map((person, index) => ({
@@ -115,15 +118,29 @@
 							? { description: person.personaTitle ?? person.description }
 							: {})
 					}))
-				}
+				},
+				hasPart: data.groups.map((group) => ({
+					'@type': 'WebPageElement',
+					name: group.label,
+					description: group.description,
+					url: `${canonicalUrl}#${group.slug}`
+				}))
+			},
+			{
+				'@type': 'FAQPage',
+				'@id': `${canonicalUrl}#faq`,
+				mainEntity: data.category.seoFaqs.map((faq) => ({
+					'@type': 'Question',
+					name: faq.question,
+					acceptedAnswer: {
+						'@type': 'Answer',
+						text: faq.answer
+					}
+				}))
 			}
 		]
 	}));
 </script>
-
-<svelte:head>
-	{@html `<script type="application/ld+json">${JSON.stringify(structuredData)}</script>`}
-</svelte:head>
 
 <SEOHead
 	title={seoTitle}
@@ -132,6 +149,15 @@
 	twitterCardType="summary_large_image"
 	ogImage="https://9takes.com/personality-analysis-card.webp"
 	author="9takes"
+	twitterImageAlt={`${data.category.label} personality analysis on 9takes`}
+	jsonLd={structuredData}
+	additionalMeta={[
+		{ name: 'keywords', content: seoKeywords },
+		{
+			name: 'googlebot',
+			content: 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1'
+		}
+	]}
 />
 
 <div
