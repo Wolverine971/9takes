@@ -3,9 +3,9 @@ title: "Tyler, The Creator: Why He Can't Stop Reinventing Himself"
 meta_title: "Tyler The Creator's Psychology Explained: The Wound That Became His Art"
 description: "Tyler made fake albums at 7 before recording a single note. Decades later, his father wound fuels Grammy-winning reinvention. Here's the pattern driving it all."
 author: 'DJ Wayne'
-date: '2025-01-07'
+date: '2026-01-07'
 loc: 'https://9takes.com/personality-analysis/Tyler-The-Creator'
-lastmod: '2025-01-07'
+lastmod: '2026-01-07'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
@@ -33,11 +33,11 @@ But understanding Tyler isn't about listing achievements. It's about decoding wh
 <summary class="accordion">TL;DR: Why Tyler, The Creator is an Enneagram Type 4</summary>
 <div class="panel">
 <ul>
-<li><b>The Individualist's Core Wound:</b> Raised without his Nigerian father, Tyler built his identity around the feeling of being fundamentally "different." That absence became rocket fuel for his obsessive self-creation.</li>
-<li><b>Identity Through Art:</b> Type 4s don't make art. They ARE their art. Tyler's albums are "time capsules" of his emotional state: Goblin's dark rage, IGOR's heartbroken vulnerability, Chromakopia's maternal reconciliation.</li>
-<li><b>The Alter Ego Defense:</b> Early Tyler created characters like "Wolf Haley" to process dark emotions at a safe distance. Classic Type 4 strategy: exploring taboo aspects of identity without fully owning them.</li>
-<li><b>No Labels, No Explanations:</b> "Be yourself" isn't a platitude for Tyler. It's a survival mechanism. His refusal to explain his lyrics, his sexuality, or his reinventions reflects the Type 4's terror of being reduced to something legible and ordinary.</li>
-<li><b>Integration Through Creation:</b> Healthy Type 4s channel emotional intensity into beauty rather than wallowing. Tyler's evolution from shock-value lyrics to the sonic architecture of IGOR and Chromakopia shows what that growth looks like in real time.</li>
+<li><b>The Individualist's Core Wound:</b> Raised without his Nigerian father, Tyler built his identity around the feeling of being fundamentally "different." That absence drove everything that followed.</li>
+<li><b>Identity Through Art:</b> Type 4s don't make art. They ARE their art. Tyler's albums map his emotional evolution: Goblin's dark rage, IGOR's heartbroken vulnerability, Chromakopia's maternal reconciliation.</li>
+<li><b>The Alter Ego Defense:</b> Early Tyler created characters like "Wolf Haley" to process dark emotions at a safe distance — a classic Type 4 strategy for exploring taboo aspects of identity without fully owning them.</li>
+<li><b>Authenticity Over Legibility:</b> Tyler's refusal to explain his lyrics, his sexuality, or his reinventions reflects the Type 4's deep need for self-determination. Labels feel like cages.</li>
+<li><b>Integration Through Creation:</b> Healthy Type 4s channel emotional intensity into beauty rather than wallowing. Tyler's evolution from shock-value lyrics to the sonic architecture of IGOR and Chromakopia is that growth made audible.</li>
 </ul>
 </div>
 </details>
@@ -48,7 +48,7 @@ But understanding Tyler isn't about listing achievements. It's about decoding wh
 
 The [Enneagram Type 4](/enneagram-corner/enneagram-type-4), known as "The Individualist," runs on one core desire: to be singular, irreducible, and significant. They fear being ordinary. They fear having no personal identity. They fear being fundamentally flawed in a way that makes them unworthy of love.
 
-Tyler's entire career is one long exploration of identity, difference, and the terror of being invisible.
+Tyler's entire career runs on that fear — of being ordinary, of being invisible, of being just another guy who raps.
 
 From creating fake albums at seven to refusing industry-standard release dates ("Friday drops promote passive listening"), every choice points back to the same Type 4 question: _How do I prove I'm not like everyone else?_
 
@@ -64,9 +64,9 @@ Then came Chromakopia.
 
 On "Like Him," Tyler's mother Bonita Smith delivers a revelation that rewrote his entire narrative: _"It was my fault. Not him 'cause he always wanted to be there for you... He's a good guy."_
 
-For decades, Tyler built his identity partly on the story of an absent father who chose not to be there. Learning that story was wrong, that his father wanted him, created a seismic shift. The absence he'd organized his psyche around turned out to be a misunderstanding.
+For decades, Tyler built his identity partly on the story of an absent father who chose not to be there. Learning that story was wrong — that his father wanted him — cracked the foundation. The absence he'd organized his psyche around turned out to be a misunderstanding.
 
-That's Type 4 psychology in miniature: the wound becomes identity, identity becomes art, and then comes the terrifying possibility that the wound might heal.
+That's Type 4 psychology in miniature: you organize your whole self around an absence, and then someone tells you the absence was a mistake.
 
 ## Tyler, The Creator's Upbringing
 
@@ -76,7 +76,7 @@ Imagine trying to form an identity when your environment changes constantly. Whe
 
 For a Type 4, this is both torture and training. The constant displacement reinforced the feeling of being fundamentally different. But it also forced Tyler to develop an internal compass rather than relying on external validation. If nobody knew him, he had to know himself.
 
-His mother, Bonita Smith, raised him as a single parent. She holds a bachelor's degree in social work and now runs Inside Out Restorative, a wellness spa in Woodland Hills focused on making healing services accessible to the Black community. She appears on Tyler's albums, literally guiding him through his art as she guided him through childhood.
+His mother, Bonita Smith, raised him alone. She studied social work and now runs a wellness spa in Woodland Hills focused on healing services for the Black community. She appears on Tyler's albums — literally guiding him through his art the way she guided him through childhood.
 
 In eighth grade, Tyler got removed from drama class for being "too hyperactive." In ninth grade, he couldn't join band because he couldn't read music.
 
@@ -86,21 +86,23 @@ At 14, he taught himself piano. By 2007, at 16, he'd founded Odd Future Wolf Gan
 
 ## The Pharrell Blueprint
 
-If Tyler's father was the absence that shaped him, Pharrell Williams became the creative presence that showed him what was possible.
+If Tyler's father was the absence that shaped him, Pharrell Williams became the presence that filled part of the gap.
 
-Growing up, Tyler was obsessed with Pharrell and The Neptunes. One of the first respected personalities in hip-hop who didn't have a gangster aesthetic. In 2006, when Pharrell released his solo album _In My Mind_, 15-year-old Tyler was attending summer school at Hawthorne High and scouring German websites for album snippets.
+"I didn't have a father. I didn't have a big brother. I didn't have a big cousin. So as a kid, since 10 or 11, Pharrell is who I looked at."
 
-"I WAS WHAT YOU WOULD CALL A FANATIC, HOARDING ANY AND EVERY MAGAZINE I COULD FIND WITH THE NEPTUNES," Tyler wrote on the album's tenth anniversary.
+Growing up, Tyler was obsessed with Pharrell and The Neptunes — one of the first respected personalities in hip-hop who didn't have a gangster aesthetic. In 2006, when Pharrell released his solo album _In My Mind_, 15-year-old Tyler was attending summer school at Hawthorne High and scouring German websites for album snippets.
 
-Pharrell's influence runs deep: the colorful aesthetics, the genre-blending, the refusal to stay in one lane.
+On the album's tenth anniversary, Tyler posted an 800-word letter on Instagram. The central confession was unmistakable: "I NEVER HAD BROTHERS, UNCLES OR MY FATHER AROUND SO THANK YOU FOR BEING THE MALE FIGURE I GRAVITATED TO. ALLOWING ME TO EMBRACE BEING DIFFERENT AND TRUSTING MY IDEAS."
 
-When Tyler eventually worked with his idol on "IFHY" for his 2013 album _Wolf_, he called it one of the best moments of his life: "I've been wanting that since I was 11... not many people can say they were vocal producing Pharrell."
+This wasn't just fandom. For a fatherless kid building himself from scratch, Pharrell was proof of concept — evidence that you could be weird, colorful, genre-agnostic, and still win. "I'M NOW A YOUNG ENTREPRENEUR ALL BECAUSE I BELIEVED YOU WHEN YOU SAID I COULD BE."
 
-The mentorship continued. Pharrell told Tyler during a pivotal studio session: "You got it, you just don't see it. You got it, you got the shit." He passed along advice from Jimmy Iovine: "Make something undeniable and make it equally as infectious. Why are you doing music? Is it because you just want to look cool?"
+When Tyler eventually worked with his idol on "IFHY" for his 2013 album _Wolf_, he called it one of the best moments of his life. But the real turning point came during a studio session on a European tour. Pharrell challenged him directly: "Make something undeniable and make it equally as infectious. Why are you doing music? Is it just because you want to look cool? 'Cause that will burn out."
 
-By 2024, Tyler was calling Pharrell his "North Star" in the music industry. He even voiced Pharrell's teacher in the animated documentary _Piece by Piece_. The student now playing the mentor's mentor.
+Tyler's reaction: "Oh fuck. Okay, no more being silly. Music first." He's cited that conversation as the pivot point that led to _Flower Boy_ and everything after.
 
-For a Type 4 who grew up without a father, finding a creative model who proved you could be successful without filing down your weirdness — that changed the blueprint. Pharrell didn't just influence Tyler's sound. He proved the path existed.
+By 2024, Tyler was calling Pharrell his "North Star." He voiced Pharrell's teacher in the animated documentary _Piece by Piece_. The student playing the mentor's mentor.
+
+For a Type 4, finding a surrogate father figure through art is significant. Tyler didn't just absorb Pharrell's sound. He absorbed the permission to exist as himself — the thing a present father might have given him for free.
 
 ## Rise to Fame
 
@@ -132,47 +134,41 @@ Early videos for "French" and "VCR" were crude. Brashly edited skateboarding cli
 
 By the _Wolf_ era, Tyler had embraced the aesthetic Wes Anderson spent years perfecting: pastel colors, symmetrical shots, suburban teenage angst. His visual style became inseparable from his musical identity.
 
-The _IGOR_ videos elevated this further. Working with cinematographer Luis Panch Perez, Tyler shot everything on film. The "EARFQUAKE" video featured him on a talk show hosted by Tracee Ellis Ross. The "A BOY IS A GUN" mansion scenes dripped with vintage atmosphere. The colors were still pastel, but with more stately flourishes.
+The _IGOR_ videos elevated this further. Working with cinematographer Luis Panch Perez, Tyler shot everything on film. The "EARFQUAKE" video featured him on a talk show hosted by Tracee Ellis Ross. The "A BOY IS A GUN" mansion scenes dripped with vintage atmosphere. Still pastel, but more deliberate. More expensive.
 
 He's directed for others too (Pharrell, YG), but the through line is always the same: complete creative control. For someone who talks about everything being a "spider web" of interconnected expression, outsourcing the visuals would be like asking someone else to dream for you.
 
 ### The End of an Era
 
-By 2015, Odd Future was functionally over. No dramatic breakup announcement. Just a gradual dissolution as each member's individual career grew beyond the collective's constraints.
+By 2015, Odd Future was functionally over. No dramatic breakup announcement. Just a gradual dissolution as Tyler, Earl, Frank Ocean, and The Internet all outgrew a single banner. The youthful chaos that defined them couldn't survive into adulthood.
 
-The turning point came at Camp Flog Gnaw 2015, when Tyler and Earl didn't attend the Odd Future set due to scheduling conflicts. Hodgy Beats used the opportunity to call out Tyler on stage, sparking Twitter battles. "If it wasn't for Odd Future, where would Tyler be?" Hodgy asked, igniting fan debates about who deserved credit for the group's success.
-
-The truth was simpler: growing up means growing apart. Tyler, Earl, Frank Ocean, The Internet, they were all making increasingly diverse music that didn't fit under one banner. The youthful chaos that defined them couldn't survive into adulthood.
-
-The dissolution freed Tyler. His subsequent albums (_Cherry Bomb_, _Flower Boy_, _IGOR_) were his best work, unshackled from the Odd Future brand. Sometimes the death of a collective is the birth of individual artistry.
+The dissolution freed Tyler. His subsequent albums (_Cherry Bomb_, _Flower Boy_, _IGOR_) were his best work, unshackled from the collective brand. Sometimes the death of a group is the birth of individual artistry.
 
 ## The Artistic Evolution
 
-**Flower Boy (2017)** was the pivot. The album traded aggression for introspection, revealing loneliness, sexuality questions, and the desperate desire for connection. Songs like "See You Again" showed Tyler could create beauty without irony as a shield.
-
-**IGOR (2019)** went further. A concept album about unrequited love that was more Prince than Odd Future. It won the Grammy for Best Rap Album, though Tyler noted the category felt like a box: "I don't like that 'urban' word. It's just a politically correct way to say the n-word to me."
-
-**Call Me If You Get Lost (2021)** brought another Grammy and featured his mother's voice, beginning the family reconciliation that would culminate on Chromakopia.
+Each album after Odd Future shed another layer of armor. **Flower Boy (2017)** traded aggression for loneliness and desire. **IGOR (2019)** — a concept album about unrequited love, more Prince than Odd Future — won the Grammy for Best Rap Album. **Call Me If You Get Lost (2021)** brought a second Grammy and first featured his mother's voice, beginning the family reconciliation that would culminate on Chromakopia.
 
 **Chromakopia (2024)** represents Tyler at his most vulnerable and most anxious.
 
-The album opens with "St. Chroma," Tyler whispering over militaristic stomps, telling listeners to "Calm down, sit still." The message corresponds to his decision to release on Monday rather than Friday, demanding attention rather than passive consumption.
+The album opens with "St. Chroma," Tyler whispering over militaristic stomps, telling listeners to "Calm down, sit still." He released on a Monday instead of Friday — demanding attention, not passive consumption.
 
-The lead single "Noid" (a play on "paranoid") lays bare the isolating effects of fame. The lyrics are startlingly direct: "I think my neighbors want me dead, I got a cannon underneath the bed, triple checkin' if I locked the door. I know every creak that's in the floor."
+The lead single "Noid" (short for "paranoid") is Tyler at his most exposed. The lyrics are startlingly direct: "I think my neighbors want me dead, I got a cannon underneath the bed, triple checkin' if I locked the door. I know every creak that's in the floor."
 
 As Tyler told Billboard: "It's people saying that they can't relate to the song. Of course you can't. That's why I made the song, because you don't know what it's like not to go outside and not own yourself, people stealing from you, voice-recording you, following n---as home, people trying to trap you."
 
-The "Noid" music video features Tyler as his masked St. Chroma persona, pushing through fan crowds while hallucinating home invasions and car tails. A woman (played by Ayo Edebiri) mocks his old shock-value personality by waving a gun in his face, a pointed callback to the persona he's long since moved past. The video ends with Tyler's shadow moving independently from him. A visual metaphor for dissociation.
+The "Noid" music video features Tyler as his masked St. Chroma persona, pushing through fan crowds while hallucinating home invasions and car tails. A woman (played by Ayo Edebiri) mocks his old shock-value personality by waving a gun in his face — a callback to the persona he's long since moved past. The video ends with Tyler's shadow moving independently from him. Dissociation, made visible.
 
 But the album's emotional core remains "Like Him" and the mother's confession that rewrites Tyler's origin story.
 
 The album debuted at #1 on the Billboard 200 with the highest first-week sales of his career.
 
-**Don't Tap the Glass (2025)** surprised fans mid-tour with a dance-leaning sound, proving Tyler's capacity for reinvention remains intact at 34.
+**Don't Tap the Glass (2025)** arrived less than a year after Chromakopia — Tyler's first consecutive-year release. Where Chromakopia was "a diary post about abortion and hair and aging," Don't Tap the Glass was its opposite: 28 minutes of Italo disco, Detroit techno, New Jack Swing, and New Orleans bounce. Tyler sole-produced all ten tracks. "I just wanted to be silly again," he said. "This album was not made for sitting still."
+
+The pivot makes sense. After the heaviest album of his career, sometimes you need to just move your body and not think so hard. The album debuted at number one — his third consecutive chart-topper — suggesting fans follow Tyler's emotional logic even when the sound shifts completely.
 
 ## Personality Quirks and Inner World
 
-Tyler wakes up early and doesn't stay up late. The quiet morning hours before the world's noise intrudes — that's where the self exists without performance. For someone who has to perform identity at every turn, those hours matter.
+Tyler's typically in bed by 9 PM. The early mornings before anyone's watching — that's when he's not performing Tyler, The Creator. He's just Tyler. For someone whose public identity is a full-time construction project, those hours matter.
 
 ### The Spider Web Mind
 
@@ -184,19 +180,29 @@ That connection between everything (music, fashion, visual art, festival design)
 
 "I don't have a therapist, so I use me as my own therapist when I'm making the music."
 
-Type 4s process emotions through creative expression. The art isn't separate from psychological work. It IS the psychological work. Each album represents not just a musical era but an emotional excavation.
+Type 4s process emotions through creative expression. The art isn't separate from psychological work. It IS the psychological work. Each album is a therapy session with a beat.
 
 Despite being a rapper, Tyler prioritizes instrumentals over words. He falls in love with "a chord, a color palette or an aesthetic" and dives headfirst before writing a single lyric. The emotional texture comes first. The words are just vessels for what's already been felt.
 
 ### The Aesthetic Universe
 
-Tyler's need for control extends far beyond music. His car collection (estimated at $2 million) features three McLarens, a BMW E30 M3, a pink Fiat 131 Abarth Rally, and various Lancias and Rolls-Royces. "Boxy cars, pastel colors," he calls the theme. He customizes everything — stickers, paint, interiors. His white MP4-12C had an Odd Future logo over the fuel cap; his gray 675LT has an orange interior. These aren't investments. They're extensions of the same vision that shapes his album covers and Golf Wang lookbooks.
+Tyler's need for control extends far beyond music. His car collection runs on the same aesthetic as his albums — "boxy cars, pastel colors" — and the obsession bleeds into the work itself. The 2017 track "Boredom" samples a McLaren V8 engine. "Group B" references the rally racing era his vintage Lancias evoke. Even the machines get folded into the spider web.
 
-The 2017 track "Boredom" samples a McLaren V8 engine. 2020's "Group B" references the rally racing era his Lancias evoke. Even the machines get folded into the spider web.
+He collects vintage trunks with the same intensity, diving into the history of how they were made. For a Type 4, environment is identity. If the surroundings don't match what's in your head, what's in your head starts to blur.
 
-Beyond cars, Tyler collects vintage trunks: Louis Vuitton, Goyard, Gucci, Globe-Trotter, and bespoke pieces. "How did they make this?" he says of his fascination. "Then the obsession started. I dive into that time, and I just get obsessed with the history of it."
+### The Unlikely Friendships
 
-For a Type 4, environment is identity. If the surroundings don't match the internal vision, the internal vision gets blurry. Tyler doesn't just live in spaces. He curates them.
+Tyler's relationships reveal something the music alone can't.
+
+He and A$AP Rocky started as rivals. In the early 2010s, Odd Future and A$AP Mob didn't get along. Tyler publicly critiqued Rocky's directing work. But in 2015, Rocky reached out: "I'm going on this tour, and I don't want to tour without Tyler." They co-headlined with Vince Staples and Danny Brown.
+
+By 2019, Rocky was presenting Tyler with the WSJ Musical Innovator Award, telling the audience: "When we came into the rap game we didn't even like each other. Now I don't identify with anybody but my real true family and friends. It's an honour to present this award to my best friend today."
+
+Tyler's response: "WE USED TO HATE EACH OTHER AND I HAVE TO SAY YOU CHANGED THE COURSE OF MY SHIT."
+
+The rivals-to-brothers arc matters because Tyler doesn't do casual relationships. "Y'all don't be seeing me out here with random folks," he's said. "I have been with the same dudes since age 16." The loyalty is fierce and the circle is tight — which makes the gradual distancing from Frank Ocean (they've unfollowed each other on Instagram, with no public collaborations since 2017) all the more conspicuous.
+
+In the studio, Tyler leads with enthusiasm over precision. "I'm like 'Yo I wanna do this' and like 'oh let's do it' and we figure it out." His casting director on _Marty Supreme_ called him "joy personified." But there's a stubbornness underneath: "I'm not big on knowing what no means. If it's not a win through the door we'll go through the roof, we'll blow up the house, we'll dig under it, but we're going to get in there."
 
 ## The Business Empire
 
@@ -248,40 +254,32 @@ And legibility feels like death to an Individualist.
 
 ## Controversies and Growth
 
-The early Tyler built his identity around confrontation. Lyrics about violence, rape, and stalking were delivered through alter egos like Wolf Haley. Critics (particularly after his UK ban) accused him of hiding behind artistic license to spread harmful content.
+The early Tyler built his identity around confrontation. Lyrics about violence and stalking were delivered through alter egos like Wolf Haley. On "MANIFESTO" from Call Me If You Get Lost, he addressed inappropriate tweets he'd sent to Selena Gomez as a teenager, referencing his apology when he finally met her.
 
-Tyler's response evolved over time. On "MANIFESTO" from Call Me If You Get Lost, he addressed inappropriate tweets he'd sent to Selena Gomez as a teenager, referencing his apology when he finally met her.
+For Tyler, the album IS direct address. He doesn't compartmentalize life and art.
 
-Some critics noted this apology was buried in an album rather than directly addressed. But for Tyler, the album IS direct address. He doesn't compartmentalize life and art.
-
-The real growth isn't in apologies. It's in the work.
-
-The Tyler of 2011 couldn't have made IGOR. Full stop. The journey from shock to vulnerability, from anger to beauty, is Type 4 growth in real time — not described, just demonstrated.
+But the real growth isn't in apologies. It's in the work. The Tyler of 2011 couldn't have made IGOR. The journey from shock to vulnerability, from anger to beauty, is Type 4 growth — not described, just demonstrated.
 
 ## The Man Who Might Actually Stop
 
-In 2025, Tyler made his feature film debut in Josh Safdie's **Marty Supreme**, starring alongside [Timothee Chalamet](/personality-analysis/Timothee-Chalamet) and [Gwyneth Paltrow](/personality-analysis/Gwyneth-Paltrow). He was named Apple Music's Artist of the Year. He earned five Grammy nominations for Chromakopia and Don't Tap the Glass, including Album of the Year.
+During his Chromakopia World Tour, Tyler told audiences: "I'm at that part of my life where, man, I've done enough. Let me go take a very, very, very long break."
 
-And yet, during his Chromakopia World Tour, Tyler told audiences: "I'm at that part of my life where, man, I've done enough. Let me go take a very, very, very long break."
+Then he made a feature film.
 
-For someone who's been creating since age seven, who built an identity around ceaseless production, the prospect of stopping is significant.
+Josh Safdie wrote the role of Wally in **Marty Supreme** specifically for Tyler, waiting six years after they met before presenting the script. Tyler committed immediately, no audition required. His approach to acting was pure Tyler: "I didn't try to memorize no lines or nothing. I'm so grateful. I play piano and put on cool clothes. I do not act at all... This man is so good that I trusted him."
 
-Maybe it's exhaustion. Maybe it's the fear of repeating himself (the Type 4's horror of becoming predictable).
+"I love jumping head first into something new," he said. "Not being good, not being bad, just raw newness."
 
-Or maybe, having finally confronted his origin story on Chromakopia, Tyler needs time to figure out who he is without the wound that defined him.
+That's revealing. The man who said he might stop didn't actually stop. He just found a new medium to be a beginner in. For a Type 4 terrified of becoming predictable, novelty is its own form of survival. He told the casting director: "Find me a role as a villain."
+
+For someone who's been creating since age seven, the prospect of real stillness is significant. Maybe it's the fear of repeating himself. Or maybe, having confronted his origin story on Chromakopia, Tyler needs time to figure out who he is when the creative engine goes quiet.
 
 ## What the Wound Built
 
-Tyler, The Creator isn't complicated because he tries to be mysterious. He's complicated because identity itself is complicated. Especially for someone who's spent three decades building themselves from scratch.
+Tyler, The Creator isn't hard to read because he tries to be mysterious. He's hard to read because he's still writing himself — and he's been at it for three decades, building from scratch while the foundation kept shifting underneath.
 
-The kid who made fake album covers became the man who controls every aspect of his aesthetic universe. The son who thought his father abandoned him learned the truth in his thirties. The provocateur who got banned from countries evolved into a Grammy-winning artist unafraid of sincerity.
-
-What stays constant is the Type 4 engine: the refusal to be ordinary, and the conviction that the only real life is one you build from scratch.
+The kid who made fake album covers became the man who controls every visual, sonic, and sartorial detail of his universe. The son who thought his father abandoned him learned the truth in his thirties and had to reckon with what that meant for the story he'd been telling himself. The provocateur who got banned from the UK evolved into an artist unafraid of sincerity.
 
 "I try to tell all the... not even the kids, even people older than me... to just be themselves."
 
-Coming from Tyler, this isn't a platitude. It's a survival strategy proven across 12 schools, two Grammy Awards, and five acts of creative reinvention.
-
-The question isn't who Tyler, The Creator is.
-
-The question is who he'll become next. And whether he can find peace if he ever stops creating long enough to find out.
+Coming from Tyler, this isn't a platitude. It's hard-won knowledge from 12 schools, three chart-topping albums, and a lifetime of proving that the things that make you strange are the same things that make you irreplaceable.

@@ -193,7 +193,6 @@
 				<p>Anonymous responses with Enneagram type visible</p>
 				<ul>
 					<li>Shift from "they're wrong" to "they're wired differently"</li>
-					<li>Context changes everything.</li>
 				</ul>
 			</div>
 
@@ -203,7 +202,6 @@
 				<p>Real questions, not engagement bait</p>
 				<ul>
 					<li>Every question shows you 8 angles you missed.</li>
-					<li>That's the value.</li>
 				</ul>
 			</div>
 		</div>
@@ -280,19 +278,14 @@
 
 		<div class="why-content">
 			<p>
-				We're past polarization. We've moved into <strong>isolation</strong>. People don't talk to
-				each other anymore — not really. We scroll past each other. We sort into tribes that already
-				agree with us. Curiosity about how someone else sees the world? Gone.
+				Every platform has groupthink. Algorithms push you toward what you already believe. The
+				takes you see are the ones that got the most upvotes — not the most honest ones. Nobody's
+				curious about how someone else actually sees the same moment.
 			</p>
 			<p>
-				There's nowhere online to get <strong>unbiased takes</strong>. Every forum has groupthink,
-				every platform has algorithms pushing you toward what you already believe. The takes you see
-				are the takes that got the most upvotes — not the most honest ones.
-			</p>
-			<p>
-				9takes exists because people deserve a place to <strong>give their real take</strong> and
-				discover how others genuinely see the same situation. Not to argue. Not to perform. To
-				actually <strong>connect</strong> through honest perspective.
+				9takes is a place to <strong>give your real take</strong> first, then see how other
+				personality types read the same situation. No performance. No tribes. Just
+				<strong>9 different lenses</strong> on the same question.
 			</p>
 		</div>
 

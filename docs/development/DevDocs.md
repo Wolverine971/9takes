@@ -44,10 +44,19 @@ src/blog/pop-culture/depp-vs-heard-enneagram-analysis.md
 Trisha-Paytas
 John-Mayer
 Troye-Sivan
+Tyler-Cowen
+Morgan-Wallen
+Jennifer-Aniston
+Ryan-Reynolds
+Eddie-Murphy
+Robert-Downey-Jr
+Kanye
+Markiplier
+George-W-Bush
 
-Act like a normal person who is reading this article and tell me what i missed or what i should expand on or what was overdone or duplicate info that could be trimmed. Review the Morgan-Wallen blog, read it and put your comments as a comment at the bottom of the article
+Act like a normal person who is reading this article and tell me what i missed or what i should expand on or what was overdone or duplicate info that could be trimmed. Review the src/blog/pop-culture/tech-titans-founders-vs-stewards.md blog, read it and put your comments as a comment at the bottom of the article
 
-Ok so i added some comments at the bottom of the article Barack-Obama, please assess the comments and see if we should add some more or address some parts based on that feedback. Do more research as needed and make the blog better. Also trim things that are overdone or duplicated so that everything is fresh and well done.
+Ok so i added some comments at the bottom of the article src/blog/pop-culture/tech-titans-founders-vs-stewards.md, please assess the comments and see if we should add some more or address some parts based on that feedback. Do more research as needed and make the blog better. Also trim things that are overdone or duplicated so that everything is fresh and well done.
 
 I want you to edit this blog on Paris-Hilton and use the content-editor agent doc to guide you.
 

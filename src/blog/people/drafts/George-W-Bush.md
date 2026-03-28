@@ -1,6 +1,6 @@
 ---
 title: "George W. Bush: The Underestimated President's Enneagram Type 6 Mind"
-meta_title: "The Real George W. Bush: Why the 'C-Student' Was the Smartest Person in the Room"
+meta_title: 'The Real George W. Bush: A President Driven by Loyalty and Fear'
 persona_title: "America's Counterphobic Commander"
 description: 'Inside the mind of George W. Bush — how a C-student frat boy became a wartime president, and why the man who sent soldiers to war now paints their portraits.'
 author: 'DJ Wayne'
@@ -46,7 +46,7 @@ That tension — between the man who projects certainty and the man who privatel
 <ul>
 <li><b>Loyalty as survival strategy:</b> From staying home to comfort his grieving mother at age 7 to building a "war cabinet" of trusted advisors, Bush's life is organized around the people he trusts</li>
 <li><b>Counterphobic response to fear:</b> Rather than retreating from threats, Bush charges directly at them — the bullhorn at Ground Zero, the preemptive Bush Doctrine, quitting alcohol cold turkey</li>
-<li><b>The underestimation gap:</b> People who met him privately described a "meticulous thinker" with "incredible memory" — the opposite of his public Bushisms image</li>
+<li><b>The private-public gap:</b> Behind the Bushisms caricature, staffers described a "meticulous thinker" who hand-annotated policy briefs — a Six deliberately managing expectations</li>
 <li><b>Post-presidency integration:</b> Painting wounded veterans represents a Six moving from reactive certainty toward reflective nuance</li>
 </ul>
 </div>
@@ -172,8 +172,6 @@ He acknowledged that the "Mission Accomplished" banner was "no question a mistak
 
 When asked if he experiences PTSD from the decisions he made, he answered immediately: "No. Not even close."
 
-The denial is too fast, too certain. It sounds exactly like a counterphobic Six who has never once allowed himself to be the one who needs help.
-
 ---
 
 Then, in 2022, during a speech about Ukraine, he said this:
@@ -182,7 +180,41 @@ Then, in 2022, during a speech about Ukraine, he said this:
 
 He caught himself. The audience laughed nervously. He muttered: "Iraq too. Anyway..." and moved on.
 
-The slip of the tongue said what a decade of interviews couldn't.
+## When There's No Enemy to Fight
+
+Three days after 9/11, Bush stood on rubble with a bullhorn. Three days after Katrina made landfall, he flew over the devastation at altitude.
+
+Same man. Same timeframe. Opposite responses.
+
+Hurricane Katrina hit the Gulf Coast on August 29, 2005. Bush was at his Crawford ranch. He'd been briefed the day before — Max Mayfield from the National Hurricane Center personally warned him the levees were "a very, very grave concern." FEMA Director Michael Brown said state and local resources were overwhelmed. Bush continued a pre-planned trip to Arizona and California. He didn't return to Washington for two days. When Air Force One finally flew over New Orleans, a photographer captured him peering out the window at the flooded city below. The image defined his second term.
+
+"That photo of me hovering over the damage suggested I was detached from the suffering on the ground," he wrote in _Decision Points_. "That was not how I felt. But once that impression was formed, I couldn't change it."
+
+On September 2, he stood at Mobile Regional Airport and said: "Brownie, you're doing a heck of a job." Brown — whose previous job had been running the International Arabian Horse Association — resigned ten days later. That same day, Kanye West said on live television: "George Bush doesn't care about Black people."
+
+Bush later told Matt Lauer it was the worst moment of his entire presidency. Not 9/11. Not Iraq. Being told he didn't care.
+
+In his memoir, he didn't say he made the wrong decisions. He said: "I took too long to decide." For the man who grabbed bullhorns and launched preemptive wars, the confession isn't about judgment — it's about hesitation. A hurricane doesn't give you an enemy to charge at. And without an enemy, the counterphobic pattern stalls.
+
+## "Wounded on the Field of Battle"
+
+Dick Cheney was "Big Time." Bush's anchor. The most experienced hand in any room — Secretary of Defense under Bush's father, White House Chief of Staff under Ford. When the Six found his authority figure, he leaned hard.
+
+In the first term, Cheney wielded power that made him arguably the most influential vice president in American history — his own national security staff, his own intelligence briefings, direct access to the Pentagon and CIA. Bush trusted him completely. For a Six, that's the ultimate compliment and the ultimate vulnerability.
+
+The fracture came over Cheney's chief of staff, Scooter Libby. Convicted of perjury and obstruction in 2007, related to the leak of CIA officer Valerie Plame's identity, Libby faced prison. Cheney wanted a full pardon. He pressed Bush relentlessly. To Cheney, Libby was a loyal soldier who'd taken a bullet for the administration.
+
+Bush commuted the sentence — no prison time — but refused the pardon. Libby would remain a convicted felon.
+
+In the last weeks of the presidency, Cheney made one final push. Bush told him: "I've made my decision. It's not going to change."
+
+Cheney's response: "You are leaving a good man wounded on the field of battle."
+
+Military language, aimed at a wartime president, framing loyalty as duty. For a Six, being called disloyal is the deepest possible wound. Bush absorbed it and didn't flinch.
+
+"I had committed to making the decision on Libby myself," he wrote. "I would not let anyone — not even my vice president — make it for me." He later called it "the most painful episode of my presidency on a personal level." They were largely estranged after leaving office.
+
+The progression tells the Six's growth story: from leaning on Cheney as the trusted authority in the first term, to overriding him on principle in the second. The man who needed someone to trust learned to trust himself.
 
 ## Paint and Scrape
 
@@ -204,8 +236,6 @@ Command Sergeant Major Brian Flom, wounded by a rocket attack in Iraq in 2007, m
 
 When asked if the painting is therapeutic, Bush was precise about the distinction: "In a sense, it is therapeutic. Not that it unburdens my soul. It's not the painting that unburdens my soul. It's the belief in the cause and the people... The painting was a joyful experience, and if that's therapy, that's therapy."
 
-<p class="inner-thought">I didn't paint them to feel better about what I did. I painted them because they deserve to be seen by the person who sent them there.</p>
-
 In 2021, he published a second art book: _Out of Many, One: Portraits of America's Immigrants_. Forty-three oil portraits of immigrant Americans, accompanied by his argument that "immigration is a sign of a confident and successful nation." The man who divided the world into "with us or against us" now spent his retirement arguing for nuance.
 
 "Most of my painting is very private, and that's the way I like it," he said. "But I obviously made the decision to put these out for public consumption, because I wanted people to pay attention to our vets and what they're dealing with."
@@ -214,48 +244,20 @@ The first painting the public ever saw wasn't a veteran. In 2013, a Romanian hac
 
 ## "Every Day Has Been Pretty Joyous"
 
-Bush arrives at his Dallas office by 6:45 a.m. He retires by 9:30 p.m. He demands punctuality, insists meetings have clear purposes, and gives what staffers call "the Bush stare" to anyone whose cell phone goes off. He prefers Crawford ranch to any restaurant. He is, by his own description, "a nester." He reads history books and watches _Austin Powers_ movies. He sends birthday notes to staff and remembers their family members' names months later.
+Bush arrives at his Dallas office by 6:45 a.m. He retires by 9:30 p.m. He demands punctuality, insists meetings have clear purposes, and gives what staffers call "the Bush stare" to anyone whose cell phone goes off. He sends birthday notes to staff and remembers their family members' names months later.
 
 When his White House Director for Space Policy brought his liberal Democrat wife to a Christmas party, Bush greeted her by name and gave her a big hug. "It reportedly changed her perspective on him," Marquez said.
 
-He dances awkwardly on purpose — "herky-jerky" moves during a visit to Liberia. He is "simply too cheap to buy nice clothes." His office is a portrait of near-anarchy. He demands French's yellow mustard specifically. He repeats favorite anecdotes — the Oval Office rug story, the Romanian rainbow.
+His twin daughters, Jenna and Barbara, were 19 when he entered the White House. When both were cited for underage drinking in 2001 — a tabloid sensation, given his own history with alcohol — Bush told reporters: "It's a matter the mother and I will handle. I'm a dad, and dads sometimes have tough things to handle." He didn't grandstand. He didn't distance. He circled the wagons, the way he always does. At Jenna's wedding at the Crawford ranch in 2008, he reportedly told her: "I'm not going to cry... okay, I'm going to cry." Jenna later wrote that she saw in him "a man who loved us fiercely, who would do anything to protect us, and who never once asked us to be anything other than ourselves."
 
 "Some days are happy. Some days are not so happy," he said at a drug abuse prevention meeting. "But every day is joyful."
 
 He was sitting next to Don Coyhis, a recovered alcoholic with 30 years of sobriety. Bush told him: "I'm eight years behind you."
 
-The man who couldn't keep his office clean ran the most disciplined daily schedule in modern presidential history. The man who mangled syntax in public hand-annotated policy briefs with penetrating questions. The man who divided the world into good and evil now paints portraits of the people caught in between.
+The man who divided the world into good and evil now paints portraits of the people caught in between.
 
-At some point the contradictions stop being contradictions and start being the same thing. The boy who stayed home to make his mother laugh is the same man who stood on the rubble with a bullhorn. The drunk who quit cold turkey is the same president who charged at threats rather than run from them. The commander-in-chief who kept a private tally of the dead is the same retiree who paints their faces, one by one, in oil.
+At some point the contradictions stop being contradictions and start being the same thing. The boy who stayed home to make his mother laugh is the same man who stood on the rubble with a bullhorn. The commander-in-chief who kept a private tally of the dead is the same retiree who paints their faces, one by one, in oil.
 
 He doesn't call it therapy. He calls it respect. But the paint-and-scrape, paint-and-scrape rhythm tells a different story — the story of a man still trying to get it right, still trying to see the people he couldn't protect, still staying in the room when everyone else has moved on.
 
 > **Disclaimer** This analysis of George W. Bush's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of George W. Bush.
-
-<!-- READER FEEDBACK
-
-What works:
-- The Robin opening is genuinely gripping. You earn the reader's attention and it pays off thematically throughout the piece. Don't touch it.
-- The alcohol section is one of the best parts. Laura's question, the DUI, Billy Graham, the birthday — it builds naturally and the "she didn't believe him" beat lands perfectly.
-- The bullhorn scene is well-constructed. The pivot from the public moment to the private lap around the South Lawn is the kind of detail that makes someone rethink a person they thought they already knew.
-
-What's missing:
-- No Katrina. This is the biggest gap. You're arguing he's a counterphobic Six who charges at threats, but Katrina is the most famous example of him NOT doing that. Ignoring it makes the whole piece feel cherry-picked. You don't have to litigate it for three paragraphs — but you need to address it, even briefly. A Six freezing when the threat isn't a clear enemy to fight would actually strengthen your argument.
-- No Jenna or Barbara. You build a whole section around his father, mention Laura extensively, open with Robin — but his own daughters are completely absent. For a piece about loyalty and family as a Six's core strategy, that's a noticeable hole.
-- The Bush-Cheney relationship souring is never mentioned. "Big Time" gets a nickname and that's it. The fact that Bush's most trusted advisor became someone he distanced from is extremely relevant to a loyalty-based personality analysis.
-
-What's overdone:
-- The "underestimation" angle appears in the meta title, the TL;DR, the Enneagram section, and the conclusion. You make the point well once with the Peter Marquez and Kevin Sullivan quotes. After that it starts feeling like you're trying to convince the reader rather than showing them.
-- The "Every Day Has Been Pretty Joyous" section reads like a junk drawer of fun facts. The French's mustard, Austin Powers, the messy office — some of these are charming but they don't all earn their place. Pick the 2-3 that actually illustrate the Type 6 pattern and cut the rest. The section loses momentum right before your conclusion needs it.
-
-Where to pull back:
-- "The denial is too fast, too certain. It sounds exactly like a counterphobic Six who has never once allowed himself to be the one who needs help." — This is you telling the reader what to think. The PTSD quote already does the work on its own. Trust it.
-- "The slip of the tongue said what a decade of interviews couldn't." — Same issue. The Iraq/Ukraine slip is a mic-drop moment. Adding your interpretation after it weakens it. Let the reader sit with it.
-- The conclusion has three "the man who X is the same Y who Z" constructions in a row. Two is a pattern. Three is a list. Cut one.
-
-Small thing:
-- The inner-thought block ("I didn't paint them to feel better about what I did...") — is this an actual quote or your speculative voice-of-Bush? It's formatted differently from his real quotes but not clearly labeled. A reader might mistake it for something he actually said, which undermines trust if they google it and find nothing.
-
-Overall: This is a strong piece. The structure is solid, the emotional arc works, and the Enneagram analysis feels earned rather than forced. The fixes above are about trimming where you over-explain and filling two or three gaps that a skeptical reader will notice.
-
--->

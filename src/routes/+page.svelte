@@ -16,7 +16,7 @@
 	let { data }: { data: PageData } = $props();
 	let innerWidth = $state(0);
 	let observer: IntersectionObserver | null = null;
-	let sectionsVisible = $state(Array(6).fill(browser ? false : true));
+	let sectionsVisible = $state(Array(5).fill(browser ? false : true));
 
 	// The 9 Shadow Types with colors and emotional stance phrases
 	const shadowTypes: Record<
@@ -124,88 +124,31 @@
 	const breadcrumbId = `${siteUrl}/#breadcrumb`;
 	const faqId = `${siteUrl}/#faq`;
 
-	const typeSummaries = [
-		{
-			type: 1,
-			title: 'Type 1: The Perfectionist',
-			description:
-				'Type 1 scans for the standard, the flaw, and the better way to do things. Their gift is principled clarity, and their blind spot is treating tension like something that has to be corrected immediately.'
-		},
-		{
-			type: 2,
-			title: 'Type 2: The Helper',
-			description:
-				'Type 2 reads people fast and notices where care, warmth, or reassurance is missing. Their strength is emotional attunement, while their growth edge is learning to name their own needs as clearly as everyone else’s.'
-		},
-		{
-			type: 3,
-			title: 'Type 3: The Achiever',
-			description:
-				'Type 3 tracks momentum, status, and visible wins. They excel at adapting to what works, but they can lose touch with what they actually feel when performance becomes the whole story.'
-		},
-		{
-			type: 4,
-			title: 'Type 4: The Individualist',
-			description:
-				'Type 4 searches for meaning, emotional truth, and the deeper pattern under the surface. They bring originality and honesty, but they can mistake intensity for accuracy when a moment feels personal.'
-		},
-		{
-			type: 5,
-			title: 'Type 5: The Investigator',
-			description:
-				'Type 5 wants understanding before action. They observe, analyze, and conserve energy well, yet they can remain outside the room too long when life demands a messy first move.'
-		},
-		{
-			type: 6,
-			title: 'Type 6: The Loyalist',
-			description:
-				'Type 6 models risk, loyalty, and the hidden downside. They are excellent at stress-testing plans, though they can confuse vigilance with certainty when fear starts steering interpretation.'
-		},
-		{
-			type: 7,
-			title: 'Type 7: The Enthusiast',
-			description:
-				'Type 7 spots possibility, opportunity, and the route around pain. Their energy keeps groups moving, but they can skip the hard conversation that would create real freedom later.'
-		},
-		{
-			type: 8,
-			title: 'Type 8: The Challenger',
-			description:
-				'Type 8 values strength, directness, and protecting what matters. They cut through fog quickly, yet they can over-rely on force when vulnerability would actually create better leverage.'
-		},
-		{
-			type: 9,
-			title: 'Type 9: The Peacemaker',
-			description:
-				'Type 9 sees the full field and instinctively looks for what will keep connection intact. They calm conflict well, but they can disappear inside accommodation instead of stating what they know.'
-		}
-	];
-
 	const faqItems = [
 		{
 			question: 'What is 9takes?',
 			answer:
-				'9takes is an Enneagram-based platform for people who want better personality analysis, stronger emotional intelligence, and a clearer read on social dynamics. Instead of giving you one take on a situation, it shows how all nine Enneagram types would likely interpret the same moment.'
+				'An Enneagram-based platform that shows how all nine personality types interpret the same situation — giving you better personality analysis and a clearer read on social dynamics.'
 		},
 		{
 			question: 'How does the give-first system work?',
 			answer:
-				'On 9takes, you answer first and read second. That structure matters because it captures your unedited instinct before groupthink takes over, then lets you compare your reaction with nine distinct personality perspectives.'
+				'You answer first, then read others. This captures your unedited instinct before groupthink and lets you compare your take with nine distinct perspectives.'
 		},
 		{
 			question: 'What is the Enneagram, in plain English?',
 			answer:
-				'The Enneagram is a personality framework built around nine core strategies for navigating anger, fear, shame, belonging, and control. It is useful because it explains motivation, not just behavior, which makes it easier to decode why two people can see the same event so differently.'
+				'A personality framework built around nine core strategies for navigating anger, fear, and shame. It explains motivation, not just behavior.'
 		},
 		{
 			question: 'Who is 9takes for?',
 			answer:
-				'It is for curious readers, coaches, founders, partners, and anyone trying to understand people better. If you care about conflict, dating, work dynamics, self-awareness, or reading public figures with more nuance, 9takes is built for that use case.'
+				'Anyone trying to understand people better — coaches, founders, partners, and curious readers who care about conflict, dating, work dynamics, or self-awareness.'
 		},
 		{
 			question: 'Is 9takes a medical or clinical authority?',
 			answer:
-				'No. 9takes is an interpretation and analysis site, not a medical provider. The site uses the Enneagram to help people think more clearly about motivation, communication, and self-awareness, and coaching is offered as personality-informed guidance rather than clinical treatment.'
+				'No. 9takes is an interpretation and analysis site, not a medical provider. Coaching is personality-informed guidance, not clinical treatment.'
 		}
 	];
 
@@ -300,7 +243,7 @@
 
 	function setupIntersectionObserver() {
 		if (!browser || typeof IntersectionObserver === 'undefined') {
-			sectionsVisible = Array(7).fill(true);
+			sectionsVisible = Array(5).fill(true);
 			return;
 		}
 
@@ -456,67 +399,6 @@
 			<p class="hero-note">Free to join. No personality test required.</p>
 		</section>
 
-		<section class="prose-section overview-section">
-			<div class="section-header prose-header">
-				<div class="section-badge accent">
-					<span class="badge-dot"></span>
-					<span>WHAT 9TAKES ACTUALLY DOES</span>
-				</div>
-				<h2 class="section-title">An Enneagram Site Built for Real-Life Social Dynamics</h2>
-			</div>
-
-			<div class="overview-grid">
-				<div class="overview-card">
-					<h3>Understand why people see the same event differently</h3>
-					<p>
-						Most personality content stays abstract. 9takes uses the
-						<a href="/enneagram-corner">Enneagram</a> as a practical language for reading conflict, attraction,
-						work friction, family tension, and public behavior. Instead of collapsing everyone into one
-						moral explanation, it shows how nine different motivational structures can produce nine very
-						different reactions to the same moment.
-					</p>
-				</div>
-
-				<div class="overview-card">
-					<h3>Practice perspective-taking without surrendering your own judgment</h3>
-					<p>
-						The give-first format on <a href="/questions">anonymous questions</a> makes the site useful
-						for emotional intelligence. You answer before you read. That preserves your original instinct,
-						then forces a comparison between your take and the interpretations other personality types
-						would naturally make. The result is better pattern recognition, not just more opinions.
-					</p>
-				</div>
-
-				<div class="overview-card">
-					<h3>Move from personality labels to usable analysis</h3>
-					<p>
-						9takes connects three things that are usually separated: educational
-						<a href="/enneagram-corner">Enneagram explainers</a>, practical
-						<a href="/how-to-guides">relationship and communication guides</a>, and long-form
-						<a href="/personality-analysis">personality analysis</a> of public figures. That makes it
-						easier to see how a framework behaves in theory, in your own life, and in the wider culture.
-					</p>
-				</div>
-			</div>
-
-			<div class="resource-grid" aria-label="Primary site resources">
-				<a href="/questions" class="resource-card">
-					<h3>Answer questions from your own point of view</h3>
-					<p>Use live prompts to compare your instinct with how other Enneagram types respond.</p>
-				</a>
-				<a href="/personality-analysis" class="resource-card">
-					<h3>Read famous people personality analysis</h3>
-					<p>
-						Study celebrities, founders, politicians, and creators through a motivation-first lens.
-					</p>
-				</a>
-				<a href="/how-to-guides" class="resource-card">
-					<h3>Apply personality insight to dating, work, and conflict</h3>
-					<p>Turn framework knowledge into concrete communication moves and better decisions.</p>
-				</a>
-			</div>
-		</section>
-
 		<!-- ========== THREE PILLARS ========== -->
 		<div class="section-observer">
 			{#if sectionsVisible[0] || !browser}
@@ -629,19 +511,6 @@
 							<span>Explore All Famous Types</span>
 						</a>
 					</div>
-
-					<div class="type-summary-grid">
-						{#each typeSummaries as summary}
-							<a
-								href={`/enneagram-corner/enneagram-type-${summary.type}`}
-								class="type-summary-card"
-							>
-								<span class="type-summary-label">Type {summary.type}</span>
-								<h3>{summary.title}</h3>
-								<p>{summary.description}</p>
-							</a>
-						{/each}
-					</div>
 				</section>
 			{/if}
 		</div>
@@ -749,15 +618,10 @@
 					<h2>Built by DJ Wayne to make personality insight more practical</h2>
 					<p>
 						9takes was created by <a href="/about">DJ Wayne</a>, a former USMC infantry Marine
-						turned software entrepreneur who writes about personality, communication, and
-						self-awareness. The site is opinionated in one specific way: it treats personality
-						analysis as a tool for understanding motive, not as a shortcut for judging people.
-					</p>
-					<p>
-						That is why the site combines educational Enneagram writing, practical guides, community
-						questions, and public-figure character studies. The goal is to help readers get better
-						at reading people, handling conflict, and spotting the blind spots that show up in
-						relationships, leadership, and culture.
+						turned software entrepreneur. The site treats personality analysis as a tool for
+						understanding motive — not a shortcut for judging people — and combines Enneagram
+						education, practical guides, and public-figure analysis to help readers get better at
+						reading people and handling conflict.
 					</p>
 				</div>
 			</div>
@@ -922,10 +786,6 @@
 		justify-content: center;
 		padding: 5rem 0 3rem;
 		text-align: center;
-	}
-
-	.hero-placeholder {
-		height: 100vh;
 	}
 
 	.hero-inner {
@@ -1260,16 +1120,11 @@
 		margin-bottom: 1.5rem;
 	}
 
-	.overview-grid,
-	.resource-grid,
 	.faq-grid {
 		display: grid;
 		gap: 1rem;
 	}
 
-	.overview-card,
-	.resource-card,
-	.type-summary-card,
 	.faq-card {
 		background: linear-gradient(180deg, var(--void-shadow) 0%, var(--void-umbra) 100%);
 		border: 1px solid rgba(124, 58, 237, 0.18);
@@ -1278,9 +1133,6 @@
 		box-shadow: 0 0 0 1px rgba(124, 58, 237, 0.04);
 	}
 
-	.overview-card h3,
-	.resource-card h3,
-	.type-summary-card h3,
 	.faq-card h3 {
 		padding: 0;
 		margin: 0 0 0.75rem;
@@ -1289,9 +1141,6 @@
 		color: var(--text-pale);
 	}
 
-	.overview-card p,
-	.resource-card p,
-	.type-summary-card p,
 	.faq-card p,
 	.founder-content p {
 		margin: 0;
@@ -1299,28 +1148,7 @@
 		line-height: 1.7;
 	}
 
-	.resource-card,
-	.type-summary-card {
-		text-decoration: none;
-		transition: all 250ms var(--ease-out);
-	}
-
-	.resource-card:hover,
-	.type-summary-card:hover {
-		border-color: rgba(124, 58, 237, 0.35);
-		transform: translateY(-3px);
-		box-shadow: 0 0 28px rgba(124, 58, 237, 0.14);
-	}
-
 	@media (min-width: 768px) {
-		.overview-grid {
-			grid-template-columns: repeat(3, 1fr);
-		}
-
-		.resource-grid {
-			grid-template-columns: repeat(3, 1fr);
-		}
-
 		.faq-grid {
 			grid-template-columns: repeat(2, 1fr);
 		}
@@ -1540,42 +1368,9 @@
 		}
 	}
 
-	.meta-label {
-		color: var(--text-faded);
-	}
-
 	.meta-value {
 		color: var(--type-color);
 		font-weight: 600;
-	}
-
-	.type-summary-grid {
-		display: grid;
-		gap: 1rem;
-		margin-top: 2rem;
-	}
-
-	.type-summary-card {
-		display: block;
-	}
-
-	.type-summary-label {
-		display: inline-flex;
-		padding: 0.2rem 0.55rem;
-		margin-bottom: 0.75rem;
-		border-radius: 999px;
-		background: rgba(59, 130, 246, 0.08);
-		border: 1px solid rgba(59, 130, 246, 0.2);
-		font-family: var(--font-mono);
-		font-size: 0.72rem;
-		color: var(--system-stream);
-		letter-spacing: 0.04em;
-	}
-
-	@media (min-width: 768px) {
-		.type-summary-grid {
-			grid-template-columns: repeat(3, 1fr);
-		}
 	}
 
 	.founder-card {
@@ -1608,10 +1403,6 @@
 		font-family: var(--font-display);
 		font-size: clamp(1.5rem, 3vw, 2rem);
 		color: var(--text-pale);
-	}
-
-	.founder-content p + p {
-		margin-top: 1rem;
 	}
 
 	@media (min-width: 768px) {

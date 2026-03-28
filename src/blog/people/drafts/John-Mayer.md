@@ -40,8 +40,6 @@ His first three albums, the ones that made him a Grammy-winning sensation, were 
 
 Most people see a talented musician who sabotaged himself with his big mouth. But that misses the engine entirely. Everything John Mayer did — the cockiness, the celebrity dating, the verbal implosion in Playboy — was the same impulse expressed badly: a desperate attempt to be _seen_. To close the gap between the depth of what he felt and the shallowness of how the world received him.
 
-He mistook attention for understanding. And the distance between those two things nearly destroyed him.
-
 <details>
 <summary class="accordion">TL;DR: Why John Mayer is an Enneagram Type 4</summary>
 <div class="panel">
@@ -74,13 +72,7 @@ By his early twenties, Mayer had a problem. Two John Mayers existed, and they we
 
 The first John Mayer wrote "Gravity" and "Slow Dancing in a Burning Room" — songs so emotionally precise that _Continuum_ became the album strangers bonded over in bar conversations a decade after its release. He won Grammys. Eric Clapton called him one of the best guitarists alive. The music was raw, vulnerable, and completely authentic.
 
-The second John Mayer showed up in interviews.
-
-This version was a character — charming, provocative, endlessly clever, performing the role of the roguish rock star with a philosopher's brain and a frat boy's mouth. He gave interviews that read like improv comedy shows, sprinting from clever observation to outrageous confession to quotable provocation.
-
-"When you do an interview with me," he admitted later, "you're talking to a cheap imitation of the person that I really am. There's no magic in my words, it's just me talking."
-
-In Enneagram terms, this was his Three wing in overdrive. (Every core type leans toward one of its neighboring types — Mayer's Four leans toward Three, the Achiever, adding a layer of image-consciousness and competitive charm to the Four's emotional depth.) He needed to be not just talented but _recognized_ as exceptional, not just interesting but the most interesting person in any room.
+The second John Mayer showed up in interviews — charming, provocative, performing the roguish rock star with a philosopher's brain and a frat boy's mouth. In Enneagram terms, this was his Three wing in overdrive — the Achiever next door, layering image-consciousness and competitive charm on top of the Four's emotional depth. He needed to be not just talented but _recognized_ as exceptional. Not just interesting but the most interesting person in any room.
 
 The same pattern ran through his relationships. Jessica Simpson described him as "obsessed with me, sexually and emotionally" — then he broke up with her nine times, every time by email. Jennifer Aniston received a public post-mortem in Playboy where he mourned the relationship while explaining why he needed freedom more. <a href="/personality-analysis/Taylor-Swift">Taylor Swift</a>, nineteen to his thirty-two, got "Dear John" as her closure; he said he "never got a phone call." With <a href="/personality-analysis/Katy-Perry">Katy Perry</a>, his longest relationship, the cycle stretched over four years of reconciliations before the final split.
 
@@ -106,7 +98,7 @@ Then, onstage in Nashville shortly after, he broke down crying mid-concert.
 
 ### John Mayer is an Enneagram Type 4
 
-The Enneagram framework resolves the contradiction that no amount of tabloid psychology can explain: how is the man who writes with the most emotional precision in popular music the same man who blew up his career through emotional recklessness?
+The Enneagram resolves the contradiction no amount of tabloid psychology can: how is the man who writes with the most emotional precision in popular music the same man who blew up his career through emotional recklessness?
 
 Because both behaviors share the same root. The ache to be understood.
 
@@ -116,13 +108,12 @@ Mayer put it in his own terms: "Life is like a box of crayons. Most people are t
 
 That quote is the Four wound in a single paragraph. I'm richer inside than what the world sees. I know I'm different. And something essential is still missing.
 
-The evidence runs deep:
+It shows up everywhere:
 
 - **The loneliness that never fully heals.** He started his Instagram show Current Mood "as a way to fight my own loneliness, and maybe help some other people fight theirs." One of the most famous musicians on Earth, broadcasting from his living room because the ache won't stop.
 - **The anxiety as creative fuel.** "A lot of my music came from wanting answers after feeling really, really lost." And: "When I would have an anxious moment, I'd be like, 'Well, here comes a song.'" He transmuted pain into art so reliably that losing the pain felt like losing the gift.
 - **The withdrawal when misunderstood.** After the Playboy fallout, Mayer didn't rebrand. He didn't do a press tour. He vanished. Fours withdraw when hurt — they pull into their inner world where at least the suffering makes sense.
 - **The quest for invisible depth over visible fame.** "I'm interested in living more of a life that's invisible to everybody and more vibrant to a fewer people that are in my life." The man who once chased every camera now wanted to disappear.
-- **The aesthetic perfectionism.** Mayer's watch collection is estimated at over $20 million — Rolexes, Patek Philippes, rare Audemars Piguets. He designed an AP Royal Oak and ranked it _above_ designing his PRS Silver Sky guitar: "I think I've created something that will outlive me." For Fours, collecting isn't materialism. It's curating a world that reflects the inner landscape — surrounding yourself with objects as singular as you feel yourself to be.
 
 ## The Silence
 
@@ -132,7 +123,7 @@ He had surgery. The growth came back. He had Botox injected into his throat to p
 
 "It was exciting at first," he told Time. "And then the novelty wears off, and that's when what could have been depression sets in."
 
-The silence did something to him that years of therapy and self-reflection hadn't managed. It stopped the performance. Without a voice, there was no charming interview persona to hide behind. No clever quip to deflect. Just a man alone with his guitar, unable to sing, forced to sit inside the feelings he'd spent a decade converting into content.
+The silence did what years of therapy hadn't. It stopped the performance. Without a voice, there was no charming interview persona to hide behind. No clever quip to deflect. Just a man alone with his guitar, unable to sing, forced to sit inside the feelings he'd spent a decade converting into content.
 
 "Your emotions sort of freeze," he told CBC Radio. Then, slowly: "To listen again, to dream all over again. It was a clean slate of dreaming."
 
@@ -143,8 +134,6 @@ When his voice came back, it was different. Literally.
 The album that emerged from the silence was _Born and Raised_ — an Americana record stripped of every ounce of the pop star posturing. Acoustic guitars. Open spaces. A man on a Montana ranch, writing about the difference between the person he'd been and the person he was becoming.
 
 "I got one bullet left in the gun," he said on a podcast years later. "And you better aim every time."
-
-He travels with a medical vocal scope now. He scopes himself.
 
 ---
 
@@ -162,7 +151,7 @@ The hangover lasted six days.
 
 He answered: "100."
 
-He never drank again. He put cannabis where alcohol used to go. "Drinking is a fucking con," he told Rolling Stone. The total cumulative time he actually craved a drink, he estimated, added up to about eighteen minutes.
+He never drank again. He put cannabis where alcohol used to go — a swap he's careful not to frame as traditional sobriety. "I'm not sure I want to use the word 'sobriety,'" he's said. "The language around drinking is very tricky." What he knew for certain: "Drinking is a fucking con." The total cumulative time he actually craved a drink, he estimated, added up to about eighteen minutes.
 
 "I don't think you have to wait until everything is lost to stop," he said later. "If you are doing a little bit more than you wanted to, it is always a good decision to do none of it."
 
@@ -176,27 +165,45 @@ That line is the most revealing thing he's ever said. Not "I'm getting better." 
 
 The real John Mayer was always underneath. He just had to get quiet enough to hear it.
 
+## The False Memory
+
+The albums tracked the arc.
+
+_Born and Raised_ came from the silence. _The Search for Everything_ came from the last breakup that mattered — Katy Perry, his only serious relationship in five years. "There were times when tears came out of me," he told Billboard, "and I went, OK, John, this is not about an on-again, off-again relationship. This is something more profound."
+
+Then came _Sob Rock_.
+
+In 2021, Mayer released an album designed as an 80s pastiche — soft-focus synths, neon-lit production, the sonic vocabulary of 1988 — and described its guiding concept as a "false memory implant." _Can you make something so true to an era that your brain insists it already existed?_
+
+"I thought I was joking," he told Zane Lowe. "I thought I was kidding."
+
+He wasn't. The ironic shell turned out to contain his most emotionally direct writing in years. Which is the most Four thing he's ever done: building an elaborate disguise, then discovering his real feelings had smuggled themselves inside it. Sincerity that could only come out sideways.
+
 ## The Portal
 
-In 2015, Bob Weir of the Grateful Dead invited John Mayer to join Dead & Company. It seemed, on paper, absurd — the pop star heartthrob joining a psychedelic jam band whose founder had been dead for twenty years.
+In 2011, swimming at home, John Mayer heard a song playing on Pandora through his Neil Young station. He got out of the pool dripping wet and rushed inside to find out what it was.
 
-But it wasn't absurd at all. It was integration.
+The song was "Althea" by the Grateful Dead. "A total, blind taste test," he called it. He went deep into the Dead's catalog and didn't come back.
+
+Four years later, Bob Weir invited him to join Dead & Company. The Deadhead community's response was hostile. Merchandise at early shows included shirts reading **"John Mayer Is Dead to Me."**
+
+Mayer wasn't bothered: "It would be insulting to the fans of this music to assume that they were going to very easily plug this dichotomous thing together and immediately decide, 'Oh, yeah, it's going to be great.'"
+
+He overplayed at first — he knew it. "The first couple of tours were proving to the audience that I had a right to be there. And the rest of the tours were proving to Bobby that I meant well for everything I was trying to do." One day, plexiglass appeared between the amps. He got the message. "The thing I've learned from Bob is to let it breathe. And that's changed my playing a lot."
+
+The respect came slowly. By 2023, fan merchandise had evolved to **"He is my Jerry."** Over 235 shows across eight years, Dead & Company became the longest post-Garcia Grateful Dead configuration.
 
 "With this band, we're able to open a portal," Mayer said in a 2024 Variety interview. "And if it's not a portal to go back in time, it's a portal to enter those feelings that you didn't think you could go back and feel again."
 
-He played the songs "like they're the last." He helped build Dead & Company's Sphere residency in Las Vegas — an immersive experience that introduced the Dead's music to a generation that had never heard it, while honoring the tradition that built it.
+For the Sphere residency in Las Vegas, he helped build an immersive experience he called "sensory hijacking" — introducing the Dead's music to a generation that had never heard it. "I just don't want people to miss it, because we'll be out of that building at some point, and you can't see it unless you're in that building."
 
-"Every tour was the best I could have done," he admitted to Guitar World. "It was only after that I would listen to more Grateful Dead and realize I hadn't come close."
+Fours, at their healthiest, move toward the positive qualities of [Type 1](/enneagram-corner/enneagram-type-1) — discipline, purpose, service to something larger than the self. "I've always said that if I'm doing my job right, I bring the crowd closer to the music they love while disappearing from the equation a little bit."
 
-This is where the Enneagram story completes itself. Fours, at their healthiest, move toward the positive qualities of [Type 1](/enneagram-corner/enneagram-type-1) — discipline, purpose, service to something principled and larger than the self. The man who once needed every spotlight pointed at his own reflection found something worth disappearing into.
+On January 10, 2026, Bob Weir died at seventy-eight. Mayer's tribute: "Thanks for letting me ride alongside you. It sure was a pleasure. If you say it's not the end, then I'll believe you. I'll meet you in the music."
 
-His SiriusXM channel. His interview show "How's Life." The Dead & Company residency. His unlikely friendship with Dave Chappelle, who called him "one of the greatest leaders of a room I've ever seen" — not because Mayer commands it, but because he listens like someone who knows what it costs to be heard.
+At the San Francisco memorial, he gave the eulogy: "Over the course of a decade, we came to trust each other. He taught me to trust in the moment, and I'd like to think I taught him a little bit to rely on a plan — not as a substitute for the divine moments, but as a way to lure them in a little closer."
 
-None of these are about John Mayer being famous. They're about John Mayer being _useful_. Serving music. Serving conversation. Serving the thing that saved him when he was thirteen and terrified and borrowing a neighbor's guitar.
-
-"I look at this channel as my autobiography," he said of his SiriusXM station. "My audio-biography."
-
-Not a performance of a life. An honest record of one.
+He performed "Ripple," then: "300 years, Bobby, now that's a plan I can get behind."
 
 ## The Bit
 
@@ -210,10 +217,16 @@ This is what healthy Four humor looks like. The thing that used to destroy him �
 
 "The biggest mistake I made," John Mayer said, "and what cost me a lot of enjoyment in my life, was assuming that everybody cared."
 
+He's forty-eight now. Single — deliberately, it seems. The man who once cycled through high-profile relationships told the Call Her Daddy podcast that dating is "no longer a codified activity for me. It's not patterned anymore." But he isn't running from it: "I would not date someone if it didn't have the upward mobility of becoming a marriage. Every girlfriend would be a potential wife at this point." The cycle didn't slow down. It stopped.
+
+His days are quieter than you'd expect. He runs a year-round SiriusXM channel organized not by genre but by time of day — "my autobiography," he calls it. "My audio-biography." He hosts _How's Life_, an interview series where he sits with musicians like Billy Joel and Shawn Mendes and asks the question the show is named for.
+
+He performs "Controlled Danger" shows with Dave Chappelle — a friendship that started in 2004 on Chappelle's Show and evolved into something Mayer calls collaborative mischief. On New Year's Eve 2024, he announced he'd be breaking ground on a new album: "I didn't expect this far down the line to still feel so engaged and inspired."
+
+He collects watches worth tens of millions — Rolexes, Patek Philippes, a limited-edition Audemars Piguet Royal Oak he designed himself and ranked _above_ his PRS Silver Sky guitar. For Fours, collecting isn't materialism. It's curating a world of objects as singular as you feel yourself to be.
+
+He still travels with a medical vocal scope, checking to make sure the voice hasn't betrayed him again.
+
 "If a song is honest and true," he once wrote, "it will protect you."
 
-He's forty-eight now. Sober. Quieter. Still scoping his own throat with a medical vocal device he travels with everywhere, checking to make sure the voice hasn't betrayed him again. Still filling that 64-crayon box, one color at a time, knowing a few will always be missing.
-
-"I'm a writer more than anything," he told Charlie Rose. "Nothing brings me more joy than writing."
-
-Songwriting, he said, "is the process of going from total ignorance to uncovering the truth." He's been doing that his whole life — just not always on paper.
+Still filling that 64-crayon box, one color at a time, knowing a few will always be missing.

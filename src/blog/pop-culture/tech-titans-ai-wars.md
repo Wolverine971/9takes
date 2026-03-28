@@ -299,3 +299,31 @@ The future of AI isn't being shaped by technology. It's being shaped by the psyc
 - **The Board That Fired Altman**: What personality types were on OpenAI's board? The clash between governance types (1s and 6s) and vision types (4s) is a personality collision most organizations never resolve.
 - **Jensen Huang: The Arms Dealer**: Nvidia's Type 3 CEO sells GPUs to all of them. A 3's achievement-orientation means he doesn't pick sides—he sells shovels during a gold rush.
 - **The Anthropic-Google vs OpenAI-Microsoft Axis**: How do the personality types of Nadella (5) and Pichai (9) shape which AI company they back—and why?
+
+<!--
+READER FEEDBACK (2026-03-28):
+
+WHAT'S STRONG:
+- The core thesis is genuinely compelling. The idea that AI products mirror founder psychology isn't just interesting—it's the kind of lens that makes you rethink things you already knew. The "every AI product is a founder's psychology in code form" line is the best sentence in the piece.
+- The Altman firing section is the best-written part. The connection between the 4's need for a narrative arc and the actual corporate drama is tight and convincing.
+- The "two 5s, opposite companies" comparison between Amodei and Musk is the most original insight. The phobic vs counterphobic 6-wing explanation actually clarifies something most Enneagram content never touches.
+- The product failure examples (sycophantic GPT-4o, Grok's "MechaHitler," Claude's deception paper) are concrete and well-chosen. They do the work of proving the thesis rather than just asserting it.
+
+WHAT COULD BE EXPANDED:
+- The Zuckerberg section feels like it was added later and given less love than the other three. You spend a lot of time on the metaverse pivot and Llama 4 disaster (both good) but his actual AI PHILOSOPHY gets less airtime than the others. What does Zuckerberg specifically believe about intelligence? About AGI timelines? The other three founders have clear intellectual positions. Zuck's section reads more like a business strategy breakdown than a personality analysis.
+- The "Types Missing From the Table" section is one of the most interesting ideas in the piece but it feels rushed. The Type 2 and Type 9 hypotheticals are good—but what about a Type 1 (the Reformer)? Given that AI regulation is a huge topic, a 1-led AI company focused on ethical governance seems like an obvious inclusion. Also a Type 3 gets mentioned for Jensen Huang in the rabbit holes but never gets the hypothetical treatment.
+- You don't really address Google/DeepMind at all. Demis Hassabis is arguably as important as any of these four in the AI race. Even a brief acknowledgment of why he's excluded (or a promise to cover him separately) would prevent the reader from going "wait, what about Google?"
+
+WHAT FELT OVERDONE / COULD BE TRIMMED:
+- The Musk-as-5-not-8 argument runs long. The evidence is good but you make the point three or four times. The self-description quote and the "taught himself rocket science" example are enough. The sold-his-homes detail and the childhood encyclopedias feel like you're over-proving it. Pick two strong pieces of evidence, not five.
+- The wings/subtypes paragraph for Musk and Amodei (lines ~168-176) gets very technical very fast. "Phobic 6-wing" and "Social 5 subtype" are insider Enneagram terms that will lose casual readers. The concepts are important to the argument but could use a one-sentence plain-English translation before diving into the terminology.
+- The Claude bugs section (August 2025, Chinese characters, six-week denial) is interesting but feels like it's doing double duty—you already made the point about Anthropic's failure mode with the alignment deception paper. Two failure examples for every company would be cleaner than the three-ish you give some of them.
+- "Building God" appears in the title, the intro, and at least four more times throughout. It's a great phrase the first two times. By the fifth or sixth it starts to feel like a crutch.
+
+STRUCTURAL NOTE:
+- The "Questions This Blog Will Answer" section at the top feels like an SEO artifact, not something a reader needs. The article's structure already answers these naturally. If you keep it for SEO purposes, fine—but it slightly undermines the dramatic opening.
+
+MINOR:
+- "That's a Type 4 failure mode in product form" and "That's a 5's psychology turned into a company" and "That's a counterphobic 5's product" — this sentence structure (That's a [type] [noun] in [noun] form) repeats enough times that it becomes a tic. Vary the construction in a few places.
+- The comparison table at the top is useful but "Greatest Fear" as a column header reads a little melodramatic next to "Company" and "AI Philosophy." Maybe "Core Anxiety" or "Blind Spot" would land better.
+-->
