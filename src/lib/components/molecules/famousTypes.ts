@@ -350,7 +350,7 @@ export const famousTypes: { [index: number]: { name: string; link: boolean; hasI
 		{ name: 'paul-rudd', link: true, hasImage: true, lastmod: '2025-01-23', personaTitle: 'Hollywood\'s Perpetual Nice Guy', contentGrade: 7.8 },
 		{ name: 'pete-davidson', link: true, hasImage: true, lastmod: '2026-02-10', personaTitle: 'Comedy\'s Lovable Mess', contentGrade: 9 },
 		{ name: 'post-malone', link: true, hasImage: true, lastmod: '2026-02-20', personaTitle: 'Music\'s Tattooed Ghost', contentGrade: 8.6 },
-		{ name: 'queen-elizabeth-ii', link: true, hasImage: true, lastmod: '2025-04-08', personaTitle: 'The Steady Crown', contentGrade: null },
+		{ name: 'queen-elizabeth-II', link: true, hasImage: true, lastmod: '2025-04-08', personaTitle: 'The Steady Crown', contentGrade: null },
 		{ name: 'ronald-reagan', link: true, hasImage: true, lastmod: '2026-03-04', personaTitle: 'America\'s Smiling Sphinx', contentGrade: 7 },
 		{ name: 'ryan-gosling', link: true, hasImage: true, lastmod: '2025-12-09', personaTitle: 'Hollywood\'s Quiet Heartthrob', contentGrade: null },
 		{ name: 'scarlett-johansson', link: true, hasImage: true, lastmod: '2026-02-23', personaTitle: 'Hollywood\'s Billion-Dollar Introvert', contentGrade: 9 },

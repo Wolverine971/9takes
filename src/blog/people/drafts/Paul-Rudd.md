@@ -4,9 +4,9 @@ meta_title: 'Why Paul Rudd Never Ages or Makes Enemies (The Psychology Behind It
 persona_title: "Hollywood's Perpetual Nice Guy"
 description: "Discover how Paul Rudd's conflict-avoiding Enneagram Type 9 personality explains his ageless charm and why everyone in Hollywood adores him."
 author: 'DJ Wayne'
-date: '2025-01-23'
+date: '2026-01-23'
 loc: 'https://9takes.com/personality-analysis/Paul-Rudd'
-lastmod: '2025-01-23'
+lastmod: '2026-01-23'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
