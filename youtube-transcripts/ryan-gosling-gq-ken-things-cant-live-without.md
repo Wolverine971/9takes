@@ -3,6 +3,7 @@ title: "KEN Things Ryan Gosling Can"t Live Without"
 channel: GQ
 video_url: https://www.youtube.com/watch?v=aNJ_JPkbH2M
 transcribed_date: 2026-03-27
+path: youtube-transcripts/ryan-gosling-gq-ken-things-cant-live-without.md
 ---
 
 # KEN Things Ryan Gosling Can't Live Without | GQ

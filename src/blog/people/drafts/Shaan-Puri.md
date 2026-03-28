@@ -2,7 +2,7 @@
 title: 'Shaan Puri: Brilliant at Starting Chapters, Never Finishing the Book'
 meta_title: "Shaan Puri's Enneagram Type: The Restless Showman Who Can't Stop Starting"
 persona_title: 'The Restless Showman'
-description: "Shaan Puri built Bebo, sold the Milk Road, and co-hosts My First Million. His Enneagram Type 7 personality explains the restlessness behind every reinvention."
+description: 'Shaan Puri built Bebo, sold the Milk Road, and co-hosts My First Million. His Enneagram Type 7 personality explains the restlessness behind every reinvention.'
 author: 'DJ Wayne'
 date: '2026-02-26'
 loc: 'https://9takes.com/personality-analysis/Shaan-Puri'

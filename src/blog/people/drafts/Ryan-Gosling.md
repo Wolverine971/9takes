@@ -27,6 +27,7 @@ content_quality:
   overall: 9.0
   letter: 'A'
   graded_at: '2026-03-27'
+path: src/blog/people/drafts/Ryan-Gosling.md
 ---
 
 > "I didn't have a lot of friends growing up. I had TV."
@@ -67,9 +68,9 @@ He couldn't read.
 
 "I didn't feel very smart. They kept passing me in school even though I didn't know how to do things. I couldn't read, I couldn't absorb any of the information, so I caused trouble."
 
-The trouble wasn't minor. In grade one, after watching *First Blood*, he brought steak knives to school in a Fisher-Price Houdini kit and threw them at classmates during recess. He told Jay Leno: "The movie put a spell on me, and I thought I was Rambo. I even thought my face felt like Sylvester Stallone's."
+The trouble wasn't minor. In grade one, after watching _First Blood_, he brought steak knives to school in a Fisher-Price Houdini kit and threw them at classmates during recess. He told Jay Leno: "The movie put a spell on me, and I thought I was Rambo. I even thought my face felt like Sylvester Stallone's."
 
-Years later, on *The Late Show with Stephen Colbert*, he returned to Rambo unprompted. "He just wanted a cup of coffee. They made him be Rambo. They forced him to be Rambo. He did not want to be Rambo. He just wanted a cup of coffee but he had long hair and had to get out of town. Don't make me tie the headband."
+Years later, on _The Late Show with Stephen Colbert_, he returned to Rambo unprompted. "He just wanted a cup of coffee. They made him be Rambo. They forced him to be Rambo. He did not want to be Rambo. He just wanted a cup of coffee but he had long hair and had to get out of town. Don't make me tie the headband."
 
 He wasn't quoting a film. He was describing the experience of being misread — of having something forced onto you because people can't see past the surface. He was six when the knives happened. He's been telling this story for forty years.
 
@@ -77,21 +78,21 @@ He had no friends until he was fourteen or fifteen. He "hated" being a child. Th
 
 Ryan watched.
 
-"Everything demolished." That's how he described it later, talking about the film *Lost River* — the one he directed. "A visualisation of my emotions at that time."
+"Everything demolished." That's how he described it later.
 
 His mother quit her job and homeschooled him for a year. It changed his life. "It gave me a sense of autonomy that I've never really lost."
 
-Then she let him go. At twelve, he was cast on *The All-New Mickey Mouse Club* alongside Britney Spears, Christina Aguilera, and Justin Timberlake. When Donna had to return to Canada for work, Timberlake's mother became Ryan's legal guardian for six months. The quiet kid from London, Ontario lived in Justin Timberlake's bathroom.
+Then she let him go. At twelve, he was cast on _The All-New Mickey Mouse Club_ alongside Britney Spears, Christina Aguilera, and Justin Timberlake. When Donna had to return to Canada for work, Timberlake's mother became Ryan's legal guardian for six months. The quiet kid from London, Ontario lived in Justin Timberlake's bathroom.
 
 ---
 
 ## TV Was His Best Friend
 
-On the *Happy Sad Confused* podcast — his first long-form podcast appearance, in 2026 — Gosling talked about growing up with television the way other people talk about growing up with siblings.
+On the _Happy Sad Confused_ podcast — his first long-form podcast appearance, in 2026 — Gosling talked about growing up with television the way other people talk about growing up with siblings.
 
 "I grew up like TV was my best friend. All the channels were my friends and I knew everything. I remember when the TV guide would come out, I would like do the circling, schedule out my life according to it."
 
-He used to stay home from school to watch *Regis and Kelly*. And *Days of Our Lives*. He still lights up about *Days of Our Lives*.
+He used to stay home from school to watch _Regis and Kelly_. And _Days of Our Lives_. He still lights up about _Days of Our Lives_.
 
 "Soap opera actors do not get the love they deserve. They memorize ten pages of dialogue the night before. They get one take. And it's impossible scenarios — like when Deidre Hall gets possessed by the devil. I stopped watching, not because of that, but I just had to live my life. And just recently it was on TV and she's possessed again. Has she been possessed for 30 years?"
 
@@ -103,9 +104,9 @@ Then the knife: "I'm sure it's a deflection strategy. I'm sure I told him many m
 
 ## The Man Who Becomes the Role
 
-Before *The Notebook*, Gosling moved to Charleston, South Carolina two months early. He rowed the Ashley River. He built furniture by hand — including the kitchen table used in the film. For *La La Land*, he practiced piano two hours a day, six days a week, for three months, and performed every sequence himself. He learned tap dance from scratch. For *Drive*, he rebuilt the car. For *The Lovely Bones*, he gained sixty pounds and pulled out his hair — then got fired.
+Before _The Notebook_, Gosling moved to Charleston, South Carolina two months early. He rowed the Ashley River. He built furniture by hand — including the kitchen table used in the film. For _La La Land_, he practiced piano two hours a day, six days a week, for three months, and performed every sequence himself. He learned tap dance from scratch. For _Drive_, he rebuilt the car. For _The Lovely Bones_, he gained sixty pounds and pulled out his hair — then got fired.
 
-"I've been drinking Häagen-Dazs for five months and you're sitting with that weight and all of that," he said on *Happy Sad Confused*. "And now I'm unemployed."
+"I've been drinking Häagen-Dazs for five months and you're sitting with that weight and all of that," he said on _Happy Sad Confused_. "And now I'm unemployed."
 
 A pause. "It wasn't great."
 
@@ -132,8 +133,8 @@ Gosling isn't laid-back. He's the most meticulously prepared actor of his genera
 The evidence runs in every direction:
 
 - **The merging.** You already saw the evidence — the furniture, the piano, the sixty pounds. The Nine doesn't have a fixed self to protect from the role. The role becomes the self.
-- **The quiet stubbornness.** *Half Nelson*, *Lars and the Real Girl*, *Blue Valentine*, *The Believer* — none of these were obvious career moves. But push a Nine and they don't push back. They simply don't move.
-- **The anger that went underground.** A boy who witnessed his father's violence, who was bullied relentlessly, who couldn't read, who "hated" being a child — and who turned all of that into a career of absorbing other people's pain on screen. After filming abusive scenes in *All Good Things*, Kirsten Dunst observed he was "psychologically uncomfortable with the things he had to do" and "sent flowers the next day."
+- **The quiet stubbornness.** _Half Nelson_, _Lars and the Real Girl_, _Blue Valentine_, _The Believer_ — none of these were obvious career moves. But push a Nine and they don't push back. They simply don't move.
+- **The anger that went underground.** A boy who witnessed his father's violence, who was bullied relentlessly, who couldn't read, who "hated" being a child — and who turned all of that into a career of absorbing other people's pain on screen. After filming abusive scenes in _All Good Things_, Kirsten Dunst observed he was "psychologically uncomfortable with the things he had to do" and "sent flowers the next day."
 - **The deflection.** Emily Blunt's testimony is the sharpest portrait anyone has drawn of him: he asks questions, watches nuances, gets you to reveal your secrets, and reveals nothing of his own. "I'm sure it's a deflection strategy."
 <div class="contrast-panel">
 <div class="contrast-left">
@@ -146,7 +147,7 @@ The evidence runs in every direction:
 </div>
 </div>
 
-- **The "Hey Girl" projection.** The internet invented a persona for him — the sensitive feminist boyfriend — and he never corrected it. He didn't have to. The Nine is the most comfortable type being projected onto. Their identity is so fluid that other people's fantasies don't feel like an imposition. They feel like another role to merge with.
+- **The "Hey Girl" projection.** The internet invented a persona for him — the sensitive feminist boyfriend — and he never corrected it. He didn't have to. The Nine is the most comfortable type being projected onto. Other people's fantasies don't feel like an imposition. They feel like relief.
 
 When asked on Colbert to describe the rest of his life in five words, he said: "Run it by Eva first."
 
@@ -160,11 +161,11 @@ In his mid-twenties, Gosling ate at a Moroccan restaurant in Beverly Hills and t
 
 It nearly destroyed him financially. He did all the plumbing himself. He washed the dishes. He had no business being in the restaurant industry and no plan for making it work. The restaurant is still open today.
 
-This is the Nine paradox that confuses people: they look passive, but their stubbornness is staggering. The difference is that a Nine's stubbornness isn't about ambition or ego. It's about something that *felt right* — an experience that resonated so deeply with something internal that walking away wasn't an option. The Nine doesn't fight for things. They simply don't leave.
+This is the Nine paradox that confuses people: they look passive, but their stubbornness is staggering. The difference is that a Nine's stubbornness isn't about ambition or ego. It's about something that _felt right_ — an experience that resonated so deeply with something internal that walking away wasn't an option. The Nine doesn't fight for things. They simply don't leave.
 
 He started a band for the same reason. Dead Man's Bones, with Zach Shields, was born from a mutual obsession with the Haunted Mansion at Disneyland. Gosling taught himself cello and piano. They recorded with a children's choir from Flea's Silverlake Conservatory, allowed only three takes per song, left imperfections in, and refused electric guitars. They never toured properly. The band still has over 300,000 monthly Spotify listeners.
 
-He took up knitting while filming *Lars and the Real Girl* and never stopped. His perfect day: "Sitting in a room and knitting all day."
+He took up knitting while filming _Lars and the Real Girl_ and never stopped. His perfect day: "Sitting in a room and knitting all day."
 
 ---
 
@@ -176,31 +177,35 @@ Gosling described George as feeling that "being a dog was beneath him" and said 
 
 When George died, Gosling wore his tags around his neck.
 
-The way he described this dog — with complete respect for the animal's autonomy and dignity, as though George were a peer with preferences worth honoring — mirrors how he talks about everyone. Collaborators. His daughters. Eva. The puppet he befriended on *Project Hail Mary*.
+The way he described this dog — with complete respect for the animal's autonomy and dignity, as though George were a peer with preferences worth honoring — mirrors how he talks about everyone. Collaborators. His daughters. Eva. The puppet he befriended on _Project Hail Mary_.
 
 He named the puppet friend "Moppy Ringwald."
 
 On that film, Gosling was alone on camera for weeks. Shot in order, by design. By the time the alien character Rocky arrived as a practical puppet, Gosling genuinely needed a friend. "They're so brilliantly bringing him to life that there are times where I feel like we are friends. And when I see him sick or in trouble, it's kind of not hard at that point, because you've really been on the journey."
 
-He made a friend out of a mop. He made a friend out of a puppet. He made a friend out of a TV schedule. (There's a similar gentleness in [Keanu Reeves](/personality-analysis/Keanu-Reeves) — another quiet man who treats every person on set like a peer.) The boy who had no human friends until fifteen has spent his entire adult life finding connection in the most unexpected places — and treating those connections with a seriousness that other people reserve for humans.
+He made a friend out of a mop. He made a friend out of a puppet. He made a friend out of a TV schedule. (There's a similar gentleness in [Keanu Reeves](/personality-analysis/Keanu-Reeves) — another quiet man who treats every person on set like a peer.) He keeps finding connection in the most unlikely places — and treating those connections with a seriousness that other people reserve for humans.
 
 ---
 
 ## "I Live With Angels"
 
-Eva Mendes. They met on *The Place Beyond the Pines* in 2012, playing lovers. (His Barbie co-star [Margot Robbie](/personality-analysis/Margot-Robbie) has talked about how the film's ensemble formed a genuine bond, with Gosling at the quiet center of it.)
+Eva Mendes. They met on _The Place Beyond the Pines_ in 2012, playing lovers.
 
-"I wasn't thinking about kids before I met her, but after I met Eva, I realized that I just didn't want to have kids without her. And there were moments on *The Place Beyond the Pines* where we were pretending to be a family, and I didn't really want it to be pretend anymore."
+"I wasn't thinking about kids before I met her, but after I met Eva, I realized that I just didn't want to have kids without her. And there were moments on _The Place Beyond the Pines_ where we were pretending to be a family, and I didn't really want it to be pretend anymore."
 
 Two daughters: Esmeralda Amada (2014) and Amada Lee (2016). The names come from Eva's Cuban heritage — Amada means "beloved."
 
 "I live with angels. It's a ray of sunshine in a dark time."
 
+He took a four-year break from acting after his daughters were born. No nannies. One film per year, maximum. He and Eva are fiercely protective of their children's privacy. Nobody talked him out of the break because nobody could — and because that's not how Nines work. They don't announce a dramatic decision. They just quietly stop showing up, and eventually people notice.
+
+What's revealing is how Eva became his reference point for everything. On _Happy Sad Confused_, when asked about social media, he said Eva's "the MVP" and "I leave it to her." She manages the public-facing version of their life. She runs lines with him. When the Barbie offer came, she was the first person he told — and her reaction decided it. He doesn't make decisions about his career independently. He routes them through her.
+
 "Women are better than men. My home life is mostly women, and they are better than me and make me better."
 
-He took a four-year break from acting after his daughters were born. No nannies. One film per year, maximum. He and Eva are fiercely protective of their children's privacy.
+This is the Nine's deepest pattern in relationships: they don't just love their partner, they orient around them. Eva didn't just become his girlfriend. She became the gravitational center he orbits. "Run it by Eva first" — the rest of his life in five words — isn't just devotion. It's a man who found someone whose judgment he trusts more than his own, and was relieved to stop navigating alone.
 
-His daughters helped him on *Project Hail Mary*. "My girls were so helpful. One time they came to set and they were doing Rocky for me on the mic and I was acting with them. My daughter, I was trying on looks and she was like, 'You do look smarter in glasses. These are for show.' And I was like, 'That's a great point. I'll wear them.'"
+His daughters helped him on _Project Hail Mary_. "My girls were so helpful. One time they came to set and they were doing Rocky for me on the mic and I was acting with them. My daughter, I was trying on looks and she was like, 'You do look smarter in glasses. These are for show.' And I was like, 'That's a great point. I'll wear them.'"
 
 When his mother graduated from Brock University with a bachelor's degree in education, Ryan and Eva were in the crowd cheering.
 
@@ -210,13 +215,13 @@ There's a thread from the homeschooled boy whose mother saved him to the man who
 
 ## The Funniest Serious Actor Alive
 
-On *Happy Sad Confused*, Josh Horowitz told Gosling he's exceptional at playing men who are in over their heads.
+On _Happy Sad Confused_, Josh Horowitz told Gosling he's exceptional at playing men who are in over their heads.
 
 "No, but — weirdly you're really so good at being out of your depth."
 
 Gosling's response: "I used to do a lot of dramas, and something funny would happen and then everyone would laugh and then they would cut and they'd be like, 'Okay, that was funny, but let's get serious.' As though funny things don't happen in life. And as though that funny helps with the sad. That's how you can rope-a-dope, right?"
 
-He has hosted *Saturday Night Live* four times. He is famous for being constitutionally unable to keep a straight face. Kate McKinnon in particular "destroys" him. Russell Crowe said: "Ryan Gosling can make me laugh in a heartbeat. Whatever character shit I'm trying to do, he can just — like a laser — pump through it."
+He has hosted _Saturday Night Live_ four times. He is famous for being constitutionally unable to keep a straight face. Kate McKinnon in particular "destroys" him. Russell Crowe said: "Ryan Gosling can make me laugh in a heartbeat. Whatever character shit I'm trying to do, he can just — like a laser — pump through it."
 
 The comedy isn't separate from the seriousness. It's how he survives it. Every interviewer who's sat with him describes the same experience: he deflects with humor, tells stories about other people, makes you laugh so hard you forget you never got your question answered.
 
@@ -266,49 +271,28 @@ These aren't curated answers. They're a man whose internal world is warm, specif
 
 ---
 
-## A Man Made of Other People's Stories
+## The One Time He Told His Own Story
 
-Gosling told *Happy Sad Confused* that every day on set feels like an escape room. "You can make all the plans you want. But every day is different. You show up and it's like you're supposed to shoot a scene outside and it's raining. So do you build the tenting? But then you have to loop it because you're going to hear the rain. And then the whole thing's going to be looped but it's a big dialogue scene and you're like, should this whole thing be looped? Should we be chasing this old idea? Or should we just — let's do it in the car."
+In 2014, Gosling wrote and directed _Lost River_ — a dark, surreal film about a crumbling city, a single mother fighting to keep her family together, and a boy who discovers an underwater town. It premiered at Cannes. It was booed.
 
-Then he described Sandra Hüller spontaneously singing Harry Styles in a hallway on *Project Hail Mary*. He heard it, convinced her to do it on camera, the directors created space for it, they spent a whole day shooting a scene that wasn't supposed to exist. "And it turned into one of the best scenes in the film. Every time we screened it, people were like, that's their favorite scene. Not supposed to be there."
+Critics called it derivative, a pastiche of Lynch and Malick and Refn. It holds a 30% on Rotten Tomatoes. Gosling, who had previously described it as "a visualisation of my emotions at that time" — meaning the divorce, the violence, the demolished childhood — watched his most personal work get savaged in public.
+
+He cast Matt Smith after hearing his voice on TV while writing the script. "I heard him and I started writing him into the script." Not an audition. Not a meeting. He absorbed a voice from television — his oldest companion — and let it shape his story. Even when telling his own story, the Nine's instinct was to let the environment write it.
+
+He never directed again.
+
+There's a reason. Every other film in his career gives him a character to disappear into — a container for all the intensity he can't express as himself. _Lost River_ had no container. It was just him. His childhood. His pain. His vision, imposed on the screen without anyone else's story to hide behind. For a Nine, that kind of exposure isn't brave. It's unbearable.
+
+---
+
+## The Gifts That Are All Around
+
+Gosling told _Happy Sad Confused_ that every day on set feels like an escape room. "You can make all the plans you want. But every day is different. You show up and it's like you're supposed to shoot a scene outside and it's raining. Should we be chasing this old idea? Or should we just — let's do it in the car."
 
 "Those things are gifts. They're all around. You just have to be working with people that recognize them as that."
 
-He's not describing filmmaking. He's describing how he moves through the world — watching, listening, waiting for the gift to appear, then protecting it with everything he has. He doesn't impose himself on the environment. He shapes himself around it. He finds the thing that's already alive in the room and makes space for it to breathe.
+He's not describing filmmaking. He's describing how he moves through the world — watching, listening, waiting for the gift to appear, then making space for it. He finds the thing that's already alive in the room and protects it.
 
-He's been doing this for 44 films, and he keeps getting more open. At some point you have to wonder: is the disappearing act the cost of the openness, or has the openness finally made the disappearing unnecessary?
+He keeps getting more open. The dramatic actor discovered comedy. The private man did a podcast. The guy who never directed again performs "I'm Just Ken" at the Oscars with a hundred backup dancers and Slash on guitar.
 
-<!--
-READER FEEDBACK:
-
-WHAT WORKS REALLY WELL:
-- The Ken doll opening is genuinely great. It hooks you immediately and does double duty as personality evidence.
-- The childhood section hits hard. The knives story, the Rambo retelling on Colbert, the divorce details — it all builds a clear picture of where this personality came from.
-- The Emily Blunt "deflection strategy" quote is used perfectly. You introduce it once, then call back to it in the Enneagram section. Smart structure.
-- The Colbert rapid-fire answers section ("dogs' paws smell like nachos") is the most likable part. It feels like you actually let Gosling be a person instead of a case study.
-- The George the dog section is unexpectedly moving.
-
-WHERE I WANTED MORE:
-- The Eva Mendes section feels thin compared to everything else. You give his childhood a full deep-dive, his comedy gets a whole section, even the dog gets a section — but the most important relationship in his adult life gets a few quotes and a quick summary. How does the Nine merging pattern show up in this relationship specifically? Does he disappear into her world the way he disappears into roles? You hint at it with the "Run it by Eva first" line but never explore it.
-- There's nothing about his relationship with the industry — agents, studios, the business side. You mention he took four years off but not what that actually cost him or what it says about a Nine's relationship with external pressure. Did people try to talk him out of it? Did he just go quiet?
-- The "Lost River" mention is a throwaway. He directed a movie and you gave it one line. A Nine who steps into the director's chair — where he HAS to impose his vision — seems like it deserves more than a parenthetical.
-
-WHAT FELT OVERDONE OR REPEATED:
-- The "merging/disappearing" theme gets hammered pretty hard. You make the point in the intro, the acting section, the Enneagram breakdown, and the closing section. By the end I got it. The closing paragraph ("is the disappearing act the cost of the openness") would land harder if you hadn't already said variations of this three times.
-- The "quiet stubbornness" point is made in the TL;DR, the Enneagram bullet points, AND the restaurant section. The restaurant section is the strongest version — maybe trust it to carry the point on its own and trim the earlier mentions.
-- "The boy who had no friends until fifteen" is referenced at least three times. Once with impact, after that it starts to feel like a thesis statement you keep restating.
-
-WHAT COULD BE TRIMMED:
-- The Margot Robbie parenthetical in the Eva section feels forced — like an SEO link drop. It doesn't add anything to the point you're making about Eva and actually interrupts the emotional flow.
-- The Sandra Hüller / Harry Styles singing anecdote in the final section is interesting but it's doing the same work as the Slash story from two sections earlier (he creates space for spontaneity, waits for the gift). One of these two could go and you'd lose nothing.
-- The soap opera tangent (Deidre Hall possessed by the devil) runs a little long for what it's doing. The point is "he loves other people's performances" — you could get there in half the space.
-
-SMALL THINGS:
-- "44 films" in the last line — is this accurate? Might want to double-check.
-- The Days of Our Lives block quote runs long. Consider trimming the second half.
-- The contrast panel (internet sees vs. collaborators describe) is a nice device but "knits in his trailer" comes out of nowhere at that point. You don't mention knitting until the restaurant section later. Either move the knitting mention earlier or drop it from the panel.
-
-OVERALL:
-This is strong. The writing is good, the evidence is specific, and it doesn't read like a personality quiz result — it reads like an actual profile. The main issue is structural: you've got about 15% more repetition than you need, and the emotional weight is front-loaded (childhood) when the adult life (Eva, fatherhood, Lost River) deserves equal depth. Trim the repeated themes, expand the Eva section and maybe Lost River, and this is ready.
--->
-
+Maybe the stillness was never the whole story. Maybe it was just the foundation — the quiet center everything else gets built around.

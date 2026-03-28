@@ -1,8 +1,9 @@
 ---
-title: "Ryan Gosling Rapid Fire Questions on Ellen"
+title: 'Ryan Gosling Rapid Fire Questions on Ellen'
 channel: Ellen DeGeneres Show
 video_url: https://www.youtube.com/watch?v=s0MbQWhyoD0
 transcribed_date: 2026-03-27
+path: youtube-transcripts/ryan-gosling-ellen-rapid-fire-questions.md
 ---
 
 # Ryan Gosling Rapid Fire Questions on Ellen

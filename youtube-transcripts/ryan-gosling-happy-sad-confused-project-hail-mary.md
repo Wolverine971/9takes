@@ -1,8 +1,9 @@
 ---
-title: "Ryan Gosling on Project Hail Mary and Star Wars | Happy Sad Confused"
+title: 'Ryan Gosling on Project Hail Mary and Star Wars | Happy Sad Confused'
 channel: Happy Sad Confused
 video_url: https://www.youtube.com/watch?v=KpjZl_WSVoY
 transcribed_date: 2026-03-27
+path: youtube-transcripts/ryan-gosling-happy-sad-confused-project-hail-mary.md
 ---
 
 # Ryan Gosling on Project Hail Mary and Star Wars | Happy Sad Confused with Josh Horowitz

@@ -1,8 +1,9 @@
 ---
-title: "Ryan Gosling and the Project Hail Mary Creators Answer The 50 Most Searched Questions"
+title: 'Ryan Gosling and the Project Hail Mary Creators Answer The 50 Most Searched Questions'
 channel: WIRED
 video_url: https://www.youtube.com/watch?v=plGRMzsxpa4
 transcribed_date: 2026-03-27
+path: youtube-transcripts/ryan-gosling-wired-project-hail-mary-50-questions.md
 ---
 
 # Ryan Gosling and the Project Hail Mary Creators Answer The 50 Most Searched Questions | WIRED

@@ -1,8 +1,9 @@
 ---
-title: "Margot Robbie and Ryan Gosling Play With Puppies | Barbie | BuzzFeed"
+title: 'Margot Robbie and Ryan Gosling Play With Puppies | Barbie | BuzzFeed'
 channel: BuzzFeed Celeb
 video_url: https://www.youtube.com/watch?v=s5bI_732Cqs
 transcribed_date: 2026-03-27
+path: youtube-transcripts/ryan-gosling-margot-robbie-buzzfeed-puppy-barbie.md
 ---
 
 # Margot Robbie and Ryan Gosling Play With Puppies | Barbie | BuzzFeed

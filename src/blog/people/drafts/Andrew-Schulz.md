@@ -4,9 +4,9 @@ persona_title: "Comedy's Freedom Addict"
 meta_title: "Why Andrew Schulz Can't Stop Fighting the System (It's Not Just Ego)"
 description: 'Amazon told Andrew Schulz to cut jokes. He spent his life savings buying the special back and made 3x more. Inside the psychology of never being controlled.'
 author: 'DJ Wayne'
-date: '2025-01-07'
+date: '2026-01-07'
 loc: 'https://9takes.com/personality-analysis/Andrew-Schulz'
-lastmod: '2025-01-07'
+lastmod: '2026-01-07'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
