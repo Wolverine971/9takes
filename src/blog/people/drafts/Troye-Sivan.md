@@ -4,9 +4,9 @@ meta_title: 'Why Troye Sivan Shares Everything But Keeps the Real Stuff Hidden'
 persona_title: "Pop's Beautiful Exile"
 description: "Inside Troye Sivan's mind: how the boy who couldn't flip a pronoun became pop's most radically vulnerable artist"
 author: 'DJ Wayne'
-date: '2026-03-27'
+date: '2026-03-28'
 loc: 'https://9takes.com/personality-analysis/Troye-Sivan'
-lastmod: '2026-03-27'
+lastmod: '2026-03-28'
 changefreq: 'monthly'
 priority: '0.6'
 published: false

@@ -30,4 +30,9 @@ describe('questionSlug', () => {
 		);
 		expect(slugWithSuffix.length).toBeLessThanOrEqual(QUESTION_URL_MAX_LENGTH);
 	});
+
+	it('falls back to a stable slug when the question has no word characters', () => {
+		expect(buildQuestionSlug('??? !!! ??? !!! ???')).toBe('question');
+		expect(appendQuestionSlugSuffix('', 17)).toBe('question-17');
+	});
 });

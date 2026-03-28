@@ -4,9 +4,9 @@ meta_title: "Why John Mayer Can't Stop Sabotaging the Thing He Wants Most"
 persona_title: "Music's Haunted Virtuoso"
 description: 'Inside the contradiction that defines John Mayer: the man who writes devastating truths but spent a decade performing lies.'
 author: 'DJ Wayne'
-date: '2026-03-27'
+date: '2026-03-28'
 loc: 'https://9takes.com/personality-analysis/John-Mayer'
-lastmod: '2026-03-27'
+lastmod: '2026-03-28'
 changefreq: 'monthly'
 priority: '0.6'
 published: false

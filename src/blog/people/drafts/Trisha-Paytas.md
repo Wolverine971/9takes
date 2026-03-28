@@ -4,9 +4,9 @@ meta_title: "Why Trisha Paytas Can't Stop Reinventing Herself (It's Not What You
 persona_title: "Internet's Unfinished Portrait"
 description: 'Inside Trisha Paytas and her identity crisis that became an empire. An Enneagram Type 4 analysis of the most exposed woman online.'
 author: 'DJ Wayne'
-date: '2026-03-27'
+date: '2026-03-28'
 loc: 'https://9takes.com/personality-analysis/Trisha-Paytas'
-lastmod: '2026-03-27'
+lastmod: '2026-03-28'
 changefreq: 'monthly'
 priority: '0.6'
 published: false

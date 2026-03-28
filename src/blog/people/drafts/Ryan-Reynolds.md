@@ -6,7 +6,7 @@ description: "Ryan Reynolds uses humor to outrun anxiety he's carried since chil
 author: 'DJ Wayne'
 date: '2025-02-25'
 loc: 'https://9takes.com/personality-analysis/Ryan-Reynolds'
-lastmod: '2026-03-27'
+lastmod: '2026-03-28'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
@@ -18,6 +18,16 @@ wikipedia: 'https://en.wikipedia.org/wiki/Ryan_Reynolds'
 twitter: 'VancityReynolds'
 instagram: 'vancityreynolds'
 tiktok: ''
+content_quality:
+  hook: 9
+  enneagram: 9
+  evidence: 9
+  writing: 9
+  originality: 9
+  overall: 9.0
+  letter: A
+  graded_at: '2026-03-27'
+path: src/blog/people/drafts/Ryan-Reynolds.md
 ---
 
 > "I'll look for the joke in things so that I don't look for the sadness and the grief."
@@ -32,7 +42,16 @@ That gap between the public performance and the private experience is not just i
 
 ## "The Toughest Man Alive"
 
-Reynolds described his father, James Chester Reynolds, in a 2014 essay for Time magazine: "He was the toughest man alive: a former cop, former boxer, and full-time landmine."
+<div class="source-card">
+<span class="source-card__icon">📰</span>
+<div>
+<div class="source-card__title">Time Magazine — "My Father's Parkinson's Made Me a Better Person"</div>
+<div class="source-card__meta">2014 · Personal essay by Ryan Reynolds</div>
+<div class="source-card__note">"He was the toughest man alive: a former cop, former boxer, and full-time landmine."</div>
+</div>
+</div>
+
+Reynolds described his father, James Chester Reynolds, with those words.
 
 Not a metaphor designed for sympathy. A precise description of what it felt like to be the youngest of four boys in a house where the ground could shift without warning. "He could snatch the life right out of you with a simple look."
 
@@ -73,7 +92,7 @@ The "that" is anxiety. The "one that takes over" is the version of Ryan Reynolds
 
 "When the curtain opens, I turn on this knucklehead, and he kind of takes over and goes away again once I walk off set," Reynolds explained about his Deadpool persona. What started as a character in a comic book movie became something more personal: a psychological escape hatch. During the Deadpool 2 press tour, Reynolds admitted he was conducting most of his interviews in character because the real Ryan Reynolds was too anxious to do them.
 
-Think about that. One of the most famous actors on earth created a fictional persona to handle the parts of fame his actual self couldn't bear.
+One of the most famous actors on earth created a fictional persona to handle the parts of fame his actual self couldn't bear.
 
 This isn't a quirk. This is architecture. Reynolds built an entire public identity around humor precisely because humor is what kept him safe as a kid. The boy who figured out that a well-timed joke could defuse his father's temper grew into a man who figured out that a well-timed joke could defuse his own panic.
 
@@ -87,21 +106,13 @@ The engine runs all the time. The question is what it's powering.
 
 Enneagram Sevens are the head triad's escape artists. Their core fear isn't failure or rejection — it's being trapped in pain with no exit. When that fear activates, the Seven doesn't freeze or fight. They reframe. They redirect. They find the joke, the opportunity, the next adventure, the way out. It's not denial. It's something more sophisticated: a mental reflexiveness that transforms suffering into fuel before the suffering can fully land.
 
-Reynolds fits this pattern with textbook precision, but what makes him interesting isn't the fit — it's how extreme the contrast is between the mechanism and the pain it's managing.
+Reynolds fits this pattern with textbook precision, but what makes him interesting isn't the fit — it's how extreme the contrast is between the mechanism and the pain it's managing. You've already seen the evidence play out in the stories above. What the Enneagram adds is the map of where that pattern breaks down and where it deepens.
 
-**The evidence:**
+When Reynolds [goes to a dark place](/enneagram-corner/enneagram-types-in-stress), the reframing machine seizes up. The spontaneous mind that normally generates possibilities locks into a rigid, critical loop — "I lay awake at night, wrapping and unwrapping every possible scenario." Instead of finding the joke, he fixates on the threat. The escape artist trapped in his own head.
 
-- A childhood spent developing rapid-fire humor as a survival strategy in a house run by a volatile father
-- An adult life defined by constant expansion — acting, producing, marketing, investing, owning — where slowing down feels like a threat
-- His own admission that he uses work and achievement to "pave over" anxiety
-- The literal creation of a fictional alter ego to handle the parts of his life his real self finds unbearable
-- A career-defining move of turning his worst professional humiliation into his greatest franchise's best joke
+His [Type 6](/enneagram-corner/enneagram-type-6) wing explains why he isn't just a thrill-chaser. Where a pure Seven bounces from adventure to adventure without looking back, Reynolds builds safety nets. Diversified business empires that ensure he'll never be cornered. Deep, decades-long friendships that outlast any project. The mock feud with [Hugh Jackman](/personality-analysis/Hugh-Jackman) isn't content — it's a loyalty bond disguised as comedy.
 
-Under stress, Sevens take on the rigid, critical qualities of an unhealthy [Type 1](/enneagram-corner/enneagram-type-1). Reynolds' confession about fixation — "I lay awake at night, wrapping and unwrapping every possible scenario" — is the stress arrow in action. The normally spontaneous, possibility-generating mind locks into a perfectionistic loop.
-
-His 7w6 wing (the Entertainer) explains the other half. Where a pure Seven might bounce from thrill to thrill without looking back, Reynolds' Six wing gives him loyalty, anxiety, and an instinct to build safety nets. He doesn't just chase adventures — he builds diversified business empires that ensure he'll never be trapped. He doesn't just make people laugh — he maintains deep, decades-long friendships. The mock feud with [Hugh Jackman](/personality-analysis/Hugh-Jackman) isn't just content. It's a loyalty bond disguised as comedy, which is the most 7w6 thing imaginable.
-
-In growth, Sevens move toward the focused depth of Type 5. Reynolds' business strategy — the calculated Wrexham investment, the methodical construction of Maximum Effort, the deliberate decision to pay his own writers from his salary to protect a creative vision — shows a Seven who has learned to go deep rather than always going wide.
+And when he's at his best, the pattern inverts. Instead of going wide, he goes deep — the calculated Wrexham investment, the methodical construction of Maximum Effort, the deliberate decision to pay his own writers from his salary to protect a creative vision.
 
 ---
 
@@ -125,45 +136,94 @@ When Fox finally greenlit Deadpool in 2014, they gave it a fraction of a typical
 
 Reynolds responded by becoming everything. Star. Producer. Script doctor. Marketing strategist. He let go of his salary and paid his co-writers Rhett Reese and Paul Wernick out of his own pocket to be on set. "We replaced spectacle with character," he said, "and it worked well and really landed."
 
-Deadpool grossed $782 million worldwide. The sequel made $785 million. Deadpool & Wolverine crossed $1 billion.
-
 ## "Maximum Effort Happened by Accident"
 
 "Maximum Effort happened completely by accident," Reynolds admitted. "I then used some of that sweet Deadpool money to buy Aviation Gin and I needed to market that, so we inadvertently became a marketing company."
 
 That sentence — casual, self-deprecating, deflecting — is the most Ryan Reynolds description of a multibillion-dollar business trajectory imaginable. Here's what actually happened: a man who couldn't sit still turned his inability to sit still into a commercial empire.
 
-Aviation Gin. Acquired by Diageo for $610 million. Mint Mobile. Sold to T-Mobile for $1.35 billion. Maximum Effort, his marketing firm. Acquired by MNTN. Wrexham AFC, a Welsh football club purchased with Rob McElhenney for £2 million, now valued at over £100 million and climbing toward the Premier League.
+<div class="key-stat-row">
+<div class="key-stat">
+<span class="key-stat__number">$610M</span>
+<span class="key-stat__label">Aviation Gin sale to Diageo</span>
+</div>
+<div class="key-stat">
+<span class="key-stat__number">$1.35B</span>
+<span class="key-stat__label">Mint Mobile sale to T-Mobile</span>
+</div>
+<div class="key-stat">
+<span class="key-stat__number">£2M → £100M+</span>
+<span class="key-stat__label">Wrexham AFC valuation growth</span>
+</div>
+</div>
+
+Aviation Gin. Mint Mobile. Maximum Effort, his marketing firm, acquired by MNTN. Wrexham AFC, a Welsh football club purchased with Rob McElhenney and now climbing toward the Premier League.
 
 Each venture follows the same pattern: find something undervalued, apply personality to it, move fast enough that the big players can't catch up. When Peloton released a widely mocked holiday ad in 2019, Reynolds hired the actress, shot a parody for Aviation Gin, and posted it — all within 72 hours. Corporate marketing departments take 72 hours to schedule a meeting about scheduling a meeting.
 
 "I tend to bite off way more than I could or should chew," Reynolds told the Wall Street Journal. "I think maybe it's just that Canadian sensibility: 'Well, I said I was going to, so I have to deliver this.' I will do that at the cost of my own well-being sometimes."
 
-There it is again. The engine that never stops. The man who told the world he paves over anxiety with work and achievement, building more work to pave over more anxiety, in an expanding cycle that looks from the outside like genius and feels from the inside like survival.
+That last sentence deserves a second read. He's not bragging. He's diagnosing.
 
-In October 2021, Reynolds announced on Instagram that he was taking "a little sabbatical from movie making." He framed it as a parenting decision. Given everything he'd said about overwork and anxiety, it read more like a man who had finally noticed the engine was running on fumes.
+In 2021 alone, Reynolds released three major films — Free Guy, Red Notice, The Hitman's Wife's Bodyguard — while running Maximum Effort, Mint Mobile, Aviation Gin, and co-owning a football club. That October, he posted an Instagram photo with the word "sabbatical," crossed out the dictionary activities, and replaced them with one word: "Parent."
+
+"I'm just trying to create a little bit more space for my family and time with them," he told the Hollywood Reporter. "You don't really get that time back." More specifically: "I'm trying to get some quality time with my kids before they're teenagers who loathe me."
+
+Did he actually slow down? Not entirely. "There is no absence of busyness at all," he admitted. "I am just home while I work." He kept co-writing Deadpool 3 and running his businesses. But something shifted. When he eventually came back for Deadpool & Wolverine six years after the sequel, he was candid about why it took so long: "It swallows my whole life. I have four kids, and I don't ever want to be an absentee dad. I kind of die inside when I see their faces, and they do a sports thing or something and I missed it."
+
+The man who once described overwork as his primary coping mechanism had started noticing the cost — not to himself, but to the people he was ostensibly doing it all for. The engine was still running. But for the first time, he was paying attention to what it was consuming.
+
+## "I Wish the Whole World Could Visit Wrexham"
+
+Of all of Reynolds' ventures, Wrexham AFC is the outlier that explains the most.
+
+Aviation Gin and Mint Mobile follow a clean entrepreneurial logic: find something undervalued, apply personality, sell high. Wrexham doesn't. In November 2020, Reynolds and Rob McElhenney pitched the Wrexham Supporters Trust — the fans who'd owned the club since saving it from administration in 2011 — on buying a fifth-tier Welsh football club languishing at its lowest position in 150 years. The Trust voted 98.6% in favor.
+
+The purchase price was roughly $2.5 million. The emotional investment has been harder to calculate.
+
+Reynolds didn't visit Wrexham until eight months after the takeover. His first match was a 3-2 defeat after a red card. "Being at a football match like that and being invested as we are was absolute torture," he said. "I loved every second of it."
+
+Torture that you love is a Seven describing home.
+
+What happened next wasn't a celebrity vanity project. Reynolds and McElhenney showed up — not just at matches, but in pubs, at powerchair football games, on the streets of a town where a Hollywood star greeting pensioners and shop owners was surreal enough to require its own documentary. Welcome to Wrexham won eight Emmy Awards.
+
+"What Wrexham has really grown inside of me is the value and importance of emotional investment," Reynolds said. "If people can be galvanized through emotional investment and feel like they're a part of something, they will engage, and they will also tell their story."
+
+Every time he visits, he takes a piece of grass from the Racecourse Ground pitch and puts it in his pocket. His daughters encourage it. He considers the ground "in certain senses a holy ground."
+
+After the club's third consecutive promotion, Reynolds wrote a message that didn't sound like a celebrity owner: "I know so many of you now. Since February 2021, I've watched babies become regulars. And some regulars depart us for good. We've had the honour to scatter ashes of loved ones across that field."
+
+A man who spent his career building exits found a place he doesn't want to leave.
 
 ---
 
 ## "I Just Fixed Something With My Own Dad"
 
-James Chester Reynolds died in 2015 after a twenty-year battle with Parkinson's disease. By the end, the disease had eroded the line between reality and delusion.
+"I could have maybe been there with him toward the end, and I wasn't. He and I just drifted apart, and that's something I'll live with forever."
 
-"My father was really slipping down a rabbit hole where he was struggling to differentiate between reality and fiction," Reynolds said. "There would be conspiratorial webs that he would spin about 'this is happening' and that 'these people might be after me.' Just stuff that was such a wild departure from the man that I grew up with and knew."
+That's the line that sits heavier than anything else Ryan Reynolds has ever said publicly. His father, James Chester Reynolds, died in 2015 after a twenty-year battle with Parkinson's disease. By the end, the disease had eroded the line between reality and delusion — conspiratorial webs, paranoia, a wild departure from the man Ryan had grown up studying and fearing and loving.
 
 His father had said the word "Parkinson's" maybe three times in his entire life. One of those times wasn't to Ryan.
 
 The disease created distance, and Reynolds let it. "It was very easy for me to dine off the idea that my father and I do not see eye to eye on anything and that an actual relationship with him is impossible," he said. "As I'm older now, I look back at it, and I think of it more as that was my unwillingness at the time to meet him where he was."
 
-Then the line that sits heavier than anything else he's ever said publicly:
+The Seven who could reframe anything couldn't reframe this. He ran from the pain the way he'd always run from pain — and this time, the exit closed behind him.
 
-"I could have maybe been there with him toward the end, and I wasn't. He and I just drifted apart, and that's something I'll live with forever."
+Then [Blake Lively](/personality-analysis/Blake-Lively) made him look back.
 
-Reynolds now has four children with [Blake Lively](/personality-analysis/Blake-Lively). Every deliberate parenting choice he makes is a correction of the thing he missed receiving.
+They met on the set of Green Lantern, started as friends, crossed a line on a dance floor in Tribeca, and built something that quietly restructured his operating system. "She always responds with empathy," Reynolds said during a Humans of New York appearance at the Met Gala. "She meets anger with empathy. She meets hate with empathy. She'll take the time to imagine what happened to a person when they were five or six years old. And she's made me a more empathetic person."
+
+Then he said the part that connects everything: "I had a very fractured relationship with my father. Before he died, she made me remember things I didn't want to remember. She made me remember the good times."
+
+The man whose whole psychology was built on reframing pain married someone who taught him he didn't always have to. That sometimes you could just sit inside the memory — even the hard ones — and find something worth keeping.
+
+Reynolds now has four children with Blake. Every deliberate parenting choice he makes is a correction of the thing he missed receiving.
 
 "Part of my job as a parent is to model behaviors and model what it's like to be sad and model what it's like to be anxious, or angry — that there's space for all these things," he said. "The home that I grew up in, that wasn't modeled for me, really. And that's not to say that my parents were neglectful, but they come from a different generation."
 
-Instead of retreating into silence the way his father did, Reynolds gets down on his children's level. He tells them he believes them. He sits and hears them out. He feels whatever they're going through with them — the opposite of the man who never missed a football game but couldn't share the full spectrum of human emotion.
+"Now I love that I have anxiety," he told E! News. "Because when I see my kids experiencing some of that, which is probably genetic, I know how to address it in a way that is compassionate, that actually allows them to feel seen."
+
+Instead of retreating into silence the way his father did, Reynolds gets down on his children's level. He tells them he believes them. He sits in whatever they're going through with them — the opposite of the man who never missed a football game but couldn't share the full spectrum of human emotion.
 
 "The healing for me really comes more through my relationship with my own kids, while taking some of the things from my father that are of immense value," Reynolds said. "To be able to get down on their level and just tell them that I believe them and that I'm here for them — I'm like, 'Oh, okay. I just weirdly didn't mean to, but I fixed something with my own dad.'"
 

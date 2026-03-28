@@ -1,22 +1,26 @@
 // src/lib/utils/questionSlug.ts
 const WORD_PATTERN = /[A-Za-z0-9]+/g;
 export const QUESTION_URL_MAX_LENGTH = 80;
+const QUESTION_URL_FALLBACK = 'question';
 
 export function buildQuestionSlug(input: string): string {
 	const tokens = tokenizeQuestion(input);
 
 	if (tokens.length === 0) {
-		return '';
+		return QUESTION_URL_FALLBACK;
 	}
 
 	const keywords = removeStopwords(tokens);
 	const baseTokens = selectSlugTokens(tokens, keywords);
 
-	return clampQuestionSlug(baseTokens.join('-').toLowerCase(), QUESTION_URL_MAX_LENGTH);
+	const slug = clampQuestionSlug(baseTokens.join('-').toLowerCase(), QUESTION_URL_MAX_LENGTH);
+
+	return slug || QUESTION_URL_FALLBACK;
 }
 
 export function appendQuestionSlugSuffix(baseSlug: string, suffix: number | string): string {
-	const normalizedBase = clampQuestionSlug(baseSlug, QUESTION_URL_MAX_LENGTH);
+	const normalizedBase =
+		clampQuestionSlug(baseSlug, QUESTION_URL_MAX_LENGTH) || QUESTION_URL_FALLBACK;
 	const suffixPart = `-${String(suffix).toLowerCase()}`;
 	const maxBaseLength = Math.max(1, QUESTION_URL_MAX_LENGTH - suffixPart.length);
 
