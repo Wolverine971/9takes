@@ -24,7 +24,7 @@ path: src/blog/people/drafts/Alexandria-Ocasio-Cortez.md
 
 <p class="firstLetter">Past 3AM. May 2025. The Energy and Commerce Committee is marking up the Republican tax bill. Most members are half-asleep. Alexandria Ocasio-Cortez leans into her microphone and asks whether women who suffer miscarriages would be exempt from proposed Medicaid work requirements.</p>
 
-A colleague tells her to stop addressing the camera.
+Rep. Randy Weber, a Texas Republican on the committee, tells her to stop addressing the camera.
 
 **"I will not yield because it was a terribly disrespectful comment, and I will not yield to disrespectful men."**
 
@@ -113,6 +113,24 @@ Roberts built her early campaign website. He's a web developer who avoids camera
 
 The pairing makes sense through an Enneagram lens. Type 6s don't need flashy partners. They need reliable ones. Someone who shows up, stays steady, and doesn't add chaos to an already combative public life. Roberts fits that pattern exactly.
 
+## The Lost Decade
+
+Most profiles jump from "her father died" to "she ran for Congress." That skips the most revealing ten years of her life.
+
+After graduating cum laude from BU in 2011, AOC moved back to the Bronx. She took a job as Educational Director at the National Hispanic Institute, running literacy programs and college readiness workshops for DREAMers and undocumented youth. She was named NHI Person of the Year in 2017.
+
+She also launched Brook Avenue Press, a publishing startup at a Bronx business incubator, producing children's books that portrayed her neighborhood in a positive light. The incubator closed. The company was dissolved by New York State in 2016.
+
+And through all of it, she bartended and waited tables at Flats Fix, a taqueria in Union Square, to help her mother fight foreclosure. She was still behind the bar in 2017 when she launched her campaign.
+
+Then came the road trip. After the 2016 election, she drove across the country — to Flint, Michigan, where families still couldn't drink their water, and to Standing Rock, North Dakota, where indigenous protesters were fighting the Dakota Access Pipeline.
+
+Standing Rock was the tipping point.
+
+**"I had believed that the only way to run for office effectively was to have access to wealth, social influence, and power,"** she said later. **"But I saw others putting their whole lives and everything that they had on the line for the protection of their community."**
+
+Her brother Gabriel submitted her name to Brand New Congress, a PAC recruiting progressive candidates. They received 11,000 nominations. AOC was one of 12 selected. She was the only one who won.
+
 ## From Bartender to Congress
 
 The 2018 primary wasn't supposed to be close.
@@ -135,17 +153,29 @@ Politicians sand down their edges. AOC sharpens hers.
 
 **"I'm not a superhero. I'm not a villain. I'm just a person trying to do the right thing."**
 
-Self-doubt alongside moral conviction. She never quite trusts her own competence, but she pushes forward anyway — the defining internal tension of the counterphobic Six.
+The confidence you see in committee hearings and livestreams sits on top of something less comfortable. She's talked openly about imposter syndrome — the feeling that she doesn't belong in Congress, that someone will figure out she's just a bartender from the Bronx who got lucky. She's described anxiety before major votes, the weight of knowing that one wrong move could validate every critic who said she wasn't qualified.
+
+That's the part most people miss about counterphobic Sixes. The courage isn't the absence of fear. It's the decision to move forward while the fear is still screaming. Every viral clip of AOC dismantling a witness in a hearing is also a person who prepared obsessively because she was terrified of being caught unprepared.
 
 ### Platform Dominance
 
-AOC doesn't just use social media. She colonizes it.
+AOC doesn't just use social media. She dominates it.
 
 Instagram Live cooking sessions. A 2020 Twitch stream playing _Among Us_ that hit 438,000 peak viewers and drove more traffic to IWillVote.com than any other source. In December 2024, she became the **first person to reach 1 million followers on Bluesky**, hitting 2 million by March 2025.
 
 Then there's the 92-minute unscripted Instagram Live in February 2025 where she called Musk **"one of the most unintelligent billionaires I have ever met"** and **"one of the most morally vacant"** people in government. No teleprompter. No staff approval. Just a congresswoman going live for an hour and a half to say what she thought about the world's richest man.
 
 9.6 million Instagram followers. 13.1 million on X. Most-followed politician on Bluesky. She meets people where they are — and she does it unfiltered, which is exactly what makes it work.
+
+### Off the Clock
+
+The warrior image is real, but it's not the whole picture.
+
+AOC's first passion was science, not politics. In high school, she placed second in the world at the Intel International Science and Engineering Fair for research on antioxidants and nematode lifespans. MIT named an asteroid after her — 23238 Ocasio-Cortez, a mile-wide rock orbiting between Mars and Jupiter. She started at BU as a science major before switching to economics.
+
+At home, she's a self-described "proud plant mama" with an Instagram-documented collection. She has a French bulldog named Deco who she's brought to the Rules Committee room. Her Instagram Stories show her assembling IKEA furniture, discussing skincare routines, and making black bean soup in her Instant Pot while answering constituent questions about tax policy.
+
+The intimacy is strategic and it's also real. Type 6s build networks of trust. Most politicians broadcast. AOC invites people in.
 
 ### Relentless Preparation
 
@@ -233,15 +263,7 @@ But the détente didn't last. In December 2024, when AOC ran for Oversight Commi
 
 ### What This Reveals
 
-The AOC-Pelosi dynamic isn't personal animosity. It's a clash of Enneagram worldviews.
-
-Type 3s like Pelosi see politics as achievement. Build coalitions. Win elections. Protect the brand. Newcomers who rock the boat threaten everything you've built.
-
-Type 6s like AOC see politics as protection. Question authority. Build community safety nets. Test whether the people in power actually have your back, because if they don't, you need to know now.
-
-Pelosi saw AOC as a threat to party success. AOC saw Pelosi as an authority figure who needed testing. Neither was wrong from their own perspective.
-
-The irony? They actually share a goal: Democratic power. They just can't agree on what that power is for.
+Pelosi saw AOC as a threat to party success. AOC saw Pelosi as an authority figure who needed testing. Neither was wrong. They share a goal — Democratic power — they just can't agree on what it's for. The Three asks: _did we win?_ The Six asks: _did we protect anyone?_
 
 ## What She Actually Built
 
@@ -253,9 +275,9 @@ The 2019 resolution was dismissed as naive. It changed the conversation anyway. 
 
 The knock on AOC is that she's all rhetoric. The record complicates that.
 
-The Bipartisan Healthy Start Reauthorization Act, co-led with Republican Rep. Nicole Malliotakis, passed the Health Subcommittee and then the full Energy and Commerce Committee **unanimously**. A progressive firebrand getting unanimous bipartisan support isn't supposed to happen.
+Consider the Bipartisan Healthy Start Reauthorization Act. She co-led it with Republican Rep. Nicole Malliotakis — her ideological opposite from the other end of New York City. The bill reauthorizes a federal program supporting mothers and infants in high-risk communities. It passed the Health Subcommittee, then the full Energy and Commerce Committee — **unanimously**. Every Republican voted yes. A progressive firebrand getting unanimous bipartisan support isn't supposed to happen, but AOC found the issue where protecting vulnerable families wasn't partisan. That's the Six instinct: find the shared threat and build the coalition around it.
 
-The High Court Gift Ban Act with Rep. Jamie Raskin proposed limiting Supreme Court gifts to $50. The AI Data Center Moratorium Act with Bernie Sanders, introduced in March 2026, targets the unchecked buildout of data centers that drove household electricity costs up 7% in 2025.
+She also introduced the High Court Gift Ban Act with Rep. Jamie Raskin, capping Supreme Court gifts at $50, and the AI Data Center Moratorium Act with Bernie Sanders in March 2026, targeting unchecked data center buildout that drove household electricity costs up 7% in 2025.
 
 She picks high-profile fights and she does the committee grind. The combination is rarer than it looks.
 
@@ -270,6 +292,20 @@ The 2021 "Tax the Rich" gown — the stress arrow toward Type 3 on full display.
 The December 2024 defeat to Gerry Connolly, 131-84, with Pelosi working the phones against her, could have been a humiliation. Her response on Bluesky: **"Tried my best. Sorry I couldn't pull it through everyone — we live to fight another day."**
 
 She pivoted to Energy and Commerce in January 2025. The loss actually broadened her portfolio — energy, healthcare, tech regulation, telecom — better credentials for a statewide or national run than Oversight alone would have provided.
+
+### The Constant Threat
+
+The political fights are one thing. The personal danger is another.
+
+AOC has described waking up to stacks of photos forwarded by Capitol Police — **"people who want to kill you today."** Death threats have targeted her mother, her brother, even her former college dean. During the January 6 Capitol breach, rioter Garret Miller tweeted "Assassinate AOC." He was sentenced to over three years in federal prison.
+
+On January 6 itself, AOC was in her office in the Cannon Building. She hid in her bathroom, heard someone banging on the door demanding **"Where is she?"** During an emotional Instagram Live weeks later, she revealed she's a survivor of sexual assault — and that past trauma flooded back as she hid, fearing not just death but violation.
+
+Fox News mentioned her name **3,181 times** in a single six-week stretch in 2019 — 75 times per day. Host Stuart Varney admitted: **"We have an AOC segment every single day almost every single hour"** because **"she is good for our ratings."** AOC called the network **"AOC TMZ."**
+
+Then there was the dancing video. On the eve of her swearing-in, an anonymous account posted a clip of her dancing on a BU rooftop to Phoenix's "Lisztomania" — a student recreation of _The Breakfast Club_. The intended takedown backfired completely. Supporters found it charming. AOC posted a new video dancing outside her congressional office: **"I hear the GOP thinks women dancing are scandalous. Wait till they find out Congresswomen dance too!"**
+
+The threats and the mockery reveal what it actually costs to be a counterphobic Six in public life. The courage isn't fearlessness. It's choosing to act while knowing — in specific, documented, daily detail — exactly what you're risking.
 
 ### Criticism from the Left
 
@@ -291,54 +327,22 @@ She went directly to her constituents and asked why they split their tickets. Th
 
 A Type 6 hears that and doesn't dismiss it. She files it away. If voters are angry at institutions, that's data she can use.
 
-## 2028 and Beyond
+## What She's Building Next
 
 The numbers tell the story before she does.
 
 **$9.6 million raised in Q1 2025** — her strongest quarter ever. **$15.4 million** in her campaign account by mid-2025, the most of any House member. 736,000 individual contributions at an average of $20. No corporate PAC money. Ever.
 
-Polls show her leading Schumer by 19 points in a hypothetical 2028 Senate matchup. She placed third in a hypothetical presidential primary behind [Gavin Newsom](/personality-analysis/Gavin-Newsom) and [Kamala Harris](/personality-analysis/Kamala-Harris).
+Polls show her leading Schumer by 19 points in a hypothetical 2028 Senate matchup. She placed third in a hypothetical presidential primary behind [Gavin Newsom](/personality-analysis/Gavin-Newsom) and [Kamala Harris](/personality-analysis/Kamala-Harris). Her advisers won't confirm anything. They're not ruling anything out either.
 
-Her advisers won't confirm anything. They're not ruling anything out either.
+When Schumer announced he'd vote for the Republican spending bill in March 2025, AOC called it **"a tremendous mistake,"** **"a huge slap in the face,"** and said there was **"a deep sense of outrage and betrayal."** Colleagues privately urged her to primary him. NBC News ran the headline: **"Democrats are desperately searching for new leaders. AOC is stepping into the void."**
 
-Then there's the Fighting Oligarchy tour with Bernie Sanders. Fifteen states. **261,100 total attendees** as of late 2025. Denver drew 34,000. Los Angeles, 36,000. But the telling numbers are from red territory: 20,000 in Salt Lake City. 12,500 in Nampa, Idaho. 7,500 in Missoula, Montana. She's not just preaching to the converted.
+When Trump bombed Iranian nuclear sites without congressional authorization in June 2025, she was one of the first elected Democrats to invoke the word "impeachment" — while most of her party avoided it. Trump responded by calling her **"one of the 'dumbest' people in Congress."** She didn't flinch.
 
-## Building a Movement
+Then there's the Fighting Oligarchy tour with Bernie Sanders. Fifteen states. **261,100 total attendees** as of late 2025. Denver drew 34,000. Los Angeles, 36,000. But the telling numbers are from red territory: 20,000 in Salt Lake City. 12,500 in Nampa, Idaho. 7,500 in Missoula, Montana.
 
-When Schumer announced he'd vote for the Republican spending bill in March 2025, AOC called it **"a tremendous mistake,"** **"a huge slap in the face,"** and said there was **"a deep sense of outrage and betrayal."** Colleagues privately urged her to primary him.
+A movement funded entirely by small donors, drawing thousands in states that haven't voted Democrat in decades. Her advisers won't say what it's for. The crowds suggest they don't need to.
 
-NBC News ran the headline: **"Democrats are desperately searching for new leaders. AOC is stepping into the void."**
-
-Her loyalty is to principles over party hierarchy. When Trump bombed Iranian nuclear sites without congressional authorization in June 2025, she was one of the first elected Democrats to invoke the word "impeachment" — while most of her party avoided it. Trump responded by calling her **"one of the 'dumbest' people in Congress."** She didn't flinch.
-
-The movement she's building extends beyond her district and beyond Congress. Funded entirely by small donors. Drawing crowds in deep-red states that haven't voted Democrat in decades.
-
-Twenty thousand in Salt Lake City. Twelve thousand five hundred in Nampa, Idaho. Seven thousand five hundred in Missoula, Montana.
-
-Her father pointed at Captain Janeway, then at his daughter. Back and forth.
+Her father pointed at Captain Janeway, then at his daughter. Back and forth. She seems to remember.
 
 > **Disclaimer:** This analysis of Alexandria Ocasio-Cortez's Enneagram type is speculative, based on publicly available information, and may not reflect her actual personality type.
-
-<!--
-REVIEWER COMMENTS (2026-03-27)
-=============================
-
-DUPLICATE / REDUNDANT:
-- The rally attendance numbers (Salt Lake City 20,000, Nampa 12,500, Missoula 7,500) appear almost word-for-word in BOTH "2028 and Beyond" and "Building a Movement." Pick one place for them and cut the other. Having it twice makes it feel like a copy-paste error.
-- "Building a Movement" and "2028 and Beyond" cover very similar ground (fundraising, polls, tour, Schumer tension). Consider merging them into one section. Right now it reads like two drafts of the same section that both made it in.
-
-COULD TRIM / OVERDONE:
-- The Pelosi section is massive — almost a third of the article. It's the most detailed section by far. The blow-by-blow timeline (sit-in, glass of water, Twitter exchange, private meeting, Oversight loss) is interesting but could be tightened. A reader who came for AOC might lose patience with how much real estate Pelosi gets. Consider cutting one of the sub-incidents or condensing the "What This Reveals" analysis, which re-explains the Type 6 vs Type 3 dynamic that the reader already gets from the earlier examples.
-
-MISSING / SHOULD EXPAND:
-- Who is Weber? The opening mentions "Weber apologized the next morning" but he's never introduced. The reader has no idea who this is. Add a line identifying him when the colleague tells her to stop addressing the camera.
-- The 10-year gap between her father's death (2008) and running for Congress (2018) is barely covered. She went from BU to bartending to... what? The Brand New Congress recruitment, her organizing work, the transition from bartender to candidate — that's actually the most interesting part of the story and it gets one paragraph. A normal person reading this would wonder what happened in that decade.
-- The "What She Actually Built" / legislation section feels thin compared to the personality analysis sections. You list three bills in quick succession but don't give the reader a sense of impact. The Healthy Start Act getting unanimous committee support is a great detail — give it a beat to land instead of rushing to the next bill.
-- No sense of her as a person outside politics. What's she like when she's not fighting? The Among Us stream and cooking sessions are mentioned but just as political tools. Any hobbies, interests, or humanizing details would balance the "fearless warrior" framing and make her feel more real.
-- The criticism section is short and only covers criticism from the left. There's no mention of the right-wing attacks (death threats, the viral "dancing video" thing, constant Fox News targeting). Even a brief mention would round things out — and honestly the fact that she deals with persistent threats ties right back into the Type 6 security theme.
-
-MINOR NOTES:
-- The Captain Janeway callback at the very end is a nice touch, but it lands a bit abruptly after the rally numbers. Consider adding a transitional sentence so it doesn't feel like the article just... stops.
-- "She colonizes it" (re: social media) is a strong verb choice that some readers might find off-putting. Maybe "dominates" or "owns" works better.
-- The article leans heavily on the "fearless" and "dangerous" framing. A Type 6 piece might benefit from showing more of the doubt and anxiety that drives the courage — you hint at it with the "never quite trusts her own competence" line but could do more. The most compelling insight in the article is that her courage comes FROM fear, not despite it. That deserves more space.
--->

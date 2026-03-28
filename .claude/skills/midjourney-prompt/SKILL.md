@@ -6,7 +6,7 @@ description: >
   transformations, and cinematic styles. Uses proven templates from 73+ successful prompts with proper
   technical parameters, aspect ratios, and style weights.
 user-invokable: true
-argument-hint: "<concept or blog title>"
+argument-hint: '<concept or blog title>'
 allowed-tools: Read, Write, AskUserQuestion
 ---
 
@@ -36,21 +36,22 @@ If the user provides enough context (e.g., a blog title or clear concept), skip 
 
 Match the user's request to the best template category:
 
-| Category | Best For | Key Signal Words |
-|----------|----------|-----------------|
-| Greek Statues | Personality types, emotional intelligence, psychology | emotion, type, feeling, personality |
-| Cyberpunk/Neon | Digital platform, tech-forward, younger audience | modern, digital, tech, platform, app |
-| Tech/Hacker | Developer content, analytical types | coding, developer, programmer, tech |
-| Philosophers | Educational content, deep insights, authority | wisdom, philosophy, learning, history |
-| Community/Group | Social dynamics, relationships, community | group, community, together, social, discussion |
-| Personal Growth | Transformation, development, self-improvement | growth, change, journey, progress, transform |
-| Cinematic | Hero images, marketing, premium content | hero, premium, marketing, featured |
+| Category        | Best For                                              | Key Signal Words                               |
+| --------------- | ----------------------------------------------------- | ---------------------------------------------- |
+| Greek Statues   | Personality types, emotional intelligence, psychology | emotion, type, feeling, personality            |
+| Cyberpunk/Neon  | Digital platform, tech-forward, younger audience      | modern, digital, tech, platform, app           |
+| Tech/Hacker     | Developer content, analytical types                   | coding, developer, programmer, tech            |
+| Philosophers    | Educational content, deep insights, authority         | wisdom, philosophy, learning, history          |
+| Community/Group | Social dynamics, relationships, community             | group, community, together, social, discussion |
+| Personal Growth | Transformation, development, self-improvement         | growth, change, journey, progress, transform   |
+| Cinematic       | Hero images, marketing, premium content               | hero, premium, marketing, featured             |
 
 ## Step 3: Build the Prompt
 
 ### Template Structures
 
 #### Greek Statues with Emotional Expression
+
 ```
 [EMOTION/SITUATION] greek statue [ACTION/POSE], [FACIAL_EXPRESSION], [SETTING],
 Unreal Engine, Cinematic, [COLOR_SCHEME], portrait Photography, Shot on 50mm lens,
@@ -61,6 +62,7 @@ hypermaximalist, elegant, hyper realistic, super detailed
 ```
 
 **Enneagram-specific patterns:**
+
 - Type 1 (Perfectionist): "greek statue with stern focused expression meticulously arranging objects into perfect order"
 - Type 2 (Helper): "greek statue reaching out with warm caring expression, hands extended to help"
 - Type 3 (Achiever): "greek statue standing confidently on podium, face full of determination and pride"
@@ -72,6 +74,7 @@ hypermaximalist, elegant, hyper realistic, super detailed
 - Type 9 (Peacemaker): "greek statue in serene meditation pose, face radiating calm peaceful acceptance"
 
 #### Cyberpunk & Neon
+
 ```
 [SUBJECT] [ACTION], cyberpunk, cyberpunk style, neon [COLORS],
 Unreal Engine, Cinematic, Color Grading, portrait Photography,
@@ -84,6 +87,7 @@ Ray Tracing Global Illumination, hyper realistic, super detailed
 ```
 
 #### Tech/Hacker
+
 ```
 [TECH_SETTING] [CODING_ELEMENTS], hacker, [PROGRAMMING_LANGUAGE],
 computers, [TECH_GEAR], dark theme, 8k, cinematic,
@@ -93,6 +97,7 @@ high detail, realistic textures --ar 16:9 --raw
 ```
 
 #### Philosophers & Historical Figures
+
 ```
 [PHILOSOPHER/FIGURE] [CONTEMPLATIVE_ACTION], [CLASSICAL_SETTING],
 ancient wisdom meets modern psychology, marble and gold tones,
@@ -106,6 +111,7 @@ hypermaximalist, elegant, hyper realistic, super detailed
 ```
 
 #### Community & Group
+
 ```
 [GROUP_COMPOSITION] [SOCIAL_INTERACTION], [SETTING],
 [GROUP_DYNAMIC_DESCRIPTION], [EMOTIONAL_TONE],
@@ -120,6 +126,7 @@ hypermaximalist, elegant, hyper realistic, super detailed
 ```
 
 #### Personal Growth & Transformation
+
 ```
 [TRANSFORMATION_SEQUENCE] showing [GROWTH_CONCEPT],
 [PROGRESSION_DESCRIPTION], [SYMBOLIC_ELEMENTS],
@@ -136,31 +143,31 @@ hyper realistic, super detailed
 
 Apply these based on content tone:
 
-| Palette | Colors | Use When |
-|---------|--------|----------|
-| **Classic 9takes** | Marble white, gold accents, deep blue backgrounds | Authority, education, core content |
-| **Growth** | Neon purple, cosmic blue, growth green | Transformation, personal development |
-| **Cyberpunk** | Magenta, cyan, electric blue | Tech content, younger audience |
+| Palette            | Colors                                            | Use When                             |
+| ------------------ | ------------------------------------------------- | ------------------------------------ |
+| **Classic 9takes** | Marble white, gold accents, deep blue backgrounds | Authority, education, core content   |
+| **Growth**         | Neon purple, cosmic blue, growth green            | Transformation, personal development |
+| **Cyberpunk**      | Magenta, cyan, electric blue                      | Tech content, younger audience       |
 
 ### Lighting Presets
 
-| Mood | Lighting Terms |
-|------|---------------|
-| **Dramatic** | Halfrear Lighting, Backlight, Contre-Jour |
+| Mood          | Lighting Terms                                      |
+| ------------- | --------------------------------------------------- |
+| **Dramatic**  | Halfrear Lighting, Backlight, Contre-Jour           |
 | **Cinematic** | Cinematic Lighting, Studio Lighting, Moody Lighting |
-| **Soft/Warm** | Natural Lighting, Soft Lighting, Volumetric |
-| **Neon** | neon glow, Accent Lighting, Beautiful Lighting |
+| **Soft/Warm** | Natural Lighting, Soft Lighting, Volumetric         |
+| **Neon**      | neon glow, Accent Lighting, Beautiful Lighting      |
 
 ## Step 4: Add Technical Parameters
 
 Always append Midjourney-specific parameters at the end:
 
-| Parameter | Options | Default |
-|-----------|---------|---------|
-| `--ar` | `16:9` (blog hero), `1:1` (social), `4:9` (vertical), `9:16` (story), `3:2` (photo) | `16:9` |
-| `--stylize` | `0-1000` (higher = more artistic) | `200` for realistic, `750` for artistic |
-| `--quality` | `1` (standard), `2` (high detail) | `2` |
-| `--raw` | No value needed. Reduces Midjourney's default beautification | Include for photorealistic |
+| Parameter   | Options                                                                             | Default                                 |
+| ----------- | ----------------------------------------------------------------------------------- | --------------------------------------- |
+| `--ar`      | `16:9` (blog hero), `1:1` (social), `4:9` (vertical), `9:16` (story), `3:2` (photo) | `16:9`                                  |
+| `--stylize` | `0-1000` (higher = more artistic)                                                   | `200` for realistic, `750` for artistic |
+| `--quality` | `1` (standard), `2` (high detail)                                                   | `2`                                     |
+| `--raw`     | No value needed. Reduces Midjourney's default beautification                        | Include for photorealistic              |
 
 ## Step 5: Output Format
 
@@ -178,6 +185,7 @@ Present the final prompt in a copyable code block. Always generate **3 prompt va
 ```
 
 After presenting the prompts:
+
 - Note which variation is recommended and why
 - Offer to adjust any specific element (emotion, setting, lighting, color palette, aspect ratio)
 - If the user wants changes, regenerate only the affected variation
