@@ -2,84 +2,58 @@
 import { error } from '@sveltejs/kit';
 
 import type { PageServerLoad } from './$types';
-import { mapDemoValues } from '../../../utils/demo';
+import {
+	buildVisibleQuestionCategoryTree,
+	countVisibleQuestionCategories,
+	type QuestionCategoryRow,
+	type QuestionCategoryTagRow
+} from '$lib/server/questionCategoryTree';
 
-type DistinctTagRow = { tag_id: number };
+type ActiveQuestionRow = { id: number };
 
 export const load: PageServerLoad = async (event) => {
 	try {
-		const supabase = event.locals.supabase;
-		const db = supabase as any;
+		const supabase = event.locals.supabase as any;
 		const { demo_time } = await event.parent();
+		const questionTable = demo_time === true ? 'questions_demo' : 'questions';
 
-		const { data: uniquetags, error: tagsError } = (await db
-			.from(demo_time === true ? 'distinct_question_tags_demo' : 'distinct_question_tags')
-			.select()) as { data: DistinctTagRow[] | null; error: unknown };
+		const [
+			{ data: categories, error: categoriesError },
+			{ data: categoryTags, error: categoryTagsError },
+			{ data: activeQuestions, error: activeQuestionsError }
+		] = await Promise.all([
+			supabase
+				.from('question_categories')
+				.select('id, category_name, parent_id, level')
+				.order('id', { ascending: true }),
+			supabase.from('question_category_tags').select('question_id, tag_id'),
+			supabase.from(questionTable).select('id').eq('removed', false)
+		]);
 
-		if (tagsError) {
-			console.log(tagsError);
-		}
-
-		const tags = uniquetags?.map((t) => t.tag_id);
-		if (!tags) {
-			return {
-				subcategoryTags: [],
-				// questionsAndTags: [],
-				rootCategories: [],
-				categories: []
-			};
-		}
-
-		const { data: rootCategories, error: rootCategoriesError } = await supabase
-			.from('question_subcategories')
-			.select(`*`);
-		if (rootCategoriesError) {
-			console.log(rootCategoriesError);
-		}
-
-		const { data: subcategoryTags, error: subcategoryTagsError } = await supabase
-			.from('question_tag')
-			.select(`*, question_subcategories(*, question_subcategories(*))`)
-			.in('tag_id', tags);
-
-		if (subcategoryTagsError) {
+		if (categoriesError || categoryTagsError || activeQuestionsError) {
+			console.log({
+				categoriesError,
+				categoryTagsError,
+				activeQuestionsError
+			});
 			throw error(500, {
 				message: 'Error finding questions'
 			});
 		}
 
-		const { data: categories, error: categoriesErrors } = await supabase.rpc('get_categories');
+		const activeQuestionIds = new Set(
+			(activeQuestions as ActiveQuestionRow[] | null)?.map((q) => q.id) ?? []
+		);
+		const categoryTree = buildVisibleQuestionCategoryTree(
+			(categories as QuestionCategoryRow[] | null) ?? [],
+			(categoryTags as QuestionCategoryTagRow[] | null) ?? [],
+			activeQuestionIds
+		);
 
-		if (categoriesErrors) {
-			console.log(categoriesErrors);
-		}
-		// const { data: questionsAndTags, error: findQuestionsError } = await supabase
-		// 	.from(demo_time === true ? 'question_tags_demo' : 'question_tags')
-		// 	.select(`${demo_time === true ? 'questions_demo' : 'questions'}(*), question_tag(*, question_subcategories(*))`, {
-		// 		count: 'estimated'
-		// 	})
-		// 	.in('tag_id', tags);
-
-		// if (findQuestionsError) {
-		// 	console.log(findQuestionsError);
-		// }
-
-		// });
-		if (demo_time === true) {
-			return {
-				subcategoryTags,
-				categories,
-				rootCategories: mapDemoValues(rootCategories) ?? []
-				// questionsAndTags: mapDemoValues(questionsAndTags)
-			};
-		}
 		return {
-			subcategoryTags,
-			categories,
-			rootCategories: mapDemoValues(rootCategories) ?? []
-			// questionsAndTags: (questionsAndTags || []).filter((q) => {
-			// 	return !q.questions.removed;
-			// })
+			categoryTree,
+			totalVisibleCategories: countVisibleQuestionCategories(categoryTree),
+			totalVisibleRoots: categoryTree.length
 		};
 	} catch (e) {
 		console.log(e);

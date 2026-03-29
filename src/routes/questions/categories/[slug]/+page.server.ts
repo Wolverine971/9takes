@@ -1,6 +1,14 @@
 // src/routes/questions/categories/[slug]/+page.server.ts
 import { error } from '@sveltejs/kit';
 import type { PageServerLoad } from './$types';
+import {
+	buildVisibleQuestionCategoryTree,
+	findQuestionCategoryNodeById,
+	type QuestionCategoryRow,
+	type QuestionCategoryTagRow
+} from '$lib/server/questionCategoryTree';
+
+type ActiveQuestionRow = { id: number };
 
 /** @type {import('./$types').PageLoad} */
 export const load: PageServerLoad = async (event) => {
@@ -8,12 +16,13 @@ export const load: PageServerLoad = async (event) => {
 	const slug = event.params.slug ? event.params.slug.split('-').join(' ') : '';
 	const { demo_time } = await event.parent();
 	const session = event.locals.session;
+	const questionTable = demo_time === true ? 'questions_demo' : 'questions';
 
 	let canAskQuestion = false;
 
 	if (session?.user?.id) {
 		const { data: questions, error: questionsError } = await supabase
-			.from(demo_time === true ? 'questions_demo' : 'questions')
+			.from(questionTable)
 			.select('id')
 			.eq('author_id', session?.user?.id)
 			.eq('removed', false)
@@ -23,67 +32,78 @@ export const load: PageServerLoad = async (event) => {
 		if (questionsError) {
 			console.log(questionsError);
 		}
-		if (questions && questions?.length <= 10) {
+		if (questions && questions.length <= 10) {
 			canAskQuestion = true;
 		}
 	}
 
-	const { data: questionCategories, error: questionCategoriesErrors } = await supabase.rpc(
-		'get_category_questions',
-		{ slug }
-	);
+	const [
+		{ data: questionCategories, error: questionCategoriesErrors },
+		{ data: parents, error: parentsError },
+		{ data: questionTag, error: questionTagError },
+		{ data: categories, error: categoriesError },
+		{ data: categoryTags, error: categoryTagsError },
+		{ data: activeQuestions, error: activeQuestionsError }
+	] = await Promise.all([
+		supabase.rpc('get_category_questions', { slug }),
+		supabase.rpc('get_category_parent_structure', {
+			input_category_name: slug
+		}),
+		supabase
+			.from('question_categories')
+			.select('id, category_name, parent_id, level')
+			.eq('category_name', slug)
+			.maybeSingle(),
+		supabase
+			.from('question_categories')
+			.select('id, category_name, parent_id, level')
+			.order('id', { ascending: true }),
+		supabase.from('question_category_tags').select('question_id, tag_id'),
+		supabase.from(questionTable).select('id').eq('removed', false)
+	]);
 
 	if (questionCategoriesErrors) {
 		console.log(questionCategoriesErrors);
 		throw error(500, "couldn't find questions");
 	}
 
-	const { data: parents, error: parentsError } = await supabase.rpc(
-		'get_category_parent_structure',
-		{ input_category_name: slug }
-	);
+	if (parentsError) {
+		console.error(parentsError);
+	}
 
-	if (parentsError) console.error(parentsError);
-
-	const { data: children, error: childrenError } = await supabase.rpc(
-		'get_category_children_structure',
-		{ input_category_name: slug }
-	);
-
-	if (childrenError) console.error(childrenError);
-
-	const { data: questionTag, error: questionTagError } = await supabase
-		.from('question_categories')
-		.select('category_name')
-		.eq('category_name', slug)
-		.single();
-
-	if (questionTagError) {
+	if (questionTagError || !questionTag) {
 		console.log(questionTagError);
+		throw error(404, 'Category not found');
+	}
+
+	if (categoriesError || categoryTagsError || activeQuestionsError) {
+		console.log({
+			categoriesError,
+			categoryTagsError,
+			activeQuestionsError
+		});
+		throw error(500, 'Failed to load category tree');
+	}
+
+	const activeQuestionIds = new Set(
+		(activeQuestions as ActiveQuestionRow[] | null)?.map((question) => question.id) ?? []
+	);
+	const categoryTree = buildVisibleQuestionCategoryTree(
+		(categories as QuestionCategoryRow[] | null) ?? [],
+		(categoryTags as QuestionCategoryTagRow[] | null) ?? [],
+		activeQuestionIds
+	);
+	const currentCategoryNode = findQuestionCategoryNodeById(categoryTree, questionTag.id);
+
+	if (!currentCategoryNode) {
+		throw error(404, 'No category with live questions found');
 	}
 
 	return {
 		parents,
-		children,
+		childCategories: currentCategoryNode.children,
 		questionTag,
 		questionCategories,
 		canAskQuestion
 	};
 };
-
-// // category tree balancing
-
-// const { category_info, last_id } = data;
-//   const { category_name, category_level } = category_info;
-
-//   // Generate the prompt for the LLM
-//   const prompt = `
-// I have question categories and I want you to break down the following category into subcategories: ${category_name}.
-// In my database the question_categories table has the following structure: id, category_name, parent_id, level.
-
-// The last category id is ${last_id}. The level of "${category_name}" is ${category_level}.
-// Please create new subcategories for this and return it in JSON form following this structure:
-// [{id: ${last_id + 1}, category_name: 'Sub Category Name', parent_id: ${category_info.category_id}, level: ${category_level + 1}}]
-
-// Create at least 5 subcategories, but no more than 10. Ensure that the subcategories are diverse and cover different aspects of the main category.
-//   `;

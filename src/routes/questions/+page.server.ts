@@ -1,6 +1,12 @@
 // src/routes/questions/+page.server.ts
-import { error } from '@sveltejs/kit';
+import { error, isRedirect, redirect } from '@sveltejs/kit';
 import { deleteESQuestion, elasticClient } from '$lib/server/elasticSearch';
+import {
+	buildVisibleQuestionCategoryTree,
+	listQuestionCategoriesWithDirectQuestions,
+	type QuestionCategoryRow,
+	type QuestionCategoryTagRow
+} from '$lib/server/questionCategoryTree';
 import { z } from 'zod';
 
 import type { Actions } from './$types';
@@ -9,6 +15,12 @@ import { checkDemoTime } from '../../utils/api';
 import { mapDemoValues } from '../../utils/demo';
 
 const QUESTIONS_PER_PAGE = 20;
+
+type ActiveQuestionRow = { id: number };
+
+function toCategorySlug(categoryName: string): string {
+	return categoryName.trim().replace(/\s+/g, '-');
+}
 
 // Type for the RPC response
 interface QuestionsPageData {
@@ -46,15 +58,24 @@ const updateQuestionSchema = z.object({
 	removed: z.enum(['true', 'false']),
 	flagged: z.enum(['true', 'false']),
 	question_formatted: z.string().min(1).max(500).trim(),
-	tags: z.string().transform((val) => {
-		try {
-			const parsed = JSON.parse(val);
-			if (!Array.isArray(parsed)) throw new Error('Tags must be an array');
-			return parsed as { tag_id: number }[];
-		} catch {
-			throw new Error('Invalid tags JSON');
-		}
-	})
+	tags: z
+		.string()
+		.transform((val) => {
+			try {
+				const parsed = JSON.parse(val);
+				if (!Array.isArray(parsed)) throw new Error('Tags must be an array');
+				return Array.from(
+					new Map(
+						(parsed as { tag_id: number }[])
+							.filter((tag) => Number.isFinite(tag?.tag_id))
+							.map((tag) => [tag.tag_id, tag])
+					).values()
+				);
+			} catch {
+				throw new Error('Invalid tags JSON');
+			}
+		})
+		.refine((tags) => tags.length <= 5, 'Questions can have at most 5 tags')
 });
 
 export const load: PageServerLoad = async (event) => {
@@ -64,36 +85,79 @@ export const load: PageServerLoad = async (event) => {
 		const supabase = event.locals.supabase;
 		const page = Number(event.url.searchParams.get('page')) || 1;
 		const categoryParam = event.url.searchParams.get('category');
-		let categoryId: number | undefined;
 
 		if (categoryParam) {
 			const parsed = Number(categoryParam);
-			if (Number.isFinite(parsed)) {
-				categoryId = parsed;
-			} else {
-				const categoryName = categoryParam.split('-').join(' ');
-				const { data: category } = await supabase
-					.from('question_categories')
-					.select('id')
-					.ilike('category_name', categoryName)
-					.maybeSingle();
-				if (category?.id) {
-					categoryId = category.id;
-				}
+			const categoryLookup = Number.isFinite(parsed)
+				? supabase
+						.from('question_categories')
+						.select('category_name')
+						.eq('id', parsed)
+						.maybeSingle()
+				: supabase
+						.from('question_categories')
+						.select('category_name')
+						.ilike('category_name', categoryParam.split('-').join(' '))
+						.maybeSingle();
+
+			const { data: category } = await categoryLookup;
+			if (category?.category_name) {
+				throw redirect(308, `/questions/categories/${toCategorySlug(category.category_name)}`);
 			}
 		}
 
-		// Use optimized RPC function that combines all queries
-		// eslint-disable-next-line @typescript-eslint/no-explicit-any
-		const { data: rawPageData, error: pageDataError } = await (supabase.rpc as any)(
-			'get_questions_page_data',
-			{
+		const modernBrowseCategoriesPromise =
+			demo_time === true
+				? Promise.resolve<QuestionsPageData['categories'] | null>(null)
+				: Promise.all([
+						supabase
+							.from('question_categories')
+							.select('id, category_name, parent_id, level')
+							.order('id', { ascending: true }),
+						supabase.from('question_category_tags').select('question_id, tag_id'),
+						supabase.from('questions').select('id').eq('removed', false)
+					]).then(([categoriesResult, categoryTagsResult, activeQuestionsResult]) => {
+						if (categoriesResult.error || categoryTagsResult.error || activeQuestionsResult.error) {
+							console.log({
+								categoriesError: categoriesResult.error,
+								categoryTagsError: categoryTagsResult.error,
+								activeQuestionsError: activeQuestionsResult.error
+							});
+							return null;
+						}
+
+						const activeQuestionIds = new Set(
+							(activeQuestionsResult.data as ActiveQuestionRow[] | null)?.map(
+								(question) => question.id
+							) ?? []
+						);
+						const categoryTree = buildVisibleQuestionCategoryTree(
+							(categoriesResult.data as QuestionCategoryRow[] | null) ?? [],
+							(categoryTagsResult.data as QuestionCategoryTagRow[] | null) ?? [],
+							activeQuestionIds
+						);
+
+						return listQuestionCategoriesWithDirectQuestions(categoryTree)
+							.map((category) => ({
+								id: category.id,
+								category_name: category.category_name
+							}))
+							.sort((a, b) => a.category_name.localeCompare(b.category_name));
+					});
+
+		const [pageDataResult, modernBrowseCategories] = await Promise.all([
+			// Use optimized RPC function that combines all queries
+			// eslint-disable-next-line @typescript-eslint/no-explicit-any
+			(supabase.rpc as any)('get_questions_page_data', {
 				p_user_id: session?.user?.id ?? undefined,
 				p_limit: QUESTIONS_PER_PAGE,
 				p_offset: (page - 1) * QUESTIONS_PER_PAGE,
-				p_category_id: categoryId
-			}
-		);
+				p_category_id: undefined
+			}),
+			modernBrowseCategoriesPromise
+		]);
+
+		const { data: rawPageData, error: pageDataError } = pageDataResult;
 
 		if (pageDataError) {
 			// Error('Error fetching page data:', pageDataError);
@@ -103,12 +167,13 @@ export const load: PageServerLoad = async (event) => {
 		}
 
 		const pageData = rawPageData as QuestionsPageData | null;
+		const visibleBrowseCategories = modernBrowseCategories ?? pageData?.categories ?? [];
 
 		// Process the data
 		const processedData = {
 			user: session?.user,
 			canAskQuestion: pageData?.canAskQuestion || false,
-			subcategoryTags: pageData?.categories || [],
+			subcategoryTags: visibleBrowseCategories,
 			questionsAndTags: demo_time
 				? mapDemoValues(pageData?.questions || [])
 				: pageData?.questions || [],
@@ -116,11 +181,15 @@ export const load: PageServerLoad = async (event) => {
 			totalAnswers: pageData?.totalAnswers || 0,
 			currentPage: page,
 			hasMore: (pageData?.questions || []).length === QUESTIONS_PER_PAGE,
-			selectedCategory: categoryId ?? null
+			selectedCategory: null
 		};
 
 		return processedData;
 	} catch (e) {
+		if (isRedirect(e)) {
+			throw e;
+		}
+
 		// Error('Page load error:', e);
 		throw error(500, {
 			message: 'Error finding questions'

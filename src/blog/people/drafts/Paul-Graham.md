@@ -68,7 +68,7 @@ Here's the evidence:
 
 - **Gave up TV at 13** — not because he was told to, but because passive consumption felt like a cage. "I developed an intrinsic compulsion to work hard," he wrote. "Like most little kids, I enjoyed the feeling of achievement when I learned or did something new. As I grew older, this morphed into a feeling of **disgust when I wasn't achieving anything.**"
 - **Quit his only real job after a few years** — at Interleaf, he was so bad at corporate life he later apologized: "I hereby apologize to my boss and coworkers, because **I was a bad employee.**" Traditional working hours "seemed unnatural."
-- **Left a $49 million exit** feeling hollow — "The next year must have been the least productive of my life."
+- **Left a major exit feeling hollow** — "The next year must have been the least productive of my life."
 - **Stepped down from YC** — the organization he built into a $600 billion empire — because "I am not really much of a manager."
 - **Wrote "Keep Your Identity Small"** — arguing that fixed positions are traps. The irony is that he clearly _is_ a startup person, a contrarian, a Lisp advocate. The essay isn't a manifesto. It's a prayer.
 
@@ -132,11 +132,19 @@ He craved the verdict. Code compiles or it doesn't. Startups grow or they don't.
 
 ## The Crash After the Win
 
-Viaweb, one of the first web applications, was Graham's ticket out of artistic ambiguity. He and Robert Morris wrote it primarily in Lisp — a contrarian bet that paid off when Yahoo acquired the company for $49 million in 1998.
+Viaweb, one of the first web applications, was Graham's ticket out of artistic ambiguity. But the key decision — the one that reveals the mind underneath — was building it in Lisp.
 
-> "We eventually had many competitors, on the order of twenty to thirty of them, but none of their software could compete with ours."
+In 1995, Lisp was a museum piece: a language academics loved and businesses ignored. Graham and Morris chose it deliberately.
 
-But the three years of running a startup nearly broke him. The stress came not from the code, but from the business:
+> **"If other companies didn't want to use Lisp, so much the better. It might give us a technological edge, and we needed all the help we could get."**
+
+The bet paid off brutally. Viaweb could duplicate a competitor's new feature within days of its announcement. They had twenty or thirty competitors. None could keep up. **"In business, there is nothing more valuable than a technical advantage your competitors don't understand."** They never mentioned Lisp publicly — if you searched Viaweb's website, you'd find nothing. The secret weapon stayed secret.
+
+Graham wrote about this in "Beating the Averages" (2001) — probably his most famous essay among programmers. Its core idea, the **"Blub Paradox,"** argued that programmers can see the deficiencies of languages less powerful than their own but are blind to the advantages of more powerful ones. The essay went viral on Slashdot, reignited mainstream interest in functional programming, and directly influenced the creation of Clojure.
+
+It was peak Type 7: choosing the weird, obscure, powerful thing precisely because everyone else was wrong about it. Not just tolerating the loneliness of the contrarian position — feeding on it.
+
+Yahoo acquired Viaweb for $49 million in 1998. But the three years of running a startup nearly broke him. The stress came not from the code, but from the business:
 
 > **"The next 3 years were instead the most stressful of my life."** He and his cofounders had **"no idea what businesses paid for things."**
 
@@ -150,7 +158,7 @@ He wasn't. But the painting didn't take:
 
 > **"That's what I should have done, just gone off somewhere and done nothing for a month or two, but the idea never occurred to me."**
 
-That last line is devastating in its honesty. A man who had just sold a company for $49 million — whose entire psychology is organized around keeping options open and avoiding pain — couldn't conceive of the simplest option: **doing nothing.** The restless engine doesn't have a neutral gear.
+That last line is devastating in its honesty. Someone whose entire psychology is organized around keeping options open and avoiding pain couldn't conceive of the simplest option: **doing nothing.** The restless engine doesn't have a neutral gear.
 
 He started writing essays. Not as a career move. As a form of self-medication. "An essay is something you write to figure something out." The essays were the only thing that made the engine stop grinding.
 
@@ -160,45 +168,39 @@ He started writing essays. Not as a career move. As a form of self-medication. "
 
 In 2003, Jessica Livingston showed up to a party at Graham's Cambridge house. The friend who'd invited her had moved out of state. She stayed anyway.
 
-They tried to conceal the relationship at first. It didn't last. Within two years, the relationship had become the secret architecture of the most consequential startup institution in tech.
+Within two years, the relationship had become the secret architecture of the most consequential startup institution in tech.
 
 On March 11, 2005 — Graham remembers the exact location, the corner of Garden and Walker streets in Cambridge — three threads converged during a walk home from dinner. Jessica was miserable at her investment bank. Graham had been lecturing her about what was wrong with venture capital. The idea crystallized.
 
-> **"Jessica was so happy to be able to quit her job and start her own company that I took her picture when we got home."**
-
-Y Combinator launched that summer. Eight startups. $200,000 pooled from Graham, Morris, Trevor Blackwell, and Jessica. Today, it has funded over 4,000 companies — including Airbnb, Dropbox, Stripe, and Reddit — worth over $600 billion. Graham cooked weekly dinners for founders. Jessica did the grocery shopping and built fires at the office. **She'd splurge on fancy cheeses from a nearby gourmet shop.** "It was basically a dinner party for friends."
+Y Combinator launched that summer. Eight startups. $200,000 pooled from Graham, Morris, Trevor Blackwell, and Jessica. Today, it has funded over 4,000 companies — including Airbnb, Dropbox, Stripe, and Reddit — worth over $600 billion.
 
 What the public didn't see was how the operation actually worked during interviews. Graham, Morris, and Blackwell asked the technical questions. Then they'd all turn to Jessica:
 
 > **"What does the Social Radar say?"**
 
-That was her nickname among the cofounders. Graham describes her judgment as standing next to **"an airport baggage scanner"** — she had **"x-ray vision for character."** He admits, with characteristic bluntness, that she is better than him at "practically everything to do with people."
+That was her nickname. Graham describes her judgment as standing next to **"an airport baggage scanner"** — she had **"x-ray vision for character."** He admits she is better than him at "practically everything to do with people."
 
-> **"I'm better at some things than Jessica, and she's better at some things than me."**
-
-She hates public attention. Speaking paralyzes her. She was uncomfortable being the center of attention at their own wedding. She shuts down in conflict. And she is, by Graham's own admission, the person most responsible for YC's culture of honesty and care.
-
-Graham's essay about Jessica ends with the quiet admission that working with her was the best part of running YC:
+His essay about Jessica ends with a quiet admission:
 
 > **"The worst thing about leaving YC was not working with Jessica anymore. Leaving was like pulling up a deeply rooted tree."**
 
-The man who has spent his entire life leaving things found something he didn't want to leave. He left anyway — or rather, they left together, to England, to raise their two sons among houses that are five hundred years old.
+The serial escape artist found something he didn't want to leave. He left anyway — or rather, they left together, to England, to raise their two sons.
 
 ---
 
-## The Trevor Blackwell Lesson
+## "Kill This Company"
 
-One of the most revealing stories about Graham involves the man he almost dismissed entirely.
+The Reddit story is the one investors should study.
 
-Trevor Blackwell, who would become a YC cofounder, had adopted a system of writing everything on a huge stack of index cards, shuffling through them during conversations. Graham found him so eccentric that he wrote Trevor off completely. He would gesture behind Trevor's head to Robert Morris: **"Get this loser out of your office so we can go to lunch!"**
+In the spring of 2005, two UVA undergrads — Steve Huffman and Alexis Ohanian — drove from Virginia to Boston during spring break to attend a Paul Graham talk. He was surprised enough that two college students drove that far that he let them buy him a drink and pitch.
 
-Then Graham asked Morris who the best programmer in the graduate program was.
+They applied to YC's inaugural batch with a mobile food-ordering app called My Mobile Menu. **They were rejected.**
 
-Morris said: **"Trevor."** Then added: **"Despite all appearances, he's actually really smart."**
+The next morning, Graham called them back: **"We like you guys. We just don't like the idea. It's too early for mobile. If you're willing to kill this company, we'll let you into the program."** They caught the next train. With no idea, Graham sat them down and brainstormed. He pointed to Delicious — social bookmarking — as showing an interesting zeitgeist, but only for reference material. What about a zeitgeist for what's new? That hour-long session produced Reddit.
 
-Trevor went on to rewrite Viaweb's entire software in Smalltalk — a language neither Graham nor Morris knew — without communicating for two weeks. Graham later described Trevor's mind: "If you could see inside Trevor's it would look like the worst excesses of Austrian Rococo." Morris's mind, by contrast: "like a colonial New England church."
+A similar instinct surfaced with Stripe. Patrick Collison had first cold-emailed Graham at 16, connecting through the Lisp community. Years later, the Collison brothers came through YC building payment infrastructure. Their early growth strategy was so aggressive it became a Graham essay concept: the **"Collison installation."** Instead of asking "Will you try our beta?", the brothers would say **"Right then, give me your laptop"** and set up payments on the spot.
 
-The pattern recognition that Graham is famous for failed him completely with Trevor. The man who could spot Airbnb's potential in a box of cereal misjudged a genius standing three feet away. It's a useful corrective to the mythology: Graham's instincts are powerful, not infallible.
+The pattern across his best bets — Reddit, Airbnb, Stripe, Dropbox — wasn't that Graham picked winning ideas. He picked people who were slightly unhinged in the right way, then gave them room to mutate. The first Reddit had no comments. The first Airbnb had cereal boxes. The first Stripe had two Irish teenagers doing door-to-door sales for a payments API. None of these looked like good ideas. They looked like good founders attached to ideas that could evolve.
 
 ---
 
@@ -220,11 +222,21 @@ The confession shocks him:
 
 > **"It was alarming to me how foreign it felt to sit in front of a computer that could only be used for work, because that showed how much time I must have been wasting."**
 
-In 2025, he published four essays. "Good Writing" argued that prose quality and idea quality are inseparable: **"Writing that sounds good is more likely to be right."** "The Shape of the Essay Field" offered a structural observation: **"If you're writing for smart people about important things, you're writing for the young."** "What to Do" distilled decades of thinking into three principles: help people, take care of the world, make good new things.
+But the essays that matter most aren't the recent ones. They're the three that became Silicon Valley's operating manual.
 
-"The Origins of Wokeness" was the most controversial. Graham defined wokeness as "an aggressively performative focus on social justice" and traced it to 1960s activists gaining institutional power as professors. The essay generated weeks of rebuttals. A former YC founder wrote that they "couldn't finish reading it, it made me too upset" — wondering whether someone "particular about pronouns and social justice" would still get the same opportunity at Graham's YC today.
+**"How to Start a Startup"** (2005) codified the seed-stage philosophy — good people, something customers want, spend as little as possible — that YC would operationalize at scale. It became assigned reading in Stanford's CS183B course.
 
-Graham later acknowledged on X that wokeness had inspired several of his earlier essays — calling some of them "largely a subtweet about wokeness."
+**"Maker's Schedule, Manager's Schedule"** (2009) gave a name to something every programmer felt but couldn't articulate: a single meeting can destroy an entire afternoon of work. **"You can't write or program well in units of an hour. That's barely enough time to get started."** The essay directly inspired no-meeting mornings, async-first communication, and focus-time blocks across the industry.
+
+**"Do Things That Don't Scale"** (2013) became arguably the single most-cited piece of startup advice in existence. **"Actually startups take off because the founders make them take off."** The examples — Stripe's door-to-door installation, Airbnb's in-person photography — became canonical parables. The phrase entered everyday vocabulary.
+
+These aren't just essays. They're the mental furniture of an entire generation of founders. Graham didn't build a company worth $600 billion. He built the ideas that 4,000 companies used to build themselves.
+
+Then there's Arc — the programming language Graham spent seven years building with Robert Morris, announced in 2001, finally released in 2008. He envisioned something timeless: **"We're trying to make something for the long term, something that will be useful to people in, say, 100 years."** It launched to mixed reviews. Its most notable achievement was powering Hacker News. Graham quietly moved on. The pattern, again: intense investment, diminishing novelty, exit.
+
+In 2025, he published four essays. "Good Writing" argued that prose quality and idea quality are inseparable: **"Writing that sounds good is more likely to be right."** "What to Do" distilled decades of thinking into three principles: help people, take care of the world, make good new things.
+
+"The Origins of Wokeness" was the most controversial. Graham defined wokeness as "an aggressively performative focus on social justice" and traced it to 1960s activists gaining institutional power as professors. The essay generated weeks of rebuttals. A former YC founder wrote that they "couldn't finish reading it, it made me too upset." Graham later acknowledged on X that wokeness had inspired several of his earlier essays — calling some of them "largely a subtweet about wokeness."
 
 ---
 
@@ -266,7 +278,7 @@ These happen **"several times a day"** — just being together, no event require
 
 He moved the family to England in 2016. Originally planned for one year — he wanted the boys to see what it's like to live in another country. He was born in England. He'd always wanted to try living there again. They liked it. They stayed.
 
-Part of the reason was darker: Graham cited gunshots near one of his dinner outings in San Francisco. The man who jumps off cliffs wouldn't risk his children on someone else's city.
+Part of the reason was darker: Graham cited gunshots near one of his dinner outings in San Francisco. He'll jump off a cliff, but he won't gamble his children on someone else's city.
 
 > **"Part of the calmness comes from things being old. A lot of the houses where we live are four or even five hundred years old."**
 
@@ -274,7 +286,7 @@ His parenting philosophy: **"We tolerate noise and mess and junk food, but not m
 
 He came to believe that bringing children into existence without their consent creates **"a debt to children so massive, that it can't be fully repaid in a lifetime."**
 
-The restless mind found something worth being still for. Or at least worth being still*er* for — in late 2025, at 61, he was still writing personal checks to teen founders building AI pesticides and walking the same medieval common, looking for the next essay in the fog.
+The restless mind found something worth being still for. Or at least worth being still*er* for — in late 2025, at 61, he was still writing personal checks to teen founders building AI pesticides and hunting for the next essay on his afternoon walks.
 
 ---
 
@@ -294,7 +306,9 @@ He warns that fierceness can curdle into **"bitterness"** or becoming an **"inte
 
 Graham's reaction: **"This seemed strange advice, because YC was doing great."** Then it landed. "Either YC was my life's work or I'd have to leave eventually. And it wasn't, so I would."
 
-The admission that YC — the institution worth $600 billion, the thing his name will be attached to in every obituary, the organization he handed to [Sam Altman](/personality-analysis/Sam-Altman) — _wasn't his life's work_ tells you everything. Most people would cling to that legacy. Graham heard the cage door starting to close and walked out.
+In February 2014, he handed YC to [Sam Altman](/personality-analysis/Sam-Altman) — a 28-year-old who'd been in YC's very first batch at 19. Graham had been watching him for nearly a decade. His assessment, written years earlier: **"You could parachute him into an island full of cannibals and come back in five years and he'd be the king."** On questions of strategy, Graham admitted he'd ask himself **"What would Sama do?"** — putting Altman in the same sentence as Steve Jobs.
+
+The admission that YC — the institution worth $600 billion, the thing his name will be attached to in every obituary — _wasn't his life's work_ tells you everything. Most people would cling to that legacy. Graham heard the cage door starting to close and walked out.
 
 He admitted he could see himself making **"at least four of the five"** regrets of the dying — ignoring dreams, working too much, not saying what you think, neglecting friendships, forgetting to be happy. All errors of omission. All things he failed to do while doing so much.
 
@@ -302,7 +316,7 @@ A founder once asked his advice about combining a startup with having small chil
 
 The man who has spent his life starting things has learned the hardest lesson for someone wired like him: the most important things aren't things you start. They're things you stay for.
 
-He hasn't learned it completely. At 61, he's still writing checks and picking fights on X and publishing essays that generate weeks of argument. Still walking the medieval common. Still, probably, checking the news when he should be writing.
+He hasn't learned it completely. At 61, he's still writing checks and picking fights on X and publishing essays that generate weeks of argument. Still walking his usual route through the fog. Still, probably, checking the news when he should be writing.
 
 But the paintings have stopped. The startups have stopped. The exits have stopped. What remains is the writing, the family, and the five-hundred-year-old house. The mind that can't stop starting may have finally figured out what's worth finishing.
 

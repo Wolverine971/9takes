@@ -120,7 +120,7 @@
 	let lastLoadedSignature = $state('');
 
 	let subscriptionCount = $derived(subscriptions.length);
-	let roleLabel = $derived(user.admin ? 'Admin access' : 'Member access');
+	let roleLabel = $derived(user.admin ? 'Administrator' : 'Member');
 	let selectedType = $derived.by(
 		() => enneagramTypes.find((type) => String(type.num) === enneagram) ?? null
 	);
@@ -167,10 +167,15 @@
 			normalizedEnneagram !== profileSnapshot.enneagram
 		);
 	});
-	let profilePulse = $derived.by(() => {
-		if (formChanged) return 'Unsaved changes';
-		if (profileCompletion === 100) return 'Profile complete';
-		return 'Room to fill in';
+	let syncLabel = $derived(formChanged ? 'Modified' : 'Synced');
+	let accountStatus = $derived.by(() => {
+		if (formChanged) return 'Pending sync';
+		if (profileCompletion === 100) return 'Ready';
+		return 'Partial';
+	});
+	let accountStatusDetail = $derived.by(() => {
+		if (formChanged) return 'Unsaved edits are still local to this form.';
+		return `${completedReadinessCount}/${readinessItems.length} core fields configured.`;
 	});
 	let subscriptionLabel = $derived.by(() =>
 		subscriptionCount === 1 ? '1 followed question' : `${subscriptionCount} followed questions`
@@ -272,176 +277,139 @@
 </script>
 
 <div class="account-page">
-	<div class="ambient ambient-left" aria-hidden="true"></div>
-	<div class="ambient ambient-right" aria-hidden="true"></div>
-
 	<div class="account-shell">
-		<section class="hero-panel" style={`--type-accent: ${selectedType?.color || 'var(--primary)'}`}>
-			<div class="hero-content">
-				<div class="identity-block">
-					<div class="avatar-ring">
-						<div class="avatar">{initials}</div>
-					</div>
+		<header class="header-panel">
+			<div class="header-main">
+				<div class="identity-mark">{initials}</div>
 
-					<div class="identity-copy">
-						<p class="eyebrow">Account Center</p>
-						<h1>{displayName}</h1>
-						<p class="hero-text">
-							Keep your account current so your answers, follows, and personality context stay
-							sharp.
-						</p>
-
-						<div class="identity-meta">
-							<span>{userEmail}</span>
-							<span>
-								{selectedType
-									? `Type ${selectedType.num} - ${selectedType.name}`
-									: 'Type not selected'}
-							</span>
-							<span>{roleLabel}</span>
-						</div>
-					</div>
-				</div>
-
-				<div class="hero-rail">
-					<div class="pulse-card">
-						<span class="mono-label">PROFILE PULSE</span>
-						<strong>{profilePulse}</strong>
-						<p>
-							{#if formChanged}
-								Save your edits to sync this account.
-							{:else if selectedType}
-								{selectedType.descriptor}
-							{:else}
-								Add your type to give your profile a clearer center of gravity.
-							{/if}
-						</p>
-					</div>
-
-					<div class="hero-actions">
-						{#if user.admin}
-							<a href="/admin" class="admin-link">
-								<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-									<path d="M12 15a3 3 0 1 0 0-6 3 3 0 0 0 0 6z" />
-									<path
-										d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06A1.65 1.65 0 0 0 4.6 15a1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06A1.65 1.65 0 0 0 9 4.6a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06A1.65 1.65 0 0 0 19.4 9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"
-									/>
-								</svg>
-								Admin dashboard
-							</a>
-						{/if}
-
-						<form action="/logout" method="POST" use:enhance={submitLogout}>
-							<LoadingButton
-								type="submit"
-								variant="secondary"
-								size="md"
-								loading={loggingOut}
-								loadingText="Signing out..."
-								className="signout-button"
-							>
-								Sign out
-							</LoadingButton>
-						</form>
-					</div>
+				<div class="header-copy">
+					<p class="kicker">Account / Profile</p>
+					<h1>{displayName}</h1>
+					<p class="header-summary">
+						Core account fields, type assignment, and followed question threads.
+					</p>
 				</div>
 			</div>
 
-			<div class="stats-strip">
-				<article class="stat-card">
-					<span class="stat-label">Completion</span>
-					<strong>{profileCompletion}%</strong>
-					<span class="stat-detail"
-						>{completedReadinessCount} of {readinessItems.length} basics set</span
-					>
-				</article>
+			<div class="header-rail">
+				<div class="header-data">
+					<span class="data-key">Email</span>
+					<span class="data-value">{userEmail}</span>
+				</div>
 
-				<article class="stat-card">
-					<span class="stat-label">Following</span>
-					<strong>{subscriptionCount}</strong>
-					<span class="stat-detail">
-						{subscriptionCount === 1 ? 'Question in your watchlist' : 'Questions in your watchlist'}
-					</span>
-				</article>
+				<div class="header-actions">
+					{#if user.admin}
+						<a href="/admin" class="action-link action-link-primary">Admin dashboard</a>
+					{/if}
 
-				<article class="stat-card">
-					<span class="stat-label">Type status</span>
-					<strong>{selectedType ? `Type ${selectedType.num}` : 'Open'}</strong>
-					<span class="stat-detail">
-						{selectedType ? selectedType.name : 'Choose the type that fits you best'}
-					</span>
-				</article>
+					<form action="/logout" method="POST" use:enhance={submitLogout}>
+						<LoadingButton
+							type="submit"
+							variant="secondary"
+							size="md"
+							loading={loggingOut}
+							loadingText="Signing out..."
+							className="account-action signout-button"
+						>
+							Sign out
+						</LoadingButton>
+					</form>
+				</div>
 			</div>
+		</header>
+
+		<section class="summary-grid" aria-label="Account summary">
+			<article class="summary-card">
+				<span class="summary-label">Status</span>
+				<strong>{accountStatus}</strong>
+				<span class="summary-detail">{accountStatusDetail}</span>
+			</article>
+
+			<article class="summary-card">
+				<span class="summary-label">Completion</span>
+				<strong>{profileCompletion}%</strong>
+				<span class="summary-detail"
+					>{completedReadinessCount}/{readinessItems.length} core fields set</span
+				>
+			</article>
+
+			<article class="summary-card">
+				<span class="summary-label">Type</span>
+				<strong>{selectedType ? `Type ${selectedType.num}` : 'Unset'}</strong>
+				<span class="summary-detail">
+					{selectedType ? selectedType.name : 'No default type assigned'}
+				</span>
+			</article>
+
+			<article class="summary-card">
+				<span class="summary-label">Watchlist</span>
+				<strong>{subscriptionCount}</strong>
+				<span class="summary-detail">{subscriptionLabel}</span>
+			</article>
 		</section>
 
-		<div class="dashboard-grid">
-			<section class="panel editor-panel">
-				<div class="panel-heading">
+		<div class="content-grid">
+			<section class="panel">
+				<div class="panel-head">
 					<div>
-						<p class="panel-kicker">Profile Details</p>
-						<h2>Tune how you show up on 9takes</h2>
-						<p class="panel-copy">
-							These basics make your account feel finished and keep future personality features
-							anchored to the right context.
-						</p>
+						<p class="section-label">Profile editor</p>
+						<h2>Account fields</h2>
+						<p class="section-copy">Minimal identity data used by the account system.</p>
 					</div>
 
-					<span class="sync-pill" class:pending={formChanged}>
-						{formChanged ? 'Unsaved changes' : 'In sync'}
-					</span>
+					<span class="state-pill" class:pending={formChanged}>{syncLabel}</span>
+				</div>
+
+				<div class="spec-list" aria-label="Account specification">
+					<div class="spec-row">
+						<span class="spec-key">Sign-in email</span>
+						<span class="spec-value break">{userEmail}</span>
+					</div>
+					<div class="spec-row">
+						<span class="spec-key">Access</span>
+						<span class="spec-value">{roleLabel}</span>
+					</div>
+					<div class="spec-row">
+						<span class="spec-key">Current type</span>
+						<span class="spec-value">
+							{selectedType ? `Type ${selectedType.num} / ${selectedType.name}` : 'Unset'}
+						</span>
+					</div>
+					<div class="spec-row">
+						<span class="spec-key">Followed threads</span>
+						<span class="spec-value">{subscriptionLabel}</span>
+					</div>
 				</div>
 
 				<div class="field-grid">
 					<label class="field-card">
 						<span class="field-label">First name</span>
-						<span class="field-help">Used anywhere we personalize your account view.</span>
+						<span class="field-help">Display and personalization field.</span>
 						<input
 							type="text"
 							id="firstName"
 							bind:value={firstName}
-							placeholder="Enter your first name"
+							placeholder="Enter first name"
 							autocomplete="given-name"
 						/>
 					</label>
 
 					<label class="field-card">
 						<span class="field-label">Last name</span>
-						<span class="field-help">Helpful when you want your profile to feel complete.</span>
+						<span class="field-help">Optional completion field.</span>
 						<input
 							type="text"
 							id="lastName"
 							bind:value={lastName}
-							placeholder="Enter your last name"
+							placeholder="Enter last name"
 							autocomplete="family-name"
 						/>
 					</label>
 				</div>
 
-				<div class="email-lockup">
-					<div>
-						<span class="mono-label">SIGN-IN EMAIL</span>
-						<strong>{userEmail}</strong>
-					</div>
-
-					<p>
-						Email changes are managed through authentication, so this address stays read-only on
-						this page.
-					</p>
-				</div>
-
 				<fieldset class="type-section">
-					<legend class="type-legend">Enneagram type</legend>
-
-					<div class="type-heading">
-						<p>Select the lens that best matches how you naturally operate.</p>
-
-						{#if selectedType}
-							<div class="type-chip" style={`--chip-accent: ${selectedType.color}`}>
-								<span>Current type</span>
-								<strong>{selectedType.num}. {selectedType.name}</strong>
-							</div>
-						{/if}
-					</div>
+					<legend>Enneagram</legend>
+					<p class="section-copy">Pick the default lens for this account.</p>
 
 					<div class="type-grid" role="radiogroup" aria-label="Enneagram type">
 						{#each enneagramTypes as type}
@@ -465,15 +433,19 @@
 				</fieldset>
 
 				<div
-					class="type-summary"
+					class="type-readout"
 					style={`--type-accent: ${selectedType?.color || 'var(--primary)'}`}
 				>
-					<span class="type-summary-label">CURRENT READ</span>
-					<h3>{selectedType ? selectedType.name : 'Choose your type'}</h3>
+					<span class="summary-label">Selected</span>
+					<strong
+						>{selectedType
+							? `Type ${selectedType.num} / ${selectedType.name}`
+							: 'No type selected'}</strong
+					>
 					<p>
 						{selectedType
 							? selectedType.summary
-							: 'Picking a type gives your responses clearer personality context across the site.'}
+							: 'This value is used for personality context across the site.'}
 					</p>
 				</div>
 
@@ -481,72 +453,88 @@
 					<LoadingButton
 						type="button"
 						variant="primary"
-						size="lg"
+						size="md"
 						loading={saving}
 						disabled={!formChanged}
 						loadingText="Saving..."
 						onclick={save}
-						className="save-button"
+						className="account-action save-button"
 					>
 						Save changes
 					</LoadingButton>
 
 					<p class="action-note" role="status">
-						{formChanged ? 'You have edits waiting to be saved.' : 'No pending changes.'}
+						{formChanged ? 'Save to commit the current edits.' : 'All fields are in sync.'}
 					</p>
 				</div>
 			</section>
 
-			<section class="panel subscriptions-panel" id="subscriptions">
-				<div class="panel-heading">
-					<div>
-						<p class="panel-kicker">Followed Questions</p>
-						<h2>Keep tabs on the conversations that matter</h2>
-						<p class="panel-copy">This is your clean watchlist of threads worth returning to.</p>
+			<div class="side-column">
+				<section class="panel side-panel">
+					<div class="panel-head">
+						<div>
+							<p class="section-label">Readiness</p>
+							<h2>Checklist</h2>
+							<p class="section-copy">Short operational view of profile state.</p>
+						</div>
 					</div>
 
-					<a href="/questions" class="browse-link">Browse questions</a>
-				</div>
-
-				{#if !subscriptions.length}
-					<div class="empty-state">
-						<div class="empty-symbol">?</div>
-						<h3>No followed questions yet</h3>
-						<p>
-							Start following questions to build a quick return path into the conversations you care
-							about.
-						</p>
-						<a href="/questions" class="cta-link">Find questions to follow</a>
-					</div>
-				{:else}
-					<p class="subscriptions-copy">
-						{subscriptionLabel}. Keep this list tight so it stays genuinely useful.
-					</p>
-
-					<ul class="subscription-list">
-						{#each subscriptions as subscription, index}
-							<li>
-								<a href={`/questions/${subscription.questions.url}`} class="subscription-item">
-									<span class="subscription-rank">{String(index + 1).padStart(2, '0')}</span>
-
-									<div class="subscription-body">
-										<span class="subscription-kicker">FOLLOWED QUESTION</span>
-										<span class="subscription-text">
-											{subscription.questions.question_formatted || subscription.questions.question}
-										</span>
-									</div>
-
-									<span class="subscription-arrow" aria-hidden="true">
-										<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-											<path stroke-linecap="round" stroke-linejoin="round" d="M7 17 17 7M8 7h9v9" />
-										</svg>
-									</span>
-								</a>
+					<ul class="checklist">
+						{#each readinessItems as item}
+							<li class="check-row" class:complete={item.complete}>
+								<span class="check-status">{item.complete ? 'OK' : '--'}</span>
+								<span class="check-text">{item.label}</span>
 							</li>
 						{/each}
 					</ul>
-				{/if}
-			</section>
+
+					<div class="status-note">
+						<span class="summary-label">Current type</span>
+						<strong
+							>{selectedType ? `Type ${selectedType.num} / ${selectedType.name}` : 'Unset'}</strong
+						>
+						<p>
+							{selectedType
+								? selectedType.descriptor
+								: 'Select a type to complete the account profile.'}
+						</p>
+					</div>
+				</section>
+
+				<section class="panel side-panel" id="subscriptions">
+					<div class="panel-head">
+						<div>
+							<p class="section-label">Watchlist</p>
+							<h2>Followed questions</h2>
+							<p class="section-copy">Compact list of active follows.</p>
+						</div>
+
+						<a href="/questions" class="text-link">Browse</a>
+					</div>
+
+					{#if !subscriptions.length}
+						<div class="empty-block">
+							<strong>No active follows</strong>
+							<p>Follow a question to keep it on this list.</p>
+							<a href="/questions" class="text-link">Open questions</a>
+						</div>
+					{:else}
+						<ul class="subscription-list">
+							{#each subscriptions as subscription, index}
+								<li>
+									<a href={`/questions/${subscription.questions.url}`} class="subscription-row">
+										<span class="row-index">{String(index + 1).padStart(2, '0')}</span>
+										<span class="row-text">
+											{subscription.questions.question_formatted || subscription.questions.question}
+										</span>
+										<span class="row-action">Open</span>
+									</a>
+								</li>
+							{/each}
+						</ul>
+					{/if}
+				</section>
+			</div>
 		</div>
 	</div>
 </div>
@@ -555,127 +543,94 @@
 	.account-page {
 		position: relative;
 		min-height: 100vh;
-		padding: 2rem 1rem 4rem;
-		overflow: hidden;
-		background:
-			radial-gradient(circle at top left, rgba(45, 212, 191, 0.16), transparent 35%),
-			radial-gradient(circle at top right, rgba(167, 139, 250, 0.12), transparent 32%),
-			linear-gradient(180deg, var(--bg-base) 0%, color-mix(in srgb, var(--bg-deep) 92%, black) 100%);
+		padding: 1.5rem 1rem 4rem;
+		background: linear-gradient(
+			180deg,
+			color-mix(in srgb, var(--bg-deep) 88%, black) 0%,
+			var(--bg-base) 100%
+		);
 	}
 
-	.ambient {
-		position: absolute;
-		width: 22rem;
-		height: 22rem;
-		border-radius: 999px;
-		filter: blur(90px);
-		opacity: 0.45;
+	.account-page::before {
+		content: '';
+		position: fixed;
+		inset: 0;
 		pointer-events: none;
-	}
-
-	.ambient-left {
-		top: -6rem;
-		left: -7rem;
-		background: color-mix(in srgb, var(--primary) 45%, transparent);
-	}
-
-	.ambient-right {
-		top: 10rem;
-		right: -8rem;
-		background: color-mix(in srgb, var(--accent) 35%, transparent);
+		opacity: 0.18;
+		background-image:
+			linear-gradient(
+				to right,
+				color-mix(in srgb, var(--text-tertiary) 18%, transparent) 1px,
+				transparent 1px
+			),
+			linear-gradient(
+				to bottom,
+				color-mix(in srgb, var(--text-tertiary) 18%, transparent) 1px,
+				transparent 1px
+			);
+		background-size: 28px 28px;
 	}
 
 	.account-shell {
 		position: relative;
-		max-width: 1160px;
+		max-width: 1120px;
 		margin: 0 auto;
-		display: flex;
-		flex-direction: column;
-		gap: 1.25rem;
-	}
-
-	.hero-panel,
-	.panel {
-		position: relative;
-		border-radius: 1.5rem;
-		border: 1px solid color-mix(in srgb, var(--text-tertiary) 16%, transparent);
-		backdrop-filter: blur(18px);
-		box-shadow: 0 24px 60px rgba(12, 10, 9, 0.28);
-		overflow: hidden;
-	}
-
-	.hero-panel {
-		padding: 1.5rem;
-		background: linear-gradient(
-			135deg,
-			color-mix(in srgb, var(--type-accent, var(--primary)) 12%, var(--bg-surface)) 0%,
-			color-mix(in srgb, var(--bg-deep) 88%, black) 100%
-		);
-		border-color: color-mix(in srgb, var(--type-accent, var(--primary)) 24%, transparent);
-
-		&::before {
-			content: '';
-			position: absolute;
-			inset: 0;
-			background:
-				linear-gradient(120deg, rgba(255, 255, 255, 0.04), transparent 30%),
-				radial-gradient(
-					circle at 85% 15%,
-					color-mix(in srgb, var(--type-accent, var(--primary)) 20%, transparent),
-					transparent 24%
-				);
-			pointer-events: none;
-		}
-	}
-
-	.hero-content {
-		position: relative;
 		display: grid;
-		gap: 1.5rem;
-		z-index: 1;
-	}
-
-	.identity-block {
-		display: flex;
-		align-items: flex-start;
 		gap: 1rem;
 	}
 
-	.avatar-ring {
-		padding: 0.35rem;
-		border-radius: 1.3rem;
-		background: linear-gradient(
-			135deg,
-			color-mix(in srgb, var(--type-accent, var(--primary)) 60%, transparent),
-			color-mix(in srgb, var(--accent) 40%, transparent)
-		);
-		box-shadow: 0 18px 40px color-mix(in srgb, var(--type-accent, var(--primary)) 18%, transparent);
+	.header-panel,
+	.panel,
+	.summary-card {
+		position: relative;
+		border: 1px solid color-mix(in srgb, var(--text-tertiary) 16%, transparent);
+		border-radius: 1rem;
+		background: color-mix(in srgb, var(--bg-surface) 96%, transparent);
+		box-shadow: 0 18px 40px rgba(12, 10, 9, 0.18);
 	}
 
-	.avatar {
-		width: 4.5rem;
-		height: 4.5rem;
-		border-radius: 1rem;
+	.header-panel {
+		display: grid;
+		grid-template-columns: minmax(0, 1fr) minmax(260px, 320px);
+		gap: 1rem;
+		padding: 1.25rem;
+	}
+
+	.header-main {
+		display: flex;
+		gap: 1rem;
+		min-width: 0;
+	}
+
+	.identity-mark {
+		flex: 0 0 4rem;
+		width: 4rem;
+		height: 4rem;
 		display: flex;
 		align-items: center;
 		justify-content: center;
-		background: color-mix(in srgb, var(--bg-base) 76%, var(--type-accent, var(--primary)));
+		border-radius: 0.875rem;
+		border: 1px solid color-mix(in srgb, var(--primary) 24%, transparent);
+		background: color-mix(in srgb, var(--primary) 12%, var(--bg-deep));
 		color: var(--text-primary);
-		font-family: var(--font-display);
-		font-size: 1.8rem;
+		font-family: var(--font-mono);
+		font-size: 1.35rem;
 		font-weight: 700;
 		text-transform: uppercase;
 	}
 
-	.identity-copy {
+	.header-copy {
 		min-width: 0;
 	}
 
-	.eyebrow,
-	.mono-label,
-	.panel-kicker,
-	.subscription-kicker,
-	.type-summary-label {
+	.kicker,
+	.data-key,
+	.summary-label,
+	.section-label,
+	.spec-key,
+	.check-status,
+	.row-index,
+	.row-action {
 		font-family: var(--font-mono);
 		font-size: 0.72rem;
 		font-weight: 600;
@@ -683,213 +638,176 @@
 		text-transform: uppercase;
 	}
 
-	.eyebrow {
+	.kicker,
+	.section-label {
 		margin: 0 0 0.4rem;
-		color: color-mix(in srgb, var(--type-accent, var(--primary)) 72%, var(--text-secondary));
+		color: color-mix(in srgb, var(--primary) 70%, var(--text-tertiary));
 	}
 
-	.identity-copy h1 {
+	.header-copy h1 {
 		margin: 0;
 		font-family: var(--font-display);
-		font-size: clamp(2.5rem, 6vw, 4.4rem);
-		line-height: 0.92;
+		font-size: clamp(2.2rem, 5vw, 3.35rem);
+		line-height: 0.95;
 		color: var(--text-primary);
 	}
 
-	.hero-text {
-		max-width: 44rem;
-		margin: 0.75rem 0 0;
-		font-size: 1.05rem;
-		line-height: 1.65;
+	.header-summary {
+		margin: 0.6rem 0 0;
+		max-width: 36rem;
 		color: var(--text-secondary);
+		line-height: 1.55;
 	}
 
-	.identity-meta {
-		display: flex;
-		flex-wrap: wrap;
-		gap: 0.55rem;
-		margin-top: 1rem;
-
-		span {
-			padding: 0.4rem 0.7rem;
-			border-radius: 999px;
-			border: 1px solid color-mix(in srgb, var(--text-tertiary) 18%, transparent);
-			background: color-mix(in srgb, var(--bg-base) 32%, transparent);
-			color: var(--text-secondary);
-			font-size: 0.82rem;
-		}
+	.header-rail {
+		display: grid;
+		gap: 0.85rem;
+		align-content: start;
 	}
 
-	.hero-rail {
-		display: flex;
-		flex-direction: column;
-		gap: 1rem;
+	.header-data {
+		display: grid;
+		gap: 0.45rem;
+		padding: 0.9rem 1rem;
+		border-radius: 0.875rem;
+		border: 1px solid color-mix(in srgb, var(--text-tertiary) 14%, transparent);
+		background: color-mix(in srgb, var(--bg-deep) 92%, transparent);
 	}
 
-	.pulse-card {
-		padding: 1.1rem;
-		border-radius: 1.2rem;
-		border: 1px solid color-mix(in srgb, var(--type-accent, var(--primary)) 24%, transparent);
-		background: color-mix(in srgb, var(--bg-base) 32%, transparent);
-
-		strong {
-			display: block;
-			margin-top: 0.5rem;
-			font-family: var(--font-display);
-			font-size: 1.45rem;
-			line-height: 1;
-			color: var(--text-primary);
-		}
-
-		p {
-			margin: 0.55rem 0 0;
-			color: var(--text-secondary);
-			line-height: 1.6;
-		}
+	.data-key,
+	.spec-key,
+	.summary-label,
+	.row-index,
+	.row-action {
+		color: var(--text-tertiary);
 	}
 
-	.mono-label,
-	.panel-kicker,
-	.subscription-kicker,
-	.type-summary-label {
-		color: color-mix(in srgb, var(--type-accent, var(--primary)) 72%, var(--text-tertiary));
+	.data-value {
+		color: var(--text-primary);
+		font-size: 0.95rem;
+		word-break: break-all;
 	}
 
-	.hero-actions {
+	.header-actions {
 		display: flex;
 		flex-wrap: wrap;
 		gap: 0.75rem;
 		align-items: center;
 	}
 
-	.admin-link,
-	.browse-link,
-	.cta-link {
+	.header-actions form {
+		display: flex;
+	}
+
+	.action-link,
+	.text-link {
 		display: inline-flex;
 		align-items: center;
 		justify-content: center;
-		gap: 0.5rem;
-		min-height: 2.9rem;
+		min-height: 2.75rem;
 		padding: 0.7rem 1rem;
-		border-radius: 0.95rem;
+		border-radius: 0.75rem;
 		text-decoration: none;
 		font-weight: 600;
 		transition:
-			transform 0.18s ease,
-			border-color 0.18s ease,
 			background 0.18s ease,
-			box-shadow 0.18s ease;
+			border-color 0.18s ease,
+			transform 0.18s ease;
 	}
 
-	.admin-link {
-		background: linear-gradient(135deg, var(--primary-dark) 0%, var(--primary) 100%);
-		color: var(--text-on-primary);
-		box-shadow: 0 12px 30px rgba(20, 184, 166, 0.22);
-
-		svg {
-			width: 1rem;
-			height: 1rem;
-		}
-
-		&:hover {
-			transform: translateY(-2px);
-			box-shadow: 0 16px 36px rgba(20, 184, 166, 0.3);
-		}
-	}
-
-	.stats-strip {
-		position: relative;
-		z-index: 1;
-		display: grid;
-		grid-template-columns: repeat(3, minmax(0, 1fr));
-		gap: 0.8rem;
-		margin-top: 1.25rem;
-	}
-
-	.stat-card {
-		padding: 1rem 1.05rem;
-		border-radius: 1.15rem;
-		border: 1px solid color-mix(in srgb, var(--text-tertiary) 14%, transparent);
-		background: color-mix(in srgb, var(--bg-base) 28%, transparent);
-
-		strong {
-			display: block;
-			margin-top: 0.45rem;
-			font-family: var(--font-display);
-			font-size: 2rem;
-			line-height: 1;
-			color: var(--text-primary);
-		}
-	}
-
-	.stat-label {
-		font-family: var(--font-mono);
-		font-size: 0.72rem;
-		font-weight: 600;
-		letter-spacing: 0.14em;
-		text-transform: uppercase;
-		color: var(--text-tertiary);
-	}
-
-	.stat-detail {
-		display: block;
-		margin-top: 0.45rem;
-		color: var(--text-secondary);
-		font-size: 0.88rem;
-		line-height: 1.5;
-	}
-
-	.dashboard-grid {
-		display: grid;
-		gap: 1.25rem;
-	}
-
-	.panel {
-		padding: 1.35rem;
-		background: color-mix(in srgb, var(--bg-surface) 92%, transparent);
-	}
-
-	.panel-heading {
-		display: flex;
-		align-items: flex-start;
-		justify-content: space-between;
-		gap: 1rem;
-		margin-bottom: 1.25rem;
-	}
-
-	.panel-heading h2,
-	.empty-state h3,
-	.type-summary h3 {
-		margin: 0;
-		font-family: var(--font-display);
+	.action-link {
+		border: 1px solid color-mix(in srgb, var(--primary) 24%, transparent);
+		background: color-mix(in srgb, var(--primary) 10%, var(--bg-deep));
 		color: var(--text-primary);
 	}
 
-	.panel-heading h2 {
-		font-size: clamp(1.75rem, 3vw, 2.4rem);
+	.action-link:hover,
+	.text-link:hover {
+		transform: translateY(-1px);
+	}
+
+	.action-link-primary {
+		background: linear-gradient(135deg, var(--primary-dark) 0%, var(--primary) 100%);
+		border-color: var(--primary);
+		color: var(--text-on-primary);
+	}
+
+	.summary-grid {
+		display: grid;
+		grid-template-columns: repeat(4, minmax(0, 1fr));
+		gap: 0.85rem;
+	}
+
+	.summary-card {
+		padding: 1rem;
+	}
+
+	.summary-card strong,
+	.type-readout strong,
+	.status-note strong {
+		display: block;
+		margin-top: 0.55rem;
+		color: var(--text-primary);
+		font-family: var(--font-mono);
+		font-size: 1.1rem;
+		line-height: 1.25;
+	}
+
+	.summary-detail {
+		display: block;
+		margin-top: 0.55rem;
+		color: var(--text-secondary);
+		font-size: 0.88rem;
+		line-height: 1.45;
+	}
+
+	.content-grid {
+		display: grid;
+		grid-template-columns: minmax(0, 1.4fr) minmax(300px, 0.9fr);
+		gap: 1rem;
+		align-items: start;
+	}
+
+	.side-column {
+		display: grid;
+		gap: 1rem;
+	}
+
+	.panel {
+		padding: 1.15rem;
+	}
+
+	.panel-head {
+		display: flex;
+		justify-content: space-between;
+		align-items: flex-start;
+		gap: 1rem;
+		margin-bottom: 1rem;
+		padding-bottom: 1rem;
+		border-bottom: 1px solid color-mix(in srgb, var(--text-tertiary) 12%, transparent);
+	}
+
+	.panel-head h2 {
+		margin: 0;
+		font-family: var(--font-display);
+		font-size: 1.5rem;
 		line-height: 1;
+		color: var(--text-primary);
 	}
 
-	.panel-kicker {
-		margin: 0 0 0.45rem;
-		color: color-mix(in srgb, var(--primary) 72%, var(--text-tertiary));
-	}
-
-	.panel-copy,
-	.subscriptions-copy {
+	.section-copy {
 		margin: 0.45rem 0 0;
 		color: var(--text-secondary);
-		line-height: 1.6;
-		max-width: 48rem;
+		line-height: 1.55;
 	}
 
-	.sync-pill {
+	.state-pill {
 		display: inline-flex;
 		align-items: center;
 		justify-content: center;
-		padding: 0.55rem 0.8rem;
+		padding: 0.45rem 0.75rem;
 		border-radius: 999px;
-		border: 1px solid color-mix(in srgb, var(--success) 28%, transparent);
+		border: 1px solid color-mix(in srgb, var(--success) 24%, transparent);
 		background: color-mix(in srgb, var(--success) 10%, var(--bg-deep));
 		color: var(--text-primary);
 		font-size: 0.82rem;
@@ -897,255 +815,181 @@
 		white-space: nowrap;
 	}
 
-	.sync-pill.pending {
-		border-color: color-mix(in srgb, var(--warning) 30%, transparent);
+	.state-pill.pending {
+		border-color: color-mix(in srgb, var(--warning) 28%, transparent);
 		background: color-mix(in srgb, var(--warning) 12%, var(--bg-deep));
+	}
+
+	.spec-list {
+		border: 1px solid color-mix(in srgb, var(--text-tertiary) 12%, transparent);
+		border-radius: 0.875rem;
+		overflow: hidden;
+		background: color-mix(in srgb, var(--bg-deep) 92%, transparent);
+	}
+
+	.spec-row {
+		display: grid;
+		grid-template-columns: 150px minmax(0, 1fr);
+		gap: 1rem;
+		padding: 0.85rem 1rem;
+	}
+
+	.spec-row + .spec-row {
+		border-top: 1px solid color-mix(in srgb, var(--text-tertiary) 12%, transparent);
+	}
+
+	.spec-value {
+		color: var(--text-primary);
+		line-height: 1.45;
+	}
+
+	.spec-value.break {
+		word-break: break-all;
 	}
 
 	.field-grid {
 		display: grid;
-		grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+		grid-template-columns: repeat(2, minmax(0, 1fr));
 		gap: 0.85rem;
+		margin-top: 1rem;
 	}
 
 	.field-card {
-		display: flex;
-		flex-direction: column;
+		display: grid;
 		gap: 0.45rem;
-		padding: 1rem;
-		border-radius: 1.1rem;
-		border: 1px solid color-mix(in srgb, var(--text-tertiary) 18%, transparent);
-		background: linear-gradient(
-			180deg,
-			color-mix(in srgb, var(--bg-elevated) 82%, transparent) 0%,
-			color-mix(in srgb, var(--bg-surface) 96%, transparent) 100%
-		);
 	}
 
 	.field-label {
-		font-size: 0.82rem;
+		font-size: 0.84rem;
 		font-weight: 600;
-		color: var(--neutral-700);
+		color: var(--text-primary);
 	}
 
 	.field-help {
 		font-size: 0.82rem;
-		line-height: 1.45;
 		color: var(--text-tertiary);
 	}
 
 	.field-card input {
 		width: 100%;
-		margin-top: 0.15rem;
-		padding: 0.9rem 0.95rem;
-		border-radius: 0.9rem;
-		border: 1px solid color-mix(in srgb, var(--text-tertiary) 22%, transparent);
-		background: color-mix(in srgb, var(--bg-base) 52%, var(--bg-surface));
+		padding: 0.85rem 0.95rem;
+		border-radius: 0.75rem;
+		border: 1px solid color-mix(in srgb, var(--text-tertiary) 16%, transparent);
+		background: color-mix(in srgb, var(--bg-deep) 92%, transparent);
 		color: var(--text-primary);
 		font-size: 1rem;
 		transition:
 			border-color 0.18s ease,
-			box-shadow 0.18s ease,
-			background 0.18s ease;
-
-		&::placeholder {
-			color: var(--text-muted);
-		}
-
-		&:focus {
-			outline: none;
-			border-color: color-mix(in srgb, var(--primary) 48%, transparent);
-			box-shadow: 0 0 0 4px rgba(45, 212, 191, 0.12);
-			background: color-mix(in srgb, var(--bg-base) 44%, var(--bg-surface));
-		}
+			box-shadow 0.18s ease;
 	}
 
-	.email-lockup {
-		display: flex;
-		align-items: flex-start;
-		justify-content: space-between;
-		gap: 1rem;
-		margin: 1rem 0 1.25rem;
-		padding: 1rem 1.1rem;
-		border-radius: 1.1rem;
-		border: 1px solid color-mix(in srgb, var(--accent) 18%, transparent);
-		background: linear-gradient(
-			135deg,
-			color-mix(in srgb, var(--accent) 7%, var(--bg-deep)) 0%,
-			color-mix(in srgb, var(--bg-surface) 96%, transparent) 100%
-		);
+	.field-card input::placeholder {
+		color: var(--text-muted);
+	}
 
-		strong {
-			display: block;
-			margin-top: 0.4rem;
-			font-size: 1rem;
-			font-weight: 600;
-			color: var(--text-primary);
-			word-break: break-all;
-		}
-
-		p {
-			max-width: 22rem;
-			margin: 0;
-			color: var(--text-secondary);
-			line-height: 1.6;
-		}
+	.field-card input:focus {
+		outline: none;
+		border-color: color-mix(in srgb, var(--primary) 40%, transparent);
+		box-shadow: 0 0 0 4px rgba(45, 212, 191, 0.12);
 	}
 
 	.type-section {
-		margin: 0;
+		margin: 1rem 0 0;
 		padding: 0;
-		border: none;
+		border: 0;
 	}
 
-	.type-heading {
-		display: flex;
-		align-items: flex-start;
-		justify-content: space-between;
-		gap: 1rem;
-		margin-bottom: 0.95rem;
-
-		p {
-			margin: 0;
-			color: var(--text-secondary);
-			line-height: 1.55;
-		}
-	}
-
-	.type-legend {
+	.type-section legend {
 		padding: 0;
-		margin-bottom: 0.45rem;
+		margin-bottom: 0.35rem;
 		font-family: var(--font-display);
-		font-size: 1.45rem;
+		font-size: 1.35rem;
 		font-weight: 700;
 		color: var(--text-primary);
 	}
 
-	.type-chip {
-		padding: 0.75rem 0.95rem;
-		border-radius: 1rem;
-		border: 1px solid color-mix(in srgb, var(--chip-accent) 28%, transparent);
-		background: color-mix(in srgb, var(--chip-accent) 12%, var(--bg-deep));
-		text-align: right;
-
-		span {
-			display: block;
-			font-family: var(--font-mono);
-			font-size: 0.7rem;
-			font-weight: 600;
-			letter-spacing: 0.12em;
-			text-transform: uppercase;
-			color: color-mix(in srgb, var(--chip-accent) 72%, var(--text-tertiary));
-		}
-
-		strong {
-			display: block;
-			margin-top: 0.35rem;
-			color: var(--text-primary);
-			font-size: 0.98rem;
-		}
-	}
-
 	.type-grid {
 		display: grid;
-		grid-template-columns: repeat(auto-fit, minmax(165px, 1fr));
+		grid-template-columns: repeat(3, minmax(0, 1fr));
 		gap: 0.75rem;
+		margin-top: 0.9rem;
 	}
 
 	.type-card {
 		display: grid;
 		grid-template-columns: auto 1fr;
+		gap: 0.7rem;
 		align-items: flex-start;
-		gap: 0.75rem;
-		padding: 0.95rem;
-		border-radius: 1rem;
+		padding: 0.85rem;
 		border: 1px solid color-mix(in srgb, var(--type-accent) 18%, var(--text-tertiary));
-		background: color-mix(in srgb, var(--bg-deep) 76%, transparent);
+		border-radius: 0.85rem;
+		background: color-mix(in srgb, var(--bg-deep) 92%, transparent);
 		color: inherit;
 		text-align: left;
 		cursor: pointer;
 		transition:
-			transform 0.18s ease,
 			border-color 0.18s ease,
 			background 0.18s ease,
-			box-shadow 0.18s ease;
+			transform 0.18s ease;
+	}
 
-		&:hover {
-			transform: translateY(-2px);
-			border-color: color-mix(in srgb, var(--type-accent) 44%, transparent);
-			box-shadow: 0 12px 28px rgba(12, 10, 9, 0.24);
-		}
+	.type-card:hover {
+		transform: translateY(-1px);
+		border-color: color-mix(in srgb, var(--type-accent) 44%, transparent);
+	}
 
-		&.selected {
-			border-color: color-mix(in srgb, var(--type-accent) 58%, transparent);
-			background: linear-gradient(
-				135deg,
-				color-mix(in srgb, var(--type-accent) 15%, var(--bg-deep)) 0%,
-				color-mix(in srgb, var(--bg-surface) 96%, transparent) 100%
-			);
-			box-shadow:
-				0 0 0 1px color-mix(in srgb, var(--type-accent) 34%, transparent),
-				0 14px 32px rgba(12, 10, 9, 0.28);
-		}
+	.type-card.selected {
+		border-color: color-mix(in srgb, var(--type-accent) 56%, transparent);
+		background: color-mix(in srgb, var(--type-accent) 12%, var(--bg-deep));
+		box-shadow: inset 0 0 0 1px color-mix(in srgb, var(--type-accent) 22%, transparent);
 	}
 
 	.type-number {
-		width: 2.35rem;
-		height: 2.35rem;
-		border-radius: 0.85rem;
-		display: flex;
+		width: 2rem;
+		height: 2rem;
+		display: inline-flex;
 		align-items: center;
 		justify-content: center;
+		border-radius: 0.625rem;
 		background: color-mix(in srgb, var(--type-accent) 18%, var(--bg-base));
 		color: var(--text-primary);
 		font-family: var(--font-mono);
-		font-size: 0.86rem;
+		font-size: 0.82rem;
 		font-weight: 700;
 	}
 
 	.type-body {
-		display: flex;
-		flex-direction: column;
-		gap: 0.3rem;
-
-		strong {
-			color: var(--text-primary);
-			font-size: 1rem;
-			line-height: 1.2;
-		}
-
-		span {
-			color: var(--text-secondary);
-			font-size: 0.82rem;
-			line-height: 1.45;
-		}
+		display: grid;
+		gap: 0.28rem;
+		min-width: 0;
 	}
 
-	.type-summary {
+	.type-body strong {
+		color: var(--text-primary);
+		font-size: 0.95rem;
+		line-height: 1.25;
+	}
+
+	.type-body span {
+		color: var(--text-secondary);
+		font-size: 0.78rem;
+		line-height: 1.4;
+	}
+
+	.type-readout,
+	.status-note {
 		margin-top: 1rem;
-		padding: 1rem 1.1rem;
-		border-radius: 1.1rem;
-		border: 1px solid color-mix(in srgb, var(--type-accent) 24%, transparent);
-		background: linear-gradient(
-			135deg,
-			color-mix(in srgb, var(--type-accent) 12%, var(--bg-deep)) 0%,
-			color-mix(in srgb, var(--bg-surface) 96%, transparent) 100%
-		);
+		padding: 0.95rem 1rem;
+		border-radius: 0.875rem;
+		border: 1px solid color-mix(in srgb, var(--type-accent, var(--primary)) 18%, transparent);
+		background: color-mix(in srgb, var(--type-accent, var(--primary)) 8%, var(--bg-deep));
+	}
 
-		.type-summary-label {
-			color: color-mix(in srgb, var(--type-accent) 72%, var(--text-tertiary));
-		}
-
-		h3 {
-			margin-top: 0.45rem;
-			font-size: 1.7rem;
-		}
-
-		p {
-			margin: 0.45rem 0 0;
-			color: var(--text-secondary);
-			line-height: 1.6;
-		}
+	.type-readout p,
+	.status-note p {
+		margin: 0.55rem 0 0;
+		color: var(--text-secondary);
+		line-height: 1.5;
 	}
 
 	.form-actions {
@@ -1154,233 +998,184 @@
 		justify-content: space-between;
 		gap: 1rem;
 		flex-wrap: wrap;
-		margin-top: 1.25rem;
+		margin-top: 1rem;
+		padding-top: 1rem;
+		border-top: 1px solid color-mix(in srgb, var(--text-tertiary) 12%, transparent);
 	}
 
 	.action-note {
 		margin: 0;
-		font-size: 0.92rem;
 		color: var(--text-secondary);
+		font-size: 0.9rem;
 	}
 
-	.cta-link {
-		width: 100%;
-		margin-top: 0.95rem;
-		border: 1px solid color-mix(in srgb, var(--primary) 22%, transparent);
-		background: color-mix(in srgb, var(--primary) 10%, var(--bg-deep));
-		color: var(--primary-lightest);
-
-		&:hover {
-			transform: translateY(-2px);
-			border-color: color-mix(in srgb, var(--primary) 36%, transparent);
-			box-shadow: 0 16px 36px rgba(20, 184, 166, 0.16);
-		}
-	}
-
-	.browse-link {
-		border: 1px solid color-mix(in srgb, var(--text-tertiary) 20%, transparent);
-		background: color-mix(in srgb, var(--bg-deep) 78%, transparent);
-		color: var(--text-primary);
-
-		&:hover {
-			transform: translateY(-2px);
-			border-color: color-mix(in srgb, var(--primary) 28%, transparent);
-			background: color-mix(in srgb, var(--primary) 10%, var(--bg-deep));
-		}
-	}
-
-	.empty-state {
-		display: grid;
-		justify-items: start;
-		gap: 0.9rem;
-		padding: 1.2rem;
-		border-radius: 1.2rem;
-		border: 1px dashed color-mix(in srgb, var(--primary) 28%, transparent);
-		background: linear-gradient(
-			135deg,
-			color-mix(in srgb, var(--bg-deep) 78%, transparent) 0%,
-			color-mix(in srgb, var(--bg-surface) 96%, transparent) 100%
-		);
-
-		h3 {
-			font-size: 1.85rem;
-			line-height: 0.98;
-		}
-
-		p {
-			max-width: 36rem;
-			margin: 0;
-			color: var(--text-secondary);
-			line-height: 1.65;
-		}
-	}
-
-	.empty-symbol {
-		width: 3.5rem;
-		height: 3.5rem;
-		display: flex;
-		align-items: center;
-		justify-content: center;
-		border-radius: 1rem;
-		border: 1px solid color-mix(in srgb, var(--primary) 24%, transparent);
-		background: color-mix(in srgb, var(--primary) 12%, var(--bg-base));
-		font-family: var(--font-display);
-		font-size: 1.7rem;
-		color: var(--primary-lightest);
-	}
-
+	.checklist,
 	.subscription-list {
 		list-style: none;
 		padding: 0;
-		margin: 1rem 0 0;
+		margin: 0;
 		display: grid;
-		gap: 0.8rem;
+		gap: 0.75rem;
 	}
 
-	.subscription-item {
+	.check-row,
+	.subscription-row {
+		border: 1px solid color-mix(in srgb, var(--text-tertiary) 14%, transparent);
+		border-radius: 0.875rem;
+		background: color-mix(in srgb, var(--bg-deep) 92%, transparent);
+	}
+
+	.check-row {
 		display: grid;
-		grid-template-columns: auto 1fr auto;
+		grid-template-columns: auto 1fr;
+		gap: 0.75rem;
 		align-items: center;
-		gap: 1rem;
-		padding: 1rem 1.05rem;
-		border-radius: 1.1rem;
-		border: 1px solid color-mix(in srgb, var(--text-tertiary) 16%, transparent);
-		background: linear-gradient(
-			135deg,
-			color-mix(in srgb, var(--bg-deep) 80%, transparent) 0%,
-			color-mix(in srgb, var(--bg-surface) 96%, transparent) 100%
-		);
-		color: inherit;
-		text-decoration: none;
-		transition:
-			transform 0.18s ease,
-			border-color 0.18s ease,
-			box-shadow 0.18s ease;
-
-		&:hover {
-			transform: translateY(-2px);
-			border-color: color-mix(in srgb, var(--primary) 32%, transparent);
-			box-shadow: 0 18px 40px rgba(12, 10, 9, 0.28);
-		}
+		padding: 0.85rem 0.95rem;
 	}
 
-	.subscription-rank {
-		width: 2.4rem;
-		height: 2.4rem;
-		display: flex;
-		align-items: center;
-		justify-content: center;
-		border-radius: 0.85rem;
-		background: color-mix(in srgb, var(--primary) 12%, var(--bg-base));
-		color: var(--primary-lightest);
-		font-family: var(--font-mono);
-		font-size: 0.8rem;
-		font-weight: 700;
-	}
-
-	.subscription-body {
-		display: grid;
-		gap: 0.3rem;
-		min-width: 0;
-	}
-
-	.subscription-kicker {
-		color: color-mix(in srgb, var(--primary) 72%, var(--text-tertiary));
-	}
-
-	.subscription-text {
-		color: var(--text-primary);
-		font-size: 1rem;
-		line-height: 1.55;
-	}
-
-	.subscription-arrow {
-		width: 2.4rem;
-		height: 2.4rem;
+	.check-status {
 		display: inline-flex;
 		align-items: center;
 		justify-content: center;
+		min-width: 2.5rem;
+		padding: 0.3rem 0.45rem;
 		border-radius: 999px;
-		border: 1px solid color-mix(in srgb, var(--primary) 20%, transparent);
-		background: color-mix(in srgb, var(--primary) 10%, var(--bg-deep));
-		color: var(--primary-lightest);
-
-		svg {
-			width: 1rem;
-			height: 1rem;
-		}
+		border: 1px solid color-mix(in srgb, var(--text-tertiary) 20%, transparent);
+		background: color-mix(in srgb, var(--bg-base) 32%, transparent);
 	}
 
-	.hero-actions :global(.signout-button),
-	.form-actions :global(.save-button) {
+	.check-row.complete .check-status {
+		border-color: color-mix(in srgb, var(--primary) 28%, transparent);
+		background: color-mix(in srgb, var(--primary) 12%, var(--bg-base));
+		color: var(--primary-light);
+	}
+
+	.check-text {
+		color: var(--text-primary);
+	}
+
+	.text-link {
+		border: 1px solid color-mix(in srgb, var(--text-tertiary) 16%, transparent);
+		background: color-mix(in srgb, var(--bg-deep) 90%, transparent);
+		color: var(--text-primary);
+	}
+
+	.empty-block {
+		display: grid;
+		gap: 0.65rem;
+		padding: 1rem;
+		border: 1px dashed color-mix(in srgb, var(--text-tertiary) 22%, transparent);
+		border-radius: 0.875rem;
+		background: color-mix(in srgb, var(--bg-deep) 92%, transparent);
+	}
+
+	.empty-block strong {
+		color: var(--text-primary);
+		font-family: var(--font-mono);
+	}
+
+	.empty-block p {
+		margin: 0;
+		color: var(--text-secondary);
+		line-height: 1.5;
+	}
+
+	.subscription-row {
+		display: grid;
+		grid-template-columns: auto minmax(0, 1fr) auto;
+		gap: 0.85rem;
+		align-items: start;
+		padding: 0.9rem 1rem;
+		text-decoration: none;
+		color: inherit;
+		transition:
+			border-color 0.18s ease,
+			background 0.18s ease,
+			transform 0.18s ease;
+	}
+
+	.subscription-row:hover {
+		transform: translateY(-1px);
+		border-color: color-mix(in srgb, var(--primary) 32%, transparent);
+		background: color-mix(in srgb, var(--primary) 9%, var(--bg-deep));
+	}
+
+	.row-text {
+		color: var(--text-primary);
+		line-height: 1.5;
+	}
+
+	.header-actions :global(.account-action),
+	.form-actions :global(.account-action) {
 		justify-content: center;
 	}
 
-	.hero-actions :global(.signout-button) {
+	.form-actions :global(.save-button) {
 		min-width: 10rem;
 	}
 
-	.form-actions :global(.save-button) {
-		min-width: 12.5rem;
-		box-shadow: 0 16px 32px rgba(20, 184, 166, 0.18);
-	}
+	@media (max-width: 960px) {
+		.header-panel,
+		.content-grid {
+			grid-template-columns: 1fr;
+		}
 
-	@media (min-width: 980px) {
-		.account-shell {
-			max-width: 960px;
+		.summary-grid {
+			grid-template-columns: repeat(2, minmax(0, 1fr));
+		}
+
+		.header-rail {
+			grid-template-columns: 1fr;
 		}
 	}
 
-	@media (max-width: 767px) {
+	@media (max-width: 720px) {
 		.account-page {
-			padding: 1.25rem 0.85rem 3rem;
+			padding: 1rem 0.85rem 3rem;
 		}
 
-		.hero-panel,
-		.panel {
-			padding: 1.1rem;
-			border-radius: 1.25rem;
+		.header-panel,
+		.panel,
+		.summary-card {
+			padding: 1rem;
 		}
 
-		.identity-block,
-		.panel-heading,
-		.type-heading,
-		.email-lockup,
+		.header-main,
+		.panel-head,
 		.form-actions {
 			flex-direction: column;
 			align-items: stretch;
 		}
 
-		.stats-strip {
-			grid-template-columns: 1fr;
-		}
-
+		.summary-grid,
+		.field-grid,
 		.type-grid {
 			grid-template-columns: 1fr;
 		}
 
-		.type-chip {
-			text-align: left;
+		.spec-row {
+			grid-template-columns: 1fr;
+			gap: 0.35rem;
 		}
 
-		.hero-actions {
-			flex-direction: column;
-			align-items: stretch;
-		}
-
-		.hero-actions form,
-		.browse-link,
-		.admin-link,
-		.hero-actions :global(.signout-button),
-		.form-actions :global(.save-button) {
+		.header-actions,
+		.header-actions form {
+			display: grid;
 			width: 100%;
 		}
 
-		.subscription-item {
+		.action-link,
+		.text-link,
+		.header-actions :global(.account-action),
+		.form-actions :global(.account-action) {
+			width: 100%;
+		}
+
+		.subscription-row {
 			grid-template-columns: auto 1fr;
 		}
 
-		.subscription-arrow {
+		.row-action {
 			display: none;
 		}
 	}

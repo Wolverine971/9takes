@@ -40,10 +40,7 @@
 	$: filteredQuestions = selectedCategory
 		? allQuestions.filter((q) => q.tag_id === selectedCategory)
 		: allQuestions;
-	$: displayedCategories =
-		data.subcategoryTags?.filter((cat: QuestionCategory) =>
-			allQuestions.some((q: QuestionWithTag) => q.tag_id === cat.id)
-		) || [];
+	$: displayedCategories = data.subcategoryTags || [];
 
 	// Animation settings
 	const transitionEnabled =
@@ -110,9 +107,13 @@
 		}
 	}
 
-	// Helper to convert category name to URL slug
-	function toSlug(name: string): string {
-		return name.toLowerCase().replace(/\s+/g, '-');
+	// Category pages use title-cased slugs derived directly from the category name.
+	function toCategorySlug(name: string): string {
+		return name.trim().replace(/\s+/g, '-');
+	}
+
+	function getCategoryHref(name: string): string {
+		return `/questions/categories/${toCategorySlug(name)}`;
 	}
 
 	const questionsFaqs = [
@@ -168,7 +169,7 @@
 	// Helper to find category by slug
 	function findCategoryBySlug(slug: string): QuestionCategory | undefined {
 		return displayedCategories.find(
-			(c: QuestionCategory) => toSlug(c.category_name) === slug.toLowerCase()
+			(c: QuestionCategory) => toCategorySlug(c.category_name).toLowerCase() === slug.toLowerCase()
 		);
 	}
 
@@ -177,6 +178,11 @@
 		categoryName: string | null = null,
 		updateUrl = true
 	) {
+		if (categoryId !== null && updateUrl && browser && categoryName) {
+			await goto(getCategoryHref(categoryName), { noScroll: true });
+			return;
+		}
+
 		if (selectedCategory === categoryId) return;
 
 		loading = true;
@@ -206,7 +212,7 @@
 				// Update URL to reflect category selection (use slug for readable URLs)
 				if (updateUrl && browser && categoryName) {
 					const url = new URL($page.url);
-					url.searchParams.set('category', toSlug(categoryName));
+					url.searchParams.set('category', toCategorySlug(categoryName));
 					await goto(url.toString(), { replaceState: true, noScroll: true });
 				}
 
@@ -405,17 +411,16 @@
 					All Questions
 				</button>
 				{#each displayedCategories as category (category.id)}
-					<button
+					<a
+						href={getCategoryHref(category.category_name)}
 						class="bg-[var(--bg-surface)]/60 flex-shrink-0 whitespace-nowrap rounded-full border border-[var(--primary-subtle)] px-2.5 py-1 text-xs font-medium text-[var(--text-primary)] backdrop-blur-sm transition-all duration-150 hover:border-[var(--primary)] hover:bg-[var(--primary-subtle)] hover:shadow-[var(--glow-sm)] disabled:cursor-not-allowed disabled:opacity-60 sm:px-3.5 sm:py-1.5 sm:text-sm"
 						class:!bg-[var(--primary-dark)]={selectedCategory === category.id}
 						class:!text-white={selectedCategory === category.id}
 						class:!border-[var(--primary-dark)]={selectedCategory === category.id}
 						class:!shadow-[var(--glow-sm)]={selectedCategory === category.id}
-						on:click={() => filterByCategory(category.id, category.category_name)}
-						disabled={loading}
 					>
 						{category.category_name}
-					</button>
+					</a>
 				{/each}
 			</div>
 		</section>

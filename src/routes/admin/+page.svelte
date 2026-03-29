@@ -411,7 +411,7 @@
 				<LineChart
 					data={visitorChartData}
 					title="Visitors"
-					height={300}
+					height={380}
 					color="#3b82f6"
 					showPoints={true}
 					showGrid={true}
@@ -424,7 +424,7 @@
 				<LineChart
 					data={commentChartData}
 					title="Comments"
-					height={300}
+					height={380}
 					color="#10b981"
 					showPoints={true}
 					showGrid={true}
@@ -966,7 +966,7 @@
 
 	.insights-grid {
 		display: grid;
-		grid-template-columns: repeat(2, minmax(0, 1fr));
+		grid-template-columns: 1fr;
 		gap: 20px;
 	}
 
@@ -975,8 +975,8 @@
 		overflow: hidden;
 	}
 
-	.distribution-panel {
-		grid-column: 1 / -1;
+	.chart-panel {
+		padding: 12px;
 	}
 
 	.distribution-panel :global(.enneagram-chart) {
@@ -1314,16 +1314,6 @@
 		box-shadow: var(--glow-md);
 	}
 
-	@media (min-width: 1200px) {
-		.insights-grid {
-			grid-template-columns: minmax(0, 1fr) minmax(0, 1fr) minmax(320px, 0.9fr);
-		}
-
-		.distribution-panel {
-			grid-column: auto;
-		}
-	}
-
 	@media (max-width: 1200px) {
 		.hero-top {
 			grid-template-columns: 1fr;
@@ -1336,10 +1326,6 @@
 		.queue-grid,
 		.insights-grid {
 			grid-template-columns: 1fr;
-		}
-
-		.distribution-panel {
-			grid-column: auto;
 		}
 	}
 

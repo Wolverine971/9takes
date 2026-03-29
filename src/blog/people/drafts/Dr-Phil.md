@@ -4,9 +4,9 @@ meta_title: 'Why Dr. Phil Had to Control Everyone (The Childhood That Explains E
 persona_title: "Television's Tough-Love Patriarch"
 description: "Inside Dr. Phil's Enneagram Type 8 personality—from sleeping in cardboard boxes to building a $400M empire on confrontation."
 author: 'DJ Wayne'
-date: '2026-03-22'
+date: '2026-03-29'
 loc: 'https://9takes.com/personality-analysis/Dr-Phil'
-lastmod: '2026-03-22'
+lastmod: '2026-03-29'
 changefreq: 'monthly'
 priority: '0.6'
 published: false

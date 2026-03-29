@@ -2,61 +2,26 @@
 <script lang="ts">
 	import { goto, invalidateAll } from '$app/navigation';
 	import { QuestionItem } from '$lib/components';
-	import CategoryNavigation from '$lib/components/atoms/CategoryNavigation.svelte';
+	import CategoryBrowseBranch from '$lib/components/questions/CategoryBrowseBranch.svelte';
 	import SearchQuestion from '$lib/components/questions/SearchQuestion.svelte';
-	import { A, Accordion, AccordionItem } from 'flowbite-svelte';
 
-	// import { ChevronDownOutline, ChevronRightOutline } from 'flowbite-svelte-icons';
+	type BrowseCategoryNode = {
+		id: number;
+		category_name: string;
+		parent_id: number | null;
+		level: number;
+		directQuestionCount: number;
+		subtreeQuestionCount: number;
+		hasDirectQuestions: boolean;
+		children: BrowseCategoryNode[];
+	};
 
 	/** @type {import('./$types').PageData} */
 	export let data: any;
 
-	// Function to create a hierarchical structure
-	function createHierarchy(items) {
-		if (!items?.length) return [];
-		const hierarchy = [];
-		const lookup = {};
-
-		// First pass: create lookup table
-		items.forEach((item) => {
-			const { id, category_name, level, parent_id } = item;
-			lookup[id] = { id, category_name, level, parent_id, children: [] };
-		});
-
-		const startingLevel = items.reduce(
-			(maxLevel, item) => Math.min(maxLevel, item?.level),
-			items[0].level
-		);
-		// Second pass: build hierarchy
-		items.forEach((item) => {
-			const { id, parent_id, level } = item;
-			if (level === startingLevel) {
-				hierarchy.push(lookup[id]);
-			} else if (lookup[parent_id]) {
-				lookup[parent_id].children.push(lookup[id]);
-			}
-		});
-
-		// Function to sort children recursively
-		function sortChildren(category) {
-			category.children.sort((a, b) => a.category_name.localeCompare(b.category_name));
-			category.children.forEach(sortChildren);
-		}
-
-		// Sort the hierarchy
-		hierarchy.sort((a, b) => a.category_name.localeCompare(b.category_name));
-		hierarchy.forEach(sortChildren);
-
-		return hierarchy;
-	}
-
-	$: hierarchicalData = createHierarchy(data?.children);
-
-	function formatUrl(name: string): string {
-		return `/questions/categories/${name.split(' ').join('-')}`;
-	}
-
 	const shareImage = 'https://9takes.com/questions-default.webp';
+	let childCategories: BrowseCategoryNode[] = [];
+	$: childCategories = (data?.childCategories ?? []) as BrowseCategoryNode[];
 	$: categoryName = data?.questionTag?.category_name || '';
 	$: categorySlug = categoryName ? categoryName.split(' ').join('-') : '';
 	$: pageTitle = categoryName
@@ -149,57 +114,27 @@
 		}}
 	/>
 
-	<div class="max-w-2xl p-2">
+	<div class="mx-auto max-w-5xl p-2">
 		<h1
 			class="m-1 w-full rounded-lg text-left text-xl font-semibold text-[var(--text-primary)]"
 			id="question-box"
 			itemprop="name"
 		>
-			{data?.questionTag?.category_name}
+			{categoryName}
 		</h1>
-		{#each hierarchicalData as category (category.id)}
-			<div
-				class="mb-1 rounded-lg border border-[var(--bg-elevated)] bg-[var(--bg-surface)] p-2 shadow-sm"
-			>
-				<h2 class="!my-1 flex items-center !py-0 text-lg font-medium text-[var(--text-primary)]">
-					<A
-						href={formatUrl(category.category_name)}
-						class="flex items-center text-[var(--text-primary)] hover:text-[var(--primary)]"
-					>
-						<!-- {category.children.length ? <ChevronDownOutline class="mr-2 h-4 w-4" /> : <ChevronRightOutline class="mr-2 h-4 w-4" />} -->
-						{category.category_name}
-					</A>
+
+		{#if childCategories.length}
+			<section class="mb-4 mt-3">
+				<h2 class="mb-3 text-base font-semibold text-[var(--text-primary)]">
+					Subcategories With Live Questions
 				</h2>
-				{#if category.children.length}
-					<div class="ml-4 grid gap-2 sm:grid-cols-2 md:grid-cols-3">
-						{#each category.children as subCategory (subCategory.id)}
-							<div class="rounded-md bg-[var(--bg-elevated)] p-2">
-								<A
-									href={formatUrl(subCategory.category_name)}
-									class="font-medium text-[var(--text-primary)] hover:text-[var(--primary)]"
-								>
-									{subCategory.category_name}
-								</A>
-								{#if subCategory.children.length}
-									<ul class="mt-1 space-y-1 pl-4 text-sm">
-										{#each subCategory.children as subSubCategory (subSubCategory.id)}
-											<li>
-												<A
-													href={formatUrl(subSubCategory.category_name)}
-													class="text-[var(--text-secondary)] hover:text-[var(--primary)]"
-												>
-													{subSubCategory.category_name}
-												</A>
-											</li>
-										{/each}
-									</ul>
-								{/if}
-							</div>
-						{/each}
-					</div>
-				{/if}
-			</div>
-		{/each}
+				<div class="grid gap-3">
+					{#each childCategories as category (category.id)}
+						<CategoryBrowseBranch {category} depth={1} />
+					{/each}
+				</div>
+			</section>
+		{/if}
 	</div>
 
 	{#if data?.questionCategories?.length}

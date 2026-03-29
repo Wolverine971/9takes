@@ -4,9 +4,9 @@ meta_title: 'Why Marc Andreessen Refuses to Look Inward (And What That Reveals)'
 persona_title: "Tech's Fortress Philosopher"
 description: 'Marc Andreessen built the browser that opened the world. Then he built walls around himself. Inside the mind that connects everything except itself.'
 author: 'DJ Wayne'
-date: '2026-03-24'
+date: '2026-03-29'
 loc: 'https://9takes.com/personality-analysis/Marc-Andreessen'
-lastmod: '2026-03-26'
+lastmod: '2026-03-29'
 changefreq: 'monthly'
 priority: '0.6'
 published: false

@@ -4,9 +4,14 @@
 	import { notifications } from '$lib/components/molecules/notifications';
 	import MasterCommentIcon from '$lib/components/icons/masterCommentIcon.svelte';
 	import XmarkIcon from '$lib/components/icons/xmarkIcon.svelte';
+	import { onDestroy } from 'svelte';
 
 	export let questionData: any;
 	export let tags: any[];
+
+	const MAX_TAGS = 5;
+	const TAGGING_POLL_INTERVAL_MS = 1500;
+	const TAGGING_POLL_TIMEOUT_MS = 120000;
 
 	// Track question ID to reset local state when a different question is selected
 	let prevQuestionId: any = null;
@@ -14,20 +19,50 @@
 	let editing = false;
 	let confirmingTag = false;
 	let taggingLoading = false;
+	let backgroundTagging = false;
 	let questionEditsSaving = false;
 	let editBackup: any = null;
+	let activeTaggingJobId: string | null = null;
+	let taggingPollTimer: ReturnType<typeof setTimeout> | null = null;
+	let taggingPollStartedAt = 0;
 
 	// Reset all local state when the question changes
 	$: if (questionData?.id !== prevQuestionId) {
+		stopTaggingPoll();
 		prevQuestionId = questionData?.id;
 		selectedTags = [...(questionData?.question_tag || [])];
 		editing = false;
 		confirmingTag = false;
 		editBackup = null;
+
+		const aiTaggingState = getAiTaggingState(questionData);
+		if (aiTaggingState?.status === 'processing' && aiTaggingState.jobId) {
+			startTaggingPoll(aiTaggingState.jobId);
+		}
 	}
 
 	$: formattedDate = formatDate(questionData?.created_at);
-	$: availableTags = tags.filter((t) => !selectedTags.some((st: any) => st.tag_id === t.tag_id));
+	$: availableTags =
+		selectedTags.length >= MAX_TAGS
+			? []
+			: tags.filter((t) => !selectedTags.some((st: any) => st.tag_id === t.tag_id));
+
+	onDestroy(() => {
+		stopTaggingPoll();
+	});
+
+	function getAiTaggingState(question: any) {
+		const state = question?.data?.aiTagging;
+		if (!state || typeof state !== 'object') {
+			return null;
+		}
+
+		if (typeof state.jobId !== 'string' || typeof state.status !== 'string') {
+			return null;
+		}
+
+		return state as { jobId: string; status: string; error?: string };
+	}
 
 	function formatDate(dateString: string): string {
 		const date = new Date(dateString);
@@ -60,10 +95,127 @@
 	}
 
 	function addTag(tag: any) {
+		if (selectedTags.length >= MAX_TAGS) {
+			notifications.warning(`Questions can have at most ${MAX_TAGS} tags.`, 4000);
+			return;
+		}
+
 		selectedTags = [...selectedTags, tag];
 	}
 
+	function applyQuestionUpdate(nextQuestion: any) {
+		Object.assign(questionData, nextQuestion);
+		questionData = { ...questionData };
+		selectedTags = [...(nextQuestion?.question_tag || [])];
+	}
+
+	function buildCompletionMessage(nextQuestion: any): string {
+		const tagCount = nextQuestion?.question_tag?.length ?? 0;
+		if (tagCount > 0) {
+			return `AI tagging finished. Applied ${tagCount} ${tagCount === 1 ? 'tag' : 'tags'}.`;
+		}
+
+		if (nextQuestion?.flagged) {
+			return 'AI tagging finished. No matching tags were applied and the question was flagged for review.';
+		}
+
+		return 'AI tagging finished.';
+	}
+
+	function stopTaggingPoll() {
+		if (taggingPollTimer) {
+			clearTimeout(taggingPollTimer);
+			taggingPollTimer = null;
+		}
+
+		activeTaggingJobId = null;
+		backgroundTagging = false;
+	}
+
+	function scheduleNextTaggingPoll(jobId: string) {
+		taggingPollTimer = setTimeout(() => {
+			void pollTaggingStatus(jobId);
+		}, TAGGING_POLL_INTERVAL_MS);
+	}
+
+	function startTaggingPoll(jobId: string) {
+		if (!jobId) {
+			return;
+		}
+
+		if (activeTaggingJobId === jobId && backgroundTagging) {
+			return;
+		}
+
+		stopTaggingPoll();
+		activeTaggingJobId = jobId;
+		backgroundTagging = true;
+		taggingPollStartedAt = Date.now();
+		void pollTaggingStatus(jobId);
+	}
+
+	async function pollTaggingStatus(jobId: string) {
+		try {
+			const resp = await fetch(
+				`/api/update-questions?questionId=${questionData.id}&jobId=${encodeURIComponent(jobId)}`
+			);
+			const result = await resp.json();
+
+			if (!resp.ok || !result?.success) {
+				throw new Error('Failed to fetch AI tagging status');
+			}
+
+			if (result.question) {
+				applyQuestionUpdate(result.question);
+			}
+
+			if (result.jobId && result.jobId !== jobId) {
+				stopTaggingPoll();
+				return;
+			}
+
+			if (result.status === 'completed') {
+				stopTaggingPoll();
+				notifications.success(buildCompletionMessage(result.question), 5000);
+				return;
+			}
+
+			if (result.status === 'failed') {
+				stopTaggingPoll();
+				notifications.danger(
+					result.question?.data?.aiTagging?.error || 'AI tagging failed for this question.',
+					5000
+				);
+				return;
+			}
+
+			if (result.status === 'superseded') {
+				stopTaggingPoll();
+				return;
+			}
+
+			if (Date.now() - taggingPollStartedAt > TAGGING_POLL_TIMEOUT_MS) {
+				stopTaggingPoll();
+				notifications.warning(
+					'AI tagging is still running in the background. Refresh if the completion toast does not appear.',
+					5000
+				);
+				return;
+			}
+
+			scheduleNextTaggingPoll(jobId);
+		} catch {
+			stopTaggingPoll();
+			notifications.danger('Failed to track AI tagging progress.', 4000);
+		}
+	}
+
 	async function tagQuestion() {
+		if (backgroundTagging) {
+			notifications.info('AI tagging is already running for this question.', 3000);
+			return;
+		}
+
 		taggingLoading = true;
 		const body = new FormData();
 		body.append('questionId', questionData.id);
@@ -71,20 +223,42 @@
 
 		try {
 			const resp = await fetch('/api/update-questions', { method: 'POST', body });
-			const result: any = deserialize(await resp.text());
+			const result: any = await resp.json();
 
-			if (result?.success) {
-				notifications.success('Tagged question', 3000);
-				confirmingTag = false;
-			} else {
+			if (!resp.ok || !result?.success || !result?.jobId) {
 				notifications.danger('Error tagging question', 3000);
+				return;
 			}
+
+			const currentData =
+				questionData.data &&
+				typeof questionData.data === 'object' &&
+				!Array.isArray(questionData.data)
+					? questionData.data
+					: {};
+
+			questionData.data = {
+				...currentData,
+				aiTagging: {
+					jobId: result.jobId,
+					status: 'processing'
+				}
+			};
+			questionData = { ...questionData };
+			confirmingTag = false;
+			notifications.info('AI tagging started. You will get a toast when it finishes.', 3500);
+			startTaggingPoll(result.jobId);
 		} finally {
 			taggingLoading = false;
 		}
 	}
 
 	async function saveQuestionEdits() {
+		if (selectedTags.length > MAX_TAGS) {
+			notifications.warning(`Questions can have at most ${MAX_TAGS} tags.`, 4000);
+			return;
+		}
+
 		questionEditsSaving = true;
 		const body = new FormData();
 		body.append('questionId', questionData.id);
@@ -99,6 +273,9 @@
 			const result: any = deserialize(await resp.text());
 
 			if (result?.data?.success) {
+				questionData.question_tag = [...selectedTags];
+				questionData.tagged = selectedTags.length > 0;
+				questionData = { ...questionData };
 				editBackup = null;
 				editing = false;
 				notifications.success('Question edited', 3000);
@@ -125,6 +302,11 @@
 			</p>
 		</div>
 		<div class="question-detail-modal__status-list">
+			{#if backgroundTagging}
+				<span class="question-detail-modal__status question-detail-modal__status--info"
+					>AI Tagging...</span
+				>
+			{/if}
 			{#if selectedTags.length > 0}
 				<span class="question-detail-modal__status question-detail-modal__status--success"
 					>AI Tagged</span
@@ -204,7 +386,9 @@
 				</div>
 
 				<div class="question-detail-modal__section">
-					<span class="question-detail-modal__label">Selected tags</span>
+					<span class="question-detail-modal__label"
+						>Selected tags ({selectedTags.length}/{MAX_TAGS})</span
+					>
 					<div class="question-detail-modal__chip-list">
 						{#each selectedTags as tag}
 							<span class="question-detail-modal__chip question-detail-modal__chip--selected">
@@ -236,7 +420,11 @@
 								+ {tag.tag_name}
 							</button>
 						{:else}
-							<span class="question-detail-modal__empty">All tags are already assigned.</span>
+							<span class="question-detail-modal__empty">
+								{selectedTags.length >= MAX_TAGS
+									? `Tag limit reached (${MAX_TAGS} max).`
+									: 'All tags are already assigned.'}
+							</span>
 						{/each}
 					</div>
 				</div>
@@ -378,14 +566,15 @@
 							<button
 								type="button"
 								class="question-detail-modal__button question-detail-modal__button--primary question-detail-modal__button--small"
-								disabled={taggingLoading}
+								disabled={taggingLoading || backgroundTagging}
 								on:click={tagQuestion}
 							>
-								{taggingLoading ? 'Tagging...' : 'Confirm'}
+								{taggingLoading ? 'Starting...' : backgroundTagging ? 'Running...' : 'Confirm'}
 							</button>
 							<button
 								type="button"
 								class="question-detail-modal__button question-detail-modal__button--secondary question-detail-modal__button--small"
+								disabled={taggingLoading || backgroundTagging}
 								on:click={() => (confirmingTag = false)}
 							>
 								Cancel
@@ -396,9 +585,10 @@
 					<button
 						type="button"
 						class="question-detail-modal__button question-detail-modal__button--outline"
+						disabled={backgroundTagging}
 						on:click={() => (confirmingTag = true)}
 					>
-						AI Tag
+						{backgroundTagging ? 'AI Tagging...' : 'AI Tag'}
 					</button>
 				{/if}
 			</div>

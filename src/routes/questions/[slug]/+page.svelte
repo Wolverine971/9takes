@@ -209,8 +209,8 @@
 		type: 'image/png' as const,
 		margin: 1,
 		color: {
-			dark: 'var(--accent-light)',
-			light: 'var(--bg-deep)'
+			dark: '#2DD4BF',
+			light: '#0C0A09'
 		}
 	};
 

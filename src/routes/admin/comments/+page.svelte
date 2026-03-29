@@ -16,7 +16,7 @@
 	let currentCommentId = $state<number | null>(null);
 	let actionType = $state<'remove' | 'unflag' | null>(null);
 	let searchQuery = $state('');
-	let activeTab = $state<'flagged' | 'recent' | 'blog'>('flagged');
+	let activeTab = $state<'recent' | 'flagged' | 'blog'>('recent');
 
 	// Computed stats
 	let flaggedCount = $derived(data.flaggedComments?.length ?? 0);
@@ -191,6 +191,8 @@
 			color="primary"
 			subValue="Loaded on this page"
 		/>
+
+		<StatCard label="Recent" value={recentCount} icon="🕐" subValue="Question comments" />
 		<StatCard
 			label="Flagged"
 			value={flaggedCount}
@@ -198,7 +200,6 @@
 			color={flaggedCount > 0 ? 'warning' : 'default'}
 			subValue={flaggedCount > 0 ? 'Needs review' : 'All clear'}
 		/>
-		<StatCard label="Recent" value={recentCount} icon="🕐" subValue="Question comments" />
 		<StatCard
 			label="Blog Comments"
 			value={blogCount}
@@ -221,6 +222,14 @@
 		<div class="tabs">
 			<button
 				class="tab"
+				class:active={activeTab === 'recent'}
+				onclick={() => (activeTab = 'recent')}
+			>
+				Recent
+				<span class="tab-badge">{recentCount}</span>
+			</button>
+			<button
+				class="tab"
 				class:active={activeTab === 'flagged'}
 				onclick={() => (activeTab = 'flagged')}
 			>
@@ -229,14 +238,7 @@
 					<span class="tab-badge warning">{flaggedCount}</span>
 				{/if}
 			</button>
-			<button
-				class="tab"
-				class:active={activeTab === 'recent'}
-				onclick={() => (activeTab = 'recent')}
-			>
-				Recent
-				<span class="tab-badge">{recentCount}</span>
-			</button>
+
 			<button class="tab" class:active={activeTab === 'blog'} onclick={() => (activeTab = 'blog')}>
 				Blog
 				<span class="tab-badge">{blogCount}</span>

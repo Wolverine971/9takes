@@ -4,9 +4,9 @@
 
 ## Option 1 (Product = founder psychology — 2-part thread)
 
-### Part 1 (243 chars)
+### Part 1 (275 chars)
 
-Doing a series on the personality types of people in tech.
+Doing a series on the personality types in tech.
 
 Next up: the AI wars.
 
@@ -14,7 +14,7 @@ ChatGPT is expressive and eager to please. That's Sam Altman (Type 4).
 Claude hedges and over-refuses. That's Dario Amodei (Type 5).
 Grok is deliberately provocative. That's Elon Musk (counterphobic 5).
 
-### Part 2 (189 chars)
+### Part 2 (170 chars)
 
 Meta AI wants to be the platform. That's Zuckerberg (Type 5).
 

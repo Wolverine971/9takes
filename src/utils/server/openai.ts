@@ -1,7 +1,7 @@
 // src/utils/server/openai.ts
 import { logger } from '$lib/utils/logger';
 import type { SupabaseClient } from '@supabase/supabase-js';
-import type { Database } from '../../../database.types';
+import type { Database, Json } from '../../../database.types';
 
 import { checkDemoTime } from '../api';
 import { SmartLLMService } from './smart-llm-service';
@@ -22,6 +22,268 @@ type TaggedQuestion = {
 
 type SupabaseQuestion = { id: number; question: string | null };
 type ClassifiableQuestion = { id: number; question: string };
+type QuestionTable = 'questions' | 'questions_demo';
+type LegacyQuestionTagTable = 'question_tags' | 'question_tags_demo';
+type QuestionAiTaggingStatus = 'processing' | 'completed' | 'failed';
+type QuestionAiTaggingState = {
+	jobId: string;
+	status: QuestionAiTaggingStatus;
+	startedAt?: string;
+	finishedAt?: string;
+	tagCount?: number;
+	flagged?: boolean;
+	error?: string;
+};
+type TagQuestionOptions = {
+	jobId?: string;
+	startedAt?: string;
+};
+
+export const MAX_AI_TAGS_PER_QUESTION = 5;
+
+const QUESTION_AI_TAGGING_DATA_KEY = 'aiTagging';
+
+const isRecord = (value: unknown): value is Record<string, unknown> =>
+	Boolean(value) && typeof value === 'object' && !Array.isArray(value);
+
+const normalizeJsonObject = (value: Json | null | undefined): Record<string, Json> => {
+	if (!isRecord(value)) {
+		return {};
+	}
+
+	return { ...(value as Record<string, Json>) };
+};
+
+const limitUniqueStrings = (values: string[], limit = MAX_AI_TAGS_PER_QUESTION): string[] =>
+	Array.from(
+		new Set(
+			values
+				.map((value) => value.trim())
+				.filter((value) => value.length > 0)
+		)
+	).slice(0, limit);
+
+export const getQuestionAiTaggingState = (data: unknown): QuestionAiTaggingState | null => {
+	if (!isRecord(data)) {
+		return null;
+	}
+
+	const rawState = data[QUESTION_AI_TAGGING_DATA_KEY];
+	if (!isRecord(rawState) || typeof rawState.jobId !== 'string') {
+		return null;
+	}
+
+	const status = rawState.status;
+	if (status !== 'processing' && status !== 'completed' && status !== 'failed') {
+		return null;
+	}
+
+	return {
+		jobId: rawState.jobId,
+		status,
+		startedAt: typeof rawState.startedAt === 'string' ? rawState.startedAt : undefined,
+		finishedAt: typeof rawState.finishedAt === 'string' ? rawState.finishedAt : undefined,
+		tagCount: typeof rawState.tagCount === 'number' ? rawState.tagCount : undefined,
+		flagged: typeof rawState.flagged === 'boolean' ? rawState.flagged : undefined,
+		error: typeof rawState.error === 'string' ? rawState.error : undefined
+	};
+};
+
+export const updateQuestionAiTaggingState = async (
+	supabase: SupabaseClient<Database>,
+	questionTable: QuestionTable,
+	questionId: number,
+	nextState: QuestionAiTaggingState
+) => {
+	const { data: questionRow, error: questionError } = await supabase
+		.from(questionTable)
+		.select('data')
+		.eq('id', questionId)
+		.maybeSingle();
+
+	if (questionError) {
+		logger.warn('Failed to load current question metadata for AI tagging state update', {
+			questionId,
+			questionTable,
+			questionError
+		});
+		return;
+	}
+
+	const nextData = {
+		...normalizeJsonObject(questionRow?.data),
+		[QUESTION_AI_TAGGING_DATA_KEY]: nextState as unknown as Json
+	};
+
+	const { error: updateError } = await supabase
+		.from(questionTable)
+		.update({ data: nextData })
+		.eq('id', questionId);
+
+	if (updateError) {
+		logger.warn('Failed to persist AI tagging state', {
+			questionId,
+			questionTable,
+			updateError
+		});
+	}
+};
+
+const syncLegacyQuestionTagMetadata = async (
+	supabase: SupabaseClient<Database>,
+	tagIds: number[]
+) => {
+	const uniqueTagIds = Array.from(new Set(tagIds));
+	if (!uniqueTagIds.length) {
+		return;
+	}
+
+	const { data: categories, error: categoriesError } = await supabase
+		.from('question_categories')
+		.select('id, category_name')
+		.in('id', uniqueTagIds);
+
+	if (categoriesError) {
+		throw categoriesError;
+	}
+
+	if (!categories?.length) {
+		return;
+	}
+
+	const { error: legacyUpsertError } = await supabase.from('question_tag').upsert(
+		categories.map((category) => ({
+			tag_id: category.id,
+			tag_name: category.category_name,
+			subcategory_id: null
+		})),
+		{ onConflict: 'tag_id' }
+	);
+
+	if (legacyUpsertError) {
+		throw legacyUpsertError;
+	}
+};
+
+const replaceQuestionTags = async (
+	supabase: SupabaseClient<Database>,
+	questionId: number,
+	tagIds: number[],
+	demoTime: boolean
+) => {
+	const uniqueTagIds = Array.from(new Set(tagIds)).slice(0, MAX_AI_TAGS_PER_QUESTION);
+	const legacyQuestionTagTable: LegacyQuestionTagTable = demoTime
+		? 'question_tags_demo'
+		: 'question_tags';
+
+	if (!demoTime) {
+		const { error: deleteQuestionCategoryTagsError } = await supabase
+			.from('question_category_tags')
+			.delete()
+			.eq('question_id', questionId);
+
+		if (deleteQuestionCategoryTagsError) {
+			throw deleteQuestionCategoryTagsError;
+		}
+	}
+
+	const { error: deleteLegacyQuestionTagsError } = await supabase
+		.from(legacyQuestionTagTable)
+		.delete()
+		.eq('question_id', questionId);
+
+	if (deleteLegacyQuestionTagsError) {
+		throw deleteLegacyQuestionTagsError;
+	}
+
+	if (!uniqueTagIds.length) {
+		return uniqueTagIds;
+	}
+
+	await syncLegacyQuestionTagMetadata(supabase, uniqueTagIds);
+
+	if (!demoTime) {
+		const { error: insertQuestionCategoryTagsError } = await supabase
+			.from('question_category_tags')
+			.insert(
+				uniqueTagIds.map((tagId) => ({
+					question_id: questionId,
+					tag_id: tagId
+				}))
+			);
+
+		if (insertQuestionCategoryTagsError) {
+			throw insertQuestionCategoryTagsError;
+		}
+	}
+
+	const { error: insertLegacyQuestionTagsError } = await supabase
+		.from(legacyQuestionTagTable)
+		.insert(
+			uniqueTagIds.map((tagId) => ({
+				question_id: questionId,
+				tag_id: tagId
+			}))
+		);
+
+	if (insertLegacyQuestionTagsError) {
+		throw insertLegacyQuestionTagsError;
+	}
+
+	return uniqueTagIds;
+};
+
+const replaceQuestionAiOutputs = async (
+	supabase: SupabaseClient<Database>,
+	questionId: number,
+	answers: Record<string, string>,
+	seoKeywords: string[] | undefined,
+	demoTime: boolean
+) => {
+	const commentsTable = demoTime === true ? 'comments_ai_demo' : 'comments_ai';
+
+	const { error: deleteCommentsError } = await supabase
+		.from(commentsTable)
+		.delete()
+		.eq('question_id', questionId);
+	if (deleteCommentsError) {
+		throw deleteCommentsError;
+	}
+
+	const { error: deleteKeywordsError } = await supabase
+		.from('question_keywords')
+		.delete()
+		.eq('question_id', questionId);
+	if (deleteKeywordsError) {
+		throw deleteKeywordsError;
+	}
+
+	const answerEntries = Object.entries(answers);
+	if (answerEntries.length) {
+		const { error: insertCommentsError } = await supabase.from(commentsTable).insert(
+			answerEntries.map(([type, answerText]) => ({
+				enneagram_type: type,
+				comment: answerText,
+				question_id: questionId
+			}))
+		);
+
+		if (insertCommentsError) {
+			throw insertCommentsError;
+		}
+	}
+
+	const limitedKeywords = limitUniqueStrings(seoKeywords ?? [], 5);
+	if (limitedKeywords.length) {
+		const { error: insertKeywordsError } = await supabase
+			.from('question_keywords')
+			.insert({ keywords: limitedKeywords.join(', '), question_id: questionId });
+
+		if (insertKeywordsError) {
+			throw insertKeywordsError;
+		}
+	}
+};
 
 const normalizeTaggedResponse = (payload: unknown): TaggedQuestion[] => {
 	if (Array.isArray(payload)) {
@@ -82,7 +344,7 @@ const resolveQuestionId = (
 
 const getLLMTags = (tag: TaggedQuestion): string[] =>
 	Array.isArray(tag.tags)
-		? tag.tags.filter((tagName): tagName is string => typeof tagName === 'string')
+		? limitUniqueStrings(tag.tags.filter((tagName): tagName is string => typeof tagName === 'string'))
 		: [];
 
 const normalizeAnswers = (answers: unknown): Record<string, string> | null => {
@@ -117,6 +379,7 @@ const getTheQuestionsToClassify = (
 export const tagQuestions = async (supabase: SupabaseClient<Database>) => {
 	try {
 		const demo_time = await checkDemoTime(supabase);
+		const questionTable: QuestionTable = demo_time === true ? 'questions_demo' : 'questions';
 
 		const { data: refreshSetting, error: settingsDataError } = await supabase
 			.from('admin_settings')
@@ -136,7 +399,7 @@ export const tagQuestions = async (supabase: SupabaseClient<Database>) => {
 		const date = new Date();
 		const yesterday = new Date(date.getTime() - 24 * 60 * 60 * 1000).toISOString();
 		const { data: questions, error: questionsError } = await supabase
-			.from(demo_time === true ? 'questions_demo' : 'questions')
+			.from(questionTable)
 			.select(`question, id`, { count: 'estimated' })
 			.eq('tagged', false)
 			.eq('flagged', false)
@@ -186,9 +449,9 @@ export const tagQuestions = async (supabase: SupabaseClient<Database>) => {
 
 		for await (const tag of cleanedTags) {
 			const llmTags = getLLMTags(tag);
-			const matchedTags = tags.filter(
-				(existing) => existing.category_name && llmTags.includes(existing.category_name)
-			);
+			const matchedTags = tags
+				.filter((existing) => existing.category_name && llmTags.includes(existing.category_name))
+				.slice(0, MAX_AI_TAGS_PER_QUESTION);
 			const questionId = resolveQuestionId(tag, questions);
 			const formattedQuestion =
 				tag.question_formatted ||
@@ -200,26 +463,14 @@ export const tagQuestions = async (supabase: SupabaseClient<Database>) => {
 				continue;
 			}
 
-			if (!matchedTags.length) {
-				await supabase
-					.from(demo_time === true ? 'questions_demo' : 'questions')
-					.update({ flagged: true, updated_at: new Date().toISOString() })
-					.eq('id', questionId);
-				continue;
-			}
-
-			const newTagIds = matchedTags.map((e) => e.id);
-
-			await Promise.all(
-				newTagIds.map((tagId) =>
-					supabase.from('question_category_tags').insert({ question_id: questionId, tag_id: tagId })
-				)
-			);
+			const newTagIds = matchedTags.map((existingTag) => existingTag.id);
+			await replaceQuestionTags(supabase, questionId, newTagIds, demo_time === true);
 
 			await supabase
-				.from(demo_time === true ? 'questions_demo' : 'questions')
+				.from(questionTable)
 				.update({
 					tagged: true,
+					flagged: newTagIds.length === 0,
 					updated_at: new Date().toISOString(),
 					question_formatted: formattedQuestion ?? null
 				})
@@ -243,17 +494,19 @@ export const tagQuestions = async (supabase: SupabaseClient<Database>) => {
 export const tagQuestion = async (
 	supabase: SupabaseClient<Database>,
 	questionText: string,
-	questionId: number
+	questionId: number,
+	options: TagQuestionOptions = {}
 ) => {
+	const demo_time = await checkDemoTime(supabase);
+	const questionTable: QuestionTable = demo_time === true ? 'questions_demo' : 'questions';
+
 	try {
-		const demo_time = await checkDemoTime(supabase);
 		const { data: tags, error: tagsError } = await supabase
 			.from('question_categories')
 			.select('id, category_name')
 			.eq('level', 3);
 		if (tagsError) {
-			logger.warn('Failed to load tags for tagging question', tagsError);
-			return;
+			throw tagsError;
 		}
 
 		logger.info('Starting single question tagging request', {
@@ -278,51 +531,43 @@ export const tagQuestion = async (
 		const answers = normalizeAnswers(chatResp?.answers);
 
 		if (!chatResp || !answers) {
-			logger.warn('LLM tagging missing answers payload', { chatResp, questionId });
-			return;
+			throw new Error('LLM tagging missing answers payload');
 		}
 
-		const matchedTags = tags.filter(
-			(tag) => tag.category_name && getLLMTags(chatResp).includes(tag.category_name)
-		);
-		const questionTable = demo_time === true ? 'questions_demo' : 'questions';
+		const matchedTags = tags
+			.filter((tag) => tag.category_name && getLLMTags(chatResp).includes(tag.category_name))
+			.slice(0, MAX_AI_TAGS_PER_QUESTION);
 		const formattedQuestion = chatResp.question_formatted || chatResp.question || questionText;
+		const matchedTagIds = matchedTags.map((tag) => tag.id);
+
+		await replaceQuestionTags(supabase, questionId, matchedTagIds, demo_time === true);
+		await replaceQuestionAiOutputs(
+			supabase,
+			questionId,
+			answers,
+			chatResp.seo_keywords,
+			demo_time === true
+		);
 
 		await supabase
 			.from(questionTable)
 			.update({
 				tagged: true,
+				flagged: matchedTagIds.length === 0,
 				updated_at: new Date().toISOString(),
 				question_formatted: formattedQuestion ?? null
 			})
 			.eq('id', questionId);
 
-		if (!matchedTags.length) {
-			await supabase
-				.from(questionTable)
-				.update({ flagged: true, updated_at: new Date().toISOString() })
-				.eq('id', questionId);
-		} else {
-			await Promise.all(
-				matchedTags.map((tag) =>
-					supabase.from('question_category_tags').insert({
-						question_id: questionId,
-						tag_id: tag.id
-					})
-				)
-			);
-		}
-
-		for await (const [type, answerText] of Object.entries(answers)) {
-			await supabase
-				.from(demo_time === true ? 'comments_ai_demo' : 'comments_ai')
-				.insert({ enneagram_type: type, comment: answerText, question_id: questionId });
-		}
-
-		if (chatResp.seo_keywords?.length) {
-			await supabase
-				.from('question_keywords')
-				.insert({ keywords: chatResp.seo_keywords.join(', '), question_id: questionId });
+		if (options.jobId) {
+			await updateQuestionAiTaggingState(supabase, questionTable, questionId, {
+				jobId: options.jobId,
+				status: 'completed',
+				startedAt: options.startedAt,
+				finishedAt: new Date().toISOString(),
+				tagCount: matchedTagIds.length,
+				flagged: matchedTagIds.length === 0
+			});
 		}
 	} catch (e) {
 		const error = e as Error;
@@ -341,6 +586,16 @@ export const tagQuestion = async (
 			errorName: error?.name,
 			errorMessage: error?.message
 		});
+
+		if (options.jobId) {
+			await updateQuestionAiTaggingState(supabase, questionTable, questionId, {
+				jobId: options.jobId,
+				status: 'failed',
+				startedAt: options.startedAt,
+				finishedAt: new Date().toISOString(),
+				error: error?.message || 'Unknown AI tagging error'
+			});
+		}
 	}
 };
 
@@ -350,7 +605,7 @@ export const classifyOneQuestionPrompt2 = `You are an Enneagram expert and can e
 1st, use the Enneagram system of personality to respond to the question or statement in each of the voices of the 9 different Enneagram types. You should consider the premise of the question and how each enneagram type would approach and answer the question.
 Your response should be conversational and you should approach the question like the Enneagram type. 
 
-2nd, classify the question or statement and tag it with the applicable predefined tags. A question or statement can have more than one tag. Return the results in json form with the tags in an array of strings.
+2nd, classify the question or statement and tag it with the applicable predefined tags. A question or statement can have more than one tag. Return the results in json form with the tags in an array of strings. Use at most 5 tags.
 3rd, format the question and add punctuation.
 For example: [
     {id: 1, question: "I need date ideas What would you do", question_formatted: "I need date ideas, what would you do?", tags: ["Personal Growth", "Romantic Relationships"], answers: [{1: "A thoughtfully planned date that aligns with your shared values is ideal. Perhaps a museum visit, volunteering together, or dining at a reputable restaurant. The key is to be respectful, authentic, and create a meaningful connection."}, {2: "...."} ...]}
@@ -361,7 +616,7 @@ For example: [
 const classifyOneQuestionPrompt = `You are an Enneagram expert and can easily get inside the mindset of different personality types. You are going to be given a question or a statement. Your job is to do 4 tasks and return a formatted json response. 
 1st, use the Enneagram system of personality to respond to the question or statement in each of the voices of the 9 different Enneagram types. You should consider the premise of the question and how each enneagram type would approach and answer the question.
 Your response should be conversational and should go into detail depending on how the Enneagram type would likely respond.
-2nd, classify the question or statement and tag it with the applicable predefined tags. A question or statement can have more than one tag. Return the results in json form with the tags in an array of strings.
+2nd, classify the question or statement and tag it with the applicable predefined tags. A question or statement can have more than one tag. Return the results in json form with the tags in an array of strings. Use at most 5 tags.
 3rd, format the question and add punctuation.
 4th, create between 3-5 SEO keywords or phrases that would be relevant to the question or statement.
  
@@ -388,7 +643,7 @@ Your response should be conversational and should go into detail depending on ho
 
 Classify the Question or Statement:
 Tag the question or statement with applicable predefined tags.
-A question or statement can be associated with multiple tags.
+A question or statement can be associated with multiple tags, but never return more than 5 tags.
 Only tag from these predefined tags:
 `;
 
@@ -396,7 +651,7 @@ const classifymultipleQuestionsPrompt = `You are going to be given a list of a q
 First, you should use the Enneagram system of personality answer or respond to the question or statement in 9 different ways that correlate to the 9 different Enneagram types. 
 The way in which you answer the questions should be conversational as if a real person were answering the question or statement but it should take into account how different enneagram personalities would approach and respond. 
 
-Second, you need to classify the questions or statements and tag them with the applicable predefined tags. A question or statement can have more than one tag. Return the results in json form with the tags in an array of strings.
+Second, you need to classify the questions or statements and tag them with the applicable predefined tags. A question or statement can have more than one tag. Return the results in json form with the tags in an array of strings, using at most 5 tags per question.
  For example: [
     {id: 1, question: "I need date ideas What would you do", tags: ["Personal Growth", "Romantic Relationships"],answers: [{1: "I would go to the movies"}, {2: "I would go to the park"} ...]}
  ]

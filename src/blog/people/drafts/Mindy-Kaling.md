@@ -4,9 +4,9 @@ meta_title: "Why Mindy Kaling Can't Stop Working (Even Mid-Labor)"
 persona_title: "Comedy's Relentless Alchemist"
 description: "How ambition, grief, and 'healthy delusion' drive everything Mindy Kaling creates — an Enneagram Type 3 analysis"
 author: 'DJ Wayne'
-date: '2026-03-27'
+date: '2026-03-29'
 loc: 'https://9takes.com/personality-analysis/Mindy-Kaling'
-lastmod: '2026-03-27'
+lastmod: '2026-03-29'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
