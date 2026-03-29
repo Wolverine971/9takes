@@ -213,7 +213,7 @@
 		position: relative;
 		overflow: hidden;
 		border-radius: 12px;
-		box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+		box-shadow: 0 0 15px rgba(0, 0, 0, 0.12);
 		border: 1px solid color-mix(in srgb, var(--text-tertiary) 20%, transparent);
 		transition:
 			transform 0.3s ease,
@@ -222,8 +222,8 @@
 
 		&:hover {
 			transform: translateY(-5px);
-			box-shadow: 0 0 25px rgba(45, 212, 191, 0.3);
-			border-color: rgba(45, 212, 191, 0.5);
+			box-shadow: 0 0 25px var(--primary-glow);
+			border-color: var(--primary);
 
 			.grid-img {
 				filter: brightness(0.9);
@@ -231,7 +231,11 @@
 
 			.name-overlay {
 				opacity: 1;
-				background: linear-gradient(to top, rgba(45, 212, 191, 0.9), rgba(0, 0, 0, 0.7));
+				background: linear-gradient(
+					to top,
+					color-mix(in srgb, var(--primary) 90%, transparent),
+					rgba(0, 0, 0, 0.7)
+				);
 			}
 		}
 	}
@@ -292,7 +296,7 @@
 		border-radius: 50%;
 		margin: 0 auto 1rem;
 		animation: spin 1s linear infinite;
-		box-shadow: 0 0 15px rgba(45, 212, 191, 0.3);
+		box-shadow: 0 0 15px var(--primary-glow);
 	}
 
 	@keyframes spin {
@@ -306,7 +310,7 @@
 
 	.error {
 		padding: 1rem;
-		color: #ef4444;
+		color: var(--error);
 		text-align: center;
 	}
 

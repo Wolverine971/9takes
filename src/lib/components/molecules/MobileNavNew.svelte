@@ -493,7 +493,7 @@
 		width: 100%;
 		padding: 0.875rem 1.25rem;
 		background-color: var(--primary);
-		color: white;
+		color: var(--text-on-primary);
 		text-align: center;
 		text-decoration: none;
 		border-radius: 8px;

@@ -406,7 +406,7 @@
 		inset: -10%;
 		background: radial-gradient(
 			circle at 50% 50%,
-			rgba(45, 212, 191, 0.12) 0%,
+			color-mix(in srgb, var(--primary) 12%, transparent) 0%,
 			rgba(251, 113, 133, 0.06) 40%,
 			transparent 65%
 		);
@@ -438,13 +438,13 @@
 	   ========================================== */
 	.main-circle {
 		fill: url(#voidGradient);
-		stroke: rgba(45, 212, 191, 0.25);
+		stroke: var(--primary-glow);
 		stroke-width: 0.4;
 	}
 
 	.inner-glow {
 		fill: none;
-		stroke: rgba(45, 212, 191, 0.15);
+		stroke: color-mix(in srgb, var(--primary) 15%, transparent);
 		stroke-width: 0.8;
 		filter: url(#glowPurple);
 	}
@@ -493,7 +493,7 @@
 		justify-content: center;
 		background: linear-gradient(135deg, var(--accent-dark) 0%, var(--primary) 100%);
 		border-radius: 50%;
-		box-shadow: 0 0 20px rgba(45, 212, 191, 0.5);
+		box-shadow: 0 0 20px var(--primary-glow);
 		z-index: 5;
 	}
 
@@ -571,7 +571,7 @@
 	.type-node:focus {
 		outline: none;
 		box-shadow:
-			0 0 0 3px rgba(45, 212, 191, 0.4),
+			0 0 0 3px var(--primary-glow),
 			0 0 20px color-mix(in srgb, var(--node-color) 50%, transparent);
 	}
 
@@ -606,6 +606,7 @@
 		display: flex;
 		flex-direction: column;
 		gap: 0.1rem;
+		z-index: 15;
 	}
 
 	.type-label.dimmed {
@@ -652,14 +653,15 @@
 		top: 50%;
 		transform: translate(-50%, -50%);
 		background: linear-gradient(180deg, var(--bg-base) 0%, var(--bg-deep) 100%);
-		border: 1px solid rgba(45, 212, 191, 0.3);
+		border: 1px solid var(--primary-glow);
 		border-radius: 12px;
 		padding: 1rem;
 		max-width: min(280px, 85%);
 		box-shadow:
-			0 0 30px rgba(45, 212, 191, 0.2),
-			0 8px 24px rgba(0, 0, 0, 0.4);
+			0 0 30px var(--primary-subtle),
+			0 8px 24px rgba(0, 0, 0, 0.15);
 		z-index: 100;
+		pointer-events: none;
 	}
 
 	.tooltip-header {
@@ -727,7 +729,7 @@
 	.tooltip-stance-detail {
 		margin-top: 0.5rem;
 		padding-top: 0.5rem;
-		border-top: 1px solid rgba(45, 212, 191, 0.2);
+		border-top: 1px solid var(--primary-subtle);
 		font-size: 0.75rem;
 		font-style: italic;
 		color: var(--text-mist);

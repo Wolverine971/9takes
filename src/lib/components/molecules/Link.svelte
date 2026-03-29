@@ -124,8 +124,8 @@
 	.loader {
 		width: 24px;
 		height: 24px;
-		border: 2px solid rgba(0, 0, 0, 0.1);
-		border-left-color: #3498db;
+		border: 2px solid var(--bg-elevated);
+		border-left-color: var(--primary);
 		border-radius: 50%;
 		animation: spin 1s linear infinite;
 	}

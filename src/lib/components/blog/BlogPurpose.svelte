@@ -158,7 +158,7 @@
 		}
 
 		p {
-			color: rgba(255, 255, 255, 0.9);
+			color: rgba(255, 255, 255, 0.9) !important;
 			font-size: 0.875rem;
 			line-height: 1.5;
 			margin: 0;

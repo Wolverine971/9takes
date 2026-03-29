@@ -150,7 +150,7 @@
 		background-color: var(--bg-surface);
 		border: 1px solid color-mix(in srgb, var(--text-tertiary) 30%, transparent);
 		border-radius: 12px;
-		box-shadow: 0 0 30px rgba(45, 212, 191, 0.2);
+		box-shadow: 0 0 30px var(--primary-subtle);
 		width: 100%;
 		max-height: calc(100vh - 2rem);
 		overflow: hidden;
@@ -202,7 +202,7 @@
 		margin-left: 1rem;
 
 		&:hover {
-			background-color: rgba(45, 212, 191, 0.2);
+			background-color: var(--primary-subtle);
 			color: var(--text-primary);
 		}
 
@@ -252,7 +252,7 @@
 	}
 
 	.modal-content::-webkit-scrollbar-thumb {
-		background-color: #334155;
+		background-color: var(--bg-elevated);
 		border-radius: 3px;
 
 		&:hover {

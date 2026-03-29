@@ -371,7 +371,7 @@
 </Modal2>
 
 <style lang="scss">
-	/* Filter Button Styles - Dark Purple Theme */
+	/* Filter Button Styles */
 	.filter-btn {
 		display: inline-flex;
 		align-items: center;
@@ -383,10 +383,10 @@
 		font-weight: 500;
 		transition: all 0.2s ease;
 		position: relative;
-		color: var(--primary-lightest);
+		color: var(--primary);
 
 		&:hover {
-			background: var(--primary-subtle);
+			background: color-mix(in srgb, var(--primary) 15%, transparent);
 			border-color: var(--primary-glow);
 			box-shadow: 0 0 20px var(--primary-subtle);
 		}
@@ -415,7 +415,7 @@
 
 	.filter-btn__text,
 	.filter-btn__label {
-		color: var(--primary-lightest);
+		color: var(--primary);
 		font-weight: 500;
 	}
 
@@ -427,7 +427,7 @@
 		height: 1.375rem;
 		padding: 0 0.375rem;
 		background: linear-gradient(135deg, var(--accent-light), var(--primary-dark));
-		color: white;
+		color: var(--text-on-primary);
 		font-size: 0.75rem;
 		font-weight: 600;
 		border-radius: 9999px;
@@ -455,7 +455,7 @@
 		border-radius: 1rem;
 		border: 1px solid var(--primary-subtle);
 		box-shadow:
-			0 25px 50px -12px rgba(0, 0, 0, 0.5),
+			0 25px 50px -12px rgba(0, 0, 0, 0.2),
 			0 0 40px var(--primary-subtle);
 		overflow: hidden;
 	}
@@ -482,9 +482,9 @@
 		width: 2.25rem;
 		height: 2.25rem;
 		background: linear-gradient(135deg, var(--primary-dark), var(--accent-dark));
-		color: white;
+		color: var(--text-on-primary);
 		border-radius: 0.625rem;
-		box-shadow: 0 4px 12px rgba(45, 212, 191, 0.4);
+		box-shadow: 0 4px 12px var(--primary-glow);
 	}
 
 	.filter-modal__title {
@@ -555,14 +555,14 @@
 		padding: 0.25rem 0.625rem;
 		font-size: 0.8125rem;
 		font-weight: 500;
-		color: var(--primary-lightest);
+		color: var(--primary);
 		cursor: pointer;
 		border-radius: 0.375rem;
 		transition: all 0.15s ease;
 
 		&:hover {
 			background: var(--primary-subtle);
-			color: var(--primary-lightest);
+			color: var(--primary-dark);
 		}
 	}
 
@@ -699,10 +699,14 @@
 	}
 
 	.sort-option--selected {
-		background: linear-gradient(135deg, rgba(45, 212, 191, 0.25), var(--accent-subtle));
+		background: linear-gradient(
+			135deg,
+			color-mix(in srgb, var(--primary) 25%, transparent),
+			var(--accent-subtle)
+		);
 		border-color: var(--primary-dark);
 		box-shadow:
-			0 0 20px rgba(45, 212, 191, 0.2),
+			0 0 20px var(--primary-subtle),
 			inset 0 1px 0 rgba(255, 255, 255, 0.05);
 
 		.sort-option__icon {
@@ -710,7 +714,7 @@
 		}
 
 		.sort-option__label {
-			color: var(--primary-lightest);
+			color: var(--primary);
 		}
 	}
 
@@ -762,22 +766,22 @@
 		&:hover:not(:disabled) {
 			background: var(--primary-subtle);
 			border-color: var(--primary-subtle);
-			color: var(--primary-lightest);
+			color: var(--primary);
 		}
 	}
 
 	.action-btn--primary {
 		background: linear-gradient(135deg, var(--primary-dark), var(--accent-dark));
 		border: none;
-		color: white;
+		color: var(--text-on-primary);
 		box-shadow:
-			0 4px 14px rgba(45, 212, 191, 0.4),
+			0 4px 14px var(--primary-glow),
 			inset 0 1px 0 rgba(255, 255, 255, 0.15);
 
 		&:hover:not(:disabled) {
 			transform: translateY(-2px);
 			box-shadow:
-				0 6px 20px rgba(45, 212, 191, 0.5),
+				0 6px 20px var(--primary-glow),
 				inset 0 1px 0 rgba(255, 255, 255, 0.15);
 		}
 
@@ -805,8 +809,8 @@
 	.filter-modal__hint {
 		margin: 0;
 		padding: 0.875rem 1.25rem;
-		background: rgba(251, 191, 36, 0.1);
-		border-top: 1px solid rgba(251, 191, 36, 0.2);
+		background: var(--warning-light);
+		border-top: 1px solid var(--warning-border);
 		color: var(--warning);
 		font-size: 0.8125rem;
 		text-align: center;

@@ -760,7 +760,7 @@
 		/* Card base styles - Solo Leveling dark theme */
 		background-color: var(--bg-deep);
 		border-radius: 12px;
-		box-shadow: 0 0 20px rgba(45, 212, 191, 0.15);
+		box-shadow: 0 0 20px var(--primary-subtle);
 		border: 1px solid color-mix(in srgb, var(--text-tertiary) 30%, transparent);
 
 		position: fixed;
@@ -785,11 +785,11 @@
 		}
 
 		&::-webkit-scrollbar-thumb {
-			background-color: rgba(45, 212, 191, 0.3);
+			background-color: var(--primary-glow);
 			border-radius: 3px;
 
 			&:hover {
-				background-color: rgba(45, 212, 191, 0.5);
+				background-color: var(--primary);
 			}
 		}
 
@@ -817,7 +817,7 @@
 		/* Card base styles - Solo Leveling dark theme */
 		background-color: var(--bg-deep);
 		border-radius: 12px;
-		box-shadow: 0 0 15px rgba(45, 212, 191, 0.1);
+		box-shadow: 0 0 15px var(--primary-subtle);
 		border: 1px solid color-mix(in srgb, var(--text-tertiary) 30%, transparent);
 
 		margin: 1rem 0;
@@ -852,7 +852,7 @@
 
 		&:hover {
 			color: var(--primary-lighter);
-			background-color: rgba(45, 212, 191, 0.1);
+			background-color: var(--primary-subtle);
 		}
 	}
 
@@ -880,7 +880,7 @@
 	:global(.toc-sublist) {
 		padding-left: 0.75rem;
 		margin-top: 0.125rem;
-		border-left: 2px solid rgba(45, 212, 191, 0.3);
+		border-left: 2px solid var(--primary-glow);
 		margin-left: 0.35rem;
 	}
 
@@ -956,7 +956,7 @@
 
 		&:hover {
 			color: var(--primary-lightest);
-			background-color: rgba(45, 212, 191, 0.15);
+			background-color: color-mix(in srgb, var(--primary) 15%, transparent);
 			text-decoration: none;
 		}
 
@@ -970,7 +970,7 @@
 	:global(.toc-link.active) {
 		font-weight: 600;
 		color: var(--text-primary);
-		background-color: rgba(45, 212, 191, 0.2);
+		background-color: var(--primary-subtle);
 	}
 
 	/* Responsive adjustments - hide sidebar on screens smaller than breakpoint */

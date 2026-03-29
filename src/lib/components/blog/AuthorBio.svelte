@@ -83,7 +83,7 @@
 		padding: 1.25rem;
 		margin: 2rem 0;
 		background-color: var(--bg-surface, var(--bg-surface));
-		border: 1px solid rgba(45, 212, 191, 0.2);
+		border: 1px solid var(--primary-subtle);
 		border-radius: 12px;
 		max-width: 48rem;
 
@@ -128,7 +128,7 @@
 		height: 72px;
 		border-radius: 50%;
 		object-fit: cover;
-		border: 2px solid rgba(45, 212, 191, 0.4);
+		border: 2px solid var(--primary-glow);
 	}
 
 	.author-info {
@@ -200,7 +200,7 @@
 
 		&:hover {
 			color: var(--text-primary);
-			background: rgba(45, 212, 191, 0.2);
+			background: var(--primary-subtle);
 		}
 
 		/* Override blog link arrow */

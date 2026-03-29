@@ -162,7 +162,7 @@
 		font-size: clamp(0.5rem, 1.5vw, 0.65rem);
 		letter-spacing: 0.1em;
 		color: var(--accent-light);
-		text-shadow: 0 0 6px rgba(45, 212, 191, 0.5);
+		text-shadow: 0 0 6px var(--primary-glow);
 	}
 
 	// Responsive

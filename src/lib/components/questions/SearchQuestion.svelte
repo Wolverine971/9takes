@@ -301,7 +301,7 @@
 		display: block;
 		width: 20px;
 		height: 20px;
-		border: 2px solid rgba(45, 212, 191, 0.3);
+		border: 2px solid var(--primary-subtle);
 		border-top-color: var(--accent-light);
 		border-radius: 50%;
 		animation: spin 0.8s linear infinite;
@@ -334,7 +334,7 @@
 		width: 18px;
 		height: 18px;
 		background-color: var(--error);
-		color: white;
+		color: var(--text-on-primary);
 		border-radius: 50%;
 		font-size: 0.75rem;
 		font-weight: bold;
@@ -359,7 +359,7 @@
 		gap: 0.5rem;
 		padding: 0.75rem 1.5rem;
 		background-color: var(--primary-dark);
-		color: white;
+		color: var(--text-on-primary);
 		border: none;
 		border-radius: 0.75rem;
 		font-weight: 600;
@@ -385,7 +385,7 @@
 		&:hover:not(:disabled) {
 			background-color: var(--accent-dark);
 			transform: translateY(-2px);
-			box-shadow: 0 0 20px rgba(45, 212, 191, 0.4);
+			box-shadow: 0 0 20px var(--primary-glow);
 
 			&::before {
 				left: 100%;
@@ -435,7 +435,7 @@
 		transition: all $transition-fast !important;
 
 		&:focus {
-			border-color: rgba(45, 212, 191, 0.4) !important;
+			border-color: var(--primary) !important;
 			box-shadow: 0 0 0 3px var(--primary-subtle) !important;
 		}
 
@@ -459,8 +459,8 @@
 		margin-top: 0.5rem !important;
 		border-radius: var(--border-radius-lg) !important;
 		box-shadow:
-			0 4px 24px rgba(0, 0, 0, 0.4),
-			0 0 20px rgba(45, 212, 191, 0.12) !important;
+			0 4px 24px rgba(0, 0, 0, 0.15),
+			0 0 20px var(--primary-subtle) !important;
 		border: 1px solid var(--primary-subtle) !important;
 		max-height: 320px !important;
 		overflow-y: auto !important;
@@ -473,7 +473,7 @@
 		padding: 0.75rem 1rem !important;
 		transition: background-color $transition-fast !important;
 		cursor: pointer;
-		border-bottom: 1px solid rgba(45, 212, 191, 0.08);
+		border-bottom: 1px solid var(--primary-subtle);
 		color: var(--neutral-800) !important;
 
 		&:last-child {

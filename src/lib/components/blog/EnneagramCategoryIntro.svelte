@@ -834,7 +834,11 @@
 			transform: translateX(-50%);
 			width: 400px;
 			height: 200px;
-			background: radial-gradient(ellipse, rgba(45, 212, 191, 0.15) 0%, transparent 70%);
+			background: radial-gradient(
+				ellipse,
+				color-mix(in srgb, var(--primary) 15%, transparent) 0%,
+				transparent 70%
+			);
 			pointer-events: none;
 		}
 	}
@@ -916,8 +920,8 @@
 			padding: 1.25rem 1.5rem;
 			background: linear-gradient(
 				135deg,
-				rgba(45, 212, 191, 0.15) 0%,
-				rgba(45, 212, 191, 0.05) 100%
+				color-mix(in srgb, var(--primary) 15%, transparent) 0%,
+				color-mix(in srgb, var(--primary) 5%, transparent) 100%
 			);
 			border-left: 3px solid var(--primary-dark);
 			border-radius: 0 0.75rem 0.75rem 0;
@@ -933,7 +937,7 @@
 		padding: 2rem;
 		background: linear-gradient(135deg, var(--bg-surface) 0%, var(--bg-deep) 100%);
 		border-radius: 1rem;
-		border: 1px solid rgba(45, 212, 191, 0.2);
+		border: 1px solid var(--primary-subtle);
 		max-width: 800px;
 		position: relative;
 		overflow: hidden;
@@ -945,7 +949,7 @@
 			right: -20%;
 			width: 200px;
 			height: 200px;
-			background: radial-gradient(ellipse, rgba(45, 212, 191, 0.1) 0%, transparent 70%);
+			background: radial-gradient(ellipse, var(--primary-subtle) 0%, transparent 70%);
 			pointer-events: none;
 		}
 
@@ -996,7 +1000,11 @@
 			content: '';
 			position: absolute;
 			inset: 0;
-			background: linear-gradient(135deg, rgba(45, 212, 191, 0.08) 0%, transparent 50%);
+			background: linear-gradient(
+				135deg,
+				color-mix(in srgb, var(--primary) 8%, transparent) 0%,
+				transparent 50%
+			);
 			opacity: 0;
 			transition: opacity 0.25s ease;
 			z-index: 1;
@@ -1004,10 +1012,10 @@
 
 		&:hover {
 			transform: translateY(-3px);
-			border-color: rgba(45, 212, 191, 0.3);
+			border-color: var(--primary-glow);
 			box-shadow:
-				0 8px 24px rgba(0, 0, 0, 0.3),
-				0 0 0 1px rgba(45, 212, 191, 0.1);
+				0 8px 24px rgba(0, 0, 0, 0.15),
+				0 0 0 1px var(--primary-subtle);
 
 			&::before {
 				opacity: 1;
@@ -1114,8 +1122,8 @@
 		transition: all 0.25s ease;
 
 		&:hover {
-			background: rgba(45, 212, 191, 0.1);
-			border-color: rgba(45, 212, 191, 0.3);
+			background: var(--primary-subtle);
+			border-color: var(--primary-glow);
 			transform: translateY(-2px);
 
 			.related-label {

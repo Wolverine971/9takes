@@ -246,7 +246,7 @@
 		transition: background-color 0.2s ease;
 
 		&:hover {
-			background-color: rgba(45, 212, 191, 0.1);
+			background-color: var(--primary-subtle);
 		}
 
 		&:focus-visible {
@@ -310,7 +310,7 @@
 		max-width: 85vw;
 		height: 100vh;
 		overflow-y: auto;
-		box-shadow: 4px 0 30px rgba(45, 212, 191, 0.2);
+		box-shadow: 4px 0 30px var(--primary-subtle);
 		display: flex;
 		flex-direction: column;
 		border-right: 1px solid color-mix(in srgb, var(--text-tertiary) 30%, transparent);
@@ -342,7 +342,7 @@
 		transition: all 0.2s ease;
 
 		&:hover {
-			background-color: rgba(45, 212, 191, 0.2);
+			background-color: var(--primary-subtle);
 			color: var(--text-primary);
 		}
 
@@ -383,12 +383,12 @@
 		border-left: 3px solid transparent;
 
 		&:hover {
-			background-color: rgba(45, 212, 191, 0.1);
+			background-color: var(--primary-subtle);
 			color: var(--primary-lighter);
 		}
 
 		&.active {
-			background-color: rgba(45, 212, 191, 0.15);
+			background-color: color-mix(in srgb, var(--primary) 15%, transparent);
 			color: var(--primary-lighter);
 			border-left-color: var(--primary);
 			font-weight: 600;
@@ -421,7 +421,7 @@
 		text-align: left;
 
 		&:hover {
-			background-color: rgba(45, 212, 191, 0.1);
+			background-color: var(--primary-subtle);
 			color: var(--primary-lighter);
 		}
 
@@ -464,12 +464,12 @@
 		border-left: 3px solid transparent;
 
 		&:hover {
-			background-color: rgba(45, 212, 191, 0.1);
+			background-color: var(--primary-subtle);
 			color: var(--primary-lighter);
 		}
 
 		&.active {
-			background-color: rgba(45, 212, 191, 0.15);
+			background-color: color-mix(in srgb, var(--primary) 15%, transparent);
 			color: var(--primary-lighter);
 			border-left-color: var(--primary);
 			font-weight: 500;
@@ -492,19 +492,19 @@
 		width: 100%;
 		padding: 0.875rem 1.25rem;
 		background-color: var(--primary);
-		color: white;
+		color: var(--text-on-primary);
 		text-align: center;
 		text-decoration: none;
 		border-radius: 8px;
 		font-weight: 600;
 		font-size: 1rem;
 		transition: all 0.2s ease;
-		box-shadow: 0 0 15px rgba(45, 212, 191, 0.3);
+		box-shadow: 0 0 15px var(--primary-glow);
 
 		&:hover {
 			background-color: var(--primary-dark);
 			transform: translateY(-1px);
-			box-shadow: 0 0 20px rgba(45, 212, 191, 0.4);
+			box-shadow: 0 0 20px var(--primary-glow);
 		}
 
 		&:focus-visible {

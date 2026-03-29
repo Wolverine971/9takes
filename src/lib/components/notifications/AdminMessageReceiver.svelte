@@ -190,7 +190,7 @@
 	}
 
 	.notification-bell:hover {
-		background-color: rgba(45, 212, 191, 0.15);
+		background-color: color-mix(in srgb, var(--primary) 15%, transparent);
 		color: var(--accent-light);
 	}
 
@@ -216,8 +216,8 @@
 		position: absolute;
 		top: 0.125rem;
 		right: 0.125rem;
-		background: linear-gradient(135deg, #ef4444 0%, #dc2626 100%);
-		color: white;
+		background: linear-gradient(135deg, var(--error) 0%, var(--error-700) 100%);
+		color: var(--text-on-primary);
 		border-radius: 9999px;
 		min-width: 1.125rem;
 		height: 1.125rem;
@@ -239,11 +239,11 @@
 		width: 340px;
 		max-height: 450px;
 		background: var(--bg-deep);
-		border: 1px solid rgba(45, 212, 191, 0.2);
+		border: 1px solid var(--primary-subtle);
 		border-radius: 0.75rem;
 		box-shadow:
-			0 20px 25px -5px rgba(0, 0, 0, 0.5),
-			0 0 30px rgba(45, 212, 191, 0.1);
+			0 20px 25px -5px rgba(0, 0, 0, 0.2),
+			0 0 30px var(--primary-subtle);
 		z-index: 1000;
 		overflow: hidden;
 		transform: translateY(-8px);
@@ -260,11 +260,15 @@
 
 	.notification-header {
 		padding: 1rem 1.25rem;
-		border-bottom: 1px solid rgba(45, 212, 191, 0.15);
+		border-bottom: 1px solid var(--primary-subtle);
 		display: flex;
 		justify-content: space-between;
 		align-items: center;
-		background: linear-gradient(180deg, rgba(45, 212, 191, 0.08) 0%, transparent 100%);
+		background: linear-gradient(
+			180deg,
+			color-mix(in srgb, var(--primary) 8%, transparent) 0%,
+			transparent 100%
+		);
 	}
 
 	.notification-header h3 {
@@ -292,7 +296,7 @@
 	}
 
 	.close-btn:hover {
-		background: rgba(45, 212, 191, 0.15);
+		background: color-mix(in srgb, var(--primary) 15%, transparent);
 		color: var(--text-primary);
 	}
 
@@ -304,7 +308,7 @@
 		max-height: 300px;
 		overflow-y: auto;
 		scrollbar-width: thin;
-		scrollbar-color: rgba(45, 212, 191, 0.3) transparent;
+		scrollbar-color: var(--primary-glow) transparent;
 	}
 
 	.notification-content::-webkit-scrollbar {
@@ -316,12 +320,12 @@
 	}
 
 	.notification-content::-webkit-scrollbar-thumb {
-		background-color: rgba(45, 212, 191, 0.3);
+		background-color: var(--primary-glow);
 		border-radius: 3px;
 	}
 
 	.notification-content::-webkit-scrollbar-thumb:hover {
-		background-color: rgba(45, 212, 191, 0.5);
+		background-color: var(--primary);
 	}
 
 	.no-messages {
@@ -340,7 +344,7 @@
 		padding: 0.875rem 1rem;
 		margin: 0.25rem 0;
 		border-radius: 0.5rem;
-		background: rgba(45, 212, 191, 0.05);
+		background: color-mix(in srgb, var(--primary) 5%, transparent);
 		border: 1px solid transparent;
 		transition: all 0.15s ease;
 		position: relative;
@@ -355,8 +359,8 @@
 	}
 
 	.message-item:hover {
-		background: rgba(45, 212, 191, 0.1);
-		border-color: rgba(45, 212, 191, 0.2);
+		background: var(--primary-subtle);
+		border-color: var(--primary-subtle);
 	}
 
 	.message-item::before {
@@ -409,10 +413,10 @@
 
 	.notification-actions {
 		padding: 0.75rem 1rem;
-		border-top: 1px solid rgba(45, 212, 191, 0.15);
+		border-top: 1px solid var(--primary-subtle);
 		display: flex;
 		gap: 0.5rem;
-		background: rgba(0, 0, 0, 0.2);
+		background: var(--bg-surface);
 	}
 
 	.clear-btn,
@@ -420,9 +424,9 @@
 		flex: 1;
 		padding: 0.5rem 0.75rem;
 		min-height: 2.25rem;
-		border: 1px solid rgba(45, 212, 191, 0.2);
+		border: 1px solid var(--primary-subtle);
 		border-radius: 0.375rem;
-		background: rgba(45, 212, 191, 0.1);
+		background: var(--primary-subtle);
 		color: var(--neutral-700);
 		font-size: 0.75rem;
 		font-weight: 500;
@@ -435,18 +439,18 @@
 
 	.permission-btn {
 		background: linear-gradient(135deg, var(--primary-dark) 0%, var(--accent-dark) 100%);
-		color: white;
+		color: var(--text-on-primary);
 		border-color: transparent;
 	}
 
 	.clear-btn:hover {
-		background: rgba(45, 212, 191, 0.2);
-		border-color: rgba(45, 212, 191, 0.3);
+		background: var(--primary-subtle);
+		border-color: var(--primary-glow);
 	}
 
 	.permission-btn:hover {
 		background: linear-gradient(135deg, var(--accent) 0%, var(--primary-dark) 100%);
-		box-shadow: 0 0 15px rgba(45, 212, 191, 0.3);
+		box-shadow: 0 0 15px var(--primary-glow);
 	}
 
 	@keyframes shake {

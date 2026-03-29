@@ -63,9 +63,9 @@
 		display: flex;
 		align-items: center;
 		justify-content: center;
-		background: rgba(45, 212, 191, 0.1);
+		background: var(--primary-subtle);
 		border-radius: 0.5rem;
-		border: 1px solid rgba(45, 212, 191, 0.2);
+		border: 1px solid var(--primary-subtle);
 		color: var(--accent-light);
 		font-weight: 700;
 	}
@@ -98,11 +98,11 @@
 		transition: all 0.2s ease;
 
 		&:hover {
-			border-color: rgba(45, 212, 191, 0.3);
+			border-color: var(--primary-glow);
 		}
 
 		&[open] {
-			border-color: rgba(45, 212, 191, 0.4);
+			border-color: var(--primary-glow);
 
 			.faq-question {
 				border-bottom: 1px solid color-mix(in srgb, var(--text-tertiary) 15%, transparent);
@@ -129,7 +129,7 @@
 		}
 
 		&:hover {
-			background: rgba(45, 212, 191, 0.05);
+			background: color-mix(in srgb, var(--primary) 5%, transparent);
 		}
 	}
 
@@ -161,7 +161,7 @@
 
 	.faq-answer {
 		padding: 1rem 1.25rem 1.25rem;
-		background: rgba(10, 10, 15, 0.5);
+		background: var(--bg-surface);
 
 		p {
 			font-size: 0.9375rem;
