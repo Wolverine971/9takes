@@ -2548,27 +2548,127 @@ export type Database = {
         Row: {
           category_name: string
           id: number
+          intro_context: Json
+          intro_description: string | null
+          intro_generated_at: string | null
+          intro_markdown: string | null
+          intro_prompt_version: string | null
+          intro_reviewed_at: string | null
+          intro_source: string
+          intro_status: string
+          intro_updated_at: string
+          intro_updated_by: string | null
           level: number | null
           parent_id: number | null
         }
         Insert: {
           category_name: string
           id: number
+          intro_context?: Json
+          intro_description?: string | null
+          intro_generated_at?: string | null
+          intro_markdown?: string | null
+          intro_prompt_version?: string | null
+          intro_reviewed_at?: string | null
+          intro_source?: string
+          intro_status?: string
+          intro_updated_at?: string
+          intro_updated_by?: string | null
           level?: number | null
           parent_id?: number | null
         }
         Update: {
           category_name?: string
           id?: number
+          intro_context?: Json
+          intro_description?: string | null
+          intro_generated_at?: string | null
+          intro_markdown?: string | null
+          intro_prompt_version?: string | null
+          intro_reviewed_at?: string | null
+          intro_source?: string
+          intro_status?: string
+          intro_updated_at?: string
+          intro_updated_by?: string | null
           level?: number | null
           parent_id?: number | null
         }
         Relationships: [
           {
+            foreignKeyName: "question_categories_intro_updated_by_fkey"
+            columns: ["intro_updated_by"]
+            isOneToOne: false
+            referencedRelation: "profiles"
+            referencedColumns: ["id"]
+          },
+          {
             foreignKeyName: "question_categories_parent_id_fkey"
             columns: ["parent_id"]
             isOneToOne: false
             referencedRelation: "question_categories"
+            referencedColumns: ["id"]
+          },
+        ]
+      }
+      question_category_intro_runs: {
+        Row: {
+          category_id: number
+          context: Json
+          created_at: string
+          created_by: string | null
+          error: string | null
+          finished_at: string | null
+          id: string
+          model: string | null
+          output: Json | null
+          prompt_version: string | null
+          started_at: string
+          status: string
+          trigger: string
+        }
+        Insert: {
+          category_id: number
+          context?: Json
+          created_at?: string
+          created_by?: string | null
+          error?: string | null
+          finished_at?: string | null
+          id?: string
+          model?: string | null
+          output?: Json | null
+          prompt_version?: string | null
+          started_at?: string
+          status: string
+          trigger: string
+        }
+        Update: {
+          category_id?: number
+          context?: Json
+          created_at?: string
+          created_by?: string | null
+          error?: string | null
+          finished_at?: string | null
+          id?: string
+          model?: string | null
+          output?: Json | null
+          prompt_version?: string | null
+          started_at?: string
+          status?: string
+          trigger?: string
+        }
+        Relationships: [
+          {
+            foreignKeyName: "question_category_intro_runs_category_id_fkey"
+            columns: ["category_id"]
+            isOneToOne: false
+            referencedRelation: "question_categories"
+            referencedColumns: ["id"]
+          },
+          {
+            foreignKeyName: "question_category_intro_runs_created_by_fkey"
+            columns: ["created_by"]
+            isOneToOne: false
+            referencedRelation: "profiles"
             referencedColumns: ["id"]
           },
         ]

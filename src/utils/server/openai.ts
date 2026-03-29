@@ -1,5 +1,6 @@
 // src/utils/server/openai.ts
 import { logger } from '$lib/utils/logger';
+import { markQuestionCategoryIntrosStale } from '$lib/server/questionCategoryIntro';
 import type { SupabaseClient } from '@supabase/supabase-js';
 import type { Database, Json } from '../../../database.types';
 
@@ -56,11 +57,7 @@ const normalizeJsonObject = (value: Json | null | undefined): Record<string, Jso
 
 const limitUniqueStrings = (values: string[], limit = MAX_AI_TAGS_PER_QUESTION): string[] =>
 	Array.from(
-		new Set(
-			values
-				.map((value) => value.trim())
-				.filter((value) => value.length > 0)
-		)
+		new Set(values.map((value) => value.trim()).filter((value) => value.length > 0))
 	).slice(0, limit);
 
 export const getQuestionAiTaggingState = (data: unknown): QuestionAiTaggingState | null => {
@@ -175,6 +172,21 @@ const replaceQuestionTags = async (
 	const legacyQuestionTagTable: LegacyQuestionTagTable = demoTime
 		? 'question_tags_demo'
 		: 'question_tags';
+	let previousLiveTagIds: number[] = [];
+
+	if (!demoTime) {
+		const { data: existingQuestionCategoryTags, error: existingQuestionCategoryTagsError } =
+			await supabase.from('question_category_tags').select('tag_id').eq('question_id', questionId);
+
+		if (existingQuestionCategoryTagsError) {
+			throw existingQuestionCategoryTagsError;
+		}
+
+		previousLiveTagIds =
+			existingQuestionCategoryTags
+				?.map((row) => row.tag_id)
+				.filter((tagId) => Number.isFinite(tagId)) ?? [];
+	}
 
 	if (!demoTime) {
 		const { error: deleteQuestionCategoryTagsError } = await supabase
@@ -228,6 +240,10 @@ const replaceQuestionTags = async (
 
 	if (insertLegacyQuestionTagsError) {
 		throw insertLegacyQuestionTagsError;
+	}
+
+	if (!demoTime) {
+		await markQuestionCategoryIntrosStale(supabase, [...previousLiveTagIds, ...uniqueTagIds]);
 	}
 
 	return uniqueTagIds;
@@ -344,7 +360,9 @@ const resolveQuestionId = (
 
 const getLLMTags = (tag: TaggedQuestion): string[] =>
 	Array.isArray(tag.tags)
-		? limitUniqueStrings(tag.tags.filter((tagName): tagName is string => typeof tagName === 'string'))
+		? limitUniqueStrings(
+				tag.tags.filter((tagName): tagName is string => typeof tagName === 'string')
+			)
 		: [];
 
 const normalizeAnswers = (answers: unknown): Record<string, string> | null => {

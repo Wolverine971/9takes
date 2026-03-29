@@ -7,6 +7,10 @@ import {
 	type QuestionCategoryRow,
 	type QuestionCategoryTagRow
 } from '$lib/server/questionCategoryTree';
+import {
+	buildQuestionCategoryIntroDescription,
+	renderQuestionCategoryIntroMarkdown
+} from '$lib/server/questionCategoryIntro';
 
 type ActiveQuestionRow = { id: number };
 
@@ -51,7 +55,9 @@ export const load: PageServerLoad = async (event) => {
 		}),
 		supabase
 			.from('question_categories')
-			.select('id, category_name, parent_id, level')
+			.select(
+				'id, category_name, parent_id, level, intro_markdown, intro_description, intro_status, intro_source, intro_generated_at, intro_updated_at, intro_reviewed_at'
+			)
 			.eq('category_name', slug)
 			.maybeSingle(),
 		supabase
@@ -102,6 +108,11 @@ export const load: PageServerLoad = async (event) => {
 	return {
 		parents,
 		childCategories: currentCategoryNode.children,
+		categoryIntroDescription: buildQuestionCategoryIntroDescription(
+			questionTag.intro_markdown,
+			questionTag.intro_description
+		),
+		categoryIntroHtml: renderQuestionCategoryIntroMarkdown(questionTag.intro_markdown),
 		questionTag,
 		questionCategories,
 		canAskQuestion

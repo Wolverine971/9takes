@@ -22,6 +22,11 @@ export interface QuestionCategoryTreeNode {
 	children: QuestionCategoryTreeNode[];
 }
 
+export interface FlatQuestionCategoryTreeNode extends QuestionCategoryTreeNode {
+	path: string[];
+	isEligibleForIntro: boolean;
+}
+
 interface MutableTreeNode extends QuestionCategoryRow {
 	children: MutableTreeNode[];
 	directQuestionIds: Set<number>;
@@ -31,6 +36,8 @@ interface PrunedNodeResult {
 	node: QuestionCategoryTreeNode;
 	questionIds: Set<number>;
 }
+
+export const MIN_QUESTION_COUNT_FOR_CATEGORY_INTRO = 3;
 
 export function buildVisibleQuestionCategoryTree(
 	categories: QuestionCategoryRow[],
@@ -78,6 +85,43 @@ export function buildVisibleQuestionCategoryTree(
 
 export function countVisibleQuestionCategories(tree: QuestionCategoryTreeNode[]): number {
 	return tree.reduce((total, node) => total + 1 + countVisibleQuestionCategories(node.children), 0);
+}
+
+export function isQuestionCategoryEligibleForIntro(
+	node: Pick<QuestionCategoryTreeNode, 'subtreeQuestionCount'>,
+	minimumQuestionCount = MIN_QUESTION_COUNT_FOR_CATEGORY_INTRO
+): boolean {
+	return node.subtreeQuestionCount >= minimumQuestionCount;
+}
+
+export function countQuestionCategoriesEligibleForIntro(
+	tree: QuestionCategoryTreeNode[],
+	minimumQuestionCount = MIN_QUESTION_COUNT_FOR_CATEGORY_INTRO
+): number {
+	return tree.reduce((total, node) => {
+		const current = isQuestionCategoryEligibleForIntro(node, minimumQuestionCount) ? 1 : 0;
+		return (
+			total + current + countQuestionCategoriesEligibleForIntro(node.children, minimumQuestionCount)
+		);
+	}, 0);
+}
+
+export function flattenQuestionCategoryTree(
+	tree: QuestionCategoryTreeNode[],
+	minimumQuestionCount = MIN_QUESTION_COUNT_FOR_CATEGORY_INTRO,
+	path: string[] = []
+): FlatQuestionCategoryTreeNode[] {
+	return tree.flatMap((node) => {
+		const nextPath = [...path, node.category_name];
+		return [
+			{
+				...node,
+				path: nextPath,
+				isEligibleForIntro: isQuestionCategoryEligibleForIntro(node, minimumQuestionCount)
+			},
+			...flattenQuestionCategoryTree(node.children, minimumQuestionCount, nextPath)
+		];
+	});
 }
 
 export function listQuestionCategoriesWithDirectQuestions(

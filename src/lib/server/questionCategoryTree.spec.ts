@@ -3,8 +3,11 @@ import { describe, expect, it } from 'vitest';
 
 import {
 	buildVisibleQuestionCategoryTree,
+	countQuestionCategoriesEligibleForIntro,
 	countVisibleQuestionCategories,
 	findQuestionCategoryNodeById,
+	flattenQuestionCategoryTree,
+	MIN_QUESTION_COUNT_FOR_CATEGORY_INTRO,
 	listQuestionCategoriesWithDirectQuestions,
 	type QuestionCategoryRow,
 	type QuestionCategoryTagRow
@@ -81,5 +84,25 @@ describe('buildVisibleQuestionCategoryTree', () => {
 		const tree = buildVisibleQuestionCategoryTree(categories, categoryTags, []);
 
 		expect(tree).toEqual([]);
+	});
+
+	it('flags categories as eligible when subtree question counts meet the intro threshold', () => {
+		const categoryTags: QuestionCategoryTagRow[] = [
+			{ question_id: 101, tag_id: 4 },
+			{ question_id: 102, tag_id: 5 },
+			{ question_id: 103, tag_id: 5 }
+		];
+
+		const tree = buildVisibleQuestionCategoryTree(categories, categoryTags, [101, 102, 103]);
+		const flattened = flattenQuestionCategoryTree(tree, MIN_QUESTION_COUNT_FOR_CATEGORY_INTRO);
+
+		expect(
+			countQuestionCategoriesEligibleForIntro(tree, MIN_QUESTION_COUNT_FOR_CATEGORY_INTRO)
+		).toBe(2);
+		expect(
+			flattened
+				.filter((node) => node.isEligibleForIntro)
+				.map((node) => `${node.path.join(' > ')} (${node.subtreeQuestionCount})`)
+		).toEqual(['Root (3)', 'Root > Visible Branch (3)']);
 	});
 });

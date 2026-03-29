@@ -23,12 +23,14 @@
 	let childCategories: BrowseCategoryNode[] = [];
 	$: childCategories = (data?.childCategories ?? []) as BrowseCategoryNode[];
 	$: categoryName = data?.questionTag?.category_name || '';
+	$: categoryIntroHtml = data?.categoryIntroHtml || '';
 	$: categorySlug = categoryName ? categoryName.split(' ').join('-') : '';
 	$: pageTitle = categoryName
 		? `9takes Question Categories | ${categoryName}`
 		: '9takes Question Categories';
 	$: pageDescription = categoryName
-		? `Browse ${categoryName} questions. User generated questions with comments sorted by personality type.`
+		? data?.categoryIntroDescription ||
+			`Browse ${categoryName} questions. User generated questions with comments sorted by personality type.`
 		: 'Browse questions organized by category. User generated questions with comments sorted by personality type.';
 	$: canonicalUrl = categorySlug
 		? `https://9takes.com/questions/categories/${categorySlug}`
@@ -123,6 +125,14 @@
 			{categoryName}
 		</h1>
 
+		{#if categoryIntroHtml}
+			<section class="category-intro" aria-label={`${categoryName} intro`}>
+				<div class="category-intro__copy" data-category-intro>
+					{@html categoryIntroHtml}
+				</div>
+			</section>
+		{/if}
+
 		{#if childCategories.length}
 			<section class="mb-4 mt-3">
 				<h2 class="mb-3 text-base font-semibold text-[var(--text-primary)]">
@@ -145,3 +155,50 @@
 		</div>
 	{/if}
 </div>
+
+<style lang="scss">
+	.category-intro {
+		margin: 0.9rem 0 1.2rem;
+		padding: 1rem 1.1rem;
+		border-radius: 1rem;
+		border: 1px solid color-mix(in srgb, var(--primary) 16%, var(--bg-elevated));
+		background:
+			linear-gradient(
+				180deg,
+				color-mix(in srgb, var(--primary) 7%, transparent) 0%,
+				transparent 100%
+			),
+			color-mix(in srgb, var(--bg-surface) 90%, var(--bg-base));
+	}
+
+	:global([data-category-intro] p) {
+		margin: 0 0 0.85rem;
+		color: var(--text-secondary);
+		line-height: 1.75;
+	}
+
+	:global([data-category-intro] p:last-child) {
+		margin-bottom: 0;
+	}
+
+	:global([data-category-intro] ul),
+	:global([data-category-intro] ol) {
+		margin: 0 0 0.85rem;
+		padding-left: 1.2rem;
+		color: var(--text-secondary);
+	}
+
+	:global([data-category-intro] li) {
+		margin-bottom: 0.35rem;
+		line-height: 1.7;
+	}
+
+	:global([data-category-intro] a) {
+		color: var(--primary);
+		text-decoration: underline;
+	}
+
+	:global([data-category-intro] strong) {
+		color: var(--text-primary);
+	}
+</style>

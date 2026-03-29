@@ -16,6 +16,7 @@
 		{ href: '/admin/users', label: 'Users', icon: '👥' },
 		{ href: '/admin/email-dashboard', label: 'Email', icon: '📧' },
 		{ href: '/admin/questions', label: 'Questions', icon: '❓' },
+		{ href: '/admin/categories', label: 'Categories', icon: '🗂️' },
 		{ href: '/admin/comments', label: 'Comments', icon: '💬' },
 		{ href: '/admin/messages', label: 'Messages', icon: '📨' },
 		{ href: '/admin/content-board', label: 'Content', icon: '📝' },

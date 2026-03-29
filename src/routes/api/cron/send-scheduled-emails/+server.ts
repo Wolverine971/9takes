@@ -4,8 +4,7 @@
 
 import { json, error } from '@sveltejs/kit';
 import type { RequestHandler } from './$types';
-import { PRIVATE_CRON_SECRET } from '$env/static/private';
-import { env } from '$env/dynamic/private';
+import { CRON_SECRET } from '$env/static/private';
 import { sendBatchEmails } from '$lib/email/sender';
 import { getSuppressedEmailSet, normalizeEmail } from '$lib/email/suppression';
 import { isAuthorizedCronRequest } from '$lib/server/cronAuth';
@@ -42,7 +41,7 @@ async function processScheduledEmails(request: Request) {
 	const authHeader = request.headers.get('authorization');
 
 	// In production, verify the secret
-	if (!isAuthorizedCronRequest(authHeader, [env.CRON_SECRET, PRIVATE_CRON_SECRET])) {
+	if (!isAuthorizedCronRequest(authHeader, [CRON_SECRET])) {
 		throw error(401, 'Unauthorized');
 	}
 

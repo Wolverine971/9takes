@@ -67,9 +67,9 @@
 		border-radius: 16px;
 		overflow: hidden;
 		box-shadow:
-			0 8px 30px -10px rgba(0, 0, 0, 0.4),
-			0 2px 4px -2px rgba(0, 0, 0, 0.2);
-		border: 1px solid rgba(45, 212, 191, 0.2);
+			0 8px 30px -10px rgba(0, 0, 0, 0.15),
+			0 2px 4px -2px rgba(0, 0, 0, 0.08);
+		border: 1px solid var(--primary-subtle);
 
 		@media (min-width: 768px) {
 			display: flex;
@@ -169,7 +169,7 @@
 		display: inline-flex;
 		align-items: center;
 		gap: 0.5rem;
-		background: var(--primary, var(--primary-dark));
+		background: rgba(255, 255, 255, 0.2);
 		color: #fff;
 		padding: 0.625rem 1.25rem;
 		border-radius: 8px;
@@ -179,11 +179,12 @@
 		white-space: nowrap;
 		transition: all 0.2s ease;
 		flex-shrink: 0;
+		border: 1px solid rgba(255, 255, 255, 0.3);
 
 		&:hover {
-			background: var(--primary-light, var(--accent));
+			background: rgba(255, 255, 255, 0.3);
 			transform: translateY(-1px);
-			box-shadow: 0 4px 12px rgba(45, 212, 191, 0.3);
+			box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
 		}
 
 		.arrow-icon {
