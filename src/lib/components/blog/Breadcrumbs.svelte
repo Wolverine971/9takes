@@ -2,7 +2,7 @@
 <script lang="ts">
 	import type { BreadcrumbItem } from '$lib/utils/schema';
 
-	export let items: BreadcrumbItem[] = [];
+	let { items = [] }: { items?: BreadcrumbItem[] } = $props();
 </script>
 
 <!-- JSON-LD breadcrumb schema is already emitted by BlogPageHead/PeopleBlogPageHead -->

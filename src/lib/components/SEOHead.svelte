@@ -1,27 +1,55 @@
 <!-- src/lib/components/SEOHead.svelte -->
 <script lang="ts">
-	export let title = '9takes - See the emotions behind every take';
-	export let description =
-		'One situation, 9 ways to see it. Anonymous Q&A platform exploring perspectives through personality types.';
-	export let canonical: string;
-	export let ogImage = 'https://9takes.com/twitter-card-9takes.webp';
-	export let twitterImage = ogImage;
-	export let twitterCardType: 'summary' | 'summary_large_image' = 'summary_large_image';
-	export let twitterCreator = '@djwayne3';
-	export let ogType = 'website';
-	export let jsonLd: any = null;
-	export let additionalMeta: Array<{ name?: string; property?: string; content: string }> = [];
-	export let noindex = false;
-	export let author = 'DJ Wayne';
-	export let twitterImageAlt = '';
-	export let locale = 'en_US';
+	interface AdditionalMetaEntry {
+		name?: string;
+		property?: string;
+		content: string;
+	}
+
+	interface Props {
+		title?: string;
+		description?: string;
+		canonical?: string;
+		ogImage?: string;
+		twitterImage?: string;
+		twitterCardType?: 'summary' | 'summary_large_image';
+		twitterCreator?: string;
+		ogType?: string;
+		jsonLd?: any;
+		additionalMeta?: AdditionalMetaEntry[];
+		noindex?: boolean;
+		author?: string;
+		twitterImageAlt?: string;
+		locale?: string;
+	}
+
+	let {
+		title = '9takes - See the emotions behind every take',
+		description = 'One situation, 9 ways to see it. Anonymous Q&A platform exploring perspectives through personality types.',
+		canonical,
+		ogImage = 'https://9takes.com/twitter-card-9takes.webp',
+		twitterImage: providedTwitterImage,
+		twitterCardType = 'summary_large_image',
+		twitterCreator = '@djwayne3',
+		ogType = 'website',
+		jsonLd = null,
+		additionalMeta = [],
+		noindex = false,
+		author = 'DJ Wayne',
+		twitterImageAlt = '',
+		locale = 'en_US'
+	}: Props = $props();
 
 	const TITLE_SUFFIX = ' - 9takes';
-	$: computedTwitterImageAlt =
-		twitterImageAlt || (title ? `9takes - ${title.replace(TITLE_SUFFIX, '')}` : '9takes');
-	$: robotsContent = noindex
-		? 'noindex, nofollow'
-		: 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1';
+	let twitterImage = $derived(providedTwitterImage ?? ogImage);
+	let computedTwitterImageAlt = $derived(
+		twitterImageAlt || (title ? `9takes - ${title.replace(TITLE_SUFFIX, '')}` : '9takes')
+	);
+	let robotsContent = $derived(
+		noindex
+			? 'noindex, nofollow'
+			: 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1'
+	);
 </script>
 
 <svelte:head>

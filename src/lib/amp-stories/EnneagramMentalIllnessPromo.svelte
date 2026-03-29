@@ -1,10 +1,18 @@
 <!-- src/lib/amp-stories/EnneagramMentalIllnessPromo.svelte -->
-<script>
-	export let title = 'Explore as Web Story';
-	export let subtitle = 'View an interactive version of this article';
-	export let ampUrl = '/stories/enneagram-and-mental-illness';
-	export let imageUrl = 'https://9takes.com/blogs/greek-statue-2-sided-mask.webp';
-	export let altText = 'Enneagram and Mental Illness Web Story';
+<script lang="ts">
+	let {
+		title = 'Explore as Web Story',
+		subtitle = 'View an interactive version of this article',
+		ampUrl = '/stories/enneagram-and-mental-illness',
+		imageUrl = 'https://9takes.com/blogs/greek-statue-2-sided-mask.webp',
+		altText = 'Enneagram and Mental Illness Web Story'
+	}: {
+		title?: string;
+		subtitle?: string;
+		ampUrl?: string;
+		imageUrl?: string;
+		altText?: string;
+	} = $props();
 </script>
 
 <a

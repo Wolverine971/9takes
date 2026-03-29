@@ -2,20 +2,36 @@
 <script lang="ts">
 	import { buildBreadcrumbSchemaForGraph } from '$lib/utils/schema';
 
-	export let data: App.BlogPost;
-	export let slug: string;
-	export let skipJsonLd: boolean = false;
+	interface Props {
+		data: App.BlogPost;
+		slug: string;
+		skipJsonLd?: boolean;
+	}
+
+	let { data, slug, skipJsonLd = false }: Props = $props();
 
 	// Use meta_title for SEO/social if available, otherwise fall back to title
-	let title: string = data?.meta_title || data?.title;
-	let description: string = data?.description;
-	const formattedTitle = title ? `${title}` : '9takes';
+	let title = $derived(data?.meta_title || data?.title || '');
+	let description = $derived(data?.description || '');
+	let formattedTitle = $derived(title ? `${title}` : '9takes');
 	const defaultShareImage = 'https://9takes.com/brand/aero.png';
-	const shareImage = data?.pic ? `https://9takes.com/blogs/${data.pic}.webp` : defaultShareImage;
-	const shareImageAlt = data?.pic ? data.pic.split('-').join(' ') : title || '9takes';
+	let shareImage = $derived(
+		data?.picGroup?.length
+			? `https://9takes.com${data.picGroup[0].image}`
+			: data?.pic
+				? `https://9takes.com/blogs/${data.pic}.webp`
+				: defaultShareImage
+	);
+	let shareImageAlt = $derived(
+		data?.picGroup?.length
+			? data.picGroup.map((p) => p.text).join(', ')
+			: data?.pic
+				? data.pic.split('-').join(' ')
+				: title || '9takes'
+	);
 	const robotsContent =
 		'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1';
-	$: canonicalUrl = `https://9takes.com/${slug}`;
+	let canonicalUrl = $derived(`https://9takes.com/${slug}`);
 
 	// Detect blog section from slug
 	function getArticleSection(s: string): string {
@@ -45,12 +61,12 @@
 		return s.split('/')[0];
 	}
 
-	const articleSection = getArticleSection(slug);
-	const sectionRoute = getSectionRoute(slug);
-	const isHowToGuide = slug.startsWith('how-to-guides/');
+	let articleSection = $derived(getArticleSection(slug));
+	let sectionRoute = $derived(getSectionRoute(slug));
+	let isHowToGuide = $derived(slug.startsWith('how-to-guides/'));
 
-	const tags = (
-		isHowToGuide
+	let tags = $derived.by(() =>
+		(isHowToGuide
 			? ['How to', 'Guide']
 			: [
 					'Personality',
@@ -58,16 +74,16 @@
 					'Psychology',
 					data.person ? data.person.split('-').join(' ') : null
 				]
-	).filter((tag): tag is string => Boolean(tag));
+		).filter((tag): tag is string => Boolean(tag))
+	);
 
-	// Build breadcrumb items
-	const breadcrumbItems = [
+	let breadcrumbItems = $derived.by(() => [
 		{ name: 'Home', url: 'https://9takes.com/' },
 		{ name: articleSection, url: `https://9takes.com/${sectionRoute}` },
 		{ name: title, url: canonicalUrl }
-	];
+	]);
 
-	const jsonldObj = {
+	let jsonldObj = $derived.by(() => ({
 		'@context': 'https://schema.org',
 		'@graph': [
 			{
@@ -94,17 +110,18 @@
 						'https://twitter.com/djwayne3'
 					]
 				},
-				description: description,
+				description,
 				datePublished: data.date,
 				dateModified: data.lastmod || data.date,
-				image: data?.pic
-					? {
-							'@type': 'ImageObject',
-							url: shareImage,
-							width: 900,
-							height: 900
-						}
-					: shareImage,
+				image:
+					data?.picGroup?.length || data?.pic
+						? {
+								'@type': 'ImageObject',
+								url: shareImage,
+								width: data?.picGroup?.length ? 560 : 900,
+								height: data?.picGroup?.length ? 560 : 900
+							}
+						: shareImage,
 				publisher: {
 					'@type': 'Organization',
 					name: '9takes',
@@ -114,7 +131,7 @@
 					},
 					sameAs: ['https://www.instagram.com/9takesdotcom/', 'https://twitter.com/9takesdotcom']
 				},
-				articleSection: articleSection,
+				articleSection,
 				inLanguage: 'en-US',
 				keywords: tags,
 				isPartOf: {
@@ -125,9 +142,9 @@
 			},
 			buildBreadcrumbSchemaForGraph(breadcrumbItems)
 		]
-	};
+	}));
 
-	let jsonld = JSON.stringify(jsonldObj);
+	let jsonld = $derived(JSON.stringify(jsonldObj));
 </script>
 
 <svelte:head>

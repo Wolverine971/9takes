@@ -3,9 +3,9 @@
 	import MasterCommentIcon from '$lib/components/icons/masterCommentIcon.svelte';
 	import { convertDateToReadable } from '../../../utils/conversions';
 
-	export let questionData: any;
+	let { questionData }: { questionData: any } = $props();
 
-	const newdate = convertDateToReadable(questionData.created_at);
+	let newdate = $derived(convertDateToReadable(questionData.created_at));
 </script>
 
 <a href="/questions/{questionData.url}" style="" class="question-card">

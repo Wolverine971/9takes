@@ -1,7 +1,6 @@
 <!-- src/lib/components/blog/AuthorBio.svelte -->
 <script lang="ts">
-	export let author: string = 'DJ Wayne';
-	export let compact: boolean = false;
+	let { author = 'DJ Wayne', compact = false }: { author?: string; compact?: boolean } = $props();
 </script>
 
 <section class="author-bio" class:compact aria-label="About the author">

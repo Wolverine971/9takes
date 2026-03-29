@@ -1,34 +1,50 @@
 <!-- src/lib/components/atoms/ModalNew.svelte -->
 <script lang="ts">
-	import { createEventDispatcher, onDestroy } from 'svelte';
+	import type { Snippet } from 'svelte';
+	import { onDestroy } from 'svelte';
 	import { fade, scale } from 'svelte/transition';
 	import { cubicOut } from 'svelte/easing';
 
-	// Props
-	export let open = false;
-	export let title = '';
-	export let maxWidth = '600px';
-	export let closeOnBackdrop = true;
-	export let closeOnEscape = true;
-	export let showCloseButton = true;
-	export let fullMobile = false;
+	interface Props {
+		open?: boolean;
+		title?: string;
+		maxWidth?: string;
+		closeOnBackdrop?: boolean;
+		closeOnEscape?: boolean;
+		showCloseButton?: boolean;
+		fullMobile?: boolean;
+		onclose?: () => void;
+		children?: Snippet;
+		footer?: Snippet<[() => void]>;
+	}
 
-	// Event dispatcher
-	const dispatch = createEventDispatcher();
+	let {
+		open = $bindable(false),
+		title = '',
+		maxWidth = '600px',
+		closeOnBackdrop = true,
+		closeOnEscape = true,
+		showCloseButton = true,
+		fullMobile = false,
+		onclose,
+		children,
+		footer
+	}: Props = $props();
 
 	// Body scroll management
-	let previousBodyOverflow = '';
+	let previousBodyOverflow = $state('');
 
-	$: if (open) {
-		if (typeof document !== 'undefined') {
+	$effect(() => {
+		if (typeof document === 'undefined') return;
+
+		if (open) {
 			previousBodyOverflow = document.body.style.overflow;
 			document.body.style.overflow = 'hidden';
+			return;
 		}
-	} else {
-		if (typeof document !== 'undefined') {
-			document.body.style.overflow = previousBodyOverflow;
-		}
-	}
+
+		document.body.style.overflow = previousBodyOverflow;
+	});
 
 	// Cleanup on destroy
 	onDestroy(() => {
@@ -42,7 +58,7 @@
 	 */
 	function closeModal() {
 		open = false;
-		dispatch('close');
+		onclose?.();
 	}
 
 	/**
@@ -64,16 +80,18 @@
 	}
 </script>
 
-<svelte:window on:keydown={handleKeydown} />
+<svelte:window onkeydown={handleKeydown} />
 
 {#if open}
 	<div
 		class="modal-overlay"
 		class:full-mobile={fullMobile}
 		role="dialog"
+		tabindex="-1"
 		aria-modal="true"
 		aria-labelledby={title ? 'modal-title' : undefined}
-		on:click={handleBackdropClick}
+		onclick={handleBackdropClick}
+		onkeydown={handleKeydown}
 		in:fade={{ duration: 300, easing: cubicOut }}
 		out:fade={{ duration: 200, easing: cubicOut }}
 	>
@@ -82,7 +100,6 @@
 			style="max-width: {maxWidth}"
 			in:scale={{ duration: 300, easing: cubicOut, start: 0.9 }}
 			out:scale={{ duration: 200, easing: cubicOut, start: 0.9 }}
-			on:click|stopPropagation
 		>
 			<!-- Header -->
 			{#if title || showCloseButton}
@@ -91,7 +108,7 @@
 						<h2 id="modal-title" class="modal-title">{title}</h2>
 					{/if}
 					{#if showCloseButton}
-						<button class="close-button" aria-label="Close modal" on:click={closeModal}>
+						<button class="close-button" aria-label="Close modal" onclick={closeModal}>
 							<svg
 								width="24"
 								height="24"
@@ -110,13 +127,13 @@
 
 			<!-- Content -->
 			<div class="modal-content">
-				<slot />
+				{@render children?.()}
 			</div>
 
 			<!-- Footer -->
-			{#if $$slots.footer}
+			{#if footer}
 				<div class="modal-footer">
-					<slot name="footer" {closeModal} />
+					{@render footer(closeModal)}
 				</div>
 			{/if}
 		</div>
@@ -200,16 +217,16 @@
 		transition: all 0.2s ease;
 		flex-shrink: 0;
 		margin-left: 1rem;
+	}
 
-		&:hover {
-			background-color: var(--primary-subtle);
-			color: var(--text-primary);
-		}
+	.close-button:hover {
+		background-color: var(--primary-subtle);
+		color: var(--text-primary);
+	}
 
-		&:focus-visible {
-			outline: 2px solid var(--primary-lighter);
-			outline-offset: 2px;
-		}
+	.close-button:focus-visible {
+		outline: 2px solid var(--primary-lighter);
+		outline-offset: 2px;
 	}
 
 	.modal-content {

@@ -2,21 +2,30 @@
 <script lang="ts">
 	import { viewportWidth } from '$lib/stores/viewport';
 
-	export let question: {
+	interface Props {
+		question: {
+			id: string;
+			url: string;
+			question: string;
+			question_formatted?: string;
+		};
+		addQuestionMark?: boolean;
+	}
+
+	let { question, addQuestionMark = false }: Props = $props();
+
+	// Use shared viewport store
+	let innerWidth = $derived($viewportWidth);
+	let fontSize = $derived(question.question ? calculateFontSize(question.question) : '2rem');
+
+	type Question = {
 		id: string;
 		url: string;
 		question: string;
 		question_formatted?: string;
 	};
-	export let addQuestionMark = false;
 
-	// Use shared viewport store
-	$: innerWidth = $viewportWidth;
-
-	// Dynamically calculate font size based on text length
-	$: fontSize = question.question ? calculateFontSize(question.question) : '2rem';
-
-	function calculateFontSize(text: string): string {
+	function calculateFontSize(text: Question['question']): string {
 		// Optimized breakpoints for better desktop readability
 		const breakpoints = {
 			xs: {

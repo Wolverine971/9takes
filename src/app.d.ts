@@ -141,6 +141,7 @@ declare global {
 			howToSteps?: Array<{ name?: string; text?: string } | string>;
 			totalTime?: string;
 			pic?: string;
+			picGroup?: Array<{ image: string; text: string; enneagramType?: number; subtext?: string }>;
 			headings?: TocHeading[];
 		}
 	}

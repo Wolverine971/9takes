@@ -13,37 +13,45 @@
 		updateJsonLdDateModified
 	} from '$lib/utils/schema';
 
-	export let data: App.BlogPost;
+	let { data }: { data: App.BlogPost } = $props();
 
-	$: title = data?.meta_title || data?.title;
-	$: description = data?.description;
-	$: formattedTitle = title ? `${title}` : '9takes';
+	let title = $derived(data?.meta_title || data?.title || '');
+	let description = $derived(data?.description || '');
+	let formattedTitle = $derived(title ? `${title}` : '9takes');
 	const robotsContent =
 		'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1';
-	let jsonLdString: string;
-	let breadcrumbJsonLd: string;
-	$: canonicalUrl = data?.loc || buildPersonalityAnalysisUrl(data?.person || data?.slug);
-	$: personName = formatPersonalityDisplayName(data?.person || data?.slug) || title;
-	$: shareImagePath = buildPersonalityImagePath(data?.enneagram, data?.person || data?.slug);
-	$: shareImageUrl = buildPersonalityImageUrl(data?.enneagram, data?.person || data?.slug);
-	$: resolvedPersonSlug = resolvePersonalityImageSlug(data?.person || data?.slug);
+	let canonicalUrl = $derived(data?.loc || buildPersonalityAnalysisUrl(data?.person || data?.slug));
+	let personName = $derived(formatPersonalityDisplayName(data?.person || data?.slug) || title);
+	let shareImagePath = $derived(
+		buildPersonalityImagePath(data?.enneagram, data?.person || data?.slug)
+	);
+	let shareImageUrl = $derived(
+		buildPersonalityImageUrl(data?.enneagram, data?.person || data?.slug)
+	);
+	let resolvedPersonSlug = $derived(resolvePersonalityImageSlug(data?.person || data?.slug));
 
-	$: breadcrumbJsonLd = JSON.stringify(
-		buildBreadcrumbSchema([
-			{ name: 'Home', url: 'https://9takes.com/' },
-			{ name: 'Personality Analysis', url: 'https://9takes.com/personality-analysis' },
-			{ name: personName, url: canonicalUrl }
-		])
+	let breadcrumbJsonLd = $derived.by(() =>
+		JSON.stringify(
+			buildBreadcrumbSchema([
+				{ name: 'Home', url: 'https://9takes.com/' },
+				{ name: 'Personality Analysis', url: 'https://9takes.com/personality-analysis' },
+				{ name: personName, url: canonicalUrl }
+			])
+		)
 	);
 
 	// Build Wikipedia URL from person slug (e.g., "Taylor-Swift" -> "https://en.wikipedia.org/wiki/Taylor_Swift")
-	$: wikipediaName = resolvedPersonSlug
-		? resolvedPersonSlug
-				.split('-')
-				.map((w: string) => (w === w.toLowerCase() ? w.charAt(0).toUpperCase() + w.slice(1) : w))
-				.join('_')
-		: '';
-	$: personSameAs = wikipediaName ? [`https://en.wikipedia.org/wiki/${wikipediaName}`] : [];
+	let wikipediaName = $derived(
+		resolvedPersonSlug
+			? resolvedPersonSlug
+					.split('-')
+					.map((w: string) => (w === w.toLowerCase() ? w.charAt(0).toUpperCase() + w.slice(1) : w))
+					.join('_')
+			: ''
+	);
+	let personSameAs = $derived(
+		wikipediaName ? [`https://en.wikipedia.org/wiki/${wikipediaName}`] : []
+	);
 
 	// Prepare common JSON-LD fields
 	function buildCommonJsonLdFields() {
@@ -93,21 +101,20 @@
 		};
 	}
 
-	// Make this reactive to ensure it updates when data changes
-	$: {
+	let jsonLdString = $derived.by(() => {
 		try {
 			const parsedSnippet = parseJsonLdSnippet(data.jsonld_snippet);
 			const jsonLdObject = parsedSnippet
 				? updateJsonLdDateModified(parsedSnippet, data.lastmod)
 				: buildCommonJsonLdFields();
 
-			jsonLdString = JSON.stringify(jsonLdObject);
+			return JSON.stringify(jsonLdObject);
 		} catch (error) {
 			console.error('Error generating JSON-LD:', error);
 			// Fallback to basic JSON-LD
-			jsonLdString = JSON.stringify(buildCommonJsonLdFields());
+			return JSON.stringify(buildCommonJsonLdFields());
 		}
-	}
+	});
 </script>
 
 <svelte:head>
