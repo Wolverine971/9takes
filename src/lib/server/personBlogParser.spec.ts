@@ -3,6 +3,7 @@ import path from 'path';
 import { describe, expect, it } from 'vitest';
 
 import {
+	extractJsonLd,
 	filterProcessableMarkdownFiles,
 	parseMarkdownFile,
 	shouldProcessMarkdownFile
@@ -13,13 +14,13 @@ describe('personBlogParser', () => {
 		const filePath = path.resolve(process.cwd(), 'src/blog/people/drafts/Malcolm-X.md');
 		const parsed = await parseMarkdownFile(filePath);
 
-		expect(parsed.person).toBe('Malcolm-X');
+		expect(parsed.person).toBe('malcolm-x');
 		expect(parsed.persona_title).toBe("Justice's Incorruptible Fire");
 		expect(parsed.suggestions).toEqual([
-			'Martin-Luther-King-Jr',
-			'Muhammad-Ali',
-			'Barack-Obama',
-			'Denzel-Washington'
+			'martin-luther-king-jr',
+			'muhammad-ali',
+			'barack-obama',
+			'denzel-washington'
 		]);
 		expect(parsed.content_quality).toEqual({
 			hook: 9,
@@ -48,5 +49,40 @@ describe('personBlogParser', () => {
 				'src/blog/people/drafts/Malcolm-X.md'
 			])
 		).toEqual(['src/blog/people/drafts/Malcolm-X.md']);
+	});
+
+	it('parses embedded JSON-LD blocks into structured objects', async () => {
+		const filePath = path.resolve(process.cwd(), 'src/blog/people/drafts/Cillian-Murphy.md');
+		const parsed = await parseMarkdownFile(filePath);
+
+		expect(parsed.jsonld_snippet).toMatchObject({
+			'@context': 'https://schema.org',
+			'@graph': expect.arrayContaining([
+				expect.objectContaining({
+					'@type': 'Article',
+					headline: 'Cillian Murphy: The Invisible Man Behind Intense Eyes'
+				})
+			])
+		});
+	});
+
+	it('extracts JSON-LD from stringified script content as an object', () => {
+		expect(
+			extractJsonLd(`
+				<svelte:head>
+					<script type="application/ld+json">
+						{
+							"@context": "https://schema.org",
+							"@type": "Article",
+							"headline": "Test"
+						}
+					</script>
+				</svelte:head>
+			`)
+		).toEqual({
+			'@context': 'https://schema.org',
+			'@type': 'Article',
+			headline: 'Test'
+		});
 	});
 });

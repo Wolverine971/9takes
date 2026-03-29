@@ -111,3 +111,80 @@ export function buildFAQSchemaForGraph(faqs: FAQItem[]) {
 		}))
 	};
 }
+
+type JsonLdNode = Record<string, unknown>;
+type JsonLdValue = JsonLdNode | JsonLdNode[];
+
+function isJsonLdNode(value: unknown): value is JsonLdNode {
+	return typeof value === 'object' && value !== null && !Array.isArray(value);
+}
+
+function cloneJsonLdValue<T extends JsonLdValue>(value: T): T {
+	return JSON.parse(JSON.stringify(value)) as T;
+}
+
+function unwrapJsonLdScriptTag(value: string): string {
+	const trimmed = value.trim();
+	const scriptMatch = trimmed.match(
+		/^<script[^>]*type=["']application\/ld\+json["'][^>]*>([\s\S]*?)<\/script>$/i
+	);
+	return scriptMatch?.[1]?.trim() ?? trimmed;
+}
+
+export function parseJsonLdSnippet(value: unknown): JsonLdValue | null {
+	let parsed = value;
+
+	for (let attempts = 0; attempts < 3 && typeof parsed === 'string'; attempts += 1) {
+		const candidate = unwrapJsonLdScriptTag(parsed);
+		if (!candidate) return null;
+
+		try {
+			parsed = JSON.parse(candidate);
+		} catch {
+			return null;
+		}
+	}
+
+	if (Array.isArray(parsed) && parsed.every(isJsonLdNode)) {
+		return cloneJsonLdValue(parsed);
+	}
+
+	if (isJsonLdNode(parsed)) {
+		return cloneJsonLdValue(parsed);
+	}
+
+	return null;
+}
+
+export function updateJsonLdDateModified(
+	value: JsonLdValue,
+	dateModified: string | null | undefined
+): JsonLdValue {
+	const clonedValue = cloneJsonLdValue(value);
+
+	if (!dateModified) {
+		return clonedValue;
+	}
+
+	const visit = (candidate: unknown): unknown => {
+		if (Array.isArray(candidate)) {
+			return candidate.map(visit);
+		}
+
+		if (!isJsonLdNode(candidate)) {
+			return candidate;
+		}
+
+		if ('dateModified' in candidate) {
+			candidate.dateModified = dateModified;
+		}
+
+		if (Array.isArray(candidate['@graph'])) {
+			candidate['@graph'] = candidate['@graph'].map(visit);
+		}
+
+		return candidate;
+	};
+
+	return visit(clonedValue) as JsonLdValue;
+}

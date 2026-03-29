@@ -81,21 +81,6 @@ path: src/blog/community/memetic-comments.md
 **Memetic comments are opinions you think are yours but were actually shaped by the first few comments you read.** Research shows a single fake upvote shifts a comment's final score by 25%. The first commenter in a thread doesn't just share an opinion — they set the frame that everyone else copies. René Girard called this mimesis: we don't desire independently, we want what we see others wanting.
 </QuickAnswer>
 
-<div
-  style="display: flex;
-    justify-content: center;
-  margin: 1rem 0;"
->
- <PopCard
-    image={`/blogs/greek-sculpture-on-a-laptop.webp`}
-    showIcon={false}
-    tint={false}
-    displayText=""
-    altText="a Greek statue on his laptop reading the comments"
-    subtext=""
-  />
-</div>
-
 <p class="firstLetter">You've never had an original opinion in the comments section. Neither have I.</p>
 
 Not really.

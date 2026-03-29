@@ -1,3 +1,4 @@
+<!-- src/routes/account/+page.svelte -->
 <script lang="ts">
 	import { enhance } from '$app/forms';
 	import LoadingButton from '$lib/components/atoms/LoadingButton.svelte';
@@ -174,22 +175,6 @@
 	let subscriptionLabel = $derived.by(() =>
 		subscriptionCount === 1 ? '1 followed question' : `${subscriptionCount} followed questions`
 	);
-	let summaryHref = $derived.by(() => (subscriptionCount > 0 ? '#subscriptions' : '/questions'));
-	let summaryCta = $derived.by(() =>
-		subscriptionCount > 0 ? 'Jump to followed questions' : 'Explore questions to follow'
-	);
-	let nextStepText = $derived.by(() => {
-		if (formChanged) {
-			return 'Save your current edits so this profile stays in sync.';
-		}
-		if (!selectedType) {
-			return 'Choose your Enneagram type to give your future responses better context.';
-		}
-		if (subscriptionCount === 0) {
-			return 'Follow a few questions so your watchlist becomes useful.';
-		}
-		return 'Your account is in a good place. Keep it current as your profile evolves.';
-	});
 
 	$effect(() => {
 		const nextSnapshot = {
@@ -512,64 +497,6 @@
 				</div>
 			</section>
 
-			<aside
-				class="panel summary-panel"
-				style={`--type-accent: ${selectedType?.color || 'var(--primary)'}`}
-			>
-				<div class="panel-heading compact">
-					<div>
-						<p class="panel-kicker">Account Snapshot</p>
-						<h2>What is ready</h2>
-					</div>
-				</div>
-
-				<div class="summary-spotlight">
-					<span class="summary-badge">{selectedType ? `Type ${selectedType.num}` : 'Not set'}</span>
-					<h3>{selectedType ? selectedType.name : 'Profile still open-ended'}</h3>
-					<p>
-						{selectedType
-							? selectedType.summary
-							: 'Add a type to give your answers a stronger personality frame.'}
-					</p>
-				</div>
-
-				<div class="summary-grid">
-					<div class="summary-stat">
-						<span class="summary-stat-label">Access</span>
-						<strong>{roleLabel}</strong>
-						<span>Current account tier</span>
-					</div>
-
-					<div class="summary-stat">
-						<span class="summary-stat-label">Watchlist</span>
-						<strong>{subscriptionCount}</strong>
-						<span>{subscriptionCount === 1 ? 'Question followed' : 'Questions followed'}</span>
-					</div>
-
-					<div class="summary-stat">
-						<span class="summary-stat-label">Status</span>
-						<strong>{formChanged ? 'Pending' : 'Synced'}</strong>
-						<span>{formChanged ? 'Save to lock it in' : 'Everything is current'}</span>
-					</div>
-				</div>
-
-				<div class="checklist">
-					{#each readinessItems as item}
-						<div class="checklist-item" class:complete={item.complete}>
-							<span class="check-indicator">{item.complete ? 'OK' : '...'}</span>
-							<span>{item.label}</span>
-						</div>
-					{/each}
-				</div>
-
-				<div class="next-step">
-					<span class="mono-label">NEXT BEST MOVE</span>
-					<p>{nextStepText}</p>
-				</div>
-
-				<a class="summary-link" href={summaryHref}>{summaryCta}</a>
-			</aside>
-
 			<section class="panel subscriptions-panel" id="subscriptions">
 				<div class="panel-heading">
 					<div>
@@ -748,8 +675,7 @@
 	.mono-label,
 	.panel-kicker,
 	.subscription-kicker,
-	.type-summary-label,
-	.summary-stat-label {
+	.type-summary-label {
 		font-family: var(--font-mono);
 		font-size: 0.72rem;
 		font-weight: 600;
@@ -825,8 +751,7 @@
 	.mono-label,
 	.panel-kicker,
 	.subscription-kicker,
-	.type-summary-label,
-	.summary-stat-label {
+	.type-summary-label {
 		color: color-mix(in srgb, var(--type-accent, var(--primary)) 72%, var(--text-tertiary));
 	}
 
@@ -839,7 +764,6 @@
 
 	.admin-link,
 	.browse-link,
-	.summary-link,
 	.cta-link {
 		display: inline-flex;
 		align-items: center;
@@ -933,12 +857,7 @@
 		margin-bottom: 1.25rem;
 	}
 
-	.panel-heading.compact {
-		margin-bottom: 1rem;
-	}
-
 	.panel-heading h2,
-	.summary-spotlight h3,
 	.empty-state h3,
 	.type-summary h3 {
 		margin: 0;
@@ -1244,127 +1163,6 @@
 		color: var(--text-secondary);
 	}
 
-	.summary-panel {
-		align-self: start;
-	}
-
-	.summary-spotlight {
-		padding: 1.1rem;
-		border-radius: 1.2rem;
-		border: 1px solid color-mix(in srgb, var(--type-accent, var(--primary)) 24%, transparent);
-		background: linear-gradient(
-			135deg,
-			color-mix(in srgb, var(--type-accent, var(--primary)) 14%, var(--bg-deep)) 0%,
-			color-mix(in srgb, var(--bg-surface) 95%, transparent) 100%
-		);
-
-		h3 {
-			margin-top: 0.55rem;
-			font-size: 2rem;
-			line-height: 0.95;
-		}
-
-		p {
-			margin: 0.55rem 0 0;
-			color: var(--text-secondary);
-			line-height: 1.65;
-		}
-	}
-
-	.summary-badge {
-		display: inline-flex;
-		align-items: center;
-		justify-content: center;
-		padding: 0.35rem 0.65rem;
-		border-radius: 999px;
-		background: color-mix(in srgb, var(--type-accent) 18%, var(--bg-base));
-		color: var(--text-primary);
-		font-size: 0.78rem;
-		font-weight: 600;
-	}
-
-	.summary-grid {
-		display: grid;
-		grid-template-columns: repeat(3, minmax(0, 1fr));
-		gap: 0.7rem;
-		margin: 1rem 0;
-	}
-
-	.summary-stat {
-		padding: 0.85rem;
-		border-radius: 1rem;
-		border: 1px solid color-mix(in srgb, var(--text-tertiary) 16%, transparent);
-		background: color-mix(in srgb, var(--bg-deep) 78%, transparent);
-
-		strong {
-			display: block;
-			margin-top: 0.35rem;
-			color: var(--text-primary);
-			font-size: 1rem;
-			line-height: 1.3;
-		}
-
-		span:last-child {
-			display: block;
-			margin-top: 0.3rem;
-			color: var(--text-secondary);
-			font-size: 0.8rem;
-			line-height: 1.45;
-		}
-	}
-
-	.checklist {
-		display: grid;
-		gap: 0.65rem;
-		margin-bottom: 1rem;
-	}
-
-	.checklist-item {
-		display: flex;
-		align-items: center;
-		gap: 0.75rem;
-		padding: 0.82rem 0.9rem;
-		border-radius: 0.95rem;
-		border: 1px solid color-mix(in srgb, var(--text-tertiary) 16%, transparent);
-		background: color-mix(in srgb, var(--bg-deep) 76%, transparent);
-		color: var(--text-secondary);
-
-		&.complete {
-			border-color: color-mix(in srgb, var(--success) 30%, transparent);
-			background: color-mix(in srgb, var(--success) 10%, var(--bg-deep));
-			color: var(--text-primary);
-		}
-	}
-
-	.check-indicator {
-		width: 1.5rem;
-		height: 1.5rem;
-		flex: 0 0 1.5rem;
-		border-radius: 999px;
-		display: flex;
-		align-items: center;
-		justify-content: center;
-		background: color-mix(in srgb, var(--type-accent) 14%, var(--bg-base));
-		font-family: var(--font-mono);
-		font-size: 0.7rem;
-		font-weight: 600;
-		color: var(--text-primary);
-	}
-
-	.next-step {
-		padding: 0.95rem 1rem;
-		border-radius: 1rem;
-		border: 1px solid color-mix(in srgb, var(--text-tertiary) 16%, transparent);
-		background: color-mix(in srgb, var(--bg-deep) 78%, transparent);
-
-		p {
-			margin: 0.45rem 0 0;
-			color: var(--text-secondary);
-			line-height: 1.6;
-		}
-	}
-
-	.summary-link,
 	.cta-link {
 		width: 100%;
 		margin-top: 0.95rem;
@@ -1553,8 +1351,7 @@
 			align-items: stretch;
 		}
 
-		.stats-strip,
-		.summary-grid {
+		.stats-strip {
 			grid-template-columns: 1fr;
 		}
 

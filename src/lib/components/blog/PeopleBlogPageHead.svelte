@@ -7,7 +7,11 @@
 		formatPersonalityDisplayName,
 		resolvePersonalityImageSlug
 	} from '$lib/utils/personalityAnalysis';
-	import { buildBreadcrumbSchema } from '$lib/utils/schema';
+	import {
+		buildBreadcrumbSchema,
+		parseJsonLdSnippet,
+		updateJsonLdDateModified
+	} from '$lib/utils/schema';
 
 	export let data: App.BlogPost;
 
@@ -92,30 +96,10 @@
 	// Make this reactive to ensure it updates when data changes
 	$: {
 		try {
-			let jsonLdObject;
-
-			if (data.jsonld_snippet) {
-				// Create a deep copy to avoid modifying the original object
-				jsonLdObject = JSON.parse(JSON.stringify(data.jsonld_snippet));
-
-				// Handle cases where @graph is present
-				if (jsonLdObject['@graph'] && Array.isArray(jsonLdObject['@graph'])) {
-					jsonLdObject['@graph'] = jsonLdObject['@graph'].map((item) => {
-						if (item['@type'] === 'Article' && item.dateModified) {
-							item.dateModified = data.lastmod;
-						}
-						return item;
-					});
-				} else {
-					// Single object case
-					if (jsonLdObject.dateModified) {
-						jsonLdObject.dateModified = data.lastmod;
-					}
-				}
-			} else {
-				// Generate generic snippet if none exists
-				jsonLdObject = buildCommonJsonLdFields();
-			}
+			const parsedSnippet = parseJsonLdSnippet(data.jsonld_snippet);
+			const jsonLdObject = parsedSnippet
+				? updateJsonLdDateModified(parsedSnippet, data.lastmod)
+				: buildCommonJsonLdFields();
 
 			jsonLdString = JSON.stringify(jsonLdObject);
 		} catch (error) {

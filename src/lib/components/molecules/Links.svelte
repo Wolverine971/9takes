@@ -80,11 +80,7 @@
 	</div>
 
 	{#if links.length < linksCount}
-		<button
-			class="mt-4 flex cursor-pointer items-center justify-center gap-2 rounded border-none bg-primary-500 px-5 py-3 font-medium text-white transition-all duration-200 hover:-translate-y-0.5 hover:bg-primary-600 disabled:cursor-not-allowed disabled:opacity-60"
-			onclick={loadMore}
-			disabled={loading}
-		>
+		<button class="links-load-more" onclick={loadMore} disabled={loading}>
 			{#if loading}
 				<div
 					class="h-5 w-5 animate-spin rounded-full border-2 border-white/30 border-t-white"
@@ -95,9 +91,47 @@
 		</button>
 	{/if}
 {:else if !links.length}
-	<h2
-		class="relative mb-4 py-2 text-center text-xl font-semibold text-neutral-900 after:absolute after:bottom-0 after:left-1/2 after:h-0.5 after:w-[60px] after:-translate-x-1/2 after:rounded-sm after:bg-primary-500 after:content-['']"
-	>
-		None
-	</h2>
+	<div class="links-empty-state">No linked articles yet.</div>
 {/if}
+
+<style>
+	.links-load-more {
+		display: inline-flex;
+		align-items: center;
+		justify-content: center;
+		gap: 0.5rem;
+		margin-top: 1rem;
+		padding: 0.8rem 1.2rem;
+		border: 1px solid color-mix(in srgb, var(--primary) 24%, transparent);
+		border-radius: 0.9rem;
+		background: linear-gradient(135deg, var(--primary-dark) 0%, var(--primary) 100%);
+		color: var(--text-on-primary);
+		font-weight: 600;
+		transition:
+			transform 0.2s ease,
+			box-shadow 0.2s ease,
+			background-color 0.2s ease;
+	}
+
+	.links-load-more:hover:not(:disabled) {
+		transform: translateY(-1px);
+		box-shadow: var(--glow-md);
+	}
+
+	.links-load-more:disabled {
+		cursor: not-allowed;
+		opacity: 0.6;
+	}
+
+	.links-empty-state {
+		margin-bottom: 1rem;
+		padding: 1.1rem;
+		border: 1px dashed color-mix(in srgb, var(--primary) 18%, var(--border-color));
+		border-radius: 1rem;
+		background: color-mix(in srgb, var(--primary-subtle) 36%, transparent);
+		color: var(--text-secondary);
+		font-size: 0.95rem;
+		font-weight: 600;
+		text-align: center;
+	}
+</style>

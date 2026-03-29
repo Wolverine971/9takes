@@ -24,10 +24,6 @@ Image intent:
 The fortress contains knowledge, preparation, and options, but the open gate is what keeps it from becoming a prison.
 -->
 
-<script>
-	import PopCard from "$lib/components/atoms/PopCard.svelte";
-</script>
-
 <svelte:head>
 
 <script type="application/ld+json">
@@ -82,22 +78,6 @@ The fortress contains knowledge, preparation, and options, but the open gate is 
 </script>
 
 </svelte:head>
-
-<div
-    style="display: flex;
-    justify-content: center;
-    margin: 1rem 0;"
->
- <PopCard
-        image={`/blogs/intellectual-fortress-prison.webp`}
-        showIcon={false}
-        tint={false}
-        displayText=""
-        altText="Three Greek marble statues inside a fortress library: one with books, one with a lantern and map, and one facing multiple archways while a gate stands open to the dawn"
-        subtext=""
-        aspectRatio="16/9"
-    />
-</div>
 
 <p class="firstLetter">Fear has two exits. One leads forward. The other leads to a room you can never leave.</p>
 

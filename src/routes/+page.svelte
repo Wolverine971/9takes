@@ -658,6 +658,7 @@
 		/* Homepage-specific accent colors */
 		--shadow-flame: var(--primary);
 		--shadow-ethereal: var(--primary-light);
+		--shadow-deep: var(--primary-dark);
 
 		/* System */
 		--system-hologram: var(--secondary);
@@ -867,9 +868,11 @@
 		justify-content: center;
 		width: 1.5rem;
 		height: 1.5rem;
-		background: var(--shadow-deep);
+		background: color-mix(in srgb, var(--primary-subtle) 70%, var(--bg-deep));
+		border: 1px solid color-mix(in srgb, var(--primary) 24%, transparent);
 		color: var(--shadow-flame);
 		border-radius: 4px;
+		box-shadow: var(--glow-sm);
 		font-weight: 700;
 		font-size: 0.9rem;
 	}
@@ -912,16 +915,29 @@
 		justify-content: center;
 		gap: 0.5rem;
 		padding: 0.75rem;
-		background: linear-gradient(135deg, var(--shadow-deep) 0%, var(--primary) 100%);
+		border: 1px solid color-mix(in srgb, var(--primary) 24%, transparent);
+		background: linear-gradient(135deg, var(--primary-dark) 0%, var(--primary) 100%);
 		border-radius: 8px;
 		font-family: var(--font-display);
 		font-size: 0.95rem;
 		font-weight: 600;
-		color: white;
+		color: var(--text-on-primary);
+		box-shadow: var(--glow-sm);
+		transition:
+			transform 200ms ease,
+			box-shadow 200ms ease,
+			background 200ms ease,
+			border-color 200ms ease;
 	}
 
 	.cta-arrow {
 		transition: transform 200ms ease;
+	}
+
+	.quest-card:hover .quest-cta {
+		border-color: color-mix(in srgb, var(--primary) 32%, transparent);
+		background: linear-gradient(135deg, var(--primary) 0%, var(--primary-light) 100%);
+		box-shadow: var(--glow-md);
 	}
 
 	.quest-card:hover .cta-arrow {
@@ -947,23 +963,28 @@
 		align-items: center;
 		justify-content: center;
 		padding: 0.875rem 1.75rem;
-		background: linear-gradient(135deg, var(--shadow-deep) 0%, var(--primary) 100%);
-		border: none;
+		border: 1px solid color-mix(in srgb, var(--primary) 24%, transparent);
 		border-radius: 8px;
+		background: linear-gradient(135deg, var(--primary-dark) 0%, var(--primary) 100%);
 		font-family: var(--font-display);
 		font-size: 1rem;
 		font-weight: 600;
-		color: white;
+		color: var(--text-on-primary);
 		text-decoration: none;
 		cursor: pointer;
 		overflow: hidden;
-		box-shadow: 0 0 20px rgba(45, 212, 191, 0.3);
-		transition: all 250ms var(--ease-out);
+		box-shadow: var(--glow-sm);
+		transition:
+			transform 250ms var(--ease-out),
+			box-shadow 250ms var(--ease-out),
+			background 250ms var(--ease-out),
+			border-color 250ms var(--ease-out);
 	}
 
 	.btn-shadow:hover {
-		background: linear-gradient(135deg, var(--primary) 0%, var(--shadow-flame) 100%);
-		box-shadow: 0 0 30px rgba(45, 212, 191, 0.5);
+		border-color: color-mix(in srgb, var(--primary) 32%, transparent);
+		background: linear-gradient(135deg, var(--primary) 0%, var(--primary-light) 100%);
+		box-shadow: var(--glow-md);
 		transform: translateY(-2px);
 	}
 
@@ -992,22 +1013,36 @@
 		align-items: center;
 		justify-content: center;
 		padding: 0.875rem 1.75rem;
-		background: transparent;
-		border: 1px solid rgba(251, 113, 133, 0.35);
+		background: color-mix(in srgb, var(--bg-deep) 88%, transparent);
+		border: 1px solid color-mix(in srgb, var(--text-tertiary) 25%, transparent);
 		border-radius: 8px;
 		font-family: var(--font-display);
 		font-size: 1rem;
 		font-weight: 600;
-		color: var(--system-hologram);
+		color: var(--text-secondary);
 		text-decoration: none;
 		cursor: pointer;
-		transition: all 250ms var(--ease-out);
+		transition:
+			transform 250ms var(--ease-out),
+			box-shadow 250ms var(--ease-out),
+			background-color 250ms var(--ease-out),
+			border-color 250ms var(--ease-out),
+			color 250ms var(--ease-out);
 	}
 
 	.btn-system:hover {
-		background: rgba(251, 113, 133, 0.08);
-		border-color: var(--system-hologram);
-		box-shadow: 0 0 20px rgba(251, 113, 133, 0.2);
+		border-color: color-mix(in srgb, var(--primary) 35%, transparent);
+		background: var(--primary-subtle);
+		color: var(--primary);
+		box-shadow: var(--glow-sm);
+		transform: translateY(-2px);
+	}
+
+	.btn-shadow:focus-visible,
+	.btn-system:focus-visible,
+	.quest-card:focus-visible {
+		outline: 2px solid var(--primary);
+		outline-offset: 3px;
 	}
 
 	/* ==========================================

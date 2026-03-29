@@ -121,8 +121,7 @@
 		const firstSelectedLeaf = serverTagIds
 			.map((tagId) => categoryById.get(tagId))
 			.find(
-				(category): category is EditableCategory =>
-					category !== undefined && category.level === 3
+				(category): category is EditableCategory => category !== undefined && category.level === 3
 			);
 
 		if (firstSelectedLeaf?.parent_id) {
@@ -746,7 +745,11 @@
 
 		{#if dataForChild}
 			<div class="question-section question-section-content">
-				<QuestionContent data={dataForChild} user={data?.user} oncommentAdded={() => addComment()} />
+				<QuestionContent
+					data={dataForChild}
+					user={data?.user}
+					oncommentAdded={() => addComment()}
+				/>
 			</div>
 		{/if}
 	</article>

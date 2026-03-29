@@ -129,21 +129,6 @@ path: src/blog/community/reddit-deep-connections-limitations.md
 **Reddit was designed for content distribution, not human connection.** Its algorithms reward speed over depth, organize people by topics instead of identity, and archive conversations before relationships can form. The result: you can interact with thousands of people and still feel completely alone. The platform isn't broken — it's optimized for something other than what you're looking for.
 </QuickAnswer>
 
-<div
-    style="display: flex;
-    justify-content: center;
-margin: 1rem 0;"
->
- <PopCard
-        image={`/blogs/reddit-late-at-night.webp`}
-        showIcon={false}
-        tint={false}
-        displayText=""
-        altText="reading reddit threads late at night"
-        subtext=""
-    />
-</div>
-
 <p class="firstLetter">You've scrolled r/relationship_advice at 2 AM looking for connection. You found 47 comments telling someone to "lawyer up" and a bot.</p>
 
 Reddit has communities for everything. Over 100,000 active subreddits, [57 million daily active users](https://www.redditinc.com/blog/reddit-recap-2023) (as of Reddit's 2023 year-end report), endless threads on every topic imaginable. But deep connection? That's the one thing it can't deliver.

@@ -80,21 +80,6 @@ path: src/blog/community/inspiration-for-9takes.md
 **A marriage that was falling apart.** My wife and I couldn't stop fighting until a counselor introduced us to personality tests — first MBTI, then the Enneagram. Understanding *why* we processed things differently changed everything. I went looking for a place to explore personality online, couldn't find one that worked, and built 9takes: one question, nine ways to see it.
 </QuickAnswer>
 
-<div
-    style="display: flex;
-    justify-content: center;
-    margin: 1rem 0;"
->
- <PopCard
-        image={`/blogs/husband-and-wife-arguing.webp`}
-        showIcon={false}
-        tint={false}
-        displayText=""
-        altText="My wife and I arguing"
-        subtext=""
-    />
-</div>
-
 <p class="firstLetter">My wife and I almost destroyed our marriage before we figured out we weren't speaking the same language.</p>
 
 Not literally — we both speak English. But we were using the same words to mean completely different things. And every attempt to "fix" our communication made it worse.

@@ -93,21 +93,6 @@ Show mind change as a process with three layers: thought, relationship, and stru
 	import MarqueeHorizontal from "$lib/components/atoms/MarqueeHorizontal.svelte";
 </script>
 
-<div
-	style="display: flex;
-    justify-content: center;
-	margin: 1rem 0;"
->
-	<PopCard
-		image={`/blogs/greek-statues-rethinking-together.webp`}
-		showIcon={false}
-		tint={false}
-		displayText=""
-		altText="Greek statues debating and reflecting — symbolizing the three layers of belief change"
-		subtext=""
-	/>
-</div>
-
 <p class="firstLetter">Most arguments fail before the first fact lands.</p>
 
 Not because one side is dumb. Not because the evidence is weak.

@@ -301,9 +301,9 @@
 		flex-shrink: 0;
 
 		&:hover {
-			background: rgba(45, 212, 191, 0.15);
-			color: var(--accent-light);
-			border-color: rgba(45, 212, 191, 0.4);
+			background: color-mix(in srgb, var(--primary-subtle) 56%, transparent);
+			color: var(--primary);
+			border-color: color-mix(in srgb, var(--primary) 24%, transparent);
 			transform: translateY(-1px);
 		}
 	}
@@ -377,9 +377,9 @@
 		margin-top: 0.25rem;
 
 		&:hover {
-			color: var(--accent-light);
-			background: rgba(45, 212, 191, 0.1);
-			border-color: rgba(45, 212, 191, 0.2);
+			color: var(--primary);
+			background: color-mix(in srgb, var(--primary-subtle) 54%, transparent);
+			border-color: color-mix(in srgb, var(--primary) 24%, transparent);
 		}
 	}
 
@@ -415,7 +415,7 @@
 			transform: translateY(-3px);
 			border-color: rgba(45, 212, 191, 0.3);
 			box-shadow:
-				0 8px 24px rgba(0, 0, 0, 0.3),
+				var(--shadow-lg),
 				0 0 0 1px rgba(45, 212, 191, 0.1);
 
 			&::before {
@@ -432,6 +432,18 @@
 		}
 
 		&.has-image {
+			.card-content {
+				color: #fff;
+			}
+
+			.card-content h3 {
+				color: #fff;
+			}
+
+			.card-content p {
+				color: rgba(255, 255, 255, 0.8);
+			}
+
 			.card-overlay {
 				background: linear-gradient(
 					to top,

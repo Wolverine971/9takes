@@ -145,14 +145,26 @@ async function findMarkdownFiles(dir, fileList = []) {
 /**
  * Extract JSON-LD from HTML content
  * @param {string} content - HTML content
- * @returns {string|null} - JSON-LD string or null if not found
+ * @returns {object|Array|null} - Parsed JSON-LD object or null if not found/invalid
  */
 export function extractJsonLd(content) {
 	const ldJsonRegex = /<script type="application\/ld\+json">([\s\S]*?)<\/script>/;
 	const match = content.match(ldJsonRegex);
 
 	if (match && match[1]) {
-		return match[1].trim();
+		try {
+			let parsed = JSON.parse(match[1].trim());
+
+			for (let attempts = 0; attempts < 2 && typeof parsed === 'string'; attempts += 1) {
+				parsed = JSON.parse(parsed);
+			}
+
+			if (parsed && typeof parsed === 'object') {
+				return parsed;
+			}
+		} catch (error) {
+			console.warn('Failed to parse JSON-LD block:', error);
+		}
 	}
 
 	return null;
@@ -231,7 +243,7 @@ export async function parseMarkdownFile(filePath) {
 		instagram: data.instagram || '',
 		tiktok: data.tiktok || '',
 		content: cleanedContent,
-		jsonld_snippet: jsonld_snippet || '',
+		jsonld_snippet,
 		content_quality: normalizedContentQuality,
 		_has_content_quality: hasContentQualityField,
 		_has_valid_content_quality: hasValidContentQuality
@@ -334,7 +346,7 @@ async function insertIntoSupabase(entries, options = {}) {
 		instagram: '',
 		tiktok: '',
 		content: '',
-		jsonld_snippet: '',
+		jsonld_snippet: null,
 		content_quality: null
 	};
 

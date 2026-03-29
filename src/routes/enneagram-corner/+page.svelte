@@ -427,11 +427,11 @@
 					{/if}
 				</div>
 
-					<div class="blog-grid" class:nine-types-grid={section.type === 'nine-types'}>
-						{#each data.enneagramBlogs
-							.filter((blog) => blog.type?.[0] === section.type)
-							.slice(0, section.type === 'nine-types' ? 9 : 6) as blog (blog.slug)}
-							<a
+				<div class="blog-grid" class:nine-types-grid={section.type === 'nine-types'}>
+					{#each data.enneagramBlogs
+						.filter((blog) => blog.type?.[0] === section.type)
+						.slice(0, section.type === 'nine-types' ? 9 : 6) as blog (blog.slug)}
+						<a
 							href="/enneagram-corner/{blog.slug}"
 							class="blog-card"
 							class:has-image={blog.pic}
@@ -838,7 +838,9 @@
 		&:hover {
 			transform: translateY(-4px);
 			border-color: color-mix(in srgb, var(--primary) 30%, transparent);
-			box-shadow: var(--shadow-lg), 0 0 0 1px var(--primary-subtle);
+			box-shadow:
+				var(--shadow-lg),
+				0 0 0 1px var(--primary-subtle);
 
 			&::before {
 				opacity: 1;

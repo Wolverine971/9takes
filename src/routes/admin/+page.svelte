@@ -333,7 +333,6 @@
 								<span class="action-icon">🎭</span>
 								<div>
 									<span class="action-label">Demo mode</span>
-									
 								</div>
 							</div>
 							<span class="action-state">{isDemoTime ? 'On' : 'Off'}</span>
@@ -349,7 +348,6 @@
 								<span class="action-icon">🔄</span>
 								<div>
 									<span class="action-label">Reindex search</span>
-									
 								</div>
 							</div>
 							<span class="action-state">{isReindexing ? 'Running' : 'Ready'}</span>

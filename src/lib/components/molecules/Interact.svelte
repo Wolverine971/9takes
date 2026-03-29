@@ -419,10 +419,7 @@
 	</div>
 
 	{#if commenting}
-		<div
-			class="composer-surface"
-			in:slide={{ duration: 300 }}
-		>
+		<div class="composer-surface" in:slide={{ duration: 300 }}>
 			<div class="composer-body">
 				{#if parentType === 'question' && comment.length === 0}
 					<p class="depth-prompt">

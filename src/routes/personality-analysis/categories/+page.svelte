@@ -318,10 +318,21 @@
 
 <style lang="scss">
 	.page-shell {
+		--surface-card: color-mix(in srgb, var(--bg-surface) 90%, var(--bg-deep));
+		--surface-card-strong: color-mix(in srgb, var(--bg-surface) 82%, var(--bg-deep));
+		--accent-border: color-mix(in srgb, var(--accent) 18%, var(--border-color));
 		min-height: 100vh;
 		background:
-			radial-gradient(circle at top, rgba(45, 212, 191, 0.12), transparent 35%),
-			linear-gradient(180deg, #09090f 0%, var(--bg-deep) 100%);
+			radial-gradient(
+				circle at top,
+				color-mix(in srgb, var(--accent-soft) 52%, transparent) 0%,
+				transparent 36%
+			),
+			linear-gradient(
+				180deg,
+				color-mix(in srgb, var(--bg-deep) 88%, var(--bg-base)) 0%,
+				var(--bg-base) 100%
+			);
 	}
 
 	.hero {
@@ -366,7 +377,7 @@
 	.lede {
 		max-width: 760px;
 		margin: 1rem auto 0;
-		color: var(--neutral-700);
+		color: var(--text-secondary);
 		font-size: 1.05rem;
 		line-height: 1.7;
 	}
@@ -383,17 +394,17 @@
 		a {
 			padding: 0.6rem 0.9rem;
 			border-radius: 999px;
-			background: rgba(15, 23, 42, 0.7);
-			border: 1px solid rgba(148, 163, 184, 0.2);
-			color: var(--neutral-700);
+			background: var(--surface-card);
+			border: 1px solid var(--accent-border);
+			color: var(--text-secondary);
 			font-size: 0.85rem;
 			text-decoration: none;
 		}
 	}
 
 	.hero-link:hover {
-		border-color: rgba(45, 212, 191, 0.45);
-		color: #ddd6fe;
+		border-color: color-mix(in srgb, var(--accent) 38%, transparent);
+		color: var(--primary);
 	}
 
 	.content {
@@ -413,7 +424,7 @@
 		gap: 1rem;
 		margin-bottom: 1.25rem;
 		padding-bottom: 0.85rem;
-		border-bottom: 1px solid rgba(148, 163, 184, 0.14);
+		border-bottom: 1px solid var(--accent-border);
 	}
 
 	.section-copy {
@@ -434,14 +445,19 @@
 	.secondary-card {
 		text-decoration: none;
 		background:
-			linear-gradient(180deg, var(--accent-soft) 0%, rgba(15, 23, 42, 0) 48%),
-			linear-gradient(180deg, rgba(15, 23, 42, 0.96) 0%, rgba(15, 23, 42, 0.98) 100%);
-		border: 1px solid rgba(148, 163, 184, 0.16);
+			linear-gradient(
+				180deg,
+				color-mix(in srgb, var(--accent-soft) 38%, transparent) 0%,
+				transparent 48%
+			),
+			var(--surface-card-strong);
+		border: 1px solid var(--accent-border);
 		border-radius: 1.1rem;
 		padding: 1.25rem;
 		display: flex;
 		flex-direction: column;
 		gap: 0.85rem;
+		box-shadow: var(--shadow-sm);
 		transition:
 			transform 0.2s ease,
 			border-color 0.2s ease,
@@ -449,8 +465,8 @@
 
 		&:hover {
 			transform: translateY(-4px);
-			border-color: var(--accent);
-			box-shadow: 0 14px 30px rgba(0, 0, 0, 0.28);
+			border-color: color-mix(in srgb, var(--accent) 38%, transparent);
+			box-shadow: var(--shadow-lg);
 		}
 	}
 
@@ -470,8 +486,8 @@
 		min-width: 2.2rem;
 		padding: 0.35rem 0.55rem;
 		border-radius: 999px;
-		background: rgba(15, 23, 42, 0.82);
-		border: 1px solid rgba(148, 163, 184, 0.2);
+		background: var(--surface-card);
+		border: 1px solid var(--accent-border);
 		color: var(--text-primary);
 		text-align: center;
 		font-size: 0.8rem;
@@ -481,7 +497,7 @@
 	.summary,
 	.secondary-card p {
 		margin: 0;
-		color: var(--neutral-700);
+		color: var(--text-secondary);
 		font-size: 0.9rem;
 		line-height: 1.55;
 	}
@@ -506,8 +522,8 @@
 	.cluster-chip {
 		padding: 0.35rem 0.55rem;
 		border-radius: 0.75rem;
-		background: rgba(15, 23, 42, 0.68);
-		border: 1px solid rgba(148, 163, 184, 0.12);
+		background: var(--surface-card);
+		border: 1px solid var(--accent-border);
 		color: var(--text-primary);
 		font-size: 0.72rem;
 		line-height: 1.3;
@@ -520,9 +536,9 @@
 	.tag-chip {
 		padding: 0.35rem 0.55rem;
 		border-radius: 999px;
-		background: rgba(15, 23, 42, 0.78);
-		border: 1px solid rgba(148, 163, 184, 0.16);
-		color: var(--neutral-700);
+		background: var(--surface-card);
+		border: 1px solid var(--accent-border);
+		color: var(--text-secondary);
 		font-size: 0.74rem;
 	}
 
@@ -556,7 +572,7 @@
 		display: inline-flex;
 		align-items: center;
 		gap: 0.35rem;
-		color: var(--accent);
+		color: var(--primary);
 		font-size: 0.82rem;
 		font-weight: 600;
 	}

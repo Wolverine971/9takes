@@ -142,10 +142,16 @@
 		max-width: 400px;
 		margin: 2rem auto;
 		padding: 2rem;
-		background-color: var(--bg-surface);
-		border: 1px solid color-mix(in srgb, var(--text-tertiary) 20%, transparent);
-		border-radius: 12px;
-		box-shadow: 0 0 30px rgba(0, 0, 0, 0.3);
+		background:
+			linear-gradient(
+				180deg,
+				color-mix(in srgb, var(--accent-soft) 28%, transparent) 0%,
+				transparent 42%
+			),
+			color-mix(in srgb, var(--bg-surface) 94%, var(--bg-base));
+		border: 1px solid color-mix(in srgb, var(--accent) 16%, var(--border-color));
+		border-radius: 1rem;
+		box-shadow: var(--shadow-lg);
 	}
 
 	.auth-title {
@@ -153,7 +159,7 @@
 		margin-bottom: 2rem;
 		font-size: 1.5rem;
 		font-weight: bold;
-		color: var(--accent-light);
+		color: var(--text-primary);
 	}
 
 	.auth-form {
@@ -171,14 +177,14 @@
 	.form-label {
 		font-weight: 600;
 		font-size: 0.9rem;
-		color: var(--neutral-700);
+		color: var(--text-secondary);
 	}
 
 	.form-input {
 		padding: 0.75rem;
-		background-color: var(--bg-elevated);
-		border: 1px solid color-mix(in srgb, var(--text-tertiary) 30%, transparent);
-		border-radius: 8px;
+		background-color: color-mix(in srgb, var(--bg-surface) 90%, var(--bg-base));
+		border: 1px solid color-mix(in srgb, var(--accent) 14%, var(--border-color));
+		border-radius: 0.9rem;
 		font-size: 1rem;
 		color: var(--text-primary);
 		transition: all 0.3s ease;
@@ -189,25 +195,29 @@
 
 		&:focus {
 			outline: none;
-			border-color: var(--primary-dark);
-			box-shadow: 0 0 10px rgba(45, 212, 191, 0.3);
+			border-color: var(--primary);
+			box-shadow: var(--glow-sm);
+			background: var(--bg-surface);
 		}
 	}
 
 	.success-message {
 		padding: 1rem;
 		margin-bottom: 1rem;
-		background-color: var(--success-light);
-		border: 1px solid var(--success-border);
-		border-radius: 8px;
+		background-color: color-mix(in srgb, var(--success-light) 88%, var(--bg-surface));
+		border: 1px solid color-mix(in srgb, var(--success-border) 72%, transparent);
+		border-radius: 0.9rem;
 		color: var(--success-text);
 		text-align: center;
 	}
 
 	.error-message {
-		padding: 0.5rem;
+		padding: 0.75rem 0.9rem;
 		font-size: 0.9rem;
 		color: var(--error);
+		background: color-mix(in srgb, var(--error) 10%, transparent);
+		border: 1px solid color-mix(in srgb, var(--error) 28%, transparent);
+		border-radius: 0.85rem;
 	}
 
 	.back-link {
@@ -215,13 +225,13 @@
 		margin-top: 1rem;
 
 		a {
-			color: var(--accent-light);
+			color: var(--primary);
 			text-decoration: none;
 			font-size: 0.9rem;
 			transition: all 0.3s ease;
 
 			&:hover {
-				color: var(--primary-lightest);
+				color: var(--text-primary);
 				text-decoration: underline;
 			}
 		}

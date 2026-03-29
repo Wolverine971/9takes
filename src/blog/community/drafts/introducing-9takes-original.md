@@ -34,22 +34,6 @@ Most of the forums have devolved into echo chambers. The platforms have chosen s
 
 9takes is trying to fix this.
 
-<div
-	style="display: flex;
-    justify-content: center;
-	margin: 1rem 0;"
->
- <PopCard
-		image={`/blogs/greek-statue-introducing-9takes.webp`}
-		showIcon={false}
-		tint={false}
-		displayText=""
-		altText="A scenic view of a person working on a computer in the jungle"
-		subtext=""
-	/>
-
-</div>
-
 ## The Evolution of Social Media: From Fragmentation to Authentic Conversations
 
 Over time, the internet has become increasingly fragmented, with once-vibrant platforms losing their spark and becoming overrun by bots and inauthentic interactions. The exciting conversations that used to define these spaces have been replaced by a dull, lifeless atmosphere. This raises the question: How did we get here, and what can we do to revitalize online discussions?

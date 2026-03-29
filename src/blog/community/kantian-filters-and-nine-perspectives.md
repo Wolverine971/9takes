@@ -25,7 +25,6 @@ Concrete classroom experiment: one shared object, nine physical filters, nine di
 -->
 
 <script>
-	import PopCard from "$lib/components/atoms/PopCard.svelte";
 	const videoUrl = "https://www.youtube.com/embed/BtlWoqWLm9Q";
 </script>
 
@@ -83,21 +82,6 @@ Concrete classroom experiment: one shared object, nine physical filters, nine di
 </script>
 
 </svelte:head>
-
-<div
-    style="display: flex;
-    justify-content: center;
-    margin: 1rem 0;"
->
- <PopCard
-        image={`/blogs/kantian-filters-nine-perspectives.webp`}
-        showIcon={false}
-        tint={false}
-        displayText=""
-        altText="Nine Greek bust statues in a classroom viewing one candle through different colored lenses"
-        subtext=""
-    />
-</div>
 
 <p class="firstLetter">A lecture called <a class="external-link" target="_blank" rel="noreferrer" href="https://www.youtube.com/watch?v=BtlWoqWLm9Q">"Secret History #4: How Evil Triumphs"</a> has racked up nearly 2 million views on YouTube. It was delivered by Jiang Xueqin — a Yale-educated Chinese-Canadian educator who teaches Western Philosophy at Moonshot Academy in Beijing — and posted to his channel <a class="external-link" target="_blank" rel="noreferrer" href="https://www.youtube.com/@PredictiveHistory">Predictive History</a>, which is approaching a million subscribers.</p>
 

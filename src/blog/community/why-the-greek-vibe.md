@@ -89,21 +89,6 @@ That practice—open questions, multiple viewpoints, thinking before reacting—
 
 **9takes seeks to be the modern day agora where fundamental questions can be discussed openly.**
 
-<div
-	style="display: flex;
-    justify-content: center;
-margin: 1rem 0;"
->
- <PopCard
-		image={`/blogs/neoclassical-metropolis.webp`}
-		showIcon={false}
-		tint={false}
-		displayText=""
-		altText="neoclassical metropolis"
-		subtext=""
-	/>
-</div>
-
 ## What the Greeks Understood About Discourse
 
 <!--

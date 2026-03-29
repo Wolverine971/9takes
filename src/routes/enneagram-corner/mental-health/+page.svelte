@@ -353,6 +353,9 @@
 <style lang="scss">
 	/* 9takes Warm Tech Theme - Mental Health Hub */
 	.page-wrapper {
+		--surface-card: color-mix(in srgb, var(--bg-surface) 92%, var(--bg-base));
+		--surface-card-strong: color-mix(in srgb, var(--bg-surface) 86%, var(--bg-deep));
+		--accent-border: color-mix(in srgb, var(--accent) 18%, var(--border-color));
 		min-height: 100vh;
 		background: linear-gradient(180deg, var(--bg-base) 0%, var(--bg-deep) 100%);
 	}
@@ -374,7 +377,11 @@
 		transform: translateX(-50%);
 		width: 300px;
 		height: 150px;
-		background: radial-gradient(ellipse, rgba(45, 212, 191, 0.15) 0%, transparent 70%);
+		background: radial-gradient(
+			ellipse,
+			color-mix(in srgb, var(--accent-soft) 58%, transparent) 0%,
+			transparent 70%
+		);
 		pointer-events: none;
 	}
 
@@ -385,7 +392,7 @@
 		margin: 0;
 		letter-spacing: -0.02em;
 		position: relative;
-		background: linear-gradient(135deg, var(--text-primary) 0%, var(--accent-light) 100%);
+		background: linear-gradient(135deg, var(--text-primary) 0%, var(--primary) 100%);
 		-webkit-background-clip: text;
 		-webkit-text-fill-color: transparent;
 		background-clip: text;
@@ -393,9 +400,13 @@
 
 	/* Quick Navigation */
 	.quick-nav {
-		background: linear-gradient(180deg, rgba(10, 10, 15, 0.98) 0%, rgba(10, 10, 15, 0.95) 100%);
+		background: linear-gradient(
+			180deg,
+			color-mix(in srgb, var(--bg-surface) 96%, var(--bg-base)) 0%,
+			color-mix(in srgb, var(--bg-surface) 88%, var(--bg-base)) 100%
+		);
 		backdrop-filter: blur(12px);
-		border-bottom: 1px solid rgba(45, 212, 191, 0.15);
+		border-bottom: 1px solid var(--accent-border);
 		padding: 0.75rem 0;
 		margin-bottom: 1rem;
 	}
@@ -421,7 +432,7 @@
 		align-items: center;
 		gap: 0.5rem;
 		padding: 0.5rem 1rem;
-		background: rgba(26, 26, 46, 0.6);
+		background: color-mix(in srgb, var(--bg-surface) 92%, var(--bg-base));
 		border-radius: 0.5rem;
 		font-size: 0.8125rem;
 		font-weight: 500;
@@ -429,12 +440,12 @@
 		white-space: nowrap;
 		transition: all 0.2s ease;
 		text-decoration: none;
-		border: 1px solid var(--border-color);
+		border: 1px solid var(--accent-border);
 
 		&:hover {
-			background: rgba(45, 212, 191, 0.15);
-			color: var(--accent-light);
-			border-color: rgba(45, 212, 191, 0.4);
+			background: color-mix(in srgb, var(--primary-subtle) 62%, transparent);
+			color: var(--primary);
+			border-color: color-mix(in srgb, var(--primary) 28%, transparent);
 			transform: translateY(-1px);
 		}
 	}
@@ -514,9 +525,9 @@
 		display: flex;
 		align-items: center;
 		justify-content: center;
-		background: rgba(45, 212, 191, 0.1);
+		background: color-mix(in srgb, var(--primary-subtle) 56%, transparent);
 		border-radius: 0.5rem;
-		border: 1px solid rgba(45, 212, 191, 0.2);
+		border: 1px solid color-mix(in srgb, var(--primary) 18%, transparent);
 	}
 
 	.section-title-group h2 {
@@ -541,16 +552,17 @@
 	}
 
 	.benefit-card {
-		background: var(--bg-deep);
-		border: 1px solid var(--border-color);
+		background: var(--surface-card);
+		border: 1px solid var(--accent-border);
 		border-radius: 12px;
 		padding: 1.25rem;
+		box-shadow: var(--shadow-sm);
 		transition: all 0.2s ease;
 
 		&:hover {
 			transform: translateY(-2px);
-			border-color: rgba(45, 212, 191, 0.3);
-			box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+			border-color: color-mix(in srgb, var(--primary) 28%, transparent);
+			box-shadow: var(--shadow-lg);
 		}
 
 		h3 {
@@ -598,16 +610,21 @@
 		aspect-ratio: 4 / 3;
 		border-radius: 0.75rem;
 		overflow: hidden;
-		background: var(--bg-deep);
+		background: var(--surface-card-strong);
 		text-decoration: none;
 		transition: all 0.25s ease;
-		border: 1px solid var(--border-color);
+		border: 1px solid var(--accent-border);
+		box-shadow: var(--shadow-sm);
 
 		&::before {
 			content: '';
 			position: absolute;
 			inset: 0;
-			background: linear-gradient(135deg, rgba(45, 212, 191, 0.05) 0%, transparent 50%);
+			background: linear-gradient(
+				135deg,
+				color-mix(in srgb, var(--primary-subtle) 42%, transparent) 0%,
+				transparent 50%
+			);
 			opacity: 0;
 			transition: opacity 0.25s ease;
 			z-index: 1;
@@ -615,17 +632,17 @@
 
 		&:hover {
 			transform: translateY(-3px);
-			border-color: rgba(45, 212, 191, 0.3);
+			border-color: color-mix(in srgb, var(--primary) 28%, transparent);
 			box-shadow:
-				0 8px 24px rgba(0, 0, 0, 0.3),
-				0 0 0 1px rgba(45, 212, 191, 0.1);
+				var(--shadow-lg),
+				0 0 0 1px color-mix(in srgb, var(--primary) 14%, transparent);
 
 			&::before {
 				opacity: 1;
 			}
 
 			.card-content h4 {
-				color: var(--accent-light);
+				color: var(--primary);
 			}
 		}
 	}
@@ -633,7 +650,17 @@
 	.card-overlay {
 		position: absolute;
 		inset: 0;
-		background: linear-gradient(135deg, rgba(22, 22, 30, 0.95) 0%, rgba(10, 10, 15, 0.98) 100%);
+		background:
+			linear-gradient(
+				180deg,
+				color-mix(in srgb, var(--accent-soft) 36%, transparent) 0%,
+				transparent 42%
+			),
+			linear-gradient(
+				135deg,
+				color-mix(in srgb, var(--bg-surface) 96%, var(--bg-base)) 0%,
+				color-mix(in srgb, var(--bg-surface) 88%, var(--bg-deep)) 100%
+			);
 	}
 
 	.card-content {
@@ -675,19 +702,20 @@
 		.read-link {
 			font-size: 0.6875rem;
 			font-weight: 600;
-			color: var(--accent-light);
+			color: var(--primary);
 			margin-top: 0.375rem;
 		}
 	}
 
 	/* Type Blocks */
 	.type-block {
-		background: var(--bg-deep);
-		border: 1px solid var(--border-color);
+		background: var(--surface-card);
+		border: 1px solid var(--accent-border);
 		border-radius: 12px;
 		padding: 1.5rem;
 		margin-bottom: 1rem;
 		scroll-margin-top: 80px;
+		box-shadow: var(--shadow-sm);
 	}
 
 	.type-header {
@@ -710,12 +738,12 @@
 		justify-content: center;
 		width: 2rem;
 		height: 2rem;
-		background: linear-gradient(135deg, var(--primary-dark) 0%, var(--accent-dark) 100%);
-		color: var(--text-primary);
+		background: linear-gradient(135deg, var(--primary-dark) 0%, var(--primary) 100%);
+		color: var(--text-on-primary);
 		border-radius: 8px;
 		font-weight: 700;
 		font-size: 1rem;
-		box-shadow: 0 0 10px rgba(45, 212, 191, 0.3);
+		box-shadow: var(--glow-sm);
 	}
 
 	.type-content {
@@ -753,9 +781,10 @@
 		padding: 2.5rem 2rem;
 		text-align: center;
 		color: var(--text-primary);
-		border: 1px solid rgba(45, 212, 191, 0.2);
+		border: 1px solid var(--accent-border);
 		position: relative;
 		overflow: hidden;
+		box-shadow: var(--shadow-sm);
 
 		&::before {
 			content: '';
@@ -765,7 +794,11 @@
 			transform: translateX(-50%);
 			width: 400px;
 			height: 200px;
-			background: radial-gradient(ellipse, rgba(45, 212, 191, 0.1) 0%, transparent 70%);
+			background: radial-gradient(
+				ellipse,
+				color-mix(in srgb, var(--accent-soft) 52%, transparent) 0%,
+				transparent 70%
+			);
 			pointer-events: none;
 		}
 	}
@@ -801,19 +834,19 @@
 		display: inline-flex;
 		align-items: center;
 		padding: 0.75rem 1.5rem;
-		background: linear-gradient(135deg, var(--primary-dark) 0%, var(--accent-dark) 100%);
-		color: var(--text-primary);
+		background: linear-gradient(135deg, var(--primary-dark) 0%, var(--primary) 100%);
+		color: var(--text-on-primary);
 		font-weight: 600;
 		font-size: 0.875rem;
 		border-radius: 0.5rem;
 		text-decoration: none;
 		transition: all 0.2s ease;
-		box-shadow: 0 0 20px rgba(45, 212, 191, 0.25);
+		box-shadow: var(--glow-sm);
 
 		&:hover {
-			background: linear-gradient(135deg, var(--accent) 0%, var(--primary-dark) 100%);
+			background: linear-gradient(135deg, var(--primary) 0%, var(--accent) 100%);
 			transform: translateY(-2px);
-			box-shadow: 0 0 30px rgba(45, 212, 191, 0.35);
+			box-shadow: var(--glow-md);
 		}
 	}
 
@@ -821,19 +854,19 @@
 		display: inline-flex;
 		align-items: center;
 		padding: 0.75rem 1.5rem;
-		background: rgba(45, 212, 191, 0.1);
-		color: var(--neutral-700);
+		background: color-mix(in srgb, var(--primary-subtle) 62%, transparent);
+		color: var(--text-secondary);
 		font-weight: 600;
 		font-size: 0.875rem;
 		border-radius: 0.5rem;
-		border: 1px solid rgba(45, 212, 191, 0.25);
+		border: 1px solid var(--accent-border);
 		text-decoration: none;
 		transition: all 0.2s ease;
 
 		&:hover {
-			background: rgba(45, 212, 191, 0.2);
-			border-color: rgba(45, 212, 191, 0.4);
-			color: var(--accent-light);
+			background: color-mix(in srgb, var(--primary-subtle) 80%, transparent);
+			border-color: color-mix(in srgb, var(--primary) 28%, transparent);
+			color: var(--primary);
 		}
 	}
 

@@ -83,21 +83,6 @@ A human confronted by something unseen — the weight of a question in a sacred 
 
 </svelte:head>
 
-<div
-    style="display: flex;
-    justify-content: center;
-    margin: 1rem 0;"
->
- <PopCard
-        image={`/blogs/questions-engine-moral-awakening.webp`}
-        showIcon={false}
-        tint={false}
-        displayText=""
-        altText="Ancient figure standing in a garden at dawn being confronted with a question"
-        subtext=""
-    />
-</div>
-
 <p class="firstLetter">Most people think the Bible starts with answers. God creates the heavens and the earth. Light. Land. Animals. Humans. It reads like a series of declarations — authoritative, top-down, settled.</p>
 
 But the moment the story gets interesting — the moment something goes wrong — God doesn't issue a verdict. He asks a question.

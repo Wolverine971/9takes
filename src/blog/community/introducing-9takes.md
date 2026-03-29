@@ -129,22 +129,6 @@ path: src/blog/community/introducing-9takes.md
 **9takes is a Q&A platform where you answer first, then compare perspectives.** Comments are hidden until you contribute your own take — removing the echo chamber effect that plagues every other platform. An optional Enneagram personality lens lets you see *why* people think differently, not just *that* they do. One question, nine ways to see it.
 </QuickAnswer>
 
-<div
-	style="display: flex;
-    justify-content: center;
-	margin: 1rem 0;"
->
-	 <PopCard
-		image={`/blogs/greek-statue-introducing-9takes.webp`}
-		showIcon={false}
-		tint={false}
-		displayText=""
-		altText="A Greek statue representing reflection and conversation"
-		subtext=""
-	/>
-
-</div>
-
 <p class="firstLetter">Where do good conversations happen online?</p>
 
 Where can you get honest, unprimed perspectives without walking into an echo chamber?

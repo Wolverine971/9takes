@@ -71,25 +71,6 @@ path: src/blog/community/what-winning-online-arguments-looks-like.md
 
 </svelte:head>
 
-<script>
-	import  PopCard  from "$lib/components/atoms/PopCard.svelte";
-</script>
-
-<div
-    style="display: flex;
-    justify-content: center;
-    margin: 1rem 0;"
->
- <PopCard
-        image={`/blogs/greek-statue-arguing-online.webp`}
-        showIcon={false}
-        tint={false}
-        displayText=""
-        altText="a greek statue arguing online"
-        subtext=""
-    />
-</div>
-
 <p class="firstLetter">You destroyed them in the comments.</p>
 
 Perfect logic. Receipts. A devastating final line that left them with nothing to say.

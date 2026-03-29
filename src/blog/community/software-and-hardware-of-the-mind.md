@@ -102,21 +102,6 @@ path: src/blog/community/software-and-hardware-of-the-mind.md
 
 </svelte:head>
 
-<div
-    style="display: flex;
-    justify-content: center;
-    margin: 1rem 0;"
->
- <PopCard
-        image={`/blogs/greek-mind.webp`}
-        showIcon={false}
-        tint={false}
-        displayText=""
-        altText="greek mind 🧠"
-        subtext=""
-    />
-</div>
-
 <QuickAnswer question="Why does modern psychology struggle to explain emotions and personality?">
 Modern psychology focuses on the brain's "hardware" (anatomy, neurons, lobes) while neglecting its "software" (emotions, personality, thought patterns). Since the shift from Freud and Jung's psychoanalysis to behaviorism and neuroscience, we've gained detailed brain maps but lost the tools to understand our inner lives. The ancient Greeks understood this better—their flawed gods served as archetypes that helped people recognize emotional patterns. Today, systems like the Enneagram fill this gap by organizing personality around core emotions and motivations.
 </QuickAnswer>

@@ -80,21 +80,6 @@ path: src/blog/community/why-im-selective-sharing-enneagram.md
 **Share your own growth, not their diagnosis.** Talk about what you learned about yourself, not what you've figured out about them. Invite curiosity instead of assigning types. Be a beacon — people who need what you've found will come to it when they're ready.
 </QuickAnswer>
 
-<div
-    style="display: flex;
-    justify-content: center;
-    margin: 1rem 0;"
->
- <PopCard
-        image={`/blogs/giving-a-speech.webp`}
-        showIcon={false}
-        tint={false}
-        displayText=""
-        altText="a greek statue explaining the Enneagram"
-        subtext=""
-    />
-</div>
-
 <p class="firstLetter">I killed my brother's interest in the Enneagram in under five minutes.</p>
 
 He was over at my apartment, and I couldn't help myself. I'd just discovered this "life-changing personality system" and I needed to share it. So I started explaining how he was clearly a [Type 9](/enneagram-corner/enneagram-type-9). How he pacified himself when things got hard. How he went numb to avoid conflict. How his stubbornness was really just resistance to change.
