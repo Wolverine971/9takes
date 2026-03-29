@@ -11,7 +11,6 @@
 	interface HistoryItem {
 		id: number;
 		changed_at: string;
-		old_content: string;
 		new_content: string;
 	}
 
@@ -283,7 +282,7 @@
 		inset: 0;
 		display: flex;
 		flex-direction: column;
-		background: var(--void-deep);
+		background: var(--bg-deep);
 		z-index: 100;
 	}
 
@@ -292,8 +291,8 @@
 		align-items: center;
 		justify-content: space-between;
 		padding: 16px 24px;
-		border-bottom: 1px solid var(--void-elevated);
-		background: var(--void-surface);
+		border-bottom: 1px solid var(--bg-elevated);
+		background: var(--bg-surface);
 		flex-shrink: 0;
 		position: sticky;
 		top: 0;
@@ -323,8 +322,8 @@
 		justify-content: center;
 		width: 42px;
 		height: 42px;
-		border: 1px solid var(--void-highlight);
-		background: var(--void-elevated);
+		border: 1px solid var(--bg-highlight);
+		background: var(--bg-elevated);
 		border-radius: 10px;
 		color: var(--text-secondary);
 		cursor: pointer;
@@ -332,9 +331,9 @@
 		flex-shrink: 0;
 
 		&:hover {
-			background: var(--shadow-monarch-subtle);
-			border-color: var(--shadow-monarch);
-			color: var(--shadow-monarch-light);
+			background: var(--primary-subtle);
+			border-color: var(--primary);
+			color: var(--primary-light);
 			box-shadow: var(--glow-sm);
 		}
 
@@ -443,17 +442,13 @@
 	}
 
 	.btn-primary {
-		background: linear-gradient(135deg, var(--shadow-monarch) 0%, var(--shadow-monarch-dark) 100%);
+		background: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%);
 		color: white;
-		border: 1px solid var(--shadow-monarch);
+		border: 1px solid var(--primary);
 		box-shadow: var(--glow-sm);
 
 		&:hover:not(:disabled) {
-			background: linear-gradient(
-				135deg,
-				var(--shadow-monarch-light) 0%,
-				var(--shadow-monarch) 100%
-			);
+			background: linear-gradient(135deg, var(--primary-light) 0%, var(--primary) 100%);
 			box-shadow: var(--glow-md);
 			transform: translateY(-1px);
 		}
@@ -464,13 +459,13 @@
 	}
 
 	.btn-secondary {
-		background: var(--void-elevated);
+		background: var(--bg-elevated);
 		color: var(--text-primary);
-		border: 1px solid var(--void-highlight);
+		border: 1px solid var(--bg-highlight);
 
 		&:hover:not(:disabled) {
-			background: var(--void-highlight);
-			border-color: var(--shadow-monarch-glow);
+			background: var(--bg-highlight);
+			border-color: var(--primary-glow);
 			box-shadow: var(--glow-sm);
 		}
 	}
@@ -488,8 +483,8 @@
 
 	.mobile-tabs {
 		display: none;
-		border-bottom: 1px solid var(--void-elevated);
-		background: var(--void-surface);
+		border-bottom: 1px solid var(--bg-elevated);
+		background: var(--bg-surface);
 
 		@media (max-width: 768px) {
 			display: flex;
@@ -511,13 +506,13 @@
 
 		&:hover {
 			color: var(--text-secondary);
-			background: var(--void-elevated);
+			background: var(--bg-elevated);
 		}
 
 		&.active {
-			color: var(--shadow-monarch-light);
-			border-bottom-color: var(--shadow-monarch);
-			background: var(--void-elevated);
+			color: var(--primary-light);
+			border-bottom-color: var(--primary);
+			background: var(--bg-elevated);
 		}
 	}
 
@@ -558,8 +553,8 @@
 		width: 380px;
 		min-height: 0;
 		overflow: hidden;
-		border-left: 1px solid var(--void-elevated);
-		background: var(--void-surface);
+		border-left: 1px solid var(--bg-elevated);
+		background: var(--bg-surface);
 
 		@media (max-width: 1200px) {
 			flex: 0 0 340px;
@@ -591,8 +586,8 @@
 	}
 
 	.warning-dialog {
-		background: var(--void-surface);
-		border: 1px solid var(--void-highlight);
+		background: var(--bg-surface);
+		border: 1px solid var(--bg-highlight);
 		border-radius: 16px;
 		padding: 28px;
 		max-width: 420px;

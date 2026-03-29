@@ -25,8 +25,8 @@
 		gap: 0.5rem;
 		padding: 0.75rem 1rem;
 		margin: 0.25rem 0;
-		background-color: #1a1a2e;
-		border-left: 3px solid #7c3aed;
+		background-color: var(--bg-surface);
+		border-left: 3px solid var(--primary-dark);
 		border-radius: 0.25rem;
 		min-height: 3rem;
 	}

@@ -62,8 +62,8 @@
 		height: var(--size);
 		background: radial-gradient(
 			circle,
-			rgba(167, 139, 250, 1) 0%,
-			rgba(139, 92, 246, 0.7) 40%,
+			rgba(94, 234, 212, 0.9) 0%,
+			rgba(45, 212, 191, 0.6) 40%,
 			transparent 70%
 		);
 		border-radius: 50%;
@@ -74,8 +74,8 @@
 		animation-delay: var(--delay);
 		filter: blur(0.5px);
 		box-shadow:
-			0 0 12px rgba(139, 92, 246, 0.6),
-			0 0 4px rgba(167, 139, 250, 0.8);
+			0 0 12px rgba(45, 212, 191, 0.5),
+			0 0 4px rgba(94, 234, 212, 0.7);
 	}
 
 	@keyframes float-up {
@@ -107,7 +107,7 @@
 	.glow-1 {
 		width: 500px;
 		height: 500px;
-		background: rgba(124, 58, 237, 0.08);
+		background: rgba(45, 212, 191, 0.06);
 		top: 5%;
 		left: -150px;
 		animation-delay: 0s;
@@ -116,7 +116,7 @@
 	.glow-2 {
 		width: 400px;
 		height: 400px;
-		background: rgba(109, 40, 217, 0.06);
+		background: rgba(251, 113, 133, 0.04);
 		top: 40%;
 		right: -100px;
 		animation-delay: 3s;
@@ -125,7 +125,7 @@
 	.glow-3 {
 		width: 450px;
 		height: 450px;
-		background: rgba(139, 92, 246, 0.05);
+		background: rgba(167, 139, 250, 0.04);
 		bottom: 5%;
 		left: 20%;
 		animation-delay: 6s;
@@ -141,6 +141,14 @@
 			opacity: 0.7;
 			transform: scale(1.15);
 		}
+	}
+
+	/* Subtle in light mode */
+	:global(.light) .particles-container {
+		opacity: 0.25;
+	}
+	:global(.light) .glow-container {
+		opacity: 0.15;
 	}
 
 	/* Reduce motion for accessibility */

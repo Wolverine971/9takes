@@ -827,7 +827,7 @@
 	}
 
 	.back-link:hover {
-		color: var(--shadow-monarch);
+		color: var(--primary);
 	}
 
 	.page-header h1 {
@@ -849,8 +849,8 @@
 
 	/* Section Cards */
 	.section-card {
-		background: var(--void-surface);
-		border: 1px solid var(--void-elevated);
+		background: var(--bg-surface);
+		border: 1px solid var(--bg-elevated);
 		border-radius: 12px;
 		padding: 1rem;
 		margin-bottom: 1rem;
@@ -946,7 +946,7 @@
 		color: #10b981;
 	}
 	.status-active {
-		background: rgba(59, 130, 246, 0.1);
+		background: rgba(251, 113, 133, 0.1);
 		color: #3b82f6;
 	}
 	.status-completed {
@@ -1026,7 +1026,7 @@
 		color: #f59e0b;
 	}
 	.intake-sent {
-		background: rgba(59, 130, 246, 0.1);
+		background: rgba(251, 113, 133, 0.1);
 		color: #3b82f6;
 	}
 	.intake-completed {
@@ -1046,7 +1046,7 @@
 	.intake-link-section {
 		margin-top: 0.75rem;
 		padding: 0.75rem;
-		background: var(--void-deep);
+		background: var(--bg-deep);
 		border-radius: 6px;
 	}
 
@@ -1065,8 +1065,8 @@
 	.intake-link {
 		flex: 1;
 		padding: 0.375rem 0.5rem;
-		background: var(--void-deep);
-		border: 1px solid var(--void-elevated);
+		background: var(--bg-deep);
+		border: 1px solid var(--bg-elevated);
 		border-radius: 4px;
 		font-size: 0.75rem;
 		overflow: hidden;
@@ -1104,13 +1104,13 @@
 		align-items: center;
 		gap: 1rem;
 		padding: 0.5rem;
-		background: var(--void-deep);
+		background: var(--bg-deep);
 		border-radius: 6px;
 	}
 
 	.session-item.upcoming {
-		background: rgba(59, 130, 246, 0.05);
-		border: 1px solid rgba(59, 130, 246, 0.2);
+		background: rgba(251, 113, 133, 0.05);
+		border: 1px solid rgba(251, 113, 133, 0.2);
 	}
 
 	.session-date {
@@ -1154,7 +1154,7 @@
 
 	.session-link {
 		font-size: 0.75rem;
-		color: var(--shadow-monarch);
+		color: var(--primary);
 		text-decoration: none;
 	}
 
@@ -1167,9 +1167,9 @@
 
 	.note-item {
 		padding: 0.75rem;
-		background: var(--void-deep);
+		background: var(--bg-deep);
 		border-radius: 6px;
-		border-left: 3px solid var(--void-elevated);
+		border-left: 3px solid var(--bg-elevated);
 	}
 
 	.note-observation {
@@ -1234,8 +1234,8 @@
 		width: 100%;
 		padding: 0.5rem;
 		text-align: center;
-		background: var(--void-deep);
-		border: 1px solid var(--void-elevated);
+		background: var(--bg-deep);
+		border: 1px solid var(--bg-elevated);
 		border-radius: 6px;
 		color: var(--text-primary);
 		text-decoration: none;
@@ -1245,13 +1245,13 @@
 
 	.action-btn:hover {
 		background: rgba(99, 102, 241, 0.1);
-		border-color: var(--shadow-monarch);
+		border-color: var(--primary);
 	}
 
 	.action-btn.email-btn {
-		background: var(--shadow-monarch);
+		background: var(--primary);
 		color: white;
-		border-color: var(--shadow-monarch);
+		border-color: var(--primary);
 	}
 
 	.action-btn.email-btn:hover {
@@ -1284,7 +1284,7 @@
 
 	.ref-link {
 		font-size: 0.8rem;
-		color: var(--shadow-monarch);
+		color: var(--primary);
 		text-decoration: none;
 	}
 
@@ -1326,7 +1326,7 @@
 	.form-group select,
 	.form-group textarea {
 		padding: 0.5rem 0.75rem;
-		border: 1px solid var(--void-elevated);
+		border: 1px solid var(--bg-elevated);
 		border-radius: 12px;
 		font-size: 0.875rem;
 		font-family: inherit;
@@ -1335,7 +1335,7 @@
 	.form-footer {
 		margin-top: 1rem;
 		padding-top: 1rem;
-		border-top: 1px solid var(--void-elevated);
+		border-top: 1px solid var(--bg-elevated);
 	}
 
 	.form-row {
@@ -1364,13 +1364,13 @@
 	}
 
 	.btn-primary {
-		background: var(--shadow-monarch);
+		background: var(--primary);
 		color: white;
 	}
 
 	.btn-secondary {
-		background: var(--void-deep);
-		border: 1px solid var(--void-elevated);
+		background: var(--bg-deep);
+		border: 1px solid var(--bg-elevated);
 		color: var(--text-primary);
 	}
 
@@ -1395,7 +1395,7 @@
 	}
 
 	.modal {
-		background: var(--void-surface);
+		background: var(--bg-surface);
 		border-radius: 12px;
 		width: 100%;
 		max-width: 450px;
@@ -1406,7 +1406,7 @@
 		justify-content: space-between;
 		align-items: center;
 		padding: 1rem;
-		border-bottom: 1px solid var(--void-elevated);
+		border-bottom: 1px solid var(--bg-elevated);
 	}
 
 	.modal-header h2 {
@@ -1434,7 +1434,7 @@
 		justify-content: flex-end;
 		gap: 0.5rem;
 		padding: 1rem;
-		border-top: 1px solid var(--void-elevated);
+		border-top: 1px solid var(--bg-elevated);
 	}
 
 	@media (max-width: 768px) {

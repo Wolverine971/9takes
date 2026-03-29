@@ -46,7 +46,7 @@
 		align-items: center;
 		margin-bottom: 1.25rem;
 		padding-bottom: 0.75rem;
-		border-bottom: 1px solid rgba(100, 116, 139, 0.15);
+		border-bottom: 1px solid color-mix(in srgb, var(--text-tertiary) 15%, transparent);
 		gap: 1rem;
 	}
 
@@ -63,24 +63,24 @@
 		display: flex;
 		align-items: center;
 		justify-content: center;
-		background: rgba(124, 58, 237, 0.1);
+		background: rgba(45, 212, 191, 0.1);
 		border-radius: 0.5rem;
-		border: 1px solid rgba(124, 58, 237, 0.2);
-		color: #a78bfa;
+		border: 1px solid rgba(45, 212, 191, 0.2);
+		color: var(--accent-light);
 		font-weight: 700;
 	}
 
 	.section-title-group h2 {
 		font-size: 1.25rem;
 		font-weight: 600;
-		color: #f1f5f9;
+		color: var(--text-primary);
 		margin: 0;
 		line-height: 1.3;
 	}
 
 	.section-subtitle {
 		font-size: 0.8125rem;
-		color: #64748b;
+		color: var(--text-tertiary);
 		margin: 0.125rem 0 0;
 	}
 
@@ -91,21 +91,21 @@
 	}
 
 	.faq-item {
-		background: #16161e;
-		border: 1px solid rgba(100, 116, 139, 0.15);
+		background: var(--bg-deep);
+		border: 1px solid color-mix(in srgb, var(--text-tertiary) 15%, transparent);
 		border-radius: 0.75rem;
 		overflow: hidden;
 		transition: all 0.2s ease;
 
 		&:hover {
-			border-color: rgba(124, 58, 237, 0.3);
+			border-color: rgba(45, 212, 191, 0.3);
 		}
 
 		&[open] {
-			border-color: rgba(124, 58, 237, 0.4);
+			border-color: rgba(45, 212, 191, 0.4);
 
 			.faq-question {
-				border-bottom: 1px solid rgba(100, 116, 139, 0.15);
+				border-bottom: 1px solid color-mix(in srgb, var(--text-tertiary) 15%, transparent);
 			}
 
 			.toggle-icon::after {
@@ -129,14 +129,14 @@
 		}
 
 		&:hover {
-			background: rgba(124, 58, 237, 0.05);
+			background: rgba(45, 212, 191, 0.05);
 		}
 	}
 
 	.question-text {
 		font-size: 0.9375rem;
 		font-weight: 600;
-		color: #e2e8f0;
+		color: var(--text-primary);
 		line-height: 1.4;
 	}
 
@@ -152,8 +152,8 @@
 			content: '';
 			width: 0.5rem;
 			height: 0.5rem;
-			border-right: 2px solid #64748b;
-			border-bottom: 2px solid #64748b;
+			border-right: 2px solid var(--text-tertiary);
+			border-bottom: 2px solid var(--text-tertiary);
 			transform: rotate(45deg);
 			transition: transform 0.2s ease;
 		}
@@ -165,7 +165,7 @@
 
 		p {
 			font-size: 0.9375rem;
-			color: #94a3b8;
+			color: var(--text-secondary);
 			line-height: 1.7;
 			margin: 0;
 		}

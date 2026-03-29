@@ -115,10 +115,10 @@
 <style lang="scss">
 	.sidebar {
 		/* Card base styles - Solo Leveling dark theme */
-		background-color: #12121a;
+		background-color: var(--bg-deep);
 		border-radius: 12px;
-		box-shadow: 0 0 20px rgba(124, 58, 237, 0.15);
-		border: 1px solid rgba(100, 116, 139, 0.3);
+		box-shadow: 0 0 20px rgba(45, 212, 191, 0.15);
+		border: 1px solid color-mix(in srgb, var(--text-tertiary) 30%, transparent);
 
 		position: fixed;
 		top: 50%;
@@ -145,11 +145,11 @@
 		}
 
 		&::-webkit-scrollbar-thumb {
-			background-color: rgba(124, 58, 237, 0.3);
+			background-color: rgba(45, 212, 191, 0.3);
 			border-radius: 3px;
 
 			&:hover {
-				background-color: rgba(124, 58, 237, 0.5);
+				background-color: rgba(45, 212, 191, 0.5);
 			}
 		}
 	}
@@ -164,8 +164,8 @@
 		padding: 0 0 0.35rem 0;
 		font-size: 1rem;
 		font-weight: 600;
-		color: #f1f5f9;
-		border-bottom: 1px solid rgba(100, 116, 139, 0.3);
+		color: var(--text-primary);
+		border-bottom: 1px solid color-mix(in srgb, var(--text-tertiary) 30%, transparent);
 	}
 
 	.sidebar-list {
@@ -199,15 +199,15 @@
 		box-sizing: border-box;
 		font-size: 0.875rem;
 		line-height: 1.4;
-		color: #a78bfa;
+		color: var(--accent-light);
 		text-decoration: none;
 		border-radius: 4px;
 		transition: all 0.2s ease;
 		text-transform: capitalize;
 
 		&:hover {
-			color: var(--shadow-monarch-lightest);
-			background-color: rgba(124, 58, 237, 0.15);
+			color: var(--primary-lightest);
+			background-color: rgba(45, 212, 191, 0.15);
 			text-decoration: none;
 		}
 

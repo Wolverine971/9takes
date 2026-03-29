@@ -49,23 +49,23 @@
 		}
 
 		a {
-			color: #a78bfa;
+			color: var(--accent-light);
 			text-decoration: none;
 			transition: color 0.2s ease;
 
 			&:hover {
-				color: #c4b5fd;
+				color: var(--accent-light);
 				text-decoration: underline;
 			}
 		}
 
 		.separator {
-			color: #475569;
+			color: var(--text-tertiary);
 			margin: 0 0.15rem;
 		}
 
 		.current {
-			color: #94a3b8;
+			color: var(--text-secondary);
 		}
 	}
 </style>

@@ -106,10 +106,7 @@
 			return;
 		}
 
-		const serverTagIds = (data.questionTags || [])
-			.map((tag: any) => Number.parseInt(String(tag.tag_id), 10))
-			.filter((id) => Number.isFinite(id))
-			.sort((a, b) => a - b);
+		const serverTagIds = getServerTagIds((data.questionTags || []) as QuestionTagRef[]);
 		const signature = serverTagIds.join(',');
 
 		if (signature === serverTagSignature) {
@@ -123,7 +120,10 @@
 
 		const firstSelectedLeaf = serverTagIds
 			.map((tagId) => categoryById.get(tagId))
-			.find((category): category is EditableCategory => Boolean(category) && category.level === 3);
+			.find(
+				(category): category is EditableCategory =>
+					category !== undefined && category.level === 3
+			);
 
 		if (firstSelectedLeaf?.parent_id) {
 			selectedParentCategoryId = firstSelectedLeaf.parent_id;
@@ -210,8 +210,8 @@
 		type: 'image/png' as const,
 		margin: 1,
 		color: {
-			dark: '#a78bfa',
-			light: '#12121a'
+			dark: 'var(--accent-light)',
+			light: 'var(--bg-deep)'
 		}
 	};
 
@@ -223,6 +223,17 @@
 	function computeTitle(questionText: string): string {
 		const fullTitle = `9takes | ${questionText}`;
 		return fullTitle.length > 60 ? fullTitle.slice(0, 57) + '...' : fullTitle;
+	}
+
+	type QuestionTagRef = {
+		tag_id: number | string;
+	};
+
+	function getServerTagIds(questionTags: QuestionTagRef[] = []): number[] {
+		return questionTags
+			.map((tag) => Number.parseInt(String(tag.tag_id), 10))
+			.filter((id): id is number => Number.isFinite(id))
+			.sort((a, b) => a - b);
 	}
 
 	// Handle comment addition - uses optimistic update
@@ -397,10 +408,7 @@
 	}
 
 	function resetCategoryEditor() {
-		const serverTagIds = (data.questionTags || [])
-			.map((tag: any) => Number.parseInt(String(tag.tag_id), 10))
-			.filter((id) => Number.isFinite(id))
-			.sort((a, b) => a - b);
+		const serverTagIds = getServerTagIds((data.questionTags || []) as QuestionTagRef[]);
 		selectedTagIds = serverTagIds;
 		categoryEditorError = '';
 		categoryEditorSuccess = '';
@@ -505,14 +513,12 @@
 />
 
 <div class="question-page-container mx-auto w-full max-w-6xl px-1 pb-12 sm:px-6 lg:px-8">
-	<article itemscope itemtype="https://schema.org/QAPage">
-		<!-- Question Display -->
-		<div class="mb-3 sm:mb-6">
+	<article class="question-article" itemscope itemtype="https://schema.org/QAPage">
+		<div class="question-section question-section-display">
 			<QuestionDisplay question={data.question} />
 		</div>
 
-		<!-- Interaction Area -->
-		<div class="mb-3 sm:mb-6">
+		<div class="question-section question-section-interact">
 			<Interact
 				data={dataForChild}
 				questionId={data.question.id}
@@ -523,16 +529,15 @@
 			/>
 		</div>
 
-		<!-- Tags -->
 		{#if (data.questionTags && data.questionTags.length > 0) || data.canEditTags}
-			<div class="mb-3 rounded-xl border border-purple-500/15 bg-[#1a1a2e]/40 p-3 sm:mb-6 sm:p-4">
-				<div class="mb-3 flex flex-wrap items-center justify-between gap-3">
-					<div class="text-sm font-semibold text-slate-100">Question Categories</div>
+			<section class="question-section question-tags-panel">
+				<div class="question-tags-head">
+					<div class="question-tags-title">Question Categories</div>
 					{#if data.canEditTags}
 						<button
 							type="button"
-							class="rounded-lg border border-purple-500/30 bg-[#12121a]/70 px-3 py-1.5 text-xs font-medium text-purple-300 transition-colors hover:border-purple-400 hover:text-purple-200"
-							on:click={() => {
+							class="question-inline-button"
+							onclick={() => {
 								categoryEditorOpen = !categoryEditorOpen;
 								if (!categoryEditorOpen) {
 									resetCategoryEditor();
@@ -549,7 +554,7 @@
 						{#each data.questionTags as tag}
 							<a
 								href={`/questions/categories/${tag.question_categories.category_name.split(' ').join('-')}`}
-								class="inline-flex items-center rounded-lg border border-purple-500/20 bg-[#1a1a2e]/60 px-3 py-1.5 text-sm font-medium text-slate-300 backdrop-blur-sm transition-all duration-200 hover:border-purple-500/40 hover:bg-purple-900/40 hover:text-purple-300 hover:shadow-[0_0_8px_rgba(124,58,237,0.2)]"
+								class="question-tag-pill"
 								rel="tag"
 							>
 								{tag.question_categories.category_name}
@@ -557,25 +562,27 @@
 						{/each}
 					</div>
 				{:else}
-					<p class="text-sm text-slate-400">No categories assigned yet.</p>
+					<p class="text-sm text-[var(--text-secondary)]">No categories assigned yet.</p>
 				{/if}
 
 				{#if data.canEditTags && categoryEditorOpen}
-					<div class="mt-4 border-t border-purple-500/15 pt-4">
+					<div class="category-editor">
 						<div class="space-y-4">
 							<div>
-								<p class="mb-2 text-xs font-semibold uppercase tracking-wide text-slate-400">
+								<p
+									class="mb-2 text-xs font-semibold uppercase tracking-wide text-[var(--text-secondary)]"
+								>
 									Step 1: Choose top-level parent
 								</p>
 								<div class="flex flex-wrap gap-2">
 									{#each rootCategories as category}
 										<button
 											type="button"
-											on:click={() => selectRootCategory(category.id)}
+											onclick={() => selectRootCategory(category.id)}
 											class="rounded-full border px-3 py-1.5 text-xs font-medium transition-colors {selectedRootCategoryId ===
 											category.id
-												? 'border-purple-500 bg-purple-900/40 text-purple-200'
-												: 'border-slate-700 bg-[#12121a]/60 text-slate-300'}"
+												? 'border-[var(--primary)] bg-[var(--primary-subtle)] text-[var(--primary-light)]'
+												: 'bg-[var(--bg-deep)]/60 border-[var(--bg-elevated)] text-[var(--text-secondary)]'}"
 										>
 											{category.category_name}
 										</button>
@@ -584,7 +591,9 @@
 							</div>
 
 							<div>
-								<p class="mb-2 text-xs font-semibold uppercase tracking-wide text-slate-400">
+								<p
+									class="mb-2 text-xs font-semibold uppercase tracking-wide text-[var(--text-secondary)]"
+								>
 									Step 2: Choose second-level parent
 								</p>
 								{#if parentCategories.length}
@@ -592,18 +601,18 @@
 										{#each parentCategories as category}
 											<button
 												type="button"
-												on:click={() => selectParentCategory(category.id)}
+												onclick={() => selectParentCategory(category.id)}
 												class="rounded-full border px-3 py-1.5 text-xs font-medium transition-colors {selectedParentCategoryId ===
 												category.id
-													? 'border-purple-500 bg-purple-900/40 text-purple-200'
-													: 'border-slate-700 bg-[#12121a]/60 text-slate-300'}"
+													? 'border-[var(--primary)] bg-[var(--primary-subtle)] text-[var(--primary-light)]'
+													: 'bg-[var(--bg-deep)]/60 border-[var(--bg-elevated)] text-[var(--text-secondary)]'}"
 											>
 												{category.category_name}
 											</button>
 										{/each}
 									</div>
 								{:else}
-									<p class="text-xs text-slate-400">
+									<p class="text-xs text-[var(--text-secondary)]">
 										No level 2 categories under this top-level parent.
 									</p>
 								{/if}
@@ -611,10 +620,12 @@
 
 							<div>
 								<div class="mb-2 flex items-center justify-between gap-3">
-									<p class="text-xs font-semibold uppercase tracking-wide text-slate-400">
+									<p
+										class="text-xs font-semibold uppercase tracking-wide text-[var(--text-secondary)]"
+									>
 										Step 3: Pick leaf categories
 									</p>
-									<p class="text-xs text-slate-500">
+									<p class="text-xs text-[var(--text-tertiary)]">
 										{selectedTagIds.length}/{maxCategoriesPerQuestion} selected
 									</p>
 								</div>
@@ -624,12 +635,12 @@
 										{#each leafCategories as category}
 											<button
 												type="button"
-												on:click={() => toggleLeafCategory(category.id)}
+												onclick={() => toggleLeafCategory(category.id)}
 												class="flex items-center justify-between rounded-lg border px-3 py-2 text-left text-sm transition-colors {selectedTagIds.includes(
 													category.id
 												)
-													? 'border-purple-500 bg-purple-900/30 text-purple-100'
-													: 'border-slate-700 bg-[#12121a]/60 text-slate-300'}"
+													? 'border-[var(--primary)] bg-[var(--primary-subtle)] text-[var(--primary-lightest)]'
+													: 'bg-[var(--bg-deep)]/60 border-[var(--bg-elevated)] text-[var(--text-secondary)]'}"
 											>
 												<span>{category.category_name}</span>
 												<span class="text-xs">
@@ -639,14 +650,16 @@
 										{/each}
 									</div>
 								{:else}
-									<p class="text-xs text-slate-400">
+									<p class="text-xs text-[var(--text-secondary)]">
 										No leaf categories available under this parent yet.
 									</p>
 								{/if}
 							</div>
 
 							<div>
-								<p class="mb-2 text-xs font-semibold uppercase tracking-wide text-slate-400">
+								<p
+									class="mb-2 text-xs font-semibold uppercase tracking-wide text-[var(--text-secondary)]"
+								>
 									Selected Categories
 								</p>
 								{#if selectedLeafCategories.length}
@@ -654,8 +667,8 @@
 										{#each selectedLeafCategories as category}
 											<button
 												type="button"
-												on:click={() => toggleLeafCategory(category.id)}
-												class="rounded-full border border-purple-500/40 bg-purple-900/30 px-3 py-1 text-xs text-purple-200"
+												onclick={() => toggleLeafCategory(category.id)}
+												class="rounded-full border border-[var(--primary-subtle)] bg-[var(--primary-subtle)] px-3 py-1 text-xs text-[var(--primary-light)]"
 												title="Remove category"
 											>
 												{category.category_name} ×
@@ -663,15 +676,17 @@
 										{/each}
 									</div>
 								{:else}
-									<p class="text-xs text-slate-400">No categories selected yet.</p>
+									<p class="text-xs text-[var(--text-secondary)]">No categories selected yet.</p>
 								{/if}
 							</div>
 
-							<div class="rounded-lg border border-purple-500/20 bg-[#12121a]/60 p-3">
-								<p class="text-xs font-semibold uppercase tracking-wide text-slate-400">
+							<div class="category-editor-creator">
+								<p
+									class="text-xs font-semibold uppercase tracking-wide text-[var(--text-secondary)]"
+								>
 									Create New Leaf Category
 								</p>
-								<p class="mt-1 text-xs text-slate-500">
+								<p class="mt-1 text-xs text-[var(--text-tertiary)]">
 									New categories are created as level 3 leaves under
 									{selectedParentCategoryName || 'a selected level 2 parent'}.
 								</p>
@@ -681,15 +696,15 @@
 										bind:value={newLeafCategoryName}
 										maxlength="60"
 										placeholder="e.g. Career transitions"
-										class="w-full rounded-lg border border-slate-700 bg-[#09090f]/80 px-3 py-2 text-sm text-slate-100 placeholder-slate-500 focus:border-purple-500 focus:outline-none"
+										class="bg-[var(--bg-base)]/80 w-full rounded-lg border border-[var(--bg-elevated)] px-3 py-2 text-sm text-[var(--text-primary)] placeholder-[var(--text-muted)] focus:border-[var(--primary)] focus:outline-none"
 									/>
 									<button
 										type="button"
-										on:click={createLeafCategory}
+										onclick={createLeafCategory}
 										disabled={creatingLeafCategory ||
 											!selectedParentCategoryId ||
 											!newLeafCategoryName.trim()}
-										class="rounded-lg border border-purple-500/40 bg-purple-900/40 px-3 py-2 text-sm font-medium text-purple-200 disabled:cursor-not-allowed disabled:opacity-60"
+										class="rounded-lg border border-[var(--primary-subtle)] bg-[var(--primary-subtle)] px-3 py-2 text-sm font-medium text-[var(--primary-light)] disabled:cursor-not-allowed disabled:opacity-60"
 									>
 										{creatingLeafCategory ? 'Creating...' : 'Create Leaf'}
 									</button>
@@ -706,19 +721,19 @@
 							<div class="flex flex-wrap justify-end gap-2">
 								<button
 									type="button"
-									on:click={() => {
+									onclick={() => {
 										resetCategoryEditor();
 										categoryEditorOpen = false;
 									}}
-									class="rounded-lg border border-slate-700 bg-[#12121a]/60 px-3 py-2 text-sm text-slate-300"
+									class="bg-[var(--bg-deep)]/60 rounded-lg border border-[var(--bg-elevated)] px-3 py-2 text-sm text-[var(--text-secondary)]"
 								>
 									Cancel
 								</button>
 								<button
 									type="button"
-									on:click={saveQuestionCategories}
+									onclick={saveQuestionCategories}
 									disabled={categoryEditorSaving}
-									class="rounded-lg border border-purple-500/40 bg-purple-900/40 px-4 py-2 text-sm font-semibold text-purple-100 disabled:cursor-not-allowed disabled:opacity-60"
+									class="rounded-lg border border-[var(--primary-subtle)] bg-[var(--primary-subtle)] px-4 py-2 text-sm font-semibold text-[var(--primary-lightest)] disabled:cursor-not-allowed disabled:opacity-60"
 								>
 									{categoryEditorSaving ? 'Saving...' : 'Save Categories'}
 								</button>
@@ -726,39 +741,186 @@
 						</div>
 					</div>
 				{/if}
-			</div>
+			</section>
 		{/if}
 
-		<!-- Question Content -->
 		{#if dataForChild}
-			<QuestionContent data={dataForChild} user={data?.user} oncommentAdded={() => addComment()} />
+			<div class="question-section question-section-content">
+				<QuestionContent data={dataForChild} user={data?.user} oncommentAdded={() => addComment()} />
+			</div>
 		{/if}
 	</article>
 </div>
 
 <style>
 	.question-page-container {
+		--question-panel-bg: color-mix(in srgb, var(--bg-surface) 92%, transparent);
+		--question-panel-border: color-mix(in srgb, var(--primary) 18%, var(--border-color));
 		position: relative;
 		overflow-x: hidden;
+		padding-top: 0.9rem;
 	}
 
-	/* Gradient transition zone: ethereal particle space fades into content area */
 	.question-page-container::before {
 		content: '';
 		position: absolute;
-		top: -4rem;
-		left: -2rem;
-		right: -2rem;
-		height: 12rem;
+		top: -2rem;
+		left: -1rem;
+		right: -1rem;
+		height: 8rem;
 		background: linear-gradient(
 			180deg,
 			transparent 0%,
-			rgba(124, 58, 237, 0.03) 30%,
-			rgba(26, 26, 46, 0.15) 70%,
+			color-mix(in srgb, var(--primary-subtle) 55%, transparent) 34%,
 			transparent 100%
 		);
 		pointer-events: none;
 		z-index: 0;
-		filter: blur(20px);
+		filter: blur(18px);
+	}
+
+	.question-article {
+		position: relative;
+		z-index: 1;
+	}
+
+	.question-section {
+		margin-bottom: 0.95rem;
+	}
+
+	.question-section-display :global(.question-display-card) {
+		border-radius: 1.25rem;
+		border-color: var(--question-panel-border);
+		background:
+			linear-gradient(
+				180deg,
+				color-mix(in srgb, var(--primary-subtle) 28%, transparent) 0%,
+				transparent 44%
+			),
+			var(--question-panel-bg);
+		box-shadow: var(--shadow-sm);
+		padding: 1.5rem clamp(1rem, 2.4vw, 2rem);
+	}
+
+	.question-section-display :global(.question-display-card::before) {
+		background: radial-gradient(
+			ellipse at 50% 0%,
+			color-mix(in srgb, var(--primary) 12%, transparent) 0%,
+			transparent 62%
+		);
+	}
+
+	.question-section-display :global(.question-display-card h1) {
+		letter-spacing: -0.025em;
+		text-wrap: balance;
+	}
+
+	.question-section-interact {
+		margin-bottom: 1rem;
+	}
+
+	.question-tags-panel {
+		padding: 0.95rem;
+		border: 1px solid var(--question-panel-border);
+		border-radius: 1.1rem;
+		background: var(--question-panel-bg);
+		box-shadow: var(--shadow-sm);
+		backdrop-filter: blur(12px);
+	}
+
+	.question-tags-head {
+		display: flex;
+		flex-wrap: wrap;
+		align-items: center;
+		justify-content: space-between;
+		gap: 0.75rem;
+		margin-bottom: 0.8rem;
+		padding-bottom: 0.8rem;
+		border-bottom: 1px solid var(--question-panel-border);
+	}
+
+	.question-tags-title {
+		font-size: 0.82rem;
+		font-weight: 700;
+		letter-spacing: 0.09em;
+		text-transform: uppercase;
+		color: var(--text-secondary);
+	}
+
+	.question-inline-button {
+		display: inline-flex;
+		align-items: center;
+		justify-content: center;
+		padding: 0.55rem 0.85rem;
+		border-radius: 0.85rem;
+		border: 1px solid var(--question-panel-border);
+		background: color-mix(in srgb, var(--bg-deep) 68%, transparent);
+		color: var(--primary);
+		font-size: 0.8rem;
+		font-weight: 700;
+		transition:
+			border-color 0.2s ease,
+			color 0.2s ease,
+			box-shadow 0.2s ease;
+	}
+
+	.question-inline-button:hover {
+		border-color: color-mix(in srgb, var(--primary) 28%, var(--border-color));
+		color: var(--primary-light);
+		box-shadow: var(--shadow-sm);
+	}
+
+	.question-tag-pill {
+		display: inline-flex;
+		align-items: center;
+		padding: 0.55rem 0.85rem;
+		border-radius: 0.85rem;
+		border: 1px solid var(--question-panel-border);
+		background: color-mix(in srgb, var(--bg-surface) 90%, transparent);
+		color: var(--text-secondary);
+		font-size: 0.9rem;
+		font-weight: 600;
+		text-decoration: none;
+		transition:
+			border-color 0.2s ease,
+			color 0.2s ease,
+			box-shadow 0.2s ease;
+	}
+
+	.question-tag-pill:hover {
+		border-color: color-mix(in srgb, var(--primary) 28%, var(--border-color));
+		color: var(--primary);
+		box-shadow: var(--shadow-sm);
+	}
+
+	.category-editor {
+		padding-top: 1rem;
+		border-top: 1px solid var(--question-panel-border);
+	}
+
+	.category-editor-creator {
+		padding: 0.95rem;
+		border-radius: 1rem;
+		border: 1px solid var(--question-panel-border);
+		background: color-mix(in srgb, var(--bg-deep) 62%, transparent);
+	}
+
+	@media (max-width: 640px) {
+		.question-page-container {
+			padding-top: 0.7rem;
+		}
+
+		.question-section {
+			margin-bottom: 0.8rem;
+		}
+
+		.question-section-display :global(.question-display-card) {
+			padding: 1.25rem 0.95rem;
+			border-radius: 1.05rem;
+		}
+
+		.question-tags-panel {
+			padding: 0.85rem;
+		}
 	}
 </style>

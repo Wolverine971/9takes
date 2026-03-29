@@ -6,7 +6,6 @@
 	interface HistoryItem {
 		id: number;
 		changed_at: string;
-		old_content: string;
 		new_content: string;
 	}
 
@@ -511,12 +510,12 @@
 	.metadata-sidebar {
 		height: 100%;
 		overflow-y: auto;
-		background: var(--void-surface);
-		border-left: 1px solid var(--void-elevated);
+		background: var(--bg-surface);
+		border-left: 1px solid var(--bg-elevated);
 	}
 
 	.section {
-		border-bottom: 1px solid var(--void-elevated);
+		border-bottom: 1px solid var(--bg-elevated);
 	}
 
 	.section-header {
@@ -532,7 +531,7 @@
 		transition: background 0.15s ease;
 
 		&:hover {
-			background: var(--void-elevated);
+			background: var(--bg-elevated);
 		}
 
 		@media (max-width: 768px) {
@@ -606,21 +605,21 @@
 	.field-textarea {
 		width: 100%;
 		padding: 6px 10px;
-		border: 1px solid var(--void-highlight);
+		border: 1px solid var(--bg-highlight);
 		border-radius: 6px;
 		font-size: 13px;
 		color: var(--text-primary);
-		background: var(--void-elevated);
+		background: var(--bg-elevated);
 		transition: all 0.15s ease;
 
 		&:focus {
 			outline: none;
-			border-color: var(--shadow-monarch);
+			border-color: var(--primary);
 			box-shadow: var(--glow-sm);
 		}
 
 		&:disabled {
-			background: var(--void-deep);
+			background: var(--bg-deep);
 			color: var(--text-muted);
 			cursor: not-allowed;
 		}
@@ -648,13 +647,13 @@
 	}
 
 	.url-link {
-		color: var(--shadow-monarch-light);
+		color: var(--primary-light);
 		text-decoration: none;
 		font-size: 12px;
 		word-break: break-all;
 
 		&:hover {
-			color: var(--awakening-cyan);
+			color: var(--accent);
 			text-shadow: var(--glow-sm);
 		}
 	}
@@ -667,8 +666,8 @@
 			display: flex;
 			align-items: center;
 			padding: 0 8px;
-			background: var(--void-deep);
-			border: 1px solid var(--void-highlight);
+			background: var(--bg-deep);
+			border: 1px solid var(--bg-highlight);
 			border-right: none;
 			border-radius: 6px 0 0 6px;
 			font-size: 13px;
@@ -692,7 +691,7 @@
 			height: 0;
 
 			&:checked + .toggle-slider {
-				background: var(--shadow-monarch);
+				background: var(--primary);
 				box-shadow: var(--glow-sm);
 			}
 
@@ -723,7 +722,7 @@
 		left: 0;
 		right: 0;
 		bottom: 0;
-		background: var(--void-highlight);
+		background: var(--bg-highlight);
 		border-radius: 22px;
 		transition: 0.2s;
 
@@ -758,7 +757,7 @@
 	.suggestion-pill {
 		display: inline-flex;
 		padding: 2px 8px;
-		background: var(--void-elevated);
+		background: var(--bg-elevated);
 		border-radius: 12px;
 		font-size: 11px;
 		color: var(--text-secondary);
@@ -776,13 +775,13 @@
 		align-items: center;
 		justify-content: space-between;
 		padding: 6px 8px;
-		background: var(--void-elevated);
+		background: var(--bg-elevated);
 		border-radius: 4px;
 		font-size: 11px;
 	}
 
 	.history-time {
-		color: var(--shadow-monarch-light);
+		color: var(--primary-light);
 		font-weight: 500;
 	}
 
@@ -793,11 +792,11 @@
 	.view-changes-link {
 		display: block;
 		font-size: 12px;
-		color: var(--shadow-monarch-light);
+		color: var(--primary-light);
 		text-decoration: none;
 
 		&:hover {
-			color: var(--awakening-cyan);
+			color: var(--accent);
 			text-shadow: var(--glow-sm);
 		}
 	}
@@ -818,8 +817,8 @@
 		justify-content: center;
 		gap: 6px;
 		padding: 8px 12px;
-		background: var(--void-elevated);
-		border: 1px solid var(--void-highlight);
+		background: var(--bg-elevated);
+		border: 1px solid var(--bg-highlight);
 		border-radius: 6px;
 		font-size: 12px;
 		font-weight: 500;
@@ -828,8 +827,8 @@
 		transition: all 0.15s ease;
 
 		&:hover {
-			background: var(--void-highlight);
-			border-color: var(--shadow-monarch-glow);
+			background: var(--bg-highlight);
+			border-color: var(--primary-glow);
 			box-shadow: var(--glow-sm);
 		}
 
@@ -840,8 +839,8 @@
 			gap: 8px;
 
 			&:active {
-				background: var(--shadow-monarch-subtle);
-				border-color: var(--shadow-monarch);
+				background: var(--primary-subtle);
+				border-color: var(--primary);
 			}
 		}
 	}
@@ -865,22 +864,22 @@
 	/* Scrollbar */
 	.metadata-sidebar {
 		scrollbar-width: thin;
-		scrollbar-color: var(--shadow-monarch) var(--void-surface);
+		scrollbar-color: var(--primary) var(--bg-surface);
 
 		&::-webkit-scrollbar {
 			width: 6px;
 		}
 
 		&::-webkit-scrollbar-track {
-			background: var(--void-surface);
+			background: var(--bg-surface);
 		}
 
 		&::-webkit-scrollbar-thumb {
-			background: var(--shadow-monarch);
+			background: var(--primary);
 			border-radius: 3px;
 
 			&:hover {
-				background: var(--shadow-monarch-light);
+				background: var(--primary-light);
 			}
 		}
 	}

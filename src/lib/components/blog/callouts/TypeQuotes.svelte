@@ -1,6 +1,6 @@
 <!-- src/lib/components/blog/callouts/TypeQuotes.svelte -->
 <!--
-  Solo Leveling Dark Theme - Displays characteristic quotes/statements from Enneagram types
+  9takes Warm Tech Theme - Displays characteristic quotes/statements from Enneagram types
   Perfect for showing how different types express themselves
 
   Usage:
@@ -43,33 +43,14 @@
 	 */
 	export let children: string | ((...args: unknown[]) => unknown) = '';
 
-	// Solo Leveling dark theme - Enneagram type colors adjusted for dark backgrounds
-	const typeColors: Record<number, { bg: string; text: string; border: string }> = {
-		1: { bg: 'rgba(59, 130, 246, 0.15)', text: '#60a5fa', border: '#3b82f6' }, // Blue - Perfectionist
-		2: { bg: 'rgba(236, 72, 153, 0.15)', text: '#f472b6', border: '#ec4899' }, // Pink - Helper
-		3: { bg: 'rgba(249, 115, 22, 0.15)', text: '#fb923c', border: '#f97316' }, // Orange - Achiever
-		4: { bg: 'rgba(168, 85, 247, 0.15)', text: '#c084fc', border: '#a855f7' }, // Purple - Individualist
-		5: { bg: 'rgba(20, 184, 166, 0.15)', text: '#2dd4bf', border: '#14b8a6' }, // Teal - Investigator
-		6: { bg: 'rgba(234, 179, 8, 0.15)', text: '#facc15', border: '#eab308' }, // Yellow - Loyalist
-		7: { bg: 'rgba(163, 230, 53, 0.15)', text: '#bef264', border: '#a3e635' }, // Lime - Enthusiast
-		8: { bg: 'rgba(239, 68, 68, 0.15)', text: '#f87171', border: '#ef4444' }, // Red - Challenger
-		9: { bg: 'rgba(34, 197, 94, 0.15)', text: '#4ade80', border: '#22c55e' } // Green - Peacemaker
-	};
+	import { getTypeColorSet, ENNEAGRAM_TYPE_COLORS } from '$lib/constants/enneagramColors';
 
-	const typeNames: Record<number, string> = {
-		1: 'The Perfectionist',
-		2: 'The Helper',
-		3: 'The Achiever',
-		4: 'The Individualist',
-		5: 'The Investigator',
-		6: 'The Loyalist',
-		7: 'The Enthusiast',
-		8: 'The Challenger',
-		9: 'The Peacemaker'
-	};
+	const typeNames: Record<number, string> = Object.fromEntries(
+		Object.entries(ENNEAGRAM_TYPE_COLORS).map(([k, v]) => [Number(k), v.name])
+	);
 
 	function getTypeColor(type: number) {
-		return typeColors[type] || typeColors[1];
+		return getTypeColorSet(type);
 	}
 </script>
 
@@ -110,20 +91,25 @@
 </aside>
 
 <style lang="scss">
-	/* Solo Leveling Dark Theme */
+	/* 9takes Warm Tech Theme */
 	.type-quotes {
 		margin: 1.5rem 0;
 		padding: 1.25rem 1.5rem;
 		border-radius: 12px;
-		background: linear-gradient(135deg, #1a1a2e 0%, #16161e 50%, #12121a 100%);
-		border: 1px solid rgba(124, 58, 237, 0.2);
+		background: linear-gradient(
+			135deg,
+			var(--bg-surface) 0%,
+			var(--bg-deep) 50%,
+			var(--bg-base) 100%
+		);
+		border: 1px solid rgba(45, 212, 191, 0.2);
 		box-shadow:
 			0 4px 20px rgba(0, 0, 0, 0.3),
-			0 0 0 1px rgba(124, 58, 237, 0.1);
+			0 0 0 1px rgba(45, 212, 191, 0.1);
 
 		&--subtle {
-			background: linear-gradient(135deg, #16161e 0%, #0a0a0f 100%);
-			border-color: rgba(100, 116, 139, 0.2);
+			background: linear-gradient(135deg, var(--bg-deep) 0%, var(--bg-base) 100%);
+			border-color: color-mix(in srgb, var(--text-tertiary) 20%, transparent);
 			box-shadow:
 				0 2px 12px rgba(0, 0, 0, 0.25),
 				0 1px 3px rgba(0, 0, 0, 0.15);
@@ -140,10 +126,10 @@
 	.type-quotes__title {
 		font-size: 1rem;
 		font-weight: 700;
-		color: #f1f5f9;
+		color: var(--text-primary);
 		margin: 0 0 1rem;
 		padding-bottom: 0.75rem;
-		border-bottom: 1px solid rgba(124, 58, 237, 0.2);
+		border-bottom: 1px solid rgba(45, 212, 191, 0.2);
 	}
 
 	.type-quotes__list {
@@ -192,14 +178,14 @@
 	.type-quote__text {
 		font-size: 1rem;
 		font-weight: 500;
-		color: #e2e8f0;
+		color: var(--text-primary);
 		font-style: italic;
 		line-height: 1.5;
 	}
 
 	.type-quote__note {
 		font-size: 0.875rem;
-		color: #94a3b8;
+		color: var(--text-secondary);
 		font-style: normal;
 		margin-left: 0.25rem;
 	}
@@ -208,7 +194,7 @@
 		margin-top: 1rem;
 		font-size: 0.9rem;
 		line-height: 1.6;
-		color: #cbd5e1;
+		color: var(--text-secondary);
 	}
 
 	// Mobile adjustments

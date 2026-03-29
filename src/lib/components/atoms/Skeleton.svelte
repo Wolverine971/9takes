@@ -21,7 +21,7 @@
 
 <style>
 	.skeleton {
-		background-color: var(--skeleton-bg, #e0e0e0);
+		background-color: color-mix(in srgb, var(--bg-elevated) 82%, var(--bg-surface));
 		position: relative;
 		overflow: hidden;
 	}
@@ -45,10 +45,10 @@
 		transform: translateX(-100%);
 		background-image: linear-gradient(
 			90deg,
-			rgba(124, 58, 237, 0) 0,
-			rgba(124, 58, 237, 0.1) 20%,
-			rgba(124, 58, 237, 0.2) 60%,
-			rgba(124, 58, 237, 0)
+			color-mix(in srgb, var(--primary) 0%, transparent) 0,
+			color-mix(in srgb, var(--primary) 8%, transparent) 20%,
+			color-mix(in srgb, var(--primary) 16%, transparent) 60%,
+			color-mix(in srgb, var(--primary) 0%, transparent)
 		);
 		animation: wave 1.5s linear infinite;
 	}
@@ -79,13 +79,5 @@
 		.skeleton--wave::after {
 			animation: none;
 		}
-	}
-
-	:root {
-		--skeleton-bg: #252538;
-	}
-
-	:global([data-theme='light']) {
-		--skeleton-bg: #e0e0e0;
 	}
 </style>

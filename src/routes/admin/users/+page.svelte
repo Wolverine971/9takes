@@ -131,18 +131,9 @@
 		}
 	};
 
-	// Enneagram type colors
-	const typeColors: Record<number, string> = {
-		1: '#6366f1',
-		2: '#ec4899',
-		3: '#f59e0b',
-		4: '#8b5cf6',
-		5: '#3b82f6',
-		6: '#14b8a6',
-		7: '#f97316',
-		8: '#ef4444',
-		9: '#22c55e'
-	};
+	import { TYPE_COLOR_MAP } from '$lib/constants/enneagramColors';
+
+	const typeColors = TYPE_COLOR_MAP;
 </script>
 
 <div class="admin-users">
@@ -259,7 +250,7 @@
 											{@const profileType = Number(profile.enneagram)}
 											<span
 												class="type-badge"
-												style="background: {typeColors[profileType] || '#64748b'}"
+												style="background: {typeColors[profileType] || 'var(--text-tertiary)'}"
 											>
 												{profile.enneagram}
 											</span>
@@ -346,7 +337,7 @@
 				{#if active?.enneagram}
 					<span
 						class="avatar-type"
-						style="background: {typeColors[Number(active.enneagram)] || '#64748b'}"
+						style="background: {typeColors[Number(active.enneagram)] || 'var(--text-tertiary)'}"
 					>
 						{active.enneagram}
 					</span>
@@ -392,7 +383,7 @@
 	.page-header {
 		margin-bottom: 20px;
 		padding-bottom: 12px;
-		border-bottom: 1px solid var(--void-elevated);
+		border-bottom: 1px solid var(--bg-elevated);
 	}
 
 	.page-title {
@@ -419,8 +410,8 @@
 	}
 
 	.distribution-card {
-		background: var(--void-surface);
-		border: 1px solid var(--void-elevated);
+		background: var(--bg-surface);
+		border: 1px solid var(--bg-elevated);
 		border-radius: 10px;
 		overflow: hidden;
 	}
@@ -431,16 +422,16 @@
 	}
 
 	.table-card {
-		background: var(--void-surface);
-		border: 1px solid var(--void-elevated);
+		background: var(--bg-surface);
+		border: 1px solid var(--bg-elevated);
 		border-radius: 10px;
 		overflow: hidden;
 	}
 
 	.table-header {
 		padding: 12px 16px;
-		border-bottom: 1px solid var(--void-elevated);
-		background: var(--void-deep);
+		border-bottom: 1px solid var(--bg-elevated);
+		background: var(--bg-deep);
 		display: flex;
 		justify-content: space-between;
 		align-items: center;
@@ -464,7 +455,7 @@
 
 	.count-badge {
 		padding: 2px 8px;
-		background: var(--shadow-monarch);
+		background: var(--primary);
 		color: white;
 		border-radius: 10px;
 		font-size: 0.6875rem;
@@ -479,25 +470,25 @@
 
 	.search-input {
 		padding: 8px 12px;
-		border: 1px solid var(--void-elevated);
+		border: 1px solid var(--bg-elevated);
 		border-radius: 6px;
 		font-size: 0.75rem;
 		min-width: 160px;
-		background: var(--void-surface);
+		background: var(--bg-surface);
 		color: var(--text-primary);
 	}
 
 	.search-input:focus {
 		outline: none;
-		border-color: var(--shadow-monarch);
+		border-color: var(--primary);
 	}
 
 	.filter-select {
 		padding: 8px 12px;
-		border: 1px solid var(--void-elevated);
+		border: 1px solid var(--bg-elevated);
 		border-radius: 6px;
 		font-size: 0.75rem;
-		background: var(--void-surface);
+		background: var(--bg-surface);
 		color: var(--text-primary);
 		cursor: pointer;
 	}
@@ -518,7 +509,7 @@
 	.data-table thead {
 		position: sticky;
 		top: 0;
-		background: var(--void-surface);
+		background: var(--bg-surface);
 		z-index: 1;
 	}
 
@@ -530,7 +521,7 @@
 		font-size: 0.625rem;
 		text-transform: uppercase;
 		letter-spacing: 0.5px;
-		border-bottom: 1px solid var(--void-elevated);
+		border-bottom: 1px solid var(--bg-elevated);
 		white-space: nowrap;
 	}
 
@@ -540,22 +531,22 @@
 	}
 
 	.data-table th.sortable:hover {
-		color: var(--shadow-monarch);
+		color: var(--primary);
 	}
 
 	.sort-icon {
 		margin-left: 4px;
-		color: var(--shadow-monarch);
+		color: var(--primary);
 	}
 
 	.data-table td {
 		padding: 10px 12px;
-		border-bottom: 1px solid var(--void-elevated);
+		border-bottom: 1px solid var(--bg-elevated);
 		color: var(--text-primary);
 	}
 
 	.data-table tbody tr:hover {
-		background: var(--void-deep);
+		background: var(--bg-deep);
 	}
 
 	.date-cell {
@@ -577,7 +568,7 @@
 	}
 
 	.email-link:hover {
-		color: var(--shadow-monarch);
+		color: var(--primary);
 	}
 
 	.type-badge {
@@ -607,7 +598,7 @@
 
 	.user-badge {
 		padding: 2px 6px;
-		background: var(--void-deep);
+		background: var(--bg-deep);
 		color: var(--text-secondary);
 		border-radius: 10px;
 		font-size: 0.625rem;
@@ -616,9 +607,9 @@
 
 	.edit-btn {
 		padding: 4px 10px;
-		background: var(--void-surface);
-		color: var(--shadow-monarch);
-		border: 1px solid var(--shadow-monarch);
+		background: var(--bg-surface);
+		color: var(--primary);
+		border: 1px solid var(--primary);
 		border-radius: 5px;
 		font-size: 0.6875rem;
 		font-weight: 500;
@@ -627,7 +618,7 @@
 	}
 
 	.edit-btn:hover {
-		background: var(--shadow-monarch);
+		background: var(--primary);
 		color: white;
 	}
 
@@ -648,7 +639,7 @@
 		align-items: center;
 		gap: 12px;
 		padding: 12px;
-		background: var(--void-deep);
+		background: var(--bg-deep);
 		border-radius: 10px;
 		margin-bottom: 16px;
 	}
@@ -678,7 +669,7 @@
 		border-radius: 10px;
 		font-size: 1.125rem;
 		font-weight: 700;
-		background: var(--void-elevated);
+		background: var(--bg-elevated);
 		color: var(--text-secondary);
 	}
 
@@ -717,9 +708,9 @@
 	.form-select {
 		width: 100%;
 		padding: 10px 12px;
-		border: 1px solid var(--void-elevated);
+		border: 1px solid var(--bg-elevated);
 		border-radius: 6px;
-		background: var(--void-surface);
+		background: var(--bg-surface);
 		color: var(--text-primary);
 		font-size: 0.8125rem;
 		cursor: pointer;
@@ -727,7 +718,7 @@
 
 	.form-select:focus {
 		outline: none;
-		border-color: var(--shadow-monarch);
+		border-color: var(--primary);
 	}
 
 	.modal-actions {
@@ -746,17 +737,17 @@
 	}
 
 	.btn-secondary {
-		background: var(--void-surface);
+		background: var(--bg-surface);
 		color: var(--text-primary);
-		border: 1px solid var(--void-elevated);
+		border: 1px solid var(--bg-elevated);
 	}
 
 	.btn-secondary:hover {
-		background: var(--void-deep);
+		background: var(--bg-deep);
 	}
 
 	.btn-primary {
-		background: var(--shadow-monarch);
+		background: var(--primary);
 		color: white;
 		border: none;
 	}

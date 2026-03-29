@@ -1,15 +1,14 @@
 // tailwind.config.ts
 import type { Config } from 'tailwindcss';
 
-const fontSans = ['"Noticia Text"', 'serif'];
-const fontSerif = ['"Noticia Text"', 'serif'];
-const fontMono = ['"Noticia Text"', 'serif'];
+const fontSans = ['"Space Grotesk"', 'system-ui', 'sans-serif'];
+const fontDisplay = ['"Rajdhani"', 'system-ui', 'sans-serif'];
+const fontMono = ['"JetBrains Mono"', 'ui-monospace', 'monospace'];
 
 export default {
 	content: [
 		'./src/**/*.{html,js,svelte,ts}',
 		'./node_modules/flowbite-svelte/**/*.{html,js,svelte,ts}',
-		// Exclude SCSS files from purging as they use CSS variables
 		'!./src/**/*.scss'
 	],
 
@@ -19,81 +18,99 @@ export default {
 	theme: {
 		extend: {
 			colors: {
-				// Modern purple-focused palette
+				// Teal primary palette
 				primary: {
-					50: '#f7f7ff',
-					100: '#e9e4ff',
-					200: '#d1c9ff',
-					300: '#b2a8ff',
-					400: '#a29bfe',
-					500: '#8c7ae6',
-					600: '#7158e2',
-					700: '#6c5ce7',
-					800: '#4834d4',
-					900: '#382bb3'
+					50: '#F0FDFA',
+					100: '#CCFBF1',
+					200: '#99F6E4',
+					300: '#5EEAD4',
+					400: '#2DD4BF',
+					500: '#14B8A6',
+					600: '#0D9488',
+					700: '#0F766E',
+					800: '#115E59',
+					900: '#134E4A'
 				},
-				// Gray scale with slight purple tint
+				// Rose secondary palette
+				secondary: {
+					50: '#FFF1F2',
+					100: '#FFE4E6',
+					200: '#FECDD3',
+					300: '#FDA4AF',
+					400: '#FB7185',
+					500: '#F43F5E',
+					600: '#E11D48',
+					700: '#BE123C',
+					800: '#9F1239',
+					900: '#881337'
+				},
+				// Purple accent palette
+				accent: {
+					50: '#F5F3FF',
+					100: '#EDE9FE',
+					200: '#DDD6FE',
+					300: '#C4B5FD',
+					400: '#A78BFA',
+					500: '#8B5CF6',
+					600: '#7C3AED',
+					700: '#6D28D9',
+					800: '#5B21B6',
+					900: '#4C1D95'
+				},
+				// Warm stone neutral palette
 				neutral: {
-					50: '#f9f9ff',
-					100: '#f0f2f5',
-					200: '#e4e6eb',
-					300: '#e3e1f0',
-					400: '#c1c5d0',
-					500: '#9ca3af',
-					600: '#65676b',
-					700: '#4b5563',
-					800: '#2a2d34',
-					900: '#18191a'
+					50: '#FAFAF9',
+					100: '#F5F5F4',
+					200: '#E7E5E4',
+					300: '#D6D3D1',
+					400: '#A8A29E',
+					500: '#78716C',
+					600: '#57534E',
+					700: '#44403C',
+					800: '#292524',
+					900: '#1C1917',
+					950: '#0C0A09'
 				},
 				// Functional colors
 				success: {
-					50: '#ecfdf5',
-					100: '#d1fae5',
-					500: '#00b894',
-					700: '#047857'
+					50: '#ECFDF5',
+					100: '#D1FAE5',
+					500: '#22C55E',
+					700: '#15803D'
 				},
 				warning: {
-					50: '#fffbeb',
-					100: '#fef3c7',
-					500: '#fdcb6e',
-					700: '#b45309'
+					50: '#FFFBEB',
+					100: '#FEF3C7',
+					500: '#EAB308',
+					700: '#A16207'
 				},
 				error: {
-					50: '#fdf2f8',
-					100: '#fce7f3',
-					500: '#e84393',
-					700: '#be185d'
+					50: '#FEF2F2',
+					100: '#FEE2E2',
+					500: '#EF4444',
+					700: '#B91C1C'
 				},
 				info: {
-					50: '#eff6ff',
-					100: '#dbeafe',
-					500: '#74b9ff',
-					700: '#1d4ed8'
+					50: '#F0FDFA',
+					100: '#CCFBF1',
+					500: '#14B8A6',
+					700: '#0F766E'
 				},
 				brand: {
-					purple: '#6c5ce7',
-					purpleDark: '#4834d4',
-					purpleLight: '#a29bfe',
-					gold: '#d4af37'
-				},
-				accent: {
-					marble: '#f5f5f0',
-					parchment: '#f2ebd8',
-					aegean: '#1a5276',
-					olive: '#71723c'
-				},
-				semantic: {
-					success: '#00b894',
-					warning: '#fdcb6e',
-					info: '#74b9ff',
-					danger: '#e84393'
+					teal: '#2DD4BF',
+					tealDark: '#0D9488',
+					rose: '#FB7185',
+					roseDark: '#E11D48',
+					gold: '#D4AF37'
 				}
 			},
 			boxShadow: {
-				sm: '0 1px 3px rgba(108, 92, 231, 0.08)',
-				md: '0 4px 6px rgba(108, 92, 231, 0.1)',
-				lg: '0 10px 15px rgba(108, 92, 231, 0.1)',
-				xl: '0 20px 25px rgba(108, 92, 231, 0.1)'
+				sm: '0 1px 3px rgba(12, 10, 9, 0.15)',
+				md: '0 4px 6px rgba(12, 10, 9, 0.2)',
+				lg: '0 10px 15px rgba(12, 10, 9, 0.25)',
+				xl: '0 20px 25px rgba(12, 10, 9, 0.3)',
+				'glow-teal': '0 0 20px rgba(45, 212, 191, 0.3)',
+				'glow-rose': '0 0 20px rgba(251, 113, 133, 0.3)'
 			},
 			borderRadius: {
 				sm: '0.25rem',
@@ -112,8 +129,8 @@ export default {
 			},
 			fontFamily: {
 				sans: fontSans,
-				heading: fontSans,
-				serif: fontSerif,
+				heading: fontDisplay,
+				display: fontDisplay,
 				mono: fontMono
 			},
 			maxWidth: {
@@ -123,7 +140,7 @@ export default {
 			typography: (theme) => ({
 				DEFAULT: {
 					css: {
-						color: theme('colors.neutral.800'),
+						color: 'var(--text-primary)',
 						fontSize: '1rem',
 						lineHeight: '1.5',
 						maxWidth: '68ch',
@@ -132,36 +149,36 @@ export default {
 							marginBottom: '0.75em'
 						},
 						a: {
-							color: theme('colors.primary.700'),
+							color: 'var(--primary)',
 							fontWeight: 600,
 							textDecoration: 'none',
 							'&:hover': {
-								color: theme('colors.primary.800'),
+								color: 'var(--primary-light)',
 								textDecoration: 'underline'
 							}
 						},
 						h1: {
-							color: theme('colors.neutral.900'),
+							color: 'var(--text-primary)',
 							fontFamily: theme('fontFamily.heading').join(','),
 							fontSize: '2.25rem',
 							lineHeight: '1.2',
 							marginBottom: '0.75em'
 						},
 						h2: {
-							color: theme('colors.neutral.900'),
+							color: 'var(--text-primary)',
 							fontFamily: theme('fontFamily.heading').join(','),
 							fontSize: '1.75rem',
 							lineHeight: '1.25',
 							marginTop: '1.5em'
 						},
 						h3: {
-							color: theme('colors.neutral.800'),
+							color: 'var(--text-primary)',
 							fontFamily: theme('fontFamily.heading').join(','),
 							fontSize: '1.375rem',
 							lineHeight: '1.3'
 						},
 						h4: {
-							color: theme('colors.neutral.800'),
+							color: 'var(--text-primary)',
 							fontWeight: 600
 						},
 						p: {
@@ -169,13 +186,13 @@ export default {
 							marginBottom: '0.5em'
 						},
 						strong: {
-							color: theme('colors.neutral.900')
+							color: 'var(--text-primary)'
 						},
 						blockquote: {
-							borderLeftColor: theme('colors.primary.500'),
+							borderLeftColor: 'var(--primary)',
 							fontStyle: 'normal',
 							paddingLeft: '1rem',
-							color: theme('colors.neutral.800')
+							color: 'var(--text-secondary)'
 						},
 						ul: {
 							marginTop: '0.5em',
@@ -191,7 +208,7 @@ export default {
 							fontFamily: theme('fontFamily.mono').join(','),
 							padding: '0.1rem 0.25rem',
 							borderRadius: theme('borderRadius.sm'),
-							backgroundColor: theme('colors.neutral.100')
+							backgroundColor: 'var(--bg-elevated)'
 						}
 					}
 				},

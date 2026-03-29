@@ -221,9 +221,9 @@
 	}
 
 	function getCampaignColor(campaignId: string | null | undefined) {
-		if (!campaignId) return 'var(--void-elevated)';
+		if (!campaignId) return 'var(--bg-elevated)';
 		const campaign = campaigns.find((c) => c.id === campaignId);
-		return campaign?.color || 'var(--void-elevated)';
+		return campaign?.color || 'var(--bg-elevated)';
 	}
 
 	function getStatusClass(status: string | undefined): string {
@@ -653,15 +653,15 @@
 		width: 32px;
 		height: 32px;
 		border-radius: 8px;
-		border: 1px solid var(--void-elevated);
-		background: var(--void-surface);
+		border: 1px solid var(--bg-elevated);
+		background: var(--bg-surface);
 		color: var(--text-primary);
 		cursor: pointer;
 		transition: all 0.15s ease;
 	}
 
 	.nav-btn:hover {
-		background: var(--void-elevated);
+		background: var(--bg-elevated);
 	}
 
 	.nav-loading {
@@ -683,9 +683,9 @@
 	.filter-select {
 		padding: 0.375rem 2rem 0.375rem 0.75rem;
 		font-size: 0.8125rem;
-		border: 1px solid var(--void-elevated);
+		border: 1px solid var(--bg-elevated);
 		border-radius: 8px;
-		background: var(--void-deep);
+		background: var(--bg-deep);
 		color: var(--text-primary);
 		appearance: none;
 		background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 24 24' fill='none' stroke='%2364748b' stroke-width='2'%3E%3Cpath d='m6 9 6 6 6-6'/%3E%3C/svg%3E");
@@ -712,15 +712,15 @@
 		width: 100%;
 		padding: 0.375rem 0.75rem 0.375rem 2rem;
 		font-size: 0.8125rem;
-		border: 1px solid var(--void-elevated);
+		border: 1px solid var(--bg-elevated);
 		border-radius: 8px;
-		background: var(--void-deep);
+		background: var(--bg-deep);
 		color: var(--text-primary);
 	}
 
 	.search-input:focus {
 		outline: none;
-		border-color: var(--shadow-monarch);
+		border-color: var(--primary);
 	}
 
 	/* Buttons */
@@ -748,13 +748,13 @@
 	}
 
 	.btn-secondary {
-		background: var(--void-elevated);
+		background: var(--bg-elevated);
 		color: var(--text-primary);
 		font-weight: 600;
 	}
 
 	.btn-secondary:hover {
-		background: var(--void-highlight);
+		background: var(--bg-highlight);
 	}
 
 	/* Spinner */
@@ -762,8 +762,8 @@
 		display: inline-block;
 		width: 16px;
 		height: 16px;
-		border: 2px solid var(--void-elevated);
-		border-top-color: var(--shadow-monarch);
+		border: 2px solid var(--bg-elevated);
+		border-top-color: var(--primary);
 		border-radius: 50%;
 		animation: spin 0.6s linear infinite;
 	}
@@ -799,9 +799,9 @@
 		min-height: 8rem;
 		overflow: hidden;
 		border-radius: 8px;
-		border: 1px solid var(--void-elevated);
+		border: 1px solid var(--bg-elevated);
 		padding: 0.5rem;
-		background: var(--void-surface);
+		background: var(--bg-surface);
 		transition: all 0.2s ease;
 	}
 
@@ -810,16 +810,16 @@
 	}
 
 	.day-cell.is-active:hover {
-		border-color: var(--shadow-monarch);
+		border-color: var(--primary);
 	}
 
 	.day-cell.is-today {
-		border-color: rgba(59, 130, 246, 0.4);
-		background: rgba(59, 130, 246, 0.05);
+		border-color: rgba(251, 113, 133, 0.4);
+		background: rgba(251, 113, 133, 0.05);
 	}
 
 	.day-cell.is-empty {
-		background: var(--void-deep);
+		background: var(--bg-deep);
 	}
 
 	.day-number {
@@ -878,7 +878,7 @@
 		padding: 0.25rem 0;
 		text-align: center;
 		font-size: 0.75rem;
-		color: var(--shadow-monarch);
+		color: var(--primary);
 		background: none;
 		border: none;
 		cursor: pointer;
@@ -924,7 +924,7 @@
 		font-size: 0.6875rem;
 		font-weight: 600;
 		border-radius: 9999px;
-		background: rgba(59, 130, 246, 0.15);
+		background: rgba(251, 113, 133, 0.15);
 		color: #60a5fa;
 	}
 
@@ -938,8 +938,8 @@
 		gap: 0.5rem;
 		padding: 0.5rem;
 		border-radius: 8px;
-		border: 1px solid var(--void-elevated);
-		background: var(--void-surface);
+		border: 1px solid var(--bg-elevated);
+		background: var(--bg-surface);
 	}
 
 	.week-item {
@@ -965,7 +965,7 @@
 		align-items: center;
 		flex-shrink: 0;
 		padding-right: 0.75rem;
-		border-right: 1px solid var(--void-elevated);
+		border-right: 1px solid var(--bg-elevated);
 	}
 
 	.time-bold {
@@ -1007,7 +1007,7 @@
 	}
 
 	.status-scheduled {
-		background: rgba(59, 130, 246, 0.15);
+		background: rgba(251, 113, 133, 0.15);
 		color: #60a5fa;
 	}
 
@@ -1022,7 +1022,7 @@
 	}
 
 	.status-draft {
-		background: var(--void-elevated);
+		background: var(--bg-elevated);
 		color: var(--text-secondary);
 	}
 
@@ -1039,9 +1039,9 @@
 		text-align: center;
 		font-size: 0.875rem;
 		color: var(--text-secondary);
-		border: 1px dashed var(--void-elevated);
+		border: 1px dashed var(--bg-elevated);
 		border-radius: 8px;
-		background: var(--void-deep);
+		background: var(--bg-deep);
 	}
 
 	/* Modals */
@@ -1057,8 +1057,8 @@
 	}
 
 	.modal-dialog {
-		background: var(--void-surface);
-		border: 1px solid var(--void-elevated);
+		background: var(--bg-surface);
+		border: 1px solid var(--bg-elevated);
 		border-radius: 12px;
 		padding: 1.5rem;
 		width: 90%;

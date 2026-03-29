@@ -62,17 +62,22 @@
 </aside>
 
 <style lang="scss">
-	/* Solo Leveling Dark Theme */
+	/* 9takes Warm Tech Theme */
 	.quick-answer {
 		position: relative;
 		margin: 1.5rem 0 2rem;
 		padding: 1.25rem 1.5rem;
 		border-radius: 12px;
-		background: linear-gradient(135deg, var(--void-surface) 0%, #16161e 50%, var(--void-deep) 100%);
-		border: 1px solid rgba(124, 58, 237, 0.25);
+		background: linear-gradient(
+			135deg,
+			var(--bg-surface) 0%,
+			var(--bg-deep) 50%,
+			var(--bg-base) 100%
+		);
+		border: 1px solid rgba(45, 212, 191, 0.25);
 		box-shadow:
 			0 4px 20px rgba(0, 0, 0, 0.3),
-			0 0 0 1px rgba(124, 58, 237, 0.1);
+			0 0 0 1px rgba(45, 212, 191, 0.1);
 
 		// Purple accent line on left
 		&::before {
@@ -82,17 +87,13 @@
 			top: 0;
 			bottom: 0;
 			width: 4px;
-			background: linear-gradient(
-				180deg,
-				var(--shadow-monarch) 0%,
-				var(--shadow-monarch-lighter) 100%
-			);
+			background: linear-gradient(180deg, var(--primary) 0%, var(--primary-lighter) 100%);
 			border-radius: 12px 0 0 12px;
 		}
 
 		&--subtle {
-			background: linear-gradient(135deg, #16161e 0%, var(--void-abyss) 100%);
-			border-color: rgba(100, 116, 139, 0.2);
+			background: linear-gradient(135deg, var(--bg-deep) 0%, var(--bg-base) 100%);
+			border-color: color-mix(in srgb, var(--text-tertiary) 20%, transparent);
 			box-shadow:
 				0 2px 12px rgba(0, 0, 0, 0.25),
 				0 1px 3px rgba(0, 0, 0, 0.15);
@@ -121,7 +122,7 @@
 	.quick-answer__icon {
 		width: 20px;
 		height: 20px;
-		color: var(--shadow-monarch-lighter);
+		color: var(--primary-lighter);
 		flex-shrink: 0;
 	}
 
@@ -130,7 +131,7 @@
 		font-weight: 700;
 		text-transform: uppercase;
 		letter-spacing: 0.05em;
-		color: var(--shadow-monarch-lighter);
+		color: var(--primary-lighter);
 	}
 
 	.quick-answer__question {
@@ -174,10 +175,10 @@
 
 		// Links
 		:global(a) {
-			color: var(--shadow-monarch-lighter);
+			color: var(--primary-lighter);
 
 			&:hover {
-				color: var(--shadow-monarch-lightest);
+				color: var(--primary-lightest);
 			}
 		}
 	}

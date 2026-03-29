@@ -1,54 +1,53 @@
 /* src/scss/_mixins.scss */
 /*
  * Responsive & Effect Mixins
- * Solo Leveling Dark Theme
  */
 
 /*==============================================
   GLOW EFFECT MIXINS
 ==============================================*/
 
-// Purple glow effect (primary)
-@mixin glow-purple($intensity: 'md') {
+// Primary glow effect
+@mixin glow-primary($intensity: 'md') {
 	@if $intensity == 'sm' {
-		box-shadow: 0 0 10px rgba(124, 58, 237, 0.3);
+		box-shadow: var(--glow-sm);
 	} @else if $intensity == 'md' {
-		box-shadow: 0 0 20px rgba(124, 58, 237, 0.4);
+		box-shadow: var(--glow-md);
 	} @else if $intensity == 'lg' {
-		box-shadow: 0 0 40px rgba(124, 58, 237, 0.5);
+		box-shadow: var(--glow-lg);
 	}
 }
 
-// Blue glow effect (secondary)
-@mixin glow-blue($intensity: 'md') {
+// Secondary glow effect
+@mixin glow-secondary($intensity: 'md') {
 	@if $intensity == 'sm' {
-		box-shadow: 0 0 10px rgba(59, 130, 246, 0.3);
+		box-shadow: 0 0 10px var(--secondary-glow);
 	} @else if $intensity == 'md' {
-		box-shadow: 0 0 20px rgba(59, 130, 246, 0.4);
+		box-shadow: 0 0 20px var(--secondary-glow);
 	} @else if $intensity == 'lg' {
-		box-shadow: 0 0 40px rgba(59, 130, 246, 0.5);
+		box-shadow: 0 0 40px var(--secondary-glow);
 	}
 }
 
-// Cyan glow effect (accent)
-@mixin glow-cyan($intensity: 'md') {
+// Accent glow effect
+@mixin glow-accent($intensity: 'md') {
 	@if $intensity == 'sm' {
-		box-shadow: 0 0 10px rgba(6, 182, 212, 0.3);
+		box-shadow: 0 0 10px var(--accent-glow);
 	} @else if $intensity == 'md' {
-		box-shadow: 0 0 20px rgba(6, 182, 212, 0.4);
+		box-shadow: 0 0 20px var(--accent-glow);
 	} @else if $intensity == 'lg' {
-		box-shadow: 0 0 40px rgba(6, 182, 212, 0.5);
+		box-shadow: 0 0 40px var(--accent-glow);
 	}
 }
 
 // Text glow effect
-@mixin text-glow($color: 'purple') {
-	@if $color == 'purple' {
-		text-shadow: 0 0 20px rgba(124, 58, 237, 0.5);
-	} @else if $color == 'blue' {
-		text-shadow: 0 0 20px rgba(59, 130, 246, 0.5);
-	} @else if $color == 'cyan' {
-		text-shadow: 0 0 20px rgba(6, 182, 212, 0.5);
+@mixin text-glow($color: 'primary') {
+	@if $color == 'primary' {
+		text-shadow: 0 0 20px var(--primary-glow);
+	} @else if $color == 'secondary' {
+		text-shadow: 0 0 20px var(--secondary-glow);
+	} @else if $color == 'accent' {
+		text-shadow: 0 0 20px var(--accent-glow);
 	}
 }
 
@@ -58,44 +57,57 @@
 
 	&:hover {
 		transform: translateY(-4px);
-		box-shadow: 0 0 30px rgba(124, 58, 237, 0.3);
-		border-color: rgba(124, 58, 237, 0.5);
+		box-shadow: 0 0 30px var(--primary-glow);
+		border-color: var(--primary-glow);
 	}
 }
 
 // Focus glow ring
 @mixin focus-glow {
 	&:focus-visible {
-		outline: 2px solid #7c3aed;
+		outline: 2px solid var(--primary);
 		outline-offset: 2px;
-		box-shadow: 0 0 10px rgba(124, 58, 237, 0.3);
+		box-shadow: var(--glow-sm);
 	}
 }
 
 // Dark card base styles
 @mixin dark-card {
-	background-color: #1a1a2e;
-	border: 1px solid rgba(100, 116, 139, 0.3);
+	background-color: var(--bg-surface);
+	border: 1px solid color-mix(in srgb, var(--text-tertiary) 30%, transparent);
 	border-radius: 12px;
 	box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
 }
 
 // Dark input base styles
 @mixin dark-input {
-	background-color: #252538;
-	border: 1px solid rgba(100, 116, 139, 0.3);
+	background-color: var(--bg-elevated);
+	border: 1px solid color-mix(in srgb, var(--text-tertiary) 30%, transparent);
 	border-radius: 8px;
-	color: #f1f5f9;
+	color: var(--text-primary);
 
 	&::placeholder {
-		color: #64748b;
+		color: var(--text-tertiary);
 	}
 
 	&:focus {
 		outline: none;
-		border-color: #7c3aed;
-		box-shadow: 0 0 10px rgba(124, 58, 237, 0.3);
+		border-color: var(--primary);
+		box-shadow: var(--glow-sm);
 	}
+}
+
+// Legacy aliases for backward compatibility
+@mixin glow-purple($intensity: 'md') {
+	@include glow-primary($intensity);
+}
+
+@mixin glow-blue($intensity: 'md') {
+	@include glow-secondary($intensity);
+}
+
+@mixin glow-cyan($intensity: 'md') {
+	@include glow-accent($intensity);
 }
 
 /*==============================================

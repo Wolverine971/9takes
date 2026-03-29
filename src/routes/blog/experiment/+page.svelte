@@ -560,7 +560,7 @@
 		font-family: inherit;
 		resize: vertical;
 		min-height: 160px;
-		background: var(--void-surface);
+		background: var(--bg-surface);
 		color: var(--text-primary);
 
 		&::placeholder {
@@ -600,12 +600,12 @@
 	}
 
 	.btn-primary {
-		background: var(--color-theme-purple, #7c3aed);
+		background: var(--color-theme-purple, var(--primary-dark));
 		color: white;
 	}
 
 	.btn-secondary {
-		background: var(--void-elevated);
+		background: var(--bg-elevated);
 		color: var(--text-primary);
 	}
 
@@ -617,7 +617,7 @@
 	.results-summary {
 		text-align: center;
 		padding: 1rem;
-		background: var(--void-surface);
+		background: var(--bg-surface);
 		border-radius: var(--base-border-radius);
 		margin-bottom: 1.5rem;
 		color: var(--text-primary);
@@ -647,8 +647,8 @@
 	}
 
 	.result-shame {
-		background: rgba(124, 58, 237, 0.1);
-		border-top-color: #7c3aed;
+		background: rgba(45, 212, 191, 0.1);
+		border-top-color: var(--primary-dark);
 	}
 
 	.column-header {
@@ -714,15 +714,15 @@
 	}
 
 	.chip-shame {
-		background-color: rgba(124, 58, 237, 0.15);
-		color: var(--shadow-monarch-lightest);
-		border: 1px solid rgba(124, 58, 237, 0.3);
+		background-color: rgba(45, 212, 191, 0.15);
+		color: var(--primary-lightest);
+		border: 1px solid rgba(45, 212, 191, 0.3);
 	}
 
 	.chip-other {
-		background-color: var(--void-elevated);
+		background-color: var(--bg-elevated);
 		color: var(--text-secondary);
-		border: 1px solid var(--void-highlight);
+		border: 1px solid var(--bg-highlight);
 	}
 
 	.chip-empty {
@@ -734,9 +734,9 @@
 	.result-other {
 		margin-top: 0.75rem;
 		padding: 1rem;
-		background: var(--void-surface);
+		background: var(--bg-surface);
 		border-radius: var(--base-border-radius);
-		border: 1px dashed var(--void-elevated);
+		border: 1px dashed var(--bg-elevated);
 
 		h4 {
 			margin: 0 0 0.5rem;
@@ -764,10 +764,10 @@
 	}
 
 	.reflection-questions {
-		background: var(--void-surface);
+		background: var(--bg-surface);
 		padding: 1rem 1.25rem;
 		border-radius: var(--base-border-radius);
-		border-left: 3px solid var(--color-theme-purple, #7c3aed);
+		border-left: 3px solid var(--color-theme-purple, var(--primary-dark));
 		margin: 1.25rem 0;
 		color: var(--text-primary);
 
@@ -832,7 +832,7 @@
 
 		&:hover,
 		&:focus-visible {
-			border-color: var(--shadow-monarch-light);
+			border-color: var(--primary-light);
 
 			.expand-hint {
 				opacity: 1;
@@ -935,8 +935,8 @@
 	}
 
 	.shame-box {
-		background-color: rgba(124, 58, 237, 0.1);
-		border-left-color: #7c3aed;
+		background-color: rgba(45, 212, 191, 0.1);
+		border-left-color: var(--primary-dark);
 	}
 
 	.anger-box {
@@ -968,7 +968,7 @@
 			padding: 0.5rem 0.75rem;
 			margin-bottom: 0.5rem;
 			border-radius: var(--base-border-radius);
-			background: var(--void-surface);
+			background: var(--bg-surface);
 			font-size: 0.9rem;
 			color: var(--text-secondary);
 		}
@@ -978,7 +978,7 @@
 	.key-insight {
 		margin: 2rem 0;
 		padding: 1.5rem;
-		background: var(--void-surface);
+		background: var(--bg-surface);
 		border-radius: var(--base-border-radius);
 		border: var(--classic-border);
 		color: var(--text-primary);
@@ -1026,8 +1026,8 @@
 	}
 
 	.center-shame {
-		background: rgba(124, 58, 237, 0.1);
-		border-top-color: #7c3aed;
+		background: rgba(45, 212, 191, 0.1);
+		border-top-color: var(--primary-dark);
 	}
 
 	.section-cta {
@@ -1037,7 +1037,7 @@
 		margin-top: 2rem;
 
 		a {
-			color: var(--shadow-monarch-light, #8b5cf6);
+			color: var(--primary-light, var(--accent));
 			font-weight: 700;
 		}
 	}

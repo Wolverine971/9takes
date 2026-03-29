@@ -518,7 +518,7 @@
 	   ======================================== */
 	:root {
 		/* Void (Backgrounds) */
-		--void-deep: #05050a;
+		--bg-deep: #05050a;
 		--void-shadow: #0a0a12;
 		--void-umbra: #12121c;
 		--void-penumbra: #1a1a28;
@@ -560,7 +560,7 @@
 	.sl-page {
 		position: relative;
 		min-height: 100vh;
-		background: var(--void-deep);
+		background: var(--bg-deep);
 		color: var(--text-primary);
 		font-family: var(--font-body);
 		overflow-x: hidden;
@@ -569,7 +569,7 @@
 	.void-bg {
 		position: fixed;
 		inset: 0;
-		background: radial-gradient(ellipse at 50% 0%, var(--void-umbra) 0%, var(--void-deep) 70%);
+		background: radial-gradient(ellipse at 50% 0%, var(--void-umbra) 0%, var(--bg-deep) 70%);
 		z-index: 0;
 	}
 
@@ -1371,7 +1371,7 @@
 	.dungeon-overlay {
 		position: absolute;
 		inset: 0;
-		background: linear-gradient(180deg, transparent 0%, var(--void-deep) 100%);
+		background: linear-gradient(180deg, transparent 0%, var(--bg-deep) 100%);
 	}
 
 	.dungeon-rank {

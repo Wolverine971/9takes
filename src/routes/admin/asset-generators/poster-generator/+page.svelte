@@ -71,7 +71,7 @@
 	// Style settings
 	let activeBackground = $state('greek_pantheon');
 	let overlayOpacity = $state(60);
-	let overlayColor = $state('#1a1a2e');
+	let overlayColor = $state('var(--bg-surface)');
 	let questionFontSize = $state('text-4xl');
 	let questionColor = $state('text-white');
 	let showLogo = $state(true);
@@ -452,7 +452,7 @@
 								class="color-btn"
 								class:active={questionColor === 'text-primary-200'}
 								onclick={() => (questionColor = 'text-primary-200')}
-								style="background: #c4b5fd;"
+								style="background: var(--accent-light);"
 								aria-label="Purple text"
 							></button>
 						</div>
@@ -678,7 +678,7 @@
 		h1 {
 			font-size: 1.5rem;
 			font-weight: 700;
-			background: linear-gradient(135deg, var(--shadow-monarch-light), var(--awakening-cyan));
+			background: linear-gradient(135deg, var(--primary-light), var(--accent));
 			-webkit-background-clip: text;
 			-webkit-text-fill-color: transparent;
 			background-clip: text;
@@ -720,17 +720,13 @@
 	}
 
 	.btn-primary {
-		background: linear-gradient(135deg, var(--shadow-monarch) 0%, var(--shadow-monarch-dark) 100%);
+		background: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%);
 		color: var(--text-on-primary);
-		border: 1px solid var(--shadow-monarch);
+		border: 1px solid var(--primary);
 		box-shadow: var(--glow-sm);
 
 		&:hover:not(:disabled) {
-			background: linear-gradient(
-				135deg,
-				var(--shadow-monarch-light) 0%,
-				var(--shadow-monarch) 100%
-			);
+			background: linear-gradient(135deg, var(--primary-light) 0%, var(--primary) 100%);
 			box-shadow: var(--glow-md);
 			transform: translateY(-1px);
 		}
@@ -738,22 +734,22 @@
 
 	.btn-secondary {
 		background: transparent;
-		color: var(--shadow-monarch-light);
-		border: 1px solid var(--shadow-monarch);
+		color: var(--primary-light);
+		border: 1px solid var(--primary);
 
 		&:hover:not(:disabled) {
-			background: var(--shadow-monarch-subtle);
+			background: var(--primary-subtle);
 			box-shadow: var(--glow-sm);
 		}
 	}
 
 	.btn-ghost {
 		background: transparent;
-		color: var(--shadow-monarch-light);
+		color: var(--primary-light);
 		padding: 0.5rem;
 
 		&:hover {
-			background: var(--shadow-monarch-subtle);
+			background: var(--primary-subtle);
 		}
 	}
 
@@ -773,16 +769,16 @@
 	}
 
 	.controls-panel {
-		background: var(--void-surface);
+		background: var(--bg-surface);
 		border-radius: 0.75rem;
-		border: 1px solid var(--void-elevated);
+		border: 1px solid var(--bg-elevated);
 		box-shadow: var(--shadow-md);
 		overflow: hidden;
 	}
 
 	.tabs {
 		display: flex;
-		border-bottom: 1px solid var(--void-highlight);
+		border-bottom: 1px solid var(--bg-highlight);
 		overflow-x: auto;
 	}
 
@@ -805,13 +801,13 @@
 
 		&:hover {
 			color: var(--text-primary);
-			background: var(--void-elevated);
+			background: var(--bg-elevated);
 		}
 
 		&.active {
-			color: var(--shadow-monarch-light);
-			border-bottom-color: var(--shadow-monarch);
-			box-shadow: 0 0 10px var(--shadow-monarch-glow);
+			color: var(--primary-light);
+			border-bottom-color: var(--primary);
+			box-shadow: 0 0 10px var(--primary-glow);
 		}
 
 		svg {
@@ -848,11 +844,11 @@
 	.input {
 		width: 100%;
 		padding: 0.625rem 0.75rem;
-		border: 1px solid var(--void-highlight);
+		border: 1px solid var(--bg-highlight);
 		border-radius: 0.5rem;
 		font-size: 0.875rem;
 		color: var(--text-primary);
-		background: var(--void-elevated);
+		background: var(--bg-elevated);
 		transition:
 			border-color 0.2s,
 			box-shadow 0.2s;
@@ -863,7 +859,7 @@
 
 		&:focus {
 			outline: none;
-			border-color: var(--shadow-monarch);
+			border-color: var(--primary);
 			box-shadow: var(--glow-sm);
 		}
 	}
@@ -877,7 +873,7 @@
 		margin-top: 0.75rem;
 		max-height: 200px;
 		overflow-y: auto;
-		border: 1px solid var(--void-highlight);
+		border: 1px solid var(--bg-highlight);
 		border-radius: 0.5rem;
 	}
 
@@ -889,7 +885,7 @@
 		color: var(--text-secondary);
 		background: none;
 		border: none;
-		border-bottom: 1px solid var(--void-highlight);
+		border-bottom: 1px solid var(--bg-highlight);
 		cursor: pointer;
 		transition: background 0.15s;
 
@@ -898,7 +894,7 @@
 		}
 
 		&:hover {
-			background: var(--void-elevated);
+			background: var(--bg-elevated);
 		}
 	}
 
@@ -922,7 +918,7 @@
 		}
 
 		&.active {
-			border-color: var(--shadow-monarch);
+			border-color: var(--primary);
 		}
 	}
 
@@ -937,7 +933,7 @@
 		input[type='checkbox'] {
 			width: 1rem;
 			height: 1rem;
-			accent-color: var(--shadow-monarch);
+			accent-color: var(--primary);
 		}
 	}
 
@@ -952,20 +948,20 @@
 		flex-direction: column;
 		align-items: center;
 		padding: 0.5rem;
-		border: 2px solid var(--void-highlight);
+		border: 2px solid var(--bg-highlight);
 		border-radius: 0.5rem;
-		background: var(--void-elevated);
+		background: var(--bg-elevated);
 		cursor: pointer;
 		transition: all 0.2s;
 
 		&:hover {
-			border-color: var(--shadow-monarch-lighter);
+			border-color: var(--primary-lighter);
 			box-shadow: var(--glow-sm);
 		}
 
 		&.active {
-			border-color: var(--shadow-monarch);
-			background: var(--shadow-monarch-subtle);
+			border-color: var(--primary);
+			background: var(--primary-subtle);
 			box-shadow: var(--glow-sm);
 		}
 
@@ -987,7 +983,7 @@
 		width: 100%;
 		height: 0.375rem;
 		border-radius: 0.25rem;
-		background: var(--void-highlight);
+		background: var(--bg-highlight);
 		appearance: none;
 		cursor: pointer;
 
@@ -996,7 +992,7 @@
 			width: 1rem;
 			height: 1rem;
 			border-radius: 50%;
-			background: var(--shadow-monarch);
+			background: var(--primary);
 			cursor: pointer;
 		}
 	}
@@ -1010,7 +1006,7 @@
 	.color-picker {
 		width: 3rem;
 		height: 2rem;
-		border: 1px solid var(--void-highlight);
+		border: 1px solid var(--bg-highlight);
 		border-radius: 0.375rem;
 		cursor: pointer;
 	}
@@ -1033,16 +1029,16 @@
 		align-items: center;
 		gap: 0.875rem;
 		padding: 1rem;
-		border: 1px solid var(--void-elevated);
+		border: 1px solid var(--bg-elevated);
 		border-radius: 0.625rem;
-		background: var(--void-surface);
+		background: var(--bg-surface);
 		cursor: pointer;
 		text-align: left;
 		transition: all 0.2s;
 
 		&:hover:not(:disabled) {
-			border-color: var(--shadow-monarch);
-			background: var(--shadow-monarch-subtle);
+			border-color: var(--primary);
+			background: var(--primary-subtle);
 			box-shadow: var(--glow-sm);
 			transform: translateY(-2px);
 		}
@@ -1053,7 +1049,7 @@
 		}
 
 		svg {
-			color: var(--shadow-monarch-light);
+			color: var(--primary-light);
 			flex-shrink: 0;
 		}
 	}
@@ -1072,7 +1068,7 @@
 
 	.tips {
 		padding: 1rem;
-		background: var(--void-elevated);
+		background: var(--bg-elevated);
 		border-radius: 0.5rem;
 
 		h4 {
@@ -1095,9 +1091,9 @@
 	}
 
 	.preview-panel {
-		background: var(--void-surface);
+		background: var(--bg-surface);
 		border-radius: 0.75rem;
-		border: 1px solid var(--void-elevated);
+		border: 1px solid var(--bg-elevated);
 		box-shadow: var(--shadow-md);
 		padding: 1rem;
 	}
@@ -1118,9 +1114,9 @@
 	.format-badge {
 		font-size: 0.75rem;
 		padding: 0.25rem 0.625rem;
-		background: rgba(124, 58, 237, 0.15);
-		border: 1px solid rgba(124, 58, 237, 0.3);
-		color: var(--shadow-monarch-lighter);
+		background: rgba(45, 212, 191, 0.15);
+		border: 1px solid rgba(45, 212, 191, 0.3);
+		color: var(--primary-lighter);
 		border-radius: 1rem;
 	}
 
@@ -1128,7 +1124,7 @@
 		display: flex;
 		justify-content: center;
 		align-items: center;
-		background: var(--void-abyss);
+		background: var(--bg-base);
 		border-radius: 0.5rem;
 		padding: 1.5rem;
 		min-height: 300px;
@@ -1143,7 +1139,7 @@
 		overflow: hidden;
 		box-shadow:
 			0 10px 40px -10px rgba(0, 0, 0, 0.5),
-			0 0 20px var(--shadow-monarch-glow);
+			0 0 20px var(--primary-glow);
 		width: 100%;
 		max-width: 500px;
 		max-height: 70vh;
@@ -1221,7 +1217,7 @@
 	.qr-label {
 		font-size: 0.6875rem;
 		font-weight: 600;
-		color: var(--shadow-monarch);
+		color: var(--primary);
 		margin-bottom: 0.375rem;
 	}
 

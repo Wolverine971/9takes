@@ -439,8 +439,8 @@
 
 	/* Controls Card */
 	.controls-card {
-		background: var(--void-surface);
-		border: 1px solid var(--void-elevated);
+		background: var(--bg-surface);
+		border: 1px solid var(--bg-elevated);
 		border-radius: 10px;
 		padding: 12px 14px;
 		margin-bottom: 20px;
@@ -459,10 +459,10 @@
 	.search-input {
 		width: 100%;
 		padding: 8px 12px;
-		border: 1px solid var(--void-elevated);
+		border: 1px solid var(--bg-elevated);
 		border-radius: 6px;
 		font-size: 0.8125rem;
-		background: var(--void-surface);
+		background: var(--bg-surface);
 		transition:
 			border-color 0.15s,
 			box-shadow 0.15s;
@@ -470,14 +470,14 @@
 
 	.search-input:focus {
 		outline: none;
-		border-color: var(--shadow-monarch);
+		border-color: var(--primary);
 		box-shadow: 0 0 0 2px rgba(99, 102, 241, 0.1);
 	}
 
 	.tabs {
 		display: flex;
 		gap: 2px;
-		background: var(--void-deep);
+		background: var(--bg-deep);
 		padding: 3px;
 		border-radius: 6px;
 	}
@@ -502,7 +502,7 @@
 	}
 
 	.tab.active {
-		background: var(--void-surface);
+		background: var(--bg-surface);
 		color: var(--text-primary);
 		box-shadow: 0 1px 2px rgba(0, 0, 0, 0.08);
 	}
@@ -511,7 +511,7 @@
 		font-size: 0.625rem;
 		padding: 1px 5px;
 		border-radius: 8px;
-		background: var(--void-elevated);
+		background: var(--bg-elevated);
 		color: var(--text-secondary);
 	}
 
@@ -522,8 +522,8 @@
 
 	/* Content Card */
 	.content-card {
-		background: var(--void-surface);
-		border: 1px solid var(--void-elevated);
+		background: var(--bg-surface);
+		border: 1px solid var(--bg-elevated);
 		border-radius: 10px;
 		overflow: hidden;
 	}
@@ -533,8 +533,8 @@
 		align-items: center;
 		justify-content: space-between;
 		padding: 12px 16px;
-		border-bottom: 1px solid var(--void-elevated);
-		background: var(--void-deep);
+		border-bottom: 1px solid var(--bg-elevated);
+		background: var(--bg-deep);
 	}
 
 	.card-header h2 {
@@ -548,7 +548,7 @@
 		font-size: 0.6875rem;
 		padding: 3px 8px;
 		border-radius: 10px;
-		background: var(--void-elevated);
+		background: var(--bg-elevated);
 		color: var(--text-secondary);
 	}
 
@@ -576,7 +576,7 @@
 
 	.comment-item {
 		padding: 12px 16px;
-		border-bottom: 1px solid var(--void-elevated);
+		border-bottom: 1px solid var(--bg-elevated);
 		transition: background-color 0.15s;
 	}
 
@@ -585,7 +585,7 @@
 	}
 
 	.comment-item:hover {
-		background: var(--void-deep);
+		background: var(--bg-deep);
 	}
 
 	.comment-item.flagged {
@@ -631,7 +631,7 @@
 	.flag-info {
 		margin-top: 8px;
 		padding: 8px 10px;
-		background: var(--void-deep);
+		background: var(--bg-deep);
 		border-radius: 6px;
 		font-size: 0.75rem;
 	}
@@ -672,13 +672,13 @@
 
 	.meta-link {
 		font-size: 0.75rem;
-		color: var(--shadow-monarch);
+		color: var(--primary);
 		text-decoration: none;
 		transition: color 0.15s;
 	}
 
 	.meta-link:hover {
-		color: var(--shadow-monarch);
+		color: var(--primary);
 		text-decoration: underline;
 	}
 
@@ -725,12 +725,12 @@
 	}
 
 	.btn-secondary {
-		background: var(--void-elevated);
+		background: var(--bg-elevated);
 		color: var(--text-primary);
 	}
 
 	.btn-secondary:hover:not(:disabled) {
-		background: var(--void-deep);
+		background: var(--bg-deep);
 	}
 
 	/* Empty State */
@@ -770,7 +770,7 @@
 		display: flex;
 		flex-direction: column;
 		align-items: center;
-		background: var(--void-surface);
+		background: var(--bg-surface);
 		padding: 20px 28px;
 		border-radius: 10px;
 		box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);

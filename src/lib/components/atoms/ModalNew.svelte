@@ -147,10 +147,10 @@
 	}
 
 	.modal-container {
-		background-color: var(--void-surface);
-		border: 1px solid rgba(100, 116, 139, 0.3);
+		background-color: var(--bg-surface);
+		border: 1px solid color-mix(in srgb, var(--text-tertiary) 30%, transparent);
 		border-radius: 12px;
-		box-shadow: 0 0 30px rgba(124, 58, 237, 0.2);
+		box-shadow: 0 0 30px rgba(45, 212, 191, 0.2);
 		width: 100%;
 		max-height: calc(100vh - 2rem);
 		overflow: hidden;
@@ -171,7 +171,7 @@
 		align-items: center;
 		justify-content: space-between;
 		padding: 1.5rem 1.5rem 0;
-		border-bottom: 1px solid rgba(100, 116, 139, 0.3);
+		border-bottom: 1px solid color-mix(in srgb, var(--text-tertiary) 30%, transparent);
 
 		@media (max-width: 640px) {
 			padding: 1rem 1rem 0;
@@ -202,12 +202,12 @@
 		margin-left: 1rem;
 
 		&:hover {
-			background-color: rgba(124, 58, 237, 0.2);
+			background-color: rgba(45, 212, 191, 0.2);
 			color: var(--text-primary);
 		}
 
 		&:focus-visible {
-			outline: 2px solid var(--shadow-monarch-lighter);
+			outline: 2px solid var(--primary-lighter);
 			outline-offset: 2px;
 		}
 	}
@@ -224,7 +224,7 @@
 
 	.modal-footer {
 		padding: 0 1.5rem 1.5rem;
-		border-top: 1px solid rgba(100, 116, 139, 0.3);
+		border-top: 1px solid color-mix(in srgb, var(--text-tertiary) 30%, transparent);
 		display: flex;
 		gap: 0.75rem;
 		justify-content: flex-end;

@@ -1,69 +1,234 @@
-<!-- src/routes/account/+page.svelte -->
 <script lang="ts">
+	import { enhance } from '$app/forms';
+	import LoadingButton from '$lib/components/atoms/LoadingButton.svelte';
+	import { notifications } from '$lib/components/molecules/notifications';
 	import { supabase } from '$lib/supabase';
 	import type { PageData } from './$types';
-	import { enhance } from '$app/forms';
-	import { notifications } from '$lib/components/molecules/notifications';
-	import LoadingButton from '$lib/components/atoms/LoadingButton.svelte';
 
-	interface AccountData extends PageData {
-		user: {
-			first_name: string | null;
-			last_name: string | null;
-			enneagram: string | null;
-			email: string;
-			admin: boolean | null;
-		};
-		subscriptions: Array<{
-			questions: {
-				url: string;
-				question_formatted: string;
-				question: string;
-			};
-		}>;
+	interface EnneagramType {
+		num: number;
+		name: string;
+		descriptor: string;
+		summary: string;
+		color: string;
 	}
 
-	let { data }: { data: AccountData } = $props();
+	interface ProfileSnapshot {
+		firstName: string;
+		lastName: string;
+		enneagram: string;
+	}
 
-	// Form state initialized empty, populated by $effect
+	interface AccountUser {
+		first_name: string | null;
+		last_name: string | null;
+		enneagram: string | null;
+		email: string | null;
+		admin: boolean | null;
+	}
+
+	interface AccountSubscription {
+		questions: {
+			url: string;
+			question_formatted: string | null;
+			question: string;
+		};
+	}
+
+	const enneagramTypes: EnneagramType[] = [
+		{
+			num: 1,
+			name: 'Reformer',
+			descriptor: 'Structured, measured, and improvement-driven',
+			summary: 'Type 1 energy tends to sharpen standards and raise the quality bar around you.',
+			color: 'var(--type-1-color)'
+		},
+		{
+			num: 2,
+			name: 'Helper',
+			descriptor: 'Warm, relational, and quick to support',
+			summary: 'Type 2 energy brings attentiveness, generosity, and a people-first instinct.',
+			color: 'var(--type-2-color)'
+		},
+		{
+			num: 3,
+			name: 'Achiever',
+			descriptor: 'Driven, adaptive, and outcome-focused',
+			summary: 'Type 3 energy brings momentum, polish, and a bias toward making things happen.',
+			color: 'var(--type-3-color)'
+		},
+		{
+			num: 4,
+			name: 'Individualist',
+			descriptor: 'Expressive, nuanced, and emotionally precise',
+			summary: 'Type 4 energy brings originality, depth, and strong emotional texture.',
+			color: 'var(--type-4-color)'
+		},
+		{
+			num: 5,
+			name: 'Investigator',
+			descriptor: 'Analytical, reserved, and insight-oriented',
+			summary: 'Type 5 energy brings clarity, pattern recognition, and thoughtful distance.',
+			color: 'var(--type-5-color)'
+		},
+		{
+			num: 6,
+			name: 'Loyalist',
+			descriptor: 'Committed, vigilant, and team-minded',
+			summary: 'Type 6 energy brings steadiness, preparation, and a sharp read on risk.',
+			color: 'var(--type-6-color)'
+		},
+		{
+			num: 7,
+			name: 'Enthusiast',
+			descriptor: 'Upbeat, expansive, and possibility-driven',
+			summary: 'Type 7 energy brings optimism, momentum, and fast-moving curiosity.',
+			color: 'var(--type-7-color)'
+		},
+		{
+			num: 8,
+			name: 'Challenger',
+			descriptor: 'Direct, powerful, and action-first',
+			summary: 'Type 8 energy brings decisiveness, protection, and a willingness to press forward.',
+			color: 'var(--type-8-color)'
+		},
+		{
+			num: 9,
+			name: 'Peacemaker',
+			descriptor: 'Grounded, receptive, and harmony-oriented',
+			summary: 'Type 9 energy brings calm, integration, and a wide view of the room.',
+			color: 'var(--type-9-color)'
+		}
+	];
+
+	let { data }: { data: PageData } = $props();
+	let user = $derived(data.user as AccountUser);
+	let userEmail = $derived(user.email ?? '');
+	let subscriptions = $derived((data.subscriptions ?? []) as AccountSubscription[]);
+
 	let firstName = $state('');
 	let lastName = $state('');
 	let enneagram = $state('');
 	let saving = $state(false);
 	let loggingOut = $state(false);
-	let initialized = $state(false);
+	let profileSnapshot = $state<ProfileSnapshot>({
+		firstName: '',
+		lastName: '',
+		enneagram: ''
+	});
+	let lastLoadedSignature = $state('');
 
-	// Initialize and sync form when data changes
-	$effect(() => {
-		if (data?.user && !initialized) {
-			firstName = data.user.first_name ?? '';
-			lastName = data.user.last_name ?? '';
-			enneagram = data.user.enneagram ?? '';
-			initialized = true;
+	let subscriptionCount = $derived(subscriptions.length);
+	let roleLabel = $derived(user.admin ? 'Admin access' : 'Member access');
+	let selectedType = $derived.by(
+		() => enneagramTypes.find((type) => String(type.num) === enneagram) ?? null
+	);
+	let displayName = $derived.by(() => {
+		const fullName = [firstName.trim(), lastName.trim()].filter(Boolean).join(' ');
+		if (fullName) return fullName;
+
+		const emailHandle = userEmail
+			.split('@')[0]
+			?.replace(/[._-]+/g, ' ')
+			.trim();
+		return emailHandle ? toTitleCase(emailHandle) : 'Your Account';
+	});
+	let initials = $derived.by(() => {
+		const nameParts = [firstName.trim(), lastName.trim()].filter(Boolean);
+		if (nameParts.length > 0) {
+			return nameParts
+				.slice(0, 2)
+				.map((part) => part.charAt(0).toUpperCase())
+				.join('');
 		}
+
+		return userEmail.charAt(0).toUpperCase() || 'U';
+	});
+	let readinessItems = $derived.by(() => [
+		{ label: 'First name added', complete: firstName.trim().length > 0 },
+		{ label: 'Last name added', complete: lastName.trim().length > 0 },
+		{ label: 'Type selected', complete: enneagram.trim().length > 0 }
+	]);
+	let completedReadinessCount = $derived.by(
+		() => readinessItems.filter((item) => item.complete).length
+	);
+	let profileCompletion = $derived.by(() =>
+		Math.round((completedReadinessCount / readinessItems.length) * 100)
+	);
+	let formChanged = $derived.by(() => {
+		const normalizedFirstName = firstName.trim();
+		const normalizedLastName = lastName.trim();
+		const normalizedEnneagram = enneagram.trim();
+
+		return (
+			normalizedFirstName !== profileSnapshot.firstName ||
+			normalizedLastName !== profileSnapshot.lastName ||
+			normalizedEnneagram !== profileSnapshot.enneagram
+		);
+	});
+	let profilePulse = $derived.by(() => {
+		if (formChanged) return 'Unsaved changes';
+		if (profileCompletion === 100) return 'Profile complete';
+		return 'Room to fill in';
+	});
+	let subscriptionLabel = $derived.by(() =>
+		subscriptionCount === 1 ? '1 followed question' : `${subscriptionCount} followed questions`
+	);
+	let summaryHref = $derived.by(() => (subscriptionCount > 0 ? '#subscriptions' : '/questions'));
+	let summaryCta = $derived.by(() =>
+		subscriptionCount > 0 ? 'Jump to followed questions' : 'Explore questions to follow'
+	);
+	let nextStepText = $derived.by(() => {
+		if (formChanged) {
+			return 'Save your current edits so this profile stays in sync.';
+		}
+		if (!selectedType) {
+			return 'Choose your Enneagram type to give your future responses better context.';
+		}
+		if (subscriptionCount === 0) {
+			return 'Follow a few questions so your watchlist becomes useful.';
+		}
+		return 'Your account is in a good place. Keep it current as your profile evolves.';
 	});
 
-	const formChanged = $derived(
-		firstName !== data.user.first_name ||
-			lastName !== data.user.last_name ||
-			enneagram !== data.user.enneagram
-	);
+	$effect(() => {
+		const nextSnapshot = {
+			firstName: normalizeText(user.first_name),
+			lastName: normalizeText(user.last_name),
+			enneagram: normalizeText(user.enneagram)
+		};
+		const signature = JSON.stringify([
+			userEmail,
+			nextSnapshot.firstName,
+			nextSnapshot.lastName,
+			nextSnapshot.enneagram
+		]);
 
-	const enneagramTypes = [
-		{ num: 1, name: 'Reformer' },
-		{ num: 2, name: 'Helper' },
-		{ num: 3, name: 'Achiever' },
-		{ num: 4, name: 'Individualist' },
-		{ num: 5, name: 'Investigator' },
-		{ num: 6, name: 'Loyalist' },
-		{ num: 7, name: 'Enthusiast' },
-		{ num: 8, name: 'Challenger' },
-		{ num: 9, name: 'Peacemaker' }
-	];
+		if (signature === lastLoadedSignature) return;
+
+		firstName = nextSnapshot.firstName;
+		lastName = nextSnapshot.lastName;
+		enneagram = nextSnapshot.enneagram;
+		profileSnapshot = nextSnapshot;
+		lastLoadedSignature = signature;
+	});
+
+	function normalizeText(value: string | null | undefined) {
+		return value?.trim() ?? '';
+	}
+
+	function toTitleCase(value: string) {
+		return value
+			.split(/\s+/)
+			.filter(Boolean)
+			.map((part) => part.charAt(0).toUpperCase() + part.slice(1))
+			.join(' ');
+	}
 
 	async function submitLogout({ cancel }: { cancel: Function }) {
 		loggingOut = true;
 		const { error: signOutError } = await supabase.auth.signOut();
+
 		if (signOutError) {
 			console.error(signOutError);
 			loggingOut = false;
@@ -73,18 +238,41 @@
 
 	async function save() {
 		saving = true;
+
+		const nextSnapshot = {
+			firstName: firstName.trim(),
+			lastName: lastName.trim(),
+			enneagram: enneagram.trim()
+		};
+
 		const body = new FormData();
-		body.append('firstName', firstName);
-		body.append('lastName', lastName);
-		body.append('enneagram', enneagram);
-		body.append('email', data.user.email);
+		body.append('firstName', nextSnapshot.firstName);
+		body.append('lastName', nextSnapshot.lastName);
+		body.append('enneagram', nextSnapshot.enneagram);
+		body.append('email', userEmail);
 
 		try {
-			await fetch('?/updateAccount', { method: 'POST', body });
+			const response = await fetch('?/updateAccount', {
+				method: 'POST',
+				body
+			});
+
+			if (!response.ok) {
+				throw new Error(`Failed to update account (${response.status})`);
+			}
+
+			firstName = nextSnapshot.firstName;
+			lastName = nextSnapshot.lastName;
+			enneagram = nextSnapshot.enneagram;
+			profileSnapshot = nextSnapshot;
+			lastLoadedSignature = JSON.stringify([
+				userEmail,
+				nextSnapshot.firstName,
+				nextSnapshot.lastName,
+				nextSnapshot.enneagram
+			]);
+
 			notifications.success('Account updated', 3000);
-			data.user.first_name = firstName;
-			data.user.last_name = lastName;
-			data.user.enneagram = enneagram;
 		} catch (error) {
 			console.error('Error updating account:', error);
 			notifications.danger('Failed to update account', 3000);
@@ -98,639 +286,1305 @@
 	}
 </script>
 
-<div class="page">
-	<div class="container">
-		<!-- Header Card -->
-		<div class="card header-card">
-			<div class="header-content">
-				<div class="user-info">
-					<div class="avatar">
-						{data.user.email.charAt(0).toUpperCase()}
+<div class="account-page">
+	<div class="ambient ambient-left" aria-hidden="true"></div>
+	<div class="ambient ambient-right" aria-hidden="true"></div>
+
+	<div class="account-shell">
+		<section class="hero-panel" style={`--type-accent: ${selectedType?.color || 'var(--primary)'}`}>
+			<div class="hero-content">
+				<div class="identity-block">
+					<div class="avatar-ring">
+						<div class="avatar">{initials}</div>
 					</div>
-					<div class="user-details">
-						<h1>{data.user.first_name || 'Your Account'}</h1>
-						<p class="email">{data.user.email}</p>
+
+					<div class="identity-copy">
+						<p class="eyebrow">Account Center</p>
+						<h1>{displayName}</h1>
+						<p class="hero-text">
+							Keep your account current so your answers, follows, and personality context stay
+							sharp.
+						</p>
+
+						<div class="identity-meta">
+							<span>{userEmail}</span>
+							<span>
+								{selectedType
+									? `Type ${selectedType.num} - ${selectedType.name}`
+									: 'Type not selected'}
+							</span>
+							<span>{roleLabel}</span>
+						</div>
 					</div>
 				</div>
-				<div class="header-actions">
-					{#if data.user.admin}
-						<a href="/admin" class="btn btn-admin">
-							<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-								<path d="M12 15a3 3 0 100-6 3 3 0 000 6z" />
-								<path
-									d="M19.4 15a1.65 1.65 0 00.33 1.82l.06.06a2 2 0 010 2.83 2 2 0 01-2.83 0l-.06-.06a1.65 1.65 0 00-1.82-.33 1.65 1.65 0 00-1 1.51V21a2 2 0 01-2 2 2 2 0 01-2-2v-.09A1.65 1.65 0 009 19.4a1.65 1.65 0 00-1.82.33l-.06.06a2 2 0 01-2.83 0 2 2 0 010-2.83l.06-.06a1.65 1.65 0 00.33-1.82 1.65 1.65 0 00-1.51-1H3a2 2 0 01-2-2 2 2 0 012-2h.09A1.65 1.65 0 004.6 9a1.65 1.65 0 00-.33-1.82l-.06-.06a2 2 0 010-2.83 2 2 0 012.83 0l.06.06a1.65 1.65 0 001.82.33H9a1.65 1.65 0 001-1.51V3a2 2 0 012-2 2 2 0 012 2v.09a1.65 1.65 0 001 1.51 1.65 1.65 0 001.82-.33l.06-.06a2 2 0 012.83 0 2 2 0 010 2.83l-.06.06a1.65 1.65 0 00-.33 1.82V9a1.65 1.65 0 001.51 1H21a2 2 0 012 2 2 2 0 01-2 2h-.09a1.65 1.65 0 00-1.51 1z"
-								/>
-							</svg>
-							Admin
-						</a>
-					{/if}
-					<form action="/logout" method="POST" use:enhance={submitLogout}>
-						<LoadingButton
-							type="submit"
-							variant="secondary"
-							size="md"
-							loading={loggingOut}
-							loadingText="Signing out..."
-						>
-							Sign Out
-						</LoadingButton>
-					</form>
-				</div>
-			</div>
-		</div>
 
-		<!-- Profile Settings Card -->
-		<div class="card">
-			<div class="card-header">
-				<h2>Profile</h2>
-				<p class="card-subtitle">Manage your personal information</p>
-			</div>
-
-			<div class="form-grid">
-				<div class="form-field">
-					<label for="firstName">First Name</label>
-					<input
-						type="text"
-						id="firstName"
-						bind:value={firstName}
-						placeholder="Enter your first name"
-					/>
-				</div>
-				<div class="form-field">
-					<label for="lastName">Last Name</label>
-					<input
-						type="text"
-						id="lastName"
-						bind:value={lastName}
-						placeholder="Enter your last name"
-					/>
-				</div>
-			</div>
-
-			<fieldset class="form-field enneagram-field">
-				<legend>Enneagram Type</legend>
-				<p class="field-hint">Select your personality type</p>
-				<div class="type-grid" role="radiogroup" aria-label="Enneagram Type">
-					{#each enneagramTypes as type}
-						<button
-							class="type-btn"
-							class:selected={enneagram === String(type.num)}
-							onclick={() => selectType(type.num)}
-							type="button"
-							role="radio"
-							aria-checked={enneagram === String(type.num)}
-						>
-							<span class="type-num">{type.num}</span>
-							<span class="type-name">{type.name}</span>
-						</button>
-					{/each}
-				</div>
-			</fieldset>
-
-			<div class="form-actions">
-				<LoadingButton
-					type="button"
-					variant="primary"
-					size="lg"
-					loading={saving}
-					disabled={!formChanged}
-					loadingText="Saving..."
-					onclick={save}
-				>
-					Save Changes
-				</LoadingButton>
-				{#if formChanged}
-					<span class="unsaved-hint">You have unsaved changes</span>
-				{/if}
-			</div>
-		</div>
-
-		<!-- Subscriptions Card -->
-		<div class="card">
-			<div class="card-header">
-				<div class="card-header-row">
-					<h2>Subscribed Questions</h2>
-					{#if data.subscriptions?.length}
-						<span class="badge">{data.subscriptions.length}</span>
-					{/if}
-				</div>
-				<p class="card-subtitle">Questions you're following for updates</p>
-			</div>
-
-			{#if !data.subscriptions?.length}
-				<div class="empty-state">
-					<div class="empty-icon">
-						<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
-							<path
-								d="M8.228 9c.549-1.165 2.03-2 3.772-2 2.21 0 4 1.343 4 3 0 1.4-1.278 2.575-3.006 2.907-.542.104-.994.54-.994 1.093m0 3h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
-								stroke-linecap="round"
-								stroke-linejoin="round"
-							/>
-						</svg>
+				<div class="hero-rail">
+					<div class="pulse-card">
+						<span class="mono-label">PROFILE PULSE</span>
+						<strong>{profilePulse}</strong>
+						<p>
+							{#if formChanged}
+								Save your edits to sync this account.
+							{:else if selectedType}
+								{selectedType.descriptor}
+							{:else}
+								Add your type to give your profile a clearer center of gravity.
+							{/if}
+						</p>
 					</div>
-					<p>No subscribed questions yet</p>
-					<span class="empty-hint">Subscribe to questions to get notified about new answers</span>
-					<a href="/questions" class="btn btn-outline">Browse Questions</a>
-				</div>
-			{:else}
-				<ul class="subscription-list">
-					{#each data.subscriptions as subscription}
-						<li>
-							<a href="/questions/{subscription.questions.url}" class="subscription-item">
-								<span class="question-text">
-									{subscription.questions.question_formatted || subscription.questions.question}
-								</span>
-								<svg
-									class="chevron"
-									viewBox="0 0 24 24"
-									fill="none"
-									stroke="currentColor"
-									stroke-width="2"
-								>
-									<path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
+
+					<div class="hero-actions">
+						{#if user.admin}
+							<a href="/admin" class="admin-link">
+								<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+									<path d="M12 15a3 3 0 1 0 0-6 3 3 0 0 0 0 6z" />
+									<path
+										d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06A1.65 1.65 0 0 0 4.6 15a1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06A1.65 1.65 0 0 0 9 4.6a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06A1.65 1.65 0 0 0 19.4 9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"
+									/>
 								</svg>
+								Admin dashboard
 							</a>
-						</li>
+						{/if}
+
+						<form action="/logout" method="POST" use:enhance={submitLogout}>
+							<LoadingButton
+								type="submit"
+								variant="secondary"
+								size="md"
+								loading={loggingOut}
+								loadingText="Signing out..."
+								className="signout-button"
+							>
+								Sign out
+							</LoadingButton>
+						</form>
+					</div>
+				</div>
+			</div>
+
+			<div class="stats-strip">
+				<article class="stat-card">
+					<span class="stat-label">Completion</span>
+					<strong>{profileCompletion}%</strong>
+					<span class="stat-detail"
+						>{completedReadinessCount} of {readinessItems.length} basics set</span
+					>
+				</article>
+
+				<article class="stat-card">
+					<span class="stat-label">Following</span>
+					<strong>{subscriptionCount}</strong>
+					<span class="stat-detail">
+						{subscriptionCount === 1 ? 'Question in your watchlist' : 'Questions in your watchlist'}
+					</span>
+				</article>
+
+				<article class="stat-card">
+					<span class="stat-label">Type status</span>
+					<strong>{selectedType ? `Type ${selectedType.num}` : 'Open'}</strong>
+					<span class="stat-detail">
+						{selectedType ? selectedType.name : 'Choose the type that fits you best'}
+					</span>
+				</article>
+			</div>
+		</section>
+
+		<div class="dashboard-grid">
+			<section class="panel editor-panel">
+				<div class="panel-heading">
+					<div>
+						<p class="panel-kicker">Profile Details</p>
+						<h2>Tune how you show up on 9takes</h2>
+						<p class="panel-copy">
+							These basics make your account feel finished and keep future personality features
+							anchored to the right context.
+						</p>
+					</div>
+
+					<span class="sync-pill" class:pending={formChanged}>
+						{formChanged ? 'Unsaved changes' : 'In sync'}
+					</span>
+				</div>
+
+				<div class="field-grid">
+					<label class="field-card">
+						<span class="field-label">First name</span>
+						<span class="field-help">Used anywhere we personalize your account view.</span>
+						<input
+							type="text"
+							id="firstName"
+							bind:value={firstName}
+							placeholder="Enter your first name"
+							autocomplete="given-name"
+						/>
+					</label>
+
+					<label class="field-card">
+						<span class="field-label">Last name</span>
+						<span class="field-help">Helpful when you want your profile to feel complete.</span>
+						<input
+							type="text"
+							id="lastName"
+							bind:value={lastName}
+							placeholder="Enter your last name"
+							autocomplete="family-name"
+						/>
+					</label>
+				</div>
+
+				<div class="email-lockup">
+					<div>
+						<span class="mono-label">SIGN-IN EMAIL</span>
+						<strong>{userEmail}</strong>
+					</div>
+
+					<p>
+						Email changes are managed through authentication, so this address stays read-only on
+						this page.
+					</p>
+				</div>
+
+				<fieldset class="type-section">
+					<legend class="type-legend">Enneagram type</legend>
+
+					<div class="type-heading">
+						<p>Select the lens that best matches how you naturally operate.</p>
+
+						{#if selectedType}
+							<div class="type-chip" style={`--chip-accent: ${selectedType.color}`}>
+								<span>Current type</span>
+								<strong>{selectedType.num}. {selectedType.name}</strong>
+							</div>
+						{/if}
+					</div>
+
+					<div class="type-grid" role="radiogroup" aria-label="Enneagram type">
+						{#each enneagramTypes as type}
+							<button
+								type="button"
+								role="radio"
+								class="type-card"
+								class:selected={enneagram === String(type.num)}
+								aria-checked={enneagram === String(type.num)}
+								onclick={() => selectType(type.num)}
+								style={`--type-accent: ${type.color}`}
+							>
+								<span class="type-number">{type.num}</span>
+								<span class="type-body">
+									<strong>{type.name}</strong>
+									<span>{type.descriptor}</span>
+								</span>
+							</button>
+						{/each}
+					</div>
+				</fieldset>
+
+				<div
+					class="type-summary"
+					style={`--type-accent: ${selectedType?.color || 'var(--primary)'}`}
+				>
+					<span class="type-summary-label">CURRENT READ</span>
+					<h3>{selectedType ? selectedType.name : 'Choose your type'}</h3>
+					<p>
+						{selectedType
+							? selectedType.summary
+							: 'Picking a type gives your responses clearer personality context across the site.'}
+					</p>
+				</div>
+
+				<div class="form-actions">
+					<LoadingButton
+						type="button"
+						variant="primary"
+						size="lg"
+						loading={saving}
+						disabled={!formChanged}
+						loadingText="Saving..."
+						onclick={save}
+						className="save-button"
+					>
+						Save changes
+					</LoadingButton>
+
+					<p class="action-note" role="status">
+						{formChanged ? 'You have edits waiting to be saved.' : 'No pending changes.'}
+					</p>
+				</div>
+			</section>
+
+			<aside
+				class="panel summary-panel"
+				style={`--type-accent: ${selectedType?.color || 'var(--primary)'}`}
+			>
+				<div class="panel-heading compact">
+					<div>
+						<p class="panel-kicker">Account Snapshot</p>
+						<h2>What is ready</h2>
+					</div>
+				</div>
+
+				<div class="summary-spotlight">
+					<span class="summary-badge">{selectedType ? `Type ${selectedType.num}` : 'Not set'}</span>
+					<h3>{selectedType ? selectedType.name : 'Profile still open-ended'}</h3>
+					<p>
+						{selectedType
+							? selectedType.summary
+							: 'Add a type to give your answers a stronger personality frame.'}
+					</p>
+				</div>
+
+				<div class="summary-grid">
+					<div class="summary-stat">
+						<span class="summary-stat-label">Access</span>
+						<strong>{roleLabel}</strong>
+						<span>Current account tier</span>
+					</div>
+
+					<div class="summary-stat">
+						<span class="summary-stat-label">Watchlist</span>
+						<strong>{subscriptionCount}</strong>
+						<span>{subscriptionCount === 1 ? 'Question followed' : 'Questions followed'}</span>
+					</div>
+
+					<div class="summary-stat">
+						<span class="summary-stat-label">Status</span>
+						<strong>{formChanged ? 'Pending' : 'Synced'}</strong>
+						<span>{formChanged ? 'Save to lock it in' : 'Everything is current'}</span>
+					</div>
+				</div>
+
+				<div class="checklist">
+					{#each readinessItems as item}
+						<div class="checklist-item" class:complete={item.complete}>
+							<span class="check-indicator">{item.complete ? 'OK' : '...'}</span>
+							<span>{item.label}</span>
+						</div>
 					{/each}
-				</ul>
-			{/if}
+				</div>
+
+				<div class="next-step">
+					<span class="mono-label">NEXT BEST MOVE</span>
+					<p>{nextStepText}</p>
+				</div>
+
+				<a class="summary-link" href={summaryHref}>{summaryCta}</a>
+			</aside>
+
+			<section class="panel subscriptions-panel" id="subscriptions">
+				<div class="panel-heading">
+					<div>
+						<p class="panel-kicker">Followed Questions</p>
+						<h2>Keep tabs on the conversations that matter</h2>
+						<p class="panel-copy">This is your clean watchlist of threads worth returning to.</p>
+					</div>
+
+					<a href="/questions" class="browse-link">Browse questions</a>
+				</div>
+
+				{#if !subscriptions.length}
+					<div class="empty-state">
+						<div class="empty-symbol">?</div>
+						<h3>No followed questions yet</h3>
+						<p>
+							Start following questions to build a quick return path into the conversations you care
+							about.
+						</p>
+						<a href="/questions" class="cta-link">Find questions to follow</a>
+					</div>
+				{:else}
+					<p class="subscriptions-copy">
+						{subscriptionLabel}. Keep this list tight so it stays genuinely useful.
+					</p>
+
+					<ul class="subscription-list">
+						{#each subscriptions as subscription, index}
+							<li>
+								<a href={`/questions/${subscription.questions.url}`} class="subscription-item">
+									<span class="subscription-rank">{String(index + 1).padStart(2, '0')}</span>
+
+									<div class="subscription-body">
+										<span class="subscription-kicker">FOLLOWED QUESTION</span>
+										<span class="subscription-text">
+											{subscription.questions.question_formatted || subscription.questions.question}
+										</span>
+									</div>
+
+									<span class="subscription-arrow" aria-hidden="true">
+										<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+											<path stroke-linecap="round" stroke-linejoin="round" d="M7 17 17 7M8 7h9v9" />
+										</svg>
+									</span>
+								</a>
+							</li>
+						{/each}
+					</ul>
+				{/if}
+			</section>
 		</div>
 	</div>
 </div>
 
 <style lang="scss">
-	.page {
+	.account-page {
+		position: relative;
 		min-height: 100vh;
-		padding: 1.5rem 1rem 3rem;
-		background: linear-gradient(180deg, rgba(15, 15, 25, 0.5) 0%, transparent 100%);
+		padding: 2rem 1rem 4rem;
+		overflow: hidden;
+		background:
+			radial-gradient(circle at top left, rgba(45, 212, 191, 0.16), transparent 35%),
+			radial-gradient(circle at top right, rgba(167, 139, 250, 0.12), transparent 32%),
+			linear-gradient(180deg, var(--bg-base) 0%, color-mix(in srgb, var(--bg-deep) 92%, black) 100%);
 	}
 
-	.container {
-		width: 100%;
-		max-width: 720px;
+	.ambient {
+		position: absolute;
+		width: 22rem;
+		height: 22rem;
+		border-radius: 999px;
+		filter: blur(90px);
+		opacity: 0.45;
+		pointer-events: none;
+	}
+
+	.ambient-left {
+		top: -6rem;
+		left: -7rem;
+		background: color-mix(in srgb, var(--primary) 45%, transparent);
+	}
+
+	.ambient-right {
+		top: 10rem;
+		right: -8rem;
+		background: color-mix(in srgb, var(--accent) 35%, transparent);
+	}
+
+	.account-shell {
+		position: relative;
+		max-width: 1160px;
 		margin: 0 auto;
 		display: flex;
 		flex-direction: column;
+		gap: 1.25rem;
+	}
+
+	.hero-panel,
+	.panel {
+		position: relative;
+		border-radius: 1.5rem;
+		border: 1px solid color-mix(in srgb, var(--text-tertiary) 16%, transparent);
+		backdrop-filter: blur(18px);
+		box-shadow: 0 24px 60px rgba(12, 10, 9, 0.28);
+		overflow: hidden;
+	}
+
+	.hero-panel {
+		padding: 1.5rem;
+		background: linear-gradient(
+			135deg,
+			color-mix(in srgb, var(--type-accent, var(--primary)) 12%, var(--bg-surface)) 0%,
+			color-mix(in srgb, var(--bg-deep) 88%, black) 100%
+		);
+		border-color: color-mix(in srgb, var(--type-accent, var(--primary)) 24%, transparent);
+
+		&::before {
+			content: '';
+			position: absolute;
+			inset: 0;
+			background:
+				linear-gradient(120deg, rgba(255, 255, 255, 0.04), transparent 30%),
+				radial-gradient(
+					circle at 85% 15%,
+					color-mix(in srgb, var(--type-accent, var(--primary)) 20%, transparent),
+					transparent 24%
+				);
+			pointer-events: none;
+		}
+	}
+
+	.hero-content {
+		position: relative;
+		display: grid;
+		gap: 1.5rem;
+		z-index: 1;
+	}
+
+	.identity-block {
+		display: flex;
+		align-items: flex-start;
 		gap: 1rem;
 	}
 
-	.card {
-		width: 100%;
-		box-sizing: border-box;
-		background: rgba(20, 20, 30, 0.8);
-		border: 1px solid rgba(100, 116, 139, 0.15);
-		border-radius: 1rem;
-		padding: 1.25rem;
-		backdrop-filter: blur(10px);
-	}
-
-	.header-card {
-		background: linear-gradient(135deg, rgba(124, 58, 237, 0.12) 0%, rgba(20, 20, 30, 0.9) 100%);
-		border-color: rgba(124, 58, 237, 0.2);
-	}
-
-	.header-content {
-		display: flex;
-		flex-direction: column;
-		gap: 1rem;
-	}
-
-	.user-info {
-		display: flex;
-		align-items: center;
-		gap: 0.875rem;
+	.avatar-ring {
+		padding: 0.35rem;
+		border-radius: 1.3rem;
+		background: linear-gradient(
+			135deg,
+			color-mix(in srgb, var(--type-accent, var(--primary)) 60%, transparent),
+			color-mix(in srgb, var(--accent) 40%, transparent)
+		);
+		box-shadow: 0 18px 40px color-mix(in srgb, var(--type-accent, var(--primary)) 18%, transparent);
 	}
 
 	.avatar {
-		width: 3rem;
-		height: 3rem;
-		background: linear-gradient(135deg, #7c3aed 0%, #5b21b6 100%);
-		border-radius: 0.625rem;
+		width: 4.5rem;
+		height: 4.5rem;
+		border-radius: 1rem;
 		display: flex;
 		align-items: center;
 		justify-content: center;
-		font-size: 1.25rem;
+		background: color-mix(in srgb, var(--bg-base) 76%, var(--type-accent, var(--primary)));
+		color: var(--text-primary);
+		font-family: var(--font-display);
+		font-size: 1.8rem;
 		font-weight: 700;
-		color: white;
 		text-transform: uppercase;
-		flex-shrink: 0;
 	}
 
-	.user-details {
+	.identity-copy {
 		min-width: 0;
-		flex: 1;
-
-		h1 {
-			font-size: 1.125rem;
-			font-weight: 600;
-			color: #f1f5f9;
-			margin: 0 0 0.125rem;
-			line-height: 1.2;
-		}
-
-		.email {
-			font-size: 0.8125rem;
-			color: #94a3b8;
-			margin: 0;
-			word-break: break-all;
-		}
 	}
 
-	.header-actions {
-		display: flex;
-		gap: 0.5rem;
-		flex-wrap: wrap;
-	}
-
-	.btn {
-		display: inline-flex;
-		align-items: center;
-		gap: 0.375rem;
-		padding: 0.5rem 0.875rem;
-		border-radius: 0.5rem;
-		font-size: 0.8125rem;
-		font-weight: 500;
-		text-decoration: none;
-		transition: all 0.15s ease;
-		cursor: pointer;
-		border: none;
-
-		svg {
-			width: 0.875rem;
-			height: 0.875rem;
-		}
-	}
-
-	.btn-admin {
-		background: linear-gradient(135deg, #7c3aed 0%, #6d28d9 100%);
-		color: white;
-
-		&:hover {
-			filter: brightness(1.1);
-		}
-	}
-
-	.btn-outline {
-		background: transparent;
-		border: 1px solid rgba(124, 58, 237, 0.4);
-		color: #a78bfa;
-
-		&:hover {
-			background: rgba(124, 58, 237, 0.1);
-			border-color: #7c3aed;
-		}
-	}
-
-	.card-header {
-		margin-bottom: 1.25rem;
-
-		h2 {
-			font-size: 1rem;
-			font-weight: 600;
-			color: #f1f5f9;
-			margin: 0 0 0.125rem;
-		}
-	}
-
-	.card-header-row {
-		display: flex;
-		align-items: center;
-		gap: 0.5rem;
-	}
-
-	.card-subtitle {
-		font-size: 0.75rem;
-		color: #64748b;
-		margin: 0;
-	}
-
-	.badge {
-		background: rgba(124, 58, 237, 0.2);
-		color: #a78bfa;
-		padding: 0.125rem 0.5rem;
-		border-radius: 1rem;
-		font-size: 0.6875rem;
+	.eyebrow,
+	.mono-label,
+	.panel-kicker,
+	.subscription-kicker,
+	.type-summary-label,
+	.summary-stat-label {
+		font-family: var(--font-mono);
+		font-size: 0.72rem;
 		font-weight: 600;
+		letter-spacing: 0.14em;
+		text-transform: uppercase;
 	}
 
-	.form-grid {
-		display: grid;
-		grid-template-columns: 1fr;
-		gap: 0.875rem;
-		margin-bottom: 1.25rem;
+	.eyebrow {
+		margin: 0 0 0.4rem;
+		color: color-mix(in srgb, var(--type-accent, var(--primary)) 72%, var(--text-secondary));
 	}
 
-	.form-field {
+	.identity-copy h1 {
+		margin: 0;
+		font-family: var(--font-display);
+		font-size: clamp(2.5rem, 6vw, 4.4rem);
+		line-height: 0.92;
+		color: var(--text-primary);
+	}
+
+	.hero-text {
+		max-width: 44rem;
+		margin: 0.75rem 0 0;
+		font-size: 1.05rem;
+		line-height: 1.65;
+		color: var(--text-secondary);
+	}
+
+	.identity-meta {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 0.55rem;
+		margin-top: 1rem;
+
+		span {
+			padding: 0.4rem 0.7rem;
+			border-radius: 999px;
+			border: 1px solid color-mix(in srgb, var(--text-tertiary) 18%, transparent);
+			background: color-mix(in srgb, var(--bg-base) 32%, transparent);
+			color: var(--text-secondary);
+			font-size: 0.82rem;
+		}
+	}
+
+	.hero-rail {
 		display: flex;
 		flex-direction: column;
-		gap: 0.25rem;
+		gap: 1rem;
+	}
 
-		label {
-			font-size: 0.75rem;
-			font-weight: 500;
-			color: #cbd5e1;
+	.pulse-card {
+		padding: 1.1rem;
+		border-radius: 1.2rem;
+		border: 1px solid color-mix(in srgb, var(--type-accent, var(--primary)) 24%, transparent);
+		background: color-mix(in srgb, var(--bg-base) 32%, transparent);
+
+		strong {
+			display: block;
+			margin-top: 0.5rem;
+			font-family: var(--font-display);
+			font-size: 1.45rem;
+			line-height: 1;
+			color: var(--text-primary);
 		}
 
-		input {
-			width: 100%;
-			padding: 0.625rem 0.875rem;
-			background: rgba(15, 23, 42, 0.6);
-			border: 1px solid rgba(100, 116, 139, 0.25);
-			border-radius: 0.5rem;
-			color: #f1f5f9;
-			font-size: 0.875rem;
-			transition: all 0.15s ease;
-
-			&::placeholder {
-				color: #475569;
-			}
-
-			&:hover {
-				border-color: rgba(100, 116, 139, 0.4);
-			}
-
-			&:focus {
-				outline: none;
-				border-color: #7c3aed;
-				box-shadow: 0 0 0 3px rgba(124, 58, 237, 0.1);
-			}
+		p {
+			margin: 0.55rem 0 0;
+			color: var(--text-secondary);
+			line-height: 1.6;
 		}
 	}
 
-	.field-hint {
-		font-size: 0.6875rem;
-		color: #64748b;
-		margin: 0;
+	.mono-label,
+	.panel-kicker,
+	.subscription-kicker,
+	.type-summary-label,
+	.summary-stat-label {
+		color: color-mix(in srgb, var(--type-accent, var(--primary)) 72%, var(--text-tertiary));
 	}
 
-	.enneagram-field {
+	.hero-actions {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 0.75rem;
+		align-items: center;
+	}
+
+	.admin-link,
+	.browse-link,
+	.summary-link,
+	.cta-link {
+		display: inline-flex;
+		align-items: center;
+		justify-content: center;
+		gap: 0.5rem;
+		min-height: 2.9rem;
+		padding: 0.7rem 1rem;
+		border-radius: 0.95rem;
+		text-decoration: none;
+		font-weight: 600;
+		transition:
+			transform 0.18s ease,
+			border-color 0.18s ease,
+			background 0.18s ease,
+			box-shadow 0.18s ease;
+	}
+
+	.admin-link {
+		background: linear-gradient(135deg, var(--primary-dark) 0%, var(--primary) 100%);
+		color: var(--text-on-primary);
+		box-shadow: 0 12px 30px rgba(20, 184, 166, 0.22);
+
+		svg {
+			width: 1rem;
+			height: 1rem;
+		}
+
+		&:hover {
+			transform: translateY(-2px);
+			box-shadow: 0 16px 36px rgba(20, 184, 166, 0.3);
+		}
+	}
+
+	.stats-strip {
+		position: relative;
+		z-index: 1;
+		display: grid;
+		grid-template-columns: repeat(3, minmax(0, 1fr));
+		gap: 0.8rem;
+		margin-top: 1.25rem;
+	}
+
+	.stat-card {
+		padding: 1rem 1.05rem;
+		border-radius: 1.15rem;
+		border: 1px solid color-mix(in srgb, var(--text-tertiary) 14%, transparent);
+		background: color-mix(in srgb, var(--bg-base) 28%, transparent);
+
+		strong {
+			display: block;
+			margin-top: 0.45rem;
+			font-family: var(--font-display);
+			font-size: 2rem;
+			line-height: 1;
+			color: var(--text-primary);
+		}
+	}
+
+	.stat-label {
+		font-family: var(--font-mono);
+		font-size: 0.72rem;
+		font-weight: 600;
+		letter-spacing: 0.14em;
+		text-transform: uppercase;
+		color: var(--text-tertiary);
+	}
+
+	.stat-detail {
+		display: block;
+		margin-top: 0.45rem;
+		color: var(--text-secondary);
+		font-size: 0.88rem;
+		line-height: 1.5;
+	}
+
+	.dashboard-grid {
+		display: grid;
+		gap: 1.25rem;
+	}
+
+	.panel {
+		padding: 1.35rem;
+		background: color-mix(in srgb, var(--bg-surface) 92%, transparent);
+	}
+
+	.panel-heading {
+		display: flex;
+		align-items: flex-start;
+		justify-content: space-between;
+		gap: 1rem;
 		margin-bottom: 1.25rem;
-		border: none;
-		padding: 0;
+	}
 
-		legend {
-			font-size: 0.8125rem;
-			font-weight: 500;
-			color: #cbd5e1;
-			margin-bottom: 0.375rem;
+	.panel-heading.compact {
+		margin-bottom: 1rem;
+	}
+
+	.panel-heading h2,
+	.summary-spotlight h3,
+	.empty-state h3,
+	.type-summary h3 {
+		margin: 0;
+		font-family: var(--font-display);
+		color: var(--text-primary);
+	}
+
+	.panel-heading h2 {
+		font-size: clamp(1.75rem, 3vw, 2.4rem);
+		line-height: 1;
+	}
+
+	.panel-kicker {
+		margin: 0 0 0.45rem;
+		color: color-mix(in srgb, var(--primary) 72%, var(--text-tertiary));
+	}
+
+	.panel-copy,
+	.subscriptions-copy {
+		margin: 0.45rem 0 0;
+		color: var(--text-secondary);
+		line-height: 1.6;
+		max-width: 48rem;
+	}
+
+	.sync-pill {
+		display: inline-flex;
+		align-items: center;
+		justify-content: center;
+		padding: 0.55rem 0.8rem;
+		border-radius: 999px;
+		border: 1px solid color-mix(in srgb, var(--success) 28%, transparent);
+		background: color-mix(in srgb, var(--success) 10%, var(--bg-deep));
+		color: var(--text-primary);
+		font-size: 0.82rem;
+		font-weight: 600;
+		white-space: nowrap;
+	}
+
+	.sync-pill.pending {
+		border-color: color-mix(in srgb, var(--warning) 30%, transparent);
+		background: color-mix(in srgb, var(--warning) 12%, var(--bg-deep));
+	}
+
+	.field-grid {
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+		gap: 0.85rem;
+	}
+
+	.field-card {
+		display: flex;
+		flex-direction: column;
+		gap: 0.45rem;
+		padding: 1rem;
+		border-radius: 1.1rem;
+		border: 1px solid color-mix(in srgb, var(--text-tertiary) 18%, transparent);
+		background: linear-gradient(
+			180deg,
+			color-mix(in srgb, var(--bg-elevated) 82%, transparent) 0%,
+			color-mix(in srgb, var(--bg-surface) 96%, transparent) 100%
+		);
+	}
+
+	.field-label {
+		font-size: 0.82rem;
+		font-weight: 600;
+		color: var(--neutral-700);
+	}
+
+	.field-help {
+		font-size: 0.82rem;
+		line-height: 1.45;
+		color: var(--text-tertiary);
+	}
+
+	.field-card input {
+		width: 100%;
+		margin-top: 0.15rem;
+		padding: 0.9rem 0.95rem;
+		border-radius: 0.9rem;
+		border: 1px solid color-mix(in srgb, var(--text-tertiary) 22%, transparent);
+		background: color-mix(in srgb, var(--bg-base) 52%, var(--bg-surface));
+		color: var(--text-primary);
+		font-size: 1rem;
+		transition:
+			border-color 0.18s ease,
+			box-shadow 0.18s ease,
+			background 0.18s ease;
+
+		&::placeholder {
+			color: var(--text-muted);
+		}
+
+		&:focus {
+			outline: none;
+			border-color: color-mix(in srgb, var(--primary) 48%, transparent);
+			box-shadow: 0 0 0 4px rgba(45, 212, 191, 0.12);
+			background: color-mix(in srgb, var(--bg-base) 44%, var(--bg-surface));
+		}
+	}
+
+	.email-lockup {
+		display: flex;
+		align-items: flex-start;
+		justify-content: space-between;
+		gap: 1rem;
+		margin: 1rem 0 1.25rem;
+		padding: 1rem 1.1rem;
+		border-radius: 1.1rem;
+		border: 1px solid color-mix(in srgb, var(--accent) 18%, transparent);
+		background: linear-gradient(
+			135deg,
+			color-mix(in srgb, var(--accent) 7%, var(--bg-deep)) 0%,
+			color-mix(in srgb, var(--bg-surface) 96%, transparent) 100%
+		);
+
+		strong {
+			display: block;
+			margin-top: 0.4rem;
+			font-size: 1rem;
+			font-weight: 600;
+			color: var(--text-primary);
+			word-break: break-all;
+		}
+
+		p {
+			max-width: 22rem;
+			margin: 0;
+			color: var(--text-secondary);
+			line-height: 1.6;
+		}
+	}
+
+	.type-section {
+		margin: 0;
+		padding: 0;
+		border: none;
+	}
+
+	.type-heading {
+		display: flex;
+		align-items: flex-start;
+		justify-content: space-between;
+		gap: 1rem;
+		margin-bottom: 0.95rem;
+
+		p {
+			margin: 0;
+			color: var(--text-secondary);
+			line-height: 1.55;
+		}
+	}
+
+	.type-legend {
+		padding: 0;
+		margin-bottom: 0.45rem;
+		font-family: var(--font-display);
+		font-size: 1.45rem;
+		font-weight: 700;
+		color: var(--text-primary);
+	}
+
+	.type-chip {
+		padding: 0.75rem 0.95rem;
+		border-radius: 1rem;
+		border: 1px solid color-mix(in srgb, var(--chip-accent) 28%, transparent);
+		background: color-mix(in srgb, var(--chip-accent) 12%, var(--bg-deep));
+		text-align: right;
+
+		span {
+			display: block;
+			font-family: var(--font-mono);
+			font-size: 0.7rem;
+			font-weight: 600;
+			letter-spacing: 0.12em;
+			text-transform: uppercase;
+			color: color-mix(in srgb, var(--chip-accent) 72%, var(--text-tertiary));
+		}
+
+		strong {
+			display: block;
+			margin-top: 0.35rem;
+			color: var(--text-primary);
+			font-size: 0.98rem;
 		}
 	}
 
 	.type-grid {
 		display: grid;
-		grid-template-columns: repeat(3, 1fr);
-		gap: 0.5rem;
-		margin-top: 0.375rem;
+		grid-template-columns: repeat(auto-fit, minmax(165px, 1fr));
+		gap: 0.75rem;
 	}
 
-	.type-btn {
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		padding: 0.625rem 0.375rem;
-		background: rgba(15, 23, 42, 0.6);
-		border: 1px solid rgba(100, 116, 139, 0.2);
-		border-radius: 0.5rem;
+	.type-card {
+		display: grid;
+		grid-template-columns: auto 1fr;
+		align-items: flex-start;
+		gap: 0.75rem;
+		padding: 0.95rem;
+		border-radius: 1rem;
+		border: 1px solid color-mix(in srgb, var(--type-accent) 18%, var(--text-tertiary));
+		background: color-mix(in srgb, var(--bg-deep) 76%, transparent);
+		color: inherit;
+		text-align: left;
 		cursor: pointer;
-		transition: all 0.15s ease;
+		transition:
+			transform 0.18s ease,
+			border-color 0.18s ease,
+			background 0.18s ease,
+			box-shadow 0.18s ease;
 
 		&:hover {
-			background: rgba(124, 58, 237, 0.1);
-			border-color: rgba(124, 58, 237, 0.3);
+			transform: translateY(-2px);
+			border-color: color-mix(in srgb, var(--type-accent) 44%, transparent);
+			box-shadow: 0 12px 28px rgba(12, 10, 9, 0.24);
 		}
 
 		&.selected {
-			background: rgba(124, 58, 237, 0.2);
-			border-color: #7c3aed;
+			border-color: color-mix(in srgb, var(--type-accent) 58%, transparent);
+			background: linear-gradient(
+				135deg,
+				color-mix(in srgb, var(--type-accent) 15%, var(--bg-deep)) 0%,
+				color-mix(in srgb, var(--bg-surface) 96%, transparent) 100%
+			);
+			box-shadow:
+				0 0 0 1px color-mix(in srgb, var(--type-accent) 34%, transparent),
+				0 14px 32px rgba(12, 10, 9, 0.28);
+		}
+	}
 
-			.type-num {
-				color: #a78bfa;
-			}
+	.type-number {
+		width: 2.35rem;
+		height: 2.35rem;
+		border-radius: 0.85rem;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		background: color-mix(in srgb, var(--type-accent) 18%, var(--bg-base));
+		color: var(--text-primary);
+		font-family: var(--font-mono);
+		font-size: 0.86rem;
+		font-weight: 700;
+	}
 
-			.type-name {
-				color: var(--shadow-monarch-lightest);
-			}
+	.type-body {
+		display: flex;
+		flex-direction: column;
+		gap: 0.3rem;
+
+		strong {
+			color: var(--text-primary);
+			font-size: 1rem;
+			line-height: 1.2;
 		}
 
-		.type-num {
-			font-size: 1.125rem;
-			font-weight: 700;
-			color: #e2e8f0;
-			line-height: 1;
+		span {
+			color: var(--text-secondary);
+			font-size: 0.82rem;
+			line-height: 1.45;
+		}
+	}
+
+	.type-summary {
+		margin-top: 1rem;
+		padding: 1rem 1.1rem;
+		border-radius: 1.1rem;
+		border: 1px solid color-mix(in srgb, var(--type-accent) 24%, transparent);
+		background: linear-gradient(
+			135deg,
+			color-mix(in srgb, var(--type-accent) 12%, var(--bg-deep)) 0%,
+			color-mix(in srgb, var(--bg-surface) 96%, transparent) 100%
+		);
+
+		.type-summary-label {
+			color: color-mix(in srgb, var(--type-accent) 72%, var(--text-tertiary));
 		}
 
-		.type-name {
-			font-size: 0.625rem;
-			color: #64748b;
-			margin-top: 0.125rem;
-			text-transform: uppercase;
-			letter-spacing: 0.01em;
+		h3 {
+			margin-top: 0.45rem;
+			font-size: 1.7rem;
+		}
+
+		p {
+			margin: 0.45rem 0 0;
+			color: var(--text-secondary);
+			line-height: 1.6;
 		}
 	}
 
 	.form-actions {
 		display: flex;
-		flex-direction: column;
-		gap: 0.5rem;
-		align-items: flex-start;
+		align-items: center;
+		justify-content: space-between;
+		gap: 1rem;
+		flex-wrap: wrap;
+		margin-top: 1.25rem;
 	}
 
-	.unsaved-hint {
-		font-size: 0.6875rem;
-		color: #f59e0b;
+	.action-note {
+		margin: 0;
+		font-size: 0.92rem;
+		color: var(--text-secondary);
+	}
+
+	.summary-panel {
+		align-self: start;
+	}
+
+	.summary-spotlight {
+		padding: 1.1rem;
+		border-radius: 1.2rem;
+		border: 1px solid color-mix(in srgb, var(--type-accent, var(--primary)) 24%, transparent);
+		background: linear-gradient(
+			135deg,
+			color-mix(in srgb, var(--type-accent, var(--primary)) 14%, var(--bg-deep)) 0%,
+			color-mix(in srgb, var(--bg-surface) 95%, transparent) 100%
+		);
+
+		h3 {
+			margin-top: 0.55rem;
+			font-size: 2rem;
+			line-height: 0.95;
+		}
+
+		p {
+			margin: 0.55rem 0 0;
+			color: var(--text-secondary);
+			line-height: 1.65;
+		}
+	}
+
+	.summary-badge {
+		display: inline-flex;
+		align-items: center;
+		justify-content: center;
+		padding: 0.35rem 0.65rem;
+		border-radius: 999px;
+		background: color-mix(in srgb, var(--type-accent) 18%, var(--bg-base));
+		color: var(--text-primary);
+		font-size: 0.78rem;
+		font-weight: 600;
+	}
+
+	.summary-grid {
+		display: grid;
+		grid-template-columns: repeat(3, minmax(0, 1fr));
+		gap: 0.7rem;
+		margin: 1rem 0;
+	}
+
+	.summary-stat {
+		padding: 0.85rem;
+		border-radius: 1rem;
+		border: 1px solid color-mix(in srgb, var(--text-tertiary) 16%, transparent);
+		background: color-mix(in srgb, var(--bg-deep) 78%, transparent);
+
+		strong {
+			display: block;
+			margin-top: 0.35rem;
+			color: var(--text-primary);
+			font-size: 1rem;
+			line-height: 1.3;
+		}
+
+		span:last-child {
+			display: block;
+			margin-top: 0.3rem;
+			color: var(--text-secondary);
+			font-size: 0.8rem;
+			line-height: 1.45;
+		}
+	}
+
+	.checklist {
+		display: grid;
+		gap: 0.65rem;
+		margin-bottom: 1rem;
+	}
+
+	.checklist-item {
+		display: flex;
+		align-items: center;
+		gap: 0.75rem;
+		padding: 0.82rem 0.9rem;
+		border-radius: 0.95rem;
+		border: 1px solid color-mix(in srgb, var(--text-tertiary) 16%, transparent);
+		background: color-mix(in srgb, var(--bg-deep) 76%, transparent);
+		color: var(--text-secondary);
+
+		&.complete {
+			border-color: color-mix(in srgb, var(--success) 30%, transparent);
+			background: color-mix(in srgb, var(--success) 10%, var(--bg-deep));
+			color: var(--text-primary);
+		}
+	}
+
+	.check-indicator {
+		width: 1.5rem;
+		height: 1.5rem;
+		flex: 0 0 1.5rem;
+		border-radius: 999px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		background: color-mix(in srgb, var(--type-accent) 14%, var(--bg-base));
+		font-family: var(--font-mono);
+		font-size: 0.7rem;
+		font-weight: 600;
+		color: var(--text-primary);
+	}
+
+	.next-step {
+		padding: 0.95rem 1rem;
+		border-radius: 1rem;
+		border: 1px solid color-mix(in srgb, var(--text-tertiary) 16%, transparent);
+		background: color-mix(in srgb, var(--bg-deep) 78%, transparent);
+
+		p {
+			margin: 0.45rem 0 0;
+			color: var(--text-secondary);
+			line-height: 1.6;
+		}
+	}
+
+	.summary-link,
+	.cta-link {
+		width: 100%;
+		margin-top: 0.95rem;
+		border: 1px solid color-mix(in srgb, var(--primary) 22%, transparent);
+		background: color-mix(in srgb, var(--primary) 10%, var(--bg-deep));
+		color: var(--primary-lightest);
+
+		&:hover {
+			transform: translateY(-2px);
+			border-color: color-mix(in srgb, var(--primary) 36%, transparent);
+			box-shadow: 0 16px 36px rgba(20, 184, 166, 0.16);
+		}
+	}
+
+	.browse-link {
+		border: 1px solid color-mix(in srgb, var(--text-tertiary) 20%, transparent);
+		background: color-mix(in srgb, var(--bg-deep) 78%, transparent);
+		color: var(--text-primary);
+
+		&:hover {
+			transform: translateY(-2px);
+			border-color: color-mix(in srgb, var(--primary) 28%, transparent);
+			background: color-mix(in srgb, var(--primary) 10%, var(--bg-deep));
+		}
 	}
 
 	.empty-state {
-		text-align: center;
-		padding: 1.5rem 1rem;
+		display: grid;
+		justify-items: start;
+		gap: 0.9rem;
+		padding: 1.2rem;
+		border-radius: 1.2rem;
+		border: 1px dashed color-mix(in srgb, var(--primary) 28%, transparent);
+		background: linear-gradient(
+			135deg,
+			color-mix(in srgb, var(--bg-deep) 78%, transparent) 0%,
+			color-mix(in srgb, var(--bg-surface) 96%, transparent) 100%
+		);
 
-		p {
-			color: #94a3b8;
-			margin: 0.5rem 0 0.25rem;
-			font-size: 0.875rem;
-			font-weight: 500;
+		h3 {
+			font-size: 1.85rem;
+			line-height: 0.98;
 		}
 
-		.empty-hint {
-			display: block;
-			font-size: 0.75rem;
-			color: #64748b;
-			margin-bottom: 1rem;
+		p {
+			max-width: 36rem;
+			margin: 0;
+			color: var(--text-secondary);
+			line-height: 1.65;
 		}
 	}
 
-	.empty-icon {
-		width: 2.5rem;
-		height: 2.5rem;
-		margin: 0 auto;
-		color: #475569;
-
-		svg {
-			width: 100%;
-			height: 100%;
-		}
+	.empty-symbol {
+		width: 3.5rem;
+		height: 3.5rem;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		border-radius: 1rem;
+		border: 1px solid color-mix(in srgb, var(--primary) 24%, transparent);
+		background: color-mix(in srgb, var(--primary) 12%, var(--bg-base));
+		font-family: var(--font-display);
+		font-size: 1.7rem;
+		color: var(--primary-lightest);
 	}
 
 	.subscription-list {
 		list-style: none;
 		padding: 0;
-		margin: 0;
-		display: flex;
-		flex-direction: column;
-		gap: 0.375rem;
-		max-height: 280px;
-		overflow-y: auto;
-
-		&::-webkit-scrollbar {
-			width: 4px;
-		}
-
-		&::-webkit-scrollbar-track {
-			background: transparent;
-		}
-
-		&::-webkit-scrollbar-thumb {
-			background: rgba(124, 58, 237, 0.3);
-			border-radius: 2px;
-		}
+		margin: 1rem 0 0;
+		display: grid;
+		gap: 0.8rem;
 	}
 
 	.subscription-item {
-		display: flex;
+		display: grid;
+		grid-template-columns: auto 1fr auto;
 		align-items: center;
-		justify-content: space-between;
-		gap: 0.625rem;
-		padding: 0.75rem 0.875rem;
-		background: rgba(15, 23, 42, 0.4);
-		border: 1px solid rgba(100, 116, 139, 0.1);
-		border-radius: 0.5rem;
+		gap: 1rem;
+		padding: 1rem 1.05rem;
+		border-radius: 1.1rem;
+		border: 1px solid color-mix(in srgb, var(--text-tertiary) 16%, transparent);
+		background: linear-gradient(
+			135deg,
+			color-mix(in srgb, var(--bg-deep) 80%, transparent) 0%,
+			color-mix(in srgb, var(--bg-surface) 96%, transparent) 100%
+		);
+		color: inherit;
 		text-decoration: none;
-		transition: all 0.15s ease;
+		transition:
+			transform 0.18s ease,
+			border-color 0.18s ease,
+			box-shadow 0.18s ease;
 
 		&:hover {
-			background: rgba(124, 58, 237, 0.08);
-			border-color: rgba(124, 58, 237, 0.2);
-
-			.chevron {
-				opacity: 1;
-				transform: translateX(2px);
-			}
+			transform: translateY(-2px);
+			border-color: color-mix(in srgb, var(--primary) 32%, transparent);
+			box-shadow: 0 18px 40px rgba(12, 10, 9, 0.28);
 		}
+	}
 
-		.question-text {
-			color: #e2e8f0;
-			font-size: 0.875rem;
-			line-height: 1.4;
-		}
+	.subscription-rank {
+		width: 2.4rem;
+		height: 2.4rem;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		border-radius: 0.85rem;
+		background: color-mix(in srgb, var(--primary) 12%, var(--bg-base));
+		color: var(--primary-lightest);
+		font-family: var(--font-mono);
+		font-size: 0.8rem;
+		font-weight: 700;
+	}
 
-		.chevron {
+	.subscription-body {
+		display: grid;
+		gap: 0.3rem;
+		min-width: 0;
+	}
+
+	.subscription-kicker {
+		color: color-mix(in srgb, var(--primary) 72%, var(--text-tertiary));
+	}
+
+	.subscription-text {
+		color: var(--text-primary);
+		font-size: 1rem;
+		line-height: 1.55;
+	}
+
+	.subscription-arrow {
+		width: 2.4rem;
+		height: 2.4rem;
+		display: inline-flex;
+		align-items: center;
+		justify-content: center;
+		border-radius: 999px;
+		border: 1px solid color-mix(in srgb, var(--primary) 20%, transparent);
+		background: color-mix(in srgb, var(--primary) 10%, var(--bg-deep));
+		color: var(--primary-lightest);
+
+		svg {
 			width: 1rem;
 			height: 1rem;
-			color: #7c3aed;
-			opacity: 0.4;
-			flex-shrink: 0;
-			transition: all 0.15s ease;
 		}
 	}
 
-	@media (min-width: 480px) {
-		.page {
-			padding: 2rem 1.5rem 4rem;
+	.hero-actions :global(.signout-button),
+	.form-actions :global(.save-button) {
+		justify-content: center;
+	}
+
+	.hero-actions :global(.signout-button) {
+		min-width: 10rem;
+	}
+
+	.form-actions :global(.save-button) {
+		min-width: 12.5rem;
+		box-shadow: 0 16px 32px rgba(20, 184, 166, 0.18);
+	}
+
+	@media (min-width: 980px) {
+		.account-shell {
+			max-width: 960px;
+		}
+	}
+
+	@media (max-width: 767px) {
+		.account-page {
+			padding: 1.25rem 0.85rem 3rem;
 		}
 
-		.container {
-			gap: 1.25rem;
+		.hero-panel,
+		.panel {
+			padding: 1.1rem;
+			border-radius: 1.25rem;
 		}
 
-		.card {
-			padding: 1.5rem;
-		}
-
-		.header-content {
-			flex-direction: row;
-			justify-content: space-between;
-			align-items: center;
-		}
-
-		.avatar {
-			width: 3.25rem;
-			height: 3.25rem;
-			font-size: 1.375rem;
-		}
-
-		.user-details h1 {
-			font-size: 1.25rem;
-		}
-
-		.form-grid {
-			grid-template-columns: 1fr 1fr;
-		}
-
+		.identity-block,
+		.panel-heading,
+		.type-heading,
+		.email-lockup,
 		.form-actions {
-			flex-direction: row;
-			align-items: center;
+			flex-direction: column;
+			align-items: stretch;
+		}
+
+		.stats-strip,
+		.summary-grid {
+			grid-template-columns: 1fr;
 		}
 
 		.type-grid {
-			grid-template-columns: repeat(9, 1fr);
-			gap: 0.375rem;
+			grid-template-columns: 1fr;
 		}
 
-		.type-btn {
-			padding: 0.5rem 0.25rem;
-
-			.type-num {
-				font-size: 1rem;
-			}
-
-			.type-name {
-				font-size: 0.5625rem;
-			}
-		}
-	}
-
-	@media (min-width: 768px) {
-		.page {
-			padding: 3rem 2rem 5rem;
+		.type-chip {
+			text-align: left;
 		}
 
-		.container {
-			max-width: 800px;
-			gap: 1.5rem;
+		.hero-actions {
+			flex-direction: column;
+			align-items: stretch;
 		}
 
-		.card {
-			padding: 1.75rem;
+		.hero-actions form,
+		.browse-link,
+		.admin-link,
+		.hero-actions :global(.signout-button),
+		.form-actions :global(.save-button) {
+			width: 100%;
 		}
 
-		.avatar {
-			width: 3.5rem;
-			height: 3.5rem;
-			font-size: 1.5rem;
+		.subscription-item {
+			grid-template-columns: auto 1fr;
 		}
 
-		.user-details h1 {
-			font-size: 1.375rem;
-		}
-
-		.card-header h2 {
-			font-size: 1.125rem;
-		}
-
-		.type-grid {
-			gap: 0.5rem;
-		}
-
-		.type-btn {
-			padding: 0.75rem 0.375rem;
-
-			.type-num {
-				font-size: 1.125rem;
-			}
-
-			.type-name {
-				font-size: 0.625rem;
-			}
+		.subscription-arrow {
+			display: none;
 		}
 	}
 </style>

@@ -39,13 +39,13 @@ export const GET: RequestHandler = async ({ params, locals }) => {
 		throw error(404, 'Content not found');
 	}
 
-	// Fetch history separately (last 5 changes)
+	// Fetch history separately (last 3 changes)
 	const { data: history } = await supabase
 		.from('blogs_famous_people_history')
-		.select('id, changed_at, old_content, new_content')
+		.select('id, changed_at, new_content')
 		.eq('famous_people_id', contentId)
 		.order('changed_at', { ascending: false })
-		.limit(5);
+		.limit(3);
 
 	// Fetch stage from content_people
 	const { data: stageData } = data.loc

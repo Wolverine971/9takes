@@ -134,8 +134,8 @@
 				flex-direction: column;
 				align-items: center;
 				padding: 0.75rem 1.25rem;
-				background: var(--void-surface);
-				border: 1px solid var(--void-elevated);
+				background: var(--bg-surface);
+				border: 1px solid var(--bg-elevated);
 				border-radius: 12px;
 				min-width: 100px;
 				color: var(--text-secondary);
@@ -143,7 +143,7 @@
 				strong {
 					font-size: 1.5rem;
 					font-weight: 700;
-					color: var(--shadow-monarch);
+					color: var(--primary);
 				}
 			}
 		}
@@ -152,9 +152,9 @@
 	.empty-state {
 		text-align: center;
 		padding: 3rem 1.5rem;
-		background: var(--void-surface);
+		background: var(--bg-surface);
 		border-radius: 12px;
-		border: 1px solid var(--void-elevated);
+		border: 1px solid var(--bg-elevated);
 
 		h2 {
 			color: var(--text-primary);
@@ -175,16 +175,16 @@
 	}
 
 	.draft-card {
-		background: var(--void-surface);
+		background: var(--bg-surface);
 		border-radius: 12px;
-		border: 1px solid var(--void-elevated);
+		border: 1px solid var(--bg-elevated);
 		overflow: hidden;
 		transition: all 0.15s ease;
 
 		&:hover {
 			transform: translateY(-1px);
 			box-shadow: var(--glow-sm);
-			border-color: var(--shadow-monarch);
+			border-color: var(--primary);
 		}
 	}
 
@@ -224,7 +224,7 @@
 			flex-wrap: wrap;
 
 			.person-name {
-				background: var(--shadow-monarch);
+				background: var(--primary);
 				color: white;
 				padding: 0.2rem 0.625rem;
 				border-radius: 20px;
@@ -234,7 +234,7 @@
 
 			.enneagram-badge {
 				background: rgba(139, 92, 246, 0.1);
-				color: var(--shadow-monarch);
+				color: var(--primary);
 				padding: 0.2rem 0.625rem;
 				border-radius: 20px;
 				font-size: 0.7rem;
@@ -263,7 +263,7 @@
 		flex-wrap: wrap;
 		gap: 0.75rem;
 		padding-top: 0.75rem;
-		border-top: 1px solid var(--void-elevated);
+		border-top: 1px solid var(--bg-elevated);
 
 		.draft-dates {
 			display: flex;
@@ -282,7 +282,7 @@
 			.view-draft {
 				display: flex;
 				align-items: center;
-				color: var(--shadow-monarch);
+				color: var(--primary);
 				font-weight: 600;
 				font-size: 0.8rem;
 				transition: opacity 0.15s ease;

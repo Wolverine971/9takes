@@ -405,14 +405,7 @@
 			const { visitorId } = await fp.get();
 
 			if (visitorId) {
-				const formdata = new FormData();
-				formdata.append('fp', visitorId);
 				setCookie('9tfingerprint', visitorId, 365);
-
-				await fetch('/api/adder', {
-					method: 'POST',
-					body: formdata
-				});
 			}
 		} catch (error) {
 			// Error in fingerprint processing
@@ -512,11 +505,11 @@
 		name="viewport"
 		content="width=device-width, initial-scale=1, maximum-scale=5, user-scalable=yes"
 	/>
-	<!-- Solo Leveling dark theme color -->
-	<meta name="theme-color" content="#0a0a0f" />
+	<meta name="theme-color" content="#0C0A09" />
 	<meta name="apple-mobile-web-app-capable" content="yes" />
 	<meta name="mobile-web-app-capable" content="yes" />
-	<meta name="color-scheme" content="dark" />
+	<meta name="color-scheme" content="dark light" />
+	{@html `<script>(function(){try{var stored=localStorage.getItem('9takes-theme');var effective=stored==='light'||stored==='dark'?stored:(window.matchMedia('(prefers-color-scheme: light)').matches?'light':'dark');var root=document.documentElement;root.classList.toggle('light',effective==='light');root.classList.toggle('dark',effective==='dark');root.dataset.theme=effective;root.style.colorScheme=effective;var meta=document.querySelector('meta[name="theme-color"]');if(meta)meta.setAttribute('content',effective==='light'?'#FAFAF9':'#0C0A09');}catch{}}</script>`}
 
 	{#if !dev}
 		<!-- Use dns-prefetch instead of preconnect for lighter initial load -->
@@ -585,14 +578,14 @@
 	<slot />
 {:else}
 	<div
-		class="solo-leveling-app flex min-h-screen w-full flex-col bg-[#0a0a0f] text-[#f8fafc]"
+		class="app-wrapper flex min-h-screen w-full flex-col"
 		on:touchstart|passive={handleTouchStart}
 		on:touchend|passive={handleTouchEnd}
 	>
 		<!-- Skip link for accessibility (WCAG 2.4.1) -->
 		<a
 			href="#main-content"
-			class="skip-link sr-only focus:not-sr-only focus:absolute focus:left-4 focus:top-4 focus:z-50 focus:rounded-md focus:bg-[#7c3aed] focus:px-4 focus:py-2 focus:text-white focus:outline-none focus:ring-2 focus:ring-[#a78bfa]"
+			class="skip-link sr-only focus:not-sr-only focus:absolute focus:left-4 focus:top-4 focus:z-50 focus:rounded-md focus:bg-teal-500 focus:px-4 focus:py-2 focus:text-white focus:outline-none focus:ring-2 focus:ring-teal-400"
 		>
 			Skip to main content
 		</a>
@@ -627,31 +620,34 @@
 {/if}
 
 <style>
-	/* Global styles - Solo Leveling Dark Theme */
 	:global(body) {
-		@apply m-0 box-border p-0;
-		background-color: #0a0a0f;
-		color: #f8fafc;
+		margin: 0;
+		box-sizing: border-box;
+		padding: 0;
+		background-color: var(--bg-base);
+		color: var(--text-primary);
 		-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 		touch-action: manipulation;
 	}
 
-	/* Solo Leveling app wrapper */
-	.solo-leveling-app {
+	.app-wrapper {
 		min-height: 100vh;
-		background: linear-gradient(180deg, #0a0a0f 0%, #12121a 50%, #0a0a0f 100%);
+		background: linear-gradient(180deg, var(--bg-base) 0%, var(--bg-deep) 50%, var(--bg-base) 100%);
 	}
 
 	/* Media query adjustments for the main content area */
 	@media (max-width: 768px) {
 		.max-w-4xl {
-			@apply max-w-full px-3;
+			max-width: 100%;
+			padding-left: 0.75rem;
+			padding-right: 0.75rem;
 		}
 	}
 
 	@media (max-width: 480px) {
 		.max-w-4xl {
-			@apply px-2;
+			padding-left: 0.5rem;
+			padding-right: 0.5rem;
 		}
 	}
 </style>

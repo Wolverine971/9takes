@@ -1,6 +1,6 @@
 <!-- src/lib/components/blog/callouts/InsightBox.svelte -->
 <!--
-  Solo Leveling Dark Theme - Insight callout boxes for blog content
+  9takes Warm Tech Theme - Insight callout boxes for blog content
   Used to highlight key insights, tips, warnings, or neutral information
 -->
 <script lang="ts">
@@ -18,9 +18,12 @@
 	// Solo Leveling dark theme accent colors for each tone
 	const toneConfig: Record<Tone, { accent: string; glow: string }> = {
 		success: { accent: '#22c55e', glow: 'rgba(34, 197, 94, 0.15)' },
-		info: { accent: '#7c3aed', glow: 'rgba(124, 58, 237, 0.15)' },
+		info: { accent: 'var(--primary-dark)', glow: 'rgba(45, 212, 191, 0.15)' },
 		warning: { accent: '#f59e0b', glow: 'rgba(245, 158, 11, 0.15)' },
-		neutral: { accent: '#64748b', glow: 'rgba(100, 116, 139, 0.15)' }
+		neutral: {
+			accent: 'var(--text-tertiary)',
+			glow: 'color-mix(in srgb, var(--text-tertiary) 15%, transparent)'
+		}
 	};
 
 	const currentTone = toneConfig[tone] ?? toneConfig.success;
@@ -49,8 +52,13 @@
 		margin: 1.5rem 0;
 		padding: 1rem 1.25rem;
 		border-radius: 10px;
-		background: linear-gradient(135deg, var(--void-surface) 0%, #16161e 50%, var(--void-deep) 100%);
-		border: 1px solid rgba(100, 116, 139, 0.2);
+		background: linear-gradient(
+			135deg,
+			var(--bg-surface) 0%,
+			var(--bg-deep) 50%,
+			var(--bg-base) 100%
+		);
+		border: 1px solid color-mix(in srgb, var(--text-tertiary) 20%, transparent);
 		box-shadow:
 			0 4px 16px rgba(0, 0, 0, 0.25),
 			0 0 0 1px var(--glow-color);
@@ -60,7 +68,7 @@
 		}
 
 		&--info {
-			border-color: rgba(124, 58, 237, 0.25);
+			border-color: rgba(45, 212, 191, 0.25);
 		}
 
 		&--warning {
@@ -68,7 +76,7 @@
 		}
 
 		&--neutral {
-			border-color: rgba(100, 116, 139, 0.2);
+			border-color: color-mix(in srgb, var(--text-tertiary) 20%, transparent);
 		}
 	}
 
@@ -111,10 +119,10 @@
 		}
 
 		:global(a) {
-			color: var(--shadow-monarch-lighter);
+			color: var(--primary-lighter);
 
 			&:hover {
-				color: var(--shadow-monarch-lightest);
+				color: var(--primary-lightest);
 			}
 		}
 

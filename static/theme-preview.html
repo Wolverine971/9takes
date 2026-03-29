@@ -1,138 +1,272 @@
 <!DOCTYPE html>
-<html lang="en" class="dark">
+<html lang="en" class="dark" data-scheme="teal">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>9takes — Warm Tech Theme Preview</title>
+  <title>9takes — Theme Options Preview</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Rajdhani:wght@500;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
   <style>
     /* ===========================================
-       THEME TOKENS
+       SHARED TOKENS (all schemes)
        =========================================== */
     :root {
-      /* Fonts */
       --font-body: 'Space Grotesk', system-ui, sans-serif;
       --font-display: 'Rajdhani', system-ui, sans-serif;
       --font-mono: 'JetBrains Mono', ui-monospace, monospace;
-
-      /* Transitions */
       --ease-out: cubic-bezier(0.4, 0, 0.2, 1);
 
-      /* ---- LIGHT MODE (default) ---- */
-      --bg-deepest: #FAFAF9;
-      --bg-deep: #F5F5F4;
-      --bg-surface: #FFFFFF;
-      --bg-elevated: #F5F5F4;
-      --bg-highlight: #FEF3C7;
-
-      --primary-lightest: #FEF3C7;
-      --primary-lighter: #FDE68A;
-      --primary-light: #FBBF24;
-      --primary: #D97706;
-      --primary-dark: #B45309;
-      --primary-darker: #92400E;
-      --primary-glow: rgba(217, 119, 6, 0.35);
-      --primary-subtle: rgba(217, 119, 6, 0.08);
-
-      --secondary: #F43F5E;
-      --secondary-light: #FDA4AF;
-      --secondary-dark: #E11D48;
-      --secondary-subtle: rgba(244, 63, 94, 0.08);
-
-      --accent: #EA580C;
-      --accent-light: #FDBA74;
-      --accent-dark: #C2410C;
-      --accent-subtle: rgba(234, 88, 12, 0.08);
-
-      --text-primary: #1C1917;
-      --text-secondary: #57534E;
-      --text-tertiary: #78716C;
-      --text-muted: #A8A29E;
-      --text-on-primary: #FFFFFF;
-
-      --border-color: #E7E5E4;
-      --border-subtle: #F5F5F4;
-
-      --shadow-sm: 0 1px 3px rgba(28, 25, 23, 0.08);
-      --shadow-md: 0 4px 6px rgba(28, 25, 23, 0.1);
-      --shadow-lg: 0 10px 15px rgba(28, 25, 23, 0.1);
-      --glow-sm: 0 0 10px rgba(217, 119, 6, 0.15);
-      --glow-md: 0 0 20px rgba(217, 119, 6, 0.2);
-      --glow-lg: 0 0 40px rgba(217, 119, 6, 0.25);
-
-      --glass-color: rgba(255, 255, 255, 0.85);
-      --glass-border: rgba(217, 119, 6, 0.12);
-
-      /* Status */
-      --success: #22C55E;
-      --warning: #EAB308;
-      --error: #EF4444;
-      --info: #D97706;
-
-      /* Enneagram type colors */
-      --type-1: #6366F1;
-      --type-2: #F472B6;
-      --type-3: #F59E0B;
-      --type-4: #A855F7;
-      --type-5: #0EA5E9;
-      --type-6: #22C55E;
-      --type-7: #FBBF24;
-      --type-8: #DC2626;
-      --type-9: #34D399;
-
-      /* Pillar colors */
-      --pillar-head: #0EA5E9;
-      --pillar-gut: #DC2626;
-      --pillar-heart: #A855F7;
+      /* Enneagram type colors (shared across all schemes) */
+      --type-1: #6366F1; --type-2: #F472B6; --type-3: #F59E0B;
+      --type-4: #A855F7; --type-5: #0EA5E9; --type-6: #22C55E;
+      --type-7: #FBBF24; --type-8: #DC2626; --type-9: #34D399;
+      --success: #22C55E; --warning: #EAB308; --error: #EF4444;
     }
 
-    /* ---- DARK MODE ---- */
-    .dark {
-      --bg-deepest: #0C0A09;
-      --bg-deep: #1C1917;
-      --bg-surface: #292524;
-      --bg-elevated: #44403C;
-      --bg-highlight: #57534E;
+    /* ===========================================
+       SCHEME A: ROSE GOLD
+       Warm, human, editorial. Rose primary with gold accents.
+       =========================================== */
 
-      --primary-lightest: #FEF3C7;
-      --primary-lighter: #FDE68A;
-      --primary-light: #FBBF24;
-      --primary: #F59E0B;
-      --primary-dark: #D97706;
-      --primary-darker: #B45309;
-      --primary-glow: rgba(245, 158, 11, 0.4);
-      --primary-subtle: rgba(245, 158, 11, 0.12);
+    /* Rose Gold — Light */
+    [data-scheme="rose-gold"] {
+      --bg-deepest: #FAFAF9; --bg-deep: #F5F5F4; --bg-surface: #FFFFFF;
+      --bg-elevated: #F5F5F4; --bg-highlight: #FFF1F2;
+      --primary: #E11D48; --primary-light: #FB7185; --primary-lighter: #FDA4AF;
+      --primary-lightest: #FFF1F2; --primary-dark: #BE123C; --primary-darker: #9F1239;
+      --primary-glow: rgba(225, 29, 72, 0.3); --primary-subtle: rgba(225, 29, 72, 0.06);
+      --secondary: #D97706; --secondary-light: #FBBF24; --secondary-dark: #B45309;
+      --secondary-subtle: rgba(217, 119, 6, 0.06);
+      --accent: #7C3AED; --accent-light: #A78BFA; --accent-dark: #6D28D9;
+      --accent-subtle: rgba(124, 58, 237, 0.06);
+      --text-primary: #1C1917; --text-secondary: #57534E; --text-tertiary: #78716C;
+      --text-muted: #A8A29E; --text-on-primary: #FFFFFF;
+      --border-color: #E7E5E4; --border-subtle: #F5F5F4;
+      --shadow-sm: 0 1px 3px rgba(28,25,23,0.08); --shadow-md: 0 4px 6px rgba(28,25,23,0.1);
+      --shadow-lg: 0 10px 15px rgba(28,25,23,0.1);
+      --glow-sm: 0 0 10px rgba(225,29,72,0.12); --glow-md: 0 0 20px rgba(225,29,72,0.18);
+      --glow-lg: 0 0 40px rgba(225,29,72,0.22);
+      --glass-color: rgba(255,255,255,0.85); --glass-border: rgba(225,29,72,0.1);
+      --info: #E11D48;
+      --pillar-head: #0EA5E9; --pillar-gut: #DC2626; --pillar-heart: #A855F7;
+    }
+    /* Rose Gold — Dark */
+    .dark[data-scheme="rose-gold"] {
+      --bg-deepest: #0C0A09; --bg-deep: #1C1917; --bg-surface: #292524;
+      --bg-elevated: #44403C; --bg-highlight: #57534E;
+      --primary: #FB7185; --primary-light: #FDA4AF; --primary-lighter: #FECDD3;
+      --primary-lightest: #FFF1F2; --primary-dark: #E11D48; --primary-darker: #BE123C;
+      --primary-glow: rgba(251,113,133,0.4); --primary-subtle: rgba(251,113,133,0.12);
+      --secondary: #FBBF24; --secondary-light: #FDE68A; --secondary-dark: #D97706;
+      --secondary-subtle: rgba(251,191,36,0.12);
+      --accent: #A78BFA; --accent-light: #C4B5FD; --accent-dark: #7C3AED;
+      --accent-subtle: rgba(167,139,250,0.12);
+      --text-primary: #FAFAF9; --text-secondary: #A8A29E; --text-tertiary: #78716C;
+      --text-muted: #57534E; --text-on-primary: #0C0A09;
+      --border-color: #44403C; --border-subtle: #292524;
+      --shadow-sm: 0 1px 3px rgba(12,10,9,0.3); --shadow-md: 0 4px 6px rgba(12,10,9,0.4);
+      --shadow-lg: 0 10px 15px rgba(12,10,9,0.5);
+      --glow-sm: 0 0 10px rgba(251,113,133,0.3); --glow-md: 0 0 20px rgba(251,113,133,0.4);
+      --glow-lg: 0 0 40px rgba(251,113,133,0.5);
+      --glass-color: rgba(28,25,23,0.85); --glass-border: rgba(251,113,133,0.15);
+      --info: #FB7185;
+    }
 
-      --secondary: #F43F5E;
-      --secondary-light: #FDA4AF;
-      --secondary-dark: #E11D48;
-      --secondary-subtle: rgba(244, 63, 94, 0.12);
+    /* ===========================================
+       SCHEME B: SAGE & COPPER
+       Grounded, earthy, intellectual. Sage green primary, copper accents.
+       =========================================== */
 
-      --accent: #EA580C;
-      --accent-light: #FDBA74;
-      --accent-dark: #C2410C;
-      --accent-subtle: rgba(234, 88, 12, 0.12);
+    /* Sage & Copper — Light */
+    [data-scheme="sage-copper"] {
+      --bg-deepest: #FAFAF9; --bg-deep: #F5F5F4; --bg-surface: #FFFFFF;
+      --bg-elevated: #F5F5F4; --bg-highlight: #ECFDF5;
+      --primary: #059669; --primary-light: #34D399; --primary-lighter: #6EE7B7;
+      --primary-lightest: #ECFDF5; --primary-dark: #047857; --primary-darker: #065F46;
+      --primary-glow: rgba(5,150,105,0.3); --primary-subtle: rgba(5,150,105,0.06);
+      --secondary: #B45309; --secondary-light: #D97706; --secondary-dark: #92400E;
+      --secondary-subtle: rgba(180,83,9,0.06);
+      --accent: #DC2626; --accent-light: #F87171; --accent-dark: #B91C1C;
+      --accent-subtle: rgba(220,38,38,0.06);
+      --text-primary: #1C1917; --text-secondary: #57534E; --text-tertiary: #78716C;
+      --text-muted: #A8A29E; --text-on-primary: #FFFFFF;
+      --border-color: #E7E5E4; --border-subtle: #F5F5F4;
+      --shadow-sm: 0 1px 3px rgba(28,25,23,0.08); --shadow-md: 0 4px 6px rgba(28,25,23,0.1);
+      --shadow-lg: 0 10px 15px rgba(28,25,23,0.1);
+      --glow-sm: 0 0 10px rgba(5,150,105,0.12); --glow-md: 0 0 20px rgba(5,150,105,0.18);
+      --glow-lg: 0 0 40px rgba(5,150,105,0.22);
+      --glass-color: rgba(255,255,255,0.85); --glass-border: rgba(5,150,105,0.1);
+      --info: #059669;
+      --pillar-head: #0EA5E9; --pillar-gut: #DC2626; --pillar-heart: #A855F7;
+    }
+    /* Sage & Copper — Dark */
+    .dark[data-scheme="sage-copper"] {
+      --bg-deepest: #0C0A09; --bg-deep: #1C1917; --bg-surface: #292524;
+      --bg-elevated: #44403C; --bg-highlight: #57534E;
+      --primary: #34D399; --primary-light: #6EE7B7; --primary-lighter: #A7F3D0;
+      --primary-lightest: #ECFDF5; --primary-dark: #059669; --primary-darker: #047857;
+      --primary-glow: rgba(52,211,153,0.4); --primary-subtle: rgba(52,211,153,0.12);
+      --secondary: #D97706; --secondary-light: #FBBF24; --secondary-dark: #B45309;
+      --secondary-subtle: rgba(217,119,6,0.12);
+      --accent: #F87171; --accent-light: #FCA5A5; --accent-dark: #DC2626;
+      --accent-subtle: rgba(248,113,113,0.12);
+      --text-primary: #FAFAF9; --text-secondary: #A8A29E; --text-tertiary: #78716C;
+      --text-muted: #57534E; --text-on-primary: #0C0A09;
+      --border-color: #44403C; --border-subtle: #292524;
+      --shadow-sm: 0 1px 3px rgba(12,10,9,0.3); --shadow-md: 0 4px 6px rgba(12,10,9,0.4);
+      --shadow-lg: 0 10px 15px rgba(12,10,9,0.5);
+      --glow-sm: 0 0 10px rgba(52,211,153,0.3); --glow-md: 0 0 20px rgba(52,211,153,0.4);
+      --glow-lg: 0 0 40px rgba(52,211,153,0.5);
+      --glass-color: rgba(28,25,23,0.85); --glass-border: rgba(52,211,153,0.15);
+      --info: #34D399;
+    }
 
-      --text-primary: #FAFAF9;
-      --text-secondary: #A8A29E;
-      --text-tertiary: #78716C;
-      --text-muted: #57534E;
-      --text-on-primary: #0C0A09;
+    /* ===========================================
+       SCHEME C: WARM INDIGO
+       Keeps purple DNA but shifts warmer. Indigo primary, warm rose accents.
+       =========================================== */
 
-      --border-color: #44403C;
-      --border-subtle: #292524;
+    /* Warm Indigo — Light */
+    [data-scheme="warm-indigo"] {
+      --bg-deepest: #FAFAF9; --bg-deep: #F5F5F4; --bg-surface: #FFFFFF;
+      --bg-elevated: #F5F5F4; --bg-highlight: #EEF2FF;
+      --primary: #4F46E5; --primary-light: #818CF8; --primary-lighter: #A5B4FC;
+      --primary-lightest: #EEF2FF; --primary-dark: #4338CA; --primary-darker: #3730A3;
+      --primary-glow: rgba(79,70,229,0.3); --primary-subtle: rgba(79,70,229,0.06);
+      --secondary: #E11D48; --secondary-light: #FB7185; --secondary-dark: #BE123C;
+      --secondary-subtle: rgba(225,29,72,0.06);
+      --accent: #D97706; --accent-light: #FBBF24; --accent-dark: #B45309;
+      --accent-subtle: rgba(217,119,6,0.06);
+      --text-primary: #1C1917; --text-secondary: #57534E; --text-tertiary: #78716C;
+      --text-muted: #A8A29E; --text-on-primary: #FFFFFF;
+      --border-color: #E7E5E4; --border-subtle: #F5F5F4;
+      --shadow-sm: 0 1px 3px rgba(28,25,23,0.08); --shadow-md: 0 4px 6px rgba(28,25,23,0.1);
+      --shadow-lg: 0 10px 15px rgba(28,25,23,0.1);
+      --glow-sm: 0 0 10px rgba(79,70,229,0.12); --glow-md: 0 0 20px rgba(79,70,229,0.18);
+      --glow-lg: 0 0 40px rgba(79,70,229,0.22);
+      --glass-color: rgba(255,255,255,0.85); --glass-border: rgba(79,70,229,0.1);
+      --info: #4F46E5;
+      --pillar-head: #0EA5E9; --pillar-gut: #DC2626; --pillar-heart: #A855F7;
+    }
+    /* Warm Indigo — Dark */
+    .dark[data-scheme="warm-indigo"] {
+      --bg-deepest: #0C0A09; --bg-deep: #1C1917; --bg-surface: #292524;
+      --bg-elevated: #44403C; --bg-highlight: #57534E;
+      --primary: #818CF8; --primary-light: #A5B4FC; --primary-lighter: #C7D2FE;
+      --primary-lightest: #EEF2FF; --primary-dark: #4F46E5; --primary-darker: #4338CA;
+      --primary-glow: rgba(129,140,248,0.4); --primary-subtle: rgba(129,140,248,0.12);
+      --secondary: #FB7185; --secondary-light: #FDA4AF; --secondary-dark: #E11D48;
+      --secondary-subtle: rgba(251,113,133,0.12);
+      --accent: #FBBF24; --accent-light: #FDE68A; --accent-dark: #D97706;
+      --accent-subtle: rgba(251,191,36,0.12);
+      --text-primary: #FAFAF9; --text-secondary: #A8A29E; --text-tertiary: #78716C;
+      --text-muted: #57534E; --text-on-primary: #0C0A09;
+      --border-color: #44403C; --border-subtle: #292524;
+      --shadow-sm: 0 1px 3px rgba(12,10,9,0.3); --shadow-md: 0 4px 6px rgba(12,10,9,0.4);
+      --shadow-lg: 0 10px 15px rgba(12,10,9,0.5);
+      --glow-sm: 0 0 10px rgba(129,140,248,0.3); --glow-md: 0 0 20px rgba(129,140,248,0.4);
+      --glow-lg: 0 0 40px rgba(129,140,248,0.5);
+      --glass-color: rgba(28,25,23,0.85); --glass-border: rgba(129,140,248,0.15);
+      --info: #818CF8;
+    }
 
-      --shadow-sm: 0 1px 3px rgba(12, 10, 9, 0.3);
-      --shadow-md: 0 4px 6px rgba(12, 10, 9, 0.4);
-      --shadow-lg: 0 10px 15px rgba(12, 10, 9, 0.5);
-      --glow-sm: 0 0 10px rgba(245, 158, 11, 0.3);
-      --glow-md: 0 0 20px rgba(245, 158, 11, 0.4);
-      --glow-lg: 0 0 40px rgba(245, 158, 11, 0.5);
+    /* ===========================================
+       SCHEME D: BURGUNDY & GOLD
+       Rich, sophisticated, premium. Deep wine primary, gold accents.
+       =========================================== */
 
-      --glass-color: rgba(28, 25, 23, 0.85);
-      --glass-border: rgba(245, 158, 11, 0.15);
+    /* Burgundy & Gold — Light */
+    [data-scheme="burgundy-gold"] {
+      --bg-deepest: #FAFAF9; --bg-deep: #F5F5F4; --bg-surface: #FFFFFF;
+      --bg-elevated: #F5F5F4; --bg-highlight: #FDF2F8;
+      --primary: #9D174D; --primary-light: #DB2777; --primary-lighter: #F472B6;
+      --primary-lightest: #FDF2F8; --primary-dark: #831843; --primary-darker: #701A3E;
+      --primary-glow: rgba(157,23,77,0.3); --primary-subtle: rgba(157,23,77,0.06);
+      --secondary: #B45309; --secondary-light: #D97706; --secondary-dark: #92400E;
+      --secondary-subtle: rgba(180,83,9,0.06);
+      --accent: #D4AF37; --accent-light: #E8CC6E; --accent-dark: #A38829;
+      --accent-subtle: rgba(212,175,55,0.08);
+      --text-primary: #1C1917; --text-secondary: #57534E; --text-tertiary: #78716C;
+      --text-muted: #A8A29E; --text-on-primary: #FFFFFF;
+      --border-color: #E7E5E4; --border-subtle: #F5F5F4;
+      --shadow-sm: 0 1px 3px rgba(28,25,23,0.08); --shadow-md: 0 4px 6px rgba(28,25,23,0.1);
+      --shadow-lg: 0 10px 15px rgba(28,25,23,0.1);
+      --glow-sm: 0 0 10px rgba(157,23,77,0.12); --glow-md: 0 0 20px rgba(157,23,77,0.18);
+      --glow-lg: 0 0 40px rgba(157,23,77,0.22);
+      --glass-color: rgba(255,255,255,0.85); --glass-border: rgba(157,23,77,0.1);
+      --info: #9D174D;
+      --pillar-head: #0EA5E9; --pillar-gut: #DC2626; --pillar-heart: #A855F7;
+    }
+    /* Burgundy & Gold — Dark */
+    .dark[data-scheme="burgundy-gold"] {
+      --bg-deepest: #0C0A09; --bg-deep: #1C1917; --bg-surface: #292524;
+      --bg-elevated: #44403C; --bg-highlight: #57534E;
+      --primary: #DB2777; --primary-light: #F472B6; --primary-lighter: #F9A8D4;
+      --primary-lightest: #FDF2F8; --primary-dark: #9D174D; --primary-darker: #831843;
+      --primary-glow: rgba(219,39,119,0.4); --primary-subtle: rgba(219,39,119,0.12);
+      --secondary: #D97706; --secondary-light: #FBBF24; --secondary-dark: #B45309;
+      --secondary-subtle: rgba(217,119,6,0.12);
+      --accent: #D4AF37; --accent-light: #E8CC6E; --accent-dark: #A38829;
+      --accent-subtle: rgba(212,175,55,0.12);
+      --text-primary: #FAFAF9; --text-secondary: #A8A29E; --text-tertiary: #78716C;
+      --text-muted: #57534E; --text-on-primary: #FFFFFF;
+      --border-color: #44403C; --border-subtle: #292524;
+      --shadow-sm: 0 1px 3px rgba(12,10,9,0.3); --shadow-md: 0 4px 6px rgba(12,10,9,0.4);
+      --shadow-lg: 0 10px 15px rgba(12,10,9,0.5);
+      --glow-sm: 0 0 10px rgba(219,39,119,0.3); --glow-md: 0 0 20px rgba(219,39,119,0.4);
+      --glow-lg: 0 0 40px rgba(219,39,119,0.5);
+      --glass-color: rgba(28,25,23,0.85); --glass-border: rgba(219,39,119,0.15);
+      --info: #DB2777;
+    }
+
+    /* ===========================================
+       SCHEME E: TEAL & WARM GRAY
+       Calm, trustworthy, modern. Teal primary, warm neutral foundation.
+       =========================================== */
+
+    /* Teal — Light */
+    [data-scheme="teal"] {
+      --bg-deepest: #FAFAF9; --bg-deep: #F5F5F4; --bg-surface: #FFFFFF;
+      --bg-elevated: #F5F5F4; --bg-highlight: #F0FDFA;
+      --primary: #0D9488; --primary-light: #2DD4BF; --primary-lighter: #5EEAD4;
+      --primary-lightest: #F0FDFA; --primary-dark: #0F766E; --primary-darker: #115E59;
+      --primary-glow: rgba(13,148,136,0.3); --primary-subtle: rgba(13,148,136,0.06);
+      --secondary: #E11D48; --secondary-light: #FB7185; --secondary-dark: #BE123C;
+      --secondary-subtle: rgba(225,29,72,0.06);
+      --accent: #7C3AED; --accent-light: #A78BFA; --accent-dark: #6D28D9;
+      --accent-subtle: rgba(124,58,237,0.06);
+      --text-primary: #1C1917; --text-secondary: #57534E; --text-tertiary: #78716C;
+      --text-muted: #A8A29E; --text-on-primary: #FFFFFF;
+      --border-color: #E7E5E4; --border-subtle: #F5F5F4;
+      --shadow-sm: 0 1px 3px rgba(28,25,23,0.08); --shadow-md: 0 4px 6px rgba(28,25,23,0.1);
+      --shadow-lg: 0 10px 15px rgba(28,25,23,0.1);
+      --glow-sm: 0 0 10px rgba(13,148,136,0.12); --glow-md: 0 0 20px rgba(13,148,136,0.18);
+      --glow-lg: 0 0 40px rgba(13,148,136,0.22);
+      --glass-color: rgba(255,255,255,0.85); --glass-border: rgba(13,148,136,0.1);
+      --info: #0D9488;
+      --pillar-head: #0EA5E9; --pillar-gut: #DC2626; --pillar-heart: #A855F7;
+    }
+    /* Teal — Dark */
+    .dark[data-scheme="teal"] {
+      --bg-deepest: #0C0A09; --bg-deep: #1C1917; --bg-surface: #292524;
+      --bg-elevated: #44403C; --bg-highlight: #57534E;
+      --primary: #2DD4BF; --primary-light: #5EEAD4; --primary-lighter: #99F6E4;
+      --primary-lightest: #F0FDFA; --primary-dark: #0D9488; --primary-darker: #0F766E;
+      --primary-glow: rgba(45,212,191,0.4); --primary-subtle: rgba(45,212,191,0.12);
+      --secondary: #FB7185; --secondary-light: #FDA4AF; --secondary-dark: #E11D48;
+      --secondary-subtle: rgba(251,113,133,0.12);
+      --accent: #A78BFA; --accent-light: #C4B5FD; --accent-dark: #7C3AED;
+      --accent-subtle: rgba(167,139,250,0.12);
+      --text-primary: #FAFAF9; --text-secondary: #A8A29E; --text-tertiary: #78716C;
+      --text-muted: #57534E; --text-on-primary: #0C0A09;
+      --border-color: #44403C; --border-subtle: #292524;
+      --shadow-sm: 0 1px 3px rgba(12,10,9,0.3); --shadow-md: 0 4px 6px rgba(12,10,9,0.4);
+      --shadow-lg: 0 10px 15px rgba(12,10,9,0.5);
+      --glow-sm: 0 0 10px rgba(45,212,191,0.3); --glow-md: 0 0 20px rgba(45,212,191,0.4);
+      --glow-lg: 0 0 40px rgba(45,212,191,0.5);
+      --glass-color: rgba(28,25,23,0.85); --glass-border: rgba(45,212,191,0.15);
+      --info: #2DD4BF;
     }
 
     /* ===========================================
@@ -151,158 +285,113 @@
     img { max-width: 100%; display: block; }
 
     /* ===========================================
-       THEME TOGGLE
+       SCHEME PICKER (floating panel)
        =========================================== */
-    .theme-toggle-bar {
-      position: fixed;
-      top: 0;
-      left: 0;
-      right: 0;
-      z-index: 1000;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      gap: 1rem;
-      padding: 0.75rem 1rem;
-      background: var(--glass-color);
-      backdrop-filter: blur(12px);
+    .scheme-picker {
+      position: fixed; top: 0; left: 0; right: 0; z-index: 1000;
+      background: var(--glass-color); backdrop-filter: blur(16px);
       border-bottom: 1px solid var(--glass-border);
-      font-family: var(--font-mono);
-      font-size: 0.75rem;
-      color: var(--text-secondary);
+      padding: 0.6rem 1rem;
+      display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: 0.5rem;
     }
-    .theme-toggle-bar span { letter-spacing: 0.05em; }
+    .picker-label {
+      font-family: var(--font-mono); font-size: 0.7rem; font-weight: 600;
+      color: var(--text-secondary); letter-spacing: 0.05em; margin-right: 0.5rem;
+    }
+    .scheme-btn {
+      display: inline-flex; align-items: center; gap: 0.4rem;
+      padding: 0.35rem 0.75rem;
+      background: var(--bg-surface); border: 1px solid var(--border-color);
+      border-radius: 6px; cursor: pointer;
+      font-family: var(--font-mono); font-size: 0.65rem; font-weight: 500;
+      color: var(--text-secondary); transition: all 0.2s ease;
+    }
+    .scheme-btn:hover { border-color: var(--primary); color: var(--primary); }
+    .scheme-btn.active {
+      background: var(--primary-subtle); border-color: var(--primary);
+      color: var(--primary); font-weight: 700;
+    }
+    .scheme-dot {
+      width: 10px; height: 10px; border-radius: 50%; flex-shrink: 0;
+    }
+    .picker-divider {
+      width: 1px; height: 1.5rem; background: var(--border-color); margin: 0 0.25rem;
+    }
     .toggle-btn {
-      display: inline-flex;
-      align-items: center;
-      gap: 0.5rem;
-      padding: 0.4rem 1rem;
-      background: var(--primary-subtle);
-      border: 1px solid var(--primary);
-      border-radius: 6px;
-      font-family: var(--font-mono);
-      font-size: 0.75rem;
-      font-weight: 600;
-      color: var(--primary);
-      cursor: pointer;
-      transition: all 0.2s ease;
+      display: inline-flex; align-items: center; gap: 0.4rem;
+      padding: 0.35rem 0.75rem;
+      background: var(--bg-surface); border: 1px solid var(--border-color);
+      border-radius: 6px; cursor: pointer;
+      font-family: var(--font-mono); font-size: 0.65rem; font-weight: 600;
+      color: var(--text-secondary); transition: all 0.2s ease;
     }
-    .toggle-btn:hover {
-      background: var(--primary);
-      color: var(--text-on-primary);
-      box-shadow: var(--glow-sm);
-    }
+    .toggle-btn:hover { border-color: var(--primary); color: var(--primary); }
 
     /* ===========================================
        BACKGROUNDS
        =========================================== */
-    .page-wrapper {
-      position: relative;
-      min-height: 100vh;
-      overflow-x: hidden;
-    }
-    .bg-void {
-      position: fixed; inset: 0;
-      background: var(--bg-deepest);
-      z-index: 0;
-    }
-    .bg-ambient {
-      position: fixed; inset: 0;
-      z-index: 1; pointer-events: none;
-    }
+    .page-wrapper { position: relative; min-height: 100vh; overflow-x: hidden; }
+    .bg-void { position: fixed; inset: 0; background: var(--bg-deepest); z-index: 0; }
+    .bg-ambient { position: fixed; inset: 0; z-index: 1; pointer-events: none; }
     .dark .bg-ambient {
       background:
-        radial-gradient(ellipse at 25% 0%, rgba(245, 158, 11, 0.08) 0%, transparent 50%),
-        radial-gradient(ellipse at 75% 100%, rgba(234, 88, 12, 0.06) 0%, transparent 50%);
+        radial-gradient(ellipse at 25% 0%, var(--primary-glow) 0%, transparent 50%),
+        radial-gradient(ellipse at 75% 100%, var(--accent-subtle) 0%, transparent 50%);
+      opacity: 0.5;
     }
     :root:not(.dark) .bg-ambient {
       background:
-        radial-gradient(ellipse at 25% 0%, rgba(217, 119, 6, 0.04) 0%, transparent 50%),
-        radial-gradient(ellipse at 75% 100%, rgba(234, 88, 12, 0.03) 0%, transparent 50%);
+        radial-gradient(ellipse at 25% 0%, var(--primary-subtle) 0%, transparent 50%),
+        radial-gradient(ellipse at 75% 100%, var(--accent-subtle) 0%, transparent 50%);
     }
     .bg-grid {
-      position: fixed; inset: 0;
+      position: fixed; inset: 0; z-index: 2; pointer-events: none;
       background-image:
-        linear-gradient(rgba(245, 158, 11, 0.03) 1px, transparent 1px),
-        linear-gradient(90deg, rgba(245, 158, 11, 0.03) 1px, transparent 1px);
+        linear-gradient(color-mix(in srgb, var(--primary) 4%, transparent) 1px, transparent 1px),
+        linear-gradient(90deg, color-mix(in srgb, var(--primary) 4%, transparent) 1px, transparent 1px);
       background-size: 60px 60px;
-      z-index: 2; pointer-events: none;
-    }
-    :root:not(.dark) .bg-grid {
-      background-image:
-        linear-gradient(rgba(217, 119, 6, 0.04) 1px, transparent 1px),
-        linear-gradient(90deg, rgba(217, 119, 6, 0.04) 1px, transparent 1px);
     }
 
     /* ===========================================
        HEADER
        =========================================== */
     .header {
-      position: sticky; top: 2.75rem; z-index: 100;
+      position: sticky; top: 2.5rem; z-index: 100;
       display: flex; align-items: center; justify-content: space-between;
       padding: 0.75rem 1.5rem;
-      background: var(--glass-color);
-      backdrop-filter: blur(12px);
+      background: var(--glass-color); backdrop-filter: blur(12px);
       border-bottom: 1px solid var(--border-color);
     }
-    .logo {
-      font-family: var(--font-display);
-      font-size: 1.5rem; font-weight: 700;
-      color: var(--primary);
-    }
+    .logo { font-family: var(--font-display); font-size: 1.5rem; font-weight: 700; color: var(--primary); }
     .nav-links { display: flex; gap: 1.5rem; align-items: center; }
-    .nav-links a {
-      font-family: var(--font-mono);
-      font-size: 0.8rem; font-weight: 500;
-      color: var(--text-secondary);
-      transition: color 0.2s ease;
-    }
+    .nav-links a { font-family: var(--font-mono); font-size: 0.8rem; font-weight: 500; color: var(--text-secondary); transition: color 0.2s; }
     .nav-links a:hover { color: var(--primary); }
-    @media (max-width: 768px) {
-      .nav-links { display: none; }
-    }
+    @media (max-width: 768px) { .nav-links { display: none; } }
 
     /* ===========================================
-       CONTENT WRAPPER
+       CONTENT
        =========================================== */
-    .content {
-      position: relative; z-index: 10;
-      max-width: 1100px; margin: 0 auto; padding: 0 1rem;
-    }
+    .content { position: relative; z-index: 10; max-width: 1100px; margin: 0 auto; padding: 0 1rem; }
+
+    /* Text utilities */
+    .text-glow { color: var(--primary); text-shadow: 0 0 20px var(--primary-glow); }
+    .text-accent { color: var(--accent); }
+    .text-secondary-color { color: var(--secondary); }
 
     /* ===========================================
-       TEXT UTILITIES
-       =========================================== */
-    .text-glow {
-      color: var(--primary);
-      text-shadow: 0 0 20px var(--primary-glow);
-    }
-    .text-accent {
-      color: var(--accent);
-    }
-    .text-secondary-color {
-      color: var(--secondary);
-    }
-
-    /* ===========================================
-       HERO SECTION
+       HERO
        =========================================== */
     .hero {
-      min-height: 100vh;
-      display: flex; flex-direction: column; align-items: center; justify-content: center;
+      min-height: 100vh; display: flex; flex-direction: column; align-items: center; justify-content: center;
       padding: 6rem 0 3rem; text-align: center;
     }
     .hero-inner { max-width: 700px; margin-bottom: 2rem; }
-
     .tagline-badge {
-      position: relative;
-      display: inline-flex; align-items: center;
-      padding: 0.5rem 1rem;
-      background: var(--primary-subtle);
-      border: 1px solid rgba(245, 158, 11, 0.2);
+      position: relative; display: inline-flex; align-items: center;
+      padding: 0.5rem 1rem; background: var(--primary-subtle);
+      border: 1px solid color-mix(in srgb, var(--primary) 25%, transparent);
       border-radius: 6px; margin-bottom: 1.5rem; overflow: hidden;
     }
-    .dark .tagline-badge { border-color: rgba(245, 158, 11, 0.25); }
     .badge-glow {
       position: absolute; inset: 0;
       background: radial-gradient(circle at 50% 50%, var(--primary-glow) 0%, transparent 70%);
@@ -310,86 +399,57 @@
     }
     @keyframes badge-pulse { 0%,100% { opacity: 0.5; } 50% { opacity: 1; } }
     .badge-text {
-      position: relative;
-      font-family: var(--font-mono); font-size: 0.75rem; font-weight: 500;
+      position: relative; font-family: var(--font-mono); font-size: 0.75rem; font-weight: 500;
       color: var(--primary); letter-spacing: 0.05em;
     }
-
     .hero-title {
-      font-family: var(--font-display);
-      font-size: clamp(2.5rem, 8vw, 4.5rem); font-weight: 700;
-      line-height: 1.1; margin-bottom: 1rem;
+      font-family: var(--font-display); font-size: clamp(2.5rem, 8vw, 4.5rem);
+      font-weight: 700; line-height: 1.1; margin-bottom: 1rem;
     }
     .title-line { display: block; color: var(--text-primary); }
     .title-glow {
       display: block;
-      background: linear-gradient(135deg, var(--primary) 0%, var(--accent) 100%);
-      -webkit-background-clip: text; -webkit-text-fill-color: transparent;
-      background-clip: text;
+      background: linear-gradient(135deg, var(--primary) 0%, var(--secondary) 100%);
+      -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;
       filter: drop-shadow(0 0 30px var(--primary-glow));
     }
     .hero-desc {
-      font-size: clamp(1rem, 2vw, 1.125rem);
-      color: var(--text-secondary); max-width: 500px; margin: 0 auto; line-height: 1.6;
+      font-size: clamp(1rem, 2vw, 1.125rem); color: var(--text-secondary);
+      max-width: 500px; margin: 0 auto; line-height: 1.6;
     }
 
     /* ===========================================
-       QUEST CARD (Today's Question)
+       QUEST CARD
        =========================================== */
     .quest-card {
-      display: block; width: 100%; max-width: 600px;
-      padding: 1.5rem;
-      background: var(--bg-surface);
-      border: 1px solid var(--border-color);
-      border-radius: 16px; margin-bottom: 1.5rem;
-      box-shadow: var(--shadow-md);
+      display: block; width: 100%; max-width: 600px; padding: 1.5rem;
+      background: var(--bg-surface); border: 1px solid var(--border-color);
+      border-radius: 16px; margin-bottom: 1.5rem; box-shadow: var(--shadow-md);
       transition: all 300ms var(--ease-out);
     }
     .dark .quest-card {
       background: linear-gradient(180deg, var(--bg-deep) 0%, var(--bg-surface) 100%);
       box-shadow: var(--shadow-md), var(--glow-sm);
     }
-    .quest-card:hover {
-      border-color: var(--primary);
-      box-shadow: var(--shadow-lg), var(--glow-md);
-      transform: translateY(-4px);
-    }
-    .quest-header {
-      display: flex; justify-content: space-between; align-items: center; margin-bottom: 1rem;
-    }
+    .quest-card:hover { border-color: var(--primary); box-shadow: var(--shadow-lg), var(--glow-md); transform: translateY(-4px); }
+    .quest-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 1rem; }
     .quest-badge { display: flex; align-items: center; gap: 0.5rem; }
     .quest-icon {
-      display: flex; align-items: center; justify-content: center;
-      width: 1.5rem; height: 1.5rem;
-      background: var(--primary-subtle); color: var(--primary);
-      border-radius: 4px; font-weight: 700; font-size: 0.9rem;
+      display: flex; align-items: center; justify-content: center; width: 1.5rem; height: 1.5rem;
+      background: var(--primary-subtle); color: var(--primary); border-radius: 4px; font-weight: 700; font-size: 0.9rem;
     }
-    .quest-label {
-      font-family: var(--font-mono); font-size: 0.7rem; font-weight: 600;
-      color: var(--primary); letter-spacing: 0.08em;
-    }
-    .quest-responses {
-      display: flex; align-items: baseline; gap: 0.3rem;
-      font-family: var(--font-mono); font-size: 0.75rem; color: var(--text-secondary);
-    }
-    .response-count { color: var(--accent); font-weight: 600; }
-    .quest-title {
-      font-family: var(--font-display);
-      font-size: clamp(1.125rem, 3vw, 1.5rem); font-weight: 600;
-      color: var(--text-primary); line-height: 1.35; margin-bottom: 1rem; text-align: left;
-    }
+    .quest-label { font-family: var(--font-mono); font-size: 0.7rem; font-weight: 600; color: var(--primary); letter-spacing: 0.08em; }
+    .quest-responses { display: flex; align-items: baseline; gap: 0.3rem; font-family: var(--font-mono); font-size: 0.75rem; color: var(--text-secondary); }
+    .response-count { color: var(--secondary); font-weight: 600; }
+    .quest-title { font-family: var(--font-display); font-size: clamp(1.125rem, 3vw, 1.5rem); font-weight: 600; color: var(--text-primary); line-height: 1.35; margin-bottom: 1rem; text-align: left; }
     .quest-cta {
-      display: flex; align-items: center; justify-content: center; gap: 0.5rem;
-      padding: 0.75rem;
+      display: flex; align-items: center; justify-content: center; gap: 0.5rem; padding: 0.75rem;
       background: linear-gradient(135deg, var(--primary-dark) 0%, var(--primary) 100%);
-      border-radius: 8px;
-      font-family: var(--font-display); font-size: 0.95rem; font-weight: 600;
-      color: var(--text-on-primary);
+      border-radius: 8px; font-family: var(--font-display); font-size: 0.95rem; font-weight: 600; color: var(--text-on-primary);
     }
+    .dark .quest-cta { color: #fff; }
     .cta-arrow { transition: transform 200ms ease; }
     .quest-card:hover .cta-arrow { transform: translateX(4px); }
-
-    /* Hero secondary */
     .hero-actions { margin-bottom: 1rem; }
     .hero-note { font-size: 0.85rem; color: var(--text-muted); }
 
@@ -397,485 +457,204 @@
        BUTTONS
        =========================================== */
     .btn-primary {
-      position: relative;
-      display: inline-flex; align-items: center; justify-content: center;
+      position: relative; display: inline-flex; align-items: center; justify-content: center;
       padding: 0.875rem 1.75rem;
       background: linear-gradient(135deg, var(--primary-dark) 0%, var(--primary) 100%);
-      border: none; border-radius: 8px;
-      font-family: var(--font-display); font-size: 1rem; font-weight: 600;
-      color: var(--text-on-primary); cursor: pointer; overflow: hidden;
-      box-shadow: var(--glow-sm);
+      border: none; border-radius: 8px; font-family: var(--font-display); font-size: 1rem; font-weight: 600;
+      color: var(--text-on-primary); cursor: pointer; overflow: hidden; box-shadow: var(--glow-sm);
       transition: all 250ms var(--ease-out);
     }
-    .btn-primary:hover {
-      background: linear-gradient(135deg, var(--primary) 0%, var(--primary-light) 100%);
-      box-shadow: var(--glow-md); transform: translateY(-2px);
-    }
+    .dark .btn-primary { color: #fff; }
+    .btn-primary:hover { background: linear-gradient(135deg, var(--primary) 0%, var(--primary-light) 100%); box-shadow: var(--glow-md); transform: translateY(-2px); }
     .btn-primary.lg { padding: 1rem 2rem; font-size: 1.05rem; }
-    .btn-primary::after {
-      content: ''; position: absolute; top: 0; left: -100%;
-      width: 100%; height: 100%;
-      background: linear-gradient(90deg, transparent, rgba(255,255,255,0.15), transparent);
-      transition: left 400ms ease;
-    }
+    .btn-primary::after { content: ''; position: absolute; top: 0; left: -100%; width: 100%; height: 100%; background: linear-gradient(90deg, transparent, rgba(255,255,255,0.15), transparent); transition: left 400ms ease; }
     .btn-primary:hover::after { left: 100%; }
-
     .btn-outline {
-      display: inline-flex; align-items: center; justify-content: center;
-      padding: 0.875rem 1.75rem;
-      background: transparent;
-      border: 1px solid var(--border-color); border-radius: 8px;
-      font-family: var(--font-display); font-size: 1rem; font-weight: 600;
-      color: var(--primary); cursor: pointer;
-      transition: all 250ms var(--ease-out);
+      display: inline-flex; align-items: center; justify-content: center; padding: 0.875rem 1.75rem;
+      background: transparent; border: 1px solid var(--border-color); border-radius: 8px;
+      font-family: var(--font-display); font-size: 1rem; font-weight: 600; color: var(--primary);
+      cursor: pointer; transition: all 250ms var(--ease-out);
     }
-    .btn-outline:hover {
-      background: var(--primary-subtle);
-      border-color: var(--primary);
-      box-shadow: var(--glow-sm);
-    }
+    .btn-outline:hover { background: var(--primary-subtle); border-color: var(--primary); box-shadow: var(--glow-sm); }
 
     /* ===========================================
-       SECTION COMMON
+       SECTIONS
        =========================================== */
     .section { padding: 4rem 0; }
     .section-header { text-align: center; margin-bottom: 2.5rem; }
     .section-badge {
-      display: inline-flex; align-items: center; gap: 0.5rem;
-      padding: 0.35rem 0.75rem;
-      background: var(--primary-subtle);
-      border: 1px solid rgba(245, 158, 11, 0.15);
-      border-radius: 4px; margin-bottom: 1rem;
-      font-family: var(--font-mono); font-size: 0.7rem;
+      display: inline-flex; align-items: center; gap: 0.5rem; padding: 0.35rem 0.75rem;
+      background: var(--primary-subtle); border: 1px solid color-mix(in srgb, var(--primary) 20%, transparent);
+      border-radius: 4px; margin-bottom: 1rem; font-family: var(--font-mono); font-size: 0.7rem;
       letter-spacing: 0.1em; color: var(--primary);
     }
-    .badge-dot {
-      width: 5px; height: 5px;
-      background: var(--primary); border-radius: 50%;
-      box-shadow: 0 0 8px var(--primary-glow);
-    }
-    .section-title {
-      font-family: var(--font-display);
-      font-size: clamp(1.75rem, 4vw, 2.5rem); font-weight: 700;
-      color: var(--text-primary); margin-bottom: 0.5rem;
-    }
-    .section-desc {
-      font-size: 1rem; color: var(--text-secondary); max-width: 500px; margin: 0 auto;
-    }
+    .badge-dot { width: 5px; height: 5px; background: var(--primary); border-radius: 50%; box-shadow: 0 0 8px var(--primary-glow); }
+    .section-title { font-family: var(--font-display); font-size: clamp(1.75rem, 4vw, 2.5rem); font-weight: 700; color: var(--text-primary); margin-bottom: 0.5rem; }
+    .section-desc { font-size: 1rem; color: var(--text-secondary); max-width: 500px; margin: 0 auto; }
 
     /* ===========================================
-       THREE PILLARS
+       PILLARS
        =========================================== */
-    .pillars-section {
-      background: var(--bg-deep);
-      border-radius: 20px; margin: 1rem 0; padding: 3rem 1.5rem;
-    }
-    :root:not(.dark) .pillars-section {
-      background: var(--bg-surface);
-      border: 1px solid var(--border-color);
-      box-shadow: var(--shadow-sm);
-    }
+    .pillars-section { background: var(--bg-deep); border-radius: 20px; margin: 1rem 0; padding: 3rem 1.5rem; }
+    :root:not(.dark) .pillars-section { background: var(--bg-surface); border: 1px solid var(--border-color); box-shadow: var(--shadow-sm); }
     .pillars-grid { display: grid; gap: 1rem; }
     @media (min-width: 768px) { .pillars-grid { grid-template-columns: repeat(3, 1fr); gap: 1.25rem; } }
-
     .pillar-card {
-      position: relative; display: block;
-      background: var(--bg-surface);
-      border: 1px solid var(--border-color);
-      border-radius: 16px; padding: 1.75rem 1.5rem;
+      position: relative; display: block; background: var(--bg-surface);
+      border: 1px solid var(--border-color); border-radius: 16px; padding: 1.75rem 1.5rem;
       overflow: hidden; transition: all 300ms var(--ease-out);
     }
-    .dark .pillar-card {
-      background: linear-gradient(180deg, var(--bg-deep) 0%, var(--bg-surface) 100%);
-      border-color: var(--border-subtle);
-    }
-    .pillar-card:hover {
-      border-color: var(--pillar-color);
-      box-shadow: 0 0 30px color-mix(in srgb, var(--pillar-color) 20%, transparent);
-      transform: translateY(-4px);
-    }
-    .pillar-bg {
-      position: absolute; inset: 0;
-      background: radial-gradient(circle at 50% 0%, color-mix(in srgb, var(--pillar-color) 10%, transparent) 0%, transparent 70%);
-      opacity: 0; transition: opacity 300ms ease;
-    }
+    .dark .pillar-card { background: linear-gradient(180deg, var(--bg-deep) 0%, var(--bg-surface) 100%); border-color: var(--border-subtle); }
+    .pillar-card:hover { border-color: var(--pillar-color); box-shadow: 0 0 30px color-mix(in srgb, var(--pillar-color) 20%, transparent); transform: translateY(-4px); }
+    .pillar-bg { position: absolute; inset: 0; background: radial-gradient(circle at 50% 0%, color-mix(in srgb, var(--pillar-color) 10%, transparent) 0%, transparent 70%); opacity: 0; transition: opacity 300ms ease; }
     .pillar-card:hover .pillar-bg { opacity: 1; }
     .pillar-content { position: relative; display: flex; flex-direction: column; }
-    .pillar-icon {
-      display: flex; align-items: center; justify-content: center;
-      width: 2.5rem; height: 2.5rem;
-      background: color-mix(in srgb, var(--pillar-color) 12%, var(--bg-deepest));
-      border: 1px solid color-mix(in srgb, var(--pillar-color) 30%, transparent);
-      border-radius: 10px; font-size: 1.25rem;
-      color: var(--pillar-color); margin-bottom: 1rem;
-    }
+    .pillar-icon { display: flex; align-items: center; justify-content: center; width: 2.5rem; height: 2.5rem; background: color-mix(in srgb, var(--pillar-color) 12%, var(--bg-deepest)); border: 1px solid color-mix(in srgb, var(--pillar-color) 30%, transparent); border-radius: 10px; font-size: 1.25rem; color: var(--pillar-color); margin-bottom: 1rem; }
     .pillar-triad { display: flex; align-items: center; gap: 0.5rem; margin-bottom: 0.75rem; }
-    .triad-label {
-      font-family: var(--font-mono); font-size: 0.65rem; font-weight: 600;
-      color: var(--pillar-color); letter-spacing: 0.06em; text-transform: uppercase;
-    }
+    .triad-label { font-family: var(--font-mono); font-size: 0.65rem; font-weight: 600; color: var(--pillar-color); letter-spacing: 0.06em; text-transform: uppercase; }
     .triad-types { font-family: var(--font-mono); font-size: 0.6rem; color: var(--text-muted); }
-    .pillar-title {
-      font-family: var(--font-display); font-size: 1.35rem; font-weight: 700;
-      color: var(--text-primary); margin-bottom: 0.6rem;
-    }
-    .pillar-desc {
-      font-size: 0.9rem; color: var(--text-secondary); line-height: 1.55;
-      margin-bottom: 1rem; flex-grow: 1;
-    }
-    .pillar-tagline {
-      font-family: var(--font-mono); font-size: 0.8rem; font-weight: 600;
-      color: var(--pillar-color); transition: transform 200ms ease;
-    }
+    .pillar-title { font-family: var(--font-display); font-size: 1.35rem; font-weight: 700; color: var(--text-primary); margin-bottom: 0.6rem; }
+    .pillar-desc { font-size: 0.9rem; color: var(--text-secondary); line-height: 1.55; margin-bottom: 1rem; flex-grow: 1; }
+    .pillar-tagline { font-family: var(--font-mono); font-size: 0.8rem; font-weight: 600; color: var(--pillar-color); transition: transform 200ms ease; }
     .pillar-card:hover .pillar-tagline { transform: translateX(4px); }
 
     /* ===========================================
-       9 TYPES GRID
+       TYPES GRID
        =========================================== */
-    .types-section {
-      background: var(--bg-deep);
-      border-radius: 24px; margin: 1rem 0; padding: 3rem 1rem;
-    }
-    :root:not(.dark) .types-section {
-      background: var(--bg-surface);
-      border: 1px solid var(--border-color);
-      box-shadow: var(--shadow-sm);
-    }
+    .types-section { background: var(--bg-deep); border-radius: 24px; margin: 1rem 0; padding: 3rem 1rem; }
+    :root:not(.dark) .types-section { background: var(--bg-surface); border: 1px solid var(--border-color); box-shadow: var(--shadow-sm); }
     @media (min-width: 640px) { .types-section { padding: 4rem 2rem; } }
-
     .types-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 0.75rem; }
     @media (min-width: 640px) { .types-grid { gap: 1rem; } }
-
     .type-card {
-      position: relative; display: block;
-      background: var(--bg-surface);
+      position: relative; display: block; background: var(--bg-surface);
       border: 1px solid color-mix(in srgb, var(--type-color) 15%, transparent);
-      border-radius: 12px; padding: 1rem;
-      overflow: hidden; transition: all 250ms var(--ease-out);
+      border-radius: 12px; padding: 1rem; overflow: hidden; transition: all 250ms var(--ease-out);
     }
-    .dark .type-card {
-      background: linear-gradient(180deg, var(--bg-deep) 0%, var(--bg-surface) 100%);
-    }
-    .type-card:hover {
-      border-color: color-mix(in srgb, var(--type-color) 40%, transparent);
-      box-shadow: 0 0 30px color-mix(in srgb, var(--type-color) 20%, transparent);
-      transform: translateY(-4px);
-    }
-    .card-bg {
-      position: absolute; inset: 0;
-      background: radial-gradient(circle at 50% 0%, color-mix(in srgb, var(--type-color) 10%, transparent) 0%, transparent 60%);
-      opacity: 0; transition: opacity 250ms ease;
-    }
+    .dark .type-card { background: linear-gradient(180deg, var(--bg-deep) 0%, var(--bg-surface) 100%); }
+    .type-card:hover { border-color: color-mix(in srgb, var(--type-color) 40%, transparent); box-shadow: 0 0 30px color-mix(in srgb, var(--type-color) 20%, transparent); transform: translateY(-4px); }
+    .card-bg { position: absolute; inset: 0; background: radial-gradient(circle at 50% 0%, color-mix(in srgb, var(--type-color) 10%, transparent) 0%, transparent 60%); opacity: 0; transition: opacity 250ms ease; }
     .type-card:hover .card-bg { opacity: 1; }
-    .card-content {
-      position: relative; display: flex; flex-direction: column;
-      align-items: center; text-align: center;
-    }
-    .type-number {
-      position: absolute; top: -0.5rem; left: -0.5rem;
-      width: 1.5rem; height: 1.5rem;
-      display: flex; align-items: center; justify-content: center;
-      background: color-mix(in srgb, var(--type-color) 15%, var(--bg-deepest));
-      border: 1px solid color-mix(in srgb, var(--type-color) 40%, transparent);
-      border-radius: 4px;
-      font-family: var(--font-mono); font-size: 0.75rem; font-weight: 700;
-      color: var(--type-color);
-    }
-    .avatar-placeholder {
-      width: 4rem; height: 4rem; margin: 0.5rem 0;
-      display: flex; align-items: center; justify-content: center;
-      background: color-mix(in srgb, var(--type-color) 10%, var(--bg-elevated));
-      border-radius: 50%;
-      border: 2px solid var(--type-color);
-      font-family: var(--font-display); font-size: 1.5rem; font-weight: 700;
-      color: var(--type-color);
-      box-shadow: 0 0 15px color-mix(in srgb, var(--type-color) 25%, transparent);
-    }
+    .card-content { position: relative; display: flex; flex-direction: column; align-items: center; text-align: center; }
+    .type-number { position: absolute; top: -0.5rem; left: -0.5rem; width: 1.5rem; height: 1.5rem; display: flex; align-items: center; justify-content: center; background: color-mix(in srgb, var(--type-color) 15%, var(--bg-deepest)); border: 1px solid color-mix(in srgb, var(--type-color) 40%, transparent); border-radius: 4px; font-family: var(--font-mono); font-size: 0.75rem; font-weight: 700; color: var(--type-color); }
+    .avatar-placeholder { width: 4rem; height: 4rem; margin: 0.5rem 0; display: flex; align-items: center; justify-content: center; background: color-mix(in srgb, var(--type-color) 10%, var(--bg-elevated)); border-radius: 50%; border: 2px solid var(--type-color); font-family: var(--font-display); font-size: 1.5rem; font-weight: 700; color: var(--type-color); box-shadow: 0 0 15px color-mix(in srgb, var(--type-color) 25%, transparent); }
     @media (min-width: 640px) { .avatar-placeholder { width: 5rem; height: 5rem; } }
     .type-info { margin-top: 0.5rem; }
-    .type-title-text {
-      font-family: var(--font-mono); font-size: 0.6rem; font-weight: 600;
-      color: var(--type-color); letter-spacing: 0.04em; margin-bottom: 0.15rem;
-    }
-    .type-name {
-      font-size: 0.75rem; color: var(--text-primary);
-    }
+    .type-title-text { font-family: var(--font-mono); font-size: 0.6rem; font-weight: 600; color: var(--type-color); letter-spacing: 0.04em; }
+    .type-name { font-size: 0.75rem; color: var(--text-primary); }
     @media (min-width: 640px) { .type-name { font-size: 0.85rem; } }
-    .type-meta {
-      margin-top: 0.5rem;
-      font-family: var(--font-mono); font-size: 0.6rem;
-    }
+    .type-meta { margin-top: 0.5rem; font-family: var(--font-mono); font-size: 0.6rem; }
     .meta-value { color: var(--type-color); font-weight: 600; }
-
-    .section-ctas {
-      display: flex; flex-direction: column; gap: 1rem;
-      justify-content: center; align-items: center; margin-top: 2.5rem;
-    }
+    .section-ctas { display: flex; flex-direction: column; gap: 1rem; justify-content: center; align-items: center; margin-top: 2.5rem; }
     @media (min-width: 480px) { .section-ctas { flex-direction: row; gap: 1.25rem; } }
 
     /* ===========================================
-       FEATURE SECTION (Why Enneagram)
+       FEATURE (Why Enneagram)
        =========================================== */
-    .feature-section {
-      margin: 2rem 0; border-radius: 20px;
-      background: var(--bg-surface);
-      border: 1px solid var(--border-color);
-      overflow: visible;
-    }
-    .dark .feature-section {
-      background: linear-gradient(135deg, rgba(245, 158, 11, 0.06) 0%, rgba(234, 88, 12, 0.06) 50%, var(--bg-deep) 100%);
-      border-color: rgba(245, 158, 11, 0.15);
-    }
-    .feature-inner { padding: 3rem 1.5rem; text-align: center; overflow: visible; }
+    .feature-section { margin: 2rem 0; border-radius: 20px; background: var(--bg-surface); border: 1px solid var(--border-color); overflow: visible; }
+    .dark .feature-section { background: linear-gradient(135deg, var(--primary-subtle) 0%, var(--accent-subtle) 50%, var(--bg-deep) 100%); border-color: color-mix(in srgb, var(--primary) 15%, transparent); }
+    .feature-inner { padding: 3rem 1.5rem; text-align: center; }
     @media (min-width: 640px) { .feature-inner { padding: 4rem 2rem; } }
-    .feature-title {
-      font-family: var(--font-display);
-      font-size: clamp(1.75rem, 4vw, 2.5rem); font-weight: 700;
-      color: var(--text-primary); margin-bottom: 1rem;
-    }
-    .feature-text {
-      font-size: 1rem; color: var(--text-secondary);
-      max-width: 550px; margin: 0 auto 2rem; line-height: 1.6;
-    }
-
-    /* Enneagram diagram placeholder */
-    .diagram-placeholder {
-      width: 280px; height: 280px; margin: 2rem auto;
-      position: relative;
-    }
-    .diagram-circle {
-      width: 100%; height: 100%;
-      border: 2px solid var(--border-color);
-      border-radius: 50%;
-      position: relative;
-    }
-    .dark .diagram-circle { border-color: var(--border-subtle); }
-    .diagram-dot {
-      position: absolute; width: 2.5rem; height: 2.5rem;
-      border-radius: 50%;
-      display: flex; align-items: center; justify-content: center;
-      font-family: var(--font-mono); font-size: 0.8rem; font-weight: 700;
-      transform: translate(-50%, -50%);
-      border: 2px solid; transition: all 0.2s ease;
-    }
-    .diagram-dot:hover { transform: translate(-50%, -50%) scale(1.15); }
-
-    .feature-points { display: flex; flex-direction: column; gap: 0.75rem; max-width: 300px; margin: 0 auto; }
+    .feature-title { font-family: var(--font-display); font-size: clamp(1.75rem, 4vw, 2.5rem); font-weight: 700; color: var(--text-primary); margin-bottom: 1rem; }
+    .feature-text { font-size: 1rem; color: var(--text-secondary); max-width: 550px; margin: 0 auto 2rem; line-height: 1.6; }
+    .feature-points { display: flex; flex-direction: column; gap: 0.75rem; max-width: 300px; margin: 2rem auto 0; }
     .point { display: flex; align-items: center; gap: 0.75rem; font-size: 0.95rem; color: var(--text-secondary); }
     .point-icon { color: var(--primary); }
     .point strong { color: var(--text-primary); }
 
     /* ===========================================
-       COACHING SECTION
+       COACHING
        =========================================== */
-    .coaching-card {
-      position: relative;
-      background: var(--bg-surface);
-      border: 1px solid rgba(245, 158, 11, 0.2);
-      border-radius: 20px; overflow: hidden;
-    }
-    .dark .coaching-card {
-      background: linear-gradient(180deg, var(--bg-deep) 0%, var(--bg-surface) 100%);
-    }
-    .coaching-glow {
-      position: absolute; top: -50%; left: 50%; transform: translateX(-50%);
-      width: 120%; height: 100%;
-      background: radial-gradient(ellipse at center, rgba(245, 158, 11, 0.1) 0%, transparent 60%);
-      pointer-events: none;
-    }
-    .coaching-content {
-      position: relative; padding: 2.5rem 1.5rem; text-align: center;
-    }
+    .coaching-card { position: relative; background: var(--bg-surface); border: 1px solid color-mix(in srgb, var(--secondary) 20%, transparent); border-radius: 20px; overflow: hidden; }
+    .dark .coaching-card { background: linear-gradient(180deg, var(--bg-deep) 0%, var(--bg-surface) 100%); }
+    .coaching-glow { position: absolute; top: -50%; left: 50%; transform: translateX(-50%); width: 120%; height: 100%; background: radial-gradient(ellipse at center, var(--secondary-subtle) 0%, transparent 60%); pointer-events: none; }
+    .coaching-content { position: relative; padding: 2.5rem 1.5rem; text-align: center; }
     @media (min-width: 640px) { .coaching-content { padding: 3.5rem 2rem; } }
-    .coaching-badge {
-      display: inline-flex; align-items: center; gap: 0.5rem;
-      padding: 0.35rem 0.75rem;
-      background: var(--primary-subtle);
-      border: 1px solid rgba(245, 158, 11, 0.2);
-      border-radius: 4px; margin-bottom: 1rem;
-      font-family: var(--font-mono); font-size: 0.7rem;
-      letter-spacing: 0.1em; color: var(--primary-light);
-    }
-    .dark .coaching-badge { color: var(--primary-lighter); }
-    .badge-icon { font-size: 0.8rem; }
-    .coaching-title {
-      font-family: var(--font-display);
-      font-size: clamp(1.5rem, 4vw, 2rem); font-weight: 700;
-      color: var(--text-primary); margin-bottom: 0.75rem;
-    }
-    .coaching-desc {
-      font-size: 1rem; color: var(--text-secondary);
-      max-width: 500px; margin: 0 auto 1.5rem; line-height: 1.6;
-    }
-    .coaching-features {
-      list-style: none; padding: 0; margin: 0 auto 1.5rem; max-width: 350px; text-align: left;
-    }
-    .coaching-features li {
-      display: flex; align-items: center; gap: 0.75rem;
-      padding: 0.5rem 0; font-size: 0.9rem; color: var(--text-secondary);
-    }
-    .feature-check { color: var(--primary); font-weight: 700; }
+    .coaching-badge { display: inline-flex; align-items: center; gap: 0.5rem; padding: 0.35rem 0.75rem; background: var(--secondary-subtle); border: 1px solid color-mix(in srgb, var(--secondary) 20%, transparent); border-radius: 4px; margin-bottom: 1rem; font-family: var(--font-mono); font-size: 0.7rem; letter-spacing: 0.1em; color: var(--secondary); }
+    .coaching-title { font-family: var(--font-display); font-size: clamp(1.5rem, 4vw, 2rem); font-weight: 700; color: var(--text-primary); margin-bottom: 0.75rem; }
+    .coaching-desc { font-size: 1rem; color: var(--text-secondary); max-width: 500px; margin: 0 auto 1.5rem; line-height: 1.6; }
+    .coaching-features { list-style: none; padding: 0; margin: 0 auto 1.5rem; max-width: 350px; text-align: left; }
+    .coaching-features li { display: flex; align-items: center; gap: 0.75rem; padding: 0.5rem 0; font-size: 0.9rem; color: var(--text-secondary); }
+    .feature-check { color: var(--secondary); font-weight: 700; }
     .coaching-note { margin-top: 1rem; font-size: 0.8rem; color: var(--text-muted); }
 
     /* ===========================================
-       FOUNDER SECTION
+       FOUNDER
        =========================================== */
     .prose-section { margin: 1rem 0 2rem; padding: 2rem 0; }
-    .founder-card {
-      display: grid; gap: 1.5rem; align-items: center;
-      padding: 1.5rem;
-      background: var(--bg-surface);
-      border: 1px solid var(--border-color);
-      border-radius: 20px;
-    }
-    .dark .founder-card {
-      background: linear-gradient(135deg, rgba(245, 158, 11, 0.06) 0%, rgba(234, 88, 12, 0.04) 50%, var(--bg-deep) 100%);
-      border-color: rgba(245, 158, 11, 0.18);
-    }
-    .founder-photo {
-      width: 180px; height: 180px; object-fit: cover; border-radius: 24px;
-      border: 1px solid rgba(245, 158, 11, 0.25);
-      box-shadow: var(--glow-sm);
-    }
-    .founder-content h2 {
-      padding: 0; margin: 0 0 0.9rem;
-      font-family: var(--font-display);
-      font-size: clamp(1.5rem, 3vw, 2rem); color: var(--text-primary);
-    }
+    .founder-card { display: grid; gap: 1.5rem; align-items: center; padding: 1.5rem; background: var(--bg-surface); border: 1px solid var(--border-color); border-radius: 20px; }
+    .dark .founder-card { background: linear-gradient(135deg, var(--primary-subtle) 0%, var(--accent-subtle) 50%, var(--bg-deep) 100%); border-color: color-mix(in srgb, var(--primary) 18%, transparent); }
+    .founder-placeholder { width: 180px; height: 180px; border-radius: 24px; background: var(--bg-elevated); display: flex; align-items: center; justify-content: center; font-size: 3rem; border: 1px solid color-mix(in srgb, var(--primary) 25%, transparent); color: var(--text-muted); }
+    .founder-content h2 { padding: 0; margin: 0 0 0.9rem; font-family: var(--font-display); font-size: clamp(1.5rem, 3vw, 2rem); color: var(--text-primary); }
     .founder-content p { margin: 0; color: var(--text-secondary); line-height: 1.7; }
     .founder-content a { color: var(--primary); text-decoration: underline; }
     @media (min-width: 768px) { .founder-card { grid-template-columns: 180px 1fr; padding: 2rem; } }
 
     /* ===========================================
-       FAQ SECTION
+       FAQ
        =========================================== */
     .prose-header { text-align: left; max-width: 760px; margin-bottom: 1.5rem; }
     .faq-grid { display: grid; gap: 1rem; }
     @media (min-width: 768px) { .faq-grid { grid-template-columns: repeat(2, 1fr); } }
-    .faq-card {
-      background: var(--bg-surface);
-      border: 1px solid var(--border-color);
-      border-radius: 16px; padding: 1.35rem;
-    }
-    .dark .faq-card {
-      background: linear-gradient(180deg, var(--bg-deep) 0%, var(--bg-surface) 100%);
-      border-color: var(--border-subtle);
-    }
-    .faq-card h3 {
-      padding: 0; margin: 0 0 0.75rem;
-      font-family: var(--font-display); font-size: 1.2rem; color: var(--text-primary);
-    }
+    .faq-card { background: var(--bg-surface); border: 1px solid var(--border-color); border-radius: 16px; padding: 1.35rem; }
+    .dark .faq-card { background: linear-gradient(180deg, var(--bg-deep) 0%, var(--bg-surface) 100%); border-color: var(--border-subtle); }
+    .faq-card h3 { padding: 0; margin: 0 0 0.75rem; font-family: var(--font-display); font-size: 1.2rem; color: var(--text-primary); }
     .faq-card p { margin: 0; color: var(--text-secondary); line-height: 1.7; }
 
     /* ===========================================
-       FINAL CTA SECTION
+       FINAL CTA
        =========================================== */
-    .final-section {
-      position: relative; margin: 2rem 0 4rem;
-      border-radius: 20px;
-      background: var(--bg-surface);
-      border: 1px solid var(--border-color);
-      overflow: hidden;
-    }
-    .dark .final-section {
-      background: linear-gradient(135deg, rgba(245, 158, 11, 0.1) 0%, rgba(234, 88, 12, 0.08) 50%, var(--bg-deep) 100%);
-      border-color: rgba(245, 158, 11, 0.25);
-    }
-    .final-glow {
-      position: absolute; top: -40%; left: 50%; transform: translateX(-50%);
-      width: 140%; height: 100%;
-      background: radial-gradient(ellipse at center, var(--primary-glow) 0%, transparent 60%);
-      pointer-events: none; opacity: 0.4;
-    }
+    .final-section { position: relative; margin: 2rem 0 4rem; border-radius: 20px; background: var(--bg-surface); border: 1px solid var(--border-color); overflow: hidden; }
+    .dark .final-section { background: linear-gradient(135deg, var(--primary-subtle) 0%, var(--secondary-subtle) 50%, var(--bg-deep) 100%); border-color: color-mix(in srgb, var(--primary) 25%, transparent); }
+    .final-glow { position: absolute; top: -40%; left: 50%; transform: translateX(-50%); width: 140%; height: 100%; background: radial-gradient(ellipse at center, var(--primary-glow) 0%, transparent 60%); pointer-events: none; opacity: 0.4; }
     .final-inner { position: relative; padding: 3rem 1.5rem; text-align: center; }
     @media (min-width: 640px) { .final-inner { padding: 4rem 2rem; } }
-    .final-badge {
-      display: inline-flex; align-items: center; gap: 0.5rem;
-      padding: 0.35rem 0.75rem;
-      background: var(--primary-subtle);
-      border: 1px solid rgba(245, 158, 11, 0.2);
-      border-radius: 4px; margin-bottom: 1rem;
-      font-family: var(--font-mono); font-size: 0.7rem;
-      letter-spacing: 0.1em; color: var(--primary);
-    }
-    .badge-pulse {
-      width: 6px; height: 6px; background: var(--primary);
-      border-radius: 50%; animation: pulse-dot 1.5s ease-in-out infinite;
-    }
+    .final-badge { display: inline-flex; align-items: center; gap: 0.5rem; padding: 0.35rem 0.75rem; background: var(--primary-subtle); border: 1px solid color-mix(in srgb, var(--primary) 20%, transparent); border-radius: 4px; margin-bottom: 1rem; font-family: var(--font-mono); font-size: 0.7rem; letter-spacing: 0.1em; color: var(--primary); }
+    .badge-pulse { width: 6px; height: 6px; background: var(--primary); border-radius: 50%; animation: pulse-dot 1.5s ease-in-out infinite; }
     @keyframes pulse-dot { 0%,100% { opacity: 1; } 50% { opacity: 0.4; } }
-    .final-title {
-      font-family: var(--font-display);
-      font-size: clamp(1.75rem, 4vw, 2.5rem); font-weight: 700;
-      color: var(--text-primary); margin-bottom: 0.5rem;
-    }
+    .final-title { font-family: var(--font-display); font-size: clamp(1.75rem, 4vw, 2.5rem); font-weight: 700; color: var(--text-primary); margin-bottom: 0.5rem; }
     .final-desc { font-size: 1rem; color: var(--text-secondary); margin-bottom: 1.5rem; }
-    .final-actions {
-      display: flex; flex-direction: column; gap: 1rem;
-      justify-content: center; align-items: center;
-    }
+    .final-actions { display: flex; flex-direction: column; gap: 1rem; justify-content: center; align-items: center; }
     @media (min-width: 480px) { .final-actions { flex-direction: row; } }
 
-    /* ===========================================
-       FOOTER
-       =========================================== */
-    .footer {
-      padding: 2rem 1.5rem; text-align: center;
-      border-top: 1px solid var(--border-color);
-      color: var(--text-muted); font-size: 0.8rem;
-    }
-
-    /* ===========================================
-       COLOR SWATCHES (preview helper)
-       =========================================== */
-    .swatch-section {
-      padding: 3rem 0;
-      border-top: 1px solid var(--border-color);
-    }
-    .swatch-grid {
-      display: grid; grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
-      gap: 0.75rem; margin-top: 1.5rem;
-    }
-    .swatch {
-      border-radius: 12px; overflow: hidden;
-      border: 1px solid var(--border-color);
-    }
-    .swatch-color {
-      height: 60px;
-    }
-    .swatch-label {
-      padding: 0.5rem;
-      font-family: var(--font-mono); font-size: 0.6rem;
-      background: var(--bg-surface);
-      color: var(--text-secondary);
-    }
-    .swatch-label strong { display: block; color: var(--text-primary); font-size: 0.65rem; margin-bottom: 0.15rem; }
+    /* Footer */
+    .footer { padding: 2rem 1.5rem; text-align: center; border-top: 1px solid var(--border-color); color: var(--text-muted); font-size: 0.8rem; }
 
     /* Reduced motion */
-    @media (prefers-reduced-motion: reduce) {
-      *, *::before, *::after {
-        animation-duration: 0.001ms !important;
-        transition-duration: 0.001ms !important;
-      }
-    }
+    @media (prefers-reduced-motion: reduce) { *, *::before, *::after { animation-duration: 0.001ms !important; transition-duration: 0.001ms !important; } }
   </style>
 </head>
 <body>
-  <!-- Theme Toggle Bar -->
-  <div class="theme-toggle-bar">
-    <span>WARM TECH THEME PREVIEW</span>
+  <!-- Scheme Picker -->
+  <div class="scheme-picker">
+    <span class="picker-label">SCHEME:</span>
+    <button class="scheme-btn" data-scheme="rose-gold" onclick="setScheme('rose-gold')">
+      <span class="scheme-dot" style="background:linear-gradient(135deg,#E11D48,#D97706)"></span> Rose Gold
+    </button>
+    <button class="scheme-btn" data-scheme="sage-copper" onclick="setScheme('sage-copper')">
+      <span class="scheme-dot" style="background:linear-gradient(135deg,#059669,#B45309)"></span> Sage & Copper
+    </button>
+    <button class="scheme-btn" data-scheme="warm-indigo" onclick="setScheme('warm-indigo')">
+      <span class="scheme-dot" style="background:linear-gradient(135deg,#4F46E5,#E11D48)"></span> Warm Indigo
+    </button>
+    <button class="scheme-btn" data-scheme="burgundy-gold" onclick="setScheme('burgundy-gold')">
+      <span class="scheme-dot" style="background:linear-gradient(135deg,#9D174D,#D4AF37)"></span> Burgundy & Gold
+    </button>
+    <button class="scheme-btn active" data-scheme="teal" onclick="setScheme('teal')">
+      <span class="scheme-dot" style="background:linear-gradient(135deg,#0D9488,#E11D48)"></span> Teal & Rose
+    </button>
+    <div class="picker-divider"></div>
     <button class="toggle-btn" onclick="toggleTheme()">
       <span id="theme-icon">☀️</span>
-      <span id="theme-label">Switch to Light</span>
+      <span id="theme-label">Light</span>
     </button>
   </div>
 
   <div class="page-wrapper">
-    <!-- Backgrounds -->
     <div class="bg-void"></div>
     <div class="bg-ambient"></div>
     <div class="bg-grid"></div>
 
-    <!-- Header -->
     <header class="header">
       <div class="logo">9takes</div>
       <nav class="nav-links">
@@ -888,7 +667,7 @@
     </header>
 
     <div class="content">
-      <!-- ========== HERO ========== -->
+      <!-- HERO -->
       <section class="hero">
         <div class="hero-inner">
           <div class="tagline-badge">
@@ -900,84 +679,56 @@
             <span class="title-glow">Emotions Behind</span>
             <span class="title-line">Every Take</span>
           </h1>
-          <p class="hero-desc">
-            See what you're missing. Know what to do about it. Feel understood along the way.
-          </p>
+          <p class="hero-desc">See what you're missing. Know what to do about it. Feel understood along the way.</p>
         </div>
-
-        <!-- Quest Card -->
         <a href="#" class="quest-card">
           <div class="quest-header">
             <div class="quest-badge">
               <span class="quest-icon">!</span>
               <span class="quest-label">TODAY'S QUESTION</span>
             </div>
-            <div class="quest-responses">
-              <span class="response-count">24</span>
-              <span>responses</span>
-            </div>
+            <div class="quest-responses"><span class="response-count">24</span><span>responses</span></div>
           </div>
           <h2 class="quest-title">What do you secretly judge other people for?</h2>
-          <div class="quest-cta">
-            <span>Give Your Take</span>
-            <span class="cta-arrow">→</span>
-          </div>
+          <div class="quest-cta"><span>Give Your Take</span><span class="cta-arrow">→</span></div>
         </a>
-
-        <div class="hero-actions">
-          <a href="#" class="btn-outline">Browse All Questions</a>
-        </div>
+        <div class="hero-actions"><a href="#" class="btn-outline">Browse All Questions</a></div>
         <p class="hero-note">Free to join. No personality test required.</p>
       </section>
 
-      <!-- ========== THREE PILLARS ========== -->
+      <!-- PILLARS -->
       <section class="section pillars-section">
         <header class="section-header">
-          <div class="section-badge">
-            <span class="badge-dot"></span>
-            <span>WHY 9TAKES EXISTS</span>
-          </div>
+          <div class="section-badge"><span class="badge-dot"></span><span>WHY 9TAKES EXISTS</span></div>
           <h2 class="section-title">Every Person Wants 3 Things</h2>
           <p class="section-desc">These map to the 3 types of human intelligence the Enneagram reveals.</p>
         </header>
-
         <div class="pillars-grid">
           <a href="#" class="pillar-card" style="--pillar-color: var(--pillar-head)">
             <div class="pillar-bg"></div>
             <div class="pillar-content">
               <div class="pillar-icon">◉</div>
-              <div class="pillar-triad">
-                <span class="triad-label">Head Center</span>
-                <span class="triad-types">Types 5, 6, 7</span>
-              </div>
+              <div class="pillar-triad"><span class="triad-label">Head Center</span><span class="triad-types">Types 5, 6, 7</span></div>
               <h3 class="pillar-title">See It Coming</h3>
               <p class="pillar-desc">Most bad outcomes aren't from stupidity — they're from blind spots. Your blind spot is someone else's obvious.</p>
               <span class="pillar-tagline">Reveal what you're missing →</span>
             </div>
           </a>
-
           <a href="#" class="pillar-card" style="--pillar-color: var(--pillar-gut)">
             <div class="pillar-bg"></div>
             <div class="pillar-content">
               <div class="pillar-icon">⚡</div>
-              <div class="pillar-triad">
-                <span class="triad-label">Gut Center</span>
-                <span class="triad-types">Types 8, 9, 1</span>
-              </div>
+              <div class="pillar-triad"><span class="triad-label">Gut Center</span><span class="triad-types">Types 8, 9, 1</span></div>
               <h3 class="pillar-title">Know What To Do</h3>
               <p class="pillar-desc">Personality insight is useless if it stays abstract. We turn understanding into the actual move.</p>
               <span class="pillar-tagline">Equip yourself to act →</span>
             </div>
           </a>
-
           <a href="#" class="pillar-card" style="--pillar-color: var(--pillar-heart)">
             <div class="pillar-bg"></div>
             <div class="pillar-content">
               <div class="pillar-icon">◈</div>
-              <div class="pillar-triad">
-                <span class="triad-label">Heart Center</span>
-                <span class="triad-types">Types 2, 3, 4</span>
-              </div>
+              <div class="pillar-triad"><span class="triad-label">Heart Center</span><span class="triad-types">Types 2, 3, 4</span></div>
               <h3 class="pillar-title">Feel Understood</h3>
               <p class="pillar-desc">Your reaction isn't broken — it's one of 9 valid emotional realities. Every type's response makes sense.</p>
               <span class="pillar-tagline">Connect through understanding →</span>
@@ -986,167 +737,35 @@
         </div>
       </section>
 
-      <!-- ========== 9 TYPES GRID ========== -->
+      <!-- 9 TYPES -->
       <section class="section types-section">
         <header class="section-header">
-          <div class="section-badge">
-            <span class="badge-dot"></span>
-            <span>THE 9 PERSPECTIVES</span>
-          </div>
+          <div class="section-badge"><span class="badge-dot"></span><span>THE 9 PERSPECTIVES</span></div>
           <h2 class="section-title">Master the 9 Types</h2>
           <p class="section-desc">Each personality type sees different details. Learn their patterns, decode people faster.</p>
         </header>
-
         <div class="types-grid">
-          <a href="#" class="type-card" style="--type-color: var(--type-1)">
-            <div class="card-bg"></div>
-            <div class="card-content">
-              <div class="type-number">1</div>
-              <div class="avatar-placeholder"><span>1</span></div>
-              <div class="type-info">
-                <div class="type-title-text">Knight of Order</div>
-                <div class="type-name">The Perfectionist</div>
-              </div>
-              <div class="type-meta"><span class="meta-value">Taylor Swift</span></div>
-            </div>
-          </a>
-
-          <a href="#" class="type-card" style="--type-color: var(--type-2)">
-            <div class="card-bg"></div>
-            <div class="card-content">
-              <div class="type-number">2</div>
-              <div class="avatar-placeholder"><span>2</span></div>
-              <div class="type-info">
-                <div class="type-title-text">Heart Guardian</div>
-                <div class="type-name">The Helper</div>
-              </div>
-              <div class="type-meta"><span class="meta-value">Dolly Parton</span></div>
-            </div>
-          </a>
-
-          <a href="#" class="type-card" style="--type-color: var(--type-3)">
-            <div class="card-bg"></div>
-            <div class="card-content">
-              <div class="type-number">3</div>
-              <div class="avatar-placeholder"><span>3</span></div>
-              <div class="type-info">
-                <div class="type-title-text">Victory Blade</div>
-                <div class="type-name">The Achiever</div>
-              </div>
-              <div class="type-meta"><span class="meta-value">Beyoncé</span></div>
-            </div>
-          </a>
-
-          <a href="#" class="type-card" style="--type-color: var(--type-4)">
-            <div class="card-bg"></div>
-            <div class="card-content">
-              <div class="type-number">4</div>
-              <div class="avatar-placeholder"><span>4</span></div>
-              <div class="type-info">
-                <div class="type-title-text">Soul Weaver</div>
-                <div class="type-name">The Individualist</div>
-              </div>
-              <div class="type-meta"><span class="meta-value">Billie Eilish</span></div>
-            </div>
-          </a>
-
-          <a href="#" class="type-card" style="--type-color: var(--type-5)">
-            <div class="card-bg"></div>
-            <div class="card-content">
-              <div class="type-number">5</div>
-              <div class="avatar-placeholder"><span>5</span></div>
-              <div class="type-info">
-                <div class="type-title-text">Mind Phantom</div>
-                <div class="type-name">The Investigator</div>
-              </div>
-              <div class="type-meta"><span class="meta-value">Elon Musk</span></div>
-            </div>
-          </a>
-
-          <a href="#" class="type-card" style="--type-color: var(--type-6)">
-            <div class="card-bg"></div>
-            <div class="card-content">
-              <div class="type-number">6</div>
-              <div class="avatar-placeholder"><span>6</span></div>
-              <div class="type-info">
-                <div class="type-title-text">Iron Guard</div>
-                <div class="type-name">The Loyalist</div>
-              </div>
-              <div class="type-meta"><span class="meta-value">Tom Hanks</span></div>
-            </div>
-          </a>
-
-          <a href="#" class="type-card" style="--type-color: var(--type-7)">
-            <div class="card-bg"></div>
-            <div class="card-content">
-              <div class="type-number">7</div>
-              <div class="avatar-placeholder"><span>7</span></div>
-              <div class="type-info">
-                <div class="type-title-text">Storm Rider</div>
-                <div class="type-name">The Enthusiast</div>
-              </div>
-              <div class="type-meta"><span class="meta-value">Robin Williams</span></div>
-            </div>
-          </a>
-
-          <a href="#" class="type-card" style="--type-color: var(--type-8)">
-            <div class="card-bg"></div>
-            <div class="card-content">
-              <div class="type-number">8</div>
-              <div class="avatar-placeholder"><span>8</span></div>
-              <div class="type-info">
-                <div class="type-title-text">War Commander</div>
-                <div class="type-name">The Challenger</div>
-              </div>
-              <div class="type-meta"><span class="meta-value">Gordon Ramsay</span></div>
-            </div>
-          </a>
-
-          <a href="#" class="type-card" style="--type-color: var(--type-9)">
-            <div class="card-bg"></div>
-            <div class="card-content">
-              <div class="type-number">9</div>
-              <div class="avatar-placeholder"><span>9</span></div>
-              <div class="type-info">
-                <div class="type-title-text">Harmony Sage</div>
-                <div class="type-name">The Peacemaker</div>
-              </div>
-              <div class="type-meta"><span class="meta-value">Keanu Reeves</span></div>
-            </div>
-          </a>
+          <a href="#" class="type-card" style="--type-color: var(--type-1)"><div class="card-bg"></div><div class="card-content"><div class="type-number">1</div><div class="avatar-placeholder"><span>1</span></div><div class="type-info"><div class="type-title-text">Knight of Order</div><div class="type-name">The Perfectionist</div></div><div class="type-meta"><span class="meta-value">Taylor Swift</span></div></div></a>
+          <a href="#" class="type-card" style="--type-color: var(--type-2)"><div class="card-bg"></div><div class="card-content"><div class="type-number">2</div><div class="avatar-placeholder"><span>2</span></div><div class="type-info"><div class="type-title-text">Heart Guardian</div><div class="type-name">The Helper</div></div><div class="type-meta"><span class="meta-value">Dolly Parton</span></div></div></a>
+          <a href="#" class="type-card" style="--type-color: var(--type-3)"><div class="card-bg"></div><div class="card-content"><div class="type-number">3</div><div class="avatar-placeholder"><span>3</span></div><div class="type-info"><div class="type-title-text">Victory Blade</div><div class="type-name">The Achiever</div></div><div class="type-meta"><span class="meta-value">Beyoncé</span></div></div></a>
+          <a href="#" class="type-card" style="--type-color: var(--type-4)"><div class="card-bg"></div><div class="card-content"><div class="type-number">4</div><div class="avatar-placeholder"><span>4</span></div><div class="type-info"><div class="type-title-text">Soul Weaver</div><div class="type-name">The Individualist</div></div><div class="type-meta"><span class="meta-value">Billie Eilish</span></div></div></a>
+          <a href="#" class="type-card" style="--type-color: var(--type-5)"><div class="card-bg"></div><div class="card-content"><div class="type-number">5</div><div class="avatar-placeholder"><span>5</span></div><div class="type-info"><div class="type-title-text">Mind Phantom</div><div class="type-name">The Investigator</div></div><div class="type-meta"><span class="meta-value">Elon Musk</span></div></div></a>
+          <a href="#" class="type-card" style="--type-color: var(--type-6)"><div class="card-bg"></div><div class="card-content"><div class="type-number">6</div><div class="avatar-placeholder"><span>6</span></div><div class="type-info"><div class="type-title-text">Iron Guard</div><div class="type-name">The Loyalist</div></div><div class="type-meta"><span class="meta-value">Tom Hanks</span></div></div></a>
+          <a href="#" class="type-card" style="--type-color: var(--type-7)"><div class="card-bg"></div><div class="card-content"><div class="type-number">7</div><div class="avatar-placeholder"><span>7</span></div><div class="type-info"><div class="type-title-text">Storm Rider</div><div class="type-name">The Enthusiast</div></div><div class="type-meta"><span class="meta-value">Robin Williams</span></div></div></a>
+          <a href="#" class="type-card" style="--type-color: var(--type-8)"><div class="card-bg"></div><div class="card-content"><div class="type-number">8</div><div class="avatar-placeholder"><span>8</span></div><div class="type-info"><div class="type-title-text">War Commander</div><div class="type-name">The Challenger</div></div><div class="type-meta"><span class="meta-value">Gordon Ramsay</span></div></div></a>
+          <a href="#" class="type-card" style="--type-color: var(--type-9)"><div class="card-bg"></div><div class="card-content"><div class="type-number">9</div><div class="avatar-placeholder"><span>9</span></div><div class="type-info"><div class="type-title-text">Harmony Sage</div><div class="type-name">The Peacemaker</div></div><div class="type-meta"><span class="meta-value">Keanu Reeves</span></div></div></a>
         </div>
-
         <div class="section-ctas">
           <a href="#" class="btn-outline">Find Your Type →</a>
           <a href="#" class="btn-primary"><span>Explore All Famous Types</span></a>
         </div>
       </section>
 
-      <!-- ========== WHY ENNEAGRAM ========== -->
+      <!-- WHY ENNEAGRAM -->
       <section class="feature-section">
         <div class="feature-inner">
           <h2 class="feature-title">Why the <span class="text-glow">Enneagram</span>?</h2>
-          <p class="feature-text">
-            Your brain defaults to <span class="text-accent">one lens</span>, missing 8 others.
-            The Enneagram maps <strong>3 types of intelligence</strong> — Head (foresight), Gut (agency),
-            Heart (belonging) — across 9 personality types. Everyone leads with one. All 3 matter.
-          </p>
-
-          <!-- Enneagram diagram placeholder -->
-          <div class="diagram-placeholder">
-            <div class="diagram-circle">
-              <div class="diagram-dot" style="top:3%; left:50%; background: color-mix(in srgb, var(--type-9) 20%, var(--bg-surface)); color: var(--type-9); border-color: var(--type-9);">9</div>
-              <div class="diagram-dot" style="top:16%; left:80%; background: color-mix(in srgb, var(--type-1) 20%, var(--bg-surface)); color: var(--type-1); border-color: var(--type-1);">1</div>
-              <div class="diagram-dot" style="top:43%; left:97%; background: color-mix(in srgb, var(--type-2) 20%, var(--bg-surface)); color: var(--type-2); border-color: var(--type-2);">2</div>
-              <div class="diagram-dot" style="top:75%; left:93%; background: color-mix(in srgb, var(--type-3) 20%, var(--bg-surface)); color: var(--type-3); border-color: var(--type-3);">3</div>
-              <div class="diagram-dot" style="top:95%; left:68%; background: color-mix(in srgb, var(--type-4) 20%, var(--bg-surface)); color: var(--type-4); border-color: var(--type-4);">4</div>
-              <div class="diagram-dot" style="top:95%; left:32%; background: color-mix(in srgb, var(--type-5) 20%, var(--bg-surface)); color: var(--type-5); border-color: var(--type-5);">5</div>
-              <div class="diagram-dot" style="top:75%; left:7%; background: color-mix(in srgb, var(--type-6) 20%, var(--bg-surface)); color: var(--type-6); border-color: var(--type-6);">6</div>
-              <div class="diagram-dot" style="top:43%; left:3%; background: color-mix(in srgb, var(--type-7) 20%, var(--bg-surface)); color: var(--type-7); border-color: var(--type-7);">7</div>
-              <div class="diagram-dot" style="top:16%; left:20%; background: color-mix(in srgb, var(--type-8) 20%, var(--bg-surface)); color: var(--type-8); border-color: var(--type-8);">8</div>
-            </div>
-          </div>
-
+          <p class="feature-text">Your brain defaults to <span class="text-accent">one lens</span>, missing 8 others. The Enneagram maps <strong>3 types of intelligence</strong> — Head (foresight), Gut (agency), Heart (belonging) — across 9 personality types.</p>
           <div class="feature-points">
             <div class="point"><span class="point-icon">▸</span><span>Not behavior. <strong>Motivation.</strong></span></div>
             <div class="point"><span class="point-icon">▸</span><span>Not stereotypes. <strong>Patterns.</strong></span></div>
@@ -1155,20 +774,14 @@
         </div>
       </section>
 
-      <!-- ========== COACHING ========== -->
+      <!-- COACHING -->
       <section class="section">
         <div class="coaching-card">
           <div class="coaching-glow"></div>
           <div class="coaching-content">
-            <div class="coaching-badge">
-              <span class="badge-icon">★</span>
-              <span>1-ON-1 SESSIONS</span>
-            </div>
+            <div class="coaching-badge"><span>★</span><span>1-ON-1 SESSIONS</span></div>
             <h2 class="coaching-title">Ready to Go Deeper?</h2>
-            <p class="coaching-desc">
-              Apply Enneagram insights directly to your situation. Personalized coaching for
-              relationships, career decisions, or personal growth.
-            </p>
+            <p class="coaching-desc">Apply Enneagram insights directly to your situation. Personalized coaching for relationships, career decisions, or personal growth.</p>
             <ul class="coaching-features">
               <li><span class="feature-check">✓</span><span>Identify your type with precision</span></li>
               <li><span class="feature-check">✓</span><span>Map your triggers and growth edges</span></li>
@@ -1180,64 +793,37 @@
         </div>
       </section>
 
-      <!-- ========== FOUNDER ========== -->
+      <!-- FOUNDER -->
       <section class="prose-section">
         <div class="founder-card">
-          <div style="width:180px;height:180px;border-radius:24px;background:var(--bg-elevated);display:flex;align-items:center;justify-content:center;font-size:3rem;border:1px solid rgba(245,158,11,0.25);">DJ</div>
+          <div class="founder-placeholder">DJ</div>
           <div class="founder-content">
-            <div class="section-badge">
-              <span class="badge-dot"></span>
-              <span>ABOUT THE FOUNDER</span>
-            </div>
+            <div class="section-badge"><span class="badge-dot"></span><span>ABOUT THE FOUNDER</span></div>
             <h2>Built by DJ Wayne to make personality insight more practical</h2>
-            <p>
-              9takes was created by <a href="#">DJ Wayne</a>, a former USMC infantry Marine
-              turned software entrepreneur. The site treats personality analysis as a tool for
-              understanding motive — not a shortcut for judging people — and combines Enneagram
-              education, practical guides, and public-figure analysis to help readers get better at
-              reading people and handling conflict.
-            </p>
+            <p>9takes was created by <a href="#">DJ Wayne</a>, a former USMC infantry Marine turned software entrepreneur. The site treats personality analysis as a tool for understanding motive — not a shortcut for judging people.</p>
           </div>
         </div>
       </section>
 
-      <!-- ========== FAQ ========== -->
+      <!-- FAQ -->
       <section class="prose-section">
         <div class="section-header prose-header">
-          <div class="section-badge">
-            <span class="badge-dot"></span>
-            <span>FAQ</span>
-          </div>
+          <div class="section-badge"><span class="badge-dot"></span><span>FAQ</span></div>
           <h2 class="section-title">Common Questions About 9takes</h2>
         </div>
         <div class="faq-grid">
-          <article class="faq-card">
-            <h3>What is 9takes?</h3>
-            <p>An Enneagram-based platform that shows how all nine personality types interpret the same situation — giving you better personality analysis and a clearer read on social dynamics.</p>
-          </article>
-          <article class="faq-card">
-            <h3>How does the give-first system work?</h3>
-            <p>You answer first, then read others. This captures your unedited instinct before groupthink and lets you compare your take with nine distinct perspectives.</p>
-          </article>
-          <article class="faq-card">
-            <h3>What is the Enneagram, in plain English?</h3>
-            <p>A personality framework built around nine core strategies for navigating anger, fear, and shame. It explains motivation, not just behavior.</p>
-          </article>
-          <article class="faq-card">
-            <h3>Who is 9takes for?</h3>
-            <p>Anyone trying to understand people better — coaches, founders, partners, and curious readers who care about conflict, dating, work dynamics, or self-awareness.</p>
-          </article>
+          <article class="faq-card"><h3>What is 9takes?</h3><p>An Enneagram-based platform that shows how all nine personality types interpret the same situation — giving you better personality analysis and a clearer read on social dynamics.</p></article>
+          <article class="faq-card"><h3>How does the give-first system work?</h3><p>You answer first, then read others. This captures your unedited instinct before groupthink and lets you compare your take with nine distinct perspectives.</p></article>
+          <article class="faq-card"><h3>What is the Enneagram, in plain English?</h3><p>A personality framework built around nine core strategies for navigating anger, fear, and shame. It explains motivation, not just behavior.</p></article>
+          <article class="faq-card"><h3>Who is 9takes for?</h3><p>Anyone trying to understand people better — coaches, founders, partners, and curious readers who care about conflict, dating, work dynamics, or self-awareness.</p></article>
         </div>
       </section>
 
-      <!-- ========== FINAL CTA ========== -->
+      <!-- FINAL CTA -->
       <section class="final-section">
         <div class="final-glow"></div>
         <div class="final-inner">
-          <div class="final-badge">
-            <span class="badge-pulse"></span>
-            <span>START HERE</span>
-          </div>
+          <div class="final-badge"><span class="badge-pulse"></span><span>START HERE</span></div>
           <h2 class="final-title">See. Act. <span class="text-glow">Connect.</span></h2>
           <p class="final-desc">See what you're missing. Know what to do. Feel understood.</p>
           <div class="final-actions">
@@ -1246,84 +832,29 @@
           </div>
         </div>
       </section>
-
-      <!-- ========== COLOR SWATCHES ========== -->
-      <section class="swatch-section">
-        <header class="section-header">
-          <h2 class="section-title">Color Palette Reference</h2>
-          <p class="section-desc">Toggle light/dark to see both modes.</p>
-        </header>
-
-        <h3 style="font-family:var(--font-display);font-size:1.25rem;color:var(--text-primary);margin-bottom:0.5rem;">Backgrounds</h3>
-        <div class="swatch-grid">
-          <div class="swatch"><div class="swatch-color" style="background:var(--bg-deepest)"></div><div class="swatch-label"><strong>bg-deepest</strong></div></div>
-          <div class="swatch"><div class="swatch-color" style="background:var(--bg-deep)"></div><div class="swatch-label"><strong>bg-deep</strong></div></div>
-          <div class="swatch"><div class="swatch-color" style="background:var(--bg-surface)"></div><div class="swatch-label"><strong>bg-surface</strong></div></div>
-          <div class="swatch"><div class="swatch-color" style="background:var(--bg-elevated)"></div><div class="swatch-label"><strong>bg-elevated</strong></div></div>
-          <div class="swatch"><div class="swatch-color" style="background:var(--bg-highlight)"></div><div class="swatch-label"><strong>bg-highlight</strong></div></div>
-        </div>
-
-        <h3 style="font-family:var(--font-display);font-size:1.25rem;color:var(--text-primary);margin:1.5rem 0 0.5rem;">Primary (Amber)</h3>
-        <div class="swatch-grid">
-          <div class="swatch"><div class="swatch-color" style="background:var(--primary-lightest)"></div><div class="swatch-label"><strong>lightest</strong></div></div>
-          <div class="swatch"><div class="swatch-color" style="background:var(--primary-lighter)"></div><div class="swatch-label"><strong>lighter</strong></div></div>
-          <div class="swatch"><div class="swatch-color" style="background:var(--primary-light)"></div><div class="swatch-label"><strong>light</strong></div></div>
-          <div class="swatch"><div class="swatch-color" style="background:var(--primary)"></div><div class="swatch-label"><strong>primary</strong></div></div>
-          <div class="swatch"><div class="swatch-color" style="background:var(--primary-dark)"></div><div class="swatch-label"><strong>dark</strong></div></div>
-          <div class="swatch"><div class="swatch-color" style="background:var(--primary-darker)"></div><div class="swatch-label"><strong>darker</strong></div></div>
-        </div>
-
-        <h3 style="font-family:var(--font-display);font-size:1.25rem;color:var(--text-primary);margin:1.5rem 0 0.5rem;">Secondary (Rose) & Accent (Terracotta)</h3>
-        <div class="swatch-grid">
-          <div class="swatch"><div class="swatch-color" style="background:var(--secondary-light)"></div><div class="swatch-label"><strong>secondary-light</strong></div></div>
-          <div class="swatch"><div class="swatch-color" style="background:var(--secondary)"></div><div class="swatch-label"><strong>secondary</strong></div></div>
-          <div class="swatch"><div class="swatch-color" style="background:var(--secondary-dark)"></div><div class="swatch-label"><strong>secondary-dark</strong></div></div>
-          <div class="swatch"><div class="swatch-color" style="background:var(--accent-light)"></div><div class="swatch-label"><strong>accent-light</strong></div></div>
-          <div class="swatch"><div class="swatch-color" style="background:var(--accent)"></div><div class="swatch-label"><strong>accent</strong></div></div>
-          <div class="swatch"><div class="swatch-color" style="background:var(--accent-dark)"></div><div class="swatch-label"><strong>accent-dark</strong></div></div>
-        </div>
-
-        <h3 style="font-family:var(--font-display);font-size:1.25rem;color:var(--text-primary);margin:1.5rem 0 0.5rem;">Enneagram Types</h3>
-        <div class="swatch-grid">
-          <div class="swatch"><div class="swatch-color" style="background:var(--type-1)"></div><div class="swatch-label"><strong>Type 1</strong>Perfectionist</div></div>
-          <div class="swatch"><div class="swatch-color" style="background:var(--type-2)"></div><div class="swatch-label"><strong>Type 2</strong>Helper</div></div>
-          <div class="swatch"><div class="swatch-color" style="background:var(--type-3)"></div><div class="swatch-label"><strong>Type 3</strong>Achiever</div></div>
-          <div class="swatch"><div class="swatch-color" style="background:var(--type-4)"></div><div class="swatch-label"><strong>Type 4</strong>Individualist</div></div>
-          <div class="swatch"><div class="swatch-color" style="background:var(--type-5)"></div><div class="swatch-label"><strong>Type 5</strong>Investigator</div></div>
-          <div class="swatch"><div class="swatch-color" style="background:var(--type-6)"></div><div class="swatch-label"><strong>Type 6</strong>Loyalist</div></div>
-          <div class="swatch"><div class="swatch-color" style="background:var(--type-7)"></div><div class="swatch-label"><strong>Type 7</strong>Enthusiast</div></div>
-          <div class="swatch"><div class="swatch-color" style="background:var(--type-8)"></div><div class="swatch-label"><strong>Type 8</strong>Challenger</div></div>
-          <div class="swatch"><div class="swatch-color" style="background:var(--type-9)"></div><div class="swatch-label"><strong>Type 9</strong>Peacemaker</div></div>
-        </div>
-
-        <h3 style="font-family:var(--font-display);font-size:1.25rem;color:var(--text-primary);margin:1.5rem 0 0.5rem;">Status</h3>
-        <div class="swatch-grid">
-          <div class="swatch"><div class="swatch-color" style="background:var(--success)"></div><div class="swatch-label"><strong>success</strong></div></div>
-          <div class="swatch"><div class="swatch-color" style="background:var(--warning)"></div><div class="swatch-label"><strong>warning</strong></div></div>
-          <div class="swatch"><div class="swatch-color" style="background:var(--error)"></div><div class="swatch-label"><strong>error</strong></div></div>
-          <div class="swatch"><div class="swatch-color" style="background:var(--info)"></div><div class="swatch-label"><strong>info</strong></div></div>
-        </div>
-      </section>
     </div>
 
-    <!-- Footer -->
-    <footer class="footer">
-      <p>© 2026 9takes · Warm Tech Theme Preview · Toggle light/dark above</p>
-    </footer>
+    <footer class="footer"><p>© 2026 9takes · Theme Options Preview · Pick a scheme and toggle light/dark above</p></footer>
   </div>
 
   <script>
+    function setScheme(scheme) {
+      document.documentElement.setAttribute('data-scheme', scheme);
+      document.querySelectorAll('.scheme-btn').forEach(btn => {
+        btn.classList.toggle('active', btn.getAttribute('data-scheme') === scheme);
+      });
+    }
     function toggleTheme() {
       const html = document.documentElement;
       const isDark = html.classList.contains('dark');
       if (isDark) {
         html.classList.remove('dark');
         document.getElementById('theme-icon').textContent = '🌙';
-        document.getElementById('theme-label').textContent = 'Switch to Dark';
+        document.getElementById('theme-label').textContent = 'Dark';
       } else {
         html.classList.add('dark');
         document.getElementById('theme-icon').textContent = '☀️';
-        document.getElementById('theme-label').textContent = 'Switch to Light';
+        document.getElementById('theme-label').textContent = 'Light';
       }
     }
   </script>

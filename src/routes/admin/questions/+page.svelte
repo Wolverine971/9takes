@@ -2,7 +2,6 @@
 <script lang="ts">
 	import type { PageData } from './$types';
 	import AdminQuestionItem from '$lib/components/questions/AdminQuestionItem.svelte';
-	import { invalidateAll } from '$app/navigation';
 	import Modal2, { getModal } from '$lib/components/atoms/Modal2.svelte';
 	import { convertDateToReadable } from '../../../utils/conversions';
 	import StatCard from '$lib/components/charts/StatCard.svelte';
@@ -146,13 +145,23 @@
 
 <div class="admin-questions">
 	<header class="page-header">
-		<div class="header-content">
+		<div class="header-copy">
+			<span class="page-kicker">Admin moderation</span>
 			<h1 class="page-title">Questions</h1>
+			<p class="page-subtitle">
+				Review formatting, filter moderation states, and open a cleaner detail editor for each
+				question.
+			</p>
+		</div>
+		<div class="header-actions">
+			<div class="header-pill">
+				<span class="header-pill-label">Visible now</span>
+				<strong class="header-pill-value">{displayedQuestions.length}</strong>
+			</div>
 			<a href="/admin/questions/hierarchy" class="hierarchy-btn">View Hierarchy</a>
 		</div>
 	</header>
 
-	<!-- Stats Grid -->
 	<section class="stats-section">
 		<div class="stats-grid">
 			<StatCard icon="❓" label="Total Questions" value={totalQuestions} color="primary" />
@@ -174,52 +183,74 @@
 		</div>
 	</section>
 
-	<!-- Questions List -->
 	<section class="questions-section">
 		<div class="questions-card">
 			<div class="card-header">
-				<h3 class="card-title">
-					All Questions
-					<span class="count-badge">{displayedQuestions.length}</span>
-				</h3>
-				<div class="controls">
-					<input
-						type="text"
-						placeholder="Search questions..."
-						bind:value={searchQuery}
-						class="search-input"
-					/>
-					<select bind:value={filterStatus} class="filter-select">
-						<option value="all">All Status</option>
-						<option value="active">Active</option>
-						<option value="flagged">Flagged</option>
-						<option value="removed">Removed</option>
-						<optgroup label="AI Tags">
-							<option value="tagged">Has AI Tags</option>
-							<option value="untagged">No AI Tags</option>
-						</optgroup>
-						<optgroup label="Processing">
-							<option value="processed">Processed</option>
-							<option value="unprocessed">Unprocessed</option>
-						</optgroup>
-					</select>
-					{#if allTags.length > 0}
-						<select
-							class="filter-select"
-							value={filterCategory ?? ''}
-							onchange={(e) => {
-								const val = (e.target as HTMLSelectElement).value;
-								filterCategory = val ? Number(val) : null;
-							}}
-						>
-							<option value="">All Categories</option>
-							{#each allTags as tag}
-								<option value={tag.id}>{tag.name}</option>
-							{/each}
+				<div class="card-heading">
+					<div>
+						<h2 class="card-title">All Questions</h2>
+						<p class="card-subtitle">
+							Search across the original and formatted text, then sort by moderation signals or
+							recent activity.
+						</p>
+					</div>
+					<span class="count-badge">{displayedQuestions.length} visible</span>
+				</div>
+
+				<div class="controls-grid">
+					<label class="control-field control-field-search">
+						<span class="control-label">Search</span>
+						<input
+							type="text"
+							placeholder="Search questions..."
+							bind:value={searchQuery}
+							class="search-input"
+						/>
+					</label>
+
+					<label class="control-field">
+						<span class="control-label">Status</span>
+						<select bind:value={filterStatus} class="filter-select">
+							<option value="all">All Status</option>
+							<option value="active">Active</option>
+							<option value="flagged">Flagged</option>
+							<option value="removed">Removed</option>
+							<optgroup label="AI Tags">
+								<option value="tagged">Has AI Tags</option>
+								<option value="untagged">No AI Tags</option>
+							</optgroup>
+							<optgroup label="Processing">
+								<option value="processed">Processed</option>
+								<option value="unprocessed">Unprocessed</option>
+							</optgroup>
 						</select>
+					</label>
+
+					{#if allTags.length > 0}
+						<label class="control-field">
+							<span class="control-label">Category</span>
+							<select
+								class="filter-select"
+								value={filterCategory ?? ''}
+								onchange={(e) => {
+									const val = (e.target as HTMLSelectElement).value;
+									filterCategory = val ? Number(val) : null;
+								}}
+							>
+								<option value="">All Categories</option>
+								{#each allTags as tag}
+									<option value={tag.id}>{tag.name}</option>
+								{/each}
+							</select>
+						</label>
 					{/if}
+				</div>
+
+				<div class="sort-row">
+					<span class="sort-label">Sort by</span>
 					<div class="sort-tabs">
 						<button
+							type="button"
 							class="sort-tab"
 							class:active={currentSort === 'lastComment'}
 							onclick={() => (currentSort = 'lastComment')}
@@ -227,6 +258,7 @@
 							Recent Activity
 						</button>
 						<button
+							type="button"
 							class="sort-tab"
 							class:active={currentSort === 'mostComments'}
 							onclick={() => (currentSort = 'mostComments')}
@@ -234,6 +266,7 @@
 							Most Comments
 						</button>
 						<button
+							type="button"
 							class="sort-tab"
 							class:active={currentSort === 'newest'}
 							onclick={() => (currentSort = 'newest')}
@@ -241,6 +274,7 @@
 							Newest
 						</button>
 						<button
+							type="button"
 							class="sort-tab"
 							class:active={currentSort === 'oldest'}
 							onclick={() => (currentSort = 'oldest')}
@@ -254,7 +288,7 @@
 			{#if displayedQuestions.length}
 				<div class="questions-list">
 					{#each displayedQuestions as question}
-						<div
+						<article
 							class="question-item"
 							class:flagged={question.flagged}
 							class:removed={question.removed}
@@ -284,7 +318,6 @@
 									</div>
 								</div>
 
-								<!-- Category Tags -->
 								{#if question.question_tag?.length > 0}
 									<div class="category-tags">
 										{#each question.question_tag as tag}
@@ -308,6 +341,7 @@
 									{/if}
 								</div>
 							</div>
+
 							<div class="question-actions">
 								<a href="/questions/{question.url}" class="action-btn view" target="_blank">
 									View
@@ -320,12 +354,13 @@
 									Details
 								</button>
 							</div>
-						</div>
+						</article>
 					{/each}
 				</div>
 			{:else}
 				<div class="empty-state">
-					<p>No questions found matching your criteria.</p>
+					<h3>No matching questions</h3>
+					<p>Try clearing one of the filters or broadening your search.</p>
 				</div>
 			{/if}
 		</div>
@@ -335,402 +370,592 @@
 <Modal2 id="question-details-modal">
 	<div class="modal-content">
 		{#if selectedQuestion}
-			<AdminQuestionItem
-				questionData={selectedQuestion}
-				tags={data.tags || []}
-				on:questionRemoved={() => invalidateAll()}
-			/>
+			<AdminQuestionItem questionData={selectedQuestion} tags={data.tags || []} />
 		{/if}
 	</div>
 </Modal2>
 
 <style>
 	.admin-questions {
+		display: flex;
+		flex-direction: column;
+		gap: 24px;
 		max-width: 1400px;
 		margin: 0 auto;
-		padding: 0 16px;
+		padding: 0 16px 24px;
 	}
 
-	/* Header */
 	.page-header {
-		margin-bottom: 24px;
-		padding-bottom: 16px;
-		border-bottom: 1px solid var(--void-elevated);
-	}
-
-	.header-content {
 		display: flex;
 		justify-content: space-between;
+		align-items: flex-start;
+		gap: 20px;
+		padding: 24px;
+		border: 1px solid color-mix(in srgb, var(--primary) 14%, var(--border-color));
+		border-radius: 24px;
+		background: linear-gradient(
+			145deg,
+			color-mix(in srgb, var(--primary) 9%, var(--bg-surface)) 0%,
+			var(--bg-surface) 54%,
+			var(--bg-deep) 100%
+		);
+		box-shadow: var(--shadow-md);
+	}
+
+	.header-copy {
+		max-width: 720px;
+	}
+
+	.page-kicker {
+		display: inline-flex;
 		align-items: center;
-		flex-wrap: wrap;
-		gap: 12px;
+		padding: 6px 10px;
+		margin-bottom: 12px;
+		border-radius: 999px;
+		background: var(--primary-subtle);
+		color: var(--primary);
+		font-size: 0.72rem;
+		font-weight: 700;
+		letter-spacing: 0.08em;
+		text-transform: uppercase;
 	}
 
 	.page-title {
-		font-size: 1.5rem;
-		font-weight: 700;
-		color: var(--text-primary);
 		margin: 0;
+		font-size: clamp(1.65rem, 2vw, 2.25rem);
+		font-weight: 750;
+		color: var(--text-primary);
+	}
+
+	.page-subtitle {
+		margin: 10px 0 0;
+		max-width: 62ch;
+		font-size: 0.95rem;
+		line-height: 1.6;
+		color: var(--text-secondary);
+	}
+
+	.header-actions {
+		display: flex;
+		flex-wrap: wrap;
+		align-items: center;
+		justify-content: flex-end;
+		gap: 12px;
+	}
+
+	.header-pill {
+		display: flex;
+		flex-direction: column;
+		gap: 4px;
+		min-width: 110px;
+		padding: 12px 14px;
+		border: 1px solid var(--border-color);
+		border-radius: 16px;
+		background: rgba(0, 0, 0, 0.12);
+	}
+
+	.header-pill-label {
+		font-size: 0.72rem;
+		font-weight: 600;
+		letter-spacing: 0.05em;
+		text-transform: uppercase;
+		color: var(--text-secondary);
+	}
+
+	.header-pill-value {
+		font-size: 1.35rem;
+		line-height: 1;
+		color: var(--text-primary);
 	}
 
 	.hierarchy-btn {
-		padding: 8px 16px;
-		background: var(--shadow-monarch);
+		display: inline-flex;
+		align-items: center;
+		justify-content: center;
+		padding: 10px 16px;
+		border-radius: 12px;
+		border: 1px solid color-mix(in srgb, var(--primary) 30%, transparent);
+		background: var(--primary);
 		color: white;
-		border-radius: 8px;
 		text-decoration: none;
-		font-size: 0.8rem;
-		font-weight: 500;
-		transition: background 0.2s ease;
+		font-size: 0.85rem;
+		font-weight: 650;
+		transition:
+			transform 0.2s ease,
+			box-shadow 0.2s ease,
+			opacity 0.2s ease;
 	}
 
 	.hierarchy-btn:hover {
-		opacity: 0.85;
-	}
-
-	/* Stats Section */
-	.stats-section {
-		margin-bottom: 24px;
+		transform: translateY(-1px);
+		box-shadow: var(--shadow-md);
+		opacity: 0.96;
 	}
 
 	.stats-grid {
 		display: grid;
-		grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+		grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
 		gap: 16px;
 	}
 
-	/* Questions Section */
-	.questions-section {
-		margin-bottom: 24px;
-	}
-
 	.questions-card {
-		background: var(--void-surface);
-		border: 1px solid var(--void-elevated);
-		border-radius: 12px;
 		overflow: hidden;
+		border: 1px solid var(--border-color);
+		border-radius: 24px;
+		background: linear-gradient(
+			180deg,
+			var(--bg-surface) 0%,
+			color-mix(in srgb, var(--bg-surface) 78%, var(--bg-deep)) 100%
+		);
+		box-shadow: var(--shadow-md);
 	}
 
 	.card-header {
-		padding: 16px;
-		border-bottom: 1px solid var(--void-elevated);
-		background: var(--void-deep);
-	}
-
-	.card-title {
 		display: flex;
-		align-items: center;
-		gap: 8px;
-		margin: 0 0 12px 0;
-		font-size: 0.9rem;
-		font-weight: 600;
-		color: var(--text-primary);
+		flex-direction: column;
+		gap: 18px;
+		padding: 24px;
+		border-bottom: 1px solid color-mix(in srgb, var(--primary) 10%, var(--border-color));
+		background: linear-gradient(
+			180deg,
+			color-mix(in srgb, var(--primary) 6%, var(--bg-deep)) 0%,
+			var(--bg-deep) 100%
+		);
 	}
 
-	.count-badge {
-		padding: 2px 8px;
-		background: var(--shadow-monarch);
-		color: white;
-		border-radius: 12px;
-		font-size: 0.75rem;
-		font-weight: 600;
-	}
-
-	.controls {
-		display: flex;
-		flex-wrap: wrap;
-		gap: 12px;
-		align-items: center;
-	}
-
-	.search-input {
-		padding: 8px 12px;
-		border: 1px solid var(--void-elevated);
-		border-radius: 8px;
-		font-size: 0.8rem;
-		min-width: 200px;
-		background: var(--void-surface);
-		color: var(--text-primary);
-	}
-
-	.search-input:focus {
-		outline: none;
-		border-color: var(--shadow-monarch);
-	}
-
-	.filter-select {
-		padding: 8px 12px;
-		border: 1px solid var(--void-elevated);
-		border-radius: 8px;
-		font-size: 0.8rem;
-		background: var(--void-surface);
-		color: var(--text-primary);
-		cursor: pointer;
-	}
-
-	.sort-tabs {
-		display: flex;
-		gap: 4px;
-		flex-wrap: wrap;
-	}
-
-	.sort-tab {
-		padding: 6px 12px;
-		border: 1px solid var(--void-elevated);
-		border-radius: 6px;
-		background: var(--void-surface);
-		color: var(--text-secondary);
-		font-size: 0.75rem;
-		font-weight: 500;
-		cursor: pointer;
-		transition: all 0.2s ease;
-	}
-
-	.sort-tab:hover {
-		border-color: var(--shadow-monarch);
-		color: var(--shadow-monarch);
-	}
-
-	.sort-tab.active {
-		background: var(--shadow-monarch);
-		border-color: var(--shadow-monarch);
-		color: white;
-	}
-
-	/* Questions List */
-	.questions-list {
-		/* Full page scrolling - no constrained height */
-	}
-
-	.question-item {
+	.card-heading {
 		display: flex;
 		justify-content: space-between;
 		align-items: flex-start;
 		gap: 16px;
-		padding: 16px;
-		border-bottom: 1px solid var(--void-elevated);
-		transition: background 0.2s ease;
+	}
+
+	.card-title {
+		margin: 0;
+		font-size: 1.15rem;
+		font-weight: 700;
+		color: var(--text-primary);
+	}
+
+	.card-subtitle {
+		margin: 6px 0 0;
+		max-width: 60ch;
+		font-size: 0.88rem;
+		line-height: 1.55;
+		color: var(--text-secondary);
+	}
+
+	.count-badge {
+		display: inline-flex;
+		align-items: center;
+		justify-content: center;
+		padding: 8px 12px;
+		border-radius: 999px;
+		background: var(--primary-subtle);
+		color: var(--primary);
+		font-size: 0.78rem;
+		font-weight: 700;
+		white-space: nowrap;
+	}
+
+	.controls-grid {
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+		gap: 14px;
+	}
+
+	.control-field {
+		display: flex;
+		flex-direction: column;
+		gap: 8px;
+		min-width: 0;
+	}
+
+	.control-field-search {
+		grid-column: span 2;
+	}
+
+	.control-label {
+		font-size: 0.74rem;
+		font-weight: 700;
+		letter-spacing: 0.06em;
+		text-transform: uppercase;
+		color: var(--text-secondary);
+	}
+
+	.search-input,
+	.filter-select {
+		width: 100%;
+		height: 44px;
+		padding: 0 14px;
+		border: 1px solid var(--border-color);
+		border-radius: 12px;
+		background: color-mix(in srgb, var(--bg-surface) 82%, var(--bg-deep));
+		color: var(--text-primary);
+		font-size: 0.9rem;
+		transition:
+			border-color 0.2s ease,
+			box-shadow 0.2s ease,
+			background 0.2s ease;
+	}
+
+	.search-input::placeholder {
+		color: color-mix(in srgb, var(--text-secondary) 88%, transparent);
+	}
+
+	.search-input:focus,
+	.filter-select:focus {
+		outline: none;
+		border-color: color-mix(in srgb, var(--primary) 70%, var(--border-color));
+		box-shadow: 0 0 0 3px color-mix(in srgb, var(--primary) 18%, transparent);
+		background: var(--bg-surface);
+	}
+
+	.filter-select {
+		cursor: pointer;
+	}
+
+	.sort-row {
+		display: flex;
+		flex-wrap: wrap;
+		align-items: center;
+		gap: 12px;
+	}
+
+	.sort-label {
+		font-size: 0.78rem;
+		font-weight: 700;
+		letter-spacing: 0.06em;
+		text-transform: uppercase;
+		color: var(--text-secondary);
+	}
+
+	.sort-tabs {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 8px;
+	}
+
+	.sort-tab {
+		padding: 8px 14px;
+		border: 1px solid var(--border-color);
+		border-radius: 999px;
+		background: color-mix(in srgb, var(--bg-surface) 78%, var(--bg-deep));
+		color: var(--text-secondary);
+		font-size: 0.8rem;
+		font-weight: 650;
+		cursor: pointer;
+		transition:
+			border-color 0.2s ease,
+			background 0.2s ease,
+			color 0.2s ease,
+			transform 0.2s ease;
+	}
+
+	.sort-tab:hover {
+		transform: translateY(-1px);
+		border-color: color-mix(in srgb, var(--primary) 45%, var(--border-color));
+		color: var(--text-primary);
+	}
+
+	.sort-tab.active {
+		border-color: color-mix(in srgb, var(--primary) 35%, transparent);
+		background: var(--primary-subtle);
+		color: var(--primary);
+	}
+
+	.questions-list {
+		display: grid;
+		gap: 14px;
+		padding: 20px;
+	}
+
+	.question-item {
+		display: grid;
+		grid-template-columns: minmax(0, 1fr) 140px;
+		gap: 18px;
+		align-items: start;
+		padding: 18px;
+		border: 1px solid var(--border-color);
+		border-radius: 20px;
+		background: linear-gradient(
+			180deg,
+			color-mix(in srgb, var(--bg-surface) 86%, var(--bg-deep)) 0%,
+			var(--bg-deep) 100%
+		);
+		transition:
+			transform 0.2s ease,
+			border-color 0.2s ease,
+			box-shadow 0.2s ease;
 	}
 
 	.question-item:hover {
-		background: var(--void-deep);
-	}
-
-	.question-item:last-child {
-		border-bottom: none;
+		transform: translateY(-2px);
+		border-color: color-mix(in srgb, var(--primary) 18%, var(--border-color));
+		box-shadow: var(--shadow-sm);
 	}
 
 	.question-item.flagged {
-		background: rgba(245, 158, 11, 0.05);
-		border-left: 3px solid #f59e0b;
+		border-color: color-mix(in srgb, #f59e0b 45%, var(--border-color));
+		box-shadow: inset 3px 0 0 rgba(245, 158, 11, 0.7);
 	}
 
 	.question-item.removed {
-		background: rgba(239, 68, 68, 0.05);
-		border-left: 3px solid #ef4444;
+		border-color: color-mix(in srgb, #ef4444 45%, var(--border-color));
+		box-shadow: inset 3px 0 0 rgba(239, 68, 68, 0.72);
 	}
 
 	.question-content {
-		flex: 1;
 		min-width: 0;
 	}
 
 	.question-header {
 		display: flex;
-		align-items: flex-start;
-		gap: 8px;
-		margin-bottom: 6px;
 		flex-wrap: wrap;
+		align-items: flex-start;
+		justify-content: space-between;
+		gap: 12px;
+		margin-bottom: 12px;
 	}
 
 	.question-text {
-		font-size: 0.95rem;
-		font-weight: 500;
-		color: var(--text-primary);
 		margin: 0;
-		line-height: 1.4;
 		flex: 1;
-		min-width: 200px;
+		min-width: 220px;
+		font-size: 1rem;
+		line-height: 1.55;
+		font-weight: 650;
+		color: var(--text-primary);
+		word-break: break-word;
 	}
 
 	.status-badges {
 		display: flex;
-		gap: 4px;
 		flex-wrap: wrap;
-		flex-shrink: 0;
+		gap: 6px;
+		justify-content: flex-end;
 	}
 
 	.status-badge {
-		padding: 2px 8px;
-		border-radius: 12px;
-		font-size: 0.65rem;
-		font-weight: 600;
+		display: inline-flex;
+		align-items: center;
+		padding: 5px 10px;
+		border-radius: 999px;
+		font-size: 0.7rem;
+		font-weight: 700;
+		line-height: 1;
 		white-space: nowrap;
 	}
 
 	.status-badge.tagged {
-		background: rgba(16, 185, 129, 0.12);
-		color: #059669;
+		background: rgba(16, 185, 129, 0.13);
+		color: #34d399;
 	}
 
 	.status-badge.untagged {
-		background: rgba(245, 158, 11, 0.12);
-		color: #d97706;
+		background: rgba(245, 158, 11, 0.14);
+		color: #fbbf24;
 	}
 
 	.status-badge.processed {
-		background: rgba(99, 102, 241, 0.12);
-		color: #6366f1;
+		background: rgba(59, 130, 246, 0.14);
+		color: #60a5fa;
 	}
 
 	.status-badge.unprocessed {
-		background: rgba(156, 163, 175, 0.15);
-		color: #6b7280;
+		background: rgba(148, 163, 184, 0.16);
+		color: #cbd5e1;
 	}
 
 	.status-badge.flagged-badge {
-		background: rgba(245, 158, 11, 0.1);
-		color: #d97706;
+		background: rgba(245, 158, 11, 0.15);
+		color: #fbbf24;
 	}
 
 	.status-badge.removed-badge {
-		background: rgba(239, 68, 68, 0.1);
-		color: #dc2626;
+		background: rgba(239, 68, 68, 0.14);
+		color: #fca5a5;
 	}
 
-	/* Category Tags */
 	.category-tags {
 		display: flex;
 		flex-wrap: wrap;
-		gap: 4px;
-		margin-bottom: 6px;
+		gap: 8px;
+		margin-bottom: 14px;
 	}
 
 	.category-tag {
 		display: inline-flex;
 		align-items: center;
-		padding: 2px 8px;
-		background: rgba(124, 58, 237, 0.1);
-		color: #7c3aed;
-		border-radius: 10px;
-		font-size: 0.7rem;
-		font-weight: 500;
+		padding: 6px 10px;
+		border: 1px solid color-mix(in srgb, var(--primary) 22%, transparent);
+		border-radius: 999px;
+		background: color-mix(in srgb, var(--primary) 9%, transparent);
+		color: color-mix(in srgb, var(--primary) 82%, white);
+		font-size: 0.72rem;
+		font-weight: 650;
 	}
 
 	.question-meta {
 		display: flex;
 		flex-wrap: wrap;
-		gap: 12px;
+		gap: 10px;
 	}
 
 	.meta-item {
-		display: flex;
+		display: inline-flex;
 		align-items: center;
-		gap: 4px;
-		font-size: 0.75rem;
+		gap: 6px;
+		padding: 7px 10px;
+		border-radius: 999px;
+		background: rgba(255, 255, 255, 0.03);
 		color: var(--text-secondary);
+		font-size: 0.78rem;
+		font-weight: 550;
 	}
 
 	.meta-item.comments {
-		padding: 2px 8px;
-		background: rgba(16, 185, 129, 0.1);
-		color: #059669;
-		border-radius: 12px;
-		font-weight: 500;
+		background: rgba(16, 185, 129, 0.12);
+		color: #34d399;
 	}
 
 	.meta-icon {
-		font-size: 0.8rem;
+		font-size: 0.82rem;
 	}
 
 	.question-actions {
 		display: flex;
-		gap: 8px;
-		flex-shrink: 0;
+		flex-direction: column;
+		gap: 10px;
+		align-self: stretch;
 	}
 
 	.action-btn {
-		padding: 6px 12px;
-		border-radius: 6px;
-		font-size: 0.75rem;
-		font-weight: 500;
-		cursor: pointer;
-		transition: all 0.2s ease;
+		display: inline-flex;
+		align-items: center;
+		justify-content: center;
+		width: 100%;
+		min-height: 42px;
+		padding: 0 12px;
+		border-radius: 12px;
+		font-size: 0.82rem;
+		font-weight: 700;
 		text-decoration: none;
+		cursor: pointer;
+		transition:
+			transform 0.2s ease,
+			border-color 0.2s ease,
+			background 0.2s ease,
+			color 0.2s ease,
+			opacity 0.2s ease;
+	}
+
+	.action-btn:hover {
+		transform: translateY(-1px);
 	}
 
 	.action-btn.view {
-		background: var(--void-surface);
-		color: var(--text-secondary);
-		border: 1px solid var(--void-elevated);
+		border: 1px solid var(--border-color);
+		background: rgba(255, 255, 255, 0.04);
+		color: var(--text-primary);
 	}
 
 	.action-btn.view:hover {
-		border-color: var(--shadow-monarch);
-		color: var(--shadow-monarch);
+		border-color: color-mix(in srgb, var(--primary) 40%, var(--border-color));
+		color: var(--primary);
 	}
 
 	.action-btn.details {
-		background: var(--shadow-monarch);
+		border: 1px solid transparent;
+		background: var(--primary);
 		color: white;
-		border: none;
 	}
 
 	.action-btn.details:hover {
-		opacity: 0.85;
+		opacity: 0.94;
 	}
 
-	/* Empty State */
 	.empty-state {
-		padding: 48px 24px;
+		padding: 72px 24px;
 		text-align: center;
+	}
+
+	.empty-state h3 {
+		margin: 0 0 8px;
+		font-size: 1.05rem;
+		color: var(--text-primary);
+	}
+
+	.empty-state p {
+		margin: 0;
 		color: var(--text-secondary);
 	}
 
-	/* Modal */
 	.modal-content {
-		width: min(600px, 85vw);
+		width: min(1080px, calc(100vw - 1.5rem));
+		max-width: 100%;
 	}
 
-	/* Responsive */
-	@media (max-width: 768px) {
-		.admin-questions {
-			padding: 0 12px;
-		}
-
-		.page-title {
-			font-size: 1.25rem;
-		}
-
-		.stats-grid {
-			grid-template-columns: repeat(2, 1fr);
-		}
-
-		.controls {
+	@media (max-width: 900px) {
+		.card-heading {
 			flex-direction: column;
-			align-items: stretch;
+			align-items: flex-start;
 		}
 
-		.search-input {
-			min-width: 0;
-		}
-
-		.sort-tabs {
-			justify-content: flex-start;
+		.control-field-search {
+			grid-column: span 1;
 		}
 
 		.question-item {
-			flex-direction: column;
-			gap: 12px;
+			grid-template-columns: 1fr;
 		}
 
+		.question-actions {
+			flex-direction: row;
+			width: 100%;
+		}
+	}
+
+	@media (max-width: 768px) {
+		.admin-questions {
+			padding: 0 12px 20px;
+		}
+
+		.page-header,
+		.card-header {
+			padding: 20px;
+		}
+
+		.stats-grid {
+			grid-template-columns: repeat(2, minmax(0, 1fr));
+		}
+
+		.sort-row {
+			align-items: flex-start;
+			flex-direction: column;
+		}
+
+		.questions-list {
+			padding: 16px;
+		}
+	}
+
+	@media (max-width: 560px) {
+		.stats-grid {
+			grid-template-columns: 1fr;
+		}
+
+		.header-actions,
 		.question-actions {
 			width: 100%;
 		}
 
-		.action-btn {
+		.header-pill {
 			flex: 1;
-			text-align: center;
+		}
+
+		.question-actions {
+			flex-direction: column;
 		}
 	}
 </style>

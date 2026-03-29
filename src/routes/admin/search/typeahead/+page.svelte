@@ -309,20 +309,20 @@
 		font-weight: 500;
 		text-decoration: none;
 		color: var(--text-secondary);
-		border: 1px solid var(--void-elevated);
+		border: 1px solid var(--bg-elevated);
 		border-radius: 8px;
-		background: var(--void-surface);
+		background: var(--bg-surface);
 		transition: all 0.15s ease;
 
 		&:hover {
-			color: var(--shadow-monarch);
-			border-color: var(--shadow-monarch);
+			color: var(--primary);
+			border-color: var(--primary);
 		}
 
 		&.active {
-			background: var(--shadow-monarch);
+			background: var(--primary);
 			color: white;
-			border-color: var(--shadow-monarch);
+			border-color: var(--primary);
 		}
 	}
 
@@ -352,13 +352,13 @@
 		align-items: center;
 		gap: 0.75rem;
 		padding: 0.875rem 1rem;
-		background: var(--void-surface);
-		border: 2px solid var(--void-elevated);
+		background: var(--bg-surface);
+		border: 2px solid var(--bg-elevated);
 		border-radius: 12px;
 		transition: all 0.15s ease;
 
 		&:focus-within {
-			border-color: var(--shadow-monarch);
+			border-color: var(--primary);
 			box-shadow: var(--glow-sm);
 		}
 	}
@@ -386,8 +386,8 @@
 	.spinner {
 		width: 20px;
 		height: 20px;
-		border: 2px solid var(--void-elevated);
-		border-top-color: var(--shadow-monarch);
+		border: 2px solid var(--bg-elevated);
+		border-top-color: var(--primary);
 		border-radius: 50%;
 		animation: spin 0.6s linear infinite;
 	}
@@ -406,14 +406,14 @@
 		height: 24px;
 		padding: 0;
 		border: none;
-		background: var(--void-elevated);
+		background: var(--bg-elevated);
 		border-radius: 50%;
 		cursor: pointer;
 		color: var(--text-secondary);
 		transition: all 0.15s ease;
 
 		&:hover {
-			background: var(--void-deep);
+			background: var(--bg-deep);
 			color: var(--text-primary);
 		}
 
@@ -428,8 +428,8 @@
 		top: calc(100% + 8px);
 		left: 0;
 		right: 0;
-		background: var(--void-surface);
-		border: 1px solid var(--void-elevated);
+		background: var(--bg-surface);
+		border: 1px solid var(--bg-elevated);
 		border-radius: 12px;
 		box-shadow: var(--glow-md);
 		max-height: 480px;
@@ -447,7 +447,7 @@
 		background: transparent;
 		text-align: left;
 		cursor: pointer;
-		border-bottom: 1px solid var(--void-deep);
+		border-bottom: 1px solid var(--bg-deep);
 		transition: background-color 0.1s ease;
 		font-family: inherit;
 		color: inherit;
@@ -458,15 +458,15 @@
 
 		&:hover,
 		&.selected {
-			background: var(--void-deep);
+			background: var(--bg-deep);
 		}
 
 		&.selected {
-			background: var(--void-elevated);
+			background: var(--bg-elevated);
 		}
 
 		&.navigating {
-			background: var(--void-elevated);
+			background: var(--bg-elevated);
 			pointer-events: none;
 		}
 
@@ -541,7 +541,7 @@
 		}
 
 		:global(code) {
-			background: var(--void-elevated);
+			background: var(--bg-elevated);
 			padding: 0.125rem 0.25rem;
 			border-radius: 3px;
 			font-family: var(--font-mono);
@@ -549,7 +549,7 @@
 		}
 
 		:global(.md-link) {
-			color: var(--shadow-monarch);
+			color: var(--primary);
 			text-decoration: underline;
 		}
 	}
@@ -568,13 +568,13 @@
 	}
 
 	.source-label {
-		background: rgba(59, 130, 246, 0.12);
+		background: rgba(251, 113, 133, 0.12);
 		color: #3b82f6;
 	}
 
 	.category-label {
 		background: rgba(139, 92, 246, 0.1);
-		color: #8b5cf6;
+		color: var(--accent);
 	}
 
 	.result-arrow {
@@ -591,21 +591,21 @@
 
 	.result-item:hover .result-arrow,
 	.result-item.selected .result-arrow {
-		color: var(--shadow-monarch);
+		color: var(--primary);
 	}
 
 	.nav-spinner {
 		width: 20px;
 		height: 20px;
-		border: 2px solid var(--void-elevated);
-		border-top-color: var(--shadow-monarch);
+		border: 2px solid var(--bg-elevated);
+		border-top-color: var(--primary);
 		border-radius: 50%;
 		animation: spin 0.6s linear infinite;
 	}
 
 	.loading-text {
 		font-size: 0.7rem;
-		color: var(--shadow-monarch);
+		color: var(--primary);
 		font-weight: 500;
 		animation: pulse 1s ease-in-out infinite;
 	}
@@ -638,8 +638,8 @@
 			padding: 0.125rem 0.375rem;
 			font-size: 0.7rem;
 			font-family: inherit;
-			background: var(--void-elevated);
-			border: 1px solid var(--void-deep);
+			background: var(--bg-elevated);
+			border: 1px solid var(--bg-deep);
 			border-radius: 4px;
 			margin: 0 0.125rem;
 			color: var(--text-primary);
@@ -651,12 +651,12 @@
 	}
 
 	.results-dropdown::-webkit-scrollbar-track {
-		background: var(--void-deep);
+		background: var(--bg-deep);
 		border-radius: 0 12px 12px 0;
 	}
 
 	.results-dropdown::-webkit-scrollbar-thumb {
-		background: var(--void-elevated);
+		background: var(--bg-elevated);
 		border-radius: 4px;
 
 		&:hover {

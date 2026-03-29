@@ -17,10 +17,10 @@
 </div>
 
 <style lang="scss">
-	/* Solo Leveling Dark Theme - Subtopic Page */
+	/* 9takes Warm Tech Theme - Subtopic Page */
 	.page-wrapper {
 		min-height: 100vh;
-		background: linear-gradient(180deg, #0a0a0f 0%, #12121a 100%);
+		background: linear-gradient(180deg, var(--bg-base) 0%, var(--bg-deep) 100%);
 		padding-bottom: 4rem;
 	}
 

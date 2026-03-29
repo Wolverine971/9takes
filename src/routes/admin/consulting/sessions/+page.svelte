@@ -207,8 +207,8 @@
 	.stat-btn {
 		flex: 1;
 		padding: 0.75rem;
-		background: var(--void-surface);
-		border: 1px solid var(--void-elevated);
+		background: var(--bg-surface);
+		border: 1px solid var(--bg-elevated);
 		border-radius: 12px;
 		cursor: pointer;
 		text-align: center;
@@ -216,12 +216,12 @@
 	}
 
 	.stat-btn:hover {
-		border-color: var(--shadow-monarch);
+		border-color: var(--primary);
 	}
 
 	.stat-btn.active {
 		background: rgba(99, 102, 241, 0.1);
-		border-color: var(--shadow-monarch);
+		border-color: var(--primary);
 	}
 
 	.stat-num {
@@ -256,10 +256,10 @@
 
 	.filter-group select {
 		padding: 0.5rem 0.75rem;
-		border: 1px solid var(--void-elevated);
+		border: 1px solid var(--bg-elevated);
 		border-radius: 12px;
 		font-size: 0.875rem;
-		background: var(--void-surface);
+		background: var(--bg-surface);
 	}
 
 	/* Sessions List */
@@ -274,14 +274,14 @@
 		align-items: center;
 		gap: 1.5rem;
 		padding: 1rem;
-		background: var(--void-surface);
-		border: 1px solid var(--void-elevated);
+		background: var(--bg-surface);
+		border: 1px solid var(--bg-elevated);
 		border-radius: 12px;
 	}
 
 	.session-card.today {
-		background: rgba(59, 130, 246, 0.05);
-		border-color: rgba(59, 130, 246, 0.3);
+		background: rgba(251, 113, 133, 0.05);
+		border-color: rgba(251, 113, 133, 0.3);
 	}
 
 	.session-datetime {
@@ -297,7 +297,7 @@
 	}
 
 	.session-date.highlight {
-		color: var(--shadow-monarch);
+		color: var(--primary);
 	}
 
 	.session-time {
@@ -323,7 +323,7 @@
 	}
 
 	.client-name:hover {
-		color: var(--shadow-monarch);
+		color: var(--primary);
 	}
 
 	.type-badge {
@@ -390,8 +390,8 @@
 	.empty-state {
 		text-align: center;
 		padding: 3rem;
-		background: var(--void-surface);
-		border: 1px solid var(--void-elevated);
+		background: var(--bg-surface);
+		border: 1px solid var(--bg-elevated);
 		border-radius: 12px;
 	}
 
@@ -420,13 +420,13 @@
 	}
 
 	.btn-primary {
-		background: var(--shadow-monarch);
+		background: var(--primary);
 		color: white;
 	}
 
 	.btn-secondary {
-		background: var(--void-deep);
-		border: 1px solid var(--void-elevated);
+		background: var(--bg-deep);
+		border: 1px solid var(--bg-elevated);
 		color: var(--text-primary);
 	}
 

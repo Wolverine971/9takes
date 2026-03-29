@@ -58,6 +58,16 @@ export const actions: Actions = {
 			const ip = getClientAddress();
 			const fingerprint = String(body.fingerprint ?? '');
 
+			if (fingerprint) {
+				await supabase.from('visitors').upsert(
+					{
+						fingerprint,
+						updated_at: new Date().toISOString()
+					},
+					{ onConflict: 'fingerprint' }
+				);
+			}
+
 			const { data: insertedComment, error: insertedCommentError } = await supabase
 				.from('blog_comments')
 				.insert({

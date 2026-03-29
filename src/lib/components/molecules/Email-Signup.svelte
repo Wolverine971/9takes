@@ -97,17 +97,17 @@
 <style>
 	.waitlist-section {
 		text-align: center;
-		border: 1px solid rgba(100, 116, 139, 0.3);
+		border: 1px solid color-mix(in srgb, var(--text-tertiary) 30%, transparent);
 		padding: 2rem;
 		border-radius: 12px;
-		background: linear-gradient(135deg, #1a1a2e 0%, #0a0a0f 100%);
-		box-shadow: 0 0 20px rgba(124, 58, 237, 0.1);
+		background: linear-gradient(135deg, var(--bg-surface) 0%, var(--bg-base) 100%);
+		box-shadow: 0 0 20px rgba(45, 212, 191, 0.1);
 	}
 	.waitlist-section h2 {
-		color: #f1f5f9;
+		color: var(--text-primary);
 	}
 	.waitlist-section p {
-		color: #94a3b8;
+		color: var(--text-secondary);
 	}
 	.waitlist-form {
 		display: flex;
@@ -121,14 +121,14 @@
 		margin-bottom: 10px;
 		padding: 10px;
 		border-radius: 8px;
-		border: 1px solid rgba(100, 116, 139, 0.3);
-		background-color: #252538;
-		color: #f1f5f9;
+		border: 1px solid color-mix(in srgb, var(--text-tertiary) 30%, transparent);
+		background-color: var(--bg-elevated);
+		color: var(--text-primary);
 	}
 	.waitlist-form input:focus {
 		outline: none;
-		border-color: #7c3aed;
-		box-shadow: 0 0 10px rgba(124, 58, 237, 0.3);
+		border-color: var(--primary-dark);
+		box-shadow: 0 0 10px rgba(45, 212, 191, 0.3);
 	}
 	.waitlist-form button {
 		padding: 10px 20px;
@@ -136,16 +136,16 @@
 		border: none;
 		cursor: pointer;
 		color: white;
-		background-color: #7c3aed;
-		border: 1px solid #7c3aed;
+		background-color: var(--primary-dark);
+		border: 1px solid var(--primary-dark);
 		width: 155px;
 		font-weight: 600;
 		transition: all 0.2s ease;
-		box-shadow: 0 0 15px rgba(124, 58, 237, 0.3);
+		box-shadow: 0 0 15px rgba(45, 212, 191, 0.3);
 	}
 	.waitlist-form button:hover {
-		background-color: #6d28d9;
-		box-shadow: 0 0 25px rgba(124, 58, 237, 0.4);
+		background-color: var(--accent-dark);
+		box-shadow: 0 0 25px rgba(45, 212, 191, 0.4);
 		transform: translateY(-2px);
 	}
 	/* For tablets */
@@ -179,17 +179,17 @@
 	}
 	::placeholder {
 		/* Chrome, Firefox, Opera, Safari 10.1+ */
-		color: #94a3b8;
+		color: var(--text-secondary);
 		opacity: 1; /* Firefox */
 	}
 
 	:-ms-input-placeholder {
 		/* Internet Explorer 10-11 */
-		color: #94a3b8;
+		color: var(--text-secondary);
 	}
 
 	::-ms-input-placeholder {
 		/* Microsoft Edge */
-		color: #94a3b8;
+		color: var(--text-secondary);
 	}
 </style>

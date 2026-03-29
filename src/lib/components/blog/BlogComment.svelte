@@ -104,8 +104,8 @@
 
 <style lang="scss">
 	.comment-card {
-		background-color: var(--void-surface);
-		border: 1px solid rgba(100, 116, 139, 0.2);
+		background-color: var(--bg-surface);
+		border: 1px solid color-mix(in srgb, var(--text-tertiary) 20%, transparent);
 		border-radius: 12px;
 		padding: 0.5rem;
 
@@ -160,7 +160,7 @@
 		justify-content: center;
 		min-width: 90px;
 		height: 36px;
-		background: linear-gradient(145deg, var(--shadow-monarch), var(--shadow-monarch-dark));
+		background: linear-gradient(145deg, var(--primary), var(--primary-dark));
 		color: #ffffff;
 		font-weight: 600;
 		font-size: 0.875rem;
@@ -174,7 +174,7 @@
 
 			&:hover {
 				transform: translateY(-2px);
-				box-shadow: 0 0 15px rgba(124, 58, 237, 0.4);
+				box-shadow: 0 0 15px rgba(45, 212, 191, 0.4);
 			}
 		}
 
@@ -201,14 +201,14 @@
 		width: 80%;
 		margin: 0.5rem auto;
 		border: none;
-		border-top: 1px solid rgba(100, 116, 139, 0.2);
+		border-top: 1px solid color-mix(in srgb, var(--text-tertiary) 20%, transparent);
 	}
 
 	.nested-comments {
 		margin-left: 1.5rem;
 		padding-left: 1rem;
 		padding-bottom: 0.5rem;
-		border-left: 2px solid rgba(124, 58, 237, 0.3);
+		border-left: 2px solid rgba(45, 212, 191, 0.3);
 
 		@media (max-width: 576px) {
 			margin-left: 0.75rem;
@@ -223,9 +223,9 @@
 		gap: 0.5rem;
 		width: 100%;
 		padding: 0.75rem;
-		background: var(--void-elevated);
+		background: var(--bg-elevated);
 		border: none;
-		border-top: 1px solid rgba(100, 116, 139, 0.2);
+		border-top: 1px solid color-mix(in srgb, var(--text-tertiary) 20%, transparent);
 		color: var(--neutral-700);
 		font-size: 0.9rem;
 		cursor: pointer;
@@ -233,7 +233,7 @@
 		border-radius: 0 0 12px 12px;
 
 		&:hover {
-			background: rgba(124, 58, 237, 0.15);
+			background: rgba(45, 212, 191, 0.15);
 			color: var(--text-primary);
 		}
 
@@ -247,9 +247,9 @@
 	.loader {
 		width: 1.25rem;
 		height: 1.25rem;
-		border: 3px solid rgba(124, 58, 237, 0.3);
+		border: 3px solid rgba(45, 212, 191, 0.3);
 		border-radius: 50%;
-		border-top: 3px solid var(--shadow-monarch);
+		border-top: 3px solid var(--primary);
 		animation: spin 0.8s linear infinite;
 	}
 

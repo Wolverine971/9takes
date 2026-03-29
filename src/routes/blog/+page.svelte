@@ -211,7 +211,7 @@
 <style lang="scss">
 	.page-wrapper {
 		min-height: 100vh;
-		background: linear-gradient(180deg, #0a0a0f 0%, #12121a 100%);
+		background: linear-gradient(180deg, var(--bg-base) 0%, var(--bg-deep) 100%);
 	}
 
 	/* Hero */
@@ -231,7 +231,7 @@
 		transform: translateX(-50%);
 		width: 350px;
 		height: 175px;
-		background: radial-gradient(ellipse, rgba(124, 58, 237, 0.12) 0%, transparent 70%);
+		background: radial-gradient(ellipse, rgba(45, 212, 191, 0.12) 0%, transparent 70%);
 		pointer-events: none;
 	}
 
@@ -242,7 +242,7 @@
 		margin: 0;
 		letter-spacing: -0.02em;
 		position: relative;
-		background: linear-gradient(135deg, #f1f5f9 0%, #a78bfa 100%);
+		background: linear-gradient(135deg, var(--text-primary) 0%, var(--accent-light) 100%);
 		-webkit-background-clip: text;
 		-webkit-text-fill-color: transparent;
 		background-clip: text;
@@ -250,7 +250,7 @@
 
 	.hero-subtitle {
 		font-size: 1rem;
-		color: #94a3b8;
+		color: var(--text-secondary);
 		margin: 0.75rem auto 0;
 		position: relative;
 		max-width: 540px;
@@ -259,9 +259,13 @@
 
 	/* Quick Navigation */
 	.quick-nav {
-		background: linear-gradient(180deg, rgba(10, 10, 15, 0.98) 0%, rgba(10, 10, 15, 0.95) 100%);
+		background: linear-gradient(
+			180deg,
+			var(--bg-deep) 0%,
+			color-mix(in srgb, var(--bg-deep) 95%, transparent) 100%
+		);
 		backdrop-filter: blur(12px);
-		border-bottom: 1px solid rgba(124, 58, 237, 0.15);
+		border-bottom: 1px solid rgba(45, 212, 191, 0.15);
 		padding: 0.75rem 0;
 		margin-bottom: 1rem;
 	}
@@ -285,21 +289,21 @@
 		display: flex;
 		align-items: center;
 		padding: 0.5rem 1rem;
-		background: rgba(26, 26, 46, 0.6);
+		background: var(--bg-surface);
 		border-radius: 0.5rem;
 		font-size: 0.8125rem;
 		font-weight: 500;
-		color: #94a3b8;
+		color: var(--text-secondary);
 		white-space: nowrap;
 		transition: all 0.2s ease;
 		text-decoration: none;
-		border: 1px solid rgba(100, 116, 139, 0.2);
+		border: 1px solid color-mix(in srgb, var(--text-tertiary) 20%, transparent);
 		flex-shrink: 0;
 
 		&:hover {
-			background: rgba(124, 58, 237, 0.15);
-			color: #a78bfa;
-			border-color: rgba(124, 58, 237, 0.4);
+			background: rgba(45, 212, 191, 0.15);
+			color: var(--accent-light);
+			border-color: rgba(45, 212, 191, 0.4);
 			transform: translateY(-1px);
 		}
 	}
@@ -323,13 +327,13 @@
 		align-items: flex-start;
 		margin-bottom: 1.25rem;
 		padding-bottom: 0.75rem;
-		border-bottom: 1px solid rgba(100, 116, 139, 0.15);
+		border-bottom: 1px solid color-mix(in srgb, var(--text-tertiary) 15%, transparent);
 		gap: 1rem;
 
 		h2 {
 			font-size: 1.25rem;
 			font-weight: 600;
-			color: #f1f5f9;
+			color: var(--text-primary);
 			margin: 0;
 			line-height: 1.3;
 			display: flex;
@@ -340,7 +344,7 @@
 				content: '';
 				width: 3px;
 				height: 1.25rem;
-				background: linear-gradient(180deg, #7c3aed 0%, #a78bfa 100%);
+				background: linear-gradient(180deg, var(--primary-dark) 0%, var(--accent-light) 100%);
 				border-radius: 2px;
 			}
 		}
@@ -348,13 +352,13 @@
 
 	.section-subtitle {
 		font-size: 0.8125rem;
-		color: #64748b;
+		color: var(--text-tertiary);
 		margin: 0.25rem 0 0;
 	}
 
 	.section-description {
 		font-size: 0.8125rem;
-		color: #94a3b8;
+		color: var(--text-secondary);
 		margin: 0.375rem 0 0;
 		max-width: 600px;
 		line-height: 1.5;
@@ -363,7 +367,7 @@
 	.view-all-link {
 		font-size: 0.8125rem;
 		font-weight: 500;
-		color: #64748b;
+		color: var(--text-tertiary);
 		text-decoration: none;
 		transition: all 0.2s ease;
 		padding: 0.375rem 0.75rem;
@@ -373,9 +377,9 @@
 		margin-top: 0.25rem;
 
 		&:hover {
-			color: #a78bfa;
-			background: rgba(124, 58, 237, 0.1);
-			border-color: rgba(124, 58, 237, 0.2);
+			color: var(--accent-light);
+			background: rgba(45, 212, 191, 0.1);
+			border-color: rgba(45, 212, 191, 0.2);
 		}
 	}
 
@@ -392,16 +396,16 @@
 		aspect-ratio: 4 / 3;
 		border-radius: 0.75rem;
 		overflow: hidden;
-		background: #16161e;
+		background: var(--bg-surface);
 		text-decoration: none;
 		transition: all 0.25s ease;
-		border: 1px solid rgba(100, 116, 139, 0.15);
+		border: 1px solid color-mix(in srgb, var(--text-tertiary) 15%, transparent);
 
 		&::before {
 			content: '';
 			position: absolute;
 			inset: 0;
-			background: linear-gradient(135deg, rgba(124, 58, 237, 0.08) 0%, transparent 50%);
+			background: linear-gradient(135deg, rgba(45, 212, 191, 0.08) 0%, transparent 50%);
 			opacity: 0;
 			transition: opacity 0.25s ease;
 			z-index: 1;
@@ -409,10 +413,10 @@
 
 		&:hover {
 			transform: translateY(-3px);
-			border-color: rgba(124, 58, 237, 0.3);
+			border-color: rgba(45, 212, 191, 0.3);
 			box-shadow:
 				0 8px 24px rgba(0, 0, 0, 0.3),
-				0 0 0 1px rgba(124, 58, 237, 0.1);
+				0 0 0 1px rgba(45, 212, 191, 0.1);
 
 			&::before {
 				opacity: 1;
@@ -423,7 +427,7 @@
 			}
 
 			.card-content h3 {
-				color: #a78bfa;
+				color: var(--accent-light);
 			}
 		}
 
@@ -431,9 +435,9 @@
 			.card-overlay {
 				background: linear-gradient(
 					to top,
-					rgba(10, 10, 15, 0.95) 0%,
-					rgba(10, 10, 15, 0.6) 40%,
-					rgba(10, 10, 15, 0.3) 100%
+					color-mix(in srgb, var(--bg-deep) 95%, transparent) 0%,
+					color-mix(in srgb, var(--bg-deep) 60%, transparent) 40%,
+					color-mix(in srgb, var(--bg-deep) 30%, transparent) 100%
 				);
 			}
 		}
@@ -450,7 +454,11 @@
 	.card-overlay {
 		position: absolute;
 		inset: 0;
-		background: linear-gradient(135deg, rgba(22, 22, 30, 0.95) 0%, rgba(10, 10, 15, 0.98) 100%);
+		background: linear-gradient(
+			135deg,
+			color-mix(in srgb, var(--bg-surface) 95%, transparent) 0%,
+			color-mix(in srgb, var(--bg-deep) 98%, transparent) 100%
+		);
 	}
 
 	.card-content {
@@ -468,7 +476,7 @@
 			font-weight: 600;
 			line-height: 1.4;
 			margin: 0;
-			color: #e2e8f0;
+			color: var(--text-primary);
 			transition: color 0.2s ease;
 			display: -webkit-box;
 			-webkit-line-clamp: 3;
@@ -481,7 +489,7 @@
 		p {
 			font-size: 0.75rem;
 			line-height: 1.5;
-			color: #94a3b8;
+			color: var(--text-secondary);
 			margin: 0.375rem 0 0;
 			display: -webkit-box;
 			-webkit-line-clamp: 2;

@@ -368,7 +368,7 @@
 	}
 
 	.accordion {
-		border: 1px solid var(--void-elevated);
+		border: 1px solid var(--bg-elevated);
 		border-radius: 12px;
 		overflow: hidden;
 	}
@@ -379,7 +379,7 @@
 		justify-content: space-between;
 		align-items: center;
 		padding: 0.75rem 1rem;
-		background: var(--void-surface);
+		background: var(--bg-surface);
 		border: none;
 		color: var(--text-primary);
 		font-size: 0.875rem;
@@ -389,7 +389,7 @@
 	}
 
 	.accordion-header:hover {
-		background: var(--void-elevated);
+		background: var(--bg-elevated);
 	}
 
 	.accordion-chevron {
@@ -402,8 +402,8 @@
 
 	.accordion-content {
 		padding: 1rem;
-		border-top: 1px solid var(--void-elevated);
-		background: var(--void-deep);
+		border-top: 1px solid var(--bg-elevated);
+		background: var(--bg-deep);
 	}
 
 	.form-grid {
@@ -434,16 +434,16 @@
 		width: 100%;
 		padding: 0.5rem 0.75rem;
 		font-size: 0.875rem;
-		border: 1px solid var(--void-elevated);
+		border: 1px solid var(--bg-elevated);
 		border-radius: 8px;
-		background: var(--void-deep);
+		background: var(--bg-deep);
 		color: var(--text-primary);
 		transition: border-color 0.15s ease;
 	}
 
 	.field-input:focus {
 		outline: none;
-		border-color: var(--shadow-monarch);
+		border-color: var(--primary);
 	}
 
 	.field-textarea {
@@ -485,7 +485,7 @@
 		position: relative;
 		width: 36px;
 		height: 20px;
-		background: var(--void-elevated);
+		background: var(--bg-elevated);
 		border-radius: 10px;
 		transition: background 0.2s ease;
 	}
@@ -503,7 +503,7 @@
 	}
 
 	.toggle-input:checked + .toggle-switch {
-		background: var(--shadow-monarch);
+		background: var(--primary);
 	}
 
 	.toggle-input:checked + .toggle-switch::after {
@@ -563,7 +563,7 @@
 	}
 
 	.btn-primary {
-		background: var(--shadow-monarch);
+		background: var(--primary);
 		color: white;
 	}
 
@@ -573,12 +573,12 @@
 	}
 
 	.btn-secondary {
-		background: var(--void-elevated);
+		background: var(--bg-elevated);
 		color: var(--text-primary);
 	}
 
 	.btn-secondary:hover {
-		background: var(--void-highlight);
+		background: var(--bg-highlight);
 	}
 
 	.btn-danger {
@@ -602,8 +602,8 @@
 	}
 
 	.modal-dialog {
-		background: var(--void-surface);
-		border: 1px solid var(--void-elevated);
+		background: var(--bg-surface);
+		border: 1px solid var(--bg-elevated);
 		border-radius: 12px;
 		padding: 1.5rem;
 		max-width: 400px;

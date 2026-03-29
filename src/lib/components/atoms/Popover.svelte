@@ -110,7 +110,7 @@
 
 	{#if popupVisible}
 		<div
-			class="fixed z-[9999] min-w-[180px] rounded-lg border border-slate-700/50 bg-[#1a1a2e] p-2 shadow-[0_0_20px_rgba(124,58,237,0.2)]"
+			class="fixed z-[9999] min-w-[180px] rounded-lg border border-[var(--border-color)] bg-[var(--bg-surface)] p-2 shadow-[var(--shadow-lg)]"
 			style={popoverStyle}
 			on:click|stopPropagation
 			on:keydown

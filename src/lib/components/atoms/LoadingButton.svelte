@@ -79,77 +79,99 @@
 
 <style lang="scss">
 	.loading-button {
-		@apply relative inline-flex cursor-pointer items-center justify-center gap-2 whitespace-nowrap rounded-md border-none font-medium;
+		position: relative;
+		display: inline-flex;
+		align-items: center;
+		justify-content: center;
+		gap: 0.5rem;
+		white-space: nowrap;
+		border-radius: 0.375rem;
+		border: none;
+		font-weight: 500;
+		cursor: pointer;
 		transition: all 0.2s ease;
 
 		&--primary {
-			@apply bg-purple-600 text-white;
-			box-shadow: 0 0 15px rgba(124, 58, 237, 0.3);
+			background: linear-gradient(135deg, var(--primary-dark) 0%, var(--primary-darker) 100%);
+			color: var(--text-on-primary);
+			box-shadow: var(--glow-sm);
 
 			&:hover:not(:disabled) {
-				@apply bg-purple-700;
-				box-shadow: 0 0 20px rgba(124, 58, 237, 0.4);
+				background: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%);
+				box-shadow: var(--glow-md);
 			}
 		}
 
 		&--secondary {
-			@apply border border-slate-600 bg-slate-800/80 text-slate-200;
+			border: 1px solid color-mix(in srgb, var(--text-tertiary) 25%, transparent);
+			background: color-mix(in srgb, var(--bg-deep) 88%, transparent);
+			color: var(--text-secondary);
 
 			&:hover:not(:disabled) {
-				@apply border-purple-500 bg-purple-900/30 text-white;
+				border-color: color-mix(in srgb, var(--primary) 35%, transparent);
+				background: var(--primary-subtle);
+				color: var(--primary);
 			}
 		}
 
 		&--danger {
-			@apply bg-red-600 text-white;
+			background: linear-gradient(135deg, var(--error) 0%, var(--error-700) 100%);
+			color: var(--white);
 
 			&:hover:not(:disabled) {
-				@apply bg-red-700;
+				filter: brightness(1.05);
 			}
 		}
 
 		&--success {
-			@apply bg-green-600 text-white;
+			background: linear-gradient(135deg, var(--success) 0%, var(--success-text) 100%);
+			color: var(--white);
 
 			&:hover:not(:disabled) {
-				@apply bg-green-700;
+				filter: brightness(1.05);
 			}
 		}
 
 		&--sm {
-			@apply px-3 py-1 text-sm;
+			padding: 0.25rem 0.75rem;
+			font-size: 0.875rem;
 		}
 
 		&--md {
-			@apply px-4 py-2 text-base;
+			padding: 0.5rem 1rem;
+			font-size: 1rem;
 		}
 
 		&--lg {
-			@apply px-6 py-3 text-lg;
+			padding: 0.75rem 1.5rem;
+			font-size: 1.125rem;
 		}
 
 		&--full-width {
-			@apply w-full;
+			width: 100%;
 		}
 
 		&--loading {
-			@apply cursor-not-allowed opacity-80;
+			cursor: not-allowed;
+			opacity: 0.8;
 		}
 
 		&--disabled {
-			@apply cursor-not-allowed opacity-50;
+			cursor: not-allowed;
+			opacity: 0.5;
 		}
 
 		&:disabled {
-			@apply cursor-not-allowed;
+			cursor: not-allowed;
 		}
 	}
 
 	.loading-button__spinner {
-		@apply inline-flex items-center;
+		display: inline-flex;
+		align-items: center;
 	}
 
 	.loading-button__text {
-		@apply ml-1;
+		margin-left: 0.25rem;
 	}
 </style>

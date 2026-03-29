@@ -1,6 +1,5 @@
 <!-- src/lib/components/questions/AdminQuestionItem.svelte -->
 <script lang="ts">
-	import { createEventDispatcher } from 'svelte';
 	import { deserialize } from '$app/forms';
 	import { notifications } from '$lib/components/molecules/notifications';
 	import MasterCommentIcon from '$lib/components/icons/masterCommentIcon.svelte';
@@ -8,8 +7,6 @@
 
 	export let questionData: any;
 	export let tags: any[];
-
-	const dispatch = createEventDispatcher();
 
 	// Track question ID to reset local state when a different question is selected
 	let prevQuestionId: any = null;
@@ -56,21 +53,6 @@
 			editBackup = null;
 		}
 		editing = false;
-	}
-
-	async function remove() {
-		const body = new FormData();
-		body.append('questionId', questionData.id);
-
-		const resp = await fetch('/questions?/remove', { method: 'POST', body });
-		const result: any = deserialize(await resp.text());
-
-		if (result?.data?.success) {
-			notifications.success('Question removed', 3000);
-			dispatch('questionRemoved');
-		} else {
-			notifications.danger('Error removing question', 3000);
-		}
 	}
 
 	function removeTag(tag: any) {
@@ -129,544 +111,807 @@
 	}
 </script>
 
-<div class="question-card">
+<div class="question-detail-modal">
+	<header class="question-detail-modal__hero">
+		<div class="question-detail-modal__hero-copy">
+			<span class="question-detail-modal__eyebrow"
+				>{editing ? 'Editing question' : 'Question details'}</span
+			>
+			<h2 class="question-detail-modal__title">
+				{questionData.question_formatted || questionData.question}
+			</h2>
+			<p class="question-detail-modal__subtitle">
+				Review the public copy, moderation state, AI tags, and author details from one place.
+			</p>
+		</div>
+		<div class="question-detail-modal__status-list">
+			{#if selectedTags.length > 0}
+				<span class="question-detail-modal__status question-detail-modal__status--success"
+					>AI Tagged</span
+				>
+			{:else}
+				<span class="question-detail-modal__status question-detail-modal__status--neutral"
+					>Needs Tags</span
+				>
+			{/if}
+			{#if questionData.question_formatted && questionData.question_formatted !== questionData.question}
+				<span class="question-detail-modal__status question-detail-modal__status--info"
+					>Processed</span
+				>
+			{:else}
+				<span class="question-detail-modal__status question-detail-modal__status--neutral"
+					>Raw Copy</span
+				>
+			{/if}
+			{#if questionData.flagged}
+				<span class="question-detail-modal__status question-detail-modal__status--warning"
+					>Flagged</span
+				>
+			{/if}
+			{#if questionData.removed}
+				<span class="question-detail-modal__status question-detail-modal__status--danger"
+					>Removed</span
+				>
+			{/if}
+		</div>
+	</header>
+
 	{#if editing}
-		<!-- Edit Mode -->
-		<div class="edit-form">
-			<div class="edit-header">
-				<h2 class="edit-title">Edit Question</h2>
-				<button class="close-btn" on:click={cancelEditing}>
-					<XmarkIcon height="0.85rem" fill="currentColor" />
-				</button>
-			</div>
-
-			<div class="field-group">
-				<label class="field-label">Original</label>
-				<p class="original-text">{questionData.question}</p>
-			</div>
-
-			<div class="field-group">
-				<label class="field-label" for="formatted-question">Formatted</label>
-				<textarea
-					id="formatted-question"
-					bind:value={questionData.question_formatted}
-					class="field-textarea"
-					rows="3"
-				></textarea>
-			</div>
-
-			<div class="toggle-row">
-				<button
-					class="toggle-btn"
-					class:active={questionData.flagged}
-					class:warning={questionData.flagged}
-					on:click={() => (questionData.flagged = !questionData.flagged)}
-				>
-					Flagged
-				</button>
-				<button
-					class="toggle-btn"
-					class:active={questionData.removed}
-					class:danger={questionData.removed}
-					on:click={() => (questionData.removed = !questionData.removed)}
-				>
-					Removed
-				</button>
-			</div>
-
-			<div class="field-group">
-				<label class="field-label">Selected Tags</label>
-				<div class="tag-list">
-					{#each selectedTags as tag}
-						<span class="tag selected">
-							{tag.tag_name}
-							<button class="tag-remove" on:click={() => removeTag(tag)}>
-								<XmarkIcon height="0.6rem" fill="currentColor" />
-							</button>
-						</span>
-					{:else}
-						<span class="empty-text">No tags selected</span>
-					{/each}
+		<div class="question-detail-modal__grid">
+			<section class="question-detail-modal__panel question-detail-modal__panel--main">
+				<div class="question-detail-modal__section">
+					<span class="question-detail-modal__label">Original submission</span>
+					<p class="question-detail-modal__text-block question-detail-modal__text-block--muted">
+						{questionData.question}
+					</p>
 				</div>
-			</div>
 
-			<div class="field-group">
-				<label class="field-label">Add Tags</label>
-				<div class="tag-picker">
-					{#each availableTags as tag}
-						<button class="tag-add-btn" on:click={() => addTag(tag)}>
-							+ {tag.tag_name}
+				<div class="question-detail-modal__section">
+					<label class="question-detail-modal__label" for="formatted-question">Formatted copy</label
+					>
+					<textarea
+						id="formatted-question"
+						bind:value={questionData.question_formatted}
+						class="question-detail-modal__textarea"
+						rows="6"
+					></textarea>
+				</div>
+			</section>
+
+			<aside class="question-detail-modal__panel question-detail-modal__panel--side">
+				<div class="question-detail-modal__section">
+					<span class="question-detail-modal__label">Moderation</span>
+					<div class="question-detail-modal__toggle-grid">
+						<button
+							type="button"
+							class="question-detail-modal__toggle"
+							class:question-detail-modal__toggle--warning={questionData.flagged}
+							on:click={() => (questionData.flagged = !questionData.flagged)}
+						>
+							<span>Flagged</span>
+							<span>{questionData.flagged ? 'On' : 'Off'}</span>
 						</button>
-					{:else}
-						<span class="empty-text">All tags assigned</span>
-					{/each}
+						<button
+							type="button"
+							class="question-detail-modal__toggle"
+							class:question-detail-modal__toggle--danger={questionData.removed}
+							on:click={() => (questionData.removed = !questionData.removed)}
+						>
+							<span>Removed</span>
+							<span>{questionData.removed ? 'On' : 'Off'}</span>
+						</button>
+					</div>
 				</div>
-			</div>
 
-			<div class="edit-actions">
-				<button class="btn btn-secondary" on:click={cancelEditing}>Cancel</button>
-				<button class="btn btn-primary" disabled={questionEditsSaving} on:click={saveQuestionEdits}>
+				<div class="question-detail-modal__section">
+					<span class="question-detail-modal__label">Selected tags</span>
+					<div class="question-detail-modal__chip-list">
+						{#each selectedTags as tag}
+							<span class="question-detail-modal__chip question-detail-modal__chip--selected">
+								{tag.tag_name}
+								<button
+									type="button"
+									class="question-detail-modal__chip-remove"
+									aria-label={`Remove ${tag.tag_name}`}
+									on:click={() => removeTag(tag)}
+								>
+									<XmarkIcon height="0.65rem" fill="currentColor" />
+								</button>
+							</span>
+						{:else}
+							<span class="question-detail-modal__empty">No tags selected yet.</span>
+						{/each}
+					</div>
+				</div>
+
+				<div class="question-detail-modal__section">
+					<span class="question-detail-modal__label">Add tags</span>
+					<div class="question-detail-modal__tag-picker">
+						{#each availableTags as tag}
+							<button
+								type="button"
+								class="question-detail-modal__tag-action"
+								on:click={() => addTag(tag)}
+							>
+								+ {tag.tag_name}
+							</button>
+						{:else}
+							<span class="question-detail-modal__empty">All tags are already assigned.</span>
+						{/each}
+					</div>
+				</div>
+			</aside>
+		</div>
+
+		<footer class="question-detail-modal__footer">
+			<p class="question-detail-modal__footer-note">
+				Save updates to apply formatting, moderation state, and tag changes.
+			</p>
+			<div class="question-detail-modal__actions">
+				<button
+					type="button"
+					class="question-detail-modal__button question-detail-modal__button--secondary"
+					on:click={cancelEditing}
+				>
+					Cancel
+				</button>
+				<button
+					type="button"
+					class="question-detail-modal__button question-detail-modal__button--primary"
+					disabled={questionEditsSaving}
+					on:click={saveQuestionEdits}
+				>
 					{questionEditsSaving ? 'Saving...' : 'Save Changes'}
 				</button>
 			</div>
-		</div>
+		</footer>
 	{:else}
-		<!-- View Mode -->
-		<div class="view-section">
-			<span class="field-label">Original</span>
-			<p class="question-text">{questionData.question}</p>
-			{#if questionData.question_formatted && questionData.question_formatted !== questionData.question}
-				<span class="field-label">Formatted</span>
-				<p class="question-text formatted">{questionData.question_formatted}</p>
-			{/if}
+		<div class="question-detail-modal__grid">
+			<section class="question-detail-modal__panel question-detail-modal__panel--main">
+				<div class="question-detail-modal__section">
+					<span class="question-detail-modal__label">Original submission</span>
+					<p class="question-detail-modal__text-block">{questionData.question}</p>
+				</div>
+
+				<div class="question-detail-modal__section">
+					<span class="question-detail-modal__label">Formatted copy</span>
+					{#if questionData.question_formatted && questionData.question_formatted !== questionData.question}
+						<p class="question-detail-modal__text-block question-detail-modal__text-block--accent">
+							{questionData.question_formatted}
+						</p>
+					{:else}
+						<p class="question-detail-modal__empty-card">
+							No formatted version has been saved yet. The public question is still using the
+							original submission.
+						</p>
+					{/if}
+				</div>
+
+				<div class="question-detail-modal__section">
+					<span class="question-detail-modal__label">Keywords</span>
+					<div class="question-detail-modal__chip-list">
+						{#each questionData.keywords || [] as keyword}
+							<span class="question-detail-modal__chip question-detail-modal__chip--keyword"
+								>{keyword}</span
+							>
+						{:else}
+							<span class="question-detail-modal__empty">No keywords generated yet.</span>
+						{/each}
+					</div>
+				</div>
+
+				<div class="question-detail-modal__section">
+					<span class="question-detail-modal__label">Question tags</span>
+					<div class="question-detail-modal__chip-list">
+						{#each selectedTags as tag}
+							<span class="question-detail-modal__chip">{tag.tag_name}</span>
+						{:else}
+							<span class="question-detail-modal__empty"
+								>This question does not have category tags yet.</span
+							>
+						{/each}
+					</div>
+				</div>
+			</section>
+
+			<aside class="question-detail-modal__panel question-detail-modal__panel--side">
+				<div class="question-detail-modal__summary-list">
+					<div class="question-detail-modal__summary-item">
+						<span class="question-detail-modal__label">Created</span>
+						<strong class="question-detail-modal__summary-value">{formattedDate}</strong>
+					</div>
+
+					<div class="question-detail-modal__summary-item">
+						<span class="question-detail-modal__label">Comments</span>
+						<strong
+							class="question-detail-modal__summary-value question-detail-modal__summary-value--inline"
+						>
+							<MasterCommentIcon
+								height="0.9rem"
+								fill="currentColor"
+								type={questionData.comment_count ? 'multiple' : 'empty'}
+							/>
+							{questionData.comment_count || '0'}
+						</strong>
+					</div>
+
+					<div class="question-detail-modal__summary-item">
+						<span class="question-detail-modal__label">Slug</span>
+						<strong
+							class="question-detail-modal__summary-value question-detail-modal__summary-value--wrap"
+							>/questions/{questionData.url}</strong
+						>
+					</div>
+
+					{#if questionData.profiles?.external_id || questionData.profiles?.email || questionData.profiles?.enneagram}
+						<div class="question-detail-modal__summary-item">
+							<span class="question-detail-modal__label">Author</span>
+							<div class="question-detail-modal__author">
+								<strong
+									class="question-detail-modal__summary-value question-detail-modal__summary-value--wrap"
+								>
+									{questionData.profiles?.external_id || 'Unknown user'}
+								</strong>
+								{#if questionData.profiles?.email}
+									<span class="question-detail-modal__author-email"
+										>{questionData.profiles.email}</span
+									>
+								{/if}
+								{#if questionData.profiles?.enneagram}
+									<span class="question-detail-modal__author-meta"
+										>Type {questionData.profiles.enneagram}</span
+									>
+								{/if}
+							</div>
+						</div>
+					{/if}
+				</div>
+			</aside>
 		</div>
 
-		<div class="meta-row">
-			{#if questionData.flagged}
-				<span class="status-badge warning">Flagged</span>
-			{/if}
-			{#if questionData.removed}
-				<span class="status-badge danger">Removed</span>
-			{/if}
-			<span class="meta-badge">
-				{formattedDate}
-			</span>
-			<span class="meta-badge comments">
-				<MasterCommentIcon
-					height="0.85rem"
-					fill="currentColor"
-					type={questionData.comment_count ? 'multiple' : 'empty'}
-				/>
-				{questionData.comment_count || '0'}
-			</span>
-		</div>
-
-		{#if questionData.keywords?.length}
-			<div class="tag-section">
-				<span class="field-label">Keywords</span>
-				<div class="tag-list">
-					{#each questionData.keywords as keyword}
-						<span class="tag keyword">{keyword}</span>
-					{/each}
-				</div>
-			</div>
-		{/if}
-
-		{#if selectedTags.length}
-			<div class="tag-section">
-				<span class="field-label">Tags</span>
-				<div class="tag-list">
-					{#each selectedTags as tag}
-						<span class="tag">{tag.tag_name}</span>
-					{/each}
-				</div>
-			</div>
-		{/if}
-
-		<div class="action-row">
-			{#if confirmingTag}
-				<div class="confirm-inline">
-					<span class="confirm-text">Run AI tagging?</span>
-					<button class="btn btn-primary btn-sm" disabled={taggingLoading} on:click={tagQuestion}>
-						{taggingLoading ? 'Tagging...' : 'Confirm'}
+		<footer class="question-detail-modal__footer">
+			<div class="question-detail-modal__footer-primary">
+				{#if confirmingTag}
+					<div class="question-detail-modal__confirm">
+						<span class="question-detail-modal__confirm-text">Run AI tagging now?</span>
+						<div class="question-detail-modal__confirm-actions">
+							<button
+								type="button"
+								class="question-detail-modal__button question-detail-modal__button--primary question-detail-modal__button--small"
+								disabled={taggingLoading}
+								on:click={tagQuestion}
+							>
+								{taggingLoading ? 'Tagging...' : 'Confirm'}
+							</button>
+							<button
+								type="button"
+								class="question-detail-modal__button question-detail-modal__button--secondary question-detail-modal__button--small"
+								on:click={() => (confirmingTag = false)}
+							>
+								Cancel
+							</button>
+						</div>
+					</div>
+				{:else}
+					<button
+						type="button"
+						class="question-detail-modal__button question-detail-modal__button--outline"
+						on:click={() => (confirmingTag = true)}
+					>
+						AI Tag
 					</button>
-					<button class="btn btn-secondary btn-sm" on:click={() => (confirmingTag = false)}>
-						Cancel
-					</button>
-				</div>
-			{:else}
-				<button class="btn btn-outline" on:click={() => (confirmingTag = true)}>AI Tag</button>
-			{/if}
-			<div class="action-spacer"></div>
-			<button class="btn btn-outline" on:click={startEditing}>Edit</button>
-			<a href="/questions/{questionData.url}" class="btn btn-primary" target="_blank">View</a>
-		</div>
+				{/if}
+			</div>
+
+			<div class="question-detail-modal__actions">
+				<button
+					type="button"
+					class="question-detail-modal__button question-detail-modal__button--secondary"
+					on:click={startEditing}
+				>
+					Edit Question
+				</button>
+				<a
+					href="/questions/{questionData.url}"
+					class="question-detail-modal__button question-detail-modal__button--primary"
+					target="_blank"
+				>
+					Open Public Page
+				</a>
+			</div>
+		</footer>
 	{/if}
 </div>
 
 <style>
-	.question-card {
-		display: flex;
-		flex-direction: column;
-		width: 100%;
-		background: var(--card-background, #fff);
-		border: 1px solid var(--border-color, #e2e8f0);
-		border-radius: 12px;
+	.question-detail-modal {
 		overflow: hidden;
-	}
-
-	/* Edit Mode */
-	.edit-form {
-		padding: 20px;
-		max-height: 70vh;
-		overflow-y: auto;
-		display: flex;
-		flex-direction: column;
-		gap: 16px;
-	}
-
-	.edit-header {
-		display: flex;
-		justify-content: space-between;
-		align-items: center;
-	}
-
-	.edit-title {
-		font-size: 1rem;
-		font-weight: 600;
-		color: var(--text-primary, #1e293b);
-		margin: 0;
-	}
-
-	.close-btn {
-		display: flex;
-		align-items: center;
-		justify-content: center;
-		width: 28px;
-		height: 28px;
-		border-radius: 6px;
-		border: none;
-		background: transparent;
-		color: var(--text-secondary, #64748b);
-		cursor: pointer;
-		transition: all 0.15s ease;
-	}
-
-	.close-btn:hover {
-		background: var(--hover-background, #f1f5f9);
-		color: var(--text-primary, #1e293b);
-	}
-
-	/* Field Groups */
-	.field-group {
-		display: flex;
-		flex-direction: column;
-		gap: 4px;
-	}
-
-	.field-label {
-		font-size: 0.7rem;
-		font-weight: 600;
-		color: var(--text-secondary, #64748b);
-		text-transform: uppercase;
-		letter-spacing: 0.04em;
-	}
-
-	.original-text {
-		font-size: 0.85rem;
-		color: var(--text-secondary, #64748b);
-		margin: 0;
-		padding: 8px 12px;
-		background: var(--hover-background, #f8fafc);
-		border-radius: 8px;
-		line-height: 1.5;
-	}
-
-	.field-textarea {
 		width: 100%;
-		padding: 10px 12px;
-		border: 1px solid var(--border-color, #e2e8f0);
-		border-radius: 8px;
-		font-size: 0.85rem;
-		font-family: inherit;
-		color: var(--text-primary, #1e293b);
-		background: var(--card-background, #fff);
-		resize: vertical;
-		line-height: 1.5;
-		transition: border-color 0.15s ease;
+		border: 1px solid color-mix(in srgb, var(--primary) 12%, var(--border-color));
+		border-radius: 24px;
+		background: linear-gradient(
+			180deg,
+			var(--bg-surface) 0%,
+			color-mix(in srgb, var(--bg-surface) 82%, var(--bg-deep)) 100%
+		);
+		box-shadow: var(--shadow-md);
 	}
 
-	.field-textarea:focus {
-		outline: none;
-		border-color: var(--primary, #3b82f6);
-		box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.1);
-	}
-
-	/* Toggle Buttons */
-	.toggle-row {
-		display: flex;
-		gap: 8px;
-	}
-
-	.toggle-btn {
-		padding: 6px 14px;
-		border: 1px solid var(--border-color, #e2e8f0);
-		border-radius: 6px;
-		background: var(--card-background, #fff);
-		color: var(--text-secondary, #64748b);
-		font-size: 0.8rem;
-		font-weight: 500;
-		cursor: pointer;
-		transition: all 0.15s ease;
-	}
-
-	.toggle-btn:hover {
-		border-color: var(--primary, #3b82f6);
-	}
-
-	.toggle-btn.active.warning {
-		background: rgba(245, 158, 11, 0.1);
-		border-color: #f59e0b;
-		color: #d97706;
-	}
-
-	.toggle-btn.active.danger {
-		background: rgba(239, 68, 68, 0.1);
-		border-color: #ef4444;
-		color: #dc2626;
-	}
-
-	/* Tags */
-	.tag-section {
-		padding: 0 20px;
-		padding-bottom: 12px;
-		display: flex;
-		flex-direction: column;
-		gap: 6px;
-	}
-
-	.tag-list {
+	.question-detail-modal__hero {
 		display: flex;
 		flex-wrap: wrap;
-		gap: 6px;
+		align-items: flex-start;
+		justify-content: space-between;
+		gap: 16px;
+		padding: 28px 72px 24px 28px;
+		border-bottom: 1px solid color-mix(in srgb, var(--primary) 10%, var(--border-color));
+		background: linear-gradient(
+			140deg,
+			color-mix(in srgb, var(--primary) 10%, var(--bg-surface)) 0%,
+			var(--bg-deep) 100%
+		);
 	}
 
-	.tag {
-		display: inline-flex;
-		align-items: center;
-		gap: 4px;
-		padding: 3px 10px;
-		background: rgba(99, 102, 241, 0.08);
-		color: #6366f1;
-		border-radius: 12px;
-		font-size: 0.75rem;
-		font-weight: 500;
+	.question-detail-modal__hero-copy {
+		max-width: 680px;
 	}
 
-	.tag.keyword {
-		background: rgba(16, 185, 129, 0.08);
-		color: #059669;
+	.question-detail-modal__eyebrow,
+	.question-detail-modal__label {
+		display: inline-block;
+		font-size: 0.72rem;
+		font-weight: 700;
+		letter-spacing: 0.08em;
+		text-transform: uppercase;
+		color: var(--text-secondary);
 	}
 
-	.tag.selected {
-		background: rgba(99, 102, 241, 0.12);
-	}
-
-	.tag-remove {
-		display: inline-flex;
-		align-items: center;
-		justify-content: center;
-		width: 16px;
-		height: 16px;
-		border: none;
-		background: transparent;
-		color: inherit;
-		cursor: pointer;
-		border-radius: 50%;
-		padding: 0;
-		opacity: 0.6;
-		transition: opacity 0.15s ease;
-	}
-
-	.tag-remove:hover {
-		opacity: 1;
-	}
-
-	.tag-picker {
-		display: flex;
-		flex-wrap: wrap;
-		gap: 6px;
-		max-height: 140px;
-		overflow-y: auto;
-		padding: 8px;
-		border: 1px solid var(--border-color, #e2e8f0);
-		border-radius: 8px;
-	}
-
-	.tag-add-btn {
-		padding: 3px 10px;
-		border: 1px dashed var(--border-color, #cbd5e1);
-		border-radius: 12px;
-		background: transparent;
-		color: var(--text-secondary, #64748b);
-		font-size: 0.75rem;
-		font-weight: 500;
-		cursor: pointer;
-		transition: all 0.15s ease;
-	}
-
-	.tag-add-btn:hover {
-		border-color: var(--primary, #3b82f6);
-		color: var(--primary, #3b82f6);
-		background: rgba(59, 130, 246, 0.04);
-	}
-
-	.empty-text {
-		font-size: 0.8rem;
-		color: var(--text-secondary, #94a3b8);
-	}
-
-	/* View Mode */
-	.view-section {
-		display: flex;
-		flex-direction: column;
-		gap: 4px;
-		padding: 20px 20px 12px;
-	}
-
-	.question-text {
-		font-size: 0.95rem;
-		color: var(--text-primary, #1e293b);
-		margin: 0 0 8px;
-		line-height: 1.5;
+	.question-detail-modal__title {
+		margin: 10px 0 0;
+		font-size: clamp(1.3rem, 1.8vw, 1.85rem);
+		line-height: 1.35;
+		color: var(--text-primary);
 		word-break: break-word;
 	}
 
-	.question-text.formatted {
-		font-weight: 500;
+	.question-detail-modal__subtitle {
+		margin: 12px 0 0;
+		max-width: 58ch;
+		font-size: 0.92rem;
+		line-height: 1.6;
+		color: var(--text-secondary);
 	}
 
-	/* Meta Row */
-	.meta-row {
+	.question-detail-modal__status-list {
 		display: flex;
 		flex-wrap: wrap;
-		align-items: center;
 		gap: 8px;
-		padding: 0 20px;
-		padding-bottom: 12px;
+		justify-content: flex-end;
+		max-width: 320px;
 	}
 
-	.status-badge {
-		padding: 2px 10px;
-		border-radius: 12px;
-		font-size: 0.7rem;
-		font-weight: 600;
-	}
-
-	.status-badge.warning {
-		background: rgba(245, 158, 11, 0.1);
-		color: #d97706;
-	}
-
-	.status-badge.danger {
-		background: rgba(239, 68, 68, 0.1);
-		color: #dc2626;
-	}
-
-	.meta-badge {
+	.question-detail-modal__status {
 		display: inline-flex;
 		align-items: center;
-		gap: 4px;
-		padding: 2px 10px;
-		background: var(--hover-background, #f1f5f9);
-		color: var(--text-secondary, #64748b);
-		border-radius: 12px;
-		font-size: 0.75rem;
-		font-weight: 500;
+		padding: 6px 10px;
+		border-radius: 999px;
+		font-size: 0.72rem;
+		font-weight: 700;
+		line-height: 1;
 	}
 
-	.meta-badge.comments {
-		background: rgba(16, 185, 129, 0.08);
-		color: #059669;
+	.question-detail-modal__status--success {
+		background: rgba(16, 185, 129, 0.13);
+		color: #34d399;
 	}
 
-	/* Action Row */
-	.action-row {
+	.question-detail-modal__status--info {
+		background: rgba(59, 130, 246, 0.14);
+		color: #60a5fa;
+	}
+
+	.question-detail-modal__status--warning {
+		background: rgba(245, 158, 11, 0.15);
+		color: #fbbf24;
+	}
+
+	.question-detail-modal__status--danger {
+		background: rgba(239, 68, 68, 0.14);
+		color: #fca5a5;
+	}
+
+	.question-detail-modal__status--neutral {
+		background: rgba(148, 163, 184, 0.16);
+		color: #cbd5e1;
+	}
+
+	.question-detail-modal__grid {
+		display: grid;
+		grid-template-columns: minmax(0, 1.55fr) minmax(300px, 0.95fr);
+		gap: 18px;
+		padding: 24px 28px 0;
+	}
+
+	.question-detail-modal__panel {
 		display: flex;
-		flex-wrap: wrap;
-		align-items: center;
-		gap: 8px;
-		padding: 12px 20px;
-		border-top: 1px solid var(--border-color, #e2e8f0);
-		background: var(--hover-background, #f8fafc);
+		flex-direction: column;
+		gap: 18px;
+		min-width: 0;
+		padding: 20px;
+		border: 1px solid var(--border-color);
+		border-radius: 18px;
+		background: linear-gradient(
+			180deg,
+			color-mix(in srgb, var(--bg-deep) 88%, black) 0%,
+			var(--bg-deep) 100%
+		);
 	}
 
-	.action-spacer {
-		flex: 1;
+	.question-detail-modal__section {
+		display: flex;
+		flex-direction: column;
+		gap: 10px;
 		min-width: 0;
 	}
 
-	/* Confirm Inline */
-	.confirm-inline {
+	.question-detail-modal__text-block,
+	.question-detail-modal__textarea,
+	.question-detail-modal__empty-card {
+		margin: 0;
+		padding: 16px;
+		border: 1px solid color-mix(in srgb, var(--primary) 8%, var(--border-color));
+		border-radius: 16px;
+		background: color-mix(in srgb, var(--bg-surface) 78%, var(--bg-deep));
+		color: var(--text-primary);
+		line-height: 1.65;
+		word-break: break-word;
+	}
+
+	.question-detail-modal__text-block--muted,
+	.question-detail-modal__empty-card {
+		color: color-mix(in srgb, var(--text-secondary) 88%, white 12%);
+	}
+
+	.question-detail-modal__text-block--accent {
+		border-color: color-mix(in srgb, var(--primary) 20%, var(--border-color));
+		background: color-mix(in srgb, var(--primary) 8%, var(--bg-surface));
+	}
+
+	.question-detail-modal__textarea {
+		min-height: 180px;
+		width: 100%;
+		resize: vertical;
+		font: inherit;
+	}
+
+	.question-detail-modal__textarea:focus {
+		outline: none;
+		border-color: color-mix(in srgb, var(--primary) 60%, var(--border-color));
+		box-shadow: 0 0 0 3px color-mix(in srgb, var(--primary) 18%, transparent);
+	}
+
+	.question-detail-modal__toggle-grid {
+		display: grid;
+		grid-template-columns: repeat(2, minmax(0, 1fr));
+		gap: 10px;
+	}
+
+	.question-detail-modal__toggle {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		gap: 10px;
+		min-height: 48px;
+		padding: 12px 14px;
+		border: 1px solid var(--border-color);
+		border-radius: 14px;
+		background: color-mix(in srgb, var(--bg-surface) 74%, var(--bg-deep));
+		color: var(--text-secondary);
+		font-size: 0.85rem;
+		font-weight: 650;
+		cursor: pointer;
+		transition:
+			border-color 0.2s ease,
+			background 0.2s ease,
+			color 0.2s ease;
+	}
+
+	.question-detail-modal__toggle:hover {
+		border-color: color-mix(in srgb, var(--primary) 30%, var(--border-color));
+		color: var(--text-primary);
+	}
+
+	.question-detail-modal__toggle--warning {
+		border-color: rgba(245, 158, 11, 0.45);
+		background: rgba(245, 158, 11, 0.14);
+		color: #fbbf24;
+	}
+
+	.question-detail-modal__toggle--danger {
+		border-color: rgba(239, 68, 68, 0.45);
+		background: rgba(239, 68, 68, 0.12);
+		color: #fca5a5;
+	}
+
+	.question-detail-modal__chip-list {
 		display: flex;
 		flex-wrap: wrap;
+		gap: 8px;
+	}
+
+	.question-detail-modal__chip {
+		display: inline-flex;
 		align-items: center;
 		gap: 6px;
-		padding: 4px 12px;
-		background: rgba(59, 130, 246, 0.06);
-		border: 1px solid rgba(59, 130, 246, 0.15);
-		border-radius: 8px;
-	}
-
-	.confirm-text {
+		padding: 7px 12px;
+		border-radius: 999px;
+		background: rgba(99, 102, 241, 0.12);
+		color: #a5b4fc;
 		font-size: 0.8rem;
-		font-weight: 500;
-		color: var(--text-primary, #1e293b);
+		font-weight: 650;
 	}
 
-	/* Buttons */
-	.btn {
+	.question-detail-modal__chip--keyword {
+		background: rgba(16, 185, 129, 0.12);
+		color: #6ee7b7;
+	}
+
+	.question-detail-modal__chip--selected {
+		background: color-mix(in srgb, var(--primary) 12%, transparent);
+		color: color-mix(in srgb, var(--primary) 82%, white);
+	}
+
+	.question-detail-modal__chip-remove {
 		display: inline-flex;
 		align-items: center;
 		justify-content: center;
-		padding: 7px 16px;
-		border-radius: 8px;
-		font-size: 0.8rem;
-		font-weight: 500;
-		cursor: pointer;
-		transition: all 0.15s ease;
-		text-decoration: none;
+		width: 18px;
+		height: 18px;
+		padding: 0;
 		border: none;
-		line-height: 1.3;
+		border-radius: 999px;
+		background: rgba(255, 255, 255, 0.08);
+		color: inherit;
+		cursor: pointer;
+		transition: background 0.2s ease;
 	}
 
-	.btn:disabled {
-		opacity: 0.5;
+	.question-detail-modal__chip-remove:hover {
+		background: rgba(255, 255, 255, 0.16);
+	}
+
+	.question-detail-modal__tag-picker {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 8px;
+		max-height: 240px;
+		overflow-y: auto;
+		padding: 4px;
+	}
+
+	.question-detail-modal__tag-action {
+		padding: 8px 12px;
+		border: 1px dashed color-mix(in srgb, var(--primary) 20%, var(--border-color));
+		border-radius: 999px;
+		background: transparent;
+		color: var(--text-secondary);
+		font-size: 0.78rem;
+		font-weight: 650;
+		cursor: pointer;
+		transition:
+			border-color 0.2s ease,
+			color 0.2s ease,
+			background 0.2s ease;
+	}
+
+	.question-detail-modal__tag-action:hover {
+		border-color: color-mix(in srgb, var(--primary) 50%, var(--border-color));
+		background: color-mix(in srgb, var(--primary) 10%, transparent);
+		color: color-mix(in srgb, var(--primary) 82%, white);
+	}
+
+	.question-detail-modal__empty {
+		color: var(--text-secondary);
+		font-size: 0.84rem;
+		line-height: 1.5;
+	}
+
+	.question-detail-modal__summary-list {
+		display: grid;
+		gap: 12px;
+	}
+
+	.question-detail-modal__summary-item {
+		display: flex;
+		flex-direction: column;
+		gap: 8px;
+		padding: 14px 16px;
+		border: 1px solid color-mix(in srgb, var(--primary) 8%, var(--border-color));
+		border-radius: 16px;
+		background: color-mix(in srgb, var(--bg-surface) 70%, var(--bg-deep));
+	}
+
+	.question-detail-modal__summary-value {
+		font-size: 0.95rem;
+		color: var(--text-primary);
+	}
+
+	.question-detail-modal__summary-value--inline {
+		display: inline-flex;
+		align-items: center;
+		gap: 8px;
+	}
+
+	.question-detail-modal__summary-value--wrap {
+		word-break: break-word;
+	}
+
+	.question-detail-modal__author {
+		display: flex;
+		flex-direction: column;
+		gap: 6px;
+	}
+
+	.question-detail-modal__author-email,
+	.question-detail-modal__author-meta {
+		color: var(--text-secondary);
+		font-size: 0.82rem;
+		line-height: 1.4;
+		word-break: break-word;
+	}
+
+	.question-detail-modal__footer {
+		display: flex;
+		flex-wrap: wrap;
+		align-items: center;
+		justify-content: space-between;
+		gap: 16px;
+		padding: 20px 28px 28px;
+	}
+
+	.question-detail-modal__footer-primary {
+		display: flex;
+		flex: 1 1 320px;
+		align-items: center;
+		min-width: 0;
+	}
+
+	.question-detail-modal__footer-note {
+		margin: 0;
+		flex: 1 1 280px;
+		font-size: 0.86rem;
+		line-height: 1.55;
+		color: var(--text-secondary);
+	}
+
+	.question-detail-modal__actions {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 10px;
+		margin-left: auto;
+	}
+
+	.question-detail-modal__confirm {
+		display: flex;
+		flex-wrap: wrap;
+		align-items: center;
+		gap: 10px;
+		width: 100%;
+		padding: 12px 14px;
+		border: 1px solid color-mix(in srgb, var(--primary) 16%, var(--border-color));
+		border-radius: 16px;
+		background: color-mix(in srgb, var(--primary) 8%, var(--bg-surface));
+	}
+
+	.question-detail-modal__confirm-text {
+		font-size: 0.88rem;
+		font-weight: 650;
+		color: var(--text-primary);
+	}
+
+	.question-detail-modal__confirm-actions {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 8px;
+		margin-left: auto;
+	}
+
+	.question-detail-modal__button {
+		display: inline-flex;
+		align-items: center;
+		justify-content: center;
+		min-height: 42px;
+		padding: 0 16px;
+		border-radius: 12px;
+		border: 1px solid transparent;
+		font-size: 0.84rem;
+		font-weight: 700;
+		line-height: 1;
+		text-decoration: none;
+		cursor: pointer;
+		transition:
+			transform 0.2s ease,
+			background 0.2s ease,
+			color 0.2s ease,
+			border-color 0.2s ease,
+			opacity 0.2s ease;
+	}
+
+	.question-detail-modal__button:hover:not(:disabled) {
+		transform: translateY(-1px);
+	}
+
+	.question-detail-modal__button:disabled {
+		opacity: 0.55;
 		cursor: not-allowed;
 	}
 
-	.btn-sm {
-		padding: 5px 12px;
-		font-size: 0.75rem;
+	.question-detail-modal__button--small {
+		min-height: 36px;
+		padding: 0 14px;
+		font-size: 0.78rem;
 	}
 
-	.btn-primary {
-		background: var(--primary, #3b82f6);
+	.question-detail-modal__button--primary {
+		background: var(--primary);
 		color: white;
 	}
 
-	.btn-primary:hover:not(:disabled) {
-		background: #2563eb;
+	.question-detail-modal__button--secondary,
+	.question-detail-modal__button--outline {
+		border-color: var(--border-color);
+		background: color-mix(in srgb, var(--bg-surface) 76%, var(--bg-deep));
+		color: var(--text-primary);
 	}
 
-	.btn-secondary {
-		background: var(--card-background, #fff);
-		color: var(--text-secondary, #64748b);
-		border: 1px solid var(--border-color, #e2e8f0);
+	.question-detail-modal__button--secondary:hover:not(:disabled),
+	.question-detail-modal__button--outline:hover:not(:disabled) {
+		border-color: color-mix(in srgb, var(--primary) 35%, var(--border-color));
+		color: color-mix(in srgb, var(--primary) 82%, white);
 	}
 
-	.btn-secondary:hover {
-		border-color: var(--text-secondary, #94a3b8);
-		color: var(--text-primary, #1e293b);
+	@media (max-width: 920px) {
+		.question-detail-modal__grid {
+			grid-template-columns: 1fr;
+		}
 	}
 
-	.btn-outline {
-		background: var(--card-background, #fff);
-		color: var(--text-secondary, #64748b);
-		border: 1px solid var(--border-color, #e2e8f0);
+	@media (max-width: 720px) {
+		.question-detail-modal__hero {
+			padding: 24px 52px 20px 20px;
+		}
+
+		.question-detail-modal__grid {
+			padding: 20px 20px 0;
+		}
+
+		.question-detail-modal__panel {
+			padding: 16px;
+		}
+
+		.question-detail-modal__footer {
+			padding: 18px 20px 20px;
+		}
+
+		.question-detail-modal__toggle-grid {
+			grid-template-columns: 1fr;
+		}
 	}
 
-	.btn-outline:hover {
-		border-color: var(--primary, #3b82f6);
-		color: var(--primary, #3b82f6);
-	}
+	@media (max-width: 560px) {
+		.question-detail-modal__status-list,
+		.question-detail-modal__actions,
+		.question-detail-modal__confirm-actions {
+			width: 100%;
+		}
 
-	/* Edit Actions */
-	.edit-actions {
-		display: flex;
-		justify-content: flex-end;
-		gap: 8px;
-		padding-top: 8px;
-		border-top: 1px solid var(--border-color, #e2e8f0);
+		.question-detail-modal__actions .question-detail-modal__button,
+		.question-detail-modal__actions a {
+			flex: 1 1 0;
+		}
+
+		.question-detail-modal__confirm-actions {
+			margin-left: 0;
+		}
 	}
 </style>

@@ -601,8 +601,8 @@
 	}
 
 	.modal-dialog {
-		background: var(--void-surface);
-		border: 1px solid var(--void-elevated);
+		background: var(--bg-surface);
+		border: 1px solid var(--bg-elevated);
 		border-radius: 12px;
 		max-width: 900px;
 		width: 100%;
@@ -616,7 +616,7 @@
 		align-items: center;
 		padding: 1rem 1.25rem;
 		border-bottom: 3px solid;
-		background: var(--void-deep);
+		background: var(--bg-deep);
 	}
 
 	.header-left {
@@ -658,7 +658,7 @@
 	}
 
 	.status-scheduled {
-		background: rgba(59, 130, 246, 0.15);
+		background: rgba(251, 113, 133, 0.15);
 		color: #60a5fa;
 	}
 
@@ -678,7 +678,7 @@
 	}
 
 	.status-default {
-		background: var(--void-elevated);
+		background: var(--bg-elevated);
 		color: var(--text-secondary);
 	}
 
@@ -695,16 +695,16 @@
 		width: 36px;
 		height: 36px;
 		border-radius: 8px;
-		border: 1px solid var(--void-elevated);
-		background: var(--void-surface);
+		border: 1px solid var(--bg-elevated);
+		background: var(--bg-surface);
 		color: var(--text-secondary);
 		cursor: pointer;
 		transition: all 0.15s ease;
 	}
 
 	.icon-btn:hover {
-		color: var(--shadow-monarch);
-		border-color: var(--shadow-monarch);
+		color: var(--primary);
+		border-color: var(--primary);
 	}
 
 	.modal-body {
@@ -731,7 +731,7 @@
 	}
 
 	.btn-primary {
-		background: var(--shadow-monarch);
+		background: var(--primary);
 		color: white;
 	}
 
@@ -745,12 +745,12 @@
 	}
 
 	.btn-secondary {
-		background: var(--void-elevated);
+		background: var(--bg-elevated);
 		color: var(--text-primary);
 	}
 
 	.btn-secondary:hover {
-		background: var(--void-highlight);
+		background: var(--bg-highlight);
 	}
 
 	/* Spinner */
@@ -782,8 +782,8 @@
 		align-items: center;
 		gap: 1rem;
 		padding: 1rem;
-		background: var(--void-deep);
-		border: 1px solid var(--void-elevated);
+		background: var(--bg-deep);
+		border: 1px solid var(--bg-elevated);
 		border-radius: 12px;
 	}
 
@@ -793,7 +793,7 @@
 		justify-content: center;
 		width: 44px;
 		height: 44px;
-		background: var(--shadow-monarch);
+		background: var(--primary);
 		color: white;
 		border-radius: 8px;
 	}
@@ -825,8 +825,8 @@
 
 	.content-preview-section {
 		padding: 1rem;
-		background: var(--void-deep);
-		border: 1px solid var(--void-elevated);
+		background: var(--bg-deep);
+		border: 1px solid var(--bg-elevated);
 		border-radius: 12px;
 	}
 
@@ -855,9 +855,9 @@
 		padding: 1rem;
 		padding-left: 2.5rem;
 		margin-bottom: 0.75rem;
-		background: var(--void-surface);
+		background: var(--bg-surface);
 		border-radius: 8px;
-		border-left: 3px solid var(--shadow-monarch);
+		border-left: 3px solid var(--primary);
 	}
 
 	.thread-number {
@@ -869,7 +869,7 @@
 		display: flex;
 		align-items: center;
 		justify-content: center;
-		background: var(--shadow-monarch);
+		background: var(--primary);
 		color: white;
 		border-radius: 50%;
 		font-size: 0.6875rem;
@@ -892,7 +892,7 @@
 
 	.metadata-item {
 		padding: 0.75rem 1rem;
-		background: var(--void-deep);
+		background: var(--bg-deep);
 		border-radius: 8px;
 	}
 
@@ -921,7 +921,7 @@
 		padding: 0.125rem 0.5rem;
 		font-size: 0.75rem;
 		background: rgba(99, 102, 241, 0.1);
-		color: var(--shadow-monarch);
+		color: var(--primary);
 		border-radius: 4px;
 	}
 
@@ -943,7 +943,7 @@
 		flex-direction: column;
 		gap: 0.875rem;
 		padding: 1rem;
-		background: var(--void-deep);
+		background: var(--bg-deep);
 		border-radius: 12px;
 	}
 
@@ -981,16 +981,16 @@
 		width: 100%;
 		padding: 0.5rem 0.75rem;
 		font-size: 0.875rem;
-		border: 1px solid var(--void-elevated);
+		border: 1px solid var(--bg-elevated);
 		border-radius: 8px;
-		background: var(--void-deep);
+		background: var(--bg-deep);
 		color: var(--text-primary);
 		transition: border-color 0.15s ease;
 	}
 
 	.field-input:focus {
 		outline: none;
-		border-color: var(--shadow-monarch);
+		border-color: var(--primary);
 	}
 
 	.field-textarea {
@@ -1023,7 +1023,7 @@
 		position: relative;
 		width: 36px;
 		height: 20px;
-		background: var(--void-elevated);
+		background: var(--bg-elevated);
 		border-radius: 10px;
 		transition: background 0.2s ease;
 	}
@@ -1041,7 +1041,7 @@
 	}
 
 	.toggle-input:checked + .toggle-switch {
-		background: var(--shadow-monarch);
+		background: var(--primary);
 	}
 
 	.toggle-input:checked + .toggle-switch::after {
@@ -1062,8 +1062,8 @@
 
 	.thread-edit-block {
 		padding: 0.75rem;
-		background: var(--void-deep);
-		border: 1px solid var(--void-elevated);
+		background: var(--bg-deep);
+		border: 1px solid var(--bg-elevated);
 		border-radius: 8px;
 	}
 
@@ -1120,9 +1120,9 @@
 		padding: 0.75rem;
 		font-size: 0.875rem;
 		font-weight: 500;
-		color: var(--shadow-monarch);
+		color: var(--primary);
 		background: transparent;
-		border: 1px dashed var(--void-elevated);
+		border: 1px dashed var(--bg-elevated);
 		border-radius: 8px;
 		cursor: pointer;
 		transition: all 0.15s ease;
@@ -1130,7 +1130,7 @@
 
 	.add-thread-btn:hover {
 		background: rgba(99, 102, 241, 0.05);
-		border-color: var(--shadow-monarch);
+		border-color: var(--primary);
 	}
 
 	/* Responsive */

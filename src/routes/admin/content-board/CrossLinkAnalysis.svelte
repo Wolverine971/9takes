@@ -359,15 +359,15 @@
 		width: 24px;
 		height: 24px;
 		background: transparent;
-		border: 1px solid var(--void-highlight);
+		border: 1px solid var(--bg-highlight);
 		border-radius: 4px;
 		cursor: pointer;
 		color: var(--text-muted);
 		transition: all 0.15s ease;
 
 		&:hover:not(:disabled) {
-			color: var(--shadow-monarch-light);
-			border-color: var(--shadow-monarch-glow);
+			color: var(--primary-light);
+			border-color: var(--primary-glow);
 		}
 
 		&:disabled {
@@ -416,7 +416,7 @@
 		.spinner {
 			width: 24px;
 			height: 24px;
-			color: var(--shadow-monarch-light);
+			color: var(--primary-light);
 		}
 	}
 
@@ -441,15 +441,15 @@
 
 	.retry-btn {
 		padding: 4px 12px;
-		background: var(--void-elevated);
-		border: 1px solid var(--void-highlight);
+		background: var(--bg-elevated);
+		border: 1px solid var(--bg-highlight);
 		border-radius: 4px;
 		font-size: 11px;
 		color: var(--text-primary);
 		cursor: pointer;
 
 		&:hover {
-			border-color: var(--shadow-monarch-glow);
+			border-color: var(--primary-glow);
 		}
 	}
 
@@ -465,9 +465,9 @@
 		flex-direction: column;
 		align-items: center;
 		padding: 8px 4px;
-		background: var(--void-elevated);
+		background: var(--bg-elevated);
 		border-radius: 6px;
-		border: 1px solid var(--void-highlight);
+		border: 1px solid var(--bg-highlight);
 
 		&.warning .stat-value {
 			color: var(--warning);
@@ -500,7 +500,7 @@
 	}
 
 	.subsection {
-		border: 1px solid var(--void-highlight);
+		border: 1px solid var(--bg-highlight);
 		border-radius: 6px;
 		margin-bottom: 8px;
 		overflow: hidden;
@@ -524,7 +524,7 @@
 		transition: background 0.15s ease;
 
 		&:hover {
-			background: var(--void-elevated);
+			background: var(--bg-elevated);
 		}
 	}
 
@@ -559,7 +559,7 @@
 
 	.badge {
 		padding: 2px 6px;
-		background: var(--void-elevated);
+		background: var(--bg-elevated);
 		border-radius: 10px;
 		font-size: 10px;
 		font-weight: 600;
@@ -572,7 +572,7 @@
 
 		&.highlight {
 			background: var(--warning);
-			color: var(--void-surface);
+			color: var(--bg-surface);
 		}
 
 		&.warning {
@@ -630,7 +630,7 @@
 		gap: 6px;
 		padding: 4px 0;
 		font-size: 11px;
-		border-bottom: 1px solid var(--void-elevated);
+		border-bottom: 1px solid var(--bg-elevated);
 
 		&:last-child {
 			border-bottom: none;
@@ -647,21 +647,21 @@
 
 	.link-name {
 		flex: 1;
-		color: var(--shadow-monarch-light);
+		color: var(--primary-light);
 		text-decoration: none;
 		overflow: hidden;
 		text-overflow: ellipsis;
 		white-space: nowrap;
 
 		&:hover {
-			color: var(--awakening-cyan);
+			color: var(--accent);
 			text-shadow: var(--glow-sm);
 		}
 	}
 
 	.mention-count {
 		padding: 1px 4px;
-		background: var(--void-elevated);
+		background: var(--bg-elevated);
 		border-radius: 4px;
 		font-size: 9px;
 		color: var(--text-muted);
@@ -674,7 +674,7 @@
 
 	.type-badge {
 		padding: 1px 4px;
-		background: var(--shadow-monarch);
+		background: var(--primary);
 		border-radius: 4px;
 		font-size: 9px;
 		color: white;
@@ -721,7 +721,7 @@
 		width: 16px;
 		height: 16px;
 		background: var(--warning);
-		color: var(--void-surface);
+		color: var(--bg-surface);
 		border-radius: 50%;
 		font-size: 10px;
 		font-weight: bold;

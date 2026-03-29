@@ -75,7 +75,7 @@
 	{:else}
 		<div class="flex min-h-[500px] items-center justify-center p-4">
 			<div
-				class="w-full max-w-md rounded-2xl border border-slate-700/50 bg-[#1a1a2e] p-8 shadow-[0_0_30px_rgba(124,58,237,0.15)]"
+				class="w-full max-w-md rounded-2xl border border-[var(--border-color)] bg-[var(--bg-surface)] p-8 shadow-[var(--shadow-xl)]"
 			>
 				<div class="flex flex-col items-center text-center">
 					<!-- Error Icon -->
@@ -98,21 +98,23 @@
 					</div>
 
 					<!-- Error Title -->
-					<h2 class="mb-2 text-2xl font-bold text-slate-100">Oops! Something went wrong</h2>
+					<h2 class="mb-2 text-2xl font-bold text-[var(--text-primary)]">
+						Oops! Something went wrong
+					</h2>
 
 					<!-- Error Message -->
-					<p class="mb-6 text-slate-400">{errorMessage}</p>
+					<p class="mb-6 text-[var(--text-secondary)]">{errorMessage}</p>
 
 					<!-- Action Buttons -->
 					<div class="flex w-full flex-col gap-3 sm:flex-row sm:justify-center">
 						<button
-							class="rounded-lg bg-purple-600 px-6 py-2.5 font-semibold text-white shadow-[0_0_15px_rgba(124,58,237,0.3)] transition-all hover:bg-purple-700 hover:shadow-[0_0_20px_rgba(124,58,237,0.4)]"
+							class="rounded-lg bg-[var(--primary-dark)] px-6 py-2.5 font-semibold text-[var(--text-on-primary)] shadow-[var(--glow-sm)] transition-all hover:bg-[var(--primary)] hover:shadow-[var(--glow-md)]"
 							on:click={retry}
 						>
 							Try Again
 						</button>
 						<button
-							class="rounded-lg border border-slate-600 bg-[#12121a] px-6 py-2.5 font-semibold text-slate-300 transition-all hover:border-slate-500 hover:bg-[#252538]"
+							class="rounded-lg border border-[var(--border-color)] bg-[var(--bg-deep)] px-6 py-2.5 font-semibold text-[var(--text-secondary)] transition-all hover:border-[var(--primary-subtle)] hover:bg-[var(--bg-elevated)] hover:text-[var(--text-primary)]"
 							on:click={() => (window.location.href = '/')}
 						>
 							Go Home
@@ -123,11 +125,13 @@
 					{#if import.meta.env.DEV && errorStack}
 						<details class="mt-6 w-full">
 							<summary
-								class="cursor-pointer text-sm font-medium text-slate-500 hover:text-slate-300"
+								class="cursor-pointer text-sm font-medium text-[var(--text-tertiary)] hover:text-[var(--text-secondary)]"
 							>
 								Error details (development only)
 							</summary>
-							<div class="mt-3 rounded-lg border border-slate-700/50 bg-[#12121a] p-4">
+							<div
+								class="mt-3 rounded-lg border border-[var(--border-color)] bg-[var(--bg-deep)] p-4"
+							>
 								<pre class="overflow-x-auto text-left text-xs text-red-400">{errorStack}</pre>
 							</div>
 						</details>

@@ -114,11 +114,11 @@
 <svelte:window bind:innerWidth />
 
 <div
-	class="hover:scale-102 relative z-10 h-full w-full transform overflow-hidden rounded-lg border border-slate-700/60 bg-opacity-15 transition-transform duration-300 hover:shadow-[0_0_15px_rgba(124,58,237,0.3)]"
+	class="hover:scale-102 relative z-10 h-full w-full transform overflow-hidden rounded-lg border border-[var(--glass-border)] bg-opacity-15 transition-transform duration-300 hover:shadow-[0_0_15px_rgba(45,212,191,0.3)]"
 	class:bg-black={!enneagramType}
-	class:bg-purple-900={enneagramType}
+	class:bg-teal-900={enneagramType}
 	class:hover:scale-103={enneagramType}
-	class:hover:shadow-[0_0_20px_rgba(124,58,237,0.4)]={enneagramType}
+	class:hover:shadow-[0_0_20px_rgba(45,212,191,0.4)]={enneagramType}
 	title={altText || displayText}
 	aria-roledescription="card"
 	role="button"
@@ -176,7 +176,7 @@
 	<div
 		class="animate-pan-overlay pointer-events-none absolute left-0 top-0 z-20 h-full w-full bg-opacity-15"
 		class:bg-black={!enneagramType}
-		class:bg-purple-900={enneagramType}
+		class:bg-teal-900={enneagramType}
 		class:yourname={displayText === 'YOUR NAME'}
 	></div>
 
@@ -232,7 +232,9 @@
 <style>
 	/* Only keeping minimal styles that might be harder to do in Tailwind */
 	.yourname {
-		@apply font-black text-black opacity-100;
+		font-weight: 900;
+		color: #000;
+		opacity: 1;
 		text-shadow: none !important;
 	}
 

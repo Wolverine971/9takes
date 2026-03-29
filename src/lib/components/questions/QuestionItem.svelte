@@ -13,7 +13,7 @@
 	};
 	export let showDetails = true;
 
-	let commentColor = '#a78bfa'; // Purple-400 for dark theme
+	let commentColor = 'var(--accent-light)'; // Purple-400 for dark theme
 	let hovered = false;
 
 	// Use shared viewport store
@@ -37,11 +37,11 @@
 	// Memoize hover/leave handlers
 	const handleMouseEnter = () => {
 		hovered = true;
-		commentColor = '#c4b5fd'; // Purple-300 for hover
+		commentColor = 'var(--accent-light)'; // Purple-300 for hover
 	};
 	const handleMouseLeave = () => {
 		hovered = false;
-		commentColor = '#a78bfa'; // Purple-400 for dark theme
+		commentColor = 'var(--accent-light)'; // Purple-400 for dark theme
 	};
 </script>
 
@@ -73,7 +73,7 @@
 			class="xs:flex-row xs:items-center xs:gap-2 flex flex-shrink-0 flex-col items-end gap-1 sm:flex-row sm:items-center"
 		>
 			<span
-				class="flex min-w-[2rem] items-center text-xs font-bold text-slate-200 sm:min-w-[2.5rem] sm:text-sm"
+				class="flex min-w-[2rem] items-center text-xs font-bold text-[var(--text-primary)] sm:min-w-[2.5rem] sm:text-sm"
 			>
 				<span class="min-w-3 text-right sm:min-w-4">{questionData.comment_count || ''}</span>
 				<MasterCommentIcon
@@ -84,7 +84,7 @@
 				/>
 			</span>
 			<span
-				class="xs:min-w-14 xs:px-2 flex min-w-12 justify-center rounded border border-purple-500/15 bg-[#12121a]/60 px-1.5 py-0.5 text-center text-xs text-slate-300 sm:min-w-16 sm:text-sm"
+				class="xs:min-w-14 xs:px-2 bg-[var(--bg-deep)]/60 flex min-w-12 justify-center rounded border border-[var(--primary-subtle)] px-1.5 py-0.5 text-center text-xs text-[var(--text-secondary)] sm:min-w-16 sm:text-sm"
 			>
 				{formattedDate}
 			</span>
@@ -96,17 +96,17 @@
 	/* Solo Leveling dark theme styles for question cards */
 	:global(.greek-question-card) {
 		@apply relative overflow-hidden;
-		background-color: rgba(26, 26, 46, 0.6);
+		background-color: var(--bg-surface);
 		backdrop-filter: blur(4px);
-		border-left: 3px solid rgba(124, 58, 237, 0.6);
+		border-left: 3px solid rgba(45, 212, 191, 0.6);
 		border-radius: 0.375rem;
-		color: #e2e8f0;
+		color: var(--text-primary);
 	}
 
 	:global(.greek-question-card:hover) {
-		border-left: 3px solid #a78bfa;
-		background: linear-gradient(to right, rgba(124, 58, 237, 0.1), rgba(26, 26, 46, 0.7));
-		box-shadow: 0 0 15px rgba(124, 58, 237, 0.2);
+		border-left: 3px solid var(--primary);
+		background: linear-gradient(to right, var(--primary-subtle), var(--bg-surface));
+		box-shadow: var(--glow-sm);
 	}
 
 	.question-content {
@@ -189,10 +189,10 @@
 
 	:global(.greek-circle) {
 		@apply rounded-full shadow-sm transition-all duration-300;
-		border: 1px solid #334155;
+		border: 1px solid var(--bg-elevated);
 	}
 
 	:global(.greek-question-card:hover .greek-circle) {
-		background-color: rgba(124, 58, 237, 0.2) !important;
+		background-color: var(--primary-subtle) !important;
 	}
 </style>

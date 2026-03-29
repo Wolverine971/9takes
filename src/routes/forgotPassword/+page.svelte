@@ -11,8 +11,23 @@
 
 	let email = '';
 	let loading = false;
+	let recaptchaTheme: 'light' | 'dark' = 'dark';
+
+	function syncRecaptchaTheme() {
+		if (!browser) return;
+		recaptchaTheme = document.documentElement.classList.contains('light') ? 'light' : 'dark';
+	}
 
 	onMount(() => {
+		syncRecaptchaTheme();
+		const observer = new MutationObserver(() => {
+			syncRecaptchaTheme();
+		});
+		observer.observe(document.documentElement, {
+			attributes: true,
+			attributeFilter: ['class', 'data-theme']
+		});
+
 		if (browser && !document.getElementById('recaptcha-script')) {
 			const script = document.createElement('script');
 			script.id = 'recaptcha-script';
@@ -21,6 +36,8 @@
 			script.defer = true;
 			document.head.appendChild(script);
 		}
+
+		return () => observer.disconnect();
 	});
 
 	function resetRecaptcha() {
@@ -94,7 +111,11 @@
 			</div>
 
 			<!-- Google reCAPTCHA -->
-			<div class="g-recaptcha" data-sitekey={PUBLIC_RECAPTCHA_SITE_KEY} data-theme="dark"></div>
+			<div
+				class="g-recaptcha"
+				data-sitekey={PUBLIC_RECAPTCHA_SITE_KEY}
+				data-theme={recaptchaTheme}
+			></div>
 
 			<LoadingButton
 				type="submit"
@@ -116,13 +137,13 @@
 </div>
 
 <style lang="scss">
-	/* Solo Leveling Dark Theme */
+	/* 9takes Warm Tech Theme */
 	.auth-container {
 		max-width: 400px;
 		margin: 2rem auto;
 		padding: 2rem;
-		background-color: #1a1a2e;
-		border: 1px solid rgba(100, 116, 139, 0.2);
+		background-color: var(--bg-surface);
+		border: 1px solid color-mix(in srgb, var(--text-tertiary) 20%, transparent);
 		border-radius: 12px;
 		box-shadow: 0 0 30px rgba(0, 0, 0, 0.3);
 	}
@@ -132,7 +153,7 @@
 		margin-bottom: 2rem;
 		font-size: 1.5rem;
 		font-weight: bold;
-		color: #a78bfa;
+		color: var(--accent-light);
 	}
 
 	.auth-form {
@@ -150,43 +171,43 @@
 	.form-label {
 		font-weight: 600;
 		font-size: 0.9rem;
-		color: #cbd5e1;
+		color: var(--neutral-700);
 	}
 
 	.form-input {
 		padding: 0.75rem;
-		background-color: #252538;
-		border: 1px solid rgba(100, 116, 139, 0.3);
+		background-color: var(--bg-elevated);
+		border: 1px solid color-mix(in srgb, var(--text-tertiary) 30%, transparent);
 		border-radius: 8px;
 		font-size: 1rem;
-		color: #f1f5f9;
+		color: var(--text-primary);
 		transition: all 0.3s ease;
 
 		&::placeholder {
-			color: #64748b;
+			color: var(--text-tertiary);
 		}
 
 		&:focus {
 			outline: none;
-			border-color: #7c3aed;
-			box-shadow: 0 0 10px rgba(124, 58, 237, 0.3);
+			border-color: var(--primary-dark);
+			box-shadow: 0 0 10px rgba(45, 212, 191, 0.3);
 		}
 	}
 
 	.success-message {
 		padding: 1rem;
 		margin-bottom: 1rem;
-		background-color: rgba(16, 185, 129, 0.15);
-		border: 1px solid rgba(16, 185, 129, 0.3);
+		background-color: var(--success-light);
+		border: 1px solid var(--success-border);
 		border-radius: 8px;
-		color: #10b981;
+		color: var(--success-text);
 		text-align: center;
 	}
 
 	.error-message {
 		padding: 0.5rem;
 		font-size: 0.9rem;
-		color: #ef4444;
+		color: var(--error);
 	}
 
 	.back-link {
@@ -194,13 +215,13 @@
 		margin-top: 1rem;
 
 		a {
-			color: #a78bfa;
+			color: var(--accent-light);
 			text-decoration: none;
 			font-size: 0.9rem;
 			transition: all 0.3s ease;
 
 			&:hover {
-				color: var(--shadow-monarch-lightest);
+				color: var(--primary-lightest);
 				text-decoration: underline;
 			}
 		}

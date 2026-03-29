@@ -325,7 +325,7 @@
 		&--visible {
 			opacity: 1;
 			backdrop-filter: blur(6px);
-			background: rgba(0, 5, 15, 0.7);
+			background: rgba(12, 10, 9, 0.7);
 			pointer-events: auto;
 
 			.spec-hud {
@@ -399,15 +399,15 @@
 		margin: 1rem;
 		max-width: 92%;
 		text-align: left;
-		border: 1px solid rgba(124, 58, 237, 0.4);
-		background: rgba(10, 10, 25, 0.5);
+		border: 1px solid rgba(45, 212, 191, 0.4);
+		background: rgba(12, 10, 9, 0.5);
 
 		// Corner bracket accents
 		&__corner {
 			position: absolute;
 			width: 12px;
 			height: 12px;
-			border-color: rgba(124, 58, 237, 0.8);
+			border-color: rgba(45, 212, 191, 0.8);
 			border-style: solid;
 
 			&--tl {
@@ -438,21 +438,21 @@
 			align-items: center;
 			margin-bottom: 0.75rem;
 			padding-bottom: 0.5rem;
-			border-bottom: 1px solid rgba(124, 58, 237, 0.3);
+			border-bottom: 1px solid rgba(45, 212, 191, 0.3);
 		}
 
 		&__label {
 			font-size: clamp(0.6rem, 1.8vw, 0.7rem);
 			letter-spacing: 0.15em;
-			color: rgba(167, 139, 250, 0.8);
+			color: var(--accent);
 			text-transform: uppercase;
 		}
 
 		&__type-badge {
 			font-size: clamp(0.6rem, 1.8vw, 0.7rem);
 			letter-spacing: 0.1em;
-			color: #a78bfa;
-			border: 1px solid rgba(124, 58, 237, 0.5);
+			color: var(--accent-light);
+			border: 1px solid rgba(45, 212, 191, 0.5);
 			padding: 0.15rem 0.5rem;
 			font-weight: 700;
 		}
@@ -462,8 +462,8 @@
 			background: linear-gradient(
 				90deg,
 				transparent,
-				rgba(124, 58, 237, 0.3) 20%,
-				rgba(124, 58, 237, 0.3) 80%,
+				rgba(45, 212, 191, 0.3) 20%,
+				rgba(45, 212, 191, 0.3) 80%,
 				transparent
 			);
 			margin: 0.4rem 0;
@@ -479,7 +479,7 @@
 			&--highlight {
 				margin-top: 0.25rem;
 				.spec-hud__key {
-					color: #c4b5fd;
+					color: var(--accent-light);
 				}
 				.spec-hud__val {
 					font-style: italic;
@@ -491,7 +491,7 @@
 		&__key {
 			font-size: clamp(0.55rem, 1.6vw, 0.65rem);
 			letter-spacing: 0.1em;
-			color: rgba(167, 139, 250, 0.7);
+			color: var(--accent);
 			white-space: nowrap;
 			flex-shrink: 0;
 			padding-top: 0.1rem;

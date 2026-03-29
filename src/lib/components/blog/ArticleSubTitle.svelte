@@ -43,7 +43,7 @@
 	.article-meta {
 		margin: 0;
 		margin-bottom: calc(var(--spacing-unit) * 4);
-		color: #cbd5e1;
+		color: var(--neutral-700);
 		display: flex;
 		flex-wrap: wrap;
 		align-items: center;
@@ -57,18 +57,18 @@
 		align-items: center;
 	}
 	.author a {
-		color: #a78bfa;
+		color: var(--accent-light);
 		text-decoration: none;
 		transition: color 0.2s ease;
 	}
 	.author a:hover {
-		color: var(--shadow-monarch-lightest);
+		color: var(--primary-lightest);
 	}
 	.separator {
-		color: #475569;
+		color: var(--text-tertiary);
 	}
 	.date {
-		color: #94a3b8;
+		color: var(--text-secondary);
 	}
 	.date.updated {
 		color: #22c55e;

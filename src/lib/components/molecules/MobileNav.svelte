@@ -246,11 +246,11 @@
 		transition: background-color 0.2s ease;
 
 		&:hover {
-			background-color: rgba(124, 58, 237, 0.1);
+			background-color: rgba(45, 212, 191, 0.1);
 		}
 
 		&:focus-visible {
-			outline: 2px solid var(--shadow-monarch-lighter);
+			outline: 2px solid var(--primary-lighter);
 			outline-offset: 2px;
 		}
 	}
@@ -305,15 +305,15 @@
 
 	/* Navigation Panel */
 	.mobile-nav-panel {
-		background-color: var(--void-deep);
+		background-color: var(--bg-deep);
 		width: 320px;
 		max-width: 85vw;
 		height: 100vh;
 		overflow-y: auto;
-		box-shadow: 4px 0 30px rgba(124, 58, 237, 0.2);
+		box-shadow: 4px 0 30px rgba(45, 212, 191, 0.2);
 		display: flex;
 		flex-direction: column;
-		border-right: 1px solid rgba(100, 116, 139, 0.3);
+		border-right: 1px solid color-mix(in srgb, var(--text-tertiary) 30%, transparent);
 	}
 
 	/* Header */
@@ -322,7 +322,7 @@
 		align-items: center;
 		justify-content: space-between;
 		padding: 1.5rem 1.25rem 1rem;
-		border-bottom: 1px solid rgba(100, 116, 139, 0.3);
+		border-bottom: 1px solid color-mix(in srgb, var(--text-tertiary) 30%, transparent);
 	}
 
 	.nav-title {
@@ -342,12 +342,12 @@
 		transition: all 0.2s ease;
 
 		&:hover {
-			background-color: rgba(124, 58, 237, 0.2);
+			background-color: rgba(45, 212, 191, 0.2);
 			color: var(--text-primary);
 		}
 
 		&:focus-visible {
-			outline: 2px solid var(--shadow-monarch-lighter);
+			outline: 2px solid var(--primary-lighter);
 			outline-offset: 2px;
 		}
 	}
@@ -383,19 +383,19 @@
 		border-left: 3px solid transparent;
 
 		&:hover {
-			background-color: rgba(124, 58, 237, 0.1);
-			color: var(--shadow-monarch-lighter);
+			background-color: rgba(45, 212, 191, 0.1);
+			color: var(--primary-lighter);
 		}
 
 		&.active {
-			background-color: rgba(124, 58, 237, 0.15);
-			color: var(--shadow-monarch-lighter);
-			border-left-color: var(--shadow-monarch);
+			background-color: rgba(45, 212, 191, 0.15);
+			color: var(--primary-lighter);
+			border-left-color: var(--primary);
 			font-weight: 600;
 		}
 
 		&:focus-visible {
-			outline: 2px solid var(--shadow-monarch-lighter);
+			outline: 2px solid var(--primary-lighter);
 			outline-offset: -2px;
 		}
 	}
@@ -421,12 +421,12 @@
 		text-align: left;
 
 		&:hover {
-			background-color: rgba(124, 58, 237, 0.1);
-			color: var(--shadow-monarch-lighter);
+			background-color: rgba(45, 212, 191, 0.1);
+			color: var(--primary-lighter);
 		}
 
 		&:focus-visible {
-			outline: 2px solid var(--shadow-monarch-lighter);
+			outline: 2px solid var(--primary-lighter);
 			outline-offset: -2px;
 		}
 	}
@@ -444,8 +444,8 @@
 		list-style: none;
 		margin: 0;
 		padding: 0;
-		background-color: var(--void-abyss);
-		border-top: 1px solid rgba(100, 116, 139, 0.3);
+		background-color: var(--bg-base);
+		border-top: 1px solid color-mix(in srgb, var(--text-tertiary) 30%, transparent);
 	}
 
 	.submenu-item {
@@ -464,19 +464,19 @@
 		border-left: 3px solid transparent;
 
 		&:hover {
-			background-color: rgba(124, 58, 237, 0.1);
-			color: var(--shadow-monarch-lighter);
+			background-color: rgba(45, 212, 191, 0.1);
+			color: var(--primary-lighter);
 		}
 
 		&.active {
-			background-color: rgba(124, 58, 237, 0.15);
-			color: var(--shadow-monarch-lighter);
-			border-left-color: var(--shadow-monarch);
+			background-color: rgba(45, 212, 191, 0.15);
+			color: var(--primary-lighter);
+			border-left-color: var(--primary);
 			font-weight: 500;
 		}
 
 		&:focus-visible {
-			outline: 2px solid var(--shadow-monarch-lighter);
+			outline: 2px solid var(--primary-lighter);
 			outline-offset: -2px;
 		}
 	}
@@ -484,14 +484,14 @@
 	/* Action Buttons */
 	.nav-actions {
 		padding: 1rem 1.25rem;
-		border-top: 1px solid rgba(100, 116, 139, 0.3);
+		border-top: 1px solid color-mix(in srgb, var(--text-tertiary) 30%, transparent);
 	}
 
 	.login-button {
 		display: block;
 		width: 100%;
 		padding: 0.875rem 1.25rem;
-		background-color: var(--shadow-monarch);
+		background-color: var(--primary);
 		color: white;
 		text-align: center;
 		text-decoration: none;
@@ -499,16 +499,16 @@
 		font-weight: 600;
 		font-size: 1rem;
 		transition: all 0.2s ease;
-		box-shadow: 0 0 15px rgba(124, 58, 237, 0.3);
+		box-shadow: 0 0 15px rgba(45, 212, 191, 0.3);
 
 		&:hover {
-			background-color: var(--shadow-monarch-dark);
+			background-color: var(--primary-dark);
 			transform: translateY(-1px);
-			box-shadow: 0 0 20px rgba(124, 58, 237, 0.4);
+			box-shadow: 0 0 20px rgba(45, 212, 191, 0.4);
 		}
 
 		&:focus-visible {
-			outline: 2px solid var(--shadow-monarch-lighter);
+			outline: 2px solid var(--primary-lighter);
 			outline-offset: 2px;
 		}
 	}

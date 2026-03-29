@@ -82,13 +82,13 @@
 </div>
 
 <style lang="scss">
-	/* Solo Leveling Dark Theme */
+	/* 9takes Warm Tech Theme */
 	.container {
 		max-width: 400px;
 		margin: 3rem auto;
 		padding: 2rem;
-		background-color: #1a1a2e;
-		border: 1px solid rgba(100, 116, 139, 0.2);
+		background-color: var(--bg-surface);
+		border: 1px solid color-mix(in srgb, var(--text-tertiary) 20%, transparent);
 		border-radius: 12px;
 		box-shadow: 0 0 30px rgba(0, 0, 0, 0.3);
 		min-height: auto;
@@ -99,23 +99,23 @@
 		margin-bottom: 2rem;
 		font-size: 1.8rem;
 		font-weight: bold;
-		color: #f1f5f9;
+		color: var(--text-primary);
 
 		.active {
-			color: #a78bfa;
-			border-bottom: 2px solid #7c3aed;
+			color: var(--accent-light);
+			border-bottom: 2px solid var(--primary-dark);
 			padding-bottom: 4px;
 		}
 
 		.inactive {
-			color: #94a3b8;
+			color: var(--text-secondary);
 			text-decoration: none;
 			opacity: 0.7;
 			transition: all 0.3s ease;
 
 			&:hover {
 				opacity: 1;
-				color: #f1f5f9;
+				color: var(--text-primary);
 			}
 		}
 	}
@@ -135,26 +135,26 @@
 	label {
 		font-weight: 600;
 		font-size: 0.9rem;
-		color: #cbd5e1;
+		color: var(--neutral-700);
 	}
 
 	input {
 		padding: 0.75rem;
-		background-color: #252538;
-		border: 1px solid rgba(100, 116, 139, 0.3);
+		background-color: var(--bg-elevated);
+		border: 1px solid color-mix(in srgb, var(--text-tertiary) 30%, transparent);
 		border-radius: 8px;
 		font-size: 1rem;
-		color: #f1f5f9;
+		color: var(--text-primary);
 		transition: all 0.3s ease;
 
 		&::placeholder {
-			color: #64748b;
+			color: var(--text-tertiary);
 		}
 
 		&:focus {
 			outline: none;
-			border-color: #7c3aed;
-			box-shadow: 0 0 10px rgba(124, 58, 237, 0.3);
+			border-color: var(--primary-dark);
+			box-shadow: 0 0 10px rgba(45, 212, 191, 0.3);
 		}
 	}
 
@@ -163,13 +163,13 @@
 		margin-top: 1.5rem;
 
 		a {
-			color: #a78bfa;
+			color: var(--accent-light);
 			text-decoration: none;
 			font-size: 0.9rem;
 			transition: all 0.3s ease;
 
 			&:hover {
-				color: var(--shadow-monarch-lightest);
+				color: var(--primary-lightest);
 				text-decoration: underline;
 			}
 		}

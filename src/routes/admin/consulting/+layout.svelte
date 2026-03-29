@@ -43,7 +43,7 @@
 		display: flex;
 		gap: 2px;
 		margin-bottom: 20px;
-		border-bottom: 1px solid var(--void-elevated);
+		border-bottom: 1px solid var(--bg-elevated);
 		padding-bottom: 0;
 		overflow-x: auto;
 		-webkit-overflow-scrolling: touch;
@@ -77,8 +77,8 @@
 	}
 
 	.sub-nav-link.active {
-		color: var(--shadow-monarch);
-		border-bottom-color: var(--shadow-monarch);
+		color: var(--primary);
+		border-bottom-color: var(--primary);
 	}
 
 	.consulting-content {

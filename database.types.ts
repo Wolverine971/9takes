@@ -3042,6 +3042,24 @@ export type Database = {
           },
         ]
       }
+      telemetry_maintenance_state: {
+        Row: {
+          created_at: string
+          last_run_at: string
+          task_name: string
+        }
+        Insert: {
+          created_at?: string
+          last_run_at?: string
+          task_name: string
+        }
+        Update: {
+          created_at?: string
+          last_run_at?: string
+          task_name?: string
+        }
+        Relationships: []
+      }
       templates: {
         Row: {
           content_text: string
@@ -3418,6 +3436,10 @@ export type Database = {
           user_id: string
         }[]
       }
+      claim_telemetry_cleanup_slot: {
+        Args: { p_min_interval?: string; p_now?: string; p_task_name: string }
+        Returns: boolean
+      }
       cleanup_blogs_famous_people_history:
         | {
             Args: { p_famous_people_id: number }
@@ -3431,6 +3453,11 @@ export type Database = {
               error: true
             } & "Could not choose the best candidate function between: public.cleanup_blogs_famous_people_history(p_famous_people_id => int8), public.cleanup_blogs_famous_people_history(p_famous_people_id => int4). Try renaming the parameters or the function itself in the database so function overloading can be resolved"
           }
+        | {
+            Args: { p_famous_people_id: number; p_keep_count?: number }
+            Returns: undefined
+          }
+      cleanup_site_telemetry: { Args: { p_now?: string }; Returns: Json }
       comments_last_30_days: {
         Args: never
         Returns: {

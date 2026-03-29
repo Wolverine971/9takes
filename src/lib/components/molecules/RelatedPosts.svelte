@@ -177,7 +177,7 @@
 		text-align: center;
 		margin-bottom: 2rem;
 		font-size: 2rem;
-		color: #f1f5f9;
+		color: var(--text-primary);
 	}
 
 	.suggestions-grid {
@@ -198,7 +198,7 @@
 		padding: 0.5rem;
 		margin-bottom: 1rem;
 		font-size: 1.5rem;
-		color: #cbd5e1;
+		color: var(--neutral-700);
 	}
 
 	.people-grid {
@@ -214,7 +214,7 @@
 		overflow: hidden;
 		border-radius: 12px;
 		box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
-		border: 1px solid rgba(100, 116, 139, 0.2);
+		border: 1px solid color-mix(in srgb, var(--text-tertiary) 20%, transparent);
 		transition:
 			transform 0.3s ease,
 			box-shadow 0.3s ease,
@@ -222,8 +222,8 @@
 
 		&:hover {
 			transform: translateY(-5px);
-			box-shadow: 0 0 25px rgba(124, 58, 237, 0.3);
-			border-color: rgba(124, 58, 237, 0.5);
+			box-shadow: 0 0 25px rgba(45, 212, 191, 0.3);
+			border-color: rgba(45, 212, 191, 0.5);
 
 			.grid-img {
 				filter: brightness(0.9);
@@ -231,7 +231,7 @@
 
 			.name-overlay {
 				opacity: 1;
-				background: linear-gradient(to top, rgba(124, 58, 237, 0.9), rgba(0, 0, 0, 0.7));
+				background: linear-gradient(to top, rgba(45, 212, 191, 0.9), rgba(0, 0, 0, 0.7));
 			}
 		}
 	}
@@ -264,7 +264,7 @@
 		left: 0;
 		right: 0;
 		background: linear-gradient(to top, rgba(10, 10, 15, 0.9), rgba(0, 0, 0, 0.5));
-		color: #f1f5f9;
+		color: var(--text-primary);
 		padding: 0.5rem;
 		opacity: 0;
 		transition: all 0.3s ease;
@@ -281,18 +281,18 @@
 	.lazy-loading {
 		text-align: center;
 		padding: 2rem;
-		color: #94a3b8;
+		color: var(--text-secondary);
 	}
 
 	.loading-spinner {
 		width: 30px;
 		height: 30px;
-		border: 3px solid #252538;
-		border-top: 3px solid #7c3aed;
+		border: 3px solid var(--bg-elevated);
+		border-top: 3px solid var(--primary-dark);
 		border-radius: 50%;
 		margin: 0 auto 1rem;
 		animation: spin 1s linear infinite;
-		box-shadow: 0 0 15px rgba(124, 58, 237, 0.3);
+		box-shadow: 0 0 15px rgba(45, 212, 191, 0.3);
 	}
 
 	@keyframes spin {

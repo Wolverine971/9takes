@@ -89,8 +89,8 @@
 		flex-direction: column;
 		align-items: center;
 		padding: 0.625rem 1rem;
-		background: var(--void-surface);
-		border: 1px solid var(--void-elevated);
+		background: var(--bg-surface);
+		border: 1px solid var(--bg-elevated);
 		border-radius: 12px;
 		min-width: 90px;
 	}
@@ -98,7 +98,7 @@
 	.stat-value {
 		font-size: 1.375rem;
 		font-weight: 700;
-		color: var(--shadow-monarch);
+		color: var(--primary);
 	}
 
 	.stat-label {
@@ -110,8 +110,8 @@
 	}
 
 	.hierarchy-container {
-		background: var(--void-surface);
-		border: 1px solid var(--void-elevated);
+		background: var(--bg-surface);
+		border: 1px solid var(--bg-elevated);
 		border-radius: 12px;
 		overflow: hidden;
 	}

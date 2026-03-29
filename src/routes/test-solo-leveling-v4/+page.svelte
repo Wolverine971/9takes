@@ -492,7 +492,7 @@
 	   ========================================== */
 	.sl-page {
 		/* Void */
-		--void-abyss: #05050a;
+		--bg-base: #05050a;
 		--void-shadow: #0a0a12;
 		--void-umbra: #12121c;
 		--void-penumbra: #1a1a28;
@@ -503,13 +503,13 @@
 		--text-faded: #585868;
 
 		/* Shadow Power */
-		--shadow-monarch: #7c3aed;
+		--primary: #7c3aed;
 		--shadow-flame: #a855f7;
 		--shadow-deep: #5b21b6;
 		--shadow-ethereal: #c084fc;
 
 		/* System */
-		--system-interface: #3b82f6;
+		--secondary: #3b82f6;
 		--system-hologram: #60a5fa;
 		--system-stream: #93c5fd;
 		--system-deep: #1d4ed8;
@@ -534,7 +534,7 @@
 	.sl-page {
 		position: relative;
 		min-height: 100vh;
-		background: var(--void-abyss);
+		background: var(--bg-base);
 		color: var(--text-pale);
 		font-family: var(--font-body);
 		overflow-x: hidden;
@@ -554,7 +554,7 @@
 	.bg-void {
 		position: fixed;
 		inset: 0;
-		background: var(--void-abyss);
+		background: var(--bg-base);
 		z-index: 0;
 	}
 
@@ -706,7 +706,7 @@
 
 	.title-glow {
 		display: block;
-		background: linear-gradient(135deg, var(--shadow-monarch) 0%, var(--system-interface) 100%);
+		background: linear-gradient(135deg, var(--primary) 0%, var(--secondary) 100%);
 		-webkit-background-clip: text;
 		-webkit-text-fill-color: transparent;
 		background-clip: text;
@@ -810,7 +810,7 @@
 		justify-content: center;
 		gap: 0.5rem;
 		padding: 0.75rem;
-		background: linear-gradient(135deg, var(--shadow-deep) 0%, var(--shadow-monarch) 100%);
+		background: linear-gradient(135deg, var(--shadow-deep) 0%, var(--primary) 100%);
 		border-radius: 8px;
 		font-family: var(--font-display);
 		font-size: 0.95rem;
@@ -845,7 +845,7 @@
 		align-items: center;
 		justify-content: center;
 		padding: 0.875rem 1.75rem;
-		background: linear-gradient(135deg, var(--shadow-deep) 0%, var(--shadow-monarch) 100%);
+		background: linear-gradient(135deg, var(--shadow-deep) 0%, var(--primary) 100%);
 		border: none;
 		border-radius: 8px;
 		font-family: var(--font-display);
@@ -860,7 +860,7 @@
 	}
 
 	.btn-shadow:hover {
-		background: linear-gradient(135deg, var(--shadow-monarch) 0%, var(--shadow-flame) 100%);
+		background: linear-gradient(135deg, var(--primary) 0%, var(--shadow-flame) 100%);
 		box-shadow: 0 0 30px rgba(124, 58, 237, 0.5);
 		transform: translateY(-2px);
 	}
@@ -943,7 +943,7 @@
 
 	.section-badge.accent .badge-dot {
 		background: var(--shadow-flame);
-		box-shadow: 0 0 8px var(--shadow-monarch);
+		box-shadow: 0 0 8px var(--primary);
 	}
 
 	.badge-dot {
@@ -951,7 +951,7 @@
 		height: 5px;
 		background: var(--system-hologram);
 		border-radius: 50%;
-		box-shadow: 0 0 8px var(--system-interface);
+		box-shadow: 0 0 8px var(--secondary);
 	}
 
 	.section-title {
@@ -990,7 +990,7 @@
 	}
 
 	.type-card {
-		--type-color: var(--shadow-monarch);
+		--type-color: var(--primary);
 		position: relative;
 		display: block;
 		background: linear-gradient(180deg, var(--void-shadow) 0%, var(--void-umbra) 100%);
@@ -1041,7 +1041,7 @@
 		display: flex;
 		align-items: center;
 		justify-content: center;
-		background: color-mix(in srgb, var(--type-color) 15%, var(--void-abyss));
+		background: color-mix(in srgb, var(--type-color) 15%, var(--bg-base));
 		border: 1px solid color-mix(in srgb, var(--type-color) 40%, transparent);
 		border-radius: 4px;
 		font-family: var(--font-mono);
@@ -1162,7 +1162,7 @@
 	}
 
 	.profile-card {
-		--type-color: var(--shadow-monarch);
+		--type-color: var(--primary);
 		display: block;
 		background: linear-gradient(180deg, var(--void-shadow) 0%, var(--void-umbra) 100%);
 		border: 1px solid rgba(59, 130, 246, 0.1);
@@ -1204,7 +1204,7 @@
 	.profile-overlay {
 		position: absolute;
 		inset: 0;
-		background: linear-gradient(180deg, transparent 40%, var(--void-abyss) 100%);
+		background: linear-gradient(180deg, transparent 40%, var(--bg-base) 100%);
 	}
 
 	.profile-type {
@@ -1262,7 +1262,7 @@
 	   BENEFITS GRID
 	   ========================================== */
 	.how-section {
-		background: linear-gradient(180deg, var(--void-umbra) 0%, var(--void-abyss) 100%);
+		background: linear-gradient(180deg, var(--void-umbra) 0%, var(--bg-base) 100%);
 		border-radius: 20px;
 		margin: 1rem 0;
 	}
@@ -1416,7 +1416,7 @@
 
 	.ring-node {
 		--angle: calc(var(--i) * 40deg - 90deg);
-		--node-color: var(--shadow-monarch);
+		--node-color: var(--primary);
 		position: absolute;
 		width: 2rem;
 		height: 2rem;
@@ -1459,7 +1459,7 @@
 		display: flex;
 		align-items: center;
 		justify-content: center;
-		background: linear-gradient(135deg, var(--shadow-deep) 0%, var(--shadow-monarch) 100%);
+		background: linear-gradient(135deg, var(--shadow-deep) 0%, var(--primary) 100%);
 		border-radius: 50%;
 		box-shadow: 0 0 30px rgba(124, 58, 237, 0.5);
 	}

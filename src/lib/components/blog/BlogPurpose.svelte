@@ -69,7 +69,7 @@
 		box-shadow:
 			0 8px 30px -10px rgba(0, 0, 0, 0.4),
 			0 2px 4px -2px rgba(0, 0, 0, 0.2);
-		border: 1px solid rgba(124, 58, 237, 0.2);
+		border: 1px solid rgba(45, 212, 191, 0.2);
 
 		@media (min-width: 768px) {
 			display: flex;
@@ -79,7 +79,12 @@
 
 	.cta-section {
 		position: relative;
-		background: linear-gradient(135deg, #6b5ce7 0%, #5046c7 50%, #4338b8 100%);
+		background: linear-gradient(
+			135deg,
+			var(--primary-dark) 0%,
+			var(--primary-darker) 50%,
+			var(--primary-darker) 100%
+		);
 		padding: 1.25rem;
 		overflow: hidden;
 
@@ -164,7 +169,7 @@
 		display: inline-flex;
 		align-items: center;
 		gap: 0.5rem;
-		background: var(--shadow-monarch, #7c3aed);
+		background: var(--primary, var(--primary-dark));
 		color: #fff;
 		padding: 0.625rem 1.25rem;
 		border-radius: 8px;
@@ -176,9 +181,9 @@
 		flex-shrink: 0;
 
 		&:hover {
-			background: var(--shadow-monarch-light, #8b5cf6);
+			background: var(--primary-light, var(--accent));
 			transform: translateY(-1px);
-			box-shadow: 0 4px 12px rgba(124, 58, 237, 0.3);
+			box-shadow: 0 4px 12px rgba(45, 212, 191, 0.3);
 		}
 
 		.arrow-icon {
@@ -198,7 +203,7 @@
 	}
 
 	.explorer-section {
-		background: linear-gradient(135deg, #1a1a2e 0%, #12121a 100%);
+		background: linear-gradient(135deg, var(--bg-surface) 0%, var(--bg-deep) 100%);
 		padding: 1.25rem 1rem 1rem;
 
 		@media (min-width: 768px) {
@@ -212,7 +217,7 @@
 		}
 
 		h3 {
-			color: #f1f5f9;
+			color: var(--text-primary);
 			font-size: 1rem;
 			font-weight: 600;
 			text-align: center;

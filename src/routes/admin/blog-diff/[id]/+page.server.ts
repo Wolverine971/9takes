@@ -46,7 +46,7 @@ export const load: PageServerLoad = async ({ params, locals }) => {
 		// Get the version history
 		const { data: history, error: historyError } = (await locals.supabase
 			.from('blogs_famous_people_history')
-			.select('id, old_content, new_content, changed_at, changed_by')
+			.select('id, new_content, changed_at, changed_by')
 			.eq('famous_people_id', blogId)
 			.order('changed_at', { ascending: false })) as {
 			data: BlogHistoryRow[] | null;

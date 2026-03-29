@@ -47,7 +47,7 @@
 	.hero {
 		padding: 1.25rem;
 		border-radius: 0.75rem;
-		border: 1px solid var(--void-elevated);
+		border: 1px solid var(--bg-elevated);
 		background: linear-gradient(130deg, rgba(15, 23, 42, 0.92), rgba(30, 41, 59, 0.86));
 	}
 
@@ -73,8 +73,8 @@
 		gap: 0.6rem;
 		padding: 1rem;
 		border-radius: 0.7rem;
-		border: 1px solid var(--void-elevated);
-		background: var(--void-deep);
+		border: 1px solid var(--bg-elevated);
+		background: var(--bg-deep);
 		text-decoration: none;
 		color: inherit;
 		transition:
@@ -84,7 +84,7 @@
 
 	.card:hover {
 		transform: translateY(-1px);
-		border-color: color-mix(in srgb, var(--nebula-primary) 50%, var(--void-elevated));
+		border-color: color-mix(in srgb, var(--nebula-primary) 50%, var(--bg-elevated));
 	}
 
 	.card h2 {

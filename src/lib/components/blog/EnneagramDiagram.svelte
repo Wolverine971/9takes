@@ -1,9 +1,10 @@
 <!-- src/lib/components/blog/EnneagramDiagram.svelte -->
-<!-- Solo Leveling themed Enneagram Diagram -->
+<!-- Warm tech themed Enneagram Diagram -->
 <script lang="ts">
 	import { onMount } from 'svelte';
 	import { fade, scale } from 'svelte/transition';
 	import { cubicOut } from 'svelte/easing';
+	import { ENNEAGRAM_TYPE_COLORS } from '$lib/constants/enneagramColors';
 
 	// Props
 	interface Props {
@@ -20,94 +21,81 @@
 	let isMobile = $state(false);
 	let showLabels = $state(true);
 
-	// The 9 Enneagram types with Solo Leveling themed colors
-	// Each type has a core emotion AND a stance toward that emotion
-	const enneagramTypes = [
+	// Type metadata (colors come from shared constants)
+	const typeMetadata: Record<
+		number,
 		{
-			id: 1,
-			name: 'The Perfectionist',
+			description: string;
+			coreEmotion: string;
+			emotionalStance: string;
+			stanceDetail: string;
+		}
+	> = {
+		1: {
 			description:
 				'Ethical, dedicated and reliable. Motivated by a desire to live the right way and improve the world.',
-			color: '#a8dadc',
 			coreEmotion: 'Anger',
 			emotionalStance: 'Internalizes',
 			stanceDetail: 'Anger becomes inner critic'
 		},
-		{
-			id: 2,
-			name: 'The Helper',
+		2: {
 			description: 'Warm, caring and giving. Motivated by a need to be loved and needed.',
-			color: '#ff6b6b',
 			coreEmotion: 'Shame',
 			emotionalStance: 'Represses',
 			stanceDetail: 'Denies shame through giving'
 		},
-		{
-			id: 3,
-			name: 'The Achiever',
+		3: {
 			description: 'Success-oriented and image-conscious. Motivated by a need to be successful.',
-			color: '#fbbf24',
 			coreEmotion: 'Shame',
 			emotionalStance: 'Compensates',
 			stanceDetail: 'Channels shame into performance'
 		},
-		{
-			id: 4,
-			name: 'The Individualist',
+		4: {
 			description: 'Creative, sensitive and expressive. Motivated by a need to be understood.',
-			color: '#c084fc',
 			coreEmotion: 'Shame',
 			emotionalStance: 'Identifies',
 			stanceDetail: 'Inhabits shame as identity'
 		},
-		{
-			id: 5,
-			name: 'The Investigator',
+		5: {
 			description: 'Analytical, detached and private. Motivated by a need to gain knowledge.',
-			color: '#22d3ee',
 			coreEmotion: 'Fear',
 			emotionalStance: 'Withdraws',
 			stanceDetail: 'Retreats from fear into mind'
 		},
-		{
-			id: 6,
-			name: 'The Loyalist',
+		6: {
 			description:
 				'Committed, practical and vigilant. Motivated by fear and the need for security.',
-			color: '#64748b',
 			coreEmotion: 'Fear',
 			emotionalStance: 'Engages',
 			stanceDetail: 'Faces fear through vigilance'
 		},
-		{
-			id: 7,
-			name: 'The Enthusiast',
+		7: {
 			description:
 				'Fun, spontaneous and versatile. Motivated by a need to be happy and avoid pain.',
-			color: '#fb923c',
 			coreEmotion: 'Fear',
 			emotionalStance: 'Reframes',
 			stanceDetail: 'Escapes fear through possibilities'
 		},
-		{
-			id: 8,
-			name: 'The Challenger',
+		8: {
 			description: 'Powerful, dominating and self-confident. Motivated by a need to be strong.',
-			color: '#ef4444',
 			coreEmotion: 'Anger',
 			emotionalStance: 'Expresses',
 			stanceDetail: 'Uses anger as fuel'
 		},
-		{
-			id: 9,
-			name: 'The Peacemaker',
+		9: {
 			description: 'Easygoing, accommodating and peaceful. Motivated by a need to keep the peace.',
-			color: '#4ade80',
 			coreEmotion: 'Anger',
 			emotionalStance: 'Suppresses',
 			stanceDetail: 'Numbs anger for harmony'
 		}
-	];
+	};
+
+	const enneagramTypes = [1, 2, 3, 4, 5, 6, 7, 8, 9].map((id) => ({
+		id,
+		name: ENNEAGRAM_TYPE_COLORS[id].name,
+		color: ENNEAGRAM_TYPE_COLORS[id].color,
+		...typeMetadata[id]
+	}));
 
 	// Center and radius for the main circle
 	const center = { x: 50, y: 50 };
@@ -225,7 +213,7 @@
 
 				<!-- Gradient for main circle -->
 				<radialGradient id="voidGradient" cx="50%" cy="50%" r="50%">
-					<stop offset="0%" stop-color="rgba(124, 58, 237, 0.08)" />
+					<stop offset="0%" stop-color="rgba(45, 212, 191, 0.08)" />
 					<stop offset="100%" stop-color="rgba(10, 10, 15, 0.5)" />
 				</radialGradient>
 			</defs>
@@ -364,17 +352,16 @@
 	   CSS VARIABLES
 	   ========================================== */
 	.diagram-wrapper {
-		--void-abyss: #05050a;
-		--void-shadow: #0a0a12;
-		--void-umbra: #12121c;
-		--text-pale: #e8e8f0;
-		--text-mist: #9898a8;
-		--text-faded: #585868;
-		--shadow-monarch: #7c3aed;
-		--shadow-flame: #a855f7;
-		--shadow-ethereal: #c084fc;
-		--system-interface: #3b82f6;
-		--system-hologram: #60a5fa;
+		--void-shadow: var(--bg-base);
+		--void-umbra: var(--bg-deep);
+		--text-pale: var(--text-primary);
+		--text-mist: var(--text-secondary);
+		--text-faded: var(--text-muted);
+		--primary: var(--primary-dark);
+		--shadow-flame: var(--accent);
+		--shadow-ethereal: var(--accent-light);
+		--secondary: var(--secondary);
+		--system-hologram: var(--secondary-light);
 		--font-display: 'Rajdhani', system-ui, sans-serif;
 		--font-mono: 'JetBrains Mono', ui-monospace, monospace;
 	}
@@ -419,8 +406,8 @@
 		inset: -10%;
 		background: radial-gradient(
 			circle at 50% 50%,
-			rgba(124, 58, 237, 0.12) 0%,
-			rgba(59, 130, 246, 0.06) 40%,
+			rgba(45, 212, 191, 0.12) 0%,
+			rgba(251, 113, 133, 0.06) 40%,
 			transparent 65%
 		);
 		pointer-events: none;
@@ -451,13 +438,13 @@
 	   ========================================== */
 	.main-circle {
 		fill: url(#voidGradient);
-		stroke: rgba(124, 58, 237, 0.25);
+		stroke: rgba(45, 212, 191, 0.25);
 		stroke-width: 0.4;
 	}
 
 	.inner-glow {
 		fill: none;
-		stroke: rgba(124, 58, 237, 0.15);
+		stroke: rgba(45, 212, 191, 0.15);
 		stroke-width: 0.8;
 		filter: url(#glowPurple);
 	}
@@ -466,7 +453,7 @@
 	   CONNECTION LINES
 	   ========================================== */
 	.connection-triangle {
-		stroke: var(--shadow-monarch);
+		stroke: var(--primary);
 		stroke-width: 0.35;
 		stroke-opacity: 0.4;
 		transition: all 0.3s ease;
@@ -479,7 +466,7 @@
 	}
 
 	.connection-hexad {
-		stroke: var(--system-interface);
+		stroke: var(--secondary);
 		stroke-width: 0.25;
 		stroke-opacity: 0.25;
 		transition: all 0.3s ease;
@@ -504,9 +491,9 @@
 		display: flex;
 		align-items: center;
 		justify-content: center;
-		background: linear-gradient(135deg, #5b21b6 0%, var(--shadow-monarch) 100%);
+		background: linear-gradient(135deg, var(--accent-dark) 0%, var(--primary) 100%);
 		border-radius: 50%;
-		box-shadow: 0 0 20px rgba(124, 58, 237, 0.5);
+		box-shadow: 0 0 20px rgba(45, 212, 191, 0.5);
 		z-index: 5;
 	}
 
@@ -545,7 +532,7 @@
 		justify-content: center;
 		width: 2.25rem;
 		height: 2.25rem;
-		background: var(--void-shadow);
+		background: var(--bg-base);
 		border: 2px solid var(--node-color);
 		border-radius: 50%;
 		text-decoration: none;
@@ -584,7 +571,7 @@
 	.type-node:focus {
 		outline: none;
 		box-shadow:
-			0 0 0 3px rgba(124, 58, 237, 0.4),
+			0 0 0 3px rgba(45, 212, 191, 0.4),
 			0 0 20px color-mix(in srgb, var(--node-color) 50%, transparent);
 	}
 
@@ -664,13 +651,13 @@
 		left: 50%;
 		top: 50%;
 		transform: translate(-50%, -50%);
-		background: linear-gradient(180deg, var(--void-shadow) 0%, var(--void-umbra) 100%);
-		border: 1px solid rgba(124, 58, 237, 0.3);
+		background: linear-gradient(180deg, var(--bg-base) 0%, var(--bg-deep) 100%);
+		border: 1px solid rgba(45, 212, 191, 0.3);
 		border-radius: 12px;
 		padding: 1rem;
 		max-width: min(280px, 85%);
 		box-shadow:
-			0 0 30px rgba(124, 58, 237, 0.2),
+			0 0 30px rgba(45, 212, 191, 0.2),
 			0 8px 24px rgba(0, 0, 0, 0.4);
 		z-index: 100;
 	}
@@ -688,7 +675,7 @@
 		justify-content: center;
 		width: 2rem;
 		height: 2rem;
-		background: var(--void-abyss);
+		background: var(--bg-base);
 		border: 2px solid var(--badge-color);
 		border-radius: 50%;
 		flex-shrink: 0;
@@ -740,7 +727,7 @@
 	.tooltip-stance-detail {
 		margin-top: 0.5rem;
 		padding-top: 0.5rem;
-		border-top: 1px solid rgba(124, 58, 237, 0.2);
+		border-top: 1px solid rgba(45, 212, 191, 0.2);
 		font-size: 0.75rem;
 		font-style: italic;
 		color: var(--text-mist);

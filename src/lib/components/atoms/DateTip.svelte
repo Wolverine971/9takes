@@ -12,16 +12,16 @@
 
 <style>
 	.date-tip {
-		background: rgba(59, 130, 246, 0.1);
-		border-left: 4px solid #3b82f6;
+		background: var(--secondary-subtle);
+		border-left: 4px solid var(--primary);
 		padding: 1rem;
 		margin: 1.5rem 0;
 		border-radius: 0 8px 8px 0;
 		position: relative;
 		font-size: 0.95rem;
 		line-height: 1.5;
-		box-shadow: 0 0 15px rgba(59, 130, 246, 0.15);
-		color: #f1f5f9;
+		box-shadow: 0 0 15px rgba(251, 113, 133, 0.15);
+		color: var(--text-primary);
 	}
 
 	.date-tip::before {
@@ -29,6 +29,6 @@
 		font-weight: bold;
 		display: block;
 		margin-bottom: 0.5rem;
-		color: #60a5fa;
+		color: var(--primary);
 	}
 </style>

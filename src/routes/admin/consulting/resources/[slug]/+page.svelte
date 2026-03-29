@@ -131,7 +131,7 @@
 	}
 
 	.back-link:hover {
-		color: var(--shadow-monarch);
+		color: var(--primary);
 	}
 
 	.header-meta {
@@ -182,8 +182,8 @@
 	}
 
 	.resource-content {
-		background: var(--void-surface);
-		border: 1px solid var(--void-elevated);
+		background: var(--bg-surface);
+		border: 1px solid var(--bg-elevated);
 		border-radius: 12px;
 		padding: 2rem;
 		line-height: 1.7;
@@ -194,7 +194,7 @@
 		font-size: 1.5rem;
 		margin: 2rem 0 1rem;
 		padding-bottom: 0.5rem;
-		border-bottom: 1px solid var(--void-elevated);
+		border-bottom: 1px solid var(--bg-elevated);
 	}
 
 	.resource-content :global(h1:first-child) {
@@ -204,7 +204,7 @@
 	.resource-content :global(h2) {
 		font-size: 1.25rem;
 		margin: 1.75rem 0 0.75rem;
-		color: var(--shadow-monarch);
+		color: var(--primary);
 	}
 
 	.resource-content :global(h3) {
@@ -231,12 +231,12 @@
 		margin: 1rem 0;
 		padding: 0.75rem 1rem;
 		background: rgba(99, 102, 241, 0.05);
-		border-left: 3px solid var(--shadow-monarch);
+		border-left: 3px solid var(--primary);
 		font-style: italic;
 	}
 
 	.resource-content :global(code) {
-		background: var(--void-deep);
+		background: var(--bg-deep);
 		padding: 0.125rem 0.375rem;
 		border-radius: 3px;
 		font-size: 0.85em;
@@ -244,7 +244,7 @@
 	}
 
 	.resource-content :global(pre) {
-		background: var(--void-deep);
+		background: var(--bg-deep);
 		padding: 1rem;
 		border-radius: 6px;
 		overflow-x: auto;
@@ -263,7 +263,7 @@
 
 	.resource-content :global(hr) {
 		border: none;
-		border-top: 1px solid var(--void-elevated);
+		border-top: 1px solid var(--bg-elevated);
 		margin: 2rem 0;
 	}
 
@@ -275,7 +275,7 @@
 
 	.resource-content :global(td) {
 		padding: 0.5rem;
-		border: 1px solid var(--void-elevated);
+		border: 1px solid var(--bg-elevated);
 	}
 
 	/* Sidebar */
@@ -286,8 +286,8 @@
 	}
 
 	.sidebar-card {
-		background: var(--void-surface);
-		border: 1px solid var(--void-elevated);
+		background: var(--bg-surface);
+		border: 1px solid var(--bg-elevated);
 		border-radius: 12px;
 		padding: 1rem;
 	}
@@ -307,7 +307,7 @@
 	.related-item {
 		display: block;
 		padding: 0.5rem;
-		background: var(--void-deep);
+		background: var(--bg-deep);
 		border-radius: 6px;
 		text-decoration: none;
 		transition: all 0.2s;
@@ -330,7 +330,7 @@
 	}
 
 	.blog-link {
-		color: var(--shadow-monarch);
+		color: var(--primary);
 		text-decoration: none;
 		font-size: 0.85rem;
 	}

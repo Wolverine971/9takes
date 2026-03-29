@@ -1,36 +1,18 @@
 <!-- src/lib/components/charts/EnneagramBarChart.svelte -->
 <script lang="ts">
 	import { onMount } from 'svelte';
+	import { TYPE_COLOR_MAP, ENNEAGRAM_TYPE_COLORS } from '$lib/constants/enneagramColors';
 
 	export let distribution: Record<number, number> = {};
 	export let title: string = 'Type Distribution';
 	export let showPercentages: boolean = true;
 	export let compact: boolean = false;
 
-	// Enneagram type colors (matching the brand)
-	const typeColors: Record<number, string> = {
-		1: '#6366f1', // Indigo - The Perfectionist
-		2: '#ec4899', // Pink - The Helper
-		3: '#f59e0b', // Amber - The Achiever
-		4: '#8b5cf6', // Purple - The Individualist
-		5: '#3b82f6', // Blue - The Investigator
-		6: '#14b8a6', // Teal - The Loyalist
-		7: '#f97316', // Orange - The Enthusiast
-		8: '#ef4444', // Red - The Challenger
-		9: '#22c55e' // Green - The Peacemaker
-	};
+	const typeColors = TYPE_COLOR_MAP;
 
-	const typeNames: Record<number, string> = {
-		1: 'Perfectionist',
-		2: 'Helper',
-		3: 'Achiever',
-		4: 'Individualist',
-		5: 'Investigator',
-		6: 'Loyalist',
-		7: 'Enthusiast',
-		8: 'Challenger',
-		9: 'Peacemaker'
-	};
+	const typeNames: Record<number, string> = Object.fromEntries(
+		Object.entries(ENNEAGRAM_TYPE_COLORS).map(([k, v]) => [Number(k), v.name.replace('The ', '')])
+	);
 
 	$: total = Object.values(distribution).reduce((sum, count) => sum + count, 0);
 	$: maxCount = Math.max(...Object.values(distribution), 1);
@@ -138,7 +120,7 @@
 	}
 
 	.total-users {
-		color: var(--text-secondary, #64748b);
+		color: var(--text-secondary, var(--text-tertiary));
 	}
 
 	.top-type {
@@ -215,13 +197,13 @@
 
 	.type-name {
 		font-size: 0.8rem;
-		color: var(--text-secondary, #64748b);
+		color: var(--text-secondary, var(--text-tertiary));
 		white-space: nowrap;
 	}
 
 	.bar-track {
 		height: 24px;
-		background: var(--hover-background, #f1f5f9);
+		background: var(--hover-background, var(--text-primary));
 		border-radius: 6px;
 		overflow: hidden;
 		position: relative;
@@ -274,7 +256,7 @@
 
 	.percentage {
 		font-size: 0.7rem;
-		color: var(--text-secondary, #64748b);
+		color: var(--text-secondary, var(--text-tertiary));
 	}
 
 	.compact .percentage {

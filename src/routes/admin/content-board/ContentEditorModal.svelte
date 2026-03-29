@@ -10,7 +10,6 @@
 	interface HistoryItem {
 		id: number;
 		changed_at: string;
-		old_content: string;
 		new_content: string;
 	}
 
@@ -426,8 +425,8 @@
 		left: 24px;
 		right: 24px;
 		bottom: 24px;
-		background: var(--void-surface);
-		border: 1px solid var(--void-elevated);
+		background: var(--bg-surface);
+		border: 1px solid var(--bg-elevated);
 		border-radius: 12px;
 		box-shadow:
 			0 25px 50px -12px rgba(0, 0, 0, 0.5),
@@ -453,8 +452,8 @@
 		align-items: center;
 		justify-content: space-between;
 		padding: 12px 16px;
-		border-bottom: 1px solid var(--void-elevated);
-		background: var(--void-deep);
+		border-bottom: 1px solid var(--bg-elevated);
+		background: var(--bg-deep);
 		flex-shrink: 0;
 
 		@media (max-width: 768px) {
@@ -490,7 +489,7 @@
 		flex-shrink: 0;
 
 		&:hover {
-			background: var(--void-elevated);
+			background: var(--bg-elevated);
 			color: var(--text-primary);
 		}
 
@@ -573,29 +572,25 @@
 	}
 
 	.btn-primary {
-		background: linear-gradient(135deg, var(--shadow-monarch) 0%, var(--shadow-monarch-dark) 100%);
+		background: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%);
 		color: white;
-		border: 1px solid var(--shadow-monarch);
+		border: 1px solid var(--primary);
 		box-shadow: var(--glow-sm);
 
 		&:hover:not(:disabled) {
-			background: linear-gradient(
-				135deg,
-				var(--shadow-monarch-light) 0%,
-				var(--shadow-monarch) 100%
-			);
+			background: linear-gradient(135deg, var(--primary-light) 0%, var(--primary) 100%);
 			box-shadow: var(--glow-md);
 		}
 	}
 
 	.btn-secondary {
-		background: var(--void-elevated);
+		background: var(--bg-elevated);
 		color: var(--text-primary);
-		border: 1px solid var(--void-highlight);
+		border: 1px solid var(--bg-highlight);
 
 		&:hover:not(:disabled) {
-			background: var(--void-highlight);
-			border-color: var(--shadow-monarch-glow);
+			background: var(--bg-highlight);
+			border-color: var(--primary-glow);
 		}
 
 		@media (max-width: 768px) {
@@ -622,8 +617,8 @@
 
 	.mobile-tabs {
 		display: none;
-		border-bottom: 1px solid var(--void-elevated);
-		background: var(--void-surface);
+		border-bottom: 1px solid var(--bg-elevated);
+		background: var(--bg-surface);
 
 		@media (max-width: 768px) {
 			display: flex;
@@ -644,9 +639,9 @@
 		min-height: 48px;
 
 		&.active {
-			color: var(--shadow-monarch-light);
-			border-bottom-color: var(--shadow-monarch);
-			background: var(--void-elevated);
+			color: var(--primary-light);
+			border-bottom-color: var(--primary);
+			background: var(--bg-elevated);
 		}
 	}
 
@@ -656,7 +651,7 @@
 		width: 100%;
 		overflow: hidden;
 		min-height: 0;
-		background: var(--void-deep);
+		background: var(--bg-deep);
 
 		@media (max-width: 768px) {
 			flex-direction: column;
@@ -697,7 +692,7 @@
 		width: 360px;
 		min-height: 0;
 		overflow: hidden;
-		border-left: 1px solid var(--void-elevated);
+		border-left: 1px solid var(--bg-elevated);
 
 		@media (max-width: 1200px) {
 			flex: 0 0 320px;
@@ -728,8 +723,8 @@
 	}
 
 	.warning-dialog {
-		background: var(--void-surface);
-		border: 1px solid var(--void-elevated);
+		background: var(--bg-surface);
+		border: 1px solid var(--bg-elevated);
 		border-radius: 12px;
 		padding: 24px;
 		max-width: 400px;

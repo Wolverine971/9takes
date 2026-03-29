@@ -140,7 +140,7 @@
 		color: var(--text-primary);
 
 		&::placeholder {
-			color: #94a3b8;
+			color: var(--text-secondary);
 		}
 
 		&:focus {

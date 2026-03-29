@@ -5,54 +5,53 @@
 	import { page } from '$app/stores';
 	import MobileNav from './MobileNavNew.svelte';
 	import Context, { onClickOutside } from '$lib/components/molecules/Context.svelte';
+	import ThemeToggle from '$lib/components/atoms/ThemeToggle.svelte';
 
 	export let data: any;
 
-	// Responsive state
 	let innerWidth: number;
-	let isDropdownOpen = false;
+	let isMoreOpen = false;
 
-	// Reactive statements
 	$: isMobile = innerWidth < 768;
-	$: isHomePage = $page.url.pathname === '/';
 
-	// Reset dropdown state on navigation
-	afterNavigate(() => (isDropdownOpen = false));
+	afterNavigate(() => (isMoreOpen = false));
 
-	// Initialize window resize handler
 	onMount(() => {
 		innerWidth = window.innerWidth;
 	});
 
-	// Navigation structure - centralized for consistency
+	// Primary nav links shown in the header bar
+	const primaryLinks = [
+		{ href: '/questions', label: 'Questions' },
+		{ href: '/enneagram-corner', label: 'Enneagram Corner' },
+		{ href: '/personality-analysis', label: 'Personality Analysis' }
+	];
+
+	// "More" dropdown links
+	const moreLinks = [
+		{ href: '/how-to-guides', label: 'How-to Guides' },
+		{ href: '/blog', label: 'All Blog Topics' },
+		{ href: '/community', label: 'The Takes of 9takes' },
+		{ href: '/pop-culture', label: 'Pop Culture' }
+	];
+
+	// Combined for mobile nav
 	const navItems = [
 		{ href: '/', label: 'Home' },
-		{ href: '/questions', label: 'Question List' }
+		...primaryLinks,
+		{ href: '/how-to-guides', label: 'How-to Guides' },
+		{ href: '/book-session', label: 'Book Session' }
 	];
 
 	const blogItems = [
 		{ href: '/blog', label: 'All Blog Topics' },
 		{ href: '/community', label: 'The Takes of 9takes' },
-		{ href: '/enneagram-corner', label: 'Enneagram Corner' },
-		{ href: '/personality-analysis', label: 'Personality Analysis' },
-		{ href: '/how-to-guides', label: 'How-to Guides' },
 		{ href: '/pop-culture', label: 'Pop Culture' }
 	];
 
-	// Handlers
 	const goToAccount = () => goto('/account');
-	const toggleDropdown = () => (isDropdownOpen = !isDropdownOpen);
-	const closeDropdown = () => (isDropdownOpen = false);
-
-	let adminMessageReceiverModule: Promise<
-		typeof import('$lib/components/notifications/AdminMessageReceiver.svelte')
-	> | null = null;
-
-	$: if (data?.user && !adminMessageReceiverModule) {
-		adminMessageReceiverModule = import(
-			'$lib/components/notifications/AdminMessageReceiver.svelte'
-		);
-	}
+	const toggleMore = () => (isMoreOpen = !isMoreOpen);
+	const closeMore = () => (isMoreOpen = false);
 </script>
 
 <svelte:window bind:innerWidth />
@@ -60,26 +59,16 @@
 <header class="nav-main" aria-label="Site header">
 	{#if isMobile}
 		<!-- Mobile Header -->
-		<div class="flex h-16 items-center justify-between px-4">
+		<div class="flex h-14 items-center justify-between px-4">
 			<MobileNav {navItems} {blogItems} />
 
-			<!-- Logo - centered -->
-			<a
-				href="/"
-				class="logo-link absolute left-1/2 -translate-x-1/2 transform"
-				aria-label="Go to homepage"
-			>
-				<img src="/brand/aero.webp" alt="9takes Logo" height="60" width="60" />
+			<a href="/" class="logo-link" aria-label="Go to homepage">
+				<span class="logo-text">9takes</span>
 			</a>
 
-			<!-- Notifications and Account -->
 			<div class="flex items-center gap-2">
+				<ThemeToggle />
 				{#if data?.user}
-					{#if adminMessageReceiverModule}
-						{#await adminMessageReceiverModule then module}
-							<svelte:component this={module.default} user={data.user} />
-						{/await}
-					{/if}
 					<button
 						type="button"
 						on:click={goToAccount}
@@ -88,12 +77,12 @@
 					>
 						<svg
 							xmlns="http://www.w3.org/2000/svg"
-							width="30"
-							height="30"
+							width="24"
+							height="24"
 							viewBox="0 0 24 24"
 							fill="none"
 							stroke="currentColor"
-							stroke-width="1"
+							stroke-width="1.5"
 							stroke-linecap="round"
 							stroke-linejoin="round"
 							class="account-icon"
@@ -108,103 +97,94 @@
 		</div>
 	{:else}
 		<!-- Desktop Navigation -->
-		<nav
-			class="relative mx-auto flex h-16 max-w-7xl items-center justify-between px-6 lg:px-8"
-			aria-label="Main navigation"
-		>
-			<!-- Logo & Brand -->
+		<nav class="header-inner" aria-label="Main navigation">
+			<!-- Logo -->
 			<a href="/" class="logo-link" aria-label="Go to homepage">
-				<img src="/brand/aero.webp" alt="9takes Logo" height="60" width="60" />
-				<span>
-					{!isHomePage ? '9takes' : ' '}
-				</span>
+				<span class="logo-text">9takes</span>
 			</a>
 
-			<!-- Main Navigation - centered -->
-			<div class="absolute left-1/2 flex -translate-x-1/2 transform items-center justify-center">
-				<div class="flex items-center gap-8">
-					<!-- Main nav items -->
-					{#each navItems as { href, label }}
-						<a
-							{href}
-							class="nav-link"
-							class:active-link={$page.url.pathname === href}
-							aria-current={$page.url.pathname === href ? 'page' : undefined}
-						>
-							{label}
-						</a>
-					{/each}
-
-					<!-- Blog Dropdown -->
-					<div class="relative z-20">
-						<button
-							on:click={toggleDropdown}
-							class="nav-link flex items-center gap-1"
-							aria-haspopup="true"
-							aria-controls="blogMenu"
-							aria-expanded={isDropdownOpen}
-						>
-							Blog
-							<svg
-								class="dropdown-arrow h-4 w-4"
-								class:rotated={isDropdownOpen}
-								fill="none"
-								stroke="currentColor"
-								viewBox="0 0 24 24"
-							>
-								<path
-									stroke-linecap="round"
-									stroke-linejoin="round"
-									stroke-width="2"
-									d="M19 9l-7 7-7-7"
-								/>
-							</svg>
-						</button>
-
-						{#if isDropdownOpen}
-							<Context>
-								<ul id="blogMenu" class="dropdown-menu" use:onClickOutside={closeDropdown}>
-									{#each blogItems as { href, label }}
-										<li>
-											<a {href} class:active={$page.url.pathname === href} on:click={closeDropdown}>
-												{label}
-											</a>
-										</li>
-									{/each}
-								</ul>
-							</Context>
-						{/if}
-					</div>
-
-					<!-- About link -->
+			<!-- Center nav links -->
+			<div class="nav-center">
+				{#each primaryLinks as { href, label }}
 					<a
-						href="/about"
+						{href}
 						class="nav-link"
-						class:active-link={$page.url.pathname === '/about'}
-						aria-current={$page.url.pathname === '/about' ? 'page' : undefined}
+						class:active-link={$page.url.pathname.startsWith(href)}
+						aria-current={$page.url.pathname.startsWith(href) ? 'page' : undefined}
 					>
-						About
+						{label}
 					</a>
+				{/each}
+
+				<!-- More dropdown -->
+				<div class="relative z-20">
+					<button
+						on:click={toggleMore}
+						class="nav-link flex items-center gap-1"
+						aria-haspopup="true"
+						aria-controls="moreMenu"
+						aria-expanded={isMoreOpen}
+					>
+						More
+						<svg
+							class="dropdown-arrow h-4 w-4"
+							class:rotated={isMoreOpen}
+							fill="none"
+							stroke="currentColor"
+							viewBox="0 0 24 24"
+						>
+							<path
+								stroke-linecap="round"
+								stroke-linejoin="round"
+								stroke-width="2"
+								d="M19 9l-7 7-7-7"
+							/>
+						</svg>
+					</button>
+
+					{#if isMoreOpen}
+						<Context>
+							<ul id="moreMenu" class="dropdown-menu" use:onClickOutside={closeMore}>
+								{#each moreLinks as { href, label }}
+									<li>
+										<a
+											{href}
+											class:active={$page.url.pathname.startsWith(href)}
+											on:click={closeMore}
+										>
+											{label}
+										</a>
+									</li>
+								{/each}
+							</ul>
+						</Context>
+					{/if}
 				</div>
+
+				<!-- Book Session — standalone after More -->
+				<a
+					href="/book-session"
+					class="nav-link"
+					class:active-link={$page.url.pathname.startsWith('/book-session')}
+					aria-current={$page.url.pathname.startsWith('/book-session') ? 'page' : undefined}
+				>
+					Book Session
+				</a>
 			</div>
 
-			<!-- Account / Login Area -->
+			<!-- Right side: theme + account -->
 			<div class="flex items-center gap-3">
+				<ThemeToggle />
 				{#if data?.user}
-					{#if adminMessageReceiverModule}
-						{#await adminMessageReceiverModule then module}
-							<svelte:component this={module.default} user={data.user} />
-						{/await}
-					{/if}
 					<a href="/account" class="account-button" aria-label="Go to account" title="Account">
 						<svg
 							xmlns="http://www.w3.org/2000/svg"
-							width="30"
-							height="30"
+							width="24"
+							height="24"
 							viewBox="0 0 24 24"
 							fill="none"
 							stroke="currentColor"
-							stroke-width="1"
+							stroke-width="1.5"
 							stroke-linecap="round"
 							stroke-linejoin="round"
 							class="account-icon"
@@ -215,7 +195,7 @@
 						</svg>
 					</a>
 				{:else if !($page.url.pathname === '/login' || $page.url.pathname === '/register')}
-					<a href="/login" class="btn btn-primary"> Login / Register </a>
+					<a href="/login" class="btn btn-primary"> Login </a>
 				{/if}
 			</div>
 		</nav>

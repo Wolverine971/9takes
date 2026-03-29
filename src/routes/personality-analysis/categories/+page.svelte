@@ -320,8 +320,8 @@
 	.page-shell {
 		min-height: 100vh;
 		background:
-			radial-gradient(circle at top, rgba(124, 58, 237, 0.12), transparent 35%),
-			linear-gradient(180deg, #09090f 0%, #12121a 100%);
+			radial-gradient(circle at top, rgba(45, 212, 191, 0.12), transparent 35%),
+			linear-gradient(180deg, #09090f 0%, var(--bg-deep) 100%);
 	}
 
 	.hero {
@@ -346,14 +346,14 @@
 	.section-kicker,
 	.card-label,
 	.mini-label {
-		color: #94a3b8;
+		color: var(--text-secondary);
 	}
 
 	h1,
 	h2,
 	h3 {
 		margin: 0;
-		color: #f8fafc;
+		color: var(--text-primary);
 		line-height: 1.1;
 	}
 
@@ -366,7 +366,7 @@
 	.lede {
 		max-width: 760px;
 		margin: 1rem auto 0;
-		color: #cbd5e1;
+		color: var(--neutral-700);
 		font-size: 1.05rem;
 		line-height: 1.7;
 	}
@@ -385,14 +385,14 @@
 			border-radius: 999px;
 			background: rgba(15, 23, 42, 0.7);
 			border: 1px solid rgba(148, 163, 184, 0.2);
-			color: #cbd5e1;
+			color: var(--neutral-700);
 			font-size: 0.85rem;
 			text-decoration: none;
 		}
 	}
 
 	.hero-link:hover {
-		border-color: rgba(124, 58, 237, 0.45);
+		border-color: rgba(45, 212, 191, 0.45);
 		color: #ddd6fe;
 	}
 
@@ -419,7 +419,7 @@
 	.section-copy {
 		margin: 0;
 		max-width: 420px;
-		color: #94a3b8;
+		color: var(--text-secondary);
 		text-align: right;
 		line-height: 1.5;
 	}
@@ -472,7 +472,7 @@
 		border-radius: 999px;
 		background: rgba(15, 23, 42, 0.82);
 		border: 1px solid rgba(148, 163, 184, 0.2);
-		color: #f8fafc;
+		color: var(--text-primary);
 		text-align: center;
 		font-size: 0.8rem;
 		font-weight: 700;
@@ -481,7 +481,7 @@
 	.summary,
 	.secondary-card p {
 		margin: 0;
-		color: #cbd5e1;
+		color: var(--neutral-700);
 		font-size: 0.9rem;
 		line-height: 1.55;
 	}
@@ -508,13 +508,13 @@
 		border-radius: 0.75rem;
 		background: rgba(15, 23, 42, 0.68);
 		border: 1px solid rgba(148, 163, 184, 0.12);
-		color: #e2e8f0;
+		color: var(--text-primary);
 		font-size: 0.72rem;
 		line-height: 1.3;
 	}
 
 	.cluster-chip.muted {
-		color: #94a3b8;
+		color: var(--text-secondary);
 	}
 
 	.tag-chip {
@@ -522,14 +522,14 @@
 		border-radius: 999px;
 		background: rgba(15, 23, 42, 0.78);
 		border: 1px solid rgba(148, 163, 184, 0.16);
-		color: #cbd5e1;
+		color: var(--neutral-700);
 		font-size: 0.74rem;
 	}
 
 	.featured-block ul {
 		margin: 0.45rem 0 0;
 		padding-left: 1rem;
-		color: #f8fafc;
+		color: var(--text-primary);
 		line-height: 1.7;
 	}
 
@@ -548,7 +548,7 @@
 
 		span {
 			font-size: 0.72rem;
-			color: #94a3b8;
+			color: var(--text-secondary);
 		}
 	}
 
@@ -562,7 +562,7 @@
 	}
 
 	.updated {
-		color: #64748b;
+		color: var(--text-tertiary);
 		margin: 0;
 	}
 

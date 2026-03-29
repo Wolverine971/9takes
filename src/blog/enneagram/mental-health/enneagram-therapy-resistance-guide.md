@@ -11,7 +11,7 @@ published: true
 type: ['mental-health']
 blog: true
 previewHtml: ''
-pic: 'greek-statue-looking-away-therapy'
+pic: 'greek-statue-calling-you-out'
 path: src/blog/enneagram/mental-health/enneagram-therapy-resistance-guide.md
 ---
 
@@ -322,7 +322,7 @@ The frame is the relationship in miniature. How you respond to it reveals everyt
       "image": {
         "@type": "ImageObject",
         "height": 900,
-        "url": "https://9takes.com/blogs/greek-statue-looking-away-therapy.webp",
+        "url": "https://9takes.com/blogs/greek-statue-calling-you-out.webp",
         "width": 900
       },
       "publisher": {

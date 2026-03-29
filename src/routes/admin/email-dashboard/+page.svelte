@@ -1474,8 +1474,8 @@
 	}
 
 	.stat-chip {
-		background: var(--void-surface);
-		border: 1px solid var(--void-elevated);
+		background: var(--bg-surface);
+		border: 1px solid var(--bg-elevated);
 		border-radius: 12px;
 		padding: 0.75rem 1rem;
 		display: flex;
@@ -1544,8 +1544,8 @@
 	}
 
 	.sequence-panel {
-		background: var(--void-surface);
-		border: 1px solid var(--void-elevated);
+		background: var(--bg-surface);
+		border: 1px solid var(--bg-elevated);
 		border-radius: 12px;
 		padding: 1rem;
 		margin-bottom: 1.25rem;
@@ -1578,8 +1578,8 @@
 	}
 
 	.sequence-stat {
-		background: var(--void-deep);
-		border: 1px solid var(--void-elevated);
+		background: var(--bg-deep);
+		border: 1px solid var(--bg-elevated);
 		border-radius: 12px;
 		padding: 0.75rem;
 		display: flex;
@@ -1623,7 +1623,7 @@
 		display: flex;
 		gap: 0.25rem;
 		margin-bottom: 1rem;
-		border-bottom: 1px solid var(--void-elevated);
+		border-bottom: 1px solid var(--bg-elevated);
 		padding-bottom: 0;
 	}
 
@@ -1645,14 +1645,14 @@
 	}
 
 	.tab.active {
-		color: var(--shadow-monarch);
-		border-bottom-color: var(--shadow-monarch);
+		color: var(--primary);
+		border-bottom-color: var(--primary);
 	}
 
 	/* Section Card */
 	.section-card {
-		background: var(--void-surface);
-		border: 1px solid var(--void-elevated);
+		background: var(--bg-surface);
+		border: 1px solid var(--bg-elevated);
 		border-radius: 12px;
 		padding: 1rem;
 	}
@@ -1685,10 +1685,10 @@
 	.filter-select,
 	.search-input {
 		padding: 0.5rem 0.75rem;
-		border: 1px solid var(--void-elevated);
+		border: 1px solid var(--bg-elevated);
 		border-radius: 12px;
 		font-size: 0.875rem;
-		background: var(--void-deep);
+		background: var(--bg-deep);
 	}
 
 	.search-input {
@@ -1696,11 +1696,11 @@
 	}
 
 	.batch-compose-card {
-		border: 1px solid var(--void-elevated);
+		border: 1px solid var(--bg-elevated);
 		border-radius: 12px;
 		padding: 0.875rem;
 		margin-bottom: 1rem;
-		background: var(--void-deep);
+		background: var(--bg-deep);
 	}
 
 	.batch-compose-header {
@@ -1736,7 +1736,7 @@
 		display: inline-flex;
 		align-items: center;
 		gap: 0.4rem;
-		border: 1px solid var(--void-elevated);
+		border: 1px solid var(--bg-elevated);
 		border-radius: 999px;
 		padding: 0.35rem 0.65rem;
 		font-size: 0.8125rem;
@@ -1770,7 +1770,7 @@
 	.data-table td {
 		padding: 0.75rem 0.5rem;
 		text-align: left;
-		border-bottom: 1px solid var(--void-elevated);
+		border-bottom: 1px solid var(--bg-elevated);
 	}
 
 	.data-table th {
@@ -1849,7 +1849,7 @@
 	}
 
 	.status-processing {
-		background: rgba(59, 130, 246, 0.1);
+		background: rgba(251, 113, 133, 0.1);
 		color: rgb(59, 130, 246);
 	}
 
@@ -1885,7 +1885,7 @@
 		gap: 1rem;
 		margin-top: 1rem;
 		padding-top: 1rem;
-		border-top: 1px solid var(--void-elevated);
+		border-top: 1px solid var(--bg-elevated);
 	}
 
 	.page-info {
@@ -1910,7 +1910,7 @@
 	}
 
 	.btn-primary {
-		background: var(--shadow-monarch);
+		background: var(--primary);
 		color: white;
 	}
 
@@ -1919,13 +1919,13 @@
 	}
 
 	.btn-secondary {
-		background: var(--void-deep);
-		border: 1px solid var(--void-elevated);
+		background: var(--bg-deep);
+		border: 1px solid var(--bg-elevated);
 		color: var(--text-primary);
 	}
 
 	.btn-secondary:hover:not(:disabled) {
-		background: var(--void-elevated);
+		background: var(--bg-elevated);
 	}
 
 	.btn-sm {
@@ -2011,9 +2011,9 @@
 		justify-content: space-between;
 		align-items: center;
 		padding: 1rem;
-		background: var(--void-deep);
+		background: var(--bg-deep);
 		border-radius: 12px;
-		border: 1px solid var(--void-elevated);
+		border: 1px solid var(--bg-elevated);
 	}
 
 	.draft-info h3,
@@ -2050,8 +2050,8 @@
 	.sent-detail-panel {
 		width: min(900px, 100%);
 		max-height: 90vh;
-		background: var(--void-surface);
-		border: 1px solid var(--void-elevated);
+		background: var(--bg-surface);
+		border: 1px solid var(--bg-elevated);
 		border-radius: 12px;
 		box-shadow: var(--glow-md);
 		display: flex;
@@ -2063,7 +2063,7 @@
 		justify-content: space-between;
 		align-items: center;
 		padding: 1rem 1.5rem;
-		border-bottom: 1px solid var(--void-elevated);
+		border-bottom: 1px solid var(--bg-elevated);
 	}
 
 	.sent-detail-body {
@@ -2121,7 +2121,7 @@
 	}
 
 	.email-preview {
-		border: 1px solid var(--void-elevated);
+		border: 1px solid var(--bg-elevated);
 		border-radius: 12px;
 		padding: 1rem;
 		background: #ffffff;
@@ -2147,8 +2147,8 @@
 	}
 
 	.raw-html {
-		background: var(--void-deep);
-		border: 1px solid var(--void-elevated);
+		background: var(--bg-deep);
+		border: 1px solid var(--bg-elevated);
 		border-radius: 12px;
 		padding: 1rem;
 		font-size: 0.75rem;
@@ -2167,9 +2167,9 @@
 
 	.event-item {
 		padding: 0.75rem;
-		border: 1px solid var(--void-elevated);
+		border: 1px solid var(--bg-elevated);
 		border-radius: 12px;
-		background: var(--void-deep);
+		background: var(--bg-deep);
 		display: flex;
 		flex-direction: column;
 		gap: 0.25rem;
@@ -2190,7 +2190,7 @@
 
 	.event-link {
 		font-size: 0.75rem;
-		color: var(--shadow-monarch);
+		color: var(--primary);
 		word-break: break-word;
 	}
 

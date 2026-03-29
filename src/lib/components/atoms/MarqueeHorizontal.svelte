@@ -123,13 +123,13 @@
 </div>
 
 <style lang="scss">
-	/* Solo Leveling Dark Theme */
+	/* 9takes Warm Tech Theme */
 	.marquee-container {
 		width: 100%;
 		overflow: hidden;
-		background: linear-gradient(135deg, #1a1a2e 0%, #12121a 100%);
-		border-top: 1px solid rgba(100, 116, 139, 0.2);
-		border-bottom: 1px solid rgba(100, 116, 139, 0.2);
+		background: linear-gradient(135deg, var(--bg-surface) 0%, var(--bg-deep) 100%);
+		border-top: 1px solid color-mix(in srgb, var(--text-tertiary) 20%, transparent);
+		border-bottom: 1px solid color-mix(in srgb, var(--text-tertiary) 20%, transparent);
 		position: relative;
 	}
 
@@ -146,12 +146,12 @@
 
 	.marquee-container::before {
 		left: 0;
-		background: linear-gradient(to right, #1a1a2e, transparent);
+		background: linear-gradient(to right, var(--bg-surface), transparent);
 	}
 
 	.marquee-container::after {
 		right: 0;
-		background: linear-gradient(to left, #12121a, transparent);
+		background: linear-gradient(to left, var(--bg-deep), transparent);
 	}
 
 	.marquee {
@@ -184,7 +184,7 @@
 		display: inline-flex;
 		align-items: center;
 		padding: 1rem 2rem;
-		color: #cbd5e1;
+		color: var(--neutral-700);
 		text-transform: uppercase;
 		font-size: 1.2rem;
 		font-weight: bold;
@@ -193,9 +193,9 @@
 		position: relative;
 
 		&:hover {
-			color: #a78bfa;
+			color: var(--accent-light);
 			transform: scale(1.1);
-			text-shadow: 0 0 20px rgba(167, 139, 250, 0.5);
+			text-shadow: 0 0 20px rgba(45, 212, 191, 0.5);
 		}
 
 		/* Separator between items */
@@ -203,7 +203,7 @@
 			content: '•';
 			display: inline-block !important;
 			margin-left: 2rem;
-			color: #475569;
+			color: var(--text-muted);
 			font-size: 0.75rem;
 		}
 	}

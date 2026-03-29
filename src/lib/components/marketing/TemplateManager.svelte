@@ -457,15 +457,15 @@
 		width: 100%;
 		padding: 0.5rem 0.75rem 0.5rem 2.25rem;
 		font-size: 0.8125rem;
-		border: 1px solid var(--void-elevated);
+		border: 1px solid var(--bg-elevated);
 		border-radius: 8px;
-		background: var(--void-deep);
+		background: var(--bg-deep);
 		color: var(--text-primary);
 	}
 
 	.search-input:focus {
 		outline: none;
-		border-color: var(--shadow-monarch);
+		border-color: var(--primary);
 	}
 
 	.type-section {
@@ -478,7 +478,7 @@
 		gap: 0.5rem;
 		margin-bottom: 0.75rem;
 		padding-bottom: 0.5rem;
-		border-bottom: 1px solid var(--void-elevated);
+		border-bottom: 1px solid var(--bg-elevated);
 	}
 
 	.type-header h3 {
@@ -497,7 +497,7 @@
 		font-size: 0.6875rem;
 		font-weight: 600;
 		border-radius: 9999px;
-		background: var(--void-elevated);
+		background: var(--bg-elevated);
 		color: var(--text-secondary);
 	}
 
@@ -508,22 +508,22 @@
 	}
 
 	.template-card {
-		background: var(--void-surface);
-		border: 1px solid var(--void-elevated);
+		background: var(--bg-surface);
+		border: 1px solid var(--bg-elevated);
 		border-radius: 12px;
 		overflow: hidden;
 		transition: all 0.15s ease;
 	}
 
 	.template-card:hover {
-		border-color: var(--shadow-monarch);
+		border-color: var(--primary);
 		box-shadow: var(--glow-sm);
 	}
 
 	.card-header {
 		padding: 0.75rem 1rem;
-		background: var(--void-deep);
-		border-bottom: 1px solid var(--void-elevated);
+		background: var(--bg-deep);
+		border-bottom: 1px solid var(--bg-elevated);
 	}
 
 	.type-badge {
@@ -532,7 +532,7 @@
 		font-size: 0.6875rem;
 		font-weight: 600;
 		border-radius: 9999px;
-		background: rgba(59, 130, 246, 0.15);
+		background: rgba(251, 113, 133, 0.15);
 		color: #60a5fa;
 	}
 
@@ -559,7 +559,7 @@
 
 	.card-actions {
 		display: flex;
-		border-top: 1px solid var(--void-elevated);
+		border-top: 1px solid var(--bg-elevated);
 	}
 
 	.action-btn {
@@ -578,8 +578,8 @@
 	}
 
 	.action-btn.edit {
-		color: var(--shadow-monarch);
-		border-right: 1px solid var(--void-elevated);
+		color: var(--primary);
+		border-right: 1px solid var(--bg-elevated);
 	}
 
 	.action-btn.edit:hover {
@@ -636,7 +636,7 @@
 	}
 
 	.btn-primary {
-		background: var(--shadow-monarch);
+		background: var(--primary);
 		color: white;
 	}
 
@@ -646,12 +646,12 @@
 	}
 
 	.btn-secondary {
-		background: var(--void-elevated);
+		background: var(--bg-elevated);
 		color: var(--text-primary);
 	}
 
 	.btn-secondary:hover {
-		background: var(--void-highlight);
+		background: var(--bg-highlight);
 	}
 
 	.btn-danger {
@@ -675,8 +675,8 @@
 	}
 
 	.modal-dialog {
-		background: var(--void-surface);
-		border: 1px solid var(--void-elevated);
+		background: var(--bg-surface);
+		border: 1px solid var(--bg-elevated);
 		border-radius: 12px;
 		padding: 1.5rem;
 		width: 90%;
@@ -730,15 +730,15 @@
 		width: 100%;
 		padding: 0.5rem 0.75rem;
 		font-size: 0.875rem;
-		border: 1px solid var(--void-elevated);
+		border: 1px solid var(--bg-elevated);
 		border-radius: 8px;
-		background: var(--void-deep);
+		background: var(--bg-deep);
 		color: var(--text-primary);
 	}
 
 	.field-input:focus {
 		outline: none;
-		border-color: var(--shadow-monarch);
+		border-color: var(--primary);
 	}
 
 	.field-textarea {

@@ -133,10 +133,10 @@
 </script>
 
 <div
-	class="question-display-card relative overflow-hidden rounded-2xl border border-purple-500/15 bg-[#1a1a2e]/70 px-4 py-6 shadow-[0_0_30px_rgba(124,58,237,0.15)] backdrop-blur-md sm:p-6"
+	class="question-display-card bg-[var(--bg-surface)]/70 relative overflow-hidden rounded-2xl border border-[var(--primary-subtle)] px-4 py-6 shadow-[var(--glow-sm)] backdrop-blur-md sm:p-6"
 >
 	<h1
-		class="relative m-0 w-full text-center font-bold leading-snug text-slate-100 drop-shadow-[0_0_12px_rgba(124,58,237,0.15)]"
+		class="relative m-0 w-full text-center font-bold leading-snug text-[var(--text-primary)] drop-shadow-[0_0_12px_var(--primary-glow)]"
 		style="font-size: {fontSize};"
 		itemprop="name"
 	>
@@ -151,7 +151,7 @@
 		position: absolute;
 		inset: 0;
 		border-radius: inherit;
-		background: radial-gradient(ellipse at 50% 0%, rgba(124, 58, 237, 0.08) 0%, transparent 60%);
+		background: radial-gradient(ellipse at 50% 0%, rgba(45, 212, 191, 0.08) 0%, transparent 60%);
 		pointer-events: none;
 	}
 </style>

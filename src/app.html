@@ -1,8 +1,28 @@
 <!-- src/app.html -->
 <!doctype html>
-<html lang="en">
+<html lang="en" class="dark">
 	<head>
 		<meta charset="utf-8" />
+		<script>
+			// Apply the saved/system theme before CSS loads to avoid a dark flash in light mode.
+			(function () {
+				var effective = 'dark';
+				try {
+					var stored = localStorage.getItem('9takes-theme');
+					effective =
+						stored === 'light' || stored === 'dark'
+							? stored
+							: window.matchMedia('(prefers-color-scheme: light)').matches
+								? 'light'
+								: 'dark';
+				} catch {}
+				var root = document.documentElement;
+				root.classList.remove('light', 'dark');
+				root.classList.add(effective);
+				root.dataset.theme = effective;
+				root.style.colorScheme = effective;
+			})();
+		</script>
 		<link rel="icon" href="%sveltekit.assets%/favicon.ico" />
 		<link rel="alternate" type="application/rss+xml" href="https://9takes.com/rss.xml" />
 		%sveltekit.head%

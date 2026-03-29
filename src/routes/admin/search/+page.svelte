@@ -354,15 +354,15 @@
 		flex: 1;
 		padding: 0.625rem 0.875rem;
 		font-size: 0.95rem;
-		border: 1px solid var(--void-elevated);
+		border: 1px solid var(--bg-elevated);
 		border-radius: 8px;
-		background: var(--void-surface);
+		background: var(--bg-surface);
 		color: var(--text-primary);
 		transition: border-color 0.15s ease;
 
 		&:focus {
 			outline: none;
-			border-color: var(--shadow-monarch);
+			border-color: var(--primary);
 		}
 	}
 
@@ -370,7 +370,7 @@
 		padding: 0.625rem 1.25rem;
 		font-size: 0.875rem;
 		font-weight: 600;
-		background: var(--shadow-monarch);
+		background: var(--primary);
 		color: white;
 		border: none;
 		border-radius: 8px;
@@ -394,8 +394,8 @@
 		align-items: flex-end;
 		margin-bottom: 1.5rem;
 		padding: 0.875rem;
-		background: var(--void-deep);
-		border: 1px solid var(--void-elevated);
+		background: var(--bg-deep);
+		border: 1px solid var(--bg-elevated);
 		border-radius: 8px;
 	}
 
@@ -413,9 +413,9 @@
 		select {
 			padding: 0.4rem 0.625rem;
 			font-size: 0.8rem;
-			border: 1px solid var(--void-elevated);
+			border: 1px solid var(--bg-elevated);
 			border-radius: 6px;
-			background: var(--void-surface);
+			background: var(--bg-surface);
 			color: var(--text-primary);
 			min-width: 150px;
 		}
@@ -457,8 +457,8 @@
 	.spinner {
 		width: 32px;
 		height: 32px;
-		border: 3px solid var(--void-elevated);
-		border-top-color: var(--shadow-monarch);
+		border: 3px solid var(--bg-elevated);
+		border-top-color: var(--primary);
 		border-radius: 50%;
 		animation: spin 0.7s linear infinite;
 	}
@@ -484,15 +484,15 @@
 	.result-card {
 		display: block;
 		padding: 1.25rem;
-		background: var(--void-surface);
-		border: 1px solid var(--void-elevated);
+		background: var(--bg-surface);
+		border: 1px solid var(--bg-elevated);
 		border-radius: 12px;
 		text-decoration: none;
 		color: inherit;
 		transition: all 0.15s ease;
 
 		&:hover {
-			border-color: var(--shadow-monarch);
+			border-color: var(--primary);
 			box-shadow: var(--glow-sm);
 			transform: translateY(-1px);
 		}
@@ -519,7 +519,7 @@
 	}
 
 	.badge-content {
-		background: rgba(59, 130, 246, 0.12);
+		background: rgba(251, 113, 133, 0.12);
 		color: #3b82f6;
 	}
 
@@ -560,7 +560,7 @@
 
 		&.category {
 			background: rgba(139, 92, 246, 0.1);
-			color: #8b5cf6;
+			color: var(--accent);
 		}
 
 		&.type {
@@ -600,20 +600,20 @@
 		font-weight: 500;
 		text-decoration: none;
 		color: var(--text-secondary);
-		border: 1px solid var(--void-elevated);
+		border: 1px solid var(--bg-elevated);
 		border-radius: 8px;
-		background: var(--void-surface);
+		background: var(--bg-surface);
 		transition: all 0.15s ease;
 
 		&:hover {
-			color: var(--shadow-monarch);
-			border-color: var(--shadow-monarch);
+			color: var(--primary);
+			border-color: var(--primary);
 		}
 
 		&.active {
-			background: var(--shadow-monarch);
+			background: var(--primary);
 			color: white;
-			border-color: var(--shadow-monarch);
+			border-color: var(--primary);
 		}
 	}
 

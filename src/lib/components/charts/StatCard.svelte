@@ -92,8 +92,8 @@
 		justify-content: space-between;
 		gap: 10px;
 		padding: 14px 16px;
-		background: var(--void-surface);
-		border: 1px solid var(--void-elevated);
+		background: var(--bg-surface);
+		border: 1px solid var(--bg-elevated);
 		border-radius: 10px;
 		transition: all 0.2s ease;
 		text-decoration: none;
@@ -101,28 +101,28 @@
 	}
 
 	.stat-card:hover {
-		border-color: var(--void-highlight);
+		border-color: var(--bg-highlight);
 	}
 
 	.stat-card.clickable:hover {
-		border-color: var(--shadow-monarch);
+		border-color: var(--primary);
 		box-shadow: var(--glow-sm);
 		transform: translateY(-2px);
 	}
 
 	/* Color variants */
 	.stat-primary {
-		background: linear-gradient(135deg, rgba(124, 58, 237, 0.15) 0%, rgba(124, 58, 237, 0.05) 100%);
-		border-color: rgba(124, 58, 237, 0.3);
+		background: linear-gradient(135deg, rgba(45, 212, 191, 0.15) 0%, rgba(45, 212, 191, 0.05) 100%);
+		border-color: rgba(45, 212, 191, 0.3);
 	}
 
 	.stat-primary:hover {
-		border-color: var(--shadow-monarch);
+		border-color: var(--primary);
 		box-shadow: var(--glow-sm);
 	}
 
 	.stat-primary .stat-value {
-		color: var(--shadow-monarch-light);
+		color: var(--primary-light);
 	}
 
 	.stat-success {
@@ -261,14 +261,14 @@
 
 	.sparkline-line {
 		fill: none;
-		stroke: var(--shadow-monarch-light);
+		stroke: var(--primary-light);
 		stroke-width: 2;
 		stroke-linecap: round;
 		stroke-linejoin: round;
 		stroke-dasharray: 200;
 		stroke-dashoffset: 200;
 		transition: stroke-dashoffset 0s;
-		filter: drop-shadow(0 0 3px var(--shadow-monarch-glow));
+		filter: drop-shadow(0 0 3px var(--primary-glow));
 	}
 
 	.sparkline-line.animate {

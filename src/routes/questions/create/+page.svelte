@@ -282,32 +282,32 @@
 
 <div class="mx-auto max-w-3xl px-4 py-10 sm:px-6 lg:px-0" in:fade={{ duration: 300 }}>
 	<h1
-		class="text-center text-3xl font-semibold text-purple-400 sm:text-4xl"
+		class="text-center text-3xl font-semibold text-[var(--primary)] sm:text-4xl"
 		in:fly={{ y: -20, duration: 300, delay: 150 }}
 	>
 		Spark a Conversation
 	</h1>
 	<p
-		class="mt-2 text-center text-base text-slate-400 sm:text-lg"
+		class="mt-2 text-center text-base text-[var(--text-secondary)] sm:text-lg"
 		in:fly={{ y: -20, duration: 300, delay: 200 }}
 	>
 		Your question could lead to fascinating insights. What would you like to explore today?
 	</p>
 	<div
-		class="mt-6 rounded-2xl border border-slate-700/30 bg-[#1a1a2e] p-5 shadow-[0_0_20px_rgba(0,0,0,0.3)] transition hover:border-purple-500/30 hover:shadow-[0_0_25px_rgba(124,58,237,0.15)] sm:p-8"
+		class="mt-6 rounded-2xl border border-[var(--bg-elevated)] bg-[var(--bg-surface)] p-5 shadow-[var(--shadow-md)] transition hover:border-[var(--primary-subtle)] hover:shadow-[var(--glow-sm)] sm:p-8"
 		in:fly={{ y: 20, duration: 300, delay: 300 }}
 	>
 		<textarea
 			rows="4"
 			name="question"
 			placeholder="What's on your mind? Ask a thought-provoking question that invites diverse perspectives..."
-			class="noticia-text-regular w-full rounded-2xl border-2 border-slate-700/30 bg-[#252538] p-4 text-lg text-slate-200 placeholder-slate-500 shadow-sm transition focus:border-purple-500 focus:outline-none focus:ring-2 focus:ring-purple-500/30"
+			class="noticia-text-regular w-full rounded-2xl border-2 border-[var(--bg-elevated)] bg-[var(--bg-elevated)] p-4 text-lg text-[var(--text-primary)] placeholder-[var(--text-muted)] shadow-sm transition focus:border-[var(--primary)] focus:outline-none focus:ring-2 focus:ring-[var(--primary-subtle)]"
 			bind:value={question}
 			oninput={handleInput}
 			maxlength={MAX_CHAR_COUNT}
 		></textarea>
 		<div
-			class={`text-right text-sm ${questionCharCount > MAX_CHAR_COUNT || (questionCharCount > 0 && questionCharCount < MIN_CHAR_COUNT) ? 'text-red-400' : 'text-slate-500'}`}
+			class={`text-right text-sm ${questionCharCount > MAX_CHAR_COUNT || (questionCharCount > 0 && questionCharCount < MIN_CHAR_COUNT) ? 'text-red-400' : 'text-[var(--text-muted)]'}`}
 		>
 			{questionCharCount}/{MAX_CHAR_COUNT} characters
 			{#if questionCharCount > 0 && questionCharCount < MIN_CHAR_COUNT}
@@ -315,7 +315,7 @@
 			{/if}
 		</div>
 		<button
-			class="inline-flex w-full items-center justify-center rounded-full bg-gradient-to-r from-purple-600 to-purple-700 px-5 py-3 text-base font-semibold text-white shadow-[0_0_15px_rgba(124,58,237,0.3)] transition hover:from-purple-500 hover:to-purple-600 hover:shadow-[0_0_20px_rgba(124,58,237,0.4)] disabled:cursor-not-allowed disabled:opacity-60"
+			class="inline-flex w-full items-center justify-center rounded-full bg-gradient-to-r from-[var(--primary-dark)] to-[var(--primary-darker)] px-5 py-3 text-base font-semibold text-[var(--text-on-primary)] shadow-[var(--glow-sm)] transition hover:from-[var(--primary)] hover:to-[var(--primary-dark)] hover:shadow-[var(--glow-md)] disabled:cursor-not-allowed disabled:opacity-60"
 			disabled={!isQuestionValid}
 			onclick={getUrl}
 			type="button"
@@ -324,7 +324,7 @@
 		</button>
 	</div>
 	<p
-		class="mt-6 text-center text-base italic text-slate-400"
+		class="mt-6 text-center text-base italic text-[var(--text-secondary)]"
 		in:fly={{ y: 20, duration: 300, delay: 400 }}
 	>
 		Great questions lead to great conversations. Your unique perspective matters!
@@ -333,27 +333,29 @@
 
 <Modal2 id="question-create" name="create question" navTop={loading} disableClose={loading}>
 	<div
-		class="relative w-full max-w-2xl rounded-3xl border border-slate-700/30 bg-[#12121a] p-6 text-slate-200 shadow-[0_0_30px_rgba(0,0,0,0.5)] sm:p-8"
+		class="relative w-full max-w-2xl rounded-3xl border border-[var(--bg-elevated)] bg-[var(--bg-deep)] p-6 text-[var(--text-primary)] shadow-[var(--shadow-lg)] sm:p-8"
 		in:fade={{ duration: 300 }}
 		aria-busy={loading}
 	>
 		{#if loading}
 			<div
-				class="absolute inset-0 z-20 flex flex-col items-center justify-center rounded-3xl bg-[#12121a]/95 px-6 text-center"
+				class="bg-[var(--bg-deep)]/95 absolute inset-0 z-20 flex flex-col items-center justify-center rounded-3xl px-6 text-center"
 				in:fade={{ duration: 150 }}
 			>
 				<div class="loader"></div>
-				<h3 class="mt-5 text-xl font-semibold text-purple-300">
+				<h3 class="mt-5 text-xl font-semibold text-[var(--primary)]">
 					{createProgressStage === 'redirecting' ? 'Question Created' : 'Creating Question'}
 				</h3>
-				<p class="mt-2 max-w-sm text-sm text-slate-300">{createProgressMessage}</p>
+				<p class="mt-2 max-w-sm text-sm text-[var(--text-secondary)]">{createProgressMessage}</p>
 			</div>
 		{/if}
 
 		<div class={loading ? 'pointer-events-none select-none opacity-40' : ''}>
-			<h2 class="mt-0 text-2xl font-semibold text-purple-400">Create Question</h2>
+			<h2 class="mt-0 text-2xl font-semibold text-[var(--primary)]">Create Question</h2>
 
-			<div class="mt-4 rounded-2xl border border-purple-500/30 bg-[#1a1a2e] p-4">
+			<div
+				class="mt-4 rounded-2xl border border-[var(--primary-subtle)] bg-[var(--bg-surface)] p-4"
+			>
 				<div
 					class="mx-auto h-[168px] w-[320px] overflow-hidden rounded-xl sm:h-[209px] sm:w-[400px] md:h-[251px] md:w-[480px]"
 				>
@@ -363,7 +365,7 @@
 				</div>
 			</div>
 			<button
-				class="mt-5 inline-flex w-full items-center justify-center rounded-full bg-gradient-to-r from-purple-600 to-purple-700 px-5 py-3 text-base font-semibold text-white shadow-[0_0_15px_rgba(124,58,237,0.3)] transition hover:from-purple-500 hover:to-purple-600 hover:shadow-[0_0_20px_rgba(124,58,237,0.4)] disabled:cursor-not-allowed disabled:opacity-70"
+				class="mt-5 inline-flex w-full items-center justify-center rounded-full bg-gradient-to-r from-[var(--primary-dark)] to-[var(--primary-darker)] px-5 py-3 text-base font-semibold text-[var(--text-on-primary)] shadow-[var(--glow-sm)] transition hover:from-[var(--primary)] hover:to-[var(--primary-dark)] hover:shadow-[var(--glow-md)] disabled:cursor-not-allowed disabled:opacity-70"
 				onclick={createQuestion}
 				disabled={loading}
 			>

@@ -3,6 +3,7 @@ import { error } from '@sveltejs/kit';
 import type { Actions, PageServerLoad } from './$types';
 import { checkDemoTime } from '../../../utils/api';
 import { mapDemoValues } from '../../../utils/demo';
+import { getSupabaseAdminClient } from '$lib/server/supabaseAdmin';
 import type { Database } from '../../../../database.types';
 
 type ProfileRow = Database['public']['Tables']['profiles']['Row'];
@@ -18,7 +19,10 @@ type UserCommentRow = {
 	question: string;
 	question_formatted: string | null;
 };
-type ProfileSummary = Pick<ProfileRow, 'id' | 'enneagram' | 'external_id'>;
+type ProfileSummary = Pick<
+	ProfileRow,
+	'id' | 'enneagram' | 'external_id' | 'created_at' | 'first_name'
+>;
 type SubscriptionWithQuestion = SubscriptionRow & {
 	questions: QuestionRow | null;
 };
@@ -32,10 +36,9 @@ export const load: PageServerLoad = async (event) => {
 	const questionTable = demo_time === true ? 'questions_demo' : 'questions';
 	const db = event.locals.supabase as any;
 
-	const session = event.locals.session;
 	const { data: user, error: findUserError } = (await db
 		.from(profileTable)
-		.select('id, enneagram, external_id')
+		.select('id, enneagram, external_id, created_at, first_name')
 		.eq('external_id', event.params.externalId)
 		.single()) as { data: ProfileSummary | null; error: unknown };
 
@@ -43,6 +46,16 @@ export const load: PageServerLoad = async (event) => {
 		throw error(404, {
 			message: `Couldn't find the user`
 		});
+	}
+
+	// Fetch last sign-in from auth
+	let lastSignIn: string | null = null;
+	try {
+		const adminClient = getSupabaseAdminClient();
+		const { data: authUser } = await adminClient.auth.admin.getUserById(user.id);
+		lastSignIn = authUser?.user?.last_sign_in_at ?? null;
+	} catch {
+		// Non-critical, just skip
 	}
 
 	const { data: subscriptions, error: subscriptionsError } = (await db
@@ -66,14 +79,12 @@ export const load: PageServerLoad = async (event) => {
 		console.log(commentsError);
 	}
 
-	// got to map the question separately
-	// ${demo_time === true ? 'questions_demo' : 'questions'}(id, question, url)
-
 	if (!findUserError) {
 		return {
 			user: mapDemoValues(user),
 			subscriptions: mapDemoValues(subscriptions),
-			comments: mapDemoValues(comments)
+			comments: mapDemoValues(comments),
+			lastSignIn
 		};
 	} else {
 		throw error(404, {

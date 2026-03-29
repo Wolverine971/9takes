@@ -1,6 +1,6 @@
 <!-- src/lib/components/blog/callouts/VisualMetaphor.svelte -->
 <!--
-  Solo Leveling Dark Theme - Visual metaphor callout for blog content
+  9takes Warm Tech Theme - Visual metaphor callout for blog content
   Used to present analogies, examples, or visual concepts
 -->
 <script lang="ts">
@@ -47,13 +47,18 @@
 		margin: 1.5rem 0;
 		padding: 1.25rem 1.5rem;
 		border-radius: 12px;
-		background: linear-gradient(135deg, #1a1a2e 0%, #16161e 50%, #12121a 100%);
-		border: 1px solid rgba(56, 189, 248, 0.2);
+		background: linear-gradient(
+			135deg,
+			var(--bg-surface) 0%,
+			var(--bg-deep) 50%,
+			var(--bg-base) 100%
+		);
+		border: 1px solid rgba(45, 212, 191, 0.2);
 		box-shadow:
 			0 4px 20px rgba(0, 0, 0, 0.3),
-			0 0 0 1px rgba(56, 189, 248, 0.1);
+			0 0 0 1px rgba(45, 212, 191, 0.1);
 
-		// Cyan accent line on left
+		// Primary accent line on left
 		&::before {
 			content: '';
 			position: absolute;
@@ -61,7 +66,7 @@
 			top: 0;
 			bottom: 0;
 			width: 4px;
-			background: linear-gradient(180deg, #38bdf8 0%, #0ea5e9 100%);
+			background: linear-gradient(180deg, var(--primary) 0%, var(--primary-dark) 100%);
 			border-radius: 12px 0 0 12px;
 		}
 	}
@@ -72,8 +77,8 @@
 		right: 16px;
 		width: 28px;
 		height: 28px;
-		background: linear-gradient(135deg, #1a1a2e 0%, #12121a 100%);
-		border: 1px solid rgba(56, 189, 248, 0.3);
+		background: linear-gradient(135deg, var(--bg-surface) 0%, var(--bg-deep) 100%);
+		border: 1px solid rgba(45, 212, 191, 0.3);
 		border-radius: 50%;
 		display: flex;
 		align-items: center;
@@ -82,14 +87,14 @@
 		svg {
 			width: 16px;
 			height: 16px;
-			color: #38bdf8;
+			color: var(--primary);
 		}
 	}
 
 	.visual-metaphor__title {
 		font-size: 1rem;
 		font-weight: 700;
-		color: #38bdf8;
+		color: var(--primary);
 		margin: 0 0 0.75rem;
 		line-height: 1.4;
 	}
@@ -97,17 +102,17 @@
 	.visual-metaphor__content {
 		font-size: 0.9rem;
 		line-height: 1.7;
-		color: #cbd5e1;
+		color: var(--text-secondary);
 
 		:global(strong),
 		:global(b) {
-			color: #f1f5f9;
+			color: var(--text-primary);
 			font-weight: 600;
 		}
 
 		:global(p) {
 			margin: 0;
-			color: #cbd5e1;
+			color: var(--text-secondary);
 
 			& + :global(p) {
 				margin-top: 0.75rem;
@@ -115,16 +120,16 @@
 		}
 
 		:global(a) {
-			color: #a78bfa;
+			color: var(--accent-light);
 
 			&:hover {
-				color: var(--shadow-monarch-lightest);
+				color: var(--primary-lightest);
 			}
 		}
 
 		:global(em),
 		:global(i) {
-			color: #94a3b8;
+			color: var(--text-secondary);
 			font-style: italic;
 		}
 	}

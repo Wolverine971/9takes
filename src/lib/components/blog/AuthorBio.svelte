@@ -82,8 +82,8 @@
 		gap: 1rem;
 		padding: 1.25rem;
 		margin: 2rem 0;
-		background-color: var(--void-surface, #1a1a2e);
-		border: 1px solid rgba(124, 58, 237, 0.2);
+		background-color: var(--bg-surface, var(--bg-surface));
+		border: 1px solid rgba(45, 212, 191, 0.2);
 		border-radius: 12px;
 		max-width: 48rem;
 
@@ -128,7 +128,7 @@
 		height: 72px;
 		border-radius: 50%;
 		object-fit: cover;
-		border: 2px solid rgba(124, 58, 237, 0.4);
+		border: 2px solid rgba(45, 212, 191, 0.4);
 	}
 
 	.author-info {
@@ -151,12 +151,12 @@
 		line-height: 1.3;
 
 		a {
-			color: #f1f5f9;
+			color: var(--text-primary);
 			text-decoration: none;
 			transition: color 0.2s ease;
 
 			&:hover {
-				color: var(--shadow-monarch-lightest, #c4b5fd);
+				color: var(--primary-lightest, var(--accent-light));
 			}
 
 			/* Override blog link arrow */
@@ -169,7 +169,7 @@
 
 	.author-role {
 		font-size: 0.8125rem;
-		color: #94a3b8;
+		color: var(--text-secondary);
 		white-space: nowrap;
 	}
 
@@ -177,7 +177,7 @@
 		margin: 0.375rem 0 0.5rem;
 		font-size: 0.875rem;
 		line-height: 1.55;
-		color: #cbd5e1;
+		color: var(--text-secondary);
 	}
 
 	.author-links {
@@ -193,14 +193,14 @@
 		width: 32px;
 		height: 32px;
 		border-radius: 8px;
-		color: #94a3b8;
-		background: rgba(100, 116, 139, 0.1);
+		color: var(--text-secondary);
+		background: color-mix(in srgb, var(--text-tertiary) 10%, transparent);
 		transition: all 0.2s ease;
 		text-decoration: none;
 
 		&:hover {
-			color: #f1f5f9;
-			background: rgba(124, 58, 237, 0.2);
+			color: var(--text-primary);
+			background: rgba(45, 212, 191, 0.2);
 		}
 
 		/* Override blog link arrow */

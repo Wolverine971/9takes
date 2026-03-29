@@ -3,6 +3,7 @@
 export const famousTypes: { [index: number]: { name: string; link: boolean; hasImage: boolean; lastmod: string | null; personaTitle: string | null; contentGrade: number | null }[] } = {
 	1: [
 		{ name: 'anne-hathaway', link: true, hasImage: true, lastmod: '2026-03-27', personaTitle: 'The Actress They Hated for Trying', contentGrade: 9.1 },
+		{ name: 'bernie-sanders', link: true, hasImage: true, lastmod: '2026-03-27', personaTitle: 'Politics\' Unsilenceable Conscience', contentGrade: 8.9 },
 		{ name: 'blake-lively', link: true, hasImage: true, lastmod: '2026-02-11', personaTitle: 'The Immaculately Curated', contentGrade: 9.4 },
 		{ name: 'emma-watson', link: true, hasImage: true, lastmod: '2026-01-29', personaTitle: 'Hollywood\'s Conscientious Objector', contentGrade: 8.8 },
 		{ name: 'greta-thunberg', link: true, hasImage: true, lastmod: '2026-01-23', personaTitle: 'Climate\'s Uncompromising Conscience', contentGrade: 9.7 },
@@ -18,7 +19,6 @@ export const famousTypes: { [index: number]: { name: string; link: boolean; hasI
 		{ name: 'ruth-bader-ginsburg', link: true, hasImage: true, lastmod: '2023-07-16', personaTitle: 'The Dissenting Icon', contentGrade: null },
 		{ name: 'steve-jobs', link: true, hasImage: true, lastmod: '2026-03-28', personaTitle: 'Silicon Valley\'s Restless Perfectionist', contentGrade: 8.8 },
 		{ name: 'tim-cook', link: true, hasImage: true, lastmod: '2025-12-05', personaTitle: 'Apple\'s Moral Metronome', contentGrade: null },
-		{ name: 'bernie-sanders', link: true, hasImage: false, lastmod: '2026-03-27', personaTitle: 'Politics\' Unsilenceable Conscience', contentGrade: 8.9 },
 		{ name: 'james-clear', link: false, hasImage: false, lastmod: '2025-06-25', personaTitle: null, contentGrade: null },
 		{ name: 'james-dyson', link: false, hasImage: false, lastmod: '2026-03-28', personaTitle: 'Engineering\'s Relentless Reformer', contentGrade: 9 },
 		{ name: 'judge-judy', link: false, hasImage: false, lastmod: '2025-06-25', personaTitle: null, contentGrade: null },
@@ -155,6 +155,7 @@ export const famousTypes: { [index: number]: { name: string; link: boolean; hasI
 		{ name: 'robert-oppenheimer', link: true, hasImage: true, lastmod: '2023-09-04', personaTitle: 'The Father of the Atom\'s Guilt', contentGrade: null },
 		{ name: 'robert-pattinson', link: true, hasImage: true, lastmod: '2026-02-10', personaTitle: 'Hollywood\'s Disappearing Act', contentGrade: 9 },
 		{ name: 'sam-altman', link: true, hasImage: true, lastmod: '2026-03-01', personaTitle: 'AI\'s Existential Architect', contentGrade: 9.5 },
+		{ name: 'saoirse-ronan', link: true, hasImage: true, lastmod: '2026-03-28', personaTitle: 'Cinema\'s Tender Exile', contentGrade: 8.8 },
 		{ name: 'sarah-j-maas', link: true, hasImage: true, lastmod: '2026-03-04', personaTitle: 'Fantasy\'s Emotional Architect', contentGrade: 9.1 },
 		{ name: 'the-weeknd', link: false, hasImage: true, lastmod: '2025-06-25', personaTitle: null, contentGrade: null },
 		{ name: 'tim-robinson', link: true, hasImage: true, lastmod: '2026-03-14', personaTitle: 'Comedy\'s Cringe Cartographer', contentGrade: 8.8 },
@@ -171,7 +172,6 @@ export const famousTypes: { [index: number]: { name: string; link: boolean; hasI
 		{ name: 'john-lennon', link: false, hasImage: false, lastmod: '2026-03-28', personaTitle: 'Rock\'s Wounded Prophet', contentGrade: 9 },
 		{ name: 'jonathan-graff', link: false, hasImage: false, lastmod: '2025-06-25', personaTitle: null, contentGrade: null },
 		{ name: 'oscar-isaac', link: false, hasImage: false, lastmod: '2025-06-25', personaTitle: null, contentGrade: null },
-		{ name: 'saoirse-ronan', link: true, hasImage: false, lastmod: '2026-03-28', personaTitle: 'Cinema\'s Tender Exile', contentGrade: 8.8 },
 		{ name: 'vincent-van-gogh', link: false, hasImage: false, lastmod: '2025-06-25', personaTitle: null, contentGrade: null }
 	],
 	5: [

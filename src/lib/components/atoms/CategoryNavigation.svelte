@@ -181,7 +181,7 @@
 		display: flex;
 		align-items: center;
 		height: 2.5rem;
-		border-bottom: 1px solid rgba(100, 116, 139, 0.3);
+		border-bottom: 1px solid color-mix(in srgb, var(--text-tertiary) 30%, transparent);
 		width: 100%;
 
 		&.scrollable {
@@ -202,7 +202,7 @@
 	.category-item {
 		display: flex;
 		align-items: center;
-		color: #94a3b8;
+		color: var(--text-secondary);
 		text-decoration: none;
 		padding: 0.25rem 0.5rem;
 		border-radius: 4px;
@@ -212,18 +212,18 @@
 		transition: all 0.2s ease;
 
 		&:hover {
-			background-color: rgba(124, 58, 237, 0.1);
-			color: #a78bfa;
+			background-color: rgba(45, 212, 191, 0.1);
+			color: var(--accent-light);
 		}
 
 		&.current {
 			font-weight: 500;
-			color: #f1f5f9;
+			color: var(--text-primary);
 		}
 	}
 
 	.category-ellipsis {
-		color: #64748b;
+		color: var(--text-tertiary);
 		opacity: 0.8;
 		padding: 0 0.25rem;
 	}
@@ -231,7 +231,7 @@
 	.separator {
 		display: flex;
 		align-items: center;
-		color: #64748b;
+		color: var(--text-tertiary);
 		opacity: 0.6;
 		margin: 0 0.125rem;
 	}

@@ -438,24 +438,24 @@
 {/if}
 
 <style lang="scss">
-	/* Solo Leveling Dark Theme Typography */
+	/* 9takes Warm Tech Theme Typography */
 	h2 {
 		font-size: 1.8rem;
-		color: #f1f5f9;
+		color: var(--text-primary);
 		margin-top: 2rem;
 		margin-bottom: 1rem;
 		font-weight: 600;
 	}
 
 	p {
-		color: #cbd5e1;
+		color: var(--neutral-700);
 		line-height: 1.75;
 		margin-bottom: 1rem;
 		font-size: 1.1rem;
 	}
 
 	ul {
-		color: #cbd5e1;
+		color: var(--neutral-700);
 		margin: 1rem 0;
 		padding-left: 1.5rem;
 	}
@@ -465,7 +465,7 @@
 		line-height: 1.6;
 
 		strong {
-			color: #a78bfa;
+			color: var(--accent-light);
 			font-weight: 600;
 		}
 	}

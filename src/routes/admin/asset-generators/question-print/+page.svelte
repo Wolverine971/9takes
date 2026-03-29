@@ -20,8 +20,8 @@
 		type: 'image/png',
 		margin: 1,
 		color: {
-			dark: '#7c3aed',
-			light: '#0a0a0f'
+			dark: 'var(--primary-dark)',
+			light: 'var(--bg-base)'
 		}
 	};
 
@@ -134,7 +134,7 @@
 				justify-content: center;
 				align-items: center;
 				min-height: 100vh;
-				background: #0a0a0f;
+				background: var(--bg-base);
 				font-family: 'Noticia Text', Georgia, serif;
 			}
 
@@ -157,10 +157,10 @@
 
 			.question-container {
 				width: 100%;
-				background: linear-gradient(145deg, #1a1a2e, #252538);
-				border: 1px solid rgba(124, 58, 237, 0.2);
+				background: linear-gradient(145deg, var(--bg-surface), var(--bg-elevated));
+				border: 1px solid rgba(45, 212, 191, 0.2);
 				border-radius: 15px;
-				box-shadow: 0 0 20px rgba(124, 58, 237, 0.15);
+				box-shadow: 0 0 20px rgba(45, 212, 191, 0.15);
 				padding: 2rem;
 				margin-bottom: 1.5rem;
 				box-sizing: border-box;
@@ -170,7 +170,7 @@
 			.question-box {
 				width: 100%;
 				text-align: center;
-				color: #f8fafc;
+				color: var(--text-primary);
 				font-weight: 700;
 				line-height: 1.4;
 				letter-spacing: 0.5px;
@@ -190,7 +190,7 @@
 				transform: translateX(-50%);
 				width: 60px;
 				height: 3px;
-				background: #7c3aed;
+				background: var(--primary-dark);
 				border-radius: 2px;
 			}
 
@@ -204,17 +204,17 @@
 			.qr-image-small {
 				width: 100px;
 				height: 100px;
-				background-color: #0a0a0f;
+				background-color: var(--bg-base);
 				padding: 0.5rem;
-				border: 1px solid rgba(124, 58, 237, 0.3);
+				border: 1px solid rgba(45, 212, 191, 0.3);
 				border-radius: 8px;
 			}
 
 			.qr-url-small {
 				margin-top: 0.5rem;
 				font-size: 0.8rem;
-				color: #94a3b8;
-				background: #1a1a2e;
+				color: var(--text-secondary);
+				background: var(--bg-surface);
 				padding: 0.2rem 0.5rem;
 				border-radius: 4px;
 			}
@@ -245,8 +245,8 @@
 				<div class="print-container">
 					<div class="mini-brand">
 						<svg width="30" height="30" viewBox="0 0 50 50" style="margin: 0.5rem">
-							<rect x="5" y="5" width="16" height="16" fill="#7c3aed" />
-							<rect x="29" y="5" width="16" height="16" fill="#8b5cf6" />
+							<rect x="5" y="5" width="16" height="16" fill="var(--primary-dark)" />
+							<rect x="29" y="5" width="16" height="16" fill="var(--accent)" />
 							<rect x="5" y="29" width="16" height="16" fill="#3b82f6" />
 							<rect x="29" y="29" width="16" height="16" fill="#06b6d4" />
 						</svg>
@@ -257,7 +257,7 @@
 								font-family="Noticia Text"
 								font-size="24"
 								font-weight="bold"
-								fill="#f8fafc"
+								fill="var(--text-primary)"
 							>
 								9takes
 							</text>
@@ -412,8 +412,8 @@
 
 	/* Controls Section */
 	.controls {
-		background: var(--void-surface, #1a1a2e);
-		border: 1px solid var(--void-elevated, #252538);
+		background: var(--bg-surface, var(--bg-surface));
+		border: 1px solid var(--bg-elevated, var(--bg-elevated));
 		border-radius: var(--border-radius-lg, 0.75rem);
 		padding: 2rem;
 		box-shadow: var(--shadow-lg, 0 10px 15px rgba(0, 0, 0, 0.5));
@@ -422,7 +422,7 @@
 	.controls h1 {
 		margin-top: 0;
 		margin-bottom: 1.5rem;
-		color: var(--text-primary, #f8fafc);
+		color: var(--text-primary, var(--text-primary));
 	}
 
 	.controls.hidden {
@@ -437,35 +437,35 @@
 		display: block;
 		margin-bottom: 0.5rem;
 		font-weight: 600;
-		color: var(--text-secondary, #94a3b8);
+		color: var(--text-secondary, var(--text-secondary));
 	}
 
 	.form-group input,
 	.form-group textarea {
 		width: 100%;
 		padding: 0.75rem;
-		background: var(--void-deep, #12121a);
-		border: 1px solid var(--void-elevated, #252538);
+		background: var(--bg-deep, var(--bg-deep));
+		border: 1px solid var(--bg-elevated, var(--bg-elevated));
 		border-radius: var(--border-radius, 0.5rem);
 		font-size: 1rem;
-		color: var(--text-primary, #f8fafc);
+		color: var(--text-primary, var(--text-primary));
 		font-family: inherit;
 	}
 
 	.form-group input::placeholder,
 	.form-group textarea::placeholder {
-		color: var(--text-tertiary, #64748b);
+		color: var(--text-tertiary, var(--text-tertiary));
 	}
 
 	.form-group input:focus,
 	.form-group textarea:focus {
 		outline: none;
-		border-color: var(--shadow-monarch, #7c3aed);
-		box-shadow: 0 0 0 2px rgba(124, 58, 237, 0.25);
+		border-color: var(--primary, var(--primary-dark));
+		box-shadow: 0 0 0 2px rgba(45, 212, 191, 0.25);
 	}
 
 	.form-group input[type='range'] {
-		accent-color: var(--shadow-monarch, #7c3aed);
+		accent-color: var(--primary, var(--primary-dark));
 		padding: 0;
 		background: transparent;
 		border: none;
@@ -493,24 +493,24 @@
 	}
 
 	.btn.preview {
-		background-color: var(--shadow-monarch, #7c3aed);
+		background-color: var(--primary, var(--primary-dark));
 		color: var(--text-on-primary, #ffffff);
-		box-shadow: 0 0 10px rgba(124, 58, 237, 0.3);
+		box-shadow: 0 0 10px rgba(45, 212, 191, 0.3);
 	}
 
 	.btn.preview:hover {
-		background-color: var(--shadow-monarch-dark, #6d28d9);
-		box-shadow: var(--glow-md, 0 0 20px rgba(124, 58, 237, 0.5));
+		background-color: var(--primary-dark, var(--accent-dark));
+		box-shadow: var(--glow-md, 0 0 20px rgba(45, 212, 191, 0.5));
 	}
 
 	.btn.print {
-		background-color: var(--system-interface, #3b82f6);
+		background-color: var(--secondary);
 		color: var(--text-on-primary, #ffffff);
 	}
 
 	.btn.print:hover {
-		background-color: var(--system-interface-dark, #2563eb);
-		box-shadow: var(--glow-blue, 0 0 20px rgba(59, 130, 246, 0.5));
+		background-color: var(--secondary-dark, #2563eb);
+		box-shadow: var(--glow-secondary, 0 0 20px rgba(251, 113, 133, 0.5));
 	}
 
 	.btn.print:disabled {
@@ -520,8 +520,8 @@
 
 	/* Poster Section */
 	.poster-container {
-		background: var(--void-deep, #12121a);
-		border: 1px solid var(--void-elevated, #252538);
+		background: var(--bg-deep, var(--bg-deep));
+		border: 1px solid var(--bg-elevated, var(--bg-elevated));
 		border-radius: var(--border-radius-lg, 0.75rem);
 		padding: 3rem 2rem;
 		box-shadow: var(--shadow-lg, 0 10px 15px rgba(0, 0, 0, 0.5));
@@ -566,19 +566,19 @@
 		align-items: center;
 		background: linear-gradient(
 			145deg,
-			var(--void-surface, #1a1a2e),
-			var(--void-elevated, #252538)
+			var(--bg-surface, var(--bg-surface)),
+			var(--bg-elevated, var(--bg-elevated))
 		);
-		border: 1px solid rgba(124, 58, 237, 0.2);
+		border: 1px solid rgba(45, 212, 191, 0.2);
 		border-radius: var(--border-radius-lg, 0.75rem);
-		box-shadow: 0 0 20px rgba(124, 58, 237, 0.1);
+		box-shadow: 0 0 20px rgba(45, 212, 191, 0.1);
 		padding: 2rem 1.5rem;
 		margin-bottom: 2rem;
 		transition: var(--transition-glow, all 0.3s ease);
 	}
 
 	.question-container:hover {
-		box-shadow: 0 0 30px rgba(124, 58, 237, 0.2);
+		box-shadow: 0 0 30px rgba(45, 212, 191, 0.2);
 	}
 
 	@media (max-width: 576px) {
@@ -590,7 +590,7 @@
 	.question-box {
 		width: 100%;
 		text-align: center;
-		color: var(--text-primary, #f8fafc);
+		color: var(--text-primary, var(--text-primary));
 		font-weight: 700;
 		line-height: 1.4;
 		letter-spacing: 0.5px;
@@ -608,7 +608,7 @@
 		transform: translateX(-50%);
 		width: 60px;
 		height: 3px;
-		background: var(--shadow-monarch, #7c3aed);
+		background: var(--primary, var(--primary-dark));
 		border-radius: 2px;
 	}
 
@@ -626,17 +626,17 @@
 		width: 150px;
 		height: 150px;
 		border-radius: var(--base-border-radius, 0.5rem);
-		background-color: var(--void-abyss, #0a0a0f);
+		background-color: var(--bg-base, var(--bg-base));
 		padding: 0.5rem;
-		border: 1px solid rgba(124, 58, 237, 0.3);
+		border: 1px solid rgba(45, 212, 191, 0.3);
 	}
 
 	.qr-url {
 		margin-top: 0.5rem;
 		font-size: 0.9rem;
-		color: var(--text-secondary, #94a3b8);
+		color: var(--text-secondary, var(--text-secondary));
 		border-radius: var(--border-radius, 0.5rem);
-		background: var(--void-surface, #1a1a2e);
+		background: var(--bg-surface, var(--bg-surface));
 		padding: 0.2rem 0.5rem;
 	}
 </style>

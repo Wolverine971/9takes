@@ -154,8 +154,8 @@
 		flex-direction: column;
 		align-items: center;
 		padding: 0.625rem 1rem;
-		background: var(--void-surface);
-		border: 1px solid var(--void-elevated);
+		background: var(--bg-surface);
+		border: 1px solid var(--bg-elevated);
 		border-radius: 12px;
 		min-width: 90px;
 	}
@@ -163,7 +163,7 @@
 	.stat-value {
 		font-size: 1.375rem;
 		font-weight: 700;
-		color: var(--shadow-monarch);
+		color: var(--primary);
 	}
 
 	.stat-label {
@@ -175,8 +175,8 @@
 	}
 
 	.section-card {
-		background: var(--void-surface);
-		border: 1px solid var(--void-elevated);
+		background: var(--bg-surface);
+		border: 1px solid var(--bg-elevated);
 		border-radius: 12px;
 		padding: 1.25rem;
 		margin-bottom: 1.25rem;
@@ -215,10 +215,10 @@
 		input {
 			width: 56px;
 			padding: 0.3rem 0.4rem;
-			border: 1px solid var(--void-elevated);
+			border: 1px solid var(--bg-elevated);
 			border-radius: 6px;
 			font-size: 0.8rem;
-			background: var(--void-deep);
+			background: var(--bg-deep);
 			color: var(--text-primary);
 		}
 	}
@@ -234,7 +234,7 @@
 	}
 
 	.btn-primary {
-		background: var(--shadow-monarch);
+		background: var(--primary);
 		color: white;
 
 		&:hover {
@@ -243,11 +243,11 @@
 	}
 
 	.btn-secondary {
-		background: var(--void-elevated);
+		background: var(--bg-elevated);
 		color: var(--text-primary);
 
 		&:hover {
-			background: var(--void-deep);
+			background: var(--bg-deep);
 		}
 	}
 
@@ -256,7 +256,7 @@
 		font-size: 0.7rem;
 		font-weight: 500;
 		background: rgba(139, 92, 246, 0.1);
-		color: var(--shadow-monarch);
+		color: var(--primary);
 		border-radius: 20px;
 	}
 
@@ -271,8 +271,8 @@
 	.spinner {
 		width: 32px;
 		height: 32px;
-		border: 3px solid var(--void-elevated);
-		border-top-color: var(--shadow-monarch);
+		border: 3px solid var(--bg-elevated);
+		border-top-color: var(--primary);
 		border-radius: 50%;
 		animation: spin 0.7s linear infinite;
 		margin-bottom: 0.75rem;
@@ -291,15 +291,15 @@
 	}
 
 	.qr-card {
-		background: var(--void-deep);
-		border: 1px solid var(--void-elevated);
+		background: var(--bg-deep);
+		border: 1px solid var(--bg-elevated);
 		border-radius: 12px;
 		padding: 0.875rem;
 		text-align: center;
 		transition: all 0.15s ease;
 
 		&:hover {
-			border-color: var(--shadow-monarch);
+			border-color: var(--primary);
 			box-shadow: var(--glow-sm);
 		}
 
@@ -327,7 +327,7 @@
 	.brand {
 		font-size: 0.7rem;
 		font-weight: 600;
-		color: var(--shadow-monarch);
+		color: var(--primary);
 	}
 
 	/* Print view for cutting */
@@ -339,7 +339,7 @@
 
 	.print-item {
 		position: relative;
-		border: 1px dashed var(--void-elevated);
+		border: 1px dashed var(--bg-elevated);
 		padding: 4px;
 		text-align: center;
 

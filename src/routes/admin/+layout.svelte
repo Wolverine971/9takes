@@ -123,8 +123,8 @@
 		position: sticky;
 		top: var(--site-header-height);
 		z-index: 40;
-		background: var(--void-deep);
-		border-bottom: 1px solid var(--void-elevated);
+		background: var(--bg-deep);
+		border-bottom: 1px solid var(--bg-elevated);
 		padding: 12px 16px;
 		align-items: center;
 		justify-content: space-between;
@@ -158,7 +158,7 @@
 	}
 
 	.menu-toggle:hover {
-		background: var(--void-elevated);
+		background: var(--bg-elevated);
 	}
 
 	.hamburger {
@@ -208,8 +208,8 @@
 
 	/* Admin Navigation Bar */
 	.admin-nav {
-		background-color: var(--void-deep);
-		border-bottom: 1px solid var(--void-elevated);
+		background-color: var(--bg-deep);
+		border-bottom: 1px solid var(--bg-elevated);
 		position: sticky;
 		top: var(--site-header-height);
 		z-index: 30;
@@ -255,15 +255,15 @@
 	}
 
 	.nav-link:hover {
-		background-color: var(--void-elevated);
+		background-color: var(--bg-elevated);
 		color: var(--text-primary);
-		border-color: var(--void-highlight);
+		border-color: var(--bg-highlight);
 	}
 
 	.nav-link.active {
-		background: linear-gradient(135deg, var(--shadow-monarch) 0%, var(--shadow-monarch-dark) 100%);
+		background: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%);
 		color: white;
-		border-color: var(--shadow-monarch);
+		border-color: var(--primary);
 		box-shadow: var(--glow-sm);
 	}
 
@@ -297,14 +297,14 @@
 		justify-content: center;
 		min-height: 100vh;
 		padding: 16px;
-		background-color: var(--void-abyss);
+		background-color: var(--bg-base);
 	}
 
 	.error-container {
 		text-align: center;
 		padding: 40px 32px;
-		background-color: var(--void-surface);
-		border: 1px solid var(--void-elevated);
+		background-color: var(--bg-surface);
+		border: 1px solid var(--bg-elevated);
 		border-radius: 16px;
 		box-shadow: var(--shadow-xl);
 		max-width: 400px;
@@ -372,7 +372,7 @@
 			transform: translateX(-100%);
 			transition: transform 0.3s ease;
 			border-bottom: none;
-			border-right: 1px solid var(--void-elevated);
+			border-right: 1px solid var(--bg-elevated);
 			box-shadow: 4px 0 24px rgba(0, 0, 0, 0.4);
 			overflow-y: auto;
 		}

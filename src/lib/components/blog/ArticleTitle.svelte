@@ -29,7 +29,7 @@
 <style>
 	h1 {
 		text-wrap: balance;
-		color: #f1f5f9;
+		color: var(--text-primary);
 	}
 	h2 {
 		margin: 0;
@@ -39,15 +39,15 @@
 		margin: 0;
 		font-size: 1.8rem;
 		font-weight: bolder;
-		color: #f1f5f9;
+		color: var(--text-primary);
 	}
 	.heading a {
-		color: #a78bfa;
+		color: var(--accent-light);
 		text-decoration: none;
 		transition: color 0.2s ease;
 	}
 	.heading a:hover {
-		color: var(--shadow-monarch-lightest);
+		color: var(--primary-lightest);
 	}
 	.large {
 		margin-top: calc(var(--spacing-unit) * 1);

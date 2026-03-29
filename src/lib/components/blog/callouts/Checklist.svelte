@@ -1,6 +1,6 @@
 <!-- src/lib/components/blog/callouts/Checklist.svelte -->
 <!--
-  Solo Leveling Dark Theme - Interactive checklist for blog content
+  9takes Warm Tech Theme - Interactive checklist for blog content
   Used for action items, to-do lists, or step-by-step guides
 -->
 <script lang="ts">
@@ -65,21 +65,26 @@
 		margin: 1.5rem 0;
 		padding: 1.25rem 1.5rem;
 		border-radius: 12px;
-		background: linear-gradient(135deg, #1a1a2e 0%, #16161e 50%, #12121a 100%);
-		border: 1px solid rgba(124, 58, 237, 0.2);
+		background: linear-gradient(
+			135deg,
+			var(--bg-surface) 0%,
+			var(--bg-deep) 50%,
+			var(--bg-base) 100%
+		);
+		border: 1px solid rgba(45, 212, 191, 0.2);
 		box-shadow:
 			0 4px 20px rgba(0, 0, 0, 0.3),
-			0 0 0 1px rgba(124, 58, 237, 0.1);
+			0 0 0 1px rgba(45, 212, 191, 0.1);
 	}
 
 	.checklist__title {
 		font-size: 1.1rem;
 		font-weight: 700;
-		color: #f1f5f9;
+		color: var(--text-primary);
 		text-align: center;
 		margin: 0 0 1rem;
 		padding-bottom: 0.75rem;
-		border-bottom: 1px solid rgba(124, 58, 237, 0.2);
+		border-bottom: 1px solid rgba(45, 212, 191, 0.2);
 	}
 
 	.checklist__items {
@@ -94,13 +99,13 @@
 		gap: 0.75rem;
 		padding: 0.75rem 1rem;
 		background: rgba(255, 255, 255, 0.03);
-		border: 1px solid rgba(100, 116, 139, 0.15);
+		border: 1px solid color-mix(in srgb, var(--text-tertiary) 15%, transparent);
 		border-radius: 8px;
 		transition: all 0.2s ease;
 
 		&:hover {
-			background: rgba(124, 58, 237, 0.08);
-			border-color: rgba(124, 58, 237, 0.25);
+			background: rgba(45, 212, 191, 0.08);
+			border-color: rgba(45, 212, 191, 0.25);
 		}
 	}
 
@@ -109,7 +114,7 @@
 		width: 18px;
 		height: 18px;
 		border-radius: 4px;
-		border: 2px solid #64748b;
+		border: 2px solid var(--text-tertiary);
 		background: transparent;
 		cursor: pointer;
 		flex-shrink: 0;
@@ -118,8 +123,8 @@
 		transition: all 0.2s ease;
 
 		&:checked {
-			background: linear-gradient(135deg, #7c3aed 0%, #a78bfa 100%);
-			border-color: #7c3aed;
+			background: linear-gradient(135deg, var(--primary-dark) 0%, var(--accent-light) 100%);
+			border-color: var(--primary-dark);
 
 			// Checkmark
 			&::after {
@@ -135,28 +140,28 @@
 
 		&:focus {
 			outline: none;
-			box-shadow: 0 0 0 3px rgba(124, 58, 237, 0.3);
+			box-shadow: 0 0 0 3px rgba(45, 212, 191, 0.3);
 		}
 	}
 
 	.checklist__label {
 		font-size: 0.9rem;
 		line-height: 1.6;
-		color: #cbd5e1;
+		color: var(--text-secondary);
 		cursor: pointer;
 		flex: 1;
 
 		:global(strong),
 		:global(b) {
-			color: #f1f5f9;
+			color: var(--text-primary);
 			font-weight: 600;
 		}
 
 		:global(a) {
-			color: #a78bfa;
+			color: var(--accent-light);
 
 			&:hover {
-				color: var(--shadow-monarch-lightest);
+				color: var(--primary-lightest);
 			}
 		}
 	}
@@ -167,19 +172,19 @@
 		border-color: rgba(34, 197, 94, 0.2);
 
 		.checklist__label {
-			color: #94a3b8;
+			color: var(--text-secondary);
 			text-decoration: line-through;
-			text-decoration-color: #64748b;
+			text-decoration-color: var(--text-tertiary);
 		}
 	}
 
 	.checklist__note {
 		margin: 1rem 0 0;
 		padding-top: 0.75rem;
-		border-top: 1px solid rgba(100, 116, 139, 0.15);
+		border-top: 1px solid color-mix(in srgb, var(--text-tertiary) 15%, transparent);
 		font-size: 0.8rem;
 		line-height: 1.5;
-		color: #64748b;
+		color: var(--text-tertiary);
 		font-style: italic;
 	}
 
@@ -187,7 +192,7 @@
 		margin-top: 1rem;
 		font-size: 0.9rem;
 		line-height: 1.6;
-		color: #cbd5e1;
+		color: var(--text-secondary);
 	}
 
 	// Mobile adjustments

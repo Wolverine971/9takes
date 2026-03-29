@@ -101,21 +101,21 @@
 		flex: 1;
 		height: 100%;
 		min-height: 0;
-		background: var(--void-deep);
+		background: var(--bg-deep);
 		border-radius: 8px;
 		overflow: hidden;
 		font-family: 'JetBrains Mono', 'Fira Code', 'SF Mono', Consolas, monospace;
 
 		&.readonly {
-			background: var(--void-elevated);
+			background: var(--bg-elevated);
 
 			.line-numbers {
-				background: var(--void-deep);
+				background: var(--bg-deep);
 				color: var(--text-muted);
 			}
 
 			.editor-textarea {
-				background: var(--void-elevated);
+				background: var(--bg-elevated);
 				color: var(--text-secondary);
 
 				&::placeholder {
@@ -133,7 +133,7 @@
 		flex-shrink: 0;
 		width: 48px;
 		padding: 16px 8px 16px 0;
-		background: var(--void-abyss);
+		background: var(--bg-base);
 		color: var(--text-muted);
 		text-align: right;
 		font-size: 13px;
@@ -155,7 +155,7 @@
 		width: 100%;
 		height: 100%;
 		padding: 16px;
-		background: var(--void-deep);
+		background: var(--bg-deep);
 		color: var(--text-primary);
 		border: none;
 		outline: none;
@@ -183,7 +183,7 @@
 	/* Scrollbar styling */
 	.editor-textarea {
 		scrollbar-width: thin;
-		scrollbar-color: var(--shadow-monarch) var(--void-deep);
+		scrollbar-color: var(--primary) var(--bg-deep);
 
 		&::-webkit-scrollbar {
 			width: 8px;
@@ -191,15 +191,15 @@
 		}
 
 		&::-webkit-scrollbar-track {
-			background: var(--void-deep);
+			background: var(--bg-deep);
 		}
 
 		&::-webkit-scrollbar-thumb {
-			background: var(--shadow-monarch);
+			background: var(--primary);
 			border-radius: 4px;
 
 			&:hover {
-				background: var(--shadow-monarch-light);
+				background: var(--primary-light);
 			}
 		}
 	}

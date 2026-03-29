@@ -485,8 +485,8 @@
 		align-items: center;
 		gap: 10px;
 		padding: 14px;
-		background: var(--void-surface);
-		border: 1px solid var(--void-elevated);
+		background: var(--bg-surface);
+		border: 1px solid var(--bg-elevated);
 		border-radius: 12px;
 		transition: all 0.15s ease;
 		font-family: inherit;
@@ -495,7 +495,7 @@
 		&.clickable {
 			cursor: pointer;
 			&:hover {
-				border-color: var(--shadow-monarch);
+				border-color: var(--primary);
 				box-shadow: var(--glow-sm);
 				transform: translateY(-1px);
 			}
@@ -503,7 +503,7 @@
 
 		&.has-pending {
 			border-color: #f59e0b;
-			background: var(--void-elevated);
+			background: var(--bg-elevated);
 		}
 
 		@media (max-width: 640px) {
@@ -531,7 +531,7 @@
 		}
 
 		&.today {
-			background: rgba(59, 130, 246, 0.1);
+			background: rgba(251, 113, 133, 0.1);
 			color: #3b82f6;
 		}
 		&.scheduled {
@@ -552,7 +552,7 @@
 		}
 		&.templates {
 			background: rgba(139, 92, 246, 0.1);
-			color: #8b5cf6;
+			color: var(--accent);
 		}
 	}
 
@@ -582,8 +582,8 @@
 	/* Upcoming Section */
 	.upcoming-section {
 		margin-bottom: 20px;
-		background: var(--void-surface);
-		border: 1px solid var(--void-elevated);
+		background: var(--bg-surface);
+		border: 1px solid var(--bg-elevated);
 		border-radius: 12px;
 		overflow: hidden;
 	}
@@ -593,8 +593,8 @@
 		justify-content: space-between;
 		align-items: center;
 		padding: 14px 16px;
-		border-bottom: 1px solid var(--void-elevated);
-		background: var(--void-deep);
+		border-bottom: 1px solid var(--bg-elevated);
+		background: var(--bg-deep);
 
 		h2 {
 			margin: 0;
@@ -611,7 +611,7 @@
 		padding: 4px 10px;
 		font-size: 0.75rem;
 		font-weight: 500;
-		color: var(--shadow-monarch);
+		color: var(--primary);
 		background: transparent;
 		border: none;
 		cursor: pointer;
@@ -633,7 +633,7 @@
 		border-radius: 8px;
 		transition: background 0.15s ease;
 		&:hover {
-			background: var(--void-deep);
+			background: var(--bg-deep);
 		}
 		@media (max-width: 640px) {
 			grid-template-columns: 80px 1fr auto;
@@ -710,7 +710,7 @@
 		font-weight: 600;
 		text-transform: capitalize;
 		&.scheduled {
-			background: rgba(59, 130, 246, 0.12);
+			background: rgba(251, 113, 133, 0.12);
 			color: #3b82f6;
 		}
 		&.published {
@@ -729,23 +729,23 @@
 		padding: 10px;
 		font-size: 0.8rem;
 		font-weight: 500;
-		color: var(--shadow-monarch);
+		color: var(--primary);
 		background: transparent;
-		border: 1px dashed var(--void-elevated);
+		border: 1px dashed var(--bg-elevated);
 		border-radius: 8px;
 		cursor: pointer;
 		transition: all 0.15s ease;
 		margin-top: 6px;
 		&:hover {
-			background: var(--void-deep);
-			border-color: var(--shadow-monarch);
+			background: var(--bg-deep);
+			border-color: var(--primary);
 		}
 	}
 
 	/* Main Card */
 	.main-card {
-		background: var(--void-surface);
-		border: 1px solid var(--void-elevated);
+		background: var(--bg-surface);
+		border: 1px solid var(--bg-elevated);
 		border-radius: 12px;
 		padding: 16px;
 		min-height: 500px;
@@ -768,7 +768,7 @@
 		flex-wrap: wrap;
 		gap: 2px;
 		margin-bottom: 16px;
-		border-bottom: 1px solid var(--void-elevated);
+		border-bottom: 1px solid var(--bg-elevated);
 		padding-bottom: 0;
 		@media (max-width: 640px) {
 			gap: 0;
@@ -809,14 +809,14 @@
 		}
 
 		&:focus-visible {
-			outline: 2px solid var(--shadow-monarch);
+			outline: 2px solid var(--primary);
 			outline-offset: -2px;
 			border-radius: 6px 6px 0 0;
 		}
 
 		&.active {
-			color: var(--shadow-monarch);
-			border-bottom-color: var(--shadow-monarch);
+			color: var(--primary);
+			border-bottom-color: var(--primary);
 			background: rgba(139, 92, 246, 0.05);
 			border-radius: 6px 6px 0 0;
 		}
@@ -841,7 +841,7 @@
 		font-size: 0.65rem;
 		font-weight: 600;
 		&.info {
-			background: rgba(59, 130, 246, 0.12);
+			background: rgba(251, 113, 133, 0.12);
 			color: #3b82f6;
 		}
 		&.success {
@@ -853,7 +853,7 @@
 			color: #f59e0b;
 		}
 		&.neutral {
-			background: var(--void-elevated);
+			background: var(--bg-elevated);
 			color: var(--text-secondary);
 		}
 		@media (max-width: 640px) {
@@ -884,8 +884,8 @@
 	.spinner {
 		width: 32px;
 		height: 32px;
-		border: 3px solid var(--void-elevated);
-		border-top-color: var(--shadow-monarch);
+		border: 3px solid var(--bg-elevated);
+		border-top-color: var(--primary);
 		border-radius: 50%;
 		animation: spin 0.7s linear infinite;
 	}

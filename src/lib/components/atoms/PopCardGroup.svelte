@@ -79,9 +79,9 @@
 		width: clamp(300px, 100%, 700px);
 		margin: 1.5rem auto;
 		overflow: hidden;
-		border: 2px solid var(--shadow-monarch, #2d1b69);
+		border: 2px solid var(--primary, #2d1b69);
 		border-radius: var(--border-radius, 0.75rem);
-		background: linear-gradient(135deg, rgba(10, 10, 25, 0.95), rgba(20, 10, 40, 0.9));
+		background: linear-gradient(135deg, var(--bg-base), var(--bg-deep));
 	}
 
 	.pop-group__people {
@@ -161,8 +161,8 @@
 		font-family: 'SF Mono', 'Fira Code', 'Consolas', monospace;
 		font-size: clamp(0.5rem, 1.5vw, 0.65rem);
 		letter-spacing: 0.1em;
-		color: #a78bfa;
-		text-shadow: 0 0 6px rgba(124, 58, 237, 0.5);
+		color: var(--accent-light);
+		text-shadow: 0 0 6px rgba(45, 212, 191, 0.5);
 	}
 
 	// Responsive

@@ -299,9 +299,9 @@
 		padding: 6px 12px;
 		margin-bottom: 12px;
 		background: transparent;
-		border: 1px solid var(--void-elevated);
+		border: 1px solid var(--bg-elevated);
 		border-radius: 8px;
-		color: var(--shadow-monarch);
+		color: var(--primary);
 		font-size: 0.8rem;
 		font-weight: 500;
 		cursor: pointer;
@@ -309,8 +309,8 @@
 	}
 
 	.back-btn:hover {
-		border-color: var(--shadow-monarch);
-		background: var(--void-elevated);
+		border-color: var(--primary);
+		background: var(--bg-elevated);
 	}
 
 	.blog-meta {
@@ -332,8 +332,8 @@
 
 	/* Section Card */
 	.section-card {
-		background: var(--void-surface);
-		border: 1px solid var(--void-elevated);
+		background: var(--bg-surface);
+		border: 1px solid var(--bg-elevated);
 		border-radius: 12px;
 		padding: 20px;
 		margin-bottom: 16px;
@@ -368,9 +368,9 @@
 	.field-select {
 		width: 100%;
 		padding: 9px 12px;
-		border: 1px solid var(--void-elevated);
+		border: 1px solid var(--bg-elevated);
 		border-radius: 8px;
-		background: var(--void-deep);
+		background: var(--bg-deep);
 		color: var(--text-primary);
 		font-size: 0.8rem;
 		font-family: inherit;
@@ -380,15 +380,15 @@
 
 	.field-select:focus {
 		outline: none;
-		border-color: var(--shadow-monarch);
+		border-color: var(--primary);
 		box-shadow: 0 0 0 3px rgba(139, 92, 246, 0.15);
 	}
 
 	/* Summary Banner */
 	.summary-banner {
 		padding: 14px 16px;
-		background: var(--void-elevated);
-		border: 1px solid var(--void-highlight);
+		background: var(--bg-elevated);
+		border: 1px solid var(--bg-highlight);
 		border-radius: 12px;
 		margin-bottom: 16px;
 	}
@@ -421,7 +421,7 @@
 	.tab-bar {
 		display: flex;
 		gap: 2px;
-		border-bottom: 1px solid var(--void-elevated);
+		border-bottom: 1px solid var(--bg-elevated);
 		margin-bottom: 16px;
 	}
 
@@ -443,22 +443,22 @@
 	}
 
 	.tab-btn.active {
-		color: var(--shadow-monarch);
-		border-bottom-color: var(--shadow-monarch);
+		color: var(--primary);
+		border-bottom-color: var(--primary);
 	}
 
 	/* Content Card */
 	.content-card {
-		background: var(--void-surface);
-		border: 1px solid var(--void-elevated);
+		background: var(--bg-surface);
+		border: 1px solid var(--bg-elevated);
 		border-radius: 12px;
 		overflow: hidden;
 	}
 
 	.content-header {
 		padding: 14px 16px;
-		border-bottom: 1px solid var(--void-elevated);
-		background: var(--void-deep);
+		border-bottom: 1px solid var(--bg-elevated);
+		background: var(--bg-deep);
 	}
 
 	.content-header.info {
@@ -470,7 +470,7 @@
 	}
 
 	.content-header.preview {
-		background: var(--void-deep);
+		background: var(--bg-deep);
 	}
 
 	.preview-header-row {
@@ -505,7 +505,7 @@
 	}
 
 	.source-badge.info {
-		background: var(--void-elevated);
+		background: var(--bg-elevated);
 		color: var(--text-secondary);
 	}
 
@@ -538,9 +538,9 @@
 	.empty-state {
 		padding: 48px 24px;
 		text-align: center;
-		border: 2px dashed var(--void-elevated);
+		border: 2px dashed var(--bg-elevated);
 		border-radius: 12px;
-		background: var(--void-deep);
+		background: var(--bg-deep);
 	}
 
 	.empty-icon {
@@ -566,8 +566,8 @@
 
 	/* Legend */
 	.legend-card {
-		background: var(--void-surface);
-		border: 1px solid var(--void-elevated);
+		background: var(--bg-surface);
+		border: 1px solid var(--bg-elevated);
 		border-radius: 12px;
 		padding: 16px;
 		margin-top: 16px;
@@ -616,8 +616,8 @@
 	}
 
 	.legend-swatch.unchanged {
-		background: var(--void-elevated);
-		border-left: 3px solid var(--void-highlight);
+		background: var(--bg-elevated);
+		border-left: 3px solid var(--bg-highlight);
 	}
 
 	/* Blog Preview - content-specific styles */
@@ -657,7 +657,7 @@
 		}
 
 		:global(a) {
-			color: var(--shadow-monarch);
+			color: var(--primary);
 			text-decoration: underline;
 			&:hover {
 				opacity: 0.8;
@@ -675,12 +675,12 @@
 		}
 
 		:global(blockquote) {
-			border-left: 4px solid var(--shadow-monarch);
+			border-left: 4px solid var(--primary);
 			padding: 1rem;
 			margin: 1.5rem 0;
 			font-style: italic;
 			color: var(--text-secondary);
-			background: var(--void-elevated);
+			background: var(--bg-elevated);
 			border-radius: 0 8px 8px 0;
 		}
 
@@ -694,7 +694,7 @@
 		:global(pre),
 		:global(code) {
 			font-family: var(--font-mono, monospace);
-			background: var(--void-deep);
+			background: var(--bg-deep);
 			border-radius: 4px;
 		}
 
@@ -715,7 +715,7 @@
 
 		:global(hr) {
 			border: none;
-			border-top: 1px solid var(--void-elevated);
+			border-top: 1px solid var(--bg-elevated);
 			margin: 2rem 0;
 		}
 
@@ -726,18 +726,18 @@
 
 			:global(th),
 			:global(td) {
-				border: 1px solid var(--void-elevated);
+				border: 1px solid var(--bg-elevated);
 				padding: 0.75rem;
 				text-align: left;
 			}
 
 			:global(th) {
-				background: var(--void-deep);
+				background: var(--bg-deep);
 				font-weight: 600;
 			}
 
 			:global(tr:nth-child(even)) {
-				background: var(--void-deep);
+				background: var(--bg-deep);
 			}
 		}
 
@@ -769,7 +769,7 @@
 		right: 0;
 		z-index: 10;
 		padding: 2px 8px;
-		background: var(--void-elevated);
+		background: var(--bg-elevated);
 		color: var(--text-secondary);
 		border-radius: 12px;
 		font-size: 0.6rem;
@@ -779,9 +779,9 @@
 	.blog-purpose-placeholder {
 		margin: 1.5rem 0;
 		padding: 16px;
-		border: 2px dashed var(--void-elevated);
+		border: 2px dashed var(--bg-elevated);
 		border-radius: 12px;
-		background: var(--void-deep);
+		background: var(--bg-deep);
 		text-align: center;
 
 		p {

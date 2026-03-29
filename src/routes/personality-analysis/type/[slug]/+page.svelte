@@ -191,10 +191,10 @@
 </div>
 
 <style lang="scss">
-	/* Solo Leveling Dark Theme - Type Page */
+	/* 9takes Warm Tech Theme - Type Page */
 	.page-wrapper {
 		min-height: 100vh;
-		background: linear-gradient(180deg, #0a0a0f 0%, #12121a 100%);
+		background: linear-gradient(180deg, var(--bg-base) 0%, var(--bg-deep) 100%);
 	}
 
 	/* Hero Section */
@@ -214,7 +214,7 @@
 		transform: translateX(-50%);
 		width: 400px;
 		height: 200px;
-		background: radial-gradient(ellipse, rgba(124, 58, 237, 0.15) 0%, transparent 70%);
+		background: radial-gradient(ellipse, rgba(45, 212, 191, 0.15) 0%, transparent 70%);
 		pointer-events: none;
 	}
 
@@ -224,10 +224,10 @@
 		justify-content: center;
 		width: 4rem;
 		height: 4rem;
-		background: linear-gradient(135deg, #7c3aed 0%, #6d28d9 100%);
+		background: linear-gradient(135deg, var(--primary-dark) 0%, var(--accent-dark) 100%);
 		border-radius: 1rem;
 		margin-bottom: 1rem;
-		box-shadow: 0 0 30px rgba(124, 58, 237, 0.4);
+		box-shadow: 0 0 30px rgba(45, 212, 191, 0.4);
 		position: relative;
 
 		&::after {
@@ -243,7 +243,7 @@
 	.type-num {
 		font-size: 2rem;
 		font-weight: 700;
-		color: white;
+		color: var(--text-primary);
 		text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 	}
 
@@ -254,7 +254,7 @@
 		margin: 0 0 0.5rem;
 		letter-spacing: -0.02em;
 		position: relative;
-		background: linear-gradient(135deg, #f1f5f9 0%, #a78bfa 100%);
+		background: linear-gradient(135deg, var(--text-primary) 0%, var(--accent-light) 100%);
 		-webkit-background-clip: text;
 		-webkit-text-fill-color: transparent;
 		background-clip: text;
@@ -262,7 +262,7 @@
 
 	.tagline {
 		font-size: 1rem;
-		color: #64748b;
+		color: var(--text-tertiary);
 		margin: 0;
 		font-weight: 500;
 	}
@@ -281,7 +281,7 @@
 		justify-content: space-between;
 		margin-bottom: 1.5rem;
 		padding-bottom: 0.75rem;
-		border-bottom: 1px solid rgba(100, 116, 139, 0.15);
+		border-bottom: 1px solid var(--border-color);
 		flex-wrap: wrap;
 		gap: 0.75rem;
 	}
@@ -289,18 +289,18 @@
 	h2 {
 		font-size: 1.5rem;
 		font-weight: 600;
-		color: #f1f5f9;
+		color: var(--text-primary);
 		margin: 0;
 	}
 
 	.people-count {
 		font-size: 0.875rem;
-		color: #64748b;
+		color: var(--primary);
 		font-weight: 500;
 		padding: 0.375rem 0.75rem;
-		background: rgba(124, 58, 237, 0.1);
+		background: var(--primary-subtle);
 		border-radius: 2rem;
-		border: 1px solid rgba(124, 58, 237, 0.2);
+		border: 1px solid color-mix(in srgb, var(--primary) 24%, transparent);
 	}
 
 	.famous-people {
@@ -317,16 +317,19 @@
 		position: relative;
 		border-radius: 0.75rem;
 		overflow: hidden;
-		background: #16161e;
-		border: 1px solid rgba(100, 116, 139, 0.15);
+		background: var(--bg-surface);
+		border: 1px solid var(--border-color);
 		transition: all 0.25s ease;
 		text-decoration: none;
+		box-shadow: var(--shadow-sm);
+		padding: 0.45rem;
 
 		&::before {
 			content: '';
 			position: absolute;
-			inset: 0;
-			background: linear-gradient(135deg, rgba(124, 58, 237, 0.1) 0%, transparent 50%);
+			inset: 0.45rem;
+			border-radius: 0.6rem;
+			background: linear-gradient(135deg, rgba(45, 212, 191, 0.1) 0%, transparent 50%);
 			opacity: 0;
 			transition: opacity 0.25s ease;
 			z-index: 1;
@@ -334,10 +337,10 @@
 
 		&:hover {
 			transform: translateY(-4px);
-			border-color: rgba(124, 58, 237, 0.4);
+			border-color: rgba(45, 212, 191, 0.4);
 			box-shadow:
-				0 12px 28px rgba(0, 0, 0, 0.35),
-				0 0 0 1px rgba(124, 58, 237, 0.1);
+				var(--shadow-lg),
+				0 0 0 1px rgba(45, 212, 191, 0.1);
 
 			&::before {
 				opacity: 1;
@@ -348,14 +351,10 @@
 			}
 
 			.person-name {
-				background: linear-gradient(
-					to top,
-					rgba(124, 58, 237, 0.95) 0%,
-					rgba(109, 40, 217, 0.8) 100%
-				);
+				background: linear-gradient(to top, rgba(12, 10, 9, 0.98) 0%, rgba(12, 10, 9, 0.84) 100%);
 
 				h3 {
-					color: white;
+					color: #fff;
 				}
 			}
 		}
@@ -367,21 +366,25 @@
 		aspect-ratio: 1;
 		object-fit: cover;
 		transition: transform 0.4s ease;
+		border-radius: 0.6rem;
+		display: block;
 	}
 
 	.person-name {
 		position: absolute;
-		bottom: 0;
-		left: 0;
-		right: 0;
-		background: linear-gradient(to top, rgba(10, 10, 15, 0.95) 0%, rgba(10, 10, 15, 0.6) 100%);
+		bottom: 0.45rem;
+		left: 0.45rem;
+		right: 0.45rem;
+		border-radius: 0 0 0.6rem 0.6rem;
+		background: linear-gradient(to top, rgba(12, 10, 9, 0.96) 0%, rgba(12, 10, 9, 0.64) 100%);
+		backdrop-filter: blur(10px);
 		padding: 0.75rem 0.5rem;
 		text-align: center;
 		transition: background 0.25s ease;
 		z-index: 2;
 
 		h3 {
-			color: #e2e8f0;
+			color: #fff;
 			font-size: 0.8125rem;
 			font-weight: 600;
 			margin: 0;
@@ -395,10 +398,10 @@
 		text-align: center;
 		margin-top: 3rem;
 		padding: 2.5rem 2rem;
-		background: linear-gradient(135deg, #1a1a2e 0%, #12121a 100%);
+		background: linear-gradient(135deg, var(--bg-surface) 0%, var(--bg-deep) 100%);
 		border-radius: 1rem;
-		border: 1px solid rgba(124, 58, 237, 0.2);
-		color: #f1f5f9;
+		border: 1px solid rgba(45, 212, 191, 0.2);
+		color: var(--text-primary);
 		position: relative;
 		overflow: hidden;
 
@@ -410,7 +413,7 @@
 			transform: translateX(-50%);
 			width: 300px;
 			height: 150px;
-			background: radial-gradient(ellipse, rgba(124, 58, 237, 0.08) 0%, transparent 70%);
+			background: radial-gradient(ellipse, rgba(45, 212, 191, 0.08) 0%, transparent 70%);
 			pointer-events: none;
 		}
 	}
@@ -418,7 +421,7 @@
 	.more-info {
 		font-style: italic;
 		margin-bottom: 1.5rem;
-		color: #94a3b8;
+		color: var(--text-secondary);
 		font-size: 0.9375rem;
 		position: relative;
 	}

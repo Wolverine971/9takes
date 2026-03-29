@@ -45,7 +45,7 @@
 	}
 
 	.skeleton {
-		background-color: var(--skeleton-bg, #252538);
+		background-color: var(--skeleton-bg, var(--bg-elevated));
 		position: relative;
 		overflow: hidden;
 
@@ -64,7 +64,7 @@
 
 		&--card {
 			border-radius: 12px;
-			box-shadow: 0 0 15px rgba(124, 58, 237, 0.1);
+			box-shadow: 0 0 15px rgba(45, 212, 191, 0.1);
 		}
 
 		&--pulse {
@@ -79,7 +79,7 @@
 			bottom: 0;
 			left: 0;
 			transform: translateX(-100%);
-			background: linear-gradient(90deg, transparent, rgba(124, 58, 237, 0.2), transparent);
+			background: linear-gradient(90deg, transparent, rgba(45, 212, 191, 0.2), transparent);
 			animation: skeleton-wave 1.5s ease-in-out infinite;
 		}
 	}

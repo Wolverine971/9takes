@@ -353,80 +353,80 @@
 	});
 </script>
 
-<div class="my-4 flex flex-col gap-4">
-	<div class="flex gap-2 sm:gap-3">
-		<button
-			title="Comment"
-			class="flex items-center justify-center gap-1.5 rounded-lg bg-purple-600 px-3 py-2 text-sm font-medium text-white shadow-[0_0_15px_rgba(124,58,237,0.3)] transition-all duration-200 hover:bg-purple-700 hover:shadow-[0_0_20px_rgba(124,58,237,0.4)] active:scale-[0.98] sm:gap-2 sm:px-5 sm:py-2.5"
-			onclick={() => (commenting = !commenting)}
-			aria-label={commenting ? 'Hide comment box' : 'Write a comment'}
-		>
-			<MasterCommentIcon
-				iconStyle={'padding: 0;'}
-				height={'1.25rem'}
-				fill={'currentColor'}
-				type={comment?.length ? 'full' : 'empty'}
-			/>
-			<span class="whitespace-nowrap">Comment</span>
-		</button>
-
-		{#if parentType === 'question'}
+<div class="interact-shell">
+	<div class="interaction-toolbar">
+		<div class="flex flex-wrap gap-2 sm:gap-3">
 			<button
-				title={subscriptions.some((e) => e.user_id === user?.id) ? 'Unsubscribe' : 'Subscribe'}
-				class="flex items-center justify-center gap-1.5 rounded-lg border px-3 py-2 text-sm font-medium transition-all duration-200 active:scale-[0.98] disabled:cursor-not-allowed disabled:opacity-50 sm:gap-2 sm:px-5 sm:py-2.5 {subscriptions.some(
-					(e) => e.user_id === user?.id
-				)
-					? 'border-purple-500 bg-purple-900/30 text-purple-300 hover:bg-purple-900/50'
-					: 'border-slate-600/40 bg-[#1a1a2e]/60 text-slate-300 backdrop-blur-sm hover:bg-[#252538]/80'}"
-				onclick={toggleSubscription}
-				disabled={subscriptionLoading}
-				aria-label={subscriptions.some((e) => e.user_id === user?.id)
-					? 'Unsubscribe from this question'
-					: 'Subscribe to this question'}
-				aria-busy={subscriptionLoading}
+				title="Comment"
+				class="interaction-button interaction-button-primary"
+				onclick={() => (commenting = !commenting)}
+				aria-label={commenting ? 'Hide comment box' : 'Write a comment'}
 			>
-				{#if subscriptionLoading}
-					<div
-						class="border-current/30 h-5 w-5 animate-spin rounded-full border-2 border-t-current"
-					></div>
-				{:else}
-					<BellIcon iconStyle={'padding: 0;'} height={'1.25rem'} fill={'currentColor'} />
-				{/if}
-				<span class="whitespace-nowrap">
-					{subscriptions.some((e) => e.user_id === user?.id) ? 'Subscribed' : 'Subscribe'}
-				</span>
+				<MasterCommentIcon
+					iconStyle={'padding: 0;'}
+					height={'1.25rem'}
+					fill={'currentColor'}
+					type={comment?.length ? 'full' : 'empty'}
+				/>
+				<span class="whitespace-nowrap">Comment</span>
 			</button>
 
-			{#if qrCodeUrl}
+			{#if parentType === 'question'}
 				<button
-					title="Share via QR Code"
-					class="flex items-center justify-center gap-1.5 rounded-lg border border-slate-600/40 bg-[#1a1a2e]/60 px-3 py-2 text-sm font-medium text-slate-300 backdrop-blur-sm transition-all duration-200 hover:bg-[#252538]/80 active:scale-[0.98] sm:gap-2 sm:px-5 sm:py-2.5"
-					onclick={openQRModal}
-					aria-label="Share via QR Code"
+					title={subscriptions.some((e) => e.user_id === user?.id) ? 'Unsubscribe' : 'Subscribe'}
+					class="interaction-button {subscriptions.some((e) => e.user_id === user?.id)
+						? 'interaction-button-active'
+						: 'interaction-button-secondary'}"
+					onclick={toggleSubscription}
+					disabled={subscriptionLoading}
+					aria-label={subscriptions.some((e) => e.user_id === user?.id)
+						? 'Unsubscribe from this question'
+						: 'Subscribe to this question'}
+					aria-busy={subscriptionLoading}
 				>
-					<svg class="h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-						<path
-							stroke-linecap="round"
-							stroke-linejoin="round"
-							stroke-width="2"
-							d="M18 8a3 3 0 100-6 3 3 0 000 6zM6 15a3 3 0 100-6 3 3 0 000 6zM18 22a3 3 0 100-6 3 3 0 000 6zM8.59 13.51l6.83 3.98M15.41 6.51l-6.82 3.98"
-						/>
-					</svg>
-					<span class="whitespace-nowrap">Share</span>
+					{#if subscriptionLoading}
+						<div
+							class="border-current/30 h-5 w-5 animate-spin rounded-full border-2 border-t-current"
+						></div>
+					{:else}
+						<BellIcon iconStyle={'padding: 0;'} height={'1.25rem'} fill={'currentColor'} />
+					{/if}
+					<span class="whitespace-nowrap">
+						{subscriptions.some((e) => e.user_id === user?.id) ? 'Subscribed' : 'Subscribe'}
+					</span>
 				</button>
+
+				{#if qrCodeUrl}
+					<button
+						title="Share via QR Code"
+						class="interaction-button interaction-button-secondary"
+						onclick={openQRModal}
+						aria-label="Share via QR Code"
+					>
+						<svg class="h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+							<path
+								stroke-linecap="round"
+								stroke-linejoin="round"
+								stroke-width="2"
+								d="M18 8a3 3 0 100-6 3 3 0 000 6zM6 15a3 3 0 100-6 3 3 0 000 6zM18 22a3 3 0 100-6 3 3 0 000 6zM8.59 13.51l6.83 3.98M15.41 6.51l-6.82 3.98"
+							/>
+						</svg>
+						<span class="whitespace-nowrap">Share</span>
+					</button>
+				{/if}
 			{/if}
-		{/if}
+		</div>
 	</div>
 
 	{#if commenting}
 		<div
-			class="rounded-xl border border-purple-500/15 bg-[#1a1a2e]/60 backdrop-blur-sm"
+			class="composer-surface"
 			in:slide={{ duration: 300 }}
 		>
-			<div class="p-4">
+			<div class="composer-body">
 				{#if parentType === 'question' && comment.length === 0}
-					<p class="mb-2 text-xs text-purple-400/70">
-						<span class="font-medium text-purple-400">Dig deeper:</span>
+					<p class="depth-prompt">
+						<span class="font-medium text-[var(--primary)]">Dig deeper:</span>
 						{depthPrompts[currentPromptIndex]}
 					</p>
 				{/if}
@@ -439,7 +439,7 @@
 						placeholder={parentType === 'question'
 							? "Go beyond the surface — share a real experience, a specific example, or explain the 'why' behind your take...\n\nThe most interesting answers are the honest, detailed ones."
 							: 'Write your reply...'}
-						class="w-full resize-none overflow-y-auto rounded-md border border-slate-600/40 bg-[#12121a]/80 px-3 py-2 text-sm leading-relaxed text-slate-100 placeholder:text-slate-500 focus:border-purple-500 focus:outline-none focus:ring-1 focus:ring-purple-500"
+						class="bg-[var(--bg-deep)]/80 w-full resize-none overflow-y-auto rounded-md border border-[var(--bg-elevated)] px-3 py-2 text-sm leading-relaxed text-[var(--text-primary)] placeholder:text-[var(--text-muted)] focus:border-[var(--primary)] focus:outline-none focus:ring-1 focus:ring-[var(--primary)]"
 						bind:value={comment}
 						id="comment-box"
 						rows="4"
@@ -467,10 +467,8 @@
 					</div>
 				{/if}
 			</div>
-			<div
-				class="flex items-center justify-between rounded-b-xl border-t border-purple-500/10 bg-[#12121a]/80 px-4 py-3"
-			>
-				<span class="text-xs text-slate-500">
+			<div class="composer-footer">
+				<span class="text-xs text-[var(--text-muted)]">
 					{#if parentType === 'question' && comment.length > 0 && comment.length < SHORT_ANSWER_THRESHOLD}
 						<span class="text-amber-500/80"
 							>{comment.length} chars — keep going, add some detail</span
@@ -484,7 +482,7 @@
 				<div class="flex gap-2">
 					{#if userHasAnswered}
 						<button
-							class="rounded-md border border-slate-600/40 bg-[#1a1a2e]/60 px-4 py-1.5 text-sm font-medium text-slate-400 transition-all duration-200 hover:bg-[#252538]/80 active:scale-[0.98]"
+							class="interaction-button interaction-button-muted"
 							type="button"
 							onclick={() => {
 								commenting = false;
@@ -495,7 +493,7 @@
 						</button>
 					{/if}
 					<button
-						class="flex items-center justify-center gap-2 rounded-md bg-purple-600 px-4 py-1.5 text-sm font-medium text-white shadow-[0_0_10px_rgba(124,58,237,0.3)] transition-all duration-200 hover:bg-purple-700 hover:shadow-[0_0_15px_rgba(124,58,237,0.4)] active:scale-[0.98] disabled:cursor-not-allowed disabled:opacity-40 disabled:shadow-none"
+						class="interaction-button interaction-button-primary interaction-button-submit"
 						type="button"
 						onclick={createComment}
 						disabled={!comment.trim() || loading}
@@ -520,18 +518,146 @@
 <!-- QR Code Modal -->
 <Modal2 id="qr-modal">
 	<div class="mx-auto flex max-w-sm flex-col items-center py-2 text-center">
-		<h2 class="mb-1 text-xl font-semibold text-slate-100">Share This Question</h2>
-		<p class="mb-5 text-sm text-slate-400">Scan the QR code to share with others</p>
+		<h2 class="mb-1 text-xl font-semibold text-[var(--text-primary)]">Share This Question</h2>
+		<p class="mb-5 text-sm text-[var(--text-secondary)]">Scan the QR code to share with others</p>
 
-		<div class="mb-5 rounded-2xl border border-purple-500/20 bg-[#12121a] p-4">
+		<div class="mb-5 rounded-2xl border border-[var(--primary-subtle)] bg-[var(--bg-deep)] p-4">
 			<img src={qrCodeUrl} alt="Share question QR code" class="h-[180px] w-[180px]" />
 		</div>
 
-		<p class="text-xs text-slate-500">Share and explore different perspectives</p>
+		<p class="text-xs text-[var(--text-muted)]">Share and explore different perspectives</p>
 	</div>
 </Modal2>
 
 <style>
+	.interact-shell {
+		display: flex;
+		flex-direction: column;
+		gap: 0.85rem;
+	}
+
+	.interaction-toolbar {
+		padding: 0.8rem;
+		border: 1px solid color-mix(in srgb, var(--primary) 16%, var(--border-color));
+		border-radius: 1rem;
+		background:
+			linear-gradient(
+				180deg,
+				color-mix(in srgb, var(--primary-subtle) 32%, transparent) 0%,
+				transparent 100%
+			),
+			color-mix(in srgb, var(--bg-surface) 92%, transparent);
+		box-shadow: var(--shadow-sm);
+		backdrop-filter: blur(12px);
+	}
+
+	.interaction-button {
+		display: inline-flex;
+		align-items: center;
+		justify-content: center;
+		gap: 0.5rem;
+		padding: 0.7rem 1rem;
+		border-radius: 0.9rem;
+		border: 1px solid color-mix(in srgb, var(--primary) 14%, var(--border-color));
+		font-size: 0.92rem;
+		font-weight: 600;
+		transition:
+			transform 0.2s ease,
+			box-shadow 0.2s ease,
+			border-color 0.2s ease,
+			background-color 0.2s ease,
+			color 0.2s ease;
+	}
+
+	.interaction-button:hover:not(:disabled) {
+		transform: translateY(-1px);
+		box-shadow: var(--shadow-sm);
+	}
+
+	.interaction-button:disabled {
+		cursor: not-allowed;
+		opacity: 0.55;
+	}
+
+	.interaction-button-primary {
+		border-color: color-mix(in srgb, var(--primary) 26%, transparent);
+		background: linear-gradient(135deg, var(--primary-dark) 0%, var(--primary) 100%);
+		color: var(--text-on-primary);
+		box-shadow: var(--glow-sm);
+	}
+
+	.interaction-button-primary:hover:not(:disabled) {
+		background: linear-gradient(135deg, var(--primary-darker) 0%, var(--primary-dark) 100%);
+		box-shadow: var(--glow-md);
+	}
+
+	.interaction-button-secondary {
+		background: color-mix(in srgb, var(--bg-surface) 92%, transparent);
+		color: var(--text-secondary);
+	}
+
+	.interaction-button-secondary:hover:not(:disabled),
+	.interaction-button-muted:hover:not(:disabled) {
+		border-color: color-mix(in srgb, var(--primary) 22%, var(--border-color));
+		color: var(--primary);
+		background: color-mix(in srgb, var(--primary-subtle) 50%, transparent);
+	}
+
+	.interaction-button-active {
+		border-color: color-mix(in srgb, var(--primary) 30%, transparent);
+		background: var(--primary-subtle);
+		color: var(--primary);
+	}
+
+	.interaction-button-muted {
+		background: color-mix(in srgb, var(--bg-surface) 92%, transparent);
+		color: var(--text-secondary);
+	}
+
+	.interaction-button-submit {
+		min-width: 9.5rem;
+	}
+
+	.composer-surface {
+		border: 1px solid color-mix(in srgb, var(--primary) 18%, var(--border-color));
+		border-radius: 1.15rem;
+		background:
+			linear-gradient(
+				180deg,
+				color-mix(in srgb, var(--primary-subtle) 36%, transparent) 0%,
+				transparent 30%
+			),
+			color-mix(in srgb, var(--bg-surface) 94%, transparent);
+		box-shadow: var(--shadow-sm);
+		backdrop-filter: blur(14px);
+	}
+
+	.composer-body {
+		padding: 1rem;
+	}
+
+	.depth-prompt {
+		margin: 0 0 0.75rem;
+		padding: 0.6rem 0.8rem;
+		border: 1px solid color-mix(in srgb, var(--primary) 18%, transparent);
+		border-radius: 0.85rem;
+		background: color-mix(in srgb, var(--primary-subtle) 42%, transparent);
+		color: color-mix(in srgb, var(--primary) 72%, var(--text-secondary));
+		font-size: 0.78rem;
+		line-height: 1.5;
+	}
+
+	.composer-footer {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		gap: 0.75rem;
+		padding: 0.9rem 1rem;
+		border-top: 1px solid color-mix(in srgb, var(--primary) 16%, var(--border-color));
+		border-radius: 0 0 1.15rem 1.15rem;
+		background: color-mix(in srgb, var(--bg-deep) 74%, transparent);
+	}
+
 	/* Custom textarea auto-grow grid technique - complex layout that doesn't translate well to utilities */
 	.textarea-container {
 		position: relative;
@@ -552,5 +678,30 @@
 		font-size: 0.95rem;
 		line-height: 1.5;
 		grid-area: 1 / 1 / 2 / 2;
+	}
+
+	@media (max-width: 640px) {
+		.interaction-toolbar {
+			padding: 0.7rem;
+		}
+
+		.interaction-button {
+			flex: 1 1 0;
+			min-width: 0;
+			padding: 0.7rem 0.8rem;
+		}
+
+		.composer-footer {
+			flex-direction: column;
+			align-items: stretch;
+		}
+
+		.composer-footer > .flex {
+			justify-content: stretch;
+		}
+
+		.composer-footer > .flex > .interaction-button {
+			flex: 1 1 0;
+		}
 	}
 </style>

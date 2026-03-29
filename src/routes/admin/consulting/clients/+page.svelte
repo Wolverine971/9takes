@@ -365,7 +365,7 @@
 	.search-box input {
 		width: 100%;
 		padding: 0.5rem 0.75rem;
-		border: 1px solid var(--void-elevated);
+		border: 1px solid var(--bg-elevated);
 		border-radius: 12px;
 		font-size: 0.875rem;
 	}
@@ -383,16 +383,16 @@
 
 	.filter-group select {
 		padding: 0.5rem 0.75rem;
-		border: 1px solid var(--void-elevated);
+		border: 1px solid var(--bg-elevated);
 		border-radius: 12px;
 		font-size: 0.875rem;
-		background: var(--void-surface);
+		background: var(--bg-surface);
 	}
 
 	/* Table */
 	.clients-table-wrapper {
-		background: var(--void-surface);
-		border: 1px solid var(--void-elevated);
+		background: var(--bg-surface);
+		border: 1px solid var(--bg-elevated);
 		border-radius: 12px;
 		overflow-x: auto;
 	}
@@ -410,17 +410,17 @@
 		color: var(--text-secondary);
 		font-size: 0.75rem;
 		text-transform: uppercase;
-		border-bottom: 1px solid var(--void-elevated);
-		background: var(--void-deep);
+		border-bottom: 1px solid var(--bg-elevated);
+		background: var(--bg-deep);
 	}
 
 	.clients-table td {
 		padding: 0.75rem;
-		border-bottom: 1px solid var(--void-elevated);
+		border-bottom: 1px solid var(--bg-elevated);
 	}
 
 	.clients-table tbody tr:hover {
-		background: var(--void-deep);
+		background: var(--bg-deep);
 	}
 
 	.client-cell {
@@ -430,7 +430,7 @@
 	.client-name {
 		display: block;
 		font-weight: 500;
-		color: var(--shadow-monarch);
+		color: var(--primary);
 		text-decoration: none;
 	}
 
@@ -486,7 +486,7 @@
 		color: #f59e0b;
 	}
 	.intake-sent {
-		background: rgba(59, 130, 246, 0.1);
+		background: rgba(251, 113, 133, 0.1);
 		color: #3b82f6;
 	}
 	.intake-completed {
@@ -518,7 +518,7 @@
 	}
 
 	.action-link {
-		color: var(--shadow-monarch);
+		color: var(--primary);
 		text-decoration: none;
 		font-size: 0.8rem;
 		margin-right: 0.75rem;
@@ -555,7 +555,7 @@
 	}
 
 	.modal {
-		background: var(--void-surface);
+		background: var(--bg-surface);
 		border-radius: 12px;
 		width: 100%;
 		max-width: 500px;
@@ -568,7 +568,7 @@
 		justify-content: space-between;
 		align-items: center;
 		padding: 1rem 1.5rem;
-		border-bottom: 1px solid var(--void-elevated);
+		border-bottom: 1px solid var(--bg-elevated);
 	}
 
 	.modal-header h2 {
@@ -611,7 +611,7 @@
 	.form-group select,
 	.form-group textarea {
 		padding: 0.5rem 0.75rem;
-		border: 1px solid var(--void-elevated);
+		border: 1px solid var(--bg-elevated);
 		border-radius: 12px;
 		font-size: 0.875rem;
 		font-family: inherit;
@@ -626,7 +626,7 @@
 		justify-content: flex-end;
 		gap: 0.75rem;
 		padding: 1rem 1.5rem;
-		border-top: 1px solid var(--void-elevated);
+		border-top: 1px solid var(--bg-elevated);
 	}
 
 	/* Buttons */
@@ -644,13 +644,13 @@
 	}
 
 	.btn-primary {
-		background: var(--shadow-monarch);
+		background: var(--primary);
 		color: white;
 	}
 
 	.btn-secondary {
-		background: var(--void-deep);
-		border: 1px solid var(--void-elevated);
+		background: var(--bg-deep);
+		border: 1px solid var(--bg-elevated);
 		color: var(--text-primary);
 	}
 

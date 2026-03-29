@@ -883,7 +883,7 @@
 		align-items: flex-start;
 		margin-bottom: 24px;
 		padding-bottom: 20px;
-		border-bottom: 1px solid var(--void-elevated);
+		border-bottom: 1px solid var(--bg-elevated);
 
 		@media (max-width: 768px) {
 			margin-bottom: 16px;
@@ -902,7 +902,7 @@
 		font-weight: 700;
 		color: var(--text-primary);
 		margin: 0;
-		background: linear-gradient(135deg, var(--shadow-monarch-light), var(--awakening-cyan));
+		background: linear-gradient(135deg, var(--primary-light), var(--accent));
 		-webkit-background-clip: text;
 		-webkit-text-fill-color: transparent;
 		background-clip: text;
@@ -944,9 +944,9 @@
 		padding: 10px 16px;
 		font-size: 0.875rem;
 		font-weight: 500;
-		background: var(--void-surface);
+		background: var(--bg-surface);
 		color: var(--text-secondary);
-		border: 1px solid var(--void-elevated);
+		border: 1px solid var(--bg-elevated);
 		border-radius: 8px;
 		cursor: pointer;
 		transition: all 0.2s ease;
@@ -962,15 +962,15 @@
 	}
 
 	.type-btn:hover {
-		border-color: var(--shadow-monarch);
-		background: var(--shadow-monarch-subtle);
+		border-color: var(--primary);
+		background: var(--primary-subtle);
 		color: var(--text-primary);
 	}
 
 	.type-btn.active {
-		background: linear-gradient(135deg, var(--shadow-monarch) 0%, var(--shadow-monarch-dark) 100%);
+		background: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%);
 		color: white;
-		border-color: var(--shadow-monarch);
+		border-color: var(--primary);
 		box-shadow: var(--glow-sm);
 	}
 
@@ -978,7 +978,7 @@
 		padding: 2px 8px;
 		font-size: 0.75rem;
 		font-weight: 600;
-		background: var(--void-elevated);
+		background: var(--bg-elevated);
 		color: var(--text-secondary);
 		border-radius: 12px;
 
@@ -995,8 +995,8 @@
 
 	/* Controls Panel */
 	.controls-panel {
-		background: var(--void-surface);
-		border: 1px solid var(--void-elevated);
+		background: var(--bg-surface);
+		border: 1px solid var(--bg-elevated);
 		border-radius: 12px;
 		padding: 16px;
 		margin-bottom: 16px;
@@ -1038,9 +1038,9 @@
 		width: 100%;
 		padding: 12px 40px 12px 40px;
 		font-size: 16px;
-		background: var(--void-elevated);
+		background: var(--bg-elevated);
 		color: var(--text-primary);
-		border: 1px solid var(--void-highlight);
+		border: 1px solid var(--bg-highlight);
 		border-radius: 10px;
 		transition: all 0.2s ease;
 
@@ -1050,7 +1050,7 @@
 
 		&:focus {
 			outline: none;
-			border-color: var(--shadow-monarch);
+			border-color: var(--primary);
 			box-shadow: var(--glow-sm);
 		}
 	}
@@ -1064,7 +1064,7 @@
 		width: 28px;
 		height: 28px;
 		padding: 0;
-		background: var(--void-highlight);
+		background: var(--bg-highlight);
 		border: none;
 		border-radius: 50%;
 		color: var(--text-secondary);
@@ -1079,17 +1079,17 @@
 		width: 48px;
 		height: 48px;
 		padding: 0;
-		background: var(--void-elevated);
-		border: 1px solid var(--void-highlight);
+		background: var(--bg-elevated);
+		border: 1px solid var(--bg-highlight);
 		border-radius: 10px;
 		color: var(--text-secondary);
 		cursor: pointer;
 		transition: all 0.2s ease;
 
 		&.active {
-			background: var(--shadow-monarch-subtle);
-			border-color: var(--shadow-monarch);
-			color: var(--shadow-monarch-light);
+			background: var(--primary-subtle);
+			border-color: var(--primary);
+			color: var(--primary-light);
 		}
 	}
 
@@ -1099,7 +1099,7 @@
 		right: 8px;
 		width: 8px;
 		height: 8px;
-		background: var(--shadow-monarch);
+		background: var(--primary);
 		border-radius: 50%;
 	}
 
@@ -1108,7 +1108,7 @@
 		@media (max-width: 768px) {
 			display: none;
 			padding-top: 12px;
-			border-top: 1px solid var(--void-elevated);
+			border-top: 1px solid var(--bg-elevated);
 			margin-top: 12px;
 
 			&.show {
@@ -1152,9 +1152,9 @@
 		flex: 1;
 		padding: 10px 12px;
 		font-size: 14px;
-		background: var(--void-elevated);
+		background: var(--bg-elevated);
 		color: var(--text-primary);
-		border: 1px solid var(--void-highlight);
+		border: 1px solid var(--bg-highlight);
 		border-radius: 8px;
 	}
 
@@ -1165,9 +1165,9 @@
 		width: 44px;
 		height: 44px;
 		font-size: 18px;
-		background: var(--void-elevated);
+		background: var(--bg-elevated);
 		color: var(--text-primary);
-		border: 1px solid var(--void-highlight);
+		border: 1px solid var(--bg-highlight);
 		border-radius: 8px;
 		cursor: pointer;
 	}
@@ -1179,9 +1179,9 @@
 		margin-top: 12px;
 		font-size: 14px;
 		font-weight: 500;
-		color: var(--shadow-monarch-light);
-		background: var(--shadow-monarch-subtle);
-		border: 1px solid var(--shadow-monarch);
+		color: var(--primary-light);
+		background: var(--primary-subtle);
+		border: 1px solid var(--primary);
 		border-radius: 8px;
 		cursor: pointer;
 
@@ -1211,9 +1211,9 @@
 		width: 100%;
 		padding: 10px 14px;
 		font-size: 0.875rem;
-		background: var(--void-elevated);
+		background: var(--bg-elevated);
 		color: var(--text-primary);
-		border: 1px solid var(--void-highlight);
+		border: 1px solid var(--bg-highlight);
 		border-radius: 8px;
 		transition: all 0.2s ease;
 	}
@@ -1224,7 +1224,7 @@
 
 	.search-input:focus {
 		outline: none;
-		border-color: var(--shadow-monarch);
+		border-color: var(--primary);
 		box-shadow: var(--glow-sm);
 	}
 
@@ -1238,9 +1238,9 @@
 	.select-input {
 		padding: 10px 14px;
 		font-size: 0.875rem;
-		background: var(--void-elevated);
+		background: var(--bg-elevated);
 		color: var(--text-primary);
-		border: 1px solid var(--void-highlight);
+		border: 1px solid var(--bg-highlight);
 		border-radius: 8px;
 		cursor: pointer;
 		transition: all 0.2s ease;
@@ -1248,31 +1248,31 @@
 
 	.select-input:focus {
 		outline: none;
-		border-color: var(--shadow-monarch);
+		border-color: var(--primary);
 		box-shadow: var(--glow-sm);
 	}
 
 	.sort-btn {
 		padding: 10px 14px;
 		font-size: 0.875rem;
-		background: var(--void-elevated);
+		background: var(--bg-elevated);
 		color: var(--text-primary);
-		border: 1px solid var(--void-highlight);
+		border: 1px solid var(--bg-highlight);
 		border-radius: 8px;
 		cursor: pointer;
 		transition: all 0.2s ease;
 	}
 
 	.sort-btn:hover {
-		border-color: var(--shadow-monarch);
-		background: var(--shadow-monarch-subtle);
+		border-color: var(--primary);
+		background: var(--primary-subtle);
 	}
 
 	.view-toggle {
 		display: flex;
 		overflow: hidden;
 		border-radius: 8px;
-		border: 1px solid var(--void-highlight);
+		border: 1px solid var(--bg-highlight);
 
 		@media (max-width: 768px) {
 			flex: 1;
@@ -1281,7 +1281,7 @@
 
 	.view-btn {
 		padding: 10px 12px;
-		background: var(--void-elevated);
+		background: var(--bg-elevated);
 		color: var(--text-secondary);
 		border: none;
 		cursor: pointer;
@@ -1295,12 +1295,12 @@
 	}
 
 	.view-btn:hover {
-		background: var(--void-highlight);
+		background: var(--bg-highlight);
 		color: var(--text-primary);
 	}
 
 	.view-btn.active {
-		background: var(--shadow-monarch);
+		background: var(--primary);
 		color: white;
 	}
 
@@ -1312,7 +1312,7 @@
 	.clear-filters-btn {
 		padding: 10px 14px;
 		font-size: 0.875rem;
-		color: var(--shadow-monarch-light);
+		color: var(--primary-light);
 		background: transparent;
 		border: none;
 		cursor: pointer;
@@ -1320,7 +1320,7 @@
 	}
 
 	.clear-filters-btn:hover {
-		color: var(--awakening-cyan);
+		color: var(--accent);
 		text-shadow: var(--glow-sm);
 	}
 
@@ -1332,7 +1332,7 @@
 		gap: 12px;
 		margin-top: 16px;
 		padding-top: 16px;
-		border-top: 1px solid var(--void-elevated);
+		border-top: 1px solid var(--bg-elevated);
 
 		@media (max-width: 768px) {
 			margin-top: 12px;
@@ -1368,9 +1368,9 @@
 	.filter-select {
 		padding: 6px 10px;
 		font-size: 0.8125rem;
-		background: var(--void-elevated);
+		background: var(--bg-elevated);
 		color: var(--text-primary);
-		border: 1px solid var(--void-highlight);
+		border: 1px solid var(--bg-highlight);
 		border-radius: 6px;
 		cursor: pointer;
 
@@ -1383,7 +1383,7 @@
 
 	.filter-select:focus {
 		outline: none;
-		border-color: var(--shadow-monarch);
+		border-color: var(--primary);
 	}
 
 	.checkbox-label {
@@ -1396,8 +1396,8 @@
 
 		@media (max-width: 768px) {
 			padding: 12px;
-			background: var(--void-elevated);
-			border: 1px solid var(--void-highlight);
+			background: var(--bg-elevated);
+			border: 1px solid var(--bg-highlight);
 			border-radius: 8px;
 			font-size: 14px;
 			gap: 10px;
@@ -1407,7 +1407,7 @@
 	.checkbox-input {
 		width: 16px;
 		height: 16px;
-		accent-color: var(--shadow-monarch);
+		accent-color: var(--primary);
 
 		@media (max-width: 768px) {
 			width: 20px;
@@ -1462,8 +1462,8 @@
 		max-height: calc(100vh - 280px);
 		display: flex;
 		flex-direction: column;
-		background: var(--void-surface);
-		border: 1px solid var(--void-elevated);
+		background: var(--bg-surface);
+		border: 1px solid var(--bg-elevated);
 		border-radius: 10px;
 		border-top-width: 3px;
 		transition: all 0.2s ease;
@@ -1476,7 +1476,7 @@
 	}
 
 	.kanban-column.dragging-active {
-		border-color: var(--shadow-monarch-glow);
+		border-color: var(--primary-glow);
 	}
 
 	/* Stage Colors */
@@ -1487,19 +1487,19 @@
 		border-top-color: #f59e0b;
 	}
 	.stage-written {
-		border-top-color: var(--system-interface);
+		border-top-color: var(--secondary);
 	}
 	.stage-proofread {
 		border-top-color: #6366f1;
 	}
 	.stage-sent-review {
-		border-top-color: var(--shadow-monarch);
+		border-top-color: var(--primary);
 	}
 	.stage-reviewed {
 		border-top-color: #ec4899;
 	}
 	.stage-socialized {
-		border-top-color: var(--awakening-cyan);
+		border-top-color: var(--accent);
 	}
 	.stage-growing {
 		border-top-color: var(--success);
@@ -1518,7 +1518,7 @@
 		gap: 4px;
 		padding: 8px 10px;
 		background: inherit;
-		border-bottom: 1px solid var(--void-elevated);
+		border-bottom: 1px solid var(--bg-elevated);
 
 		@media (max-width: 768px) {
 			padding: 12px;
@@ -1544,7 +1544,7 @@
 		padding: 2px 6px;
 		font-size: 0.625rem;
 		font-weight: 600;
-		background: var(--void-elevated);
+		background: var(--bg-elevated);
 		color: var(--text-muted);
 		border-radius: 10px;
 
@@ -1562,7 +1562,7 @@
 		flex-direction: column;
 		gap: 6px;
 		scrollbar-width: thin;
-		scrollbar-color: var(--shadow-monarch) transparent;
+		scrollbar-color: var(--primary) transparent;
 
 		@media (max-width: 768px) {
 			padding: 10px;
@@ -1579,7 +1579,7 @@
 	}
 
 	.kanban-cards::-webkit-scrollbar-thumb {
-		background-color: var(--shadow-monarch);
+		background-color: var(--primary);
 		border-radius: 3px;
 	}
 
@@ -1588,9 +1588,9 @@
 		align-items: center;
 		justify-content: center;
 		padding: 16px;
-		border: 1px dashed var(--void-highlight);
+		border: 1px dashed var(--bg-highlight);
 		border-radius: 8px;
-		background: var(--void-elevated);
+		background: var(--bg-elevated);
 	}
 
 	.empty-column p {
@@ -1601,8 +1601,8 @@
 
 	/* List View Table */
 	.table-card {
-		background: var(--void-surface);
-		border: 1px solid var(--void-elevated);
+		background: var(--bg-surface);
+		border: 1px solid var(--bg-elevated);
 		border-radius: 12px;
 		overflow: hidden;
 
@@ -1634,7 +1634,7 @@
 	.data-table thead {
 		position: sticky;
 		top: 0;
-		background: var(--void-deep);
+		background: var(--bg-deep);
 		z-index: 1;
 
 		@media (max-width: 768px) {
@@ -1650,13 +1650,13 @@
 		font-size: 0.6875rem;
 		text-transform: uppercase;
 		letter-spacing: 0.5px;
-		border-bottom: 1px solid var(--void-elevated);
+		border-bottom: 1px solid var(--bg-elevated);
 		white-space: nowrap;
 	}
 
 	.data-table td {
 		padding: 12px 16px;
-		border-bottom: 1px solid var(--void-elevated);
+		border-bottom: 1px solid var(--bg-elevated);
 		color: var(--text-primary);
 
 		@media (max-width: 768px) {
@@ -1673,7 +1673,7 @@
 			flex-wrap: wrap;
 			align-items: center;
 			padding: 12px;
-			border-bottom: 1px solid var(--void-elevated);
+			border-bottom: 1px solid var(--bg-elevated);
 
 			td {
 				border: none;
@@ -1692,12 +1692,12 @@
 	}
 
 	.table-row:hover {
-		background: var(--void-elevated);
+		background: var(--bg-elevated);
 	}
 
 	.table-row:active {
 		@media (max-width: 768px) {
-			background: var(--shadow-monarch-subtle);
+			background: var(--primary-subtle);
 		}
 	}
 
@@ -1739,7 +1739,7 @@
 		padding: 4px 10px;
 		font-size: 0.75rem;
 		font-weight: 500;
-		background: var(--void-elevated);
+		background: var(--bg-elevated);
 		color: var(--text-secondary);
 		border-radius: 12px;
 	}
@@ -1775,21 +1775,21 @@
 		gap: 4px;
 		font-size: 0.75rem;
 		font-weight: 500;
-		color: var(--shadow-monarch-light);
+		color: var(--primary-light);
 		text-decoration: none;
 		transition: all 0.15s ease;
 
 		@media (max-width: 768px) {
 			padding: 10px 14px;
 			font-size: 13px;
-			background: var(--shadow-monarch-subtle);
-			border: 1px solid var(--shadow-monarch);
+			background: var(--primary-subtle);
+			border: 1px solid var(--primary);
 			border-radius: 6px;
 		}
 	}
 
 	.view-link:hover {
-		color: var(--awakening-cyan);
+		color: var(--accent);
 		text-shadow: var(--glow-sm);
 	}
 
@@ -1805,7 +1805,7 @@
 	.edit-btn {
 		font-size: 0.75rem;
 		font-weight: 500;
-		color: var(--shadow-monarch-light);
+		color: var(--primary-light);
 		background: transparent;
 		border: none;
 		cursor: pointer;
@@ -1814,14 +1814,14 @@
 		@media (max-width: 768px) {
 			padding: 10px 14px;
 			font-size: 13px;
-			background: var(--void-elevated);
-			border: 1px solid var(--void-highlight);
+			background: var(--bg-elevated);
+			border: 1px solid var(--bg-highlight);
 			border-radius: 6px;
 		}
 	}
 
 	.edit-btn:hover {
-		color: var(--awakening-cyan);
+		color: var(--accent);
 		text-shadow: var(--glow-sm);
 	}
 
@@ -1895,8 +1895,8 @@
 
 	/* Drag over styles */
 	:global(.drag-over) {
-		background-color: var(--shadow-monarch-subtle) !important;
-		box-shadow: inset 0 0 0 2px var(--shadow-monarch);
+		background-color: var(--primary-subtle) !important;
+		box-shadow: inset 0 0 0 2px var(--primary);
 	}
 
 	:global(.dragging) {

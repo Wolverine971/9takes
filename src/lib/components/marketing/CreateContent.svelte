@@ -191,17 +191,17 @@
 		width: 100%;
 		padding: 0.5rem 0.75rem;
 		font-size: 0.875rem;
-		border: 1px solid var(--void-elevated);
+		border: 1px solid var(--bg-elevated);
 		border-radius: 8px;
-		background: var(--void-deep);
+		background: var(--bg-deep);
 		color: var(--text-primary);
 		transition: border-color 0.15s ease;
 	}
 
 	.field-input:focus {
 		outline: none;
-		border-color: var(--shadow-monarch);
-		box-shadow: 0 0 0 2px rgba(var(--shadow-monarch-rgb, 99, 102, 241), 0.15);
+		border-color: var(--primary);
+		box-shadow: 0 0 0 2px rgba(var(--primary-rgb, 99, 102, 241), 0.15);
 	}
 
 	.field-textarea {
@@ -226,7 +226,7 @@
 	}
 
 	.btn-primary {
-		background: var(--shadow-monarch);
+		background: var(--primary);
 		color: white;
 	}
 
@@ -236,12 +236,12 @@
 	}
 
 	.btn-secondary {
-		background: var(--void-elevated);
+		background: var(--bg-elevated);
 		color: var(--text-primary);
 	}
 
 	.btn-secondary:hover {
-		background: var(--void-highlight);
+		background: var(--bg-highlight);
 	}
 
 	@media (max-width: 768px) {

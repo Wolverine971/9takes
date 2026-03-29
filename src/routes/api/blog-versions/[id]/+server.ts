@@ -23,7 +23,7 @@ export const GET: RequestHandler = async ({ params, locals }) => {
 					.single(),
 				supabase
 					.from('blogs_famous_people_history')
-					.select('id, old_content, new_content, changed_at, changed_by')
+					.select('id, new_content, changed_at, changed_by')
 					.eq('famous_people_id', blogId)
 					.order('changed_at', { ascending: false })
 			]);

@@ -128,16 +128,16 @@
 	.search-input {
 		width: 100%;
 		padding: 0.75rem 1rem;
-		border: 1px solid var(--void-elevated, #252538);
+		border: 1px solid var(--bg-elevated, var(--bg-elevated));
 		border-radius: var(--border-radius, 0.5rem);
 		font-size: 1rem;
-		background-color: var(--void-surface, #1a1a2e);
-		color: var(--text-primary, #f8fafc);
+		background-color: var(--bg-surface, var(--bg-surface));
+		color: var(--text-primary, var(--text-primary));
 
 		&:focus {
 			outline: none;
-			border-color: var(--shadow-monarch, #7c3aed);
-			box-shadow: 0 0 0 2px rgba(124, 58, 237, 0.2);
+			border-color: var(--primary, var(--primary-dark));
+			box-shadow: 0 0 0 2px rgba(45, 212, 191, 0.2);
 		}
 	}
 
@@ -151,8 +151,8 @@
 		display: inline-block;
 		width: 1rem;
 		height: 1rem;
-		border: 2px solid var(--void-elevated, #252538);
-		border-top-color: var(--shadow-monarch, #7c3aed);
+		border: 2px solid var(--bg-elevated, var(--bg-elevated));
+		border-top-color: var(--primary, var(--primary-dark));
 		border-radius: 50%;
 		animation: spin 1s linear infinite;
 	}
@@ -167,11 +167,11 @@
 		background: none;
 		border: none;
 		cursor: pointer;
-		color: var(--text-tertiary, #64748b);
+		color: var(--text-tertiary, var(--text-tertiary));
 		font-size: 1.25rem;
 
 		&:hover {
-			color: var(--text-primary, #f8fafc);
+			color: var(--text-primary, var(--text-primary));
 		}
 	}
 
@@ -183,8 +183,8 @@
 		right: 0;
 		max-height: 300px;
 		overflow-y: auto;
-		background: var(--void-surface, #1a1a2e);
-		border: 1px solid var(--void-elevated, #252538);
+		background: var(--bg-surface, var(--bg-surface));
+		border: 1px solid var(--bg-elevated, var(--bg-elevated));
 		border-radius: var(--border-radius, 0.5rem);
 		margin-top: 0.25rem;
 		box-shadow:
@@ -205,22 +205,22 @@
 		border: none;
 		text-align: left;
 		cursor: pointer;
-		color: var(--text-primary, #f8fafc);
+		color: var(--text-primary, var(--text-primary));
 
 		&:hover {
-			background-color: var(--void-elevated, #252538);
+			background-color: var(--bg-elevated, var(--bg-elevated));
 		}
 	}
 
 	.result-item.active .result-button {
-		background-color: var(--void-elevated, #252538);
+		background-color: var(--bg-elevated, var(--bg-elevated));
 	}
 
 	.no-results {
 		padding: 0.75rem 1rem;
-		color: var(--text-tertiary, #64748b);
-		background: var(--void-surface, #1a1a2e);
-		border: 1px solid var(--void-elevated, #252538);
+		color: var(--text-tertiary, var(--text-tertiary));
+		background: var(--bg-surface, var(--bg-surface));
+		border: 1px solid var(--bg-elevated, var(--bg-elevated));
 		border-radius: var(--border-radius, 0.5rem);
 		margin-top: 0.25rem;
 		box-shadow:

@@ -151,18 +151,20 @@
 
 	<div class="max-w-2xl p-2">
 		<h1
-			class="m-1 w-full rounded-lg text-left text-xl font-semibold text-slate-100"
+			class="m-1 w-full rounded-lg text-left text-xl font-semibold text-[var(--text-primary)]"
 			id="question-box"
 			itemprop="name"
 		>
 			{data?.questionTag?.category_name}
 		</h1>
 		{#each hierarchicalData as category (category.id)}
-			<div class="mb-1 rounded-lg border border-slate-700 bg-[#1a1a2e] p-2 shadow-sm">
-				<h2 class="!my-1 flex items-center !py-0 text-lg font-medium text-slate-100">
+			<div
+				class="mb-1 rounded-lg border border-[var(--bg-elevated)] bg-[var(--bg-surface)] p-2 shadow-sm"
+			>
+				<h2 class="!my-1 flex items-center !py-0 text-lg font-medium text-[var(--text-primary)]">
 					<A
 						href={formatUrl(category.category_name)}
-						class="flex items-center text-slate-100 hover:text-purple-400"
+						class="flex items-center text-[var(--text-primary)] hover:text-[var(--primary)]"
 					>
 						<!-- {category.children.length ? <ChevronDownOutline class="mr-2 h-4 w-4" /> : <ChevronRightOutline class="mr-2 h-4 w-4" />} -->
 						{category.category_name}
@@ -171,10 +173,10 @@
 				{#if category.children.length}
 					<div class="ml-4 grid gap-2 sm:grid-cols-2 md:grid-cols-3">
 						{#each category.children as subCategory (subCategory.id)}
-							<div class="rounded-md bg-[#252538] p-2">
+							<div class="rounded-md bg-[var(--bg-elevated)] p-2">
 								<A
 									href={formatUrl(subCategory.category_name)}
-									class="font-medium text-slate-200 hover:text-purple-400"
+									class="font-medium text-[var(--text-primary)] hover:text-[var(--primary)]"
 								>
 									{subCategory.category_name}
 								</A>
@@ -184,7 +186,7 @@
 											<li>
 												<A
 													href={formatUrl(subSubCategory.category_name)}
-													class="text-slate-400 hover:text-purple-400"
+													class="text-[var(--text-secondary)] hover:text-[var(--primary)]"
 												>
 													{subSubCategory.category_name}
 												</A>

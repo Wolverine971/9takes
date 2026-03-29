@@ -2,8 +2,8 @@
 
 export const ANALYTICS_SESSION_TIMEOUT_MS = 30 * 60 * 1000; // 30 minutes
 export const ANALYTICS_ACTIVITY_WINDOW_MS = 30 * 1000; // 30 seconds
-export const ANALYTICS_PING_INTERVAL_MS = 15 * 1000; // 15 seconds
-export const ANALYTICS_MAX_DELTA_MS = 15 * 1000; // 15 seconds
+export const ANALYTICS_PING_INTERVAL_MS = 30 * 1000; // 30 seconds
+export const ANALYTICS_MAX_DELTA_MS = 30 * 1000; // 30 seconds
 
 export const BLOG_SCOPE_PREFIXES = [
 	'/personality-analysis',

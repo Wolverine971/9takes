@@ -2,7 +2,7 @@
 <script lang="ts">
 	import type { PageData } from './$types';
 
-	export let data: PageData;
+	let { data }: { data: PageData } = $props();
 
 	interface QuestionInfo {
 		id: number;
@@ -26,39 +26,494 @@
 		question_formatted: string | null;
 	}
 
-	// Cast the data to proper types
-	$: subscriptions = (data.subscriptions || []) as Subscription[];
-	$: comments = (data.comments || []) as UserComment[];
+	const enneagramNames: Record<string, string> = {
+		'1': 'Reformer',
+		'2': 'Helper',
+		'3': 'Achiever',
+		'4': 'Individualist',
+		'5': 'Investigator',
+		'6': 'Loyalist',
+		'7': 'Enthusiast',
+		'8': 'Challenger',
+		'9': 'Peacemaker'
+	};
+
+	const subscriptions = $derived((data.subscriptions || []) as Subscription[]);
+	const comments = $derived((data.comments || []) as UserComment[]);
+
+	const enneagramType = $derived(data?.user?.enneagram ?? '');
+	const typeName = $derived(enneagramNames[enneagramType] || '');
+
+	function formatDate(dateStr: string | null): string {
+		if (!dateStr) return '';
+		const d = new Date(dateStr);
+		return d.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' });
+	}
+
+	function timeAgo(dateStr: string | null): string {
+		if (!dateStr) return 'Never';
+		const now = new Date();
+		const then = new Date(dateStr);
+		const diffMs = now.getTime() - then.getTime();
+		const diffMins = Math.floor(diffMs / 60000);
+		const diffHours = Math.floor(diffMins / 60);
+		const diffDays = Math.floor(diffHours / 24);
+
+		if (diffMins < 1) return 'Just now';
+		if (diffMins < 60) return `${diffMins}m ago`;
+		if (diffHours < 24) return `${diffHours}h ago`;
+		if (diffDays < 30) return `${diffDays}d ago`;
+		return formatDate(dateStr);
+	}
 </script>
 
-<div class="glass-card pretty-div">
-	<h1 style="">User: Enneagram {data?.user.enneagram}</h1>
+<svelte:head>
+	<title>User Profile — Type {enneagramType} | 9takes</title>
+</svelte:head>
 
-	{#if subscriptions.length}
-		<h2>Question Subscriptions</h2>
-
-		{#each subscriptions as subscription}
-			<div class="row" style="justify-content: flex-start;">
-				<a href="/questions/{subscription.questions.url}"
-					>{subscription.questions.question_formatted || subscription.questions.question}</a
-				>
-			</div>
-		{/each}
-	{/if}
-
-	{#if comments.length}
-		<h2>Comments</h2>
-
-		{#each comments as comment}
-			<div class="row" style="justify-content: flex-start;">
-				<div>
-					<a href="/questions/{comment.url}">Q: {comment.question_formatted || comment.question}</a>
-					<p>A: {comment.comment}</p>
+<div class="page">
+	<div class="container">
+		<!-- Header Card -->
+		<div class="card header-card">
+			<div class="header-content">
+				<div class="avatar">
+					{enneagramType || '?'}
+				</div>
+				<div class="user-details">
+					<h1>
+						{#if data.user?.first_name}
+							{data.user.first_name}
+						{:else}
+							Type {enneagramType} User
+						{/if}
+					</h1>
+					{#if typeName}
+						<span class="type-badge">
+							Type {enneagramType} — The {typeName}
+						</span>
+					{/if}
 				</div>
 			</div>
-		{/each}
-	{/if}
+		</div>
+
+		<!-- Stats Row -->
+		<div class="stats-row">
+			<div class="stat-card">
+				<span class="stat-value">{comments.length}</span>
+				<span class="stat-label">Comments</span>
+			</div>
+			<div class="stat-card">
+				<span class="stat-value">{subscriptions.length}</span>
+				<span class="stat-label">Subscriptions</span>
+			</div>
+			<div class="stat-card">
+				<span class="stat-value">{formatDate(data.user?.created_at)}</span>
+				<span class="stat-label">Joined</span>
+			</div>
+			<div class="stat-card">
+				<span class="stat-value">{timeAgo(data.lastSignIn)}</span>
+				<span class="stat-label">Last Active</span>
+			</div>
+		</div>
+
+		<!-- Comments Card -->
+		<div class="card">
+			<div class="card-header">
+				<div class="card-header-row">
+					<h2>Comments</h2>
+					{#if comments.length}
+						<span class="badge">{comments.length}</span>
+					{/if}
+				</div>
+				<p class="card-subtitle">Contributions to questions</p>
+			</div>
+
+			{#if !comments.length}
+				<div class="empty-state">
+					<div class="empty-icon">
+						<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+							<path
+								d="M7.5 8.25h9m-9 3H12m-9.75 1.51c0 1.6 1.123 2.994 2.707 3.227 1.129.166 2.27.293 3.423.379.35.026.67.21.865.501L12 21l2.755-4.133a1.14 1.14 0 01.865-.501 48.172 48.172 0 003.423-.379c1.584-.233 2.707-1.626 2.707-3.228V6.741c0-1.602-1.123-2.995-2.707-3.228A48.394 48.394 0 0012 3c-2.392 0-4.744.175-7.043.513C3.373 3.746 2.25 5.14 2.25 6.741v6.018z"
+								stroke-linecap="round"
+								stroke-linejoin="round"
+							/>
+						</svg>
+					</div>
+					<p>No comments yet</p>
+					<span class="empty-hint">This user hasn't commented on any questions</span>
+				</div>
+			{:else}
+				<ul class="item-list">
+					{#each comments as comment}
+						<li>
+							<a href="/questions/{comment.url}" class="item-link">
+								<div class="item-content">
+									<span class="item-question">
+										{comment.question_formatted || comment.question}
+									</span>
+									<p class="item-answer">{comment.comment}</p>
+								</div>
+								<svg
+									class="chevron"
+									viewBox="0 0 24 24"
+									fill="none"
+									stroke="currentColor"
+									stroke-width="2"
+								>
+									<path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
+								</svg>
+							</a>
+						</li>
+					{/each}
+				</ul>
+			{/if}
+		</div>
+
+		<!-- Subscriptions Card -->
+		<div class="card">
+			<div class="card-header">
+				<div class="card-header-row">
+					<h2>Subscribed Questions</h2>
+					{#if subscriptions.length}
+						<span class="badge">{subscriptions.length}</span>
+					{/if}
+				</div>
+				<p class="card-subtitle">Questions this user is following</p>
+			</div>
+
+			{#if !subscriptions.length}
+				<div class="empty-state">
+					<div class="empty-icon">
+						<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+							<path
+								d="M8.228 9c.549-1.165 2.03-2 3.772-2 2.21 0 4 1.343 4 3 0 1.4-1.278 2.575-3.006 2.907-.542.104-.994.54-.994 1.093m0 3h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+								stroke-linecap="round"
+								stroke-linejoin="round"
+							/>
+						</svg>
+					</div>
+					<p>No subscriptions yet</p>
+					<span class="empty-hint">This user hasn't subscribed to any questions</span>
+				</div>
+			{:else}
+				<ul class="item-list">
+					{#each subscriptions as subscription}
+						<li>
+							<a href="/questions/{subscription.questions.url}" class="item-link">
+								<span class="item-question">
+									{subscription.questions.question_formatted || subscription.questions.question}
+								</span>
+								<svg
+									class="chevron"
+									viewBox="0 0 24 24"
+									fill="none"
+									stroke="currentColor"
+									stroke-width="2"
+								>
+									<path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
+								</svg>
+							</a>
+						</li>
+					{/each}
+				</ul>
+			{/if}
+		</div>
+	</div>
 </div>
 
 <style lang="scss">
+	.page {
+		min-height: 100vh;
+		padding: 1.5rem 1rem 3rem;
+		background: linear-gradient(180deg, rgba(15, 15, 25, 0.5) 0%, transparent 100%);
+	}
+
+	.container {
+		width: 100%;
+		max-width: 720px;
+		margin: 0 auto;
+		display: flex;
+		flex-direction: column;
+		gap: 1rem;
+	}
+
+	.card {
+		width: 100%;
+		box-sizing: border-box;
+		background: rgba(20, 20, 30, 0.8);
+		border: 1px solid color-mix(in srgb, var(--text-tertiary) 15%, transparent);
+		border-radius: 1rem;
+		padding: 1.25rem;
+		backdrop-filter: blur(10px);
+	}
+
+	.header-card {
+		background: linear-gradient(135deg, rgba(45, 212, 191, 0.12) 0%, rgba(20, 20, 30, 0.9) 100%);
+		border-color: rgba(45, 212, 191, 0.2);
+	}
+
+	.header-content {
+		display: flex;
+		align-items: center;
+		gap: 1rem;
+	}
+
+	.avatar {
+		width: 3.5rem;
+		height: 3.5rem;
+		background: linear-gradient(135deg, var(--primary-dark) 0%, var(--accent-dark) 100%);
+		border-radius: 0.75rem;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		font-size: 1.375rem;
+		font-weight: 700;
+		color: white;
+		flex-shrink: 0;
+	}
+
+	.user-details {
+		min-width: 0;
+		flex: 1;
+
+		h1 {
+			font-size: 1.25rem;
+			font-weight: 600;
+			color: var(--text-primary);
+			margin: 0 0 0.25rem;
+			line-height: 1.2;
+		}
+	}
+
+	.type-badge {
+		display: inline-block;
+		background: rgba(45, 212, 191, 0.15);
+		color: var(--accent-light);
+		padding: 0.2rem 0.625rem;
+		border-radius: 1rem;
+		font-size: 0.75rem;
+		font-weight: 500;
+		border: 1px solid rgba(45, 212, 191, 0.2);
+	}
+
+	.stats-row {
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		gap: 0.625rem;
+	}
+
+	.stat-card {
+		background: rgba(20, 20, 30, 0.8);
+		border: 1px solid color-mix(in srgb, var(--text-tertiary) 15%, transparent);
+		border-radius: 0.75rem;
+		padding: 0.875rem;
+		display: flex;
+		flex-direction: column;
+		gap: 0.125rem;
+		backdrop-filter: blur(10px);
+	}
+
+	.stat-value {
+		font-size: 1rem;
+		font-weight: 600;
+		color: var(--text-primary);
+		line-height: 1.3;
+	}
+
+	.stat-label {
+		font-size: 0.6875rem;
+		color: var(--text-tertiary);
+		text-transform: uppercase;
+		letter-spacing: 0.03em;
+	}
+
+	.card-header {
+		margin-bottom: 1rem;
+
+		h2 {
+			font-size: 1rem;
+			font-weight: 600;
+			color: var(--text-primary);
+			margin: 0 0 0.125rem;
+		}
+	}
+
+	.card-header-row {
+		display: flex;
+		align-items: center;
+		gap: 0.5rem;
+	}
+
+	.card-subtitle {
+		font-size: 0.75rem;
+		color: var(--text-tertiary);
+		margin: 0;
+	}
+
+	.badge {
+		background: rgba(45, 212, 191, 0.2);
+		color: var(--accent-light);
+		padding: 0.125rem 0.5rem;
+		border-radius: 1rem;
+		font-size: 0.6875rem;
+		font-weight: 600;
+	}
+
+	.empty-state {
+		text-align: center;
+		padding: 1.5rem 1rem;
+
+		p {
+			color: var(--text-secondary);
+			margin: 0.5rem 0 0.25rem;
+			font-size: 0.875rem;
+			font-weight: 500;
+		}
+
+		.empty-hint {
+			display: block;
+			font-size: 0.75rem;
+			color: var(--text-tertiary);
+		}
+	}
+
+	.empty-icon {
+		width: 2.5rem;
+		height: 2.5rem;
+		margin: 0 auto;
+		color: var(--text-tertiary);
+
+		svg {
+			width: 100%;
+			height: 100%;
+		}
+	}
+
+	.item-list {
+		list-style: none;
+		padding: 0;
+		margin: 0;
+		display: flex;
+		flex-direction: column;
+		gap: 0.375rem;
+		max-height: 400px;
+		overflow-y: auto;
+
+		&::-webkit-scrollbar {
+			width: 4px;
+		}
+
+		&::-webkit-scrollbar-track {
+			background: transparent;
+		}
+
+		&::-webkit-scrollbar-thumb {
+			background: rgba(45, 212, 191, 0.3);
+			border-radius: 2px;
+		}
+	}
+
+	.item-link {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		gap: 0.625rem;
+		padding: 0.75rem 0.875rem;
+		background: rgba(15, 23, 42, 0.4);
+		border: 1px solid color-mix(in srgb, var(--text-tertiary) 10%, transparent);
+		border-radius: 0.5rem;
+		text-decoration: none;
+		transition: all 0.15s ease;
+
+		&:hover {
+			background: rgba(45, 212, 191, 0.08);
+			border-color: rgba(45, 212, 191, 0.2);
+
+			.chevron {
+				opacity: 1;
+				transform: translateX(2px);
+			}
+		}
+	}
+
+	.item-content {
+		min-width: 0;
+		flex: 1;
+	}
+
+	.item-question {
+		color: var(--text-primary);
+		font-size: 0.8125rem;
+		font-weight: 500;
+		line-height: 1.4;
+		display: block;
+	}
+
+	.item-answer {
+		color: var(--text-tertiary);
+		font-size: 0.75rem;
+		line-height: 1.4;
+		margin: 0.25rem 0 0;
+		display: -webkit-box;
+		-webkit-line-clamp: 2;
+		line-clamp: 2;
+		-webkit-box-orient: vertical;
+		overflow: hidden;
+	}
+
+	.chevron {
+		width: 1rem;
+		height: 1rem;
+		color: var(--primary-dark);
+		opacity: 0.4;
+		flex-shrink: 0;
+		transition: all 0.15s ease;
+	}
+
+	@media (min-width: 480px) {
+		.page {
+			padding: 2rem 1.5rem 4rem;
+		}
+
+		.container {
+			gap: 1.25rem;
+		}
+
+		.card {
+			padding: 1.5rem;
+		}
+
+		.stats-row {
+			grid-template-columns: repeat(4, 1fr);
+		}
+
+		.avatar {
+			width: 4rem;
+			height: 4rem;
+			font-size: 1.5rem;
+		}
+
+		.user-details h1 {
+			font-size: 1.375rem;
+		}
+	}
+
+	@media (min-width: 768px) {
+		.page {
+			padding: 3rem 2rem 5rem;
+		}
+
+		.container {
+			max-width: 800px;
+			gap: 1.5rem;
+		}
+
+		.card {
+			padding: 1.75rem;
+		}
+
+		.card-header h2 {
+			font-size: 1.125rem;
+		}
+	}
 </style>

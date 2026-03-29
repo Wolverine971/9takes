@@ -1,13 +1,13 @@
 /* src/scss/components.scss */
 /*
  * Global Component Library - Reusable Patterns
- * Solo Leveling Dark Theme
+ * 9takes Warm Tech Theme
  */
 
 @use 'mixins' as *;
 
 /*==============================================
-  BUTTON COMPONENTS - Solo Leveling Style
+  BUTTON COMPONENTS - Warm Tech Style
 ==============================================*/
 .btn-base {
 	display: inline-flex;
@@ -25,7 +25,7 @@
 	overflow: hidden;
 
 	&:focus-visible {
-		outline: 2px solid var(--shadow-monarch);
+		outline: 2px solid var(--primary);
 		outline-offset: 2px;
 	}
 
@@ -39,13 +39,13 @@
 
 .btn-primary {
 	@extend .btn-base !optional;
-	background: linear-gradient(135deg, var(--shadow-monarch) 0%, var(--shadow-monarch-dark) 100%);
+	background: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%);
 	color: var(--text-on-primary);
-	border: 1px solid var(--shadow-monarch);
+	border: 1px solid var(--primary);
 	box-shadow: var(--glow-sm);
 
 	&:hover:not(:disabled) {
-		background: linear-gradient(135deg, var(--shadow-monarch-light) 0%, var(--shadow-monarch) 100%);
+		background: linear-gradient(135deg, var(--primary-light) 0%, var(--primary) 100%);
 		transform: translateY(-2px);
 		box-shadow: var(--glow-md);
 	}
@@ -54,11 +54,11 @@
 .btn-secondary {
 	@extend .btn-base !optional;
 	background: transparent;
-	color: var(--shadow-monarch-light);
-	border: 1px solid var(--shadow-monarch);
+	color: var(--primary-light);
+	border: 1px solid var(--primary);
 
 	&:hover:not(:disabled) {
-		background: var(--shadow-monarch-subtle);
+		background: var(--primary-subtle);
 		transform: translateY(-2px);
 		box-shadow: var(--glow-sm);
 	}
@@ -67,11 +67,11 @@
 .btn-outline {
 	@extend .btn-base !optional;
 	background-color: transparent;
-	color: var(--shadow-monarch-light);
-	border: 1px solid var(--shadow-monarch);
+	color: var(--primary-light);
+	border: 1px solid var(--primary);
 
 	&:hover:not(:disabled) {
-		background: var(--shadow-monarch-subtle);
+		background: var(--primary-subtle);
 		color: var(--text-on-primary);
 		transform: translateY(-2px);
 		box-shadow: var(--glow-sm);
@@ -84,8 +84,8 @@
 	color: var(--text-primary);
 
 	&:hover:not(:disabled) {
-		background-color: var(--void-elevated);
-		color: var(--shadow-monarch-light);
+		background-color: var(--bg-elevated);
+		color: var(--primary-light);
 	}
 }
 
@@ -100,13 +100,13 @@
 }
 
 /*==============================================
-  CARD COMPONENTS - Solo Leveling Style
+  CARD COMPONENTS - Warm Tech Style
 ==============================================*/
 .card-base {
-	background-color: var(--void-surface);
+	background-color: var(--bg-surface);
 	border-radius: var(--border-radius-lg);
 	box-shadow: var(--shadow-sm);
-	border: 1px solid var(--void-elevated);
+	border: 1px solid var(--bg-elevated);
 	overflow: hidden;
 }
 
@@ -115,7 +115,7 @@
 
 	&:hover {
 		transform: translateY(-5px);
-		border-color: var(--shadow-monarch-glow);
+		border-color: var(--primary-glow);
 		box-shadow: var(--glow-sm);
 	}
 }
@@ -126,7 +126,7 @@
 	cursor: pointer;
 
 	&:focus-visible {
-		outline: 2px solid var(--shadow-monarch);
+		outline: 2px solid var(--primary);
 		outline-offset: 2px;
 	}
 }
@@ -139,21 +139,21 @@
 }
 
 /*==============================================
-  FORM COMPONENTS - Solo Leveling Style
+  FORM COMPONENTS - Warm Tech Style
 ==============================================*/
 .form-input {
 	width: 100%;
 	padding: 0.75rem 1rem;
-	border: 1px solid var(--void-elevated);
+	border: 1px solid var(--bg-elevated);
 	border-radius: var(--border-radius);
 	font-size: 1rem;
 	transition: var(--transition-glow);
-	background-color: var(--void-elevated);
+	background-color: var(--bg-elevated);
 	color: var(--text-primary);
 
 	&:focus {
 		outline: none;
-		border-color: var(--shadow-monarch);
+		border-color: var(--primary);
 		box-shadow: var(--glow-sm);
 	}
 
@@ -162,7 +162,7 @@
 	}
 
 	&:disabled {
-		background-color: var(--void-deep);
+		background-color: var(--bg-deep);
 		color: var(--text-muted);
 		cursor: not-allowed;
 	}
@@ -186,7 +186,7 @@
 }
 
 /*==============================================
-  MODAL COMPONENTS - Solo Leveling Style
+  MODAL COMPONENTS - Warm Tech Style
 ==============================================*/
 .modal-overlay {
 	position: fixed;
@@ -195,7 +195,7 @@
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	background: rgba(10, 10, 15, 0.8);
+	background: rgba(12, 10, 9, 0.8);
 	backdrop-filter: blur(8px);
 	padding: 1rem;
 
@@ -207,10 +207,10 @@
 }
 
 .modal-content {
-	background: var(--void-surface);
-	border: 1px solid var(--void-elevated);
+	background: var(--bg-surface);
+	border: 1px solid var(--bg-elevated);
 	border-radius: var(--border-radius-lg);
-	box-shadow: var(--glow-purple-subtle);
+	box-shadow: var(--glow-subtle);
 	max-width: 32rem;
 	width: 100%;
 	max-height: 90vh;
@@ -228,7 +228,7 @@
 
 .modal-header {
 	padding: 1.5rem 1.5rem 0;
-	border-bottom: 1px solid var(--void-elevated);
+	border-bottom: 1px solid var(--bg-elevated);
 	margin-bottom: 1.5rem;
 
 	@include mobile {
@@ -262,25 +262,25 @@
 	transition: var(--transition-glow);
 
 	&:hover {
-		background: var(--void-elevated);
-		color: var(--shadow-monarch-light);
+		background: var(--bg-elevated);
+		color: var(--primary-light);
 	}
 
 	&:focus-visible {
-		outline: 2px solid var(--shadow-monarch);
+		outline: 2px solid var(--primary);
 		outline-offset: 2px;
 	}
 }
 
 /*==============================================
-  LOADING STATES - Solo Leveling Style
+  LOADING STATES - Warm Tech Style
 ==============================================*/
 .loading-spinner {
 	display: inline-block;
 	width: 1.5rem;
 	height: 1.5rem;
-	border: 2px solid var(--void-elevated);
-	border-top: 2px solid var(--shadow-monarch);
+	border: 2px solid var(--bg-elevated);
+	border-top: 2px solid var(--primary);
 	border-radius: 50%;
 	animation: spin 1s linear infinite;
 }
@@ -288,16 +288,16 @@
 .loading-shimmer {
 	background: linear-gradient(
 		90deg,
-		var(--void-surface) 25%,
-		var(--void-elevated) 50%,
-		var(--void-surface) 75%
+		var(--bg-surface) 25%,
+		var(--bg-elevated) 50%,
+		var(--bg-surface) 75%
 	);
 	background-size: 200% 100%;
 	animation: shimmer 1.5s infinite;
 }
 
 .loading-skeleton {
-	background: var(--void-surface);
+	background: var(--bg-surface);
 	border-radius: var(--border-radius);
 
 	&.skeleton-text {
@@ -399,7 +399,7 @@
 }
 
 /*==============================================
-  IMAGE CARD COMPONENTS - Solo Leveling Style
+  IMAGE CARD COMPONENTS - Warm Tech Style
 ==============================================*/
 .image-card-base {
 	@extend .card-interactive !optional;
@@ -407,13 +407,13 @@
 	z-index: 10;
 	overflow: hidden;
 	margin: 1rem;
-	border: 2px solid var(--shadow-monarch);
-	background-color: var(--shadow-monarch-subtle);
+	border: 2px solid var(--primary);
+	background-color: var(--primary-subtle);
 
 	&:hover {
 		transform: translateY(-5px);
 		box-shadow: var(--glow-md);
-		border-color: var(--shadow-monarch-light);
+		border-color: var(--primary-light);
 
 		.image-card__content {
 			backdrop-filter: blur(5px);
@@ -423,8 +423,8 @@
 
 .image-card__overlay {
 	background: linear-gradient(
-		var(--shadow-monarch-subtle),
-		var(--shadow-monarch-subtle) 3px,
+		var(--primary-subtle),
+		var(--primary-subtle) 3px,
 		transparent 3px,
 		transparent 9px
 	);
@@ -473,9 +473,9 @@
 	position: relative;
 	z-index: 3;
 	margin: 1rem;
-	border: 1px solid var(--shadow-monarch-glow);
+	border: 1px solid var(--primary-glow);
 	border-radius: calc(var(--border-radius) - 0.4rem);
-	background-color: rgba(10, 10, 15, 0.6);
+	background-color: rgba(12, 10, 9, 0.6);
 	box-shadow: var(--shadow-md);
 	transition: backdrop-filter 0.3s ease;
 }
@@ -698,7 +698,7 @@
 	padding: var(--card-padding);
 
 	&:hover {
-		background-color: var(--void-elevated);
+		background-color: var(--bg-elevated);
 		box-shadow: var(--glow-sm);
 		text-decoration: none;
 	}
@@ -722,7 +722,7 @@
 	display: flex;
 	justify-content: space-between;
 	font-weight: bold;
-	color: var(--shadow-monarch-light);
+	color: var(--primary-light);
 }
 
 .question-meta {
@@ -801,15 +801,15 @@
 	border-width: 6px;
 }
 
-// Spinner color variants - Solo Leveling theme
+// Spinner color variants - Warm Tech theme
 .spinner--primary {
-	border-color: rgba(124, 58, 237, 0.3);
-	border-top-color: #a78bfa;
+	border-color: rgba(45, 212, 191, 0.3);
+	border-top-color: var(--primary);
 }
 
 .spinner--secondary {
-	border-color: rgba(59, 130, 246, 0.3);
-	border-top-color: #60a5fa;
+	border-color: rgba(251, 113, 133, 0.3);
+	border-top-color: var(--secondary);
 }
 
 .spinner--success {
@@ -828,17 +828,17 @@
 }
 
 .spinner--info {
-	border-color: rgba(6, 182, 212, 0.3);
-	border-top-color: #22d3ee;
+	border-color: color-mix(in srgb, var(--info) 30%, transparent);
+	border-top-color: var(--info);
 }
 
 .spinner--neutral {
-	border-color: rgba(100, 116, 139, 0.3);
-	border-top-color: #94a3b8;
+	border-color: color-mix(in srgb, var(--text-tertiary) 30%, transparent);
+	border-top-color: var(--text-secondary);
 }
 
 /*==============================================
-  BADGE & TAG COMPONENTS - Solo Leveling Style
+  BADGE & TAG COMPONENTS - Warm Tech Style
 ==============================================*/
 .badge {
 	display: inline-flex;
@@ -850,29 +850,29 @@
 	font-weight: 600;
 	letter-spacing: 0.025em;
 	text-transform: uppercase;
-	background: rgba(37, 37, 56, 0.8);
-	border: 1px solid rgba(100, 116, 139, 0.3);
+	background: var(--bg-elevated);
+	border: 1px solid color-mix(in srgb, var(--text-tertiary) 30%, transparent);
 	color: var(--text-secondary);
 	transition: var(--transition-glow);
 }
 
 // Badge color variants
 .badge-primary {
-	background: rgba(124, 58, 237, 0.15);
-	border-color: rgba(124, 58, 237, 0.3);
-	color: #a78bfa;
+	background: var(--primary-subtle);
+	border-color: color-mix(in srgb, var(--primary) 30%, transparent);
+	color: var(--primary);
 }
 
 .badge-secondary {
-	background: rgba(59, 130, 246, 0.15);
-	border-color: rgba(59, 130, 246, 0.3);
-	color: #60a5fa;
+	background: var(--secondary-subtle);
+	border-color: color-mix(in srgb, var(--secondary) 30%, transparent);
+	color: var(--secondary);
 }
 
 .badge-accent {
-	background: rgba(6, 182, 212, 0.15);
-	border-color: rgba(6, 182, 212, 0.3);
-	color: #22d3ee;
+	background: var(--accent-subtle);
+	border-color: color-mix(in srgb, var(--accent) 30%, transparent);
+	color: var(--accent);
 }
 
 .badge-success {
@@ -895,9 +895,9 @@
 
 // Enneagram type-specific badges
 .badge-type-1 {
-	background: rgba(59, 130, 246, 0.15);
-	border-color: rgba(59, 130, 246, 0.3);
-	color: #60a5fa;
+	background: color-mix(in srgb, var(--type-1-color) 15%, transparent);
+	border-color: color-mix(in srgb, var(--type-1-color) 30%, transparent);
+	color: var(--type-1-color);
 }
 
 .badge-type-2 {
@@ -913,15 +913,15 @@
 }
 
 .badge-type-4 {
-	background: rgba(139, 92, 246, 0.15);
-	border-color: rgba(139, 92, 246, 0.3);
-	color: #a78bfa;
+	background: color-mix(in srgb, var(--type-4-color) 15%, transparent);
+	border-color: color-mix(in srgb, var(--type-4-color) 30%, transparent);
+	color: var(--type-4-color);
 }
 
 .badge-type-5 {
-	background: rgba(6, 182, 212, 0.15);
-	border-color: rgba(6, 182, 212, 0.3);
-	color: #22d3ee;
+	background: color-mix(in srgb, var(--type-5-color) 15%, transparent);
+	border-color: color-mix(in srgb, var(--type-5-color) 30%, transparent);
+	color: var(--type-5-color);
 }
 
 .badge-type-6 {
@@ -974,35 +974,35 @@
 	border-radius: var(--border-radius);
 	font-size: 0.75rem;
 	font-weight: 500;
-	background: var(--void-elevated);
-	border: 1px solid rgba(100, 116, 139, 0.2);
+	background: var(--bg-elevated);
+	border: 1px solid color-mix(in srgb, var(--text-tertiary) 20%, transparent);
 	color: var(--text-secondary);
 	transition: var(--transition-glow);
 
 	&:hover {
-		border-color: var(--shadow-monarch-glow);
+		border-color: var(--primary-glow);
 		color: var(--text-primary);
 	}
 }
 
 .tag-primary {
-	background: var(--shadow-monarch-subtle);
-	border-color: rgba(124, 58, 237, 0.3);
-	color: #a78bfa;
+	background: var(--primary-subtle);
+	border-color: color-mix(in srgb, var(--primary) 30%, transparent);
+	color: var(--primary);
 
 	&:hover {
-		background: rgba(124, 58, 237, 0.25);
-		color: var(--shadow-monarch-lightest);
+		background: color-mix(in srgb, var(--primary) 18%, transparent);
+		color: var(--primary-light);
 	}
 }
 
 /*==============================================
-  TAB COMPONENTS - Solo Leveling Style
+  TAB COMPONENTS - Warm Tech Style
 ==============================================*/
 .tabs {
 	display: flex;
 	gap: 0.25rem;
-	border-bottom: 1px solid var(--void-elevated);
+	border-bottom: 1px solid var(--bg-elevated);
 	padding-bottom: 0;
 }
 
@@ -1020,11 +1020,11 @@
 
 	&:hover:not(.tab-active) {
 		color: var(--text-primary);
-		background: var(--void-elevated);
+		background: var(--bg-elevated);
 	}
 
 	&:focus-visible {
-		outline: 2px solid var(--shadow-monarch);
+		outline: 2px solid var(--primary);
 		outline-offset: -2px;
 	}
 }
@@ -1111,7 +1111,7 @@
 .label-text {
 	white-space: nowrap;
 	border-radius: var(--border-radius);
-	background-color: var(--void-surface);
+	background-color: var(--bg-surface);
 	padding: 0.125rem 0.375rem;
 	box-shadow: var(--shadow-sm);
 	color: var(--text-primary);
@@ -1197,15 +1197,29 @@
 }
 
 /*==============================================
-  HEADER NAVIGATION COMPONENTS - Solo Leveling Style
+  HEADER NAVIGATION COMPONENTS
 ==============================================*/
 .nav-main {
 	position: relative;
 	z-index: 50;
-	border-bottom: 1px solid var(--void-elevated);
-	background-color: rgba(10, 10, 15, 0.95);
-	backdrop-filter: blur(10px);
-	box-shadow: var(--shadow-sm);
+	border-bottom: 1px solid var(--glass-border);
+	background: var(--glass-color);
+	backdrop-filter: blur(12px);
+}
+
+.header-inner {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 0.75rem 1.5rem;
+}
+
+.nav-center {
+	display: flex;
+	align-items: center;
+	gap: 1.5rem;
 }
 
 .nav-link {
@@ -1214,46 +1228,26 @@
 	background: transparent;
 	text-decoration: none !important;
 	border: none;
-	padding: 0.5rem;
-	border-radius: var(--border-radius);
-	font-weight: 600;
-	color: var(--text-primary);
-	transition: var(--transition-glow);
+	padding: 0.25rem 0;
+	font-family: var(--font-mono);
+	font-size: 0.8rem;
+	font-weight: 500;
+	color: var(--text-secondary);
+	transition: color 0.2s ease;
 
 	&:hover {
-		color: var(--shadow-monarch-light);
-		text-shadow: var(--glow-sm);
+		color: var(--primary);
 	}
 
 	&:focus-visible {
-		outline: 2px solid var(--shadow-monarch);
+		outline: 2px solid var(--primary);
 		outline-offset: 2px;
-	}
-
-	&::after {
-		content: '';
-		position: absolute;
-		bottom: 0;
-		left: 50%;
-		height: 2px;
-		width: 0;
-		background: linear-gradient(90deg, var(--shadow-monarch), var(--awakening-cyan));
-		transition: all 0.2s ease;
-		transform: translateX(-50%);
-	}
-
-	&:hover::after {
-		width: 80%;
+		border-radius: var(--border-radius-sm);
 	}
 }
 
 .active-link {
-	color: var(--shadow-monarch-light);
-	text-shadow: var(--glow-sm);
-
-	&::after {
-		width: 80%;
-	}
+	color: var(--primary);
 }
 
 .dropdown-menu {
@@ -1264,10 +1258,10 @@
 	width: 15rem;
 	transform: translateX(-50%);
 	border-radius: var(--border-radius-lg);
-	border: 1px solid var(--void-elevated);
-	background-color: var(--void-surface);
+	border: 1px solid var(--bg-elevated);
+	background-color: var(--bg-surface);
 	padding: 0.5rem 0;
-	box-shadow: var(--glow-purple-subtle);
+	box-shadow: var(--shadow-lg);
 	animation: fadeInScale 0.15s ease-out forwards;
 	transform-origin: top center;
 
@@ -1287,18 +1281,18 @@
 			font-weight: 500;
 			color: var(--text-secondary);
 			text-decoration: none;
-			transition: var(--transition-glow);
+			transition: all 0.15s ease;
 
 			&:hover,
 			&:focus {
-				background-color: var(--shadow-monarch-subtle);
-				color: var(--shadow-monarch-light);
+				background-color: var(--primary-subtle);
+				color: var(--primary);
 				outline: none;
 			}
 
 			&.active {
-				color: var(--shadow-monarch-light);
-				background-color: var(--shadow-monarch-subtle);
+				color: var(--primary);
+				background-color: var(--primary-subtle);
 			}
 		}
 	}
@@ -1315,48 +1309,29 @@
 	}
 }
 
-@keyframes slideInFade {
-	from {
-		opacity: 0;
-		transform: translateY(-20px) scale(0.95);
-	}
-	to {
-		opacity: 1;
-		transform: translateY(0) scale(1);
-	}
-}
-
 .logo-link {
 	display: flex;
 	align-items: center;
-	border-radius: var(--border-radius-lg);
 	text-decoration: none;
+	flex-shrink: 0;
 
 	&:focus-visible {
 		outline: 2px solid var(--primary);
 		outline-offset: 2px;
+		border-radius: var(--border-radius-sm);
 	}
+}
 
-	img {
-		transition: transform 0.2s ease;
-	}
+.logo-text {
+	font-family: var(--font-display);
+	font-size: 1.5rem;
+	font-weight: 700;
+	color: var(--primary);
+	transition: color 0.2s ease;
+}
 
-	&:hover img {
-		transform: scale(1.1);
-	}
-
-	span {
-		margin-left: 0.5rem;
-		width: 4.75rem;
-		font-size: 1.5rem;
-		font-weight: bold;
-		color: var(--text-primary);
-		transition: color 0.2s ease;
-	}
-
-	&:hover span {
-		color: var(--primary);
-	}
+.logo-link:hover .logo-text {
+	color: var(--primary-light);
 }
 
 .account-button {
@@ -1368,39 +1343,24 @@
 	background: transparent;
 	padding: 0.25rem;
 	cursor: pointer;
-	transition: var(--transition-glow);
+	transition: all 0.2s ease;
 
 	&:hover {
-		background-color: var(--void-elevated);
+		background-color: var(--primary-subtle);
 	}
 
 	&:focus-visible {
-		outline: 2px solid var(--shadow-monarch);
+		outline: 2px solid var(--primary);
 		outline-offset: 2px;
 	}
 
-	img {
-		border-radius: 50%;
-		border: 1px solid var(--void-elevated);
-		padding: 0.125rem;
-		transition: transform 0.2s ease;
-	}
-
-	&:hover img {
-		transform: scale(1.1);
-		border-color: var(--shadow-monarch);
-	}
-
 	svg {
-		color: var(--primary);
-		transition:
-			transform 0.2s ease,
-			color 0.2s ease;
+		color: var(--text-secondary);
+		transition: color 0.2s ease;
 	}
 
 	&:hover svg {
-		transform: scale(1.1);
-		color: var(--shadow-monarch);
+		color: var(--primary);
 	}
 }
 

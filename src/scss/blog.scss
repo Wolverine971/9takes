@@ -6,15 +6,15 @@
 @use 'mixins' as *;
 
 .blog {
-	/* Link styling for blog content - Solo Leveling theme */
+	/* Link styling for blog content - Warm Tech theme */
 	a {
-		color: var(--shadow-monarch-lighter) !important;
+		color: var(--primary-lighter) !important;
 		text-decoration: none;
 		transition: color 0.2s ease;
 
 		&:hover {
 			text-decoration: underline;
-			color: var(--shadow-monarch-lightest) !important;
+			color: var(--primary-lightest) !important;
 		}
 
 		/* No arrow icon - removed for cleaner dark theme */
@@ -40,12 +40,12 @@
 	}
 }
 
-/* Quote styling - Solo Leveling theme */
+/* Quote styling - Warm Tech theme */
 blockquote {
 	margin: 1.5em 0;
 	padding: 1em 1.5em;
-	border-left: 4px solid var(--shadow-monarch);
-	background-color: var(--void-surface);
+	border-left: 4px solid var(--primary);
+	background-color: var(--bg-surface);
 	font-style: italic;
 	color: var(--text-secondary);
 	border-radius: 0 8px 8px 0;
@@ -71,7 +71,7 @@ blockquote {
 
 /* Decorative first letter */
 .firstLetter::first-letter {
-	color: var(--shadow-monarch-lighter);
+	color: var(--primary-lighter);
 	font-size: 1.5rem;
 	font-weight: 700;
 }
@@ -91,7 +91,7 @@ blockquote {
 	border-radius: 12px;
 	border: 1px solid var(--glass-border);
 	overflow: hidden;
-	background: var(--void-abyss);
+	background: var(--bg-base);
 
 	iframe {
 		position: absolute;
@@ -106,10 +106,10 @@ blockquote {
 /* Blog layout container */
 @include tablet-up {
 	.blog {
-		background-color: var(--void-deep);
+		background-color: var(--bg-deep);
 		border-radius: 1rem;
 		box-shadow: 0 4px 24px rgba(0, 0, 0, 0.3);
-		border: 1px solid rgba(100, 116, 139, 0.15);
+		border: 1px solid color-mix(in srgb, var(--text-tertiary) 15%, transparent);
 		margin-top: 0 !important;
 		padding: 2rem !important;
 		padding-top: 1rem !important;
@@ -188,12 +188,12 @@ blockquote {
 .quote-box {
 	font-style: italic;
 	padding: 15px 20px;
-	background-color: var(--shadow-monarch-subtle);
-	border-left: 4px solid var(--shadow-monarch);
+	background-color: var(--primary-subtle);
+	border-left: 4px solid var(--primary);
 	border-radius: 0 8px 8px 0;
 	margin: 20px 0;
 	font-size: 1.05em;
-	color: var(--neutral-700);
+	color: var(--text-secondary);
 }
 
 /* Disclaimer/warning box */
@@ -204,7 +204,7 @@ blockquote {
 	border-left: 4px solid var(--warning);
 	border-radius: 0 8px 8px 0;
 	font-size: 0.9rem;
-	color: var(--neutral-700);
+	color: var(--text-secondary);
 
 	p {
 		margin: 0 0 0.5rem 0;
@@ -238,9 +238,9 @@ blockquote {
 	font-style: italic;
 	line-height: 1.5;
 	color: var(--text-primary);
-	border-top: 2px solid var(--shadow-monarch);
-	border-bottom: 2px solid var(--shadow-monarch);
-	background: linear-gradient(135deg, rgba(124, 58, 237, 0.06) 0%, transparent 100%);
+	border-top: 2px solid var(--primary);
+	border-bottom: 2px solid var(--primary);
+	background: linear-gradient(135deg, rgba(45, 212, 191, 0.06) 0%, transparent 100%);
 
 	&::before {
 		content: '\201C';
@@ -250,9 +250,9 @@ blockquote {
 		transform: translateX(-50%);
 		font-size: 3rem;
 		font-style: normal;
-		color: var(--shadow-monarch);
+		color: var(--primary);
 		line-height: 1;
-		background: var(--void-deep);
+		background: var(--bg-deep);
 		padding: 0 0.5rem;
 	}
 
@@ -278,13 +278,13 @@ blockquote {
 	margin: 2rem 0;
 	padding: 1.25rem 1.5rem;
 	border-radius: 10px;
-	background: linear-gradient(135deg, var(--void-surface) 0%, var(--void-deep) 100%);
-	border: 1px solid rgba(124, 58, 237, 0.2);
+	background: linear-gradient(135deg, var(--bg-surface) 0%, var(--bg-deep) 100%);
+	border: 1px solid rgba(45, 212, 191, 0.2);
 
 	&__number {
 		font-size: 2.5rem;
 		font-weight: 800;
-		color: var(--shadow-monarch-lighter);
+		color: var(--primary-lighter);
 		line-height: 1;
 		white-space: nowrap;
 		flex-shrink: 0;
@@ -318,8 +318,8 @@ blockquote {
 	margin: 2rem 0;
 	padding: 1.25rem 1.5rem 1.25rem 3.5rem;
 	border-radius: 10px;
-	background: linear-gradient(135deg, var(--void-surface) 0%, var(--void-deep) 100%);
-	border: 1px solid rgba(100, 116, 139, 0.2);
+	background: linear-gradient(135deg, var(--bg-surface) 0%, var(--bg-deep) 100%);
+	border: 1px solid color-mix(in srgb, var(--text-tertiary) 20%, transparent);
 	font-style: italic;
 	color: var(--text-secondary);
 	line-height: 1.7;
@@ -366,11 +366,7 @@ blockquote {
 		top: 0.5rem;
 		bottom: 0.5rem;
 		width: 2px;
-		background: linear-gradient(
-			180deg,
-			var(--shadow-monarch) 0%,
-			var(--shadow-monarch-subtle) 100%
-		);
+		background: linear-gradient(180deg, var(--primary) 0%, var(--primary-subtle) 100%);
 	}
 
 	&__item {
@@ -389,9 +385,9 @@ blockquote {
 			width: 10px;
 			height: 10px;
 			border-radius: 50%;
-			background: var(--shadow-monarch);
-			border: 2px solid var(--void-deep);
-			box-shadow: 0 0 0 2px var(--shadow-monarch-subtle);
+			background: var(--primary);
+			border: 2px solid var(--bg-deep);
+			box-shadow: 0 0 0 2px var(--primary-subtle);
 		}
 
 		/* Highlight a key moment */
@@ -399,15 +395,15 @@ blockquote {
 			width: 12px;
 			height: 12px;
 			left: 1.0625rem;
-			background: var(--shadow-monarch-lighter);
-			box-shadow: 0 0 8px var(--shadow-monarch-glow);
+			background: var(--primary-lighter);
+			box-shadow: 0 0 8px var(--primary-glow);
 		}
 	}
 
 	&__year {
 		font-weight: 700;
 		font-size: 0.9rem;
-		color: var(--shadow-monarch-lighter);
+		color: var(--primary-lighter);
 		white-space: nowrap;
 		flex-shrink: 0;
 		min-width: 2.5rem;
@@ -428,19 +424,19 @@ blockquote {
 	margin: 2rem 0;
 	border-radius: 10px;
 	overflow: hidden;
-	border: 1px solid rgba(100, 116, 139, 0.2);
+	border: 1px solid color-mix(in srgb, var(--text-tertiary) 20%, transparent);
 
 	&__side {
 		padding: 1.25rem;
 		line-height: 1.6;
 
 		&--left {
-			background: linear-gradient(135deg, var(--void-surface) 0%, var(--void-deep) 100%);
-			border-right: 1px solid rgba(100, 116, 139, 0.2);
+			background: linear-gradient(135deg, var(--bg-surface) 0%, var(--bg-deep) 100%);
+			border-right: 1px solid color-mix(in srgb, var(--text-tertiary) 20%, transparent);
 		}
 
 		&--right {
-			background: linear-gradient(135deg, rgba(124, 58, 237, 0.08) 0%, var(--void-deep) 100%);
+			background: linear-gradient(135deg, rgba(45, 212, 191, 0.08) 0%, var(--bg-deep) 100%);
 		}
 	}
 
@@ -457,12 +453,12 @@ blockquote {
 
 	&__side--left &__label {
 		color: var(--text-tertiary);
-		border-color: rgba(100, 116, 139, 0.3);
+		border-color: color-mix(in srgb, var(--text-tertiary) 30%, transparent);
 	}
 
 	&__side--right &__label {
-		color: var(--shadow-monarch-lighter);
-		border-color: var(--shadow-monarch-subtle);
+		color: var(--primary-lighter);
+		border-color: var(--primary-subtle);
 	}
 
 	p {
@@ -484,15 +480,15 @@ blockquote {
 	margin: 1.5rem 0;
 	padding: 1rem 1.25rem;
 	border-radius: 10px;
-	background: var(--void-surface);
-	border: 1px solid rgba(100, 116, 139, 0.2);
+	background: var(--bg-surface);
+	border: 1px solid color-mix(in srgb, var(--text-tertiary) 20%, transparent);
 	text-decoration: none;
 	transition:
 		border-color 0.2s ease,
 		box-shadow 0.2s ease;
 
 	&:hover {
-		border-color: var(--shadow-monarch-subtle);
+		border-color: var(--primary-subtle);
 		box-shadow: 0 2px 12px rgba(0, 0, 0, 0.2);
 	}
 
@@ -545,7 +541,7 @@ blockquote {
 		padding: 0.625rem 1rem;
 		border-radius: 8px;
 		background: rgba(255, 255, 255, 0.02);
-		border-left: 3px solid var(--void-elevated);
+		border-left: 3px solid var(--bg-elevated);
 	}
 
 	&__speaker {
@@ -553,7 +549,7 @@ blockquote {
 		font-weight: 700;
 		text-transform: uppercase;
 		letter-spacing: 0.03em;
-		color: var(--shadow-monarch-lighter);
+		color: var(--primary-lighter);
 		white-space: nowrap;
 		flex-shrink: 0;
 		min-width: 5rem;
@@ -567,10 +563,10 @@ blockquote {
 
 	/* Alternate speaker gets a different accent */
 	&__line:nth-child(even) {
-		border-left-color: rgba(56, 189, 248, 0.4);
+		border-left-color: var(--secondary-subtle);
 
 		.dialogue__speaker {
-			color: #7dd3fc;
+			color: var(--secondary-light);
 		}
 	}
 
@@ -589,8 +585,8 @@ blockquote {
 	margin: 2rem 0;
 	padding: 1rem 1.25rem 1rem 3.25rem;
 	border-radius: 10px;
-	background: var(--void-surface);
-	border: 1px solid rgba(100, 116, 139, 0.15);
+	background: var(--bg-surface);
+	border: 1px solid color-mix(in srgb, var(--text-tertiary) 15%, transparent);
 	font-size: 0.9rem;
 	line-height: 1.65;
 	color: var(--text-secondary);
@@ -701,7 +697,7 @@ blockquote {
 
 			&--left {
 				border-right: none;
-				border-bottom: 1px solid rgba(100, 116, 139, 0.2);
+				border-bottom: 1px solid color-mix(in srgb, var(--text-tertiary) 20%, transparent);
 			}
 		}
 	}
@@ -759,7 +755,7 @@ blockquote {
 	}
 }
 
-/* MDSvex specific optimizations - Solo Leveling theme */
+/* MDSvex specific optimizations - Warm Tech theme */
 .blog {
 	/* Better typography for markdown content */
 	line-height: 1.7;
@@ -767,7 +763,7 @@ blockquote {
 	/* Improved paragraph spacing */
 	p {
 		margin-bottom: 1.2rem;
-		color: var(--neutral-700);
+		color: var(--text-secondary);
 	}
 
 	/* Better list styling */
@@ -775,7 +771,7 @@ blockquote {
 	ol {
 		margin: 0.5rem 0;
 		padding-left: 1rem;
-		color: var(--neutral-700);
+		color: var(--text-secondary);
 
 		li {
 			margin-bottom: 0.25rem;
@@ -785,8 +781,8 @@ blockquote {
 
 	/* Enhanced code blocks */
 	pre {
-		background-color: var(--void-abyss);
-		border: 1px solid rgba(100, 116, 139, 0.3);
+		background-color: var(--bg-base);
+		border: 1px solid color-mix(in srgb, var(--text-tertiary) 30%, transparent);
 		border-radius: 8px;
 		padding: 1rem;
 		margin: 1.5rem 0;
@@ -796,8 +792,8 @@ blockquote {
 
 	/* Inline code styling */
 	code {
-		background-color: var(--void-elevated);
-		color: var(--shadow-monarch-lighter);
+		background-color: var(--bg-elevated);
+		color: var(--primary-lighter);
 		padding: 0.2rem 0.4rem;
 		border-radius: 4px;
 		font-size: 0.9em;
@@ -811,20 +807,20 @@ blockquote {
 
 		th,
 		td {
-			border: 1px solid rgba(100, 116, 139, 0.3);
+			border: 1px solid color-mix(in srgb, var(--text-tertiary) 30%, transparent);
 			padding: 0.75rem;
 			text-align: left;
-			color: var(--neutral-800);
+			color: var(--text-secondary);
 		}
 
 		th {
-			background-color: var(--void-surface);
+			background-color: var(--bg-surface);
 			font-weight: 600;
 			color: var(--text-primary);
 		}
 
 		tr:nth-child(even) {
-			background-color: rgba(124, 58, 237, 0.05);
+			background-color: rgba(45, 212, 191, 0.05);
 		}
 	}
 }

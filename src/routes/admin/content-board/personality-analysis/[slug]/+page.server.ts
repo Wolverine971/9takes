@@ -35,13 +35,13 @@ export const load: PageServerLoad = async ({ params, locals }) => {
 		throw error(404, `Content not found for "${slug}"`);
 	}
 
-	// Fetch history separately (last 5 changes)
+	// Fetch history separately (last 3 changes)
 	const { data: history } = await supabase
 		.from('blogs_famous_people_history')
-		.select('id, changed_at, old_content, new_content')
+		.select('id, changed_at, new_content')
 		.eq('famous_people_id', data.id)
 		.order('changed_at', { ascending: false })
-		.limit(5);
+		.limit(3);
 
 	// Fetch stage from content_people
 	let stageData = null;

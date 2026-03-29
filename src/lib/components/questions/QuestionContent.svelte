@@ -101,21 +101,17 @@
 	}
 </script>
 
-<div class="w-full shadow-[0_0_40px_rgba(124,58,237,0.06)]">
+<div class="question-content-shell">
 	<!-- Tabs Navigation -->
-	<nav
-		class="scrollbar-hide flex overflow-x-auto rounded-t-xl border-b border-purple-500/15 bg-[#12121a]/90 backdrop-blur-sm"
-	>
+	<nav class="question-content-nav scrollbar-hide">
 		{#each tabs as tab}
 			{@const IconComponent = iconComponents[tab]}
 			<button
 				role="tab"
 				aria-selected={selectedTab === tab}
 				aria-controls={tab}
-				class="relative min-w-fit flex-1 cursor-pointer whitespace-nowrap border-0 bg-transparent px-6 py-3.5 text-sm font-medium text-slate-400 transition-all duration-200 hover:text-slate-200 sm:px-4 sm:py-3 {selectedTab ===
-				tab
-					? 'border-b-2 border-purple-500 text-slate-100 shadow-[0_2px_8px_rgba(124,58,237,0.3)]'
-					: ''}"
+				class="question-tab"
+				class:is-active={selectedTab === tab}
 				onclick={() => {
 					selectedTab = tab;
 					scrollToSection(tab);
@@ -147,24 +143,23 @@
 	</nav>
 
 	<!-- Tab Content -->
-	<div class="min-h-[400px] rounded-b-xl bg-[#1a1a2e]/60 backdrop-blur-sm">
+	<div class="question-content-body">
 		{#each tabs as section}
 			{#if selectedTab === section}
 				<section
 					in:fade={{ duration: 200 }}
 					id={section}
-					class={selectedTab === section ? 'block' : 'hidden'}
+					class:selected={selectedTab === section}
+					class="question-content-section"
 					aria-labelledby={`${section}-tab`}
 				>
-					<div class="py-6">
+					<div class="question-content-section-inner">
 						{#if section === 'Comments'}
 							{#if !data?.flags?.userHasAnswered}
-								<div class="flex flex-col items-center justify-center py-16">
-									<div
-										class="mb-4 flex h-16 w-16 items-center justify-center rounded-2xl bg-purple-900/30"
-									>
+								<div class="question-state question-state-locked">
+									<div class="state-icon state-icon-locked">
 										<svg
-											class="h-8 w-8 text-purple-400"
+											class="h-8 w-8 text-[var(--primary)]"
 											fill="none"
 											stroke="currentColor"
 											viewBox="0 0 24 24"
@@ -177,15 +172,12 @@
 											/>
 										</svg>
 									</div>
-									<p
-										class="text-center text-xl font-medium text-slate-100 sm:text-lg"
-										in:fade={{ duration: 200 }}
-									>
+									<p class="state-title" in:fade={{ duration: 200 }}>
 										{displayCommentCount === 0
 											? 'Be the first to share your perspective'
 											: 'Share your perspective to unlock comments'}
 									</p>
-									<p class="mt-2 text-sm text-slate-400">
+									<p class="state-copy">
 										{displayCommentCount > 0
 											? `${displayCommentCount} perspectives waiting to be revealed`
 											: 'Your unique viewpoint matters'}
@@ -194,7 +186,7 @@
 							{:else}
 								<!-- AI-Generated Comments -->
 								<AIComments data={_data} parentType={'question'} {showAiComments} />
-								<div class="mb-4 flex items-center justify-between px-4">
+								<div class="content-toolbar">
 									<SortComments
 										data={_data}
 										oncommentsSorted={sortCommentsHandler}
@@ -226,12 +218,10 @@
 										{user}
 									/>
 								{:else}
-									<div class="flex flex-col items-center justify-center py-16">
-										<div
-											class="mb-4 flex h-14 w-14 items-center justify-center rounded-2xl bg-slate-800/50"
-										>
+									<div class="question-state question-state-empty">
+										<div class="state-icon state-icon-muted">
 											<svg
-												class="h-7 w-7 text-slate-400"
+												class="h-7 w-7 text-[var(--text-secondary)]"
 												fill="none"
 												stroke="currentColor"
 												viewBox="0 0 24 24"
@@ -241,21 +231,17 @@
 													stroke-linejoin="round"
 													stroke-width="2"
 													d="M20 13V6a2 2 0 00-2-2H6a2 2 0 00-2 2v7m16 0v5a2 2 0 01-2 2H6a2 2 0 01-2-2v-5m16 0h-2.586a1 1 0 00-.707.293l-2.414 2.414a1 1 0 01-.707.293h-3.172a1 1 0 01-.707-.293l-2.414-2.414A1 1 0 006.586 13H4"
-												/>
-											</svg>
-										</div>
-										<p class="text-center text-lg font-medium text-slate-400">
-											No removed comments
-										</p>
+											/>
+										</svg>
+									</div>
+										<p class="state-title state-title-muted">No removed comments</p>
 									</div>
 								{/if}
 							{:else}
-								<div class="flex flex-col items-center justify-center py-16">
-									<div
-										class="mb-4 flex h-16 w-16 items-center justify-center rounded-2xl bg-purple-900/30"
-									>
+								<div class="question-state question-state-locked">
+									<div class="state-icon state-icon-locked">
 										<svg
-											class="h-8 w-8 text-purple-400"
+											class="h-8 w-8 text-[var(--primary)]"
 											fill="none"
 											stroke="currentColor"
 											viewBox="0 0 24 24"
@@ -268,19 +254,17 @@
 											/>
 										</svg>
 									</div>
-									<p class="text-center text-xl font-medium text-slate-100 sm:text-lg">
+									<p class="state-title">
 										Share your perspective to unlock content
 									</p>
 								</div>
 							{/if}
 						{:else if section === 'Visuals'}
 							{#if data?.flags?.userHasAnswered}
-								<div class="flex flex-col items-center justify-center py-16">
-									<div
-										class="mb-4 flex h-14 w-14 items-center justify-center rounded-2xl bg-slate-800/50"
-									>
+								<div class="question-state question-state-empty">
+									<div class="state-icon state-icon-muted">
 										<svg
-											class="h-7 w-7 text-slate-400"
+											class="h-7 w-7 text-[var(--text-secondary)]"
 											fill="none"
 											stroke="currentColor"
 											viewBox="0 0 24 24"
@@ -293,15 +277,13 @@
 											/>
 										</svg>
 									</div>
-									<p class="text-center text-lg font-medium text-slate-400">No visuals available</p>
+									<p class="state-title state-title-muted">No visuals available</p>
 								</div>
 							{:else}
-								<div class="flex flex-col items-center justify-center py-16">
-									<div
-										class="mb-4 flex h-16 w-16 items-center justify-center rounded-2xl bg-purple-900/30"
-									>
+								<div class="question-state question-state-locked">
+									<div class="state-icon state-icon-locked">
 										<svg
-											class="h-8 w-8 text-purple-400"
+											class="h-8 w-8 text-[var(--primary)]"
 											fill="none"
 											stroke="currentColor"
 											viewBox="0 0 24 24"
@@ -314,7 +296,7 @@
 											/>
 										</svg>
 									</div>
-									<p class="text-center text-xl font-medium text-slate-100 sm:text-lg">
+									<p class="state-title">
 										Share your perspective to unlock content
 									</p>
 								</div>
@@ -335,6 +317,169 @@
 </div>
 
 <style>
+	.question-content-shell {
+		position: relative;
+		overflow: hidden;
+		border: 1px solid color-mix(in srgb, var(--primary) 18%, var(--border-color));
+		border-radius: 1.35rem;
+		background:
+			linear-gradient(
+				180deg,
+				color-mix(in srgb, var(--primary-subtle) 36%, transparent) 0%,
+				transparent 18%
+			),
+			color-mix(in srgb, var(--bg-surface) 96%, transparent);
+		box-shadow: var(--shadow-md);
+		backdrop-filter: blur(14px);
+	}
+
+	.question-content-shell::before {
+		content: '';
+		position: absolute;
+		inset: 0;
+		background: radial-gradient(
+			circle at top center,
+			color-mix(in srgb, var(--primary) 10%, transparent) 0%,
+			transparent 42%
+		);
+		pointer-events: none;
+	}
+
+	.question-content-nav {
+		position: relative;
+		z-index: 1;
+		display: flex;
+		overflow-x: auto;
+		padding: 0.45rem;
+		border-bottom: 1px solid color-mix(in srgb, var(--primary) 16%, var(--border-color));
+		background: color-mix(in srgb, var(--bg-deep) 78%, transparent);
+		backdrop-filter: blur(14px);
+	}
+
+	.question-tab {
+		position: relative;
+		flex: 1 1 0;
+		min-width: fit-content;
+		padding: 0.9rem 1.15rem;
+		border: 0;
+		border-radius: 0.95rem;
+		background: transparent;
+		color: var(--text-secondary);
+		font-size: 0.9rem;
+		font-weight: 600;
+		white-space: nowrap;
+		transition:
+			color 0.2s ease,
+			background-color 0.2s ease,
+			box-shadow 0.2s ease;
+	}
+
+	.question-tab:hover {
+		color: var(--text-primary);
+		background: color-mix(in srgb, var(--primary-subtle) 32%, transparent);
+	}
+
+	.question-tab.is-active {
+		color: var(--text-primary);
+		background: color-mix(in srgb, var(--primary-subtle) 52%, transparent);
+		box-shadow:
+			inset 0 -2px 0 var(--primary),
+			var(--shadow-sm);
+	}
+
+	.question-content-body {
+		position: relative;
+		z-index: 1;
+		min-height: 22rem;
+		background: color-mix(in srgb, var(--bg-surface) 82%, transparent);
+	}
+
+	.question-content-section {
+		display: block;
+	}
+
+	.question-content-section-inner {
+		padding: 1.4rem 0 1.6rem;
+	}
+
+	.content-toolbar {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		margin-bottom: 1rem;
+		padding: 0 1rem;
+	}
+
+	.question-state {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		gap: 0.35rem;
+		max-width: 34rem;
+		margin: 0 auto;
+		padding: 2.8rem 1.25rem;
+		border-radius: 1.2rem;
+		text-align: center;
+	}
+
+	.question-state-locked {
+		border: 1px solid color-mix(in srgb, var(--primary) 22%, transparent);
+		background:
+			linear-gradient(
+				180deg,
+				color-mix(in srgb, var(--primary-subtle) 54%, transparent) 0%,
+				transparent 100%
+			),
+			color-mix(in srgb, var(--bg-surface) 90%, transparent);
+		box-shadow: var(--shadow-sm);
+	}
+
+	.question-state-empty {
+		border: 1px dashed color-mix(in srgb, var(--text-tertiary) 35%, transparent);
+		background: color-mix(in srgb, var(--bg-surface) 76%, transparent);
+	}
+
+	.state-icon {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		border-radius: 1.15rem;
+	}
+
+	.state-icon-locked {
+		width: 4rem;
+		height: 4rem;
+		margin-bottom: 0.55rem;
+		background: color-mix(in srgb, var(--primary-subtle) 62%, transparent);
+	}
+
+	.state-icon-muted {
+		width: 3.4rem;
+		height: 3.4rem;
+		margin-bottom: 0.55rem;
+		background: color-mix(in srgb, var(--bg-elevated) 68%, transparent);
+	}
+
+	.state-title {
+		margin: 0;
+		font-size: 1.12rem;
+		font-weight: 600;
+		line-height: 1.35;
+		color: var(--text-primary);
+	}
+
+	.state-title-muted {
+		color: var(--text-secondary);
+	}
+
+	.state-copy {
+		margin: 0.15rem 0 0;
+		font-size: 0.92rem;
+		line-height: 1.6;
+		color: var(--text-secondary);
+	}
+
 	/* Hide scrollbar but allow scrolling */
 	.scrollbar-hide {
 		-ms-overflow-style: none; /* IE and Edge */
@@ -343,5 +488,36 @@
 
 	.scrollbar-hide::-webkit-scrollbar {
 		display: none; /* Chrome, Safari, Opera */
+	}
+
+	@media (max-width: 640px) {
+		.question-content-shell {
+			border-radius: 1.1rem;
+		}
+
+		.question-content-nav {
+			padding: 0.35rem;
+		}
+
+		.question-tab {
+			padding: 0.8rem 0.95rem;
+		}
+
+		.question-content-section-inner {
+			padding: 1.15rem 0 1.25rem;
+		}
+
+		.content-toolbar {
+			padding: 0 0.8rem;
+		}
+
+		.question-state {
+			margin: 0 0.9rem;
+			padding: 2.2rem 1rem;
+		}
+
+		.state-title {
+			font-size: 1rem;
+		}
 	}
 </style>

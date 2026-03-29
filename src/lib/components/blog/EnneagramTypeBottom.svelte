@@ -681,10 +681,10 @@
 {/if}
 
 <style lang="scss">
-	/* Solo Leveling Dark Theme Typography */
+	/* 9takes Warm Tech Theme Typography */
 	h2 {
 		font-size: 1.8rem;
-		color: #f1f5f9;
+		color: var(--text-primary);
 		margin-top: 2.5rem;
 		margin-bottom: 1rem;
 		font-weight: 600;
@@ -692,21 +692,21 @@
 
 	h3 {
 		font-size: 1.4rem;
-		color: #e2e8f0;
+		color: var(--text-primary);
 		margin-top: 1.5rem;
 		margin-bottom: 0.75rem;
 		font-weight: 600;
 	}
 
 	p {
-		color: #cbd5e1;
+		color: var(--neutral-700);
 		line-height: 1.75;
 		margin-bottom: 1rem;
 		font-size: 1.05rem;
 	}
 
 	ul {
-		color: #cbd5e1;
+		color: var(--neutral-700);
 		margin: 1rem 0;
 		padding-left: 1.5rem;
 	}

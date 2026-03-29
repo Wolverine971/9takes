@@ -8,7 +8,7 @@
 	export let xLabel: string = '';
 	export let yLabel: string = '';
 	export let height: number = 300;
-	export let color: string = '#3b82f6';
+	export let color: string = 'var(--primary)';
 	export let showPoints: boolean = true;
 	export let showGrid: boolean = true;
 	export let showSummary: boolean = true;
@@ -52,16 +52,16 @@
 			.attr('class', 'chart-tooltip-enhanced')
 			.style('opacity', 0)
 			.style('position', 'absolute')
-			.style('background', 'rgba(15, 23, 42, 0.95)')
-			.style('color', '#f8fafc')
-			.style('border', '1px solid rgba(148, 163, 184, 0.2)')
+			.style('background', 'var(--glass-color)')
+			.style('color', 'var(--text-primary)')
+			.style('border', '1px solid var(--glass-border)')
 			.style('border-radius', '8px')
 			.style('padding', '10px 14px')
 			.style('font-size', '12px')
 			.style('font-family', 'system-ui, -apple-system, sans-serif')
 			.style('pointer-events', 'none')
 			.style('z-index', '10000')
-			.style('box-shadow', '0 10px 25px -5px rgba(0, 0, 0, 0.3)')
+			.style('box-shadow', 'var(--shadow-lg)')
 			.style('backdrop-filter', 'blur(8px)');
 		drawChart();
 	});
@@ -98,9 +98,11 @@
 		// Add gradient definition
 		const defs = svg.append('defs');
 
+		const gradientId = `area-gradient-${color.replace(/[^a-zA-Z0-9_-]/g, '') || 'primary'}`;
+
 		const gradient = defs
 			.append('linearGradient')
-			.attr('id', `area-gradient-${color.replace('#', '')}`)
+			.attr('id', gradientId)
 			.attr('x1', '0%')
 			.attr('y1', '0%')
 			.attr('x2', '0%')
@@ -171,7 +173,7 @@
 				.attr('x2', width)
 				.attr('y1', (d) => yScale(d))
 				.attr('y2', (d) => yScale(d))
-				.attr('stroke', 'var(--border-color, #e2e8f0)')
+				.attr('stroke', 'var(--border-color)')
 				.attr('stroke-width', 1)
 				.attr('opacity', 0.4)
 				.attr('stroke-dasharray', '4,4');
@@ -197,7 +199,7 @@
 			.datum(parsedData)
 			.attr('class', 'area')
 			.attr('d', area)
-			.style('fill', `url(#area-gradient-${color.replace('#', '')})`);
+			.style('fill', `url(#${gradientId})`);
 
 		// Add line with animation
 		const linePath = g
@@ -238,7 +240,7 @@
 			.call(xAxis)
 			.selectAll('text')
 			.style('font-size', '11px')
-			.style('fill', 'var(--text-secondary, #64748b)');
+			.style('fill', 'var(--text-secondary, var(--text-tertiary))');
 
 		// Add Y axis
 		const yAxis = d3.axisLeft(yScale).ticks(5).tickFormat(d3.format('.0s'));
@@ -247,11 +249,11 @@
 			.call(yAxis)
 			.selectAll('text')
 			.style('font-size', '11px')
-			.style('fill', 'var(--text-secondary, #64748b)');
+			.style('fill', 'var(--text-secondary, var(--text-tertiary))');
 
 		// Style axis lines
-		g.selectAll('.x-axis path, .y-axis path').style('stroke', 'var(--border-color, #e2e8f0)');
-		g.selectAll('.x-axis line, .y-axis line').style('stroke', 'var(--border-color, #e2e8f0)');
+		g.selectAll('.x-axis path, .y-axis path').style('stroke', 'var(--border-color)');
+		g.selectAll('.x-axis line, .y-axis line').style('stroke', 'var(--border-color)');
 
 		// Add axis labels
 		if (xLabel) {
@@ -260,7 +262,7 @@
 				.attr('transform', `translate(${width / 2}, ${chartHeight + margin.bottom - 5})`)
 				.style('text-anchor', 'middle')
 				.style('font-size', '11px')
-				.style('fill', 'var(--text-secondary, #64748b)')
+				.style('fill', 'var(--text-secondary, var(--text-tertiary))')
 				.text(xLabel);
 		}
 
@@ -273,7 +275,7 @@
 				.attr('dy', '1em')
 				.style('text-anchor', 'middle')
 				.style('font-size', '11px')
-				.style('fill', 'var(--text-secondary, #64748b)')
+				.style('fill', 'var(--text-secondary, var(--text-tertiary))')
 				.text(yLabel);
 		}
 
@@ -366,7 +368,7 @@
 				tooltip
 					.html(
 						`<div style="font-weight: 600; margin-bottom: 4px; color: ${color}">${d.y.toLocaleString()}</div>
-					 <div style="font-size: 11px; color: #94a3b8">${dateStr}</div>`
+					 <div style="font-size: 11px; color: var(--text-secondary)">${dateStr}</div>`
 					)
 					.style('left', event.pageX + 15 + 'px')
 					.style('top', event.pageY - 10 + 'px')
@@ -492,7 +494,7 @@
 	}
 
 	.trend-label {
-		color: var(--text-secondary, #64748b);
+		color: var(--text-secondary, var(--text-tertiary));
 		font-weight: 400;
 	}
 
@@ -511,19 +513,19 @@
 	}
 
 	.summary-stat.highlight .summary-value {
-		color: var(--accent-color, var(--primary, #3b82f6));
+		color: var(--accent-color, var(--primary));
 	}
 
 	.summary-value {
 		font-size: 1.125rem;
 		font-weight: 700;
-		color: var(--text-primary, #1e293b);
+		color: var(--text-primary);
 		line-height: 1.2;
 	}
 
 	.summary-label {
 		font-size: 0.7rem;
-		color: var(--text-secondary, #64748b);
+		color: var(--text-secondary, var(--text-tertiary));
 		text-transform: uppercase;
 		letter-spacing: 0.5px;
 	}

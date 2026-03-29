@@ -105,10 +105,10 @@
 		display: block;
 		height: 100%;
 		min-height: 200px;
-		background-color: var(--void-surface);
+		background-color: var(--bg-surface);
 		background-size: cover;
 		background-position: center;
-		border: 1px solid rgba(100, 116, 139, 0.3);
+		border: 1px solid color-mix(in srgb, var(--text-tertiary) 30%, transparent);
 		border-radius: 12px;
 		overflow: hidden;
 		text-decoration: none;
@@ -116,8 +116,8 @@
 
 		&:hover,
 		&:focus {
-			border-color: var(--shadow-monarch);
-			box-shadow: 0 0 25px rgba(124, 58, 237, 0.3);
+			border-color: var(--primary);
+			box-shadow: 0 0 25px rgba(45, 212, 191, 0.3);
 			outline: none;
 			transform: translateY(-3px);
 		}

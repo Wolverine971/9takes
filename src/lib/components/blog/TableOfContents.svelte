@@ -758,10 +758,10 @@
 <style lang="scss">
 	.toc-sidebar {
 		/* Card base styles - Solo Leveling dark theme */
-		background-color: var(--void-deep);
+		background-color: var(--bg-deep);
 		border-radius: 12px;
-		box-shadow: 0 0 20px rgba(124, 58, 237, 0.15);
-		border: 1px solid rgba(100, 116, 139, 0.3);
+		box-shadow: 0 0 20px rgba(45, 212, 191, 0.15);
+		border: 1px solid color-mix(in srgb, var(--text-tertiary) 30%, transparent);
 
 		position: fixed;
 		top: 50%;
@@ -785,11 +785,11 @@
 		}
 
 		&::-webkit-scrollbar-thumb {
-			background-color: rgba(124, 58, 237, 0.3);
+			background-color: rgba(45, 212, 191, 0.3);
 			border-radius: 3px;
 
 			&:hover {
-				background-color: rgba(124, 58, 237, 0.5);
+				background-color: rgba(45, 212, 191, 0.5);
 			}
 		}
 
@@ -806,7 +806,7 @@
 		font-weight: 600;
 		line-height: 1.4;
 		color: var(--text-primary);
-		border-bottom: 1px solid rgba(100, 116, 139, 0.3);
+		border-bottom: 1px solid color-mix(in srgb, var(--text-tertiary) 30%, transparent);
 	}
 
 	.toc-nav-wrapper {
@@ -815,10 +815,10 @@
 
 	.toc-accordion {
 		/* Card base styles - Solo Leveling dark theme */
-		background-color: var(--void-deep);
+		background-color: var(--bg-deep);
 		border-radius: 12px;
-		box-shadow: 0 0 15px rgba(124, 58, 237, 0.1);
-		border: 1px solid rgba(100, 116, 139, 0.3);
+		box-shadow: 0 0 15px rgba(45, 212, 191, 0.1);
+		border: 1px solid color-mix(in srgb, var(--text-tertiary) 30%, transparent);
 
 		margin: 1rem 0;
 		overflow: hidden;
@@ -833,9 +833,9 @@
 		align-items: center;
 		outline: none;
 		color: var(--text-primary);
-		background-color: var(--void-surface);
+		background-color: var(--bg-surface);
 		transition: all 0.2s ease;
-		border-bottom: 1px solid rgba(100, 116, 139, 0.3);
+		border-bottom: 1px solid color-mix(in srgb, var(--text-tertiary) 30%, transparent);
 
 		&::-webkit-details-marker {
 			display: none;
@@ -847,12 +847,12 @@
 			margin-right: 0.5rem;
 			font-size: 0.75rem;
 			transition: all 0.2s ease;
-			color: var(--shadow-monarch);
+			color: var(--primary);
 		}
 
 		&:hover {
-			color: var(--shadow-monarch-lighter);
-			background-color: rgba(124, 58, 237, 0.1);
+			color: var(--primary-lighter);
+			background-color: rgba(45, 212, 191, 0.1);
 		}
 	}
 
@@ -863,7 +863,7 @@
 
 	.toc-accordion-content {
 		padding: 0.625rem 1rem;
-		background-color: var(--void-deep);
+		background-color: var(--bg-deep);
 	}
 
 	/* Global styles for ToC elements */
@@ -880,7 +880,7 @@
 	:global(.toc-sublist) {
 		padding-left: 0.75rem;
 		margin-top: 0.125rem;
-		border-left: 2px solid rgba(124, 58, 237, 0.3);
+		border-left: 2px solid rgba(45, 212, 191, 0.3);
 		margin-left: 0.35rem;
 	}
 
@@ -949,14 +949,14 @@
 		box-sizing: border-box;
 		font-size: 0.875rem;
 		line-height: 1.4;
-		color: var(--shadow-monarch-lighter);
+		color: var(--primary-lighter);
 		text-decoration: none;
 		border-radius: 4px;
 		transition: all 0.2s ease;
 
 		&:hover {
-			color: var(--shadow-monarch-lightest);
-			background-color: rgba(124, 58, 237, 0.15);
+			color: var(--primary-lightest);
+			background-color: rgba(45, 212, 191, 0.15);
 			text-decoration: none;
 		}
 
@@ -970,7 +970,7 @@
 	:global(.toc-link.active) {
 		font-weight: 600;
 		color: var(--text-primary);
-		background-color: rgba(124, 58, 237, 0.2);
+		background-color: rgba(45, 212, 191, 0.2);
 	}
 
 	/* Responsive adjustments - hide sidebar on screens smaller than breakpoint */
