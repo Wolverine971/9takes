@@ -3,15 +3,15 @@
   xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://9takes.com</loc>
-    <lastmod>2026-03-28</lastmod>
+    <lastmod>2026-03-29</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/about</loc>
-    <lastmod>2026-03-28</lastmod>
+    <lastmod>2026-03-29</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/blog</loc>
-    <lastmod>2026-03-28</lastmod>
+    <lastmod>2026-03-29</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/blog/experiment</loc>
@@ -23,7 +23,7 @@
   </url>
   <url>
     <loc>https://9takes.com/community</loc>
-    <lastmod>2026-03-28</lastmod>
+    <lastmod>2026-03-29</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/community/consensus-on-human-nature</loc>
@@ -132,7 +132,7 @@
   </url>
   <url>
     <loc>https://9takes.com/enneagram-corner</loc>
-    <lastmod>2026-03-28</lastmod>
+    <lastmod>2026-03-29</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/enneagram-corner/90-day-personality-maxing-blueprint</loc>
@@ -599,7 +599,7 @@
   </url>
   <url>
     <loc>https://9takes.com/enneagram-corner/mental-health</loc>
-    <lastmod>2026-03-28</lastmod>
+    <lastmod>2026-03-29</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/enneagram-corner/mental-health/enneagram-addiction-recovery-guide</loc>
@@ -655,6 +655,13 @@
     <lastmod>2026-03-10</lastmod>
     <image:image>
       <image:loc>https://9takes.com/blogs/greek-statues-in-a-progression.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://9takes.com/enneagram-corner/mental-health/enneagram-therapy-resistance-guide</loc>
+    <lastmod>2026-03-28</lastmod>
+    <image:image>
+      <image:loc>https://9takes.com/blogs/greek-statue-looking-away-therapy.webp</image:loc>
     </image:image>
   </url>
   <url>
@@ -799,7 +806,7 @@
   </url>
   <url>
     <loc>https://9takes.com/how-to-guides</loc>
-    <lastmod>2026-03-28</lastmod>
+    <lastmod>2026-03-29</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/how-to-guides/5-tough-conversations-you-need-to-have-with-your-partner</loc>
@@ -880,7 +887,7 @@
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis</loc>
-    <lastmod>2026-03-28</lastmod>
+    <lastmod>2026-03-29</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/abraham-lincoln</loc>
@@ -1157,35 +1164,35 @@
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/categories</loc>
-    <lastmod>2026-03-28</lastmod>
+    <lastmod>2026-03-29</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/categories/authors-thinkers</loc>
-    <lastmod>2026-03-28</lastmod>
+    <lastmod>2026-03-29</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/categories/comedy</loc>
-    <lastmod>2026-03-28</lastmod>
+    <lastmod>2026-03-29</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/categories/creator-media</loc>
-    <lastmod>2026-03-28</lastmod>
+    <lastmod>2026-03-29</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/categories/film-tv</loc>
-    <lastmod>2026-03-28</lastmod>
+    <lastmod>2026-03-29</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/categories/music</loc>
-    <lastmod>2026-03-28</lastmod>
+    <lastmod>2026-03-29</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/categories/politics-public</loc>
-    <lastmod>2026-03-28</lastmod>
+    <lastmod>2026-03-29</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/categories/tech-business</loc>
-    <lastmod>2026-03-28</lastmod>
+    <lastmod>2026-03-29</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/chamath-palihapitiya</loc>
@@ -2874,7 +2881,7 @@
   </url>
   <url>
     <loc>https://9takes.com/questions</loc>
-    <lastmod>2026-03-28</lastmod>
+    <lastmod>2026-03-29</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/questions/advice-18-year-old-wants-go-college-doesnt-know-wants</loc>

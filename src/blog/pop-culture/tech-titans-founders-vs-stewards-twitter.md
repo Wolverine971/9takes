@@ -1,13 +1,25 @@
+<!-- src/blog/pop-culture/tech-titans-founders-vs-stewards-twitter.md -->
+
 # Twitter Drafts: Founders vs Stewards
 
-## Option 1 (Pattern reveal — curiosity hook)
+## Option 1 (Pattern reveal — 2-part thread)
+
+### Part 1 (232 chars)
+
+Doing a series on the personality types of people in tech.
+
+First up: CEO successions.
 
 Apple replaced a Type 1 with a Type 1.
 Microsoft replaced a Type 5 with a Type 5.
 Amazon replaced an 8 with a 3.
 Google replaced its founders with a Type 9.
 
+### Part 2 (204 chars)
+
 The successor's personality type tells you more about a company's future than any earnings call.
+
+Four successions. One pattern nobody talks about.
 
 🔗 9takes.com/pop-culture/tech-titans-founders-vs-stewards
 
