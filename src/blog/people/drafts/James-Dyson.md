@@ -72,7 +72,7 @@ This is the sentence that cracks James Dyson open. Not the prototype counts, not
 
 "Difference itself was making me come first."
 
-He wasn't running away from grief. He was running toward something he could control — his own body, his own pain threshold, his own refusal to stop. The lesson he took from those dunes would become the operating system of his entire life: "When everyone else feels exhausted, that is the opportunity to accelerate, whatever the pain, and win the race."
+He wasn't running away from grief. He was running toward something he could control — his own body, his own pain threshold, his own refusal to stop. The inner critic that would later demand thousands of prototypes was already running — just in a different form. The lesson he took from those dunes would become the operating system of his entire life: "When everyone else feels exhausted, that is the opportunity to accelerate, whatever the pain, and win the race."
 
 ---
 
@@ -261,6 +261,8 @@ After the vacuum came the Airblade hand dryer — discovered accidentally when e
 
 "I don't mind failure. I've always thought that schoolchildren should be marked by the number of failures they've had."
 
+Inside the company, this philosophy isn't abstract. Dyson walks the engineering floors at Malmesbury, picks up prototypes, and interrogates his engineers about every design choice — why this material, why this angle, why not the other approach. He hires graduates over experienced engineers, preferring someone who doesn't know what's "impossible" to an expert who's certain it can't be done. The inner critic that scans his own work scans theirs too. It's demanding and relentless, and it's the reason the company files more patents per employee than almost any firm in Britain.
+
 And then, in 2017, the electric car.
 
 Dyson committed to building a radical seven-seat electric SUV with a 600-mile range and wheels nearly a meter in diameter. He hired hundreds of engineers. He built prototypes. He sank half a billion pounds of his own money into it.
@@ -273,7 +275,9 @@ The economics didn't work. Established carmakers could sell EVs at a loss and of
 
 For a man who'd spent his life proving that better things could be built, this was the counter-evidence. Some broken things stay broken — not because you can't build the solution, but because the system won't let it exist.
 
-The same year, Dyson — who'd loudly championed Brexit as a path to British economic independence — moved his company's global headquarters to Singapore. The backlash was immediate and brutal. "Hypocrite" became the word that followed him through the British press. He sued a newspaper for calling him one. He lost.
+It wasn't his first collision with public opinion. In 2002, Dyson had moved all manufacturing from Malmesbury to Malaysia, cutting 800 UK jobs. The backlash was severe — the man with the knighthood for British manufacturing was shipping British jobs overseas. His argument was pure Type 1 logic: the product required it. Manufacturing costs in Britain were making the company uncompetitive, and the alternative wasn't keeping jobs in Wiltshire — it was the company going under. He reinvested the savings into R&D and eventually employed more people in the UK than before, though in engineering roles, not on the factory floor. The distinction mattered to Dyson. It did not matter to the workers he laid off.
+
+Then came a bigger collision. In 2019 — the same year he killed the car — Dyson moved the company's global headquarters to Singapore. This from the man who had loudly championed Brexit as a path to British economic independence. "Hypocrite" became the word that followed him through the British press. He sued a newspaper for calling him one. He lost.
 
 When asked recently whether Brexit was worth it even if it made people poorer, he said yes. It was better to be "independent."
 
@@ -285,44 +289,16 @@ That word again. The same word from the nine-year-old at Holt Railway Station. "
 
 James Dyson is 78. He remains the chief engineer and sole owner of a company generating over £7 billion in annual revenue. He's one of Britain's largest landowners, with 36,000 acres across four counties. He holds a knighthood, a CBE, a Fellowship of the Royal Society, and the Order of Merit — personally bestowed by Queen Elizabeth, one of the highest honors in the British system.
 
+The question everyone asks about a 78-year-old sole owner is: what happens next? His son Jake — who ran his own lighting company for a decade before joining Dyson as chief engineer — is the obvious answer. His son Sam runs the family's farming empire. His daughter Emily works in design. The company brought in a professional CEO in 2022. The structure looks like what it is: a family trust that will outlast its founder, run by the children of a man who lost his own father at nine and spent his life making sure nothing important could be taken away again.
+
 None of it has made him satisfied. He has said as much:
 
 "You must never be satisfied. Always be dissatisfied, always be unhappy about your product. Keep on making it better and better — a sort of life of unhappiness."
 
-"I have got to the point where I worry if everything is going smoothly."
-
-"I like failure. I like having to try and try all the time. Some things take years to get right... Then when you've made it work, you don't sit back and have a glass of champagne. You get on to the next thing."
-
 He wanted to title his autobiography _A Life of Failure_. The publisher talked him out of it. But the instinct is revealing. After all the success — the billions, the honors, the vindication — the word he reaches for to describe his life is the one that kept him going. Not triumph. Not genius. Failure.
 
-The same dissatisfaction that drove him to make 5,127 prototypes is the one thing he's never been able to redesign out of himself. And he wouldn't want to. Because for Dyson, the itch isn't a flaw. It's the whole engine.
+The same dissatisfaction that drove him into that freezing coach house is the one thing he's never been able to redesign out of himself. And he wouldn't want to. Because for Dyson, the itch isn't a flaw. It's the whole engine.
 
 "For vision, one might equally well read stubbornness. I am claiming nothing but the virtues of a mule."
 
 He has been making things and finding them insufficient for over fifty years. The son who taught himself to use the lathe. The washing machine he calls his "favorite failure." The electric car that cost half a billion pounds and never carried a passenger. The vacuum cleaner that took 14 years and now outsells everything that rejected it. Every one of them a small proof of a thesis that a nine-year-old orphan needed to be true: broken things can be fixed. And every one of them, once fixed, revealing the next thing that's wrong.
-
-<!--
-READER FEEDBACK — delete this block before publishing
-
-## What's strong
-- The opening with his father at Holt Railway Station is genuinely moving and sets the emotional throughline for the whole piece. That's your best structural decision — everything flows from that scene.
-- The Deirdre section is the emotional heart. "Life drawing in the kitchen while he's in the shed on prototype 3,000" is the kind of image that sticks with people. Good instinct to give her a full section.
-- The bank manager asking his wife about vacuum bags is a perfect detail. It breaks the tension at exactly the right moment.
-
-## What's missing or could be expanded
-- **His kids and the company succession question.** He has three children. Jake runs the company day-to-day. Sam heads the farming operations. Emily does design work. For a piece about a 78-year-old sole owner of a multi-billion pound company, the "what happens next" question is conspicuously absent. Even a paragraph would round this out — especially since the father-son theme is so central.
-- **The labor/manufacturing controversy.** You mention moving HQ to Singapore and the Brexit hypocrisy angle, but you skip the earlier move of manufacturing to Malaysia in 2002, which cut 800 UK jobs. That was the first big public backlash against him. Including it would make the Singapore move feel less like an isolated incident and more like a pattern — which actually supports the Type 1 reading (prioritizing "what's right for the product" over public sentiment).
-- **His relationship with employees/engineers.** You paint a picture of a lone wolf, but Dyson employs thousands of engineers. What's he actually like to work for? There are accounts of him being extremely demanding, walking the floor, questioning every decision. That's textbook Type 1 behavior and it's missing.
-
-## What's overdone or could be trimmed
-- The "anger" / "frustration" / "dissatisfaction" quotes start to stack up and blur together in the second half. You make the point clearly by the Enneagram section — the three consecutive quotes in "How It Ends" ("You must never be satisfied..." / "I have got to the point..." / "I like failure...") say roughly the same thing. Pick the strongest one and cut the other two.
-- The 5,127 number appears five times. It's a great number but by the fourth mention it starts to feel like a crutch. You could cut at least two references without losing anything.
-- The "independence" callback at the end of the Brexit section is effective, but you've already made that exact connection ("alone against the world" → adult behavior) at least twice before. The third time it lands softer, not harder.
-
-## Structural note
-- The piece is front-loaded with biography and back-loaded with Enneagram analysis. That works for the most part, but the "What is James Dyson's personality type?" section feels like it arrives late and then has to re-explain things the reader already absorbed through the narrative. Consider threading the Type 1 observations into the biographical sections as you go (brief asides, not full analysis) so the formal Enneagram section can be shorter and more of a "here's the framework for what you just read" rather than restating evidence.
-
-## Minor things
-- "One account says he broke into the sawmill at night to measure it." — This is a great detail but it's vague. If you can source it, commit to it. If you can't, cut it. "One account says" weakens the surrounding paragraphs which are otherwise well-sourced.
-- The "contrast-panel" HTML component comparing "what the public sees" vs "what actually happened" is a nice touch visually but the content is a bit generic. The "quantum leap" framing is fine but you could make the contrast sharper with more specific details.
--->

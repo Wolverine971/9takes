@@ -74,7 +74,7 @@ He got into Yale. Applied to 12 schools, got into 11. Harvard said no.
 
 "Didn't get into Harvard," he mentioned once, casually, the way someone mentions a pothole they stepped around on the way to work.
 
-At Yale he majored in political science. He joined the Black Student Alliance. He made a friend named Justin Kan. And at some point during those four years, he built the life plan — the one about money, family, and politics — that he would quietly follow for the next two decades.
+At Yale he majored in political science. He joined the Black Student Alliance. And he met a physics and philosophy major named Justin Kan — whom he initially found annoying and actively avoided. "The entire time Justin and I were in school together I thought he was annoying and didn't want to be friends with him," he later admitted. "But we just became friends." And at some point during those four years, he built the life plan — the one about money, family, and politics — that he would quietly follow for the next two decades.
 
 But Yale wasn't smooth. He got kicked out for poor attendance. The institution told him, in essence, that he didn't belong. He came back, furious, and earned strong grades.
 
@@ -84,7 +84,7 @@ After graduation, he did exactly what a political science major with a plan shou
 
 Mfume lost the Democratic primary to Ben Cardin.
 
-Then Justin Kan called.
+Then Justin Kan called. He and Emmett Shear were driving cross-country to California to start a new company. Seibel — reeling from the campaign loss, looking for a break — essentially invited himself on the road trip.
 
 ## The Detour That Lasted Twenty Years
 
@@ -102,9 +102,7 @@ Justin.tv nearly died five separate times over five years. "On 5 separate occasi
 
 By 2010, Justin.tv was profitable but directionless. Then they noticed something. The gaming streams on Justin.tv were growing faster than everything else. Emmett Shear spun that section off as Twitch.tv. It launched at E3 in 2011.
 
-Seibel stepped down as CEO to build Socialcam. He sold it to Autodesk for $60 million in 2012. Two years later, under Emmett Shear's leadership, Twitch sold to Amazon for $970 million.
-
-The twenties were complete. Money: made.
+Seibel stepped down as CEO to build Socialcam, selling it to Autodesk in 2012. Two years later, under Emmett Shear's leadership, Twitch sold to Amazon. Between the two exits, Seibel had more than fulfilled the first phase of his life plan. He was 30.
 
 ---
 
@@ -146,7 +144,7 @@ The evidence for Type 1 runs deeper than the career arc.
 
 - **The anti-self-deception crusade.** "The beautiful thing about founders is their ability to lie to themselves, and the number one thing they lie about is whether they have product-market fit," Seibel said. "The great founders, limit the amount they lie." This obsession with honesty over comfort is quintessentially One.
 
-- **The systematic self-improvement.** He lost 50 pounds through two-minute daily habits. Not a dramatic transformation story. Not a fitness influencer arc. Just a man who identified what was wrong, built a system to fix it, and executed it quietly. The same way he approaches everything.
+- **The systematic self-improvement.** He lost 50 pounds in under a year through two-minute daily habits — a method he picked up from Justin Kan. Not a dramatic transformation story. A man who identified what was wrong, adopted a system to fix it, and executed it quietly until the problem was gone. The same way he approaches everything.
 
 - **The principled refusal to play favorites.** "I want every minority founder that goes to YC, to be in the top 20% of the batch," he said. "I want every minority founder to have such a good team, so much growth, such a big market that investors look like idiots if they let race get in the way." He doesn't want the bar lowered. He wants people lifted to the bar. The standard is the standard.
 
@@ -188,31 +186,29 @@ In 2025, Seibel posted what reads like a dispatch from someone who has finally f
 
 And a bonus: "Your reputation is not what people say to your face — it's what people say behind your back."
 
-These aren't startup lessons. These are the convictions of someone who spent two decades watching powerful people deceive themselves and others, and who never stopped being offended by it.
+Read those again. Those aren't startup lessons.
 
 When asked who his heroes are, Seibel gave what he called "a bad answer."
 
 "Nobody."
 
-Not modesty. Precision. A One doesn't worship people. They measure people against principles. And everyone falls short — including, especially, themselves.
+Let that sit. The man who mentored thousands of founders, who built billion-dollar companies, who read 17,000 applications looking for the honest ones — has no heroes. Not because he hasn't met impressive people. Because he measures people against principles. And everyone falls short — including, especially, himself.
 
 ---
 
 ## The Departure
 
-In January 2023, Y Combinator named Garry Tan as president and CEO. The move surprised some YC employees who believed Seibel was next in line for the role. He had been running the Core unit since 2016. He had built the modern YC interview process. He had mentored more companies than almost anyone in the organization's history.
+In January 2023, Y Combinator named Garry Tan — who had been running a separate venture fund outside YC — as president and CEO. The move surprised some YC employees who believed Seibel was next in line. He had been running the Core unit since 2016. He had built the modern YC interview process. He had mentored more companies than almost anyone in the organization's history.
 
-He didn't get the job.
+He didn't get the job. When Steven Levy asked him about it for Wired, Seibel said he "did not feel disappointed" — but would have accepted the role if offered. That's a precise distinction. Not bitterness. Not indifference. Acknowledgment without grievance.
 
-In March 2024, Seibel announced he was stepping down from leadership to return to a partner role. In March 2025, he transitioned to Partner Emeritus — essentially, an honored alumni position that lets him keep doing office hours while freeing him to pursue "new adventures."
+In March 2024, he stepped down from leadership to return to a partner role. In March 2025, he transitioned to Partner Emeritus — an honored position that lets him keep doing office hours while freeing him to pursue what he called "new adventures."
 
-He didn't fight. He didn't give bitter interviews. He didn't start a rival accelerator. He left the way a Type 1 leaves when the institution no longer needs their reform: quietly, with the work as its own justification.
+He didn't fight. He didn't give bitter interviews. He didn't start a rival accelerator.
 
 "Government was the passion of my youth," he said, "and I'm excited to reengage."
 
-There it is. The plan. Twenty years later, still intact. Still being executed.
-
-His CooksLarder.com is still up. His son's app recommendations site is still maintained. He still sleeps from sometime between 11 PM and 1 AM to sometime between 6:30 and 8 AM. He still skips breakfast most days, heating up leftovers when he doesn't.
+Back in 2017, when an interviewer asked directly about running for office, Seibel hedged: "We'll see what kind of country we have by the time I'm interested in running." He added: "I used to say definitely, though." By September 2025, he was in Washington helping Promise — a YC-backed GovTech company — with recruitment, and hosting events about using data and AI to reimagine access to government services. Whether that means a campaign, a policy role, or civic tech, he hasn't said. But his original life plan was specific: "Run for something and do politics."
 
 <div class="iframe-container">
 <iframe width="560" height="315" loading="lazy" src="https://www.youtube.com/embed/ZtfTOuEHmtI?si=4lC2dMDM7FFZdNpW" title="Michael Seibel – Building Product" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
@@ -232,34 +228,6 @@ He didn't spend 10 years discovering. He knew at 22 what he wanted. He just need
 
 "When those people just emailed me a question, I would just answer," he said about helping early Airbnb founders. "Don't raise the stakes of a new relationship. Just ask for help."
 
-The man who read 17,000 applications wasn't looking for the best pitch. He was looking for the most honest one. And the most honest pitch he ever gave was the one he made to himself at 22 — the plan about money, family, and politics — that he executed with the patience of someone who understood that the right thing done slowly is still the right thing.
+All those years of reading applications, he wasn't looking for the best pitch. He was looking for the most honest one. And the most honest pitch he ever gave was the one he made to himself at 22 — the plan about money, family, and politics — that he executed with the patience of someone who understood that the right thing done slowly is still the right thing.
 
 He is 43 now. The forties have arrived. And the system he has always wanted to fix is still broken, still waiting, still making him angry enough to try.
-
-<!--
-REVIEW NOTES — reader perspective
-
-WHAT WORKS:
-- The life plan as a framing device is genuinely compelling. Opening and closing with it gives the whole piece a satisfying arc. That's the hook that keeps me reading.
-- The "professional hater" section is the strongest part. The John Sillings anecdotes make Seibel feel real — the "clock starts ticking" detail and the 25 pivot ideas from memory are the kind of specifics that stick.
-- The bluntness-as-care tension is well handled. You don't oversell it.
-
-WHAT TO EXPAND:
-- The politics pivot at the end feels thin. He's leaving YC to go fix government — but doing what exactly? Even a sentence or two about what kind of government work he's interested in (policy? running for office? civic tech?) would make the ending land harder. Right now "reengage" is vague and the reader is left guessing.
-- The Garry Tan section feels like it's holding back. You hint that he was passed over and that it surprised people, but then you move on fast. Was there tension? Did he see it coming? Even acknowledging that we don't know would be more satisfying than the quick gloss.
-- His relationship with Justin Kan could use one more beat. They co-founded a company together, Kan coined the "professional hater" nickname — but I don't get a sense of what that friendship actually looked like day to day or how it evolved.
-
-WHAT FELT OVERDONE / COULD BE TRIMMED:
-- The "Money: made" / "Family: built" callback structure is effective the first two times but starts to feel like a tic. The third one ("The twenties were complete. Money: made.") repeats what you already established in the intro. Cut or vary it.
-- The paragraph about CooksLarder.com and the iOS apps site feels like filler in the Departure section. It was already mentioned up top. Listing his sleep schedule and breakfast habits reads like padding — unless you're making a point about routine as a Type 1 trait, which you don't explicitly connect.
-- The Type 1 evidence bullet list is solid but the "systematic self-improvement" bullet (losing 50 pounds) feels disconnected. It drops in without setup or payoff. Either weave it into a section where it flows naturally or cut it.
-
-DUPLICATE INFO:
-- The $970M Twitch sale and $60M Socialcam sale are mentioned in both the intro and the "Detour" section. The intro version is tight enough — the second mention in the Detour section could just reference it briefly instead of restating the numbers.
-- "17,000 applications" appears in the stats section and again in the closing. Fine as a callback in the closing but you could vary the phrasing to make it feel intentional rather than repetitive.
-
-MINOR:
-- "Applied to 12 schools, got into 11. Harvard said no." — great line, don't touch it.
-- The quote block of 5 lessons is strong but the paragraph after it ("These aren't startup lessons...") over-explains what the reader already gets. Trust the quotes more.
-- The "Nobody" heroes answer is a killer detail. Consider giving it a beat more space rather than immediately interpreting it with the Type 1 framing. Let it breathe.
--->

@@ -42,7 +42,7 @@ That moment contains his entire psychology. The conviction that perfection is a 
 
 And yet.
 
-The same man who demanded beauty inside a sealed box lived for years in a nearly furniture-less 30-room mansion. The greatest designer of his generation couldn't commit to choosing a couch. He spent eight years deciding on a washing machine.
+The same man who demanded beauty inside a sealed box lived for years in a nearly furniture-less 30-room mansion. The greatest designer of his generation couldn't commit to choosing a couch. His wife later said they discussed furniture "in theory for eight years."
 
 The man who built the most human-friendly technology in history was, by nearly all accounts, one of the least humane people in the room. He could weep over a CD tray being the wrong shape and not weep over his daughter growing up without him.
 
@@ -53,7 +53,7 @@ That gap — between the perfection he demanded from objects and the imperfectio
 <div class="panel">
 <ul>
 <li><b>The abandoned perfectionist:</b> A child who was given away spent his life proving that everything he touched could be flawless</li>
-<li><b>The inner courtroom:</b> His binary thinking — "hero or bozo," "amazing or shit" — was a moral judge running 24/7</li>
+<li><b>The purity trap:</b> He delayed cancer surgery for nine months seeking a purer, more correct path than the scalpel</li>
 <li><b>Zen without compassion:</b> He mastered the aesthetic of Buddhism but never the emotional core</li>
 <li><b>The Lisa paradox:</b> He named a computer after the daughter he refused to claim</li>
 <li><b>The carpenter's back:</b> The same standard that produced beautiful products produced painful relationships</li>
@@ -81,6 +81,10 @@ The lesson crystallized: invisible quality is a moral test. You reveal who you r
 
 A child who was given away. A father who taught him that the back of the cabinet matters. These two facts produced Steve Jobs.
 
+Years later, through his biological sister Mona Simpson, he learned something strange. His birth father, Abdulfattah Jandali, had been running a Mediterranean restaurant in Silicon Valley — one Jobs had eaten at more than once. He'd even met the owner and shaken his hand. Neither man knew who the other was. Jandali had bragged to Mona: "Even Steve Jobs used to eat there. Yeah, he was a great tipper."
+
+When Mona told Steve, he was unmoved. "I learned a little bit about him and I didn't like what I learned." He refused to pursue contact. The abandoned child, now famous, chose not to claim the father who hadn't claimed him.
+
 ---
 
 ## The Inner Courtroom at Infinite Loop
@@ -103,9 +107,7 @@ The reality distortion field wasn't manipulation. It was the overflow of an inne
 
 And then there were the tears.
 
-Steve Jobs cried. A lot. In front of engineers, in front of executives, in parking lots, in boardrooms. He cried when the iMac team installed CD trays instead of the CD slots he'd envisioned. He cried when Wozniak's father challenged him about equity. He cried when things weren't right and he cried when things were perfect and he cried when he was angry and he cried when he apologized for being angry.
-
-John Sculley, the CEO who would eventually push him out, noted: "He was an incredibly emotional person." So many people loved working for him despite how difficult he was — _because_ of his emotional nature.
+Steve Jobs cried. A lot. He wept when the iMac team installed CD trays instead of the CD slots he'd envisioned. He cried when Wozniak's father challenged him about equity. John Sculley, the CEO who would eventually push him out, noted simply: "He was an incredibly emotional person."
 
 This was not the cold strategist of popular imagination. This was a man whose inner world operated at such voltage that it leaked constantly. The anger, the tears, the searing silences — they were all the same current running through different outlets.
 
@@ -123,17 +125,19 @@ For most Type 1s, this produces a meticulous accountant or a tight-lipped school
 
 The evidence is structural, not superficial:
 
-- **Binary moral thinking.** Hero or bozo. Amazing or shit. The 1's inner courtroom operates in verdicts, not nuance.
+- **Binary moral reasoning.** The absolute verdicts described above — the 1's inner courtroom doesn't deal in nuance or degrees. You are brilliant or you are worthless. The product is perfect or it is garbage.
 - **Anger as the core emotion.** Type 1 sits in the body/gut triad, where the dominant emotion is anger. Jobs's anger wasn't strategic — that's [Type 8](/enneagram-corner/enneagram-type-8). It was moral outrage at imperfection. He raged because things _should be better_ and people _should care more_.
-- **The invisible standard.** The back of the cabinet. The inside of the motherboard. The hallmark of a 1 is standards that exist independent of anyone's awareness of them. Perfection isn't for the audience. It's for the principle.
+- **Standards without observers.** A 1's definition of quality doesn't require an audience. The principle exists whether or not anyone checks. Jobs spent resources making invisible circuit boards beautiful — not for customers, but because anything less would be _wrong_.
 - **Physical intensity.** Type 1 is a body type. Jobs taught himself to stare without blinking. His silences were as devastating as his rants. Isaacson wrote that "his intensity" was "his most salient trait."
 - **Zen Buddhism.** 1s are drawn to systems of purity and order. Jobs practiced Zen for decades, sitting zazen with his teacher Kobun Chino Otogawa. The minimalism, the simplicity, the "beginner's mind" — these are a 1's spiritual home.
 
 **Under stress, Type 1s disintegrate toward [Type 4](/enneagram-corner/enneagram-type-4)** — becoming moody, dramatic, withdrawn, and convinced that nobody understands them. Jobs's wilderness years after being forced out of Apple in 1985 were a textbook [stress disintegration](/enneagram-corner/enneagram-types-in-stress): isolated, melancholic, sitting on a mattress in an empty mansion, calling friends late at night, convinced the world had failed to appreciate him.
 
-**At their healthiest, Type 1s integrate toward Type 7** — becoming spontaneous, joyful, playful, and able to find delight in imperfection. The "One more thing" showmanship. The childlike wonder when revealing a new product. The playfulness of Pixar. When Jobs was at his best, the inner critic quieted just enough to let wonder in.
+**At their healthiest, Type 1s integrate toward Type 7** — becoming spontaneous, joyful, and able to find delight in imperfection. Watch any keynote where Jobs pulls an iPod from his jeans pocket or reveals the iPhone for the first time. The grin is genuine. The showmanship of "one more thing" wasn't performance — it was a man whose inner critic had quieted just enough to let wonder in.
 
-**His wing: 1w9 (The Idealist).** The 9 wing gives Jobs his withdrawn quality, his philosophical bent, his preference for building worlds over correcting people — though he did plenty of correcting too. The nearly furniture-less house was the 9's inertia merged with the 1's impossible standards: if you can't have the perfect couch, you have no couch for eight years.
+**His wing: 1w9 (The Idealist).** The 9 wing gives Jobs his withdrawn quality, his philosophical bent, his preference for building worlds over correcting people — though he did plenty of correcting too. The nearly furniture-less house was the 9's inertia merged with the 1's impossible standards: if you can't have the perfect couch, you have no couch.
+
+**Why not [Type 3](/enneagram-corner/enneagram-type-3), the Achiever?** Both types drive toward excellence, but the engine is different. A 3 performs for the audience — they want to _appear_ successful. Jobs demanded perfection inside a sealed box where no audience existed. A 3 manages relationships strategically. Jobs called people "bozos" to their faces, berated waitresses, alienated teams. He wasn't curating an image; he was prosecuting a standard. When Apple was struggling in 1997, an ad agency pitched the slogan "We're back." A 3 would have seized it — great narrative management. Jobs rejected it because it wasn't _true_ yet. The distinction matters: Jobs wasn't chasing applause. He was chasing correctness.
 
 ---
 
@@ -145,7 +149,7 @@ Jobs found Zen Buddhism in his late teens. He read Shunryu Suzuki's _Zen Mind, B
 
 A friend described the connection: "Steve is very much Zen. You see it in his whole approach of stark, minimalist aesthetics, intense focus."
 
-Kobun officiated his wedding to Laurene Powell in 1991. The Zen influence was everywhere: in the stripped-down products, the white space, the obsession with simplicity so deep it curved back into complexity. "Simple can be harder than complex," Jobs said. "You have to work hard to get your thinking clean to make it simple."
+Kobun would remain central to his life for decades — guiding his practice, officiating his wedding. The Zen influence was everywhere: in the stripped-down products, the white space, the obsession with simplicity so deep it curved back into complexity. "Simple can be harder than complex," Jobs said. "You have to work hard to get your thinking clean to make it simple."
 
 But there was a crack in the practice.
 
@@ -199,21 +203,49 @@ This was stress disintegration in slow motion. A Type 1, stripped of the structu
 
 But something else happened in those wilderness years. Something only visible in retrospect.
 
-He became a better leader. NeXT's failure taught him collaboration. Pixar's creative culture taught him that gifted people need protection, not prosecution. His marriage to Laurene Powell in 1991 — Kobun Chino officiating in a Zen ceremony at Yosemite — gave him his first stable family.
+He became a better leader. NeXT's failure taught him collaboration. Pixar's creative culture taught him that gifted people need protection, not prosecution.
 
-"I'm convinced that about half of what separates the successful entrepreneurs from the non-successful ones is pure perseverance," he said in the 1995 Lost Interview with Robert Cringely. "It is so hard... that if you don't have a passion for it, you're going to give up."
+And he found Laurene Powell. They met in 1989 at a Stanford lecture — she slipped into the front row, and Jobs cancelled a business dinner to ask her out in the parking lot. They married in 1991, Kobun Chino officiating at Yosemite. Joanna Hoffman, an early Mac team member, put it bluntly: "He is the luckiest guy to have landed with Laurene, who is smart and can engage him intellectually and can sustain his ups and downs and tempestuous personality." For the first time, Jobs had a stable family and a partner who could match his intensity without being destroyed by it.
+
+"I'm convinced that about half of what separates the successful entrepreneurs from the non-successful ones is pure perseverance," he said in the 1995 Lost Interview. "It is so hard... that if you don't have a passion for it, you're going to give up."
 
 And: "I don't really care about being right, I just care about success. You'll find a lot of people that will tell you I had a very strong opinion, and they presented evidence to the contrary and five minutes later I changed my mind."
 
 That second quote is the sound of a 1 integrating. The inner critic, loosening its grip just enough to let new information in.
 
-In 1996, Apple — teetering near bankruptcy — bought NeXT for $427 million, bringing Jobs back. Within a year, he was CEO.
+In 1996, Apple — teetering near bankruptcy — bought NeXT for $427 million. Within a year, Jobs was CEO. He told his biographer that getting fired was the best thing that ever happened to him: "The heaviness of being successful was replaced by the lightness of being a beginner again, less sure about everything. It freed me to enter one of the most creative periods of my life."
 
-The return was not the same man. The inner critic still ran. The binary thinking persisted. But the rage had focus now. The tears came from a different place.
+---
 
-He told his biographer later that getting fired was the best thing that ever happened to him. "The heaviness of being successful was replaced by the lightness of being a beginner again, less sure about everything. It freed me to enter one of the most creative periods of my life."
+## The Second Act
 
-The carpenter had been forced to look at the back of his own cabinet. He didn't love what he found. But he kept building.
+The man who returned to Apple was not the man who had left. The inner critic still ran. But the rage had been refined into something more productive.
+
+His first move was the "Think Different" campaign. When the ad agency presented the "Here's to the crazy ones" copy, Jobs called it "advertising agency shit." He rejected it, revised it, fought over it for weeks. He personally called the families of Jim Henson and JFK to secure image rights, flew to New York to meet Yoko Ono, tried to get Robin Williams for the voiceover. The campaign won an Emmy. But what mattered to Jobs wasn't the award — it was that every word was _right_.
+
+Then came the products, and with them his creative soulmate. Jony Ive, Apple's head of design, became what Jobs called his "spiritual partner at Apple." They had lunch together most days and spent afternoons in the design studio, walking around tables of prototypes, handling models, talking about goals and values and quality. "Our curiosity united us," Ive said. He described those years as "some of the happiest, most creative and joyful times of my life." Their process was the 1's ideal made collaborative: two people holding each other to an impossible standard, but with curiosity instead of prosecution.
+
+The perfectionism that had alienated people at the old Apple now produced things the world had never seen.
+
+He dropped an iPod prototype into an aquarium. When air bubbles rose to the surface, he pointed: that's wasted space inside, make it smaller. He rejected sixty-seven versions of the iPhone's home button before approving the final design. When the original iPhone prototype — with a plastic screen — got scratched by the keys in his pocket, he summoned his team six weeks before launch: "I won't sell a product that gets scratched." He demanded glass. Corning's CEO said they couldn't produce their experimental Gorilla Glass at scale in time. Jobs: "Don't be afraid. You can do this." They did.
+
+At home, Laurene provided the counterweight. "We talked a lot, for hours every day," she said. She later described what she learned from the partnership: "One profound learning I took from him was that we don't have to accept the world that we're born into as something that is fixed and impermeable... through energy and force of will and intention and focus, we can actually change it."
+
+---
+
+## The Purity Problem
+
+In October 2003, doctors found a tumor on Jobs' pancreas. It was a neuroendocrine tumor — rare, treatable, caught early. His doctors urged immediate surgery.
+
+Jobs refused. For nine months.
+
+He tried a vegan diet, juice fasts, acupuncture, herbal remedies, hydrotherapy. He consulted a psychic. He visited a clinic that prescribed bowel cleansings and "the expression of all negative feelings." Dean Ornish — a pioneer in alternative medicine and a friend — took a long walk with Jobs and told him that even _he_ thought Jobs should have the surgery.
+
+Jobs later told Isaacson he regretted the delay. His explanation for the initial resistance: "I didn't want my body to be opened... I didn't want to be violated in that way."
+
+He was seeking the _correct_ path. The pure path. The one that didn't require compromise with the messy reality of a scalpel. This was the Type 1 pattern taken to its most consequential extreme: the belief that a better, more righteous option must exist if you just look hard enough.
+
+He had the surgery in July 2004. By then, the cancer had spread.
 
 ---
 
@@ -233,38 +265,6 @@ And: "Sometimes I believe in God, sometimes I don't. I think it's 50/50, maybe. 
 
 He had spent his whole life making objects so beautiful they could speak for him. Products so perfect they would prove that the boy who was given away was worth keeping. A world so carefully designed that the chaos of human imperfection could be held at bay — at least on the screen, at least in the box, at least in the thing you held in your hand.
 
-The [man who succeeded him](/personality-analysis/Tim-Cook) at Apple — another Type 1, quieter, steadier — would carry the standard forward. But he would never carry the wound. That was Jobs's alone.
+The [man who succeeded him](/personality-analysis/Tim-Cook) at Apple would carry the standard forward. But he would never carry the wound. That was Jobs's alone.
 
 Whatever Steve Jobs saw in those final moments, it met his standards.
-
----
-
-<!--
-READER FEEDBACK / EDITORIAL NOTES:
-
-**What landed:**
-- The opening with the circuit board story is great — it immediately shows instead of tells, and the "And yet." turn into the empty mansion is a strong hook.
-- The Lisa section is the emotional core and the strongest writing in the piece. The detail about naming the computer after her while denying paternity is devastating, and you let it breathe instead of over-explaining it.
-- "He extracted from Buddhism precisely what a Type 1 would extract: the standard. Not the forgiveness." — That's the best line in the article. Keep it.
-- The wilderness years section earns its length because it shows actual growth, not just suffering.
-
-**What to expand:**
-- The return to Apple (1997-2011) gets almost nothing. You cover the exile in detail but then skip the entire second act — the iMac, iPod, iPhone, iPad era. That's 14 years of his life and arguably where the Type 1 pattern is most visible (obsessing over the iPhone's rounded corners, rejecting hundreds of prototypes, the "think different" campaign as a moral statement). Even 2-3 paragraphs would fix the gap.
-- The relationship with his wife Laurene barely exists here. You mention the wedding twice but never show what the marriage looked like. If this is a personality piece, the one person who lived with his Type 1 energy every day deserves more than a footnote. Did she ground him? Push back? Enable him?
-- His relationship with his biological parents as an adult is missing. He eventually met his birth mother and learned his birth father was running a restaurant in Sacramento. Jobs went there, shook his hand, and never told the man who he was. That story is pure Type 1 — controlled, judging, withholding — and it directly mirrors the Lisa situation.
-
-**What felt overdone / duplicate:**
-- The "binary thinking" point gets made three times: once in the TL;DR, once in "The Inner Courtroom" section, and again in the bullet list under "What is Steve Jobs' Personality Type." The Isaacson "hero or bozo" quote appears twice. Pick one spot and land it there.
-- The crying paragraph in "Inner Courtroom" runs long. The point (he was intensely emotional) is clear after 2 examples but you list 5-6. Trim to the CD tray story and one other, then move on.
-- "The back of the cabinet" metaphor shows up in the opening quote, the childhood section, the Enneagram explanation, and the closing. It works as bookend (opening + closing) but the middle mentions dilute it.
-
-**What's missing that a normal reader would wonder about:**
-- Why Type 1 and not Type 3 (the Achiever)? A lot of readers will think "perfectionist who wants success and approval" and land on 3. You need a sentence or two explicitly addressing this — something like "Jobs wasn't chasing applause, he was chasing correctness. The difference matters."
-- His cancer treatment decisions. He delayed surgery for 9 months in favor of alternative treatments (juice fasts, acupuncture, herbal remedies). This is arguably the most consequential Type 1 decision he ever made — the belief that he could find a purer, more correct path than conventional medicine. Leaving it out feels like a deliberate omission.
-- No mention of Jony Ive, who was basically his creative soulmate for 15 years. Their dynamic is relevant to understanding how Jobs worked with someone whose standards matched his own.
-
-**Minor things:**
-- "eight years deciding on a washing machine" — is this sourced? I've seen the furniture story but the washing machine number feels apocryphal. If it's from Isaacson, note it. If not, just say "years."
-- The stress/integration section reads a bit textbook-y compared to the rest of the article. The Type 4 disintegration explanation is fine but the Type 7 integration part ("One more thing showmanship, childlike wonder") feels tacked on. Could you show it with a specific story instead?
-- The Tim Cook line at the end ("another Type 1, quieter, steadier") is doing a lot of heavy lifting with no support. If you're going to type Cook, either link it to evidence or just say "the man who succeeded him" without the typing claim.
--->
