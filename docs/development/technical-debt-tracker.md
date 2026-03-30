@@ -28,6 +28,8 @@ Out of scope for this tracker:
 
 - Migrated 10 shared Svelte components to `$props`/runes, including `SEOHead`, `BlogPageHead`, `PeopleBlogPageHead`, `ModalNew`, and the shared question/blog display components
 - Follow-up Svelte pass migrated `ComboBox.svelte` and `SearchQuestion.svelte` to runes-style props/state, removed `ComboBox` from the top Svelte/typecheck hotspot list, and typed the shared `onClickOutside` action in `Context.svelte`
+- Additional `npm run check` cleanup typed `WordCloud.svelte`, removed the `d3-cloud` declaration gap, fixed the `Toast.svelte` notification-store mismatch, and eliminated the repeated label-association warnings in `MetadataSidebar.svelte`
+- Additional JS/Sass cleanup typed `scripts/personBlogParser.js` and `scripts/lib/personalitySeo.js`, replaced deprecated slash-division in `rubixDisplay2.svelte`, and cleared the `rubixGrid.svelte`/`rubixDisplay2.svelte` implicit-`any` backlog
 - Removed deprecated npm config keys from `.npmrc`, which stopped the related `npm` warnings
 - Removed the unused deprecated provider-routing helpers from `src/utils/server/smart-llm-service.ts`
 - Replaced the logger TODO with a concrete production server error sink in `src/lib/utils/logger.ts`, backed by `src/lib/server/errorTracking.ts`
@@ -46,11 +48,11 @@ The project already runs `svelte@^5.46.1`, but a large part of the UI still uses
 
 ### Verified inventory
 
-Progress note: the current migration passes have converted 12 shared components plus the shared search wrapper `SearchQuestion.svelte` to `$props`/runes on March 29, 2026. The counts below reflect the post-migration state after those passes.
+Progress note: the current migration passes have converted 13 shared components to `$props`/runes on March 29, 2026. The counts below reflect the post-migration state after those passes.
 
 | Legacy pattern             | Files | Matches | Notes                                           |
 | -------------------------- | ----- | ------- | ----------------------------------------------- |
-| `export let` props         | 132   | 408     | Largest migration surface                       |
+| `export let` props         | 131   | 405     | Largest migration surface                       |
 | `$:` reactive declarations | 55    | 155     | Some map to `$derived`, some need `$effect`     |
 | `onMount(`                 | 67    | 68      | Browser-only setup; not all should be converted |
 | `onDestroy(`               | 20    | 20      | Mostly teardown logic                           |
@@ -69,6 +71,7 @@ Progress note: the current migration passes have converted 12 shared components 
 - `src/lib/components/atoms/ModalNew.svelte`
 - `src/lib/components/blog/PeopleBlogPageHead.svelte`
 - `src/lib/components/molecules/ComboBox.svelte`
+- `src/lib/components/molecules/WordCloud.svelte`
 - `src/lib/components/questions/SearchQuestion.svelte`
 
 ### High-concentration files
@@ -220,41 +223,40 @@ Progress note: `@fingerprintjs/fingerprintjs` was upgraded from `^4.5.0` to `^5.
 **Impact**: Prevents a clean static check baseline and makes new regressions harder to spot
 **Effort**: Large
 
-The current repo-wide check run reports **299 errors and 207 warnings in 77 files**. This is a separate debt bucket from Svelte 5 migration work: some files overlap, but a large share of the backlog is plain TypeScript, Sass, and stale CSS noise.
+The current repo-wide check run reports **194 errors and 188 warnings in 69 files**. This is a separate debt bucket from Svelte 5 migration work: some files overlap, but a large share of the backlog is plain TypeScript, stale CSS noise, and route-level runes migration issues.
 
 ### Dominant diagnostic buckets
 
 These are counts of reported occurrences in the current `npm run check` output, not normalized root-cause groups.
 
-- 105 `css_unused_selector` warnings
-- 87 diagnostics containing `implicitly has an 'any' type`
-- 66 `Type '...' is not assignable to type '...'` errors
-- 14 `No index signature ...` errors
-- 10 Sass `slash-div` deprecation warnings
+- 103 `css_unused_selector` warnings
+- 63 `Type '...' is not assignable to type '...'` errors
+- 47 diagnostics containing `implicitly has an 'any' type`
+- 11 `No index signature ...` errors
 - 8 `No overload matches this call` errors
-- 2 missing declaration-file errors (`opentype.js`, `d3-cloud`)
+- 1 missing declaration-file error (`opentype.js`)
 - 1 remaining `<slot>` deprecation warning
 
 ### Highest-volume files in the current output
 
 - `src/routes/admin/comments/+page.svelte` (30)
-- `src/lib/components/molecules/rubixDisplay2.svelte` (29)
-- `scripts/personBlogParser.js` (26)
 - `src/routes/admin/links/[slug]/+page.svelte` (24)
 - `src/routes/admin/content-board/+page.svelte` (20)
-- `src/lib/components/molecules/WordCloud.svelte` (19)
 - `src/routes/admin/email-dashboard/+page.svelte` (17)
-- `src/routes/admin/content-board/MetadataSidebar.svelte` (17)
-- `src/lib/components/molecules/rubixGrid.svelte` (17)
 - `src/routes/test-solo-leveling/+page.svelte` (16)
+- `src/lib/components/molecules/LinkMap.svelte` (15)
+- `src/lib/components/questions/QuestionItem.svelte` (14)
+- `src/lib/components/molecules/MobileNav.svelte` (14)
+- `src/lib/components/molecules/MobileNavNew.svelte` (13)
+- `src/lib/components/molecules/QuestionSearch.svelte` (12)
 
 ### Most actionable next splits
 
-- Shared Svelte hotspots: `Comments.svelte`, `TableOfContents.svelte`, `src/routes/+layout.svelte`, and `src/routes/personality-analysis/[slug]/+page.svelte` can reduce both Svelte 5 legacy syntax and check noise in one pass
-- JS/TS typing cleanup: `scripts/personBlogParser.js` and several admin routes still rely on implicit `any`, loose indexing, and null-unsafe assumptions
-- Sass cleanup: replace deprecated slash division with `math.div(...)`
+- Admin route cluster: `src/routes/admin/comments/+page.svelte`, `src/routes/admin/links/[slug]/+page.svelte`, `src/routes/admin/content-board/+page.svelte`, and `src/routes/admin/email-dashboard/+page.svelte` are now the highest-volume remaining files
+- Shared component cleanup: `LinkMap.svelte`, `QuestionItem.svelte`, `MobileNav.svelte`, `MobileNavNew.svelte`, and `QuestionSearch.svelte` can reduce both theme debt and `css_unused_selector`/typing noise
+- Shared Svelte hotspots: `Comments.svelte`, `TableOfContents.svelte`, `src/routes/+layout.svelte`, and `src/routes/personality-analysis/[slug]/+page.svelte` still offer dual-value Svelte 5 plus check-backlog wins
 - CSS warning triage: remove or scope stale selectors instead of carrying forward `css_unused_selector` noise
-- Third-party typing gaps: add local module declarations for `opentype.js` and `d3-cloud` unless those packages are removed
+- Third-party typing gap: add a local `opentype.js` declaration unless that package is removed or typed upstream
 
 ---
 

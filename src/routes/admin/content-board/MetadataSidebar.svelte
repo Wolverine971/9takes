@@ -130,6 +130,10 @@
 			window.open(url, '_blank');
 		}
 	}
+
+	function fieldId(name: string): string {
+		return `metadata-sidebar-${name}`;
+	}
 </script>
 
 <div class="metadata-sidebar">
@@ -145,9 +149,10 @@
 			<div class="section-content" transition:slide={{ duration: 150 }}>
 				<!-- Published Toggle -->
 				<div class="field">
-					<label class="field-label">Published</label>
+					<div class="field-label">Published</div>
 					<label class="toggle">
 						<input
+							id={fieldId('published')}
 							type="checkbox"
 							checked={data.published}
 							disabled={readonly}
@@ -159,8 +164,9 @@
 
 				<!-- Stage Dropdown -->
 				<div class="field">
-					<label class="field-label">Workflow Stage</label>
+					<label class="field-label" for={fieldId('workflow-stage')}>Workflow Stage</label>
 					<select
+						id={fieldId('workflow-stage')}
 						class="field-select"
 						value={stageName || ''}
 						disabled={readonly}
@@ -175,8 +181,9 @@
 
 				<!-- Enneagram Type -->
 				<div class="field">
-					<label class="field-label">Enneagram Type</label>
+					<label class="field-label" for={fieldId('enneagram')}>Enneagram Type</label>
 					<select
+						id={fieldId('enneagram')}
 						class="field-select"
 						value={data.enneagram || ''}
 						disabled={readonly}
@@ -191,8 +198,9 @@
 
 				<!-- Category -->
 				<div class="field">
-					<label class="field-label">Category</label>
+					<label class="field-label" for={fieldId('category')}>Category</label>
 					<input
+						id={fieldId('category')}
 						type="text"
 						class="field-input"
 						value={data.category || ''}
@@ -219,11 +227,12 @@
 			<div class="section-content" transition:slide={{ duration: 150 }}>
 				<!-- Title -->
 				<div class="field">
-					<label class="field-label">
+					<label class="field-label" for={fieldId('title')}>
 						Title
 						<span class="char-count {tc.status}">{tc.count}/60</span>
 					</label>
 					<input
+						id={fieldId('title')}
 						type="text"
 						class="field-input"
 						value={data.title || ''}
@@ -234,8 +243,9 @@
 
 				<!-- Meta Title -->
 				<div class="field">
-					<label class="field-label">Meta Title</label>
+					<label class="field-label" for={fieldId('meta-title')}>Meta Title</label>
 					<input
+						id={fieldId('meta-title')}
 						type="text"
 						class="field-input"
 						value={data.meta_title || ''}
@@ -246,11 +256,12 @@
 
 				<!-- Description -->
 				<div class="field">
-					<label class="field-label">
+					<label class="field-label" for={fieldId('description')}>
 						Description
 						<span class="char-count {dc.status}">{dc.count}/155</span>
 					</label>
 					<textarea
+						id={fieldId('description')}
 						class="field-textarea"
 						value={data.description || ''}
 						disabled={readonly}
@@ -261,7 +272,7 @@
 
 				<!-- URL -->
 				<div class="field">
-					<label class="field-label">URL</label>
+					<div class="field-label">URL</div>
 					<div class="field-readonly">
 						{#if data.loc}
 							<a href={data.loc.replace('https://9takes.com', '')} target="_blank" class="url-link">
@@ -287,10 +298,11 @@
 		{#if sections.social}
 			<div class="section-content" transition:slide={{ duration: 150 }}>
 				<div class="field">
-					<label class="field-label">Twitter</label>
+					<label class="field-label" for={fieldId('twitter')}>Twitter</label>
 					<div class="input-with-prefix">
 						<span class="prefix">@</span>
 						<input
+							id={fieldId('twitter')}
 							type="text"
 							class="field-input"
 							value={data.twitter || ''}
@@ -301,10 +313,11 @@
 				</div>
 
 				<div class="field">
-					<label class="field-label">Instagram</label>
+					<label class="field-label" for={fieldId('instagram')}>Instagram</label>
 					<div class="input-with-prefix">
 						<span class="prefix">@</span>
 						<input
+							id={fieldId('instagram')}
 							type="text"
 							class="field-input"
 							value={data.instagram || ''}
@@ -315,10 +328,11 @@
 				</div>
 
 				<div class="field">
-					<label class="field-label">TikTok</label>
+					<label class="field-label" for={fieldId('tiktok')}>TikTok</label>
 					<div class="input-with-prefix">
 						<span class="prefix">@</span>
 						<input
+							id={fieldId('tiktok')}
 							type="text"
 							class="field-input"
 							value={data.tiktok || ''}
@@ -329,8 +343,9 @@
 				</div>
 
 				<div class="field">
-					<label class="field-label">Wikipedia</label>
+					<label class="field-label" for={fieldId('wikipedia')}>Wikipedia</label>
 					<input
+						id={fieldId('wikipedia')}
 						type="url"
 						class="field-input"
 						value={data.wikipedia || ''}
@@ -354,18 +369,19 @@
 		{#if sections.dates}
 			<div class="section-content" transition:slide={{ duration: 150 }}>
 				<div class="field">
-					<label class="field-label">Created</label>
+					<div class="field-label">Created</div>
 					<div class="field-readonly">{formatDate(data.date)}</div>
 				</div>
 
 				<div class="field">
-					<label class="field-label">Last Modified</label>
+					<div class="field-label">Last Modified</div>
 					<div class="field-readonly">{formatDate(data.lastmod)}</div>
 				</div>
 
 				<div class="field">
-					<label class="field-label">Author</label>
+					<label class="field-label" for={fieldId('author')}>Author</label>
 					<input
+						id={fieldId('author')}
 						type="text"
 						class="field-input"
 						value={data.author || ''}
@@ -388,7 +404,7 @@
 		{#if sections.related}
 			<div class="section-content" transition:slide={{ duration: 150 }}>
 				<div class="field">
-					<label class="field-label">Suggestions</label>
+					<div class="field-label">Suggestions</div>
 					<div class="suggestions-list">
 						{#if suggestionsArray.length > 0}
 							{#each suggestionsArray as suggestion}
@@ -401,8 +417,9 @@
 				</div>
 
 				<div class="field">
-					<label class="field-label">Image URL</label>
+					<label class="field-label" for={fieldId('image-url')}>Image URL</label>
 					<input
+						id={fieldId('image-url')}
 						type="url"
 						class="field-input"
 						value={data.pic || ''}

@@ -1,11 +1,11 @@
 <!-- src/lib/components/molecules/Toast.svelte -->
-<script>
+<script lang="ts">
 	import { flip } from 'svelte/animate';
 	import { fly } from 'svelte/transition';
 	import { notifications } from '$lib/components/molecules/notifications';
 
 	// Theme mapping for CSS classes
-	const getThemeClass = (type) => {
+	const getThemeClass = (type?: string) => {
 		return `toast--${type || 'default'}`;
 	};
 </script>

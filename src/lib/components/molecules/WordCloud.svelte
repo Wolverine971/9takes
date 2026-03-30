@@ -1,51 +1,88 @@
 <!-- src/lib/components/molecules/WordCloud.svelte -->
-<script>
+<script lang="ts">
 	import { onMount } from 'svelte';
 
-	export let words = [];
-	export let width = 800;
-	export let height = 400;
+	type WordCloudDatum = {
+		text: string;
+		value: number;
+	};
 
-	let svg;
-	let d3;
-	let cloud;
+	type PositionedWord = WordCloudDatum & {
+		size: number;
+		x: number;
+		y: number;
+	};
+
+	let {
+		words = [],
+		width = 800,
+		height = 400
+	}: {
+		words?: WordCloudDatum[];
+		width?: number;
+		height?: number;
+	} = $props();
+
+	let svg: SVGSVGElement | undefined;
+	let d3: typeof import('d3') | undefined;
+	let cloudFactory: typeof import('d3-cloud').default | undefined;
+	let librariesReady = $state(false);
 
 	onMount(async () => {
 		// Dynamically import d3 libraries
 		const [d3Module, cloudModule] = await Promise.all([import('d3'), import('d3-cloud')]);
 		d3 = d3Module;
-		cloud = cloudModule.default;
-		const layout = cloud()
+		cloudFactory = cloudModule.default;
+		librariesReady = true;
+	});
+
+	$effect(() => {
+		if (!librariesReady || !d3 || !cloudFactory || !svg) {
+			return;
+		}
+
+		const layoutWords: PositionedWord[] = words.map((word) => ({
+			...word,
+			size: word.value,
+			x: 0,
+			y: 0
+		}));
+
+		const layout = cloudFactory<PositionedWord>()
 			.size([width, height])
-			.words(words.map((d) => ({ ...d, text: d.text, size: d.value })))
+			.words(layoutWords)
 			.padding(0)
 			.rotate(() => 0) // Always return 0 to keep words horizontal
 			.font('Space Grotesk')
-			.fontSize((d) => Math.sqrt(d.size) * 5)
+			.fontSize((word) => Math.sqrt(word.size) * 5)
 			.on('end', draw);
 
 		layout.start();
 	});
 
-	function draw(words) {
-		const color = d3
-			.scaleLinear()
-			.domain([0, 1, 2, 3, 4, 5, 6, 10, 15, 20, 100])
-			.range([
-				'#ddd',
-				'#ccc',
-				'#bbb',
-				'#aaa',
-				'#999',
-				'#888',
-				'#777',
-				'#666',
-				'#555',
-				'#444',
-				'#333'
-			]);
+	function draw(layoutWords: PositionedWord[]) {
+		if (!d3 || !svg) {
+			return;
+		}
 
-		d3.select(svg)
+		const d3Module = d3;
+		const palette = [
+			'#ddd',
+			'#ccc',
+			'#bbb',
+			'#aaa',
+			'#999',
+			'#888',
+			'#777',
+			'#666',
+			'#555',
+			'#444',
+			'#333'
+		];
+		const color = (index: number) => palette[Math.min(index, palette.length - 1)];
+
+		d3Module
+			.select(svg)
 			.attr('viewBox', [0, 0, width, height])
 			.attr('font-family', 'Space Grotesk')
 			.attr('text-anchor', 'middle')
@@ -53,18 +90,18 @@
 			.data([null])
 			.join('g')
 			.attr('transform', `translate(${width / 2},${height / 2})`)
-			.selectAll('text')
-			.data(words)
+			.selectAll<SVGTextElement, PositionedWord>('text')
+			.data(layoutWords)
 			.join('text')
-			.style('font-size', (d) => `${d.size}px`)
-			.style('fill', (d, i) => color(i))
-			.attr('transform', (d) => `translate(${d.x},${d.y})`)
-			.text((d) => d.text)
-			.on('mouseover', function () {
-				d3.select(this).style('font-weight', 'bold');
+			.style('font-size', (word) => `${word.size}px`)
+			.style('fill', (_word, index) => color(index))
+			.attr('transform', (word) => `translate(${word.x},${word.y})`)
+			.text((word) => word.text)
+			.on('mouseover', function (this: SVGTextElement) {
+				d3Module.select(this).style('font-weight', 'bold');
 			})
-			.on('mouseout', function () {
-				d3.select(this).style('font-weight', 'normal');
+			.on('mouseout', function (this: SVGTextElement) {
+				d3Module.select(this).style('font-weight', 'normal');
 			});
 	}
 </script>

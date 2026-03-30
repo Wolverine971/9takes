@@ -10,6 +10,7 @@ interface Notification {
 	type: NotificationType;
 	message: string;
 	timeout: number;
+	icon?: string;
 }
 
 interface NotificationStore {

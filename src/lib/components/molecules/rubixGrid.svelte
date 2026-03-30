@@ -14,24 +14,17 @@
 
 	export let type: number;
 
-	let randomElements: string[] = [];
-
 	// Efficient shuffling algorithm (Fisher-Yates (aka Knuth) Shuffle)
 	function shuffleArray(array: Person[]): Person[] {
-		let currentIndex = array.length,
-			temporaryValue,
-			randomIndex;
+		let currentIndex = array.length;
 
 		// While there remain elements to shuffle...
 		while (0 !== currentIndex) {
 			// Pick a remaining element...
-			randomIndex = Math.floor(Math.random() * currentIndex);
+			const randomIndex = Math.floor(Math.random() * currentIndex);
 			currentIndex -= 1;
 
-			// And swap it with the current element.
-			temporaryValue = array[currentIndex];
-			array[currentIndex] = array[randomIndex];
-			array[randomIndex] = temporaryValue;
+			[array[currentIndex], array[randomIndex]] = [array[randomIndex], array[currentIndex]];
 		}
 
 		return array;
@@ -59,85 +52,24 @@
 		}, 1000);
 	});
 
-	const setup = async () => {
-		// Reactive statement to update randomElements when peopleList changes
-		var degX = -20;
-		var degY = 45;
-		var cubes = [];
+	function drawCube(id: string, x: number, y: number, z: number) {
+		const cube = document.getElementById(id);
+		if (!cube) return;
 
-		var Cube = function (id, x, y, z) {
-			this.id = id;
-			this.div = document.getElementById(id);
+		cube.style.transform = `rotateX(0deg) rotateY(0deg) rotateZ(0deg) translate3d(${x * 15}vmin,${y * 15}vmin,${z * 15}vmin)`;
+	}
 
-			this.xo = x;
-			this.yo = y;
-			this.zo = z;
-
-			this.x = x;
-			this.y = y;
-			this.z = z;
-			this.rotX = 0;
-			this.rotY = 0;
-			this.rotZ = 0;
-
-			// this.front = this.div.getElementsByClassName('front')[0];
-			// this.back = this.div.getElementsByClassName('back')[0];
-			// this.right = this.div.getElementsByClassName('right')[0];
-			// this.left = this.div.getElementsByClassName('left')[0];
-			// this.top = this.div.getElementsByClassName('top')[0];
-			// this.bottom = this.div.getElementsByClassName('bottom')[0];
-
-			// if (z == 1) {
-			// 	this.front.style.background = 'blue';
-			// } else if (z == -1) {
-			// 	this.back.style.background = 'green';
-			// }
-			// if (y == 1) {
-			// 	this.bottom.style.background = 'white';
-			// } else if (y == -1) {
-			// 	this.top.style.background = 'yellow';
-			// }
-			// if (x == 1) {
-			// 	this.right.style.background = 'orange';
-			// } else if (x == -1) {
-			// 	this.left.style.background = 'red';
-			// }
-			// this.div.style.background = 'white';
-
-			Cube.prototype.draw = function () {
-				if (this.div?.style) {
-					this.div.style.transform =
-						'rotateX(' +
-						this.rotX +
-						'deg) rotateY(' +
-						this.rotY +
-						'deg) rotateZ(' +
-						this.rotZ +
-						'deg) translate3d(' +
-						this.xo * 15 +
-						'vmin,' +
-						this.yo * 15 +
-						'vmin,' +
-						this.zo * 15 +
-						'vmin)';
-				}
-			};
-		};
-
-		var div = document.getElementById('contain');
-		// window.onload = function () {
-		var num = 1;
-		for (var i = -1; i < 2; i++) {
-			for (var j = -1; j < 2; j++) {
-				for (var k = -1; k < 2; k++) {
-					var cube = new Cube('c' + num, i, j, k);
-					cube.draw();
-					cubes.push(cube);
+	function setup() {
+		let num = 1;
+		for (let i = -1; i < 2; i++) {
+			for (let j = -1; j < 2; j++) {
+				for (let k = -1; k < 2; k++) {
+					drawCube(`c${num}`, i, j, k);
 					num++;
 				}
 			}
 		}
-	};
+	}
 </script>
 
 <div class="grid">
@@ -330,14 +262,6 @@
 		100% {
 			transform: scale(1);
 		}
-	}
-
-	span {
-		position: absolute;
-		top: 0px;
-		left: -10px;
-		animation: fade 3s infinite;
-		animation-timing-function: ease-in-out;
 	}
 
 	/* Responsive adjustments - maintain 3x3 grid at all sizes */

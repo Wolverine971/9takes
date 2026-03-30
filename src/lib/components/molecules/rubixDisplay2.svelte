@@ -7,44 +7,17 @@
 
 	export let type: number;
 
-	// function getRandomElements(arr: string[]) {
-	// 	// return [];
-	// 	// if (arr.length < 9) {
-	// 	// 	throw new Error('Array must contain at least 9 elements.');
-	// 	// }
-
-	// 	let randomElements: string[] = [];
-
-	// 	while (randomElements.length < 9) {
-	// 		const randomIndex = Math.floor(Math.random() * arr.length);
-	// 		const randomElement = arr[randomIndex];
-
-	// 		if (!randomElements.includes(randomElement)) {
-	// 			randomElements.push(randomElement);
-	// 		}
-	// 	}
-	// 	// debugger;
-	// 	return randomElements;
-	// }
-
-	let randomElements: string[] = [];
-
 	// Efficient shuffling algorithm (Fisher-Yates (aka Knuth) Shuffle)
 	function shuffleArray(array: string[]) {
-		let currentIndex = array.length,
-			temporaryValue,
-			randomIndex;
+		let currentIndex = array.length;
 
 		// While there remain elements to shuffle...
 		while (0 !== currentIndex) {
 			// Pick a remaining element...
-			randomIndex = Math.floor(Math.random() * currentIndex);
+			const randomIndex = Math.floor(Math.random() * currentIndex);
 			currentIndex -= 1;
 
-			// And swap it with the current element.
-			temporaryValue = array[currentIndex];
-			array[currentIndex] = array[randomIndex];
-			array[randomIndex] = temporaryValue;
+			[array[currentIndex], array[randomIndex]] = [array[randomIndex], array[currentIndex]];
 		}
 
 		return array;
@@ -72,105 +45,24 @@
 		}, 1000);
 	});
 
-	const setup = async () => {
-		// Reactive statement to update randomElements when peopleList changes
-		var degX = -20;
-		var degY = 45;
-		var cubes = [];
+	function drawCube(id: string, x: number, y: number, z: number) {
+		const cube = document.getElementById(id);
+		if (!cube) return;
 
-		var Cube = function (id, x, y, z) {
-			this.id = id;
-			this.div = document.getElementById(id);
+		cube.style.transform = `rotateX(0deg) rotateY(0deg) rotateZ(0deg) translate3d(${x * 15}vmin,${y * 15}vmin,${z * 15}vmin)`;
+	}
 
-			this.xo = x;
-			this.yo = y;
-			this.zo = z;
-
-			this.x = x;
-			this.y = y;
-			this.z = z;
-			this.rotX = 0;
-			this.rotY = 0;
-			this.rotZ = 0;
-
-			this.front = this.div.getElementsByClassName('front')[0];
-			this.back = this.div.getElementsByClassName('back')[0];
-			this.right = this.div.getElementsByClassName('right')[0];
-			this.left = this.div.getElementsByClassName('left')[0];
-			this.top = this.div.getElementsByClassName('top')[0];
-			this.bottom = this.div.getElementsByClassName('bottom')[0];
-
-			// if (z == 1) {
-			// 	this.front.style.background = 'blue';
-			// } else if (z == -1) {
-			// 	this.back.style.background = 'green';
-			// }
-			// if (y == 1) {
-			// 	this.bottom.style.background = 'white';
-			// } else if (y == -1) {
-			// 	this.top.style.background = 'yellow';
-			// }
-			// if (x == 1) {
-			// 	this.right.style.background = 'orange';
-			// } else if (x == -1) {
-			// 	this.left.style.background = 'red';
-			// }
-			// this.div.style.background = 'white';
-
-			Cube.prototype.draw = function () {
-				if (this.div?.style) {
-					this.div.style.transform =
-						'rotateX(' +
-						this.rotX +
-						'deg) rotateY(' +
-						this.rotY +
-						'deg) rotateZ(' +
-						this.rotZ +
-						'deg) translate3d(' +
-						this.xo * 15 +
-						'vmin,' +
-						this.yo * 15 +
-						'vmin,' +
-						this.zo * 15 +
-						'vmin)';
-				}
-			};
-
-			var div = document.getElementById('contain');
-			// window.onload = function () {
-			var num = 1;
-			for (var i = -1; i < 2; i++) {
-				for (var j = -1; j < 2; j++) {
-					for (var k = -1; k < 2; k++) {
-						var cube = new Cube('c' + num, i, j, k);
-						cube.draw();
-						cubes.push(cube);
-						num++;
-					}
+	function setup() {
+		let num = 1;
+		for (let i = -1; i < 2; i++) {
+			for (let j = -1; j < 2; j++) {
+				for (let k = -1; k < 2; k++) {
+					drawCube(`c${num}`, i, j, k);
+					num++;
 				}
 			}
-
-			// document.addEventListener('click', function (e) {
-			// 	var x = e.clientX - window.innerWidth / 2;
-			// 	var y = e.clientY - window.innerHeight / 2;
-			// 	var xRat = (2 * Math.abs(x)) / window.innerWidth;
-			// 	var yRat = (2 * Math.abs(y)) / window.innerHeight;
-
-			// 	if (xRat > yRat) {
-			// 		degY += Math.sign(x) * 90;
-			// 	} else {
-			// 		degX -= Math.sign(y) * 180;
-			// 	}
-
-			// 	div.style.webkitTransform = 'rotateX(' + degX + 'deg) rotateY(' + degY + 'deg)';
-			// 	div.style.mozTransform = 'rotateX(' + degX + 'deg) rotateY(' + degY + 'deg)';
-			// 	div.style.msTransform = 'rotateX(' + degX + 'deg) rotateY(' + degY + 'deg)';
-			// 	div.style.oTransform = 'rotateX(' + degX + 'deg) rotateY(' + degY + 'deg)';
-			// 	div.style.transform = 'rotateX(' + degX + 'deg) rotateY(' + degY + 'deg)';
-			// });
-			// };
-		};
-	};
+		}
+	}
 </script>
 
 <div id="rubix">
@@ -248,6 +140,8 @@
 </div>
 
 <style lang="scss">
+	@use 'sass:math';
+
 	.profileFace {
 		background-position: center !important;
 		background-size: cover !important;
@@ -368,17 +262,6 @@
 		}
 	}
 
-	span {
-		position: absolute;
-		top: 0px;
-		left: -10px;
-
-		-webkit-animation: fade 3s infinite; /* Safari 4.0 - 8.0 */
-		animation: fade 3s infinite;
-		-webkit-animation-timing-function: ease-in-out; /* Safari 4.0 - 8.0 */
-		animation-timing-function: ease-in-out;
-	}
-
 	#rubix {
 		position: relative;
 		display: block;
@@ -421,43 +304,49 @@
 
 	#rubix .front {
 		background: inherit;
-		-webkit-transform: translate3d(-$width/2, -$width/2, $width/2) rotateX(0deg) rotateY(0deg)
-			rotateZ(0deg);
-		transform: translate3d(-$width/2, -$width/2, $width/2) rotateX(0deg) rotateY(0deg) rotateZ(0deg);
+		-webkit-transform: translate3d(math.div(-$width, 2), math.div(-$width, 2), math.div($width, 2))
+			rotateX(0deg) rotateY(0deg) rotateZ(0deg);
+		transform: translate3d(math.div(-$width, 2), math.div(-$width, 2), math.div($width, 2))
+			rotateX(0deg) rotateY(0deg) rotateZ(0deg);
 	}
 
 	#rubix .back {
 		background: inherit;
-		-webkit-transform: translate3d(-$width/2, -$width/2, 0px) rotateX(0deg) rotateY(0deg)
-			rotateZ(0deg);
-		transform: translate3d(-$width/2, -$width/2, -$width/2) rotateX(0deg) rotateY(0deg)
-			rotateZ(0deg);
+		-webkit-transform: translate3d(math.div(-$width, 2), math.div(-$width, 2), 0px) rotateX(0deg)
+			rotateY(0deg) rotateZ(0deg);
+		transform: translate3d(math.div(-$width, 2), math.div(-$width, 2), math.div(-$width, 2))
+			rotateX(0deg) rotateY(0deg) rotateZ(0deg);
 	}
 
 	#rubix .right {
 		background: inherit;
-		-webkit-transform: translate3d(0px, -$width/2, $width/2) rotateX(0deg) rotateY(90deg)
+		-webkit-transform: translate3d(0px, math.div(-$width, 2), math.div($width, 2)) rotateX(0deg)
+			rotateY(90deg) rotateZ(0deg);
+		transform: translate3d(0px, math.div(-$width, 2), 0px) rotateX(0deg) rotateY(90deg)
 			rotateZ(0deg);
-		transform: translate3d(0px, -$width/2, 0px) rotateX(0deg) rotateY(90deg) rotateZ(0deg);
 	}
 
 	#rubix .left {
 		background: inherit;
-		-webkit-transform: translate3d(-$width, -$width/2, 0px) rotateX(0deg) rotateY(90deg)
+		-webkit-transform: translate3d(-$width, math.div(-$width, 2), 0px) rotateX(0deg) rotateY(90deg)
 			rotateZ(0deg);
-		transform: translate3d(-$width, -$width/2, 0px) rotateX(0deg) rotateY(90deg) rotateZ(0deg);
+		transform: translate3d(-$width, math.div(-$width, 2), 0px) rotateX(0deg) rotateY(90deg)
+			rotateZ(0deg);
 	}
 
 	#rubix .top {
 		background: inherit;
-		-webkit-transform: translate3d(-$width/2, -$width, 0px) rotateX(90deg) rotateY(0deg)
+		-webkit-transform: translate3d(math.div(-$width, 2), -$width, 0px) rotateX(90deg) rotateY(0deg)
 			rotateZ(0deg);
-		transform: translate3d(-$width/2, -$width, 0px) rotateX(90deg) rotateY(0deg) rotateZ(0deg);
+		transform: translate3d(math.div(-$width, 2), -$width, 0px) rotateX(90deg) rotateY(0deg)
+			rotateZ(0deg);
 	}
 
 	#rubix .bottom {
 		background: inherit;
-		-webkit-transform: translate3d(-$width/2, 0px, 0px) rotateX(90deg) rotateY(0deg) rotateZ(0deg);
-		transform: translate3d(-$width/2, 0px, 0px) rotateX(90deg) rotateY(0deg) rotateZ(0deg);
+		-webkit-transform: translate3d(math.div(-$width, 2), 0px, 0px) rotateX(90deg) rotateY(0deg)
+			rotateZ(0deg);
+		transform: translate3d(math.div(-$width, 2), 0px, 0px) rotateX(90deg) rotateY(0deg)
+			rotateZ(0deg);
 	}
 </style>

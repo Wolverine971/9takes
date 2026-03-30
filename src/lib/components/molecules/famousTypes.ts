@@ -161,7 +161,7 @@ export const famousTypes: { [index: number]: { name: string; link: boolean; hasI
 		{ name: 'tim-robinson', link: true, hasImage: true, lastmod: '2026-03-14', personaTitle: 'Comedy\'s Cringe Cartographer', contentGrade: 8.8 },
 		{ name: 'trisha-paytas', link: true, hasImage: true, lastmod: '2026-03-28', personaTitle: 'Internet\'s Unfinished Portrait', contentGrade: 8.8 },
 		{ name: 'troye-sivan', link: true, hasImage: true, lastmod: '2026-03-28', personaTitle: 'Pop\'s Beautiful Exile', contentGrade: 8.8 },
-		{ name: 'tyler-the-creator', link: false, hasImage: true, lastmod: '2026-01-07', personaTitle: 'Hip-Hop\'s Self-Made Outcast', contentGrade: null },
+		{ name: 'tyler-the-creator', link: true, hasImage: true, lastmod: '2026-03-30', personaTitle: 'Hip-Hop\'s Self-Made Outcast', contentGrade: null },
 		{ name: 'zayn-malik', link: true, hasImage: true, lastmod: '2025-12-09', personaTitle: 'Pop\'s Mysterious Recluse', contentGrade: null },
 		{ name: 'zoe-kravitz', link: true, hasImage: true, lastmod: '2026-03-24', personaTitle: 'Hollywood\'s Beautiful Decoy', contentGrade: 8.8 },
 		{ name: 'adam-driver', link: false, hasImage: false, lastmod: '2025-06-25', personaTitle: null, contentGrade: null },

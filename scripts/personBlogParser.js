@@ -24,6 +24,61 @@ import {
 
 dotenv.config();
 
+/**
+ * @typedef {Record<string, unknown> | unknown[]} JsonLdSnippet
+ */
+
+/**
+ * @typedef {{
+ *   hook?: number,
+ *   enneagram?: number,
+ *   evidence?: number,
+ *   writing?: number,
+ *   originality?: number,
+ *   overall?: number,
+ *   letter?: string,
+ *   graded_at?: string
+ * }} ContentQuality
+ */
+
+/**
+ * @typedef {{
+ *   title: string,
+ *   meta_title: string,
+ *   persona_title: string,
+ *   description: string,
+ *   author: string,
+ *   date: string,
+ *   loc: string,
+ *   lastmod: string,
+ *   changefreq: string,
+ *   priority: string,
+ *   published: boolean,
+ *   enneagram: string | number | null,
+ *   type: string[],
+ *   person: string,
+ *   suggestions: string[],
+ *   wikipedia: string,
+ *   twitter: string,
+ *   instagram: string,
+ *   tiktok: string,
+ *   content: string,
+ *   jsonld_snippet: JsonLdSnippet | null,
+ *   content_quality?: ContentQuality | null
+ * }} BlogRecord
+ */
+
+/**
+ * @typedef {BlogRecord & {
+ *   _has_content_quality: boolean,
+ *   _has_valid_content_quality: boolean
+ * }} PersonBlogEntry
+ */
+
+/**
+ * @typedef {{ gradesOnly?: boolean }} InsertIntoSupabaseOptions
+ */
+
 const SUPABASE_URL = process.env.SUPABASE_URL || process.env.PUBLIC_SUPABASE_URL;
 const SUPABASE_SERVICE_KEY = process.env.SUPABASE_SERVICE_KEY;
 const EXCLUDED_FILE_BASENAMES = new Set([
@@ -41,6 +96,10 @@ function createSupabaseServiceClient() {
 	return createClient(SUPABASE_URL, SUPABASE_SERVICE_KEY);
 }
 
+/**
+ * @param {number} overall
+ * @returns {string}
+ */
 export function getLetterGrade(overall) {
 	if (overall >= 9.5) return 'A+';
 	if (overall >= 9.0) return 'A';
@@ -51,12 +110,20 @@ export function getLetterGrade(overall) {
 	return 'F';
 }
 
+/**
+ * @param {unknown} value
+ * @returns {number | null}
+ */
 export function normalizeScore(value) {
 	if (value === null || value === undefined || value === '') return null;
 	const n = Number(value);
 	return Number.isFinite(n) ? n : null;
 }
 
+/**
+ * @param {unknown} raw
+ * @returns {ContentQuality | null | undefined}
+ */
 export function normalizeContentQuality(raw) {
 	if (raw === null) return null;
 	if (raw === undefined) return undefined;
@@ -76,21 +143,25 @@ export function normalizeContentQuality(raw) {
 		return undefined;
 	}
 
-	const hook = normalizeScore(raw.hook);
-	const enneagram = normalizeScore(raw.enneagram);
-	const evidence = normalizeScore(raw.evidence);
-	const writing = normalizeScore(raw.writing);
-	const originality = normalizeScore(raw.originality);
-	const overall = normalizeScore(raw.overall);
+	const qualityInput = /** @type {Record<string, unknown>} */ (raw);
+	const hook = normalizeScore(qualityInput.hook);
+	const enneagram = normalizeScore(qualityInput.enneagram);
+	const evidence = normalizeScore(qualityInput.evidence);
+	const writing = normalizeScore(qualityInput.writing);
+	const originality = normalizeScore(qualityInput.originality);
+	const overall = normalizeScore(qualityInput.overall);
 	const letter =
-		typeof raw.letter === 'string' && raw.letter.trim() !== ''
-			? raw.letter.trim().toUpperCase()
+		typeof qualityInput.letter === 'string' && qualityInput.letter.trim() !== ''
+			? qualityInput.letter.trim().toUpperCase()
 			: overall !== null
 				? getLetterGrade(overall)
 				: null;
 	const gradedAt =
-		typeof raw.graded_at === 'string' && raw.graded_at.trim() !== '' ? raw.graded_at.trim() : null;
+		typeof qualityInput.graded_at === 'string' && qualityInput.graded_at.trim() !== ''
+			? qualityInput.graded_at.trim()
+			: null;
 
+	/** @type {ContentQuality} */
 	const normalized = {};
 	if (hook !== null) normalized.hook = hook;
 	if (enneagram !== null) normalized.enneagram = enneagram;
@@ -104,6 +175,10 @@ export function normalizeContentQuality(raw) {
 	return Object.keys(normalized).length > 0 ? normalized : undefined;
 }
 
+/**
+ * @param {string} filePath
+ * @returns {boolean}
+ */
 export function shouldProcessMarkdownFile(filePath) {
 	const basename = path.basename(filePath);
 
@@ -114,6 +189,10 @@ export function shouldProcessMarkdownFile(filePath) {
 	return !EXCLUDED_FILE_SUFFIXES.some((suffix) => basename.endsWith(suffix));
 }
 
+/**
+ * @param {string[]} markdownFiles
+ * @returns {string[]}
+ */
 export function filterProcessableMarkdownFiles(markdownFiles) {
 	return markdownFiles.filter((filePath) => shouldProcessMarkdownFile(filePath));
 }
@@ -121,8 +200,8 @@ export function filterProcessableMarkdownFiles(markdownFiles) {
 /**
  * Recursively finds all markdown files in a directory
  * @param {string} dir - Directory to search
- * @param {Array} fileList - Accumulator for found files
- * @returns {Promise<Array>} - List of markdown file paths
+ * @param {string[]} [fileList=[]] - Accumulator for found files
+ * @returns {Promise<string[]>} - List of markdown file paths
  */
 async function findMarkdownFiles(dir, fileList = []) {
 	const files = await fs.readdir(dir);
@@ -145,7 +224,7 @@ async function findMarkdownFiles(dir, fileList = []) {
 /**
  * Extract JSON-LD from HTML content
  * @param {string} content - HTML content
- * @returns {object|Array|null} - Parsed JSON-LD object or null if not found/invalid
+ * @returns {JsonLdSnippet | null} - Parsed JSON-LD object or null if not found/invalid
  */
 export function extractJsonLd(content) {
 	const ldJsonRegex = /<script type="application\/ld\+json">([\s\S]*?)<\/script>/;
@@ -197,7 +276,7 @@ export function cleanupContent(content) {
 /**
  * Parse a markdown file and extract necessary data
  * @param {string} filePath - Path to markdown file
- * @returns {Object} - Parsed blog data
+ * @returns {Promise<PersonBlogEntry>} - Parsed blog data
  */
 export async function parseMarkdownFile(filePath) {
 	const fileContent = await fs.readFile(filePath, 'utf8');
@@ -253,7 +332,7 @@ export async function parseMarkdownFile(filePath) {
 /**
  * Main function to process all markdown files and prepare for database
  * @param {string} rootDir - Root directory to start searching
- * @returns {Promise<Array>} - Array of parsed blog entries
+ * @returns {Promise<PersonBlogEntry[]>} - Array of parsed blog entries
  */
 async function processBlogEntries(rootDir) {
 	const markdownFiles = filterProcessableMarkdownFiles(await findMarkdownFiles(rootDir));
@@ -262,10 +341,11 @@ async function processBlogEntries(rootDir) {
 
 /**
  * Process a specific list of markdown files
- * @param {Array<string>} markdownFiles - Markdown file paths
- * @returns {Promise<Array>} - Array of parsed blog entries
+ * @param {string[]} markdownFiles - Markdown file paths
+ * @returns {Promise<PersonBlogEntry[]>} - Array of parsed blog entries
  */
 async function processBlogFiles(markdownFiles) {
+	/** @type {PersonBlogEntry[]} */
 	const blogEntries = [];
 
 	for (const filePath of markdownFiles) {
@@ -283,7 +363,7 @@ async function processBlogFiles(markdownFiles) {
 
 /**
  * Get changed draft markdown files from git status
- * @returns {Array<string>} - Changed draft markdown files
+ * @returns {string[]} - Changed draft markdown files
  */
 function getChangedDraftMarkdownFiles() {
 	let output = '';
@@ -296,18 +376,26 @@ function getChangedDraftMarkdownFiles() {
 		return [];
 	}
 
-	return output
-		.split('\n')
-		.map((line) => line.match(/^..\s+(.+)$/)?.[1]?.trim())
-		.filter(Boolean)
-		.map((entry) => (entry.includes(' -> ') ? entry.split(' -> ').at(-1) : entry))
-		.filter((filePath) => filePath.endsWith('.md') || filePath.endsWith('.mdx'))
-		.filter((filePath) => shouldProcessMarkdownFile(filePath));
+	/** @type {string[]} */
+	const changedFiles = [];
+
+	for (const line of output.split('\n')) {
+		const entry = line.match(/^..\s+(.+)$/)?.[1]?.trim();
+		if (!entry) continue;
+
+		const filePath = entry.includes(' -> ') ? (entry.split(' -> ').at(-1) ?? '') : entry;
+		if (!filePath) continue;
+		if (!filePath.endsWith('.md') && !filePath.endsWith('.mdx')) continue;
+		if (!shouldProcessMarkdownFile(filePath)) continue;
+		changedFiles.push(filePath);
+	}
+
+	return changedFiles;
 }
 
 /**
  * Save blog entries to a JSON file (for review before DB insertion)
- * @param {Array} entries - Blog entries
+ * @param {PersonBlogEntry[]} entries - Blog entries
  * @param {string} outputPath - Path to save JSON file
  */
 async function saveBlogEntriesToJson(entries, outputPath) {
@@ -317,7 +405,8 @@ async function saveBlogEntriesToJson(entries, outputPath) {
 
 /**
  * Upsert blog entries into Supabase blogs_famous_people table
- * @param {Array} entries - Blog entries to insert
+ * @param {PersonBlogEntry[]} entries - Blog entries to insert
+ * @param {InsertIntoSupabaseOptions} [options={}] - Insert options
  */
 async function insertIntoSupabase(entries, options = {}) {
 	const supabase = createSupabaseServiceClient();
@@ -325,6 +414,7 @@ async function insertIntoSupabase(entries, options = {}) {
 
 	console.log(`Processing ${entries.length} blog entries...`);
 
+	/** @type {BlogRecord} */
 	const fields = {
 		title: '',
 		meta_title: '',
@@ -357,25 +447,24 @@ async function insertIntoSupabase(entries, options = {}) {
 				continue;
 			}
 
-			const record = {};
-			for (const key of Object.keys(fields)) {
-				record[key] = entry[key] !== undefined ? entry[key] : fields[key];
-			}
+			const { _has_content_quality, _has_valid_content_quality, ...entryRecord } = entry;
+			/** @type {BlogRecord} */
+			const record = { ...fields, ...entryRecord };
 
 			// Only update content_quality when explicitly present in frontmatter.
-			if (!entry._has_content_quality || !entry._has_valid_content_quality) {
+			if (!_has_content_quality || !_has_valid_content_quality) {
 				delete record.content_quality;
 			}
-			if (entry._has_content_quality && !entry._has_valid_content_quality) {
+			if (_has_content_quality && !_has_valid_content_quality) {
 				console.warn(`Invalid content_quality for ${entry.person}; preserving DB value`);
 			}
 
 			if (gradesOnly) {
-				if (!entry._has_content_quality) {
+				if (!_has_content_quality) {
 					console.log(`Skipped (no content_quality): ${entry.person}`);
 					continue;
 				}
-				if (!entry._has_valid_content_quality) {
+				if (!_has_valid_content_quality) {
 					console.log(`Skipped (invalid content_quality): ${entry.person}`);
 					continue;
 				}
@@ -398,6 +487,7 @@ async function insertIntoSupabase(entries, options = {}) {
 					continue;
 				}
 
+				/** @type {{ content_quality: ContentQuality | null }} */
 				const gradePayload =
 					record.content_quality === undefined
 						? { content_quality: null }
@@ -430,8 +520,7 @@ async function insertIntoSupabase(entries, options = {}) {
 
 			if (existing) {
 				// Preserve DB publish state for existing rows.
-				const updateRecord = { ...record };
-				delete updateRecord.published;
+				const { published: _published, ...updateRecord } = record;
 
 				const { error } = await supabase
 					.from('blogs_famous_people')
@@ -464,6 +553,9 @@ async function insertIntoSupabase(entries, options = {}) {
 	console.log('Processing complete!');
 }
 
+/**
+ * @returns {Promise<void>}
+ */
 async function main() {
 	try {
 		const args = process.argv.slice(2);
@@ -471,6 +563,7 @@ async function main() {
 		const gradesOnly = args.includes('--grades-only');
 		const personFilter = args.find((arg) => !arg.startsWith('--')); // Optional: e.g. "Malcolm-Gladwell"
 		const normalizedPersonFilter = normalizePersonalitySlug(personFilter);
+		/** @type {PersonBlogEntry[]} */
 		let blogEntries = [];
 
 		if (changedOnly) {
