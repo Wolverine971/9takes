@@ -1,22 +1,35 @@
 <!-- src/lib/components/molecules/Context.svelte -->
-<script context="module">
+<script module lang="ts">
+	import type { Action } from 'svelte/action';
+
 	let id = 1;
 
-	export function uid() {
+	export function uid(): string {
 		return `ui:${id++}`;
 	}
 
-	export function clone(json) {
-		return JSON.parse(JSON.stringify(json));
+	export function clone<T>(json: T): T {
+		return JSON.parse(JSON.stringify(json)) as T;
 	}
 
-	export function onClickOutside(element, callback) {
-		const onClick = (event) => !element.contains(event.target) && callback();
+	type OutsideClickCallback = () => void;
+
+	export const onClickOutside: Action<HTMLElement, OutsideClickCallback> = (
+		element,
+		callback = () => {}
+	) => {
+		const onClick = (event: MouseEvent) => {
+			const target = event.target;
+			if (!(target instanceof Node)) return;
+			if (!element.contains(target)) {
+				callback();
+			}
+		};
 
 		document.body.addEventListener('mousedown', onClick);
 
 		return {
-			update(newCallback) {
+			update(newCallback = () => {}) {
 				callback = newCallback;
 			},
 
@@ -24,7 +37,7 @@
 				document.body.removeEventListener('mousedown', onClick);
 			}
 		};
-	}
+	};
 </script>
 
 <div class="ui">
@@ -37,10 +50,6 @@
 		box-sizing: border-box;
 	}
 
-	/* Design tokens */
-	.ui {
-	}
-
 	/* Utility classes */
 	.ui :global(.visually-hidden) {
 		clip: rect(0 0 0 0);
@@ -50,9 +59,6 @@
 		position: absolute;
 		white-space: nowrap;
 		width: 1px;
-	}
-
-	.ui :global(.input) {
 	}
 
 	.ui :global(.label) {

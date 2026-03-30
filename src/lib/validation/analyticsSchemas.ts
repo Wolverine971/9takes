@@ -1,6 +1,6 @@
 // src/lib/validation/analyticsSchemas.ts
 import { z } from 'zod';
-import { ANALYTICS_SCOPES } from '$lib/analytics/pageAnalytics';
+import { ANALYTICS_MAX_DELTA_MS, ANALYTICS_SCOPES } from '$lib/analytics/pageAnalytics';
 
 export const analyticsScopeSchema = z.enum(ANALYTICS_SCOPES);
 
@@ -18,7 +18,7 @@ export const pageViewSchema = z.object({
 
 export const pagePingSchema = z.object({
 	visit_key: z.string().uuid(),
-	engaged_ms_delta: z.number().int().min(0).max(15_000).default(0),
+	engaged_ms_delta: z.number().int().min(0).max(ANALYTICS_MAX_DELTA_MS).default(0),
 	max_scroll_pct: z.number().int().min(0).max(100).optional().default(0)
 });
 

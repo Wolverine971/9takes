@@ -200,9 +200,11 @@ Bad bridges to avoid:
 Every sentence you write into the blog must pass as human-written. Do NOT use any of these patterns:
 
 **Banned punctuation:**
+
 - Em-dashes. Never use them. Use periods, commas, colons, or rewrite the sentence instead.
 
 **Banned words and phrases:**
+
 - "Moreover," "Furthermore," "Additionally," "Indeed,"
 - "It's worth noting" / "It bears mentioning" / "Notably,"
 - "Delve," "delve into"
@@ -218,12 +220,14 @@ Every sentence you write into the blog must pass as human-written. Do NOT use an
 - "A closer look reveals"
 
 **Banned structures:**
+
 - Starting consecutive sentences with "This..." as a vague pronoun
 - Tricolon lists that escalate artificially ("not just X, but Y, and ultimately Z")
 - Overuse of parallel structure in bridge sentences
 - Rhetorical questions followed immediately by their own answer in the same sentence
 
 **What to do instead:**
+
 - Write short, direct sentences
 - Use the author's existing vocabulary and sentence patterns from the rest of the blog
 - Match the rhythm of the surrounding prose. If the blog uses fragments, use fragments. If it uses long sentences, match that
@@ -270,7 +274,7 @@ Output:
 - [X] sections/transitions untouched (already strong)
 
 ### Remaining Concerns
-[Any structural issues that require the writer's judgment — e.g., "Section 4 serves the thesis weakly. It could be cut entirely or needs substantial new content to earn its place. Your call."]
+[Any structural issues that require the writer's judgment. Example: "Section 4 serves the thesis weakly. It could be cut entirely or needs substantial new content to earn its place. Your call."]
 ```
 
 ---

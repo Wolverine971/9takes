@@ -38,6 +38,22 @@ class Logger {
 		return `[${timestamp}] [${level}] ${message}${contextStr}`;
 	}
 
+	private async trackError(message: string, context?: LogContext, error?: Error) {
+		if (dev || typeof window !== 'undefined' || !error) return;
+
+		try {
+			const { trackServerError } = await import('$lib/server/errorTracking');
+			await trackServerError({
+				level: 'ERROR',
+				message,
+				error,
+				context
+			});
+		} catch (trackingError) {
+			console.error('Failed to forward error to tracking', trackingError);
+		}
+	}
+
 	private log(
 		level: LogLevel,
 		levelStr: string,
@@ -52,9 +68,8 @@ class Logger {
 		switch (level) {
 			case LogLevel.ERROR:
 				console.error(formattedMessage, error);
-				// In production, you might want to send errors to a service like Sentry
 				if (!dev && error) {
-					// TODO: Send to error tracking service
+					void this.trackError(message, context, error);
 				}
 				break;
 			case LogLevel.WARN:

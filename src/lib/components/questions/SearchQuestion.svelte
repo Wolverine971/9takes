@@ -6,6 +6,7 @@
 	import { createEventDispatcher, onDestroy } from 'svelte';
 	import { browser } from '$app/environment';
 	import type { User } from '$lib/types/questions';
+	import type { ComboBoxSelectableOption } from '$lib/types/combobox';
 
 	// Type for search result item from API
 	interface SearchResultItem {
@@ -23,27 +24,20 @@
 	}
 
 	const dispatch = createEventDispatcher();
-	export let data: SearchQuestionData;
+	let { data }: { data: SearchQuestionData } = $props();
 
-	// Option type for ComboBox
-	interface ComboBoxOption {
-		text: string;
-		displayText?: string;
-		value: string;
-	}
-
-	let question: string = '';
-	let options: ComboBoxOption[] = [];
+	let question = $state('');
+	let options = $state<ComboBoxSelectableOption[]>([]);
 	let timer: ReturnType<typeof setTimeout> | null = null;
-	let isSearching = false;
+	let isSearching = $state(false);
 	let abortController: AbortController | null = null;
-	let searchError = '';
-	let isMobile = false;
+	let searchError = $state('');
+	let isMobile = $state(false);
 
-	// Check if mobile
-	$: if (browser) {
+	$effect(() => {
+		if (!browser) return;
 		isMobile = window.innerWidth < 768;
-	}
+	});
 
 	// Clean up resources on component destruction
 	onDestroy(() => {
@@ -66,6 +60,11 @@
 			searchError = 'Failed to navigate. Please try again.';
 		}
 	};
+
+	function handleSubmit(event: SubmitEvent) {
+		event.preventDefault();
+		void goToCreateQuestionPage();
+	}
 
 	// Enhanced search with abort controller for cancellable requests
 	const searchES = async (searchString: string) => {
@@ -122,7 +121,7 @@
 						value: item.url // Use URL as the value for simpler handling
 					};
 				})
-				.filter((opt: ComboBoxOption) => opt.text && opt.value);
+				.filter((opt: ComboBoxSelectableOption) => opt.text && opt.value);
 		} catch (error) {
 			// Only show error for real failures, not aborted requests
 			if (!(error instanceof DOMException && error.name === 'AbortError')) {
@@ -159,15 +158,17 @@
 	};
 
 	// Memoized button properties
-	$: buttonText = getButtonText(data, isMobile);
-	$: buttonDisabled = !data?.canAskQuestion && data?.user?.id;
-	$: placeholder = data?.user?.id
-		? isMobile
-			? 'Ask a question...'
-			: 'Ask a question here'
-		: isMobile
-			? 'Search...'
-			: 'Search questions...';
+	let buttonText = $derived(getButtonText(data, isMobile));
+	let buttonDisabled = $derived(Boolean(!data?.canAskQuestion && data?.user?.id));
+	let placeholder = $derived(
+		data?.user?.id
+			? isMobile
+				? 'Ask a question...'
+				: 'Ask a question here'
+			: isMobile
+				? 'Search...'
+				: 'Search questions...'
+	);
 
 	function getButtonText(pageData: SearchQuestionData, mobile: boolean): string {
 		if (!pageData?.user?.id) return mobile ? 'Sign up' : 'Sign up to ask';
@@ -198,7 +199,7 @@
 	}
 </script>
 
-<form class="search-form" on:submit|preventDefault={goToCreateQuestionPage}>
+<form class="search-form" onsubmit={handleSubmit}>
 	<div class="search-wrapper">
 		<div class="search-container" class:is-searching={isSearching}>
 			<Context>
@@ -206,17 +207,17 @@
 					label=""
 					name="question"
 					{placeholder}
-					on:inputChange={({ detail: { text } }) => debounce(text)}
-					on:selectQuestion={() => dispatch('createQuestion', question)}
+					onInputChange={({ text }) => debounce(text)}
+					onSelectQuestion={() => dispatch('createQuestion', question)}
 					{options}
-					on:selection={({ detail }) => handleQuestionSelected(detail)}
+					onSelection={handleQuestionSelected}
 					loading={isSearching}
 					value={question}
 					filter={() => options}
 				>
-					<span slot="option" let:option>
+					{#snippet option(option)}
 						{@html option.displayText || option.text}
-					</span>
+					{/snippet}
 				</ComboBox>
 			</Context>
 			{#if isSearching}
@@ -319,9 +320,9 @@
 		gap: 0.5rem;
 		margin-top: 0.5rem;
 		padding: 0.5rem 0.75rem;
-		background-color: rgba(239, 68, 68, 0.15);
+		background-color: color-mix(in srgb, var(--error) 15%, transparent);
 		color: var(--error);
-		border: 1px solid rgba(239, 68, 68, 0.3);
+		border: 1px solid color-mix(in srgb, var(--error) 30%, transparent);
 		border-radius: 0.375rem;
 		font-size: 0.875rem;
 		animation: slideIn 0.2s ease-out;
@@ -401,7 +402,7 @@
 			cursor: not-allowed;
 		}
 
-		&:focus-visible {
+		&:focus {
 			outline: 2px solid var(--accent-light);
 			outline-offset: 2px;
 		}

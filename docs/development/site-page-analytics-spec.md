@@ -182,7 +182,7 @@ Implement in `src/routes/+layout.svelte` (or extracted analytics client module):
 1. On initial load and each route navigation (`afterNavigate`), call `page-view`.
 2. Maintain per-view `visit_key` and in-memory timer state.
 3. Track activity signals (`pointerdown`, `keydown`, `scroll`) and visibility (`visibilitychange`).
-4. Every 15s (when visible + active), send `page-ping` with `engaged_ms_delta`.
+4. Every 30s (when visible + active), send `page-ping` with `engaged_ms_delta`.
 5. On navigation away/unload, send `page-exit` via `navigator.sendBeacon` fallback to `fetch`.
 
 ### Active-Time Rules (V1)
@@ -190,8 +190,8 @@ Implement in `src/routes/+layout.svelte` (or extracted analytics client module):
 - Count time only when:
   - document is visible
   - user has activity within last 30s
-- Ping interval: 15s
-- Max delta per ping: 15,000ms
+- Ping interval: 30s
+- Max delta per ping: 30,000ms
 - Cap per-page engaged time at 30 minutes in V1 to reduce outliers
 
 ### Path Classification
@@ -239,7 +239,7 @@ Response:
 ```json
 {
 	"visit_key": "uuid",
-	"engaged_ms_delta": 15000,
+	"engaged_ms_delta": 30000,
 	"max_scroll_pct": 62
 }
 ```

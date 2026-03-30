@@ -1,60 +1,123 @@
 <!-- src/lib/components/molecules/ComboBox.svelte -->
-<script>
-	import { createEventDispatcher } from 'svelte';
-	import { onClickOutside } from '$lib/components/molecules/Context.svelte';
+<script lang="ts">
+	import type { Snippet } from 'svelte';
 	import { tick } from 'svelte';
+	import { onClickOutside } from '$lib/components/molecules/Context.svelte';
+	import type {
+		ComboBoxFilter,
+		ComboBoxGroupOption,
+		ComboBoxOption,
+		ComboBoxSelectableOption
+	} from '$lib/types/combobox';
 
-	const dispatch = createEventDispatcher();
+	interface Props {
+		disabled?: boolean;
+		error?: string;
+		id?: string;
+		label?: string;
+		loading?: boolean;
+		name?: string;
+		options?: ComboBoxOption[];
+		placeholder?: string;
+		readonly?: boolean;
+		required?: boolean;
+		value?: string;
+		filter?: ComboBoxFilter;
+		onInputChange?: (detail: { text: string }) => void;
+		onSelectQuestion?: (detail: { text: string }) => void;
+		onSelection?: (value: string) => void;
+		iconStart?: Snippet;
+		group?: Snippet<[ComboBoxGroupOption]>;
+		option?: Snippet<[ComboBoxSelectableOption]>;
+	}
 
-	// Props with defaults
-	export let disabled = false;
-	export let error = undefined;
-	export let id = crypto.randomUUID();
-	export let label = '';
-	export let loading = false;
-	export let name;
-	export let options = [];
-	export let placeholder = undefined;
-	export let readonly = false;
-	export let required = false;
-	export let value = '';
+	let {
+		disabled = false,
+		error,
+		id = crypto.randomUUID(),
+		label = '',
+		loading = false,
+		name,
+		options = [],
+		placeholder,
+		readonly = false,
+		required = false,
+		value = '',
+		filter = defaultFilter,
+		onInputChange,
+		onSelectQuestion,
+		onSelection,
+		iconStart,
+		group: groupTemplate,
+		option: optionTemplate
+	}: Props = $props();
 
-	// Custom filter function
-	export let filter = (text) => {
+	function isGroupOption(option: ComboBoxOption): option is ComboBoxGroupOption {
+		return 'options' in option && Array.isArray(option.options);
+	}
+
+	function defaultFilter(text: string): ComboBoxOption[] {
 		if (!text) return options;
 		const sanitized = text.trim().toLowerCase();
-		return options.reduce((acc, option) => {
-			if (option.options) {
-				const filteredOptions = option.options.filter((o) =>
-					o.text.toLowerCase().includes(sanitized)
+		return options.reduce<ComboBoxOption[]>((acc, option) => {
+			if (isGroupOption(option)) {
+				const filteredOptions = option.options.filter((subOption) =>
+					subOption.text.toLowerCase().includes(sanitized)
 				);
-				if (filteredOptions.length) acc.push({ ...option, options: filteredOptions });
+				if (filteredOptions.length) {
+					acc.push({ ...option, options: filteredOptions });
+				}
 			} else if (option.text.toLowerCase().includes(sanitized)) {
 				acc.push(option);
 			}
 			return acc;
 		}, []);
-	};
-
-	// Component state
-	let listElement;
-	let inputElement;
-	let list = [];
-	let isListOpen = false;
-	let selectedOption;
-	let activeIndex = -1;
-	let debounceTimer;
-	let cachedResults = new Map();
-
-	// Handle options changes
-	$: if (options?.length) {
-		const val = inputElement?.value;
-		showList(val);
 	}
 
+	function flattenOptions(optionList: ComboBoxOption[]): ComboBoxSelectableOption[] {
+		return optionList.flatMap((option) => (isGroupOption(option) ? option.options : option));
+	}
+
+	function findSelectableOption(searchText: string): ComboBoxSelectableOption | undefined {
+		return flattenOptions(options).find((option) => option.text === searchText);
+	}
+
+	let listElement = $state<HTMLUListElement | null>(null);
+	let inputElement = $state<HTMLInputElement | null>(null);
+	let list = $state<ComboBoxOption[]>([]);
+	let isListOpen = $state(false);
+	let selectedOption = $state<ComboBoxSelectableOption | null>(null);
+	let selectedValue = $state('');
+	let activeIndex = $state(-1);
+	let debounceTimer = $state<ReturnType<typeof setTimeout> | null>(null);
+	let internalLoading = $state(false);
+	const cachedResults = new Map<string, ComboBoxOption[]>();
+
+	let isLoading = $derived(loading || internalLoading);
+
+	$effect(() => {
+		selectedValue = value;
+	});
+
+	$effect(() => {
+		if (!options.length) {
+			list = [];
+			cachedResults.clear();
+			return;
+		}
+
+		cachedResults.clear();
+		void showList(inputElement?.value ?? '');
+	});
+
 	// Handle keyboard navigation and input events
-	async function handleInputEvent(event) {
+	async function handleInputEvent(event: KeyboardEvent) {
 		const { type, key } = event;
+		const input = event.currentTarget;
+
+		if (!(input instanceof HTMLInputElement)) {
+			return;
+		}
 
 		if (type === 'keyup') {
 			if (['Escape', 'ArrowUp', 'ArrowLeft', 'ArrowRight', 'Enter', 'Tab', 'Shift'].includes(key)) {
@@ -63,8 +126,8 @@
 
 			if (key === 'ArrowDown') {
 				event.preventDefault();
-				await showList(event.target.value);
-				const firstOption = listElement?.querySelector(
+				await showList(input.value);
+				const firstOption = listElement?.querySelector<HTMLElement>(
 					`[role="option"]:not([aria-disabled="true"])`
 				);
 				if (firstOption) {
@@ -74,19 +137,21 @@
 				return;
 			}
 
-			// Debounce input change to avoid excessive filtering
-			clearTimeout(debounceTimer);
+			internalLoading = false;
+			if (debounceTimer) {
+				clearTimeout(debounceTimer);
+			}
 			debounceTimer = setTimeout(() => {
-				dispatch('inputChange', { text: event.target.value });
-				showList(event.target.value);
+				onInputChange?.({ text: input.value });
+				void showList(input.value);
 			}, 150);
 		} else if (type === 'keydown') {
 			if (key === 'Escape') {
 				hideList();
 			} else if (key === 'Enter') {
 				event.preventDefault();
-				loading = true;
-				dispatch('selectQuestion', { text: event.target.value });
+				internalLoading = true;
+				onSelectQuestion?.({ text: input.value });
 			} else if (key === 'Tab') {
 				hideList();
 			}
@@ -94,39 +159,47 @@
 	}
 
 	// Handle option click
-	function handleOptionClick(event) {
-		if (!event.target.closest(`[role="option"]:not([aria-disabled="true"])`)) return;
-		selectOption(event.target.closest(`[role="option"]`));
+	function handleOptionClick(event: MouseEvent) {
+		const target = event.target;
+		if (!(target instanceof Element)) return;
+
+		const optionElement = target.closest<HTMLElement>(
+			`[role="option"]:not([aria-disabled="true"])`
+		);
+		if (!optionElement) return;
+
+		selectOption(optionElement);
 		hideList();
 	}
 
 	// Handle keyboard navigation in list
-	function handleListKeyDown(event) {
+	function handleListKeyDown(event: KeyboardEvent) {
+		if (!listElement) return;
+
 		const { key } = event;
-		const options = Array.from(
-			listElement.querySelectorAll(`[role="option"]:not([aria-disabled="true"])`)
+		const selectableOptions = Array.from(
+			listElement.querySelectorAll<HTMLElement>(`[role="option"]:not([aria-disabled="true"])`)
 		);
 
-		if (options.length === 0) return;
+		if (selectableOptions.length === 0) return;
 
 		if (key === 'ArrowUp' || key === 'ArrowDown') {
 			event.preventDefault();
 
-			// Calculate new index
 			let newIndex = activeIndex;
 			if (key === 'ArrowUp') {
-				newIndex = activeIndex <= 0 ? options.length - 1 : activeIndex - 1;
+				newIndex = activeIndex <= 0 ? selectableOptions.length - 1 : activeIndex - 1;
 			} else {
-				newIndex = activeIndex >= options.length - 1 ? 0 : activeIndex + 1;
+				newIndex = activeIndex >= selectableOptions.length - 1 ? 0 : activeIndex + 1;
 			}
 
-			// Update active option
 			activeIndex = newIndex;
-			options[newIndex].focus();
+			selectableOptions[newIndex]?.focus();
 		} else if (key === 'Enter') {
 			event.preventDefault();
-			if (document.activeElement.matches(`[role="option"]`)) {
-				selectOption(document.activeElement);
+			const activeElement = document.activeElement;
+			if (activeElement instanceof HTMLElement && activeElement.matches(`[role="option"]`)) {
+				selectOption(activeElement);
 				hideList();
 			}
 		} else if (key === 'Escape') {
@@ -136,31 +209,25 @@
 			hideList();
 		} else if (key === 'Home') {
 			event.preventDefault();
-			if (options.length > 0) {
-				activeIndex = 0;
-				options[0].focus();
-			}
+			activeIndex = 0;
+			selectableOptions[0]?.focus();
 		} else if (key === 'End') {
 			event.preventDefault();
-			if (options.length > 0) {
-				activeIndex = options.length - 1;
-				options[options.length - 1].focus();
-			}
+			activeIndex = selectableOptions.length - 1;
+			selectableOptions[selectableOptions.length - 1]?.focus();
 		} else {
-			inputElement.focus();
+			inputElement?.focus();
 		}
 	}
 
-	// Deduplicate options based on value
-	function deduplicateOptions(optionsList) {
-		const seen = new Set();
-		const deduped = [];
+	function deduplicateOptions(optionsList: ComboBoxOption[]): ComboBoxOption[] {
+		const seen = new Set<string>();
+		const deduped: ComboBoxOption[] = [];
 
 		for (const option of optionsList) {
-			if (option.options) {
-				// Handle grouped options
-				const dedupedSubOptions = [];
-				const subSeen = new Set();
+			if (isGroupOption(option)) {
+				const dedupedSubOptions: ComboBoxSelectableOption[] = [];
+				const subSeen = new Set<string>();
 
 				for (const subOption of option.options) {
 					const key = subOption.value || subOption.text;
@@ -174,7 +241,6 @@
 					deduped.push({ ...option, options: dedupedSubOptions });
 				}
 			} else {
-				// Handle regular options
 				const key = option.value || option.text;
 				if (!seen.has(key)) {
 					seen.add(key);
@@ -186,53 +252,52 @@
 		return deduped;
 	}
 
-	// Show dropdown list with filtered options
-	async function showList(inputValue) {
-		// Check cache first
+	async function showList(inputValue: string) {
 		const cacheKey = inputValue || '';
 		if (cachedResults.has(cacheKey)) {
-			list = cachedResults.get(cacheKey);
+			list = cachedResults.get(cacheKey) ?? [];
 		} else {
 			const filteredList = inputValue === '' ? options : await filter(inputValue);
 			list = deduplicateOptions(filteredList);
 			cachedResults.set(cacheKey, list);
 
-			// Limit cache size to prevent memory issues
 			if (cachedResults.size > 50) {
 				const firstKey = cachedResults.keys().next().value;
-				cachedResults.delete(firstKey);
+				if (firstKey) {
+					cachedResults.delete(firstKey);
+				}
 			}
 		}
 
 		isListOpen = true;
 		activeIndex = -1;
-
-		// Ensure DOM is updated before attempting to focus
 		await tick();
 	}
 
-	// Hide dropdown list
 	function hideList() {
 		if (!isListOpen) return;
-		if (selectedOption) {
+		if (selectedOption && inputElement) {
 			inputElement.value = selectedOption.text;
 		}
 		isListOpen = false;
 		activeIndex = -1;
-		inputElement.focus();
+		inputElement?.focus();
 	}
 
-	// Select an option
-	function selectOption(optionElement) {
-		loading = true;
+	function selectOption(optionElement: HTMLElement) {
+		internalLoading = true;
 		const searchText = optionElement.dataset.text;
-		const selection = options.find((o) => o.text === searchText);
-		if (selection) {
-			value = selection.value;
-			selectedOption = selection;
+		if (!searchText) return;
+
+		const selection = findSelectableOption(searchText);
+		if (!selection) return;
+
+		selectedValue = selection.value ?? '';
+		selectedOption = selection;
+		if (inputElement) {
 			inputElement.value = selection.text;
-			dispatch('selection', value);
 		}
+		onSelection?.(selectedValue);
 	}
 </script>
 
@@ -247,18 +312,15 @@
 	{/if}
 
 	<div class="combobox__input-container" use:onClickOutside={hideList}>
-		<slot name="icon-start" />
+		{@render iconStart?.()}
 
 		<input
 			bind:this={inputElement}
-			on:focus
-			on:blur
-			on:input
-			on:keyup={handleInputEvent}
-			on:keydown={handleInputEvent}
-			on:mousedown={() => showList(inputElement?.value || '')}
+			onkeyup={handleInputEvent}
+			onkeydown={handleInputEvent}
+			onmousedown={() => showList(inputElement?.value || '')}
 			class="combobox__input"
-			class:loading
+			class:loading={isLoading}
 			{id}
 			{name}
 			type="text"
@@ -276,7 +338,7 @@
 			aria-describedby={error ? `${id}-error` : undefined}
 		/>
 
-		{#if loading}
+		{#if isLoading}
 			<div class="combobox__loading-indicator" aria-hidden="true"></div>
 		{/if}
 
@@ -286,34 +348,38 @@
 				class="combobox__list"
 				role="listbox"
 				aria-label={label || 'Options'}
-				on:click={handleOptionClick}
-				on:keydown={handleListKeyDown}
+				onclick={handleOptionClick}
+				onkeydown={handleListKeyDown}
 				bind:this={listElement}
 				tabindex="-1"
 			>
 				{#each list as option, i (`${option?.value || option?.text || ''}_${i}`)}
-					{#if option.options}
+					{#if isGroupOption(option)}
 						<li class="combobox__group-heading" role="presentation">
-							<slot name="group" {option}>
+							{#if groupTemplate}
+								{@render groupTemplate(option)}
+							{:else}
 								{option.text}
-							</slot>
+							{/if}
 						</li>
 						{#each option.options as subOption, j (`${option?.text || i}_${subOption?.value || subOption?.text || ''}_${j}`)}
 							<li
 								class="combobox__option"
 								class:disabled={subOption.disabled}
-								class:selected={value === subOption.value}
+								class:selected={selectedValue === subOption.value}
 								role="option"
-								tabindex={subOption.disabled ? undefined : '-1'}
+								tabindex={subOption.disabled ? undefined : -1}
 								data-text={subOption.text}
 								data-value={subOption.value}
-								aria-selected={value === subOption.value}
-								aria-disabled={subOption.disabled}
+								aria-selected={selectedValue === subOption.value}
+								aria-disabled={subOption.disabled ?? undefined}
 							>
-								<slot name="option" option={subOption}>
+								{#if optionTemplate}
+									{@render optionTemplate(subOption)}
+								{:else}
 									{subOption.text}
-								</slot>
-								{#if subOption.value === value}
+								{/if}
+								{#if subOption.value === selectedValue}
 									<svg
 										class="combobox__check-icon"
 										viewBox="0 0 24 24"
@@ -329,18 +395,20 @@
 						<li
 							class="combobox__option"
 							class:disabled={option.disabled}
-							class:selected={value === option.value}
+							class:selected={selectedValue === option.value}
 							role="option"
-							tabindex={option.disabled ? undefined : '-1'}
+							tabindex={option.disabled ? undefined : -1}
 							data-text={option.text}
 							data-value={option.value}
-							aria-selected={value === option.value}
-							aria-disabled={option.disabled}
+							aria-selected={selectedValue === option.value}
+							aria-disabled={option.disabled ?? undefined}
 						>
-							<slot name="option" {option}>
+							{#if optionTemplate}
+								{@render optionTemplate(option)}
+							{:else}
 								{option.text}
-							</slot>
-							{#if option.value === value}
+							{/if}
+							{#if option.value === selectedValue}
 								<svg
 									class="combobox__check-icon"
 									viewBox="0 0 24 24"

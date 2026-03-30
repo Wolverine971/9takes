@@ -83,6 +83,54 @@ export type Database = {
         }
         Relationships: []
       }
+      app_error_events: {
+        Row: {
+          context: Json
+          created_at: string
+          error_message: string | null
+          error_name: string | null
+          id: number
+          level: string
+          message: string
+          method: string | null
+          request_id: string | null
+          route: string | null
+          source: string
+          stack: string | null
+          user_id: string | null
+        }
+        Insert: {
+          context?: Json
+          created_at?: string
+          error_message?: string | null
+          error_name?: string | null
+          id?: number
+          level: string
+          message: string
+          method?: string | null
+          request_id?: string | null
+          route?: string | null
+          source?: string
+          stack?: string | null
+          user_id?: string | null
+        }
+        Update: {
+          context?: Json
+          created_at?: string
+          error_message?: string | null
+          error_name?: string | null
+          id?: number
+          level?: string
+          message?: string
+          method?: string | null
+          request_id?: string | null
+          route?: string | null
+          source?: string
+          stack?: string | null
+          user_id?: string | null
+        }
+        Relationships: []
+      }
       blog_comments: {
         Row: {
           author_id: string | null
