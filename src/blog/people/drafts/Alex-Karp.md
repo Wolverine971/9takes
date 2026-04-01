@@ -38,7 +38,7 @@ He went from a biracial kid at protest marches in Philadelphia to the highest-pa
 
 He keeps tai chi swords in his offices. He calls his various properties "ski huts I sometimes work from." The thought of having children, he has said, "gives me hives."
 
-And he runs Palantir Technologies, a company that builds software connecting vast streams of data so intelligence agencies, militaries, and governments can see patterns no human analyst could find alone. A company that governments cannot function without, that critics call "the West's AI arms dealer," and that he describes as "a Frankenstein monster led by a freak show leader."
+And he runs Palantir Technologies. In plain terms: imagine every camera feed, satellite image, phone record, intercepted message, and financial transaction in a war zone appearing on one screen, with the connections drawn for you — who called whom, which truck went where, which pattern matches last week's ambush. That is what Palantir builds. Software that lets intelligence agencies, militaries, and governments see what no human analyst could piece together alone. A company that governments cannot function without, that critics call "the West's AI arms dealer," and that Karp describes as "a Frankenstein monster led by a freak show leader."
 
 The contradiction at the center of Alex Karp is not the one people think it is. Not "progressive CEO builds weapons for the military." That's the surface. The deeper contradiction: a man who has spent his entire life cultivating an identity around not belonging anywhere has made himself indispensable to everyone.
 
@@ -50,10 +50,10 @@ He hid his dyslexia for decades. Then he called it the formative moment of his l
 <summary class="accordion">TL;DR: Why Alex Karp is an Enneagram Type 4</summary>
 <div class="panel">
 <ul>
-<li><b>The Outsider Identity:</b> Biracial, dyslexic, raised at protest marches, Karp built his entire worldview around the experience of not fitting in, then turned it into a billion-dollar company.</li>
-<li><b>Authenticity Over Approval:</b> He calls himself a "freak show leader," tells Wall Street he's "an arrogant prick," and quotes St. Augustine in shareholder letters, refusing every template for how a CEO should behave.</li>
-<li><b>The Wound Becomes the Work:</b> His dyslexia, his outsider status, his inability to follow playbooks, every limitation became a competitive advantage he weaponized.</li>
-<li><b>The Philosopher's Longing:</b> "I just wanted to move to Berlin and spend all day in bed." Underneath the combative CEO is a man who wanted to be a poet.</li>
+<li><b>Outsider by constitution</b> — biracial, dyslexic, raised outside every mainstream category</li>
+<li><b>Refuses the mask</b> — quotes philosophers in shareholder letters, calls himself a "freak show leader"</li>
+<li><b>Wound became weapon</b> — every limitation turned into competitive advantage</li>
+<li><b>Poet trapped in a CEO</b> — dreamed of contemplation, built a defense empire instead</li>
 </ul>
 </div>
 </details>
@@ -172,7 +172,9 @@ At the New York Times DealBook Summit in December 2025, Karp broke his own rule 
 
 What followed went viral.
 
-He made big, looping gestures. He fidgeted in his seat. He talked fast and nervously adjusted his chair. He gripped both sides of the chair and leaned forward. A prominent venture capitalist posted the clip with the caption: "Every pre-school teacher in America should be required to watch this video of Alex Karp being completely unable to sit still in his chair."
+To understand the visual: Karp does not look like the CEO of a defense technology company. He looks like a philosophy professor who just came in from a windstorm. Wild, dark curls — untamed enough to have spawned a parody Twitter account (@AlexKarpsHair, which he says he wishes he ran). Quirky glasses. A track-suit jacket and red leather sneakers where other defense executives wear ties. The overall effect is controlled chaos, which, as a description, extends well beyond the hair.
+
+Onstage, he made big, looping gestures. He fidgeted in his seat. He talked fast and nervously adjusted his chair. He gripped both sides of the chair and leaned forward. A prominent venture capitalist posted the clip with the caption: "Every pre-school teacher in America should be required to watch this video of Alex Karp being completely unable to sit still in his chair."
 
 Most CEOs would have ignored it or issued a polished PR statement. Karp's response was pure Karp: while cross-country skiing the next morning, he decided to launch Palantir's "Neurodivergent Fellowship," a recruitment pathway for people who think faster than they can speak and cannot sit still.
 
@@ -255,3 +257,34 @@ His positions have cost him. Employees have left over his support for Israel. Th
 An ornery grape. And somewhere in a ski hut he sometimes works from, the philosopher who wanted to spend his life in bed is still awake, still restless, still building. Stopping would mean sitting still, and he has never once been able to do that.
 
 > **Disclaimer:** This analysis is speculative, based on publicly available information, and explores Alex Karp's personality through the lens of the Enneagram framework. Alex Karp has not publicly identified as any Enneagram type.
+
+<!--
+=== READER FEEDBACK (2026-04-01) ===
+
+WHAT LANDED:
+- The opening with "too poor, then too rich" is a perfect hook. Stopped me from scrolling.
+- The Thiel section is one of the strongest parts. The "feral animals" dynamic and how they chose the fight over the friendship — that's the kind of detail that makes you feel like you actually understand the relationship.
+- The ICE counter-argument ("you should be protesting for MORE Palantir") is genuinely surprising. Most profiles either skip this or just quote critics. You actually engaged with his logic.
+- The Pinot Noir comparison from the biographer is great. Used once, lands hard.
+
+WHAT FELT OVERDONE / REPEATED:
+- "Wanted to spend his life in bed" — this shows up 3-4 times (intro, Stanford section, Enneagram section, conclusion). Twice max. It loses its punch by the third hit.
+- The dyslexia arc (hid it, then revealed it) is touched on in: the intro, the TL;DR, the dedicated section, the Enneagram typing section, AND the DealBook section. That's 5 passes over the same beat. The dedicated section is the strongest — let it do the heavy lifting and trim the repeated references elsewhere to brief callbacks, not full retellings.
+- "Sub-sub-subculture" appears 3 times. The quote is distinctive enough that once in the section header and once in the body is plenty. The third reference in the Enneagram section feels like you're reaching back for a line you already spent.
+- The TL;DR bullet points and the Enneagram Type 4 section cover nearly identical ground. A reader who opens the TL;DR then reads the full section gets the same four points twice. Either make the TL;DR genuinely brief (one-liners, no explanation) or make the full section go deeper instead of re-summarizing.
+
+WHAT'S MISSING (as a curious reader):
+- What does Palantir actually DO in plain English? You say "software connecting vast streams of data" but I still don't really get it. One concrete example early on (like: "imagine every camera feed, phone record, and financial transaction in a city on one screen, with the connections drawn for you") would help a non-technical reader understand why this company matters.
+- His views on AI specifically. You mention "AI-powered targeting systems" in passing, but Karp has been vocal about AI governance, the AIP platform launch transformed Palantir's stock and business model, and there's a whole dimension of his thinking about what AI means for civilization. For an article written in 2026, this feels like a notable gap.
+- What do people who work for him actually say? You have the "exceedingly difficult" quote and the flat hierarchy bit, but a reader wants to know: is he a good boss? Do people love or fear him? One or two employee/former employee perspectives would round this out.
+- His physical presence / appearance. The DealBook fidgeting is there, but you never mention the wild curly hair, the casual dress code at a defense company, the overall visual impression. For someone this distinctive-looking, it's odd to not address it at all — especially since appearance is part of how people form impressions.
+- The conclusion is beautiful but could be slightly more grounded. It floats on poetry. One concrete forward-looking detail (what's he building next? what keeps him up at night right now?) would give it more weight.
+
+STRUCTURAL NOTES:
+- The article is long but reads fast, which is the right kind of long. The section breaks work well.
+- "A Freak Show Led by a Freak Show Leader" is the weakest section title — it's a direct quote already used in the intro. Consider something that adds new information rather than echoing.
+- The St. Augustine and Nixon quotes back-to-back in the personal section — one would be stronger. Two philosophical quotes in a row reads like a term paper for a moment.
+
+OVERALL: Strong piece. The writing is genuinely good — not the usual "here's a famous person, here's their Enneagram type" template. The main issue is repetition. This reads like it was built in layers (which makes sense for drafting) and now needs one pass where you trust the reader to remember what you already told them. Cut the repeated beats, fill in the AI/Palantir-in-plain-English gaps, and this is a top-tier article.
+===
+-->

@@ -1,7 +1,7 @@
 <!-- docs/BLOG-CROSSLINK-INDEX.md -->
 # Blog Cross-Link Index
 
-_Generated: 2026-03-30_
+_Generated: 2026-04-01_
 _Total Posts Analyzed: 174 (Published: 147, Unpublished: 27)_
 _Note: Individual type pages (enneagram-type-1 through 9) excluded from link counts_
 
@@ -15,14 +15,14 @@ _Note: Individual type pages (enneagram-type-1 through 9) excluded from link cou
 | Published posts | 147 |
 | Unpublished posts | 27 |
 | Posts with 0 outgoing links | 33 |
-| Posts with 0 incoming links | 50 |
-| Completely isolated (0 in, 0 out) | 29 |
-| Total internal cross-links | 882 |
+| Posts with 0 incoming links | 49 |
+| Completely isolated (0 in, 0 out) | 28 |
+| Total internal cross-links | 885 |
 | Average outgoing links per post | 5.1 |
 
 ---
 
-## Priority 1: Completely Isolated Posts (29 posts)
+## Priority 1: Completely Isolated Posts (28 posts)
 
 These posts have NO links in or out. Fix these first!
 
@@ -43,7 +43,6 @@ These posts have NO links in or out. Fix these first!
 | Pop Queens: The Personality Types Ruling Music Right Now | `pop-culture/pop-queens-enneagram-analysis.md` | Add 3+ outgoing links |
 | Silicon Valley Power Players: The All-In Pod and the Psychol... | `pop-culture/silicon-valley-power-players-enneagram-analysis.md` | Add 3+ outgoing links |
 | Streaming Royalty: The Personality Types That Built Empires ... | `pop-culture/streaming-royalty-enneagram-analysis.md` | Add 3+ outgoing links |
-| The Enneagram | `enneagram/enneagram-vs-personality-frameworks-comparison.md` | Add 3+ outgoing links |
 | The Royal Family: Four Enneagram Types, One Fractured Dynast... | `pop-culture/royal-family-enneagram-analysis.md` | Add 3+ outgoing links |
 | Untitled | `community/societal-ticking-time-bombs-fact-check.md` | Add 3+ outgoing links |
 | Untitled | `pop-culture/epstien-research/Jeffrey-Epstein-luring-tactics.md` | Add 3+ outgoing links |
@@ -67,12 +66,12 @@ These posts don't link to any other content.
 | Post Title | Path | Incoming Links |
 |------------|------|----------------|
 | Influencer Enneagram Types: Why Type 3s Dominate Instagram | `pop-culture/influencer-enneagram-types-instagram.md` | 2 |
+| The Enneagram | `enneagram/enneagram-vs-personality-frameworks-comparison.md` | 1 |
 | Breaking Points: How a Type 1 and a Type 7 Built Media | `pop-culture/breaking-points-enneagram-analysis.md` | 1 |
 | The AI Wars: Why Personality Types Determine Who Gets to Bui... | `pop-culture/tech-titans-ai-wars.md` | 1 |
 | Twitter/X Personality Types: Why It | `pop-culture/twitter-x-personality-types-toxic.md` | 1 |
 | Untitled | `community/societal-ticking-time-bombs-fact-check.md` | 0 |
 | 3 Societal Ticking Time Bombs Nobody Is Connecting | `community/societal-ticking-time-bombs.md` | 0 |
-| The Enneagram | `enneagram/enneagram-vs-personality-frameworks-comparison.md` | 0 |
 | Alex Cooper vs Alix Earle: Why the Mentor-Protegee Pipeline ... | `pop-culture/alex-cooper-alix-earle-beef-enneagram-analysis.md` | 0 |
 | AOC and the Squad: The Enneagram Types of Millennial Politic... | `pop-culture/aoc-and-the-squad-enneagram-types.md` | 0 |
 | Cancel Culture by Enneagram Type: Who Cancels and Who Gets C... | `pop-culture/cancel-culture-enneagram-type.md` | 0 |
@@ -102,7 +101,7 @@ These posts don't link to any other content.
 
 ---
 
-## Priority 3: Posts with NO Incoming Links (50 posts)
+## Priority 3: Posts with NO Incoming Links (49 posts)
 
 These posts are "orphaned" - no other content links to them.
 
@@ -237,13 +236,13 @@ Sorted by total connections (incoming + outgoing).
 | 16 | 9 | 7 | Why Your Anxiety Is Different (And What Actually Works for Y... | `enneagram/anxiety-and-enneagram-types-guide.md` |
 | 16 | 10 | 6 | Why You Don | `enneagram/enneagram-wings-complete-guide.md` |
 | 15 | 9 | 6 | Attachment Styles and Enneagram Types: Why the Same Style Lo... | `enneagram/attachment-styles-and-enneagram-types.md` |
+| 14 | 6 | 8 | Best Free Enneagram Test (2025): Which One Actually Works? | `enneagram/enneagram-test-comparison-2025.md` |
 | 14 | 4 | 10 | Dark Triad Meets Enneagram: How Each Type Goes Wrong | `pop-culture/dark-triad-meets-enneagram.md` |
 | 13 | 8 | 5 | 9 Childhood Stereotypes Based on the Enneagram | `enneagram/enneagram-childhood-stereotypes.md` |
 | 13 | 5 | 8 | What to Say to Each Enneagram Type (Scripts That Actually Wo... | `enneagram/enneagram-communication-tips.md` |
 | 13 | 3 | 10 | Is the Enneagram Real? 27 Questions Everyone Asks (Finally A... | `enneagram/enneagram-faqs.md` |
 | 13 | 9 | 4 | Why You Don | `enneagram/enneagram-instinctual-subtypes.md` |
 | 13 | 7 | 6 | Enneagram Personal Growth: Unlock Your Type | `enneagram/enneagram-personal-growth.md` |
-| 13 | 5 | 8 | Best Free Enneagram Test (2025): Which One Actually Works? | `enneagram/enneagram-test-comparison-2025.md` |
 | 13 | 3 | 10 | Productivity Systems by Enneagram Type: Work With Your Perso... | `guides/productivity-systems-by-enneagram-type.md` |
 | 12 | 4 | 8 | Why MBTI Failed and What to Use Instead | `community/mbti-vs-enneagram.md` |
 | 12 | 5 | 7 | Enneagram Communication Guide: Decode Any Personality Type i... | `enneagram/enneagram-communication-guide.md` |
@@ -277,6 +276,7 @@ Sorted by total connections (incoming + outgoing).
 | 8 | 2 | 6 | Read Anyone in 30 Seconds: The Enneagram Body Language Cheat... | `enneagram/first-impression-enneagram-playbook.md` |
 | 8 | 1 | 7 | How All 9 Enneagram Types Flex: Revealing Each Type | `enneagram/how-each-enneagram-flexes.md` |
 | 8 | 0 | 8 | How Each Enneagram Type Resists Therapy (What Your Therapist... | `enneagram/mental-health/enneagram-therapy-resistance-guide.md` |
+| 8 | 1 | 7 | Neurodiversity vs. Personality: Stop Looking for Labels, Sta... | `enneagram/neurodiversity-vs-personality.md` |
 | 8 | 1 | 7 | Why Your Arguments Keep Repeating (And the Exercises That Ac... | `guides/definitive-guide-to-relationship-conflict-part-2.md` |
 | 8 | 3 | 5 | The Counterintuitive Guide to Active Listening: Why Your Per... | `guides/ultimate-guide-to-active-listening.md` |
 | 7 | 2 | 5 | Astrology and the Enneagram: How Zodiac Signs Connect to You... | `enneagram/astrology-and-the-enneagram.md` |
@@ -296,6 +296,7 @@ Sorted by total connections (incoming + outgoing).
 | 7 | 2 | 5 | The Psychology of Jeffrey Epstein: Understanding the Dark He... | `pop-culture/epstein-psychology-part-1.md` |
 | 7 | 1 | 6 | The Blackpill Pipeline: How Shame, Rejection, and Anger Radi... | `pop-culture/incel-blackpill-radicalization-enneagram.md` |
 | 6 | 1 | 5 | What Was The Inspiration For 9takes? | `community/inspiration-for-9takes.md` |
+| 6 | 4 | 2 | The Enneagram Under Fire: Addressing Common Criticisms & Mis... | `enneagram/enneagram-criticisms.md` |
 | 6 | 1 | 5 | How to Throw a Party Everyone Actually Wants to Attend | `enneagram/enneagram-party-planner.md` |
 | 6 | 2 | 4 | The Voice in Your Head: Master Positive Self-Talk for Your E... | `enneagram/enneagram-positive-self-talk.md` |
 | 6 | 3 | 3 | Enneagram Team Dynamics: The Complete Guide to High-Performa... | `enneagram/enneagram-team-dynamics.md` |
@@ -307,10 +308,8 @@ Sorted by total connections (incoming + outgoing).
 | 5 | 2 | 3 | The Enneagram Changed My Life, But I Learned to Shut Up Abou... | `community/why-im-selective-sharing-enneagram.md` |
 | 5 | 3 | 2 | The 90-Day Personality Maxing Blueprint: Transform Your Mind... | `enneagram/90-day-personality-maxing-blueprint.md` |
 | 5 | 3 | 2 | Is the Enneagram Religious? (The Truth About Its Spiritual O... | `enneagram/enneagram-and-religion.md` |
-| 5 | 3 | 2 | The Enneagram Under Fire: Addressing Common Criticisms & Mis... | `enneagram/enneagram-criticisms.md` |
 | 5 | 1 | 4 | How Each Enneagram Type Unwinds: Decode Your Perfect Stress-... | `enneagram/how-each-enneagram-type-unwinds.md` |
 | 5 | 0 | 5 | How Type 8 Challengers Actually Succeed (It | `enneagram/how-type-8-challengers-actually-succeed.md` |
-| 5 | 1 | 4 | Neurodiversity vs. Personality: Stop Looking for Labels, Sta... | `enneagram/neurodiversity-vs-personality.md` |
 | 5 | 0 | 5 | Why the Next Thing Won | `enneagram/why-the-next-thing-wont-fix-it-type-7.md` |
 | 5 | 4 | 1 | The Pattern-Breaking Guide to Fighting Depression | `guides/guide-to-fighting-depression.md` |
 | 5 | 1 | 4 | How to Read People: The 4-Step Guide to Understanding Anyone... | `guides/how-to-psychoanalyze-people.md` |
@@ -340,6 +339,7 @@ Sorted by total connections (incoming + outgoing).
 | 2 | 1 | 1 | The Platform Emperors: How Personality Types Shape the Produ... | `pop-culture/tech-titans-platform-emperors.md` |
 | 2 | 1 | 1 | Trump | `pop-culture/trump-type-8-vs-biden-type-2.md` |
 | 1 | 0 | 1 | The Intellectual Fortress That Becomes a Prison | `community/fear-triad-intellectual-fortress-or-prison.md` |
+| 1 | 1 | 0 | The Enneagram | `enneagram/enneagram-vs-personality-frameworks-comparison.md` |
 | 1 | 1 | 0 | Breaking Points: How a Type 1 and a Type 7 Built Media | `pop-culture/breaking-points-enneagram-analysis.md` |
 | 1 | 0 | 1 | The Psychology of Epstein | `pop-culture/epstien-research/Jeffrey-Epstein-Psychology-Of-The-Web.md` |
 | 1 | 0 | 1 | Inside the Heartthrob Machine: What Fame Does to the Men Wom... | `pop-culture/hollywood-heartthrobs-enneagram-analysis.md` |
@@ -349,7 +349,6 @@ Sorted by total connections (incoming + outgoing).
 | 1 | 0 | 1 | Why World Leaders Can | `pop-culture/world-leaders-enneagram-personality-dynamics.md` |
 | 0 | 0 | 0 | Untitled | `community/societal-ticking-time-bombs-fact-check.md` |
 | 0 | 0 | 0 | 3 Societal Ticking Time Bombs Nobody Is Connecting | `community/societal-ticking-time-bombs.md` |
-| 0 | 0 | 0 | The Enneagram | `enneagram/enneagram-vs-personality-frameworks-comparison.md` |
 | 0 | 0 | 0 | Alex Cooper vs Alix Earle: Why the Mentor-Protegee Pipeline ... | `pop-culture/alex-cooper-alix-earle-beef-enneagram-analysis.md` |
 | 0 | 0 | 0 | AOC and the Squad: The Enneagram Types of Millennial Politic... | `pop-culture/aoc-and-the-squad-enneagram-types.md` |
 | 0 | 0 | 0 | Cancel Culture by Enneagram Type: Who Cancels and Who Gets C... | `pop-culture/cancel-culture-enneagram-type.md` |

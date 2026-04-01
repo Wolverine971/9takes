@@ -81,6 +81,7 @@ dotenv.config();
 
 const SUPABASE_URL = process.env.SUPABASE_URL || process.env.PUBLIC_SUPABASE_URL;
 const SUPABASE_SERVICE_KEY = process.env.SUPABASE_SERVICE_KEY;
+const BLOG_HISTORY_SIGNATURE_SENTINEL_ID = 2147483648;
 const EXCLUDED_FILE_BASENAMES = new Set([
 	'person-template.md',
 	'POLITICIAN_FACT_CHECK_REPORT.md',
@@ -94,6 +95,40 @@ function createSupabaseServiceClient() {
 	}
 
 	return createClient(SUPABASE_URL, SUPABASE_SERVICE_KEY);
+}
+
+/**
+ * Fail early when the remote database still has the broken integer-based
+ * cleanup function signature for blogs_famous_people history.
+ * @param {ReturnType<typeof createSupabaseServiceClient>} supabase
+ * @returns {Promise<void>}
+ */
+async function assertBlogHistorySchemaCompatible(supabase) {
+	const { error } = await supabase.rpc('cleanup_blogs_famous_people_history', {
+		p_famous_people_id: BLOG_HISTORY_SIGNATURE_SENTINEL_ID,
+		p_keep_count: 1
+	});
+
+	if (!error) {
+		return;
+	}
+
+	const code = typeof error.code === 'string' ? error.code : '';
+	const message = `${error.message || ''} ${error.hint || ''}`;
+	const schemaMismatch =
+		code === '22003' ||
+		code === '42883' ||
+		code === 'PGRST202' ||
+		code === 'PGRST203' ||
+		/cleanup_blogs_famous_people_history|out of range for type integer/i.test(message);
+
+	if (schemaMismatch) {
+		throw new Error(
+			'Supabase blog history schema is outdated. Apply supabase/migrations/20260401_fix_blogs_famous_people_history_signature.sql, then rerun pnpm run push:people.'
+		);
+	}
+
+	throw new Error(`Unable to verify Supabase blog history schema: ${error.message}`);
 }
 
 /**
@@ -413,6 +448,10 @@ async function insertIntoSupabase(entries, options = {}) {
 	const gradesOnly = options.gradesOnly === true;
 
 	console.log(`Processing ${entries.length} blog entries...`);
+
+	if (!gradesOnly && entries.length > 0) {
+		await assertBlogHistorySchemaCompatible(supabase);
+	}
 
 	/** @type {BlogRecord} */
 	const fields = {

@@ -377,3 +377,40 @@ That's the question Joe Rogan is still answering.
 ---
 
 > **Disclaimer** This analysis of Joe Rogan's Enneagram type is speculative, based on publicly available information, and may not reflect Joe's actual personality type.
+
+<!--
+READER REVIEW (2026-04-01):
+
+WHAT WORKS WELL:
+- The Phil Hartman opening is a killer hook. You're not leaving after that.
+- The Bourdain phone detail ("He keeps a dead man's words in his pocket") is probably the best single line in the piece. It earns the whole article.
+- The Trump paradox section is strong because it's all specific quotes, not editorializing. You just lay out the pattern and let the reader connect the dots.
+- The standup critique is refreshingly honest — most Rogan content either worships him or dunks on him. Saying "the persona carries the material" is a fair, interesting take.
+- The AI video moment is a great structural counterweight to all the "refuses to bend" stuff. Shows the shadow side without being preachy.
+
+WHAT'S MISSING:
+
+1. THE TEXAS MOVE IS HUGELY UNDERSERVED. You give it one sentence ("2020. Joe moved from Southern California to Austin, Texas.") For someone whose entire thesis is control and independence, relocating during COVID — leaving LA, the comedy scene, California taxes and regulations — is one of the biggest Type 8 moves he's ever made. Why Austin? What did he leave behind? Who followed him? This deserves its own beat, not a throwaway line before Comedy Mothership.
+
+2. NO MENTION OF HIS ONGOING MARTIAL ARTS TRAINING. He has black belts under Jean Jacques Machado and Eddie Bravo (10th Planet Jiu-Jitsu). The article covers his teenage taekwondo but acts like martial arts ended at 21. He still trains actively. For someone whose identity was forged in the dojo, the fact that he never stopped — even after building a media empire — is significant. It reinforces the self-reliance theme.
+
+3. THE FITNESS/OPTIMIZATION OBSESSION IS ABSENT. Saunas, cold plunges, kettlebells, the home gym setup, the elk meat diet, the supplement stack. This is a massive part of his public identity and ties directly into the control narrative. He's engineering his own body the same way he engineers his business — no dependencies, no weak points. A reader who knows Rogan will notice this is missing.
+
+4. EDDIE BRAVO AND THE CONSPIRACY ORBIT. The Alex Jones section is good but the broader conspiracy-friendly circle (Eddie Bravo's flat earth stuff, the "look into it" meme) feels relevant to the "controversy question" section. It's not just Alex Jones — there's a pattern of friendships with people who challenge mainstream consensus, which maps to the Type 8 "question authority" instinct.
+
+5. HIS AWARENESS OF HIS OWN LIMITATIONS. The article mentions the AI video blindspot but doesn't address whether Rogan himself has ever acknowledged his weaknesses as an interviewer or thinker. He has — he's talked about being "a moron" and "a cage-fighting commentator" who shouldn't be anyone's primary news source. Including some of that self-awareness would make the portrait more three-dimensional and prevent it from reading like a takedown in the shadow sections.
+
+WHAT'S OVERDONE / COULD BE TRIMMED:
+
+1. THE SPOTIFY DEAL GETS THREE PASSES. It's in the TL;DR, the main narrative section, and the Type 8 evidence bullet list. The main narrative version is the strongest — the others feel redundant. The TL;DR bullet could just say "renegotiated Spotify for freedom over money" without the dollar amount, and the evidence list could reference it without re-explaining.
+
+2. THE HUNTING SECTION IS THIN FOR A STANDALONE SECTION. It's interesting but doesn't say enough to justify its own header. Could fold into the "Empire Beyond the Microphone" section (as another expression of self-reliance) or into the psychology section (as another way he processes control). Right now it feels like a half-developed thought sitting between two meatier sections.
+
+3. THE UFC COMMENTARY SECTION IS ALSO THIN. Three short paragraphs, mostly surface-level. Either expand it (his actual commentary style, the Dana White relationship, how his martial arts knowledge shapes his calls) or fold it into the martial arts thread as a bookend — "the kid who found salvation in the dojo still shows up decades later." That's a great line but it's carrying a section that doesn't have much else.
+
+STRUCTURAL NOTE:
+The AI video section feels slightly orphaned between "The Trump Paradox" and "Father of Daughters." It's thematically about the shadow side of self-trust, which connects more naturally to the psychology section ("Inside the Mind") or to the controversy section. Where it sits now, it reads like a digression between two emotionally heavy sections. Consider moving it closer to the controversy material.
+
+OVERALL:
+This is a strong piece. The emotional through-line (abandoned kid → armored adult → father who won't leave) holds the whole thing together. The main gap is that it's weighted heavily toward the podcast/business/political side of Rogan and lighter on the physical/embodied side (ongoing training, fitness obsession, the Texas move as physical relocation). For a guy whose entire psychology is rooted in physical capability and self-reliance, that's a meaningful omission. Fill in the body stuff and tighten the thinner sections, and this is really solid.
+-->

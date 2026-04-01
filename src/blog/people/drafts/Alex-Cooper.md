@@ -6,7 +6,7 @@ description: 'A psychological read of Alex Cooper. See how Enneagram Type 7 driv
 author: 'DJ Wayne'
 date: '2023-08-29'
 loc: 'https://9takes.com/personality-analysis/Alex-Cooper'
-lastmod: '2026-02-10'
+lastmod: '2026-04-01'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
@@ -56,7 +56,7 @@ But the empire isn't the interesting part. What built it is.
 
 Between that kid in the control room and the mogul at the Golden Globes, there was a girl whose classmates slammed her head into the ground until she lost consciousness. A college athlete whose coach allegedly leveraged playing time for details about her sex life. A business partner she hasn't spoken to since 2020.
 
-Alex Cooper built an empire on one principle: no one will ever silence me again. The question is what happens when that principle runs the show, when the same instinct that builds also burns.
+Alex Cooper built an empire on that instinct. The question is what happens when it runs the show—when the same reflex that builds also burns.
 
 <details>
 <summary class="accordion">TL;DR: Why Alex Cooper is an Enneagram Type 7</summary>
@@ -110,13 +110,13 @@ She kept it a secret. She was too embarrassed to tell her parents.
 
 A teacher humiliated her for wearing makeup to conceal her acne. The bullying continued for years. In high school, she dyed her red hair blonde, a change that would become her known look for over a decade. Cooper later said the bullying made her believe she would never get married or have kids.
 
-Her escape was the basement. While other kids were socializing, Alex was editing. She told Jay Shetty she'd logged roughly 10,000 hours in front of editing software by eighth grade, making skits, impersonations, anything that let her control the frame.
+Her escape was the basement. While other kids were socializing, Alex was editing. She told Jay Shetty she'd logged roughly 10,000 hours in front of editing software by eighth grade, making skits, impersonations, anything that let her shape how people saw her.
 
 Content creation wasn't a career ambition. It was a survival mechanism.
 
 "I had people-pleasing tendencies because of my childhood and feeling left out," she told Shetty. "I still catch myself doing it in media."
 
-The kid who was rejected learned to perform. The kid who was silenced learned to talk. And the kid who lost control of how people saw her became obsessed with controlling the narrative.
+The kid who was rejected learned to perform. The kid who couldn't control how people saw her became obsessed with production.
 
 ## What the Coach Wouldn't Say
 
@@ -132,9 +132,7 @@ Afterward: "We walked the entire length of the soccer field after we had just wo
 
 When Cooper and her parents brought documentation to BU's athletic department in 2015, she says the department refused to review it. Boston University has since said it takes the allegations seriously and retained outside counsel. Ninety-nine former players signed a letter supporting Feldman. One other former player has publicly come forward alleging abuse.
 
-Cooper didn't speak publicly about BU for a decade. When the documentary finally aired, the reviews were mixed. Time called it "less a portrait of a fascinating personality than a shallow branding exercise." Defector described watching it as "being pitched a product."
-
-But consider the bind: a woman who built an empire on talking about everything makes a film about her deepest trauma, and the result still feels polished and controlled. Did the critics miss the point, or did they see it too clearly?
+Cooper didn't speak publicly about BU for a decade. When the documentary finally aired, critics called it polished to the point of product placement. But consider the bind: a woman who built her career on talking about everything makes a film about her deepest trauma, and the result still feels controlled. Did the critics miss the point, or did they see it too clearly?
 
 She graduated from BU's College of Communication in 2017, carrying all of it with her.
 
@@ -174,17 +172,15 @@ By 2021, "Call Her Daddy" had left Barstool for Spotify. The show shifted from s
 
 How does Alex Cooper get <a href="/personality-analysis/Hailey-Bieber">Hailey Bieber</a> to address the Selena Gomez timeline controversy for the first and only time? How does she get <a href="/personality-analysis/Miley-Cyrus">Miley Cyrus</a> to reveal she was attracted to women before men, something she hadn't shared anywhere else?
 
-Three techniques. She follows emotional flow over scripted structure. She leaves room for mess instead of rushing to clean up silence or oversharing. And she protects her guests in the edit, telling them: "This is going to make you look really bad, and I'm going to choose to believe you didn't mean to say that."
+If you listen to a 2025 episode, the show that launched on sex tips now sounds closer to a therapy session in sweats. Cooper sits cross-legged, lets silences breathe, and goes off-script deliberately. The Cyrus confession happened mid-tangent, not in response to a prepared question. When Chappell Roan opened up about fan boundaries and sexuality for over an hour, the episode won a GLAAD Media Award.
+
+Three techniques make it work. She follows emotional flow over scripted structure. She leaves room for mess instead of rushing to clean up oversharing. And she protects her guests in the edit, telling them: "This is going to make you look really bad, and I'm going to choose to believe you didn't mean to say that."
 
 That protection creates trust. Trust creates confessions.
 
 She also deliberately avoids being photographed socializing with celebrities. She told Dax Shepard she built a "bubble." If people see her with famous people, they'll assume she's "fame hungry." She can't make people confess on air if they think she's collecting famous friends offstage.
 
-The clearest proof came in October 2024, when Vice President <a href="/personality-analysis/Kamala-Harris">Kamala Harris</a> sat with Cooper for 40 minutes in a Washington D.C. hotel room. The woman who became famous for the "Gluck Gluck 9000" was now asking a sitting VP about reproductive rights and the "childless cat ladies" attack. Harris called JD Vance's comments "mean and mean-spirited" and added: "This is not the 1950s anymore."
-
-Cooper lost roughly 5,000 Instagram followers overnight. Critics accused her of peddling propaganda. Her defense: "This specific election, the entire focus is on women's bodies, and we're losing rights by the day." She called it "totally worth it."
-
-That episode was the pivot made visible. Not just from sex tips to celebrity interviews, but from entertainer to someone whose audience trusted her enough to hear a Vice President speak through her microphone. Rolling Stone had already dubbed her "Gen-Z's Barbara Walters." The Harris sit-down was the moment the label stopped being aspirational.
+The clearest proof: in October 2024, Vice President <a href="/personality-analysis/Kamala-Harris">Kamala Harris</a> chose Cooper's microphone for a 40-minute conversation about reproductive rights. Cooper lost roughly 5,000 Instagram followers overnight. For a woman whose childhood terror was rejection, she watched the number drop and called it "totally worth it."
 
 ## What They Actually Get From Her
 
@@ -206,7 +202,9 @@ Start with the name. "Unwell" is Gen-Z shorthand for "I'm not okay, and that's f
 
 Notice the psychology of that branding choice. A Type 7's core fear is being trapped in pain. Naming your entire business after a word that means "not okay" is either genuine growth, sitting with discomfort instead of fleeing it, or the ultimate reframe: packaging the thing you fear most so attractively that it stops feeling like a threat.
 
-By 2026, "Unwell" has evolved from a brand into a business conglomerate. A three-year SiriusXM deal reported at up to $125 million. A beverage line at Target. A creative agency. A Hulu dating show. A $3 million sponsorship making Unwell Hydration the official partner of the National Women's Soccer League, a full-circle moment for the D1 soccer player whose coach refused to say her name.
+By 2026, "Unwell" has evolved from a brand into a business conglomerate. A three-year SiriusXM deal reported at up to $125 million. A beverage line at Target (partnered with Nestlé, eight figures in revenue by year's end). A creative agency whose first client was a multiyear deal with Google. A Hulu dating show. A $3 million sponsorship making Unwell the official partner of the National Women's Soccer League—a full-circle moment for the D1 soccer player whose coach refused to say her name. Fast Company named Unwell one of the most innovative companies in 2026.
+
+Here's the tension nobody talks about: the woman selling hydration drinks at Target and discussing therapy techniques with Dr. Orna Guralnik is running a brand named after being a mess. Cooper's answer is deliberate. "Wellness culture constantly tells us to be perfect," she told Inc. "Unwell was created to meet women exactly where they are." The Unwell weekend events feature open bars next to workout classes, poolside socials next to creator meetups. Party AND self-care, not one or the other. It's a rejection of aspirational wellness culture that somehow became its own aspirational brand—which is either the savviest positioning in creator media or a contradiction she'll eventually have to resolve.
 
 Her company employs close to 100 people. She turned down an $8 million brand deal because she "didn't believe in putting my face next to it." Her reasoning: "I think it's important to say no to shit, because then you just lose your f\*\*\*ing credibility."
 
@@ -218,27 +216,15 @@ After the SiriusXM deal, Alex bought her parents a house in Los Angeles, a New E
 
 "Buying them a house is the least I could f\*\*\*ing do," she told CNBC, "because they sacrificed financially, emotionally, and they sacrificed with my other siblings in moments for me."
 
-Kathryn and Grant, the older sister and brother she rarely mentions publicly, gave up parental time and attention so the youngest could chase what she was chasing. A Type 7's forward motion always has a wake.
-
 ## When the Pattern Repeats
 
 The Sofia split is well-documented. The [Alix Earle](/personality-analysis/Alix-Earle) split is still unfolding.
 
-When lifestyle influencer Earle signed with The Unwell Network in September 2023, it looked like a perfect pairing. At the TIME 100 event a month later, Alex praised her publicly: "She's a beast. She has a work ethic that I've never seen and I'm so proud of her."
+Earle signed with The Unwell Network in September 2023. Cooper praised her publicly: "She's a beast. She has a work ethic that I've never seen." But the structure mattered more than the compliments—under the SiriusXM deal, Earle's compensation flowed through Cooper. By early 2025, Earle's podcast had dropped from the network. Insiders said Earle "felt taken advantage of." When a fan asked Earle what happened with Alex Cooper, her response: "How much time do you have?"
 
-The business structure mattered more than the compliments. Under Cooper's $125 million SiriusXM deal, SiriusXM paid Cooper, and Cooper paid the hosts in her network. Earle's compensation flowed through the woman who called her a beast.
+The role reversal is the point. In 2020, Cooper was the talent fighting for fair treatment under someone else's deal. By 2025, she was the boss whose talent felt constrained.
 
-By early 2025, the relationship had soured. Earle's father got involved in her business decisions and, per insiders, "did not like what Unwell was doing." Earle skipped Unwell's high-profile Super Bowl party in New Orleans despite being in town. By February, Variety reported "Hot Mess" had dropped from the network. Earle paused podcasting entirely, saying she "can't get into the details."
-
-Alex's response on Instagram: "Alix not being able to podcast has nothing to do with Unwell. Unwell gave her everything back. She owns her IP."
-
-Sources told a different story. Insiders said Earle "felt taken advantage of." That the two had "clashed over business, and their friendship is over because of it."
-
-Earle's own response, months later, when a fan asked what happened with Alex Cooper: "How much time do you have?"
-
-The role reversal matters. In 2020, Cooper was the talent fighting for fair treatment under someone else's deal. By 2025, she was the boss whose talent felt constrained.
-
-Two partnerships. Two public splits. The same dynamic: intense alignment, then friction, then forward motion without repair. The pattern isn't malice. It's momentum. When you're always moving forward, the people calling after you sound further and further away.
+Two partnerships. Two public splits. The same dynamic: intense alignment, then friction, then separation without repair.
 
 ## The Independent Woman Who Learned to Stay
 
@@ -256,7 +242,7 @@ In a 2025 podcast episode with Dr. Guralnik, Cooper revealed she and Matt went t
 
 "I always used to say, 'I'm never getting married,'" she told Vogue. "I thought it would threaten my independence. No man should be able to say that I'm his."
 
-What changed wasn't just Matt. It was the realization that her resistance to intimacy ran the same program as everything else: keep moving, keep control, never be trapped. The woman who built a career on forward motion chose to be still.
+What changed wasn't just Matt. It was the realization that her resistance to intimacy ran the same program as everything else: stay free, stay in control, never depend on anyone. The woman who built a career on never stopping chose to be still.
 
 Their April 2024 wedding in Riviera Maya, Mexico told the rest. Alex walked herself down the aisle: "I really rejected the concept of being walked down by a man to be handed to another man. My mom also walked herself down the aisle, so in a sense, we are creating our own tradition for the women in our family."
 
@@ -280,9 +266,9 @@ And then she built a $125 million empire on the act of speaking.
 
 Every wound became content. Every betrayal became a pivot. Every moment of pain became fuel for the next expansion. The pattern works. The deals keep getting bigger. The audience keeps growing.
 
-But the documentary raises a question it can't quite answer: is publicly sharing trauma the same as processing it? Or is it another version of the same pattern, turning pain into content, using momentum as a substitute for stillness?
+But the documentary raises a question it can't quite answer: is publicly sharing trauma the same as processing it? Or is it another version of the same pattern—turning pain into content, using output as a substitute for stillness?
 
-Real growth for a Type 7 isn't choosing between depth and forward motion. It's holding both at the same time.
+Real growth for a Type 7 isn't choosing between depth and expansion. It's holding both at the same time.
 
 The most revealing thing about Alex Cooper isn't the empire or the podcast numbers. It's the therapy, individual and couples, ongoing for years. The moment she realized she was pushing Matt away, not because he was wrong for her, but because letting someone in felt like losing control. She almost destroyed the best relationship of her life with the same instinct that built her career.
 
@@ -290,9 +276,7 @@ She caught it. She stayed. That might be more impressive than any deal she's eve
 
 The girl who used to sit in her dad's control room wearing a miniature headset now runs a control room of her own. The difference is what she's choosing to broadcast.
 
-If you recognize her pattern, the reflex to turn pain into a project, to outrun discomfort with the next venture, to mistake motion for progress, then you already know the question: what would happen if you stopped?
-
-Most of us can't answer it either.
+If you recognize her pattern—the reflex to turn pain into a project, to outrun discomfort with the next venture, to mistake motion for progress—then you already know the question: what would happen if you stopped?
 
 If you want to decode patterns like these in yourself and the people around you, explore our <a href="/questions">questions</a> section.
 

@@ -234,6 +234,8 @@ The contradiction is not ignorance. It is compartmentalization, and compartmenta
 
 ## Emotionally Thirty-Two
 
+The same compartmentalization runs his personal life.
+
 In his 2025 _Esquire_ interview, Paul Thomas Anderson asked DiCaprio how old he feels.
 
 "Thirty-two," he said immediately.

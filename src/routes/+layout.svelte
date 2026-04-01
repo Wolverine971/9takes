@@ -509,7 +509,7 @@
 	<meta name="apple-mobile-web-app-capable" content="yes" />
 	<meta name="mobile-web-app-capable" content="yes" />
 	<meta name="color-scheme" content="dark light" />
-	{@html `<script>(function(){try{var stored=localStorage.getItem('9takes-theme');var effective=stored==='light'||stored==='dark'?stored:(window.matchMedia('(prefers-color-scheme: light)').matches?'light':'dark');var root=document.documentElement;root.classList.toggle('light',effective==='light');root.classList.toggle('dark',effective==='dark');root.dataset.theme=effective;root.style.colorScheme=effective;var meta=document.querySelector('meta[name="theme-color"]');if(meta)meta.setAttribute('content',effective==='light'?'#FAFAF9':'#0C0A09');}catch{}}</script>`}
+	{@html `<script>(function(){try{var stored=localStorage.getItem('9takes-theme');var effective=stored==='light'||stored==='dark'?stored:(window.matchMedia('(prefers-color-scheme: light)').matches?'light':'dark');var root=document.documentElement;root.classList.toggle('light',effective==='light');root.classList.toggle('dark',effective==='dark');root.dataset.theme=effective;root.style.colorScheme=effective;var meta=document.querySelector('meta[name="theme-color"]');if(meta)meta.setAttribute('content',effective==='light'?'#FAFAF9':'#0C0A09');}catch{}})()</script>`}
 
 	{#if !dev}
 		<!-- Use dns-prefetch instead of preconnect for lighter initial load -->

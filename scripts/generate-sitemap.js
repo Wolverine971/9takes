@@ -1,10 +1,12 @@
 // scripts/generate-sitemap.js
+import { execFileSync } from 'child_process';
 import fs from 'fs/promises';
 import path from 'path';
 import { fileURLToPath } from 'url';
 import { createClient } from '@supabase/supabase-js';
 import pkg from 'fast-glob';
 import dotenv from 'dotenv';
+import matter from 'gray-matter';
 import {
 	buildPersonalityImagePath,
 	normalizePersonalityAnalysisUrl,
@@ -18,50 +20,105 @@ dotenv.config();
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 const SITE_URL = 'https://9takes.com';
-const TODAY = new Date().toISOString().slice(0, 10);
+const SITE_ROOT = path.join(__dirname, '..');
 
 const SUPABASE_URL = process.env.PUBLIC_SUPABASE_URL;
 const SUPABASE_ANON_KEY = process.env.PUBLIC_SUPABASE_PUBLISHABLE_KEY;
 
-if (!SUPABASE_URL || !SUPABASE_ANON_KEY) {
-	console.error('Missing Supabase environment variables');
-	process.exit(1);
-}
+let supabase = null;
 
-const supabase = createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
-
-const STATIC_PAGES = [
-	{ loc: `${SITE_URL}`, lastmod: TODAY },
-	{ loc: `${SITE_URL}/blog`, lastmod: TODAY },
-	{ loc: `${SITE_URL}/about`, lastmod: TODAY },
-	{ loc: `${SITE_URL}/book-session`, lastmod: '2025-05-22' },
-	{ loc: `${SITE_URL}/community`, lastmod: TODAY },
-	{ loc: `${SITE_URL}/enneagram-corner`, lastmod: TODAY },
-	{ loc: `${SITE_URL}/enneagram-corner/mental-health`, lastmod: TODAY },
-	{ loc: `${SITE_URL}/enneagram-corner/subtopic/overview`, lastmod: '2024-05-04' },
-	{ loc: `${SITE_URL}/enneagram-corner/subtopic/nine-types`, lastmod: '2024-05-04' },
-	{ loc: `${SITE_URL}/enneagram-corner/subtopic/development`, lastmod: '2024-05-04' },
-	{ loc: `${SITE_URL}/enneagram-corner/subtopic/relationships`, lastmod: '2024-05-04' },
-	{ loc: `${SITE_URL}/enneagram-corner/subtopic/workplace`, lastmod: '2024-05-04' },
-	{ loc: `${SITE_URL}/enneagram-corner/subtopic/resources`, lastmod: '2024-05-04' },
-	{ loc: `${SITE_URL}/enneagram-corner/subtopic/situational`, lastmod: '2024-05-04' },
-	{ loc: `${SITE_URL}/how-to-guides`, lastmod: TODAY },
-	{ loc: `${SITE_URL}/personality-analysis`, lastmod: TODAY },
-	{ loc: `${SITE_URL}/personality-analysis/categories`, lastmod: TODAY },
-	{ loc: `${SITE_URL}/personality-analysis/categories/film-tv`, lastmod: TODAY },
-	{ loc: `${SITE_URL}/personality-analysis/categories/creator-media`, lastmod: TODAY },
-	{ loc: `${SITE_URL}/personality-analysis/categories/music`, lastmod: TODAY },
-	{ loc: `${SITE_URL}/personality-analysis/categories/politics-public`, lastmod: TODAY },
-	{ loc: `${SITE_URL}/personality-analysis/categories/tech-business`, lastmod: TODAY },
-	{ loc: `${SITE_URL}/personality-analysis/categories/comedy`, lastmod: TODAY },
-	{ loc: `${SITE_URL}/personality-analysis/categories/authors-thinkers`, lastmod: TODAY },
-	{ loc: `${SITE_URL}/questions`, lastmod: TODAY },
-	...Array.from({ length: 9 }, (_, index) => ({
-		loc: `${SITE_URL}/personality-analysis/type/${index + 1}`,
-		lastmod: '2024-08-29'
-	})),
-	{ loc: `${SITE_URL}/blog/experiment`, lastmod: '2024-09-13' }
+const ENNEAGRAM_SUBTOPIC_SLUGS = [
+	'overview',
+	'nine-types',
+	'development',
+	'relationships',
+	'workplace',
+	'resources',
+	'situational'
 ];
+
+const PERSONALITY_CATEGORY_DEFINITIONS = [
+	{ slug: 'film-tv', rawTypes: ['movieStar', 'newMovieStar', 'celebrity'] },
+	{
+		slug: 'creator-media',
+		rawTypes: ['creator', 'influencer', 'tiktoker', 'lifestyleInfluencer', 'journalist']
+	},
+	{ slug: 'music', rawTypes: ['musician'] },
+	{ slug: 'politics-public', rawTypes: ['politician', 'historical', 'activist'] },
+	{ slug: 'tech-business', rawTypes: ['techie', 'entrepreneur', 'business'] },
+	{ slug: 'comedy', rawTypes: ['comedian'] },
+	{ slug: 'authors-thinkers', rawTypes: ['author', 'psychology', 'essay'] }
+];
+
+const ROUTE_FILES = {
+	home: ['src/routes/+page.svelte', 'src/routes/+page.server.ts', 'src/routes/+page.ts'],
+	blog: [
+		'src/routes/blog/+page.svelte',
+		'src/routes/blog/+page.server.ts',
+		'src/routes/blog/+layout.svelte'
+	],
+	about: ['src/routes/about/+page.svelte', 'src/routes/about/+page.server.ts'],
+	bookSession: [
+		'src/routes/book-session/+page.svelte',
+		'src/routes/book-session/+page.server.ts',
+		'src/routes/book-session/+page.ts'
+	],
+	community: ['src/routes/community/+page.svelte', 'src/routes/community/+page.server.ts'],
+	enneagramCorner: [
+		'src/routes/enneagram-corner/+page.svelte',
+		'src/routes/enneagram-corner/+page.server.ts'
+	],
+	enneagramMentalHealth: [
+		'src/routes/enneagram-corner/mental-health/+page.svelte',
+		'src/routes/enneagram-corner/mental-health/+page.server.ts'
+	],
+	enneagramSubtopic: [
+		'src/routes/enneagram-corner/subtopic/[slug]/+page.svelte',
+		'src/routes/enneagram-corner/subtopic/[slug]/+page.server.ts'
+	],
+	howToGuides: [
+		'src/routes/how-to-guides/+page.svelte',
+		'src/routes/how-to-guides/+page.server.ts'
+	],
+	personalityAnalysis: [
+		'src/routes/personality-analysis/+page.svelte',
+		'src/routes/personality-analysis/+page.server.ts'
+	],
+	personalityCategories: [
+		'src/routes/personality-analysis/categories/+page.svelte',
+		'src/routes/personality-analysis/categories/+page.server.ts'
+	],
+	personalityCategory: [
+		'src/routes/personality-analysis/categories/[slug]/+page.svelte',
+		'src/routes/personality-analysis/categories/[slug]/+page.server.ts'
+	],
+	personalityType: [
+		'src/routes/personality-analysis/type/[slug]/+page.svelte',
+		'src/routes/personality-analysis/type/[slug]/+page.server.ts'
+	],
+	questions: [
+		'src/routes/questions/+page.svelte',
+		'src/routes/questions/+page.server.ts',
+		'src/routes/questions/+page.ts'
+	],
+	blogExperiment: [
+		'src/routes/blog/experiment/+page.svelte',
+		'src/routes/blog/experiment/+page.server.ts'
+	]
+};
+
+const gitDateCache = new Map();
+
+function getSupabase() {
+	if (supabase) return supabase;
+
+	if (!SUPABASE_URL || !SUPABASE_ANON_KEY) {
+		throw new Error('Missing Supabase environment variables');
+	}
+
+	supabase = createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
+	return supabase;
+}
 
 function formatLastmod(value) {
 	if (!value) return null;
@@ -70,6 +127,331 @@ function formatLastmod(value) {
 	if (Number.isNaN(date.getTime())) return null;
 
 	return date.toISOString().slice(0, 10);
+}
+
+function normalizeTypeKey(value) {
+	return String(value ?? '')
+		.replace(/[^a-z0-9]/gi, '')
+		.toLowerCase();
+}
+
+function normalizeTypeList(value) {
+	let raw = [];
+
+	if (Array.isArray(value)) {
+		raw = value.map(String);
+	} else if (value && typeof value === 'object') {
+		raw = Object.values(value).map(String);
+	} else if (typeof value === 'string' && value.trim().length > 0) {
+		raw = value
+			.split(',')
+			.map((item) => item.trim())
+			.filter(Boolean);
+	}
+
+	const seen = new Set();
+	const normalized = [];
+
+	for (const item of raw) {
+		const cleaned = item.trim().replace(/^['"]|['"]$/g, '');
+		const key = normalizeTypeKey(cleaned);
+		if (!key || seen.has(key)) continue;
+		seen.add(key);
+		normalized.push(cleaned);
+	}
+
+	return normalized;
+}
+
+function getPrimaryPostType(value) {
+	return normalizeTypeList(value)[0] ?? null;
+}
+
+function getPersonalityCategorySlugs(value) {
+	const typeKeys = new Set(normalizeTypeList(value).map((type) => normalizeTypeKey(type)));
+
+	return PERSONALITY_CATEGORY_DEFINITIONS.filter((category) =>
+		category.rawTypes.some((rawType) => typeKeys.has(normalizeTypeKey(rawType)))
+	).map((category) => category.slug);
+}
+
+function getPathname(loc) {
+	if (typeof loc !== 'string' || loc.trim().length === 0) return '';
+
+	try {
+		return new URL(loc).pathname.replace(/\/+$/, '') || '/';
+	} catch {
+		return (
+			loc
+				.replace(SITE_URL, '')
+				.replace(/[?#].*$/, '')
+				.replace(/\/+$/, '') || '/'
+		);
+	}
+}
+
+function getLatestDate(values) {
+	let latest = null;
+	let latestTimestamp = Number.NEGATIVE_INFINITY;
+
+	for (const value of values) {
+		const lastmod = formatLastmod(value);
+		if (!lastmod) continue;
+
+		const timestamp = Date.parse(lastmod);
+		if (!Number.isFinite(timestamp) || timestamp <= latestTimestamp) continue;
+
+		latest = lastmod;
+		latestTimestamp = timestamp;
+	}
+
+	return latest;
+}
+
+function maxLastmod(...values) {
+	return getLatestDate(
+		values.flatMap((value) => {
+			if (Array.isArray(value)) return value;
+			return value == null ? [] : [value];
+		})
+	);
+}
+
+function getLatestItemDate(items, selector) {
+	return getLatestDate(items.map(selector));
+}
+
+function getLatestGitDate(paths) {
+	const validPaths = paths.filter(Boolean);
+	if (validPaths.length === 0) return null;
+
+	const cacheKey = validPaths.join('|');
+	if (gitDateCache.has(cacheKey)) {
+		return gitDateCache.get(cacheKey);
+	}
+
+	try {
+		const output = execFileSync('git', ['log', '-1', '--format=%cs', '--', ...validPaths], {
+			cwd: SITE_ROOT,
+			encoding: 'utf-8',
+			stdio: ['ignore', 'pipe', 'ignore']
+		}).trim();
+		const lastmod = formatLastmod(output);
+		gitDateCache.set(cacheKey, lastmod);
+		return lastmod;
+	} catch {
+		gitDateCache.set(cacheKey, null);
+		return null;
+	}
+}
+
+function isEnneagramPost(post) {
+	return typeof post.sourceCategory === 'string' && post.sourceCategory.startsWith('enneagram');
+}
+
+function isMentalHealthPost(post) {
+	const pathname = getPathname(post.loc);
+	return (
+		isEnneagramPost(post) &&
+		(post.sourceCategory === 'enneagram/mental-health' ||
+			normalizeTypeKey(getPrimaryPostType(post.type)) === normalizeTypeKey('mental-health') ||
+			pathname.includes('/enneagram-corner/mental-health/') ||
+			pathname.includes('enneagram-and-mental-illness'))
+	);
+}
+
+function isPersonalityTypePost(person, enneagram) {
+	return String(person.enneagram ?? '') === String(enneagram);
+}
+
+function isPersonalityCategoryPost(person, categorySlug) {
+	return getPersonalityCategorySlugs(person.type).includes(categorySlug);
+}
+
+function resolveStaticLastmod({
+	contentDates = [],
+	routePaths = [],
+	fallbackLastmod = null,
+	siteFallbackLastmod = null
+}) {
+	return (
+		maxLastmod(contentDates, getLatestGitDate(routePaths), fallbackLastmod) ?? siteFallbackLastmod
+	);
+}
+
+export function buildStaticPages({ posts, peoplePosts, questions }) {
+	const latestAllPosts = getLatestItemDate(posts, (post) => post.lastmod ?? post.date);
+	const latestBlogContent = getLatestItemDate(posts, (post) =>
+		post.sourceCategory === 'community' ||
+		post.sourceCategory === 'guides' ||
+		post.sourceCategory === 'pop-culture' ||
+		isEnneagramPost(post)
+			? (post.lastmod ?? post.date)
+			: null
+	);
+	const latestPeople = getLatestItemDate(peoplePosts, (person) => person.lastmod ?? person.date);
+	const latestQuestions = getLatestItemDate(questions, (question) => question.updated_at);
+	const latestCommunity = getLatestItemDate(posts, (post) =>
+		post.sourceCategory === 'community' ? (post.lastmod ?? post.date) : null
+	);
+	const latestGuides = getLatestItemDate(posts, (post) =>
+		post.sourceCategory === 'guides' ? (post.lastmod ?? post.date) : null
+	);
+	const latestEnneagram = getLatestItemDate(posts, (post) =>
+		isEnneagramPost(post) ? (post.lastmod ?? post.date) : null
+	);
+	const latestMentalHealth = getLatestItemDate(posts, (post) =>
+		isMentalHealthPost(post) ? (post.lastmod ?? post.date) : null
+	);
+	const siteFallbackLastmod = maxLastmod(
+		latestAllPosts,
+		latestPeople,
+		latestQuestions,
+		getLatestGitDate(['src/routes'])
+	);
+
+	return [
+		{
+			loc: `${SITE_URL}`,
+			lastmod: resolveStaticLastmod({
+				contentDates: [latestPeople, latestQuestions],
+				routePaths: ROUTE_FILES.home,
+				siteFallbackLastmod
+			})
+		},
+		{
+			loc: `${SITE_URL}/blog`,
+			lastmod: resolveStaticLastmod({
+				contentDates: [latestBlogContent, latestPeople],
+				routePaths: ROUTE_FILES.blog,
+				siteFallbackLastmod
+			})
+		},
+		{
+			loc: `${SITE_URL}/about`,
+			lastmod: resolveStaticLastmod({
+				routePaths: ROUTE_FILES.about,
+				siteFallbackLastmod
+			})
+		},
+		{
+			loc: `${SITE_URL}/book-session`,
+			lastmod: resolveStaticLastmod({
+				routePaths: ROUTE_FILES.bookSession,
+				fallbackLastmod: '2025-05-22',
+				siteFallbackLastmod
+			})
+		},
+		{
+			loc: `${SITE_URL}/community`,
+			lastmod: resolveStaticLastmod({
+				contentDates: [latestCommunity],
+				routePaths: ROUTE_FILES.community,
+				siteFallbackLastmod
+			})
+		},
+		{
+			loc: `${SITE_URL}/enneagram-corner`,
+			lastmod: resolveStaticLastmod({
+				contentDates: [latestEnneagram],
+				routePaths: ROUTE_FILES.enneagramCorner,
+				siteFallbackLastmod
+			})
+		},
+		{
+			loc: `${SITE_URL}/enneagram-corner/mental-health`,
+			lastmod: resolveStaticLastmod({
+				contentDates: [latestMentalHealth],
+				routePaths: ROUTE_FILES.enneagramMentalHealth,
+				siteFallbackLastmod
+			})
+		},
+		...ENNEAGRAM_SUBTOPIC_SLUGS.map((slug) => ({
+			loc: `${SITE_URL}/enneagram-corner/subtopic/${slug}`,
+			lastmod: resolveStaticLastmod({
+				contentDates: [
+					getLatestItemDate(posts, (post) =>
+						normalizeTypeKey(getPrimaryPostType(post.type)) === normalizeTypeKey(slug)
+							? (post.lastmod ?? post.date)
+							: null
+					)
+				],
+				routePaths: ROUTE_FILES.enneagramSubtopic,
+				fallbackLastmod: '2024-05-04',
+				siteFallbackLastmod
+			})
+		})),
+		{
+			loc: `${SITE_URL}/how-to-guides`,
+			lastmod: resolveStaticLastmod({
+				contentDates: [latestGuides],
+				routePaths: ROUTE_FILES.howToGuides,
+				siteFallbackLastmod
+			})
+		},
+		{
+			loc: `${SITE_URL}/personality-analysis`,
+			lastmod: resolveStaticLastmod({
+				contentDates: [latestPeople],
+				routePaths: ROUTE_FILES.personalityAnalysis,
+				siteFallbackLastmod
+			})
+		},
+		{
+			loc: `${SITE_URL}/personality-analysis/categories`,
+			lastmod: resolveStaticLastmod({
+				contentDates: [latestPeople],
+				routePaths: ROUTE_FILES.personalityCategories,
+				siteFallbackLastmod
+			})
+		},
+		...PERSONALITY_CATEGORY_DEFINITIONS.map((category) => ({
+			loc: `${SITE_URL}/personality-analysis/categories/${category.slug}`,
+			lastmod: resolveStaticLastmod({
+				contentDates: [
+					getLatestItemDate(peoplePosts, (person) =>
+						isPersonalityCategoryPost(person, category.slug)
+							? (person.lastmod ?? person.date)
+							: null
+					)
+				],
+				routePaths: ROUTE_FILES.personalityCategory,
+				siteFallbackLastmod
+			})
+		})),
+		{
+			loc: `${SITE_URL}/questions`,
+			lastmod: resolveStaticLastmod({
+				contentDates: [latestQuestions],
+				routePaths: ROUTE_FILES.questions,
+				siteFallbackLastmod
+			})
+		},
+		...Array.from({ length: 9 }, (_, index) => {
+			const enneagram = index + 1;
+			return {
+				loc: `${SITE_URL}/personality-analysis/type/${enneagram}`,
+				lastmod: resolveStaticLastmod({
+					contentDates: [
+						getLatestItemDate(peoplePosts, (person) =>
+							isPersonalityTypePost(person, enneagram) ? (person.lastmod ?? person.date) : null
+						)
+					],
+					routePaths: ROUTE_FILES.personalityType,
+					fallbackLastmod: '2024-08-29',
+					siteFallbackLastmod
+				})
+			};
+		}),
+		{
+			loc: `${SITE_URL}/blog/experiment`,
+			lastmod: resolveStaticLastmod({
+				routePaths: ROUTE_FILES.blogExperiment,
+				fallbackLastmod: '2024-09-13',
+				siteFallbackLastmod
+			})
+		}
+	];
 }
 
 function renderUrlEntry(entry) {
@@ -123,35 +505,13 @@ async function getAllPosts() {
 		for (const file of files) {
 			try {
 				const content = await fs.readFile(file, 'utf-8');
-				const frontmatterMatch = content.match(/^---\s*\n([\s\S]*?)\n---/);
-
-				if (!frontmatterMatch) continue;
-
-				const metadata = {};
-				const lines = frontmatterMatch[1].split('\n');
-
-				for (const line of lines) {
-					const colonIndex = line.indexOf(':');
-					if (colonIndex <= 0) continue;
-
-					const key = line.substring(0, colonIndex).trim();
-					let value = line.substring(colonIndex + 1).trim();
-
-					if (
-						(value.startsWith('"') && value.endsWith('"')) ||
-						(value.startsWith("'") && value.endsWith("'"))
-					) {
-						value = value.slice(1, -1);
-					}
-
-					if (value === 'true') value = true;
-					else if (value === 'false') value = false;
-
-					metadata[key] = value;
-				}
+				const { data: metadata } = matter(content);
 
 				if (metadata.published && metadata.loc) {
-					posts.push(metadata);
+					posts.push({
+						...metadata,
+						sourceCategory: category
+					});
 				}
 			} catch (error) {
 				console.warn(`Could not read ${path.basename(file)}: ${error.message}`);
@@ -163,6 +523,7 @@ async function getAllPosts() {
 }
 
 async function getQuestions() {
+	const supabase = getSupabase();
 	const { data, error } = await supabase
 		.from('questions')
 		.select('url, updated_at')
@@ -180,6 +541,7 @@ async function getQuestions() {
 }
 
 async function getFamousPeople() {
+	const supabase = getSupabase();
 	const { data, error } = await supabase
 		.from('blogs_famous_people')
 		.select('*')
@@ -235,6 +597,7 @@ async function generateSitemap() {
 		getFamousPeople(),
 		getQuestions()
 	]);
+	const staticPages = buildStaticPages({ posts, peoplePosts, questions });
 
 	const dynamicEntries = [
 		...posts.map(buildPostEntry),
@@ -245,7 +608,7 @@ async function generateSitemap() {
 		}))
 	].filter(Boolean);
 
-	const entries = dedupeEntries([...STATIC_PAGES, ...dynamicEntries]).sort((a, b) =>
+	const entries = dedupeEntries([...staticPages, ...dynamicEntries]).sort((a, b) =>
 		a.loc.localeCompare(b.loc)
 	);
 
@@ -263,7 +626,9 @@ ${entries.map(renderUrlEntry).join('\n')}
 	console.log(`Total URLs: ${entries.length}`);
 }
 
-generateSitemap().catch((error) => {
-	console.error('Error generating sitemap:', error);
-	process.exit(1);
-});
+if (process.argv[1] && path.resolve(process.argv[1]) === __filename) {
+	generateSitemap().catch((error) => {
+		console.error('Error generating sitemap:', error);
+		process.exit(1);
+	});
+}

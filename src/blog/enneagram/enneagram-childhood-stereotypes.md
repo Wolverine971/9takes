@@ -4,7 +4,7 @@ description: 'Rediscovering Your Childhood Through the Enneagram Lens: A Journey
 author: 'DJ Wayne'
 date: '2023-12-16'
 loc: 'https://9takes.com/enneagram-corner/enneagram-childhood-stereotypes'
-lastmod: '2025-12-04'
+lastmod: '2026-04-01'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
@@ -39,13 +39,13 @@ Your Enneagram type wasn't something you chose—it developed as an adaptive str
 
 <p class="firstLetter">You've been around the block. Seen a thing or two. But what was going on back when you were but a weeeee babe?</p>
 
-Well, park your scroll thumb or mousey flicker for a moment, and take a walk down memory lane. **We are gonna try to revisit some trauma.** JK, we're exploring childhood through the lens of the Enneagram—looking at stereotypes that may or may not apply to you or people you know.
+Take a walk down memory lane for a moment. We're exploring childhood through the lens of the Enneagram—looking at the patterns, wounds, and coping strategies that shaped who you became. Some of this might hit close to home. That's the point.
 
 ## Type 1: The Little Perfectionists
 
 Our Type 1 kids were the miniature rule-keepers and fairness advocates.
 
-They might have been the goodie's two shoes or the teacher's pet. Picture a child who felt like they had to be perfect. They might have had trouble considering the possibility that they were wrong. And they were constantly bothered by the little imperfections in the world around them. Somewhere, they learned that precision and correctness were the only options and that it was their responsibility to make things that way.
+They might have been the goody two shoes or the teacher's pet. Picture a child who felt like they had to be perfect. They might have had trouble considering the possibility that they were wrong. And they were constantly bothered by the little imperfections in the world around them. Somewhere, they learned that precision and correctness were the only options and that it was their responsibility to make things that way.
 
 Imagine a child organizing their toys with meticulous care or being the self-appointed referee in games, ensuring every rule was followed to the T. This wasn't just a quirky habit; it was their way of creating order in a world they felt was chaotically imperfect.
 
@@ -61,17 +61,17 @@ Think of the child who always shared their lunch, not just to be kind, but becau
 
 The Type 3s were the star performers of their childhood, always chasing the next accolade.
 
-These kids were raised in environments where success and achievement were encouraged and seen as the ultimate measure of worth. They could often be seen bragging or hanging out with the older or cool kids. They always wanted to be the fastest, strongest, prettiest, or one who could sing the best.
+These kids learned early that love felt conditional. Affection came after the good report card, the winning goal, the performance that made the family proud. Somewhere they internalized: _who I am isn't enough — what I do is what makes me lovable._ They could often be seen bragging or hanging out with the older or cool kids. They always wanted to be the fastest, strongest, prettiest, or the one who could sing the best.
 
-Think of the kid who was the sports star or had the highest grades. If they were a 3, they were racking up accomplishments to feel good about themselves and because they thought those accomplishments made them worth loving.
+Think of the kid who was the sports star or had the highest grades — not just because they liked winning, but because the applause was the closest thing to unconditional love they knew how to get.
 
 ## Type 4: The Tortured Artists
 
 Type 4 children were unique souls, often feeling like misfits in their own worlds.
 
-They grew up with a sense of deep emotional intensity, feeling things more profoundly than their peers, which often led to feeling profoundly misunderstood. They could often be seen wearing something different from their peers. They were the ones who searched for the right way to express themselves.
+Something felt missing early on — maybe emotional distance from a parent, or a sense that the family unit didn't quite have room for who they really were. They grew up with deep emotional intensity, feeling things more profoundly than their peers, which often led to feeling profoundly misunderstood. They could often be seen wearing something different from their peers. They were the ones searching for the right way to express what was going on inside them.
 
-The kid in class who wrote poetry or daydreamed, not just to escape boredom but to find a connection they deeply craved. Their creativity was a bridge to a world where they felt seen and understood.
+The kid in class who wrote poetry or daydreamed wasn't just escaping boredom — they were trying to build a bridge to a world where someone finally _got_ them. Their creativity was a lifeline to feeling seen in a world that seemed to overlook them.
 
 <div style="overflow: hidden;">
 <MarqueeHorizontal displayList={[{name: 'at a party 🎉', link: '/enneagram-corner/enneagram-types-at-party'}, {name: 'in stress 😰', link: '/enneagram-corner/enneagram-types-in-stress'}, {name: 'being ghosted 👻', link: '/enneagram-corner/enneagram-types-being-ghosted'}, {name: 'strengths 💪 and weaknesses', link: '/enneagram-corner/enneagram-strengths-and-weaknesses'}, {name: 'communication styles 🙊', link: '/enneagram-corner/enneagram-communication-styles'} ]} />
@@ -81,9 +81,7 @@ The kid in class who wrote poetry or daydreamed, not just to escape boredom but 
 
 Remember that kid who always had their nose in a book or was tirelessly dismantling gadgets to see how they tick? They may have been a loner. That's our Type 5.
 
-Growing up, these mini Einsteins felt their personal space was a sacred temple, often invaded by the chaos of the adult world or loud peers. They built fortresses of solitude where they could escape and dive deep into whatever was on their mind. They created and explored many little hidden worlds of knowledge that will likely remain locked away deep in their memories.
-
-Their bedroom, cluttered with books, gadgets, and notes, is a testament to their quest for knowledge and a haven from the unpredictability of human interactions. It's here, in this self-created world of inquiry and discovery, that they feel most alive and most themselves.
+Growing up, these mini Einsteins felt their personal space was a sacred temple, often invaded by the chaos of the adult world or loud peers. The world felt overwhelming and unpredictable, so they learned to retreat — building fortresses of solitude where they could escape and dive deep into whatever was on their mind. They created and explored many little hidden worlds of knowledge that will likely remain locked away deep in their memories. Gathering information was how they felt safe.
 
 ## Type 6: The Loyal Protectors
 
@@ -113,15 +111,25 @@ That schoolyard hero who stood up to bullies was probably an 8. The kid with an 
 
 Type 9s were the glue that held the childhood gang together.
 
-They were funny, good listeners, and easygoing. They grew up feeling like background characters in their own life story. This leads them to become masters of harmony and conflict avoidance. However, they may have had a rebellious streak in them because, after a while, they may not have liked conflict. They also did not like being told what to do.
+They were funny, good listeners, and easygoing. They grew up feeling like background characters in their own life story — their needs and opinions consistently taking a backseat to louder siblings or more demanding family dynamics. They learned that the safest way to exist was to not make waves. This turned them into masters of harmony and conflict avoidance. But underneath that agreeableness was a quiet stubbornness — after suppressing their own voice long enough, they could dig in their heels or suddenly snap in ways that surprised everyone, including themselves.
 
-The friend everyone liked, got along with, and never caused a problem was a 9. The friend who always mediated fights over who got to be the leader in group games? They weren't just being nice; they were seeking peace within their own family dynamics.
+The friend everyone liked and never caused a problem was a 9. The one who mediated fights over who got to be the leader in group games? They weren't just being nice; they were recreating the only role that felt safe in their family.
 
-## Wrap up
+## So What Do You Do With This?
 
-Reading about these Enneagram's childhoods made you think about your early years. Which of these stories felt familiar? The people around us who we like and don't like probably have a childhood story similar to the examples above.
+The point isn't nostalgia. It's noticing that the coping strategy you built as a kid is probably still running your life as an adult.
 
-If you are reminded of this blog in a conversation down the road give us a shout-out 🙏.
+- **Type 1**: You're still trying to fix everything. Notice when "improving" something is actually about calming your own anxiety.
+- **Type 2**: You're still over-giving. Ask yourself when the last time was that you let someone help _you_ without feeling guilty.
+- **Type 3**: You're still performing. Try sitting with who you are when you're not accomplishing anything.
+- **Type 4**: You're still searching for what's missing. Consider that you might already have it and not recognize it.
+- **Type 5**: You're still retreating to feel safe. Pay attention to when gathering more information becomes a way to avoid acting.
+- **Type 6**: You're still scanning for threats. Notice how often your worst-case scenarios actually happen (spoiler: rarely).
+- **Type 7**: You're still running from pain. The next time something uncomfortable comes up, try staying with it for five minutes instead of pivoting.
+- **Type 8**: You're still armoring up. Experiment with letting someone see you when you're not strong.
+- **Type 9**: You're still disappearing. Practice stating a preference — even a small one — without waiting to see what everyone else wants first.
+
+The childhood pattern isn't the problem. It kept you safe when you needed it. The problem is when you're 30 (or 40 or 50) and still running the same program on autopilot. Seeing the pattern is the first step to choosing something different.
 
 <svelte:head>
 

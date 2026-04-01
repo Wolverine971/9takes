@@ -3588,23 +3588,10 @@ export type Database = {
         Args: { p_min_interval?: string; p_now?: string; p_task_name: string }
         Returns: boolean
       }
-      cleanup_blogs_famous_people_history:
-        | {
-            Args: { p_famous_people_id: number }
-            Returns: {
-              error: true
-            } & "Could not choose the best candidate function between: public.cleanup_blogs_famous_people_history(p_famous_people_id => int8), public.cleanup_blogs_famous_people_history(p_famous_people_id => int4). Try renaming the parameters or the function itself in the database so function overloading can be resolved"
-          }
-        | {
-            Args: { p_famous_people_id: number }
-            Returns: {
-              error: true
-            } & "Could not choose the best candidate function between: public.cleanup_blogs_famous_people_history(p_famous_people_id => int8), public.cleanup_blogs_famous_people_history(p_famous_people_id => int4). Try renaming the parameters or the function itself in the database so function overloading can be resolved"
-          }
-        | {
-            Args: { p_famous_people_id: number; p_keep_count?: number }
-            Returns: undefined
-          }
+      cleanup_blogs_famous_people_history: {
+        Args: { p_famous_people_id: number; p_keep_count?: number }
+        Returns: undefined
+      }
       cleanup_site_telemetry: { Args: { p_now?: string }; Returns: Json }
       comments_last_30_days: {
         Args: never
