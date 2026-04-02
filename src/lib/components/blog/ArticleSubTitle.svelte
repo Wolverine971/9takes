@@ -4,15 +4,38 @@
 
 	// import twitter from '$lib/images/twitter.svg';
 
-	const createdDate = new Date(metaData.date);
-	$: year = createdDate.getFullYear();
-	$: month = createdDate.getMonth() + 1;
-	$: day = createdDate.getDate();
+	type DisplayDate = {
+		key: string;
+		label: string;
+	};
 
-	const lastUpdated = new Date(metaData.lastmod);
-	$: lastUpdatedYear = lastUpdated.getFullYear();
-	$: lastUpdatedMonth = lastUpdated.getMonth() + 1;
-	$: lastUpdatedDay = lastUpdated.getDate();
+	function formatStoredDate(value: string | null | undefined): DisplayDate | null {
+		if (!value) return null;
+
+		const literalDateMatch = value.match(/^(\d{4})-(\d{2})-(\d{2})/);
+		if (literalDateMatch) {
+			const [, year, month, day] = literalDateMatch;
+			return {
+				key: `${year}-${month}-${day}`,
+				label: `${Number(month)}/${Number(day)}/${year}`
+			};
+		}
+
+		const parsed = new Date(value);
+		if (Number.isNaN(parsed.getTime())) return null;
+
+		const year = parsed.getUTCFullYear();
+		const month = parsed.getUTCMonth() + 1;
+		const day = parsed.getUTCDate();
+
+		return {
+			key: parsed.toISOString().slice(0, 10),
+			label: `${month}/${day}/${year}`
+		};
+	}
+
+	$: publishedDate = formatStoredDate(metaData.date);
+	$: modifiedDate = formatStoredDate(metaData.lastmod);
 </script>
 
 <p class="article-meta">
@@ -29,12 +52,12 @@
 	</span>
 	<span class="separator">|</span>
 	<time class="date" itemprop="datePublished" datetime={metaData.date}>
-		Published: {month}/{day}/{year}
+		Published: {publishedDate?.label ?? metaData.date}
 	</time>
-	{#if createdDate.toDateString() !== lastUpdated.toDateString()}
+	{#if modifiedDate && modifiedDate.key !== publishedDate?.key}
 		<span class="separator">|</span>
 		<time class="date updated" itemprop="dateModified" datetime={metaData.lastmod}>
-			Updated: {lastUpdatedMonth}/{lastUpdatedDay}/{lastUpdatedYear}
+			Updated: {modifiedDate.label}
 		</time>
 	{/if}
 </p>

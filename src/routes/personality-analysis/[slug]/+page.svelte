@@ -345,10 +345,12 @@
 
 <article itemscope itemtype="https://schema.org/BlogPosting" class="blog">
 	<div class="article-header">
-		<PeopleBlogPageHead data={postMeta} />
-		<ArticleTitle title={postMeta.title} />
-		<ArticleSubTitle metaData={postMeta} />
-		<meta itemprop="description" content={postMeta.description} />
+		{#key post.slug}
+			<PeopleBlogPageHead data={postMeta} />
+			<ArticleTitle title={postMeta.title} />
+			<ArticleSubTitle metaData={postMeta} />
+			<meta itemprop="description" content={postMeta.description} />
+		{/key}
 	</div>
 
 	<div class="featured-image" itemprop="image" itemscope itemtype="https://schema.org/ImageObject">

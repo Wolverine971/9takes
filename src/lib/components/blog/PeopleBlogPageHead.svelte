@@ -20,6 +20,8 @@
 	let formattedTitle = $derived(title ? `${title}` : '9takes');
 	const robotsContent =
 		'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1';
+	let publishedAt = $derived(data?.date || '');
+	let modifiedAt = $derived(data?.lastmod || publishedAt);
 	let canonicalUrl = $derived(data?.loc || buildPersonalityAnalysisUrl(data?.person || data?.slug));
 	let personName = $derived(formatPersonalityDisplayName(data?.person || data?.slug) || title);
 	let shareImagePath = $derived(
@@ -88,8 +90,8 @@
 				'@type': 'WebPage',
 				'@id': canonicalUrl
 			},
-			datePublished: data.date,
-			dateModified: data.lastmod,
+			datePublished: publishedAt,
+			dateModified: modifiedAt,
 			...(shareImageUrl && {
 				image: {
 					'@type': 'ImageObject',
@@ -105,7 +107,7 @@
 		try {
 			const parsedSnippet = parseJsonLdSnippet(data.jsonld_snippet);
 			const jsonLdObject = parsedSnippet
-				? updateJsonLdDateModified(parsedSnippet, data.lastmod)
+				? updateJsonLdDateModified(parsedSnippet, modifiedAt)
 				: buildCommonJsonLdFields();
 
 			return JSON.stringify(jsonLdObject);
@@ -155,8 +157,8 @@
 	<meta name="twitter:image:alt" content={personName} />
 
 	<meta property="article:author" content="DJ Wayne" />
-	<meta property="article:published_time" content={data.date} />
-	<meta property="article:modified_time" content={data.lastmod} />
+	<meta property="article:published_time" content={publishedAt} />
+	<meta property="article:modified_time" content={modifiedAt} />
 	<meta property="article:section" content="Personality-Analysis" />
 	<meta
 		property="article:tag"

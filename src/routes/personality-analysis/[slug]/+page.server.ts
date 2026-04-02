@@ -1,10 +1,10 @@
 // src/routes/personality-analysis/[slug]/+page.server.ts
 import type { PageServerLoad } from './$types';
-import { supabase } from '$lib/supabase';
 import { dev } from '$app/environment';
 import type { Actions } from './$types';
 import { error } from '@sveltejs/kit';
 import type { Database } from '../../../../database.types';
+import type { SupabaseClient } from '@supabase/supabase-js';
 import {
 	rankSimilarPeople,
 	type PersonalitySimilarityRow
@@ -16,6 +16,7 @@ import {
 
 type FamousPersonRow = Database['public']['Tables']['blogs_famous_people']['Row'];
 type BlogCommentRow = Database['public']['Tables']['blog_comments']['Row'];
+type ServerSupabaseClient = SupabaseClient<Database>;
 
 export const load: PageServerLoad = async (event) => {
 	const setHeaders = event.setHeaders;
@@ -23,6 +24,7 @@ export const load: PageServerLoad = async (event) => {
 	const user = session?.user;
 	const requestedSlug = event.params.slug;
 	const cookie = event.cookies.get('9tfingerprint');
+	const supabase = event.locals.supabase;
 
 	if (!dev) {
 		setHeaders({
@@ -83,6 +85,8 @@ export const load: PageServerLoad = async (event) => {
 	}
 
 	const { content, placeholders, headings } = await processBlogContent(personData.content ?? '');
+	const publishedAt = personData.date ?? personData.created_at;
+	const modifiedAt = personData.lastmod ?? publishedAt;
 
 	return {
 		user: session?.user ? { id: session?.user?.id, email: session?.user?.email } : null, // Pass user info to components
@@ -93,7 +97,15 @@ export const load: PageServerLoad = async (event) => {
 		post: {
 			...(personData as FamousPersonRow),
 			slug: canonicalSlug,
+			title: personData.title ?? '',
+			author: personData.author ?? 'DJ Wayne',
+			description: personData.description ?? '',
+			date: publishedAt,
 			loc: buildPersonalityAnalysisUrl(canonicalSlug),
+			lastmod: modifiedAt,
+			changefreq: personData.changefreq ?? 'weekly',
+			priority: personData.priority ?? '0.6',
+			published: personData.published ?? false,
 			content
 		},
 		slug: canonicalSlug,
@@ -108,7 +120,8 @@ export const load: PageServerLoad = async (event) => {
 const relatedPostsCache = new Map();
 
 export const actions: Actions = {
-	getRelatedPosts: async ({ request }) => {
+	getRelatedPosts: async ({ request, locals }) => {
+		const supabase = locals.supabase;
 		const data = await request.formData();
 		const slug = data.get('slug')?.toString();
 		const postTypes = parsePostTypes(data.get('postTypes'));
@@ -134,12 +147,17 @@ export const actions: Actions = {
 
 		// Get similar posts by shared tags/categories
 		if (postTypes.length) {
-			sameNichePosts = await getSimilarPosts(slug, postTypes, enneagram);
+			sameNichePosts = await getSimilarPosts(supabase, slug, postTypes, enneagram);
 		}
 
 		// Get posts by enneagram, ranked by overall similarity
 		if (enneagram) {
-			sameEnneagramPosts = await getEnneagramPosts(slug, enneagram, postTypes).then((posts) =>
+			sameEnneagramPosts = await getEnneagramPosts(
+				supabase,
+				slug,
+				enneagram,
+				postTypes
+			).then((posts) =>
 				posts.filter((post) => !sameNichePosts.some((candidate) => candidate.slug === post.slug))
 			);
 		}
@@ -177,7 +195,12 @@ function mapSimilarResults(rows: PersonalitySimilarityRow[]) {
 	return rows.map((row) => ({ ...row, slug: normalizePersonalitySlug(row.person) }));
 }
 
-async function getSimilarPosts(currentSlug: string, postTypes: string[], enneagram: number | null) {
+async function getSimilarPosts(
+	supabase: ServerSupabaseClient,
+	currentSlug: string,
+	postTypes: string[],
+	enneagram: number | null
+) {
 	const { data: personDataRaw, error: personDataError } = await supabase
 		.from('blogs_famous_people')
 		.select(
@@ -201,14 +224,19 @@ async function getSimilarPosts(currentSlug: string, postTypes: string[], enneagr
 }
 
 // Function to get posts by enneagram number
-async function getEnneagramPosts(currentSlug: string, enneagramNum: number, postTypes: string[]) {
+async function getEnneagramPosts(
+	supabase: ServerSupabaseClient,
+	currentSlug: string,
+	enneagramNum: number,
+	postTypes: string[]
+) {
 	const { data: personDataRaw, error: personDataError } = await supabase
 		.from('blogs_famous_people')
 		.select(
 			'person, enneagram, title, description, persona_title, lastmod, date, type, published, content_quality'
 		)
 		.eq('published', true)
-		.eq('enneagram', enneagramNum);
+		.eq('enneagram', String(enneagramNum));
 	const personData = (personDataRaw ?? []) as PersonalitySimilarityRow[];
 
 	if (personDataError) {
