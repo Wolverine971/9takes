@@ -12,17 +12,51 @@ const db = supabase as any;
 
 const getAllPosts = async () => {
 	// const imports = import.meta.glob('/posts/**/*.md'); // make sure you get files from the right place
-	const community = import.meta.glob(`/src/blog/community/*.{md,svx,svelte.md}`);
+	const community = import.meta.glob([
+		`/src/blog/community/*.{md,svx,svelte.md}`,
+		'!**/societal-ticking-time-bombs-fact-check.md'
+	]);
 
-	const guides = import.meta.glob(`/src/blog/guides/*.{md,svx,svelte.md}`);
-	const enneagram = import.meta.glob(`/src/blog/enneagram/**/*.{md,svx,svelte.md}`);
-	const generational = import.meta.glob(`/src/blog/generational/*.{md,svx,svelte.md}`);
-	const historical = import.meta.glob(`/src/blog/historical/*.{md,svx,svelte.md}`);
-	const lifesituations = import.meta.glob(`/src/blog/life-situations/*.{md,svx,svelte.md}`);
-	const people = import.meta.glob(`/src/blog/people/*.{md,svx,svelte.md}`);
-	const popculture = import.meta.glob(`/src/blog/pop-culture/*.{md,svx,svelte.md}`);
-	const situational = import.meta.glob(`/src/blog/situational/*.{md,svx,svelte.md}`);
-	const topical = import.meta.glob(`/src/blog/topical/*.{md,svx,svelte.md}`);
+	const guides = import.meta.glob([
+		`/src/blog/guides/*.{md,svx,svelte.md}`,
+		'!**/personality-maxing-notes.md'
+	]);
+	const enneagram = import.meta.glob([
+		`/src/blog/enneagram/**/*.{md,svx,svelte.md}`,
+		'!**/drafts/**',
+		'!**/*.instagram.md',
+		'!**/*.twitter.md',
+		'!**/*.reddit.md',
+		'!**/*.review.md',
+		'!**/blog-optimization-strategies.md'
+	]);
+	const generational = import.meta.glob([
+		`/src/blog/generational/*.{md,svx,svelte.md}`,
+		'!**/template.md'
+	]);
+	const historical = import.meta.glob([
+		`/src/blog/historical/*.{md,svx,svelte.md}`,
+		'!**/template.md'
+	]);
+	const lifesituations = import.meta.glob([
+		`/src/blog/life-situations/*.{md,svx,svelte.md}`,
+		'!**/template.md'
+	]);
+	const people = import.meta.glob([
+		`/src/blog/people/*.{md,svx,svelte.md}`,
+		'!**/person-template.md'
+	]);
+	const popculture = import.meta.glob([
+		`/src/blog/pop-culture/*.{md,svx,svelte.md}`,
+		'!**/*-twitter.md',
+		'!**/incel-exit-post.md',
+		'!**/template.md'
+	]);
+	const situational = import.meta.glob([
+		`/src/blog/situational/*.{md,svx,svelte.md}`,
+		'!**/template.md'
+	]);
+	const topical = import.meta.glob([`/src/blog/topical/*.{md,svx,svelte.md}`, '!**/template.md']);
 
 	const imports = [
 		community,

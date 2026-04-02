@@ -30,9 +30,15 @@ function processMdsvexModule(
 }
 
 export const getPosts = async (): Promise<App.BlogPost[]> => {
-	const enneagramModules = import.meta.glob<App.MdsvexFile>(
-		`/src/blog/enneagram/**/*.{md,svx,svelte.md}`
-	);
+	const enneagramModules = import.meta.glob<App.MdsvexFile>([
+		`/src/blog/enneagram/**/*.{md,svx,svelte.md}`,
+		'!**/drafts/**',
+		'!**/*.instagram.md',
+		'!**/*.twitter.md',
+		'!**/*.reddit.md',
+		'!**/*.review.md',
+		'!**/blog-optimization-strategies.md'
+	]);
 	const enneagramPromises = Object.entries(enneagramModules).map(([path, resolver]) =>
 		processMdsvexModule(path, resolver)
 	);
@@ -40,9 +46,10 @@ export const getPosts = async (): Promise<App.BlogPost[]> => {
 		(post): post is NonNullable<typeof post> => post !== null && post.published
 	);
 
-	const communityModules = import.meta.glob<App.MdsvexFile>(
-		`/src/blog/community/*.{md,svx,svelte.md}`
-	);
+	const communityModules = import.meta.glob<App.MdsvexFile>([
+		`/src/blog/community/*.{md,svx,svelte.md}`,
+		'!**/societal-ticking-time-bombs-fact-check.md'
+	]);
 
 	const communityPromises = Object.entries(communityModules).map(([path, resolver]) =>
 		processMdsvexModule(path, resolver)

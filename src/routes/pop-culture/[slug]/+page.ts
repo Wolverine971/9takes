@@ -4,7 +4,12 @@ import { error } from '@sveltejs/kit';
 import { slugFromPath } from '$lib/slugFromPath';
 
 export const load: PageLoad = async ({ params }) => {
-	const modules = import.meta.glob(`/src/blog/pop-culture/*.{md,svx,svelte.md}`);
+	const modules = import.meta.glob([
+		`/src/blog/pop-culture/*.{md,svx,svelte.md}`,
+		'!**/*-twitter.md',
+		'!**/incel-exit-post.md',
+		'!**/template.md'
+	]);
 
 	let match: { path?: string; resolver?: App.MdsvexResolver } = {};
 

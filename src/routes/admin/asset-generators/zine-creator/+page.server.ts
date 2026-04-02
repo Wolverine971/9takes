@@ -34,10 +34,21 @@ type RecentEnneagramBlog = {
 	url: string;
 };
 
-const RAW_ENNEAGRAM_MODULES = import.meta.glob('/src/blog/enneagram/**/*.{md,svx,svelte.md}', {
-	query: '?raw',
-	import: 'default'
-});
+const RAW_ENNEAGRAM_MODULES = import.meta.glob(
+	[
+		'/src/blog/enneagram/**/*.{md,svx,svelte.md}',
+		'!**/drafts/**',
+		'!**/*.instagram.md',
+		'!**/*.twitter.md',
+		'!**/*.reddit.md',
+		'!**/*.review.md',
+		'!**/blog-optimization-strategies.md'
+	],
+	{
+		query: '?raw',
+		import: 'default'
+	}
+);
 
 const BLOCKED_PATH_SEGMENTS = new Set(['subtopic']);
 const SOCIAL_VARIANTS = ['.instagram.', '.twitter.', '.reddit.', '.review.'];

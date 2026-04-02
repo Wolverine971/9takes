@@ -7,10 +7,21 @@ import matter from 'gray-matter';
 import type { PageServerLoad } from './$types';
 
 const MAX_POSTS = 6;
-const RAW_ENNEAGRAM_MODULES = import.meta.glob(`/src/blog/enneagram/**/*.{md,svx,svelte.md}`, {
-	query: '?raw',
-	import: 'default'
-});
+const RAW_ENNEAGRAM_MODULES = import.meta.glob(
+	[
+		`/src/blog/enneagram/**/*.{md,svx,svelte.md}`,
+		'!**/drafts/**',
+		'!**/*.instagram.md',
+		'!**/*.twitter.md',
+		'!**/*.reddit.md',
+		'!**/*.review.md',
+		'!**/blog-optimization-strategies.md'
+	],
+	{
+		query: '?raw',
+		import: 'default'
+	}
+);
 
 let cachedPosts: App.BlogPost[] | null = null;
 let cachedPostsPromise: Promise<App.BlogPost[]> | null = null;
@@ -55,10 +66,21 @@ const loadPostsFromFs = async (): Promise<App.BlogPost[]> => {
 	const { readFile } = await import('node:fs/promises');
 
 	const cwd = process.cwd();
-	const files = await fastGlob('src/blog/enneagram/**/*.{md,svx,svelte.md}', {
-		cwd,
-		absolute: true
-	});
+	const files = await fastGlob(
+		[
+			'src/blog/enneagram/**/*.{md,svx,svelte.md}',
+			'!**/drafts/**',
+			'!**/*.instagram.md',
+			'!**/*.twitter.md',
+			'!**/*.reddit.md',
+			'!**/*.review.md',
+			'!**/blog-optimization-strategies.md'
+		],
+		{
+			cwd,
+			absolute: true
+		}
+	);
 
 	const posts = await Promise.all(
 		files.map(async (file) => {

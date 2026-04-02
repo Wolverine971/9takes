@@ -74,18 +74,25 @@ function buildRFC822Date(dateString: string | undefined): string {
 
 export const getBlogPosts = async (): Promise<App.BlogPost[]> => {
 	// Get all enneagram blog posts including subdirectories
-	const enneagramModules = import.meta.glob<App.MdsvexFile>(
-		`/src/blog/enneagram/**/*.{md,svx,svelte.md}`
-	);
+	const enneagramModules = import.meta.glob<App.MdsvexFile>([
+		`/src/blog/enneagram/**/*.{md,svx,svelte.md}`,
+		'!**/drafts/**',
+		'!**/*.instagram.md',
+		'!**/*.twitter.md',
+		'!**/*.reddit.md',
+		'!**/*.review.md',
+		'!**/blog-optimization-strategies.md'
+	]);
 	const enneagramPromises = Object.entries(enneagramModules).map(([path, resolver]) =>
 		processMdsvexModule(path, resolver)
 	);
 	const enneagramPosts = (await Promise.all(enneagramPromises)).filter((post) => post.published);
 
 	// Get community posts
-	const communityModules = import.meta.glob<App.MdsvexFile>(
-		`/src/blog/community/*.{md,svx,svelte.md}`
-	);
+	const communityModules = import.meta.glob<App.MdsvexFile>([
+		`/src/blog/community/*.{md,svx,svelte.md}`,
+		'!**/societal-ticking-time-bombs-fact-check.md'
+	]);
 	const communityPromises = Object.entries(communityModules).map(([path, resolver]) =>
 		processMdsvexModule(path, resolver)
 	);

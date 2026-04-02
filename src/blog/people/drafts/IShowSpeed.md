@@ -377,4 +377,3 @@ Darren Watkins Jr. Barima Kofi Akuffo.
 The kid from the empty desk, finally named.
 
 > **Disclaimer** This analysis of IShowSpeed's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of IShowSpeed.
-

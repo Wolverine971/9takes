@@ -152,13 +152,9 @@ export const actions: Actions = {
 
 		// Get posts by enneagram, ranked by overall similarity
 		if (enneagram) {
-			sameEnneagramPosts = await getEnneagramPosts(
-				supabase,
-				slug,
-				enneagram,
-				postTypes
-			).then((posts) =>
-				posts.filter((post) => !sameNichePosts.some((candidate) => candidate.slug === post.slug))
+			sameEnneagramPosts = await getEnneagramPosts(supabase, slug, enneagram, postTypes).then(
+				(posts) =>
+					posts.filter((post) => !sameNichePosts.some((candidate) => candidate.slug === post.slug))
 			);
 		}
 

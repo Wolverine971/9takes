@@ -5,7 +5,10 @@ import { slugFromPath } from '$lib/slugFromPath';
 const MAX_POSTS = 20;
 
 export const load: PageServerLoad = async ({ url }) => {
-	const modules = import.meta.glob(`/src/blog/community/*.{md,svx,svelte.md}`);
+	const modules = import.meta.glob([
+		`/src/blog/community/*.{md,svx,svelte.md}`,
+		'!**/societal-ticking-time-bombs-fact-check.md'
+	]);
 
 	const postPromises = Object.entries(modules).map(([path, resolver]) =>
 		resolver().then(

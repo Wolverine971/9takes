@@ -8,7 +8,15 @@ export const load: PageServerLoad = async ({
 }): Promise<{ posts: App.BlogPost[]; slug: string }> => {
 	const slug = params.slug;
 
-	const modules = import.meta.glob(`/src/blog/enneagram/**/*.{md,svx,svelte.md}`);
+	const modules = import.meta.glob([
+		`/src/blog/enneagram/**/*.{md,svx,svelte.md}`,
+		'!**/drafts/**',
+		'!**/*.instagram.md',
+		'!**/*.twitter.md',
+		'!**/*.reddit.md',
+		'!**/*.review.md',
+		'!**/blog-optimization-strategies.md'
+	]);
 
 	const postPromises = Object.entries(modules).map(([path, resolver]) =>
 		resolver().then(

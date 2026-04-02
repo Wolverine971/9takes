@@ -42,11 +42,22 @@ export const load: PageServerLoad = async (
 		throw redirect(307, '/questions');
 	}
 
-	const enneagramModules = import.meta.glob(`/src/blog/enneagram/**/*.{md,svx,svelte.md}`, {
-		query: '?raw',
-		import: 'default',
-		eager: true
-	});
+	const enneagramModules = import.meta.glob(
+		[
+			`/src/blog/enneagram/**/*.{md,svx,svelte.md}`,
+			'!**/drafts/**',
+			'!**/*.instagram.md',
+			'!**/*.twitter.md',
+			'!**/*.reddit.md',
+			'!**/*.review.md',
+			'!**/blog-optimization-strategies.md'
+		],
+		{
+			query: '?raw',
+			import: 'default',
+			eager: true
+		}
+	);
 
 	const enneagramBlogPosts = Object.entries(enneagramModules).map(([path, raw]) => {
 		const { data: metadata } = matter(raw as string);
@@ -56,11 +67,14 @@ export const load: PageServerLoad = async (
 		};
 	});
 
-	const communityModules = import.meta.glob(`/src/blog/community/*.{md,svx,svelte.md}`, {
-		query: '?raw',
-		import: 'default',
-		eager: true
-	});
+	const communityModules = import.meta.glob(
+		[`/src/blog/community/*.{md,svx,svelte.md}`, '!**/societal-ticking-time-bombs-fact-check.md'],
+		{
+			query: '?raw',
+			import: 'default',
+			eager: true
+		}
+	);
 	const communityBlogPosts = Object.entries(communityModules).map(([path, raw]) => {
 		const { data: metadata } = matter(raw as string);
 		return {
@@ -69,11 +83,14 @@ export const load: PageServerLoad = async (
 		};
 	});
 
-	const guidesModules = import.meta.glob(`/src/blog/guides/*.{md,svx,svelte.md}`, {
-		query: '?raw',
-		import: 'default',
-		eager: true
-	});
+	const guidesModules = import.meta.glob(
+		[`/src/blog/guides/*.{md,svx,svelte.md}`, '!**/personality-maxing-notes.md'],
+		{
+			query: '?raw',
+			import: 'default',
+			eager: true
+		}
+	);
 	const guidesBlogPosts = Object.entries(guidesModules).map(([path, raw]) => {
 		const { data: metadata } = matter(raw as string);
 		return {

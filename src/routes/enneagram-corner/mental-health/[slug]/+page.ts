@@ -5,19 +5,16 @@ import { error } from '@sveltejs/kit';
 
 export const load: PageLoad = async ({ params, data }) => {
 	// Import only main mental health blog posts (excluding social media versions)
-	const modules = import.meta.glob(`/src/blog/enneagram/mental-health/*.{md,svx,svelte.md}`);
+	const modules = import.meta.glob([
+		`/src/blog/enneagram/mental-health/*.{md,svx,svelte.md}`,
+		'!**/*.instagram.md',
+		'!**/*.twitter.md',
+		'!**/*.reddit.md',
+		'!**/*.review.md'
+	]);
 
 	let match: { path?: string; resolver?: App.MdsvexResolver } = {};
 	for (const [path, resolver] of Object.entries(modules)) {
-		// Skip social media versions
-		if (
-			path.includes('.instagram.') ||
-			path.includes('.twitter.') ||
-			path.includes('.reddit.') ||
-			path.includes('.review.')
-		) {
-			continue;
-		}
 		if (slugFromPath(path) === params.slug) {
 			match = { path, resolver: resolver as unknown as App.MdsvexResolver };
 			break;

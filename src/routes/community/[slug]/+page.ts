@@ -6,7 +6,10 @@ import { error } from '@sveltejs/kit';
 const MAX_POSTS = 6;
 
 export const load: PageLoad = async ({ params }) => {
-	const modules = import.meta.glob(`/src/blog/community/*.{md,svx,svelte.md}`);
+	const modules = import.meta.glob([
+		`/src/blog/community/*.{md,svx,svelte.md}`,
+		'!**/societal-ticking-time-bombs-fact-check.md'
+	]);
 
 	let match: { path?: string; resolver?: App.MdsvexResolver } = {};
 	for (const [path, resolver] of Object.entries(modules)) {

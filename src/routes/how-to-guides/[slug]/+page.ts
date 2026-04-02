@@ -6,7 +6,10 @@ import { error } from '@sveltejs/kit';
 const MAX_POSTS = 6;
 
 export const load: PageLoad = async ({ params }) => {
-	const modules = import.meta.glob(`/src/blog/guides/*.{md,svx,svelte.md}`);
+	const modules = import.meta.glob([
+		`/src/blog/guides/*.{md,svx,svelte.md}`,
+		'!**/personality-maxing-notes.md'
+	]);
 
 	let match: { path?: string; resolver?: App.MdsvexResolver } = {};
 	for (const [path, resolver] of Object.entries(modules)) {

@@ -10,7 +10,15 @@ export const load: PageServerLoad = async () => {
 		'slug' | 'title' | 'description' | 'date' | 'lastmod' | 'published' | 'type' | 'pic'
 	>;
 
-	const modules = import.meta.glob(`/src/blog/enneagram/**/*.{md,svx,svelte.md}`);
+	const modules = import.meta.glob([
+		`/src/blog/enneagram/**/*.{md,svx,svelte.md}`,
+		'!**/drafts/**',
+		'!**/*.instagram.md',
+		'!**/*.twitter.md',
+		'!**/*.reddit.md',
+		'!**/*.review.md',
+		'!**/blog-optimization-strategies.md'
+	]);
 
 	const postPromises = Object.entries(modules).map(async ([path, resolver]) => {
 		const post = await resolver();

@@ -16,7 +16,15 @@ export const load: PageLoad = async ({ params, data }) => {
 		// throw error(301, redirectMap[params.slug]);
 		throw redirect(302, redirectMap[params.slug]);
 	}
-	const modules = import.meta.glob(`/src/blog/enneagram/**/*.{md,svx,svelte.md}`);
+	const modules = import.meta.glob([
+		`/src/blog/enneagram/**/*.{md,svx,svelte.md}`,
+		'!**/drafts/**',
+		'!**/*.instagram.md',
+		'!**/*.twitter.md',
+		'!**/*.reddit.md',
+		'!**/*.review.md',
+		'!**/blog-optimization-strategies.md'
+	]);
 
 	let match: { path?: string; resolver?: App.MdsvexResolver } = {};
 	for (const [path, resolver] of Object.entries(modules)) {

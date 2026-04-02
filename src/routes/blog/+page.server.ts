@@ -12,10 +12,29 @@ export const load: PageServerLoad = async ({ locals }) => {
 		enneagram: number | null;
 	};
 
-	const popCultureModules = import.meta.glob(`/src/blog/pop-culture/*.{md,svx,svelte.md}`);
-	const enneagramModules = import.meta.glob(`/src/blog/enneagram/**/*.{md,svx,svelte.md}`);
-	const guidesModules = import.meta.glob(`/src/blog/guides/*.{md,svx,svelte.md}`);
-	const communityModules = import.meta.glob(`/src/blog/community/*.{md,svx,svelte.md}`);
+	const popCultureModules = import.meta.glob([
+		`/src/blog/pop-culture/*.{md,svx,svelte.md}`,
+		'!**/*-twitter.md',
+		'!**/incel-exit-post.md',
+		'!**/template.md'
+	]);
+	const enneagramModules = import.meta.glob([
+		`/src/blog/enneagram/**/*.{md,svx,svelte.md}`,
+		'!**/drafts/**',
+		'!**/*.instagram.md',
+		'!**/*.twitter.md',
+		'!**/*.reddit.md',
+		'!**/*.review.md',
+		'!**/blog-optimization-strategies.md'
+	]);
+	const guidesModules = import.meta.glob([
+		`/src/blog/guides/*.{md,svx,svelte.md}`,
+		'!**/personality-maxing-notes.md'
+	]);
+	const communityModules = import.meta.glob([
+		`/src/blog/community/*.{md,svx,svelte.md}`,
+		'!**/societal-ticking-time-bombs-fact-check.md'
+	]);
 
 	const resolveModules = async (
 		modules: Record<string, () => Promise<unknown>>,

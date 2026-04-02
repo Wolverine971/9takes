@@ -5,7 +5,12 @@ import type { PageServerLoad } from './$types';
 const MAX_POSTS = 50;
 
 export const load: PageServerLoad = async () => {
-	const modules = import.meta.glob(`/src/blog/pop-culture/*.{md,svx,svelte.md}`);
+	const modules = import.meta.glob([
+		`/src/blog/pop-culture/*.{md,svx,svelte.md}`,
+		'!**/*-twitter.md',
+		'!**/incel-exit-post.md',
+		'!**/template.md'
+	]);
 
 	const postPromises = Object.entries(modules).map(([path, resolver]) =>
 		resolver().then(
