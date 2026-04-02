@@ -6,7 +6,7 @@ description: 'From abandoned kid to podcasting titan. The Type 8 mind that endor
 author: 'DJ Wayne'
 date: '2023-07-26'
 loc: 'https://9takes.com/personality-analysis/Joe-Rogan'
-lastmod: '2026-02-10'
+lastmod: '2026-04-01'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
@@ -71,9 +71,9 @@ This tension runs through everything Joe Rogan has built. The man who created th
 <div class="panel">
 <ul>
 <li><b>The abandoned kid who armored up:</b> Father gone by age 7, stepfather who showed him a different model of manhood</li>
-<li><b>Power as survival:</b> Martial arts champion by 19, co-built Onnit into a nine-figure exit, media empire with no corporate owner</li>
+<li><b>Power as survival:</b> Martial arts champion by 19, still trains jiu-jitsu at 58, co-built Onnit into a nine-figure exit, media empire with no corporate owner</li>
 <li><b>Loyalty to truth over tribe:</b> Endorsed Trump, then publicly torched his immigration policies within months</li>
-<li><b>The protector instinct:</b> Built Comedy Mothership, hunts his own food with a bow, won't leave his daughters for more than three days</li>
+<li><b>The protector instinct:</b> Renegotiated Spotify for freedom over money, built Comedy Mothership, hunts his own food, won't leave his daughters for more than three days</li>
 </ul>
 </div>
 </details>
@@ -123,6 +123,22 @@ His comedy style reflected who he was: direct, confrontational, unpolished. No d
 Tom Segura puts it simply:
 
 > "Joe doesn't have a filter, and that's why people connect with him. He's the same guy on air as he is off."
+
+### The Body Never Stopped
+
+The article would be incomplete if it left martial arts at age 21. Joe never stopped.
+
+In 1996, he walked into Jean Jacques Machado's jiu-jitsu academy and got humbled immediately. A different kind of fighting: slower, more cerebral, where a smaller person with better technique can control a bigger one. By 2010, he'd earned black belts from both Machado (gi) and Eddie Bravo (no-gi, 10th Planet system).
+
+He still trains at 58. Jiu-jitsu, Muay Thai, cycling through disciplines the way he cycles through podcast guests. The dojo that saved him at 14 never stopped saving him.
+
+The physical obsession extends far beyond the mat. Sauna at 190°F four times a week. Cold plunge at 34 degrees every morning. Kettlebells following Pavel Tsatsouline's protocol — quality reps, never to failure. A home gym with a full Rogue rig, assault bike, and hex dumbbells up to 125 pounds.
+
+**"What kind of a moron who takes so good care of his body is poisoning himself a couple days a week for fun?"** That's why he quit drinking in 2024. No intervention. No external pressure. He just decided the trade-off was stupid.
+
+Bow hunting fits the same pattern. He got into it because factory farming disgusted him. Watched animal rights videos, found the industrial system unconscionable, and decided: if he was going to eat meat, he'd kill it himself. Cameron Hanes became his mentor. **"I work hard. It's a hard thing to do, to f\*\*\*ing kill an elk."** One elk feeds him for about eight months.
+
+The saunas, the cold plunges, the kettlebells, the bow — it's all the same impulse. Engineering his body with the same intensity he engineers his business. No dependencies. No weak points. The kid from Newark who couldn't control whether his father stayed is now a man who controls every input.
 
 ### The Standup Question
 
@@ -206,21 +222,17 @@ In April 2021, Unilever acquired Onnit for an estimated $250-400 million. Joe re
 
 Podcast. Comedy club. Supplement empire. UFC commentary booth. The pattern isn't random ambition. It's multiple revenue streams, no single point of failure, no one entity with enough leverage to make demands.
 
-## Hunting: Earning What You Eat
+## "I Moved to Texas Because I Want F\*\*\*ing Freedom"
 
-Bow hunting may be the purest expression of Joe's psychology.
+2020. COVID lockdowns. California shut everything down. Joe visited Austin in May, took his kids to a restaurant where nobody made them wear a mask, and something clicked.
 
-He got into it because factory farming disgusted him. He watched animal rights videos, found the industrial system unconscionable, and decided: if he was going to eat meat, he'd kill it himself with a bow. Cameron Hanes, ultra-marathon runner and bowhunter, became his mentor. Steven Rinella and John Dudley rounded out the education.
+**"I just want to go somewhere in the center of the country, somewhere it's easier to travel to both places and somewhere we have a little bit more freedom."**
 
-**"I work hard. It's a hard thing to do, to f\*\*\*ing kill an elk."** One elk feeds him for about eight months.
+He bought a $14.4 million compound on Lake Austin. The move wasn't about taxes — he's pushed back on that narrative directly: **"I'm not a person who wants to keep all my money and not pay taxes."** It was about control. California had shown him what happens when a government decides how you live. For a Type 8, that's intolerable.
 
-**"There's a different kind of a thrill being in the real wild... when we're in the mountains in Utah. And you know there's big cats out there."**
+The gravitational pull worked. Shane Gillis relocated from New York. Brendan Schaub came from LA. A whole constellation of comedians followed Joe to Austin, betting that wherever he built, the scene would follow. Some thrived. Some regretted it. The pattern was clear: Joe didn't just leave California. He created a rival center of gravity.
 
-You carry your own gear, stalk for hours, manage your mind under pressure, and earn the outcome. For someone who spent his childhood at the mercy of forces beyond his control, bowhunting is the ultimate inversion. In the wild, your survival depends entirely on your own competence.
-
-## Comedy Mothership
-
-2020. Joe moved from Southern California to Austin, Texas. He didn't just relocate. He built.
+Then he built.
 
 Comedy Mothership, his club in Austin's historic Ritz building on 6th Street, opened after two and a half years of development. **"Mothership was created because I wanted a space that would draw comics from around the world to Austin."**
 
@@ -238,12 +250,12 @@ The answer, for a healthy Eight, is always: _Nobody. By design._
 
 The evidence in Joe's case:
 
-- **Negotiated away Spotify exclusivity** so no single platform could own him
-- **Built Comedy Mothership** independent of major ticketing platforms
-- **Co-built Onnit from $80K to a nine-figure Unilever acquisition**, then kept equity
-- **Endorsed Trump then publicly attacked his immigration policies**, truth over tribal loyalty
-- **Hunts his own food with a bow**, refuses to outsource even the most basic act of sustenance
-- **Three-day rule with family**, won't stay gone from his daughters longer than that, because presence is the one thing his own father failed to give
+- **Left California for Texas** because the government told him how to live, then built a rival comedy scene from scratch
+- **Renegotiated Spotify for freedom over money** — no single platform could own him
+- **Still trains jiu-jitsu at 58** — black belts from Machado and Bravo, never stopped
+- **Endorsed Trump then publicly attacked his immigration policies** — truth over tribal loyalty
+- **Platforms conspiracy theorists and Nobel laureates alike** — trusts himself to sort signal from noise, trusts his audience to do the same
+- **Three-day rule with family** — won't stay gone from his daughters longer than that, because presence is the one thing his own father failed to give
 
 What makes Joe's Type 8 distinctive is the breadth. Most Eights dominate one domain. Joe dominated martial arts, then comedy, then television, then podcasting, then business, then live venue ownership, each time on his terms.
 
@@ -268,19 +280,7 @@ Within months of Trump taking office, Joe was publicly torching the administrati
 - **On 2020 election fraud claims:** In July 2025, Joe stated flatly that Trump had no evidence to support widespread election fraud.
 - **On Tim Walz and Minnesota fraud (February 2026):** Called Walz a "dangerous f\*\*k" over a $9 billion fraud scheme, showing he'll target both sides.
 
-Conservative commentator Douglas Murray called him out on his own show for platforming guests who spread "counterhistorical stuff of a very dangerous kind." Joe's response? He kept the conversation going.
-
 Fiercely loyal, but loyalty to truth always wins over loyalty to people.
-
-## The AI Video Moment
-
-In September 2025, during an episode with Tim Dillon, Joe fell for an obviously fake AI-generated video of Tim Walz dancing in a "F\*\*k Trump" shirt on an escalator. He insisted it was real while producer Jamie Vernon pointed out the "AI Generated" label visible at the top of the video.
-
-When finally confronted: "I fell for it too, and do you know why I fell for it? Because I believe that he's capable of doing something that dumb."
-
-The moment is psychologically revealing. Joe's confidence in his own judgment, the same force that makes him challenge presidents and refuse to bend to public pressure, can blind him. He trusted his gut over the evidence literally on screen.
-
-That's the shadow side of self-trust: sometimes you resist being _corrected_.
 
 ## Father of Daughters
 
@@ -312,8 +312,6 @@ Psychedelics reveal the most. DMT, psilocybin, plant medicines: substances that 
 
 For someone who struggles with vulnerability, psychedelics offer connection without the perceived danger of losing control. The walls come down, but on his schedule.
 
-In 2024, Joe quit drinking entirely: **"What kind of a moron who takes so good care of his body is poisoning himself a couple days a week for fun?"** No external pressure. He decided the trade-off wasn't worth it.
-
 ## The Tribe He Chose
 
 > "There's only one way to get good at anything; you surround yourself with the bad motherf\*ckers who are doing exactly what you do and you force yourself to keep up and inspire each other."
@@ -332,41 +330,53 @@ The most revealing moment came in late 2025. Theo Von mentioned suffering from d
 
 A YouTube commenter captured it: "Rogan actually tears up for a sec and no one caught it." The empire builder, the man who'll challenge anyone, pleading with a friend not to isolate. Because he knows what isolation does.
 
-## The Controversy Question
+## The Conspiracy Orbit
 
-Joe's willingness to platform controversial guests has drawn sustained criticism. In recent years: backlash for promoting debunked AIDS claims with Bret Weinstein, describing Israel's actions in Gaza as "genocide," criticizing Ukraine's defensive measures. Paleoclimatologist Jessica Tierney publicly corrected his interpretation of a temperature chart she co-authored.
+Here's what most critics get wrong about Joe Rogan and conspiracy theories: they treat it as a flaw. It's actually the same impulse that makes him a great interviewer.
 
-In early 2026, he discussed 12,000 UK arrests for social media posts with British comedian Andrew Doyle, framing it as government overreach.
+Joe likes edgy people. Comedians are edgy by profession — they test boundaries for a living. Conspiracy theorists do the same thing with ideas. For someone who grew up sparring in dojos, then sparring onstage with audiences, sitting across from someone with a wild theory is just another form of combat. Mental jiu-jitsu. He's rolling with ideas the way he rolls on the mat.
 
-The shadow side: confidence that overrides expertise. The same questioning nature that makes Joe compelling can lead him to give equal weight to fringe theories and established science.
+> "The only time I commit to conspiracy theories is when something way retarded happens. Like Lee Harvey Oswald acting alone."
 
-### The Alex Jones Question
+The key is that Joe trusts himself to sort fact from friction. He has an inner resilience, forged through decades of physical training and thousands of long-form conversations, that lets him engage with dangerous ideas without being consumed by them. He doesn't just platform people he agrees with. He platforms people who are _interesting_. Then he pressure-tests them in real time.
 
-No guest maps Joe's relationship with controversy more clearly than Alex Jones.
+> "I'm just approaching every single subject completely open-minded, even the one that I didn't believe in."
 
-Friends since the early 2000s. Real friends, trips together, time outside the spotlight. When Jones faced widespread deplatforming after the Sandy Hook lawsuits, Joe continued having him on. In his 2024 Netflix special, Joe defended Jones, saying Alex had "taught me about this sh\*t 20 years ago."
+Eddie Bravo is the perfect case study. Joe's jiu-jitsu instructor, close friend for decades, and a man who believes the earth is flat. The "look into it" meme was born from Bravo's appearances on JRE, where he'd insist on conspiracy after conspiracy while Joe pushed back, laughed, and kept the conversation going. He never cut Bravo off. He also never pretended flat earth was credible. That's the balance most people miss.
 
-Joe has challenged Jones on-air, pushed back on his wilder claims, acknowledged his friend's "alcohol and drug problems." But never cut ties.
+Alex Jones is the same pattern, amplified. Friends since the early 2000s. Real friends — trips together, time outside the spotlight. When Jones faced widespread deplatforming after the Sandy Hook lawsuits, Joe continued having him on. In his 2024 Netflix special, Joe defended Jones, saying Alex had "taught me about this sh\*t 20 years ago." Joe has challenged Jones on-air, pushed back on his wilder claims, acknowledged his friend's "alcohol and drug problems." But never cut ties.
 
-Critics see enabling. Supporters see loyalty. Virtues applied without discernment always have a shadow side.
+Conservative commentator Douglas Murray called him out on his own show for platforming guests who spread "counterhistorical stuff of a very dangerous kind." Joe's response? He kept the conversation going. Because for Joe, the conversation _is_ the point. He finds it genuinely fun to explore ideas at the edge. And he believes his audience is strong enough to hear something wild and decide for themselves what's true.
 
-## UFC Commentary: The Fighter Who Never Left
+> "It's terrifying when you're too dumb to know who's stupid. That's a position that I find myself in sometimes."
 
-At 58, Joe remains in the UFC commentary booth, a role he's held since 1997.
+That self-awareness matters. Joe has never claimed to be the expert in the room. After his COVID vaccine comments drew backlash, he was direct: **"I'm not a doctor, I'm a f\*\*\*ing moron, and I'm a cage fighting commentator. I'm not a respected source of information, even for me."**
 
-His policy: no international travel for commentary. When UFC 315 was held in Canada in 2025, Joe quipped he'd "rather go to Russia." For domestic pay-per-views, his voice remains synonymous with the sport.
+That's not false modesty. That's an Eight who knows the difference between strength and expertise. He trusts his instincts. He doesn't trust his credentials — because he knows he doesn't have any.
 
-The martial artist who found salvation in the dojo still shows up, decades later, to honor that world.
+The shadow side is real. Backlash for promoting debunked AIDS claims with Bret Weinstein. Describing Israel's actions in Gaza as "genocide." Paleoclimatologist Jessica Tierney publicly correcting his interpretation of a temperature chart she co-authored. Confidence that overrides expertise can lead him to give equal weight to fringe theories and established science. But the critics who reduce Joe to "he platforms misinformation" are missing the deeper pattern: this is a man who treats every conversation like a sparring match, and he'd rather get hit with a bad idea than refuse to step on the mat.
+
+### The AI Video Blindspot
+
+In September 2025, during an episode with Tim Dillon, Joe fell for an obviously fake AI-generated video of Tim Walz dancing in a "F\*\*k Trump" shirt on an escalator. He insisted it was real while producer Jamie Vernon pointed out the "AI Generated" label visible at the top of the video.
+
+When finally confronted: "I fell for it too, and do you know why I fell for it? Because I believe that he's capable of doing something that dumb."
+
+The moment crystallizes the shadow side of self-trust. Joe's confidence in his own judgment — the same force that makes him challenge presidents and refuse to bend to public pressure — can blind him. He trusted his gut over the evidence literally on screen. Sometimes the sparring partner lands a clean shot. The question is whether you learn from it.
+
+## The Fighter Who Never Left the Booth
+
+At 58, Joe remains in the UFC commentary booth, a role he's held since 1997. The martial artist who found salvation in the dojo at 14, earned black belts from Machado and Bravo, and still trains actively — he shows up to honor that world. His policy: no international travel for commentary. For domestic pay-per-views, his voice remains synonymous with the sport.
 
 ## The Conversation That Never Ends
 
 > "Be the hero of your own story."
 
-Joe Rogan built the world's biggest conversation platform. He endorsed a president and criticized him within months. He created a comedy club so others would have a stage. He hunts his own food with a bow. He quit drinking because he decided it was stupid. He co-built a supplement company and sold it for nine figures.
+Joe Rogan built the world's biggest conversation platform. He endorsed a president and criticized him within months. He left California because the government told him how to live. He created a comedy club so others would have a stage. He hunts his own food with a bow. He still rolls jiu-jitsu at 58. He platforms flat-earthers and physicists in the same week because he trusts himself — and his audience — to sort through it.
 
-And the same force that built all of it, the self-trust, the directness, the refusal to defer, is the thing that made him fall for a fake AI video because trusting his gut felt more real than reading the label on screen.
+And the same force that built all of it, the self-trust, the directness, the refusal to defer, is the thing that sometimes blinds him. But he knows that. **"I'm not a respected source of information, even for me."**
 
-The strength that built the empire is the blindspot that threatens it.
+The strength that built the empire is the blindspot that threatens it. And the self-awareness to name it is what keeps the whole thing from collapsing.
 
 Except his daughters. Three days away and his feelings start to crack.
 
@@ -379,38 +389,16 @@ That's the question Joe Rogan is still answering.
 > **Disclaimer** This analysis of Joe Rogan's Enneagram type is speculative, based on publicly available information, and may not reflect Joe's actual personality type.
 
 <!--
-READER REVIEW (2026-04-01):
-
-WHAT WORKS WELL:
-- The Phil Hartman opening is a killer hook. You're not leaving after that.
-- The Bourdain phone detail ("He keeps a dead man's words in his pocket") is probably the best single line in the piece. It earns the whole article.
-- The Trump paradox section is strong because it's all specific quotes, not editorializing. You just lay out the pattern and let the reader connect the dots.
-- The standup critique is refreshingly honest — most Rogan content either worships him or dunks on him. Saying "the persona carries the material" is a fair, interesting take.
-- The AI video moment is a great structural counterweight to all the "refuses to bend" stuff. Shows the shadow side without being preachy.
-
-WHAT'S MISSING:
-
-1. THE TEXAS MOVE IS HUGELY UNDERSERVED. You give it one sentence ("2020. Joe moved from Southern California to Austin, Texas.") For someone whose entire thesis is control and independence, relocating during COVID — leaving LA, the comedy scene, California taxes and regulations — is one of the biggest Type 8 moves he's ever made. Why Austin? What did he leave behind? Who followed him? This deserves its own beat, not a throwaway line before Comedy Mothership.
-
-2. NO MENTION OF HIS ONGOING MARTIAL ARTS TRAINING. He has black belts under Jean Jacques Machado and Eddie Bravo (10th Planet Jiu-Jitsu). The article covers his teenage taekwondo but acts like martial arts ended at 21. He still trains actively. For someone whose identity was forged in the dojo, the fact that he never stopped — even after building a media empire — is significant. It reinforces the self-reliance theme.
-
-3. THE FITNESS/OPTIMIZATION OBSESSION IS ABSENT. Saunas, cold plunges, kettlebells, the home gym setup, the elk meat diet, the supplement stack. This is a massive part of his public identity and ties directly into the control narrative. He's engineering his own body the same way he engineers his business — no dependencies, no weak points. A reader who knows Rogan will notice this is missing.
-
-4. EDDIE BRAVO AND THE CONSPIRACY ORBIT. The Alex Jones section is good but the broader conspiracy-friendly circle (Eddie Bravo's flat earth stuff, the "look into it" meme) feels relevant to the "controversy question" section. It's not just Alex Jones — there's a pattern of friendships with people who challenge mainstream consensus, which maps to the Type 8 "question authority" instinct.
-
-5. HIS AWARENESS OF HIS OWN LIMITATIONS. The article mentions the AI video blindspot but doesn't address whether Rogan himself has ever acknowledged his weaknesses as an interviewer or thinker. He has — he's talked about being "a moron" and "a cage-fighting commentator" who shouldn't be anyone's primary news source. Including some of that self-awareness would make the portrait more three-dimensional and prevent it from reading like a takedown in the shadow sections.
-
-WHAT'S OVERDONE / COULD BE TRIMMED:
-
-1. THE SPOTIFY DEAL GETS THREE PASSES. It's in the TL;DR, the main narrative section, and the Type 8 evidence bullet list. The main narrative version is the strongest — the others feel redundant. The TL;DR bullet could just say "renegotiated Spotify for freedom over money" without the dollar amount, and the evidence list could reference it without re-explaining.
-
-2. THE HUNTING SECTION IS THIN FOR A STANDALONE SECTION. It's interesting but doesn't say enough to justify its own header. Could fold into the "Empire Beyond the Microphone" section (as another expression of self-reliance) or into the psychology section (as another way he processes control). Right now it feels like a half-developed thought sitting between two meatier sections.
-
-3. THE UFC COMMENTARY SECTION IS ALSO THIN. Three short paragraphs, mostly surface-level. Either expand it (his actual commentary style, the Dana White relationship, how his martial arts knowledge shapes his calls) or fold it into the martial arts thread as a bookend — "the kid who found salvation in the dojo still shows up decades later." That's a great line but it's carrying a section that doesn't have much else.
-
-STRUCTURAL NOTE:
-The AI video section feels slightly orphaned between "The Trump Paradox" and "Father of Daughters." It's thematically about the shadow side of self-trust, which connects more naturally to the psychology section ("Inside the Mind") or to the controversy section. Where it sits now, it reads like a digression between two emotionally heavy sections. Consider moving it closer to the controversy material.
-
-OVERALL:
-This is a strong piece. The emotional through-line (abandoned kid → armored adult → father who won't leave) holds the whole thing together. The main gap is that it's weighted heavily toward the podcast/business/political side of Rogan and lighter on the physical/embodied side (ongoing training, fitness obsession, the Texas move as physical relocation). For a guy whose entire psychology is rooted in physical capability and self-reliance, that's a meaningful omission. Fill in the body stuff and tighten the thinner sections, and this is really solid.
+REVISION LOG (2026-04-01):
+All items from reader review addressed:
+1. TEXAS MOVE — expanded from 1 sentence to full section with quotes, $14.4M compound, who followed
+2. ONGOING MARTIAL ARTS — added "The Body Never Stopped" subsection: Machado/Bravo black belts, still trains at 58
+3. FITNESS/OPTIMIZATION — sauna, cold plunge, kettlebells, Rogue home gym, quit drinking
+4. EDDIE BRAVO + CONSPIRACY ORBIT — new section reframing conspiracy engagement as mental sparring, Eddie Bravo "look into it", Alex Jones folded in
+5. SELF-AWARENESS QUOTES — "I'm a f***ing moron, cage fighting commentator" + "terrifying when you're too dumb to know who's stupid"
+6. SPOTIFY TRIMMED — TL;DR and evidence list now reference without re-explaining dollar amounts
+7. HUNTING FOLDED — into "The Body Never Stopped" as part of the control-every-input theme
+8. UFC FOLDED — condensed to one paragraph bookending the martial arts thread
+9. AI VIDEO MOVED — now sits inside conspiracy section as "The AI Video Blindspot" subsection
+10. DOUGLAS MURRAY DEDUPED — removed from Trump section, kept in conspiracy section
 -->

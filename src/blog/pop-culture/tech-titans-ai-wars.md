@@ -302,7 +302,7 @@ The AI industry has a personality monoculture. The people building the most huma
 The future of AI isn't being shaped by technology. It's being shaped by the psychological wiring of a handful of people who are brilliant at systems and mediocre at people. They're building God—and what they build will have their blind spots baked in. Understanding their types isn't gossip. It's the closest thing we have to a user manual for what's coming.
 
 <div style="text-align: center; margin: 2rem 0;">
-<p><i>This post is part of the Tech Titans Through the Enneagram series.</i></p>
+<p><i>This post is part of the <a href="/pop-culture/tech-titans-enneagram-analysis">Tech Titans Through the Enneagram</a> series. See also: <a href="/pop-culture/tech-titans-disruptors">The Disruptors</a>, <a href="/pop-culture/tech-titans-platform-emperors">The Platform Emperors</a>, and <a href="/pop-culture/tech-titans-founders-vs-stewards">Founders vs Stewards</a>.</i></p>
 </div>
 
 ## Rabbit Holes Worth Exploring

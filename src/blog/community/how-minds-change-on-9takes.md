@@ -256,6 +256,7 @@ One question. Nine perspectives. A better shot at understanding.
 {name: 'Enneagram Communication Styles', link: '/enneagram-corner/enneagram-communication-styles'},
 {name: 'Types in Stress', link: '/enneagram-corner/enneagram-types-in-stress'},
 {name: 'What Winning Arguments Looks Like', link: '/community/what-winning-online-arguments-looks-like'},
-{name: 'Introducing 9takes', link: '/community/introducing-9takes'}
+{name: 'Introducing 9takes', link: '/community/introducing-9takes'},
+{name: 'Kant and the Nine Filters', link: '/community/kantian-filters-and-nine-perspectives'}
 ]} />
 </div>

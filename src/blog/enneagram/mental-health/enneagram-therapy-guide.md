@@ -56,6 +56,8 @@ Type 2s find therapists who let them take care of the session. Type 5s find ther
 
 The right approach changes everything. The wrong one? You waste years feeling like something is wrong with you when really, the match was wrong.
 
+Before choosing a modality, it helps to understand how your type resists therapy in the first place — [here's what your therapist actually sees](/enneagram-corner/mental-health/enneagram-therapy-resistance-guide).
+
 ## Why Your Type Determines Your Therapy Success
 
 Your Enneagram type can illuminate how you tend to resist growth, what defenses you're likely to deploy, and which approaches may resonate with you.

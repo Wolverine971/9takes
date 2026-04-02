@@ -849,7 +849,7 @@ You can tell your psychiatrist what you actually need instead of hoping they fig
 
 Medication might not be your path. That's a legitimate choice. But if you're struggling and nothing else is working, start with an honest conversation. Not just with a provider, but with yourself. What are you really afraid of? What would it mean if medication helped?
 
-**Your next step**: Find a provider who respects your autonomy. Share what you've learned about your type's patterns. Ask the five questions. Give the process a real trial. And if you're not sure where to start, explore [therapy approaches for your type](/enneagram-corner/mental-health/enneagram-therapy-guide), [trauma work](/enneagram-corner/mental-health/enneagram-trauma-response-guide), or [crisis management](/enneagram-corner/mental-health/enneagram-crisis-management-guide) first.
+**Your next step**: Find a provider who respects your autonomy. Share what you've learned about your type's patterns. Ask the five questions. Give the process a real trial. And if you're not sure where to start, explore [therapy approaches for your type](/enneagram-corner/mental-health/enneagram-therapy-guide), [trauma work](/enneagram-corner/mental-health/enneagram-trauma-response-guide), or [crisis management](/enneagram-corner/mental-health/enneagram-crisis-management-guide) first. For the bigger picture on why the SSRI system is broken at a societal level, read [3 Societal Ticking Time Bombs Nobody Is Connecting](/community/societal-ticking-time-bombs).
 
 ## Frequently Asked Questions
 

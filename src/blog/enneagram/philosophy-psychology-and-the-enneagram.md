@@ -128,7 +128,7 @@ This isn't academic coincidence. It's convergent discovery — multiple brillian
 
 The Enneagram isn't competing with philosophy or psychology. It's completing a conversation that's been ongoing for 2,400 years.
 
-Ready to explore where that conversation leads? Start with [core Enneagram concepts](/enneagram-corner/enneagram-concepts), or see how modern thinkers build on these foundations in [The Hardware and Software of the Mind](/community/software-and-hardware-of-the-mind).
+Ready to explore where that conversation leads? Start with [core Enneagram concepts](/enneagram-corner/enneagram-concepts), see how modern thinkers build on these foundations in [The Hardware and Software of the Mind](/community/software-and-hardware-of-the-mind), or discover how [Kant's philosophy maps directly onto the nine Enneagram filters](/community/kantian-filters-and-nine-perspectives).
 
 <svelte:head>
 

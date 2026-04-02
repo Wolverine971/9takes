@@ -315,7 +315,7 @@ The moderation rollback didn't affect all types equally:
 
 **Type 3s** scrambled to understand new success metrics. The old playbook—engagement through quality content—was disrupted by pay-to-play verification and algorithmic changes favoring subscribers.
 
-Whether this is better or worse depends on your type. For Type 8s, it's more comfortable. For Type 1s, it's a nightmare. For everyone, it's measurably more hostile.
+Whether this is better or worse depends on your type. For Type 8s, it's more comfortable. For Type 1s, it's a nightmare. For everyone, it's measurably more hostile. (For more on how personality shapes the tech leaders building these platforms, see the [Tech Titans Through the Enneagram](/pop-culture/tech-titans-enneagram-analysis) series.)
 
 ## Healthier Twitter Use by Type
 
@@ -354,6 +354,8 @@ Mute anyone under 1,000 followers who's clearly baiting you—they're borrowing 
 ### Type 9: Delete for a Week
 
 Your peace matters more than staying informed. If you've been lurking without posting for months, that's your answer. Delete the app for one week and notice how little you miss it.
+
+The one-sided emotional bonds you form with people you follow online aren't limited to Twitter — they shape how you consume all media. See [Parasocial Relationships by Enneagram Type](/pop-culture/parasocial-relationships-enneagram-type) for the deeper pattern.
 
 ## FAQs
 

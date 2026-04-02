@@ -458,6 +458,8 @@ When you can catch yourself mid-scroll and say "I'm numbing because I feel asham
 
 This is why I'm drawn to frameworks like the Enneagram. It maps how different personality types experience shame, fear, and anger -- which patterns they fall into, which emotions they suppress, which ones run them. It gives people a language for what's happening inside them. And that language is exactly what [Lieberman's fMRI research](#are-people-actually-getting-dumber-or-just-emotionally-frozen) proved matters -- naming an emotion calms the fear response and brings your thinking brain back online.
 
+If you want to see how this plays out in practice: [how each type falls apart under stress](/enneagram-corner/enneagram-types-in-stress), [the relationship between personality and mental illness](/enneagram-corner/enneagram-and-mental-illness), and [how your type shapes your relationship with medication](/enneagram-corner/mental-health/enneagram-medication-mental-health). For the gambling and addiction angle specifically: [Enneagram and Addiction](/enneagram-corner/mental-health/enneagram-addiction-recovery-guide).
+
 The ticking time bombs are real. But the fuse is emotional illiteracy -- and that's something we can actually fix. Not by consuming more content about emotions. By finding people we can practice with.
 
 <!--

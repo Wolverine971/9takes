@@ -325,7 +325,7 @@ And when anxiety really takes over, you might shift toward your [stress arrow](/
 
 <h2 id="head-triad">The Head Triad: When Anxiety Is Home Base</h2>
 
-Types 5, 6, and 7 live in their minds. Fear is their baseline emotion. They're the actual "anxiety triad." Their strategies for managing it look different, but they're all running from the same core experience.
+Types 5, 6, and 7 live in their minds. Fear is their baseline emotion. They're the actual "anxiety triad." Their strategies for managing it look different, but they're all running from the same core experience. The same intellect that sharpens them can also trap them — read [The Intellectual Fortress That Becomes a Prison](/community/fear-triad-intellectual-fortress-or-prison) for what happens when fear stops serving you.
 
 ### Type 5: "I Need to Know Everything Before I Can Act"
 

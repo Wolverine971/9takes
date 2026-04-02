@@ -161,7 +161,7 @@ The key to the show's longevity: mutual respect for what each type brings. The 1
 
 Here's the deeper layer that most people miss: 1s and 7s are actually connected on the Enneagram. In growth, 1s move toward 7—they lighten up, allow themselves pleasure, stop being so rigid. In growth, 7s move toward 5 (and connect to 1 through integration patterns)—they gain focus, depth, and the ability to sit still with one idea.
 
-This means Krystal and Saagar aren't just complementary—they represent each other's growth paths. Krystal needs more of what Saagar naturally has: flexibility, lightness, the ability to enjoy the process. Saagar needs more of what Krystal naturally has: moral clarity, the ability to commit fully to a position, depth over breadth.
+This means Krystal and Saagar aren't just complementary—they represent each other's growth paths. Krystal needs more of what Saagar naturally has: flexibility, lightness, the ability to enjoy the process. Saagar needs more of what Krystal naturally has: moral clarity, the ability to commit fully to a position, depth over breadth. (For more on how [each type falls apart under stress](/enneagram-corner/enneagram-types-in-stress) — and what that means for high-pressure partnerships like this one.)
 
 Working together every day, they're essentially modeling healthy growth for each other. The show isn't just a business partnership—it's two personality types teaching each other how to be more complete humans.
 
@@ -186,7 +186,7 @@ Krystal and Saagar make it look easy. It isn't. But they show up and do it anywa
 ## Rabbit Holes Worth Exploring
 
 - **The 1-7 Relationship Dynamic Beyond Media**: 1s and 7s are connected on the Enneagram (1s go to 7 in growth, 7s go to 1 in growth). Is this partnership actually a model for how these types heal each other?
-- **Other Media Duos by Type**: Colbert and Stewart. Hannity and Colmes. Morning Joe. Does the chemistry of every successful media duo map to a specific type pairing?
+- **Other Media Duos by Type**: Colbert and Stewart. Hannity and Colmes. Morning Joe. Does the chemistry of every successful media duo map to a specific type pairing? See our [Podcaster Personality Map](/pop-culture/podcaster-personality-map) and [Podcast Bros analysis](/pop-culture/podcast-bros-enneagram-analysis) for more on this.
 - **The Populist Personality**: Both Krystal and Saagar identify as populists—left-populist and right-populist. Is populism itself a personality-type-driven political stance? Which types are drawn to anti-establishment movements?
 - **Media Business Models and Type**: Ad-supported media rewards Type 3 (flashy, viral). Subscription media rewards Type 5 (deep, loyal). Breaking Points went subscription. Does the business model match the hosts' types?
 - **The Third-Party Fantasy**: Both hosts flirt with anti-two-party rhetoric. Is the desire for a third party a psychological need for certain types who can't tolerate binary choices?

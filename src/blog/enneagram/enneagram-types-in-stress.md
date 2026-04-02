@@ -449,6 +449,8 @@ A Seven in stress is running. Not toward something, but away from something. Usu
 
 When you see a Type 7 in this spiral, don't lecture them about responsibility. They'll leave. Instead, make depth feel like discovery. Say: "What would it be like to really feel this?" Make sitting still sound like an adventure. It's the only reframe they'll accept.
 
+For the deeper pattern — why chasing the next thing never delivers and what actually does — read [Why the Next Thing Won't Fix It](/enneagram-corner/why-the-next-thing-wont-fix-it-type-7).
+
 </section>
 
 <section class="section-content">
@@ -501,6 +503,8 @@ An Eight in stress has detected a threat to their control or autonomy, and their
 - Notice that not every situation requires combat mode
 
 When you see a Type 8 in this spiral, don't back down, but don't escalate either. Stand your ground calmly. Say: "I'm not going anywhere. What's really going on?" They're waiting for you to break. When you don't, the armor might crack enough for the real conversation.
+
+If you want to see how Eights actually channel that intensity into breakthroughs — from Bezos to MLK to Rihanna — read [How Type 8 Challengers Actually Succeed](/enneagram-corner/how-type-8-challengers-actually-succeed).
 
 </section>
 

@@ -128,7 +128,7 @@ export const famousTypes: { [index: number]: { name: string; link: boolean; hasI
 		{ name: 'ted-bundy', link: false, hasImage: false, lastmod: '2025-06-25', personaTitle: null, contentGrade: null }
 	],
 	4: [
-		{ name: 'alex-karp', link: true, hasImage: true, lastmod: '2026-03-25', personaTitle: 'Silicon Valley\'s Ornery Poet', contentGrade: 8.9 },
+		{ name: 'alex-karp', link: true, hasImage: true, lastmod: '2026-04-01', personaTitle: 'Silicon Valley\'s Ornery Poet', contentGrade: 8.9 },
 		{ name: 'anya-taylor-joy', link: true, hasImage: true, lastmod: '2026-03-21', personaTitle: 'Cinema\'s Beautiful Exile', contentGrade: null },
 		{ name: 'bella-hadid', link: true, hasImage: true, lastmod: '2025-12-21', personaTitle: 'Fashion\'s Erased Daughter', contentGrade: 8.3 },
 		{ name: 'billie-eilish', link: true, hasImage: true, lastmod: '2026-02-19', personaTitle: 'Gen Z\'s Beautiful Wound', contentGrade: 9.1 },
@@ -281,7 +281,7 @@ export const famousTypes: { [index: number]: { name: string; link: boolean; hasI
 		{ name: 'tim-dillon', link: true, hasImage: true, lastmod: '2026-02-23', personaTitle: 'Comedy\'s Panic Prophet', contentGrade: 9 },
 		{ name: 'tom-holland', link: true, hasImage: true, lastmod: '2026-03-01', personaTitle: 'Hollywood\'s Armored Enthusiast', contentGrade: 8.9 },
 		{ name: 'xqc', link: true, hasImage: true, lastmod: '2026-02-23', personaTitle: 'Streaming\'s Doomsday Escape Artist', contentGrade: 9 },
-		{ name: 'conan-obrien', link: false, hasImage: false, lastmod: '2025-06-25', personaTitle: null, contentGrade: null },
+		{ name: 'conan-obrien', link: false, hasImage: false, lastmod: '2026-04-01', personaTitle: 'Late Night\'s Restless Alchemist', contentGrade: 8.8 },
 		{ name: 'florence-pugh', link: false, hasImage: false, lastmod: '2025-06-25', personaTitle: null, contentGrade: null },
 		{ name: 'jacksepticeye', link: false, hasImage: false, lastmod: '2025-06-25', personaTitle: null, contentGrade: null },
 		{ name: 'julia-roberts', link: false, hasImage: false, lastmod: '2025-06-25', personaTitle: null, contentGrade: null },
@@ -310,7 +310,7 @@ export const famousTypes: { [index: number]: { name: string; link: boolean; hasI
 		{ name: 'ishowspeed', link: true, hasImage: true, lastmod: '2026-02-19', personaTitle: 'Streaming\'s Homesick Warlord', contentGrade: 9.1 },
 		{ name: 'jeff-bezos', link: true, hasImage: true, lastmod: '2026-01-18', personaTitle: 'The Challenger Who Thinks in Centuries', contentGrade: 8 },
 		{ name: 'jocko-willink', link: true, hasImage: true, lastmod: '2025-12-09', personaTitle: 'Discipline\'s Unresting Protector', contentGrade: 8.6 },
-		{ name: 'joe-rogan', link: true, hasImage: true, lastmod: '2026-02-10', personaTitle: 'Podcasting\'s Alpha Interrogator', contentGrade: 9.4 },
+		{ name: 'joe-rogan', link: true, hasImage: true, lastmod: '2026-04-01', personaTitle: 'Podcasting\'s Alpha Interrogator', contentGrade: 9.4 },
 		{ name: 'kara-swisher', link: true, hasImage: true, lastmod: '2026-03-24', personaTitle: 'Tech\'s Unapologetic Inquisitor', contentGrade: 8.9 },
 		{ name: 'malcolm-x', link: true, hasImage: true, lastmod: '2026-03-04', personaTitle: 'Justice\'s Incorruptible Fire', contentGrade: 8.8 },
 		{ name: 'martin-luther-king-jr', link: true, hasImage: true, lastmod: '2026-02-19', personaTitle: 'The Pastor Who Weaponized Love', contentGrade: 8.9 },

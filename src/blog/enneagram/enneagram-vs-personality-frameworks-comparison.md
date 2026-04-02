@@ -235,6 +235,13 @@ The best approach isn't picking a side. It's knowing which tool to reach for:
 
 The Enneagram doesn't need to be the best at everything. It needs to be the best at what it actually does. And on motivation-level insight and psychological development, nothing else comes close.
 
+### Keep Reading
+
+- [Enneagram vs Myers-Briggs: Which Actually Explains You Better?](/enneagram-corner/enneagram-vs-meyers-briggs) — a head-to-head comparison
+- [Why MBTI Failed and What to Use Instead](/community/mbti-vs-enneagram) — the case for switching
+- [Is the Enneagram Real? 27 Questions Everyone Asks](/enneagram-corner/enneagram-faqs) — the most common objections, answered
+- [Is the Enneagram Scientifically Valid?](/enneagram-corner/mental-health/enneagram-science-mental-health) — deeper dive on the research
+
 <svelte:head>
 
 <script type="application/ld+json">

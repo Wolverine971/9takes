@@ -4,7 +4,7 @@ description: "Therapy wasn't designed for everyone. The talking cure assumes you
 author: 'DJ Wayne'
 date: '2026-01-30'
 loc: 'https://9takes.com/enneagram-corner/why-therapy-doesnt-work-the-same-for-every-type'
-lastmod: '2026-03-10'
+lastmod: '2026-04-01'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
@@ -43,15 +43,11 @@ Therapy was built around one core assumption: that talking about feelings leads 
   <p><strong>Important note:</strong> This article is about finding the right therapeutic <em>approach</em> — not about avoiding therapy. If you're struggling, please seek professional support. The right match can be transformative. Call the <strong>988 Suicide and Crisis Lifeline</strong> (call or text 988) if you need immediate help.</p>
 </div>
 
-<p class="firstLetter">You've done everything right. Weekly sessions. Homework completed. You can articulate your childhood wounds with clinical precision. And yet — nothing has actually changed.</p>
+<p class="firstLetter">You've done everything right. Weekly sessions. Homework completed. You can articulate your childhood wounds with clinical precision. And yet — nothing has actually changed. Meanwhile, your friend went to therapy for six months and transformed. Same modality. Wildly different results.</p>
 
-Three years of therapy. Thousands of dollars. You understand your patterns intellectually. You can explain exactly why you do what you do. But you still do it.
+**Here's what no one tells you:** Therapy isn't a neutral tool that works equally for everyone. The therapeutic model was built on assumptions about how humans process emotions — assumptions that fit some personality types and fail others.
 
-Meanwhile, your friend went to therapy for six months and transformed. Same modality. Same type of therapist. Wildly different results.
-
-**Here's what no one tells you:** Therapy isn't a neutral tool that works equally for everyone. The entire therapeutic model was built on assumptions about how humans process emotions — assumptions that fit some personality types perfectly and fail others completely.
-
-The "talking cure" was invented in 1880s Vienna by a specific type of person, for a specific type of patient. That model became the foundation of modern psychotherapy. And if your brain doesn't work the way Freud's patients' brains worked, you can spend years in treatment while the system itself works against you.
+The "talking cure" was invented in 1880s Vienna by a specific type of person, for a specific type of patient. That model became the foundation of modern psychotherapy. And if your brain doesn't work the way those original patients' brains worked, you can spend years in treatment while the approach itself works against you.
 
 ## The Hidden Assumption Behind All Talk Therapy
 
@@ -69,7 +65,7 @@ If you're someone who processes emotions through your body, sitting in a chair t
 
 If you're someone who processes through analytical thinking, you can become an expert on your own psychology while remaining completely stuck. You collect insights like trophies. You understand everything and change nothing.
 
-**Some research suggests the talking cure has roughly a 50% response rate** — which means many people benefit, but many don't. And those who don't aren't necessarily failing because they're resistant or unmotivated. The approach may simply not match how they're built.
+**Meta-analyses on psychotherapy outcomes — including Cuijpers et al. (2014) and Wampold & Imel's comprehensive review in _The Great Psychotherapy Debate_ — put the response rate for talk therapy at roughly 40-60%.** That means many people benefit, but many don't. And those who don't aren't necessarily failing because they're resistant or unmotivated. The approach may simply not match how they're built.
 
 <div style="overflow: hidden;">
 <MarqueeHorizontal displayList={[
@@ -127,7 +123,7 @@ These types are **underrepresented in therapy.** Anger often feels like strength
 - "Things should be different" (standards not met)
 - "Whatever, it's fine" (suppressed anger presenting as indifference)
 
-**The problem:** Talk therapy doesn't release body-stored anger. Trauma researcher Bessel van der Kolk puts it bluntly: "All trauma is preverbal. Our bodies re-experience terror, rage, helplessness... but these feelings are almost impossible to articulate."
+**The problem:** Talk therapy doesn't release body-stored anger. As trauma researcher Bessel van der Kolk argues in _The Body Keeps the Score_, traumatic memories are encoded below the level of language — as sensory fragments and physical sensations, not coherent narratives. The imprints of trauma bypass our speech centers entirely.
 
 A Type 8 can talk about their childhood for years while their body still holds the tension. A Type 9 can be the "easiest client" — agreeable, never causing conflict — while changing nothing. A Type 1 can analyze their resentment with perfect precision while their shoulders remain locked and their jaw stays clenched.
 
@@ -151,7 +147,7 @@ Every personality type has built-in coping mechanisms that function as reasons N
 | **8** | Self-reliance        | "Therapy is for weak people. I can handle this."                     |
 | **9** | Minimization         | "It's not that bad. Other people have it worse. I can manage."       |
 
-These coping mechanisms explain why certain types are overrepresented in therapy (2s, 4s, and 6s often seek help) while others rarely darken a therapist's door (8s, 5s, and 3s tend to resist).
+These coping mechanisms explain why certain types are overrepresented in therapy (2s, 4s, and 6s often seek help) while others rarely darken a therapist's door (8s, 5s, and 3s tend to resist). For a deeper look at how each type's resistance actually plays out in the room — and what therapists see that you don't — read [How Each Enneagram Type Resists Therapy](/enneagram-corner/mental-health/enneagram-therapy-resistance-guide).
 
 **The pattern:** The types most likely to seek therapy are often those for whom talk therapy works reasonably well. The types least likely to seek it are often those who would need alternative approaches anyway.
 
@@ -235,26 +231,15 @@ Your emotions live in your muscles, your jaw, your chest. Talking about them won
 
 **Red flag:** If you've talked about your childhood for years and your shoulders are still up around your ears — the approach isn't reaching where the problem lives.
 
-## The Alexithymia Factor: When Words Don't Work
+## When Words Literally Don't Work: The Alexithymia Factor
 
-Some people can't verbalize emotions at all — a condition called **alexithymia** that affects 10-13% of the general population and 25% of psychiatric patients.
+There's an extreme version of the processing mismatch we've been describing. About 10-13% of the general population — and roughly 25% of psychiatric patients (Salminen et al., 1999; Leweke et al., 2012) — have **alexithymia**: a measurable difficulty identifying, distinguishing, and verbalizing emotions.
 
-People with alexithymia struggle to:
+This isn't vagueness or stubbornness. People with alexithymia genuinely can't tell you what they're feeling because they can't tell _themselves_. They confuse emotions with physical sensations. "How does that make you feel?" draws a blank — not because they're resisting, but because the question doesn't compute.
 
-- Identify what they're feeling
-- Distinguish emotional states from physical sensations
-- Put internal experiences into words
+Research confirms poor psychotherapy outcomes for alexithymic clients in talk-based formats. The entire modality assumes the one skill they lack.
 
-Research is blunt: "Alexithymia has been associated with poor outcomes in psychotherapy." Traditional talk therapy assumes exactly the skill these clients lack.
-
-**What helps instead:**
-
-- Art and music therapy (non-verbal channels)
-- Mindfulness-based approaches (focusing on sensation rather than words)
-- Somatic work (bypassing verbal centers entirely)
-- Skills-based interventions (behavioral rather than insight-focused)
-
-**The connection to types:** Alexithymia isn't an Enneagram type, but certain types are more prone to it. Body types (8, 9, 1) who disconnect from emotions, Type 5s who intellectualize feelings, and Type 7s who escape negative affect may all struggle to verbalize what they're experiencing. For these clients, asking "how does that make you feel?" is asking them to do the one thing they can't.
+**This connects directly to the center types.** Body types (8, 9, 1) who process through physical sensation rather than emotion are more prone to alexithymic presentation. So are Type 5s who've intellectualized feelings into abstractions and Type 7s who reflexively escape negative affect before it registers. If you recognize yourself here, the modality recommendations in the next section are especially relevant — specifically somatic work, art/music therapy, mindfulness-based approaches, and skills-based interventions that bypass verbal processing entirely.
 
 ## The 50-Minute Session Problem
 
@@ -297,45 +282,47 @@ Therapists have Enneagram types too. And certain pairings create predictable pro
 **Type 6 therapist + Type 8 client** = Therapist intimidated, client not challenged
 **Type 1 therapist + Type 3 client** = Performance reinforced, not disrupted
 
-Research on "patient-therapist matching" confirms this: clients in **convergent dyads** (matched on processing style) showed significantly greater symptom reduction than those in **complementary dyads.**
+Consider the inverse: a Type 5 who'd spent two years in talk therapy with a warm, emotionally expressive therapist — and felt invaded every session. When he switched to a calm, intellectually rigorous therapist who respected silence and didn't push for emotional disclosure in the first ten minutes, he finally let his guard down enough to actually feel something. The modality didn't change. The match did.
+
+### What to look for instead
+
+The question isn't just "avoid bad pairings." It's "what kind of therapist disrupts your pattern productively?"
+
+- **If you're a Type 5:** Look for calm, non-intrusive, intellectually competent. Someone who respects silence and doesn't perform empathy. You need to feel the therapist is sharp enough to be worth engaging with — then they can gradually draw you toward felt experience.
+- **If you're an 8:** Direct, unintimidated, willing to push back. You'll test them immediately. If they flinch, you'll lose respect. If they hold their ground without being adversarial, you'll eventually let them see what's underneath.
+- **If you're a 9:** Gently confrontational. Someone who won't let you disappear into agreeableness. A therapist who actively asks "but what do YOU want?" — and waits for a real answer.
+- **If you're a 1:** Structured and competent, but with warmth and permission-giving energy. You live under relentless self-criticism — you need someone who models self-compassion without being sloppy about it.
+- **If you're a 3:** Perceptive and unimpressed by achievement narratives. Someone who can tell the difference between genuine vulnerability and a polished performance of vulnerability — and who gently refuses to be impressed by the latter.
+
+Research on therapist-client matching (Beutler et al., 2011; Del Re et al., 2012) confirms that who the therapist IS accounts for 5-9% of outcome variance — and that matching therapeutic approach to client traits like reactance level significantly improves results.
 
 **The insight:** It's not just about finding a therapist you "click with." Sometimes clicking means your defenses work perfectly together. What you might need is someone who disrupts your pattern — not someone who fits seamlessly into it.
 
+## A Note on Access, Cost, and Culture
+
+This article focuses on personality-based barriers to effective therapy. But we'd be dishonest not to name the other ones.
+
+**Cost and access** keep millions of people from therapy entirely — or force them to take whoever's available rather than finding a genuine match. If you can only afford one therapist within your insurance network, "find a better fit" isn't actionable advice. It's worth knowing that many therapists offer sliding-scale rates, and some alternative modalities (mindfulness practice, movement-based approaches, peer support groups) are available at lower cost or free.
+
+**Culture shapes therapy stigma in ways personality alone can't explain.** Some communities view therapy as self-indulgent. Others view it as admitting failure. These cultural lenses interact with personality type — a Type 8 in a culture that prizes stoicism has double the resistance to seeking help. A Type 2 in a community where selflessness is paramount may never feel entitled to their own session.
+
+**Most modern therapists blend modalities.** The "pure CBT therapist" is becoming rarer, especially among younger practitioners. Surveys consistently show that 30-50% of therapists identify as integrative, and many more blend approaches in practice. This is good news — it means you can ask your current therapist to incorporate somatic work, mindfulness, or experiential techniques without needing to find a specialist. The right question isn't always "should I switch therapists?" Sometimes it's "can we try a different approach together?"
+
 ## Permission to Quit (Or Try Something Else)
 
-If therapy has consistently left you:
+If therapy has consistently left you understanding everything but changing nothing — comfortable but stuck, expert on your own problems, still running the same patterns after years — that's data. It doesn't mean you're unfixable. It means the approach doesn't match how you're built.
 
-- Understanding everything but changing nothing
-- Comfortable but stuck
-- Expert on your own problems
-- Still doing the same patterns after years
-
-— that's data. It doesn't mean you're unfixable. It means the approach doesn't match how you're built.
-
-**Consider:**
-
-- A different modality (somatic instead of talk, EMDR instead of CBT)
-- A different format (intensive rather than weekly)
-- A different context (group rather than individual)
-- A different channel entirely (bodywork, meditation practice, experiential programs)
-
-The dominant therapeutic model centers on talk therapy in weekly 50-minute sessions. That doesn't make it the only path to change. For some types, the path runs through the body, through action, through experience — not through words.
+You don't need to start over. Start by asking your current therapist about the approaches described above. If they're open to adjusting, great. If not, that's data too.
 
 ## The Bottom Line
 
 Therapy isn't broken. But it isn't neutral either.
 
-The "talking cure" was developed in a specific time, by specific types of people, for specific types of patients. When it works, it works brilliantly. When it fails, clients often blame themselves — assuming they're resistant, unmotivated, or fundamentally broken.
-
-But here's a different frame: **Maybe your brain just processes emotions differently than 1880s Viennese hysterics.** Maybe you're a body processor trying to heal through words, or an analytical mind trying to access feelings you can't name, or an action-oriented person trapped in a chair for 50 minutes talking about doing things.
-
-The system wasn't designed for everyone. Understanding that is the first step to finding what actually works for you.
-
-Your personality type predicts what kind of help you'll actually benefit from. Not because you're limited — but because healing needs to meet you where you actually live. For some types, that's in words. For others, it's in the body. For others, it's in action.
+When it works, it works brilliantly. When it fails, clients often blame themselves — assuming they're resistant, unmotivated, or fundamentally broken. But maybe you're a body processor trying to heal through words, or an analytical mind trying to access feelings you can't name, or an action-oriented person trapped in a chair talking about doing things.
 
 **The question isn't "does therapy work?"** The question is: does THIS approach match how YOUR brain processes emotions?
 
-Find the match, and everything shifts.
+Healing needs to meet you where you actually live. Find the match, and everything shifts.
 
 ---
 
@@ -347,7 +334,7 @@ Three signs: You understand your problems perfectly but keep repeating the same 
 
 ### Is CBT really the "gold standard" for therapy?
 
-CBT has the most research behind it, but that research shows roughly a 50% response rate — not exactly a ringing endorsement. Studies also show no consistent evidence that CBT outperforms other evidence-based approaches. More importantly, research suggests that "Thinking types" may benefit more from CBT than "Feeling types." If you're not an analytical processor, CBT's emphasis on thought patterns may miss the mark entirely.
+CBT has the most research behind it, but meta-analyses (Cuijpers et al., 2014; Johnsen & Friborg, 2015) show response rates in the range of 40-60% — and Johnsen & Friborg found that CBT's measured effect sizes have actually been declining over time. Studies also show no consistent evidence that CBT outperforms other evidence-based approaches. More importantly, research suggests that "Thinking types" may benefit more from CBT than "Feeling types." If you're not an analytical processor, CBT's emphasis on thought patterns may miss the mark.
 
 ### Should I tell my therapist my Enneagram type?
 
@@ -363,7 +350,7 @@ For Body types: somatic therapy, EMDR, bioenergetic work, movement-based approac
 
 ### How long should I give a therapy approach before deciding it's not working?
 
-If you're consistently doing the work (showing up, engaging, trying homework) and seeing no meaningful change after 3-4 months, that's data. Some people stay in ineffective therapy for years out of hope or habit. Your instinct that something isn't working is usually worth listening to — though it's worth checking whether you're avoiding discomfort that's actually part of healing.
+It depends on what "not working" means. If after 3-4 months of genuine engagement you see no movement at all — not even small shifts in self-awareness or behavior outside sessions — that's worth flagging with your therapist directly. But slow progress IS progress. Some people need six months before the deeper patterns even surface. The distinction: "this is hard and uncomfortable but something is shifting" is different from "I'm comfortable and articulate and nothing has changed." The first is therapy working. The second might be therapy performing. Talk to your therapist about what you're noticing — a good one will welcome that conversation.
 
 <svelte:head>
 
@@ -384,7 +371,7 @@ If you're consistently doing the work (showing up, engaging, trying homework) an
           "https://twitter.com/djwayne3"
         ]
       },
-      "dateModified": "2026-03-10",
+      "dateModified": "2026-04-01",
       "datePublished": "2026-01-30",
       "description": "Therapy wasn't designed for everyone. The talking cure assumes you process emotions through words — but what if your brain works differently? Here's why the system fails certain types.",
       "headline": "Why Therapy Doesn't Work the Same for Every Personality Type",
@@ -457,6 +444,8 @@ If you're consistently doing the work (showing up, engaging, trying homework) an
 </script>
 
 </svelte:head>
+
+<!-- Reader feedback from 2026-04-01 addressed: trimmed redundant intro, consolidated Freud references, sourced 50% claim, expanded therapist-matching section with good pairings and anecdote, integrated alexithymia into center-type flow, added cost/access/culture section, acknowledged integrative therapy, nuanced FAQ timeline answer, trimmed Permission to Quit redundancy -->
 
 <style lang="scss">
   .medical-disclaimer {

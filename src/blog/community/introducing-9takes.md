@@ -189,7 +189,7 @@ A question-centered approach:
 - **Invites reflection**: You answer with lived experience, not a headline.
 - **Creates real interaction**: People disagree without it turning into a fight.
 
-But asking questions online is easy. Getting _good_ answers is the hard part. You want original takes, not echoes. You don't want early answers steering everyone else. You want context for where someone is coming from.
+But asking questions online is easy. Getting _good_ answers is the hard part. You want original takes, not echoes. You don't want early answers steering everyone else. You want context for where someone is coming from. (For a deeper take on why questions matter more than answers, see [Questions Are the Engine of Moral Awakening](/community/questions-are-the-engine-of-moral-awakening).)
 
 ## How 9takes Gets Better Answers
 

@@ -243,7 +243,7 @@ YouTube's engagement optimization inadvertently creates radicalization pipelines
 
 Here's what makes the blackpill sticky: it cites real studies. The famous OkCupid data showed women rated 80% of men as "below average" in attractiveness. Blackpill communities treat this as gospel proof that looks are everything.
 
-What they leave out: the same study found that **women's actual messaging behavior didn't match their ratings**. Women messaged men across the attractiveness spectrum, shifting their expectations only slightly. Meanwhile, men's messaging was _more_ concentrated on the most attractive women. The data, fully read, undermines the blackpill narrative—but cherry-picked statistics are a powerful radicalization tool.
+What they leave out: the same study found that **women's actual messaging behavior didn't match their ratings**. Women messaged men across the attractiveness spectrum, shifting their expectations only slightly. Meanwhile, men's messaging was _more_ concentrated on the most attractive women. The data, fully read, undermines the blackpill narrative—but cherry-picked statistics are a powerful radicalization tool. (For a deeper look at how attraction actually works — and what happens to the men women _do_ obsess over — see [Inside the Heartthrob Machine](/pop-culture/hollywood-heartthrobs-enneagram-analysis).)
 
 ### Economic Precarity
 
