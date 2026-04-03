@@ -161,7 +161,7 @@ The key to the show's longevity: mutual respect for what each type brings. The 1
 
 Here's the deeper layer that most people miss: 1s and 7s are actually connected on the Enneagram. In growth, 1s move toward 7—they lighten up, allow themselves pleasure, stop being so rigid. In growth, 7s move toward 5 (and connect to 1 through integration patterns)—they gain focus, depth, and the ability to sit still with one idea.
 
-This means Krystal and Saagar aren't just complementary—they represent each other's growth paths. Krystal needs more of what Saagar naturally has: flexibility, lightness, the ability to enjoy the process. Saagar needs more of what Krystal naturally has: moral clarity, the ability to commit fully to a position, depth over breadth. (For more on how [each type falls apart under stress](/enneagram-corner/enneagram-types-in-stress) — and what that means for high-pressure partnerships like this one.)
+This means Krystal and Saagar aren't just complementary—they represent each other's growth paths. Krystal needs more of what Saagar naturally has: flexibility, lightness, the ability to enjoy the process. Saagar needs more of what Krystal naturally has: moral clarity, the ability to commit fully to a position, depth over breadth. Understanding [how each type falls apart under stress](/enneagram-corner/enneagram-types-in-stress) reveals why this partnership works even when the pressure is on.
 
 Working together every day, they're essentially modeling healthy growth for each other. The show isn't just a business partnership—it's two personality types teaching each other how to be more complete humans.
 

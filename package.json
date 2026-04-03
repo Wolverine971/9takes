@@ -86,6 +86,7 @@
 		"pnpm": ">=8.0.0"
 	},
 	"dependencies": {
+		"@chenglou/pretext": "^0.0.4",
 		"@elastic/elasticsearch": "^8.15.0",
 		"@fingerprintjs/fingerprintjs": "^5.1.0",
 		"@fontsource/jetbrains-mono": "^5.2.8",

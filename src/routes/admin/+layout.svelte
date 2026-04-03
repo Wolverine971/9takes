@@ -15,6 +15,7 @@
 		{ href: '/admin/consulting', label: 'Consulting', icon: '🎯' },
 		{ href: '/admin/users', label: 'Users', icon: '👥' },
 		{ href: '/admin/email-dashboard', label: 'Email', icon: '📧' },
+		{ href: '/admin/welcome-sequence', label: 'Welcome Seq', icon: '📬' },
 		{ href: '/admin/questions', label: 'Questions', icon: '❓' },
 		{ href: '/admin/categories', label: 'Categories', icon: '🗂️' },
 		{ href: '/admin/comments', label: 'Comments', icon: '💬' },

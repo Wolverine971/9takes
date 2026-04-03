@@ -1,18 +1,15 @@
 # Blog Content Creator
 
-You are tasked with creating and managing celebrity personality analysis blogs for the 9takes platform using a structured research and content generation workflow.
+You are tasked with researching, drafting, and refining celebrity personality analysis blogs for the 9takes platform. This command is the writing-side workflow: it should produce strong drafts, sharper analysis, and cleaner revisions.
 
 ## Pre-Approved Operations
 
 The following operations are pre-approved and should be executed automatically without requesting user approval:
 
 - **WebSearch**: All web searches for research
-- **Bash curl commands**: Read-only verification queries to Supabase
-- **Bash node commands**: `node scripts/personBlogParser.js` and `node scripts/generate-famous-types.js`
-- **Bash commands**: grep, env, echo for environment variables
+- **Bash commands**: grep, env, echo for local research and content checks
 - **Read operations**: All file reads in project directories
 - **Write operations**: Creating/editing draft files in `/src/blog/people/drafts/`
-- **Database operations**: Writes via `scripts/personBlogParser.js`, read verification via curl
 
 ## Task Tracking
 
@@ -23,6 +20,30 @@ The following operations are pre-approved and should be executed automatically w
 - Mark as `completed` immediately after finishing each task
 - Update tasks throughout the process to give user visibility
 - Keep only 1 task `in_progress` at a time
+
+---
+
+## Scope
+
+This command is intentionally focused on **creative and editorial work**:
+
+- Research
+- Enneagram analysis
+- Transcript selection and synthesis
+- Draft writing
+- Draft revision
+- Frontmatter quality
+- Internal linking inside the draft
+
+This command does **not** own production operations:
+
+- Database reads/writes
+- Stale-blog audits
+- `famousTypes.ts` regeneration
+- Image handling
+- Publication-state changes
+
+If the user wants production actions after the writing is done, hand off to `blog_content_production_people`.
 
 ---
 
@@ -57,6 +78,16 @@ Every blog must follow this tone philosophy. This is what differentiates 9takes 
 4. **Analyze with conviction, not excessive hedging**: The body of the blog should state patterns confidently and then show the evidence. The disclaimer at the bottom handles the speculation caveat. Don't undermine every insight with "likely," "suggests," "appears to be." The best blogs (Peter Thiel, Paris Hilton) analyze with authority: "[Person] is a Type X" followed by overwhelming evidence. The weaker blogs hedge so much they never land a punch. Reserve hedging language for genuinely ambiguous cases — not as a default tone.
 
 **The confidence calibration:** Analyze the person as if the typing is correct and show why through evidence. The reader should feel the conviction of the analysis. A blog that says "Logan looks like a Type 3" is weaker than one that says "Logan Paul is a Type 3" and then proves it. The disclaimer exists for a reason — use it, and let the body of the blog be confident.
+
+### Keep Typology Debates Off the Page
+
+Assume the reader does **not** know Enneagram jargon and does not care about winning a typing argument.
+
+- Do your type validation in research and working notes, not in the main body of the blog.
+- Do **not** build sections around "why they're a Type X and not a Type Y."
+- Avoid paragraphs whose main job is comparing adjacent types, wings, arrows, or subtypes.
+- If an alternate type or advanced Enneagram lens must be mentioned, keep it to **one brief clarifying line max** and return immediately to the person's actual life, motives, and behavior.
+- The reader-facing question is "How does this pattern illuminate the person?" not "How do we prove this against every neighboring type?"
 
 ### Story First, Analysis Second (Anti-Fatigue Rule)
 
@@ -105,7 +136,7 @@ The Enneagram should feel like a quiet lens shaping the analysis, not a label st
 
 **The golden rule: Every major quote, concept, or anecdote should appear ONCE in its strongest context.**
 
-Blogs have multiple structural layers (intro, TL;DR, evidence list, main sections, conclusion) and it's easy for the same material to appear in 2-3 of them. This destroys reader engagement — the reader feels like they keep re-reading the same article.
+Blogs have multiple structural layers (intro, TL;DR, evidence list, main sections, ending) and it's easy for the same material to appear in 2-3 of them. This destroys reader engagement — the reader feels like they keep re-reading the same article.
 
 **Rules:**
 
@@ -211,9 +242,11 @@ The strongest personality analyses are built from the subject's own words. Direc
 
 **Targets:**
 
-- **High-impact sections** (trauma, relationships, self-reflection): 70-80% direct quotes with brief analytical bridges between them
-- **Narrative sections** (career, accomplishments): 40-60% quotes from the subject and people around them
-- **Analytical sections** (Enneagram typing): More authorial analysis, but still anchored by 2-3 key quotes
+- **High-impact sections** (trauma, relationships, self-reflection): aim for **40-60% direct quotes** when the source material is strong, with brief analytical bridges between them
+- **Narrative sections** (career, accomplishments): aim for **25-40% quotes** from the subject and people around them
+- **Analytical sections** (Enneagram typing): more authorial analysis, still anchored by **1-3 strong quotes**
+
+**Important:** Do **not** stack quotes just to hit a quota. If a section starts reading like stitched-together transcript excerpts, reduce the quote load and increase the analysis.
 
 **Why this matters:** The Paris Hilton blog (rated 9.0) is 90%+ Paris's own words. The Hasan Piker blog (rated 8.8) is dense with specific sourced quotes. The weaker blogs (Margot Robbie at 7.0, Tom Cruise at 7.2) paraphrase more than they quote, and it shows — they read like Wikipedia summaries rather than revealing profiles.
 
@@ -245,8 +278,8 @@ When doing Enneagram analysis for a person, use the internal 9takes knowledge ba
 2. Read at least **3-6 full internal posts** before finalizing the Enneagram hypothesis.
 3. Build an "internal lens brief" with:
    - Core pattern(s) to test against the person
-   - Counter-patterns that could disconfirm the type
-   - Relevant lenses (stress response, relationships, communication, mental health, work style, wings/subtypes)
+   - Evidence that would weaken or refine the current type hypothesis
+   - Relevant lenses (stress response, relationships, communication, mental health, work style; advanced type mechanics only if they materially clarify the person)
 4. Use this brief to sharpen your interpretation of external evidence.
 
 **Rules for using internal blogs:**
@@ -254,7 +287,8 @@ When doing Enneagram analysis for a person, use the internal 9takes knowledge ba
 - Use internal blogs to inform **psychological framing**, not as proof of facts about the person.
 - Pair every person-specific claim with external primary evidence (interviews, podcasts, books, direct quotes).
 - Synthesize in your own words. Do not copy phrasing from internal blogs.
-- In ambiguous typing cases, compare candidate types using internal contrast posts (types, wings, stress, communication, relationships, and mental-health guides).
+- Use internal contrast posts privately to pressure-test the hypothesis when needed, but do **not** turn the final blog into a Type X vs. Type Y debate.
+- Prefer plain-English explanation over wing/arrow/subtype jargon unless the added detail genuinely makes the person's behavior clearer to a general reader.
 
 ---
 
@@ -352,9 +386,9 @@ Content continues here...
 
 ... rest of content with H2 and H3 sections ...
 
-## Conclusion Section
+## [Person-Specific Final Section Heading]
 
-Final paragraph with engaging question.
+Final paragraph lands the sharpest insight and cuts to black. No summary. No CTA. No engaging question.
 ```
 
 ### Opening Quote Guidance
@@ -532,135 +566,34 @@ Must use `First-Last` format matching the `person` field: `suggestions: ['Taylor
 
 ### `published` Field:
 
-Use publish-safe behavior:
-
-- **Net-new rows**: must be inserted with `published: false`
-- **Existing rows**: preserve current DB `published` value (do not auto-publish or auto-unpublish)
-- Publishing decisions are manual via admin UI after review.
+For draft-writing purposes, keep `published: false` unless the user explicitly tells you otherwise. This command does not make publication decisions.
 
 ---
 
-## Database Push Method (`scripts/personBlogParser.js`)
+## Production Handoff (Out of Scope Here)
 
-Use `scripts/personBlogParser.js` for all write operations to `blogs_famous_people`.
-
-### Standard push commands
-
-```bash
-# Push only changed drafts in src/blog/people/drafts
-node scripts/personBlogParser.js --changed
-
-# Push one changed person draft
-node scripts/personBlogParser.js --changed [Person-Name]
-
-# Push one person by slug (fallback if draft is not currently changed)
-node scripts/personBlogParser.js [Person-Name]
-
-# Push only content_quality grades for changed drafts (safe grade sync)
-node scripts/personBlogParser.js --grades-only --changed
-```
-
-### Why this method is required
-
-- Parses frontmatter + content directly from draft files
-- Uses upsert logic by `person` slug
-- Preserves `published` for existing rows
-- Forces `published=false` on net-new inserts
-- Syncs `content_quality` from frontmatter when present
-- Preserves DB `content_quality` when the frontmatter field is missing or invalid
-- Avoids manual JSON escaping and PATCH/POST payload mistakes
-
-### Verification query (read-only)
-
-Run after every push:
-
-```bash
-source .env && curl -s "${PUBLIC_SUPABASE_URL}/rest/v1/blogs_famous_people?person=eq.[Person-Name]&select=id,person,title,meta_title,lastmod,published,enneagram" \
-  -H "apikey: ${SUPABASE_SERVICE_KEY}" \
-  -H "Authorization: Bearer ${SUPABASE_SERVICE_KEY}"
-```
-
-### After successful push, confirm
-
-```
-Successfully pushed to database!
-
-| Field | Value |
-|-------|-------|
-| **Person** | [Person-Name] |
-| **Last Modified** | [date] |
-| **Published** | [actual DB value from verification] |
-| **Content** | [X] characters |
-```
-
-### Error handling
-
-- If command output says `No changed draft markdown files found`, either save edits first or push a specific person slug.
-- If insert/update fails, report the exact row and error from script output.
-- For grade-only pushes, if a row is missing in DB it will be reported and skipped (no insert in `--grades-only` mode).
-- Do not switch to manual PATCH/POST unless explicitly requested by the user.
-
-### Environment Variables
-
-Read from `.env` file at runtime:
-
-- `SUPABASE_SERVICE_KEY` — service role key (required)
-- `SUPABASE_URL` or `PUBLIC_SUPABASE_URL` — Supabase project URL
+This command stops at a strong draft. After the user reviews and approves that draft, run `blog_content_production_people` before anything is published or pushed through the production workflow.
 
 ---
 
-# Part 2: Workflows
+# Part 2: Writing Workflows
 
 ---
 
-## Initial Setup
+## Session Start
 
 When this command is invoked:
 
-### Step 1: Check for Stale Blogs
-
-Read `src/lib/components/molecules/famousTypes.ts` and identify **published blogs** (where `link: true`) that haven't been updated recently. Sort by `lastmod` date (oldest first) and show the top 5-10 candidates.
-
-**Stale blog criteria:**
-
-- `link: true` (published)
-- `lastmod` older than 6 months from today's date
-- Prioritize well-known celebrities who likely have recent news
-
-### Step 2: Ask for Input
-
-After showing the stale blogs:
-
-```
-I'm ready to create or update celebrity personality analysis content.
-
-Would you like to:
-1. Update one of the stale blogs listed above (just enter their name)
-2. Create a new blog (enter any person's name)
-3. Update a different existing blog (enter their name)
-
-Enter the person's name:
-```
-
-Then wait for the user's input.
+1. Determine whether the user wants a **new draft** or an **update to an existing draft**.
+2. If a matching draft already exists in `src/blog/people/drafts/`, read it before proposing major changes.
+3. If the user has already provided transcripts or source files, use those before asking for more research.
+4. Stay focused on writing and revision. Do not drift into production tasks.
 
 ---
 
-## Workflow: New Blog Creation
+## Workflow: New Draft
 
-### Step 1: Database Check
-
-Check `blogs_famous_people` for existing content using the person's name in "First-Last" format:
-
-```bash
-source .env && curl -s -X GET "${PUBLIC_SUPABASE_URL}/rest/v1/blogs_famous_people?person=eq.First-Last&select=*" \
-  -H "apikey: ${SUPABASE_SERVICE_KEY}" \
-  -H "Authorization: Bearer ${SUPABASE_SERVICE_KEY}"
-```
-
-If person exists, switch to the **Update Workflow** below.
-
-### Step 2: Research (Prep-Prompt-1)
+### Step 1: Research Packet
 
 Use WebSearch to gather comprehensive information. Follow `/docs/blogs-famous-people/prep-prompt-1.md` for the research framework.
 
@@ -701,20 +634,26 @@ The strongest material for personality analysis comes from long-form, unscripted
 
 During research, compile a list of the most promising YouTube videos and podcast episodes for deeper transcript analysis.
 
-**Output**: Comprehensive research summary with source URLs, including a preliminary identification of the **core tension** and **best small moments** found so far.
+**Output**: A comprehensive research summary with source URLs, a preliminary core tension, and the best small moments found so far.
 
-### Step 3: Enneagram Analysis (Prep-Prompt-2)
+### Step 2: Enneagram Analysis (Prep-Prompt-2)
 
 Based on Step 2 research, determine the person's likely Enneagram type first. Then use that type as the input for the prep-prompt-2 analysis framework at `/docs/blogs-famous-people/prep-prompt-2.md`.
 
-**If research is ambiguous about the type**, present the top 2-3 candidates with evidence to the user and wait for a decision before proceeding.
+**If research is ambiguous about the type**, present the leading hypothesis plus the key unresolved ambiguity in plain language and wait for a decision before proceeding. Do **not** frame this as an extended candidate-type showdown.
 
 Analyze across dimensions:
 
 - **Thoughts**: How they process information and make decisions
 - **Feelings**: Emotional patterns and responses
 - **Actions**: Behavioral patterns and habits
-- Examine stress (disintegration) and comfort (integration) states
+- Examine stress (disintegration) and comfort (integration) states when they clarify visible behavior
+
+**General-reader rule (REQUIRED):**
+
+- Keep the reader-facing analysis focused on the person's motivations, contradictions, and behavior.
+- Avoid paragraphs whose main purpose is to argue "Type X, not Type Y."
+- Mention alternate types, wings, arrows, or subtypes only briefly and only if they prevent a real misunderstanding.
 
 **Internal knowledge cross-check (REQUIRED):**
 
@@ -724,17 +663,17 @@ Analyze across dimensions:
 
 **Core Tension Synthesis (REQUIRED):**
 
-By the end of Step 3, you should be able to articulate:
+By the end of Step 2, you should be able to articulate:
 
 1. **The core tension** in one phrase: "[X] vs. [Y]" — the central contradiction that makes this person psychologically interesting
 2. **The psychological question** their life is answering: "What happens when someone [does X] but [also does Y]?" or "How do you [need A] when you also [need B]?"
 3. **3-5 small moments** from the research that crack this tension open — tiny details, not headline accomplishments
 
-Present these to the user alongside the Enneagram analysis. These will drive the blog's narrative arc.
+Present these to the user alongside the Enneagram analysis when useful. These will drive the blog's narrative arc.
 
 **Output**: Detailed Enneagram personality analysis + core tension + psychological question + key small moments.
 
-### Step 4: YouTube Transcript Recommendations
+### Step 3: Transcript Recommendations
 
 Present a list of recommended YouTube videos/podcasts for transcript gathering:
 
@@ -757,13 +696,15 @@ Grab transcripts from 2-4 of these and share them with me.
 1. Provide transcripts to analyze first (preferred)
 2. Say to proceed without transcripts
 
-### Step 5: Write the Blog
+If transcripts are unavailable or weak, continue with the best verified source material you have and note the quality limitation in your working notes.
+
+### Step 4: Write the Draft
 
 Use `/docs/blogs-famous-people/writing-prompt-1.md` as a starting framework, not a rigid template.
 
 **CRITICAL: Follow the Enneagram Analysis Tone & Approach and Page Template Context rules from Part 1.**
 
-**THE GOAL IS A QUALITY PROFILE, NOT A FORMULAIC POST.** Every person has a different story. The blog structure should be tailored to what makes _this specific person_ interesting, not forced into the same cookie-cutter layout every time. The research from Steps 2-4 should drive the structure — lead with what's most compelling about this person, not with a generic section order.
+**THE GOAL IS A QUALITY PROFILE, NOT A FORMULAIC POST.** Every person has a different story. The blog structure should be tailored to what makes _this specific person_ interesting, not forced into the same cookie-cutter layout every time. The research from Steps 1-3 should drive the structure — lead with what's most compelling about this person, not with a generic section order.
 
 **Required elements** (every blog must cover these, but the ORDER, EMPHASIS, and SECTION NAMES should vary based on who the person is):
 
@@ -781,7 +722,7 @@ Use `/docs/blogs-famous-people/writing-prompt-1.md` as a starting framework, not
 - **Lead with what defines them.** If someone's defining feature is overcoming trauma, open with that — don't bury it in a generic "controversies" section at the end. If someone's personality quirks are what made them famous, lead with those.
 - **Name sections after the person, not the category.** Instead of "Major Accomplishments," write "How [Person] Built [Thing]" or "The [Specific Achievement] That Changed Everything." Instead of "Personality Quirks," write "[Person]'s Obsession With [Specific Thing]." Make headings that could only belong to this person's blog.
 - **Combine or split sections based on the story.** If their upbringing and rise to fame are deeply intertwined, tell them together. If they have 3 distinct career chapters, give each its own section. If their controversies reveal the most about their personality, give that section more weight than accomplishments.
-- **Let the research dictate the narrative arc.** After completing Steps 2-4, you should have a clear sense of what the most interesting "through line" is for this person. Build the blog around that through line, not around a generic template.
+- **Let the research dictate the narrative arc.** After completing Steps 1-3, you should have a clear sense of what the most interesting "through line" is for this person. Build the blog around that through line, not around a generic template.
 
 **The test:** If you swapped out the person's name and the sections still made sense for any celebrity, the structure is too generic. Restructure until the blog could only be about this person.
 
@@ -791,7 +732,7 @@ The first 3-5 paragraphs must accomplish three things: (1) hook with a specific,
 **The ending (NO traditional conclusion):**
 Do NOT write a conclusion section. No summary, no CTA, no "what does this mean for you?", no mirror-on-reader question. The blog should end on its sharpest analytical insight and then stop. Cut to black. The reader should be left with a reverberating thought about the person — an unresolved tension, a haunting image, a question that lingers. If the analysis is good enough, the reader is already clicking the next person. Closure kills curiosity. End abruptly at the peak of insight, like a great movie that cuts to black at exactly the right second. Example: "He has been doing this for 44 films and he is getting faster. At some point you have to wonder: is he running toward something, or has the running itself become the point?" Then nothing.
 
-### Step 6: Self-Review (MANDATORY)
+### Step 5: Self-Review (MANDATORY)
 
 Before generating metadata or saving, review the draft against the Quality Checklist (at the end of this document). This step catches the problems that iteration and reader notes catch in the best blogs.
 
@@ -809,7 +750,7 @@ Pay special attention to:
 
 **Add reviewer notes as HTML comments** (`<!-- -->`) for anything you'd flag for improvement but chose not to fix now. These notes are valuable for future iterations.
 
-### Step 7: Furniture Pass (Enhance Visual Presentation)
+### Step 6: Furniture Pass (Enhance Visual Presentation)
 
 Once the content, structure, and narrative are locked in, do a final pass to enhance the reading experience with blog furniture — decorative and structural elements that break up the text and add visual variety.
 
@@ -821,8 +762,8 @@ Once the content, structure, and narrative are locked in, do a final pass to enh
 
 | Element                                                     | When to use                                                 |
 | ----------------------------------------------------------- | ----------------------------------------------------------- |
-| `<p class="firstLetter">`                                   | Opening paragraph (should already be there from Step 5)     |
-| `<details>/<summary class="accordion">/<div class="panel">` | TL;DR section (should already be there from Step 5)         |
+| `<p class="firstLetter">`                                   | Opening paragraph (should already be there from Step 4)     |
+| `<details>/<summary class="accordion">/<div class="panel">` | TL;DR section (should already be there from Step 4)         |
 | `---` horizontal rules                                      | Between major sections for breathing room                   |
 | `>` blockquotes                                             | Pull quotes, attributed quotes, disclaimers                 |
 | `<div class="iframe-container">` + `<iframe>`               | Embed a relevant YouTube interview clip                     |
@@ -842,7 +783,7 @@ Once the content, structure, and narrative are locked in, do a final pass to enh
 
 1. **Long text walls** — Any section longer than ~5 paragraphs without a visual break? Consider adding a blockquote pull-quote, a horizontal rule, or an embedded YouTube clip that's relevant to that section.
 2. **Key quotes buried in prose** — If a powerful quote is sitting inside a paragraph, consider pulling it out as a standalone blockquote to give it visual weight.
-3. **YouTube opportunities** — If the research from Steps 2-4 found a particularly revealing interview clip, embed it in the most relevant section rather than just citing it.
+3. **YouTube opportunities** — If the research from Steps 1-3 found a particularly revealing interview clip, embed it in the most relevant section rather than just citing it.
 4. **Tweet evidence** — If the person has a tweet that directly supports a point in the analysis, embed it rather than paraphrasing.
 5. **Data-heavy sections** — If you're comparing patterns across types or listing structured information, a pipe table (wrapped in `<div class="scroll-table">` if wide) is more scannable than bullet points.
 
@@ -852,7 +793,7 @@ Once the content, structure, and narrative are locked in, do a final pass to enh
 - Every furniture element must earn its place. If a YouTube embed doesn't add insight the text can't, cut it. If a pull-quote isn't genuinely striking, leave it inline.
 - Don't add furniture to the intro or ending. The intro hooks with prose. The ending cuts to black. Furniture lives in the body.
 
-### Step 8: Generate Metadata
+### Step 7: Generate Metadata
 
 Generate frontmatter following the Triple-Title System (see Part 1):
 
@@ -895,7 +836,7 @@ content_quality:
   graded_at: 'YYYY-MM-DD'
 ```
 
-### Step 9: Save Draft and Add Links
+### Step 8: Save Draft and Add Links
 
 Save draft to `/src/blog/people/drafts/[Person-Name].md`.
 
@@ -915,142 +856,78 @@ Internal links added (X total):
 Options:
 1. Make specific edits (tell me what to change)
 2. Regenerate specific sections
-3. Approve and submit to database
+3. Run `blog_content_production_people` for production handoff
 4. Continue editing later
 ```
 
-### Step 10: Review and Refinement
+### Step 9: Review and Refinement
 
-Allow iterative editing based on user feedback. Continue iterating until user says "submit" or "push it up."
+Allow iterative editing based on user feedback. Continue iterating until the user is satisfied with the draft. Once the user approves the reviewed draft, the next step is `blog_content_production_people` before publishing.
 
-### Step 11: Database Submission
+## Workflow: Update Existing Draft
 
-When the user approves (says "push it up," "submit," etc.), execute the **Database Push Method** from Part 1 immediately:
+### Step 1: Read Before Rewriting
 
-- Single current person: `node scripts/personBlogParser.js --changed [Person-Name]`
-- Batch changed drafts: `node scripts/personBlogParser.js --changed`
-- Grade-only batch sync: `node scripts/personBlogParser.js --grades-only --changed`
+Read the current draft file first. Map:
 
-Then run the verification query and report the returned `published` value.
+- The existing thesis
+- The current core tension
+- The strongest sections worth preserving
+- The weakest or thinnest sections
+- Any obvious repetition, generic structure, or stale sourcing
 
-### Step 12: Regenerate famousTypes.ts
+### Step 2: Choose the Update Mode
 
-After successful database push, run the generation script to update the published celebrities list:
+Pick the lightest-weight update that solves the problem:
 
-```bash
-node scripts/generate-famous-types.js
-```
+- **Fresh research update**: add newer evidence, better quotes, sharper framing
+- **Manual revision**: rewrite or tighten sections based on user feedback
+- **Targeted section update**: regenerate only the sections that need work
 
-This auto-generates `src/lib/components/molecules/famousTypes.ts` from the database, updating the listing pages with the new entry's `persona_title`, `lastmod`, and publication status.
+### Step 3: Update Without Narrowing
 
-### Step 13: Image Handling
+**CRITICAL PRINCIPLE: Updates must enhance, not narrow.** Maintain the complete picture — formative experiences, core personality patterns, full career arc, relationships, and growth. New material should deepen the portrait, not replace it with only the latest news.
 
-The blog system uses images at `static/types/[X]s/[Person-Name].webp` (full) and `static/types/[X]s/s-[Person-Name].webp` (small), where `[X]` is the Enneagram type number.
+When updating:
 
-After database submission, ask the user:
+- Preserve strong existing sections unless they are inaccurate, repetitive, or flat
+- Prefer adding depth over deleting history
+- Use new evidence to sharpen the thesis, not to start over unnecessarily
+- Keep the explicit Enneagram framing limited and accessible to general readers
+- Update `lastmod` in the frontmatter after meaningful revisions
 
-```
-The blog needs an image. Images go in:
-- static/types/[X]s/[Person-Name].webp (full size)
-- static/types/[X]s/s-[Person-Name].webp (small/thumbnail)
+### Step 4: Re-Research Intelligently
 
-Do you have an image to add, or should we skip this for now?
-```
+Perform focused WebSearch to fill the real gaps:
 
----
+- Recent developments worth integrating
+- Better direct quotes
+- Stronger testimony from people around the subject
+- Missing childhood/context details
+- One or two better small moments, if the current draft lacks them
 
-## Workflow: Update Existing Blog
+If transcripts are likely to materially improve the draft, recommend 2-4 high-value interviews or podcasts first.
 
-### Step 1: Display current metadata
+### Step 5: Rewrite Only What Needs Rewriting
 
-Show title, enneagram type, published status, last modified. Offer options:
+Revise the draft using the same standards as the New Draft workflow. Focus especially on:
 
-```
-Found existing blog for [Person Name]. Choose an option:
-1. Update with fresh web research
-2. Manual content editing
-3. Update specific sections
-4. Review current content
-5. Cancel
-```
+- The hook
+- The clarity of the core tension
+- Quote quality and placement
+- Repetition
+- Section specificity
+- The ending
+- Overall accessibility for readers who do not know the Enneagram
 
-### Fresh Web Research Update (Option 1)
+### Step 6: Re-Run Review and Save
 
-**CRITICAL PRINCIPLE: Updates must enhance, not narrow.** Maintain the complete picture — formative experiences, core personality patterns, full career arc, relationships, and growth. Recent events integrate into the existing narrative, not replace it.
+Before finalizing the revised draft:
 
-1. **Read and analyze existing content first:**
-   - Read the current blog from database or draft file
-   - Create a mental map of what the blog currently covers (upbringing, personality traits, career milestones, relationships, controversies, growth patterns)
-   - Identify the blog's thesis and any gaps
-
-2. **Perform comprehensive WebSearch:**
-   - **Recent developments** (past 6-12 months): news, interviews, releases, life events
-   - **Podcasts and YouTube** (HIGH PRIORITY): recent appearances, long-form interviews. Compile 3-5 recommendations for transcript analysis and present to user
-   - **Fill existing gaps**: missing childhood context, underexplored relationships, undocumented career phases
-   - **Direct quotes**: Pull specific quotes from their own words, attribute clearly
-
-3. **Refresh internal Enneagram lens (REQUIRED):**
-   - Read `/docs/development/enneagram-mental-health-blog-index.json`
-   - Revisit at least **3** relevant internal posts for this person/type
-   - Use those frameworks to deepen interpretation of new evidence (not to replace person-specific sourcing)
-
-4. **Analyze through Enneagram lens:**
-   - How do recent developments reflect core type patterns?
-   - Signs of growth, integration, or stress across their life arc?
-   - Consistency check: does new info align with established portrait?
-   - Tone check: ensure analysis follows the tone guidelines in Part 1
-
-5. **Integration strategy (NOT replacement):**
-   For each piece of new information, determine:
-   - **Add**: Fills gaps or adds depth
-   - **Update**: Needs factual corrections or current context
-   - **Enhance**: Strengthens with additional examples
-   - **Leave unchanged**: Already strong
-
-   **Default to preservation.** Only modify what genuinely needs updating.
-
-6. **Update the draft file** at `/src/blog/people/drafts/[Person-Name].md`:
-   - Historical sections (upbringing, early career): only update with new information — never delete or shorten
-   - Personality sections: add new examples, don't replace existing insights
-   - Accomplishments: add recent ones, maintain order
-   - TL;DR: only update if developments genuinely change the core summary
-   - Update `lastmod` date
-
-7. **Holistic balance check (REQUIRED):**
-   - [ ] Blog covers entire life arc, not just recent events
-   - [ ] Formative experiences and upbringing remain well-documented
-   - [ ] Core personality patterns draw from multiple life phases
-   - [ ] Historical accomplishments aren't overshadowed by recent ones
-   - [ ] Blog would still be valuable if read 5 years from now
-   - [ ] No quote or anecdote appears more than once
-   - [ ] TL;DR teases rather than spoils
-   - [ ] Explicit Enneagram framing in at most 3-4 sections
-   - [ ] At least 2-3 sections read as compelling narrative without type labeling
-   - [ ] Core tension is still identifiable and threaded through the piece
-   - [ ] At least 3 small, specific moments that reveal big patterns
-   - [ ] Ending cuts to black at peak insight — no summary, no CTA, no mirror-on-reader
-   - [ ] Subject's own words (direct quotes) are the dominant material, not paraphrase
-   - [ ] Analysis is confident — not undermined by excessive hedging ("likely," "suggests," "appears to be")
-   - [ ] Testimony from people around the subject is included (collaborators, friends, critics)
-   - [ ] Internal Enneagram library was consulted (index + at least 3 relevant internal posts)
-
-   **If any check fails, revise before proceeding.**
-
-8. **Update internal links** per the Internal Linking Rules in Part 1.
-
-9. **When user says "push it up":** Run `node scripts/personBlogParser.js --changed [Person-Name]`, verify the row, then run `node scripts/generate-famous-types.js`.
-
-### Manual Content Editing (Option 2)
-
-- Display current content in manageable sections
-- Allow targeted edits to specific sections
-- Preserve markdown formatting and SEO structure
-
-### Specific Section Updates (Option 3)
-
-- List available sections (upbringing, accomplishments, controversies, etc.)
-- Allow user to select sections for targeted updates
-- Research and regenerate only selected sections
+- Re-run the Quality Checklist below
+- Update internal links if the body changed materially
+- Preserve any existing `content_quality` block unless you are intentionally re-grading
+- Save the revised file and summarize what changed for the user
 
 ---
 
@@ -1060,7 +937,7 @@ Before finalizing any blog (new or updated):
 
 ### Depth & Uniqueness
 
-- [ ] **Core tension identified?** Can you state the person's central contradiction in one phrase ("[X] vs. [Y]")? Is it threaded through the intro, body, and conclusion?
+- [ ] **Core tension identified?** Can you state the person's central contradiction in one phrase ("[X] vs. [Y]")? Is it threaded through the intro, body, and ending?
 - [ ] **At least 3 small, specific moments** that reveal big patterns? (Not just headline accomplishments — tiny details that crack open who they are.)
 - [ ] **At least 1 "aha moment"** where the Enneagram makes something click that wouldn't click otherwise?
 - [ ] **Public/private gap explored?** Does the blog show who this person is when the performance stops?
@@ -1079,6 +956,7 @@ Before finalizing any blog (new or updated):
 - [ ] Does the TL;DR tease patterns without spoiling the best stories?
 - [ ] Do at least half the sections work as pure narrative without explicit Enneagram labeling?
 - [ ] Would a reader who doesn't care about the Enneagram still find this a compelling profile?
+- [ ] Have you cut or compressed any passage that turns into insider typology debate ("Type X vs. Type Y," wing arguments, subtype detours)?
 
 ### Voice & Evidence
 
@@ -1094,7 +972,7 @@ Before finalizing any blog (new or updated):
 
 ---
 
-## Quality Grading (Required Before Push)
+## Quality Grading (Required Before Hand-Off)
 
 After the Quality Checklist passes, score the blog using the rubric at `docs/blog-grading-rubric.md`. Rate each dimension 1-10:
 
@@ -1108,7 +986,7 @@ Calculate: **Overall = (Hook + Enneagram + Evidence + Writing + Originality) / 5
 
 Letter grade: A+ (9.5+), A (9.0-9.4), B+ (8.5-8.9), B (8.0-8.4), C (7.0-7.9), D (6.0-6.9), F (<6.0)
 
-**Publication threshold: 8.5 (B+)**. Do not push anything below this.
+**Publication handoff threshold: 8.5 (B+)**. Treat anything below this as draft-stage and continue revising before handing it off for production or review.
 
 Output the grade as a JSON block for the user to review:
 
@@ -1125,7 +1003,7 @@ Output the grade as a JSON block for the user to review:
 }
 ```
 
-When pushing to database, include this as the `content_quality` JSONB value on the `blogs_famous_people` row.
+Store this in draft frontmatter as `content_quality` when grading is part of the writing workflow.
 
 ---
 
@@ -1133,7 +1011,7 @@ When pushing to database, include this as the `content_quality` JSONB value on t
 
 - Prep prompts: `/docs/blogs-famous-people/prep-prompt-*.md`
 - Writing template: `/docs/blogs-famous-people/writing-prompt-1.md`
-- Database schema: `/docs/blogs-famous-people/mcp-blogs-famous-people.md`
+- Production command: `/Users/djwayne/9takes/.claude/commands/blog_content_production_people.md`
 - Published celebrities: `/src/lib/components/molecules/famousTypes.ts`
 - Enneagram internal index: `/docs/development/enneagram-mental-health-blog-index.json`
 - Brand voice guide: `/docs/brand/brand-style-guide-v2.md`

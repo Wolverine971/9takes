@@ -1,9 +1,20 @@
 <!-- src/routes/admin/asset-generators/poster-generator/+page.svelte -->
 <script lang="ts">
+	import { browser } from '$app/environment';
 	import QRCode from 'qrcode';
+	import {
+		POSTER_QUESTION_LINE_HEIGHT,
+		POSTER_QUESTION_MANUAL_FONT_SIZES,
+		calculatePosterQuestionTextLayoutClient,
+		dimensionToPixels,
+		estimatePosterQuestionTextLayout,
+		getPosterQuestionBounds,
+		type PosterQuestionTextLayout
+	} from '$lib/posters/posterQuestionTextLayout';
 	import type { PageData } from './$types';
 
 	let { data }: { data: PageData } = $props();
+	type PosterQuestionFontSize = 'auto' | keyof typeof POSTER_QUESTION_MANUAL_FONT_SIZES;
 
 	// State
 	let question = $state('Who do you look up to and why?');
@@ -72,14 +83,22 @@
 	let activeBackground = $state('greek_pantheon');
 	let overlayOpacity = $state(60);
 	let overlayColor = $state('var(--bg-surface)');
-	let questionFontSize = $state('text-4xl');
+	let questionFontSize = $state<PosterQuestionFontSize>('auto');
 	let questionColor = $state('text-white');
 	let showLogo = $state(true);
 	let showQrCode = $state(true);
 	let textShadow = $state(true);
+	let questionLayoutRequest = 0;
+	let posterQuestionLayout = $state<PosterQuestionTextLayout>(
+		estimatePosterQuestionTextLayout('Who do you look up to and why?', {
+			maxWidth: 900,
+			maxHeight: 420
+		})
+	);
 
 	// Font options
 	const fontSizes = [
+		{ id: 'auto', name: 'Auto Fit' },
 		{ id: 'text-2xl', name: 'Small' },
 		{ id: 'text-3xl', name: 'Medium' },
 		{ id: 'text-4xl', name: 'Large' },
@@ -95,12 +114,61 @@
 	);
 	let posterAspectWidth = $derived(parseFloat(currentFormat.width));
 	let posterAspectHeight = $derived(parseFloat(currentFormat.height));
+	let posterWidthPx = $derived(dimensionToPixels(currentFormat.width));
+	let posterHeightPx = $derived(dimensionToPixels(currentFormat.height));
+	let posterQuestionBounds = $derived(
+		getPosterQuestionBounds({
+			width: posterWidthPx,
+			height: posterHeightPx,
+			showLogo,
+			showQrCode
+		})
+	);
+	let previewQuestionText = $derived(question.trim() || 'Share your perspective');
+	let posterQuestionStyle = $derived.by(() => {
+		if (questionFontSize === 'auto') {
+			return `font-size:${posterQuestionLayout.fontSize}px; line-height:${posterQuestionLayout.lineHeight};`;
+		}
+
+		return `font-size:${POSTER_QUESTION_MANUAL_FONT_SIZES[questionFontSize]}px; line-height:${POSTER_QUESTION_LINE_HEIGHT};`;
+	});
 
 	// Generate QR code on URL change
 	$effect(() => {
 		if (questionUrl) {
 			generateQRCode();
 		}
+	});
+
+	$effect(() => {
+		const fallbackLayout = estimatePosterQuestionTextLayout(
+			previewQuestionText,
+			posterQuestionBounds
+		);
+		posterQuestionLayout = fallbackLayout;
+
+		if (questionFontSize !== 'auto' || !browser) {
+			return;
+		}
+
+		const requestId = ++questionLayoutRequest;
+		void calculatePosterQuestionTextLayoutClient({
+			text: previewQuestionText,
+			width: posterWidthPx,
+			height: posterHeightPx,
+			showLogo,
+			showQrCode
+		})
+			.then((layout) => {
+				if (requestId === questionLayoutRequest) {
+					posterQuestionLayout = layout;
+				}
+			})
+			.catch(() => {
+				if (requestId === questionLayoutRequest) {
+					posterQuestionLayout = fallbackLayout;
+				}
+			});
 	});
 
 	async function generateQRCode() {
@@ -423,12 +491,19 @@
 
 				{#if activeTab === 'style'}
 					<div class="section">
-						<label class="label" for="poster-question-font-size">Question Font Size</label>
+						<label class="label" for="poster-question-font-size">Question Size</label>
 						<select id="poster-question-font-size" bind:value={questionFontSize} class="input">
 							{#each fontSizes as size}
 								<option value={size.id}>{size.name}</option>
 							{/each}
 						</select>
+						<p class="field-note">
+							{#if questionFontSize === 'auto'}
+								Pretext auto-fits the question to the selected poster format.
+							{:else}
+								Manual mode uses a fixed headline size.
+							{/if}
+						</p>
 					</div>
 
 					<div class="section">
@@ -633,10 +708,17 @@
 						<!-- Question -->
 						<div class="poster-question">
 							<h2
-								class="{questionFontSize} {questionColor} text-center font-bold leading-tight"
+								class="{questionColor} poster-question-text text-center font-bold"
 								class:drop-shadow-lg={textShadow}
+								style={posterQuestionStyle}
 							>
-								{question}
+								{#if questionFontSize === 'auto'}
+									{#each posterQuestionLayout.lines as line}
+										<span>{line}</span>
+									{/each}
+								{:else}
+									{previewQuestionText}
+								{/if}
 							</h2>
 						</div>
 
@@ -839,6 +921,12 @@
 		font-size: 0.75rem;
 		color: var(--text-tertiary);
 		margin: 0;
+	}
+
+	.field-note {
+		margin: 0.5rem 0 0;
+		font-size: 0.75rem;
+		color: var(--text-secondary);
 	}
 
 	.input {
@@ -1191,10 +1279,15 @@
 		align-items: center;
 		justify-content: center;
 		padding: 2rem 0;
+	}
 
-		h2 {
-			max-width: 90%;
-		}
+	.poster-question-text {
+		margin: 0;
+		max-width: 90%;
+	}
+
+	.poster-question-text span {
+		display: block;
 	}
 
 	.poster-footer {

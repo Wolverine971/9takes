@@ -323,7 +323,9 @@ Pain was unbearable. Or never processed. Maybe there was loss you weren't allowe
 
 ⚠️ **When this goes too far:** You're 40 with no expertise because you never stuck with anything. Your life is a highlight reel of starts without endings. When things get real, emotionally or professionally, you disappear.
 
-<a href="/enneagram-corner/enneagram-type-7">Learn more about Type 7</a> | Read: [Why the Next Thing Won't Fix It](/enneagram-corner/why-the-next-thing-wont-fix-it-type-7)
+<a href="/enneagram-corner/enneagram-type-7">Learn more about Type 7</a>
+
+Go deeper: [Why the Next Thing Won't Fix It (How Type 7s Actually Find What They're Looking For)](/enneagram-corner/why-the-next-thing-wont-fix-it-type-7)
 
 ---
 
@@ -359,7 +361,9 @@ You experienced betrayal or powerlessness. Something taught you early that being
 
 ⚠️ **When this goes too far:** You're alone at the top and it's cold. Your relationships are all power dynamics. You've destroyed opportunities because you couldn't share control. People fear you instead of following you.
 
-<a href="/enneagram-corner/enneagram-type-8">Learn more about Type 8</a> | Read: [How Type 8 Challengers Actually Succeed](/enneagram-corner/how-type-8-challengers-actually-succeed)
+<a href="/enneagram-corner/enneagram-type-8">Learn more about Type 8</a>
+
+Go deeper: [How Type 8 Challengers Actually Succeed (It's Not What You Think)](/enneagram-corner/how-type-8-challengers-actually-succeed)
 
 ---
 

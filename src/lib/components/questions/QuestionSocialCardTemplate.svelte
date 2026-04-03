@@ -1,6 +1,11 @@
 <!-- src/lib/components/questions/QuestionSocialCardTemplate.svelte -->
 <script lang="ts">
-	import { calculateQuestionCardTextLayout } from '$lib/socialCards/questionCardTextLayout';
+	import { browser } from '$app/environment';
+	import type { QuestionCardTextLayout } from '$lib/socialCards/questionCardTextLayout';
+	import {
+		calculateQuestionCardTextLayout,
+		calculateQuestionCardTextLayoutClient
+	} from '$lib/socialCards/questionCardTextLayout';
 	import {
 		QUESTION_SOCIAL_CARD_HEIGHT,
 		QUESTION_SOCIAL_CARD_WIDTH
@@ -13,7 +18,24 @@
 
 	$: safeQuestionText = questionText?.trim() || 'Share your perspective';
 	$: safeQuestionUrl = questionUrl?.trim() || '9takes.com/questions';
+	let textLayout: QuestionCardTextLayout = calculateQuestionCardTextLayout(safeQuestionText);
+	let layoutRequest = 0;
+
 	$: textLayout = calculateQuestionCardTextLayout(safeQuestionText);
+	$: if (browser) {
+		const requestId = ++layoutRequest;
+		void calculateQuestionCardTextLayoutClient(safeQuestionText)
+			.then((layout) => {
+				if (requestId === layoutRequest) {
+					textLayout = layout;
+				}
+			})
+			.catch(() => {
+				if (requestId === layoutRequest) {
+					textLayout = calculateQuestionCardTextLayout(safeQuestionText);
+				}
+			});
+	}
 </script>
 
 <div
@@ -107,7 +129,6 @@
 		margin: 0;
 		font-weight: 700;
 		color: #fdf8ff;
-		letter-spacing: -0.01em;
 		text-shadow:
 			0 2px 10px rgba(0, 0, 0, 0.55),
 			0 0 28px rgba(96, 44, 172, 0.35);

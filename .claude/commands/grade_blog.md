@@ -56,12 +56,12 @@ How effectively the opening grabs the reader and establishes the piece's central
 
 ### 2. Enneagram Integration (1-10)
 
-How deeply and naturally the Enneagram framework drives the analysis rather than being bolted on.
+How deeply and naturally the Enneagram framework drives the analysis rather than being bolted on or turning into insider typology debate.
 
-- **9-10 (Exceptional)**: The Enneagram explains something NON-OBVIOUS. A driving contradiction is resolved through the type. Wings, stress/growth arrows, instinctual variants woven naturally. Counter-typing addressed. The framework is the ENGINE, not the paint.
-- **7-8 (Good)**: Type clearly identified with behavioral evidence. Some wings/arrows. Goes beyond surface labeling but no "aha moment."
+- **9-10 (Exceptional)**: The Enneagram explains something NON-OBVIOUS. A driving contradiction is resolved through the type. The analysis stays accessible to readers who don't know Enneagram jargon and keeps the focus on the person's life, not on type-vs-type argument. Advanced lenses only appear when they genuinely deepen the insight.
+- **7-8 (Good)**: Type clearly identified with behavioral evidence. Goes beyond surface labeling and stays focused on the person rather than typology mechanics, but no "aha moment."
 - **5-6 (Average)**: Type stated, some behaviors mapped. Feels descriptive rather than explanatory. Could swap the type label and observations still read similarly.
-- **3-4 (Below Average)**: Enneagram feels like afterthought. Behaviors listed then labeled. No counter-typing, arrows, or wings.
+- **3-4 (Below Average)**: Enneagram feels like afterthought or insider baseball. Behaviors listed then labeled, or the analysis gets bogged down in jargon and type comparisons instead of clarifying the person.
 - **1-2 (Poor)**: Type stated once, never substantiated.
 
 ### 3. Evidence / Sourcing (1-10)
@@ -132,6 +132,7 @@ For each blog, score independently on each dimension. Do NOT let one dimension p
 - **Grade inflation**: Don't give 9s just because the blog is "pretty good." A 9 means EXCEPTIONAL — signature detail, genuine insight, prose that could be published in a magazine.
 - **Halo effect**: A great hook doesn't mean the evidence is great. Score each dimension on its own merits.
 - **Length bias**: Long blogs aren't automatically better. Short, tight blogs can score higher than long, padded ones.
+- **Insider-baseball reward**: Do not give extra credit just because a draft discusses alternate types, wings, arrows, or counter-typing. Reward that material only if it makes the analysis clearer for a general reader; if it distracts, score it down.
 - **Outline penalty**: If a blog is clearly an outline/draft (bullet points, placeholder text, incomplete sections), grade it as-is but note "THIS IS AN OUTLINE — grade reflects current state only."
 
 ---

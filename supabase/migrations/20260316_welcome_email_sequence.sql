@@ -515,29 +515,33 @@ DJocrates
       v_sequence_id,
       2,
       2,
-      'She''s not "acting cold" - here''s what Type 5s actually need',
+      'He thinks she''s cold. She thinks he''s needy.',
       $$<p>Hi {{first_name}},</p>
-<p>She''s not "acting cold."</p>
-<p>She may just need processing time before she can engage.</p>
-<p>That is the kind of distinction 9takes is built to surface: <strong>same situation, different internal logic.</strong></p>
-<p>One person reads silence as rejection. Another reads it as caution. Another reads it as &quot;I need space to think.&quot;</p>
-<p>That difference matters. It changes how you interpret people, how you respond to them, and how much unnecessary judgment you carry into the interaction.</p>
-<p>You do not need to know all 9 types for this to be useful. You just need to remember that people are rarely reacting from the same inner pattern you are.</p>
-<p><a href="{{questions_url}}">Browse a live question</a> and compare how different people are reading the same social situation.</p>
+<p>He sees her go quiet after a long day and thinks: <em>she''s pulling away.</em></p>
+<p>She sees him double-text after an hour and thinks: <em>he''s being clingy.</em></p>
+<p><strong>Neither is right.</strong> They are just reading the same moment through completely different filters.</p>
+<p>That is the kind of gap 9takes is built to surface: <strong>same situation, different internal logic.</strong></p>
+<ul>
+  <li>One person reads silence as rejection. Another reads it as &quot;I need space to think.&quot;</li>
+  <li>One person reads a follow-up message as pressure. Another reads it as care.</li>
+</ul>
+<p>The gap is not about who is right. It is about recognizing that people are rarely reacting from the same inner pattern you are.</p>
+<p><a href="{{questions_url}}">Browse a live question</a> and compare how different people are reading the same situation.</p>
 <p>DJocrates<br />9takes.com</p>$$,
       $$Hi {{first_name}},
 
-She's not "acting cold."
+He sees her go quiet after a long day and thinks: she's pulling away.
 
-She may just need processing time before she can engage.
+She sees him double-text after an hour and thinks: he's being clingy.
 
-That is the kind of distinction 9takes is built to surface: same situation, different internal logic.
+Neither is right. They are just reading the same moment through completely different filters.
 
-One person reads silence as rejection. Another reads it as caution. Another reads it as "I need space to think."
+That is the kind of gap 9takes is built to surface: same situation, different internal logic.
 
-That difference matters. It changes how you interpret people, how you respond to them, and how much unnecessary judgment you carry into the interaction.
+- One person reads silence as rejection. Another reads it as "I need space to think."
+- One person reads a follow-up message as pressure. Another reads it as care.
 
-You do not need to know all 9 types for this to be useful. You just need to remember that people are rarely reacting from the same inner pattern you are.
+The gap is not about who is right. It is about recognizing that people are rarely reacting from the same inner pattern you are.
 
 Browse a live question: {{questions_url}}
 
