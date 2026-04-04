@@ -1,24 +1,11 @@
 {
-	"lastUpdated": "2026-04-03T23:30:00Z",
+	"lastUpdated": "2026-04-04T03:00:00Z",
 	"stats": {
 		"totalUnpublished": 87,
 		"totalPublished": 265,
 		"completionRate": "75.3%"
 	},
 	"queue": [
-		{
-			"name": "adele",
-			"displayName": "Adele",
-			"type": 4,
-			"priority": 99,
-			"priorityReason": "Global superstar, massive search volume, emotional storytelling goldmine, Type 4 archetype",
-			"estimatedTraffic": "very-high",
-			"searchVolume": "very-high",
-			"personaTitle": null,
-			"addedToQueue": "2026-04-03",
-			"retryCount": 0,
-			"strategicValue": "contemporary-music-cluster"
-		},
 		{
 			"name": "brené-brown",
 			"displayName": "Brené Brown",
@@ -372,6 +359,17 @@
 		}
 	],
 	"completed": [
+		{
+			"name": "adele",
+			"displayName": "Adele",
+			"type": 4,
+			"priority": 99,
+			"completedAt": "2026-04-04T03:00:00Z",
+			"contentGrade": 8.7,
+			"letterGrade": "B+",
+			"duration": 45,
+			"needsReview": false
+		},
 		{
 			"name": "james-clear",
 			"displayName": "James Clear",

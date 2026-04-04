@@ -2,6 +2,8 @@
 name: evidence-led-research
 description: Build an evidence log for a public figure, topic, or draft before writing. Use when researching personality analyses, verifying factual claims, collecting quote support, or checking whether a draft has enough source backing.
 argument-hint: '<person, topic, or file path>'
+context: fork
+agent: general-purpose
 disable-model-invocation: true
 ---
 
@@ -39,6 +41,11 @@ If the target is a people draft, also search and load:
 - `youtube-transcript-research/*`
 
 If the user passed a file path, read that file before searching elsewhere.
+
+For the exact output shape, use:
+
+- [template.md](template.md)
+- [example-output.md](example-output.md)
 
 ## Workflow
 
@@ -90,53 +97,7 @@ If a claim is weak, say so directly. If sources conflict, preserve the conflict 
 
 ### 5. Build the evidence log
 
-Create a clean research artifact with these sections:
-
-```markdown
-# Evidence Log: [Target]
-
-## Scope
-
-- What is being researched
-- What this log is for
-
-## Source Inventory
-
-| Source | Type | Date | Trust level | Best use |
-
-## Quote Bank
-
-| Quote | Speaker | Source | Date | Why it matters |
-
-## Claim Table
-
-| Claim | Claim type | Best evidence | Status | Notes |
-
-Status values:
-
-- supported
-- partially supported
-- contradicted
-- weak
-- missing evidence
-
-## Contradictions
-
-- Source A says ...
-- Source B says ...
-- Working conclusion ...
-
-## Gaps
-
-- What still needs proof
-- What should be softened or removed
-
-## Next Writing Moves
-
-- safest strong claims
-- claims to avoid
-- best scenes/examples to use
-```
+Use the supporting template and follow its section order exactly.
 
 ## Rules
 
@@ -145,6 +106,7 @@ Status values:
 - Separate fact-checking from Enneagram interpretation.
 - Treat transcript-backed evidence as stronger than generic profile summaries.
 - If the evidence is thin, say the draft is under-supported.
+- ultrathink when sources conflict or the evidence chain is weak.
 
 ## Save Behavior
 

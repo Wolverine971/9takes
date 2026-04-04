@@ -2,6 +2,8 @@
 name: seo-content-gap-analysis
 description: Analyze a blog, keyword, draft, or route for search-intent gaps, metadata weaknesses, competitor framing, FAQ opportunities, and internal-link opportunities. Use before writing or when upgrading existing content for SEO and AI search.
 argument-hint: '<keyword, person, file path, or URL path>'
+context: fork
+agent: general-purpose
 disable-model-invocation: true
 ---
 
@@ -38,6 +40,11 @@ If the target is a recent people draft, also load:
 
 - `docs/content-analysis/recent-people-drafts-seo-audit-2026-04-03.md`
 - `.claude/commands/blog_content_creator_people.md`
+
+For the exact output shape, use:
+
+- [template.md](template.md)
+- [example-output.md](example-output.md)
 
 ## Workflow
 
@@ -96,53 +103,7 @@ Separate:
 
 ## Output Format
 
-```markdown
-# SEO Gap Analysis: [Target]
-
-## Search Frame
-
-- Primary query:
-- Secondary queries:
-- Search intent:
-- Reader job:
-
-## Current Asset Audit
-
-| Area | Status | Notes |
-
-## External Pattern Snapshot
-
-| Pattern | Seen often? | Why it matters |
-
-## Gap Map
-
-### Must-have gaps
-
-- ...
-
-### Differentiation gaps
-
-- ...
-
-### Internal link gaps
-
-- ...
-
-## Recommended Fixes
-
-- New title:
-- New meta title:
-- New description:
-- Suggested FAQ questions:
-- Suggested H2/H3 replacements:
-- Suggested internal links:
-
-## Priority
-
-- Impact: high / medium / low
-- Effort: high / medium / low
-- Best next move:
-```
+Use the supporting template and adapt the sections to the target.
 
 ## Rules
 
@@ -151,6 +112,7 @@ Separate:
 - Do not recommend generic SEO filler.
 - For people drafts, preserve 1 to 2 strong signature headers if they are earning their place.
 - Be explicit about whether the biggest issue is no content, weak structure, or weak positioning.
+- ultrathink when the asset is strong editorially but weak for query match.
 
 ## Save Behavior
 

@@ -40,7 +40,7 @@
 		{ href: '/', label: 'Home' },
 		...primaryLinks,
 		{ href: '/how-to-guides', label: 'How-to Guides' },
-		{ href: '/book-session', label: 'Book Session' }
+		{ href: '/book-session', label: 'Coaching' }
 	];
 
 	const blogItems = [
@@ -161,14 +161,14 @@
 					{/if}
 				</div>
 
-				<!-- Book Session — standalone after More -->
+				<!-- Coaching waitlist - standalone after More -->
 				<a
 					href="/book-session"
 					class="nav-link"
 					class:active-link={$page.url.pathname.startsWith('/book-session')}
 					aria-current={$page.url.pathname.startsWith('/book-session') ? 'page' : undefined}
 				>
-					Book Session
+					Coaching
 				</a>
 			</div>
 

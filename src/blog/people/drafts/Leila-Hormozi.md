@@ -27,20 +27,20 @@ content_quality:
   originality: 8
   overall: 8.6
   letter: B+
-  graded_at: '2026-02-19'
+  graded_at: '2026-04-04'
 ---
 
 <!-- QUALITY GRADE: B+ (8.6)
 Hook: 9 | Enneagram: 9 | Evidence: 8 | Writing: 9 | Originality: 8
 
-FEEDBACK (2026-02-19):
-- STRONG HOOK: Assets vs. Bridge contradiction is a genuine Portnoy-style opening. "The same woman said both" creates immediate cognitive dissonance. Thesis lands by paragraph 5. Google-landing readers stay.
-- STRONG ENNEAGRAM: 3→9 disintegration (emotional flatness at 15-19) explains something non-obvious. 3→6 integration (bridge moment) reframes the relationship. Core emotion (shame) gets its own section with deep analysis. The "she reframed shame as a performance problem" insight is the aha moment.
-- STRONG WRITING: Excellent visual rhythm — "Her mother did not survive the same way." / "Resting felt like quitting." / "Not butterflies. Not chemistry. Recognition." / "Humiliating. Effective." Ending cuts to black perfectly: "what happens to a person who can only rest by calling it strategy."
-- SIGNATURE DETAIL: The 5-minute absorption technique — she architects emotions the same way she architects businesses. This makes the Type 3 analysis click.
-- NEEDS WORK — EVIDENCE: While 18+ sourced quotes from 12+ distinct publications is strong, a few specific details remain unsourced (frozen yogurt shop location, 85 pounds, body dysmorphia detail). Adding 2-3 more direct quotes from her own podcast and sourcing remaining facts would push this to 9.
-- NEEDS WORK — ORIGINALITY: The childhood→transformation arc, while deepened with the suicide attempt and emotional flatness, still follows a recognizable biographical pattern. One more completely unexpected angle could push this higher.
-- TO REACH A (9.0): (1) Source the remaining unsourced details (frozen yogurt, weight loss figure, body dysmorphia). (2) Add 1-2 direct quotes from Build with Leila Hormozi podcast to her own voice in the piece. (3) Find one more unexpected angle — perhaps the uncle's 8-year prison story as parallel to her own transformation, or deeper exploration of the 6-week breakup with Alex.
+RE-GRADE FEEDBACK (2026-04-04) — confirms 2026-02-19 scores:
+- STRONG HOOK: "Assets" vs. "bridge" contrast creates genuine cognitive dissonance in 4 paragraphs. "The same woman said both" is the pivot. Thesis ("a debt she's been paying since she was ten") lands perfectly. Google-landing readers stay.
+- STRONG ENNEAGRAM: 3→9 disintegration explains the 4-year emotional flatness — non-obvious. 3→6 integration reframes the bridge moment. "She reframed shame as a performance problem" is the aha. "Even her surrender has a business case" is another. Type 8/Type 1 comparison uses behavioral evidence, not jargon. Accessible throughout.
+- STRONG WRITING: Memorable lines throughout — "Her mother did not build the same way." / "Not butterflies. Not chemistry. Recognition." / "Humiliating. Effective." / "The mask fits so well it looks like skin." Ending cuts to black: "what happens to a person who can only rest by calling it strategy." Minimal hedging, confident framing.
+- SIGNATURE DETAIL: The 5-minute rule — she architects emotions the same way she architects businesses. Makes the Type 3 analysis click.
+- NEEDS WORK — EVIDENCE: 15+ sources with URLs is strong, but gaps remain: ~85-pound weight loss, body dysmorphia, "60 dates on Bumble," frozen yogurt shop, "fuck off" sales anecdote, and revenue figures ($50M, $200M+, 4,000+ locations) all unsourced. Adding inline citations or 1-2 more Build with Leila Hormozi podcast quotes would push to 9.
+- NEEDS WORK — ORIGINALITY: Multiple original observations (assets/bridge, shame-as-performance, friend-audit callback, mother's narrative absence). But the childhood→destruction→reinvention→success→burnout→rest arc is a recognizable biographical shape. One genuinely unexpected angle would push to 9.
+- TO REACH A (9.0): (1) Source remaining unsourced claims — weight loss, Bumble dates, sales rejection, revenue metrics. (2) Add 1-2 direct podcast quotes to fill evidence gaps. (3) Find one unexpected angle that breaks the familiar arc — the uncle's 8-year prison parallel is set up but never fully developed, or explore the mother's total disappearance from the narrative as its own section rather than a passing observation.
 -->
 
 <p class="firstLetter">"Neither of us would be in this relationship if we weren't assets to each other."</p>

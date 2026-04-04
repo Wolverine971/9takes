@@ -552,7 +552,7 @@
 							</ul>
 
 							<a href="/book-session" class="btn-shadow lg">
-								<span>Book a Session</span>
+								<span>Join the Waitlist</span>
 							</a>
 
 							<p class="coaching-note">Join the waitlist for personalized Enneagram coaching</p>

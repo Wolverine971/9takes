@@ -2,6 +2,8 @@
 name: research-brief-builder
 description: Turn messy notes, source files, research logs, or a topic into a concise writing brief with claim-evidence structure, open questions, angle selection, and a ready-to-write outline. Use after research and before drafting.
 argument-hint: '<person, topic, file path, or notes>'
+context: fork
+agent: general-purpose
 disable-model-invocation: true
 ---
 
@@ -38,6 +40,11 @@ If this is a people-analysis workflow, also load:
 - `docs/blogs-famous-people/prompts/research-prompt.md`
 
 If an evidence log exists, use that before re-researching.
+
+For the exact output shape, use:
+
+- [template.md](template.md)
+- [example-output.md](example-output.md)
 
 ## Workflow
 
@@ -82,56 +89,7 @@ Explicitly surface:
 
 ### 5. Produce a draft-ready brief
 
-Use this format:
-
-```markdown
-# Research Brief: [Target]
-
-## Brief Thesis
-
-- One-sentence argument
-
-## Reader + Job
-
-- Who this is for
-- What they want answered
-
-## Dominant Angle
-
-- Why this angle wins
-- What angles were rejected
-
-## Claim-Evidence Spine
-
-| Claim | Best evidence | Best quote/example | Risk level | Section use |
-
-## Open Questions
-
-- ...
-
-## Section Blueprint
-
-1. Hook
-2. Type/angle declaration
-3. Evidence section 1
-4. Evidence section 2
-5. Counter-signal or ambiguity section
-6. Takeaway / broader meaning
-
-## Source Deployment Plan
-
-- Which quote/example belongs in which section
-
-## Red Flags
-
-- what to verify
-- what to soften
-- what to cut
-
-## Next Step
-
-- ready to draft / needs more research
-```
+Use the supporting template and adapt it to the asset.
 
 ## Rules
 
@@ -140,6 +98,7 @@ Use this format:
 - If the input is messy, make the structure cleaner than the notes.
 - If the evidence is thin, the brief should say "needs more research" instead of pretending it is ready.
 - Prefer one sharp thesis over a broad but mushy summary.
+- ultrathink when the research bundle suggests multiple competing angles.
 
 ## Save Behavior
 

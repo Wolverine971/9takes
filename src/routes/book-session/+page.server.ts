@@ -91,7 +91,8 @@ export const actions: Actions = {
 		const name = formData.get('name')?.toString() || '';
 		const email = formData.get('email')?.toString() || '';
 		const enneagramType = formData.get('enneagramType')?.toString() || '';
-		const sessionGoal = formData.get('sessionGoal')?.toString().trim() || '';
+		const sessionGoalInput = formData.get('sessionGoal')?.toString().trim() || '';
+		const sessionGoal = sessionGoalInput || null;
 
 		// ============ BOT DETECTION CHECKS ============
 
@@ -114,7 +115,7 @@ export const actions: Actions = {
 				name,
 				email,
 				enneagramType,
-				sessionGoal
+				sessionGoal: sessionGoalInput
 			});
 		}
 
@@ -158,7 +159,7 @@ export const actions: Actions = {
 					name,
 					email,
 					enneagramType,
-					sessionGoal
+					sessionGoal: sessionGoalInput
 				});
 			}
 		} catch (e) {
@@ -176,7 +177,7 @@ export const actions: Actions = {
 				name,
 				email,
 				enneagramType,
-				sessionGoal
+				sessionGoal: sessionGoalInput
 			});
 		}
 
@@ -187,7 +188,7 @@ export const actions: Actions = {
 				name,
 				email,
 				enneagramType,
-				sessionGoal
+				sessionGoal: sessionGoalInput
 			});
 		}
 
@@ -198,7 +199,7 @@ export const actions: Actions = {
 				name,
 				email,
 				enneagramType,
-				sessionGoal
+				sessionGoal: sessionGoalInput
 			});
 		}
 
@@ -212,29 +213,18 @@ export const actions: Actions = {
 				name,
 				email,
 				enneagramType,
-				sessionGoal
+				sessionGoal: sessionGoalInput
 			});
 		}
 
-		if (!sessionGoal) {
-			return fail(400, {
-				success: false,
-				message: 'Share what you want from this session',
-				name,
-				email,
-				enneagramType,
-				sessionGoal
-			});
-		}
-
-		if (sessionGoal.length > 600) {
+		if (sessionGoalInput.length > 600) {
 			return fail(400, {
 				success: false,
 				message: 'Please keep your note under 600 characters',
 				name,
 				email,
 				enneagramType,
-				sessionGoal
+				sessionGoal: sessionGoalInput
 			});
 		}
 
@@ -255,7 +245,7 @@ export const actions: Actions = {
 						name,
 						email,
 						enneagramType,
-						sessionGoal
+						sessionGoal: sessionGoalInput
 					});
 				}
 
@@ -266,7 +256,7 @@ export const actions: Actions = {
 					name,
 					email,
 					enneagramType,
-					sessionGoal
+					sessionGoal: sessionGoalInput
 				});
 			}
 
@@ -321,7 +311,9 @@ export const actions: Actions = {
 				const safeName = escapeHtml(name);
 				const safeEmail = escapeHtml(email);
 				const safeEnneagramType = enneagramType ? escapeHtml(enneagramType) : 'N/A';
-				const safeSessionGoal = escapeHtml(sessionGoal).replace(/\n/g, '<br />');
+				const safeSessionGoal = sessionGoal
+					? escapeHtml(sessionGoal).replace(/\n/g, '<br />')
+					: 'Not provided';
 				const safeSource = source ? escapeHtml(source) : 'N/A';
 
 				const safeUtmSource = utmSource ? escapeHtml(utmSource) : 'N/A';
@@ -353,7 +345,8 @@ export const actions: Actions = {
 			// Return success
 			return {
 				success: true,
-				message: 'You have been added to our waitlist!'
+				message: 'You have been added to our waitlist!',
+				email
 			};
 		} catch (error) {
 			console.error('Server error during signup:', error);
@@ -363,7 +356,7 @@ export const actions: Actions = {
 				name,
 				email,
 				enneagramType,
-				sessionGoal
+				sessionGoal: sessionGoalInput
 			});
 		}
 	}

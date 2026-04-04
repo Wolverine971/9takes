@@ -36,6 +36,11 @@ Load the minimum relevant context:
 
 If the target is not in admin, also load the most relevant design or CSS guide you can find under `docs/design/` or `docs/development/`.
 
+For the exact output shape, use:
+
+- [template.md](template.md)
+- [example-output.md](example-output.md)
+
 ## Workflow
 
 ### 1. Resolve scope
@@ -84,41 +89,7 @@ If the request points to a route, read the primary route file plus the most impo
 
 Findings must be concrete. Point to the exact UI or file behavior causing the problem.
 
-Use this format:
-
-```markdown
-# UI Critique: [Target]
-
-## Findings
-
-### P1
-
-- [finding with file reference and why it matters]
-
-### P2
-
-- ...
-
-### P3
-
-- ...
-
-## Quick Wins
-
-- ...
-
-## Bigger Refactors
-
-- ...
-
-## Token / Pattern Notes
-
-- ...
-
-## Recommended Next Step
-
-- critique only / patch now / run design update
-```
+Use the supporting template and adapt it to the target.
 
 ## Rules
 

@@ -37,6 +37,11 @@ If the source is Twitter-native or you need sharper voice calibration, also load
 
 - `docs/twitter/voice-and-tone.md`
 
+For the exact output shape, use:
+
+- [template.md](template.md)
+- [example-output.md](example-output.md)
+
 ## Workflow
 
 ### 1. Resolve the source asset
@@ -83,62 +88,7 @@ Every script should include:
 
 ## Output Format
 
-```markdown
-# Short-Form Video Pack: [Target]
-
-## Concept Options
-
-1. ...
-2. ...
-3. ...
-
-## Recommended Direction
-
-- Why this one wins
-
-## Hooks
-
-- ...
-- ...
-- ...
-
-## Script (30-60s)
-
-0-2s:
-3-10s:
-11-25s:
-26-40s:
-41-55s:
-56-60s:
-
-## On-Screen Text
-
-- ...
-
-## Visual Plan
-
-- talking head:
-- b-roll:
-- captions emphasis:
-
-## Caption
-
-[caption copy]
-
-## CTA
-
-- ...
-
-## Disclaimer / Boundary
-
-- ...
-
-## Follow-On Assets
-
-- story poll
-- carousel angle
-- alternate hook
-```
+Use the supporting template and adapt it to the concept.
 
 ## Rules
 
