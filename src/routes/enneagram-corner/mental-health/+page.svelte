@@ -275,7 +275,13 @@
 							{@const blogPath =
 								blog.loc?.replace('https://9takes.com', '') ||
 								`/enneagram-corner/mental-health/${blog.slug}`}
-							<a href={blogPath} class="blog-card">
+							<a href={blogPath} class="blog-card" class:has-image={blog.pic}>
+								{#if blog.pic}
+									<div
+										class="card-image"
+										style={`background-image: url(/blogs/s-${blog.pic}.webp);`}
+									></div>
+								{/if}
 								<div class="card-overlay"></div>
 								<div class="card-content">
 									<h4>{blog.title}</h4>
@@ -641,10 +647,46 @@
 				opacity: 1;
 			}
 
+			.card-image {
+				transform: scale(1.04);
+			}
+
 			.card-content h4 {
 				color: var(--primary);
 			}
 		}
+
+		&.has-image {
+			.card-content {
+				color: #fff;
+			}
+
+			.card-content h4,
+			.card-content .read-link {
+				color: #fff;
+			}
+
+			.card-content p {
+				color: rgba(255, 255, 255, 0.84);
+			}
+
+			.card-overlay {
+				background: linear-gradient(
+					to top,
+					rgba(10, 10, 15, 0.95) 0%,
+					rgba(10, 10, 15, 0.66) 42%,
+					rgba(10, 10, 15, 0.24) 100%
+				);
+			}
+		}
+	}
+
+	.card-image {
+		position: absolute;
+		inset: 0;
+		background-size: cover;
+		background-position: center;
+		transition: transform 0.35s ease;
 	}
 
 	.card-overlay {

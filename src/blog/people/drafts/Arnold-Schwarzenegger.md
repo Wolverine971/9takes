@@ -19,7 +19,27 @@ twitter: 'https://twitter.com/Schwarzenegger'
 instagram: 'https://www.instagram.com/schwarzenegger'
 tiktok: 'https://www.tiktok.com/tag/arnoldschwarzenegger'
 path: src/blog/people/drafts/Arnold-Schwarzenegger.md
+content_quality:
+  hook: 9
+  enneagram: 9
+  evidence: 9
+  writing: 9
+  originality: 9
+  overall: 9.0
+  letter: A
+  graded_at: '2026-04-03'
 ---
+
+<!-- QUALITY GRADE: A (9.0)
+Hook: 9 | Enneagram: 9 | Evidence: 9 | Writing: 9 | Originality: 9
+
+FEEDBACK (2026-04-03):
+- EXCEPTIONAL HOOK: "When I look in the mirror, I throw up" into "How did this pile of sh*t win?" creates instant cognitive dissonance that makes the central question impossible to ignore.
+- SIGNATURE CONCEPT: "Schmah" as the organizing metaphor for Arnold's entire life strategy — bricklaying, accent, Terminator, politics — is genuinely novel and threads beautifully through the piece.
+- MEMORABLE PROSE: "Not through inspiration. Through subtraction." and "The brother who felt everything died. The brother who learned to freeze everything survived." are standout lines. The closing code metaphor ("the new code is starting to compile") is a perfect ending.
+- NEEDS WORK: The "What is Arnold Schwarzenegger's Personality Type?" section leans slightly more list-like/formulaic than the surrounding narrative sections — consider weaving the bullet points into prose.
+- TO REACH A+: (1) The 2-wing evidence section (Reddit response, Special Olympics comment, flying-kick response) uses well-known Arnold moments — finding a lesser-known private act of generosity would elevate originality. (2) The meditation section, while interesting, feels slightly disconnected from the main narrative arc — a stronger transition linking it to the denial/freeze pattern would tighten the piece.
+-->
 
 > "When I look in the mirror, I throw up."
 

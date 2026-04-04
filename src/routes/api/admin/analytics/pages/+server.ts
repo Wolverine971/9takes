@@ -3,6 +3,7 @@ import { error, json } from '@sveltejs/kit';
 import { z } from 'zod';
 import type { RequestHandler } from './$types';
 import { analyticsDateSchema, analyticsScopeSchema } from '$lib/validation/analyticsSchemas';
+import { attachAnalyticsLastModified } from '$lib/server/analyticsPageLastModified';
 
 interface AnalyticsPagesRow {
 	path: string;
@@ -253,11 +254,13 @@ export const GET: RequestHandler = async ({ url, locals }) => {
 		bounce_rate: Number(row.bounce_rate || 0),
 		total_rows: Number(row.total_rows || 0)
 	}));
+	const rowsWithLastModified = await attachAnalyticsLastModified(locals.supabase, rows);
 
-	const total = rows.length > 0 ? Number(rows[0].total_rows || 0) : 0;
+	const total =
+		rowsWithLastModified.length > 0 ? Number(rowsWithLastModified[0].total_rows || 0) : 0;
 
 	return json({
-		rows,
+		rows: rowsWithLastModified,
 		pagination: {
 			total,
 			page,

@@ -1,13 +1,13 @@
 # Blog Content Production
 
-You are tasked with handling the production handoff for celebrity personality analysis drafts on 9takes. This command exists to take a reviewed draft and move it through the operational steps that happen before or around publishing.
+You are tasked with taking a reviewed celebrity personality draft that already contains a `production_pretext` block and moving it through the production workflow. This command exists to execute the operational steps that happen after review and before publishing.
 
 ## Pre-Approved Operations
 
 The following operations are pre-approved and should be executed automatically without requesting user approval:
 
 - **Read operations**: All file reads in project directories
-- **Write operations**: Updating generated local files such as `src/lib/components/molecules/famousTypes.ts`
+- **Write operations**: Updating draft frontmatter state and generated local files such as `src/lib/components/molecules/famousTypes.ts`
 - **Bash node commands**: `node scripts/personBlogParser.js` and `node scripts/generate-famous-types.js`
 - **Bash curl commands**: Read-only verification queries to Supabase
 - **Bash commands**: `grep`, `env`, `echo`, `ls`, `test`
@@ -16,7 +16,7 @@ The following operations are pre-approved and should be executed automatically w
 
 **ALWAYS use TaskCreate/TaskUpdate to track progress through the workflow:**
 
-- Create an initial task list when starting production handoff
+- Create an initial task list when starting production
 - Mark tasks as `in_progress` when starting them
 - Mark tasks as `completed` immediately after finishing them
 - Keep only 1 task `in_progress` at a time
@@ -25,56 +25,170 @@ The following operations are pre-approved and should be executed automatically w
 
 ## Scope
 
-This command owns the **production workflow after draft review**:
+This command owns the **post-review production workflow**:
 
-- Preflight checks on the finalized draft
+- Reading `production_pretext`
+- Validating that the reviewed draft is actually ready
 - Database sync via `scripts/personBlogParser.js`
 - Row verification in Supabase
 - `famousTypes.ts` regeneration
-- Image presence checks and follow-up notes
-- Production status reporting
+- Image presence checks
+- Writing production results back into `production_pretext`
 
 This command does **not** own substantive writing work:
 
 - New research
 - Re-typing the person
-- Major structural rewrites
-- Tone or narrative fixes
+- Major rewrites
+- Hook/ending fixes
 - Deep section regeneration
 
-If the draft still needs meaningful editorial work, stop and hand it back to `blog_content_creator_people`.
+If the draft still needs editorial work, stop and hand it back to `blog_content_creator_people`.
 
 ---
 
 # Part 1: Reference Guide
 
-These sections define the operational rules. The workflows in Part 2 should follow them.
+These sections define the handoff contract and the operational rules.
 
 ---
 
-## When To Run This Command
+## Handoff Contract: `production_pretext`
 
-Run `blog_content_production_people` only after:
+This command requires a `production_pretext` block in the draft frontmatter.
 
-1. The draft exists in `src/blog/people/drafts/`
-2. The user has reviewed the draft or explicitly approved it for handoff
-3. The draft is ready to be synced operationally
+### Required Shape Before Production Runs
 
-This command should be the step that happens **after `blog_content_creator_people` and before publishing**.
+```yaml
+production_pretext:
+  status: ready
+  handoff_from: blog_content_creator_people
+  reviewed: true
+  ready_for_production: true
+  sync_mode: full
+  requires:
+    - db_sync
+    - db_verify
+    - regenerate_famous_types
+    - image_check
+  blockers: []
+```
+
+### Status Meanings
+
+- `draft` — writing/review is still in progress; production must not run
+- `ready` — reviewed and approved; production can run
+- `in_progress` — production has started
+- `completed` — production finished with no blockers
+- `blocked` — production ran but follow-up is still required
+
+### Run Gate
+
+Do **not** run production unless all of the following are true:
+
+- `production_pretext` exists
+- `status: ready`
+- `reviewed: true`
+- `ready_for_production: true`
+- `handoff_from: blog_content_creator_people`
+- `sync_mode: full`
+
+If any of these are missing or false, stop and send the draft back to `blog_content_creator_people`.
+
+---
+
+## Status Transitions
+
+### Before Running Production
+
+Update the draft frontmatter to:
+
+```yaml
+production_pretext:
+  status: in_progress
+  handoff_from: blog_content_creator_people
+  reviewed: true
+  ready_for_production: true
+  sync_mode: full
+  requires:
+    - db_sync
+    - db_verify
+    - regenerate_famous_types
+    - image_check
+  blockers: []
+  last_attempted_at: 'YYYY-MM-DD'
+```
+
+### After Successful Production
+
+If all required steps succeed and there are no blockers:
+
+```yaml
+production_pretext:
+  status: completed
+  handoff_from: blog_content_creator_people
+  reviewed: true
+  ready_for_production: false
+  sync_mode: full
+  requires:
+    - db_sync
+    - db_verify
+    - regenerate_famous_types
+    - image_check
+  blockers: []
+  last_attempted_at: 'YYYY-MM-DD'
+  last_completed_at: 'YYYY-MM-DD'
+  db_sync: success
+  db_verify: success
+  regenerate_famous_types: success
+  image_check: success
+  image_full: present
+  image_thumbnail: present
+```
+
+### After Partially Successful Production
+
+If the operational sync succeeds but required follow-up remains, set:
+
+```yaml
+production_pretext:
+  status: blocked
+  handoff_from: blog_content_creator_people
+  reviewed: true
+  ready_for_production: false
+  sync_mode: full
+  requires:
+    - db_sync
+    - db_verify
+    - regenerate_famous_types
+    - image_check
+  blockers:
+    - missing_full_image
+    - missing_thumbnail_image
+  last_attempted_at: 'YYYY-MM-DD'
+  db_sync: success
+  db_verify: success
+  regenerate_famous_types: success
+  image_check: blocked
+  image_full: missing
+  image_thumbnail: missing
+```
+
+If database sync or verification fails, also use `status: blocked` and record the failing step in `blockers`.
 
 ---
 
 ## Accepted Inputs
 
-The user can provide one of:
+This command is **single-draft-first**. The user can provide:
 
 - A person's slug, like `Taylor-Swift`
 - A draft file path
 - `current draft`
-- `batch changed`
-- `grades only`
 
-Default behavior: if there is an obvious current person draft in context, treat that as the target.
+Prefer explicit person or path. Use `current draft` only when context is obvious.
+
+This command is **not** the general batch sync tool. If the user wants batch utilities later, that should be a different command.
 
 ---
 
@@ -82,8 +196,8 @@ Default behavior: if there is an obvious current person draft in context, treat 
 
 Before syncing anything:
 
-1. Read the draft file.
-2. Confirm the required frontmatter is present:
+1. Read the target draft file.
+2. Confirm the required blog frontmatter exists:
    - `title`
    - `meta_title`
    - `persona_title`
@@ -94,11 +208,11 @@ Before syncing anything:
    - `type`
    - `person`
    - `suggestions`
-3. Check whether the draft still looks editorially unfinished.
-4. If `content_quality.overall` exists and is below `8.5`, warn the user that the draft is below handoff threshold.
-5. If the draft clearly still needs writing work, stop and direct the user back to `blog_content_creator_people`.
+3. Confirm `production_pretext` exists and is valid.
+4. If `content_quality.overall` exists and is below `8.5`, warn the user that the draft is below handoff threshold and stop unless the user explicitly overrides that.
+5. If the draft still clearly needs writing work, stop and direct the user back to `blog_content_creator_people`.
 
-**Important:** Production handoff is not the place to fix a weak hook, flatten repetition, or rewrite whole sections. Those go back to the writing command.
+**Important:** Production is not where you fix writing. Production only runs reviewed drafts that are already marked `ready`.
 
 ---
 
@@ -106,31 +220,19 @@ Before syncing anything:
 
 Use `scripts/personBlogParser.js` for all writes to `blogs_famous_people`.
 
-### Standard Commands
+### Preferred Command
 
 ```bash
-# Push only changed drafts in src/blog/people/drafts
-node scripts/personBlogParser.js --changed
-
-# Push one changed person draft
 node scripts/personBlogParser.js --changed [Person-Name]
-
-# Push one person by slug (fallback if draft is not currently changed)
-node scripts/personBlogParser.js [Person-Name]
-
-# Push only content_quality grades for changed drafts
-node scripts/personBlogParser.js --grades-only --changed
-
-# Push only content_quality grades for one person
-node scripts/personBlogParser.js --grades-only [Person-Name]
 ```
 
-### Selection Rules
+### Fallback Command
 
-- **Single reviewed draft**: use `node scripts/personBlogParser.js --changed [Person-Name]`
-- **Fallback when draft is not currently changed**: use `node scripts/personBlogParser.js [Person-Name]`
-- **Batch sync for multiple changed drafts**: use `node scripts/personBlogParser.js --changed`
-- **Grade-only sync**: use `--grades-only`
+Use this only when the draft is not currently detected as changed:
+
+```bash
+node scripts/personBlogParser.js [Person-Name]
+```
 
 ### Publish-Safe Behavior
 
@@ -142,7 +244,7 @@ node scripts/personBlogParser.js --grades-only [Person-Name]
 
 ## Verification Query
 
-Run after every single-person sync:
+Run after every sync:
 
 ```bash
 source .env && curl -s "${PUBLIC_SUPABASE_URL}/rest/v1/blogs_famous_people?person=eq.[Person-Name]&select=id,person,title,meta_title,lastmod,published,enneagram,persona_title" \
@@ -150,27 +252,27 @@ source .env && curl -s "${PUBLIC_SUPABASE_URL}/rest/v1/blogs_famous_people?perso
   -H "Authorization: Bearer ${SUPABASE_SERVICE_KEY}"
 ```
 
-For batch syncs, verify the rows that were actually processed if the batch is small enough to inspect individually. Otherwise summarize the script output and note that the DB sync completed.
+Confirm:
+
+- `person`
+- `title`
+- `meta_title`
+- `lastmod`
+- `published`
+- `enneagram`
+- `persona_title`
 
 ---
 
 ## Listing Regeneration
 
-After a successful content sync, regenerate `src/lib/components/molecules/famousTypes.ts`:
+After a successful content sync, regenerate:
 
 ```bash
 node scripts/generate-famous-types.js
 ```
 
-This refreshes:
-
-- `link`
-- `hasImage`
-- `lastmod`
-- `personaTitle`
-- `contentGrade`
-
-for the listing pages.
+This refreshes the generated listing data in `src/lib/components/molecules/famousTypes.ts`.
 
 ---
 
@@ -181,20 +283,20 @@ For a person with Enneagram type `[X]` and slug `[Person-Name]`, the expected im
 - `static/types/[X]s/[Person-Name].webp`
 - `static/types/[X]s/s-[Person-Name].webp`
 
-After syncing the draft:
+Image presence is part of the production result:
 
-1. Check whether both image files exist.
-2. Report what is present and what is missing.
-3. If images are missing, tell the user the draft was synced but image work is still outstanding.
-4. If images are added later, rerun `blog_content_production_people` or at minimum rerun `node scripts/generate-famous-types.js`.
+- If both exist, mark `image_check: success`
+- If either is missing, mark `status: blocked` and record the missing asset(s) in `blockers`
 
 ---
 
 ## Error Handling
 
-- If command output says `No changed draft markdown files found`, either use the fallback single-person command or confirm that the draft was actually saved.
-- If insert/update fails, report the exact script error.
-- If verification fails, report that clearly and do not claim success.
+- If `production_pretext` is missing, stop.
+- If `production_pretext.status` is not `ready`, stop.
+- If command output says `No changed draft markdown files found`, use the fallback single-person sync command.
+- If insert/update fails, record `db_sync: blocked`, set `status: blocked`, and keep the exact blocker reason.
+- If verification fails, record `db_verify: blocked`, set `status: blocked`, and do not claim success.
 - Do not switch to manual PATCH/POST calls unless the user explicitly asks.
 
 ---
@@ -205,70 +307,127 @@ Read from `.env` at runtime:
 
 - `SUPABASE_SERVICE_KEY`
 - `SUPABASE_URL` or `PUBLIC_SUPABASE_URL`
-- `PUBLIC_SUPABASE_PUBLISHABLE_KEY` (used by `generate-famous-types.js`)
+- `PUBLIC_SUPABASE_PUBLISHABLE_KEY`
 
 ---
 
-# Part 2: Workflows
+# Part 2: Workflow
 
 ---
 
-## Workflow: Single Draft Handoff
+## Workflow: Pretext-Driven Single Draft Production
 
-### Step 1: Resolve the Target
+### Step 1: Resolve the Draft
 
 Identify the person slug and draft path.
 
 - If the user provides a path, use it directly.
 - If the user provides a person slug, resolve it to `src/blog/people/drafts/[Person-Name].md`.
-- If the current draft is obvious from context, use that.
+- If the user says `current draft`, only proceed if the context makes the target unambiguous.
 
-### Step 2: Run Preflight
+### Step 2: Read and Validate `production_pretext`
 
-Read the draft and verify:
+Read the draft frontmatter and verify:
 
-- Required frontmatter exists
-- The file appears finalized enough for handoff
-- `content_quality` does not indicate an obviously below-threshold draft, unless the user explicitly wants to continue anyway
+- `production_pretext` exists
+- `status: ready`
+- `reviewed: true`
+- `ready_for_production: true`
+- `handoff_from: blog_content_creator_people`
+- `sync_mode: full`
 
-If the draft still needs substantive writing work, stop and say it should go back through `blog_content_creator_people` first.
+If validation fails, stop and say the draft needs to go back through `blog_content_creator_people` for proper handoff state.
 
-### Step 3: Sync the Draft
+### Step 3: Mark Production In Progress
 
-Use the safest applicable command:
+Before running operational commands, update the draft frontmatter:
 
-1. Try `node scripts/personBlogParser.js --changed [Person-Name]`
-2. If there are no changed draft files, use `node scripts/personBlogParser.js [Person-Name]`
+- `production_pretext.status: in_progress`
+- `production_pretext.last_attempted_at: 'YYYY-MM-DD'`
+- `production_pretext.blockers: []`
 
-### Step 4: Verify the Row
+### Step 4: Run Content Sync
 
-Run the verification query and confirm:
+Use:
 
-- `person`
-- `title`
-- `meta_title`
-- `lastmod`
-- `published`
-- `enneagram`
-- `persona_title`
+1. `node scripts/personBlogParser.js --changed [Person-Name]`
+2. If needed, fallback to `node scripts/personBlogParser.js [Person-Name]`
 
-### Step 5: Check Images
+If sync fails:
 
-Check whether the expected full-size and thumbnail image files exist for the person's type and slug.
+- Set `production_pretext.status: blocked`
+- Set `production_pretext.db_sync: blocked`
+- Add a clear blocker reason
+- Stop
+
+If sync succeeds:
+
+- Set `production_pretext.db_sync: success`
+
+### Step 5: Verify the Database Row
+
+Run the verification query.
+
+If verification fails:
+
+- Set `production_pretext.status: blocked`
+- Set `production_pretext.db_verify: blocked`
+- Add a blocker reason
+- Stop
+
+If verification succeeds:
+
+- Set `production_pretext.db_verify: success`
 
 ### Step 6: Regenerate Listings
 
-Run `node scripts/generate-famous-types.js`.
+Run:
 
-### Step 7: Report Production Status
+```bash
+node scripts/generate-famous-types.js
+```
+
+If it succeeds:
+
+- Set `production_pretext.regenerate_famous_types: success`
+
+If it fails:
+
+- Set `production_pretext.status: blocked`
+- Set `production_pretext.regenerate_famous_types: blocked`
+- Add a blocker reason
+- Stop
+
+### Step 7: Check Images
+
+Check the expected full-size and thumbnail image files.
+
+If both exist:
+
+- Set `production_pretext.image_check: success`
+- Set `production_pretext.image_full: present`
+- Set `production_pretext.image_thumbnail: present`
+- Set `production_pretext.status: completed`
+- Set `production_pretext.ready_for_production: false`
+- Set `production_pretext.last_completed_at: 'YYYY-MM-DD'`
+
+If either is missing:
+
+- Set `production_pretext.status: blocked`
+- Set `production_pretext.image_check: blocked`
+- Set `production_pretext.image_full` and `production_pretext.image_thumbnail` to `present` or `missing`
+- Add missing asset names to `blockers`
+- Set `production_pretext.ready_for_production: false`
+
+### Step 8: Report the Result
 
 Report:
 
-- Draft synced successfully or not
-- Verified DB values
-- Whether `famousTypes.ts` was regenerated successfully
-- Which image files exist or are missing
-- Any remaining production follow-up needed
+- The draft path
+- The verified DB status
+- Whether `famousTypes.ts` regenerated successfully
+- The final `production_pretext.status`
+- Any blockers still outstanding
 
 Use this format:
 
@@ -281,36 +440,14 @@ Database sync: success/failure
 Verified published value: true/false
 Verified lastmod: YYYY-MM-DD
 Listings regenerated: yes/no
+Production pretext status: completed/blocked
 Image status:
 - full: present/missing
 - thumbnail: present/missing
 
-Next steps:
-- [Any remaining follow-up]
+Blockers:
+- [Any remaining blocker]
 ```
-
----
-
-## Workflow: Batch Changed Drafts
-
-Use this when the user explicitly asks to sync all changed people drafts.
-
-1. Run `node scripts/personBlogParser.js --changed`
-2. Summarize which drafts were processed
-3. Run `node scripts/generate-famous-types.js`
-4. Report any obvious failures from script output
-
-If batch image checking would be noisy, summarize only the production sync and note that image follow-up may still be required per person.
-
----
-
-## Workflow: Grades Only
-
-Use this only when the user explicitly wants to sync grading without syncing content.
-
-1. Single person: `node scripts/personBlogParser.js --grades-only [Person-Name]`
-2. Batch changed: `node scripts/personBlogParser.js --grades-only --changed`
-3. Report which rows were updated or skipped
 
 ---
 

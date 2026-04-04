@@ -71,14 +71,23 @@ Kai-Cenat
 Xi-Jinping
 
 Kyle-Forgeard
-Kate-Hudson
+Hilary-Duff
 Samuel-L-Jackson
+Jon-Bernthal
+Tfue
+Patrick-Bet-David
+Oscar-Isaac
+Olivia-Munn
 
-Act like a normal person who is reading this article and tell me what i missed or what i should expand on or what was overdone or duplicate info that could be trimmed. Review the Kate-Hudson blog, read it and put your comments as a comment at the bottom of the article
+Daniel-Day-Lewis
+Hailey-Bieber
+Jennifer-Lopez
 
-Ok so i added some comments at the bottom of the article Samuel-L-Jackson, please assess the comments and see if we should add some more or address some parts based on that feedback. Do more research as needed and make the blog better. Also trim things that are overdone or duplicated so that everything is fresh and well done.
+Act like a normal person who is reading this article and tell me what i missed or what i should expand on or what was overdone or duplicate info that could be trimmed. Review the Jennifer-Lopez blog, read it and put your comments as a comment at the bottom of the article
 
-I want you to edit this blog on Sam-Parr and use the content-editor agent doc to guide you.
+Ok so i added some comments at the bottom of the article Jennifer-Lopez, please assess the comments and see if we should add some more or address some parts based on that feedback. Do more research as needed and make the blog better. Also trim things that are overdone or duplicated so that everything is fresh and well done.
+
+I want you to edit this blog on Patrick-Bet-David and use the content-editor agent doc to guide you.
 
 Act like a normal person who is reading these articles and tell me what i missed or what i should expand on or what was overdone or duplicate info that could be trimmed. Review the blogs, read it and put your comments as a comment at the bottom of each article, also tell me how they fit together
 

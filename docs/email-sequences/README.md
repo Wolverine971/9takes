@@ -1,4 +1,5 @@
 <!-- docs/email-sequences/README.md -->
+
 # Email Sequences
 
 All documentation related to automated email sequences for 9takes.

@@ -19,7 +19,27 @@ twitter: '@KendallJenner'
 instagram: '@kendalljenner'
 tiktok: '@kendalljenner'
 path: src/blog/people/drafts/Kendall-Jenner.md
+content_quality:
+  hook: 9
+  enneagram: 9
+  evidence: 8
+  writing: 9
+  originality: 9
+  overall: 8.8
+  letter: B+
+  graded_at: '2026-04-03'
 ---
+
+<!-- QUALITY GRADE: B+ (8.8)
+Hook: 9 | Enneagram: 9 | Evidence: 8 | Writing: 9 | Originality: 9
+
+FEEDBACK (2026-04-03):
+- STRONG HOOK: The panic-attack-to-plane juxtaposition is immediately compelling, and "It's a security system" is a thesis statement that earns the rest of the piece.
+- SIGNATURE DETAIL: The word-level analysis of "She lets me call her dad" — parsing lets/permission/negotiation — is the moment the entire Type 6 analysis crystallizes. Best section in the piece.
+- AHA MOMENT: The Kylie jealousy insight ("envy of someone who could simply let go without the alarm system going off") is the kind of non-obvious Enneagram application that separates good from great.
+- NEEDS WORK: Evidence attribution — "she told another interviewer" and "she said later" are vague. Pin these to specific outlets/dates to push sourcing from 8 to 9.
+- TO REACH A: (1) Source the 2-3 vaguely attributed quotes to specific interviews/dates. (2) Add 1-2 fashion industry collaborator quotes (photographer, designer, casting director) to complement family testimony. (3) The acne/Proactiv paragraph is the weakest section — it reads more like tabloid recap than character analysis. Either sharpen the Type 6 lens on it (what does the exposure-always-costs-more insight actually reveal about her security architecture?) or trim it.
+-->
 
 > "I've had times where I feel like I need to be rushed to the hospital because I think my heart's failing and I can't breathe and I need someone to help me. Sometimes I think I'm dying."
 

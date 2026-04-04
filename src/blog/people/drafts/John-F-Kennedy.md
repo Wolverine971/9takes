@@ -1,12 +1,12 @@
 ---
 title: "John F. Kennedy: The Hidden Pain Behind America's Most Charismatic President"
-meta_title: 'JFK Was Injected 6 Times a Day Just to Function | The Psychology Behind Camelot'
+meta_title: 'Why Was JFK So Charismatic? Pain, Power, and Camelot'
 persona_title: "Camelot's Graceful Fugitive"
 description: 'JFK projected vitality while living in constant agony. How his Enneagram Type 7 psychology shaped Camelot, the Cold War, and his unknowable private self.'
 author: 'DJ Wayne'
 date: '2024-07-10'
 loc: 'https://9takes.com/personality-analysis/John-F-Kennedy'
-lastmod: '2026-04-01'
+lastmod: '2026-04-03'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
@@ -57,7 +57,7 @@ The gap between what Kennedy endured and what Kennedy performed is not a footnot
 
 ---
 
-## The Boy They Were Measuring for a Coffin
+## JFK's Childhood Illness and Early Brush With Death
 
 At two years old, Jack Kennedy nearly died of scarlet fever. Then came whooping cough, measles, chicken pox, and chronic digestive problems that would plague him into adulthood. He spent so much of his childhood in hospitals that he later joked about his medical chart at Harvard: **"Took a peek at my chart yesterday and could see that they were mentally measuring me for a coffin."**
 
@@ -79,7 +79,7 @@ But the smile. The smile worked. It always worked. And he learned that lesson ea
 
 ---
 
-## "Now the Burden Falls on Me"
+## How Joe Kennedy Shaped JFK
 
 Joe Kennedy Jr. was supposed to be president. He'd announced it as a boy, and nobody doubted him. He was the golden son: handsome, disciplined, the one Joe Sr. had groomed from birth.
 
@@ -129,7 +129,7 @@ Every joke is a door closing on something real. He nearly died in the Pacific. H
 
 ---
 
-## The Performer Who Preferred His Book
+## Why JFK Seemed Effortless in Public
 
 Here is the fact that breaks the Camelot myth wide open: John F. Kennedy was an introvert.
 
@@ -159,7 +159,7 @@ But only one.
 
 ---
 
-## "Grace Under Pressure": The Pharmaceutical Kind
+## JFK's Hidden Pain and Daily Injections
 
 The full medical reality of John F. Kennedy is almost incomprehensible.
 
@@ -192,7 +192,7 @@ He wrote that sentence as autobiography.
 
 ---
 
-## "He Just Beat the Hell Out of Me"
+## How JFK Handled Public Humiliation
 
 In June 1961, Kennedy met Khrushchev in Vienna. He expected a diplomatic exchange between nuclear powers. He got a mauling.
 
@@ -208,7 +208,7 @@ But it also built something. The humiliation drove Kennedy to manage every subse
 
 ---
 
-## Thirteen Days
+## How JFK Handled the Cuban Missile Crisis
 
 On October 16, 1962, Kennedy was shown aerial photographs of Soviet nuclear missiles in Cuba, ninety miles from Florida. His initial instinct, captured on the White House tapes: **"I don't think we ought to abandon just knocking out these missile bases."** He was ready to bomb.
 
@@ -230,7 +230,7 @@ He got through it.
 
 ---
 
-## "A Deep Black Hole"
+## JFK and Jackie: The Marriage Behind Camelot
 
 **"My marriage was like a deep black hole and I knew if I looked down, I'd fall in."**
 
@@ -252,7 +252,7 @@ The marriage was not loveless. By every account, they were genuinely attached. I
 
 ---
 
-## "I Have a Rendezvous with Death"
+## Why JFK Kept Talking About Death
 
 Kennedy's favorite poem was Alan Seeger's "I Have a Rendezvous with Death." He recited it frequently. Jackie said he was especially drawn to the lines about not failing that rendezvous.
 

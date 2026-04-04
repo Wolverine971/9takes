@@ -1,0 +1,20 @@
+{
+	"pause": false,
+	"reason": null,
+	"pausedBy": null,
+	"pausedAt": null,
+	"resumeAt": null,
+	"forceNext": null,
+	"rateLimit": {
+		"maxPerWeek": 5,
+		"currentWeekCount": 0,
+		"weekStartDate": "2026-04-03"
+	},
+	"notifications": {
+		"enabled": true,
+		"channels": ["telegram"],
+		"onSuccess": true,
+		"onFailure": true,
+		"onPause": true
+	}
+}

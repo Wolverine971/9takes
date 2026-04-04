@@ -358,7 +358,7 @@ The blog renders in `/personality-analysis/[slug]/+page.svelte` which **ALREADY 
 ```markdown
 ---
 title: 'Person Name: Enneagram Analysis Title'
-description: 'Meta description under 155 chars'
+description: 'Meta description, ideally 150-160 chars, problem/question first'
 author: 'DJ Wayne'
 date: 'YYYY-MM-DD'
 ... (other frontmatter)
@@ -417,6 +417,8 @@ The 9takes celebrity blog system uses THREE title fields. Strategy: "Clickbait t
 
 - Used for search results, social sharing, and browser tabs
 - Problem-focused, curiosity-inducing, optimized for CTR
+- Target **50-60 characters** when possible; **65 max**
+- Should name a real question, tension, or behavior people would plausibly search
 - Example: "Inside Elon Musk's Mind: Why He Can't Stop Taking Risks"
 
 ### 3. `persona_title` (Archetype Label)
@@ -568,11 +570,47 @@ Must use `First-Last` format matching the `person` field: `suggestions: ['Taylor
 
 For draft-writing purposes, keep `published: false` unless the user explicitly tells you otherwise. This command does not make publication decisions.
 
+### `production_pretext` Field (REQUIRED HANDOFF STATE)
+
+Use `production_pretext` to carry durable state from the writing workflow into the production workflow.
+
+**Initialize every new or materially revised draft like this:**
+
+```yaml
+production_pretext:
+  status: draft
+  handoff_from: blog_content_creator_people
+  reviewed: false
+  ready_for_production: false
+  sync_mode: full
+  requires:
+    - db_sync
+    - db_verify
+    - regenerate_famous_types
+    - image_check
+  blockers: []
+```
+
+**Status meanings:**
+
+- `draft` — writing/revision is still in progress; production should not run
+- `ready` — the user has reviewed and approved the draft; production can run next
+- `in_progress` — production is currently running
+- `completed` — production finished with no blockers
+- `blocked` — production ran but follow-up is still required
+
+**Rules:**
+
+- On first save, set `status: draft`.
+- If you make substantive edits after a draft was previously approved, reset it to `draft`, `reviewed: false`, and `ready_for_production: false`.
+- Once the user reviews and approves the draft, update it to `status: ready`, `reviewed: true`, and `ready_for_production: true`.
+- After approval, the next step is `blog_content_production_people`.
+
 ---
 
 ## Production Handoff (Out of Scope Here)
 
-This command stops at a strong draft. After the user reviews and approves that draft, run `blog_content_production_people` before anything is published or pushed through the production workflow.
+This command stops at a strong draft. The durable handoff artifact is the draft's `production_pretext` block. After the user reviews and approves the draft, update `production_pretext.status` to `ready` and then run `blog_content_production_people` before anything is published or pushed through the production workflow.
 
 ---
 
@@ -715,6 +753,7 @@ Use `/docs/blogs-famous-people/writing-prompt-1.md` as a starting framework, not
 - Major accomplishments
 - Challenges, controversies, or traumas
 - Legacy and current work
+- No visible FAQ section at the end of the reader-facing article
 - Strong ending that cuts to black at peak insight (NO summary, NO CTA)
 
 **How to tailor the structure:**
@@ -725,6 +764,32 @@ Use `/docs/blogs-famous-people/writing-prompt-1.md` as a starting framework, not
 - **Let the research dictate the narrative arc.** After completing Steps 1-3, you should have a clear sense of what the most interesting "through line" is for this person. Build the blog around that through line, not around a generic template.
 
 **The test:** If you swapped out the person's name and the sections still made sense for any celebrity, the structure is too generic. Restructure until the blog could only be about this person.
+
+**Heading strategy: rich + searchable (CRITICAL):**
+
+- Do **not** choose between "SEO headings" and "good headings." The draft needs both.
+- Keep the required type section exactly once: H2 `What is [Person]'s personality type?` and H3 `[Person] is an Enneagram Type X`.
+- Outside that section, aim for a **mixed heading set**:
+  - **1-2 signature/story headings** that feel vivid and specific to the person
+  - **2-3 search-intent headings** that mirror what a reader might actually search
+  - the rest can be hybrids that carry both story and topic
+- Search-intent headings should sound like real queries or recognizable topics:
+  - `Why [Person] ...`
+  - `How [Person] ...`
+  - `[Person]'s childhood ...`
+  - `[Person] and [topic]`
+- Do **not** let the whole draft turn into category-template headings like `Upbringing`, `Rise to Fame`, `Controversies`, `Personality Quirks`.
+- Do **not** let the whole draft turn into opaque magazine headings like `The Wiring`, `The Empty Desk`, or `The Mask` unless the topic is made explicit.
+- If a vivid heading is too cryptic, **add the topic back into it** instead of flattening it. Good:
+  - `The Empty Desk That Still Drives IShowSpeed`
+  - `Why Jennifer Lopez Seems So Demanding`
+  - `How Hailey Bieber Turned Pressure Into Rhode`
+
+**FAQ handling (SEO, but not reader-facing):**
+
+- Do **not** add a visible `## FAQs About [Person]'s Personality` block to the bottom of the article.
+- If FAQ coverage is useful for SEO, put it in structured data / JSON-LD only when the publishing layer supports it.
+- The article body should stay focused on narrative quality, not appended search filler.
 
 **The intro's job:**
 The first 3-5 paragraphs must accomplish three things: (1) hook with a specific, vivid detail or quote, (2) name or strongly imply the core tension, and (3) create a psychological question the reader needs answered. By the end of the intro, the reader should feel "I need to understand this person." Compare: Chappell Roan's intro names the tension (fortress vs. vulnerability) and ends with "That tension... is what makes Chappell Roan one of the most psychologically interesting artists of her generation." The reader has a question now. Avoid intros that ask rhetorical questions and immediately answer them — that kills the tension.
@@ -802,7 +867,7 @@ Generate frontmatter following the Triple-Title System (see Part 1):
 title: '[Person Name]: [Evergreen Enneagram Analysis Title]'
 meta_title: '[Clickbait/Problem-Focused Title for SEO]'
 persona_title: '[Domain]s [Type-Allusive Descriptor]'
-description: '[SEO-optimized meta description under 155 chars]'
+description: '[SEO-optimized meta description, ideally 150-160 chars, problem/question first]'
 author: 'DJ Wayne'
 date: '[YYYY-MM-DD]'
 loc: 'https://9takes.com/personality-analysis/[Person-Name]'
@@ -818,6 +883,18 @@ wikipedia: '[URL if available]'
 twitter: '[handle if available]'
 instagram: '[handle if available]'
 tiktok: '[handle if available]'
+production_pretext:
+  status: draft
+  handoff_from: blog_content_creator_people
+  reviewed: false
+  ready_for_production: false
+  sync_mode: full
+  requires:
+    - db_sync
+    - db_verify
+    - regenerate_famous_types
+    - image_check
+  blockers: []
 ---
 ```
 
@@ -840,6 +917,8 @@ content_quality:
 
 Save draft to `/src/blog/people/drafts/[Person-Name].md`.
 
+Initialize `production_pretext` with `status: draft`. This draft is not ready for production yet.
+
 Then add internal links following the **Internal Linking Rules** in Part 1.
 
 Present to user:
@@ -856,13 +935,39 @@ Internal links added (X total):
 Options:
 1. Make specific edits (tell me what to change)
 2. Regenerate specific sections
-3. Run `blog_content_production_people` for production handoff
+3. After review and approval, mark `production_pretext` as `ready` and run `blog_content_production_people`
 4. Continue editing later
 ```
 
 ### Step 9: Review and Refinement
 
-Allow iterative editing based on user feedback. Continue iterating until the user is satisfied with the draft. Once the user approves the reviewed draft, the next step is `blog_content_production_people` before publishing.
+Allow iterative editing based on user feedback. Continue iterating until the user is satisfied with the draft.
+
+**While iterating:**
+
+- If you make substantive changes, keep or reset `production_pretext.status` to `draft`.
+- Do not mark the draft ready for production while the user is still requesting edits.
+
+**When the user approves the reviewed draft:**
+
+Update the draft frontmatter to:
+
+```yaml
+production_pretext:
+  status: ready
+  handoff_from: blog_content_creator_people
+  reviewed: true
+  ready_for_production: true
+  sync_mode: full
+  requires:
+    - db_sync
+    - db_verify
+    - regenerate_famous_types
+    - image_check
+  blockers: []
+```
+
+Then tell the user the next step is `blog_content_production_people` before publishing.
 
 ## Workflow: Update Existing Draft
 
@@ -927,6 +1032,7 @@ Before finalizing the revised draft:
 - Re-run the Quality Checklist below
 - Update internal links if the body changed materially
 - Preserve any existing `content_quality` block unless you are intentionally re-grading
+- Reset `production_pretext` to `draft` if the revision changed the content materially and the draft had previously been marked `ready`, `completed`, or `blocked`
 - Save the revised file and summarize what changed for the user
 
 ---
@@ -963,11 +1069,14 @@ Before finalizing any blog (new or updated):
 - [ ] **Quote density**: Is the subject's voice (direct quotes) the dominant material? Or is most content paraphrased?
 - [ ] **Confidence**: Is the analysis confident? Or undermined by excessive "likely," "suggests," "appears to be"?
 - [ ] **Testimony**: Are there quotes from people around the subject (collaborators, friends, critics)?
-- [ ] **Section headings**: Are they person-specific ("The Tolkien Billionaire") or generic ("Personality Quirks")?
+- [ ] **Section headings**: Are they person-specific, and do at least 2-3 of them also carry obvious search intent?
+- [ ] **Heading balance**: Did you avoid both failure modes — bland template headings and overly cryptic magazine headings?
 
 ### Technical
 
 - [ ] Are there 2-5 internal links, properly formatted (HTML in HTML blocks, markdown elsewhere)?
+- [ ] Did you avoid adding a visible FAQ section to the bottom of the article?
+- [ ] Does `meta_title` land around 50-60 characters and `description` around 145-160 characters?
 - [ ] Does the frontmatter have all three titles, valid `type`, and 4 `suggestions`?
 
 ---

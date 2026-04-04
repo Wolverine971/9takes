@@ -18,17 +18,29 @@ wikipedia: 'https://en.wikipedia.org/wiki/Nelk'
 twitter: 'https://twitter.com/kaborForgeard'
 instagram: 'https://instagram.com/kyle'
 tiktok: 'https://tiktok.com/@kyleforgeard'
+path: src/blog/people/drafts/Kyle-Forgeard.md
 content_quality:
   hook: 8.5
-  enneagram: 9.0
-  evidence: 7.5
-  writing: 9.0
+  enneagram: 9
+  evidence: 8.5
+  writing: 8.5
   originality: 8.5
-  overall: 8.5
+  overall: 8.6
   letter: 'B+'
   graded_at: '2026-04-03'
-path: src/blog/people/drafts/Kyle-Forgeard.md
 ---
+
+<!-- QUALITY GRADE: B+ (8.6)
+Hook: 8.5 | Enneagram: 9 | Evidence: 8.5 | Writing: 8.5 | Originality: 8.5
+
+FEEDBACK (2026-04-03):
+- STRONG: The Enneagram integration is the standout dimension. "Reach exceeds depth" as the Seven's central tension resolves why the empire keeps producing casualties — NFT over-promises, Netanyahu unpreparedness, co-founders departing. The framework does genuine analytical work.
+- STRONG: "Full stay. Full endure. Full confront." — inverting "Full Send" during the ultramarathon section is a signature detail that crystallizes the Type 7 integration thesis.
+- STRONG: Jesse's departure is handled as a character foil rather than gossip — "He chose Sunday over Full Send" is a memorable line that deepens the analysis of Kyle by contrast.
+- NEEDS WORK: Opening quote ("I need to make a change...") is generic self-help language. The liver-at-2/10 detail in paragraph 2 is the actual hook. Consider leading with the medical specifics or a more surprising quote.
+- NEEDS WORK: The business metrics in the "What YouTube Demonetization Built" section read slightly report-like — $30M/30min, $70M annual, $100M revenue, 224M cans, $250-300M valuation is a lot of numbers in quick succession. Integrate into narrative or trim.
+- TO REACH A (9.0): (1) Rewrite the opening — lead with the liver detail or a more surprising quote, not the generic health epiphany line. (2) Tighten the business metrics section — pick the 2-3 most revealing numbers and weave them into story. (3) The "Man Off Camera" section's speculation about romantic life ("relationships require sitting still") is insightful but slightly hedged — commit to the observation or cut it. (4) The Drake/ultramarathon digression about 416 vs 905 area codes is interesting but breaks momentum mid-run.
+-->
 
 > "I need to make a change or I'm not going to last. Everything I'm doing is going to be for nothing if I don't have my mental health and my physical health."
 

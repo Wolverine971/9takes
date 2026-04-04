@@ -19,7 +19,28 @@ twitter: ''
 instagram: ''
 tiktok: ''
 path: src/blog/people/drafts/John-Lennon.md
+content_quality:
+  hook: 9
+  enneagram: 9
+  evidence: 9
+  writing: 9
+  originality: 9
+  overall: 9.0
+  letter: A
+  graded_at: '2026-04-03'
 ---
+
+<!-- QUALITY GRADE: A (9.0)
+Hook: 9 | Enneagram: 9 | Evidence: 9 | Writing: 9 | Originality: 9
+
+FEEDBACK (2026-04-03):
+- EXCEPTIONAL HOOK: The glasses detail — choosing near-blindness over the appearance of weakness — is a signature opening. It tells the reader something specific and surprising that reframes everything that follows. "That single detail tells you more about John Lennon than any peace anthem" is confident framing that earns its claim.
+- ENNEAGRAM AS ENGINE: The piece resolves the central contradiction (peace prophet / violent man) through the Type 4 wound rather than bolting the type on afterward. "The peace movement wasn't despite the violence. It was because of it" is the genuine aha moment. The growth direction mapped to bread-baking is an original observation.
+- DEVASTATING STRUCTURAL DETAIL: "It could also be Mother" — from a man who lost his mother twice — is used as the key that unlocks the Yoko section. The abandonment symmetry (abandoned at 5, abandoned Julian at 5) is explored with precision that borders on unbearable. These are the kinds of details that make the analysis un-swappable.
+- ENDING: "He was still reaching when the last box was checked for him. Ten steps from the door. The kitchen where the bread was rising." Cuts to black at peak insight. No summary, no CTA. Exactly right.
+- MINOR: The "What is John Lennon's Personality Type?" H2 with explicit bullet-point evidence list is the one section that reads more like a report than narrative. Consider weaving 1-2 of those bullets into the surrounding sections and trimming the list. This is a minor structural note — the content itself is strong.
+- TO REACH A+: (1) The evidence list under "What is John Lennon's Personality Type?" could be more narratively integrated rather than bullet-pointed. (2) One more piece of lesser-known testimony — perhaps from a studio engineer or a childhood friend — would push evidence from excellent to definitive. (3) The "Bread and Babies" section, while strong, could benefit from one more specific domestic detail to match the vividness of the glasses opening.
+-->
 
 > "I am a violent man who has learned not to be violent and regrets his violence."
 

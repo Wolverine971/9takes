@@ -1,12 +1,12 @@
 ---
 title: "Timothée Chalamet: The Actor Who Doesn't Trust His Own Talent"
-meta_title: 'Why Timothée Chalamet Over-Prepares for Everything (Type 6 Psychology)'
-description: "Inside the Type 6 psychology that turns Timothée Chalamet's anxiety into art—why his fear of failure makes him Hollywood's most committed actor."
+meta_title: 'Why Timothée Chalamet Over-Prepares for Every Role'
+description: 'Why does Timothée Chalamet over-prepare for every role and public moment? We decode the Type 6 drive behind the anxiety, ambition, and need for trusted anchors.'
 persona_title: 'The Prodigy Who Needs Protecting'
 author: 'DJ Wayne'
 date: '2024-07-03'
 loc: 'https://9takes.com/personality-analysis/Timothee-Chalamet'
-lastmod: '2026-02-18'
+lastmod: '2026-04-03'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
@@ -68,7 +68,7 @@ That's [Type 6](/enneagram-corner/enneagram-type-6) psychology running at full t
 </div>
 </details>
 
-## The Building That Made Him Scared
+## Timothée Chalamet's Childhood in Manhattan Plaza
 
 Before Hollywood, Timothée Chalamet was a kid in Manhattan Plaza — a federally subsidized 46-story complex in Hell's Kitchen nicknamed "Broadway's Bedroom." The building housed Alicia Keys, Samuel L. Jackson, Angela Lansbury, Tennessee Williams. Larry David's neighbor — the inspiration for Seinfeld's Kramer — lived next door to the Chalamets.
 
@@ -100,7 +100,11 @@ When _Call Me By Your Name_ catapulted him to international stardom at 21, most 
 
 When the external world becomes unfamiliar, he reaches for the familiar anchor. Like [Bob Dylan](/personality-analysis/Bob-Dylan) — another suspected Type 6 who retreated to Woodstock after his explosive fame — Chalamet sought refuge in the people he already trusted.
 
-## Why Not Type 3 or Type 4?
+## What is Timothée Chalamet's personality type?
+
+### Timothée Chalamet is an Enneagram Type 6
+
+### Why Not Type 3 or Type 4?
 
 **The case for Type 3** (The Achiever) seems obvious. The SAG speech. The "pursuit of greatness." The comparisons to Michael Jordan and Michael Phelps. The Warner Bros. first-look deal. Nearly a billion dollars in 2024 box office. The self-assessment: "This is really some top-level shit... I don't want people to take it for granted."
 
@@ -116,7 +120,7 @@ Chalamet does the opposite. He over-prepares precisely because he doesn't trust 
 
 The distinguishing evidence is Villeneuve's observation: he saw "a young adult whose identity was not solidified" who "needed to be protected." Type 3s arrive with identity fully formed — constructed, but solid. Type 4s arrive knowing exactly who they are — painful, but certain. Chalamet arrived still looking for someone to tell him he belonged.
 
-## Preparation as Prayer
+## How Timothée Chalamet Over-Prepares for Roles
 
 What separates Chalamet isn't talent — it's obsessive preparation that talent alone can never explain.
 
@@ -182,7 +186,7 @@ This oscillation — bold declaration, public backlash, immediate qualification 
 
 "I don't want to look back on life and career and go, 'I pretended to care less about this than I did,'" he told The Curb. That sentence contains the entire conflict. He's afraid of hiding his ambition _and_ afraid of showing it.
 
-## Kylie Jenner: Loyalty as Architecture
+## Timothée Chalamet and Kylie Jenner
 
 Since April 2023, Chalamet has been in a relationship with [Kylie Jenner](/personality-analysis/Kylie-Jenner). The tabloid details are everywhere. The psychological pattern underneath them is more revealing.
 
@@ -212,7 +216,7 @@ In Chalamet's own words: "When you really release yourself of the responsibility
 
 That's someone who has done enough work to occasionally — not permanently, but occasionally — set the vigilance down.
 
-## The Question He Can't Stop Asking
+## Why Timothée Chalamet Still Doubts Himself
 
 Late in his _Marty Supreme_ press tour — after the SAG win, the billion-dollar box office, being called "the rarest of species: a bankable leading man" — Chalamet said something quietly devastating to The Curb:
 

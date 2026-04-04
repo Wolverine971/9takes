@@ -2,6 +2,7 @@
 import type { PageServerLoad } from './$types';
 import { error, redirect } from '@sveltejs/kit';
 import type { AnalyticsScope } from '$lib/analytics/pageAnalytics';
+import { attachAnalyticsLastModified } from '$lib/server/analyticsPageLastModified';
 
 interface AnalyticsOverview {
 	total_visits: number;
@@ -211,8 +212,9 @@ export const load: PageServerLoad = async (event) => {
 		bounce_rate: toNumber(row.bounce_rate),
 		total_rows: toNumber(row.total_rows)
 	}));
+	const rowsWithLastModified = await attachAnalyticsLastModified(supabase, rows);
 
-	const totalRows = rows.length > 0 ? rows[0].total_rows : 0;
+	const totalRows = rowsWithLastModified.length > 0 ? rowsWithLastModified[0].total_rows : 0;
 	const normalizeTopRows = (input: Array<Record<string, unknown>>) =>
 		input.map((row) => ({
 			path: String(row.path ?? ''),
@@ -264,7 +266,7 @@ export const load: PageServerLoad = async (event) => {
 				monthTo: toDate
 			}
 		},
-		rows,
+		rows: rowsWithLastModified,
 		pagination: {
 			total: totalRows,
 			page: 1,

@@ -44,6 +44,7 @@
 
 	interface PageRow extends PageSummaryRow {
 		total_rows: number;
+		last_modified_at: string | null;
 	}
 
 	interface PaginationState {
@@ -814,6 +815,29 @@
 		if (!Number.isFinite(value)) return '0.00%';
 		return `${value.toFixed(2)}%`;
 	}
+
+	function formatLastModified(value: string | null): string {
+		if (!value) return '—';
+
+		const date = new Date(value);
+		if (Number.isNaN(date.getTime())) return value;
+
+		if (value.includes('T')) {
+			return date.toLocaleString(undefined, {
+				year: 'numeric',
+				month: 'short',
+				day: 'numeric',
+				hour: 'numeric',
+				minute: '2-digit'
+			});
+		}
+
+		return date.toLocaleDateString(undefined, {
+			year: 'numeric',
+			month: 'short',
+			day: 'numeric'
+		});
+	}
 </script>
 
 <div class="analytics-page">
@@ -1156,16 +1180,17 @@
 								</button>
 							</th>
 						{/each}
+						<th>Last Modified</th>
 					</tr>
 				</thead>
 				<tbody>
 					{#if tableLoading}
 						<tr>
-							<td colspan="10" class="empty">Loading...</td>
+							<td colspan="11" class="empty">Loading...</td>
 						</tr>
 					{:else if rows.length === 0}
 						<tr>
-							<td colspan="10" class="empty">No data for this filter set.</td>
+							<td colspan="11" class="empty">No data for this filter set.</td>
 						</tr>
 					{:else}
 						{#each rows as row}
@@ -1189,6 +1214,15 @@
 								<td class="num">{formatDurationMs(row.avg_time_on_page_ms)}</td>
 								<td class="num">{formatDurationMs(row.median_time_on_page_ms)}</td>
 								<td class="num">{formatBounceRate(row.bounce_rate)}</td>
+								<td>
+									{#if row.last_modified_at}
+										<time datetime={row.last_modified_at}>
+											{formatLastModified(row.last_modified_at)}
+										</time>
+									{:else}
+										—
+									{/if}
+								</td>
 							</tr>
 						{/each}
 					{/if}

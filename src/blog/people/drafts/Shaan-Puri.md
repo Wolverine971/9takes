@@ -1,12 +1,12 @@
 ---
 title: 'Shaan Puri: Brilliant at Starting Chapters, Never Finishing the Book'
-meta_title: 'Why Shaan Puri Is an Enneagram Type 7 (The Pattern Behind Every Reinvention)'
+meta_title: 'Why Shaan Puri Keeps Reinventing His Life and Career'
 persona_title: 'The Restless Showman'
-description: "Shaan Puri sold Bebo to Twitch, flipped the Milk Road in 10 months, and co-hosts My First Million. His Enneagram 7 wiring explains why he can't stop reinventing."
+description: 'Why does Shaan Puri keep reinventing his life? We decode the Type 7 drive behind the startups, My First Million, restlessness, and fear of settling.'
 author: 'DJ Wayne'
 date: '2026-02-26'
 loc: 'https://9takes.com/personality-analysis/Shaan-Puri'
-lastmod: '2026-03-27'
+lastmod: '2026-04-03'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
@@ -44,7 +44,7 @@ What happens when you're brilliant at starting new chapters but you've never fin
 </div>
 </details>
 
-## Nine Countries, Duke, and a Sushi Restaurant That Taught Him to Fail
+## Shaan Puri's Childhood Across Nine Countries
 
 By the time Shaan Puri finished high school, he'd lived in nine countries. Started in Texas, finished in China, with Australia in between. His father ("incredibly inspiring," Shaan would later write) moved the family for work. His mother guided him to "walk on the right path." The family was warm, close, and conventional in ways that would later feel constraining.
 
@@ -58,7 +58,7 @@ Then he and two Duke friends started Sabi Sushi, "the Chipotle of sushi." Custom
 
 "The company didn't work out, but I had amazing sushi every day for lunch," he'd later write. That's the public version. The private one: "At the time, I felt like I was striking out. Over and over again."
 
-## A Decade of Being "B+" at Startups
+## Why Shaan Puri Spent a Decade Feeling "B+"
 
 After the sushi restaurant closed, Shaan moved to San Francisco at 24 with no job and no contacts. He skipped resumes entirely, researched the portfolio companies of Michael Birch (founder of Bebo, sold to AOL for $850 million), and cold-emailed ideas for improving them. Birch hired him into Monkey Inferno, his startup studio. Six months later, Shaan was CEO of the 20-person company.
 
@@ -116,7 +116,7 @@ After working with Robbins, his emotional home moved from "stressed and anxious"
 
 He means it. He just needs a framework to get there.
 
-## The Milk Road, Bums & Roses, and Two Speeds of Shaan Puri
+## How Shaan Puri Built Milk Road and Bums & Roses
 
 The Milk Road is the purest expression of how Shaan Puri operates at speed.
 
@@ -154,7 +154,7 @@ Shaan has described Sam as someone openly and generously enthusiastic about othe
 
 What the partnership reveals about Shaan matters more than what it produces. His longest commitment is a relationship with someone whose temperament is the exact opposite of his own. The Seven who can't stop moving found a reason to stay in the same room, every week, for seven years.
 
-## The One Part of His Life He Can't Reverse-Engineer
+## The Relationship Shaan Puri Still Can't Solve
 
 At 35, Shaan wrote an essay called "Don't Be an Asshole, Call Your Mom."
 
@@ -180,7 +180,7 @@ There's a poster above his desk: "Who am I becoming?" He's chosen those four Kin
 
 Even the poster is a Seven's question. Not "who am I," which would require sitting still long enough to find out. "Who am I becoming." In transit. Always the next version.
 
-## Coaching Basketball and Writing Books: Shaan Puri's Next Era
+## What Shaan Puri Wants in His Next Era
 
 In early 2025, Shaan Puri started coaching basketball at a local high school. Unpaid. Four days a week. Thirty-minute drive each way. Fifteen hours a week. He breaks down game film, helps players stay eligible, and applies the same framework he used as a CEO: identify three priorities and reinforce them until the 42nd repetition. "Reminders matter a hell of a lot more than some new strategy," he's said.
 
@@ -203,3 +203,5 @@ And nothing he wanted has really changed.
 Is the reinvention taking him somewhere, or has the reinvention itself become the destination? Does it matter, if the guy coaching teenagers for free at 37 is the same person who kept a stranger's line about the ordinary life not being for him?
 
 He's been carrying that line for sixteen years now. No framework. No system. No timer. Just a sentence from a stranger, held quietly while everything else kept changing.
+
+> **Disclaimer:** This analysis of Shaan Puri's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Shaan Puri.
