@@ -19,14 +19,14 @@ export const famousTypes: { [index: number]: { name: string; link: boolean; hasI
 		{ name: 'ruth-bader-ginsburg', link: true, hasImage: true, lastmod: '2023-07-16', personaTitle: 'The Dissenting Icon', contentGrade: null },
 		{ name: 'steve-jobs', link: true, hasImage: true, lastmod: '2026-03-28', personaTitle: 'Silicon Valley\'s Restless Perfectionist', contentGrade: 8.8 },
 		{ name: 'tim-cook', link: true, hasImage: true, lastmod: '2025-12-05', personaTitle: 'Apple\'s Moral Metronome', contentGrade: null },
+		{ name: 'tim-ferriss', link: true, hasImage: true, lastmod: '2026-04-03', personaTitle: 'Self-Help\'s Relentless Reformer', contentGrade: 8.9 },
 		{ name: 'james-clear', link: false, hasImage: false, lastmod: '2025-06-25', personaTitle: null, contentGrade: null },
 		{ name: 'james-dyson', link: false, hasImage: false, lastmod: '2026-03-28', personaTitle: 'Engineering\'s Relentless Reformer', contentGrade: 9 },
 		{ name: 'judge-judy', link: false, hasImage: false, lastmod: '2025-06-25', personaTitle: null, contentGrade: null },
 		{ name: 'lea-michele', link: false, hasImage: false, lastmod: '2025-06-25', personaTitle: null, contentGrade: null },
 		{ name: 'martha-stewart', link: false, hasImage: false, lastmod: '2025-06-25', personaTitle: null, contentGrade: null },
 		{ name: 'michael-seibel', link: false, hasImage: false, lastmod: '2026-03-28', personaTitle: 'Silicon Valley\'s Principled Gatekeeper', contentGrade: 8.8 },
-		{ name: 'peter-attia', link: false, hasImage: false, lastmod: '2025-06-25', personaTitle: null, contentGrade: null },
-		{ name: 'tim-ferriss', link: true, hasImage: false, lastmod: '2026-04-03', personaTitle: 'Self-Help\'s Relentless Reformer', contentGrade: 8.9 }
+		{ name: 'peter-attia', link: false, hasImage: false, lastmod: '2025-06-25', personaTitle: null, contentGrade: null }
 	],
 	2: [
 		{ name: 'dolly-parton', link: true, hasImage: true, lastmod: '2026-02-04', personaTitle: 'Country\'s Beloved Fairy Godmother', contentGrade: 8.1 },

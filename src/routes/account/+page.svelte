@@ -10,7 +10,6 @@
 		num: number;
 		name: string;
 		descriptor: string;
-		summary: string;
 		color: string;
 	}
 
@@ -41,63 +40,54 @@
 			num: 1,
 			name: 'Reformer',
 			descriptor: 'Structured, measured, and improvement-driven',
-			summary: 'Type 1 energy tends to sharpen standards and raise the quality bar around you.',
 			color: 'var(--type-1-color)'
 		},
 		{
 			num: 2,
 			name: 'Helper',
 			descriptor: 'Warm, relational, and quick to support',
-			summary: 'Type 2 energy brings attentiveness, generosity, and a people-first instinct.',
 			color: 'var(--type-2-color)'
 		},
 		{
 			num: 3,
 			name: 'Achiever',
 			descriptor: 'Driven, adaptive, and outcome-focused',
-			summary: 'Type 3 energy brings momentum, polish, and a bias toward making things happen.',
 			color: 'var(--type-3-color)'
 		},
 		{
 			num: 4,
 			name: 'Individualist',
 			descriptor: 'Expressive, nuanced, and emotionally precise',
-			summary: 'Type 4 energy brings originality, depth, and strong emotional texture.',
 			color: 'var(--type-4-color)'
 		},
 		{
 			num: 5,
 			name: 'Investigator',
 			descriptor: 'Analytical, reserved, and insight-oriented',
-			summary: 'Type 5 energy brings clarity, pattern recognition, and thoughtful distance.',
 			color: 'var(--type-5-color)'
 		},
 		{
 			num: 6,
 			name: 'Loyalist',
 			descriptor: 'Committed, vigilant, and team-minded',
-			summary: 'Type 6 energy brings steadiness, preparation, and a sharp read on risk.',
 			color: 'var(--type-6-color)'
 		},
 		{
 			num: 7,
 			name: 'Enthusiast',
 			descriptor: 'Upbeat, expansive, and possibility-driven',
-			summary: 'Type 7 energy brings optimism, momentum, and fast-moving curiosity.',
 			color: 'var(--type-7-color)'
 		},
 		{
 			num: 8,
 			name: 'Challenger',
 			descriptor: 'Direct, powerful, and action-first',
-			summary: 'Type 8 energy brings decisiveness, protection, and a willingness to press forward.',
 			color: 'var(--type-8-color)'
 		},
 		{
 			num: 9,
 			name: 'Peacemaker',
 			descriptor: 'Grounded, receptive, and harmony-oriented',
-			summary: 'Type 9 energy brings calm, integration, and a wide view of the room.',
 			color: 'var(--type-9-color)'
 		}
 	];
@@ -134,28 +124,6 @@
 			.trim();
 		return emailHandle ? toTitleCase(emailHandle) : 'Your Account';
 	});
-	let initials = $derived.by(() => {
-		const nameParts = [firstName.trim(), lastName.trim()].filter(Boolean);
-		if (nameParts.length > 0) {
-			return nameParts
-				.slice(0, 2)
-				.map((part) => part.charAt(0).toUpperCase())
-				.join('');
-		}
-
-		return userEmail.charAt(0).toUpperCase() || 'U';
-	});
-	let readinessItems = $derived.by(() => [
-		{ label: 'First name added', complete: firstName.trim().length > 0 },
-		{ label: 'Last name added', complete: lastName.trim().length > 0 },
-		{ label: 'Type selected', complete: enneagram.trim().length > 0 }
-	]);
-	let completedReadinessCount = $derived.by(
-		() => readinessItems.filter((item) => item.complete).length
-	);
-	let profileCompletion = $derived.by(() =>
-		Math.round((completedReadinessCount / readinessItems.length) * 100)
-	);
 	let formChanged = $derived.by(() => {
 		const normalizedFirstName = firstName.trim();
 		const normalizedLastName = lastName.trim();
@@ -168,15 +136,6 @@
 		);
 	});
 	let syncLabel = $derived(formChanged ? 'Modified' : 'Synced');
-	let accountStatus = $derived.by(() => {
-		if (formChanged) return 'Pending sync';
-		if (profileCompletion === 100) return 'Ready';
-		return 'Partial';
-	});
-	let accountStatusDetail = $derived.by(() => {
-		if (formChanged) return 'Unsaved edits are still local to this form.';
-		return `${completedReadinessCount}/${readinessItems.length} core fields configured.`;
-	});
 	let subscriptionLabel = $derived.by(() =>
 		subscriptionCount === 1 ? '1 followed question' : `${subscriptionCount} followed questions`
 	);
@@ -279,22 +238,25 @@
 <div class="account-page">
 	<div class="account-shell">
 		<header class="header-panel">
-			<div class="header-main">
-				<div class="identity-mark">{initials}</div>
-
-				<div class="header-copy">
-					<p class="kicker">Account / Profile</p>
-					<h1>{displayName}</h1>
-					<p class="header-summary">
-						Core account fields, type assignment, and followed question threads.
-					</p>
-				</div>
+			<div class="header-copy">
+				<p class="kicker">Profile settings</p>
+				<h1>Account</h1>
+				<p class="header-summary">Update the few account details used across 9takes.</p>
 			</div>
 
 			<div class="header-rail">
 				<div class="header-data">
-					<span class="data-key">Email</span>
-					<span class="data-value">{userEmail}</span>
+					<span class="data-key">Signed in as</span>
+					<span class="data-value">{displayName}</span>
+					<span class="data-subvalue">{userEmail}</span>
+				</div>
+
+				<div class="meta-pills">
+					<span class="meta-pill">{roleLabel}</span>
+					<span class="meta-pill">{subscriptionLabel}</span>
+					{#if selectedType}
+						<span class="meta-pill meta-pill-accent">{`Type ${selectedType.num}`}</span>
+					{/if}
 				</div>
 
 				<div class="header-actions">
@@ -318,98 +280,47 @@
 			</div>
 		</header>
 
-		<section class="summary-grid" aria-label="Account summary">
-			<article class="summary-card">
-				<span class="summary-label">Status</span>
-				<strong>{accountStatus}</strong>
-				<span class="summary-detail">{accountStatusDetail}</span>
-			</article>
-
-			<article class="summary-card">
-				<span class="summary-label">Completion</span>
-				<strong>{profileCompletion}%</strong>
-				<span class="summary-detail"
-					>{completedReadinessCount}/{readinessItems.length} core fields set</span
-				>
-			</article>
-
-			<article class="summary-card">
-				<span class="summary-label">Type</span>
-				<strong>{selectedType ? `Type ${selectedType.num}` : 'Unset'}</strong>
-				<span class="summary-detail">
-					{selectedType ? selectedType.name : 'No default type assigned'}
-				</span>
-			</article>
-
-			<article class="summary-card">
-				<span class="summary-label">Watchlist</span>
-				<strong>{subscriptionCount}</strong>
-				<span class="summary-detail">{subscriptionLabel}</span>
-			</article>
-		</section>
-
 		<div class="content-grid">
 			<section class="panel">
 				<div class="panel-head">
 					<div>
-						<p class="section-label">Profile editor</p>
-						<h2>Account fields</h2>
-						<p class="section-copy">Minimal identity data used by the account system.</p>
+						<p class="section-label">Profile</p>
+						<h2>Core fields</h2>
+						<p class="section-copy">Keep the basics tight: your name and default type.</p>
 					</div>
 
 					<span class="state-pill" class:pending={formChanged}>{syncLabel}</span>
 				</div>
 
-				<div class="spec-list" aria-label="Account specification">
-					<div class="spec-row">
-						<span class="spec-key">Sign-in email</span>
-						<span class="spec-value break">{userEmail}</span>
-					</div>
-					<div class="spec-row">
-						<span class="spec-key">Access</span>
-						<span class="spec-value">{roleLabel}</span>
-					</div>
-					<div class="spec-row">
-						<span class="spec-key">Current type</span>
-						<span class="spec-value">
-							{selectedType ? `Type ${selectedType.num} / ${selectedType.name}` : 'Unset'}
-						</span>
-					</div>
-					<div class="spec-row">
-						<span class="spec-key">Followed threads</span>
-						<span class="spec-value">{subscriptionLabel}</span>
-					</div>
-				</div>
-
 				<div class="field-grid">
-					<label class="field-card">
+					<label class="field">
 						<span class="field-label">First name</span>
-						<span class="field-help">Display and personalization field.</span>
 						<input
 							type="text"
 							id="firstName"
 							bind:value={firstName}
-							placeholder="Enter first name"
+							placeholder="First name"
 							autocomplete="given-name"
 						/>
 					</label>
 
-					<label class="field-card">
+					<label class="field">
 						<span class="field-label">Last name</span>
-						<span class="field-help">Optional completion field.</span>
 						<input
 							type="text"
 							id="lastName"
 							bind:value={lastName}
-							placeholder="Enter last name"
+							placeholder="Last name"
 							autocomplete="family-name"
 						/>
 					</label>
 				</div>
 
 				<fieldset class="type-section">
-					<legend>Enneagram</legend>
-					<p class="section-copy">Pick the default lens for this account.</p>
+					<div class="type-section-head">
+						<legend>Enneagram</legend>
+						<p class="section-copy">Pick the default lens for this account.</p>
+					</div>
 
 					<div class="type-grid" role="radiogroup" aria-label="Enneagram type">
 						{#each enneagramTypes as type}
@@ -425,29 +336,20 @@
 								<span class="type-number">{type.num}</span>
 								<span class="type-body">
 									<strong>{type.name}</strong>
-									<span>{type.descriptor}</span>
 								</span>
 							</button>
 						{/each}
 					</div>
 				</fieldset>
 
-				<div
-					class="type-readout"
-					style={`--type-accent: ${selectedType?.color || 'var(--primary)'}`}
-				>
-					<span class="summary-label">Selected</span>
-					<strong
-						>{selectedType
-							? `Type ${selectedType.num} / ${selectedType.name}`
-							: 'No type selected'}</strong
-					>
-					<p>
-						{selectedType
-							? selectedType.summary
-							: 'This value is used for personality context across the site.'}
-					</p>
-				</div>
+				<p class="type-note" style={`--type-accent: ${selectedType?.color || 'var(--primary)'}`}>
+					{#if selectedType}
+						<strong>{`Type ${selectedType.num} / ${selectedType.name}`}</strong>
+						<span>{selectedType.descriptor}</span>
+					{:else}
+						<span>No type selected yet.</span>
+					{/if}
+				</p>
 
 				<div class="form-actions">
 					<LoadingButton
@@ -469,72 +371,39 @@
 				</div>
 			</section>
 
-			<div class="side-column">
-				<section class="panel side-panel">
-					<div class="panel-head">
-						<div>
-							<p class="section-label">Readiness</p>
-							<h2>Checklist</h2>
-							<p class="section-copy">Short operational view of profile state.</p>
-						</div>
+			<section class="panel side-panel" id="subscriptions">
+				<div class="panel-head">
+					<div>
+						<p class="section-label">Watchlist</p>
+						<h2>Followed questions</h2>
+						<p class="section-copy">The questions you're currently following.</p>
 					</div>
 
-					<ul class="checklist">
-						{#each readinessItems as item}
-							<li class="check-row" class:complete={item.complete}>
-								<span class="check-status">{item.complete ? 'OK' : '--'}</span>
-								<span class="check-text">{item.label}</span>
+					<a href="/questions" class="text-link">Browse</a>
+				</div>
+
+				{#if !subscriptions.length}
+					<div class="empty-block">
+						<strong>No active follows</strong>
+						<p>Follow a question to keep it on this list.</p>
+						<a href="/questions" class="text-link">Open questions</a>
+					</div>
+				{:else}
+					<ul class="subscription-list">
+						{#each subscriptions as subscription, index}
+							<li>
+								<a href={`/questions/${subscription.questions.url}`} class="subscription-row">
+									<span class="row-index">{String(index + 1).padStart(2, '0')}</span>
+									<span class="row-text">
+										{subscription.questions.question_formatted || subscription.questions.question}
+									</span>
+									<span class="row-action">Open</span>
+								</a>
 							</li>
 						{/each}
 					</ul>
-
-					<div class="status-note">
-						<span class="summary-label">Current type</span>
-						<strong
-							>{selectedType ? `Type ${selectedType.num} / ${selectedType.name}` : 'Unset'}</strong
-						>
-						<p>
-							{selectedType
-								? selectedType.descriptor
-								: 'Select a type to complete the account profile.'}
-						</p>
-					</div>
-				</section>
-
-				<section class="panel side-panel" id="subscriptions">
-					<div class="panel-head">
-						<div>
-							<p class="section-label">Watchlist</p>
-							<h2>Followed questions</h2>
-							<p class="section-copy">Compact list of active follows.</p>
-						</div>
-
-						<a href="/questions" class="text-link">Browse</a>
-					</div>
-
-					{#if !subscriptions.length}
-						<div class="empty-block">
-							<strong>No active follows</strong>
-							<p>Follow a question to keep it on this list.</p>
-							<a href="/questions" class="text-link">Open questions</a>
-						</div>
-					{:else}
-						<ul class="subscription-list">
-							{#each subscriptions as subscription, index}
-								<li>
-									<a href={`/questions/${subscription.questions.url}`} class="subscription-row">
-										<span class="row-index">{String(index + 1).padStart(2, '0')}</span>
-										<span class="row-text">
-											{subscription.questions.question_formatted || subscription.questions.question}
-										</span>
-										<span class="row-action">Open</span>
-									</a>
-								</li>
-							{/each}
-						</ul>
-					{/if}
-				</section>
-			</div>
+				{/if}
+			</section>
 		</div>
 	</div>
 </div>
@@ -543,7 +412,7 @@
 	.account-page {
 		position: relative;
 		min-height: 100vh;
-		padding: 1.5rem 1rem 4rem;
+		padding: 1.1rem 1rem 3rem;
 		background: linear-gradient(
 			180deg,
 			color-mix(in srgb, var(--bg-deep) 88%, black) 0%,
@@ -556,7 +425,7 @@
 		position: fixed;
 		inset: 0;
 		pointer-events: none;
-		opacity: 0.18;
+		opacity: 0.14;
 		background-image:
 			linear-gradient(
 				to right,
@@ -568,55 +437,32 @@
 				color-mix(in srgb, var(--text-tertiary) 18%, transparent) 1px,
 				transparent 1px
 			);
-		background-size: 28px 28px;
+		background-size: 32px 32px;
 	}
 
 	.account-shell {
 		position: relative;
-		max-width: 1120px;
+		max-width: 1080px;
 		margin: 0 auto;
 		display: grid;
-		gap: 1rem;
+		gap: 0.9rem;
 	}
 
 	.header-panel,
-	.panel,
-	.summary-card {
+	.panel {
 		position: relative;
 		border: 1px solid color-mix(in srgb, var(--text-tertiary) 16%, transparent);
-		border-radius: 1rem;
+		border-radius: 0.95rem;
 		background: color-mix(in srgb, var(--bg-surface) 96%, transparent);
-		box-shadow: 0 18px 40px rgba(12, 10, 9, 0.18);
+		box-shadow: 0 16px 36px rgba(12, 10, 9, 0.16);
 	}
 
 	.header-panel {
 		display: grid;
-		grid-template-columns: minmax(0, 1fr) minmax(260px, 320px);
+		grid-template-columns: minmax(0, 1fr) minmax(280px, 340px);
 		gap: 1rem;
-		padding: 1.25rem;
-	}
-
-	.header-main {
-		display: flex;
-		gap: 1rem;
-		min-width: 0;
-	}
-
-	.identity-mark {
-		flex: 0 0 4rem;
-		width: 4rem;
-		height: 4rem;
-		display: flex;
-		align-items: center;
-		justify-content: center;
-		border-radius: 0.875rem;
-		border: 1px solid color-mix(in srgb, var(--primary) 24%, transparent);
-		background: color-mix(in srgb, var(--primary) 12%, var(--bg-deep));
-		color: var(--text-primary);
-		font-family: var(--font-mono);
-		font-size: 1.35rem;
-		font-weight: 700;
-		text-transform: uppercase;
+		padding: 1rem 1.1rem;
+		align-items: start;
 	}
 
 	.header-copy {
@@ -625,10 +471,7 @@
 
 	.kicker,
 	.data-key,
-	.summary-label,
 	.section-label,
-	.spec-key,
-	.check-status,
 	.row-index,
 	.row-action {
 		font-family: var(--font-mono);
@@ -647,36 +490,35 @@
 	.header-copy h1 {
 		margin: 0;
 		font-family: var(--font-display);
-		font-size: clamp(2.2rem, 5vw, 3.35rem);
+		font-size: clamp(1.9rem, 4vw, 2.75rem);
 		line-height: 0.95;
 		color: var(--text-primary);
 	}
 
 	.header-summary {
-		margin: 0.6rem 0 0;
+		margin: 0.45rem 0 0;
 		max-width: 36rem;
 		color: var(--text-secondary);
-		line-height: 1.55;
+		font-size: 0.95rem;
+		line-height: 1.5;
 	}
 
 	.header-rail {
 		display: grid;
-		gap: 0.85rem;
+		gap: 0.7rem;
 		align-content: start;
 	}
 
 	.header-data {
 		display: grid;
-		gap: 0.45rem;
-		padding: 0.9rem 1rem;
-		border-radius: 0.875rem;
+		gap: 0.2rem;
+		padding: 0.85rem 0.95rem;
+		border-radius: 0.8rem;
 		border: 1px solid color-mix(in srgb, var(--text-tertiary) 14%, transparent);
 		background: color-mix(in srgb, var(--bg-deep) 92%, transparent);
 	}
 
 	.data-key,
-	.spec-key,
-	.summary-label,
 	.row-index,
 	.row-action {
 		color: var(--text-tertiary);
@@ -684,14 +526,46 @@
 
 	.data-value {
 		color: var(--text-primary);
-		font-size: 0.95rem;
+		font-size: 1rem;
+		font-weight: 600;
+		line-height: 1.3;
+		word-break: break-word;
+	}
+
+	.data-subvalue {
+		color: var(--text-secondary);
+		font-size: 0.84rem;
 		word-break: break-all;
+	}
+
+	.meta-pills {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 0.5rem;
+	}
+
+	.meta-pill {
+		display: inline-flex;
+		align-items: center;
+		padding: 0.45rem 0.7rem;
+		border-radius: 999px;
+		border: 1px solid color-mix(in srgb, var(--text-tertiary) 16%, transparent);
+		background: color-mix(in srgb, var(--bg-deep) 92%, transparent);
+		color: var(--text-primary);
+		font-size: 0.8rem;
+		font-weight: 600;
+		line-height: 1;
+	}
+
+	.meta-pill-accent {
+		border-color: color-mix(in srgb, var(--primary) 28%, transparent);
+		background: color-mix(in srgb, var(--primary) 10%, var(--bg-deep));
 	}
 
 	.header-actions {
 		display: flex;
 		flex-wrap: wrap;
-		gap: 0.75rem;
+		gap: 0.65rem;
 		align-items: center;
 	}
 
@@ -704,9 +578,9 @@
 		display: inline-flex;
 		align-items: center;
 		justify-content: center;
-		min-height: 2.75rem;
-		padding: 0.7rem 1rem;
-		border-radius: 0.75rem;
+		min-height: 2.5rem;
+		padding: 0.65rem 0.9rem;
+		border-radius: 0.7rem;
 		text-decoration: none;
 		font-weight: 600;
 		transition:
@@ -732,85 +606,52 @@
 		color: var(--text-on-primary);
 	}
 
-	.summary-grid {
-		display: grid;
-		grid-template-columns: repeat(4, minmax(0, 1fr));
-		gap: 0.85rem;
-	}
-
-	.summary-card {
-		padding: 1rem;
-	}
-
-	.summary-card strong,
-	.type-readout strong,
-	.status-note strong {
-		display: block;
-		margin-top: 0.55rem;
-		color: var(--text-primary);
-		font-family: var(--font-mono);
-		font-size: 1.1rem;
-		line-height: 1.25;
-	}
-
-	.summary-detail {
-		display: block;
-		margin-top: 0.55rem;
-		color: var(--text-secondary);
-		font-size: 0.88rem;
-		line-height: 1.45;
-	}
-
 	.content-grid {
 		display: grid;
-		grid-template-columns: minmax(0, 1.4fr) minmax(300px, 0.9fr);
-		gap: 1rem;
+		grid-template-columns: minmax(0, 1.4fr) minmax(280px, 0.9fr);
+		gap: 0.9rem;
 		align-items: start;
 	}
 
-	.side-column {
-		display: grid;
-		gap: 1rem;
-	}
-
 	.panel {
-		padding: 1.15rem;
+		padding: 1rem;
 	}
 
 	.panel-head {
 		display: flex;
 		justify-content: space-between;
 		align-items: flex-start;
-		gap: 1rem;
-		margin-bottom: 1rem;
-		padding-bottom: 1rem;
+		gap: 0.85rem;
+		margin-bottom: 0.9rem;
+		padding-bottom: 0.85rem;
 		border-bottom: 1px solid color-mix(in srgb, var(--text-tertiary) 12%, transparent);
 	}
 
 	.panel-head h2 {
 		margin: 0;
 		font-family: var(--font-display);
-		font-size: 1.5rem;
+		font-size: 1.3rem;
 		line-height: 1;
 		color: var(--text-primary);
 	}
 
 	.section-copy {
-		margin: 0.45rem 0 0;
+		margin: 0.3rem 0 0;
 		color: var(--text-secondary);
-		line-height: 1.55;
+		font-size: 0.9rem;
+		line-height: 1.45;
 	}
 
 	.state-pill {
 		display: inline-flex;
 		align-items: center;
 		justify-content: center;
-		padding: 0.45rem 0.75rem;
+		padding: 0.35rem 0.7rem;
 		border-radius: 999px;
 		border: 1px solid color-mix(in srgb, var(--success) 24%, transparent);
 		background: color-mix(in srgb, var(--success) 10%, var(--bg-deep));
 		color: var(--text-primary);
-		font-size: 0.82rem;
+		font-size: 0.78rem;
 		font-weight: 600;
 		white-space: nowrap;
 	}
@@ -820,90 +661,64 @@
 		background: color-mix(in srgb, var(--warning) 12%, var(--bg-deep));
 	}
 
-	.spec-list {
-		border: 1px solid color-mix(in srgb, var(--text-tertiary) 12%, transparent);
-		border-radius: 0.875rem;
-		overflow: hidden;
-		background: color-mix(in srgb, var(--bg-deep) 92%, transparent);
-	}
-
-	.spec-row {
-		display: grid;
-		grid-template-columns: 150px minmax(0, 1fr);
-		gap: 1rem;
-		padding: 0.85rem 1rem;
-	}
-
-	.spec-row + .spec-row {
-		border-top: 1px solid color-mix(in srgb, var(--text-tertiary) 12%, transparent);
-	}
-
-	.spec-value {
-		color: var(--text-primary);
-		line-height: 1.45;
-	}
-
-	.spec-value.break {
-		word-break: break-all;
-	}
-
 	.field-grid {
 		display: grid;
 		grid-template-columns: repeat(2, minmax(0, 1fr));
-		gap: 0.85rem;
-		margin-top: 1rem;
+		gap: 0.75rem;
 	}
 
-	.field-card {
+	.field {
 		display: grid;
-		gap: 0.45rem;
+		gap: 0.35rem;
 	}
 
 	.field-label {
-		font-size: 0.84rem;
+		font-size: 0.76rem;
 		font-weight: 600;
+		letter-spacing: 0.04em;
+		text-transform: uppercase;
 		color: var(--text-primary);
 	}
 
-	.field-help {
-		font-size: 0.82rem;
-		color: var(--text-tertiary);
-	}
-
-	.field-card input {
+	.field input {
 		width: 100%;
-		padding: 0.85rem 0.95rem;
-		border-radius: 0.75rem;
+		padding: 0.75rem 0.85rem;
+		border-radius: 0.7rem;
 		border: 1px solid color-mix(in srgb, var(--text-tertiary) 16%, transparent);
 		background: color-mix(in srgb, var(--bg-deep) 92%, transparent);
 		color: var(--text-primary);
-		font-size: 1rem;
+		font-size: 0.95rem;
 		transition:
 			border-color 0.18s ease,
 			box-shadow 0.18s ease;
 	}
 
-	.field-card input::placeholder {
+	.field input::placeholder {
 		color: var(--text-muted);
 	}
 
-	.field-card input:focus {
+	.field input:focus {
 		outline: none;
 		border-color: color-mix(in srgb, var(--primary) 40%, transparent);
 		box-shadow: 0 0 0 4px rgba(45, 212, 191, 0.12);
 	}
 
 	.type-section {
-		margin: 1rem 0 0;
+		margin: 0.9rem 0 0;
 		padding: 0;
 		border: 0;
 	}
 
+	.type-section-head {
+		display: grid;
+		gap: 0.2rem;
+	}
+
 	.type-section legend {
 		padding: 0;
-		margin-bottom: 0.35rem;
+		margin-bottom: 0;
 		font-family: var(--font-display);
-		font-size: 1.35rem;
+		font-size: 1.15rem;
 		font-weight: 700;
 		color: var(--text-primary);
 	}
@@ -911,18 +726,18 @@
 	.type-grid {
 		display: grid;
 		grid-template-columns: repeat(3, minmax(0, 1fr));
-		gap: 0.75rem;
-		margin-top: 0.9rem;
+		gap: 0.65rem;
+		margin-top: 0.75rem;
 	}
 
 	.type-card {
 		display: grid;
 		grid-template-columns: auto 1fr;
-		gap: 0.7rem;
-		align-items: flex-start;
-		padding: 0.85rem;
+		gap: 0.6rem;
+		align-items: center;
+		padding: 0.7rem 0.8rem;
 		border: 1px solid color-mix(in srgb, var(--type-accent) 18%, var(--text-tertiary));
-		border-radius: 0.85rem;
+		border-radius: 0.75rem;
 		background: color-mix(in srgb, var(--bg-deep) 92%, transparent);
 		color: inherit;
 		text-align: left;
@@ -945,8 +760,9 @@
 	}
 
 	.type-number {
-		width: 2rem;
+		min-width: 2rem;
 		height: 2rem;
+		padding: 0 0.45rem;
 		display: inline-flex;
 		align-items: center;
 		justify-content: center;
@@ -960,98 +776,64 @@
 
 	.type-body {
 		display: grid;
-		gap: 0.28rem;
+		gap: 0.1rem;
 		min-width: 0;
 	}
 
 	.type-body strong {
 		color: var(--text-primary);
-		font-size: 0.95rem;
+		font-size: 0.9rem;
 		line-height: 1.25;
 	}
 
-	.type-body span {
+	.type-note {
+		display: grid;
+		gap: 0.15rem;
+		margin: 0.8rem 0 0;
+		padding: 0.8rem 0.9rem;
+		border-radius: 0.75rem;
+		border: 1px solid color-mix(in srgb, var(--type-accent, var(--primary)) 18%, transparent);
+		background: color-mix(in srgb, var(--type-accent, var(--primary)) 8%, var(--bg-deep));
 		color: var(--text-secondary);
-		font-size: 0.78rem;
+		font-size: 0.88rem;
 		line-height: 1.4;
 	}
 
-	.type-readout,
-	.status-note {
-		margin-top: 1rem;
-		padding: 0.95rem 1rem;
-		border-radius: 0.875rem;
-		border: 1px solid color-mix(in srgb, var(--type-accent, var(--primary)) 18%, transparent);
-		background: color-mix(in srgb, var(--type-accent, var(--primary)) 8%, var(--bg-deep));
-	}
-
-	.type-readout p,
-	.status-note p {
-		margin: 0.55rem 0 0;
-		color: var(--text-secondary);
-		line-height: 1.5;
+	.type-note strong {
+		color: var(--text-primary);
+		font-family: var(--font-mono);
+		font-size: 0.95rem;
 	}
 
 	.form-actions {
 		display: flex;
 		align-items: center;
 		justify-content: space-between;
-		gap: 1rem;
+		gap: 0.75rem;
 		flex-wrap: wrap;
-		margin-top: 1rem;
-		padding-top: 1rem;
+		margin-top: 0.9rem;
+		padding-top: 0.9rem;
 		border-top: 1px solid color-mix(in srgb, var(--text-tertiary) 12%, transparent);
 	}
 
 	.action-note {
 		margin: 0;
 		color: var(--text-secondary);
-		font-size: 0.9rem;
+		font-size: 0.88rem;
 	}
 
-	.checklist,
 	.subscription-list {
 		list-style: none;
 		padding: 0;
 		margin: 0;
 		display: grid;
-		gap: 0.75rem;
+		gap: 0.6rem;
 	}
 
-	.check-row,
 	.subscription-row {
 		border: 1px solid color-mix(in srgb, var(--text-tertiary) 14%, transparent);
-		border-radius: 0.875rem;
+		border-radius: 0.8rem;
 		background: color-mix(in srgb, var(--bg-deep) 92%, transparent);
-	}
-
-	.check-row {
-		display: grid;
-		grid-template-columns: auto 1fr;
-		gap: 0.75rem;
-		align-items: center;
-		padding: 0.85rem 0.95rem;
-	}
-
-	.check-status {
-		display: inline-flex;
-		align-items: center;
-		justify-content: center;
-		min-width: 2.5rem;
-		padding: 0.3rem 0.45rem;
-		border-radius: 999px;
-		border: 1px solid color-mix(in srgb, var(--text-tertiary) 20%, transparent);
-		background: color-mix(in srgb, var(--bg-base) 32%, transparent);
-	}
-
-	.check-row.complete .check-status {
-		border-color: color-mix(in srgb, var(--primary) 28%, transparent);
-		background: color-mix(in srgb, var(--primary) 12%, var(--bg-base));
-		color: var(--primary-light);
-	}
-
-	.check-text {
-		color: var(--text-primary);
 	}
 
 	.text-link {
@@ -1062,10 +844,10 @@
 
 	.empty-block {
 		display: grid;
-		gap: 0.65rem;
-		padding: 1rem;
+		gap: 0.5rem;
+		padding: 0.9rem;
 		border: 1px dashed color-mix(in srgb, var(--text-tertiary) 22%, transparent);
-		border-radius: 0.875rem;
+		border-radius: 0.8rem;
 		background: color-mix(in srgb, var(--bg-deep) 92%, transparent);
 	}
 
@@ -1083,9 +865,9 @@
 	.subscription-row {
 		display: grid;
 		grid-template-columns: auto minmax(0, 1fr) auto;
-		gap: 0.85rem;
+		gap: 0.75rem;
 		align-items: start;
-		padding: 0.9rem 1rem;
+		padding: 0.8rem 0.9rem;
 		text-decoration: none;
 		color: inherit;
 		transition:
@@ -1102,7 +884,8 @@
 
 	.row-text {
 		color: var(--text-primary);
-		line-height: 1.5;
+		font-size: 0.92rem;
+		line-height: 1.45;
 	}
 
 	.header-actions :global(.account-action),
@@ -1119,43 +902,30 @@
 		.content-grid {
 			grid-template-columns: 1fr;
 		}
-
-		.summary-grid {
-			grid-template-columns: repeat(2, minmax(0, 1fr));
-		}
-
-		.header-rail {
-			grid-template-columns: 1fr;
-		}
 	}
 
 	@media (max-width: 720px) {
 		.account-page {
-			padding: 1rem 0.85rem 3rem;
+			padding: 0.85rem 0.75rem 2.5rem;
 		}
 
 		.header-panel,
-		.panel,
-		.summary-card {
-			padding: 1rem;
+		.panel {
+			padding: 0.95rem;
 		}
 
-		.header-main,
 		.panel-head,
 		.form-actions {
 			flex-direction: column;
 			align-items: stretch;
 		}
 
-		.summary-grid,
-		.field-grid,
-		.type-grid {
+		.field-grid {
 			grid-template-columns: 1fr;
 		}
 
-		.spec-row {
-			grid-template-columns: 1fr;
-			gap: 0.35rem;
+		.type-grid {
+			grid-template-columns: repeat(2, minmax(0, 1fr));
 		}
 
 		.header-actions,
@@ -1177,6 +947,16 @@
 
 		.row-action {
 			display: none;
+		}
+	}
+
+	@media (max-width: 480px) {
+		.type-card {
+			padding-inline: 0.7rem;
+		}
+
+		.type-body strong {
+			font-size: 0.84rem;
 		}
 	}
 </style>
