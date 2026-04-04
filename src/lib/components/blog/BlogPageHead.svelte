@@ -1,5 +1,6 @@
 <!-- src/lib/components/blog/BlogPageHead.svelte -->
 <script lang="ts">
+	import { buildSocialImageUrl } from '$lib/utils/socialImage';
 	import { buildBreadcrumbSchemaForGraph } from '$lib/utils/schema';
 
 	interface Props {
@@ -17,7 +18,7 @@
 	const defaultShareImage = 'https://9takes.com/brand/aero.png';
 	let shareImage = $derived(
 		data?.picGroup?.length
-			? `https://9takes.com${data.picGroup[0].image}`
+			? buildSocialImageUrl(data.picGroup[0].image)
 			: data?.pic
 				? `https://9takes.com/blogs/${data.pic}.webp`
 				: defaultShareImage

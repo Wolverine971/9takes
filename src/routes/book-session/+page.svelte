@@ -247,12 +247,12 @@
 <div class="page-shell">
 	<div class="page-backdrop"></div>
 
-	<div class="mx-auto max-w-7xl px-4 pb-20 pt-12 md:px-6 md:pb-24 md:pt-16">
+	<div class="page-container">
 		<section class="hero-grid" id="top" aria-labelledby="book-session-title">
 			<div class="hero-copy">
 				<div class="section-eyebrow">1-on-1 coaching waitlist</div>
 				<h1 id="book-session-title" class="hero-title">
-					Join the waitlist for 1-on-1 Enneagram coaching.
+					Join the waitlist for <span class="nowrap">1-on-1</span> Enneagram coaching.
 				</h1>
 				<p class="hero-lede">
 					Bring a relationship problem, work dynamic, or blind spot you keep circling. I will use
@@ -601,13 +601,15 @@
 		scroll-behavior: smooth;
 	}
 
+	/* ── Shell ── */
+
 	.page-shell {
 		position: relative;
 		min-height: 100vh;
 		background:
 			radial-gradient(
 				circle at top left,
-				color-mix(in srgb, var(--primary) 12%, transparent) 0%,
+				color-mix(in srgb, var(--primary) 10%, transparent) 0%,
 				transparent 42%
 			),
 			linear-gradient(180deg, var(--bg-base) 0%, var(--bg-deep) 100%);
@@ -619,17 +621,25 @@
 		inset: 0;
 		background:
 			radial-gradient(
-				circle at 85% 10%,
-				color-mix(in srgb, var(--primary) 18%, transparent) 0%,
+				circle at 80% 6%,
+				color-mix(in srgb, var(--primary) 12%, transparent) 0%,
 				transparent 24%
 			),
 			radial-gradient(
-				circle at 15% 45%,
-				color-mix(in srgb, var(--accent-light) 10%, transparent) 0%,
+				circle at 8% 55%,
+				color-mix(in srgb, var(--accent-light) 6%, transparent) 0%,
 				transparent 30%
 			);
 		pointer-events: none;
 	}
+
+	.page-container {
+		max-width: 80rem;
+		margin: 0 auto;
+		padding: 2rem 1.25rem 5rem;
+	}
+
+	/* ── Shared ── */
 
 	.hero-grid,
 	.proof-section,
@@ -643,13 +653,6 @@
 		z-index: 1;
 	}
 
-	.hero-grid {
-		display: grid;
-		gap: 2rem;
-		padding-bottom: 4rem;
-	}
-
-	.hero-copy,
 	.waitlist-panel,
 	.signal-strip,
 	.proof-section,
@@ -658,64 +661,76 @@
 	.process-section,
 	.faq-section,
 	.final-cta {
-		border: 1px solid color-mix(in srgb, var(--text-tertiary) 16%, transparent);
-		border-radius: 1.5rem;
-		background: color-mix(in srgb, var(--bg-surface) 92%, transparent);
+		border: 1px solid color-mix(in srgb, var(--text-tertiary) 12%, transparent);
+		border-radius: 1.25rem;
+		background: color-mix(in srgb, var(--bg-surface) 88%, transparent);
 		box-shadow: var(--shadow-lg);
 		backdrop-filter: blur(14px);
 	}
 
-	.hero-copy {
-		padding: 2rem;
-	}
-
 	.section-eyebrow {
-		margin-bottom: 0.875rem;
-		font-size: 0.8rem;
+		margin-bottom: 0.75rem;
+		font-size: 0.78rem;
 		font-weight: 700;
 		letter-spacing: 0.14em;
 		text-transform: uppercase;
 		color: var(--primary);
 	}
 
+	/* ── Hero ── */
+
+	.hero-grid {
+		display: grid;
+		gap: 2rem;
+		margin-bottom: 1rem;
+	}
+
+	.hero-copy {
+		padding: 0;
+	}
+
 	.hero-title {
-		margin: 0 0 1rem;
-		font-size: clamp(2.5rem, 5vw, 4.75rem);
-		line-height: 0.96;
+		margin: 0 0 1.5rem;
+		font-size: clamp(2.1rem, 4vw, 3.2rem);
+		line-height: 1.12;
 		font-weight: 800;
-		letter-spacing: -0.04em;
+		letter-spacing: -0.025em;
 		color: var(--text-primary);
 	}
 
+	.nowrap {
+		white-space: nowrap;
+	}
+
 	.hero-lede {
-		max-width: 44rem;
-		margin: 0 0 1.5rem;
+		max-width: 42rem;
+		margin: 0 0 2.25rem;
 		font-size: 1.1rem;
-		line-height: 1.7;
+		line-height: 1.75;
 		color: var(--text-secondary);
 	}
 
 	.hero-truth,
 	.hero-mini-proof {
-		margin-bottom: 1.5rem;
-		border-radius: 1rem;
-		padding: 1rem 1.1rem;
+		margin-bottom: 2rem;
+		border-radius: 0.875rem;
+		padding: 1.25rem 1.5rem;
 	}
 
 	.hero-truth {
-		border: 1px solid color-mix(in srgb, var(--primary) 22%, transparent);
+		border: 1px solid color-mix(in srgb, var(--primary) 18%, transparent);
 		background: linear-gradient(
 			135deg,
-			color-mix(in srgb, var(--primary) 14%, transparent) 0%,
-			color-mix(in srgb, var(--bg-surface) 92%, transparent) 100%
+			color-mix(in srgb, var(--primary) 8%, transparent) 0%,
+			color-mix(in srgb, var(--bg-surface) 96%, transparent) 100%
 		);
 	}
 
 	.truth-kicker {
-		margin-bottom: 0.35rem;
-		font-size: 0.8rem;
+		margin-bottom: 0.5rem;
+		font-size: 0.75rem;
 		font-weight: 700;
-		letter-spacing: 0.1em;
+		letter-spacing: 0.12em;
 		text-transform: uppercase;
 		color: var(--primary);
 	}
@@ -723,17 +738,17 @@
 	.hero-truth p,
 	.hero-mini-proof {
 		margin: 0;
-		line-height: 1.6;
+		line-height: 1.7;
 		color: var(--text-secondary);
 	}
 
 	.hero-list {
-		margin-bottom: 1.5rem;
+		margin-bottom: 2.25rem;
 	}
 
 	.list-title {
-		margin-bottom: 0.75rem;
-		font-size: 1rem;
+		margin-bottom: 1rem;
+		font-size: 1.05rem;
 		font-weight: 700;
 		color: var(--text-primary);
 	}
@@ -743,48 +758,50 @@
 		padding: 0;
 		list-style: none;
 		display: grid;
-		gap: 0.85rem;
+		gap: 1rem;
 	}
 
 	.hero-list li {
 		position: relative;
-		padding-left: 1.3rem;
-		line-height: 1.55;
+		padding-left: 1.5rem;
+		line-height: 1.65;
 		color: var(--text-secondary);
 	}
 
 	.hero-list li::before {
 		content: '';
 		position: absolute;
-		top: 0.7rem;
+		top: 0.6rem;
 		left: 0;
-		width: 0.5rem;
-		height: 0.5rem;
+		width: 0.45rem;
+		height: 0.45rem;
 		border-radius: 999px;
 		background: var(--primary);
-		box-shadow: 0 0 0 0.3rem color-mix(in srgb, var(--primary) 18%, transparent);
+		box-shadow: 0 0 0 0.25rem color-mix(in srgb, var(--primary) 14%, transparent);
 	}
 
 	.hero-mini-proof {
-		border: 1px solid color-mix(in srgb, var(--text-tertiary) 18%, transparent);
-		background: color-mix(in srgb, var(--bg-elevated) 70%, transparent);
+		border: 1px solid color-mix(in srgb, var(--text-tertiary) 12%, transparent);
+		background: color-mix(in srgb, var(--bg-elevated) 50%, transparent);
 	}
 
 	.hero-mini-proof span {
 		display: block;
-		margin-bottom: 0.35rem;
+		margin-bottom: 0.4rem;
 		font-weight: 700;
 		color: var(--text-primary);
 	}
 
+	/* ── Waitlist panel ── */
+
 	.waitlist-panel {
-		padding: 1.6rem;
+		padding: 2rem 1.75rem;
 		align-self: start;
 	}
 
 	.panel-topline {
 		margin-bottom: 0.5rem;
-		font-size: 0.8rem;
+		font-size: 0.75rem;
 		font-weight: 700;
 		letter-spacing: 0.14em;
 		text-transform: uppercase;
@@ -792,21 +809,22 @@
 	}
 
 	.waitlist-panel h2 {
-		margin: 0 0 0.5rem;
-		font-size: 1.7rem;
-		line-height: 1.1;
+		margin: 0 0 0.75rem;
+		font-size: 1.5rem;
+		line-height: 1.2;
+		font-weight: 800;
 		color: var(--text-primary);
 	}
 
 	.panel-copy {
-		margin: 0 0 1.25rem;
-		line-height: 1.6;
+		margin: 0 0 1.75rem;
+		line-height: 1.65;
 		color: var(--text-secondary);
 	}
 
 	.waitlist-form {
 		display: grid;
-		gap: 1rem;
+		gap: 1.25rem;
 	}
 
 	.honeypot {
@@ -817,26 +835,26 @@
 
 	.field-group {
 		display: grid;
-		gap: 0.45rem;
+		gap: 0.4rem;
 	}
 
 	.field-group label {
-		font-size: 0.95rem;
-		font-weight: 700;
+		font-size: 0.9rem;
+		font-weight: 600;
 		color: var(--text-primary);
 	}
 
 	.form-input {
 		width: 100%;
-		border-radius: 0.95rem;
+		border-radius: 0.75rem;
 		border: 1px solid color-mix(in srgb, var(--text-tertiary) 18%, transparent);
-		background: color-mix(in srgb, var(--bg-elevated) 72%, transparent);
-		padding: 0.95rem 1rem;
+		background: color-mix(in srgb, var(--bg-elevated) 55%, transparent);
+		padding: 0.8rem 1rem;
+		font-size: 1rem;
 		color: var(--text-primary);
 		transition:
 			border-color 0.2s ease,
-			box-shadow 0.2s ease,
-			background-color 0.2s ease;
+			box-shadow 0.2s ease;
 	}
 
 	.form-input::placeholder {
@@ -844,14 +862,14 @@
 	}
 
 	.form-input:focus {
-		border-color: color-mix(in srgb, var(--primary) 70%, white);
-		box-shadow: 0 0 0 0.25rem color-mix(in srgb, var(--primary) 18%, transparent);
+		border-color: color-mix(in srgb, var(--primary) 65%, white);
+		box-shadow: 0 0 0 0.2rem color-mix(in srgb, var(--primary) 14%, transparent);
 		outline: none;
 	}
 
 	.form-input:disabled {
 		cursor: not-allowed;
-		opacity: 0.65;
+		opacity: 0.55;
 	}
 
 	.form-input option {
@@ -860,7 +878,7 @@
 	}
 
 	.form-textarea {
-		min-height: 8rem;
+		min-height: 6rem;
 		resize: vertical;
 	}
 
@@ -872,13 +890,15 @@
 	}
 
 	.form-error {
-		border-radius: 0.9rem;
-		border: 1px solid color-mix(in srgb, #ef4444 35%, transparent);
-		background: color-mix(in srgb, #ef4444 10%, transparent);
-		padding: 0.85rem 0.95rem;
-		font-size: 0.95rem;
+		border-radius: 0.75rem;
+		border: 1px solid color-mix(in srgb, #ef4444 30%, transparent);
+		background: color-mix(in srgb, #ef4444 8%, transparent);
+		padding: 0.75rem 1rem;
+		font-size: 0.9rem;
 		color: #fca5a5;
 	}
+
+	/* ── Buttons ── */
 
 	.btn-primary {
 		display: inline-flex;
@@ -890,43 +910,47 @@
 		background: linear-gradient(135deg, var(--primary-dark) 0%, var(--primary-darker) 100%);
 		box-shadow:
 			var(--shadow-md),
-			0 0 26px color-mix(in srgb, var(--primary) 18%, transparent);
-		padding: 0.95rem 1.4rem;
+			0 0 20px color-mix(in srgb, var(--primary) 14%, transparent);
+		padding: 0.9rem 1.75rem;
 		font-size: 1rem;
 		font-weight: 700;
 		color: white;
 		text-decoration: none;
+		cursor: pointer;
 		transition:
 			transform 0.2s ease,
 			box-shadow 0.2s ease,
 			filter 0.2s ease;
-		cursor: pointer;
 	}
 
 	.btn-primary:hover:not(:disabled) {
 		transform: translateY(-1px);
 		box-shadow:
 			var(--shadow-lg),
-			0 0 34px color-mix(in srgb, var(--primary) 24%, transparent);
-		filter: brightness(1.04);
+			0 0 28px color-mix(in srgb, var(--primary) 22%, transparent);
+		filter: brightness(1.06);
 	}
 
 	.btn-primary:disabled {
 		cursor: not-allowed;
-		opacity: 0.7;
+		opacity: 0.6;
 	}
 
 	.panel-footnotes {
 		display: flex;
 		flex-wrap: wrap;
-		gap: 0.5rem 1rem;
-		font-size: 0.82rem;
+		gap: 0.5rem 1.25rem;
+		padding-top: 0.25rem;
+		font-size: 0.8rem;
 		color: var(--text-tertiary);
 	}
 
+	/* ── Success ── */
+
 	.success-panel {
 		display: grid;
-		gap: 1rem;
+		gap: 1.25rem;
+		padding: 1.5rem 0;
 	}
 
 	.success-icon {
@@ -937,7 +961,7 @@
 
 	.success-panel h2 {
 		margin: 0;
-		font-size: 1.8rem;
+		font-size: 1.6rem;
 		text-align: center;
 		color: var(--text-primary);
 	}
@@ -945,14 +969,14 @@
 	.success-panel p {
 		margin: 0;
 		text-align: center;
-		line-height: 1.6;
+		line-height: 1.65;
 		color: var(--text-secondary);
 	}
 
 	.success-actions {
 		display: flex;
 		flex-direction: column;
-		gap: 0.9rem;
+		gap: 1rem;
 	}
 
 	.text-link {
@@ -965,8 +989,10 @@
 	}
 
 	.text-link:hover {
-		color: color-mix(in srgb, var(--primary) 82%, white);
+		color: color-mix(in srgb, var(--primary) 78%, white);
 	}
+
+	/* ── Sections ── */
 
 	.signal-strip,
 	.proof-section,
@@ -975,22 +1001,19 @@
 	.process-section,
 	.faq-section,
 	.final-cta {
-		margin-top: 1.4rem;
-		padding: 1.5rem;
-	}
-
-	.signal-strip {
-		display: grid;
-		gap: 1.5rem;
+		margin-top: 2rem;
+		padding: 2rem 1.75rem;
 	}
 
 	.signal-strip h2,
 	.section-heading h2,
 	.proof-copy h2,
 	.final-copy h2 {
-		margin: 0 0 0.65rem;
-		font-size: clamp(1.9rem, 3vw, 2.9rem);
-		line-height: 1.05;
+		margin: 0 0 0.75rem;
+		font-size: clamp(1.5rem, 2.8vw, 2.1rem);
+		line-height: 1.18;
+		font-weight: 800;
+		letter-spacing: -0.02em;
 		color: var(--text-primary);
 	}
 
@@ -1004,23 +1027,34 @@
 		color: var(--text-secondary);
 	}
 
+	.proof-copy p + p {
+		margin-top: 0.75rem;
+	}
+
+	/* ── Signal strip ── */
+
+	.signal-strip {
+		display: grid;
+		gap: 2rem;
+	}
+
 	.signal-links {
 		display: grid;
-		gap: 0.9rem;
+		gap: 0.75rem;
 	}
 
 	.signal-link {
 		display: grid;
 		gap: 0.25rem;
-		border-radius: 1rem;
-		border: 1px solid color-mix(in srgb, var(--text-tertiary) 14%, transparent);
-		background: color-mix(in srgb, var(--bg-elevated) 65%, transparent);
-		padding: 1rem;
+		border-radius: 0.875rem;
+		border: 1px solid color-mix(in srgb, var(--text-tertiary) 12%, transparent);
+		background: color-mix(in srgb, var(--bg-elevated) 50%, transparent);
+		padding: 1.125rem 1.25rem;
 		text-decoration: none;
 		transition:
-			transform 0.2s ease,
-			border-color 0.2s ease,
-			box-shadow 0.2s ease;
+			transform 0.15s ease,
+			border-color 0.15s ease,
+			box-shadow 0.15s ease;
 	}
 
 	.signal-link span {
@@ -1036,49 +1070,53 @@
 
 	.signal-link:hover {
 		transform: translateY(-1px);
-		border-color: color-mix(in srgb, var(--primary) 24%, transparent);
+		border-color: color-mix(in srgb, var(--primary) 28%, transparent);
 		box-shadow: var(--shadow-md);
 	}
 
+	/* ── Proof ── */
+
 	.proof-section {
 		display: grid;
-		gap: 1.5rem;
+		gap: 2rem;
 	}
 
 	.proof-copy {
 		display: grid;
-		gap: 1rem;
+		gap: 0.5rem;
 	}
 
 	.founder-card {
 		display: grid;
-		gap: 1.1rem;
+		gap: 1.5rem;
 		align-items: center;
-		border-radius: 1.2rem;
-		border: 1px solid color-mix(in srgb, var(--text-tertiary) 14%, transparent);
+		border-radius: 1rem;
+		border: 1px solid color-mix(in srgb, var(--text-tertiary) 10%, transparent);
 		background: linear-gradient(
 			135deg,
-			color-mix(in srgb, var(--primary) 10%, transparent) 0%,
-			color-mix(in srgb, var(--bg-surface) 92%, transparent) 100%
+			color-mix(in srgb, var(--primary) 7%, transparent) 0%,
+			color-mix(in srgb, var(--bg-surface) 96%, transparent) 100%
 		);
-		padding: 1.25rem;
+		padding: 1.75rem;
 	}
 
 	.founder-photo {
 		width: 100%;
-		max-width: 10rem;
-		border-radius: 1rem;
-		border: 1px solid color-mix(in srgb, var(--primary) 18%, transparent);
+		max-width: 9rem;
+		border-radius: 0.875rem;
+		border: 1px solid color-mix(in srgb, var(--primary) 14%, transparent);
 	}
 
 	.founder-label {
-		margin-bottom: 0.45rem;
-		font-size: 0.85rem;
+		margin-bottom: 0.5rem;
+		font-size: 0.8rem;
 		font-weight: 700;
-		letter-spacing: 0.08em;
+		letter-spacing: 0.1em;
 		text-transform: uppercase;
 		color: var(--primary);
 	}
+
+	/* ── Cards ── */
 
 	.stats-grid,
 	.card-grid {
@@ -1088,34 +1126,34 @@
 
 	.stat-card,
 	.content-card {
-		border-radius: 1.15rem;
-		border: 1px solid color-mix(in srgb, var(--text-tertiary) 14%, transparent);
-		background: color-mix(in srgb, var(--bg-elevated) 68%, transparent);
-		padding: 1.25rem;
+		border-radius: 1rem;
+		border: 1px solid color-mix(in srgb, var(--text-tertiary) 10%, transparent);
+		background: color-mix(in srgb, var(--bg-elevated) 48%, transparent);
+		padding: 1.5rem;
 		transition:
-			transform 0.2s ease,
-			border-color 0.2s ease,
-			box-shadow 0.2s ease;
+			transform 0.15s ease,
+			border-color 0.15s ease,
+			box-shadow 0.15s ease;
 	}
 
 	.stat-card:hover,
 	.content-card:hover {
-		transform: translateY(-1px);
+		transform: translateY(-2px);
 		border-color: color-mix(in srgb, var(--primary) 22%, transparent);
 		box-shadow: var(--shadow-md);
 	}
 
 	.stat-value {
 		margin-bottom: 0.35rem;
-		font-size: 2rem;
+		font-size: 2.5rem;
 		font-weight: 800;
 		line-height: 1;
 		color: var(--text-primary);
 	}
 
 	.stat-label {
-		margin-bottom: 0.45rem;
-		font-size: 1rem;
+		margin-bottom: 0.5rem;
+		font-size: 0.92rem;
 		font-weight: 700;
 		color: var(--primary);
 	}
@@ -1123,79 +1161,79 @@
 	.stat-card p,
 	.content-card p {
 		margin: 0;
-		line-height: 1.6;
+		font-size: 0.92rem;
+		line-height: 1.65;
 		color: var(--text-secondary);
 	}
 
 	.section-heading {
-		margin-bottom: 1.4rem;
+		margin-bottom: 1.5rem;
 	}
 
 	.content-card h3 {
-		margin: 0 0 0.45rem;
-		font-size: 1.15rem;
-		line-height: 1.2;
+		margin: 0 0 0.5rem;
+		font-size: 1.08rem;
+		line-height: 1.3;
+		font-weight: 700;
 		color: var(--text-primary);
 	}
 
 	.numbered-card,
 	.step-card {
 		position: relative;
-		padding-top: 1.6rem;
 	}
 
 	.card-number,
 	.step-number {
-		margin-bottom: 0.8rem;
-		font-size: 0.85rem;
+		margin-bottom: 0.75rem;
+		font-size: 0.82rem;
 		font-weight: 800;
-		letter-spacing: 0.16em;
+		letter-spacing: 0.14em;
 		text-transform: uppercase;
 		color: var(--primary);
+		opacity: 0.75;
 	}
 
 	.faq-card h3 {
-		font-size: 1.08rem;
+		font-size: 1.02rem;
 	}
+
+	/* ── Final CTA ── */
 
 	.final-cta {
 		display: grid;
-		gap: 1.25rem;
+		gap: 1.75rem;
 		align-items: center;
 		background:
 			radial-gradient(
 				circle at top right,
-				color-mix(in srgb, var(--primary) 16%, transparent) 0%,
-				transparent 32%
+				color-mix(in srgb, var(--primary) 10%, transparent) 0%,
+				transparent 40%
 			),
-			color-mix(in srgb, var(--bg-surface) 92%, transparent);
+			color-mix(in srgb, var(--bg-surface) 88%, transparent);
 	}
 
 	.final-actions {
 		display: flex;
 		flex-direction: column;
-		gap: 0.9rem;
+		gap: 1rem;
 	}
 
-	@media (min-width: 768px) {
-		.hero-grid {
-			grid-template-columns: minmax(0, 1.45fr) minmax(20rem, 26rem);
-			align-items: start;
-		}
+	/* ── Responsive ── */
 
-		.waitlist-panel {
-			position: sticky;
-			top: 5rem;
+	@media (min-width: 640px) {
+		.page-container {
+			padding: 3rem 2.5rem 5rem;
 		}
 
 		.signal-strip,
+		.proof-section,
+		.focus-section,
+		.outcomes-section,
+		.process-section,
+		.faq-section,
 		.final-cta {
-			grid-template-columns: minmax(0, 1.15fr) minmax(0, 0.95fr);
-			align-items: center;
-		}
-
-		.founder-card {
-			grid-template-columns: auto minmax(0, 1fr);
+			padding: 2.5rem;
 		}
 
 		.stats-grid {
@@ -1207,11 +1245,11 @@
 		}
 
 		.card-grid-3 {
-			grid-template-columns: repeat(3, minmax(0, 1fr));
+			grid-template-columns: repeat(2, minmax(0, 1fr));
 		}
 
-		.card-grid-4 {
-			grid-template-columns: repeat(4, minmax(0, 1fr));
+		.founder-card {
+			grid-template-columns: auto minmax(0, 1fr);
 		}
 
 		.success-actions,
@@ -1223,6 +1261,75 @@
 		.success-actions .btn-primary,
 		.final-actions .btn-primary {
 			width: auto;
+		}
+	}
+
+	@media (min-width: 960px) {
+		.page-container {
+			padding: 3.5rem 3rem 6rem;
+		}
+
+		.hero-grid {
+			grid-template-columns: minmax(0, 1fr) 26rem;
+			gap: 3.5rem;
+			align-items: start;
+			margin-bottom: 1.5rem;
+		}
+
+		.hero-copy {
+			padding-top: 1rem;
+		}
+
+		.hero-title {
+			margin-bottom: 1.75rem;
+		}
+
+		.waitlist-panel {
+			position: sticky;
+			top: 5rem;
+			padding: 2.25rem;
+		}
+
+		.signal-strip,
+		.proof-section,
+		.focus-section,
+		.outcomes-section,
+		.process-section,
+		.faq-section,
+		.final-cta {
+			margin-top: 2.75rem;
+			padding: 3rem;
+		}
+
+		.signal-strip,
+		.final-cta {
+			grid-template-columns: minmax(0, 1.15fr) minmax(0, 0.85fr);
+			align-items: center;
+			gap: 3rem;
+		}
+
+		.card-grid-3 {
+			grid-template-columns: repeat(3, minmax(0, 1fr));
+		}
+
+		.card-grid-4 {
+			grid-template-columns: repeat(4, minmax(0, 1fr));
+		}
+
+		.card-grid {
+			gap: 1.125rem;
+		}
+
+		.section-heading {
+			margin-bottom: 2rem;
+		}
+
+		.proof-section {
+			gap: 2.5rem;
+		}
+
+		.founder-card {
+			padding: 2rem;
 		}
 	}
 

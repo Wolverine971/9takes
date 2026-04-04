@@ -329,4 +329,3 @@ The result is a parallel media ecosystem with real cultural power. Rogan's endor
 - **The Female Podcaster Gap**: Alex Cooper, Brené Brown, and others dominate specific genres. The "intellectual long-form" space remains predominantly male. Is that a personality type pattern, a cultural barrier, or both?
 - **The Guest Selection Psychology**: Who each host invites reveals their type. Rogan wants fighters and comedians (8 energy). Lex wants philosophers and scientists (5 energy). Ferriss wants peak performers. What does the guest list tell you about the host's inner world?
 - **The Second Generation**: A wave of newer hosts—Andrew Schulz, Theo Von, Danny Jones—are building audiences using the infrastructure the original podcast bros created but with different personality types and different energy. How does the Enneagram map shift as the ecosystem expands?
-

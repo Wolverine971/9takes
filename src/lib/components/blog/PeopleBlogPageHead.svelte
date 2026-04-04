@@ -7,6 +7,7 @@
 		formatPersonalityDisplayName,
 		resolvePersonalityImageSlug
 	} from '$lib/utils/personalityAnalysis';
+	import { buildSocialImageUrl } from '$lib/utils/socialImage';
 	import {
 		buildBreadcrumbSchema,
 		parseJsonLdSnippet,
@@ -28,7 +29,7 @@
 		buildPersonalityImagePath(data?.enneagram, data?.person || data?.slug)
 	);
 	let shareImageUrl = $derived(
-		buildPersonalityImageUrl(data?.enneagram, data?.person || data?.slug)
+		buildSocialImageUrl(buildPersonalityImageUrl(data?.enneagram, data?.person || data?.slug))
 	);
 	let resolvedPersonSlug = $derived(resolvePersonalityImageSlug(data?.person || data?.slug));
 
@@ -142,6 +143,10 @@
 	<meta property="og:locale" content="en_US" />
 	{#if shareImageUrl}
 		<meta property="og:image" content={shareImageUrl} />
+		<meta property="og:image:secure_url" content={shareImageUrl} />
+		<meta property="og:image:type" content="image/png" />
+		<meta property="og:image:width" content="1080" />
+		<meta property="og:image:height" content="1080" />
 		<meta property="og:image:alt" content={personName} />
 	{/if}
 
@@ -153,6 +158,7 @@
 	<meta name="twitter:url" content={canonicalUrl} />
 	{#if shareImageUrl}
 		<meta name="twitter:image" content={shareImageUrl} />
+		<meta name="twitter:image:src" content={shareImageUrl} />
 	{/if}
 	<meta name="twitter:image:alt" content={personName} />
 
