@@ -9,7 +9,19 @@ const STATIC_ROOT = path.resolve('static');
 const ALLOWED_PATH_PREFIX = '/types/';
 const ALLOWED_EXTENSION = /\.(?:png|webp|jpe?g)$/i;
 const FALLBACK_IMAGE_PATH = '/brand/aero.png';
+const MAX_CONVERTED_IMAGE_CACHE_ENTRIES = 256;
 const convertedImageCache = new Map<string, Buffer>();
+
+function setCachedPng(sourcePath: string, pngBuffer: Buffer): void {
+	convertedImageCache.set(sourcePath, pngBuffer);
+
+	if (convertedImageCache.size > MAX_CONVERTED_IMAGE_CACHE_ENTRIES) {
+		const firstKey = convertedImageCache.keys().next().value;
+		if (firstKey) {
+			convertedImageCache.delete(firstKey);
+		}
+	}
+}
 
 function resolveStaticAssetPath(requestedPath: string | null): string | null {
 	if (!requestedPath?.startsWith(ALLOWED_PATH_PREFIX) || !ALLOWED_EXTENSION.test(requestedPath)) {
@@ -53,7 +65,7 @@ async function toPngBuffer(sourcePath: string, request: Request): Promise<Buffer
 		? sourceBuffer
 		: await sharp(sourceBuffer).png().toBuffer();
 
-	convertedImageCache.set(sourcePath, pngBuffer);
+	setCachedPng(sourcePath, pngBuffer);
 	return pngBuffer;
 }
 

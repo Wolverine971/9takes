@@ -256,14 +256,6 @@
 							<h2>Type {typeNum}: {typeNames[typeNum].name}</h2>
 							<p class="type-tagline">{typeNames[typeNum].tagline}</p>
 						</div>
-						<a href="/personality-analysis/type/{typeNum}" class="view-all-link">
-							View all Type {typeNum}s
-							<ArrowRightIcon
-								iconStyle={'margin-left: 0.25rem'}
-								height={'1rem'}
-								fill={'currentColor'}
-							/>
-						</a>
 					</div>
 
 					<div class="people-grid">
@@ -290,10 +282,10 @@
 						<a
 							href="/personality-analysis/type/{typeNum}"
 							class="person-card view-all-card"
-							aria-label="View all Type {typeNum} personalities"
+							aria-label="View all Enneagram Type {typeNum} personalities"
 						>
 							<div class="view-all-content">
-								<span class="view-all-text">All Type {typeNum}s</span>
+								<span class="view-all-text">View all Type {typeNum}s</span>
 								<ArrowRightIcon iconStyle={''} height={'1.25rem'} fill={'currentColor'} />
 							</div>
 						</a>
@@ -590,26 +582,6 @@
 		font-size: 0.8125rem;
 		color: var(--text-tertiary);
 		margin: 0.125rem 0 0;
-	}
-
-	.view-all-link {
-		display: flex;
-		align-items: center;
-		font-size: 0.8125rem;
-		font-weight: 500;
-		color: var(--text-tertiary);
-		text-decoration: none;
-		transition: all 0.2s ease;
-		white-space: nowrap;
-		padding: 0.375rem 0.75rem;
-		border-radius: 0.375rem;
-		border: 1px solid transparent;
-
-		&:hover {
-			color: var(--accent-light);
-			background: rgba(45, 212, 191, 0.1);
-			border-color: rgba(45, 212, 191, 0.2);
-		}
 	}
 
 	/* People Grid */
@@ -1053,10 +1025,6 @@
 			flex-direction: row;
 			align-items: center;
 		}
-
-		.view-all-link {
-			margin-top: 0.25rem;
-		}
 	}
 
 	@media (max-width: 640px) {
@@ -1169,11 +1137,6 @@
 
 		.type-tagline {
 			font-size: 0.75rem;
-		}
-
-		.view-all-link {
-			font-size: 0.75rem;
-			padding: 0.25rem 0.5rem;
 		}
 
 		.people-grid {
