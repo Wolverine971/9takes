@@ -3,7 +3,7 @@
   xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://9takes.com</loc>
-    <lastmod>2026-04-04</lastmod>
+    <lastmod>2026-04-06</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/about</loc>
@@ -11,7 +11,7 @@
   </url>
   <url>
     <loc>https://9takes.com/blog</loc>
-    <lastmod>2026-04-04</lastmod>
+    <lastmod>2026-04-06</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/blog/experiment</loc>
@@ -887,7 +887,7 @@
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis</loc>
-    <lastmod>2026-04-04</lastmod>
+    <lastmod>2026-04-06</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/abraham-lincoln</loc>
@@ -1164,7 +1164,7 @@
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/categories</loc>
-    <lastmod>2026-04-04</lastmod>
+    <lastmod>2026-04-06</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/categories/authors-thinkers</loc>
@@ -1172,11 +1172,11 @@
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/categories/comedy</loc>
-    <lastmod>2026-04-03</lastmod>
+    <lastmod>2026-04-06</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/categories/creator-media</loc>
-    <lastmod>2026-04-03</lastmod>
+    <lastmod>2026-04-06</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/categories/film-tv</loc>
@@ -1184,15 +1184,15 @@
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/categories/music</loc>
-    <lastmod>2026-04-03</lastmod>
+    <lastmod>2026-04-06</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/categories/politics-public</loc>
-    <lastmod>2026-04-03</lastmod>
+    <lastmod>2026-04-06</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/categories/tech-business</loc>
-    <lastmod>2026-04-03</lastmod>
+    <lastmod>2026-04-06</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/chamath-palihapitiya</loc>
@@ -1469,7 +1469,7 @@
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/frida-kahlo</loc>
-    <lastmod>2025-12-09</lastmod>
+    <lastmod>2026-04-06</lastmod>
     <image:image>
       <image:loc>https://9takes.com/types/4s/Frida-Kahlo.webp</image:loc>
     </image:image>
@@ -2001,7 +2001,7 @@
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/lex-fridman</loc>
-    <lastmod>2026-02-19</lastmod>
+    <lastmod>2026-04-06</lastmod>
     <image:image>
       <image:loc>https://9takes.com/types/5s/Lex-Fridman.webp</image:loc>
     </image:image>
@@ -2421,7 +2421,7 @@
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/sabrina-carpenter</loc>
-    <lastmod>2026-02-06</lastmod>
+    <lastmod>2026-04-06</lastmod>
     <image:image>
       <image:loc>https://9takes.com/types/3s/Sabrina-Carpenter.webp</image:loc>
     </image:image>
@@ -2568,7 +2568,7 @@
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/theo-von</loc>
-    <lastmod>2026-02-10</lastmod>
+    <lastmod>2026-04-06</lastmod>
     <image:image>
       <image:loc>https://9takes.com/types/7s/Theo-Von.webp</image:loc>
     </image:image>
@@ -2582,7 +2582,7 @@
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/tim-dillon</loc>
-    <lastmod>2026-02-23</lastmod>
+    <lastmod>2026-04-06</lastmod>
     <image:image>
       <image:loc>https://9takes.com/types/7s/Tim-Dillon.webp</image:loc>
     </image:image>
@@ -2723,15 +2723,15 @@
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/type/3</loc>
-    <lastmod>2026-04-03</lastmod>
+    <lastmod>2026-04-06</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/type/4</loc>
-    <lastmod>2026-04-03</lastmod>
+    <lastmod>2026-04-06</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/type/5</loc>
-    <lastmod>2026-04-03</lastmod>
+    <lastmod>2026-04-06</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/type/6</loc>
@@ -2739,7 +2739,7 @@
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/type/7</loc>
-    <lastmod>2026-04-03</lastmod>
+    <lastmod>2026-04-06</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/type/8</loc>

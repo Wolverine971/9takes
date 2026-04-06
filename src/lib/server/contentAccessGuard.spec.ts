@@ -61,6 +61,34 @@ describe('contentAccessGuard', () => {
 		).toBeNull();
 	});
 
+	it('classifies Meta-WebIndexer as an allowed AI crawler', () => {
+		expect(
+			getHardBlockedReason({
+				method: 'GET',
+				pathname: '/personality-analysis/jennifer-lopez',
+				userAgent:
+					'meta-webindexer/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler)'
+			})
+		).toBeNull();
+
+		const requester = getContentRequester({
+			method: 'GET',
+			pathname: '/personality-analysis/jennifer-lopez',
+			userAgent:
+				'meta-webindexer/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler)',
+			clientIp: '57.141.4.57',
+			anonymousId: null,
+			isAuthenticated: false
+		});
+
+		expect(requester).toEqual({
+			kind: 'allowed_ai_crawler',
+			name: 'Meta-WebIndexer',
+			actorKey: 'crawler:meta-webindexer',
+			actorType: 'allowed_ai_crawler'
+		});
+	});
+
 	it('does not block HEAD requests used by audits and link checks', () => {
 		expect(
 			getHardBlockedReason({

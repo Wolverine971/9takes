@@ -36,7 +36,12 @@ export type SearchPreviewBotName =
 	| 'PerplexityBot';
 
 export type UserFetchBotName = 'ChatGPT-User' | 'Claude-User' | 'Perplexity-User';
-export type AllowedAiCrawlerName = 'GPTBot' | 'ClaudeBot' | 'CCBot' | 'Google-Extended';
+export type AllowedAiCrawlerName =
+	| 'GPTBot'
+	| 'ClaudeBot'
+	| 'CCBot'
+	| 'Google-Extended'
+	| 'Meta-WebIndexer';
 export type HardBlockedReason = 'unknown_bot_user_agent';
 export type ContentActorType = 'anonymous_human' | 'allowed_ai_crawler';
 export type ContentRequestKind = 'page' | 'data';
@@ -137,7 +142,8 @@ const ALLOWED_AI_CRAWLERS: BotDefinition<AllowedAiCrawlerName>[] = [
 	{ name: 'GPTBot', pattern: /gptbot/i },
 	{ name: 'ClaudeBot', pattern: /claudebot/i },
 	{ name: 'CCBot', pattern: /\bccbot\b/i },
-	{ name: 'Google-Extended', pattern: /google-extended/i }
+	{ name: 'Google-Extended', pattern: /google-extended/i },
+	{ name: 'Meta-WebIndexer', pattern: /meta-webindexer/i }
 ];
 
 const GENERIC_BOT_PATTERNS = [/\bbot\b/i, /\bcrawler\b/i, /\bspider\b/i, /\bscraper\b/i];

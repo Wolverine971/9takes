@@ -3584,6 +3584,23 @@ export type Database = {
           user_id: string
         }[]
       }
+      claim_specific_sequence_send: {
+        Args: { p_enrollment_id: string }
+        Returns: {
+          enneagram: string
+          enrollment_id: string
+          html_content: string
+          plain_text: string
+          recipient_email: string
+          recipient_name: string
+          recipient_source: string
+          recipient_source_id: string
+          sequence_key: string
+          step_number: number
+          subject: string
+          user_id: string
+        }[]
+      }
       claim_telemetry_cleanup_slot: {
         Args: { p_min_interval?: string; p_now?: string; p_task_name: string }
         Returns: boolean

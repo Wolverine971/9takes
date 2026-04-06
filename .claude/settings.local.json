@@ -1557,7 +1557,8 @@
 			"WebFetch(domain:pureai.com)",
 			"WebFetch(domain:www.techrepublic.com)",
 			"WebFetch(domain:www.engadget.com)",
-			"WebFetch(domain:aimagazine.com)"
+			"WebFetch(domain:aimagazine.com)",
+			"WebFetch(domain:global.penguinrandomhouse.com)"
 		],
 		"deny": [],
 		"ask": [],

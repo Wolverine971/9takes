@@ -208,7 +208,10 @@ export async function processPendingSequenceSends(limit = 10): Promise<SequenceP
 		throw error;
 	}
 
-	return processClaimedSequenceSends(supabase, getClaimedSequenceRows(data as SequenceSendRow[] | null));
+	return processClaimedSequenceSends(
+		supabase,
+		getClaimedSequenceRows(data as SequenceSendRow[] | null)
+	);
 }
 
 export async function processSequenceEnrollmentNow(
@@ -223,5 +226,8 @@ export async function processSequenceEnrollmentNow(
 		throw error;
 	}
 
-	return processClaimedSequenceSends(supabase, getClaimedSequenceRows(data as SequenceSendRow[] | null));
+	return processClaimedSequenceSends(
+		supabase,
+		getClaimedSequenceRows(data as SequenceSendRow[] | null)
+	);
 }

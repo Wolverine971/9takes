@@ -27,9 +27,9 @@ path: src/blog/people/drafts/Simon-Sinek.md
 
 That's not a contradiction. That's the entire story.
 
-**Simon Sinek** built a career teaching people how to find their "why." His TED talk has been watched over 60 million times. He's written five books on leadership, belonging, and infinite games. He founded The Optimism Company. He advises the United States Marine Corps. Corporations call him when they need someone to explain to a room full of executives why their people don't care.
+**Simon Sinek** built a career teaching people how to find their "why." He's written five books on leadership, belonging, and infinite games. He founded The Optimism Company. He advises the United States Marine Corps. Corporations pay him upwards of $200,000 to explain to a room full of executives why their people don't care.
 
-He has never been married. Never had a ten-year relationship. Describes himself as "pretty undateable." Wasn't diagnosed with the ADHD that silently shaped every close relationship until he was 32.
+He has never been married. He's 52. Wasn't diagnosed with the ADHD that silently shaped every close relationship until he was 32.
 
 <details>
 <summary class="accordion">TL;DR: Why Simon Sinek is an Enneagram Type 2</summary>
@@ -99,20 +99,22 @@ And Sinek broke.
 
 That single moment, a friend seeing through the performance, and Sinek letting them, is the hinge on which his entire career turns. Professional disillusionment sent him back to his anthropology training. He started researching human behavior. He met Victoria Duffy Hopper, who explained the limbic brain and the neocortex. Something clicked. The Golden Circle took shape. "Start With Why" was born.
 
+The idea is deceptively simple: three concentric circles — **Why** at the center, **How** in the middle, **What** on the outside. Most companies communicate from the outside in: _here's what we make, here's how we make it_. Inspiring leaders reverse the direction, starting with _why_ they exist — their purpose, their belief — before explaining anything else. Sinek argued this maps to how the brain works: purpose speaks to the limbic system, which drives decisions; features speak to the neocortex, which rationalizes them. The neuroscience would later be challenged (more on that below), but the framework's emotional logic was undeniable.
+
 "I would help people find their why for a hundred dollars on the side. It was never supposed to be a career."
 
-It became the third most-watched TED talk in history. Given to 50 people in a small room at TEDxPugetSound in 2009, it's now been viewed over 60 million times.
+Given to 50 people in a small room at TEDxPugetSound in 2009, it became one of the five most-watched TED talks in history — nearly 70 million views and counting.
 
 ## What is Simon Sinek's Personality Type?
 
 ### Simon Sinek is an Enneagram Type 2
 
-Most people see a leadership guru, a man who teaches companies about purpose and culture. But if you understand [Type 2](/enneagram-corner/enneagram-type-2), the real driver isn't intellectual curiosity about organizations. It's a bone-deep need to be useful. To be the person others can't do without.
+If you understand [Type 2](/enneagram-corner/enneagram-type-2), the real driver behind Sinek's career isn't intellectual curiosity about organizations. It's a bone-deep need to be useful. To be the person others can't do without.
 
 Two patterns in particular set him apart from other types:
 
 - **He chose the Marines as his spiritual home.** Not Silicon Valley. Not Wall Street. The military, where "officers eat last" and service is doctrine. He tells a story about a Marine lieutenant who, after letting his men eat first, had no food left. Without being asked, the Marines took food from their own plates and brought it to him. That anecdote is the animating image of his entire philosophy. He wrote a book about it, _Leaders Eat Last_, but the book is almost beside the point. The Marines embody the world he wants to live in: one where giving is the price of entry and no one keeps score. A [Type 3](/enneagram-corner/enneagram-type-3) would have been drawn to the achievement culture of Silicon Valley. A [Type 5](/enneagram-corner/enneagram-type-5) would have stayed in academia. Sinek needed the institution that made selflessness a rule.
-- **He spent two decades teaching vulnerability but had to build formal systems to practice it himself.** The "no crying alone" protocol during COVID, the 8-minute phone calls with friends, the deliberate practice of saying "I love you" on every call. All infrastructure a person builds when the behavior doesn't come naturally. Type 2s know how to give care instinctively. Receiving it requires engineering.
+- **He spent two decades teaching vulnerability but had to build formal systems to practice it himself.** The "no crying alone" protocol during COVID, scheduled calls with friends, the deliberate practice of saying "I love you" on every call. All infrastructure a person builds when the behavior doesn't come naturally. Type 2s know how to give care instinctively. Receiving it requires engineering.
 
 The wing matters too. Sinek reads as a 2w1, the Servant. The One wing adds moral conviction to the giving instinct. He doesn't just want to help; he believes helping is the _right thing to do_. His company isn't called The Success Company. It's The **Optimism** Company. He founded The Curve to reform policing: cause-driven, justice-oriented, idealistic. The One wing gives his generosity a backbone of principle.
 
@@ -138,19 +140,39 @@ In an April 2025 interview recorded at his home, Sinek called ADHD "my greatest 
 <iframe width="560" height="315" loading="lazy" src="https://www.youtube.com/embed/D46zvJI-njU?si=5IZF4VlSd1HSlHEP" title="Simon Sinek on the Diary of a CEO discussing loneliness and vulnerability" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
 
+## How the Guy Who Teaches Frameworks Actually Works
+
+For someone who sells structure to corporations, Sinek's own work habits are remarkably formless. He has no daily writing practice. For _Start With Why_, he was most productive on airplanes. For _Leaders Eat Last_, he needed a collaborator in the room. For _The Infinite Game_, he treated it like a 9-to-5 job.
+
+The constants: phone on airplane mode, stored in a drawer or another room. A curated focus playlist he's built over years. A notebook in his back pocket at all times — "We lose ideas as quickly as we have them." At the end of each day, three questions: _What went well? What could have gone better? What did I learn?_
+
+He doesn't believe in writer's block. Just inspired days and uninspired days. His books are "semi-autobiographical" — he discovers solutions to his own challenges, shares them with friends, and when they help others, he writes about them. It's a process that runs on the same engine as his personality: give first, then formalize what worked.
+
 ## The Books He Needed to Believe
 
 Every Simon Sinek book is an argument he's making to himself.
 
 _Start With Why_ came from his own crisis of purpose. _Leaders Eat Last_ came from the Marine Corps service culture he craves. _The Infinite Game_, drawing on philosopher James Carse's 1986 work, came from watching peers burn out chasing finite wins and thinking: what if there's a way to keep going that doesn't consume you?
 
-His output keeps expanding. The Optimism Company offers leadership courses and workshops. Optimism Press, his imprint with Penguin Random House, has published seven books by other authors: Will Guidara's _Unreasonable Hospitality_, Jean Oelwang's _Partnering_, Bob Chapman's _Everybody Matters_. He curates a shelf of voices reinforcing his own message.
-
-But the notable gap: Sinek hasn't published an original book since _The Infinite Game_ in 2019. Seven years. For someone who averaged a book every two to three years from 2009 to 2019, the silence is conspicuous.
+But the notable gap: Sinek hasn't published an original book since _The Infinite Game_ in 2019. Seven years. For someone who averaged a book every two to three years from 2009 to 2019, the silence is conspicuous. Instead, he launched Optimism Press through Penguin Random House and started publishing _other people's_ books — Will Guidara's _Unreasonable Hospitality_, Jean Oelwang's _Partnering_. The man who built a career on having answers stopped writing his own and started curating other people's voices.
 
 His podcast _A Bit of Optimism_ has become his primary creative output, and its dominant theme in recent years is friendship. Not leadership. Not purpose. Friendship. "The topic I'm most obsessed with right now," he's said, noting that there are "entire economies" around finding romantic love but almost nothing on how to make and keep friends.
 
 The man who built his brand on having answers may be sitting with a question he hasn't solved yet.
+
+## The Optimism Industrial Complex
+
+Here's where the Type 2 narrative gets complicated.
+
+Sinek charges $200,000 to $400,000 per speaking engagement. His company offers on-demand courses for $249 each, private classes starting at $3,000, and coaching sessions at $1,500 for two hours. The Optimism Company employs over 300 people. Net worth estimates range from $18 million to $50 million. He gives roughly seven speeches a year — selective enough to keep demand high, frequent enough to generate over a million dollars annually from the stage alone.
+
+None of this is a secret. But it sits uncomfortably next to the "leaders eat last" ethos. The man whose foundational parable is about a Marine officer going hungry so his troops can eat has built a premium-priced empire selling the idea of selfless service. One critic called his output "paper-thin concepts" sold to "personal development consumers to make himself incredibly wealthy." Another dubbed him "the Andr&eacute; Rieu of motivation."
+
+The defense, if there is one, is that Sinek never claimed to be a nonprofit. And the consulting-industrial complex has always charged premium rates. But the tension between the message and the price tag is real — and it's the kind of tension a [Type 2](/enneagram-corner/enneagram-type-2) would genuinely struggle with, even if the bank account doesn't show it.
+
+His social media operation adds another layer. Nearly 5 million Instagram followers. Almost 8 million on LinkedIn. A production team that distills his recorded talks into polished one-liners and shareable clips. For someone who preaches vulnerability and sitting in the mud, the content machine is remarkably curated — every post optimized for engagement, every quote designed for the screenshot-and-share cycle. The man who asks audiences to "start with why" runs a content strategy that starts with the algorithm.
+
+He's also notably apolitical, which in someone with his reach is itself a position. He sat down with President Biden at the White House, framing it as a conversation about leadership. He accepted a $98,000 no-bid contract from ICE in 2018 for leadership training. He founded The Curve to reform policing after George Floyd's murder. He moves comfortably through both liberal and conservative spaces without declaring for either side. "I chose to stay clear of politics," he's said. At his price point, neutrality is good business.
 
 ## The People Who Actually Know Him
 
@@ -166,7 +188,7 @@ There's a general, unnamed, who started saying "I love you" to Sinek at the end 
 
 And there's Sara. His sister who lost her fianc&eacute; on a subway ride, who rebuilt her life, who now has children that Simon is uncle to. She appeared on his podcast. The family that learned to carry love between continents never stopped.
 
-In January 2025, during the Los Angeles wildfires, Sinek posted: "Los Angeles is my home and my family's home." He pledged The Optimism Company's sales to fire relief. The man who spent decades based in New York, the city that rewards ambition over attachment, appears to have moved to be near the people he loves. On the _Finding Mastery_ podcast in October 2025, he said he would now "miss deadlines or quarters to live near people I love."
+In January 2025, during the Los Angeles wildfires, Sinek posted: "Los Angeles is my home and my family's home." He pledged The Optimism Company's sales to fire relief. The man who spent decades based in New York, the city that rewards ambition over attachment, appears to have moved to be near the people he loves. On the _Finding Mastery_ podcast in September 2025, he said he would now "miss deadlines or quarters to live near people I love."
 
 That sentence would have been unthinkable from the 2005 version of Simon Sinek.
 
@@ -202,6 +224,6 @@ People approach him after talks, whispering. Thanking him for talking about his 
 
 He doesn't have one. He has 8-minute calls with Maria and Christina. A general who tells him "I love you" without flinching. A sister who knows what it means to lose the person you thought you'd belong to forever. A podcast where friendship has become his obsession because there are entire economies for finding romance and almost nothing for finding the people who will sit in the mud with you.
 
-On the _Finding Mastery_ podcast in October 2025, Sinek said he'd carried stress about being unmarried "for decades" and had previously believed his own narrative that he was "a failure" and "bad at relationships." He's since rejected that framing. "I'm a very happy person," he said, "with great friends."
+On the _Finding Mastery_ podcast in September 2025, Sinek said he'd carried stress about being unmarried "for decades" and had previously believed his own narrative that he was "a failure" and "bad at relationships." He's since rejected that framing. "I'm a very happy person," he said, "with great friends."
 
 Whether you believe him is, in some sense, the whole question. At 52, the evidence suggests he's building something he never learned as a child shuffling between continents: a life where belonging isn't something you earn by being useful. It's something you let in.

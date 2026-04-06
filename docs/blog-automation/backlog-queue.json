@@ -1,37 +1,11 @@
 {
-	"lastUpdated": "2026-04-04T03:00:00Z",
+	"lastUpdated": "2026-04-06T12:30:00Z",
 	"stats": {
 		"totalUnpublished": 87,
 		"totalPublished": 265,
 		"completionRate": "75.3%"
 	},
 	"queue": [
-		{
-			"name": "brené-brown",
-			"displayName": "Brené Brown",
-			"type": 2,
-			"priority": 98,
-			"priorityReason": "TED talk fame, vulnerability research, Type 2 archetype, fills underserved type",
-			"estimatedTraffic": "very-high",
-			"searchVolume": "very-high",
-			"personaTitle": null,
-			"addedToQueue": "2026-04-03",
-			"retryCount": 0,
-			"strategicValue": "completes-type-2-cluster"
-		},
-		{
-			"name": "glen-powell",
-			"displayName": "Glen Powell",
-			"type": 3,
-			"priority": 97,
-			"priorityReason": "Hollywood's hottest rising star, Top Gun/Twisters momentum, extremely high current search",
-			"estimatedTraffic": "very-high",
-			"searchVolume": "very-high",
-			"personaTitle": null,
-			"addedToQueue": "2026-04-03",
-			"retryCount": 0,
-			"strategicValue": "hollywood-rising-star-cluster"
-		},
 		{
 			"name": "gordon-ramsay",
 			"displayName": "Gordon Ramsay",
@@ -360,6 +334,17 @@
 	],
 	"completed": [
 		{
+			"name": "glen-powell",
+			"displayName": "Glen Powell",
+			"type": 3,
+			"priority": 97,
+			"completedAt": "2026-04-06T12:30:00Z",
+			"contentGrade": 8.7,
+			"letterGrade": "B+",
+			"duration": 30,
+			"needsReview": false
+		},
+		{
 			"name": "adele",
 			"displayName": "Adele",
 			"type": 4,
@@ -439,7 +424,17 @@
 		}
 	],
 	"inProgress": null,
-	"failed": [],
+	"failed": [
+		{
+			"name": "brené-brown",
+			"displayName": "Brené Brown",
+			"type": 2,
+			"priority": 98,
+			"failedAt": "2026-04-06T08:40:00Z",
+			"reason": "Process interrupted - Claude Code session terminated",
+			"retryCount": 1
+		}
+	],
 	"metadata": {
 		"priorityAlgorithm": "typeMultiplier * 10 + personaTitleBonus + searchVolumeEstimate",
 		"typeMultipliers": {

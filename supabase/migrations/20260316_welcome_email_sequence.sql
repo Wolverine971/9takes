@@ -470,44 +470,33 @@ BEGIN
       v_sequence_id,
       1,
       0,
-      'Welcome to 9takes - your authentic perspective matters',
+      'Welcome to 9takes',
       $$<p>Hi {{first_name}},</p>
 <p>Welcome to 9takes.</p>
-<p>You just joined a place built around one simple idea:</p>
-<p><strong>your honest take matters more when it arrives before everyone else''s.</strong></p>
-<p>Most platforms train you to absorb the room first and think second.</p>
-<p>9takes works the other way around:</p>
-<ul>
-  <li>you see a question</li>
-  <li>you give your take first</li>
-  <li>then you unlock the other perspectives</li>
-</ul>
-<p>That friction is intentional. It helps you notice what you actually think, where your blind spots are, and how differently other people interpret the same situation.</p>
-<p><a href="{{questions_url}}">Browse current questions</a> and answer one before reading the room.</p>
-<p>Two minutes is enough.</p>
+<p>Here's how it works: you see a question, you answer it, then you see what everyone else said.</p>
+<p><strong>You have to go first. That's the whole thing.</strong></p>
+<p>Most platforms let you lurk and read the room before you say anything. We flip that. You put your take out there first, then you get to see how other people read the same situation.</p>
+<p><a href="{{questions_url}}">Pick a question and answer it.</a> Takes about two minutes.</p>
 <p>DJocrates<br />9takes.com</p>
-<p>P.S. If your first take feels a little vulnerable, that usually means you are doing it right.</p>$$,
+<p>P.S. If your first answer feels a little uncomfortable, you're probably doing it right.</p>$$,
       $$Hi {{first_name}},
 
 Welcome to 9takes.
 
-You just joined a place built around one simple idea: your honest take matters more when it arrives before everyone else's.
+Here's how it works: you see a question, you answer it, then you see what everyone else said.
 
-Most platforms train you to absorb the room first and think second.
+You have to go first. That's the whole thing.
 
-9takes works the other way around:
-- you see a question
-- you give your take first
-- then you unlock the other perspectives
+Most platforms let you lurk and read the room before you say anything. We flip that. You put your take out there first, then you get to see how other people read the same situation.
 
-That friction is intentional. It helps you notice what you actually think, where your blind spots are, and how differently other people interpret the same situation.
+Pick a question and answer it: {{questions_url}}
 
-Browse current questions: {{questions_url}}
-
-Two minutes is enough.
+Takes about two minutes.
 
 DJocrates
-9takes.com$$,
+9takes.com
+
+P.S. If your first answer feels a little uncomfortable, you're probably doing it right.$$,
       NOW(),
       NOW()
     ),
@@ -517,33 +506,33 @@ DJocrates
       2,
       'He thinks she''s cold. She thinks he''s needy.',
       $$<p>Hi {{first_name}},</p>
-<p>He sees her go quiet after a long day and thinks: <em>she''s pulling away.</em></p>
-<p>She sees him double-text after an hour and thinks: <em>he''s being clingy.</em></p>
-<p><strong>Neither is right.</strong> They are just reading the same moment through completely different filters.</p>
-<p>That is the kind of gap 9takes is built to surface: <strong>same situation, different internal logic.</strong></p>
+<p>He sees her go quiet after a long day and thinks she's pulling away.</p>
+<p>She sees him double-text after an hour and thinks he's being clingy.</p>
+<p><strong>Neither is right.</strong> They're reading the same moment through totally different filters.</p>
+<p>That's what 9takes shows you. Same situation, different people, different reads.</p>
 <ul>
-  <li>One person reads silence as rejection. Another reads it as &quot;I need space to think.&quot;</li>
-  <li>One person reads a follow-up message as pressure. Another reads it as care.</li>
+  <li>One person sees silence as rejection. Another sees it as needing space to think.</li>
+  <li>One person sees a follow-up text as pressure. Another sees it as care.</li>
 </ul>
-<p>The gap is not about who is right. It is about recognizing that people are rarely reacting from the same inner pattern you are.</p>
-<p><a href="{{questions_url}}">Browse a live question</a> and compare how different people are reading the same situation.</p>
+<p>It's not about who's right. It's about seeing that people aren't reacting from the same place you are.</p>
+<p><a href="{{questions_url}}">Check out a live question</a> and see how different people read the same thing.</p>
 <p>DJocrates<br />9takes.com</p>$$,
       $$Hi {{first_name}},
 
-He sees her go quiet after a long day and thinks: she's pulling away.
+He sees her go quiet after a long day and thinks she's pulling away.
 
-She sees him double-text after an hour and thinks: he's being clingy.
+She sees him double-text after an hour and thinks he's being clingy.
 
-Neither is right. They are just reading the same moment through completely different filters.
+Neither is right. They're reading the same moment through totally different filters.
 
-That is the kind of gap 9takes is built to surface: same situation, different internal logic.
+That's what 9takes shows you. Same situation, different people, different reads.
 
-- One person reads silence as rejection. Another reads it as "I need space to think."
-- One person reads a follow-up message as pressure. Another reads it as care.
+- One person sees silence as rejection. Another sees it as needing space to think.
+- One person sees a follow-up text as pressure. Another sees it as care.
 
-The gap is not about who is right. It is about recognizing that people are rarely reacting from the same inner pattern you are.
+It's not about who's right. It's about seeing that people aren't reacting from the same place you are.
 
-Browse a live question: {{questions_url}}
+Check out a live question: {{questions_url}}
 
 DJocrates
 9takes.com$$,
@@ -554,48 +543,39 @@ DJocrates
       v_sequence_id,
       3,
       3,
-      'Your perspective is missing from this conversation',
+      'We need your take',
       $$<p>Hi {{first_name}},</p>
-<p>By now you''ve seen how 9takes works.</p>
-<p><strong>Now we need your take in the mix.</strong></p>
-<p>Not because the platform needs filler. Because your perspective notices things other people miss.</p>
-<p>That is the whole point of the product:</p>
-<ul>
-  <li>different people catch different signals</li>
-  <li>different types interpret the same event differently</li>
-  <li>the conversation gets smarter when more real perspectives show up</li>
-</ul>
-<p>If you are not sure where to start, pick one:</p>
+<p>You've seen how 9takes works by now.</p>
+<p><strong>Now we need you in the mix.</strong></p>
+<p>Not because we need filler. Because you notice things other people miss. Different people catch different signals, read the same event differently. The conversation gets better when more real people show up.</p>
+<p>If you're not sure where to start, pick one:</p>
 <ol>
   <li><a href="{{ask_question_url}}">Ask your own question</a></li>
-  <li><a href="{{questions_url}}">Comment on a live question</a></li>
-  <li><a href="{{questions_url}}">Browse more examples first</a></li>
+  <li><a href="{{questions_url}}">Answer a live one</a></li>
+  <li><a href="{{questions_url}}">Just browse a bit more</a></li>
 </ol>
-<p>You do not need the perfect take. You just need the honest one.</p>
+<p>You don't need the perfect answer. Just an honest one.</p>
 <p>DJocrates<br />9takes.com</p>
-<p>P.S. The best 9takes users are not the ones with the most personality theory. They are the ones willing to contribute one real perspective.</p>$$,
+<p>P.S. The best 9takes users aren't personality experts. They're just people willing to share one real take.</p>$$,
       $$Hi {{first_name}},
 
-By now you've seen how 9takes works.
+You've seen how 9takes works by now.
 
-Now we need your take in the mix.
+Now we need you in the mix.
 
-Not because the platform needs filler. Because your perspective notices things other people miss.
+Not because we need filler. Because you notice things other people miss. Different people catch different signals, read the same event differently. The conversation gets better when more real people show up.
 
-That is the whole point of the product:
-- different people catch different signals
-- different types interpret the same event differently
-- the conversation gets smarter when more real perspectives show up
-
-If you are not sure where to start, pick one:
+If you're not sure where to start, pick one:
 1. Ask your own question: {{ask_question_url}}
-2. Comment on a live question: {{questions_url}}
-3. Browse more examples first: {{questions_url}}
+2. Answer a live one: {{questions_url}}
+3. Just browse a bit more: {{questions_url}}
 
-You do not need the perfect take. You just need the honest one.
+You don't need the perfect answer. Just an honest one.
 
 DJocrates
-9takes.com$$,
+9takes.com
+
+P.S. The best 9takes users aren't personality experts. They're just people willing to share one real take.$$,
       NOW(),
       NOW()
     ),
@@ -603,46 +583,47 @@ DJocrates
       v_sequence_id,
       4,
       5,
-      'How''s your 9takes experience going?',
+      'Is 9takes clicking for you?',
       $$<p>Hi {{first_name}},</p>
-<p>You''ve had some time with 9takes now, so here is the real question:</p>
-<p><strong>is it clicking yet?</strong></p>
+<p>You've had some time with 9takes now so I'll just ask: is it clicking?</p>
 <p>Usually one of three things is true:</p>
 <ol>
-  <li>You are getting it. You have started noticing how differently people interpret the same situation.</li>
-  <li>You are interested, but a little unsure how to use it. If that''s you, just reply to this email. I read replies.</li>
-  <li>It is not landing for you. That is fine too. Not every tool is for every person.</li>
+  <li>You're getting it. You've started noticing how differently people read the same situation.</li>
+  <li>You're interested but not sure how to use it. If that's you, reply to this email. I read every one.</li>
+  <li>It's not for you. That's fine too.</li>
 </ol>
-<p>If you are in bucket 2, here is the simplest way to use 9takes:</p>
+<p>If you're in the second camp, here's the simplest way to use 9takes:</p>
 <ul>
   <li>find a question that feels real</li>
   <li>answer before reading everyone else</li>
   <li>compare what you saw with what they saw</li>
 </ul>
-<p>That one pattern is the whole product.</p>
-<p>If you want to give it one more real try: <a href="{{questions_url}}">browse current questions</a>.</p>
+<p>That one loop is the whole product.</p>
+<p>If you want to give it one more shot: <a href="{{questions_url}}">browse current questions</a>.</p>
 <p>DJocrates<br />9takes.com</p>
-<p>P.S. If it is not a fit, no hard feelings. Better a clean unsubscribe than inbox clutter.</p>$$,
+<p>P.S. If it's not a fit, no hard feelings. Better to unsubscribe than let it clutter your inbox.</p>$$,
       $$Hi {{first_name}},
 
-You've had some time with 9takes now, so here is the real question: is it clicking yet?
+You've had some time with 9takes now so I'll just ask: is it clicking?
 
 Usually one of three things is true:
-1. You are getting it. You have started noticing how differently people interpret the same situation.
-2. You are interested, but a little unsure how to use it. If that's you, just reply to this email. I read replies.
-3. It is not landing for you. That is fine too. Not every tool is for every person.
+1. You're getting it. You've started noticing how differently people read the same situation.
+2. You're interested but not sure how to use it. If that's you, reply to this email. I read every one.
+3. It's not for you. That's fine too.
 
-If you are in bucket 2, here is the simplest way to use 9takes:
+If you're in the second camp, here's the simplest way to use 9takes:
 - find a question that feels real
 - answer before reading everyone else
 - compare what you saw with what they saw
 
-That one pattern is the whole product.
+That one loop is the whole product.
 
-If you want to give it one more real try, browse current questions: {{questions_url}}
+If you want to give it one more shot, browse current questions: {{questions_url}}
 
 DJocrates
-9takes.com$$,
+9takes.com
+
+P.S. If it's not a fit, no hard feelings. Better to unsubscribe than let it clutter your inbox.$$,
       NOW(),
       NOW()
     )

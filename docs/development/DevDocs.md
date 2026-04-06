@@ -88,14 +88,17 @@ Ben-Affleck
 Matt-Damon
 Khloe-Kardashian
 Kris-Jenner
+Simon-Sinek
 
 src/blog/pop-culture/podcast-bros-enneagram-analysis.md
 
-Act like a normal person who is reading this article and tell me what i missed or what i should expand on or what was overdone or duplicate info that could be trimmed. Review the Adele blog, read it and put your comments as a comment at the bottom of the article
+Act like a normal person who is reading this article and tell me what i missed or what i should expand on or what was overdone or duplicate info that could be trimmed. Review the Patrick-Bet-David blog, read it and put your comments as a comment at the bottom of the article
 
-Ok so i added some comments at the bottom of the article Adele, please assess the comments and see if we should add some more or address some parts based on that feedback. Do more research as needed and make the blog better. Also trim things that are overdone or duplicated so that everything is fresh and well done.
+Try to assess it with fresh eyes. Think about what this person is know for and what someone who knows about them would want to have insight into and what should be addressed.
 
-I want you to edit this blog on Sydney-Sweeney and use the content-editor agent doc to guide you.
+Ok so i added some comments at the bottom of the article Patrick-Bet-David, please assess the comments and see if we should add some more or address some parts based on that feedback. Do more research as needed and make the blog better. Also trim things that are overdone or duplicated so that everything is fresh and well done.
+
+I want you to edit this blog on Noam-Chomsky and use the content-editor agent doc to guide you.
 
 Act like a normal person who is reading these articles and tell me what i missed or what i should expand on or what was overdone or duplicate info that could be trimmed. Review the blogs, read it and put your comments as a comment at the bottom of each article, also tell me how they fit together
 

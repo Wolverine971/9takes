@@ -314,11 +314,7 @@
 			color-mix(in srgb, var(--bg-surface) 84%, var(--bg-base) 16%) 100%
 		);
 		--type-chip-border: color-mix(in srgb, var(--primary-dark) 24%, var(--border-color));
-		--type-chip-border-strong: color-mix(
-			in srgb,
-			var(--primary) 34%,
-			var(--glass-border)
-		);
+		--type-chip-border-strong: color-mix(in srgb, var(--primary) 34%, var(--glass-border));
 		--type-chip-text: var(--primary-dark);
 		--type-chip-highlight: color-mix(in srgb, var(--primary-lightest) 18%, transparent);
 		--type-chip-shadow: color-mix(in srgb, var(--primary) 18%, transparent);
