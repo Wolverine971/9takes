@@ -1,18 +1,23 @@
 // src/routes/register/register.page.server.spec.ts
 import { beforeEach, describe, expect, it, vi } from 'vitest';
 
-const { verifyRecaptchaMock, isHoneypotTriggeredMock, safelyEnrollMock, loggerMocks } = vi.hoisted(
-	() => ({
-		verifyRecaptchaMock: vi.fn(),
-		isHoneypotTriggeredMock: vi.fn(),
-		safelyEnrollMock: vi.fn(),
-		loggerMocks: {
-			info: vi.fn(),
-			warn: vi.fn(),
-			error: vi.fn()
-		}
-	})
-);
+const {
+	verifyRecaptchaMock,
+	isHoneypotTriggeredMock,
+	safelyEnrollMock,
+	safelyProcessMock,
+	loggerMocks
+} = vi.hoisted(() => ({
+	verifyRecaptchaMock: vi.fn(),
+	isHoneypotTriggeredMock: vi.fn(),
+	safelyEnrollMock: vi.fn(),
+	safelyProcessMock: vi.fn(),
+	loggerMocks: {
+		info: vi.fn(),
+		warn: vi.fn(),
+		error: vi.fn()
+	}
+}));
 
 vi.mock('$lib/utils/recaptcha', () => ({
 	verifyRecaptcha: verifyRecaptchaMock,
@@ -20,7 +25,8 @@ vi.mock('$lib/utils/recaptcha', () => ({
 }));
 
 vi.mock('$lib/server/welcomeSequenceGuards', () => ({
-	safelyEnrollUserInWelcomeSequence: safelyEnrollMock
+	safelyEnrollUserInWelcomeSequence: safelyEnrollMock,
+	safelyProcessWelcomeSequenceEnrollmentNow: safelyProcessMock
 }));
 
 vi.mock('$lib/utils/logger', () => ({
@@ -69,7 +75,8 @@ describe('register action', () => {
 		vi.clearAllMocks();
 		verifyRecaptchaMock.mockResolvedValue(true);
 		isHoneypotTriggeredMock.mockReturnValue(false);
-		safelyEnrollMock.mockResolvedValue(true);
+		safelyEnrollMock.mockResolvedValue('enrollment-1');
+		safelyProcessMock.mockResolvedValue(true);
 	});
 
 	it('keeps successful registration working while enrolling in the welcome sequence', async () => {
@@ -85,10 +92,15 @@ describe('register action', () => {
 				email: 'user@example.com'
 			})
 		);
+		expect(safelyProcessMock).toHaveBeenCalledWith(
+			expect.objectContaining({
+				enrollmentId: 'enrollment-1'
+			})
+		);
 	});
 
 	it('still returns success when welcome-sequence enrollment fails internally', async () => {
-		safelyEnrollMock.mockResolvedValue(false);
+		safelyEnrollMock.mockResolvedValue(null);
 		const event = buildEvent();
 
 		const result = await actions.register(event as any);
@@ -96,5 +108,10 @@ describe('register action', () => {
 		expect(result).toEqual({ success: true });
 		expect(event._signUp).toHaveBeenCalledTimes(1);
 		expect(safelyEnrollMock).toHaveBeenCalledTimes(1);
+		expect(safelyProcessMock).toHaveBeenCalledWith(
+			expect.objectContaining({
+				enrollmentId: null
+			})
+		);
 	});
 });

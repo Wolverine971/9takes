@@ -31,7 +31,7 @@ vi.mock('$lib/email/sequences', () => ({
 	prepareSequenceSend: prepareSequenceSendMock
 }));
 
-import { processPendingSequenceSends } from './emailSequences';
+import { processPendingSequenceSends, processSequenceEnrollmentNow } from './emailSequences';
 
 function makeRow(overrides: Record<string, unknown> = {}) {
 	return {
@@ -53,10 +53,12 @@ function makeRow(overrides: Record<string, unknown> = {}) {
 
 function createSupabaseMock(options?: {
 	claimedRows?: Array<Record<string, unknown>>;
+	specificClaimedRows?: Array<Record<string, unknown>>;
 	completeError?: { message: string } | null;
 	exitEmailError?: { message: string } | null;
 }) {
 	const claimedRows = options?.claimedRows ?? [];
+	const specificClaimedRows = options?.specificClaimedRows ?? [];
 	const completeError = options?.completeError ?? null;
 	const exitEmailError = options?.exitEmailError ?? null;
 
@@ -69,6 +71,8 @@ function createSupabaseMock(options?: {
 		switch (fn) {
 			case 'claim_pending_sequence_sends':
 				return { data: claimedRows, error: null };
+			case 'claim_specific_sequence_send':
+				return { data: specificClaimedRows, error: null };
 			case 'complete_sequence_send':
 				return { data: null, error: completeError };
 			case 'retry_or_fail_sequence_send':
@@ -156,6 +160,29 @@ describe('processPendingSequenceSends', () => {
 		expect(supabase.rpc).toHaveBeenCalledWith('complete_sequence_send', {
 			p_enrollment_id: 'enrollment-1',
 			p_email_send_id: 'send-1'
+		});
+	});
+
+	it('can claim and send a specific enrollment immediately', async () => {
+		const supabase = createSupabaseMock({
+			specificClaimedRows: [makeRow()]
+		});
+		getSupabaseAdminClientMock.mockReturnValue(supabase);
+		sendEmailWithTrackingMock.mockResolvedValue({
+			success: true,
+			emailSend: { id: 'send-1' }
+		});
+
+		const result = await processSequenceEnrollmentNow('enrollment-1');
+
+		expect(result).toEqual({
+			claimed: 1,
+			sent: 1,
+			skipped: 0,
+			errors: 0
+		});
+		expect(supabase.rpc).toHaveBeenCalledWith('claim_specific_sequence_send', {
+			p_enrollment_id: 'enrollment-1'
 		});
 	});
 

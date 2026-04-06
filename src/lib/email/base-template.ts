@@ -83,7 +83,7 @@ export function generateEmailHtml(options: TemplateOptions): string {
 <body style="margin: 0; padding: 0; background-color: #f7f7f7;">
   <!-- Preheader -->
   <div style="display: none; max-height: 0; overflow: hidden; mso-hide: all;">
-    ${escapeHtml(preheader || subject)}
+    ${preheader ? escapeHtml(preheader) : ''}
     ${'&nbsp;'.repeat(100)}
   </div>
 

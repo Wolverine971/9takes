@@ -15,6 +15,10 @@ type SequenceProcessingSummary = {
 	errors: number;
 };
 
+function getClaimedSequenceRows(data: SequenceSendRow[] | null | undefined) {
+	return (data ?? []).filter((row) => row.sequence_key);
+}
+
 async function markEnrollmentErrored(enrollmentId: string, message: string) {
 	const supabase = getSupabaseAdminClient() as any;
 
@@ -86,17 +90,10 @@ export async function exitWelcomeSequenceForEmail(email: string, reason: string)
 	return exitEmailFromSequence(email, WELCOME_SEQUENCE_KEY, reason);
 }
 
-export async function processPendingSequenceSends(limit = 10): Promise<SequenceProcessingSummary> {
-	const supabase = getSupabaseAdminClient() as any;
-	const { data, error } = await supabase.rpc('claim_pending_sequence_sends', {
-		p_limit: limit
-	});
-
-	if (error) {
-		throw error;
-	}
-
-	const claimed = ((data as SequenceSendRow[] | null) ?? []).filter((row) => row.sequence_key);
+async function processClaimedSequenceSends(
+	supabase: any,
+	claimed: SequenceSendRow[]
+): Promise<SequenceProcessingSummary> {
 	if (claimed.length === 0) {
 		return { claimed: 0, sent: 0, skipped: 0, errors: 0 };
 	}
@@ -199,4 +196,32 @@ export async function processPendingSequenceSends(limit = 10): Promise<SequenceP
 	}
 
 	return summary;
+}
+
+export async function processPendingSequenceSends(limit = 10): Promise<SequenceProcessingSummary> {
+	const supabase = getSupabaseAdminClient() as any;
+	const { data, error } = await supabase.rpc('claim_pending_sequence_sends', {
+		p_limit: limit
+	});
+
+	if (error) {
+		throw error;
+	}
+
+	return processClaimedSequenceSends(supabase, getClaimedSequenceRows(data as SequenceSendRow[] | null));
+}
+
+export async function processSequenceEnrollmentNow(
+	enrollmentId: string
+): Promise<SequenceProcessingSummary> {
+	const supabase = getSupabaseAdminClient() as any;
+	const { data, error } = await supabase.rpc('claim_specific_sequence_send', {
+		p_enrollment_id: enrollmentId
+	});
+
+	if (error) {
+		throw error;
+	}
+
+	return processClaimedSequenceSends(supabase, getClaimedSequenceRows(data as SequenceSendRow[] | null));
 }

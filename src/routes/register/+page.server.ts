@@ -4,7 +4,10 @@ import { AuthApiError } from '@supabase/supabase-js';
 import type { PageServerLoad } from './$types';
 import { logger } from '$lib/utils/logger';
 import { verifyRecaptcha, isHoneypotTriggered } from '$lib/utils/recaptcha';
-import { safelyEnrollUserInWelcomeSequence } from '$lib/server/welcomeSequenceGuards';
+import {
+	safelyEnrollUserInWelcomeSequence,
+	safelyProcessWelcomeSequenceEnrollmentNow
+} from '$lib/server/welcomeSequenceGuards';
 import { z } from 'zod';
 
 // Validation schema
@@ -84,13 +87,23 @@ export const actions: Actions = {
 			}
 
 			const newUserId = signUpData.user?.id;
-			await safelyEnrollUserInWelcomeSequence({
+			const enrollmentId = await safelyEnrollUserInWelcomeSequence({
 				userId: newUserId,
 				email,
 				onError: (sequenceError) => {
 					logger.error('Failed to enroll user in welcome sequence', sequenceError as Error, {
 						email,
 						userId: newUserId
+					});
+				}
+			});
+			await safelyProcessWelcomeSequenceEnrollmentNow({
+				enrollmentId,
+				onError: (sequenceError) => {
+					logger.error('Failed to send initial welcome sequence email', sequenceError as Error, {
+						email,
+						userId: newUserId,
+						enrollmentId
 					});
 				}
 			});

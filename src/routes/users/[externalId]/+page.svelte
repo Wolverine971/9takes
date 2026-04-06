@@ -41,8 +41,13 @@
 	const subscriptions = $derived((data.subscriptions || []) as Subscription[]);
 	const comments = $derived((data.comments || []) as UserComment[]);
 
-	const enneagramType = $derived(data?.user?.enneagram ?? '');
+	const enneagramType = $derived(String(data?.user?.enneagram ?? '').trim());
 	const typeName = $derived(enneagramNames[enneagramType] || '');
+	const hasKnownType = $derived(Boolean(typeName));
+	const displayType = $derived(hasKnownType ? enneagramType : '?');
+	const profileHeading = $derived(
+		data.user?.first_name?.trim() || (hasKnownType ? `Type ${enneagramType} User` : 'User Profile')
+	);
 
 	function formatDate(dateStr: string | null): string {
 		if (!dateStr) return '';
@@ -68,7 +73,9 @@
 </script>
 
 <svelte:head>
-	<title>User Profile — Type {enneagramType} | 9takes</title>
+	<title>
+		User Profile{hasKnownType ? ` — Type ${enneagramType}` : ''} | 9takes
+	</title>
 </svelte:head>
 
 <div class="page">
@@ -77,17 +84,11 @@
 		<div class="card header-card">
 			<div class="header-content">
 				<div class="avatar">
-					{enneagramType || '?'}
+					{displayType}
 				</div>
 				<div class="user-details">
-					<h1>
-						{#if data.user?.first_name}
-							{data.user.first_name}
-						{:else}
-							Type {enneagramType} User
-						{/if}
-					</h1>
-					{#if typeName}
+					<h1>{profileHeading}</h1>
+					{#if hasKnownType}
 						<span class="type-badge">
 							Type {enneagramType} — The {typeName}
 						</span>
@@ -223,9 +224,31 @@
 
 <style lang="scss">
 	.page {
+		--profile-card-bg: color-mix(in srgb, var(--bg-surface) 88%, var(--bg-base));
+		--profile-card-border: color-mix(in srgb, var(--primary) 12%, var(--bg-elevated));
+		--profile-card-shadow: 0 24px 48px color-mix(in srgb, var(--shadow-color) 24%, transparent);
+		--profile-stat-bg: color-mix(in srgb, var(--bg-surface) 76%, var(--bg-deep));
+		--profile-stat-border: color-mix(in srgb, var(--text-tertiary) 18%, transparent);
+		--profile-chip-bg: color-mix(in srgb, var(--primary) 12%, transparent);
+		--profile-chip-border: color-mix(in srgb, var(--primary) 22%, transparent);
+		--profile-chip-text: color-mix(in srgb, var(--primary-dark) 70%, var(--text-primary));
+		--profile-list-bg: color-mix(in srgb, var(--bg-deep) 72%, var(--bg-surface));
+		--profile-list-border: color-mix(in srgb, var(--text-tertiary) 16%, transparent);
+		--profile-list-hover-bg: color-mix(in srgb, var(--primary) 10%, var(--bg-surface));
+		--profile-list-hover-border: color-mix(in srgb, var(--primary) 24%, var(--bg-elevated));
 		min-height: 100vh;
 		padding: 1.5rem 1rem 3rem;
-		background: linear-gradient(180deg, rgba(15, 15, 25, 0.5) 0%, transparent 100%);
+		background:
+			radial-gradient(
+				circle at top center,
+				color-mix(in srgb, var(--primary) 14%, transparent) 0%,
+				transparent 42%
+			),
+			linear-gradient(
+				180deg,
+				color-mix(in srgb, var(--bg-surface) 32%, transparent) 0%,
+				transparent 100%
+			);
 	}
 
 	.container {
@@ -240,16 +263,27 @@
 	.card {
 		width: 100%;
 		box-sizing: border-box;
-		background: rgba(20, 20, 30, 0.8);
-		border: 1px solid color-mix(in srgb, var(--text-tertiary) 15%, transparent);
+		background: var(--profile-card-bg);
+		border: 1px solid var(--profile-card-border);
 		border-radius: 1rem;
 		padding: 1.25rem;
-		backdrop-filter: blur(10px);
+		box-shadow: var(--profile-card-shadow);
+		backdrop-filter: blur(14px);
 	}
 
 	.header-card {
-		background: linear-gradient(135deg, rgba(45, 212, 191, 0.12) 0%, rgba(20, 20, 30, 0.9) 100%);
-		border-color: rgba(45, 212, 191, 0.2);
+		background:
+			linear-gradient(
+				135deg,
+				color-mix(in srgb, var(--primary) 16%, transparent) 0%,
+				transparent 58%
+			),
+			linear-gradient(
+				180deg,
+				color-mix(in srgb, var(--bg-surface) 92%, var(--bg-base)) 0%,
+				var(--profile-card-bg) 100%
+			);
+		border-color: color-mix(in srgb, var(--primary) 22%, var(--bg-elevated));
 	}
 
 	.header-content {
@@ -262,7 +296,9 @@
 		width: 3.5rem;
 		height: 3.5rem;
 		background: linear-gradient(135deg, var(--primary-dark) 0%, var(--accent-dark) 100%);
+		border: 1px solid color-mix(in srgb, var(--bg-surface) 65%, transparent);
 		border-radius: 0.75rem;
+		box-shadow: 0 18px 36px color-mix(in srgb, var(--primary-glow) 45%, transparent);
 		display: flex;
 		align-items: center;
 		justify-content: center;
@@ -275,6 +311,9 @@
 	.user-details {
 		min-width: 0;
 		flex: 1;
+		display: flex;
+		flex-direction: column;
+		gap: 0.35rem;
 
 		h1 {
 			font-size: 1.25rem;
@@ -287,13 +326,14 @@
 
 	.type-badge {
 		display: inline-block;
-		background: rgba(45, 212, 191, 0.15);
-		color: var(--accent-light);
-		padding: 0.2rem 0.625rem;
+		width: fit-content;
+		background: var(--profile-chip-bg);
+		color: var(--profile-chip-text);
+		padding: 0.3rem 0.7rem;
 		border-radius: 1rem;
 		font-size: 0.75rem;
-		font-weight: 500;
-		border: 1px solid rgba(45, 212, 191, 0.2);
+		font-weight: 600;
+		border: 1px solid var(--profile-chip-border);
 	}
 
 	.stats-row {
@@ -303,13 +343,14 @@
 	}
 
 	.stat-card {
-		background: rgba(20, 20, 30, 0.8);
-		border: 1px solid color-mix(in srgb, var(--text-tertiary) 15%, transparent);
+		background: var(--profile-stat-bg);
+		border: 1px solid var(--profile-stat-border);
 		border-radius: 0.75rem;
 		padding: 0.875rem;
 		display: flex;
 		flex-direction: column;
 		gap: 0.125rem;
+		box-shadow: inset 0 1px 0 color-mix(in srgb, var(--bg-surface) 45%, transparent);
 		backdrop-filter: blur(10px);
 	}
 
@@ -322,9 +363,9 @@
 
 	.stat-label {
 		font-size: 0.6875rem;
-		color: var(--text-tertiary);
+		color: var(--text-secondary);
 		text-transform: uppercase;
-		letter-spacing: 0.03em;
+		letter-spacing: 0.08em;
 	}
 
 	.card-header {
@@ -346,22 +387,26 @@
 
 	.card-subtitle {
 		font-size: 0.75rem;
-		color: var(--text-tertiary);
+		color: var(--text-secondary);
 		margin: 0;
 	}
 
 	.badge {
-		background: rgba(45, 212, 191, 0.2);
-		color: var(--accent-light);
-		padding: 0.125rem 0.5rem;
+		background: var(--profile-chip-bg);
+		color: var(--profile-chip-text);
+		padding: 0.18rem 0.55rem;
 		border-radius: 1rem;
 		font-size: 0.6875rem;
 		font-weight: 600;
+		border: 1px solid var(--profile-chip-border);
 	}
 
 	.empty-state {
 		text-align: center;
 		padding: 1.5rem 1rem;
+		border: 1px dashed color-mix(in srgb, var(--text-tertiary) 22%, transparent);
+		border-radius: 0.875rem;
+		background: color-mix(in srgb, var(--bg-deep) 46%, var(--bg-surface));
 
 		p {
 			color: var(--text-secondary);
@@ -398,6 +443,8 @@
 		gap: 0.375rem;
 		max-height: 400px;
 		overflow-y: auto;
+		scrollbar-width: thin;
+		scrollbar-color: color-mix(in srgb, var(--primary) 40%, transparent) transparent;
 
 		&::-webkit-scrollbar {
 			width: 4px;
@@ -419,15 +466,27 @@
 		justify-content: space-between;
 		gap: 0.625rem;
 		padding: 0.75rem 0.875rem;
-		background: rgba(15, 23, 42, 0.4);
-		border: 1px solid color-mix(in srgb, var(--text-tertiary) 10%, transparent);
+		background: var(--profile-list-bg);
+		border: 1px solid var(--profile-list-border);
 		border-radius: 0.5rem;
+		color: inherit;
 		text-decoration: none;
-		transition: all 0.15s ease;
+		box-shadow: inset 0 1px 0 color-mix(in srgb, var(--bg-surface) 42%, transparent);
+		transition:
+			background-color 0.15s ease,
+			border-color 0.15s ease,
+			transform 0.15s ease,
+			box-shadow 0.15s ease;
 
-		&:hover {
-			background: rgba(45, 212, 191, 0.08);
-			border-color: rgba(45, 212, 191, 0.2);
+		&:hover,
+		&:focus {
+			background: var(--profile-list-hover-bg);
+			border-color: var(--profile-list-hover-border);
+			transform: translateY(-1px);
+			box-shadow:
+				inset 0 1px 0 color-mix(in srgb, var(--bg-surface) 52%, transparent),
+				0 14px 24px color-mix(in srgb, var(--shadow-color) 14%, transparent);
+			outline: none;
 
 			.chevron {
 				opacity: 1;
@@ -450,7 +509,7 @@
 	}
 
 	.item-answer {
-		color: var(--text-tertiary);
+		color: var(--text-secondary);
 		font-size: 0.75rem;
 		line-height: 1.4;
 		margin: 0.25rem 0 0;
@@ -464,8 +523,8 @@
 	.chevron {
 		width: 1rem;
 		height: 1rem;
-		color: var(--primary-dark);
-		opacity: 0.4;
+		color: var(--primary);
+		opacity: 0.55;
 		flex-shrink: 0;
 		transition: all 0.15s ease;
 	}
