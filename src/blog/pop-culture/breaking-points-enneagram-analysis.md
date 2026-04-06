@@ -49,7 +49,7 @@ This blog is about _why_. Not just politically—psychologically. Their Enneagra
 
 ## Krystal Ball: The Making of a Moral Worldview
 
-Krystal Ball grew up in King George County, Virginia—small-town, 60 miles south of D.C. Her father Edward is a physicist (her name literally comes from his dissertation on crystals). Her mother Rose Marie is a teacher. Precision and education ran through the household. She attended Clemson University for a year before transferring to UVA, where she studied economics and became a CPA. She then co-founded an educational software company with her husband that took her international—working with education partners in Jordan, South Korea, Abu Dhabi, and Dubai. She was working in Jordan during the 2008 election when watching the global reaction to American politics hit differently.
+Krystal Ball grew up in **King George County, Virginia**—small-town, 60 miles south of D.C. Her father Edward is a physicist (her name literally comes from his dissertation on crystals). Her mother Rose Marie is a teacher. _Precision and education ran through the household._ She attended Clemson University for a year before transferring to UVA, where she studied economics and became a CPA. She then co-founded an **educational software company** with her husband that took her international—working with education partners in Jordan, South Korea, Abu Dhabi, and Dubai. She was working in Jordan during the 2008 election when watching the global reaction to American politics hit differently.
 
 That experience—seeing America from the outside—is the kind of thing that crystallizes a Type 1's worldview. Type 1s carry what the Enneagram calls a core wound: the deep sense that the world is fundamentally broken and someone needs to fix it. For most 1s, this wound takes root early. They grow up with an internal voice that says _things aren't the way they should be, and it's your responsibility to make them right._ In Krystal's case, the gap between America's stated ideals and its lived reality became the organizing principle of her political life.
 
@@ -65,6 +65,8 @@ Here's what most people get wrong about Type 1s: they think 1s are angry people.
 
 The childhood wound is the engine underneath all of this. Type 1s internalize an impossibly high standard early in life—a voice that says _you must be good, you must be correct, you must not let your frustration show because that means you've lost control._ This creates people who channel their intensity into moral frameworks rather than emotional outbursts. When Krystal talks about pharmaceutical pricing or corporate lobbying, the delivery is controlled, precise, organized. It's conviction expressed as argument. That's the 1's discipline at work.
 
+### Why She Left MSNBC
+
 This is the key difference between a 1's intensity and, say, an 8's intensity: an 8 pushes back because someone crossed _them_. A 1 pushes back because someone crossed a _principle_.
 
 This is also why she couldn't stay at MSNBC. A Type 1 cannot work inside a system they believe is corrupt—it violates their integrity at the deepest level. Her decision to leave, to criticize her own side relentlessly, to call out the Democratic establishment while being a Democrat—none of this is strategic. It's the Type 1 wound in action: _if the system is broken and I stay in it, I become part of what's wrong._ She didn't leave because the money was bad. She left because staying would have meant becoming the thing her internal compass told her was wrong.
@@ -73,7 +75,7 @@ The issues she cares about—income inequality, corporate capture of the Democra
 
 ## Saagar Enjeti: The Policy Wonk Who Can't Stop Pulling Threads
 
-Saagar Enjeti grew up in College Station, Texas—the son of two professors. His parents, Prasad Enjeti and Radhika Viruru, are Telugu immigrants from India, both faculty at Texas A&M. He reportedly attended the American School of Doha, then got a bachelor's in economics from George Washington University and a master's in security policy from Georgetown. He studied counter-terrorism in Israel and was a media fellow at the Hudson Institute. This is a person who grew up in a household where ideas were the family business—and he inherited the appetite.
+Saagar Enjeti grew up in **College Station, Texas**—the son of two professors. His parents, Prasad Enjeti and Radhika Viruru, are _Telugu immigrants from India_, both faculty at Texas A&M. He reportedly attended the American School of Doha, then got a bachelor's in economics from George Washington University and a **master's in security policy from Georgetown**. He studied counter-terrorism in Israel and was a media fellow at the Hudson Institute. This is a person who grew up in a household where ideas were the family business—and he inherited the appetite.
 
 His media career started at The Daily Caller as a White House correspondent. He gained national visibility while still in his twenties. But the resume isn't the interesting part. The interesting part is watching how his mind works—how he builds a political worldview by going down rabbit holes and refusing to come back up until he's found something nobody else noticed.
 
@@ -83,7 +85,7 @@ He co-launched _The Realignment_ podcast as a Hudson Institute project, explorin
 
 ### How Intellectual Hunger Becomes a Political Philosophy
 
-Saagar is a Type 7—the Enthusiast. And understanding the 7's childhood wound explains everything about how his political worldview developed. Type 7s carry a deep fear of being trapped—trapped in pain, trapped in deprivation, trapped in limitation. The way a 7 copes is by going outward: more ideas, more experiences, more connections, more stimulation. For a 7 with Saagar's intellectual wiring, that fear of being trapped becomes an insatiable hunger to understand _everything_.
+Saagar is a **Type 7—the Enthusiast**. And understanding the 7's childhood wound explains everything about how his political worldview developed. Type 7s carry a deep fear of being trapped—trapped in pain, trapped in deprivation, trapped in limitation. The way a 7 copes is by going outward: _more ideas, more experiences, more connections, more stimulation._ For a 7 with Saagar's intellectual wiring, that fear of being trapped becomes an insatiable hunger to understand _everything_.
 
 This is why he doesn't fit in any political box—and why calling him a nerd is actually the most accurate political description you can give him. He's pro-union but socially conservative. Anti-monopoly but hawkish on China. Pro-welfare state but skeptical of identity politics. A 7 doesn't pick a team and defend it. A 7 follows the interesting thread wherever it leads. If that thread takes him to progressive territory on trust-busting and conservative territory on immigration, that's not inconsistency—that's a mind that refuses to be trapped in someone else's framework.
 

@@ -160,7 +160,9 @@ You don't realize: It's documented. Hidden cameras. Witnesses. The "helper" now 
 
 ### The Epstein Files: The Pattern in Action
 
-On January 30, 2026, the DOJ published enough material to bring the total to nearly 3.5 million pages under the Epstein Files Transparency Act. ([Department of Justice](https://www.justice.gov/ag/epstein-files)) The email sequences appear consistent with an escalation pattern. The Elon Musk emails — detailed in the next section — are a case in point: 16 emails over 15 months show a relationship that escalated from "Very enjoyable conversation!" to asking about "the wildest party on your island" within weeks. ([TIME](https://time.com/7362868/elon-musk-epstein-emails/))
+On January 30, 2026, the DOJ published enough material to bring the total to nearly 3.5 million pages under the Epstein Files Transparency Act. ([Department of Justice](https://www.justice.gov/ag/epstein-files)) The email sequences appear consistent with an escalation pattern.
+
+The Elon Musk emails — detailed in the next section — are a case in point: 16 emails over 15 months show a relationship that escalated from "Very enjoyable conversation!" to asking about "the wildest party on your island" within weeks. ([TIME](https://time.com/7362868/elon-musk-epstein-emails/))
 
 **Stage 4: The Lock-In**
 
@@ -254,6 +256,8 @@ In another exchange, Epstein told Tisch he had a "**new present**." Tisch asked:
 
 Tisch's public statement: "We had a brief association where we exchanged emails about adult women." But the emails span from at least April 2013 to August 2017, Epstein's name appears 440 times in the released documents in connection with Tisch, and the relationship began years **after** Epstein's 2008 conviction and sex offender registration. ([NBC Sports](https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/the-facts-contradict-steve-tischs-claim-of-brief-association-with-jeffrey-epstein))
 
+#### No intellectual cover story
+
 **The psychology here is different from Gates or Musk.** There's no intellectual cover story, no stress-seeking-release narrative. Tisch wasn't lured through a side door. He walked through the front. What Epstein offered was simple: access to women, delivered with the efficiency of a concierge service, with zero accountability. Tisch's vulnerability wasn't curiosity or pressure — it was entitlement. The billionaire who treats the world as a catalog. Epstein simply became the one placing the orders.
 
 ### The Pattern
@@ -272,11 +276,15 @@ His household manual, written by Maxwell and entered as evidence at her trial, i
 
 This middle layer may be the most psychologically relatable part of the story. Most people aren't billionaires or trafficking victims. But plenty have been in a job where they saw something wrong, told themselves it wasn't their business, and kept cashing the check.
 
+### Institutional Legitimacy for Sale
+
 Beyond the enablers, there were the institutions themselves — and this speaks to a different kind of intelligence than the "financial genius" myth Epstein sold.
 
 Harvard accepted $8.9 million from Epstein between 1998 and 2007. ([CBS News](https://www.cbsnews.com/news/jeffrey-epstein-donated-8-9-million-to-harvard-university-says/)) MIT Media Lab secretly took his donations post-conviction — director Joi Ito marked them as anonymous to avoid controversy, with MIT officials agreeing that amounts below $5 million were acceptable. ([MIT News](https://news.mit.edu/2020/mit-releases-results-fact-finding-report-jeffrey-epstein-0110)) Both provided legitimacy: visiting fellowships, office space, event invitations. When you're a Harvard Visiting Fellow, you're not just "some guy." The university's reputation launders yours.
 
 The 2008 plea deal, where federal prosecutors dropped a 53-count indictment and allowed Epstein to plead to state charges with just 13 months in county jail, suggests institutional leverage at work. (See [Part 1](/pop-culture/epstein-psychology-part-1) for details on the intelligence connections.)
+
+### The Accountability Gap
 
 The document releases also revealed a stark contrast in accountability. In the UK, when the files showed Lord Mandelson had sent Epstein inside information about the British government's financial crisis response, the Metropolitan Police opened a criminal investigation. On February 23, 2026, Mandelson was arrested on suspicion of misconduct in public office — becoming the latest high-profile figure to face consequences from the Epstein document releases. ([Reuters](https://www.reuters.com/world/uk/britains-mandelson-arrested-over-alleged-misconduct-public-office-2026-02-23/)) ([The Guardian](https://www.theguardian.com/politics/2026/feb/23/lord-mandelson-arrested-misconduct-public-office)) The Prime Minister moved to strip his peerage.
 

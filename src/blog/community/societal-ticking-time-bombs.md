@@ -242,7 +242,7 @@ The system isn't designed to heal people. It's designed to create customers.
 
 And the results speak for themselves. Robert Whitaker documented in ["Anatomy of an Epidemic"](https://www.madinamerica.com/) that as psychiatric medication use exploded, disability rates for mental illness didn't go down -- they went UP. From 1 in 468 Americans on disability for mental illness in 1955 to 1 in 76 today. More meds, more sickness. Something is deeply, fundamentally wrong.
 
-The deeper problem is that people don't understand their emotions. They experience sadness or anxiety and immediately pathologize it. "Something must be wrong with me." But negative emotions are signals -- they're telling you something needs attention. And when a person shows up to a psychiatrist with a pile of unprocessed emotions and no language for what they're feeling, the psychiatrist -- who earns more from a 15-minute med check than an hour of therapy -- writes a prescription that numbs those emotions instead.
+The deeper problem is that people don't understand their emotions. They experience sadness or anxiety and immediately pathologize it. _"Something must be wrong with me."_ But negative emotions are **signals** -- they're telling you something needs attention. And when a person shows up to a psychiatrist with a pile of unprocessed emotions and no language for what they're feeling, the psychiatrist -- who earns more from a 15-minute med check than an hour of therapy -- writes a prescription that _numbs those emotions instead_.
 
 What's actually driving all that emotional overwhelm? I'll get to that in the [IQ section](#everyone-says-were-getting-dumber). But first -- there's another industry targeting people who are already emotionally vulnerable, and it's found the perfect demographic.
 
@@ -267,6 +267,8 @@ Sports betting is different from slots or roulette. It has a **skill narrative**
 Psychologists call this the ["illusion of control"](https://pmc.ncbi.nlm.nih.gov/articles/PMC9292938/) -- and the research shows that **knowledge actually amplifies the illusion rather than protecting against it.** The more you know about sports, the more confident you become in your bets, even though the house edge hasn't changed at all.
 
 For young men specifically, this hooks into something deep. [Research shows](https://pmc.ncbi.nlm.nih.gov/articles/PMC9059698/) that sports betting is tied to masculinity, identity, and proving yourself. It's a way to demonstrate knowledge, analytical skill, and risk tolerance -- all things that our culture tells men they should have. The betting slip becomes, as [one analysis put it](https://boomers-daily.com/2025/07/17/the-sports-betting-myth-and-modern-masculinity/), **"a proxy for achievement when traditional pathways feel blocked."**
+
+#### When Traditional Pathways Feel Blocked
 
 And those pathways are blocked for a lot of young men right now. The [Equimundo 2025 report](https://www.equimundo.org/resources/state-of-american-men-2025/) found that 86% of men define manhood by being a "provider," but three-quarters say it's harder for their generation to feel financially secure than their father's. Over half say home ownership is out of reach. **69% of Gen Z males agree that "no one cares if men are okay."**
 
@@ -312,6 +314,8 @@ Norway, Denmark, Finland, France, the UK, Australia, the Netherlands, Estonia, S
 
 There are biological contributors -- lead exposure, microplastics, phthalates -- and those deserve their own conversation.
 
+### The Information Overload Theory
+
 But I think something else is going on. We live in a hyper-connected world. In 1986, the average person received the equivalent of [40 newspapers worth of information per day](https://annenberg.usc.edu/news/published/phd-student-calculates-how-much-information-world). By 2007 -- _before smartphones_ -- that had jumped to **174 newspapers per day.** By 2008, the average American was consuming [34 gigabytes and roughly 100,500 words of information daily](https://qi.ucsd.edu/news-article.php?id=1630). Human brains are processing more information in a single day than our grandparents encountered in a month. No brain in history was built for this.
 
 And look what's happening with ADHD. Diagnoses among US children nearly doubled -- [from 6.1% in 1997 to 10.2% in 2016](https://pmc.ncbi.nlm.nih.gov/articles/PMC6324288/). Everyone treats this as a crisis. But a [2024 paper in _Evolutionary Psychological Science_](https://link.springer.com/article/10.1007/s40806-024-00400-8) reframes it: what we call ADHD distractibility is actually **"high trait curiosity"** -- an evolutionary adaptation that becomes a mismatch in environments that demand sustained monotonous focus, but _thrives_ in environments with high stimulation and novelty. When engagement is high, it drives hyperfocus and exceptional productivity. Sound like the internet to anyone? A [study of Kenyan Ariaal tribesmen](https://bmcecolevol.biomedcentral.com/articles/10.1186/1471-2148-8-173) found that men carrying the ADHD-linked gene were _better nourished_ when living as nomads -- but worse off when settled. The trait isn't broken. It's context-dependent. And [29% of entrepreneurs self-report ADHD](https://pmc.ncbi.nlm.nih.gov/articles/PMC8023171/) -- roughly six times the general population rate. The "disorder" appears to be an advantage in the right arena.
@@ -320,6 +324,8 @@ But look at what the IQ data actually shows when you dig in. That [Northwestern 
 
 That said -- something is clearly going wrong. Even with all that digital fluency, people are struggling. And the contributing factors are real.
 
+### The Dopamine Treadmill
+
 Start with **screen time**. Think about what's happening to your brain every day. A hundred years ago, if you wanted to see a picture of a far-off land or something beautiful, you'd go to an art gallery. Maybe you'd see 20 paintings in an hour. That was the equivalent of scrolling Instagram for a person in 1920.
 
 Now think about what Instagram actually is. You're speed-running that art gallery -- hundreds of images per minute. Incredible sunsets, perfect bodies, exotic locations, curated lives. Your brain is getting hit with dopamine spike after dopamine spike at a rate that no human being in history has ever experienced. And then there's TikTok -- short-form video designed to keep your brain in a state of constant novelty-seeking. [Research shows it causes prolonged Beta and Gamma brain activity even after you stop watching](https://www.psypost.org/large-meta-analysis-links-tiktok-and-instagram-reels-to-poorer-cognitive-and-mental-health/) -- your brain literally can't calm down.
@@ -327,6 +333,8 @@ Now think about what Instagram actually is. You're speed-running that art galler
 Because this bombardment is constant, your brain grows numb to it. You need more stimulation to feel anything. Regular life starts to feel flat. A conversation with a friend can't compete with the infinite scroll. A walk outside feels boring. And we can always escape to some other realm with our phones. Bad day at work? Scroll. Argument with your partner? Scroll. Feeling purposeless? Scroll. Until the mountain of unprocessed emotions becomes so large that it's impossible to ignore.
 
 The numbers bear this out. Sam Parr and Shaan Puri discussed this on [My First Million (Episode 797)](https://www.youtube.com/watch?v=Jd3he1cOFB8), framing focus as "attention capital" -- the scarcest strategic resource in the modern economy. They're right. [Gloria Mark at UC Irvine](https://www.apa.org/news/podcasts/speaking-of-psychology/attention-spans) has tracked on-screen attention spans for two decades: **2.5 minutes in 2004. 75 seconds in 2012. 47 seconds today.** Your attention span has dropped 69% in 20 years. Your phone makes you dumber even when you're not using it -- [a UT Austin study](https://www.journals.uchicago.edu/doi/full/10.1086/691462) found that the _mere presence_ of a smartphone, turned off and face down, significantly reduces your cognitive capacity.
+
+### AI and the Collapse of Reading
 
 And now we're adding **AI** to the mix. AI is a useful tool -- it can accelerate research and help you learn faster. But that's not how most people are using it. [56% of college students](https://www.bestcolleges.com/research/most-college-students-have-used-ai-survey/) have used AI on assignments or exams -- and over half of them admit it's cheating. They're not using it to think harder. They're using it to skip the thinking entirely. Why wrestle with an argument when ChatGPT can write the essay? Why develop the cognitive muscle when the machine lifts for free? It's the same pattern as SSRIs -- the thing that "helps" in the short term atrophies the capacity you actually need.
 
@@ -376,6 +384,8 @@ This isn't a metaphor. [It's visible on brain scans.](https://pmc.ncbi.nlm.nih.g
 
 A generation living in chronic emotional overwhelm -- bombarded by content designed to trigger fear, shame, and outrage -- is going to _test_ as dumber even if their raw cognitive hardware is fine. The software is crashing because the emotional load is too high.
 
+#### The Emotional Recession
+
 Consider this: [global emotional intelligence scores declined 5.79%](https://pmc.ncbi.nlm.nih.gov/articles/PMC12646932/) from 2019 to 2024 across 28,000 adults in 166 countries. Researchers called it an **"Emotional Recession."** We are getting worse at processing emotions at the exact moment we need that skill most.
 
 [UCLA neuroscientist Matthew Lieberman](https://pubmed.ncbi.nlm.nih.gov/17576282/) proved with fMRI that simply _naming_ an emotion -- putting it into words -- decreases amygdala activity and increases prefrontal cortex activity. The act of saying "I feel afraid" literally calms the fear response and brings your thinking brain back online. But you can't name what you don't have words for. And [10-30% of adolescents](https://pubmed.ncbi.nlm.nih.gov/17905044/) struggle with alexithymia -- the clinical term for not being able to identify or describe your own emotions.
@@ -412,7 +422,9 @@ But here's what I keep coming back to: professional therapy is basically a post-
 
 And what's happened to those relationships? [Church membership](https://news.gallup.com/poll/341963/church-membership-falls-below-majority-first-time.aspx) dropped from 73% to 47%. [15% of men](https://www.americansurveycenter.org/why-mens-social-circles-are-shrinking/) have zero close friendships -- a fivefold increase since 1990. The Surgeon General [declared loneliness an epidemic](https://www.hhs.gov/sites/default/files/surgeon-general-social-connection-advisory.pdf) and said it kills as surely as smoking 15 cigarettes a day. We demolished the community structures that used to hold people together and then professionalized the thing that used to be free.
 
-It says something about our society that the only place many people feel safe being vulnerable is in a room they're paying $200 an hour to sit in. That's not a therapy problem. That's a community problem. And the real fix -- the one that doesn't require insurance or a waitlist -- is finding people you can actually be honest with. That's harder than it sounds. But it's also what humans did for thousands of years before we decided emotions were a clinical specialty.
+> It says something about our society that the only place many people feel safe being vulnerable is in a room they're paying $200 an hour to sit in.
+
+That's not a therapy problem. That's a community problem. And the real fix -- the one that doesn't require insurance or a waitlist -- is finding people you can actually be honest with. That's harder than it sounds. But it's also what humans did for thousands of years before we decided emotions were a clinical specialty.
 
 ### Getting "Dumber": Address the Emotions Underneath
 
@@ -460,7 +472,7 @@ This is why I'm drawn to frameworks like the Enneagram. It maps how different pe
 
 If you want to see how this plays out in practice: [how each type falls apart under stress](/enneagram-corner/enneagram-types-in-stress), [the relationship between personality and mental illness](/enneagram-corner/enneagram-and-mental-illness), and [how your type shapes your relationship with medication](/enneagram-corner/mental-health/enneagram-medication-mental-health). For the gambling and addiction angle specifically: [Enneagram and Addiction](/enneagram-corner/mental-health/enneagram-addiction-recovery-guide).
 
-The ticking time bombs are real. But the fuse is emotional illiteracy -- and that's something we can actually fix. Not by consuming more content about emotions. By finding people we can practice with.
+The ticking time bombs are real. But the fuse is **emotional illiteracy** -- and that's something we can actually fix. Not by consuming more content about emotions. _By finding people we can practice with._
 
 <!--
 FRESH REVIEW — 2026-03-20

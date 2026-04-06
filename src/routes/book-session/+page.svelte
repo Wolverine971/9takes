@@ -261,46 +261,6 @@
 						what you are missing and what to do next.
 					</p>
 				</div>
-
-				<div class="hero-highlights">
-					<div class="hero-truth">
-						<div class="truth-kicker">What this page is</div>
-						<p>
-							This is a waitlist, not a booking calendar. No payment today. Waitlist members get
-							first access when sessions open.
-						</p>
-					</div>
-
-					<div class="hero-mini-proof">
-						<span>Why trust the lens?</span>
-						95 published Enneagram articles. 80+ personality analyses. You can read the work before you
-						ever decide this is for you.
-					</div>
-				</div>
-
-				<div class="hero-details">
-					<div class="hero-list">
-						<div class="list-title">Good reasons to join</div>
-						<ul>
-							{#each fitChecks as item}
-								<li>{item}</li>
-							{/each}
-						</ul>
-					</div>
-
-					<div class="hero-context-card">
-						<div class="context-kicker">Best when you have a live issue</div>
-						<p>
-							This works best when you are dealing with an actual relationship loop, work dynamic,
-							or decision point with tension in it.
-						</p>
-						<div class="hero-chip-row" aria-label="Common coaching topics">
-							{#each focusAreas as area}
-								<span class="hero-chip">{area.title}</span>
-							{/each}
-						</div>
-					</div>
-				</div>
 			</div>
 
 			<aside class="waitlist-panel" id="waitlist" aria-labelledby="waitlist-title">
@@ -454,6 +414,48 @@
 			</aside>
 		</section>
 
+		<div class="hero-support-shell" aria-label="Why join the waitlist">
+			<div class="hero-support-grid">
+				<div class="hero-list">
+					<div class="list-title">Good reasons to join</div>
+					<ul>
+						{#each fitChecks as item}
+							<li>{item}</li>
+						{/each}
+					</ul>
+				</div>
+
+				<div class="hero-support-stack">
+					<div class="hero-truth">
+						<div class="truth-kicker">What this page is</div>
+						<p>
+							This is a waitlist, not a booking calendar. No payment today. Waitlist members get
+							first access when sessions open.
+						</p>
+					</div>
+
+					<div class="hero-mini-proof">
+						<span>Why trust the lens?</span>
+						95 published Enneagram articles. 80+ personality analyses. You can read the work before you
+						ever decide this is for you.
+					</div>
+
+					<div class="hero-context-card">
+						<div class="context-kicker">Best when you have a live issue</div>
+						<p>
+							This works best when you are dealing with an actual relationship loop, work dynamic,
+							or decision point with tension in it.
+						</p>
+						<div class="hero-chip-row" aria-label="Common coaching topics">
+							{#each focusAreas as area}
+								<span class="hero-chip">{area.title}</span>
+							{/each}
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
 		<section class="signal-strip" aria-label="Read first">
 			<div class="signal-intro">
 				<div class="section-eyebrow">Proof first</div>
@@ -490,24 +492,28 @@
 				</div>
 
 				<div class="founder-card">
-					<img
-						src="/brand/djface.webp"
-						alt="DJ Wayne"
-						class="founder-photo"
-						width="180"
-						height="180"
-						loading="lazy"
-						decoding="async"
-					/>
-					<div class="founder-copy">
-						<div class="founder-label">Built by DJ Wayne</div>
-						<p>
-							9takes was created by DJ Wayne, a former USMC infantry Marine turned software
-							entrepreneur. The project applies the Enneagram to conflict, motive, relationships,
-							and public personalities with a practical bias: explain the pattern, then make it
-							usable.
-						</p>
+					<div class="founder-identity">
+						<img
+							src="/brand/djface.webp"
+							alt="DJ Wayne"
+							class="founder-photo"
+							width="180"
+							height="180"
+							loading="lazy"
+							decoding="async"
+						/>
+						<div class="founder-copy">
+							<div class="founder-label">Built by DJ Wayne</div>
+							<p class="founder-role">Founder, 9takes</p>
+							<p class="founder-summary">
+								Former USMC infantry Marine turned software entrepreneur.
+							</p>
+						</div>
 					</div>
+					<p class="founder-body">
+						9takes applies the Enneagram to conflict, motive, relationships, and public
+						personalities with a practical bias: explain the pattern, then make it usable.
+					</p>
 				</div>
 			</div>
 
@@ -658,7 +664,7 @@
 	}
 
 	.page-container {
-		max-width: 92rem;
+		max-width: 80rem;
 		margin: 0 auto;
 		padding: 2.25rem 1.25rem 5rem;
 	}
@@ -666,6 +672,7 @@
 	/* ── Shared ── */
 
 	.hero-grid,
+	.hero-support-shell,
 	.proof-section,
 	.signal-strip,
 	.focus-section,
@@ -706,7 +713,13 @@
 	.hero-grid {
 		display: grid;
 		gap: 2rem;
-		margin-bottom: 1rem;
+		align-items: start;
+	}
+
+	.hero-copy {
+		display: grid;
+		gap: 1.5rem;
+		align-self: start;
 		padding: clamp(1.5rem, 3vw, 2.5rem);
 		border: 1px solid color-mix(in srgb, var(--text-tertiary) 12%, transparent);
 		border-radius: 1.75rem;
@@ -724,16 +737,6 @@
 		box-shadow: var(--shadow-lg);
 	}
 
-	.hero-copy {
-		display: grid;
-		gap: 1.5rem;
-		padding: 0;
-	}
-
-	.hero-intro {
-		max-width: 48rem;
-	}
-
 	.hero-title {
 		margin: 0 0 1.5rem;
 		font-size: clamp(2.1rem, 4vw, 3.2rem);
@@ -748,8 +751,7 @@
 	}
 
 	.hero-lede {
-		max-width: 42rem;
-		margin: 0 0 2.25rem;
+		margin: 0;
 		font-size: 1.1rem;
 		line-height: 1.75;
 		color: var(--text-secondary);
@@ -761,11 +763,19 @@
 		padding: 1.25rem 1.5rem;
 	}
 
-	.hero-highlights,
-	.hero-details {
+	.hero-support-shell {
+		margin-top: 1.35rem;
+	}
+
+	.hero-support-grid,
+	.hero-support-stack {
 		display: grid;
-		gap: 1rem;
+		gap: 1.25rem;
 		align-items: start;
+	}
+
+	.hero-support-stack {
+		align-content: start;
 	}
 
 	.hero-truth {
@@ -1124,7 +1134,7 @@
 	.signal-strip p,
 	.section-heading p,
 	.proof-copy p,
-	.founder-copy p,
+	.founder-body,
 	.final-copy p {
 		margin: 0;
 		line-height: 1.7;
@@ -1203,8 +1213,8 @@
 
 	.founder-card {
 		display: grid;
-		gap: 1.5rem;
-		align-items: center;
+		gap: 1.35rem;
+		align-content: start;
 		border-radius: 1rem;
 		border: 1px solid color-mix(in srgb, var(--text-tertiary) 10%, transparent);
 		background: linear-gradient(
@@ -1215,20 +1225,56 @@
 		padding: 1.75rem;
 	}
 
+	.founder-identity {
+		display: grid;
+		gap: 1rem;
+		align-items: center;
+	}
+
+	.founder-copy {
+		display: grid;
+		gap: 0.35rem;
+	}
+
 	.founder-photo {
+		display: block;
 		width: 100%;
-		max-width: 9rem;
+		max-width: 10rem;
 		border-radius: 0.875rem;
 		border: 1px solid color-mix(in srgb, var(--primary) 14%, transparent);
+		background: color-mix(in srgb, var(--bg-elevated) 70%, transparent);
+		box-shadow: var(--shadow-md);
+		object-fit: cover;
 	}
 
 	.founder-label {
-		margin-bottom: 0.5rem;
 		font-size: 0.8rem;
 		font-weight: 700;
 		letter-spacing: 0.1em;
 		text-transform: uppercase;
 		color: var(--primary);
+	}
+
+	.founder-role,
+	.founder-summary,
+	.founder-body {
+		margin: 0;
+	}
+
+	.founder-role {
+		font-size: 1rem;
+		font-weight: 700;
+		color: var(--text-primary);
+	}
+
+	.founder-summary {
+		font-size: 0.94rem;
+		line-height: 1.6;
+		color: var(--text-secondary);
+	}
+
+	.founder-body {
+		font-size: 0.98rem;
 	}
 
 	/* ── Cards ── */
@@ -1283,6 +1329,11 @@
 
 	.section-heading {
 		margin-bottom: 1.5rem;
+	}
+
+	.section-heading p,
+	.final-copy p {
+		max-width: 52rem;
 	}
 
 	.section-layout {
@@ -1354,11 +1405,6 @@
 			padding: 3rem 2rem 5rem;
 		}
 
-		.hero-highlights,
-		.hero-details {
-			grid-template-columns: repeat(2, minmax(0, 1fr));
-		}
-
 		.signal-strip,
 		.proof-section,
 		.focus-section,
@@ -1385,12 +1431,7 @@
 			grid-template-columns: repeat(3, minmax(0, 1fr));
 		}
 
-		.hero-list ul {
-			grid-template-columns: repeat(2, minmax(0, 1fr));
-			column-gap: 1.25rem;
-		}
-
-		.founder-card {
+		.founder-identity {
 			grid-template-columns: auto minmax(0, 1fr);
 		}
 
@@ -1412,14 +1453,20 @@
 		}
 
 		.hero-grid {
-			grid-template-columns: minmax(0, 1.2fr) minmax(22rem, 29rem);
-			gap: 4rem;
+			grid-template-columns: minmax(0, 1.08fr) minmax(24rem, 30rem);
+			gap: 3.25rem;
 			align-items: start;
-			margin-bottom: 1.5rem;
 		}
 
-		.hero-copy {
-			padding-top: 1rem;
+		.hero-support-shell {
+			margin-top: 1.75rem;
+			padding: 1.8rem;
+		}
+
+		.hero-support-grid {
+			grid-template-columns: 1fr 1fr;
+			gap: 1.5rem;
+			align-items: stretch;
 		}
 
 		.hero-title {
@@ -1466,9 +1513,7 @@
 		}
 
 		.section-layout {
-			grid-template-columns: minmax(0, 0.72fr) minmax(0, 1.28fr);
 			gap: 2.5rem;
-			align-items: start;
 		}
 
 		.proof-section {
@@ -1476,13 +1521,14 @@
 		}
 
 		.proof-layout {
-			grid-template-columns: minmax(0, 1.15fr) minmax(18rem, 0.85fr);
-			gap: 2rem;
+			grid-template-columns: minmax(0, 1.1fr) minmax(20rem, 0.9fr);
+			gap: 2.5rem;
 		}
 
 		.founder-card {
-			padding: 2rem;
+			padding: 2.1rem;
 		}
+
 	}
 
 	:global(*:focus-visible) {

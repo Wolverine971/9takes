@@ -97,6 +97,8 @@ Not just "working hard at something." Finding the **exact container** that fit t
 
 [Rihanna](/personality-analysis/rihanna) was one of the biggest pop stars in the world. Record labels controlled her image, her release schedule, her sound. She could have kept grinding out hits forever. Instead she walked away from music entirely and built Fenty Beauty and Savage X Fenty — businesses where she controlled every decision. The vehicle wasn't "becoming a businesswoman." It was building specific brands where her instinct for what people actually wanted (40 foundation shades when the industry standard was 12) had total freedom to run.
 
+### When the System Is the Problem
+
 [Chappell Roan](/personality-analysis/chappell-roan) was signed to Atlantic Records at 17. They dropped her. She worked as a cashier in a donut shop, played to 50 people in parks, and rebuilt from scratch with producer Dan Nigro. The major label system dampened everything that made her interesting — her queerness, her intensity, her refusal to be packaged. When she found her vehicle — drag-inspired theatrical pop with total creative control — her energy finally had a format the world could receive. Joan of Arc in silver armor at the VMAs, breathing fire. That was the vehicle.
 
 [Reed Hastings](/personality-analysis/reed-hastings) **failed** at his first company because he built it wrong. Pure Software became too bureaucratic. He spent two years studying what went wrong. Then built Netflix as the exact anti-pattern: "Freedom and Responsibility," the opposite of everything that killed Pure.
@@ -155,6 +157,8 @@ Every breakthrough came through **being seen**:
 
 [Amy Poehler](/personality-analysis/amy-poehler) took the Weekend Update anchor chair on SNL and made it a platform for unfiltered Type 8 energy. "Really!?! with Seth and Amy" became a segment where she could express exactly how absurd something was, in front of millions.
 
+### Visibility as a Strategy
+
 [MrBeast](/personality-analysis/mr-beast) counted to 100,000 on camera. The entire point was public spectacle. [Portnoy](/personality-analysis/dave-portnoy) did raw, public pizza reviews on sidewalks. [Malcolm X](/personality-analysis/malcolm-x) delivered "The Ballot or the Bullet," ranked the 7th best American speech of the 20th century — he said things publicly that others were afraid to say. [Chappell Roan](/personality-analysis/chappell-roan) marched onto the VMAs stage as Joan of Arc in silver chainmail with a flaming crossbow, then used her Grammy speech to demand fair wages for artists — every public moment a statement. [Druski](/personality-analysis/druski) put every skit on Instagram for anyone to find.
 
 Working in silence is a Type 8 comfort zone. It feels safe because no one can judge what they can't see. But it also means no one can find what they can't see. No one can support what they don't know about. No one can amplify what's hidden.
@@ -174,6 +178,8 @@ Here's something the other patterns won't tell you: **most of these 8s didn't st
 [Malcolm X's](/personality-analysis/malcolm-x) mission transformed completely mid-life. He started as a street hustler, then became the Nation of Islam's most ferocious voice for Black separatism. That alone would have been a powerful mission. But after his pilgrimage to Mecca — praying alongside white Muslims, eating with them, laughing with them — the mission expanded beyond race into universal human rights. He went from "by any means necessary" against white America to founding the Organization of Afro-American Unity, which sought coalition across racial lines. The mission didn't just find him. It found him **twice**, and each version was bigger than the last. He was assassinated at 39, but the expanded mission outlived the original one.
 
 [Jocko Willink](/personality-analysis/jocko-willink) was a rebellious kid who hated authority — the last person you'd expect to thrive in the military. But combat gave him a mission: keeping his men alive. After leaving the SEALs, he could have coasted on war stories. Instead the mission evolved — from protecting one platoon to teaching leadership principles that could help anyone carry responsibility. Echelon Front, Extreme Ownership, waking up at 4:30 AM every day — none of it makes sense as personal ambition. It makes sense as a mission that grew out of experience and refused to stop expanding.
+
+### The Mission Usually Shows Up Late
 
 [MrBeast](/personality-analysis/mr-beast) declared "I want to make as much money as possible so I can give it all away before I die." But that declaration came **after** he was already successful. [Bezos's](/personality-analysis/jeff-bezos) "we go to space to protect the planet" came decades after Amazon. [Portnoy](/personality-analysis/dave-portnoy) raised $41M for small businesses during COVID long after Barstool was huge. The pattern is the same: the mission emerged from the work, not the other way around.
 
@@ -247,7 +253,7 @@ Their **presence** produces growth regardless of whether fame or fortune follows
 
 **These are growth patterns, not success formulas.** The real trap isn't the absence of success. It's staying stuck in behaviors that feel like strength but function as a ceiling.
 
-You don't have to be famous for these patterns to work. A Type 8 running a small contracting business who stops trying to do everything herself, brings on a reliable foreman, and watches her capacity double overnight — that's Pattern 2. A developer who's been building side projects in private for three years and finally ships one publicly, gets feedback, iterates, and lands his first paying customer within a month — that's Pattern 3. A personal trainer who realizes the grind is landing with corporate wellness clients but bombing as a fitness influencer, and doubles down on what's actually working instead of forcing the thing she thinks she should want — that's Pattern 1. None of these people will end up in a magazine. All of them got unstuck by applying the same mechanics.
+**You don't have to be famous for these patterns to work.** A Type 8 running a small contracting business who stops trying to do everything herself, brings on a reliable foreman, and watches her capacity double overnight — that's Pattern 2. A developer who's been building side projects in private for three years and finally ships one publicly, gets feedback, iterates, and _lands his first paying customer within a month_ — that's Pattern 3. A personal trainer who realizes the grind is landing with corporate wellness clients but bombing as a fitness influencer, and doubles down on what's actually working instead of forcing the thing she thinks she should want — that's Pattern 1. None of these people will end up in a magazine. **All of them got unstuck by applying the same mechanics.**
 
 ## Where the Breakthrough Actually Starts
 
