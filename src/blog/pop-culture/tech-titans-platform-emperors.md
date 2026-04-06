@@ -12,7 +12,7 @@ published: false
 type: ['situational']
 blog: true
 previewHtml: ''
-pic: 'tech-titans-platform-emperors'
+pic: ''
 picGroup:
   - image: '/types/5s/Mark-Zuckerberg.webp'
     text: 'Mark Zuckerberg'

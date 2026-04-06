@@ -145,6 +145,8 @@ Karen Hao, in her investigative book _Empire of AI_, described the transformatio
 
 Under his leadership, YC expanded from software into nuclear energy, quantum computing, and biotech. By the time he left in 2019, it had funded roughly 1,900 companies. Another president might have optimized for prestige, chasing the hottest companies and the biggest exits. Altman optimized for _range_. The throughline wasn't "what wins the scoreboard?" It was "what changes the world in ways that haven't been imagined yet?"
 
+### Ozymandias as a Management Framework
+
 His go-to corrective for founders who got arrogant: Shelley's "Ozymandias," a poem about a collapsed statue in a desert. Not a business framework. Not a metric. A Romantic-era meditation on the impermanence of ambition. He told [Tyler Cowen](https://conversationswithtyler.com/episodes/sam-altman/) it was "an effective mental image." Most accelerator presidents quote Peter Drucker. Altman quotes the poet who wrote "Look on my Works, ye Mighty, and despair."
 
 ## The $76,000 Question
@@ -277,6 +279,8 @@ _The NPC trap._
 
 That phrase is doing more psychological work than it appears. For a Type 4, the worst thing you can be is ordinary, a character in someone else's script, thinking someone else's thoughts. By recasting his 2016 opposition as NPC behavior (groupthink, not genuine conviction) Altman doesn't just explain the reversal. He turns it into a story of identity growth. _I wasn't wrong because I was wrong. I was wrong because I was being like everyone else._ The shame isn't in changing positions. The shame would be in admitting he'd been a follower all along.
 
+### Vision vs. Tactics
+
 The political maneuvering wasn't new. In 2023, he'd toured world capitals (Madrid, Paris, London, Delhi, Seoul, Tel Aviv) meeting heads of state, positioning himself as the person governments should talk to about AI. He testified before the Senate and called for regulation. Then OpenAI [lobbied the EU to weaken the AI Act](https://time.com/6288245/openai-eu-lobbying-ai-act/) even while Altman was publicly calling for guardrails. When the EU regulations tightened, he told reporters that OpenAI might "cease operating" in Europe.
 
 In his ["Reflections" blog post](https://blog.samaltman.com/reflections), he wrote: "Our vision won't change; our tactics will continue to evolve."
@@ -284,6 +288,8 @@ In his ["Reflections" blog post](https://blog.samaltman.com/reflections), he wro
 That sentence cracks open the entire political psychology. A Type 4's identity is built on _vision_, the deep sense of who they are and what they're meant to do. Tactics are surface. Vision is self. As long as the vision stays constant, any tactical shift, from "Trump is a threat to democracy" to "we wouldn't be able to do this without you," can be absorbed without the identity cracking. The self remains coherent because the self lives at a deeper layer than any particular political stance.
 
 By July 2025, he'd adopted a new label: ["politically homeless."](https://fortune.com/2025/07/08/sam-altman-democratic-party-politically-homeless-silicon-valley-politics-openai/) "I care much, much more about being American than any political party." Not a Democrat. Not a Republican. Not compromising, but _transcending_. Another identity move: he's not a person who switched sides. He's a person who doesn't fit in any box. The same boy who was different in St. Louis, different at Stanford, different at YC. Difference as a through line, even in politics.
+
+### "A Nuanced Character"
 
 At [TED 2025](https://venturebeat.com/ai/sam-altman-at-ted-2025-inside-the-most-uncomfortable-and-important-ai-interview-of-the-year), Chris Anderson spent thirty minutes pressing Altman on who gave him the moral authority to reshape humanity's future. Observers described his responses as "verbal parkour, avoiding every substantive question about who ultimately holds power." When his own AI model asked him the same question, Altman deflected: "You've been asking me versions of this for the last half hour." Then, the most revealing line: "I think like anyone else, I'm a nuanced character that doesn't reduce well to one dimension."
 
@@ -324,6 +330,8 @@ People who have had one-on-one meetings with Altman report coming out feeling "t
 But Coogan added something else: "No matter how long someone worked with him or how closely they worked with him, they would always say: 'I don't know what Sam believes.'"
 
 The extraordinary listener whose inner world remains opaque. That paradox has a darker expression.
+
+### The Shadow of Deep Attentiveness
 
 A colleague who worked with Altman for several years told Karen Hao: "Sam remembers all these details about you. He's so attentive. But then part of it is he uses that to figure out how to influence you in different ways. He's so good at adjusting to what you say, and you really feel like you're making progress with him. And then you realize over time that you're actually just running in place."
 

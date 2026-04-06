@@ -12,7 +12,7 @@ published: false
 type: ['situational']
 blog: true
 previewHtml: ''
-pic: 'tech-titans-leadership-styles'
+pic: ''
 picGroup:
   - image: '/types/1s/Steve-Jobs.webp'
     text: 'Steve Jobs'

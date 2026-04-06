@@ -1,4 +1,5 @@
 <!-- docs/content-analysis/text-wall-audit-2026-04-06.md -->
+
 # Text Wall Audit — 2026-04-06
 
 Blogs with consecutive large paragraphs (500+ chars each) that create "text walls" — dense blocks with no visual break (heading, list, image, callout, blockquote) between them. Paragraphs with zero inline formatting (no bold, italic, or links) are marked **PLAIN WALL** — these are the worst for readability.
@@ -203,7 +204,7 @@ These have a single zone of 2 paragraphs, both with some formatting. Lowest prio
 
 ---
 
-## Summary
+## Summary — Main Blog Sections
 
 | Priority         | Files    | Key Pattern                                                                    |
 | ---------------- | -------- | ------------------------------------------------------------------------------ |
@@ -211,13 +212,81 @@ These have a single zone of 2 paragraphs, both with some formatting. Lowest prio
 | **P2: Moderate** | 10 files | 1-2 zones, mostly need bold/italic added to plain walls                        |
 | **P3: Minor**    | 4 files  | Single zone, 2 paragraphs, already have some formatting                        |
 
-**Quick wins (100% plain wall zones — just need emphasis added):**
+**P1 Status: All 8 files FIXED.**
 
-- `tech-titans-ai-wars.md` Zone 1 (Amodei vs Musk comparison)
-- `tech-titans-founders-vs-stewards.md` Zone 1 (Pichai)
-- `enneagram-crisis-management-guide.md` Zone 1 (Type 7 crisis)
-- `us-presidents-enneagram-analysis.md` Zone 1 (Lincoln)
-- `incel-blackpill-radicalization-enneagram.md` Zone 1 (disability section)
-- `ghislaine-maxwell-psychology.md` Zones 4 and 6
+---
 
-These 6 files can be fixed in minutes by adding bold/italic to key phrases — no structural changes needed.
+## People Drafts (`src/blog/people/drafts/`)
+
+**291 files scanned. 190 (65%) clean. 101 (35%) have issues.**
+
+### People Drafts — Severe (score 15+): 14 files
+
+_Note: `david-perrel-thiel-essay.md`, `John-Coogan.md`, and `Clavicular.md` are essays/non-standard formats, not typical people profiles._
+
+| #   | File                          | Score | Zones | Worst Streak | Plain % |
+| --- | ----------------------------- | ----- | ----- | ------------ | ------- |
+| 1   | `david-perrel-thiel-essay.md` | 177.4 | 15    | 5            | 100%    |
+| 2   | `John-Coogan.md`              | 78.1  | 6     | 5            | 77%     |
+| 3   | `Clavicular.md`               | 59.7  | 5     | 5            | 86%     |
+| 4   | `Tim-Ferriss.md`              | 36.5  | 5     | 5            | 21%     |
+| 5   | `JD-Vance.md`                 | 35.6  | 3     | 5            | 77%     |
+| 6   | `Peter-Thiel.md`              | 35.5  | 3     | 6            | 18%     |
+| 7   | `Sundar-Pichai.md`            | 23.8  | 3     | 3            | 87%     |
+| 8   | `Zohran-Mamdani.md`           | 22.8  | 1     | 5            | 60%     |
+| 9   | `Andrew-Tate.md`              | 17.8  | 1     | 4            | 100%    |
+| 10  | `Sam-Altman.md`               | 17.2  | 3     | 4            | 0%      |
+| 11  | `Lana-Rhoades.md`             | 16.0  | 3     | 3            | 71%     |
+| 12  | `Tara-Yummy.md`               | 15.6  | 2     | 3            | 60%     |
+| 13  | `Noam-Chomsky.md`             | 15.6  | 3     | 3            | 71%     |
+| 14  | `Trisha-Paytas.md`            | 15.1  | 3     | 3            | 28%     |
+
+### People Drafts — Moderate (score 5-15): 41 files
+
+| #   | File                      | Score | Zones | Worst Streak | Plain % |
+| --- | ------------------------- | ----- | ----- | ------------ | ------- |
+| 1   | `Tyler-Cowen.md`          | 13.9  | 2     | 3            | 80%     |
+| 2   | `Mikey-Madison.md`        | 13.8  | 1     | 4            | 50%     |
+| 3   | `Chamath-Palihapitiya.md` | 13.3  | 3     | 2            | 83%     |
+| 4   | `Robert-Greene.md`        | 12.9  | 1     | 4            | 50%     |
+| 5   | `Margot-Robbie.md`        | 12.2  | 2     | 4            | 0%      |
+| 6   | `Jacob-Elordi.md`         | 12.2  | 3     | 2            | 50%     |
+| 7   | `Kylie-Jenner.md`         | 12.1  | 4     | 3            | 0%      |
+| 8   | `Matt-Damon.md`           | 11.7  | 1     | 3            | 100%    |
+| 9   | `Post-Malone.md`          | 10.3  | 2     | 2            | 100%    |
+| 10  | `Howard-Stern.md`         | 10.0  | 2     | 2            | 75%     |
+| 11  | `Gavin-Newsom.md`         | 9.6   | 1     | 3            | 100%    |
+| 12  | `Leonardo-da-Vinci.md`    | 9.6   | 3     | 2            | 33%     |
+| 13  | `Kris-Jenner.md`          | 9.6   | 2     | 2            | 100%    |
+| 14  | `Krystal-Ball.md`         | 9.5   | 2     | 3            | 40%     |
+| 15  | `James-Dyson.md`          | 9.5   | 2     | 2            | 100%    |
+| 16  | `Gigi-Hadid.md`           | 8.9   | 4     | 2            | 0%      |
+| 17  | `Adam-Sandler.md`         | 8.8   | 1     | 3            | 66%     |
+| 18  | `Patrick-Bet-David.md`    | 8.1   | 2     | 2            | 75%     |
+| 19  | `Kate-Hudson.md`          | 7.7   | 2     | 2            | 50%     |
+| 20  | `Frida-Kahlo.md`          | 7.7   | 1     | 3            | 33%     |
+| 21  | `Reid-Hoffman.md`         | 7.7   | 2     | 2            | 75%     |
+| 22  | `Jordan-Peterson.md`      | 7.6   | 2     | 2            | 50%     |
+| 23  | `Satya-Nadella.md`        | 7.3   | 1     | 3            | 33%     |
+| 24  | `Ben-Affleck.md`          | 7.1   | 1     | 3            | 33%     |
+| 25  | `Khloe-Kardashian.md`     | 7.0   | 2     | 2            | 50%     |
+| 26  | `Conan-OBrien.md`         | 6.7   | 2     | 2            | 25%     |
+| 27  | `Caleb-Hearon.md`         | 6.6   | 1     | 2            | 100%    |
+| 28  | `Jack-Black.md`           | 6.6   | 1     | 3            | 33%     |
+| 29  | `Jake-Gyllenhaal.md`      | 6.5   | 1     | 3            | 33%     |
+| 30  | `Elon-Musk.md`            | 6.3   | 2     | 2            | 25%     |
+| 31  | `Alex-Hormozi.md`         | 6.0   | 1     | 2            | 100%    |
+| 32  | `Pedro-Pascal.md`         | 5.7   | 1     | 2            | 100%    |
+| 33  | `Jared-Leto.md`           | 5.5   | 2     | 2            | 25%     |
+| 34  | `Tim-Robinson.md`         | 5.3   | 1     | 2            | 100%    |
+| 35  | `Oscar-Isaac.md`          | 5.2   | 1     | 2            | 100%    |
+| 36  | `Marc-Andreessen.md`      | 5.2   | 1     | 2            | 100%    |
+| 37  | `Jordi-Hays.md`           | 5.2   | 1     | 2            | 100%    |
+| 38  | `Hasan-Piker.md`          | 5.1   | 1     | 2            | 100%    |
+| 39  | `Alex-Cooper.md`          | 5.1   | 1     | 2            | 100%    |
+| 40  | `Charli-xcx.md`           | 5.1   | 1     | 2            | 100%    |
+| 41  | `Katy-Perry.md`           | 5.0   | 1     | 2            | 100%    |
+
+### People Drafts — Mild (score < 5): 46 files
+
+Single zone, 2 paragraphs each. Lowest priority. Includes: `Steve-Jobs.md`, `Joe-Biden.md`, `Leila-Hormozi.md`, `Garry-Tan.md`, `James-Charles.md`, `Martin-Luther-King-Jr.md`, `Glen-Powell.md`, `Logan-Paul.md`, `Billie-Eilish.md`, `Ali-Abdaal.md`, `Chris-Hemsworth.md`, `Simon-Sinek.md`, `Jack-Dorsey.md`, `Alexandria-Ocasio-Cortez.md`, `Jelly-Roll.md`, and 31 others.

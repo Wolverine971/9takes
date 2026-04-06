@@ -12,7 +12,7 @@ published: false
 type: ['situational']
 blog: true
 previewHtml: ''
-pic: 'us-presidents-enneagram'
+pic: ''
 picGroup:
   - image: '/types/9s/Abraham-Lincoln.webp'
     text: 'Abraham Lincoln'

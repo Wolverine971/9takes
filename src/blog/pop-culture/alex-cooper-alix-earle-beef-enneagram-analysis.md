@@ -12,7 +12,7 @@ published: false
 type: ['situational']
 blog: true
 previewHtml: ''
-pic: 'alex-cooper-alix-earle-beef'
+pic: ''
 picGroup:
   - image: '/types/7s/Alex-Cooper.webp'
     text: 'Alex Cooper'

@@ -12,7 +12,7 @@ published: false
 type: ['situational']
 blog: true
 previewHtml: ''
-pic: 'pop-queens-enneagram'
+pic: ''
 picGroup:
   - image: '/types/8s/Chappell-Roan.webp'
     text: 'Chappell Roan'
@@ -111,3 +111,30 @@ Chappell Roan is a Type 8 (Challenger) who went from unknown to setting boundari
 - **The Stan Culture Psychology**: Swifties, Rihanna Navy, Beyhive—each fandom has a distinct personality. Do fans self-sort by type into fandoms that match their psychological needs?
 - **Pop Queens and Their Romantic Narratives**: Taylor dates publicly. Billie dates privately. Doja dates chaotically. How does each type's approach to relationships become content—or get weaponized by the media?
 - **The Album Rollout as Type Expression**: How each pop queen launches an album reveals their type. Taylor's year-long Easter egg campaigns (3). Beyoncé's surprise drops (8). Billie's intimate whisper rollouts (4). Charli's chaotic meme campaigns (3 performing 7).
+
+<!-- FRESH EYES REVIEW (2026-04-06)
+Biggest issues:
+- The article is still entirely skeleton — every artist section is a TODO comment with no written prose. The only real content is the QuickAnswer, questions list, table, and rabbit holes. This needs a full writing pass before anything else.
+- SZA is completely absent. She's arguably the most critically acclaimed and commercially dominant female artist of this era alongside Taylor Swift. An article titled "Pop Queens Ruling Music Right Now" that omits SZA will feel incomplete to any reader paying attention to music. She's likely a Type 4 or 9 and would actually strengthen the "personality diversity" thesis.
+- Three of seven artists are typed as Type 3 (Taylor, Charli, Sabrina). This undercuts the article's central claim that "this era is the most personality-diverse in pop music history." The piece needs to either sharply differentiate these three or reconsider whether the lineup itself needs more type variety (adding SZA, Beyoncé, or Megan would help).
+
+What to expand:
+- The intro is one sentence + a TODO. The hook needs to land harder — the "old model vs. new model" framing hinted in the TODO is promising but needs to be actually written.
+- The "Content Grade" column in the table has no explanation. Readers will wonder what it measures (music quality? type alignment? cultural impact?). Either explain it or cut it — unexplained scores invite skepticism.
+- Consider adding Beyoncé (Cowboy Carter was a cultural earthquake in 2024) and/or Ariana Grande (eternal sunshine + Wicked). Both are mentioned in the rabbit holes but not profiled, which feels like a gap given the article's scope.
+
+What to trim:
+- Nothing to trim yet since the body sections are unwritten. But watch the TODO notes — they lean heavily on Enneagram shorthand ("pure 8," "4 integrating," "7 behavior"). When these get written out, keep the celebrity story in the foreground and the Enneagram as the lens, not the subject.
+- The rabbit holes section is strong but could be its own sidebar or follow-up piece. Six rabbit holes after seven artist profiles might exhaust readers. Consider keeping the 3 strongest.
+
+Structural suggestions:
+- The "Questions This Blog Will Answer" section is excellent and should stay prominent. Consider weaving these questions into the artist sections as subheadings rather than front-loading them all — this would create natural entry points and keep readers scrolling.
+- The three Type 3s (Taylor, Charli, Sabrina) need a structural solution. A mini-section comparing how the same type manifests in three radically different ways could turn a weakness into a strength — "Three Type 3s, Three Completely Different Strategies."
+- The "Why This Era Is Different" conclusion TODO has the right instinct. Make sure it doesn't just repeat the table — it should add a new insight about what this diversity means for listeners and culture.
+
+What's already working:
+- The questions section is genuinely provocative and would make readers click through. "Is Taylor Swift the most psychologically strategic person in entertainment?" and "Is Charli xcx actually messy or is brat the most calculated brand in pop?" are great hooks.
+- The table is clean and scannable — good reference anchor for the piece.
+- The rabbit holes are creative and could drive real exploration traffic. The "Pop Star Burnout Cycle by Type" angle is particularly strong.
+- The overall thesis — that this era's pop queens represent radically different psychological blueprints — is compelling and differentiating from standard music journalism.
+-->

@@ -12,7 +12,7 @@ published: true
 type: ['situational']
 blog: true
 previewHtml: ''
-pic: 'breaking-points-enneagram'
+pic: ''
 picGroup:
   - image: '/types/1s/Krystal-Ball.webp'
     text: 'Krystal Ball'

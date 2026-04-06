@@ -12,7 +12,7 @@ published: false
 type: ['situational']
 blog: true
 previewHtml: ''
-pic: 'tech-titans-disruptors'
+pic: ''
 picGroup:
   - image: '/types/8s/Jeff-Bezos.webp'
     text: 'Jeff Bezos'

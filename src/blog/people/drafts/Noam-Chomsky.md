@@ -91,11 +91,11 @@ Noam Chomsky was born in 1928 in Philadelphia to William and Elsie Chomsky, Ashk
 
 But the real education happened on the streets.
 
-"We happened to be, for most of my childhood, the only Jewish family in a mostly Irish and German Catholic neighborhood," Chomsky recalled. The neighborhood was "very anti-Semitic, quite pro-Nazi" until Pearl Harbor. "On the streets, you know, you go out and play ball with kids, or try to walk to the bus or something, it was a constant threat." There were "particular paths you would take, you might get beaten up, this sort of thing. It was right below the surface."
+"We happened to be, for most of my childhood, _the only Jewish family_ in a mostly Irish and German Catholic neighborhood," Chomsky recalled. The neighborhood was "very anti-Semitic, quite pro-Nazi" until Pearl Harbor. "On the streets, you know, you go out and play ball with kids, or try to walk to the bus or something, it was a constant threat." There were "particular paths you would take, you might get beaten up, this sort of thing. It was right below the surface."
 
 At ten years old, he wrote a school newspaper editorial about the rise of fascism in Europe.
 
-Not a book report. Not a science fair project. A ten-year-old's op-ed about the political collapse of the Spanish Republic. "The first article I wrote was an editorial on the fall of Barcelona," he said later. "Some of my earliest memories, which are very vivid, are of people selling rags at our door, of violent police strikebreaking."
+Not a book report. Not a science fair project. **A ten-year-old's op-ed about the political collapse of the Spanish Republic.** "The first article I wrote was an editorial on the fall of Barcelona," he said later. "Some of my earliest memories, which are very vivid, are of people selling rags at our door, of violent police strikebreaking."
 
 The moral courtroom was already in session. The child was already cataloging what the adults were doing wrong.
 
@@ -103,13 +103,13 @@ The moral courtroom was already in session. The child was already cataloging wha
 
 By eleven or twelve, Chomsky was getting on trains alone to New York City, where he'd spend weekends with an uncle who ran a newsstand in Manhattan.
 
-The uncle had never gone past fourth grade. Chomsky called him "maybe the most educated person I've ever met. Self-educated." The man eventually became a lay psychoanalyst, operating out of an apartment on Riverside Drive with no formal credentials. But his real institution was the newsstand itself, which had become "a center for some European emigres and others, and it was quite lively." Professors, workers, intellectuals arguing late into the night about fascism and capitalism and the fate of the world.
+The uncle had never gone past fourth grade. Chomsky called him _"maybe the most educated person I've ever met. Self-educated."_ The man eventually became a lay psychoanalyst, operating out of an apartment on Riverside Drive with no formal credentials. But his real institution was the newsstand itself, which had become "a center for some European emigres and others, and it was quite lively." Professors, workers, intellectuals arguing late into the night about fascism and capitalism and the fate of the world.
 
 From there, the boy wandered into anarchist bookstores around Union Square and Fourth Avenue, devouring political literature. He was absorbing a worldview that would never change. Not because the world confirmed it, but because the world kept failing to disprove it.
 
-"I've felt either alone or part of a tiny minority" since developing political awareness, Chomsky admitted. After Hiroshima, the feeling crystallized: "I felt completely isolated. I didn't know anybody who shared that skepticism, literally not a single person."
+"I've felt either alone or part of a tiny minority" since developing political awareness, Chomsky admitted. After Hiroshima, the feeling crystallized: "I felt completely isolated. I didn't know anybody who shared that skepticism, _literally not a single person_."
 
-A child who already felt morally separate from the world. A child who had already found the world guilty.
+A child who already felt morally separate from the world. **A child who had already found the world guilty.**
 
 ## The Field He Revolutionized and Barely Talks About
 
@@ -119,17 +119,17 @@ Within a decade, he'd done something almost no academic manages: he didn't just 
 
 "In the 1950s language was regarded as external to the mind," Chomsky explained. "I found it obvious that that can't be true. There's something about you that determines you're talking English not Swahili."
 
-The core insight was deceptively simple: a child in Tokyo and a child in Toronto are running the same mental software. Every human brain comes pre-loaded with a universal grammar, a set of structural rules that constrain what any possible human language can look like. Children don't learn language the way they learn arithmetic, through instruction and repetition. They _grow_ into it, the way they grow teeth. The environment determines _which_ language, but the capacity for language itself is hardwired.
+The core insight was deceptively simple: **a child in Tokyo and a child in Toronto are running the same mental software**. Every human brain comes pre-loaded with a universal grammar, a set of structural rules that constrain what any possible human language can look like. Children don't learn language the way they learn arithmetic, through instruction and repetition. They _grow_ into it, the way they grow teeth. The environment determines _which_ language, but the capacity for language itself is _hardwired_.
 
 But here's what most people miss about the linguistics: it wasn't separate from the politics. It was the foundation.
 
-Chomsky drew on Wilhelm von Humboldt's idea that language is "a process of free creation; its laws and principles are fixed, but the manner in which the principles of generation are used is free and infinitely varied." The "infinite use of finite means." If the human mind is wired not for stimulus-response obedience but for creative, rule-governed freedom, then political systems that treat people as passive, manageable units are working against human nature itself. Universal grammar wasn't just a linguistics theory. It was an argument that humans are built for self-governance.
+Chomsky drew on Wilhelm von Humboldt's idea that language is "a process of free creation; its laws and principles are fixed, but the manner in which the principles of generation are used is free and infinitely varied." The _"infinite use of finite means."_ If the human mind is wired not for stimulus-response obedience but for creative, rule-governed freedom, then political systems that treat people as passive, manageable units are **working against human nature itself**. Universal grammar wasn't just a linguistics theory. It was an argument that humans are built for self-governance.
 
 "Without this tension between necessity and freedom, rule and choice," he wrote, "there can be no creativity, no communication, no meaningful acts at all."
 
 The man who proved that every child is born with the capacity to generate infinite novel sentences from finite rules was making a deeper claim: that the same innate endowment includes a natural inclination toward freedom, creativity, and cooperation. Crush that inclination with authoritarian structures and you're not just governing badly. You're violating biology.
 
-This is why Chomsky was never just a linguist who also did politics, or a political critic who happened to teach linguistics. He was making one argument across two fields: human nature is real, it is structured, and it demands freedom. The linguistics proved the premise. The politics drew the conclusion.
+This is why Chomsky was never just a linguist who also did politics, or a political critic who happened to teach linguistics. **He was making one argument across two fields**: human nature is real, it is structured, and it demands freedom. The linguistics proved the premise. The politics drew the conclusion.
 
 The revolution wasn't gentle. Steven Pinker, his MIT colleague, noted that Chomsky "portrays people who disagree with him as stupid or evil, using withering scorn in his rhetoric." Another observer was blunter: "There really is an alpha-male dominance psychology at work there. The staring down. The withering tone of voice."
 
@@ -151,7 +151,7 @@ Then, starting in 1965, something shifted. Chomsky threw himself into fierce opp
 
 He even considered resigning from MIT entirely. In a letter to the New York Review of Books in 1967, he wrote about giving "a good bit of thought to resigning from MIT, which is, more than any other university, associated with the activities of the Department of 'Defense.'"
 
-He didn't resign. He had second thoughts. And so the double life began:
+**He didn't resign.** He had second thoughts. And so the double life began:
 
 <div class="contrast-panel">
 <div class="contrast-left">
@@ -164,9 +164,9 @@ He didn't resign. He had second thoughts. And so the double life began:
 </div>
 </div>
 
-He acknowledged the tension but insisted the funding had "no effect" on either his linguistics or his activism. Critics weren't convinced. One observer noted that Chomsky had "no choice but to hold contradictory ideas about his working environment," knowing MIT was "a major institution of war-research" while also needing to believe the Pentagon "was not funding war work" there. An article about this period was titled "Why Chomsky Felt 'Guilty Most of the Time.'"
+He acknowledged the tension but insisted the funding had "no effect" on either his linguistics or his activism. Critics weren't convinced. One observer noted that Chomsky had "no choice but to hold contradictory ideas about his working environment," knowing MIT was "a major institution of war-research" while also needing to believe the Pentagon "was not funding war work" there. An article about this period was titled **"Why Chomsky Felt 'Guilty Most of the Time.'"**
 
-Guilty most of the time. That phrase is the Rosetta Stone of his personality.
+_Guilty most of the time._ That phrase is the Rosetta Stone of his personality.
 
 ## The Man Who Needed Human Nature to Be Real
 
@@ -178,7 +178,7 @@ The sharpest exchange came over justice. Chomsky argued there is a real, non-rel
 
 Chomsky, visibly stunned: "If I could convince myself that attainment of power by the proletariat would lead to a terrorist police state... then I wouldn't want the proletariat to take power." He later called Foucault's position "quite frankly, very frightening."
 
-The debate reveals something essential about Chomsky's Type 1 psychology. A One _needs_ moral reality to be objective. The inner critic requires a standard that isn't merely personal preference or cultural convention. Without a real human nature, there's no innate standard of justice. Without an innate standard, moral critique becomes just one power play among others. The entire architecture of Chomsky's life depends on the premise that right and wrong are features of reality, not positions in a debate.
+The debate reveals something essential about Chomsky's Type 1 psychology. A One _needs_ moral reality to be objective. The inner critic requires a standard that isn't merely personal preference or cultural convention. Without a real human nature, there's no innate standard of justice. Without an innate standard, moral critique becomes just one power play among others. **The entire architecture of Chomsky's life depends on the premise that right and wrong are features of reality**, not positions in a debate.
 
 This is also why he dismissed most of postmodern theory with undisguised contempt. Lacan? "An amusing and perfectly self-conscious charlatan." Derrida? "Most of it seems to me gibberish." Žižek? "I don't see anything to what he's saying." His challenge was always the same: explain your theory in five minutes to a twelve-year-old. If you can't, you probably don't have one.
 
@@ -272,11 +272,13 @@ After 9/11, he published _9-11_ within weeks, warning that military escalation w
 
 But the positions that most clearly revealed the One's absolutism were the ones that cost him the most. And the Cambodia controversy is where the pattern is clearest.
 
-In the late 1970s, Chomsky and Edward Herman argued that Western media reports of Khmer Rouge atrocities were exaggerated "atrocity propaganda" serving U.S. interests. The argument wasn't that no atrocities occurred. It was that the media applied radically different standards when covering crimes by U.S. allies versus crimes by U.S. enemies. East Timor, where Indonesian forces killed a comparable number of people with American weapons, received almost no coverage. Cambodia, where the killing served the anti-communist narrative, received saturation coverage.
+### The Cambodia Controversy
+
+In the late 1970s, Chomsky and Edward Herman argued that Western media reports of Khmer Rouge atrocities were exaggerated "atrocity propaganda" serving U.S. interests. The argument wasn't that no atrocities occurred. It was that **the media applied radically different standards** when covering crimes by U.S. allies versus crimes by U.S. enemies. East Timor, where Indonesian forces killed a comparable number of people with American weapons, received almost no coverage. Cambodia, where the killing served the anti-communist narrative, received saturation coverage.
 
 He questioned refugee testimony, dismissed a key book documenting the genocide as a "third-rate propaganda tract," and demanded the same evidentiary standards he'd apply to U.S. government claims. When the full scale of the killing (1.5 to 2 million dead) became undeniable, critics accused him of covering for a communist regime. Chomsky maintained he was only critiquing media double standards.
 
-This is the Type 1 pattern in its most extreme form: the principle (apply consistent standards to all atrocity claims) is correct in the abstract, but the One applies it so rigidly that they lose sight of what's happening on the ground. The distinction between "critiquing media bias" and "minimizing genocide" mattered enormously to Chomsky. To the people being killed in Cambodia, it didn't matter at all. A One's worst moments don't come from malice. They come from treating moral consistency as more important than moral responsiveness.
+This is the Type 1 pattern in its most extreme form: the principle (apply consistent standards to all atrocity claims) is correct in the abstract, but **the One applies it so rigidly that they lose sight of what's happening on the ground**. The distinction between "critiquing media bias" and "minimizing genocide" mattered enormously to Chomsky. To the people being killed in Cambodia, it didn't matter at all. A One's worst moments don't come from malice. They come from treating _moral consistency_ as more important than _moral responsiveness_.
 
 The same pattern repeated. In 1980, he defended French Holocaust denier Robert Faurisson's right to free speech. The principle was free expression; the cost was his reputation in France for three decades. His criticism of Israel, beginning after the 1967 war and intensifying with _The Fateful Triangle_ in 1983, called Israeli actions "much worse than apartheid" when such comparisons were unspeakable in American discourse, especially from a Jewish intellectual who'd once lived on a kibbutz.
 
@@ -294,7 +296,7 @@ Valeria Chomsky later acknowledged "serious errors in judgment," explaining that
 
 Worth noting: these interactions occurred when Chomsky was in his late 80s, and some observers noted signs of cognitive slowing even before his 2023 stroke. That doesn't erase the problem, but it adds context.
 
-For a man who spent his career teaching the world to recognize the propaganda of the powerful, being taken in by the self-serving narrative of one of the most powerful predators of his era is a devastating irony. It is also, in a strange way, consistent with his personality. Chomsky "often seems baffled, even repelled, by the thought of actual people and their psychologies," a New Yorker profile noted. His admirers saw this as purity, a mind uncontaminated by social calculation. His critics saw it as a blind spot large enough to drive a predator through.
+For a man who spent his career teaching the world to recognize the propaganda of the powerful, **being taken in by the self-serving narrative of one of the most powerful predators of his era is a devastating irony**. It is also, in a strange way, consistent with his personality. Chomsky "often seems baffled, even repelled, by the thought of actual people and their psychologies," a New Yorker profile noted. His admirers saw this as purity, a mind uncontaminated by social calculation. His critics saw it as a _blind spot large enough to drive a predator through_.
 
 The pattern rhymes with MIT. In both cases, Chomsky rationalized proximity to power by insisting it didn't contaminate his work or his principles. The Pentagon funded his lab but didn't influence his linguistics. Epstein sought his company but didn't compromise his judgment. The same defense, deployed across decades, against the same accusation: that the world's most famous critic of power kept finding himself comfortably inside it.
 

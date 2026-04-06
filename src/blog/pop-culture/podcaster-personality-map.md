@@ -12,7 +12,7 @@ published: false
 type: ['situational']
 blog: true
 previewHtml: ''
-pic: 'podcaster-personality-map'
+pic: ''
 picGroup:
   - image: '/types/8s/Joe-Rogan.webp'
     text: 'Joe Rogan'

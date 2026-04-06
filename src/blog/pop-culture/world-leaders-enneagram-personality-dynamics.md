@@ -12,7 +12,7 @@ published: false
 type: ['situational']
 blog: true
 previewHtml: ''
-pic: 'world-leaders-psychology'
+pic: ''
 picGroup:
   - image: '/types/3s/Donald-Trump.webp'
     text: 'Donald Trump'

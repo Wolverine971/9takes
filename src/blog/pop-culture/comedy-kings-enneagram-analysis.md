@@ -12,7 +12,7 @@ published: false
 type: ['situational']
 blog: true
 previewHtml: ''
-pic: 'comedy-kings-enneagram'
+pic: ''
 picGroup:
   - image: '/types/7s/Theo-Von.webp'
     text: 'Theo Von'

@@ -12,7 +12,7 @@ published: true
 type: ['situational']
 blog: true
 previewHtml: ''
-pic: 'tech-titans-ai-wars'
+pic: ''
 picGroup:
   - image: '/types/4s/Sam-Altman.webp'
     text: 'Sam Altman'

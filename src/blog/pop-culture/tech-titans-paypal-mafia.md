@@ -12,7 +12,7 @@ published: false
 type: ['situational']
 blog: true
 previewHtml: ''
-pic: 'tech-titans-paypal-mafia'
+pic: ''
 picGroup:
   - image: '/types/6s/Peter-Thiel.webp'
     text: 'Peter Thiel'

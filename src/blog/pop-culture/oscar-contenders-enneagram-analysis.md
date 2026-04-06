@@ -12,7 +12,7 @@ published: false
 type: ['situational']
 blog: true
 previewHtml: ''
-pic: 'oscar-contenders-enneagram'
+pic: ''
 picGroup:
   - image: '/types/6s/Timothee-Chalamet.webp'
     text: 'Timothée Chalamet'

@@ -12,7 +12,7 @@ published: false
 type: ['situational']
 blog: true
 previewHtml: ''
-pic: 'silicon-valley-power-players'
+pic: ''
 picGroup:
   - image: '/types/3s/Chamath-Palihapitiya.webp'
     text: 'Chamath Palihapitiya'

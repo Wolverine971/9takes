@@ -1528,7 +1528,6 @@
 		.founder-card {
 			padding: 2.1rem;
 		}
-
 	}
 
 	:global(*:focus-visible) {
