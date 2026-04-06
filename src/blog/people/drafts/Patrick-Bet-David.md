@@ -1,12 +1,12 @@
 ---
-title: "Patrick Bet-David: An Enneagram Type 3 Analysis of Media's Self-Made Strategist"
-meta_title: "Why Patrick Bet-David Can't Stop Building (The Pattern Nobody Sees)"
+title: 'Patrick Bet-David: The Self-Made Strategist Who Turned Shame Into Fuel'
+meta_title: 'Why Patrick Bet-David Turns Shame Into Fuel'
 persona_title: "Media's Self-Made Strategist"
 description: 'Inside the psychology of Patrick Bet-David: how a refugee kid with a 1.8 GPA turned shame into an empire, and why he never stops.'
 author: 'DJ Wayne'
-date: '2026-04-03'
+date: '2026-04-06'
 loc: 'https://9takes.com/personality-analysis/Patrick-Bet-David'
-lastmod: '2026-04-03'
+lastmod: '2026-04-06'
 changefreq: 'monthly'
 priority: '0.6'
 published: false

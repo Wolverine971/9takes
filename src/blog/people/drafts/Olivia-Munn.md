@@ -1,12 +1,12 @@
 ---
-title: 'Olivia Munn: An Enneagram Type 6 Personality Analysis'
-meta_title: 'Why Olivia Munn Keeps Fighting (Even When No One Stands With Her)'
+title: 'Olivia Munn: The Counterpuncher Who Runs Toward the Fire'
+meta_title: 'Why Olivia Munn Keeps Fighting the Hard Way'
 persona_title: "Hollywood's Counterphobic Sentinel"
 description: "Inside Olivia Munn's pattern of charging toward danger and paying for it with isolation, from an abusive childhood to cancer advocacy."
 author: 'DJ Wayne'
-date: '2026-04-03'
+date: '2026-04-06'
 loc: 'https://9takes.com/personality-analysis/Olivia-Munn'
-lastmod: '2026-04-03'
+lastmod: '2026-04-06'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
@@ -64,7 +64,7 @@ The public sees an actress who got famous being funny on a tech show, dated Aaro
 </div>
 </details>
 
-## What Built Her
+## Olivia Munn's Childhood Under a Violent Stepfather
 
 Lisa Olivia Munn was born in Oklahoma City in 1980 to a Vietnamese-Chinese mother who had arrived in the United States as a refugee in 1975 and an American father of German and Irish descent. Her parents divorced when she was two. Her mother remarried an Air Force officer named Samuel Schmid, and the family began the rootless military life: Utah, then Tokyo, then wherever the next transfer sent them.
 
@@ -156,7 +156,7 @@ Sterling K. Brown broke the silence on Twitter: "I'm sorry you're feeling so iso
 
 ---
 
-## A Constant Nine
+## Olivia Munn's OCD and Nervous System on High Alert
 
 "OCD comes from a place of needing to feel safe," Munn told _Self_ magazine in 2014. "I had it growing up, having had a little bit of a tumultuous upbringing, moving around a lot with a mixed family with five kids. When I got on TV and had to open myself up to the world, some of that anxiety came back up."
 
@@ -212,7 +212,7 @@ Then she and Mulaney got the call about the embryos. "Our doctor called and he s
 
 ---
 
-## 4,000 Percent
+## How Olivia Munn Turned Cancer Into Protection for Other Women
 
 Olivia Munn could have recovered quietly. She'd earned it. Five surgeries, a hysterectomy, two children named Malcolm Hiệp and Méi June, both carrying Vietnamese and Chinese names. A marriage to Mulaney in July 2024 with Sam Waterston officiating and only their son as witness. Nobody would have blamed her for disappearing.
 

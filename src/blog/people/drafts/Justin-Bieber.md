@@ -1,8 +1,8 @@
 ---
-title: 'Justin Bieber: An Enneagram Type 3 Personality Analysis'
-meta_title: "Why Justin Bieber's Breakdown Wasn't What You Think (The Real Pattern)"
+title: 'Justin Bieber: The Child Star Who Became a Product'
+meta_title: 'Why Justin Bieber Became a Product Before a Person'
 persona_title: "Pop's Hollow Prodigy"
-description: 'Justin Bieber became the biggest star on earth at 13. The Enneagram reveals why that nearly killed him.'
+description: 'Justin Bieber became the biggest star on earth at 13 and nearly disappeared inside the product everyone else was selling.'
 author: 'DJ Wayne'
 date: '2026-04-03'
 loc: 'https://9takes.com/personality-analysis/Justin-Bieber'

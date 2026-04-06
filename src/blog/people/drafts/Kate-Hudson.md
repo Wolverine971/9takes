@@ -1,12 +1,12 @@
 ---
-title: 'Kate Hudson: An Enneagram Type 7 Analysis'
-meta_title: 'Why Kate Hudson Hid Her Music for 25 Years — and Kept Marrying Musicians'
+title: 'Kate Hudson: The Sunshine Strategy Built Around an Absent Father'
+meta_title: 'Why Kate Hudson Hid Her Music for Decades'
 persona_title: "Hollywood's Radiant Fugitive"
-description: "Kate Hudson wrote songs in secret for decades because music was her absent father's art. An Enneagram Type 7 analysis of the wound behind the sunshine."
+description: 'Kate Hudson built a life of movement, charm, and sunlight around the father wound she never fully stopped trying to outrun.'
 author: 'DJ Wayne'
-date: '2026-04-03'
+date: '2026-04-06'
 loc: 'https://9takes.com/personality-analysis/Kate-Hudson'
-lastmod: '2026-04-03'
+lastmod: '2026-04-06'
 changefreq: 'monthly'
 priority: '0.6'
 published: false

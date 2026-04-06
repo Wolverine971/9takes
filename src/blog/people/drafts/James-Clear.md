@@ -1,12 +1,12 @@
 ---
-title: 'James Clear: An Enneagram Type 1 Analysis of the Atomic Habits Author'
-meta_title: "James Clear's Hidden Perfectionism: The Pattern Behind Atomic Habits"
+title: 'James Clear: The Perfectionist Behind Atomic Habits'
+meta_title: 'Why James Clear Turns Perfectionism Into Systems'
 persona_title: "Self-Help's Quiet Perfectionist"
 description: "Why does the man who preaches 1% better demand 100% of himself? Inside James Clear's perfectionism, near-death injury, and the psychology of Atomic Habits."
 author: 'DJ Wayne'
-date: '2026-04-03'
+date: '2026-04-06'
 loc: 'https://9takes.com/personality-analysis/James-Clear'
-lastmod: '2026-04-03'
+lastmod: '2026-04-06'
 changefreq: 'monthly'
 priority: '0.6'
 published: false

@@ -1,8 +1,8 @@
 ---
-title: 'Steve Jobs: An Enneagram Type 1 Personality Analysis'
-meta_title: "Why Steve Jobs Couldn't Stop Perfecting Everything (Except His Own Life)"
+title: 'Steve Jobs: The Perfectionist Who Built Beautiful Things and Brutalized People'
+meta_title: 'Why Steve Jobs Turned Perfection Into a Weapon'
 persona_title: "Silicon Valley's Restless Perfectionist"
-description: 'The abandoned boy who built perfect products. Inside Steve Jobs Type 1 psychology and the gap between his genius and his humanity.'
+description: "The abandoned boy who built perfect products also turned perfection into a weapon. Inside the psychology behind Steve Jobs's genius and cruelty."
 author: 'DJ Wayne'
 date: '2026-03-28'
 loc: 'https://9takes.com/personality-analysis/Steve-Jobs'
@@ -141,7 +141,7 @@ The evidence is structural, not superficial:
 
 ---
 
-## The Aesthetic Monk
+## Steve Jobs's Spiritual Minimalism and Design Obsession
 
 Jobs found Zen Buddhism in his late teens. He read Shunryu Suzuki's _Zen Mind, Beginner's Mind_, traveled to India seeking enlightenment, and upon returning found his teacher in Kobun Chino Otogawa, a Soto Zen priest in Los Altos.
 
@@ -161,7 +161,7 @@ He extracted from Buddhism precisely what a Type 1 would extract: the standard. 
 
 ---
 
-## Lisa
+## Why Steve Jobs Denied Lisa for Years
 
 In 1978, Chrisann Brennan gave birth to a girl she named Lisa on a commune outside Portland, Oregon. Steve Jobs was 23 years old. He denied the child was his.
 
@@ -217,7 +217,7 @@ In 1996, Apple — teetering near bankruptcy — bought NeXT for $427 million. W
 
 ---
 
-## The Second Act
+## Steve Jobs's Return to Apple Changed the Pattern
 
 The man who returned to Apple was not the man who had left. The inner critic still ran. But the rage had been refined into something more productive.
 
@@ -233,7 +233,7 @@ At home, Laurene provided the counterweight. "We talked a lot, for hours every d
 
 ---
 
-## The Purity Problem
+## When Steve Jobs Turned Purity Into Punishment
 
 In October 2003, doctors found a tumor on Jobs' pancreas. It was a neuroendocrine tumor — rare, treatable, caught early. His doctors urged immediate surgery.
 
@@ -249,7 +249,7 @@ He had the surgery in July 2004. By then, the cancer had spread.
 
 ---
 
-## Oh Wow
+## Steve Jobs's Final Words and What They Revealed
 
 On October 5, 2011, Steve Jobs died at home in Palo Alto, surrounded by his family. He was 56.
 

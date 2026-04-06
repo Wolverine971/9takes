@@ -1,5 +1,5 @@
 ---
-title: 'Lana Rhoades: An Enneagram Type 3 Analysis of the Most-Watched Woman Who Wanted to Disappear'
+title: 'Lana Rhoades: The Most-Watched Woman Who Wanted to Disappear'
 meta_title: 'Why Lana Rhoades Would Trade Everything to Be Unseen'
 persona_title: "The Industry's Vanishing Star"
 description: 'Lana Rhoades became the most-searched woman on earth, then begged the internet to forget her. The psychology behind her reinvention reveals more than regret.'

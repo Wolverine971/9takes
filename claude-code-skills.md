@@ -168,6 +168,7 @@ These already cover most of:
 - `.claude/commands/tweet-reply.md`
 - `.claude/commands/twitter-warmup.md`
 - `.claude/commands/instagram-warmup.md`
+- `.claude/commands/instagram-reply.md`
 
 These already cover most of:
 

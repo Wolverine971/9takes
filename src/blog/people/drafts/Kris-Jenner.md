@@ -1,5 +1,5 @@
 ---
-title: 'Kris Jenner: An In-Depth Enneagram Type 3 Analysis'
+title: 'Kris Jenner: The Momager Who Turned Abandonment Into an Empire'
 meta_title: "Why Kris Jenner Can't Stop Managing Everyone She Loves"
 persona_title: "Hollywood's Calculated Matriarch"
 description: "What drives the woman who turned her family into a billion-dollar brand? Inside Kris Jenner's psychology — from childhood abandonment to momager empire."
@@ -289,3 +289,45 @@ She has done this for decades. She is not slowing down. At seventy, approaching 
 But she controls everything she can. And what she can control — her schedule, her family's brand, the terms of every deal, the narrative of every crisis — she controls with a discipline that started in a scheduling office with a box of brownies and never let up.
 
 She learned at seven that love leaves. She has spent every morning since making sure it can't.
+
+<!--
+REVIEWER COMMENTS (2026-04-06)
+==============================
+
+WHAT'S WORKING:
+- The childhood abandonment → empire builder arc is a genuinely compelling frame
+- The brownies anecdote as a through-line is effective (though overused — see below)
+- "You're doing amazing, sweetie" section is the best part of the piece — the dual-nature analysis there is sharp
+- The Nicole Brown Simpson section is emotionally powerful and the "latched onto the legal side" quote is a great find
+- The ending lands well
+
+MAJOR GAPS — things a Kris Jenner reader would expect:
+
+1. THE SEX TAPE. This is the elephant in the room. The article goes from "Ryan Seacrest filmed a barbecue" straight to KUWTK premiering, completely skipping the Kim Kardashian sex tape and Kris's widely alleged role in its leak/monetization. This is arguably the single most controversial thing associated with her name. You don't have to confirm the rumors, but ignoring it entirely makes the piece feel sanitized. A reader who knows anything about Kris will notice this omission immediately and trust the article less for it.
+
+2. COREY GAMBLE. She's been in a relationship with a man 25 years younger since 2014. He's been on the show for years. He's a significant part of her current life. Complete absence here is odd — especially since the article covers the Todd Waterman affair and both marriages in detail. Her current romantic life just... doesn't exist in this piece?
+
+3. ROBERT KARDASHIAN'S DEATH. Mentioned only in passing re: faith. But he died of esophageal cancer in 2003, just 8 weeks after diagnosis, shortly after remarrying. Given how much the article invests in the affair/divorce and the "biggest regret" framing, the story of how they related after the divorce and his sudden death feels like a missing chapter. Did they reconcile? Were they on good terms? This matters for the abandonment thesis.
+
+4. PUBLIC PERCEPTION / "PIMP" ACCUSATIONS. The article is relatively sympathetic. But Kris Jenner is one of the most polarizing figures in entertainment. The "devil works hard but Kris Jenner works harder" meme, the accusations of exploiting and pimping out her children, the idea that she's a stage mother on steroids — these are what a huge chunk of the public actually thinks about her. The piece acknowledges "critics" once or twice but never really engages with the harshest version of the criticism. This would actually STRENGTHEN the Enneagram analysis if you addressed it head-on.
+
+OVERDONE / TRIMMING OPPORTUNITIES:
+
+5. THE "LOVE AND BUSINESS ARE FUSED" THESIS is stated about 6-7 times. Opening paragraphs establish it. TL;DR repeats it. Enneagram section re-explains it. "You're doing amazing sweetie" section illustrates it. Grandchildren section restates it. The ending restates it again. It's a good thesis but the repetition dilutes the impact. Trust the reader to get it after the first 2-3 times and let the later sections just SHOW it without explicitly re-stating the frame.
+
+6. THE BROWNIES CALLBACK happens at least 4 times (its own section, the momager section, the closing paragraph, and once more in between). The first callback is effective. By the fourth it feels like a crutch.
+
+7. THE COMPARTMENTALIZE PATTERN gets named explicitly twice with near-identical framing (Nicole section and the MJ section). The MJ version ("Feel it. Name it. Then pop over and handle it.") is the stronger one. Consider whether you need both stated so explicitly or if one could just show it without labeling it.
+
+SMALLER NOTES:
+
+8. The dinnerware room detail is fascinating but just sits there. Six sets of Hermès, custom hand-painted family portraits on plates — this is screaming to be connected to the image/presentation thesis. A woman who curates how her family appears even on dinnerware? That's not just wealth, that's the Type 3 operating system expressed in porcelain. Make the connection or cut it.
+
+9. The church section (California Community Church) feels dropped in and abandoned. Was there actual controversy? Did it close? The "10% tithe matches her 10% management fee" observation is provocative but you leave it hanging. Either develop it or trim it to a sentence.
+
+10. The business section is surprisingly thin on specifics. HOW did she build Kylie Cosmetics? What was her specific role in Skims? The article says she negotiated unprecedented KUWTK deals but doesn't show the negotiation style beyond the brownies anecdote. For someone whose defining trait is business acumen, there's not much detail about how she actually operates in a boardroom.
+
+11. Minor: the Caitlyn section is solid but long relative to its importance to the overall thesis. The memoir anger quotes are good; the rest could be tightened.
+
+BOTTOM LINE: The writing quality is high and the psychological frame is genuinely interesting. But the piece currently reads like it was written from podcast interviews and the show itself — it needs the messier, more controversial material (sex tape, public hatred, exploitation accusations) to feel complete. Right now it's about 80% of the way to being a piece that someone who actually follows Kris Jenner would find satisfying. The missing 20% is the uncomfortable stuff.
+-->

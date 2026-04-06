@@ -1,12 +1,12 @@
 ---
-title: 'John Mayer: An Enneagram Type 4 Analysis'
-meta_title: "Why John Mayer Can't Stop Sabotaging the Thing He Wants Most"
+title: 'John Mayer: The Virtuoso Who Keeps Sabotaging the Thing He Wants Most'
+meta_title: 'Why John Mayer Keeps Ruining the Intimacy He Wants'
 persona_title: "Music's Haunted Virtuoso"
 description: 'Inside the contradiction that defines John Mayer: the man who writes devastating truths but spent a decade performing lies.'
 author: 'DJ Wayne'
 date: '2026-03-28'
 loc: 'https://9takes.com/personality-analysis/John-Mayer'
-lastmod: '2026-03-28'
+lastmod: '2026-04-06'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
@@ -117,7 +117,7 @@ It shows up everywhere:
 
 That withdrawal instinct — the Four's reflex to pull inward when the world can't hold what they feel — was about to stop being a choice.
 
-## The Silence
+## Losing His Voice Forced John Mayer to Stop Performing
 
 In September 2011, a year after the Playboy disaster, a granuloma appeared on John Mayer's vocal cords — an "almost feedback loop of flesh" that kept building up, preventing them from closing. The man who couldn't stop talking had his voice taken from him.
 
@@ -141,7 +141,7 @@ The silence had stripped the performance away. But stripping a habit isn't the s
 
 ---
 
-## 100 Percent
+## The Night John Mayer Quit Drinking for Good
 
 On October 23, 2016, John Mayer got spectacularly drunk at <a href="/personality-analysis/Drake">Drake</a>'s 30th birthday party. About 150 guests — ex-girlfriends he'd hurt, celebrities he'd offended, an entire room of people who represented everything he'd spent years trying to escape.
 
@@ -171,7 +171,7 @@ The real John Mayer was always underneath. He just had to get quiet enough to he
 
 That quiet had already shown him where to listen. Back in 2011, during the months without a voice, he'd stumbled onto a sound that would reshape the next fifteen years of his life.
 
-## The Portal
+## How Dead & Company Changed John Mayer's Life
 
 In 2011, swimming at home, John Mayer heard a song playing on Pandora through his Neil Young station. He got out of the pool dripping wet and rushed inside to find out what it was.
 
@@ -199,7 +199,7 @@ He performed "Ripple," then: "300 years, Bobby, now that's a plan I can get behi
 
 The Dead taught him to disappear inside the music. His solo records, meanwhile, tracked the man who kept reappearing on the other side.
 
-## The False Memory
+## Sob Rock and the Disguise That Told the Truth
 
 _Born and Raised_ came from the silence. _The Search for Everything_ came from the last breakup that mattered — Katy Perry, his only serious relationship in five years. "There were times when tears came out of me," he told Billboard, "and I went, OK, John, this is not about an on-again, off-again relationship. This is something more profound."
 
@@ -211,7 +211,7 @@ In 2021, Mayer released an album designed as an 80s pastiche — soft-focus synt
 
 He wasn't. The ironic shell turned out to contain his most emotionally direct writing in years. Which is the most Four thing he's ever done: building an elaborate disguise, then discovering his real feelings had smuggled themselves inside it. Sincerity that could only come out sideways.
 
-## The Bit
+## How John Mayer Turned Public Shame Into Play
 
 The same ease shows up online. Mayer's Instagram show _Current Mood_ airs Sunday nights from his living room — stuffed animals hot-glued to a poster board behind him, Lisa Frank graphics, celebrity guests dropping in to talk about nothing in particular. When Swift fans flooded his TikTok to berate him over "Dear John," he posted a video of himself slowly nodding along, captioned: "POV: You're berating me and I'm hearing you out." He ended the night playing piano and singing, "That was a weird day. That was a real weird day."
 
@@ -221,7 +221,7 @@ This is what healthy Four humor looks like. The thing that used to destroy him �
 
 That ease — with the Dead, with the internet, with being misunderstood — is what the rest of his life looks like now.
 
-## The 64-Crayon Box
+## What John Mayer's Life Looks Like Now
 
 "The biggest mistake I made," John Mayer said, "and what cost me a lot of enjoyment in my life, was assuming that everybody cared."
 

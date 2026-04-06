@@ -1,12 +1,12 @@
 ---
-title: "Dalton Caldwell: An Enneagram Type 6 Analysis of Silicon Valley's Most Devoted Skeptic"
-meta_title: "Why Dalton Caldwell Can't Stop Stress-Testing Everything (Including Himself)"
+title: 'Dalton Caldwell: The Skeptic Who Built a Career on Broken Trust'
+meta_title: 'Why Dalton Caldwell Trusts Systems More Than Platforms'
 persona_title: "Silicon Valley's Devoted Skeptic"
-description: "Inside the mind of YC's longest-serving partner: how a kid from El Paso built a career on trust and suspicion in equal measure."
+description: 'Dalton Caldwell built his career by spotting where platforms betray creators, how trust breaks, and why skepticism became his edge.'
 author: 'DJ Wayne'
 date: '2026-03-29'
 loc: 'https://9takes.com/personality-analysis/Dalton-Caldwell'
-lastmod: '2026-03-29'
+lastmod: '2026-04-06'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
@@ -127,7 +127,7 @@ He didn't make the 70% cut. He averaged the advice. And imeem was acquired by My
 
 That line, buried in a letter about catastrophic failure, is the most revealing sentence Dalton Caldwell has ever published.
 
-## Dear Mark Zuckerberg
+## Dalton's Open Letter to Mark Zuckerberg
 
 After imeem's firesale, Caldwell was recruited to help save MySpace by Owen Van Natta, Facebook's former COO. Van Natta was fired almost immediately. "I think I worked at MySpace for like a month because the person that acquired my company got fired."
 
@@ -229,7 +229,7 @@ What they share is something deeper: "The thing that I would argue folks that bu
 
 Notice what he's describing: not his own personality. The Six identifies the trait they find hardest to access — unshakeable self-belief — and studies it in others with the precision of a psychologist and the reverence of someone who knows what it costs.
 
-## Just Don't Die
+## Dalton's Founder Rule: Just Don't Die
 
 There's a philosophy that runs beneath everything Dalton Caldwell has built. Beneath the office hours and the podcast episodes and the open letters and the failures. Three words: just don't die.
 

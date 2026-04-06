@@ -1,5 +1,5 @@
 ---
-title: 'Sara Saffari: An Enneagram Type 3 Personality Analysis'
+title: "Sara Saffari: The Discipline Machine Behind Fitness's Fastest Reinvention"
 meta_title: "Why Sara Saffari Can't Stop Becoming Someone New"
 persona_title: "Fitness's Self-Built Phoenix"
 description: "From depressed teen eating McDonald's alone to fitness icon with millions watching. Inside the psychology driving Sara Saffari's transformation."

@@ -1,12 +1,12 @@
 ---
-title: "Tfue's Enneagram Type 7 Personality Analysis"
-meta_title: "Why Tfue Can't Stop Escaping (The Pattern Behind His Burnout)"
+title: 'Tfue: The Escape Artist Who Turned Gaming Into Another Cage'
+meta_title: 'Why Tfue Turned Gaming Into Another Cage'
 persona_title: "Gaming's Restless Fugitive"
 description: "The kid banned from video games became the best gamer alive, then tearfully quit. Inside Tfue's cycle of freedom and captivity."
 author: 'DJ Wayne'
-date: '2026-04-03'
+date: '2026-04-06'
 loc: 'https://9takes.com/personality-analysis/Tfue'
-lastmod: '2026-04-03'
+lastmod: '2026-04-06'
 changefreq: 'monthly'
 priority: '0.6'
 published: false

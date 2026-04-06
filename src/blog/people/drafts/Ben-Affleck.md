@@ -1,12 +1,12 @@
 ---
-title: 'Ben Affleck: An Enneagram Type 3 Personality Analysis'
-meta_title: "Why Ben Affleck Can't Stop Rebuilding (And Wrecking) His Own Life"
+title: 'Ben Affleck: The Achiever Who Keeps Rebuilding the Life He Burns Down'
+meta_title: 'Why Ben Affleck Keeps Rebuilding From the Rubble'
 persona_title: "Hollywood's Self-Demolishing Architect"
-description: 'Why does Ben Affleck keep building incredible things and then destroying them? His Enneagram type reveals the pattern behind the comebacks and the collapses.'
+description: 'Ben Affleck keeps building extraordinary lives and then detonating them from the inside. The same pattern drives the comebacks, the collapses, and the wreckage.'
 author: 'DJ Wayne'
-date: '2026-04-04'
+date: '2026-04-06'
 loc: 'https://9takes.com/personality-analysis/Ben-Affleck'
-lastmod: '2026-04-04'
+lastmod: '2026-04-06'
 changefreq: 'monthly'
 priority: '0.6'
 published: false

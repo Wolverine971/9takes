@@ -1,8 +1,8 @@
 ---
-title: 'Bradley Martyn: The Fortress Built on Grief — An Enneagram Type 8 Analysis'
-meta_title: "Why Bradley Martyn Built Himself Into a Fortress (It Wasn't About Fitness)"
+title: 'Bradley Martyn: The Fortress Built on Grief'
+meta_title: 'Why Bradley Martyn Built Himself Into Armor'
 persona_title: "Fitness's Armored Guardian"
-description: "Why does a 260-lb man who challenges UFC fighters still carry a six-year-old's wound? Inside Bradley Martyn's Enneagram Type 8 psychology and the grief that built him."
+description: "Why does a 260-lb man who challenges UFC fighters still carry a six-year-old's wound? Inside the grief, armor, and loyalty code that built Bradley Martyn."
 author: 'DJ Wayne'
 date: '2026-04-06'
 loc: 'https://9takes.com/personality-analysis/Bradley-Martyn'
@@ -18,15 +18,6 @@ wikipedia: 'https://en.wikipedia.org/wiki/Bradley_Martyn'
 twitter: 'https://twitter.com/bradleymartyn'
 instagram: 'https://instagram.com/bradleymartyn'
 tiktok: 'https://tiktok.com/@bradleymartyn'
-content_quality:
-  hook: 9
-  enneagram: 8
-  evidence: 7
-  writing: 9
-  originality: 9
-  overall: 8.4
-  letter: B
-  graded_at: '2026-04-06'
 production_pretext:
   status: draft
   handoff_from: blog_content_creator_people
@@ -205,3 +196,44 @@ Every pound of muscle Bradley Martyn ever added was another layer between himsel
 He keeps building. He keeps challenging. He keeps the lights on.
 
 > **Disclaimer:** This analysis of Bradley Martyn's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Bradley Martyn.
+
+<!--
+## REVIEWER COMMENTS (2026-04-06)
+
+### MISSING — Biggest Gaps
+
+1. **The steroid/PED elephant in the room.** You describe a 260-lb man of pure muscle and never once address the PED conversation. Anyone who follows Bradley knows this is one of the most-discussed things about him. You don't need to accuse him, but ignoring it completely makes the article feel sanitized. At minimum, address how he handles that conversation — does he deflect? Get angry? Laugh it off? That response itself is Type 8 data. His relationship with Derek (More Plates More Dates) and the broader "natty or not" discourse is something readers will expect you to acknowledge.
+
+2. **His actual content — the fun side.** The article makes Bradley sound like a tortured philosopher who happens to lift weights. But most people know him from viral gym clips: deadlifting people on his back, the insane Zoo Culture stunts, random encounters with fans. His content personality is playful, goofy, and magnetic. That warmth and humor IS the Type 8 integration toward Type 2 you mention — but you tell us about it with a hashtag instead of showing it through his actual content. A section (even a short one) on what his day-to-day content actually feels like would ground this for readers who watch him.
+
+3. **His crew and loyalty dynamics.** Bradley is known for the people around him — the Zoo Culture regulars, his rotating cast of training partners, the way he brings people into his orbit. The loyalty/inner-circle thing is textbook Type 8 and it's completely absent. Who does he ride for? Who has he cut off? That web of relationships would strengthen the analysis.
+
+4. **The business controversies.** Zoo Culture pricing complaints, the supplement brand quality debates, RawGear criticism — these exist and readers who follow him know about them. How he responds to business criticism (or doesn't) tells you something about his psychology.
+
+### OVERDONE — Where to Trim
+
+5. **The father's suicide is over-indexed.** It's clearly the emotional engine of the piece, and it should be. But right now it's referenced in: the opening quote, the opening anecdote's payoff, the TL;DR (twice), "The House That Went Quiet," "The Escape That Became a Mission," the Type 8 evidence section, the relationships section, the brother section, "His Father's Clock," AND the closing paragraph. That's 10+ touchpoints. By the third or fourth callback, it starts feeling like you're hammering a single note. Trust the reader — they got it the first two times. Let some sections breathe on their own without routing everything back to the same wound.
+
+6. **The "fortress" metaphor.** Title, subtitle concept, TL;DR, Type 8 section, brother section, closing. It's a good metaphor but it's doing too much work. Let some sections use different language.
+
+### STRUCTURE / TONE
+
+7. **The article is almost entirely serious/heavy.** There's no levity anywhere. Bradley himself is actually pretty funny — self-deprecating, charismatic, quick with a joke. The piece reads like a psychological autopsy of someone who's still alive and posting gym memes. One lighter section would give the reader a break and make the heavy parts hit harder by contrast.
+
+8. **The fighter challenges section could go deeper.** You mention Nate Diaz, Demetrious Johnson, Sean O'Malley, Alex Pereira, Jake Paul/Mike Perry, and Sean Strickland — but it's a surface-level list. Pick one or two and tell the actual story. What did he say? What was the response? What happened? The Strickland confrontation in particular was wild and would make great reading.
+
+9. **The Full Send departure is underexplored.** You say "he left, just like he left competitive bodybuilding" but don't explain what actually happened. Was there a falling out? Creative differences? The NELK boys have their own controversies — how does that intersect with Bradley's story?
+
+10. **The brother section is the best part.** "The side of Brad he doesn't have" — that's genuinely insightful and it's the moment where the article earns its psychological ambition. Consider giving it a bit more room or making it the emotional climax rather than the father's clock section, which retreads ground already covered.
+
+### SMALL THINGS
+
+11. The opening padlock story says "two other men" — do we know who? If so, naming them adds texture. If not, cut "two other men" and just say he showed up and ripped it off.
+
+12. "He's 37 now. He passed it." — Great line. But verify the math: born May 22, 1989, so as of April 2026 he's 36, turning 37 in May. His father died at 36. So as of this writing he hasn't quite passed it yet — he's living IN the age. That's actually even more powerful if stated correctly.
+
+13. The Flagrant podcast section — is this the right show? Bradley has done multiple long-form interviews. Make sure the relationship vulnerability quotes are attributed to the right appearance.
+
+### BOTTOM LINE
+The emotional thesis is strong and the writing is good. The main risk is that it's a one-note piece — everything is grief, everything is armor, everything routes back to the father. Bradley Martyn is more dimensional than that, and the article would be stronger if it let him be. Add the fun/content side, acknowledge the PED conversation, and trim about 30% of the grief callbacks, and this goes from a solid draft to something that would actually surprise someone who thinks they already know Bradley Martyn.
+-->

@@ -1,12 +1,12 @@
 ---
-title: "Kyle Forgeard: An Enneagram Type 7 Analysis of NELK's Restless Architect"
-meta_title: "Why Kyle Forgeard Can't Stop (The Pattern Behind the Full Send Empire)"
+title: 'Kyle Forgeard: The Restless Architect Behind Full Send'
+meta_title: 'How Kyle Forgeard Built Full Send to Stay Uncontrollable'
 persona_title: "Content's Restless Empire Builder"
 description: "Inside Kyle Forgeard's mind: how a kid making funny videos in Mississauga built a $300M empire — and why his body almost collapsed before he'd slow down."
 author: 'DJ Wayne'
-date: '2026-04-03'
+date: '2026-04-06'
 loc: 'https://9takes.com/personality-analysis/Kyle-Forgeard'
-lastmod: '2026-04-03'
+lastmod: '2026-04-06'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
@@ -152,7 +152,7 @@ On Graham Stephan's Iced Coffee Hour podcast, Kyle was more candid: Steve was "a
 
 ---
 
-## The Man Off Camera
+## Who Kyle Forgeard Is When the Cameras Turn Off
 
 For someone who has shared his liver function, testosterone levels, blood work, business disputes, and mile splits with millions of strangers, Kyle Forgeard's private life is conspicuously absent.
 
@@ -236,7 +236,7 @@ But underneath the business metaphors, something simpler happened: Kyle proved t
 
 ---
 
-## The Empire's Architecture
+## How Kyle Forgeard Built Full Send for Freedom
 
 When defining an "ultimate human" on Gary Brecka's podcast, Kyle said it meant "being the best version of oneself and performing at the highest level in one's field" while "being a leader and setting an example for others."
 

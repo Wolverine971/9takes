@@ -1,12 +1,12 @@
 ---
-title: "Oscar Isaac: An Enneagram Type 4 Analysis of Hollywood's Restless Alchemist"
-meta_title: "Why Oscar Isaac Can't Stop Turning Pain Into Art (The Pattern Nobody Sees)"
+title: 'Oscar Isaac: The Restless Alchemist Who Turns Pain Into Devotion'
+meta_title: 'Why Oscar Isaac Keeps Turning Pain Into Art'
 persona_title: "Cinema's Grief Alchemist"
 description: "Oscar Isaac built his philosophy on impermanence but his art on devotion. Inside the contradiction that drives Hollywood's most emotionally committed actor."
 author: 'DJ Wayne'
-date: '2026-04-03'
+date: '2026-04-06'
 loc: 'https://9takes.com/personality-analysis/Oscar-Isaac'
-lastmod: '2026-04-03'
+lastmod: '2026-04-06'
 changefreq: 'monthly'
 priority: '0.6'
 published: false

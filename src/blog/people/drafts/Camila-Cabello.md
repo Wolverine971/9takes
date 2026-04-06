@@ -1,12 +1,12 @@
 ---
-title: 'Camila Cabello: An Enneagram Type 6 Analysis'
-meta_title: "Why Camila Cabello Can't Stop Building and Breaking Her Own Cages"
+title: 'Camila Cabello: The Anxiety Architect Who Keeps Breaking Her Own Safe Havens'
+meta_title: 'Why Camila Cabello Keeps Breaking Her Own Cages'
 persona_title: "Pop's Counter-Phobic Dreamer"
-description: 'Inside the anxiety rituals, border crossings, and blown-up safe havens that reveal who Camila Cabello really is'
+description: "Camila Cabello's anxiety shows up as rituals, reinventions, and the urge to destroy every safe haven once it starts feeling too small."
 author: 'DJ Wayne'
-date: '2026-04-03'
+date: '2026-04-06'
 loc: 'https://9takes.com/personality-analysis/Camila-Cabello'
-lastmod: '2026-04-03'
+lastmod: '2026-04-06'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
@@ -182,7 +182,7 @@ This isn't general worry. This is the Six's core pattern: [scanning for danger](
 
 ---
 
-## The Framework Collector
+## How Camila Uses Frameworks to Manage Anxiety
 
 Where some people collect shoes or vinyl, Camila collects systems for managing her mind.
 
@@ -272,7 +272,7 @@ She listened. Because the advice matched what she'd already discovered: the only
 
 ---
 
-## The Inner Circle
+## Why Camila Keeps Her Circle Small
 
 Sixes don't trust easily. When they do, the loyalty is structural — not sentimental, but load-bearing.
 

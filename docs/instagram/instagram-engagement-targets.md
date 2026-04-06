@@ -2,11 +2,36 @@
 
 # Instagram Engagement Targets — @9takesdotcom
 
-_Last Updated: 2026-03-15_
+_Last Updated: 2026-04-06_
 _Purpose: Living document tracking accounts to engage with, organized by tier and category._
-_Updated by: `/instagram-warmup` scans_
+_Updated by: `/instagram-warmup` scans and reviewed alongside `/instagram-reply` account history._
 
-**RULE: APPEND-ONLY.** Never overwrite, delete, or reorder existing rows. Only add new rows. New discoveries also get their own dated file at `docs/instagram/daily-engagement/YYYY-MM-DD_new-targets.md`.
+**RULE:** The tier tables below are append-only for account discovery. Do not delete, reorder, or overwrite existing account rows in those tables. Relationship history and evolving account intel live in `docs/instagram/account-profiles/<handle>.md`, which are expected to be updated over time.
+
+---
+
+## Relationship Memory Layer
+
+This file is the map of who matters. It is not the full CRM.
+
+Use it together with:
+
+- `docs/instagram/account-profiles/<handle>.md` for living profile intel and running relationship history
+- `docs/instagram/daily-engagement/YYYY-MM-DD_instagram-warmup.md` for the daily sourcing queue
+- `docs/instagram/daily-engagement/YYYY-MM-DD_instagram-replies.md` for drafted replies and execution notes
+
+Create or update an account profile when:
+
+- the account is queued for reply
+- the account has engaged with @9takesdotcom
+- the account is strategically important enough to revisit
+- the account keeps resurfacing in scans
+
+The workflow is:
+
+1. `/instagram-warmup` finds opportunities and refreshes account memory
+2. `/instagram-reply` drafts comments using that memory
+3. the account profile keeps the running history of what was reviewed, drafted, and actually said
 
 ---
 

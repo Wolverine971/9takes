@@ -1,12 +1,12 @@
 ---
-title: 'Mindy Kaling: An Enneagram Type 3 Analysis'
+title: 'Mindy Kaling: The Woman Who Turned Repression Into Output'
 meta_title: "Why Mindy Kaling Can't Stop Working (Even Mid-Labor)"
 persona_title: "Comedy's Relentless Alchemist"
-description: "How ambition, grief, and 'healthy delusion' drive everything Mindy Kaling creates — an Enneagram Type 3 analysis"
+description: 'Mindy Kaling turned repression, ambition, and grief into an output machine, building a career where control always felt safer than feeling.'
 author: 'DJ Wayne'
 date: '2026-03-29'
 loc: 'https://9takes.com/personality-analysis/Mindy-Kaling'
-lastmod: '2026-03-29'
+lastmod: '2026-04-06'
 changefreq: 'monthly'
 priority: '0.6'
 published: false

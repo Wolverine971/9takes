@@ -25,6 +25,10 @@ Allow: /
 User-agent: PerplexityBot
 Allow: /
 
+# Meta AI search
+User-agent: meta-webindexer
+Allow: /
+
 # Allow named AI crawlers to sample content
 User-agent: GPTBot
 Allow: /

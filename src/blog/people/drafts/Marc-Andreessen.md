@@ -1,6 +1,6 @@
 ---
-title: "Marc Andreessen: An Enneagram Type 5 Analysis of Tech's Most Restless Mind"
-meta_title: 'Why Marc Andreessen Refuses to Look Inward (And What That Reveals)'
+title: 'Marc Andreessen: The Mind That Opened the Internet and Closed Itself Off'
+meta_title: 'Why Marc Andreessen Refuses to Look Inward'
 persona_title: "Tech's Fortress Philosopher"
 description: 'Marc Andreessen built the browser that opened the world. Then he built walls around himself. Inside the mind that connects everything except itself.'
 author: 'DJ Wayne'

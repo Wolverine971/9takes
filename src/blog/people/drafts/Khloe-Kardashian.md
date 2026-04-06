@@ -1,8 +1,8 @@
 ---
-title: 'Khloé Kardashian: An Enneagram Type 2 Personality Analysis'
-meta_title: "Why Khloé Kardashian Can't Stop Saving People Who Won't Save Her"
+title: 'Khloé Kardashian: The Caretaker Who Loves People Past the Breaking Point'
+meta_title: "Why Khloé Kardashian Can't Stop Saving Broken Men"
 persona_title: "Reality's Devoted Caretaker"
-description: 'Why does Khloé Kardashian keep forgiving the unforgivable? Inside the personality pattern driving her giving, her heartbreak, and her obsessive need for control.'
+description: 'Khloé Kardashian keeps forgiving the unforgivable because control, caretaking, and heartbreak have become the same emotional language.'
 author: 'DJ Wayne'
 date: '2026-04-04'
 loc: 'https://9takes.com/personality-analysis/Khloe-Kardashian'

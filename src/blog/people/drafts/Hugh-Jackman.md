@@ -1,8 +1,8 @@
 ---
-title: 'Hugh Jackman: An Enneagram Type 2 Analysis'
-meta_title: "Hugh Jackman's Hidden Wound: What the Nicest Guy in Hollywood Is Running From"
+title: 'Hugh Jackman: The Nicest Man in Hollywood and the Boy Who Still Waits Outside'
+meta_title: "Hugh Jackman's Wound: Why Warmth Became a Survival Skill"
 persona_title: "Hollywood's Tireless Host"
-description: "Behind Hugh Jackman's warmth lies a boy who came home to an empty house at 8. An Enneagram Type 2 analysis of the world's most beloved performer."
+description: "Behind Hugh Jackman's warmth lies a boy who came home to an empty house at 8 and built a life around being impossible to leave."
 author: 'DJ Wayne'
 date: '2026-04-01'
 loc: 'https://9takes.com/personality-analysis/Hugh-Jackman'

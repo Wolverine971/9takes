@@ -1,6 +1,6 @@
 ---
-title: 'Tim Ferriss: An Enneagram Type 1 Analysis'
-meta_title: "Why Tim Ferriss Can't Stop Fixing Everything (Including Himself)"
+title: 'Tim Ferriss: The Reformer Who Tried to Optimize His Way Out of Pain'
+meta_title: 'Why Tim Ferriss Treats Pain Like a Problem to Solve'
 persona_title: "Self-Help's Relentless Reformer"
 description: 'Why does Tim Ferriss perfect everything he touches? The inner critic behind the productivity, the Stoicism, and the psychedelic reform mission.'
 author: 'DJ Wayne'

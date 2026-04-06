@@ -1,8 +1,8 @@
 ---
-title: 'Oprah Winfrey: An Enneagram Type 2 Analysis'
-meta_title: "Inside Oprah's Mind: The Childhood Wound Behind 35,000 Interviews"
+title: 'Oprah Winfrey: The Woman Who Turned Wounds Into Trust'
+meta_title: 'Why Oprah Built an Empire on Making People Feel Seen'
 persona_title: "Television's Patron Saint of Pain"
-description: 'Oprah interviewed 35,000 people. They all asked one question. The answer reveals the wound behind the empire.'
+description: 'Oprah Winfrey built an empire by giving people the thing she needed most as a child: to feel fully seen, safe, and worthy.'
 author: 'DJ Wayne'
 date: '2024-08-30'
 loc: 'https://9takes.com/personality-analysis/Oprah-Winfrey'

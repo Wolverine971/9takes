@@ -1,6 +1,6 @@
 ---
-title: 'Tina Fey: An Enneagram Type 3 Personality Analysis'
-meta_title: "Why Tina Fey Told Bowen Yang 'Authenticity Is Dangerous and Expensive'"
+title: "Tina Fey: The Strategic Introvert Behind Comedy's Most Relatable Armor"
+meta_title: 'Why Tina Fey Treats Authenticity Like a Luxury'
 persona_title: "Comedy's Strategic Introvert"
 description: "Tina Fey built comedy's most relatable persona while being its most controlled strategist. Inside the Type 3 mind behind the self-deprecation."
 author: 'DJ Wayne'
@@ -56,7 +56,7 @@ Understanding that advice is the key to understanding everything about her.
 
 ---
 
-## The Mark
+## The Childhood Knife Scar That Shaped Tina Fey's Persona
 
 When Tina Fey was five years old, a stranger walked into her front yard in Upper Darby, Pennsylvania, and slashed her face with a knife.
 

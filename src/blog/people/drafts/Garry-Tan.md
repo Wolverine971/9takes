@@ -1,6 +1,6 @@
 ---
-title: "Garry Tan: An Enneagram Type 6 Deep Dive Into Silicon Valley's Most Combative Builder"
-meta_title: "Inside Garry Tan's Mind: Why the Champion of Earnestness Can't Stop Fighting"
+title: 'Garry Tan: The Earnest Builder Who Turns Fear Into Fire'
+meta_title: "Why Garry Tan's Earnestness Turns Combative"
 persona_title: "Tech's Earnest Watchdog"
 description: "From food insecurity in Fremont to running Y Combinator — why Garry Tan's fear-driven engine produces both billion-dollar bets and 1 AM Twitter meltdowns."
 author: 'DJ Wayne'
@@ -44,7 +44,7 @@ But that's the wrong read. To understand what happened at 1 AM — to understand
 
 ---
 
-## Bread and Milk
+## Garry's Food-Insecure Childhood in Fremont
 
 Garry Tan was born in 1981 in Winnipeg, Canada, to a Chinese Singaporean father and a Burmese-Chinese mother who had met at an A&W Root Beer restaurant — two immigrants who crossed continents and found each other over American fast food.
 
@@ -80,7 +80,7 @@ The trauma wasn't just his father's. Garry's paternal grandfather had abandoned 
 
 ---
 
-## $7 an Hour
+## The Teenage Programmer Who Bought His Family Stability
 
 At fourteen, Garry Tan did something that wasn't desperate so much as impossibly practical: he opened the Yellow Pages and started cold-calling.
 
@@ -112,7 +112,7 @@ By then he was already at Y Combinator. He'd joined in 2011 as a designer in res
 
 ---
 
-## The $300,000 Check
+## The Coinbase Bet That Made Garry a Legend
 
 A young founder named Brian Armstrong walked into YC with an idea for a cryptocurrency exchange. This was 2012. Bitcoin was obscure. The idea sounded like a toy.
 

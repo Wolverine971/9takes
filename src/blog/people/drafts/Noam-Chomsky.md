@@ -1,10 +1,10 @@
 ---
-title: 'Noam Chomsky: An Enneagram Type 1 Analysis'
-meta_title: 'Why Noam Chomsky Could Never Stop Fighting'
+title: 'Noam Chomsky: The Permanent Dissenter Who Could Never Stop Fighting'
+meta_title: 'Why Noam Chomsky Turned Moral Clarity Into Combat'
 persona_title: "Dissent's Permanent Judge"
 description: "The man who built the greatest critique of power from inside power itself. What drove Chomsky's relentless moral crusade, and what it cost him."
 author: 'DJ Wayne'
-date: '2026-04-04'
+date: '2026-04-06'
 loc: 'https://9takes.com/personality-analysis/Noam-Chomsky'
 lastmod: '2026-04-06'
 changefreq: 'monthly'
@@ -264,7 +264,7 @@ This is a One's analysis in its purest form. The world isn't broken because of b
 
 Chomsky became, by some counts, the most cited living academic. He published over a hundred books. He gave more interviews than anyone could catalog. And none of it satisfied the internal tribunal, because the standard was never "produce enough work." The standard was "fix the world." And the world kept not being fixed.
 
-## The Absolutist
+## When Noam Chomsky's Moral Consistency Became a Liability
 
 The thirty years between _Manufacturing Consent_ and his stroke were the most prolific of Chomsky's life, and the most revealing of his Type 1 absolutism.
 
