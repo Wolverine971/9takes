@@ -29,6 +29,7 @@
 		const target = e.target as HTMLTextAreaElement;
 		content = target.value;
 		onchange?.(content);
+		requestAnimationFrame(handleScroll);
 	}
 
 	// Handle Tab key for indentation
@@ -49,12 +50,14 @@
 					content = content.substring(0, lineStart) + content.substring(lineStart + removeChars);
 					textarea.selectionStart = textarea.selectionEnd = start - removeChars;
 					onchange?.(content);
+					requestAnimationFrame(handleScroll);
 				}
 			} else {
 				// Indent: Insert tab
 				content = content.substring(0, start) + '\t' + content.substring(end);
 				textarea.selectionStart = textarea.selectionEnd = start + 1;
 				onchange?.(content);
+				requestAnimationFrame(handleScroll);
 			}
 		}
 	}
@@ -69,6 +72,7 @@
 	onMount(() => {
 		if (textarea) {
 			textarea.addEventListener('scroll', handleScroll);
+			requestAnimationFrame(handleScroll);
 			return () => textarea?.removeEventListener('scroll', handleScroll);
 		}
 	});
@@ -88,8 +92,10 @@
 		bind:value={content}
 		oninput={handleInput}
 		onkeydown={handleKeydown}
+		onscroll={handleScroll}
 		{readonly}
 		{placeholder}
+		wrap="off"
 		spellcheck="false"
 		class="editor-textarea"
 	></textarea>
@@ -97,10 +103,15 @@
 
 <style lang="scss">
 	.markdown-editor {
+		--editor-font-size: 13px;
+		--editor-line-height: 1.6;
+		--editor-padding-y: 16px;
+		--editor-padding-x: 16px;
 		display: flex;
 		flex: 1;
 		height: 100%;
 		min-height: 0;
+		align-items: stretch;
 		background: var(--bg-deep);
 		border-radius: 8px;
 		overflow: hidden;
@@ -132,12 +143,13 @@
 	.line-numbers {
 		flex-shrink: 0;
 		width: 48px;
-		padding: 16px 8px 16px 0;
+		padding: var(--editor-padding-y) 8px var(--editor-padding-y) 0;
+		box-sizing: border-box;
 		background: var(--bg-base);
 		color: var(--text-muted);
 		text-align: right;
-		font-size: 13px;
-		line-height: 1.6;
+		font-size: var(--editor-font-size);
+		line-height: var(--editor-line-height);
 		overflow: hidden;
 		user-select: none;
 
@@ -147,22 +159,31 @@
 	}
 
 	.line-number {
-		height: calc(13px * 1.6);
+		height: calc(var(--editor-font-size) * var(--editor-line-height));
 	}
 
 	.editor-textarea {
-		flex: 1;
+		display: block;
+		flex: 1 1 auto;
 		width: 100%;
-		height: 100%;
-		padding: 16px;
+		min-width: 0;
+		min-height: 100%;
+		height: auto;
+		box-sizing: border-box;
+		padding: var(--editor-padding-y) var(--editor-padding-x);
 		background: var(--bg-deep);
 		color: var(--text-primary);
 		border: none;
 		outline: none;
 		resize: none;
+		overflow-y: auto;
+		overflow-x: auto;
+		white-space: pre;
+		word-break: normal;
+		overflow-wrap: normal;
 		font-family: inherit;
-		font-size: 13px;
-		line-height: 1.6;
+		font-size: var(--editor-font-size);
+		line-height: var(--editor-line-height);
 		tab-size: 2;
 
 		&::placeholder {
@@ -174,9 +195,10 @@
 		}
 
 		@media (max-width: 768px) {
-			padding: 12px;
-			font-size: 16px; // Prevent iOS zoom on focus
-			line-height: 1.5;
+			--editor-font-size: 16px;
+			--editor-line-height: 1.5;
+			--editor-padding-y: 12px;
+			--editor-padding-x: 12px;
 		}
 	}
 

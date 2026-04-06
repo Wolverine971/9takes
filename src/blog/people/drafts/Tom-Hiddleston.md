@@ -1,8 +1,8 @@
 ---
-title: 'Tom Hiddleston: The Enneagram Type 2 Who Learned to Stop Giving Himself Away'
-meta_title: "Inside Tom Hiddleston's Mind: Why the Man Behind Loki Can't Stop Helping"
+title: 'Tom Hiddleston: The Helper Who Learned to Stop Giving Himself Away'
+meta_title: "Why Tom Hiddleston Can't Stop Helping"
 persona_title: 'The Gentleman Behind the Mask'
-description: "How Tom Hiddleston's Enneagram Type 2 psychology shaped his career from boarding school heartbreak to Loki's throne — and nearly destroyed him in the process."
+description: 'Tom Hiddleston turned heartbreak, empathy, and emotional usefulness into a career, then learned how costly it is to make everyone feel cared for.'
 author: 'DJ Wayne'
 date: '2026-03-24'
 loc: 'https://9takes.com/personality-analysis/Tom-Hiddleston'

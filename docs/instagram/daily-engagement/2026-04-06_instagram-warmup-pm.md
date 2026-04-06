@@ -20,7 +20,7 @@
 **Still Active from Morning:**
 
 - _mariomonaco_, steph0nie8 + 8 others liked our "suggest forever" comment — 10h
-- luminya_infinity_, babybell_lotv + 11 others liked our "cover-up strategy" comment — 1d
+- luminya*infinity*, babybell_lotv + 11 others liked our "cover-up strategy" comment — 1d
 - 1 new like on Threads — 2d
 
 **Stories Active From:** @thesecurerelationship, @enneagrampaths, @mirabellecreations, @chloedigital.ai, @enneagramwithjb (ring visible)
@@ -36,13 +36,13 @@
 
 ## Priority Summary
 
-| #   | Account              | Topic                          | Age  | Comments | Opp Type           | Level | Score | Profile                                                      | Queue  |
-| --- | -------------------- | ------------------------------ | ---- | -------- | ------------------ | ----- | ----- | ------------------------------------------------------------ | ------ |
-| 1   | @matthiasjbarker     | Trying Harder / Needs Unmet    | 21m  | 2        | Psychology/therapy  | 0     | 108   | docs/instagram/account-profiles/matthiasjbarker.md           | Queued |
-| 2   | @enneagramwithjb     | Defense Mechanisms by Type     | 3h   | 0        | Enneagram direct   | 2     | 105   | docs/instagram/account-profiles/enneagramwithjb.md           | Queued |
-| 3   | @gottmaninstitute    | 20:1 Positive-to-Negative      | 1h   | ~4       | Relationship       | 0     | 96    | docs/instagram/account-profiles/gottmaninstitute.md          | Queued |
-| 4   | @thesecurerelationship | Mistrust Love vs Lovability  | 14h  | ~7       | Relationship       | 0     | 90    | docs/instagram/account-profiles/thesecurerelationship.md     | Queued |
-| 5   | @mirabellecreations  | Anxiety Spiral / Sour Candy    | 4h   | ~1       | Enneagram adjacent | 1     | 72    | docs/instagram/account-profiles/mirabellecreations.md        | Skip   |
+| #   | Account                | Topic                       | Age | Comments | Opp Type           | Level | Score | Profile                                                  | Queue  |
+| --- | ---------------------- | --------------------------- | --- | -------- | ------------------ | ----- | ----- | -------------------------------------------------------- | ------ |
+| 1   | @matthiasjbarker       | Trying Harder / Needs Unmet | 21m | 2        | Psychology/therapy | 0     | 108   | docs/instagram/account-profiles/matthiasjbarker.md       | Queued |
+| 2   | @enneagramwithjb       | Defense Mechanisms by Type  | 3h  | 0        | Enneagram direct   | 2     | 105   | docs/instagram/account-profiles/enneagramwithjb.md       | Queued |
+| 3   | @gottmaninstitute      | 20:1 Positive-to-Negative   | 1h  | ~4       | Relationship       | 0     | 96    | docs/instagram/account-profiles/gottmaninstitute.md      | Queued |
+| 4   | @thesecurerelationship | Mistrust Love vs Lovability | 14h | ~7       | Relationship       | 0     | 90    | docs/instagram/account-profiles/thesecurerelationship.md | Queued |
+| 5   | @mirabellecreations    | Anxiety Spiral / Sour Candy | 4h  | ~1       | Enneagram adjacent | 1     | 72    | docs/instagram/account-profiles/mirabellecreations.md    | Skip   |
 
 ---
 
@@ -136,7 +136,7 @@ Defense mechanisms are the armor each type built before they had language. Type 
 
 **Post Link:** https://www.instagram.com/p/DWy7Z2lDTkU/
 **Content Type:** Carousel
-**Stats:** Liked by myrlok_ and others, ~4 comments (1 hour old at scan time)
+**Stats:** Liked by myrlok\_ and others, ~4 comments (1 hour old at scan time)
 **Opportunity Type:** Relationship/research
 **Connected Content:** None — pure engagement
 **Profile File:** docs/instagram/account-profiles/gottmaninstitute.md
@@ -241,20 +241,20 @@ This is primarily a lead-gen post (CTA: "comment CALM for free 7-Day Challenge")
 
 ## Profiles Created or Updated
 
-| Account                | Profile                                                  | Action  | Why                                                    |
-| ---------------------- | -------------------------------------------------------- | ------- | ------------------------------------------------------ |
-| @matthiasjbarker       | docs/instagram/account-profiles/matthiasjbarker.md       | Created | Top priority queue — first direct engagement           |
-| @enneagramwithjb       | docs/instagram/account-profiles/enneagramwithjb.md       | Created | Tier 1, strongest relationship — first comment slot    |
-| @gottmaninstitute      | docs/instagram/account-profiles/gottmaninstitute.md      | Created | Tier 2, first engagement — 1.3M research account       |
-| @thesecurerelationship | docs/instagram/account-profiles/thesecurerelationship.md | Created | Tier 2, relationship momentum — Julie engaged back     |
+| Account                | Profile                                                  | Action  | Why                                                 |
+| ---------------------- | -------------------------------------------------------- | ------- | --------------------------------------------------- |
+| @matthiasjbarker       | docs/instagram/account-profiles/matthiasjbarker.md       | Created | Top priority queue — first direct engagement        |
+| @enneagramwithjb       | docs/instagram/account-profiles/enneagramwithjb.md       | Created | Tier 1, strongest relationship — first comment slot |
+| @gottmaninstitute      | docs/instagram/account-profiles/gottmaninstitute.md      | Created | Tier 2, first engagement — 1.3M research account    |
+| @thesecurerelationship | docs/instagram/account-profiles/thesecurerelationship.md | Created | Tier 2, relationship momentum — Julie engaged back  |
 
 ---
 
 ## New Accounts Discovered
 
-| Account            | Followers | Theme                              | Content Type | Suggested Tier | Why                                                      |
-| ------------------ | --------- | ---------------------------------- | ------------ | -------------- | -------------------------------------------------------- |
-| @enneagramseattle  | Unknown   | Enneagram community/education      | Unknown      | Tier 1 / Tier 4 | Suggested in sidebar, followed by 8ish_andiknowit        |
+| Account           | Followers | Theme                         | Content Type | Suggested Tier  | Why                                               |
+| ----------------- | --------- | ----------------------------- | ------------ | --------------- | ------------------------------------------------- |
+| @enneagramseattle | Unknown   | Enneagram community/education | Unknown      | Tier 1 / Tier 4 | Suggested in sidebar, followed by 8ish_andiknowit |
 
 ---
 
@@ -283,8 +283,8 @@ This is primarily a lead-gen post (CTA: "comment CALM for free 7-Day Challenge")
 
 ## Hashtag Performance
 
-| Hashtag | Posts Checked | Quality Posts Found | Notes                                   |
-| ------- | ------------- | ------------------- | --------------------------------------- |
+| Hashtag | Posts Checked | Quality Posts Found | Notes                                                                |
+| ------- | ------------- | ------------------- | -------------------------------------------------------------------- |
 | N/A     | —             | —                   | Skipped — direct profile visits are higher ROI than hashtag scanning |
 
 ---

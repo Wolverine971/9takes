@@ -1,7 +1,7 @@
 ---
 title: "Greta Thunberg: Decoding the Mind That Couldn't Stay Silent"
-meta_title: 'Greta Thunberg Enneagram Type 1 | The Mind Behind Climate Activism'
-description: 'From selective mutism to addressing the UN. From depression to Terrorism Act arrest. Decode the Enneagram Type 1 psychology driving Greta Thunberg.'
+meta_title: "Why Greta Thunberg Couldn't Stay Silent"
+description: 'Greta Thunberg turned selective mutism, moral fury, and the gap between what is and what should be into a global movement.'
 persona_title: "Climate's Uncompromising Conscience"
 author: 'DJ Wayne'
 date: '2025-06-25'

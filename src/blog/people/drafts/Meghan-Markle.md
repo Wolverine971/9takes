@@ -1,8 +1,8 @@
 ---
-title: "Meghan Markle's Enneagram Type 2 Personality: The Helper Who Couldn't Ask for Help"
-meta_title: "Why Meghan Markle Can't Stop Giving (And Why It Keeps Backfiring)"
+title: "Meghan Markle: The Helper Who Couldn't Ask for Help"
+meta_title: 'Why Meghan Markle Keeps Giving Until It Hurts'
 persona_title: 'The Calligrapher Who Burned the Palace'
-description: "Meghan Markle's contradictions make sense through the Type 2 lens: the warmth and the staff turnover, the privacy and the Oprah interview."
+description: "Meghan Markle's warmth, intensity, and public contradictions make more sense once you see how badly she needs love to feel safe and fairness to feel possible."
 author: 'DJ Wayne'
 date: '2023-03-09'
 loc: 'https://9takes.com/personality-analysis/Meghan-Markle'

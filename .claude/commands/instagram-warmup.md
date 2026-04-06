@@ -17,6 +17,14 @@ Create a daily warmup doc at:
 
 Create the file first, then update it continuously while scanning.
 
+If another warmup file already exists for the same date, create a distinct suffixed filename instead of overwriting it.
+
+Examples:
+
+- `YYYY-MM-DD_instagram-warmup.md`
+- `YYYY-MM-DD_instagram-warmup-pm.md`
+- `YYYY-MM-DD_instagram-warmup-evening.md`
+
 This command should also create or update account profile files in:
 `docs/instagram/account-profiles/<handle>.md`
 
@@ -34,6 +42,7 @@ Read these first:
 - `/docs/instagram/instagram-launch-plan-feb-2026.md`
 - `/docs/instagram/instagram-engagement-targets.md`
 - `/docs/instagram/instagram-accounts-to-follow.md`
+- `/docs/instagram/instagram-peer-growth-strategy-2026.md`
 - `/docs/instagram/account-profiles/README.md`
 
 Cross-reference as needed:
@@ -48,7 +57,7 @@ If an Instagram browser automation skill exists at `/.claude/skills/instagram.sk
 
 ## Command Boundary
 
-`/instagram-warmup` is now **Stage 1 only**:
+`/instagram-warmup` is **Stage 1 only**:
 
 1. Check notifications, stories, feed, profiles, hashtags, and explore.
 2. Identify strong engagement opportunities.
@@ -72,8 +81,10 @@ Treat this workflow like a lightweight Instagram CRM.
   Use this as the living profile and running relationship history for a specific account.
 - `docs/instagram/daily-engagement/YYYY-MM-DD_instagram-warmup.md`
   Use this as the sourcing log and daily reply queue.
-- `docs/instagram/daily-engagement/YYYY-MM-DD_instagram-replies.md`
+- `docs/instagram/daily-engagement/<derived replies filename>.md`
   Use this as the separate reply drafting and execution log.
+- `docs/instagram/instagram-peer-growth-strategy-2026.md`
+  Use this to determine strategic relevance and peer-growth value.
 
 ### When a Profile Must Exist
 
@@ -82,12 +93,34 @@ Create or update an account profile when any of these are true:
 - The account is in today’s top priority queue.
 - The account already has a profile.
 - The account has liked, followed, replied, tagged, or otherwise engaged with @9takesdotcom.
-- The account is Tier 1 or Tier 2 and still strategically relevant.
-- The account is new but looks worth building a relationship with.
+- The account appears in two or more scans within 14 days.
+- The account crosses the strategic relevance threshold from the peer-growth strategy doc.
+
+### What Counts as Strategically Relevant
+
+Do not equate `strategically relevant` with `large niche account`.
+
+For this workflow, strategically relevant usually means one or more of:
+
+- The account is a realistic peer-growth relationship.
+- The account has strong audience overlap with 9takes.
+- The account shows high audience quality and real community behavior.
+- The account is likely to notice repeated thoughtful engagement.
+- The account has credible future collaboration potential.
+- The account teaches us something important about the niche.
+
+Label each profiled account with one strategic role:
+
+- `Peer`
+- `Anchor`
+- `Adjacent Partner`
+- `Rising`
+- `Monitor only`
 
 ### What the Profile Should Capture
 
 - Basic profile facts: handle, name, bio, follower ballpark, category, tier.
+- Strategic role and audience-quality read.
 - What they usually post about.
 - Tone, format, and community behavior notes.
 - Condensed relationship summary with @9takesdotcom.
@@ -118,6 +151,8 @@ In the warmup doc, capture the pattern and the reply angle, but do not write the
 
 Create:
 `docs/instagram/daily-engagement/YYYY-MM-DD_instagram-warmup.md`
+
+If a same-day warmup already exists, create a suffixed variant and preserve that exact basename for `/instagram-reply`.
 
 Use the Stage 1 template in this file and keep it updated as you work.
 
@@ -152,13 +187,22 @@ Scan in this order:
 
 1. Tier 1 personality and Enneagram accounts
 2. Tier 2 psychology, therapy, relationships, and self-improvement accounts
-3. MBTI bridge accounts
-4. Celebrity and pop-culture analysis accounts
-5. Hashtag pages
-6. Explore page
-7. Reels feed
+3. Peer-growth discovery
+4. MBTI bridge accounts
+5. Celebrity and pop-culture analysis accounts
+6. Hashtag pages
+7. Explore page
+8. Reels feed
 
 Use `docs/instagram/instagram-engagement-targets.md` as the scanning map.
+
+During peer-growth discovery, look for:
+
+- similar-size or slightly larger creators
+- adjacent creators whose commenters look like future 9takes followers
+- accounts with thoughtful recurring commenters instead of spammy engagement
+- creators who already use Collabs, Lives, Stories, or community prompts well
+- rising accounts with strong voice and discussion density
 
 ## Phase 4: For Each Candidate Account, Load or Create Memory
 
@@ -167,8 +211,8 @@ Before you queue a post, do this:
 1. Canonicalize the handle.
 2. Check for `docs/instagram/account-profiles/<handle>.md`.
 3. If the file exists, read the condensed summary plus the most recent relationship history rows.
-4. If the file does not exist and the account meets the threshold above, create it from the profile template.
-5. Refresh the profile with current bio, content themes, and any strategic notes that changed.
+4. If the file does not exist and the account meets a profile trigger, create it from the profile template.
+5. Refresh the profile with current bio, content themes, strategic role, audience-quality notes, and any strategic notes that changed.
 6. Add a relationship-history row for today’s scan, even if the action is only `Reviewed` or `Queued`.
 
 ## Phase 5: Capture the Opportunity
@@ -188,6 +232,8 @@ Capture:
 - Connected 9takes content, if any
 - Profile file path
 - Profile status: `Existing` or `Created today`
+- Strategic role
+- Why this account is strategically relevant now
 - Relationship intel
 - Past touchpoints summary
 - Visibility level
@@ -198,14 +244,14 @@ Capture:
 
 Score using these factors:
 
-| Factor | Weight | Criteria |
-| --- | --- | --- |
-| Freshness | 3x | Newer is better |
-| Natural fit | 3x | Clear way to add value |
-| Tone match | 2x | You can sound native to the room |
-| Comment competition | 2x | Lower is better |
-| Content bridge | 1x | Natural follow-up opportunity |
-| Relationship value | 1x | Worth building over time |
+| Factor              | Weight | Criteria                         |
+| ------------------- | ------ | -------------------------------- |
+| Freshness           | 3x     | Newer is better                  |
+| Natural fit         | 3x     | Clear way to add value           |
+| Tone match          | 2x     | You can sound native to the room |
+| Comment competition | 2x     | Lower is better                  |
+| Content bridge      | 1x     | Natural follow-up opportunity    |
+| Relationship value  | 1x     | Worth building over time         |
 
 Select the top 5-7 opportunities for the reply queue.
 
@@ -260,9 +306,9 @@ Use this structure:
 
 ## Priority Summary
 
-| # | Account | Topic | Age | Comments | Opp Type | Level | Score | Profile | Queue |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | @handle | [brief topic] | 2h | 3 | Relationship/attachment | 0 | 98 | [path] | Queued |
+| #   | Account | Topic         | Age | Comments | Opp Type                | Level | Score | Profile | Queue  |
+| --- | ------- | ------------- | --- | -------- | ----------------------- | ----- | ----- | ------- | ------ |
+| 1   | @handle | [brief topic] | 2h  | 3        | Relationship/attachment | 0     | 98    | [path]  | Queued |
 
 ---
 
@@ -277,16 +323,22 @@ Use this structure:
 **Connected Content:** [link or None]
 **Profile File:** [path]
 **Profile Status:** [Existing / Created today]
+**Strategic Role:** [Peer / Anchor / Adjacent Partner / Rising / Monitor only]
 
 **Why This Post:**
 [Why it is worth considering.]
 
+**Why This Account Matters Now:**
+[Why it is strategically relevant right now.]
+
 **Relationship Intel:**
+
 - [Condensed relationship summary]
 - [What they usually post about]
 - [Any signal from previous engagement]
 
 **Past Touchpoints:**
+
 - [Last reviewed/commented post]
 - [Any past comment angle or repeated theme to avoid]
 
@@ -294,8 +346,9 @@ Use this structure:
 [What the Enneagram lens suggests internally.]
 
 **Reply Angle for `/instagram-reply`:**
+
 - [What the reply should do]
-- [What tone/mode to use]
+- [What tone or mode to use]
 - [What to avoid repeating]
 
 **Visibility Level:** [0/1/2]
@@ -305,25 +358,25 @@ Use this structure:
 
 ## Reply Queue
 
-| Priority | Account | Post | Profile | Relationship Stage | Reply Angle | Status |
-| --- | --- | --- | --- | --- | --- | --- |
-| 1 | @handle | [topic] | [path] | [Prospect / Active / Warm] | [brief angle] | Queued |
+| Priority | Account | Post    | Profile | Strategic Role | Relationship Stage         | Reply Angle   | Status |
+| -------- | ------- | ------- | ------- | -------------- | -------------------------- | ------------- | ------ |
+| 1        | @handle | [topic] | [path]  | [Peer]         | [Prospect / Active / Warm] | [brief angle] | Queued |
 
 ---
 
 ## Profiles Created or Updated
 
-| Account | Profile | Action | Why |
-| --- | --- | --- | --- |
-| @handle | [path] | Created | First strategic review |
-| @handle2 | [path] | Updated | Added new review + refreshed bio |
+| Account  | Profile | Action  | Why                                |
+| -------- | ------- | ------- | ---------------------------------- |
+| @handle  | [path]  | Created | First strategic review             |
+| @handle2 | [path]  | Updated | Added new review and refreshed bio |
 
 ---
 
 ## New Accounts Discovered
 
 | Account | Followers | Theme | Content Type | Suggested Tier | Why |
-| --- | --- | --- | --- | --- | --- |
+| ------- | --------- | ----- | ------------ | -------------- | --- |
 
 ---
 
@@ -336,7 +389,7 @@ Use this structure:
 ## Hashtag Performance
 
 | Hashtag | Posts Checked | Quality Posts Found | Notes |
-| --- | --- | --- | --- |
+| ------- | ------------- | ------------------- | ----- |
 
 ---
 
@@ -363,6 +416,7 @@ When you create or update `docs/instagram/account-profiles/<handle>.md`:
 - Refresh the bio snapshot only when something changed or was missing.
 - Append relationship history entries instead of deleting old ones.
 - Record both reviewed posts and actual interactions so you can distinguish familiarity from true engagement.
+- Record the post link in the relationship history row whenever possible.
 - If you know what @9takesdotcom actually said before, quote or paraphrase it briefly.
 - If a comment was only planned, mark it clearly as planned or drafted, not posted.
 
@@ -394,7 +448,7 @@ Top priorities:
 2. @[handle] - [topic]
 3. @[handle] - [topic]
 
-Next step: /instagram-reply [YYYY-MM-DD or path]
+Next step: /instagram-reply [warmup path]
 
 Warmup doc: docs/instagram/daily-engagement/[filename]
 ```
@@ -404,8 +458,8 @@ Warmup doc: docs/instagram/daily-engagement/[filename]
 ## Workflow Map
 
 ```text
-/instagram-warmup   -> Research, account intel, queue opportunities
-/instagram-reply    -> Draft replies and update execution history
+/instagram-warmup -> Research, account intel, queue opportunities
+/instagram-reply -> Draft replies and update execution history
 /distribute-instagram -> Build publishing assets for a specific blog post
 ```
 

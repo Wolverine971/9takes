@@ -32,13 +32,13 @@ path: src/blog/people/drafts/Leonardo-da-Vinci.md
 
 > "I have offended God and mankind because my work did not reach the quality it should have."
 
-<p class="firstLetter">In 1482, a thirty-year-old artist wrote a letter to the Duke of Milan. He listed ten things he could do. Nine of them involved war — bridges that could be carried into battle, siege machines, armored vehicles, cannons. The tenth, almost an afterthought: "In painting, I can do everything possible." The greatest artist in human history marketed himself as a military engineer. Painting came last.</p>
+<p class="firstLetter">In 1482, a thirty-year-old artist wrote a letter to the Duke of Milan. He listed ten things he could do. Nine of them involved war: bridges that could be carried into battle, siege machines, armored vehicles, cannons. The tenth, almost an afterthought: "In painting, I can do everything possible." The greatest artist in human history marketed himself as a military engineer. Painting came last.</p>
 
 That letter tells you more about Leonardo da Vinci than any gallery visit. Not because he was lying about his artistic talent. But because even he didn't know what he was. The man who could render the human soul on a wooden panel believed his real value lay in designing weapons he would never build.
 
 This is the central paradox of Leonardo da Vinci. He understood more about the world than perhaps any human who has ever lived. And he left almost all of it unfinished.
 
-Fifteen paintings in sixty-seven years. Treatises planned but never published. Flying machines designed but never tested. Thirteen thousand pages of notes — written backwards, crammed with skulls and siege engines and water studies and grocery lists — that sat in trunks for centuries because he never organized them for anyone else to read.
+Fifteen paintings in sixty-seven years. Treatises planned but never published. Flying machines designed but never tested. Thirteen thousand pages of notes, written backwards, crammed with skulls and siege engines and water studies and grocery lists, that sat in trunks for centuries because he never organized them for anyone else to read.
 
 The mind that could do everything could not stop long enough to complete anything.
 
@@ -46,10 +46,10 @@ The mind that could do everything could not stop long enough to complete anythin
 <summary class="accordion">TL;DR: Why Leonardo da Vinci is an Enneagram Type 5</summary>
 <div class="panel">
 <ul>
-<li><b>The scarcity that drove him wasn't money — it was understanding.</b> Leonardo hoarded knowledge the way other people hoard wealth, filling notebooks with observations he never shared.</li>
+<li><b>The scarcity that drove him wasn't money. It was understanding.</b> Leonardo hoarded knowledge the way other people hoard wealth, filling notebooks with observations he never shared.</li>
 <li><b>Completion felt like death to him.</b> Finishing a painting meant stopping the investigation. The Mona Lisa took twenty years not because it was difficult, but because understanding was more compelling than finishing.</li>
 <li><b>He built his life around withdrawal and mastery.</b> From his isolated childhood in Vinci to his final years in a French manor, Leonardo consistently chose observation over participation.</li>
-<li><b>His procrastination wasn't laziness — it was the fortress mind at work.</b> Every commission was an excuse to investigate something deeper. The Last Supper became a study of human emotion. A bronze horse became an anatomy project.</li>
+<li><b>His procrastination wasn't laziness. It was the fortress mind at work.</b> Every commission was an excuse to investigate something deeper. The Last Supper became a study of human emotion. A bronze horse became an anatomy project.</li>
 </ul>
 </div>
 </details>
@@ -62,13 +62,13 @@ April 15, 1452. The Tuscan hill town of Vinci, twenty miles from Florence. His f
 
 Illegitimate children could not attend university. Could not join a guild. Could not inherit. Could not enter most professions. The doors that swung open for legitimate sons of notaries were bolted shut for Leonardo.
 
-He spent his first five years with his mother. Then he was taken to his father's household — the stone house in Vinci with the strict grandfather and the young uncle Francesco who became his only real companion. His father remarried. Then remarried again. Leonardo would eventually have twelve half-siblings. He was the eldest child of Ser Piero da Vinci, and the one who inherited nothing.
+He spent his first five years with his mother. Then he was taken to his father's household, the stone house in Vinci with the strict grandfather and the young uncle Francesco who became his only real companion. His father remarried. Then remarried again. Leonardo would eventually have twelve half-siblings. He was the eldest child of Ser Piero da Vinci, and the one who inherited nothing.
 
 What does a brilliant child learn when every institution tells him he doesn't belong? He learns to build something no institution can take away.
 
 Leonardo had no formal Latin education. No university training. No guild membership until Verrocchio took him on as an apprentice at fourteen. What he had instead was the Tuscan countryside and a mind that could not stop asking questions.
 
-He watched water move over rocks. He traced the way light fell through leaves. He noticed how a bird's wing bent differently on the upstroke than the downstroke. His uncle Francesco took him through the farmland, and Leonardo observed everything — the way a lizard's tail regenerated, the spiral pattern in a sunflower's seeds, the sound of a river changing pitch as it narrowed between stones.
+He watched water move over rocks. He traced the way light fell through leaves. He noticed how a bird's wing bent differently on the upstroke than the downstroke. His uncle Francesco took him through the farmland, and Leonardo observed everything. The way a lizard's tail regenerated. The spiral pattern in a sunflower's seeds. The sound of a river changing pitch as it narrowed between stones.
 
 No one taught him to do this. He taught himself. And what he was teaching himself, though he had no name for it, was that understanding was the one resource no one could revoke.
 
@@ -76,19 +76,19 @@ No one taught him to do this. He taught himself. And what he was teaching himsel
 
 Leonardo told one story about his childhood more than any other.
 
-When he was an infant in his cradle, a kite — a bird of prey — swooped down and hovered over him. Its tail feathers brushed his face. He remembered the sensation his entire life. He later wrote that he regarded this as a kind of omen, a sign that the flight of birds would define his destiny.
+When he was an infant in his cradle, a kite (a bird of prey) swooped down and hovered over him. Its tail feathers brushed his face. He remembered the sensation his entire life. He later wrote that he regarded this as a kind of omen, a sign that the flight of birds would define his destiny.
 
-The story might be embellished. Infant memory is unreliable. But the fact that Leonardo told it — repeatedly, decades later — matters more than whether it happened exactly as he described.
+The story might be embellished. Infant memory is unreliable. But the fact that Leonardo told it, repeatedly, decades later, matters more than whether it happened exactly as he described.
 
-The kite didn't hurt the infant Leonardo. It didn't carry him away. It brushed his face and left. And instead of crying, instead of forgetting, the child stored the sensation. He would spend the rest of his life trying to understand how it flew — filling notebooks with studies of bird flight, designing ornithopters that mimicked the motion of wings, studying updrafts and the physics of lift. He never built a machine that flew. But he understood flight more completely than anyone would for another four hundred years.
+The kite didn't hurt the infant Leonardo. It didn't carry him away. It brushed his face and left. And instead of crying, instead of forgetting, the child stored the sensation. He would spend the rest of his life trying to understand how it flew, filling notebooks with studies of bird flight, designing ornithopters that mimicked the motion of wings, studying updrafts and the physics of lift. He never built a machine that flew. But he understood flight more completely than anyone would for another four hundred years.
 
 ## The Apprentice Who Surpassed Everyone
 
 In 1466, the fourteen-year-old Leonardo entered the workshop of Andrea del Verrocchio in Florence.
 
-Verrocchio ran one of the most important workshops in Italy. Painting, sculpture, goldsmithing, engineering — his bottega was a factory of Renaissance creativity. For a boy locked out of formal education, it was the closest thing to a university that existed.
+Verrocchio ran one of the most important workshops in Italy. Painting, sculpture, goldsmithing, engineering. His bottega was a factory of Renaissance creativity. For a boy locked out of formal education, it was the closest thing to a university that existed.
 
-Leonardo was extraordinary almost immediately. The famous story: Verrocchio asked his students to paint the angels in his _Baptism of Christ_. Leonardo painted one angel so luminously, with such naturalistic grace, that — according to Vasari — Verrocchio put down his brush and never painted again, "chagrined that a boy understood their use better than he did."
+Leonardo was extraordinary almost immediately. The famous story: Verrocchio asked his students to paint the angels in his _Baptism of Christ_. Leonardo painted one angel so luminously, with such naturalistic grace, that, according to Vasari, Verrocchio put down his brush and never painted again, "chagrined that a boy understood their use better than he did."
 
 The story is likely embellished. But the angel is real. You can see it today in the Uffizi. It looks like it belongs in a different century than the rest of the painting.
 
@@ -102,15 +102,15 @@ The pattern was set. Leonardo would accept a commission. Then he would disappear
 
 Then came the accusation.
 
-On April 9, 1476, an anonymous denunciation appeared in the _tamburo_ — the public letter box at the Palazzo della Signoria in Florence. It accused four men, Leonardo among them, of sodomy with a seventeen-year-old named Jacopo Saltarelli.
+On April 9, 1476, an anonymous denunciation appeared in the _tamburo_, the public letter box at the Palazzo della Signoria in Florence. It accused four men, Leonardo among them, of sodomy with a seventeen-year-old named Jacopo Saltarelli.
 
 In Florence, sodomy was punishable by death.
 
-The charges were eventually dismissed — Florentine law required accusations to be signed, and this one was anonymous. But the two months between accusation and acquittal left a mark. Leonardo was twenty-four. He had just begun establishing himself as an independent artist. And now his name had been publicly associated with a capital crime.
+The charges were eventually dismissed. Florentine law required accusations to be signed, and this one was anonymous. But the two months between accusation and acquittal left a mark. Leonardo was twenty-four. He had just begun establishing himself as an independent artist. And now his name had been publicly associated with a capital crime.
 
 Some historians suggest the accusation was politically motivated, aimed at embarrassing the Medici through their association with Leonardo. The truth is unknowable. What is knowable is what happened next.
 
-Look at what Leonardo produced in the six years after the accusation. Two major paintings started: _St. Jerome in the Wilderness_ — a figure in anguished self-denial, alone in the desert — and the _Adoration of the Magi_. He finished neither. The abandoned _St. Jerome_ is one of the most psychologically raw things he ever put on panel: the saint's body is emaciated, his face contorted, his fist beating his own chest. Whether Leonardo was painting his inner state or just painting a saint, the timing is hard to ignore.
+Look at what Leonardo produced in the six years after the accusation. Two major paintings started: _St. Jerome in the Wilderness_, a figure in anguished self-denial alone in the desert, and the _Adoration of the Magi_. He finished neither. The abandoned _St. Jerome_ is one of the most psychologically raw things he ever put on panel: the saint's body is emaciated, his face contorted, his fist beating his own chest. Whether Leonardo was painting his inner state or just painting a saint, the timing is hard to ignore.
 
 He stopped accepting portrait commissions. He never married, never established a household. The notebooks from this period are sparser than what comes before or after. The already-reserved young artist had learned what happens when the world looks too closely at your private life.
 
@@ -126,7 +126,7 @@ Ten paragraphs. Nine about military engineering: portable bridges, siege machine
 
 Leonardo knew exactly what he was doing. Milan was at war. The Duke needed engineers, not artists. So Leonardo sold himself as an engineer.
 
-But there's something deeper happening in that letter. Leonardo wasn't lying — he genuinely believed he could build these things. He had designed them in his notebooks. Bridges. Tanks. Machine guns. None of them had been built. None of them would be built in his lifetime. Several were centuries ahead of their time.
+But there's something deeper happening in that letter. Leonardo wasn't lying. He genuinely believed he could build these things. He had designed them in his notebooks. Bridges. Tanks. Machine guns. None of them had been built. None of them would be built in his lifetime. Several were centuries ahead of their time.
 
 This is the [Five's](/enneagram-corner/enneagram-type-5) relationship with knowledge in its purest form: the understanding is the product. Whether the bridge gets built is almost beside the point. Leonardo understood bridges. He understood them more deeply than anyone alive. That was enough for him, even if it wasn't enough for the Duke.
 
@@ -153,7 +153,7 @@ Ludovico Sforza wanted spectacle, engineering, prestige. Leonardo wanted to unde
 
 </div>
 
-The bronze horse is the most heartbreaking example. Ludovico commissioned a massive equestrian statue of his father. Leonardo spent over a decade on it — not sculpting, but studying. He dissected horses. He filled notebooks with horse anatomy. He designed revolutionary casting techniques for a statue that would stand twenty-three feet tall.
+The bronze horse is the most heartbreaking example. Ludovico commissioned a massive equestrian statue of his father. Leonardo spent over a decade on it. Not sculpting, but studying. He dissected horses. He filled notebooks with horse anatomy. He designed revolutionary casting techniques for a statue that would stand twenty-three feet tall.
 
 Then the French invaded. Ludovico's soldiers melted the bronze into cannons. The horse was never cast. Leonardo's notebooks survived. The investigation was complete, even if the product never existed.
 
@@ -163,9 +163,9 @@ When Leonardo returned to Florence around 1500, a twenty-five-year-old sculptor 
 
 Michelangelo was everything Leonardo wasn't: brusque, unkempt, obsessively focused, and a compulsive finisher. He completed the Sistine Chapel ceiling. He completed the _David_. He completed the _Pietà_. Leonardo, twenty-three years older and infinitely more versatile, finished almost nothing. The two men despised each other.
 
-The most reliably sourced confrontation comes from the _Codice dell'Anonimo Gaddiano_. Leonardo and his companions were walking through Florence when a group reading Dante asked him to explain a passage. Michelangelo happened to be passing. Leonardo, perhaps genuinely deferring, said they should ask Michelangelo — who was known as a Dante expert. Michelangelo took it as a sneer and fired back: "Explain it yourself — you who made a design of a horse to be cast in bronze, were unable to cast it, and for shame abandoned it."
+The most reliably sourced confrontation comes from the _Codice dell'Anonimo Gaddiano_. Leonardo and his companions were walking through Florence when a group reading Dante asked him to explain a passage. Michelangelo happened to be passing. Leonardo, perhaps genuinely deferring, said they should ask Michelangelo, who was known as a Dante expert. Michelangelo took it as a sneer and fired back: "Explain it yourself, you who made a design of a horse to be cast in bronze, were unable to cast it, and for shame abandoned it."
 
-The insult landed because it was true. Leonardo had abandoned the horse. He had abandoned the _Adoration of the Magi_. He would abandon the _Battle of Anghiari_ — the massive wall painting commissioned in direct competition with Michelangelo's _Battle of Cascina_ for the same hall in the Palazzo Vecchio. Neither painting survived, but the commission itself tells the story: Michelangelo left because the Pope summoned him to Rome. Leonardo left because his experimental paint technique failed. One was pulled away by demand. The other was defeated by investigation — he had tried to reinvent fresco painting and the paint melted off the wall.
+The insult landed because it was true. Leonardo had abandoned the horse. He had abandoned the _Adoration of the Magi_. He would abandon the _Battle of Anghiari_, the massive wall painting commissioned in direct competition with Michelangelo's _Battle of Cascina_ for the same hall in the Palazzo Vecchio. Neither painting survived, but the commission itself tells the story: Michelangelo left because the Pope summoned him to Rome. Leonardo left because his experimental paint technique failed. One was pulled away by demand. The other was defeated by investigation. He had tried to reinvent fresco painting, and the paint melted off the wall.
 
 When Michelangelo's _David_ was completed in 1504, Leonardo served on the committee deciding where to place it. He suggested hiding it in a courtyard. Then he sketched the figure and redesigned it as a Neptune. Even in admiration, he couldn't resist turning someone else's finished work into raw material for his own investigation.
 
@@ -175,9 +175,9 @@ Leonardo's notebooks are the interior of his mind, laid open.
 
 Thirteen thousand pages originally. About 7,200 survive. They contain the most extraordinary range of inquiry ever produced by a single human being: anatomical drawings more accurate than anything produced for another three centuries. Designs for flying machines, submarines, solar concentrators, calculators. Studies of water flow, optics, botany, geology, cartography. Architectural plans. Fables. Jokes. Grocery lists.
 
-All written backwards. Left-handed mirror script, running right to left across the page, so that you need a mirror to read it naturally. The practical reason: Leonardo was left-handed, and writing in this direction prevented his hand from smearing the ink. He could write normally when he chose to — his letters to patrons run left to right like everyone else's.
+All written backwards. Left-handed mirror script, running right to left across the page, so that you need a mirror to read it naturally. The practical reason: Leonardo was left-handed, and writing in this direction prevented his hand from smearing the ink. He could write normally when he chose to. His letters to patrons run left to right like everyone else's.
 
-But the practical explanation doesn't cancel the psychological one. A man who was accused of a capital crime for his private life, who never published his findings, who kept his intellectual work in notebooks no one else could casually read — this man literally wrote so the world couldn't easily look over his shoulder. Whether that was conscious intent or a happy accident of left-handedness, the effect was the same: a layer of privacy built into the act of writing itself.
+But the practical explanation doesn't cancel the psychological one. A man who was accused of a capital crime for his private life, who never published his findings, who kept his intellectual work in notebooks no one else could casually read. This man literally wrote so the world couldn't easily look over his shoulder. Whether that was conscious intent or a happy accident of left-handedness, the effect was the same: a layer of privacy built into the act of writing itself.
 
 The notebooks reveal a mind operating on a principle most people cannot sustain for five minutes: pure curiosity, applied to everything, with no concern for output.
 
@@ -195,17 +195,17 @@ He intended for the notebooks to be published. They never were. Not during his l
 
 The evidence isn't subtle.
 
-The core of Type 5 is an economy of scarcity — not of money, but of personal resources. Energy, time, attention. Fives wake each morning with a specific amount of capacity for the world, and they conserve it ruthlessly. They withdraw not because they're antisocial, but because they learned early that the world takes more than it gives.
+The core of Type 5 is an economy of scarcity, not of money, but of personal resources. Energy, time, attention. Fives wake each morning with a specific amount of capacity for the world, and they conserve it ruthlessly. They withdraw not because they're antisocial, but because they learned early that the world takes more than it gives.
 
 Leonardo's entire life is this pattern expressed at the scale of genius:
 
 - **The withdrawal instinct.** From his post-sodomy-accusation retreat, to his decades of working alone, to his final years in a French manor with only two companions, Leonardo consistently chose observation over participation.
-- **Knowledge as fortress.** His notebooks weren't communication — they were accumulation. He gathered understanding the way a Five hoards provisions for an uncertain future.
+- **Knowledge as fortress.** His notebooks weren't communication. They were accumulation. He gathered understanding the way a Five hoards provisions for an uncertain future.
 - **The investigation behind the investigation.** Every commission became something deeper. Patrons wanted products; Leonardo wanted comprehension. This is the Five's signature: the task is never the task. The task is what the task teaches you.
 - **The energy economy.** Vasari described him as "lovable" and a "sparkling conversationalist," but also noted his chronic inability to deliver on commitments. The charm was real. So was the withdrawal. Both are classic Five: engaging selectively, then retreating to recharge.
-- **The body problem.** Fives live so thoroughly in their minds that they forget they have bodies. Leonardo forgot to eat. He forgot to sleep on normal schedules. He adopted the polyphasic sleep pattern — fifteen-minute naps every four hours — not for productivity but because sustained sleep felt like time stolen from thinking.
+- **The body problem.** Fives live so thoroughly in their minds that they forget they have bodies. Leonardo forgot to eat. He forgot to sleep on normal schedules. He adopted the polyphasic sleep pattern (fifteen-minute naps every four hours) not for productivity but because sustained sleep felt like time stolen from thinking.
 
-His 4-wing adds the artistic dimension that makes him more than a pure investigator. The 5w4 combination — sometimes called "The Iconoclast" — produces people who don't just want to understand the world. They want to understand it _their way_, through a lens that is distinctively, stubbornly personal. Leonardo didn't just study anatomy. He drew it more beautifully than any anatomist ever had. He didn't just observe light. He painted it with a technique so subtle that modern scientists needed X-ray fluorescence to measure it.
+His 4-wing adds the artistic dimension that makes him more than a pure investigator. The 5w4 combination, sometimes called "The Iconoclast," produces people who don't just want to understand the world. They want to understand it _their way_, through a lens that is distinctively, stubbornly personal. Leonardo didn't just study anatomy. He drew it more beautifully than any anatomist ever had. He didn't just observe light. He painted it with a technique so subtle that modern scientists needed X-ray fluorescence to measure it.
 
 The [Type 4](/enneagram-corner/enneagram-type-4) wing gave Leonardo his aesthetic sense, his melancholy, and his conviction that his work had to be not just accurate but _original_. The Type 5 core gave him the discipline to pursue that originality across every field he touched.
 
@@ -213,13 +213,13 @@ The [Type 4](/enneagram-corner/enneagram-type-4) wing gave Leonardo his aestheti
 
 In 1490, a ten-year-old boy named Gian Giacomo Caprotti entered Leonardo's household in Milan.
 
-Leonardo nicknamed him "Salaì" — "Little Devil." Within days, the boy was stealing. Leonardo's notebook entry is precise: "Thief, liar, obstinate, glutton." He catalogued Salaì's offenses with the same detached accuracy he applied to anatomical studies. How much he stole. What he broke. How much his father would need to reimburse.
+Leonardo nicknamed him "Salaì," meaning "Little Devil." Within days, the boy was stealing. Leonardo's notebook entry is precise: "Thief, liar, obstinate, glutton." He catalogued Salaì's offenses with the same detached accuracy he applied to anatomical studies. How much he stole. What he broke. How much his father would need to reimburse.
 
 He kept the boy for twenty-five years.
 
-The daily reality of that relationship is documented in Leonardo's own hand, and it reads like a ledger of exasperation that never once considers the obvious solution. Salaì stole from guests. He broke things. He ran up clothing bills that Leonardo meticulously recorded — four pairs of hose, a cloak lined with green velvet, twenty-four pairs of shoes over one period. Leonardo bought him silk doublets and recorded the cost to the lira. On the same page, he might note that Salaì had stolen again. Then he designed him a costume for a court pageant.
+The daily reality of that relationship is documented in Leonardo's own hand, and it reads like a ledger of exasperation that never once considers the obvious solution. Salaì stole from guests. He broke things. He ran up clothing bills that Leonardo meticulously recorded: four pairs of hose, a cloak lined with green velvet, twenty-four pairs of shoes over one period. Leonardo bought him silk doublets and recorded the cost to the lira. On the same page, he might note that Salaì had stolen again. Then he designed him a costume for a court pageant.
 
-Salaì grew into a mediocre painter, a persistent thief, and Leonardo's most constant companion. He modeled for _St. John the Baptist_ and _Bacchus_ — the most sensuous figures Leonardo ever painted. Leonardo left him half a vineyard in his will.
+Salaì grew into a mediocre painter, a persistent thief, and Leonardo's most constant companion. He modeled for _St. John the Baptist_ and _Bacchus_, the most sensuous figures Leonardo ever painted. Leonardo left him half a vineyard in his will.
 
 The Salaì relationship reveals something the notebooks don't: the man who understood everything about the human body could not apply that understanding to his own emotional life. He kept a thief because the thief needed him. He catalogued the stealing with clinical precision and then paid for another pair of hose.
 
@@ -233,7 +233,7 @@ Late in his career, an old man approached Leonardo in a hospital in Florence. He
 
 Leonardo dissected him immediately.
 
-Not out of callousness. Out of the purest curiosity a human being has ever expressed toward death. The old man had described his death as painless — "so sweet a death" — and Leonardo needed to know _why_. What was the mechanism? What did the body do differently when it died gently instead of violently?
+Not out of callousness. Out of the purest curiosity a human being has ever expressed toward death. The old man had described his death as painless, "so sweet a death," and Leonardo needed to know _why_. What was the mechanism? What did the body do differently when it died gently instead of violently?
 
 He found the answer in the arteries. Thickened walls, reduced blood flow to the organs. The centenarian had died of what we would now call atherosclerosis. Leonardo described it accurately enough that researchers didn't improve on his findings until the twentieth century.
 
@@ -241,7 +241,7 @@ He found the answer in the arteries. Thickened walls, reduced blood flow to the 
 
 The dissection captures Leonardo's entire relationship with existence. Other people experienced the old man's death as a loss. Leonardo experienced it as a question. And questions, for him, were the only currency that mattered.
 
-He dissected perhaps thirty human corpses in his lifetime. He worked at night in monastery hospitals, by candlelight, peeling back layers of muscle and fat on bodies that were rapidly decomposing. The smell must have been extraordinary. The drawings he produced were extraordinary too — the most accurate anatomical illustrations in history, depicting the circulatory system, the musculature, the fetal position in the womb, the mechanics of the shoulder joint.
+He dissected perhaps thirty human corpses in his lifetime. He worked at night in monastery hospitals, by candlelight, peeling back layers of muscle and fat on bodies that were rapidly decomposing. The smell must have been extraordinary. The drawings he produced were extraordinary too: the most accurate anatomical illustrations in history, depicting the circulatory system, the musculature, the fetal position in the womb, the mechanics of the shoulder joint.
 
 None of it was published. The notebooks went into trunks. Three hundred years later, when anatomists finally caught up to where Leonardo had been, they didn't know he had already been there.
 
@@ -260,15 +260,15 @@ None of it was published. The notebooks went into trunks. Three hundred years la
 
 Pope Leo X said this about Leonardo in 1514, and it is the most perceptive thing anyone ever said about him.
 
-Leonardo didn't procrastinate the way most people procrastinate — through avoidance or laziness. He procrastinated through understanding. And the people who paid him left a paper trail of exasperation.
+Leonardo didn't procrastinate the way most people procrastinate, through avoidance or laziness. He procrastinated through understanding. And the people who paid him left a paper trail of exasperation.
 
-Isabella d'Este, Marchioness of Mantua, pursued Leonardo for six years trying to get a single painting out of him. She sent agents. She wrote letters — over twelve thousand of her letters survive, and the Leonardo thread reads like someone trying to pin down smoke. He had made a chalk portrait of her in 1499. She spent the next four years begging for a painted version. She eventually gave up on specifics and told him to paint anything he wanted — any subject at all. He never delivered.
+Isabella d'Este, Marchioness of Mantua, pursued Leonardo for six years trying to get a single painting out of him. She sent agents. She wrote letters. Over twelve thousand of her letters survive, and the Leonardo thread reads like someone trying to pin down smoke. He had made a chalk portrait of her in 1499. She spent the next four years begging for a painted version. She eventually gave up on specifics and told him to paint anything he wanted, any subject at all. He never delivered.
 
 Her agent in Florence, Fra Pietro da Novellara, reported back in April 1501 with the most accurate diagnosis anyone ever wrote of Leonardo: his "mathematical experiments have absorbed his thoughts so entirely that he cannot bear the sight of a paintbrush." The man commissioned to paint was too busy understanding to paint.
 
 _The Last Supper_ had eyewitnesses. Matteo Bandello, a novice at Santa Maria delle Grazie, watched Leonardo work and left a firsthand account: "He would arrive at an early hour, climb up onto the scaffolding, and start working. Sometimes he would stay there from dawn until sunset, not once setting down his brush. On other occasions, he would go for two, three or four days without taking up his brush, but spending one or two hours a day standing before the work, arms folded, scrutinizing and assessing the figures in his mind." Bandello also saw Leonardo dash across Milan in the midday heat to add a single brushstroke, then leave.
 
-The Mona Lisa took twenty years. He carried it with him from Florence to Rome to France, adding translucent layer upon translucent layer of _sfumato_ — the technique he described as painting "without lines or borders, in the manner of smoke." Modern X-ray fluorescence analysis has measured those layers at one to two micrometers thick — a human hair is seventy. He applied them with his fingers, not brushes. No brush strokes are detectable. Twenty to thirty layers of near-invisible paint, each dried for weeks or months before the next was applied. No one has successfully replicated it in five hundred years. He never delivered the painting to anyone. He was still working on it when he died.
+The Mona Lisa took twenty years. He carried it with him from Florence to Rome to France, adding translucent layer upon translucent layer of _sfumato_, the technique he described as painting "without lines or borders, in the manner of smoke." Modern X-ray fluorescence analysis has measured those layers at one to two micrometers thick. A human hair is seventy. He applied them with his fingers, not brushes. No brush strokes are detectable. Twenty to thirty layers of near-invisible paint, each dried for weeks or months before the next was applied. No one has successfully replicated it in five hundred years. He never delivered the painting to anyone. He was still working on it when he died.
 
 The _Virgin of the Rocks_ was commissioned with a seven-month deadline. He finished it twenty-five years later.
 
@@ -280,19 +280,19 @@ He didn't abandon work because he lost interest. He abandoned it because complet
 
 In 1516, at sixty-four, Leonardo accepted an invitation from Francis I of France. He packed his notebooks, his paintings (including the unfinished Mona Lisa), and traveled across the Alps with Salaì and his most devoted pupil, Francesco Melzi.
 
-Francis installed him in the manor of Clos Lucé, near the royal château at Amboise, connected to the king's own residence by an underground passage. He gave Leonardo a generous pension of 700 gold écus and a title: "First Painter, Engineer and Architect of the King." He asked for almost nothing in return except conversation. Francis called Leonardo _mon père_ — my father.
+Francis installed him in the manor of Clos Lucé, near the royal château at Amboise, connected to the king's own residence by an underground passage. He gave Leonardo a generous pension of 700 gold écus and a title: "First Painter, Engineer and Architect of the King." He asked for almost nothing in return except conversation. Francis called Leonardo _mon père_, my father.
 
 Here is the most interesting test of the Five thesis: what happens when a Five gets unlimited freedom? No commissions to dodge. No priors complaining about deadlines. No patrons demanding delivery. Just a king who wanted to listen.
 
-Leonardo did not spiral. He designed an entire city. The Romorantin project was his most ambitious engineering vision — a royal residence with canals diverted from a Loire tributary, water mills, irrigated farmland, sewers, connected suburbs. It was never built. The region was plagued by malaria. But the plans are extraordinary, a mind finally free to design at the scale it always thought at. He also influenced the design of the double-helix staircase at Chambord — two intertwined staircases where people ascending and descending can see each other but never meet. It is the most Leonardo thing ever built by someone else.
+Leonardo did not spiral. He designed an entire city. The Romorantin project was his most ambitious engineering vision: a royal residence with canals diverted from a Loire tributary, water mills, irrigated farmland, sewers, connected suburbs. It was never built. The region was plagued by malaria. But the plans are extraordinary, a mind finally free to design at the scale it always thought at. He also influenced the design of the double-helix staircase at Chambord, two intertwined staircases where people ascending and descending can see each other but never meet. It is the most Leonardo thing ever built by someone else.
 
-His right hand had become crippled — likely from a stroke. He could no longer paint. But he could still draw with his left hand, still write, still think. When Antonio de Beatis visited him in October 1517 as part of a cardinal's entourage, Leonardo proudly showed his paintings and notebooks, though he acknowledged the paralysis had ended his painting life.
+His right hand had become crippled, likely from a stroke. He could no longer paint. But he could still draw with his left hand, still write, still think. When Antonio de Beatis visited him in October 1517 as part of a cardinal's entourage, Leonardo proudly showed his paintings and notebooks, though he acknowledged the paralysis had ended his painting life.
 
-In his final years, he produced studies of deluges — apocalyptic drawings of water destroying the world, churning vortices of black chalk spiraling across the page. They are simultaneously scientific — extending his lifelong study of fluid dynamics — and deeply personal. Not illustrations of the Biblical flood. Meditations on the power of natural forces to overwhelm everything human beings construct. The work of a mind that had spent sixty years studying water, now free to imagine what water could do if nothing held it back.
+In his final years, he produced studies of deluges, apocalyptic drawings of water destroying the world, churning vortices of black chalk spiraling across the page. They are simultaneously scientific (extending his lifelong study of fluid dynamics) and deeply personal. Not illustrations of the Biblical flood. Meditations on the power of natural forces to overwhelm everything human beings construct. The work of a mind that had spent sixty years studying water, now free to imagine what water could do if nothing held it back.
 
-He made his will on April 23, 1519. He left his notebooks to Melzi. He left the vineyard and half his property to Salaì. He requested sixty poor men carry candles at his funeral — the same precision he brought to everything else. Even dying had a design.
+He made his will on April 23, 1519. He left his notebooks to Melzi. He left the vineyard and half his property to Salaì. He requested sixty poor men carry candles at his funeral, the same precision he brought to everything else. Even dying had a design.
 
-He died on May 2, 1519. The famous story — that he died in the arms of Francis I — was invented by Vasari fifty years later. Francis's own diary suggests he was miles away.
+He died on May 2, 1519. The famous story, that he died in the arms of Francis I, was invented by Vasari fifty years later. Francis's own diary suggests he was miles away.
 
 It doesn't matter. What matters is what Leonardo left: the notebooks. The fifteen paintings. The anatomical drawings. The flying machines. The canal designs. The studies of light. The understanding.
 
@@ -306,7 +306,7 @@ The standard narrative calls him a procrastinator. The [ADHD researchers](/ennea
 
 They are all describing the same thing from the outside.
 
-From the inside — from the interior of a Five — the picture is different. Leonardo didn't fail to finish. He succeeded at understanding. The painting was never the point. The understanding behind the painting was the point. The bronze horse was never the point. The anatomy of the horse was the point. The military machines were never the point. The physics of force and motion were the point.
+From the inside, from the interior of a Five, the picture is different. Leonardo didn't fail to finish. He succeeded at understanding. The painting was never the point. The understanding behind the painting was the point. The bronze horse was never the point. The anatomy of the horse was the point. The military machines were never the point. The physics of force and motion were the point.
 
 His notebooks are the most productive procrastination in human history. The work of a mind that treated completion as a kind of death — because when you finish, you stop investigating. And when you stop investigating, you stop being alive in the only way that matters to a Five.
 
@@ -314,7 +314,7 @@ On his deathbed, he reportedly lamented that he "had offended God and humanity i
 
 The question Leonardo's life asks is the question every Five eventually faces: Is understanding the world the same as living in it?
 
-He bought caged birds in the Florentine market and released them. Then he stood there in the street, watching how they flew. He also refused to eat meat — extraordinary in Renaissance Italy, where vegetarianism was considered borderline heretical. The Italian explorer Andrea Corsali, writing from India in 1516, compared the vegetarian Gujarati Hindus to "our Leonardo da Vinci," who would not allow any living thing to be harmed. In his notebooks, Leonardo wrote: "Does nature not produce enough simple food to satisfy you?"
+He bought caged birds in the Florentine market and released them. Then he stood there in the street, watching how they flew. He also refused to eat meat, which was extraordinary in Renaissance Italy, where vegetarianism was considered borderline heretical. The Italian explorer Andrea Corsali, writing from India in 1516, compared the vegetarian Gujarati Hindus to "our Leonardo da Vinci," who would not allow any living thing to be harmed. In his notebooks, Leonardo wrote: "Does nature not produce enough simple food to satisfy you?"
 
 The kindness was real. But so was the observation. He could never separate the two. He could never just set something free without studying how it moved through the air. He could never just love someone without cataloguing their flaws in a notebook. He could never just paint a woman's face without spending twenty years trying to capture the exact way a smile exists and doesn't exist simultaneously.
 

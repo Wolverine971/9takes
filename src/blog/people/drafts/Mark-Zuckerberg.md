@@ -32,9 +32,9 @@ path: src/blog/people/drafts/Mark-Zuckerberg.md
 
 > "Obviously, yes, I'm like the most awkward person. People have been calling me a robot online for 20 years. It's really done wonders for my confidence."
 
-<p class="firstLetter">In 2011, Mark Zuckerberg invited Twitter CEO <a href="/personality-analysis/Jack-Dorsey">Jack Dorsey</a> over for dinner. Zuckerberg had recently committed to only eating meat he'd personally killed — a challenge he approached with the same systematic precision he applied to everything else. He'd stunned a goat with a stun gun, used a knife to finish it, and sent it to a butcher for preparation. When the goat arrived back at the table, it was cold. Zuckerberg told Dorsey they were having goat and salad. Nothing else. Dorsey later recalled: "I just ate my salad."</p>
+<p class="firstLetter">In 2011, Mark Zuckerberg invited Twitter CEO <a href="/personality-analysis/Jack-Dorsey">Jack Dorsey</a> over for dinner. Zuckerberg had recently committed to only eating meat he'd personally killed, a challenge he approached with the same systematic precision he applied to everything else. He'd stunned a goat with a stun gun, used a knife to finish it, and sent it to a butcher for preparation. When the goat arrived back at the table, it was cold. Zuckerberg told Dorsey they were having goat and salad. Nothing else. Dorsey later recalled: "I just ate my salad."</p>
 
-That dinner tells you more about Mark Zuckerberg than any congressional testimony or earnings call ever could. He invited someone over — a gesture of connection — then served the experience entirely on his own terms. The food was what he'd killed. The menu was non-negotiable. Whether the guest enjoyed it was beside the point. The act of hosting was the act of control.
+That dinner tells you more about Mark Zuckerberg than any congressional testimony or earnings call ever could. He invited someone over, a gesture of connection, then served the experience entirely on his own terms. The food was what he'd killed. The menu was non-negotiable. Whether the guest enjoyed it was beside the point. The act of hosting was the act of control.
 
 This is the contradiction that defines Mark Zuckerberg. The most private mind in technology built the most invasive connection machine in human history. The man who rations social energy like a scarce resource created a system designed to make social interaction infinite and frictionless. He didn't build Facebook because he understood people. He built it because he wanted to.
 
@@ -44,8 +44,8 @@ This is the contradiction that defines Mark Zuckerberg. The most private mind in
 <summary class="accordion">TL;DR: Why Mark Zuckerberg is an Enneagram Type 5</summary>
 <div class="panel">
 <ul>
-<li><b>The System Builder:</b> Every creation — from ZuckNet at age 12 to Meta's AI infrastructure — solves the same problem: replacing messy human interaction with a system he can control.</li>
-<li><b>The Energy Miser:</b> Gray t-shirts, property buffer zones, carefully rationed public appearances — everything optimized to conserve mental bandwidth for what actually matters to him.</li>
+<li><b>The System Builder:</b> Every creation, from ZuckNet at age 12 to Meta's AI infrastructure, solves the same problem: replacing messy human interaction with a system he can control.</li>
+<li><b>The Energy Miser:</b> Gray t-shirts, property buffer zones, carefully rationed public appearances, all optimized to conserve mental bandwidth for what actually matters to him.</li>
 <li><b>The Fortress CEO:</b> Dual-class shares give him 61% voting power with 13% economic ownership. When 92% of outside shareholders voted to strip his power, he simply said no.</li>
 <li><b>The Contained Volcano:</b> Marc Andreessen has worked alongside him for nearly 20 years and has "literally not once seen him raise his voice." Yet he cried at Harvard telling the story of an undocumented student.</li>
 </ul>
@@ -54,11 +54,11 @@ This is the contradiction that defines Mark Zuckerberg. The most private mind in
 
 ## ZuckNet and the Shouting Problem
 
-At twelve years old, in a dental office in Dobbs Ferry, New York, Mark Zuckerberg built his first piece of software. His father Edward ran the practice from their home, and the receptionist had to shout down the hallway every time a patient arrived. Mark's solution was ZuckNet — a rudimentary messaging system using Atari BASIC that replaced the shouting with silent notifications between computers.
+At twelve years old, in a dental office in Dobbs Ferry, New York, Mark Zuckerberg built his first piece of software. His father Edward ran the practice from their home, and the receptionist had to shout down the hallway every time a patient arrived. Mark's solution was ZuckNet, a rudimentary messaging system using Atari BASIC that replaced the shouting with silent notifications between computers.
 
 His very first creation solved a communication problem by eliminating the need for direct human interaction. It made person-to-person contact unnecessary by substituting a system. He was twelve.
 
-His parents saw something unusual. His mother Karen was a psychiatrist — a detail worth sitting with. The son of a woman whose career was understanding human behavior would grow up to build the largest human behavior observation platform in history. His father hired a software developer named David Newman to tutor Mark privately. Newman later told reporters it was "hard to stay ahead of the prodigy."
+His parents saw something unusual. His mother Karen was a psychiatrist, a detail worth sitting with. The son of a woman whose career was understanding human behavior would grow up to build the largest human behavior observation platform in history. His father hired a software developer named David Newman to tutor Mark privately. Newman later told reporters it was "hard to stay ahead of the prodigy."
 
 But the picture of young Zuckerberg isn't the isolated coder the mythology suggests. He told The New Yorker: "I had a bunch of friends who were artists. They'd come over, draw stuff, and I'd build a game out of it." His social mode was collaborative production. People brought raw material. He systematized it. Even play was engineering.
 
@@ -68,15 +68,15 @@ Before Harvard, his father gave Mark and his sisters an unusual proposition: go 
 
 ## The Facebook That Already Existed
 
-At Phillips Exeter Academy, one of the most elite boarding schools in America, Zuckerberg became captain of the fencing team, earned a diploma in classics — Latin, ancient Greek — and won prizes in math, astronomy, and physics. On his college application, he claimed fluency in French, Hebrew, Latin, and ancient Greek.
+At Phillips Exeter Academy, one of the most elite boarding schools in America, Zuckerberg became captain of the fencing team, earned a diploma in classics (Latin, ancient Greek) and won prizes in math, astronomy, and physics. On his college application, he claimed fluency in French, Hebrew, Latin, and ancient Greek.
 
 More importantly, Exeter published its own student directory. It was called "The Facebook."
 
 At Exeter, Mark and his friend Adam D'Angelo built Synapse, an AI-powered music recommendation engine that learned users' listening habits. Both Microsoft and AOL tried to acquire it. One company offered $950,000, but required three years of work. Zuckerberg's response: "We wanted to go to college, so we said no." He posted the software for free instead.
 
-That pattern — building something valuable, then refusing to hand it over on someone else's terms — would repeat for the next two decades.
+That pattern, building something valuable and then refusing to hand it over on someone else's terms, would repeat for the next two decades.
 
-When he arrived at Harvard in 2002, he brought the observer's instinct. While other students navigated the social scene directly, Zuckerberg watched and identified patterns. The result was Facemash, a hot-or-not comparison tool using student photos. It was ethically careless. It was also a hypothesis test — his mind translating social dynamics into data.
+When he arrived at Harvard in 2002, he brought the observer's instinct. While other students navigated the social scene directly, Zuckerberg watched and identified patterns. The result was Facemash, a hot-or-not comparison tool using student photos. It was ethically careless. It was also a hypothesis test, his mind translating social dynamics into data.
 
 Then came TheFacebook in February 2004. And almost immediately, a conversation that would follow him for the rest of his career. In an instant message obtained years later, a friend asked how he'd gotten thousands of Harvard students' data. Zuckerberg replied: "People just submitted it. I don't know why. They 'trust me.' Dumb fucks."
 
@@ -93,20 +93,20 @@ He was nineteen. He already understood the asymmetry. He understood that people 
 
 ### Mark Zuckerberg is an Enneagram Type 5
 
-Enneagram Fives operate from a scarcity model of energy. They wake each morning with a finite budget for human interaction, emotional expenditure, and sensory input. Use it up and they shut down. This is not introversion — it's conservation. Every choice about what to engage with is a calculation about what they can afford.
+Enneagram Fives operate from a scarcity model of energy. They wake each morning with a finite budget for human interaction, emotional expenditure, and sensory input. Use it up and they shut down. This is not introversion. It's conservation. Every choice about what to engage with is a calculation about what they can afford.
 
-The Five's deepest fear is incompetence — being overwhelmed by a world that demands more than they can provide. Their response is to retreat into the mind, where they build fortress-like systems of understanding. If you cannot control the external world, you can master the internal one.
+The Five's deepest fear is incompetence: being overwhelmed by a world that demands more than they can provide. Their response is to retreat into the mind, where they build fortress-like systems of understanding. If you cannot control the external world, you can master the internal one.
 
 Evidence of this pattern in Zuckerberg:
 
 - **His first creation replaced human shouting with a system.** At twelve, he was already solving connection problems by removing the messiness of direct contact.
-- **He turned down $950,000 for Synapse and a $1 billion acquisition offer from Yahoo** — not from recklessness, but from an unwillingness to cede control of his system to someone else's authority.
+- **He turned down $950,000 for Synapse and a $1 billion acquisition offer from Yahoo**, not from recklessness but from an unwillingness to cede control of his system to someone else's authority.
 - **His wardrobe is a drawbridge.** The gray t-shirts weren't fashion laziness. "I really want to clear my life to make it so that I have to make as few decisions as possible about anything except how to best serve this community," he explained. Every eliminated decision is reclaimed energy.
-- **He bought adjacent properties to his Palo Alto home** to create a physical buffer zone — the Five's need for protected space made literal in real estate.
+- **He bought adjacent properties to his Palo Alto home** to create a physical buffer zone, the Five's need for protected space made literal in real estate.
 - **His crisis response follows the withdrawal-analyze-return pattern.** After Cambridge Analytica, five days of silence. Then a systems-level response. Not emotional appeals. Not damage control theater. Architecture.
 - **Marc Andreessen's testimony**: "He does not get emotionally upset in stressful situations. He is able to maintain an analytical frame of mind even when other people would be bursting into tears and hiding under the table... I have literally not once seen him raise his voice."
 
-Zuckerberg is specifically a 5w6 — the "Problem Solver" wing. Where a 5w4 channels their investigation into creative expression, a 5w6 channels it into practical systems and security. The Six wing adds vigilance about threats, loyalty to trusted allies, and a tendency toward worst-case preparation. You can see this in his aggressive defensive acquisitions (Instagram and WhatsApp were threat elimination as much as business expansion), his decades-long loyalty to his core team, and the structural paranoia of the dual-class share system that makes him unfireable.
+Zuckerberg is specifically a 5w6, the "Problem Solver" wing. Where a 5w4 channels their investigation into creative expression, a 5w6 channels it into practical systems and security. The Six wing adds vigilance about threats, loyalty to trusted allies, and a tendency toward worst-case preparation. You can see this in his aggressive defensive acquisitions (Instagram and WhatsApp were threat elimination as much as business expansion), his decades-long loyalty to his core team, and the structural paranoia of the dual-class share system that makes him unfireable.
 
 ---
 
@@ -116,19 +116,19 @@ When Mark and Priscilla Chan honeymooned in Rome, Chan later joked that there we
 
 This wasn't a passing interest. It was an identification.
 
-All three of his daughters are named after Roman figures. **Maxima** — Latin for "greatest." **August** — after Augustus, whom Zuckerberg calls "one of the most fascinating figures in history." **Aurelia** — after Marcus Aurelius. For his 40th birthday, he wore a shirt reading "Carthago delenda est" — "Carthage must be destroyed" — reportedly the same phrase he'd used internally at Facebook as a rallying cry when Google+ threatened the platform.
+All three of his daughters are named after Roman figures. **Maxima**, Latin for "greatest." **August**, after Augustus, whom Zuckerberg calls "one of the most fascinating figures in history." **Aurelia**, after Marcus Aurelius. For his 40th birthday, he wore a shirt reading "Carthago delenda est" ("Carthage must be destroyed"), reportedly the same phrase he'd used internally at Facebook as a rallying cry when Google+ threatened the platform.
 
-At the Acquired podcast in September 2024, in front of 6,000 people, he wore a custom t-shirt printed with the Greek phrase "pathei mathos" — from Aeschylus. It translates to "learning through suffering." He described it as "a little family saying."
+At the Acquired podcast in September 2024, in front of 6,000 people, he wore a custom t-shirt printed with the Greek phrase "pathei mathos," from Aeschylus. It translates to "learning through suffering." He described it as "a little family saying."
 
-The classical references aren't decoration. They reveal how Zuckerberg sees himself — not in the lineage of Silicon Valley founders, but in the lineage of imperial builders. Augustus didn't just conquer. He constructed systems of governance that outlasted him by centuries. He transformed a republic into an empire through structural control, not military spectacle. If you were a Five who built a system connecting three billion humans and wanted a historical mirror, you wouldn't pick Edison or Ford. You'd pick Augustus.
+The classical references aren't decoration. They reveal how Zuckerberg sees himself: not in the lineage of Silicon Valley founders, but in the lineage of imperial builders. Augustus didn't just conquer. He constructed systems of governance that outlasted him by centuries. He transformed a republic into an empire through structural control, not military spectacle. If you were a Five who built a system connecting three billion humans and wanted a historical mirror, you wouldn't pick Edison or Ford. You'd pick Augustus.
 
 ---
 
 ## The Drawbridge
 
-Consider the paradox. The most connected man on earth — the person whose creation mediates more human relationships than any technology in history — maintains one of the most fiercely guarded personal boundaries of any public figure alive.
+Consider the paradox. The most connected man on earth, the person whose creation mediates more human relationships than any technology in history, maintains one of the most fiercely guarded personal boundaries of any public figure alive.
 
-His social media presence, while active, is meticulously curated. Posts center on Meta initiatives, family milestones, or structured challenges — rarely anything unfiltered or spontaneous. Former Facebook executive Antonio Garcia Martinez observed in his book _Chaos Monkeys_ that Zuckerberg seemed most comfortable in controlled environments. During company Q&As, he could field complex questions with precision. Unstructured social interactions revealed a different person entirely.
+His social media presence, while active, is meticulously curated. Posts center on Meta initiatives, family milestones, or structured challenges, rarely anything unfiltered or spontaneous. Former Facebook executive Antonio Garcia Martinez observed in his book _Chaos Monkeys_ that Zuckerberg seemed most comfortable in controlled environments. During company Q&As, he could field complex questions with precision. Unstructured social interactions revealed a different person entirely.
 
 <div class="contrast-panel">
 <div class="contrast-panel__side contrast-panel__side--left">
@@ -141,7 +141,7 @@ His social media presence, while active, is meticulously curated. Posts center o
 </div>
 </div>
 
-But in private, the fortress has doors. David Kirkpatrick, author of _The Facebook Effect_, says Zuckerberg is "funny and 'extremely' social" in person. Former designer Julie Zhuo noted: "He's actually funny and engaging when he feels comfortable. He asks thoughtful questions and remembers details about people's lives." Harvard roommate Joe Green called him "uber-confident" — not arrogant, just certain.
+But in private, the fortress has doors. David Kirkpatrick, author of _The Facebook Effect_, says Zuckerberg is "funny and 'extremely' social" in person. Former designer Julie Zhuo noted: "He's actually funny and engaging when he feels comfortable. He asks thoughtful questions and remembers details about people's lives." Harvard roommate Joe Green called him "uber-confident." Not arrogant, just certain.
 
 The fortress isn't emptiness. It's selective access. The drawbridge lowers for people who've earned entry. Everyone else sees the wall.
 
@@ -155,9 +155,9 @@ They dated for nearly a decade before marrying in 2012. They had a rule: minimum
 
 Chan once observed that "Mark is better at talking than listening in many languages." When asked if Priscilla's influence affected Facebook's success, Zuckerberg gave one of his most revealing answers: "I think that's — that's gotta be true... we also just talk about our philosophy on life, and then that ends up, you know, having a lot of effects on, you know, how I think about building my team at Facebook and the values with which we run the organization."
 
-The pauses. The "you know" repetitions. The halting admission. This is Zuckerberg trying to articulate something the analytical mind doesn't have clean categories for — the way a relationship changes who you are without your conscious permission.
+The pauses. The "you know" repetitions. The halting admission. This is Zuckerberg trying to articulate something the analytical mind doesn't have clean categories for: the way a relationship changes who you are without your conscious permission.
 
-They experienced three miscarriages before the birth of their first daughter, Maxima. In 2024, Zuckerberg collaborated with T-Pain to record a cover of Lil Jon's "Get Low" — the song that was playing the night they met at that fraternity party. It was simultaneously one of the most awkward and one of the most genuinely romantic gestures a tech billionaire has ever made.
+They experienced three miscarriages before the birth of their first daughter, Maxima. In 2024, Zuckerberg collaborated with T-Pain to record a cover of Lil Jon's "Get Low," the song that was playing the night they met at that fraternity party. It was simultaneously one of the most awkward and one of the most genuinely romantic gestures a tech billionaire has ever made.
 
 ---
 
@@ -169,7 +169,7 @@ Senator Orrin Hatch asked how Facebook sustains a business model where users don
 
 Zuckerberg paused. "Senator, we run ads."
 
-The moment became a meme. But it also revealed something deeper. When Senator Dick Durbin asked if Zuckerberg would share the name of the hotel he'd slept at last night, or who he'd messaged that week, Zuckerberg declined — and Durbin's point landed: this is exactly why the public is concerned about their data on his platform. The man who understood privacy viscerally, who structured his entire life around it, had built a machine that monetized everyone else's.
+The moment became a meme. But it also revealed something deeper. When Senator Dick Durbin asked if Zuckerberg would share the name of the hotel he'd slept at last night, or who he'd messaged that week, Zuckerberg declined, and Durbin's point landed: this is exactly why the public is concerned about their data on his platform. The man who understood privacy viscerally, who structured his entire life around it, had built a machine that monetized everyone else's.
 
 <div class="dialogue">
 <div class="dialogue__line">
@@ -195,7 +195,7 @@ The moment became a meme. But it also revealed something deeper. When Senator Di
 <p class="dialogue__context">— U.S. Senate Judiciary Committee hearing, April 10, 2018</p>
 </div>
 
-Body language experts noted he was uncomfortably stiff, hesitated to look around, and took sips of water so slowly observers had time to check their phones. This wasn't deception. It was a Five in their worst environment — forced to process emotional confrontation in public, with no ability to withdraw, analyze, and return on their own schedule.
+Body language experts noted he was uncomfortably stiff, hesitated to look around, and took sips of water so slowly observers had time to check their phones. This wasn't deception. It was a Five in their worst environment, forced to process emotional confrontation in public, with no ability to withdraw, analyze, and return on their own schedule.
 
 His initial response to Cambridge Analytica had followed the classic withdrawal pattern: five days of silence before any public statement. When he finally spoke, it wasn't an emotional appeal. It was architecture: "We have a responsibility to protect your data, and if we can't then we don't deserve to serve you." A systems answer to a human betrayal.
 
@@ -217,7 +217,7 @@ But what followed was worse than the decision itself. After the rejection, Zucke
 
 He later described this as the most painful moment of his career. Not the public scrutiny. Not the congressional hearings. Not the billions lost in the metaverse bet. Watching the people he trusted leave because they didn't share his conviction.
 
-Noah Kagan, an early Facebook employee, captured the environment: "My boss was fired the day I started. My next boss was fired a month later. I got fired in 9 months. Mark was intense about keeping A players only." Kagan also reported that Zuckerberg would "only hire people he would be happy to work for" — even the customer support team was "filled with Harvard Ph.D.s."
+Noah Kagan, an early Facebook employee, captured the environment: "My boss was fired the day I started. My next boss was fired a month later. I got fired in 9 months. Mark was intense about keeping A players only." Kagan also reported that Zuckerberg would "only hire people he would be happy to work for," and even the customer support team was "filled with Harvard Ph.D.s."
 
 When Kagan pitched revenue ideas, Zuckerberg always asked the same question: "Does it help us grow?" If not, he wasn't interested. He'd give people a goal, some boundaries, and coach from the sidelines. And if they didn't measure up, they were gone.
 
@@ -248,7 +248,7 @@ On the Joe Rogan Experience in January 2025, he said: "Masculine energy I think 
 
 On the Theo Von podcast in April 2025, when asked if he'd ever felt socially awkward, he responded: "No, I'm really smooth." Then, with the first genuine self-awareness he'd ever shown on camera: "Obviously, yes, I'm like the most awkward person. People have been calling me a robot online for 20 years. It's really done wonders for my confidence."
 
-There's an Enneagram framework for what's happening here. When Fives are healthy, they integrate toward [Type 8](/enneagram-corner/enneagram-type-8) — the Challenger. They step out of the observation tower and into the arena. Knowledge becomes action. The normally reserved mind claims physical space. They learn to inhabit the body rather than just directing it from above.
+There's an Enneagram framework for what's happening here. When Fives are healthy, they integrate toward [Type 8](/enneagram-corner/enneagram-type-8), the Challenger. They step out of the observation tower and into the arena. Knowledge becomes action. The normally reserved mind claims physical space. They learn to inhabit the body rather than just directing it from above.
 
 The MMA training isn't a midlife crisis. It's a Five learning that the body isn't just a vehicle for the brain. That physical presence is a form of power the analytical mind can't provide. That there's something on the other side of the fortress wall worth fighting for — and fighting _as_.
 
@@ -266,7 +266,7 @@ The shift was tectonic. He donated $1 million to Trump's inauguration. Ended Met
 
 Chris Hughes, his Harvard co-founder, had written a New York Times op-ed years earlier: "Mark is a good, kind person. But I'm angry that his focus on growth led him to sacrifice security and civility for clicks." Hughes called Zuckerberg's power "unprecedented and un-American."
 
-What Hughes described as a moral failing, the Enneagram reframes. When Fives are under extreme and prolonged stress, they [disintegrate toward the unhealthy patterns](/enneagram-corner/enneagram-types-in-stress) of [Type 7](/enneagram-corner/enneagram-type-7) — scattering into new ventures, fleeing painful realities through expansion. The metaverse pivot, the AI pivot, the simultaneous political repositioning, the physical transformation — viewed through this lens, it's not strategic genius or moral collapse. It's a fortress under siege, frantically building new wings.
+What Hughes described as a moral failing, the Enneagram reframes. When Fives are under extreme and prolonged stress, they [disintegrate toward the unhealthy patterns](/enneagram-corner/enneagram-types-in-stress) of [Type 7](/enneagram-corner/enneagram-type-7), scattering into new ventures and fleeing painful realities through expansion. The metaverse pivot, the AI pivot, the simultaneous political repositioning, the physical transformation: viewed through this lens, it's not strategic genius or moral collapse. It's a fortress under siege, frantically building new wings.
 
 But there's another reading. The healthier one. A Five integrating toward Eight doesn't just get physically stronger. They get decisive. They stop asking permission. They stop apologizing for the space they take up. They say "no" without explanation and mean it.
 
@@ -287,17 +287,17 @@ The question is which version of Zuckerberg showed up at the Acquired podcast. T
 </div>
 </div>
 
-Sheryl Sandberg once revealed something telling about how Zuckerberg praised her: "I think she has a very good combination of IQ and EQ... it's exceptionally rare to find people who spike in both of those areas." Notice what this implicitly reveals about himself. He praises in others the emotional intelligence he knows he lacks publicly. He hired Sandberg precisely because she was the drawbridge he couldn't be — the warm, approachable face of a company built by a mind that processes connection as architecture.
+Sheryl Sandberg once revealed something telling about how Zuckerberg praised her: "I think she has a very good combination of IQ and EQ... it's exceptionally rare to find people who spike in both of those areas." Notice what this implicitly reveals about himself. He praises in others the emotional intelligence he knows he lacks publicly. He hired Sandberg precisely because she was the drawbridge he couldn't be: the warm, approachable face of a company built by a mind that processes connection as architecture.
 
 Their working principle: "Mark and I try hard to stay focused and divide and conquer forever." A Five's ideal partnership. Complementary functions. No emotional overlap. Maximum efficiency.
 
-Now Sandberg is gone, and Zuckerberg is betting the entire company on AI. Meta's planned infrastructure spending for 2026 is $115 to $135 billion — nearly doubling the previous year. Two "Titan-class" facilities: "Hyperion" in Louisiana, roughly the size of Manhattan, and "Prometheus" in Ohio. He has said AI will "dramatically change how Meta employees work in 2026."
+Now Sandberg is gone, and Zuckerberg is betting the entire company on AI. Meta's planned infrastructure spending for 2026 is $115 to $135 billion, nearly doubling the previous year. Two "Titan-class" facilities: "Hyperion" in Louisiana, roughly the size of Manhattan, and "Prometheus" in Ohio. He has said AI will "dramatically change how Meta employees work in 2026."
 
-The pattern holds. From ZuckNet replacing shouting in a dental office, to Facebook replacing the messy reality of in-person social life, to the metaverse replacing physical presence entirely, to AI replacing the need for human content creation — every system he builds removes one more layer of human friction. One more variable the mind can't predict or control.
+The pattern holds. From ZuckNet replacing shouting in a dental office, to Facebook replacing the messy reality of in-person social life, to the metaverse replacing physical presence entirely, to AI replacing the need for human content creation. Every system he builds removes one more layer of human friction. One more variable the mind can't predict or control.
 
-He gave an employee a copy of _The Elements of Style_ — a grammar book — for Hanukkah. He would yell at people for saying "users" instead of personalizing. He was obsessive about capitalizing the "F" in Facebook. Language is a system. The system must be precise.
+He gave an employee a copy of _The Elements of Style_, a grammar book, for Hanukkah. He would yell at people for saying "users" instead of personalizing. He was obsessive about capitalizing the "F" in Facebook. Language is a system. The system must be precise.
 
-His annual personal challenges tell the same story in miniature. Wear a tie every day. Learn Mandarin. Only eat what you kill. Code every day. Meet a new person every day. Write a thank-you note every day. Read a book every two weeks. Build a home AI assistant. Visit every state. Each one is the same move — taking a domain of human experience and converting it into a structured protocol with measurable outcomes. Connection, gratitude, nutrition, fitness, learning — all submitted to the system.
+His annual personal challenges tell the same story in miniature. Wear a tie every day. Learn Mandarin. Only eat what you kill. Code every day. Meet a new person every day. Write a thank-you note every day. Read a book every two weeks. Build a home AI assistant. Visit every state. Each one is the same move: taking a domain of human experience and converting it into a structured protocol with measurable outcomes. Connection, gratitude, nutrition, fitness, learning, all submitted to the system.
 
 In 2020, he ended the tradition. Said he wanted "longer-term focus." Even the system for generating systems had outlived its utility.
 
@@ -305,7 +305,7 @@ In 2020, he ended the tradition. Said he wanted "longer-term focus." Even the sy
 
 ## Pathei Mathos
 
-In 2017, standing before Harvard's graduating class — the university he'd dropped out of thirteen years earlier — Zuckerberg delivered the most emotionally revealing speech of his life. He talked about purpose. About inequality. About the moral weight of building something that touches billions of lives. "There is something wrong with our system," he said, "when I can leave here and make billions of dollars in 10 years while millions of students can't afford to pay off their loans, let alone start a business."
+In 2017, standing before Harvard's graduating class, the university he'd dropped out of thirteen years earlier, Zuckerberg delivered the most emotionally revealing speech of his life. He talked about purpose. About inequality. About the moral weight of building something that touches billions of lives. "There is something wrong with our system," he said, "when I can leave here and make billions of dollars in 10 years while millions of students can't afford to pay off their loans, let alone start a business."
 
 Then he told the story of an undocumented student he'd been mentoring. A kid who wasn't sure the only country he'd ever known would let him go to college. Zuckerberg started to cry. Not a controlled tear. Not a performance. The man who preemptively blamed a scratched cornea when his eyes got red at an all-hands meeting — that man stood in front of 32,000 people and wept because a kid might not get to go to school.
 
@@ -313,7 +313,7 @@ That's the crack in the fortress. Not power. Not ambition. Not even the three bi
 
 Eight years later, he wore "learning through suffering" on his chest and told the world he was done being sorry. He'd spent a decade absorbing the public's anger, congressional grandstanding, whistleblower revelations, and the relentless dehumanization of meme culture. Somewhere in that decade, the idealist from the Harvard commencement stage became the man who told Joe Rogan that the "cultural elite class needs to be repopulated with people who actually tell the truth."
 
-He's still building systems. The AI infrastructure he's constructing will dwarf anything Facebook ever was. The scale is incomprehensible — facilities the size of cities, power demands that rival small nations. And at the center, the same kid from Dobbs Ferry who looked at a dental office where people were shouting and thought: _I can fix that. I can build something that removes the noise._
+He's still building systems. The AI infrastructure he's constructing will dwarf anything Facebook ever was. The scale is incomprehensible: facilities the size of cities, power demands that rival small nations. And at the center, the same kid from Dobbs Ferry who looked at a dental office where people were shouting and thought: _I can fix that. I can build something that removes the noise._
 
 The noise never stopped. It just got louder. And the fortress keeps expanding — higher walls, deeper moats, more elegant architecture. At some point you have to wonder whether he's building toward something, or whether the building itself is the only place his mind is quiet.
 

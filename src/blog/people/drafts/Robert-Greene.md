@@ -1,8 +1,8 @@
 ---
 title: 'Robert Greene: The Man Who Read Everyone Except His Father'
-meta_title: "Inside Robert Greene's Mind: The Fear That Wrote the 48 Laws of Power"
+meta_title: "The Fear Behind Robert Greene's Obsession With Power"
 persona_title: "Power's Cold Cartographer"
-description: 'Robert Greene taught millions to read people. He never saw that his own father spent forty years hiding a secret dream.'
+description: 'Robert Greene taught millions to decode power and human nature, while missing the private paternal wound that shaped his obsession with both.'
 author: 'DJ Wayne'
 date: '2025-04-10'
 loc: 'https://9takes.com/personality-analysis/Robert-Greene'

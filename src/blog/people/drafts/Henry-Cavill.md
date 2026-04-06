@@ -1,7 +1,7 @@
 ---
 title: "Henry Cavill: The Man Who Almost Missed Superman Because He Wouldn't Abandon His Team"
-meta_title: "Henry Cavill's Personality: Why Superman Is Actually a Type 2 Helper"
-description: "Henry Cavill ignored Zack Snyder's call about Superman because his WoW teammates needed him. That moment explains everything about his Type 2 Helper personality."
+meta_title: "Why Henry Cavill's Loyalty Matters More Than Fame"
+description: "Henry Cavill ignored Zack Snyder's Superman call because his WoW teammates needed him. That one choice explains the helper pattern underneath the cape."
 persona_title: 'Superman Who Chose His Raid Party'
 author: 'DJ Wayne'
 date: '2025-03-26'

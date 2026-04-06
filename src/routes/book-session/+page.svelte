@@ -250,37 +250,56 @@
 	<div class="page-container">
 		<section class="hero-grid" id="top" aria-labelledby="book-session-title">
 			<div class="hero-copy">
-				<div class="section-eyebrow">1-on-1 coaching waitlist</div>
-				<h1 id="book-session-title" class="hero-title">
-					Join the waitlist for <span class="nowrap">1-on-1</span> Enneagram coaching.
-				</h1>
-				<p class="hero-lede">
-					Bring a relationship problem, work dynamic, or blind spot you keep circling. I will use
-					the same pattern-recognition lens behind 200+ published 9takes pieces to help you see what
-					you are missing and what to do next.
-				</p>
-
-				<div class="hero-truth">
-					<div class="truth-kicker">What this page is</div>
-					<p>
-						This is a waitlist, not a booking calendar. No payment today. Waitlist members get first
-						access when sessions open.
+				<div class="hero-intro">
+					<div class="section-eyebrow">1-on-1 coaching waitlist</div>
+					<h1 id="book-session-title" class="hero-title">
+						Join the waitlist for <span class="nowrap">1-on-1</span> Enneagram coaching.
+					</h1>
+					<p class="hero-lede">
+						Bring a relationship problem, work dynamic, or blind spot you keep circling. I will use
+						the same pattern-recognition lens behind 200+ published 9takes pieces to help you see
+						what you are missing and what to do next.
 					</p>
 				</div>
 
-				<div class="hero-list">
-					<div class="list-title">Good reasons to join</div>
-					<ul>
-						{#each fitChecks as item}
-							<li>{item}</li>
-						{/each}
-					</ul>
+				<div class="hero-highlights">
+					<div class="hero-truth">
+						<div class="truth-kicker">What this page is</div>
+						<p>
+							This is a waitlist, not a booking calendar. No payment today. Waitlist members get
+							first access when sessions open.
+						</p>
+					</div>
+
+					<div class="hero-mini-proof">
+						<span>Why trust the lens?</span>
+						95 published Enneagram articles. 80+ personality analyses. You can read the work before you
+						ever decide this is for you.
+					</div>
 				</div>
 
-				<div class="hero-mini-proof">
-					<span>Why trust the lens?</span>
-					95 published Enneagram articles. 80+ personality analyses. You can read the work before you
-					ever decide this is for you.
+				<div class="hero-details">
+					<div class="hero-list">
+						<div class="list-title">Good reasons to join</div>
+						<ul>
+							{#each fitChecks as item}
+								<li>{item}</li>
+							{/each}
+						</ul>
+					</div>
+
+					<div class="hero-context-card">
+						<div class="context-kicker">Best when you have a live issue</div>
+						<p>
+							This works best when you are dealing with an actual relationship loop, work dynamic,
+							or decision point with tension in it.
+						</p>
+						<div class="hero-chip-row" aria-label="Common coaching topics">
+							{#each focusAreas as area}
+								<span class="hero-chip">{area.title}</span>
+							{/each}
+						</div>
+					</div>
 				</div>
 			</div>
 
@@ -436,7 +455,7 @@
 		</section>
 
 		<section class="signal-strip" aria-label="Read first">
-			<div>
+			<div class="signal-intro">
 				<div class="section-eyebrow">Proof first</div>
 				<h2>Want proof before people stories exist? Start with the work.</h2>
 				<p>
@@ -455,37 +474,40 @@
 		</section>
 
 		<section class="proof-section" id="proof" aria-labelledby="proof-title">
-			<div class="proof-copy">
-				<div class="section-eyebrow">Credibility</div>
-				<h2 id="proof-title">No testimonials yet. So here is the honest proof.</h2>
-				<p>
-					9takes already publishes the kind of pattern-recognition I would bring into a session:
-					long-form Enneagram writing, practical guides, and personality analysis built to explain
-					motive without flattening people into stereotypes.
-				</p>
-				<p>
-					The cleanest trust signal I can offer right now is not "trust me." It is: read the work,
-					see how I think, and decide if that is the kind of feedback you want on your situation.
-				</p>
-			</div>
-
-			<div class="founder-card">
-				<img
-					src="/brand/djface.webp"
-					alt="DJ Wayne"
-					class="founder-photo"
-					width="180"
-					height="180"
-					loading="lazy"
-					decoding="async"
-				/>
-				<div class="founder-copy">
-					<div class="founder-label">Built by DJ Wayne</div>
+			<div class="proof-layout">
+				<div class="proof-copy">
+					<div class="section-eyebrow">Credibility</div>
+					<h2 id="proof-title">No testimonials yet. So here is the honest proof.</h2>
 					<p>
-						9takes was created by DJ Wayne, a former USMC infantry Marine turned software
-						entrepreneur. The project applies the Enneagram to conflict, motive, relationships, and
-						public personalities with a practical bias: explain the pattern, then make it usable.
+						9takes already publishes the kind of pattern-recognition I would bring into a session:
+						long-form Enneagram writing, practical guides, and personality analysis built to explain
+						motive without flattening people into stereotypes.
 					</p>
+					<p>
+						The cleanest trust signal I can offer right now is not "trust me." It is: read the work,
+						see how I think, and decide if that is the kind of feedback you want on your situation.
+					</p>
+				</div>
+
+				<div class="founder-card">
+					<img
+						src="/brand/djface.webp"
+						alt="DJ Wayne"
+						class="founder-photo"
+						width="180"
+						height="180"
+						loading="lazy"
+						decoding="async"
+					/>
+					<div class="founder-copy">
+						<div class="founder-label">Built by DJ Wayne</div>
+						<p>
+							9takes was created by DJ Wayne, a former USMC infantry Marine turned software
+							entrepreneur. The project applies the Enneagram to conflict, motive, relationships,
+							and public personalities with a practical bias: explain the pattern, then make it
+							usable.
+						</p>
+					</div>
 				</div>
 			</div>
 
@@ -501,22 +523,24 @@
 		</section>
 
 		<section class="focus-section" aria-labelledby="focus-title">
-			<div class="section-heading">
-				<div class="section-eyebrow">Use cases</div>
-				<h2 id="focus-title">What this is good for</h2>
-				<p>
-					The strongest fit is a real situation with friction in it, not a vague wish to "work on
-					yourself."
-				</p>
-			</div>
+			<div class="section-layout">
+				<div class="section-heading">
+					<div class="section-eyebrow">Use cases</div>
+					<h2 id="focus-title">What this is good for</h2>
+					<p>
+						The strongest fit is a real situation with friction in it, not a vague wish to "work on
+						yourself."
+					</p>
+				</div>
 
-			<div class="card-grid card-grid-3">
-				{#each focusAreas as area}
-					<div class="content-card">
-						<h3>{area.title}</h3>
-						<p>{area.description}</p>
-					</div>
-				{/each}
+				<div class="card-grid card-grid-3 focus-grid">
+					{#each focusAreas as area}
+						<div class="content-card">
+							<h3>{area.title}</h3>
+							<p>{area.description}</p>
+						</div>
+					{/each}
+				</div>
 			</div>
 		</section>
 
@@ -634,9 +658,9 @@
 	}
 
 	.page-container {
-		max-width: 80rem;
+		max-width: 92rem;
 		margin: 0 auto;
-		padding: 2rem 1.25rem 5rem;
+		padding: 2.25rem 1.25rem 5rem;
 	}
 
 	/* ── Shared ── */
@@ -683,10 +707,31 @@
 		display: grid;
 		gap: 2rem;
 		margin-bottom: 1rem;
+		padding: clamp(1.5rem, 3vw, 2.5rem);
+		border: 1px solid color-mix(in srgb, var(--text-tertiary) 12%, transparent);
+		border-radius: 1.75rem;
+		background:
+			radial-gradient(
+				circle at top left,
+				color-mix(in srgb, var(--primary) 10%, transparent) 0%,
+				transparent 34%
+			),
+			linear-gradient(
+				135deg,
+				color-mix(in srgb, var(--bg-surface) 92%, transparent) 0%,
+				color-mix(in srgb, var(--bg-elevated) 86%, transparent) 100%
+			);
+		box-shadow: var(--shadow-lg);
 	}
 
 	.hero-copy {
+		display: grid;
+		gap: 1.5rem;
 		padding: 0;
+	}
+
+	.hero-intro {
+		max-width: 48rem;
 	}
 
 	.hero-title {
@@ -712,9 +757,15 @@
 
 	.hero-truth,
 	.hero-mini-proof {
-		margin-bottom: 2rem;
 		border-radius: 0.875rem;
 		padding: 1.25rem 1.5rem;
+	}
+
+	.hero-highlights,
+	.hero-details {
+		display: grid;
+		gap: 1rem;
+		align-items: start;
 	}
 
 	.hero-truth {
@@ -743,7 +794,10 @@
 	}
 
 	.hero-list {
-		margin-bottom: 2.25rem;
+		border-radius: 1rem;
+		border: 1px solid color-mix(in srgb, var(--text-tertiary) 10%, transparent);
+		background: color-mix(in srgb, var(--bg-elevated) 42%, transparent);
+		padding: 1.35rem 1.4rem;
 	}
 
 	.list-title {
@@ -792,11 +846,61 @@
 		color: var(--text-primary);
 	}
 
+	.hero-context-card {
+		display: grid;
+		gap: 1rem;
+		border-radius: 1rem;
+		border: 1px solid color-mix(in srgb, var(--text-tertiary) 10%, transparent);
+		background: linear-gradient(
+			145deg,
+			color-mix(in srgb, var(--primary) 6%, transparent) 0%,
+			color-mix(in srgb, var(--bg-surface) 96%, transparent) 100%
+		);
+		padding: 1.35rem 1.4rem;
+	}
+
+	.context-kicker {
+		font-size: 0.76rem;
+		font-weight: 800;
+		letter-spacing: 0.14em;
+		text-transform: uppercase;
+		color: var(--primary);
+	}
+
+	.hero-context-card p {
+		margin: 0;
+		line-height: 1.65;
+		color: var(--text-secondary);
+	}
+
+	.hero-chip-row {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 0.65rem;
+	}
+
+	.hero-chip {
+		display: inline-flex;
+		align-items: center;
+		border-radius: 999px;
+		border: 1px solid color-mix(in srgb, var(--primary) 14%, transparent);
+		background: color-mix(in srgb, var(--bg-base) 58%, transparent);
+		padding: 0.5rem 0.8rem;
+		font-size: 0.84rem;
+		font-weight: 600;
+		color: var(--text-primary);
+	}
+
 	/* ── Waitlist panel ── */
 
 	.waitlist-panel {
 		padding: 2rem 1.75rem;
 		align-self: start;
+		background: linear-gradient(
+			180deg,
+			color-mix(in srgb, var(--bg-surface) 96%, transparent) 0%,
+			color-mix(in srgb, var(--bg-elevated) 88%, transparent) 100%
+		);
 	}
 
 	.panel-topline {
@@ -1035,12 +1139,16 @@
 
 	.signal-strip {
 		display: grid;
-		gap: 2rem;
+		gap: 1.5rem;
+	}
+
+	.signal-intro {
+		max-width: 48rem;
 	}
 
 	.signal-links {
 		display: grid;
-		gap: 0.75rem;
+		gap: 0.85rem;
 	}
 
 	.signal-link {
@@ -1081,9 +1189,16 @@
 		gap: 2rem;
 	}
 
+	.proof-layout {
+		display: grid;
+		gap: 1.5rem;
+		align-items: start;
+	}
+
 	.proof-copy {
 		display: grid;
 		gap: 0.5rem;
+		max-width: 46rem;
 	}
 
 	.founder-card {
@@ -1170,6 +1285,19 @@
 		margin-bottom: 1.5rem;
 	}
 
+	.section-layout {
+		display: grid;
+		gap: 1.75rem;
+	}
+
+	.focus-grid .content-card:nth-child(2n) {
+		background: linear-gradient(
+			145deg,
+			color-mix(in srgb, var(--primary) 4%, transparent) 0%,
+			color-mix(in srgb, var(--bg-elevated) 52%, transparent) 100%
+		);
+	}
+
 	.content-card h3 {
 		margin: 0 0 0.5rem;
 		font-size: 1.08rem;
@@ -1223,7 +1351,12 @@
 
 	@media (min-width: 640px) {
 		.page-container {
-			padding: 3rem 2.5rem 5rem;
+			padding: 3rem 2rem 5rem;
+		}
+
+		.hero-highlights,
+		.hero-details {
+			grid-template-columns: repeat(2, minmax(0, 1fr));
 		}
 
 		.signal-strip,
@@ -1248,6 +1381,15 @@
 			grid-template-columns: repeat(2, minmax(0, 1fr));
 		}
 
+		.signal-links {
+			grid-template-columns: repeat(3, minmax(0, 1fr));
+		}
+
+		.hero-list ul {
+			grid-template-columns: repeat(2, minmax(0, 1fr));
+			column-gap: 1.25rem;
+		}
+
 		.founder-card {
 			grid-template-columns: auto minmax(0, 1fr);
 		}
@@ -1270,8 +1412,8 @@
 		}
 
 		.hero-grid {
-			grid-template-columns: minmax(0, 1fr) 26rem;
-			gap: 3.5rem;
+			grid-template-columns: minmax(0, 1.2fr) minmax(22rem, 29rem);
+			gap: 4rem;
 			align-items: start;
 			margin-bottom: 1.5rem;
 		}
@@ -1301,7 +1443,6 @@
 			padding: 3rem;
 		}
 
-		.signal-strip,
 		.final-cta {
 			grid-template-columns: minmax(0, 1.15fr) minmax(0, 0.85fr);
 			align-items: center;
@@ -1324,8 +1465,19 @@
 			margin-bottom: 2rem;
 		}
 
+		.section-layout {
+			grid-template-columns: minmax(0, 0.72fr) minmax(0, 1.28fr);
+			gap: 2.5rem;
+			align-items: start;
+		}
+
 		.proof-section {
 			gap: 2.5rem;
+		}
+
+		.proof-layout {
+			grid-template-columns: minmax(0, 1.15fr) minmax(18rem, 0.85fr);
+			gap: 2rem;
 		}
 
 		.founder-card {

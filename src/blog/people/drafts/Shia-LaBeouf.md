@@ -1,8 +1,8 @@
 ---
 title: "Shia LaBeouf: The Clown's Son Who Never Took Off the Makeup"
-meta_title: "Why Shia LaBeouf's Apologies Are Always Louder Than His Crimes"
+meta_title: "Why Shia LaBeouf's Apologies Never End the Cycle"
 persona_title: "Hollywood's Confessing Arsonist"
-description: 'How a boy in clown makeup selling hot dogs at age 3 became the most sincere — and destructive — force in Hollywood.'
+description: 'Shia LaBeouf went from clown makeup and child hustle to radical confession, destruction, and apology cycles that never fully outrun the damage.'
 author: 'DJ Wayne'
 date: '2025-03-24'
 loc: 'https://9takes.com/personality-analysis/Shia-LaBeouf'

@@ -1,7 +1,7 @@
 ---
-title: 'Martin Luther King Jr.: The Enneagram Type 8 Psychology Behind His Moral Courage'
+title: 'Martin Luther King Jr.: The Protector Who Turned Fury Into Discipline'
 meta_title: "Inside MLK's Mind: The Hidden Cost of Never Backing Down"
-description: 'How MLK embodied Type 8 traits - from childhood defiance to leading a movement. The psychology behind his moral courage and the toll it took.'
+description: "Martin Luther King Jr. turned righteous anger, disciplined confrontation, and a protector's instinct into a movement that consumed his body."
 persona_title: 'The Pastor Who Weaponized Love'
 author: 'DJ Wayne'
 date: '2023-03-09'

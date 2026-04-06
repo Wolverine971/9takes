@@ -38,9 +38,9 @@ He went. His sister couldn't stay in the room, but Newsom stayed. He watched his
 
 "I hated her for it — to be there for the last breath — for years," he would say, two decades later. "I want to say it was a beautiful experience. It was horrible."
 
-Here is what's strange about Gavin Newsom: he sat with his dying mother's body in the most unperformable moment of his life, and then he spent the next twenty years becoming the most performance-oriented politician in America. The hair. The suits. The polished line for every camera. A man who built an entire career on projecting exactly the right image at exactly the right time — and who, underneath it all, carries a wound that no amount of image management can touch.
+Here is what's strange about Gavin Newsom: he sat with his dying mother's body in the most unperformable moment of his life, and then he spent the next twenty years becoming the most performance-oriented politician in America. The hair. The suits. The polished line for every camera. A man who built an entire career on projecting exactly the right image at exactly the right time, yet underneath it all, he carries a wound that no amount of image management can touch.
 
-That gap — between the man on camera and the boy in the room with his dead mother — is where the real Gavin Newsom lives.
+That gap between the man on camera and the boy in the room with his dead mother is where the real Gavin Newsom lives.
 
 ---
 
@@ -48,7 +48,7 @@ That gap — between the man on camera and the boy in the room with his dead mot
 
 Gavin Newsom was diagnosed with dyslexia at five years old. His mother kept the diagnosis from him. She didn't want him to use it as a crutch.
 
-In fifth grade, he found the papers. A stash in his mother's office — reports on his "dismal academic performance" and something called dyslexia. Finally, a name for the thing that had been wrong with him since he could remember.
+In fifth grade, he found the papers. A stash in his mother's office, reports on his "dismal academic performance" and something called dyslexia. Finally, a name for the thing that had been wrong with him since he could remember.
 
 "The grades were bad, my self-esteem started to collapse, and I remember faking being sick all the time to avoid math class, which I just couldn't handle."
 
@@ -64,7 +64,7 @@ She meant it as comfort. He heard it as a verdict. And he spent the next four de
 
 ## Two Worlds, One Boy
 
-His parents divorced when he was five. His mother, Tessa, worked three jobs — waitress, bookkeeper, secretary — and took in foster children to make ends meet. His father, William Newsom III, was a judge and the personal attorney for the Getty family, managing a trust estimated at over $2 billion.
+His parents divorced when he was five. His mother, Tessa, worked three jobs (waitress, bookkeeper, secretary) and took in foster children to make ends meet. His father, William Newsom III, was a judge and the personal attorney for the Getty family, managing a trust estimated at over $2 billion.
 
 <p class="inner-thought">Which world am I? The apartment where Mom counts pennies or the private jet where they fly to see polar bears?</p>
 
@@ -74,13 +74,13 @@ The boy shuttled between both. On one side: his mother's apartment, grit, financ
 
 His mother saw the danger. She "did not want that world for me: The shrewd marriages of tall husbands and tall wives… the gritted teeth behind the social smiles."
 
-But his father was already pulling him into it. William Newsom had delivered ransom money for the kidnapping of John Paul Getty III. He was the family's consigliere. And Gordon Getty would later describe treating young Gavin "like a son" — investing in his first business because of that fatherly bond.
+But his father was already pulling him into it. William Newsom had delivered ransom money for the kidnapping of John Paul Getty III. He was the family's consigliere. And Gordon Getty would later describe treating young Gavin "like a son," investing in his first business because of that fatherly bond.
 
 The boy who couldn't read learned something else entirely: how to navigate rooms where the currency wasn't words on a page but presence, charm, and the ability to make powerful people feel seen. The dyslexia that shut one door kicked open another.
 
 "Because of overcompensation and the things you learn because you're struggling, I have remarkable retention."
 
-He started underlining everything he read — newspapers became textbooks. He never read a novel. To this day, he devours nonfiction through summaries and audio, processing information through every channel except the one that betrayed him. He turned a disability into a different kind of literacy: reading people instead of pages.
+He started underlining everything he read. Newspapers became textbooks. He never read a novel. To this day, he devours nonfiction through summaries and audio, processing information through every channel except the one that betrayed him. He turned a disability into a different kind of literacy: reading people instead of pages.
 
 ---
 
@@ -88,10 +88,10 @@ He started underlining everything he read — newspapers became textbooks. He ne
 <summary class="accordion">TL;DR: Why Gavin Newsom is an Enneagram Type 3</summary>
 <div class="panel">
 <ul>
-<li><b>The Achievement Equation:</b> A dyslexic boy whose mother told him it was OK to be average turned that message into rocket fuel — building 23 businesses, winning elections, and governing the largest state in the country.</li>
-<li><b>The Announcement Machine:</b> Champions "Big Hairy Audacious Goals" — from banning gas cars to ending homelessness — but the follow-through gap reveals how a Three's need for the next achievement outpaces the last one.</li>
-<li><b>The Everyman Elitist:</b> Straddles his mother's three-job hustle and his father's Getty billions — genuinely believes he fights for ordinary people while dining at the French Laundry.</li>
-<li><b>The Mask Problem:</b> When stress hits, the mask slips — the affair with his best friend's wife, the COVID hypocrisy, the alcohol. But the recall survival and the marriage to Jennifer Siebel Newsom suggest the repair work is real, even if it's never fully separate from the performance.</li>
+<li><b>The Achievement Equation:</b> A dyslexic boy whose mother told him it was OK to be average turned that message into rocket fuel, building 23 businesses, winning elections, and governing the largest state in the country.</li>
+<li><b>The Announcement Machine:</b> Champions "Big Hairy Audacious Goals" (from banning gas cars to ending homelessness) but the follow-through gap reveals how a Three's need for the next achievement outpaces the last one.</li>
+<li><b>The Everyman Elitist:</b> Straddles his mother's three-job hustle and his father's Getty billions, and genuinely believes he fights for ordinary people while dining at the French Laundry.</li>
+<li><b>The Mask Problem:</b> When stress hits, the mask slips: the affair with his best friend's wife, the COVID hypocrisy, the alcohol. But the recall survival and the marriage to Jennifer Siebel Newsom suggest the repair work is real, even if it's never fully separate from the performance.</li>
 </ul>
 </div>
 </details>
@@ -100,15 +100,15 @@ He started underlining everything he read — newspapers became textbooks. He ne
 
 ### Gavin Newsom is an Enneagram Type 3
 
-Enneagram Threes are called "The Achiever" for a reason, but the name undersells the pattern. Achievement isn't the goal — it's the survival mechanism. Threes learn early that love comes through performance. Without accomplishment, they feel invisible. The core wound sits in the heart center: _Without my achievements, I'm nothing._
+Enneagram Threes are called "The Achiever" for a reason, but the name undersells the pattern. Achievement isn't the goal. It's the survival mechanism. Threes learn early that love comes through performance. Without accomplishment, they feel invisible. The core wound sits in the heart center: _Without my achievements, I'm nothing._
 
-Newsom's version of this wound formed in a specific crucible. His father — an intellectual who "spent almost all his solitary hours reading" — passed on a "prized collection of novels, short stories, memoirs, tomes of history and poetry" to a son who couldn't read them. On the night Newsom was elected Governor of California, a caretaker encouraged William Newsom to give his son some love. His father didn't.
+Newsom's version of this wound formed in a specific crucible. His father, an intellectual who "spent almost all his solitary hours reading," passed on a "prized collection of novels, short stories, memoirs, tomes of history and poetry" to a son who couldn't read them. On the night Newsom was elected Governor of California, a caretaker encouraged William Newsom to give his son some love. His father didn't.
 
-That detail cracks open the whole pattern. A man who has spent his entire life performing excellence — building 23 businesses by age 35, becoming the youngest San Francisco mayor in over a century, issuing 4,000 same-sex marriage licenses when the country opposed it — and the person whose approval he most wanted never gave it.
+That detail cracks open the whole pattern. A man who has spent his entire life performing excellence (building 23 businesses by age 35, becoming the youngest San Francisco mayor in over a century, issuing 4,000 same-sex marriage licenses when the country opposed it) and the person whose approval he most wanted never gave it.
 
 Here is what the Enneagram illuminates that biography alone cannot: Newsom is not driven by ideology. He's not driven by power. He's driven by the need to prove that the boy in the shack behind the school is worth something. Every business launched, every bold political gambit, every camera-ready appearance is another piece of evidence in a case he's been building his whole life. The jury is a father who died without delivering a verdict.
 
-**The 3w2 pattern** — Achiever with a Helper wing — explains why Newsom's ambition always flows through people. Gordon Getty invested in PlumpJack because Newsom made him feel like a father. Newsom wins rooms the way 3w2s always win rooms: remembering names, making everyone feel seen, building coalitions. The warmth is real. The charm is genuine. And it's also strategic.
+**The 3w2 pattern** (Achiever with a Helper wing) explains why Newsom's ambition always flows through people. Gordon Getty invested in PlumpJack because Newsom made him feel like a father. Newsom wins rooms the way 3w2s always win rooms: remembering names, making everyone feel seen, building coalitions. The warmth is real. The charm is genuine. And it's also strategic.
 
 **The Social subtype** explains the image obsession. Social Threes are the most competitive, most prestige-oriented expression of the type. They "know how to climb and present themselves as successful." Their presentation shifts to match each group. His first marriage to Kimberly Guilfoyle was called "the social event of the year." Harper's Bazaar shot them in the Getty mansion and labeled them "the new Kennedys."
 
@@ -127,13 +127,13 @@ Here is what the Enneagram illuminates that biography alone cannot: Newsom is no
 
 ## PlumpJack and the Art of Becoming
 
-At 24, with Getty's backing, Newsom opened a wine shop in San Francisco's Fillmore District. By 2000, the PlumpJack Group had expanded to 23 businesses — wineries, restaurants, hotels, a retail clothing line.
+At 24, with Getty's backing, Newsom opened a wine shop in San Francisco's Fillmore District. By 2000, the PlumpJack Group had expanded to 23 businesses: wineries, restaurants, hotels, a retail clothing line.
 
 "You're damn right I'm proud of them. I worked my tail off."
 
 When critics suggested his success was handed to him through Getty connections, he bristled: "It's just, it's such nonsense." Then, after a pause: "Yeah, perhaps, I'm sure that relationships matter."
 
-Denial, then concession, then a pivot to self-deprecating charm — textbook Social Three. The image is never "born on third base." When he became mayor in 2004, he sold his shares. The businessman became the politician. Another stage, another adaptation.
+Denial, then concession, then a pivot to self-deprecating charm. Textbook Social Three. The image is never "born on third base." When he became mayor in 2004, he sold his shares. The businessman became the politician. Another stage, another adaptation.
 
 <div class="timeline">
 <div class="timeline__item">
@@ -146,7 +146,7 @@ Denial, then concession, then a pivot to self-deprecating charm — textbook Soc
 </div>
 <div class="timeline__item timeline__item--key">
 <span class="timeline__year">2004</span>
-<span class="timeline__event">Becomes youngest SF mayor in a century — issues 4,000+ same-sex marriage licenses</span>
+<span class="timeline__event">Becomes youngest SF mayor in a century, issues 4,000+ same-sex marriage licenses</span>
 </div>
 <div class="timeline__item">
 <span class="timeline__year">2007</span>
@@ -162,7 +162,7 @@ Denial, then concession, then a pivot to self-deprecating charm — textbook Soc
 </div>
 <div class="timeline__item">
 <span class="timeline__year">2021</span>
-<span class="timeline__event">Survives recall with 62% — reframes it as a referendum on Trump</span>
+<span class="timeline__event">Survives recall with 62%, reframes it as a referendum on Trump</span>
 </div>
 <div class="timeline__item">
 <span class="timeline__year">2023</span>
@@ -180,17 +180,17 @@ On February 12, 2004, San Francisco Mayor Gavin Newsom directed the county clerk
 
 Everyone told him not to do it.
 
-Senator Dianne Feinstein: "Too much, too fast, too soon." Congressman Barney Frank — an openly gay Democrat — opposed the move. Newsom's own inner circle warned that his political career could be destroyed.
+Senator Dianne Feinstein: "Too much, too fast, too soon." Congressman Barney Frank, an openly gay Democrat, opposed the move. Newsom's own inner circle warned that his political career could be destroyed.
 
 He did it anyway. Over the next month, more than 4,000 couples married at San Francisco City Hall in what became known as the "Winter of Love."
 
 The fallout was severe. Democratic leaders blamed Newsom for anti-marriage-equality amendments that passed in 11 states that November. They blamed him for John Kerry's loss in the presidential election. He became, briefly, a cautionary tale about going too far, too fast.
 
-But the images — thousands of joyful couples streaming through City Hall — humanized the issue in a way no political argument ever could. The legal chain reaction eventually led to the California Supreme Court legalizing same-sex marriage in 2008 and the U.S. Supreme Court doing the same in 2015.
+But the images, thousands of joyful couples streaming through City Hall, humanized the issue in a way no political argument ever could. The legal chain reaction eventually led to the California Supreme Court legalizing same-sex marriage in 2008 and the U.S. Supreme Court doing the same in 2015.
 
-This is the moment that complicates any easy read of Newsom. Enneagram Threes are supposed to be image-conscious calculators. They're supposed to calibrate every move for maximum approval. Here, Newsom did the opposite — he took a position that a Social Three should instinctively avoid, because it guaranteed disapproval from the very people whose approval he needed.
+This is the moment that complicates any easy read of Newsom. Enneagram Threes are supposed to be image-conscious calculators. They're supposed to calibrate every move for maximum approval. Here, Newsom did the opposite. He took a position that a Social Three should instinctively avoid, because it guaranteed disapproval from the very people whose approval he needed.
 
-The Enneagram's integration arrow points from Type 3 toward Type 6 — and healthy Sixes are defined by principled courage, loyalty to values over image. The Winter of Love is Newsom at his most integrated: the achiever who stopped calculating and acted from conviction. It's the strongest evidence that there's more underneath the performance than performance.
+The Enneagram's integration arrow points from Type 3 toward Type 6, and healthy Sixes are defined by principled courage, loyalty to values over image. The Winter of Love is Newsom at his most integrated: the achiever who stopped calculating and acted from conviction. It's the strongest evidence that there's more underneath the performance than performance.
 
 ---
 
@@ -200,17 +200,17 @@ Newsom loves the phrase. It comes from the business book _Built to Last_, and he
 
 The phrase is also the key to understanding how a Type 3 governs.
 
-He pledged 3.5 million new housing units by 2025 — which would have required doubling the state's peak production. He proposed single-payer healthcare. He promised a constitutional amendment on gun control. He signed an executive order banning the sale of new gas-powered cars by 2035, the first governor in America to do so. He signed nearly 70 gun safety bills. He became the first governor to issue a statewide stay-at-home order during COVID — for 40 million people.
+He pledged 3.5 million new housing units by 2025, which would have required doubling the state's peak production. He proposed single-payer healthcare. He promised a constitutional amendment on gun control. He signed an executive order banning the sale of new gas-powered cars by 2035, the first governor in America to do so. He signed nearly 70 gun safety bills. He became the first governor to issue a statewide stay-at-home order during COVID, for 40 million people.
 
 The announcements were spectacular. The follow-through was more complicated.
 
-A CapRadio/NPR investigation found Newsom overstated by 690% the number of acres treated with wildfire prevention — claiming 90,000 acres when the state's own data showed 11,399. His 28th Amendment for gun control stalled after a year with no other states joining. The housing goal quietly disappeared. CalMatters noted he had been "edging away from 'big hairy audacious goals' one by one when they proved impossible to achieve in the real world."
+A CapRadio/NPR investigation found Newsom overstated by 690% the number of acres treated with wildfire prevention, claiming 90,000 acres when the state's own data showed 11,399. His 28th Amendment for gun control stalled after a year with no other states joining. The housing goal quietly disappeared. CalMatters noted he had been "edging away from 'big hairy audacious goals' one by one when they proved impossible to achieve in the real world."
 
 Homelessness became the sharpest example. Over six years, California spent approximately $24 billion on homelessness programs. A state auditor concluded the governor's Interagency Council on Homelessness was "failing to fully track how billions of dollars were spent or determining which programs were effective." Of five major programs analyzed, only two were found "likely cost-effective." Meanwhile, 187,000 Californians remained on the streets.
 
 Even allies conceded the pattern. One said: "He's more of a big picture guy. I never, ever got a sense from Gavin about details." Political scientist Corey Cook, a long-time Newsom observer, described his leadership approach: "Here's what I need to do, you guys work out the deal. Off to the next big idea."
 
-This is what a Three's achievement drive looks like when it meets the grinding machinery of governance. The announcement _is_ the achievement. The press conference _is_ the accomplishment. The next bold move always beckons before the last one is finished — because for a Three, standing still long enough to be measured against your own promises is the most dangerous position of all. Better to have already moved on to the next stage.
+This is what a Three's achievement drive looks like when it meets the grinding machinery of governance. The announcement _is_ the achievement. The press conference _is_ the accomplishment. The next bold move always beckons before the last one is finished, because for a Three, standing still long enough to be measured against your own promises is the most dangerous position of all. Better to have already moved on to the next stage.
 
 A former San Francisco supervisor put it less charitably: Newsom's habit of "regurgitating irrelevant statistics" and business-school lingo was a tool to "obfuscate" when politically useful.
 
@@ -218,31 +218,31 @@ A former San Francisco supervisor put it less charitably: Newsom's habit of "reg
 
 ## When the Mask Slipped
 
-In 2005, while his divorce from Kimberly Guilfoyle was underway, Newsom had an affair with Ruby Rippey-Tourk — his appointments secretary, and the wife of his deputy chief of staff and close friend Alex Tourk.
+In 2005, while his divorce from Kimberly Guilfoyle was underway, Newsom had an affair with Ruby Rippey-Tourk, his appointments secretary and the wife of his deputy chief of staff and close friend Alex Tourk.
 
 The affair came to light in 2007 when Tourk confronted Newsom and resigned. Newsom called a press conference.
 
 "Everything you've heard and read is true. And I am deeply sorry about that."
 
-He announced he would seek help for "problems with alcohol," though he later clarified he never went to rehab — just weekly sessions at Delancey Street Foundation for three years. He stopped drinking for two years. Then started again, moderately.
+He announced he would seek help for "problems with alcohol," though he later clarified he never went to rehab, just weekly sessions at Delancey Street Foundation for three years. He stopped drinking for two years. Then started again, moderately.
 
 "My problems with alcohol are not an excuse for my personal lapses in judgment."
 
-This is the [Type 3 stress pattern](/enneagram-corner/enneagram-types-in-stress) in high definition. Under pressure, Threes disintegrate toward the unhealthy patterns of [Type 9](/enneagram-corner/enneagram-type-9) — the drive evaporates into paralysis, the achiever becomes the avoider. The person who never stopped moving suddenly can't start. And the careful self-presentation gives way to exactly the kind of reckless behavior the presentation was designed to conceal.
+This is the [Type 3 stress pattern](/enneagram-corner/enneagram-types-in-stress) in high definition. Under pressure, Threes disintegrate toward the unhealthy patterns of [Type 9](/enneagram-corner/enneagram-type-9). The drive evaporates into paralysis, the achiever becomes the avoider. The person who never stopped moving suddenly can't start. And the careful self-presentation gives way to exactly the kind of reckless behavior the presentation was designed to conceal.
 
 The affair wasn't a random moral failure. It was the wound breaking through the surface.
 
-What happened next matters for understanding Newsom. In October 2006, he went on a blind date with Jennifer Siebel — a documentary filmmaker who'd premiered _Miss Representation_ at Sundance and co-founded The Representation Project. They married in 2008. Four children followed.
+What happened next matters for understanding Newsom. In October 2006, he went on a blind date with Jennifer Siebel, a documentary filmmaker who'd premiered _Miss Representation_ at Sundance and co-founded The Representation Project. They married in 2008. Four children followed.
 
-Newsom told W magazine: "She has a calmness, serenity and sense of decency that's beyond anything else." When she chose the title "First Partner" over "First Lady" — "to send a signal of inclusivity, recognizing that one day there will be a woman or LGBTQ+ Governor of California" — it was the kind of move that revealed they were building something together, not just another campaign image.
+Newsom told W magazine: "She has a calmness, serenity and sense of decency that's beyond anything else." When she chose the title "First Partner" over "First Lady," explaining it was "to send a signal of inclusivity, recognizing that one day there will be a woman or LGBTQ+ Governor of California," it was the kind of move that revealed they were building something together, not just another campaign image.
 
-In 2022, Jennifer testified that Harvey Weinstein had raped her seventeen years earlier. She gave tearful testimony that became the most widely covered of any accuser at the trial. Gavin was at the courthouse both days. He called her "brave" and said he was "so incredibly proud." Whatever the performance-driven man shows the cameras, the choice to build a life with someone who names things honestly — who makes documentaries about the masks men wear — suggests something underneath the polish is trying to be real.
+In 2022, Jennifer testified that Harvey Weinstein had raped her seventeen years earlier. She gave tearful testimony that became the most widely covered of any accuser at the trial. Gavin was at the courthouse both days. He called her "brave" and said he was "so incredibly proud." Whatever the performance-driven man shows the cameras, the choice to build a life with someone who names things honestly, who makes documentaries about the masks men wear, suggests something underneath the polish is trying to be real.
 
 The same stress pattern repeated thirteen years later.
 
 ### The French Laundry
 
-November 6, 2020. Governor Newsom had spent months telling Californians to stay home, wear masks, avoid gatherings. That night, he attended a birthday dinner at the French Laundry — one of the most exclusive restaurants in America — with a group larger than his own guidelines allowed, indoors, unmasked.
+November 6, 2020. Governor Newsom had spent months telling Californians to stay home, wear masks, avoid gatherings. That night, he attended a birthday dinner at the French Laundry, one of the most exclusive restaurants in America, with a group larger than his own guidelines allowed, indoors, unmasked.
 
 Photos leaked. The hypocrisy was instantaneous and devastating. It compounded an earlier one: while public schools in Sacramento County remained closed under his orders, Newsom had sent his own four children back to in-person learning at a private school.
 
@@ -252,25 +252,25 @@ The French Laundry incident isn't about COVID rules. It's about the fundamental 
 
 It triggered a recall campaign. 1.7 million Californians signed a petition to remove him from office.
 
-For a Type 3, a recall isn't just a political threat — it's an existential one. The audience is saying: _we reject your performance_. The crowd is booing. Every Three's nightmare.
+For a Type 3, a recall isn't just a political threat. It's an existential one. The audience is saying: _we reject your performance_. The crowd is booing. Every Three's nightmare.
 
-Newsom called the French Laundry dinner "personal stupidity" that "took a life of its own" and was "weaponized" by opponents. Then he did what Threes do when the image cracks: he built a better one. His team successfully dissuaded any high-profile Democrat from entering the replacement field. When conservative radio host Larry Elder emerged as the frontrunner, Newsom stopped defending his record and reframed the entire recall as a referendum on Trump — who was deeply unpopular in California.
+Newsom called the French Laundry dinner "personal stupidity" that "took a life of its own" and was "weaponized" by opponents. Then he did what Threes do when the image cracks: he built a better one. His team successfully dissuaded any high-profile Democrat from entering the replacement field. When conservative radio host Larry Elder emerged as the frontrunner, Newsom stopped defending his record and reframed the entire recall as a referendum on Trump, who was deeply unpopular in California.
 
 "We may have defeated Donald Trump, but we have not defeated Trumpism."
 
 He raised five times as much money as his opponents combined. He won 62% of the vote. The achievement machine roared back to life.
 
-His victory speech was pure Three — not a moment of humility, but a cascade of affirmations: "We said yes to science. We said yes to vaccines. We said yes to ending this pandemic." The man who'd been caught breaking his own rules stood at a podium and declared that the voters had validated everything he stood for. The stumble had been absorbed. The narrative had been rewritten. The performance continued.
+His victory speech was pure Three, not a moment of humility but a cascade of affirmations: "We said yes to science. We said yes to vaccines. We said yes to ending this pandemic." The man who'd been caught breaking his own rules stood at a podium and declared that the voters had validated everything he stood for. The stumble had been absorbed. The narrative had been rewritten. The performance continued.
 
 ---
 
 ## "Get Out Before It's Too Late"
 
-His mother said that to him — about politics. "Get out before it's too late." She believed he was trying to solve "the riddle" of his identity through business and politics. She was probably right.
+His mother said that to him about politics. "Get out before it's too late." She believed he was trying to solve "the riddle" of his identity through business and politics. She was probably right.
 
-"I think about it any time when things are really going down — that she was right."
+"I think about it any time when things are really going down, that she was right."
 
-In his 2026 memoir _Young Man in a Hurry_, and in a conversation with Anderson Cooper, Newsom opened up about his mother's death and the anger that followed — twenty years of unprocessed rage, the hatred he described, the years spent unable to reconcile what he witnessed with what he felt.
+In his 2026 memoir _Young Man in a Hurry_, and in a conversation with Anderson Cooper, Newsom opened up about his mother's death and the anger that followed. Twenty years of unprocessed rage, the hatred he described, the years spent unable to reconcile what he witnessed with what he felt.
 
 <div class="pull-quote">"Every day, I just try to get better and be a better husband, be a better father. I've got to take care of them, and I can't do what my father did."</div>
 
@@ -280,23 +280,23 @@ The achiever's deepest terror isn't failure. It's discovering that all the achie
 
 ## The Man Who Can't Stop Running
 
-Today, Newsom is in his final year as governor. He's launched a podcast. He's written a memoir. He's suing <a href="/personality-analysis/Donald-Trump">Donald Trump</a> on climate policy. And Trump, sensing a 2028 rival, has gone after the wound directly — telling reporters: "Gavin Newsom has admitted that he has learning disabilities, dyslexia. Honestly, I'm all for people with learning disabilities, but not for my president."
+Today, Newsom is in his final year as governor. He's launched a podcast. He's written a memoir. He's suing <a href="/personality-analysis/Donald-Trump">Donald Trump</a> on climate policy. And Trump, sensing a 2028 rival, has gone after the wound directly, telling reporters: "Gavin Newsom has admitted that he has learning disabilities, dyslexia. Honestly, I'm all for people with learning disabilities, but not for my president."
 
 The boy who was mocked for not being able to read is now being mocked by the President of the United States for not being able to read.
 
-Newsom's response was the classic Three move — take the vulnerability, polish it, present it as strength. He called his dyslexia "a superpower" on CNN: "I have the freedom of not having to be stuck on the written text, and the freedom of having to work harder, more reps behind the scenes. It's turned out to be a blessing." Then, on X, speaking past Trump to the audience he was really performing for: "To every kid with a learning disability: don't let anyone — not even the President of the United States — bully you."
+Newsom's response was the classic Three move: take the vulnerability, polish it, present it as strength. He called his dyslexia "a superpower" on CNN: "I have the freedom of not having to be stuck on the written text, and the freedom of having to work harder, more reps behind the scenes. It's turned out to be a blessing." Then, on X, speaking past Trump to the audience he was really performing for: "To every kid with a learning disability: don't let anyone — not even the President of the United States — bully you."
 
 Even his memoir's title broadcasts the pattern: _Young Man in a Hurry_. Not _Young Man Who Stopped to Think_. Hurry. Always hurry.
 
 The Wall Street Journal review cut deep: the memoir is "a calculated attempt to present its author as having experienced the sort of personal handicaps likely to impress Democratic primary voters in early 2028." Jacobin went further: "He handles each disclosure the way a chess player sacrifices a pawn: carefully, and only to gain position." The book "reads less like evidence of seriousness than proof of a lifelong talent for staging it."
 
-The cruelest thing you can say to a Three is that their authenticity is another performance. And the cruelest truth about Threes is that sometimes it is. Not because they're frauds — but because the line between genuine and strategic blurred so long ago they can't find it anymore.
+The cruelest thing you can say to a Three is that their authenticity is another performance. And the cruelest truth about Threes is that sometimes it is. Not because they're frauds, but because the line between genuine and strategic blurred so long ago they can't find it anymore.
 
-Tucker Carlson — no ally — said something surprisingly perceptive about Newsom: "Legit smart" but "a truly wounded, screwed-up person on a very deep level... There's nothing at all at the core other than misery — another deeply, deeply unhappy person." It's a political opponent's read, and it's too harsh — but the wound it points at is real. Even Bob Shrum, an ally, offered a compliment that doubles as a diagnosis: "I don't want to hurt him by saying this, but he's a natural politician." As if being a natural politician were a condition requiring apology.
+Tucker Carlson (no ally) said something surprisingly perceptive about Newsom: "Legit smart" but "a truly wounded, screwed-up person on a very deep level... There's nothing at all at the core other than misery, another deeply, deeply unhappy person." It's a political opponent's read, and it's too harsh, but the wound it points at is real. Even Bob Shrum, an ally, offered a compliment that doubles as a diagnosis: "I don't want to hurt him by saying this, but he's a natural politician." As if being a natural politician were a condition requiring apology.
 
-He won't say he's running for president — "I'm not running for President" — but the podcast with Charlie Kirk, the memoir tour, the DeSantis debate on Fox News, and the Trump feud say otherwise. He's been running since fifth grade, when his classmates laughed because he couldn't read a sentence aloud. He just learned to read rooms instead of pages, faces instead of books, and power instead of prose. And the boy who was told it was OK to be average has spent forty years building the most elaborate rebuttal in American politics.
+He won't say he's running for president ("I'm not running for President") but the podcast with Charlie Kirk, the memoir tour, the DeSantis debate on Fox News, and the Trump feud say otherwise. He's been running since fifth grade, when his classmates laughed because he couldn't read a sentence aloud. He just learned to read rooms instead of pages, faces instead of books, and power instead of prose. And the boy who was told it was OK to be average has spent forty years building the most elaborate rebuttal in American politics.
 
-The question his mother asked — the one he thinks about "any time when things are really going down" — still hasn't been answered. What happens when the running stops? When there's no next office, no next camera, no next performance? When it's just him, in a room, with nothing to become?
+The question his mother asked, the one he thinks about "any time when things are really going down," still hasn't been answered. What happens when the running stops? When there's no next office, no next camera, no next performance? When it's just him, in a room, with nothing to become?
 
 She tried to tell him. He was already out the door.
 

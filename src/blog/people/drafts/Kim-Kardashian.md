@@ -1,6 +1,7 @@
 ---
 title: 'Kim Kardashian: What the Calm Is Hiding'
-description: 'Why does Kim Kardashian stay so composed when everything around her is chaos? Inside the psychology of her engineered peace and what breaks through it.'
+meta_title: "Why Kim Kardashian's Calm Is Built on Control"
+description: 'Kim Kardashian built a life of composure, precision, and visual control. This is the psychology underneath that calm and what finally breaks through it.'
 persona_title: "Pop Culture's Engineered Calm"
 author: 'DJ Wayne'
 date: '2025-03-24'
@@ -284,7 +285,7 @@ She was asked what she'd do if she lost everything and had to start over:
 
 Not reality TV. Not fashion. Not beauty. Law. The thing she came to latest, fought hardest for, and has the least public credit for.
 
-## How Kim Kardashian Shows Us What Control Really Costs
+## What Control Really Costs
 
 Here is the portrait across three very different conversations with three very different hosts: a woman who built the most sophisticated image-management system in entertainment history, and keeps encountering situations where it doesn't work.
 

@@ -1,8 +1,8 @@
 ---
 title: "Aubrey Plaza's Type 6 Mind: Beyond the Deadpan Facade"
-meta_title: "Inside Aubrey Plaza's Anxious Mind: The Hidden Security-Seeker Behind the Deadpan Queen"
+meta_title: 'Why Aubrey Plaza Turned Anxiety Into Deadpan Armor'
 persona_title: "Comedy's Deadpan Skeptic"
-description: 'She had a stroke at 20 and her friends thought it was a bit. Aubrey Plaza turned lifelong anxiety into deadpan armor — then picked roles that weaponize the fear.'
+description: "At 20, Aubrey Plaza had a stroke and her friends thought it was a joke. Since then she's turned anxiety into deadpan armor and chosen roles that weaponize it."
 author: 'DJ Wayne'
 date: '2025-04-08'
 loc: 'https://9takes.com/personality-analysis/Aubrey-Plaza'

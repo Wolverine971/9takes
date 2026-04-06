@@ -1,7 +1,7 @@
 ---
-title: 'Tom Hardy: From Bane to Venom - The Type 8 Psychology of His Intense Transformations'
-meta_title: 'Tom Hardy Enneagram Type 8 | Inside His Powerful Personality'
-description: "'Everything I play is what scared me.' Tom Hardy has been building armor around a frightened boy since he was 25 and nearly died."
+title: 'Tom Hardy: The Armor Built Around a Frightened Boy'
+meta_title: 'Why Tom Hardy Built Himself Into Armor'
+description: 'Tom Hardy has spent decades building armor around the frightened boy who once felt small, preyed on, and close to death.'
 persona_title: "Cinema's Armored Brawler"
 author: 'DJ Wayne'
 date: '2024-07-12'

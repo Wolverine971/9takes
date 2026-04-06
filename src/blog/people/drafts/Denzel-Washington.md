@@ -1,8 +1,8 @@
 ---
 title: "Denzel Washington: The Preacher's Son Who Found His Pulpit in Hollywood"
-meta_title: 'Why Denzel Washington Drank Two Bottles a Day and Then Stopped Forever'
+meta_title: 'Why Denzel Washington Quit Drinking Overnight'
 persona_title: 'The Preacher Who Chose a Different Pulpit'
-description: 'Inside the private world of Denzel Washington - from a prophecy in a beauty parlor to a baptism at 70.'
+description: "Inside Denzel Washington's private world, from a beauty-parlor prophecy and two bottles a day to sobriety, baptism, and late-life surrender."
 author: 'DJ Wayne'
 date: '2024-07-12'
 loc: 'https://9takes.com/personality-analysis/Denzel-Washington'

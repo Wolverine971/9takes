@@ -41,7 +41,7 @@
 	const PUBLIC_GOOGLE = import.meta.env.PUBLIC_GOOGLE;
 	const PUBLIC_ENABLE_DEV_INHOUSE_ANALYTICS =
 		String(import.meta.env.PUBLIC_ENABLE_DEV_INHOUSE_ANALYTICS || '').toLowerCase() === 'true';
-	const MAX_WIDTH_PAGES = ['/', '/content-board'];
+	const MAX_WIDTH_PAGES = ['/', '/content-board', '/book-session'];
 	const ANALYTICS_SESSION_STORAGE_KEY = '9t_analytics_session_key';
 	const ANALYTICS_SESSION_LAST_SEEN_STORAGE_KEY = '9t_analytics_session_last_seen';
 	const ANALYTICS_FALLBACK_FINGERPRINT_STORAGE_KEY = '9t_analytics_fallback_fingerprint';
@@ -605,10 +605,11 @@
 
 		<main
 			id="main-content"
-			class="relative flex flex-1 flex-col {isAdminPage ? '' : 'overflow-visible p-2 md:p-4'}"
+			class="relative flex w-full flex-1 flex-col {isAdminPage
+				? ''
+				: 'overflow-visible p-2 md:p-4'}"
 			class:max-w-4xl={shouldShowMaxWidth}
 			class:mx-auto={shouldShowMaxWidth}
-			class:w-full={shouldShowMaxWidth || isAdminPage}
 			style={isAdminPage ? 'overflow-x: clip;' : ''}
 			aria-label="Main content"
 		>
@@ -633,6 +634,7 @@
 	.app-wrapper {
 		min-height: 100vh;
 		background: linear-gradient(180deg, var(--bg-base) 0%, var(--bg-deep) 50%, var(--bg-base) 100%);
+		overflow-x: hidden;
 	}
 
 	/* Media query adjustments for the main content area */

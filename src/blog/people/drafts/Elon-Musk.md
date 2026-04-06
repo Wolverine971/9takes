@@ -1,7 +1,7 @@
 ---
 title: 'Elon Musk: The Type 5 Mind Behind Tesla, SpaceX, and His Unpredictable Empire'
 meta_title: "Inside Elon Musk's Mind: The Psychology Behind His Chaos"
-description: "A dark conference room, the world's richest man on the floor, and the Type 5 pattern that explains the genius, the cruelty, and what he cannot see about himself."
+description: "A dark conference room, the world's richest man on the floor, and the Type 5 pattern that explains the genius, cruelty, and blind spots he still cannot see."
 persona_title: "Technology's Apocalyptic Engineer"
 author: 'DJ Wayne'
 date: '2023-09-03'

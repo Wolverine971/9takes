@@ -1,8 +1,8 @@
 ---
-title: "Johnny Depp: The Enneagram Type 4 Behind Hollywood's Vanishing Act"
+title: 'Johnny Depp: The Man Who Disappeared Into Characters to Find Himself'
 meta_title: 'Johnny Depp Became Famous by Disappearing'
 persona_title: "Hollywood's Beautiful Outsider"
-description: 'Johnny Depp''s Type 4 psychology explains his shapeshifting roles — and why the word "Papa" reveals what he''s really searching for.'
+description: "Johnny Depp built a career out of masks, personas, and vanishing acts, still searching for one identity that doesn't feel like a costume."
 author: 'DJ Wayne'
 date: '2024-08-30'
 loc: 'https://9takes.com/personality-analysis/Johnny-Depp'

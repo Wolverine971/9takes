@@ -106,7 +106,7 @@ The achievements are real. But they're a byproduct, not the point. The point is 
 
 ---
 
-## Kai Cenat's Childhood in the Bronx
+## The Bronx Childhood That Never Really Left
 
 Kai's psychology makes more sense when you understand his origin story.
 
@@ -136,7 +136,7 @@ This is what growth looks like: **staying in the room anyway**.
 
 ---
 
-## How Kai Cenat Became Twitch's Loudest Star
+## How He Became Twitch's Loudest Star
 
 To understand Kai's psychology, you need to understand what his streams actually feel like, because from the outside, "chaos" is too vague. The chaos has a specific texture.
 
@@ -164,7 +164,7 @@ That line sounds like a business principle. It's also a nervous system principle
 
 ---
 
-## How Mafiathon Made Kai Cenat Bigger Than Twitch
+## How Mafiathon Made Him Bigger Than Twitch
 
 Kai's marathon streaming events expose something beneath the party.
 
@@ -211,7 +211,7 @@ A person built on endless options voluntarily honoring a constraint. A promise k
 
 ---
 
-## AMP: The Brotherhood That Keeps Kai Cenat Grounded
+## AMP and the Brotherhood That Keeps Him Grounded
 
 In 2019, **Agent 00** had a vision: a content creator collective of rising streamers that could be more than the sum of its parts. He reached out to Davis, Fanum, and Duke Dennis first. Kai was the last one recruited; Fanum showed the group Kai's YouTube videos around 2021.
 
@@ -240,7 +240,7 @@ It's one of the most underrated forms of maturity: **choosing depth over endless
 
 ---
 
-## How Kai Cenat Changed Internet Culture
+## How He Changed Internet Culture
 
 Somewhere between the memes and the subscriber records, Kai became **culturally gravitational**, not just big, but influential in a way that reshapes the culture around him.
 
@@ -258,7 +258,7 @@ The pattern reveals a business mind that's distinctly Type 7: diversification as
 
 ---
 
-## Kai Cenat's Biggest Controversies and Consequences
+## The Biggest Controversies and Consequences
 
 ### Union Square (August 2023)
 
@@ -284,7 +284,7 @@ Kai didn't address it. He swept four awards that night, setting a record for mos
 
 ---
 
-## What Happens When Kai Cenat Stops Streaming
+## What Happens When the Stream Stops
 
 After Mafiathon 3 ended October 1, 2025, Kai stepped away from regular streaming. For nearly two months, the loudest person on the internet went quiet.
 

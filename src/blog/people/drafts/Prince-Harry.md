@@ -1,8 +1,8 @@
 ---
 title: 'Prince Harry: The "Spare" & Type 6 Psychology of Breaking From Royal Tradition'
-meta_title: "Why Prince Harry Can't Stop Fighting The Tabloids (It's Not What You Think)"
+meta_title: "Why Prince Harry Still Can't Stop Fighting the Threat"
 persona_title: 'The Spare Who Burned the Manual'
-description: "Harry's contradictions make perfect sense when you understand his Type 6 psychology: trust no one until they prove themselves, protect the inner circle at all costs."
+description: "Harry's contradictions make sense once you see the Type 6 logic underneath them: trust slowly, protect the inner circle, and keep fighting the threat forever."
 author: 'DJ Wayne'
 date: '2024-09-29'
 loc: 'https://9takes.com/personality-analysis/Prince-Harry'

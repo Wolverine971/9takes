@@ -8,12 +8,15 @@
 	import type { PageData } from './$types';
 
 	let { data }: { data: PageData } = $props();
+	type WaitlistEntry = PageData['recentWaitlist'][number];
 
 	// Email modal state
 	let showEmailModal = $state(false);
 	let emailRecipients = $state<EmailRecipient[]>([]);
 	let emailSubject = $state('');
 	let emailContent = $state('');
+	let showPersonModal = $state(false);
+	let selectedPerson = $state<WaitlistEntry | null>(null);
 
 	// Search/filter state
 	let waitlistSearch = $state('');
@@ -25,7 +28,7 @@
 
 	// Filtered waitlist entries
 	let filteredWaitlist = $derived(
-		data.recentWaitlist.filter((entry: any) => {
+		data.recentWaitlist.filter((entry) => {
 			const matchesSearch =
 				!waitlistSearch ||
 				entry.name?.toLowerCase().includes(waitlistSearch.toLowerCase()) ||
@@ -38,7 +41,65 @@
 		})
 	);
 
-	function openEmailForWaitlist(entry: any) {
+	const intakeFieldLabels: Record<string, string> = {
+		age_range: 'Age range',
+		childhood_message: 'Childhood message',
+		comfort_response: 'Comfort response',
+		communication_style: 'Communication style',
+		conflict_style: 'Conflict style',
+		core_desire: 'Core desire',
+		core_fear: 'Core fear',
+		current_challenges: 'Current challenges',
+		desired_outcome: 'Desired outcome',
+		emotion_expression: 'Emotion expression',
+		how_heard_about_us: 'How they heard about you',
+		living_situation: 'Living situation',
+		long_term_goals: 'Long-term goals',
+		occupation: 'Occupation',
+		preferred_session_time: 'Preferred session time',
+		previous_attempts: 'Previous attempts',
+		primary_emotion: 'Primary emotion',
+		relationship_patterns: 'Relationship patterns',
+		relationship_status: 'Relationship status',
+		short_term_goals: 'Short-term goals',
+		specific_scenarios: 'Specific scenarios',
+		stress_response: 'Stress response',
+		suspected_type: 'Suspected type',
+		timezone: 'Timezone',
+		urgency_level: 'Urgency level',
+		why_this_type: 'Why this type'
+	};
+
+	const intakeFieldOrder = [
+		'occupation',
+		'age_range',
+		'timezone',
+		'preferred_session_time',
+		'relationship_status',
+		'living_situation',
+		'suspected_type',
+		'why_this_type',
+		'core_fear',
+		'core_desire',
+		'primary_emotion',
+		'stress_response',
+		'comfort_response',
+		'emotion_expression',
+		'communication_style',
+		'conflict_style',
+		'relationship_patterns',
+		'current_challenges',
+		'specific_scenarios',
+		'desired_outcome',
+		'short_term_goals',
+		'long_term_goals',
+		'previous_attempts',
+		'childhood_message',
+		'how_heard_about_us',
+		'urgency_level'
+	] as const;
+
+	function openEmailForWaitlist(entry: WaitlistEntry) {
 		const firstName = entry.name?.split(' ')[0] || 'there';
 		emailRecipients = [
 			{
@@ -60,6 +121,28 @@
 		notifications.success('Email sent successfully', 3000);
 	}
 
+	function openPersonDetails(entry: WaitlistEntry) {
+		selectedPerson = entry;
+		showPersonModal = true;
+	}
+
+	function closePersonDetails() {
+		showPersonModal = false;
+		selectedPerson = null;
+	}
+
+	function handleWindowKeydown(event: KeyboardEvent) {
+		if (event.key === 'Escape' && showPersonModal) {
+			closePersonDetails();
+		}
+	}
+
+	function emailSelectedPerson() {
+		if (!selectedPerson) return;
+		openEmailForWaitlist(selectedPerson);
+		closePersonDetails();
+	}
+
 	// Format date for display
 	function formatDate(dateStr: string | null): string {
 		if (!dateStr) return '-';
@@ -71,16 +154,89 @@
 		});
 	}
 
+	function formatShortDate(dateStr: string | null): string {
+		if (!dateStr) return '-';
+		return new Date(dateStr).toLocaleDateString('en-US', {
+			month: 'short',
+			day: 'numeric',
+			year: 'numeric'
+		});
+	}
+
+	function formatDateTime(dateStr: string | null): string {
+		if (!dateStr) return '-';
+		return new Date(dateStr).toLocaleString('en-US', {
+			month: 'short',
+			day: 'numeric',
+			year: 'numeric',
+			hour: 'numeric',
+			minute: '2-digit'
+		});
+	}
+
 	function formatRelativeDate(dateStr: string): string {
-		const date = new Date(dateStr);
-		const now = new Date();
-		const diffMs = date.getTime() - now.getTime();
-		const diffDays = Math.ceil(diffMs / (1000 * 60 * 60 * 24));
+		const targetDate = new Date(dateStr);
+		const today = new Date();
+		const targetDay = new Date(
+			targetDate.getFullYear(),
+			targetDate.getMonth(),
+			targetDate.getDate()
+		).getTime();
+		const todayDay = new Date(today.getFullYear(), today.getMonth(), today.getDate()).getTime();
+		const diffDays = Math.round((targetDay - todayDay) / (1000 * 60 * 60 * 24));
 
 		if (diffDays === 0) return 'Today';
 		if (diffDays === 1) return 'Tomorrow';
-		if (diffDays < 7) return `In ${diffDays} days`;
+		if (diffDays === -1) return 'Yesterday';
+		if (diffDays > 1 && diffDays < 7) return `In ${diffDays} days`;
+		if (diffDays < -1 && diffDays > -7) return `${Math.abs(diffDays)} days ago`;
 		return formatDate(dateStr);
+	}
+
+	function formatCommentCount(count: number): string {
+		return `${count} comment${count === 1 ? '' : 's'}`;
+	}
+
+	function humanizeValue(value: string | null | undefined): string {
+		if (!value) return '-';
+		return value.replace(/_/g, ' ').replace(/\b\w/g, (letter) => letter.toUpperCase());
+	}
+
+	function getIntakeFields(entry: WaitlistEntry) {
+		const intake = entry.person.client?.intake?.[0];
+		if (!intake) return [];
+
+		return intakeFieldOrder
+			.map((field) => {
+				const value = intake[field];
+				if (value === null || value === undefined || value === '') {
+					return null;
+				}
+
+				return {
+					label: intakeFieldLabels[field],
+					value: String(value)
+				};
+			})
+			.filter((field): field is { label: string; value: string } => Boolean(field));
+	}
+
+	function getAcquisitionFields(entry: WaitlistEntry) {
+		const metadata = entry.metadata?.[0];
+		if (!metadata) return [];
+
+		const fields = [
+			{ label: 'Source', value: metadata.source },
+			{ label: 'UTM medium', value: metadata.utm_medium },
+			{ label: 'UTM campaign', value: metadata.utm_campaign },
+			{ label: 'UTM content', value: metadata.utm_content },
+			{ label: 'IP address', value: metadata.ip_address },
+			{ label: 'User agent', value: metadata.user_agent }
+		];
+
+		return fields.filter((field): field is { label: string; value: string } =>
+			Boolean(field.value)
+		);
 	}
 
 	// Pipeline stages
@@ -125,20 +281,7 @@
 	];
 
 	// Handle promote action
-	let promotingId = $state<number | null>(null);
-
-	// Keyboard handler for waitlist table rows
-	function handleRowKeydown(event: KeyboardEvent, entry: any) {
-		if (event.key === 'Enter' || event.key === ' ') {
-			event.preventDefault();
-			if (!entry.isConverted) {
-				// Focus the convert button
-				const row = event.currentTarget as HTMLElement;
-				const convertBtn = row.querySelector('.btn-convert') as HTMLButtonElement;
-				convertBtn?.focus();
-			}
-		}
-	}
+	let promotingId = $state<string | null>(null);
 
 	// Calculate progress percentage
 	let progressPercentage = $derived(
@@ -151,6 +294,8 @@
 <svelte:head>
 	<title>Consulting Dashboard | 9takes Admin</title>
 </svelte:head>
+
+<svelte:window onkeydown={handleWindowKeydown} />
 
 <div class="consulting-dashboard" role="main" aria-label="Consulting Dashboard">
 	<!-- Skip Link for accessibility -->
@@ -425,12 +570,16 @@
 						{#each data.upcomingSessions as session}
 							<li class="session-item">
 								<div class="session-time">
-									<span class="session-when">{formatRelativeDate(session.scheduled_at)}</span>
+									<span class="session-when">
+										{session.scheduled_at ? formatRelativeDate(session.scheduled_at) : '-'}
+									</span>
 									<span class="session-hour">
-										{new Date(session.scheduled_at).toLocaleTimeString('en-US', {
-											hour: 'numeric',
-											minute: '2-digit'
-										})}
+										{session.scheduled_at
+											? new Date(session.scheduled_at).toLocaleTimeString('en-US', {
+													hour: 'numeric',
+													minute: '2-digit'
+												})
+											: '-'}
 									</span>
 								</div>
 								<div class="session-info">
@@ -599,6 +748,13 @@
 				{:else}
 					<div class="waitlist-table-wrapper" role="region" aria-label="Waitlist entries">
 						<table class="waitlist-table" aria-describedby="waitlist-heading">
+							<colgroup>
+								<col class="col-person" />
+								<col class="col-contact" />
+								<col class="col-goal" />
+								<col class="col-signed-up" />
+								<col class="col-actions" />
+							</colgroup>
 							<thead>
 								<tr>
 									<th scope="col">Person</th>
@@ -612,14 +768,16 @@
 							</thead>
 							<tbody>
 								{#each filteredWaitlist as entry (entry.id)}
-									<tr
-										class:converted={entry.isConverted}
-										tabindex="0"
-										onkeydown={(e) => handleRowKeydown(e, entry)}
-									>
+									<tr class:converted={entry.isConverted}>
 										<td class="name-cell">
 											<div class="person-info">
-												<span class="person-name">{entry.name}</span>
+												<button
+													type="button"
+													class="person-name person-button"
+													onclick={() => openPersonDetails(entry)}
+												>
+													{entry.name}
+												</button>
 												<div class="person-badges">
 													{#if entry.enneagram_type}
 														<span
@@ -646,6 +804,17 @@
 														</span>
 													{/if}
 												</div>
+												<p class="person-meta">
+													{#if entry.person.commentSummary.hasCommented}
+														{formatCommentCount(entry.person.commentSummary.totalComments)}
+													{:else}
+														No comments yet
+													{/if}
+													{#if entry.person.joinedAt}
+														<span class="meta-separator" aria-hidden="true">•</span>
+														Joined {formatShortDate(entry.person.joinedAt)}
+													{/if}
+												</p>
 											</div>
 										</td>
 										<td class="email-cell">
@@ -672,15 +841,16 @@
 											<time datetime={entry.created_at}>
 												{formatDate(entry.created_at)}
 											</time>
+											<span class="date-subtle">
+												{entry.created_at ? formatRelativeDate(entry.created_at) : '-'}
+											</span>
 										</td>
 										<td class="action-cell">
 											<div class="action-buttons">
 												<button
 													type="button"
-													class="btn btn-sm btn-icon btn-email"
+													class="btn btn-sm btn-secondary btn-action"
 													onclick={() => openEmailForWaitlist(entry)}
-													title="Send email to {entry.name}"
-													aria-label="Send email to {entry.name}"
 												>
 													<svg
 														aria-hidden="true"
@@ -696,11 +866,12 @@
 														/>
 														<polyline points="22,6 12,13 2,6" />
 													</svg>
+													Email
 												</button>
 												{#if entry.isConverted && entry.clientId}
 													<a
 														href="/admin/consulting/clients/{entry.clientId}"
-														class="btn btn-sm btn-secondary"
+														class="btn btn-sm btn-secondary btn-action"
 														aria-label="View {entry.name}'s client profile"
 													>
 														View Client
@@ -710,17 +881,17 @@
 														method="POST"
 														action="?/promoteToClient"
 														use:enhance={() => {
-															promotingId = entry.id;
+															promotingId = String(entry.id);
 															return async ({ result }) => {
 																promotingId = null;
 																if (result.type === 'success') {
 																	notifications.success(`${entry.name} is now a client!`, 3000);
 																	invalidateAll();
 																} else if (result.type === 'failure') {
-																	notifications.danger(
-																		result.data?.error || 'Failed to convert to client',
-																		3000
-																	);
+																	const errorMessage =
+																		(result.data as { error?: string } | undefined)?.error ||
+																		'Failed to convert to client';
+																	notifications.danger(errorMessage, 3000);
 																}
 															};
 														}}
@@ -728,11 +899,11 @@
 														<input type="hidden" name="waitlistId" value={entry.id} />
 														<button
 															type="submit"
-															class="btn btn-sm btn-primary btn-convert"
-															disabled={promotingId === entry.id}
+															class="btn btn-sm btn-primary btn-convert btn-action"
+															disabled={promotingId === String(entry.id)}
 															aria-label="Convert {entry.name} to client"
 														>
-															{#if promotingId === entry.id}
+															{#if promotingId === String(entry.id)}
 																<span class="loading-spinner" aria-hidden="true"></span>
 																Converting...
 															{:else}
@@ -990,6 +1161,257 @@
 		</aside>
 	</div>
 </div>
+
+{#if showPersonModal && selectedPerson}
+	<div
+		class="modal-overlay person-modal-overlay"
+		role="presentation"
+		tabindex="-1"
+		onclick={(event) => {
+			if (event.target === event.currentTarget) closePersonDetails();
+		}}
+		onkeydown={(event) => {
+			if (event.key === 'Escape') {
+				closePersonDetails();
+			}
+		}}
+	>
+		<div class="person-modal" role="dialog" aria-modal="true" aria-labelledby="person-modal-title">
+			<div class="person-modal-header">
+				<div>
+					<p class="person-modal-kicker">9takes person record</p>
+					<h2 id="person-modal-title">{selectedPerson.name}</h2>
+					<p class="person-modal-email">{selectedPerson.email}</p>
+				</div>
+				<button
+					type="button"
+					class="close-btn"
+					onclick={closePersonDetails}
+					aria-label="Close details"
+				>
+					&times;
+				</button>
+			</div>
+
+			<div class="person-modal-body">
+				<div class="person-modal-chips">
+					{#if selectedPerson.enneagram_type}
+						<span class="type-badge">Type {selectedPerson.enneagram_type}</span>
+					{/if}
+					<span class="detail-chip">
+						{selectedPerson.person.commentSummary.hasCommented
+							? formatCommentCount(selectedPerson.person.commentSummary.totalComments)
+							: 'No comments'}
+					</span>
+					<span class="detail-chip">
+						{selectedPerson.person.joinedAt
+							? `Joined ${formatShortDate(selectedPerson.person.joinedAt)}`
+							: 'No 9takes account match'}
+					</span>
+					{#if selectedPerson.isConverted}
+						<span class="converted-badge">Client</span>
+					{/if}
+				</div>
+
+				<div class="person-detail-grid">
+					<section class="detail-card">
+						<h3>9takes Activity</h3>
+						{#if selectedPerson.person.profile || selectedPerson.person.signup}
+							<dl class="detail-list">
+								<div>
+									<dt>First 9takes touchpoint</dt>
+									<dd>
+										{selectedPerson.person.joinedAt
+											? formatDateTime(selectedPerson.person.joinedAt)
+											: 'No match found'}
+									</dd>
+								</div>
+								{#if selectedPerson.person.profile}
+									<div>
+										<dt>Account created</dt>
+										<dd>{formatDateTime(selectedPerson.person.profile.created_at)}</dd>
+									</div>
+									<div>
+										<dt>Username</dt>
+										<dd>{selectedPerson.person.profile.username || 'Not set'}</dd>
+									</div>
+									<div>
+										<dt>Profile Enneagram</dt>
+										<dd>{selectedPerson.person.profile.enneagram || 'Unknown'}</dd>
+									</div>
+								{/if}
+								{#if selectedPerson.person.signup}
+									<div>
+										<dt>Email signup</dt>
+										<dd>{formatDateTime(selectedPerson.person.signup.created_at)}</dd>
+									</div>
+								{/if}
+								<div>
+									<dt>Commented on 9takes</dt>
+									<dd>
+										{#if selectedPerson.person.profile}
+											{selectedPerson.person.commentSummary.hasCommented
+												? `Yes • ${formatCommentCount(selectedPerson.person.commentSummary.totalComments)}`
+												: 'No'}
+										{:else}
+											No profile match
+										{/if}
+									</dd>
+								</div>
+								{#if selectedPerson.person.commentSummary.hasCommented}
+									<div>
+										<dt>First comment</dt>
+										<dd>{formatDateTime(selectedPerson.person.commentSummary.firstCommentAt)}</dd>
+									</div>
+									<div>
+										<dt>Latest comment</dt>
+										<dd>{formatDateTime(selectedPerson.person.commentSummary.lastCommentAt)}</dd>
+									</div>
+								{/if}
+							</dl>
+						{:else}
+							<p class="detail-empty">No 9takes profile or email signup matched this address.</p>
+						{/if}
+					</section>
+
+					<section class="detail-card">
+						<h3>Consulting Signup</h3>
+						<dl class="detail-list">
+							<div>
+								<dt>Waitlist joined</dt>
+								<dd>{formatDateTime(selectedPerson.created_at)}</dd>
+							</div>
+							<div>
+								<dt>Claimed type</dt>
+								<dd>
+									{selectedPerson.enneagram_type
+										? `Type ${selectedPerson.enneagram_type}`
+										: 'Not provided'}
+								</dd>
+							</div>
+							<div>
+								<dt>Converted to client</dt>
+								<dd>{selectedPerson.isConverted ? 'Yes' : 'No'}</dd>
+							</div>
+							{#if selectedPerson.person.client}
+								<div>
+									<dt>Client created</dt>
+									<dd>{formatDateTime(selectedPerson.person.client.created_at)}</dd>
+								</div>
+								<div>
+									<dt>Client status</dt>
+									<dd>{humanizeValue(selectedPerson.person.client.status)}</dd>
+								</div>
+								<div>
+									<dt>Trust layer</dt>
+									<dd>{humanizeValue(selectedPerson.person.client.trust_layer)}</dd>
+								</div>
+								{#if selectedPerson.person.client.phone}
+									<div>
+										<dt>Phone</dt>
+										<dd>{selectedPerson.person.client.phone}</dd>
+									</div>
+								{/if}
+								{#if selectedPerson.person.client.first_session_at}
+									<div>
+										<dt>First session</dt>
+										<dd>{formatDateTime(selectedPerson.person.client.first_session_at)}</dd>
+									</div>
+								{/if}
+								{#if selectedPerson.person.client.last_session_at}
+									<div>
+										<dt>Last session</dt>
+										<dd>{formatDateTime(selectedPerson.person.client.last_session_at)}</dd>
+									</div>
+								{/if}
+							{/if}
+							<div class="detail-list-full">
+								<dt>Session goal</dt>
+								<dd class="detail-text">{selectedPerson.session_goal || 'Not provided'}</dd>
+							</div>
+							{#if selectedPerson.person.client?.initial_goal}
+								<div class="detail-list-full">
+									<dt>Client initial goal</dt>
+									<dd class="detail-text">{selectedPerson.person.client.initial_goal}</dd>
+								</div>
+							{/if}
+							{#if selectedPerson.person.client?.notes}
+								<div class="detail-list-full">
+									<dt>Client notes</dt>
+									<dd class="detail-text">{selectedPerson.person.client.notes}</dd>
+								</div>
+							{/if}
+						</dl>
+					</section>
+
+					<section class="detail-card detail-card-wide">
+						{#if selectedPerson.person.client?.intake?.[0]}
+							{@const intake = selectedPerson.person.client?.intake?.[0]}
+							<div class="detail-card-header">
+								<h3>Intake Form</h3>
+								<span class="detail-chip">
+									{humanizeValue(intake.status)}
+								</span>
+							</div>
+
+							<dl class="detail-list detail-list-columns">
+								<div>
+									<dt>Sent</dt>
+									<dd>{formatDateTime(intake.sent_at)}</dd>
+								</div>
+								<div>
+									<dt>Completed</dt>
+									<dd>{formatDateTime(intake.completed_at)}</dd>
+								</div>
+								<div>
+									<dt>Reviewed</dt>
+									<dd>{formatDateTime(intake.reviewed_at)}</dd>
+								</div>
+								{#each getIntakeFields(selectedPerson) as field}
+									<div class:detail-list-full={field.value.length > 80}>
+										<dt>{field.label}</dt>
+										<dd class:detail-text={field.value.length > 80}>{field.value}</dd>
+									</div>
+								{/each}
+							</dl>
+						{:else}
+							<div class="detail-card-header">
+								<h3>Intake Form</h3>
+							</div>
+							<p class="detail-empty">No intake answers submitted yet.</p>
+						{/if}
+					</section>
+
+					{#if getAcquisitionFields(selectedPerson).length > 0}
+						<section class="detail-card detail-card-wide">
+							<h3>Acquisition Metadata</h3>
+							<dl class="detail-list detail-list-columns">
+								{#each getAcquisitionFields(selectedPerson) as field}
+									<div class:detail-list-full={field.value.length > 80}>
+										<dt>{field.label}</dt>
+										<dd class:detail-text={field.value.length > 80}>{field.value}</dd>
+									</div>
+								{/each}
+							</dl>
+						</section>
+					{/if}
+				</div>
+			</div>
+
+			<div class="person-modal-footer">
+				{#if selectedPerson.isConverted && selectedPerson.clientId}
+					<a href="/admin/consulting/clients/{selectedPerson.clientId}" class="btn btn-secondary">
+						Open Client Page
+					</a>
+				{/if}
+				<button type="button" class="btn btn-secondary" onclick={emailSelectedPerson}>
+					Email Person
+				</button>
+				<button type="button" class="btn btn-primary" onclick={closePersonDetails}>Close</button>
+			</div>
+		</div>
+	</div>
+{/if}
 
 <!-- Email Compose Modal -->
 <EmailComposeModal
@@ -1574,8 +1996,30 @@
 
 	.waitlist-table {
 		width: 100%;
+		min-width: 1080px;
 		border-collapse: collapse;
 		font-size: 0.8125rem;
+		table-layout: fixed;
+	}
+
+	.col-person {
+		width: 24%;
+	}
+
+	.col-contact {
+		width: 20%;
+	}
+
+	.col-goal {
+		width: 24%;
+	}
+
+	.col-signed-up {
+		width: 14%;
+	}
+
+	.col-actions {
+		width: 18%;
 	}
 
 	.waitlist-table th {
@@ -1604,11 +2048,6 @@
 		background: rgba(99, 102, 241, 0.04);
 	}
 
-	.waitlist-table tbody tr:focus {
-		outline: 2px solid var(--primary, #6366f1);
-		outline-offset: -2px;
-	}
-
 	.waitlist-table tbody tr:last-child td {
 		border-bottom: none;
 	}
@@ -1632,15 +2071,51 @@
 		color: var(--text-primary, #1e293b);
 	}
 
+	.person-button {
+		background: none;
+		border: none;
+		padding: 0;
+		text-align: left;
+		cursor: pointer;
+		font: inherit;
+		color: var(--text-primary, #1e293b);
+		transition: color 0.2s ease;
+	}
+
+	.person-button:hover {
+		color: var(--primary, #6366f1);
+	}
+
+	.person-button:focus {
+		outline: 2px solid rgba(99, 102, 241, 0.25);
+		outline-offset: 4px;
+		border-radius: 4px;
+	}
+
 	.person-badges {
 		display: flex;
 		gap: 0.375rem;
 		flex-wrap: wrap;
 	}
 
+	.person-meta {
+		margin: 0;
+		font-size: 0.75rem;
+		color: var(--text-secondary, var(--text-tertiary));
+		display: flex;
+		flex-wrap: wrap;
+		align-items: center;
+		gap: 0.25rem;
+	}
+
+	.meta-separator {
+		color: var(--border-color);
+	}
+
 	.email-link {
 		color: var(--primary, #6366f1);
 		text-decoration: none;
+		word-break: break-word;
 	}
 
 	.email-link:hover {
@@ -1651,6 +2126,11 @@
 		color: var(--text-secondary, var(--text-tertiary));
 		font-size: 0.8125rem;
 		line-height: 1.4;
+		line-clamp: 3;
+		display: -webkit-box;
+		-webkit-line-clamp: 3;
+		-webkit-box-orient: vertical;
+		overflow: hidden;
 	}
 
 	.no-goal {
@@ -1660,19 +2140,33 @@
 	}
 
 	.date-cell time {
+		display: block;
 		font-size: 0.75rem;
 		color: var(--text-secondary, var(--text-tertiary));
 		white-space: nowrap;
+	}
+
+	.date-subtle {
+		display: block;
+		margin-top: 0.125rem;
+		font-size: 0.6875rem;
+		color: var(--text-secondary, var(--text-tertiary));
+	}
+
+	.action-cell {
+		text-align: right;
 	}
 
 	.action-buttons {
 		display: flex;
 		gap: 0.5rem;
 		align-items: center;
+		justify-content: flex-end;
+		flex-wrap: wrap;
 	}
 
 	.action-buttons form {
-		display: inline;
+		display: flex;
 	}
 
 	.filter-status {
@@ -2007,6 +2501,10 @@
 		gap: 0.375rem;
 	}
 
+	.btn-action {
+		min-width: 5.5rem;
+	}
+
 	.btn-icon {
 		padding: 0.375rem;
 	}
@@ -2032,19 +2530,198 @@
 		border-color: var(--primary, #6366f1);
 	}
 
-	.btn-email {
-		background: rgba(251, 113, 133, 0.1);
-		color: #3b82f6;
-	}
-
-	.btn-email:hover {
-		background: #3b82f6;
-		color: white;
-	}
-
 	.btn:disabled {
 		opacity: 0.6;
 		cursor: not-allowed;
+	}
+
+	/* ==========================================
+	   PERSON DETAILS MODAL
+	   ========================================== */
+	.modal-overlay {
+		position: fixed;
+		inset: 0;
+		background: rgba(15, 23, 42, 0.65);
+		backdrop-filter: blur(8px);
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		padding: 1.5rem;
+		z-index: 1200;
+	}
+
+	.person-modal {
+		width: min(1080px, 100%);
+		max-height: calc(100vh - 3rem);
+		display: flex;
+		flex-direction: column;
+		background: var(--card-background, white);
+		border: 1px solid var(--border-color);
+		border-radius: 18px;
+		box-shadow: 0 24px 60px rgba(15, 23, 42, 0.18);
+		overflow: hidden;
+	}
+
+	.person-modal-header {
+		display: flex;
+		justify-content: space-between;
+		align-items: flex-start;
+		gap: 1rem;
+		padding: 1.5rem 1.5rem 1.25rem;
+		border-bottom: 1px solid var(--border-color);
+	}
+
+	.person-modal-header h2 {
+		margin: 0;
+		font-size: 1.375rem;
+		color: var(--text-primary, #1e293b);
+	}
+
+	.person-modal-kicker {
+		margin: 0 0 0.375rem;
+		font-size: 0.7rem;
+		font-weight: 700;
+		letter-spacing: 0.08em;
+		text-transform: uppercase;
+		color: var(--primary, #6366f1);
+	}
+
+	.person-modal-email {
+		margin: 0.375rem 0 0;
+		font-size: 0.875rem;
+		color: var(--text-secondary, var(--text-tertiary));
+	}
+
+	.close-btn {
+		background: none;
+		border: none;
+		color: var(--text-secondary, var(--text-tertiary));
+		font-size: 1.75rem;
+		line-height: 1;
+		padding: 0;
+		cursor: pointer;
+	}
+
+	.close-btn:hover {
+		color: var(--text-primary, #1e293b);
+	}
+
+	.person-modal-body {
+		padding: 1.5rem;
+		overflow-y: auto;
+	}
+
+	.person-modal-chips {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 0.5rem;
+		margin-bottom: 1rem;
+	}
+
+	.detail-chip {
+		display: inline-flex;
+		align-items: center;
+		gap: 0.375rem;
+		padding: 0.25rem 0.625rem;
+		border-radius: 999px;
+		background: var(--hover-background, var(--text-primary));
+		color: var(--text-secondary, var(--text-tertiary));
+		font-size: 0.75rem;
+		font-weight: 500;
+	}
+
+	.person-detail-grid {
+		display: grid;
+		grid-template-columns: repeat(2, minmax(0, 1fr));
+		gap: 1rem;
+	}
+
+	.detail-card {
+		border: 1px solid var(--border-color);
+		border-radius: 14px;
+		padding: 1rem;
+		background: color-mix(
+			in srgb,
+			var(--card-background, white) 90%,
+			var(--hover-background, #f8fafc)
+		);
+	}
+
+	.detail-card-wide {
+		grid-column: 1 / -1;
+	}
+
+	.detail-card h3 {
+		margin: 0 0 0.875rem;
+		font-size: 0.95rem;
+		color: var(--text-primary, #1e293b);
+	}
+
+	.detail-card-header {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		gap: 0.75rem;
+		margin-bottom: 0.875rem;
+	}
+
+	.detail-card-header h3 {
+		margin-bottom: 0;
+	}
+
+	.detail-list {
+		display: grid;
+		grid-template-columns: repeat(2, minmax(0, 1fr));
+		gap: 0.875rem 1rem;
+		margin: 0;
+	}
+
+	.detail-list-columns {
+		grid-template-columns: repeat(3, minmax(0, 1fr));
+	}
+
+	.detail-list > div {
+		min-width: 0;
+	}
+
+	.detail-list-full {
+		grid-column: 1 / -1;
+	}
+
+	.detail-list dt {
+		margin: 0 0 0.25rem;
+		font-size: 0.72rem;
+		font-weight: 700;
+		letter-spacing: 0.04em;
+		text-transform: uppercase;
+		color: var(--text-secondary, var(--text-tertiary));
+	}
+
+	.detail-list dd {
+		margin: 0;
+		font-size: 0.875rem;
+		line-height: 1.5;
+		color: var(--text-primary, #1e293b);
+		word-break: break-word;
+	}
+
+	.detail-text {
+		white-space: pre-wrap;
+	}
+
+	.detail-empty {
+		margin: 0;
+		font-size: 0.875rem;
+		color: var(--text-secondary, var(--text-tertiary));
+	}
+
+	.person-modal-footer {
+		display: flex;
+		justify-content: flex-end;
+		flex-wrap: wrap;
+		gap: 0.75rem;
+		padding: 1rem 1.5rem 1.5rem;
+		border-top: 1px solid var(--border-color);
 	}
 
 	/* Loading spinner */
@@ -2075,6 +2752,18 @@
 	@media (max-width: 1024px) {
 		.content-grid {
 			grid-template-columns: 1fr;
+		}
+
+		.person-detail-grid {
+			grid-template-columns: 1fr;
+		}
+
+		.detail-card-wide {
+			grid-column: auto;
+		}
+
+		.detail-list-columns {
+			grid-template-columns: repeat(2, minmax(0, 1fr));
 		}
 
 		.side-column {
@@ -2157,6 +2846,23 @@
 			padding: 0.625rem 0.75rem;
 		}
 
+		.person-modal {
+			max-height: calc(100vh - 1.5rem);
+			border-radius: 14px;
+		}
+
+		.person-modal-header,
+		.person-modal-body,
+		.person-modal-footer {
+			padding-left: 1rem;
+			padding-right: 1rem;
+		}
+
+		.detail-list,
+		.detail-list-columns {
+			grid-template-columns: 1fr;
+		}
+
 		.goal-cell {
 			display: none;
 		}
@@ -2164,6 +2870,10 @@
 		.action-buttons {
 			flex-direction: column;
 			gap: 0.375rem;
+		}
+
+		.action-cell {
+			text-align: left;
 		}
 	}
 
@@ -2199,6 +2909,23 @@
 			grid-template-columns: repeat(3, 1fr);
 			gap: 0.375rem;
 		}
+
+		.modal-overlay {
+			padding: 0.75rem;
+		}
+
+		.person-modal-header {
+			padding-top: 1rem;
+			padding-bottom: 1rem;
+		}
+
+		.person-modal-header h2 {
+			font-size: 1.125rem;
+		}
+
+		.person-modal-footer .btn {
+			width: 100%;
+		}
 	}
 
 	/* ==========================================
@@ -2220,5 +2947,11 @@
 
 	:global(.dark) .waitlist-table th {
 		background: var(--hover-background, #1e293b);
+	}
+
+	:global(.dark) .person-modal,
+	:global(.dark) .detail-card {
+		background: var(--card-background, #1e293b);
+		border-color: var(--border-color, #334155);
 	}
 </style>

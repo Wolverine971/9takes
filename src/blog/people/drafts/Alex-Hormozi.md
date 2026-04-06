@@ -1,8 +1,8 @@
 ---
 title: 'Alex Hormozi: The Psychology Behind His $100M Obsession'
-meta_title: "Why Alex Hormozi Can't Stop Chasing More (The Pattern Nobody Talks About)"
+meta_title: 'Why Alex Hormozi Treats Output Like Self-Worth'
 persona_title: 'The Acquisition Architect'
-description: 'Alex Hormozi wakes at 4am, eats the same three meals every day, and has posted 700 videos per year since 2020. What does that kind of drive actually cost? The Enneagram Type 3 psychology behind his $100M empire.'
+description: 'Alex Hormozi runs on discipline, repetition, and relentless output, turning self-optimization into a $100M empire and a never-ending test of worth.'
 author: 'DJ Wayne'
 date: '2026-01-06'
 loc: 'https://9takes.com/personality-analysis/Alex-Hormozi'

@@ -1,3 +1,5 @@
+<!-- docs/instagram/account-profiles/_template.md -->
+
 # @handle
 
 **Handle:** @handle
@@ -5,7 +7,9 @@
 **Profile URL:** https://www.instagram.com/handle/
 **Category:** [Enneagram / Psychology / Therapy / MBTI / Relationship / Celebrity / Other]
 **Tier:** [1/2/3/4]
+**Strategic Role:** [Peer / Anchor / Adjacent Partner / Rising / Monitor only]
 **Relationship Status:** [Prospect / Warm / Active / Monitor only]
+**Audience Quality:** [High / Medium / Low]
 **Profile Created:** YYYY-MM-DD
 **Last Reviewed:** YYYY-MM-DD
 **Last Engaged:** [YYYY-MM-DD / Never]
@@ -42,9 +46,9 @@
 
 ## Relationship History
 
-| Date | Surface | Topic | Action | Status | What We Said / Planned | Outcome | Source |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| YYYY-MM-DD | Post | [topic] | Reviewed | Logged | [brief note] | [none yet] | [warmup doc] |
+| Date       | Surface | Topic   | Post Link | Action   | Status | What We Said / Planned | Outcome    | Source       |
+| ---------- | ------- | ------- | --------- | -------- | ------ | ---------------------- | ---------- | ------------ |
+| YYYY-MM-DD | Post    | [topic] | [URL]     | Reviewed | Logged | [brief note]           | [none yet] | [warmup doc] |
 
 ## Open Loops
 

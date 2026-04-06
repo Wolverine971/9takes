@@ -197,7 +197,7 @@ These are not as bad as the queue above because they at least contain a person-s
   - Missing `meta_title`
   - H2 set is more template-like than the article quality deserves
   - Examples: `Sabrina Carpenter's Upbringing`, `Rise to Fame`, `How Sabrina Thinks: Personality Quirks and Mental Patterns`
-  Recommendation: Keep the H1, add a strong `meta_title`, and rewrite the generic H2s to match the voice and specificity of the body.
+    Recommendation: Keep the H1, add a strong `meta_title`, and rewrite the generic H2s to match the voice and specificity of the body.
 
 ## Practical Rewrite Rules for the Next Pass
 

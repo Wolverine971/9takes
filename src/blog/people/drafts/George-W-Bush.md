@@ -1,6 +1,6 @@
 ---
-title: "George W. Bush: The Underestimated President's Enneagram Type 6 Mind"
-meta_title: 'The Real George W. Bush: A President Driven by Loyalty and Fear'
+title: 'George W. Bush: The Boy Who Turned Fear Into Certainty'
+meta_title: 'Why George W. Bush Turned Fear Into Command'
 persona_title: "America's Counterphobic Commander"
 description: 'Inside the mind of George W. Bush — how a C-student frat boy became a wartime president, and why the man who sent soldiers to war now paints their portraits.'
 author: 'DJ Wayne'

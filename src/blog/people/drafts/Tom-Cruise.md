@@ -70,7 +70,7 @@ That is not a quote about work ethic. It is a statement of identity. Going all t
 - **Defense Mechanism**: Self-deception through identification. He IS what he does. There is no separation.
 - **The Tell**: When you watch him in interviews, notice what he never does. He never pauses. He never reflects. He never says "I don't know." The performance is always on.
 
-## The Making of a Character
+## How a Persona Named Tom Cruise Was Invented
 
 ### An Abusive Father and the Origins of Performance
 
@@ -110,7 +110,7 @@ Then he discovered acting in a high school production of _Guys and Dolls_. The e
 
 Two systems that reward total commitment. He chose the one with an audience.
 
-## The Name
+## Why Thomas Mapother Had to Disappear
 
 At some point, Thomas Cruise Mapother IV became Tom Cruise. He took his middle name, shed his father's surname, and left the Mapother line behind.
 
@@ -118,7 +118,7 @@ It was not just a stage name. It was an identity replacement. The abused kid wit
 
 He has been Tom Cruise longer than he was ever Thomas Mapother. The role has outlasted every marriage, every friendship, every controversy. It may be the longest-running performance in the history of cinema.
 
-## The Roles That Reveal Him
+## The Roles That Reveal the Man Underneath
 
 Most Cruise profiles walk chronologically through his filmography. That misses the point. The interesting question is not _what roles did he play_ but _what do his choices reveal about the person underneath?_
 
@@ -148,7 +148,7 @@ For _Collateral_ (2004), Cruise worked undercover as a FedEx deliveryman to prac
 
 What does it mean when the most famous person in the world practices being invisible? For a Type 3 whose identity IS visibility, this is the shadow exercise: trying on the thing that terrifies you most. Anonymity. Being nobody. And then turning even that into a performance.
 
-## The Running
+## Why the Running Never Stops
 
 There is a detail about Tom Cruise that has become its own cultural phenomenon: the man _runs_.
 
@@ -160,7 +160,7 @@ He runs _more_ as he gets older. Five of his top ten running films came after 20
 
 The running is Tom Cruise in his purest visual form. Always moving forward. Always at maximum effort. Always alone. Never slowing down, because slowing down would mean the performance has weakened. And if the performance weakens, the identity underneath — whatever remains of Thomas Mapother — might become visible.
 
-## Controlling the Product
+## Why Control Became Non-Negotiable
 
 In 1992, Cruise co-founded **Cruise/Wagner Productions**. The purpose was simple: control. He didn't want to be hired talent waiting for scripts. He wanted to own the product.
 
@@ -170,7 +170,7 @@ Across seven Mission: Impossible films, his backend deals have generated an esti
 
 Actors get paid once. Owners get paid forever. This is Type 3 at the business level: identification with the product. He doesn't just perform in Mission: Impossible. He _is_ Mission: Impossible. He controls casting, director selection, editing, stunt design. When his partnership with Paramount fractured around 2006, the real issue wasn't the Scientology controversies. It was Paramount's frustration with how large a share of revenue the Cruise/Wagner deal commanded. In 2024, Cruise signed a major production deal with Warner Bros. At 62, he is not just an actor. He is a studio-level force.
 
-## The Stunts: The Character Made Flesh
+## How the Stunts Turned the Persona Into Flesh
 
 Tom Cruise has hung off the side of an airplane during takeoff. Jumped from 25,000 feet. Held his breath underwater for six minutes. Broken his ankle on a rooftop jump in London and kept running for the shot.
 
@@ -204,7 +204,7 @@ When jet fuel entered Teller's bloodstream during filming: "'Well, Tom, it turns
 
 At their best, Type 3s don't just achieve for themselves. They pass on the craft. They make the people around them better. This is real, and it makes what comes next more complicated.
 
-## The Contradiction
+## The Warmest Thing About Tom Is Also the Weirdest
 
 Every Christmas, Tom sends his famous **white chocolate coconut bundt cakes** to co-stars and friends. He once spent $15,000 on 300 cakes and dispatched his private jet on a 5,550-mile round trip across the Atlantic to deliver them to the London crew.
 
@@ -222,7 +222,7 @@ In June 2024, when his daughter Suri graduated from LaGuardia High School in New
 
 The same man who sends shoes to a child actress for twenty years has not attended his daughter's graduation. The same capacity for sustained connection is _right there_. This is not about inability. It is about a system — and an identity — that demands a different kind of loyalty.
 
-## The System
+## Why Scientology Fits the Need for Control
 
 No analysis of Tom Cruise is complete without Scientology. But most analyses stop at _what happened_ without asking _why it works_.
 
@@ -260,7 +260,7 @@ Former members have made serious allegations about Tom's role in the organizatio
 
 Whether these claims are accurate, they point to something psychologically coherent: a man who grew up feeling powerless in an abusive home found an organization where he holds enormous power. And the organization validates the very thing that drives him — the equation of worth with achievement.
 
-## Three Marriages: The Test of Intimacy
+## Why Intimacy Keeps Failing the Persona
 
 Each of Tom Cruise's three marriages tested whether the real person could be reached beneath the performance.
 
@@ -272,7 +272,7 @@ Each of Tom Cruise's three marriages tested whether the real person could be rea
 
 All three marriages ended. All three involved Scientology tensions. The pattern is consistent. Intimacy gets close. The system intervenes. The performance wins. When a belief system validates your identity more powerfully than any relationship can, choosing the relationship means confronting the question the performance exists to prevent: _who are you without it?_
 
-## Defying Age at 62
+## Still Having to Prove It at 62
 
 _Mission: Impossible — The Final Reckoning_ (2025) carried a $300-400 million budget and opened bigger than any previous entry in the franchise.
 
@@ -284,7 +284,7 @@ Aging is the one opponent you cannot outperform. When your identity is built on 
 
 The same engine that built one of Hollywood's greatest careers is the same engine that makes rest impossible. Because rest isn't rest. Rest is the moment the performance stops. And when the performance stops, Thomas Mapother — whoever he is now — would have to show up.
 
-## The Longest-Running Performance
+## Hollywood's Longest-Running Performance
 
 He was born Thomas Cruise Mapother IV, the fourth in a line. He shed the name. He shed the father. He kept the middle name and built it into the most recognizable identity in cinema history.
 

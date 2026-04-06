@@ -18,13 +18,14 @@ Use it together with:
 
 - `docs/instagram/account-profiles/<handle>.md` for living profile intel and running relationship history
 - `docs/instagram/daily-engagement/YYYY-MM-DD_instagram-warmup.md` for the daily sourcing queue
-- `docs/instagram/daily-engagement/YYYY-MM-DD_instagram-replies.md` for drafted replies and execution notes
+- `docs/instagram/daily-engagement/<derived replies filename>.md` for drafted replies and execution notes
+- `docs/instagram/instagram-peer-growth-strategy-2026.md` for the definition of strategic relevance and peer-growth discovery
 
 Create or update an account profile when:
 
 - the account is queued for reply
 - the account has engaged with @9takesdotcom
-- the account is strategically important enough to revisit
+- the account crosses the strategic relevance threshold
 - the account keeps resurfacing in scans
 
 The workflow is:
@@ -165,12 +166,13 @@ The workflow is:
 
 _Accounts found during warmup scans. Review weekly and promote to higher tiers if consistently valuable._
 
-| Account                  | Followers | Theme                                     | Content Type                      | Discovered | Suggested Tier | Why                                                                |
-| ------------------------ | --------- | ----------------------------------------- | --------------------------------- | ---------- | -------------- | ------------------------------------------------------------------ |
-| @cathartic_word          | ~18K      | Enneagram + poetry, journaling prompts    | Poetry graphics, writing prompts  | 2026-03-15 | Tier 1         | Prompt-based approach = 9takes Q&A format                          |
-| @enneagram_relationships | ~5K       | Certified coach; romantic type dynamics   | Educational relationship graphics | 2026-03-15 | Tier 1         | Small = accessible for collaboration                               |
-| @dear.kristin            | ~4K       | MBTI comedy sketches, "Type Trends" polls | Reels, Stories polls              | 2026-03-15 | Tier 3         | "Type Trends" experiments = 9takes' "one question, 9 perspectives" |
-| @theenneagraminbusiness  | ~2K       | Enneagram for organizations, leadership   | Business educational              | 2026-03-15 | Tier 1         | Underserved niche — opportunity gap for 9takes                     |
+| Account                  | Followers | Theme                                     | Content Type                      | Discovered | Suggested Tier  | Why                                                                |
+| ------------------------ | --------- | ----------------------------------------- | --------------------------------- | ---------- | --------------- | ------------------------------------------------------------------ |
+| @cathartic_word          | ~18K      | Enneagram + poetry, journaling prompts    | Poetry graphics, writing prompts  | 2026-03-15 | Tier 1          | Prompt-based approach = 9takes Q&A format                          |
+| @enneagram_relationships | ~5K       | Certified coach; romantic type dynamics   | Educational relationship graphics | 2026-03-15 | Tier 1          | Small = accessible for collaboration                               |
+| @dear.kristin            | ~4K       | MBTI comedy sketches, "Type Trends" polls | Reels, Stories polls              | 2026-03-15 | Tier 3          | "Type Trends" experiments = 9takes' "one question, 9 perspectives" |
+| @theenneagraminbusiness  | ~2K       | Enneagram for organizations, leadership   | Business educational              | 2026-03-15 | Tier 1          | Underserved niche — opportunity gap for 9takes                     |
+| @enneagramseattle        | Unknown   | Enneagram community/education             | Unknown                           | 2026-04-06 | Tier 1 / Tier 4 | Suggested in IG sidebar; followed by 8ish_andiknowit. Needs review |
 
 ---
 

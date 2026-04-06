@@ -1,7 +1,7 @@
 ---
-title: 'Alexandria Ocasio-Cortez: The Type 6 Psychology Behind Her Fearless Rise'
-meta_title: "Why AOC Can't Stop Fighting the System | Enneagram Type 6 Analysis"
-description: "Discover how AOC's Type 6 personality drives her from bartender to Congress to potential 2028 contender. The psychology behind her fearless politics."
+title: 'Alexandria Ocasio-Cortez: The Insurgent Who Turns Fear Into Fight'
+meta_title: 'Why AOC Keeps Picking Fights With Power'
+description: 'Alexandria Ocasio-Cortez turned family instability, political vigilance, and counterphobic courage into a career built on confronting power in public.'
 persona_title: "Congress's Vigilant Insurgent"
 author: 'DJ Wayne'
 date: '2024-05-06'

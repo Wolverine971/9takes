@@ -1,6 +1,7 @@
 ---
 title: 'Paris Hilton: The Mask That Built an Empire'
-description: 'Paris Hilton played dumb while building a billion-dollar brand. Inside the trauma, the strategy, and the Type 3 psychology behind the most misread woman in pop culture.'
+meta_title: 'Why Paris Hilton Had to Invent a Character'
+description: 'Paris Hilton turned a trauma-born persona into a billion-dollar empire, then spent years trying to recover the self buried underneath it.'
 persona_title: "Pop Culture's Masked Mogul"
 author: 'DJ Wayne'
 date: '2025-02-12'
@@ -107,7 +108,7 @@ This is where Paris Hilton — the character, the brand, the public persona — 
 
 She built a Disney-princess future in her mind while locked in a room with blood on the walls. That was the first performance. Everything after was scale.
 
-## The Blonde Fortress
+## How the Dumb Blonde Became Armor
 
 When a Type 3 is under extreme stress, they slide toward [Type 9](/enneagram-corner/enneagram-type-9). The achiever's drive dissolves into numbness. Identity collapses into whatever absorbs the pain.
 
@@ -181,7 +182,7 @@ The moving finish line. Each goal hit, and the shame still there underneath. A b
 
 It never did.
 
-## Dropping the Mask
+## What Happened When the Mask Finally Dropped
 
 In 2020, her documentary _This Is Paris_ broke the character open. She talked publicly about the boarding schools for the first time. She cried on camera. She let the world see someone other than the Barbie doll.
 
@@ -219,7 +220,7 @@ She told Lewis Howes the same thing: once the story was public, the nightmares s
 
 This is the part of the Type 3 journey that matters most: the moment where the person behind the performance decides the performance costs more than the truth.
 
-## The Advocate
+## Taking the Story to Congress
 
 When a healthy Type 3 grows, they move toward the qualities of [Type 6](/enneagram-corner/enneagram-type-6) — loyalty, commitment, protecting the group. The ambition that once served personal image gets redirected outward. The achiever becomes the guardian.
 

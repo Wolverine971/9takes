@@ -1,8 +1,8 @@
 ---
 title: 'Joe Biden: Every Wound Became an Offering — Until the Last One'
-meta_title: "Joe Biden's Final Act: Why a Father Broke Every Rule for Family"
+meta_title: 'Why Joe Biden Let Family Loyalty Break the Rules'
 persona_title: 'The Bridge-Builder Who Built a Wall'
-description: "Biden promised he'd never pardon Hunter. Then he did — and pardoned his siblings in his final twenty minutes as president. The Enneagram Type 2 psychology behind a lifetime of turning wounds into offerings, and the moment a father's boundaries dissolved."
+description: 'Biden spent a lifetime turning grief into public duty, until family loyalty finally overran the rules he once said would hold.'
 author: 'DJ Wayne'
 date: '2023-03-09'
 loc: 'https://9takes.com/personality-analysis/Joe-Biden'

@@ -1,8 +1,8 @@
 ---
 title: "Marilyn Monroe: The Loyalty Tests of Hollywood's Most Guarded Heart"
-meta_title: "Marilyn Monroe's Enneagram Type 6 Personality | The Woman Behind the Armor"
+meta_title: 'Why Marilyn Monroe Tested Everyone She Loved'
 persona_title: "Hollywood's Armored Icon"
-description: "Why Marilyn Monroe tested everyone she loved. Inside the Type 6 psychology of Hollywood's most misunderstood icon."
+description: 'Marilyn Monroe turned intelligence, allure, and reinvention into armor while quietly asking whether anyone could be trusted with Norma Jeane.'
 author: 'DJ Wayne'
 date: '2023-03-09'
 loc: 'https://9takes.com/personality-analysis/Marilyn-Monroe'

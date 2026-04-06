@@ -1,8 +1,8 @@
 ---
 title: "Olivia Rodrigo: The Therapist's Daughter Who Screams Inside"
-meta_title: "Why Olivia Rodrigo Gives Everything and Still Feels Like It's Not Enough"
+meta_title: "Why Olivia Rodrigo Still Can't Keep Anything for Herself"
 persona_title: "Pop's Tender Confessor"
-description: 'How Olivia Rodrigo learned to give her feelings to millions in songs before she learned to keep them for herself.'
+description: 'Olivia Rodrigo learned to hand her feelings to millions through songs long before she learned how to keep any of that tenderness for herself.'
 author: 'DJ Wayne'
 date: '2024-10-30'
 loc: 'https://9takes.com/personality-analysis/Olivia-Rodrigo'

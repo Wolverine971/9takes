@@ -1,8 +1,8 @@
 ---
 title: "Amber Heard: The Psychology Behind Hollywood's Most Polarizing Actress"
-meta_title: "Why Amber Heard Can't Stop Reinventing Herself - Enneagram Type 3 Analysis"
+meta_title: 'Why Amber Heard Keeps Reinventing Herself'
 persona_title: 'The Image on Trial'
-description: "From Texas horse farms to Spanish motherhood: how Amber Heard's Type 3 drive shapes her most controversial choices"
+description: 'Amber Heard rebuilt herself after every public collapse, turning image management, reinvention, and ambition into the only stability she trusts.'
 author: 'DJ Wayne'
 date: '2024-07-10'
 loc: 'https://9takes.com/personality-analysis/Amber-Heard'

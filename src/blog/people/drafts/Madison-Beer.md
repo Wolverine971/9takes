@@ -1,7 +1,7 @@
 ---
-title: "Madison Beer: The Enneagram Type 4 Who Couldn't Stop Searching"
-meta_title: "Madison Beer's Personality Decoded | Why She Collects Other People's Lockets"
-description: 'Madison Beer collects antique lockets and names albums after them. The Type 4 psychology behind her music, BPD, and decade-long fight to find herself in public.'
+title: "Madison Beer: The Pop Star Who Can't Stop Searching for Herself"
+meta_title: 'Why Madison Beer Keeps Searching for a Self'
+description: 'Madison Beer turned lockets, lyrics, therapy, and public breakdowns into one long search for an identity that actually feels like hers.'
 persona_title: "Pop's Haunted Locket"
 author: 'DJ Wayne'
 date: '2024-10-30'
