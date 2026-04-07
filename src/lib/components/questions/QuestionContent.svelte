@@ -51,6 +51,7 @@
 	// Get the comments to display (sorted if user sorted, otherwise from data)
 	let displayComments = $derived(sortedComments || _data.comments);
 	let displayCommentCount = $derived(sortedComments?.length ?? _data.comment_count);
+	let publicAiPreviewComments = $derived.by(() => (_data.aiComments ?? []).slice(0, 3));
 
 	// Smooth scroll to section when tab is clicked
 	function scrollToSection(sectionId: string) {
@@ -156,32 +157,58 @@
 					<div class="question-content-section-inner">
 						{#if section === 'Comments'}
 							{#if !data?.flags?.userHasAnswered}
-								<div class="question-state question-state-locked">
-									<div class="state-icon state-icon-locked">
-										<svg
-											class="h-8 w-8 text-[var(--primary)]"
-											fill="none"
-											stroke="currentColor"
-											viewBox="0 0 24 24"
-										>
-											<path
-												stroke-linecap="round"
-												stroke-linejoin="round"
-												stroke-width="2"
-												d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"
-											/>
-										</svg>
+								<div class="locked-comments-shell">
+									{#if publicAiPreviewComments.length}
+										<section class="public-perspective-preview" aria-label="Sample perspectives">
+											<div class="public-perspective-preview__head">
+												<h3 class="public-perspective-preview__title">Sample perspectives</h3>
+												<p class="public-perspective-preview__copy">
+													Public visitors can preview a few Enneagram-style takes before
+													joining the discussion. Community comments stay locked until you
+													share your own perspective.
+												</p>
+											</div>
+
+											<div class="public-perspective-preview__grid">
+												{#each publicAiPreviewComments as comment}
+													<article class="public-perspective-card">
+														<div class="public-perspective-card__eyebrow">
+															Type {comment.enneagram_type}
+														</div>
+														<p class="public-perspective-card__body">{comment.comment}</p>
+													</article>
+												{/each}
+											</div>
+										</section>
+									{/if}
+
+									<div class="question-state question-state-locked">
+										<div class="state-icon state-icon-locked">
+											<svg
+												class="h-8 w-8 text-[var(--primary)]"
+												fill="none"
+												stroke="currentColor"
+												viewBox="0 0 24 24"
+											>
+												<path
+													stroke-linecap="round"
+													stroke-linejoin="round"
+													stroke-width="2"
+													d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"
+												/>
+											</svg>
+										</div>
+										<p class="state-title" in:fade={{ duration: 200 }}>
+											{displayCommentCount === 0
+												? 'Be the first to share your perspective'
+												: 'Share your perspective to unlock comments'}
+										</p>
+										<p class="state-copy">
+											{displayCommentCount > 0
+												? `${displayCommentCount} perspectives waiting to be revealed`
+												: 'Your unique viewpoint matters'}
+										</p>
 									</div>
-									<p class="state-title" in:fade={{ duration: 200 }}>
-										{displayCommentCount === 0
-											? 'Be the first to share your perspective'
-											: 'Share your perspective to unlock comments'}
-									</p>
-									<p class="state-copy">
-										{displayCommentCount > 0
-											? `${displayCommentCount} perspectives waiting to be revealed`
-											: 'Your unique viewpoint matters'}
-									</p>
 								</div>
 							{:else}
 								<!-- AI-Generated Comments -->
@@ -406,6 +433,72 @@
 		padding: 0 1rem;
 	}
 
+	.locked-comments-shell {
+		display: grid;
+		gap: 1rem;
+		padding: 0 1rem;
+	}
+
+	.public-perspective-preview {
+		padding: 1rem;
+		border: 1px solid color-mix(in srgb, var(--primary) 18%, var(--border-color));
+		border-radius: 1.15rem;
+		background:
+			linear-gradient(
+				180deg,
+				color-mix(in srgb, var(--primary-subtle) 32%, transparent) 0%,
+				transparent 100%
+			),
+			color-mix(in srgb, var(--bg-surface) 94%, transparent);
+		box-shadow: var(--shadow-sm);
+	}
+
+	.public-perspective-preview__head {
+		margin-bottom: 0.9rem;
+	}
+
+	.public-perspective-preview__title {
+		margin: 0 0 0.25rem;
+		font-size: 1rem;
+		font-weight: 700;
+		color: var(--text-primary);
+	}
+
+	.public-perspective-preview__copy {
+		margin: 0;
+		font-size: 0.92rem;
+		line-height: 1.6;
+		color: var(--text-secondary);
+	}
+
+	.public-perspective-preview__grid {
+		display: grid;
+		gap: 0.75rem;
+	}
+
+	.public-perspective-card {
+		padding: 0.95rem 1rem;
+		border: 1px solid color-mix(in srgb, var(--primary) 16%, var(--border-color));
+		border-radius: 1rem;
+		background: color-mix(in srgb, var(--bg-surface) 88%, transparent);
+	}
+
+	.public-perspective-card__eyebrow {
+		margin-bottom: 0.45rem;
+		font-size: 0.72rem;
+		font-weight: 700;
+		letter-spacing: 0.08em;
+		text-transform: uppercase;
+		color: var(--primary);
+	}
+
+	.public-perspective-card__body {
+		margin: 0;
+		font-size: 0.95rem;
+		line-height: 1.65;
+		color: var(--text-primary);
+	}
+
 	.question-state {
 		display: flex;
 		flex-direction: column;
@@ -507,8 +600,16 @@
 			padding: 0 0.8rem;
 		}
 
+		.locked-comments-shell {
+			padding: 0 0.8rem;
+		}
+
+		.public-perspective-preview {
+			padding: 0.9rem;
+		}
+
 		.question-state {
-			margin: 0 0.9rem;
+			margin: 0;
 			padding: 2.2rem 1rem;
 		}
 

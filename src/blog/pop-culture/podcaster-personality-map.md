@@ -8,7 +8,7 @@ loc: 'https://9takes.com/pop-culture/podcaster-personality-map'
 lastmod: '2026-03-24'
 changefreq: 'monthly'
 priority: '0.6'
-published: false
+published: true
 type: ['situational']
 blog: true
 previewHtml: ''

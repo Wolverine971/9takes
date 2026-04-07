@@ -64,6 +64,7 @@ const ROUTE_FILES = {
 		'src/routes/book-session/+page.ts'
 	],
 	community: ['src/routes/community/+page.svelte', 'src/routes/community/+page.server.ts'],
+	popCulture: ['src/routes/pop-culture/+page.svelte', 'src/routes/pop-culture/+page.server.ts'],
 	enneagramCorner: [
 		'src/routes/enneagram-corner/+page.svelte',
 		'src/routes/enneagram-corner/+page.server.ts'
@@ -100,6 +101,14 @@ const ROUTE_FILES = {
 		'src/routes/questions/+page.svelte',
 		'src/routes/questions/+page.server.ts',
 		'src/routes/questions/+page.ts'
+	],
+	questionsCategories: [
+		'src/routes/questions/categories/+page.svelte',
+		'src/routes/questions/categories/+page.server.ts'
+	],
+	questionCategory: [
+		'src/routes/questions/categories/[slug]/+page.svelte',
+		'src/routes/questions/categories/[slug]/+page.server.ts'
 	],
 	blogExperiment: [
 		'src/routes/blog/experiment/+page.svelte',
@@ -279,7 +288,7 @@ function resolveStaticLastmod({
 	);
 }
 
-export function buildStaticPages({ posts, peoplePosts, questions }) {
+export function buildStaticPages({ posts, peoplePosts, questions, questionCategoryLastmod = null }) {
 	const latestAllPosts = getLatestItemDate(posts, (post) => post.lastmod ?? post.date);
 	const latestBlogContent = getLatestItemDate(posts, (post) =>
 		post.sourceCategory === 'community' ||
@@ -293,6 +302,9 @@ export function buildStaticPages({ posts, peoplePosts, questions }) {
 	const latestQuestions = getLatestItemDate(questions, (question) => question.updated_at);
 	const latestCommunity = getLatestItemDate(posts, (post) =>
 		post.sourceCategory === 'community' ? (post.lastmod ?? post.date) : null
+	);
+	const latestPopCulture = getLatestItemDate(posts, (post) =>
+		post.sourceCategory === 'pop-culture' ? (post.lastmod ?? post.date) : null
 	);
 	const latestGuides = getLatestItemDate(posts, (post) =>
 		post.sourceCategory === 'guides' ? (post.lastmod ?? post.date) : null
@@ -346,6 +358,14 @@ export function buildStaticPages({ posts, peoplePosts, questions }) {
 			lastmod: resolveStaticLastmod({
 				contentDates: [latestCommunity],
 				routePaths: ROUTE_FILES.community,
+				siteFallbackLastmod
+			})
+		},
+		{
+			loc: `${SITE_URL}/pop-culture`,
+			lastmod: resolveStaticLastmod({
+				contentDates: [latestPopCulture],
+				routePaths: ROUTE_FILES.popCulture,
 				siteFallbackLastmod
 			})
 		},
@@ -426,6 +446,14 @@ export function buildStaticPages({ posts, peoplePosts, questions }) {
 				siteFallbackLastmod
 			})
 		},
+		{
+			loc: `${SITE_URL}/questions/categories`,
+			lastmod: resolveStaticLastmod({
+				contentDates: [questionCategoryLastmod],
+				routePaths: ROUTE_FILES.questionsCategories,
+				siteFallbackLastmod
+			})
+		},
 		...Array.from({ length: 9 }, (_, index) => {
 			const enneagram = index + 1;
 			return {
@@ -478,6 +506,141 @@ function dedupeEntries(entries) {
 	return [...byLoc.values()];
 }
 
+function toQuestionCategorySlug(categoryName) {
+	return String(categoryName ?? '')
+		.trim()
+		.replace(/\s+/g, '-');
+}
+
+function buildQuestionCategoryEntries(categories, categoryTags, questions) {
+	const activeQuestionLastmodById = new Map(
+		questions
+			.map((question) => [question.id, formatLastmod(question.updated_at ?? question.created_at)])
+			.filter(([, lastmod]) => Boolean(lastmod))
+	);
+
+	const nodes = new Map(
+		categories.map((category) => [
+			category.id,
+			{
+				id: category.id,
+				category_name: category.category_name,
+				parent_id: category.parent_id,
+				children: [],
+				directQuestionIds: new Set(),
+				introLastmod: formatLastmod(category.intro_updated_at)
+			}
+		])
+	);
+
+	for (const tag of categoryTags) {
+		if (!activeQuestionLastmodById.has(tag.question_id)) continue;
+		nodes.get(tag.tag_id)?.directQuestionIds.add(tag.question_id);
+	}
+
+	const roots = [];
+	for (const category of categories) {
+		const node = nodes.get(category.id);
+		if (!node) continue;
+
+		if (node.parent_id !== null) {
+			const parent = nodes.get(node.parent_id);
+			if (parent) {
+				parent.children.push(node);
+				continue;
+			}
+		}
+
+		roots.push(node);
+	}
+
+	function prune(node) {
+		const prunedChildren = node.children.map((child) => prune(child)).filter(Boolean);
+		const hasQuestions = node.directQuestionIds.size > 0 || prunedChildren.length > 0;
+
+		if (!hasQuestions) {
+			return null;
+		}
+
+		let lastmod = node.introLastmod;
+		for (const questionId of node.directQuestionIds) {
+			lastmod = maxLastmod(lastmod, activeQuestionLastmodById.get(questionId));
+		}
+
+		for (const child of prunedChildren) {
+			lastmod = maxLastmod(lastmod, child.lastmod);
+		}
+
+		return {
+			id: node.id,
+			category_name: node.category_name,
+			lastmod,
+			children: prunedChildren
+		};
+	}
+
+	const entries = [];
+	let latestLastmod = null;
+
+	function collect(node) {
+		if (node.lastmod) {
+			entries.push({
+				loc: `${SITE_URL}/questions/categories/${toQuestionCategorySlug(node.category_name)}`,
+				lastmod: node.lastmod
+			});
+			latestLastmod = maxLastmod(latestLastmod, node.lastmod);
+		}
+
+		for (const child of node.children) {
+			collect(child);
+		}
+	}
+
+	for (const root of roots.map((node) => prune(node)).filter(Boolean)) {
+		collect(root);
+	}
+
+	return {
+		entries,
+		latestLastmod
+	};
+}
+
+function buildQuestionEntry(question) {
+	const lastmod = formatLastmod(question.updated_at ?? question.created_at);
+	if (!question?.url || !lastmod) return null;
+
+	return {
+		loc: `${SITE_URL}/questions/${question.url}`,
+		lastmod
+	};
+}
+
+async function getQuestionCategoryPages(questions) {
+	const supabase = getSupabase();
+	const [{ data: categories, error: categoriesError }, { data: categoryTags, error: categoryTagsError }] =
+		await Promise.all([
+			supabase
+				.from('question_categories')
+				.select('id, category_name, parent_id, intro_updated_at')
+				.order('id', { ascending: true }),
+			supabase.from('question_category_tags').select('question_id, tag_id')
+		]);
+
+	if (categoriesError || categoryTagsError) {
+		console.warn('Error fetching question category pages:', {
+			categoriesError: categoriesError?.message,
+			categoryTagsError: categoryTagsError?.message
+		});
+		return {
+			entries: [],
+			latestLastmod: null
+		};
+	}
+
+	return buildQuestionCategoryEntries(categories ?? [], categoryTags ?? [], questions);
+}
+
 async function getAllPosts() {
 	const categories = [
 		'community',
@@ -525,7 +688,7 @@ async function getQuestions() {
 	const supabase = getSupabase();
 	const { data, error } = await supabase
 		.from('questions')
-		.select('url, updated_at')
+		.select('id, url, updated_at, created_at')
 		.eq('flagged', false)
 		.eq('removed', false)
 		.eq('tagged', true)
@@ -596,15 +759,19 @@ async function generateSitemap() {
 		getFamousPeople(),
 		getQuestions()
 	]);
-	const staticPages = buildStaticPages({ posts, peoplePosts, questions });
+	const questionCategoryPages = await getQuestionCategoryPages(questions);
+	const staticPages = buildStaticPages({
+		posts,
+		peoplePosts,
+		questions,
+		questionCategoryLastmod: questionCategoryPages.latestLastmod
+	});
 
 	const dynamicEntries = [
 		...posts.map(buildPostEntry),
 		...peoplePosts.map(buildPostEntry),
-		...questions.map((question) => ({
-			loc: `${SITE_URL}/questions/${question.url}`,
-			lastmod: formatLastmod(question.updated_at)
-		}))
+		...questions.map(buildQuestionEntry),
+		...questionCategoryPages.entries
 	].filter(Boolean);
 
 	const entries = dedupeEntries([...staticPages, ...dynamicEntries]).sort((a, b) =>

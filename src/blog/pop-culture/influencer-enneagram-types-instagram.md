@@ -8,7 +8,7 @@ loc: 'https://9takes.com/pop-culture/influencer-enneagram-types-instagram'
 lastmod: '2025-12-16'
 changefreq: 'monthly'
 priority: '0.6'
-published: false
+published: true
 type: ['situational']
 blog: true
 previewHtml: ''

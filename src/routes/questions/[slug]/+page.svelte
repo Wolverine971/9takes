@@ -8,8 +8,9 @@
 	import Interact from '$lib/components/molecules/Interact.svelte';
 	import QuestionContent from '$lib/components/questions/QuestionContent.svelte';
 	import SEOHead from '$lib/components/SEOHead.svelte';
+	import { buildBreadcrumbSchemaForGraph } from '$lib/utils/schema';
 	import type { PageData } from './$types';
-	import type { QuestionPageData, Comment } from '$lib/types/questions';
+	import type { QuestionPageData, Comment, QuestionTag } from '$lib/types/questions';
 	import { PUBLIC_SUPABASE_URL } from '$env/static/public';
 	import {
 		isQuestionSocialCardV1,
@@ -27,6 +28,8 @@
 	};
 
 	const DEFAULT_MAX_CATEGORIES_PER_QUESTION = 3;
+	const MAX_META_DESCRIPTION_LENGTH = 160;
+	const MAX_CONTEXT_PREVIEW_LENGTH = 320;
 
 	// Local state for optimistic updates
 	let optimisticComments = $state<Comment[]>([]);
@@ -216,12 +219,86 @@
 
 	// Responsive variables
 	let innerWidth = $state(0);
-	let title = $derived(computeTitle(data.question.question_formatted || data.question.question));
+	let formattedQuestionText = $derived(
+		normalizeText(data.question.question_formatted || data.question.question)
+	);
+	let questionContext = $derived(
+		truncateText(normalizeText(data.question.context), MAX_CONTEXT_PREVIEW_LENGTH)
+	);
+	let categoryNames = $derived.by(() =>
+		(data.questionTags || [])
+			.map((tag: QuestionTag) => normalizeText(tag?.question_categories?.category_name))
+			.filter(Boolean)
+	);
+	let categorySummary = $derived(categoryNames.length ? joinHumanList(categoryNames) : '');
+	let publicQuestionOverview = $derived.by(() => {
+		const parts = ['Compare perspectives on this question on 9takes.'];
 
-	// Compute SEO-friendly title
-	function computeTitle(questionText: string): string {
-		const fullTitle = `9takes | ${questionText}`;
-		return fullTitle.length > 60 ? fullTitle.slice(0, 57) + '...' : fullTitle;
+		if (data.comment_count > 0) {
+			parts.push(
+				`${data.comment_count} ${data.comment_count === 1 ? 'perspective has' : 'perspectives have'} already been shared.`
+			);
+		} else {
+			parts.push('Be the first to add a perspective.');
+		}
+
+		if (categorySummary) {
+			parts.push(`This discussion is grouped under ${categorySummary}.`);
+		}
+
+		parts.push(
+			'Add your own take to unlock the full community discussion and compare how different Enneagram types respond.'
+		);
+		return parts.join(' ');
+	});
+	let title = $derived(buildSeoTitle(formattedQuestionText));
+
+	function normalizeText(value?: string | null): string {
+		return String(value ?? '')
+			.replace(/\s+/g, ' ')
+			.trim();
+	}
+
+	function truncateText(value: string, maxLength: number): string {
+		if (value.length <= maxLength) return value;
+		return `${value.slice(0, maxLength - 1).trimEnd()}…`;
+	}
+
+	function joinHumanList(items: string[]): string {
+		if (items.length <= 1) return items[0] ?? '';
+		if (items.length === 2) return `${items[0]} and ${items[1]}`;
+		return `${items.slice(0, -1).join(', ')}, and ${items[items.length - 1]}`;
+	}
+
+	function buildSeoTitle(questionText: string): string {
+		const suffix = ' | 9takes';
+		const maxLength = 60;
+		if (!questionText) return `Questions${suffix}`;
+		if (questionText.length + suffix.length <= maxLength) {
+			return `${questionText}${suffix}`;
+		}
+		return `${questionText.slice(0, maxLength - suffix.length - 1).trimEnd()}…${suffix}`;
+	}
+
+	function buildSeoDescription(
+		questionText: string,
+		context: string,
+		categories: string[],
+		commentCount: number
+	): string {
+		const parts = [`Explore perspectives on "${questionText}" on 9takes.`];
+		if (categories.length) {
+			parts.push(`Topics: ${joinHumanList(categories)}.`);
+		}
+		if (context) {
+			parts.push(context);
+		}
+		parts.push(
+			commentCount > 0
+				? `${commentCount} ${commentCount === 1 ? 'perspective' : 'perspectives'} so far.`
+				: 'Join the discussion.'
+		);
+		return truncateText(parts.join(' '), MAX_META_DESCRIPTION_LENGTH);
 	}
 
 	type QuestionTagRef = {
@@ -264,7 +341,12 @@
 
 	// SEO metadata (derived to stay reactive with data changes)
 	let description = $derived(
-		`🏛️ Give your take to the question: ${data.question?.question_formatted || data.question?.question}`
+		buildSeoDescription(
+			formattedQuestionText,
+			questionContext,
+			categoryNames,
+			data.comment_count || 0
+		)
 	);
 	let url = $derived(`https://9takes.com/questions/${data.question.url}`);
 	let imgUrl = $derived.by(() => {
@@ -283,99 +365,39 @@
 	let twitterImageAlt = $derived(
 		`Question on 9takes: ${data.question?.question_formatted || data.question?.question || 'Share your perspective'}`
 	);
-
-	// Prepare JSON-LD for structured data (derived for reactivity)
-	let formattedAIComments = $derived(
-		data?.aiComments?.map((comment: any) => {
-			return {
-				'@type': 'Answer',
-				text: comment.comment,
-				dateCreated: comment.created_at,
-				upvoteCount: 0,
-				author: {
-					'@type': 'Person',
-					name: `Enneagram Type ${comment.enneagram}`,
-					identifier: `enneagram-type-${comment.enneagram}`
-				}
-			};
-		})
-	);
-
-	// Format regular user comments as answers (fallback when no AI comments)
-	let formattedUserComments = $derived(
-		data?.comments?.slice(0, 5).map((comment: any) => {
-			return {
-				'@type': 'Answer',
-				text: comment.comment,
-				dateCreated: comment.created_at,
-				upvoteCount: comment.likes || 0,
-				author: {
-					'@type': 'Person',
-					name: comment.enneagram ? `Enneagram Type ${comment.enneagram}` : 'Anonymous',
-					identifier: comment.author_id || 'anonymous'
-				}
-			};
-		})
-	);
-
-	// Use AI comments first, then user comments as fallback
-	let suggestedAnswers = $derived(
-		formattedAIComments?.length > 0
-			? formattedAIComments
-			: formattedUserComments?.length > 0
-				? formattedUserComments
-				: undefined
-	);
-
-	let questionJsonLd = $derived({
+	let questionStructuredData = $derived.by(() => ({
 		'@context': 'https://schema.org',
-		'@type': 'QAPage',
-		url: url,
-		name: title,
-		description: description,
-		isPartOf: {
-			'@type': 'WebSite',
-			name: '9takes',
-			url: 'https://9takes.com'
-		},
-		breadcrumb: {
-			'@type': 'BreadcrumbList',
-			itemListElement: [
-				{
-					'@type': 'ListItem',
-					position: 1,
-					name: 'Home',
-					item: 'https://9takes.com'
+		'@graph': [
+			{
+				'@type': 'WebPage',
+				'@id': `${url}#webpage`,
+				name: formattedQuestionText,
+				description,
+				url,
+				inLanguage: 'en-US',
+				isPartOf: {
+					'@type': 'WebSite',
+					name: '9takes',
+					url: 'https://9takes.com'
 				},
-				{
-					'@type': 'ListItem',
-					position: 2,
-					name: 'Questions',
-					item: 'https://9takes.com/questions'
+				breadcrumb: {
+					'@id': `${url}#breadcrumb`
 				},
-				{
-					'@type': 'ListItem',
-					position: 3,
-					name: data.question.question_formatted || data.question.question,
-					item: url
+				primaryImageOfPage: {
+					'@type': 'ImageObject',
+					url: imgUrl
 				}
-			]
-		},
-		mainEntity: {
-			'@type': 'Question',
-			name: data.question.question_formatted || data.question.question,
-			text: data.question.context || data.question.question_formatted || data.question.question,
-			answerCount: data.question.comment_count || 0,
-			dateCreated: data.question.created_at,
-			author: data.question.author_id
-				? {
-						'@type': 'Person',
-						identifier: data.question.author_id
-					}
-				: undefined,
-			...(suggestedAnswers && { suggestedAnswer: suggestedAnswers })
-		}
-	});
+			},
+			{
+				'@id': `${url}#breadcrumb`,
+				...buildBreadcrumbSchemaForGraph([
+					{ name: 'Home', url: 'https://9takes.com' },
+					{ name: 'Questions', url: 'https://9takes.com/questions' },
+					{ name: formattedQuestionText, url }
+				])
+			}
+		]
+	}));
 
 	function selectRootCategory(rootId: number) {
 		selectedRootCategoryId = rootId;
@@ -507,15 +529,50 @@
 	twitterCardType="summary_large_image"
 	ogImage={imgUrl}
 	twitterImage={imgUrl}
-	jsonLd={questionJsonLd}
 	{twitterImageAlt}
+	jsonLd={questionStructuredData}
 />
 
 <div class="question-page-container mx-auto w-full max-w-6xl px-1 pb-12 sm:px-6 lg:px-8">
-	<article class="question-article" itemscope itemtype="https://schema.org/QAPage">
+	<article class="question-article">
 		<div class="question-section question-section-display">
 			<QuestionDisplay question={data.question} />
 		</div>
+
+		<section class="question-section question-overview-panel" aria-labelledby="question-overview-heading">
+			<div class="question-overview-copy">
+				<p class="question-overview-kicker">Open forum question</p>
+				<h2 id="question-overview-heading" class="question-overview-title">
+					What this discussion explores
+				</h2>
+				<p class="question-overview-lead">{publicQuestionOverview}</p>
+				{#if questionContext}
+					<div class="question-overview-context">
+						<h3 class="question-overview-context__title">Question context</h3>
+						<p class="question-overview-context__body">{questionContext}</p>
+					</div>
+				{/if}
+			</div>
+
+			<div class="question-overview-stats" aria-label="Question summary">
+				<div class="question-overview-stat">
+					<span class="question-overview-stat__value">{data.comment_count || 0}</span>
+					<span class="question-overview-stat__label">
+						{data.comment_count === 1 ? 'Perspective' : 'Perspectives'}
+					</span>
+				</div>
+				<div class="question-overview-stat">
+					<span class="question-overview-stat__value">{categoryNames.length}</span>
+					<span class="question-overview-stat__label">
+						{categoryNames.length === 1 ? 'Category' : 'Categories'}
+					</span>
+				</div>
+				<div class="question-overview-stat">
+					<span class="question-overview-stat__value">{data.aiComments?.length || 0}</span>
+					<span class="question-overview-stat__label">Preview Takes</span>
+				</div>
+			</div>
+		</section>
 
 		<div class="question-section question-section-interact">
 			<Interact
@@ -822,6 +879,102 @@
 		margin-bottom: 1rem;
 	}
 
+	.question-overview-panel {
+		display: grid;
+		gap: 1rem;
+		padding: 1rem;
+		border: 1px solid var(--question-panel-border);
+		border-radius: 1.1rem;
+		background:
+			linear-gradient(
+				180deg,
+				color-mix(in srgb, var(--primary-subtle) 24%, transparent) 0%,
+				transparent 100%
+			),
+			var(--question-panel-bg);
+		box-shadow: var(--shadow-sm);
+	}
+
+	.question-overview-kicker {
+		margin: 0 0 0.3rem;
+		font-size: 0.76rem;
+		font-weight: 700;
+		letter-spacing: 0.1em;
+		text-transform: uppercase;
+		color: var(--primary);
+	}
+
+	.question-overview-title {
+		margin: 0;
+		font-size: clamp(1.1rem, 1.6vw, 1.35rem);
+		font-weight: 700;
+		color: var(--text-primary);
+	}
+
+	.question-overview-lead {
+		margin: 0.7rem 0 0;
+		font-size: 0.98rem;
+		line-height: 1.7;
+		color: var(--text-secondary);
+	}
+
+	.question-overview-context {
+		margin-top: 0.95rem;
+		padding: 0.9rem 1rem;
+		border: 1px solid color-mix(in srgb, var(--primary) 16%, var(--border-color));
+		border-radius: 1rem;
+		background: color-mix(in srgb, var(--bg-surface) 86%, transparent);
+	}
+
+	.question-overview-context__title {
+		margin: 0 0 0.35rem;
+		font-size: 0.8rem;
+		font-weight: 700;
+		letter-spacing: 0.08em;
+		text-transform: uppercase;
+		color: var(--text-secondary);
+	}
+
+	.question-overview-context__body {
+		margin: 0;
+		font-size: 0.95rem;
+		line-height: 1.65;
+		color: var(--text-primary);
+	}
+
+	.question-overview-stats {
+		display: grid;
+		grid-template-columns: repeat(3, minmax(0, 1fr));
+		gap: 0.75rem;
+	}
+
+	.question-overview-stat {
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+		justify-content: center;
+		padding: 0.9rem 1rem;
+		border: 1px solid color-mix(in srgb, var(--primary) 16%, var(--border-color));
+		border-radius: 1rem;
+		background: color-mix(in srgb, var(--bg-surface) 88%, transparent);
+	}
+
+	.question-overview-stat__value {
+		font-size: 1.4rem;
+		font-weight: 700;
+		line-height: 1;
+		color: var(--text-primary);
+	}
+
+	.question-overview-stat__label {
+		margin-top: 0.35rem;
+		font-size: 0.78rem;
+		font-weight: 600;
+		letter-spacing: 0.06em;
+		text-transform: uppercase;
+		color: var(--text-secondary);
+	}
+
 	.question-tags-panel {
 		padding: 0.95rem;
 		border: 1px solid var(--question-panel-border);
@@ -924,6 +1077,14 @@
 
 		.question-tags-panel {
 			padding: 0.85rem;
+		}
+
+		.question-overview-panel {
+			padding: 0.9rem;
+		}
+
+		.question-overview-stats {
+			grid-template-columns: 1fr;
 		}
 	}
 </style>

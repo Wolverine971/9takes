@@ -18,6 +18,7 @@
 		jsonLd?: any;
 		additionalMeta?: AdditionalMetaEntry[];
 		noindex?: boolean;
+		nofollow?: boolean;
 		author?: string;
 		twitterImageAlt?: string;
 		locale?: string;
@@ -35,6 +36,7 @@
 		jsonLd = null,
 		additionalMeta = [],
 		noindex = false,
+		nofollow = noindex,
 		author = 'DJ Wayne',
 		twitterImageAlt = '',
 		locale = 'en_US'
@@ -46,9 +48,7 @@
 		twitterImageAlt || (title ? `9takes - ${title.replace(TITLE_SUFFIX, '')}` : '9takes')
 	);
 	let robotsContent = $derived(
-		noindex
-			? 'noindex, nofollow'
-			: 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1'
+		`${noindex ? 'noindex' : 'index'}, ${nofollow ? 'nofollow' : 'follow'}, max-image-preview:large, max-snippet:-1, max-video-preview:-1`
 	);
 </script>
 

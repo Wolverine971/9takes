@@ -78,21 +78,13 @@
 							aria-labelledby={`enneagram-type-${comment.enneagram_type}-tab`}
 							tabindex={index === active ? 0 : -1}
 						>
-							<div
-								class="flex items-center gap-3"
-								itemscope
-								itemtype="https://schema.org/Answer"
-								in:fade={{ duration: 200, delay: 50 }}
-							>
+							<div class="flex items-center gap-3" in:fade={{ duration: 200, delay: 50 }}>
 								<span
 									class="shrink-0 rounded-md bg-[var(--primary-subtle)] px-2 py-1 text-xs font-semibold text-[var(--primary)]"
 								>
 									Type {comment.enneagram_type}
 								</span>
-								<p
-									class="m-0 line-clamp-2 text-sm italic text-[var(--text-secondary)]"
-									itemprop="text"
-								>
+								<p class="m-0 line-clamp-2 text-sm italic text-[var(--text-secondary)]">
 									{comment.comment}
 								</p>
 							</div>

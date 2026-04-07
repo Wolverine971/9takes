@@ -392,12 +392,7 @@
 	<div
 		class="group relative rounded-lg border border-[var(--bg-elevated)] bg-[var(--bg-surface)] transition-all duration-200 hover:border-[var(--primary-subtle)] hover:shadow-[var(--glow-sm)]"
 	>
-		<div
-			class="flex flex-col"
-			itemprop="suggestedAnswer acceptedAnswer"
-			itemscope
-			itemtype="https://schema.org/Answer"
-		>
+		<div class="flex flex-col">
 			<div class="flex w-full flex-col">
 				<!-- Comment Header and Content -->
 				<div class="p-3" id="comment-box{_commentComment.id}">
