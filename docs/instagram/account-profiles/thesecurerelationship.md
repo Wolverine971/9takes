@@ -7,10 +7,12 @@
 **Profile URL:** https://www.instagram.com/thesecurerelationship/
 **Category:** Relationship / Attachment
 **Tier:** 2
+**Strategic Role:** Anchor (1.3M, anchor account; relationship is warming fast — mid-level promotion candidate to Active)
 **Relationship Status:** Warm
+**Audience Quality:** High (therapy-literate, personal stories, low spam)
 **Profile Created:** 2026-04-06
-**Last Reviewed:** 2026-04-06
-**Last Engaged:** 2026-04-06 (morning — commented on 4 C's carousel; Julie liked it same day)
+**Last Reviewed:** 2026-04-07
+**Last Engaged:** 2026-04-06 (PM — commented on lovability post; second Julie like 2026-04-06 evening on lovability comment via unicornshittinrainbow signal chain)
 **Source of First Discovery:** Engagement targets list (Tier 2: Psychology, Therapy & Mental Health)
 
 ## Condensed Intel
@@ -47,17 +49,18 @@
 
 ## Relationship History
 
-| Date       | Surface  | Topic                          | Action    | Status    | What We Said / Planned                                                            | Outcome                           | Source                             |
-| ---------- | -------- | ------------------------------ | --------- | --------- | --------------------------------------------------------------------------------- | --------------------------------- | ---------------------------------- |
-| 2026-04-03 | Reel     | What secure attachment is NOT  | Queued    | Commented | "what someone mistakes for secure attachment..." (planned)                        | Unknown                           | 2026-04-03_instagram-warmup.md     |
-| 2026-04-06 | Carousel | 4 C's of Attachment Styles     | Commented | Posted    | Commented from morning scan                                                       | **Julie liked our comment** (18m) | 2026-04-06_instagram-warmup.md     |
-| 2026-04-06 | Carousel | Lovability vs partner mistrust | Drafted   | Drafted   | PM scan — 3 options drafted (same behavior diff need, untangle, quieter question) | Pending                           | 2026-04-06_instagram-replies-pm.md |
+| Date       | Surface  | Topic                                                                                                                              | Action    | Status    | What We Said / Planned                                                                                                                                                    | Outcome                                                   | Source                             |
+| ---------- | -------- | ---------------------------------------------------------------------------------------------------------------------------------- | --------- | --------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------- | ---------------------------------- |
+| 2026-04-03 | Reel     | What secure attachment is NOT                                                                                                      | Queued    | Commented | "what someone mistakes for secure attachment..." (planned)                                                                                                                | Unknown                                                   | 2026-04-03_instagram-warmup.md     |
+| 2026-04-06 | Carousel | 4 C's of Attachment Styles                                                                                                         | Commented | Posted    | Commented from morning scan                                                                                                                                               | **Julie liked our comment** (18m)                         | 2026-04-06_instagram-warmup.md     |
+| 2026-04-06 | Carousel | Lovability vs partner mistrust                                                                                                     | Commented | Posted    | "the lovability question is quieter but it runs deeper. you can change partners and the same doubt follows you because it was never about them" (Option 3 from PM drafts) | unicornshittinrainbow liked our comment 19h after posting | 2026-04-06_instagram-replies-pm.md |
+| 2026-04-07 | Carousel | Be careful not to let your anxious attachment tell you avoidant attachment is the whole story (anxious vs avoidant accountability) | Queued    | Pending   | Today's queue — middle-path angle that doesn't defend either side; name the moralizing trap inside anxious-attachment self-righteousness                                  | Pending — fresh post (1h at scan), 308 likes              | 2026-04-07_instagram-warmup.md     |
 
 ## Open Loops
 
-- Julie liked our comment today — momentum building. She's actively looking at her comments.
-- Lovability post (14h, ~7 comments) is a natural second touchpoint while she's engaged.
-- If she replies to our comment on the 4 C's post, that opens a conversation thread.
+- We are now at 3 touchpoints in 4 days (4/3, 4/6 morning + PM, 4/7). Need to be careful — relationship is warming but a 4th comment in 5 days risks looking try-hard. Make today's reply count.
+- Lovability comment landed externally (unicornshittinrainbow like) — comment is doing organic discovery work
+- Pending: see if Julie replies to either Apr 6 or Apr 7 comment — that would open a real conversation thread
 
 ## Next Best Angles
 

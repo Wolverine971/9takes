@@ -4,9 +4,9 @@ meta_title: "Why Garry Tan's Earnestness Turns Combative"
 persona_title: "Tech's Earnest Watchdog"
 description: "From food insecurity in Fremont to running Y Combinator — why Garry Tan's fear-driven engine produces both billion-dollar bets and 1 AM Twitter meltdowns."
 author: 'DJ Wayne'
-date: '2026-03-28'
+date: '2026-04-07'
 loc: 'https://9takes.com/personality-analysis/Garry-Tan'
-lastmod: '2026-03-28'
+lastmod: '2026-04-07'
 changefreq: 'monthly'
 priority: '0.6'
 published: false

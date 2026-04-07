@@ -314,7 +314,6 @@ export function buildStaticPages({ posts, peoplePosts, questions }) {
 		{
 			loc: `${SITE_URL}`,
 			lastmod: resolveStaticLastmod({
-				contentDates: [latestPeople, latestQuestions],
 				routePaths: ROUTE_FILES.home,
 				siteFallbackLastmod
 			})

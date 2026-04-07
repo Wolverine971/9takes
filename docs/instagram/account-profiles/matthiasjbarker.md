@@ -7,10 +7,12 @@
 **Profile URL:** https://www.instagram.com/matthiasjbarker/
 **Category:** Psychology / Therapy
 **Tier:** 2
+**Strategic Role:** Anchor (1.4M, anchor account; large-but-reachable via thoughtful comments standing out from "event" keyword spam)
 **Relationship Status:** Prospect
+**Audience Quality:** Medium-High (mix of therapy-literate reflections and "event" keyword spam from his lead-gen CTAs)
 **Profile Created:** 2026-04-06
-**Last Reviewed:** 2026-04-06
-**Last Engaged:** Never
+**Last Reviewed:** 2026-04-07
+**Last Engaged:** 2026-04-06 PM (commented on "Trying Harder Without Having Your Needs Met" reel)
 **Source of First Discovery:** Engagement targets list (Tier 2: Psychology, Therapy & Mental Health)
 
 ## Condensed Intel
@@ -47,16 +49,17 @@
 
 ## Relationship History
 
-| Date       | Surface | Topic                   | Action   | Status  | What We Said / Planned                        | Outcome | Source                             |
-| ---------- | ------- | ----------------------- | -------- | ------- | --------------------------------------------- | ------- | ---------------------------------- |
-| 2026-04-03 | Reel    | Overprotective parent   | Reviewed | Logged  | Queued but not commented                      | N/A     | 2026-04-03_instagram-warmup.md     |
-| 2026-04-03 | Reel    | Shrinking needs         | Reviewed | Logged  | Queued but not commented                      | N/A     | 2026-04-03_instagram-warmup.md     |
-| 2026-04-06 | Reel    | People pleasing vs care | Reviewed | Logged  | Queued in morning scan, not commented         | N/A     | 2026-04-06_instagram-warmup.md     |
-| 2026-04-06 | Reel    | Trying harder / needs   | Drafted  | Drafted | PM scan — 3 options drafted in replies-pm doc | Pending | 2026-04-06_instagram-replies-pm.md |
+| Date       | Surface | Topic                                                                           | Action    | Status | What We Said / Planned                                                                                                                                                                                                 | Outcome                                    | Source                             |
+| ---------- | ------- | ------------------------------------------------------------------------------- | --------- | ------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------ | ---------------------------------- |
+| 2026-04-03 | Reel    | Overprotective parent                                                           | Reviewed  | Logged | Queued but not commented                                                                                                                                                                                               | N/A                                        | 2026-04-03_instagram-warmup.md     |
+| 2026-04-03 | Reel    | Shrinking needs                                                                 | Reviewed  | Logged | Queued but not commented                                                                                                                                                                                               | N/A                                        | 2026-04-03_instagram-warmup.md     |
+| 2026-04-06 | Reel    | People pleasing vs care                                                         | Reviewed  | Logged | Queued in morning scan, not commented                                                                                                                                                                                  | N/A                                        | 2026-04-06_instagram-warmup.md     |
+| 2026-04-06 | Reel    | Trying harder / needs                                                           | Commented | Posted | "the brutal part is the strategy actually worked at some point. so your brain just keeps doubling down on the one thing that used to get results EVEN when it's clearly not working anymore" (Option 1 from PM drafts) | No likes/replies on our comment yet at 20h | 2026-04-06_instagram-replies-pm.md |
+| 2026-04-07 | —       | (no fresh non-promo content from Matthias today; only "event" Trauma Zoom CTAs) | Reviewed  | Logged | Skip today                                                                                                                                                                                                             | N/A                                        | 2026-04-07_instagram-warmup.md     |
 
 ## Open Loops
 
-- First engagement pending on "Trying Harder Without Having Your Needs Met" reel
+- First comment is live but no engagement yet at 20h — watch for organic discovery in next 24-48h
 - Not currently following — consider following to signal algorithm interest
 
 ## Next Best Angles

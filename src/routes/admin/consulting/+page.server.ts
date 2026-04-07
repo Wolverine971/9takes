@@ -145,9 +145,14 @@ export const load: PageServerLoad = async ({ locals }) => {
 		};
 	});
 
+	const waitlistRawEmails = [
+		...new Set(waitlistWithClientLinks.map((entry) => entry.email?.trim()))
+	].filter((email): email is string => Boolean(email));
 	const waitlistEmails = [
-		...new Set(waitlistWithClientLinks.map((entry) => normalizeEmail(entry.email)))
+		...new Set(waitlistRawEmails.map((email) => normalizeEmail(email)))
 	].filter(Boolean);
+	// Query both raw and normalized variants so we don't miss mixed-case historical rows.
+	const waitlistEmailVariants = [...new Set([...waitlistRawEmails, ...waitlistEmails])];
 	const waitlistClientIds = [
 		...new Set(
 			waitlistWithClientLinks
@@ -161,18 +166,21 @@ export const load: PageServerLoad = async ({ locals }) => {
 	let matchedClients: ConsultingClientWithIntake[] = [];
 	let matchedComments: CommentRow[] = [];
 
-	if (waitlistEmails.length > 0 || waitlistClientIds.length > 0) {
+	if (waitlistEmailVariants.length > 0 || waitlistClientIds.length > 0) {
 		const [profilesResult, signupsResult, clientsResult] = await Promise.all([
-			waitlistEmails.length > 0
+			waitlistEmailVariants.length > 0
 				? supabase
 						.from('profiles')
 						.select(
 							'id, email, created_at, username, first_name, last_name, enneagram, external_id'
 						)
-						.in('email', waitlistEmails)
+						.in('email', waitlistEmailVariants)
 				: Promise.resolve({ data: [] as ProfileRow[] }),
-			waitlistEmails.length > 0
-				? supabase.from('signups').select('id, email, name, created_at').in('email', waitlistEmails)
+			waitlistEmailVariants.length > 0
+				? supabase
+						.from('signups')
+						.select('id, email, name, created_at')
+						.in('email', waitlistEmailVariants)
 				: Promise.resolve({ data: [] as SignupRow[] }),
 			waitlistClientIds.length > 0
 				? supabase

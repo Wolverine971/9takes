@@ -7,10 +7,12 @@
 **Profile URL:** https://www.instagram.com/gottmaninstitute/
 **Category:** Relationship / Research
 **Tier:** 2
+**Strategic Role:** Anchor (1.3M institutional account; visibility play, not relationship-build)
 **Relationship Status:** Prospect
+**Audience Quality:** Medium (most comments are keyword CTAs; substantive comments are rare and stand out)
 **Profile Created:** 2026-04-06
-**Last Reviewed:** 2026-04-06
-**Last Engaged:** Never
+**Last Reviewed:** 2026-04-07
+**Last Engaged:** 2026-04-06 PM (drafted on 20:1 ratio post — execution status pending verification)
 **Source of First Discovery:** Engagement targets list (Tier 2: Psychology, Therapy & Mental Health)
 
 ## Condensed Intel
@@ -46,13 +48,14 @@
 
 ## Relationship History
 
-| Date       | Surface  | Topic               | Action  | Status  | What We Said / Planned                                                   | Outcome | Source                             |
-| ---------- | -------- | ------------------- | ------- | ------- | ------------------------------------------------------------------------ | ------- | ---------------------------------- |
-| 2026-04-06 | Carousel | 20:1 positive ratio | Drafted | Drafted | PM scan — 3 options drafted (alarm system, offhand comment, missed bids) | Pending | 2026-04-06_instagram-replies-pm.md |
+| Date       | Surface  | Topic                                                                                            | Action   | Status  | What We Said / Planned                                                                                           | Outcome | Source                             |
+| ---------- | -------- | ------------------------------------------------------------------------------------------------ | -------- | ------- | ---------------------------------------------------------------------------------------------------------------- | ------- | ---------------------------------- |
+| 2026-04-06 | Carousel | 20:1 positive ratio                                                                              | Drafted  | Drafted | PM scan — 3 options drafted (alarm system, offhand comment, missed bids) — execution status pending verification | Pending | 2026-04-06_instagram-replies-pm.md |
+| 2026-04-07 | —        | (no fresh non-promo Gottman content; Self-Soothing reel is 3d old + flooded with SSBLOG keyword) | Reviewed | Logged  | Skip today                                                                                                       | N/A     | 2026-04-07_instagram-warmup.md     |
 
 ## Open Loops
 
-- First engagement pending on 20:1 ratio carousel
+- Verify whether the 20:1 draft was actually posted yesterday or still in draft
 - Their comment model (keyword CTAs) means a thoughtful comment will visually stand out
 
 ## Next Best Angles

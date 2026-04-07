@@ -9,8 +9,8 @@
 **Tier:** 1
 **Relationship Status:** Active
 **Profile Created:** 2026-04-06
-**Last Reviewed:** 2026-04-06
-**Last Engaged:** 2026-04-06 (morning — commented on Core Fear carousel)
+**Last Reviewed:** 2026-04-07
+**Last Engaged:** 2026-04-06 PM (commented on Defense Mechanisms carousel — autopilot frame)
 **Source of First Discovery:** Engagement targets list (Tier 1: Enneagram & Personality)
 
 ## Condensed Intel
@@ -47,18 +47,19 @@
 
 ## Relationship History
 
-| Date       | Surface  | Topic                       | Action    | Status    | What We Said / Planned                                             | Outcome                  | Source                             |
-| ---------- | -------- | --------------------------- | --------- | --------- | ------------------------------------------------------------------ | ------------------------ | ---------------------------------- |
-| 2026-03-28 | Carousel | 7 vs reactive types         | Commented | Posted    | [exact comment unknown]                                            | Jackie liked the comment | Notifications Mar 28               |
-| 2026-03-28 | Carousel | Consistency by type         | Commented | Posted    | [exact comment unknown]                                            | Jackie liked the comment | Notifications Mar 28               |
-| 2026-04-03 | Carousel | Childhood patterns by type  | Queued    | Commented | "growth isn't killing the pattern..." (planned)                    | Unknown                  | 2026-04-03_instagram-warmup.md     |
-| 2026-04-06 | Carousel | Core Fear Beneath Each Type | Queued    | Commented | Commented from morning scan                                        | Unknown                  | 2026-04-06_instagram-warmup.md     |
-| 2026-04-06 | Carousel | Defense mechanisms by type  | Drafted   | Drafted   | PM scan — 3 options drafted (autopilot, type 6, structural praise) | Pending                  | 2026-04-06_instagram-replies-pm.md |
+| Date       | Surface  | Topic                                                                                    | Action    | Status    | What We Said / Planned                                                                                                                                                                                                                 | Outcome                                                                 | Source                             |
+| ---------- | -------- | ---------------------------------------------------------------------------------------- | --------- | --------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------- | ---------------------------------- |
+| 2026-03-28 | Carousel | 7 vs reactive types                                                                      | Commented | Posted    | [exact comment unknown]                                                                                                                                                                                                                | Jackie liked the comment                                                | Notifications Mar 28               |
+| 2026-03-28 | Carousel | Consistency by type                                                                      | Commented | Posted    | [exact comment unknown]                                                                                                                                                                                                                | Jackie liked the comment                                                | Notifications Mar 28               |
+| 2026-04-03 | Carousel | Childhood patterns by type                                                               | Queued    | Commented | "growth isn't killing the pattern..." (planned)                                                                                                                                                                                        | Unknown                                                                 | 2026-04-03_instagram-warmup.md     |
+| 2026-04-06 | Carousel | Core Fear Beneath Each Type                                                              | Queued    | Commented | Commented from morning scan                                                                                                                                                                                                            | Unknown                                                                 | 2026-04-06_instagram-warmup.md     |
+| 2026-04-06 | Carousel | Defense mechanisms by type                                                               | Commented | Posted    | "the part that gets me is how fast the defense fires faster than awareness. by the time you notice the wall went up it's already done its job. the growth is in building enough lag time to actually choose" (Option 1 from PM drafts) | No like from Jackie yet at 19h; post has 231 likes / 4 comments visible | 2026-04-06_instagram-replies-pm.md |
+| 2026-04-07 | —        | (no new Jackie content since defense mechanisms; pinned workplace-repair post is 5w old) | Reviewed  | Logged    | Skip today — let yesterday's autopilot comment season for Jackie's reply                                                                                                                                                               | N/A                                                                     | 2026-04-07_instagram-warmup.md     |
 
 ## Open Loops
 
-- Defense mechanisms carousel (3h, 0 comments) — immediate first-comment opportunity
-- Need to use a FRESH angle — we've done "childhood adaptation was brilliant at 7" twice. Try: defense as autopilot, or pick a specific type's defense and make it visceral.
+- Yesterday's autopilot comment is live (231 likes on post, our comment hasn't been liked by Jackie yet at 19h). Give it 24-48h before posting on her next piece.
+- When her next post drops, lead with type-specific vividness (Type 5 or Type 6 defense), since we already used the autopilot meta-frame.
 
 ## Next Best Angles
 

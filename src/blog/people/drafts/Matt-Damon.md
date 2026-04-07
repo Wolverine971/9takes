@@ -4,9 +4,9 @@ meta_title: "Why Matt Damon Nearly Killed Himself to Be Perfect (It's Not Ambiti
 persona_title: "Hollywood's Disciplined Everyman"
 description: 'Matt Damon plays the normal guy. But the discipline behind that normalcy almost stopped his heart. Inside the Enneagram Type 1 drive no one talks about.'
 author: 'DJ Wayne'
-date: '2026-04-04'
+date: '2026-04-07'
 loc: 'https://9takes.com/personality-analysis/Matt-Damon'
-lastmod: '2026-04-04'
+lastmod: '2026-04-07'
 changefreq: 'monthly'
 priority: '0.6'
 published: false

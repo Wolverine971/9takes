@@ -4,9 +4,9 @@ meta_title: 'Why Ben Affleck Keeps Rebuilding From the Rubble'
 persona_title: "Hollywood's Self-Demolishing Architect"
 description: 'Ben Affleck keeps building extraordinary lives and then detonating them from the inside. The same pattern drives the comebacks, the collapses, and the wreckage.'
 author: 'DJ Wayne'
-date: '2026-04-06'
+date: '2026-04-07'
 loc: 'https://9takes.com/personality-analysis/Ben-Affleck'
-lastmod: '2026-04-06'
+lastmod: '2026-04-07'
 changefreq: 'monthly'
 priority: '0.6'
 published: false

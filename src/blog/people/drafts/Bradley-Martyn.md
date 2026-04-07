@@ -4,9 +4,9 @@ meta_title: 'Why Bradley Martyn Built Himself Into Armor'
 persona_title: "Fitness's Armored Guardian"
 description: "Why does a 260-lb man who challenges UFC fighters still carry a six-year-old's wound? Inside the grief, armor, and loyalty code that built Bradley Martyn."
 author: 'DJ Wayne'
-date: '2026-04-06'
+date: '2026-04-07'
 loc: 'https://9takes.com/personality-analysis/Bradley-Martyn'
-lastmod: '2026-04-06'
+lastmod: '2026-04-07'
 changefreq: 'monthly'
 priority: '0.6'
 published: false

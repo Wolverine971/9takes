@@ -3,7 +3,7 @@
   xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://9takes.com</loc>
-    <lastmod>2026-04-06</lastmod>
+    <lastmod>2026-04-04</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/about</loc>
@@ -11,7 +11,7 @@
   </url>
   <url>
     <loc>https://9takes.com/blog</loc>
-    <lastmod>2026-04-06</lastmod>
+    <lastmod>2026-04-07</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/blog/experiment</loc>
@@ -887,7 +887,7 @@
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis</loc>
-    <lastmod>2026-04-06</lastmod>
+    <lastmod>2026-04-07</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/abraham-lincoln</loc>
@@ -1079,6 +1079,13 @@
     </image:image>
   </url>
   <url>
+    <loc>https://9takes.com/personality-analysis/ben-affleck</loc>
+    <lastmod>2026-04-07</lastmod>
+    <image:image>
+      <image:loc>https://9takes.com/types/3s/Ben-Affleck.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
     <loc>https://9takes.com/personality-analysis/benson-boone</loc>
     <lastmod>2026-02-06</lastmod>
     <image:image>
@@ -1164,7 +1171,7 @@
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/categories</loc>
-    <lastmod>2026-04-06</lastmod>
+    <lastmod>2026-04-07</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/categories/authors-thinkers</loc>
@@ -1176,11 +1183,11 @@
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/categories/creator-media</loc>
-    <lastmod>2026-04-06</lastmod>
+    <lastmod>2026-04-07</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/categories/film-tv</loc>
-    <lastmod>2026-04-06</lastmod>
+    <lastmod>2026-04-07</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/categories/music</loc>
@@ -1192,7 +1199,7 @@
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/categories/tech-business</loc>
-    <lastmod>2026-04-06</lastmod>
+    <lastmod>2026-04-07</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/chamath-palihapitiya</loc>
@@ -2091,6 +2098,13 @@
     </image:image>
   </url>
   <url>
+    <loc>https://9takes.com/personality-analysis/matt-damon</loc>
+    <lastmod>2026-04-07</lastmod>
+    <image:image>
+      <image:loc>https://9takes.com/types/1s/Matt-Damon.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
     <loc>https://9takes.com/personality-analysis/matthew-mcconaughey</loc>
     <lastmod>2026-02-19</lastmod>
     <image:image>
@@ -2256,6 +2270,13 @@
     <lastmod>2026-02-19</lastmod>
     <image:image>
       <image:loc>https://9takes.com/types/3s/Paris-Hilton.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://9takes.com/personality-analysis/patrick-bet-david</loc>
+    <lastmod>2026-04-07</lastmod>
+    <image:image>
+      <image:loc>https://9takes.com/types/3s/Patrick-Bet-David.webp</image:loc>
     </image:image>
   </url>
   <url>
@@ -2743,7 +2764,7 @@
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/type/1</loc>
-    <lastmod>2026-04-06</lastmod>
+    <lastmod>2026-04-07</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/type/2</loc>
@@ -2751,7 +2772,7 @@
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/type/3</loc>
-    <lastmod>2026-04-06</lastmod>
+    <lastmod>2026-04-07</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/type/4</loc>
