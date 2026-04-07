@@ -2608,6 +2608,7 @@ export type Database = {
           intro_updated_by: string | null
           level: number | null
           parent_id: number | null
+          slug: string
         }
         Insert: {
           category_name: string
@@ -2624,6 +2625,7 @@ export type Database = {
           intro_updated_by?: string | null
           level?: number | null
           parent_id?: number | null
+          slug: string
         }
         Update: {
           category_name?: string
@@ -2640,6 +2642,7 @@ export type Database = {
           intro_updated_by?: string | null
           level?: number | null
           parent_id?: number | null
+          slug?: string
         }
         Relationships: [
           {
@@ -4115,6 +4118,10 @@ export type Database = {
           title: string
           type: Json
         }[]
+      }
+      slugify_question_category_name: {
+        Args: { value: string }
+        Returns: string
       }
       track_email_event: {
         Args: {

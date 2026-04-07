@@ -8,6 +8,7 @@
 	import Interact from '$lib/components/molecules/Interact.svelte';
 	import QuestionContent from '$lib/components/questions/QuestionContent.svelte';
 	import SEOHead from '$lib/components/SEOHead.svelte';
+	import { buildQuestionCategoryPath } from '$lib/utils/questionCategorySlug';
 	import { buildBreadcrumbSchemaForGraph } from '$lib/utils/schema';
 	import type { PageData } from './$types';
 	import type { QuestionPageData, Comment, QuestionTag } from '$lib/types/questions';
@@ -23,6 +24,7 @@
 	type EditableCategory = {
 		id: number;
 		category_name: string;
+		slug?: string | null;
 		parent_id: number | null;
 		level: number | null;
 	};
@@ -539,7 +541,10 @@
 			<QuestionDisplay question={data.question} />
 		</div>
 
-		<section class="question-section question-overview-panel" aria-labelledby="question-overview-heading">
+		<section
+			class="question-section question-overview-panel"
+			aria-labelledby="question-overview-heading"
+		>
 			<div class="question-overview-copy">
 				<p class="question-overview-kicker">Open forum question</p>
 				<h2 id="question-overview-heading" class="question-overview-title">
@@ -609,7 +614,9 @@
 					<div class="flex flex-wrap gap-2">
 						{#each data.questionTags as tag}
 							<a
-								href={`/questions/categories/${tag.question_categories.category_name.split(' ').join('-')}`}
+								href={buildQuestionCategoryPath(
+									tag.question_categories.slug || tag.question_categories.category_name
+								)}
 								class="question-tag-pill"
 								rel="tag"
 							>

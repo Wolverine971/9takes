@@ -79,6 +79,7 @@
 	interface CategoryStep {
 		id: number;
 		category_name: string;
+		slug?: string | null;
 		level: number;
 	}
 

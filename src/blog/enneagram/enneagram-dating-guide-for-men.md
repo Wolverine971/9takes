@@ -838,6 +838,64 @@ The Enneagram isn't about fixing you. You're not broken. It's about understandin
 
 **Your move:** Stop trying to be everyone's type. Master being yours.
 
+<!-- READER_FEEDBACK_START
+Reviewer: read-through as a normal guy in the target audience (mid-30s, single, has dabbled in Enneagram)
+Date: 2026-04-07
+
+## What I missed / wanted more of
+
+1. **Online dating is completely absent.** I'm not meeting women at farmer's markets — I'm on Hinge. A section on "how each type writes a bio / swipes / handles the app stage" would immediately make this more useful. Right now it reads like it was written for 2010 dating.
+
+2. **How do I read HER type?** The whole guide is self-focused. Half the value of knowing Enneagram for dating is recognizing patterns in the person across the table. A short "how to spot her type in the first 3 dates" section would be huge.
+
+3. **Compatibility is teased but never delivered.** Every type section links out to a "relationships" page, but the reader wants at least a quick "which types tend to click / clash with yours" right here. Losing people to a click-through on every type feels like a missed opportunity.
+
+4. **"Science-backed" is in the subtitle but there's no science.** No studies, no stats, no citations. Either cite something (attachment research, EQ research) or drop the claim — readers who care will notice, and Google will too.
+
+5. **No author voice or credibility marker.** DJ Wayne is bylined but never shows up. One personal anecdote ("I'm a Type 5, here's the date I bombed because I intellectualized her grief...") would make this 10x more trustworthy than the current omniscient-coach voice.
+
+6. **Texting / between-date communication.** A huge chunk of modern dating happens in text. Types handle this very differently (7s love-bomb, 5s go silent, 6s spiral over read receipts). This is a natural section and it's missing.
+
+7. **Nothing on rejection or breakups by type.** Dating includes getting rejected. How each type handles it (and how not to spiral) would be valuable and on-topic.
+
+8. **Wings aren't mentioned anywhere.** A 3w2 and a 3w4 date very differently. At least a one-paragraph acknowledgment would signal depth to Enneagram-literate readers.
+
+9. **The opening doesn't earn my attention.** The quality feedback at the top already flags this (weak-hook). As a reader I agree — "You've read the dating books" is a generic content-marketer opener. A concrete scene or a surprising stat would work harder.
+
+## What felt overdone / repetitive
+
+1. **The 8-subsection template repeats 9 times.** By Type 4 I'm skimming. Every type has: Hidden Psychology → You Might Be If → Superpower → Why You Struggle → Mindset Shift → First Date → Second Date → Growth Edge. That's 72 mini-sections. Consider collapsing "Mindset Shift" into the narrative and merging "Superpower + Why You Struggle" into one honest paragraph.
+
+2. **The "From X / To Y" Mindset Shift format.** Starts to feel like a worksheet by Type 3. Could be written as prose instead of the same framed callout 9 times.
+
+3. **"The move that ___" and "The growth edge" in every section.** I started mentally tuning them out. They're useful but the formula makes them feel like filler.
+
+4. **The top table + the Quick Type Identifier box overlap.** The table already tells me Type 1's fatal flaw is "constant criticism." Then the identifier box tells me Type 1 "mentally grades dates and finds flaws." Same info, two formats. Pick one.
+
+5. **"Women aren't looking for perfection" appears twice.** Once in the intro ("Women aren't looking for perfection. They're looking for emotional intelligence.") and once at the end ("Women aren't looking for a perfect man. They're looking for an aware one."). Feels like you forgot you already said it.
+
+6. **First-date suggestions recycle.** Cooking classes show up for Types 1, 2, 5, 7. Museums show up for Types 1, 3, 5, 7. After a while it feels less "tailored to your type" and more "generic good-date list with different justifications."
+
+7. **Power conversation questions aren't always type-specific.** "What lights you up outside of work?" (Type 3) and "When do you feel most yourself?" (Type 4) could swap with no loss. If a question could work for any type, it's not really type-specific advice.
+
+8. **The closing "You stop / You start" lists are generic self-help.** Could apply to any framework — astrology, attachment theory, MBTI. Doesn't earn its place at the end of a 3000+ word guide.
+
+## What worked
+
+- The **childhood wound → adult pattern** framing is the best part. Insightful and actually Enneagram-native.
+- Type descriptions feel accurate — I recognized myself and two exes.
+- The scannability (headers, bullets, check/x lists) makes it easy to jump to your type.
+- "What Women Actually See" column in the opening table is a great gut-punch. More of that energy throughout would sharpen the whole piece.
+
+## One structural suggestion
+
+Consider adding a sticky type-nav at the top (anchors to each type) so readers can jump straight to theirs. Right now if I already know I'm a 7, I'm scrolling past 50% of the article to find my section.
+
+## Biggest single improvement
+
+Cut 30% of the template repetition and use the space for: (a) online dating, (b) how to read her type, (c) one real personal story from DJ. That turns this from a solid reference piece into something people actually share.
+READER_FEEDBACK_END -->
+
 <svelte:head>
 
 <script type="application/ld+json">

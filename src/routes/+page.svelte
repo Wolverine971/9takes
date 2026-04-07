@@ -91,27 +91,32 @@
 		{
 			question: 'What is 9takes?',
 			answer:
-				'An Enneagram-based platform that shows how all nine personality types interpret the same situation — giving you better personality analysis and a clearer read on social dynamics.'
+				"It's a place to see how nine personality types react to the same situation. One question, nine takes — so you stop assuming everyone thinks the way you do."
 		},
 		{
 			question: 'How does the give-first system work?',
 			answer:
-				'You answer first, then read others. This captures your unedited instinct before groupthink and lets you compare your take with nine distinct perspectives.'
+				"You share your take before you see anyone else's. That way your real reaction goes on the record instead of whatever the crowd already said. Then you get to compare it against nine other perspectives."
 		},
 		{
 			question: 'What is the Enneagram, in plain English?',
 			answer:
-				'A personality framework built around nine core strategies for navigating anger, fear, and shame. It explains motivation, not just behavior.'
+				"Nine different ways people deal with anger, fear, and shame. It's less about what you do and more about why you do it."
 		},
 		{
 			question: 'Who is 9takes for?',
 			answer:
-				'Anyone trying to understand people better — coaches, founders, partners, and curious readers who care about conflict, dating, work dynamics, or self-awareness.'
+				"Curious people. If you're into personality, the Enneagram, or just figuring out why people act the way they do, you'll feel at home here. We're building a community that actually wants to see every side of a situation instead of picking one and digging in."
+		},
+		{
+			question: 'What kind of topics do you cover on 9takes?',
+			answer:
+				"Mostly the messy human stuff — conflict, dating, work dynamics, family, and self-awareness. Anywhere people get stuck reading each other, that's where we dig in."
 		},
 		{
 			question: 'Is 9takes a medical or clinical authority?',
 			answer:
-				'No. 9takes is an interpretation and analysis site, not a medical provider. Coaching is personality-informed guidance, not clinical treatment.'
+				"No. We write about personality patterns and offer coaching, but we're not therapists or doctors. If you need clinical care, see a licensed professional."
 		}
 	];
 

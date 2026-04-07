@@ -1,6 +1,7 @@
 <!-- src/routes/admin/categories/+page.svelte -->
 <script lang="ts">
 	import { notifications } from '$lib/components/molecules/notifications';
+	import { buildQuestionCategoryPath } from '$lib/utils/questionCategorySlug';
 	import type { PageData } from './$types';
 
 	type CategoryFilter = 'eligible' | 'all' | 'below-threshold';
@@ -17,9 +18,9 @@
 	let reviewingCategoryIds = $state<number[]>([]);
 	let activeBatchMode = $state<BatchMode | null>(null);
 
-	const toCategorySlug = (name: string) => name.trim().replace(/\s+/g, '-');
 	const pathLabel = (path: string[]) => path.join(' > ');
-	const publicCategoryHref = (name: string) => `/questions/categories/${toCategorySlug(name)}`;
+	const publicCategoryHref = (category: Pick<CategoryRow, 'category_name' | 'slug'>) =>
+		buildQuestionCategoryPath(category.slug || category.category_name);
 	const adminCategoryHref = (id: number) => `/admin/categories/${id}`;
 	let thresholdLabel = $derived(`${data.minimumQuestionCountForIntro} question minimum`);
 	let categories = $derived(
@@ -470,9 +471,7 @@
 								<td>
 									<div class="action-group">
 										<a href={adminCategoryHref(category.id)} class="table-link">Edit</a>
-										<a href={publicCategoryHref(category.category_name)} class="table-link"
-											>Public</a
-										>
+										<a href={publicCategoryHref(category)} class="table-link">Public</a>
 										<button
 											type="button"
 											class="table-btn"

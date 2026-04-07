@@ -1,12 +1,17 @@
 // src/routes/questions/categories/[slug]/+page.server.ts
-import { error } from '@sveltejs/kit';
-import type { PageServerLoad } from './$types';
+import { error, redirect } from '@sveltejs/kit';
 import {
+	buildQuestionCategoryPathRows,
 	buildVisibleQuestionCategoryTree,
 	findQuestionCategoryNodeById,
 	type QuestionCategoryRow,
 	type QuestionCategoryTagRow
 } from '$lib/server/questionCategoryTree';
+import {
+	buildQuestionCategoryPath,
+	buildQuestionCategorySlug
+} from '$lib/utils/questionCategorySlug';
+import type { PageServerLoad } from './$types';
 import {
 	buildQuestionCategoryIntroDescription,
 	renderQuestionCategoryIntroMarkdown
@@ -17,7 +22,6 @@ type ActiveQuestionRow = { id: number };
 /** @type {import('./$types').PageLoad} */
 export const load: PageServerLoad = async (event) => {
 	const supabase = event.locals.supabase as any;
-	const slug = event.params.slug ? event.params.slug.split('-').join(' ') : '';
 	const { demo_time } = await event.parent();
 	const session = event.locals.session;
 	const questionTable = demo_time === true ? 'questions_demo' : 'questions';
@@ -41,50 +45,43 @@ export const load: PageServerLoad = async (event) => {
 		}
 	}
 
+	const { data: categories, error: categoriesError } = await supabase
+		.from('question_categories')
+		.select(
+			'id, category_name, slug, parent_id, level, intro_markdown, intro_description, intro_status, intro_source, intro_generated_at, intro_updated_at, intro_reviewed_at'
+		)
+		.order('id', { ascending: true });
+
+	if (categoriesError || !categories) {
+		console.log(categoriesError);
+		throw error(500, 'Failed to load category tree');
+	}
+
+	const normalizedRequestedSlug = buildQuestionCategorySlug(event.params.slug);
+	const questionTag =
+		categories.find((category) => category.slug === normalizedRequestedSlug) ?? null;
+
+	if (!questionTag) {
+		throw error(404, 'Category not found');
+	}
+
+	const canonicalSlug = questionTag.slug || buildQuestionCategorySlug(questionTag.category_name);
+	if (event.params.slug !== canonicalSlug) {
+		throw redirect(301, buildQuestionCategoryPath(canonicalSlug));
+	}
+
 	const [
-		{ data: questionCategories, error: questionCategoriesErrors },
-		{ data: parents, error: parentsError },
-		{ data: questionTag, error: questionTagError },
-		{ data: categories, error: categoriesError },
+		questionCategories,
 		{ data: categoryTags, error: categoryTagsError },
 		{ data: activeQuestions, error: activeQuestionsError }
 	] = await Promise.all([
-		supabase.rpc('get_category_questions', { slug }),
-		supabase.rpc('get_category_parent_structure', {
-			input_category_name: slug
-		}),
-		supabase
-			.from('question_categories')
-			.select(
-				'id, category_name, parent_id, level, intro_markdown, intro_description, intro_status, intro_source, intro_generated_at, intro_updated_at, intro_reviewed_at'
-			)
-			.eq('category_name', slug)
-			.maybeSingle(),
-		supabase
-			.from('question_categories')
-			.select('id, category_name, parent_id, level')
-			.order('id', { ascending: true }),
+		getCategoryQuestions(supabase, questionTable, questionTag.id),
 		supabase.from('question_category_tags').select('question_id, tag_id'),
 		supabase.from(questionTable).select('id').eq('removed', false)
 	]);
 
-	if (questionCategoriesErrors) {
-		console.log(questionCategoriesErrors);
-		throw error(500, "couldn't find questions");
-	}
-
-	if (parentsError) {
-		console.error(parentsError);
-	}
-
-	if (questionTagError || !questionTag) {
-		console.log(questionTagError);
-		throw error(404, 'Category not found');
-	}
-
-	if (categoriesError || categoryTagsError || activeQuestionsError) {
+	if (categoryTagsError || activeQuestionsError) {
 		console.log({
-			categoriesError,
 			categoryTagsError,
 			activeQuestionsError
 		});
@@ -100,6 +97,15 @@ export const load: PageServerLoad = async (event) => {
 		activeQuestionIds
 	);
 	const currentCategoryNode = findQuestionCategoryNodeById(categoryTree, questionTag.id);
+	const parents = buildQuestionCategoryPathRows(
+		(categories as QuestionCategoryRow[] | null) ?? [],
+		questionTag.id
+	).map((category) => ({
+		id: category.id,
+		category_name: category.category_name,
+		slug: category.slug,
+		level: category.level ?? 0
+	}));
 
 	if (!currentCategoryNode) {
 		throw error(404, 'No category with live questions found');
@@ -118,3 +124,44 @@ export const load: PageServerLoad = async (event) => {
 		canAskQuestion
 	};
 };
+
+async function getCategoryQuestions(supabase: any, questionTable: string, categoryId: number) {
+	const { data: questionTagRows, error: questionTagRowsError } = await supabase
+		.from('question_category_tags')
+		.select('question_id')
+		.eq('tag_id', categoryId);
+
+	if (questionTagRowsError) {
+		console.log(questionTagRowsError);
+		throw error(500, "couldn't find questions");
+	}
+
+	const questionIds = Array.from(
+		new Set(
+			(questionTagRows ?? [])
+				.map((row: { question_id: number | null }) => row.question_id)
+				.filter((questionId: number | null): questionId is number => Number.isFinite(questionId))
+		)
+	);
+
+	if (!questionIds.length) {
+		return [];
+	}
+
+	const { data: questions, error: questionsError } = await supabase
+		.from(questionTable)
+		.select(
+			'id, author_id, comment_count, created_at, updated_at, es_id, img_url, question, question_formatted, url'
+		)
+		.in('id', questionIds)
+		.eq('removed', false)
+		.order('updated_at', { ascending: false })
+		.order('created_at', { ascending: false });
+
+	if (questionsError) {
+		console.log(questionsError);
+		throw error(500, "couldn't find questions");
+	}
+
+	return questions ?? [];
+}

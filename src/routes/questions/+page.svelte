@@ -13,6 +13,10 @@
 	import AsyncErrorHandler from '$lib/components/error/AsyncErrorHandler.svelte';
 	import Spinner from '$lib/components/atoms/Spinner.svelte';
 	import SEOHead from '$lib/components/SEOHead.svelte';
+	import {
+		buildQuestionCategoryPath,
+		buildQuestionCategorySlug
+	} from '$lib/utils/questionCategorySlug';
 	import { buildBreadcrumbSchemaForGraph, buildFAQSchemaForGraph } from '$lib/utils/schema';
 	import type { PageData } from './$types';
 	import type { QuestionWithTag, QuestionCategory } from '$lib/types/questions';
@@ -107,13 +111,8 @@
 		}
 	}
 
-	// Category pages use title-cased slugs derived directly from the category name.
-	function toCategorySlug(name: string): string {
-		return name.trim().replace(/\s+/g, '-');
-	}
-
-	function getCategoryHref(name: string): string {
-		return `/questions/categories/${toCategorySlug(name)}`;
+	function getCategoryHref(category: Pick<QuestionCategory, 'category_name' | 'slug'>): string {
+		return buildQuestionCategoryPath(category.slug || category.category_name);
 	}
 
 	const questionsFaqs = [
@@ -169,17 +168,18 @@
 	// Helper to find category by slug
 	function findCategoryBySlug(slug: string): QuestionCategory | undefined {
 		return displayedCategories.find(
-			(c: QuestionCategory) => toCategorySlug(c.category_name).toLowerCase() === slug.toLowerCase()
+			(c: QuestionCategory) =>
+				(c.slug || buildQuestionCategorySlug(c.category_name)) === buildQuestionCategorySlug(slug)
 		);
 	}
 
 	async function filterByCategory(
 		categoryId: number | null,
-		categoryName: string | null = null,
+		categorySlug: string | null = null,
 		updateUrl = true
 	) {
-		if (categoryId !== null && updateUrl && browser && categoryName) {
-			await goto(getCategoryHref(categoryName), { noScroll: true });
+		if (categoryId !== null && updateUrl && browser && categorySlug) {
+			await goto(buildQuestionCategoryPath(categorySlug), { noScroll: true });
 			return;
 		}
 
@@ -210,9 +210,9 @@
 				hasMore = data.hasMore;
 			} else {
 				// Update URL to reflect category selection (use slug for readable URLs)
-				if (updateUrl && browser && categoryName) {
+				if (updateUrl && browser && categorySlug) {
 					const url = new URL($page.url);
-					url.searchParams.set('category', toCategorySlug(categoryName));
+					url.searchParams.set('category', categorySlug);
 					await goto(url.toString(), { replaceState: true, noScroll: true });
 				}
 
@@ -293,7 +293,7 @@
 				// Try to find category by slug (name-based URL)
 				const category = findCategoryBySlug(catParam);
 				if (category && category.id !== selectedCategory) {
-					filterByCategory(category.id, category.category_name, false); // Don't update URL since it's already updated
+					filterByCategory(category.id, category.slug || category.category_name, false);
 				}
 			}
 		} else if (selectedCategory !== null && !loading) {
@@ -412,7 +412,7 @@
 				</button>
 				{#each displayedCategories as category (category.id)}
 					<a
-						href={getCategoryHref(category.category_name)}
+						href={getCategoryHref(category)}
 						class="bg-[var(--bg-surface)]/60 flex-shrink-0 whitespace-nowrap rounded-full border border-[var(--primary-subtle)] px-2.5 py-1 text-xs font-medium text-[var(--text-primary)] backdrop-blur-sm transition-all duration-150 hover:border-[var(--primary)] hover:bg-[var(--primary-subtle)] hover:shadow-[var(--glow-sm)] disabled:cursor-not-allowed disabled:opacity-60 sm:px-3.5 sm:py-1.5 sm:text-sm"
 						class:!bg-[var(--primary-dark)]={selectedCategory === category.id}
 						class:!text-white={selectedCategory === category.id}

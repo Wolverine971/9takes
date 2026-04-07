@@ -1,8 +1,13 @@
 // src/routes/+layout.server.ts
 import type { LayoutServerLoad } from './$types';
+import {
+	buildQuestionCategoryPathRows,
+	type QuestionCategoryRow
+} from '$lib/server/questionCategoryTree';
+import { buildQuestionCategorySlug } from '$lib/utils/questionCategorySlug';
 import { logger } from '$lib/utils/logger';
 
-type ParentCategory = { id: number; category_name: string; level: number };
+type ParentCategory = Pick<QuestionCategoryRow, 'id' | 'category_name' | 'slug' | 'level'>;
 
 export const load: LayoutServerLoad = async (event) => {
 	const { data: demoSetting, error: adminSettingsError } = await event.locals.supabase
@@ -17,21 +22,35 @@ export const load: LayoutServerLoad = async (event) => {
 	}
 
 	let parents: ParentCategory[] = [];
-	if (event.url.pathname.includes('/categories')) {
-		const slug = event.url.pathname.split('/').pop();
+	if (event.url.pathname.startsWith('/questions/categories/')) {
+		const rawSlug = event.url.pathname.split('/').pop();
+		const normalizedSlug = buildQuestionCategorySlug(rawSlug);
 
-		const slugName = slug ? slug.split('-').join(' ') : null;
+		if (normalizedSlug) {
+			const { data: categories, error: categoriesError } = await event.locals.supabase
+				.from('question_categories')
+				.select('id, category_name, slug, parent_id, level')
+				.order('id', { ascending: true });
 
-		if (slugName) {
-			const { data: parentsCats, error: parentsError } = await event.locals.supabase.rpc(
-				'get_category_parent_structure',
-				{ input_category_name: slugName }
-			);
+			if (categoriesError) {
+				logger.warn('Failed to fetch category parents', {
+					error: categoriesError,
+					slug: rawSlug
+				});
+			} else {
+				const categoryRows = (categories ?? []) as QuestionCategoryRow[];
+				const currentCategory = categoryRows.find((category) => category.slug === normalizedSlug);
 
-			if (parentsError) {
-				logger.warn('Failed to fetch category parents', { error: parentsError, slug });
-			} else if (Array.isArray(parentsCats)) {
-				parents = parentsCats as ParentCategory[];
+				if (currentCategory) {
+					parents = buildQuestionCategoryPathRows(categoryRows, currentCategory.id).map(
+						(category) => ({
+							id: category.id,
+							category_name: category.category_name,
+							slug: category.slug,
+							level: category.level
+						})
+					);
+				}
 			}
 		}
 	}

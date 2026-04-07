@@ -27,7 +27,7 @@ export const load: PageServerLoad = async (event) => {
 			supabase
 				.from('question_categories')
 				.select(
-					'id, category_name, parent_id, level, intro_status, intro_source, intro_generated_at, intro_reviewed_at, intro_updated_at'
+					'id, category_name, slug, parent_id, level, intro_status, intro_source, intro_generated_at, intro_reviewed_at, intro_updated_at'
 				)
 				.order('id', { ascending: true }),
 			supabase.from('question_category_tags').select('question_id, tag_id'),

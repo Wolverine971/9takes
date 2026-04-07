@@ -12,6 +12,7 @@ import {
 	normalizePersonalityAnalysisUrl,
 	normalizePersonalitySlug
 } from './lib/personalitySeo.js';
+import { buildQuestionCategorySlug } from '../src/lib/utils/questionCategorySlug.js';
 
 const { glob } = pkg;
 
@@ -22,8 +23,9 @@ const __dirname = path.dirname(__filename);
 const SITE_URL = 'https://9takes.com';
 const SITE_ROOT = path.join(__dirname, '..');
 
-const SUPABASE_URL = process.env.PUBLIC_SUPABASE_URL;
-const SUPABASE_ANON_KEY = process.env.PUBLIC_SUPABASE_PUBLISHABLE_KEY;
+const SUPABASE_URL = process.env.PUBLIC_SUPABASE_URL || process.env.SUPABASE_URL;
+const SUPABASE_ANON_KEY =
+	process.env.PUBLIC_SUPABASE_PUBLISHABLE_KEY || process.env.PUBLIC_SUPABASE_ANON_KEY;
 
 let supabase = null;
 
@@ -122,7 +124,9 @@ function getSupabase() {
 	if (supabase) return supabase;
 
 	if (!SUPABASE_URL || !SUPABASE_ANON_KEY) {
-		throw new Error('Missing Supabase environment variables');
+		throw new Error(
+			'Missing Supabase environment variables. Expected PUBLIC_SUPABASE_URL (or SUPABASE_URL) and PUBLIC_SUPABASE_PUBLISHABLE_KEY (or PUBLIC_SUPABASE_ANON_KEY).'
+		);
 	}
 
 	supabase = createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
@@ -288,7 +292,12 @@ function resolveStaticLastmod({
 	);
 }
 
-export function buildStaticPages({ posts, peoplePosts, questions, questionCategoryLastmod = null }) {
+export function buildStaticPages({
+	posts,
+	peoplePosts,
+	questions,
+	questionCategoryLastmod = null
+}) {
 	const latestAllPosts = getLatestItemDate(posts, (post) => post.lastmod ?? post.date);
 	const latestBlogContent = getLatestItemDate(posts, (post) =>
 		post.sourceCategory === 'community' ||
@@ -506,12 +515,6 @@ function dedupeEntries(entries) {
 	return [...byLoc.values()];
 }
 
-function toQuestionCategorySlug(categoryName) {
-	return String(categoryName ?? '')
-		.trim()
-		.replace(/\s+/g, '-');
-}
-
 function buildQuestionCategoryEntries(categories, categoryTags, questions) {
 	const activeQuestionLastmodById = new Map(
 		questions
@@ -525,6 +528,7 @@ function buildQuestionCategoryEntries(categories, categoryTags, questions) {
 			{
 				id: category.id,
 				category_name: category.category_name,
+				slug: category.slug,
 				parent_id: category.parent_id,
 				children: [],
 				directQuestionIds: new Set(),
@@ -574,6 +578,7 @@ function buildQuestionCategoryEntries(categories, categoryTags, questions) {
 		return {
 			id: node.id,
 			category_name: node.category_name,
+			slug: node.slug,
 			lastmod,
 			children: prunedChildren
 		};
@@ -585,7 +590,7 @@ function buildQuestionCategoryEntries(categories, categoryTags, questions) {
 	function collect(node) {
 		if (node.lastmod) {
 			entries.push({
-				loc: `${SITE_URL}/questions/categories/${toQuestionCategorySlug(node.category_name)}`,
+				loc: `${SITE_URL}/questions/categories/${node.slug || buildQuestionCategorySlug(node.category_name)}`,
 				lastmod: node.lastmod
 			});
 			latestLastmod = maxLastmod(latestLastmod, node.lastmod);
@@ -618,16 +623,24 @@ function buildQuestionEntry(question) {
 
 async function getQuestionCategoryPages(questions) {
 	const supabase = getSupabase();
-	const [{ data: categories, error: categoriesError }, { data: categoryTags, error: categoryTagsError }] =
-		await Promise.all([
-			supabase
-				.from('question_categories')
-				.select('id, category_name, parent_id, intro_updated_at')
-				.order('id', { ascending: true }),
-			supabase.from('question_category_tags').select('question_id, tag_id')
-		]);
+	const [
+		{ data: categories, error: categoriesError },
+		{ data: categoryTags, error: categoryTagsError }
+	] = await Promise.all([
+		supabase
+			.from('question_categories')
+			.select('id, category_name, slug, parent_id, intro_updated_at')
+			.order('id', { ascending: true }),
+		supabase.from('question_category_tags').select('question_id, tag_id')
+	]);
 
 	if (categoriesError || categoryTagsError) {
+		if (categoriesError?.message?.includes('question_categories.slug')) {
+			throw new Error(
+				'Supabase schema is missing question_categories.slug. Apply supabase/migrations/20260407_question_category_slugs.sql before generating the sitemap.'
+			);
+		}
+
 		console.warn('Error fetching question category pages:', {
 			categoriesError: categoriesError?.message,
 			categoryTagsError: categoryTagsError?.message

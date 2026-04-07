@@ -10,6 +10,7 @@ import { mapDemoValues } from '../../../utils/demo';
 import { extractFirstURL } from '../../../utils/StringUtils';
 import { createCommentSchema, flagCommentSchema } from '$lib/validation/questionSchemas';
 import { uploadQuestionImage } from '$lib/server/questionImages';
+import { buildQuestionCategorySlug } from '$lib/utils/questionCategorySlug';
 import { z } from 'zod';
 
 import axios from 'axios';
@@ -452,7 +453,7 @@ export const actions: Actions = {
 
 		const { data: existingCategory, error: existingCategoryError } = await db
 			.from('question_categories')
-			.select('id, category_name, parent_id, level')
+			.select('id, category_name, slug, parent_id, level')
 			.eq('parent_id', parentId)
 			.ilike('category_name', categoryName)
 			.maybeSingle();
@@ -1131,7 +1132,7 @@ function mapDemoComment(comment: any) {
 async function getCategoryEditorData() {
 	const { data, error: categoryError } = await supabase
 		.from('question_categories')
-		.select('id, category_name, parent_id, level')
+		.select('id, category_name, slug, parent_id, level')
 		.in('level', [1, 2, TAGGABLE_LEAF_LEVEL])
 		.order('category_name', { ascending: true });
 
@@ -1204,10 +1205,11 @@ async function createLeafCategoryWithRetry(db: any, parentId: number, categoryNa
 			.insert({
 				id: nextCategoryId,
 				category_name: categoryName,
+				slug: buildQuestionCategorySlug(categoryName),
 				parent_id: parentId,
 				level: TAGGABLE_LEAF_LEVEL
 			})
-			.select('id, category_name, parent_id, level')
+			.select('id, category_name, slug, parent_id, level')
 			.maybeSingle();
 
 		if (!insertCategoryError && insertedCategory) {

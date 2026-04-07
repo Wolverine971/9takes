@@ -2,6 +2,7 @@
 export interface QuestionCategoryRow {
 	id: number;
 	category_name: string;
+	slug?: string | null;
 	parent_id: number | null;
 	level: number | null;
 }
@@ -14,6 +15,7 @@ export interface QuestionCategoryTagRow {
 export interface QuestionCategoryTreeNode {
 	id: number;
 	category_name: string;
+	slug?: string | null;
 	parent_id: number | null;
 	level: number;
 	directQuestionCount: number;
@@ -126,9 +128,9 @@ export function flattenQuestionCategoryTree(
 
 export function listQuestionCategoriesWithDirectQuestions(
 	tree: QuestionCategoryTreeNode[]
-): Array<Pick<QuestionCategoryTreeNode, 'id' | 'category_name' | 'directQuestionCount'>> {
+): Array<Pick<QuestionCategoryTreeNode, 'id' | 'category_name' | 'slug' | 'directQuestionCount'>> {
 	const categories: Array<
-		Pick<QuestionCategoryTreeNode, 'id' | 'category_name' | 'directQuestionCount'>
+		Pick<QuestionCategoryTreeNode, 'id' | 'category_name' | 'slug' | 'directQuestionCount'>
 	> = [];
 
 	for (const node of tree) {
@@ -136,6 +138,7 @@ export function listQuestionCategoriesWithDirectQuestions(
 			categories.push({
 				id: node.id,
 				category_name: node.category_name,
+				slug: node.slug,
 				directQuestionCount: node.directQuestionCount
 			});
 		}
@@ -164,6 +167,21 @@ export function findQuestionCategoryNodeById(
 	return null;
 }
 
+export function buildQuestionCategoryPathRows<
+	TCategory extends { id: number; parent_id: number | null }
+>(categories: TCategory[], categoryId: number): TCategory[] {
+	const categoryById = new Map(categories.map((category) => [category.id, category]));
+	const path: TCategory[] = [];
+	let current = categoryById.get(categoryId) ?? null;
+
+	while (current) {
+		path.unshift(current);
+		current = current.parent_id == null ? null : (categoryById.get(current.parent_id) ?? null);
+	}
+
+	return path;
+}
+
 function pruneEmptyBranches(node: MutableTreeNode): PrunedNodeResult | null {
 	const prunedChildren = node.children
 		.map((child) => pruneEmptyBranches(child))
@@ -185,6 +203,7 @@ function pruneEmptyBranches(node: MutableTreeNode): PrunedNodeResult | null {
 		node: {
 			id: node.id,
 			category_name: node.category_name,
+			slug: node.slug,
 			parent_id: node.parent_id,
 			level: node.level ?? 0,
 			directQuestionCount: node.directQuestionIds.size,

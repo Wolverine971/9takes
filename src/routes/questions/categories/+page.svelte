@@ -6,6 +6,7 @@
 	type BrowseCategoryNode = {
 		id: number;
 		category_name: string;
+		slug?: string | null;
 		parent_id: number | null;
 		level: number;
 		directQuestionCount: number;

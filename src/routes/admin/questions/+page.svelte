@@ -7,6 +7,21 @@
 	import StatCard from '$lib/components/charts/StatCard.svelte';
 
 	let { data }: { data: PageData } = $props();
+	let questions = $state<any[]>([]);
+	let initializedQuestions = false;
+
+	$effect(() => {
+		if (initializedQuestions) {
+			return;
+		}
+
+		questions = (data.questions || []).map((question: any) => ({
+			...question,
+			question_tag: Array.isArray(question.question_tag) ? [...question.question_tag] : [],
+			keywords: Array.isArray(question.keywords) ? [...question.keywords] : []
+		}));
+		initializedQuestions = true;
+	});
 
 	// Question sorting functions
 	const sortFunctions: Record<string, (questions: any[]) => any[]> = {
@@ -46,24 +61,21 @@
 	>('all');
 
 	// Stats
-	let totalQuestions = $derived(data.questions?.length || 0);
+	let totalQuestions = $derived(questions.length);
 	let totalComments = $derived(
-		data.questions?.reduce((sum: number, q: any) => sum + (q.comment_count || 0), 0) || 0
+		questions.reduce((sum: number, q: any) => sum + (q.comment_count || 0), 0)
 	);
-	let taggedCount = $derived(
-		data.questions?.filter((q: any) => q.tagged || q.question_tag?.length > 0).length || 0
-	);
+	let taggedCount = $derived(questions.filter((q: any) => hasAssignedTags(q)).length);
 	let untaggedCount = $derived(totalQuestions - taggedCount);
 	let processedCount = $derived(
-		data.questions?.filter((q: any) => q.question_formatted && q.question_formatted !== q.question)
-			.length || 0
+		questions.filter((q: any) => q.question_formatted && q.question_formatted !== q.question).length
 	);
 	let unprocessedCount = $derived(totalQuestions - processedCount);
 
 	// Build unique tag list for category filter
 	let allTags = $derived.by(() => {
 		const tagMap = new Map<number, string>();
-		for (const q of data.questions || []) {
+		for (const q of questions) {
 			for (const t of q.question_tag || []) {
 				if (t.tag_id && t.tag_name) {
 					tagMap.set(t.tag_id, t.tag_name);
@@ -79,7 +91,7 @@
 
 	// Filter and sort questions
 	let displayedQuestions = $derived.by(() => {
-		let filtered = data.questions || [];
+		let filtered = questions;
 
 		if (searchQuery) {
 			const query = searchQuery.toLowerCase();
@@ -97,11 +109,9 @@
 		} else if (filterStatus === 'active') {
 			filtered = filtered.filter((q: any) => !q.flagged && !q.removed);
 		} else if (filterStatus === 'tagged') {
-			filtered = filtered.filter((q: any) => q.tagged || q.question_tag?.length > 0);
+			filtered = filtered.filter((q: any) => hasAssignedTags(q));
 		} else if (filterStatus === 'untagged') {
-			filtered = filtered.filter(
-				(q: any) => !q.tagged && (!q.question_tag || q.question_tag.length === 0)
-			);
+			filtered = filtered.filter((q: any) => !hasAssignedTags(q));
 		} else if (filterStatus === 'processed') {
 			filtered = filtered.filter(
 				(q: any) => q.question_formatted && q.question_formatted !== q.question
@@ -122,12 +132,36 @@
 	});
 
 	// Helpers
-	function hasAiTags(question: any): boolean {
-		return question.tagged || question.question_tag?.length > 0;
+	function hasAssignedTags(question: any): boolean {
+		return Array.isArray(question.question_tag) && question.question_tag.length > 0;
 	}
 
 	function isProcessed(question: any): boolean {
 		return question.question_formatted && question.question_formatted !== question.question;
+	}
+
+	function updateQuestion(updatedQuestion: any) {
+		const questionIndex = questions.findIndex(
+			(question: any) => question.id === updatedQuestion?.id
+		);
+		if (questionIndex === -1) {
+			return;
+		}
+
+		questions[questionIndex] = {
+			...questions[questionIndex],
+			...updatedQuestion,
+			question_tag: Array.isArray(updatedQuestion.question_tag)
+				? [...updatedQuestion.question_tag]
+				: questions[questionIndex].question_tag,
+			keywords: Array.isArray(updatedQuestion.keywords)
+				? [...updatedQuestion.keywords]
+				: questions[questionIndex].keywords
+		};
+
+		if (selectedQuestion?.id === updatedQuestion.id) {
+			selectedQuestion = questions[questionIndex];
+		}
 	}
 
 	// Open question details modal
@@ -168,7 +202,7 @@
 			<StatCard icon="💬" label="Total Comments" value={totalComments} color="success" />
 			<StatCard
 				icon="🏷️"
-				label="AI Tagged"
+				label="Tagged"
 				value="{taggedCount}/{totalQuestions}"
 				color={untaggedCount > 0 ? 'warning' : 'success'}
 				subValue="{untaggedCount} untagged"
@@ -215,9 +249,9 @@
 							<option value="active">Active</option>
 							<option value="flagged">Flagged</option>
 							<option value="removed">Removed</option>
-							<optgroup label="AI Tags">
-								<option value="tagged">Has AI Tags</option>
-								<option value="untagged">No AI Tags</option>
+							<optgroup label="Tags">
+								<option value="tagged">Has Tags</option>
+								<option value="untagged">No Tags</option>
 							</optgroup>
 							<optgroup label="Processing">
 								<option value="processed">Processed</option>
@@ -299,8 +333,8 @@
 										{question.question_formatted || question.question}
 									</h3>
 									<div class="status-badges">
-										{#if hasAiTags(question)}
-											<span class="status-badge tagged">AI Tagged</span>
+										{#if hasAssignedTags(question)}
+											<span class="status-badge tagged">Has Tags</span>
 										{:else}
 											<span class="status-badge untagged">No Tags</span>
 										{/if}
@@ -370,7 +404,11 @@
 <Modal2 id="question-details-modal">
 	<div class="modal-content">
 		{#if selectedQuestion}
-			<AdminQuestionItem questionData={selectedQuestion} tags={data.tags || []} />
+			<AdminQuestionItem
+				questionData={selectedQuestion}
+				tags={data.tags || []}
+				onQuestionUpdated={updateQuestion}
+			/>
 		{/if}
 	</div>
 </Modal2>

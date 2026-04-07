@@ -294,29 +294,13 @@
 
 	<!-- Quick Navigation -->
 	<nav class="quick-nav" aria-label="Topic Navigation">
+		<span class="quick-nav-kicker">Browse by topic</span>
 		<div class="quick-nav-shell">
-			<div class="quick-nav-intro">
-				<div>
-					<p class="quick-nav-kicker">Browse the guide</p>
-					<h2>Jump straight to the topic you care about</h2>
-				</div>
-				<p class="quick-nav-description">
-					Each section maps to a different angle of the Enneagram, from core theory to
-					relationships, work, and mental health.
-				</p>
-			</div>
-
-			<div class="nav-grid">
+			<div class="nav-scroll">
 				{#each blogSections as section}
 					<a href="#{section.id}" class="nav-pill">
-						<span class="nav-icon-wrap" aria-hidden="true">
-							<span class="nav-icon">{section.icon}</span>
-						</span>
-						<span class="nav-copy">
-							<span class="nav-title">{section.title}</span>
-							<span class="nav-subtitle">{section.subtitle}</span>
-						</span>
-						<span class="nav-arrow" aria-hidden="true">↘</span>
+						<span class="nav-icon" aria-hidden="true">{section.icon}</span>
+						<span class="nav-text">{section.title}</span>
 					</a>
 				{/each}
 			</div>
@@ -541,111 +525,123 @@
 
 	/* Quick Navigation */
 	.quick-nav {
+		position: relative;
 		max-width: 1200px;
-		margin: 0 auto 1.5rem;
+		margin: 0.45rem auto 1.25rem;
 		padding: 0 1.5rem;
 	}
 
 	.quick-nav-shell {
 		position: relative;
-		padding: 1.35rem;
-		border-radius: 1.25rem;
-		border: 1px solid color-mix(in srgb, var(--primary) 16%, var(--glass-border));
+		padding: 0.75rem 0.85rem;
+		border-radius: 1rem;
+		border: 1px solid color-mix(in srgb, var(--primary) 14%, var(--glass-border));
 		background:
-			radial-gradient(circle at top left, rgba(45, 212, 191, 0.14), transparent 34%),
+			radial-gradient(circle at left center, rgba(45, 212, 191, 0.16), transparent 28%),
 			linear-gradient(
-				135deg,
-				color-mix(in srgb, var(--bg-surface) 90%, white) 0%,
-				color-mix(in srgb, var(--bg-base) 94%, var(--primary-subtle)) 100%
+				90deg,
+				color-mix(in srgb, var(--bg-surface) 92%, white) 0%,
+				color-mix(in srgb, var(--bg-base) 96%, var(--primary-subtle)) 100%
 			);
 		box-shadow:
 			var(--shadow-sm),
-			inset 0 1px 0 rgba(255, 255, 255, 0.25);
+			inset 0 1px 0 rgba(255, 255, 255, 0.22);
 		overflow: hidden;
 	}
 
-	.quick-nav-shell::after {
+	.quick-nav-shell::before {
 		content: '';
 		position: absolute;
 		inset: 0;
 		background:
-			linear-gradient(120deg, rgba(255, 255, 255, 0.08), transparent 28%),
-			linear-gradient(rgba(255, 255, 255, 0.02) 1px, transparent 1px),
-			linear-gradient(90deg, rgba(255, 255, 255, 0.02) 1px, transparent 1px);
+			linear-gradient(
+				100deg,
+				rgba(255, 255, 255, 0.12),
+				transparent 16%,
+				transparent 84%,
+				rgba(255, 255, 255, 0.1)
+			),
+			linear-gradient(90deg, rgba(255, 255, 255, 0.03) 1px, transparent 1px);
 		background-size:
 			auto,
-			22px 22px,
-			22px 22px;
+			18px 18px;
 		pointer-events: none;
-		opacity: 0.75;
-	}
-
-	.quick-nav-intro {
-		position: relative;
-		z-index: 1;
-		display: flex;
-		align-items: flex-end;
-		justify-content: space-between;
-		gap: 1rem;
-		margin-bottom: 1rem;
-		padding-bottom: 1rem;
-		border-bottom: 1px solid color-mix(in srgb, var(--primary) 12%, var(--border-color));
+		opacity: 0.6;
 	}
 
 	.quick-nav-kicker {
-		margin: 0 0 0.45rem;
+		position: absolute;
+		top: -0.58rem;
+		left: 2rem;
+		z-index: 2;
+		display: inline-flex;
+		align-items: center;
+		gap: 0.45rem;
+		padding: 0.46rem 0.72rem;
+		border-radius: 999px;
+		background: color-mix(in srgb, var(--primary-subtle) 86%, white);
+		border: 1px solid color-mix(in srgb, var(--primary) 16%, transparent);
+		box-shadow:
+			var(--shadow-sm),
+			inset 0 1px 0 rgba(255, 255, 255, 0.35);
 		font-family: var(--font-mono);
-		font-size: 0.68rem;
+		font-size: 0.62rem;
 		font-weight: 500;
-		letter-spacing: 0.16em;
+		letter-spacing: 0.14em;
 		text-transform: uppercase;
 		color: var(--primary);
+		white-space: nowrap;
+		pointer-events: none;
 	}
 
-	.quick-nav-intro h2 {
-		margin: 0;
-		font-family: var(--font-display);
-		font-size: 1.35rem;
-		font-weight: 700;
-		line-height: 1.05;
-		letter-spacing: -0.03em;
-		color: var(--text-primary);
+	.quick-nav-kicker::before {
+		content: '';
+		width: 0.4rem;
+		height: 0.4rem;
+		border-radius: 999px;
+		background: currentColor;
+		opacity: 0.75;
 	}
 
-	.quick-nav-description {
-		margin: 0;
-		max-width: 32rem;
-		font-size: 0.875rem;
-		line-height: 1.65;
-		color: var(--text-secondary);
-	}
-
-	.nav-grid {
+	.nav-scroll {
 		position: relative;
 		z-index: 1;
-		display: grid;
-		grid-template-columns: repeat(4, minmax(0, 1fr));
-		gap: 0.75rem;
+		display: flex;
+		align-items: center;
+		gap: 0.55rem;
+		overflow-x: auto;
+		padding: 0.1rem 1.2rem 0.1rem 0;
+		mask-image: linear-gradient(to right, black 0, black calc(100% - 1.35rem), transparent 100%);
+		-webkit-mask-image: linear-gradient(
+			to right,
+			black 0,
+			black calc(100% - 1.35rem),
+			transparent 100%
+		);
+		scrollbar-width: none;
+		scroll-snap-type: x proximity;
+
+		&::-webkit-scrollbar {
+			display: none;
+		}
 	}
 
 	.nav-pill {
 		position: relative;
-		display: grid;
-		grid-template-columns: auto minmax(0, 1fr);
+		flex-shrink: 0;
+		display: inline-flex;
 		align-items: center;
-		gap: 0.85rem;
-		min-height: 5.25rem;
-		padding: 1rem 2.9rem 1rem 1rem;
-		background: color-mix(in srgb, var(--bg-base) 88%, white);
-		border-radius: 1rem;
+		gap: 0.48rem;
+		padding: 0.58rem 0.88rem;
+		background: color-mix(in srgb, var(--bg-base) 84%, white);
+		border-radius: 999px;
 		color: var(--text-secondary);
-		transition: all 0.2s ease;
+		transition: all 0.18s ease;
 		text-decoration: none;
 		border: 1px solid color-mix(in srgb, var(--primary) 12%, var(--border-color));
-		box-shadow:
-			0 0 0 1px rgba(255, 255, 255, 0.1),
-			inset 0 1px 0 rgba(255, 255, 255, 0.18);
-		overflow: hidden;
+		box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.22);
+		scroll-snap-align: start;
+		white-space: nowrap;
 	}
 
 	.nav-pill::before {
@@ -654,100 +650,50 @@
 		inset: 0;
 		background: linear-gradient(
 			135deg,
-			color-mix(in srgb, var(--primary-subtle) 90%, transparent) 0%,
-			transparent 65%
+			color-mix(in srgb, var(--primary-subtle) 60%, transparent) 0%,
+			transparent 72%
 		);
-		opacity: 0.7;
-		transition: opacity 0.2s ease;
+		opacity: 0;
+		transition: opacity 0.18s ease;
 	}
 
 	.nav-pill:hover {
-		transform: translateY(-3px);
+		transform: translateY(-1px);
 		border-color: color-mix(in srgb, var(--primary) 28%, transparent);
 		box-shadow:
-			var(--shadow-md),
-			0 0 0 1px color-mix(in srgb, var(--primary) 14%, transparent);
+			var(--shadow-sm),
+			0 0 0 1px color-mix(in srgb, var(--primary) 10%, transparent);
 		background: color-mix(in srgb, var(--bg-surface) 92%, white);
 	}
 
 	.nav-pill:hover::before {
-		opacity: 1;
+		opacity: 0.95;
 	}
 
 	.nav-pill:active {
 		transform: scale(0.985);
 	}
 
-	.nav-icon-wrap,
-	.nav-copy,
-	.nav-arrow {
+	.nav-icon {
 		position: relative;
 		z-index: 1;
-	}
-
-	.nav-icon-wrap {
-		width: 2.85rem;
-		height: 2.85rem;
-		display: inline-flex;
-		align-items: center;
-		justify-content: center;
-		border-radius: 0.85rem;
-		background: linear-gradient(
-			180deg,
-			color-mix(in srgb, var(--primary-subtle) 75%, white) 0%,
-			rgba(255, 255, 255, 0.72) 100%
-		);
-		border: 1px solid color-mix(in srgb, var(--primary) 16%, transparent);
-		box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4);
-	}
-
-	.nav-icon {
-		font-size: 1.1rem;
+		font-size: 0.92rem;
 		line-height: 1;
+		opacity: 0.95;
 	}
 
-	.nav-copy {
-		display: flex;
-		flex-direction: column;
-		gap: 0.18rem;
-		min-width: 0;
-	}
-
-	.nav-title {
-		font-family: var(--font-display);
-		font-size: 1.05rem;
-		font-weight: 700;
-		line-height: 1;
-		letter-spacing: -0.02em;
+	.nav-text {
+		position: relative;
+		z-index: 1;
+		font-size: 0.84rem;
+		font-weight: 600;
+		letter-spacing: -0.01em;
 		color: var(--text-primary);
+		transition: color 0.18s ease;
 	}
 
-	.nav-subtitle {
-		font-size: 0.74rem;
-		line-height: 1.45;
-		color: var(--text-tertiary);
-	}
-
-	.nav-arrow {
-		position: absolute;
-		top: 1rem;
-		right: 1rem;
-		font-size: 1rem;
+	.nav-pill:hover .nav-text {
 		color: var(--primary);
-		opacity: 0.72;
-		transform: translate(0, 0);
-		transition:
-			transform 0.2s ease,
-			opacity 0.2s ease;
-	}
-
-	.nav-pill:hover .nav-title {
-		color: var(--primary);
-	}
-
-	.nav-pill:hover .nav-arrow {
-		opacity: 1;
-		transform: translate(2px, -2px);
 	}
 
 	/* Main Content */
@@ -1341,16 +1287,8 @@
 	/* Responsive */
 	@media (max-width: 900px) {
 		.quick-nav-shell {
-			padding: 1.15rem;
-		}
-
-		.quick-nav-intro {
-			flex-direction: column;
-			align-items: flex-start;
-		}
-
-		.nav-grid {
-			grid-template-columns: repeat(2, minmax(0, 1fr));
+			gap: 0.6rem;
+			padding: 0.7rem 0.75rem;
 		}
 
 		.featured-grid {
@@ -1415,58 +1353,36 @@
 
 		.quick-nav {
 			padding: 0 1rem;
-			margin-bottom: 1.25rem;
+			margin-bottom: 1rem;
 		}
 
 		.quick-nav-shell {
-			padding: 1rem;
-			border-radius: 1rem;
-		}
-
-		.quick-nav-intro {
-			margin-bottom: 0.875rem;
-			padding-bottom: 0.875rem;
+			padding: 0.72rem;
+			border-radius: 0.95rem;
 		}
 
 		.quick-nav-kicker {
-			font-size: 0.64rem;
+			top: -0.84rem;
+			left: 1.55rem;
+			padding: 0.43rem 0.66rem;
+			font-size: 0.58rem;
 		}
 
-		.quick-nav-intro h2 {
-			font-size: 1.12rem;
-		}
-
-		.quick-nav-description {
-			font-size: 0.8125rem;
+		.nav-scroll {
+			gap: 0.48rem;
+			padding-right: 1rem;
 		}
 
 		.nav-pill {
-			min-height: 4.75rem;
-			padding: 0.875rem 2.55rem 0.875rem 0.875rem;
-			gap: 0.7rem;
-			border-radius: 0.85rem;
-		}
-
-		.nav-icon-wrap {
-			width: 2.4rem;
-			height: 2.4rem;
-			border-radius: 0.7rem;
+			padding: 0.52rem 0.74rem;
 		}
 
 		.nav-icon {
-			font-size: 1rem;
+			font-size: 0.88rem;
 		}
 
-		.nav-title {
-			font-size: 0.95rem;
-		}
-
-		.nav-subtitle {
-			font-size: 0.68rem;
-		}
-
-		.nav-arrow {
-			font-size: 0.9rem;
+		.nav-text {
+			font-size: 0.8rem;
 		}
 
 		.main-content {
@@ -1567,28 +1483,32 @@
 			padding: 0 0.75rem;
 		}
 
+		.quick-nav-shell {
+			padding: 0.64rem;
+		}
+
+		.quick-nav-kicker {
+			top: -0.8rem;
+			left: 1.2rem;
+			padding: 0.4rem 0.58rem;
+			font-size: 0.54rem;
+		}
+
+		.nav-scroll {
+			padding-right: 0.85rem;
+		}
+
 		.nav-pill {
-			min-height: 4.25rem;
-			padding: 0.75rem;
-			gap: 0.625rem;
-		}
-
-		.nav-subtitle,
-		.nav-arrow {
-			display: none;
-		}
-
-		.nav-icon-wrap {
-			width: 2.2rem;
-			height: 2.2rem;
+			padding: 0.48rem 0.66rem;
+			gap: 0.4rem;
 		}
 
 		.nav-icon {
-			font-size: 0.95rem;
+			font-size: 0.84rem;
 		}
 
-		.nav-title {
-			font-size: 0.9rem;
+		.nav-text {
+			font-size: 0.76rem;
 		}
 
 		.blog-grid,

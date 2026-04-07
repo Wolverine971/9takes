@@ -139,9 +139,15 @@ This is the Type 4 relationship with failure. It's not a data point on a scoreca
 
 Graham chose Altman to succeed him as president of Y Combinator in 2014. Not the most successful founder. Not the richest. The one with "such force of will that [he's] going to get whatever [he] wants." In a separate essay called ["Five Founders"](https://www.paulgraham.com/5founders.html), Graham placed Altman alongside Steve Jobs and wrote: "On questions of strategy or ambition I ask 'What would Sama do?'"
 
+Graham later described the exact moment he made the offer. "I asked Sam in our kitchen," he told [_The New Yorker_](https://www.newyorker.com/magazine/2026/04/13/sam-altman-may-control-our-future-can-he-be-trusted). "And he smiled, like, it worked. I had never seen an uncontrolled smile from Sam. It was like when you throw a ball of paper into the wastebasket across the room — that smile."
+
+An entire curated adult persona, held together for years. And then a single instant, in a kitchen, when the thing Altman had been building himself toward actually arrived, and the mask dropped for one second before it reassembled. That's the Type 4 identity engine caught on camera. Graham didn't describe what a Type 3 gets: pride, polish, a victory pose. He described a kid who threw a crumpled piece of paper and watched it go in.
+
 Altman was twenty-eight. He immediately remade himself.
 
 Karen Hao, in her investigative book _Empire of AI_, described the transformation: he "traded in T-shirts and cargo shorts for fitted Henleys and jeans" and "learned to talk less, ask more questions, and project a thoughtful modesty." He "avoided expressing negative emotions, avoided confrontation, avoided saying no." This is identity as a conscious project: the Type 4 studying what a leader looks like, then becoming that thing from the inside out. Not mimicking. Constructing.
+
+The project never stopped. A decade later, he told [_The New Yorker_](https://www.newyorker.com/magazine/2026/04/13/sam-altman-may-control-our-future-can-he-be-trusted): "People used to tell me about decision fatigue, and I didn't get it. Now I wear a gray sweater and jeans every day, and even picking which gray sweater out of my closet — I'm, like, I wish I didn't have to think about that." The fitted Henleys of the YC era became the gray sweaters of the OpenAI era: identity first constructed, then managed by subtraction. The Type 4 who notices the texture of every small object eventually strips the surface so there's nowhere left for the inner work to leak.
 
 Under his leadership, YC expanded from software into nuclear energy, quantum computing, and biotech. By the time he left in 2019, it had funded roughly 1,900 companies. Another president might have optimized for prestige, chasing the hottest companies and the biggest exits. Altman optimized for _range_. The throughline wasn't "what wins the scoreboard?" It was "what changes the world in ways that haven't been imagined yet?"
 
@@ -158,6 +164,10 @@ Sam Altman earns $76,001 per year. He holds no equity in OpenAI. The company has
 His explanation: "Getting to work on this and getting to sit in the room with the smartest researchers in the world and go on this crazy adventure — [that is what I always wanted to do](https://www.cnbc.com/2024/12/10/billionaire-sam-altman-doesnt-own-openai-equity-childhood-dream-job.html). I think it should at least be understandable that that is worth more to me than any additional money."
 
 He calls it "my childhood dream job."
+
+The dream had a specific texture: pure creative meaning, uncomplicated by what happens after. He told [_The New Yorker_](https://www.newyorker.com/magazine/2026/04/13/sam-altman-may-control-our-future-can-he-be-trusted), "This was the most fun job in the world until the day we launched ChatGPT. We were making these massive scientific discoveries — I think we did the most important piece of scientific discovery in, I don't know, many decades. And then, since the launch of ChatGPT, the decisions have gotten very difficult."
+
+For a Type 4, that's the precise shape of the wound. Meaning is safe while it's yours alone. Meaning curdles the moment it meets the world. The scientific discovery was the art. Everything after was the price of the art leaving his hands.
 
 On the surface, Altman looks like a textbook Type 3 Achiever. He runs meetings in 15-minute blocks, built a system at YC to track how quickly founders replied to emails, and operates at the highest levels of power. But the Type 3 model collapses right here. A Type 3's identity is built on visible markers of success, and no equity in a company worth hundreds of billions would be _identity death_ for an Achiever. Type 3s calibrate to whatever scoreboard the world hands them. Altman keeps building scoreboards that don't exist yet and keeps refusing to read his own score. For a Type 4, the meaning of the work is the reward.
 
@@ -182,6 +192,8 @@ Then, a few hours later, something more revealing:
 Reading your own eulogy while you're still alive.
 
 That is not a power move. It's not a rebranding exercise. It's someone processing their own absence, watching the world react to their removal and seeing, reflected back, how people understood their life.
+
+Months later, he reached for a different word to describe the same few days. He told [_The New Yorker_](https://www.newyorker.com/magazine/2026/04/13/sam-altman-may-control-our-future-can-he-be-trusted) it had been "just this weird fugue." Two dissociation metaphors from the same stretch of hours. Not anger. Not injustice. Not even fear. A Type 4 in crisis reaches first for the language of watching themselves from a distance, unsure whether the person on the other side of the glass is still them.
 
 The identity crisis isn't "can I get power back?" It's "who do they think I am, and are they right?"
 
@@ -267,6 +279,14 @@ You can read this as hypocrisy. Or you can read it as the defining paradox of a 
 
 ## The Identity That Rewrites Its Own Story
 
+The day the board fired him, in a series of increasingly tense calls, they pressed Altman to acknowledge a pattern of deception. According to people on the call, [as reported by _The New Yorker_](https://www.newyorker.com/magazine/2026/04/13/sam-altman-may-control-our-future-can-he-be-trusted), he said the same thing over and over: "This is just so fucked up. I can't change my personality."
+
+Altman later said it was possible he'd meant something like "I do try to be a unifying force." A board member offered a different translation: "What it meant was 'I have this trait where I lie to people, and I'm not going to stop.'"
+
+Set the two readings aside for a moment. The sentence itself is the purest Type 4 statement in the archive. _I can't change my personality._ Not "I disagree with your framing." Not "You're wrong about the facts." A declaration that the self exists at a layer beneath any particular behavior, and any attempt to revise it is a category error. The personality isn't what I do. The personality is who I am. You cannot ask me to be someone else.
+
+That is the engine. Everything in this section runs on it.
+
 In 2016, Sam Altman [wrote](https://abcnews.go.com/US/openais-sam-altman-warned-america-trump-now-partnering/story?id=118145337) that Donald Trump represented "an unprecedented threat to America." He compared the political moment to 1930s Germany. He posted on X: "I think Trump is terrible and few things would make me happier than him not being president."
 
 On January 21, 2025, Altman stood at a White House podium beside Trump and said: ["We wouldn't be able to do this without you, Mr. President."](https://singjupost.com/transcript-of-trump-press-conference-announcing-ai-infrastructure-project-called-stargate/)
@@ -281,7 +301,11 @@ That phrase is doing more psychological work than it appears. For a Type 4, the 
 
 ### Vision vs. Tactics
 
-The political maneuvering wasn't new. In 2023, he'd toured world capitals (Madrid, Paris, London, Delhi, Seoul, Tel Aviv) meeting heads of state, positioning himself as the person governments should talk to about AI. He testified before the Senate and called for regulation. Then OpenAI [lobbied the EU to weaken the AI Act](https://time.com/6288245/openai-eu-lobbying-ai-act/) even while Altman was publicly calling for guardrails. When the EU regulations tightened, he told reporters that OpenAI might "cease operating" in Europe.
+The pattern had been visible to his closest colleagues since the beginning. In 2017, during fraught negotiations over whether to restructure OpenAI as a for-profit, Ilya Sutskever sent Altman an email with the subject line "Honest Thoughts." [_The New Yorker_ later published](https://www.newyorker.com/magazine/2026/04/13/sam-altman-may-control-our-future-can-he-be-trusted) the key line: "We don't understand why the CEO title is so important to you. Your stated reasons have changed, and it's hard to really understand what's driving it."
+
+Six years before the firing. Six years before the Trump reversal. The co-founder who would eventually compile the Ilya Memos was already asking the question in 2017: _what are you actually after?_ From Sutskever's side of the table, the stated reasons were incoherent because they kept changing. From Altman's side, they were coherent because they lived at a depth the stated reasons never touched. Two people staring at the same man and disagreeing about whether he had a _self_ to read.
+
+The political maneuvering wasn't new either. In 2023, he'd toured world capitals (Madrid, Paris, London, Delhi, Seoul, Tel Aviv) meeting heads of state, positioning himself as the person governments should talk to about AI. He testified before the Senate and called for regulation. Then OpenAI [lobbied the EU to weaken the AI Act](https://time.com/6288245/openai-eu-lobbying-ai-act/) even while Altman was publicly calling for guardrails. When the EU regulations tightened, he told reporters that OpenAI might "cease operating" in Europe.
 
 In his ["Reflections" blog post](https://blog.samaltman.com/reflections), he wrote: "Our vision won't change; our tactics will continue to evolve."
 
@@ -294,6 +318,8 @@ By July 2025, he'd adopted a new label: ["politically homeless."](https://fortun
 At [TED 2025](https://venturebeat.com/ai/sam-altman-at-ted-2025-inside-the-most-uncomfortable-and-important-ai-interview-of-the-year), Chris Anderson spent thirty minutes pressing Altman on who gave him the moral authority to reshape humanity's future. Observers described his responses as "verbal parkour, avoiding every substantive question about who ultimately holds power." When his own AI model asked him the same question, Altman deflected: "You've been asking me versions of this for the last half hour." Then, the most revealing line: "I think like anyone else, I'm a nuanced character that doesn't reduce well to one dimension."
 
 _A nuanced character._ Not "I'm complicated" or "it's hard." A nuanced _character_, the language of someone who experiences their own life as a narrative, and who is always, even under interrogation, curating how that narrative reads.
+
+Former OpenAI board member Sue Yoon put the same observation in flatter, crueler language. "He's too caught up in his own self-belief," she told [_The New Yorker_](https://www.newyorker.com/magazine/2026/04/13/sam-altman-may-control-our-future-can-he-be-trusted). "So he does things that, if you live in the real world, make no sense. But he doesn't live in the real world." Yoon was trying to describe a management problem. She ended up describing a Type 4.
 
 This is the Type 4's identity engine doing what it does: absorbing contradictions, rewriting the story, and emerging with the self intact. It's not hypocrisy. Hypocrisy requires a fixed position you're betraying. For a Type 4 operating at this scale, the position was never the point. The identity was. And the identity survives because it lives beneath the positions, in the vision, in the meaning, in the sense that _I am the person who should be doing this, no matter what doing it requires._
 

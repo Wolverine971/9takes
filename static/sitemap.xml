@@ -756,7 +756,7 @@
   </url>
   <url>
     <loc>https://9takes.com/enneagram-corner/subtopic/situational</loc>
-    <lastmod>2026-04-04</lastmod>
+    <lastmod>2026-04-07</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/enneagram-corner/subtopic/workplace</loc>
@@ -2624,7 +2624,7 @@
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/tim-cook</loc>
-    <lastmod>2025-12-05</lastmod>
+    <lastmod>2026-04-07</lastmod>
     <image:image>
       <image:loc>https://9takes.com/types/1s/Tim-Cook.webp</image:loc>
     </image:image>
@@ -2863,7 +2863,7 @@
   </url>
   <url>
     <loc>https://9takes.com/pop-culture</loc>
-    <lastmod>2026-04-04</lastmod>
+    <lastmod>2026-04-07</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/pop-culture/breaking-points-enneagram-analysis</loc>
@@ -2910,7 +2910,7 @@
   </url>
   <url>
     <loc>https://9takes.com/pop-culture/influencer-enneagram-types-instagram</loc>
-    <lastmod>2025-12-16</lastmod>
+    <lastmod>2026-04-07</lastmod>
     <image:image>
       <image:loc>https://9takes.com/blogs/influencer-types-instagram.webp</image:loc>
     </image:image>
@@ -2935,7 +2935,7 @@
   </url>
   <url>
     <loc>https://9takes.com/pop-culture/podcaster-personality-map</loc>
-    <lastmod>2026-03-24</lastmod>
+    <lastmod>2026-04-07</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/pop-culture/reddit-moderators-type-1-internet</loc>
@@ -2958,7 +2958,7 @@
   </url>
   <url>
     <loc>https://9takes.com/pop-culture/tech-titans-platform-emperors</loc>
-    <lastmod>2026-03-21</lastmod>
+    <lastmod>2026-04-07</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/pop-culture/trump-type-8-vs-biden-type-2</loc>
@@ -2976,7 +2976,7 @@
   </url>
   <url>
     <loc>https://9takes.com/questions</loc>
-    <lastmod>2026-03-29</lastmod>
+    <lastmod>2026-04-07</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/questions/advice-18-year-old-wants-go-college-doesnt-know-wants</loc>
@@ -2988,242 +2988,246 @@
   </url>
   <url>
     <loc>https://9takes.com/questions/categories</loc>
+    <lastmod>2026-04-07</lastmod>
+  </url>
+  <url>
+    <loc>https://9takes.com/questions/categories/art-history-and-culture</loc>
     <lastmod>2026-03-29</lastmod>
   </url>
   <url>
-    <loc>https://9takes.com/questions/categories/Art-Techniques-and-Media</loc>
+    <loc>https://9takes.com/questions/categories/art-techniques-and-media</loc>
     <lastmod>2026-03-29</lastmod>
   </url>
   <url>
-    <loc>https://9takes.com/questions/categories/Art,-History,-and-Culture</loc>
+    <loc>https://9takes.com/questions/categories/arts-and-entertainment</loc>
     <lastmod>2026-03-29</lastmod>
   </url>
   <url>
-    <loc>https://9takes.com/questions/categories/Arts-and-Entertainment</loc>
+    <loc>https://9takes.com/questions/categories/building-self-confidence-and-self-worth</loc>
     <lastmod>2026-03-29</lastmod>
   </url>
   <url>
-    <loc>https://9takes.com/questions/categories/Building-Self-confidence-and-Self-worth</loc>
+    <loc>https://9takes.com/questions/categories/building-social-bonds-and-trust</loc>
     <lastmod>2026-03-29</lastmod>
   </url>
   <url>
-    <loc>https://9takes.com/questions/categories/Building-Social-Bonds-and-Trust</loc>
+    <loc>https://9takes.com/questions/categories/business-ethics</loc>
     <lastmod>2026-03-29</lastmod>
   </url>
   <url>
-    <loc>https://9takes.com/questions/categories/Business-Ethics</loc>
+    <loc>https://9takes.com/questions/categories/community-and-social-relationships</loc>
     <lastmod>2026-03-29</lastmod>
   </url>
   <url>
-    <loc>https://9takes.com/questions/categories/Community-and-Social-Relationships</loc>
+    <loc>https://9takes.com/questions/categories/daily-routines</loc>
+    <lastmod>2026-04-07</lastmod>
+  </url>
+  <url>
+    <loc>https://9takes.com/questions/categories/digital-communication-etiquette</loc>
     <lastmod>2026-03-29</lastmod>
   </url>
   <url>
-    <loc>https://9takes.com/questions/categories/Daily-Routines</loc>
+    <loc>https://9takes.com/questions/categories/digital-transformation</loc>
     <lastmod>2026-03-29</lastmod>
   </url>
   <url>
-    <loc>https://9takes.com/questions/categories/Digital-Communication-Etiquette</loc>
+    <loc>https://9takes.com/questions/categories/diplomacy</loc>
     <lastmod>2026-03-29</lastmod>
   </url>
   <url>
-    <loc>https://9takes.com/questions/categories/Digital-Transformation</loc>
+    <loc>https://9takes.com/questions/categories/economy-and-work</loc>
     <lastmod>2026-03-29</lastmod>
   </url>
   <url>
-    <loc>https://9takes.com/questions/categories/Diplomacy</loc>
+    <loc>https://9takes.com/questions/categories/education-and-development</loc>
+    <lastmod>2026-04-07</lastmod>
+  </url>
+  <url>
+    <loc>https://9takes.com/questions/categories/elections-and-voting</loc>
     <lastmod>2026-03-29</lastmod>
   </url>
   <url>
-    <loc>https://9takes.com/questions/categories/Economy-and-Work</loc>
+    <loc>https://9takes.com/questions/categories/emerging-technologies</loc>
     <lastmod>2026-03-29</lastmod>
   </url>
   <url>
-    <loc>https://9takes.com/questions/categories/Education-and-Development</loc>
+    <loc>https://9takes.com/questions/categories/engaging-with-community-and-neighbors</loc>
     <lastmod>2026-03-29</lastmod>
   </url>
   <url>
-    <loc>https://9takes.com/questions/categories/Elections-and-Voting</loc>
+    <loc>https://9takes.com/questions/categories/ethics</loc>
     <lastmod>2026-03-29</lastmod>
   </url>
   <url>
-    <loc>https://9takes.com/questions/categories/Emerging-Technologies</loc>
+    <loc>https://9takes.com/questions/categories/family-and-kinship</loc>
     <lastmod>2026-03-29</lastmod>
   </url>
   <url>
-    <loc>https://9takes.com/questions/categories/Engaging-with-Community-and-Neighbors</loc>
+    <loc>https://9takes.com/questions/categories/friendships</loc>
     <lastmod>2026-03-29</lastmod>
   </url>
   <url>
-    <loc>https://9takes.com/questions/categories/Ethics</loc>
+    <loc>https://9takes.com/questions/categories/global-economy</loc>
     <lastmod>2026-03-29</lastmod>
   </url>
   <url>
-    <loc>https://9takes.com/questions/categories/Family-and-Kinship</loc>
+    <loc>https://9takes.com/questions/categories/government-systems</loc>
     <lastmod>2026-03-29</lastmod>
   </url>
   <url>
-    <loc>https://9takes.com/questions/categories/Friendships</loc>
+    <loc>https://9takes.com/questions/categories/hardware-and-devices</loc>
     <lastmod>2026-03-29</lastmod>
   </url>
   <url>
-    <loc>https://9takes.com/questions/categories/Global-Economy</loc>
+    <loc>https://9takes.com/questions/categories/health-and-wellness</loc>
     <lastmod>2026-03-29</lastmod>
   </url>
   <url>
-    <loc>https://9takes.com/questions/categories/Government-Systems</loc>
+    <loc>https://9takes.com/questions/categories/intimacy-and-connection</loc>
     <lastmod>2026-03-29</lastmod>
   </url>
   <url>
-    <loc>https://9takes.com/questions/categories/Hardware-and-Devices</loc>
+    <loc>https://9takes.com/questions/categories/law-and-justice</loc>
     <lastmod>2026-03-29</lastmod>
   </url>
   <url>
-    <loc>https://9takes.com/questions/categories/Health-and-Wellness</loc>
+    <loc>https://9takes.com/questions/categories/law-ethics-and-justice</loc>
     <lastmod>2026-03-29</lastmod>
   </url>
   <url>
-    <loc>https://9takes.com/questions/categories/Intimacy-and-Connection</loc>
+    <loc>https://9takes.com/questions/categories/legal-procedures-and-practices</loc>
     <lastmod>2026-03-29</lastmod>
   </url>
   <url>
-    <loc>https://9takes.com/questions/categories/Law-and-Justice</loc>
+    <loc>https://9takes.com/questions/categories/life-events</loc>
     <lastmod>2026-03-29</lastmod>
   </url>
   <url>
-    <loc>https://9takes.com/questions/categories/Law,-Ethics,-and-Justice</loc>
+    <loc>https://9takes.com/questions/categories/marriage-and-partnerships</loc>
     <lastmod>2026-03-29</lastmod>
   </url>
   <url>
-    <loc>https://9takes.com/questions/categories/Legal-Procedures-and-Practices</loc>
+    <loc>https://9takes.com/questions/categories/mentor-mentee-dynamics</loc>
     <lastmod>2026-03-29</lastmod>
   </url>
   <url>
-    <loc>https://9takes.com/questions/categories/Life-Events</loc>
+    <loc>https://9takes.com/questions/categories/motivation-and-discipline</loc>
+    <lastmod>2026-04-07</lastmod>
+  </url>
+  <url>
+    <loc>https://9takes.com/questions/categories/navigating-office-politics</loc>
     <lastmod>2026-03-29</lastmod>
   </url>
   <url>
-    <loc>https://9takes.com/questions/categories/Marriage-and-Partnerships</loc>
+    <loc>https://9takes.com/questions/categories/online-and-virtual-relationships</loc>
     <lastmod>2026-03-29</lastmod>
   </url>
   <url>
-    <loc>https://9takes.com/questions/categories/Mentor-Mentee-Dynamics</loc>
+    <loc>https://9takes.com/questions/categories/parenting-and-childrearing</loc>
     <lastmod>2026-03-29</lastmod>
   </url>
   <url>
-    <loc>https://9takes.com/questions/categories/Navigating-Office-Politics</loc>
+    <loc>https://9takes.com/questions/categories/personal-challenges</loc>
     <lastmod>2026-03-29</lastmod>
   </url>
   <url>
-    <loc>https://9takes.com/questions/categories/Online-and-Virtual-Relationships</loc>
+    <loc>https://9takes.com/questions/categories/personal-development</loc>
+    <lastmod>2026-04-07</lastmod>
+  </url>
+  <url>
+    <loc>https://9takes.com/questions/categories/personal-growth</loc>
+    <lastmod>2026-04-07</lastmod>
+  </url>
+  <url>
+    <loc>https://9takes.com/questions/categories/personal-interests-and-lifestyle</loc>
+    <lastmod>2026-04-07</lastmod>
+  </url>
+  <url>
+    <loc>https://9takes.com/questions/categories/personal-life-and-wellness</loc>
+    <lastmod>2026-04-07</lastmod>
+  </url>
+  <url>
+    <loc>https://9takes.com/questions/categories/physical-and-mental-disabilities</loc>
     <lastmod>2026-03-29</lastmod>
   </url>
   <url>
-    <loc>https://9takes.com/questions/categories/Parenting-and-Childrearing</loc>
+    <loc>https://9takes.com/questions/categories/political-ideologies</loc>
     <lastmod>2026-03-29</lastmod>
   </url>
   <url>
-    <loc>https://9takes.com/questions/categories/Personal-Challenges</loc>
+    <loc>https://9takes.com/questions/categories/political-social-and-economic-affairs</loc>
     <lastmod>2026-03-29</lastmod>
   </url>
   <url>
-    <loc>https://9takes.com/questions/categories/Personal-Development</loc>
+    <loc>https://9takes.com/questions/categories/politics-and-policy</loc>
     <lastmod>2026-03-29</lastmod>
   </url>
   <url>
-    <loc>https://9takes.com/questions/categories/Personal-Growth</loc>
+    <loc>https://9takes.com/questions/categories/professional-relationships</loc>
     <lastmod>2026-03-29</lastmod>
   </url>
   <url>
-    <loc>https://9takes.com/questions/categories/Personal-Interests-and-Lifestyle</loc>
+    <loc>https://9takes.com/questions/categories/psychiatric-disorders</loc>
     <lastmod>2026-03-29</lastmod>
   </url>
   <url>
-    <loc>https://9takes.com/questions/categories/Personal-Life-and-Wellness</loc>
+    <loc>https://9takes.com/questions/categories/relationship-challenges</loc>
     <lastmod>2026-03-29</lastmod>
   </url>
   <url>
-    <loc>https://9takes.com/questions/categories/Physical-and-Mental-Disabilities</loc>
+    <loc>https://9takes.com/questions/categories/relationships</loc>
+    <lastmod>2026-04-07</lastmod>
+  </url>
+  <url>
+    <loc>https://9takes.com/questions/categories/romantic-relationships</loc>
     <lastmod>2026-03-29</lastmod>
   </url>
   <url>
-    <loc>https://9takes.com/questions/categories/Political-Ideologies</loc>
+    <loc>https://9takes.com/questions/categories/self-awareness-and-self-understanding</loc>
     <lastmod>2026-03-29</lastmod>
   </url>
   <url>
-    <loc>https://9takes.com/questions/categories/Political,-Social,-and-Economic-Affairs</loc>
+    <loc>https://9takes.com/questions/categories/self-care-and-self-love</loc>
     <lastmod>2026-03-29</lastmod>
   </url>
   <url>
-    <loc>https://9takes.com/questions/categories/Politics-and-Policy</loc>
+    <loc>https://9takes.com/questions/categories/self-help-resources</loc>
     <lastmod>2026-03-29</lastmod>
   </url>
   <url>
-    <loc>https://9takes.com/questions/categories/Professional-Relationships</loc>
+    <loc>https://9takes.com/questions/categories/self-relationship</loc>
+    <lastmod>2026-04-07</lastmod>
+  </url>
+  <url>
+    <loc>https://9takes.com/questions/categories/skill-acquisition</loc>
     <lastmod>2026-03-29</lastmod>
   </url>
   <url>
-    <loc>https://9takes.com/questions/categories/Psychiatric-Disorders</loc>
+    <loc>https://9takes.com/questions/categories/social-movements</loc>
     <lastmod>2026-03-29</lastmod>
   </url>
   <url>
-    <loc>https://9takes.com/questions/categories/Relationship-Challenges</loc>
+    <loc>https://9takes.com/questions/categories/society-and-culture</loc>
     <lastmod>2026-03-29</lastmod>
   </url>
   <url>
-    <loc>https://9takes.com/questions/categories/Relationships</loc>
+    <loc>https://9takes.com/questions/categories/software-development</loc>
     <lastmod>2026-03-29</lastmod>
   </url>
   <url>
-    <loc>https://9takes.com/questions/categories/Romantic-Relationships</loc>
+    <loc>https://9takes.com/questions/categories/technology-and-innovation</loc>
     <lastmod>2026-03-29</lastmod>
   </url>
   <url>
-    <loc>https://9takes.com/questions/categories/Self-awareness-and-Self-understanding</loc>
+    <loc>https://9takes.com/questions/categories/technology-science-and-the-universe</loc>
     <lastmod>2026-03-29</lastmod>
   </url>
   <url>
-    <loc>https://9takes.com/questions/categories/Self-care-and-Self-love</loc>
+    <loc>https://9takes.com/questions/categories/traditions-and-customs</loc>
     <lastmod>2026-03-29</lastmod>
   </url>
   <url>
-    <loc>https://9takes.com/questions/categories/Self-Help-Resources</loc>
-    <lastmod>2026-03-29</lastmod>
-  </url>
-  <url>
-    <loc>https://9takes.com/questions/categories/Self-Relationship</loc>
-    <lastmod>2026-03-29</lastmod>
-  </url>
-  <url>
-    <loc>https://9takes.com/questions/categories/Skill-Acquisition</loc>
-    <lastmod>2026-03-29</lastmod>
-  </url>
-  <url>
-    <loc>https://9takes.com/questions/categories/Social-Movements</loc>
-    <lastmod>2026-03-29</lastmod>
-  </url>
-  <url>
-    <loc>https://9takes.com/questions/categories/Society-and-Culture</loc>
-    <lastmod>2026-03-29</lastmod>
-  </url>
-  <url>
-    <loc>https://9takes.com/questions/categories/Software-Development</loc>
-    <lastmod>2026-03-29</lastmod>
-  </url>
-  <url>
-    <loc>https://9takes.com/questions/categories/Technology-and-Innovation</loc>
-    <lastmod>2026-03-29</lastmod>
-  </url>
-  <url>
-    <loc>https://9takes.com/questions/categories/Technology,-Science,-and-the-Universe</loc>
-    <lastmod>2026-03-29</lastmod>
-  </url>
-  <url>
-    <loc>https://9takes.com/questions/categories/Traditions-and-Customs</loc>
-    <lastmod>2026-03-29</lastmod>
-  </url>
-  <url>
-    <loc>https://9takes.com/questions/categories/Workplace-Relationships-and-Boundaries</loc>
+    <loc>https://9takes.com/questions/categories/workplace-relationships-and-boundaries</loc>
     <lastmod>2026-03-29</lastmod>
   </url>
   <url>
@@ -3265,6 +3269,10 @@
   <url>
     <loc>https://9takes.com/questions/one-best-times-life</loc>
     <lastmod>2023-12-21</lastmod>
+  </url>
+  <url>
+    <loc>https://9takes.com/questions/part-daily-routine-wish-started-sooner</loc>
+    <lastmod>2026-04-07</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/questions/single-people-not-understand-married-people</loc>

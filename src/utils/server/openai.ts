@@ -162,7 +162,7 @@ const syncLegacyQuestionTagMetadata = async (
 	}
 };
 
-const replaceQuestionTags = async (
+export const replaceQuestionTags = async (
 	supabase: SupabaseClient<Database>,
 	questionId: number,
 	tagIds: number[],

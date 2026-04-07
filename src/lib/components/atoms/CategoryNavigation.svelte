@@ -3,12 +3,14 @@
 	import { afterNavigate } from '$app/navigation';
 	import { page } from '$app/stores';
 	import { browser } from '$app/environment';
+	import { buildQuestionCategoryPath } from '$lib/utils/questionCategorySlug';
 
 	export let isMobile = false;
 
 	interface CategoryStep {
 		id: number;
 		category_name: string;
+		slug?: string | null;
 		level: number;
 	}
 
@@ -25,12 +27,12 @@
 			'@type': 'ListItem',
 			position: index + 1,
 			name: step.category_name,
-			item: `https://9takes.com/questions/categories/${step.category_name.split(' ').join('-')}`
+			item: `https://9takes.com${getCategoryUrl(step)}`
 		}))
 	};
 
-	function getCategoryUrl(slug: string): string {
-		return `/questions/categories/${slug.split(' ').join('-')}`;
+	function getCategoryUrl(category: Pick<CategoryStep, 'slug' | 'category_name'>): string {
+		return buildQuestionCategoryPath(category.slug || category.category_name);
 	}
 
 	function formatCategoryName(name: string): string {
@@ -126,17 +128,14 @@
 						</span>
 					{/if}
 					<!-- Always show current category -->
-					<a
-						href={getCategoryUrl(categories[categories.length - 1].category_name)}
-						class="category-item current"
-					>
+					<a href={getCategoryUrl(categories[categories.length - 1])} class="category-item current">
 						{formatCategoryName(categories[categories.length - 1].category_name)}
 					</a>
 				{:else}
 					<!-- Full breadcrumb path for desktop or when there are few categories -->
 					{#each categories as step, index}
 						<a
-							href={getCategoryUrl(step.category_name)}
+							href={getCategoryUrl(step)}
 							class="category-item {index === categories.length - 1 ? 'current' : ''}"
 						>
 							{formatCategoryName(step.category_name)}

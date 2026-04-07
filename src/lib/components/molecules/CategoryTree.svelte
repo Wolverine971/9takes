@@ -1,6 +1,7 @@
 <!-- src/lib/components/molecules/CategoryTree.svelte -->
 <script lang="ts">
 	import { A } from 'flowbite-svelte';
+	import { buildQuestionCategoryPath } from '$lib/utils/questionCategorySlug';
 	import { slide } from 'svelte/transition';
 
 	interface Category {
@@ -32,7 +33,7 @@
 			</span>
 		{/if}
 		<A
-			href="/questions/categories/{category.name.split(' ').join('-')}"
+			href={buildQuestionCategoryPath(category.name)}
 			class="ml-auto"
 			data-sveltekit-preload-data="tap"
 			id="category-link-{category.id}">{category.name}</A

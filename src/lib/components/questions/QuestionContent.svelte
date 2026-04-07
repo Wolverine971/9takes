@@ -163,9 +163,9 @@
 											<div class="public-perspective-preview__head">
 												<h3 class="public-perspective-preview__title">Sample perspectives</h3>
 												<p class="public-perspective-preview__copy">
-													Public visitors can preview a few Enneagram-style takes before
-													joining the discussion. Community comments stay locked until you
-													share your own perspective.
+													Public visitors can preview a few Enneagram-style takes before joining the
+													discussion. Community comments stay locked until you share your own
+													perspective.
 												</p>
 											</div>
 

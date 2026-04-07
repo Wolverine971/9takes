@@ -24,7 +24,7 @@ export const load: PageServerLoad = async (event) => {
 		] = await Promise.all([
 			supabase
 				.from('question_categories')
-				.select('id, category_name, parent_id, level')
+				.select('id, category_name, slug, parent_id, level')
 				.order('id', { ascending: true }),
 			supabase.from('question_category_tags').select('question_id, tag_id'),
 			supabase.from(questionTable).select('id').eq('removed', false)

@@ -1,3 +1,4 @@
+// src/lib/server/popCultureInternalLinks.spec.ts
 import { describe, expect, it } from 'vitest';
 import fs from 'node:fs/promises';
 import path from 'node:path';
@@ -28,8 +29,8 @@ describe('published pop-culture internal links', () => {
 				const targetPost = posts.get(targetRoute);
 
 				if (!targetPost) {
-				issues.push(`${sourcePost.route} -> ${targetRoute} (missing target file)`);
-				continue;
+					issues.push(`${sourcePost.route} -> ${targetRoute} (missing target file)`);
+					continue;
 				}
 
 				if (!targetPost.published) {

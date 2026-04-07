@@ -1,8 +1,11 @@
 <!-- src/lib/components/questions/CategoryBrowseBranch.svelte -->
 <script lang="ts">
+	import { buildQuestionCategoryPath } from '$lib/utils/questionCategorySlug';
+
 	type BrowseCategoryNode = {
 		id: number;
 		category_name: string;
+		slug?: string | null;
 		parent_id: number | null;
 		level: number;
 		directQuestionCount: number;
@@ -16,8 +19,8 @@
 
 	$: hasChildren = category.children.length > 0;
 
-	function getCategoryHref(name: string): string {
-		return `/questions/categories/${name.split(' ').join('-')}`;
+	function getCategoryHref(category: Pick<BrowseCategoryNode, 'slug' | 'category_name'>): string {
+		return buildQuestionCategoryPath(category.slug || category.category_name);
 	}
 
 	function formatQuestionCount(count: number): string {
@@ -31,7 +34,7 @@
 			<div class="root-copy">
 				<p class="root-kicker">Topic Group</p>
 				<h2>
-					<a href={getCategoryHref(category.category_name)} class="root-link">
+					<a href={getCategoryHref(category)} class="root-link">
 						{category.category_name}
 					</a>
 				</h2>
@@ -50,7 +53,7 @@
 {:else if hasChildren}
 	<article class="branch-card" class:nested-card={depth > 1}>
 		<div class="branch-head">
-			<a href={getCategoryHref(category.category_name)} class="branch-link">
+			<a href={getCategoryHref(category)} class="branch-link">
 				{category.category_name}
 			</a>
 			<span class="count-pill small">{formatQuestionCount(category.subtreeQuestionCount)}</span>
@@ -63,7 +66,7 @@
 		</div>
 	</article>
 {:else}
-	<a href={getCategoryHref(category.category_name)} class="leaf-link">
+	<a href={getCategoryHref(category)} class="leaf-link">
 		<span>{category.category_name}</span>
 		<span class="count-pill small">{formatQuestionCount(category.subtreeQuestionCount)}</span>
 	</a>

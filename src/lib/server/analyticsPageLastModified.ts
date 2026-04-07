@@ -3,6 +3,7 @@ import type { SupabaseClient } from '@supabase/supabase-js';
 import type { Database } from '../../../database.types';
 import { classifyPath, normalizePath } from '$lib/analytics/pageAnalytics';
 import { getPersonalityCategoryBySlug } from '$lib/personalityCategories';
+import { buildQuestionCategoryPath } from '$lib/utils/questionCategorySlug';
 import {
 	getLatestCategoryDate,
 	mapPersonalityCategoryRows,
@@ -285,7 +286,7 @@ async function resolveQuestionLastModified(
 		: Promise.resolve({ data: null, error: null });
 
 	const questionCategoriesPromise = needsQuestionCategories
-		? supabase.from('question_categories').select('category_name, intro_updated_at')
+		? supabase.from('question_categories').select('category_name, slug, intro_updated_at')
 		: Promise.resolve({ data: null, error: null });
 
 	const [questionDetailResult, questionLatestResult, questionCategoriesResult] = await Promise.all([
@@ -334,9 +335,7 @@ async function resolveQuestionLastModified(
 		const lastModified = pickLastModified(row.intro_updated_at);
 		if (!lastModified || !row.category_name) continue;
 
-		const categoryPath = normalizePath(
-			`/questions/categories/${row.category_name.split(' ').join('-')}`
-		);
+		const categoryPath = normalizePath(buildQuestionCategoryPath(row.slug || row.category_name));
 		if (paths.has(categoryPath)) {
 			resolved.set(categoryPath, lastModified);
 		}

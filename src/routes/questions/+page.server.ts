@@ -1,5 +1,9 @@
 // src/routes/questions/+page.server.ts
 import { error, isRedirect, redirect } from '@sveltejs/kit';
+import {
+	buildQuestionCategoryPath,
+	buildQuestionCategorySlug
+} from '$lib/utils/questionCategorySlug';
 import { deleteESQuestion, elasticClient } from '$lib/server/elasticSearch';
 import {
 	buildVisibleQuestionCategoryTree,
@@ -13,19 +17,16 @@ import type { Actions } from './$types';
 import type { PageServerLoad } from './$types';
 import { checkDemoTime } from '../../utils/api';
 import { mapDemoValues } from '../../utils/demo';
+import { replaceQuestionTags } from '../../utils/server/openai';
 
 const QUESTIONS_PER_PAGE = 20;
 
 type ActiveQuestionRow = { id: number };
 
-function toCategorySlug(categoryName: string): string {
-	return categoryName.trim().replace(/\s+/g, '-');
-}
-
 // Type for the RPC response
 interface QuestionsPageData {
 	canAskQuestion: boolean;
-	categories: Array<{ id: number; category_name: string }>;
+	categories: Array<{ id: number; category_name: string; slug?: string | null }>;
 	questions: Array<{
 		id: number;
 		url: string;
@@ -88,21 +89,26 @@ export const load: PageServerLoad = async (event) => {
 
 		if (categoryParam) {
 			const parsed = Number(categoryParam);
-			const categoryLookup = Number.isFinite(parsed)
-				? supabase
-						.from('question_categories')
-						.select('category_name')
-						.eq('id', parsed)
-						.maybeSingle()
-				: supabase
-						.from('question_categories')
-						.select('category_name')
-						.ilike('category_name', categoryParam.split('-').join(' '))
-						.maybeSingle();
+			if (Number.isFinite(parsed)) {
+				const { data: category } = await supabase
+					.from('question_categories')
+					.select('category_name, slug')
+					.eq('id', parsed)
+					.maybeSingle();
 
-			const { data: category } = await categoryLookup;
-			if (category?.category_name) {
-				throw redirect(308, `/questions/categories/${toCategorySlug(category.category_name)}`);
+				if (category?.category_name) {
+					throw redirect(301, buildQuestionCategoryPath(category.slug || category.category_name));
+				}
+			} else {
+				const normalizedCategorySlug = buildQuestionCategorySlug(categoryParam);
+				const { data: category } = await supabase
+					.from('question_categories')
+					.select('category_name, slug')
+					.eq('slug', normalizedCategorySlug)
+					.maybeSingle();
+				if (category?.category_name) {
+					throw redirect(301, buildQuestionCategoryPath(category.slug || category.category_name));
+				}
 			}
 		}
 
@@ -112,7 +118,7 @@ export const load: PageServerLoad = async (event) => {
 				: Promise.all([
 						supabase
 							.from('question_categories')
-							.select('id, category_name, parent_id, level')
+							.select('id, category_name, slug, parent_id, level')
 							.order('id', { ascending: true }),
 						supabase.from('question_category_tags').select('question_id, tag_id'),
 						supabase.from('questions').select('id').eq('removed', false)
@@ -140,7 +146,8 @@ export const load: PageServerLoad = async (event) => {
 						return listQuestionCategoriesWithDirectQuestions(categoryTree)
 							.map((category) => ({
 								id: category.id,
-								category_name: category.category_name
+								category_name: category.category_name,
+								slug: category.slug ?? null
 							}))
 							.sort((a, b) => a.category_name.localeCompare(b.category_name));
 					});
@@ -406,6 +413,7 @@ export const actions: Actions = {
 		try {
 			const session = locals.session;
 			const supabase = locals.supabase;
+			const db = supabase as any;
 
 			if (!session?.user?.id) {
 				throw error(400, 'unauthorized');
@@ -431,37 +439,56 @@ export const actions: Actions = {
 			const flagged = validatedData.flagged === 'true';
 			const question_formatted = validatedData.question_formatted;
 			const tags = validatedData.tags;
+			const questionsTable = demo_time === true ? 'questions_demo' : 'questions';
+
+			const { data: existingQuestion, error: existingQuestionError } = await db
+				.from(questionsTable)
+				.select('tagged')
+				.eq('id', questionId)
+				.maybeSingle();
+
+			if (existingQuestionError || !existingQuestion) {
+				throw error(404, 'Question not found');
+			}
+
+			const nextTagged = Boolean(existingQuestion.tagged) || tags.length > 0 || flagged;
+			const updatedAt = new Date().toISOString();
 
 			// Update question
-			const { error: updateError } = await supabase
-				.from(demo_time === true ? 'questions_demo' : 'questions')
-				.update({ question_formatted, removed, flagged })
+			const { error: updateError } = await db
+				.from(questionsTable)
+				.update({
+					question_formatted,
+					removed,
+					flagged,
+					tagged: nextTagged,
+					updated_at: updatedAt
+				})
 				.eq('id', questionId);
 
 			if (updateError) {
 				throw error(500, 'Error updating question');
 			}
 
-			// Update tags if provided
-			if (tags.length > 0) {
-				// Remove existing tags
-				await supabase
-					.from(demo_time === true ? 'question_tags_demo' : 'question_tags')
-					.delete()
-					.eq('question_id', questionId);
+			await replaceQuestionTags(
+				supabase,
+				questionId,
+				tags.map((tag) => tag.tag_id),
+				demo_time === true
+			);
 
-				// Add new tags
-				const tagInserts = tags.map((tag) => ({
-					question_id: questionId,
-					tag_id: tag.tag_id
-				}));
-
-				await supabase
-					.from(demo_time === true ? 'question_tags_demo' : 'question_tags')
-					.insert(tagInserts);
-			}
-
-			return { success: true };
+			return {
+				success: true,
+				question: {
+					id: questionId,
+					tagged: nextTagged,
+					flagged,
+					removed,
+					question_formatted,
+					updated_at: updatedAt,
+					question_tag: tags
+				}
+			};
 		} catch (e) {
 			if (e instanceof z.ZodError) {
 				throw error(400, { message: 'Invalid input data' });

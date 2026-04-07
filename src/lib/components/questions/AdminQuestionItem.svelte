@@ -8,6 +8,7 @@
 
 	export let questionData: any;
 	export let tags: any[];
+	export let onQuestionUpdated: ((question: any) => void) | undefined = undefined;
 
 	const MAX_TAGS = 5;
 	const TAGGING_POLL_INTERVAL_MS = 1500;
@@ -103,10 +104,29 @@
 		selectedTags = [...selectedTags, tag];
 	}
 
+	function emitQuestionUpdated(nextQuestion: any) {
+		onQuestionUpdated?.({
+			...nextQuestion,
+			question_tag: Array.isArray(nextQuestion?.question_tag)
+				? [...nextQuestion.question_tag]
+				: [...selectedTags],
+			keywords: Array.isArray(nextQuestion?.keywords)
+				? [...nextQuestion.keywords]
+				: nextQuestion?.keywords,
+			data:
+				nextQuestion?.data &&
+				typeof nextQuestion.data === 'object' &&
+				!Array.isArray(nextQuestion.data)
+					? { ...nextQuestion.data }
+					: nextQuestion?.data
+		});
+	}
+
 	function applyQuestionUpdate(nextQuestion: any) {
 		Object.assign(questionData, nextQuestion);
 		questionData = { ...questionData };
 		selectedTags = [...(nextQuestion?.question_tag || [])];
+		emitQuestionUpdated(questionData);
 	}
 
 	function buildCompletionMessage(nextQuestion: any): string {
@@ -245,6 +265,7 @@
 				}
 			};
 			questionData = { ...questionData };
+			emitQuestionUpdated(questionData);
 			confirmingTag = false;
 			notifications.info('AI tagging started. You will get a toast when it finishes.', 3500);
 			startTaggingPoll(result.jobId);
@@ -273,9 +294,13 @@
 			const result: any = deserialize(await resp.text());
 
 			if (result?.data?.success) {
-				questionData.question_tag = [...selectedTags];
-				questionData.tagged = selectedTags.length > 0;
-				questionData = { ...questionData };
+				applyQuestionUpdate(
+					result.data.question ?? {
+						...questionData,
+						question_tag: [...selectedTags],
+						tagged: selectedTags.length > 0
+					}
+				);
 				editBackup = null;
 				editing = false;
 				notifications.success('Question edited', 3000);
@@ -309,7 +334,7 @@
 			{/if}
 			{#if selectedTags.length > 0}
 				<span class="question-detail-modal__status question-detail-modal__status--success"
-					>AI Tagged</span
+					>Has Tags</span
 				>
 			{:else}
 				<span class="question-detail-modal__status question-detail-modal__status--neutral"

@@ -4,10 +4,12 @@
 	import { QuestionItem } from '$lib/components';
 	import CategoryBrowseBranch from '$lib/components/questions/CategoryBrowseBranch.svelte';
 	import SearchQuestion from '$lib/components/questions/SearchQuestion.svelte';
+	import { buildQuestionCategorySlug } from '$lib/utils/questionCategorySlug';
 
 	type BrowseCategoryNode = {
 		id: number;
 		category_name: string;
+		slug?: string | null;
 		parent_id: number | null;
 		level: number;
 		directQuestionCount: number;
@@ -24,7 +26,7 @@
 	$: childCategories = (data?.childCategories ?? []) as BrowseCategoryNode[];
 	$: categoryName = data?.questionTag?.category_name || '';
 	$: categoryIntroHtml = data?.categoryIntroHtml || '';
-	$: categorySlug = categoryName ? categoryName.split(' ').join('-') : '';
+	$: categorySlug = data?.questionTag?.slug || buildQuestionCategorySlug(categoryName);
 	$: pageTitle = categoryName
 		? `9takes Question Categories | ${categoryName}`
 		: '9takes Question Categories';

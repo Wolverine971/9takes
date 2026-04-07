@@ -1,5 +1,6 @@
 // src/routes/admin/categories/[id]/+page.server.ts
 import { error } from '@sveltejs/kit';
+import { buildQuestionCategoryPath } from '$lib/utils/questionCategorySlug';
 import type { PageServerLoad } from './$types';
 
 import { requireAdmin } from '$lib/server/adminAuth';
@@ -37,6 +38,6 @@ export const load: PageServerLoad = async ({ params, locals }) => {
 		childCategories: treeNode?.children ?? [],
 		renderedIntroHtml: renderQuestionCategoryIntroMarkdown(category.intro_markdown),
 		recentRuns: runs ?? [],
-		publicHref: `/questions/categories/${category.category_name.split(' ').join('-')}`
+		publicHref: buildQuestionCategoryPath(category.slug || category.category_name)
 	};
 };

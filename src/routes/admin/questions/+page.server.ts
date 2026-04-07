@@ -12,6 +12,10 @@ type AdminProfile = Pick<
 	'id' | 'admin' | 'external_id'
 >;
 type QuestionKeywordRow = Database['public']['Tables']['question_keywords']['Row'];
+type AdminTagOption = {
+	tag_id: number;
+	tag_name: string;
+};
 
 async function validateAdmin(
 	session: App.Locals['session'],
@@ -66,14 +70,27 @@ export const load: PageServerLoad = async (event) => {
 			throw error(500, { message: 'Failed to load questions' });
 		}
 
-		// Get question tags and categories
-		const { data: tags, error: tagsError } = await supabase
-			.from('question_tag')
-			.select(`*, question_subcategories(*, question_subcategories(*))`);
+		// Load the current leaf-category taxonomy so manual admin edits match AI tagging.
+		const { data: questionCategories, error: tagsError } = await supabase
+			.from('question_categories')
+			.select('id, category_name')
+			.eq('level', 3)
+			.order('category_name', { ascending: true });
 
 		if (tagsError) {
 			console.error('Error fetching tags:', tagsError);
 		}
+
+		const tags: AdminTagOption[] =
+			questionCategories
+				?.filter(
+					(category): category is { id: number; category_name: string } =>
+						Number.isFinite(category.id) && typeof category.category_name === 'string'
+				)
+				.map((category) => ({
+					tag_id: category.id,
+					tag_name: category.category_name
+				})) ?? [];
 
 		// Get keywords for questions
 		const { data: questionKeywords, error: questionKeywordsError } = await supabase

@@ -8,7 +8,7 @@ loc: 'https://9takes.com/pop-culture/tech-titans-enneagram-analysis'
 lastmod: '2026-03-21'
 changefreq: 'monthly'
 priority: '0.6'
-published: false
+published: true
 type: ['situational']
 blog: true
 previewHtml: ''
@@ -92,19 +92,19 @@ Facebook feels like surveillance. Amazon feels frictionless. Twitter felt unmana
 
 Apple replaced a 1 with a 1. Microsoft replaced a 5 with a 5. Google replaced its founders with a 9. The successor's personality type reveals what the company actually needed—stability, empathy, or diplomacy—and what it was willing to sacrifice: magic, killer instinct, or ambition.
 
-### 4. [The PayPal Mafia: How One Company Produced More Tech Billionaires Than Any Startup in History](/pop-culture/tech-titans-paypal-mafia)
+### 4. The PayPal Mafia: How One Company Produced More Tech Billionaires Than Any Startup in History (Coming soon)
 
 **Cast**: Peter Thiel (Type 6) + Elon Musk (Type 5) + David Sacks (Type 6)
 
 Two 6s and a 5 walked into a startup. Then they split up and conquered separate empires. The PayPal Mafia isn't a network—it's a loyalty structure forged by specific personality types under specific pressure. Thiel's contrarian threat-detection. Musk's systems obsession. Sacks' operational loyalty. The personality dynamics that made PayPal a billionaire factory.
 
-### 5. [The Disruptors: Why Type 8s Break Industries and Type 5s Decode Them](/pop-culture/tech-titans-disruptors)
+### 5. The Disruptors: Why Type 8s Break Industries and Type 5s Decode Them (Coming soon)
 
 **Cast**: Jeff Bezos (Type 8) vs Reed Hastings (Type 8) vs Travis Kalanick (Type 8) vs Elon Musk (Type 5)
 
 Three 8s and a 5 who destroyed entire industries. The 8s did it through force. The 5 did it through first principles. One of them got ousted. The personality type doesn't just explain WHO disrupts—it explains who survives the disruption they create.
 
-### 6. [Tech Leadership by Personality Type: How Each Enneagram Type Runs a Company](/pop-culture/tech-titans-leadership-styles)
+### 6. Tech Leadership by Personality Type: How Each Enneagram Type Runs a Company (Coming soon)
 
 **Cast**: All tech titans, grouped by Enneagram type
 

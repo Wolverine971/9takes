@@ -991,20 +991,16 @@
 		aspect-ratio: 4 / 3;
 		border-radius: 0.75rem;
 		overflow: hidden;
-		background: var(--bg-deep);
+		background: var(--bg-surface);
 		text-decoration: none;
 		transition: all 0.25s ease;
-		border: 1px solid color-mix(in srgb, var(--text-tertiary) 15%, transparent);
+		border: 1px solid var(--border-color);
 
 		&::before {
 			content: '';
 			position: absolute;
 			inset: 0;
-			background: linear-gradient(
-				135deg,
-				color-mix(in srgb, var(--primary) 8%, transparent) 0%,
-				transparent 50%
-			);
+			background: linear-gradient(135deg, var(--primary-subtle) 0%, transparent 50%);
 			opacity: 0;
 			transition: opacity 0.25s ease;
 			z-index: 1;
@@ -1012,9 +1008,9 @@
 
 		&:hover {
 			transform: translateY(-3px);
-			border-color: var(--primary-glow);
+			border-color: color-mix(in srgb, var(--primary) 30%, transparent);
 			box-shadow:
-				0 8px 24px rgba(0, 0, 0, 0.15),
+				var(--shadow-lg),
 				0 0 0 1px var(--primary-subtle);
 
 			&::before {
@@ -1031,6 +1027,18 @@
 		}
 
 		&.has-image {
+			.card-content {
+				color: #fff;
+			}
+
+			.card-content h3 {
+				color: #fff;
+			}
+
+			.card-content p {
+				color: rgba(255, 255, 255, 0.8);
+			}
+
 			.card-overlay {
 				background: linear-gradient(
 					to top,
@@ -1053,7 +1061,7 @@
 	.card-overlay {
 		position: absolute;
 		inset: 0;
-		background: linear-gradient(135deg, rgba(22, 22, 30, 0.95) 0%, rgba(10, 10, 15, 0.98) 100%);
+		background: linear-gradient(135deg, var(--bg-deep) 0%, var(--bg-base) 100%);
 	}
 
 	.card-content {
@@ -1064,7 +1072,7 @@
 		flex-direction: column;
 		justify-content: flex-end;
 		padding: 1rem;
-		color: white;
+		color: var(--text-primary);
 
 		h3 {
 			font-size: 0.9375rem;

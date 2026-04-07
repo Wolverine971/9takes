@@ -85,6 +85,7 @@ export interface Question {
 export interface QuestionCategory {
 	id: number;
 	category_name: string;
+	slug?: string | null;
 }
 
 export interface QuestionTag {
