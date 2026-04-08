@@ -224,8 +224,11 @@
 	let formattedQuestionText = $derived(
 		normalizeText(data.question.question_formatted || data.question.question)
 	);
+	let hasUserProvidedContext = $derived(hasUserProvidedQuestionContext(data.question.data));
 	let questionContext = $derived(
-		truncateText(normalizeText(data.question.context), MAX_CONTEXT_PREVIEW_LENGTH)
+		hasUserProvidedContext
+			? truncateText(normalizeText(data.question.context), MAX_CONTEXT_PREVIEW_LENGTH)
+			: ''
 	);
 	let categoryNames = $derived.by(() =>
 		(data.questionTags || [])
@@ -259,6 +262,15 @@
 		return String(value ?? '')
 			.replace(/\s+/g, ' ')
 			.trim();
+	}
+
+	function hasUserProvidedQuestionContext(value: unknown): boolean {
+		return Boolean(
+			value &&
+				typeof value === 'object' &&
+				!Array.isArray(value) &&
+				(value as Record<string, unknown>).userProvidedContext === true
+		);
 	}
 
 	function truncateText(value: string, maxLength: number): string {
@@ -553,7 +565,7 @@
 				<p class="question-overview-lead">{publicQuestionOverview}</p>
 				{#if questionContext}
 					<div class="question-overview-context">
-						<h3 class="question-overview-context__title">Question context</h3>
+						<h3 class="question-overview-context__title">User-added context</h3>
 						<p class="question-overview-context__body">{questionContext}</p>
 					</div>
 				{/if}

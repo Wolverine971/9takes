@@ -54,14 +54,15 @@
 <style lang="scss">
 	.category-item {
 		margin-bottom: 2rem;
-		background-color: var(--item-background, #ffffff);
+		background-color: var(--item-background, var(--bg-surface));
 		border-radius: 8px;
-		box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+		border: 1px solid color-mix(in srgb, var(--primary) 8%, var(--border-color));
+		box-shadow: var(--shadow-sm);
 		overflow: hidden;
 		transition: all 0.3s ease;
 
 		&:hover {
-			box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+			box-shadow: var(--shadow-md);
 		}
 	}
 
@@ -71,8 +72,8 @@
 		align-items: center;
 		padding: 1rem;
 		margin: 0;
-		background-color: var(--title-background, #e0e0e0);
-		color: var(--title-color, #333);
+		background-color: var(--title-background, var(--bg-elevated));
+		color: var(--title-color, var(--text-primary));
 		font-size: 1.2rem;
 	}
 
@@ -81,6 +82,7 @@
 		border: none;
 		cursor: pointer;
 		padding: 0.5rem;
+		color: var(--text-secondary);
 		display: flex;
 		align-items: center;
 		justify-content: center;
@@ -97,7 +99,7 @@
 
 	.subcategory-list {
 		margin-left: 1rem;
-		border-left: 2px solid var(--accent-color, black);
+		border-left: 2px solid var(--accent-color, var(--primary));
 		padding-left: 1rem;
 	}
 
@@ -114,15 +116,17 @@
 	.question-link {
 		display: block;
 		padding: 0.8rem;
-		background-color: var(--link-background, #f0f0f0);
-		color: var(--link-color, #333);
+		background-color: var(--link-background, var(--bg-deep));
+		color: var(--link-color, var(--text-primary));
 		text-decoration: none;
 		border-radius: 4px;
 		transition: all 0.3s ease;
+		border: 1px solid color-mix(in srgb, var(--text-tertiary) 18%, transparent);
 
 		&:hover {
-			background-color: var(--link-hover-background, #e0e0e0);
+			background-color: var(--link-hover-background, var(--bg-elevated));
 			transform: translateY(-2px);
+			border-color: color-mix(in srgb, var(--accent) 30%, var(--border-color));
 		}
 	}
 </style>

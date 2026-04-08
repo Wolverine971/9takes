@@ -1,7 +1,7 @@
 <!-- docs/BLOG-CROSSLINK-INDEX.md -->
 # Blog Cross-Link Index
 
-_Generated: 2026-04-07_
+_Generated: 2026-04-08_
 _Total Posts Analyzed: 176 (Published: 153, Unpublished: 23)_
 _Note: Individual type pages (enneagram-type-1 through 9) excluded from link counts_
 
@@ -127,7 +127,7 @@ These posts are "orphaned" - no other content links to them.
 | Incoming | Outgoing | Post Title | Path |
 |----------|----------|------------|------|
 | 71 | 16 | How Each Type Falls Apart (Your Stress Breakdown Pattern) | `enneagram/enneagram-types-in-stress.md` |
-| 49 | 8 | Why Nobody Understands You (It | `enneagram/enneagram-communication-styles.md` |
+| 48 | 8 | Why Nobody Understands You (It | `enneagram/enneagram-communication-styles.md` |
 | 32 | 12 | The Party Test: What Your Social Style Reveals About Your Ty... | `enneagram/enneagram-types-at-party.md` |
 | 31 | 8 | Why They Ghosted You (Based on Their Enneagram Type) | `enneagram/enneagram-types-being-ghosted.md` |
 | 31 | 15 | How Each Enneagram Type Self-Sabotages Success (And How to S... | `enneagram/how-each-enneagram-type-self-sabotages-success.md` |
@@ -192,7 +192,7 @@ Sorted by total connections (incoming + outgoing).
 |-------|----|----|------------|------|
 | 87 | 71 | 16 | How Each Type Falls Apart (Your Stress Breakdown Pattern) | `enneagram/enneagram-types-in-stress.md` |
 | 61 | 27 | 34 | What | `enneagram/enneagram-tldr.md` |
-| 57 | 49 | 8 | Why Nobody Understands You (It | `enneagram/enneagram-communication-styles.md` |
+| 56 | 48 | 8 | Why Nobody Understands You (It | `enneagram/enneagram-communication-styles.md` |
 | 46 | 31 | 15 | How Each Enneagram Type Self-Sabotages Success (And How to S... | `enneagram/how-each-enneagram-type-self-sabotages-success.md` |
 | 44 | 32 | 12 | The Party Test: What Your Social Style Reveals About Your Ty... | `enneagram/enneagram-types-at-party.md` |
 | 44 | 29 | 15 | Enneagram Types in Relationships: How Each Type Loves (And W... | `enneagram/enneagram-types-in-relationships.md` |
@@ -224,20 +224,20 @@ Sorted by total connections (incoming + outgoing).
 | 17 | 9 | 8 | Why Your Anxiety Is Different (And What Actually Works for Y... | `enneagram/anxiety-and-enneagram-types-guide.md` |
 | 17 | 10 | 7 | Shadow Work by Enneagram Type: Your Dark Side Has a Pattern | `enneagram/shadow-work-by-enneagram-type.md` |
 | 16 | 10 | 6 | Why You Don | `enneagram/enneagram-wings-complete-guide.md` |
-| 15 | 9 | 6 | Attachment Styles and Enneagram Types: Why the Same Style Lo... | `enneagram/attachment-styles-and-enneagram-types.md` |
+| 14 | 9 | 5 | Attachment Styles and Enneagram Types: Why the Same Style Lo... | `enneagram/attachment-styles-and-enneagram-types.md` |
 | 14 | 4 | 10 | Is the Enneagram Real? 27 Questions Everyone Asks (Finally A... | `enneagram/enneagram-faqs.md` |
 | 14 | 6 | 8 | Best Free Enneagram Test (2025): Which One Actually Works? | `enneagram/enneagram-test-comparison-2025.md` |
 | 14 | 4 | 10 | Dark Triad Meets Enneagram: How Each Type Goes Wrong | `pop-culture/dark-triad-meets-enneagram.md` |
 | 13 | 5 | 8 | Why MBTI Failed and What to Use Instead | `community/mbti-vs-enneagram.md` |
 | 13 | 8 | 5 | 9 Childhood Stereotypes Based on the Enneagram | `enneagram/enneagram-childhood-stereotypes.md` |
 | 13 | 5 | 8 | What to Say to Each Enneagram Type (Scripts That Actually Wo... | `enneagram/enneagram-communication-tips.md` |
+| 13 | 4 | 9 | Enneagram Dating Guide for Men: Type-Specific Strategies Tha... | `enneagram/enneagram-dating-guide-for-men.md` |
 | 13 | 9 | 4 | Why You Don | `enneagram/enneagram-instinctual-subtypes.md` |
 | 13 | 7 | 6 | Enneagram Personal Growth: Unlock Your Type | `enneagram/enneagram-personal-growth.md` |
 | 13 | 3 | 10 | Productivity Systems by Enneagram Type: Work With Your Perso... | `guides/productivity-systems-by-enneagram-type.md` |
 | 13 | 8 | 5 | Parasocial Relationships: Why Each Enneagram Type Forms Them | `pop-culture/parasocial-relationships-enneagram-type.md` |
 | 12 | 4 | 8 | Introducing 9takes: Answer First, Then Compare Perspectives | `community/introducing-9takes.md` |
 | 12 | 5 | 7 | Enneagram Communication Guide: Decode Any Personality Type i... | `enneagram/enneagram-communication-guide.md` |
-| 12 | 4 | 8 | Enneagram Dating Guide for Men: Type-Specific Strategies Tha... | `enneagram/enneagram-dating-guide-for-men.md` |
 | 12 | 3 | 9 | Why You Keep Sabotaging New Relationships (Your Enneagram Kn... | `enneagram/how-to-navigate-early-relationship-stages.md` |
 | 11 | 5 | 6 | How Minds Actually Change | `community/how-minds-change-on-9takes.md` |
 | 11 | 3 | 8 | Why Your Anxiety Doesn | `enneagram/enneagram-anxiety-management-guide.md` |

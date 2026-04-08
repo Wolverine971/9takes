@@ -70,34 +70,39 @@ Once you do that, every other tactic in this guide makes sense.
 
 ## Your Photos: The 2-Second Verdict
 
-### For Men: What She's Actually Doing
+### For Men: What She's Actually Doing in 2 Seconds
 
-She opens your profile. Her eyes hit photo one for about two seconds. If it's a "no," she swipes left without ever reading your bio. If it's a "maybe," she scrolls through the rest, scanning for face, body, lifestyle, social proof, and vibe — in that order. Then, and only then, does she read what you wrote.
+She opens your profile. Her eyes hit photo one. About two seconds later she has decided whether you exist.
 
-You have one job: give her enough information to say "yes, in person."
+If photo one is a "no," she swipes left and you were never a person to her. If photo one is a "maybe," she scrolls. She is scanning, in this order: **face → body → lifestyle → social proof → vibe.** The bio comes _last_, and only if the photos earned it.
+
+Your one job: give her enough information that she can imagine saying yes in person.
 
 **The five photos you actually need:**
 
-1. **A clear, well-lit, smiling face shot.** Just your face. Eyes visible. No sunglasses. No filters that make you look 19. _What she's thinking: "Can I picture introducing this person to my best friend?"_
+1. **A clear, well-lit, smiling face shot.** Just your face. Eyes visible. No sunglasses. No filter that makes you look 19. _What she's thinking: "Could I introduce this person to my best friend without having to explain anything first?"_
 
-2. **A full-body photo.** _What she's thinking: "Is he being honest about his body? Because I will find out in person."_
+2. **A full-body photo.** Don't hide. _What she's thinking: "Is he being honest? Because I am absolutely going to find out in person."_
 
-3. **You actually doing something you actually enjoy.** Cooking, climbing, playing guitar, holding a paintbrush, walking your dog. Not "watching the sunset alone in Joshua Tree." _What she's thinking: "Does he have a life?"_
+3. **You doing something you actually love.** Cooking, climbing, playing guitar, holding a paintbrush, fixing a thing, walking your dog. NOT a sunset selfie at Joshua Tree where you're trying to look "contemplative." _What she's thinking: "Does he have a life he's bringing into mine, or am I going to have to be the entire activities department?"_
 
-4. **One photo with other people.** Friends, family, a dog. _What she's thinking: "Do other humans like him? Is he capable of being loved by anyone?"_
+4. **One photo with other people.** Friends, family, a dog, a kid you're related to. Anyone willing to co-sign that you are a normal human capable of being loved. _What she's thinking: "Do other people like him? Because if no one likes him, that's information."_
 
-5. **A genuine smile.** Not a smirk. Not an obviously staged "candid." _What she's thinking: "Does he know how to be happy?"_
+5. **A real smile.** Not a smirk. Not a "candid" that you obviously set up with a tripod and prayed about. _What she's thinking: "Does he know how to be happy?"_
 
-### The Instant Disqualifiers (women are nodding)
+That's it. Five photos. Most men post six versions of the same one and call it a profile.
 
-- **The fish photo.** We get it. You catch fish. We do not care. Now we're picturing you smelling like fish.
-- **The shirtless gym mirror selfie.** This is not putting yourself out there. This is marking territory in the wrong yard.
-- **The group photo with four guys in sunglasses.** We don't know which one you are and we don't have the patience to find out.
-- **The car photo.** She is not impressed by your car. She is wondering if it's the most interesting thing about you.
-- **Sunglasses in every photo.** We can't see your eyes. We are not going on a date with someone we can't see.
-- **The woman cropped out of the photo.** Yes, we can tell. The disembodied hand on your shoulder is louder than you think.
-- **The photo of you with a sedated tiger / lion / elephant.** Please. No.
-- **The "don't message me if you're crazy" bio.** She has already swiped left, because she can hear the bitterness from here.
+### Things She Will Dock You For, Instantly, No Appeal
+
+- **Sunglasses in every photo.** She can't see your eyes. She is not getting in a car with someone whose eyes she has never seen.
+- **The group photo with four other men in matching sunglasses.** She doesn't know which one you are. She is not going to do detective work to find out. This is now a test she failed _you_ on.
+- **The shirtless gym mirror selfie.** Nobody wins with this one. Not even the guys who actually look great. Especially them.
+- **The car photo.** She is not impressed by your car. She is quietly wondering whether the car is the most interesting thing about you.
+- **The cropped-out woman.** Yes, we can tell. The disembodied hand on your shoulder is louder than you think.
+- **The sedated tiger / lion / drugged elephant.** Please. No. We have all seen the documentary.
+- **A bio that says "swipe left if you're crazy."** She already did. She could hear the bitterness from across the parking lot.
+
+(The fish pic and the giant truck pic have their own warning. Pour yourself a drink and read the next section.)
 
 ### The Captivate Connection: The Triple Threat
 
@@ -107,7 +112,7 @@ Vanessa Van Edwards calls the three nonverbal cues that build instant trust the 
 - **You doing something = competence.**
 - **You with other people = trustworthiness.**
 
-Three photos. Three signals. Most men post six versions of the same photo and call it a profile.
+Three photos. Three signals. Most men post the same photo six times and wonder why nothing's working.
 
 ### For Women: Photos Are Openings, Not Filters
 
@@ -133,11 +138,71 @@ Men are looking for openings. Give them the right ones.
 - Want a guy with a real job? Show a photo of you at yours.
 - Want a guy who'll take you out on the town for a real night? Show a photo of you out, dressed up, in your element.
 - Want a guy who hikes? Show a photo of you on the trail — not at the summit looking moody, _on_ the trail, mid-step, sweaty.
-- Want a guy with good friends? Show a photo of you with your good friends. (Be careful — he _will_ scan their faces. Yours are the ones he's about to know.)
+- Want a guy with good friends? Show a photo of you with your good friends. (Be careful though)
 
 You are not just showing him you. You are showing him **the version of his life he gets to have if he's standing next to you.** That's the picture he's actually responding to.
 
-And the last move: **leave a little to the imagination.** Five photos is enough. You don't need every angle, every outfit, every era of your life. Mystery is leverage. Use it. ;)
+And the last move: **leave a little to the imagination.** Five photos is more than enough. You don't need every angle, every outfit, every era of your life. Mystery is leverage. Use it. ;)
+
+</section>
+
+<section class="section-content">
+
+## For Men: Be the Fun
+
+Here's the secret most dating advice for men buries under fifteen paragraphs of "alpha energy" nonsense: **girls just want to have fun.**
+
+That's it. That's the entire mindset.
+
+The reason nobody tells you this is because "be fun" doesn't sell a $497 course.
+
+But here's the part nobody _does_ talk about: **fun has prerequisites.** You can't just write "love to laugh" in your bio and expect her to believe it. (Side note: "love to laugh" is one of the saddest things you can write in a bio. Nobody _hates_ to laugh. You haven't said anything. Move on.) Fun is a structure. You have to build it.
+
+### What Fun Actually Requires
+
+Real fun happens when two things are true at the same time:
+
+1. **She feels safe.** Physically. Emotionally. Socially. Safe enough to drop her guard. Safe enough to laugh without scanning the room for exits.
+2. **There's an element of the unknown.** Surprise, novelty, possibility, a little mystery. Without it, "safe" turns into "boring," which is fun's other enemy.
+
+Get either one wrong and there is no fun. Too safe = boring (no spark). Too unknown = scary (high alert). **Your job as a man on a date is to build the room where both are true at once.**
+
+This is also why "want to come back to my apartment on the first date?" almost never works. It's not because she doesn't like you. It's because she has known you for ninety minutes. She doesn't know if your apartment has windows. She doesn't know if your roommate is a guy named Brad. She doesn't know if you have a Funko Pop collection she will need to politely react to. The certainty isn't there, the safety isn't there, and so the fun isn't there. You skipped twelve steps and asked for the prize.
+
+### The Four Things That Help (and the Way Each One Backfires)
+
+Some advantages stack the deck. Let's just be honest about it. But here's the thing nobody ever mentions: **every one of these has a tipping point where it stops helping and starts hurting.** And the reason is the same in every case — the moment any of them becomes a _substitute_ for an actual personality, she can smell it from her couch.
+
+**Money helps**, but it backfires the moment it's doing the work that you're supposed to be doing. A guy who leads with his watch attracts people who care about the watch. (This is also why genuinely wealthy people often hide it — they want the experience to be rich because of what _it_ is, not what it cost. Pay attention to that move.) Money is a tool, not a personality. If you don't have it, don't sweat it. If you do have it, don't lean on it.
+
+**Being in shape helps**, but only up to the point where it still looks like you have a life. A guy who clearly works out a few times a week reads as healthy and disciplined. A guy whose body says "I have not had a conversation that wasn't about macros since 2019" reads as a loner who lives at the gym because the gym is easier than people. The signal you're going for is _capable_, not _isolated_.
+
+**Good friends help**, but only if some of your photos also show you on your own. If every single shot is a group shot, you look like you're hiding inside your friend group. Remember: she is trying to date _you_, not your buddy in the orange shirt. Be comfortable being a person on your own and a person in a group. Show her both.
+
+**Having a passion helps**, but only if it's not your entire identity. One photo of the thing you love is interesting. Six photos of the same thing tells her your weekends, your conversation ceiling, and your whole personality are already booked. Bring her into one room of your life, not the only room.
+
+The real signal in all of this isn't _having_ the advantage. It's having it _in proportion_ to a full life. Most men don't have all four. **Almost no one does.** Don't waste your energy comparing yourself to a profile that has all four — that profile is usually performing the four, not living them. Show what's actually true about you, in proportion. That's the move.
+
+### What Your Profile Actually Needs to Communicate
+
+Your profile is a four-question test, in this order:
+
+1. **Are you safe?** (No red flags. No bitter bio. No "swipe left if you're crazy.")
+2. **Are you fun?** (Show, don't tell. A photo of you _actually_ having fun beats a bio that says "love to laugh." Which we've now covered twice. Stop saying it.)
+3. **Are you a good person?** (Bonus. Visible warmth — with friends, with a dog, with a kid, with a stranger.)
+4. **Have you accomplished something real?** (Bonus. Not required. But it lands when it's real.)
+
+Notice what's _not_ on the list: "are you hot?" She got that answer in photo one. Don't burn the other five photos on variations of the same answer.
+
+### A Quick PSA About the Fish Pic
+
+Catching a big fish is not an accomplishment. To her, all fish look like the same fish.
+
+The one exception: if you live in Florida _and_ you've genuinely caught a fish bigger than her dad's biggest fish, post the fish. Florida women know fish. The fish might land.
+
+But — and her group chat is going to notice this — the fish pic and the giant truck pic live on the same psychological frequency. Both are quietly saying _"please notice the size of this thing I am holding / standing next to."_ Women have a name for what that signals. You can probably guess it.
+
+Be careful with the fish pic. Be careful with the truck pic. Neither one is doing the work you think it's doing.
 
 </section>
 
@@ -145,16 +210,42 @@ And the last move: **leave a little to the imagination.** Five photos is enough.
 
 ## Your Bio: A Handful of Hooks, Not a Resume
 
-### For Men
+### For Men: Three Lines, Three Hooks
 
-Three short lines. She is not reading a paragraph.
+Three short lines. She is not reading a paragraph. She has an inbox to get through, a job, friends, a life. Respect her time and she'll respect yours.
 
-**Bad:** _"Just a normal guy who loves coffee, dogs, and adventure."_  
-(Cool. That's every man.)
+There are two ways to fail before you even start.
 
-**Better:** _"Recovering perfectionist. Will fight you about whether Casablanca holds up. Currently learning to make actual ramen."_
+**Failure 1: Generic Man.**
 
-That bio gives her three openings: _what does "recovering perfectionist" mean?_ _Does Casablanca hold up?_ _How's the ramen going?_ Vanessa Van Edwards calls these **Conversation Sparks** — prompts that pull a response without effort. Your entire profile should be Conversation Sparks. Make it impossible for her to write "Hey :)" because there's literally something to grab onto.
+> _"Just a normal guy who loves coffee, dogs, and adventure."_
+
+Cool. That's literally every man on the planet. You haven't told her anything. You've taken up space.
+
+**Failure 2: The List of Demands.**
+
+> _"6'2", entrepreneur, fluent in three languages. Swipe left if you can't keep up."_
+
+Now she knows you're exhausting. Now she's gone. Bonus negative points if you also added "no drama" — every man who has ever written that has been the drama.
+
+**The version that actually works:**
+
+> _"Recovering perfectionist. Will fight you about whether Casablanca holds up. Currently learning to make actual ramen and failing in interesting ways."_
+
+Three lines. Three hooks. _What does "recovering perfectionist" mean? Does Casablanca hold up? How's the ramen disaster going?_
+
+Vanessa Van Edwards calls these **Conversation Sparks** — prompts that pull a response with almost no effort. Your entire profile should be Conversation Sparks. Make it impossible for her to write "Hey :)" because you've left specific, weird, real things to grab onto.
+
+The trick is **specific + slightly self-deprecating + revealing one real thing.** Specific because generic is invisible. Self-deprecating because nobody trusts a man who can't laugh at himself. One real thing because she needs to feel like she's about to talk to a person, not a wall of accomplishments.
+
+A few more directions that work:
+
+- _"Eleven weeks into making sourdough that doesn't taste like punishment. Slowly winning."_
+- _"My one personality trait is losing at chess to my niece, every time, on purpose."_
+- _"I make strangers laugh on planes. It's a skill set with no other use case."_
+- _"Ask me about the time I tried to fix my own dishwasher. There is a YouTube comment section that knows me by name."_
+
+Notice what's missing from all of these: a job title, a height, a list of things you "love." Save those for the conversation. **The bio is the trailer, not the movie.**
 
 ### For Women: Build a Filter, Not a Wishlist
 
@@ -213,13 +304,44 @@ The best first messages are:
 
 That last one matters more than people realize. People love being asked about themselves by someone who actually paid attention.
 
-### For Women on Bumble
+### For Women on Bumble (When You Open)
 
-The "Hi how's it going" you send to him is also invisible. He'll match with anyone, but he'll _respond_ to whoever wrote something interesting.
+The "Hi how's it going" you send to him is also invisible. He will match with anyone, but he'll _respond_ to whoever wrote something interesting.
 
 Same logic: pick something specific from his profile and ask a real question. If you've ever wondered why your matches go cold after one exchange, this is usually why. You're testing the waters when you should be opening a door.
 
-**Both:** the goal of the first message is not to be impressive. The goal is to make replying easy.
+### For Women on Hinge or Tinder: The Driver's Seat Response
+
+Different problem, same solution. On the apps where men open the conversation, your inbox is a problem. Most of those messages are some flavor of "Hey :)" or "How was your weekend?" and you have rightly stopped responding.
+
+Here's the move: **don't ignore the formula messages. Filter them.**
+
+You already have a filter in your bio. Now build a second one — a standard, slightly clever response that you reuse on every "Hey :)" you get. Most guys are running the same lazy opener on 200 women and getting absolutely nothing back. You are about to be the one woman who hits him with something that makes him think for ten seconds. Then you get to see what he's actually capable of.
+
+The structure:
+
+1. **Call out the formula gently.** Acknowledge that "hey :)" is what 90% of his openers are getting back from everyone.
+2. **Give him one specific thing to react to** from your profile. Force him to prove he actually looked at it.
+3. **Leave him a real opening** to be funny, weird, or honest.
+
+**The kind of reply that does all three at once:**
+
+> _"OK how many times have you used that opener and what's the best response you've ever gotten from it? Also — bonus points if you noticed which coffee place I'm in for my second pic."_
+
+Look at what one message just did:
+
+- It made him laugh (or it didn't, and you've already learned everything you need to know).
+- It gave him a specific test he can pass or fail.
+- It rewarded effort. A good guy will tell you a real story about his worst opener and then nail the coffee shop. A lazy guy will write "lol idk" and keep scrolling.
+- It changed the power balance entirely. He came in with formula. You hit back with intention. Now he has to actually show up.
+
+Here's the part nobody says out loud: **the good guys are exhausted too.** They're using the same lazy opener as the bad guys because they have stopped getting responses from anyone, and they have run out of energy. They're not lazy. They're _depleted._
+
+A good guy who gets a real, specific, slightly playful reply from you is going to feel like he just won the lottery. He is going to bring it on the next message because **you gave him an opportunity to.** That's the move you have that he doesn't. He can't make you respond. You can give him a chance to deserve it.
+
+You are not begging him to be interesting. You are giving him permission to be. And the men who can take that permission and run with it are the only ones worth meeting in the first place.
+
+**Both sides:** the goal of any first message is not to be impressive. The goal is to make replying easy — and to give the other person the smallest possible doorway into being the better version of themselves.
 
 </section>
 

@@ -15,6 +15,7 @@ import { checkDemoTime } from '../../../utils/api';
 import { mapDemoValues } from '../../../utils/demo';
 import { typeaheadQuery } from '../../../utils/elasticSearch';
 import { tagQuestion } from '../../../utils/server/openai';
+import type { Json } from '../../../../database.types';
 import type { Actions, PageServerLoad } from './$types';
 
 // Validation schemas
@@ -29,7 +30,12 @@ const getUrlSchema = z.object({
 const createQuestionSchema = z.object({
 	question: z.string().min(QUESTION_MIN_LENGTH).max(QUESTION_MAX_LENGTH).trim(),
 	author_id: z.string().uuid(),
-	context: z.string().max(2000).optional().default(''),
+	context: z
+		.string()
+		.max(2000)
+		.optional()
+		.default('')
+		.transform((value) => value.trim()),
 	url: z.string().min(1).max(QUESTION_URL_MAX_LENGTH),
 	img_url: z
 		.string()
@@ -183,6 +189,7 @@ export const actions: Actions = {
 				question,
 				author_id,
 				context,
+				data: context ? ({ userProvidedContext: true } as Json) : null,
 				url,
 				img_url: null
 			};

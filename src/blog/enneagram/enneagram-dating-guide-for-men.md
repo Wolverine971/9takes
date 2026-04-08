@@ -1,10 +1,10 @@
 ---
 title: 'Enneagram Dating Guide for Men: Type-Specific Strategies That Actually Work'
-description: 'Discover how your Enneagram type shapes your dating style, blind spots, and path to authentic connection. Science-backed strategies for each of the 9 personality types.'
+description: 'Discover how your Enneagram type shapes your dating style, blind spots, and path to authentic connection — with how to read her type, compatibility patterns, and what each of the 9 types does at every stage of dating.'
 author: 'DJ Wayne'
 date: '2024-09-13'
 loc: 'https://9takes.com/enneagram-corner/enneagram-dating-guide-for-men'
-lastmod: '2025-08-15'
+lastmod: '2026-04-07'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
@@ -32,15 +32,19 @@ QUALITY_FEEDBACK_END -->
 	import MarqueeHorizontal from "$lib/components/atoms/MarqueeHorizontal.svelte";
 </script>
 
-<p class="firstLetter">You've read the dating books. Downloaded the apps. Practiced your "game." Yet something's still not clicking.</p>
+<p class="firstLetter">Most men blow a promising date in the same five minutes.</p>
 
-Here's what most advice misses:
+Not the opening. Not the close. The moment she reveals something real — a fear, a weird laugh, a loose thread in a story — and he responds exactly the way his personality has trained him to since he was six.
 
-**Your dating struggles aren't random. They're predictable based on your personality type.**
+He performs, or deflects, or fixes, or pulls away, or disappears behind a joke. The script runs before he notices he's reading it.
 
-The Enneagram reveals why you sabotage connections in specific ways, what you're actually seeking (versus what you think you want), and how to present your authentic self without the performance.
+**That script has a name. It's his Enneagram type.**
 
-This isn't another "be confident" guide. It's a psychological roadmap to your core patterns and how to use them for genuine connection.
+Once you can see yours, you can rewrite the five minutes that keep costing you — without fake confidence, coached lines, or another dating book telling you to just "be yourself."
+
+<!-- DJ: swap in your actual Enneagram type and one specific date story in the note below for maximum authenticity. Reader feedback flagged missing author voice as the #1 trust issue in the previous version. -->
+
+> **A quick note before we start.** I'm going to give away the thing I wish somebody had told me at 27, when I was convinced the right script would finally make dates work. The script _was_ the problem. Not the lines. Not the venues. The fact that I had a script at all. Everything below is what I'd tell a younger version of me — minus the ego damage. — _DJ_
 
 ## Why Your Enneagram Type Determines Your Dating Success
 
@@ -60,277 +64,134 @@ This isn't another "be confident" guide. It's a psychological roadmap to your co
 
 </div>
 
-### You Might Be Missing the Point If...
+### You might be missing the point if...
 
 - You think "being yourself" means not growing
 - You believe vulnerability equals weakness
 - You're performing confidence instead of building it
 - You treat dating like a game to win
-- You haven't examined your relationship patterns
+- You've never seriously examined your relationship patterns
 
-The truth? **Women aren't looking for perfection. They're looking for emotional intelligence.** And emotional intelligence starts with knowing yourself.
+The truth? **The men who do well in dating aren't the most attractive — they're the most self-aware.** And self-awareness isn't a vibe. It's a skill you can actually build.
 
-## Quick Type Identifier: Find Your Dating Pattern
+**Jump to your type:** [1](#type-1) · [2](#type-2) · [3](#type-3) · [4](#type-4) · [5](#type-5) · [6](#type-6) · [7](#type-7) · [8](#type-8) · [9](#type-9) · [How to read _her_ type](#how-to-read-her-type) · [Compatibility](#compatibility) · [Texting](#texting) · [Rejection](#rejection)
 
-**Don't know your type yet? Look for your pattern:**
+> **Dating mostly on apps?** This guide's companion is built for that. The [Online Dating Companion Guide](/enneagram-corner/enneagram-online-dating-guide) covers profiles, photos, opening messages, and the first five minutes in person. Start here to understand your patterns. Read that to apply them to Hinge and Bumble.
 
-<div style="background: linear-gradient(135deg, #1a1a2e 0%, #16161e 50%, #12121a 100%); padding: 1.25rem 1.5rem; border-radius: 12px; margin: 1.5rem 0; border: 1px solid rgba(124, 58, 237, 0.2); box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);">
+> **Don't know your type yet?** <a href="/enneagram-corner/beginners-guide-to-determining-your-enneagram-type">Take our comprehensive type test →</a>
 
-**Type 1:** You mentally grade your dates and find flaws immediately  
-**Type 2:** You offer to help with their problems before the appetizers arrive  
-**Type 3:** You lead with achievements and forget to share feelings  
-**Type 4:** You want instant deep connection or nothing at all  
-**Type 5:** You analyze attraction instead of feeling it  
-**Type 6:** You test them with small challenges to gauge loyalty  
-**Type 7:** You're already planning the third date during the first  
-**Type 8:** You turn conversations into friendly debates  
-**Type 9:** You agree with everything to avoid conflict
-
-</div>
-
-> **Need a deeper assessment?** <a href="/enneagram-corner/beginners-guide-to-determining-your-enneagram-type">Take our comprehensive type test →</a>
+<span id="type-1"></span>
 
 <section class="section-content">
 
-## Type 1 - The Perfectionist: When Standards Meet Reality
+## Type 1 - The Perfectionist
 
-### The Hidden Psychology of Type 1 Dating
+**Childhood wound:** Love felt conditional on being "good enough."  
+**Adult pattern:** Grading every date against a mental rubric — and grading yourself harder.
 
-You learned early that love had conditions. Good behavior earned affection. Mistakes brought withdrawal. Now you date with a checklist, searching for someone who won't disappoint you or trigger your fear of being "bad."
+**You might be a Type 1 if:**
 
-**The childhood wound:** Love felt conditional on being "good enough."
-
-**The adult pattern:** Seeking perfection to avoid the pain of imperfection.
-
-### You Might Be a Type 1 If:
-
-- You notice typos in their texts and it bothers you
+- You notice typos in her texts and it bothers you
 - You plan dates with backup plans for the backup plans
 - You've ended things over "small" violations of your values
-- You give advice when they just want empathy
-- You judge yourself harder than you judge them
+- You give advice when she just wants empathy
+- You judge yourself harder than you judge her
 
-### Your Type 1 Dating Superpower
+**Your strength — and the trap inside it**
 
-**Principled authenticity that builds trust.**
+Principled reliability. In a dating pool exhausted by mixed signals, you show up with unwavering integrity. You follow through. You communicate clearly. You treat people well when it's inconvenient. That is rare, and she will feel it.
 
-While others play games, you show up with unwavering integrity. You follow through. You communicate clearly. You treat people with respect even when it's inconvenient.
+The trap: the same inner critic that made you dependable is now running two programs at once — evaluating her against impossible standards, and attacking you for falling short of yours. _"She's amazing but she was rude to the waiter." "Why did I say that?"_ The result is a suffocating dynamic where neither of you gets to relax into the person actually sitting across the table.
 
-Women exhausted by mixed signals find your consistency refreshing.
+**The shift**
 
-### Why Type 1s Struggle with Dating
+The perfection that protected you as a kid is now the wall between you and intimacy. Real connection happens inside the flaws, not despite them.
 
-**The inner critic on steroids.**
+**On a date**
 
-Your brain runs two programs simultaneously:
+Pick structure with room for mistakes: a cooking class, a wine tasting, a beginner pottery night. Something where things go sideways and that's part of the fun. Skip fine dining and movies — one's too high-pressure, the other has no room for connection.
 
-1. Evaluating them against impossible standards
-2. Attacking yourself for not being perfect enough
+Ask: _"What's a rule you used to follow that you're glad you dropped?"_ Then share one of your own. A real one. A spectacular failure and what it taught you.
 
-_"She's amazing but she was rude to the waiter."_  
-_"I should have been funnier. Why did I say that?"_
-
-This creates a suffocating dynamic where neither of you can relax into authentic connection.
-
-### The Mindset Shift
-
-**From:** "I need to be perfect to be loved"
-**To:** "My imperfections make me human and relatable"
-
-The perfection that protected you in childhood now prevents intimacy. Real connection happens in the flaws, not despite them.
-
-### First Date Strategy for Type 1 Men
-
-**Choose structure with flexibility:**
-
-✓ **Cooking classes** - Controlled chaos where mistakes become bonding  
-✓ **Wine tastings** - Framework that encourages exploration  
-✓ **Museum tours** - Conversation prompts without scripts  
-✗ Fine dining - Too much pressure for perfection  
-✗ Movies - No room for connection
-
-**Power conversations that work:**
-
-- "What's something you're working to improve about yourself?"
-- "Tell me about a belief you've completely changed your mind on"
-- "What's a mistake that actually improved your life?"
-
-**The move that opens doors:** Share a spectacular failure and what it taught you. Watch their walls come down as yours do.
-
-### Second Date Evolution for Type 1s
-
-**Go deeper without the judgment:**
-
-Choose values-aligned activities:
-
-- Volunteer at an animal shelter together
-- Attend a thought-provoking lecture or workshop
-- Visit a social justice museum or exhibit
-
-**The growth edge:** Let something go wrong. Laugh about it. Show her that you can handle imperfection with grace.
+**Your move:** Let something go wrong on the date and don't fix it. Laugh. Prove to yourself that imperfection is survivable — and watch her shoulders drop right next to yours.
 
 > **Type 1s in relationships:** <a href="/enneagram-corner/enneagram-types-in-relationships">Discover your compatibility patterns →</a>
 
 </section>
 
+<span id="type-2"></span>
+
 <section class="section-content">
 
-## Type 2 - The Helper: When Giving Becomes Taking
+## Type 2 - The Helper
 
-### The Hidden Psychology of Type 2 Dating
+**Childhood wound:** "I'm only loved for what I do, not who I am."  
+**Adult pattern:** Compulsive giving that creates invisible contracts.
 
-You learned that love was earned through service. Being needed meant being safe. Now you date by becoming indispensable, then resent when it's not reciprocated.
+**You might be a Type 2 if:**
 
-**The childhood wound:** "I'm only loved for what I do, not who I am."
-
-**The adult pattern:** Compulsive giving that creates covert contracts.
-
-### You Might Be a Type 2 If:
-
-- You remember their coffee order after one date
-- You offer solutions before they finish describing problems
-- You feel anxious when you can't help
-- You know their needs better than your own
+- You remember her coffee order after one date
+- You offer solutions before she finishes describing the problem
+- You feel anxious when you're not being useful
+- You know her needs better than your own
 - You give 90% and call it "equal"
 
-### Your Type 2 Dating Superpower
+**Your strength — and the trap inside it**
 
-**Emotional intelligence that reads people.**
+Emotional intelligence that reads people in real time. You catch the subtle cues, you anticipate needs, you create safety through attentiveness. In a dating pool full of emotionally unavailable men, you're the anomaly a lot of women are quietly hoping to find.
 
-You pick up on subtle cues others miss. You anticipate needs. You create safety through attentiveness. In a world of emotional unavailability, you're the anomaly everyone craves.
+The trap: you shape-shift into whoever she needs. So she never meets the real you — and you start silently resenting her for not meeting needs you never voiced. _"I do everything for her. Why can't she see what I need?"_ Because you were too busy earning love to risk asking for it.
 
-### Why Type 2s Struggle with Dating
+**The shift**
 
-**Self-abandonment disguised as love.**
+You don't have to earn love through service. You're not a vending machine with feelings. The right person will love you at rest, not just in motion.
 
-You become a shape-shifter, morphing into whoever they need. But this creates two problems:
+**On a date**
 
-1. They never meet the real you
-2. You build resentment for needs never voiced
+Choose places that naturally alternate who's leading: a farmer's market stroll, an acoustic music venue, a walk with coffee in a neighborhood you both like. Skip expensive dinners and any activity where you're the "expert" — both lock in the giver/taker dynamic from minute one.
 
-_"I do everything for them. Why can't they see what I need?"_
+Ask: _"What do you actually need that you almost never ask for?"_ And be prepared to answer it yourself.
 
-Because you never told them. You were too busy earning love to risk asking for it.
-
-### The Mindset Shift
-
-**From:** "I need to earn love through giving"  
-**To:** "I deserve love just for existing"
-
-Your value isn't measured in acts of service. It's inherent. The right person will love you at rest, not just in motion.
-
-### First Date Strategy for Type 2 Men
-
-**Create space for mutual exchange:**
-
-✓ **Coffee shop conversations** - Intimate without overwhelming  
-✓ **Farmer's market stroll** - Natural pauses for sharing  
-✓ **Acoustic music venues** - Connection without constant talking  
-✗ Expensive dinners - Sets up giver/taker dynamic  
-✗ Activities where you're the expert - Reinforces helper role
-
-**Power conversations that work:**
-
-- "What makes you feel most appreciated?"
-- "How do you like to receive care from others?"
-- "What's something you need help with?" (Then actually let them help YOU)
-
-**The move that shifts everything:** When they offer anything, whether to pay, help, or share, accept gracefully. Practice receiving.
-
-### Second Date Evolution for Type 2s
-
-**Balance giving with receiving:**
-
-Choose reciprocal activities:
-
-- Cook a meal together (shared effort)
-- Take a dance class (mutual vulnerability)
-- Partner yoga or rock climbing (interdependence)
-
-**The growth edge:** Share three of your own needs. Ask for one to be met. Notice that the world doesn't end.
+**Your move:** When she offers anything — to pay, to drive, to pick the next spot — say yes the first time, without qualifying it. Practice receiving like it's a skill, because for you it is.
 
 > **Type 2s in relationships:** <a href="/enneagram-corner/enneagram-types-in-relationships">Learn relationship dynamics →</a>
 
 </section>
 
+<span id="type-3"></span>
+
 <section class="section-content">
 
-## Type 3 - The Achiever: When Success Meets Soul
+## Type 3 - The Achiever
 
-### The Hidden Psychology of Type 3 Dating
+**Childhood wound:** "I am what I accomplish."  
+**Adult pattern:** Performing intimacy instead of experiencing it.
 
-You learned that love was a reward for achievement. Trophies brought hugs. Success brought attention. Now you date like you're interviewing for a position, forgetting that hearts don't care about resumes.
-
-**The childhood wound:** "I am what I accomplish."
-
-**The adult pattern:** Performing intimacy instead of experiencing it.
-
-### You Might Be a Type 3 If:
+**You might be a Type 3 if:**
 
 - Your dating profile reads like a LinkedIn summary
-- You've practiced your "casual" success stories
-- You feel anxious when conversation turns emotional
-- You're already planning how she'll look at company events
-- Rejection feels like career failure
+- You've rehearsed your "casual" success stories
+- You feel restless when conversation turns emotional
+- You're already imagining her at your company's holiday party
+- Rejection lands like a career failure
 
-### Your Type 3 Dating Superpower
+**Your strength — and the trap inside it**
 
-**Magnetic competence that inspires.**
+Magnetic competence. You make things happen. You have vision, drive, follow-through. In a world of talkers you're a guy who delivers, and she'll notice.
 
-You make things happen. You have vision, drive, and follow-through. You turn dreams into reality. In a world of talkers, you're someone who delivers.
+The trap: you optimize for metrics that don't matter — how impressive you seem, how fast you "close," how envious other people will be — and miss the only metric that counts: whether either of you actually felt anything. _"I showed her my best self. Why didn't it work?"_ Because your best self was a performance, not a person.
 
-### Why Type 3s Struggle with Dating
+**The shift**
 
-**Treating connection like a KPI.**
+Your worth exists at rest. The right woman will love your failures as much as your wins — but only if she's allowed to see them.
 
-You optimize for metrics that don't matter:
+**On a date**
 
-- How impressive you appear
-- How quickly you "close"
-- How envious others are
+Choose things you'll be bad at: a beginner improv workshop, a sunrise hike with no itinerary, a neighborhood cafe with no plan beyond showing up. Skip business networking and competitive activities. Both re-activate work mode inside five minutes.
 
-Meanwhile, you miss the only metric that counts: genuine emotional connection.
+Ask: _"When do you feel most like yourself — not your title, not your role, just you?"_ Then answer honestly first.
 
-_"I showed her my best self. Why didn't it work?"_
-
-Because your "best self" was a performance, not a person.
-
-### The Mindset Shift
-
-**From:** "I am valuable for what I achieve"  
-**To:** "I am valuable in stillness and vulnerability"
-
-Your worth exists at rest. The right person will love your failures as much as your successes.
-
-### First Date Strategy for Type 3 Men
-
-**Impress through authenticity, not achievement:**
-
-✓ **Interactive galleries** - Share opinions, not accomplishments  
-✓ **Escape rooms** - Collaborate, don't dominate  
-✓ **Food truck tours** - Keep it real, not refined  
-✗ Business networking events - Work mode activated  
-✗ Competitive activities - Winning overtakes connecting
-
-**Power conversations that work:**
-
-- "What lights you up outside of work?"
-- "Tell me about a time you felt truly seen"
-- "What failure taught you the most?"
-
-**The move that builds trust:** Share a moment of doubt, fear, or failure. Show the human behind the highlight reel.
-
-### Second Date Evolution for Type 3s
-
-**Show depth beyond success:**
-
-Choose vulnerable activities:
-
-- Beginner's pottery class (be bad at something together)
-- Improv workshop (can't plan or perfect)
-- Sunrise hike (share dreams, not goals)
-
-**The growth edge:** Turn off your phone. Be present. Let success be the quality of connection, not the impressiveness of activity.
+**Your move:** Turn your phone all the way off. Be present without checking. Let tonight's success be the quality of the conversation, not the impressiveness of the activity.
 
 > **Type 3s under stress:** <a href="/enneagram-corner/enneagram-types-in-stress">Recognize when you're performing →</a>
 
@@ -340,505 +201,417 @@ Choose vulnerable activities:
 <MarqueeHorizontal displayList={[{name: 'at a party 🎉', link: '/enneagram-corner/enneagram-types-at-party'}, {name: 'in stress 😰', link: '/enneagram-corner/enneagram-types-in-stress'}, {name: 'being ghosted 👻', link: '/enneagram-corner/enneagram-types-being-ghosted'}, {name: 'strengths 💪 and weaknesses', link: '/enneagram-corner/enneagram-strengths-and-weaknesses'}, {name: 'communication styles 🙊', link: '/enneagram-corner/enneagram-communication-styles'} ]} />
 </div>
 
+<span id="type-4"></span>
+
 <section class="section-content">
 
-## Type 4 - The Individualist: When Intensity Meets Intimacy
+## Type 4 - The Individualist
 
-### The Hidden Psychology of Type 4 Dating
+**Childhood wound:** "I'm too different to be truly understood."  
+**Adult pattern:** Manufacturing intensity to confirm connection.
 
-You learned early that being ordinary meant being invisible. Intensity brought attention. Drama created connection. Now you date seeking a soulmate who'll finally see your depths, while fearing they never will.
-
-**The childhood wound:** "I'm too different to be truly understood."
-
-**The adult pattern:** Creating intensity to confirm connection.
-
-### You Might Be a Type 4 If:
+**You might be a Type 4 if:**
 
 - Small talk feels like spiritual death
 - You want to discuss childhood trauma on date one
 - You've ended things because it "didn't feel special enough"
 - You romanticize the ones who got away
-- Happy relationships somehow feel less "real"
+- Happy, stable relationships feel somehow less real
 
-### Your Type 4 Dating Superpower
+**Your strength — and the trap inside it**
 
-**Emotional depth that transforms.**
+Emotional depth that transforms. You feel everything, you name it accurately, you find meaning in moments other people sleepwalk through. You can offer the deep connection everyone claims to want and few can actually hold.
 
-You feel everything. Express authentically. Find meaning in moments others miss. You offer the deep connection everyone claims to want but few can handle.
+The trap: you mistake intensity for intimacy. Every silence must mean something. Every ordinary moment gets dramatized or dismissed. So you push for depth before she's ready, and then feel alone when she can't match the voltage you're running at.
 
-### Why Type 4s Struggle with Dating
+**The shift**
 
-**Turning life into performance art.**
+Love lives in the ordinary — the grocery store, the Tuesday night, the dumb joke. Your uniqueness doesn't need constant proof to exist.
 
-Every moment needs meaning. Every silence holds significance. You manufacture drama to feel alive, mistaking intensity for intimacy.
+**On a date**
 
-_"If it's not passionate, is it even real?"_
+Pick places with built-in aesthetic texture: a poetry reading, a jazz club, a sunset picnic somewhere unremarkable. Skip chain restaurants (soul-crushing) and comedy clubs (a forced performance of lightness you don't have).
 
-Yes. The mundane moments are where love actually lives.
+Ask: _"What ordinary thing has felt beautiful this week?"_ It gives her permission to be interesting without performing it.
 
-### The Mindset Shift
-
-**From:** "I need to be special to be loved"  
-**To:** "My ordinary is already extraordinary"
-
-Connection happens in simple moments too. Your uniqueness doesn't need constant proof.
-
-### First Date Strategy for Type 4 Men
-
-**Express uniqueness without forcing it:**
-
-✓ **Underground art galleries** - Authentic aesthetic environments  
-✓ **Poetry readings or jazz clubs** - Emotional without overwhelming  
-✓ **Sunset picnics** - Natural beauty inspires connection  
-✗ Chain restaurants - Soul-crushing conformity  
-✗ Comedy clubs - Forced lightness
-
-**Power conversations that work:**
-
-- "What experience fundamentally changed who you are?"
-- "When do you feel most yourself?"
-- "What beauty have you noticed today that others might miss?"
-
-**The move that surprises:** Find genuine beauty in something ordinary about them. Share a simple joy.
-
-### Second Date Evolution for Type 4s
-
-**Deepen without dramatizing:**
-
-Choose meaningful simplicity:
-
-- Cook a meal using family recipes (story without melodrama)
-- Visit a used bookstore (share influences naturally)
-- Watch sunrise or sunset (beauty without orchestration)
-
-**The growth edge:** Appreciate three "boring" things about them. Find depth in the everyday.
+**Your move:** Find genuine beauty in something unromantic about her — the way she orders, the way she pronounces a word, the way she folds her napkin. Say it out loud. Keep walking.
 
 > **Type 4s in relationships:** <a href="/enneagram-corner/enneagram-types-in-relationships">Master your emotional intensity →</a>
 
 </section>
 
+<span id="type-5"></span>
+
 <section class="section-content">
 
-## Type 5 - The Investigator: When Mind Meets Heart
+## Type 5 - The Investigator
 
-### The Hidden Psychology of Type 5 Dating
+**Childhood wound:** "My needs are too much; I have to be self-sufficient."  
+**Adult pattern:** Studying connection instead of being inside it.
 
-You learned that knowledge meant safety. Understanding meant control. Emotions were dangerous territories where logic couldn't protect you. Now you date like an anthropologist studying human connection.
-
-**The childhood wound:** "My needs are too much; I must be self-sufficient."
-
-**The adult pattern:** Observing intimacy instead of experiencing it.
-
-### You Might Be a Type 5 If:
+**You might be a Type 5 if:**
 
 - You've researched dating psychology instead of dating
-- You analyze chemistry instead of feeling it
-- You need three days to process emotional conversations
-- You prefer texting to calling
-- Emotional intensity makes you want to disappear
+- You analyze chemistry like it's a chess position
+- You need three days to process a heavy conversation
+- You prefer texting to phone calls by a wide margin
+- Emotional intensity makes you want to disappear into your apartment
 
-### Your Type 5 Dating Superpower
+**Your strength — and the trap inside it**
 
-**Fascinating depth of thought.**
+A mind worth exploring. You bring perspectives no one else at the table has considered, you listen without judgment, you remember the detail she mentioned once and she'll be stunned that you held onto it. That's rare.
 
-You bring unique perspectives. You listen without judgment. You remember details others forget. Your mind is a landscape worth exploring.
+The trap: you study feelings instead of feeling them. You observe connection instead of building it. She didn't sign up to be an anthropological subject, and _"I understand the concept of love"_ is not the same as being in it.
 
-### Why Type 5s Struggle with Dating
+**The shift**
 
-**Treating emotions like academic subjects.**
+Some things can only be understood by being inside them. This is one of them. The map is not the territory.
 
-You study feelings instead of feeling them. Observe connection instead of creating it. Your date wants a partner, not a researcher.
+**On a date**
 
-_"I understand the concept of love..."_
+Pick contexts where curiosity is the medium: a museum with interactive exhibits, a used bookstore browse that bleeds into coffee, a documentary screening followed by a walk. Skip loud bars and big group activities — both drain you before you can warm up.
 
-But understanding and experiencing are different worlds.
+Ask: _"What's something you know deeply that almost no one ever asks you about?"_ Then let her talk for a long time.
 
-### The Mindset Shift
-
-**From:** "I need to understand everything first"  
-**To:** "I can learn through experiencing"
-
-Some territories are explored through feeling, not thinking.
-
-### First Date Strategy for Type 5 Men
-
-**Engage mind AND heart:**
-
-✓ **Museums with interactive exhibits** - Learn together  
-✓ **Bookstore browsing with coffee** - Share intellectual interests naturally  
-✓ **Documentary screening + discussion** - Ideas with feelings  
-✗ Loud bars - Sensory overwhelm  
-✗ Group activities - Energy drain
-
-**Power conversations that work:**
-
-- "What rabbit hole are you currently exploring?"
-- "What idea recently changed how you see the world?"
-- "How did that make you FEEL?" (Use feeling words)
-
-**The move that creates connection:** Share how something made you feel, not just what you think about it.
-
-### Second Date Evolution for Type 5s
-
-**Add experience to analysis:**
-
-Choose embodied learning:
-
-- Cooking class (sensory engagement)
-- Partner dancing (physical connection)
-- Nature hike (presence over thinking)
-
-**The growth edge:** Make eye contact for five seconds. Share one feeling. Don't explain why.
+**Your move:** Share how something made you _feel_, not just what you _think_ about it. One feeling. One sentence. No explanation of why. Watch her lean in.
 
 > **Type 5s in relationships:** <a href="/enneagram-corner/enneagram-types-in-relationships">Understand your attachment style →</a>
 
 </section>
 
+<span id="type-6"></span>
+
 <section class="section-content">
 
-## Type 6 - The Loyalist: When Trust Meets Truth
+## Type 6 - The Loyalist
 
-### The Hidden Psychology of Type 6 Dating
+**Childhood wound:** "The world isn't safe; I have to stay vigilant."  
+**Adult pattern:** Testing trust until you've broken it.
 
-You learned the world was dangerous. People couldn't be trusted. Safety required vigilance. Now you date like a detective, looking for evidence of future betrayal.
+**You might be a Type 6 if:**
 
-**The childhood wound:** "The world isn't safe; I must be prepared."
-
-**The adult pattern:** Testing loyalty until you break it.
-
-### You Might Be a Type 6 If:
-
-- You Google them extensively before meeting
-- You create small tests to gauge trustworthiness
-- You catastrophize after unreturned texts
-- You need constant reassurance but doubt it when given
+- You Googled her before the first date
+- You invent small tests to see if she'll pass them
+- You catastrophize after an unreturned text
+- You need reassurance but distrust it when given
 - You're attracted to confidence but suspicious of it
 
-### Your Type 6 Dating Superpower
+**Your strength — and the trap inside it**
 
-**Rock-solid reliability that creates safety.**
+Rock-solid loyalty. You show up. You follow through. You protect the people you care about. In a world of flakes, your reliability is foundational — and anyone worth being with will notice.
 
-You show up. You follow through. You protect those you care about. Your loyalty, once earned, is unshakeable. In a world of flakes, you're the foundation.
+The trap: your anxiety wears the mask of intuition. You spot danger where there isn't any and then act on it as if it were real. _"Something feels off"_ — maybe. Or maybe safety just feels unfamiliar and your nervous system doesn't know what to do with it yet.
 
-### Why Type 6s Struggle with Dating
+**The shift**
 
-**Anxiety disguised as intuition.**
+Trust is a choice you make before you have evidence. If you wait for certainty, you'll be waiting alone.
 
-You see danger where none exists. Create problems to solve them. Your "gut feelings" might be old fears in disguise.
+**On a date**
 
-_"Something feels off..."_
+Pick places with built-in comfort: a well-reviewed neighborhood spot, mini golf or bowling, a small day trip to a town 45 minutes away. Skip isolated locations and extreme activities — your nervous system is already working overtime without your help.
 
-Maybe. Or maybe safety feels foreign.
+Ask: _"What does safety actually feel like to you, when you have it?"_ Most people have never been asked that out loud.
 
-### The Mindset Shift
-
-**From:** "What if everything goes wrong?"  
-**To:** "What if everything goes right?"
-
-Trust is a choice, not a guarantee. Choose it anyway.
-
-### First Date Strategy for Type 6 Men
-
-**Balance safety with openness:**
-
-✓ **Well-reviewed restaurants** - Known quality, public safety  
-✓ **Mini golf or bowling** - Playful but structured  
-✓ **Coffee and walk in populated areas** - Easy exit if needed  
-✗ Isolated locations - Triggers safety fears  
-✗ Extreme activities - Too much uncertainty
-
-**Power conversations that work:**
-
-- "What does loyalty mean to you?"
-- "How do you know when you can trust someone?"
-- "What makes you feel secure in relationships?"
-
-**The move that builds trust:** Admit you're nervous, then proceed anyway. Courage is attractive.
-
-### Second Date Evolution for Type 6s
-
-**Expand comfort zones together:**
-
-Choose controlled adventures:
-
-- New cuisine at established restaurants
-- Beginner's class in shared interest
-- Day trip to nearby town (planned but exploratory)
-
-**The growth edge:** Assume positive intent. Act as if they're trustworthy. Notice what happens.
+**Your move:** Tell her you're nervous. Then keep going. Courage in a Type 6 looks like proceeding anyway, and she'll feel the weight of it without you having to explain.
 
 > **Type 6s and anxiety:** <a href="/enneagram-corner/mental-health/enneagram-anxiety-complete-guide">Manage dating anxiety effectively →</a>
 
 </section>
 
+<span id="type-7"></span>
+
 <section class="section-content">
 
-## Type 7 - The Enthusiast: When Adventure Meets Depth
+## Type 7 - The Enthusiast
 
-### The Hidden Psychology of Type 7 Dating
+**Childhood wound:** "Feeling pain all the way through is unbearable."  
+**Adult pattern:** Skimming the surface so nothing can land.
 
-You learned that pain could be avoided. Sadness could be outrun. If you kept moving, the difficult feelings couldn't catch you. Now you date like you're collecting experiences, missing the depth that creates lasting connection.
-
-**The childhood wound:** "Feeling pain fully is unbearable."
-
-**The adult pattern:** Skimming surfaces to avoid depths.
-
-### You Might Be a Type 7 If:
+**You might be a Type 7 if:**
 
 - You're planning date three during date one
-- Emotional conversations make you crack jokes
+- Emotional moments make you crack jokes
 - You've ended things because they got "too heavy"
-- You fear missing out more than missing connection
-- Boredom feels like death
+- FOMO runs your calendar
+- Boredom feels like a small death
 
-### Your Type 7 Dating Superpower
+**Your strength — and the trap inside it**
 
-**Infectious energy that sparks possibility.**
+Infectious energy that makes the world feel bigger. You find silver linings, turn the mundane into memorable, and cut through cynicism without trying. You're the antidote a lot of tired people have been waiting for.
 
-You make everything an adventure. Find silver linings. Turn mundane into memorable. You're the antidote to cynicism most people need.
+The trap: depth feels like detention. You avoid hard feelings, change the subject from pain, and deflect anything that might stick. She wants a partner who can hold all of it, not just the fun parts — and she can feel you slipping out of the room when things get heavy.
 
-### Why Type 7s Struggle with Dating
+**The shift**
 
-**Treating depth like detention.**
+The biggest adventures are the ones where you stayed in the room.
 
-You avoid difficult emotions. Change subjects from pain. Your date wants a partner who can hold space for all feelings, not just fun ones.
+**On a date**
 
-_"Why so serious?"_
+Pick a food market crawl, live music at a small venue, a day trip to a town you've never been to. Skip movies (too passive) and loud concerts (no space for conversation). You need input _and_ room to respond to it.
 
-Because real life includes serious moments.
+Ask: _"What's the quietest good day you've had this year?"_ Force yourself to appreciate stillness on her behalf.
 
-### The Mindset Shift
-
-**From:** "I need constant stimulation"  
-**To:** "There's adventure in going deep"
-
-The greatest thrills require staying still sometimes.
-
-### First Date Strategy for Type 7 Men
-
-**Combine excitement with presence:**
-
-✓ **Food festivals or markets** - Variety with conversation  
-✓ **Interactive museums** - Fun learning together  
-✓ **Escape rooms** - Adventure requiring teamwork  
-✗ Movies - Too passive  
-✗ Loud concerts - No space for connection
-
-**Power conversations that work:**
-
-- "What adventure changed your life?"
-- "What simple pleasure never gets old?"
-- "What difficult experience shaped who you are?"
-
-**The move that deepens connection:** Stay present for an entire story without planning your response.
-
-### Second Date Evolution for Type 7s
-
-**Find depth in adventure:**
-
-Balance novelty with connection:
-
-- Cooking exotic cuisine together (new but intimate)
-- Sunrise hike with breakfast (adventure + quiet moments)
-- Road trip to nearby town (journey matters more than destination)
-
-**The growth edge:** Sit with one uncomfortable feeling for 30 seconds. Share it. Don't deflect with humor.
+**Your move:** Stay present for one of her stories without planning your response while she's talking. Just listen. Reply to what she actually said, not what you wanted her to say.
 
 > **Type 7s in relationships:** <a href="/enneagram-corner/enneagram-types-in-relationships">Transform FOMO into depth →</a>
 
 </section>
 
+<span id="type-8"></span>
+
 <section class="section-content">
 
-## Type 8 - The Challenger: When Strength Meets Softness
+## Type 8 - The Challenger
 
-### The Hidden Psychology of Type 8 Dating
+**Childhood wound:** "Showing softness invites destruction."  
+**Adult pattern:** Dominating the room so nobody can reach your heart.
 
-You learned that vulnerability got you hurt. Weakness invited predators. Power meant safety. Now you date in armor, wondering why no one can reach your heart.
-
-**The childhood wound:** "Showing softness invites destruction."
-
-**The adult pattern:** Dominating to avoid being dominated.
-
-### You Might Be a Type 8 If:
+**You might be a Type 8 if:**
 
 - You turn first dates into friendly debates
-- You test their strength through confrontation
-- Emotional conversations feel like losing control
-- You'd rather be feared than vulnerable
-- You protect others but won't accept protection
+- You test her strength through pushback
+- Emotional conversations feel like losing ground
+- You'd rather be feared than unguarded
+- You protect everyone and accept protection from no one
 
-### Your Type 8 Dating Superpower
+**Your strength — and the trap inside it**
 
-**Protective strength that creates safety.**
+Protective strength. You stand up for truth, you fight for the people you love, you create the kind of safety where other people can finally relax. That is a real gift, and she'll feel safer with you than with most men she's dated.
 
-You stand up for truth. Fight for justice. Shield those you love. Your strength gives others permission to be vulnerable.
+The trap: you armor up against the exact thing intimacy requires. Every interaction turns into a test of power when she was offering a moment of tenderness. _"I don't do vulnerable"_ is a perfectly honest sentence — and also the sentence that means you don't do intimacy either.
 
-### Why Type 8s Struggle with Dating
+**The shift**
 
-**Confusing vulnerability with weakness.**
+Softness is not the opposite of strength. It's the only thing strength is for.
 
-You armor up against the very thing required for intimacy. Your date wants to see your heart, not just your strength.
+**On a date**
 
-_"I don't do vulnerable."_
+Pick physical or creative challenges that require trust: rock climbing, batting cages, a trivia night against other teams. Skip passive activities (you'll get restless) and overly romantic settings (you'll bristle before she finishes her wine).
 
-Then you don't do intimacy.
+Ask: _"When did somebody's softness move you and catch you off guard?"_ Tell her your answer first.
 
-### The Mindset Shift
-
-**From:** "I must never show weakness"  
-**To:** "Vulnerability is the ultimate strength"
-
-Real power includes the courage to be soft.
-
-### First Date Strategy for Type 8 Men
-
-**Show strength through gentleness:**
-
-✓ **Rock climbing** - Physical challenge with trust elements  
-✓ **Cooking together** - Playful competition with collaboration  
-✓ **Trivia nights** - Intellectual sparring without aggression  
-✗ Passive activities - Need engagement  
-✗ Overly romantic settings - Trigger vulnerability fears
-
-**Power conversations that work:**
-
-- "What principle would you fight for?"
-- "When did someone's vulnerability inspire you?"
-- "What makes you feel protected?"
-
-**The move that disarms:** Admit something you don't know. Ask for their expertise.
-
-### Second Date Evolution for Type 8s
-
-**Add softness to strength:**
-
-Choose vulnerable strength:
-
-- Paint and wine class (creative vulnerability)
-- Partner yoga (physical trust)
-- Volunteer at animal shelter (showing tenderness)
-
-**The growth edge:** Share a fear. Accept help. Let them lead something.
+**Your move:** Admit something you don't know. Ask her to explain something she's actually an expert in. Let her lead for five minutes and notice that nothing bad happens.
 
 > **Type 8s in relationships:** <a href="/enneagram-corner/enneagram-types-in-relationships">Master the strength of softness →</a>
 
 </section>
 
+<span id="type-9"></span>
+
 <section class="section-content">
 
-## Type 9 - The Peacemaker: When Harmony Meets Authenticity
+## Type 9 - The Peacemaker
 
-### The Hidden Psychology of Type 9 Dating
+**Childhood wound:** "My presence creates problems."  
+**Adult pattern:** Erasing yourself and calling it easygoing.
 
-You learned that having needs created conflict. Opinions caused problems. It was safer to blend, agree, disappear. Now you date by becoming whoever they want, then wonder why they don't see the real you.
+**You might be a Type 9 if:**
 
-**The childhood wound:** "My presence creates problems."
-
-**The adult pattern:** Self-erasure disguised as easygoing.
-
-### You Might Be a Type 9 If:
-
-- You say "I don't care" when you do
-- You mirror their interests and opinions
+- You say "I don't care" when you very much do
+- You mirror her interests and opinions without noticing
 - Conflict makes you physically uncomfortable
-- You can't remember the last time you disagreed
-- You feel invisible even in relationships
+- You can't remember the last time you disagreed out loud
+- You feel invisible even inside relationships
 
-### Your Type 9 Dating Superpower
+**Your strength — and the trap inside it**
 
-**Calming presence that creates safety.**
+A calming presence in a loud world. You hold space for other people, you see every perspective, you make her feel heard without effort. That's rare and it's magnetic — the moment she feels it, she'll remember it.
 
-You see all perspectives. Create space for others. Make people feel heard. Your presence is a refuge in a chaotic world.
+The trap: you merge so completely that there's nobody left for her to love. She wants a partner, not a mirror — and a mirror is what you've practiced being since you were eight years old.
 
-### Why Type 9s Struggle with Dating
+**The shift**
 
-**Disappearing into agreement.**
+Harmony includes your melody. If you remove yourself from the song, there's less song, not more.
 
-You merge so completely that there's no "you" left to love. Your date wants a person, not a mirror.
+**On a date**
 
-_"I'm easygoing!"_
+Take her to your favorite coffee shop — the one you go to alone. Walk somewhere you love. Bring her to a small local gallery you've been meaning to revisit. Skip "whatever you want" as a date plan; it starts the self-erasure on minute one.
 
-Or you're hiding.
+Ask: _"What's something you want that you usually stay quiet about?"_ Then answer first, with something real.
 
-### The Mindset Shift
-
-**From:** "My needs don't matter"  
-**To:** "My voice adds value"
-
-Harmony includes your melody too.
-
-### First Date Strategy for Type 9 Men
-
-**Assert preferences gently:**
-
-✓ **Your favorite coffee shop** - Share your world  
-✓ **Nature walks** - Peaceful but purposeful  
-✓ **Art galleries** - Practice having opinions  
-✗ "Whatever you want" - Start patterns of self-erasure  
-✗ Loud environments - Can't hear yourself think
-
-**Power conversations that work:**
-
-- "What brings you peace?"
-- "What boundary changed your life?"
-- "What do you want that you rarely ask for?"
-
-**The move that builds attraction:** Disagree about something small. Stay warm while holding your position.
-
-### Second Date Evolution for Type 9s
-
-**Deepen through assertion:**
-
-Choose self-expression activities:
-
-- Cook your favorite meal for them
-- Share your playlist during a drive
-- Take them to a place meaningful to you
-
-**The growth edge:** Make three decisions without asking their preference. Express one disagreement. State one need.
+**Your move:** Disagree about one small thing. Hold the position for thirty seconds. Stay warm. Notice she's still there when you're done.
 
 > **Type 9s in relationships:** <a href="/enneagram-corner/enneagram-types-in-relationships">Learn to maintain self in relationships →</a>
 
 </section>
 
+<span id="how-to-read-her-type"></span>
+
+## How to Read Her Type in the First Three Dates
+
+You know yourself now. Next skill: learning to see her.
+
+You won't be able to confidently type her from one date. You'll barely be able to from three. But you'll start noticing patterns — and patterns are the whole point. Every clue below is a probability, not a verdict.
+
+**Type 1 — The Perfectionist**  
+Her texts are grammatically pristine. She has strong opinions about the "right" way to do small things. She subtly corrects the waiter's recommendation. When she laughs, it's like she finally gave herself permission to.
+
+**Type 2 — The Helper**  
+She remembers what you mentioned last week. She asks about your mom, your friend, your dog — by name. She brings a small, specific thing to date two. She's already worrying about whether you've eaten.
+
+**Type 3 — The Achiever**  
+Her stories have accomplishments embedded in them without her noticing. She checks her phone faster than other people do. She's efficient with her time in a way that feels slightly off for a first date — until one of her rehearsed answers cracks and a real person appears behind it.
+
+**Type 4 — The Individualist**  
+Small talk visibly depletes her. She wants to skip to the real questions. She has unusual, considered aesthetic preferences and she will tell you about them. She uses the word "ordinary" like a mild slur.
+
+**Type 5 — The Investigator**  
+She asks a lot more than she shares. She knows a strange amount about one narrow subject. She needs a beat of silence you might want to fill — don't fill it. She'll go quiet for a day after a heavy conversation; it's not rejection, it's processing.
+
+**Type 6 — The Loyalist**  
+She asks what your friends would say about you. She wants to know your plans — for the night, the week, sometimes life. She notices the exits. She double-checks the bill. She tests you in small ways and then apologizes for it.
+
+**Type 7 — The Enthusiast**  
+Her sentences run into each other. She's already pitched three things she wants to do next. She reroutes conversation every time it lands somewhere heavy. Her phone has more open apps than yours has icons.
+
+**Type 8 — The Challenger**  
+Direct from the first sentence. She tests what you'll push back on and respects you more when you do. She's scanning for performance and she can smell it. Kindness from her hits like a warm surprise — because she wasn't giving it for free.
+
+**Type 9 — The Peacemaker**  
+"Whatever you want" is her first answer to almost every question. Her body language mirrors yours within thirty seconds. She takes a while to tell you what she actually thinks — and when she does, the air in the room changes.
+
+Three rules when reading her:
+
+1. **Strength shows up first; the trap shows up under stress.** Wait for a hard moment — a rude server, a canceled reservation, a genuine disagreement — and watch what her personality does with it. That's the tell.
+2. **Don't type her to control her. Type her to understand her.** She's not a puzzle to solve. She's a person to meet.
+3. **If you can't tell, you haven't asked enough real questions.** Most people will tell you exactly who they are inside the first hour, if you stop performing long enough to hear them do it.
+
+<span id="compatibility"></span>
+
+## Compatibility at a Glance
+
+Any two types can work if both people are healthy and self-aware. The Enneagram isn't astrology, it's not a matching app, and nobody should swipe based on it. But some pairings run easier, and some have louder friction. Here's the short version.
+
+<div class="scroll-table">
+
+| If you're a Type  | You'll click easily with                                     | You'll feel friction with                                             |
+| ----------------- | ------------------------------------------------------------ | --------------------------------------------------------------------- |
+| 1 (Perfectionist) | 7 (lightness balances your grip), 9 (calms your critic)      | 4 (intensity overwhelms your structure), 8 (refuses your corrections) |
+| 2 (Helper)        | 8 (accepts care without suspicion), 4 (feels your attention) | 5 (recoils from your warmth), 3 (treats your giving as transactional) |
+| 3 (Achiever)      | 9 (safe harbor from the hustle), 6 (loyalty you can trust)   | 4 (exposes your performance), 5 (unimpressed by your metrics)         |
+| 4 (Individualist) | 5 (depth without drama), 9 (holds space for your intensity)  | 3 (feels inauthentic to you), 7 (skips the depth you crave)           |
+| 5 (Investigator)  | 4 (meets your depth), 1 (gives you structure)                | 2 (crowds your space), 8 (demands emotional presence fast)            |
+| 6 (Loyalist)      | 9 (slows your anxiety), 2 (supplies reassurance naturally)   | 7 (flakes on plans you needed), 4 (mood swings trigger your alarm)    |
+| 7 (Enthusiast)    | 5 (grounds your mind), 1 (steadies your plans)               | 4 (too much gravity), 6 (too much worry)                              |
+| 8 (Challenger)    | 2 (melts your armor), 7 (matches your energy)                | 5 (withdraws from your heat), 9 (disappears under your intensity)     |
+| 9 (Peacemaker)    | 3 (draws you out of hiding), 6 (matches your stability)      | 8 (overruns your boundaries), 1 (sharpens your self-criticism)        |
+
+</div>
+
+Use this as a starting hypothesis, not a verdict. Every rule here has beautiful exceptions — usually two people who did the work.
+
+<span id="texting"></span>
+
+<section class="section-content">
+
+## Between Dates: The Texting Trap
+
+The dates aren't where most things go wrong. The hours between them are.
+
+Every type sabotages the texting stage in its own signature way:
+
+- **Type 1:** You rewrite every text three times. It reads like a memo, not a human.
+- **Type 2:** You over-invest by message four. She hasn't even agreed to date two yet.
+- **Type 3:** You text in brand voice — polished, quippy, zero inner life. Where's the person?
+- **Type 4:** You send a vulnerable monologue at 11pm. The match wasn't ready.
+- **Type 5:** You go silent for three days, then send a thoughtful paragraph. She's already moved on.
+- **Type 6:** You re-read every text for hidden meanings, ask two friends, spiral. She feels it through the phone.
+- **Type 7:** You're chatting with three other matches. None of them is getting a real reply from you.
+- **Type 8:** You open with a challenge. _"Bet you can't keep up."_ She blocks.
+- **Type 9:** "Haha yeah." "Haha yeah." "Haha yeah." The conversation flatlines by message four.
+
+The rule under all of it: **texting isn't dating — it's logistics.** The goal of the message is the meeting. Anything more is anxiety wearing a productive outfit.
+
+> **The full breakdown — app profiles, opening messages, photos, and the first five minutes in person:** the [Online Dating Companion Guide](/enneagram-corner/enneagram-online-dating-guide) is built for exactly this.
+
+</section>
+
+<span id="rejection"></span>
+
+<section class="section-content">
+
+## When It Doesn't Work Out: Rejection by Type
+
+Nobody talks about this part. Rejection is where the Enneagram earns its keep, because your type handles getting rejected so predictably you could almost set your watch by it. Here's the script that runs, and the corrective move for each one.
+
+- **Type 1:** You review the tape. You find the mistake. You decide she was right to leave. _Corrective: there was no exam, and you didn't fail one._
+- **Type 2:** You wonder what else you could have given. _Corrective: giving more wouldn't have saved it. You weren't the reason and you're not the solution._
+- **Type 3:** You reframe it as a win, move fast, start the next pursuit. _Corrective: let this one land. Not every loss is a pivot opportunity._
+- **Type 4:** You romanticize her and extend the grief into art. _Corrective: she was a real person, not a symbol. Grieve the real one._
+- **Type 5:** You retreat into analysis and live alone inside your head for two months. _Corrective: call a friend. Out loud. With your actual voice._
+- **Type 6:** You spiral through worst-case interpretations and scan for patterns. _Corrective: one rejection is not a verdict about your future._
+- **Type 7:** You book a trip, download a new app, skip the feeling. _Corrective: sit with the sadness for one full evening. It will not kill you._
+- **Type 8:** You decide she wasn't strong enough and get angry. _Corrective: you're allowed to be hurt. Hurt is not weakness._
+- **Type 9:** You disappear into a fog, agree it's fine, binge a show. _Corrective: name what you wanted. Feel the disappointment on purpose._
+
+Every type has a script for rejection. Your job is to notice the script running — and let the feeling through before the script closes the door on it.
+
+</section>
+
+<section class="section-content">
+
+## A Note on Wings
+
+One more thing before we close: the Enneagram has **wings**. Each type is flavored by one of the two types next to it, which means a 3w2 (Achiever with Helper wing) dates very differently than a 3w4 (Achiever with Individualist wing). A 3w2 will perform care. A 3w4 will perform uniqueness. Same core type. Different date.
+
+You don't need to master wings to use this guide. Just know this: your core type is the shape, your wing is the color. If a section above felt 80% right but something was off, your wing is probably what's explaining the other 20%.
+
+Start with your core type. The wing is what happens after.
+
+</section>
+
 ## What Changes When You Know Your Type
 
-Here's the shift:
+You stop repeating the script. That's it. That's the entire prize.
 
-**You stop:**
+Before, your patterns were running you — the perfectionism, the performing, the pulling away, the merging, the debating, the disappearing. You'd meet someone promising, watch it fall apart, and not quite know why.
 
-- Performing a version of yourself
-- Repeating unconscious patterns
-- Attracting the wrong people
-- Sabotaging good connections
-- Wondering why it never works
-
-**You start:**
-
-- Dating from awareness, not wounds
-- Recognizing compatible partners
-- Breaking destructive patterns
-- Building genuine connection
-- Understanding what you actually need
+After, the same pattern still starts. But now you can see it start. And seeing it start is the moment you get to choose something different — not always, not every time, but enough to change the outcome over a year of dates.
 
 ## Your Next Steps
 
-1. **Identify your type** if you haven't already
-2. **Recognize your pattern** in past relationships
-3. **Practice your growth edge** on the next date
+1. **Identify your type honestly.** The one you don't want to be is usually closer to the truth than the one you do.
+2. **Read only your type section again, slowly**, as if she wrote it about you.
+3. **Pick one move from that section.** One. Try it on the next date.
 
 > **Ready to go deeper?** <a href="/questions">Join thousands exploring their personality patterns</a>
 
-Remember: **Women aren't looking for a perfect man.** They're looking for an aware one.
+Women aren't looking for a perfect man. They're looking for an aware one — somebody who notices his own script, has the nerve to rewrite it in real time, and can laugh at the old version without pretending it isn't still trying to run the show.
 
-Someone working on growth, not hiding flaws. Someone brave enough to be vulnerable. Someone real enough to be trusted.
-
-The Enneagram isn't about fixing you. You're not broken. It's about understanding your patterns so deeply that you can show up authentically, connect genuinely, and love consciously.
+The Enneagram isn't here to fix you. You're not broken. It's here to make the invisible visible — so you can stop performing the version of yourself your childhood needed, and start showing up as the one the next decade of your life requires.
 
 **Your move:** Stop trying to be everyone's type. Master being yours.
 
 <!-- READER_FEEDBACK_START
+STATUS: Addressed in revision on 2026-04-07
+
+Addressed in this revision:
+- Online dating: offloaded to new companion guide (linked prominently in intro, texting section, and closing callouts)
+- Reading her type: added "How to Read Her Type in the First Three Dates" section
+- Compatibility: added "Compatibility at a Glance" table
+- "Science-backed" claim: dropped from description (and softened FAQ language)
+- Author voice: added author's note from DJ near intro (flagged with HTML comment for DJ to personalize with real type + real story)
+- Texting: added "Between Dates: The Texting Trap" section with per-type pitfalls, linking out to online dating guide for depth
+- Rejection: added "When It Doesn't Work Out: Rejection by Type" section
+- Wings: added "A Note on Wings" section
+- Weak hook: replaced with concrete scene (the "five minutes when the script runs" opening)
+- Template repetition: per-type sections cut from 8 subsections to 5 (Wound/Pattern → If → Strength & Trap → Shift → On a Date + Your Move). Mindset Shift is now prose. Superpower + Why You Struggle merged into one honest paragraph.
+- Duplicate "women aren't looking for perfection": removed the intro version, kept the closing version (which is stronger)
+- First-date suggestion duplication: diversified per type — cooking classes now only appear for Type 1, museums for Type 5 only, etc.
+- Power convo generics: rewritten to be genuinely type-specific (e.g., Type 6 "what does safety feel like when you have it" couldn't swap with any other type)
+- Generic closing lists: removed the "You stop / You start" bullets, replaced with tighter prose
+- Quick Type Identifier box duplicating table: removed
+- Jump nav: added a simple anchor-link jump row at the top as a lightweight alternative to a sticky nav (which would need component work)
+
+Not done in this pass (separate tasks if you want them):
+- Sticky type-nav component (would need Svelte component + scroll behavior)
+- Actual personal anecdote from DJ (left as an HTML comment placeholder — DJ needs to fill in his type + real story)
+- Inline citations for attachment / EQ research (dropped the claim instead, which is the cleaner fix)
+
+---
+
+ORIGINAL READER FEEDBACK (preserved for reference):
+
 Reviewer: read-through as a normal guy in the target audience (mid-30s, single, has dabbled in Enneagram)
 Date: 2026-04-07
 
@@ -905,9 +678,9 @@ READER_FEEDBACK_END -->
     {
       "@type": "BlogPosting",
       "headline": "Enneagram Dating Guide for Men: Type-Specific Strategies That Actually Work",
-      "description": "Discover how your Enneagram type shapes your dating style, blind spots, and path to authentic connection. Science-backed strategies for each of the 9 personality types.",
+      "description": "Discover how your Enneagram type shapes your dating style, blind spots, and path to authentic connection — with how to read her type, compatibility patterns, and what each of the 9 types does at every stage of dating.",
       "datePublished": "2024-09-13",
-      "dateModified": "2025-08-15",
+      "dateModified": "2026-04-07",
       "author": {
         "@type": "Person",
         "name": "DJ Wayne",
@@ -931,7 +704,7 @@ READER_FEEDBACK_END -->
         "width": 1200,
         "height": 630
       },
-      "keywords": ["Enneagram dating", "personality types dating", "dating advice for men", "Enneagram relationships", "authentic dating", "emotional intelligence dating", "Type 1 dating", "Type 2 dating", "Type 3 dating", "Type 4 dating", "Type 5 dating", "Type 6 dating", "Type 7 dating", "Type 8 dating", "Type 9 dating"]
+      "keywords": ["Enneagram dating", "personality types dating", "dating advice for men", "Enneagram relationships", "authentic dating", "emotional intelligence dating", "Enneagram compatibility", "reading her Enneagram type", "Type 1 dating", "Type 2 dating", "Type 3 dating", "Type 4 dating", "Type 5 dating", "Type 6 dating", "Type 7 dating", "Type 8 dating", "Type 9 dating"]
     },
     {
       "@type": "FAQPage",
@@ -941,7 +714,7 @@ READER_FEEDBACK_END -->
           "name": "How does the Enneagram improve dating success for men?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "The Enneagram reveals unconscious patterns that sabotage connections, helping men understand their blind spots, authentic strengths, and what they're actually seeking in relationships versus what they think they want."
+            "text": "The Enneagram reveals unconscious patterns that sabotage connection, helping men understand their blind spots, authentic strengths, and what they are actually seeking in relationships versus what they think they want."
           }
         },
         {
@@ -957,7 +730,15 @@ READER_FEEDBACK_END -->
           "name": "Can knowing your Enneagram type really improve dating outcomes?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes. Self-awareness is the foundation of emotional intelligence, which research shows is more important for relationship success than physical attraction, income, or shared interests. The Enneagram provides a framework for developing this awareness."
+            "text": "Yes. Self-awareness is the foundation of emotional intelligence, and recognizing your own patterns is often the difference between repeating a cycle and changing it. The Enneagram provides a practical framework for spotting those patterns in yourself and in the person across the table."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How can I tell what Enneagram type the woman I am dating is?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "You won't type her confidently from one date, but patterns emerge across three. Watch how she handles stress (rude server, canceled plans), what she talks about unprompted, and how she reacts when you reveal something real. Her strength shows up first; her trap shows up under pressure. Use what you notice to understand her, not to control her."
           }
         },
         {
@@ -965,7 +746,7 @@ READER_FEEDBACK_END -->
           "name": "Which Enneagram types are most compatible in dating?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Any type can work with any other type when both are healthy and self-aware. Success depends more on emotional maturity and growth orientation than specific type combinations."
+            "text": "Any two types can work when both people are healthy and self-aware, but some pairings run easier. Type 1s tend to click with 7s and 9s, Type 2s with 8s and 4s, Type 3s with 9s and 6s, Type 4s with 5s and 9s, Type 5s with 4s and 1s, Type 6s with 9s and 2s, Type 7s with 5s and 1s, Type 8s with 2s and 7s, and Type 9s with 3s and 6s. Success depends more on emotional maturity than on specific type matches."
           }
         }
       ]

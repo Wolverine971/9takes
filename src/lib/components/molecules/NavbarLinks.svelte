@@ -25,7 +25,7 @@
 	<div class="main-subnav" style="margin: {!isMobile && '1rem'}">
 		<button
 			class="main-subNavBtn {!isMobile && 'big-btn'} {!isMobile && 'subNavBtn'}"
-			style="background: {isMobile && 'white'}; border: {isMobile && 'none'};"
+			class:main-subNavBtn-mobile={isMobile}
 			>Enneagram Corner<i class="fa fa-caret-down"></i></button
 		>
 		<div class="main-subnav-content {isMobile && 'mobile-card'}">
@@ -132,12 +132,14 @@
 		background: no-repeat;
 		border-radius: var(--base-border-radius);
 		border: var(--classic-border);
-		background-color: var(--base-white-outline);
+		background-color: var(--bg-surface);
+		box-shadow: var(--shadow-sm);
 	}
 
 	.mobile-card {
 		border-radius: var(--base-border-radius);
 		border: var(--classic-border);
+		background-color: var(--bg-surface);
 
 		.subnav-content {
 			border-radius: var(--base-border-radius);
@@ -190,16 +192,25 @@
 		z-index: 1234;
 	}
 
+	.main-subNavBtn-mobile {
+		background-color: var(--bg-surface);
+		border: none;
+		border-radius: var(--base-border-radius);
+	}
+
 	.navbar-blogs a:hover,
 	.subnav:hover .subNavBtn {
 		background-color: var(--accent);
+		color: var(--text-on-dark);
 		z-index: 1234;
 	}
 
 	.subnav-content {
 		display: none;
 		position: absolute;
-		background-color: var(--base-white-outline);
+		background-color: var(--bg-surface);
+		border: var(--classic-border);
+		box-shadow: var(--shadow-md);
 		flex-direction: column;
 		left: 100%;
 		z-index: 1234;
@@ -212,8 +223,8 @@
 	}
 
 	.subnav-content a:hover {
-		background-color: var(--base-white-outline);
-		color: var(--dark-gray);
+		background-color: var(--bg-elevated);
+		color: var(--text-primary);
 		z-index: 1234;
 	}
 
@@ -247,13 +258,17 @@
 
 	.navbar-blogs a:hover,
 	.main-subnav:hover .main-subNavBtn {
+		background-color: var(--accent);
+		color: var(--text-on-dark);
 		z-index: 1234;
 	}
 
 	.main-subnav-content {
 		display: none;
 		position: absolute;
-		background-color: var(--base-white-outline);
+		background-color: var(--bg-surface);
+		border: var(--classic-border);
+		box-shadow: var(--shadow-md);
 		flex-direction: column;
 		z-index: 1234;
 	}
@@ -265,8 +280,8 @@
 	}
 
 	.main-subnav-content a:hover {
-		background-color: var(--base-white-outline);
-		color: var(--dark-gray);
+		background-color: var(--bg-elevated);
+		color: var(--text-primary);
 		z-index: 1234;
 	}
 

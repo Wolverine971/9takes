@@ -126,26 +126,42 @@
 	.interact-text-container {
 		position: relative;
 		width: 100%;
-		height: 100px;
+		min-height: 100px;
 	}
 
 	.interact-textbox {
 		box-sizing: border-box;
+		display: block;
 		position: relative;
 		border-radius: var(--base-border-radius);
 		padding: 1rem;
 		width: 100%;
-		background-color: var(--medium-gray);
-		border: 1px solid var(--base-white-outline) !important;
+		min-height: 100px;
+		resize: vertical;
+		background-color: var(--bg-elevated);
+		border: 1px solid color-mix(in srgb, var(--text-tertiary) 30%, transparent) !important;
 		color: var(--text-primary);
+		caret-color: var(--accent);
+		transition:
+			background-color 0.2s ease,
+			border-color 0.2s ease,
+			box-shadow 0.2s ease;
 
 		&::placeholder {
-			color: var(--text-secondary);
+			color: var(--text-tertiary);
+		}
+
+		&:hover {
+			border-color: color-mix(in srgb, var(--accent) 25%, var(--bg-highlight));
 		}
 
 		&:focus {
 			outline: none !important;
-			box-shadow: 0 0 10px var(--accent);
+			background-color: var(--bg-surface);
+			border-color: color-mix(in srgb, var(--accent) 60%, var(--bg-highlight));
+			box-shadow:
+				0 0 0 3px color-mix(in srgb, var(--accent) 14%, transparent),
+				0 0 18px color-mix(in srgb, var(--accent) 20%, transparent);
 		}
 	}
 </style>
