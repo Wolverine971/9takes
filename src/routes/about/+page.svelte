@@ -588,10 +588,10 @@
 
 		&.bad {
 			background: var(--bg-surface);
-			border: 1px solid rgba(239, 68, 68, 0.5);
+			border: 1px solid color-mix(in srgb, var(--error) 50%, transparent);
 
 			h4 {
-				color: #f87171;
+				color: var(--error);
 			}
 			p {
 				color: var(--text-secondary);
@@ -600,10 +600,10 @@
 
 		&.good {
 			background: var(--bg-surface);
-			border: 1px solid rgba(16, 185, 129, 0.5);
+			border: 1px solid color-mix(in srgb, var(--success) 50%, transparent);
 
 			h4 {
-				color: #34d399;
+				color: var(--success-text);
 			}
 			p {
 				color: var(--text-secondary);

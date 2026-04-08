@@ -4,13 +4,13 @@ import {
 	buildQuestionCategoryPath,
 	buildQuestionCategorySlug
 } from '$lib/utils/questionCategorySlug';
-import { deleteESQuestion, elasticClient } from '$lib/server/elasticSearch';
 import {
 	buildVisibleQuestionCategoryTree,
 	listQuestionCategoriesWithDirectQuestions,
 	type QuestionCategoryRow,
 	type QuestionCategoryTagRow
 } from '$lib/server/questionCategoryTree';
+import { searchQuestionsTypeahead } from '$lib/server/questionSearch';
 import { z } from 'zod';
 
 import type { Actions } from './$types';
@@ -39,14 +39,6 @@ interface QuestionsPageData {
 	}>;
 	totalQuestions: number;
 	totalAnswers: number;
-}
-
-// Type for Elasticsearch hit source
-interface ESQuestionSource {
-	question: string;
-	url: string;
-	id: number;
-	comment_count: number;
 }
 
 // Validation schemas for admin actions
@@ -205,75 +197,30 @@ export const load: PageServerLoad = async (event) => {
 };
 
 export const actions: Actions = {
-	// Optimized search with single ES query
-	typeahead: async ({ request }) => {
+	typeahead: async ({ request, locals }) => {
 		try {
 			const body = Object.fromEntries(await request.formData());
-			const questionString = body.searchString as string;
+			const questionString = (body.searchString as string) || '';
 
 			if (!questionString || questionString.length < 2) {
 				return [];
 			}
 
-			// Single optimized Elasticsearch query
-			const {
-				hits: { hits }
-			} = await elasticClient.search({
-				index: 'question',
-				body: {
-					query: {
-						bool: {
-							should: [
-								{
-									match_phrase_prefix: {
-										question: {
-											query: questionString,
-											boost: 2
-										}
-									}
-								},
-								{
-									match: {
-										question: {
-											query: questionString,
-											fuzziness: 'AUTO',
-											boost: 1
-										}
-									}
-								}
-							]
-						}
-					},
-					highlight: {
-						fields: {
-							question: {
-								fragment_size: 150,
-								number_of_fragments: 1
-							}
-						}
-					},
-					size: 10,
-					_source: ['question', 'url', 'id', 'comment_count']
-				}
-			});
+			const results = await searchQuestionsTypeahead(locals.supabase, questionString, 10);
 
-			// Simplify the response structure to avoid complex serialization
-			const results = hits.map((hit) => {
-				const source = hit._source as ESQuestionSource;
+			return results.map((result) => {
 				return {
 					_source: {
-						question: source.question,
-						url: source.url,
-						id: source.id,
-						comment_count: source.comment_count,
-						highlighted: hit.highlight?.question?.[0] || source.question
+						question: result.question,
+						url: result.url,
+						id: result.id,
+						comment_count: result.comment_count,
+						highlighted: result.highlighted
 					}
 				};
 			});
-
-			return results;
 		} catch (e) {
-			// Error('Search error:', e);
+			console.error('Question typeahead action failed:', e);
 			return [];
 		}
 	},
@@ -383,16 +330,6 @@ export const actions: Actions = {
 				.eq('id', questionId);
 
 			if (!removeQuestionError) {
-				const { data: question } = await supabase
-					.from(demo_time === true ? 'questions_demo' : 'questions')
-					.select('es_id')
-					.eq('id', questionId)
-					.single();
-
-				if (question?.es_id) {
-					await deleteESQuestion({ questionId: question.es_id.toString() });
-				}
-
 				return { success: true };
 			} else {
 				throw error(500, 'Error removing question');

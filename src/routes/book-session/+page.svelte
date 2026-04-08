@@ -367,7 +367,7 @@
 							<div class="form-error" role="alert">{form.message}</div>
 						{/if}
 
-						<button type="submit" class="btn-primary" disabled={loading} aria-busy={loading}>
+						<button type="submit" class="btn-pill-primary" disabled={loading} aria-busy={loading}>
 							{loading ? 'Processing...' : 'Join the Waitlist'}
 						</button>
 
@@ -406,7 +406,7 @@
 						</p>
 
 						<div class="success-actions">
-							<a href="/enneagram-corner" class="btn-primary">Read the Guides</a>
+							<a href="/enneagram-corner" class="btn-pill-primary">Read the Guides</a>
 							<a href="#proof" class="text-link">See why this fits</a>
 						</div>
 					</div>
@@ -619,7 +619,7 @@
 			</div>
 
 			<div class="final-actions">
-				<a href="#top" class="btn-primary">Join the Waitlist</a>
+				<a href="#top" class="btn-pill-primary">Join the Waitlist</a>
 				<a href="/personality-analysis" class="text-link">Read Personality Analysis</a>
 			</div>
 		</section>
@@ -1005,49 +1005,11 @@
 
 	.form-error {
 		border-radius: 0.75rem;
-		border: 1px solid color-mix(in srgb, #ef4444 30%, transparent);
-		background: color-mix(in srgb, #ef4444 8%, transparent);
+		border: 1px solid color-mix(in srgb, var(--error) 30%, transparent);
+		background: var(--error-light);
 		padding: 0.75rem 1rem;
 		font-size: 0.9rem;
-		color: #fca5a5;
-	}
-
-	/* ── Buttons ── */
-
-	.btn-primary {
-		display: inline-flex;
-		align-items: center;
-		justify-content: center;
-		width: 100%;
-		border: none;
-		border-radius: 999px;
-		background: linear-gradient(135deg, var(--primary-dark) 0%, var(--primary-darker) 100%);
-		box-shadow:
-			var(--shadow-md),
-			0 0 20px color-mix(in srgb, var(--primary) 14%, transparent);
-		padding: 0.9rem 1.75rem;
-		font-size: 1rem;
-		font-weight: 700;
-		color: white;
-		text-decoration: none;
-		cursor: pointer;
-		transition:
-			transform 0.2s ease,
-			box-shadow 0.2s ease,
-			filter 0.2s ease;
-	}
-
-	.btn-primary:hover:not(:disabled) {
-		transform: translateY(-1px);
-		box-shadow:
-			var(--shadow-lg),
-			0 0 28px color-mix(in srgb, var(--primary) 22%, transparent);
-		filter: brightness(1.06);
-	}
-
-	.btn-primary:disabled {
-		cursor: not-allowed;
-		opacity: 0.6;
+		color: var(--error-text);
 	}
 
 	.panel-footnotes {
@@ -1070,7 +1032,7 @@
 	.success-icon {
 		display: flex;
 		justify-content: center;
-		color: #34d399;
+		color: var(--success-text);
 	}
 
 	.success-panel h2 {
@@ -1441,8 +1403,8 @@
 			align-items: center;
 		}
 
-		.success-actions .btn-primary,
-		.final-actions .btn-primary {
+		.success-actions .btn-pill-primary,
+		.final-actions .btn-pill-primary {
 			width: auto;
 		}
 	}

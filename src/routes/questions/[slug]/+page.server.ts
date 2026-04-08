@@ -3,7 +3,6 @@ import { supabase } from '$lib/supabase';
 
 import type { Actions, PageServerLoad } from './$types';
 import { error } from '@sveltejs/kit';
-import { addESComment, addESCommentLike, addESSubscription } from '$lib/server/elasticSearch';
 import { safelyExitWelcomeSequenceForCommentCreation } from '$lib/server/welcomeSequenceGuards';
 import { checkDemoTime } from '../../../utils/api';
 import { mapDemoValues } from '../../../utils/demo';
@@ -220,9 +219,7 @@ export const actions: Actions = {
 		}
 
 		const { body, demo_time } = await getRequestData(request);
-		const { parent_id, user_id, operation, es_id } = body;
-
-		await addESCommentLike({ commentId: es_id as string, operation: operation as string });
+		const { parent_id, user_id, operation } = body;
 
 		if (operation === 'add') {
 			return await addLike(parent_id as string, user_id as string);
@@ -238,9 +235,7 @@ export const actions: Actions = {
 		}
 
 		const { body, demo_time } = await getRequestData(request);
-		const { parent_id, user_id, es_id, operation } = body;
-
-		await addESSubscription({ questionId: es_id as string, operation: operation as string });
+		const { parent_id, user_id, operation } = body;
 
 		if (operation === 'add') {
 			return await addSubscription(parent_id as string, user_id as string, demo_time);
@@ -516,7 +511,6 @@ interface CommentData {
 	comment_count: number;
 	ip: string;
 	parent_type: string;
-	es_id: string | null;
 	fingerprint: string | null;
 }
 
@@ -530,22 +524,12 @@ async function createCommentData(
 	const parent_id = body.parent_id as string;
 	const author_id = body.author_id as string;
 	const parent_type = body.parent_type as string;
-	const es_id = body.es_id as string;
 	const fingerprint = body.fingerprint as string;
 
 	// Parse URLs in background - don't block comment creation on external HTTP fetch
 	parseUrls(comment, question_id).catch((err) => {
 		console.error('Background URL parsing failed:', err);
 	});
-
-	// Create ES comment in background - don't block response
-	let esId: string | null = null;
-	if (!demo_time) {
-		// Fire and forget - ES indexing happens in background
-		createESComment(parent_type, es_id, author_id, comment, ip).catch((err) => {
-			console.error('Background ES indexing failed:', err);
-		});
-	}
 
 	return {
 		comment,
@@ -554,32 +538,8 @@ async function createCommentData(
 		comment_count: 0,
 		ip,
 		parent_type,
-		es_id: esId,
 		fingerprint: fingerprint || null
 	};
-}
-
-async function createESComment(
-	parent_type: string,
-	es_id: string,
-	author_id: string,
-	comment: string,
-	ip: string
-): Promise<string | null> {
-	try {
-		const resp = await addESComment({
-			index: parent_type,
-			parentId: es_id,
-			enneaType: '',
-			authorId: author_id.toString(),
-			comment,
-			ip
-		});
-		return (resp as { _id: string } | null)?._id ?? null;
-	} catch (err) {
-		console.error('Error creating ES comment:', err);
-		return null;
-	}
 }
 
 async function handleCommentCreation(
@@ -611,8 +571,7 @@ async function handleCommentCreation(
 		p_author_id: commentData.author_id || null,
 		p_parent_type: parent_type,
 		p_fingerprint: commentData.fingerprint || null,
-		p_ip: commentData.ip,
-		p_es_id: commentData.es_id || null
+		p_ip: commentData.ip
 	});
 
 	if (rpcError) {

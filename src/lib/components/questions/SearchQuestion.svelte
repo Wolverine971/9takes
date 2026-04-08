@@ -446,7 +446,8 @@
 	}
 
 	/* Highlighted text in search results */
-	:global(.search-container .combo-list em) {
+	:global(.search-container .combo-list em),
+	:global(.search-container .combo-list mark) {
 		font-style: normal;
 		font-weight: 600;
 		color: var(--primary-lighter);

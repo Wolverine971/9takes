@@ -1,25 +1,24 @@
 <!-- src/routes/+page.svelte -->
+<!-- Home: "Do you know about the Enneagram?" decision-fork landing page. -->
 <script lang="ts">
 	import { onMount, tick } from 'svelte';
-	import { fly, fade } from 'svelte/transition';
+	import { fly } from 'svelte/transition';
 	import { browser } from '$app/environment';
 	import {
 		buildPersonalityAnalysisPath,
 		buildPersonalityImagePath,
 		formatPersonalityDisplayName
 	} from '$lib/utils/personalityAnalysis';
-	import { buildBreadcrumbSchemaForGraph, buildFAQSchemaForGraph } from '$lib/utils/schema';
+	import { buildBreadcrumbSchemaForGraph } from '$lib/utils/schema';
 	import type { PageData } from './$types';
-	import type { FamousPerson } from './+page.server';
-	import EnneagramDiagram from '$lib/components/blog/EnneagramDiagram.svelte';
 	import { ENNEAGRAM_TYPE_COLORS } from '$lib/constants/enneagramColors';
 
 	let { data }: { data: PageData } = $props();
-	let innerWidth = $state(0);
 	let observer: IntersectionObserver | null = null;
-	let sectionsVisible = $state(Array(5).fill(browser ? false : true));
+	// Funnel sections after the fork: give-first, qotd, blogs, famous, coaching, final
+	let sectionsVisible = $state(Array(6).fill(browser ? false : true));
 
-	// Emotional stance phrases per type (colors + names come from shared constants)
+	// Emotional stance phrases per type
 	const stancePhrases: Record<number, string> = {
 		1: 'internalizes anger',
 		2: 'represses shame',
@@ -42,83 +41,75 @@
 		])
 	);
 
-	// The Three Pillars — mapped to Enneagram intelligence triads
-	const pillars = [
+	// "No" path — three quick reads to get someone up to speed on the Enneagram
+	const noPathBlogs = [
 		{
-			icon: '◉',
-			title: 'See It Coming',
-			triad: 'Head Center',
-			types: '5, 6, 7',
-			color: 'var(--pillar-head)',
-			description:
-				"Most bad outcomes aren't from stupidity — they're from blind spots. Your blind spot is someone else's obvious.",
-			tagline: "Reveal what you're missing",
-			link: '/questions'
+			url: '/enneagram-corner/beginners-guide-to-determining-your-enneagram-type',
+			title: "Beginner's Guide",
+			subtitle: 'Find your type, step by step.'
 		},
 		{
-			icon: '⚡',
-			title: 'Know What To Do',
-			triad: 'Gut Center',
-			types: '8, 9, 1',
-			color: 'var(--pillar-gut)',
-			description:
-				'Personality insight is useless if it stays abstract. We turn understanding into the actual move.',
-			tagline: 'Equip yourself to act',
-			link: '/how-to-guides'
+			url: '/enneagram-corner/enneagram-tldr',
+			title: 'Enneagram TL;DR',
+			subtitle: 'Five-minute crash course.'
 		},
 		{
-			icon: '◈',
-			title: 'Feel Understood',
-			triad: 'Heart Center',
-			types: '2, 3, 4',
-			color: 'var(--pillar-heart)',
-			description:
-				"Your reaction isn't broken — it's one of 9 valid emotional realities. Every type's response makes sense.",
-			tagline: 'Connect through understanding',
-			link: '/personality-analysis'
+			url: '/enneagram-corner/enneagram-test-comparison-2025',
+			title: 'Which Test Should You Take?',
+			subtitle: 'We compared the popular ones.'
 		}
 	];
 
+	// Blog category cards — each is a whole library, not a single post.
+	const blogCategories = [
+		{
+			label: 'The Takes of 9takes',
+			href: '/community',
+			icon: 'bubbles' as const,
+			desc: 'Essays on how minds change, why groupthink wins online, and what 9takes is trying to fix.',
+			peeks: [
+				'How minds actually change — and how they don\u2019t',
+				'Why Reddit can\u2019t give you real answers',
+				'MBTI vs. Enneagram: what holds up',
+				'The philosophy behind "9 ways to see it"'
+			],
+			count: '20+ essays'
+		},
+		{
+			label: 'Enneagram Corner',
+			href: '/enneagram-corner',
+			icon: 'nonagon' as const,
+			desc: 'The biggest section. Type-by-type breakdowns and the full system in plain English.',
+			peeks: [
+				'Each type, up close (all 9)',
+				'Dating, compatibility, attachment styles',
+				'Anxiety, depression, and ADHD by type',
+				'The criticisms, the history, the honest take'
+			],
+			count: '80+ deep-dives'
+		},
+		{
+			label: 'How-to Guides',
+			href: '/how-to-guides',
+			icon: 'checklist' as const,
+			desc: 'Tactical playbooks for the moments where personality theory has to meet real life.',
+			peeks: [
+				'Relationship conflict, start to finish',
+				'How to actually read people',
+				'Productivity systems tuned to your type',
+				'The emotions crash course school skipped'
+			],
+			count: '15+ playbooks'
+		}
+	];
+
+	// SEO / structured data
 	const siteUrl = 'https://9takes.com';
 	const organizationId = `${siteUrl}/#organization`;
 	const websiteId = `${siteUrl}/#website`;
 	const webpageId = `${siteUrl}/#webpage`;
 	const founderId = `${siteUrl}/about/#person`;
 	const breadcrumbId = `${siteUrl}/#breadcrumb`;
-	const faqId = `${siteUrl}/#faq`;
-
-	const faqItems = [
-		{
-			question: 'What is 9takes?',
-			answer:
-				"It's a place to see how nine personality types react to the same situation. One question, nine takes — so you stop assuming everyone thinks the way you do."
-		},
-		{
-			question: 'How does the give-first system work?',
-			answer:
-				"You share your take before you see anyone else's. That way your real reaction goes on the record instead of whatever the crowd already said. Then you get to compare it against nine other perspectives."
-		},
-		{
-			question: 'What is the Enneagram, in plain English?',
-			answer:
-				"Nine different ways people deal with anger, fear, and shame. It's less about what you do and more about why you do it."
-		},
-		{
-			question: 'Who is 9takes for?',
-			answer:
-				"Curious people. If you're into personality, the Enneagram, or just figuring out why people act the way they do, you'll feel at home here. We're building a community that actually wants to see every side of a situation instead of picking one and digging in."
-		},
-		{
-			question: 'What kind of topics do you cover on 9takes?',
-			answer:
-				"Mostly the messy human stuff — conflict, dating, work dynamics, family, and self-awareness. Anywhere people get stuck reading each other, that's where we dig in."
-		},
-		{
-			question: 'Is 9takes a medical or clinical authority?',
-			answer:
-				"No. We write about personality patterns and offer coaching, but we're not therapists or doctors. If you need clinical care, see a licensed professional."
-		}
-	];
 
 	const homepageStructuredData = {
 		'@context': 'https://schema.org',
@@ -197,10 +188,6 @@
 			{
 				'@id': breadcrumbId,
 				...buildBreadcrumbSchemaForGraph([{ name: 'Home', url: siteUrl }])
-			},
-			{
-				'@id': faqId,
-				...buildFAQSchemaForGraph(faqItems)
 			}
 		]
 	};
@@ -211,7 +198,7 @@
 
 	function setupIntersectionObserver() {
 		if (!browser || typeof IntersectionObserver === 'undefined') {
-			sectionsVisible = Array(5).fill(true);
+			sectionsVisible = Array(6).fill(true);
 			return;
 		}
 
@@ -243,14 +230,8 @@
 			setupIntersectionObserver();
 		});
 
-		const handleResize = () => {
-			innerWidth = window.innerWidth;
-		};
-		window.addEventListener('resize', handleResize, { passive: true });
-
 		return () => {
 			observer?.disconnect();
-			window.removeEventListener('resize', handleResize);
 		};
 	});
 </script>
@@ -307,94 +288,329 @@
 	{@html `<script type="application/ld+json">${JSON.stringify(homepageStructuredData)}</script>`}
 </svelte:head>
 
-<svelte:window bind:innerWidth />
-
 <div class="sl-page">
-	<!-- Background layers -->
 	<div class="bg-void"></div>
 	<div class="bg-ambient"></div>
 	<div class="bg-grid"></div>
 
 	<main class="content">
-		<!-- ========== HERO SECTION ========== -->
-		<section class="hero" in:fly={getTransition()}>
-			<div class="hero-inner">
-				<!-- Tagline badge -->
-				<div class="tagline-badge" in:fade={{ delay: 200, duration: 400 }}>
-					<span class="badge-glow"></span>
-					<span class="badge-text">One situation, 9 ways to see it</span>
+		<!-- ========== MOBILE FORK SECTION (mobile only) ========== -->
+		<section class="mobile-fork-section mobile-only" in:fly={getTransition()}>
+			<header class="mobile-fork-header">
+				<div class="section-badge accent">
+					<span class="badge-dot"></span>
+					<span>START HERE</span>
 				</div>
+				<h1 class="mobile-fork-h1">Do you know about<br />the Enneagram?</h1>
+			</header>
 
-				<h1 class="hero-title">
-					<span class="title-line">See the</span>
-					<span class="title-glow">Emotions Behind</span>
-					<span class="title-line">Every Take</span>
-				</h1>
+			<!-- Branching tree visual: root → trunk → split → drops -->
+			<div class="mfork-tree" aria-hidden="true">
+				<span class="tree-root"></span>
+				<span class="tree-trunk"></span>
+				<span class="tree-cross"></span>
+				<span class="tree-drop tree-drop-no"></span>
+				<span class="tree-drop tree-drop-yes"></span>
+			</div>
 
-				<p class="hero-desc">
-					See what you're missing. Know what to do about it. Feel understood along the way.
+			<!-- Pills row aligned with each path -->
+			<div class="mfork-labels">
+				<span class="label-pill no-pill">NO</span>
+				<span class="label-pill yes-pill">YES</span>
+			</div>
+
+			<!-- Twin columns: NO holds the basics, YES is just an intro before expanding -->
+			<div class="mfork-cols">
+				<article class="mfork-col no-col">
+					<h2 class="mfork-col-title">Start with the basics</h2>
+					<p class="mfork-col-sub">Three quick reads.</p>
+					<ol class="mfork-links">
+						{#each noPathBlogs as blog, i}
+							<li>
+								<a href={blog.url}>
+									<span class="link-num">{(i + 1).toString().padStart(2, '0')}</span>
+									<span class="link-text">
+										<span class="link-title">{blog.title}</span>
+										<span class="link-sub">{blog.subtitle}</span>
+									</span>
+								</a>
+							</li>
+						{/each}
+					</ol>
+					<div class="no-end">
+						<span class="end-mark" aria-hidden="true">×</span>
+						<span>Come back when you know your type.</span>
+					</div>
+				</article>
+
+				<article class="mfork-col yes-col">
+					<div class="yes-card">
+						<h2 class="mfork-col-title">9takes is your place</h2>
+						<p class="mfork-col-tease">Like Reddit — with personality types on every reply.</p>
+					</div>
+					<div class="yes-trail" aria-hidden="true">
+						<span class="trail-line"></span>
+					</div>
+				</article>
+			</div>
+
+			<!-- YES path takes over the full width -->
+			<div class="mfork-takeover">
+				<span class="takeover-bridge" aria-hidden="true"></span>
+				<p class="takeover-headline">
+					<em>Reddit — but every comment is tagged with the writer's Enneagram type.</em>
 				</p>
-			</div>
-
-			<!-- Daily Quest Card -->
-			<a href={`/questions/${data.questionOfTheDay?.url}`} class="quest-card">
-				<div class="quest-header">
-					<div class="quest-badge">
-						<span class="quest-icon">!</span>
-						<span class="quest-label">TODAY'S QUESTION</span>
-					</div>
-					<div class="quest-responses">
-						<span class="response-count">{data.questionOfTheDay?.comment_count || 0}</span>
-						<span class="response-label">responses</span>
-					</div>
+				<p class="takeover-body">
+					One question. Nine emotional lenses. You stop assuming everyone reacts the way you do —
+					and start seeing situations through eyes that work nothing like yours.
+				</p>
+				<div class="takeover-cta">
+					<span class="cta-label">Keep scrolling</span>
+					<span class="cta-arrow" aria-hidden="true">↓</span>
 				</div>
-
-				<h2 class="quest-title">
-					{data.questionOfTheDay ? data.questionOfTheDay.question_formatted : 'Loading...'}
-				</h2>
-
-				<div class="quest-cta">
-					<span class="cta-text">Give Your Take</span>
-					<span class="cta-arrow">→</span>
-				</div>
-			</a>
-
-			<!-- Secondary actions -->
-			<div class="hero-actions">
-				<a href="/questions" class="btn-system">Browse All Questions</a>
 			</div>
-
-			<p class="hero-note">Free to join. No personality test required.</p>
 		</section>
 
-		<!-- ========== THREE PILLARS ========== -->
+		<!-- ========== DESKTOP FORK SECTION (desktop only) ========== -->
+		<section class="fork-section desktop-only" in:fly={getTransition()}>
+			<header class="fork-header">
+				<div class="section-badge accent">
+					<span class="badge-dot"></span>
+					<span>START HERE</span>
+				</div>
+				<h1 class="fork-h1">Do you know about the Enneagram?</h1>
+			</header>
+
+			<div class="fork-tree" aria-hidden="true">
+				<div class="line trunk"></div>
+				<div class="line crossbar"></div>
+				<div class="line drop drop-no"></div>
+				<div class="line drop drop-yes"></div>
+			</div>
+
+			<div class="fork-grid">
+				<article class="branch branch-no">
+					<span class="branch-label no-label">NO</span>
+					<h2 class="branch-title">Start with the basics</h2>
+					<p class="branch-intro">Three quick reads to get you up to speed.</p>
+					<ul class="branch-links">
+						{#each noPathBlogs as blog}
+							<li>
+								<a href={blog.url} class="branch-link">
+									<span class="branch-link-title">{blog.title}</span>
+									<span class="branch-link-sub">{blog.subtitle}</span>
+								</a>
+							</li>
+						{/each}
+					</ul>
+					<div class="branch-end">
+						<span class="terminus-dot" aria-hidden="true"></span>
+						<span class="terminus-text">Come back when you know your type.</span>
+					</div>
+				</article>
+
+				<article class="branch branch-yes">
+					<span class="branch-label yes-label">YES</span>
+					<h2 class="branch-title">Then 9takes is your kind of place</h2>
+					<p class="branch-tagline">
+						<em>Think Reddit — but every comment is tagged with the commenter's Enneagram type.</em>
+					</p>
+					<p class="branch-body">
+						One question, nine emotional lenses. So you stop assuming everyone reacts the way you do
+						— and start seeing situations through eyes that work nothing like yours.
+					</p>
+				</article>
+			</div>
+
+			<div class="fork-merge" aria-hidden="true">
+				<div class="line merge-down-yes"></div>
+				<div class="line merge-horizontal"></div>
+				<div class="line merge-into-trunk"></div>
+				<div class="merge-node"></div>
+			</div>
+		</section>
+
+		<!-- ========== GIVE-FIRST MECHANIC ========== -->
 		<div class="section-observer">
 			{#if sectionsVisible[0] || !browser}
-				<section class="section pillars-section" in:fly={getTransition()}>
+				<section class="section funnel-section" in:fly={getTransition()}>
 					<header class="section-header">
 						<div class="section-badge accent">
 							<span class="badge-dot"></span>
-							<span>WHY 9TAKES EXISTS</span>
+							<span>HOW IT WORKS</span>
 						</div>
-						<h2 class="section-title">Every Person Wants 3 Things</h2>
+						<h2 class="section-title">Give first. Then see the rest.</h2>
 						<p class="section-desc">
-							These map to the 3 types of human intelligence the Enneagram reveals.
+							Every other comment section rewards the loudest voice in the room. Ours does the
+							opposite — it captures your honest reaction <em>before</em> the crowd has a chance to shape
+							it.
 						</p>
 					</header>
 
-					<div class="pillars-grid">
-						{#each pillars as pillar}
-							<a href={pillar.link} class="pillar-card" style="--pillar-color: {pillar.color}">
-								<div class="pillar-bg"></div>
-								<div class="pillar-content">
-									<div class="pillar-icon">{pillar.icon}</div>
-									<div class="pillar-triad">
-										<span class="triad-label">{pillar.triad}</span>
-										<span class="triad-types">Types {pillar.types}</span>
+					<div class="give-first-row">
+						<div class="give-step">
+							<span class="step-num">1</span>
+							<h3>Answer before you see anything</h3>
+							<p>
+								You write your take first. No scrolling past other comments, no anchoring to the
+								loudest voice, no quietly copying whoever posted first.
+							</p>
+						</div>
+
+						<div class="give-step">
+							<span class="step-num">2</span>
+							<h3>Then see how each type answered</h3>
+							<p>
+								Every response is tagged with the commenter's Enneagram type. When a Type 8 lands
+								somewhere a Type 4 never would, you see <em>why</em> — not just <em>what</em>.
+							</p>
+						</div>
+
+						<div class="give-step give-step-why">
+							<span class="step-num">3</span>
+							<h3>What you get: answers you can actually trust</h3>
+							<p>
+								Most comment sections just echo whoever posted first. Ours don't — so we end up with
+								a library of honest reactions from real people. The kind of data you won't find
+								anywhere else online.
+							</p>
+						</div>
+					</div>
+				</section>
+			{/if}
+		</div>
+
+		<!-- ========== QUESTION OF THE DAY ========== -->
+		<div class="section-observer">
+			{#if sectionsVisible[1] || !browser}
+				<section class="section funnel-section" in:fly={getTransition()}>
+					<header class="section-header">
+						<div class="section-badge accent">
+							<span class="badge-dot"></span>
+							<span>BUILDING THE BASE</span>
+						</div>
+						<h2 class="section-title">Slowly, novel answer by novel answer</h2>
+						<p class="section-desc">
+							We're growing a base of unbiased takes from real people across all nine types. Here's
+							today's question.
+						</p>
+					</header>
+
+					{#if data.questionOfTheDay}
+						<div class="qotd-wrap">
+							<a href={`/questions/${data.questionOfTheDay.url}`} class="quest-card">
+								<div class="quest-header">
+									<div class="quest-badge">
+										<span class="quest-icon">!</span>
+										<span class="quest-label">TODAY'S QUESTION</span>
 									</div>
-									<h3 class="pillar-title">{pillar.title}</h3>
-									<p class="pillar-desc">{pillar.description}</p>
-									<span class="pillar-tagline">{pillar.tagline} →</span>
+									<div class="quest-responses">
+										<span class="response-count">{data.questionOfTheDay.comment_count || 0}</span>
+										<span class="response-label">responses</span>
+									</div>
+								</div>
+
+								<h3 class="quest-title">{data.questionOfTheDay.question_formatted}</h3>
+
+								<div class="quest-cta">
+									<span class="cta-text">Give Your Take</span>
+									<span class="cta-arrow">→</span>
+								</div>
+							</a>
+						</div>
+					{/if}
+				</section>
+			{/if}
+		</div>
+
+		<!-- ========== BLOGS ON THE ENNEAGRAM ========== -->
+		<div class="section-observer">
+			{#if sectionsVisible[2] || !browser}
+				<section class="section funnel-section" in:fly={getTransition()}>
+					<header class="section-header">
+						<div class="section-badge accent">
+							<span class="badge-dot"></span>
+							<span>DIG DEEPER</span>
+						</div>
+						<h2 class="section-title">We write a lot about the Enneagram</h2>
+						<p class="section-desc">
+							Type breakdowns, relationship dynamics, growth paths, communication patterns — all in
+							plain English.
+						</p>
+					</header>
+
+					<div class="blogs-grid">
+						{#each blogCategories as cat}
+							<a href={cat.href} class="blog-card">
+								<div class="blog-card-icon" aria-hidden="true">
+									{#if cat.icon === 'bubbles'}
+										<svg
+											viewBox="0 0 48 48"
+											fill="none"
+											stroke="currentColor"
+											stroke-width="2"
+											stroke-linecap="round"
+											stroke-linejoin="round"
+										>
+											<path
+												d="M8 12a4 4 0 0 1 4-4h24a4 4 0 0 1 4 4v16a4 4 0 0 1-4 4H22l-8 6v-6h-2a4 4 0 0 1-4-4z"
+											/>
+											<circle cx="18" cy="20" r="1.6" fill="currentColor" stroke="none" />
+											<circle cx="24" cy="20" r="1.6" fill="currentColor" stroke="none" />
+											<circle cx="30" cy="20" r="1.6" fill="currentColor" stroke="none" />
+										</svg>
+									{:else if cat.icon === 'nonagon'}
+										<svg
+											viewBox="0 0 48 48"
+											fill="none"
+											stroke="currentColor"
+											stroke-width="2"
+											stroke-linecap="round"
+											stroke-linejoin="round"
+										>
+											<circle cx="24" cy="24" r="18" />
+											<circle cx="24" cy="24" r="10" opacity="0.55" />
+											<circle cx="24" cy="6" r="1.8" fill="currentColor" stroke="none" />
+											<circle cx="36" cy="10" r="1.8" fill="currentColor" stroke="none" />
+											<circle cx="42" cy="21" r="1.8" fill="currentColor" stroke="none" />
+											<circle cx="40" cy="33" r="1.8" fill="currentColor" stroke="none" />
+											<circle cx="30" cy="41" r="1.8" fill="currentColor" stroke="none" />
+											<circle cx="18" cy="41" r="1.8" fill="currentColor" stroke="none" />
+											<circle cx="8" cy="33" r="1.8" fill="currentColor" stroke="none" />
+											<circle cx="6" cy="21" r="1.8" fill="currentColor" stroke="none" />
+											<circle cx="12" cy="10" r="1.8" fill="currentColor" stroke="none" />
+										</svg>
+									{:else if cat.icon === 'checklist'}
+										<svg
+											viewBox="0 0 48 48"
+											fill="none"
+											stroke="currentColor"
+											stroke-width="2"
+											stroke-linecap="round"
+											stroke-linejoin="round"
+										>
+											<rect x="9" y="6" width="30" height="36" rx="3" />
+											<path d="M15 16l3 3 6-6" />
+											<path d="M26 17h8" />
+											<path d="M15 28l3 3 6-6" />
+											<path d="M26 29h8" />
+											<path d="M15 37h14" />
+										</svg>
+									{/if}
+								</div>
+
+								<h3 class="blog-card-title">{cat.label}</h3>
+								<p class="blog-card-desc">{cat.desc}</p>
+
+								<ul class="blog-card-peek">
+									{#each cat.peeks as peek}
+										<li>{peek}</li>
+									{/each}
+								</ul>
+
+								<div class="blog-card-footer">
+									<span class="blog-card-count">{cat.count}</span>
+									<span class="blog-card-cta">Browse →</span>
 								</div>
 							</a>
 						{/each}
@@ -403,19 +619,19 @@
 			{/if}
 		</div>
 
-		<!-- ========== UNIFIED 9 TYPES SECTION ========== -->
+		<!-- ========== FAMOUS PEOPLE GRID ========== -->
 		<div class="section-observer">
-			{#if sectionsVisible[1] || !browser}
-				<section class="section types-section" in:fly={getTransition()}>
+			{#if sectionsVisible[3] || !browser}
+				<section class="section types-section funnel-section" in:fly={getTransition()}>
 					<header class="section-header">
 						<div class="section-badge accent">
 							<span class="badge-dot"></span>
-							<span>THE 9 PERSPECTIVES</span>
+							<span>SEE IT IN ACTION</span>
 						</div>
-						<h2 class="section-title">Master the 9 Types</h2>
+						<h2 class="section-title">We analyze famous people on purpose</h2>
 						<p class="section-desc">
-							Each personality type sees different details. Learn their patterns, decode people
-							faster.
+							Reading real people is the fastest way to understand yourself — and everyone around
+							you.
 						</p>
 					</header>
 
@@ -469,62 +685,17 @@
 					</div>
 
 					<div class="section-ctas">
-						<a
-							href="/enneagram-corner/beginners-guide-to-determining-your-enneagram-type"
-							class="btn-system"
-						>
-							Find Your Type →
-						</a>
 						<a href="/personality-analysis" class="btn-shadow">
-							<span>Explore All Famous Types</span>
+							<span>Browse All Famous Types</span>
 						</a>
 					</div>
 				</section>
 			{/if}
 		</div>
 
-		<!-- ========== WHY ENNEAGRAM ========== -->
+		<!-- ========== COACHING ========== -->
 		<div class="section-observer">
-			{#if sectionsVisible[2] || !browser}
-				<section class="feature-section" in:fly={getTransition()}>
-					<div class="feature-inner">
-						<h2 class="feature-title">
-							Why the <span class="text-glow">Enneagram</span>?
-						</h2>
-
-						<p class="feature-text">
-							Your brain defaults to <span class="text-system">one lens</span>, missing 8 others.
-							The Enneagram maps <strong>3 types of intelligence</strong> — Head (foresight), Gut (agency),
-							Heart (belonging) — across 9 personality types. Everyone leads with one. All 3 matter.
-						</p>
-
-						<!-- Interactive Enneagram Diagram -->
-						<div class="diagram-showcase">
-							<EnneagramDiagram size="lg" showLabels={true} interactive={true} />
-						</div>
-
-						<div class="feature-points">
-							<div class="point">
-								<span class="point-icon">▸</span>
-								<span>Not behavior. <strong>Motivation.</strong></span>
-							</div>
-							<div class="point">
-								<span class="point-icon">▸</span>
-								<span>Not stereotypes. <strong>Patterns.</strong></span>
-							</div>
-							<div class="point">
-								<span class="point-icon">▸</span>
-								<span>Not labels. <strong>Lenses.</strong></span>
-							</div>
-						</div>
-					</div>
-				</section>
-			{/if}
-		</div>
-
-		<!-- ========== COACHING SECTION ========== -->
-		<div class="section-observer">
-			{#if sectionsVisible[3] || !browser}
+			{#if sectionsVisible[4] || !browser}
 				<section class="section" in:fly={getTransition()}>
 					<div class="coaching-card">
 						<div class="coaching-glow"></div>
@@ -567,56 +738,10 @@
 			{/if}
 		</div>
 
-		<section class="prose-section founder-section">
-			<div class="founder-card">
-				<img
-					src="/brand/djface.webp"
-					alt="DJ Wayne"
-					class="founder-photo"
-					width="180"
-					height="180"
-					loading="lazy"
-					decoding="async"
-				/>
-				<div class="founder-content">
-					<div class="section-badge accent">
-						<span class="badge-dot"></span>
-						<span>ABOUT THE FOUNDER</span>
-					</div>
-					<h2>Built by DJ Wayne to make personality insight more practical</h2>
-					<p>
-						9takes was created by <a href="/about">DJ Wayne</a>, a former USMC infantry Marine
-						turned software entrepreneur. The site treats personality analysis as a tool for
-						understanding motive — not a shortcut for judging people — and combines Enneagram
-						education, practical guides, and public-figure analysis to help readers get better at
-						reading people and handling conflict.
-					</p>
-				</div>
-			</div>
-		</section>
-
-		<section class="prose-section faq-section" aria-labelledby="homepage-faq-title">
-			<div class="section-header prose-header">
-				<div class="section-badge accent">
-					<span class="badge-dot"></span>
-					<span>FAQ</span>
-				</div>
-				<h2 id="homepage-faq-title" class="section-title">Common Questions About 9takes</h2>
-			</div>
-			<div class="faq-grid">
-				{#each faqItems as faq}
-					<article class="faq-card">
-						<h3>{faq.question}</h3>
-						<p>{faq.answer}</p>
-					</article>
-				{/each}
-			</div>
-		</section>
-
 		<!-- ========== FINAL CTA ========== -->
 		{#if !data?.user}
 			<div class="section-observer">
-				{#if sectionsVisible[4] || !browser}
+				{#if sectionsVisible[5] || !browser}
 					<section class="final-section" in:fly={getTransition()}>
 						<div class="final-glow"></div>
 						<div class="final-inner">
@@ -647,41 +772,42 @@
 
 <style>
 	/* ==========================================
-	   CSS VARIABLES
+	   HOMEPAGE-SHADE VARIABLES
 	   ========================================== */
 	.sl-page {
-		/* Homepage-specific shades */
 		--void-shadow: var(--bg-base);
 		--void-umbra: var(--bg-deep);
 		--void-penumbra: var(--bg-surface);
 
-		/* Homepage-specific text shades */
 		--text-pale: var(--text-primary);
 		--text-mist: var(--text-secondary);
 		--text-faded: var(--text-muted);
 
-		/* Homepage-specific accent colors */
 		--shadow-flame: var(--primary);
 		--shadow-ethereal: var(--primary-light);
 		--shadow-deep: var(--primary-dark);
 
-		/* System */
 		--system-hologram: var(--secondary);
 		--system-stream: var(--secondary-light);
 		--system-deep: var(--secondary-dark);
 
-		/* Status */
 		--status-gold: var(--secondary);
 		--status-gold-bright: var(--secondary-light);
-		--status-success: var(--primary-dark);
 
-		/* Transitions */
 		--ease-out: cubic-bezier(0.4, 0, 0.2, 1);
+
+		/* Fork-specific tree variables */
+		--col-gap: 2rem;
+		--no-width: calc((100% - var(--col-gap)) / 3);
+		--no-center: calc(var(--no-width) / 2);
+		--yes-start: calc(var(--no-width) + var(--col-gap));
+		--yes-width: calc((100% - var(--col-gap)) * 2 / 3);
+		--yes-center: calc(var(--yes-start) + var(--yes-width) / 2);
+
+		--line-color: rgba(45, 212, 191, 0.55);
+		--line-glow: rgba(45, 212, 191, 0.35);
 	}
 
-	/* ==========================================
-	   BASE LAYOUT
-	   ========================================== */
 	.sl-page {
 		position: relative;
 		min-height: 100vh;
@@ -699,16 +825,13 @@
 		padding: 0 1rem;
 	}
 
-	/* ==========================================
-	   BACKGROUNDS
-	   ========================================== */
+	/* Background layers */
 	.bg-void {
 		position: fixed;
 		inset: 0;
 		background: var(--bg-base);
 		z-index: 0;
 	}
-
 	.bg-ambient {
 		position: fixed;
 		inset: 0;
@@ -718,7 +841,6 @@
 		z-index: 1;
 		pointer-events: none;
 	}
-
 	.bg-grid {
 		position: fixed;
 		inset: 0;
@@ -730,336 +852,279 @@
 		pointer-events: none;
 	}
 
-	/* ==========================================
-	   TEXT UTILITIES
-	   ========================================== */
 	.text-glow {
 		color: var(--shadow-flame);
 		text-shadow: 0 0 20px rgba(167, 139, 250, 0.5);
 	}
 
-	.text-system {
-		color: var(--system-hologram);
-		text-shadow: 0 0 15px rgba(96, 165, 250, 0.5);
-	}
-
 	/* ==========================================
-	   HERO SECTION
+	   FORK SECTION
 	   ========================================== */
-	.hero {
-		min-height: 100vh;
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		justify-content: center;
-		padding: 5rem 0 3rem;
+	.fork-section {
+		padding: 5rem 0 1rem;
 		text-align: center;
 	}
 
-	.hero-inner {
-		max-width: 700px;
-		margin-bottom: 2rem;
-	}
-
-	.tagline-badge {
-		position: relative;
-		display: inline-flex;
-		align-items: center;
-		padding: 0.5rem 1rem;
-		background: linear-gradient(135deg, rgba(45, 212, 191, 0.1) 0%, rgba(251, 113, 133, 0.1) 100%);
-		border: 1px solid rgba(45, 212, 191, 0.2);
-		border-radius: 6px;
-		margin-bottom: 1.5rem;
-		overflow: hidden;
-	}
-
-	.badge-glow {
-		position: absolute;
-		inset: 0;
-		background: radial-gradient(circle at 50% 50%, rgba(45, 212, 191, 0.2) 0%, transparent 70%);
-		animation: badge-pulse 3s ease-in-out infinite;
-	}
-
-	@keyframes badge-pulse {
-		0%,
-		100% {
-			opacity: 0.5;
-		}
-		50% {
-			opacity: 1;
-		}
-	}
-
-	.badge-text {
-		position: relative;
-		font-family: var(--font-mono);
-		font-size: 0.75rem;
-		font-weight: 500;
-		color: var(--shadow-ethereal);
-		letter-spacing: 0.05em;
-	}
-
-	.hero-title {
-		font-family: var(--font-display);
-		font-size: clamp(2.5rem, 8vw, 4.5rem);
-		font-weight: 700;
-		line-height: 1.1;
-		margin-bottom: 1rem;
-	}
-
-	.title-line {
-		display: block;
-		color: var(--text-pale);
-	}
-
-	.title-glow {
-		display: block;
-		background: linear-gradient(135deg, var(--primary) 0%, var(--secondary) 100%);
-		-webkit-background-clip: text;
-		-webkit-text-fill-color: transparent;
-		background-clip: text;
-		filter: drop-shadow(0 0 30px rgba(45, 212, 191, 0.4));
-	}
-
-	.hero-desc {
-		font-size: clamp(1rem, 2vw, 1.125rem);
-		color: var(--text-mist);
-		max-width: 500px;
+	.fork-header {
+		max-width: 760px;
 		margin: 0 auto;
-		line-height: 1.6;
 	}
 
-	/* Quest Card */
-	.quest-card {
-		display: block;
-		width: 100%;
-		max-width: 600px;
-		padding: 1.5rem;
-		background: linear-gradient(180deg, var(--void-shadow) 0%, var(--void-umbra) 100%);
-		border: 1px solid rgba(45, 212, 191, 0.2);
-		border-radius: 16px;
-		margin-bottom: 1.5rem;
-		text-decoration: none;
-		box-shadow:
-			0 0 40px rgba(45, 212, 191, 0.1),
-			inset 0 1px 0 rgba(45, 212, 191, 0.1);
-		transition: all 300ms var(--ease-out);
-	}
-
-	.quest-card:hover {
-		border-color: rgba(45, 212, 191, 0.4);
-		box-shadow:
-			0 0 60px rgba(45, 212, 191, 0.2),
-			inset 0 1px 0 rgba(45, 212, 191, 0.15);
-		transform: translateY(-4px);
-	}
-
-	.quest-header {
-		display: flex;
-		justify-content: space-between;
-		align-items: center;
-		margin-bottom: 1rem;
-	}
-
-	.quest-badge {
-		display: flex;
-		align-items: center;
-		gap: 0.5rem;
-	}
-
-	.quest-icon {
-		display: flex;
-		align-items: center;
-		justify-content: center;
-		width: 1.5rem;
-		height: 1.5rem;
-		background: color-mix(in srgb, var(--primary-subtle) 70%, var(--bg-deep));
-		border: 1px solid color-mix(in srgb, var(--primary) 24%, transparent);
-		color: var(--shadow-flame);
-		border-radius: 4px;
-		box-shadow: var(--glow-sm);
+	.fork-h1 {
+		font-family: var(--font-display);
+		font-size: clamp(2rem, 5.5vw, 3.25rem);
 		font-weight: 700;
-		font-size: 0.9rem;
+		line-height: 1.15;
+		color: var(--text-pale);
+		margin: 1rem 0 0;
 	}
 
-	.quest-label {
+	/* ----- Top tree connector (trunk + crossbar + drops) ----- */
+	.fork-tree {
+		position: relative;
+		height: 90px;
+		margin-top: 1.25rem;
+	}
+
+	.line {
+		position: absolute;
+		background: var(--line-color);
+		box-shadow: 0 0 10px var(--line-glow);
+		border-radius: 1px;
+	}
+
+	.trunk {
+		top: 0;
+		left: 50%;
+		width: 2px;
+		height: 36px;
+		transform: translateX(-1px);
+	}
+
+	.crossbar {
+		top: 36px;
+		left: var(--no-center);
+		right: calc(100% - var(--yes-center));
+		height: 2px;
+	}
+
+	.drop {
+		top: 36px;
+		width: 2px;
+		height: 54px;
+	}
+
+	.drop-no {
+		left: var(--no-center);
+		transform: translateX(-1px);
+	}
+
+	.drop-yes {
+		left: var(--yes-center);
+		transform: translateX(-1px);
+	}
+
+	/* ----- Branches grid ----- */
+	.fork-grid {
+		display: grid;
+		grid-template-columns: 1fr 2fr;
+		gap: var(--col-gap);
+		align-items: stretch;
+	}
+
+	.branch {
+		position: relative;
+		text-align: left;
+		padding: 1.75rem 1.5rem;
+		background: linear-gradient(180deg, var(--void-shadow) 0%, var(--void-umbra) 100%);
+		border: 1px solid rgba(45, 212, 191, 0.18);
+		border-radius: 16px;
+		box-shadow:
+			0 0 30px rgba(45, 212, 191, 0.06),
+			inset 0 1px 0 rgba(45, 212, 191, 0.08);
+	}
+
+	.branch-no {
+		align-self: start;
+		border-color: rgba(251, 113, 133, 0.22);
+		box-shadow:
+			0 0 30px rgba(251, 113, 133, 0.06),
+			inset 0 1px 0 rgba(251, 113, 133, 0.08);
+	}
+
+	.branch-yes {
+		border-color: rgba(45, 212, 191, 0.28);
+	}
+
+	.branch-label {
+		display: inline-block;
 		font-family: var(--font-mono);
 		font-size: 0.7rem;
-		font-weight: 600;
-		color: var(--shadow-flame);
-		letter-spacing: 0.08em;
+		font-weight: 700;
+		letter-spacing: 0.15em;
+		padding: 0.3rem 0.65rem;
+		border-radius: 4px;
+		margin-bottom: 0.85rem;
 	}
 
-	.quest-responses {
-		display: flex;
-		align-items: baseline;
-		gap: 0.3rem;
-		font-family: var(--font-mono);
-		font-size: 0.75rem;
-		color: var(--text-mist);
-	}
-
-	.response-count {
+	.no-label {
+		background: rgba(251, 113, 133, 0.12);
 		color: var(--system-hologram);
-		font-weight: 600;
+		border: 1px solid rgba(251, 113, 133, 0.28);
 	}
 
-	.quest-title {
+	.yes-label {
+		background: rgba(45, 212, 191, 0.12);
+		color: var(--shadow-flame);
+		border: 1px solid rgba(45, 212, 191, 0.32);
+	}
+
+	.branch-title {
 		font-family: var(--font-display);
-		font-size: clamp(1.125rem, 3vw, 1.5rem);
-		font-weight: 600;
+		font-size: clamp(1.2rem, 2.4vw, 1.6rem);
+		font-weight: 700;
 		color: var(--text-pale);
-		line-height: 1.35;
-		margin-bottom: 1rem;
-		text-align: left;
+		margin: 0 0 0.65rem;
+		line-height: 1.25;
 	}
 
-	.quest-cta {
+	.branch-intro,
+	.branch-tagline,
+	.branch-body {
+		color: var(--text-mist);
+		line-height: 1.6;
+		margin: 0 0 1rem;
+	}
+
+	.branch-tagline em {
+		color: var(--shadow-ethereal);
+		font-style: italic;
+	}
+
+	.branch-links {
+		list-style: none;
+		padding: 0;
+		margin: 1rem 0 1.25rem;
 		display: flex;
-		align-items: center;
-		justify-content: center;
-		gap: 0.5rem;
-		padding: 0.75rem;
-		border: 1px solid color-mix(in srgb, var(--primary) 24%, transparent);
-		background: linear-gradient(135deg, var(--primary-dark) 0%, var(--primary) 100%);
-		border-radius: 8px;
+		flex-direction: column;
+		gap: 0.6rem;
+	}
+
+	.branch-link {
+		display: block;
+		padding: 0.85rem 1rem;
+		border-radius: 10px;
+		background: color-mix(in srgb, var(--bg-deep) 70%, transparent);
+		border: 1px solid rgba(251, 113, 133, 0.18);
+		text-decoration: none;
+		transition: all 200ms var(--ease-out);
+	}
+
+	.branch-link:hover {
+		border-color: rgba(251, 113, 133, 0.45);
+		background: color-mix(in srgb, var(--bg-deep) 60%, transparent);
+		transform: translateX(2px);
+		box-shadow: 0 0 20px rgba(251, 113, 133, 0.12);
+	}
+
+	.branch-link-title {
+		display: block;
 		font-family: var(--font-display);
 		font-size: 0.95rem;
 		font-weight: 600;
-		color: var(--text-on-primary);
-		box-shadow: var(--glow-sm);
-		transition:
-			transform 200ms ease,
-			box-shadow 200ms ease,
-			background 200ms ease,
-			border-color 200ms ease;
+		color: var(--text-pale);
 	}
 
-	.cta-arrow {
-		transition: transform 200ms ease;
-	}
-
-	.quest-card:hover .quest-cta {
-		border-color: color-mix(in srgb, var(--primary) 32%, transparent);
-		background: linear-gradient(135deg, var(--primary) 0%, var(--primary-light) 100%);
-		box-shadow: var(--glow-md);
-	}
-
-	.quest-card:hover .cta-arrow {
-		transform: translateX(4px);
-	}
-
-	/* Hero Actions */
-	.hero-actions {
-		margin-bottom: 1rem;
-	}
-
-	.hero-note {
-		font-size: 0.85rem;
+	.branch-link-sub {
+		display: block;
+		font-size: 0.8rem;
 		color: var(--text-faded);
+		margin-top: 0.15rem;
 	}
 
-	/* ==========================================
-	   BUTTONS
-	   ========================================== */
-	.btn-shadow {
+	.branch-end {
+		display: flex;
+		align-items: center;
+		gap: 0.6rem;
+		margin-top: 1.25rem;
+		padding-top: 1rem;
+		border-top: 1px dashed rgba(251, 113, 133, 0.2);
+	}
+
+	.terminus-dot {
+		width: 10px;
+		height: 10px;
+		border-radius: 50%;
+		background: var(--system-hologram);
+		box-shadow: 0 0 12px rgba(251, 113, 133, 0.6);
+		flex-shrink: 0;
+	}
+
+	.terminus-text {
+		font-family: var(--font-mono);
+		font-size: 0.75rem;
+		color: var(--text-faded);
+		letter-spacing: 0.04em;
+	}
+
+	/* ----- Merge connector (yes branch → next full-width section) ----- */
+	.fork-merge {
 		position: relative;
-		display: inline-flex;
-		align-items: center;
-		justify-content: center;
-		padding: 0.875rem 1.75rem;
-		border: 1px solid color-mix(in srgb, var(--primary) 24%, transparent);
-		border-radius: 8px;
-		background: linear-gradient(135deg, var(--primary-dark) 0%, var(--primary) 100%);
-		font-family: var(--font-display);
-		font-size: 1rem;
-		font-weight: 600;
-		color: var(--text-on-primary);
-		text-decoration: none;
-		cursor: pointer;
-		overflow: hidden;
-		box-shadow: var(--glow-sm);
-		transition:
-			transform 250ms var(--ease-out),
-			box-shadow 250ms var(--ease-out),
-			background 250ms var(--ease-out),
-			border-color 250ms var(--ease-out);
+		height: 110px;
 	}
 
-	.btn-shadow:hover {
-		border-color: color-mix(in srgb, var(--primary) 32%, transparent);
-		background: linear-gradient(135deg, var(--primary) 0%, var(--primary-light) 100%);
-		box-shadow: var(--glow-md);
-		transform: translateY(-2px);
-	}
-
-	.btn-shadow.lg {
-		padding: 1rem 2rem;
-		font-size: 1.05rem;
-	}
-
-	.btn-shadow::after {
-		content: '';
-		position: absolute;
+	.merge-down-yes {
 		top: 0;
-		left: -100%;
-		width: 100%;
-		height: 100%;
-		background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.12), transparent);
-		transition: left 400ms ease;
+		left: var(--yes-center);
+		width: 2px;
+		height: 50px;
+		transform: translateX(-1px);
 	}
 
-	.btn-shadow:hover::after {
-		left: 100%;
+	.merge-horizontal {
+		top: 50px;
+		left: 50%;
+		right: calc(100% - var(--yes-center));
+		height: 2px;
 	}
 
-	.btn-system {
-		display: inline-flex;
-		align-items: center;
-		justify-content: center;
-		padding: 0.875rem 1.75rem;
-		background: color-mix(in srgb, var(--bg-deep) 88%, transparent);
-		border: 1px solid color-mix(in srgb, var(--text-tertiary) 25%, transparent);
-		border-radius: 8px;
-		font-family: var(--font-display);
-		font-size: 1rem;
-		font-weight: 600;
-		color: var(--text-secondary);
-		text-decoration: none;
-		cursor: pointer;
-		transition:
-			transform 250ms var(--ease-out),
-			box-shadow 250ms var(--ease-out),
-			background-color 250ms var(--ease-out),
-			border-color 250ms var(--ease-out),
-			color 250ms var(--ease-out);
+	.merge-into-trunk {
+		top: 50px;
+		left: 50%;
+		width: 2px;
+		height: 50px;
+		transform: translateX(-1px);
 	}
 
-	.btn-system:hover {
-		border-color: color-mix(in srgb, var(--primary) 35%, transparent);
-		background: var(--primary-subtle);
-		color: var(--primary);
-		box-shadow: var(--glow-sm);
-		transform: translateY(-2px);
-	}
-
-	.btn-shadow:focus-visible,
-	.btn-system:focus-visible,
-	.quest-card:focus-visible {
-		outline: 2px solid var(--primary);
-		outline-offset: 3px;
+	.merge-node {
+		position: absolute;
+		top: calc(100px - 6px);
+		left: 50%;
+		width: 12px;
+		height: 12px;
+		border-radius: 50%;
+		background: var(--shadow-flame);
+		box-shadow:
+			0 0 18px rgba(45, 212, 191, 0.7),
+			0 0 4px rgba(45, 212, 191, 0.9);
+		transform: translateX(-50%);
 	}
 
 	/* ==========================================
-	   SECTIONS
+	   FUNNEL SECTIONS (post-fork)
 	   ========================================== */
 	.section {
-		padding: 4rem 0;
+		padding: 3rem 0;
 	}
 
 	.section-header {
 		text-align: center;
-		margin-bottom: 2.5rem;
+		margin-bottom: 2rem;
+	}
+
+	.section-header em {
+		color: var(--shadow-ethereal);
+		font-style: italic;
 	}
 
 	.section-badge {
@@ -1098,7 +1163,7 @@
 
 	.section-title {
 		font-family: var(--font-display);
-		font-size: clamp(1.75rem, 4vw, 2.5rem);
+		font-size: clamp(1.6rem, 3.6vw, 2.25rem);
 		font-weight: 700;
 		color: var(--text-pale);
 		margin-bottom: 0.5rem;
@@ -1107,57 +1172,345 @@
 	.section-desc {
 		font-size: 1rem;
 		color: var(--text-mist);
-		max-width: 500px;
+		max-width: 580px;
+		margin: 0 auto;
+		line-height: 1.6;
+	}
+
+	/* ----- Give-first row ----- */
+	.give-first-row {
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+		gap: 1.25rem;
+		align-items: stretch;
+		max-width: 1000px;
 		margin: 0 auto;
 	}
 
-	.prose-section {
-		margin: 1rem 0 2rem;
-		padding: 2rem 0;
-	}
-
-	.prose-header {
+	.give-step {
+		position: relative;
+		display: flex;
+		flex-direction: column;
+		padding: 1.75rem 1.5rem;
+		background: linear-gradient(180deg, var(--void-shadow) 0%, var(--void-umbra) 100%);
+		border: 1px solid rgba(45, 212, 191, 0.18);
+		border-radius: 14px;
 		text-align: left;
-		max-width: 760px;
-		margin-bottom: 1.5rem;
 	}
 
-	.faq-grid {
+	.give-step-why {
+		border-color: rgba(45, 212, 191, 0.35);
+		background: linear-gradient(
+			180deg,
+			color-mix(in srgb, var(--primary) 6%, var(--void-shadow)) 0%,
+			var(--void-umbra) 100%
+		);
+		box-shadow:
+			0 0 30px rgba(45, 212, 191, 0.08),
+			inset 0 1px 0 rgba(45, 212, 191, 0.1);
+	}
+
+	.step-num {
+		display: inline-flex;
+		align-items: center;
+		justify-content: center;
+		width: 1.85rem;
+		height: 1.85rem;
+		background: color-mix(in srgb, var(--primary) 18%, var(--bg-deep));
+		border: 1px solid rgba(45, 212, 191, 0.4);
+		color: var(--shadow-flame);
+		border-radius: 6px;
+		font-family: var(--font-mono);
+		font-weight: 700;
+		font-size: 0.9rem;
+		margin-bottom: 0.85rem;
+	}
+
+	.give-step h3 {
+		font-family: var(--font-display);
+		font-size: 1.1rem;
+		line-height: 1.3;
+		color: var(--text-pale);
+		margin: 0 0 0.55rem;
+	}
+
+	.give-step p {
+		margin: 0;
+		font-size: 0.92rem;
+		color: var(--text-mist);
+		line-height: 1.55;
+	}
+
+	.give-step p em {
+		color: var(--shadow-ethereal);
+		font-style: italic;
+	}
+
+	/* ----- Question of the Day card ----- */
+	.qotd-wrap {
+		display: flex;
+		justify-content: center;
+	}
+
+	.quest-card {
+		display: block;
+		width: 100%;
+		max-width: 600px;
+		padding: 1.5rem;
+		background: linear-gradient(180deg, var(--void-shadow) 0%, var(--void-umbra) 100%);
+		border: 1px solid rgba(45, 212, 191, 0.2);
+		border-radius: 16px;
+		text-decoration: none;
+		box-shadow:
+			0 0 40px rgba(45, 212, 191, 0.1),
+			inset 0 1px 0 rgba(45, 212, 191, 0.1);
+		transition: all 300ms var(--ease-out);
+	}
+
+	.quest-card:hover {
+		border-color: rgba(45, 212, 191, 0.4);
+		box-shadow:
+			0 0 60px rgba(45, 212, 191, 0.2),
+			inset 0 1px 0 rgba(45, 212, 191, 0.15);
+		transform: translateY(-4px);
+	}
+
+	.quest-header {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		margin-bottom: 1rem;
+	}
+
+	.quest-badge {
+		display: flex;
+		align-items: center;
+		gap: 0.5rem;
+	}
+
+	.quest-icon {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		width: 1.5rem;
+		height: 1.5rem;
+		background: color-mix(in srgb, var(--primary-subtle) 70%, var(--bg-deep));
+		border: 1px solid color-mix(in srgb, var(--primary) 24%, transparent);
+		color: var(--shadow-flame);
+		border-radius: 4px;
+		font-weight: 700;
+		font-size: 0.9rem;
+	}
+
+	.quest-label {
+		font-family: var(--font-mono);
+		font-size: 0.7rem;
+		font-weight: 600;
+		color: var(--shadow-flame);
+		letter-spacing: 0.08em;
+	}
+
+	.quest-responses {
+		display: flex;
+		align-items: baseline;
+		gap: 0.3rem;
+		font-family: var(--font-mono);
+		font-size: 0.75rem;
+		color: var(--text-mist);
+	}
+
+	.response-count {
+		color: var(--system-hologram);
+		font-weight: 600;
+	}
+
+	.quest-title {
+		font-family: var(--font-display);
+		font-size: clamp(1.125rem, 3vw, 1.5rem);
+		font-weight: 600;
+		color: var(--text-pale);
+		line-height: 1.35;
+		margin: 0 0 1rem;
+		text-align: left;
+	}
+
+	.quest-cta {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		gap: 0.5rem;
+		padding: 0.75rem;
+		border: 1px solid color-mix(in srgb, var(--primary) 24%, transparent);
+		background: linear-gradient(135deg, var(--primary-dark) 0%, var(--primary) 100%);
+		border-radius: 8px;
+		font-family: var(--font-display);
+		font-size: 0.95rem;
+		font-weight: 600;
+		color: var(--text-on-primary);
+		transition:
+			transform 200ms ease,
+			box-shadow 200ms ease,
+			background 200ms ease;
+	}
+
+	.cta-arrow {
+		transition: transform 200ms ease;
+	}
+
+	.quest-card:hover .quest-cta {
+		background: linear-gradient(135deg, var(--primary) 0%, var(--primary-light) 100%);
+	}
+
+	.quest-card:hover .cta-arrow {
+		transform: translateX(4px);
+	}
+
+	/* ----- Blogs grid ----- */
+	.blogs-grid {
 		display: grid;
+		grid-template-columns: 1fr;
 		gap: 1rem;
 	}
 
-	.faq-card {
-		background: linear-gradient(180deg, var(--void-shadow) 0%, var(--void-umbra) 100%);
-		border: 1px solid rgba(45, 212, 191, 0.18);
-		border-radius: 16px;
-		padding: 1.35rem;
-		box-shadow: 0 0 0 1px rgba(45, 212, 191, 0.04);
-	}
-
-	.faq-card h3 {
-		padding: 0;
-		margin: 0 0 0.75rem;
-		font-family: var(--font-display);
-		font-size: 1.2rem;
-		color: var(--text-pale);
-	}
-
-	.faq-card p,
-	.founder-content p {
-		margin: 0;
-		color: var(--text-mist);
-		line-height: 1.7;
-	}
-
-	@media (min-width: 768px) {
-		.faq-grid {
-			grid-template-columns: repeat(2, 1fr);
+	@media (min-width: 720px) {
+		.blogs-grid {
+			grid-template-columns: repeat(3, 1fr);
 		}
 	}
 
+	.blog-card {
+		position: relative;
+		display: flex;
+		flex-direction: column;
+		gap: 0.75rem;
+		padding: 1.75rem 1.5rem;
+		background: linear-gradient(180deg, var(--void-shadow) 0%, var(--void-umbra) 100%);
+		border: 1px solid rgba(45, 212, 191, 0.18);
+		border-radius: 16px;
+		text-decoration: none;
+		overflow: hidden;
+		transition: all 240ms var(--ease-out);
+	}
+
+	.blog-card::before {
+		content: '';
+		position: absolute;
+		inset: 0;
+		background: radial-gradient(circle at 50% 0%, rgba(45, 212, 191, 0.1) 0%, transparent 55%);
+		opacity: 0;
+		transition: opacity 240ms ease;
+		pointer-events: none;
+	}
+
+	.blog-card:hover {
+		border-color: rgba(45, 212, 191, 0.42);
+		transform: translateY(-4px);
+		box-shadow: 0 0 40px rgba(45, 212, 191, 0.14);
+	}
+
+	.blog-card:hover::before {
+		opacity: 1;
+	}
+
+	.blog-card-icon {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		width: 3.25rem;
+		height: 3.25rem;
+		background: color-mix(in srgb, var(--primary) 10%, var(--bg-deep));
+		border: 1px solid rgba(45, 212, 191, 0.3);
+		border-radius: 12px;
+		color: var(--shadow-flame);
+		margin-bottom: 0.25rem;
+		box-shadow: inset 0 0 16px rgba(45, 212, 191, 0.12);
+	}
+
+	.blog-card-icon svg {
+		width: 1.9rem;
+		height: 1.9rem;
+	}
+
+	.blog-card:hover .blog-card-icon {
+		border-color: rgba(45, 212, 191, 0.55);
+		box-shadow: inset 0 0 16px rgba(45, 212, 191, 0.2);
+	}
+
+	.blog-card-title {
+		font-family: var(--font-display);
+		font-size: 1.2rem;
+		color: var(--text-pale);
+		margin: 0;
+		line-height: 1.25;
+	}
+
+	.blog-card-desc {
+		font-size: 0.9rem;
+		color: var(--text-mist);
+		margin: 0;
+		line-height: 1.5;
+	}
+
+	.blog-card-peek {
+		list-style: none;
+		padding: 0.75rem 0 0;
+		margin: 0.25rem 0 0;
+		border-top: 1px dashed rgba(45, 212, 191, 0.18);
+		display: flex;
+		flex-direction: column;
+		gap: 0.45rem;
+	}
+
+	.blog-card-peek li {
+		position: relative;
+		padding-left: 1.1rem;
+		font-size: 0.82rem;
+		color: var(--text-mist);
+		line-height: 1.45;
+	}
+
+	.blog-card-peek li::before {
+		content: '›';
+		position: absolute;
+		left: 0;
+		top: -1px;
+		color: var(--shadow-flame);
+		font-weight: 700;
+		font-size: 0.95rem;
+	}
+
+	.blog-card-footer {
+		display: flex;
+		flex-wrap: wrap;
+		align-items: center;
+		justify-content: space-between;
+		gap: 0.5rem 0.75rem;
+		margin-top: auto;
+		padding-top: 0.85rem;
+	}
+
+	.blog-card-count {
+		font-family: var(--font-mono);
+		font-size: 0.72rem;
+		padding: 0.25rem 0.5rem;
+		background: rgba(45, 212, 191, 0.08);
+		border: 1px solid rgba(45, 212, 191, 0.2);
+		border-radius: 4px;
+		color: var(--shadow-ethereal);
+		letter-spacing: 0.04em;
+		white-space: nowrap;
+	}
+
+	.blog-card-cta {
+		font-family: var(--font-mono);
+		font-size: 0.78rem;
+		color: var(--shadow-flame);
+		letter-spacing: 0.05em;
+		white-space: nowrap;
+	}
+
 	/* ==========================================
-	   UNIFIED TYPES SECTION
+	   FAMOUS PEOPLE GRID
 	   ========================================== */
 	.types-section {
 		background: linear-gradient(
@@ -1177,19 +1530,6 @@
 		}
 	}
 
-	/* Diagram Showcase */
-	.diagram-showcase {
-		margin: 2rem auto;
-		overflow: visible;
-	}
-
-	@media (min-width: 768px) {
-		.diagram-showcase {
-			margin: 2.5rem auto;
-		}
-	}
-
-	/* Section CTAs - Multiple buttons */
 	.section-ctas {
 		display: flex;
 		flex-direction: column;
@@ -1206,9 +1546,6 @@
 		}
 	}
 
-	/* ==========================================
-	   9 TYPES GRID
-	   ========================================== */
 	.types-grid {
 		display: grid;
 		grid-template-columns: repeat(3, 1fr);
@@ -1375,241 +1712,71 @@
 		font-weight: 600;
 	}
 
-	.founder-card {
-		display: grid;
-		gap: 1.5rem;
-		align-items: center;
-		padding: 1.5rem;
-		background: linear-gradient(
-			135deg,
-			rgba(45, 212, 191, 0.1) 0%,
-			rgba(251, 113, 133, 0.08) 50%,
-			var(--void-umbra) 100%
-		);
-		border: 1px solid rgba(45, 212, 191, 0.22);
-		border-radius: 20px;
-	}
-
-	.founder-photo {
-		width: 180px;
-		height: 180px;
-		object-fit: cover;
-		border-radius: 24px;
-		border: 1px solid rgba(45, 212, 191, 0.28);
-		box-shadow: 0 0 30px rgba(45, 212, 191, 0.2);
-	}
-
-	.founder-content h2 {
-		padding: 0;
-		margin: 0 0 0.9rem;
-		font-family: var(--font-display);
-		font-size: clamp(1.5rem, 3vw, 2rem);
-		color: var(--text-pale);
-	}
-
-	@media (min-width: 768px) {
-		.founder-card {
-			grid-template-columns: 180px 1fr;
-			padding: 2rem;
-		}
-	}
-
 	/* ==========================================
-	   THREE PILLARS
+	   BUTTONS
 	   ========================================== */
-	.pillars-section {
-		background: linear-gradient(180deg, var(--void-umbra) 0%, var(--bg-base) 100%);
-		border-radius: 20px;
-		margin: 1rem 0;
-	}
-
-	.pillars-grid {
-		display: grid;
-		gap: 1rem;
-	}
-
-	@media (min-width: 768px) {
-		.pillars-grid {
-			grid-template-columns: repeat(3, 1fr);
-			gap: 1.25rem;
-		}
-	}
-
-	.pillar-card {
-		--pillar-color: var(--primary);
+	.btn-shadow {
 		position: relative;
-		display: block;
-		background: linear-gradient(180deg, var(--void-shadow) 0%, var(--void-umbra) 100%);
-		border: 1px solid color-mix(in srgb, var(--pillar-color) 20%, transparent);
-		border-radius: 16px;
-		padding: 1.75rem 1.5rem;
-		text-decoration: none;
-		overflow: hidden;
-		transition: all 300ms var(--ease-out);
-	}
-
-	.pillar-card:hover {
-		border-color: color-mix(in srgb, var(--pillar-color) 50%, transparent);
-		box-shadow: 0 0 40px color-mix(in srgb, var(--pillar-color) 20%, transparent);
-		transform: translateY(-4px);
-	}
-
-	.pillar-bg {
-		position: absolute;
-		inset: 0;
-		background: radial-gradient(
-			circle at 50% 0%,
-			color-mix(in srgb, var(--pillar-color) 10%, transparent) 0%,
-			transparent 70%
-		);
-		opacity: 0;
-		transition: opacity 300ms ease;
-	}
-
-	.pillar-card:hover .pillar-bg {
-		opacity: 1;
-	}
-
-	.pillar-content {
-		position: relative;
-		display: flex;
-		flex-direction: column;
-	}
-
-	.pillar-icon {
-		display: flex;
+		display: inline-flex;
 		align-items: center;
 		justify-content: center;
-		width: 2.5rem;
-		height: 2.5rem;
-		background: color-mix(in srgb, var(--pillar-color) 12%, var(--bg-base));
-		border: 1px solid color-mix(in srgb, var(--pillar-color) 30%, transparent);
-		border-radius: 10px;
-		font-size: 1.25rem;
-		color: var(--pillar-color);
-		margin-bottom: 1rem;
-	}
-
-	.pillar-triad {
-		display: flex;
-		align-items: center;
-		gap: 0.5rem;
-		margin-bottom: 0.75rem;
-	}
-
-	.triad-label {
-		font-family: var(--font-mono);
-		font-size: 0.65rem;
-		font-weight: 600;
-		color: var(--pillar-color);
-		letter-spacing: 0.06em;
-		text-transform: uppercase;
-	}
-
-	.triad-types {
-		font-family: var(--font-mono);
-		font-size: 0.6rem;
-		color: var(--text-faded);
-	}
-
-	.pillar-title {
+		padding: 0.875rem 1.75rem;
+		border: 1px solid color-mix(in srgb, var(--primary) 24%, transparent);
+		border-radius: 8px;
+		background: linear-gradient(135deg, var(--primary-dark) 0%, var(--primary) 100%);
 		font-family: var(--font-display);
-		font-size: 1.35rem;
-		font-weight: 700;
-		color: var(--text-pale);
-		margin-bottom: 0.6rem;
-	}
-
-	.pillar-desc {
-		font-size: 0.9rem;
-		color: var(--text-mist);
-		line-height: 1.55;
-		margin-bottom: 1rem;
-		flex-grow: 1;
-	}
-
-	.pillar-tagline {
-		font-family: var(--font-mono);
-		font-size: 0.8rem;
-		font-weight: 600;
-		color: var(--pillar-color);
-		transition: transform 200ms ease;
-	}
-
-	.pillar-card:hover .pillar-tagline {
-		transform: translateX(4px);
-	}
-
-	/* ==========================================
-	   FEATURE SECTION (Why Enneagram)
-	   ========================================== */
-	.feature-section {
-		margin: 2rem 0;
-		border-radius: 20px;
-		background: linear-gradient(
-			135deg,
-			rgba(45, 212, 191, 0.08) 0%,
-			rgba(251, 113, 133, 0.08) 50%,
-			var(--void-umbra) 100%
-		);
-		border: 1px solid rgba(45, 212, 191, 0.15);
-		overflow: visible;
-	}
-
-	.feature-inner {
-		padding: 3rem 1.5rem;
-		text-align: center;
-		overflow: visible;
-	}
-
-	@media (min-width: 640px) {
-		.feature-inner {
-			padding: 4rem 2rem;
-		}
-	}
-
-	.feature-title {
-		font-family: var(--font-display);
-		font-size: clamp(1.75rem, 4vw, 2.5rem);
-		font-weight: 700;
-		color: var(--text-pale);
-		margin-bottom: 1rem;
-	}
-
-	.feature-text {
 		font-size: 1rem;
-		color: var(--text-mist);
-		max-width: 550px;
-		margin: 0 auto 2rem;
-		line-height: 1.6;
+		font-weight: 600;
+		color: var(--text-on-primary);
+		text-decoration: none;
+		cursor: pointer;
+		overflow: hidden;
+		transition: all 250ms var(--ease-out);
 	}
 
-	.feature-points {
-		display: flex;
-		flex-direction: column;
-		gap: 0.75rem;
-		max-width: 300px;
-		margin: 0 auto;
+	.btn-shadow:hover {
+		background: linear-gradient(135deg, var(--primary) 0%, var(--primary-light) 100%);
+		transform: translateY(-2px);
 	}
 
-	.point {
-		display: flex;
+	.btn-shadow.lg {
+		padding: 1rem 2rem;
+		font-size: 1.05rem;
+	}
+
+	.btn-system {
+		display: inline-flex;
 		align-items: center;
-		gap: 0.75rem;
-		font-size: 0.95rem;
-		color: var(--text-mist);
+		justify-content: center;
+		padding: 0.875rem 1.75rem;
+		background: color-mix(in srgb, var(--bg-deep) 88%, transparent);
+		border: 1px solid color-mix(in srgb, var(--text-tertiary) 25%, transparent);
+		border-radius: 8px;
+		font-family: var(--font-display);
+		font-size: 1rem;
+		font-weight: 600;
+		color: var(--text-secondary);
+		text-decoration: none;
+		cursor: pointer;
+		transition: all 250ms var(--ease-out);
 	}
 
-	.point-icon {
-		color: var(--shadow-flame);
+	.btn-system:hover {
+		border-color: color-mix(in srgb, var(--primary) 35%, transparent);
+		background: var(--primary-subtle);
+		color: var(--primary);
+		transform: translateY(-2px);
 	}
 
-	.point strong {
-		color: var(--text-pale);
+	.btn-shadow:focus-visible,
+	.btn-system:focus-visible,
+	.quest-card:focus-visible {
+		outline: 2px solid var(--primary);
+		outline-offset: 3px;
 	}
 
 	/* ==========================================
-	   COACHING SECTION
+	   COACHING
 	   ========================================== */
 	.coaching-card {
 		position: relative;
@@ -1706,7 +1873,7 @@
 	}
 
 	/* ==========================================
-	   FINAL CTA SECTION
+	   FINAL CTA
 	   ========================================== */
 	.final-section {
 		position: relative;
@@ -1807,8 +1974,775 @@
 	}
 
 	/* ==========================================
-	   REDUCED MOTION
+	   MOBILE FORK SECTION (<768px only)
 	   ========================================== */
+	.mobile-fork-section {
+		position: relative;
+		padding: 2.5rem 0 0.5rem;
+		text-align: center;
+		/* Geometry: column gap drives where the tree drops, rails, and bridge land */
+		--mfork-gap: 0.85rem;
+		--no-x: calc(25% - var(--mfork-gap) / 4);
+		--yes-x: calc(75% + var(--mfork-gap) / 4);
+	}
+
+	.mobile-fork-header {
+		max-width: 560px;
+		margin: 0 auto;
+		padding: 0 0.25rem;
+	}
+
+	.mobile-fork-h1 {
+		font-family: var(--font-display);
+		font-size: clamp(1.85rem, 8.5vw, 2.4rem);
+		font-weight: 700;
+		line-height: 1.12;
+		letter-spacing: -0.015em;
+		color: var(--text-pale);
+		margin: 0.85rem 0 0;
+	}
+
+	/* ----- Branching tree (root → trunk → split → drops) ----- */
+	.mfork-tree {
+		position: relative;
+		height: 58px;
+		margin: 1.5rem 0 0.65rem;
+	}
+
+	.tree-root {
+		position: absolute;
+		left: 50%;
+		top: 0;
+		width: 9px;
+		height: 9px;
+		border-radius: 50%;
+		background: var(--shadow-flame);
+		box-shadow:
+			0 0 14px rgba(45, 212, 191, 0.85),
+			0 0 4px rgba(45, 212, 191, 1);
+		transform: translate(-50%, -50%);
+		z-index: 2;
+	}
+
+	.tree-trunk {
+		position: absolute;
+		left: 50%;
+		top: 4px;
+		width: 2px;
+		height: 18px;
+		background: var(--line-color);
+		box-shadow: 0 0 8px var(--line-glow);
+		border-radius: 1px;
+		transform: translateX(-50%);
+	}
+
+	.tree-cross {
+		position: absolute;
+		top: 22px;
+		left: var(--no-x);
+		right: calc(100% - var(--yes-x));
+		height: 2px;
+		background: var(--line-color);
+		box-shadow: 0 0 8px var(--line-glow);
+		border-radius: 1px;
+	}
+
+	.tree-drop {
+		position: absolute;
+		top: 22px;
+		width: 2px;
+		height: 36px;
+		border-radius: 1px;
+	}
+
+	.tree-drop-no {
+		left: var(--no-x);
+		background: linear-gradient(180deg, var(--line-color) 0%, rgba(251, 113, 133, 0.78) 100%);
+		box-shadow: 0 0 8px rgba(251, 113, 133, 0.45);
+		transform: translateX(-1px);
+	}
+
+	.tree-drop-yes {
+		left: var(--yes-x);
+		background: linear-gradient(180deg, var(--line-color) 0%, rgba(45, 212, 191, 0.85) 100%);
+		box-shadow: 0 0 9px rgba(45, 212, 191, 0.55);
+		transform: translateX(-1px);
+	}
+
+	/* ----- Pills row aligned with the drops ----- */
+	.mfork-labels {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		gap: var(--mfork-gap);
+		margin-bottom: 0.75rem;
+	}
+
+	.label-pill {
+		justify-self: center;
+		font-family: var(--font-mono);
+		font-size: 0.7rem;
+		font-weight: 700;
+		letter-spacing: 0.18em;
+		padding: 0.34rem 0.95rem;
+		border-radius: 999px;
+		line-height: 1;
+	}
+
+	.label-pill.no-pill {
+		background: rgba(251, 113, 133, 0.14);
+		color: var(--system-hologram);
+		border: 1px solid rgba(251, 113, 133, 0.45);
+		box-shadow: 0 0 14px rgba(251, 113, 133, 0.18);
+	}
+
+	.label-pill.yes-pill {
+		background: rgba(45, 212, 191, 0.14);
+		color: var(--shadow-flame);
+		border: 1px solid rgba(45, 212, 191, 0.5);
+		box-shadow: 0 0 16px rgba(45, 212, 191, 0.24);
+	}
+
+	/* ----- Twin columns ----- */
+	.mfork-cols {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		gap: var(--mfork-gap);
+		align-items: stretch;
+	}
+
+	.mfork-col {
+		position: relative;
+		display: flex;
+		flex-direction: column;
+		text-align: left;
+		padding: 1rem 0.85rem 1.05rem;
+		background: linear-gradient(180deg, var(--void-shadow) 0%, var(--void-umbra) 100%);
+		border-radius: 14px;
+		min-width: 0;
+	}
+
+	.no-col {
+		border: 1px solid rgba(251, 113, 133, 0.36);
+		box-shadow:
+			0 8px 28px rgba(0, 0, 0, 0.32),
+			0 0 22px rgba(251, 113, 133, 0.08),
+			inset 0 1px 0 rgba(251, 113, 133, 0.12);
+	}
+
+	/* The YES column is a transparent wrapper: a small card on top + a long rail below.
+	   This keeps the YES card compact while letting the rail bridge the empty space. */
+	.yes-col {
+		background: none;
+		border: none;
+		box-shadow: none;
+		padding: 0;
+		border-radius: 0;
+	}
+
+	.yes-card {
+		padding: 1rem 0.95rem 1.1rem;
+		background: linear-gradient(180deg, var(--void-shadow) 0%, var(--void-umbra) 100%);
+		border: 1px solid rgba(45, 212, 191, 0.45);
+		border-radius: 14px;
+		box-shadow:
+			0 8px 28px rgba(0, 0, 0, 0.32),
+			0 0 26px rgba(45, 212, 191, 0.12),
+			inset 0 1px 0 rgba(45, 212, 191, 0.16);
+	}
+
+	.mfork-col-title {
+		font-family: var(--font-display);
+		font-size: 0.98rem;
+		font-weight: 700;
+		line-height: 1.22;
+		color: var(--text-pale);
+		margin: 0 0 0.45rem;
+		letter-spacing: -0.005em;
+	}
+
+	.mfork-col-sub,
+	.mfork-col-tease {
+		font-size: 0.78rem;
+		color: var(--text-mist);
+		line-height: 1.5;
+		margin: 0 0 0.75rem;
+	}
+
+	.mfork-col-tease {
+		color: var(--shadow-ethereal);
+	}
+
+	/* ----- Quick-read links inside the NO column ----- */
+	.mfork-links {
+		list-style: none;
+		padding: 0;
+		margin: 0;
+		display: flex;
+		flex-direction: column;
+		gap: 0.4rem;
+	}
+
+	.mfork-links li {
+		display: block;
+	}
+
+	.mfork-links a {
+		display: flex;
+		align-items: flex-start;
+		gap: 0.55rem;
+		padding: 0.5rem 0.55rem 0.55rem;
+		border-radius: 9px;
+		background: color-mix(in srgb, var(--bg-deep) 70%, transparent);
+		border: 1px solid rgba(251, 113, 133, 0.22);
+		text-decoration: none;
+		transition: all 180ms var(--ease-out);
+	}
+
+	.mfork-links a:active {
+		border-color: rgba(251, 113, 133, 0.55);
+		background: color-mix(in srgb, var(--bg-deep) 50%, transparent);
+		transform: translateY(1px);
+	}
+
+	.mfork-links .link-num {
+		font-family: var(--font-mono);
+		font-size: 0.6rem;
+		font-weight: 700;
+		color: var(--system-hologram);
+		letter-spacing: 0.05em;
+		padding-top: 0.22rem;
+		flex-shrink: 0;
+		line-height: 1;
+	}
+
+	.mfork-links .link-text {
+		display: flex;
+		flex-direction: column;
+		min-width: 0;
+		flex: 1;
+	}
+
+	.mfork-links .link-title {
+		font-family: var(--font-display);
+		font-size: 0.82rem;
+		font-weight: 600;
+		color: var(--text-pale);
+		line-height: 1.25;
+	}
+
+	.mfork-links .link-sub {
+		font-size: 0.7rem;
+		color: var(--text-faded);
+		line-height: 1.32;
+		margin-top: 0.15rem;
+	}
+
+	/* ----- NO terminus (the path stops here) ----- */
+	.no-end {
+		display: flex;
+		align-items: flex-start;
+		gap: 0.55rem;
+		margin-top: 0.85rem;
+		padding-top: 0.75rem;
+		border-top: 1px dashed rgba(251, 113, 133, 0.32);
+		font-family: var(--font-mono);
+		font-size: 0.62rem;
+		color: var(--text-faded);
+		line-height: 1.4;
+		letter-spacing: 0.02em;
+	}
+
+	.end-mark {
+		display: inline-flex;
+		align-items: center;
+		justify-content: center;
+		width: 1.05rem;
+		height: 1.05rem;
+		border-radius: 50%;
+		background: rgba(251, 113, 133, 0.14);
+		border: 1px solid rgba(251, 113, 133, 0.5);
+		color: var(--system-hologram);
+		font-size: 0.78rem;
+		font-weight: 700;
+		line-height: 1;
+		flex-shrink: 0;
+	}
+
+	/* ----- YES trail (the rail that visually carries the path into the takeover) ----- */
+	.yes-trail {
+		position: relative;
+		flex: 1;
+		min-height: 80px;
+		margin-top: 0.85rem;
+	}
+
+	.trail-line {
+		position: absolute;
+		left: 50%;
+		top: 0;
+		bottom: 0; /* yes-col has no padding now — extends to col bottom */
+		width: 2px;
+		transform: translateX(-1px);
+		background: linear-gradient(
+			180deg,
+			rgba(45, 212, 191, 0.55) 0%,
+			rgba(45, 212, 191, 0.85) 100%
+		);
+		box-shadow:
+			0 0 10px rgba(45, 212, 191, 0.55),
+			0 0 22px rgba(45, 212, 191, 0.25);
+		border-radius: 1px;
+		overflow: hidden;
+	}
+
+	/* A glowing pulse traveling down the rail to suggest the path is alive */
+	.trail-line::before {
+		content: '';
+		position: absolute;
+		left: 0;
+		right: 0;
+		top: -30%;
+		height: 30%;
+		background: linear-gradient(
+			180deg,
+			transparent 0%,
+			rgba(255, 255, 255, 0.85) 50%,
+			transparent 100%
+		);
+		filter: blur(0.5px);
+		animation: trail-pulse 2.4s ease-in-out infinite;
+	}
+
+	@keyframes trail-pulse {
+		0% {
+			top: -30%;
+			opacity: 0;
+		}
+		15% {
+			opacity: 1;
+		}
+		85% {
+			opacity: 1;
+		}
+		100% {
+			top: 100%;
+			opacity: 0;
+		}
+	}
+
+	/* ----- YES Takeover (full-width section the YES path expands into) ----- */
+	.mfork-takeover {
+		position: relative;
+		margin-top: 1.8rem;
+		padding: 1.6rem 1.25rem 1.4rem;
+		background:
+			radial-gradient(
+				140% 140px at var(--yes-x) 0%,
+				color-mix(in srgb, var(--primary) 22%, transparent) 0%,
+				transparent 65%
+			),
+			linear-gradient(180deg, color-mix(in srgb, var(--primary) 6%, var(--void-shadow)) 0%, var(--void-umbra) 100%);
+		border: 1px solid rgba(45, 212, 191, 0.42);
+		border-radius: 16px;
+		box-shadow:
+			0 14px 36px rgba(0, 0, 0, 0.36),
+			0 0 30px rgba(45, 212, 191, 0.12),
+			inset 0 1px 0 rgba(45, 212, 191, 0.2);
+		text-align: left;
+	}
+
+	/* The bridge: a glowing rail in the gap above the takeover, capped with a node */
+	.takeover-bridge {
+		position: absolute;
+		left: var(--yes-x);
+		top: -1.8rem;
+		width: 2px;
+		height: 1.8rem;
+		transform: translateX(-1px);
+		background: linear-gradient(180deg, rgba(45, 212, 191, 0.55) 0%, var(--shadow-flame) 100%);
+		box-shadow: 0 0 10px rgba(45, 212, 191, 0.55);
+		border-radius: 1px;
+	}
+
+	.takeover-bridge::after {
+		content: '';
+		position: absolute;
+		left: 50%;
+		bottom: -7px;
+		width: 14px;
+		height: 14px;
+		border-radius: 50%;
+		background: var(--shadow-flame);
+		box-shadow:
+			0 0 22px rgba(45, 212, 191, 1),
+			0 0 8px rgba(45, 212, 191, 1),
+			0 0 0 3px color-mix(in srgb, var(--primary) 28%, transparent);
+		transform: translateX(-50%);
+		animation: bridge-pulse 3s ease-in-out infinite;
+	}
+
+	@keyframes bridge-pulse {
+		0%,
+		100% {
+			box-shadow:
+				0 0 22px rgba(45, 212, 191, 1),
+				0 0 8px rgba(45, 212, 191, 1),
+				0 0 0 3px color-mix(in srgb, var(--primary) 28%, transparent);
+		}
+		50% {
+			box-shadow:
+				0 0 28px rgba(45, 212, 191, 1),
+				0 0 12px rgba(45, 212, 191, 1),
+				0 0 0 6px color-mix(in srgb, var(--primary) 16%, transparent);
+		}
+	}
+
+	.takeover-headline {
+		position: relative;
+		z-index: 2;
+		font-family: var(--font-display);
+		font-size: 1rem;
+		line-height: 1.4;
+		margin: 0 0 0.75rem;
+		color: var(--text-pale);
+		font-weight: 500;
+	}
+
+	.takeover-headline em {
+		color: var(--shadow-ethereal);
+		font-style: italic;
+	}
+
+	.takeover-body {
+		position: relative;
+		z-index: 2;
+		font-size: 0.9rem;
+		color: var(--text-mist);
+		line-height: 1.55;
+		margin: 0 0 1.1rem;
+	}
+
+	/* Distinct "go to next section" CTA — visually clear handoff */
+	.takeover-cta {
+		position: relative;
+		z-index: 2;
+		display: inline-flex;
+		align-items: center;
+		gap: 0.55rem;
+		padding: 0.55rem 0.95rem 0.55rem 1rem;
+		background: color-mix(in srgb, var(--primary) 16%, var(--bg-deep));
+		border: 1px solid rgba(45, 212, 191, 0.55);
+		border-radius: 999px;
+		font-family: var(--font-mono);
+		font-size: 0.7rem;
+		font-weight: 700;
+		color: var(--text-pale);
+		letter-spacing: 0.08em;
+		text-transform: uppercase;
+		box-shadow:
+			0 6px 18px rgba(0, 0, 0, 0.3),
+			0 0 14px rgba(45, 212, 191, 0.3);
+	}
+
+	.cta-arrow {
+		display: inline-flex;
+		align-items: center;
+		justify-content: center;
+		width: 1.1rem;
+		height: 1.1rem;
+		border-radius: 50%;
+		background: var(--shadow-flame);
+		color: var(--bg-deep);
+		font-size: 0.85rem;
+		font-weight: 900;
+		line-height: 1;
+		animation: cta-arrow-bounce 2s ease-in-out infinite;
+	}
+
+	@keyframes cta-arrow-bounce {
+		0%,
+		100% {
+			transform: translateY(0);
+		}
+		50% {
+			transform: translateY(3px);
+		}
+	}
+
+	/* ==========================================
+	   RESPONSIVE — collapse the tree on small screens
+	   ========================================== */
+	@media (max-width: 720px) {
+		.fork-grid {
+			grid-template-columns: 1fr;
+		}
+
+		.fork-tree,
+		.fork-merge {
+			display: none;
+		}
+
+		.branch {
+			padding: 1.5rem 1.25rem;
+		}
+
+		.give-first-row {
+			grid-template-columns: 1fr;
+		}
+	}
+
+	@media (max-width: 960px) and (min-width: 721px) {
+		.give-first-row {
+			grid-template-columns: 1fr 1fr;
+		}
+
+		.give-step-why {
+			grid-column: 1 / -1;
+		}
+	}
+
+	/* ==========================================
+	   MOBILE OVERRIDES — the rest of the page
+	   ========================================== */
+	@media (max-width: 767px) {
+		.content {
+			padding: 0 1rem;
+		}
+
+		.section {
+			padding: 2.25rem 0;
+		}
+
+		.section-header {
+			margin-bottom: 1.5rem;
+			padding: 0 0.25rem;
+		}
+
+		.section-title {
+			font-size: clamp(1.45rem, 6.5vw, 1.8rem);
+			line-height: 1.2;
+			letter-spacing: -0.01em;
+		}
+
+		.section-desc {
+			font-size: 0.95rem;
+			line-height: 1.55;
+		}
+
+		/* ----- Give-first: vertical timeline ----- */
+		.give-first-row {
+			position: relative;
+			grid-template-columns: 1fr;
+			gap: 0;
+			padding-left: 2.25rem;
+		}
+
+		.give-first-row::before {
+			content: '';
+			position: absolute;
+			left: 1rem;
+			top: 1.1rem;
+			bottom: 1.1rem;
+			width: 2px;
+			background: linear-gradient(180deg, rgba(45, 212, 191, 0.55), rgba(45, 212, 191, 0.15));
+			box-shadow: 0 0 10px rgba(45, 212, 191, 0.25);
+			border-radius: 1px;
+		}
+
+		.give-step {
+			padding: 1.15rem 1.2rem 1.2rem;
+			margin-bottom: 0.85rem;
+			border-radius: 12px;
+		}
+
+		.give-step:last-child {
+			margin-bottom: 0;
+		}
+
+		.give-step .step-num {
+			position: absolute;
+			left: -2.25rem;
+			top: 0.9rem;
+			width: 2rem;
+			height: 2rem;
+			border-radius: 50%;
+			background: color-mix(in srgb, var(--primary) 22%, var(--bg-deep));
+			border: 2px solid var(--shadow-flame);
+			color: var(--text-pale);
+			font-size: 0.95rem;
+			box-shadow:
+				0 0 0 4px var(--bg-base),
+				0 0 14px rgba(45, 212, 191, 0.45);
+			margin-bottom: 0.5rem;
+		}
+
+		.give-step h3 {
+			font-size: 1rem;
+			margin-bottom: 0.4rem;
+		}
+
+		.give-step p {
+			font-size: 0.88rem;
+			line-height: 1.5;
+		}
+
+		/* ----- Question of the day card ----- */
+		.quest-card {
+			padding: 1.25rem;
+			border-radius: 14px;
+		}
+
+		.quest-header {
+			flex-wrap: wrap;
+			gap: 0.5rem;
+			margin-bottom: 0.85rem;
+		}
+
+		.quest-title {
+			font-size: 1.15rem;
+			line-height: 1.35;
+			margin-bottom: 1rem;
+		}
+
+		.quest-cta {
+			padding: 0.9rem;
+			font-size: 1rem;
+		}
+
+		/* ----- Blog category cards ----- */
+		.blogs-grid {
+			gap: 0.85rem;
+		}
+
+		.blog-card {
+			padding: 1.3rem 1.25rem 1.4rem;
+			gap: 0.65rem;
+		}
+
+		.blog-card-icon {
+			width: 2.75rem;
+			height: 2.75rem;
+			border-radius: 10px;
+		}
+
+		.blog-card-icon svg {
+			width: 1.55rem;
+			height: 1.55rem;
+		}
+
+		.blog-card-title {
+			font-size: 1.1rem;
+		}
+
+		.blog-card-desc {
+			font-size: 0.88rem;
+			line-height: 1.5;
+		}
+
+		.blog-card-peek li {
+			font-size: 0.8rem;
+		}
+
+		/* ----- Famous people grid ----- */
+		.types-section {
+			padding: 2.5rem 1rem;
+			border-radius: 18px;
+			margin: 0.5rem 0;
+		}
+
+		.types-grid {
+			gap: 0.55rem;
+		}
+
+		.type-card {
+			padding: 0.85rem 0.6rem 0.9rem;
+			border-radius: 10px;
+		}
+
+		.type-card .avatar,
+		.type-card .avatar-placeholder {
+			width: 3.5rem;
+			height: 3.5rem;
+		}
+
+		.type-card .type-number {
+			top: -0.35rem;
+			left: -0.35rem;
+			width: 1.3rem;
+			height: 1.3rem;
+			font-size: 0.65rem;
+		}
+
+		.type-meta {
+			font-size: 0.68rem;
+			line-height: 1.25;
+			margin-top: 0.35rem;
+		}
+
+		.meta-value {
+			display: block;
+			word-break: break-word;
+		}
+
+		/* ----- Coaching ----- */
+		.coaching-card {
+			border-radius: 16px;
+		}
+
+		.coaching-content {
+			padding: 2rem 1.25rem 2.25rem;
+		}
+
+		.coaching-title {
+			font-size: 1.55rem;
+			line-height: 1.2;
+		}
+
+		.coaching-desc {
+			font-size: 0.95rem;
+		}
+
+		.coaching-features li {
+			font-size: 0.88rem;
+		}
+
+		/* ----- Final CTA ----- */
+		.final-section {
+			margin: 1rem 0 2.5rem;
+			border-radius: 18px;
+		}
+
+		.final-inner {
+			padding: 2.25rem 1.25rem 2.5rem;
+		}
+
+		.final-title {
+			font-size: 1.85rem;
+			line-height: 1.15;
+		}
+
+		.final-desc {
+			font-size: 0.95rem;
+		}
+
+		.final-actions {
+			gap: 0.75rem;
+			width: 100%;
+		}
+
+		.final-actions .btn-shadow,
+		.final-actions .btn-system {
+			width: 100%;
+		}
+
+		/* Make big CTA buttons full-width on mobile for easier tapping */
+		.section-ctas .btn-shadow {
+			width: 100%;
+			max-width: 320px;
+		}
+	}
+
+	/* Reduced motion */
 	@media (prefers-reduced-motion: reduce) {
 		*,
 		*::before,

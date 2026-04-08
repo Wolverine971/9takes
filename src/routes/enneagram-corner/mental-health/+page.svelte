@@ -275,18 +275,18 @@
 							{@const blogPath =
 								blog.loc?.replace('https://9takes.com', '') ||
 								`/enneagram-corner/mental-health/${blog.slug}`}
-							<a href={blogPath} class="blog-card" class:has-image={blog.pic}>
+							<a href={blogPath} class="blog-card image-card" class:has-image={blog.pic}>
 								{#if blog.pic}
 									<div
-										class="card-image"
+										class="card-image image-card-media"
 										style={`background-image: url(/blogs/s-${blog.pic}.webp);`}
 									></div>
 								{/if}
-								<div class="card-overlay"></div>
-								<div class="card-content">
+								<div class="card-overlay image-card-overlay"></div>
+								<div class="card-content image-card-content">
 									<h4>{blog.title}</h4>
 									<p>{blog.description}</p>
-									<span class="read-link">Read Guide</span>
+									<span class="read-link image-card-read-more">Read Guide</span>
 								</div>
 							</a>
 						{/each}
@@ -347,9 +347,9 @@
 				<div class="cta-buttons">
 					<a
 						href="/enneagram-corner/mental-health/enneagram-anxiety-complete-guide"
-						class="btn-primary">Read Anxiety Guide</a
+						class="btn-hub-primary">Read Anxiety Guide</a
 					>
-					<a href="/questions" class="btn-secondary">Discover Your Type</a>
+					<a href="/questions" class="btn-hub-secondary">Discover Your Type</a>
 				</div>
 			</div>
 		</section>
@@ -479,8 +479,8 @@
 
 	/* Crisis Banner */
 	.crisis-banner {
-		background: linear-gradient(135deg, #dc2626 0%, #b91c1c 100%);
-		color: var(--text-primary);
+		background: linear-gradient(135deg, var(--error) 0%, var(--error-700) 100%);
+		color: var(--text-on-dark);
 		padding: 1rem 1.5rem;
 		border-radius: 12px;
 		margin-bottom: 2rem;
@@ -612,12 +612,11 @@
 	}
 
 	.blog-card {
+		@extend .image-card !optional;
 		position: relative;
 		aspect-ratio: 4 / 3;
 		border-radius: 0.75rem;
-		overflow: hidden;
 		background: var(--surface-card-strong);
-		text-decoration: none;
 		transition: all 0.25s ease;
 		border: 1px solid var(--accent-border);
 		box-shadow: var(--shadow-sm);
@@ -647,51 +646,19 @@
 				opacity: 1;
 			}
 
-			.card-image {
-				transform: scale(1.04);
-			}
-
 			.card-content h4 {
 				color: var(--primary);
-			}
-		}
-
-		&.has-image {
-			.card-content {
-				color: #fff;
-			}
-
-			.card-content h4,
-			.card-content .read-link {
-				color: #fff;
-			}
-
-			.card-content p {
-				color: rgba(255, 255, 255, 0.84);
-			}
-
-			.card-overlay {
-				background: linear-gradient(
-					to top,
-					rgba(10, 10, 15, 0.95) 0%,
-					rgba(10, 10, 15, 0.66) 42%,
-					rgba(10, 10, 15, 0.24) 100%
-				);
 			}
 		}
 	}
 
 	.card-image {
-		position: absolute;
-		inset: 0;
-		background-size: cover;
-		background-position: center;
-		transition: transform 0.35s ease;
+		@extend .image-card-media !optional;
+		transition-duration: 0.35s;
 	}
 
 	.card-overlay {
-		position: absolute;
-		inset: 0;
+		@extend .image-card-overlay !optional;
 		background:
 			linear-gradient(
 				180deg,
@@ -706,14 +673,8 @@
 	}
 
 	.card-content {
-		position: relative;
-		z-index: 2;
-		height: 100%;
-		display: flex;
-		flex-direction: column;
-		justify-content: flex-end;
+		@extend .image-card-content !optional;
 		padding: 1rem;
-		color: var(--text-primary);
 
 		h4 {
 			font-size: 0.9375rem;
@@ -742,9 +703,9 @@
 		}
 
 		.read-link {
+			@extend .image-card-read-more !optional;
 			font-size: 0.6875rem;
 			font-weight: 600;
-			color: var(--primary);
 			margin-top: 0.375rem;
 		}
 	}
@@ -872,46 +833,6 @@
 		flex-wrap: wrap;
 	}
 
-	.btn-primary {
-		display: inline-flex;
-		align-items: center;
-		padding: 0.75rem 1.5rem;
-		background: linear-gradient(135deg, var(--primary-dark) 0%, var(--primary) 100%);
-		color: var(--text-on-primary);
-		font-weight: 600;
-		font-size: 0.875rem;
-		border-radius: 0.5rem;
-		text-decoration: none;
-		transition: all 0.2s ease;
-		box-shadow: var(--glow-sm);
-
-		&:hover {
-			background: linear-gradient(135deg, var(--primary) 0%, var(--accent) 100%);
-			transform: translateY(-2px);
-			box-shadow: var(--glow-md);
-		}
-	}
-
-	.btn-secondary {
-		display: inline-flex;
-		align-items: center;
-		padding: 0.75rem 1.5rem;
-		background: color-mix(in srgb, var(--primary-subtle) 62%, transparent);
-		color: var(--text-secondary);
-		font-weight: 600;
-		font-size: 0.875rem;
-		border-radius: 0.5rem;
-		border: 1px solid var(--accent-border);
-		text-decoration: none;
-		transition: all 0.2s ease;
-
-		&:hover {
-			background: color-mix(in srgb, var(--primary-subtle) 80%, transparent);
-			border-color: color-mix(in srgb, var(--primary) 28%, transparent);
-			color: var(--primary);
-		}
-	}
-
 	/* Responsive */
 	@media (max-width: 900px) {
 		.benefits-grid {
@@ -920,6 +841,21 @@
 
 		.blog-grid {
 			grid-template-columns: repeat(2, 1fr);
+		}
+	}
+
+	@media (min-width: 901px) {
+		.main-content {
+			max-width: 1264px;
+			padding: 1.75rem 2rem 4.5rem;
+		}
+
+		.content-section {
+			margin-bottom: 3.75rem;
+		}
+
+		.blog-grid {
+			gap: 1.25rem;
 		}
 	}
 
@@ -1053,8 +989,8 @@
 			gap: 0.75rem;
 		}
 
-		.btn-primary,
-		.btn-secondary {
+		.btn-hub-primary,
+		.btn-hub-secondary {
 			padding: 0.75rem 1.25rem;
 			font-size: 0.85rem;
 			width: 100%;

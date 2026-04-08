@@ -100,21 +100,25 @@
 				<div class="featured-grid">
 					{#each data.featured as blog}
 						{@const label = getRecencyLabel(blog.lastmod || blog.date)}
-						<a href="/pop-culture/{blog.slug}" class="featured-card" class:has-image={blog.pic}>
+						<a
+							href="/pop-culture/{blog.slug}"
+							class="featured-card image-card image-card--inset"
+							class:has-image={blog.pic}
+						>
 							{#if blog.pic}
 								<div
-									class="featured-image"
+									class="featured-image image-card-media"
 									style={`background-image: url(/blogs/${blog.pic}.webp);`}
 								></div>
 							{/if}
-							<div class="featured-overlay"></div>
-							<div class="featured-content">
+							<div class="featured-overlay image-card-overlay"></div>
+							<div class="featured-content image-card-content">
 								<span class="featured-badge" class:new={label === 'New'}>
 									{label || 'Latest'}
 								</span>
 								<h3>{blog.title}</h3>
 								<p>{blog.description}</p>
-								<span class="read-more">
+								<span class="read-more image-card-read-more">
 									Read Analysis
 									<ArrowRightIcon
 										iconStyle={'margin-left: 0.25rem'}
@@ -145,15 +149,19 @@
 				<div class="recent-grid">
 					{#each data.recentlyUpdated as blog}
 						{@const label = getRecencyLabel(blog.lastmod || blog.date)}
-						<a href="/pop-culture/{blog.slug}" class="recent-card" class:has-image={blog.pic}>
+						<a
+							href="/pop-culture/{blog.slug}"
+							class="recent-card image-card"
+							class:has-image={blog.pic}
+						>
 							{#if blog.pic}
 								<div
-									class="card-image"
+									class="card-image image-card-media"
 									style={`background-image: url(/blogs/s-${blog.pic}.webp);`}
 								></div>
 							{/if}
-							<div class="card-overlay"></div>
-							<div class="card-content">
+							<div class="card-overlay image-card-overlay"></div>
+							<div class="card-content image-card-content">
 								{#if label}
 									<span class="recency-badge" class:new={label === 'New'}>{label}</span>
 								{/if}
@@ -185,18 +193,18 @@
 					{#each remainingBlogs as blog}
 						<a
 							href="/pop-culture/{blog.slug}"
-							class="blog-card"
+							class="blog-card image-card"
 							class:has-image={blog.pic}
 							data-tag={`h-blog-${formatBlogSlug(blog.title)}`}
 						>
 							{#if blog.pic}
 								<div
-									class="card-image"
+									class="card-image image-card-media"
 									style={`background-image: url(/blogs/s-${blog.pic}.webp);`}
 								></div>
 							{/if}
-							<div class="card-overlay"></div>
-							<div class="card-content">
+							<div class="card-overlay image-card-overlay"></div>
+							<div class="card-content image-card-content">
 								<h3>{blog.title}</h3>
 								{#if blog.description}
 									<p>{blog.description}</p>
@@ -224,8 +232,8 @@
 					creative genius.
 				</p>
 				<div class="cta-buttons">
-					<a href="/enneagram-corner" class="btn-primary">Learn the Enneagram</a>
-					<a href="/personality-analysis" class="btn-secondary">Famous People</a>
+					<a href="/enneagram-corner" class="btn-hub-primary">Learn the Enneagram</a>
+					<a href="/personality-analysis" class="btn-hub-secondary">Famous People</a>
 				</div>
 			</div>
 		</section>
@@ -336,11 +344,10 @@
 	}
 
 	.featured-card {
+		@extend .image-card !optional;
+		@extend .image-card--inset !optional;
 		position: relative;
 		border-radius: 1rem;
-		overflow: hidden;
-		background: var(--bg-surface);
-		text-decoration: none;
 		transition: all 0.3s ease;
 		min-height: 300px;
 		border: 1px solid var(--border-color);
@@ -367,61 +374,20 @@
 			&::before {
 				opacity: 1;
 			}
-
-			.featured-image {
-				transform: scale(1.05);
-			}
-		}
-
-		&.has-image {
-			.featured-content {
-				color: #fff;
-			}
-			.featured-content h3,
-			.featured-content .read-more {
-				color: #fff;
-			}
-			.featured-content p {
-				color: rgba(255, 255, 255, 0.8);
-			}
-			.featured-badge {
-				background: rgba(255, 255, 255, 0.12);
-				border-color: rgba(255, 255, 255, 0.22);
-				color: #fff;
-			}
 		}
 	}
 
 	.featured-image {
-		position: absolute;
-		inset: 0.45rem;
-		border-radius: 0.8rem;
-		background-size: cover;
-		background-position: center;
-		transition: transform 0.4s ease;
+		@extend .image-card-media !optional;
 	}
 
 	.featured-overlay {
-		position: absolute;
-		inset: 0.45rem;
-		border-radius: 0.8rem;
-		background: linear-gradient(
-			to top,
-			rgba(12, 10, 9, 0.97) 0%,
-			rgba(12, 10, 9, 0.72) 45%,
-			rgba(12, 10, 9, 0.2) 100%
-		);
+		@extend .image-card-overlay !optional;
 	}
 
 	.featured-content {
-		position: relative;
-		z-index: 2;
-		height: 100%;
-		display: flex;
-		flex-direction: column;
-		justify-content: flex-end;
+		@extend .image-card-content !optional;
 		padding: 2rem;
-		color: var(--text-primary);
 
 		h3 {
 			font-size: 1.5rem;
@@ -483,16 +449,9 @@
 	}
 
 	.read-more {
-		display: flex;
-		align-items: center;
+		@extend .image-card-read-more !optional;
 		font-size: 0.875rem;
 		font-weight: 600;
-		color: var(--primary);
-		transition: color 0.2s ease;
-
-		&:hover {
-			color: var(--primary-light);
-		}
 	}
 
 	/* Recent Grid */
@@ -503,12 +462,10 @@
 	}
 
 	.recent-card {
+		@extend .image-card !optional;
 		position: relative;
 		aspect-ratio: 3 / 2;
 		border-radius: 0.75rem;
-		overflow: hidden;
-		background: var(--bg-surface);
-		text-decoration: none;
 		transition: all 0.25s ease;
 		border: 1px solid rgba(45, 212, 191, 0.15);
 
@@ -533,32 +490,8 @@
 				opacity: 1;
 			}
 
-			.card-image {
-				transform: scale(1.05);
-			}
-
 			.card-content h3 {
 				color: var(--accent-light);
-			}
-		}
-
-		&.has-image {
-			.card-content {
-				color: #fff;
-			}
-			.card-content h3 {
-				color: #fff;
-			}
-			.card-content p {
-				color: rgba(255, 255, 255, 0.8);
-			}
-			.card-overlay {
-				background: linear-gradient(
-					to top,
-					rgba(10, 10, 15, 0.95) 0%,
-					rgba(10, 10, 15, 0.6) 40%,
-					rgba(10, 10, 15, 0.3) 100%
-				);
 			}
 		}
 
@@ -578,12 +511,10 @@
 
 	/* Blog Cards */
 	.blog-card {
+		@extend .image-card !optional;
 		position: relative;
 		aspect-ratio: 4 / 3;
 		border-radius: 0.75rem;
-		overflow: hidden;
-		background: var(--bg-surface);
-		text-decoration: none;
 		transition: all 0.25s ease;
 		border: 1px solid var(--border-color);
 
@@ -608,59 +539,23 @@
 				opacity: 1;
 			}
 
-			.card-image {
-				transform: scale(1.05);
-			}
-
 			.card-content h3 {
 				color: var(--accent-light);
-			}
-		}
-
-		&.has-image {
-			.card-content {
-				color: #fff;
-			}
-			.card-content h3 {
-				color: #fff;
-			}
-			.card-content p {
-				color: rgba(255, 255, 255, 0.8);
-			}
-			.card-overlay {
-				background: linear-gradient(
-					to top,
-					rgba(10, 10, 15, 0.95) 0%,
-					rgba(10, 10, 15, 0.6) 40%,
-					rgba(10, 10, 15, 0.3) 100%
-				);
 			}
 		}
 	}
 
 	.card-image {
-		position: absolute;
-		inset: 0;
-		background-size: cover;
-		background-position: center;
-		transition: transform 0.4s ease;
+		@extend .image-card-media !optional;
 	}
 
 	.card-overlay {
-		position: absolute;
-		inset: 0;
-		background: linear-gradient(135deg, var(--bg-deep) 0%, var(--bg-base) 100%);
+		@extend .image-card-overlay !optional;
 	}
 
 	.card-content {
-		position: relative;
-		z-index: 2;
-		height: 100%;
-		display: flex;
-		flex-direction: column;
-		justify-content: flex-end;
+		@extend .image-card-content !optional;
 		padding: 1rem;
-		color: var(--text-primary);
 
 		h3 {
 			font-size: 0.9375rem;
@@ -744,46 +639,6 @@
 		justify-content: center;
 		gap: 0.75rem;
 		flex-wrap: wrap;
-	}
-
-	.btn-primary {
-		display: inline-flex;
-		align-items: center;
-		padding: 0.75rem 1.5rem;
-		background: linear-gradient(135deg, var(--primary-dark) 0%, var(--accent-dark) 100%);
-		color: var(--text-primary);
-		font-weight: 600;
-		font-size: 0.875rem;
-		border-radius: 0.5rem;
-		text-decoration: none;
-		transition: all 0.2s ease;
-		box-shadow: 0 0 20px rgba(45, 212, 191, 0.25);
-
-		&:hover {
-			background: linear-gradient(135deg, var(--accent) 0%, var(--primary-dark) 100%);
-			transform: translateY(-2px);
-			box-shadow: 0 0 30px rgba(45, 212, 191, 0.35);
-		}
-	}
-
-	.btn-secondary {
-		display: inline-flex;
-		align-items: center;
-		padding: 0.75rem 1.5rem;
-		background: rgba(45, 212, 191, 0.1);
-		color: var(--text-secondary);
-		font-weight: 600;
-		font-size: 0.875rem;
-		border-radius: 0.5rem;
-		border: 1px solid color-mix(in srgb, var(--primary) 25%, transparent);
-		text-decoration: none;
-		transition: all 0.2s ease;
-
-		&:hover {
-			background: var(--primary-subtle);
-			border-color: rgba(45, 212, 191, 0.4);
-			color: var(--accent-light);
-		}
 	}
 
 	/* Responsive */
@@ -914,8 +769,8 @@
 			gap: 0.5rem;
 		}
 
-		.btn-primary,
-		.btn-secondary {
+		.btn-hub-primary,
+		.btn-hub-secondary {
 			padding: 0.6875rem 1.25rem;
 			font-size: 0.8125rem;
 			justify-content: center;

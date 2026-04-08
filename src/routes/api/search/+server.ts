@@ -1,6 +1,6 @@
-// src/routes/api/blog/search/+server.ts
-import { searchBlogs } from '$lib/server/blogSearch';
+// src/routes/api/search/+server.ts
 import { parseEnneagramParam, parseLimit, parseOffset } from '$lib/server/blogSearchUtils';
+import { parseUniversalSearchScope, searchUniversal } from '$lib/server/universalSearch';
 import { json } from '@sveltejs/kit';
 import type { RequestHandler } from './$types';
 
@@ -12,12 +12,14 @@ export const GET: RequestHandler = async ({ url, locals }) => {
 		const type = url.searchParams.get('type')?.trim() || null;
 		const limit = parseLimit(url.searchParams.get('limit'));
 		const offset = parseOffset(url.searchParams.get('offset'));
+		const scope = parseUniversalSearchScope(url.searchParams.get('scope'));
 
 		if (!query || query.length < 2) {
 			return json(
 				{
 					results: [],
 					query: query || '',
+					scope,
 					filters: { enneagram: null, category: null, type: null },
 					total: 0,
 					error: 'Search query must be at least 2 characters'
@@ -31,6 +33,7 @@ export const GET: RequestHandler = async ({ url, locals }) => {
 				{
 					results: [],
 					query,
+					scope,
 					filters: { enneagram: null, category: null, type: null },
 					total: 0,
 					error: 'Search query too long'
@@ -45,6 +48,7 @@ export const GET: RequestHandler = async ({ url, locals }) => {
 				{
 					results: [],
 					query,
+					scope,
 					filters: { enneagram: null, category, type },
 					total: 0,
 					error: 'Invalid enneagram filter'
@@ -53,7 +57,8 @@ export const GET: RequestHandler = async ({ url, locals }) => {
 			);
 		}
 
-		const result = await searchBlogs(locals.supabase, query, {
+		const result = await searchUniversal(locals.supabase, query, {
+			scope,
 			enneagram: enneagramFilter,
 			category,
 			type,
@@ -64,6 +69,7 @@ export const GET: RequestHandler = async ({ url, locals }) => {
 		return json({
 			results: result.results,
 			query,
+			scope,
 			filters: {
 				enneagram: enneagramFilter,
 				category,
@@ -72,11 +78,12 @@ export const GET: RequestHandler = async ({ url, locals }) => {
 			total: result.total
 		});
 	} catch (error) {
-		console.error('Blog search error:', error);
+		console.error('Universal search error:', error);
 		return json(
 			{
 				results: [],
 				query: url.searchParams.get('q') || '',
+				scope: parseUniversalSearchScope(url.searchParams.get('scope')),
 				filters: { enneagram: null, category: null, type: null },
 				total: 0,
 				error: 'Search failed'

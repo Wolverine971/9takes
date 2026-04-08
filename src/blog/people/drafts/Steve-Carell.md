@@ -57,7 +57,7 @@ And it tells you that the wallpaper, for reasons no one including Steve Carell f
 
 > "My goal was to not stand out in any way. I aggressively homogenized myself."
 
-That is how Carell has described his childhood strategy. _Aggressively homogenized._ The adverb is the whole story. Being quiet wasn't passive for him. It was a project. A discipline. Something you could get better at with practice, like goaltending or the fife, both of which he also practiced.
+That is how Carell has described his childhood strategy, in his own words. Being quiet wasn't passive for him. It was a project. A discipline. Something you could get better at with practice, like goaltending or the fife, both of which he also practiced.
 
 Steve Carell is an Enneagram Type 9 — the Peacemaker — and specifically the kind of Nine whose superpower and original wound are the same thing: the ability to disappear into whatever is in front of them.
 
@@ -84,22 +84,14 @@ Every Enneagram read is an educated guess. This one is built from Carell's own w
 
 The cost of that strategy is that Nines can forget what they themselves want. The Enneagram calls this _sloth_, but that word is a mistranslation. It doesn't mean lazy. It means self-forgetting — a specific inertia toward one's own agenda while still having plenty of energy for everyone else's. Under pressure, Nines can [slide into a worried, scattered Type 6 pattern](/enneagram-corner/enneagram-types-in-stress) that looks a lot like the anxious fathers and frightened husbands Carell has been so good at playing since 2014.
 
-What makes Carell such a clean example of the pattern is how transparently he names it. Most Nines don't have the vocabulary for what they do. Carell does, and he has been saying it out loud to interviewers for twenty years, usually as a joke on himself:
-
-- "I don't think of myself as funny. I don't fill up a room with my humor."
-- "I'm not the life of the party. But on the other hand, I am at the party."
-- "I always feel most comfortable as part of an ensemble. It's best not to stick out."
-- "I'll be honest — I was a dull kid."
-- "I'm pretty shy. I'm way too introverted to do that." (On being asked whether he would ever do what Will Ferrell does publicly.)
+What makes Carell such a clean example of the pattern is how transparently he names it. Most Nines don't have the vocabulary for what they do. Carell does, and he has been saying it out loud to interviewers for twenty years, usually as a joke on himself. _"I don't think of myself as funny,"_ he has said. _"I don't fill up a room with my humor."_ Asked once whether he was the life of the party, he gave the most Nine answer in the recorded history of the type: _"I'm not the life of the party. But on the other hand, I am at the party."_ That is the whole Nine posture in one sentence. Present, participating, refusing to be the reason anyone turns their head.
 
 <div class="contrast-panel">
 <div><strong>The Public Steve Carell</strong><br>Seven seasons as Michael Scott. An Oscar nomination. One of the most quoted comedic actors of his generation. The face of <em>The Office</em>, the voice of Gru, the lead of <em>Rooster</em>, HBO's biggest comedy launch in a decade.</div>
-<div><strong>The Private Steve Carell</strong><br>A man who "aggressively homogenized" himself as a kid, married a woman he thought hated him because she was too quiet, raised his two children away from cameras, and waves at tour buses hoping no one notices.</div>
+<div><strong>The Private Steve Carell</strong><br>A man who spent his childhood trying not to be noticed, married a woman he thought hated him because she was too quiet, raised his two children away from cameras, and waves at tour buses hoping no one waves back.</div>
 </div>
 
 A Type 3 would never say any of that. A Type 4 would never say any of that. A Type 8 would laugh at the idea of saying any of that. Even a Type 5, who shares some of Carell's observational quality, tends to be proud of the knowledge and precision that comes from watching. Nines are the type that watch so they can blend. They are the type whose fundamental motion is toward harmony — and whose fundamental fear is disruption, including the disruption of being the one everyone is looking at.
-
-His specific flavor reads as a Nine with a One wing. The One wing is the part of Carell that takes things seriously — the Catholic upbringing, the history degree, the fife-playing Revolutionary War reenactor phase, the stated sense that he "owed" his parents for their investment in his education, the careful parenting, the complete absence of public scandal or feuds across a thirty-year career. Nines with a One wing are sometimes called _The Dreamers_. They blend, but they blend with a quiet moral compass. They don't make waves, but they notice when the wave shouldn't have been made.
 
 All of which is a perfectly reasonable description of the least likely person in America to become the boss of Dunder Mifflin.
 
@@ -118,6 +110,8 @@ Carell has described his childhood self with a kind of unsparing flatness that f
 He did not act out. He did not rebel. He played ice hockey, specifically as a goalie, which is the single most Nine position in any team sport on earth. The goalie watches. The goalie is not the one pushing forward. The goalie exists to absorb whatever is thrown at them and send it harmlessly back. You can find Carell's sophomore-year stats from the Denison University Big Red hockey team online if you want to: 305 saves across 29 periods played, a respectable .866 save percentage. A quiet, quirky goalie, which, as any old hockey player will tell you, is what goalies always are.
 
 He also played lacrosse. He also played the fife. Not "joined a band." The fife, specifically — a shrill little wooden flute used mostly in Revolutionary War reenactment, which Carell did in high school as part of Acton's minutemen corps. He later told interviewers he "geeked out and got into it." A teenager's version of disappearing: put on a tricorn hat and become a historical extra.
+
+This is the point where a Nine's specific subtype starts to matter. Carell's flavor reads as a Nine with a One wing, sometimes called _The Dreamer_. The One wing is the part of Carell that takes things seriously. It is the Catholic upbringing. It is the history degree at Denison. It is the fife-playing Revolutionary War reenactment, which is not a thing a kid does ironically. It is the stated sense, later in his life, that he "owed" his parents for their investment in his education. It is the careful parenting, the steady marriage, and the near-total absence of public scandal or feud across a thirty-year career. Nines with a One wing blend, but they blend with a quiet moral compass. They don't make waves, but they notice when the wave shouldn't have been made.
 
 This is the point where most childhood narratives of actors get interesting because the child is secretly dying to perform. Carell's doesn't. He was not a class clown. He has said flatly that he "wasn't a party guy." His parents, who were supportive but not pushy, watched him fail to write a law school application essay because he couldn't answer the question _Why do you want to be a lawyer?_ He didn't know. He wasn't pretending not to know. He actually did not know what he wanted.
 
@@ -149,27 +143,23 @@ Around the same time Carell was teaching improvisation classes at Second City, o
 
 Nancy, it turned out later, thought Steve hated _her_, because she was also quiet. They were two Nines reading each other's silence as rejection when it was actually the exact opposite — it was each of them trying not to be a disruption to the other.
 
-Nancy worked at a bar across the street from Second City. Carell, too afraid to ask her out directly, started coming in to flirt with her. Then coming back. Then coming back again. Two Nines required multiple bar visits before either of them was willing to disturb the peace by asking the other out. They got married in 1995. They are still married in 2026. They have two children, Annie and John, both of whom attended Northwestern, and both of whom have been famously absent from their parents' public image. Nancy has written for _The Daily Show_ and _SNL_ and played Carol Stills on _The Office_. They collaborate, but mostly they are private.
+Nancy worked at a bar across the street from Second City. Carell, too afraid to ask her out directly, started coming in to flirt with her. Then coming back. Then coming back again. Two Nines required multiple bar visits before either of them was willing to disturb the peace by asking the other out. They got married in 1995. They are still married in 2026. They have two children, Annie and John, both of whom attended Northwestern, and both of whom have been famously absent from their parents' public image.
+
+Nancy is not a silent spouse, either. She is a working comedian in her own right. She wrote for _Saturday Night Live_ and _The Daily Show_, and she played Carol Stills, Michael's occasional love interest, on _The Office_. The two of them have quietly kept working in each other's orbit for thirty years while almost nobody in the press bothers to write about them as a creative partnership.
 
 The Steve Carell marriage is not the tabloid marriage. It is the shared-routine marriage. It is two people who both believe that the most radical thing you can do in Los Angeles is to not become a story.
 
 ---
 
-## Why the Last Man Who Wanted Attention Ended Up Playing Michael Scott
+## The Quietest Man on The Daily Show
 
-Here is the paradox that sits at the center of Steve Carell's career, and it is the paradox that makes him psychologically interesting rather than just professionally impressive.
+Between Second City and movie stardom, Steve Carell spent almost six years sitting next to Jon Stewart.
 
-Michael Scott — the regional manager of Dunder Mifflin Scranton, the character Carell played for seven seasons of _The Office_ — is the platonic ideal of a man who cannot stand not being looked at. Michael Scott throws parties for himself. Michael Scott interrupts other people's weddings to remind everyone that he exists. Michael Scott's tragic flaw, the engine of every single joke the show makes about him, is that his need to be loved by a room is so naked it becomes unbearable. Greg Daniels, the show's creator, described Michael this way: he was a man "hoping that the documentary about this would one day be seen by Jennifer Aniston, and I was just trying to impress her any way I possibly could."
+From 1999 to 2005, he was a correspondent on _The Daily Show_ alongside Stephen Colbert, Ed Helms, Rob Corddry, and Samantha Bee. His segments were not rants. They were not political monologues. They were field pieces in which Carell stood in a church basement or a factory floor or a campaign rally in Ohio and absorbed whatever the interviewee said with the patient, unreadable face of a man trying very hard to keep up. On the recurring "Even Stevphen" bits, he and Colbert sat at a news desk and screamed canned, absurdly heated arguments at each other about trivial topics, neither of them breaking character, both of them playing outraged idiots with the utter commitment that only Second City training produces.
 
-The person cast to play this character was a man whose literal life goal was to not be noticed.
+The Daily Show, for Carell, was the place where the Nine trick of merging with the room got professionalized. It is hard to imagine a better training environment for a man whose core instinct is to take the temperature of a scene and then become whatever the scene needs. Every week, for nearly six years, he walked into a strange building, listened, mirrored, and then delivered a single deadpan line that let the whole bit tip over into absurdity. In almost every one of those pieces, Carell is the quietest person on screen. That is the joke. That is how the joke works.
 
-[Paul Rudd](/personality-analysis/Paul-Rudd) — another Type 9, and a close friend — actually warned Carell against auditioning. Rudd's reasoning was that the British version of _The Office_ was so good, and Ricky Gervais's David Brent so definitive, that any American remake was doomed. "Don't do it," Rudd said. Carell listened, thought about it, and then did the most Nine thing possible: he auditioned anyway, but he _refused to rewatch the British version_ beforehand. He did not want to absorb Gervais's performance and accidentally blend into it. For once, the Nine had to not-merge on purpose.
-
-It worked. Carell didn't play Brent. He played Michael Scott, who is the softer, lonelier, more childlike American cousin of Brent. And the reason it worked — the reason Michael Scott became one of the most beloved comedic characters in television history rather than a watered-down imitation — is specifically because the actor inside the character had no personal appetite for the spotlight. Carell's Michael Scott is desperate to be loved, but Carell himself is not. That gap is where the comedy lives. We laugh at Michael because Michael wants our attention so badly; we _love_ Michael because Steve Carell is visibly embarrassed on his behalf.
-
-Watch the show again with this in mind. Michael Scott is at his funniest not when he's loud but when he's just slightly too eager and then has to survive the silence after. Those silences — that exquisite, hanging cringe — are a Type 9 actor's home field. A Nine knows exactly what it feels like to misread a room and wish you could take the last thing you said back. A Nine has done it a thousand times. A Nine has _shrunk into a little ball on a sidewalk in Los Angeles_ after waving at a tour bus.
-
-Carell was not acting the cringe. He was remembering it.
+When _Anchorman_ asked him in 2004 to generate a line from thin air, he had already been practicing the merge for half a decade.
 
 ---
 
@@ -197,6 +187,48 @@ A Nine's comedy is always, underneath, about the embarrassment of having a self.
 
 ---
 
+## Why the Last Man Who Wanted Attention Ended Up Playing Michael Scott
+
+A year after _Anchorman_, NBC handed Carell the American remake of the British sitcom that had made Ricky Gervais famous. Here is the paradox that sits at the center of Steve Carell's career, and it is the paradox that makes him psychologically interesting rather than just professionally impressive.
+
+Michael Scott — the regional manager of Dunder Mifflin Scranton, the character Carell played for seven seasons of _The Office_ — is the platonic ideal of a man who cannot stand not being looked at. Michael Scott throws parties for himself. Michael Scott interrupts other people's weddings to remind everyone that he exists. Michael Scott's tragic flaw, the engine of every single joke the show makes about him, is that his need to be loved by a room is so naked it becomes unbearable. Greg Daniels, the show's creator, described Michael this way: he was a man "hoping that the documentary about this would one day be seen by Jennifer Aniston, and I was just trying to impress her any way I possibly could."
+
+The person cast to play this character was a man whose literal life goal was to not be noticed.
+
+[Paul Rudd](/personality-analysis/Paul-Rudd) — another Type 9, and a close friend — actually warned Carell against auditioning. Rudd's reasoning was that the British version of _The Office_ was so good, and Ricky Gervais's David Brent so definitive, that any American remake was doomed. "Don't do it," Rudd said. Carell listened, thought about it, and then did the most Nine thing possible: he auditioned anyway, but he _refused to rewatch the British version_ beforehand. He did not want to absorb Gervais's performance and accidentally blend into it. For once, the Nine had to not-merge on purpose.
+
+It worked. Carell didn't play Brent. He played Michael Scott, who is the softer, lonelier, more childlike American cousin of Brent. And the reason it worked — the reason Michael Scott became one of the most beloved comedic characters in television history rather than a watered-down imitation — is specifically because the actor inside the character had no personal appetite for the spotlight. Carell's Michael Scott is desperate to be loved, but Carell himself is not. That gap is where the comedy lives. We laugh at Michael because Michael wants our attention so badly; we _love_ Michael because Steve Carell is visibly embarrassed on his behalf.
+
+Watch the show again with this in mind. Michael Scott is at his funniest not when he's loud but when he's just slightly too eager and then has to survive the silence after. Those silences — that exquisite, hanging cringe — are a Type 9 actor's home field. A Nine knows exactly what it feels like to misread a room and wish you could take the last thing you said back. A Nine has done it a thousand times.
+
+Carell was not acting the cringe. He was remembering it.
+
+---
+
+## The Most Type 9 Exit in Sitcom History
+
+Here is the career move that deserves its own section.
+
+At the end of season 7, in 2011, Steve Carell walked away from _The Office_. The show was still one of the top sitcoms on NBC. Michael Scott was arguably the most recognizable comedic character on American television. A renewal would have meant many millions of dollars, more Emmy nominations, and the indefinite continuation of the single most valuable piece of intellectual property on the network.
+
+The outside story at the time was family. Carell told interviewers he wanted to spend more time with Nancy and the kids, that his contract was ending, that seven seasons was enough. Which was all true. But the inside story, pieced together years later by reporter Andy Greene in his oral history of the show, is that NBC simply never got around to making Carell a definitive offer. Carell and his agent were reportedly open to signing for two more years. Nobody from the network called. The silence stretched. And a Nine, faced with the choice between demanding a seat at the table and walking out quietly, did what Nines have been doing since the beginning of the Enneagram.
+
+He walked out quietly.
+
+Years later, in a 2018 interview with _Esquire_, he went slightly further. He said he didn't think _The Office_ would "fly" today, that "so much of it was predicated on inappropriate behavior," and that "I just don't know how that would fly now." This is an actor gently stepping away from the character that made him famous and gently handing the keys back. A Three would defend the show to the death. An Eight would double down and dare the culture to cancel them. A Nine says, _yeah, maybe that's not how we do things anymore_, and then goes to make a small, tender movie about a father and his addicted son.
+
+---
+
+## The Year Frank Ginsberg Quietly Arrived
+
+Before _Foxcatcher_ reset the conversation about Steve Carell in 2014, there was a quieter rehearsal in 2006.
+
+_Little Miss Sunshine_ opened the same summer that _The Office_ was finishing its second season and that _The 40-Year-Old Virgin_ was still in the cultural bloodstream. At the exact moment Carell became America's reigning comedy lead, he took a supporting role in a road-trip indie about a dysfunctional family crossing New Mexico in a yellow VW bus. He played Frank Ginsberg, a gay Proust scholar recovering from a suicide attempt after his academic rival left him for a younger man. Frank spends most of the movie in a faded tracksuit, sitting silently in the back of the van, staring out the window. He has almost no punchlines. He barely raises his voice. The role was originally written for Bill Murray. The directors gave it to Carell anyway, and what he did with it was lean in so completely to the wound that the character barely needed to speak.
+
+The movie became a sleeper hit and got nominated for Best Picture. It is easy, from a 2026 vantage point, to talk about Carell's dramatic pivot as something that began with John du Pont. It did not. The dramatic Steve Carell and the comedic Steve Carell are not two careers. They are the same Nine, making the same bet on stillness, getting it right twice in the same year.
+
+---
+
 ## What Bennett Miller Noticed About Steve Carell on the Set of Foxcatcher
 
 In 2014, Steve Carell did something nobody who had watched _The 40-Year-Old Virgin_ or _Get Smart_ or _Dan in Real Life_ saw coming. He played John du Pont, the real-life, emotionally starved, quietly deranged heir to the du Pont chemical fortune, in Bennett Miller's _Foxcatcher_. The movie was about wrestling, about money, about male need, and about how slowly a person can destroy other people if they have enough space around them.
@@ -217,11 +249,21 @@ And then, in a role like John du Pont, the same stillness reads as menace. Becau
 
 This is the one place Carell's Nine-ness stops being charming and starts being frightening, and it is exactly the place his dramatic career lives.
 
+Eight years after _Foxcatcher_, FX finally built him the role that reads, in retrospect, like someone had written it specifically to test the thesis.
+
+In 2022's _The Patient_, Carell plays Alan Strauss, a therapist kidnapped by a new client who turns out to be a serial killer. The killer, played by Domhnall Gleeson, chains Alan to a bed in a basement and demands that the therapist cure his homicidal urges. That is the premise for ten episodes of television. One man, mostly silent, mostly still, absorbing another man's need, trying to steady a room he cannot physically leave.
+
+It is almost too on the nose. The Type 9 defense mechanism is: _if I can stay calm, if I can find the other person's peace button, everything will be okay_. _The Patient_ is ten hours of that defense mechanism failing in real time. Alan Strauss does exactly what therapists are professionally trained to do, and it is not enough, and he cannot get out, and he has to keep trying anyway. Carell earned a SAG nomination for the performance. It is this entire essay, acted out backwards.
+
 ---
 
-## Why Steve Carell Doesn't Enjoy Comedy
+## Greg Russo Shows Up for His Daughter
 
-In March 2026, on the _Good Hang_ podcast with Amy Poehler — herself a Second City alum, herself an old friend — Carell said the single most revealing thing he has ever said in an interview. They were talking about comedy, and he said, plainly, almost apologetically:
+In March 2026, HBO premiered _Rooster_, a half-hour comedy created by Bill Lawrence of _Scrubs_ and _Ted Lasso_, built as a vehicle for Carell. The show became the most watched HBO comedy premiere in over a decade.
+
+Carell plays Greg Russo, a best-selling author of trashy beach reads who takes a position as Writer in Residence at a small liberal arts college in order to be closer to his adult daughter Katie, an art history professor mid-divorce. The setup is the most Type 9 casting of Carell's career. A successful middle-aged man uproots his life to quietly show up for an adult child who did not ask for help, does not know how to ask for help, and would arguably prefer that he not have come. Greg Russo is going to spend a whole first season making himself small enough to be useful inside a room he was not invited into. That is the Nine project, translated for premium cable.
+
+Two weeks after the _Rooster_ premiere, Carell sat down with Amy Poehler on her _Good Hang_ podcast and, almost as an aside, delivered the single most revealing sentence of his public career. They were talking about comedy, and he said, plainly, almost apologetically:
 
 <div class="pull-quote">"I don't enjoy comedy. No, I never have, especially with me."</div>
 
@@ -229,15 +271,11 @@ Poehler, to her credit, did not try to unsay it for him. She let it sit there.
 
 A comedian who does not enjoy comedy is not a comedian. But Carell has never actually claimed to be one. He has always said, politely and consistently, that he is an actor who happens to be good at comedy. He trained at Second City. He studied George Carlin and Steve Martin "over and over," listening to their routines the way a kid studies tapes of goalies. He learned how it worked. He figured out the moves. And then he performed the moves so well that America spent twenty years assuming the performance was the person.
 
-What he has been telling us, in dozens of interviews, is that the person is a quiet, private, deeply self-effacing man who finds being the center of attention actively painful. He is the audience member who got mistaken for the act. He is the "beige against the tan wall" who got hired to paint the wall. He is a Type 9 who has spent his entire professional life doing the one thing Nines hate most — being noticed — and who has gotten so good at it that almost no one notices how much he doesn't enjoy it.
-
-This is the thing that complicates the easy reading of Steve Carell. It is tempting to look at his career — the Oscar nomination, the 30-year marriage, the two kids at Northwestern, the easy pivot between comedy and drama, the universal respect of his peers — and think of him as some kind of well-adjusted miracle. And he is, kind of. But a Nine who is beloved by everyone and who never disturbs anyone's peace is also a Nine who has paid for that harmony somewhere. The cost is in the little moments. The tour bus. The ball on the sidewalk. The understated admission on a podcast that he doesn't actually like the thing that made him famous.
-
-It takes a long time to hear what Carell is actually saying, because he says it in a voice designed not to be heard.
+The person has been telling us who he is for thirty years. It just takes a while to hear him, because he is saying it in a voice designed not to be heard.
 
 ---
 
-## The Story of the Dog
+## The Stillness You Inherit
 
 There is one more moment worth holding, because it shows what is under the quiet.
 
@@ -247,13 +285,15 @@ Carell explained to the interviewer that the reason this moment stuck with him w
 
 Two quiet Carell men. One dying dog. One of them was finally allowed to cry, and only because he had an excuse.
 
-A Nine will tell you a story like that and then move on, because Nines do not milk their own grief for attention. But listen to what the story is actually doing. It is Carell, now the father himself, looking back at his own father and understanding — perhaps for the first time — how much had been pushed down for how long, and what it cost. It is the moment he learned that stillness is a thing you inherit. The stillness was in his father. The stillness went into him. And the stillness is what he has been turning into performances his whole life.
+Harriet Carell, the psychiatric nurse who had asked her son what he liked to do and then helped him write the list, died in 2016. Edwin, the engineer who had quietly changed the family name from Caroselli decades earlier, died in 2021 at ninety-five. By the time Steve Carell sat down on Amy Poehler's podcast in 2026 and said the thing about the tour bus, both of the people who had taught him how to disappear were gone.
 
-When he plays the father in _Beautiful Boy_, staring at his son across a diner table, unable to fix anything, unable to stop crying — he is not acting. He is letting something out that, under any other circumstances, his entire personality is engineered to hold in. Which is maybe why, in the end, Steve Carell is not really a comedian at all.
+A Nine will tell you a story like the dog story and then move on, because Nines do not milk their own grief for attention. But listen to what the story is actually doing. It is Carell, now the father himself, looking back at his own father and understanding how much had been pushed down for how long, and what it cost. It is the moment he learned that stillness is a thing you inherit. The stillness was in his father. It went into him. And the stillness is what he has been turning into performances his entire career.
 
-He is a man whose superpower and whose wound are both called _quiet_. He has spent his whole life trying not to be seen. And every time he almost succeeds, a camera finds him. A tour bus passes by. A lamp shows up. A dog dies. And out of nowhere, the beige against the tan wall does something small and exact that nobody else in the room would have known how to do, and the entire country stops and looks at him, and he, of course, shrinks into a little ball.
+When he plays the father in _Beautiful Boy_, staring at his son across a diner table, unable to fix anything, unable to stop crying, he is not acting. He is letting something out that, under any other circumstances, his entire personality is engineered to hold in. He is doing the one thing Edwin Carell ever got to do at the vet's office that day in Massachusetts: cry in public because he finally had an excuse.
 
-And then he gets up and goes home to Nancy.
+Which is maybe why, in the end, Steve Carell is not really a comedian at all. He is a man whose superpower and whose wound are both called _quiet_. And every once in a while, in a diner booth across from Timothée Chalamet, or in a basement chained to a bed with Domhnall Gleeson, or in the last scene before Michael Scott takes off the microphone and goes home, the quiet opens for a second, and we see what was in there the whole time.
+
+Then he gets up and goes home to Nancy.
 
 ---
 
@@ -293,3 +333,36 @@ What's already working:
 - The Edwin / dog / "stillness is a thing you inherit" beat is the emotional spine of the draft. Protect it; just let it be the last thing the reader sees.
 -->
 
+<!-- SECOND PASS NOTES (2026-04-08)
+Addressed:
+- Added "The Quietest Man on The Daily Show" section (1999–2005, Even Stevphen, merge trick professionalized) as the bridge from Second City to Anchorman.
+- Moved "I Love Lamp" / Anchorman (2004) before the Michael Scott section to preserve chronology. Added a one-line bridge ("A year after Anchorman, NBC handed Carell...") into the Michael Scott graf.
+- Added "The Most Type 9 Exit in Sitcom History" on leaving The Office in 2011. Frames the Andy-Greene oral-history reporting that NBC never made a definitive offer, so Carell walked out quietly. Folded in the 2018 Esquire "wouldn't fly today" quote as coda.
+- Added "The Year Frank Ginsberg Quietly Arrived" on Little Miss Sunshine (2006). Positions it as the hidden first quiet-wound role that arrived alongside 40YO Virgin and early Office, not after Foxcatcher.
+- Added The Patient (FX, 2022) inside the Foxcatcher / stillness-as-menace section. Framed it as "ten hours of the Type 9 defense mechanism failing in real time" and noted the SAG nomination.
+- Added "Greg Russo Shows Up for His Daughter" on Rooster (HBO, March 2026). Names Bill Lawrence, Greg Russo, Writer in Residence, and the adult-daughter Katie setup, and frames it as the most on-the-nose Type 9 casting of his career. Folded the Good Hang "I don't enjoy comedy" quote into this section as the companion beat; cut the standalone "Why Steve Carell Doesn't Enjoy Comedy" section as restatement.
+- Trimmed "shrunk into a little ball" to the opener only. Removed the reprises in the Michael Scott graf and the closing.
+- Trimmed "beige against the tan wall" to the Nancy/Colbert section only. Removed the closing reprise.
+- Trimmed "aggressively homogenized" to two appearances (pull quote + TL;DR). Cut the italicized restatement. Reworded the contrast-panel private-SC blurb so the phrase does not appear a third time.
+- Cut the five-bullet quote list in the type-explainer section. Folded the two strongest quotes ("I don't think of myself as funny" + "I'm not the life of the party. But on the other hand, I am at the party") into prose so the momentum from the tour bus graf carries forward.
+- Moved the One-wing (Dreamer) paragraph out of the dense framework section and into the Acton childhood section, next to the Catholic / fife / moral-compass texture.
+- Expanded Nancy as a creative partner. Gave her a dedicated paragraph in the Chicago section (SNL + Daily Show writing, Carol Stills, thirty years in each other's creative orbit).
+- Closing now lands on the dog. Added a short lineage paragraph with the verified death dates (Harriet 2016, Edwin 2021 at ninety-five) so the reader knows both parents are now gone before the "stillness is a thing you inherit" beat. Reworked the Beautiful Boy closer so Edwin's vet-office grief explicitly rhymes with Carell's on-screen grief. Cut the tour-bus reprise paragraph.
+
+Kept as-is:
+- Tour bus opening (A-tier, untouched).
+- Nancy Walls "two Nines each thought the other hated them" anecdote.
+- Colbert "beige against a tan wall" line.
+- Paul Rudd warning + "refused to rewatch the British version."
+- Bennett Miller "push it down and do something normal that nobody else does" + "quiet is not the same as safe. He is a dam."
+- "I love lamp" reframed as "a Nine defaulting to the nearest object under pressure."
+
+Corrections to the fresh-eyes review:
+- The review had parent death years as Edwin 2016 / Harriet 2017. Verified: Harriet died May 2016, Edwin died March 2021 at ninety-five. Both parents are gone by 2026, which is the load-bearing context the review wanted.
+- Daily Show tenure was 1999–2005 (not 1999–2004). Corrected in the new section.
+
+Still open:
+- The Big Short (2015) still isn't in the piece. Considered inserting it in the dramatic-pivot stretch but Foxcatcher + Little Miss Sunshine + The Patient + Beautiful Boy already carry the range argument. Adding it risks bloating without new thesis lift. Flagging for an editor if they disagree.
+- The Rooster peg is now properly earned by its own section, but the contrast panel still name-checks Rooster early. An editor may want to decide whether the contrast panel mention is now redundant or whether it correctly primes the reader for the later section.
+- Line length: the piece is now substantially longer after the three new sections (Daily Show, Leaving The Office, Little Miss Sunshine, The Patient, Rooster). If an editor flags length, the easiest cuts are the "paradox that sits at the center" graf and the Michael Scott section's Greg Daniels quote paragraph, both of which are the closest to thesis restatement.
+-->
