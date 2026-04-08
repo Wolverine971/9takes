@@ -11,7 +11,8 @@ published: false
 type: ['relationships']
 blog: true
 previewHtml: ''
-pic: 'greek-statues-online-dating'
+pic: ''
+mjPrompt: 'Greek marble man and woman studying glowing dating profiles on separate phones across a cafe table, faces full of curiosity and guarded hope, floating match cards and heart icons between them, neon magenta and cyan app reflections on polished stone, modern relationship psychology scene, cyberpunk style, Unreal Engine, Cinematic, Color Grading, portrait Photography, Shot on 50mm lens, Ultra-Wide Angle, Depth of Field, hyper-detailed, beautifully color-coded, insane details, intricate details, beautifully color graded, neon glow, Accent Lighting, Moody Lighting, Soft Lighting, Volumetric, Beautiful Lighting, Global Illumination, Ray Tracing Global Illumination, hyper realistic, super detailed --ar 16:9 --stylize 200 --quality 2 --raw'
 path: src/blog/enneagram/enneagram-online-dating-guide.md
 ---
 

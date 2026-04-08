@@ -367,7 +367,9 @@
 			</div>
 		</div>
 		<p class="coaching-hint">
-			Want to go deeper? <a href="/book-session">Explore 1-on-1 guidance</a>
+			If you want personal guidance applying this work, <a href="/book-session"
+				>1-on-1 sessions are available</a
+			>.
 		</p>
 	</section>
 
@@ -1053,12 +1055,14 @@
 
 	.coaching-hint {
 		text-align: center;
-		font-size: 0.9375rem;
-		color: var(--text-tertiary);
-		margin-top: 1.25rem;
+		max-width: 34rem;
+		margin: 1.1rem auto 0;
+		font-size: 0.875rem;
+		line-height: 1.55;
+		color: color-mix(in srgb, var(--text-tertiary) 88%, transparent);
 
 		a {
-			color: var(--accent-light);
+			color: color-mix(in srgb, var(--accent-light) 82%, var(--text-secondary));
 			text-decoration: none;
 
 			&:hover {

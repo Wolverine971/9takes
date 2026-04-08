@@ -11,7 +11,8 @@ published: false
 type: ['communication']
 blog: true
 previewHtml: ''
-pic: 'greek-bridge-conversation'
+pic: ''
+mjPrompt: 'Two greek marble statues facing each other across a cracked stone bridge, one extending an open hand and the other lowering a shield, faces full of caution and curiosity, civic plaza at sunrise, marble white and gold accents with deep blue shadows, community dialogue scene, Unreal Engine, Cinematic, Color Grading, portrait Photography, Shot on 50mm lens, Ultra-Wide Angle, Depth of Field, hyper-detailed, beautifully color-coded, insane details, intricate details, beautifully color graded, 32k, Super-Resolution, Megapixel, Soft Lighting, Volumetric, Global Illumination, Ray Tracing Global Illumination, hypermaximalist, elegant, hyper realistic, super detailed --ar 16:9 --stylize 200 --quality 2 --raw'
 path: src/blog/community/drafts/the-9takes-bridge-protocol.md
 ---
 

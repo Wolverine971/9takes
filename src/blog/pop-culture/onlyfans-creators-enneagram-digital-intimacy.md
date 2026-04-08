@@ -12,8 +12,8 @@ published: false
 type: ['situational']
 blog: true
 previewHtml: ''
-pic: 'onlyfans-creator-psychology'
-mjPrompt: 'Greek marble statue of woman behind translucent screen barrier, hands pressed against invisible wall, hundreds of smaller marble hands reaching toward her from the other side, soft pink and purple gradient lighting, laptop showing subscriber count numbers visible on table beside her, privacy curtain partially drawn in background, emotional distance captured in stone, the transaction of intimacy made visible, intimate portrait photography style, shot on 85mm lens --ar 16:9 --v 6'
+pic: ''
+mjPrompt: 'Greek marble statue of a woman behind a translucent screen barrier, hands pressed against invisible glass, hundreds of smaller marble hands reaching from the other side, face full of distance and control, laptop with glowing subscriber count on a table beside her, soft magenta and cyan gradient light, digital intimacy scene, cyberpunk style, Unreal Engine, Cinematic, Color Grading, portrait Photography, Shot on 85mm lens, Depth of Field, hyper-detailed, beautifully color-coded, insane details, intricate details, beautifully color graded, neon glow, Accent Lighting, Moody Lighting, Soft Lighting, Volumetric, Beautiful Lighting, Global Illumination, Ray Tracing Global Illumination, hyper realistic, super detailed --ar 16:9 --stylize 200 --quality 2 --raw'
 path: src/blog/pop-culture/onlyfans-creators-enneagram-digital-intimacy.md
 ---
 

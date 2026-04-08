@@ -8,7 +8,7 @@
 
 	// Props to receive navigation items
 	export let navItems: Array<{ href: string; label: string }> = [];
-	export let blogItems: Array<{ href: string; label: string }> = [];
+	export let libraryItems: Array<{ href: string; label: string }> = [];
 
 	// State management
 	let isMenuOpen = false;
@@ -78,6 +78,10 @@
 			closeMenu();
 		}
 	}
+
+	function isActive(href: string): boolean {
+		return href === '/' ? $page.url.pathname === '/' : $page.url.pathname.startsWith(href);
+	}
 </script>
 
 <svelte:window on:keydown={handleKeydown} />
@@ -104,6 +108,7 @@
 		<div
 			class="mobile-nav-overlay"
 			role="dialog"
+			tabindex="-1"
 			aria-modal="true"
 			aria-labelledby="mobile-nav-title"
 			on:click={handleBackdropClick}
@@ -145,26 +150,26 @@
 								<a
 									{href}
 									class="nav-link"
-									class:active={$page.url.pathname === href}
+									class:active={isActive(href)}
 									on:click={closeMenu}
-									aria-current={$page.url.pathname === href ? 'page' : undefined}
+									aria-current={isActive(href) ? 'page' : undefined}
 								>
 									{label}
 								</a>
 							</li>
 						{/each}
 
-						<!-- Blog dropdown section -->
+						<!-- Library dropdown section -->
 						<li class="nav-item dropdown-item">
 							<button
 								type="button"
 								class="dropdown-toggle"
 								aria-haspopup="true"
 								aria-expanded={isDropdownOpen}
-								aria-controls="mobile-blog-menu"
+								aria-controls="mobile-library-menu"
 								on:click={toggleDropdown}
 							>
-								<span>Blog</span>
+								<span>Library</span>
 								<svg
 									class="dropdown-arrow"
 									class:rotated={isDropdownOpen}
@@ -181,19 +186,19 @@
 
 							{#if isDropdownOpen}
 								<ul
-									id="mobile-blog-menu"
+									id="mobile-library-menu"
 									class="submenu"
 									in:fly={{ y: -10, duration: 200 }}
 									out:fly={{ y: -10, duration: 150 }}
 								>
-									{#each blogItems as { href, label }}
+									{#each libraryItems as { href, label }}
 										<li class="submenu-item">
 											<a
 												{href}
 												class="submenu-link"
-												class:active={$page.url.pathname === href}
+												class:active={isActive(href)}
 												on:click={closeMenu}
-												aria-current={$page.url.pathname === href ? 'page' : undefined}
+												aria-current={isActive(href) ? 'page' : undefined}
 											>
 												{label}
 											</a>
@@ -201,19 +206,6 @@
 									{/each}
 								</ul>
 							{/if}
-						</li>
-
-						<!-- About link -->
-						<li class="nav-item">
-							<a
-								href="/about"
-								class="nav-link"
-								class:active={$page.url.pathname === '/about'}
-								on:click={closeMenu}
-								aria-current={$page.url.pathname === '/about' ? 'page' : undefined}
-							>
-								About
-							</a>
 						</li>
 					</ul>
 
@@ -265,7 +257,7 @@
 			background-color: rgba(0, 0, 0, 0.05);
 		}
 
-		&:focus-visible {
+		&:focus {
 			outline: 2px solid var(--primary);
 			outline-offset: 2px;
 		}
@@ -361,7 +353,7 @@
 			color: var(--text-primary);
 		}
 
-		&:focus-visible {
+		&:focus {
 			outline: 2px solid var(--primary);
 			outline-offset: 2px;
 		}
@@ -409,7 +401,7 @@
 			font-weight: 600;
 		}
 
-		&:focus-visible {
+		&:focus {
 			outline: 2px solid var(--primary);
 			outline-offset: -2px;
 		}
@@ -440,7 +432,7 @@
 			color: var(--primary);
 		}
 
-		&:focus-visible {
+		&:focus {
 			outline: 2px solid var(--primary);
 			outline-offset: -2px;
 		}
@@ -490,7 +482,7 @@
 			font-weight: 500;
 		}
 
-		&:focus-visible {
+		&:focus {
 			outline: 2px solid var(--primary);
 			outline-offset: -2px;
 		}
@@ -549,7 +541,7 @@
 			transform: translateY(-1px);
 		}
 
-		&:focus-visible {
+		&:focus {
 			outline: 2px solid var(--primary);
 			outline-offset: 2px;
 		}

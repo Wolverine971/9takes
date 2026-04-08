@@ -1,9 +1,9 @@
 <!-- src/lib/components/molecules/Comment.svelte -->
 <script lang="ts">
-	import { browser } from '$app/environment';
-	import { createEventDispatcher, onMount } from 'svelte';
+	import { createEventDispatcher } from 'svelte';
 	import { deserialize } from '$app/forms';
 	import { fade, slide } from 'svelte/transition';
+	import { getOrCreateVisitorId } from '$lib/analytics/visitorIdentity';
 	import { notifications } from '$lib/components/molecules/notifications';
 	import Card from '$lib/components/atoms/card.svelte';
 	import Comments from '$lib/components/molecules/Comments.svelte';
@@ -37,9 +37,8 @@
 	let loadingComments = false;
 	let loading = false;
 
-	// Cached fingerprint for replies
+	// Cached visitor id for replies
 	let cachedFingerprint: string | null = null;
-	let fingerprintLoading = false;
 
 	// Use shared viewport store
 	$: innerWidth = $viewportWidth;
@@ -216,20 +215,8 @@
 		loading = true;
 
 		try {
-			// Use cached fingerprint if available, otherwise load it now
-			let fingerprint = cachedFingerprint;
-			if (!fingerprint && !fingerprintLoading) {
-				fingerprintLoading = true;
-				try {
-					const FingerprintJS = (await import('@fingerprintjs/fingerprintjs')).default;
-					const fp = await FingerprintJS.load();
-					const fpval = await fp.get();
-					fingerprint = fpval?.visitorId?.toString() || null;
-					cachedFingerprint = fingerprint;
-				} finally {
-					fingerprintLoading = false;
-				}
-			}
+			const fingerprint = cachedFingerprint || getOrCreateVisitorId();
+			cachedFingerprint = fingerprint;
 
 			const body = new FormData();
 			body.append('comment', newcomment);
@@ -238,7 +225,7 @@
 			body.append('parent_type', 'comment');
 			body.append('es_id', _commentComment.es_id ?? '');
 			body.append('question_id', questionId.toString());
-			body.append('fingerprint', fingerprint || '');
+			body.append('fingerprint', fingerprint);
 
 			const resp = await fetch('?/createCommentRando', { method: 'POST', body });
 

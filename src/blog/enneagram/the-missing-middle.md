@@ -11,7 +11,8 @@ published: false
 type: ['situational']
 blog: true
 previewHtml: ''
-pic: 'greek-statue-standing-in-fog'
+pic: ''
+mjPrompt: 'Greek marble statue standing half-visible in dense fog between a clinical office doorway and a wall of glowing self-help screens, face full of uncertainty and recognition, faint cracks lit from within, marble white and cool blue tones, liminal psychological threshold, Unreal Engine, Cinematic, Color Grading, portrait Photography, Shot on 50mm lens, Ultra-Wide Angle, Depth of Field, hyper-detailed, beautifully color-coded, insane details, intricate details, beautifully color graded, 32k, Super-Resolution, Megapixel, Halfrear Lighting, Backlight, Cinematic Lighting, Volumetric, Global Illumination, Ray Tracing Global Illumination, hypermaximalist, elegant, hyper realistic, super detailed --ar 16:9 --stylize 750 --quality 2'
 path: src/blog/enneagram/the-missing-middle.md
 ---
 

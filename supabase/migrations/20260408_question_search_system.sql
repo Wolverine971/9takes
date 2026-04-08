@@ -185,7 +185,7 @@ RETURNS TABLE (
   url TEXT,
   question TEXT,
   question_formatted TEXT,
-  comment_count INTEGER,
+  comment_count BIGINT,
   headline TEXT,
   rank REAL
 )
@@ -242,11 +242,11 @@ BEGIN
       )
   )
   SELECT
-    rq.id,
+    rq.id::BIGINT,
     rq.url,
     rq.question,
     rq.question_formatted,
-    rq.comment_count,
+    rq.comment_count::BIGINT,
     ts_headline(
       'english',
       COALESCE(rq.question_formatted, rq.question, '') || ' ... ' ||

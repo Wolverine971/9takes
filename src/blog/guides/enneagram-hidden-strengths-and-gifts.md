@@ -8,7 +8,8 @@ lastmod: '2026-02-06'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
-pic: 'greek-statue-glowing-different-colors'
+pic: ''
+mjPrompt: 'Greek marble statue with head heart and gut glowing in distinct amber crimson and electric blue, subtle cracks radiating light through polished stone, face full of awakening and power, dark studio background, personal growth transformation, Unreal Engine, Cinematic, Color Grading, Editorial Photography, Shot on 70mm lens, Depth of Field, DOF, Tilt Blur, Shutter Speed 1/1000, F/22, White Balance, 32k, Super-Resolution, Megapixel, Beautiful Lighting, Soft Lighting, Volumetric, Global Illumination, Ray Tracing Global Illumination, hypermaximalist, elegant, hyper realistic, super detailed --ar 16:9 --stylize 750 --quality 2'
 path: src/blog/guides/enneagram-hidden-strengths-and-gifts.md
 ---
 

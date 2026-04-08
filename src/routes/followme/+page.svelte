@@ -74,7 +74,7 @@
 </div>
 
 <div style="margin:2rem;">
-	<EmailSignup cta={'Join Waitlist'} />
+	<EmailSignup cta={'Get 9takes updates in your inbox'} />
 </div>
 
 <style lang="scss">

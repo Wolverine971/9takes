@@ -1565,6 +1565,72 @@ export type Database = {
         }
         Relationships: []
       }
+      daily_visitor_cohorts: {
+        Row: {
+          acquisition_source: string
+          cohort_date: string
+          cohort_size: number
+          commented_d0: number
+          commented_within_d7: number
+          engaged_d0: number
+          engaged_ms_total_within_d7: number
+          engaged_within_d7: number
+          entry_surface: string
+          refreshed_at: string
+          registered_d0: number
+          registered_within_d7: number
+          retained_d1: number
+          retained_d14: number
+          retained_d3: number
+          retained_d30: number
+          retained_d7: number
+          signed_up_d0: number
+          signed_up_within_d7: number
+        }
+        Insert: {
+          acquisition_source: string
+          cohort_date: string
+          cohort_size?: number
+          commented_d0?: number
+          commented_within_d7?: number
+          engaged_d0?: number
+          engaged_ms_total_within_d7?: number
+          engaged_within_d7?: number
+          entry_surface: string
+          refreshed_at?: string
+          registered_d0?: number
+          registered_within_d7?: number
+          retained_d1?: number
+          retained_d14?: number
+          retained_d3?: number
+          retained_d30?: number
+          retained_d7?: number
+          signed_up_d0?: number
+          signed_up_within_d7?: number
+        }
+        Update: {
+          acquisition_source?: string
+          cohort_date?: string
+          cohort_size?: number
+          commented_d0?: number
+          commented_within_d7?: number
+          engaged_d0?: number
+          engaged_ms_total_within_d7?: number
+          engaged_within_d7?: number
+          entry_surface?: string
+          refreshed_at?: string
+          registered_d0?: number
+          registered_within_d7?: number
+          retained_d1?: number
+          retained_d14?: number
+          retained_d3?: number
+          retained_d30?: number
+          retained_d7?: number
+          signed_up_d0?: number
+          signed_up_within_d7?: number
+        }
+        Relationships: []
+      }
       email_campaigns: {
         Row: {
           created_at: string | null
@@ -2520,7 +2586,13 @@ export type Database = {
           email: string | null
           enneagram: string | null
           external_id: string | null
+          first_acquisition_source: string | null
+          first_entry_surface: string | null
+          first_landing_path: string | null
           first_name: string | null
+          first_referrer_host: string | null
+          first_touch_fingerprint: string | null
+          first_visit_at: string | null
           id: string
           last_name: string | null
           username: string | null
@@ -2534,7 +2606,13 @@ export type Database = {
           email?: string | null
           enneagram?: string | null
           external_id?: string | null
+          first_acquisition_source?: string | null
+          first_entry_surface?: string | null
+          first_landing_path?: string | null
           first_name?: string | null
+          first_referrer_host?: string | null
+          first_touch_fingerprint?: string | null
+          first_visit_at?: string | null
           id: string
           last_name?: string | null
           username?: string | null
@@ -2548,7 +2626,13 @@ export type Database = {
           email?: string | null
           enneagram?: string | null
           external_id?: string | null
+          first_acquisition_source?: string | null
+          first_entry_surface?: string | null
+          first_landing_path?: string | null
           first_name?: string | null
+          first_referrer_host?: string | null
+          first_touch_fingerprint?: string | null
+          first_visit_at?: string | null
           id?: string
           last_name?: string | null
           username?: string | null
@@ -3107,6 +3191,12 @@ export type Database = {
         Row: {
           created_at: string | null
           email: string | null
+          first_acquisition_source: string | null
+          first_entry_surface: string | null
+          first_landing_path: string | null
+          first_referrer_host: string | null
+          first_touch_fingerprint: string | null
+          first_visit_at: string | null
           id: number
           name: string | null
           unsubscribe_id: string | null
@@ -3116,6 +3206,12 @@ export type Database = {
         Insert: {
           created_at?: string | null
           email?: string | null
+          first_acquisition_source?: string | null
+          first_entry_surface?: string | null
+          first_landing_path?: string | null
+          first_referrer_host?: string | null
+          first_touch_fingerprint?: string | null
+          first_visit_at?: string | null
           id?: number
           name?: string | null
           unsubscribe_id?: string | null
@@ -3125,6 +3221,12 @@ export type Database = {
         Update: {
           created_at?: string | null
           email?: string | null
+          first_acquisition_source?: string | null
+          first_entry_surface?: string | null
+          first_landing_path?: string | null
+          first_referrer_host?: string | null
+          first_touch_fingerprint?: string | null
+          first_visit_at?: string | null
           id?: number
           name?: string | null
           unsubscribe_id?: string | null
@@ -3316,6 +3418,117 @@ export type Database = {
           twitter?: string | null
           updated_at?: string | null
           youtube?: string | null
+        }
+        Relationships: []
+      }
+      visitor_day_activity: {
+        Row: {
+          activity_date: string
+          comment_count: number
+          engaged_ms_total: number
+          engaged_session_count: number
+          fingerprint: string
+          first_path: string | null
+          last_path: string | null
+          refreshed_at: string
+          registration_count: number
+          session_count: number
+          signup_count: number
+          visit_count: number
+        }
+        Insert: {
+          activity_date: string
+          comment_count?: number
+          engaged_ms_total?: number
+          engaged_session_count?: number
+          fingerprint: string
+          first_path?: string | null
+          last_path?: string | null
+          refreshed_at?: string
+          registration_count?: number
+          session_count?: number
+          signup_count?: number
+          visit_count?: number
+        }
+        Update: {
+          activity_date?: string
+          comment_count?: number
+          engaged_ms_total?: number
+          engaged_session_count?: number
+          fingerprint?: string
+          first_path?: string | null
+          last_path?: string | null
+          refreshed_at?: string
+          registration_count?: number
+          session_count?: number
+          signup_count?: number
+          visit_count?: number
+        }
+        Relationships: []
+      }
+      visitor_first_touch: {
+        Row: {
+          created_at: string
+          fingerprint: string
+          first_acquisition_source: string
+          first_click_id_type: string | null
+          first_click_id_value: string | null
+          first_content_slug: string | null
+          first_content_type: string
+          first_entry_surface: string
+          first_landing_query: string | null
+          first_path: string
+          first_path_group: string
+          first_referrer_host: string | null
+          first_utm_campaign: string | null
+          first_utm_content: string | null
+          first_utm_medium: string | null
+          first_utm_source: string | null
+          first_utm_term: string | null
+          first_visit_at: string
+          first_visit_date: string
+        }
+        Insert: {
+          created_at?: string
+          fingerprint: string
+          first_acquisition_source: string
+          first_click_id_type?: string | null
+          first_click_id_value?: string | null
+          first_content_slug?: string | null
+          first_content_type: string
+          first_entry_surface: string
+          first_landing_query?: string | null
+          first_path: string
+          first_path_group: string
+          first_referrer_host?: string | null
+          first_utm_campaign?: string | null
+          first_utm_content?: string | null
+          first_utm_medium?: string | null
+          first_utm_source?: string | null
+          first_utm_term?: string | null
+          first_visit_at: string
+          first_visit_date: string
+        }
+        Update: {
+          created_at?: string
+          fingerprint?: string
+          first_acquisition_source?: string
+          first_click_id_type?: string | null
+          first_click_id_value?: string | null
+          first_content_slug?: string | null
+          first_content_type?: string
+          first_entry_surface?: string
+          first_landing_query?: string | null
+          first_path?: string
+          first_path_group?: string
+          first_referrer_host?: string | null
+          first_utm_campaign?: string | null
+          first_utm_content?: string | null
+          first_utm_medium?: string | null
+          first_utm_source?: string | null
+          first_utm_term?: string | null
+          first_visit_at?: string
+          first_visit_date?: string
         }
         Relationships: []
       }
@@ -3557,8 +3770,17 @@ export type Database = {
       }
     }
     Functions: {
+      analytics_local_date: { Args: { p_ts: string }; Returns: string }
       analytics_scope_match: {
         Args: { p_content_type: string; p_path: string; p_scope: string }
+        Returns: boolean
+      }
+      attach_profile_first_touch: {
+        Args: { p_fingerprint: string; p_profile_id: string }
+        Returns: boolean
+      }
+      attach_signup_first_touch: {
+        Args: { p_fingerprint: string; p_signup_id: number }
         Returns: boolean
       }
       build_blogs_content_search_vector: {
@@ -3741,6 +3963,18 @@ export type Database = {
           url: string
         }[]
       }
+      get_acquisition_mix_by_week: {
+        Args: { p_entry_surface?: string; p_from?: string; p_to?: string }
+        Returns: {
+          acquisition_source: string
+          cohort_week: string
+          new_visitors: number
+        }[]
+      }
+      get_admin_retention_summary: {
+        Args: { p_anchor_date?: string }
+        Returns: Json
+      }
       get_all_users: {
         Args: never
         Returns: {
@@ -3795,6 +4029,33 @@ export type Database = {
         }[]
       }
       get_children: { Args: { parent_id: number }; Returns: Json }
+      get_cohort_retention_curve: {
+        Args: {
+          p_acquisition_source?: string
+          p_entry_surface?: string
+          p_from?: string
+          p_to?: string
+        }
+        Returns: {
+          cohort_week: string
+          new_visitors: number
+          retained_d1: number
+          retained_d1_denominator: number
+          retained_d1_pct: number
+          retained_d14: number
+          retained_d14_denominator: number
+          retained_d14_pct: number
+          retained_d3: number
+          retained_d3_denominator: number
+          retained_d3_pct: number
+          retained_d30: number
+          retained_d30_denominator: number
+          retained_d30_pct: number
+          retained_d7: number
+          retained_d7_denominator: number
+          retained_d7_pct: number
+        }[]
+      }
       get_email_analytics: {
         Args: {
           p_campaign_id?: string
@@ -3818,6 +4079,44 @@ export type Database = {
           name: string
           source: string
           unsubscribed: boolean
+        }[]
+      }
+      get_entry_surface_overview: {
+        Args: { p_acquisition_source?: string; p_from?: string; p_to?: string }
+        Returns: {
+          avg_engaged_minutes_within_d7: number
+          comment_rate_pct: number
+          commented_within_d7: number
+          entry_surface: string
+          new_visitors: number
+          registered_within_d7: number
+          registration_rate_pct: number
+          retained_d1: number
+          retained_d1_denominator: number
+          retained_d1_pct: number
+          retained_d30: number
+          retained_d30_denominator: number
+          retained_d30_pct: number
+          retained_d7: number
+          retained_d7_denominator: number
+          retained_d7_pct: number
+          signed_up_within_d7: number
+          signup_rate_pct: number
+        }[]
+      }
+      get_first_session_next_paths: {
+        Args: {
+          p_acquisition_source?: string
+          p_entry_surface?: string
+          p_from?: string
+          p_limit?: number
+          p_to?: string
+        }
+        Returns: {
+          avg_engaged_ms: number
+          next_path: string
+          share_pct: number
+          visitor_count: number
         }[]
       }
       get_page_analytics_overview: {
@@ -4050,7 +4349,20 @@ export type Database = {
         Args: { p_content: string }
         Returns: string
       }
+      normalize_acquisition_source: {
+        Args: {
+          p_click_id_type?: string
+          p_referrer_host?: string
+          p_utm_medium?: string
+          p_utm_source?: string
+        }
+        Returns: string
+      }
       normalize_email_text: { Args: { p_email: string }; Returns: string }
+      normalize_entry_surface: {
+        Args: { p_content_type: string; p_path: string }
+        Returns: string
+      }
       parse_json_with_escapes: { Args: { json_text: string }; Returns: Json }
       process_scheduled_emails: { Args: never; Returns: undefined }
       promote_waitlist_to_client: {
@@ -4152,9 +4464,41 @@ export type Database = {
         }
         Returns: boolean
       }
+      record_visitor_first_touch: {
+        Args: {
+          p_click_id_type?: string
+          p_click_id_value?: string
+          p_content_slug: string
+          p_content_type: string
+          p_fingerprint: string
+          p_landing_query?: string
+          p_path: string
+          p_path_group: string
+          p_referrer_host: string
+          p_utm_campaign?: string
+          p_utm_content?: string
+          p_utm_medium?: string
+          p_utm_source?: string
+          p_utm_term?: string
+          p_visit_started_at?: string
+        }
+        Returns: undefined
+      }
+      refresh_daily_visitor_cohorts: {
+        Args: { p_from?: string; p_to?: string }
+        Returns: number
+      }
       refresh_question_search_vector: {
         Args: { p_question_id: number }
         Returns: undefined
+      }
+      refresh_retention_rollups: {
+        Args: { p_from?: string; p_to?: string }
+        Returns: Json
+      }
+      refresh_visitor_day_activity: {
+        Args: { p_from?: string; p_to?: string }
+        Returns: number
       }
       retry_or_fail_sequence_send: {
         Args: { p_enrollment_id: string; p_error: string }
@@ -4264,15 +4608,23 @@ export type Database = {
       }
       upsert_page_analytics_visit: {
         Args: {
+          p_click_id_type?: string
+          p_click_id_value?: string
           p_content_slug?: string
           p_content_type?: string
           p_fingerprint: string
+          p_landing_query?: string
           p_path?: string
           p_path_group?: string
           p_referrer_host?: string
           p_route_id?: string
           p_session_key: string
           p_user_id?: string
+          p_utm_campaign?: string
+          p_utm_content?: string
+          p_utm_medium?: string
+          p_utm_source?: string
+          p_utm_term?: string
           p_visit_key: string
         }
         Returns: {

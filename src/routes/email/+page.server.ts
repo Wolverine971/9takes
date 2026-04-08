@@ -8,7 +8,8 @@ import {
 	joinEmail,
 	joinEmail2,
 	personSuggestionEmail,
-	signupEmail
+	signupEmail,
+	signupWelcomeEmail
 } from '../../emails';
 import { supabase } from '$lib/supabase';
 import {
@@ -109,42 +110,75 @@ export const load: PageServerLoad = async (event) => {
 };
 
 export const actions: Actions = {
-	submit: async ({ request }) => {
+	submit: async ({ request, locals, cookies }) => {
+		const dbLocal = locals.supabase as any;
 		const body = Object.fromEntries(await request.formData());
 		const email = body.email?.toString()?.trim();
+		const normalizedEmail = email ? normalizeEmail(email) : '';
 
-		if (!email || !/\S+@\S+\.\S+/.test(email)) {
+		if (!normalizedEmail || !/\S+@\S+\.\S+/.test(normalizedEmail)) {
 			return { data: null, error: { message: 'Invalid email address' } };
 		}
 
 		// Check if email already exists
-		const { data: existing } = await db.from('signups').select('id').eq('email', email).single();
+		const { data: existing } = await dbLocal
+			.from('signups')
+			.select('id')
+			.eq('email', normalizedEmail)
+			.single();
 
 		if (existing) {
 			return { data: null, error: { message: 'Email already exists' } };
 		}
 
 		// Insert new signup
-		const { error: insertError } = await db.from('signups').insert([{ email }]);
+		const { data: insertedSignup, error: insertError } = await dbLocal
+			.from('signups')
+			.insert([{ email: normalizedEmail }])
+			.select('id')
+			.single();
 
 		if (insertError) {
-			logger.error('Failed to insert signup', insertError, { email });
+			logger.error('Failed to insert signup', insertError, { email: normalizedEmail });
 			return { data: null, error: { message: 'Failed to save signup' } };
 		}
 
-		// Send confirmation email
+		try {
+			const fingerprint = cookies.get('9tfingerprint');
+			if (fingerprint && insertedSignup?.id) {
+				const { error: attachError } = await dbLocal.rpc('attach_signup_first_touch', {
+					p_signup_id: insertedSignup.id,
+					p_fingerprint: fingerprint
+				});
+
+				if (attachError) {
+					logger.warn('Failed to attach first-touch metadata to signup', {
+						email: normalizedEmail,
+						signupId: insertedSignup.id,
+						error: attachError
+					});
+				}
+			}
+		} catch (attachError) {
+			logger.warn('Unexpected error attaching first-touch metadata to signup', {
+				email: normalizedEmail,
+				error: attachError
+			});
+		}
+
+		// Send welcome email
 		try {
 			await sendUntrackedLegacyEmail({
-				to: email,
-				subject: 'Welcome to 9takes!',
-				body: signupEmail()
+				to: normalizedEmail,
+				subject: 'You are in for 9takes updates',
+				body: signupWelcomeEmail()
 			});
 		} catch (e) {
-			logger.warn('Failed to send signup confirmation email', { email, error: e });
+			logger.warn('Failed to send signup welcome email', { email: normalizedEmail, error: e });
 			// Don't fail - signup was saved
 		}
 
-		logger.info('New signup submitted', { email });
+		logger.info('New signup submitted', { email: normalizedEmail });
 		return { data: { success: true }, error: null };
 	},
 

@@ -22,9 +22,10 @@
 		normalizePath,
 		shouldTrackPath
 	} from '$lib/analytics/pageAnalytics';
+	import { extractPageViewAttribution } from '$lib/analytics/attribution';
+	import { getOrCreateVisitorId } from '$lib/analytics/visitorIdentity';
 	import { webVitals } from '$lib/vitals';
 	import { preparePageTransition } from '$lib/page-transition';
-	import { getCookie, setCookie } from '../utils/cookies';
 
 	// Components
 	import Header from '$lib/components/molecules/Header.svelte';
@@ -44,7 +45,6 @@
 	const MAX_WIDTH_PAGES = ['/', '/content-board', '/book-session'];
 	const ANALYTICS_SESSION_STORAGE_KEY = '9t_analytics_session_key';
 	const ANALYTICS_SESSION_LAST_SEEN_STORAGE_KEY = '9t_analytics_session_last_seen';
-	const ANALYTICS_FALLBACK_FINGERPRINT_STORAGE_KEY = '9t_analytics_fallback_fingerprint';
 
 	let innerWidth = 0;
 	let isMobile = false;
@@ -119,30 +119,6 @@
 		}
 	}
 
-	function getAnalyticsFingerprint(): string {
-		const existingFingerprint = getCookie('9tfingerprint');
-		if (existingFingerprint) {
-			return existingFingerprint;
-		}
-
-		try {
-			const fallback = localStorage.getItem(ANALYTICS_FALLBACK_FINGERPRINT_STORAGE_KEY);
-			if (fallback) {
-				return fallback;
-			}
-		} catch {
-			// Ignore localStorage errors
-		}
-
-		const generatedFallback = `anon-${createUuid()}`;
-		try {
-			localStorage.setItem(ANALYTICS_FALLBACK_FINGERPRINT_STORAGE_KEY, generatedFallback);
-		} catch {
-			// Ignore localStorage errors
-		}
-		return generatedFallback;
-	}
-
 	function markAnalyticsActivity() {
 		analyticsLastActivityAt = Date.now();
 	}
@@ -214,10 +190,10 @@
 		}
 	}
 
-	async function startAnalyticsVisit(pathname: string, routeId: string | null) {
+	async function startAnalyticsVisit(url: URL, routeId: string | null) {
 		if (!browser || (dev && !PUBLIC_ENABLE_DEV_INHOUSE_ANALYTICS)) return;
 
-		const normalizedPath = normalizePath(pathname);
+		const normalizedPath = normalizePath(url.pathname);
 		if (!shouldTrackPath(normalizedPath)) {
 			analyticsVisitKey = null;
 			analyticsVisitEnded = true;
@@ -232,16 +208,25 @@
 		analyticsLastFlushAt = analyticsLastActivityAt;
 
 		const classified = classifyPath(normalizedPath, routeId);
+		const attribution = extractPageViewAttribution(url);
 		const payload = {
 			visit_key: analyticsVisitKey,
 			session_key: analyticsSessionKey,
-			fingerprint: getAnalyticsFingerprint(),
+			fingerprint: getOrCreateVisitorId(),
 			path: classified.path,
 			route_id: classified.routeId,
 			path_group: classified.pathGroup,
 			content_type: classified.contentType,
 			content_slug: classified.contentSlug,
-			referrer_host: getReferrerHost()
+			referrer_host: getReferrerHost(),
+			landing_query: attribution.landing_query,
+			utm_source: attribution.utm_source,
+			utm_medium: attribution.utm_medium,
+			utm_campaign: attribution.utm_campaign,
+			utm_term: attribution.utm_term,
+			utm_content: attribution.utm_content,
+			click_id_type: attribution.click_id_type,
+			click_id_value: attribution.click_id_value
 		};
 
 		await sendAnalyticsEvent('/api/analytics/page-view', payload);
@@ -336,13 +321,13 @@
 	}
 
 	afterNavigate((navigation) => {
-		const nextPath = navigation.to?.url?.pathname ?? $page.url.pathname;
+		const nextUrl = navigation.to?.url ?? $page.url;
 		const nextRouteId = navigation.to?.route?.id ?? null;
 		void (async () => {
 			if (analyticsVisitKey && !analyticsVisitEnded) {
 				await endAnalyticsVisit(false, false);
 			}
-			await startAnalyticsVisit(nextPath, nextRouteId);
+			await startAnalyticsVisit(nextUrl, nextRouteId);
 		})();
 	});
 
@@ -398,21 +383,6 @@
 		}
 	};
 
-	const initFingerprint = async () => {
-		try {
-			// Lazy load FingerprintJS only when needed
-			const FingerprintJS = (await import('@fingerprintjs/fingerprintjs')).default;
-			const fp = await FingerprintJS.load();
-			const { visitorId } = await fp.get();
-
-			if (visitorId) {
-				setCookie('9tfingerprint', visitorId, 365);
-			}
-		} catch (error) {
-			// Error in fingerprint processing
-		}
-	};
-
 	// Handle swipe gestures for navigation with passive event options
 	const handleTouchStart = (e: TouchEvent) => {
 		touchStartX = e.changedTouches[0].screenX;
@@ -442,23 +412,7 @@
 
 		initAnalytics();
 
-		// Defer fingerprint initialization
-		if (browser) {
-			// Use requestIdleCallback to wait for browser idle time if available,
-			// or setTimeout as a fallback
-			if ('requestIdleCallback' in window) {
-				(window as any).requestIdleCallback(
-					() => {
-						initFingerprint();
-					},
-					{ timeout: 2000 }
-				);
-			} else {
-				setTimeout(() => {
-					initFingerprint();
-				}, 2000);
-			}
-		}
+		getOrCreateVisitorId();
 
 		// Update mobile status based on window width
 		updateMobileStatus();

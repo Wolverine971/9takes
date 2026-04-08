@@ -392,13 +392,13 @@
 <div class="sidebar-container">
 	{#key post.slug}
 		{#if postSuggestions.length}
-			<PeopleSuggestionsSideBar links={postSuggestions} />
-		{/if}
-
-		{#if !data?.user && EnneagramCTASidebar}
-			<!-- Uncomment when ready to use
-				<EnneagramCTASidebar />
-				-->
+			<PeopleSuggestionsSideBar links={postSuggestions}>
+				{#if !data?.user && EnneagramCTASidebar}
+					<EnneagramCTASidebar variant="embedded" />
+				{/if}
+			</PeopleSuggestionsSideBar>
+		{:else if !data?.user && EnneagramCTASidebar}
+			<EnneagramCTASidebar sidePosition="left" />
 		{/if}
 	{/key}
 </div>

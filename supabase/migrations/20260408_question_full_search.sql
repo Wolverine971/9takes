@@ -35,7 +35,7 @@ RETURNS TABLE (
   url TEXT,
   question TEXT,
   question_formatted TEXT,
-  comment_count INTEGER,
+  comment_count BIGINT,
   category_names TEXT,
   context TEXT,
   created_at TIMESTAMPTZ,
@@ -100,11 +100,11 @@ BEGIN
       )
   )
   SELECT
-    rq.id,
+    rq.id::BIGINT,
     rq.url,
     rq.question,
     rq.question_formatted,
-    rq.comment_count,
+    rq.comment_count::BIGINT,
     rq.category_display_names AS category_names,
     rq.context,
     rq.created_at,

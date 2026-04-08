@@ -4,6 +4,7 @@
 	import StatCard from '$lib/components/charts/StatCard.svelte';
 	import LineChart from '$lib/components/charts/LineChart.svelte';
 	import { notifications } from '$lib/components/molecules/notifications';
+	import RetentionAnalyticsPanel from '$lib/components/admin/RetentionAnalyticsPanel.svelte';
 	import {
 		ANALYTICS_SCOPES,
 		formatDurationMs,
@@ -108,6 +109,7 @@
 		| 'bounce_rate';
 	type SortDirection = 'asc' | 'desc';
 	type PageBreakdownWindow = '24h' | '7d' | '14d' | '30d' | '90d';
+	type AnalyticsTab = 'pageviews' | 'cohorts';
 
 	interface PageBreakdownWindowOption {
 		key: PageBreakdownWindow;
@@ -147,6 +149,7 @@
 	const initialTimeseries = data.timeseries;
 	const initialRows = data.rows;
 	const initialTopPages = data.topPages;
+	let activeTab = $state<AnalyticsTab>('pageviews');
 
 	const defaultOverview: AnalyticsOverview = {
 		total_visits: 0,
@@ -838,16 +841,46 @@
 			day: 'numeric'
 		});
 	}
+
+	let pageSubtitle = $derived(
+		activeTab === 'pageviews'
+			? 'Visits and time-on-page for all tracked pages'
+			: 'Weekly cohorts by entry surface and acquisition source'
+	);
 </script>
 
 <div class="analytics-page">
 	<header class="page-header">
 		<div>
 			<h1 class="page-title">Analytics</h1>
-			<p class="page-subtitle">Visits and time-on-page for all tracked pages</p>
+			<p class="page-subtitle">{pageSubtitle}</p>
 		</div>
 	</header>
 
+	<div class="analytics-tabs" role="tablist" aria-label="Analytics views">
+		<button
+			type="button"
+			role="tab"
+			class="analytics-tab"
+			class:active={activeTab === 'pageviews'}
+			aria-selected={activeTab === 'pageviews'}
+			onclick={() => (activeTab = 'pageviews')}
+		>
+			Pageviews
+		</button>
+		<button
+			type="button"
+			role="tab"
+			class="analytics-tab"
+			class:active={activeTab === 'cohorts'}
+			aria-selected={activeTab === 'cohorts'}
+			onclick={() => (activeTab = 'cohorts')}
+		>
+			Cohorts &amp; Sources
+		</button>
+	</div>
+
+	{#if activeTab === 'pageviews'}
 	<section class="filter-card">
 		<div class="filter-grid">
 			<label class="field">
@@ -1239,6 +1272,9 @@
 			</button>
 		</div>
 	</section>
+	{:else}
+		<RetentionAnalyticsPanel filters={data.cohortFilters} cohorts={data.cohorts} />
+	{/if}
 </div>
 
 <style>
@@ -1252,6 +1288,27 @@
 		display: flex;
 		align-items: flex-start;
 		justify-content: space-between;
+	}
+
+	.analytics-tabs {
+		display: flex;
+		gap: 8px;
+	}
+
+	.analytics-tab {
+		border: 1px solid var(--bg-elevated);
+		border-radius: 999px;
+		padding: 8px 14px;
+		background: var(--bg-surface);
+		color: var(--text-secondary);
+		font-weight: 600;
+		cursor: pointer;
+	}
+
+	.analytics-tab.active {
+		background: rgba(59, 130, 246, 0.12);
+		border-color: rgba(59, 130, 246, 0.3);
+		color: #93c5fd;
 	}
 
 	.page-title {

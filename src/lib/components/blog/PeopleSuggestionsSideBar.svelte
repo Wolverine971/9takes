@@ -108,6 +108,9 @@
 					</li>
 				{/each}
 			</ul>
+			<div class="sidebar-extra">
+				<slot />
+			</div>
 		</nav>
 	</aside>
 {/if}
@@ -157,6 +160,16 @@
 	.sidebar-nav {
 		width: 100%;
 		padding: 0.5rem;
+	}
+
+	.sidebar-extra {
+		margin-top: 0.9rem;
+		padding-top: 0.9rem;
+		border-top: 1px solid color-mix(in srgb, var(--text-tertiary) 30%, transparent);
+	}
+
+	.sidebar-extra:empty {
+		display: none;
 	}
 
 	.sidebar-title {

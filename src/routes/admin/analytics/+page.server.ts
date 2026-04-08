@@ -21,11 +21,67 @@ interface TopPagesTimeseriesRow {
 	visits: number;
 }
 
+interface CohortOverviewRow {
+	entry_surface: string;
+	new_visitors: number;
+	commented_within_d7: number;
+	comment_rate_pct: number;
+	signed_up_within_d7: number;
+	signup_rate_pct: number;
+	registered_within_d7: number;
+	registration_rate_pct: number;
+	retained_d1: number;
+	retained_d1_denominator: number;
+	retained_d1_pct: number;
+	retained_d7: number;
+	retained_d7_denominator: number;
+	retained_d7_pct: number;
+	retained_d30: number;
+	retained_d30_denominator: number;
+	retained_d30_pct: number;
+	avg_engaged_minutes_within_d7: number;
+}
+
+interface CohortRetentionRow {
+	cohort_week: string;
+	new_visitors: number;
+	retained_d1: number;
+	retained_d1_denominator: number;
+	retained_d1_pct: number;
+	retained_d3: number;
+	retained_d3_denominator: number;
+	retained_d3_pct: number;
+	retained_d7: number;
+	retained_d7_denominator: number;
+	retained_d7_pct: number;
+	retained_d14: number;
+	retained_d14_denominator: number;
+	retained_d14_pct: number;
+	retained_d30: number;
+	retained_d30_denominator: number;
+	retained_d30_pct: number;
+}
+
+interface AcquisitionMixRow {
+	cohort_week: string;
+	acquisition_source: string;
+	new_visitors: number;
+}
+
+interface NextPathRow {
+	next_path: string;
+	visitor_count: number;
+	share_pct: number;
+	avg_engaged_ms: number;
+}
+
 const DEFAULT_SCOPE: AnalyticsScope = 'all';
 const DEFAULT_LIMIT = 50;
 const DEFAULT_TOP_LIST_LIMIT = 8;
 const DEFAULT_TOP_SERIES_LIMIT = 6;
 const DEFAULT_DURATION_MIN_VISITS = 3;
+const DEFAULT_COHORT_WEEKS = 8;
+const DEFAULT_NEXT_PATH_LIMIT = 12;
 
 const overviewDefaults: AnalyticsOverview = {
 	total_visits: 0,
@@ -64,6 +120,39 @@ function startOfMonth(date: Date): Date {
 	return result;
 }
 
+function endOfPreviousWeek(date: Date): Date {
+	const result = startOfWeek(date);
+	result.setDate(result.getDate() - 1);
+	result.setHours(0, 0, 0, 0);
+	return result;
+}
+
+function getCompletedWeeksRange(anchorDate: Date, weeks: number): { from: string; to: string } {
+	const to = endOfPreviousWeek(anchorDate);
+	const from = new Date(to);
+	from.setDate(from.getDate() - (weeks * 7 - 1));
+	from.setHours(0, 0, 0, 0);
+
+	return {
+		from: toDateString(from),
+		to: toDateString(to)
+	};
+}
+
+function isMissingRetentionRpc(err: unknown): boolean {
+	const message =
+		typeof err === 'object' && err !== null && 'message' in err
+			? String((err as { message?: unknown }).message ?? '')
+			: '';
+
+	return (
+		message.includes('get_entry_surface_overview') ||
+		message.includes('get_cohort_retention_curve') ||
+		message.includes('get_acquisition_mix_by_week') ||
+		message.includes('get_first_session_next_paths')
+	);
+}
+
 export const load: PageServerLoad = async (event) => {
 	const session = event.locals.session;
 	const supabase = event.locals.supabase;
@@ -86,12 +175,14 @@ export const load: PageServerLoad = async (event) => {
 		throw error(404, { message: 'Error searching for user' });
 	}
 
-	const toDate = toDateString(new Date());
-	const fromDateObj = new Date();
+	const today = new Date();
+	const toDate = toDateString(today);
+	const fromDateObj = new Date(today);
 	fromDateObj.setDate(fromDateObj.getDate() - 29);
 	const fromDate = toDateString(fromDateObj);
-	const weekFromDate = toDateString(startOfWeek(new Date()));
-	const monthFromDate = toDateString(startOfMonth(new Date()));
+	const weekFromDate = toDateString(startOfWeek(today));
+	const monthFromDate = toDateString(startOfMonth(today));
+	const cohortRange = getCompletedWeeksRange(today, DEFAULT_COHORT_WEEKS);
 
 	const supabaseAny = supabase as any;
 	const [
@@ -101,7 +192,11 @@ export const load: PageServerLoad = async (event) => {
 		topOverTimeResult,
 		topWeekResult,
 		topMonthResult,
-		topDurationResult
+		topDurationResult,
+		cohortOverviewResult,
+		cohortRetentionResult,
+		cohortMixResult,
+		cohortNextPathsResult
 	] = await Promise.all([
 		supabaseAny.rpc('get_page_analytics_overview', {
 			p_from_date: fromDate,
@@ -149,6 +244,29 @@ export const load: PageServerLoad = async (event) => {
 			p_scope: DEFAULT_SCOPE,
 			p_min_visits: DEFAULT_DURATION_MIN_VISITS,
 			p_limit: DEFAULT_TOP_LIST_LIMIT
+		}),
+		supabaseAny.rpc('get_entry_surface_overview', {
+			p_from: cohortRange.from,
+			p_to: cohortRange.to,
+			p_acquisition_source: null
+		}),
+		supabaseAny.rpc('get_cohort_retention_curve', {
+			p_from: cohortRange.from,
+			p_to: cohortRange.to,
+			p_entry_surface: null,
+			p_acquisition_source: null
+		}),
+		supabaseAny.rpc('get_acquisition_mix_by_week', {
+			p_from: cohortRange.from,
+			p_to: cohortRange.to,
+			p_entry_surface: null
+		}),
+		supabaseAny.rpc('get_first_session_next_paths', {
+			p_from: cohortRange.from,
+			p_to: cohortRange.to,
+			p_entry_surface: null,
+			p_limit: DEFAULT_NEXT_PATH_LIMIT,
+			p_acquisition_source: null
 		})
 	]);
 
@@ -171,6 +289,24 @@ export const load: PageServerLoad = async (event) => {
 			topDuration: topDurationResult.error
 		});
 		throw error(500, 'Failed to load analytics');
+	}
+
+	const cohortRpcErrors = [
+		cohortOverviewResult.error,
+		cohortRetentionResult.error,
+		cohortMixResult.error,
+		cohortNextPathsResult.error
+	].filter(Boolean);
+	const retentionAvailable =
+		cohortRpcErrors.length === 0 || cohortRpcErrors.every(isMissingRetentionRpc);
+
+	if (cohortRpcErrors.length > 0 && !cohortRpcErrors.every(isMissingRetentionRpc)) {
+		console.error('Failed loading retention analytics', {
+			overview: cohortOverviewResult.error,
+			retention: cohortRetentionResult.error,
+			acquisitionMix: cohortMixResult.error,
+			nextPaths: cohortNextPathsResult.error
+		});
 	}
 
 	const summary = {
@@ -238,11 +374,87 @@ export const load: PageServerLoad = async (event) => {
 		})
 	);
 
+	const cohortOverview = retentionAvailable
+		? ((cohortOverviewResult.data ?? []) as Array<Record<string, unknown>>).map(
+				(row): CohortOverviewRow => ({
+					entry_surface: String(row.entry_surface ?? 'other'),
+					new_visitors: toNumber(row.new_visitors),
+					commented_within_d7: toNumber(row.commented_within_d7),
+					comment_rate_pct: toNumber(row.comment_rate_pct),
+					signed_up_within_d7: toNumber(row.signed_up_within_d7),
+					signup_rate_pct: toNumber(row.signup_rate_pct),
+					registered_within_d7: toNumber(row.registered_within_d7),
+					registration_rate_pct: toNumber(row.registration_rate_pct),
+					retained_d1: toNumber(row.retained_d1),
+					retained_d1_denominator: toNumber(row.retained_d1_denominator),
+					retained_d1_pct: toNumber(row.retained_d1_pct),
+					retained_d7: toNumber(row.retained_d7),
+					retained_d7_denominator: toNumber(row.retained_d7_denominator),
+					retained_d7_pct: toNumber(row.retained_d7_pct),
+					retained_d30: toNumber(row.retained_d30),
+					retained_d30_denominator: toNumber(row.retained_d30_denominator),
+					retained_d30_pct: toNumber(row.retained_d30_pct),
+					avg_engaged_minutes_within_d7: toNumber(row.avg_engaged_minutes_within_d7)
+				})
+			)
+		: [];
+
+	const cohortRetention = retentionAvailable
+		? ((cohortRetentionResult.data ?? []) as Array<Record<string, unknown>>).map(
+				(row): CohortRetentionRow => ({
+					cohort_week: String(row.cohort_week ?? ''),
+					new_visitors: toNumber(row.new_visitors),
+					retained_d1: toNumber(row.retained_d1),
+					retained_d1_denominator: toNumber(row.retained_d1_denominator),
+					retained_d1_pct: toNumber(row.retained_d1_pct),
+					retained_d3: toNumber(row.retained_d3),
+					retained_d3_denominator: toNumber(row.retained_d3_denominator),
+					retained_d3_pct: toNumber(row.retained_d3_pct),
+					retained_d7: toNumber(row.retained_d7),
+					retained_d7_denominator: toNumber(row.retained_d7_denominator),
+					retained_d7_pct: toNumber(row.retained_d7_pct),
+					retained_d14: toNumber(row.retained_d14),
+					retained_d14_denominator: toNumber(row.retained_d14_denominator),
+					retained_d14_pct: toNumber(row.retained_d14_pct),
+					retained_d30: toNumber(row.retained_d30),
+					retained_d30_denominator: toNumber(row.retained_d30_denominator),
+					retained_d30_pct: toNumber(row.retained_d30_pct)
+				})
+			)
+		: [];
+
+	const acquisitionMix = retentionAvailable
+		? ((cohortMixResult.data ?? []) as Array<Record<string, unknown>>).map(
+				(row): AcquisitionMixRow => ({
+					cohort_week: String(row.cohort_week ?? ''),
+					acquisition_source: String(row.acquisition_source ?? 'direct'),
+					new_visitors: toNumber(row.new_visitors)
+				})
+			)
+		: [];
+
+	const nextPaths = retentionAvailable
+		? ((cohortNextPathsResult.data ?? []) as Array<Record<string, unknown>>).map(
+				(row): NextPathRow => ({
+					next_path: String(row.next_path ?? ''),
+					visitor_count: toNumber(row.visitor_count),
+					share_pct: toNumber(row.share_pct),
+					avg_engaged_ms: toNumber(row.avg_engaged_ms)
+				})
+			)
+		: [];
+
 	return {
 		filters: {
 			from: fromDate,
 			to: toDate,
 			scope: DEFAULT_SCOPE
+		},
+		cohortFilters: {
+			from: cohortRange.from,
+			to: cohortRange.to,
+			entrySurface: '',
+			acquisitionSource: ''
 		},
 		overview,
 		timeseries,
@@ -265,6 +477,13 @@ export const load: PageServerLoad = async (event) => {
 				monthFrom: monthFromDate,
 				monthTo: toDate
 			}
+		},
+		cohorts: {
+			available: retentionAvailable && cohortRpcErrors.length === 0,
+			overview: cohortOverview,
+			retentionCurve: cohortRetention,
+			acquisitionMix,
+			nextPaths
 		},
 		rows: rowsWithLastModified,
 		pagination: {

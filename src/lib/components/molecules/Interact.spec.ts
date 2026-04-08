@@ -9,14 +9,14 @@ const {
 	notificationsSuccessMock,
 	notificationsInfoMock,
 	notificationsDangerMock,
-	fingerprintGetMock,
+	getOrCreateVisitorIdMock,
 	fetchMock
 } = vi.hoisted(() => ({
 	deserializeMock: vi.fn(),
 	notificationsSuccessMock: vi.fn(),
 	notificationsInfoMock: vi.fn(),
 	notificationsDangerMock: vi.fn(),
-	fingerprintGetMock: vi.fn(),
+	getOrCreateVisitorIdMock: vi.fn(),
 	fetchMock: vi.fn()
 }));
 
@@ -32,12 +32,8 @@ vi.mock('$lib/components/molecules/notifications', () => ({
 	}
 }));
 
-vi.mock('@fingerprintjs/fingerprintjs', () => ({
-	default: {
-		load: vi.fn().mockResolvedValue({
-			get: fingerprintGetMock
-		})
-	}
+vi.mock('$lib/analytics/visitorIdentity', () => ({
+	getOrCreateVisitorId: getOrCreateVisitorIdMock
 }));
 
 vi.mock('svelte/transition', () => ({
@@ -63,10 +59,8 @@ describe('Interact', () => {
 		notificationsInfoMock.mockReset();
 		notificationsDangerMock.mockReset();
 
-		fingerprintGetMock.mockReset();
-		fingerprintGetMock.mockResolvedValue({
-			visitorId: 'visitor-123'
-		});
+		getOrCreateVisitorIdMock.mockReset();
+		getOrCreateVisitorIdMock.mockReturnValue('visitor-123');
 
 		fetchMock.mockReset();
 		fetchMock.mockResolvedValue({

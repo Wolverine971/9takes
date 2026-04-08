@@ -12,8 +12,8 @@ published: false
 type: ['situational']
 blog: true
 previewHtml: ''
-pic: 'epstein-web-manipulation'
-mjPrompt: 'dark room with a sprawling spider web made of thin red threads connecting two worlds: a gilded elite salon on one side and a dim bedroom on the other, the web anchored to a central shadowy figure behind frosted glass, cinematic lighting, documentary photography style, moody contrast, high detail, subtle symbolism, --ar 16:9 --v 6'
+pic: ''
+mjPrompt: 'Shadowy marble figure behind frosted glass at the center of a sprawling web of thin red threads, the threads connecting a gilded elite salon on one side and a dim vulnerable bedroom on the other, dark psychological power scene, moody contrast, marble white gold and deep red palette, Unreal Engine, Cinematic, Color Grading, portrait Photography, Shot on 50mm lens, Ultra-Wide Angle, Depth of Field, hyper-detailed, beautifully color-coded, insane details, intricate details, beautifully color graded, 32k, Super-Resolution, Megapixel, Halfrear Lighting, Backlight, Moody Lighting, Global Illumination, Ray Tracing Global Illumination, hypermaximalist, elegant, hyper realistic, super detailed --ar 16:9 --stylize 200 --quality 2 --raw'
 path: src/blog/pop-culture/epstein-web-of-manipulation.md
 ---
 

@@ -15,6 +15,7 @@
 		Subscription,
 		QuestionPageData
 	} from '$lib/types/questions';
+	import { getOrCreateVisitorId } from '$lib/analytics/visitorIdentity';
 	import { viewportWidth } from '$lib/stores/viewport';
 
 	// Component props
@@ -53,9 +54,8 @@
 
 	let currentPromptIndex = $state(Math.floor(Math.random() * 5));
 
-	// Cached fingerprint - loaded once on mount
+	// Cached visitor id - loaded once on mount
 	let cachedFingerprint = $state<string | null>(null);
-	let fingerprintLoading = $state(false);
 
 	// Type guard to check if data is QuestionPageData
 	const isQuestionPageData = (d: QuestionPageData | CommentType): d is QuestionPageData => {
@@ -86,56 +86,10 @@
 		getModal('qr-modal').open();
 	};
 
-	// Preload fingerprint in background (called on mount)
-	const preloadFingerprint = async () => {
-		if (cachedFingerprint || fingerprintLoading) return;
-		fingerprintLoading = true;
-		try {
-			const FingerprintJS = (await import('@fingerprintjs/fingerprintjs')).default;
-			const fp = await FingerprintJS.load();
-			const fpval = await fp.get();
-			cachedFingerprint = fpval?.visitorId?.toString() || null;
-		} catch (error) {
-			console.error('Fingerprint preload failed:', error);
-		} finally {
-			fingerprintLoading = false;
-		}
-	};
-
-	// Ensure fingerprint is available, waiting for preload if in progress
-	const ensureFingerprint = async (): Promise<string | null> => {
+	const getCommentFingerprint = (): string => {
 		if (cachedFingerprint) return cachedFingerprint;
-
-		// If preload is in progress, wait for it to complete
-		if (fingerprintLoading) {
-			await new Promise<void>((resolve) => {
-				const checkInterval = setInterval(() => {
-					if (!fingerprintLoading) {
-						clearInterval(checkInterval);
-						resolve();
-					}
-				}, 50);
-				// Timeout after 3 seconds
-				setTimeout(() => {
-					clearInterval(checkInterval);
-					resolve();
-				}, 3000);
-			});
-			if (cachedFingerprint) return cachedFingerprint;
-		}
-
-		// Fallback: load fingerprint inline
-		try {
-			const FingerprintJS = (await import('@fingerprintjs/fingerprintjs')).default;
-			const fp = await FingerprintJS.load();
-			const fpval = await fp.get();
-			const fingerprint = fpval?.visitorId?.toString() || null;
-			cachedFingerprint = fingerprint;
-			return fingerprint;
-		} catch (error) {
-			console.error('Fingerprint load failed:', error);
-			return null;
-		}
+		cachedFingerprint = getOrCreateVisitorId();
+		return cachedFingerprint;
 	};
 
 	// Create a new comment
@@ -162,10 +116,8 @@
 		loading = true;
 
 		try {
-			const fingerprint = await ensureFingerprint();
-
 			const body = new FormData();
-			appendCommonFormData(body, { visitorId: fingerprint });
+			appendCommonFormData(body, getCommentFingerprint());
 
 			const result = await submitComment(body);
 			handleCommentResult(result);
@@ -195,7 +147,7 @@
 	};
 
 	// Prepare form data for comment submission
-	const appendCommonFormData = (body: FormData, fpval: any) => {
+	const appendCommonFormData = (body: FormData, fingerprint: string) => {
 		body.append('comment', comment);
 
 		// Get parent_id and es_id based on parent type
@@ -218,7 +170,7 @@
 		body.append('parent_type', parentType);
 		body.append('es_id', esId);
 		body.append('question_id', questionId.toString());
-		body.append('fingerprint', fpval?.visitorId?.toString() ?? '');
+		body.append('fingerprint', fingerprint);
 	};
 
 	// Submit comment to the server
@@ -348,8 +300,7 @@
 			elem.placeholder = elem.placeholder.replace(/\\n/g, '\n');
 		});
 
-		// Preload fingerprint in background so it's ready when user submits
-		preloadFingerprint();
+		cachedFingerprint = getOrCreateVisitorId();
 	});
 </script>
 

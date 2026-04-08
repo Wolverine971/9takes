@@ -13,7 +13,15 @@ export const pageViewSchema = z.object({
 	path_group: z.string().min(1).max(500),
 	content_type: z.string().max(50).nullable().optional(),
 	content_slug: z.string().max(200).nullable().optional(),
-	referrer_host: z.string().max(255).nullable().optional()
+	referrer_host: z.string().max(255).nullable().optional(),
+	landing_query: z.string().max(2000).nullable().optional(),
+	utm_source: z.string().max(255).nullable().optional(),
+	utm_medium: z.string().max(255).nullable().optional(),
+	utm_campaign: z.string().max(255).nullable().optional(),
+	utm_term: z.string().max(255).nullable().optional(),
+	utm_content: z.string().max(255).nullable().optional(),
+	click_id_type: z.string().max(50).nullable().optional(),
+	click_id_value: z.string().max(255).nullable().optional()
 });
 
 export const pagePingSchema = z.object({

@@ -577,8 +577,8 @@
 
 	.quick-nav-kicker {
 		position: absolute;
-		top: -0.58rem;
-		left: 2rem;
+		top: -1.7rem;
+		left: 1rem;
 		z-index: 2;
 		display: inline-flex;
 		align-items: center;

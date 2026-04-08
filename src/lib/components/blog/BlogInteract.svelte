@@ -2,6 +2,7 @@
 <script lang="ts">
 	import { deserialize } from '$app/forms';
 	import RightIcon from '$lib/components/icons/rightIcon.svelte';
+	import { getOrCreateVisitorId } from '$lib/analytics/visitorIdentity';
 	import { formatPersonalityDisplayName } from '$lib/utils/personalityAnalysis';
 
 	import { notifications } from '$lib/components/molecules/notifications';
@@ -57,18 +58,13 @@
 			anonymousComment = true;
 		}
 
-		// Dynamically import FingerprintJS to avoid bundling in main chunk
-		const FingerprintJS = (await import('@fingerprintjs/fingerprintjs')).default;
-		const fp = await FingerprintJS.load();
-		const fpval = await fp.get();
-
 		let body = new FormData();
 
 		body.append('comment', comment);
 		body.append('author_id', user?.id);
 		body.append('parent_type', parentType);
 		body.append('blog_link', data.slug);
-		body.append('fingerprint', fpval?.visitorId?.toString());
+		body.append('fingerprint', getOrCreateVisitorId());
 
 		const resp = await fetch(`/${parentType}?/createComment`, {
 			method: 'POST',

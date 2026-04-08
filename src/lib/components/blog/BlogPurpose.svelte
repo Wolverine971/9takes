@@ -27,12 +27,12 @@
 			</div>
 
 			<div class="cta-text">
-				<h3>Want to explore your own psychology?</h3>
-				<p>Understanding your Enneagram type can help you break bad patterns.</p>
+				<h3>Want to understand your own pattern?</h3>
+				<p>Start with the Enneagram fundamentals and see how the 9 types actually differ.</p>
 			</div>
 
-			<a href="/book-session" class="cta-button">
-				<span>Talk to a Coach</span>
+			<a href="/enneagram-corner" class="cta-button">
+				<span>Explore the 9 Types</span>
 				<svg
 					xmlns="http://www.w3.org/2000/svg"
 					viewBox="0 0 24 24"

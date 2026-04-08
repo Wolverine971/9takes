@@ -47,7 +47,15 @@ export const POST = withApiLogging(async ({ request, locals }) => {
 				p_path_group: classified.pathGroup,
 				p_content_type: classified.contentType,
 				p_content_slug: classified.contentSlug,
-				p_referrer_host: referrerHost
+				p_referrer_host: referrerHost,
+				p_landing_query: validated.landing_query ?? null,
+				p_utm_source: validated.utm_source ?? null,
+				p_utm_medium: validated.utm_medium ?? null,
+				p_utm_campaign: validated.utm_campaign ?? null,
+				p_utm_term: validated.utm_term ?? null,
+				p_utm_content: validated.utm_content ?? null,
+				p_click_id_type: validated.click_id_type ?? null,
+				p_click_id_value: validated.click_id_value ?? null
 			}
 		);
 

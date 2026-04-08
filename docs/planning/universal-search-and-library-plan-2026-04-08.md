@@ -21,6 +21,10 @@ Implemented in repo:
   - `/api/search/typeahead` for mixed-source suggestions
   - `search_questions` RPC for full question search
   - app-layer normalization/merge over blog + question search helpers
+- public `/search` results page now exists with:
+  - scope switching for `All`, `Library`, and `Questions`
+  - library-only filters for enneagram/category/topic
+  - shareable query-param URLs
 - local Markdown blog sync now:
   - extracts headings/subheadings
   - computes a stable `content_hash`
@@ -457,7 +461,7 @@ Use hybrid search:
 ## Immediate Implementation Tasks
 
 - [ ] Create the public search UI pattern and header redesign
-- [ ] Build `/search` results page
+- [x] Build `/search` results page
 - [x] Add Supabase full-text search to `questions`
 - [x] Replace question typeahead with a Supabase-backed implementation
 - [x] Remove Elasticsearch from question slug collision checks

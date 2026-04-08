@@ -1,3 +1,4 @@
+<!-- src/routes/search/+page.svelte -->
 <script lang="ts">
 	import SEOHead from '$lib/components/SEOHead.svelte';
 	import type { PageData } from './$types';
@@ -22,14 +23,14 @@
 
 	let pageTitle = $derived(
 		data.query
-		? `Search results for "${data.query}" | 9takes`
-		: 'Search the 9takes library | 9takes'
+			? `Search results for "${data.query}" | 9takes`
+			: 'Search the 9takes library | 9takes'
 	);
 
 	let pageDescription = $derived(
 		data.query
-		? `Search 9takes for ${data.query} across blogs, personality analysis, and questions.`
-		: 'Search across 9takes blogs, personality analysis, and community questions.'
+			? `Search 9takes for ${data.query} across blogs, personality analysis, and questions.`
+			: 'Search across 9takes blogs, personality analysis, and community questions.'
 	);
 
 	let showingFrom = $derived(
@@ -40,17 +41,23 @@
 	);
 
 	function normalizeComparisonText(value: string): string {
-		return value.replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').trim().toLowerCase();
+		return value
+			.replace(/<[^>]+>/g, ' ')
+			.replace(/\s+/g, ' ')
+			.trim()
+			.toLowerCase();
 	}
 
-	function buildSearchHref(overrides: Partial<{
-		q: string;
-		scope: Scope;
-		page: number;
-		category: string;
-		type: string;
-		enneagram: string;
-	}> = {}): string {
+	function buildSearchHref(
+		overrides: Partial<{
+			q: string;
+			scope: Scope;
+			page: number;
+			category: string;
+			type: string;
+			enneagram: string;
+		}> = {}
+	): string {
 		const params = new URLSearchParams();
 		const nextQuery = overrides.q ?? data.query;
 		const nextScope = overrides.scope ?? data.scope;
@@ -99,7 +106,10 @@
 		}
 	}
 
-	function getSourceLabel(source: PageData['results'][number]['source'], category: string | null): string {
+	function getSourceLabel(
+		source: PageData['results'][number]['source'],
+		category: string | null
+	): string {
 		if (source === 'question') {
 			return 'Question';
 		}
@@ -141,9 +151,7 @@
 			.replace(/<mark>/gi, '\x00MARK_OPEN\x00')
 			.replace(/<\/mark>/gi, '\x00MARK_CLOSE\x00');
 		safe = safe.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
-		return safe
-			.replace(/\x00MARK_OPEN\x00/g, '<mark>')
-			.replace(/\x00MARK_CLOSE\x00/g, '</mark>');
+		return safe.replace(/\x00MARK_OPEN\x00/g, '<mark>').replace(/\x00MARK_CLOSE\x00/g, '</mark>');
 	}
 
 	function resultKey(result: PageData['results'][number]): string {
@@ -275,8 +283,8 @@
 			<div class="message-card">
 				<h2>Start with a name, a topic, or a question.</h2>
 				<p>
-					Try a person like “Cillian Murphy”, a concept like “attachment styles”, or a question
-					like “How do I stop overthinking?”
+					Try a person like “Cillian Murphy”, a concept like “attachment styles”, or a question like
+					“How do I stop overthinking?”
 				</p>
 				<div class="sample-query-row">
 					{#each data.sampleQueries as sample}
@@ -288,8 +296,7 @@
 			<div class="message-card">
 				<h2>No matches yet.</h2>
 				<p>
-					Try a broader phrase, remove a filter, or switch scopes to search across more of the
-					site.
+					Try a broader phrase, remove a filter, or switch scopes to search across more of the site.
 				</p>
 				<div class="sample-query-row">
 					{#each data.sampleQueries as sample}
@@ -358,9 +365,7 @@
 					<span class="page-status">Page {data.currentPage} of {data.totalPages}</span>
 
 					{#if data.currentPage < data.totalPages}
-						<a href={buildSearchHref({ page: data.currentPage + 1 })} class="page-link">
-							Next
-						</a>
+						<a href={buildSearchHref({ page: data.currentPage + 1 })} class="page-link"> Next </a>
 					{:else}
 						<span class="page-link is-disabled">Next</span>
 					{/if}

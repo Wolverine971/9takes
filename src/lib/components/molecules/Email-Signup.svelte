@@ -1,94 +1,87 @@
 <!-- src/lib/components/molecules/Email-Signup.svelte -->
 <script lang="ts">
 	import { deserialize } from '$app/forms';
-	import { goto } from '$app/navigation';
 	import { notifications } from './notifications';
 
-	export let cta: string = '';
+	type EmailSignupPayload = {
+		data?: { success?: boolean } | null;
+		error?: { message?: string } | null;
+	};
+
+	export let cta: string = 'Get 9takes updates in your inbox';
+	export let description: string =
+		'New personality guides, community questions, and ideas worth stealing.';
+
 	let email: string = '';
 	let error: string = '';
 	let loading: boolean = false;
 
 	const submit = async () => {
-		if (!/\S+@\S+\.\S+/.test(email)) {
-			//!/.+@.+/.test(email) ||
-			error = 'must be a valid email';
+		if (loading) return;
+
+		const normalizedEmail = email.trim().toLowerCase();
+		if (!/\S+@\S+\.\S+/.test(normalizedEmail)) {
+			error = 'Enter a valid email address';
 			return;
-		} else {
-			error = '';
 		}
+
+		error = '';
 		loading = true;
 
-		let body = new FormData();
-		body.append('email', email);
+		const body = new FormData();
+		body.append('email', normalizedEmail);
 
-		const resp = await fetch(`/email?/submit`, {
-			method: 'POST',
-			body
-		});
+		try {
+			const resp = await fetch('/email?/submit', {
+				method: 'POST',
+				body
+			});
+			const result = deserialize(await resp.text());
+			const payload =
+				result.type === 'success' || result.type === 'failure'
+					? (result.data as EmailSignupPayload | undefined)
+					: undefined;
+			const errorMessage = payload?.error?.message;
 
-		const data = deserialize(await resp.text());
-
-		if (!data?.error) {
-			notifications.success('Email Submitted', 3000);
-			notifications.info('Check and confirm your email', 6000);
-
-			// goto('/signup');
-
-			email = '';
-		} else {
-			if (data?.error?.message && data?.error?.message === 'Email already exists') {
-				notifications.warning('Email already exists', 3000);
+			if (result.type === 'success' && !errorMessage) {
+				notifications.success("You're subscribed", 3000);
+				notifications.info('Check your inbox for the welcome note.', 6000);
+				email = '';
+			} else if (errorMessage === 'Email already exists') {
+				notifications.warning('Already subscribed', 3000);
 			} else {
-				notifications.warning('Email Failed', 3000);
+				notifications.warning('Signup failed', 3000);
 			}
+		} catch {
+			notifications.warning('Signup failed', 3000);
+		} finally {
+			loading = false;
 		}
-		loading = false;
 	};
 </script>
 
 <div class="waitlist-section">
-	<h2 style="margin-top: 0;">{cta || 'Join 9takes and go deeper with personality'}</h2>
-	<p style="margin-top: 0;">
-		Find out the similarities and differences<br /> between you and anyone
-	</p>
+	<h2>{cta}</h2>
+	<p>{description}</p>
 
-	<!-- // Signup to get a sneak peak into what we are building -->
-	<form class="waitlist-form">
-		<button
-			type="button"
-			on:click={() => {
-				goto('/register');
-			}}
-			class="corner-icon"
-		>
+	<form class="waitlist-form" on:submit|preventDefault={submit}>
+		<input
+			type="email"
+			id="email"
+			name="email"
+			bind:value={email}
+			placeholder="you@example.com"
+			autocomplete="email"
+		/>
+		<button type="submit" disabled={loading || !email.trim().length}>
 			{#if loading}
 				<div class="loader"></div>
 			{:else}
-				Sign up
+				Subscribe
 			{/if}
 		</button>
 	</form>
 
-	<!-- <h2 style="margin-top: 0;">Sign up for the 9takes Beta</h2>
-	<p>9takes will be free for the first 1000 users</p>
-	<form class="waitlist-form">
-		<input type="email" id="email" name="email" bind:value={email} placeholder="you@example.com" />
-		<button
-			type="button"
-			value="Send"
-			on:click={submit}
-			disabled={email.length ? false : true}
-			class:form-send={true}
-			class={email.length ? 'regular' : 'disabled'}
-		>
-			{#if loading}
-				<div class="loader" />
-			{:else}
-				Sign up
-			{/if}
-		</button>
-	</form> -->
 	{#if error}
 		<p class="error">{error}</p>
 	{/if}
@@ -104,9 +97,13 @@
 		box-shadow: 0 0 20px rgba(45, 212, 191, 0.1);
 	}
 	.waitlist-section h2 {
+		margin-top: 0;
+		margin-bottom: 0.5rem;
 		color: var(--text-primary);
 	}
 	.waitlist-section p {
+		margin-top: 0;
+		margin-bottom: 1.25rem;
 		color: var(--text-secondary);
 	}
 	.waitlist-form {
@@ -143,10 +140,24 @@
 		transition: all 0.2s ease;
 		box-shadow: 0 0 15px rgba(45, 212, 191, 0.3);
 	}
+	.waitlist-form button:disabled {
+		cursor: not-allowed;
+		opacity: 0.65;
+		box-shadow: none;
+	}
 	.waitlist-form button:hover {
 		background-color: var(--accent-dark);
 		box-shadow: 0 0 25px rgba(45, 212, 191, 0.4);
 		transform: translateY(-2px);
+	}
+	.waitlist-form button:disabled:hover {
+		background-color: var(--primary-dark);
+		box-shadow: none;
+		transform: none;
+	}
+	.error {
+		margin: 0.75rem 0 0;
+		color: var(--warning);
 	}
 	/* For tablets */
 	@media only screen and (min-width: 768px) {
@@ -178,18 +189,15 @@
 		}
 	}
 	::placeholder {
-		/* Chrome, Firefox, Opera, Safari 10.1+ */
 		color: var(--text-secondary);
-		opacity: 1; /* Firefox */
+		opacity: 1;
 	}
 
 	:-ms-input-placeholder {
-		/* Internet Explorer 10-11 */
 		color: var(--text-secondary);
 	}
 
 	::-ms-input-placeholder {
-		/* Microsoft Edge */
 		color: var(--text-secondary);
 	}
 </style>

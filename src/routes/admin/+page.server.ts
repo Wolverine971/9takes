@@ -13,8 +13,94 @@ import {
 } from '$lib/server/elasticSearch';
 import { mapDemoValues } from '../../utils/demo';
 import type { Database } from '../../../database.types';
+import { countUniqueContributors } from '$lib/server/adminAnalytics';
 
 type QuestionRow = Database['public']['Tables']['questions']['Row'];
+
+interface RateBlock {
+	week_start: string | null;
+	week_end: string | null;
+	numerator: number;
+	denominator: number;
+	pct: number;
+}
+
+interface AdminRetentionSummary {
+	available: boolean;
+	newVisitorsThisWeek: number;
+	currentWeekStart: string | null;
+	currentWeekEnd: string | null;
+	firstCommentRateLastFullWeek: RateBlock;
+	emailSignupRateLastFullWeek: RateBlock;
+	registeredRateLastFullWeek: RateBlock;
+	d7RetentionLastMatureWeek: RateBlock;
+	activeContributorsThisWeek: number;
+}
+
+const emptyRateBlock = (): RateBlock => ({
+	week_start: null,
+	week_end: null,
+	numerator: 0,
+	denominator: 0,
+	pct: 0
+});
+
+function toNumber(value: unknown): number {
+	return Number(value || 0);
+}
+
+function readRateBlock(value: unknown): RateBlock {
+	if (!value || typeof value !== 'object') {
+		return emptyRateBlock();
+	}
+
+	const block = value as Record<string, unknown>;
+	return {
+		week_start: typeof block.week_start === 'string' ? block.week_start : null,
+		week_end: typeof block.week_end === 'string' ? block.week_end : null,
+		numerator: toNumber(block.numerator),
+		denominator: toNumber(block.denominator),
+		pct: toNumber(block.pct)
+	};
+}
+
+function normalizeRetentionSummary(value: unknown): AdminRetentionSummary {
+	if (!value || typeof value !== 'object') {
+		return {
+			available: false,
+			newVisitorsThisWeek: 0,
+			currentWeekStart: null,
+			currentWeekEnd: null,
+			firstCommentRateLastFullWeek: emptyRateBlock(),
+			emailSignupRateLastFullWeek: emptyRateBlock(),
+			registeredRateLastFullWeek: emptyRateBlock(),
+			d7RetentionLastMatureWeek: emptyRateBlock(),
+			activeContributorsThisWeek: 0
+		};
+	}
+
+	const summary = value as Record<string, unknown>;
+	return {
+		available: true,
+		newVisitorsThisWeek: toNumber(summary.new_visitors_this_week),
+		currentWeekStart: typeof summary.current_week_start === 'string' ? summary.current_week_start : null,
+		currentWeekEnd: typeof summary.current_week_end === 'string' ? summary.current_week_end : null,
+		firstCommentRateLastFullWeek: readRateBlock(summary.first_comment_rate_last_full_week),
+		emailSignupRateLastFullWeek: readRateBlock(summary.email_signup_rate_last_full_week),
+		registeredRateLastFullWeek: readRateBlock(summary.registered_rate_last_full_week),
+		d7RetentionLastMatureWeek: readRateBlock(summary.d7_retention_last_mature_week),
+		activeContributorsThisWeek: toNumber(summary.active_contributors_this_week)
+	};
+}
+
+function isMissingRetentionSummaryRpc(err: unknown): boolean {
+	const message =
+		typeof err === 'object' && err !== null && 'message' in err
+			? String((err as { message?: unknown }).message ?? '')
+			: '';
+
+	return message.includes('get_admin_retention_summary');
+}
 
 /** @type {import('./$types').PageLoad} */
 export const load: PageServerLoad = async (event) => {
@@ -82,11 +168,13 @@ export const load: PageServerLoad = async (event) => {
 		{ data: coachingWaitlistUsers },
 		{ count: totalQuestions },
 		{ count: totalComments },
-		{ data: activeUsersData },
+		{ data: recentQuestionComments },
+		{ data: recentBlogComments },
 		{ data: usersByType },
 		{ data: recentSignups },
 		{ count: questionsToday },
-		{ count: commentsToday }
+		{ count: commentsToday },
+		retentionSummaryResult
 	] = await Promise.all([
 		// User counts
 		supabase.from(profilesTable).select('*', { count: 'exact', head: true }),
@@ -109,8 +197,15 @@ export const load: PageServerLoad = async (event) => {
 		// Content counts
 		supabase.from('questions').select('*', { count: 'exact', head: true }),
 		supabase.from('comments').select('*', { count: 'exact', head: true }),
-		// Active users data
-		supabase.from('comments').select('author_id').gte('created_at', sevenDaysAgo.toISOString()),
+		// Contributor activity data
+		supabase
+			.from('comments')
+			.select('author_id, fingerprint, ip')
+			.gte('created_at', sevenDaysAgo.toISOString()),
+		supabase
+			.from('blog_comments')
+			.select('author_id, fingerprint, ip')
+			.gte('created_at', sevenDaysAgo.toISOString()),
 		// Enneagram distribution data
 		supabase.from(profilesTable).select('enneagram'),
 		// Recent signups
@@ -124,14 +219,32 @@ export const load: PageServerLoad = async (event) => {
 			.from('questions')
 			.select('*', { count: 'exact', head: true })
 			.gte('created_at', today.toISOString()),
-		supabase
-			.from('comments')
-			.select('*', { count: 'exact', head: true })
-			.gte('created_at', today.toISOString())
-	]);
+			supabase
+				.from('comments')
+				.select('*', { count: 'exact', head: true })
+				.gte('created_at', today.toISOString()),
+			demo_time === true
+				? Promise.resolve({ data: null, error: null })
+				: (supabase as any).rpc('get_admin_retention_summary')
+		]);
 
 	// Process results after parallel execution
-	const activeUsers = new Set(activeUsersData?.map((c) => c.author_id) || []).size;
+	const activeContributors = countUniqueContributors([
+		...(recentQuestionComments || []),
+		...(recentBlogComments || [])
+	]);
+	const retentionSummary =
+		retentionSummaryResult.error && !isMissingRetentionSummaryRpc(retentionSummaryResult.error)
+			? normalizeRetentionSummary(null)
+			: normalizeRetentionSummary(retentionSummaryResult.data);
+
+	if (retentionSummaryResult.error && !isMissingRetentionSummaryRpc(retentionSummaryResult.error)) {
+		console.error('Failed to load admin retention summary', retentionSummaryResult.error);
+	}
+
+	if (!retentionSummary.available) {
+		retentionSummary.activeContributorsThisWeek = activeContributors;
+	}
 
 	const enneagramDistribution = usersByType?.reduce((acc: any, user: any) => {
 		if (user.enneagram) {
@@ -157,11 +270,12 @@ export const load: PageServerLoad = async (event) => {
 		coachingWaitlistUsers: coachingWaitlistUsers || [],
 		totalQuestions: totalQuestions || 0,
 		totalComments: totalComments || 0,
-		activeUsers,
+		activeContributors,
 		enneagramDistribution: enneagramDistribution || {},
 		recentSignups: recentSignups || [],
 		questionsToday: questionsToday || 0,
-		commentsToday: commentsToday || 0
+		commentsToday: commentsToday || 0,
+		retentionSummary
 	};
 };
 

@@ -2283,11 +2283,7 @@
 		bottom: 0; /* yes-col has no padding now — extends to col bottom */
 		width: 2px;
 		transform: translateX(-1px);
-		background: linear-gradient(
-			180deg,
-			rgba(45, 212, 191, 0.55) 0%,
-			rgba(45, 212, 191, 0.85) 100%
-		);
+		background: linear-gradient(180deg, rgba(45, 212, 191, 0.55) 0%, rgba(45, 212, 191, 0.85) 100%);
 		box-shadow:
 			0 0 10px rgba(45, 212, 191, 0.55),
 			0 0 22px rgba(45, 212, 191, 0.25);
@@ -2341,7 +2337,11 @@
 				color-mix(in srgb, var(--primary) 22%, transparent) 0%,
 				transparent 65%
 			),
-			linear-gradient(180deg, color-mix(in srgb, var(--primary) 6%, var(--void-shadow)) 0%, var(--void-umbra) 100%);
+			linear-gradient(
+				180deg,
+				color-mix(in srgb, var(--primary) 6%, var(--void-shadow)) 0%,
+				var(--void-umbra) 100%
+			);
 		border: 1px solid rgba(45, 212, 191, 0.42);
 		border-radius: 16px;
 		box-shadow:

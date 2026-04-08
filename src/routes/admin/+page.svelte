@@ -54,6 +54,15 @@
 		questionHref?: string;
 	};
 
+	type VisitorDay = NonNullable<PageData['dailyVisitors']>[number];
+	type CommentDay = NonNullable<PageData['dailyComments']>[number];
+	type QuestionDay = NonNullable<PageData['dailyQuestions']>[number];
+	type ChartPoint = {
+		x: number;
+		y: number;
+		label: string;
+	};
+
 	let { data }: { data: PageData } = $props();
 
 	let isDemoTime = $state(false);
@@ -84,6 +93,33 @@
 	const formatCount = (value: number | null | undefined) => (value ?? 0).toLocaleString();
 	const formatDate = (value: string | null | undefined) =>
 		value ? convertDateToReadable(value) : '—';
+	const formatPercent = (value: number | null | undefined, denominator?: number | null) => {
+		if (denominator !== undefined && (denominator ?? 0) <= 0) return '—';
+		return `${(value ?? 0).toFixed(1)}%`;
+	};
+	const formatRateValue = (
+		block:
+			| {
+					numerator?: number | null;
+					pct?: number | null;
+					denominator?: number | null;
+			  }
+			| null
+			| undefined
+	) =>
+		`${formatCount(block?.numerator)} (${formatPercent(block?.pct, block?.denominator)})`;
+	const formatRateWindow = (
+		block:
+			| {
+					week_start?: string | null;
+					week_end?: string | null;
+			  }
+			| null
+			| undefined
+	) =>
+		block?.week_start && block?.week_end
+			? `${convertDateToReadable(block.week_start)} - ${convertDateToReadable(block.week_end)}`
+			: 'Retention rollup pending';
 
 	const changeDemoTime = async () => {
 		try {
@@ -161,7 +197,7 @@
 
 	let visitorChartData = $derived(
 		(data.dailyVisitors ?? [])
-			.map((visitor) => {
+			.map((visitor: VisitorDay): ChartPoint => {
 				const date = new Date(visitor.days);
 				return {
 					x: date.getTime(),
@@ -169,12 +205,12 @@
 					label: `${date.toLocaleDateString()}: ${visitor.number_of_visitors} visitors`
 				};
 			})
-			.sort((a, b) => a.x - b.x)
+			.sort((a: ChartPoint, b: ChartPoint) => a.x - b.x)
 	);
 
 	let commentChartData = $derived(
 		(data.dailyComments ?? [])
-			.map((comment) => {
+			.map((comment: CommentDay): ChartPoint => {
 				const date = new Date(comment.days);
 				return {
 					x: date.getTime(),
@@ -182,12 +218,14 @@
 					label: `${date.toLocaleDateString()}: ${comment.number_of_comments} comments`
 				};
 			})
-			.sort((a, b) => a.x - b.x)
+			.sort((a: ChartPoint, b: ChartPoint) => a.x - b.x)
 	);
 
-	let totalVisitors = $derived(visitorChartData.reduce((sum, point) => sum + point.y, 0));
-	let visitorSparkline = $derived(visitorChartData.slice(-7).map((point) => point.y));
-	let commentSparkline = $derived(commentChartData.slice(-7).map((point) => point.y));
+	let totalVisitors = $derived(
+		visitorChartData.reduce((sum: number, point: ChartPoint) => sum + point.y, 0)
+	);
+	let visitorSparkline = $derived(visitorChartData.slice(-7).map((point: ChartPoint) => point.y));
+	let commentSparkline = $derived(commentChartData.slice(-7).map((point: ChartPoint) => point.y));
 	let userGrowth = $derived(
 		data.totalUsers > 0 ? ((data.newUsersMonth / data.totalUsers) * 100).toFixed(1) : '0.0'
 	);
@@ -231,16 +269,6 @@
 			href: '/admin/users'
 		},
 		{
-			icon: '📈',
-			label: 'New Users (30d)',
-			value: data.newUsersMonth,
-			subValue: `${userGrowth}% of total`,
-			trend: Number(userGrowth) > 5 ? 'up' : 'neutral',
-			trendValue: `${userGrowth}%`,
-			color: 'primary',
-			href: '/admin/users'
-		},
-		{
 			icon: '👀',
 			label: 'Visitors (30d)',
 			value: totalVisitors,
@@ -250,10 +278,53 @@
 			href: '/admin/analytics'
 		},
 		{
+			icon: '🆕',
+			label: 'New Visitors (WTD)',
+			value: data.retentionSummary?.newVisitorsThisWeek ?? 0,
+			subValue: data.retentionSummary?.available
+				? `${formatDate(data.retentionSummary?.currentWeekStart)} - ${formatDate(data.retentionSummary?.currentWeekEnd)}`
+				: 'Retention rollup pending',
+			color: 'primary',
+			href: '/admin/analytics'
+		},
+		{
+			icon: '💬',
+			label: 'First Comment (7d)',
+			value: formatRateValue(data.retentionSummary?.firstCommentRateLastFullWeek),
+			subValue: formatRateWindow(data.retentionSummary?.firstCommentRateLastFullWeek),
+			color: 'success',
+			href: '/admin/analytics'
+		},
+		{
+			icon: '✉️',
+			label: 'Email Signup (7d)',
+			value: formatRateValue(data.retentionSummary?.emailSignupRateLastFullWeek),
+			subValue: formatRateWindow(data.retentionSummary?.emailSignupRateLastFullWeek),
+			color: 'default',
+			href: '/admin/analytics'
+		},
+		{
+			icon: '🪪',
+			label: 'Registered (7d)',
+			value: formatRateValue(data.retentionSummary?.registeredRateLastFullWeek),
+			subValue: formatRateWindow(data.retentionSummary?.registeredRateLastFullWeek),
+			color: 'primary',
+			href: '/admin/analytics'
+		},
+		{
+			icon: '🔁',
+			label: 'D7 Retention',
+			value: formatRateValue(data.retentionSummary?.d7RetentionLastMatureWeek),
+			subValue: formatRateWindow(data.retentionSummary?.d7RetentionLastMatureWeek),
+			color: 'warning',
+			href: '/admin/analytics'
+		},
+		{
 			icon: '⚡',
-			label: 'Active (7d)',
-			value: data.activeUsers,
-			subValue: 'Unique commenters',
+			label: 'Active Contributors',
+			value:
+				data.retentionSummary?.activeContributorsThisWeek ?? data.activeContributors ?? 0,
+			subValue: 'This week, signed-in + anonymous',
 			color: 'default',
 			href: '/admin/comments'
 		},
@@ -266,15 +337,17 @@
 			href: '/admin/consulting'
 		},
 		{
-			icon: '❓',
-			label: 'Questions',
-			value: data.totalQuestions,
-			subValue: `+${formatCount(data.questionsToday)} today`,
-			color: 'default',
-			href: '/admin/questions'
+			icon: '📈',
+			label: 'New Users (30d)',
+			value: data.newUsersMonth,
+			subValue: `${userGrowth}% of total`,
+			trend: Number(userGrowth) > 5 ? 'up' : 'neutral',
+			trendValue: `${userGrowth}%`,
+			color: 'primary',
+			href: '/admin/users'
 		},
 		{
-			icon: '💬',
+			icon: '📣',
 			label: 'Comments',
 			value: data.totalComments,
 			subValue: `+${formatCount(data.commentsToday)} today`,
@@ -288,7 +361,7 @@
 	let recentSignups = $derived((data.recentSignups ?? []).slice(0, 8));
 	let questionActivity = $derived(
 		(data.dailyQuestions ?? []).slice(0, 10).map(
-			(question): QuestionActivityItem => ({
+			(question: QuestionDay): QuestionActivityItem => ({
 				question: question.question || 'Untitled question',
 				createdAt: formatDate(question.created_at),
 				todayComments: question.number_of_comments_today ?? 0,

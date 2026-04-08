@@ -138,7 +138,7 @@
 
 <div class="join">
 	{#if !data?.user}
-		<EmailSignup cta={'We are making something 👷🔨 join the waitlist'} />
+		<EmailSignup cta={'Get the next practical guide from 9takes'} />
 	{/if}
 </div>
 

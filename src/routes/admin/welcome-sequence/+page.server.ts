@@ -1,5 +1,41 @@
 // src/routes/admin/welcome-sequence/+page.server.ts
 import type { PageServerLoad } from './$types';
+import {
+	buildReturnVisitsByUser,
+	type AnalyticsSessionRow,
+	type ReturnVisitData
+} from '$lib/server/welcomeSequenceReturns';
+
+type StepRow = {
+	step_number: number;
+	subject: string;
+	html_content: string;
+	delay_days_after_previous: number;
+};
+
+type EnrollmentRow = {
+	id: string;
+	user_id: string | null;
+	recipient_email: string;
+	recipient_source: string;
+	status: string;
+	current_step_number: number;
+	next_step_number: number | null;
+	enrolled_at: string;
+	next_send_at: string | null;
+	last_sent_at: string | null;
+	exit_reason: string | null;
+	failure_count: number;
+	last_error: string | null;
+};
+
+type EmailSendRow = {
+	subject: string;
+	status: string;
+	opened_at: string | null;
+	clicked_at: string | null;
+	recipient_source_id: string | null;
+};
 
 export const load: PageServerLoad = async ({ locals }) => {
 	const supabase = locals.supabase;
@@ -29,8 +65,8 @@ export const load: PageServerLoad = async ({ locals }) => {
 			.order('enrolled_at', { ascending: false })
 	]);
 
-	const steps = stepsResult.data || [];
-	const enrollments = enrollmentsResult.data || [];
+	const steps: StepRow[] = stepsResult.data || [];
+	const enrollments: EnrollmentRow[] = enrollmentsResult.data || [];
 
 	// Match email_sends to sequence steps by subject for per-step delivery metrics
 	const stepSubjects = steps.map((s) => s.subject);
@@ -41,12 +77,15 @@ export const load: PageServerLoad = async ({ locals }) => {
 				.select('subject, status, opened_at, clicked_at, recipient_source_id')
 				.in('subject', stepSubjects)
 		: { data: [] };
+	const sequenceEmailSends: EmailSendRow[] = emailSends || [];
 
 	const stepMetrics = steps.map((step) => {
-		const sends = (emailSends || []).filter((s) => s.subject === step.subject);
-		const delivered = sends.filter((s) => s.status === 'sent' || s.status === 'delivered');
-		const opened = sends.filter((s) => s.opened_at);
-		const clicked = sends.filter((s) => s.clicked_at);
+		const sends = sequenceEmailSends.filter((emailSend) => emailSend.subject === step.subject);
+		const delivered = sends.filter(
+			(emailSend) => emailSend.status === 'sent' || emailSend.status === 'delivered'
+		);
+		const opened = sends.filter((emailSend) => emailSend.opened_at);
+		const clicked = sends.filter((emailSend) => emailSend.clicked_at);
 		return {
 			step_number: step.step_number,
 			subject: step.subject,
@@ -74,27 +113,38 @@ export const load: PageServerLoad = async ({ locals }) => {
 	// Get return visits for enrolled users from page analytics
 	const userIds = [...new Set(enrollments.map((e) => e.user_id).filter(Boolean))] as string[];
 
-	type ReturnVisitData = { last_visit: string; session_count: number };
 	const returnVisits: Record<string, ReturnVisitData> = {};
 
 	if (userIds.length > 0) {
-		const { data: sessions } = await supabase
+		const { data: directSessions } = await supabase
 			.from('page_analytics_sessions')
-			.select('user_id, last_seen_at')
+			.select('id, user_id, fingerprint, last_seen_at')
 			.in('user_id', userIds)
 			.order('last_seen_at', { ascending: false });
 
-		for (const session of sessions || []) {
-			if (!session.user_id) continue;
-			if (!returnVisits[session.user_id]) {
-				returnVisits[session.user_id] = {
-					last_visit: session.last_seen_at,
-					session_count: 1
-				};
-			} else {
-				returnVisits[session.user_id].session_count++;
-			}
+		const fingerprints = [
+			...new Set(
+				(directSessions || [])
+					.map((session: AnalyticsSessionRow) => session.fingerprint)
+					.filter((fingerprint): fingerprint is string => Boolean(fingerprint))
+			)
+		];
+
+		let fingerprintSessions: AnalyticsSessionRow[] = [];
+		if (fingerprints.length > 0) {
+			const { data: fingerprintSessionData } = await supabase
+				.from('page_analytics_sessions')
+				.select('id, user_id, fingerprint, last_seen_at')
+				.in('fingerprint', fingerprints)
+				.order('last_seen_at', { ascending: false });
+
+			fingerprintSessions = (fingerprintSessionData || []) as AnalyticsSessionRow[];
 		}
+
+		Object.assign(
+			returnVisits,
+			buildReturnVisitsByUser((directSessions || []) as AnalyticsSessionRow[], fingerprintSessions)
+		);
 	}
 
 	const enrichedEnrollments = enrollments.map((e) => ({

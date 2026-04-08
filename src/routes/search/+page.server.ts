@@ -1,3 +1,4 @@
+// src/routes/search/+page.server.ts
 import { parseEnneagramParam } from '$lib/server/blogSearchUtils';
 import { parseUniversalSearchScope, searchUniversal } from '$lib/server/universalSearch';
 import type { PageServerLoad } from './$types';
