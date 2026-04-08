@@ -3783,6 +3783,10 @@ export type Database = {
         Args: { p_fingerprint: string; p_signup_id: number }
         Returns: boolean
       }
+      backfill_visitor_first_touch_from_page_analytics: {
+        Args: { p_from?: string; p_to?: string }
+        Returns: number
+      }
       build_blogs_content_search_vector: {
         Args: {
           p_category: string

@@ -83,7 +83,8 @@ function normalizeRetentionSummary(value: unknown): AdminRetentionSummary {
 	return {
 		available: true,
 		newVisitorsThisWeek: toNumber(summary.new_visitors_this_week),
-		currentWeekStart: typeof summary.current_week_start === 'string' ? summary.current_week_start : null,
+		currentWeekStart:
+			typeof summary.current_week_start === 'string' ? summary.current_week_start : null,
 		currentWeekEnd: typeof summary.current_week_end === 'string' ? summary.current_week_end : null,
 		firstCommentRateLastFullWeek: readRateBlock(summary.first_comment_rate_last_full_week),
 		emailSignupRateLastFullWeek: readRateBlock(summary.email_signup_rate_last_full_week),
@@ -219,14 +220,14 @@ export const load: PageServerLoad = async (event) => {
 			.from('questions')
 			.select('*', { count: 'exact', head: true })
 			.gte('created_at', today.toISOString()),
-			supabase
-				.from('comments')
-				.select('*', { count: 'exact', head: true })
-				.gte('created_at', today.toISOString()),
-			demo_time === true
-				? Promise.resolve({ data: null, error: null })
-				: (supabase as any).rpc('get_admin_retention_summary')
-		]);
+		supabase
+			.from('comments')
+			.select('*', { count: 'exact', head: true })
+			.gte('created_at', today.toISOString()),
+		demo_time === true
+			? Promise.resolve({ data: null, error: null })
+			: (supabase as any).rpc('get_admin_retention_summary')
+	]);
 
 	// Process results after parallel execution
 	const activeContributors = countUniqueContributors([

@@ -2,9 +2,11 @@
 <script lang="ts">
 	import { deserialize } from '$app/forms';
 	import { browser } from '$app/environment';
+	import { page } from '$app/stores';
 	import { onMount } from 'svelte';
 	import { fly } from 'svelte/transition';
 	import { notifications } from '../molecules/notifications';
+	import { getEnneagramSidebarCopy } from './enneagramSidebarCopy';
 
 	type EmailSignupPayload = {
 		data?: { success?: boolean } | null;
@@ -17,6 +19,9 @@
 	export let hideBeforeBottom: number = 1500;
 	export let sidebarWidth: number = 220;
 	export let mobileBreakpoint: number = 1024;
+	export let ctaTitle: string | null = null;
+	export let ctaCopy: string | null = null;
+	export let ctaButtonLabel: string | null = null;
 
 	let visible = false;
 	let email = '';
@@ -26,6 +31,9 @@
 	let windowWidth: number;
 	let contentWidth: number = 64 * 16;
 	let mainElement: HTMLElement | null = null;
+	let resolvedTitle = '';
+	let resolvedCopy = '';
+	let resolvedButtonLabel = '';
 
 	async function handleSubmit() {
 		if (loading) return;
@@ -139,6 +147,10 @@
 		sidebarWidth,
 		sidePosition
 	);
+	$: inferredCopy = getEnneagramSidebarCopy($page.url.pathname);
+	$: resolvedTitle = ctaTitle?.trim() || inferredCopy.title;
+	$: resolvedCopy = ctaCopy?.trim() || inferredCopy.copy;
+	$: resolvedButtonLabel = ctaButtonLabel?.trim() || inferredCopy.buttonLabel;
 	$: shouldRenderFloating =
 		variant === 'floating' && visible && windowWidth >= mobileBreakpoint && sidebarCoords !== null;
 	$: transitionParams =
@@ -178,8 +190,8 @@
 		style:right={variant === 'floating' ? sidebarCoords?.right : undefined}
 		transition:fly={transitionParams}
 	>
-		<h3 class="sidebar-title">Get enneagram insights by email</h3>
-		<p class="sidebar-copy">New guides and 9takes updates. No account required.</p>
+		<h3 class="sidebar-title">{resolvedTitle}</h3>
+		<p class="sidebar-copy">{resolvedCopy}</p>
 
 		{#if submitted}
 			<p class="sidebar-success">You&rsquo;re in. Check your inbox for the welcome note.</p>
@@ -196,7 +208,7 @@
 					/>
 				</div>
 				<button type="submit" class="sidebar-button" disabled={loading || !email.trim().length}>
-					{loading ? 'Submitting...' : 'Subscribe'}
+					{loading ? 'Submitting...' : resolvedButtonLabel}
 				</button>
 			</form>
 			{#if error}

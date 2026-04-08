@@ -106,8 +106,7 @@
 			  }
 			| null
 			| undefined
-	) =>
-		`${formatCount(block?.numerator)} (${formatPercent(block?.pct, block?.denominator)})`;
+	) => `${formatCount(block?.numerator)} (${formatPercent(block?.pct, block?.denominator)})`;
 	const formatRateWindow = (
 		block:
 			| {
@@ -322,8 +321,7 @@
 		{
 			icon: '⚡',
 			label: 'Active Contributors',
-			value:
-				data.retentionSummary?.activeContributorsThisWeek ?? data.activeContributors ?? 0,
+			value: data.retentionSummary?.activeContributorsThisWeek ?? data.activeContributors ?? 0,
 			subValue: 'This week, signed-in + anonymous',
 			color: 'default',
 			href: '/admin/comments'

@@ -300,6 +300,75 @@ BEGIN
 END;
 $$;
 
+CREATE OR REPLACE FUNCTION public.backfill_visitor_first_touch_from_page_analytics(
+	p_from DATE DEFAULT DATE '2026-02-20',
+	p_to DATE DEFAULT NULL
+)
+RETURNS INTEGER
+LANGUAGE plpgsql
+SECURITY DEFINER
+SET search_path = public
+AS $$
+DECLARE
+	v_from DATE := COALESCE(p_from, DATE '2026-02-20');
+	v_to DATE := COALESCE(p_to, public.analytics_local_date(NOW()));
+	v_rows INTEGER := 0;
+BEGIN
+	IF v_from > v_to THEN
+		RETURN 0;
+	END IF;
+
+	INSERT INTO public.visitor_first_touch (
+		fingerprint,
+		first_visit_at,
+		first_visit_date,
+		first_path,
+		first_landing_query,
+		first_path_group,
+		first_content_type,
+		first_content_slug,
+		first_referrer_host,
+		first_utm_source,
+		first_utm_medium,
+		first_utm_campaign,
+		first_utm_term,
+		first_utm_content,
+		first_click_id_type,
+		first_click_id_value,
+		first_acquisition_source,
+		first_entry_surface
+	)
+	SELECT DISTINCT ON (v.fingerprint)
+		v.fingerprint,
+		v.started_at,
+		public.analytics_local_date(v.started_at),
+		v.path,
+		NULL,
+		COALESCE(v.path_group, '/'),
+		COALESCE(NULLIF(BTRIM(v.content_type), ''), 'other'),
+		NULLIF(BTRIM(v.content_slug), ''),
+		NULLIF(BTRIM(v.referrer_host), ''),
+		NULL,
+		NULL,
+		NULL,
+		NULL,
+		NULL,
+		NULL,
+		NULL,
+		public.normalize_acquisition_source(v.referrer_host, NULL, NULL, NULL),
+		public.normalize_entry_surface(v.path, v.content_type)
+	FROM public.page_analytics_visits v
+	WHERE COALESCE(BTRIM(v.fingerprint), '') <> ''
+		AND NOT public.is_analytics_utility_path(v.path)
+		AND public.analytics_local_date(v.started_at) BETWEEN v_from AND v_to
+	ORDER BY v.fingerprint, v.started_at ASC, v.id ASC
+	ON CONFLICT (fingerprint) DO NOTHING;
+
+	GET DIAGNOSTICS v_rows = ROW_COUNT;
+	RETURN v_rows;
+END;
+$$;
+
 CREATE OR REPLACE FUNCTION public.attach_profile_first_touch(
 	p_profile_id UUID,
 	p_fingerprint TEXT
@@ -1417,9 +1486,30 @@ BEGIN
 		PERFORM public.cleanup_site_telemetry(v_now);
 	END IF;
 
+	IF public.claim_telemetry_cleanup_slot(
+		'retention_rollup_refresh',
+		v_now,
+		INTERVAL '12 hours'
+	) THEN
+		PERFORM public.refresh_retention_rollups(
+			public.analytics_local_date(v_now - INTERVAL '45 days'),
+			public.analytics_local_date(v_now)
+		);
+	END IF;
+
 	RETURN QUERY SELECT v_session_id, v_visit_id;
 END;
 $$;
+
+SELECT public.backfill_visitor_first_touch_from_page_analytics(
+	DATE '2026-02-20',
+	public.analytics_local_date(NOW())
+);
+
+SELECT public.refresh_retention_rollups(
+	DATE '2026-02-20',
+	public.analytics_local_date(NOW())
+);
 
 GRANT EXECUTE ON FUNCTION public.upsert_page_analytics_visit(
 	UUID,

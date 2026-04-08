@@ -1,4 +1,5 @@
 <!-- docs/growth/growth-log.md -->
+
 # 9takes Growth Log
 
 Newest updates should go at the top of each section.

@@ -117,7 +117,7 @@
 		&:hover,
 		&:focus {
 			border-color: var(--primary);
-			box-shadow: 0 0 25px rgba(45, 212, 191, 0.3);
+			box-shadow: 0 0 25px var(--primary-glow);
 			outline: none;
 			transform: translateY(-3px);
 		}
@@ -126,11 +126,16 @@
 	.blog-content {
 		height: 100%;
 		padding: 1rem;
-		background-color: rgba(10, 10, 15, 0.85);
-		transition: background-color 0.3s ease;
+		background: linear-gradient(135deg, var(--bg-surface) 0%, var(--bg-deep) 100%);
+		transition: background 0.3s ease;
 
 		&.has-image {
-			background-color: rgba(10, 10, 15, 0.75);
+			background: linear-gradient(
+				to top,
+				var(--image-overlay-strong) 0%,
+				var(--image-overlay-medium) 45%,
+				var(--image-overlay-soft) 100%
+			);
 		}
 	}
 
@@ -140,7 +145,7 @@
 		color: var(--text-primary);
 
 		.has-image & {
-			color: var(--text-primary);
+			color: var(--text-on-image);
 		}
 	}
 
@@ -149,7 +154,7 @@
 		color: var(--text-secondary);
 
 		.has-image & {
-			color: var(--neutral-700);
+			color: var(--text-on-image-muted);
 		}
 	}
 

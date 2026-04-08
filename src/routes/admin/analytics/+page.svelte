@@ -881,397 +881,398 @@
 	</div>
 
 	{#if activeTab === 'pageviews'}
-	<section class="filter-card">
-		<div class="filter-grid">
-			<label class="field">
-				<span>From</span>
-				<input type="date" bind:value={fromDate} />
-			</label>
-			<label class="field">
-				<span>To</span>
-				<input type="date" bind:value={toDate} />
-			</label>
-			<label class="field">
-				<span>Scope</span>
-				<select bind:value={scope}>
-					{#each scopeOptions as option}
-						<option value={option.value}>{option.label}</option>
-					{/each}
-				</select>
-			</label>
-			<label class="field grow">
-				<span>Search path</span>
-				<input
-					type="text"
-					placeholder="/personality-analysis/chamath-palihapitiya"
-					bind:value={search}
+		<section class="filter-card">
+			<div class="filter-grid">
+				<label class="field">
+					<span>From</span>
+					<input type="date" bind:value={fromDate} />
+				</label>
+				<label class="field">
+					<span>To</span>
+					<input type="date" bind:value={toDate} />
+				</label>
+				<label class="field">
+					<span>Scope</span>
+					<select bind:value={scope}>
+						{#each scopeOptions as option}
+							<option value={option.value}>{option.label}</option>
+						{/each}
+					</select>
+				</label>
+				<label class="field grow">
+					<span>Search path</span>
+					<input
+						type="text"
+						placeholder="/personality-analysis/chamath-palihapitiya"
+						bind:value={search}
+					/>
+				</label>
+			</div>
+			<div class="filter-actions">
+				<button class="btn btn-primary" onclick={applyFilters} disabled={loading || tableLoading}>
+					Apply
+				</button>
+				<button class="btn btn-secondary" onclick={resetFilters} disabled={loading || tableLoading}>
+					Reset
+				</button>
+			</div>
+		</section>
+
+		<section class="metrics-grid">
+			<StatCard icon="👀" label="Visits" value={overview.total_visits} color="primary" />
+			<StatCard icon="🧬" label="Unique Visitors" value={overview.unique_visitors} />
+			<StatCard
+				icon="🔐"
+				label="Authenticated Visits"
+				value={overview.authenticated_visits}
+				color="success"
+			/>
+			<StatCard icon="🕶️" label="Anonymous Visits" value={overview.anonymous_visits} />
+			<StatCard
+				icon="⏱️"
+				label="Avg Time on Page"
+				value={formatDurationMs(overview.avg_time_on_page_ms)}
+			/>
+			<StatCard
+				icon="📉"
+				label="Bounce Rate"
+				value={formatBounceRate(overview.bounce_rate)}
+				color={overview.bounce_rate > 65 ? 'warning' : 'default'}
+			/>
+		</section>
+
+		<section class="charts-grid">
+			<div class="chart-card">
+				<LineChart
+					data={visitsChartData}
+					title="Visits Over Time"
+					height={280}
+					color="#3b82f6"
+					showPoints={true}
+					showGrid={true}
+					showSummary={true}
+					showTrend={true}
 				/>
-			</label>
-		</div>
-		<div class="filter-actions">
-			<button class="btn btn-primary" onclick={applyFilters} disabled={loading || tableLoading}>
-				Apply
-			</button>
-			<button class="btn btn-secondary" onclick={resetFilters} disabled={loading || tableLoading}>
-				Reset
-			</button>
-		</div>
-	</section>
-
-	<section class="metrics-grid">
-		<StatCard icon="👀" label="Visits" value={overview.total_visits} color="primary" />
-		<StatCard icon="🧬" label="Unique Visitors" value={overview.unique_visitors} />
-		<StatCard
-			icon="🔐"
-			label="Authenticated Visits"
-			value={overview.authenticated_visits}
-			color="success"
-		/>
-		<StatCard icon="🕶️" label="Anonymous Visits" value={overview.anonymous_visits} />
-		<StatCard
-			icon="⏱️"
-			label="Avg Time on Page"
-			value={formatDurationMs(overview.avg_time_on_page_ms)}
-		/>
-		<StatCard
-			icon="📉"
-			label="Bounce Rate"
-			value={formatBounceRate(overview.bounce_rate)}
-			color={overview.bounce_rate > 65 ? 'warning' : 'default'}
-		/>
-	</section>
-
-	<section class="charts-grid">
-		<div class="chart-card">
-			<LineChart
-				data={visitsChartData}
-				title="Visits Over Time"
-				height={280}
-				color="#3b82f6"
-				showPoints={true}
-				showGrid={true}
-				showSummary={true}
-				showTrend={true}
-			/>
-		</div>
-		<div class="chart-card">
-			<LineChart
-				data={avgTimeChartData}
-				title="Average Time on Page (Seconds)"
-				height={280}
-				color="#22c55e"
-				showPoints={true}
-				showGrid={true}
-				showSummary={true}
-				showTrend={true}
-			/>
-		</div>
-	</section>
-
-	<section class="insight-card">
-		<div class="insight-header">
-			<div>
-				<h2>Top Pages Over Time</h2>
-				<p>
-					{formatDateWindow(topPages.windows.selectedFrom, topPages.windows.selectedTo)}
-					{#if topPageTotals.length > 0}
-						| Top {topPageTotals.length} pages by visits
-					{/if}
-				</p>
-				<p class="trend-hint">Click any path card or table row below to load its trend.</p>
 			</div>
-			{#if insightsLoading}
-				<span class="loading-pill">Updating...</span>
-			{/if}
-		</div>
+			<div class="chart-card">
+				<LineChart
+					data={avgTimeChartData}
+					title="Average Time on Page (Seconds)"
+					height={280}
+					color="#22c55e"
+					showPoints={true}
+					showGrid={true}
+					showSummary={true}
+					showTrend={true}
+				/>
+			</div>
+		</section>
 
-		{#if topPageTotals.length === 0}
-			<div class="empty-panel">No top page trend data for this date range.</div>
-		{:else}
-			<div class="top-trend-layout">
-				<div class="path-selector">
-					{#each topPageTotals as row, index}
-						<button
-							class="path-pill"
-							class:active={selectedTrendPath === row.path}
-							onclick={() => void focusPathTrend(row.path)}
-						>
-							<span class="path-rank">#{index + 1}</span>
-							<span class="path-text">{row.path}</span>
-							<span class="path-visits">{row.total_visits.toLocaleString()}</span>
-						</button>
-					{/each}
+		<section class="insight-card">
+			<div class="insight-header">
+				<div>
+					<h2>Top Pages Over Time</h2>
+					<p>
+						{formatDateWindow(topPages.windows.selectedFrom, topPages.windows.selectedTo)}
+						{#if topPageTotals.length > 0}
+							| Top {topPageTotals.length} pages by visits
+						{/if}
+					</p>
+					<p class="trend-hint">Click any path card or table row below to load its trend.</p>
 				</div>
-
-				<div class="trend-panel">
-					{#if selectedTrendChartData.length > 0}
-						<LineChart
-							data={selectedTrendChartData}
-							title={selectedTrendPath ? `Visits Trend - ${selectedTrendPath}` : 'Visits Trend'}
-							height={300}
-							color="#f59e0b"
-							showPoints={true}
-							showGrid={true}
-							showSummary={true}
-							showTrend={true}
-						/>
-					{:else}
-						<div class="empty-panel trend-empty">
-							{trendLoading
-								? 'Loading selected path trend...'
-								: 'No trend data available for the selected page in this range.'}
-						</div>
-					{/if}
-					{#if selectedTrendSummary}
-						<div class="trend-meta">
-							<span>{selectedTrendSummary.total_visits.toLocaleString()} visits</span>
-							<span>{selectedTrendSummary.active_days} active days</span>
-							<span>{selectedTrendSummary.path_group || 'n/a'}</span>
-							{#if trendLoading}
-								<span class="loading-pill">Loading path trend...</span>
-							{/if}
-						</div>
-					{/if}
-				</div>
+				{#if insightsLoading}
+					<span class="loading-pill">Updating...</span>
+				{/if}
 			</div>
-		{/if}
-	</section>
 
-	<section class="top-lists-grid">
-		<article class="list-card">
-			<div class="list-header">
-				<h3>Top Pages This Week</h3>
-				<p>{formatDateWindow(topPages.windows.weekFrom, topPages.windows.weekTo)}</p>
-			</div>
-			{#if weekRankedRows.length === 0}
-				<div class="empty-panel">No page visits recorded this week.</div>
+			{#if topPageTotals.length === 0}
+				<div class="empty-panel">No top page trend data for this date range.</div>
 			{:else}
-				<ol class="rank-list">
-					{#each weekRankedRows as row}
-						<li>
+				<div class="top-trend-layout">
+					<div class="path-selector">
+						{#each topPageTotals as row, index}
 							<button
-								type="button"
-								class="rank-item-button"
+								class="path-pill"
 								class:active={selectedTrendPath === row.path}
 								onclick={() => void focusPathTrend(row.path)}
 							>
-								<div class="rank-top">
-									<span class="rank-num">{row.rank}</span>
-									<span class="rank-path">{row.path}</span>
-									<span class="rank-value">{row.visits.toLocaleString()} visits</span>
-								</div>
-								<div class="bar-track">
-									<div
-										class="bar-fill bar-week"
-										style={`width: ${Math.max(6, row.width_pct)}%`}
-									></div>
-								</div>
-								<div class="rank-meta">
-									{row.unique_visitors.toLocaleString()} uniques | {formatDurationMs(
-										row.avg_time_on_page_ms
-									)}
-									avg
-								</div>
+								<span class="path-rank">#{index + 1}</span>
+								<span class="path-text">{row.path}</span>
+								<span class="path-visits">{row.total_visits.toLocaleString()}</span>
 							</button>
-						</li>
-					{/each}
-				</ol>
-			{/if}
-		</article>
+						{/each}
+					</div>
 
-		<article class="list-card">
-			<div class="list-header">
-				<h3>Top Pages This Month</h3>
-				<p>{formatDateWindow(topPages.windows.monthFrom, topPages.windows.monthTo)}</p>
-			</div>
-			{#if monthRankedRows.length === 0}
-				<div class="empty-panel">No page visits recorded this month.</div>
-			{:else}
-				<ol class="rank-list">
-					{#each monthRankedRows as row}
-						<li>
-							<button
-								type="button"
-								class="rank-item-button"
-								class:active={selectedTrendPath === row.path}
-								onclick={() => void focusPathTrend(row.path)}
-							>
-								<div class="rank-top">
-									<span class="rank-num">{row.rank}</span>
-									<span class="rank-path">{row.path}</span>
-									<span class="rank-value">{row.visits.toLocaleString()} visits</span>
-								</div>
-								<div class="bar-track">
-									<div
-										class="bar-fill bar-month"
-										style={`width: ${Math.max(6, row.width_pct)}%`}
-									></div>
-								</div>
-								<div class="rank-meta">
-									{row.unique_visitors.toLocaleString()} uniques | {formatDurationMs(
-										row.avg_time_on_page_ms
-									)}
-									avg
-								</div>
-							</button>
-						</li>
-					{/each}
-				</ol>
-			{/if}
-		</article>
-
-		<article class="list-card">
-			<div class="list-header">
-				<h3>Top Pages by Session Duration</h3>
-				<p>{formatDateWindow(topPages.windows.selectedFrom, topPages.windows.selectedTo)}</p>
-			</div>
-			{#if durationRankedRows.length === 0}
-				<div class="empty-panel">No pages meet the minimum visit threshold for this range.</div>
-			{:else}
-				<ol class="rank-list">
-					{#each durationRankedRows as row}
-						<li>
-							<button
-								type="button"
-								class="rank-item-button"
-								class:active={selectedTrendPath === row.path}
-								onclick={() => void focusPathTrend(row.path)}
-							>
-								<div class="rank-top">
-									<span class="rank-num">{row.rank}</span>
-									<span class="rank-path">{row.path}</span>
-									<span class="rank-value">{formatDurationMs(row.avg_time_on_page_ms)} avg</span>
-								</div>
-								<div class="bar-track">
-									<div
-										class="bar-fill bar-duration"
-										style={`width: ${Math.max(6, row.width_pct)}%`}
-									></div>
-								</div>
-								<div class="rank-meta">
-									{row.visits.toLocaleString()} visits | median
-									{formatDurationMs(row.median_time_on_page_ms)} | bounce
-									{formatBounceRate(row.bounce_rate)}
-								</div>
-							</button>
-						</li>
-					{/each}
-				</ol>
-			{/if}
-		</article>
-	</section>
-
-	<section class="table-card">
-		<div class="table-header">
-			<div>
-				<h2>Page Breakdown (Raw Paths)</h2>
-				<p class="table-window-summary">
-					{pageBreakdownRangeLabel || getPageBreakdownWindowLabel(pageBreakdownWindow)}
-				</p>
-			</div>
-			<div class="table-header-controls">
-				<div class="table-window-tabs" role="tablist" aria-label="Page breakdown time windows">
-					{#each pageBreakdownWindowOptions as option}
-						<button
-							type="button"
-							role="tab"
-							class="window-tab"
-							class:active={pageBreakdownWindow === option.key}
-							aria-selected={pageBreakdownWindow === option.key}
-							disabled={tableLoading && pageBreakdownWindow !== option.key}
-							onclick={() => void selectPageBreakdownWindow(option.key)}
-						>
-							{option.label}
-						</button>
-					{/each}
+					<div class="trend-panel">
+						{#if selectedTrendChartData.length > 0}
+							<LineChart
+								data={selectedTrendChartData}
+								title={selectedTrendPath ? `Visits Trend - ${selectedTrendPath}` : 'Visits Trend'}
+								height={300}
+								color="#f59e0b"
+								showPoints={true}
+								showGrid={true}
+								showSummary={true}
+								showTrend={true}
+							/>
+						{:else}
+							<div class="empty-panel trend-empty">
+								{trendLoading
+									? 'Loading selected path trend...'
+									: 'No trend data available for the selected page in this range.'}
+							</div>
+						{/if}
+						{#if selectedTrendSummary}
+							<div class="trend-meta">
+								<span>{selectedTrendSummary.total_visits.toLocaleString()} visits</span>
+								<span>{selectedTrendSummary.active_days} active days</span>
+								<span>{selectedTrendSummary.path_group || 'n/a'}</span>
+								{#if trendLoading}
+									<span class="loading-pill">Loading path trend...</span>
+								{/if}
+							</div>
+						{/if}
+					</div>
 				</div>
-				<div class="table-meta">
-					<span>{pagination.total.toLocaleString()} total rows</span>
-					<span>Page {page} of {totalPages}</span>
-					<span>
-						Sorted by {tableSortColumns.find((column) => column.key === sortBy)?.label || 'Visits'} (
-						{sortDir})
-					</span>
+			{/if}
+		</section>
+
+		<section class="top-lists-grid">
+			<article class="list-card">
+				<div class="list-header">
+					<h3>Top Pages This Week</h3>
+					<p>{formatDateWindow(topPages.windows.weekFrom, topPages.windows.weekTo)}</p>
 				</div>
-			</div>
-		</div>
-		<div class="table-wrapper">
-			<table class="data-table">
-				<thead>
-					<tr>
-						{#each tableSortColumns as column}
-							<th class:num={column.numeric} aria-sort={getAriaSort(column.key)}>
+				{#if weekRankedRows.length === 0}
+					<div class="empty-panel">No page visits recorded this week.</div>
+				{:else}
+					<ol class="rank-list">
+						{#each weekRankedRows as row}
+							<li>
 								<button
 									type="button"
-									class="sort-button"
-									class:num={column.numeric}
-									class:active={sortBy === column.key}
-									onclick={() => handleSort(column.key)}
+									class="rank-item-button"
+									class:active={selectedTrendPath === row.path}
+									onclick={() => void focusPathTrend(row.path)}
 								>
-									<span>{column.label}</span>
-									<span class="sort-indicator">{getSortIndicator(column.key)}</span>
+									<div class="rank-top">
+										<span class="rank-num">{row.rank}</span>
+										<span class="rank-path">{row.path}</span>
+										<span class="rank-value">{row.visits.toLocaleString()} visits</span>
+									</div>
+									<div class="bar-track">
+										<div
+											class="bar-fill bar-week"
+											style={`width: ${Math.max(6, row.width_pct)}%`}
+										></div>
+									</div>
+									<div class="rank-meta">
+										{row.unique_visitors.toLocaleString()} uniques | {formatDurationMs(
+											row.avg_time_on_page_ms
+										)}
+										avg
+									</div>
 								</button>
-							</th>
+							</li>
 						{/each}
-						<th>Last Modified</th>
-					</tr>
-				</thead>
-				<tbody>
-					{#if tableLoading}
+					</ol>
+				{/if}
+			</article>
+
+			<article class="list-card">
+				<div class="list-header">
+					<h3>Top Pages This Month</h3>
+					<p>{formatDateWindow(topPages.windows.monthFrom, topPages.windows.monthTo)}</p>
+				</div>
+				{#if monthRankedRows.length === 0}
+					<div class="empty-panel">No page visits recorded this month.</div>
+				{:else}
+					<ol class="rank-list">
+						{#each monthRankedRows as row}
+							<li>
+								<button
+									type="button"
+									class="rank-item-button"
+									class:active={selectedTrendPath === row.path}
+									onclick={() => void focusPathTrend(row.path)}
+								>
+									<div class="rank-top">
+										<span class="rank-num">{row.rank}</span>
+										<span class="rank-path">{row.path}</span>
+										<span class="rank-value">{row.visits.toLocaleString()} visits</span>
+									</div>
+									<div class="bar-track">
+										<div
+											class="bar-fill bar-month"
+											style={`width: ${Math.max(6, row.width_pct)}%`}
+										></div>
+									</div>
+									<div class="rank-meta">
+										{row.unique_visitors.toLocaleString()} uniques | {formatDurationMs(
+											row.avg_time_on_page_ms
+										)}
+										avg
+									</div>
+								</button>
+							</li>
+						{/each}
+					</ol>
+				{/if}
+			</article>
+
+			<article class="list-card">
+				<div class="list-header">
+					<h3>Top Pages by Session Duration</h3>
+					<p>{formatDateWindow(topPages.windows.selectedFrom, topPages.windows.selectedTo)}</p>
+				</div>
+				{#if durationRankedRows.length === 0}
+					<div class="empty-panel">No pages meet the minimum visit threshold for this range.</div>
+				{:else}
+					<ol class="rank-list">
+						{#each durationRankedRows as row}
+							<li>
+								<button
+									type="button"
+									class="rank-item-button"
+									class:active={selectedTrendPath === row.path}
+									onclick={() => void focusPathTrend(row.path)}
+								>
+									<div class="rank-top">
+										<span class="rank-num">{row.rank}</span>
+										<span class="rank-path">{row.path}</span>
+										<span class="rank-value">{formatDurationMs(row.avg_time_on_page_ms)} avg</span>
+									</div>
+									<div class="bar-track">
+										<div
+											class="bar-fill bar-duration"
+											style={`width: ${Math.max(6, row.width_pct)}%`}
+										></div>
+									</div>
+									<div class="rank-meta">
+										{row.visits.toLocaleString()} visits | median
+										{formatDurationMs(row.median_time_on_page_ms)} | bounce
+										{formatBounceRate(row.bounce_rate)}
+									</div>
+								</button>
+							</li>
+						{/each}
+					</ol>
+				{/if}
+			</article>
+		</section>
+
+		<section class="table-card">
+			<div class="table-header">
+				<div>
+					<h2>Page Breakdown (Raw Paths)</h2>
+					<p class="table-window-summary">
+						{pageBreakdownRangeLabel || getPageBreakdownWindowLabel(pageBreakdownWindow)}
+					</p>
+				</div>
+				<div class="table-header-controls">
+					<div class="table-window-tabs" role="tablist" aria-label="Page breakdown time windows">
+						{#each pageBreakdownWindowOptions as option}
+							<button
+								type="button"
+								role="tab"
+								class="window-tab"
+								class:active={pageBreakdownWindow === option.key}
+								aria-selected={pageBreakdownWindow === option.key}
+								disabled={tableLoading && pageBreakdownWindow !== option.key}
+								onclick={() => void selectPageBreakdownWindow(option.key)}
+							>
+								{option.label}
+							</button>
+						{/each}
+					</div>
+					<div class="table-meta">
+						<span>{pagination.total.toLocaleString()} total rows</span>
+						<span>Page {page} of {totalPages}</span>
+						<span>
+							Sorted by {tableSortColumns.find((column) => column.key === sortBy)?.label ||
+								'Visits'} (
+							{sortDir})
+						</span>
+					</div>
+				</div>
+			</div>
+			<div class="table-wrapper">
+				<table class="data-table">
+					<thead>
 						<tr>
-							<td colspan="11" class="empty">Loading...</td>
-						</tr>
-					{:else if rows.length === 0}
-						<tr>
-							<td colspan="11" class="empty">No data for this filter set.</td>
-						</tr>
-					{:else}
-						{#each rows as row}
-							<tr class:active-row={selectedTrendPath === row.path}>
-								<td class="path">
+							{#each tableSortColumns as column}
+								<th class:num={column.numeric} aria-sort={getAriaSort(column.key)}>
 									<button
 										type="button"
-										class="table-path-button"
-										class:active={selectedTrendPath === row.path}
-										onclick={() => void focusPathTrend(row.path)}
+										class="sort-button"
+										class:num={column.numeric}
+										class:active={sortBy === column.key}
+										onclick={() => handleSort(column.key)}
 									>
-										{row.path}
+										<span>{column.label}</span>
+										<span class="sort-indicator">{getSortIndicator(column.key)}</span>
 									</button>
-								</td>
-								<td>{row.path_group}</td>
-								<td>{row.content_type}</td>
-								<td class="num">{row.visits.toLocaleString()}</td>
-								<td class="num">{row.unique_visitors.toLocaleString()}</td>
-								<td class="num">{row.authenticated_visits.toLocaleString()}</td>
-								<td class="num">{row.anonymous_visits.toLocaleString()}</td>
-								<td class="num">{formatDurationMs(row.avg_time_on_page_ms)}</td>
-								<td class="num">{formatDurationMs(row.median_time_on_page_ms)}</td>
-								<td class="num">{formatBounceRate(row.bounce_rate)}</td>
-								<td>
-									{#if row.last_modified_at}
-										<time datetime={row.last_modified_at}>
-											{formatLastModified(row.last_modified_at)}
-										</time>
-									{:else}
-										—
-									{/if}
-								</td>
+								</th>
+							{/each}
+							<th>Last Modified</th>
+						</tr>
+					</thead>
+					<tbody>
+						{#if tableLoading}
+							<tr>
+								<td colspan="11" class="empty">Loading...</td>
 							</tr>
-						{/each}
-					{/if}
-				</tbody>
-			</table>
-		</div>
-		<div class="pagination">
-			<button class="btn btn-secondary" onclick={() => goToPage(page - 1)} disabled={!canPrev}>
-				Previous
-			</button>
-			<span>Page {page} of {totalPages}</span>
-			<button class="btn btn-secondary" onclick={() => goToPage(page + 1)} disabled={!canNext}>
-				Next
-			</button>
-		</div>
-	</section>
+						{:else if rows.length === 0}
+							<tr>
+								<td colspan="11" class="empty">No data for this filter set.</td>
+							</tr>
+						{:else}
+							{#each rows as row}
+								<tr class:active-row={selectedTrendPath === row.path}>
+									<td class="path">
+										<button
+											type="button"
+											class="table-path-button"
+											class:active={selectedTrendPath === row.path}
+											onclick={() => void focusPathTrend(row.path)}
+										>
+											{row.path}
+										</button>
+									</td>
+									<td>{row.path_group}</td>
+									<td>{row.content_type}</td>
+									<td class="num">{row.visits.toLocaleString()}</td>
+									<td class="num">{row.unique_visitors.toLocaleString()}</td>
+									<td class="num">{row.authenticated_visits.toLocaleString()}</td>
+									<td class="num">{row.anonymous_visits.toLocaleString()}</td>
+									<td class="num">{formatDurationMs(row.avg_time_on_page_ms)}</td>
+									<td class="num">{formatDurationMs(row.median_time_on_page_ms)}</td>
+									<td class="num">{formatBounceRate(row.bounce_rate)}</td>
+									<td>
+										{#if row.last_modified_at}
+											<time datetime={row.last_modified_at}>
+												{formatLastModified(row.last_modified_at)}
+											</time>
+										{:else}
+											—
+										{/if}
+									</td>
+								</tr>
+							{/each}
+						{/if}
+					</tbody>
+				</table>
+			</div>
+			<div class="pagination">
+				<button class="btn btn-secondary" onclick={() => goToPage(page - 1)} disabled={!canPrev}>
+					Previous
+				</button>
+				<span>Page {page} of {totalPages}</span>
+				<button class="btn btn-secondary" onclick={() => goToPage(page + 1)} disabled={!canNext}>
+					Next
+				</button>
+			</div>
+		</section>
 	{:else}
 		<RetentionAnalyticsPanel filters={data.cohortFilters} cohorts={data.cohorts} />
 	{/if}

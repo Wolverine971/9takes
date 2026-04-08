@@ -1,3 +1,4 @@
+<!-- src/lib/components/admin/RetentionAnalyticsPanel.svelte -->
 <script lang="ts">
 	import { notifications } from '$lib/components/molecules/notifications';
 	import { formatDurationMs } from '$lib/analytics/pageAnalytics';
@@ -142,7 +143,9 @@
 		return params;
 	}
 
-	function getAcquisitionOptions(rows: AcquisitionMixRow[]): Array<{ value: string; label: string }> {
+	function getAcquisitionOptions(
+		rows: AcquisitionMixRow[]
+	): Array<{ value: string; label: string }> {
 		const values = [...new Set(rows.map((row) => row.acquisition_source).filter(Boolean))].sort();
 		return [
 			{ value: '', label: 'All sources' },
@@ -287,8 +290,8 @@
 		<button class="btn btn-secondary" onclick={resetFilters} disabled={loading}>Reset</button>
 	</div>
 	<p class="cohort-note">
-		Weekly cohorts, Monday-Sunday, `America/New_York`. D7 and D30 stay muted until the cohort
-		window is mature.
+		Weekly cohorts, Monday-Sunday, `America/New_York`. D7 and D30 stay muted until the cohort window
+		is mature.
 	</p>
 </section>
 
@@ -563,6 +566,11 @@
 		padding: 14px;
 	}
 
+	.filter-grid {
+		display: grid;
+		gap: 10px;
+	}
+
 	.cohort-filter-grid {
 		grid-template-columns: repeat(4, minmax(0, 1fr));
 	}
@@ -683,6 +691,42 @@
 
 	.table-wrapper {
 		overflow-x: auto;
+		border: 1px solid var(--bg-elevated);
+		border-radius: 8px;
+	}
+
+	.data-table {
+		width: 100%;
+		border-collapse: collapse;
+		font-size: 0.84rem;
+	}
+
+	.data-table th,
+	.data-table td {
+		padding: 10px 10px;
+		border-bottom: 1px solid var(--bg-elevated);
+		text-align: left;
+		vertical-align: top;
+	}
+
+	.data-table th {
+		background: var(--bg-deep);
+		color: var(--text-secondary);
+		font-size: 0.75rem;
+		text-transform: uppercase;
+		letter-spacing: 0.04em;
+		padding: 6px 8px;
+	}
+
+	.data-table .num {
+		text-align: right;
+		white-space: nowrap;
+	}
+
+	.empty {
+		text-align: center;
+		color: var(--text-secondary);
+		padding: 18px 12px;
 	}
 
 	.cohort-table td,
