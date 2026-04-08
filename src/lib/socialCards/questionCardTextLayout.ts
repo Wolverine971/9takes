@@ -12,7 +12,7 @@ export interface QuestionCardTextLayout {
 	lineHeight: number;
 }
 
-const normalizeQuestionText = (text: string): string => text.replace(/\s+/g, ' ').trim();
+const normalizeQuestionText = (text: string): string => text?.replace(/\s+/g, ' ')?.trim();
 
 const estimateCharWidth = (fontSize: number): number => fontSize * 0.56;
 

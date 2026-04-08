@@ -57,7 +57,24 @@ export const load: LayoutServerLoad = async (event) => {
 
 	const demo_time = demoSetting?.value;
 	const session = event.locals.session;
-	const user = event.locals.user;
+	let user = event.locals.user;
+
+	if (user?.id) {
+		const { data: profile, error: profileError } = await event.locals.supabase
+			.from('profiles')
+			.select('admin')
+			.eq('id', user.id)
+			.maybeSingle();
+
+		if (profileError) {
+			logger.warn('Failed to load user admin flag in layout', profileError);
+		} else {
+			user = {
+				...user,
+				admin: Boolean(profile?.admin)
+			};
+		}
+	}
 
 	return {
 		demo_time,

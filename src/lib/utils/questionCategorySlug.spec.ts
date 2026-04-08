@@ -15,6 +15,16 @@ describe('questionCategorySlug', () => {
 		);
 	});
 
+	it('matches database slugify behavior for accented characters', () => {
+		expect(buildQuestionCategorySlug('Beyonce')).toBe('beyonce');
+		expect(buildQuestionCategorySlug('Beyonce & Co.')).toBe('beyonce-and-co');
+		expect(buildQuestionCategorySlug('Beyonce and Co')).toBe('beyonce-and-co');
+		expect(buildQuestionCategorySlug('Beyonce and Co')).not.toBe(
+			buildQuestionCategorySlug('Beyonc\u00e9 and Co')
+		);
+		expect(buildQuestionCategorySlug('Beyonc\u00e9 and Co')).toBe('beyonc-and-co');
+	});
+
 	it('matches legacy mixed-case slugs to the canonical slug', () => {
 		expect(
 			matchesQuestionCategorySlug('Art, History, and Culture', 'Art,-History,-and-Culture')

@@ -217,10 +217,24 @@
 						</li>
 					</ul>
 
-					<!-- Login/Register section -->
-					{#if !$page.data?.user}
+					<!-- Footer actions -->
+					{#if $page.data?.user?.admin || !$page.data?.user}
 						<div class="nav-actions">
-							<a href="/login" class="login-button" on:click={closeMenu}> Login / Register </a>
+							{#if $page.data?.user?.admin}
+								<a
+									href="/admin"
+									class="admin-button"
+									class:active={$page.url.pathname.startsWith('/admin')}
+									on:click={closeMenu}
+									aria-current={$page.url.pathname.startsWith('/admin') ? 'page' : undefined}
+								>
+									Admin
+								</a>
+							{/if}
+
+							{#if !$page.data?.user}
+								<a href="/login" class="login-button" on:click={closeMenu}> Login / Register </a>
+							{/if}
 						</div>
 					{/if}
 				</div>
@@ -486,6 +500,35 @@
 	.nav-actions {
 		padding: 1rem 1.25rem;
 		border-top: 1px solid var(--border-color);
+		display: flex;
+		flex-direction: column;
+		gap: 0.75rem;
+	}
+
+	.admin-button {
+		display: block;
+		width: 100%;
+		padding: 0.875rem 1.25rem;
+		background-color: var(--bg-elevated);
+		color: var(--text-primary);
+		text-align: center;
+		text-decoration: none;
+		border: 1px solid color-mix(in srgb, var(--accent) 22%, var(--border-color));
+		border-radius: 8px;
+		font-weight: 600;
+		font-size: 1rem;
+		transition: all 0.2s ease;
+
+		&:hover {
+			background-color: color-mix(in srgb, var(--accent) 10%, var(--bg-elevated));
+			border-color: color-mix(in srgb, var(--accent) 40%, var(--border-color));
+		}
+
+		&.active {
+			background-color: color-mix(in srgb, var(--accent) 12%, var(--bg-elevated));
+			border-color: color-mix(in srgb, var(--accent) 48%, var(--border-color));
+			color: var(--accent);
+		}
 	}
 
 	.login-button {

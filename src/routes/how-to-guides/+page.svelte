@@ -127,21 +127,25 @@
 				{#each data.featured as blog}
 					{@const label = getRecencyLabel(blog.lastmod || blog.date)}
 
-					<a href={`/how-to-guides/${blog.slug}`} class="featured-card" class:has-image={blog.pic}>
+					<a
+						href={`/how-to-guides/${blog.slug}`}
+						class="featured-card image-card image-card--inset"
+						class:has-image={blog.pic}
+					>
 						{#if blog.pic}
 							<div
-								class="featured-image"
+								class="featured-image image-card-media"
 								style={`background-image: url(/blogs/${blog.pic}.webp);`}
 							></div>
 						{/if}
-						<div class="featured-overlay"></div>
-						<div class="featured-content">
+						<div class="featured-overlay image-card-overlay"></div>
+						<div class="featured-content image-card-content">
 							<span class="featured-badge" class:new={label === 'New'}>
 								{label || 'Latest'}
 							</span>
 							<h3>{blog.title}</h3>
 							<p>{blog.description}</p>
-							<span class="read-more">
+							<span class="read-more image-card-read-more">
 								Read Guide
 								<ArrowRightIcon
 									iconStyle={'margin-left: 0.25rem'}
@@ -171,15 +175,19 @@
 				<div class="recent-grid">
 					{#each data.recentlyUpdated as blog}
 						{@const label = getRecencyLabel(blog.lastmod || blog.date)}
-						<a href={`/how-to-guides/${blog.slug}`} class="recent-card" class:has-image={blog.pic}>
+						<a
+							href={`/how-to-guides/${blog.slug}`}
+							class="recent-card image-card"
+							class:has-image={blog.pic}
+						>
 							{#if blog.pic}
 								<div
-									class="card-image"
+									class="card-image image-card-media"
 									style={`background-image: url(/blogs/s-${blog.pic}.webp);`}
 								></div>
 							{/if}
-							<div class="card-overlay"></div>
-							<div class="card-content">
+							<div class="card-overlay image-card-overlay"></div>
+							<div class="card-content image-card-content">
 								{#if label}
 									<span class="recency-badge" class:new={label === 'New'}>{label}</span>
 								{/if}
@@ -200,15 +208,19 @@
 				<h2>More Guides</h2>
 				<div class="blog-grid">
 					{#each remainingPosts as blog}
-						<a href={`/how-to-guides/${blog.slug}`} class="blog-card" class:has-image={blog.pic}>
+						<a
+							href={`/how-to-guides/${blog.slug}`}
+							class="blog-card image-card"
+							class:has-image={blog.pic}
+						>
 							{#if blog.pic}
 								<div
-									class="card-image"
+									class="card-image image-card-media"
 									style={`background-image: url(/blogs/s-${blog.pic}.webp);`}
 								></div>
 							{/if}
-							<div class="card-overlay"></div>
-							<div class="card-content">
+							<div class="card-overlay image-card-overlay"></div>
+							<div class="card-content image-card-content">
 								<h3>{blog.title}</h3>
 								<p>{blog.description}</p>
 							</div>
@@ -337,12 +349,11 @@
 
 	/* Featured Card */
 	.featured-card {
+		@extend .image-card !optional;
+		@extend .image-card--inset !optional;
 		display: block;
 		position: relative;
 		border-radius: 1rem;
-		overflow: hidden;
-		background: var(--bg-surface);
-		text-decoration: none;
 		transition: all 0.3s ease;
 		min-height: 280px;
 		border: 1px solid color-mix(in srgb, var(--primary) 18%, var(--border-color));
@@ -369,69 +380,20 @@
 			&::before {
 				opacity: 1;
 			}
-
-			.featured-image {
-				transform: scale(1.05);
-			}
-		}
-
-		&.has-image {
-			.featured-content {
-				color: #fff;
-			}
-			.featured-content h3,
-			.featured-content .read-more {
-				color: #fff;
-			}
-			.featured-content p {
-				color: rgba(255, 255, 255, 0.8);
-			}
-			.featured-badge {
-				background: rgba(255, 255, 255, 0.12);
-				border-color: rgba(255, 255, 255, 0.22);
-				color: #fff;
-			}
-			.featured-overlay {
-				background: linear-gradient(
-					to top,
-					rgba(12, 10, 9, 0.97) 0%,
-					rgba(12, 10, 9, 0.72) 45%,
-					rgba(12, 10, 9, 0.2) 100%
-				);
-			}
 		}
 	}
 
 	.featured-image {
-		position: absolute;
-		inset: 0.45rem;
-		border-radius: 0.8rem;
-		background-size: cover;
-		background-position: center;
-		transition: transform 0.4s ease;
+		@extend .image-card-media !optional;
 	}
 
 	.featured-overlay {
-		position: absolute;
-		inset: 0.45rem;
-		border-radius: 0.8rem;
-		background: linear-gradient(
-			180deg,
-			color-mix(in srgb, var(--primary-subtle) 70%, transparent) 0%,
-			color-mix(in srgb, var(--bg-surface) 92%, var(--bg-deep)) 28%,
-			color-mix(in srgb, var(--bg-deep) 90%, var(--bg-base)) 100%
-		);
+		@extend .image-card-overlay !optional;
 	}
 
 	.featured-content {
-		position: relative;
-		z-index: 2;
-		height: 100%;
-		display: flex;
-		flex-direction: column;
-		justify-content: flex-end;
+		@extend .image-card-content !optional;
 		padding: 2rem;
-		color: var(--text-primary);
 
 		h3 {
 			font-size: 1.5rem;
@@ -474,12 +436,9 @@
 	}
 
 	.read-more {
-		display: flex;
-		align-items: center;
+		@extend .image-card-read-more !optional;
 		font-size: 0.875rem;
 		font-weight: 600;
-		color: var(--primary);
-		transition: color 0.2s ease;
 	}
 
 	/* Recency Badge */
@@ -510,12 +469,10 @@
 	}
 
 	.recent-card {
+		@extend .image-card !optional;
 		position: relative;
 		aspect-ratio: 3 / 2;
 		border-radius: 0.75rem;
-		overflow: hidden;
-		background: var(--bg-surface);
-		text-decoration: none;
 		transition: all 0.25s ease;
 		border: 1px solid rgba(45, 212, 191, 0.15);
 
@@ -540,32 +497,8 @@
 				opacity: 1;
 			}
 
-			.card-image {
-				transform: scale(1.05);
-			}
-
 			.card-content h3 {
 				color: var(--accent-light);
-			}
-		}
-
-		&.has-image {
-			.card-content {
-				color: #fff;
-			}
-			.card-content h3 {
-				color: #fff;
-			}
-			.card-content p {
-				color: rgba(255, 255, 255, 0.8);
-			}
-			.card-overlay {
-				background: linear-gradient(
-					to top,
-					rgba(10, 10, 15, 0.95) 0%,
-					rgba(10, 10, 15, 0.6) 40%,
-					rgba(10, 10, 15, 0.3) 100%
-				);
 			}
 		}
 
@@ -610,12 +543,10 @@
 
 	/* Blog Cards */
 	.blog-card {
+		@extend .image-card !optional;
 		position: relative;
 		aspect-ratio: 4 / 3;
 		border-radius: 0.75rem;
-		overflow: hidden;
-		background: var(--bg-surface);
-		text-decoration: none;
 		transition: all 0.25s ease;
 		border: 1px solid var(--border-color);
 
@@ -640,59 +571,23 @@
 				opacity: 1;
 			}
 
-			.card-image {
-				transform: scale(1.05);
-			}
-
 			.card-content h3 {
 				color: var(--accent-light);
-			}
-		}
-
-		&.has-image {
-			.card-content {
-				color: #fff;
-			}
-			.card-content h3 {
-				color: #fff;
-			}
-			.card-content p {
-				color: rgba(255, 255, 255, 0.8);
-			}
-			.card-overlay {
-				background: linear-gradient(
-					to top,
-					rgba(10, 10, 15, 0.95) 0%,
-					rgba(10, 10, 15, 0.6) 40%,
-					rgba(10, 10, 15, 0.3) 100%
-				);
 			}
 		}
 	}
 
 	.card-image {
-		position: absolute;
-		inset: 0;
-		background-size: cover;
-		background-position: center;
-		transition: transform 0.4s ease;
+		@extend .image-card-media !optional;
 	}
 
 	.card-overlay {
-		position: absolute;
-		inset: 0;
-		background: linear-gradient(135deg, var(--bg-deep) 0%, var(--bg-base) 100%);
+		@extend .image-card-overlay !optional;
 	}
 
 	.card-content {
-		position: relative;
-		z-index: 2;
-		height: 100%;
-		display: flex;
-		flex-direction: column;
-		justify-content: flex-end;
+		@extend .image-card-content !optional;
 		padding: 1rem;
-		color: var(--text-primary);
 
 		h3 {
 			font-size: 0.9375rem;

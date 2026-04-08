@@ -325,17 +325,17 @@
 						{@const label = getRecencyLabel(post.lastmod || post.date)}
 						<a
 							href="/enneagram-corner/{post.slug}"
-							class="featured-card"
+							class="featured-card image-card image-card--inset"
 							class:has-image={post.pic}
 						>
 							{#if post.pic}
 								<div
-									class="featured-image"
+									class="featured-image image-card-media"
 									style={`background-image: url(/blogs/${post.pic}.webp);`}
 								></div>
 							{/if}
-							<div class="featured-overlay"></div>
-							<div class="featured-content">
+							<div class="featured-overlay image-card-overlay"></div>
+							<div class="featured-content image-card-content">
 								<div class="featured-meta">
 									<div class="featured-badge">Featured</div>
 
@@ -348,7 +348,7 @@
 								{#if post.description}
 									<p>{post.description}</p>
 								{/if}
-								<span class="read-more">
+								<span class="read-more image-card-read-more">
 									Read Guide
 									<ArrowRightIcon
 										iconStyle={'margin-left: 0.25rem'}
@@ -379,15 +379,19 @@
 					{#each data.recentlyUpdated as post (post.slug)}
 						{@const label = getRecencyLabel(post.lastmod || post.date)}
 
-						<a href="/enneagram-corner/{post.slug}" class="recent-card" class:has-image={post.pic}>
+						<a
+							href="/enneagram-corner/{post.slug}"
+							class="recent-card image-card"
+							class:has-image={post.pic}
+						>
 							{#if post.pic}
 								<div
-									class="card-image"
+									class="card-image image-card-media"
 									style={`background-image: url(/blogs/s-${post.pic}.webp);`}
 								></div>
 							{/if}
-							<div class="card-overlay"></div>
-							<div class="card-content">
+							<div class="card-overlay image-card-overlay"></div>
+							<div class="card-content image-card-content">
 								{#if label}
 									<span class="recency-badge" class:new={label === 'New'}>{label}</span>
 								{/if}
@@ -436,18 +440,18 @@
 						.slice(0, section.type === 'nine-types' ? 9 : 6) as blog (blog.slug)}
 						<a
 							href="/enneagram-corner/{blog.slug}"
-							class="blog-card"
+							class="blog-card image-card"
 							class:has-image={blog.pic}
 							data-tag={`h-blog-${formatBlogSlug(blog.title)}`}
 						>
 							{#if blog.pic}
 								<div
-									class="card-image"
+									class="card-image image-card-media"
 									style={`background-image: url(/blogs/s-${blog.pic}.webp);`}
 								></div>
 							{/if}
-							<div class="card-overlay"></div>
-							<div class="card-content">
+							<div class="card-overlay image-card-overlay"></div>
+							<div class="card-content image-card-content">
 								<h3>{blog.title}</h3>
 								{#if section.type !== 'nine-types' && blog.description}
 									<p>{blog.description}</p>
@@ -471,10 +475,12 @@
 					foundational concepts behind the Enneagram system.
 				</p>
 				<div class="cta-buttons">
-					<a href="/enneagram-corner/subtopic/nine-types" class="btn-primary">
+					<a href="/enneagram-corner/subtopic/nine-types" class="btn-hub-primary">
 						Explore All 9 Types
 					</a>
-					<a href="/enneagram-corner/subtopic/overview" class="btn-secondary"> Learn the Basics </a>
+					<a href="/enneagram-corner/subtopic/overview" class="btn-hub-secondary">
+						Learn the Basics
+					</a>
 				</div>
 			</div>
 		</section>
@@ -783,12 +789,10 @@
 
 	/* Blog Cards - Refined */
 	.blog-card {
+		@extend .image-card !optional;
 		position: relative;
 		aspect-ratio: 4 / 3;
 		border-radius: 0.75rem;
-		overflow: hidden;
-		background: var(--bg-surface);
-		text-decoration: none;
 		transition: all 0.25s ease;
 		border: 1px solid var(--border-color);
 
@@ -813,59 +817,23 @@
 				opacity: 1;
 			}
 
-			.card-image {
-				transform: scale(1.05);
-			}
-
 			.card-content h3 {
 				color: var(--accent-light);
-			}
-		}
-
-		&.has-image {
-			.card-content {
-				color: #fff;
-			}
-			.card-content h3 {
-				color: #fff;
-			}
-			.card-content p {
-				color: rgba(255, 255, 255, 0.8);
-			}
-			.card-overlay {
-				background: linear-gradient(
-					to top,
-					rgba(10, 10, 15, 0.95) 0%,
-					rgba(10, 10, 15, 0.6) 40%,
-					rgba(10, 10, 15, 0.3) 100%
-				);
 			}
 		}
 	}
 
 	.card-image {
-		position: absolute;
-		inset: 0;
-		background-size: cover;
-		background-position: center;
-		transition: transform 0.4s ease;
+		@extend .image-card-media !optional;
 	}
 
 	.card-overlay {
-		position: absolute;
-		inset: 0;
-		background: linear-gradient(135deg, var(--bg-deep) 0%, var(--bg-base) 100%);
+		@extend .image-card-overlay !optional;
 	}
 
 	.card-content {
-		position: relative;
-		z-index: 2;
-		height: 100%;
-		display: flex;
-		flex-direction: column;
-		justify-content: flex-end;
+		@extend .image-card-content !optional;
 		padding: 1rem;
-		color: var(--text-primary);
 
 		h3 {
 			font-size: 0.9375rem;
@@ -906,12 +874,11 @@
 	}
 
 	.featured-card {
+		@extend .image-card !optional;
+		@extend .image-card--inset !optional;
 		position: relative;
 		min-height: 280px;
 		border-radius: 0.75rem;
-		overflow: hidden;
-		background: var(--bg-surface);
-		text-decoration: none;
 		transition: all 0.25s ease;
 		border: 1px solid color-mix(in srgb, var(--primary) 18%, var(--border-color));
 		box-shadow: var(--shadow-sm);
@@ -938,79 +905,24 @@
 			&::before {
 				opacity: 1;
 			}
-
-			.featured-image {
-				transform: scale(1.05);
-			}
-
 			.featured-content h3,
 			.featured-content .read-more {
-				color: #fff;
-			}
-		}
-
-		&.has-image {
-			.featured-content {
-				color: #fff;
-			}
-
-			.featured-content h3,
-			.featured-content .read-more {
-				color: #fff;
-			}
-
-			.featured-content p {
-				color: rgba(255, 255, 255, 0.8);
-			}
-
-			.featured-badge,
-			.recency-badge {
-				background: rgba(255, 255, 255, 0.12);
-				border-color: rgba(255, 255, 255, 0.22);
-				color: #fff;
-			}
-
-			.featured-overlay {
-				background: linear-gradient(
-					to top,
-					rgba(12, 10, 9, 0.97) 0%,
-					rgba(12, 10, 9, 0.72) 45%,
-					rgba(12, 10, 9, 0.2) 100%
-				);
+				color: var(--text-on-image);
 			}
 		}
 	}
 
 	.featured-image {
-		position: absolute;
-		inset: 0.45rem;
-		border-radius: 0.8rem;
-		background-size: cover;
-		background-position: center;
-		transition: transform 0.4s ease;
+		@extend .image-card-media !optional;
 	}
 
 	.featured-overlay {
-		position: absolute;
-		inset: 0.45rem;
-		border-radius: 0.8rem;
-		background: linear-gradient(
-			180deg,
-			color-mix(in srgb, var(--primary-subtle) 70%, transparent) 0%,
-			color-mix(in srgb, var(--bg-surface) 92%, var(--bg-deep)) 28%,
-			color-mix(in srgb, var(--bg-deep) 90%, var(--bg-base)) 100%
-		);
+		@extend .image-card-overlay !optional;
 	}
 
 	.featured-content {
-		position: relative;
-		z-index: 2;
-		height: 100%;
-		display: flex;
-		flex-direction: column;
-		justify-content: flex-end;
+		@extend .image-card-content !optional;
 		padding: 1.45rem;
-		color: var(--text-primary);
 
 		h3 {
 			font-size: 1.375rem;
@@ -1079,13 +991,10 @@
 	}
 
 	.read-more {
-		display: flex;
-		align-items: center;
+		@extend .image-card-read-more !optional;
 		margin-top: 0.95rem;
 		font-size: 0.875rem;
 		font-weight: 600;
-		color: var(--primary);
-		transition: color 0.2s ease;
 	}
 
 	/* Recently Updated Section */
@@ -1100,12 +1009,10 @@
 	}
 
 	.recent-card {
+		@extend .image-card !optional;
 		position: relative;
 		aspect-ratio: 3 / 2;
 		border-radius: 0.75rem;
-		overflow: hidden;
-		background: var(--bg-surface);
-		text-decoration: none;
 		transition: all 0.25s ease;
 		border: 1px solid var(--border-color);
 
@@ -1130,35 +1037,8 @@
 				opacity: 1;
 			}
 
-			.card-image {
-				transform: scale(1.05);
-			}
-
 			.card-content h3 {
 				color: var(--accent-light);
-			}
-		}
-
-		&.has-image {
-			.card-content {
-				color: #fff;
-			}
-
-			.card-content h3 {
-				color: #fff;
-			}
-
-			.card-content p {
-				color: rgba(255, 255, 255, 0.8);
-			}
-
-			.card-overlay {
-				background: linear-gradient(
-					to top,
-					rgba(10, 10, 15, 0.95) 0%,
-					rgba(10, 10, 15, 0.6) 40%,
-					rgba(10, 10, 15, 0.3) 100%
-				);
 			}
 		}
 
@@ -1244,46 +1124,6 @@
 		flex-wrap: wrap;
 	}
 
-	.btn-primary {
-		display: inline-flex;
-		align-items: center;
-		padding: 0.75rem 1.5rem;
-		background: linear-gradient(135deg, var(--primary-dark) 0%, var(--accent-dark) 100%);
-		color: var(--text-primary);
-		font-weight: 600;
-		font-size: 0.875rem;
-		border-radius: 0.5rem;
-		text-decoration: none;
-		transition: all 0.2s ease;
-		box-shadow: 0 0 20px rgba(45, 212, 191, 0.25);
-
-		&:hover {
-			background: linear-gradient(135deg, var(--accent) 0%, var(--primary-dark) 100%);
-			transform: translateY(-2px);
-			box-shadow: 0 0 30px rgba(45, 212, 191, 0.35);
-		}
-	}
-
-	.btn-secondary {
-		display: inline-flex;
-		align-items: center;
-		padding: 0.75rem 1.5rem;
-		background: rgba(45, 212, 191, 0.1);
-		color: var(--text-secondary);
-		font-weight: 600;
-		font-size: 0.875rem;
-		border-radius: 0.5rem;
-		border: 1px solid color-mix(in srgb, var(--primary) 25%, transparent);
-		text-decoration: none;
-		transition: all 0.2s ease;
-
-		&:hover {
-			background: var(--primary-subtle);
-			border-color: rgba(45, 212, 191, 0.4);
-			color: var(--accent-light);
-		}
-	}
-
 	/* Responsive */
 	@media (max-width: 900px) {
 		.quick-nav-shell {
@@ -1305,6 +1145,26 @@
 
 		.nine-types-grid {
 			grid-template-columns: repeat(3, 1fr);
+		}
+	}
+
+	@media (min-width: 901px) {
+		.main-content {
+			max-width: 1264px;
+			padding: 1.75rem 2rem 4.5rem;
+		}
+
+		.content-section {
+			margin-bottom: 3.75rem;
+		}
+
+		.featured-grid {
+			gap: 1.5rem;
+		}
+
+		.recent-grid,
+		.blog-grid {
+			gap: 1.25rem;
 		}
 	}
 
@@ -1465,8 +1325,8 @@
 			gap: 0.5rem;
 		}
 
-		.btn-primary,
-		.btn-secondary {
+		.btn-hub-primary,
+		.btn-hub-secondary {
 			padding: 0.6875rem 1.25rem;
 			font-size: 0.8125rem;
 			justify-content: center;

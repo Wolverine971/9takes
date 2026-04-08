@@ -1,21 +1,17 @@
 // src/routes/questions/[slug]/social-card.png/social-card.server.spec.ts
 import { beforeEach, describe, expect, it, vi } from 'vitest';
 
-const {
-	renderQuestionSocialCardMock,
-	uploadQuestionImageBufferMock,
-	elasticUpdateMock,
-	loggerMocks
-} = vi.hoisted(() => ({
-	renderQuestionSocialCardMock: vi.fn(),
-	uploadQuestionImageBufferMock: vi.fn(),
-	elasticUpdateMock: vi.fn(),
-	loggerMocks: {
-		info: vi.fn(),
-		warn: vi.fn(),
-		error: vi.fn()
-	}
-}));
+const { renderQuestionSocialCardMock, uploadQuestionImageBufferMock, loggerMocks } = vi.hoisted(
+	() => ({
+		renderQuestionSocialCardMock: vi.fn(),
+		uploadQuestionImageBufferMock: vi.fn(),
+		loggerMocks: {
+			info: vi.fn(),
+			warn: vi.fn(),
+			error: vi.fn()
+		}
+	})
+);
 
 vi.mock('$env/static/public', () => ({
 	PUBLIC_SUPABASE_URL: 'https://demo.supabase.co'
@@ -27,10 +23,6 @@ vi.mock('$lib/server/socialCards/renderQuestionSocialCard', () => ({
 
 vi.mock('$lib/server/questionImages', () => ({
 	uploadQuestionImageBuffer: uploadQuestionImageBufferMock
-}));
-
-vi.mock('$lib/server/elasticSearch', () => ({
-	elasticClient: { update: elasticUpdateMock }
 }));
 
 vi.mock('$lib/utils/logger', () => ({
@@ -116,7 +108,6 @@ describe('GET /questions/[slug]/social-card.png', () => {
 		);
 		expect(renderQuestionSocialCardMock).toHaveBeenCalledTimes(1);
 		expect(uploadQuestionImageBufferMock).toHaveBeenCalledTimes(1);
-		expect(elasticUpdateMock).toHaveBeenCalledTimes(1);
 	});
 
 	it('treats mixed slugs as URLs instead of numeric ids', async () => {

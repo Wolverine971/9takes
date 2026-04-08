@@ -1,20 +1,16 @@
 // src/routes/questions/create/+page.server.ts
 import { redirect } from '@sveltejs/kit';
 import { error } from '@sveltejs/kit';
-import { createESQuestion, elasticClient } from '$lib/server/elasticSearch';
 import { uploadQuestionImage } from '$lib/server/questionImages';
+import { findAvailableQuestionUrl } from '$lib/server/questionSearch';
 import { safelyExitWelcomeSequenceForQuestionCreation } from '$lib/server/welcomeSequenceGuards';
-import {
-	appendQuestionSlugSuffix,
-	buildQuestionSlug,
-	QUESTION_URL_MAX_LENGTH
-} from '$lib/utils/questionSlug';
+import { buildQuestionSlug, QUESTION_URL_MAX_LENGTH } from '$lib/utils/questionSlug';
 import { logger } from '$lib/utils/logger';
 import { z } from 'zod';
 import { checkDemoTime } from '../../../utils/api';
 import { mapDemoValues } from '../../../utils/demo';
-import { typeaheadQuery } from '../../../utils/elasticSearch';
 import { tagQuestion } from '../../../utils/server/openai';
+import type { Json } from '../../../../database.types';
 import type { Actions, PageServerLoad } from './$types';
 
 // Validation schemas
@@ -29,7 +25,12 @@ const getUrlSchema = z.object({
 const createQuestionSchema = z.object({
 	question: z.string().min(QUESTION_MIN_LENGTH).max(QUESTION_MAX_LENGTH).trim(),
 	author_id: z.string().uuid(),
-	context: z.string().max(2000).optional().default(''),
+	context: z
+		.string()
+		.max(2000)
+		.optional()
+		.default('')
+		.transform((value) => value.trim()),
 	url: z.string().min(1).max(QUESTION_URL_MAX_LENGTH),
 	img_url: z
 		.string()
@@ -71,21 +72,7 @@ export const actions: Actions = {
 			if (demo_time === true) {
 				return tempUrl;
 			}
-			const response = await elasticClient.search(
-				typeaheadQuery({
-					index: 'question',
-					field: 'url',
-					text: tempUrl,
-					size: 200,
-					match: 'prefix'
-				})
-			);
-			if (response.hits.hits.length) {
-				return appendQuestionSlugSuffix(tempUrl, response.hits.hits.length);
-				// res.json({ url: `${tempUrl}-${response.hits.hits.length}` });
-			} else {
-				return tempUrl;
-			}
+			return await findAvailableQuestionUrl(supabase, tempUrl, 'questions');
 
 			// const response = await client.search(typeaheadQuery('question', 'url', tempUrl, 200));
 
@@ -183,6 +170,7 @@ export const actions: Actions = {
 				question,
 				author_id,
 				context,
+				data: context ? ({ userProvidedContext: true } as Json) : null,
 				url,
 				img_url: null
 			};
@@ -205,7 +193,6 @@ export const actions: Actions = {
 
 				const postProcess = async () => {
 					let imagePath: string | null = null;
-					let esId: string | null = null;
 
 					if (!demo_time && img_url) {
 						try {
@@ -228,37 +215,9 @@ export const actions: Actions = {
 						}
 					}
 
-					if (!demo_time) {
-						try {
-							const resp: any = await createESQuestion({
-								question,
-								author_id,
-								context,
-								url,
-								img_url: imagePath ?? undefined,
-								comment_count: 0,
-								flagged: false,
-								removed: false,
-								question_formatted: question,
-								enneagram: user.enneagram ?? undefined,
-								author_name:
-									user.username || `${user.first_name || ''} ${user.last_name || ''}`.trim()
-							});
-							if (resp?._id) {
-								esId = resp._id;
-							}
-						} catch (err) {
-							logger.error('ElasticSearch error', err as Error, {
-								question,
-								url
-							});
-						}
-					}
-
-					if (imagePath || esId) {
+					if (imagePath) {
 						const updates: Record<string, string | null> = {};
 						if (imagePath) updates.img_url = imagePath;
-						if (esId) updates.es_id = esId;
 
 						await supabase.from(questionTable).update(updates).eq('id', questionId);
 					}

@@ -2,7 +2,6 @@
 import { PUBLIC_SUPABASE_URL } from '$env/static/public';
 import type { RequestHandler } from './$types';
 import { logger } from '$lib/utils/logger';
-import { elasticClient } from '$lib/server/elasticSearch';
 import { renderQuestionSocialCard } from '$lib/server/socialCards/renderQuestionSocialCard';
 import { uploadQuestionImageBuffer } from '$lib/server/questionImages';
 import {
@@ -31,7 +30,7 @@ export const GET: RequestHandler = async ({ params, locals, request }) => {
 	try {
 		const query = supabase
 			.from('questions')
-			.select('id, url, question, question_formatted, img_url, es_id');
+			.select('id, url, question, question_formatted, img_url');
 		const isNumericSlug = /^\d+$/.test(slug);
 		const { data: question, error: questionError } = await (isNumericSlug
 			? query.eq('id', Number(slug)).single()
@@ -108,25 +107,6 @@ export const GET: RequestHandler = async ({ params, locals, request }) => {
 				questionId: question.id,
 				path: upload.path
 			});
-		}
-
-		if (question.es_id) {
-			try {
-				await elasticClient.update({
-					index: 'question',
-					id: question.es_id.toString(),
-					doc: {
-						imgUrl: upload.path,
-						updatedDate: new Date()
-					}
-				});
-			} catch (esError) {
-				logger.error('Question social card ES update failed', esError as Error, {
-					slug,
-					questionId: question.id,
-					esId: question.es_id
-				});
-			}
 		}
 
 		const generatedUrl = toQuestionPublicImageUrl(PUBLIC_SUPABASE_URL, upload.path);

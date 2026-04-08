@@ -186,11 +186,14 @@ export type Database = {
           category: string | null
           changefreq: string | null
           content: string | null
+          content_hash: string | null
           created_at: string | null
           date: string | null
           description: string | null
           enneagram: number | null
+          headings: string[] | null
           id: number
+          indexed_at: string | null
           lastmod: string | null
           loc: string | null
           path: string | null
@@ -211,11 +214,14 @@ export type Database = {
           category?: string | null
           changefreq?: string | null
           content?: string | null
+          content_hash?: string | null
           created_at?: string | null
           date?: string | null
           description?: string | null
           enneagram?: number | null
+          headings?: string[] | null
           id?: number
+          indexed_at?: string | null
           lastmod?: string | null
           loc?: string | null
           path?: string | null
@@ -236,11 +242,14 @@ export type Database = {
           category?: string | null
           changefreq?: string | null
           content?: string | null
+          content_hash?: string | null
           created_at?: string | null
           date?: string | null
           description?: string | null
           enneagram?: number | null
+          headings?: string[] | null
           id?: number
+          indexed_at?: string | null
           lastmod?: string | null
           loc?: string | null
           path?: string | null
@@ -2907,6 +2916,7 @@ export type Database = {
           question: string | null
           question_formatted: string | null
           removed: boolean | null
+          search_vector: unknown
           tagged: boolean | null
           updated_at: string
           url: string | null
@@ -2926,6 +2936,7 @@ export type Database = {
           question?: string | null
           question_formatted?: string | null
           removed?: boolean | null
+          search_vector?: unknown
           tagged?: boolean | null
           updated_at?: string
           url?: string | null
@@ -2945,6 +2956,7 @@ export type Database = {
           question?: string | null
           question_formatted?: string | null
           removed?: boolean | null
+          search_vector?: unknown
           tagged?: boolean | null
           updated_at?: string
           url?: string | null
@@ -3549,6 +3561,40 @@ export type Database = {
         Args: { p_content_type: string; p_path: string; p_scope: string }
         Returns: boolean
       }
+      build_blogs_content_search_vector: {
+        Args: {
+          p_category: string
+          p_content: string
+          p_description: string
+          p_headings: string[]
+          p_tags: string[]
+          p_title: string
+          p_type: string[]
+        }
+        Returns: unknown
+      }
+      build_blogs_famous_people_search_vector: {
+        Args: {
+          p_category: string
+          p_content: string
+          p_description: string
+          p_person: string
+          p_persona_title: string
+          p_tags: string[]
+          p_title: string
+          p_type: Json
+        }
+        Returns: unknown
+      }
+      build_question_search_vector: {
+        Args: {
+          p_context: string
+          p_question: string
+          p_question_formatted: string
+          p_question_id: number
+        }
+        Returns: unknown
+      }
       can_see_comments: {
         Args: { questionid: number; userid: string; userip: string }
         Returns: boolean
@@ -4000,11 +4046,23 @@ export type Database = {
       is_analytics_utility_path: { Args: { p_path: string }; Returns: boolean }
       jsonb_array_to_text: { Args: { arr: Json }; Returns: string }
       mark_emails_ready_for_processing: { Args: never; Returns: number }
+      markdown_heading_search_text: {
+        Args: { p_content: string }
+        Returns: string
+      }
       normalize_email_text: { Args: { p_email: string }; Returns: string }
       parse_json_with_escapes: { Args: { json_text: string }; Returns: Json }
       process_scheduled_emails: { Args: never; Returns: undefined }
       promote_waitlist_to_client: {
         Args: { waitlist_id_input: string }
+        Returns: string
+      }
+      question_category_display_text: {
+        Args: { p_question_id: number }
+        Returns: string
+      }
+      question_category_search_text: {
+        Args: { p_question_id: number }
         Returns: string
       }
       question_with_comments:
@@ -4025,6 +4083,7 @@ export type Database = {
               question: string | null
               question_formatted: string | null
               removed: boolean | null
+              search_vector: unknown
               tagged: boolean | null
               updated_at: string
               url: string | null
@@ -4053,6 +4112,7 @@ export type Database = {
               question: string | null
               question_formatted: string | null
               removed: boolean | null
+              search_vector: unknown
               tagged: boolean | null
               updated_at: string
               url: string | null
@@ -4092,6 +4152,10 @@ export type Database = {
         }
         Returns: boolean
       }
+      refresh_question_search_vector: {
+        Args: { p_question_id: number }
+        Returns: undefined
+      }
       retry_or_fail_sequence_send: {
         Args: { p_enrollment_id: string; p_error: string }
         Returns: undefined
@@ -4119,10 +4183,33 @@ export type Database = {
           type: Json
         }[]
       }
+      search_questions: {
+        Args: {
+          result_limit?: number
+          result_offset?: number
+          search_query: string
+        }
+        Returns: {
+          category_names: string
+          comment_count: number
+          context: string
+          created_at: string
+          headline: string
+          id: number
+          question: string
+          question_formatted: string
+          rank: number
+          updated_at: string
+          url: string
+        }[]
+      }
+      show_limit: { Args: never; Returns: number }
+      show_trgm: { Args: { "": string }; Returns: string[] }
       slugify_question_category_name: {
         Args: { value: string }
         Returns: string
       }
+      text_array_search_text: { Args: { p_values: string[] }; Returns: string }
       track_email_event: {
         Args: {
           p_event_type: string
@@ -4152,6 +4239,18 @@ export type Database = {
           slug: string
           source: string
           title: string
+        }[]
+      }
+      typeahead_question_search: {
+        Args: { result_limit?: number; search_query: string }
+        Returns: {
+          comment_count: number
+          headline: string
+          id: number
+          question: string
+          question_formatted: string
+          rank: number
+          url: string
         }[]
       }
       unsubscribe_email_direct: {

@@ -19,6 +19,7 @@
 	let { data }: { data: PageData } = $props();
 
 	let question = $state('');
+	let context = $state('');
 	let url = $state('');
 	let loading = $state(false);
 	type CreateProgressStage = 'saving' | 'generatingImage' | 'redirecting';
@@ -39,12 +40,14 @@
 
 	const MIN_CHAR_COUNT = 10;
 	const MAX_CHAR_COUNT = 280;
+	const MAX_CONTEXT_CHAR_COUNT = 2000;
 	const IMAGE_UPLOAD_TIMEOUT_MS = 7000;
 	const SOCIAL_CARD_CAPTURE_ID = 'question-social-card-capture';
 	let isQuestionValid = $derived(
 		question.trim().length >= MIN_CHAR_COUNT && question.length <= MAX_CHAR_COUNT
 	);
 	let questionCharCount = $derived(question.length);
+	let contextCharCount = $derived(context.length);
 
 	onMount(() => {
 		question = $page.url.searchParams.get('question') || '';
@@ -202,7 +205,7 @@
 					.replace(/\s+/g, ' ')
 			);
 			body.append('author_id', data.session.user.id.toString());
-			body.append('context', '');
+			body.append('context', context.trim());
 			body.append('url', url);
 
 			const resp = await fetch('?/createQuestion', { method: 'POST', body });
@@ -314,8 +317,32 @@
 				<span class="ml-2">(min {MIN_CHAR_COUNT})</span>
 			{/if}
 		</div>
+		<div class="mt-5">
+			<label
+				for="question-context"
+				class="mb-2 block text-sm font-semibold uppercase tracking-[0.16em] text-[var(--text-secondary)]"
+			>
+				Optional context
+			</label>
+			<p class="mb-3 text-sm text-[var(--text-secondary)]">
+				Add a little backstory if it will help people understand the situation behind your question.
+			</p>
+			<textarea
+				id="question-context"
+				rows="3"
+				name="context"
+				placeholder="Optional: share the situation, what prompted the question, or any relevant background..."
+				class="w-full rounded-2xl border border-[var(--bg-elevated)] bg-[var(--bg-elevated)] p-4 text-base text-[var(--text-primary)] placeholder-[var(--text-muted)] shadow-sm transition focus:border-[var(--primary)] focus:outline-none focus:ring-2 focus:ring-[var(--primary-subtle)]"
+				bind:value={context}
+				oninput={handleInput}
+				maxlength={MAX_CONTEXT_CHAR_COUNT}
+			></textarea>
+			<div class="mt-2 text-right text-sm text-[var(--text-muted)]">
+				{contextCharCount}/{MAX_CONTEXT_CHAR_COUNT} characters
+			</div>
+		</div>
 		<button
-			class="inline-flex w-full items-center justify-center rounded-full bg-gradient-to-r from-[var(--primary-dark)] to-[var(--primary-darker)] px-5 py-3 text-base font-semibold text-[var(--text-on-primary)] shadow-[var(--glow-sm)] transition hover:from-[var(--primary)] hover:to-[var(--primary-dark)] hover:shadow-[var(--glow-md)] disabled:cursor-not-allowed disabled:opacity-60"
+			class="mt-5 inline-flex w-full items-center justify-center rounded-full bg-gradient-to-r from-[var(--primary-dark)] to-[var(--primary-darker)] px-5 py-3 text-base font-semibold text-[var(--text-on-primary)] shadow-[var(--glow-sm)] transition hover:from-[var(--primary)] hover:to-[var(--primary-dark)] hover:shadow-[var(--glow-md)] disabled:cursor-not-allowed disabled:opacity-60"
 			disabled={!isQuestionValid}
 			onclick={getUrl}
 			type="button"

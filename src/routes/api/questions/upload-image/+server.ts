@@ -3,7 +3,6 @@ import { json, error } from '@sveltejs/kit';
 import type { RequestHandler } from './$types';
 import { z } from 'zod';
 import { uploadQuestionImage } from '$lib/server/questionImages';
-import { elasticClient } from '$lib/server/elasticSearch';
 import { checkDemoTime } from '../../../../utils/api';
 import { logger } from '$lib/utils/logger';
 import { QUESTION_SOCIAL_CARD_VARIANT } from '$lib/socialCards/questionSocialCard';
@@ -42,7 +41,7 @@ export const POST: RequestHandler = async ({ request, locals }) => {
 
 		const { data: question, error: questionError } = await supabase
 			.from(questionTable)
-			.select('id, author_id, es_id')
+			.select('id, author_id')
 			.eq('id', questionId)
 			.single();
 
@@ -76,12 +75,10 @@ export const POST: RequestHandler = async ({ request, locals }) => {
 			variant: validated.variant || 'default'
 		});
 
-		const { data: updatedQuestion, error: updateError } = await supabase
+		const { error: updateError } = await supabase
 			.from(questionTable)
 			.update({ img_url: upload.path })
-			.eq('id', questionId)
-			.select('es_id')
-			.single();
+			.eq('id', questionId);
 
 		if (updateError) {
 			logger.error('Failed to update question image path', updateError, { questionId });
@@ -91,22 +88,6 @@ export const POST: RequestHandler = async ({ request, locals }) => {
 				path: upload.path,
 				variant: validated.variant || 'default'
 			});
-		}
-
-		const esId = updatedQuestion?.es_id ?? question.es_id;
-		if (esId) {
-			try {
-				await elasticClient.update({
-					index: 'question',
-					id: esId.toString(),
-					doc: {
-						imgUrl: upload.path,
-						updatedDate: new Date()
-					}
-				});
-			} catch (err) {
-				logger.error('Failed to update ES image url', err as Error, { questionId, esId });
-			}
 		}
 
 		return json({ success: true, path: upload.path });
