@@ -11,7 +11,7 @@
   </url>
   <url>
     <loc>https://9takes.com/blog</loc>
-    <lastmod>2026-04-08</lastmod>
+    <lastmod>2026-04-09</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/blog/experiment</loc>
@@ -592,7 +592,7 @@
   </url>
   <url>
     <loc>https://9takes.com/enneagram-corner/love-languages-and-enneagram-types</loc>
-    <lastmod>2025-12-09</lastmod>
+    <lastmod>2026-04-08</lastmod>
     <image:image>
       <image:loc>https://9takes.com/blogs/greek_statues_giving_and_receiving_love_in_different_ways.webp</image:loc>
     </image:image>
@@ -748,7 +748,7 @@
   </url>
   <url>
     <loc>https://9takes.com/enneagram-corner/subtopic/relationships</loc>
-    <lastmod>2026-04-07</lastmod>
+    <lastmod>2026-04-08</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/enneagram-corner/subtopic/resources</loc>
@@ -887,7 +887,7 @@
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis</loc>
-    <lastmod>2026-04-08</lastmod>
+    <lastmod>2026-04-09</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/abraham-lincoln</loc>
@@ -1087,7 +1087,7 @@
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/benson-boone</loc>
-    <lastmod>2026-02-06</lastmod>
+    <lastmod>2026-04-08</lastmod>
     <image:image>
       <image:loc>https://9takes.com/types/7s/Benson-Boone.webp</image:loc>
     </image:image>
@@ -1150,7 +1150,7 @@
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/bradley-martyn</loc>
-    <lastmod>2026-04-08</lastmod>
+    <lastmod>2026-04-07</lastmod>
     <image:image>
       <image:loc>https://9takes.com/types/8s/Bradley-Martyn.webp</image:loc>
     </image:image>
@@ -1178,7 +1178,7 @@
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/categories</loc>
-    <lastmod>2026-04-08</lastmod>
+    <lastmod>2026-04-09</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/categories/authors-thinkers</loc>
@@ -1190,19 +1190,19 @@
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/categories/creator-media</loc>
-    <lastmod>2026-04-08</lastmod>
+    <lastmod>2026-04-09</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/categories/film-tv</loc>
-    <lastmod>2026-04-07</lastmod>
+    <lastmod>2026-04-09</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/categories/music</loc>
-    <lastmod>2026-04-06</lastmod>
+    <lastmod>2026-04-09</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/categories/politics-public</loc>
-    <lastmod>2026-04-06</lastmod>
+    <lastmod>2026-04-09</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/categories/tech-business</loc>
@@ -1651,7 +1651,7 @@
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/jackie-kennedy</loc>
-    <lastmod>2025-04-07</lastmod>
+    <lastmod>2026-04-09</lastmod>
     <image:image>
       <image:loc>https://9takes.com/types/4s/Jackie-Kennedy.webp</image:loc>
     </image:image>
@@ -2491,7 +2491,7 @@
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/sara-saffari</loc>
-    <lastmod>2026-04-08</lastmod>
+    <lastmod>2026-04-09</lastmod>
     <image:image>
       <image:loc>https://9takes.com/types/3s/Sara-Saffari.webp</image:loc>
     </image:image>
@@ -2502,6 +2502,10 @@
     <image:image>
       <image:loc>https://9takes.com/types/4s/Sarah-J-Maas.webp</image:loc>
     </image:image>
+  </url>
+  <url>
+    <loc>https://9takes.com/personality-analysis/sarah-safari</loc>
+    <lastmod>2026-04-09</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/satya-nadella</loc>
@@ -2557,6 +2561,13 @@
     <lastmod>2026-02-20</lastmod>
     <image:image>
       <image:loc>https://9takes.com/types/8s/Shia-LaBeouf.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://9takes.com/personality-analysis/sky-bri</loc>
+    <lastmod>2026-04-09</lastmod>
+    <image:image>
+      <image:loc>https://9takes.com/types/2s/Sky-Bri.webp</image:loc>
     </image:image>
   </url>
   <url>
@@ -2782,15 +2793,15 @@
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/type/2</loc>
-    <lastmod>2026-04-04</lastmod>
+    <lastmod>2026-04-09</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/type/3</loc>
-    <lastmod>2026-04-08</lastmod>
+    <lastmod>2026-04-09</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/type/4</loc>
-    <lastmod>2026-04-06</lastmod>
+    <lastmod>2026-04-09</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/type/5</loc>
@@ -2802,11 +2813,11 @@
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/type/7</loc>
-    <lastmod>2026-04-06</lastmod>
+    <lastmod>2026-04-08</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/type/8</loc>
-    <lastmod>2026-04-08</lastmod>
+    <lastmod>2026-04-07</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/type/9</loc>
@@ -2821,7 +2832,7 @@
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/will-smith</loc>
-    <lastmod>2025-12-09</lastmod>
+    <lastmod>2026-04-09</lastmod>
     <image:image>
       <image:loc>https://9takes.com/types/3s/Will-Smith.webp</image:loc>
     </image:image>

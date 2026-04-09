@@ -1,3 +1,4 @@
+<!-- src/lib/test/StatCardStub.svelte -->
 <script lang="ts">
 	export let label = '';
 	export let value: number | string = '';

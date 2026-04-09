@@ -237,15 +237,15 @@
 						<tbody>
 							{#each sortedProfiles as profile}
 								<tr>
-									<td class="date-cell">
+									<td class="date-cell" data-label="Last active">
 										{profile.last_sign_in_at
 											? new Date(profile.last_sign_in_at).toLocaleDateString()
 											: '—'}
 									</td>
-									<td>
+									<td data-label="Email">
 										<a href="mailto:{profile.email}" class="email-link">{profile.email}</a>
 									</td>
-									<td>
+									<td data-label="Type">
 										{#if profile.enneagram}
 											{@const profileType = Number(profile.enneagram)}
 											<span
@@ -258,18 +258,18 @@
 											<span class="empty-badge">—</span>
 										{/if}
 									</td>
-									<td class="name-cell">
+									<td class="name-cell" data-label="Name">
 										{profile.first_name || profile.username || '—'}
 										{profile.last_name || ''}
 									</td>
-									<td>
+									<td data-label="Role">
 										{#if profile.admin}
 											<span class="admin-badge">Admin</span>
 										{:else}
 											<span class="user-badge">User</span>
 										{/if}
 									</td>
-									<td>
+									<td data-label="Actions">
 										<button
 											type="button"
 											class="edit-btn"
@@ -314,11 +314,11 @@
 						<tbody>
 							{#each formattedSignups as signup}
 								<tr>
-									<td>
+									<td data-label="Email">
 										<a href="mailto:{signup.email}" class="email-link">{signup.email}</a>
 									</td>
-									<td class="name-cell">{signup.name || '—'}</td>
-									<td class="date-cell">{signup.createdAt}</td>
+									<td class="name-cell" data-label="Name">{signup.name || '—'}</td>
+									<td class="date-cell" data-label="Created">{signup.createdAt}</td>
 								</tr>
 							{/each}
 						</tbody>
@@ -810,17 +810,95 @@
 			padding: 8px 10px;
 		}
 
-		.data-table th,
-		.data-table td {
-			padding: 8px 10px;
-		}
-
-		.data-table th {
-			font-size: 0.5625rem;
+		.table-content {
+			max-height: none;
+			overflow: visible;
 		}
 
 		.data-table {
 			font-size: 0.6875rem;
+		}
+
+		.data-table thead {
+			position: absolute;
+			width: 1px;
+			height: 1px;
+			padding: 0;
+			margin: -1px;
+			overflow: hidden;
+			clip: rect(0, 0, 0, 0);
+			white-space: nowrap;
+			border: 0;
+		}
+
+		.data-table,
+		.data-table tbody,
+		.data-table tr {
+			display: block;
+		}
+
+		.data-table tbody {
+			display: grid;
+			gap: 0.75rem;
+			padding: 0.75rem;
+		}
+
+		.data-table tr {
+			border: 1px solid var(--bg-elevated);
+			border-radius: 10px;
+			background: color-mix(in srgb, var(--bg-deep) 68%, var(--bg-surface));
+			padding: 0.85rem;
+		}
+
+		.data-table td {
+			display: grid;
+			grid-template-columns: minmax(84px, 0.85fr) minmax(0, 1fr);
+			gap: 0.75rem;
+			padding: 0;
+			border-bottom: none;
+			align-items: start;
+		}
+
+		.data-table td + td {
+			margin-top: 0.7rem;
+		}
+
+		.data-table td::before {
+			content: attr(data-label);
+			font-size: 0.62rem;
+			font-weight: 700;
+			letter-spacing: 0.08em;
+			text-transform: uppercase;
+			color: var(--text-secondary);
+		}
+
+		.data-table td[data-label='Actions'] {
+			grid-template-columns: 1fr;
+		}
+
+		.data-table td[data-label='Actions']::before {
+			margin-bottom: 0.1rem;
+		}
+
+		.name-cell {
+			max-width: none;
+			overflow: visible;
+			text-overflow: initial;
+			white-space: normal;
+		}
+
+		.email-link {
+			overflow-wrap: anywhere;
+			word-break: break-word;
+		}
+
+		.date-cell {
+			white-space: normal;
+		}
+
+		.edit-btn {
+			width: 100%;
+			justify-content: center;
 		}
 	}
 

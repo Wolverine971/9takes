@@ -1,3 +1,4 @@
+// src/routes/admin/analytics/analytics.page.spec.ts
 // @vitest-environment jsdom
 
 import { fireEvent, render, screen, waitFor } from '@testing-library/svelte';
@@ -23,9 +24,11 @@ describe('/admin/analytics page', () => {
 				ok: true,
 				json: vi.fn().mockResolvedValue({
 					available: true,
+					anchorDate: '2026-04-08',
 					overview: [],
-					retentionCurve: [],
+					weeklyCohorts: [],
 					acquisitionMix: [],
+					sourceOverview: [],
 					nextPaths: []
 				})
 			})
@@ -87,7 +90,7 @@ describe('/admin/analytics page', () => {
 		expect(fetch).not.toHaveBeenCalled();
 		expect(screen.queryByText('Cohort from')).toBeNull();
 
-		await fireEvent.click(screen.getByRole('tab', { name: 'Cohorts & Sources' }));
+		await fireEvent.click(screen.getByRole('tab', { name: 'Acquisition & Retention' }));
 
 		await waitFor(() => {
 			expect(fetch).toHaveBeenCalledTimes(1);
@@ -98,7 +101,7 @@ describe('/admin/analytics page', () => {
 		expect(screen.getByText('Cohort from')).toBeTruthy();
 
 		await fireEvent.click(screen.getByRole('tab', { name: 'Pageviews' }));
-		await fireEvent.click(screen.getByRole('tab', { name: 'Cohorts & Sources' }));
+		await fireEvent.click(screen.getByRole('tab', { name: 'Acquisition & Retention' }));
 
 		expect(fetch).toHaveBeenCalledTimes(1);
 	});

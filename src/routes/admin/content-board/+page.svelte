@@ -23,10 +23,17 @@
 	let isMobile = $state(false);
 	let showFilters = $state(false);
 
+	function syncViewportMode(width: number) {
+		isMobile = width < 768;
+		if (isMobile && viewMode === 'board') {
+			viewMode = 'list';
+		}
+	}
+
 	onMount(() => {
-		isMobile = window.innerWidth < 768;
+		syncViewportMode(window.innerWidth);
 		const handleResize = () => {
-			isMobile = window.innerWidth < 768;
+			syncViewportMode(window.innerWidth);
 		};
 		window.addEventListener('resize', handleResize);
 		return () => window.removeEventListener('resize', handleResize);
@@ -500,7 +507,12 @@
 					class="search-input-mobile"
 				/>
 				{#if searchQuery}
-					<button class="clear-search" onclick={() => (searchQuery = '')}>
+					<button
+						class="clear-search"
+						type="button"
+						aria-label="Clear search"
+						onclick={() => (searchQuery = '')}
+					>
 						<svg class="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
 							<path
 								stroke-linecap="round"
@@ -514,6 +526,8 @@
 			</div>
 			<button
 				class="filter-toggle-btn"
+				type="button"
+				aria-label={showFilters || hasActiveFilters ? 'Hide filters' : 'Show filters'}
 				class:active={showFilters || hasActiveFilters}
 				onclick={() => (showFilters = !showFilters)}
 			>
@@ -633,13 +647,15 @@
 					>
 						List
 					</button>
-					<button
-						class="view-btn"
-						class:active={viewMode === 'board'}
-						onclick={() => (viewMode = 'board')}
-					>
-						Board
-					</button>
+					{#if !isMobile}
+						<button
+							class="view-btn"
+							class:active={viewMode === 'board'}
+							onclick={() => (viewMode = 'board')}
+						>
+							Board
+						</button>
+					{/if}
 					{#if activeSelection === 'people'}
 						<button
 							class="view-btn"
@@ -1890,6 +1906,37 @@
 
 		.filters-row {
 			gap: 8px;
+		}
+
+		.mobile-view-toggle {
+			flex-direction: column;
+			align-items: stretch;
+		}
+
+		.mobile-view-toggle .view-toggle {
+			display: grid;
+			grid-template-columns: repeat(2, minmax(0, 1fr));
+			width: 100%;
+		}
+
+		.mobile-sort {
+			align-items: stretch;
+			flex-wrap: wrap;
+		}
+
+		.select-input-mobile {
+			flex: 1 1 auto;
+			min-width: 0;
+		}
+
+		.filter-group {
+			flex: 1 1 100%;
+			min-width: 0;
+		}
+
+		.checkbox-label {
+			width: 100%;
+			justify-content: flex-start;
 		}
 	}
 

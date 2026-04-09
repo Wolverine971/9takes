@@ -55,7 +55,6 @@
 				notifications.info('Must register or login to comment on other comments', 3000);
 				return;
 			}
-			anonymousComment = true;
 		}
 
 		let body = new FormData();
@@ -78,6 +77,9 @@
 			console.log(result.error);
 		} else {
 			notifications.success('Comment Added', 3000);
+			if (!data?.flags?.userSignedIn && !user?.id && parentType === 'question') {
+				anonymousComment = true;
+			}
 			dispatch('commentAdded', result?.data);
 			comment = '';
 		}

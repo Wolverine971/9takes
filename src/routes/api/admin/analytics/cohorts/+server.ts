@@ -3,7 +3,13 @@ import { error, json } from '@sveltejs/kit';
 import { z } from 'zod';
 import type { RequestHandler } from './$types';
 import { analyticsDateSchema } from '$lib/validation/analyticsSchemas';
-import { filterOverviewByEntrySurface } from '$lib/server/retentionAnalytics';
+import {
+	aggregateAcquisitionMix,
+	aggregateEntrySurfaceOverview,
+	aggregateSourceOverview,
+	aggregateWeeklyCohorts,
+	type CohortFactRow
+} from '$lib/server/cohortAnalytics';
 
 const querySchema = z.object({
 	entrySurface: z.string().max(50).optional().default(''),
@@ -24,17 +30,21 @@ function toNumber(value: unknown): number {
 	return Number(value || 0);
 }
 
-function isMissingRetentionRpc(err: unknown): boolean {
+function toDateString(date: Date): string {
+	const year = date.getFullYear();
+	const month = String(date.getMonth() + 1).padStart(2, '0');
+	const day = String(date.getDate()).padStart(2, '0');
+	return `${year}-${month}-${day}`;
+}
+
+function isMissingRetentionDependency(err: unknown): boolean {
 	const message =
 		typeof err === 'object' && err !== null && 'message' in err
 			? String((err as { message?: unknown }).message ?? '')
 			: '';
 
 	return (
-		message.includes('get_entry_surface_overview') ||
-		message.includes('get_cohort_retention_curve') ||
-		message.includes('get_acquisition_mix_by_week') ||
-		message.includes('get_first_session_next_paths')
+		message.includes('daily_visitor_cohorts') || message.includes('get_first_session_next_paths')
 	);
 }
 
@@ -70,25 +80,27 @@ export const GET: RequestHandler = async ({ url, locals }) => {
 		throw error(400, 'Invalid cohort query parameters');
 	}
 
-	const { entrySurface, acquisitionSource, nextPathLimit } = parsedQuery.data;
+	const analyticsToday = toDateString(new Date());
+	const entrySurface = parsedQuery.data.entrySurface.trim();
+	const acquisitionSource = entrySurface ? parsedQuery.data.acquisitionSource.trim() : '';
+	const nextPathLimit = parsedQuery.data.nextPathLimit;
 	const supabaseAny = locals.supabase as any;
-	const [overviewResult, retentionResult, mixResult, nextPathsResult] = await Promise.all([
-		supabaseAny.rpc('get_entry_surface_overview', {
-			p_from: fromDate,
-			p_to: toDate,
-			p_acquisition_source: acquisitionSource || null
-		}),
-		supabaseAny.rpc('get_cohort_retention_curve', {
-			p_from: fromDate,
-			p_to: toDate,
-			p_entry_surface: entrySurface || null,
-			p_acquisition_source: acquisitionSource || null
-		}),
-		supabaseAny.rpc('get_acquisition_mix_by_week', {
-			p_from: fromDate,
-			p_to: toDate,
-			p_entry_surface: entrySurface || null
-		}),
+	let cohortFactsQuery = locals.supabase
+		.from('daily_visitor_cohorts')
+		.select(
+			'cohort_date, entry_surface, acquisition_source, cohort_size, commented_within_d7, signed_up_within_d7, registered_within_d7, retained_d1, retained_d3, retained_d7, retained_d14, retained_d30, engaged_ms_total_within_d7'
+		)
+		.order('cohort_date', { ascending: true });
+
+	if (fromDate) {
+		cohortFactsQuery = cohortFactsQuery.gte('cohort_date', fromDate);
+	}
+	if (toDate) {
+		cohortFactsQuery = cohortFactsQuery.lte('cohort_date', toDate);
+	}
+
+	const [cohortFactsResult, nextPathsResult] = await Promise.all([
+		cohortFactsQuery,
 		supabaseAny.rpc('get_first_session_next_paths', {
 			p_from: fromDate,
 			p_to: toDate,
@@ -98,83 +110,56 @@ export const GET: RequestHandler = async ({ url, locals }) => {
 		})
 	]);
 
-	const errors = [
-		overviewResult.error,
-		retentionResult.error,
-		mixResult.error,
-		nextPathsResult.error
-	].filter(Boolean);
+	const errors = [cohortFactsResult.error, nextPathsResult.error].filter(Boolean);
 
 	if (errors.length > 0) {
-		if (errors.every(isMissingRetentionRpc)) {
+		if (errors.every(isMissingRetentionDependency)) {
 			return json({
 				available: false,
+				anchorDate: analyticsToday,
 				overview: [],
-				retentionCurve: [],
+				weeklyCohorts: [],
 				acquisitionMix: [],
+				sourceOverview: [],
 				nextPaths: []
 			});
 		}
 
 		console.error('Failed to fetch cohort analytics', {
-			overview: overviewResult.error,
-			retention: retentionResult.error,
-			acquisitionMix: mixResult.error,
+			cohortFacts: cohortFactsResult.error,
 			nextPaths: nextPathsResult.error
 		});
 		throw error(500, 'Failed to fetch cohort analytics');
 	}
 
-	const overviewRows = ((overviewResult.data ?? []) as Array<Record<string, unknown>>).map(
-		(row) => ({
+	const cohortFacts = ((cohortFactsResult.data ?? []) as Array<Record<string, unknown>>).map(
+		(row): CohortFactRow => ({
+			cohort_date: String(row.cohort_date ?? ''),
 			entry_surface: String(row.entry_surface ?? 'other'),
-			new_visitors: toNumber(row.new_visitors),
+			acquisition_source: String(row.acquisition_source ?? 'direct'),
+			cohort_size: toNumber(row.cohort_size),
 			commented_within_d7: toNumber(row.commented_within_d7),
-			comment_rate_pct: toNumber(row.comment_rate_pct),
 			signed_up_within_d7: toNumber(row.signed_up_within_d7),
-			signup_rate_pct: toNumber(row.signup_rate_pct),
 			registered_within_d7: toNumber(row.registered_within_d7),
-			registration_rate_pct: toNumber(row.registration_rate_pct),
 			retained_d1: toNumber(row.retained_d1),
-			retained_d1_denominator: toNumber(row.retained_d1_denominator),
-			retained_d1_pct: toNumber(row.retained_d1_pct),
+			retained_d3: toNumber(row.retained_d3),
 			retained_d7: toNumber(row.retained_d7),
-			retained_d7_denominator: toNumber(row.retained_d7_denominator),
-			retained_d7_pct: toNumber(row.retained_d7_pct),
+			retained_d14: toNumber(row.retained_d14),
 			retained_d30: toNumber(row.retained_d30),
-			retained_d30_denominator: toNumber(row.retained_d30_denominator),
-			retained_d30_pct: toNumber(row.retained_d30_pct),
-			avg_engaged_minutes_within_d7: toNumber(row.avg_engaged_minutes_within_d7)
+			engaged_ms_total_within_d7: toNumber(row.engaged_ms_total_within_d7)
 		})
 	);
 
 	return json({
 		available: true,
-		overview: filterOverviewByEntrySurface(overviewRows, entrySurface),
-		retentionCurve: ((retentionResult.data ?? []) as Array<Record<string, unknown>>).map((row) => ({
-			cohort_week: String(row.cohort_week ?? ''),
-			new_visitors: toNumber(row.new_visitors),
-			retained_d1: toNumber(row.retained_d1),
-			retained_d1_denominator: toNumber(row.retained_d1_denominator),
-			retained_d1_pct: toNumber(row.retained_d1_pct),
-			retained_d3: toNumber(row.retained_d3),
-			retained_d3_denominator: toNumber(row.retained_d3_denominator),
-			retained_d3_pct: toNumber(row.retained_d3_pct),
-			retained_d7: toNumber(row.retained_d7),
-			retained_d7_denominator: toNumber(row.retained_d7_denominator),
-			retained_d7_pct: toNumber(row.retained_d7_pct),
-			retained_d14: toNumber(row.retained_d14),
-			retained_d14_denominator: toNumber(row.retained_d14_denominator),
-			retained_d14_pct: toNumber(row.retained_d14_pct),
-			retained_d30: toNumber(row.retained_d30),
-			retained_d30_denominator: toNumber(row.retained_d30_denominator),
-			retained_d30_pct: toNumber(row.retained_d30_pct)
-		})),
-		acquisitionMix: ((mixResult.data ?? []) as Array<Record<string, unknown>>).map((row) => ({
-			cohort_week: String(row.cohort_week ?? ''),
-			acquisition_source: String(row.acquisition_source ?? 'direct'),
-			new_visitors: toNumber(row.new_visitors)
-		})),
+		anchorDate: analyticsToday,
+		overview: aggregateEntrySurfaceOverview(cohortFacts, analyticsToday),
+		weeklyCohorts: aggregateWeeklyCohorts(cohortFacts, analyticsToday, {
+			entrySurface: entrySurface || undefined,
+			acquisitionSource: acquisitionSource || undefined
+		}),
+		acquisitionMix: aggregateAcquisitionMix(cohortFacts, entrySurface),
+		sourceOverview: aggregateSourceOverview(cohortFacts, analyticsToday, entrySurface),
 		nextPaths: ((nextPathsResult.data ?? []) as Array<Record<string, unknown>>).map((row) => ({
 			next_path: String(row.next_path ?? ''),
 			visitor_count: toNumber(row.visitor_count),

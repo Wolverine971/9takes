@@ -115,18 +115,31 @@
 				<!-- Connect Section -->
 				<div class="link-section connect-section">
 					<h3>Connect</h3>
-					<p>Stay updated with our latest personality insights and community discussions.</p>
-					<a href="mailto:usersup@9takes.com" class="contact-link">
-						Get in touch
-						<svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
-							<path
-								stroke-linecap="round"
-								stroke-linejoin="round"
-								stroke-width="2"
-								d="M9 5l7 7-7 7"
-							/>
-						</svg>
-					</a>
+					<p>Want help applying this work to a real situation? Start with the coaching waitlist.</p>
+					<div class="connect-links">
+						<a href="/book-session" class="contact-link">
+							Join the coaching waitlist
+							<svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
+								<path
+									stroke-linecap="round"
+									stroke-linejoin="round"
+									stroke-width="2"
+									d="M9 5l7 7-7 7"
+								/>
+							</svg>
+						</a>
+						<a href="mailto:usersup@9takes.com" class="contact-link">
+							Get in touch
+							<svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
+								<path
+									stroke-linecap="round"
+									stroke-linejoin="round"
+									stroke-width="2"
+									d="M9 5l7 7-7 7"
+								/>
+							</svg>
+						</a>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -290,6 +303,13 @@
 		}
 	}
 
+	.connect-links {
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+		gap: 0.75rem;
+	}
+
 	.contact-link {
 		display: inline-flex;
 		align-items: center;
@@ -415,6 +435,10 @@
 				margin-right: auto;
 				margin-bottom: 0.75rem;
 			}
+		}
+
+		.connect-links {
+			align-items: center;
 		}
 
 		.contact-link {

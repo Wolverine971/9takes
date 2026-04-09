@@ -1,3 +1,4 @@
+// src/routes/admin/analytics/analytics.page.server.spec.ts
 import { beforeEach, describe, expect, it, vi } from 'vitest';
 
 const { attachAnalyticsLastModifiedMock } = vi.hoisted(() => ({

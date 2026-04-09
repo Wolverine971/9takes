@@ -213,4 +213,34 @@
 			grid-template-columns: repeat(2, minmax(0, 1fr));
 		}
 	}
+
+	@media (max-width: 639px) {
+		.root-card,
+		.branch-card {
+			padding: 1rem;
+		}
+
+		.root-head,
+		.branch-head,
+		.leaf-link {
+			flex-direction: column;
+			align-items: flex-start;
+		}
+
+		.root-head {
+			gap: 0.65rem;
+		}
+
+		.count-pill {
+			align-self: flex-start;
+		}
+
+		.leaf-link {
+			padding: 0.85rem;
+		}
+
+		.leaf-link span:first-child {
+			width: 100%;
+		}
+	}
 </style>

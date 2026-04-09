@@ -368,7 +368,7 @@
 		</div>
 		<p class="coaching-hint">
 			If you want personal guidance applying this work, <a href="/book-session"
-				>1-on-1 sessions are available</a
+				>join the 1-on-1 coaching waitlist</a
 			>.
 		</p>
 	</section>

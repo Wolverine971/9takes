@@ -69,6 +69,8 @@
 		}
 	];
 
+	const heroBadges = ['No payment today', 'First-round access', 'Best for live issues'];
+
 	const focusAreas = [
 		{
 			title: 'Relationship loops',
@@ -260,6 +262,11 @@
 						the same pattern-recognition lens behind 200+ published 9takes pieces to help you see
 						what you are missing and what to do next.
 					</p>
+					<div class="hero-badge-row" aria-label="Waitlist details">
+						{#each heroBadges as badge}
+							<span class="hero-badge">{badge}</span>
+						{/each}
+					</div>
 				</div>
 			</div>
 
@@ -636,6 +643,8 @@
 	.page-shell {
 		position: relative;
 		min-height: 100vh;
+		width: 100%;
+		max-width: 100%;
 		background:
 			radial-gradient(
 				circle at top left,
@@ -664,9 +673,11 @@
 	}
 
 	.page-container {
+		width: min(100%, 80rem);
 		max-width: 80rem;
 		margin: 0 auto;
 		padding: 2.25rem 1.25rem 5rem;
+		box-sizing: border-box;
 	}
 
 	/* ── Shared ── */
@@ -714,12 +725,16 @@
 		display: grid;
 		gap: 2rem;
 		align-items: start;
+		min-width: 0;
 	}
 
 	.hero-copy {
 		display: grid;
 		gap: 1.5rem;
 		align-self: start;
+		width: 100%;
+		max-width: 100%;
+		min-width: 0;
 		padding: clamp(1.5rem, 3vw, 2.5rem);
 		border: 1px solid color-mix(in srgb, var(--text-tertiary) 12%, transparent);
 		border-radius: 1.75rem;
@@ -757,6 +772,25 @@
 		color: var(--text-secondary);
 	}
 
+	.hero-badge-row {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 0.65rem;
+	}
+
+	.hero-badge {
+		display: inline-flex;
+		align-items: center;
+		padding: 0.42rem 0.78rem;
+		border-radius: 999px;
+		border: 1px solid color-mix(in srgb, var(--primary) 18%, var(--border-color));
+		background: color-mix(in srgb, var(--bg-elevated) 84%, transparent);
+		color: var(--text-secondary);
+		font-size: 0.78rem;
+		font-weight: 700;
+		letter-spacing: 0.01em;
+	}
+
 	.hero-truth,
 	.hero-mini-proof {
 		border-radius: 0.875rem;
@@ -765,6 +799,9 @@
 
 	.hero-support-shell {
 		margin-top: 1.35rem;
+		width: 100%;
+		max-width: 100%;
+		box-sizing: border-box;
 	}
 
 	.hero-support-grid,
@@ -772,6 +809,7 @@
 		display: grid;
 		gap: 1.25rem;
 		align-items: start;
+		min-width: 0;
 	}
 
 	.hero-support-stack {
@@ -904,6 +942,9 @@
 	/* ── Waitlist panel ── */
 
 	.waitlist-panel {
+		width: 100%;
+		max-width: 100%;
+		min-width: 0;
 		padding: 2rem 1.75rem;
 		align-self: start;
 		background: linear-gradient(
@@ -1059,13 +1100,30 @@
 		display: inline-flex;
 		align-items: center;
 		justify-content: center;
+		min-height: 3.35rem;
+		padding: 0.82rem 1.4rem;
+		border-radius: 999px;
+		border: 1px solid color-mix(in srgb, var(--primary) 18%, transparent);
+		background: color-mix(in srgb, var(--bg-elevated) 76%, transparent);
+		box-shadow: inset 0 1px 0 color-mix(in srgb, white 18%, transparent);
 		font-weight: 700;
 		color: var(--primary);
 		text-decoration: none;
+		white-space: nowrap;
+		transition:
+			transform 0.15s ease,
+			border-color 0.15s ease,
+			box-shadow 0.15s ease,
+			background 0.15s ease,
+			color 0.15s ease;
 	}
 
 	.text-link:hover {
+		transform: translateY(-1px);
 		color: color-mix(in srgb, var(--primary) 78%, white);
+		border-color: color-mix(in srgb, var(--primary) 32%, transparent);
+		background: color-mix(in srgb, var(--primary) 8%, var(--bg-elevated));
+		box-shadow: var(--shadow-md);
 	}
 
 	/* ── Sections ── */
@@ -1121,6 +1179,7 @@
 	.signal-links {
 		display: grid;
 		gap: 0.85rem;
+		min-width: 0;
 	}
 
 	.signal-link {
@@ -1177,6 +1236,7 @@
 		display: grid;
 		gap: 1.35rem;
 		align-content: start;
+		min-width: 0;
 		border-radius: 1rem;
 		border: 1px solid color-mix(in srgb, var(--text-tertiary) 10%, transparent);
 		background: linear-gradient(
@@ -1360,6 +1420,16 @@
 		gap: 1rem;
 	}
 
+	.success-actions > *,
+	.final-actions > * {
+		flex: 0 0 auto;
+	}
+
+	.success-actions .btn-pill-primary,
+	.final-actions .btn-pill-primary {
+		white-space: nowrap;
+	}
+
 	/* ── Responsive ── */
 
 	@media (min-width: 640px) {
@@ -1401,10 +1471,13 @@
 		.final-actions {
 			flex-direction: row;
 			align-items: center;
+			flex-wrap: wrap;
 		}
 
 		.success-actions .btn-pill-primary,
-		.final-actions .btn-pill-primary {
+		.final-actions .btn-pill-primary,
+		.success-actions .text-link,
+		.final-actions .text-link {
 			width: auto;
 		}
 	}
@@ -1453,9 +1526,14 @@
 		}
 
 		.final-cta {
-			grid-template-columns: minmax(0, 1.15fr) minmax(0, 0.85fr);
+			grid-template-columns: minmax(0, 1fr) auto;
 			align-items: center;
 			gap: 3rem;
+		}
+
+		.final-actions {
+			justify-self: end;
+			justify-content: flex-end;
 		}
 
 		.card-grid-3 {
@@ -1489,6 +1567,83 @@
 
 		.founder-card {
 			padding: 2.1rem;
+		}
+	}
+
+	@media (max-width: 639px) {
+		.page-container {
+			padding: 1.1rem 0.85rem 3rem;
+		}
+
+		.hero-grid {
+			gap: 1rem;
+		}
+
+		.hero-copy {
+			padding: 1.2rem 1rem;
+			border-radius: 1.3rem;
+		}
+
+		.hero-title {
+			margin-bottom: 1rem;
+			font-size: clamp(2rem, 11vw, 3rem);
+			letter-spacing: -0.04em;
+		}
+
+		.hero-lede {
+			font-size: 0.96rem;
+			line-height: 1.65;
+		}
+
+		.hero-badge-row {
+			gap: 0.5rem;
+		}
+
+		.hero-badge {
+			font-size: 0.72rem;
+			padding: 0.36rem 0.68rem;
+		}
+
+		.waitlist-panel {
+			padding: 1.25rem 1rem;
+			border-radius: 1.2rem;
+		}
+
+		.waitlist-panel h2 {
+			font-size: 1.3rem;
+		}
+
+		.hero-support-shell,
+		.signal-strip,
+		.proof-section,
+		.focus-section,
+		.outcomes-section,
+		.process-section,
+		.faq-section,
+		.final-cta {
+			padding-left: 1rem;
+			padding-right: 1rem;
+			border-radius: 1.2rem;
+		}
+
+		.hero-support-shell {
+			margin-top: 1rem;
+			padding-top: 1rem;
+			padding-bottom: 1rem;
+		}
+
+		.hero-list,
+		.hero-truth,
+		.hero-mini-proof,
+		.hero-context-card,
+		.founder-card {
+			padding: 1rem;
+			border-radius: 1rem;
+		}
+
+		.hero-chip {
+			font-size: 0.76rem;
+			padding: 0.42rem 0.7rem;
 		}
 	}
 

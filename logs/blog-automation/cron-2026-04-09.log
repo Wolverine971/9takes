@@ -1,0 +1,40 @@
+[2026-04-09 12:00:00] [INFO] Starting daily blog creator
+[2026-04-09 12:00:01] [INFO] Checking override.json - pause: false
+[2026-04-09 12:00:02] [INFO] Checking inProgress - null (good)
+[2026-04-09 12:00:03] [INFO] Rate limit: 0/5 this week (reset from previous week)
+[2026-04-09 12:00:04] [INFO] Selected: gordon-ramsay (Type 8, Priority: 96)
+[2026-04-09 12:00:05] [INFO] Executing blog_content_creator_people...
+[2026-04-09 12:25:00] [INFO] Draft created successfully at src/blog/people/drafts/Gordon-Ramsay.md
+[2026-04-09 12:25:01] [INFO] Running quality grade...
+[2026-04-09 12:25:02] [INFO] Grade: 8.6/10 (B+)
+[2026-04-09 12:25:03] [SUCCESS] Blog completed - Gordon Ramsay, Grade 8.6 (B+)
+[2026-04-09 12:25:04] [INFO] Queue updated: inProgress cleared, added to completed
+[2026-04-09 12:25:05] [INFO] Rate limit updated: 1/5 this week
+[2026-04-09 12:25:06] [INFO] Internal links added: 4 (Jocko Willink, Type 5, Type 2, stress patterns)
+[2026-04-09 12:25:07] [INFO] Daily blog creator complete
+```
+=== DAILY BLOG CREATOR SUMMARY ===
+Date: 2026-04-09
+Status: SUCCESS
+Blog: Gordon Ramsay (Type 8)
+Grade: 8.6/10 (B+)
+Duration: ~25 min
+File: src/blog/people/drafts/Gordon-Ramsay.md
+
+Core tension: Control vs. Helplessness
+Thesis: The anger isn't about food — it's about building rooms where chaos doesn't win, because he grew up in a house where it always did.
+
+Internal links (4 total):
+- Jocko Willink → /personality-analysis/Jocko-Willink
+- Type 5 → /enneagram-corner/enneagram-type-5
+- Type 2 → /enneagram-corner/enneagram-type-2
+- Stress patterns → /enneagram-corner/enneagram-types-in-stress
+
+Quality breakdown:
+  Hook: 9.0 | Enneagram: 8.5 | Evidence: 8.0
+  Writing: 9.0 | Originality: 8.5
+
+Rate limit: 1/5 this week
+Next in queue: Nicki Minaj (Type 8, Priority: 95)
+===================================
+```

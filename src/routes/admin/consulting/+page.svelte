@@ -769,7 +769,7 @@
 							<tbody>
 								{#each filteredWaitlist as entry (entry.id)}
 									<tr class:converted={entry.isConverted}>
-										<td class="name-cell">
+										<td class="name-cell" data-label="Person">
 											<div class="person-info">
 												<button
 													type="button"
@@ -817,7 +817,7 @@
 												</p>
 											</div>
 										</td>
-										<td class="email-cell">
+										<td class="email-cell" data-label="Contact">
 											<a
 												href="mailto:{entry.email}"
 												class="email-link"
@@ -826,7 +826,7 @@
 												{entry.email}
 											</a>
 										</td>
-										<td class="goal-cell">
+										<td class="goal-cell" data-label="Goal">
 											{#if entry.session_goal}
 												<span class="goal-text" title={entry.session_goal}>
 													{entry.session_goal.slice(0, 80)}{entry.session_goal.length > 80
@@ -837,7 +837,7 @@
 												<span class="no-goal">No goal provided</span>
 											{/if}
 										</td>
-										<td class="date-cell">
+										<td class="date-cell" data-label="Signed up">
 											<time datetime={entry.created_at}>
 												{formatDate(entry.created_at)}
 											</time>
@@ -845,7 +845,7 @@
 												{entry.created_at ? formatRelativeDate(entry.created_at) : '-'}
 											</span>
 										</td>
-										<td class="action-cell">
+										<td class="action-cell" data-label="Actions">
 											<div class="action-buttons">
 												<button
 													type="button"
@@ -2841,9 +2841,69 @@
 			min-width: auto;
 		}
 
-		.waitlist-table th,
+		.waitlist-table {
+			min-width: 0;
+		}
+
+		.waitlist-table colgroup {
+			display: none;
+		}
+
+		.waitlist-table thead {
+			position: absolute;
+			width: 1px;
+			height: 1px;
+			padding: 0;
+			margin: -1px;
+			overflow: hidden;
+			clip: rect(0, 0, 0, 0);
+			white-space: nowrap;
+			border: 0;
+		}
+
+		.waitlist-table,
+		.waitlist-table tbody,
+		.waitlist-table tr {
+			display: block;
+		}
+
+		.waitlist-table-wrapper {
+			border: none;
+			overflow: visible;
+		}
+
+		.waitlist-table tbody {
+			display: grid;
+			gap: 0.85rem;
+		}
+
+		.waitlist-table tbody tr {
+			border: 1px solid var(--border-color);
+			border-radius: 12px;
+			background: color-mix(in srgb, var(--card-background) 84%, var(--background));
+			padding: 0.9rem;
+		}
+
 		.waitlist-table td {
-			padding: 0.625rem 0.75rem;
+			display: grid;
+			grid-template-columns: minmax(82px, 0.85fr) minmax(0, 1fr);
+			gap: 0.75rem;
+			padding: 0;
+			border-bottom: none;
+			align-items: start;
+		}
+
+		.waitlist-table td + td {
+			margin-top: 0.7rem;
+		}
+
+		.waitlist-table td::before {
+			content: attr(data-label);
+			font-size: 0.66rem;
+			font-weight: 700;
+			letter-spacing: 0.08em;
+			text-transform: uppercase;
+			color: var(--text-secondary, var(--text-tertiary));
 		}
 
 		.person-modal {
@@ -2863,17 +2923,50 @@
 			grid-template-columns: 1fr;
 		}
 
-		.goal-cell {
-			display: none;
+		.name-cell,
+		.email-cell,
+		.goal-cell,
+		.date-cell,
+		.action-cell {
+			display: grid;
 		}
 
 		.action-buttons {
 			flex-direction: column;
 			gap: 0.375rem;
+			align-items: stretch;
+			justify-content: flex-start;
 		}
 
 		.action-cell {
 			text-align: left;
+		}
+
+		.action-cell,
+		.action-buttons form {
+			width: 100%;
+		}
+
+		.action-cell {
+			grid-template-columns: 1fr;
+		}
+
+		.action-cell::before {
+			margin-bottom: 0.1rem;
+		}
+
+		.btn-action {
+			width: 100%;
+			justify-content: center;
+		}
+
+		.goal-text,
+		.person-meta {
+			white-space: normal;
+		}
+
+		.date-cell time {
+			white-space: normal;
 		}
 	}
 

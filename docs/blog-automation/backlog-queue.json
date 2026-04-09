@@ -1,24 +1,11 @@
 {
-	"lastUpdated": "2026-04-06T12:30:00Z",
+	"lastUpdated": "2026-04-09T12:00:00Z",
 	"stats": {
 		"totalUnpublished": 87,
 		"totalPublished": 265,
 		"completionRate": "75.3%"
 	},
 	"queue": [
-		{
-			"name": "gordon-ramsay",
-			"displayName": "Gordon Ramsay",
-			"type": 8,
-			"priority": 96,
-			"priorityReason": "Global celebrity chef, Type 8 archetype, massive recognition",
-			"estimatedTraffic": "very-high",
-			"searchVolume": "very-high",
-			"personaTitle": null,
-			"addedToQueue": "2026-04-03",
-			"retryCount": 0,
-			"strategicValue": "type-8-archetype"
-		},
 		{
 			"name": "nicki-minaj",
 			"displayName": "Nicki Minaj",
@@ -333,6 +320,17 @@
 		}
 	],
 	"completed": [
+		{
+			"name": "gordon-ramsay",
+			"displayName": "Gordon Ramsay",
+			"type": 8,
+			"priority": 96,
+			"completedAt": "2026-04-09T12:30:00Z",
+			"contentGrade": 8.6,
+			"letterGrade": "B+",
+			"duration": 25,
+			"needsReview": false
+		},
 		{
 			"name": "glen-powell",
 			"displayName": "Glen Powell",

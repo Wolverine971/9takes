@@ -4,9 +4,9 @@ meta_title: 'Why Adele Vomits Before Shows But Makes Millions Cry on Stage'
 persona_title: "Music's Rawest Nerve"
 description: 'Adele turns heartbreak into anthems that move millions — yet she vomits backstage and escapes fire exits. Inside the Type 4 paradox driving every album.'
 author: 'DJ Wayne'
-date: '2026-04-04'
+date: '2026-04-09'
 loc: 'https://9takes.com/personality-analysis/Adele'
-lastmod: '2026-04-04'
+lastmod: '2026-04-09'
 changefreq: 'monthly'
 priority: '0.6'
 published: false

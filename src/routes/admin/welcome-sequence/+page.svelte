@@ -220,10 +220,10 @@
 					{#each displayedEnrollments as enrollment}
 						{@const returned = cameBack(enrollment)}
 						<tr>
-							<td class="email-cell" title={enrollment.recipient_email}>
+							<td class="email-cell" data-label="Email" title={enrollment.recipient_email}>
 								{enrollment.recipient_email}
 							</td>
-							<td>
+							<td data-label="Status">
 								<span
 									class="status-dot"
 									style="background: {statusColors[enrollment.status] || '#6b7280'}"
@@ -233,12 +233,14 @@
 									<span class="exit-reason">({enrollment.exit_reason})</span>
 								{/if}
 							</td>
-							<td>{enrollment.current_step_number}/{data.steps.length}</td>
-							<td title={enrollment.enrolled_at}>{formatDate(enrollment.enrolled_at)}</td>
-							<td title={enrollment.last_sent_at}>
+							<td data-label="Step">{enrollment.current_step_number}/{data.steps.length}</td>
+							<td data-label="Enrolled" title={enrollment.enrolled_at}>
+								{formatDate(enrollment.enrolled_at)}
+							</td>
+							<td data-label="Last email" title={enrollment.last_sent_at}>
 								{formatDateTime(enrollment.last_sent_at)}
 							</td>
-							<td>
+							<td data-label="Last visit">
 								{#if enrollment.return_data}
 									<span title={enrollment.return_data.last_visit}>
 										{daysSince(enrollment.return_data.last_visit)}
@@ -247,10 +249,10 @@
 									<span class="no-data">no visits</span>
 								{/if}
 							</td>
-							<td>
+							<td data-label="Sessions">
 								{enrollment.return_data ? enrollment.return_data.session_count : 0}
 							</td>
-							<td>
+							<td data-label="Came back">
 								{#if returned === 'yes'}
 									<span class="badge badge-yes">Yes</span>
 								{:else if returned === 'no'}
@@ -614,6 +616,72 @@
 
 		.funnel-summary {
 			gap: 12px;
+		}
+
+		.table-wrapper {
+			border: none;
+			overflow: visible;
+		}
+
+		.enrollments-table {
+			display: block;
+		}
+
+		.enrollments-table thead {
+			position: absolute;
+			width: 1px;
+			height: 1px;
+			padding: 0;
+			margin: -1px;
+			overflow: hidden;
+			clip: rect(0, 0, 0, 0);
+			white-space: nowrap;
+			border: 0;
+		}
+
+		.enrollments-table,
+		.enrollments-table tbody,
+		.enrollments-table tr {
+			display: block;
+		}
+
+		.enrollments-table tbody {
+			display: grid;
+			gap: 0.85rem;
+		}
+
+		.enrollments-table tr {
+			border: 1px solid var(--bg-elevated);
+			border-radius: 12px;
+			background: color-mix(in srgb, var(--bg-surface) 92%, var(--bg-base));
+			padding: 0.95rem;
+		}
+
+		.enrollments-table td {
+			display: grid;
+			grid-template-columns: minmax(92px, 0.9fr) minmax(0, 1fr);
+			gap: 0.75rem;
+			padding: 0;
+			border-top: none;
+			white-space: normal;
+			align-items: start;
+		}
+
+		.enrollments-table td + td {
+			margin-top: 0.7rem;
+		}
+
+		.enrollments-table td::before {
+			content: attr(data-label);
+			font-size: 0.64rem;
+			font-weight: 700;
+			letter-spacing: 0.08em;
+			text-transform: uppercase;
+			color: var(--text-secondary);
+		}
+
+		.email-cell {
+			max-width: none;
 		}
 	}
 </style>

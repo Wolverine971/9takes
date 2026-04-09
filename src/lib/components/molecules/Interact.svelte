@@ -92,6 +92,11 @@
 		return cachedFingerprint;
 	};
 
+	const isAnonymousQuestionCommenter = () => {
+		const flags = isQuestionPageData(data) ? data.flags : null;
+		return parentType === 'question' && !flags?.userSignedIn && !user?.id;
+	};
+
 	// Create a new comment
 	const createComment = async () => {
 		if (!canComment()) return;
@@ -140,8 +145,6 @@
 				notifications.info('Must register or login to comment on other comments', 3000);
 				return false;
 			}
-			// Allow first anonymous comment on questions
-			anonymousComment = true;
 		}
 		return true;
 	};
@@ -189,6 +192,9 @@
 			console.error(result.error || result.data);
 		} else {
 			notifications.success('Comment Added', 3000);
+			if (isAnonymousQuestionCommenter()) {
+				anonymousComment = true;
+			}
 			// Normalize result: RPC might return array, single object, or null
 			let commentData = result?.data;
 			if (Array.isArray(commentData)) {
@@ -385,9 +391,9 @@
 				>
 					<textarea
 						placeholder={parentType === 'question'
-							? "Go beyond the surface — share a real experience, a specific example, or explain the 'why' behind your take...\n\nThe most interesting answers are the honest, detailed ones."
+							? 'Say something real. Share what happened, give an example, or explain why you see it that way.\n\nThe best comments are honest and specific.'
 							: 'Write your reply...'}
-						class="bg-[var(--bg-deep)]/80 w-full resize-none overflow-y-auto rounded-md border border-[var(--bg-elevated)] px-3 py-2 text-sm leading-relaxed text-[var(--text-primary)] placeholder:text-[var(--text-muted)] focus:border-[var(--primary)] focus:outline-none focus:ring-1 focus:ring-[var(--primary)]"
+						class="composer-textarea bg-[var(--bg-deep)]/80 w-full resize-none overflow-y-auto rounded-md border border-[var(--bg-elevated)] px-3 py-2 text-sm leading-relaxed text-[var(--text-primary)] focus:border-[var(--primary)] focus:outline-none focus:ring-1 focus:ring-[var(--primary)]"
 						bind:value={comment}
 						id="comment-box"
 						rows="4"
@@ -419,7 +425,7 @@
 				<span class="text-xs text-[var(--text-muted)]">
 					{#if parentType === 'question' && comment.length > 0 && comment.length < SHORT_ANSWER_THRESHOLD}
 						<span class="text-amber-500/80"
-							>{comment.length} chars — keep going, add some detail</span
+							>{comment.length} chars. Keep going and add some detail.</span
 						>
 					{:else if comment.length > 0}
 						{comment.length} characters
@@ -626,6 +632,11 @@
 		font-size: 0.95rem;
 		line-height: 1.5;
 		grid-area: 1 / 1 / 2 / 2;
+	}
+
+	.composer-textarea::placeholder {
+		color: var(--text-secondary);
+		opacity: 1;
 	}
 
 	@media (max-width: 640px) {

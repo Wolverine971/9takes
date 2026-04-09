@@ -145,4 +145,69 @@ describe('Interact', () => {
 		expect(notificationsSuccessMock).toHaveBeenCalledWith('Comment Added', 3000);
 		expect((commentBox as HTMLTextAreaElement).value).toBe('');
 	});
+
+	it('allows an anonymous user to submit a short first comment after confirmation', async () => {
+		const shortComment = 'Short first take';
+
+		const { getByRole, getByText } = render(Interact, {
+			intro: false,
+			props: {
+				parentType: 'question',
+				questionId: 85,
+				qrCodeUrl: '',
+				user: null,
+				oncommentAdded: vi.fn(),
+				data: {
+					question: {
+						id: 85,
+						question: 'what are you thinking about these days',
+						created_at: '2023-09-22T05:23:03.858015+00:00',
+						url: 'what-are-you-thinking-about-these-days',
+						img_url: '',
+						es_id: '48FXu4oBxTGqyww5ba_8',
+						comment_count: 0,
+						removed: false,
+						flagged: false,
+						subscriptions: []
+					},
+					comments: [],
+					removedComments: [],
+					comment_count: 0,
+					removed_comment_count: 0,
+					questionTags: [],
+					user: null,
+					flags: {
+						userHasAnswered: false,
+						userSignedIn: false
+					},
+					aiComments: null,
+					links: null,
+					links_count: 0,
+					flagReasons: []
+				}
+			}
+		});
+
+		const commentBox = getByRole('textbox');
+		await fireEvent.input(commentBox, {
+			target: { value: shortComment }
+		});
+
+		await fireEvent.click(getByRole('button', { name: /post comment/i }));
+
+		expect(fetchMock).not.toHaveBeenCalled();
+		expect(getByText(/your take could go deeper\./i)).toBeTruthy();
+
+		await fireEvent.click(getByRole('button', { name: /post anyway/i }));
+
+		await waitFor(() => {
+			expect(fetchMock).toHaveBeenCalledTimes(1);
+		});
+
+		expect(notificationsInfoMock).not.toHaveBeenCalledWith(
+			'Must register or login to comment multiple times',
+			3000
+		);
+		expect(notificationsSuccessMock).toHaveBeenCalledWith('Comment Added', 3000);
+	});
 });

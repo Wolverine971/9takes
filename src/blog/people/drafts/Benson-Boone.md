@@ -6,7 +6,7 @@ description: "What drives Benson Boone's backflips, sobriety, and relentless ene
 author: 'DJ Wayne'
 date: '2026-02-06'
 loc: 'https://9takes.com/personality-analysis/Benson-Boone'
-lastmod: '2026-02-06'
+lastmod: '2026-04-08'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
@@ -49,9 +49,13 @@ FEEDBACK (2026-02-18):
 
 > "If my younger self could see me now, they wouldn't believe it."
 
-<p class="firstLetter">There's a moment in every Benson Boone performance where he does something that makes you hold your breath. Maybe he's backflipping off a grand piano at the Grammys. Maybe he's flinging himself into a crowd. Maybe he's singing a note so high it shouldn't be physically possible while mid-flip. And you think: what is going on inside this guy's head?</p>
+<p class="firstLetter">Benson Boone has never tried drugs. Never tried alcohol. When a Rolling Stone interviewer asked how a 23-year-old touring pop star could be so sure he had an "addictive personality" without ever testing it, his answer was two words: "Dude, candy."</p>
 
-Behind the acrobatics and the massive vocals sits a mind that never stops seeking. The next thrill. The next song. The next feeling. If you decode that drive, you decode everything about Benson Boone.
+Then he got specific. "I would die. I feel like if I started, I would do it so much that my health would just decline."
+
+This is the same guy who backflips off grand pianos at the Grammys, scales the walls of Wembley Stadium mid-set, and once leaped 629 feet off Auckland's Sky Tower for the rush. The kid who won't touch coffee because it "literally tastes like burnt wood" will absolutely hurl his body off a skyscraper.
+
+Decode that contradiction and you decode Benson Boone.
 
 <details>
 <summary class="accordion">TL;DR: Why Benson Boone is an Enneagram Type 7</summary>
@@ -60,7 +64,6 @@ Behind the acrobatics and the massive vocals sits a mind that never stops seekin
 <li><b>Relentless experience-seeking:</b> From cliff jumping 629 feet off Auckland's Sky Tower to competitive diving to backflips off pianos, Boone's life revolves around the next rush.</li>
 <li><b>Self-acknowledged addictive personality:</b> He avoids all drugs and alcohol because he knows he'd go all in. His evidence? "Dude, candy." The same all-or-nothing intensity that drives the backflips governs his relationship with sugar.</li>
 <li><b>Fear of being trapped:</b> He quit American Idol despite Katy Perry predicting he'd win, left the Mormon Church, dropped out of college. All to avoid being defined by something he didn't choose.</li>
-<li><b>Reframing pain into positivity:</b> When online hate campaigns exploded, he leaned into humor instead of breaking down. Type 7s master the art of converting pain into something lighter.</li>
 <li><b>Multi-talented restlessness:</b> Self-taught on piano, guitar, drums, and bass. Studied architecture. Designs his own album art. Owns an ice cream truck. Cooks for fun. The man cannot sit still.</li>
 </ul>
 </div>
@@ -100,7 +103,9 @@ That moment of shared honesty broke something open. Boone eventually left the ch
 
 What replaced the church wasn't another system. "I don't want to be a part of one religion," he told Consequence of Sound. "I have my own opinions. Some are from this religion, some are from this religion, some are from no religion." He kept certain values, sobriety in particular, as personal choices rather than religious mandates. Coffee? He tried it. "It literally tastes like burnt wood."
 
-The pattern here matters. Boone didn't leave because he stopped believing in everything. He left because the container felt too rigid for what he was actually experiencing. That same instinct drove him off American Idol, out of college, and into a career built entirely on his own terms.
+The irony is hard to miss. A kid wired for intensity, walking out of the one place in his life that was supposed to deliver the most vivid experience available: voices, revelations, feelings so strong they rearranged you. That was the promise. Instead, the room where everyone else seemed to be lit up was the one room where his inner life went quiet. The kid who felt everything everywhere else felt nothing there.
+
+So he left. Not because he stopped believing in everything, but because the container felt too rigid for what he was actually experiencing. That same instinct drove him off American Idol, out of college, and into a career built entirely on his own terms.
 
 ## Rise to Fame
 
@@ -110,7 +115,7 @@ In early 2021, Boone auditioned for American Idol Season 19. Katy Perry told him
 
 He advanced to the Top 24. And then he quit.
 
-Why? Because he didn't want to be "the American Idol guy." He wanted to build something on his own terms. "I want to be Benson Boone because I write smash hits and they love my music," he said. Walking away from a sure thing because it felt like a cage. Pure Type 7.
+Why? Because he didn't want to be "the American Idol guy." He wanted to build something on his own terms. "I want to be Benson Boone because I write smash hits and they love my music," he said. He walked away from a sure thing because it felt like a cage.
 
 ### The Dan Reynolds Mentorship
 
@@ -132,29 +137,31 @@ Everything after that happened at a speed that defies normal career timelines.
 
 "In The Stars" hit Platinum. "Beautiful Things," written at 2 AM on his grandmother's old piano in his LA living room, became the biggest-selling global single of 2024, with 2.11 billion streams and the #1 spot in 19 countries. His debut album _Fireworks & Rollerblades_ hit #6 on the Billboard 200. His sophomore album _American Heart_ debuted at #2. His first all-arena world tour: 50 shows across North America and Europe.
 
-All of this in roughly four years. From a kid who had never written a song to a global pop star with a world tour. For Boone, there is no speed limit.
+All of this in roughly four years. From a kid who had never written a song to a global pop star with a world tour.
+
+### The Brian May Moment
+
+At Coachella 2025, Boone was playing his first festival slot of that scale. At the end of the set, he sat down at his piano and started "Bohemian Rhapsody." The vocal held. Then he shed the fur he was wearing over his jumpsuit, flipped off the piano, and Brian May — Queen's actual guitarist — walked out from the top of the stage for the solo. May stuck around for "Beautiful Things" and closed the set with him.
+
+The crowd reaction was lukewarm. A lot of the Gen Z audience didn't seem to know who they were looking at. Boone saw it happening in real time and got visibly annoyed. Afterward he posted a TikTok lip-syncing "Bohemian Rhapsody" into a banana, captioned: "Me trying to get the crowd at Coachella to understand what an absolute legend Brian May is." For weekend two, he walked out with a life-sized Brian May cardboard cutout as a running joke on the people who hadn't clapped for the real one.
+
+The moment is worth sitting with. For months, the dominant criticism of Boone had been that he was a Freddie Mercury impersonator without an artistic identity. Then Queen's surviving founder, the man who wrote Freddie's guitar parts, walked onto a stage and played with him. The "copy of a copy" charge gets harder to hold when the original sends its guitarist.
 
 ## Benson Boone's Personality Quirks and Habits
 
-The chart numbers tell one story. The patterns beneath them tell a more revealing one.
-
 ### The Adrenaline Addiction
 
-This is the most visible layer. He doesn't perform so much as launch himself. At one Salt Lake City show, he had done five flips by his seventh song. He's climbed the walls of Wembley Stadium mid-performance.
+The stage stunts are the most visible layer, but the same wiring runs through his off days. He cliff jumps. He rollerblades. He hikes, rock climbs, and fishes. At one Salt Lake City show, he'd done five flips by his seventh song. He's launched himself into crowds and crawled up arena walls between verses.
 
-Off stage, he cliff jumps. He once leaped 629 feet from Auckland's Sky Tower. He rollerblades. He hikes, rock climbs, and fishes. When asked why he does things like the Sky Tower jump, his answer was unsettling and honest: "Maybe a part of me has a death wish, and I just don't know that part of me yet, because I don't want to die."
+When asked why he does things like the Sky Tower jump, his answer was unsettling and honest: "Maybe a part of me has a death wish, and I just don't know that part of me yet, because I don't want to die."
 
 For <a href="/enneagram-corner/enneagram-type-7">Type 7s</a>, physical intensity isn't showing off. It's how they feel alive. When the body moves, the mind can't spiral.
 
 ### The Sobriety Paradox
 
-Boone has never tried drugs or alcohol and says he never will. Not because of his Mormon upbringing (he's left the church), but because he knows himself.
+The candy answer isn't a joke, though it reads like one. It's a kid at 23 who has watched himself run all-in on every small pleasure he gets near and drawn the obvious conclusion: if he started drinking, he wouldn't just drink. If he tried a drug, he wouldn't just try it. So he drew a hard line before he had a reason to.
 
-"I have an addictive personality," he told Rolling Stone. When the interviewer asked how he could know that without ever trying substances, Boone replied: "Dude, candy."
-
-Then he got more specific: "I just think for me personally, like, dude, I would die. I feel like if I started, I would do it so much that my health would just decline."
-
-That kind of self-knowledge at 23 is rare. The discipline it takes to maintain total sobriety as a touring pop star, surrounded by industry excess, stands out. Most people with that level of intensity discover their addictive tendencies the hard way. Boone recognized the pattern preemptively and drew a hard line.
+The discipline this takes inside a touring pop bubble is the part worth noticing. Most people with that level of intensity find out about their addictive tendencies the hard way, usually around year three of success. Boone mapped himself preemptively and refuses to negotiate the line. Not because a church told him to. Because he knows what he'd do.
 
 ### The Ego Check System
 
@@ -162,35 +169,27 @@ Fame distorts self-perception. Boone knows this and built a system to fight it. 
 
 He once snapped at his mother during a phone call and felt so awful that he called her back twenty minutes later to apologize. He cited this as a wake-up call. "It is incredibly easy to get carried away with my ego," he has admitted. That level of candor from someone in his position is unusual, and deliberate.
 
-### The Body Image Battle
+### The Jumpsuit and the Body
 
-This is where Boone gets most disarmingly honest. And where the darker edge of his personality surfaces.
+Boone's stage aesthetic is sparkle. Sequined mesh jumpsuits, open down the chest, flared legs, bright colors that catch every light. It's glam rock as translated by a diver from Monroe, Washington, and it's as load-bearing to his show as the backflips. Refusing to be muted is a very Type 7 posture: the world owes you spectacle, or you'll build it yourself.
 
-"Dude, it affects me so much," he told Rolling Stone when asked about body image. For a male pop star built like an athlete, someone who does backflips for a living and could easily lean into the thirst trap, the vulnerability is striking.
+The Grammys jumpsuit, though, is a useful snapshot of the contradiction underneath. He performed "Beautiful Things" in a baby blue sequined onesie cut down to the navel. On camera, at the end of the song, he grabbed the crotch of the suit and yanked down, hard, before bowing. He apologized on Instagram later that night: "Sorry for adjusting my jumpsuit so aggressively on stage tonight. That thing was extremely restricting in certain areas." The next day, instead of moving on, he posted a video of himself still wearing it — adjusting, grabbing whipped cream, riding a motorcycle — captioned "when it hurts but you still like it."
 
-"Because I'm so incredibly hard on myself, and when I start to think about my appearance too much, it kills me because there's always something more I could do," he said. "There's always a hairstyle or, like, my arms could be bigger. My shoulders could be bigger. It's never-ending. I can't afford to think that way because I will never be happy if I do think that way."
+Read that line twice. It's the whole thing in one sentence.
 
-He's been explicit about what he doesn't want. "I can't be the sex icon of the century, because that's not who I am." And: "I don't want people to come to a show expecting me to take his shirt off and it to be like a gun show. I don't want to rely on my physical form to be the primary driver of my shows."
+Because here is what Boone has actually said about his body, off the stage, on the record. "Dude, it affects me so much. Because I'm so incredibly hard on myself, and when I start to think about my appearance too much, it kills me because there's always something more I could do. There's always a hairstyle or, like, my arms could be bigger. My shoulders could be bigger. It's never-ending."
 
-It "sucks to focus" on it, he said. You can hear the exhaustion in those quotes, the feeling of fighting a battle with no finish line.
+Then the part almost no male pop star says out loud: "I can't be the sex icon of the century, because that's not who I am. I don't want people to come to a show expecting me to take my shirt off and it to be like a gun show."
 
-This maps to the [Type 7 stress pattern](/enneagram-corner/enneagram-types-in-stress). Under pressure, 7s move toward [Type 1](/enneagram-corner/enneagram-type-1) behavior: perfectionism, self-criticism, the feeling that nothing measures up. Boone's body becomes the arena where his relentless drive turns inward. The same energy that makes him flip off pianos and write songs at 2 AM also whispers that his shoulders aren't big enough.
+So: a kid who tells Rolling Stone he doesn't want to be looked at as a body, who then zips himself into an outfit that physically hurts him, in front of the biggest TV audience of his life, and then turns the pain into a bit. The jumpsuit is the joke, the armor, and the problem at the same time.
 
-### How He Writes Songs
+This maps to the [Type 7 stress pattern](/enneagram-corner/enneagram-types-in-stress). Under pressure, 7s move toward [Type 1](/enneagram-corner/enneagram-type-1) behavior: perfectionism, self-criticism, the feeling that nothing measures up. Boone's body is where his relentless drive turns inward. The same energy that makes him flip off pianos and write songs at 2 AM also whispers that his shoulders aren't big enough, while he's wearing a costume that can't breathe.
 
-For a guy who didn't know he could sing until 17, Boone has developed a remarkably clear creative process.
+### The Piano at 2 AM
 
-It starts with the piano. Always. "Every song is written differently, but one thing that never changes is my constant need to have a piano," he told FAULT Magazine. The sessions happen late at night, when sleep won't come. "It's me and the piano, usually late at night. I'll sit there and start playing chords and singing random melodies."
+"Beautiful Things" is a useful x-ray of how his brain writes. On the night of September 29, 2023, Boone couldn't sleep. He went down to his grandmother's old piano in his LA living room and played two different unfinished song ideas neither of which had a chorus. The next day, with collaborator Jack LaFrantz, they suggested combining the two. Producer Evan Blair showed up and grabbed a distorted guitar left over from a previous session. Blair watched Boone's eyes go wide. The problem: the two pieces were in different time signatures — 4/4 and 6/8. It took about a month to stitch them.
 
-His voice leads the composition. Growing up on Billy Joel, Sam Smith, Adele, Stevie Wonder, and Queen, he lets melody dictate where a song goes rather than building around chord progressions or lyrics first.
-
-The story behind "Beautiful Things" shows how this works in practice. On September 29, 2023, shortly after moving to LA, Boone couldn't sleep. He went downstairs to his grandmother's old piano and created two separate song ideas but couldn't find a chorus.
-
-During a session with collaborator Jack LaFrantz, they suggested combining the two pieces. Then producer Evan Blair joined, pulled out a guitar with distorted pedals left over from a previous session, and started playing. Blair recalled that Boone's "eyes went really wide. You could tell that it had unlocked something in his brain." The catch: the two parts were in different time signatures, 4/4 and 6/8. It took about a month to figure out how to bridge them.
-
-He co-writes in small, trusted circles. "The sessions were less focused on the intensity of finishing a song, and more on the fun we have writing and creating these tracks," he's said. His writing ethic is simple and nonnegotiable: "Nobody is going to relate to your lyrics if they're not real. Being vulnerable is the most important thing in songwriting."
-
-He plays drums, guitar, and piano on his own recordings and designs his own cover art. The artwork for "Ghost Town," "In The Stars," and "Room For 2" are all his. The architecture student in him never fully went away.
+He plays drums, guitar, and piano on his own recordings, designs his own cover art (Ghost Town, In The Stars, Room For 2 are all his), and prefers late-night sessions with a small circle he actually likes. "Nobody is going to relate to your lyrics if they're not real," he's said. "Being vulnerable is the most important thing in songwriting." The architecture student never fully went away.
 
 ## Controversy and Criticism
 
@@ -208,7 +207,7 @@ Then there's the purely visceral hatred, the people who can't explain why. One c
 
 Rather than spiraling into defensiveness or retreating entirely, Boone turned the criticism into comedy. His "Mr. Electric Blue" music video is a masterclass in self-deprecation: he opens wearing a "One Hit Wonder" t-shirt, walks into a meeting at fictional "Industry Plant Records," and his agent (played by songwriting partner LaFrantz) tells him his investments in backflips and "moonbeam ice cream" aren't paying off. The agent suggests "good songwriting" as a new gimmick. Boone replies: "You know I can't do that." He then wears a "Your Music Is Terrible" shirt, mows lawns for "Auto-Tune Trimmers," and sells his sparkly jumpsuits.
 
-The reframing instinct is a core Type 7 move. The strength: resilience. Boone bounces back faster than almost anyone. The risk: reframing can happen too quickly, skipping over legitimate pain that needs processing. Whether Boone has truly sat with the criticism or outrun it remains an open question.
+Which is where the Type 7 question comes in. There's a version of turning pain into a bit that is real resilience and a version that's outrun. Boone can clearly do the first. Whether he can do the other — actually sit with something that hurts — is the part the record doesn't answer yet.
 
 ## Benson Boone's Legacy and Current Work
 
@@ -216,7 +215,9 @@ At 23, Boone occupies a fascinating cultural position. His _American Heart_ albu
 
 He lives in a sharp-angled luxury fortress overlooking Utah Lake, about 30 minutes south of Salt Lake City. He owns a pink and orange ice cream truck called "Moonbeam Ice Cream and Popsicles." When asked about his plans for it, he said: "drive it around." Crumbl created a limited-edition moonbeam ice cream cookie to coincide with his album drop.
 
-His personal life carries its own complications. He's single following his September 2025 breakup with actress Maggie Thurmon, a split that got messy when Thurmon posted a since-deleted TikTok implying infidelity. His closest relationships seem to be with people who knew him before fame: his best friend Dawson Wills, his lifelong friend Eric (whose near-fatal car accident as teenagers inspired the song "Young American Heart"), and his sisters.
+And then there's Maggie Thurmon. Boone dated Thurmon for almost two years, went Instagram official in March 2024, and split in September 2025. The split went public the way these things do now: fans noticed they'd unfollowed each other. Then a fan left a comment on one of Thurmon's TikToks saying "Bro if Benson cheated I will turn this car right around." Thurmon replied, "Put your blinker on babe," and deleted the comment after it started spreading. Boone has said nothing publicly.
+
+This is the test case. A Type 7 facing a messy, unflattering, painful public breakup is a specific stress test, because the reflex will be to metabolize it into momentum — a song, a workout, a trip, a flip off something tall — before anyone catches him flat-footed. It's too early to know which version of Boone shows up for this one. His closest relationships still seem to be with people who knew him before fame: his best friend Dawson Wills, his lifelong friend Eric (whose near-fatal car accident as teenagers inspired "Young American Heart"), and his sisters. If any of them are going to make him sit with it instead of skip past it, it'll be one of them.
 
 The question hanging over Benson Boone isn't whether he's talented. His voice, his energy, and his songwriting instincts are obvious. The question is whether he'll slow down long enough to find the depth that critics say is missing.
 
@@ -225,3 +226,56 @@ Growth, for someone wired like Boone, comes from stopping the motion and letting
 They belong to someone learning that the most thrilling experience of all might be standing still.
 
 > **Disclaimer:** This analysis of Benson Boone's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Benson Boone.
+
+<!-- FRESH EYES REVIEW (2026-04-08)
+Biggest issues:
+- The Brian May Coachella 2025 "Bohemian Rhapsody" moment is completely missing, and it's arguably the single most culturally significant moment of Boone's career arc so far. It's also the perfect counter-punch to the "copy of Freddie Mercury" criticism the piece spends real estate on. Queen's actual guitarist showed up, endorsed him, and stayed on stage for "Beautiful Things." The draft argues the Freddie Mercury comparison without ever telling the reader that Freddie Mercury's bandmate blessed it.
+- Boone's visual identity (the sparkly jumpsuits, the spectacle aesthetic) gets one glancing reference inside the Mr. Electric Blue video description and is otherwise invisible. For a pop star whose look is arguably as defining as his backflips, this is a missing layer. It's also a natural Type 7 expression — the refusal to be muted, the love of spectacle and color — that the piece never cashes out.
+- The sobriety paradox ("Dude, candy") is described as the strongest moment of the piece and the grade feedback literally suggests pulling it closer to the top, but the body still opens with generic backflip imagery. The note from the prior pass was not acted on.
+
+What to expand:
+- Coachella / Brian May: give it its own beat in "Rise to Fame" or "Controversy and Criticism." It's the moment the "industry plant / Freddie impersonator" narrative broke against reality. It also connects to the crowd's lukewarm reaction, which is a small but telling cultural moment (Gen Z Coachella audience not recognizing Brian May — Boone noticing and defending him).
+- Body image section is strong but still abstract. The reader wants one concrete scene: a mirror moment, a tour prep moment, a specific show where this landed on him. Right now it's all quotes, no picture.
+- Church departure is rich but stops at "he left quietly." A Type 7 walking away from a system that promised transcendent experience (voices, revelations, feelings) is ironic and interesting — the one place where the world was supposed to be *more* vivid was the one place his inner life went quiet. That irony isn't named.
+- The Maggie Thurmon breakup is mentioned as a footnote, but a messy public split with alleged infidelity is exactly the kind of pain a Type 7 is known to outrun. If the piece is going to gesture at whether Boone has "truly sat with" anything, this is the test case, and it's currently one sentence.
+
+What to trim:
+- The intro paragraph and the TL;DR both describe backflips-off-pianos in nearly the same language. Pick one.
+- "Pure Type 7" as a flat label at the end of the American Idol section is the kind of Enneagram-explainer shorthand the piece otherwise avoids. Cut or earn it.
+- The "Type 7s master the art of converting pain into something lighter" TL;DR bullet, the reframing paragraph in the criticism section, and the closing "most thrilling experience of all might be standing still" all say roughly the same thing three times. The ending is the strongest — trim the earlier two.
+- "The chart numbers tell one story. The patterns beneath them tell a more revealing one." is filler. The next section is already doing that work.
+- "For Boone, there is no speed limit" — cliché. The surrounding numbers already make the point.
+
+Structural suggestions:
+- Move "Dude, candy" up. The previous grading pass already flagged this and it's still buried in the middle. Open on the paradox, not the backflip: the kid who won't touch coffee but will jump off a 629-foot tower.
+- Consider folding "Ego Check System" into "Upbringing" or "Criticism" rather than giving it its own section. It's one anecdote and currently reads as a sidebar.
+- The "How He Writes Songs" section interrupts the psychological profile with craft mechanics. It might land better either earlier (inside Rise to Fame, next to Beautiful Things) or trimmed significantly. Right now it reads like a sidebar that wandered into the main story.
+
+What's already working:
+- "Dude, candy." Still the best line in the piece. Keep it and promote it.
+- The church departure framing — "the container felt too rigid for what he was actually experiencing" — is the piece's sharpest insight and threads cleanly into Idol, college, and career.
+- The body image section is unusual and honest for a male pop star profile. Preserve the specific quotes about shoulders and "sex icon of the century" — they're load-bearing.
+- The Dan Reynolds mentorship beat is well-paced: problem (never written a song), action (flew to Vegas anyway), payoff (Ghost Town, 350M streams).
+- "Maybe a part of me has a death wish, and I just don't know that part of me yet, because I don't want to die." — excellent quote, well-placed.
+- The closing line lands.
+-->
+
+<!-- SECOND PASS NOTES (2026-04-08)
+Addressed:
+- Moved "Dude, candy" to the opening paragraphs. Rewrote intro around the sobriety paradox and trimmed the now-redundant Sobriety Paradox subsection so it goes deeper instead of retelling the quote.
+- Added "The Brian May Moment" subsection to Rise to Fame, covering the Coachella 2025 Bohemian Rhapsody set, the lukewarm crowd, the banana TikTok, the cardboard cutout weekend two, and the direct counter to the Freddie Mercury impersonator narrative.
+- Replaced the Body Image Battle subsection with "The Jumpsuit and the Body," anchoring the body image quotes in a concrete scene: the extremely restricting Grammys jumpsuit, the on-camera crotch adjust, the apology, and the "when it hurts but you still like it" TikTok. This also folds in the missing visual identity / spectacle aesthetic layer the review flagged.
+- Named the church departure irony — the one place that promised vivid transcendent experience was where his inner life went quiet.
+- Expanded the Maggie Thurmon breakup from a footnote to a real beat. Included the "Put your blinker on babe" exchange and framed it as the specific Type 7 pain test the piece had been gesturing at.
+- Cut "Pure Type 7," "For Boone, there is no speed limit," and "The chart numbers tell one story..." filler. Trimmed the duplicate "reframing pain into positivity" TL;DR bullet and tightened the reframing paragraph in Criticism so the closing beat is the one that lands.
+- Trimmed "How He Writes Songs" to "The Piano at 2 AM" — kept the Beautiful Things creation story, cut the repetitive piano/voice/ethic summary.
+- Trimmed the Adrenaline Addiction subsection so it doesn't repeat the Sky Tower / Wembley beats now used in the opening.
+
+Kept as-is:
+- The Dan Reynolds mentorship arc, the church departure framing, the "death wish" quote, the closing "standing still" line.
+- The "Ego Check System" subsection. The fresh-eyes review suggested folding it elsewhere, but it's a short, specific detail and the alternatives (upbringing, criticism) didn't create a cleaner home for it. Left standalone.
+
+Still open:
+- Closing Legacy paragraph still lists "his body image honesty, his ego checks, his sobriety" as evidence he isn't purely avoiding pain — slightly softer now that Thurmon paragraph just raised the open question. An editor pass could decide whether to harden or soften the closing accordingly.
+- No concrete mirror / tour-prep scene for body image beyond the jumpsuit. If a specific quote surfaces (e.g., a tour rehearsal moment), that could sharpen the section further, but current research didn't surface one.
+-->

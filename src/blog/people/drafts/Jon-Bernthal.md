@@ -4,9 +4,9 @@ meta_title: 'Why Jon Bernthal Only Plays Broken Protectors'
 persona_title: "Hollywood's Tender Brawler"
 description: "14 broken noses, jail at 17, sober at 30. Inside the psychology that makes Jon Bernthal one of Hollywood's most compelling actors and a textbook Enneagram Type 8."
 author: 'DJ Wayne'
-date: '2026-04-03'
+date: '2026-04-09'
 loc: 'https://9takes.com/personality-analysis/Jon-Bernthal'
-lastmod: '2026-04-03'
+lastmod: '2026-04-09'
 changefreq: 'monthly'
 priority: '0.6'
 published: false

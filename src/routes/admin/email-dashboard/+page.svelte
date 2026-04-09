@@ -782,28 +782,28 @@
 						<tbody>
 							{#each welcomeSequence.recentEnrollments as enrollment (enrollment.id)}
 								<tr>
-									<td>{formatDateTime(enrollment.updated_at)}</td>
-									<td class="email-cell">{enrollment.recipient_email}</td>
-									<td>
+									<td data-label="Updated">{formatDateTime(enrollment.updated_at)}</td>
+									<td class="email-cell" data-label="Recipient">{enrollment.recipient_email}</td>
+									<td data-label="Source">
 										<span class="source-badge source-{enrollment.recipient_source}">
 											{enrollment.recipient_source === 'coaching_waitlist'
 												? 'coaching'
 												: enrollment.recipient_source}
 										</span>
 									</td>
-									<td>
+									<td data-label="Status">
 										<span class="status-badge status-{enrollment.status}">
 											{enrollment.status}
 										</span>
 									</td>
-									<td>
+									<td data-label="Step">
 										{enrollment.current_step_number}
 										{#if enrollment.next_step_number !== null}
 											→ {enrollment.next_step_number}
 										{/if}
 									</td>
-									<td>{formatDateTime(enrollment.next_send_at)}</td>
-									<td class="sequence-detail-cell">
+									<td data-label="Next send">{formatDateTime(enrollment.next_send_at)}</td>
+									<td class="sequence-detail-cell" data-label="Exit / error">
 										{#if enrollment.exit_reason}
 											<div class="sequence-detail-primary">{enrollment.exit_reason}</div>
 										{/if}
@@ -945,7 +945,7 @@
 						<tbody>
 							{#each users as user (user.source + '-' + user.id)}
 								<tr class:unsubscribed={user.unsubscribed}>
-									<td class="checkbox-col">
+									<td class="checkbox-col" data-label="Select">
 										<input
 											type="checkbox"
 											checked={selectedUsers.has(`${user.source}-${user.id}`)}
@@ -953,16 +953,16 @@
 											onchange={() => toggleUserSelection(user)}
 										/>
 									</td>
-									<td class="email-cell">{user.email}</td>
-									<td>{user.name || '-'}</td>
-									<td>
+									<td class="email-cell" data-label="Email">{user.email}</td>
+									<td data-label="Name">{user.name || '-'}</td>
+									<td data-label="Source">
 										<span class="source-badge source-{user.source}">
 											{user.source === 'coaching_waitlist' ? 'coaching' : user.source}
 										</span>
 									</td>
-									<td>{user.enneagram || '-'}</td>
-									<td>{formatDate(user.created_at)}</td>
-									<td>
+									<td data-label="Enneagram">{user.enneagram || '-'}</td>
+									<td data-label="Joined">{formatDate(user.created_at)}</td>
+									<td data-label="Status">
 										{#if user.unsubscribed}
 											<span class="status-badge status-unsubscribed">Unsubscribed</span>
 										{:else}
@@ -1136,28 +1136,32 @@
 						<tbody>
 							{#each sentEmails as email (email.id)}
 								<tr>
-									<td class="sent-date">{formatDateTime(email.sent_at || email.created_at)}</td>
-									<td class="subject-cell">{email.subject}</td>
-									<td class="recipient-cell">
+									<td class="sent-date" data-label="Sent">
+										{formatDateTime(email.sent_at || email.created_at)}
+									</td>
+									<td class="subject-cell" data-label="Subject">{email.subject}</td>
+									<td class="recipient-cell" data-label="Recipient">
 										<div class="recipient-email">{email.recipient_email}</div>
 										{#if email.recipient_name}
 											<div class="recipient-name">{email.recipient_name}</div>
 										{/if}
 									</td>
-									<td>
+									<td data-label="Source">
 										<span class="source-badge source-{email.recipient_source}">
 											{email.recipient_source === 'coaching_waitlist'
 												? 'coaching'
 												: email.recipient_source}
 										</span>
 									</td>
-									<td>
+									<td data-label="Status">
 										<span class="status-badge status-{email.status}">{email.status}</span>
 									</td>
-									<td>{email.open_count || 0}</td>
-									<td>{email.click_count || 0}</td>
-									<td>{email.unsubscribed_at ? formatDate(email.unsubscribed_at) : '-'}</td>
-									<td class="actions-cell">
+									<td data-label="Opens">{email.open_count || 0}</td>
+									<td data-label="Clicks">{email.click_count || 0}</td>
+									<td data-label="Unsubscribed">
+										{email.unsubscribed_at ? formatDate(email.unsubscribed_at) : '-'}
+									</td>
+									<td class="actions-cell" data-label="Actions">
 										<button class="btn btn-secondary btn-sm" onclick={() => openSentDetail(email)}>
 											View
 										</button>
@@ -1244,11 +1248,13 @@
 						<tbody>
 							{#each unsubscribes as unsubscribe (unsubscribe.id)}
 								<tr>
-									<td class="unsub-date">{formatDateTime(unsubscribe.unsubscribed_at)}</td>
-									<td class="unsub-email">{unsubscribe.email}</td>
-									<td>{unsubscribe.source || '-'}</td>
-									<td class="email-cell">{unsubscribe.source_id || '-'}</td>
-									<td class="unsub-reason">{unsubscribe.reason || '-'}</td>
+									<td class="unsub-date" data-label="Unsubscribed">
+										{formatDateTime(unsubscribe.unsubscribed_at)}
+									</td>
+									<td class="unsub-email" data-label="Email">{unsubscribe.email}</td>
+									<td data-label="Source">{unsubscribe.source || '-'}</td>
+									<td class="email-cell" data-label="Source ID">{unsubscribe.source_id || '-'}</td>
+									<td class="unsub-reason" data-label="Reason">{unsubscribe.reason || '-'}</td>
 								</tr>
 							{:else}
 								<tr>
@@ -2196,6 +2202,17 @@
 
 	/* Responsive */
 	@media (max-width: 640px) {
+		.tabs {
+			overflow-x: auto;
+			padding-bottom: 0.25rem;
+			-webkit-overflow-scrolling: touch;
+		}
+
+		.tab {
+			flex: 0 0 auto;
+			white-space: nowrap;
+		}
+
 		.analytics-toolbar {
 			align-items: stretch;
 		}
@@ -2230,6 +2247,106 @@
 		.actions-cell {
 			flex-direction: column;
 			align-items: flex-start;
+		}
+
+		.table-wrapper {
+			overflow: visible;
+		}
+
+		.sequence-table,
+		.data-table {
+			min-width: 0;
+		}
+
+		.data-table thead {
+			position: absolute;
+			width: 1px;
+			height: 1px;
+			padding: 0;
+			margin: -1px;
+			overflow: hidden;
+			clip: rect(0, 0, 0, 0);
+			white-space: nowrap;
+			border: 0;
+		}
+
+		.data-table,
+		.data-table tbody,
+		.data-table tr {
+			display: block;
+		}
+
+		.data-table tbody {
+			display: grid;
+			gap: 0.8rem;
+		}
+
+		.data-table tr {
+			border: 1px solid var(--bg-elevated);
+			border-radius: 12px;
+			background: color-mix(in srgb, var(--bg-deep) 58%, var(--bg-surface));
+			padding: 0.9rem;
+		}
+
+		.data-table td {
+			display: grid;
+			grid-template-columns: minmax(90px, 0.9fr) minmax(0, 1fr);
+			gap: 0.75rem;
+			padding: 0;
+			border-bottom: none;
+			align-items: start;
+		}
+
+		.data-table td + td {
+			margin-top: 0.7rem;
+		}
+
+		.data-table td::before {
+			content: attr(data-label);
+			font-size: 0.62rem;
+			font-weight: 700;
+			letter-spacing: 0.08em;
+			text-transform: uppercase;
+			color: var(--text-secondary);
+		}
+
+		.data-table td.empty-state {
+			display: block;
+		}
+
+		.data-table td.empty-state::before {
+			content: none;
+		}
+
+		.data-table td.checkbox-col,
+		.data-table td.actions-cell {
+			grid-template-columns: 1fr;
+		}
+
+		.data-table td.checkbox-col::before,
+		.data-table td.actions-cell::before {
+			margin-bottom: 0.1rem;
+		}
+
+		.sent-table .subject-cell,
+		.recipient-cell,
+		.unsub-reason {
+			max-width: none;
+			min-width: 0;
+			white-space: normal;
+			word-break: break-word;
+		}
+
+		.recipient-email,
+		.unsub-email,
+		.email-cell {
+			overflow-wrap: anywhere;
+			word-break: break-word;
+		}
+
+		.sent-date,
+		.unsub-date {
+			white-space: normal;
 		}
 
 		.sent-detail-panel {

@@ -4,9 +4,9 @@ meta_title: "Why Sky Bri's Persona Keeps Blocking Real Love"
 persona_title: "The Internet's Permanent Offering"
 description: 'Sky Bri built an internet persona around access and desire, then discovered it made ordinary love and privacy harder to reach.'
 author: 'DJ Wayne'
-date: '2026-04-06'
+date: '2026-04-09'
 loc: 'https://9takes.com/personality-analysis/Sky-Bri'
-lastmod: '2026-04-06'
+lastmod: '2026-04-09'
 changefreq: 'monthly'
 priority: '0.6'
 published: false

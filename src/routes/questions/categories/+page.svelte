@@ -106,6 +106,11 @@
 				hidden so the browse view stays tight and useful.
 			</p>
 
+			<div class="hero-actions">
+				<a href="/questions" class="hero-link hero-link-primary">Browse all questions</a>
+				<a href="/questions/create" class="hero-link">Ask a question</a>
+			</div>
+
 			<div class="hero-stats" aria-label="Category totals">
 				<div class="stat-chip">
 					<strong>{totalVisibleCategories}</strong>
@@ -116,6 +121,11 @@
 					<span>topic groups</span>
 				</div>
 			</div>
+
+			<p class="tree-note">
+				Each count includes the live questions nested underneath that branch, so larger pills
+				usually mean a deeper library.
+			</p>
 		</header>
 
 		{#if categoryTree.length === 0}
@@ -204,12 +214,55 @@
 		margin-top: 1.25rem;
 	}
 
+	.hero-actions {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		gap: 0.75rem;
+		margin-top: 1.25rem;
+	}
+
+	.hero-link {
+		display: inline-flex;
+		align-items: center;
+		justify-content: center;
+		padding: 0.8rem 1.05rem;
+		border-radius: 999px;
+		border: 1px solid color-mix(in srgb, var(--accent) 18%, var(--border-color));
+		background: color-mix(in srgb, var(--bg-surface) 84%, var(--bg-base));
+		color: var(--text-primary);
+		font-weight: 700;
+		text-decoration: none;
+		box-shadow: var(--shadow-sm);
+		transition:
+			transform 0.18s ease,
+			border-color 0.18s ease,
+			box-shadow 0.18s ease;
+	}
+
+	.hero-link:hover {
+		transform: translateY(-1px);
+		border-color: color-mix(in srgb, var(--primary) 34%, var(--border-color));
+		box-shadow: var(--shadow-md);
+	}
+
+	.hero-link-primary {
+		background: linear-gradient(
+			135deg,
+			color-mix(in srgb, var(--primary) 78%, white 22%),
+			color-mix(in srgb, var(--primary-dark) 88%, black 12%)
+		);
+		color: white;
+		border-color: color-mix(in srgb, var(--primary) 72%, transparent);
+	}
+
 	.stat-chip {
 		display: inline-flex;
 		flex-direction: column;
 		align-items: center;
 		justify-content: center;
 		gap: 0.2rem;
+		flex: 1 1 10rem;
 		min-width: 10rem;
 		padding: 0.85rem 1rem;
 		border-radius: 1rem;
@@ -236,6 +289,14 @@
 		gap: 1.25rem;
 	}
 
+	.tree-note {
+		max-width: 42rem;
+		margin: 1rem auto 0;
+		font-size: 0.94rem;
+		line-height: 1.6;
+		color: var(--text-secondary);
+	}
+
 	.empty-state {
 		padding: 1.4rem;
 		border-radius: 1.2rem;
@@ -257,7 +318,37 @@
 		}
 
 		.stat-chip {
-			min-width: 8.75rem;
+			min-width: 0;
+			flex-basis: calc(50% - 0.4rem);
+		}
+
+		.hero-link {
+			flex: 1 1 100%;
+		}
+
+		.tree-note {
+			font-size: 0.9rem;
+		}
+	}
+
+	@media (max-width: 480px) {
+		.page-inner {
+			padding-left: 0.85rem;
+			padding-right: 0.85rem;
+			padding-bottom: 3rem;
+		}
+
+		.hero {
+			margin-bottom: 1.5rem;
+		}
+
+		.hero-stats {
+			gap: 0.6rem;
+		}
+
+		.stat-chip {
+			padding: 0.8rem 0.9rem;
+			flex-basis: 100%;
 		}
 	}
 </style>

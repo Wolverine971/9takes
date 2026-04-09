@@ -859,7 +859,7 @@
 	let pageSubtitle = $derived(
 		activeTab === 'pageviews'
 			? 'Visits and time-on-page for all tracked pages'
-			: 'Weekly cohorts by entry surface and acquisition source'
+			: 'Which new visitors activate and come back'
 	);
 
 	function openTab(tab: AnalyticsTab) {
@@ -897,7 +897,7 @@
 			aria-selected={activeTab === 'cohorts'}
 			onclick={() => openTab('cohorts')}
 		>
-			Cohorts &amp; Sources
+			Acquisition &amp; Retention
 		</button>
 	</div>
 
@@ -1217,7 +1217,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="table-wrapper">
+			<div class="table-wrapper" role="region" aria-label="Page breakdown">
 				<table class="data-table">
 					<thead>
 						<tr>
@@ -1250,7 +1250,7 @@
 						{:else}
 							{#each rows as row}
 								<tr class:active-row={selectedTrendPath === row.path}>
-									<td class="path">
+									<td class="path" data-label="Path">
 										<button
 											type="button"
 											class="table-path-button"
@@ -1260,16 +1260,28 @@
 											{row.path}
 										</button>
 									</td>
-									<td>{row.path_group}</td>
-									<td>{row.content_type}</td>
-									<td class="num">{row.visits.toLocaleString()}</td>
-									<td class="num">{row.unique_visitors.toLocaleString()}</td>
-									<td class="num">{row.authenticated_visits.toLocaleString()}</td>
-									<td class="num">{row.anonymous_visits.toLocaleString()}</td>
-									<td class="num">{formatDurationMs(row.avg_time_on_page_ms)}</td>
-									<td class="num">{formatDurationMs(row.median_time_on_page_ms)}</td>
-									<td class="num">{formatBounceRate(row.bounce_rate)}</td>
-									<td>
+									<td data-label="Group">{row.path_group}</td>
+									<td data-label="Type">{row.content_type}</td>
+									<td class="num" data-label="Visits">{row.visits.toLocaleString()}</td>
+									<td class="num" data-label="Unique">
+										{row.unique_visitors.toLocaleString()}
+									</td>
+									<td class="num" data-label="Auth">
+										{row.authenticated_visits.toLocaleString()}
+									</td>
+									<td class="num" data-label="Anon">
+										{row.anonymous_visits.toLocaleString()}
+									</td>
+									<td class="num" data-label="Avg time">
+										{formatDurationMs(row.avg_time_on_page_ms)}
+									</td>
+									<td class="num" data-label="Median">
+										{formatDurationMs(row.median_time_on_page_ms)}
+									</td>
+									<td class="num" data-label="Bounce">
+										{formatBounceRate(row.bounce_rate)}
+									</td>
+									<td data-label="Last modified">
 										{#if row.last_modified_at}
 											<time datetime={row.last_modified_at}>
 												{formatLastModified(row.last_modified_at)}
@@ -1937,6 +1949,88 @@
 
 		.rank-value {
 			grid-area: value;
+		}
+
+		.table-wrapper {
+			border: none;
+			overflow: visible;
+		}
+
+		.data-table thead {
+			position: absolute;
+			width: 1px;
+			height: 1px;
+			padding: 0;
+			margin: -1px;
+			overflow: hidden;
+			clip: rect(0, 0, 0, 0);
+			white-space: nowrap;
+			border: 0;
+		}
+
+		.data-table,
+		.data-table tbody,
+		.data-table tr {
+			display: block;
+		}
+
+		.data-table tbody {
+			display: grid;
+			gap: 0.8rem;
+		}
+
+		.data-table tr {
+			border: 1px solid var(--bg-elevated);
+			border-radius: 12px;
+			background: color-mix(in srgb, var(--bg-surface) 94%, var(--bg-base));
+			padding: 0.95rem;
+		}
+
+		.data-table th,
+		.data-table td {
+			border-bottom: none;
+			padding: 0;
+		}
+
+		.data-table td {
+			display: grid;
+			grid-template-columns: minmax(88px, 0.9fr) minmax(0, 1fr);
+			gap: 0.75rem;
+			align-items: start;
+		}
+
+		.data-table td + td {
+			margin-top: 0.7rem;
+		}
+
+		.data-table td::before {
+			content: attr(data-label);
+			font-size: 0.64rem;
+			font-weight: 700;
+			letter-spacing: 0.08em;
+			text-transform: uppercase;
+			color: var(--text-secondary);
+		}
+
+		.data-table td.empty {
+			display: block;
+		}
+
+		.data-table td.empty::before {
+			content: none;
+		}
+
+		.data-table .num {
+			text-align: left;
+			white-space: normal;
+		}
+
+		.data-table .path {
+			max-width: none;
+		}
+
+		.table-path-button {
+			font-size: 0.82rem;
 		}
 	}
 </style>
