@@ -143,13 +143,27 @@
 	}
 
 	let { data }: { data: PageData } = $props();
-	const initialFilters = data.filters;
-	const initialPagination = data.pagination;
-	const initialOverview = data.overview;
-	const initialTimeseries = data.timeseries;
-	const initialRows = data.rows;
-	const initialTopPages = data.topPages;
+
+	function getInitialPageData() {
+		return {
+			filters: data.filters,
+			pagination: data.pagination,
+			overview: data.overview,
+			timeseries: data.timeseries,
+			rows: data.rows,
+			topPages: data.topPages
+		};
+	}
+
+	const initialPageData = getInitialPageData();
+	const initialFilters = initialPageData.filters;
+	const initialPagination = initialPageData.pagination;
+	const initialOverview = initialPageData.overview;
+	const initialTimeseries = initialPageData.timeseries;
+	const initialRows = initialPageData.rows;
+	const initialTopPages = initialPageData.topPages;
 	let activeTab = $state<AnalyticsTab>('pageviews');
+	let hasOpenedCohorts = $state(false);
 
 	const defaultOverview: AnalyticsOverview = {
 		total_visits: 0,
@@ -847,6 +861,13 @@
 			? 'Visits and time-on-page for all tracked pages'
 			: 'Weekly cohorts by entry surface and acquisition source'
 	);
+
+	function openTab(tab: AnalyticsTab) {
+		activeTab = tab;
+		if (tab === 'cohorts') {
+			hasOpenedCohorts = true;
+		}
+	}
 </script>
 
 <div class="analytics-page">
@@ -864,7 +885,7 @@
 			class="analytics-tab"
 			class:active={activeTab === 'pageviews'}
 			aria-selected={activeTab === 'pageviews'}
-			onclick={() => (activeTab = 'pageviews')}
+			onclick={() => openTab('pageviews')}
 		>
 			Pageviews
 		</button>
@@ -874,13 +895,13 @@
 			class="analytics-tab"
 			class:active={activeTab === 'cohorts'}
 			aria-selected={activeTab === 'cohorts'}
-			onclick={() => (activeTab = 'cohorts')}
+			onclick={() => openTab('cohorts')}
 		>
 			Cohorts &amp; Sources
 		</button>
 	</div>
 
-	{#if activeTab === 'pageviews'}
+	<div hidden={activeTab !== 'pageviews'}>
 		<section class="filter-card">
 			<div class="filter-grid">
 				<label class="field">
@@ -1273,8 +1294,12 @@
 				</button>
 			</div>
 		</section>
-	{:else}
-		<RetentionAnalyticsPanel filters={data.cohortFilters} cohorts={data.cohorts} />
+	</div>
+
+	{#if activeTab === 'cohorts' || hasOpenedCohorts}
+		<div hidden={activeTab !== 'cohorts'}>
+			<RetentionAnalyticsPanel filters={data.cohortFilters} />
+		</div>
 	{/if}
 </div>
 

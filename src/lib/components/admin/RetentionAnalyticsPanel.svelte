@@ -1,5 +1,6 @@
 <!-- src/lib/components/admin/RetentionAnalyticsPanel.svelte -->
 <script lang="ts">
+	import { onMount } from 'svelte';
 	import { notifications } from '$lib/components/molecules/notifications';
 	import { formatDurationMs } from '$lib/analytics/pageAnalytics';
 
@@ -72,7 +73,22 @@
 		nextPaths: NextPathRow[];
 	}
 
-	let { filters, cohorts }: { filters: CohortFilters; cohorts: CohortData } = $props();
+	let { filters, cohorts = null }: { filters: CohortFilters; cohorts?: CohortData | null } =
+		$props();
+
+	function getInitialState() {
+		return {
+			filters: {
+				from: filters?.from ?? '',
+				to: filters?.to ?? '',
+				entrySurface: filters?.entrySurface ?? '',
+				acquisitionSource: filters?.acquisitionSource ?? ''
+			},
+			cohorts
+		};
+	}
+
+	const initialState = getInitialState();
 
 	const entrySurfaceOptions = [
 		{ value: '', label: 'All surfaces' },
@@ -87,16 +103,18 @@
 	];
 	const defaultNextPathLimit = 12;
 
-	let fromDate = $state(filters?.from ?? '');
-	let toDate = $state(filters?.to ?? '');
-	let entrySurface = $state(filters?.entrySurface ?? '');
-	let acquisitionSource = $state(filters?.acquisitionSource ?? '');
-	let available = $state(Boolean(cohorts?.available));
+	let fromDate = $state(initialState.filters.from);
+	let toDate = $state(initialState.filters.to);
+	let entrySurface = $state(initialState.filters.entrySurface);
+	let acquisitionSource = $state(initialState.filters.acquisitionSource);
+	let initialized = $state(initialState.cohorts !== null);
+	let available = $state(Boolean(initialState.cohorts?.available));
 	let loading = $state(false);
-	let overview = $state<CohortOverviewRow[]>(cohorts?.overview ?? []);
-	let retentionCurve = $state<CohortRetentionRow[]>(cohorts?.retentionCurve ?? []);
-	let acquisitionMix = $state<AcquisitionMixRow[]>(cohorts?.acquisitionMix ?? []);
-	let nextPaths = $state<NextPathRow[]>(cohorts?.nextPaths ?? []);
+	let errorMessage = $state('');
+	let overview = $state<CohortOverviewRow[]>(initialState.cohorts?.overview ?? []);
+	let retentionCurve = $state<CohortRetentionRow[]>(initialState.cohorts?.retentionCurve ?? []);
+	let acquisitionMix = $state<AcquisitionMixRow[]>(initialState.cohorts?.acquisitionMix ?? []);
+	let nextPaths = $state<NextPathRow[]>(initialState.cohorts?.nextPaths ?? []);
 
 	function formatPct(value: number, denominator?: number): string {
 		if (denominator !== undefined && denominator <= 0) return '—';
@@ -153,10 +171,11 @@
 		];
 	}
 
-	const initialFilters = { ...filters };
+	const initialFilters = { ...initialState.filters };
 
 	async function fetchCohorts() {
 		loading = true;
+		errorMessage = '';
 		try {
 			const response = await fetch(`/api/admin/analytics/cohorts?${buildParams().toString()}`);
 			const body = await response.json();
@@ -181,9 +200,11 @@
 			}
 		} catch (err) {
 			console.error('Failed to fetch cohort analytics:', err);
+			errorMessage = 'Failed to load cohort analytics.';
 			notifications.danger('Failed to load cohort analytics', 3000);
 		} finally {
 			loading = false;
+			initialized = true;
 		}
 	}
 
@@ -256,6 +277,12 @@
 			note: 'Only mature cohorts count'
 		}
 	]);
+
+	onMount(() => {
+		if (initialState.cohorts === null) {
+			void fetchCohorts();
+		}
+	});
 </script>
 
 <section class="filter-card">
@@ -295,7 +322,15 @@
 	</p>
 </section>
 
-{#if !available}
+{#if !initialized}
+	<section class="panel-card">
+		<div class="empty-panel">Loading cohort analytics...</div>
+	</section>
+{:else if errorMessage && !available && overview.length === 0 && retentionCurve.length === 0 && acquisitionMix.length === 0 && nextPaths.length === 0}
+	<section class="panel-card">
+		<div class="empty-panel">{errorMessage}</div>
+	</section>
+{:else if !available}
 	<section class="panel-card">
 		<div class="empty-panel">
 			Retention RPCs are not available yet. Apply the retention migration before using this tab.
