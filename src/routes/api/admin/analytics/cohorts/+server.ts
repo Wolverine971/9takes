@@ -3,6 +3,7 @@ import { error, json } from '@sveltejs/kit';
 import { z } from 'zod';
 import type { RequestHandler } from './$types';
 import { analyticsDateSchema } from '$lib/validation/analyticsSchemas';
+import { filterOverviewByEntrySurface } from '$lib/server/retentionAnalytics';
 
 const querySchema = z.object({
 	entrySurface: z.string().max(50).optional().default(''),
@@ -124,9 +125,8 @@ export const GET: RequestHandler = async ({ url, locals }) => {
 		throw error(500, 'Failed to fetch cohort analytics');
 	}
 
-	return json({
-		available: true,
-		overview: ((overviewResult.data ?? []) as Array<Record<string, unknown>>).map((row) => ({
+	const overviewRows = ((overviewResult.data ?? []) as Array<Record<string, unknown>>).map(
+		(row) => ({
 			entry_surface: String(row.entry_surface ?? 'other'),
 			new_visitors: toNumber(row.new_visitors),
 			commented_within_d7: toNumber(row.commented_within_d7),
@@ -145,7 +145,12 @@ export const GET: RequestHandler = async ({ url, locals }) => {
 			retained_d30_denominator: toNumber(row.retained_d30_denominator),
 			retained_d30_pct: toNumber(row.retained_d30_pct),
 			avg_engaged_minutes_within_d7: toNumber(row.avg_engaged_minutes_within_d7)
-		})),
+		})
+	);
+
+	return json({
+		available: true,
+		overview: filterOverviewByEntrySurface(overviewRows, entrySurface),
 		retentionCurve: ((retentionResult.data ?? []) as Array<Record<string, unknown>>).map((row) => ({
 			cohort_week: String(row.cohort_week ?? ''),
 			new_visitors: toNumber(row.new_visitors),

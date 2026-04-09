@@ -123,7 +123,7 @@
 		}
 
 		if (result.description && normalizeText(result.description) !== normalizeText(result.title)) {
-			return escapeHtml(result.description);
+			return result.description;
 		}
 
 		return '';
