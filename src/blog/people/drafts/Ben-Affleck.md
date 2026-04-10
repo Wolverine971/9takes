@@ -9,11 +9,11 @@ loc: 'https://9takes.com/personality-analysis/Ben-Affleck'
 lastmod: '2026-04-07'
 changefreq: 'monthly'
 priority: '0.6'
-published: false
+published: true
 enneagram: 3
 type: ['movieStar']
 person: 'Ben-Affleck'
-suggestions: ['Jennifer-Lopez', 'Jennifer-Garner', 'Tom-Cruise', 'Will-Smith']
+suggestions: ['Matt-Damon', 'Jennifer-Lopez', 'Jennifer-Garner', 'Will-Smith']
 wikipedia: 'https://en.wikipedia.org/wiki/Ben_Affleck'
 twitter: 'BenAffleck'
 instagram: 'benaffleck'
@@ -84,7 +84,7 @@ Achievement equals safety. Average equals invisible.
 
 ## Two Blocks Apart
 
-Two blocks away from the Affleck house, a ten-year-old named Matt Damon lived with his mother. He and Ben found each other the way boys do, through baseball and proximity, and then discovered that they shared an obsession that went beyond anything else in their Cambridge world: they wanted to make movies.
+Two blocks away from the Affleck house, a ten-year-old named <a href="/personality-analysis/Matt-Damon">Matt Damon</a> lived with his mother. He and Ben found each other the way boys do, through baseball and proximity, and then discovered that they shared an obsession that went beyond anything else in their Cambridge world: they wanted to make movies.
 
 "We were both in love with the same thing: acting and filmmaking," Affleck has said. "I think we fed on each other's obsession during really formative, important years, and that bonded us for life."
 

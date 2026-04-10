@@ -9,11 +9,11 @@ loc: 'https://9takes.com/personality-analysis/Pedro-Pascal'
 lastmod: '2026-02-17'
 changefreq: 'monthly'
 priority: '0.6'
-published: false
+published: true
 enneagram: 6
 type: ['movieStar']
 person: 'Pedro-Pascal'
-suggestions: ['Tom-Hanks', 'Timothee-Chalamet', 'Zendaya', 'Oscar-Isaac']
+suggestions: ['Tom-Hanks', 'Timothee-Chalamet', 'Zendaya', 'Keanu-Reeves']
 wikipedia: 'https://en.wikipedia.org/wiki/Pedro_Pascal'
 twitter: 'PedroPascal1'
 instagram: 'pascalispunk'

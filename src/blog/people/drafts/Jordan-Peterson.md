@@ -9,11 +9,11 @@ loc: 'https://9takes.com/personality-analysis/Jordan-Peterson'
 lastmod: '2026-02-18'
 changefreq: 'monthly'
 priority: '0.6'
-published: false
+published: true
 enneagram: 1
 type: ['psychology']
 person: 'Jordan-Peterson'
-suggestions: ['Joe-Rogan', 'Lex-Fridman', 'Andrew-Tate', 'Ben-Shapiro']
+suggestions: ['Joe-Rogan', 'Lex-Fridman', 'Andrew-Tate', 'Andrew-Huberman']
 wikipedia: 'https://en.wikipedia.org/wiki/Jordan_Peterson'
 twitter: 'jordanbpeterson'
 instagram: 'jordan.b.peterson'

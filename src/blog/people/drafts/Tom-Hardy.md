@@ -13,7 +13,7 @@ published: true
 enneagram: 8
 type: ['celebrity']
 person: 'Tom-Hardy'
-suggestions: ['Shia-LaBeouf', 'Joaquin-Phoenix', 'Cillian-Murphy', 'Christian-Bale', 'Henry-Cavill']
+suggestions: ['Shia-LaBeouf', 'Joaquin-Phoenix', 'Cillian-Murphy', 'Brad-Pitt', 'Henry-Cavill']
 wikipedia: ''
 twitter: ''
 instagram: ''

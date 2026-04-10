@@ -13,7 +13,7 @@ published: true
 enneagram: 6
 type: ['movieStar']
 person: 'Marilyn-Monroe'
-suggestions: ['Jackie-Kennedy', 'Princess-Diana', 'Paris-Hilton', 'Elizabeth-Taylor']
+suggestions: ['Jackie-Kennedy', 'Princess-Diana', 'Paris-Hilton', 'Scarlett-Johansson']
 wikipedia: 'https://en.wikipedia.org/wiki/Marilyn_Monroe'
 twitter: 'https://twitter.com/MarilynMonroe'
 instagram: 'https://www.instagram.com/marilynmonroe'

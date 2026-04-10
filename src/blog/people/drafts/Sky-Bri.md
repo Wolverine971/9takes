@@ -9,11 +9,11 @@ loc: 'https://9takes.com/personality-analysis/Sky-Bri'
 lastmod: '2026-04-09'
 changefreq: 'monthly'
 priority: '0.6'
-published: false
+published: true
 enneagram: 2
 type: ['influencer', 'creator']
 person: 'Sky-Bri'
-suggestions: ['Tara-Yummy', 'Addison-Rae', 'Jake-Paul', 'Alix-Earle']
+suggestions: ['Bradley-Martyn', 'Sara-Saffari', 'Jake-Paul', 'Adin-Ross']
 wikipedia: ''
 twitter: '@skaborr'
 instagram: 'https://instagram.com/realskybri'
@@ -63,7 +63,7 @@ That eighteen-month disappearance — and the wreckage that followed — tells y
 
 ## The Girl at Register Seven
 
-Skylar Bri grew up in Lancaster, Pennsylvania — Amish country, farmland, a place where everyone knows everyone's business. She was a quiet kid. Not quiet in the way people mean when they're being polite about shyness. Quiet in the way that suggests something deeper. On Bradley Martyn's Raw Talk podcast, she opened up about her high school years: severe social anxiety, panic attacks, isolation so intense she eventually dropped out.
+Skylar Bri grew up in Lancaster, Pennsylvania — Amish country, farmland, a place where everyone knows everyone's business. She was a quiet kid. Not quiet in the way people mean when they're being polite about shyness. Quiet in the way that suggests something deeper. On <a href="/personality-analysis/Bradley-Martyn">Bradley Martyn</a>'s Raw Talk podcast, she opened up about her high school years: severe social anxiety, panic attacks, isolation so intense she eventually dropped out.
 
 Think about that for a moment. The woman the internet would later treat as the most uninhibited person alive spent her teenage years unable to walk into a school building without her body betraying her.
 
@@ -79,7 +79,7 @@ Awkward is a generous word for what happens when the two versions of yourself �
 
 She was twenty-one. She packed two suitcases and moved to Los Angeles alone. "I had no friends yet and no sense of direction," she later said. "I had never lived alone before, yet I still managed to find my way."
 
-She found her way by doing what came naturally — giving. Making herself useful, available, indispensable. She landed in the center of LA's creator ecosystem: Bradley Martyn's Zoo Culture gym crew, the No Jumper orbit, collaborations that traded vulnerability for visibility. She was the fun girl, the one who was always down, always game — a role that looked like confidence but ran on the same fuel as everything else in her life. The need to be wanted.
+She found her way by doing what came naturally — giving. Making herself useful, available, indispensable. She landed in the center of LA's creator ecosystem: <a href="/personality-analysis/Bradley-Martyn">Bradley Martyn</a>'s Zoo Culture gym crew, the wider creator orbit that also included people like <a href="/personality-analysis/Sara-Saffari">Sara Saffari</a>, the No Jumper orbit, collaborations that traded vulnerability for visibility. She was the fun girl, the one who was always down, always game — a role that looked like confidence but ran on the same fuel as everything else in her life. The need to be wanted.
 
 Her closest friendship emerged from this world — Rara Knupps, a fellow creator who became her constant companion on podcasts, streams, and shoots. When asked what drives her, Sky Bri has been disarmingly clear: "My passion is making others feel good. I love seeing people smile. Life isn't easy, so I try my best to be others' sense of comfort and relief."
 

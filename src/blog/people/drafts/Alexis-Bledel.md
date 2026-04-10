@@ -9,11 +9,11 @@ loc: 'https://9takes.com/personality-analysis/Alexis-Bledel'
 lastmod: '2026-02-18'
 changefreq: 'monthly'
 priority: '0.6'
-published: false
+published: true
 enneagram: 9
 type: ['celebrity']
 person: 'Alexis-Bledel'
-suggestions: ['Lauren-Graham', 'America-Ferrera', 'Blake-Lively']
+suggestions: ['Emma-Watson', 'Saoirse-Ronan', 'Blake-Lively']
 wikipedia: 'https://en.wikipedia.org/wiki/Alexis_Bledel'
 twitter: ''
 instagram: ''

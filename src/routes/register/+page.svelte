@@ -3,21 +3,49 @@
 	import { enhance } from '$app/forms';
 	import { goto, invalidateAll } from '$app/navigation';
 	import { fade, fly } from 'svelte/transition';
-	import { onMount } from 'svelte';
+	import { onMount, tick } from 'svelte';
 	import { browser } from '$app/environment';
 	import { notifications } from '$lib/components/molecules/notifications';
 	import { PUBLIC_RECAPTCHA_SITE_KEY } from '$env/static/public';
 	import LoadingButton from '$lib/components/atoms/LoadingButton.svelte';
+	import {
+		ensureRecaptchaLoaded,
+		reloadRecaptchaWidget,
+		renderRecaptchaWidget
+	} from '$lib/utils/recaptchaClient';
+	import type { PageData } from './$types';
+
+	export let data: PageData;
 
 	let email = '';
 	let password = '';
 	let loading = false;
-	let recaptchaLoaded = false;
+	let captchaRequired = data.captchaRequired ?? false;
 	let recaptchaTheme: 'light' | 'dark' = 'dark';
+	let captchaContainer: HTMLDivElement | null = null;
+	let captchaWidgetId: number | null = null;
 
 	function syncRecaptchaTheme() {
 		if (!browser) return;
 		recaptchaTheme = document.documentElement.classList.contains('light') ? 'light' : 'dark';
+	}
+
+	async function mountRecaptcha() {
+		if (!browser || !captchaRequired || !captchaContainer) {
+			return;
+		}
+
+		await tick();
+		await ensureRecaptchaLoaded();
+		const widgetId = renderRecaptchaWidget({
+			container: captchaContainer,
+			siteKey: PUBLIC_RECAPTCHA_SITE_KEY,
+			theme: recaptchaTheme
+		});
+
+		if (widgetId !== null) {
+			captchaWidgetId = widgetId;
+		}
 	}
 
 	onMount(() => {
@@ -30,46 +58,56 @@
 			attributeFilter: ['class', 'data-theme']
 		});
 
-		if (browser && !document.getElementById('recaptcha-script')) {
-			const script = document.createElement('script');
-			script.id = 'recaptcha-script';
-			script.src = 'https://www.google.com/recaptcha/api.js';
-			script.async = true;
-			script.defer = true;
-			script.onload = () => {
-				recaptchaLoaded = true;
-			};
-			document.head.appendChild(script);
-		} else if (browser) {
-			recaptchaLoaded = true;
-		}
+		void mountRecaptcha();
 
 		return () => observer.disconnect();
 	});
 
-	function resetRecaptcha() {
-		if (browser && window.grecaptcha) {
-			window.grecaptcha.reset();
-		}
+	async function refreshRecaptcha() {
+		const widgetId = await reloadRecaptchaWidget({
+			container: captchaContainer,
+			siteKey: PUBLIC_RECAPTCHA_SITE_KEY,
+			theme: recaptchaTheme
+		});
+
+		captchaWidgetId = widgetId;
 	}
 
 	function handleSubmit() {
 		loading = true;
-		return async ({ result }: { result: { type: string; data?: { error?: string } } }) => {
+		return async ({
+			result
+		}: {
+			result: { type: string; data?: { error?: string; captchaRequired?: boolean } };
+		}) => {
 			if (result.type === 'success') {
 				notifications.success('Registration successful! Please check your email.', 6000);
 				// Keep loading=true during navigation
 				await goto('/login');
 				await invalidateAll();
 				// loading stays true since we're navigating away
-			} else if (result.type === 'failure') {
-				loading = false;
-				notifications.danger(result.data?.error || 'An error occurred', 3000);
-				// Reset reCAPTCHA so user can try again
-				resetRecaptcha();
+				return;
 			}
+
+			if (result.type === 'failure') {
+				captchaRequired = !!result.data?.captchaRequired || captchaRequired;
+				notifications.danger(result.data?.error || 'An error occurred', 3000);
+			} else if (result.type === 'error') {
+				notifications.danger('An unexpected error occurred. Please try again.', 3000);
+			}
+
+			if (captchaRequired) {
+				await refreshRecaptcha();
+			}
+
+			loading = false;
 		};
 	}
+
+	$: if (captchaRequired && captchaContainer) {
+		void mountRecaptcha();
+	}
+
 	const ogImage = 'https://9takes.com/greek_pantheon.png';
 </script>
 
@@ -122,12 +160,9 @@
 			<input type="text" id="website" name="website" tabindex="-1" autocomplete="off" />
 		</div>
 
-		<!-- Google reCAPTCHA -->
-		<div
-			class="g-recaptcha"
-			data-sitekey={PUBLIC_RECAPTCHA_SITE_KEY}
-			data-theme={recaptchaTheme}
-		></div>
+		{#if captchaRequired}
+			<div bind:this={captchaContainer}></div>
+		{/if}
 
 		<LoadingButton
 			type="submit"

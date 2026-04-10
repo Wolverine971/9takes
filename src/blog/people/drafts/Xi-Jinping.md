@@ -8,12 +8,12 @@ loc: 'https://9takes.com/personality-analysis/Xi-Jinping'
 lastmod: '2026-01-23'
 changefreq: 'monthly'
 priority: '0.6'
-published: false
+published: true
 enneagram: 8
 type: ['politician']
 person: 'Xi-Jinping'
 persona_title: "China's Iron Hand"
-suggestions: ['Vladimir-Putin', 'Donald-Trump', 'Joe-Biden', 'Kim-Jong-Un']
+suggestions: ['Vladimir-Putin', 'Donald-Trump', 'Joe-Biden', 'Joseph-Stalin']
 wikipedia: 'https://en.wikipedia.org/wiki/Xi_Jinping'
 twitter: ''
 instagram: ''

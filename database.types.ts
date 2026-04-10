@@ -131,6 +131,36 @@ export type Database = {
         }
         Relationships: []
       }
+      auth_security_events: {
+        Row: {
+          context: Json
+          created_at: string
+          flow: string
+          id: string
+          identifier_hash: string | null
+          ip_hash: string
+          outcome: string
+        }
+        Insert: {
+          context?: Json
+          created_at?: string
+          flow: string
+          id?: string
+          identifier_hash?: string | null
+          ip_hash: string
+          outcome: string
+        }
+        Update: {
+          context?: Json
+          created_at?: string
+          flow?: string
+          id?: string
+          identifier_hash?: string | null
+          ip_hash?: string
+          outcome?: string
+        }
+        Relationships: []
+      }
       blog_comments: {
         Row: {
           author_id: string | null

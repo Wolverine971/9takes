@@ -64,7 +64,12 @@
 			enneagram: toEnneagramNumber(post.enneagram),
 			type: toStringArray(post.type),
 			suggestions: toStringArray(post.suggestions),
-			person: toStringValue(post.person)
+			person: toStringValue(post.person),
+			wikipedia: toStringValue(post.wikipedia),
+			twitter: toStringValue(post.twitter),
+			instagram: toStringValue(post.instagram),
+			tiktok: toStringValue(post.tiktok),
+			jsonld_snippet: post.jsonld_snippet ?? null
 		};
 	}
 

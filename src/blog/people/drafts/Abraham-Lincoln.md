@@ -9,11 +9,11 @@ loc: 'https://9takes.com/personality-analysis/Abraham-Lincoln'
 lastmod: '2026-04-03'
 changefreq: 'monthly'
 priority: '0.6'
-published: false
+published: true
 enneagram: 9
 type: ['historical', 'politician']
 person: 'Abraham-Lincoln'
-suggestions: ['Martin-Luther-King-Jr', 'Barack-Obama', 'Ronald-Reagan', 'George-Washington']
+suggestions: ['Martin-Luther-King-Jr', 'Barack-Obama', 'Ronald-Reagan', 'John-F-Kennedy']
 wikipedia: 'https://en.wikipedia.org/wiki/Abraham_Lincoln'
 twitter: ''
 instagram: ''

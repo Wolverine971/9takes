@@ -9,11 +9,11 @@ loc: 'https://9takes.com/personality-analysis/Hozier'
 lastmod: '2025-12-09'
 changefreq: 'monthly'
 priority: '0.6'
-published: false
+published: true
 enneagram: 4
 type: ['musician']
 person: 'Hozier'
-suggestions: ['Billie-Eilish', 'Bob-Dylan', 'Lana-Del-Rey', 'Ed-Sheeran']
+suggestions: ['Billie-Eilish', 'Bob-Dylan', 'Lana-Del-Rey', 'Halsey']
 wikipedia: 'https://en.wikipedia.org/wiki/Hozier_(musician)'
 twitter: 'Habormoshow'
 instagram: 'hozier'

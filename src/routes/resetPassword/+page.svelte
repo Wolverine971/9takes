@@ -1,6 +1,6 @@
 <!-- src/routes/resetPassword/+page.svelte -->
 <script lang="ts">
-	import { enhance } from '$app/forms';
+	import { applyAction, enhance } from '$app/forms';
 	import { goto } from '$app/navigation';
 	import { onMount } from 'svelte';
 	import type { ActionData } from './$types';
@@ -68,7 +68,9 @@
 				loading = true;
 
 				return async ({ result }) => {
-					if (result.type === 'failure') {
+					await applyAction(result);
+
+					if (result.type === 'failure' || result.type === 'error') {
 						loading = false;
 					}
 					// On success, keep loading while redirecting to login

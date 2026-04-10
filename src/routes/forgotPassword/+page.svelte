@@ -1,21 +1,46 @@
 <!-- src/routes/forgotPassword/+page.svelte -->
 <script lang="ts">
-	import { enhance } from '$app/forms';
-	import { onMount } from 'svelte';
+	import { applyAction, enhance } from '$app/forms';
+	import { onMount, tick } from 'svelte';
 	import { browser } from '$app/environment';
 	import type { ActionData } from './$types';
 	import { PUBLIC_RECAPTCHA_SITE_KEY } from '$env/static/public';
 	import LoadingButton from '$lib/components/atoms/LoadingButton.svelte';
+	import {
+		ensureRecaptchaLoaded,
+		reloadRecaptchaWidget,
+		renderRecaptchaWidget
+	} from '$lib/utils/recaptchaClient';
 
 	export let form: ActionData;
 
 	let email = '';
 	let loading = false;
 	let recaptchaTheme: 'light' | 'dark' = 'dark';
+	let captchaContainer: HTMLDivElement | null = null;
+	let captchaWidgetId: number | null = null;
 
 	function syncRecaptchaTheme() {
 		if (!browser) return;
 		recaptchaTheme = document.documentElement.classList.contains('light') ? 'light' : 'dark';
+	}
+
+	async function mountRecaptcha() {
+		if (!browser || !captchaContainer) {
+			return;
+		}
+
+		await tick();
+		await ensureRecaptchaLoaded();
+		const widgetId = renderRecaptchaWidget({
+			container: captchaContainer,
+			siteKey: PUBLIC_RECAPTCHA_SITE_KEY,
+			theme: recaptchaTheme
+		});
+
+		if (widgetId !== null) {
+			captchaWidgetId = widgetId;
+		}
 	}
 
 	onMount(() => {
@@ -28,36 +53,36 @@
 			attributeFilter: ['class', 'data-theme']
 		});
 
-		if (browser && !document.getElementById('recaptcha-script')) {
-			const script = document.createElement('script');
-			script.id = 'recaptcha-script';
-			script.src = 'https://www.google.com/recaptcha/api.js';
-			script.async = true;
-			script.defer = true;
-			document.head.appendChild(script);
-		}
+		void mountRecaptcha();
 
 		return () => observer.disconnect();
 	});
 
-	function resetRecaptcha() {
-		if (browser && window.grecaptcha) {
-			window.grecaptcha.reset();
-		}
+	async function refreshRecaptcha() {
+		const widgetId = await reloadRecaptchaWidget({
+			container: captchaContainer,
+			siteKey: PUBLIC_RECAPTCHA_SITE_KEY,
+			theme: recaptchaTheme
+		});
+
+		captchaWidgetId = widgetId;
 	}
 
 	function handleSubmit() {
 		loading = true;
 		return async ({ result }: { result: { type: string } }) => {
-			// On success, keep loading briefly then show success message
-			if (result.type === 'success') {
-				loading = false;
-			} else if (result.type === 'failure') {
-				loading = false;
-				// Reset reCAPTCHA on failure so user can try again
-				resetRecaptcha();
+			await applyAction(result);
+
+			if (result.type === 'failure') {
+				await refreshRecaptcha();
 			}
+
+			loading = false;
 		};
+	}
+
+	$: if (captchaContainer) {
+		void mountRecaptcha();
 	}
 
 	const ogImage = 'https://9takes.com/greek_pantheon.png';
@@ -110,12 +135,7 @@
 				<input type="text" id="company" name="company" tabindex="-1" autocomplete="off" />
 			</div>
 
-			<!-- Google reCAPTCHA -->
-			<div
-				class="g-recaptcha"
-				data-sitekey={PUBLIC_RECAPTCHA_SITE_KEY}
-				data-theme={recaptchaTheme}
-			></div>
+			<div bind:this={captchaContainer}></div>
 
 			<LoadingButton
 				type="submit"

@@ -4,12 +4,14 @@
 	import { onMount, tick } from 'svelte';
 	import { fly } from 'svelte/transition';
 	import { browser } from '$app/environment';
+	import SEOHead from '$lib/components/SEOHead.svelte';
 	import {
 		buildPersonalityAnalysisPath,
+		buildPersonalityAnalysisUrl,
 		buildPersonalityImagePath,
+		buildPersonalityImageUrl,
 		formatPersonalityDisplayName
 	} from '$lib/utils/personalityAnalysis';
-	import { buildBreadcrumbSchemaForGraph } from '$lib/utils/schema';
 	import type { PageData } from './$types';
 	import { ENNEAGRAM_TYPE_COLORS } from '$lib/constants/enneagramColors';
 
@@ -40,6 +42,33 @@
 			{ name: v.name, title: v.title, color: v.color, stancePhrase: stancePhrases[Number(k)] }
 		])
 	);
+
+	const typeGuideSummaries: Record<number, string> = {
+		1: 'Principled, improvement-driven, and sensitive to what feels wrong.',
+		2: 'Warm, relational, and highly attuned to what other people need.',
+		3: 'Adaptive, ambitious, and focused on momentum, image, and results.',
+		4: 'Emotionally intense, identity-driven, and tuned to what feels missing.',
+		5: 'Private, analytical, and protective of time, energy, and competence.',
+		6: 'Security-minded, skeptical, and quick to scan for risk and trust.',
+		7: 'Future-oriented, energetic, and always looking for freedom and options.',
+		8: 'Direct, forceful, and instinctively protective of autonomy and strength.',
+		9: 'Steady, receptive, and skilled at reducing tension and conflict.'
+	};
+
+	const typeGuideLinks = Array.from({ length: 9 }, (_, index) => {
+		const type = index + 1;
+		const typeInfo = shadowTypes[type];
+
+		return {
+			type,
+			href: `/enneagram-corner/enneagram-type-${type}`,
+			name: typeInfo.name,
+			title: typeInfo.title,
+			color: typeInfo.color,
+			stancePhrase: typeInfo.stancePhrase,
+			summary: typeGuideSummaries[type]
+		};
+	});
 
 	// "No" path — three quick reads to get someone up to speed on the Enneagram
 	const noPathBlogs = [
@@ -103,94 +132,173 @@
 		}
 	];
 
-	// SEO / structured data
 	const siteUrl = 'https://9takes.com';
 	const organizationId = `${siteUrl}/#organization`;
 	const websiteId = `${siteUrl}/#website`;
 	const webpageId = `${siteUrl}/#webpage`;
-	const founderId = `${siteUrl}/about/#person`;
-	const breadcrumbId = `${siteUrl}/#breadcrumb`;
+	const primarySectionsId = `${siteUrl}/#primary-sections`;
+	const enneagramTypesId = `${siteUrl}/#enneagram-types`;
+	const featuredAnalysisId = `${siteUrl}/#featured-analysis`;
+	const homepageTitle =
+		'Enneagram Personality Types, Social Dynamics, and Emotional Intelligence | 9takes';
+	const homepageDescription =
+		'Explore the nine Enneagram personality types, famous-person analysis, community questions, and practical guides for relationships, conflict, and emotional intelligence.';
+	const socialImageUrl = `${siteUrl}/greek_pantheon.png`;
+	const socialImageAlt = '9takes - One situation, 9 ways to see it';
 
-	const homepageStructuredData = {
-		'@context': 'https://schema.org',
-		'@graph': [
-			{
-				'@type': 'Organization',
-				'@id': organizationId,
-				name: '9takes',
-				url: siteUrl,
-				description:
-					'9takes helps people decode social dynamics, personality patterns, and emotional blind spots using the Enneagram.',
-				foundingDate: '2022',
-				logo: {
-					'@type': 'ImageObject',
-					url: `${siteUrl}/brand/aero.png`,
-					width: 200,
-					height: 200
-				},
-				founder: { '@id': founderId },
-				contactPoint: [
-					{
-						'@type': 'ContactPoint',
-						contactType: 'customer support',
-						email: 'usersup@9takes.com',
-						url: `${siteUrl}/about`,
-						availableLanguage: ['English']
+	const primaryResources = [
+		{
+			name: 'Questions',
+			path: '/questions',
+			url: `${siteUrl}/questions`,
+			description:
+				'Give your take first, then compare how each Enneagram type answers the same question.'
+		},
+		{
+			name: 'Enneagram Corner',
+			path: '/enneagram-corner',
+			url: `${siteUrl}/enneagram-corner`,
+			description: 'Deep guides on all nine types, relationships, growth, and emotional patterns.'
+		},
+		{
+			name: 'Famous Personality Analysis',
+			path: '/personality-analysis',
+			url: `${siteUrl}/personality-analysis`,
+			description:
+				'See how celebrities, historical figures, and public personalities map to each type.'
+		},
+		{
+			name: 'How-to Guides',
+			path: '/how-to-guides',
+			url: `${siteUrl}/how-to-guides`,
+			description:
+				'Practical playbooks for conflict, communication, boundaries, and self-awareness.'
+		},
+		{
+			name: 'Community Essays',
+			path: '/community',
+			url: `${siteUrl}/community`,
+			description:
+				'Opinionated essays about the internet, personality theory, and how people change.'
+		}
+	];
+
+	// SEO / structured data
+	const homepageStructuredData = $derived.by(() => {
+		const featuredPeople = data.typeRepresentatives.map((person, index) => {
+			const displayName = formatPersonalityDisplayName(person.name);
+			const fallbackUrl = `${siteUrl}/enneagram-corner/enneagram-type-${person.type}`;
+			const analysisUrl = person.hasLink ? buildPersonalityAnalysisUrl(person.name) : fallbackUrl;
+
+			return {
+				'@type': 'ListItem',
+				position: index + 1,
+				item: {
+					'@type': 'WebPage',
+					'@id': analysisUrl,
+					name: `${displayName} Enneagram analysis`,
+					url: analysisUrl,
+					description:
+						person.personaTitle && person.personaTitle.trim().length > 0
+							? `${displayName} through the lens of Enneagram Type ${person.type}: ${person.personaTitle}.`
+							: `${displayName} through the lens of Enneagram Type ${person.type}.`,
+					...(person.hasImage && {
+						image: buildPersonalityImageUrl(person.type, person.name, 'thumbnail')
+					})
+				}
+			};
+		});
+
+		return {
+			'@context': 'https://schema.org',
+			'@graph': [
+				{
+					'@type': 'WebPage',
+					'@id': webpageId,
+					url: siteUrl,
+					name: homepageTitle,
+					description: homepageDescription,
+					inLanguage: 'en-US',
+					isPartOf: { '@id': websiteId },
+					publisher: { '@id': organizationId },
+					mainEntity: { '@id': primarySectionsId },
+					hasPart: [
+						{ '@id': enneagramTypesId },
+						...(featuredPeople.length ? [{ '@id': featuredAnalysisId }] : [])
+					],
+					about: [
+						{
+							'@type': 'Thing',
+							name: 'Enneagram personality types',
+							sameAs: 'https://en.wikipedia.org/wiki/Enneagram_of_Personality'
+						},
+						{ '@type': 'Thing', name: 'Social dynamics' },
+						{ '@type': 'Thing', name: 'Emotional intelligence' },
+						{ '@type': 'Thing', name: 'Personality analysis' }
+					],
+					significantLink: [
+						...primaryResources.map((resource) => resource.url),
+						...typeGuideLinks.map((typeGuide) => `${siteUrl}${typeGuide.href}`)
+					],
+					primaryImageOfPage: {
+						'@type': 'ImageObject',
+						url: socialImageUrl,
+						width: 1200,
+						height: 630,
+						caption: socialImageAlt
 					}
-				],
-				sameAs: ['https://www.instagram.com/9takesdotcom/', 'https://twitter.com/9takesdotcom']
-			},
-			{
-				'@type': 'Person',
-				'@id': founderId,
-				name: 'DJ Wayne',
-				jobTitle: 'Founder',
-				description:
-					'Founder of 9takes, a former USMC infantry Marine turned software entrepreneur who writes about personality, self-awareness, and the Enneagram.',
-				image: `${siteUrl}/brand/djface.webp`,
-				url: `${siteUrl}/about`,
-				worksFor: { '@id': organizationId },
-				sameAs: ['https://twitter.com/djwayne3', 'https://www.linkedin.com/in/djwayne3']
-			},
-			{
-				'@type': 'WebSite',
-				'@id': websiteId,
-				name: '9takes',
-				url: siteUrl,
-				description:
-					'An Enneagram site for personality analysis, emotional intelligence, and understanding social dynamics.',
-				inLanguage: 'en-US',
-				publisher: { '@id': organizationId }
-			},
-			{
-				'@type': 'WebPage',
-				'@id': webpageId,
-				name: '9takes - See the Emotions Behind Every Take',
-				url: siteUrl,
-				description:
-					'Decode social dynamics using the Enneagram. Explore nine personality perspectives, improve emotional intelligence, and read in-depth personality analysis on 9takes.',
-				inLanguage: 'en-US',
-				isPartOf: { '@id': websiteId },
-				publisher: { '@id': organizationId },
-				about: {
-					'@type': 'Thing',
-					name: 'Enneagram of Personality'
 				},
-				primaryImageOfPage: {
-					'@type': 'ImageObject',
-					url: `${siteUrl}/greek_pantheon.png`,
-					width: 1200,
-					height: 630,
-					caption: '9takes - One situation, 9 ways to see it'
+				{
+					'@type': 'ItemList',
+					'@id': primarySectionsId,
+					name: 'Primary 9takes sections',
+					numberOfItems: primaryResources.length,
+					itemListOrder: 'https://schema.org/ItemListUnordered',
+					itemListElement: primaryResources.map((resource, index) => ({
+						'@type': 'ListItem',
+						position: index + 1,
+						item: {
+							'@type': 'WebPage',
+							'@id': resource.url,
+							name: resource.name,
+							url: resource.url,
+							description: resource.description
+						}
+					}))
 				},
-				breadcrumb: { '@id': breadcrumbId }
-			},
-			{
-				'@id': breadcrumbId,
-				...buildBreadcrumbSchemaForGraph([{ name: 'Home', url: siteUrl }])
-			}
-		]
-	};
+				{
+					'@type': 'ItemList',
+					'@id': enneagramTypesId,
+					name: 'Enneagram type guides',
+					numberOfItems: typeGuideLinks.length,
+					itemListOrder: 'https://schema.org/ItemListOrderAscending',
+					itemListElement: typeGuideLinks.map((typeGuide, index) => ({
+						'@type': 'ListItem',
+						position: index + 1,
+						item: {
+							'@type': 'WebPage',
+							'@id': `${siteUrl}${typeGuide.href}`,
+							name: `Enneagram Type ${typeGuide.type}: ${typeGuide.name}`,
+							url: `${siteUrl}${typeGuide.href}`,
+							description: typeGuide.summary
+						}
+					}))
+				},
+				...(featuredPeople.length
+					? [
+							{
+								'@type': 'ItemList',
+								'@id': featuredAnalysisId,
+								name: 'Featured personality analysis examples',
+								numberOfItems: featuredPeople.length,
+								itemListOrder: 'https://schema.org/ItemListUnordered',
+								itemListElement: featuredPeople
+							}
+						]
+					: [])
+			]
+		};
+	});
 
 	function getTransition() {
 		return { y: 30, duration: 500, delay: 100 };
@@ -236,57 +344,28 @@
 	});
 </script>
 
-<svelte:head>
-	<title>9takes - See the Emotions Behind Every Take</title>
-	<meta name="title" content="9takes - See the Emotions Behind Every Take" />
-	<meta
-		name="description"
-		content="Decode social dynamics with the Enneagram on 9takes. Explore nine personality perspectives, deepen emotional intelligence, and read practical personality analysis for work, dating, and conflict."
-	/>
-	<meta
-		name="keywords"
-		content="enneagram, enneagram types, personality analysis, emotional intelligence, social dynamics, communication patterns, conflict, self-awareness"
-	/>
-	<meta
-		name="robots"
-		content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
-	/>
-	<meta name="language" content="English" />
-	<meta name="author" content="DJ Wayne" />
-
-	<!-- Links -->
-	<link rel="canonical" href="https://9takes.com" />
-	<link rel="alternate" href="https://9takes.com" hreflang="x-default" />
-	<link rel="alternate" href="https://9takes.com" hreflang="en-US" />
-
-	<!-- Open Graph -->
-	<meta property="og:type" content="website" />
-	<meta property="og:url" content="https://9takes.com" />
-	<meta property="og:site_name" content="9takes" />
-	<meta property="og:title" content="9takes - See the Emotions Behind Every Take" />
-	<meta
-		property="og:description"
-		content="Use the Enneagram to decode social dynamics, compare nine personality perspectives, and build emotional intelligence on 9takes."
-	/>
-	<meta property="og:image" content="https://9takes.com/greek_pantheon.png" />
-	<meta property="og:image:width" content="1200" />
-	<meta property="og:image:height" content="630" />
-	<meta property="og:image:alt" content="9takes - One situation, 9 ways to see it" />
-	<meta property="og:locale" content="en_US" />
-
-	<!-- Twitter -->
-	<meta name="twitter:card" content="summary_large_image" />
-	<meta name="twitter:site" content="@9takesdotcom" />
-	<meta name="twitter:creator" content="@djwayne3" />
-	<meta name="twitter:title" content="9takes - See the Emotions Behind Every Take" />
-	<meta
-		name="twitter:description"
-		content="Explore the nine Enneagram perspectives, sharpen emotional intelligence, and read personality analysis that helps you understand people better."
-	/>
-	<meta name="twitter:image" content="https://9takes.com/greek_pantheon.png" />
-	<meta name="twitter:image:alt" content="9takes - One situation, 9 ways to see it" />
-	{@html `<script type="application/ld+json">${JSON.stringify(homepageStructuredData)}</script>`}
-</svelte:head>
+<SEOHead
+	title={homepageTitle}
+	description={homepageDescription}
+	canonical={siteUrl}
+	ogImage={socialImageUrl}
+	ogImageWidth={1200}
+	ogImageHeight={630}
+	twitterImage={socialImageUrl}
+	twitterImageAlt={socialImageAlt}
+	jsonLd={homepageStructuredData}
+	author="DJ Wayne"
+	additionalMeta={[
+		{
+			property: 'og:image:secure_url',
+			content: socialImageUrl
+		},
+		{
+			property: 'og:image:type',
+			content: 'image/png'
+		}
+	]}
+/>
 
 <div class="sl-page">
 	<div class="bg-void"></div>
@@ -294,6 +373,32 @@
 	<div class="bg-grid"></div>
 
 	<main class="content">
+		<header class="page-intro" in:fly={getTransition()}>
+			<div class="section-header">
+				<div class="section-badge accent">
+					<span class="badge-dot"></span>
+					<span>ENNEAGRAM PERSONALITY ANALYSIS</span>
+				</div>
+				<h1 class="page-title">
+					Understand the 9 Enneagram types and why people react so differently.
+				</h1>
+				<p class="page-lede">
+					9takes is an Enneagram platform for personality analysis, emotional intelligence, and
+					social dynamics. Explore type guides, famous-person breakdowns, practical advice, and
+					questions answered through all nine perspectives.
+				</p>
+			</div>
+
+			<nav class="intro-links" aria-label="Explore the main sections of 9takes">
+				{#each primaryResources as resource}
+					<a href={resource.path} class="intro-link">
+						<span class="intro-link-title">{resource.name}</span>
+						<span class="intro-link-desc">{resource.description}</span>
+					</a>
+				{/each}
+			</nav>
+		</header>
+
 		<!-- ========== MOBILE FORK SECTION (mobile only) ========== -->
 		<section class="mobile-fork-section mobile-only" in:fly={getTransition()}>
 			<header class="mobile-fork-header">
@@ -301,7 +406,7 @@
 					<span class="badge-dot"></span>
 					<span>START HERE</span>
 				</div>
-				<h1 class="mobile-fork-h1">Do you know about<br />the Enneagram?</h1>
+				<h2 class="mobile-fork-h1">Do you know about<br />the Enneagram?</h2>
 			</header>
 
 			<!-- Branching tree visual: root → trunk → split → drops -->
@@ -378,7 +483,7 @@
 					<span class="badge-dot"></span>
 					<span>START HERE</span>
 				</div>
-				<h1 class="fork-h1">Do you know about the Enneagram?</h1>
+				<h2 class="fork-h1">Do you know about the Enneagram?</h2>
 			</header>
 
 			<div class="fork-tree" aria-hidden="true">
@@ -615,6 +720,34 @@
 							</a>
 						{/each}
 					</div>
+
+					<div class="type-guide-block">
+						<div class="type-guide-header">
+							<h3 class="type-guide-heading">Jump straight to your Enneagram type.</h3>
+							<p class="type-guide-copy">
+								Each guide breaks down the core motivation, blind spots, relationships, and growth
+								path for one of the nine personality types.
+							</p>
+						</div>
+
+						<div class="type-guide-grid">
+							{#each typeGuideLinks as typeGuide}
+								<a
+									href={typeGuide.href}
+									class="type-guide-card"
+									style="--type-color: {typeGuide.color}"
+									aria-label={`Read the Enneagram Type ${typeGuide.type} guide for ${typeGuide.name}`}
+								>
+									<span class="type-guide-eyebrow">Type {typeGuide.type}</span>
+									<h4 class="type-guide-title">{typeGuide.name}</h4>
+									<p class="type-guide-summary">{typeGuide.summary}</p>
+									<span class="type-guide-meta">
+										{typeGuide.title} · {typeGuide.stancePhrase}
+									</span>
+								</a>
+							{/each}
+						</div>
+					</div>
 				</section>
 			{/if}
 		</div>
@@ -823,6 +956,72 @@
 		max-width: 1100px;
 		margin: 0 auto;
 		padding: 0 1rem;
+	}
+
+	.page-intro {
+		padding: 4rem 0 1.5rem;
+	}
+
+	.page-title {
+		font-family: var(--font-display);
+		font-size: clamp(2.1rem, 5vw, 3.4rem);
+		font-weight: 700;
+		line-height: 1.08;
+		letter-spacing: -0.02em;
+		color: var(--text-pale);
+		max-width: 900px;
+		margin: 0 auto 0.85rem;
+		text-wrap: balance;
+	}
+
+	.page-lede {
+		max-width: 760px;
+		margin: 0 auto;
+		font-size: 1.05rem;
+		line-height: 1.7;
+		color: var(--text-mist);
+		text-wrap: pretty;
+	}
+
+	.intro-links {
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+		gap: 0.85rem;
+		margin-top: 2rem;
+	}
+
+	.intro-link {
+		display: flex;
+		flex-direction: column;
+		gap: 0.4rem;
+		padding: 1rem 1rem 1.05rem;
+		background: linear-gradient(180deg, rgba(12, 10, 9, 0.9) 0%, rgba(28, 25, 23, 0.92) 100%);
+		border: 1px solid rgba(45, 212, 191, 0.18);
+		border-radius: 14px;
+		text-decoration: none;
+		transition:
+			transform 220ms var(--ease-out),
+			border-color 220ms var(--ease-out),
+			box-shadow 220ms var(--ease-out);
+	}
+
+	.intro-link:hover {
+		transform: translateY(-3px);
+		border-color: rgba(45, 212, 191, 0.38);
+		box-shadow: 0 0 28px rgba(45, 212, 191, 0.12);
+	}
+
+	.intro-link-title {
+		font-family: var(--font-display);
+		font-size: 1rem;
+		font-weight: 600;
+		color: var(--text-pale);
+	}
+
+	.intro-link-desc {
+		font-size: 0.84rem;
+		line-height: 1.5;
+		color: var(--text-mist);
 	}
 
 	/* Background layers */
@@ -1507,6 +1706,97 @@
 		color: var(--shadow-flame);
 		letter-spacing: 0.05em;
 		white-space: nowrap;
+	}
+
+	.type-guide-block {
+		margin-top: 2.5rem;
+		padding: 1.5rem;
+		background: linear-gradient(180deg, rgba(12, 10, 9, 0.92) 0%, rgba(28, 25, 23, 0.92) 100%);
+		border: 1px solid rgba(45, 212, 191, 0.16);
+		border-radius: 18px;
+		box-shadow:
+			0 0 36px rgba(45, 212, 191, 0.08),
+			inset 0 1px 0 rgba(45, 212, 191, 0.08);
+	}
+
+	.type-guide-header {
+		max-width: 720px;
+		margin-bottom: 1.5rem;
+	}
+
+	.type-guide-heading {
+		font-family: var(--font-display);
+		font-size: clamp(1.3rem, 3vw, 1.75rem);
+		line-height: 1.2;
+		color: var(--text-pale);
+		margin: 0 0 0.55rem;
+	}
+
+	.type-guide-copy {
+		margin: 0;
+		font-size: 0.95rem;
+		line-height: 1.65;
+		color: var(--text-mist);
+	}
+
+	.type-guide-grid {
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+		gap: 0.85rem;
+	}
+
+	.type-guide-card {
+		display: flex;
+		flex-direction: column;
+		gap: 0.45rem;
+		min-height: 100%;
+		padding: 1rem;
+		background: color-mix(in srgb, var(--bg-deep) 78%, transparent);
+		border: 1px solid color-mix(in srgb, var(--type-color) 30%, rgba(255, 255, 255, 0.08));
+		border-radius: 14px;
+		text-decoration: none;
+		transition:
+			transform 220ms var(--ease-out),
+			border-color 220ms var(--ease-out),
+			box-shadow 220ms var(--ease-out);
+	}
+
+	.type-guide-card:hover {
+		transform: translateY(-3px);
+		border-color: color-mix(in srgb, var(--type-color) 65%, rgba(255, 255, 255, 0.08));
+		box-shadow: 0 0 24px color-mix(in srgb, var(--type-color) 20%, transparent);
+	}
+
+	.type-guide-eyebrow {
+		font-family: var(--font-mono);
+		font-size: 0.72rem;
+		letter-spacing: 0.08em;
+		text-transform: uppercase;
+		color: var(--type-color);
+	}
+
+	.type-guide-title {
+		font-family: var(--font-display);
+		font-size: 1rem;
+		line-height: 1.25;
+		color: var(--text-pale);
+		margin: 0;
+	}
+
+	.type-guide-summary {
+		margin: 0;
+		font-size: 0.85rem;
+		line-height: 1.55;
+		color: var(--text-mist);
+	}
+
+	.type-guide-meta {
+		margin-top: auto;
+		padding-top: 0.35rem;
+		font-family: var(--font-mono);
+		font-size: 0.72rem;
+		line-height: 1.5;
+		color: color-mix(in srgb, var(--type-color) 75%, white 20%);
 	}
 
 	/* ==========================================
@@ -2509,6 +2799,25 @@
 			padding: 0 1rem;
 		}
 
+		.page-intro {
+			padding: 3rem 0 1rem;
+		}
+
+		.page-title {
+			font-size: clamp(1.95rem, 8vw, 2.45rem);
+			line-height: 1.12;
+		}
+
+		.page-lede {
+			font-size: 0.97rem;
+			line-height: 1.6;
+		}
+
+		.intro-links {
+			grid-template-columns: 1fr;
+			margin-top: 1.5rem;
+		}
+
 		.section {
 			padding: 2.25rem 0;
 		}
@@ -2641,6 +2950,20 @@
 
 		.blog-card-peek li {
 			font-size: 0.8rem;
+		}
+
+		.type-guide-block {
+			margin-top: 1.5rem;
+			padding: 1.15rem;
+			border-radius: 16px;
+		}
+
+		.type-guide-grid {
+			grid-template-columns: 1fr;
+		}
+
+		.type-guide-card {
+			padding: 0.95rem;
 		}
 
 		/* ----- Famous people grid ----- */

@@ -9,11 +9,11 @@ loc: 'https://9takes.com/personality-analysis/Matt-Damon'
 lastmod: '2026-04-07'
 changefreq: 'monthly'
 priority: '0.6'
-published: false
+published: true
 enneagram: 1
 type: ['movieStar']
 person: 'Matt-Damon'
-suggestions: ['Leonardo-DiCaprio', 'Blake-Lively', 'Natalie-Portman', 'Tom-Hanks']
+suggestions: ['Ben-Affleck', 'Leonardo-DiCaprio', 'Natalie-Portman', 'Tom-Hanks']
 wikipedia: 'https://en.wikipedia.org/wiki/Matt_Damon'
 twitter: ''
 instagram: ''
@@ -88,7 +88,7 @@ He's not angry about it. He's grateful. And that might be the most Type 1 thing 
 
 ## Two Blocks Down the Road
 
-When Matt was ten, he met a kid named Ben Affleck who lived two blocks away. They played baseball. They played Dungeons and Dragons. They caught movie double-features.
+When Matt was ten, he met a kid named <a href="/personality-analysis/Ben-Affleck">Ben Affleck</a> who lived two blocks away. They played baseball. They played Dungeons and Dragons. They caught movie double-features.
 
 Then, in 1986, a pick-up football game: Matt got into a fight with a much larger, older student. Affleck — two years younger, smaller — jumped in. Damon has called this the defining moment of their friendship.
 

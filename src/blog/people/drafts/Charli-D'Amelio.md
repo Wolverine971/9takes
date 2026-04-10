@@ -9,11 +9,11 @@ loc: "https://9takes.com/personality-analysis/Charli-D'Amelio"
 lastmod: '2026-02-18'
 changefreq: 'monthly'
 priority: '0.6'
-published: false
+published: true
 enneagram: 9
 type: ['tiktoker']
 person: "Charli-D'Amelio"
-suggestions: ['Addison-Rae', "Dixie-D'Amelio", 'Bella-Poarch', 'Khaby-Lame']
+suggestions: ['Addison-Rae', "Dixie-D'Amelio", 'Bella-Poarch', 'Alix-Earle']
 wikipedia: 'https://en.wikipedia.org/wiki/Charli_D%27Amelio'
 twitter: 'https://twitter.com/charlidamelio'
 instagram: 'https://www.instagram.com/charlidamelio/'

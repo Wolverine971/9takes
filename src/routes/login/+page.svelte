@@ -1,21 +1,88 @@
 <!-- src/routes/login/+page.svelte -->
 <script lang="ts">
 	import { applyAction, enhance } from '$app/forms';
+	import { browser } from '$app/environment';
+	import { onMount, tick } from 'svelte';
 	import { fade, fly } from 'svelte/transition';
 	import { notifications } from '$lib/components/molecules/notifications';
 	import { invalidateAll } from '$app/navigation';
 	import type { SubmitFunction } from '@sveltejs/kit';
+	import { PUBLIC_RECAPTCHA_SITE_KEY } from '$env/static/public';
 	import LoadingButton from '$lib/components/atoms/LoadingButton.svelte';
+	import {
+		ensureRecaptchaLoaded,
+		reloadRecaptchaWidget,
+		renderRecaptchaWidget
+	} from '$lib/utils/recaptchaClient';
+	import type { PageData } from './$types';
+
+	export let data: PageData;
 
 	let loading = false;
 	let email = '';
 	let password = '';
+	let captchaRequired = data.captchaRequired ?? false;
+	let recaptchaTheme: 'light' | 'dark' = 'dark';
+	let captchaContainer: HTMLDivElement | null = null;
+	let captchaWidgetId: number | null = null;
+
+	function syncRecaptchaTheme() {
+		if (!browser) return;
+		recaptchaTheme = document.documentElement.classList.contains('light') ? 'light' : 'dark';
+	}
+
+	async function mountRecaptcha() {
+		if (!browser || !captchaRequired || !captchaContainer) {
+			return;
+		}
+
+		await tick();
+		await ensureRecaptchaLoaded();
+		const widgetId = renderRecaptchaWidget({
+			container: captchaContainer,
+			siteKey: PUBLIC_RECAPTCHA_SITE_KEY,
+			theme: recaptchaTheme
+		});
+
+		if (widgetId !== null) {
+			captchaWidgetId = widgetId;
+		}
+	}
+
+	async function refreshRecaptcha() {
+		const widgetId = await reloadRecaptchaWidget({
+			container: captchaContainer,
+			siteKey: PUBLIC_RECAPTCHA_SITE_KEY,
+			theme: recaptchaTheme
+		});
+
+		captchaWidgetId = widgetId;
+	}
+
+	onMount(() => {
+		syncRecaptchaTheme();
+		const observer = new MutationObserver(() => {
+			syncRecaptchaTheme();
+		});
+		observer.observe(document.documentElement, {
+			attributes: true,
+			attributeFilter: ['class', 'data-theme']
+		});
+
+		void mountRecaptcha();
+
+		return () => observer.disconnect();
+	});
+
+	$: if (captchaRequired && captchaContainer) {
+		void mountRecaptcha();
+	}
 
 	const handleSubmit: SubmitFunction = () => {
 		loading = true;
 		return async ({ result }) => {
 			if (result.type === 'failure') {
-				loading = false;
+				captchaRequired = !!result.data?.captchaRequired || captchaRequired;
 				notifications.danger(result.data?.error || 'An error occurred', 3000);
 			} else if (result.type === 'success') {
 				// Keep loading=true during navigation - rerun all `load` functions
@@ -23,6 +90,11 @@
 			}
 
 			await applyAction(result);
+
+			if (result.type === 'failure' && captchaRequired) {
+				await refreshRecaptcha();
+			}
+
 			// Only reset loading if we're still on this page (e.g., no redirect happened)
 			loading = false;
 		};
@@ -64,6 +136,9 @@
 			<label for="password">Password</label>
 			<input type="password" id="password" name="password" bind:value={password} required />
 		</div>
+		{#if captchaRequired}
+			<div bind:this={captchaContainer}></div>
+		{/if}
 		<LoadingButton
 			type="submit"
 			variant="primary"

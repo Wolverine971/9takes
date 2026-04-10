@@ -9,11 +9,11 @@ loc: 'https://9takes.com/personality-analysis/Cristiano-Ronaldo'
 lastmod: '2026-01-23'
 changefreq: 'monthly'
 priority: '0.6'
-published: false
+published: true
 enneagram: 3
 type: ['athlete']
 person: 'Cristiano-Ronaldo'
-suggestions: ['Lionel-Messi', 'David-Beckham', 'Tom-Brady', 'Michael-Jordan']
+suggestions: ['Arnold-Schwarzenegger', 'Dwayne-Johnson', 'Tom-Cruise', 'Alex-Hormozi']
 wikipedia: 'https://en.wikipedia.org/wiki/Cristiano_Ronaldo'
 twitter: 'cristiano'
 instagram: 'cristiano'

@@ -9,11 +9,11 @@ loc: 'https://9takes.com/personality-analysis/Kris-Jenner'
 lastmod: '2026-04-06'
 changefreq: 'monthly'
 priority: '0.6'
-published: false
+published: true
 enneagram: 3
 type: ['celebrity', 'entrepreneur']
 person: 'Kris-Jenner'
-suggestions: ['Kim-Kardashian', 'Paris-Hilton', 'Oprah-Winfrey', 'Martha-Stewart']
+suggestions: ['Kim-Kardashian', 'Khloe-Kardashian', 'Kylie-Jenner', 'Paris-Hilton']
 wikipedia: 'https://en.wikipedia.org/wiki/Kris_Jenner'
 twitter: '@KrisJenner'
 instagram: '@krisjenner'

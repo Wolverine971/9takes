@@ -10,6 +10,8 @@
 	import { buildSocialImageUrl } from '$lib/utils/socialImage';
 	import {
 		buildBreadcrumbSchema,
+		buildPersonSameAsUrls,
+		mergePersonSameAsIntoJsonLd,
 		parseJsonLdSnippet,
 		updateJsonLdDateModified
 	} from '$lib/utils/schema';
@@ -53,7 +55,13 @@
 			: ''
 	);
 	let personSameAs = $derived(
-		wikipediaName ? [`https://en.wikipedia.org/wiki/${wikipediaName}`] : []
+		buildPersonSameAsUrls({
+			wikipedia: data?.wikipedia,
+			fallbackWikipedia: wikipediaName ? `https://en.wikipedia.org/wiki/${wikipediaName}` : null,
+			twitter: data?.twitter,
+			instagram: data?.instagram,
+			tiktok: data?.tiktok
+		})
 	);
 
 	// Prepare common JSON-LD fields
@@ -107,9 +115,15 @@
 	let jsonLdString = $derived.by(() => {
 		try {
 			const parsedSnippet = parseJsonLdSnippet(data.jsonld_snippet);
-			const jsonLdObject = parsedSnippet
+			const baseJsonLdObject = parsedSnippet
 				? updateJsonLdDateModified(parsedSnippet, modifiedAt)
 				: buildCommonJsonLdFields();
+			const jsonLdObject = parsedSnippet
+				? mergePersonSameAsIntoJsonLd(baseJsonLdObject, {
+						personName,
+						sameAs: personSameAs
+					})
+				: baseJsonLdObject;
 
 			return JSON.stringify(jsonLdObject);
 		} catch (error) {

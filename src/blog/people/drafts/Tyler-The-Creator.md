@@ -8,12 +8,12 @@ loc: 'https://9takes.com/personality-analysis/Tyler-The-Creator'
 lastmod: '2026-03-30'
 changefreq: 'monthly'
 priority: '0.6'
-published: false
+published: true
 enneagram: 4
 type: ['musician']
 person: 'Tyler-The-Creator'
 persona_title: "Hip-Hop's Self-Made Outcast"
-suggestions: ['Kanye', 'Billie-Eilish', 'Kendrick-Lamar', 'Frank-Ocean']
+suggestions: ['Kanye', 'Billie-Eilish', 'Kendrick-Lamar', 'Doechii']
 wikipedia: 'https://en.wikipedia.org/wiki/Tyler,_the_Creator'
 twitter: 'tylerthecreator'
 instagram: 'feliciathegoat'

@@ -4,12 +4,16 @@ import { beforeEach, describe, expect, it, vi } from 'vitest';
 const {
 	verifyRecaptchaMock,
 	isHoneypotTriggeredMock,
+	getAuthProtectionStateMock,
+	recordAuthProtectionEventMock,
 	safelyEnrollMock,
 	safelyProcessMock,
 	loggerMocks
 } = vi.hoisted(() => ({
 	verifyRecaptchaMock: vi.fn(),
 	isHoneypotTriggeredMock: vi.fn(),
+	getAuthProtectionStateMock: vi.fn(),
+	recordAuthProtectionEventMock: vi.fn(),
 	safelyEnrollMock: vi.fn(),
 	safelyProcessMock: vi.fn(),
 	loggerMocks: {
@@ -22,6 +26,11 @@ const {
 vi.mock('$lib/utils/recaptcha', () => ({
 	verifyRecaptcha: verifyRecaptchaMock,
 	isHoneypotTriggered: isHoneypotTriggeredMock
+}));
+
+vi.mock('$lib/server/authProtection', () => ({
+	getAuthProtectionState: getAuthProtectionStateMock,
+	recordAuthProtectionEvent: recordAuthProtectionEventMock
 }));
 
 vi.mock('$lib/server/welcomeSequenceGuards', () => ({
@@ -75,6 +84,10 @@ describe('register action', () => {
 		vi.clearAllMocks();
 		verifyRecaptchaMock.mockResolvedValue(true);
 		isHoneypotTriggeredMock.mockReturnValue(false);
+		getAuthProtectionStateMock.mockResolvedValue({
+			captchaRequired: false,
+			rateLimited: false
+		});
 		safelyEnrollMock.mockResolvedValue('enrollment-1');
 		safelyProcessMock.mockResolvedValue(true);
 	});
@@ -113,5 +126,37 @@ describe('register action', () => {
 				enrollmentId: null
 			})
 		);
+	});
+
+	it('only verifies reCAPTCHA after registration risk thresholds are hit', async () => {
+		getAuthProtectionStateMock.mockResolvedValueOnce({
+			captchaRequired: true,
+			rateLimited: false
+		});
+		const event = buildEvent();
+
+		const result = await actions.register(event as any);
+
+		expect(result).toEqual({ success: true });
+		expect(verifyRecaptchaMock).toHaveBeenCalledWith('token', '127.0.0.1');
+	});
+
+	it('returns a 429 when registration is rate limited', async () => {
+		getAuthProtectionStateMock.mockResolvedValueOnce({
+			captchaRequired: true,
+			rateLimited: true
+		});
+		const event = buildEvent();
+
+		const result = await actions.register(event as any);
+
+		expect(result).toMatchObject({
+			status: 429,
+			data: expect.objectContaining({
+				error: 'Too many registration attempts. Please try again later.',
+				captchaRequired: true
+			})
+		});
+		expect(event._signUp).not.toHaveBeenCalled();
 	});
 });

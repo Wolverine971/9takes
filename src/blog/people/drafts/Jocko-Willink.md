@@ -9,11 +9,11 @@ loc: 'https://9takes.com/personality-analysis/Jocko-Willink'
 lastmod: '2025-12-09'
 changefreq: 'monthly'
 priority: '0.6'
-published: false
+published: true
 enneagram: 8
 type: ['celebrity']
 person: 'Jocko-Willink'
-suggestions: ['Joe-Rogan', 'David-Goggins', 'Tim-Ferriss', 'Jordan-Peterson']
+suggestions: ['Joe-Rogan', 'Shawn-Ryan', 'Tim-Ferriss', 'Jordan-Peterson']
 wikipedia: 'https://en.wikipedia.org/wiki/Jocko_Willink'
 twitter: 'jockowillink'
 instagram: 'jockowillink'

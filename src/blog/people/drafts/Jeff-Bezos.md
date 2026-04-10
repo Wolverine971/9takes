@@ -13,7 +13,7 @@ published: true
 enneagram: 8
 type: ['techie']
 person: 'Jeff-Bezos'
-suggestions: ['Elon-Musk', 'Bill-Gates', 'Steve-Jobs', 'Warren-Buffett', 'Mark-Zuckerberg']
+suggestions: ['Elon-Musk', 'Bill-Gates', 'Steve-Jobs', 'Sam-Altman', 'Mark-Zuckerberg']
 wikipedia: 'https://en.wikipedia.org/wiki/Jeff_Bezos'
 twitter: 'JeffBezos'
 instagram: 'jeffbezos'

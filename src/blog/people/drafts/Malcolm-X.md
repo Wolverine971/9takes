@@ -9,11 +9,11 @@ loc: 'https://9takes.com/personality-analysis/Malcolm-X'
 lastmod: '2026-03-04'
 changefreq: 'monthly'
 priority: '0.6'
-published: false
+published: true
 enneagram: 8
 type: ['historical']
 person: 'Malcolm-X'
-suggestions: ['Martin-Luther-King-Jr', 'Muhammad-Ali', 'Barack-Obama', 'Denzel-Washington']
+suggestions: ['Martin-Luther-King-Jr', 'Abraham-Lincoln', 'Barack-Obama', 'Denzel-Washington']
 wikipedia: 'https://en.wikipedia.org/wiki/Malcolm_X'
 twitter: ''
 instagram: ''
