@@ -911,6 +911,14 @@
 		--void-shadow: var(--bg-base);
 		--void-umbra: var(--bg-deep);
 		--void-penumbra: var(--bg-surface);
+		--card-surface-top: color-mix(in srgb, var(--bg-surface) 78%, var(--bg-base));
+		--card-surface-bottom: color-mix(in srgb, var(--bg-deep) 88%, var(--bg-surface));
+		--card-surface-raised: color-mix(in srgb, var(--bg-surface) 90%, var(--bg-deep));
+		--card-highlight: inset 0 1px 0 color-mix(in srgb, var(--bg-surface) 78%, transparent);
+		--card-shadow-soft: 0 12px 28px color-mix(in srgb, var(--shadow-color) 72%, transparent);
+		--card-shadow-strong: 0 16px 36px color-mix(in srgb, var(--shadow-color) 80%, transparent);
+		--card-border-accent: color-mix(in srgb, var(--primary) 24%, var(--border-color));
+		--card-border-accent-strong: color-mix(in srgb, var(--primary) 42%, var(--border-color));
 
 		--text-pale: var(--text-primary);
 		--text-mist: var(--text-secondary);
@@ -995,10 +1003,15 @@
 		flex-direction: column;
 		gap: 0.4rem;
 		padding: 1rem 1rem 1.05rem;
-		background: linear-gradient(180deg, rgba(12, 10, 9, 0.9) 0%, rgba(28, 25, 23, 0.92) 100%);
-		border: 1px solid rgba(45, 212, 191, 0.18);
+		background: linear-gradient(
+			180deg,
+			var(--card-surface-top) 0%,
+			var(--card-surface-bottom) 100%
+		);
+		border: 1px solid var(--card-border-accent);
 		border-radius: 14px;
 		text-decoration: none;
+		box-shadow: var(--card-shadow-soft), var(--card-highlight);
 		transition:
 			transform 220ms var(--ease-out),
 			border-color 220ms var(--ease-out),
@@ -1007,8 +1020,11 @@
 
 	.intro-link:hover {
 		transform: translateY(-3px);
-		border-color: rgba(45, 212, 191, 0.38);
-		box-shadow: 0 0 28px rgba(45, 212, 191, 0.12);
+		border-color: var(--card-border-accent-strong);
+		box-shadow:
+			var(--card-shadow-strong),
+			0 0 28px color-mix(in srgb, var(--primary) 16%, transparent),
+			var(--card-highlight);
 	}
 
 	.intro-link-title {
@@ -1711,12 +1727,17 @@
 	.type-guide-block {
 		margin-top: 2.5rem;
 		padding: 1.5rem;
-		background: linear-gradient(180deg, rgba(12, 10, 9, 0.92) 0%, rgba(28, 25, 23, 0.92) 100%);
-		border: 1px solid rgba(45, 212, 191, 0.16);
+		background: linear-gradient(
+			180deg,
+			var(--card-surface-top) 0%,
+			var(--card-surface-bottom) 100%
+		);
+		border: 1px solid var(--card-border-accent);
 		border-radius: 18px;
 		box-shadow:
-			0 0 36px rgba(45, 212, 191, 0.08),
-			inset 0 1px 0 rgba(45, 212, 191, 0.08);
+			var(--card-shadow-soft),
+			0 0 36px color-mix(in srgb, var(--primary) 10%, transparent),
+			var(--card-highlight);
 	}
 
 	.type-guide-header {
@@ -1751,10 +1772,11 @@
 		gap: 0.45rem;
 		min-height: 100%;
 		padding: 1rem;
-		background: color-mix(in srgb, var(--bg-deep) 78%, transparent);
-		border: 1px solid color-mix(in srgb, var(--type-color) 30%, rgba(255, 255, 255, 0.08));
+		background: var(--card-surface-raised);
+		border: 1px solid color-mix(in srgb, var(--type-color) 30%, var(--border-color));
 		border-radius: 14px;
 		text-decoration: none;
+		box-shadow: 0 10px 20px color-mix(in srgb, var(--shadow-color) 42%, transparent);
 		transition:
 			transform 220ms var(--ease-out),
 			border-color 220ms var(--ease-out),
@@ -1763,8 +1785,10 @@
 
 	.type-guide-card:hover {
 		transform: translateY(-3px);
-		border-color: color-mix(in srgb, var(--type-color) 65%, rgba(255, 255, 255, 0.08));
-		box-shadow: 0 0 24px color-mix(in srgb, var(--type-color) 20%, transparent);
+		border-color: color-mix(in srgb, var(--type-color) 65%, var(--border-color));
+		box-shadow:
+			0 14px 28px color-mix(in srgb, var(--shadow-color) 52%, transparent),
+			0 0 24px color-mix(in srgb, var(--type-color) 20%, transparent);
 	}
 
 	.type-guide-eyebrow {
