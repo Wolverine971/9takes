@@ -1,3 +1,5 @@
+<!-- docs/instagram/daily-engagement/2026-04-10_instagram-warmup.md -->
+
 # Instagram Warmup - April 10, 2026
 
 **Date:** 2026-04-10

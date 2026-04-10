@@ -12,7 +12,7 @@
 
 	type Signup = NonNullable<PageData['signups']>[number] & { createdAt: string };
 	type Profile = NonNullable<PageData['profiles']>[number] & { createdAt: string };
-	type SortField = 'last_sign_in_at' | 'email' | 'enneagram' | 'admin';
+	type SortField = 'last_sign_in_at' | 'created_at' | 'email' | 'enneagram' | 'admin';
 
 	// Format data with readable dates
 	let formattedSignups = $derived<Signup[]>(
@@ -74,10 +74,25 @@
 	);
 
 	// Sort profiles by field
+	function getSortValue(profile: Profile, field: SortField): number | string {
+		switch (field) {
+			case 'last_sign_in_at':
+				return profile.last_sign_in_at ? new Date(profile.last_sign_in_at).getTime() : 0;
+			case 'created_at':
+				return profile.created_at ? new Date(profile.created_at).getTime() : 0;
+			case 'email':
+				return profile.email?.toLowerCase() ?? '';
+			case 'enneagram':
+				return profile.enneagram ? Number(profile.enneagram) : 0;
+			case 'admin':
+				return profile.admin ? 1 : 0;
+		}
+	}
+
 	let sortedProfiles = $derived(
 		[...filteredProfiles].sort((a, b) => {
-			const aVal = (a[sortField] ?? '') as string | number | boolean;
-			const bVal = (b[sortField] ?? '') as string | number | boolean;
+			const aVal = getSortValue(a, sortField);
+			const bVal = getSortValue(b, sortField);
 			if (aVal < bVal) return sortDirection === 'asc' ? -1 : 1;
 			if (aVal > bVal) return sortDirection === 'asc' ? 1 : -1;
 			return 0;
@@ -212,6 +227,12 @@
 										<span class="sort-icon">{sortDirection === 'asc' ? '↑' : '↓'}</span>
 									{/if}
 								</th>
+								<th class="sortable" onclick={() => toggleSort('created_at')}>
+									Joined
+									{#if sortField === 'created_at'}
+										<span class="sort-icon">{sortDirection === 'asc' ? '↑' : '↓'}</span>
+									{/if}
+								</th>
 								<th class="sortable" onclick={() => toggleSort('email')}>
 									Email
 									{#if sortField === 'email'}
@@ -241,6 +262,9 @@
 										{profile.last_sign_in_at
 											? new Date(profile.last_sign_in_at).toLocaleDateString()
 											: '—'}
+									</td>
+									<td class="date-cell" data-label="Joined">
+										{profile.createdAt || '—'}
 									</td>
 									<td data-label="Email">
 										<a href="mailto:{profile.email}" class="email-link">{profile.email}</a>

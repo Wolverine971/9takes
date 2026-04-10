@@ -55,8 +55,9 @@ export const famousTypes: { [index: number]: { name: string; link: boolean; hasI
 		{ name: 'tom-hiddleston', link: true, hasImage: true, lastmod: '2026-03-24', personaTitle: 'The Gentleman Behind the Mask', contentGrade: 8.9 },
 		{ name: 'zohran-mamdani', link: true, hasImage: true, lastmod: '2026-02-18', personaTitle: 'New York\'s Devoted Outsider', contentGrade: 8.8 },
 		{ name: 'audrey-hepburn', link: false, hasImage: false, lastmod: '2025-06-25', personaTitle: null, contentGrade: null },
+		{ name: 'bill-clinton', link: false, hasImage: false, lastmod: '2026-04-10', personaTitle: 'Politics\' Devoted Shapeshifter', contentGrade: 8.8 },
 		{ name: 'brené-brown', link: false, hasImage: false, lastmod: '2025-06-25', personaTitle: null, contentGrade: null },
-		{ name: 'hilary-duff', link: false, hasImage: false, lastmod: '2026-04-08', personaTitle: 'America\'s Sweetest Survivor', contentGrade: 8.6 },
+		{ name: 'hilary-duff', link: false, hasImage: false, lastmod: '2026-04-10', personaTitle: 'America\'s Sweetest Survivor', contentGrade: 8.6 },
 		{ name: 'jacinda-ardern', link: false, hasImage: false, lastmod: '2025-06-25', personaTitle: null, contentGrade: null },
 		{ name: 'richard-simmons', link: false, hasImage: false, lastmod: '2025-06-25', personaTitle: null, contentGrade: null },
 		{ name: 'simon-sinek', link: false, hasImage: false, lastmod: '2026-03-28', personaTitle: 'Leadership\'s Loneliest Optimist', contentGrade: null }
@@ -99,7 +100,7 @@ export const famousTypes: { [index: number]: { name: string; link: boolean; hasI
 		{ name: 'keke-palmer', link: true, hasImage: true, lastmod: '2026-02-26', personaTitle: 'Entertainment\'s Self-Made Architect', contentGrade: 8.8 },
 		{ name: 'kim-kardashian', link: true, hasImage: true, lastmod: '2026-02-10', personaTitle: 'Pop Culture\'s Engineered Calm', contentGrade: 8.2 },
 		{ name: 'kris-jenner', link: true, hasImage: true, lastmod: '2026-04-06', personaTitle: 'Hollywood\'s Calculated Matriarch', contentGrade: 8.8 },
-		{ name: 'lana-rhoades', link: false, hasImage: true, lastmod: '2026-04-06', personaTitle: 'The Industry\'s Vanishing Star', contentGrade: 8.7 },
+		{ name: 'lana-rhoades', link: true, hasImage: true, lastmod: '2026-04-10', personaTitle: 'The Industry\'s Vanishing Star', contentGrade: 8.7 },
 		{ name: 'leila-hormozi', link: true, hasImage: true, lastmod: '2026-04-03', personaTitle: 'Business\'s Worthiness Machine', contentGrade: 8.6 },
 		{ name: 'logan-paul', link: true, hasImage: true, lastmod: '2026-02-18', personaTitle: 'The Redemption Entrepreneur', contentGrade: 8 },
 		{ name: 'michael-b-jordan', link: true, hasImage: true, lastmod: '2026-02-15', personaTitle: 'Hollywood\'s Self-Erasing Leading Man', contentGrade: 9 },
@@ -131,12 +132,15 @@ export const famousTypes: { [index: number]: { name: string; link: boolean; hasI
 		{ name: 'james-charles-lifestyle', link: false, hasImage: false, lastmod: '2025-06-25', personaTitle: null, contentGrade: null },
 		{ name: 'jensen-huang', link: false, hasImage: false, lastmod: '2025-06-25', personaTitle: null, contentGrade: null },
 		{ name: 'john-travolta', link: false, hasImage: false, lastmod: '2026-04-06', personaTitle: 'Hollywood\'s Eternal Shapeshifter', contentGrade: 8.9 },
+		{ name: 'jonah-hill', link: false, hasImage: false, lastmod: '2026-04-10', personaTitle: 'Hollywood\'s Perpetual Renovation', contentGrade: 8.6 },
 		{ name: 'josh-richards', link: false, hasImage: false, lastmod: '2025-06-25', personaTitle: null, contentGrade: null },
 		{ name: 'marie-kondo', link: false, hasImage: false, lastmod: '2025-06-25', personaTitle: null, contentGrade: null },
 		{ name: 'michael-le', link: false, hasImage: false, lastmod: '2025-06-25', personaTitle: null, contentGrade: null },
+		{ name: 'nikki-glaser', link: false, hasImage: false, lastmod: '2026-04-11', personaTitle: 'Comedy\'s Rehearsed Confession', contentGrade: 8.6 },
 		{ name: 'patrick-starr', link: false, hasImage: false, lastmod: '2025-06-25', personaTitle: null, contentGrade: null },
 		{ name: 'pelosi-schumer-dynamic', link: false, hasImage: false, lastmod: '2025-06-25', personaTitle: null, contentGrade: null },
 		{ name: 'pete-buttigieg', link: false, hasImage: false, lastmod: '2025-06-25', personaTitle: null, contentGrade: null },
+		{ name: 'piers-morgan', link: false, hasImage: false, lastmod: '2026-04-10', personaTitle: 'Media\'s Relentless Shapeshifter', contentGrade: 8.8 },
 		{ name: 'riyaz-aly', link: false, hasImage: false, lastmod: '2025-06-25', personaTitle: null, contentGrade: null },
 		{ name: 'ted-bundy', link: false, hasImage: false, lastmod: '2025-06-25', personaTitle: null, contentGrade: null },
 		{ name: 'zara-larsson', link: false, hasImage: false, lastmod: '2026-04-03', personaTitle: 'Pop\'s Unfiltered Achiever', contentGrade: 8.6 }
@@ -189,8 +193,9 @@ export const famousTypes: { [index: number]: { name: string; link: boolean; hasI
 		{ name: 'janelle-monae', link: false, hasImage: false, lastmod: '2025-06-25', personaTitle: null, contentGrade: null },
 		{ name: 'john-lennon', link: false, hasImage: false, lastmod: '2026-03-28', personaTitle: 'Rock\'s Wounded Prophet', contentGrade: 9 },
 		{ name: 'jonathan-graff', link: false, hasImage: false, lastmod: '2025-06-25', personaTitle: null, contentGrade: null },
+		{ name: 'megan-fox', link: false, hasImage: false, lastmod: '2026-04-10', personaTitle: 'Hollywood\'s Unseen Exile', contentGrade: 8.6 },
 		{ name: 'oscar-isaac', link: false, hasImage: false, lastmod: '2026-04-06', personaTitle: 'Cinema\'s Grief Alchemist', contentGrade: 8.6 },
-		{ name: 'vincent-van-gogh', link: false, hasImage: false, lastmod: '2025-06-25', personaTitle: null, contentGrade: null }
+		{ name: 'vincent-van-gogh', link: false, hasImage: false, lastmod: '2026-04-10', personaTitle: 'Art\'s Sacred Arsonist', contentGrade: 8.8 }
 	],
 	5: [
 		{ name: 'agatha-christie', link: true, hasImage: true, lastmod: '2025-04-10', personaTitle: 'Mystery\'s Methodical Mind', contentGrade: null },
@@ -217,6 +222,7 @@ export const famousTypes: { [index: number]: { name: string; link: boolean; hasI
 		{ name: 'leonardo-da-vinci', link: false, hasImage: false, lastmod: '2026-03-28', personaTitle: 'History\'s Insatiable Observer', contentGrade: 8.8 },
 		{ name: 'stephen-king', link: false, hasImage: false, lastmod: '2026-04-01', personaTitle: 'The Fortress That Writes Nightmares', contentGrade: 8.8 },
 		{ name: 'tyler-cowen', link: false, hasImage: false, lastmod: '2026-03-27', personaTitle: 'Economics\' Quiet Devourer', contentGrade: 8.9 },
+		{ name: 'warren-buffett', link: false, hasImage: false, lastmod: '2026-04-10', personaTitle: 'Omaha\'s Quiet Fortress', contentGrade: 8.8 },
 		{ name: 'zach-king', link: false, hasImage: false, lastmod: '2025-06-25', personaTitle: null, contentGrade: null }
 	],
 	6: [
@@ -235,7 +241,7 @@ export const famousTypes: { [index: number]: { name: string; link: boolean; hasI
 		{ name: 'kendall-jenner', link: true, hasImage: true, lastmod: '2026-04-01', personaTitle: 'Fashion\'s Quiet Sentinel', contentGrade: 8.8 },
 		{ name: 'marilyn-monroe', link: true, hasImage: true, lastmod: '2026-02-19', personaTitle: 'Hollywood\'s Armored Icon', contentGrade: 9 },
 		{ name: 'mark-twain', link: false, hasImage: true, lastmod: '2026-04-09', personaTitle: 'Literature\'s Counterphobic Prophet', contentGrade: null },
-		{ name: 'olivia-munn', link: false, hasImage: true, lastmod: '2026-04-06', personaTitle: 'Hollywood\'s Counterphobic Sentinel', contentGrade: 9 },
+		{ name: 'olivia-munn', link: true, hasImage: true, lastmod: '2026-04-11', personaTitle: 'Hollywood\'s Counterphobic Sentinel', contentGrade: 9 },
 		{ name: 'pedro-pascal', link: true, hasImage: true, lastmod: '2026-02-17', personaTitle: 'Hollywood\'s Anxious Guardian', contentGrade: 9.4 },
 		{ name: 'peter-thiel', link: true, hasImage: true, lastmod: '2026-03-02', personaTitle: 'Silicon Valley\'s Vigilant Contrarian', contentGrade: 9.7 },
 		{ name: 'pokimane', link: true, hasImage: true, lastmod: '2026-02-19', personaTitle: 'Streaming\'s Fortress Builder', contentGrade: 9 },
@@ -255,7 +261,7 @@ export const famousTypes: { [index: number]: { name: string; link: boolean; hasI
 		{ name: 'jimmy-kimmel', link: false, hasImage: false, lastmod: '2025-06-25', personaTitle: null, contentGrade: null },
 		{ name: 'john-krasinski', link: false, hasImage: false, lastmod: '2025-06-25', personaTitle: null, contentGrade: null },
 		{ name: 'morgan-wallen', link: false, hasImage: false, lastmod: '2026-03-27', personaTitle: 'Nashville\'s Counterphobic Watchdog', contentGrade: 8.8 },
-		{ name: 'nikki-glaser', link: false, hasImage: false, lastmod: '2025-06-25', personaTitle: null, contentGrade: null },
+		{ name: 'ryan-grim', link: false, hasImage: false, lastmod: '2026-04-10', personaTitle: 'Media\'s Loyal Insurgent', contentGrade: 8.7 },
 		{ name: 'volodymyr-zelensky', link: false, hasImage: false, lastmod: '2025-06-25', personaTitle: null, contentGrade: null }
 	],
 	7: [
@@ -285,7 +291,7 @@ export const famousTypes: { [index: number]: { name: string; link: boolean; hasI
 		{ name: 'kate-hudson', link: false, hasImage: true, lastmod: '2026-04-06', personaTitle: 'Hollywood\'s Radiant Fugitive', contentGrade: 8.8 },
 		{ name: 'katy-perry', link: true, hasImage: true, lastmod: '2026-04-01', personaTitle: 'Pop\'s Restless Escape Artist', contentGrade: 8.8 },
 		{ name: 'kevin-hart', link: true, hasImage: true, lastmod: '2026-02-19', personaTitle: 'Comedy\'s Restless Engine', contentGrade: 8.7 },
-		{ name: 'kyle-forgeard', link: false, hasImage: true, lastmod: '2026-04-06', personaTitle: 'Content\'s Restless Empire Builder', contentGrade: 8.6 },
+		{ name: 'kyle-forgeard', link: true, hasImage: true, lastmod: '2026-04-10', personaTitle: 'Content\'s Restless Empire Builder', contentGrade: 8.6 },
 		{ name: 'leonardo-dicaprio', link: true, hasImage: true, lastmod: '2026-02-17', personaTitle: 'Hollywood\'s Restless Escape Artist', contentGrade: 9 },
 		{ name: 'marcello-hernandez', link: true, hasImage: true, lastmod: '2026-03-21', personaTitle: 'SNL\'s Joyful Parachute', contentGrade: 8.5 },
 		{ name: 'palmer-luckey', link: true, hasImage: true, lastmod: '2026-02-20', personaTitle: 'Middle Earth\'s Arms Dealer', contentGrade: 9 },
@@ -300,6 +306,7 @@ export const famousTypes: { [index: number]: { name: string; link: boolean; hasI
 		{ name: 'tim-dillon', link: true, hasImage: true, lastmod: '2026-04-06', personaTitle: 'Comedy\'s Panic Prophet', contentGrade: 8.8 },
 		{ name: 'tom-holland', link: true, hasImage: true, lastmod: '2026-03-01', personaTitle: 'Hollywood\'s Armored Enthusiast', contentGrade: 8.9 },
 		{ name: 'xqc', link: true, hasImage: true, lastmod: '2026-02-23', personaTitle: 'Streaming\'s Doomsday Escape Artist', contentGrade: 9 },
+		{ name: 'channing-tatum', link: false, hasImage: false, lastmod: '2026-04-10', personaTitle: 'Hollywood\'s Restless Performer', contentGrade: 8.5 },
 		{ name: 'conan-obrien', link: false, hasImage: false, lastmod: '2026-04-08', personaTitle: 'Late Night\'s Restless Alchemist', contentGrade: 8.8 },
 		{ name: 'corinna-kopf', link: false, hasImage: false, lastmod: '2026-04-09', personaTitle: 'The Internet\'s Restless Escape Artist', contentGrade: 8.8 },
 		{ name: 'florence-pugh', link: false, hasImage: false, lastmod: '2025-06-25', personaTitle: null, contentGrade: null },
@@ -309,7 +316,7 @@ export const famousTypes: { [index: number]: { name: string; link: boolean; hasI
 		{ name: 'lele-pons', link: false, hasImage: false, lastmod: '2025-06-25', personaTitle: null, contentGrade: null },
 		{ name: 'marie-antoinette', link: false, hasImage: false, lastmod: '2025-06-25', personaTitle: null, contentGrade: null },
 		{ name: 'markiplier', link: false, hasImage: false, lastmod: '2026-03-28', personaTitle: 'YouTube\'s Loudest Mourner', contentGrade: 8.9 },
-		{ name: 'mike-majlak', link: false, hasImage: false, lastmod: '2026-04-06', personaTitle: 'Recovery\'s Restless Evangelist', contentGrade: 8.7 },
+		{ name: 'mike-majlak', link: false, hasImage: false, lastmod: '2026-04-10', personaTitle: 'Recovery\'s Restless Evangelist', contentGrade: 8.7 },
 		{ name: 'spencer-x', link: false, hasImage: false, lastmod: '2025-06-25', personaTitle: null, contentGrade: null },
 		{ name: 'steve-irwin', link: false, hasImage: false, lastmod: '2025-06-25', personaTitle: null, contentGrade: null },
 		{ name: 'tana-mongeau', link: false, hasImage: false, lastmod: '2025-06-25', personaTitle: null, contentGrade: null }
@@ -358,6 +365,7 @@ export const famousTypes: { [index: number]: { name: string; link: boolean; hasI
 		{ name: 'katharine-hepburn', link: false, hasImage: false, lastmod: '2025-06-25', personaTitle: null, contentGrade: null },
 		{ name: 'lisa-koshy', link: false, hasImage: false, lastmod: '2025-06-25', personaTitle: null, contentGrade: null },
 		{ name: 'lizzo', link: false, hasImage: false, lastmod: '2025-06-25', personaTitle: null, contentGrade: null },
+		{ name: 'nicki-minaj', link: false, hasImage: false, lastmod: '2026-04-10', personaTitle: 'Rap\'s Armored Queen', contentGrade: 8.6 },
 		{ name: 'sean-connery', link: false, hasImage: false, lastmod: '2025-06-25', personaTitle: null, contentGrade: null },
 		{ name: 'sean-penn', link: false, hasImage: false, lastmod: '2025-06-25', personaTitle: null, contentGrade: null }
 	],
@@ -370,7 +378,7 @@ export const famousTypes: { [index: number]: { name: string; link: boolean; hasI
 		{ name: 'charli-d\'amelio', link: true, hasImage: true, lastmod: '2026-02-18', personaTitle: 'TikTok\'s Vanishing Center', contentGrade: 8.9 },
 		{ name: 'dave-chappelle', link: true, hasImage: true, lastmod: '2026-02-20', personaTitle: 'Comedy\'s Reluctant Lion', contentGrade: 9 },
 		{ name: 'jelly-roll', link: true, hasImage: true, lastmod: '2026-03-03', personaTitle: 'Nashville\'s Reluctant Giant', contentGrade: 8.8 },
-		{ name: 'keanu-reeves', link: true, hasImage: true, lastmod: '2026-03-24', personaTitle: 'Hollywood\'s Gentle Vanishing Act', contentGrade: 8.9 },
+		{ name: 'keanu-reeves', link: true, hasImage: true, lastmod: '2026-04-10', personaTitle: 'Hollywood\'s Gentle Vanishing Act', contentGrade: 8.9 },
 		{ name: 'kylie-jenner', link: true, hasImage: true, lastmod: '2026-04-03', personaTitle: 'America\'s Most Visible Ghost', contentGrade: 9 },
 		{ name: 'matthew-mcconaughey', link: true, hasImage: true, lastmod: '2026-02-19', personaTitle: 'Hollywood\'s Wide-Awake Philosopher', contentGrade: 8.7 },
 		{ name: 'mikey-madison', link: true, hasImage: true, lastmod: '2026-04-03', personaTitle: 'The Shy Girl\'s Vanishing Act', contentGrade: 9.2 },
@@ -390,10 +398,12 @@ export const famousTypes: { [index: number]: { name: string; link: boolean; hasI
 		{ name: 'ed-sheeran', link: false, hasImage: false, lastmod: '2026-04-10', personaTitle: 'Pop\'s Invisible Stadium-Filler', contentGrade: 8.8 },
 		{ name: 'jennifer-aniston', link: false, hasImage: false, lastmod: '2026-03-28', personaTitle: 'America\'s Beloved Vanishing Act', contentGrade: 8.8 },
 		{ name: 'khaby-lame', link: false, hasImage: false, lastmod: '2025-06-25', personaTitle: null, contentGrade: null },
-		{ name: 'lionel-messi', link: false, hasImage: false, lastmod: '2025-06-25', personaTitle: null, contentGrade: null },
+		{ name: 'lionel-messi', link: false, hasImage: false, lastmod: '2026-04-10', personaTitle: 'Football\'s Quiet Volcano', contentGrade: 9 },
 		{ name: 'rachel-mcadams', link: false, hasImage: false, lastmod: '2026-04-03', personaTitle: 'Hollywood\'s Deliberate Ghost', contentGrade: 8.9 },
 		{ name: 'robert-f-kennedy-jr', link: false, hasImage: false, lastmod: '2025-06-25', personaTitle: null, contentGrade: null },
 		{ name: 'ron-desantis', link: false, hasImage: false, lastmod: '2025-06-25', personaTitle: null, contentGrade: null },
+		{ name: 'seth-rogen', link: false, hasImage: false, lastmod: '2026-04-10', personaTitle: 'Comedy\'s Easygoing Empire Builder', contentGrade: 8.6 },
+		{ name: 'shailene-woodley', link: false, hasImage: false, lastmod: '2026-04-11', personaTitle: 'Hollywood\'s Barefoot Vanishing Act', contentGrade: 8.9 },
 		{ name: 'shawn-mendes', link: false, hasImage: false, lastmod: '2025-06-25', personaTitle: null, contentGrade: null },
 		{ name: 'steve-carell', link: false, hasImage: false, lastmod: '2026-04-08', personaTitle: 'Comedy\'s Invisible Lead', contentGrade: 9.1 }
 	]
