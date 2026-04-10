@@ -19,25 +19,45 @@ export async function ensureRecaptchaLoaded(): Promise<void> {
 		const existingScript = document.getElementById(RECAPTCHA_SCRIPT_ID) as HTMLScriptElement | null;
 
 		if (existingScript) {
-			existingScript.addEventListener('load', () => resolve(), { once: true });
-			existingScript.addEventListener(
-				'error',
-				() => {
-					recaptchaScriptPromise = null;
-					reject(new Error('Failed to load reCAPTCHA'));
-				},
-				{ once: true }
-			);
-			return;
+			// If a previous attempt failed or finished without exposing grecaptcha, recreate the tag.
+			if (existingScript.dataset.loadState !== 'loading') {
+				existingScript.remove();
+			} else {
+				existingScript.addEventListener(
+					'load',
+					() => {
+						existingScript.dataset.loadState = 'loaded';
+						resolve();
+					},
+					{ once: true }
+				);
+				existingScript.addEventListener(
+					'error',
+					() => {
+						existingScript.dataset.loadState = 'error';
+						existingScript.remove();
+						recaptchaScriptPromise = null;
+						reject(new Error('Failed to load reCAPTCHA'));
+					},
+					{ once: true }
+				);
+				return;
+			}
 		}
 
 		const script = document.createElement('script');
 		script.id = RECAPTCHA_SCRIPT_ID;
+		script.dataset.loadState = 'loading';
 		script.src = 'https://www.google.com/recaptcha/api.js';
 		script.async = true;
 		script.defer = true;
-		script.onload = () => resolve();
+		script.onload = () => {
+			script.dataset.loadState = 'loaded';
+			resolve();
+		};
 		script.onerror = () => {
+			script.dataset.loadState = 'error';
+			script.remove();
 			recaptchaScriptPromise = null;
 			reject(new Error('Failed to load reCAPTCHA'));
 		};

@@ -62,4 +62,26 @@ describe('recaptchaClient', () => {
 	it('treats an already-loaded grecaptcha instance as ready', async () => {
 		await expect(ensureRecaptchaLoaded()).resolves.toBeUndefined();
 	});
+
+	it('retries with a fresh script tag after a load error', async () => {
+		// Simulate a not-yet-loaded global and trigger script loading.
+		// @ts-expect-error test override
+		window.grecaptcha = undefined;
+
+		const firstLoad = ensureRecaptchaLoaded();
+		const firstScript = document.getElementById('recaptcha-script') as HTMLScriptElement | null;
+		expect(firstScript).not.toBeNull();
+
+		firstScript?.dispatchEvent(new Event('error'));
+		await expect(firstLoad).rejects.toThrow('Failed to load reCAPTCHA');
+		expect(document.getElementById('recaptcha-script')).toBeNull();
+
+		const secondLoad = ensureRecaptchaLoaded();
+		const secondScript = document.getElementById('recaptcha-script') as HTMLScriptElement | null;
+		expect(secondScript).not.toBeNull();
+		expect(secondScript).not.toBe(firstScript);
+
+		secondScript?.dispatchEvent(new Event('load'));
+		await expect(secondLoad).resolves.toBeUndefined();
+	});
 });

@@ -1,24 +1,11 @@
 {
-	"lastUpdated": "2026-04-09T12:00:00Z",
+	"lastUpdated": "2026-04-10T06:40:25Z",
 	"stats": {
-		"totalUnpublished": 87,
+		"totalUnpublished": 94,
 		"totalPublished": 265,
-		"completionRate": "75.3%"
+		"completionRate": "73.8%"
 	},
 	"queue": [
-		{
-			"name": "nicki-minaj",
-			"displayName": "Nicki Minaj",
-			"type": 8,
-			"priority": 95,
-			"priorityReason": "Massive audience, always trending, strong Type 8 energy, huge Gen Z/millennial crossover",
-			"estimatedTraffic": "very-high",
-			"searchVolume": "very-high",
-			"personaTitle": null,
-			"addedToQueue": "2026-04-03",
-			"retryCount": 0,
-			"strategicValue": "contemporary-music-cluster"
-		},
 		{
 			"name": "sza",
 			"displayName": "SZA",
@@ -317,9 +304,111 @@
 			"addedToQueue": "2026-04-03",
 			"retryCount": 0,
 			"strategicValue": "hollywood-royalty-cluster"
+		},
+		{
+			"name": "greta-gerwig",
+			"displayName": "Greta Gerwig",
+			"type": 8,
+			"priority": 71,
+			"priorityReason": "Director-auteur with major name recognition, Barbie halo, and strong analysis angle around creative power",
+			"estimatedTraffic": "high",
+			"searchVolume": "high",
+			"personaTitle": null,
+			"addedToQueue": "2026-04-10",
+			"retryCount": 0,
+			"strategicValue": "director-auteur-cluster"
+		},
+		{
+			"name": "tate-mcrae",
+			"displayName": "Tate McRae",
+			"type": 3,
+			"priority": 70,
+			"priorityReason": "Fast-rising Gen Z pop star, strong current momentum, and clear Type 3 performance angle",
+			"estimatedTraffic": "high",
+			"searchVolume": "high",
+			"personaTitle": null,
+			"addedToQueue": "2026-04-10",
+			"retryCount": 0,
+			"strategicValue": "gen-z-pop-cluster"
+		},
+		{
+			"name": "ayo-edebiri",
+			"displayName": "Ayo Edebiri",
+			"type": 7,
+			"priority": 69,
+			"priorityReason": "Breakout actor-writer-director with critical heat, comedy range, and strong cultural relevance",
+			"estimatedTraffic": "high",
+			"searchVolume": "high",
+			"personaTitle": null,
+			"addedToQueue": "2026-04-10",
+			"retryCount": 0,
+			"strategicValue": "hollywood-rising-star-cluster"
+		},
+		{
+			"name": "anna-wintour",
+			"displayName": "Anna Wintour",
+			"type": 1,
+			"priority": 68,
+			"priorityReason": "Fashion power broker, iconic public persona, and strong perfectionist analysis potential",
+			"estimatedTraffic": "high",
+			"searchVolume": "high",
+			"personaTitle": null,
+			"addedToQueue": "2026-04-10",
+			"retryCount": 0,
+			"strategicValue": "fashion-power-cluster"
+		},
+		{
+			"name": "andrew-garfield",
+			"displayName": "Andrew Garfield",
+			"type": 9,
+			"priority": 67,
+			"priorityReason": "Mainstream star with broad appeal, introspective persona, and strong fit for the Type 9 gap",
+			"estimatedTraffic": "high",
+			"searchVolume": "high",
+			"personaTitle": null,
+			"addedToQueue": "2026-04-10",
+			"retryCount": 0,
+			"strategicValue": "hollywood-heartthrob-cluster"
+		},
+		{
+			"name": "gracie-abrams",
+			"displayName": "Gracie Abrams",
+			"type": 4,
+			"priority": 66,
+			"priorityReason": "Gen Z singer-songwriter with strong audience overlap and a clean introspective Type 4 angle",
+			"estimatedTraffic": "high",
+			"searchVolume": "high",
+			"personaTitle": null,
+			"addedToQueue": "2026-04-10",
+			"retryCount": 0,
+			"strategicValue": "gen-z-pop-cluster"
+		},
+		{
+			"name": "jony-ive",
+			"displayName": "Jony Ive",
+			"type": 5,
+			"priority": 65,
+			"priorityReason": "Major Apple design figure who deepens the tech cluster and fills the quieter Type 5 lane",
+			"estimatedTraffic": "medium",
+			"searchVolume": "medium",
+			"personaTitle": null,
+			"addedToQueue": "2026-04-10",
+			"retryCount": 0,
+			"strategicValue": "tech-design-cluster"
 		}
 	],
 	"completed": [
+		{
+			"name": "nicki-minaj",
+			"displayName": "Nicki Minaj",
+			"type": 8,
+			"priority": 95,
+			"completedAt": "2026-04-10T02:30:00Z",
+			"contentGrade": 8.6,
+			"letterGrade": "B+",
+			"duration": 25,
+			"needsReview": false
+		},
 		{
 			"name": "gordon-ramsay",
 			"displayName": "Gordon Ramsay",
