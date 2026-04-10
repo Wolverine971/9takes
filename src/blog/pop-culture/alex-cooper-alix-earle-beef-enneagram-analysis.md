@@ -12,7 +12,7 @@ published: false
 type: ['situational']
 blog: true
 previewHtml: ''
-pic: ''
+pic: 'alex-cooper-alix-earle-beef-enneagram-analysis-composite'
 picGroup:
   - image: '/types/7s/Alex-Cooper.webp'
     text: 'Alex Cooper'

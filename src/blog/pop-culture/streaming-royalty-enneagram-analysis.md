@@ -12,7 +12,7 @@ published: false
 type: ['situational']
 blog: true
 previewHtml: ''
-pic: ''
+pic: 'streaming-royalty-enneagram-analysis-composite'
 picGroup:
   - image: '/types/8s/Mr-Beast.webp'
     text: 'MrBeast'

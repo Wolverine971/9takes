@@ -12,7 +12,7 @@ published: false
 type: ['situational']
 blog: true
 previewHtml: ''
-pic: ''
+pic: 'pop-queens-enneagram-analysis-composite'
 picGroup:
   - image: '/types/8s/Chappell-Roan.webp'
     text: 'Chappell Roan'

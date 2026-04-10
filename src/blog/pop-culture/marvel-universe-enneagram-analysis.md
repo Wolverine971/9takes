@@ -12,7 +12,7 @@ published: false
 type: ['situational']
 blog: true
 previewHtml: ''
-pic: ''
+pic: 'marvel-universe-enneagram-analysis-composite'
 mjPrompt: 'Four greek marble statues posed like a blockbuster hero ensemble on a cinematic soundstage, one charismatic figure leaning forward with playful swagger, one youthful figure mid-motion, one calm poised woman centered in quiet control, one rugged showman in shadow, faces full of charisma and resolve, marble white with gold highlights and electric blue rim light, superhero group portrait, Unreal Engine, Cinematic, Color Grading, portrait Photography, Shot on 35mm lens, Ultra-Wide Angle, Depth of Field, hyper-detailed, beautifully color-coded, insane details, intricate details, beautifully color graded, 32k, Super-Resolution, Megapixel, Cinematic Lighting, Studio Lighting, Accent Lighting, Global Illumination, Ray Tracing Global Illumination, hypermaximalist, elegant, hyper realistic, super detailed --ar 16:9 --stylize 200 --quality 2 --raw'
 picGroup:
   - image: '/types/7s/Robert-Downey-Jr.webp'

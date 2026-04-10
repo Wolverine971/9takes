@@ -12,7 +12,7 @@ published: false
 type: ['situational']
 blog: true
 previewHtml: ''
-pic: ''
+pic: 'kardashian-family-enneagram-analysis-composite'
 picGroup:
   - image: '/types/3s/Kim-Kardashian.webp'
     text: 'Kim Kardashian'

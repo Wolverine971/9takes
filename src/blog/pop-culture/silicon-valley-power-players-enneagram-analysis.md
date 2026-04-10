@@ -12,7 +12,7 @@ published: false
 type: ['situational']
 blog: true
 previewHtml: ''
-pic: ''
+pic: 'silicon-valley-power-players-enneagram-analysis-composite'
 picGroup:
   - image: '/types/3s/Chamath-Palihapitiya.webp'
     text: 'Chamath Palihapitiya'

@@ -3,16 +3,16 @@ title: 'Comedy Kings: Why the Funniest Men Alive Are Wired Completely Differentl
 meta_title: 'Theo Von, Dave Chappelle, Shane Gillis & More: Comedy Enneagram Types'
 description: 'A Type 7 who runs from pain through humor. A Type 9 who disappeared to find truth. A Type 9 who weaponizes comfort. Why the best comedians process darkness differently.'
 author: 'DJ Wayne'
-date: '2026-03-04'
+date: '2026-04-10'
 loc: 'https://9takes.com/pop-culture/comedy-kings-enneagram-analysis'
-lastmod: '2026-03-04'
+lastmod: '2026-04-10'
 changefreq: 'monthly'
 priority: '0.6'
-published: false
+published: true
 type: ['situational']
 blog: true
 previewHtml: ''
-pic: ''
+pic: 'comedy-kings-enneagram-analysis-composite'
 picGroup:
   - image: '/types/7s/Theo-Von.webp'
     text: 'Theo Von'

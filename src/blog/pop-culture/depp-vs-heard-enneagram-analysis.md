@@ -12,7 +12,7 @@ published: false
 type: ['situational']
 blog: true
 previewHtml: ''
-pic: ''
+pic: 'depp-vs-heard-enneagram-analysis-composite'
 picGroup:
   - image: '/types/4s/Johnny-Depp.webp'
     text: 'Johnny Depp'

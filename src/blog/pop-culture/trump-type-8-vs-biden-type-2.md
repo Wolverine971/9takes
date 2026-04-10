@@ -12,7 +12,7 @@ published: true
 type: ['situational']
 blog: true
 previewHtml: ''
-pic: 'trump-biden-contrast'
+pic: 'trump-type-8-vs-biden-type-2-composite'
 picGroup:
   - image: '/types/3s/Donald-Trump.webp'
     text: 'Donald Trump'

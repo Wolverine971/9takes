@@ -12,7 +12,7 @@ published: false
 type: ['situational']
 blog: true
 previewHtml: ''
-pic: ''
+pic: 'world-leaders-enneagram-personality-dynamics-composite'
 picGroup:
   - image: '/types/3s/Donald-Trump.webp'
     text: 'Donald Trump'

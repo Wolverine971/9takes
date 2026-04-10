@@ -11,8 +11,8 @@
 **Relationship Status:** Warm
 **Audience Quality:** High (therapy-literate, personal stories, low spam)
 **Profile Created:** 2026-04-06
-**Last Reviewed:** 2026-04-07
-**Last Engaged:** 2026-04-06 (PM — commented on lovability post; second Julie like 2026-04-06 evening on lovability comment via unicornshittinrainbow signal chain)
+**Last Reviewed:** 2026-04-10
+**Last Engaged:** 2026-04-06 PM (commented on lovability post — last touchpoint before 3-day deliberate spacing)
 **Source of First Discovery:** Engagement targets list (Tier 2: Psychology, Therapy & Mental Health)
 
 ## Condensed Intel
@@ -49,21 +49,23 @@
 
 ## Relationship History
 
-| Date       | Surface  | Topic                                                                                                                              | Action    | Status    | What We Said / Planned                                                                                                                                                    | Outcome                                                   | Source                             |
-| ---------- | -------- | ---------------------------------------------------------------------------------------------------------------------------------- | --------- | --------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------- | ---------------------------------- |
-| 2026-04-03 | Reel     | What secure attachment is NOT                                                                                                      | Queued    | Commented | "what someone mistakes for secure attachment..." (planned)                                                                                                                | Unknown                                                   | 2026-04-03_instagram-warmup.md     |
-| 2026-04-06 | Carousel | 4 C's of Attachment Styles                                                                                                         | Commented | Posted    | Commented from morning scan                                                                                                                                               | **Julie liked our comment** (18m)                         | 2026-04-06_instagram-warmup.md     |
-| 2026-04-06 | Carousel | Lovability vs partner mistrust                                                                                                     | Commented | Posted    | "the lovability question is quieter but it runs deeper. you can change partners and the same doubt follows you because it was never about them" (Option 3 from PM drafts) | unicornshittinrainbow liked our comment 19h after posting | 2026-04-06_instagram-replies-pm.md |
-| 2026-04-07 | Carousel | Be careful not to let your anxious attachment tell you avoidant attachment is the whole story (anxious vs avoidant accountability) | Queued    | Pending   | Today's queue — middle-path angle that doesn't defend either side; name the moralizing trap inside anxious-attachment self-righteousness                                  | Pending — fresh post (1h at scan), 308 likes              | 2026-04-07_instagram-warmup.md     |
+| Date       | Surface  | Topic                                                                                                                              | Action    | Status    | What We Said / Planned                                                                                                                                                                                                        | Outcome                                                   | Source                             |
+| ---------- | -------- | ---------------------------------------------------------------------------------------------------------------------------------- | --------- | --------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------- | ---------------------------------- |
+| 2026-04-03 | Reel     | What secure attachment is NOT                                                                                                      | Queued    | Commented | "what someone mistakes for secure attachment..." (planned)                                                                                                                                                                    | Unknown                                                   | 2026-04-03_instagram-warmup.md     |
+| 2026-04-06 | Carousel | 4 C's of Attachment Styles                                                                                                         | Commented | Posted    | Commented from morning scan                                                                                                                                                                                                   | **Julie liked our comment** (18m)                         | 2026-04-06_instagram-warmup.md     |
+| 2026-04-06 | Carousel | Lovability vs partner mistrust                                                                                                     | Commented | Posted    | "the lovability question is quieter but it runs deeper. you can change partners and the same doubt follows you because it was never about them" (Option 3 from PM drafts)                                                     | unicornshittinrainbow liked our comment 19h after posting | 2026-04-06_instagram-replies-pm.md |
+| 2026-04-07 | Carousel | Be careful not to let your anxious attachment tell you avoidant attachment is the whole story (anxious vs avoidant accountability) | Queued    | Pending   | Today's queue — middle-path angle that doesn't defend either side; name the moralizing trap inside anxious-attachment self-righteousness                                                                                      | Pending — fresh post (1h at scan), 308 likes              | 2026-04-07_instagram-warmup.md     |
+| 2026-04-10 | Reel     | Shame disguised as perfectionism/criticism (collab with @thesecurelovepod — Season 2 Session 16)                                   | Queued    | Pending   | 6h old, 45 likes, 2 comments on 1.3M account. Angle: criticism as pre-emptive strike against being caught imperfect — the defense feels like reality. Level 0. 3 days of natural spacing since last engagement = safe timing. | Pending                                                   | 2026-04-10_instagram-warmup-pm.md  |
 
 ## Open Loops
 
-- We are now at 3 touchpoints in 4 days (4/3, 4/6 morning + PM, 4/7). Need to be careful — relationship is warming but a 4th comment in 5 days risks looking try-hard. Make today's reply count.
-- Lovability comment landed externally (unicornshittinrainbow like) — comment is doing organic discovery work
-- Pending: see if Julie replies to either Apr 6 or Apr 7 comment — that would open a real conversation thread
+- 3-day deliberate spacing period is over (Apr 6 PM → Apr 10). Safe to re-engage.
+- Julie liked our "genuine apology" comment (4d ago) — third Julie engagement in a week. Relationship is solidly Warm.
+- New shame/perfectionism post (6h) is the strongest Level 0 opportunity since the 4 C's post.
+- Still unknown whether Apr 7 anxious-vs-avoidant comment was actually posted.
 
 ## Next Best Angles
 
-- Lovability post: the distinction between mistrusting the partner and mistrusting yourself — both pull back but need completely different things
-- Future: the "missed bid for connection" angle — how missing bids accumulates silently until someone "suddenly" shuts down
-- The role of childhood in what your nervous system registers as "positive" vs "dangerous" in relationships
+- **Today (priority):** Criticism as a pre-emptive strike against shame — the person is making the world "right" enough that the shame has no hook. Or: the critical person genuinely believes they're helping — the shame is so deep the defense feels like reality.
+- **Future:** The "missed bid for connection" angle — how missing bids accumulates silently until someone "suddenly" shuts down
+- **Future:** The role of childhood in what your nervous system registers as "positive" vs "dangerous" in relationships

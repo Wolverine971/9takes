@@ -12,7 +12,7 @@ published: false
 type: ['situational']
 blog: true
 previewHtml: ''
-pic: ''
+pic: 'royal-family-enneagram-analysis-composite'
 picGroup:
   - image: '/types/2s/Princess-Diana.webp'
     text: 'Princess Diana'

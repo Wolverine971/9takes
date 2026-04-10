@@ -256,19 +256,19 @@ DJ Wayne
 
 ## Fan Account Targets
 
-| Platform | Account/Community | Followers/Members | Approach |
-|----------|------------------|-------------------|----------|
-| Reddit | r/Enneagram | ~300K | Type 8 integration case study — Bezos vs Kalanick |
-| Reddit | r/startups | 2M | Founder psychology angle — personality integration |
-| Reddit | r/technology | 15M+ | "Disruption isn't strategy, it's personality type" |
-| Reddit | r/Entrepreneur | 5.1M | Same intensity, different outcomes — founder lesson |
-| Reddit | r/elonmusk | 2M | Type 5 decoding pattern — when it works vs fails |
-| X | @packyM (Packy McCormick) | 221K | Tag in thread — founder mythology angle |
-| X | @polina_marinova (The Profile) | 100K+ | Tag in thread — personality profiling angle |
-| X | @eric_newcomer | 80K | Tag on Kalanick section specifically |
-| X | @msuster (Mark Suster) | 180K | Tag — Type 8 founder as asset and liability |
-| X | @ShaanVP (Shaan Puri) | 500K | Tag — "Type 8 vs Type 5 management styles" |
-| X | @ByrneHobart (The Diff) | — | Tag on Musk Type 5 moat-building insight |
+| Platform | Account/Community              | Followers/Members | Approach                                            |
+| -------- | ------------------------------ | ----------------- | --------------------------------------------------- |
+| Reddit   | r/Enneagram                    | ~300K             | Type 8 integration case study — Bezos vs Kalanick   |
+| Reddit   | r/startups                     | 2M                | Founder psychology angle — personality integration  |
+| Reddit   | r/technology                   | 15M+              | "Disruption isn't strategy, it's personality type"  |
+| Reddit   | r/Entrepreneur                 | 5.1M              | Same intensity, different outcomes — founder lesson |
+| Reddit   | r/elonmusk                     | 2M                | Type 5 decoding pattern — when it works vs fails    |
+| X        | @packyM (Packy McCormick)      | 221K              | Tag in thread — founder mythology angle             |
+| X        | @polina_marinova (The Profile) | 100K+             | Tag in thread — personality profiling angle         |
+| X        | @eric_newcomer                 | 80K               | Tag on Kalanick section specifically                |
+| X        | @msuster (Mark Suster)         | 180K              | Tag — Type 8 founder as asset and liability         |
+| X        | @ShaanVP (Shaan Puri)          | 500K              | Tag — "Type 8 vs Type 5 management styles"          |
+| X        | @ByrneHobart (The Diff)        | —                 | Tag on Musk Type 5 moat-building insight            |
 
 ---
 

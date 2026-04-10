@@ -9,7 +9,7 @@
 **Tier:** 1
 **Relationship Status:** Active
 **Profile Created:** 2026-04-06
-**Last Reviewed:** 2026-04-07
+**Last Reviewed:** 2026-04-10
 **Last Engaged:** 2026-04-06 PM (commented on Defense Mechanisms carousel — autopilot frame)
 **Source of First Discovery:** Engagement targets list (Tier 1: Enneagram & Personality)
 
@@ -55,14 +55,16 @@
 | 2026-04-06 | Carousel | Core Fear Beneath Each Type                                                              | Queued    | Commented | Commented from morning scan                                                                                                                                                                                                            | Unknown                                                                 | 2026-04-06_instagram-warmup.md     |
 | 2026-04-06 | Carousel | Defense mechanisms by type                                                               | Commented | Posted    | "the part that gets me is how fast the defense fires faster than awareness. by the time you notice the wall went up it's already done its job. the growth is in building enough lag time to actually choose" (Option 1 from PM drafts) | No like from Jackie yet at 19h; post has 231 likes / 4 comments visible | 2026-04-06_instagram-replies-pm.md |
 | 2026-04-07 | —        | (no new Jackie content since defense mechanisms; pinned workplace-repair post is 5w old) | Reviewed  | Logged    | Skip today — let yesterday's autopilot comment season for Jackie's reply                                                                                                                                                               | N/A                                                                     | 2026-04-07_instagram-warmup.md     |
+| 2026-04-10 | Reel     | Pattern awareness — "You don't change a pattern by trying harder"                        | Queued    | Pending   | 3h old, 8 likes, 0 COMMENTS — first-comment position. Angle: knowing your pattern (free) vs catching it mid-fire (costly); "trying harder" is the pattern wearing a growth costume. FRESH frame — do not reuse autopilot.              | Pending                                                                 | 2026-04-10_instagram-warmup-pm.md  |
 
 ## Open Loops
 
-- Yesterday's autopilot comment is live (231 likes on post, our comment hasn't been liked by Jackie yet at 19h). Give it 24-48h before posting on her next piece.
-- When her next post drops, lead with type-specific vividness (Type 5 or Type 6 defense), since we already used the autopilot meta-frame.
+- New reel (3h old, 0 comments) about pattern awareness is the priority — first-comment slot available NOW
+- Defense mechanisms comment status from Apr 6 PM still unknown (whether Jackie liked it)
+- Need a FRESH angle — we've used "autopilot" on two consecutive posts. This post gives us room for "knowing vs catching" or "trying harder IS the pattern"
 
 ## Next Best Angles
 
-- Defense mechanism as autopilot that runs without your permission — the problem isn't the defense, it's losing the ability to choose
-- Pick Type 5 or Type 6 defense and make it vivid: "Type 6 built a radar so sensitive it picks up threats that aren't there anymore"
-- The gap between recognizing the defense and actually being able to put it down
+- **Today (priority):** Knowing your pattern intellectually is free. Catching it in the act costs everything. The difference is the gap between retrospective understanding and real-time awareness.
+- **Alternative:** "Trying harder" is usually just the pattern wearing a growth costume — Type 1 tries harder at perfection and calls it "self-improvement"
+- **Future:** Pick Type 5 or Type 6 and make the pattern vivid with a specific behavior example

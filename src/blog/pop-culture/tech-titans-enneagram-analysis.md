@@ -12,7 +12,7 @@ published: true
 type: ['situational']
 blog: true
 previewHtml: ''
-pic: ''
+pic: 'tech-titans-enneagram-analysis-composite'
 picGroup:
   - image: '/types/1s/Steve-Jobs.webp'
     text: 'Steve Jobs'

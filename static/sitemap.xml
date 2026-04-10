@@ -756,7 +756,7 @@
   </url>
   <url>
     <loc>https://9takes.com/enneagram-corner/subtopic/situational</loc>
-    <lastmod>2026-04-07</lastmod>
+    <lastmod>2026-04-10</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/enneagram-corner/subtopic/workplace</loc>
@@ -2905,11 +2905,21 @@
   </url>
   <url>
     <loc>https://9takes.com/pop-culture</loc>
-    <lastmod>2026-04-08</lastmod>
+    <lastmod>2026-04-10</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/pop-culture/breaking-points-enneagram-analysis</loc>
     <lastmod>2026-03-23</lastmod>
+    <image:image>
+      <image:loc>https://9takes.com/blogs/breaking-points-enneagram-analysis-composite.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://9takes.com/pop-culture/comedy-kings-enneagram-analysis</loc>
+    <lastmod>2026-04-10</lastmod>
+    <image:image>
+      <image:loc>https://9takes.com/blogs/comedy-kings-enneagram-analysis-composite.webp</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://9takes.com/pop-culture/dark-triad-meets-enneagram</loc>
@@ -2942,6 +2952,9 @@
   <url>
     <loc>https://9takes.com/pop-culture/hollywood-heartthrobs-enneagram-analysis</loc>
     <lastmod>2026-03-27</lastmod>
+    <image:image>
+      <image:loc>https://9takes.com/blogs/hollywood-heartthrobs-enneagram-analysis-composite.webp</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://9takes.com/pop-culture/incel-blackpill-radicalization-enneagram</loc>
@@ -2971,10 +2984,16 @@
   <url>
     <loc>https://9takes.com/pop-culture/podcast-bros-enneagram-analysis</loc>
     <lastmod>2026-04-04</lastmod>
+    <image:image>
+      <image:loc>https://9takes.com/blogs/podcast-bros-enneagram-analysis-composite.webp</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://9takes.com/pop-culture/podcaster-personality-map</loc>
     <lastmod>2026-04-07</lastmod>
+    <image:image>
+      <image:loc>https://9takes.com/blogs/podcaster-personality-map-composite.webp</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://9takes.com/pop-culture/reddit-moderators-type-1-internet</loc>
@@ -2986,24 +3005,36 @@
   <url>
     <loc>https://9takes.com/pop-culture/tech-titans-ai-wars</loc>
     <lastmod>2026-03-28</lastmod>
+    <image:image>
+      <image:loc>https://9takes.com/blogs/tech-titans-ai-wars-composite.webp</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://9takes.com/pop-culture/tech-titans-enneagram-analysis</loc>
     <lastmod>2026-03-21</lastmod>
+    <image:image>
+      <image:loc>https://9takes.com/blogs/tech-titans-enneagram-analysis-composite.webp</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://9takes.com/pop-culture/tech-titans-founders-vs-stewards</loc>
     <lastmod>2026-03-28</lastmod>
+    <image:image>
+      <image:loc>https://9takes.com/blogs/tech-titans-founders-vs-stewards-composite.webp</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://9takes.com/pop-culture/tech-titans-platform-emperors</loc>
     <lastmod>2026-04-07</lastmod>
+    <image:image>
+      <image:loc>https://9takes.com/blogs/tech-titans-platform-emperors-composite.webp</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://9takes.com/pop-culture/trump-type-8-vs-biden-type-2</loc>
     <lastmod>2026-02-26</lastmod>
     <image:image>
-      <image:loc>https://9takes.com/blogs/trump-biden-contrast.webp</image:loc>
+      <image:loc>https://9takes.com/blogs/trump-type-8-vs-biden-type-2-composite.webp</image:loc>
     </image:image>
   </url>
   <url>

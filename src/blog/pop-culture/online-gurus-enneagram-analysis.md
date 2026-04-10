@@ -12,7 +12,7 @@ published: false
 type: ['situational']
 blog: true
 previewHtml: ''
-pic: ''
+pic: 'online-gurus-enneagram-analysis-composite'
 picGroup:
   - image: '/types/3s/Alex-Hormozi.webp'
     text: 'Alex Hormozi'

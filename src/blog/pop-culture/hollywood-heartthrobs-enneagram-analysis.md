@@ -12,7 +12,7 @@ published: true
 type: ['situational']
 blog: true
 previewHtml: ''
-pic: ''
+pic: 'hollywood-heartthrobs-enneagram-analysis-composite'
 picGroup:
   - image: '/types/6s/Pedro-Pascal.webp'
     text: 'Pedro Pascal'

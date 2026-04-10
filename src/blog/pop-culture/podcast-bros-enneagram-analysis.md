@@ -12,7 +12,7 @@ published: true
 type: ['situational']
 blog: true
 previewHtml: ''
-pic: ''
+pic: 'podcast-bros-enneagram-analysis-composite'
 picGroup:
   - image: '/types/8s/Joe-Rogan.webp'
     text: 'Joe Rogan'
