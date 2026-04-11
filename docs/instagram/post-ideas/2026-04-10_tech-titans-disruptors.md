@@ -1,4 +1,5 @@
 <!-- docs/instagram/post-ideas/2026-04-10_tech-titans-disruptors.md -->
+
 # Tech Titans: Disruptors - Instagram Post
 
 > Follow-up to the 03/29 AI Wars post. Same series framing, same 2-slide format.

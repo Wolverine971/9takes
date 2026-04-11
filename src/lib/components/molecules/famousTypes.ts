@@ -131,7 +131,7 @@ export const famousTypes: { [index: number]: { name: string; link: boolean; hasI
 		{ name: 'jackson-wang', link: false, hasImage: false, lastmod: '2025-06-25', personaTitle: null, contentGrade: null },
 		{ name: 'james-charles-lifestyle', link: false, hasImage: false, lastmod: '2025-06-25', personaTitle: null, contentGrade: null },
 		{ name: 'jensen-huang', link: false, hasImage: false, lastmod: '2025-06-25', personaTitle: null, contentGrade: null },
-		{ name: 'john-travolta', link: false, hasImage: false, lastmod: '2026-04-06', personaTitle: 'Hollywood\'s Eternal Shapeshifter', contentGrade: 8.9 },
+		{ name: 'john-travolta', link: true, hasImage: false, lastmod: '2026-04-11', personaTitle: 'Hollywood\'s Eternal Shapeshifter', contentGrade: 8.9 },
 		{ name: 'jonah-hill', link: false, hasImage: false, lastmod: '2026-04-10', personaTitle: 'Hollywood\'s Perpetual Renovation', contentGrade: 8.6 },
 		{ name: 'josh-richards', link: false, hasImage: false, lastmod: '2025-06-25', personaTitle: null, contentGrade: null },
 		{ name: 'marie-kondo', link: false, hasImage: false, lastmod: '2025-06-25', personaTitle: null, contentGrade: null },
@@ -146,7 +146,7 @@ export const famousTypes: { [index: number]: { name: string; link: boolean; hasI
 		{ name: 'zara-larsson', link: false, hasImage: false, lastmod: '2026-04-03', personaTitle: 'Pop\'s Unfiltered Achiever', contentGrade: 8.6 }
 	],
 	4: [
-		{ name: 'adele', link: false, hasImage: true, lastmod: '2026-04-09', personaTitle: 'Music\'s Rawest Nerve', contentGrade: 8.7 },
+		{ name: 'adele', link: true, hasImage: true, lastmod: '2026-04-11', personaTitle: 'Music\'s Rawest Nerve', contentGrade: 8.7 },
 		{ name: 'alex-karp', link: true, hasImage: true, lastmod: '2026-04-03', personaTitle: 'Silicon Valley\'s Ornery Poet', contentGrade: 8.9 },
 		{ name: 'anya-taylor-joy', link: true, hasImage: true, lastmod: '2026-03-21', personaTitle: 'Cinema\'s Beautiful Exile', contentGrade: null },
 		{ name: 'bella-hadid', link: true, hasImage: true, lastmod: '2025-12-21', personaTitle: 'Fashion\'s Erased Daughter', contentGrade: 8.3 },
@@ -349,7 +349,7 @@ export const famousTypes: { [index: number]: { name: string; link: boolean; hasI
 		{ name: 'reed-hastings', link: true, hasImage: true, lastmod: '2026-02-20', personaTitle: 'Entertainment\'s Unapologetic Disruptor', contentGrade: 8.6 },
 		{ name: 'rihanna', link: true, hasImage: true, lastmod: '2026-01-26', personaTitle: 'Pop\'s Unbothered Mogul', contentGrade: 8 },
 		{ name: 'sam-parr', link: true, hasImage: true, lastmod: '2026-03-27', personaTitle: 'Media\'s Brute-Force Builder', contentGrade: 9.1 },
-		{ name: 'samuel-l-jackson', link: false, hasImage: true, lastmod: '2026-04-03', personaTitle: 'Hollywood\'s Armored Thunder', contentGrade: 8.9 },
+		{ name: 'samuel-l-jackson', link: true, hasImage: true, lastmod: '2026-04-11', personaTitle: 'Hollywood\'s Armored Thunder', contentGrade: 8.9 },
 		{ name: 'scott-galloway', link: true, hasImage: true, lastmod: '2026-03-24', personaTitle: 'Academia\'s Tender Brawler', contentGrade: 8.9 },
 		{ name: 'shia-labeouf', link: true, hasImage: true, lastmod: '2026-02-20', personaTitle: 'Hollywood\'s Confessing Arsonist', contentGrade: 8.8 },
 		{ name: 'tom-hardy', link: true, hasImage: true, lastmod: '2026-01-17', personaTitle: 'Cinema\'s Armored Brawler', contentGrade: null },

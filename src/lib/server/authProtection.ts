@@ -40,7 +40,7 @@ const AUTH_FLOW_RULES: Record<AuthFlow, AuthFlowRule> = {
 			ip: 10,
 			identifier: 8
 		},
-		countedOutcomes: ['failed', 'captcha_failed', 'rate_limited']
+		countedOutcomes: ['failed', 'captcha_failed']
 	},
 	register: {
 		windowMs: 60 * 60 * 1000,
@@ -52,7 +52,7 @@ const AUTH_FLOW_RULES: Record<AuthFlow, AuthFlowRule> = {
 			ip: 5,
 			identifier: 3
 		},
-		countedOutcomes: ['success', 'failed', 'captcha_failed', 'rate_limited']
+		countedOutcomes: ['success', 'failed', 'captcha_failed']
 	},
 	forgot_password: {
 		windowMs: 60 * 60 * 1000,
@@ -61,7 +61,7 @@ const AUTH_FLOW_RULES: Record<AuthFlow, AuthFlowRule> = {
 			ip: 5,
 			identifier: 3
 		},
-		countedOutcomes: ['success', 'captcha_failed', 'rate_limited']
+		countedOutcomes: ['success', 'captcha_failed']
 	}
 };
 

@@ -11,7 +11,7 @@
 **Relationship Status:** Prospect
 **Audience Quality:** Medium-High (mix of therapy-literate reflections and "event" keyword spam from his lead-gen CTAs)
 **Profile Created:** 2026-04-06
-**Last Reviewed:** 2026-04-07
+**Last Reviewed:** 2026-04-11
 **Last Engaged:** 2026-04-06 PM (commented on "Trying Harder Without Having Your Needs Met" reel)
 **Source of First Discovery:** Engagement targets list (Tier 2: Psychology, Therapy & Mental Health)
 
@@ -59,10 +59,12 @@
 
 ## Open Loops
 
-- First comment is live but no engagement yet at 20h — watch for organic discovery in next 24-48h
+- First comment (Apr 6 PM) is live — no engagement back. Normal for a 1.4M account.
+- NEW content-first reel (13h) about emotional spiraling — Matthias is out of lead-gen mode. Good time for second engagement.
 - Not currently following — consider following to signal algorithm interest
 
 ## Next Best Angles
 
-- Trying harder vs trying differently — the strategy that worked at 7 becomes the trap at 30
+- **Today (priority):** The spiral feels crazy because you're not reacting to the comment — you're reacting to the childhood alarm the comment tripped. The small comment found the old wire. Or: spiral about the spiraling — "why can't I just let this go?" becomes its own shame loop.
+- Don't repeat the "strategy that used to work" frame from our Apr 6 comment.
 - Why the "pause" he recommends feels dangerous to certain people — their nervous system equates stillness with vulnerability

@@ -4,9 +4,9 @@ meta_title: "John Travolta's Hidden Emptiness: The Man Behind the Charm"
 persona_title: "Hollywood's Eternal Shapeshifter"
 description: "What drives the man who made everyone feel special but described himself as blank? Inside Travolta's psychology of performance, grief, and survival."
 author: 'DJ Wayne'
-date: '2026-04-06'
+date: '2026-04-11'
 loc: 'https://9takes.com/personality-analysis/John-Travolta'
-lastmod: '2026-04-06'
+lastmod: '2026-04-11'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
