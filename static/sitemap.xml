@@ -11,7 +11,7 @@
   </url>
   <url>
     <loc>https://9takes.com/blog</loc>
-    <lastmod>2026-04-11</lastmod>
+    <lastmod>2026-04-12</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/blog/experiment</loc>
@@ -887,7 +887,7 @@
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis</loc>
-    <lastmod>2026-04-11</lastmod>
+    <lastmod>2026-04-12</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/abraham-lincoln</loc>
@@ -1185,7 +1185,7 @@
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/categories</loc>
-    <lastmod>2026-04-11</lastmod>
+    <lastmod>2026-04-12</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/categories/authors-thinkers</loc>
@@ -1201,7 +1201,7 @@
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/categories/film-tv</loc>
-    <lastmod>2026-04-11</lastmod>
+    <lastmod>2026-04-12</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/categories/music</loc>
@@ -1213,7 +1213,7 @@
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/categories/tech-business</loc>
-    <lastmod>2026-04-10</lastmod>
+    <lastmod>2026-04-12</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/chamath-palihapitiya</loc>
@@ -1839,6 +1839,13 @@
     </image:image>
   </url>
   <url>
+    <loc>https://9takes.com/personality-analysis/jon-bernthal</loc>
+    <lastmod>2026-04-12</lastmod>
+    <image:image>
+      <image:loc>https://9takes.com/types/8s/Jon-Bernthal.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
     <loc>https://9takes.com/personality-analysis/jon-stewart</loc>
     <lastmod>2026-03-03</lastmod>
     <image:image>
@@ -1913,6 +1920,13 @@
     <lastmod>2026-04-03</lastmod>
     <image:image>
       <image:loc>https://9takes.com/types/8s/Kara-Swisher.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://9takes.com/personality-analysis/kate-hudson</loc>
+    <lastmod>2026-04-12</lastmod>
+    <image:image>
+      <image:loc>https://9takes.com/types/7s/Kate-Hudson.webp</image:loc>
     </image:image>
   </url>
   <url>
@@ -2406,6 +2420,13 @@
     </image:image>
   </url>
   <url>
+    <loc>https://9takes.com/personality-analysis/rachel-mcadams</loc>
+    <lastmod>2026-04-12</lastmod>
+    <image:image>
+      <image:loc>https://9takes.com/types/9s/rachel-mcadams.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
     <loc>https://9takes.com/personality-analysis/reed-hastings</loc>
     <lastmod>2026-02-20</lastmod>
     <image:image>
@@ -2851,15 +2872,15 @@
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/type/7</loc>
-    <lastmod>2026-04-10</lastmod>
+    <lastmod>2026-04-12</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/type/8</loc>
-    <lastmod>2026-04-11</lastmod>
+    <lastmod>2026-04-12</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/type/9</loc>
-    <lastmod>2026-04-10</lastmod>
+    <lastmod>2026-04-12</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/vladimir-putin</loc>

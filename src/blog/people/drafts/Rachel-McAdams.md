@@ -4,9 +4,9 @@ meta_title: "Why Rachel McAdams Turned Down 5 Blockbusters and Vanished (It Wasn
 persona_title: "Hollywood's Deliberate Ghost"
 description: 'Rachel McAdams turned down Iron Man, Casino Royale, and Devil Wears Prada to protect something most people never notice she was losing.'
 author: 'DJ Wayne'
-date: '2026-04-03'
+date: '2026-04-12'
 loc: 'https://9takes.com/personality-analysis/Rachel-McAdams'
-lastmod: '2026-04-03'
+lastmod: '2026-04-12'
 changefreq: 'monthly'
 priority: '0.6'
 published: false

@@ -1,0 +1,40 @@
+[2026-04-12 02:00:58] [INFO] Starting daily blog creator
+[2026-04-12 02:00:58] [INFO] Checking override.json - pause: false
+[2026-04-12 02:00:58] [INFO] Checking inProgress - null (good)
+[2026-04-12 02:00:58] [INFO] Rate limit: 2/5 this week
+[2026-04-12 02:00:58] [INFO] Selected: sza (Type 4, Priority: 94)
+[2026-04-12 02:00:58] [INFO] Reason: Massive current relevance, SOS album cultural moment, strong Gen Z audience overlap
+[2026-04-12 02:00:58] [INFO] Executing blog_content_creator_people...
+[2026-04-12 02:12:38] [SUCCESS] Draft created: /src/blog/people/drafts/sza.md
+[2026-04-12 02:12:38] [INFO] Content grade: 8.4/10 (B)
+[2026-04-12 02:12:38] [INFO] Updating queue status...
+[2026-04-12 02:13:10] [INFO] Queue updated - SZA moved to completed
+[2026-04-12 02:13:10] [INFO] Rate limit updated: 3/5 this week
+[2026-04-12 02:13:10] [INFO] Next blog in queue: bruno-mars (Type 7, Priority: 93)
+[2026-04-12 02:13:10] [SUCCESS] Daily blog creator complete
+[2026-04-12 02:13:33] [WARN] Notification skipped - no Telegram integration configured
+```
+=== DAILY BLOG CREATOR SUMMARY ===
+Date: 2026-04-12
+Status: SUCCESS
+Blog: SZA (Type 4, Priority 94)
+Grade: 8.4 / B
+Duration: ~30 min
+Rate Limit: 3/5 this week
+Next in queue: Bruno Mars (Type 7, Priority 93)
+Next run: Tomorrow
+===================================
+```
+
+**Pre-flight checks:** All passed (pause=false, inProgress=null, rate limit 2/5 → now 3/5)
+
+**Draft created:** `/src/blog/people/drafts/sza.md`
+
+**Blog summary:**
+- **Core tension:** "The save-yourself gospel, from someone still drowning" — SZA built a career on radical vulnerability while being, by her own account, the anxious, self-loathing person who still needed rescuing
+- **Opening hook:** Her label took away her hard drive in 2017 to force CTRL's release — she couldn't stop reworking it
+- **Key signature details:** (1) CTRL written because she "wanted therapy really bad, and just couldn't get any" (2) Stayed to hug every NPR employee after canceling Tiny Desk (3) "I'm so mad I did that shit" — BBL regret from the artist of self-acceptance
+- **Internal links:** Kendrick Lamar, Adele, Billie Eilish
+- **Grade:** 8.4 (B) — just below B+ threshold; reviewer note added: one collaborator quote would push it over
+
+**Queue updated:** SZA moved to completed, Bruno Mars next in queue.

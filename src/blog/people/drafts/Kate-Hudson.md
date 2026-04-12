@@ -4,9 +4,9 @@ meta_title: 'Why Kate Hudson Hid Her Music for Decades'
 persona_title: "Hollywood's Radiant Fugitive"
 description: 'Kate Hudson built a life of movement, charm, and sunlight around the father wound she never fully stopped trying to outrun.'
 author: 'DJ Wayne'
-date: '2026-04-06'
+date: '2026-04-12'
 loc: 'https://9takes.com/personality-analysis/Kate-Hudson'
-lastmod: '2026-04-06'
+lastmod: '2026-04-12'
 changefreq: 'monthly'
 priority: '0.6'
 published: false

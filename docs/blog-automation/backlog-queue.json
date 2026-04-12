@@ -1,24 +1,11 @@
 {
-	"lastUpdated": "2026-04-10T06:40:25Z",
+	"lastUpdated": "2026-04-12T02:30:00Z",
 	"stats": {
 		"totalUnpublished": 94,
 		"totalPublished": 265,
 		"completionRate": "73.8%"
 	},
 	"queue": [
-		{
-			"name": "sza",
-			"displayName": "SZA",
-			"type": 4,
-			"priority": 94,
-			"priorityReason": "Massive current relevance, SOS album cultural moment, strong Gen Z audience overlap",
-			"estimatedTraffic": "very-high",
-			"searchVolume": "very-high",
-			"personaTitle": null,
-			"addedToQueue": "2026-04-03",
-			"retryCount": 0,
-			"strategicValue": "contemporary-music-cluster"
-		},
 		{
 			"name": "bruno-mars",
 			"displayName": "Bruno Mars",
@@ -398,6 +385,17 @@
 		}
 	],
 	"completed": [
+		{
+			"name": "sza",
+			"displayName": "SZA",
+			"type": 4,
+			"priority": 94,
+			"completedAt": "2026-04-12T02:30:00Z",
+			"contentGrade": 8.4,
+			"letterGrade": "B",
+			"duration": 30,
+			"needsReview": false
+		},
 		{
 			"name": "nicki-minaj",
 			"displayName": "Nicki Minaj",
