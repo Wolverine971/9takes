@@ -4,12 +4,12 @@ meta_title: 'Why Eddie Murphy Disappeared (The Real Reason He Left Hollywood)'
 persona_title: "Comedy's Joyful Recluse"
 description: 'Eddie Murphy made the world laugh then vanished. His Enneagram Type 7 personality reveals why the funniest man alive built a fortress of silence.'
 author: 'DJ Wayne'
-date: '2026-03-27'
+date: '2026-04-12'
 loc: 'https://9takes.com/personality-analysis/Eddie-Murphy'
-lastmod: '2026-03-27'
+lastmod: '2026-04-12'
 changefreq: 'monthly'
 priority: '0.6'
-published: false
+published: true
 enneagram: 7
 type: ['comedian', 'movieStar']
 person: 'Eddie-Murphy'
@@ -20,7 +20,7 @@ content_quality:
   evidence: 9
   writing: 9
   originality: 9
-  overall: 9.0
+  overall: 9
   letter: A
   graded_at: '2026-03-27'
 wikipedia: 'https://en.wikipedia.org/wiki/Eddie_Murphy'

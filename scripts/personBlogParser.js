@@ -755,23 +755,73 @@ function formatPublishCandidateBlockers(candidates, limit = 8) {
 }
 
 /**
+ * @param {string} value
+ * @returns {string}
+ */
+function quoteYamlSingle(value) {
+	return `'${value.replace(/'/g, "''")}'`;
+}
+
+/**
+ * @param {string} text
+ * @returns {string}
+ */
+function escapeRegExp(text) {
+	return text.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+}
+
+/**
+ * @param {string} frontmatter
+ * @param {string} key
+ * @param {string} value
+ * @returns {string}
+ */
+function replaceFrontmatterScalarLine(frontmatter, key, value) {
+	const pattern = new RegExp(`^(${escapeRegExp(key)}\\s*:\\s*).*$`, 'm');
+	if (!pattern.test(frontmatter)) {
+		throw new Error(`Missing frontmatter field: ${key}`);
+	}
+
+	return frontmatter.replace(pattern, `$1${value}`);
+}
+
+/**
+ * Update publish-owned frontmatter fields without re-serializing YAML.
+ * This preserves existing quote style, inline arrays, folded strings, and field order.
+ * @param {string} fileContent
+ * @param {string} publishDate
+ * @returns {string}
+ */
+export function updatePublishFrontmatterContent(fileContent, publishDate) {
+	const frontmatterMatch = fileContent.match(/^(---\r?\n)([\s\S]*?)(\r?\n---)([\s\S]*)$/);
+	if (!frontmatterMatch) {
+		throw new Error('Missing YAML frontmatter block');
+	}
+
+	const [, opening, frontmatterContent, closing, body] = frontmatterMatch;
+	let updatedFrontmatter = replaceFrontmatterScalarLine(
+		frontmatterContent,
+		'date',
+		quoteYamlSingle(publishDate)
+	);
+	updatedFrontmatter = replaceFrontmatterScalarLine(
+		updatedFrontmatter,
+		'lastmod',
+		quoteYamlSingle(publishDate)
+	);
+	updatedFrontmatter = replaceFrontmatterScalarLine(updatedFrontmatter, 'published', 'true');
+
+	return `${opening}${updatedFrontmatter}${closing}${body}`;
+}
+
+/**
  * @param {string} filePath
  * @param {string} publishDate
  * @returns {Promise<void>}
  */
 async function updateDraftFrontmatterForPublish(filePath, publishDate) {
 	const fileContent = await fs.readFile(filePath, 'utf8');
-	const parsed = matter(fileContent);
-	const normalizedPerson = normalizePersonalitySlug(parsed.data.person);
-
-	parsed.data.date = publishDate;
-	parsed.data.lastmod = publishDate;
-	parsed.data.published = true;
-	if (normalizedPerson) {
-		parsed.data.loc = buildPersonalityAnalysisUrl(normalizedPerson);
-	}
-
-	await fs.writeFile(filePath, matter.stringify(parsed.content, parsed.data), 'utf8');
+	await fs.writeFile(filePath, updatePublishFrontmatterContent(fileContent, publishDate), 'utf8');
 }
 
 /**

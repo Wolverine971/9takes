@@ -1,9 +1,9 @@
 {
-	"lastUpdated": "2026-04-12T02:30:00Z",
+	"lastUpdated": "2026-04-12T20:46:19Z",
 	"stats": {
-		"totalUnpublished": 94,
+		"totalUnpublished": 107,
 		"totalPublished": 265,
-		"completionRate": "73.8%"
+		"completionRate": "71.2%"
 	},
 	"queue": [
 		{
@@ -382,6 +382,175 @@
 			"addedToQueue": "2026-04-10",
 			"retryCount": 0,
 			"strategicValue": "tech-design-cluster"
+		},
+		{
+			"name": "keira-knightley",
+			"displayName": "Keira Knightley",
+			"type": 4,
+			"priority": 64,
+			"priorityReason": "Prestige actor with strong name recognition and a clear introspective Type 4 analysis angle",
+			"estimatedTraffic": "high",
+			"searchVolume": "high",
+			"personaTitle": null,
+			"addedToQueue": "2026-04-12",
+			"retryCount": 0,
+			"strategicValue": "hollywood-prestige-cluster"
+		},
+		{
+			"name": "meghan-trainor",
+			"displayName": "Meghan Trainor",
+			"type": 7,
+			"priority": 63,
+			"priorityReason": "Pop star with broad recognition, upbeat public persona, and strong Type 7 entertainment angle",
+			"estimatedTraffic": "high",
+			"searchVolume": "high",
+			"personaTitle": null,
+			"addedToQueue": "2026-04-12",
+			"retryCount": 0,
+			"strategicValue": "contemporary-pop-cluster"
+		},
+		{
+			"name": "hailee-steinfeld",
+			"displayName": "Hailee Steinfeld",
+			"type": 3,
+			"priority": 62,
+			"priorityReason": "Actor-singer with Gen Z reach, franchise visibility, and a strong polished-performance Type 3 angle",
+			"estimatedTraffic": "high",
+			"searchVolume": "high",
+			"personaTitle": null,
+			"addedToQueue": "2026-04-12",
+			"retryCount": 0,
+			"strategicValue": "gen-z-hollywood-pop-cluster"
+		},
+		{
+			"name": "kurt-russell",
+			"displayName": "Kurt Russell",
+			"type": 9,
+			"priority": 61,
+			"priorityReason": "Beloved Hollywood veteran with steady public warmth and a useful Type 9 legacy-actor angle",
+			"estimatedTraffic": "high",
+			"searchVolume": "high",
+			"personaTitle": null,
+			"addedToQueue": "2026-04-12",
+			"retryCount": 0,
+			"strategicValue": "hollywood-legacy-cluster"
+		},
+		{
+			"name": "anna-kendrick",
+			"displayName": "Anna Kendrick",
+			"type": 6,
+			"priority": 60,
+			"priorityReason": "Mainstream actor with sharp comic persona, broad audience appeal, and a clear Type 6 analysis lane",
+			"estimatedTraffic": "high",
+			"searchVolume": "high",
+			"personaTitle": null,
+			"addedToQueue": "2026-04-12",
+			"retryCount": 0,
+			"strategicValue": "hollywood-comedy-cluster"
+		},
+		{
+			"name": "john-goodman",
+			"displayName": "John Goodman",
+			"type": 9,
+			"priority": 59,
+			"priorityReason": "Long-running screen presence, strong public affection, and a grounded Type 9 actor profile",
+			"estimatedTraffic": "high",
+			"searchVolume": "high",
+			"personaTitle": null,
+			"addedToQueue": "2026-04-12",
+			"retryCount": 0,
+			"strategicValue": "hollywood-legacy-cluster"
+		},
+		{
+			"name": "susan-sarandon",
+			"displayName": "Susan Sarandon",
+			"type": 8,
+			"priority": 58,
+			"priorityReason": "Oscar-winning actor and activist with a forceful public persona suited to Type 8 analysis",
+			"estimatedTraffic": "high",
+			"searchVolume": "high",
+			"personaTitle": null,
+			"addedToQueue": "2026-04-12",
+			"retryCount": 0,
+			"strategicValue": "hollywood-activist-cluster"
+		},
+		{
+			"name": "brendan-fraser",
+			"displayName": "Brendan Fraser",
+			"type": 9,
+			"priority": 57,
+			"priorityReason": "Beloved comeback story with high goodwill, awards recognition, and a gentle Type 9 analysis angle",
+			"estimatedTraffic": "high",
+			"searchVolume": "high",
+			"personaTitle": null,
+			"addedToQueue": "2026-04-12",
+			"retryCount": 0,
+			"strategicValue": "hollywood-comeback-cluster"
+		},
+		{
+			"name": "jim-carrey",
+			"displayName": "Jim Carrey",
+			"type": 7,
+			"priority": 56,
+			"priorityReason": "Comedy icon with massive recognition, expressive range, and a strong Type 7 performer analysis angle",
+			"estimatedTraffic": "very-high",
+			"searchVolume": "very-high",
+			"personaTitle": null,
+			"addedToQueue": "2026-04-12",
+			"retryCount": 0,
+			"strategicValue": "comedy-icon-cluster"
+		},
+		{
+			"name": "zac-efron",
+			"displayName": "Zac Efron",
+			"type": 3,
+			"priority": 55,
+			"priorityReason": "Mainstream star with strong search volume, reinvention arc, and a clear Type 3 image-performance angle",
+			"estimatedTraffic": "very-high",
+			"searchVolume": "very-high",
+			"personaTitle": null,
+			"addedToQueue": "2026-04-12",
+			"retryCount": 0,
+			"strategicValue": "hollywood-heartthrob-cluster"
+		},
+		{
+			"name": "jeff-goldblum",
+			"displayName": "Jeff Goldblum",
+			"type": 7,
+			"priority": 54,
+			"priorityReason": "Distinctive cultural figure with quirky curiosity, broad recognition, and a lively Type 7 analysis angle",
+			"estimatedTraffic": "high",
+			"searchVolume": "high",
+			"personaTitle": null,
+			"addedToQueue": "2026-04-12",
+			"retryCount": 0,
+			"strategicValue": "hollywood-eccentric-cluster"
+		},
+		{
+			"name": "steve-martin",
+			"displayName": "Steve Martin",
+			"type": 5,
+			"priority": 53,
+			"priorityReason": "Comedy legend, writer, and musician with an intellectual creative persona suited to Type 5 analysis",
+			"estimatedTraffic": "high",
+			"searchVolume": "high",
+			"personaTitle": null,
+			"addedToQueue": "2026-04-12",
+			"retryCount": 0,
+			"strategicValue": "comedy-icon-cluster"
+		},
+		{
+			"name": "jerry-seinfeld",
+			"displayName": "Jerry Seinfeld",
+			"type": 1,
+			"priority": 52,
+			"priorityReason": "Comedy icon with evergreen search demand, observational precision, and a strong Type 1 perfectionist angle",
+			"estimatedTraffic": "very-high",
+			"searchVolume": "very-high",
+			"personaTitle": null,
+			"addedToQueue": "2026-04-12",
+			"retryCount": 0,
+			"strategicValue": "comedy-icon-cluster"
 		}
 	],
 	"completed": [

@@ -1,0 +1,18 @@
+```
+Published people blog.
+
+Person: Eddie Murphy
+Draft: src/blog/people/drafts/Eddie-Murphy.md
+Date/lastmod: 2026-04-12
+Supabase: published=true (row id: 586)
+Images: full + thumbnail present (static/types/7s/Eddie-Murphy.webp, s-Eddie-Murphy.webp)
+Generated files: pnpm gen:all completed
+
+Blockers:
+- none
+```
+
+**Verification:**
+- Draft frontmatter: `published: true`, `date: 2026-04-12`, `lastmod: 2026-04-12`
+- `famousTypes.ts`: `link: true`, `hasImage: true`, `lastmod: 2026-04-12`
+- `sitemap.xml`: `https://9takes.com/personality-analysis/eddie-murphy` added with lastmod 2026-04-12

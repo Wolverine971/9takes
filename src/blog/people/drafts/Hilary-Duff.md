@@ -4,12 +4,12 @@ meta_title: "Hilary Duff's Hidden Hunger: The Cost of Being Everyone's Favorite"
 persona_title: "America's Sweetest Survivor"
 description: "At 18, Hilary Duff couldn't start a washing machine. She'd been too busy being what everyone needed. Here's the Enneagram Type 2 pattern behind it all."
 author: 'DJ Wayne'
-date: '2026-04-08'
+date: '2026-04-12'
 loc: 'https://9takes.com/personality-analysis/Hilary-Duff'
-lastmod: '2026-04-10'
+lastmod: '2026-04-12'
 changefreq: 'monthly'
 priority: '0.6'
-published: false
+published: true
 enneagram: 2
 type: ['celebrity', 'musician']
 person: 'Hilary-Duff'

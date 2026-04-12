@@ -47,6 +47,7 @@ This command owns the final release step:
   - `static/types/[type]s/[Person].webp`
   - `static/types/[type]s/s-[Person].webp`
 - Set frontmatter `date`, `lastmod`, and `published`
+- Preserve the selected draft's existing frontmatter quote style, inline arrays, field order, and text casing
 - Sync the post to Supabase
 - Set Supabase `published: true`
 - Set Supabase `date`, `lastmod`, and `created_at` to the publish date/time

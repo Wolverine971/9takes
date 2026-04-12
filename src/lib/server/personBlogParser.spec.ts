@@ -12,7 +12,8 @@ import {
 	getPublishImageStatus,
 	parseMarkdownFile,
 	selectPublishCandidate,
-	shouldProcessMarkdownFile
+	shouldProcessMarkdownFile,
+	updatePublishFrontmatterContent
 } from '../../../scripts/personBlogParser.js';
 
 describe('personBlogParser', () => {
@@ -112,6 +113,46 @@ describe('personBlogParser', () => {
 				suggestions: ['Adele']
 			})
 		).toEqual([]);
+	});
+
+	it('updates publish fields without reformatting the rest of the frontmatter', () => {
+		const input = `---
+title: "Hilary Duff's Personality: Why She Can't Stop Giving Herself Away"
+meta_title: "Hilary Duff's Hidden Hunger: The Cost of Being Everyone's Favorite"
+persona_title: "America's Sweetest Survivor"
+description: "At 18, Hilary Duff couldn't start a washing machine. She'd been too busy being what everyone needed. Here's the Enneagram Type 2 pattern behind it all."
+author: 'DJ Wayne'
+date: '2026-04-08'
+loc: 'https://9takes.com/personality-analysis/Hilary-Duff'
+lastmod: '2026-04-10'
+changefreq: 'monthly'
+priority: '0.6'
+published: false
+enneagram: 2
+type: ['celebrity', 'musician']
+person: 'Hilary-Duff'
+suggestions: ['Paris-Hilton', 'Olivia-Rodrigo', 'Sabrina-Carpenter', 'Millie-Bobby-Brown']
+---
+
+Body`;
+
+		const output = updatePublishFrontmatterContent(input, '2026-04-12');
+
+		expect(output).toContain("date: '2026-04-12'");
+		expect(output).toContain("lastmod: '2026-04-12'");
+		expect(output).toContain('published: true');
+		expect(output).toContain('persona_title: "America\'s Sweetest Survivor"');
+		expect(output).toContain("author: 'DJ Wayne'");
+		expect(output).toContain(
+			`description: "At 18, Hilary Duff couldn't start a washing machine. She'd been too busy being what everyone needed. Here's the Enneagram Type 2 pattern behind it all."`
+		);
+		expect(output).toContain("type: ['celebrity', 'musician']");
+		expect(output).toContain(
+			"suggestions: ['Paris-Hilton', 'Olivia-Rodrigo', 'Sabrina-Carpenter', 'Millie-Bobby-Brown']"
+		);
+		expect(output).toContain("loc: 'https://9takes.com/personality-analysis/Hilary-Duff'");
+		expect(output).not.toContain('description: >-');
+		expect(output).not.toContain('author: DJ Wayne');
 	});
 
 	it('detects publishable body shape and unfinished markers', () => {

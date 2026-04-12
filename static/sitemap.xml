@@ -1193,7 +1193,7 @@
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/categories/comedy</loc>
-    <lastmod>2026-04-06</lastmod>
+    <lastmod>2026-04-12</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/categories/creator-media</loc>
@@ -1205,7 +1205,7 @@
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/categories/music</loc>
-    <lastmod>2026-04-11</lastmod>
+    <lastmod>2026-04-12</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/categories/politics-public</loc>
@@ -1433,6 +1433,13 @@
     </image:image>
   </url>
   <url>
+    <loc>https://9takes.com/personality-analysis/eddie-murphy</loc>
+    <lastmod>2026-04-12</lastmod>
+    <image:image>
+      <image:loc>https://9takes.com/types/7s/Eddie-Murphy.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
     <loc>https://9takes.com/personality-analysis/ellen-degeneres</loc>
     <lastmod>2025-03-24</lastmod>
     <image:image>
@@ -1598,6 +1605,13 @@
     <lastmod>2026-02-18</lastmod>
     <image:image>
       <image:loc>https://9takes.com/types/2s/Henry-Cavill.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://9takes.com/personality-analysis/hilary-duff</loc>
+    <lastmod>2026-04-12</lastmod>
+    <image:image>
+      <image:loc>https://9takes.com/types/2s/Hilary-Duff.webp</image:loc>
     </image:image>
   </url>
   <url>
@@ -2852,7 +2866,7 @@
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/type/2</loc>
-    <lastmod>2026-04-09</lastmod>
+    <lastmod>2026-04-12</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/type/3</loc>
