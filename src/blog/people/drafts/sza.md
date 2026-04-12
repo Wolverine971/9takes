@@ -313,5 +313,3 @@ Cleaned up:
 Still open:
 - Collaborator quote (reviewer note in body) — still the one gap in testimony from people around her
 -->
-
-

@@ -3,9 +3,15 @@ import path from 'path';
 import { describe, expect, it } from 'vitest';
 
 import {
+	countPublishableSections,
+	countPublishableWords,
 	extractJsonLd,
 	filterProcessableMarkdownFiles,
+	findUnfinishedDraftMarkers,
+	getMissingPublishFrontmatterFields,
+	getPublishImageStatus,
 	parseMarkdownFile,
+	selectPublishCandidate,
 	shouldProcessMarkdownFile
 } from '../../../scripts/personBlogParser.js';
 
@@ -18,7 +24,7 @@ describe('personBlogParser', () => {
 		expect(parsed.persona_title).toBe("Justice's Incorruptible Fire");
 		expect(parsed.suggestions).toEqual([
 			'martin-luther-king-jr',
-			'muhammad-ali',
+			'abraham-lincoln',
 			'barack-obama',
 			'denzel-washington'
 		]);
@@ -84,5 +90,86 @@ describe('personBlogParser', () => {
 			'@type': 'Article',
 			headline: 'Test'
 		});
+	});
+
+	it('validates publish frontmatter without treating published false as missing', () => {
+		expect(
+			getMissingPublishFrontmatterFields({
+				title: 'Title',
+				meta_title: 'Meta',
+				persona_title: 'Persona',
+				description: 'Description',
+				author: 'DJ Wayne',
+				date: '2026-04-12',
+				loc: 'https://9takes.com/personality-analysis/example',
+				lastmod: '2026-04-12',
+				changefreq: 'monthly',
+				priority: '0.6',
+				published: false,
+				enneagram: 4,
+				type: ['musician'],
+				person: 'Example',
+				suggestions: ['Adele']
+			})
+		).toEqual([]);
+	});
+
+	it('detects publishable body shape and unfinished markers', () => {
+		const content = `
+## One
+This is a real paragraph with actual words.
+
+## Two
+TODO: add source.
+`;
+
+		expect(countPublishableSections(content)).toBe(2);
+		expect(countPublishableWords(content)).toBeGreaterThan(10);
+		expect(findUnfinishedDraftMarkers(content)).toContain('todo_marker');
+	});
+
+	it('requires both full and thumbnail personality images for publish candidates', async () => {
+		const imageStatus = await getPublishImageStatus({
+			person: 'cillian-murphy',
+			enneagram: 5
+		} as any);
+
+		expect(imageStatus.fullPath).toContain('static/types/5s/Cillian-Murphy.webp');
+		expect(imageStatus.thumbnailPath).toContain('static/types/5s/s-Cillian-Murphy.webp');
+		expect(imageStatus.fullExists).toBe(true);
+		expect(imageStatus.thumbnailExists).toBe(true);
+	});
+
+	it('selects the highest-grade unpublished eligible publish candidate', () => {
+		const candidates = [
+			{
+				entry: { person: 'already-live', lastmod: '2026-04-12' },
+				qualityOverall: 10,
+				blockers: []
+			},
+			{
+				entry: { person: 'candidate-a', lastmod: '2026-04-11' },
+				qualityOverall: 8.8,
+				blockers: []
+			},
+			{
+				entry: { person: 'candidate-b', lastmod: '2026-04-10' },
+				qualityOverall: 9.1,
+				blockers: []
+			}
+		] as any[];
+
+		const selected = selectPublishCandidate(
+			candidates,
+			new Map([
+				['already-live', true],
+				['candidate-a', false],
+				['candidate-b', false]
+			]),
+			false
+		);
+
+		expect(selected?.entry.person).toBe('candidate-b');
+		expect(candidates[0].blockers).toContain('already_published');
 	});
 });
