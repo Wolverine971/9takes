@@ -28,6 +28,10 @@ describe('personalityAnalysis helpers', () => {
 		expect(buildPersonalityImagePath(1, 'jordan-peterson', 'thumbnail')).toBe(
 			'/types/1s/s-Jordan-Peterson.webp'
 		);
+		expect(buildPersonalityImagePath(3, 'john-travolta')).toBe('/types/3s/John-Travolta.webp');
+		expect(buildPersonalityImagePath(3, 'john-travolta', 'thumbnail')).toBe(
+			'/types/3s/s-John-Travolta.webp'
+		);
 	});
 
 	it('formats display names using the preserved asset casing when available', () => {

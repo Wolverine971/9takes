@@ -5,7 +5,7 @@
 		"dev": "vite dev",
 		"devTest": "vavite-loader vite dev",
 		"build": "vite build",
-		"build:vercel": "pnpm run gen:sitemap && pnpm run build",
+		"build:vercel": "pnpm run gen:personality-image-map && pnpm run gen:sitemap && pnpm run build",
 		"preview": "vite preview",
 		"prepare": "svelte-kit sync",
 		"test": "playwright test",
