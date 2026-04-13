@@ -1,4 +1,5 @@
 <!-- docs/growth/quora-strategy.md -->
+
 # Quora Strategy — 9takes / DJ Wayne
 
 _Created: 2026-04-13_

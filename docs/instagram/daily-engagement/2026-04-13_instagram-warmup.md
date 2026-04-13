@@ -52,13 +52,13 @@ From Apr 7–12 warmup history — **DRAFTED replies exist for these, not yet po
 
 ## Priority Summary
 
-| #   | Account                | Topic                                          | Age | Comments | Opp Type            | Level | Score | Profile                                                  | Queue  |
-| --- | ---------------------- | ---------------------------------------------- | --- | -------- | ------------------- | ----- | ----- | -------------------------------------------------------- | ------ |
-| 1   | @thesecurerelationship | "What is the anxiety trying to manage?"        | 14h | 5        | Therapy/psychology  | 0     | 125   | docs/instagram/account-profiles/thesecurerelationship.md | Queued |
-| 2   | @enneagrampaths        | Carl thread — Type 3 proposal (CRITICAL)       | 7d  | thread   | Active conversation | 2     | 120   | docs/instagram/account-profiles/enneagrampaths.md        | Queued |
-| 3   | @enneagrampaths        | Longings — "deeply listened to" (CRITICAL)     | 7d  | ~8       | Active conversation | 2     | 115   | docs/instagram/account-profiles/enneagrampaths.md        | Queued |
-| 4   | @enneagramwithjb       | The Emotional Pattern Each Type Falls Into     | 2d  | 3        | Enneagram direct    | 2     | 110   | docs/instagram/account-profiles/enneagramwithjb.md       | Queued |
-| 5   | @enneagramashton       | "You're not bad at vulnerability…"             | 1d  | 2        | Enneagram direct    | 2     | 95    | docs/instagram/account-profiles/enneagramashton.md       | Queued |
+| #   | Account                | Topic                                      | Age | Comments | Opp Type            | Level | Score | Profile                                                  | Queue  |
+| --- | ---------------------- | ------------------------------------------ | --- | -------- | ------------------- | ----- | ----- | -------------------------------------------------------- | ------ |
+| 1   | @thesecurerelationship | "What is the anxiety trying to manage?"    | 14h | 5        | Therapy/psychology  | 0     | 125   | docs/instagram/account-profiles/thesecurerelationship.md | Queued |
+| 2   | @enneagrampaths        | Carl thread — Type 3 proposal (CRITICAL)   | 7d  | thread   | Active conversation | 2     | 120   | docs/instagram/account-profiles/enneagrampaths.md        | Queued |
+| 3   | @enneagrampaths        | Longings — "deeply listened to" (CRITICAL) | 7d  | ~8       | Active conversation | 2     | 115   | docs/instagram/account-profiles/enneagrampaths.md        | Queued |
+| 4   | @enneagramwithjb       | The Emotional Pattern Each Type Falls Into | 2d  | 3        | Enneagram direct    | 2     | 110   | docs/instagram/account-profiles/enneagramwithjb.md       | Queued |
+| 5   | @enneagramashton       | "You're not bad at vulnerability…"         | 1d  | 2        | Enneagram direct    | 2     | 95    | docs/instagram/account-profiles/enneagramashton.md       | Queued |
 
 ---
 
@@ -206,7 +206,7 @@ Melissa's reply to our 8-longings comment ("So you also long to feel deeply list
 **Strategic Role:** Anchor (Tier 1 educational)
 
 **Why This Post:**
-Jackie liked our 2-week-old March 25 comment TODAY (6h ago) — she's actively re-engaging with her threads and our voice is landing for her. 268 likes, 3 comments (just "send me this post" requests from health._.communityy and ava__laus, plus 1 Facebook comment) = still wide open for a substantive comment.
+Jackie liked our 2-week-old March 25 comment TODAY (6h ago) — she's actively re-engaging with her threads and our voice is landing for her. 268 likes, 3 comments (just "send me this post" requests from health.\_.communityy and ava\_\_laus, plus 1 Facebook comment) = still wide open for a substantive comment.
 
 Caption: "Most of us were never taught how to understand our emotions. So we either over-identify with them, avoid them or move past them too quickly. The Enneagram gives us language for our emotional patterns. Not just what we feel, but how we relate to what we feel. And that distinction matters. Because emotions are meant to move through us. But patterns can keep them stuck, suppressed, or intensified."
 
@@ -307,25 +307,25 @@ The comment from butterfly_bel2001 pushing back on the Type 4 description is act
 
 ## Reply Queue
 
-| Priority | Account                | Post                            | Profile                                                  | Strategic Role  | Relationship Stage | Reply Angle                                                                                                  | Status |
-| -------- | ---------------------- | ------------------------------- | -------------------------------------------------------- | --------------- | ------------------ | ------------------------------------------------------------------------------------------------------------ | ------ |
+| Priority | Account                | Post                            | Profile                                                  | Strategic Role  | Relationship Stage | Reply Angle                                                                                                    | Status |
+| -------- | ---------------------- | ------------------------------- | -------------------------------------------------------- | --------------- | ------------------ | -------------------------------------------------------------------------------------------------------------- | ------ |
 | 1        | @thesecurerelationship | What is the anxiety managing?   | docs/instagram/account-profiles/thesecurerelationship.md | Anchor          | Warm               | Anxiety isn't random — it learned to protect something real. The Q shifts from "what's wrong" to "what's safe" | Queued |
-| 2        | @enneagrampaths        | Carl thread — Type 3 proposal   | docs/instagram/account-profiles/enneagrampaths.md        | Peer            | Active             | Acknowledge 3 read; key gap: 3s build images that work, Carl brands as lovable disaster — 4→2 stress arrow  | Queued |
-| 3        | @enneagrampaths        | Longings — "deeply listened to" | docs/instagram/account-profiles/enneagrampaths.md        | Peer            | Active             | Short, warm — sharpen: "read accurately under the volume," not just "listened to"                            | Queued |
-| 4        | @enneagramwithjb       | Emotional pattern each type     | docs/instagram/account-profiles/enneagramwithjb.md       | Anchor (Tier 1) | Active             | Emotion-to-feeling translation is where the pattern lives — same anxiety, different story that fires with it  | Queued |
+| 2        | @enneagrampaths        | Carl thread — Type 3 proposal   | docs/instagram/account-profiles/enneagrampaths.md        | Peer            | Active             | Acknowledge 3 read; key gap: 3s build images that work, Carl brands as lovable disaster — 4→2 stress arrow     | Queued |
+| 3        | @enneagrampaths        | Longings — "deeply listened to" | docs/instagram/account-profiles/enneagrampaths.md        | Peer            | Active             | Short, warm — sharpen: "read accurately under the volume," not just "listened to"                              | Queued |
+| 4        | @enneagramwithjb       | Emotional pattern each type     | docs/instagram/account-profiles/enneagramwithjb.md       | Anchor (Tier 1) | Active             | Emotion-to-feeling translation is where the pattern lives — same anxiety, different story that fires with it   | Queued |
 | 5        | @enneagramashton       | Not bad at vulnerability        | docs/instagram/account-profiles/enneagramashton.md       | Anchor          | Prospect           | Protection strategy learned to work once — the problem is the situation changed and the strategy didn't notice | Queued |
 
 ---
 
 ## Profiles Created or Updated
 
-| Account                | Profile                                                  | Action  | Why                                                                                              |
-| ---------------------- | -------------------------------------------------------- | ------- | ------------------------------------------------------------------------------------------------ |
-| @thesecurerelationship | docs/instagram/account-profiles/thesecurerelationship.md | Updated | Added new 14h post; confirmed 7-day spacing since last engagement; updated open loops            |
-| @enneagrampaths        | docs/instagram/account-profiles/enneagrampaths.md        | Updated | Confirmed Carl thread state via browser; both open threads confirmed still unanswered; grief noted|
-| @enneagramwithjb       | docs/instagram/account-profiles/enneagramwithjb.md       | Updated | Jackie liked our Mar 25 comment today; Emotional Pattern carousel at 268 likes / 3 comments      |
-| @enneagramashton       | docs/instagram/account-profiles/enneagramashton.md       | Updated | Follower count updated to 544K; first content-first post queued; first real engagement           |
-| @matthiasjbarker       | docs/instagram/account-profiles/matthiasjbarker.md       | Updated | Full event spam mode for Apr 14 workshop; even content-first reel now event-hijacked; skip       |
+| Account                | Profile                                                  | Action  | Why                                                                                                |
+| ---------------------- | -------------------------------------------------------- | ------- | -------------------------------------------------------------------------------------------------- |
+| @thesecurerelationship | docs/instagram/account-profiles/thesecurerelationship.md | Updated | Added new 14h post; confirmed 7-day spacing since last engagement; updated open loops              |
+| @enneagrampaths        | docs/instagram/account-profiles/enneagrampaths.md        | Updated | Confirmed Carl thread state via browser; both open threads confirmed still unanswered; grief noted |
+| @enneagramwithjb       | docs/instagram/account-profiles/enneagramwithjb.md       | Updated | Jackie liked our Mar 25 comment today; Emotional Pattern carousel at 268 likes / 3 comments        |
+| @enneagramashton       | docs/instagram/account-profiles/enneagramashton.md       | Updated | Follower count updated to 544K; first content-first post queued; first real engagement             |
+| @matthiasjbarker       | docs/instagram/account-profiles/matthiasjbarker.md       | Updated | Full event spam mode for Apr 14 workshop; even content-first reel now event-hijacked; skip         |
 
 ---
 
@@ -378,8 +378,8 @@ No new accounts this scan. Feed was mostly ads and @vvanedwards recycled content
 
 ## Hashtag Performance
 
-| Hashtag | Posts Checked | Quality Posts Found | Notes |
-| ------- | ------------- | ------------------- | ----- |
+| Hashtag | Posts Checked | Quality Posts Found | Notes                                                                                |
+| ------- | ------------- | ------------------- | ------------------------------------------------------------------------------------ |
 | N/A     | —             | —                   | Skipped — direct profile visits and notification-following produced higher ROI today |
 
 ---

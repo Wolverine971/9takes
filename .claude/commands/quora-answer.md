@@ -58,27 +58,93 @@ Read these before drafting:
 
 ---
 
-## The Answer Formula (Non-Negotiable)
+## Before You Draft: Read the Question
 
-Every answer follows this exact structure:
+Before touching the formula, answer these four questions:
+
+1. **What is the person actually asking?** Not the literal question. The underlying need. "Why does my partner shut down?" means they want to feel less alone and maybe get a path forward. Answer that need.
+2. **Does this question require the Enneagram?** If the asker hasn't mentioned personality types, assume they don't know the system. Describe the behavior pattern first. Introduce type labels as shorthand for a pattern, not as the organizing frame.
+3. **How long does this actually need to be?** Match length to complexity. Not every answer needs 5 paragraphs.
+   - Simple observation ("why do people do X?"): 2-3 short paragraphs
+   - Action question ("how do I deal with X?"): 3-4 paragraphs
+   - Complex psychology question: 4-5 paragraphs, never more
+4. **How many types are actually useful here?** 1-2 for simple questions. 2-3 for genuinely multi-pattern ones. Zero type breakdowns is fine if the direct answer and action step are enough.
+
+---
+
+## The Answer Flow (Default, Not a Recipe)
+
+Use this as a starting point. Skip steps that don't add value.
 
 ```
 1. Direct answer in sentence 1 — never bury the lede
-2. Bridge: "Here's the pattern I keep seeing..." or equivalent
-3. 2-3 Enneagram type breakdowns — each is a distinct engine driving the behavior
+2. Bridge: "Two patterns I keep seeing..." or equivalent (can be 1 sentence)
+3. Type breakdowns — only as many as the question needs (1-3)
 4. Concrete action step — what to actually do about it
 5. Soft close — reference 9takes only if it fits naturally
 ```
 
-**Sentence 1 is the most important sentence in the answer.** It must answer the question directly and compellingly. If someone reads only sentence 1, they got value.
+**Sentence 1 is the most important sentence in the answer.** If someone reads only that and stops, they got value.
 
-The type breakdowns are the core. Each one should:
+The type breakdowns are the core when they're there. Each should:
 
 - Name the type
-- Explain the mechanism (why this type does this — not just that they do it)
+- Explain the mechanism (why this type does this, not just that they do it)
 - Distinguish it from the other type(s)
 
 The action step is concrete, not vague. "Understand them better" is not an action step.
+
+---
+
+## Non-Enneagram Audience
+
+When the question doesn't mention Enneagram, the asker doesn't know the system. Don't open with a type number.
+
+**Wrong approach:**
+
+> **Type 6 (Loyalist):** Scans for worst-case scenarios constantly. Not manipulating, just anxious.
+
+**Right approach:**
+
+> Some people's brains are constantly scanning for what could go wrong. That's not manipulation, it's anxiety running the show. In Enneagram terms, that's a Type 6 pattern.
+
+Describe the behavior first. Then name the type as a shorthand for readers who want to go deeper. The reader should get value even if they've never heard of the Enneagram.
+
+---
+
+## Anti-AI Patterns (Hard Bans)
+
+These phrases and patterns make answers sound AI-generated. Never use them:
+
+**Banned phrases:**
+
+- Em dashes of any kind (use a period or comma instead)
+- "It's worth noting that..."
+- "That being said..."
+- "When it comes to..."
+- "At its core..."
+- "In today's world..."
+- "Delve into"
+- "Furthermore," / "Moreover," / "Additionally," as sentence openers
+- "In conclusion..."
+- "Indeed" as a connective
+- "Navigating [abstract noun]"
+- "At the end of the day..."
+
+**Banned structures:**
+
+- Three consecutive paragraphs all starting with "Type X:" in lockstep
+- Transition summaries ("So to summarize, there are three patterns...")
+- Parallel structure addiction (every sentence the same grammatical shape)
+- Clipped one-liners stacked for fake impact ("This matters. Here's why. Read on.")
+- Monotonous sentence length (mix short punchy sentences with longer ones)
+- Over-bolding (only bold type labels, not random sentences for emphasis)
+
+**Punctuation:**
+
+- No em dashes. Period.
+- Minimal semicolons. If you reach for one, try a period first.
+- Bullet points only for type breakdowns, not for everything
 
 ---
 
@@ -87,9 +153,9 @@ The action step is concrete, not vague. "Understand them better" is not an actio
 - Paragraphs: 2-3 sentences max
 - **Bold** the opening label for each type section (e.g., `**Type 6 (Loyalist):**`)
 - One blank line between every paragraph
-- Links go 2/3 of the way down the answer — never at the top, never at the very end
+- Links go 2/3 of the way down the answer, never at the top, never at the very end
 - One link max per answer
-- Link to a specific 9takes blog post — never the homepage or signup page
+- Link to a specific 9takes blog post, never the homepage or signup page
 - Never shorten URLs
 
 ---
@@ -98,12 +164,12 @@ The action step is concrete, not vague. "Understand them better" is not an actio
 
 Before adding a link, verify all four:
 
-1. Does this blog post genuinely add context — not just exist?
+1. Does this blog post genuinely add context, not just exist?
 2. Is the link placed at least 2/3 of the way through the answer?
 3. Is this a specific blog post URL (not homepage, not /questions, not /book-session)?
 4. Is this the only link in the answer?
 
-If any is false — remove the link. An answer without a link is better than one with a forced or poorly placed link.
+If any is false, remove the link. An answer without a link is better than one with a forced or poorly placed link.
 
 ---
 
@@ -111,11 +177,12 @@ If any is false — remove the link. An answer without a link is better than one
 
 - **Direct.** Sentence 1 is a declarative statement that answers the question.
 - **No filler.** Never start with "Great question" or "It's complicated."
-- **No credential-flashing.** Don't write "As an Enneagram researcher..." — demonstrate it through the content.
+- **No credential-flashing.** Don't write "As an Enneagram researcher..." Demonstrate it through the content.
 - **First-person observation.** "Two patterns I keep seeing..." not "Research suggests..."
-- **Commit to the take.** Avoid "may," "could," "some people might" — these are hedges, not insights.
+- **Commit to the take.** Avoid "may," "could," "some people might." These are hedges, not insights.
 - **Sounds like a message from a smart friend.** Not a blog post. Not a textbook. Not a brand.
-- **Match the sample answer voice** from `docs/growth/quora-strategy.md` — study those three samples before drafting.
+- **Vary sentence length.** Short sentences punch. Longer ones build context. AI writes in a narrow band of 12-18 words per sentence. Don't.
+- **Match the sample answer voice** from `docs/growth/quora-strategy.md` before drafting.
 
 ---
 
@@ -132,14 +199,16 @@ If any is false — remove the link. An answer without a link is better than one
 For each queued question, in priority order:
 
 1. Re-read the evaluation card from the warmup doc (Enneagram angle, blog match, views/answers).
-2. Draft the answer using the formula.
-3. Review: does sentence 1 directly answer the question?
-4. Review: are the type breakdowns mechanistic (why, not just what)?
-5. Review: is the action step concrete?
-6. Review: is formatting mobile-ready?
-7. Review: link placement correct?
-8. Run the self-check checklist.
-9. Finalize and write to answers doc.
+2. Assess the question: underlying need, audience Enneagram familiarity, appropriate length, how many type breakdowns actually fit.
+3. Draft the answer using the flow. Start with sentence 1, then decide if each subsequent step adds value.
+4. Review: does sentence 1 directly answer the question?
+5. Review: are the type breakdowns mechanistic (why, not just what)?
+6. Review: is the action step concrete?
+7. Review: is formatting mobile-ready?
+8. Review: link placement correct?
+9. Review: would a smart human actually write this? Read it aloud mentally. If it sounds smooth and templated, it's too AI.
+10. Run the self-check checklist.
+11. Finalize and write to answers doc.
 
 ### Phase 3: Update Question Log
 
@@ -174,13 +243,16 @@ For each answer in the session doc:
 **Self-Check:**
 
 - [ ] Sentence 1 directly answers the question
+- [ ] Answer length matches question complexity (not auto-5-paragraphs)
 - [ ] Each type section explains the mechanism, not just names the behavior
-- [ ] 2-3 sentence paragraphs throughout
+- [ ] Sentence length varies (not all ~15-word sentences)
 - [ ] Type labels bolded
 - [ ] Action step is concrete (not "understand them better")
 - [ ] Link is 2/3 down or absent
 - [ ] No credential-flashing
-- [ ] Reads like a human, not content marketing
+- [ ] No em dashes anywhere
+- [ ] No banned phrases (delve, worth noting, that being said, furthermore, at its core)
+- [ ] Non-Enneagram questions describe behavior before naming the type
 - [ ] No academic hedging ("may," "could," "it depends")
 ```
 
@@ -291,4 +363,4 @@ When you've posted, let me know which ones went live and I'll update the log.
 
 ---
 
-_Last Updated: 2026-04-13_
+_Last Updated: 2026-04-13 (v2 — anti-AI patterns, flexible formula, non-Enneagram audience guidance)_

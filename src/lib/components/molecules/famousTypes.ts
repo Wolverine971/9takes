@@ -129,6 +129,7 @@ export const famousTypes: { [index: number]: { name: string; link: boolean; hasI
 		{ name: 'zara-larsson', link: false, hasImage: true, lastmod: '2026-04-03', personaTitle: 'Pop\'s Unfiltered Achiever', contentGrade: 8.6 },
 		{ name: 'andy-cohen', link: false, hasImage: false, lastmod: '2025-06-25', personaTitle: null, contentGrade: null },
 		{ name: 'ava-max', link: false, hasImage: false, lastmod: '2025-06-25', personaTitle: null, contentGrade: null },
+		{ name: 'bruno-mars', link: false, hasImage: false, lastmod: '2026-04-13', personaTitle: 'Music\'s Effortless Machine', contentGrade: null },
 		{ name: 'chiara-ferragni', link: false, hasImage: false, lastmod: '2025-06-25', personaTitle: null, contentGrade: null },
 		{ name: 'cleopatra', link: false, hasImage: false, lastmod: '2025-06-25', personaTitle: null, contentGrade: null },
 		{ name: 'corina-conf', link: false, hasImage: false, lastmod: '2025-06-25', personaTitle: null, contentGrade: null },

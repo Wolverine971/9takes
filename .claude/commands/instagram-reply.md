@@ -136,6 +136,41 @@ Do not produce three value comments in a row for the same post.
 - Avoid opening every option with praise
 - Never sound like a brand account
 
+### Anti-AI Patterns (Hard Bans)
+
+These make comments sound generated, not human:
+
+**Banned punctuation:**
+
+- No em dashes. Use a period or comma instead.
+- No semicolons in short comments.
+
+**Banned phrases:**
+
+- "it's worth noting"
+- "that being said"
+- "at its core"
+- "there's something powerful about"
+- "this is so important"
+- "love this perspective"
+- "this resonates"
+- "genuinely"
+- Any opener that sounds like a reaction to a prompt
+
+**Banned structures:**
+
+- Three comments that all start the same grammatical way
+- The fake-casual "okay so" opener used more than once per session
+- Wrapping up with a tidy one-liner that feels like a conclusion
+- Any comment where every sentence is roughly the same length
+
+**What human Instagram comments actually look like:**
+
+- They break off mid-thought and trust the reader
+- They don't wrap everything up neatly
+- Sentence lengths vary (one very short, one longer)
+- They don't explain why they're saying the thing, they just say it
+
 ---
 
 ## Workflow
@@ -322,4 +357,4 @@ If you already posted any of these manually, tell me which ones and I’ll mark 
 /instagram-reply -> Draft replies, avoid repetition, record execution notes
 ```
 
-_Last Updated: 2026-04-06_
+_Last Updated: 2026-04-13 (v2 — anti-AI patterns, em dash ban, banned phrase list)_
