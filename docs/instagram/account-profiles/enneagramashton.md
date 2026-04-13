@@ -11,7 +11,7 @@
 **Relationship Status:** Prospect
 **Audience Quality:** High (mix of type-curious and Support-Squad regulars; thoughtful comment threads)
 **Profile Created:** 2026-04-07
-**Last Reviewed:** 2026-04-07
+**Last Reviewed:** 2026-04-13
 **Last Engaged:** Never
 **Source of First Discovery:** Engagement targets list (Tier 1: Enneagram & Personality)
 
@@ -26,7 +26,7 @@
 ## Bio Snapshot
 
 - **Bio:** Speaker + Workplace Consultant
-- **Followers:** ~250K
+- **Followers:** 544K (updated Apr 13 — was significantly underestimated in engagement targets)
 - **Offer / link:** Support Squad (quarterly coaching cohort), workplace speaking, Enneagram artwork
 - **Formats:** Illustrated graphics (primary), reels, carousels
 - **Audience vibe:** Type-literate but practical-minded. Lots of "I think I'm a 4 with a 3 wing but…" wing-debate comments. Mix of growth seekers and certified-coach lurkers.
@@ -48,16 +48,18 @@
 
 ## Relationship History
 
-| Date       | Surface  | Topic                              | Post Link                                | Action | Status  | What We Said / Planned                                                          | Outcome | Source                         |
-| ---------- | -------- | ---------------------------------- | ---------------------------------------- | ------ | ------- | ------------------------------------------------------------------------------- | ------- | ------------------------------ |
-| 2026-04-07 | Carousel | Emotional patterns are predictable | https://www.instagram.com/p/DWziVm4ESCm/ | Queued | Pending | First engagement — "knowing the pattern vs catching yourself mid-pattern" angle | Pending | 2026-04-07_instagram-warmup.md |
+| Date       | Surface  | Topic                                                                            | Post Link                                | Action | Status  | What We Said / Planned                                                                                                                                                                                                                                         | Outcome                             | Source                         |
+| ---------- | -------- | -------------------------------------------------------------------------------- | ---------------------------------------- | ------ | ------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------- | ------------------------------ |
+| 2026-04-07 | Carousel | Emotional patterns are predictable                                               | https://www.instagram.com/p/DWziVm4ESCm/ | Queued | Pending | First engagement — "knowing the pattern vs catching yourself mid-pattern" angle                                                                                                                                                                                | Pending — superseded by Apr 13 post | 2026-04-07_instagram-warmup.md |
+| 2026-04-13 | Carousel | "You're not bad at vulnerability…you're just really good at protecting yourself" | https://www.instagram.com/p/DXARDNmEU4A/ | Queued | Pending | 1d old, 1,082 likes, 2 real comments on 544K account = massive gap. FIRST real content-first post (no keyword CTA). Angle: protection strategy learned to work once — the problem is the situation changed and the strategy didn't notice. Visibility Level 2. | Pending                             | 2026-04-13_instagram-warmup.md |
 
 ## Open Loops
 
-- First engagement pending on the emotional patterns post
+- First real engagement queued: "You're not bad at vulnerability" carousel (Apr 13, 1d, 1,082 likes, 2 comments)
+- Follower count correction: 544K (not ~250K — update engagement targets)
 
 ## Next Best Angles
 
-- The gap between recognizing a pattern in retrospect and catching yourself mid-pattern — that's where the actual growth happens, and it's brutal
-- Predictability is freeing if you can use it before the pattern fires, but mostly we use it to explain the wreckage afterward
-- Type isn't the cage. The cage is moving so fast you can't use what you already know about your type
+- Protection strategy learned to work at some point — the instinct isn't wrong, the situation changed
+- The "knowing → doing" gap: knowing you're not bad at vulnerability is free; choosing differently mid-protection is where the friction actually lives
+- Consider engaging the Type 4 pushback thread (butterfly_bel2001 comment) — "not wanting to be misunderstood IS the vulnerability. The protection is pre-selecting who gets in"

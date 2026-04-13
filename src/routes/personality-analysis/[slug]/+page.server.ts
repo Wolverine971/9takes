@@ -85,7 +85,7 @@ export const load: PageServerLoad = async (event) => {
 	}
 
 	const { content, placeholders, headings } = await processBlogContent(personData.content ?? '');
-	const publishedAt = personData.date ?? personData.created_at;
+	const publishedAt = personData.published_at ?? personData.date ?? personData.created_at;
 	const modifiedAt = personData.lastmod ?? publishedAt;
 
 	return {

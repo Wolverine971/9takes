@@ -307,6 +307,7 @@ export type Database = {
           date: string | null
           description: string | null
           enneagram: string | null
+          first_published_at: string | null
           id: number
           instagram: string | null
           jsonld_snippet: Json | null
@@ -317,6 +318,7 @@ export type Database = {
           persona_title: string | null
           priority: string | null
           published: boolean | null
+          published_at: string | null
           search_vector: unknown
           suggestions: Json | null
           tags: string[] | null
@@ -336,6 +338,7 @@ export type Database = {
           date?: string | null
           description?: string | null
           enneagram?: string | null
+          first_published_at?: string | null
           id?: number
           instagram?: string | null
           jsonld_snippet?: Json | null
@@ -346,6 +349,7 @@ export type Database = {
           persona_title?: string | null
           priority?: string | null
           published?: boolean | null
+          published_at?: string | null
           search_vector?: unknown
           suggestions?: Json | null
           tags?: string[] | null
@@ -365,6 +369,7 @@ export type Database = {
           date?: string | null
           description?: string | null
           enneagram?: string | null
+          first_published_at?: string | null
           id?: number
           instagram?: string | null
           jsonld_snippet?: Json | null
@@ -375,6 +380,7 @@ export type Database = {
           persona_title?: string | null
           priority?: string | null
           published?: boolean | null
+          published_at?: string | null
           search_vector?: unknown
           suggestions?: Json | null
           tags?: string[] | null
@@ -1427,6 +1433,87 @@ export type Database = {
         }
         Relationships: []
       }
+      content_analytics_daily: {
+        Row: {
+          anonymous_visits: number
+          authenticated_visits: number
+          avg_engaged_ms: number
+          avg_scroll_pct: number
+          bounce_rate: number
+          bounce_visits: number
+          content_slug: string
+          content_type: string
+          created_at: string
+          days_since_publish: number | null
+          engaged_ms_total: number
+          first_view_at: string | null
+          id: number
+          last_view_at: string | null
+          median_engaged_ms: number
+          metric_date: string
+          path: string
+          path_group: string
+          published_at: string | null
+          referrer_breakdown: Json
+          source_breakdown: Json
+          unique_visitors: number
+          updated_at: string
+          visits: number
+        }
+        Insert: {
+          anonymous_visits?: number
+          authenticated_visits?: number
+          avg_engaged_ms?: number
+          avg_scroll_pct?: number
+          bounce_rate?: number
+          bounce_visits?: number
+          content_slug: string
+          content_type: string
+          created_at?: string
+          days_since_publish?: number | null
+          engaged_ms_total?: number
+          first_view_at?: string | null
+          id?: number
+          last_view_at?: string | null
+          median_engaged_ms?: number
+          metric_date: string
+          path: string
+          path_group?: string
+          published_at?: string | null
+          referrer_breakdown?: Json
+          source_breakdown?: Json
+          unique_visitors?: number
+          updated_at?: string
+          visits?: number
+        }
+        Update: {
+          anonymous_visits?: number
+          authenticated_visits?: number
+          avg_engaged_ms?: number
+          avg_scroll_pct?: number
+          bounce_rate?: number
+          bounce_visits?: number
+          content_slug?: string
+          content_type?: string
+          created_at?: string
+          days_since_publish?: number | null
+          engaged_ms_total?: number
+          first_view_at?: string | null
+          id?: number
+          last_view_at?: string | null
+          median_engaged_ms?: number
+          metric_date?: string
+          path?: string
+          path_group?: string
+          published_at?: string | null
+          referrer_breakdown?: Json
+          source_breakdown?: Json
+          unique_visitors?: number
+          updated_at?: string
+          visits?: number
+        }
+        Relationships: []
+      }
       content_community: {
         Row: {
           author: string | null
@@ -1592,6 +1679,42 @@ export type Database = {
           stageName?: string | null
           title?: string | null
           type?: string | null
+        }
+        Relationships: []
+      }
+      content_release_events: {
+        Row: {
+          content_slug: string
+          content_type: string
+          created_at: string
+          event_at: string
+          event_type: string
+          id: number
+          metadata: Json
+          path: string | null
+          source: string | null
+        }
+        Insert: {
+          content_slug: string
+          content_type: string
+          created_at?: string
+          event_at?: string
+          event_type: string
+          id?: number
+          metadata?: Json
+          path?: string | null
+          source?: string | null
+        }
+        Update: {
+          content_slug?: string
+          content_type?: string
+          created_at?: string
+          event_at?: string
+          event_type?: string
+          id?: number
+          metadata?: Json
+          path?: string | null
+          source?: string | null
         }
         Relationships: []
       }
@@ -2459,6 +2582,9 @@ export type Database = {
       }
       page_analytics_visits: {
         Row: {
+          acquisition_source: string | null
+          click_id_type: string | null
+          click_id_value: string | null
           content_slug: string | null
           content_type: string | null
           created_at: string
@@ -2467,6 +2593,7 @@ export type Database = {
           fingerprint: string
           id: number
           is_exit: boolean
+          landing_query: string | null
           max_scroll_pct: number
           path: string
           path_group: string
@@ -2476,9 +2603,17 @@ export type Database = {
           started_at: string
           updated_at: string
           user_id: string | null
+          utm_campaign: string | null
+          utm_content: string | null
+          utm_medium: string | null
+          utm_source: string | null
+          utm_term: string | null
           visit_key: string
         }
         Insert: {
+          acquisition_source?: string | null
+          click_id_type?: string | null
+          click_id_value?: string | null
           content_slug?: string | null
           content_type?: string | null
           created_at?: string
@@ -2487,6 +2622,7 @@ export type Database = {
           fingerprint: string
           id?: number
           is_exit?: boolean
+          landing_query?: string | null
           max_scroll_pct?: number
           path: string
           path_group: string
@@ -2496,9 +2632,17 @@ export type Database = {
           started_at?: string
           updated_at?: string
           user_id?: string | null
+          utm_campaign?: string | null
+          utm_content?: string | null
+          utm_medium?: string | null
+          utm_source?: string | null
+          utm_term?: string | null
           visit_key: string
         }
         Update: {
+          acquisition_source?: string | null
+          click_id_type?: string | null
+          click_id_value?: string | null
           content_slug?: string | null
           content_type?: string | null
           created_at?: string
@@ -2507,6 +2651,7 @@ export type Database = {
           fingerprint?: string
           id?: number
           is_exit?: boolean
+          landing_query?: string | null
           max_scroll_pct?: number
           path?: string
           path_group?: string
@@ -2516,6 +2661,11 @@ export type Database = {
           started_at?: string
           updated_at?: string
           user_id?: string | null
+          utm_campaign?: string | null
+          utm_content?: string | null
+          utm_medium?: string | null
+          utm_source?: string | null
+          utm_term?: string | null
           visit_key?: string
         }
         Relationships: [
@@ -3801,6 +3951,10 @@ export type Database = {
     }
     Functions: {
       analytics_local_date: { Args: { p_ts: string }; Returns: string }
+      analytics_normalize_content_slug: {
+        Args: { p_slug: string }
+        Returns: string
+      }
       analytics_scope_match: {
         Args: { p_content_type: string; p_path: string; p_scope: string }
         Returns: boolean
@@ -4090,6 +4244,69 @@ export type Database = {
           retained_d7_pct: number
         }[]
       }
+      get_content_release_event_impact: {
+        Args: { p_days_after?: number; p_days_before?: number; p_slug: string }
+        Returns: {
+          avg_daily_after: number
+          avg_daily_before: number
+          content_slug: string
+          content_type: string
+          days_after: number
+          days_before: number
+          event_at: string
+          event_type: string
+          id: number
+          lift_pct: number
+          lift_views: number
+          metadata: Json
+          path: string
+          source: string
+          unique_after: number
+          unique_before: number
+          views_after: number
+          views_before: number
+        }[]
+      }
+      get_content_release_growth_curve: {
+        Args: { p_days?: number; p_slug: string }
+        Returns: {
+          cumulative_unique_visitors: number
+          cumulative_visits: number
+          day_date: string
+          day_number: number
+          unique_visitors: number
+          visits: number
+        }[]
+      }
+      get_content_release_performance: {
+        Args: { p_from_date?: string; p_limit?: number; p_to_date?: string }
+        Returns: {
+          avg_scroll_pct: number
+          avg_time_on_page_ms: number
+          bounce_rate: number
+          first_view_at: string
+          id: number
+          median_time_on_page_ms: number
+          minutes_to_first_view: number
+          path: string
+          performance_band: string
+          published_at: string
+          release_stage: string
+          slug: string
+          title: string
+          total_unique_visitors: number
+          total_views: number
+          unique_24h: number
+          unique_30d: number
+          unique_7d: number
+          views_1h: number
+          views_24h: number
+          views_30d: number
+          views_6h: number
+          views_7d: number
+          views_7d_percentile: number
+        }[]
+      }
       get_email_analytics: {
         Args: {
           p_campaign_id?: string
@@ -4272,6 +4489,16 @@ export type Database = {
           authenticated_visits: number
           avg_time_on_page_ms: number
           day: string
+          unique_visitors: number
+          visits: number
+        }[]
+      }
+      get_page_analytics_timing_heatmap: {
+        Args: { p_from_date?: string; p_scope?: string; p_to_date?: string }
+        Returns: {
+          avg_time_on_page_ms: number
+          local_dow: number
+          local_hour: number
           unique_visitors: number
           visits: number
         }[]
@@ -4488,6 +4715,18 @@ export type Database = {
           unique_24h: number
         }[]
       }
+      record_content_release_event: {
+        Args: {
+          p_content_slug: string
+          p_content_type: string
+          p_event_at?: string
+          p_event_type: string
+          p_metadata?: Json
+          p_path?: string
+          p_source?: string
+        }
+        Returns: number
+      }
       record_page_analytics_ping: {
         Args: {
           p_ended_at?: string
@@ -4517,6 +4756,10 @@ export type Database = {
           p_visit_started_at?: string
         }
         Returns: undefined
+      }
+      refresh_content_analytics_daily: {
+        Args: { p_content_type?: string; p_from?: string; p_to?: string }
+        Returns: number
       }
       refresh_daily_visitor_cohorts: {
         Args: { p_from?: string; p_to?: string }

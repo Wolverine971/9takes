@@ -394,7 +394,7 @@ export const famousTypes: { [index: number]: { name: string; link: boolean; hasI
 		{ name: 'scarlett-johansson', link: true, hasImage: true, lastmod: '2026-02-23', personaTitle: 'Hollywood\'s Billion-Dollar Introvert', contentGrade: 9 },
 		{ name: 'selena-gomez', link: true, hasImage: true, lastmod: '2025-12-03', personaTitle: 'Pop\'s Steady Presence', contentGrade: null },
 		{ name: 'seth-rogen', link: false, hasImage: true, lastmod: '2026-04-10', personaTitle: 'Comedy\'s Easygoing Empire Builder', contentGrade: 8.6 },
-		{ name: 'shailene-woodley', link: false, hasImage: true, lastmod: '2026-04-11', personaTitle: 'Hollywood\'s Barefoot Vanishing Act', contentGrade: 8.9 },
+		{ name: 'shailene-woodley', link: true, hasImage: true, lastmod: '2026-04-13', personaTitle: 'Hollywood\'s Barefoot Vanishing Act', contentGrade: 8.9 },
 		{ name: 'shane-gillis', link: true, hasImage: true, lastmod: '2026-02-20', personaTitle: 'Comedy\'s Quiet Holdout', contentGrade: 9 },
 		{ name: 'sundar-pichai', link: true, hasImage: true, lastmod: '2026-02-23', personaTitle: 'Google\'s Quiet Shock Absorber', contentGrade: 8.8 },
 		{ name: 'travis-scott', link: true, hasImage: true, lastmod: '2026-02-17', personaTitle: 'Hip-Hop\'s Quiet Architect', contentGrade: 9.3 },

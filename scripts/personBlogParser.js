@@ -832,16 +832,28 @@ async function updateDraftFrontmatterForPublish(filePath, publishDate) {
  */
 async function publishSupabaseEntry(supabase, entry, publishDate) {
 	const publishedAt = new Date().toISOString();
+	const { data: existing, error: lookupError } = await supabase
+		.from('blogs_famous_people')
+		.select('id,person,published_at,first_published_at')
+		.ilike('person', entry.person)
+		.maybeSingle();
+
+	if (lookupError) {
+		throw new Error(`Unable to read publish metadata for ${entry.person}: ${lookupError.message}`);
+	}
+
+	const firstPublishedAt = existing?.first_published_at || existing?.published_at || publishedAt;
 	const { data, error } = await supabase
 		.from('blogs_famous_people')
 		.update({
 			published: true,
 			date: publishDate,
 			lastmod: publishDate,
-			created_at: publishedAt
+			published_at: publishedAt,
+			first_published_at: firstPublishedAt
 		})
 		.ilike('person', entry.person)
-		.select('id,person,published,date,lastmod,created_at,content_quality')
+		.select('id,person,published,date,lastmod,published_at,first_published_at,content_quality')
 		.maybeSingle();
 
 	if (error) {
@@ -852,6 +864,25 @@ async function publishSupabaseEntry(supabase, entry, publishDate) {
 	}
 	if (data.published !== true || data.date !== publishDate || data.lastmod !== publishDate) {
 		throw new Error(`Unable to verify published row for ${entry.person}`);
+	}
+
+	const contentSlug = normalizePersonalitySlug(data.person || entry.person);
+	const { error: eventError } = await supabase.from('content_release_events').insert({
+		content_type: 'people',
+		content_slug: contentSlug,
+		path: `/personality-analysis/${contentSlug}`,
+		event_type:
+			existing?.published_at || existing?.first_published_at ? 'republished' : 'published',
+		event_at: publishedAt,
+		source: 'personBlogParser',
+		metadata: {
+			blog_id: data.id,
+			publish_date: publishDate
+		}
+	});
+
+	if (eventError) {
+		throw new Error(`Unable to record release event for ${entry.person}: ${eventError.message}`);
 	}
 
 	return data;

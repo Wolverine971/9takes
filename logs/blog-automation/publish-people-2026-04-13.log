@@ -1,0 +1,15 @@
+```
+Published people blog.
+
+Person: shailene-woodley
+Draft: src/blog/people/drafts/Shailene-Woodley.md
+Date/lastmod: 2026-04-13
+Supabase: published=true (row id: 964)
+Images: full + thumbnail present
+Generated files: pnpm gen:all completed
+
+Blockers:
+- none
+```
+
+**Shailene Woodley** (Enneagram Type 9, content grade 8.9) is now live at `https://9takes.com/personality-analysis/shailene-woodley`.

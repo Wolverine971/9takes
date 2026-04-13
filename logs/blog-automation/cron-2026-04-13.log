@@ -1,0 +1,6 @@
+[2026-04-13 02:01:47] [INFO] Starting daily blog creator
+[2026-04-13 02:01:47] [INFO] Checking override.json - pause: false
+[2026-04-13 02:01:47] [INFO] Checking inProgress - null (good)
+[2026-04-13 02:01:47] [INFO] Rate limit: 3/5 this week
+[2026-04-13 02:01:47] [INFO] Selected: bruno-mars (Type 7, Priority: 93)
+[2026-04-13 02:01:47] [INFO] Executing blog_content_creator_people...

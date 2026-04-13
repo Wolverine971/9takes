@@ -70,6 +70,10 @@ describe('/admin/analytics page server load', () => {
 			}
 		} as any);
 
+		if (!result) {
+			throw new Error('Expected analytics load to return page data');
+		}
+
 		expect(rpcCalls).toEqual([
 			'get_page_analytics_overview',
 			'get_page_analytics_timeseries',

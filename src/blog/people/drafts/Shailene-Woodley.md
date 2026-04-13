@@ -4,12 +4,12 @@ meta_title: 'Why Shailene Woodley Keeps Losing Herself (And Finding Her Way Back
 persona_title: "Hollywood's Barefoot Vanishing Act"
 description: "She forages her own food, got arrested at Standing Rock, and lost herself inside a relationship. How the Enneagram explains Shailene Woodley's paradox."
 author: 'DJ Wayne'
-date: '2026-04-10'
+date: '2026-04-13'
 loc: 'https://9takes.com/personality-analysis/Shailene-Woodley'
-lastmod: '2026-04-11'
+lastmod: '2026-04-13'
 changefreq: 'monthly'
 priority: '0.6'
-published: false
+published: true
 enneagram: 9
 type: ['movieStar', 'activist']
 person: 'Shailene-Woodley'

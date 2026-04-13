@@ -11,8 +11,8 @@
 **Relationship Status:** Active
 **Audience Quality:** High (recurring real commenters, faith/coaching ecosystem)
 **Profile Created:** 2026-04-07
-**Last Reviewed:** 2026-04-11
-**Last Engaged:** 2026-04-06 (carl-as-4 reply, 8-longing comment, both got Melissa replies — all 3 Melissa replies still unanswered as of Apr 11)
+**Last Reviewed:** 2026-04-13
+**Last Engaged:** 2026-04-06 (carl-as-4 reply, 8-longing comment — Melissa's 3 replies confirmed unanswered via browser Apr 13; drafted replies from Apr 10 PM still pending)
 **Source of First Discovery:** Engagement targets list (Tier 1: Enneagram & Personality)
 
 ## Condensed Intel
@@ -63,8 +63,8 @@
 
 ## Open Loops
 
-- **Carl typing thread (DWwWUEAlFwQ):** Melissa has made TWO unanswered moves: (1) "2 in stress tho? 🧐" (6d ago) and (2) "what if he's a 3?" (4d ago). Both need a single thoughtful reply that addresses the 3 proposal while holding the 4 read. Key gap in her 3 argument: Carl brands as the lovable disaster, not the put-together achiever — 3s build images that work, Carl's "image" is the wound itself. **Note (Apr 11):** Melissa posted a grief reel about losing her dad (14h ago). Be extra warm in the Carl reply.
-- **Longings thread (DWzFwmGFB2m):** Melissa mirrored our 8 vulnerability with "deeply listened to" (5d ago, still unanswered) — owe a short, warm reply. Angle: it's not "listened to" exactly — it's "read accurately under the volume." Given her grief today, extra warmth matters.
+- **Carl typing thread (DWwWUEAlFwQ):** CONFIRMED via browser Apr 13 — Melissa's two unanswered messages are now 7d old. Thread state: our original comment → Melissa asked type → we said 4 → Melissa: "2 in stress tho?" → Melissa: "what if he's a 3?" Both still unanswered. DRAFTED reply from Apr 10 PM is the best starting point. Post today.
+- **Longings thread (DWzFwmGFB2m):** Melissa's "deeply listened to" reply — now 7 days unanswered. DRAFTED reply from Apr 10 PM. Short, warm, post today. Extra warmth still warranted given her grief (father passing, Apr 11 reel).
 
 ## Next Best Angles
 

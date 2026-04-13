@@ -1,5 +1,5 @@
 {
-	"lastUpdated": "2026-04-12T20:46:19Z",
+	"lastUpdated": "2026-04-13T02:00:00Z",
 	"stats": {
 		"totalUnpublished": 107,
 		"totalPublished": 265,
@@ -677,7 +677,13 @@
 			"removedReason": "draft already written"
 		}
 	],
-	"inProgress": null,
+	"inProgress": {
+		"name": "bruno-mars",
+		"displayName": "Bruno Mars",
+		"type": 7,
+		"priority": 93,
+		"startedAt": "2026-04-13T02:00:00Z"
+	},
 	"failed": [
 		{
 			"name": "brené-brown",

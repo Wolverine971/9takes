@@ -109,7 +109,7 @@
 		| 'bounce_rate';
 	type SortDirection = 'asc' | 'desc';
 	type PageBreakdownWindow = '24h' | '7d' | '14d' | '30d' | '90d';
-	type AnalyticsTab = 'pageviews' | 'cohorts';
+	type AnalyticsTab = 'pageviews' | 'timing' | 'releases' | 'cohorts';
 
 	interface PageBreakdownWindowOption {
 		key: PageBreakdownWindow;
@@ -142,6 +142,74 @@
 		active_days: number;
 	}
 
+	interface TimingHeatmapRow {
+		local_dow: number;
+		local_hour: number;
+		visits: number;
+		unique_visitors: number;
+		avg_time_on_page_ms: number;
+	}
+
+	interface ReleasePerformanceRow {
+		id: number;
+		slug: string;
+		path: string;
+		title: string;
+		published_at: string | null;
+		first_view_at: string | null;
+		minutes_to_first_view: number | null;
+		views_1h: number;
+		views_6h: number;
+		views_24h: number;
+		unique_24h: number;
+		views_7d: number;
+		unique_7d: number;
+		views_30d: number;
+		unique_30d: number;
+		total_views: number;
+		total_unique_visitors: number;
+		avg_time_on_page_ms: number;
+		median_time_on_page_ms: number;
+		avg_scroll_pct: number;
+		bounce_rate: number;
+		views_24h_percentile: number | null;
+		views_7d_percentile: number | null;
+		views_30d_percentile: number | null;
+		benchmark_score: number | null;
+		benchmark_sample_size: number;
+		benchmark_basis: string;
+		performance_band: string;
+		release_stage: string;
+		growth_slope_7d: number | null;
+		decay_rate_after_spike: number | null;
+	}
+
+	interface ReleaseGrowthPoint {
+		day_number: number;
+		day_date: string;
+		visits: number;
+		unique_visitors: number;
+		cumulative_visits: number;
+		cumulative_unique_visitors: number;
+	}
+
+	interface ReleaseEventImpactRow {
+		id: number;
+		event_type: string;
+		event_at: string;
+		source: string | null;
+		views_before: number;
+		views_after: number;
+		unique_before: number;
+		unique_after: number;
+		avg_daily_before: number;
+		avg_daily_after: number;
+		lift_views: number;
+		lift_pct: number | null;
+		days_before: number;
+		days_after: number;
+	}
+
 	let { data }: { data: PageData } = $props();
 
 	function getInitialPageData() {
@@ -163,6 +231,8 @@
 	const initialRows = initialPageData.rows;
 	const initialTopPages = initialPageData.topPages;
 	let activeTab = $state<AnalyticsTab>('pageviews');
+	let hasOpenedTiming = $state(false);
+	let hasOpenedReleases = $state(false);
 	let hasOpenedCohorts = $state(false);
 
 	const defaultOverview: AnalyticsOverview = {
@@ -278,6 +348,23 @@
 	let selectedTrendPath = $state(initialTopPages?.topPagesOverTime?.[0]?.path ?? '');
 	let selectedTrendPoints = $state<PageTrendPoint[]>([]);
 	const trendCache = new Map<string, PageTrendPoint[]>();
+	let timingRows = $state<TimingHeatmapRow[]>([]);
+	let timingLoading = $state(false);
+	let timingLoaded = $state(false);
+	let releaseRows = $state<ReleasePerformanceRow[]>([]);
+	let releasesLoading = $state(false);
+	let releasesLoaded = $state(false);
+	let selectedReleaseSlug = $state('');
+	let releaseGrowthPoints = $state<ReleaseGrowthPoint[]>([]);
+	let releaseGrowthLoading = $state(false);
+	const releaseGrowthCache = new Map<string, ReleaseGrowthPoint[]>();
+	let releaseEventRows = $state<ReleaseEventImpactRow[]>([]);
+	let releaseEventsLoading = $state(false);
+	const releaseEventsCache = new Map<string, ReleaseEventImpactRow[]>();
+	let releaseEventType = $state('newsletter_sent');
+	let releaseEventSource = $state('');
+	let releaseEventAt = $state('');
+	let releaseEventSubmitting = $state(false);
 
 	function toDateString(date: Date): string {
 		const year = date.getFullYear();
@@ -314,6 +401,41 @@
 	function formatDateWindow(from: string, to: string): string {
 		if (!from || !to) return '';
 		return `${formatDateLabel(from)} - ${formatDateLabel(to)}`;
+	}
+
+	const timingDayLabels = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
+	const timingHours = Array.from({ length: 24 }, (_, hour) => hour);
+	const releaseEventTypeOptions = [
+		{ value: 'newsletter_sent', label: 'Newsletter' },
+		{ value: 'social_posted', label: 'Social post' },
+		{ value: 'sitemap_generated', label: 'Sitemap' },
+		{ value: 'indexed', label: 'Indexed' },
+		{ value: 'internal_links_added', label: 'Internal links' },
+		{ value: 'major_update', label: 'Major update' },
+		{ value: 'title_meta_updated', label: 'Title/meta update' },
+		{ value: 'manual_note', label: 'Manual note' }
+	];
+
+	function formatHourLabel(hour: number): string {
+		const suffix = hour >= 12 ? 'PM' : 'AM';
+		const hour12 = hour % 12 || 12;
+		return `${hour12}${suffix}`;
+	}
+
+	function getTimingSlotLabel(row: TimingHeatmapRow): string {
+		return `${timingDayLabels[row.local_dow] ?? 'Day'} ${formatHourLabel(row.local_hour)}`;
+	}
+
+	function getTimingCell(day: number, hour: number): TimingHeatmapRow {
+		return (
+			timingBySlot.get(`${day}:${hour}`) ?? {
+				local_dow: day,
+				local_hour: hour,
+				visits: 0,
+				unique_visitors: 0,
+				avg_time_on_page_ms: 0
+			}
+		);
 	}
 
 	function getPageBreakdownWindowLabel(window: PageBreakdownWindow): string {
@@ -617,6 +739,33 @@
 	let weekRankedRows = $derived(rankByVisits(topPages.topPagesThisWeek));
 	let monthRankedRows = $derived(rankByVisits(topPages.topPagesThisMonth));
 	let durationRankedRows = $derived(rankByDuration(topPages.topPagesBySessionDuration));
+	let timingBySlot = $derived(
+		new Map(timingRows.map((row) => [`${row.local_dow}:${row.local_hour}`, row]))
+	);
+	let timingMaxVisits = $derived(Math.max(1, ...timingRows.map((row) => row.visits)));
+	let topTimingSlots = $derived(
+		[...timingRows]
+			.sort(
+				(a, b) => b.visits - a.visits || a.local_dow - b.local_dow || a.local_hour - b.local_hour
+			)
+			.slice(0, 8)
+	);
+	let selectedRelease = $derived(
+		releaseRows.find((row) => row.slug === selectedReleaseSlug) ?? null
+	);
+	let releaseGrowthChartData = $derived(
+		releaseGrowthPoints.map((point) => ({
+			x: point.day_number,
+			y: point.cumulative_visits,
+			label: `Day ${point.day_number}: ${point.cumulative_visits.toLocaleString()} cumulative visits`
+		}))
+	);
+	let releaseSummary = $derived({
+		total: releaseRows.length,
+		aboveNorm: releaseRows.filter((row) => row.performance_band === 'above_norm').length,
+		belowNorm: releaseRows.filter((row) => row.performance_band === 'below_norm').length,
+		collecting: releaseRows.filter((row) => row.performance_band === 'collecting').length
+	});
 
 	$effect(() => {
 		const firstPath = topPageTotals[0]?.path ?? '';
@@ -787,6 +936,160 @@
 		}
 	}
 
+	async function fetchTimingAnalytics() {
+		timingLoading = true;
+		try {
+			const response = await fetch(`/api/admin/analytics/timing?${buildParams(false).toString()}`);
+			const body = await response.json();
+
+			if (!response.ok) {
+				throw new Error(body.message || 'Failed to load timing analytics');
+			}
+
+			timingRows = (body.rows ?? []) as TimingHeatmapRow[];
+			timingLoaded = true;
+		} catch (err) {
+			console.error('Analytics timing fetch error:', err);
+			notifications.danger('Failed to load timing analytics', 3000);
+		} finally {
+			timingLoading = false;
+		}
+	}
+
+	async function selectRelease(slug: string) {
+		if (!slug) return;
+		selectedReleaseSlug = slug;
+
+		const cached = releaseGrowthCache.get(slug);
+		if (cached) {
+			releaseGrowthPoints = cached;
+			releaseGrowthLoading = false;
+		} else {
+			releaseGrowthPoints = [];
+			releaseGrowthLoading = true;
+			try {
+				const params = new URLSearchParams({ slug, days: '30' });
+				const response = await fetch(`/api/admin/analytics/release-growth?${params.toString()}`);
+				const body = await response.json();
+
+				if (!response.ok) {
+					throw new Error(body.message || 'Failed to load release growth');
+				}
+
+				const points = (body.points ?? []) as ReleaseGrowthPoint[];
+				releaseGrowthPoints = points;
+				releaseGrowthCache.set(slug, points);
+			} catch (err) {
+				console.error('Release growth fetch error:', err);
+				notifications.danger('Failed to load release growth', 3000);
+			} finally {
+				releaseGrowthLoading = false;
+			}
+		}
+
+		await fetchReleaseEvents(slug);
+	}
+
+	async function fetchReleaseEvents(slug: string, force = false) {
+		if (!slug) return;
+
+		const cached = releaseEventsCache.get(slug);
+		if (cached && !force) {
+			releaseEventRows = cached;
+			releaseEventsLoading = false;
+			return;
+		}
+
+		releaseEventRows = [];
+		releaseEventsLoading = true;
+		try {
+			const params = new URLSearchParams({ slug, daysBefore: '7', daysAfter: '7' });
+			const response = await fetch(`/api/admin/analytics/release-events?${params.toString()}`);
+			const body = await response.json();
+
+			if (!response.ok) {
+				throw new Error(body.message || 'Failed to load release events');
+			}
+
+			const rows = (body.rows ?? []) as ReleaseEventImpactRow[];
+			releaseEventRows = rows;
+			releaseEventsCache.set(slug, rows);
+		} catch (err) {
+			console.error('Release event fetch error:', err);
+			notifications.danger('Failed to load release events', 3000);
+		} finally {
+			releaseEventsLoading = false;
+		}
+	}
+
+	async function submitReleaseEvent() {
+		if (!selectedRelease) return;
+
+		releaseEventSubmitting = true;
+		try {
+			const response = await fetch('/api/admin/analytics/release-events', {
+				method: 'POST',
+				headers: { 'content-type': 'application/json' },
+				body: JSON.stringify({
+					slug: selectedRelease.slug,
+					eventType: releaseEventType,
+					eventAt: releaseEventAt ? new Date(releaseEventAt).toISOString() : undefined,
+					source: releaseEventSource || undefined,
+					path: selectedRelease.path,
+					metadata: {
+						title: selectedRelease.title
+					}
+				})
+			});
+			const body = await response.json();
+
+			if (!response.ok || !body.success) {
+				throw new Error(body.message || 'Failed to record release event');
+			}
+
+			releaseEventSource = '';
+			releaseEventAt = '';
+			releaseEventsCache.delete(selectedRelease.slug);
+			await fetchReleaseEvents(selectedRelease.slug, true);
+			notifications.success('Release event recorded', 2500);
+		} catch (err) {
+			console.error('Release event submit error:', err);
+			notifications.danger('Failed to record release event', 3000);
+		} finally {
+			releaseEventSubmitting = false;
+		}
+	}
+
+	async function fetchReleaseAnalytics() {
+		releasesLoading = true;
+		try {
+			const params = buildParams(false);
+			params.set('limit', '80');
+			const response = await fetch(`/api/admin/analytics/releases?${params.toString()}`);
+			const body = await response.json();
+
+			if (!response.ok) {
+				throw new Error(body.message || 'Failed to load release analytics');
+			}
+
+			releaseRows = (body.rows ?? []) as ReleasePerformanceRow[];
+			releasesLoaded = true;
+
+			const nextSlug =
+				releaseRows.find((row) => row.slug === selectedReleaseSlug)?.slug ??
+				releaseRows[0]?.slug ??
+				'';
+			if (nextSlug) {
+				await selectRelease(nextSlug);
+			}
+		} catch (err) {
+			console.error('Release analytics fetch error:', err);
+			notifications.danger('Failed to load release analytics', 3000);
+		} finally {
+			releasesLoading = false;
+		}
+	}
+
 	async function applyFilters() {
 		if (!isDateRangeValid()) {
 			notifications.warning('Please use a valid date range', 3000);
@@ -799,7 +1102,19 @@
 		pageBreakdownRangeLabel = getPageBreakdownWindowLabel(pageBreakdownWindow);
 		trendCache.clear();
 		selectedTrendPoints = [];
+		timingLoaded = false;
+		releasesLoaded = false;
+		releaseGrowthCache.clear();
+		releaseGrowthPoints = [];
+		releaseEventsCache.clear();
+		releaseEventRows = [];
 		await Promise.all([fetchOverviewAndTimeseries(), fetchPages(), fetchTopPagesInsights()]);
+		if (activeTab === 'timing') {
+			await fetchTimingAnalytics();
+		}
+		if (activeTab === 'releases') {
+			await fetchReleaseAnalytics();
+		}
 		selectedTrendPath = topPages.topPagesOverTime[0]?.path ?? '';
 	}
 
@@ -818,7 +1133,19 @@
 		pageBreakdownRangeLabel = getPageBreakdownWindowLabel(pageBreakdownWindow);
 		trendCache.clear();
 		selectedTrendPoints = [];
+		timingLoaded = false;
+		releasesLoaded = false;
+		releaseGrowthCache.clear();
+		releaseGrowthPoints = [];
+		releaseEventsCache.clear();
+		releaseEventRows = [];
 		await Promise.all([fetchOverviewAndTimeseries(), fetchPages(), fetchTopPagesInsights()]);
+		if (activeTab === 'timing') {
+			await fetchTimingAnalytics();
+		}
+		if (activeTab === 'releases') {
+			await fetchReleaseAnalytics();
+		}
 		selectedTrendPath = topPages.topPagesOverTime[0]?.path ?? '';
 	}
 
@@ -856,14 +1183,156 @@
 		});
 	}
 
+	function formatDateTime(value: string | null): string {
+		if (!value) return '—';
+		const date = new Date(value);
+		if (Number.isNaN(date.getTime())) return value;
+		return date.toLocaleString(undefined, {
+			month: 'short',
+			day: 'numeric',
+			hour: 'numeric',
+			minute: '2-digit'
+		});
+	}
+
+	function formatMinutesToFirstView(value: number | null): string {
+		if (value === null || !Number.isFinite(value)) return 'No views yet';
+		if (value < 60) return `${value}m`;
+		const hours = Math.floor(value / 60);
+		const minutes = value % 60;
+		if (hours < 24) return minutes ? `${hours}h ${minutes}m` : `${hours}h`;
+		const days = Math.floor(hours / 24);
+		const remainingHours = hours % 24;
+		return remainingHours ? `${days}d ${remainingHours}h` : `${days}d`;
+	}
+
+	function formatPerformanceBand(value: string): string {
+		switch (value) {
+			case 'above_norm':
+				return 'Above norm';
+			case 'below_norm':
+				return 'Below norm';
+			case 'near_norm':
+				return 'Near norm';
+			case 'collecting':
+				return 'Collecting';
+			default:
+				return 'Needs history';
+		}
+	}
+
+	function formatPercentile(value: number | null): string {
+		if (value === null || !Number.isFinite(value)) return '';
+		return `${value.toFixed(0)}th pct`;
+	}
+
+	function formatBenchmarkScore(value: number | null): string {
+		if (value === null || !Number.isFinite(value)) return 'Needs history';
+		return value.toFixed(0);
+	}
+
+	function formatBenchmarkBasis(value: string): string {
+		switch (value) {
+			case '24h':
+				return '24h';
+			case '24h_7d':
+				return '24h + 7d';
+			case '24h_7d_30d':
+				return '24h + 7d + 30d';
+			case 'collecting':
+				return 'Collecting';
+			default:
+				return 'Needs history';
+		}
+	}
+
+	function formatGrowthSlope(value: number | null): string {
+		if (value === null || !Number.isFinite(value)) return 'Needs 7d';
+		const prefix = value > 0 ? '+' : '';
+		return `${prefix}${value.toFixed(1)}/day`;
+	}
+
+	function formatPostLaunchDecay(value: number | null): string {
+		if (value === null || !Number.isFinite(value)) return 'Needs 30d';
+		if (value < 0) return `${Math.abs(value).toFixed(0)}% higher`;
+		return `${value.toFixed(0)}% lower`;
+	}
+
+	function formatReleaseStage(value: string): string {
+		switch (value) {
+			case 'first_day':
+				return 'First day';
+			case 'first_week':
+				return 'First week';
+			case 'first_month':
+				return 'First month';
+			default:
+				return 'Mature';
+		}
+	}
+
+	function formatReleaseEventType(value: string): string {
+		switch (value) {
+			case 'published':
+				return 'Published';
+			case 'republished':
+				return 'Republished';
+			case 'sitemap_generated':
+				return 'Sitemap';
+			case 'indexed':
+				return 'Indexed';
+			case 'newsletter_sent':
+				return 'Newsletter';
+			case 'social_posted':
+				return 'Social post';
+			case 'internal_links_added':
+				return 'Internal links';
+			case 'major_update':
+				return 'Major update';
+			case 'title_meta_updated':
+				return 'Title/meta update';
+			default:
+				return 'Manual note';
+		}
+	}
+
+	function formatLiftPct(value: number | null): string {
+		if (value === null || !Number.isFinite(value)) return 'No baseline';
+		const prefix = value > 0 ? '+' : '';
+		return `${prefix}${value.toFixed(0)}%`;
+	}
+
+	function getBandClass(value: string): string {
+		if (value === 'above_norm') return 'band-above';
+		if (value === 'below_norm') return 'band-below';
+		if (value === 'collecting') return 'band-collecting';
+		return 'band-neutral';
+	}
+
 	let pageSubtitle = $derived(
 		activeTab === 'pageviews'
 			? 'Visits and time-on-page for all tracked pages'
-			: 'Which new visitors activate and come back'
+			: activeTab === 'timing'
+				? 'When visitors show up by day and hour'
+				: activeTab === 'releases'
+					? 'How personality analysis releases grow after publish'
+					: 'Which new visitors activate and come back'
 	);
 
 	function openTab(tab: AnalyticsTab) {
 		activeTab = tab;
+		if (tab === 'timing') {
+			hasOpenedTiming = true;
+			if (!timingLoaded && !timingLoading) {
+				void fetchTimingAnalytics();
+			}
+		}
+		if (tab === 'releases') {
+			hasOpenedReleases = true;
+			if (!releasesLoaded && !releasesLoading) {
+				void fetchReleaseAnalytics();
+			}
+		}
 		if (tab === 'cohorts') {
 			hasOpenedCohorts = true;
 		}
@@ -888,6 +1357,26 @@
 			onclick={() => openTab('pageviews')}
 		>
 			Pageviews
+		</button>
+		<button
+			type="button"
+			role="tab"
+			class="analytics-tab"
+			class:active={activeTab === 'timing'}
+			aria-selected={activeTab === 'timing'}
+			onclick={() => openTab('timing')}
+		>
+			Traffic Timing
+		</button>
+		<button
+			type="button"
+			role="tab"
+			class="analytics-tab"
+			class:active={activeTab === 'releases'}
+			aria-selected={activeTab === 'releases'}
+			onclick={() => openTab('releases')}
+		>
+			Release Performance
 		</button>
 		<button
 			type="button"
@@ -1308,6 +1797,372 @@
 		</section>
 	</div>
 
+	{#if activeTab === 'timing' || hasOpenedTiming}
+		<div hidden={activeTab !== 'timing'}>
+			<section class="insight-card">
+				<div class="insight-header">
+					<div>
+						<h2>Traffic Timing</h2>
+						<p>
+							{formatDateWindow(fromDate, toDate)} | {scopeOptions.find(
+								(option) => option.value === scope
+							)?.label ?? 'All Pages'}
+						</p>
+					</div>
+					<button class="btn btn-secondary" onclick={fetchTimingAnalytics} disabled={timingLoading}>
+						{timingLoading ? 'Refreshing...' : 'Refresh'}
+					</button>
+				</div>
+
+				{#if timingLoading && !timingLoaded}
+					<div class="empty-panel">Loading traffic timing...</div>
+				{:else if timingRows.length === 0}
+					<div class="empty-panel">No visit timing data for this filter set.</div>
+				{:else}
+					<div class="timing-overview">
+						<div class="timing-stat">
+							<span>Total visits</span>
+							<strong
+								>{timingRows.reduce((sum, row) => sum + row.visits, 0).toLocaleString()}</strong
+							>
+						</div>
+						<div class="timing-stat">
+							<span>Peak slot</span>
+							<strong>{topTimingSlots[0] ? getTimingSlotLabel(topTimingSlots[0]) : '—'}</strong>
+						</div>
+						<div class="timing-stat">
+							<span>Peak visits</span>
+							<strong>{(topTimingSlots[0]?.visits ?? 0).toLocaleString()}</strong>
+						</div>
+					</div>
+
+					<div class="heatmap-wrapper" role="region" aria-label="Traffic timing heatmap">
+						<table class="heatmap-table">
+							<thead>
+								<tr>
+									<th>Day</th>
+									{#each timingHours as hour}
+										<th>{formatHourLabel(hour)}</th>
+									{/each}
+								</tr>
+							</thead>
+							<tbody>
+								{#each timingDayLabels as dayLabel, dayIndex}
+									<tr>
+										<th>{dayLabel}</th>
+										{#each timingHours as hour}
+											{@const cell = getTimingCell(dayIndex, hour)}
+											<td
+												style={`--heat: ${Math.max(0.08, cell.visits / timingMaxVisits).toFixed(2)}`}
+												title={`${dayLabel} ${formatHourLabel(hour)}: ${cell.visits.toLocaleString()} visits`}
+											>
+												<span>{cell.visits > 0 ? cell.visits.toLocaleString() : ''}</span>
+											</td>
+										{/each}
+									</tr>
+								{/each}
+							</tbody>
+						</table>
+					</div>
+
+					<div class="timing-top-list">
+						{#each topTimingSlots as row}
+							<div class="timing-top-item">
+								<span>{getTimingSlotLabel(row)}</span>
+								<strong>{row.visits.toLocaleString()} visits</strong>
+								<small>{row.unique_visitors.toLocaleString()} uniques</small>
+							</div>
+						{/each}
+					</div>
+				{/if}
+			</section>
+		</div>
+	{/if}
+
+	{#if activeTab === 'releases' || hasOpenedReleases}
+		<div hidden={activeTab !== 'releases'}>
+			<section class="insight-card">
+				<div class="insight-header">
+					<div>
+						<h2>Release Performance</h2>
+						<p>Personality analysis releases in {formatDateWindow(fromDate, toDate)}</p>
+					</div>
+					<button
+						class="btn btn-secondary"
+						onclick={fetchReleaseAnalytics}
+						disabled={releasesLoading}
+					>
+						{releasesLoading ? 'Refreshing...' : 'Refresh'}
+					</button>
+				</div>
+
+				{#if releasesLoading && !releasesLoaded}
+					<div class="empty-panel">Loading release performance...</div>
+				{:else if releaseRows.length === 0}
+					<div class="empty-panel">No personality releases found for this date range.</div>
+				{:else}
+					<div class="release-summary-grid">
+						<div class="timing-stat">
+							<span>Releases</span>
+							<strong>{releaseSummary.total.toLocaleString()}</strong>
+						</div>
+						<div class="timing-stat">
+							<span>Above norm</span>
+							<strong>{releaseSummary.aboveNorm.toLocaleString()}</strong>
+						</div>
+						<div class="timing-stat">
+							<span>Below norm</span>
+							<strong>{releaseSummary.belowNorm.toLocaleString()}</strong>
+						</div>
+						<div class="timing-stat">
+							<span>Collecting</span>
+							<strong>{releaseSummary.collecting.toLocaleString()}</strong>
+						</div>
+					</div>
+
+					<div class="release-layout">
+						<div
+							class="table-wrapper release-table-wrapper"
+							role="region"
+							aria-label="Release performance"
+						>
+							<table class="data-table release-table">
+								<thead>
+									<tr>
+										<th>Release</th>
+										<th>Published</th>
+										<th>First View</th>
+										<th class="num">24h</th>
+										<th class="num">7d</th>
+										<th class="num">30d</th>
+										<th>Band</th>
+									</tr>
+								</thead>
+								<tbody>
+									{#each releaseRows as row}
+										<tr class:active-row={selectedReleaseSlug === row.slug}>
+											<td data-label="Release">
+												<button
+													type="button"
+													class="table-path-button"
+													class:active={selectedReleaseSlug === row.slug}
+													onclick={() => void selectRelease(row.slug)}
+												>
+													{row.title || row.slug}
+												</button>
+												<div class="release-path">{row.path}</div>
+											</td>
+											<td data-label="Published">{formatDateTime(row.published_at)}</td>
+											<td data-label="First view"
+												>{formatMinutesToFirstView(row.minutes_to_first_view)}</td
+											>
+											<td class="num" data-label="24h">
+												{row.views_24h.toLocaleString()}
+												<small>{row.unique_24h.toLocaleString()} unique</small>
+												{#if row.views_24h_percentile !== null}
+													<small>{formatPercentile(row.views_24h_percentile)}</small>
+												{/if}
+											</td>
+											<td class="num" data-label="7d">
+												{row.views_7d.toLocaleString()}
+												{#if row.views_7d_percentile !== null}
+													<small>{formatPercentile(row.views_7d_percentile)}</small>
+												{/if}
+											</td>
+											<td class="num" data-label="30d">
+												{row.views_30d.toLocaleString()}
+												{#if row.views_30d_percentile !== null}
+													<small>{formatPercentile(row.views_30d_percentile)}</small>
+												{/if}
+											</td>
+											<td data-label="Band">
+												<span class={`band-pill ${getBandClass(row.performance_band)}`}>
+													{formatPerformanceBand(row.performance_band)}
+												</span>
+												<small>Score {formatBenchmarkScore(row.benchmark_score)}</small>
+												{#if row.benchmark_sample_size > 0}
+													<small>n={row.benchmark_sample_size.toLocaleString()}</small>
+												{/if}
+												<small>{formatReleaseStage(row.release_stage)}</small>
+											</td>
+										</tr>
+									{/each}
+								</tbody>
+							</table>
+						</div>
+
+						<div class="trend-panel release-growth-panel">
+							{#if selectedRelease}
+								<div class="release-detail-header">
+									<div>
+										<h3>{selectedRelease.title || selectedRelease.slug}</h3>
+										<p>
+											{selectedRelease.total_views.toLocaleString()} total views |
+											{selectedRelease.total_unique_visitors.toLocaleString()} unique visitors
+										</p>
+									</div>
+									<span class={`band-pill ${getBandClass(selectedRelease.performance_band)}`}>
+										{formatPerformanceBand(selectedRelease.performance_band)}
+									</span>
+								</div>
+
+								{#if releaseGrowthChartData.length > 0}
+									<LineChart
+										data={releaseGrowthChartData}
+										title="Cumulative Views After Publish"
+										xLabel="Days Since Publish"
+										height={300}
+										color="#10b981"
+										showPoints={true}
+										showGrid={true}
+										showSummary={true}
+										showTrend={true}
+									/>
+								{:else}
+									<div class="empty-panel trend-empty">
+										{releaseGrowthLoading
+											? 'Loading release growth...'
+											: 'No growth data available for this release.'}
+									</div>
+								{/if}
+
+								<div class="release-detail-grid">
+									<div>
+										<span>First hour</span>
+										<strong>{selectedRelease.views_1h.toLocaleString()}</strong>
+									</div>
+									<div>
+										<span>First 6 hours</span>
+										<strong>{selectedRelease.views_6h.toLocaleString()}</strong>
+									</div>
+									<div>
+										<span>Score</span>
+										<strong>{formatBenchmarkScore(selectedRelease.benchmark_score)}</strong>
+									</div>
+									<div>
+										<span>Basis</span>
+										<strong>{formatBenchmarkBasis(selectedRelease.benchmark_basis)}</strong>
+									</div>
+									<div>
+										<span>Sample</span>
+										<strong>
+											{selectedRelease.benchmark_sample_size > 0
+												? selectedRelease.benchmark_sample_size.toLocaleString()
+												: 'Needs history'}
+										</strong>
+									</div>
+									<div>
+										<span>7d slope</span>
+										<strong>{formatGrowthSlope(selectedRelease.growth_slope_7d)}</strong>
+									</div>
+									<div>
+										<span>After week 1</span>
+										<strong>{formatPostLaunchDecay(selectedRelease.decay_rate_after_spike)}</strong>
+									</div>
+									<div>
+										<span>Avg time</span>
+										<strong>{formatDurationMs(selectedRelease.avg_time_on_page_ms)}</strong>
+									</div>
+									<div>
+										<span>Avg scroll</span>
+										<strong>{selectedRelease.avg_scroll_pct}%</strong>
+									</div>
+									<div>
+										<span>Bounce</span>
+										<strong>{formatBounceRate(selectedRelease.bounce_rate)}</strong>
+									</div>
+								</div>
+
+								<div class="release-events-section">
+									<div class="release-events-header">
+										<div>
+											<h4>Event Impact</h4>
+											<p>Compare 7 days before and after each release event.</p>
+										</div>
+										<button
+											type="button"
+											class="btn btn-secondary"
+											onclick={() => void fetchReleaseEvents(selectedRelease.slug, true)}
+											disabled={releaseEventsLoading}
+										>
+											{releaseEventsLoading ? 'Refreshing...' : 'Refresh'}
+										</button>
+									</div>
+
+									<form
+										class="release-event-form"
+										onsubmit={(event) => {
+											event.preventDefault();
+											void submitReleaseEvent();
+										}}
+									>
+										<label>
+											<span>Event</span>
+											<select bind:value={releaseEventType}>
+												{#each releaseEventTypeOptions as option}
+													<option value={option.value}>{option.label}</option>
+												{/each}
+											</select>
+										</label>
+										<label>
+											<span>Source</span>
+											<input
+												type="text"
+												placeholder="mailchimp, x, reddit..."
+												bind:value={releaseEventSource}
+											/>
+										</label>
+										<label>
+											<span>When</span>
+											<input type="datetime-local" bind:value={releaseEventAt} />
+										</label>
+										<button type="submit" class="btn btn-primary" disabled={releaseEventSubmitting}>
+											{releaseEventSubmitting ? 'Saving...' : 'Record'}
+										</button>
+									</form>
+
+									{#if releaseEventsLoading && releaseEventRows.length === 0}
+										<div class="empty-panel trend-empty">Loading release events...</div>
+									{:else if releaseEventRows.length === 0}
+										<div class="empty-panel trend-empty">No release events recorded yet.</div>
+									{:else}
+										<div class="release-events-list">
+											{#each releaseEventRows as event}
+												<div class="release-event-item">
+													<div>
+														<strong>{formatReleaseEventType(event.event_type)}</strong>
+														<span>
+															{formatDateTime(event.event_at)}
+															{event.source ? ` | ${event.source}` : ''}
+														</span>
+													</div>
+													<div class="release-event-impact">
+														<span>
+															{event.views_before.toLocaleString()} -> {event.views_after.toLocaleString()}
+															views
+														</span>
+														<strong class:positive={event.lift_views > 0}>
+															{event.lift_views > 0 ? '+' : ''}{event.lift_views.toLocaleString()}
+														</strong>
+														<small>{formatLiftPct(event.lift_pct)}</small>
+													</div>
+												</div>
+											{/each}
+										</div>
+									{/if}
+								</div>
+							{:else}
+								<div class="empty-panel trend-empty">
+									Select a release to view its growth curve.
+								</div>
+							{/if}
+						</div>
+					</div>
+				{/if}
+			</section>
+		</div>
+	{/if}
+
 	{#if activeTab === 'cohorts' || hasOpenedCohorts}
 		<div hidden={activeTab !== 'cohorts'}>
 			<RetentionAnalyticsPanel filters={data.cohortFilters} />
@@ -1691,6 +2546,290 @@
 		color: var(--text-secondary);
 	}
 
+	.timing-overview,
+	.release-summary-grid {
+		display: grid;
+		grid-template-columns: repeat(4, minmax(0, 1fr));
+		gap: 10px;
+		margin-bottom: 12px;
+	}
+
+	.timing-stat {
+		border: 1px solid var(--bg-elevated);
+		background: var(--bg-deep);
+		border-radius: 8px;
+		padding: 10px;
+		display: flex;
+		flex-direction: column;
+		gap: 4px;
+		min-width: 0;
+	}
+
+	.timing-stat span,
+	.release-detail-grid span {
+		font-size: 0.74rem;
+		color: var(--text-secondary);
+	}
+
+	.timing-stat strong,
+	.release-detail-grid strong {
+		font-size: 1rem;
+		color: var(--text-primary);
+		overflow: hidden;
+		text-overflow: ellipsis;
+		white-space: nowrap;
+	}
+
+	.heatmap-wrapper {
+		overflow-x: auto;
+		border: 1px solid var(--bg-elevated);
+		border-radius: 8px;
+	}
+
+	.heatmap-table {
+		width: 100%;
+		min-width: 980px;
+		border-collapse: collapse;
+		font-size: 0.74rem;
+	}
+
+	.heatmap-table th,
+	.heatmap-table td {
+		border: 1px solid rgba(148, 163, 184, 0.15);
+		padding: 6px;
+		text-align: center;
+	}
+
+	.heatmap-table th {
+		background: var(--bg-deep);
+		color: var(--text-secondary);
+		font-weight: 700;
+	}
+
+	.heatmap-table td {
+		background: rgba(59, 130, 246, var(--heat));
+		color: #eff6ff;
+		min-width: 38px;
+		height: 34px;
+	}
+
+	.heatmap-table td span {
+		font-weight: 700;
+	}
+
+	.timing-top-list {
+		display: grid;
+		grid-template-columns: repeat(4, minmax(0, 1fr));
+		gap: 10px;
+		margin-top: 12px;
+	}
+
+	.timing-top-item {
+		border: 1px solid var(--bg-elevated);
+		background: var(--bg-deep);
+		border-radius: 8px;
+		padding: 9px;
+		display: grid;
+		gap: 2px;
+	}
+
+	.timing-top-item span,
+	.timing-top-item small {
+		color: var(--text-secondary);
+	}
+
+	.timing-top-item strong {
+		color: var(--text-primary);
+	}
+
+	.release-layout {
+		display: grid;
+		grid-template-columns: minmax(0, 1.2fr) minmax(360px, 0.8fr);
+		gap: 12px;
+	}
+
+	.release-table-wrapper {
+		max-height: 620px;
+		overflow-y: auto;
+	}
+
+	.release-table td small {
+		display: block;
+		margin-top: 3px;
+		color: var(--text-secondary);
+		font-size: 0.7rem;
+	}
+
+	.release-path {
+		margin-top: 4px;
+		color: var(--text-secondary);
+		font-size: 0.72rem;
+		word-break: break-word;
+	}
+
+	.band-pill {
+		display: inline-flex;
+		align-items: center;
+		border-radius: 999px;
+		padding: 4px 8px;
+		font-size: 0.72rem;
+		font-weight: 700;
+		white-space: nowrap;
+	}
+
+	.band-above {
+		background: rgba(16, 185, 129, 0.16);
+		color: #86efac;
+	}
+
+	.band-below {
+		background: rgba(251, 113, 133, 0.16);
+		color: #fda4af;
+	}
+
+	.band-collecting {
+		background: rgba(59, 130, 246, 0.16);
+		color: #bfdbfe;
+	}
+
+	.band-neutral {
+		background: rgba(148, 163, 184, 0.18);
+		color: var(--text-secondary);
+	}
+
+	.release-growth-panel {
+		padding: 12px;
+	}
+
+	.release-detail-header {
+		display: flex;
+		align-items: flex-start;
+		justify-content: space-between;
+		gap: 10px;
+		margin-bottom: 10px;
+	}
+
+	.release-detail-header h3 {
+		margin: 0;
+		font-size: 1rem;
+	}
+
+	.release-detail-header p {
+		margin: 4px 0 0;
+		color: var(--text-secondary);
+		font-size: 0.8rem;
+	}
+
+	.release-detail-grid {
+		display: grid;
+		grid-template-columns: repeat(4, minmax(0, 1fr));
+		gap: 8px;
+		margin-top: 10px;
+	}
+
+	.release-detail-grid div {
+		border: 1px solid var(--bg-elevated);
+		border-radius: 8px;
+		padding: 8px;
+		display: grid;
+		gap: 4px;
+	}
+
+	.release-events-section {
+		margin-top: 14px;
+		border-top: 1px solid var(--bg-elevated);
+		padding-top: 12px;
+	}
+
+	.release-events-header {
+		display: flex;
+		align-items: flex-start;
+		justify-content: space-between;
+		gap: 10px;
+		margin-bottom: 10px;
+	}
+
+	.release-events-header h4 {
+		margin: 0;
+		font-size: 0.95rem;
+	}
+
+	.release-events-header p {
+		margin: 3px 0 0;
+		color: var(--text-secondary);
+		font-size: 0.76rem;
+	}
+
+	.release-event-form {
+		display: grid;
+		grid-template-columns: minmax(120px, 0.8fr) minmax(130px, 1fr) minmax(170px, 1fr) auto;
+		gap: 8px;
+		align-items: end;
+		margin-bottom: 12px;
+	}
+
+	.release-event-form label {
+		display: grid;
+		gap: 4px;
+		min-width: 0;
+	}
+
+	.release-event-form label span {
+		font-size: 0.72rem;
+		color: var(--text-secondary);
+	}
+
+	.release-event-form select,
+	.release-event-form input {
+		width: 100%;
+		min-width: 0;
+		border: 1px solid var(--bg-elevated);
+		border-radius: 8px;
+		background: var(--bg-deep);
+		color: var(--text-primary);
+		padding: 8px;
+		font-size: 0.8rem;
+	}
+
+	.release-events-list {
+		display: grid;
+		gap: 8px;
+	}
+
+	.release-event-item {
+		border: 1px solid var(--bg-elevated);
+		border-radius: 8px;
+		padding: 9px;
+		display: grid;
+		grid-template-columns: minmax(0, 1fr) auto;
+		gap: 10px;
+		align-items: center;
+	}
+
+	.release-event-item strong {
+		color: var(--text-primary);
+	}
+
+	.release-event-item span,
+	.release-event-item small {
+		display: block;
+		color: var(--text-secondary);
+		font-size: 0.74rem;
+	}
+
+	.release-event-impact {
+		text-align: right;
+		white-space: nowrap;
+	}
+
+	.release-event-impact strong {
+		font-size: 0.95rem;
+	}
+
+	.release-event-impact strong.positive {
+		color: #86efac;
+	}
+
 	.table-header {
 		display: flex;
 		align-items: flex-start;
@@ -1880,6 +3019,10 @@
 		.top-lists-grid {
 			grid-template-columns: repeat(2, minmax(0, 1fr));
 		}
+
+		.release-layout {
+			grid-template-columns: 1fr;
+		}
 	}
 
 	@media (max-width: 1200px) {
@@ -1893,6 +3036,17 @@
 
 		.top-trend-layout {
 			grid-template-columns: 280px 1fr;
+		}
+
+		.timing-overview,
+		.release-summary-grid,
+		.timing-top-list,
+		.release-detail-grid {
+			grid-template-columns: repeat(2, minmax(0, 1fr));
+		}
+
+		.release-event-form {
+			grid-template-columns: repeat(2, minmax(0, 1fr));
 		}
 	}
 
@@ -2031,6 +3185,34 @@
 
 		.table-path-button {
 			font-size: 0.82rem;
+		}
+
+		.timing-overview,
+		.release-summary-grid,
+		.timing-top-list,
+		.release-detail-grid {
+			grid-template-columns: 1fr;
+		}
+
+		.release-detail-header {
+			flex-direction: column;
+		}
+
+		.release-event-item {
+			grid-template-columns: 1fr;
+		}
+
+		.release-events-header {
+			flex-direction: column;
+		}
+
+		.release-event-form {
+			grid-template-columns: 1fr;
+		}
+
+		.release-event-impact {
+			text-align: left;
+			white-space: normal;
 		}
 	}
 </style>

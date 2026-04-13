@@ -17,6 +17,51 @@ vi.mock('$lib/components/charts/StatCard.svelte', async () => {
 import AnalyticsPage from './+page.svelte';
 
 describe('/admin/analytics page', () => {
+	const pageData = {
+		filters: {
+			from: '2026-03-10',
+			to: '2026-04-08',
+			scope: 'all'
+		},
+		cohortFilters: {
+			from: '2026-02-09',
+			to: '2026-04-05',
+			entrySurface: '',
+			acquisitionSource: ''
+		},
+		overview: {
+			total_visits: 12,
+			unique_visitors: 10,
+			authenticated_visits: 4,
+			anonymous_visits: 8,
+			avg_time_on_page_ms: 30000,
+			median_time_on_page_ms: 22000,
+			bounce_rate: 41.5
+		},
+		timeseries: [],
+		topPages: {
+			topPagesOverTime: [],
+			topPagesThisWeek: [],
+			topPagesThisMonth: [],
+			topPagesBySessionDuration: [],
+			windows: {
+				selectedFrom: '2026-03-10',
+				selectedTo: '2026-04-08',
+				weekFrom: '2026-04-06',
+				weekTo: '2026-04-08',
+				monthFrom: '2026-04-01',
+				monthTo: '2026-04-08'
+			}
+		},
+		rows: [],
+		pagination: {
+			total: 0,
+			page: 1,
+			limit: 50,
+			totalPages: 1
+		}
+	};
+
 	beforeEach(() => {
 		vi.stubGlobal(
 			'fetch',
@@ -41,50 +86,7 @@ describe('/admin/analytics page', () => {
 
 	it('loads cohort analytics only after the cohort tab is opened', async () => {
 		render(AnalyticsPage, {
-			data: {
-				filters: {
-					from: '2026-03-10',
-					to: '2026-04-08',
-					scope: 'all'
-				},
-				cohortFilters: {
-					from: '2026-02-09',
-					to: '2026-04-05',
-					entrySurface: '',
-					acquisitionSource: ''
-				},
-				overview: {
-					total_visits: 12,
-					unique_visitors: 10,
-					authenticated_visits: 4,
-					anonymous_visits: 8,
-					avg_time_on_page_ms: 30000,
-					median_time_on_page_ms: 22000,
-					bounce_rate: 41.5
-				},
-				timeseries: [],
-				topPages: {
-					topPagesOverTime: [],
-					topPagesThisWeek: [],
-					topPagesThisMonth: [],
-					topPagesBySessionDuration: [],
-					windows: {
-						selectedFrom: '2026-03-10',
-						selectedTo: '2026-04-08',
-						weekFrom: '2026-04-06',
-						weekTo: '2026-04-08',
-						monthFrom: '2026-04-01',
-						monthTo: '2026-04-08'
-					}
-				},
-				rows: [],
-				pagination: {
-					total: 0,
-					page: 1,
-					limit: 50,
-					totalPages: 1
-				}
-			} as any
+			data: pageData as any
 		});
 
 		expect(fetch).not.toHaveBeenCalled();
@@ -104,5 +106,29 @@ describe('/admin/analytics page', () => {
 		await fireEvent.click(screen.getByRole('tab', { name: 'Acquisition & Retention' }));
 
 		expect(fetch).toHaveBeenCalledTimes(1);
+	});
+
+	it('loads timing and release analytics only after their tabs are opened', async () => {
+		render(AnalyticsPage, {
+			data: pageData as any
+		});
+
+		expect(fetch).not.toHaveBeenCalled();
+
+		await fireEvent.click(screen.getByRole('tab', { name: 'Traffic Timing' }));
+
+		await waitFor(() => {
+			expect(fetch).toHaveBeenCalledWith(
+				'/api/admin/analytics/timing?from=2026-03-10&to=2026-04-08&scope=all'
+			);
+		});
+
+		await fireEvent.click(screen.getByRole('tab', { name: 'Release Performance' }));
+
+		await waitFor(() => {
+			expect(fetch).toHaveBeenCalledWith(
+				'/api/admin/analytics/releases?from=2026-03-10&to=2026-04-08&scope=all&limit=80'
+			);
+		});
 	});
 });
