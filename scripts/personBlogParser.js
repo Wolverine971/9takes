@@ -834,7 +834,7 @@ async function publishSupabaseEntry(supabase, entry, publishDate) {
 	const publishedAt = new Date().toISOString();
 	const { data: existing, error: lookupError } = await supabase
 		.from('blogs_famous_people')
-		.select('id,person,published_at,first_published_at')
+		.select('id,person,published,created_at,published_at,first_published_at')
 		.ilike('person', entry.person)
 		.maybeSingle();
 
@@ -842,7 +842,11 @@ async function publishSupabaseEntry(supabase, entry, publishDate) {
 		throw new Error(`Unable to read publish metadata for ${entry.person}: ${lookupError.message}`);
 	}
 
-	const firstPublishedAt = existing?.first_published_at || existing?.published_at || publishedAt;
+	const firstPublishedAt =
+		existing?.first_published_at || existing?.published_at || existing?.created_at || publishedAt;
+	const hasPriorPublication = Boolean(
+		existing?.first_published_at || existing?.published_at || existing?.published === true
+	);
 	const { data, error } = await supabase
 		.from('blogs_famous_people')
 		.update({
@@ -871,8 +875,7 @@ async function publishSupabaseEntry(supabase, entry, publishDate) {
 		content_type: 'people',
 		content_slug: contentSlug,
 		path: `/personality-analysis/${contentSlug}`,
-		event_type:
-			existing?.published_at || existing?.first_published_at ? 'republished' : 'published',
+		event_type: hasPriorPublication ? 'republished' : 'published',
 		event_at: publishedAt,
 		source: 'personBlogParser',
 		metadata: {
