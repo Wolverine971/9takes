@@ -6,7 +6,7 @@ description: "Bruno Mars looks like the easiest thing in the world. His producer
 author: 'DJ Wayne'
 date: '2026-04-13'
 loc: 'https://9takes.com/personality-analysis/Bruno-Mars'
-lastmod: '2026-04-13'
+lastmod: '2026-04-14'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
@@ -30,6 +30,15 @@ production_pretext:
     - regenerate_famous_types
     - image_check
   blockers: []
+content_quality:
+  hook: 9.0
+  enneagram: 8.5
+  evidence: 8.0
+  writing: 8.5
+  originality: 8.5
+  overall: 8.5
+  letter: B+
+  graded_at: '2026-04-14'
 path: src/blog/people/drafts/Bruno-Mars.md
 ---
 
@@ -75,7 +84,7 @@ Look at Bruno Mars and you see this pattern in everything:
 - An adult whose music brims with emotion while his private life remains a sealed room
 - A performer whose one truly naked song is the one he describes as "bleeding"
 
-The shame that drives Type 3 is not shame about any specific thing. It's a quiet terror that nothing real exists beneath the presentation. Every win briefly silences that voice. Then it comes back. You need a bigger win.
+The shame that drives Type 3 is not shame about any specific thing. It's a [quiet terror](/enneagram-corner/enneagram-anxiety-management-guide) that nothing real exists beneath the presentation. Every win briefly silences that voice. Then it comes back. You need a bigger win.
 
 Bruno Mars has been outrunning that voice since he was four years old.
 
@@ -141,7 +150,7 @@ The Super Bowl came four years later.
 
 ## The Private Perfectionist
 
-_Doo-Wops & Hooligans_ (2010) proved he could win the mainstream. _Unorthodox Jukebox_ (2012) showed what he did once the audition was over: harder, stranger, a Prince-influenced track called "Gorilla" that had no business being a single. _24K Magic_ (2016) settled into pure 80s funk mastery, the kind of project you only make when you've stopped proving anything. Each album was built the same way: know exactly where you want to end up, then obsess until you arrive.
+_Doo-Wops & Hooligans_ (2010) proved he could win the mainstream. _Unorthodox Jukebox_ (2012) showed what he did once the audition was over: harder, stranger, a [Prince](/personality-analysis/prince)-influenced track called "Gorilla" that had no business being a single. _24K Magic_ (2016) settled into pure 80s funk mastery, the kind of project you only make when you've stopped proving anything. Each album was built the same way: know exactly where you want to end up, then obsess until you arrive.
 
 By 2014, when Bruno Mars took the Super Bowl XLVIII halftime stage in front of 115 million viewers, that operating system was fully visible to anyone paying attention. He had a Number 1 debut album, back-to-back Grammys, and the kind of cultural momentum that makes record executives forget they ever passed on someone.
 
@@ -159,11 +168,7 @@ Rolling Stone titled their 2016 profile of him "The Private Anxiety of a Pop Per
 
 ## "You Need Rest"
 
-In May 2013, Mars was performing on a German television program when his mother, watching from Hawaii, sent a text. She'd seen the bags under his eyes on screen. She wrote what she always wrote when she worried: "You need rest."
-
-He was mid-tour, running on the fuel that touring provides. He didn't immediately write back. When he landed in Los Angeles, the call came: a brain aneurysm. He boarded another plane and flew straight to Honolulu. Bernadette was 55 years old. She never regained consciousness.
-
-He went quiet for a while after that. What he has said in the years since is measured but illuminating.
+After Bernadette died, he went quiet. What he has said in the years since is measured but illuminating.
 
 "To this day, I don't know how to handle it. That piece of your heart is just gone forever."
 

@@ -1,0 +1,46 @@
+[2026-04-14 02:01:05] [INFO] Starting daily blog creator - manual recovery run
+[2026-04-14 02:01:05] [WARN] Stale inProgress detected: bruno-mars (started 2026-04-13T02:00:00Z, no draft created)
+[2026-04-14 02:01:05] [INFO] Recovering: clearing stale inProgress, incrementing retryCount to 1
+[2026-04-14 02:01:20] [INFO] Checking override.json - pause: false
+[2026-04-14 02:01:20] [INFO] Rate limit: 3/5 this week
+[2026-04-14 02:01:20] [INFO] Selected: bruno-mars (Type 7, Priority: 93, Retry: 1)
+[2026-04-14 02:01:21] [INFO] Reason: Global pop star, consistent search volume, entertaining Type 7 analysis
+[2026-04-14 02:01:21] [INFO] Executing blog_content_creator_people...
+Draft updated. Here's what was done and where the blog stands:
+
+---
+
+**Existing draft found** at `src/blog/people/drafts/Bruno-Mars.md` — already through 3 revision passes (Fresh Eyes, Second Pass, Editor Pass). This session completed the final cleanup.
+
+**Changes made today:**
+
+1. **Fixed "You Need Rest" repetition** — The section was re-telling the mother's text + hospital + death, all of which the intro already covers fully. Stripped the setup so the section opens directly into the grief aftermath: *"After Bernadette died, he went quiet."* The emotional weight of the intro hook is preserved; the "You Need Rest" section now earns its space with his quotes rather than repeating setup.
+
+2. **Added 2 internal links** (total now 3):
+   - `[Prince](/personality-analysis/prince)` in "The Private Perfectionist" — natural placement as analysis text, not inside a quote
+   - `[quiet terror](/enneagram-corner/enneagram-anxiety-management-guide)` in the Type 3 section — links the core Type 3 fear to the anxiety guide
+
+3. **Graded and added `content_quality` block** to frontmatter
+
+---
+
+**Quality Grade:**
+
+```json
+{
+  "hook": 9.0,
+  "enneagram": 8.5,
+  "evidence": 8.0,
+  "writing": 8.5,
+  "originality": 8.5,
+  "overall": 8.5,
+  "letter": "B+",
+  "graded_at": "2026-04-14"
+}
+```
+
+The blog hits the B+ handoff threshold (8.5). The strongest element is the hook — the mother's text opening is specific, emotionally loaded, and names the core tension ("The effortlessness is real. So is the obsession.") within five paragraphs. The "When I Was Your Man" analysis is the aha moment. The ending callback ("He still hasn't slept") lands.
+
+The evidence score (8.0) is the ceiling here — the sourcing is solid journalism/Rolling Stone but lacks the long-form podcast transcript depth that pushes blogs to A-range. That's a research-investment call, not a writing problem.
+
+**Next step:** When you're ready to push this to production, run `blog_content_production_people` to sync to the database.

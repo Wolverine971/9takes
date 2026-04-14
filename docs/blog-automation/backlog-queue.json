@@ -1,24 +1,11 @@
 {
-	"lastUpdated": "2026-04-13T02:00:00Z",
+	"lastUpdated": "2026-04-14T12:00:00Z",
 	"stats": {
 		"totalUnpublished": 107,
 		"totalPublished": 265,
 		"completionRate": "71.2%"
 	},
 	"queue": [
-		{
-			"name": "bruno-mars",
-			"displayName": "Bruno Mars",
-			"type": 7,
-			"priority": 93,
-			"priorityReason": "Global pop star, consistent search volume, entertaining Type 7 analysis",
-			"estimatedTraffic": "very-high",
-			"searchVolume": "very-high",
-			"personaTitle": null,
-			"addedToQueue": "2026-04-03",
-			"retryCount": 0,
-			"strategicValue": "contemporary-music-cluster"
-		},
 		{
 			"name": "jensen-huang",
 			"displayName": "Jensen Huang",
@@ -555,6 +542,17 @@
 	],
 	"completed": [
 		{
+			"name": "bruno-mars",
+			"displayName": "Bruno Mars",
+			"type": 3,
+			"priority": 93,
+			"completedAt": "2026-04-14T12:00:00Z",
+			"contentGrade": 8.5,
+			"letterGrade": "B+",
+			"duration": 30,
+			"needsReview": false
+		},
+		{
 			"name": "sza",
 			"displayName": "SZA",
 			"type": 4,
@@ -678,11 +676,11 @@
 		}
 	],
 	"inProgress": {
-		"name": "bruno-mars",
-		"displayName": "Bruno Mars",
-		"type": 7,
-		"priority": 93,
-		"startedAt": "2026-04-13T02:00:00Z"
+		"name": "jensen-huang",
+		"displayName": "Jensen Huang",
+		"type": 3,
+		"priority": 92,
+		"startedAt": "2026-04-14T12:00:00Z"
 	},
 	"failed": [
 		{

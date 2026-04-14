@@ -4,12 +4,12 @@ meta_title: "Why Steve Carell Tried So Hard to Disappear (and Couldn't)"
 persona_title: "Comedy's Invisible Lead"
 description: 'Steve Carell spent his whole childhood trying not to stand out. Then he became one of the most watched men on TV. Inside his quiet Type 9 paradox.'
 author: 'DJ Wayne'
-date: '2026-04-08'
+date: '2026-04-14'
 loc: 'https://9takes.com/personality-analysis/Steve-Carell'
-lastmod: '2026-04-08'
+lastmod: '2026-04-14'
 changefreq: 'monthly'
 priority: '0.6'
-published: false
+published: true
 enneagram: '9'
 type: ['celebrity', 'movieStar', 'comedian']
 person: 'Steve-Carell'

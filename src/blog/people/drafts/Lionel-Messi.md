@@ -4,12 +4,12 @@ meta_title: 'Why the Greatest Footballer Alive Hid Behind a Tree'
 persona_title: "Football's Quiet Volcano"
 description: "The boy they called 'the mute one' became the most dominant athlete on earth. How Messi's silence became his greatest weapon."
 author: 'DJ Wayne'
-date: '2026-04-09'
+date: '2026-04-14'
 loc: 'https://9takes.com/personality-analysis/Lionel-Messi'
-lastmod: '2026-04-10'
+lastmod: '2026-04-14'
 changefreq: 'monthly'
 priority: '0.6'
-published: false
+published: true
 enneagram: 9
 type: ['celebrity']
 person: 'Lionel-Messi'

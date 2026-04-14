@@ -11,7 +11,7 @@
   </url>
   <url>
     <loc>https://9takes.com/blog</loc>
-    <lastmod>2026-04-13</lastmod>
+    <lastmod>2026-04-14</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/blog/experiment</loc>
@@ -887,7 +887,7 @@
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis</loc>
-    <lastmod>2026-04-13</lastmod>
+    <lastmod>2026-04-14</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/abraham-lincoln</loc>
@@ -1185,7 +1185,7 @@
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/categories</loc>
-    <lastmod>2026-04-13</lastmod>
+    <lastmod>2026-04-14</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/categories/authors-thinkers</loc>
@@ -1193,7 +1193,7 @@
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/categories/comedy</loc>
-    <lastmod>2026-04-12</lastmod>
+    <lastmod>2026-04-14</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/categories/creator-media</loc>
@@ -1201,7 +1201,7 @@
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/categories/film-tv</loc>
-    <lastmod>2026-04-13</lastmod>
+    <lastmod>2026-04-14</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/categories/music</loc>
@@ -2084,6 +2084,13 @@
     </image:image>
   </url>
   <url>
+    <loc>https://9takes.com/personality-analysis/lionel-messi</loc>
+    <lastmod>2026-04-14</lastmod>
+    <image:image>
+      <image:loc>https://9takes.com/types/9s/Lionel-Messi.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
     <loc>https://9takes.com/personality-analysis/logan-paul</loc>
     <lastmod>2026-02-18</lastmod>
     <image:image>
@@ -2665,6 +2672,13 @@
     </image:image>
   </url>
   <url>
+    <loc>https://9takes.com/personality-analysis/steve-carell</loc>
+    <lastmod>2026-04-14</lastmod>
+    <image:image>
+      <image:loc>https://9takes.com/types/9s/Steve-Carell.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
     <loc>https://9takes.com/personality-analysis/steve-jobs</loc>
     <lastmod>2026-03-28</lastmod>
     <image:image>
@@ -2901,7 +2915,7 @@
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/type/9</loc>
-    <lastmod>2026-04-13</lastmod>
+    <lastmod>2026-04-14</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/vladimir-putin</loc>
