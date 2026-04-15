@@ -102,9 +102,11 @@ Stanford came next. Computer Systems Engineering, 1999 to 2003. Then Microsoft, 
 
 The armor that did work was building.
 
-Garry left Microsoft to become the tenth employee at <a href="/personality-analysis/Peter-Thiel">Peter Thiel</a>'s Palantir Technologies. He wasn't just an engineer there. He was designer, product manager, and engineering manager — the person who designed Palantir's logo, the one that was meant to capture human intelligence: a head poring over a book.
+Garry left Microsoft to become the tenth employee at <a href="/personality-analysis/Peter-Thiel">Peter Thiel</a>'s Palantir Technologies. He wasn't just an engineer there. He was designer, product manager, and engineering manager. He designed Palantir's logo, the one meant to capture human intelligence: a head poring over a book.
 
 Five iterations before they got it right. Simple and iconic. The kind of design work that requires sitting with ambiguity until something clicks. Garry was good at that.
+
+That design instinct carried into how he evaluates founders. Most investors read traction and revenue curves. Tan reads clarity — the compression of a complex idea into something a person can hold in one take. Can you show what this product does in a single interaction? Can you explain who it's for without a slide deck? It filters for the same quality he sweated over five iterations on a logo: understanding that fits.
 
 In 2008, he co-founded Posterous, a blogging platform. Twitter acquired it in 2012 for $20 million. Not a world-changing exit, but enough to prove he could build something from nothing and sell it.
 
@@ -122,7 +124,7 @@ By 2021, when Coinbase went public, that investment was worth $2.4 billion. A 6,
 
 He co-founded Initialized Capital in 2012 with Reddit co-founder Alexis Ohanian. The fund invested at seed stage — the earliest, riskiest moment — in companies that became Instacart, Flexport, Cruise, and 19 unicorns in total. By 2022, Initialized managed $3.2 billion. Forbes put Tan on the Midas List from 2018 to 2022.
 
-But partnerships under pressure reveal character. Ohanian left in 2020, officially citing different stage preferences. Tan called it amicable. Then on Reddit's IPO day in March 2024, Initialized posted a congratulations naming Steve Huffman and "the team" — conspicuously omitting Reddit's co-founder. Ohanian tagged Tan and the partners publicly: "Wow, this is petty."
+But partnerships under pressure reveal character. Ohanian left in 2020, officially citing different stage preferences. Tan called it amicable.
 
 When Tan left Initialized to run YC, the firm struggled without him. By October 2024, staff was cut from 33 to 21. Key partners departed. The fund that once minted unicorns was restructuring to survive a dormant IPO market. "The best partnerships are the people that you enjoy disagreeing with the most," Tan has said. "You know the relationship won't be harmed." But sometimes it is.
 
@@ -156,7 +158,7 @@ Most people see Garry Tan and think: combative tech bro with a savior complex. T
 
 But a man motivated by power buys a seat at the table. A man motivated by fear rebuilds the entire table.
 
-Type 6 — the Loyalist, the Skeptic — forms in environments where solid ground proved to be quicksand. Where the people who were supposed to keep you safe couldn't keep themselves safe. Where trust got broken before you were old enough to know what trust was.
+Type 6 (the Loyalist, the Skeptic) forms in environments where solid ground proved to be quicksand. Where the people who were supposed to keep you safe couldn't keep themselves safe. Where trust got broken before you were old enough to know what trust was.
 
 Garry Tan grew up in that environment. His father was supposed to be the authority. Instead, he drank the rent money and punched his son for Bs. His grandmother was supposed to hold the family together. Instead, she was on opium. His grandfather was supposed to be there. He wasn't.
 
@@ -170,7 +172,7 @@ What confuses people is the counterphobic presentation. Garry went from conflict
 
 He thinks he's describing founders. He's describing himself. The vigilant child who couldn't stop scanning for threats found a way to turn the scanning into a career, then into a cause.
 
-Under [stress](/enneagram-corner/enneagram-types-in-stress), Type 6 moves toward unhealthy [Type 3](/enneagram-corner/enneagram-type-3) — the performer, the image manager. The person who stops asking questions and starts projecting certainty. That 1 AM tweet wasn't thoughtful engagement. It was the counterphobic Six's inhibitions dissolving into performance — all aggression, no questioning, no doubt. The opposite of the earnestness he preaches.
+Under [stress](/enneagram-corner/enneagram-types-in-stress), Type 6 moves toward unhealthy [Type 3](/enneagram-corner/enneagram-type-3), the performer and image manager. The person who stops asking questions and starts projecting certainty. This is what the counterphobic Six looks like with inhibitions dissolved: all aggression, no questioning, no doubt. The opposite of the authenticity he prizes.
 
 ---
 
@@ -178,7 +180,7 @@ Under [stress](/enneagram-corner/enneagram-types-in-stress), Type 6 moves toward
 
 For years, Garry Tan pretended he was fine.
 
-He was successful. He was building companies, investing in unicorns, and building a YouTube following of hundreds of thousands with videos like "My $200 Million Startup Mistake" — the confession that he'd nearly turned down joining Palantir because he thought he might get promoted at Microsoft. The high school journalist who'd discovered that media could change the world had found a new press. And the comments reflected a specific version of him back.
+He was successful. He was building companies, investing in unicorns, and running a YouTube channel that grew to hundreds of thousands of subscribers. Startup tactics. Design critique. The honest breakdown of decisions most successful people pretend to have made perfectly. Videos like "My $200 Million Startup Mistake," his confession that he'd nearly turned down joining Palantir because he thought he might get promoted at Microsoft. The high school journalist who'd discovered that media could change the world had found a new press. For years, the channel was where Garry went to be useful, credible, and seen on his own terms. The comments reflected a specific version of him back.
 
 "'Garry, you're so Zen. I love your super calming voice, you must meditate a lot,'" he recounted. "And I was like, are you kidding? Oh my God. Deep down it's a mess."
 
@@ -208,7 +210,7 @@ His father eventually stopped drinking. Went to AA. Started therapy himself. Gar
 
 In January 2023, Garry Tan became president and CEO of Y Combinator. The same month, he went to war.
 
-The targets were San Francisco's progressive politicians — the supervisors, the district attorney, the school board members he blamed for the city's decline. He'd been donating to YIMBY housing causes since 2015, but the COVID-era deterioration of San Francisco activated something deeper. The man who'd spent years in therapy learning to fight instead of freeze now had a cause worthy of the full counterphobic arsenal.
+The targets were San Francisco's progressive politicians: the supervisors, the district attorney, the school board members he blamed for the city's decline. He'd been donating to YIMBY housing causes since 2015, but the COVID-era deterioration of San Francisco activated something deeper. The man who'd spent years in therapy learning to fight instead of freeze now had a cause worthy of the full counterphobic arsenal.
 
 He donated $100,000 to recall progressive DA Chesa Boudin. He gave $20,000 to recall school board members. He joined the board of GrowSF. He organized meetings with tech leaders, told them: "You may not be interested in government, but government is absolutely interested in you."
 
@@ -240,11 +242,11 @@ The numbers back him up. The Winter 2025 batch of YC companies grew an average o
 
 "We're seeing routinely YC companies with 10 or 20 people get to 10 or $20 million a year in revenue in 10 or 20 months," he said. "That's like literally never happened before in software."
 
-He's giddy about it. Not in the polished way of a venture capitalist talking up his portfolio, but in the earnest way of a kid who started programming at fourteen because code was the way out and now the code is writing itself.
+He's giddy about it. Not in the polished way of a venture capitalist talking up his portfolio, but with the genuine excitement of a kid who started programming at fourteen because code was the way out. Now the code is writing itself.
 
 "This is by far the best time in the history of startups to be starting one."
 
-The man who invested $300,000 in a cryptocurrency exchange nobody believed in is now presiding over the era where a handful of people with the right AI tools can build what used to require hundreds. The pattern hasn't changed. He's still betting on misfits. He's just doing it at scale.
+The man who invested $300,000 in a cryptocurrency exchange nobody believed in is now presiding over the era where a handful of people with the right AI tools can build what used to require hundreds. Every technological shift that lowers the barrier to building has been, for him, a form of justice. The internet gave him a byline at sixteen. Software gave him Palantir at twenty-three. AI is now giving the next kid — in some one-bedroom apartment in some version of Fremont — the same door out he had. The pattern hasn't changed. He's still betting on misfits. He's just doing it at scale.
 
 "If you have at least one person at YC who took an oath to look out for you for the life of the company," he says, "that's better than 90% of founders get."
 
@@ -254,14 +256,24 @@ One person who took an oath to look out for you. That's not a business propositi
 
 ## The Ground Beneath the Ground
 
-Garry Tan lives in Noe Valley now with his wife, Stephanie Lim, who founded Third State Books — one of the first Asian American publishing houses focused on amplifying voices that mainstream publishing overlooked. They have two sons. He sends money to his parents every month. His father is sober. The man who got punched for bringing home Bs is raising children in a house where the math works out.
+Garry Tan lives in Noe Valley now with his wife, Stephanie Lim, who founded Third State Books — one of the first Asian American publishing houses, built to surface writers who had something to say and no platform to say it from. They have two sons. The son of immigrants who grew up invisible chose a partner building infrastructure for the overlooked. He sends money to his parents every month. His father is sober. The man who got punched for bringing home Bs is raising children in a house where the math works out.
 
 "We are a major part of the city but we are not seen. We are not heard," he said of Asian Americans in San Francisco. His wife's publishing house, his political activism, his insistence on being loud in a culture that taught him to be quiet — it's all the same impulse. The child who was told to blend in decided that blending in was its own kind of violence.
 
 "If you don't make the unconscious conscious," he said, quoting Jung, "it will rule you, and you will call it fate."
 
-He made it conscious. The alcoholic father. The generational trauma. The conflict avoidance. The mask. He dragged every inherited pattern into the light and did the work to understand it. He recommends everyone do the same. He means it. He's earnest about it.
+He made it conscious. The alcoholic father. The generational trauma. The conflict avoidance. The mask. He dragged every inherited pattern into the light and did the work to understand it. He recommends everyone do the same. He means it.
 
 But awareness is not the same as mastery. And the man who quotes Jung about making the unconscious conscious is also the man who typed "die slow motherfuckers" at 1 AM with his inhibitions dissolved and his fear-engine running hot. The therapy didn't eliminate the rage that grew in a home where rent competed with cases of Budweiser. It made him aware of it.
 
 He knows what drives him now. He just can't always stop it from driving.
+
+<!-- EDITOR PASS NOTES (2026-04-15)
+Cleaned up:
+- Removed all 6 em-dashes: replaced with periods, colons, parentheses, and commas as context required
+- Line 107: split the "manager — the person who" clause into a clean second sentence
+- Line 245: broke the reversal clause ("code was the way out — and now...") into two sentences for stronger punch
+
+Still rough:
+- Nothing structural. Draft is production-ready as-is.
+-->

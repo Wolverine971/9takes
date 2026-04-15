@@ -24,6 +24,110 @@ function escapeHtml(value: string): string {
 	});
 }
 
+function renderUnsubscribePage({
+	title,
+	message,
+	recipientEmail,
+	actionHtml
+}: {
+	title: string;
+	message: string;
+	recipientEmail: string;
+	actionHtml: string;
+}) {
+	const escapedRecipientEmail = escapeHtml(recipientEmail);
+
+	return `<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noindex, nofollow">
+  <title>${escapeHtml(title)} - 9takes</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      min-height: 100vh;
+      background: #f6f7f9;
+      color: #17181c;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    main {
+      width: min(100% - 32px, 460px);
+      background: #ffffff;
+      border: 1px solid #e5e7eb;
+      border-radius: 8px;
+      padding: 32px;
+    }
+    .brand {
+      color: #17181c;
+      display: inline-block;
+      font-size: 18px;
+      font-weight: 700;
+      margin-bottom: 24px;
+      text-decoration: none;
+    }
+    h1 {
+      font-size: 24px;
+      line-height: 1.2;
+      margin: 0 0 12px;
+    }
+    p {
+      color: #4b5563;
+      font-size: 16px;
+      line-height: 1.55;
+      margin: 0 0 18px;
+    }
+    .email {
+      color: #17181c;
+      font-weight: 650;
+      overflow-wrap: anywhere;
+    }
+    .actions {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      margin-top: 24px;
+      flex-wrap: wrap;
+    }
+    button, .button {
+      appearance: none;
+      border: 0;
+      border-radius: 6px;
+      background: #17181c;
+      color: #ffffff;
+      cursor: pointer;
+      display: inline-block;
+      font-size: 15px;
+      font-weight: 650;
+      padding: 12px 18px;
+      text-decoration: none;
+    }
+    .secondary {
+      background: transparent;
+      color: #4b5563;
+      padding-left: 0;
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <a class="brand" href="https://9takes.com">9takes</a>
+    <h1>${escapeHtml(title)}</h1>
+    <p>${escapeHtml(message)} <span class="email">${escapedRecipientEmail}</span>.</p>
+    <div class="actions">
+      ${actionHtml}
+    </div>
+  </main>
+</body>
+</html>`;
+}
+
 async function getRecipientEmailByTrackingId(
 	supabaseClient: any,
 	trackingId: string
@@ -71,73 +175,23 @@ export const GET: RequestHandler = async ({ params, locals }) => {
 	if (!recipientEmail) {
 		throw error(404, 'Email not found');
 	}
-	const escapedRecipientEmail = escapeHtml(recipientEmail);
 	const safeTrackingId = encodeURIComponent(tracking_id);
 
 	// Render a confirmation page. We intentionally do not mutate subscription state on GET.
-	const html = `<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Unsubscribe - 9takes</title>
-  <style>
-    body {
-      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-      background-color: #f7f7f7;
-      margin: 0;
-      padding: 0;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      min-height: 100vh;
-    }
-    .container {
-      background: white;
-      padding: 40px;
-      border-radius: 8px;
-      box-shadow: 0 1px 3px rgba(0,0,0,0.1);
-      text-align: center;
-      max-width: 400px;
-    }
-    h1 { color: #111; font-size: 24px; margin: 0 0 16px; }
-    p { color: #666; font-size: 16px; line-height: 1.5; margin: 0 0 24px; }
-    a {
-      color: #6c5ce7;
-      text-decoration: none;
-    }
-    a:hover {
-      text-decoration: underline;
-    }
-    button {
-      border: none;
-      border-radius: 6px;
-      background: #6c5ce7;
-      color: #fff;
-      padding: 12px 20px;
-      font-size: 15px;
-      cursor: pointer;
-    }
-    button:hover {
-      background: #5b4cdb;
-    }
-  </style>
-</head>
-<body>
-  <div class="container">
-    <h1>Unsubscribe from 9takes emails?</h1>
-    <p>You're about to unsubscribe <strong>${escapedRecipientEmail}</strong>.</p>
-    <form method="POST" action="/api/track/unsubscribe/${safeTrackingId}">
-      <button type="submit">Confirm unsubscribe</button>
-    </form>
-    <p style="margin-top: 16px;">Changed your mind? <a href="https://9takes.com">Keep me subscribed</a></p>
-  </div>
-</body>
-</html>`;
+	const html = renderUnsubscribePage({
+		title: 'Unsubscribe from 9takes emails?',
+		message: 'You are about to unsubscribe',
+		recipientEmail,
+		actionHtml: `<form method="POST" action="/api/track/unsubscribe/${safeTrackingId}">
+        <button type="submit">Confirm unsubscribe</button>
+      </form>
+      <a class="secondary" href="https://9takes.com">Keep me subscribed</a>`
+	});
 
 	return new Response(html, {
 		headers: {
-			'Content-Type': 'text/html'
+			'Content-Type': 'text/html',
+			'Cache-Control': 'no-store'
 		}
 	});
 };
@@ -166,62 +220,28 @@ export const POST: RequestHandler = async ({ params, request, locals }) => {
 		console.error('Failed to exit welcome sequence on unsubscribe:', sequenceError);
 	}
 
-	const escapedRecipientEmail = escapeHtml(recipientEmail);
-
 	const acceptsHtml = request.headers.get('accept')?.includes('text/html');
 	if (!acceptsHtml) {
-		return new Response('', { status: 200 });
+		return new Response('', {
+			status: 200,
+			headers: {
+				'Cache-Control': 'no-store'
+			}
+		});
 	}
 
-	const html = `<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Unsubscribed - 9takes</title>
-  <style>
-    body {
-      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-      background-color: #f7f7f7;
-      margin: 0;
-      padding: 0;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      min-height: 100vh;
-    }
-    .container {
-      background: white;
-      padding: 40px;
-      border-radius: 8px;
-      box-shadow: 0 1px 3px rgba(0,0,0,0.1);
-      text-align: center;
-      max-width: 420px;
-    }
-    h1 { color: #111; font-size: 24px; margin: 0 0 16px; }
-    p { color: #666; font-size: 16px; line-height: 1.5; margin: 0 0 24px; }
-    a {
-      color: #6c5ce7;
-      text-decoration: none;
-    }
-    a:hover {
-      text-decoration: underline;
-    }
-  </style>
-</head>
-<body>
-  <div class="container">
-    <h1>You've been unsubscribed</h1>
-    <p>You will no longer receive emails from 9takes at <strong>${escapedRecipientEmail}</strong>.</p>
-    <p>Changed your mind? <a href="https://9takes.com">Visit 9takes</a></p>
-  </div>
-</body>
-</html>`;
+	const html = renderUnsubscribePage({
+		title: "You've been unsubscribed",
+		message: 'You will no longer receive emails from 9takes at',
+		recipientEmail,
+		actionHtml: `<a class="button" href="https://9takes.com">Visit 9takes</a>`
+	});
 
 	return new Response(html, {
 		status: 200,
 		headers: {
-			'Content-Type': 'text/html'
+			'Content-Type': 'text/html',
+			'Cache-Control': 'no-store'
 		}
 	});
 };

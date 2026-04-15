@@ -2,6 +2,7 @@
 // Minimal/Clean Email Template for Email Dashboard
 
 // This template prioritizes deliverability and readability
+import { env } from '$env/dynamic/private';
 
 interface TemplateOptions {
 	subject: string;
@@ -29,11 +30,12 @@ export function generateEmailHtml(options: TemplateOptions): string {
 	} = options;
 
 	const year = new Date().getFullYear();
+	const footerAddress = env.EMAIL_FOOTER_ADDRESS?.trim();
 
 	// Process content to replace placeholders
 	// Always replace {{name}} - use actual name or fallback to "there"
 	let processedContent = content;
-	const nameReplacement = recipientName?.trim() || 'there';
+	const nameReplacement = escapeHtml(recipientName?.trim() || 'there');
 	processedContent = processedContent.replace(/\{\{\s*name\s*\}\}/gi, nameReplacement);
 
 	return `<!DOCTYPE html>
@@ -57,20 +59,20 @@ export function generateEmailHtml(options: TemplateOptions): string {
     body, table, td, a { -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
     table, td { mso-table-lspace: 0pt; mso-table-rspace: 0pt; }
     img { -ms-interpolation-mode: bicubic; border: 0; height: auto; line-height: 100%; outline: none; text-decoration: none; }
-    body { height: 100% !important; margin: 0 !important; padding: 0 !important; width: 100% !important; background-color: #f7f7f7; }
+    body { height: 100% !important; margin: 0 !important; padding: 0 !important; width: 100% !important; background-color: #f6f7f9; }
 
     /* Content */
     .email-body { background-color: #ffffff; }
-    .email-content { color: #333333; font-size: 16px; line-height: 1.6; }
-    .email-content h1 { font-size: 24px; font-weight: 600; margin: 0 0 20px; color: #111111; }
-    .email-content h2 { font-size: 20px; font-weight: 600; margin: 20px 0 15px; color: #111111; }
+    .email-content { color: #22252b; font-size: 16px; line-height: 1.62; }
+    .email-content h1 { font-size: 24px; font-weight: 650; margin: 0 0 20px; color: #121417; }
+    .email-content h2 { font-size: 20px; font-weight: 650; margin: 20px 0 15px; color: #121417; }
     .email-content p { margin: 0 0 16px; }
-    .email-content a { color: #6c5ce7; text-decoration: underline; }
+    .email-content a { color: #0f766e; text-decoration: underline; }
     .email-content ul, .email-content ol { margin: 0 0 16px; padding-left: 24px; }
     .email-content li { margin-bottom: 8px; }
 
     /* Button */
-    .button { display: inline-block; padding: 14px 28px; background-color: #6c5ce7; color: #ffffff !important; text-decoration: none !important; border-radius: 6px; font-weight: 600; }
+    .button { display: inline-block; padding: 12px 20px; background-color: #121417; color: #ffffff !important; text-decoration: none !important; border-radius: 6px; font-weight: 650; }
 
     /* Responsive */
     @media screen and (max-width: 600px) {
@@ -80,30 +82,30 @@ export function generateEmailHtml(options: TemplateOptions): string {
     }
   </style>
 </head>
-<body style="margin: 0; padding: 0; background-color: #f7f7f7;">
+<body style="margin: 0; padding: 0; background-color: #f6f7f9;">
   <!-- Preheader -->
-  <div style="display: none; max-height: 0; overflow: hidden; mso-hide: all;">
+  <div style="display: none; max-height: 0; overflow: hidden; mso-hide: all; opacity: 0; color: transparent; font-size: 1px; line-height: 1px;">
     ${preheader ? escapeHtml(preheader) : ''}
     ${'&nbsp;'.repeat(100)}
   </div>
 
-  <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%" style="background-color: #f7f7f7;">
+  <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%" style="background-color: #f6f7f9;">
     <tr>
       <td class="email-wrapper" style="padding: 30px 20px;">
         <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="600" align="center" style="max-width: 600px; margin: 0 auto;">
 
-          <!-- Logo -->
+          <!-- Brand -->
           <tr>
-            <td style="padding: 0 0 24px; text-align: center;">
-              <a href="https://9takes.com" style="text-decoration: none;">
-                <img src="https://9takes.com/brand/aero.png" alt="9takes" width="100" style="max-width: 100px; height: auto;">
+            <td style="padding: 0 0 16px; text-align: left;">
+              <a href="https://9takes.com" style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; color: #121417; font-size: 18px; font-weight: 700; letter-spacing: 0; text-decoration: none;">
+                9takes
               </a>
             </td>
           </tr>
 
           <!-- Body -->
           <tr>
-            <td class="email-body" style="background-color: #ffffff; border-radius: 8px; box-shadow: 0 1px 3px rgba(0,0,0,0.1);">
+            <td class="email-body" style="background-color: #ffffff; border-radius: 8px; border: 1px solid #e5e7eb;">
               <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
                 <tr>
                   <td class="email-body-inner" style="padding: 40px;">
@@ -120,20 +122,27 @@ export function generateEmailHtml(options: TemplateOptions): string {
 						includeFooter
 							? `<!-- Footer -->
           <tr>
-            <td class="email-footer" style="padding: 30px 40px; text-align: center;">
-              <p style="margin: 0 0 10px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 13px; color: #888888;">
+            <td class="email-footer" style="padding: 22px 4px 0; text-align: left;">
+              <p style="margin: 0 0 8px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 12px; line-height: 1.5; color: #69707a;">
                 9takes - See the emotions behind every take
               </p>
               ${
 								unsubscribeUrl
-									? `<p style="margin: 0 0 10px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 13px;">
-                <a href="${escapeHtml(unsubscribeUrl)}" style="color: #888888; text-decoration: underline;">Unsubscribe</a>
+									? `<p style="margin: 0 0 8px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 12px; line-height: 1.5; color: #69707a;">
+                You are receiving this because you signed up for 9takes. <a href="${escapeHtml(unsubscribeUrl)}" style="color: #69707a; text-decoration: underline;">Unsubscribe</a>.
               </p>`
 									: ''
 							}
-              <p style="margin: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 13px; color: #888888;">
+              <p style="margin: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 12px; line-height: 1.5; color: #69707a;">
                 &copy; ${year} 9takes. All rights reserved.
               </p>
+              ${
+								footerAddress
+									? `<p style="margin: 8px 0 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 12px; line-height: 1.5; color: #69707a;">
+                ${escapeHtml(footerAddress)}
+              </p>`
+									: ''
+							}
             </td>
           </tr>`
 							: ''
@@ -171,6 +180,22 @@ export function htmlToPlainText(html: string): string {
 		.replace(/&#39;/g, "'")
 		.replace(/\n{3,}/g, '\n\n')
 		.trim();
+}
+
+export function appendEmailFooterToPlainText(text: string, unsubscribeUrl?: string): string {
+	const cleanText = text.trim();
+	const footerAddress = env.EMAIL_FOOTER_ADDRESS?.trim();
+	const footerLines = [
+		'',
+		'--',
+		'9takes - See the emotions behind every take',
+		unsubscribeUrl
+			? `You are receiving this because you signed up for 9takes. Unsubscribe: ${unsubscribeUrl}`
+			: null,
+		footerAddress || null
+	].filter((line): line is string => line !== null);
+
+	return `${cleanText}\n${footerLines.join('\n')}`.trim();
 }
 
 /**

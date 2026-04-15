@@ -18,6 +18,7 @@ import {
 	sendEmailWithTracking
 } from '$lib/email/sender';
 import { getSuppressedEmailSet, normalizeEmail } from '$lib/email/suppression';
+import { getSupabaseAdminClient } from '$lib/server/supabaseAdmin';
 import { logger } from '$lib/utils/logger';
 import { emailSubmissionSchema, emailTemplateSchema } from '$lib/validation/schemas';
 import { z } from 'zod';
@@ -166,13 +167,22 @@ export const actions: Actions = {
 			});
 		}
 
-		// Send welcome email
+		// Send welcome email through the managed sender so the message has tracking,
+		// suppression, and a working unsubscribe flow.
 		try {
-			await sendUntrackedLegacyEmail({
-				to: normalizedEmail,
+			const adminSupabase = getSupabaseAdminClient() as any;
+			const result = await sendEmailWithTracking(adminSupabase, {
+				recipient: toLegacyRecipient(normalizedEmail, 'signups', String(insertedSignup.id)),
 				subject: 'You are in for 9takes updates',
-				body: signupWelcomeEmail()
+				preheader: 'A practical place to start: answer before reading the room.',
+				htmlContent: signupWelcomeEmail(),
+				sentBy: null,
+				includeFooter: true
 			});
+
+			if (!result.success) {
+				throw new Error(result.error || 'Failed to send signup welcome email');
+			}
 		} catch (e) {
 			logger.warn('Failed to send signup welcome email', { email: normalizedEmail, error: e });
 			// Don't fail - signup was saved

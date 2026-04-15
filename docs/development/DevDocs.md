@@ -41,59 +41,6 @@ src/blog/enneagram/enneagram-anxiety-management-guide.md
 src/blog/enneagram/how-type-8-challengers-actually-succeed.md
 src/blog/pop-culture/depp-vs-heard-enneagram-analysis.md
 
-Trisha-Paytas
-John-Mayer
-Troye-Sivan
-Tyler-Cowen
-Morgan-Wallen
-Jennifer-Aniston
-Ryan-Reynolds
-Eddie-Murphy
-Robert-Downey-Jr
-Kanye
-Markiplier
-George-W-Bush
-
-Katy-Perry
-Hugh-Jackman
-Michelle-Obama
-John-F-Kennedy
-Miles-Teller
-Tina-Fey
-
-neurodiversity-vs-personality
-Mikey-Madison
-
-src/blog/enneagram/how-to-apologize-like-a-pro.md
-src/blog/enneagram/enneagram-and-adhd-which-types-struggle-most.md
-Post-Malone
-Kai-Cenat
-Xi-Jinping
-
-Kyle-Forgeard
-Hilary-Duff
-Samuel-L-Jackson
-Jon-Bernthal
-Tfue
-Patrick-Bet-David
-Oscar-Isaac
-Olivia-Munn
-
-Daniel-Day-Lewis
-Hailey-Bieber
-Jennifer-Lopez
-Justin-Bieber
-Camila-Cabello
-Ben-Affleck
-Matt-Damon
-Khloe-Kardashian
-Kris-Jenner
-Simon-Sinek
-
-John-Travolta
-Stephen-A-Smith
-src/blog/pop-culture/podcast-bros-enneagram-analysis.md
-
 src/blog/pop-culture/influencer-enneagram-types-instagram.md
 src/blog/pop-culture/tech-titans-platform-emperors.md
 podcaster-personality-map
@@ -104,7 +51,7 @@ Act like a normal person who is reading this article and tell me what i missed o
 
 Try to assess it with fresh eyes. Think about what this person is know for and what someone who knows about them would want to have insight into and what should be addressed.
 
-Ok so i added some comments at the bottom of the article love-languages-and-enneagram-types, please assess the comments and see if we should add some more or address some parts based on that feedback. Do more research as needed and make the blog better. Also trim things that are overdone or duplicated so that everything is fresh and well done.
+Ok so i added some comments at the bottom of the article Garry Tan, please assess the comments and see if we should add some more or address some parts based on that feedback. Do more research as needed and make the blog better. Also trim things that are overdone or duplicated so that everything is fresh and well done.
 
 I want you to edit this blog on Noam-Chomsky and use the content-editor agent doc to guide you.
 

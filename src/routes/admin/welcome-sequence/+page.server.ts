@@ -5,12 +5,14 @@ import {
 	type AnalyticsSessionRow,
 	type ReturnVisitData
 } from '$lib/server/welcomeSequenceReturns';
+import { getManagedSequenceContent } from '$lib/email/welcome-sequence-content';
 
 type StepRow = {
 	step_number: number;
 	subject: string;
 	html_content: string;
 	delay_days_after_previous: number;
+	code_managed?: boolean;
 };
 
 type EnrollmentRow = {
@@ -31,7 +33,7 @@ type EnrollmentRow = {
 
 type EmailSendRow = {
 	subject: string;
-	status: string;
+	status: string | null;
 	opened_at: string | null;
 	clicked_at: string | null;
 	recipient_source_id: string | null;
@@ -65,11 +67,25 @@ export const load: PageServerLoad = async ({ locals }) => {
 			.order('enrolled_at', { ascending: false })
 	]);
 
-	const steps: StepRow[] = stepsResult.data || [];
+	const dbSteps = stepsResult.data || [];
+	const steps: StepRow[] = dbSteps.map((step) => {
+		const managedContent = getManagedSequenceContent(sequence.key, step.step_number);
+		return {
+			...step,
+			subject: managedContent?.subject ?? step.subject,
+			html_content: managedContent?.htmlContent ?? step.html_content,
+			code_managed: Boolean(managedContent)
+		};
+	});
 	const enrollments: EnrollmentRow[] = enrollmentsResult.data || [];
 
 	// Match email_sends to sequence steps by subject for per-step delivery metrics
-	const stepSubjects = steps.map((s) => s.subject);
+	const stepSubjects = [
+		...new Set([
+			...steps.map((s) => s.subject),
+			...dbSteps.map((s) => s.subject).filter((subject): subject is string => Boolean(subject))
+		])
+	];
 
 	const { data: emailSends } = stepSubjects.length
 		? await supabase
@@ -80,7 +96,9 @@ export const load: PageServerLoad = async ({ locals }) => {
 	const sequenceEmailSends: EmailSendRow[] = emailSends || [];
 
 	const stepMetrics = steps.map((step) => {
-		const sends = sequenceEmailSends.filter((emailSend) => emailSend.subject === step.subject);
+		const dbStep = dbSteps.find((candidate) => candidate.step_number === step.step_number);
+		const acceptedSubjects = new Set([step.subject, dbStep?.subject].filter(Boolean));
+		const sends = sequenceEmailSends.filter((emailSend) => acceptedSubjects.has(emailSend.subject));
 		const delivered = sends.filter(
 			(emailSend) => emailSend.status === 'sent' || emailSend.status === 'delivered'
 		);

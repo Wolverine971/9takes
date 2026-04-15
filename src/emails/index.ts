@@ -469,81 +469,13 @@ export const signupEmail = () => {
 };
 
 export const signupWelcomeEmail = () => {
-	return `<!DOCTYPE html>
-  <html>
-    ${EmailHead('You are in for 9takes updates')}
-    <body style="background-color: #f9f9ff; margin: 0; padding: 0; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
-      <div class="preheader" style="display: none; max-width: 0; max-height: 0; overflow: hidden; font-size: 1px; line-height: 1px; color: #fff; opacity: 0;">
-        Thanks for subscribing. Here are a few good places to start on 9takes.
-      </div>
-
-      <table border="0" cellpadding="0" cellspacing="0" width="100%">
-        <tr>
-          <td align="center" style="padding: 30px 0;">
-            <table border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 600px; border-radius: 8px; overflow: hidden; box-shadow: 0 4px 6px rgba(108, 92, 231, 0.1);">
-              <tr>
-                <td align="center" style="background: linear-gradient(to right, #7158e2, #6c5ce7); padding: 20px;">
-                  <h1 style="margin: 0; font-size: 28px; color: #ffffff; font-weight: 700;">9takes</h1>
-                </td>
-              </tr>
-
-              <tr>
-                <td bgcolor="#ffffff" style="padding: 40px 30px;">
-                  <h2 style="margin: 0 0 20px; color: #2a2d34; font-size: 24px; font-weight: 600;">Thanks for subscribing</h2>
-
-                  <p style="margin: 0 0 20px; font-size: 16px; line-height: 1.5; color: #4b5563;">
-                    You&rsquo;ll get occasional 9takes updates, personality guides, and community ideas worth reading.
-                  </p>
-
-                  <p style="margin: 0 0 30px; font-size: 16px; line-height: 1.5; color: #4b5563;">
-                    While you&rsquo;re here, explore the Enneagram fundamentals or browse recent personality analyses.
-                  </p>
-
-                  <table border="0" cellpadding="0" cellspacing="0" width="100%" style="margin-bottom: 30px;">
-                    <tr>
-                      <td align="center">
-                        <table border="0" cellpadding="0" cellspacing="0">
-                          <tr>
-                            <td align="center" bgcolor="#6c5ce7" style="border-radius: 4px;">
-                              <a href="https://9takes.com/enneagram-corner" target="_blank" style="display: inline-block; padding: 12px 24px; font-size: 16px; color: #ffffff; text-decoration: none; border-radius: 4px; font-weight: 600;">
-                                Explore the Enneagram
-                              </a>
-                            </td>
-                          </tr>
-                        </table>
-                      </td>
-                    </tr>
-                  </table>
-
-                  <table border="0" cellpadding="0" cellspacing="0" width="100%">
-                    <tr>
-                      <td align="center" style="padding-top: 20px; border-top: 1px solid #e4e6eb;">
-                        <p style="margin: 0 0 15px; font-size: 16px; color: #65676b;">A few places to start</p>
-                        <p style="margin: 0 0 10px;"><a href="https://9takes.com/personality-analysis" target="_blank" style="color: #6c5ce7; text-decoration: none; font-weight: 500;">Celebrity personality analyses</a></p>
-                        <p style="margin: 0;"><a href="https://9takes.com/community" target="_blank" style="color: #6c5ce7; text-decoration: none; font-weight: 500;">Community conversations</a></p>
-                      </td>
-                    </tr>
-                  </table>
-                </td>
-              </tr>
-
-              <tr>
-                <td bgcolor="#f0f2f5" style="padding: 20px 30px; border-top: 1px solid #e4e6eb;">
-                  <table border="0" cellpadding="0" cellspacing="0" width="100%">
-                    <tr>
-                      <td style="color: #65676b; font-size: 14px; line-height: 1.5; text-align: center;">
-                        <p style="margin: 0;">&copy; ${currentYear} 9takes. All rights reserved.</p>
-                      </td>
-                    </tr>
-                  </table>
-                </td>
-              </tr>
-            </table>
-          </td>
-        </tr>
-      </table>
-    </body>
-  </html>`;
+	return `<h1>Start with one honest answer</h1>
+<p>You are on the 9takes update list.</p>
+<p>The useful part of 9takes is simple: answer a real question before you read everyone else's take, then compare what you saw with what they saw.</p>
+<p>That gap is where the value is. It shows what you assumed, what other people noticed, and how differently people can read the same moment.</p>
+<p><a class="button" href="https://9takes.com/questions">Browse current questions</a></p>
+<p>If you are more interested in the psychology side, start with <a href="https://9takes.com/enneagram-corner">the Enneagram corner</a> or browse <a href="https://9takes.com/personality-analysis">personality analyses</a>.</p>
+<p>DJocrates<br />9takes.com</p>`;
 };
 // <p><a href="{{ .ConfirmationURL }}" > <b style="" > Confirm your mail < /b></a > </p>
 export const forgotPass = (link: string) => {

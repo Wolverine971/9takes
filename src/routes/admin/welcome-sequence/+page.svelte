@@ -158,6 +158,9 @@
 							{/if}
 						</div>
 					</div>
+					{#if step.code_managed}
+						<div class="managed-badge">Copy managed in code</div>
+					{/if}
 					<h3 class="step-subject">{step.subject}</h3>
 
 					{#if metrics}
@@ -427,6 +430,17 @@
 		background: var(--bg-elevated);
 		padding: 2px 8px;
 		border-radius: 8px;
+	}
+
+	.managed-badge {
+		display: inline-block;
+		margin-bottom: 8px;
+		border-radius: 6px;
+		background: rgba(15, 118, 110, 0.12);
+		color: #0f766e;
+		font-size: 0.6875rem;
+		font-weight: 600;
+		padding: 3px 8px;
 	}
 
 	.step-subject {

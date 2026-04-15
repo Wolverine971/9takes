@@ -138,6 +138,7 @@ async function processClaimedSequenceSends(
 			const sendResult = await sendEmailWithTracking(supabase, {
 				recipient: prepared.recipient,
 				subject: prepared.subject,
+				preheader: prepared.preheader,
 				htmlContent: prepared.htmlContent,
 				plainTextContent: prepared.plainText,
 				sentBy: null,

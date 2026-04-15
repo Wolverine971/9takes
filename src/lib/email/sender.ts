@@ -5,6 +5,7 @@
 import { PRIVATE_gmail_private_key } from '$env/static/private';
 import { google } from 'googleapis';
 import {
+	appendEmailFooterToPlainText,
 	generateEmailHtml,
 	htmlToPlainText,
 	rewriteLinksForTracking,
@@ -19,6 +20,7 @@ interface SendEmailOptions {
 	to: string;
 	subject: string;
 	htmlContent: string;
+	preheader?: string;
 	plainTextContent?: string;
 	recipientName?: string;
 	trackingId?: string;
@@ -38,6 +40,10 @@ function normalizeSentBy(sentBy?: string | null): string | null {
 	return normalized && UUID_PATTERN.test(normalized) ? normalized : null;
 }
 
+function sanitizeHeaderValue(value: string): string {
+	return value.replace(/[\r\n]+/g, ' ').trim();
+}
+
 /**
  * Build RFC 2822 email message
  */
@@ -47,7 +53,8 @@ function makeBody({
 	subject,
 	htmlMessage,
 	plainTextMessage,
-	unsubscribeUrl
+	unsubscribeUrl,
+	includeFooter
 }: {
 	toEmails: string[];
 	fromEmail: string;
@@ -55,16 +62,29 @@ function makeBody({
 	htmlMessage: string;
 	plainTextMessage?: string;
 	unsubscribeUrl?: string;
+	includeFooter?: boolean;
 }): string {
 	const boundary = `boundary_${Date.now()}`;
 	const listUnsubscribeMailto =
 		'mailto:usersup@9takes.com?subject=unsubscribe&body=Please%20unsubscribe%20me';
+	const safeSubject = sanitizeHeaderValue(subject);
+	const safeFromEmail = sanitizeHeaderValue(fromEmail);
+	const safeToEmails = toEmails.map(sanitizeHeaderValue);
+	const plainTextWithFooter =
+		includeFooter === false
+			? plainTextMessage || htmlToPlainText(htmlMessage)
+			: appendEmailFooterToPlainText(
+					plainTextMessage || htmlToPlainText(htmlMessage),
+					unsubscribeUrl
+				);
 
 	const parts = [
 		`MIME-Version: 1.0`,
-		`To: ${toEmails.join(', ')}`,
-		`From: 9takes <${fromEmail}>`,
-		`Subject: ${subject}`,
+		`To: ${safeToEmails.join(', ')}`,
+		`From: 9takes <${safeFromEmail}>`,
+		`Reply-To: usersup@9takes.com`,
+		`Subject: ${safeSubject}`,
+		`List-ID: 9takes <emails.9takes.com>`,
 		...(unsubscribeUrl
 			? [
 					`List-Unsubscribe: <${unsubscribeUrl}>, <${listUnsubscribeMailto}>`,
@@ -75,13 +95,13 @@ function makeBody({
 		'',
 		`--${boundary}`,
 		'Content-Type: text/plain; charset="UTF-8"',
-		'Content-Transfer-Encoding: quoted-printable',
+		'Content-Transfer-Encoding: 8bit',
 		'',
-		plainTextMessage || htmlToPlainText(htmlMessage),
+		plainTextWithFooter,
 		'',
 		`--${boundary}`,
 		'Content-Type: text/html; charset="UTF-8"',
-		'Content-Transfer-Encoding: quoted-printable',
+		'Content-Transfer-Encoding: 8bit',
 		'',
 		htmlMessage,
 		'',
@@ -98,12 +118,14 @@ export async function sendEmail(options: SendEmailOptions): Promise<SendEmailRes
 	const {
 		to,
 		subject,
+		preheader,
 		htmlContent,
 		plainTextContent,
 		recipientName,
 		trackingId,
 		includeFooter = true
 	} = options;
+	const resolvedPlainTextContent = plainTextContent ?? htmlToPlainText(htmlContent);
 
 	try {
 		// Validate that the private key environment variable is set
@@ -154,6 +176,7 @@ export async function sendEmail(options: SendEmailOptions): Promise<SendEmailRes
 		const fullHtml = generateEmailHtml({
 			subject,
 			content: finalHtmlContent,
+			preheader,
 			recipientName,
 			trackingPixelUrl,
 			unsubscribeUrl,
@@ -167,8 +190,9 @@ export async function sendEmail(options: SendEmailOptions): Promise<SendEmailRes
 					fromEmail: 'usersup@9takes.com',
 					subject,
 					htmlMessage: fullHtml,
-					plainTextMessage: plainTextContent,
-					unsubscribeUrl
+					plainTextMessage: resolvedPlainTextContent,
+					unsubscribeUrl,
+					includeFooter
 				})
 			},
 			userId: 'me'
@@ -196,6 +220,7 @@ export async function sendEmailWithTracking(
 	options: {
 		recipient: EmailRecipient;
 		subject: string;
+		preheader?: string;
 		htmlContent: string;
 		plainTextContent?: string;
 		campaignId?: string;
@@ -206,12 +231,14 @@ export async function sendEmailWithTracking(
 	const {
 		recipient,
 		subject,
+		preheader,
 		htmlContent,
 		plainTextContent,
 		campaignId,
 		sentBy,
 		includeFooter = true
 	} = options;
+	const resolvedPlainTextContent = plainTextContent ?? htmlToPlainText(htmlContent);
 
 	// Create email_send record first to get tracking_id
 	const { data: emailSend, error: insertError } = await supabase
@@ -223,7 +250,7 @@ export async function sendEmailWithTracking(
 			recipient_source_id: recipient.source_id,
 			subject,
 			html_content: htmlContent,
-			plain_text_content: plainTextContent ?? htmlToPlainText(htmlContent),
+			plain_text_content: resolvedPlainTextContent,
 			campaign_id: campaignId,
 			sent_by: normalizeSentBy(sentBy),
 			status: 'pending'
@@ -242,8 +269,9 @@ export async function sendEmailWithTracking(
 	const result = await sendEmail({
 		to: recipient.email,
 		subject,
+		preheader,
 		htmlContent,
-		plainTextContent,
+		plainTextContent: resolvedPlainTextContent,
 		recipientName: recipient.name ?? undefined,
 		trackingId: emailSend.tracking_id,
 		includeFooter
@@ -271,6 +299,7 @@ export async function sendBatchEmails(
 	options: {
 		recipients: EmailRecipient[];
 		subject: string;
+		preheader?: string;
 		htmlContent: string;
 		plainTextContent?: string;
 		campaignId?: string;
@@ -286,6 +315,7 @@ export async function sendBatchEmails(
 	const {
 		recipients,
 		subject,
+		preheader,
 		htmlContent,
 		plainTextContent,
 		campaignId,
@@ -303,6 +333,7 @@ export async function sendBatchEmails(
 		const result = await sendEmailWithTracking(supabase, {
 			recipient,
 			subject,
+			preheader,
 			htmlContent,
 			plainTextContent,
 			campaignId,

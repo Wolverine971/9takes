@@ -5,7 +5,7 @@ import { prepareSequenceSend, type SequenceSendRow } from './sequences';
 function makeSequenceRow(overrides: Partial<SequenceSendRow> = {}): SequenceSendRow {
 	return {
 		enrollment_id: 'enrollment-1',
-		sequence_key: 'welcome_sequence',
+		sequence_key: 'custom_sequence',
 		user_id: 'user-1',
 		recipient_email: 'alice@example.com',
 		recipient_source: 'profiles',
@@ -38,6 +38,25 @@ describe('prepareSequenceSend', () => {
 				enneagram: '5'
 			})
 		);
+	});
+
+	it('uses code-managed copy for the welcome sequence', () => {
+		const prepared = prepareSequenceSend(
+			makeSequenceRow({
+				sequence_key: 'welcome_sequence',
+				step_number: 4,
+				subject: 'Old DB subject',
+				html_content: '<p>Old DB body</p>',
+				plain_text: 'Old DB text'
+			})
+		);
+
+		expect(prepared.subject).toBe('Should I keep sending these?');
+		expect(prepared.preheader).toBe('One more useful loop, then you can decide.');
+		expect(prepared.htmlContent).toContain('The whole product is one loop');
+		expect(prepared.htmlContent).not.toContain('Old DB body');
+		expect(prepared.plainText).toContain('Run the loop once more');
+		expect(prepared.plainText).not.toContain('Old DB text');
 	});
 
 	it('escapes injected html values and preserves unknown tokens', () => {

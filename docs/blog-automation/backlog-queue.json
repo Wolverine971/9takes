@@ -7,19 +7,6 @@
 	},
 	"queue": [
 		{
-			"name": "jensen-huang",
-			"displayName": "Jensen Huang",
-			"type": 3,
-			"priority": 92,
-			"priorityReason": "NVIDIA CEO, AI boom, tech titan, high search volume",
-			"estimatedTraffic": "very-high",
-			"searchVolume": "very-high",
-			"personaTitle": null,
-			"addedToQueue": "2026-04-03",
-			"retryCount": 0,
-			"strategicValue": "tech-titan-cluster"
-		},
-		{
 			"name": "jeremy-allen-white",
 			"displayName": "Jeremy Allen White",
 			"type": 4,
@@ -675,13 +662,7 @@
 			"removedReason": "draft already written"
 		}
 	],
-	"inProgress": {
-		"name": "jensen-huang",
-		"displayName": "Jensen Huang",
-		"type": 3,
-		"priority": 92,
-		"startedAt": "2026-04-14T12:00:00Z"
-	},
+	"inProgress": null,
 	"failed": [
 		{
 			"name": "brené-brown",
