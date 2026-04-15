@@ -1,4 +1,5 @@
 <!-- docs/neurodiversity-blog-sources.md -->
+
 # Sources & Claims Reference
 
 **Blog**: "Neurodiversity vs. Personality: Stop Looking for Labels, Start Looking Inward"
@@ -17,24 +18,21 @@
 - Key finding: 29% of all Americans have self-diagnosed a mental health condition based on social media content. Among Gen Z respondents specifically, that figure is 50%.
 - URL: https://investor.lifestance.com/news-releases/news-release-details/lifestance-survey-finds-nearly-one-third-americans-use-social/
 
-**Accuracy**: Verified. The 50% Gen Z figure is accurate from the survey data. The blog's phrasing ("half of Gen Z") correctly reflects the Gen Z subset finding. Note: this is a survey sample, not a population-representative statistic for all Gen Z Americans.
+**Accuracy**: Verified with wording note. The 50% Gen Z figure is accurate from the survey data. **Important**: the original blog phrasing "half of Gen Z has…" implied a population-wide fact. The corrected phrasing — "half of Gen Z respondents had…" — accurately scopes it to the survey sample. The blog also now notes the sample size (1,100+ U.S. adults) for transparency. Note: press release was published April 15, 2025; survey fieldwork ran January 30–February 9, 2025.
 
 ---
 
 ## Claim 2 — TikTok ADHD Misinformation Rate
 
-**Claim in blog**: "52% of ADHD-related TikTok videos contain misinformation. Among videos by non-professionals, that number hit 55%."
+**Claim in blog** (current): "52% of the most-viewed ADHD TikTok videos contained misinformation."
 
 **Source**: Yeung, A., Ng, E., & Abi-Jaoude, E. (2022). TikTok and Attention-Deficit/Hyperactivity Disorder: A Cross-Sectional Study of Social Media Content Quality. _Canadian Journal of Psychiatry_, 67(12), 899–906.
 
 - PMC: https://pmc.ncbi.nlm.nih.gov/articles/PMC9659797/
 - Method: Analyzed the 100 most-viewed TikTok videos tagged #ADHD
-- Findings:
-  - 52 of 100 videos (52%) classified as misleading overall
-  - Non-healthcare providers: 55.1% of their videos were misleading
-  - Licensed healthcare providers: 27.3% of their videos were misleading (P < 0.001)
+- Confirmed finding: 52 of 100 videos (52%) classified as misleading overall
 
-**Accuracy**: Verified. Both percentages match the published data exactly.
+**Accuracy**: Verified for the 52% figure. **Note on dropped figure**: The original blog cited "55% from non-professionals" alongside the 52% claim. A second fact-check raised a dispute — the 55% figure may derive from a separate 2026 University of East Anglia study rather than Yeung et al. (2022). To avoid misattribution, the 55% figure has been removed from the blog. If re-adding, source the 2026 study separately.
 
 ---
 
@@ -73,9 +71,9 @@
 **Source**: Hook, J. N., Hall, T. W., Davis, D. E., Van Tongeren, D. R., & Conner, M. (2021). The Enneagram: A systematic review of the literature and directions for future research. _Journal of Clinical Psychology_, 77(4), 865–883.
 
 - PMID: 33332604
-- DOI: https://onlinelibrary.wiley.com/doi/10.1002/jclp.23112
+- DOI (disputed): https://onlinelibrary.wiley.com/doi/10.1002/jclp.23112
 
-**Accuracy**: Verified. The review covers 104 independent samples. Precise note: "104 independent samples" is the correct unit — these are samples across multiple studies, not 104 separate published papers. The review found "mixed evidence of reliability and validity" overall and "theory-consistent relationships with other constructs such as the Big 5." The blog correctly characterizes "measurable relationships" without overstating the strength of evidence.
+**Accuracy**: Verified on substance; DOI needs confirmation. The review covers 104 independent samples and found "theory-consistent relationships with other constructs such as the Big 5" — which the blog accurately characterizes as "measurable relationships." The review also concluded evidence was mixed overall (not stated in blog, but not contradicted either). **DOI flag**: A second fact-check found the correct DOI may be 10.1002/jclp.23097, not .23112 — the two fact-checkers conflict on this. Verify before updating the live link. The PMID (33332604) can be used as a stable backup identifier.
 
 ---
 
@@ -83,21 +81,61 @@
 
 **Claim in blog**: "It's also one of the few personality frameworks with published evidence that training in it can directly advance ego development — a measure of psychological maturity that almost nothing else can move."
 
-**Underlying source** (not hyperlinked in blog): Qualter, P., et al. (2018). A study of the effect of Enneagram-based training on ego development in adults. _Journal of Adult Development_.
+**Underlying source** (not hyperlinked in blog): Daniels, D., et al. (2018). Advancing Ego Development in Adulthood Through Study of the Enneagram System of Personality. _Journal of Adult Development_.
 
 - PMC: https://pmc.ncbi.nlm.nih.gov/articles/PMC6208876/
 
-**Accuracy**: The underlying study is real and peer-reviewed. The blog originally said "only" personality framework — this was inaccurate (MBTI research has also been linked to ego development measures in the Loevinger framework). The corrected phrasing "one of the few" is defensible. The ego development finding is genuinely notable and rare in personality research.
+**Accuracy**: The underlying study is real and peer-reviewed. **Author correction**: First author is David Daniels, not Qualter — the prior fact-check had wrong attribution. Title is "Advancing Ego Development in Adulthood Through Study of the Enneagram System of Personality." The findings indicate Enneagram Intensive training *may be beneficial* for ego development — the blog's phrasing "can directly advance" is slightly strong; "associated with advances" is more defensible. The blog text itself doesn't name the author, so no blog edit was needed. The phrasing "one of the few personality frameworks" (corrected from "only") remains defensible.
 
 ---
 
 ## Summary Table
 
-| #   | Claim                                                                        | Status                                              | Source                                                   |
-| --- | ---------------------------------------------------------------------------- | --------------------------------------------------- | -------------------------------------------------------- |
-| 1   | 50% of Gen Z self-diagnosed via social media                                 | Verified                                            | LifeStance survey, Feb 2025                              |
-| 2   | 52% of ADHD TikTok videos contain misinformation; 55% from non-professionals | Verified                                            | Yeung et al., Canadian Journal of Psychiatry, 2022       |
-| 3   | ADHD/autism traits exist on a continuum, not binary categories               | Verified (with framing note)                        | Koi (2021), Studies in History and Philosophy of Science |
-| 4   | Neurodiversity and personality as "cognitive continuity"                     | Verified                                            | Psyche essay, May 2025                                   |
-| 5   | Enneagram systematic review of 104 independent samples                       | Verified                                            | Hook et al. (2021), Journal of Clinical Psychology       |
-| 6   | Enneagram linked to ego development advances                                 | Verified (softened from "only" to "one of the few") | Qualter et al. (2018), Journal of Adult Development      |
+| #   | Claim                                                                        | Status                                                      | Source                                                   |
+| --- | ---------------------------------------------------------------------------- | ----------------------------------------------------------- | -------------------------------------------------------- |
+| 1   | Half of Gen Z respondents self-diagnosed via social media (survey)           | Verified — wording tightened to "respondents"               | LifeStance/Researchscape survey, Apr 2025 (n=1,110)      |
+| 2   | 52% of most-viewed ADHD TikTok videos contained misinformation               | Verified — 55% non-professional figure dropped (disputed)   | Yeung et al., Canadian Journal of Psychiatry, 2022       |
+| 3   | ADHD/autism traits exist on a continuum, not binary categories               | Verified (philosophical analysis, not primary genetic data) | Koi (2021), Studies in History and Philosophy of Science |
+| 4   | Neurodiversity framed as "cognitive continuity" like personality             | Verified — blog already frames this as an argument          | Psyche essay (Joshua May), May 2025                      |
+| 5   | Enneagram systematic review of 104 independent samples                       | Verified on substance — DOI disputed, needs confirmation    | Hook et al. (2021), Journal of Clinical Psychology       |
+| 6   | Enneagram training associated with ego development gains                     | Verified — author corrected to Daniels (not Qualter)        | Daniels et al. (2018), Journal of Adult Development      |
+
+---
+
+## Email Version (copy/paste ready)
+
+**Sources for "Neurodiversity vs. Personality: Stop Looking for Labels, Start Looking Inward"**
+https://9takes.com/enneagram-corner/neurodiversity-vs-personality
+
+---
+
+**Claim: Half of Gen Z respondents in a 2025 survey said they had self-diagnosed a mental health condition based on social media content**
+Source: LifeStance Health / Researchscape survey, fieldwork Jan 30–Feb 9, 2025 (n=1,110 U.S. adults; press release April 15, 2025)
+Overall finding: 29% of all respondents; 50% among Gen Z respondents
+https://investor.lifestance.com/news-releases/news-release-details/lifestance-survey-finds-nearly-one-third-americans-use-social/
+
+**Claim: 52% of the most-viewed ADHD TikTok videos contained misinformation**
+Source: Yeung, Ng & Abi-Jaoude (2022). "TikTok and Attention-Deficit/Hyperactivity Disorder: A Cross-Sectional Study of Social Media Content Quality." Canadian Journal of Psychiatry, 67(12), 899–906.
+https://pmc.ncbi.nlm.nih.gov/articles/PMC9659797/
+
+**Claim: ADHD and autism traits are distributed on a continuum, not as binary categories**
+Source: Koi, P. (2021). "Genetics on the neurodiversity spectrum: Genetic, phenotypic and endophenotypic continua in autism and ADHD." Studies in History and Philosophy of Science, 89, 52–59.
+https://www.sciencedirect.com/science/article/pii/S0039368121001072
+
+**Claim: Neurodiversity and personality exist on the same "cognitive continuity" sliding scale**
+Source: "Why we should think of neurodiversity like we do personality." Psyche / Aeon Media, May 27, 2025.
+https://psyche.co/ideas/why-we-should-think-of-neurodiversity-like-we-do-personality
+
+**Claim: Enneagram systematic review of 104 independent samples found relationships with Big Five**
+Source: Hook, J.N. et al. (2021). "The Enneagram: A systematic review of the literature." Journal of Clinical Psychology, 77(4), 865–883. PMID: 33332604
+https://onlinelibrary.wiley.com/doi/10.1002/jclp.23112
+
+**Claim: Enneagram training associated with advances in ego development**
+Source: Daniels, D. et al. (2018). "Advancing Ego Development in Adulthood Through Study of the Enneagram System of Personality." Journal of Adult Development.
+https://pmc.ncbi.nlm.nih.gov/articles/PMC6208876/
+
+---
+
+All claims verified. Full source notes with methodology details available on request.
+
+**Open item**: Claim 5 DOI — two fact-checks conflict (10.1002/jclp.23112 vs. 10.1002/jclp.23097). Use PMID 33332604 as fallback identifier until DOI is confirmed.

@@ -24,7 +24,7 @@ path: src/blog/enneagram/neurodiversity-vs-personality.md
 	<!-- Opening -->
 	<div class="prose prose-lg mb-8 max-w-none">
 		<p class="text-xl leading-relaxed">
-			Something strange is happening. A <a href="https://investor.lifestance.com/news-releases/news-release-details/lifestance-survey-finds-nearly-one-third-americans-use-social/" class="font-semibold text-primary-700 dark:text-primary-400 underline" target="_blank" rel="noopener">2025 survey</a> found that half of Gen Z has self-diagnosed a mental health condition based on social media content. Millions are scrolling TikTok, watching a 60-second video about ADHD or autism, and "discovering" they've been neurodivergent all along. The impulse makes sense — everyone wants to understand why they feel different, why they struggle, why they don't fit the mold. But the mass self-diagnosis trend is pointing people toward labels when what they actually need is <em>understanding</em>.
+			Something strange is happening. A <a href="https://investor.lifestance.com/news-releases/news-release-details/lifestance-survey-finds-nearly-one-third-americans-use-social/" class="font-semibold text-primary-700 dark:text-primary-400 underline" target="_blank" rel="noopener">2025 survey of over 1,100 U.S. adults</a> found that half of Gen Z respondents had self-diagnosed a mental health condition based on social media content. Millions are scrolling TikTok, watching a 60-second video about ADHD or autism, and "discovering" they've been neurodivergent all along. The impulse makes sense — everyone wants to understand why they feel different, why they struggle, why they don't fit the mold. But the mass self-diagnosis trend is pointing people toward labels when what they actually need is <em>understanding</em>.
 		</p>
 	</div>
 	<!-- Section 1 -->
@@ -50,11 +50,7 @@ path: src/blog/enneagram/neurodiversity-vs-personality.md
 		</div>
 	</section>
 	<!-- Image Placeholder 2 -->
-	<div
-		style="display: flex;
-        justify-content: center;
-        margin: 1rem 0;"
-	>
+	<div class="my-4 flex justify-center">
 		<PopCard
 			image={`/blogs/greek-statue-surrounded-by-snowflakes.webp`}
 			showIcon={false}
@@ -70,7 +66,7 @@ path: src/blog/enneagram/neurodiversity-vs-personality.md
 		</h2>
 		<div class="prose prose-lg max-w-none">
 			<p>
-				Social media has turned neurodiversity into a trend, complete with aesthetic infographics and relatable memes. And the information quality is worse than you'd think: a <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC9659797/" class="font-semibold text-primary-700 dark:text-primary-400 underline" target="_blank" rel="noopener">2022 study in the <em>Canadian Journal of Psychiatry</em></a> found that <strong>52% of ADHD-related TikTok videos contain misinformation</strong>. Among videos by non-professionals, that number hit 55%. The pattern is always the same:
+				Social media has turned neurodiversity into a trend, complete with aesthetic infographics and relatable memes. And the information quality is worse than you'd think: a <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC9659797/" class="font-semibold text-primary-700 dark:text-primary-400 underline" target="_blank" rel="noopener">2022 study in the <em>Canadian Journal of Psychiatry</em></a> found that <strong>52% of the most-viewed ADHD TikTok videos contained misinformation</strong>. The pattern is always the same:
 			</p>
 			<div class="my-6 border-l-4 border-primary-400 dark:border-primary-600 bg-primary-100 dark:bg-primary-900/30 p-4 italic text-primary-700 dark:text-primary-300">
 				<p class="mb-2">"I zone out sometimes — must be ADHD!"</p>
@@ -88,7 +84,7 @@ path: src/blog/enneagram/neurodiversity-vs-personality.md
 		<h2 class="mb-6 border-l-4 border-primary-700 dark:border-primary-500 pl-4 text-3xl font-bold text-primary-900 dark:text-primary-200">
 			The Real Truth: No One Is "Normal"
 		</h2>
-		<div class="mb-6 rounded-lg bg-primary-700 p-8 text-white shadow-xl">
+		<div class="mb-6 rounded-lg bg-primary-700 dark:bg-primary-600 p-8 text-white shadow-xl">
 			<p class="text-xl font-bold">
 				Want to know a secret? <strong>There is no normal.</strong> Never has been, never will be.
 			</p>
@@ -108,11 +104,7 @@ path: src/blog/enneagram/neurodiversity-vs-personality.md
 		</div>
 	</section>
 	<!-- Image Placeholder 3 -->
-	<div
-		style="display: flex;
-        justify-content: center;
-        margin: 1rem 0;"
-	>
+	<div class="my-4 flex justify-center">
 		<PopCard
 			image={`/blogs/greek-miner.webp`}
 			showIcon={false}
@@ -151,7 +143,7 @@ path: src/blog/enneagram/neurodiversity-vs-personality.md
 		</h2>
 		<div class="prose prose-lg max-w-none">
 			<p>
-				Here's where it gets interesting. Some researchers argue we should stop treating neurodivergence as a hard line at all. <a href="https://www.sciencedirect.com/science/article/pii/S0039368121001072" class="font-semibold text-primary-700 dark:text-primary-400 underline" target="_blank" rel="noopener">A 2021 philosophical analysis of genetic research</a> argues that the traits underlying ADHD and autism are distributed continuously across the entire population — not as binary categories but as spectrums. A <a href="https://psyche.co/ideas/why-we-should-think-of-neurodiversity-like-we-do-personality" class="font-semibold text-primary-700 dark:text-primary-400 underline" target="_blank" rel="noopener">2025 essay in <em>Psyche</em></a> goes further, arguing we should think of neurodiversity the same way we think of personality: as "cognitive continuity," where neurodivergent traits and personality traits exist on the same sliding scale.
+				Here's where it gets interesting. Some researchers argue we should stop treating neurodivergence as a hard line at all. <a href="https://www.sciencedirect.com/science/article/pii/S0039368121001072" class="font-semibold text-primary-700 dark:text-primary-400 underline" target="_blank" rel="noopener">A 2021 philosophical analysis of genetic research</a> argues that the traits underlying ADHD and autism fall along a continuum across the population — not as binary categories, but as a spectrum of degrees. A <a href="https://psyche.co/ideas/why-we-should-think-of-neurodiversity-like-we-do-personality" class="font-semibold text-primary-700 dark:text-primary-400 underline" target="_blank" rel="noopener">2025 essay in <em>Psyche</em></a> goes further, proposing that we think of neurodiversity the same way we think of personality: as "cognitive continuity," where neurodivergent and personality traits sit on the same kind of continuum.
 			</p>
 			<p>
 				There's real merit to that idea. The science does support dimensional thinking, and it explains why so many people see themselves in ADHD and autism content — because they <em>do</em> share some of those traits, just not at clinical levels.
@@ -164,7 +156,7 @@ path: src/blog/enneagram/neurodiversity-vs-personality.md
 			</p>
 		</div>
 		<div
-			class="mb-6 rounded-lg border-l-4 border-primary-500 bg-primary-700 p-6 text-white shadow-lg"
+			class="mb-6 rounded-lg border-l-4 border-primary-500 dark:border-primary-400 bg-primary-700 dark:ring-1 dark:ring-primary-500 p-6 text-white shadow-lg"
 		>
 			<p class="text-lg font-bold">
 				The spectrum model maps <em>what</em> your brain does. The Enneagram maps <em>why</em> you respond the way you do. You need both dimensions to actually understand yourself.
@@ -178,7 +170,8 @@ path: src/blog/enneagram/neurodiversity-vs-personality.md
 				That's the gap in the conversation right now. We have good science mapping <em>where</em> people fall on neurodivergent trait spectrums. What we don't have enough of is frameworks that explain the motivational layer underneath — the fears, the childhood patterns, the emotional strategies that determine how any given person actually lives with their particular brain.
 			</p>
 			<p>
-				The Enneagram is that missing dimension.</p>
+				The Enneagram is that missing dimension.
+			</p>
 		</div>
 	</section>
 	<MarqueeHorizontal theme="growth" />
@@ -192,12 +185,12 @@ path: src/blog/enneagram/neurodiversity-vs-personality.md
 				So what does that motivational layer look like in practice? The Enneagram dives into the two things most people spend their entire lives avoiding — <strong>emotions and childhood wounds</strong> — and asks the questions other systems won't:
 			</p>
 		</div>
-		<div class="mb-6 rounded-lg bg-primary-800 p-6 text-white shadow-lg">
-			<ul class="space-y-2 text-lg">
-				<li>&#8226; What are you really afraid of?</li>
-				<li>&#8226; How did your childhood create your adult coping strategies?</li>
-				<li>&#8226; What do you do under stress that you don't even realize you're doing?</li>
-				<li>&#8226; Why do your relationships keep following the same pattern?</li>
+		<div class="mb-6 rounded-lg bg-primary-800 dark:bg-primary-700 p-6 text-white shadow-lg">
+			<ul class="list-disc space-y-2 pl-6 text-lg">
+				<li>What are you really afraid of?</li>
+				<li>How did your childhood create your adult coping strategies?</li>
+				<li>What do you do under stress that you don't even realize you're doing?</li>
+				<li>Why do your relationships keep following the same pattern?</li>
 			</ul>
 		</div>
 		<div class="prose prose-lg max-w-none">
@@ -205,16 +198,12 @@ path: src/blog/enneagram/neurodiversity-vs-personality.md
 				Most people never examine these questions until they're sitting in a therapist's office because their old strategies have stopped working. The Enneagram gives you that depth of insight — your <a href="/enneagram-corner/enneagram-strengths-and-weaknesses" class="font-semibold text-primary-700 dark:text-primary-400 underline">core motivations and fears</a>, the engine running beneath every decision — without waiting for a crisis.
 			</p>
 			<p>
-				And the evidence base is growing. A <a href="https://onlinelibrary.wiley.com/doi/10.1002/jclp.23112" class="font-semibold text-primary-700 dark:text-primary-400 underline" target="_blank" rel="noopener">2021 systematic review of 104 independent samples</a> (Hook et al., <em>Journal of Clinical Psychology</em>) found measurable relationships between Enneagram types and established psychological constructs like the Big Five. It's also one of the few personality frameworks with published evidence that training in it can directly advance ego development — a measure of psychological maturity that almost nothing else can move. (For a full honest assessment of what the science does and doesn't support, <a href="/enneagram-corner/enneagram-criticisms" class="font-semibold text-primary-700 dark:text-primary-400 underline">we address the criticisms directly</a>.)
+				And the evidence base is growing. A <a href="https://onlinelibrary.wiley.com/doi/10.1002/jclp.23112" class="font-semibold text-primary-700 dark:text-primary-400 underline" target="_blank" rel="noopener">2021 systematic review of 104 independent samples</a> (Hook et al., <em>Journal of Clinical Psychology</em>) found measurable relationships between Enneagram types and established psychological constructs like the Big Five. It's also one of the few personality frameworks with published evidence that training in it may advance ego development — a measure of psychological maturity that almost nothing else moves. (For a full honest assessment of what the science does and doesn't support, <a href="/enneagram-corner/enneagram-criticisms" class="font-semibold text-primary-700 dark:text-primary-400 underline">we address the criticisms directly</a>.)
 			</p>
 		</div>
 	</section>
 	<!-- Image Placeholder 4 -->
-	<div
-		style="display: flex;
-        justify-content: center;
-        margin: 1rem 0;"
-	>
+	<div class="my-4 flex justify-center">
 		<PopCard
 			image={`/blogs/greek-mirror-shattered.webp`}
 			showIcon={false}
@@ -261,7 +250,7 @@ path: src/blog/enneagram/neurodiversity-vs-personality.md
 				The neurodiversity trend will fade, like every social media cycle. But your personality patterns are with you for life. The question is whether you're going to understand them or let them unconsciously run your decisions.
 			</p>
 		</div>
-		<div class="rounded-lg bg-primary-700 p-8 text-white shadow-xl">
+		<div class="rounded-lg bg-primary-700 dark:ring-1 dark:ring-primary-500 p-8 text-white shadow-xl">
 			<h3 class="mb-6 text-2xl font-bold">Start here — pick one:</h3>
 			<ul class="space-y-4 text-lg">
 				<li class="flex items-start">
@@ -298,14 +287,14 @@ path: src/blog/enneagram/neurodiversity-vs-personality.md
 		</div>
 	</section>
 	<!-- Closing -->
-	<div class="rounded-lg bg-primary-900 p-8 text-center text-white shadow-xl">
+	<div class="rounded-lg bg-primary-900 dark:bg-primary-800 p-8 text-center text-white shadow-xl dark:ring-1 dark:ring-primary-700">
 		<p class="mb-4 text-xl font-bold">
 			The Enneagram won't give you a neat little box to put yourself in. It'll give you something
 			far more valuable: the uncomfortable, transformative truth about who you really are and why
 			you do what you do.
 		</p>
 		<p class="mb-6 text-lg">And unlike a label, that truth comes with a roadmap for change.</p>
-		<div class="space-x-4">
+		<div class="flex flex-wrap justify-center gap-4">
 			<a
 				href="/enneagram-corner"
 				class="inline-block rounded-lg bg-white px-6 py-3 font-semibold text-primary-900 transition-colors hover:bg-primary-100"
@@ -314,7 +303,7 @@ path: src/blog/enneagram/neurodiversity-vs-personality.md
 			</a>
 			<a
 				href="/questions"
-				class="inline-block rounded-lg border-2 border-white px-6 py-3 font-semibold text-white transition-colors hover:bg-primary-800"
+				class="inline-block rounded-lg border-2 border-white px-6 py-3 font-semibold text-white transition-colors hover:bg-primary-800 dark:hover:bg-primary-700"
 			>
 				Ask a Question on 9takes
 			</a>
