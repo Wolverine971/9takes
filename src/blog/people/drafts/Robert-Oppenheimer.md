@@ -48,7 +48,7 @@ path: src/blog/people/drafts/Robert-Oppenheimer.md
 
 The crew was filming a documentary called _The Decision to Drop the Bomb_. But the documentary didn't capture what was actually happening in that moment. What the camera caught was a man who had spent two decades trying to find something large enough to hold what he had done. Not to excuse it. Not to understand it. To make it _mean_ something — in the way that only suffering that means something can be survived.
 
-He never found it. And he never stopped trying. That tension is the whole story.
+He never found it. And he never stopped trying.
 
 <details>
 <summary class="accordion">TL;DR: Why Robert Oppenheimer is an Enneagram Type 4</summary>
@@ -67,11 +67,11 @@ He never found it. And he never stopped trying. That tension is the whole story.
 
 ### Robert Oppenheimer is an Enneagram Type 4
 
-<a href="/enneagram-corner/enneagram-type-4">Enneagram Fours</a> are driven by a single, lifelong question: _Why do I feel like I'm missing something that everyone else seems to have?_ Other people appear whole in a way Fours do not. They seem to move through life with ease, belonging to it naturally. Fours watch from the outside. Not because they are cold — because they feel too much, too specifically, in ways that don't map onto ordinary social experience. They try to make up for this sense of deficit by going further — into feeling, into meaning, into art or science or philosophy or ancient texts. Intensity of inner life becomes the substitute for the belonging they can't find.
+<a href="/enneagram-corner/enneagram-type-4">Enneagram Fours</a> carry one question from childhood into old age: _Why do I feel like I'm missing something that everyone else seems to have?_ Oppenheimer said it plainly at fourteen: "I'm the loneliest man in the world." Not the loneliest kid. The loneliest man. That's not a diagnosis of shyness — it's a Four's specific ache: watching other people belong to the world naturally, as though they were issued a script yours never arrived. Fours compensate by going further — into feeling, into meaning, into art or physics or ancient texts — trying to build from intensity of inner life what they can't find in ordinary belonging.
 
 Oppenheimer is recognizable through this lens in ways the standard narrative misses.
 
-The standard narrative presents him as a cold intellectual — the genius who could hold six thousand people in his head simultaneously, who read Sanskrit for fun, who built the bomb with terrifying efficiency. The cold genius is real. But it's the surface. Underneath it is a man who confessed to his English teacher at fourteen that he was "the loneliest man in the world," who fell into a near-breakdown at Cambridge not because he couldn't master theoretical physics but because the experimental lab work made him feel _deficient_ — insufficient at a level below skill, at the level of self. A man who gave away copies of the Bhagavad Gita to friends the way others give away their favorite records. A man who named his New Mexico cabin _Perro Caliente_ (Hot Dog) with a wry self-awareness that masked the fact that the desert meant more to him than most of his professional relationships.
+The standard narrative presents him as a cold intellectual — the genius who could hold six thousand people in his head simultaneously, who read Sanskrit for fun, who built the bomb with terrifying efficiency. The cold genius is real. But it's the surface. Underneath it is a man who fell into a near-breakdown at Cambridge not because he couldn't master theoretical physics but because the experimental lab work made him feel _deficient_ — insufficient at a level below skill, at the level of self. A man who gave away copies of the Bhagavad Gita to friends the way others give away their favorite records. A man who named his New Mexico cabin _Perro Caliente_ (Hot Dog) with a wry self-awareness that masked the fact that the desert meant more to him than most of his professional relationships.
 
 The cold genius is a performance Oppenheimer learned to give. The Four underneath it never stopped longing.
 
@@ -89,7 +89,7 @@ What looked like weakness from the outside was Oppenheimer being unable to perfo
 
 ---
 
-## The Boy Who Felt Everything First
+## The Boy Who Watched Everyone Else Belong
 
 Julius Robert Oppenheimer was born in 1904 in Manhattan, into a German-Jewish family with nine Van Gogh paintings on the walls. His mother Ella was a painter. His father Julius had built a successful textile business without a high school diploma. They gave Robert everything — money, culture, tutors, governess — and in doing so, gave him a childhood almost entirely separate from other children.
 
@@ -113,8 +113,6 @@ He graduated Harvard summa cum laude in three years, then went to Cambridge in 1
 
 ## Physics as a Way of Feeling
 
-There's a version of Oppenheimer's intellectual life that makes him sound like a pure achievement machine — languages acquired (six of them, including Sanskrit learned in a few months to read the Bhagavad Gita in the original), papers published, positions attained. That reading is wrong.
-
 His breadth wasn't strategy. It was hunger.
 
 The physics itself was not a career — it was his deepest language. The Born-Oppenheimer approximation (1927), worked out with Max Born at Göttingen, remains a foundation of quantum chemistry. His 1930 paper on quantum electrodynamics effectively predicted the existence of the positron — he failed to fully commit to his own result, and Carl Anderson discovered it experimentally in 1932 and received the Nobel Prize. In 1939, with his student Hartland Snyder, he published a paper showing that a sufficiently massive star would undergo complete gravitational collapse, becoming separated from the rest of the universe — what John Wheeler would name "black holes" twenty-eight years later. Oppenheimer called them "frozen stars." The paper was largely ignored at the time. Einstein himself resisted the conclusion. Oppenheimer never returned to the topic after Los Alamos. The war arrived, and with it the work that would swallow everything else.
@@ -125,13 +123,13 @@ Oppenheimer studied Sanskrit under Arthur Ryder at Berkeley in 1933. He read the
 "Physics and desert country — my two great loves."
 </div>
 
-A Four doesn't just work in a domain. They inhabit it. Oppenheimer's physics had an emotional temperature. He described the scientific process with a poet's vocabulary. His seminars at Berkeley became famous not just for the physics but for their range — he'd discuss the mathematics of quantum mechanics and then pull out Donne's _The Extasie_ and you were expected to follow him across both.
+A Four doesn't just work in a domain. They make it their native language. Oppenheimer's physics had an emotional temperature. He described the scientific process with a poet's vocabulary. His seminars at Berkeley became famous not just for the physics but for their range — he'd discuss the mathematics of quantum mechanics and then pull out Donne's _The Extasie_ and you were expected to follow him across both.
 
 He was searching for the thing that connected all of it. The pattern underneath the pattern. Not data — meaning.
 
 Jean Tatlock was part of this search. A graduate student at Stanford, a Communist Party member, the daughter of a Berkeley literature professor, she introduced him to radical politics and to poetry. They fell in love in 1936. He proposed to her twice. She turned him down both times — she was struggling with depression that would eventually kill her, in January 1944, while he was at Los Alamos. He received word of her death at the laboratory. He kept working.
 
-In 1940, he married Katherine "Kitty" Puening Harrison — her fourth husband, his first marriage. Kitty was formidable and complicated: a biologist with a sharp mind, a former Communist Party member through her second husband Joe Dallet, who died fighting in the Spanish Civil War, and a woman whose drinking would become serious by the time Los Alamos was in full operation. Contemporaries at the mesa described her variously as "bewitching" and "impossible." She was polarizing where Jean had been romantic; present where Jean had been unavailable. Their twenty-seven years together were intense and codependent in the way that wartime and catastrophe produce. He described the marriage to his attorney, when explaining why she should testify in 1954, as: "Kitty and I have walked through fire together." At the hearing, she was controlled and fierce on the stand — in contrast to Robert, who was anguished and inarticulate under cross-examination. Her testimony did not save him. She outlived him by five years, dying in 1972.
+In 1940, he married Katherine "Kitty" Puening Harrison — her fourth husband, his first marriage. Kitty was formidable and complicated: a biologist with a sharp mind, a former Communist Party member through her second husband Joe Dallet, who died fighting in the Spanish Civil War, and a woman whose drinking would become serious by the time Los Alamos was in full operation. Contemporaries at the mesa described her variously as "bewitching" and "impossible." She was polarizing where Jean had been romantic; present where Jean had been unavailable. He described the marriage to his attorney, when explaining why she should testify in 1954, as: "Kitty and I have walked through fire together." Twenty-seven years of that kind of fire — Los Alamos, the hearing, the exile — built between them the particular bond that forms only under catastrophic pressure. At the hearing, she was controlled and fierce on the stand — in contrast to Robert, who was anguished and inarticulate under cross-examination. Her testimony did not save him. She outlived him by five years, dying in 1972.
 
 What he felt about both women, he kept inside. But it did not stay small.
 
@@ -145,7 +143,7 @@ A colleague said Oppenheimer "couldn't run a hamburger stand." His security file
 
 He was.
 
-What happened at Los Alamos between 1942 and 1945 is one of the stranger stories in twentieth-century leadership. The man who seemed too inward, too aesthetic, too literary to manage anyone, ran a city of six thousand people on a mesa in New Mexico — scientists, engineers, generals, Nobel laureates — and built a weapon nobody had ever built before, in roughly three years.
+What happened at Los Alamos between 1942 and 1945 ran against everything the selection process said should happen. Groves had fought the Army for a security waiver to appoint a man with Communist associations, a Party-member brother, and a dead girlfriend who'd been a Party member, as scientific director of the most classified project in U.S. history. Almost everyone said Groves was wrong. The man who seemed too inward, too aesthetic, too literary to manage anyone ran a city of six thousand people on a mesa in New Mexico — scientists, engineers, generals, Nobel laureates — and built a weapon nobody had ever built before, in roughly three years.
 
 Fours under pressure often surprise people. The same interior life that makes them seem fragile in ordinary circumstances makes them formidable when the stakes are high enough. They give themselves _completely_ to things that feel meaningful. And Oppenheimer believed, at this moment, that what they were doing would end the war and save lives. He committed with everything.
 
@@ -172,6 +170,8 @@ Oppenheimer had been reading the Gita for twelve years. He understood the verse 
 That is not how Truman thought about it. Truman made a decision. Oppenheimer became someone.
 
 On August 6, 1945, word reached Los Alamos that Hiroshima had been bombed. Oppenheimer was greeted at the base theater by a roaring, foot-stomping crowd. He walked to the front, clasped his hands over his head like a boxing champion, and soaked in the cheering. He told the crowd his only regret was that the bomb hadn't been finished in time to use against Germany.
+
+This is the scene Christopher Nolan put at the center of his 2023 film — rendering it as slow hallucination, the crowd's stomping turning into a low rumble, burned bodies appearing among the living. The film and the historical record agree on the structure underneath the spectacle: public triumph, then private collapse, with no clean line between them.
 
 That evening, at the celebration party, a telex arrived with the first damage reports from Washington. He read the numbers. He became depressed. Leaving the party, he passed a young scientist vomiting in the bushes.
 
@@ -209,9 +209,9 @@ What looked like weakness from Truman's position was Oppenheimer being unable to
 
 ## When the System Condemned His Character
 
-For the next several years, Oppenheimer was the most celebrated scientist in America. He appeared on the cover of _Time_. He chaired the General Advisory Committee of the Atomic Energy Commission and became the most powerful scientific voice in nuclear policy. He spoke loudly against the development of the hydrogen bomb — on both technical and moral grounds.
+For the next several years, Oppenheimer was the most celebrated scientist in America. He appeared on the cover of _Time_. He chaired the General Advisory Committee of the Atomic Energy Commission and set the terms of the nuclear debate. In October 1949, he led the GAC to unanimous agreement against developing the hydrogen bomb — the majority report he signed stated that the Super "might become a weapon of genocide" and found the dangers to humanity "wholly outweigh any military advantage." He had handed the government's own scientific advisers a moral vocabulary for resisting escalation.
 
-Edward Teller wanted the H-bomb. Oppenheimer blocked him. Teller eventually went around him. The H-bomb was built. And in 1954, Teller testified against Oppenheimer at his security clearance hearing — one of the most consequential acts of professional betrayal in American scientific history.
+Edward Teller wanted the H-bomb. Oppenheimer blocked him. Teller eventually went around him. The H-bomb was built. And in 1954, Teller testified against Oppenheimer at his security clearance hearing. Most of the nation's leading physicists never forgave it. Teller wrote later that the aftermath was "akin to the shunning practiced by some religious groups" — colleagues refused his handshake at conferences, close friendships dissolved, and the argument over what he did in that room never fully closed.
 
 The hearing lasted nineteen days. Twenty-four charges: twenty-three about Communist associations from the 1930s and 1940s, one about opposing the H-bomb. Under cross-examination — with an attorney who had access to FBI surveillance recordings — Oppenheimer was, by witnesses' accounts, "often anguished, sometimes surprisingly inarticulate, frequently apologetic about his past and even self-castigating."
 
@@ -227,7 +227,7 @@ He retreated to the Institute for Advanced Study in Princeton. He kept working. 
 
 He died in 1967, of throat cancer. He was sixty-two.
 
-The cost of 1954 did not end with him. His daughter Toni — born at Los Alamos in 1944, fluent in five languages, trained as a translator — applied in 1969 for a position at the United Nations. The FBI denied her the required security clearance. Not because of anything she had done. Because of who her father had been. She was twenty-five. She never worked at the level she'd trained for. In 1977, ten years after Robert died, Toni killed herself in the family beach house on St. John in the U.S. Virgin Islands. She left the property to the people of the island. It is still there — Oppenheimer Beach, named for the family. Some inheritances are like that.
+The cost of 1954 did not end with him. His daughter Toni — born at Los Alamos in 1944, fluent in five languages, trained as a translator — applied in 1969 for a position at the United Nations. The FBI denied her the required security clearance. Not because of anything she had done. Because of who her father had been. She was twenty-five. She never worked at the level she'd trained for. In 1977, ten years after Robert died, Toni killed herself in the family beach house on St. John in the U.S. Virgin Islands. She left the property to the people of the island. It is still there — Oppenheimer Beach, named for the family.
 
 In 2022 — fifty-five years after his death — the Department of Energy formally vacated the 1954 clearance revocation, saying it had been conducted "through a flawed process." His loyalty and love of country, they said, had "only been further affirmed."
 

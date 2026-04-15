@@ -1091,9 +1091,9 @@ After the Quality Checklist passes, run a focused copywriting pass before scorin
 
 Run each title through the three rules:
 
-- *Can I visualize it?* Does the title reference a specific person, behavior, or tension the reader can picture? Abstract words like "understanding," "exploring," or "the art of" almost always fail.
-- *Can I falsify it?* Is the title a claim that's true or false, or just a vague label? "Why [Person] Will Never Be Satisfied" passes. "[Person]'s Inner World" fails.
-- *Can nobody else say it?* Could Psychology Today or 16Personalities publish this title unchanged? If yes, find the sharper, more specific angle.
+- _Can I visualize it?_ Does the title reference a specific person, behavior, or tension the reader can picture? Abstract words like "understanding," "exploring," or "the art of" almost always fail.
+- _Can I falsify it?_ Is the title a claim that's true or false, or just a vague label? "Why [Person] Will Never Be Satisfied" passes. "[Person]'s Inner World" fails.
+- _Can nobody else say it?_ Could Psychology Today or 16Personalities publish this title unchanged? If yes, find the sharper, more specific angle.
 
 Rewrite any title that fails two or more tests before grading.
 
@@ -1101,9 +1101,9 @@ Rewrite any title that fails two or more tests before grading.
 
 The hook is where readers decide to stay or leave. Apply:
 
-- *Two-second test*: Does the opening land its meaning immediately? If a reader has to reread it, rewrite it.
-- *Visualization test*: Is the first image or claim concrete? Names, behaviors, and specific moments beat abstractions. "Taylor Swift rehearses conversations" > "Taylor Swift thinks deeply about relationships."
-- *Falsifiability test*: Is the opening a claim that's verifiably true or false? Not a mood, not a statement of theme. A testable observation.
+- _Two-second test_: Does the opening land its meaning immediately? If a reader has to reread it, rewrite it.
+- _Visualization test_: Is the first image or claim concrete? Names, behaviors, and specific moments beat abstractions. "Taylor Swift rehearses conversations" > "Taylor Swift thinks deeply about relationships."
+- _Falsifiability test_: Is the opening a claim that's verifiably true or false? Not a mood, not a statement of theme. A testable observation.
 
 **3. Three most important claims in the body**
 
@@ -1115,6 +1115,7 @@ Find the three sentences that carry the most analytical weight — typically the
 **4. Section headings**
 
 Scan all H2s and H3s. Flag any heading that:
+
 - Uses generic self-help language (`Growth`, `The Journey`, `Finding Balance`)
 - Describes what the section is about instead of making a claim about the person
 - Could apply to a different celebrity without changing a word

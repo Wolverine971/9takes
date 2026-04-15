@@ -45,7 +45,7 @@ path: src/blog/enneagram/neurodiversity-vs-personality.md
 				That specificity is what's getting lost. When everyone who zones out during meetings claims ADHD, or everyone who finds parties draining calls themselves "on the spectrum," it dilutes the meaning for people who genuinely live with these conditions every day.
 			</p>
 			<p>
-				But here's the thing most people are missing: if you don't have a clinical condition, you still deserve a framework for understanding yourself. You don't need a diagnosis — you need a proper [personality framework](/enneagram-corner/enneagram-tldr) that explains your patterns without pathologizing your humanity.
+				But here's the thing most people are missing: if you don't have a clinical condition, you still deserve a framework for understanding yourself. You don't need a diagnosis — you need a proper <a href="/enneagram-corner/enneagram-tldr" class="font-semibold text-primary-700 dark:text-primary-400 underline">personality framework</a> that explains your patterns without pathologizing your humanity.
 			</p>
 		</div>
 	</section>
@@ -137,7 +137,7 @@ path: src/blog/enneagram/neurodiversity-vs-personality.md
 				But here's what a diagnosis won't give you: it won't explain why <em>you specifically</em> respond to stress the way you do, why your relationships follow the same patterns, or what's really driving the behaviors you can't seem to change. Two people with identical ADHD diagnoses can have completely different emotional worlds, coping strategies, and relationship patterns.
 			</p>
 			<p>
-				That's where personality frameworks fill the gap. A person with ADHD can benefit enormously from understanding their [Enneagram type](/enneagram-corner/enneagram-tldr). The diagnosis tells you what your brain does differently. The Enneagram tells you <em>why you respond to it the way you do.</em>
+				That's where personality frameworks fill the gap. A person with ADHD can benefit enormously from understanding their <a href="/enneagram-corner/enneagram-tldr" class="font-semibold text-primary-700 dark:text-primary-400 underline">Enneagram type</a>. The diagnosis tells you what your brain does differently. The Enneagram tells you <em>why you respond to it the way you do.</em>
 			</p>
 			<p>
 				For a deeper look at how these overlap, check out our guide on <a href="/enneagram-corner/enneagram-and-adhd-which-types-struggle-most" class="font-semibold text-primary-700 dark:text-primary-400 underline">how ADHD affects each Enneagram type differently</a>.
@@ -151,7 +151,7 @@ path: src/blog/enneagram/neurodiversity-vs-personality.md
 		</h2>
 		<div class="prose prose-lg max-w-none">
 			<p>
-				Here's where it gets interesting. Some researchers argue we should stop treating neurodivergence as a hard line at all. <a href="https://www.sciencedirect.com/science/article/pii/S0039368121001072" class="font-semibold text-primary-700 dark:text-primary-400 underline" target="_blank" rel="noopener">Genetic research</a> has shown that traits underlying ADHD and autism are distributed continuously across the entire population — not as binary categories but as spectrums. A <a href="https://psyche.co/ideas/why-we-should-think-of-neurodiversity-like-we-do-personality" class="font-semibold text-primary-700 dark:text-primary-400 underline" target="_blank" rel="noopener">widely-shared essay in <em>Psyche</em></a> even argues we should think of neurodiversity the same way we think of personality: as "cognitive continuity," where neurodivergent traits and personality traits exist on the same sliding scale.
+				Here's where it gets interesting. Some researchers argue we should stop treating neurodivergence as a hard line at all. <a href="https://www.sciencedirect.com/science/article/pii/S0039368121001072" class="font-semibold text-primary-700 dark:text-primary-400 underline" target="_blank" rel="noopener">A 2021 philosophical analysis of genetic research</a> argues that the traits underlying ADHD and autism are distributed continuously across the entire population — not as binary categories but as spectrums. A <a href="https://psyche.co/ideas/why-we-should-think-of-neurodiversity-like-we-do-personality" class="font-semibold text-primary-700 dark:text-primary-400 underline" target="_blank" rel="noopener">2025 essay in <em>Psyche</em></a> goes further, arguing we should think of neurodiversity the same way we think of personality: as "cognitive continuity," where neurodivergent traits and personality traits exist on the same sliding scale.
 			</p>
 			<p>
 				There's real merit to that idea. The science does support dimensional thinking, and it explains why so many people see themselves in ADHD and autism content — because they <em>do</em> share some of those traits, just not at clinical levels.
@@ -205,7 +205,7 @@ path: src/blog/enneagram/neurodiversity-vs-personality.md
 				Most people never examine these questions until they're sitting in a therapist's office because their old strategies have stopped working. The Enneagram gives you that depth of insight — your <a href="/enneagram-corner/enneagram-strengths-and-weaknesses" class="font-semibold text-primary-700 dark:text-primary-400 underline">core motivations and fears</a>, the engine running beneath every decision — without waiting for a crisis.
 			</p>
 			<p>
-				And the evidence base is growing. A <a href="/enneagram-corner/enneagram-vs-personality-frameworks-comparison" class="font-semibold text-primary-700 dark:text-primary-400 underline">systematic review of 104 empirical studies</a> found measurable relationships between Enneagram types and established psychological constructs like the Big Five. It's also the only personality framework with published evidence of advancing ego development — a measure of psychological maturity that almost nothing else can move. (For a full honest assessment of what the science does and doesn't support, <a href="/enneagram-corner/enneagram-criticisms" class="font-semibold text-primary-700 dark:text-primary-400 underline">we address the criticisms directly</a>.)
+				And the evidence base is growing. A <a href="https://onlinelibrary.wiley.com/doi/10.1002/jclp.23112" class="font-semibold text-primary-700 dark:text-primary-400 underline" target="_blank" rel="noopener">2021 systematic review of 104 independent samples</a> (Hook et al., <em>Journal of Clinical Psychology</em>) found measurable relationships between Enneagram types and established psychological constructs like the Big Five. It's also one of the few personality frameworks with published evidence that training in it can directly advance ego development — a measure of psychological maturity that almost nothing else can move. (For a full honest assessment of what the science does and doesn't support, <a href="/enneagram-corner/enneagram-criticisms" class="font-semibold text-primary-700 dark:text-primary-400 underline">we address the criticisms directly</a>.)
 			</p>
 		</div>
 	</section>
@@ -321,8 +321,8 @@ path: src/blog/enneagram/neurodiversity-vs-personality.md
 		</div>
 	</div>
 
-<section class="mt-12">
-<h2 class="mb-6 text-2xl font-bold">Related Reading</h2>
+<section class="mb-12 mt-12">
+	<h2 class="mb-6 border-l-4 border-primary-700 dark:border-primary-500 pl-4 text-3xl font-bold text-primary-900 dark:text-primary-200">Related Reading</h2>
 <div class="prose prose-lg max-w-none">
 
 - **[Enneagram and ADHD: Which Types Struggle Most](/enneagram-corner/enneagram-and-adhd-which-types-struggle-most)** — How ADHD intersects with each Enneagram type, plus type-specific coping strategies

@@ -1,6 +1,6 @@
 ---
 title: 'Malcolm Gladwell: The Observer Who Explained the World'
-meta_title: "Inside Malcolm Gladwell's Mind: Why He Keeps the World at Arm's Length"
+meta_title: "The Man Who Decoded Misperception for Millions Can't Ask a Stranger for Help"
 persona_title: "Ideas' Silent Architect"
 description: "Inside the Type 5 mind that explains misperception to millions while keeping the world at maximum distance. Malcolm Gladwell's Enneagram analysis."
 author: 'DJ Wayne'
@@ -187,7 +187,7 @@ _Talking to Strangers_ opens and closes with Sandra Bland — the young Black wo
 
 For the biracial man who'd experienced firsthand how growing an afro changed whether police stopped him, the choice to frame Sandra Bland's death through a communication lens rather than a racial one was striking.
 
-In interviews, Gladwell didn't dodge the charge. The racist explanation for what happened to Bland, he said, is "absolutely true." He wasn't disputing it. He was adding a second layer: a flawed philosophy of policing that makes any encounter between strangers a potential catastrophe. Not race *instead of* communication failure — both, stacked.
+In interviews, Gladwell didn't dodge the charge. The racist explanation for what happened to Bland, he said, is "absolutely true." He wasn't disputing it. He was adding a second layer: a flawed philosophy of policing that makes any encounter between strangers a potential catastrophe. Not race _instead of_ communication failure — both, stacked.
 
 That's the Five's most recognizable move: find the mechanism no one is examining, name it, and let others debate which gear matters more. Whether that's analytical courage or analytical avoidance depends on who you ask — and whether you've ever been pulled over for growing out your hair.
 

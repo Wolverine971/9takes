@@ -336,7 +336,7 @@ Growth isn't softness. It's noticing when the armor weighs more than what it was
 
 ### The Paradox of True Power
 
-The most powerful people you respect aren't constantly armored. They can afford to be gentle because their strength is real, not performed.
+Mandela served 27 years in prison and walked out capable of disarming the people who put him there. His opponents described the same thing: a man who made you feel seen before you could raise your defenses. That's not softness. It's power with nowhere left to prove itself.
 
 The question isn't whether to lower your defenses. It's whether you want to keep paying the cost of never lowering them.
 
@@ -350,7 +350,7 @@ The CEO who remembers every employee's kids' names. The tough negotiator who spe
 
 Integrated 8s learn to:
 
-- Express care through presence, not just provision
+- Express care through presence, not just provision — sitting with the problem instead of solving it
 - Lead through empowerment rather than domination
 - Protect by building people up, not just defending them
 

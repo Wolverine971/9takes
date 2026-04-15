@@ -13,6 +13,74 @@
 	type Signup = NonNullable<PageData['signups']>[number] & { createdAt: string };
 	type Profile = NonNullable<PageData['profiles']>[number] & { createdAt: string };
 	type SortField = 'last_sign_in_at' | 'created_at' | 'email' | 'enneagram' | 'admin';
+	type ActivityQuestion = {
+		id: number;
+		question: string | null;
+		question_formatted: string | null;
+		url: string | null;
+		created_at: string | null;
+		comment_count: number | null;
+		removed: boolean | null;
+	};
+	type ActivityComment = {
+		id: number;
+		source?: 'question' | 'blog';
+		comment: string | null;
+		created_at: string | null;
+		parent_id: number | null;
+		parent_type: string | null;
+		like_count: number | null;
+		comment_count: number | null;
+		removed?: boolean | null;
+		blog_link?: string | null;
+		blog_type?: string | null;
+		parentQuestion?: {
+			id: number;
+			question: string | null;
+			question_formatted: string | null;
+			url: string | null;
+		} | null;
+	};
+	type UserActivityDetails = {
+		profile: {
+			id: string;
+			email: string | null;
+			username: string | null;
+			first_name: string | null;
+			last_name: string | null;
+			enneagram: string | null;
+			external_id: string | null;
+			admin: boolean | null;
+			canAskQuestion: boolean | null;
+			avatar_url: string | null;
+			created_at: string | null;
+			website: string | null;
+			first_visit_at?: string | null;
+			first_landing_path?: string | null;
+			first_acquisition_source?: string | null;
+			first_referrer_host?: string | null;
+			first_entry_surface?: string | null;
+		};
+		counts: {
+			questions: number;
+			comments: number;
+			visits: number;
+		};
+		lastVisit: {
+			last_seen_at: string | null;
+			started_at: string | null;
+			entry_path: string | null;
+			exit_path: string | null;
+			page_count: number | null;
+		} | null;
+		recentQuestions: ActivityQuestion[];
+		recentComments: ActivityComment[];
+	};
+	type UserDetailsActionData = {
+		success?: boolean;
+		details?: UserActivityDetails;
+		message?: string;
+	};
 
 	// Format data with readable dates
 	let formattedSignups = $derived<Signup[]>(
@@ -32,6 +100,12 @@
 	// User editing state
 	let active = $state<any>(null);
 	let activeAdmin = $state(false);
+
+	// User details state
+	let detailProfile = $state<Profile | null>(null);
+	let detailLoading = $state(false);
+	let detailError = $state('');
+	let detailData = $state<UserActivityDetails | null>(null);
 
 	// Sorting state
 	let sortField = $state<SortField>('last_sign_in_at');
@@ -145,6 +219,76 @@
 			getModal('user-modal').close();
 		}
 	};
+
+	function displayName(profile: Partial<Profile> | null | undefined): string {
+		const fullName = [profile?.first_name, profile?.last_name].filter(Boolean).join(' ').trim();
+		return fullName || profile?.username || 'Unnamed user';
+	}
+
+	function formatDateTime(dateStr: string | null | undefined): string {
+		if (!dateStr) return '—';
+		const date = new Date(dateStr);
+		if (Number.isNaN(date.getTime())) return '—';
+		return date.toLocaleString(undefined, {
+			month: 'short',
+			day: 'numeric',
+			year: 'numeric',
+			hour: 'numeric',
+			minute: '2-digit'
+		});
+	}
+
+	function getQuestionText(
+		question: ActivityQuestion | ActivityComment['parentQuestion'] | null | undefined
+	): string {
+		return question?.question_formatted || question?.question || 'Untitled question';
+	}
+
+	function getActivityUrl(
+		question: ActivityQuestion | ActivityComment['parentQuestion'] | null | undefined
+	): string {
+		return question?.url ? `/questions/${question.url}` : '/questions';
+	}
+
+	function getBlogUrl(blogLink: string | null | undefined): string {
+		if (!blogLink) return '';
+		if (blogLink.startsWith('/') || blogLink.startsWith('http')) return blogLink;
+		return `/${blogLink}`;
+	}
+
+	async function openUserDetails(profile: Profile) {
+		detailProfile = { ...profile };
+		detailData = null;
+		detailError = '';
+		detailLoading = true;
+		getModal('user-details-modal').open();
+
+		try {
+			const body = new FormData();
+			body.append('userId', profile.id);
+
+			const resp = await fetch('?/getUserDetails', {
+				method: 'POST',
+				body
+			});
+			const result = deserialize(await resp.text());
+			const resultData =
+				result.type === 'success' || result.type === 'failure'
+					? (result.data as UserDetailsActionData | undefined)
+					: undefined;
+
+			if (result.type === 'success' && resultData?.success && resultData.details) {
+				detailData = resultData.details;
+			} else {
+				detailError = resultData?.message || 'Could not load user details.';
+			}
+		} catch (error) {
+			console.error('Error loading user details:', error);
+			detailError = 'Could not load user details.';
+		} finally {
+			detailLoading = false;
+		}
+	}
 
 	import { TYPE_COLOR_MAP } from '$lib/constants/enneagramColors';
 
@@ -294,17 +438,26 @@
 										{/if}
 									</td>
 									<td data-label="Actions">
-										<button
-											type="button"
-											class="edit-btn"
-											onclick={() => {
-												active = { ...profile };
-												activeAdmin = !!active.admin;
-												getModal('user-modal').open();
-											}}
-										>
-											Edit
-										</button>
+										<div class="action-buttons">
+											<button
+												type="button"
+												class="details-btn"
+												onclick={() => openUserDetails(profile)}
+											>
+												Details
+											</button>
+											<button
+												type="button"
+												class="edit-btn"
+												onclick={() => {
+													active = { ...profile };
+													activeAdmin = !!active.admin;
+													getModal('user-modal').open();
+												}}
+											>
+												Edit
+											</button>
+										</div>
 									</td>
 								</tr>
 							{/each}
@@ -352,6 +505,199 @@
 		</section>
 	{/if}
 </div>
+
+<Modal2 id="user-details-modal">
+	<div class="modal-content detail-modal-content">
+		<h2 class="modal-title">User Details</h2>
+
+		{#if detailProfile}
+			<div class="modal-user-info detail-user-info">
+				<div class="user-avatar">
+					{#if detailProfile.enneagram}
+						<span
+							class="avatar-type"
+							style="background: {typeColors[Number(detailProfile.enneagram)] ||
+								'var(--text-tertiary)'}"
+						>
+							{detailProfile.enneagram}
+						</span>
+					{:else}
+						<span class="avatar-placeholder">?</span>
+					{/if}
+				</div>
+				<div class="user-details">
+					<p class="user-email">{detailProfile.email}</p>
+					<p class="user-name">{displayName(detailProfile)}</p>
+				</div>
+			</div>
+		{/if}
+
+		{#if detailLoading}
+			<div class="loading-state">Loading user activity...</div>
+		{:else if detailError}
+			<div class="error-state">{detailError}</div>
+		{:else if detailData}
+			<div class="activity-stats">
+				<div class="activity-stat">
+					<span class="activity-stat-value">{detailData.counts.questions}</span>
+					<span class="activity-stat-label">Questions</span>
+				</div>
+				<div class="activity-stat">
+					<span class="activity-stat-value">{detailData.counts.comments}</span>
+					<span class="activity-stat-label">Comments</span>
+				</div>
+				<div class="activity-stat">
+					<span class="activity-stat-value">{detailData.counts.visits}</span>
+					<span class="activity-stat-label">Visits</span>
+				</div>
+				<div class="activity-stat activity-stat-wide">
+					<span class="activity-stat-value"
+						>{formatDateTime(detailData.lastVisit?.last_seen_at)}</span
+					>
+					<span class="activity-stat-label">Last visit</span>
+				</div>
+			</div>
+
+			<section class="detail-section">
+				<h3>Profile Details</h3>
+				<dl class="detail-grid">
+					<div>
+						<dt>Joined</dt>
+						<dd>{formatDateTime(detailData.profile.created_at)}</dd>
+					</div>
+					<div>
+						<dt>Last sign-in</dt>
+						<dd>{formatDateTime(detailProfile?.last_sign_in_at)}</dd>
+					</div>
+					<div>
+						<dt>First visit</dt>
+						<dd>{formatDateTime(detailData.profile.first_visit_at)}</dd>
+					</div>
+					<div>
+						<dt>Can ask question</dt>
+						<dd>{detailData.profile.canAskQuestion ? 'Yes' : 'No'}</dd>
+					</div>
+					<div>
+						<dt>Username</dt>
+						<dd>{detailData.profile.username || '-'}</dd>
+					</div>
+					<div>
+						<dt>External ID</dt>
+						<dd>
+							{#if detailData.profile.external_id}
+								<a href="/users/{detailData.profile.external_id}" class="detail-link">
+									{detailData.profile.external_id}
+								</a>
+							{:else}
+								-
+							{/if}
+						</dd>
+					</div>
+					<div>
+						<dt>Source</dt>
+						<dd>{detailData.profile.first_acquisition_source || '-'}</dd>
+					</div>
+					<div>
+						<dt>Entry surface</dt>
+						<dd>{detailData.profile.first_entry_surface || '-'}</dd>
+					</div>
+					<div>
+						<dt>Landing path</dt>
+						<dd>{detailData.profile.first_landing_path || '-'}</dd>
+					</div>
+					<div>
+						<dt>Referrer</dt>
+						<dd>{detailData.profile.first_referrer_host || '-'}</dd>
+					</div>
+					<div>
+						<dt>Latest entry path</dt>
+						<dd>{detailData.lastVisit?.entry_path || '-'}</dd>
+					</div>
+					<div>
+						<dt>Latest exit path</dt>
+						<dd>{detailData.lastVisit?.exit_path || '-'}</dd>
+					</div>
+					<div>
+						<dt>Latest session pages</dt>
+						<dd>{detailData.lastVisit?.page_count ?? '-'}</dd>
+					</div>
+				</dl>
+			</section>
+
+			<section class="detail-section">
+				<div class="detail-section-header">
+					<h3>Questions Asked</h3>
+					<span>{detailData.recentQuestions.length} of {detailData.counts.questions}</span>
+				</div>
+				{#if detailData.recentQuestions.length}
+					<ul class="activity-list">
+						{#each detailData.recentQuestions as question}
+							<li>
+								<a href={getActivityUrl(question)} class="activity-title">
+									{getQuestionText(question)}
+								</a>
+								<div class="activity-meta">
+									<span>{formatDateTime(question.created_at)}</span>
+									<span>{question.comment_count ?? 0} comments</span>
+									{#if question.removed}
+										<span class="removed-label">Removed</span>
+									{/if}
+								</div>
+							</li>
+						{/each}
+					</ul>
+				{:else}
+					<p class="detail-empty">No questions asked yet.</p>
+				{/if}
+			</section>
+
+			<section class="detail-section">
+				<div class="detail-section-header">
+					<h3>Comments Created</h3>
+					<span>{detailData.recentComments.length} of {detailData.counts.comments}</span>
+				</div>
+				{#if detailData.recentComments.length}
+					<ul class="activity-list">
+						{#each detailData.recentComments as comment}
+							<li>
+								{#if comment.source === 'blog'}
+									{#if comment.blog_link}
+										<a href={getBlogUrl(comment.blog_link)} class="activity-title">
+											{comment.blog_type || comment.blog_link}
+										</a>
+									{:else}
+										<p class="activity-title">{comment.blog_type || 'Blog comment'}</p>
+									{/if}
+								{:else if comment.parentQuestion}
+									<a href={getActivityUrl(comment.parentQuestion)} class="activity-title">
+										{getQuestionText(comment.parentQuestion)}
+									</a>
+								{:else}
+									<p class="activity-title">
+										Parent {comment.parent_type || 'item'} #{comment.parent_id}
+									</p>
+								{/if}
+								<p class="activity-body">{comment.comment || 'Empty comment'}</p>
+								<div class="activity-meta">
+									<span>{formatDateTime(comment.created_at)}</span>
+									<span>{comment.source === 'blog' ? 'Blog' : 'Question'}</span>
+									{#if comment.source !== 'blog'}
+										<span>{comment.like_count ?? 0} likes</span>
+									{/if}
+									{#if comment.removed}
+										<span class="removed-label">Removed</span>
+									{/if}
+								</div>
+							</li>
+						{/each}
+					</ul>
+				{:else}
+					<p class="detail-empty">No comments created yet.</p>
+				{/if}
+			</section>
+		{/if}
+	</div>
+</Modal2>
 
 <Modal2 id="user-modal">
 	<div class="modal-content">
@@ -629,7 +975,14 @@
 		font-weight: 500;
 	}
 
-	.edit-btn {
+	.action-buttons {
+		display: flex;
+		align-items: center;
+		gap: 6px;
+	}
+
+	.edit-btn,
+	.details-btn {
 		padding: 4px 10px;
 		background: var(--bg-surface);
 		color: var(--primary);
@@ -641,14 +994,26 @@
 		transition: all 0.15s ease;
 	}
 
-	.edit-btn:hover {
+	.details-btn {
+		color: var(--text-primary);
+		border-color: var(--bg-elevated);
+	}
+
+	.edit-btn:hover,
+	.details-btn:hover {
 		background: var(--primary);
 		color: white;
+		border-color: var(--primary);
 	}
 
 	/* Modal Styles */
 	.modal-content {
 		max-width: 400px;
+	}
+
+	.detail-modal-content {
+		width: min(840px, calc(100vw - 48px));
+		max-width: 840px;
 	}
 
 	.modal-title {
@@ -664,8 +1029,12 @@
 		gap: 12px;
 		padding: 12px;
 		background: var(--bg-deep);
-		border-radius: 10px;
+		border-radius: 8px;
 		margin-bottom: 16px;
+	}
+
+	.detail-user-info {
+		margin-bottom: 14px;
 	}
 
 	.user-avatar {
@@ -678,7 +1047,7 @@
 		justify-content: center;
 		width: 40px;
 		height: 40px;
-		border-radius: 10px;
+		border-radius: 8px;
 		font-size: 1.125rem;
 		font-weight: 700;
 		color: white;
@@ -690,7 +1059,7 @@
 		justify-content: center;
 		width: 40px;
 		height: 40px;
-		border-radius: 10px;
+		border-radius: 8px;
 		font-size: 1.125rem;
 		font-weight: 700;
 		background: var(--bg-elevated);
@@ -715,6 +1084,169 @@
 		font-size: 0.75rem;
 		color: var(--text-secondary);
 		margin: 0;
+	}
+
+	.loading-state,
+	.error-state,
+	.detail-empty {
+		padding: 14px;
+		background: var(--bg-deep);
+		border: 1px solid var(--bg-elevated);
+		border-radius: 8px;
+		color: var(--text-secondary);
+		font-size: 0.8125rem;
+	}
+
+	.error-state {
+		color: #dc2626;
+		background: rgba(220, 38, 38, 0.08);
+		border-color: rgba(220, 38, 38, 0.25);
+	}
+
+	.activity-stats {
+		display: grid;
+		grid-template-columns: repeat(4, minmax(0, 1fr));
+		gap: 10px;
+		margin-bottom: 18px;
+	}
+
+	.activity-stat {
+		padding: 12px;
+		background: var(--bg-deep);
+		border: 1px solid var(--bg-elevated);
+		border-radius: 8px;
+		min-width: 0;
+	}
+
+	.activity-stat-value {
+		display: block;
+		font-size: 1rem;
+		font-weight: 700;
+		color: var(--text-primary);
+		overflow-wrap: anywhere;
+	}
+
+	.activity-stat-label {
+		display: block;
+		margin-top: 4px;
+		font-size: 0.6875rem;
+		font-weight: 600;
+		text-transform: uppercase;
+		letter-spacing: 0.04em;
+		color: var(--text-secondary);
+	}
+
+	.detail-section {
+		padding-top: 16px;
+		margin-top: 16px;
+		border-top: 1px solid var(--bg-elevated);
+	}
+
+	.detail-section h3,
+	.detail-section-header h3 {
+		margin: 0;
+		font-size: 0.875rem;
+		font-weight: 700;
+		color: var(--text-primary);
+	}
+
+	.detail-section-header {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		gap: 12px;
+		margin-bottom: 10px;
+	}
+
+	.detail-section-header span {
+		color: var(--text-secondary);
+		font-size: 0.75rem;
+	}
+
+	.detail-grid {
+		display: grid;
+		grid-template-columns: repeat(2, minmax(0, 1fr));
+		gap: 10px;
+		margin: 10px 0 0;
+	}
+
+	.detail-grid div {
+		min-width: 0;
+		padding: 10px;
+		background: var(--bg-deep);
+		border: 1px solid var(--bg-elevated);
+		border-radius: 8px;
+	}
+
+	.detail-grid dt {
+		font-size: 0.6875rem;
+		font-weight: 700;
+		color: var(--text-secondary);
+		text-transform: uppercase;
+		letter-spacing: 0.04em;
+	}
+
+	.detail-grid dd {
+		margin: 4px 0 0;
+		color: var(--text-primary);
+		font-size: 0.8125rem;
+		overflow-wrap: anywhere;
+	}
+
+	.detail-link,
+	.activity-title {
+		color: var(--primary);
+		text-decoration: none;
+	}
+
+	.detail-link:hover,
+	.activity-title:hover {
+		text-decoration: underline;
+	}
+
+	.activity-list {
+		display: grid;
+		gap: 10px;
+		padding: 0;
+		margin: 0;
+		list-style: none;
+	}
+
+	.activity-list li {
+		padding: 12px;
+		background: var(--bg-deep);
+		border: 1px solid var(--bg-elevated);
+		border-radius: 8px;
+	}
+
+	.activity-title {
+		display: block;
+		margin: 0;
+		font-size: 0.875rem;
+		font-weight: 700;
+		line-height: 1.35;
+	}
+
+	.activity-body {
+		margin: 8px 0 0;
+		color: var(--text-primary);
+		font-size: 0.8125rem;
+		line-height: 1.45;
+		overflow-wrap: anywhere;
+	}
+
+	.activity-meta {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 8px;
+		margin-top: 8px;
+		color: var(--text-secondary);
+		font-size: 0.6875rem;
+	}
+
+	.removed-label {
+		color: #dc2626;
+		font-weight: 700;
 	}
 
 	.form-group {
@@ -920,9 +1452,32 @@
 			white-space: normal;
 		}
 
-		.edit-btn {
+		.action-buttons {
+			width: 100%;
+			display: grid;
+			grid-template-columns: repeat(2, minmax(0, 1fr));
+		}
+
+		.edit-btn,
+		.details-btn {
 			width: 100%;
 			justify-content: center;
+		}
+
+		.detail-modal-content {
+			width: calc(100vw - 32px);
+		}
+
+		.activity-stats {
+			grid-template-columns: repeat(2, minmax(0, 1fr));
+		}
+
+		.activity-stat-wide {
+			grid-column: span 2;
+		}
+
+		.detail-grid {
+			grid-template-columns: 1fr;
 		}
 	}
 
@@ -943,6 +1498,14 @@
 
 		.table-content {
 			max-height: 400px;
+		}
+
+		.activity-stats {
+			grid-template-columns: 1fr;
+		}
+
+		.activity-stat-wide {
+			grid-column: auto;
 		}
 	}
 </style>

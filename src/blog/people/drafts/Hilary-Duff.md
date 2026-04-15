@@ -56,7 +56,7 @@ And then she did something almost no child star does. She stopped.
 <ul>
 <li><b>The giver who forgot herself:</b> Hilary's childhood was structured around meeting other people's needs (Disney's, her mother's career ambitions, the public's) until she literally didn't know her own preferences.</li>
 <li><b>The sweetness that cost her:</b> A pattern of absorbing inappropriate behavior with a smile, from tabloid cruelty to body-shaming interviewers. Rooted in Southern upbringing and a deep need to maintain connection.</li>
-<li><b>The father wound:</b> Her most devastating lyric, about wishing her father would really love her, points to the core [Type 2](/enneagram-corner/enneagram-type-2) fear playing out across her entire life.</li>
+<li><b>The father wound:</b> Her most devastating lyric, about wishing her father would really love her, points to the core <a href="/enneagram-corner/enneagram-type-2" class="font-semibold text-primary-700 dark:text-primary-400 underline">Type 2</a> fear playing out across her entire life.</li>
 <li><b>Connection as superpower:</b> She describes her ability to make people feel close to her as her "magic trick." The warmth is real. The compulsion to deploy it is the Two.</li>
 </ul>
 </div>
