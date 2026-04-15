@@ -1,0 +1,24 @@
+**Pre-Flight Check: In-Progress Blog Detected**
+
+```
+BLOG IN PROGRESS: jensen-huang - skipping today's run
+```
+
+The automation has stopped because `inProgress` is not null in the queue file.
+
+**Current inProgress state:**
+- **Blog**: Jensen Huang
+- **Type**: 3
+- **Started**: 2026-04-14T12:00:00Z (yesterday)
+
+This appears to be a **stale in-progress entry** from yesterday's run that never completed or was cleared. The blog is still also listed in the queue, suggesting the run was interrupted before it could finish or clear the state.
+
+**To resolve this, you have two options:**
+
+1. **If Jensen Huang was never actually completed** - Clear the `inProgress` field and let tomorrow's run pick it up fresh:
+   - Set `inProgress: null` in `backlog-queue.json`
+   - The entry will remain at the top of the queue (priority 92) and be selected next run
+
+2. **If you want to manually clear it and run today** - Clear `inProgress` and re-invoke `/daily-blog-creator`
+
+Would you like me to clear the stale `inProgress` entry so the automation can proceed?

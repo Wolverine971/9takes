@@ -234,7 +234,7 @@ export const famousTypes: { [index: number]: { name: string; link: boolean; hasI
 		{ name: 'david-sacks', link: true, hasImage: true, lastmod: '2026-02-20', personaTitle: 'Silicon Valley\'s Vigilant Architect', contentGrade: 8.9 },
 		{ name: 'ellen-degeneres', link: true, hasImage: true, lastmod: '2025-03-24', personaTitle: 'Daytime\'s Fallen Sweetheart', contentGrade: null },
 		{ name: 'eminem', link: true, hasImage: true, lastmod: '2026-01-26', personaTitle: 'Detroit\'s Anxious Assassin', contentGrade: 9.1 },
-		{ name: 'garry-tan', link: false, hasImage: true, lastmod: '2026-04-07', personaTitle: 'Tech\'s Earnest Watchdog', contentGrade: 9 },
+		{ name: 'garry-tan', link: true, hasImage: true, lastmod: '2026-04-15', personaTitle: 'Tech\'s Earnest Watchdog', contentGrade: 9 },
 		{ name: 'george-h-w-bush', link: true, hasImage: true, lastmod: '2025-12-04', personaTitle: 'America\'s Steady Coalition Builder', contentGrade: 8.6 },
 		{ name: 'george-w-bush', link: true, hasImage: true, lastmod: '2026-03-28', personaTitle: 'America\'s Counterphobic Commander', contentGrade: 9.1 },
 		{ name: 'howard-stern', link: true, hasImage: true, lastmod: '2026-03-01', personaTitle: 'Radio\'s Counterphobic Sentinel', contentGrade: 9.1 },
