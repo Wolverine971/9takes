@@ -111,7 +111,7 @@ These posts are "orphaned" - no other content links to them.
 | Enneagram Type 6: The Loyalist - The Search for Solid Ground | `enneagram/enneagram-type-6.md` | 7 |
 | Enneagram Type 7: The Enthusiast - The Possibility Engine | `enneagram/enneagram-type-7.md` | 7 |
 | Enneagram Type 8: The Challenger | `enneagram/enneagram-type-8.md` | 7 |
-| Your Enneagram Type Is Not You | `community/personality-frameworks-map-not-territory.md` | 5 |
+| You Didn | `community/personality-frameworks-map-not-territory.md` | 5 |
 | Depp vs Heard: Why a Type 4 and a Type 3 Were Built to Destr... | `pop-culture/depp-vs-heard-enneagram-analysis.md` | 2 |
 | The Psychology of Epstein | `pop-culture/epstien-research/Jeffrey-Epstein-Psychology-Of-The-Web.md` | 1 |
 | The Disruptors: Why Type 8s Break Industries and Type 5s Dec... | `pop-culture/tech-titans-disruptors.md` | 1 |
@@ -264,7 +264,7 @@ Sorted by total connections (incoming + outgoing).
 | 8 | 6 | 2 | The Complete Enneagram Compatibility Matrix: All 81 Type Com... | `enneagram/enneagram-compatibility-matrix.md` |
 | 8 | 2 | 6 | Enneagram Dating Guide for Women: Decode Your Perfect Match ... | `enneagram/enneagram-dating-guide-for-women.md` |
 | 8 | 1 | 7 | Enneagram Parenting Styles: Why You Parent the Way You Do (A... | `enneagram/enneagram-parenting-styles.md` |
-| 8 | 3 | 5 | Transforming Workplace Teams Using Enneagram: A Leader | `enneagram/enneagram-workplace-team-building.md` |
+| 8 | 3 | 5 | Enneagram at Work: What Each Type Needs, Fears, and Brings t... | `enneagram/enneagram-workplace-team-building.md` |
 | 8 | 2 | 6 | Read Anyone in 30 Seconds: The Enneagram Body Language Cheat... | `enneagram/first-impression-enneagram-playbook.md` |
 | 8 | 1 | 7 | How All 9 Enneagram Types Flex: Revealing Each Type | `enneagram/how-each-enneagram-flexes.md` |
 | 8 | 1 | 7 | Neurodiversity vs. Personality: Stop Looking for Labels, Sta... | `enneagram/neurodiversity-vs-personality.md` |
@@ -298,7 +298,7 @@ Sorted by total connections (incoming + outgoing).
 | 6 | 3 | 3 | Dating Dynamics by Enneagram Type: 9 Patterns That Sabotage ... | `guides/dating-dynamics-by-enneagram-type.md` |
 | 5 | 3 | 2 | The Consensus on Human Nature | `community/consensus-on-human-nature.md` |
 | 5 | 2 | 3 | Kant Said You | `community/kantian-filters-and-nine-perspectives.md` |
-| 5 | 0 | 5 | Your Enneagram Type Is Not You | `community/personality-frameworks-map-not-territory.md` |
+| 5 | 0 | 5 | You Didn | `community/personality-frameworks-map-not-territory.md` |
 | 5 | 1 | 4 | 3 Societal Ticking Time Bombs Nobody Is Connecting | `community/societal-ticking-time-bombs.md` |
 | 5 | 2 | 3 | The Hardware and Software of the Mind | `community/software-and-hardware-of-the-mind.md` |
 | 5 | 2 | 3 | What Winning Online Arguments Looks Like | `community/what-winning-online-arguments-looks-like.md` |

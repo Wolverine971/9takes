@@ -55,7 +55,7 @@ Robert Greene has written six books about how to read people — their hidden mo
 
 He never saw his own father.
 
-That blind spot sits at the center of everything Greene has built. The world's most famous analyst of human nature spent his childhood watching people from a distance because he didn't feel seen up close. "My parents kind of left me alone a lot," he told Steven Bartlett on The Diary of a CEO. "I was basically, my sister almost kind of raised me in a way."
+That blind spot sits at the center of everything Greene has built. The man whose books would be banned from prisons and read by tens of millions spent his childhood watching people from a distance because he didn't feel seen up close. "My parents kind of left me alone a lot," he told Steven Bartlett on The Diary of a CEO. "I was basically, my sister almost kind of raised me in a way."
 
 The books came later. The 48 Laws of Power. The Art of Seduction. Mastery. The Laws of Human Nature. Six titles. Tens of millions of copies. Translated into dozens of languages. Banned from prisons. But before all of that — before the notecards, the color-coded research systems, the partnership with 50 Cent, the cult following — there was a quiet kid in Baldwin Hills, Los Angeles, watching adults from the margins and cataloging what he saw.
 
@@ -90,8 +90,6 @@ He ended up in Hollywood, writing screenplays. The pay was good. The environment
 
 Directors wielded power against him — "doing whatever they wanted with his writing, or cutting his name out completely." One boss tormented him. He reacted emotionally. She destroyed him for it. Years later, he realized the moment contained a lesson: "I had violated a law of power 12 years before I ever wrote the book. Law number one: Never outshine the master."
 
-Then came the resolution that changed everything.
-
 <div class="pull-quote">
 "I'm never going to let this happen again. I'm never going to get emotional... I'm just going to become a master observer of the game of power."
 </div>
@@ -124,7 +122,7 @@ The research phase alone can take years. The Laws of Human Nature consumed six y
 
 > "I started this book. All right, Robert, this time you're going to make this book shorter... And then I can't help it. It turns into six years. There's something probably negative in my past about that. It's a compulsion to please people, it's supposed to do more than it's necessary."
 
-That admission — from the Young and Profiting podcast — cracks open something. The man whose entire public identity is built on intellectual self-sufficiency admits the work is driven by a compulsion to prove his worth. Three thousand notecards aren't just thorough. They're a wall.
+That admission — from the Young and Profiting podcast — cracks open the ideology. The man whose entire public identity is built on intellectual self-sufficiency admits the work is driven by a compulsion to prove his worth. Three thousand notecards aren't just thorough. They're a wall.
 
 ---
 
@@ -132,11 +130,9 @@ That admission — from the Young and Profiting podcast — cracks open somethin
 
 ### Robert Greene is an Enneagram Type 5
 
-Before naming the pattern, sit inside the feeling.
-
 You're six years old. Your mother's anxiety fills the room like weather — you can't see it, but your body registers every shift. "My mother's a very anxious person, and she'll admit it," Greene told Rick Rubin on Tetragrammaton. "And so you absorb the energy patterns of people you were around when you're that young." Your father comes home from selling cleaning supplies. He doesn't talk about what he wanted. Your sister makes you dinner. Nobody explains the rules.
 
-That is the world a [Type 5](/enneagram-corner/enneagram-type-5) is born into — not necessarily cruel, but incomprehensible. Too much input, not enough explanation. The core fear isn't spiders or heights. It's structural: that you are fundamentally unprepared for the demands of being alive. That the world will overwhelm you, deplete you, catch you without enough. The Five's response is to stockpile. Knowledge. Distance. Routine. Three thousand notecards between yourself and the chaos.
+That is the world a [Type 5](/enneagram-corner/enneagram-type-5) is born into — not cruel, but unreadable. Too much input, not enough explanation. The core fear isn't spiders or heights. It's structural: that you are fundamentally unprepared for the demands of being alive. That the world will overwhelm you, deplete you, catch you without enough. The Five's response is to stockpile. Knowledge. Distance. Routine. Three thousand notecards between yourself and the chaos.
 
 <p class="inner-thought">If I understand everything, nothing can touch me.</p>
 
@@ -158,7 +154,7 @@ The 48 Laws of Power wasn't written by a powerful man. It was written by a man w
 
 **In growth**, Type 5s move toward Type 8 — decisive, assertive, willing to take action. We see this most clearly in two moments: the 50 Cent collaboration, where Greene stepped out of pure observation into the arena, and the post-stroke recovery, where he chose to fight rather than withdraw. "I wasn't going to let this defeat me," he told Lewis Howes. "Every day is like a battle, but I'm not going to give up." That language — _battle_, _defeat_, _not going to give up_ — is Five reaching for Eight.
 
-His wing is **4** — the Iconoclast. "I'm quite a strange individual, I'm actually kinda weird... I'm not like other people." His long-term partner is Anna Biller, an auteur filmmaker whose The Love Witch took seven years of obsessive craft — the kind of intensely individualistic creative a 5w4 gravitates toward. "He has a strong feminine side and I have a strong masculine side," Biller told LA Weekly, "so we balance each other out." The 4-wing adds the emotional depth and literary ambition that separate Greene from a purely systematic thinker. His books aren't just informative. They're designed as literature.
+His wing is **4** — the Iconoclast. "I'm quite a strange individual, I'm actually kinda weird... I'm not like other people." His long-term partner is Anna Biller, an auteur filmmaker whose The Love Witch took seven years of obsessive craft — the kind of intensely individualistic creative a 5w4 gravitates toward. "He has a strong feminine side and I have a strong masculine side," Biller told LA Weekly, "so we balance each other out." The 4-wing adds the emotional depth and literary ambition that separate Greene from a purely systematic thinker. A man trained in classical literature at Wisconsin doesn't write self-help. He writes history.
 
 ---
 
@@ -238,13 +234,11 @@ He woke on a gurney. The entire left side of his body was barely functional. His
 
 "I still can't make my own breakfast, so my wife has been making my breakfast, which is quite a burden on her," he told My Morning Routine three years after the stroke. "I also can't wash dishes, so we have a caregiver here who helps me." He watched classic films at night because he couldn't do much else. He noticed butterflies in his garden — beauty he'd walked past for decades.
 
-Read that again. The man who spent his entire life building a fortress of self-sufficiency — the solitary research, the spartan routine, the thirty-five-minute meditations in lotus position — cannot make his own breakfast. The world's foremost analyst of power dynamics depends on someone else to wash his dishes.
+The man who spent his entire life building a fortress of self-sufficiency — the solitary research, the spartan routine, the thirty-five-minute meditations in lotus position — cannot make his own breakfast. The world's foremost analyst of power dynamics depends on someone else to wash his dishes.
 
 For a Type 5, this is not misfortune. It is the nightmare scenario made flesh.
 
 He fought. Three-plus hours of physical therapy daily. A recumbent bike for two hours. The same determination that powered six years of research on a single book was redirected toward regaining use of his own body. "I wasn't going to let this defeat me," he told Lewis Howes, "because the alternative was losing hope and becoming suicidal. And I wasn't gonna let that happen."
-
-But something else happened too. Something quieter than the fight.
 
 "Losing that half of my personality de-stressed me a lot," he told Rick Rubin. The physical limitation paradoxically reduced his anxiety. It forced a kind of acceptance the meditation had been aiming at for decades.
 

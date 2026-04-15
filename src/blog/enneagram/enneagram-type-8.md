@@ -58,7 +58,7 @@ From that moment, you started building. Not walls exactly. Something more useful
 
 This is the origin of Type 8, "The Challenger." Not a personality you chose. A survival strategy that worked so well it became who you are.
 
-Here's what most articles about 8s miss: you're not just a walking trauma response. When you're with people who've earned your trust, you're the one cracking inappropriate jokes, picking up the entire dinner tab without mentioning it, and staying up until 3am because the conversation got interesting. The fierce protector is real. So is the person who'll give someone the shirt off their back and then make fun of them for needing it.
+You're not just a walking trauma response. When you're with people who've earned your trust, you're the one cracking inappropriate jokes, picking up the entire dinner tab without mentioning it, and staying up until 3am because the conversation got interesting. The fierce protector is real. So is the person who'll give someone the shirt off their back and then make fun of them for needing it.
 
 <section class="section-content">
 
@@ -85,7 +85,7 @@ The one who felt powerless became the one who accumulates power. The one who nee
 
 ## The Architecture of Armor
 
-Your protective system runs deep. Every characteristic serves one mission: maintain autonomy, prevent exposure.
+Your protective system has one mission: maintain autonomy, prevent exposure.
 
 ### Core Mechanics
 
@@ -134,7 +134,7 @@ Other people's "peaceful Sunday" is your personal hell. You need something to pu
 
 ### Physical Presence
 
-8s have an unmistakable energy that precedes them into a room. People feel you before they see you.
+You walk into a room and the conversation recalibrates. People straighten up.
 
 Your handshake is firm, your eye contact is direct, and your physical stance communicates "I'm here, and I'm not apologizing for it."
 
@@ -184,7 +184,7 @@ Your instinctual drive shapes which flavor of 8 you embody:
 
 ## Power at Work
 
-In professional environments, you're a force of nature. Your workplace behavior isn't random aggression. It's strategic.
+In a meeting, you're calling the play while others are still framing the problem.
 
 ### The 8 at Work
 
@@ -322,7 +322,7 @@ Don't try to soften them. They'll experience it as control. Don't try to fix the
 
 Create safety through consistency. Show them, over time, that you can handle their intensity without running, their vulnerability without exploiting it, their truth without judgment.
 
-When they finally lower their guard, you'll discover something remarkable. Behind all that strength is someone who feels everything intensely. Someone whose toughness guards a heart that, once opened, loves with a fierceness most people never experience.
+When they finally lower their guard, you'll find someone who's been paying close attention all along — who noticed how you take your coffee, what your bad days look like, and what you needed before you asked.
 
 Learn more about <a href="/enneagram-corner/enneagram-types-in-relationships">other types in relationships</a> and explore the <a href="/blog/enneagram/enneagram-compatibility-matrix">Enneagram compatibility matrix</a> to understand how Type 8s connect with each type.
 
@@ -332,7 +332,7 @@ Learn more about <a href="/enneagram-corner/enneagram-types-in-relationships">ot
 
 ## The Path Forward: Strength Through Selective Exposure
 
-Growth for an 8 isn't about becoming weaker. It's about recognizing when your defenses have become heavier than the threat they're protecting you from.
+Growth isn't softness. It's noticing when the armor weighs more than what it was built for.
 
 ### The Paradox of True Power
 
@@ -376,7 +376,7 @@ Express affection without hedging. Admit uncertainty when it's true. Acknowledge
 
 At some point, the most powerful 8s figure something out: the protection that saved them now limits their options.
 
-The 8s who grow choose selective openness. Not because they've gone soft, but because they've realized that connection, like everything else worth having, requires some risk.
+The 8s who grow choose selective openness — not because they've gone soft, but because they've figured out what every good negotiator eventually learns: controlled vulnerability isn't exposure. It's leverage.
 
 You don't have to stop being powerful. You just get to stop being _only_ powerful. You decide when the defenses come down. And for whom.
 

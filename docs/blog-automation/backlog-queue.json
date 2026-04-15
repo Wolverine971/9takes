@@ -1,5 +1,5 @@
 {
-	"lastUpdated": "2026-04-14T12:00:00Z",
+	"lastUpdated": "2026-04-15T12:00:00Z",
 	"stats": {
 		"totalUnpublished": 107,
 		"totalPublished": 265,
@@ -525,6 +525,19 @@
 			"addedToQueue": "2026-04-12",
 			"retryCount": 0,
 			"strategicValue": "comedy-icon-cluster"
+		},
+		{
+			"name": "oliver-tree",
+			"displayName": "Oliver Tree",
+			"type": 4,
+			"priority": 51,
+			"priorityReason": "Eccentric alt-pop artist with a deeply crafted persona, bowl-cut icon, and strong Type 4 individualist analysis angle",
+			"estimatedTraffic": "medium",
+			"searchVolume": "medium",
+			"personaTitle": null,
+			"addedToQueue": "2026-04-15",
+			"retryCount": 0,
+			"strategicValue": "alt-pop-eccentric-cluster"
 		}
 	],
 	"completed": [

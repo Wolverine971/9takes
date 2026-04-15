@@ -110,7 +110,7 @@ Forced retirement at 21. Severe headaches ended his competitive career. The stre
 
 Joe found comedy.
 
-## How He Got Into Comedy
+## How Comedy Replaced the Dojo
 
 At 21, after six months of preparation, first open-mic night at a Boston comedy club.
 
@@ -142,15 +142,15 @@ The saunas, the cold plunges, the kettlebells, the bow — it's all the same imp
 
 ### The Standup Question
 
-The tension nobody in Joe's orbit will say out loud: his comedy divides people.
+His comedy divides people — and nobody in his orbit will say it out loud.
 
 "Burn the Boats" dropped live on Netflix in August 2024, his first special in six years. Filmed at San Antonio's Majestic Theatre. The title tells you everything. Commit fully. No retreat.
 
 Critics weren't kind. Variety called him "a sort of inverse Chappelle... not a generationally gifted comedian, or even a very good one." Rotten Tomatoes: 0% critics, 41% audience. Too much yelling, culture-war material that reads more as opinion than craft.
 
-The truth is probably simpler: Joe's comedy works because of who he is, not because of the writing. The persona carries the material. That's a legitimate form of comedy. It's also a form that critics will never reward.
+Joe's comedy works because of who he is, not because of the writing. The persona carries the material. That's a legitimate form of comedy. It's also a form that critics will never reward.
 
-The guy who built a comedy empire, the Mothership, the Netflix deals, the podcast that launched a thousand careers, getting middling reviews for the actual comedy. That gap reveals something about the difference between dominance and artistry.
+The guy who built a comedy empire, the Mothership, the Netflix deals, the podcast that launched a thousand careers, getting middling reviews for the actual comedy.
 
 ## Why Other People's Pain Lands So Hard
 
@@ -257,7 +257,7 @@ The evidence in Joe's case:
 - **Platforms conspiracy theorists and Nobel laureates alike** — trusts himself to sort signal from noise, trusts his audience to do the same
 - **Three-day rule with family** — won't stay gone from his daughters longer than that, because presence is the one thing his own father failed to give
 
-What makes Joe's Type 8 distinctive is the breadth. Most Eights dominate one domain. Joe dominated martial arts, then comedy, then television, then podcasting, then business, then live venue ownership, each time on his terms.
+Most Eights dominate one domain. Joe dominated martial arts, then comedy, then television, then podcasting, then business, then live venue ownership — each time on his terms.
 
 When [Type 8s are under stress](/enneagram-corner/enneagram-types-in-stress), they move toward Type 5 patterns: withdrawing, becoming secretive, hoarding resources. You see flashes of this in Joe's more isolated phases. But when they're growing, they take on the generosity of [Type 2](/enneagram-corner/enneagram-type-2), using strength to protect and uplift others. That's the Joe who quietly supports struggling comedians, who built a whole club so others would have a stage.
 
@@ -296,7 +296,7 @@ _"I think the universe did me a solid by giving me only daughters."_ Raising gir
 
 The boy who lost his father at 7 becoming a fiercely present father himself. The strength his daughters need most is the kind you can't build in a gym.
 
-## Why Joe Rogan Talks to Everyone
+## Why a Man With Social Anxiety Built the World's Biggest Podcast
 
 **"I had a lot of social anxiety."** The man who now talks to 200 million people per month once found basic social interaction deeply uncomfortable. The podcast itself may be therapeutic infrastructure: a controlled environment where he gets to be intimate with people on his terms, from behind a microphone.
 
@@ -332,7 +332,7 @@ A YouTube commenter captured it: "Rogan actually tears up for a sec and no one c
 
 ## Why He Platforms Conspiracy Theorists
 
-Here's what most critics get wrong about Joe Rogan and conspiracy theories: they treat it as a flaw. It's actually the same impulse that makes him a great interviewer.
+Critics treat Joe Rogan's conspiracy openness as a flaw. It's the same impulse that makes him a great interviewer.
 
 Joe likes edgy people. Comedians are edgy by profession — they test boundaries for a living. Conspiracy theorists do the same thing with ideas. For someone who grew up sparring in dojos, then sparring onstage with audiences, sitting across from someone with a wild theory is just another form of combat. Mental jiu-jitsu. He's rolling with ideas the way he rolls on the mat.
 
@@ -390,7 +390,7 @@ Joe Rogan reads most clearly as an [Enneagram Type 8](/enneagram-corner/enneagra
 
 **Why does Joe Rogan talk to so many different kinds of guests?**
 
-Because curiosity is part of how he tests the world. He would rather get close to a dangerous idea and spar with it than outsource judgment to institutions he does not fully trust.
+For a Type 8, every idea is either a threat or an ally — and the only way to know which is to get close and pressure-test it. He'd rather spar with a conspiracy theorist in real time than trust institutions to sort it for him.
 
 **Why did Joe Rogan move to Texas?**
 

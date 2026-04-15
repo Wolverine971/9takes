@@ -86,10 +86,15 @@ Use this as a starting point. Skip steps that don't add value.
 
 **Sentence 1 is the most important sentence in the answer.** If someone reads only that and stops, they got value.
 
+Before accepting sentence 1, run it through two quick tests:
+
+- _Falsifiable?_ Is it a claim that could be true or false? "People handle conflict differently based on personality" fails — too vague to be verified. "The person who goes silent in a fight is usually protecting themselves, not punishing you" passes — true or false, and someone can check it against their experience.
+- _Visualizable?_ Can the reader picture the situation? Abstract opener = slow start. Concrete opener = reader leans in.
+
 The type breakdowns are the core when they're there. Each should:
 
 - Name the type
-- Explain the mechanism (why this type does this, not just that they do it)
+- Explain the mechanism (why this type does this, not just that they do it) — write this as a behavior someone could observe, not a psychological label. "They go quiet because the argument itself feels like proof they're not loved" is observable. "They have attachment wounds" is jargon.
 - Distinguish it from the other type(s)
 
 The action step is concrete, not vague. "Understand them better" is not an action step.
@@ -180,6 +185,7 @@ If any is false, remove the link. An answer without a link is better than one wi
 - **No credential-flashing.** Don't write "As an Enneagram researcher..." Demonstrate it through the content.
 - **First-person observation.** "Two patterns I keep seeing..." not "Research suggests..."
 - **Commit to the take.** Avoid "may," "could," "some people might." These are hedges, not insights.
+- **Don't talk, only point.** Instead of describing a quality, point at the evidence. Instead of "Type 2s are giving people," point at "Type 2s apologize before they state what they need." The reader should be able to test your claim against someone they know.
 - **Sounds like a message from a smart friend.** Not a blog post. Not a textbook. Not a brand.
 - **Vary sentence length.** Short sentences punch. Longer ones build context. AI writes in a narrow band of 12-18 words per sentence. Don't.
 - **Match the sample answer voice** from `docs/growth/quora-strategy.md` before drafting.

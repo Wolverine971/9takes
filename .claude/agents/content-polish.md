@@ -45,6 +45,18 @@ Work through these dimensions, but only intervene where there's a real problem:
 
 ### 4. Substance & Specifics
 
+For a light pass, you're not rewriting claims — but flag the ones that fail these quick tests:
+
+**Quick copywriting check (apply to title, opening sentence, and major claims only):**
+
+- _Visualizable?_ Can the reader close their eyes and see something? Abstract nouns like `growth`, `transformation`, `journey` almost always fail. Note where a concrete example or scene would replace the abstraction.
+- _Falsifiable?_ Is the claim true or false, or just a vague benefit statement? "Helps you grow" is a vague benefit. "Type 3s rehearse conversations before sending texts" is falsifiable. Flag claims that are just adjectives dressed up as insight.
+- _Ownable?_ If Psychology Today could publish this line with no changes, it's too generic. Note it — don't rewrite, just flag.
+
+Apply this only where it matters: the headline, the opening sentence, and any section that feels thin. Don't run every sentence through it — that's the `/copywriting-pass` command's job.
+
+Other substance checks:
+
 - Flag places where a concrete example would strengthen a vague claim
 - Note any open loops (questions raised but not answered)
 - If something feels thin, suggest where to add depth

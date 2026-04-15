@@ -39,11 +39,11 @@ QUALITY_FEEDBACK_END -->
 
 **Every Enneagram type has a specific inner critic pattern – a broken record that plays the same toxic message on repeat.** But here's what nobody tells you: once you decode your type's specific self-talk pattern, you can hack it.
 
-This isn't wishful thinking or generic affirmations. This is tactical inner dialogue engineering based on how your specific personality type processes reality.
+This isn't wishful thinking or generic affirmations. This matches your type's specific fear — the one your inner critic has been weaponizing since childhood.
 
 Think about it: You've probably tried positive affirmations before. You stood in front of a mirror, repeated "I am worthy" or "I am enough," and felt... nothing. Maybe even worse – like you were lying to yourself.
 
-**That's because generic affirmations are like using the wrong key for a lock.** Your inner critic has spent decades perfecting its specific attack pattern. You need precision tools designed for your exact psychological wiring.
+**That's because generic affirmations are like using the wrong key for a lock.** Your inner critic has spent decades perfecting its specific attack pattern. You need a targeted interrupt — not a mantra your brain immediately flags as a lie.
 
 <article class="section-content">
 
@@ -162,7 +162,7 @@ Listen to the voice in your head. Really listen. It probably sounds like:
 
 Notice the pattern? It's always about falling short of an impossible standard. Your inner critic has moved the goalposts so far that even Olympic-level performance feels like failure.
 
-### The Rewiring Process: Your 30-Day Transformation
+### The Rewiring Process
 
 **Week 1: Recognition Phase**
 
@@ -230,7 +230,7 @@ Schedule activities where perfection is impossible:
 ### Type 1 Success Stories
 
 _Sarah, Type 1, Marketing Director:_
-"I used to rewrite emails seven times. Now I use the two-draft rule: rough draft, quick polish, send. My anxiety dropped 70% and nobody noticed the difference. Actually, people say I seem more 'human' now."
+"I used to rewrite emails seven times. Now I use the two-draft rule: rough draft, quick polish, send. Nobody noticed the difference. Actually, people say I seem more 'human' now."
 
 _Marcus, Type 1, Teacher:_
 "The forgiveness practice changed everything. I realized I was holding myself to standards I'd never impose on my students. Now I grade myself the way I grade them – with encouragement and growth focus."
@@ -265,7 +265,7 @@ Your inner critic sounds like virtue, which makes it harder to spot:
 
 See the pattern? Your inner critic has weaponized compassion against you.
 
-### The Rewiring Process: Your 30-Day Transformation
+### The Rewiring Process
 
 **Week 1: Recognition Phase**
 
@@ -368,7 +368,7 @@ Your inner critic sounds like a harsh CEO:
 
 Notice how it's always about external validation? Your inner critic has outsourced your worth to everyone else's opinion.
 
-### The Rewiring Process: Your 30-Day Transformation
+### The Rewiring Process
 
 **Week 1: Recognition Phase**
 
@@ -440,7 +440,7 @@ List 10 things about you that have nothing to do with achievement:
 ### Type 3 Success Stories
 
 _Michael, Type 3, CEO:_
-"I thought vulnerability would destroy my leadership. Instead, sharing my struggles made my team trust me more. Turns out, perfection is intimidating. Humanity is inspiring."
+"I thought vulnerability would destroy my leadership. Instead, sharing my struggles made my team trust me more. Turns out, admitting you're struggling makes people lean in, not pull back."
 
 _Rachel, Type 3, Surgeon:_
 "The being practice saved my life. Literally. I was heading for a heart attack at 38. Now I measure success by presence, not just procedures. My patients say I'm a better doctor."
@@ -475,7 +475,7 @@ Your inner critic speaks in poetry and pain:
 
 See the trap? Your inner critic has made suffering part of your identity.
 
-### The Rewiring Process: Your 30-Day Transformation
+### The Rewiring Process
 
 **Week 1: Recognition Phase**
 
@@ -583,7 +583,7 @@ Your inner critic sounds like a doomsday prepper:
 
 Notice the scarcity mindset? Your inner critic treats knowledge and energy like finite resources.
 
-### The Rewiring Process: Your 30-Day Transformation
+### The Rewiring Process
 
 **Week 1: Recognition Phase**
 
@@ -645,7 +645,7 @@ Visualize unlimited energy, infinite knowledge, endless time. Feel the relief of
 ### Type 5 Success Stories
 
 _Robert, Type 5, Researcher:_
-"I spent years gathering knowledge before sharing anything. Now I share as I learn. Turns out, people value the journey, not just the destination."
+"I spent years gathering knowledge before sharing anything. Now I share as I learn. Half-formed ideas spark better conversations than finished conclusions."
 
 _Lisa, Type 5, Engineer:_
 "The engagement experiment shocked me. I have more energy after good conversations than after alone time. Quality interaction is energizing, not draining."
@@ -680,7 +680,7 @@ Your inner critic sounds like a paranoid security analyst:
 
 See the pattern? Your inner critic has appointed itself your bodyguard, but it's seeing threats everywhere.
 
-### The Rewiring Process: Your 30-Day Transformation
+### The Rewiring Process
 
 **Week 1: Recognition Phase**
 
@@ -758,7 +758,7 @@ _The Body Regulation:_
 ### Type 6 Success Stories
 
 _Amanda, Type 6, Project Manager:_
-"I used to have 17 contingency plans. Now I have one good plan and trust myself to adapt. My anxiety dropped 80% and my performance improved."
+"I used to have 17 contingency plans. Now I have one good plan and trust myself to adapt. My performance actually improved — turns out, overplanning was covering for under-trusting."
 
 _Carlos, Type 6, Teacher:_
 "The probability check changed my life. I realized I was living in a fictional future of disasters. Now I live in the actual present, which is usually fine."
@@ -793,7 +793,7 @@ Your inner critic sounds like a hype man on speed:
 
 Notice how it's always about what's not here? Your inner critic has made the present moment your enemy.
 
-### The Rewiring Process: Your 30-Day Transformation
+### The Rewiring Process
 
 **Week 1: Recognition Phase**
 
@@ -899,7 +899,7 @@ Your inner critic sounds like a combat veteran:
 
 See the pattern? Your inner critic has confused vulnerability with victimization.
 
-### The Rewiring Process: Your 30-Day Transformation
+### The Rewiring Process
 
 **Week 1: Recognition Phase**
 
@@ -972,10 +972,10 @@ Tell someone what scares you. Watch them move closer, not away.
 
 ### Type 8 Success Stories
 
-_Marcus, Type 8, CEO:_
+_Derek, Type 8:_
 "I thought vulnerability would end my leadership. My team saw me cry during a tough announcement. They said it was the moment I became a real leader to them."
 
-_Diana, Type 8, Attorney:_
+_Diana, Type 8:_
 "The soft start changed my marriage. My husband said he'd been waiting 15 years to meet the person behind the armor. We're closer than ever."
 
 </article>
@@ -1008,7 +1008,7 @@ Your inner critic sounds like a conflict-avoidant mediator:
 
 Notice the self-abandonment? Your inner critic has made you a ghost in your own life.
 
-### The Rewiring Process: Your 30-Day Transformation
+### The Rewiring Process
 
 **Week 1: Recognition Phase**
 
@@ -1081,10 +1081,10 @@ Pursue one personal goal daily for 30 minutes. Your dreams matter.
 
 ### Type 9 Success Stories
 
-_Patricia, Type 9, Counselor:_
+_Patricia, Type 9:_
 "I spent 40 years disappearing. The opinion practice terrified me. But people actually valued my perspective. They'd been waiting for me to show up."
 
-_Tom, Type 9, Manager:_
+_Tom, Type 9:_
 "I thought conflict would destroy my relationships. But when I started expressing preferences, people said I became more interesting, more real. My marriage transformed."
 
 </article>
@@ -1215,7 +1215,7 @@ _Week 4 Success Metric:_ Your new inner voice is louder than your inner critic 7
 
 ## The Neuroscience of Lasting Change: Why This Actually Works
 
-Let's talk about why this isn't just positive thinking bullshit. Your brain is plastic – it literally rewires based on repetition. Here's the science behind the transformation.
+Your brain is plastic — it literally rewires based on repetition. Here's what the research actually shows about why type-specific scripts work when generic affirmations don't.
 
 ### Neuroplasticity: Your Brain's Superpower
 
@@ -1224,12 +1224,12 @@ Your brain has approximately 86 billion neurons. These neurons form pathways bas
 **The Research:**
 
 - It takes approximately 66 days for a new behavior to become automatic (Lally et al., 2010)
-- Positive self-talk activates the left prefrontal cortex, associated with emotional regulation
-- Negative self-talk triggers the amygdala, your fear center
+- Positive self-talk activates the left prefrontal cortex, associated with approach motivation and positive emotional states
+- Negative self-talk triggers the amygdala, your threat-detection center
 
 ### The Default Mode Network
 
-Your brain has a "default mode" – what it does when you're not actively focused. For most people, this default is negative rumination. The practices in this guide literally rewire your default mode.
+Your brain has a "default mode" — what it does when you're not focused on anything. Research links heightened DMN activity to negative self-referential rumination; it's the loop that runs in the background while you're in the shower or lying awake at 3 AM. The practices in this guide give your brain a competing default to run instead.
 
 **Type-Specific Default Modes:**
 
@@ -1245,7 +1245,7 @@ Your brain has a "default mode" – what it does when you're not actively focuse
 
 ### Why Generic Affirmations Fail
 
-When you say something you don't believe, your brain activates the anterior cingulate cortex – the brain's "bullshit detector." This creates cognitive dissonance, actually increasing stress.
+When you say something you don't believe, your brain activates the anterior cingulate cortex — the brain's conflict monitor, which fires any time stated content clashes with what you already hold true. This creates cognitive dissonance, actually increasing stress.
 
 **Type-specific affirmations work because:**
 
@@ -1442,7 +1442,7 @@ You don't need perfection. You need persistence.
 
 ### The Invitation
 
-Your inner critic has had years – maybe decades – of practice. It's carved deep grooves in your neural pathways. But here's the beautiful truth: **Your brain doesn't care which thoughts you repeat, it just strengthens whatever you practice.**
+Your inner critic has had years — maybe decades — of practice. It's carved deep grooves in your neural pathways. **Your brain doesn't care which thoughts you repeat. It just strengthens whatever you practice.**
 
 So practice something better.
 
@@ -1454,19 +1454,11 @@ Then come back and tell us what happened. Share your story on our [questions pla
 
 ### The Final Truth
 
-You are not your thoughts. You are not your inner critic. You are not your personality type.
-
-You are the consciousness that observes all of these things. And that consciousness can choose which voices to strengthen and which to release.
+Your inner critic knows your Enneagram type better than you do. It has spent decades weaponizing your specific fear against you. Now you do too — and that changes the dynamic entirely.
 
 **Your inner critic is just a guard who's been on duty too long. It's time to tell them their shift is over.**
 
-The voice in your head can change.
-
-Your life can change.
-
-You can change.
-
-Starting tomorrow morning.
+The voice in your head has been wrong about you for decades. It's not permanent. It's just the most-practiced thought you have — until you practice another one.
 
 </article>
 

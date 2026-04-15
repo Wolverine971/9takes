@@ -50,7 +50,7 @@ Each Enneagram type tends to develop distinct escape patterns: Type 1s may becom
 
 Why? Because addiction isn't generic. It's profoundly personal, shaped by your core fears, [childhood wounds](/enneagram-corner/enneagram-childhood-stereotypes), and the specific emotional patterns that drive your personality type.
 
-This guide maps the territory between your Enneagram type and your escape patterns. Not to excuse addiction, but to illuminate it. Understanding _why_ you reach for the bottle, the screen, the shopping cart, or the relationship is the first step toward reaching for something that actually heals.
+A Type 1 and a Type 7 can sit in the same meeting, work the same steps, and have completely opposite recovery experiences — not because one is more committed, but because they're running from entirely different things. The Type 1 needs permission to stop punishing herself. The Type 7 needs to stay in the room when it stops being interesting. Most programs hand them the same playbook.
 
 ## Understanding Addiction Through the Enneagram
 
@@ -133,7 +133,7 @@ This perfectionist drive often leads Type 1s to seek [therapy approaches that ad
 
 **Self-compassion practice:** The inner critic will tell you that self-compassion is weakness. The inner critic is wrong. Daily self-forgiveness practice, loving-kindness meditation, and learning to dialogue with your critic rather than obey it.
 
-**Flexible structure:** Type 1s need structure, but rigid rules break under pressure. Build routines that bend. Harm reduction beats all-or-nothing thinking every time.
+**Flexible structure:** Type 1s need structure, but rigid rules break under pressure. Build routines that bend. For Type 1s especially, harm reduction beats all-or-nothing rules — because the more perfect the rule, the more complete the failure when it breaks.
 
 **Find the right support:** Sponsors who model self-acceptance. Groups where imperfection is welcome. Therapists who understand that your perfectionism isn't a strength to preserve.
 
@@ -560,8 +560,6 @@ Watch for: Increasing sleepiness. Avoiding decisions you need to make. Merging i
 
 ### Building a Type-Aware Recovery Program
 
-Regardless of your type, effective recovery follows a predictable path. The difference is how each type moves through it.
-
 **Assessment first.** Identify your type's patterns honestly. Recognize your specific triggers, not the ones you think you should have. Understand your personal "why" behind the addiction.
 
 **Customized plan.** Choose type-specific meetings and support groups. Find therapy approaches that match how your mind works. Build coping strategies tailored to your actual vulnerabilities, not generic advice.
@@ -635,27 +633,27 @@ Find professionals who understand personality-based treatment. Connect with a re
 
 ### Step 4: Address Core Issues
 
-Work on your type's core fear directly. Heal the original wounds that made the addiction necessary. Develop healthy coping that actually meets your needs.
+Work on your type's core fear directly — not just the behavior it produced. The addiction was a solution to something. Find what it was solving and address that directly, not just the escape route it created.
 
 Addressing core issues often requires understanding how [your type responds to trauma](/enneagram-corner/mental-health/enneagram-trauma-response-guide) and may include [medication as part of a comprehensive treatment plan](/enneagram-corner/mental-health/enneagram-medication-mental-health) depending on your specific needs.
 
-### Step 5: Maintain Growth
+### Step 5: Stay in the Work
 
-Recovery isn't a destination. Regular work on your type's patterns. Ongoing support from people who understand. Celebrate progress without demanding perfection.
+Recovery maintenance is type-specific work that doesn't fully end — and that's not a failure, that's the point. Regular attention to your type's patterns. Support from people who see through your specific defenses. Progress measured honestly, not against a finish line that doesn't exist.
 
 ## The Spiritual Dimension
 
-Each type has a specific spiritual path in recovery. Not religion, necessarily. The inner work that leads to freedom:
+Each type has a specific form of inner work that recovery keeps asking them to do. Not religion, necessarily — just the concrete behavior that keeps the core pattern from reassembling:
 
-- **Type 1**: Learning serenity and acceptance of imperfection
-- **Type 2**: Practicing humility and genuine self-love
-- **Type 3**: Discovering authenticity and the value of being over doing
-- **Type 4**: Developing equanimity and gratitude for ordinary life
-- **Type 5**: Experiencing connection and trusting in abundance
-- **Type 6**: Building faith in yourself and inner knowing
-- **Type 7**: Embracing sobriety as depth, not deprivation
-- **Type 8**: Returning to innocence and tenderness
-- **Type 9**: Taking right action and showing up fully present
+- **Type 1**: Finishing a project at 80% and not going back to fix it
+- **Type 2**: Saying "I need help" without immediately offering something in return
+- **Type 3**: Telling someone a failure story and not spinning it into a lesson
+- **Type 4**: Finding one beautiful thing in an ordinary Tuesday and writing it down
+- **Type 5**: Calling someone when you're depleted instead of retreating alone
+- **Type 6**: Making one decision without consulting anyone else first
+- **Type 7**: Sitting with a difficult feeling for 90 seconds instead of changing the subject
+- **Type 8**: Letting someone see you cry without explaining it away
+- **Type 9**: Choosing a side in a disagreement that actually matters to you
 
 ## Conclusion: The Recovery That Actually Works for You
 
@@ -683,7 +681,7 @@ The Type 8 doesn't need more power. They need the courage to be vulnerable.
 
 The Type 9 doesn't need more peace. They need to wake up and want something.
 
-Recovery isn't just about stopping. It's about becoming who you were always meant to be, before the wounds taught you that escape was safer than presence, and before addiction became the only way you knew to survive.
+Recovery isn't about willpower. It's about seeing the pattern clearly enough that the escape stops making sense. When a Type 4 finally recognizes that their "emotional depth" is actually avoidance dressed up as identity, the romance of suffering loses its grip. When a Type 1 sees that the inner critic isn't a truth-teller but a survival mechanism, the need to silence it with a drink starts to crack. That's what type-specific work does: it makes the escape visible. And visible patterns lose their power.
 
 If you're ready to begin your recovery journey, explore [professional therapy options](/enneagram-corner/mental-health/enneagram-therapy-guide) that align with your Enneagram type, or learn about [crisis management strategies](/enneagram-corner/mental-health/enneagram-crisis-management-guide) if you're currently in an urgent situation.
 
@@ -699,7 +697,7 @@ Yes. Each type has specific relapse triggers and warning signs. Type 1s relapse 
 
 ### What recovery program works best for each Enneagram type?
 
-Different types respond to different approaches. Type 1s and 3s thrive in SMART Recovery's goal-oriented structure. Type 2s benefit from CoDA and Al-Anon's relationship focus. Type 4s often need DBT-informed groups that honor emotional depth. Type 6s do well in traditional 12-step's community structure. Type 7s need engaging, dynamic programs that make sobriety interesting. Choose programs that align with your type's needs rather than forcing a one-size-fits-all approach.
+Different types respond to different approaches. Type 1s and 3s often find traction in goal-oriented programs like SMART Recovery, where progress is measurable. Type 2s tend to respond to CoDA and Al-Anon's relationship focus. Type 4s often need DBT-informed groups that can hold emotional intensity without trying to fix it. Type 6s often do well in traditional 12-step's consistent community structure. Type 7s tend to engage more when the program is dynamic enough to hold their attention. These are patterns, not prescriptions — a licensed addiction counselor can help you find what actually fits.
 
 ### Is my Enneagram type an excuse for my addiction?
 

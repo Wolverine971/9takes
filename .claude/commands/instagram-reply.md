@@ -120,11 +120,27 @@ Visibility levels from the warmup doc still apply:
 
 Draft with a mix of:
 
-- **Value:** One sharp insight or reframe
+- **Value:** One sharp observation or reframe — see rules below
 - **Cheerleader:** Pure energy, quick and specific
 - **Casual:** Human, present, lightly personal
 
 Do not produce three value comments in a row for the same post.
+
+#### What makes a Value comment sharp
+
+Most "value" comments are just dressed-up opinions. A sharp one points at something specific instead of stating a general truth.
+
+**The rule:** Don't talk, only point.
+
+- Talking: "That tension between wanting connection and needing space is so real." (anyone could say this)
+- Pointing: "Type 4s I know will cancel plans to be alone, then text 'I miss you' an hour later." (concrete, observable, falsifiable)
+
+**Two tests before finalizing a Value option:**
+
+1. _Can you see it?_ If the comment describes an abstraction ("tension," "growth," "balance"), rewrite it around a behavior someone could observe or recognize.
+2. _Could another account say this?_ If a psychology account with 500K followers could post this word-for-word, it's not sharp enough. Find the angle only a platform that sees nine different reactions to the same question could surface.
+
+Value comments don't explain. They name something the reader already felt but hadn't seen clearly.
 
 ### Constraints
 

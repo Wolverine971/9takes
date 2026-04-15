@@ -103,7 +103,7 @@ He was fourteen.
 
 This is not the loneliness of a withdrawn introvert conserving social energy. This is the Four's particular ache: the suspicion that you are watching a belonging that is simply not available to you. Others seem to have been issued a script for how to exist comfortably in the world. Yours never arrived.
 
-The summer before Harvard, he went to a camp in the Catskills. Other boys stripped him naked, painted his genitals and buttocks green, and locked him in an ice house overnight. He told no one. He finished the summer. He left for Harvard the following year and graduated summa cum laude in three years — faster than almost anyone.
+The summer before Harvard, he went to a camp in the Catskills. Other boys stripped him naked, painted his genitals and buttocks green, and locked him in an ice house overnight. He told no one. He finished the summer. He left for Harvard the following year.
 
 What he carried out of that ice house wasn't just hurt. It was confirmation: the world is full of cruel and bitter things, and the place you survive is inside yourself.
 
@@ -131,7 +131,9 @@ He was searching for the thing that connected all of it. The pattern underneath 
 
 Jean Tatlock was part of this search. A graduate student at Stanford, a Communist Party member, the daughter of a Berkeley literature professor, she introduced him to radical politics and to poetry. They fell in love in 1936. He proposed to her twice. She turned him down both times — she was struggling with depression that would eventually kill her, in January 1944, while he was at Los Alamos. He received word of her death at the laboratory. He kept working.
 
-What he felt, he kept inside. But it did not stay small.
+In 1940, he married Katherine "Kitty" Puening Harrison — her fourth husband, his first marriage. Kitty was formidable and complicated: a biologist with a sharp mind, a former Communist Party member through her second husband Joe Dallet, who died fighting in the Spanish Civil War, and a woman whose drinking would become serious by the time Los Alamos was in full operation. Contemporaries at the mesa described her variously as "bewitching" and "impossible." She was polarizing where Jean had been romantic; present where Jean had been unavailable. Their twenty-seven years together were intense and codependent in the way that wartime and catastrophe produce. He described the marriage to his attorney, when explaining why she should testify in 1954, as: "Kitty and I have walked through fire together." At the hearing, she was controlled and fierce on the stand — in contrast to Robert, who was anguished and inarticulate under cross-examination. Her testimony did not save him. She outlived him by five years, dying in 1972.
+
+What he felt about both women, he kept inside. But it did not stay small.
 
 ---
 
@@ -145,7 +147,7 @@ He was.
 
 What happened at Los Alamos between 1942 and 1945 is one of the stranger stories in twentieth-century leadership. The man who seemed too inward, too aesthetic, too literary to manage anyone, ran a city of six thousand people on a mesa in New Mexico — scientists, engineers, generals, Nobel laureates — and built a weapon nobody had ever built before, in roughly three years.
 
-Fours under pressure often surprise people. The same depth that makes them seem fragile in ordinary life makes them formidable when the stakes are high enough. They give themselves _completely_ to things that feel meaningful. And Oppenheimer believed, at this moment, that what they were doing would end the war and save lives. He committed with everything.
+Fours under pressure often surprise people. The same interior life that makes them seem fragile in ordinary circumstances makes them formidable when the stakes are high enough. They give themselves _completely_ to things that feel meaningful. And Oppenheimer believed, at this moment, that what they were doing would end the war and save lives. He committed with everything.
 
 "Oppenheimer knew and understood everything that went on in the laboratory, whether it was chemistry or theoretical physics or machine shop," said Hans Bethe, the Nobel laureate who led the theoretical division. "He could keep it all in his head and coordinate it. There was just nobody else in that laboratory who came even close to him."
 
@@ -169,7 +171,13 @@ Oppenheimer had been reading the Gita for twelve years. He understood the verse 
 
 That is not how Truman thought about it. Truman made a decision. Oppenheimer became someone.
 
-Hiroshima: 140,000 dead. Nagasaki, three days later, which Oppenheimer considered militarily unnecessary: 70,000 more. He fell into a depression when the casualty reports arrived. He became, in his own words, "a nervous wreck." In a 1946 lecture, he described what the Manhattan Project team had felt:
+On August 6, 1945, word reached Los Alamos that Hiroshima had been bombed. Oppenheimer was greeted at the base theater by a roaring, foot-stomping crowd. He walked to the front, clasped his hands over his head like a boxing champion, and soaked in the cheering. He told the crowd his only regret was that the bomb hadn't been finished in time to use against Germany.
+
+That evening, at the celebration party, a telex arrived with the first damage reports from Washington. He read the numbers. He became depressed. Leaving the party, he passed a young scientist vomiting in the bushes.
+
+Nagasaki came three days later — which Oppenheimer considered militarily unnecessary. The casualty reports continued to arrive. He became, in his own words, "a nervous wreck." The guilt that would define the next twenty-two years of his life did not arrive in the flash of the Trinity test; it crystallized over days and weeks as the human cost became concrete. The gap between who he had been at the celebration and who he became afterward was part of what made it impossible to settle. He had felt, for a moment, what any person in his position might have felt: triumph, relief, professional vindication. Then the numbers made it real. And he couldn't unfeel either thing.
+
+In a 1946 lecture, he described what the Manhattan Project team had felt:
 
 "We thought of the legend of Prometheus, of that deep sense of guilt in man's new powers that reflects his recognition of evil, and his long knowledge of it."
 
@@ -195,7 +203,7 @@ Oppenheimer's world: you are exactly what you do. The action and the actor are t
 
 Neither man was wrong. They were simply different in a way that precluded comprehension.
 
-What looked like weakness from Truman's position was Oppenheimer being unable to perform a kind of psychological separation that was, for him, genuinely impossible. A Four cannot step outside their own experience and evaluate it from a clean distance. They live inside it. Always. The depth that made him a great physicist and a great leader and a great friend was the same depth that made Harry Truman want to throw him out of the Oval Office.
+What looked like weakness from Truman's position was Oppenheimer being unable to perform a kind of psychological separation that was, for him, genuinely impossible. A Four cannot step outside their own experience and evaluate it from a clean distance. They live inside it. Always. The interior life that made him a great physicist and a great leader and a great friend was the same interior life that made Harry Truman want to throw him out of the Oval Office.
 
 ---
 
@@ -219,6 +227,8 @@ He retreated to the Institute for Advanced Study in Princeton. He kept working. 
 
 He died in 1967, of throat cancer. He was sixty-two.
 
+The cost of 1954 did not end with him. His daughter Toni — born at Los Alamos in 1944, fluent in five languages, trained as a translator — applied in 1969 for a position at the United Nations. The FBI denied her the required security clearance. Not because of anything she had done. Because of who her father had been. She was twenty-five. She never worked at the level she'd trained for. In 1977, ten years after Robert died, Toni killed herself in the family beach house on St. John in the U.S. Virgin Islands. She left the property to the people of the island. It is still there — Oppenheimer Beach, named for the family. Some inheritances are like that.
+
 In 2022 — fifty-five years after his death — the Department of Energy formally vacated the 1954 clearance revocation, saying it had been conducted "through a flawed process." His loyalty and love of country, they said, had "only been further affirmed."
 
 ---
@@ -227,7 +237,7 @@ Back to the 1965 camera. The quiet room. The weight visible in the lines of his 
 
 He said the Gita verse and let the silence that followed fill the room. He had spent twenty years looking for something large enough to hold what the bomb had changed in him. Ancient text. Greek mythology. Physics theory. Disarmament advocacy. Twenty years of reaching.
 
-<a href="/personality-analysis/noam-chomsky">Some intellectuals</a> who build their lives around meaning and encounter state power at its most cynical are eventually broken by the gap between the two. Oppenheimer was broken and then kept going, which is its own kind of answer.
+Some men are broken by the gap between the meaning they've built their lives around and the blunt weight of what state power can do. Oppenheimer was broken and then kept going, which is its own kind of answer.
 
 Not a villain. Not a hero. A Four — doing what Fours do. Feeling the full weight of things. Refusing to pretend that weight doesn't exist. Reaching for the language that could carry it. Discovering, again and again, that no language was large enough.
 

@@ -1081,6 +1081,70 @@ Before finalizing any blog (new or updated):
 
 ---
 
+## Copywriting Pass (Required Before Grading)
+
+After the Quality Checklist passes, run a focused copywriting pass before scoring. This is not a full rewrite — it's a targeted sharpening of the claims and language that matter most. Use Harry Dry's three-rule framework.
+
+### What to check (in order of impact)
+
+**1. Titles — all three**
+
+Run each title through the three rules:
+
+- *Can I visualize it?* Does the title reference a specific person, behavior, or tension the reader can picture? Abstract words like "understanding," "exploring," or "the art of" almost always fail.
+- *Can I falsify it?* Is the title a claim that's true or false, or just a vague label? "Why [Person] Will Never Be Satisfied" passes. "[Person]'s Inner World" fails.
+- *Can nobody else say it?* Could Psychology Today or 16Personalities publish this title unchanged? If yes, find the sharper, more specific angle.
+
+Rewrite any title that fails two or more tests before grading.
+
+**2. Opening sentence and first paragraph**
+
+The hook is where readers decide to stay or leave. Apply:
+
+- *Two-second test*: Does the opening land its meaning immediately? If a reader has to reread it, rewrite it.
+- *Visualization test*: Is the first image or claim concrete? Names, behaviors, and specific moments beat abstractions. "Taylor Swift rehearses conversations" > "Taylor Swift thinks deeply about relationships."
+- *Falsifiability test*: Is the opening a claim that's verifiably true or false? Not a mood, not a statement of theme. A testable observation.
+
+**3. Three most important claims in the body**
+
+Find the three sentences that carry the most analytical weight — typically the thesis restatement, the core tension summary, and the type diagnosis. For each:
+
+- Replace any adjective-as-substitute-for-evidence with something you can point at. "He is deeply ambitious" → "He has written 44 films and gets faster every year."
+- If the claim could appear in a generic Enneagram explainer, find the specific behavior, quote, or moment that makes it belong only in this blog.
+
+**4. Section headings**
+
+Scan all H2s and H3s. Flag any heading that:
+- Uses generic self-help language (`Growth`, `The Journey`, `Finding Balance`)
+- Describes what the section is about instead of making a claim about the person
+- Could apply to a different celebrity without changing a word
+
+Rewrite flagged headings to be person-specific and, where possible, claim-based.
+
+### What not to change here
+
+- Evidence quality — that's the Quality Checklist's job
+- Enneagram integration depth — also the checklist
+- Prose rhythm and AI patterns — `/deai` handles that if needed
+- Structure and narrative arc — already locked from the furniture pass
+
+### Output
+
+After the pass, note in an HTML comment what was changed and what was deliberately left:
+
+```html
+<!-- COPYWRITING PASS COMPLETE
+Titles: [what changed or "passed"]
+Hook: [what changed or "passed"]
+Key claims: [what changed or "passed"]
+Headings: [what changed or "passed"]
+-->
+```
+
+Then proceed to grading.
+
+---
+
 ## Quality Grading (Required Before Hand-Off)
 
 After the Quality Checklist passes, score the blog using the rubric at `docs/blog-grading-rubric.md`. Rate each dimension 1-10:

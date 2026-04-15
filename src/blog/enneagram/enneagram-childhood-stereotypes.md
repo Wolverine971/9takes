@@ -1,6 +1,6 @@
 ---
 title: '9 Childhood Stereotypes Based on the Enneagram'
-description: 'Rediscovering Your Childhood Through the Enneagram Lens: A Journey Back in Time'
+description: 'The childhood pattern behind each Enneagram type — and why you are still running it'
 author: 'DJ Wayne'
 date: '2023-12-16'
 loc: 'https://9takes.com/enneagram-corner/enneagram-childhood-stereotypes'
@@ -37,9 +37,9 @@ QUALITY_FEEDBACK_END -->
 Your Enneagram type wasn't something you chose—it developed as an adaptive strategy in childhood to meet your emotional needs and protect you from pain. Understanding your childhood pattern reveals why you still operate the way you do.
 </QuickAnswer>
 
-<p class="firstLetter">You've been around the block. Seen a thing or two. But what was going on back when you were but a weeeee babe?</p>
+<p class="firstLetter">You've been around the block. But who were you before the block?</p>
 
-Take a walk down memory lane for a moment. We're exploring childhood through the lens of the Enneagram—looking at the patterns, wounds, and coping strategies that shaped who you became. Some of this might hit close to home. That's the point.
+Before the coping strategies got sophisticated, you were already running the pattern. Here's what each Enneagram type looked like as a kid — raw, unfiltered, and before anyone had a name for it.
 
 ## Type 1: The Little Perfectionists
 
@@ -53,7 +53,7 @@ Imagine a child organizing their toys with meticulous care or being the self-app
 
 Type 2 children were the heart and soul of empathy and care in their circles.
 
-These kids were sentimental and treasured the little things like a hug from a friend. However, these kids grew up believing that they needed to be kind to receive kindness; they needed to love well to obtain a morsel of love back. Their hearts stayed big as they nurtured and supported those around them, often at the cost of their own needs.
+These kids were sentimental and treasured the little things like a hug from a friend. However, these kids grew up believing that they needed to be kind to receive kindness; they needed to love well to obtain a morsel of love back. They were the first to ask if you were okay — and the last to say they weren't.
 
 Think of the child who always shared their lunch, not just to be kind, but because they believed it was the only way to be loved and accepted. Their generosity was as much a search for affection as a genuine desire to help.
 
@@ -67,9 +67,9 @@ Think of the kid who was the sports star or had the highest grades — not just 
 
 ## Type 4: The Tortured Artists
 
-Type 4 children were unique souls, often feeling like misfits in their own worlds.
+Type 4 children were the ones who felt like they'd been born into the wrong family.
 
-Something felt missing early on — maybe emotional distance from a parent, or a sense that the family unit didn't quite have room for who they really were. They grew up with deep emotional intensity, feeling things more profoundly than their peers, which often led to feeling profoundly misunderstood. They could often be seen wearing something different from their peers. They were the ones searching for the right way to express what was going on inside them.
+Something felt missing early on — maybe emotional distance from a parent, or a sense that the family unit didn't quite have room for who they really were. They cried at movies their friends shrugged off. They kept journals. They felt things that didn't have names yet — and knew that their friends didn't. They could often be seen wearing something different from their peers. They were the ones searching for the right way to express what was going on inside them.
 
 The kid in class who wrote poetry or daydreamed wasn't just escaping boredom — they were trying to build a bridge to a world where someone finally _got_ them. Their creativity was a lifeline to feeling seen in a world that seemed to overlook them.
 
@@ -81,11 +81,9 @@ The kid in class who wrote poetry or daydreamed wasn't just escaping boredom —
 
 Remember that kid who always had their nose in a book or was tirelessly dismantling gadgets to see how they tick? They may have been a loner. That's our Type 5.
 
-Growing up, these mini Einsteins felt their personal space was a sacred temple, often invaded by the chaos of the adult world or loud peers. The world felt overwhelming and unpredictable, so they learned to retreat — building fortresses of solitude where they could escape and dive deep into whatever was on their mind. They created and explored many little hidden worlds of knowledge that will likely remain locked away deep in their memories. Gathering information was how they felt safe.
+Growing up, they treated their bedroom like a bunker — books stacked by the door, projects half-finished, the noise of the household held at arm's length. The world felt overwhelming and unpredictable, so they learned to retreat — building fortresses of solitude where they could escape and dive deep into whatever was on their mind. They created and explored many little hidden worlds of knowledge that will likely remain locked away deep in their memories. Gathering information was how they felt safe.
 
 ## Type 6: The Loyal Protectors
-
-Ah, the loyalists.
 
 As children, they were the ones who could sense the slightest shift in the family's mood. They were alert. They might have been the kid who asked many questions to the point where it got annoying. They may have been a little clingy. Their childhoods were marred by unpredictability, turning them into little sentinels, ever-watchful, constantly looking for who they could and could not trust.
 
@@ -103,7 +101,7 @@ The funny kid or the class clown might have been a 7. The classmate who organize
 
 Even as kids, the Challengers had a presence that commanded the playground.
 
-They liked to yell and be physical. They relished a challenge and always wanted to raise the stakes. Somewhere, they learned that they must squash any vulnerability in or around them. It was not okay to be weak in any way. These children armored themselves with strength and assertiveness, often becoming both intimidating and but also the defenders of the underdogs or the vulnerable.
+They liked to yell and be physical. They relished a challenge and always wanted to raise the stakes. Somewhere, they learned that they must squash any vulnerability in or around them. It was not okay to be weak in any way. These children armored themselves with strength and assertiveness, often intimidating — but also the first ones to defend the kid getting picked on.
 
 That schoolyard hero who stood up to bullies was probably an 8. The kid with an anger problem and who was also a sweetie was likely an 8. They weren't just tough; they were subconsciously fighting against their own feelings of powerlessness.
 

@@ -30,8 +30,8 @@ When editing any piece of content, you will systematically evaluate and improve 
 
 - Identify who this content is for and what job it helps them accomplish
 - Verify the content delivers on its implicit promise to the reader
-- Ensure the hook captures attention within the first two sentences
-- Confirm the title is unique, specific, and creates genuine curiosity (not clickbait)
+- Ensure the hook captures attention within the first two sentences — apply the **two-second test**: the opening should land its meaning immediately. If it requires rereading, sharpen it.
+- Confirm the title is unique, specific, and creates genuine curiosity (not clickbait) — run it through the three-rule check: can the reader visualize it? could a competitor sign it?
 - Check that the content feels fresh, not like recycled generic advice
 - **SEO check**: Does the title work for search? Would someone actually Google something close to this?
 - **Search intent**: Does the content match what a searcher would expect to find?
@@ -60,6 +60,27 @@ When editing any piece of content, you will systematically evaluate and improve 
   - Avoid headings that all follow the same syntactic pattern (e.g., all starting with "The..." or "How...")
 
 ### 4. Substance & Specifics
+
+Run every major claim, heading, and hook through these three tests before line-editing:
+
+**Test 1 — Can I visualize it?**
+The reader should be able to close their eyes and see something. Abstract nouns fail this test. Apply the zoom-in technique: keep rewriting the phrase until you land on a concrete object, person, scene, or behavior.
+
+- `transformation` → fails. What transformation? A specific before/after.
+- `growth` → fails. What growth? "Stopped apologizing before stating her needs."
+- `supermodels in London and dads in Ohio` → passes.
+
+**Test 2 — Can I falsify it?**
+Claims should be verifiably true or false. Adjectives and benefit statements usually fail. Replace them by _pointing_ at evidence: a named behavior, a direct quote, a number, an observable action.
+
+- "helps you understand yourself better" → fails (adjective-as-benefit, not provable)
+- "Type 3s rehearse conversations before sending them" → passes (observable, true or false)
+- Heuristic: _Don't talk, only point._ Instead of "he's smart," point at "reads on the tube." Instead of "gold is a good investment," point at the 50-year chart.
+
+**Test 3 — Can nobody else say it?**
+If Psychology Today, 16Personalities, or any competitor blog could publish this line unchanged, it fails. Find the 9takes-specific angle: the anonymous Q&A mechanic, what happens when you see nine types respond to the same question, the specific type lens applied to a specific observable behavior.
+
+After the three-rule check:
 
 - Replace vague claims with concrete examples, data, or scenarios
 - Add specifics where the writing feels thin (names, numbers, details)
