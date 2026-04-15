@@ -120,6 +120,12 @@ One video. 93,000 people paying attention. For someone wired to seek recognition
 
 By November 2019, she had over a million followers. She dropped out of LSU after one semester.
 
+What was she posting? Trending dances. She'd execute choreography created by others — routines to "Savage" by Megan Thee Stallion, "WAP," whatever was moving that week — with gymnast-trained precision at the exact right moment. The content wasn't original. She was famous for being extremely good at being exactly what the algorithm rewarded.
+
+That is the Type 3 thesis in one sentence: optimize for the metric of the moment.
+
+It also meant she didn't naturally think about attribution. When she performed those trending dances on The Tonight Show with Jimmy Fallon in 2021, she didn't credit the Black creators who originated the choreography. The backlash was real and valid. She credited them after. A quiet Type 3 tell: execute the achievement first, correct course when the external signal demands it.
+
 ## The Move That Changed Everything
 
 Addison didn't just decide to pursue TikTok. She convinced her entire family to restructure their lives around her opportunity.
@@ -152,6 +158,16 @@ The connection started through Kourtney's son Mason, who wanted TikTok help. But
 
 For Addison, the friendship represented access to a different level. The Kardashians understand image management, brand evolution, and long-term career building in ways TikTokers don't. Kourtney became both friend and mentor.
 
+## The Family Collapse, Broadcast in Real Time
+
+In 2022, while Addison was trying to figure out what came after "Obsessed," her father's private life became public content.
+
+A 25-year-old woman named Renée Ash came forward claiming a five-month affair with Monty Lopez that began in March 2022. Videos surfaced of him with other women at clubs. Sheri removed "wife" from her Instagram bio. The whole thing played out across millions of feeds, with the added detail that Monty had built his own large TikTok following — largely on the back of being Addison's dad.
+
+Addison unfollowed her father on Instagram. Publicly, she said: "I've really been struggling to post and get out and do things but I love you all and you mean so much more to me than I can ever express."
+
+That statement is doing more work than it looks like. She wasn't giving context. She wasn't naming anyone. She was processing publicly while revealing nothing, maintaining composure for 70 million people while her parents' marriage dissolved in real time. The private/public divide — keeping the wound invisible while managing the image — is the most Type 3 move in her career, and it didn't happen on a stage.
+
 ## The First Failures: Acting and Music
 
 2021 was Addison's year of ambitious failures.
@@ -172,19 +188,23 @@ The turning point came through relationships.
 
 Omer Fedi, her boyfriend from 2021-2025, is a Grammy-winning producer. He co-wrote "Montero (Call Me by Your Name)" with Lil Nas X and "Mood" with 24kGoldn. Through him, Addison gained access to the hyperpop and experimental music world.
 
-Charli XCX became her musical mentor.
+Charli XCX became her musical mentor — and the connection started with a leak.
+
+In 2021, a demo Addison had been working on called "2 Die 4" leaked online. Charli texted her that same day: "I heard '2 Die 4' leaked. You know I love that song. Let me do a verse." Charli heard something in the music before any label did. That text was the door.
+
+That 2021 demo became their first official collaboration, released in 2023 as part of Addison's EP. The working relationship deepened from there. By March 2024, Addison was featured on the "Von Dutch" remix — the track that formally announced to the music world that she was someone worth paying attention to. It earned a Grammy nomination for Best Remixed Recording. More importantly, the "Von Dutch" recording happened right before "Diet Pepsi" was written. Charli's influence bled directly into the song.
 
 > "My relationship with Charli has given me so much confidence, guidance, and direction in the industry."
 
-Charli didn't just collaborate with Addison. She validated her. When one of pop's most credible artists treats you as a peer, the narrative changes.
-
-In March 2024, Addison featured on Charli's "Von Dutch" remix. The track earned a Grammy nomination for Best Remixed Recording.
+Charli didn't just collaborate with Addison. She validated her in a genre where credibility transfer is the whole game. When one of pop's most credible artists texts you to ask to be on your song, the narrative changes.
 
 Then came "Diet Pepsi."
 
 ## Diet Pepsi: The Song That Changed the Story
 
-In 2024, Addison signed with Columbia Records and released "Diet Pepsi." The song was everything "Obsessed" wasn't: hyperpop production, confident attitude, self-aware humor.
+In 2024, Addison signed with Columbia Records and released "Diet Pepsi." The song was everything "Obsessed" wasn't.
+
+It's synth-pop and alternative pop — sensual, nostalgic, slightly cinematic. Closer to early Lana Del Rey than to the hyperpop label often attached to it. The lyrics are about the specific feeling of first experiences: "Losing all my innocence in the backseat," flushed cheeks "red like cherries in the spring," windows fogged up in a parking lot. Not arch or ironic. Genuinely affecting. Critics compared the vocal performance to Lana's early work, which was not a comparison anyone was making about Addison Rae eighteen months earlier.
 
 It peaked at #54 on the Billboard Hot 100, her first entry on the chart. Certified platinum by the RIAA.
 
@@ -207,6 +227,8 @@ Her debut album dropped in 2025 with a symbolic title: just "Addison."
 The album debuted at #4 on the Billboard 200. #2 in the UK. #2 in Australia. All 12 tracks written and produced by Addison, Luka Kloser, and Elvira Anderfjärd.
 
 She embarked on her first headlining tour. Critics noted her dance background translated into commanding live performances.
+
+Worth noting: this wasn't her original audience converting. The "Addison Rae renaissance" — as fans called it online — arrived largely among people who had previously dismissed her. Her 88 million TikTok followers didn't uniformly follow her into this era. She built a different kind of recognition from a different kind of listener. For a Type 3, that's the harder and more interesting achievement: not leveraging existing fans, but earning new ones from a room that was already skeptical.
 
 Then came the nomination: Best New Artist at the 2026 Grammy Awards.
 
@@ -232,18 +254,6 @@ She's spoken openly about therapy, about learning self-love, about the mental he
 
 That sentence lands differently when you understand how she keeps score. For someone who tracks worth in chart positions and nomination announcements, reframing therapy as an achievement — calling it an accomplishment in the same breath as a Grammy — that's not PR spin. That's a genuine rewiring of what counts.
 
-## The Controversies She Navigated
-
-Success at Addison's level attracts criticism.
-
-**The Trump Handshake (2021):** She voluntarily greeted Donald Trump at a UFC event. Fans were furious. She didn't apologize or explain. She absorbed the backlash and moved forward.
-
-**The Jimmy Fallon Dance Controversy:** She performed TikTok dances on The Tonight Show without crediting the Black creators who originated them. The criticism was substantial and valid. She later credited the original choreographers.
-
-**The Religious Bikini:** She posted a photo in a white bikini with "Father," "Son," and "Holy Spirit" printed on it. Conservative and religious fans were offended.
-
-Each controversy followed a pattern: moment of attention, wave of criticism, measured response (or silence), then return to regular content. She doesn't let backlash derail her trajectory.
-
 ## The Private Life She Protected
 
 After the Bryce Hall chaos, Addison kept her relationship with Omer Fedi quiet. Four years together, relatively out of the spotlight.
@@ -254,15 +264,9 @@ They split in late 2025. A source told Entertainment Tonight there was "no bad b
 
 She learned from her first public relationship. Love and career are separate. When career requires focus, everything else adjusts.
 
-## What's Next: Acting, Fashion, and Legacy
+## The Portfolio, Not the Career
 
-Beyond music, Addison keeps adding surface area.
-
-On the acting side, she moved past "He's All That" by taking better swings — a horror film ("Thanksgiving," 2023), then "Animal Friends" alongside [Ryan Reynolds](/personality-analysis/Ryan-Reynolds) and [Aubrey Plaza](/personality-analysis/Aubrey-Plaza), and a role in Ryan Murphy's "Monsters: The Ed Gein Story." Deliberately weird choices, not safe ones.
-
-Fashion: Saint Laurent's campaign film "As Time Goes By" with Chloë Sevigny. Face of Marc Jacobs x Vaquera. A Lucky Brand collaboration launching August 2025. Each brand placement a bit more specific, a bit more credible than the last.
-
-And in 2021, she donated $1 million in prize money from a Mario Tennis Aces tournament to No Kid Hungry. Quietly. Without making it a content moment.
+Acting roles have gotten deliberately stranger: a horror film, a Ryan Murphy true-crime series, a comedy alongside [Ryan Reynolds](/personality-analysis/Ryan-Reynolds) and [Aubrey Plaza](/personality-analysis/Aubrey-Plaza). Fashion campaigns have climbed in specificity — Saint Laurent, Marc Jacobs x Vaquera. And in 2021, she donated $1 million in gaming tournament prize money to No Kid Hungry without making it a content moment.
 
 She's running a portfolio, not a career. Which might be the most Type 3 sentence in this piece.
 
@@ -281,6 +285,41 @@ Girl from Lafayette who got bullied for the wrong shoe brand. Grammy-nominated. 
 The internet said she was cringe. Turns out she was early.
 
 > **Disclaimer:** This analysis of Addison Rae's Enneagram type is speculative, based on publicly available information, and may not reflect her actual personality type.
+
+<!-- READER REVIEW COMMENT (2026-04-15):
+
+FIRST IMPRESSIONS
+Strong hook, clear thesis, good pacing in the middle. The Type 3 framing clicks and you earn it with the "Obsessed" vs "Diet Pepsi" contrast. But after two reads I kept bumping into the same gaps.
+
+WHAT'S MISSING (things fans would actually want to know):
+
+1. THE DAD SITUATION IS COMPLETELY ABSENT.
+Her father Monty's very public cheating scandal with Renée Ash played out on social media while Addison was at peak TikTok fame. Her mom Sheri's response, the public family drama, Addison navigating it all in real-time with 70M people watching — this is prime Type 3 material. She maintained composure publicly while her family imploded. That's the private/public divide that defines her more than anything in the article. Right now the family section reads like: "parents had a turbulent marriage, they moved around." That's nothing. The actual story is messier and more interesting.
+
+2. WHAT DID SHE ACTUALLY DO ON TIKTOK?
+You say "dance videos" but never describe them. She became famous for doing trending dances — specific songs, specific choreography, right time. Her content was not particularly original. She was famous for being extremely good at being exactly what the algorithm rewarded. That's actually the Type 3 thesis in one sentence: she optimized for the metric of the moment. Spell that out. The article assumes readers know what her TikTok content looked like. Most readers coming from search won't.
+
+3. HOW DID SHE ACTUALLY GET CHARLI?
+"Charli XCX became her musical mentor" — okay, but how? This is the most important unlock in the whole career story and the article just... asserts it happened. Addison had to fit herself into that world. She moved in those circles through Omer Fedi, started showing up to industry events, clearly worked for it. The "how she got in the room" is more interesting than the room itself.
+
+4. DIET PEPSI THE SONG — WHAT IS IT?
+You spend a lot of time on its chart performance and critical reception. You never describe what the song sounds like, what it's about, or why it worked. A reader who hasn't heard it still doesn't know what they'd be pressing play on. Even one sentence: "self-aware, almost satirical cool-girl pop with hyperpop production" — something. The song itself is evidence for everything you're arguing.
+
+5. DID HER ORIGINAL FANS STAY?
+This is an unanswered question that probably matters to readers: the 70M TikTok fans — did they follow her into the music era, or did she build a new fanbase? The answer shapes whether this is a reinvention story or a new audience story. Feels like an important distinction for a Type 3 analysis about image and recognition.
+
+WHAT'S OVERDONE OR COULD BE TRIMMED:
+
+- "What's Next" section is mostly a list. The Ryan Murphy/Marc Jacobs/Lucky Brand details read like a Wikipedia update, not analysis. Could cut this section to one tight paragraph or fold the relevant bits into earlier sections.
+- "The Controversies She Navigated" section is handled too lightly to be worth its own section. Either go deeper on what each controversy reveals about her (the Jimmy Fallon one is actually a great Type 3 tell — she credited creators only after backlash, not before) or cut it down to a paragraph woven into the main narrative.
+- The final two sections ("The Pattern Behind the Success" and "What Actually Drove the Reinvention") overlap. Both are saying "she found better rooms." Pick one ending.
+
+THE EXISTING QUALITY COMMENT IS RIGHT:
+The lesson bullets at the end are killing the momentum. The last line "the internet said she was cringe. Turns out she was early." is genuinely good. End there.
+
+OVERALL:
+This is a solid B+ draft that's one revision away from something memorable. The bones are there. Fill in the family drama, describe the actual music/content, tighten the ending, cut the listy sections.
+-->
 
 <svelte:head>
 

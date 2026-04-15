@@ -24,6 +24,7 @@ interface SendEmailOptions {
 	plainTextContent?: string;
 	recipientName?: string;
 	trackingId?: string;
+	unsubscribeUrl?: string;
 	includeFooter?: boolean;
 }
 
@@ -123,6 +124,7 @@ export async function sendEmail(options: SendEmailOptions): Promise<SendEmailRes
 		plainTextContent,
 		recipientName,
 		trackingId,
+		unsubscribeUrl: providedUnsubscribeUrl,
 		includeFooter = true
 	} = options;
 	const resolvedPlainTextContent = plainTextContent ?? htmlToPlainText(htmlContent);
@@ -163,7 +165,7 @@ export async function sendEmail(options: SendEmailOptions): Promise<SendEmailRes
 		// Process HTML content with tracking if trackingId provided
 		let finalHtmlContent = htmlContent;
 		let trackingPixelUrl: string | undefined;
-		let unsubscribeUrl: string | undefined;
+		let unsubscribeUrl = providedUnsubscribeUrl;
 
 		if (trackingId) {
 			// Rewrite links for click tracking

@@ -125,7 +125,7 @@ Two years into Stanford, Altman dropped out. He was nineteen. He and his co-foun
 
 Loopt was in Y Combinator's first-ever batch. This is when Graham met Altman. This is when he saw whatever he saw. Not in Altman's product, which was mediocre, but in Altman himself. The twenty-year-old who radiated the sense that he would end up in charge no matter what happened.
 
-Loopt raised $30 million from Sequoia Capital and others. Altman presented alongside Steve Jobs at Apple's WWDC. And it still didn't work. The core problem was human nature: people didn't actually want to broadcast their location. "I learned you can't make humans do something they don't want to do," Altman said later.
+Loopt raised nearly $40 million from Sequoia Capital, New Enterprise Associates, and others. Altman presented alongside Steve Jobs at Apple's WWDC. And it still didn't work. The core problem was human nature: people didn't actually want to broadcast their location. "I learned you can't make humans do something they don't want to do," Altman said later.
 
 After seven years, Loopt sold to Green Dot Corporation for $43.4 million, roughly a wash for investors. Altman personally walked away with about $5 million.
 
@@ -327,7 +327,7 @@ This is the Type 4's identity engine doing what it does: absorbing contradiction
 
 Of all the things Sam Altman could build outside of AI (a social network, a fintech platform, a media company) he built an _identity system_.
 
-[World](https://world.org/) (originally Worldcoin), co-founded in 2019, uses a spherical device called the Orb to scan your iris and generate a unique cryptographic proof that you are a real human, not a bot. By early 2026, it had 26 million registered accounts across dozens of countries.
+[World](https://world.org/) (originally Worldcoin), co-founded in 2019, uses a spherical device called the Orb to scan your iris and generate a unique cryptographic proof that you are a real human, not a bot. By early 2026, it had more than 26 million verified accounts and over 33 million total app users across dozens of countries.
 
 The kid who spent his childhood carrying a secret about who he really was grew up to build a system whose sole purpose is proving that every person on Earth is uniquely, verifiably themselves. The kid who found AOL chat rooms because he needed to know other people like him existed built a global network so no human would be invisible.
 

@@ -124,7 +124,7 @@ For a Type 5, humor provides safe emotional connection without vulnerability. Co
 
 The meme persona also insulates him from the conference room floor. Nobody pictures the world's richest shitposter face-down on the carpet. The irony is armor, and the public eats it up because they'd rather follow a memelord than reckon with a man who sometimes cannot move.
 
-The costs are staggering. The "funding secured" tweet cost him $20 million in SEC fines and his Tesla chairmanship — he admitted rounding up to $420 because Grimes would "find it funny." Dogecoin pumping generated a $258 billion lawsuit. Days after settling with the SEC, he taunted: **"Just want to say that the Shortseller Enrichment Commission is doing incredible work."** Tesla shares fell 5%.
+The costs are staggering. The "funding secured" tweet cost him $40 million in SEC fines (split equally between Musk and Tesla) and his Tesla chairmanship — he admitted rounding up to $420 because Grimes would "find it funny." Dogecoin pumping generated a $258 billion lawsuit. Days after settling with the SEC, he taunted: **"Just want to say that the Shortseller Enrichment Commission is doing incredible work."** Tesla shares fell 5%.
 
 The punchlines cost billions. He keeps telling them.
 
@@ -198,7 +198,7 @@ Vivian responded: **"He doesn't know what I was like as a child because he quite
 
 Rather than examining his own role, Elon externalized the rejection to an ideological enemy. A deeply personal wound reframed as a systems failure — the "woke mind virus" as a bug to be debugged rather than a daughter asking to be seen.
 
-Meanwhile, the family kept expanding. Neuralink executive Shivon Zilis had four children with Musk via IVF. Conservative influencer Ashley St. Clair revealed a son with Musk in January 2026 and filed for custody after he reportedly offered $15 million for silence. Each relationship adds another data point to a pattern the Investigator seems unable to examine from the outside.
+Meanwhile, the family kept expanding. Neuralink executive Shivon Zilis had four children with Musk via IVF. Conservative influencer Ashley St. Clair revealed a son with Musk in January 2026 and filed for custody. Each relationship adds another data point to a pattern the Investigator seems unable to examine from the outside.
 
 ## What Lights Up a Type 5
 
@@ -222,7 +222,7 @@ He has said: **"Kids by far make me the happiest."** His young son X Æ A-Xii ac
 
 ## Trump and DOGE: The System That Wouldn't Behave
 
-Elon saw government as one more system to master. He donated over $200 million to <a href="/personality-analysis/Donald-Trump">Trump's</a> 2024 campaign and embedded himself in DOGE with access to Treasury payment systems — the Investigator deploying the same first-principles approach that cracked rocket economics and battery chemistry.
+Elon saw government as one more system to master. He donated nearly $300 million to <a href="/personality-analysis/Donald-Trump">Trump's</a> 2024 campaign and embedded himself in DOGE with access to Treasury payment systems — the Investigator deploying the same first-principles approach that cracked rocket economics and battery chemistry.
 
 But political reality doesn't reduce to first principles.
 

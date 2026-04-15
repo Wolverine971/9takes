@@ -82,7 +82,7 @@ The book contained passages that would haunt Sacks two decades later, including 
 
 That apology is one of perhaps three times David Sacks has publicly retreated in his entire career. Note the language: "embarrassed" and "regret," but not "I was wrong." A managed withdrawal. Even his vulnerability has perimeter walls.
 
-Between Stanford and PayPal, Sacks worked as a research assistant for Robert Bork on _Slouching Towards Gomorrah_ (1993), then earned a law degree from the University of Chicago. Both experiences reinforced the same worldview: institutions are being captured, the culture is decaying, and someone needs to build the case for the defense.
+Between Stanford and PayPal, Sacks worked as a research assistant for Robert Bork on _Slouching Towards Gomorrah_ (1996), then earned a law degree from the University of Chicago. Both experiences reinforced the same worldview: institutions are being captured, the culture is decaying, and someone needs to build the case for the defense.
 
 ---
 
@@ -209,7 +209,7 @@ The pattern: detect threat → preemptive action → if confronted, escalate wit
 </div>
 <div class="timeline__item">
 <span class="timeline__year">Jan 2021</span>
-<span class="timeline__event">"Trump disqualified himself from being a candidate at the national level again"</span>
+<span class="timeline__event">"Trump disqualified himself from being a candidate at a national level"</span>
 </div>
 <div class="timeline__item timeline__item--key">
 <span class="timeline__year">June 2024</span>

@@ -47,11 +47,11 @@ podcaster-personality-map
 Tim-Cook
 enneagram-types-and-career-choices
 
-Act like a normal person who is reading this article and tell me what i missed or what i should expand on or what was overdone or duplicate info that could be trimmed. Review the love-languages-and-enneagram-types blog, read it and put your comments as a comment at the bottom of the article
+Act like a normal person who is reading this article and tell me what i missed or what i should expand on or what was overdone or duplicate info that could be trimmed. Review the Jason-Calacanis blog, read it and put your comments as a comment at the bottom of the article
 
 Try to assess it with fresh eyes. Think about what this person is know for and what someone who knows about them would want to have insight into and what should be addressed.
 
-Ok so i added some comments at the bottom of the article Garry Tan, please assess the comments and see if we should add some more or address some parts based on that feedback. Do more research as needed and make the blog better. Also trim things that are overdone or duplicated so that everything is fresh and well done.
+Ok so i added some comments at the bottom of the article Jason-Calacanis, please assess the comments and see if we should add some more or address some parts based on that feedback. Do more research as needed and make the blog better. Also trim things that are overdone or duplicated so that everything is fresh and well done.
 
 I want you to edit this blog on Noam-Chomsky and use the content-editor agent doc to guide you.
 

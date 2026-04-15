@@ -88,9 +88,10 @@ DJocrates
 <p>Weak question: <em>Why are people so fake?</em></p>
 <p>Better question: <em>My friend is warm in person but takes days to reply. What might be going on?</em></p>
 <p>The second question gives people something real to work with. They can name different motives, fears, habits, and blind spots without pretending one answer explains everyone.</p>
-<p>If there is a situation you keep replaying, turn it into a question. If not, answer one already in the queue.</p>
-<p><a class="button" href="{{ask_question_url}}">Ask a question</a></p>
-<p><a href="{{questions_url}}">Or answer a current one</a></p>
+<p>You can answer a current question for free, then read the comments and compare what other people noticed.</p>
+<p>Asking your own question is different. If there is a situation you keep replaying and you want to post it, sign up first.</p>
+<p><a class="button" href="{{questions_url}}">Answer a current question</a></p>
+<p><a href="https://9takes.com/register">Sign up to ask one</a></p>
 <p>DJocrates<br />9takes.com</p>`,
 		plainText: `Hi {{first_name}},
 
@@ -102,10 +103,12 @@ Better question: My friend is warm in person but takes days to reply. What might
 
 The second question gives people something real to work with. They can name different motives, fears, habits, and blind spots without pretending one answer explains everyone.
 
-If there is a situation you keep replaying, turn it into a question. If not, answer one already in the queue.
+You can answer a current question for free, then read the comments and compare what other people noticed.
 
-Ask a question: {{ask_question_url}}
-Or answer a current one: {{questions_url}}
+Asking your own question is different. If there is a situation you keep replaying and you want to post it, sign up first.
+
+Answer a current question: {{questions_url}}
+Sign up to ask one: https://9takes.com/register
 
 DJocrates
 9takes.com`
