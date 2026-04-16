@@ -7,7 +7,7 @@ const fontMono = ['"JetBrains Mono"', 'ui-monospace', 'monospace'];
 
 export default {
 	content: [
-		'./src/**/*.{html,js,svelte,ts}',
+		'./src/**/*.{html,js,svelte,ts,md}',
 		'./node_modules/flowbite-svelte/**/*.{html,js,svelte,ts}',
 		'!./src/**/*.scss'
 	],

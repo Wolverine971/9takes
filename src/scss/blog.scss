@@ -7,14 +7,17 @@
 
 .blog {
 	/* Link styling for blog content - Warm Tech theme */
-	a {
-		color: var(--primary-lighter) !important;
+	--blog-link-color: var(--primary-lighter);
+	--blog-link-hover-color: var(--primary-lightest);
+
+	a:not(.toc-link):not([class*='text-']):not([class*='bg-']):not([class*='border-']) {
+		color: var(--blog-link-color);
 		text-decoration: none;
 		transition: color 0.2s ease;
 
 		&:hover {
 			text-decoration: underline;
-			color: var(--primary-lightest) !important;
+			color: var(--blog-link-hover-color);
 		}
 
 		/* No arrow icon - removed for cleaner dark theme */
@@ -38,6 +41,11 @@
 		margin-top: 0.5rem;
 		padding-top: 0.5rem;
 	}
+}
+
+:root.light .blog {
+	--blog-link-color: var(--primary-darker);
+	--blog-link-hover-color: var(--accent-dark);
 }
 
 /* Quote styling - Warm Tech theme */
@@ -763,7 +771,6 @@ blockquote {
 	/* Improved paragraph spacing */
 	p {
 		margin-bottom: 1.2rem;
-		color: var(--text-secondary);
 	}
 
 	/* Better list styling */
@@ -771,7 +778,6 @@ blockquote {
 	ol {
 		margin: 0.5rem 0;
 		padding-left: 1rem;
-		color: var(--text-secondary);
 
 		li {
 			margin-bottom: 0.25rem;

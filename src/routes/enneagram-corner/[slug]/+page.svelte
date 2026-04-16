@@ -192,14 +192,12 @@
 
 		:global(p) {
 			margin-bottom: 1.2rem;
-			color: var(--text-secondary);
 		}
 
 		:global(ul),
 		:global(ol) {
 			margin: 1rem 0;
 			padding-left: 1.5rem;
-			color: var(--text-secondary);
 		}
 
 		:global(li) {
@@ -208,12 +206,10 @@
 		}
 
 		:global(a) {
-			color: var(--accent-light);
 			text-decoration: none;
 			transition: color 0.2s ease;
 
 			&:hover {
-				color: var(--primary-lightest);
 				text-decoration: underline;
 			}
 		}
@@ -230,12 +226,15 @@
 
 		:global(blockquote p) {
 			margin-bottom: 0;
-			color: var(--text-secondary);
 		}
 
 		:global(strong) {
-			font-weight: 600;
-			color: var(--text-primary);
+			font-weight: 700;
+			color: inherit;
+		}
+
+		:global(.text-white :not(a):not([class*='bg-'])) {
+			color: inherit;
 		}
 
 		:global(code) {

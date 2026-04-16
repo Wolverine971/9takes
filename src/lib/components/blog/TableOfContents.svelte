@@ -757,6 +757,9 @@
 
 <style lang="scss">
 	.toc-sidebar {
+		--toc-link-color: var(--primary-lighter);
+		--toc-link-hover-color: var(--primary-lightest);
+
 		/* Card base styles - Solo Leveling dark theme */
 		background-color: var(--bg-deep);
 		border-radius: 12px;
@@ -814,6 +817,9 @@
 	}
 
 	.toc-accordion {
+		--toc-link-color: var(--primary-lighter);
+		--toc-link-hover-color: var(--primary-lightest);
+
 		/* Card base styles - Solo Leveling dark theme */
 		background-color: var(--bg-deep);
 		border-radius: 12px;
@@ -949,13 +955,13 @@
 		box-sizing: border-box;
 		font-size: 0.875rem;
 		line-height: 1.4;
-		color: var(--primary-lighter);
+		color: var(--toc-link-color);
 		text-decoration: none;
 		border-radius: 4px;
 		transition: all 0.2s ease;
 
 		&:hover {
-			color: var(--primary-lightest);
+			color: var(--toc-link-hover-color);
 			background-color: color-mix(in srgb, var(--primary) 15%, transparent);
 			text-decoration: none;
 		}
@@ -971,6 +977,12 @@
 		font-weight: 600;
 		color: var(--text-primary);
 		background-color: var(--primary-subtle);
+	}
+
+	:global(:root.light) .toc-sidebar,
+	:global(:root.light) .toc-accordion {
+		--toc-link-color: var(--primary-darker);
+		--toc-link-hover-color: var(--accent-dark);
 	}
 
 	/* Responsive adjustments - hide sidebar on screens smaller than breakpoint */

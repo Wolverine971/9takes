@@ -88,7 +88,7 @@
 		color: var(--primary-lightest);
 	}
 	.separator {
-		color: var(--text-tertiary);
+		color: var(--text-secondary);
 	}
 	.date {
 		color: var(--text-secondary);
@@ -96,6 +96,10 @@
 	.date.updated {
 		color: #22c55e;
 		font-weight: 500;
+	}
+
+	:global(:root.light) .date.updated {
+		color: #15803d;
 	}
 
 	@media (max-width: 500px) {

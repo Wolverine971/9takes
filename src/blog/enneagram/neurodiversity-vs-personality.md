@@ -84,7 +84,7 @@ path: src/blog/enneagram/neurodiversity-vs-personality.md
 		<h2 class="mb-6 border-l-4 border-primary-700 dark:border-primary-500 pl-4 text-3xl font-bold text-primary-900 dark:text-primary-200">
 			The Real Truth: No One Is "Normal"
 		</h2>
-		<div class="mb-6 rounded-lg bg-primary-700 dark:bg-primary-600 p-8 text-white shadow-xl">
+		<div class="mb-6 rounded-lg bg-primary-700 dark:bg-primary-800 p-8 text-white shadow-xl">
 			<p class="text-xl font-bold">
 				Want to know a secret? <strong>There is no normal.</strong> Never has been, never will be.
 			</p>

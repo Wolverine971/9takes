@@ -85,20 +85,20 @@
 
 - PMC: https://pmc.ncbi.nlm.nih.gov/articles/PMC6208876/
 
-**Accuracy**: The underlying study is real and peer-reviewed. **Author correction**: First author is David Daniels, not Qualter — the prior fact-check had wrong attribution. Title is "Advancing Ego Development in Adulthood Through Study of the Enneagram System of Personality." The findings indicate Enneagram Intensive training *may be beneficial* for ego development — the blog's phrasing "can directly advance" is slightly strong; "associated with advances" is more defensible. The blog text itself doesn't name the author, so no blog edit was needed. The phrasing "one of the few personality frameworks" (corrected from "only") remains defensible.
+**Accuracy**: The underlying study is real and peer-reviewed. **Author correction**: First author is David Daniels, not Qualter — the prior fact-check had wrong attribution. Title is "Advancing Ego Development in Adulthood Through Study of the Enneagram System of Personality." The findings indicate Enneagram Intensive training _may be beneficial_ for ego development — the blog's phrasing "can directly advance" is slightly strong; "associated with advances" is more defensible. The blog text itself doesn't name the author, so no blog edit was needed. The phrasing "one of the few personality frameworks" (corrected from "only") remains defensible.
 
 ---
 
 ## Summary Table
 
-| #   | Claim                                                                        | Status                                                      | Source                                                   |
-| --- | ---------------------------------------------------------------------------- | ----------------------------------------------------------- | -------------------------------------------------------- |
-| 1   | Half of Gen Z respondents self-diagnosed via social media (survey)           | Verified — wording tightened to "respondents"               | LifeStance/Researchscape survey, Apr 2025 (n=1,110)      |
-| 2   | 52% of most-viewed ADHD TikTok videos contained misinformation               | Verified — 55% non-professional figure dropped (disputed)   | Yeung et al., Canadian Journal of Psychiatry, 2022       |
-| 3   | ADHD/autism traits exist on a continuum, not binary categories               | Verified (philosophical analysis, not primary genetic data) | Koi (2021), Studies in History and Philosophy of Science |
-| 4   | Neurodiversity framed as "cognitive continuity" like personality             | Verified — blog already frames this as an argument          | Psyche essay (Joshua May), May 2025                      |
-| 5   | Enneagram systematic review of 104 independent samples                       | Verified on substance — DOI disputed, needs confirmation    | Hook et al. (2021), Journal of Clinical Psychology       |
-| 6   | Enneagram training associated with ego development gains                     | Verified — author corrected to Daniels (not Qualter)        | Daniels et al. (2018), Journal of Adult Development      |
+| #   | Claim                                                              | Status                                                      | Source                                                   |
+| --- | ------------------------------------------------------------------ | ----------------------------------------------------------- | -------------------------------------------------------- |
+| 1   | Half of Gen Z respondents self-diagnosed via social media (survey) | Verified — wording tightened to "respondents"               | LifeStance/Researchscape survey, Apr 2025 (n=1,110)      |
+| 2   | 52% of most-viewed ADHD TikTok videos contained misinformation     | Verified — 55% non-professional figure dropped (disputed)   | Yeung et al., Canadian Journal of Psychiatry, 2022       |
+| 3   | ADHD/autism traits exist on a continuum, not binary categories     | Verified (philosophical analysis, not primary genetic data) | Koi (2021), Studies in History and Philosophy of Science |
+| 4   | Neurodiversity framed as "cognitive continuity" like personality   | Verified — blog already frames this as an argument          | Psyche essay (Joshua May), May 2025                      |
+| 5   | Enneagram systematic review of 104 independent samples             | Verified on substance — DOI disputed, needs confirmation    | Hook et al. (2021), Journal of Clinical Psychology       |
+| 6   | Enneagram training associated with ego development gains           | Verified — author corrected to Daniels (not Qualter)        | Daniels et al. (2018), Journal of Adult Development      |
 
 ---
 
