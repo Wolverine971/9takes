@@ -79,20 +79,13 @@ internal and external conflict
 
 <p class="firstLetter">A good relationship isn't conflict-free. It's repair-rich. If you care about someone, you'll disagree, sometimes loudly, often about something that feels bigger than the surface issue.</p>
 
-Conflict is inevitable in any meaningful relationship. The question is whether your fights end with repair or with distance. This guide breaks down what healthy conflict looks like, the patterns that quietly erode trust, and a step-by-step process for getting back on the same team.
-
-**What you'll learn in Part 1:**
-
-- How to reframe conflict so it becomes useful
-- How to spot the Four Horsemen early
-- The antidotes that stop fights from turning toxic
-- A practical checklist for resolving disagreements
+The question isn't whether you'll fight. It's whether your fights end with repair or with distance.
 
 > Safety note: This guide assumes a relationship that is fundamentally safe. If arguments include threats, intimidation, coercive control, or violence, prioritize safety and professional support.
 
-<h2 id="reframing-conflict">Reframing Relationship Conflict</h2>
+## Conflict isn't the problem. Avoidance is.
 
-<h3 id="is-conflict-bad">Is Conflict Bad? No. It Can Be a Growth Opportunity</h3>
+### "Conflict is growth trying to happen"
 
 Contrary to popular belief, conflict itself isn't toxic to relationships. Avoiding every disagreement can signal emotional disconnection or fear of rocking the boat. A 2023 study published in the Journal of Social and Personal Relationships found that couples who engaged in healthy conflict reported greater intimacy and relationship satisfaction than those who avoided disagreements altogether.
 
@@ -100,15 +93,15 @@ My therapist once told me, "Conflict is growth trying to happen." Usually, you'r
 
 As relationship researcher Dr. Nickola Overall explains, when managed effectively, conflicts provide "the opportunity to enhance and grow in our relationships" by allowing partners to address important issues, express needs, and make necessary changes.
 
-<h3 id="conflict-patterns">Understanding Your Conflict Patterns</h3>
+### The script you fall into under stress
 
 People, and especially couples, develop patterns when conflict arises. Under stress, you fall into a script: one person pushes, the other retreats; one criticizes, the other defends. According to <a class="external-link" target="_blank" rel="noopener" href="https://www.gottman.com/about/john-julie-gottman/">Dr. John Gottman</a>, a revered expert when it comes to relationship conflict, these patterns are either working to erode trust or to build a stronger bond.
 
 Through decades of research, Gottman discovered that it's not whether couples fight that determines relationship success, but how they fight. His longitudinal studies found that he could predict divorce with over 90% accuracy by observing just a few minutes of a couple's conflict interactions.
 
-If you're interested in understanding how your personality type influences your approach to conflict, check out our <a href="/enneagram-corner/enneagram-communication-guide">Enneagram Communication Guide</a>, which provides insights on how different types typically handle disagreements.
+Your Enneagram type shapes which script you reach for first. A Type 1 criticizes with moral authority. A Type 9 stonewalls by flattening the fight until it disappears. A Type 2 defends by tallying every unreciprocated favor. More on each type's signature move below.
 
-<h2 id="understanding-four-horsemen">Understanding the Four Horsemen of Relationship Conflict</h2>
+## The Four Horsemen: four patterns that predict divorce with 90% accuracy
 
 Gottman calls the most destructive conflict patterns "The Four Horsemen." These are the <a class="external-link" target="_blank" rel="noopener" href="https://www.gottman.com/blog/4-conflict-styles-that-hurt-your-relationship/">four common relationship pitfalls</a> that show up in everyday fights, and they can predict relationship breakdown over time.
 
@@ -119,9 +112,9 @@ Gottman calls the most destructive conflict patterns "The Four Horsemen." These 
 - **Defensiveness**: Counterattacking, deflecting, or playing the victim
 - **Stonewalling**: Shutting down, checking out, or leaving the interaction
 
-We'll break down each horseman in detail, plus the early warning signs that show up before things blow up.
+Each one has early warning signs that show up before things blow up.
 
-<h3 id="criticism">Criticism: How It Hurts Relationships</h3>
+### Criticism: attacking who they are, not what they did
 
 Criticism involves attacking your partner's character or personality rather than addressing a specific behavior. While it's normal to have complaints in a relationship, criticism takes complaints to a harmful level by making them about who your partner is as a person.
 
@@ -140,7 +133,7 @@ Criticism involves attacking your partner's character or personality rather than
 
 Recent research shows that criticism is particularly damaging because it signals to your partner that there's something fundamentally wrong with who they are, not just with something they did.
 
-<h3 id="contempt">Contempt: The Dangers of Disrespect</h3>
+### Contempt: the single strongest predictor of divorce
 
 Contempt is the most destructive of the four horsemen and involves treating your partner with disrespect, mockery, or derision. It stems from a position of moral superiority and communicates disgust. Gottman's research has identified contempt as the single strongest predictor of divorce.
 
@@ -160,7 +153,7 @@ Contempt is the most destructive of the four horsemen and involves treating your
 
 Contempt doesn't only hurt emotionally. It ramps up physiological stress and can make repair feel impossible in the moment.
 
-<h3 id="defensiveness">Defensiveness: Why It Damages Connection</h3>
+### Defensiveness: turning every complaint into your wound
 
 Defensiveness is essentially self-protection in the form of righteous indignation or innocent victimhood. It's a way of turning the tables and making it seem like your partner is the problem, not you. This failure to take responsibility blocks productive dialogue and problem-solving.
 
@@ -180,7 +173,7 @@ Defensiveness is essentially self-protection in the form of righteous indignatio
 
 Recent conflict research indicates that defensive responses can create a "negative feedback loop," where both partners become increasingly defensive, creating a cycle that's difficult to break.
 
-<h3 id="stonewalling">Stonewalling: The Impact of Emotional Withdrawal</h3>
+### Stonewalling: heart rate over 100, checked out, gone
 
 Stonewalling involves emotionally withdrawing from an interaction by shutting down, tuning out, or physically leaving. While it often occurs as a response to feeling overwhelmed (what Gottman calls "flooding"), it communicates disinterest and disconnection to your partner.
 
@@ -200,7 +193,47 @@ Stonewalling involves emotionally withdrawing from an interaction by shutting do
 
 Physiological research by Gottman found that during stonewalling, heart rates can accelerate to over 100 beats per minute, making it nearly impossible to engage in productive problem-solving. This demonstrates how conflict patterns have both emotional and physical components.
 
-<h2 id="antidotes-to-four-horsemen">Effective Antidotes to the Four Horsemen</h2>
+## The Horseman your Enneagram type reaches for first
+
+The Four Horsemen are universal. But _how_ you ride them — the exact words, the tone, the body language — has your Enneagram fingerprint all over it.
+
+A Type 8 leads with criticism. A Type 2 defends through hurt. A Type 5 goes silent and won't come back for hours. Most people have a clear favorite, and you probably already know yours.
+
+### Criticism: Type 1 vs. Type 8
+
+**Type 1 (the Reformer):** "You're being careless again. This isn't up to standard." The complaint is moralized — your behavior isn't just wrong, it's _improper_. Often arrives with a sigh. A Type 1 will also deny being critical at all: "I'm just stating a fact."
+
+**Type 8 (the Challenger):** "You're soft. You never push back." Blunt, head-on, no sugar. Type 8s don't dress criticism up in concern — they lead with impact and let you sort it out.
+
+Both weaponize the complaint. Type 1 hides behind standards. Type 8 owns the blow.
+
+### Contempt: Type 4 vs. Type 5
+
+**Type 4 (the Individualist):** Long sigh, eye roll, "You'll never understand what I actually go through." Contempt worn as a badge of emotional depth — _you're ordinary, I'm uniquely tormented._
+
+**Type 5 (the Investigator):** Flat sneer, "That's a surface-level take." Contempt delivered through intellectual distance — mocking the reasoning without ever raising the voice.
+
+Different flavors, same poison. Both say: _I am above you._
+
+### Defensiveness: Type 2 vs. Type 9
+
+**Type 2 (the Helper):** "After everything I do around here, you're telling me _I'm_ the problem?" The complaint becomes a tally of unreciprocated giving. Hurt and outrage fuse into one move.
+
+**Type 9 (the Peacemaker):** "That's not what happened. I don't know what you're talking about." Flat denial, often followed by zoning out. Type 9 defensiveness isn't loud — it's a fog that makes the issue impossible to pin down.
+
+Different tactics, same result: the ball never lands on their side of the net.
+
+### Stonewalling: Type 5 vs. Type 9
+
+**Type 5 (the Investigator):** Physical exit. Goes to the office, closes the door, emerges three hours later as if nothing happened. Flooding means retreat to the cave.
+
+**Type 9 (the Peacemaker):** Still in the room, but gone. Changes the subject. Looks at their phone. "Okay, yeah, okay." The body stayed. The presence left.
+
+One leaves visibly. The other disappears from inside the conversation.
+
+Want the full map — how each Enneagram type starts, escalates, and resolves a fight? See our <a href="/enneagram-corner/enneagram-communication-guide">Enneagram Communication Guide</a>.
+
+## The antidotes: what to do when a Horseman shows up
 
 <figure style="display: flex;
     flex-direction: column;
@@ -217,7 +250,7 @@ Physiological research by Gottman found that during stonewalling, heart rates ca
 
 Now that we've identified the pitfalls, let's explore the specific antidotes that can neutralize each horseman. Gottman's research has shown that actively practicing these antidotes can not only prevent relationship breakdown but also strengthen your bond over time.
 
-<h3 id="antidote-criticism">Antidote to Criticism: Gentle Startup</h3>
+### Antidote to criticism: the gentle startup
 
 Instead of criticizing, practice the gentle startup. This involves starting conversations softly, focusing on your feelings and needs rather than your partner's flaws.
 
@@ -233,7 +266,7 @@ Instead of criticizing, practice the gentle startup. This involves starting conv
 
 For more detailed communication strategies, check out our <a href="/enneagram-corner/relationship-communication-guide">Relationship Communication Guide</a> which offers tailored approaches based on different relationship dynamics.
 
-<h3 id="antidote-contempt">Antidote to Contempt: Build a Culture of Appreciation</h3>
+### Antidote to contempt: a 5:1 ratio of appreciation to criticism
 
 The best defense against contempt is to foster a culture of appreciation, respect, and fondness in your relationship. This requires a conscious shift in mindset from focusing on what's wrong to what's right.
 
@@ -247,7 +280,7 @@ The best defense against contempt is to foster a culture of appreciation, respec
 
 4. **Respond to good news actively and constructively** - When your partner shares something positive, respond with interest and enthusiasm rather than dismissing or ignoring it.
 
-<h3 id="antidote-defensiveness">Antidote to Defensiveness: Take Responsibility</h3>
+### Antidote to defensiveness: find the 5% you can own
 
 The antidote to defensiveness is taking responsibility, even if only for part of the problem. This doesn't mean accepting full blame for every issue, but rather acknowledging your role in the dynamic.
 
@@ -261,7 +294,7 @@ The antidote to defensiveness is taking responsibility, even if only for part of
 
 4. **Ask clarifying questions** - Instead of defending, seek to understand better. Example: "Can you help me understand how my actions affected you?"
 
-<h3 id="antidote-stonewalling">Antidote to Stonewalling: Physiological Self-Soothing</h3>
+### Antidote to stonewalling: the 20-minute timeout
 
 The antidote to stonewalling is to practice physiological self-soothing. This involves recognizing when you're becoming overwhelmed and taking a structured break to calm your nervous system.
 
@@ -275,9 +308,9 @@ The antidote to stonewalling is to practice physiological self-soothing. This in
 
 4. **Return to the conversation** - Once you've calmed down, return to the discussion as promised. This builds trust that you're not using timeouts to avoid issues.
 
-<h2 id="the-art-of-fighting-well">How to Fight Well: Techniques for Healthy Conflict</h2>
+## How to fight without breaking the relationship
 
-<h3 id="focus-on-issue">Focus on the Issue, Not the Person</h3>
+### Fight the problem, not each other
 
 The issue is not your partner. The problem is how the situation is being handled and the patterns you are falling into.
 
@@ -285,7 +318,7 @@ You and the person you are fighting with usually have more in common than it fee
 
 Tony Robbins talks about the importance of focusing on <a class="external-link" target="_blank" rel="noopener" href="https://www.tonyrobbins.com/ultimate-relationship-guide/resolve-conflict-save-relationship/">resolving the issue rather than defending yourself</a>. If you walk into conflict trying to win, you'll usually lose connection. If you walk in trying to understand, you'll usually uncover the real ask.
 
-<h3 id="mindfulness-conflict">Using Mindfulness to Transform Conflict</h3>
+### The 2-second pause before you respond
 
 Mindfulness, the practice of maintaining awareness and attention to the present moment without judgment, can significantly improve how couples handle conflict. A 2021 study published in the journal Mindfulness found that partners with higher levels of mindfulness were more likely to use constructive conflict resolution strategies and reported greater relationship satisfaction.
 
@@ -301,7 +334,7 @@ Mindfulness, the practice of maintaining awareness and attention to the present 
 
 Research shows that couples who practice mindfulness during conflicts are better able to separate their partners' actions from their character, making it easier to address issues without resorting to criticism or contempt.
 
-<h3 id="effective-communication">Building Effective Communication Skills</h3>
+### Most fights aren't about the surface topic
 
 Communication is the cornerstone of resolving disagreements. Most fights aren't really about the surface topic. They're about what the topic represents: respect, security, consideration, freedom, or feeling chosen.
 
@@ -322,7 +355,7 @@ Effective communication during conflict requires specific skills that can be lea
 
 For more specific guidance on having difficult conversations, check out our article on <a href="/how-to-guides/5-tough-conversations-you-need-to-have-with-your-partner">5 Tough Conversations You Need to Have With Your Partner</a>.
 
-<h3 id="turn-conflict-into-growth">Turning Conflict Into an Opportunity for Growth</h3>
+### The request hiding inside the complaint
 
 Conflicts are opportunities for you and your partner to align on values and outcomes. They can also reveal the request hiding inside the complaint.
 
@@ -357,11 +390,11 @@ Researchers studying long-term couples have found that those who view conflict a
   />
 </div>
 
-<h2 id="practical-steps">Practical Steps for Conflict Resolution</h2>
+## A 7-step playbook for working through a real fight
 
-The following is a comprehensive checklist of steps to follow before and during conflict resolution. Research shows that couples who take a structured approach to working through disagreements report more satisfactory outcomes and stronger relationships.
+Couples who take a structured approach to disagreements report stronger outcomes than those who wing it. Here's the checklist, from the minute before you open your mouth to the follow-up a week later.
 
-<h3 id="self-examination">Step 1: Self-Examination</h3>
+### Step 1: Check your intent before you open your mouth
 
 Before diving into the conflict, check your intent. Are you trying to connect and solve a problem, or are you trying to prove a point? Your intent shapes your tone, your timing, and what happens next.
 
@@ -375,7 +408,7 @@ Before diving into the conflict, check your intent. Are you trying to connect an
 
 Taking time for honest self-examination can transform a potential argument into a constructive conversation by clarifying your intentions and needs.
 
-<h3 id="timing-matters">Step 2: Choose the Right Time and Setting</h3>
+### Step 2: Don't start a fight when you're hungry, angry, lonely, or tired
 
 The context in which you address conflict significantly impacts the outcome. Research by the Gottman Institute shows that discussions started in a state of heightened emotion are 96% likely to end negatively.
 
@@ -389,7 +422,7 @@ The context in which you address conflict significantly impacts the outcome. Res
 
 4. **Set a time limit** - Agree to discuss the issue for a set period (30-45 minutes is often ideal) to prevent emotional exhaustion.
 
-<h3 id="open-dialogue">Step 3: Open Dialogue</h3>
+### Step 3: Start the conversation without the landmines
 
 Open and honest communication is crucial. Avoid blame games and focus on understanding each other's perspectives. If you're too heated to stay present, take a beat first and come back when you can talk without unloading.
 
@@ -403,7 +436,7 @@ Open and honest communication is crucial. Avoid blame games and focus on underst
 
 4. **For misunderstandings**: "I think we might have different perspectives on [situation]. I'd like to understand your view better."
 
-<h3 id="seek-to-understand">Step 4: Seek to Understand</h3>
+### Step 4: Ask better questions than "why did you do that?"
 
 Put yourself in your partner's shoes. Try to understand their feelings, needs, and viewpoints. If you are completely lost, say that. Be vulnerable and say that you are having a hard time understanding where the other person is coming from.
 
@@ -417,7 +450,7 @@ Research in cognitive empathy shows that couples who make an active effort to un
 
 4. **Explore underlying concerns** - Look beyond the immediate issue to understand deeper needs or fears. Example: "Help me understand what worries you most about this."
 
-<h3 id="find-common-ground">Step 5: Find Common Ground</h3>
+### Step 5: Name the shared goal out loud
 
 Identify shared goals and values. This common ground will serve as the <a class="external-link" target="_blank" rel="noopener" href="https://www.gottman.com/blog/managing-vs-resolving-conflict-relationships/">foundation for resolving the conflict</a>.
 
@@ -431,7 +464,7 @@ Identify shared goals and values. This common ground will serve as the <a class=
 
 4. **Look for partial agreements** - Even if you can't agree on everything, acknowledge the aspects you do agree on as a starting point.
 
-<h3 id="specific-conflict-types">Step 6: Navigate Common Conflict Types</h3>
+### Step 6: Money, chores, in-laws, sex — each fight needs a different approach
 
 Different types of conflicts often require specific approaches. Here are strategies for navigating common sources of relationship disagreement:
 
@@ -459,7 +492,7 @@ Different types of conflicts often require specific approaches. Here are strateg
    - Consider underlying factors like stress, health issues, or past trauma
    - Be willing to compromise and experiment with solutions
 
-<h3 id="implement-solutions">Step 7: Implement and Follow Up</h3>
+### Step 7: Agreement isn't the end — follow-through is
 
 Many couples make the mistake of thinking conflict resolution ends once they've agreed on a solution. Research shows that successful conflict resolution requires implementation and follow-up.
 
@@ -475,7 +508,7 @@ Many couples make the mistake of thinking conflict resolution ends once they've 
 
 5. **Adjust as needed** - Be flexible and willing to modify your approach if the initial solution isn't working.
 
-<h2 id="conclusion">Conclusion: Embracing Conflict for a Stronger Relationship</h2>
+## The couples who last aren't the ones who avoid fights
 
 Conflict is inevitable, but it doesn't have to be destructive. When you spot harmful patterns early and reach for the antidote, fights get shorter and easier to repair. The goal isn't to win an argument. It's to protect the relationship while you solve a real problem.
 
@@ -494,7 +527,7 @@ Ready to dive deeper into advanced conflict resolution strategies? Check out <a 
 
 For additional insights on personal growth that can enhance your conflict resolution skills, our <a href="/how-to-guides/definitive-guide-to-self-efficacy">Definitive Guide to Self-Efficacy</a> offers complementary strategies for building confidence and resilience.
 
-<h3 id="quick-reference">Quick Reference Guide: The Four Horsemen and Their Antidotes</h3>
+### Quick reference: Four Horsemen and their antidotes
 
 | Horseman          | Description                                   | Antidote                            |
 | ----------------- | --------------------------------------------- | ----------------------------------- |
@@ -503,7 +536,7 @@ For additional insights on personal growth that can enhance your conflict resolu
 | **Defensiveness** | Self-protection, deflection of responsibility | Taking responsibility for your part |
 | **Stonewalling**  | Emotional withdrawal, shutting down           | Physiological self-soothing         |
 
-<h3 id="recommended-resources">Recommended Resources</h3>
+### Recommended resources
 
 - **Books:**
   - "The Seven Principles for Making Marriage Work" by John Gottman and Nan Silver

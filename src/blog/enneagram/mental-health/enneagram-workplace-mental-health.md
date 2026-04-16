@@ -1,10 +1,10 @@
 ---
-title: 'Enneagram and Workplace Mental Health: Preventing Burnout by Type'
-description: 'Learn how each Enneagram type experiences workplace stress and burnout. Discover type-specific strategies for maintaining mental health at work.'
+title: "Why You're Burning Out at Work (Your Enneagram Type Reveals the Hidden Cause)"
+description: "Type 1s burn out fixing broken systems nobody cares about. Type 2s burn out as everyone's unpaid therapist. Type 5s burn out in open offices running meetings-about-meetings. Find your type's specific burnout formula — and the workplace conditions that quietly break you."
 author: 'DJ Wayne'
 date: '2025-08-25'
 loc: 'https://9takes.com/enneagram-corner/mental-health/enneagram-workplace-mental-health'
-lastmod: '2026-03-10'
+lastmod: '2026-04-16'
 changefreq: 'monthly'
 priority: '0.8'
 published: true
@@ -47,11 +47,11 @@ QUALITY_FEEDBACK_END -->
 
 <p class="firstLetter">Your personality type is burning out at work in a specific, predictable way. And nobody's talking about it.</p>
 
-Think I'm wrong? Check your [stress symptoms](/enneagram-corner/enneagram-types-in-stress) against your Enneagram type below. I'll bet money they match.
+Check your [stress symptoms](/enneagram-corner/enneagram-types-in-stress) against your Enneagram type below. Odds are they line up better than you'd expect.
 
-Here's the thing: workplace mental health isn't one-size-fits-all. Each type has its own burnout formula, its own recovery recipe, and its own path to thriving. I've watched hundreds of people transform their careers once they understood this. Time to join them.
+A Type 5's burnout and a Type 2's burnout look nothing alike. Generic advice — "set better boundaries," "meditate more" — misses whichever kryptonite actually broke you.
 
-Two common root causes of burnout are (1) being in the wrong role and (2) trying to force a work system that doesn’t match your type. If role fit is the issue, start with [career choices by Enneagram type](/enneagram-corner/enneagram-types-and-career-choices). If it’s execution, use [productivity systems by Enneagram type](/how-to-guides/productivity-systems-by-enneagram-type).
+Most burnout traces to one of two mismatches: wrong role, or wrong work system for your type. If the role is wrong, start with [career choices by Enneagram type](/enneagram-corner/enneagram-types-and-career-choices). If your execution is the issue, use [productivity systems by Enneagram type](/how-to-guides/productivity-systems-by-enneagram-type).
 
 ## The Burnout Blueprint: Your Type's Kryptonite
 
@@ -216,9 +216,11 @@ Tell your boss: "I perform best when my contributions are visible and valued. Le
 
 ### The Performance Paradox
 
-Here's what nobody tells you: Vulnerability gets you promoted faster than perfection. Leaders want humans, not machines.
+You've been told the path is polish: hide the misses, nail every metric, get promoted.
 
-Try this: Share one failure in your next meeting. Watch how people connect with you.
+Here's what actually happens. The person who admits they botched last quarter's launch gets the offer. The one who never shows a crack stays exactly where they are.
+
+Leaders promote humans, not LinkedIn profiles. Try this: share one real failure in your next meeting. Watch who leans in.
 
 **Worth paying attention to**: When coffee replaces meals and achievements feel empty, these can be signs of burnout — or something deeper. Consider talking to someone you trust or a professional.
 
@@ -619,14 +621,14 @@ Their answers tell you their type and their needs.
 
 ## The Bottom Line Truth
 
-Your job should energize you more than it drains you. If it doesn't, you're in the wrong job, wrong role, or wrong company.
+If Sunday night feels like a door slamming shut, your job is taking more than it gives back. Wrong job, wrong role, or wrong company — one of those is broken.
 
-Here's what took me 20 years to learn: You can't overcome your type's kryptonite through willpower. You can only:
+Here's what took me 20 years to learn: You can't willpower your way past your type's kryptonite. You can only:
 
-1. Minimize exposure
-2. Build recovery systems
-3. Find environments that fit
-4. Leave ones that don't
+1. Minimize your exposure (fewer meetings, shorter days, smaller surface area)
+2. Build recovery rituals that actually refill you (real lunch, hard stops, protected sleep)
+3. Find environments where your kryptonite rarely appears
+4. Leave the ones where it's the daily weather
 
 ### The Nuclear Option
 
@@ -688,10 +690,10 @@ Ask three questions: "What drains your energy fastest?", "When do you do your be
           "https://twitter.com/djwayne3"
         ]
       },
-      "dateModified": "2026-03-10",
+      "dateModified": "2026-04-16",
       "datePublished": "2025-08-25",
-      "description": "Learn how each Enneagram type experiences workplace stress and burnout. Discover type-specific strategies for maintaining mental health at work.",
-      "headline": "Enneagram and Workplace Mental Health: Preventing Burnout by Type",
+      "description": "Type 1s burn out fixing broken systems. Type 2s burn out as everyone's unpaid therapist. Type 5s burn out in open offices running meetings-about-meetings. Here's your type's specific burnout formula and the workplace conditions that quietly break you.",
+      "headline": "Why You're Burning Out at Work (Your Enneagram Type Reveals the Hidden Cause)",
       "image": {
         "@type": "ImageObject",
         "height": 900,

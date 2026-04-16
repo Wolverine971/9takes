@@ -1,10 +1,10 @@
 ---
-title: 'The Enneagram and Self-Development: A Guide to Personal Growth'
-description: 'Discover how the Enneagram can transform your self-development journey. Learn to avoid common pitfalls and leverage your type for personal growth and success.'
+title: 'How to Actually Use the Enneagram for Self-Development (Beyond the 10-Minute Test)'
+description: "Most people take the test, feel seen for five minutes, then go back to the same patterns. Here's how to actually use your type for growth — backed by a 2018 study showing structured Enneagram work measurably advances ego development."
 author: 'DJ Wayne'
 date: '2024-09-14'
 loc: 'https://9takes.com/how-to-guides/using-the-enneagram-for-self-development'
-lastmod: '2025-07-21'
+lastmod: '2026-04-16'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
@@ -27,8 +27,8 @@ get more niche-->
 {
   "@context": "https://schema.org",
   "@type": "HowTo",
-  "name": "The Enneagram and Self-Development: A Guide to Personal Growth",
-  "description": "Discover how the Enneagram can transform your self-development journey. Learn to avoid common pitfalls and leverage your type for personal growth and success.",
+  "name": "How to Actually Use the Enneagram for Self-Development (Beyond the 10-Minute Test)",
+  "description": "Most people take the Enneagram test, feel seen for five minutes, then go back to the same patterns. Here's how to actually use your type for growth — backed by a 2018 study showing structured Enneagram work measurably advances ego development.",
   "author": {
     "@type": "Person",
     "name": "DJ Wayne",
@@ -52,7 +52,7 @@ get more niche-->
     ]
   },
   "datePublished": "2024-09-14",
-  "dateModified": "2025-07-21",
+  "dateModified": "2026-04-16",
   "url": "https://9takes.com/how-to-guides/using-the-enneagram-for-self-development",
   "image": {
     "@type": "ImageObject",
@@ -77,13 +77,11 @@ get more niche-->
 
 </svelte:head>
 
-<p class="firstLetter">Ever felt like you're running on a hamster wheel of the same patterns and behaviors, no matter how hard you try to change? You've spotted the right problem.</p>
+<p class="firstLetter">Same fight. Same avoidance. Same burnout cycle, fifth time this year. You're running on a wheel and you can feel it.</p>
 
-The Enneagram might just be your ticket off that wheel. It doesn't just label you and call it a day — it shows you why you keep ending up in the same argument, the same avoidance pattern, the same burnout cycle.
+The Enneagram is your ticket off — but only if you use it right. Most people don't. They take the 10-minute test, feel seen for five minutes, and walk back into the same patterns by Tuesday.
 
-But here's what I learned the hard way: most people get it wrong, reducing it to just another personality quiz. They take the 10-minute test, feel seen for five minutes, then go back to the same patterns.
-
-Most people stop at "I'm a Type 4, so I'm creative and moody." Here's how to go further.
+This guide is for the people who want the second thing: the part where the type stops being a label and becomes a tool. "I'm a Type 4, so I'm creative and moody" is where most readers stop. Below is what comes after.
 
 <div class="table-of-contents">
   <h3>In This Article:</h3>

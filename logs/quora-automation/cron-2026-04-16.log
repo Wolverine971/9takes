@@ -1,0 +1,31 @@
+---
+
+Quora warmup complete for April 16, 2026.
+
+**Searches run:** 18
+**Questions evaluated:** 9
+**Questions queued:** 5
+**Questions skipped:** 7 (with reasons)
+
+---
+
+**Priority queue:**
+
+1. **"Why do some people hate confrontation while others look for it?"** — Est. 25K views, Est. 40-70 answers — Angle: Types 9 (avoids, goes numb), 8 (charges in, tests reality), 1 (principled escalation) — Blog: relationship-conflict-part-1
+
+2. **"Why do some people feel the need to control everything?"** — Est. 40K views, Est. 50-100 answers — Angle: Types 6 (anxiety/threat management), 1 (quality control), 8 (dominance as safety) — Blog: enneagram-type-6
+
+3. **"What is the psychology behind people pleasing, and why do so many of us do it?"** — Est. 30K views, Est. 30-80 answers — Angle: Types 2 (needs to be needed), 9 (conflict avoidance in disguise) — Blog: enneagram-type-2
+
+4. **"What is the psychology behind FOMO? Why is it so powerful?"** — Est. 20K views, Est. 20-50 answers — Angle: Types 7 (core fear = deprivation), 3 (status FOMO), 6 (uncertainty FOMO) — Blog: enneagram-type-7
+
+5. **"Why do some people struggle with talking about their feelings?"** — Est. 10K views, Est. 15-35 answers — Angle: Types 5 (needs to analyze first), 8 (feelings = vulnerability), 1 (inner critic shame) — Blog: enneagram-type-5 ⚠️ *Verify answer count before drafting*
+
+---
+
+**Type coverage this session:** 2, 5, 7 all have first direct representation — the main gaps are now filled. Types 8 and 9 deepened.
+
+**One flag:** Quora blocked direct page fetches (403) this session, so answer counts are estimates based on search signal density. Verify #4 and #5 answer counts directly on Quora before starting `/quora-answer`.
+
+**Session doc:** `docs/quora/sessions/2026-04-16_quora-warmup.md`
+**Next step:** `/quora-answer docs/quora/sessions/2026-04-16_quora-warmup.md`

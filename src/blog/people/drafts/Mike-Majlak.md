@@ -4,12 +4,12 @@ meta_title: "Why Mike Majlak Can't Stop Running (And What Changed)"
 persona_title: "Recovery's Restless Evangelist"
 description: 'Mike Majlak spent a decade running from pain through every substance. The Enneagram reveals the wiring behind his addiction and reinvention.'
 author: 'DJ Wayne'
-date: '2026-04-10'
+date: '2026-04-16'
 loc: 'https://9takes.com/personality-analysis/Mike-Majlak'
-lastmod: '2026-04-10'
+lastmod: '2026-04-16'
 changefreq: 'monthly'
 priority: '0.6'
-published: false
+published: true
 enneagram: 7
 type: ['creator', 'influencer']
 person: 'Mike-Majlak'

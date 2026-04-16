@@ -1,10 +1,10 @@
 ---
-title: 'Enneagram Team Dynamics: The Complete Guide to High-Performance Teams'
-description: 'Master team dynamics with Enneagram insights. Discover how different type combinations work together, resolve conflicts, and create unstoppable workplace synergy.'
+title: 'Enneagram Team Dynamics: Which Type Combinations Click (and Which Implode)'
+description: 'Some Enneagram pairs amplify each other. Others quietly destroy projects. Here are the high-synergy combinations to build teams around — and the volatile pairings that need conscious management before they blow up.'
 author: 'DJ Wayne'
 date: '2023-04-01'
 loc: 'https://9takes.com/enneagram-corner/enneagram-team-dynamics'
-lastmod: '2025-12-09'
+lastmod: '2026-04-16'
 changefreq: 'monthly'
 priority: '0.8'
 published: true
@@ -43,11 +43,11 @@ here the project is endlessly debated. Good for legislation or
 
 <p class="firstLetter">Your team's biggest problems aren't technical. They're personal.</p>
 
-**That project that's three weeks behind? The meeting where nobody speaks up? The brilliant idea that died in committee? The root cause isn't incompetence—it's personality dynamics you don't understand.**
+That project three weeks behind? The meeting where nobody speaks up? The brilliant idea that died in committee? Look closer at who's in the room, not what's being said. The root cause is almost always two personality types running incompatible programs without realizing it.
 
-After analyzing team performance across thousands of Enneagram combinations, we've mapped exactly how different personality types work together, clash, and create magic. Some combinations naturally amplify each other's strengths. Others create productive tension that sparks innovation. And some... well, some combinations require conscious management to avoid catastrophic failure.
+This guide maps the 81 possible Enneagram type pairings into three buckets: the high-synergy combinations that quietly carry teams, the productive tension pairings that spark innovation when managed, and the volatile combinations that need explicit guardrails before they detonate a project.
 
-**This isn't about changing anyone's personality. It's about leveraging the personalities you have to build something extraordinary.**
+You can't change who's on your team. You can change how they're paired and what each of them is expected to do.
 
 ## How Do Different Enneagram Types Function in Teams?
 
@@ -295,10 +295,10 @@ Want to dive deeper into how specific types work together? Check out our compreh
         "sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"
         ]
       },
-      "dateModified": "2025-12-09",
+      "dateModified": "2026-04-16",
       "datePublished": "2023-04-01",
-      "description": "Master team dynamics with Enneagram insights. Discover how different type combinations work together, resolve conflicts, and create unstoppable workplace synergy.",
-      "headline": "Enneagram Team Dynamics: The Complete Guide to High-Performance Teams",
+      "description": "Some Enneagram pairs amplify each other. Others quietly destroy projects. Here are the high-synergy combinations and the volatile pairings that need conscious management.",
+      "headline": "Enneagram Team Dynamics: Which Type Combinations Click (and Which Implode)",
       "keywords": ["Enneagram team dynamics", "workplace personality types", "team collaboration strategies", "workplace productivity", "team communication", "leadership development", "team effectiveness", "organizational behavior", "team building", "conflict resolution"],
       "wordCount": 1400,
       "articleSection": "Enneagram",

@@ -1,6 +1,6 @@
 ---
-title: "Enneagram Personal Growth: Unlock Your Type's Hidden Potential"
-description: "Decode your Enneagram type's growth path with tactical strategies. Transform weaknesses into strengths using personality-maxing techniques that actually work."
+title: "Enneagram Personal Growth: Why Type 3s Can't Grow Like Type 9s"
+description: "Self-help advice fails because it ignores type. Type 3s need to slow down. Type 9s need to act. Type 8s need vulnerability. Here's the specific growth formula — plus environmental hacks and regression red flags — for each Enneagram."
 author: 'DJ Wayne'
 date: '2023-03-10'
 loc: 'https://9takes.com/enneagram-corner/enneagram-personal-growth'
@@ -423,8 +423,8 @@ Growth requires moving against your type's survival strategy. Type 6s trusting w
       },
       "dateModified": "2025-07-18",
       "datePublished": "2023-03-10",
-      "description": "Decode your Enneagram type's growth path with tactical strategies. Transform weaknesses into strengths using personality-maxing techniques that actually work.",
-      "headline": "Enneagram Personal Growth: Unlock Your Type's Hidden Potential",
+      "description": "Self-help advice fails because it ignores type. Type 3s need to slow down. Type 9s need to act. Type 8s need vulnerability. Here's the specific growth formula for each Enneagram.",
+      "headline": "Enneagram Personal Growth: Why Type 3s Can't Grow Like Type 9s",
       "keywords": ["Enneagram personal growth", "personality development", "type-specific growth", "Enneagram transformation", "personality maxing", "growth strategies", "self-improvement", "Enneagram types", "personal development", "growth formula"],
       "wordCount": 3200,
       "articleSection": "Enneagram",

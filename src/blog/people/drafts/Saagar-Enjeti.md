@@ -13,7 +13,7 @@ published: false
 enneagram: 7
 type: ['journalist', 'creator']
 person: 'Saagar-Enjeti'
-suggestions: ['Krystal-Ball', 'Tucker-Carlson', 'Joe-Rogan', 'Lex-Fridman']
+suggestions: ['Krystal-Ball', 'Ryan-Grim', 'Tucker-Carlson', 'Joe-Rogan']
 wikipedia: 'https://en.wikipedia.org/wiki/Saagar_Enjeti'
 twitter: 'https://twitter.com/esaagar'
 instagram: 'https://www.instagram.com/esaagar'

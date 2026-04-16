@@ -13,7 +13,7 @@ published: false
 enneagram: 3
 type: ['influencer', 'creator']
 person: 'Lana-Rhoades'
-suggestions: ['Paris-Hilton', 'Kim-Kardashian', 'Addison-Rae', 'Logan-Paul']
+suggestions: ['Mike-Majlak', 'Sky-Bri', 'Addison-Rae', 'Logan-Paul']
 wikipedia: 'https://en.wikipedia.org/wiki/Lana_Rhoades'
 twitter: ''
 instagram: 'https://instagram.com/lanarhoades'

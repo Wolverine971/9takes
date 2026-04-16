@@ -1,10 +1,10 @@
 ---
-title: 'Enneagram Types and Trauma Response: Understanding Your Survival Patterns'
-description: 'How each Enneagram type tends to process trauma through fight, flight, freeze, and fawn responses — and what healing approaches may resonate with your patterns.'
+title: 'How Each Enneagram Type Survives Trauma: Fight, Flight, Freeze, or Fawn'
+description: 'Type 8s fight. Type 7s flee. Type 9s freeze. Type 2s fawn. Your personality often formed around the wound — here is how each Enneagram type tends to survive trauma, where it lives in the body, and the healing approaches that fit your pattern.'
 author: 'DJ Wayne'
 date: '2025-09-09'
 loc: 'https://9takes.com/enneagram-corner/mental-health/enneagram-trauma-response-guide'
-lastmod: '2026-03-10'
+lastmod: '2026-04-16'
 changefreq: 'monthly'
 priority: '0.8'
 published: true
@@ -49,11 +49,11 @@ NOTES:
   <p><strong>Important:</strong> This article explores how personality patterns may relate to trauma responses. It is not a clinical assessment or diagnosis. Trauma is complex and requires professional support. If you're in crisis, call <strong>988 (Suicide & Crisis Lifeline)</strong> or text HOME to 741741 (Crisis Text Line).</p>
 </div>
 
-<p class="firstLetter">Your trauma response isn't random. It often follows patterns that align closely with your personality type. And understanding those patterns can be a powerful step toward healing.</p>
+<p class="firstLetter">Your trauma response isn't random. It tends to match your Enneagram type move by move — and naming the pattern is the first honest step toward healing.</p>
 
-Every type developed specific survival strategies [in childhood](/enneagram-corner/enneagram-childhood-stereotypes). Type 8s learned to attack first. Type 9s learned to disappear. Type 3s learned to outrun their pain through achievement.
+Every type developed specific survival strategies [in childhood](/enneagram-corner/enneagram-childhood-stereotypes). Type 8s learned to attack first. Type 9s learned to disappear. Type 3s learned to outrun pain through achievement. Type 2s learned to be so useful nobody could afford to leave.
 
-These patterns saved you then. They're sabotaging you now.
+Those strategies saved you then. They are often running — unedited — twenty, thirty, forty years later. The first step isn't healing. It's recognizing which one is yours.
 
 ## Complex Trauma: Why Your Type Matters
 
@@ -64,7 +64,7 @@ Most Enneagram patterns don't form from one bad day. They form from **complex tr
 - **PTSD:** Single incident trauma (car accident, assault, natural disaster). Clear before/after.
 - **C-PTSD:** Death by a thousand cuts. Ongoing neglect, emotional abuse, chaotic homes, parentification. No single event to point to, just years of survival mode.
 
-Some researchers and therapists observe strong parallels between Enneagram patterns and C-PTSD adaptations — the idea that your personality style may partly reflect how you learned to survive environments where your needs weren't fully met.
+Some researchers and therapists see strong parallels between Enneagram patterns and C-PTSD adaptations: your personality style may partly reflect how you learned to survive an environment where your needs weren't fully met.
 
 **The three additional symptoms of C-PTSD:**
 
@@ -577,10 +577,10 @@ Your Enneagram type shows you exactly how you survived and exactly how to heal. 
 
 **What many trauma survivors find:**
 
-- Healing often happens in relationship
-- The body holds more than we realize
-- Thinking alone rarely resolves what the body carries
-- Professional support makes a meaningful difference
+- Trauma psychiatrist Bessel van der Kolk puts it bluntly: "we are hurt in relationship and we heal in relationship." The wound and the repair tend to share a setting.
+- The body keeps score your mind stopped tracking — the central argument of van der Kolk's book of the same name.
+- Journaling can ease everyday stress, but Pennebaker's own expressive-writing research advises waiting weeks or months after a major trauma, and meta-analyses show weaker effects for active severe PTSD. Bottom-up somatic work often has to come first.
+- An outside, trauma-trained clinician often sees the pattern you can't see from inside it.
 
 ### When Self-Help Isn't Enough
 
@@ -613,8 +613,8 @@ For the full arsenal: [Trauma-informed therapy](/enneagram-corner/mental-health/
   "@graph": [
     {
       "@type": "Article",
-      "headline": "Enneagram Types and Trauma Response: Understanding Your Survival Patterns",
-      "description": "Explore how each Enneagram type processes trauma differently through fight, flight, freeze, and fawn responses. Discover healing pathways tailored to your personality type.",
+      "headline": "How Each Enneagram Type Survives Trauma: Fight, Flight, Freeze, or Fawn",
+      "description": "Type 8s fight. Type 7s flee. Type 9s freeze. Type 2s fawn. Your personality often formed around the wound — here is how each Enneagram type tends to survive trauma, where it lives in the body, and the healing approaches that fit your pattern.",
       "articleBody": "Comprehensive guide exploring how each Enneagram type processes trauma through fight, flight, freeze, and fawn responses. Covers PTSD vs C-PTSD distinctions, childhood wounds that shape each type, polyvagal theory and nervous system states, trauma manifestations in relationships, and evidence-based healing pathways including EMDR, somatic therapy, IFS, and DBT specific to each personality type.",
       "author": {
         "@type": "Person",
@@ -627,7 +627,7 @@ For the full arsenal: [Trauma-informed therapy](/enneagram-corner/mental-health/
         ]
       },
       "datePublished": "2025-09-09",
-      "dateModified": "2026-03-10",
+      "dateModified": "2026-04-16",
       "image": {
         "@type": "ImageObject",
         "url": "https://9takes.com/blogs/enneagram-trauma-response.webp",
@@ -685,6 +685,25 @@ For the full arsenal: [Trauma-informed therapy](/enneagram-corner/mental-health/
           "@type": "Thing",
           "name": "Dialectical Behavior Therapy",
           "sameAs": "https://en.wikipedia.org/wiki/Dialectical_behavior_therapy"
+        },
+        {
+          "@type": "Person",
+          "name": "Bessel van der Kolk",
+          "sameAs": "https://en.wikipedia.org/wiki/Bessel_van_der_Kolk"
+        },
+        {
+          "@type": "Book",
+          "name": "The Body Keeps the Score",
+          "author": {
+            "@type": "Person",
+            "name": "Bessel van der Kolk"
+          },
+          "sameAs": "https://en.wikipedia.org/wiki/The_Body_Keeps_the_Score"
+        },
+        {
+          "@type": "Person",
+          "name": "James W. Pennebaker",
+          "sameAs": "https://en.wikipedia.org/wiki/James_W._Pennebaker"
         }
       ],
       "audience": {

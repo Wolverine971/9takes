@@ -4,7 +4,7 @@ description: 'SSRIs, gambling addiction, and collective IQ decline are quietly r
 author: 'DJ Wayne'
 date: '2026-02-20'
 loc: 'https://9takes.com/community/societal-ticking-time-bombs'
-lastmod: '2026-03-18'
+lastmod: '2026-04-16'
 changefreq: 'monthly'
 priority: '0.7'
 published: true
@@ -60,7 +60,7 @@ Show that SSRIs, gambling, and cognitive overload are not separate stories; they
         ]
       },
       "datePublished": "2026-02-20",
-      "dateModified": "2026-02-20",
+      "dateModified": "2026-04-16",
       "url": "https://9takes.com/community/societal-ticking-time-bombs",
       "articleSection": "Community",
       "inLanguage": "en-US",
@@ -73,7 +73,121 @@ Show that SSRIs, gambling, and cognitive overload are not separate stories; they
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://9takes.com/community/societal-ticking-time-bombs"
-      }
+      },
+      "citation": [
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Incidence of antidepressant discontinuation symptoms: a systematic review and meta-analysis",
+          "author": "Henssler, J. et al.",
+          "datePublished": "2024",
+          "publisher": { "@type": "Organization", "name": "The Lancet Psychiatry" },
+          "url": "https://www.thelancet.com/journals/lanpsy/article/PIIS2215-0366(24)00133-0/fulltext"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Maintenance or Discontinuation of Antidepressants in Primary Care",
+          "author": "Lewis, G. et al.",
+          "datePublished": "2021",
+          "publisher": { "@type": "Organization", "name": "New England Journal of Medicine" },
+          "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa2106356"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "The serotonin theory of depression: a systematic umbrella review of the evidence",
+          "author": "Moncrieff, J. et al.",
+          "datePublished": "2022",
+          "publisher": { "@type": "Organization", "name": "Molecular Psychiatry" },
+          "url": "https://www.nature.com/articles/s41380-022-01661-0"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Initial severity and antidepressant benefits: a meta-analysis of data submitted to the FDA",
+          "author": "Kirsch, I. et al.",
+          "datePublished": "2008",
+          "publisher": { "@type": "Organization", "name": "PLoS Medicine" },
+          "url": "https://journals.plos.org/plosmedicine/article?id=10.1371/journal.pmed.0050045"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Cognitive Behavior Therapy vs Control Conditions, Other Psychotherapies, Pharmacotherapies and Combined Treatment for Depression: A Comprehensive Meta-Analysis Including 409 Trials",
+          "author": "Cuijpers, P. et al.",
+          "datePublished": "2023",
+          "publisher": { "@type": "Organization", "name": "World Psychiatry" },
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9840507/"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Cognitive therapy vs medications in the treatment of moderate to severe depression",
+          "author": "DeRubeis, R. et al.",
+          "datePublished": "2005",
+          "publisher": { "@type": "Organization", "name": "Archives of General Psychiatry" },
+          "url": "https://pubmed.ncbi.nlm.nih.gov/15809408/"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Flynn effect and its reversal are both environmentally caused",
+          "author": "Bratsberg, B. & Rogeberg, O.",
+          "datePublished": "2018",
+          "publisher": { "@type": "Organization", "name": "PNAS" },
+          "url": "https://www.pnas.org/doi/10.1073/pnas.1718793115"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Stress signalling pathways that impair prefrontal cortex structure and function",
+          "author": "Arnsten, A.",
+          "datePublished": "2009",
+          "publisher": { "@type": "Organization", "name": "Nature Reviews Neuroscience" },
+          "url": "https://www.nature.com/articles/nrn2648"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Putting feelings into words: affect labeling disrupts amygdala activity in response to affective stimuli",
+          "author": "Lieberman, M. et al.",
+          "datePublished": "2007",
+          "publisher": { "@type": "Organization", "name": "Psychological Science" },
+          "url": "https://pubmed.ncbi.nlm.nih.gov/17576282/"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Perfectionism is increasing over time: A meta-analysis of birth cohort differences from 1989 to 2016",
+          "author": "Curran, T. & Hill, A.",
+          "datePublished": "2019",
+          "publisher": { "@type": "Organization", "name": "Psychological Bulletin" },
+          "url": "https://www.apa.org/pubs/journals/releases/bul-bul0000138.pdf"
+        },
+        {
+          "@type": "Report",
+          "name": "Our Epidemic of Loneliness and Isolation",
+          "author": "U.S. Surgeon General",
+          "datePublished": "2023",
+          "publisher": { "@type": "Organization", "name": "U.S. Department of Health and Human Services" },
+          "url": "https://www.hhs.gov/sites/default/files/surgeon-general-social-connection-advisory.pdf"
+        },
+        {
+          "@type": "Report",
+          "name": "The State of American Men 2025",
+          "author": "Equimundo",
+          "datePublished": "2025",
+          "publisher": { "@type": "Organization", "name": "Equimundo" },
+          "url": "https://www.equimundo.org/resources/state-of-american-men-2025/"
+        },
+        {
+          "@type": "Report",
+          "name": "Antidepressant Use Among Adults: United States, 2023",
+          "author": "Centers for Disease Control and Prevention",
+          "datePublished": "2024",
+          "publisher": { "@type": "Organization", "name": "CDC National Center for Health Statistics" },
+          "url": "https://www.cdc.gov/nchs/products/databriefs/db528.htm"
+        },
+        {
+          "@type": "Book",
+          "name": "Anatomy of an Epidemic: Magic Bullets, Psychiatric Drugs, and the Astonishing Rise of Mental Illness in America",
+          "author": "Whitaker, R.",
+          "datePublished": "2010",
+          "publisher": { "@type": "Organization", "name": "Crown" },
+          "url": "https://power2u.org/wp-content/uploads/2017/01/AnatomyofanEpidemic-SummaryofFindings-Whitaker.pdf"
+        }
+      ]
     },
     {
       "@type": "FAQPage",
@@ -140,7 +254,7 @@ I've heard about people who go on antidepressants and slowly turn into zombies. 
 
 And then when they try to come off the meds, all the feelings they've been suppressing for months or years come crashing in like a freight train. Their world gets obliterated. They fluctuate between feeling nothing and having full-blown mental health crises where they're thinking about taking their own life. The thing that was supposed to help them has turned into a trap they can't escape.
 
-This isn't rare -- though exactly how common is hotly debated. Older studies reported withdrawal in [over half of patients](https://jamanetwork.com/journals/jamapsychiatry/article-abstract/2836262), while a [2025 BMJ meta-analysis](https://www.bmj.com/content/390/bmj.r1432) put the rate at ~15% with symptoms directly attributable to stopping, and ~3% severe. The gap depends on how you define and measure withdrawal. But even the conservative numbers mean hundreds of thousands of people are experiencing brain zaps, insomnia, anxiety _worse_ than what they started with, depersonalization, and suicidal ideation. Worse -- doctors can mistake this withdrawal for a _relapse_, which puts patients right back on the medication. It becomes a cycle you can't break.
+This isn't rare -- though exactly how common is hotly debated. Estimates range widely depending on how you define and measure withdrawal. The most rigorous recent work -- a [2024 Lancet Psychiatry meta-analysis](https://www.thelancet.com/journals/lanpsy/article/PIIS2215-0366%2824%2900133-0/fulltext) -- put the rate at roughly 15% of patients having symptoms directly attributable to stopping, with about 3% experiencing severe symptoms. Earlier survey work reported [much higher rates in some patient groups](https://jamanetwork.com/journals/jamapsychiatry/article-abstract/2836262). But even the conservative numbers mean hundreds of thousands of people are experiencing brain zaps, insomnia, anxiety _worse_ than what they started with, depersonalization, and suicidal ideation. Worse -- doctors can mistake this withdrawal for a _relapse_, which puts patients right back on the medication. It becomes a cycle you can't break.
 
 What does a "brain zap" actually feel like?
 
@@ -189,8 +303,8 @@ Follow the money.
 
 But it's not just direct bribery. The entire system is structurally broken:
 
-- **The 15-minute assembly line**: A psychiatrist earns $150 for three 15-minute "med checks" versus $90 for a single 45-minute therapy session. The math pushes them toward pills. Between 1996 and 2016, [psychiatrists providing psychotherapy dropped from 44% to 22%](https://www.columbiapsychiatry.org/news/psychiatrists-providing-talk-therapy-declined-half-1990s) of visits. Today, **53% of psychiatrists provide zero therapy** to any of their patients.
-- **Primary care docs doing psychiatry**: 79% of antidepressants aren't even prescribed by psychiatrists -- they're written by [primary care doctors in 10-15 minute visits](https://pmc.ncbi.nlm.nih.gov/articles/PMC3670434/) with no therapy component. And [72.7% of those prescriptions](https://www.healthaffairs.org/doi/10.1377/hlthaff.2010.1024) are written without a psychiatric diagnosis even being noted.
+- **The 15-minute assembly line**: A psychiatrist earns $150 for three 15-minute "med checks" versus $90 for a single 45-minute therapy session. The math pushes them toward pills. Between 1996 and 2016, [the share of psychiatry visits including psychotherapy was cut roughly in half](https://www.columbiapsychiatry.org/news/psychiatrists-providing-talk-therapy-declined-half-1990s), dropping to about 22%. Today, **53% of psychiatrists provide zero therapy** to any of their patients.
+- **Primary care docs doing psychiatry**: 79% of antidepressants aren't even prescribed by psychiatrists -- they're written by [primary care doctors](https://pmc.ncbi.nlm.nih.gov/articles/PMC3670434/), typically in short visits with no therapy component. And [72.7% of those prescriptions](https://www.healthaffairs.org/doi/10.1377/hlthaff.2010.1024) are written without a psychiatric diagnosis even being noted.
 - **The DSM keeps expanding**: The diagnostic manual went from 106 conditions in 1952 to 297 by 1994. More conditions = more prescriptions. And [69% of DSM-5 task force members](https://pmc.ncbi.nlm.nih.gov/articles/PMC3302834/) had financial ties to pharmaceutical companies. The people deciding what counts as a mental illness are funded by the people selling the treatment.
 - **The revolving door**: [9 out of 10 recent FDA commissioners](https://qz.com/1656529/yet-another-fda-commissioner-joins-the-pharmaceutical-industry) went on to work for pharmaceutical companies after leaving the agency. The regulator becomes the regulated.
 - **Outright fraud**: GlaxoSmithKline paid a [$3 billion fraud settlement](https://study329.org/) (Study 329) after they literally ghostwrote a study claiming Paxil was safe for kids when it wasn't -- and the journal _still_ hasn't retracted the paper.
@@ -240,7 +354,7 @@ And [exercise alone matches SSRIs](https://pmc.ncbi.nlm.nih.gov/articles/PMC2702
 
 The system isn't designed to heal people. It's designed to create customers.
 
-And the results speak for themselves. Robert Whitaker documented in ["Anatomy of an Epidemic"](https://www.madinamerica.com/) that as psychiatric medication use exploded, disability rates for mental illness didn't go down -- they went UP. From 1 in 468 Americans on disability for mental illness in 1955 to 1 in 76 today. More meds, more sickness. Something is deeply, fundamentally wrong.
+And the results speak for themselves. Robert Whitaker documented in [_Anatomy of an Epidemic_](https://power2u.org/wp-content/uploads/2017/01/AnatomyofanEpidemic-SummaryofFindings-Whitaker.pdf) that as psychiatric medication use exploded, disability rates for mental illness didn't go down -- they went UP. From 1 in 468 Americans on disability for mental illness in 1955 to 1 in 76 today. More meds, more sickness. Something is deeply, fundamentally wrong.
 
 The deeper problem is that people don't understand their emotions. They experience sadness or anxiety and immediately pathologize it. _"Something must be wrong with me."_ But negative emotions are **signals** -- they're telling you something needs attention. And when a person shows up to a psychiatrist with a pile of unprocessed emotions and no language for what they're feeling, the psychiatrist -- who earns more from a 15-minute med check than an hour of therapy -- writes a prescription that _numbs those emotions instead_.
 
@@ -254,9 +368,9 @@ This one hits different because it targets a specific demographic and it exploit
 
 In 2018, the Supreme Court struck down the federal ban on sports betting. Before that, Americans legally wagered less than $5 billion a year on sports. In 2025? An estimated [$157 billion](https://www.sportsbookreview.com/news/us-betting-revenue-tracker/), with some projections even higher. That's a 3,000% increase in seven years. 90% of bets are placed on phones. The casino is in your pocket.
 
-Saagar Enjeti from Breaking Points has been on his soapbox about this and I agree with him completely. He calls it a ["predatory industry"](https://www.aaronrenn.com/p/sports-gambling-apps-saagar-enjeti) and compares it to the opioid crisis. And he makes a point that should make everyone's blood boil: **cigarette companies are not allowed to partner with sports leagues, but gambling platforms are.**
+Saagar Enjeti from Breaking Points has been on his soapbox about this and I agree with him completely. He's described it on the show as a [predatory industry](https://www.aaronrenn.com/p/sports-gambling-apps-saagar-enjeti) and compared it to the opioid crisis. And he makes a point that should make everyone's blood boil: **cigarette companies are not allowed to partner with sports leagues, but gambling platforms are.**
 
-ESPN launched ESPN Bet. Barstool Sports exists basically as a gambling funnel. CNN partnered with prediction markets. Every sports broadcast integrates betting odds. A [Ringer staffer](https://www.niemanlab.org/2026/02/) admitted it's "actively bankrupting some people on a regular basis" while acknowledging that gambling money "pays all our paychecks."
+ESPN launched ESPN Bet. Barstool Sports exists basically as a gambling funnel. CNN partnered with prediction markets. Every sports broadcast integrates betting odds. A [Ringer staffer told Nieman Lab](https://www.niemanlab.org/2026/02/sports-betting-reshaped-newsrooms-and-its-a-little-gross-now-here-come-the-prediction-markets/) it's "actively bankrupting some people on a regular basis" while acknowledging that gambling money "pays all our paychecks."
 
 What I can't stop thinking about is _why_ this targets young men specifically.
 
@@ -266,13 +380,13 @@ Sports betting is different from slots or roulette. It has a **skill narrative**
 
 Psychologists call this the ["illusion of control"](https://pmc.ncbi.nlm.nih.gov/articles/PMC9292938/) -- and the research shows that **knowledge actually amplifies the illusion rather than protecting against it.** The more you know about sports, the more confident you become in your bets, even though the house edge hasn't changed at all.
 
-For young men specifically, this hooks into something deep. [Research shows](https://pmc.ncbi.nlm.nih.gov/articles/PMC9059698/) that sports betting is tied to masculinity, identity, and proving yourself. It's a way to demonstrate knowledge, analytical skill, and risk tolerance -- all things that our culture tells men they should have. The betting slip becomes, as [one analysis put it](https://boomers-daily.com/2025/07/17/the-sports-betting-myth-and-modern-masculinity/), **"a proxy for achievement when traditional pathways feel blocked."**
+For young men specifically, this hooks into something deep. [Research on young male sports bettors](https://pmc.ncbi.nlm.nih.gov/articles/PMC9059698/) finds that betting is bound up with masculinity, identity, and proving yourself. It's a way to demonstrate knowledge, analytical skill, and risk tolerance -- all things that our culture tells men they should have. The betting slip becomes a **proxy for achievement when traditional pathways feel blocked.**
 
 #### When Traditional Pathways Feel Blocked
 
 And those pathways are blocked for a lot of young men right now. The [Equimundo 2025 report](https://www.equimundo.org/resources/state-of-american-men-2025/) found that 86% of men define manhood by being a "provider," but three-quarters say it's harder for their generation to feel financially secure than their father's. Over half say home ownership is out of reach. **69% of Gen Z males agree that "no one cares if men are okay."**
 
-Into this void steps sports betting. It offers what these men are starving for: a sense of agency, mastery, competition, and belonging. Discord servers with [21,000+ members](https://www.globaldecker.com/digital-gathering-how-online-gambling-communities-thrive-on-reddit-and-discord/) discussing picks. Group chats where not betting means being excluded from the conversation. Influencers who promise not financial success but what researchers call **"masculine resurrection."**
+Into this void steps sports betting. It offers what these men are starving for: a sense of agency, mastery, competition, and belonging. Discord servers with thousands of members discussing picks. Group chats where not betting means being excluded from the conversation. Influencers who promise not financial success but what researchers call **"masculine resurrection."**
 
 The game is rigged and everyone loses -- but the _feeling_ of playing satisfies a need that nothing else in their lives is filling.
 
@@ -288,19 +402,19 @@ Shame, anger, fear -- running on a loop, and every one of them exploited by an i
 
 ### The Numbers Are Brutal
 
-- [**10% of men aged 18-30**](https://www.statnews.com/2025/11/11/sports-betting-apps-public-health-crisis/) meet criteria for gambling addiction
+- [**10% of men aged 18-30**](https://www.fdu.edu/news/fdu-poll-finds-online-betting-leads-to-problems-for-young-men/) meet criteria for gambling addiction (with [STAT News](https://www.statnews.com/2025/11/11/sports-betting-apps-public-health-crisis/) calling it a public health crisis)
 - [**45% of men under 30**](https://www.fdu.edu/news/fdu-poll-finds-online-betting-leads-to-problems-for-young-men/) reported at least one gambling problem behavior
 - [**1 in 4 sports bettors**](https://www.usnews.com/banking/articles/2025-sports-betting-and-debt-survey) have missed bill payments to gamble
 - Survey data suggests [**96% of sports bettors lose money**](https://www.usnews.com/banking/articles/2025-sports-betting-and-debt-survey)
-- Problem gamblers have [**among the highest suicide rates of any addiction disorder**](https://pmc.ncbi.nlm.nih.gov/articles/PMC9645554/)
+- Problem gamblers have [**dramatically elevated suicide mortality**](https://pmc.ncbi.nlm.nih.gov/articles/PMC9645554/) -- one Swedish cohort found rates roughly 15 times higher than the general population
 
-The wealth transfer is staggering. The [top 10% of gamblers generate 80% of industry revenues](https://recursiveadaptation.com/p/whales-are-the-soft-underbelly-of). **3% of users generate nearly 50% of sportsbook revenue.** The business model literally depends on the addicts. Winners get throttled and limited. Losers get VIP treatment, phone calls, free bets, and personal attention designed to keep them losing.
+The wealth transfer is staggering. The [top 10% of gamblers generate 80% of industry revenues](https://recursiveadaptation.com/p/whales-are-the-soft-underbelly-of). **The top 1% alone account for over a third.** The business model literally depends on the addicts. Winners get throttled and limited. Losers get VIP treatment, phone calls, free bets, and personal attention designed to keep them losing.
 
-In states that legalized online gambling, [personal bankruptcy rose 25-30%](https://anderson-review.ucla.edu/). DraftKings spent [$1.2 billion on marketing](https://www.thelines.com/fanduel-draftkings-betmgm-caesars-espnbet-fanatics-market-share-2024/) in 2024 alone. The elite profit. Regular people lose. Young men lose the most.
+In states that legalized online gambling, [personal bankruptcy rose 25-30%](https://anderson-review.ucla.edu/as-states-permitted-online-sports-gambling-citizens-personal-financial-health-suffered/). DraftKings reported [over a billion dollars in marketing spend](https://www.thelines.com/fanduel-draftkings-betmgm-caesars-espnbet-fanatics-market-share-2024/) in 2024 alone. The elite profit. Regular people lose. Young men lose the most.
 
-And then there's Polymarket and prediction markets -- same psychology, different packaging. "I'm not gambling, I'm predicting." Over [$3.3 billion was wagered on the 2024 presidential race](https://fortune.com/2024/11/05/polymarket-bets-odds-election-day-trump-harris/), and after the election, volume [plummeted 84%](https://fortune.com/crypto/2024/10/30/polymarket-trump-election-crypto-wash-trading-researchers/). Proving it was never about "information markets." It was gambling with an intellectual costume.
+And then there's Polymarket and prediction markets -- same psychology, different packaging. "I'm not gambling, I'm predicting." Over [$3.2 billion was wagered on the 2024 presidential race](https://fortune.com/2024/11/05/polymarket-bets-odds-election-day-trump-harris/), and after the election, volume [plummeted 84%](https://www.dlnews.com/articles/markets/polymarket-volumes-and-users-plummet-after-trump-wins-election/). Proving it was never about "information markets." It was gambling with an intellectual costume.
 
-Gambling is a tax on the desperate. Bill Maher [recently called it](https://whyevolutionistrue.com/2026/02/08/bill-mahers-new-rule-on-gambling/) a "tax on the stupid," but that misses the point. These aren't stupid people. They're young men looking for any arena where they can prove they're capable and smart and worthy -- and the arena they found was designed from the ground up to take their money.
+Gambling isn't a tax on the stupid. It's a tax on the desperate. These aren't stupid people. They're young men looking for any arena where they can prove they're capable and smart and worthy -- and the arena they found was designed from the ground up to take their money.
 
 ---
 
@@ -316,9 +430,9 @@ There are biological contributors -- lead exposure, microplastics, phthalates --
 
 ### The Information Overload Theory
 
-But I think something else is going on. We live in a hyper-connected world. In 1986, the average person received the equivalent of [40 newspapers worth of information per day](https://annenberg.usc.edu/news/published/phd-student-calculates-how-much-information-world). By 2007 -- _before smartphones_ -- that had jumped to **174 newspapers per day.** By 2008, the average American was consuming [34 gigabytes and roughly 100,500 words of information daily](https://qi.ucsd.edu/news-article.php?id=1630). Human brains are processing more information in a single day than our grandparents encountered in a month. No brain in history was built for this.
+But I think something else is going on. We live in a hyper-connected world. By 2007 -- _before smartphones_ -- the average person was [receiving the equivalent of 174 newspapers worth of information per day](https://annenberg.usc.edu/news/published/phd-student-calculates-how-much-information-world), several times what they got two decades earlier. By 2008, the average American was consuming [34 gigabytes and roughly 100,500 words of information daily](https://qi.ucsd.edu/news-article.php?id=1630). Human brains are processing more information in a single day than our grandparents encountered in a month. No brain in history was built for this.
 
-And look what's happening with ADHD. Diagnoses among US children nearly doubled -- [from 6.1% in 1997 to 10.2% in 2016](https://pmc.ncbi.nlm.nih.gov/articles/PMC6324288/). Everyone treats this as a crisis. But a [2024 paper in _Evolutionary Psychological Science_](https://link.springer.com/article/10.1007/s40806-024-00400-8) reframes it: what we call ADHD distractibility is actually **"high trait curiosity"** -- an evolutionary adaptation that becomes a mismatch in environments that demand sustained monotonous focus, but _thrives_ in environments with high stimulation and novelty. When engagement is high, it drives hyperfocus and exceptional productivity. Sound like the internet to anyone? A [study of Kenyan Ariaal tribesmen](https://bmcecolevol.biomedcentral.com/articles/10.1186/1471-2148-8-173) found that men carrying the ADHD-linked gene were _better nourished_ when living as nomads -- but worse off when settled. The trait isn't broken. It's context-dependent. And [29% of entrepreneurs self-report ADHD](https://pmc.ncbi.nlm.nih.gov/articles/PMC8023171/) -- roughly six times the general population rate. The "disorder" appears to be an advantage in the right arena.
+And look what's happening with ADHD. Diagnoses among US children rose sharply -- [from 6.1% in 1997 to 10.2% in 2016](https://pmc.ncbi.nlm.nih.gov/articles/PMC6324288/). Everyone treats this as a crisis. But a [2024 paper in _Evolutionary Psychological Science_](https://link.springer.com/article/10.1007/s40806-024-00400-8) reframes it: what we call ADHD distractibility is actually **"high trait curiosity"** -- an evolutionary adaptation that becomes a mismatch in environments that demand sustained monotonous focus, but _thrives_ in environments with high stimulation and novelty. When engagement is high, it drives hyperfocus and exceptional productivity. Sound like the internet to anyone? A [study of Kenyan Ariaal tribesmen](https://link.springer.com/article/10.1186/1471-2148-8-173) found that men carrying the ADHD-linked gene were _better nourished_ when living as nomads -- but worse off when settled. The trait isn't broken. It's context-dependent. And [over 27% of entrepreneurs self-report ADHD](https://pmc.ncbi.nlm.nih.gov/articles/PMC8023171/) -- roughly six times the general population rate. The "disorder" appears to be an advantage in the right arena.
 
 But look at what the IQ data actually shows when you dig in. That [Northwestern study of ~394,000 Americans](https://news.northwestern.edu/stories/2023/03/americans-iq-scores-are-lower-in-some-areas-higher-in-one)? Yes, verbal reasoning, matrix reasoning, and math scores declined from 2006 to 2018. But **3D spatial rotation scores went up.** The lead author said it directly: _"I don't want people to read these findings and think Americans are getting less intelligent."_ A [2024 follow-up study](https://www.sciencedirect.com/science/article/pii/S0160289624000618) found that cognitive abilities are becoming more **specialized and differentiated** -- people are developing asymmetric cognitive profiles rather than broad uniform strengths. We're not getting dumber across the board. We're getting _different._ There's no IQ test that measures digital literacy, but Gen Z navigates information systems with a fluency that would leave previous generations helpless. The old tests are measuring the old world.
 
@@ -328,7 +442,7 @@ That said -- something is clearly going wrong. Even with all that digital fluenc
 
 Start with **screen time**. Think about what's happening to your brain every day. A hundred years ago, if you wanted to see a picture of a far-off land or something beautiful, you'd go to an art gallery. Maybe you'd see 20 paintings in an hour. That was the equivalent of scrolling Instagram for a person in 1920.
 
-Now think about what Instagram actually is. You're speed-running that art gallery -- hundreds of images per minute. Incredible sunsets, perfect bodies, exotic locations, curated lives. Your brain is getting hit with dopamine spike after dopamine spike at a rate that no human being in history has ever experienced. And then there's TikTok -- short-form video designed to keep your brain in a state of constant novelty-seeking. [Research shows it causes prolonged Beta and Gamma brain activity even after you stop watching](https://www.psypost.org/large-meta-analysis-links-tiktok-and-instagram-reels-to-poorer-cognitive-and-mental-health/) -- your brain literally can't calm down.
+Now think about what Instagram actually is. You're speed-running that art gallery -- hundreds of images per minute. Incredible sunsets, perfect bodies, exotic locations, curated lives. Your brain is getting hit with dopamine spike after dopamine spike at a rate that no human being in history has ever experienced. And then there's TikTok -- short-form video designed to keep your brain in a state of constant novelty-seeking. A [meta-analysis links short-form video use to measurably worse cognitive and mental health](https://www.psypost.org/large-meta-analysis-links-tiktok-and-instagram-reels-to-poorer-cognitive-and-mental-health/) -- your brain stays in a state of overstimulation even after you put the phone down.
 
 Because this bombardment is constant, your brain grows numb to it. You need more stimulation to feel anything. Regular life starts to feel flat. A conversation with a friend can't compete with the infinite scroll. A walk outside feels boring. And we can always escape to some other realm with our phones. Bad day at work? Scroll. Argument with your partner? Scroll. Feeling purposeless? Scroll. Until the mountain of unprocessed emotions becomes so large that it's impossible to ignore.
 
@@ -346,19 +460,19 @@ Young people aren't in denial about this. They _know_. They embrace it. They cal
 
 "[Brain rot](https://corp.oup.com/news/brain-rot-named-oxford-word-of-the-year-2024/)" was Oxford's Word of the Year in 2024. Usage increased 230% in one year. Gen Z and Gen Alpha post captions like "my brain is so rotted" as a bonding ritual. Not being able to focus is "relatable content." Not reading books is a punchline. Having the attention span of a goldfish is a badge of honor.
 
-But underneath the humor is something darker. This is **self-deprecating humor as a defense mechanism for shame and insecurity**. [Psychological research](https://pmc.ncbi.nlm.nih.gov/articles/PMC3500141/) shows that self-defeating humor -- joking at your own expense -- has the strongest correlation with low self-esteem, depression, and emotional instability of any humor style. It's not confidence. It's "hiding negative feelings" behind a performance of not caring.
+But underneath the humor is something darker. This is **self-deprecating humor as a defense mechanism for shame and insecurity**. [Psychological research](https://pmc.ncbi.nlm.nih.gov/articles/PMC3500141/) consistently links self-defeating humor -- joking at your own expense -- to low self-esteem, depression, and emotional instability. It's not confidence. It's "hiding negative feelings" behind a performance of not caring.
 
 And it becomes a self-fulfilling prophecy through what researchers call **"irony poisoning"** -- [the process](https://en.wikipedia.org/wiki/Irony_poisoning) where repeated ironic statements gradually dissolve the ironic layer and become sincere beliefs. When you joke every day that "I literally cannot read anymore," the joke eventually stops being a joke.
 
 It gets worse. [Stereotype threat research](https://perception.org/research/stereotype-threat/) shows that simply being reminded of a negative expectation about your group _actually impairs your performance_. Every brainrot meme that says "our generation can't focus" is functioning as a cognitive prime that makes it harder to focus. The identity reinforces the reality.
 
-[68% of young people](https://www.news-medical.net/news/20250718/Social-media-use-linked-to-declining-focus-and-emotional-strain-in-youth.aspx) say social media harms their ability to focus. 65% believe their digital habits will hurt them later in life. They know. And they feel powerless to change it. Researchers call this ["digital learned helplessness"](https://www.ijnrd.org/papers/IJNRD2508286.pdf) -- a conditioned response to platforms specifically engineered to override your agency.
+[68% of young people](https://www.news-medical.net/news/20250718/Social-media-use-linked-to-declining-focus-and-emotional-strain-in-youth.aspx) say social media harms their ability to focus. 65% believe their digital habits will hurt them later in life. They know. And they feel powerless to change it -- a kind of digital learned helplessness, conditioned by platforms specifically engineered to override their agency.
 
 ### Fear, Shame, and Anger
 
 Because underneath the brainrot memes, the lurking, the perfectionism -- there are three emotions that young people are drowning in and have no tools to process.
 
-**Fear.** Nobody is saying this about them: they're not stupid. They're _terrified_. Before phones, you could say something dumb at a party and it would be forgotten by Monday. Now every awkward moment can go viral. Every wrong opinion can get you canceled. [56% of Gen Z users](https://slate.com/life/2024/11/gen-z-situationship-relationship-dating-risk-ghosting-chappell-roan.html) say fear of rejection stopped them from pursuing a relationship. Gen Z may be [the most risk-averse generation on record](https://commonwealthbeacon.org/opinion/why-risk-averse-gen-z-is-watching-from-the-sidelines/). [Perfectionism has increased 33% since 1989](https://www.apa.org/pubs/journals/releases/bul-bul0000138.pdf), and the most alarming dimension -- _socially prescribed_ perfectionism, the feeling that others demand perfection from you -- has skyrocketed, with **66% of young people in 2016 scoring above the typical 1989 level.** So they don't try. They lurk. They consume. They watch other people live instead of living themselves.
+**Fear.** Nobody is saying this about them: they're not stupid. They're _terrified_. Before phones, you could say something dumb at a party and it would be forgotten by Monday. Now every awkward moment can go viral. Every wrong opinion can get you canceled. [56% of Gen Z users](https://slate.com/life/2024/11/gen-z-situationship-relationship-dating-risk-ghosting-chappell-roan.html) say fear of rejection stopped them from pursuing a relationship. Gen Z is shaping up to be [one of the most risk-averse generations on record](https://commonwealthbeacon.org/opinion/why-risk-averse-gen-z-is-watching-from-the-sidelines/). [Perfectionism has increased 33% since 1989](https://www.apa.org/pubs/journals/releases/bul-bul0000138.pdf), and the most alarming dimension -- _socially prescribed_ perfectionism, the feeling that others demand perfection from you -- has skyrocketed, with **66% of young people in 2016 scoring above the typical 1989 level.** So they don't try. They lurk. They consume. They watch other people live instead of living themselves.
 
 **Shame.** Shame about not being able to focus. Shame about scrolling for hours and knowing it's destroying you. Shame about not measuring up to the curated lives you see online. Young people are tired of being shamed -- by parents, by institutions, by each other. And when shame becomes unbearable, people either collapse inward or lash outward.
 
@@ -388,7 +502,7 @@ A generation living in chronic emotional overwhelm -- bombarded by content desig
 
 Consider this: [global emotional intelligence scores declined 5.79%](https://pmc.ncbi.nlm.nih.gov/articles/PMC12646932/) from 2019 to 2024 across 28,000 adults in 166 countries. Researchers called it an **"Emotional Recession."** We are getting worse at processing emotions at the exact moment we need that skill most.
 
-[UCLA neuroscientist Matthew Lieberman](https://pubmed.ncbi.nlm.nih.gov/17576282/) proved with fMRI that simply _naming_ an emotion -- putting it into words -- decreases amygdala activity and increases prefrontal cortex activity. The act of saying "I feel afraid" literally calms the fear response and brings your thinking brain back online. But you can't name what you don't have words for. And [10-30% of adolescents](https://pubmed.ncbi.nlm.nih.gov/17905044/) struggle with alexithymia -- the clinical term for not being able to identify or describe your own emotions.
+[UCLA neuroscientist Matthew Lieberman](https://pubmed.ncbi.nlm.nih.gov/17576282/) proved with fMRI that simply _naming_ an emotion -- putting it into words -- decreases amygdala activity and increases prefrontal cortex activity. The act of saying "I feel afraid" literally calms the fear response and brings your thinking brain back online. But you can't name what you don't have words for. And [roughly 7-10% of adolescents](https://pubmed.ncbi.nlm.nih.gov/17905044/) struggle with alexithymia -- the clinical term for not being able to identify or describe your own emotions.
 
 People who can't name their emotions can't regulate them. People who can't regulate their emotions can't think clearly. People who can't think clearly make choices that look indistinguishable from stupidity. The whole chain starts with emotional illiteracy.
 
@@ -432,7 +546,7 @@ The fix here isn't "read more books" or "delete TikTok" -- though both help. The
 
 **Fear**: Young people need environments where they can make mistakes without those mistakes being permanent and public. They need spaces where failure is expected, processed, and learned from -- not screenshotted and memed. This is what [free play used to provide](https://jonathanhaidt.com/social-media/) and what the phone-based childhood destroyed.
 
-**Shame**: The brainrot humor, the edgy rebellion, the numbing -- these are all shame responses. [Shame drives people underground.](https://pmc.ncbi.nlm.nih.gov/articles/PMC4675534/) It makes them hide, perform, or lash out. The antidote to shame isn't more shaming. It's understanding. It's someone saying "I see what you're actually feeling and it makes sense." This is what the Enneagram does well -- it names the specific shame pattern of each type without judgment.
+**Shame**: The brainrot humor, the edgy rebellion, the numbing -- these are all shame responses. Shame drives people underground. It makes them hide, perform, or lash out. The antidote to shame isn't more shaming. It's understanding. It's someone saying "I see what you're actually feeling and it makes sense." This is what the Enneagram does well -- it names the specific shame pattern of each type without judgment.
 
 **Anger**: The repression, the numbing, the identity fusion -- these are all mishandled anger. Unprocessed anger triggers the same [prefrontal shutdown](#are-people-actually-getting-dumber-or-just-emotionally-frozen) that makes people _test_ as dumber. The fix isn't "calm down." The fix is building the capacity to feel the anger without it hijacking your brain.
 
@@ -473,6 +587,53 @@ This is why I'm drawn to frameworks like the Enneagram. It maps how different pe
 If you want to see how this plays out in practice: [how each type falls apart under stress](/enneagram-corner/enneagram-types-in-stress), [the relationship between personality and mental illness](/enneagram-corner/enneagram-and-mental-illness), and [how your type shapes your relationship with medication](/enneagram-corner/mental-health/enneagram-medication-mental-health). For the gambling and addiction angle specifically: [Enneagram and Addiction](/enneagram-corner/mental-health/enneagram-addiction-recovery-guide).
 
 The ticking time bombs are real. But the fuse is **emotional illiteracy** -- and that's something we can actually fix. Not by consuming more content about emotions. _By finding people we can practice with._
+
+---
+
+## Sources
+
+A note on sourcing: the strongest claims in this piece come from peer-reviewed journals, government data, and longitudinal studies. Where blog posts or Substacks are cited, they're either (a) the original venue for an argument or quote, or (b) accessible secondary write-ups of academic work that's also linked.
+
+### SSRIs and psychiatry
+
+- Henssler, J. et al. (2024). [Incidence of antidepressant discontinuation symptoms](https://www.thelancet.com/journals/lanpsy/article/PIIS2215-0366%2824%2900133-0/fulltext). _Lancet Psychiatry_.
+- Lewis, G. et al. (2021). [Maintenance or Discontinuation of Antidepressants in Primary Care](https://www.nejm.org/doi/full/10.1056/NEJMoa2106356). _NEJM_.
+- Moncrieff, J. et al. (2022). [The serotonin theory of depression: a systematic umbrella review of the evidence](https://www.nature.com/articles/s41380-022-01661-0). _Molecular Psychiatry_.
+- Kirsch, I. et al. (2008). [Initial severity and antidepressant benefits: a meta-analysis of data submitted to the FDA](https://journals.plos.org/plosmedicine/article?id=10.1371/journal.pmed.0050045). _PLoS Medicine_.
+- DeRubeis, R. et al. (2005). [Cognitive therapy vs medications in the treatment of moderate to severe depression](https://pubmed.ncbi.nlm.nih.gov/15809408/). _Archives of General Psychiatry_.
+- Hollon, S. et al. (2005). [Prevention of relapse following cognitive therapy vs medications in moderate to severe depression](https://pubmed.ncbi.nlm.nih.gov/15809409/). _Archives of General Psychiatry_.
+- Cuijpers, P. et al. (2023). [Cognitive Behavior Therapy vs Control Conditions, Other Psychotherapies, Pharmacotherapies and Combined Treatment for Depression: 409 trials, 52,702 patients](https://pmc.ncbi.nlm.nih.gov/articles/PMC9840507/). _World Psychiatry_.
+- Mojtabai, R. & Olfson, M. (2011). [Proportion of antidepressants prescribed without a psychiatric diagnosis is growing](https://www.healthaffairs.org/doi/10.1377/hlthaff.2010.1024). _Health Affairs_.
+- Centers for Disease Control and Prevention. (2024). [Antidepressant Use Among Adults: United States, 2023](https://www.cdc.gov/nchs/products/databriefs/db528.htm). _NCHS Data Brief 528_.
+- Cosgrove, L. et al. (2012). [DSM-5 Task Force Members and Industry](https://pmc.ncbi.nlm.nih.gov/articles/PMC3302834/). _PLoS Medicine_.
+- Whitaker, R. (2010). [_Anatomy of an Epidemic: Magic Bullets, Psychiatric Drugs, and the Astonishing Rise of Mental Illness in America_](https://power2u.org/wp-content/uploads/2017/01/AnatomyofanEpidemic-SummaryofFindings-Whitaker.pdf). Crown.
+
+### Sports gambling
+
+- Equimundo. (2025). [_The State of American Men 2025_](https://www.equimundo.org/resources/state-of-american-men-2025/).
+- Fairleigh Dickinson University Poll. (2025). [Online betting leads to problems for young men](https://www.fdu.edu/news/fdu-poll-finds-online-betting-leads-to-problems-for-young-men/).
+- UCLA Anderson Review. [As states permitted online sports gambling, citizens' personal financial health suffered](https://anderson-review.ucla.edu/as-states-permitted-online-sports-gambling-citizens-personal-financial-health-suffered/).
+- STAT News. (2025). [Sports betting apps are a public health crisis](https://www.statnews.com/2025/11/11/sports-betting-apps-public-health-crisis/).
+- Hing, N. & Russell, A. (2022). [Young men's sports betting](https://pmc.ncbi.nlm.nih.gov/articles/PMC9059698/). _Journal of Behavioral Addictions_.
+
+### IQ, cognition, and screen overload
+
+- Bratsberg, B. & Rogeberg, O. (2018). [Flynn effect and its reversal are both environmentally caused](https://www.pnas.org/doi/10.1073/pnas.1718793115). _PNAS_.
+- Dworak, E. et al. (2023). [Slipping cognition](https://news.northwestern.edu/stories/2023/03/americans-iq-scores-are-lower-in-some-areas-higher-in-one). Northwestern University. (Published in _Intelligence_.)
+- Hilbert, M. & López, P. (2011). [The world's technological capacity to store, communicate, and compute information](https://annenberg.usc.edu/news/published/phd-student-calculates-how-much-information-world). _Science_.
+- Ward, A. et al. (2017). [Brain Drain: The Mere Presence of One's Own Smartphone Reduces Available Cognitive Capacity](https://www.journals.uchicago.edu/doi/full/10.1086/691462). _Journal of the Association for Consumer Research_.
+- Mark, G. (2023). [Why our attention spans are shrinking](https://www.apa.org/news/podcasts/speaking-of-psychology/attention-spans). _American Psychological Association_.
+- Curran, T. & Hill, A. (2019). [Perfectionism is increasing over time: A meta-analysis of birth cohort differences from 1989 to 2016](https://www.apa.org/pubs/journals/releases/bul-bul0000138.pdf). _Psychological Bulletin_.
+- Arnsten, A. (2009). [Stress signalling pathways that impair prefrontal cortex structure and function](https://www.nature.com/articles/nrn2648). _Nature Reviews Neuroscience_.
+- Lieberman, M. et al. (2007). [Putting feelings into words: affect labeling disrupts amygdala activity](https://pubmed.ncbi.nlm.nih.gov/17576282/). _Psychological Science_.
+- Oxford University Press. (2024). ["Brain rot" named Oxford Word of the Year 2024](https://corp.oup.com/news/brain-rot-named-oxford-word-of-the-year-2024/).
+
+### Connection, community, and emotional health
+
+- U.S. Surgeon General. (2023). [_Our Epidemic of Loneliness and Isolation_](https://www.hhs.gov/sites/default/files/surgeon-general-social-connection-advisory.pdf).
+- Mineo, L. (2017). [Good genes are nice, but joy is better -- 80 years of the Harvard Study of Adult Development](https://news.harvard.edu/gazette/story/2017/04/over-nearly-80-years-harvard-study-has-been-showing-how-to-live-a-healthy-and-happy-life/). _Harvard Gazette_.
+- Survey Center on American Life. (2021). [Why men's social circles are shrinking](https://www.americansurveycenter.org/why-mens-social-circles-are-shrinking/).
+- Gallup. (2021). [U.S. Church Membership Falls Below Majority for First Time](https://news.gallup.com/poll/341963/church-membership-falls-below-majority-first-time.aspx).
 
 <!--
 FRESH REVIEW — 2026-03-20

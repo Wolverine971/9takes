@@ -1,6 +1,6 @@
 ---
-title: 'The Definitive Guide to Self-Efficacy'
-description: 'Explore the comprehensive guide to understanding and improving self-efficacy. Learn its origins, key sources, and practical tips for enhancing your life'
+title: "Why You Don't Believe in Yourself (And How to Fix It in 30 Days)"
+description: "Two people with identical skills, different outcomes — one acts, the other doesn't. Bandura called the gap self-efficacy. Here's the 30-day plan to close yours, built on the four sources he identified in 1977."
 author: 'DJ Wayne'
 date: '2023-08-31'
 loc: 'https://9takes.com/how-to-guides/definitive-guide-to-self-efficacy'
@@ -21,7 +21,7 @@ path: src/blog/guides/definitive-guide-to-self-efficacy.md
   "@graph": [
     {
       "@type": "Article",
-      "articleBody": "This article goes into the concept of self-efficacy, its origins, and its practical applications. It explores the four sources of self-efficacy, provides examples, and discusses how to improve it. The article also touches upon the role of environment, psychological constructs related to self-efficacy, and future trends in research.",
+      "articleBody": "Two people with identical skills can have wildly different outcomes — one acts, the other hesitates. Bandura called that gap self-efficacy: the belief you can do this specific thing, right now. This guide breaks down the four sources Bandura identified in 1977 (mastery, vicarious experience, social persuasion, physiological state), how each domain of life is affected, how to measure where you stand, and a 30-day plan to rebuild it.",
       "author": {
         "@type": "Person",
         "name": "DJ Wayne",
@@ -30,8 +30,8 @@ path: src/blog/guides/definitive-guide-to-self-efficacy.md
       },
       "dateModified": "2025-05-03",
       "datePublished": "2023-08-31",
-      "description": "An in-depth exploration of self-efficacy, its origins, and its applications. The article provides actionable tips and examples to help individuals improve their self-efficacy.",
-      "headline": "The Comprehensive Guide to Understanding and Improving Self-Efficacy",
+      "description": "Two people with identical skills, different outcomes — one acts, the other doesn't. Bandura called the gap self-efficacy. Here's the 30-day plan to close yours.",
+      "headline": "Why You Don't Believe in Yourself (And How to Fix It in 30 Days)",
       "image": {
         "@type": "ImageObject",
         "height": 900,

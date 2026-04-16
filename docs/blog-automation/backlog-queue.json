@@ -371,19 +371,6 @@
 			"strategicValue": "hollywood-prestige-cluster"
 		},
 		{
-			"name": "meghan-trainor",
-			"displayName": "Meghan Trainor",
-			"type": 7,
-			"priority": 63,
-			"priorityReason": "Pop star with broad recognition, upbeat public persona, and strong Type 7 entertainment angle",
-			"estimatedTraffic": "high",
-			"searchVolume": "high",
-			"personaTitle": null,
-			"addedToQueue": "2026-04-12",
-			"retryCount": 0,
-			"strategicValue": "contemporary-pop-cluster"
-		},
-		{
 			"name": "hailee-steinfeld",
 			"displayName": "Hailee Steinfeld",
 			"type": 3,

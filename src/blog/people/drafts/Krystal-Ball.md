@@ -13,7 +13,7 @@ published: false
 enneagram: 1
 type: ['creator']
 person: 'Krystal-Ball'
-suggestions: ['Alexandria-Ocasio-Cortez', 'Saagar-Enjeti', 'Tucker-Carlson', 'Hillary-Clinton']
+suggestions: ['Alexandria-Ocasio-Cortez', 'Saagar-Enjeti', 'Tucker-Carlson', 'Ryan-Grim']
 wikipedia: 'https://en.wikipedia.org/wiki/Krystal_Ball'
 twitter: 'https://twitter.com/krystalball'
 instagram: 'https://www.instagram.com/krystalmball'

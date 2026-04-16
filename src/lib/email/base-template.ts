@@ -32,11 +32,7 @@ export function generateEmailHtml(options: TemplateOptions): string {
 	const year = new Date().getFullYear();
 	const footerAddress = env.EMAIL_FOOTER_ADDRESS?.trim();
 
-	// Process content to replace placeholders
-	// Always replace {{name}} - use actual name or fallback to "there"
-	let processedContent = content;
-	const nameReplacement = escapeHtml(recipientName?.trim() || 'there');
-	processedContent = processedContent.replace(/\{\{\s*name\s*\}\}/gi, nameReplacement);
+	const processedContent = renderEmailContent(content, recipientName);
 
 	return `<!DOCTYPE html>
 <html lang="en">
@@ -180,6 +176,11 @@ export function htmlToPlainText(html: string): string {
 		.replace(/&#39;/g, "'")
 		.replace(/\n{3,}/g, '\n\n')
 		.trim();
+}
+
+export function renderEmailContent(content: string, recipientName?: string): string {
+	const nameReplacement = escapeHtml(recipientName?.trim() || 'there');
+	return content.replace(/\{\{\s*name\s*\}\}/gi, nameReplacement);
 }
 
 export function appendEmailFooterToPlainText(text: string, unsubscribeUrl?: string): string {

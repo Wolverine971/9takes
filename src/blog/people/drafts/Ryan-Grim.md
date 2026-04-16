@@ -4,12 +4,12 @@ meta_title: "Why Ryan Grim Can't Stop Testing the Institutions He Builds"
 persona_title: "Media's Loyal Insurgent"
 description: "Why does the calmest journalist in DC break the most dangerous stories? Inside Ryan Grim's relentless need to stress-test every institution he touches."
 author: 'DJ Wayne'
-date: '2026-04-10'
+date: '2026-04-16'
 loc: 'https://9takes.com/personality-analysis/Ryan-Grim'
-lastmod: '2026-04-10'
+lastmod: '2026-04-16'
 changefreq: 'monthly'
 priority: '0.6'
-published: false
+published: true
 enneagram: 6
 type: ['creator', 'author']
 person: 'Ryan-Grim'

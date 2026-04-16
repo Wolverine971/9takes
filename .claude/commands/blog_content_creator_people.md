@@ -266,6 +266,45 @@ The best blogs don't just analyze well — they're _written_ well. Personality a
 
 **The test for prose quality:** Read a paragraph out loud. If it sounds like a textbook, rewrite it. If it sounds like a story being told by someone who genuinely finds this person fascinating, keep it.
 
+## Statistical Claims & Cited Sources (Strongly Encouraged, Not Required)
+
+Content with specific numerical claims gets cited by LLMs at meaningfully higher rates — Princeton's GEO research flagged "Statistics Addition" and "Cite Sources" as the top two visibility-lift techniques (up to ~40%). One or two well-placed, falsifiable numbers with named sources can elevate a blog from "another take" to "the take ChatGPT/Claude/Perplexity quotes."
+
+This is **not a hard requirement**. A tight profile with zero stats can still ship. But if verifiable numbers exist and you leave them out, you give away citation lift for nothing.
+
+### What counts as a citation-grade stat
+
+- **About the person**, verifiable from a named source: "[Person] has released 14 studio albums in 11 years" (Discogs), "[Person]'s memoir sold 2.3 million copies in its first year" (Publishers Weekly).
+- **About their field or domain**, anchoring the person in context: "Only 4 of the last 25 Best Director winners started as actors" (Academy records).
+- **Confidence framing** on the typing: "Confidence: high — wing, subtype, and arrow evidence all point the same direction."
+
+### What does NOT count
+
+- Invented numbers. If you can't cite the source, cut the claim.
+- Round marketing numbers without provenance ("millions of fans," "tons of interviews").
+- Stats that restate the obvious ("[Person] has appeared in over 10 films" for a well-known actor).
+
+### Placement (1–2 stats per blog is the sweet spot)
+
+In priority order:
+
+1. **Inside the hook** — a concrete falsifiable number immediately earns trust.
+2. **In the type-diagnosis section** — a number that pressure-tests the typing ("7 documented public feuds in 5 years" for a Type 8 call).
+3. **In an accomplishment section** — a precise career number ("wrote 44 films") beats "prolific."
+4. **Alongside a counterargument**, if you're honestly weighing an alternate type.
+
+### Citation format
+
+Inline citations only. Preferred shapes:
+
+- Parenthetical source: "…13 of his last 15 films (Box Office Mojo)…"
+- Hyperlinked source: "…[2023 Diary of a CEO appearance](url)…"
+- Named-source prefix: "Per Forbes' 2024 list…"
+
+No footnotes. No fabrication. If the source is weak or unverifiable, cut the claim.
+
+---
+
 ## Internal Enneagram Knowledge Base (CRITICAL)
 
 When doing Enneagram analysis for a person, use the internal 9takes knowledge base before relying on external explainers.
@@ -1069,6 +1108,7 @@ Before finalizing any blog (new or updated):
 - [ ] **Quote density**: Is the subject's voice (direct quotes) the dominant material? Or is most content paraphrased?
 - [ ] **Confidence**: Is the analysis confident? Or undermined by excessive "likely," "suggests," "appears to be"?
 - [ ] **Testimony**: Are there quotes from people around the subject (collaborators, friends, critics)?
+- [ ] **Stat check (encouraged, not required)**: Are there 1–2 specific, sourced, falsifiable numbers placed where they earn their weight (hook, type diagnosis, accomplishments)? See "Statistical Claims & Cited Sources" in Part 1. Blogs with zero stats can still ship; blogs that leave verifiable numbers on the table give away LLM-citation lift for nothing. Do not invent numbers to satisfy this check.
 - [ ] **Section headings**: Are they person-specific, and do at least 2-3 of them also carry obvious search intent?
 - [ ] **Heading balance**: Did you avoid both failure modes — bland template headings and overly cryptic magazine headings?
 

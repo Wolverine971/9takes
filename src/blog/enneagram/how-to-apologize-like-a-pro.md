@@ -133,11 +133,11 @@ Some types over-apologize until "sorry" loses all meaning. Others treat apologie
 
 The Enneagram maps these patterns with uncomfortable accuracy. Once you see your type's specific apology block, you can work around it and actually mean what you say.
 
-## The Psychology of Apologies
+## Six Components of a Real Apology — and the Ones Your Type Skips
 
 <!-- {#the-psychology-of-apologies} -->
 
-### What Makes an Apology Work?
+### The Six Components Ohio State Ranked (and the One Most People Lead With)
 
 [Research from Ohio State University](https://news.osu.edu/the-6-elements-of-an-effective-apology-according-to-science/) studied over 750 people and found that effective apologies have six components, ranked by how much they actually matter:
 
@@ -150,9 +150,9 @@ The Enneagram maps these patterns with uncomfortable accuracy. Once you see your
 
 The key finding: **you can stumble through the delivery, but if you don't clearly own what you did, nothing else lands.**
 
-Here's where it gets interesting for Enneagram types: **each type naturally excels at some of these components while completely botching others.**
+**Each type nails two or three of these components and completely botches the rest.** Which ones you skip is predictable from your type.
 
-### The Apology Paradox
+### Why Protecting Your Ego Wrecks Your Apology
 
 The harder you try to protect your ego during an apology, the less effective it becomes. Yet each Enneagram type has specific ego protections that activate when we feel vulnerable.
 
@@ -160,11 +160,11 @@ The harder you try to protect your ego during an apology, the less effective it 
 - Types 2, 6, and 7 protect their **security**
 - Types 4, 5, and 9 protect their **identity**
 
-Understanding your protection mechanism is the key to breaking through apology resistance. You'll see these patterns play out in each type's struggle below, and in the cross-type dynamics that make apologizing to certain people especially tricky.
+Which mechanism you defend tells you exactly which of the six components will choke in your throat and which will spill out too quickly.
 
-But before you can deliver an effective apology, you need to truly understand what the other person is feeling. Master [active listening techniques for your personality type](/how-to-guides/ultimate-guide-to-active-listening) to ensure you're addressing the real hurt, not just what you think went wrong.
+And before the apology can land, you have to hear what they're actually hurt by. Master [active listening techniques for your personality type](/how-to-guides/ultimate-guide-to-active-listening) or you'll be apologizing for the wrong thing.
 
-## How Each Enneagram Type Struggles with Apologies
+## Where Each Type's Apology Breaks Down
 
 <!-- {#how-each-type-struggles} -->
 
@@ -200,7 +200,7 @@ _"I was just trying to help! Why can't they see my good intentions? I feel terri
 
 **Your Apology Kryptonite:** The need to remain the "good one" in every story.
 
-### Type 3: The Achiever's Image Management
+### Type 3: The Achiever's Damage Control
 
 **The Core Struggle:** Apologies feel like public failures. As a competence protector, your value feels tied to outcomes, and an apology is an outcome you can't spin. You'd rather "prove yourself" through future actions than sit with a past mistake.
 
@@ -216,7 +216,7 @@ _"This is slowing everything down. Can't we just move forward? I'll show them th
 
 **Your Apology Kryptonite:** The belief that admitting mistakes diminishes your value.
 
-### Type 4: The Individualist's Emotional Overwhelm
+### Type 4: The Individualist's Drafts Folder
 
 You said something cutting to a friend, and now the guilt is a physical weight in your chest. You draft an apology text — delete it. Draft another — delete it. The words aren't capturing the depth of what you feel. Maybe a poem would express it better. Maybe you should write them a letter. By the time you've found the "authentic" way to say sorry, three days have passed and your friend thinks you don't care.
 
@@ -227,7 +227,7 @@ _"They'll never understand how I really feel. My pain is probably worse than the
 
 As an identity protector, your ego defense says that if you can't apologize with perfect authenticity, you shouldn't apologize at all. That's a lie. An imperfect apology delivered today beats a perfect one delivered never.
 
-### Type 5: The Investigator's Logical Bypass
+### Type 5: The Investigator's Timeline Defense
 
 A Type 5 once described their approach to a fight with their partner: "I put together a timeline of events to demonstrate that my response was proportional to the provocation." They genuinely couldn't understand why this made things worse.
 
@@ -281,7 +281,7 @@ _"I did what needed to be done. They're being too sensitive. Fine, I'll say sorr
 
 The real strength play? Vulnerability is the hardest thing you can do, which means it takes more courage than any fight you've ever won.
 
-### Type 9: The Peacemaker's Conflict Avoidance
+### Type 9: The Peacemaker's "Sorry for... Whatever"
 
 **The Core Struggle:** You'll do anything to restore harmony, but addressing the conflict directly feels impossible. As an identity protector, you preserve your sense of self by avoiding disruption, and a real apology disrupts the artificial harmony you've built. You hope it will just blow over.
 
@@ -297,7 +297,7 @@ _"Maybe if I just act normal, this will go away. I'll say whatever they need to 
 
 **Your Apology Kryptonite:** The fear of making things worse by addressing them directly.
 
-## The Perfect Apology Formula for Your Type
+## Nine Apologies, One for Each Type's Blind Spot
 
 <!-- {#perfect-apology-formula} -->
 
@@ -436,11 +436,11 @@ _"Maybe if I just act normal, this will go away. I'll say whatever they need to 
 
 **Pro Tip:** Stand while apologizing to maintain energy and presence.
 
-## When Someone Owes YOU an Apology
+## How to Tell If Their Apology Is Real (Based on Their Type)
 
 <!-- {#when-someone-owes-you} -->
 
-Understanding how different types apologize helps you recognize sincere vs. manipulative apologies:
+Every type has a tell. Once you know what a real apology looks like from a Type 8 versus a Type 2, you stop accepting performances as repair.
 
 ### Reading Apology Sincerity by Type
 
@@ -468,7 +468,7 @@ When someone apologizes to you, here's what helps you receive it:
 **Type 8:** Genuine vulnerability and yielded control
 **Type 9:** Direct address of the specific issue
 
-## Cross-Type Dynamics: When Your Apology Meets Their Personality
+## When Your Apology Meets Their Type
 
 <!-- {#cross-type-dynamics} -->
 
@@ -498,11 +498,11 @@ Generic apology advice ignores a critical variable: who you're apologizing _to_.
 
 **The fix:** 7s, stay in the discomfort and offer specifics. "Here's exactly what I'll do differently" matters more to a 6 than any amount of warmth or charm. Follow up a week later unprompted. That's what rebuilds trust for this type.
 
-## Advanced Apology Strategies
+## Three Apology Traps Most Types Fall Into
 
 <!-- {#advanced-strategies} -->
 
-### The Pre-Apology Check-In
+### Five Questions Before You Say Sorry
 
 Before apologizing, ask yourself:
 
@@ -521,7 +521,7 @@ Sometimes what feels like an apology need isn't:
 - **Their emotional reactions** don't require your apology
 - **Self-advocacy** doesn't require apology
 
-### The Recurring Apology Problem
+### When You Keep Apologizing for the Same Thing
 
 If you're apologizing for the same thing repeatedly, the apology isn't the issue. The behavior is:
 
@@ -549,7 +549,7 @@ A: Generally, apologize as publicly as the offense. Public harm requires public 
 **Q: Can I apologize via text?**
 A: Text apologies lack tone and presence. Use only for minor issues or initial contact before a real conversation.
 
-## The Real Test
+## The Flinch That Decides Every Apology
 
 Mastering apologies for your type isn't about memorizing scripts — it's about recognizing the moment your defense mechanism kicks in and choosing vulnerability instead. That tightening in your chest, that reflex to justify or deflect or disappear? That's your type's protection mechanism doing its job. Your job is to notice it and act anyway.
 

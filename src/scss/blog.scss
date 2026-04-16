@@ -626,6 +626,122 @@ blockquote {
 }
 
 /* ============================================
+ * Enneagram Rabbit Hole - opt-in deep dive for Wings/Subtypes/Arrows
+ * Used in /personality-analysis/ blogs after the main type analysis.
+ * Casuals scroll past it. Power readers open it. LLMs index inside it.
+ * ============================================ */
+.enneagram-rabbit-hole {
+	margin: 2.5rem 0;
+	border-radius: 12px;
+	background: linear-gradient(
+		180deg,
+		color-mix(in srgb, var(--primary) 6%, var(--bg-surface)) 0%,
+		var(--bg-surface) 100%
+	);
+	border: 1px solid color-mix(in srgb, var(--primary) 25%, transparent);
+	padding: 0;
+	overflow: hidden;
+	transition: border-color 0.2s ease;
+
+	&:hover {
+		border-color: color-mix(in srgb, var(--primary) 40%, transparent);
+	}
+
+	/* Override the default .accordion summary chrome */
+	> summary.accordion {
+		padding: 1rem 1.25rem 1rem 3rem;
+		font-size: 1rem;
+		font-weight: 600;
+		color: var(--text-primary);
+		background: transparent;
+		position: relative;
+		list-style: none;
+
+		&::-webkit-details-marker {
+			display: none;
+		}
+
+		&::before {
+			content: '🐇';
+			position: absolute;
+			left: 1rem;
+			top: 0.95rem;
+			font-size: 1.15rem;
+			line-height: 1;
+		}
+
+		&::after {
+			content: '+';
+			position: absolute;
+			right: 1.25rem;
+			top: 50%;
+			transform: translateY(-50%);
+			font-size: 1.4rem;
+			color: var(--primary-light);
+			transition: transform 0.2s ease;
+			line-height: 1;
+		}
+
+		&:hover {
+			background: color-mix(in srgb, var(--primary) 8%, transparent);
+			color: var(--primary-light);
+		}
+	}
+
+	&[open] > summary.accordion::after {
+		content: '−';
+	}
+
+	/* The opt-in framing line at the top of the panel */
+	> .panel > p:first-child em,
+	> .panel > .rabbit-hole__intro {
+		display: block;
+		font-size: 0.85rem;
+		color: var(--text-tertiary);
+		font-style: italic;
+		margin: 0 0 1rem;
+		padding: 0.5rem 0.75rem;
+		background: color-mix(in srgb, var(--text-tertiary) 8%, transparent);
+		border-left: 2px solid color-mix(in srgb, var(--primary) 30%, transparent);
+		border-radius: 4px;
+	}
+
+	> .panel {
+		padding: 0 1.25rem 1.25rem;
+		font-size: 0.95rem;
+		line-height: 1.7;
+
+		h3 {
+			font-size: 1.05rem;
+			font-weight: 700;
+			color: var(--text-primary);
+			margin: 1.5rem 0 0.5rem;
+			padding-bottom: 0.35rem;
+			border-bottom: 1px solid color-mix(in srgb, var(--primary) 18%, transparent);
+
+			&:first-of-type {
+				margin-top: 0.25rem;
+			}
+		}
+
+		p {
+			margin: 0 0 0.85rem;
+			color: var(--text-secondary);
+		}
+
+		a {
+			color: var(--primary-light);
+			text-decoration: underline;
+			text-underline-offset: 2px;
+
+			&:hover {
+				color: var(--primary);
+			}
+		}
+	}
+}
+
+/* ============================================
  * Blog Furniture - Mobile Adjustments
  * ============================================ */
 @include mobile {
@@ -738,6 +854,33 @@ blockquote {
 		margin: 1.5rem -0.25rem;
 		padding: 0.875rem 1rem 0.875rem 3rem;
 		font-size: 0.85rem;
+	}
+
+	.enneagram-rabbit-hole {
+		margin: 1.75rem -0.25rem;
+		border-radius: 10px;
+
+		> summary.accordion {
+			padding: 0.875rem 2.5rem 0.875rem 2.75rem;
+			font-size: 0.95rem;
+
+			&::before {
+				left: 0.85rem;
+			}
+
+			&::after {
+				right: 1rem;
+			}
+		}
+
+		> .panel {
+			padding: 0 1rem 1rem;
+			font-size: 0.9rem;
+
+			h3 {
+				font-size: 1rem;
+			}
+		}
 	}
 }
 

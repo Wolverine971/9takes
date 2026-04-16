@@ -8,6 +8,7 @@ import {
 	appendEmailFooterToPlainText,
 	generateEmailHtml,
 	htmlToPlainText,
+	renderEmailContent,
 	rewriteLinksForTracking,
 	getTrackingPixelUrl,
 	getUnsubscribeUrl
@@ -127,7 +128,6 @@ export async function sendEmail(options: SendEmailOptions): Promise<SendEmailRes
 		unsubscribeUrl: providedUnsubscribeUrl,
 		includeFooter = true
 	} = options;
-	const resolvedPlainTextContent = plainTextContent ?? htmlToPlainText(htmlContent);
 
 	try {
 		// Validate that the private key environment variable is set
@@ -184,6 +184,8 @@ export async function sendEmail(options: SendEmailOptions): Promise<SendEmailRes
 			unsubscribeUrl,
 			includeFooter
 		});
+		const resolvedPlainTextContent =
+			plainTextContent ?? htmlToPlainText(renderEmailContent(finalHtmlContent, recipientName));
 
 		const response = await gmail.users.messages.send({
 			requestBody: {
@@ -273,7 +275,7 @@ export async function sendEmailWithTracking(
 		subject,
 		preheader,
 		htmlContent,
-		plainTextContent: resolvedPlainTextContent,
+		plainTextContent,
 		recipientName: recipient.name ?? undefined,
 		trackingId: emailSend.tracking_id,
 		includeFooter

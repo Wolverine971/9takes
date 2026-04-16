@@ -1,8 +1,8 @@
 ---
 title: 'David Dobrik: Enneagram Type 7 Analysis'
-meta_title: "The Real Reason David Dobrik Gave Away So Many Teslas"
+meta_title: 'The Real Reason David Dobrik Gave Away So Many Teslas'
 persona_title: "Vlogging's Manic Ringleader"
-description: "The man who gave away Teslas and manufactured viral joy for millions couldn\'t face what his content had done. David Dobrik\'s Enneagram Type 7 analysis."
+description: "The man who gave away Teslas and manufactured viral joy for millions couldn't face what his content had done. David Dobrik's Enneagram Type 7 analysis."
 author: 'DJ Wayne'
 date: '2026-04-15'
 loc: 'https://9takes.com/personality-analysis/David-Dobrik'

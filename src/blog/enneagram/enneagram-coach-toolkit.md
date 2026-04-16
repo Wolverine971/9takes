@@ -1,6 +1,6 @@
 ---
-title: 'Enneagram Coach Toolkit: Transform Clients with Type-Specific Homework'
-description: "Master the art of Enneagram coaching with proven homework strategies that create breakthroughs. Decode each type's patterns and unlock real transformation."
+title: "Why Your Enneagram Clients Aren't Changing (And the Homework That Actually Works)"
+description: "Your session was brilliant. The pattern clicked. Then she came back next week and nothing had changed. Most Enneagram coaching dies in the gap between insight and action — here's the type-specific homework that closes it."
 author: 'DJ Wayne'
 date: '2024-04-19'
 loc: 'https://9takes.com/enneagram-corner/enneagram-coach-toolkit'
@@ -43,9 +43,7 @@ Then she comes back next week. Nothing changed. The pattern won.
 
 **This is where most Enneagram coaching dies**: in the gap between insight and action. Your session was brilliant. Your homework failed.
 
-Here's what nobody tells new coaches: **The real transformation happens between sessions**, not during them. Master Enneagram coaches know this secret: type-specific homework creates lasting change, while generic exercises create forgotten notebooks.
-
-This guide breaks down the exact homework strategies that create breakthroughs for each personality type. You'll also learn how to explain the Enneagram without losing newcomers in the complexity.
+Here's what nobody tells new coaches: **the real work happens between sessions, not inside them.** Generic homework becomes the notebook in the bottom drawer. Type-specific homework gets done — because it names the exact autopilot your client is running.
 
 ## Why Generic Homework Fails Every Time
 
@@ -114,7 +112,7 @@ Each Enneagram type has specific emotional patterns that require targeted interv
 | 8    | Control patterns        | Ask before asserting        | 3 conversations      |
 | 9    | Self-erasure            | State one preference        | 1x daily             |
 
-## The 3-Phase Homework System That Transforms Patterns
+## The 3-Phase Homework System: Notice, Interrupt, Install
 
 ### Phase 1: Pattern Recognition (Week 1-2)
 
@@ -152,11 +150,11 @@ Design exercises that strengthen their growth direction:
 
 > "You can't think your way out of a personality pattern—you have to act your way out."
 
-## Advanced Coaching Strategies for Each Type
+## Why Each Type Blows Off the Homework
 
 ### Reading Resistance Patterns
 
-Each type's resistance to homework isn't random. It's a survival strategy that started in childhood. Understanding this transforms your coaching.
+Each type's resistance isn't laziness. It's a childhood survival strategy showing up as an excuse. Decode the excuse and you decode the pattern.
 
 **Type 1**: "I'm not doing it perfectly, so why bother?"
 
@@ -222,7 +220,7 @@ Focus on these high-impact areas for each type:
 
 ## Coaching Scripts: Exact Words That Work
 
-Master coaches have go-to phrases that land consistently. Here are scripts to use when assigning homework.
+Same homework, different framing — and it lands differently for each type. Three moments decide whether homework gets done: how you assign it, what you say when they didn't do it, and how you acknowledge when they did.
 
 ### Script 1: Introducing the Homework
 
@@ -322,11 +320,11 @@ Your homework is working when clients:
 - Make different choices without prompting
 - Bring curiosity instead of judgment to their type
 
-## Transform Your Coaching Practice
+## Pick One Client This Week
 
-The difference between good and great Enneagram coaches? Great coaches know transformation happens between sessions, not during them.
+Good coaches explain the pattern. Great coaches send clients home with the exact move that breaks it.
 
-Start with one client this week. Use type-specific homework from this guide. Watch what happens when you stop giving generic assignments and start decoding their exact patterns.
+Pick your most stuck client. Give them the assignment for their type from the table above. Next session, count pattern-interruption stories ("I caught myself, then I chose differently") instead of insights ("I finally see it"). Insights are free. Interruptions are the work.
 
 <div class="cta-section">
 
@@ -373,12 +371,12 @@ Yes! Have each type share their homework experiences. Type 4s often feel less al
       },
       "dateModified": "2025-12-04",
       "datePublished": "2024-04-19",
-      "description": "Master the art of Enneagram coaching with proven homework strategies that create breakthroughs. Decode each type's patterns and unlock real transformation.",
+      "description": "Your session was brilliant. The pattern clicked. Then the client came back next week and nothing had changed. Most Enneagram coaching dies in the gap between insight and action — here's the type-specific homework that closes it.",
       "keywords": "Enneagram coach toolkit, type-specific homework, Enneagram coaching strategies, personality coaching techniques, transformation homework, Enneagram exercises, coaching assignments, type patterns, client breakthroughs, coaching practice",
       "wordCount": 2500,
       "articleSection": "Enneagram",
       "url": "https://9takes.com/enneagram-corner/enneagram-coach-toolkit",
-      "headline": "Enneagram Coach Toolkit: Transform Clients with Type-Specific Homework",
+      "headline": "Why Your Enneagram Clients Aren't Changing (And the Homework That Actually Works)",
       "mainEntityOfPage": {
         "@id": "https://9takes.com/enneagram-corner/enneagram-coach-toolkit",
         "@type": "WebPage"

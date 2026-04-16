@@ -1,10 +1,10 @@
 ---
-title: 'Enneagram Self Development: Transform Your Personality Into Your Superpower'
-description: 'Master Enneagram self development with type-specific growth strategies. Learn how your personality type shapes your healing journey, shadow work, and path to authentic transformation.'
+title: 'Enneagram Self-Development: What I Got Wrong as a Type 8 (And the Map That Works)'
+description: "I overtrained until my body broke. I joined the Marines because 'pain is weakness leaving the body' felt like home. Then I learned: personality isn't something to overcome — it's a system you decode before you can rewire it. Here's the type-by-type self-development map I wish I'd had."
 author: 'DJ Wayne'
 date: '2023-03-26'
 loc: 'https://9takes.com/enneagram-corner/enneagram-self-development'
-lastmod: '2025-12-04'
+lastmod: '2026-04-16'
 changefreq: 'monthly'
 priority: '0.8'
 published: true
@@ -37,15 +37,13 @@ QUALITY_FEEDBACK_END -->
 Enneagram self development goes beyond surface-level tips to reveal the <strong>operating system of your psyche</strong>: the childhood programming driving your decisions. Instead of fighting your personality, you learn to understand it, embrace its gifts, and gradually release its limitations.
 </QuickAnswer>
 
-<p class="firstLetter">You've been using the wrong map for your self-development journey.</p>
+<p class="firstLetter">You've been working on the wrong layer of yourself.</p>
 
-**While you're chasing surface-level life hacks and productivity tips, your deepest patterns run the show from the shadows.**
+While you chase productivity hacks and morning routines, your real operating patterns run unattended in the background — the ones laid down in childhood that decide who you marry, when you snap, what you call "just how I am."
 
-Here's what I've realized after years of studying the Enneagram: Your personality isn't a limitation to overcome – it's a sophisticated survival system that, once understood, becomes your greatest tool for transformation.
+Self-development that ignores those patterns is cosplay. The Enneagram is the X-ray.
 
-The Enneagram doesn't just categorize you. It reveals the operating system of your psyche, the childhood programming that still drives most of your decisions, and most importantly – the exact pathway to rewire it all.
-
-**This isn't another personality test. It's a blueprint for dismantling everything fake about you and building something real.**
+It doesn't categorize you. It shows you the survival system you built before you had words for it — and then it shows you the door out of it. Here's how it played out for me, and how you'd use it for your type.
 
 ## What This Actually Looks Like: My Own Type 8 Journey
 
@@ -404,10 +402,10 @@ If you found these insights valuable, join the 9takes community below ⬇️ whe
     "sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"
         ]
   },
-  "dateModified": "2025-12-04",
+  "dateModified": "2026-04-16",
   "datePublished": "2023-03-25",
-  "description": "Master Enneagram self development with type-specific growth strategies. Learn how your personality type shapes your healing journey, shadow work, and path to authentic transformation.",
-  "headline": "Enneagram Self Development: Transform Your Personality Into Your Superpower",
+  "description": "I overtrained until my body broke. I joined the Marines because 'pain is weakness leaving the body' felt like home. The Enneagram is the type-by-type self-development map I wish I'd had — here's how to use it.",
+  "headline": "Enneagram Self-Development: What I Got Wrong as a Type 8 (And the Map That Works)",
   "image": {
     "@type": "ImageObject",
     "height": 900,

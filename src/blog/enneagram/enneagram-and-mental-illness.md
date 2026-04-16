@@ -80,7 +80,9 @@ Yes, each Enneagram type shows specific vulnerabilities to certain mental health
 
 **Read time**: 18 minutes | **Important**: This is informational only - not medical advice
 
-<p class="firstLetter">Mental illness is something everyone is scared of.</p>
+<p class="firstLetter">Mental illness scares everyone.</p>
+
+The unspoken belief is that it happens to other people.
 
 <!-- <EnneagramMentalIllnessPromo
   title="The Enneagram and Mental Illness: Interactive Guide"
@@ -89,11 +91,11 @@ Yes, each Enneagram type shows specific vulnerabilities to certain mental health
   imageUrl="/blogs/greek-statue-2-sided-mask.webp"
 /> -->
 
-We want to think that we are not capable of becoming mentally ill. But the end result of a downward spiral started somewhere.
+But every downward spiral starts somewhere — usually in the same patterns your personality already runs every day, just turned up too high.
 
-Here, we will use the Enneagram to look at the negative aspects of different personalities. We will examine how each personality type in an unhealthy state can go down a negative spiral toward mental illness. We draw insights from "<a class="external-link" target="_blank" rel="noopener" href="https://www.amazon.com/Wisdom-Enneagram-Psychological-Spiritual-Personality/dp/0553378201?&_encoding=UTF8&tag=9takes00-20&linkCode=ur2&linkId=934a7202b7f300b1da70746ab59814ba&camp=1789&creative=9325">The Wisdom of the Enneagram</a>" by Don Richard Riso and Russ Hudson, which delves into the dark side of each Enneagram type.
+This guide uses the Enneagram to map those patterns: the specific way each of the 9 types breaks down when their healthy traits curdle into something darker. The framework draws on "<a class="external-link" target="_blank" rel="noopener" href="https://www.amazon.com/Wisdom-Enneagram-Psychological-Spiritual-Personality/dp/0553378201?&_encoding=UTF8&tag=9takes00-20&linkCode=ur2&linkId=934a7202b7f300b1da70746ab59814ba&camp=1789&creative=9325">The Wisdom of the Enneagram</a>" by Don Richard Riso and Russ Hudson, which traces the shadow side of each type.
 
-These dark sides are called the **"shadow side,"** and it is central to this exploration. In examining these shadow sides, we better understand how each Enneagram type navigates its mental landscapes and spirals into unhealthy patterns illustrated through specific scenarios.
+That **shadow side** is the engine of this exploration. Knowing yours is how you spot the spiral before you're inside it.
 
 ## Important Context and Disclaimer
 

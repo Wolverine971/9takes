@@ -1,6 +1,6 @@
 ---
-title: 'Personality Maxing: The Complete Guide to Optimizing Who You Are'
-description: 'Personality maxing is deliberate personality development. Learn how knowing your similarities and differences builds real charisma, then use the Enneagram to deepen self-knowledge and social intelligence.'
+title: 'Personality Maxing: Looksmaxxing for the Part People Actually Experience'
+description: "Looksmaxxing optimizes what people see for three seconds. Personality maxing optimizes what they experience every day. Here's the playbook: map your pattern, name your superpower and shadow with the Enneagram, then turn that self-knowledge into real charisma."
 author: 'DJ Wayne'
 date: '2025-05-22'
 loc: 'https://9takes.com/enneagram-corner/personality-maxing'
@@ -39,7 +39,7 @@ Keyword Strategy:
 - Long-tail: how to understand your personality, what makes someone charismatic, how to develop personality
 -->
 
-<p class="firstLetter">You've heard of "looksmaxxing", optimizing your physical appearance. Personality maxing asks the harder question: what if you optimized the part people experience every day?</p>
+<p class="firstLetter">You've heard of looksmaxxing: optimize the three seconds someone sees you. Personality maxing optimizes the three hours they spend around you.</p>
 
 **Personality maxing** is deliberate personality development. Not to become someone else, but to become a more authentic, self-aware, socially intelligent version of yourself.
 
@@ -72,7 +72,7 @@ Not your zodiac sign. Not your Myers-Briggs letters. Not some abstract trait sco
 
 Your personality is the pattern of how you think, feel, and act, compared to the people around you.
 
-### Why This Definition Changes Everything
+### Why Personality Only Shows Up Between People
 
 Most people treat personality like a fixed label. "I'm an introvert." "I'm a perfectionist." "I'm just not good with emotions."
 
@@ -192,8 +192,6 @@ This moves you from "I'm a Type X" to "Here's exactly how my version of Type X s
 ---
 
 ## Step 3: Understanding Your Thriving State (Arrow of Security)
-
-Here's where things get good.
 
 Every personality type has strengths. Obvious ones. But you also have **hidden superpowers** that emerge when you feel safe, confident, and secure.
 
@@ -347,45 +345,41 @@ This isn't about typing other people. It's about recognizing that everyone has a
 
 ## The Destination: Charisma Through Curiosity
 
-Here's the thesis:
-
 > **Charisma is curiosity, powered by self-awareness. Personality maxing is learning your similarities and differences well enough to stay curious about everyone else.**
-
-This is the destination. Everything builds to this.
 
 ### What Charisma Actually Is
 
-Research reveals something interesting about genuinely charismatic people:
+Genuinely charismatic people aren't performing. They're **actually interested** in you.
 
-They're not performing. They're **genuinely interested** in others.
+The research backs this up. In 2018, Konstantin Tskhay and colleagues at the University of Toronto validated the [General Charisma Inventory](https://pubmed.ncbi.nlm.nih.gov/28737418/) and found charisma splits into two dimensions: **influence** (guiding others) and **affability** (making people feel at ease). Affability predicted how likable strangers rated someone _above and beyond_ their Big Five personality scores.
 
-Dale Carnegie figured this out in 1936:
+The "at-ease" half matters more than your baseline traits.
+
+Dale Carnegie landed on the same instinct in 1936:
 
 > "You can make more friends in two months by becoming genuinely interested in other people than you can in two years by trying to get other people interested in you."
 
-Olivia Fox Cabane proved charisma is learnable, broken into presence, power, and warmth.
+And it's trainable. John Antonakis's team at the University of Lausanne taught managers [12 charismatic leadership tactics](https://hbr.org/2012/06/learning-charisma-2) — stories, contrasts, rhetorical questions, animated voice — and their leadership ratings rose about 60 percent after practice.
 
-But here's what they missed: **genuine interest requires self-knowledge first.**
+But tactics only land when you actually see the person in front of you.
 
-Otherwise, you project your assumptions onto everyone else. You listen through filters. You miss what's actually happening.
+Otherwise, you project your assumptions onto everyone else. You listen through filters. You miss what's happening.
 
 ### The Charisma Formula
 
 A charismatic person:
 
-1. **Understands themselves**: Their patterns, triggers, and superpowers
-2. **Understands others**: Not projecting, actually perceiving
-3. **Is ready for both good and bad**: Not surprised by their own reactions or others'
-4. **Is genuine**: Not performing a role
-5. **Is genuinely curious**: About other people's experiences
-6. **Asks good questions**: And listens to the answers
-7. **Knows when to assert vs. listen**: Calibrated to the moment
+1. **Understands themselves**: their patterns, triggers, and superpowers
+2. **Perceives instead of projecting**: reads the person in front of them, not a stored template
+3. **Sees their own trigger coming**: doesn't blame the messenger when their stress arrow fires
+4. **Doesn't perform a role**: speaks as themselves, not a version they think the room wants
+5. **Asks from curiosity, not script**: the next question shifts based on the last answer
+6. **Listens for subtext**: what's being felt, not just what's being said
+7. **Calibrates assert vs. listen**: reads the moment and adjusts
 
-This isn't charisma school. It's the natural result of self-knowledge combined with developed curiosity.
+This isn't charisma school. It's the dividend you earn from steps 1 through 4.
 
 ### Why Perspective-Taking Is the Key
-
-Here's why the mental gym matters:
 
 Every time you genuinely try to see through someone else's eyes, you're building capacity you didn't have before.
 
@@ -399,8 +393,6 @@ Every time you genuinely try to see through someone else's eyes, you're building
 ---
 
 ## The Archetype: Your Best and Worst Versions
-
-One more framework to tie it together.
 
 Every Enneagram type has a spectrum. At one end is your highest potential: the best version of who you could become. At the other end is your lowest functioning.
 
@@ -438,15 +430,15 @@ It's about recognizing that everyone has an internal world as complex as yours, 
 
 **The person with the "maxed" personality:**
 
-- Understands their own patterns without judgment
-- Recognizes that others have equally valid internal worlds
-- Meets people where they are instead of where they "should" be
-- Stays curious when they could be defensive
-- Keeps doing the perspective-taking reps
+- Catches their own pattern mid-react — the Type 1 notices the critique forming before it leaves their mouth
+- Lets other types be themselves — a Type 7 sits with a Type 5's silence instead of filling it
+- Reads behavior as pattern, not personal attack — a Type 4 hears a Type 8 as blunt, not cruel
+- Stays curious with the family member who reliably activates their stress arrow
+- Keeps doing the perspective reps when nothing obvious is changing
 
 That's it. That's the max.
 
-Not tricks. Not techniques. Just genuine understanding of yourself and everyone around you.
+Not a trick. Not a technique. Nine patterns, infinite combinations — your job is to stay fluent in yours while getting better at reading the other eight.
 
 ---
 
@@ -491,8 +483,8 @@ The understanding builds from there.
       "dateModified": "2026-01-18",
       "datePublished": "2025-05-22",
       "keywords": ["personality maxing", "personality development", "charisma", "self-improvement", "Enneagram", "emotional intelligence", "perspective-taking", "social skills", "self-knowledge", "arrow of integration", "arrow of stress"],
-      "description": "Personality maxing is deliberate personality development. Learn how knowing your similarities and differences builds real charisma, then use the Enneagram to deepen self-knowledge and social intelligence.",
-      "headline": "Personality Maxing: The Complete Guide to Optimizing Who You Are",
+      "description": "Looksmaxxing optimizes what people see for three seconds. Personality maxing optimizes what they experience every day. Map your pattern, name your superpower and shadow with the Enneagram, then turn that self-knowledge into real charisma.",
+      "headline": "Personality Maxing: Looksmaxxing for the Part People Actually Experience",
       "image": {
         "@type": "ImageObject",
         "height": 900,
@@ -547,7 +539,7 @@ The understanding builds from there.
           "@type": "Question",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "The formula is: genuine curiosity about others built on self-knowledge. A charismatic person understands themselves (patterns, triggers, superpowers), genuinely wants to understand others' experiences, asks good questions and listens, and knows when to assert vs. listen. This isn't technique. It's the natural result of developed self-awareness and empathy."
+            "text": "Charisma splits into two dimensions — affability (making people feel at ease) and influence (guiding others) — per Tskhay et al. (2018). Affability predicts likability above and beyond Big Five personality traits, and Antonakis's training studies show charismatic tactics can be taught. But the tactics only land when grounded in self-knowledge: perceiving the person in front of you instead of projecting, seeing your own trigger before it fires, and asking questions that shift based on the last answer."
           },
           "name": "What makes someone charismatic according to personality maxing?"
         },

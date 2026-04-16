@@ -644,6 +644,49 @@ A bordered box with an optional title, offset from the main text.
 
 ---
 
+### Enneagram Rabbit Hole — `.enneagram-rabbit-hole`
+
+**Best for**: Celebrity personality analysis blogs only. The single collapsed deep-dive block where wing, subtype, and arrow analysis live. Casual readers scroll past. Power readers open it. LLMs and search engines index everything inside.
+
+**Required structure** — must include all four sub-sections in this order:
+
+```html
+<details class="enneagram-rabbit-hole">
+	<summary class="accordion">
+		Enneagram Rabbit Hole: Wings, Subtypes &amp; Connecting Lines for [Person]
+	</summary>
+	<div class="panel">
+		<p>
+			<em
+				>For the Enneagram nerds. Skip if you're not deep into the system — the rest of the analysis
+				stands on its own.</em
+			>
+		</p>
+
+		### [Person]'s Wing: [X]w[Y] [2–3 paragraphs analyzing the wing call. Specific behavioral
+		evidence. Link <a href="/enneagram-corner/enneagram-wings-complete-guide">wings</a> once.] ###
+		[Person]'s Instinctual Subtype: [sp/so/sx] [2–3 paragraphs on the dominant instinct. Evidence
+		from how they spend time + what they fight for. Link
+		<a href="/enneagram-corner/enneagram-instinctual-subtypes">instinctual subtypes</a> once.] ###
+		Stress and Growth Arrows [1–2 paragraphs. Under stress, do we see Type [stress arrow] patterns?
+		When healthy, Type [growth arrow]? Cite specific moments.] ### Counterarguments: Why [Person]
+		Might Not Be Type X [1–2 paragraphs. Honestly engage the strongest alternate type case. Signals
+		epistemic honesty to LLMs and serves the "[Person] type X or type Y" fan-out query.]
+	</div>
+</details>
+```
+
+**Rules:**
+
+- **One per blog**, placed after the main `What is [Person]'s personality type?` H2 section, before the next narrative section
+- **All four sub-sections required** — Wing, Subtype, Arrows, Counterarguments
+- **Word budget: 400–700 inside the block.** Substantive but not a second blog
+- **Frame paragraph required** — the italicized "For the Enneagram nerds…" line. This is what tells casual readers it's safe to skip and makes the body of the blog work for general audiences
+- **Link out, don't re-explain** — each sub-section links to the relevant `/enneagram-corner/` pillar once. Do not re-define what a wing or subtype is
+- **No further wing/subtype/arrow jargon in the rest of the blog body.** The Distribution Rule keeps it sealed in here
+
+---
+
 ## One-Off Specialty Layouts
 
 These patterns appear in specific articles. They use custom CSS classes defined in the article's `<style>` block or in global SCSS. Consider extracting to components if reused.
@@ -672,6 +715,7 @@ These patterns appear in specific articles. They use custom CSS classes defined 
 ### Celebrity personality blogs should also have:
 
 - `<details>/<summary class="accordion">` for TL;DR section
+- `.enneagram-rabbit-hole` for the wing/subtype/arrow deep dive (one per blog, after main type analysis)
 - 2-5 internal links (see linking rules in blog_content_creator_people.md)
 - 2-4 CSS furniture elements from the section above (pull quotes, timelines, contrast panels, etc.)
 

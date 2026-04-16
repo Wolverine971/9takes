@@ -1,10 +1,10 @@
 ---
-title: 'Enneagram Types Working in Teams'
-description: 'Unlock the power of Enneagram types in teamwork. Learn how each type communicates, collaborates, and contributes to team success'
+title: 'The 9 Coworker Types: How Each Enneagram Acts as a Boss, Peer, and Report'
+description: "Every team has nine ways of working — and nine ways of falling apart. Here's what each Enneagram type brings, what to never do with them, and the feedback that actually lands."
 author: 'DJ Wayne'
 date: '2023-03-26'
 loc: 'https://9takes.com/enneagram-corner/enneagram-types-working-in-teams'
-lastmod: '2026-01-24'
+lastmod: '2026-04-16'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
@@ -32,15 +32,15 @@ QUALITY_FEEDBACK_END -->
 	import MarqueeHorizontal from "$lib/components/atoms/MarqueeHorizontal.svelte";
 </script>
 
-<p class="firstLetter">Some teams are crushing it. Others are slow-moving disasters where every meeting feels like a hostage situation.</p>
+<p class="firstLetter">Some teams crush it. Others are slow-moving disasters where every meeting feels like a hostage situation.</p>
 
-What's the difference? It's not just skills or work ethic. It's how people think, what they fear, and what they need to feel safe enough to do their best work. The Enneagram maps these patterns. Once you see them, you can't unsee them.
+The difference isn't skill or work ethic. It's that nine kinds of people are sitting at the same table speaking nine different operating languages, and nobody's translating.
 
-Here's how each [Enneagram type](/enneagram-corner/enneagram-tldr) shows up in teams, what drives them crazy, and how to actually work with them instead of just tolerating them.
+The [Enneagram](/enneagram-corner/enneagram-tldr) is the translator. Once you see the patterns — what each type brings, what breaks them, how they want to be told they're wrong — you can't unsee them.
 
 ## How Each Enneagram Type Works in a Team
 
-Each type brings something essential. Each type has blind spots that can derail collaboration. Here's the breakdown: what they want, how they show up in different roles, what to never do with them, and how to give feedback that actually lands.
+Below: each of the 9 types as a boss, a peer, and a report. What they bring. What to never do with them. And the feedback move that actually lands instead of bouncing off.
 
 <section class="section-content">
 
@@ -64,7 +64,7 @@ Reliable and diligent. Goes above and beyond. May critique your work if it doesn
 
 Follows processes meticulously. Expects clear direction. Gets frustrated when leadership seems inconsistent or when standards slip.
 
-\*\*What NOT to do with a Type 1
+**What NOT to do with a Type 1**
 
 - Don't dismiss their concerns about quality as "nitpicking"
 - Don't cut corners and expect them to cover for you
@@ -102,7 +102,7 @@ Friendly, attuned to emotions, will take on extra work to lighten your load. Goe
 
 Eager to help, quick to volunteer. Struggles with boundaries and saying no. May overcommit and burn out.
 
-\*\*What NOT to do with a Type 2
+**What NOT to do with a Type 2**
 
 - Don't take their help for granted without acknowledgment
 - Don't give them all the "people work" and none of the visible projects
@@ -140,7 +140,7 @@ Competitive and driven. Takes on high-visibility projects. Can be collaborative 
 
 Results-focused, eager to prove worth. Seeks challenging assignments and frequent recognition. May need guidance aligning personal ambition with team goals.
 
-\*\*What NOT to do with a Type 3
+**What NOT to do with a Type 3**
 
 - Don't give them busywork with no visibility
 - Don't withhold recognition for good work
@@ -178,7 +178,7 @@ Passionate about their contributions. Brings unique perspectives. May become dee
 
 Needs creative latitude. Struggles with overly structured or routine work. Appreciates autonomy to put their own spin on things. More vulnerable to self-doubt and may need emotional support during high-pressure periods.
 
-\*\*What NOT to do with a Type 4
+**What NOT to do with a Type 4**
 
 - Don't give them generic, cookie-cutter assignments
 - Don't dismiss their emotional reactions as "drama"
@@ -216,7 +216,7 @@ Analytical and thoughtful. Reliable source of knowledge, willing to share expert
 
 Independent and capable of autonomous work. Appreciates freedom to explore solutions. May need guidance on communication and collaboration. Comfortable working alone, less so explaining their thinking to others.
 
-\*\*What NOT to do with a Type 5
+**What NOT to do with a Type 5**
 
 - Don't demand instant responses. They need processing time.
 - Don't invade their privacy or push for personal sharing
@@ -258,7 +258,7 @@ Loyal and dependable. Looks out for the team's interests. May question decisions
 
 Seeks clear guidance and appreciates structure. Values feedback and direction. May be hesitant to take initiative without reassurance, but becomes a rock-solid performer once trust is established.
 
-\*\*What NOT to do with a Type 6
+**What NOT to do with a Type 6**
 
 - Don't spring major changes without warning
 - Don't dismiss their concerns as "worrying." They're often right.
@@ -296,7 +296,7 @@ Energetic, always suggesting new ideas. Source of inspiration and motivation. Ea
 
 Needs variety and exploration. Struggles with repetitive work. Appreciates freedom to bring new ideas. May need help prioritizing and finishing what they start.
 
-\*\*What NOT to do with a Type 7
+**What NOT to do with a Type 7**
 
 - Don't give them monotonous, repetitive tasks with no variety
 - Don't trap them in excessive process or bureaucracy
@@ -334,7 +334,7 @@ Powerful and assertive, often leads even without the title. Strong advocate for 
 
 Independent and capable of significant responsibility. Needs autonomy to make decisions. May challenge authority when they disagree, not out of disrespect, but because they believe they're right. Gets frustrated with perceived incompetence.
 
-\*\*What NOT to do with a Type 8
+**What NOT to do with a Type 8**
 
 - Don't be weak or wishy-washy. They lose respect fast.
 - Don't lie or play political games. They'll find out.
@@ -372,7 +372,7 @@ Supportive and agreeable. Good listener and natural mediator. Helps resolve disp
 
 Cooperative and adaptable. Reliable and hardworking. Struggles to assert themselves or express disagreement. With encouragement, becomes more confident in contributions.
 
-\*\*What NOT to do with a Type 9
+**What NOT to do with a Type 9**
 
 - Don't bulldoze their opinions or talk over them
 - Don't mistake their agreeableness for agreement
@@ -424,7 +424,7 @@ The Type 1's criticism? About quality, not you personally. The Type 5's silence?
 
 The Enneagram doesn't excuse behavior. It explains it. Which means you can work with it instead of against it.
 
-If you found this helpful, sign up and join 9takes below. Of course, you are free to decline, but there is much more to explore.
+If this helped, join 9takes below. There's a lot more where this came from.
 
 <svelte:head>
 
@@ -445,14 +445,14 @@ If you found this helpful, sign up and join 9takes below. Of course, you are fre
       },
    "dateModified":{
       "@type":"Date",
-      "@value":"2026-01-24"
+      "@value":"2026-04-16"
    },
    "datePublished":{
       "@type":"Date",
       "@value":"2023-03-25"
    },
-   "description":"Learn how to effectively communicate, collaborate, and give feedback to each Enneagram type to help contribute to the team's success.",
-   "headline":"Understanding how different Enneagram types work together in teams",
+   "description":"Each Enneagram type brings something specific to a team — and breaks down in a specific way under the wrong manager. Here's what they bring, what to never do with them, and the feedback that actually lands.",
+   "headline":"The 9 Coworker Types: How Each Enneagram Acts as a Boss, Peer, and Report",
    "image":{
       "@type":"ImageObject",
       "height":"900",

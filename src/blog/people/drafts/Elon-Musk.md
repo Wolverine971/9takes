@@ -72,6 +72,39 @@ On the conference room floor, in the dark, unable to move.
 </div>
 </details>
 
+<details class="enneagram-rabbit-hole">
+<summary class="accordion">Enneagram Rabbit Hole: Wings, Subtypes &amp; Connecting Lines for Elon Musk</summary>
+<div class="panel">
+
+<p><em>For the Enneagram nerds. Skip if you're not deep into the system — the rest of the analysis stands on its own.</em></p>
+
+### Elon Musk's Wing: 5w4
+
+The meme-lord paradox only makes sense through the 4 <a href="/enneagram-corner/enneagram-wings-complete-guide">wing</a>. A pure 5 would hoard knowledge in silence. Musk instead performs the hoard — rockets as cathedrals, Mars as mythology, X as a nightly broadcast of his own consciousness. The 4-wing is what turns private mastery into personal legend. It's also why his emotional life reads more volatile than typical 5s. The grief in his late-night posts about loneliness, the romanticism of "multi-planetary civilization," the courtship of Grimes as "two minds colliding" — these are 4-wing tells: aesthetic intensity layered on top of the Investigator's detached core.
+
+The shadow side is 4's comparative grandiosity. 5w4s can believe their pain is uniquely profound, which helps explain how a man who built a rocket company can also post from a conference room floor about being unable to move. The 5 retreats; the 4 narrates the retreat as legend.
+
+### Elon Musk's Instinctual Subtype: sx/so
+
+Musk reads as sexual-dominant with social secondary — the "totem" <a href="/enneagram-corner/enneagram-instinctual-subtypes">subtype</a> of 5. Sx-5s don't conserve; they concentrate. Everything pours into the chosen totem: the company, the partner, the mission. Twice married to Talulah Riley. Justine describing the emotional shutoff valve. The Grimes pairing described as mutual consumption. Fourteen children with four women isn't promiscuity in the usual sense — it's serial fusion with collaborators who match a specific intellectual frequency, until the merger burns out.
+
+The so tertiary shows up as the public mission: save consciousness, save humanity, save free speech. The self-preservation instinct reads as weakest — he sleeps on factory floors, skips meals, has spoken openly about not feeling safe inside his own body. That matches sp-last, not sp-dominant.
+
+### Stress and Growth Arrows
+
+Under <a href="/enneagram-corner/enneagram-types-in-stress">stress, Type 5 moves to the negative side of Type 7</a>: scattered, impulsive, manic. The "funding secured" tweet. Dogecoin pumping. The 3 a.m. feuds on X. These are 7-in-stress signals — a mind that has exceeded its own bandwidth and starts spraying instead of focusing.
+
+In growth, Type 5 integrates to healthy Type 8: decisive, embodied, action-first. This is the Musk who slept on the Tesla factory floor during production hell. The leader who rallied 350 engineers after Falcon 1's third failure with "I will never give up, and I mean never." The 8-arrow is where the Investigator stops analyzing and starts commanding.
+
+### Counterarguments: Why Elon Musk Might Not Be Type 5
+
+The strongest alternate case is Type 8: empire-building, dominance displays, willingness to confront. But 8s lead from the gut with direct impact; they don't freeze and dissociate under interpersonal pressure. Musk's default under emotional threat is withdrawal, not counter-attack — his first wife literally described him going inert. That's a 5 under stress, not an 8.
+
+The other case is Type 1 — reformer zeal, truth-crusading, "the world is broken and I will fix it." But 1s carry embodied anger about moral failure and live with a harsh internal critic. Musk's primary affect is cognitive overwhelm masked as competence, not moral indignation. The crusade serves the retreat — he builds Mars so he doesn't have to fix Earth's messy human layer.
+
+</div>
+</details>
+
 ## How Childhood Forged the Investigator
 
 After his parents' 1979 divorce, nine-year-old Elon made a choice no child should face. While his brother Kimbal and sister Tosca stayed with their mother Maye, Elon went with his father Errol: **"I felt sorry for my father. He seemed very sad and lonely by himself."**
