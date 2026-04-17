@@ -37,13 +37,6 @@
 		href?: string;
 	};
 
-	type HighlightCard = {
-		label: string;
-		value: string;
-		note: string;
-		tone: 'neutral' | 'primary' | 'success' | 'warning';
-	};
-
 	type QuestionActivityItem = {
 		question: string;
 		createdAt: string;
@@ -229,35 +222,6 @@
 		data.totalUsers > 0 ? ((data.newUsersMonth / data.totalUsers) * 100).toFixed(1) : '0.0'
 	);
 
-	let highlightCards = $derived.by((): HighlightCard[] => [
-		{
-			label: 'Mode',
-			value: isDemoTime ? 'Demo data' : 'Live data',
-			note: isDemoTime
-				? 'Sandbox values are enabled for safe review.'
-				: 'Production-backed counts are active.',
-			tone: isDemoTime ? 'warning' : 'success'
-		},
-		{
-			label: 'Visitors (30d)',
-			value: formatCount(totalVisitors),
-			note: 'Rolling total across the last 30 days.',
-			tone: 'primary'
-		},
-		{
-			label: 'Community today',
-			value: `${formatCount(data.commentsToday)} comments`,
-			note: `${formatCount(data.questionsToday)} new questions so far.`,
-			tone: 'neutral'
-		},
-		{
-			label: 'User growth',
-			value: `+${formatCount(data.newUsersMonth)} this month`,
-			note: `${userGrowth}% of total accounts added in the last 30 days.`,
-			tone: 'primary'
-		}
-	]);
-
 	let metricCards = $derived.by((): MetricCard[] => [
 		{
 			icon: '👥',
@@ -374,67 +338,31 @@
 
 <div class="admin-dashboard">
 	<section class="dashboard-hero">
-		<div class="hero-panel">
-			<div class="hero-top">
-				<div class="hero-copy">
-					<span class="eyebrow">Admin dashboard</span>
-					<h1 class="page-title">Control center</h1>
-					<p class="page-subtitle">
-						A cleaner snapshot of user growth, community activity, and operational controls.
-					</p>
-				</div>
-
-				<div class="hero-controls">
-					<div class="hero-controls-header">
-						<span class="eyebrow">Admin controls</span>
-						<p class="hero-controls-note">
-							Demo mode only affects admin-facing data sources. Reindexing can take several minutes
-							and rebuilds both question and blog indices.
-						</p>
-					</div>
-
-					<div class="control-grid">
-						<button
-							type="button"
-							class="action-btn"
-							class:active={isDemoTime}
-							onclick={changeDemoTime}
-						>
-							<div class="action-copy">
-								<span class="action-icon">🎭</span>
-								<div>
-									<span class="action-label">Demo mode</span>
-								</div>
-							</div>
-							<span class="action-state">{isDemoTime ? 'On' : 'Off'}</span>
-						</button>
-
-						<button
-							type="button"
-							class="action-btn action-btn-secondary"
-							onclick={() => getModal('confirmReindex').open()}
-							disabled={isReindexing}
-						>
-							<div class="action-copy">
-								<span class="action-icon">🔄</span>
-								<div>
-									<span class="action-label">Reindex search</span>
-								</div>
-							</div>
-							<span class="action-state">{isReindexing ? 'Running' : 'Ready'}</span>
-						</button>
-					</div>
-				</div>
+		<div class="hero-bar">
+			<div class="hero-copy">
+				<h1 class="page-title">Control center</h1>
+				<span class="hero-mode" data-tone={isDemoTime ? 'warning' : 'success'}>
+					{isDemoTime ? 'Demo data' : 'Live data'}
+				</span>
 			</div>
 
-			<div class="highlight-grid">
-				{#each highlightCards as highlight}
-					<div class="highlight-card" data-tone={highlight.tone}>
-						<span class="highlight-label">{highlight.label}</span>
-						<strong class="highlight-value">{highlight.value}</strong>
-						<span class="highlight-note">{highlight.note}</span>
-					</div>
-				{/each}
+			<div class="hero-actions">
+				<button type="button" class="action-btn" class:active={isDemoTime} onclick={changeDemoTime}>
+					<span class="action-icon" aria-hidden="true">🎭</span>
+					<span class="action-label">Demo mode</span>
+					<span class="action-state">{isDemoTime ? 'On' : 'Off'}</span>
+				</button>
+
+				<button
+					type="button"
+					class="action-btn"
+					onclick={() => getModal('confirmReindex').open()}
+					disabled={isReindexing}
+				>
+					<span class="action-icon" aria-hidden="true">🔄</span>
+					<span class="action-label">Reindex search</span>
+					<span class="action-state">{isReindexing ? 'Running' : 'Ready'}</span>
+				</button>
 			</div>
 		</div>
 	</section>
@@ -701,20 +629,13 @@
 
 	.dashboard-section,
 	.dashboard-hero,
-	.highlight-grid,
 	.metrics-grid,
 	.insights-grid,
-	.queue-grid,
-	.control-grid {
+	.queue-grid {
 		min-width: 0;
 	}
 
-	.dashboard-hero {
-		display: block;
-	}
-
-	.panel,
-	.hero-panel {
+	.panel {
 		background: linear-gradient(
 			180deg,
 			color-mix(in srgb, var(--bg-surface) 94%, white 6%),
@@ -726,74 +647,54 @@
 		min-width: 0;
 	}
 
-	.hero-panel {
-		position: relative;
-		overflow: hidden;
-		padding: 32px;
-		background:
-			radial-gradient(
-				circle at top right,
-				color-mix(in srgb, var(--primary) 24%, transparent) 0%,
-				transparent 34%
-			),
-			radial-gradient(
-				circle at bottom left,
-				color-mix(in srgb, var(--accent) 22%, transparent) 0%,
-				transparent 42%
-			),
-			linear-gradient(160deg, var(--bg-surface), var(--bg-deep));
-	}
-
-	.hero-panel::after {
-		content: '';
-		position: absolute;
-		inset: auto -10% -35% 45%;
-		height: 220px;
-		background: linear-gradient(
-			90deg,
-			transparent,
-			color-mix(in srgb, var(--primary-light) 20%, transparent)
-		);
-		transform: rotate(-12deg);
-		opacity: 0.6;
-		pointer-events: none;
-	}
-
-	.hero-top {
-		position: relative;
-		z-index: 1;
-		display: grid;
-		grid-template-columns: minmax(0, 1.2fr) minmax(360px, 0.95fr);
-		gap: 24px;
-		align-items: start;
-		margin-bottom: 28px;
-	}
-
-	.hero-controls {
+	.hero-bar {
 		display: flex;
-		flex-direction: column;
+		align-items: center;
+		justify-content: space-between;
 		gap: 16px;
-		padding: 18px;
-		border-radius: 18px;
-		background: color-mix(in srgb, var(--bg-surface) 80%, transparent);
-		border: 1px solid color-mix(in srgb, var(--bg-elevated) 86%, transparent);
-		backdrop-filter: blur(10px);
+		padding: 14px 18px;
+		border-radius: 14px;
+		border: 1px solid var(--bg-elevated);
+		background: color-mix(in srgb, var(--bg-surface) 94%, transparent);
 	}
 
-	.hero-controls-header {
+	.hero-copy {
 		display: flex;
-		flex-direction: column;
-		gap: 6px;
+		align-items: center;
+		gap: 12px;
+		min-width: 0;
 	}
 
-	.hero-controls-note {
-		margin: 0;
-		font-size: 0.88rem;
-		line-height: 1.55;
+	.hero-mode {
+		display: inline-flex;
+		align-items: center;
+		padding: 4px 10px;
+		border-radius: 999px;
+		font-size: 0.72rem;
+		font-weight: 700;
+		text-transform: uppercase;
+		letter-spacing: 0.06em;
+		border: 1px solid color-mix(in srgb, var(--bg-elevated) 86%, transparent);
+		background: color-mix(in srgb, var(--bg-deep) 90%, transparent);
 		color: var(--text-secondary);
 	}
 
-	.hero-copy,
+	.hero-mode[data-tone='success'] {
+		border-color: color-mix(in srgb, var(--success) 40%, transparent);
+		color: var(--success-text);
+	}
+
+	.hero-mode[data-tone='warning'] {
+		border-color: color-mix(in srgb, var(--warning) 45%, transparent);
+		color: var(--warning);
+	}
+
+	.hero-actions {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 8px;
+	}
+
 	.section-copy {
 		display: flex;
 		flex-direction: column;
@@ -817,21 +718,15 @@
 	}
 
 	.page-title {
-		font-size: clamp(1.8rem, 3.2vw, 2.5rem);
-		font-weight: 800;
-		line-height: 1.05;
+		font-size: clamp(1.25rem, 2vw, 1.5rem);
+		font-weight: 700;
+		line-height: 1.1;
 	}
 
-	.page-subtitle,
 	.section-description {
 		margin: 0;
 		color: var(--text-secondary);
 		line-height: 1.55;
-	}
-
-	.page-subtitle {
-		max-width: 48rem;
-		font-size: 0.97rem;
 	}
 
 	.section-header {
@@ -873,100 +768,28 @@
 		gap: 18px;
 	}
 
-	.highlight-grid {
-		position: relative;
-		z-index: 1;
-		display: grid;
-		grid-template-columns: repeat(2, minmax(0, 1fr));
-		gap: 16px;
-	}
-
-	.highlight-card {
-		display: flex;
-		flex-direction: column;
-		gap: 8px;
-		padding: 20px;
-		border-radius: 18px;
-		background: color-mix(in srgb, var(--bg-surface) 82%, transparent);
-		border: 1px solid color-mix(in srgb, var(--bg-elevated) 82%, transparent);
-		backdrop-filter: blur(8px);
-	}
-
-	.highlight-card[data-tone='primary'] {
-		border-color: color-mix(in srgb, var(--primary) 35%, var(--bg-elevated));
-	}
-
-	.highlight-card[data-tone='success'] {
-		border-color: color-mix(in srgb, var(--success) 35%, var(--bg-elevated));
-	}
-
-	.highlight-card[data-tone='warning'] {
-		border-color: color-mix(in srgb, var(--warning) 40%, var(--bg-elevated));
-	}
-
-	.highlight-label {
-		font-size: 0.74rem;
-		font-weight: 700;
-		letter-spacing: 0.04em;
-		text-transform: uppercase;
-		color: var(--text-secondary);
-	}
-
-	.highlight-value {
-		font-size: 1.35rem;
-		line-height: 1.15;
-		color: var(--text-primary);
-	}
-
-	.highlight-note {
-		font-size: 0.9rem;
-		line-height: 1.45;
-		color: var(--text-secondary);
-	}
-
-	.control-grid {
-		display: grid;
-		grid-template-columns: repeat(2, minmax(0, 1fr));
-		gap: 14px;
-	}
-
 	.action-btn {
-		display: flex;
-		align-items: flex-start;
-		justify-content: space-between;
-		gap: 14px;
-		padding: 18px;
-		border-radius: 16px;
+		display: inline-flex;
+		align-items: center;
+		gap: 8px;
+		padding: 8px 12px;
+		border-radius: 10px;
 		border: 1px solid var(--bg-elevated);
 		background: color-mix(in srgb, var(--bg-deep) 88%, var(--bg-surface));
 		color: var(--text-primary);
+		font-size: 0.88rem;
 		cursor: pointer;
-		text-align: left;
 		transition:
 			border-color 0.2s ease,
-			transform 0.2s ease,
-			box-shadow 0.2s ease,
 			background 0.2s ease;
 	}
 
 	.action-btn:hover:not(:disabled) {
-		transform: translateY(-1px);
 		border-color: color-mix(in srgb, var(--primary) 45%, var(--bg-elevated));
-		box-shadow: var(--glow-sm);
 	}
 
 	.action-btn.active {
 		border-color: color-mix(in srgb, var(--success) 55%, var(--bg-elevated));
-		background: color-mix(in srgb, var(--success-light) 58%, var(--bg-surface));
-	}
-
-	.action-btn-secondary {
-		border-color: color-mix(in srgb, var(--primary) 40%, var(--bg-elevated));
-		background: linear-gradient(
-			135deg,
-			color-mix(in srgb, var(--primary) 22%, var(--bg-deep)),
-			var(--bg-deep)
-		);
 	}
 
 	.action-btn:disabled {
@@ -974,41 +797,23 @@
 		cursor: not-allowed;
 	}
 
-	.action-copy {
-		display: flex;
-		gap: 12px;
-		min-width: 0;
-	}
-
 	.action-icon {
-		font-size: 1.2rem;
+		font-size: 1rem;
 		line-height: 1;
-		padding-top: 2px;
 	}
 
 	.action-label {
-		display: block;
-		font-size: 1rem;
-		font-weight: 700;
+		font-weight: 600;
 		color: var(--text-primary);
 	}
 
-	.action-desc {
-		display: block;
-		margin-top: 4px;
-		font-size: 0.88rem;
-		line-height: 1.5;
-		color: var(--text-secondary);
-	}
-
 	.action-state {
-		flex-shrink: 0;
-		padding: 6px 10px;
+		padding: 2px 8px;
 		border-radius: 999px;
-		font-size: 0.72rem;
+		font-size: 0.7rem;
 		font-weight: 700;
 		text-transform: uppercase;
-		letter-spacing: 0.05em;
+		letter-spacing: 0.04em;
 		background: color-mix(in srgb, var(--bg-elevated) 85%, transparent);
 		color: var(--text-secondary);
 	}
@@ -1386,14 +1191,6 @@
 	}
 
 	@media (max-width: 1200px) {
-		.hero-top {
-			grid-template-columns: 1fr;
-		}
-
-		.control-grid {
-			grid-template-columns: 1fr 1fr;
-		}
-
 		.queue-grid,
 		.insights-grid {
 			grid-template-columns: 1fr;
@@ -1405,8 +1202,10 @@
 			gap: 20px;
 		}
 
-		.hero-panel {
-			padding: 20px;
+		.hero-bar {
+			flex-direction: column;
+			align-items: flex-start;
+			padding: 12px 14px;
 		}
 
 		.section-header,
@@ -1419,14 +1218,6 @@
 		.section-link,
 		.inline-link {
 			font-size: 0.85rem;
-		}
-
-		.highlight-grid {
-			grid-template-columns: 1fr;
-		}
-
-		.control-grid {
-			grid-template-columns: 1fr;
 		}
 
 		.metrics-grid {
@@ -1468,11 +1259,9 @@
 
 	@media (max-width: 520px) {
 		.page-title {
-			font-size: 1.6rem;
+			font-size: 1.15rem;
 		}
 
-		.highlight-card,
-		.action-btn,
 		.question-item,
 		.detail-item {
 			padding-left: 14px;

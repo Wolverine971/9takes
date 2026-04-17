@@ -47,17 +47,17 @@ And the [Enneagram Type 4](/enneagram-corner/enneagram-type-4) is the map.
 <div class="panel">
 <ul>
 <li><b>Leader by Going First:</b> Paul Graham saw it at 23. At 17, Altman proved it by standing up in a hostile environment and becoming the leader by being the most honest person in the room.</li>
-<li><b>Meaning Over Money:</b> Takes no equity and earns $76K running one of the most valuable companies on Earth. No Type 3 Achiever walks away from that scoreboard.</li>
+<li><b>Meaning Over Money:</b> Takes no equity and earns $76K running one of the most valuable companies on Earth. Status-chasing alone cannot explain that choice.</li>
 <li><b>The Word "Shameful":</b> When fired from OpenAI in 2023, he didn't call it "unfair" or "political." He called it <i>shameful</i>, the core emotion of the heart triad, and specifically the Type 4 variant.</li>
 <li><b>Identity, Not Ambition:</b> From coming out at 17 to Worldcoin's mission of giving every human a unique identity, the thread isn't career advancement. It's: <i>I am different. That difference matters. I will build a world where it's allowed to exist.</i></li>
-<li><b>Conflict Through Feeling:</b> When Elon Musk turned adversary, Altman didn't fight like a Type 8. He texted: "You're my hero and it really fucking hurts when you publicly attack OpenAI." Vulnerability first, strategy second.</li>
+<li><b>Conflict Through Feeling:</b> When Elon Musk turned adversary, Altman texted: "You're my hero and it really fucking hurts when you publicly attack OpenAI." Vulnerability first, strategy second.</li>
 </ul>
 </div>
 </details>
 
 ## What Is Sam Altman's Personality Type?
 
-### Sam Altman Is an Enneagram Type 4: The Counter-Type
+### Sam Altman Is an Enneagram Type 4
 
 If you picture a Type 4, you probably picture a moody artist. Black turtleneck. Tortured journaling. _Nobody understands me._
 
@@ -65,9 +65,9 @@ Sam Altman is not that.
 
 He runs one of the most powerful companies in history. He testifies before Congress. He makes decisions that affect hundreds of millions of people daily. He's not journaling about his feelings. He's negotiating with heads of state.
 
-But here's the thing about the Enneagram: every type has subtypes. And the **self-preservation Type 4** is the counter-type, the version that channels envy and inner pain not into melodrama but into _relentless effort_.
+But the emotional engine is still there. It just doesn't look like theater. It looks like relentless effort.
 
-Instead of dwelling in feeling different, SP 4s work. They endure. They build. They demand more of themselves than anyone else would. The pain is still there. They just pour it into the structure instead of the performance.
+Instead of dwelling publicly in feeling different, Altman works. He endures. He builds. He demands more of himself than anyone else would. The pain is still there. He just pours it into the structure instead of the performance.
 
 He's been doing it since he was eight years old.
 
@@ -167,13 +167,46 @@ He calls it "my childhood dream job."
 
 The dream had a specific texture: pure creative meaning, uncomplicated by what happens after. He told [_The New Yorker_](https://www.newyorker.com/magazine/2026/04/13/sam-altman-may-control-our-future-can-he-be-trusted), "This was the most fun job in the world until the day we launched ChatGPT. We were making these massive scientific discoveries — I think we did the most important piece of scientific discovery in, I don't know, many decades. And then, since the launch of ChatGPT, the decisions have gotten very difficult."
 
-For a Type 4, that's the precise shape of the wound. Meaning is safe while it's yours alone. Meaning curdles the moment it meets the world. The scientific discovery was the art. Everything after was the price of the art leaving his hands.
+That's the precise shape of the wound. Meaning is safe while it's yours alone. Meaning curdles the moment it meets the world. The scientific discovery was the art. Everything after was the price of the art leaving his hands.
 
-On the surface, Altman looks like a textbook Type 3 Achiever. He runs meetings in 15-minute blocks, built a system at YC to track how quickly founders replied to emails, and operates at the highest levels of power. But the Type 3 model collapses right here. A Type 3's identity is built on visible markers of success, and no equity in a company worth hundreds of billions would be _identity death_ for an Achiever. Type 3s calibrate to whatever scoreboard the world hands them. Altman keeps building scoreboards that don't exist yet and keeps refusing to read his own score. For a Type 4, the meaning of the work is the reward.
+On the surface, Altman looks like a conventional Silicon Valley operator. He runs meetings in 15-minute blocks, built a system at YC to track how quickly founders replied to emails, and operates at the highest levels of power. But the status model collapses right here. He keeps building scoreboards that don't exist yet and keeps refusing to read his own score. The meaning of the work is the reward.
 
 When asked if he's excited to become a public company CEO, [his answer](https://www.benzinga.com/markets/tech/25/12/49526378/sam-altman-says-hes-0-interested-in-being-a-public-company-ceo) was: "Zero percent." He sees it as a burden that might cheapen the mission.
 
 His [blog writing](https://blog.samaltman.com/how-to-be-successful) tells the same story. In "How to Be Successful," one of the most cited career essays in Silicon Valley, he wrote: "The most successful people I know are primarily internally driven; they do what they do to impress themselves and because they feel compelled to make something happen in the world." And in "The Days Are Long but the Decades Are Short," written on his thirtieth birthday: "Life is not a dress rehearsal — this is probably it. Make it count." These aren't productivity tips. They're dispatches from someone haunted by the gap between what life is and what it could mean.
+
+<details class="enneagram-rabbit-hole">
+<summary class="accordion">Enneagram Rabbit Hole: Wings, Subtypes &amp; Connecting Lines for Sam Altman</summary>
+<div class="panel">
+
+<p><em>For Enneagram readers going deep on Sam Altman. Skip if you're here for the story — the rest of the analysis stands on its own.</em></p>
+
+### Sam Altman's Wing: 4w3
+
+Altman reads as 4w3 — the Individualist with an Achiever <a href="/enneagram-corner/enneagram-wings-complete-guide">wing</a>. A 4w5 version of this story would retreat into theory, preserve purity, and prefer the beautiful private system to the messy public stage. Altman does not retreat. He studies what leadership looks like, changes the clothes, learns to talk less, asks more questions, and becomes the person Paul Graham could hand Y Combinator to.
+
+The 3-wing is not the same thing as a core Type 3. It gives the 4's identity project a public instrument panel: board seats, world tours, Senate testimony, gray-sweater simplicity as a managed executive surface. The reward still has to feel meaningful from the inside. That is why the $76,001 salary and no-equity choice matters. The 3-wing can run the machine; the 4 core keeps asking whether the machine is worthy of a life.
+
+### Sam Altman's Instinctual Subtype: sp/so
+
+Altman reads as self-preservation-dominant with social secondary. The sp-4 signature is endurance, survival, and private intensity routed through concrete safeguards: guns, gold, potassium iodide, a Big Sur escape plan, a pilot's license, meditation discipline, and the willingness to sit inside anxiety without performing it. The <a href="/enneagram-corner/enneagram-instinctual-subtypes">instinct stack</a> turns the emotional wound into preparation. He does not merely imagine catastrophe. He stocks for it.
+
+Social sits second and scales the identity project into institutions. Y Combinator, OpenAI, World: each is a system for reshaping how groups coordinate, prove themselves, or imagine the future. Sexual reads last. The public record is not built around fusion, seduction, or one-to-one intensity. Even his conflicts are often institutional before they are intimate: boards, governments, cofounders, regulators, civilization-scale abstractions.
+
+### Stress and Growth Arrows
+
+Under stress, Type 4 moves toward Type 2, and Altman's crisis behavior repeatedly turns relational. The OpenAI firing produced an employee loyalty wave built on years of emotional bonds. The Musk conflict drew the line "it really fucking hurts" before it turned strategic. The shadow version is the same channel: deep attentiveness that former colleagues describe as both transformative and potentially manipulative. See <a href="/enneagram-corner/enneagram-connecting-lines">the connecting lines</a> for why a stressed 4 can start managing belonging as a survival tool.
+
+In growth, Type 4 moves toward Type 1. Altman's best version gives the vision rules: capped-profit structure, regulatory testimony, meditation turned into discipline, the insistence that a structure "didn't exist" and therefore had to be invented. The healthier line is not less feeling. It is feeling with principles, process, and a container strong enough to hold contradiction.
+
+### Counterarguments: Why Sam Altman Might Not Be Type 4
+
+The strongest alternate is Type 3. Altman leads, scales, fundraises, negotiates, testifies, and plays the institutional game better than almost anyone alive. But a core 3 calibrates to visible winning. No equity in a hundreds-of-billions company should be unbearable if status is the central fuel. Altman keeps saying the reward is the work's meaning, not the scoreboard.
+
+The Type 8 read also has a case: force of will, power, control, survival prep, and a willingness to reshape whole industries. But his conflict style is too wound-aware and self-narrating. He does not simply dominate and move on. He processes the injury, names the hurt, then folds the contradiction into the story of who he is. That is Type 4 interiority operating at empire scale.
+
+</div>
+</details>
 
 ## The Night Everything Broke
 
@@ -199,7 +232,7 @@ The identity crisis isn't "can I get power back?" It's "who do they think I am, 
 
 By Monday, nearly all 800 OpenAI employees had signed a letter threatening to quit. They demanded the board resign and Altman return. Satya Nadella offered him a job at Microsoft. Within five days, he was back.
 
-The employee rally revealed something about _how_ Altman leads. He hadn't asked anyone to fight for him. He'd spent years building the kind of emotional bonds that made people _choose_ him, not through authority but through relational investment. Under stress, Type 4s shift toward Type 2 patterns: giving, bonding, making others feel seen. That pattern, over years, is what produced 800 signatures in 48 hours.
+The employee rally revealed something about _how_ Altman leads. He hadn't asked anyone to fight for him. He'd spent years building the kind of emotional bonds that made people _choose_ him, not through authority but through relational investment. That pattern, over years, is what produced 800 signatures in 48 hours.
 
 But the word that stayed was from months later. On the [Lex Fridman podcast](https://lexfridman.com/sam-altman-2-transcript/), he called the experience "definitely the most painful professional experience of my life."
 
@@ -249,9 +282,9 @@ The transformation came through meditation. Not the app-based kind. He found the
 
 In that emptiness, something cracked open: "One thing I realized through meditation is that there is no self that I can identify with in any way at all."
 
-For most people, that's a spiritual insight. For a Type 4, it's an earthquake. The entire Type 4 project is constructing and protecting a unique identity. To sit in silence and realize there might be _no self to protect_. That's the Type 4 confronting the void at the center of their obsession.
+For most people, that's a spiritual insight. For someone whose life has been organized around identity, it's an earthquake. To sit in silence and realize there might be _no self to protect_ is to confront the void at the center of the obsession.
 
-He didn't run from it. He built a practice around it. Integration to Type 1: taking the most destabilizing insight your psyche can produce and giving it structure, discipline, routine.
+He didn't run from it. He built a practice around it: taking the most destabilizing insight your psyche can produce and giving it structure, discipline, routine.
 
 ## The Structure That Didn't Exist (And the Contradiction That Replaced It)
 
@@ -259,11 +292,11 @@ When Altman designed OpenAI's original governance, he invented something that ha
 
 "We needed a structure that didn't exist."
 
-That sentence is the Type 4 integrating to Type 1. Idealism given rules. Principles given teeth. Vision given a container it can survive in.
+That sentence is idealism given rules. Principles given teeth. Vision given a container it can survive in.
 
 The same instinct showed up in May 2023, when Altman [testified before the U.S. Senate](https://www.judiciary.senate.gov/committee-activity/hearings/oversight-of-ai-rules-for-artificial-intelligence). "My worst fears are that we cause significant harm to the world," he told the committee. Then, out loud, to Congress: "You should be skeptical of any company calling for its own regulation."
 
-That last line is the Type 4 compulsion. The need to be honest about your own contradictions, even when silence would be strategically easier.
+That last line is the compulsion: the need to be honest about your own contradictions, even when silence would be strategically easier.
 
 Then the structure started cracking.
 
@@ -333,7 +366,7 @@ The kid who spent his childhood carrying a secret about who he really was grew u
 
 The controversy was immediate. MIT Technology Review accused it of "building a biometric database from the bodies of the poor," Kenya suspended the project, European regulators opened investigations. The drive to make identity legible can shade into the drive to _control_ it. But the impulse underneath is unmistakable: identity isn't a product feature for Altman. It's the central preoccupation of his existence.
 
-## Guns, Gold, and a Self-Preservation 4
+## Guns, Gold, and the Survival Kit
 
 In 2016, Tad Friend profiled Altman for [The New Yorker](https://www.newyorker.com/magazine/2016/10/10/sam-altmans-manifest-destiny). Buried inside was this:
 
@@ -341,7 +374,7 @@ In 2016, Tad Friend profiled Altman for [The New Yorker](https://www.newyorker.c
 
 He holds a pilot's license. Has since he was seventeen, the same age he gave the speech.
 
-Here's what makes this a signature self-preservation Type 4 detail, not just Silicon Valley eccentricity. SP 4s express their inner world through _physical security and endurance_. Where a sexual 4 might channel their intensity into relationships, and a social 4 into belonging, the SP 4 channels it into self-sufficiency. The land in Big Sur. The pilot's license. The meditation discipline. The doomsday kit. These aren't random prepper hobbies. They're the SP 4's way of saying: _I will survive the thing I'm building, even if the thing I'm building tries to destroy everything._
+Here's what makes this a signature detail, not just Silicon Valley eccentricity. The land in Big Sur. The pilot's license. The meditation discipline. The doomsday kit. These aren't random prepper hobbies. They're the private survival architecture of a man who can imagine the thing he's building going wrong at civilizational scale.
 
 Altman doesn't prep _despite_ building AI. He preps _because_ of it.
 
@@ -367,7 +400,7 @@ The specifics got worse after the firing. Former board member Helen Toner went p
 
 The [Washington Post](https://www.washingtonpost.com/technology/2023/12/08/open-ai-sam-altman-complaints/) reported that before the firing, senior executives had approached the board with documentation (screenshots and records) alleging Altman was "pitting employees against each other" and creating "pockets of chaos." Two executives used the phrase "psychological abuse."
 
-These allegations don't describe a Type 8's brute-force domination. They describe the shadow of the Type 4's stress path toward Type 2: building loyalty through emotional bonds so deep that the line between genuine connection and influence becomes invisible. The attentiveness is real. The care is real. And the manipulation, if that's what it is, operates through the same channel. That's what makes it so difficult to untangle, for the people inside it and for Altman himself.
+These allegations don't describe brute-force domination. They describe the shadow of deep attentiveness: building loyalty through emotional bonds so deep that the line between genuine connection and influence becomes invisible. The attentiveness is real. The care is real. And the manipulation, if that's what it is, operates through the same channel. That's what makes it so difficult to untangle, for the people inside it and for Altman himself.
 
 ## The Counterweight
 
@@ -425,7 +458,7 @@ WHAT FEELS OVERDONE / COULD BE TRIMMED:
 
 - The "being different" theme gets stated explicitly too many times. You make the point in the childhood section, the coming-out section, the Worldcoin section, and the politics section. Trust the reader to carry the thread — you don't need to re-announce it each time. I'd cut at least 2-3 of the explicit "he was different" restatements and let the evidence speak.
 - The political section (Trump reversal + EU lobbying + "politically homeless") is the longest section and it drags. The NPC trap analysis is interesting but the surrounding material — touring world capitals, the EU lobbying, the TED interview — piles on. Pick your two strongest beats and cut the rest. The NPC trap analysis + the "our vision won't change; our tactics will continue to evolve" quote would be enough.
-- The Type 4 counter-type explanation at the top ("If you picture a Type 4, you probably picture a moody artist...") reads like it's written for Enneagram nerds, not general readers. A normal person who clicked on a Sam Altman article doesn't have a mental picture of "a Type 4" to subvert. Consider shortening or weaving it into the evidence sections instead of front-loading it.
+- The opening Type 4 explanation has been shortened so the specialist material can live in the opt-in deep-dive block.
 
 WHAT'S MISSING / SHOULD BE EXPANDED:
 

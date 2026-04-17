@@ -35,10 +35,10 @@ Hook: 9 | Enneagram: 9 | Evidence: 9 | Writing: 9 | Originality: 9
 
 FEEDBACK (2026-02-23):
 - EXCELLENT HOOK: The will scene is devastating — a 27-year-old multimillionaire preparing for death, writing "single" while living with Adept.
-- STRONG ENNEAGRAM ENGINE: Counter-typing, 7w6 wing threading, stress/integration arrows all land.
+- STRONG ENNEAGRAM ENGINE: The obsessive-grind paradox, loyalty thread, and stillness moments all land.
 - SIGNATURE DETAIL: The father's phone call — "You're my little boy!" — reframed as "the one voice that couldn't be drowned out."
 
-REVISION (2026-02-23): Trimmed ~80 lines. Consolidated feuds (Pokimane lead, others referenced). Rewrote stream content section as narrative prose. Deepened MasterChef/cooking as Type 5 integration. Compressed Nyyxxii+Fran. Cut biographical padding, emote details, agent quotes, Forbes/Trump/Drake résumé paragraph.
+REVISION (2026-02-23): Trimmed ~80 lines. Consolidated feuds (Pokimane lead, others referenced). Rewrote stream content section as narrative prose. Deepened MasterChef/cooking as the stillness counterpoint. Compressed Nyyxxii+Fran. Cut biographical padding, emote details, agent quotes, Forbes/Trump/Drake résumé paragraph.
 -->
 
 <p class="firstLetter">In 2023, Félix Lengyel sat down with lawyers and prepared a will.</p>
@@ -61,10 +61,10 @@ That's not dedication. That's the psychology of an [Enneagram Type 7 (The Enthus
 <ul>
 <li><b>Relentless Stimulation-Seeking:</b> 24,500+ hours streamed. Only 85 days off in five years. Jumping between games, gambling, reactions, and roleplay — the activity IS the avoidance.</li>
 <li><b>Pain Avoidance Through Activity:</b> Streaming through ear infections, coughing blood at a football event, ignoring night terrors. Type 7s escape discomfort by never stopping.</li>
-<li><b>The 7w6 Wing:</b> The 6 wing adds loyalty (the Juicers, the M0xyy partnership) and security-seeking (the non-exclusive Kick deal). Excitement balanced by hedging.</li>
+<li><b>Loyalty Under the Chaos:</b> The Juicers, the M0xyy partnership, and the non-exclusive Kick deal show the hedge beneath the thrill-seeking.</li>
 <li><b>The Father Wound:</b> Dr. K identified the root: "It's not validation you weren't getting from your dad, it's your fundamental sense of value." The chaos is the coping.</li>
-<li><b>Counter-Typing:</b> xQc was the #1 Winston player in North America. The obsessive grinding contradicts Type 7 stereotypes — until you realize the game provides constant dopamine. The commitment IS the stimulation.</li>
-<li><b>Integration Glimpses:</b> MasterChef streams and cooking with his brother Nick reveal a calmer xQc. Type 7s grow toward Type 5's depth and presence.</li>
+<li><b>The Overwatch Paradox:</b> xQc was the #1 Winston player in North America. The obsessive grinding looks contradictory until you realize the game provides constant dopamine. The commitment IS the stimulation.</li>
+<li><b>Stillness Glimpses:</b> MasterChef streams and cooking with his brother Nick reveal a calmer xQc: focused, patient, and briefly present.</li>
 </ul>
 </div>
 </details>
@@ -109,7 +109,7 @@ What followed proved him right. He teamed up with fellow streamer M0xyy and rebu
 
 "We needed to show we can do something else. And that something else was sometimes complete garbage. But it mattered to some people."
 
-The 6 wing at work: even the chaos-chaser needs someone to fall with.
+Even the chaos-chaser needs someone to fall with.
 
 ## The Texas Years: Streaming Houses, Swatting, and a Crowbar
 
@@ -173,7 +173,7 @@ This is why people watch: authenticity. In an era of carefully curated content, 
 
 The chaos is the content.
 
-But here's the 7w6 layer most people miss: the community loyalty runs both ways. xQc isn't just an entertainer — he's built something he's fiercely protective of. The Juicers aren't just an audience. They're the 6 wing's need for belonging, externalized. He creates chaos but craves a tribe to witness it.
+But here's the loyalty layer most people miss: the community runs both ways. xQc isn't just an entertainer — he's built something he's fiercely protective of. The Juicers aren't just an audience. He creates chaos but craves a tribe to witness it.
 
 ## The Gambling Spiral: When Stimulation Becomes Addiction
 
@@ -241,11 +241,44 @@ On June 16, 2023, xQc made streaming history.
 
 He signed a two-year, non-exclusive contract with Kick — backed by gambling company Stake — worth a reported $100 million. $70 million guaranteed, $30 million in performance incentives. Guinness World Records certified it as the largest individual esports streaming deal ever.
 
-But here's what made it quintessentially Type 7w6: it was _non-exclusive_. Maximum compensation with maximum freedom — the Type 7 dream. But the non-exclusivity also served the 6 wing: a hedge. If Kick collapsed, he'd still have Twitch. If Twitch changed terms, he'd still have Kick. The thrill-seeker builds a safety net even as he chases the next rush.
+But here's what made it so revealing: it was _non-exclusive_. Maximum compensation with maximum freedom. The non-exclusivity also served as a hedge. If Kick collapsed, he'd still have Twitch. If Twitch changed terms, he'd still have Kick. The thrill-seeker builds a safety net even as he chases the next rush.
 
 Pokimane — who said she and xQc were "close enough" that "he talked to me about his Kick deal before taking it" — offered a blunt counterpoint: "I would rather make $0 and keep my dignity."
 
 As of early 2025, xQc expressed characteristic uncertainty: "I don't know what the future looks like. I genuinely don't even know what in like the next week." The restlessness continues. New city, new chapter, same pattern.
+
+<details class="enneagram-rabbit-hole">
+<summary class="accordion">Enneagram Rabbit Hole: Wings, Subtypes &amp; Connecting Lines for xQc</summary>
+<div class="panel">
+
+<p><em>For Enneagram readers going deep on xQc. Skip if you're here for the story — the rest of the analysis stands on its own.</em></p>
+
+### xQc's Wing: 7w6
+
+xQc reads as 7w6 — the Enthusiast with a Loyalist <a href="/enneagram-corner/enneagram-wings-complete-guide">wing</a>. A 7w8 version of this story would feel more openly dominating: pleasure, conquest, blunt force, fewer visible dependency threads. xQc's chaos has more panic and more hedging in it. The M0xyy partnership after Dallas Fuel, the Juicers as a named tribe, and the non-exclusive Kick contract all point to the same shape: freedom, but with an escape route.
+
+The 6-wing also explains why betrayal hits so hard. Adept asking about the will did not merely create relationship conflict; it broke trust. Pokimane, Kai Cenat, and FaZe conflicts often orbit the accusation that someone is fake. Under the spectacle is a nervous loyalty test: who is real, who stays, who can be trusted when the chaos spikes?
+
+### xQc's Instinctual Subtype: sp/so
+
+xQc reads as self-preservation-dominant with social secondary. The sp-7 signature is appetite and avoidance routed through the body and the base: fast food, Coke, broken sleep, endless streams, gambling losses he reframes as survivable because he can afford them. The <a href="/enneagram-corner/enneagram-instinctual-subtypes">instinct stack</a> is not polished self-care. It is the frantic attempt to keep stimulation, money, platforms, and exits available so stillness never catches him.
+
+Social sits second and carries the audience bond. The Juicers are not just viewers; they are a shared identity with language, rituals, subreddit memory, and years of witnessing him fall apart and return. Sexual reads last despite the relationship turbulence. The will episode is the tell: even while living with someone, he wrote "single." The one-to-one bond never outranks family, survival, platform, and tribe.
+
+### Stress and Growth Arrows
+
+Under pressure, Type 7 moves toward Type 1, and xQc's feuds show the Critic taking over. Pokimane's nostalgia, Kai Cenat friction, FaZe conflict — the pattern is moral accusation: you're fake, you're performing, you're wrong. See <a href="/enneagram-corner/enneagram-connecting-lines">the connecting lines</a> for how 7s can trade playful escape for rigid judgment when the nervous system gets overloaded.
+
+In growth, Type 7 moves toward Type 5. The MasterChef streams, cooking with Nick, and the Dr. K conversation all show rare stretches where he slows down and focuses. No gambling spin, no constant pivot, no desperate next tab. Just interest, patience, and a quieter form of attention. It is not his default setting, but it is visible enough to matter.
+
+### Counterarguments: Why xQc Might Not Be Type 7
+
+The strongest alternate is Type 8. The aggression, rule-breaking, bans, feuds, and refusal to smooth himself for sponsors all look Challenger-like. But 8s usually move toward confrontation to control the environment. xQc moves toward stimulation to avoid the silence inside it. The emotional center of the page is not dominance. It is escape.
+
+Type 6 also has a case: anxiety, loyalty tests, platform hedging, and distrust after the will episode. But a core 6 is organized around threat scanning and security. xQc keeps choosing danger because danger is exciting. Even when he hedges, the hedge exists so he can keep moving. That is Type 7 with a strong 6-wing, not a core Loyalist.
+
+</div>
+</details>
 
 ## The Relationships: Pursuit, Flight, and the Will
 
@@ -301,7 +334,7 @@ When [Pokimane](/personality-analysis/Pokimane) got nostalgic on stream — said
 
 Similar friction with [Kai Cenat](/personality-analysis/Kai-Cenat) and FaZe Clan followed — always the same accusation: _you're not authentic_.
 
-The through-line: xQc charging other people with inauthenticity. Calling out the performance. This is what [Type 7s](/enneagram-corner/enneagram-type-7) look like under pressure — they swing toward [Type 1](/enneagram-corner/enneagram-type-1) judgment, turning the Enthusiast into the Critic. But there's a 6-wing twist: these aren't just criticisms. They're loyalty tests. _Who's real? Who's performing?_ The man who thrives in chaos still needs to know who he can trust in it.
+The through-line: xQc charging other people with inauthenticity. Calling out the performance. Under pressure, the clown mask hardens into the critic. These aren't just criticisms. They're loyalty tests. _Who's real? Who's performing?_ The man who thrives in chaos still needs to know who he can trust in it.
 
 ## MasterChef and the Glimpses of Stillness
 
@@ -317,7 +350,7 @@ Then he started cooking on stream. In July 2022, he spent 30 minutes preparing b
 
 In December 2024, he posted about getting a special gift for Nick: "Took forever to come in but IT ARRIVED! It's a gift for my brother Nick but I'm so happy it's here."
 
-In Enneagram terms, this is what integration looks like for a 7 — a pull toward [Type 5](/enneagram-corner/enneagram-type-5)'s focus and depth. Something captures actual interest, not just the need for noise, and the chaos drops out. xQc stops performing and starts being present. It's rarer than the explosions. But it's there.
+Something captures actual interest, not just the need for noise, and the chaos drops out. xQc stops performing and starts being present. It's rarer than the explosions. But it's there.
 
 The MasterChef streams. The cooking with Nick. The Dr. K conversation where he sat still for an hour. The gift he was so happy to give. These aren't flukes.
 

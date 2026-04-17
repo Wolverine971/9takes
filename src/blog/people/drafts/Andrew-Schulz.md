@@ -35,15 +35,17 @@ Hook: 8.5 | Enneagram: 8 | Evidence: 8 | Writing: 8 | Originality: 7.5
 
 FEEDBACK (2026-02-18):
 - The "Infamous" special buyback story is a strong, concrete opening that reveals personality through action. Financial details ($500K day one, $1M week one, 3x Amazon's offer) give it weight.
-- "His Unusual Relationship with Insecurity" is the piece's best Enneagram section: "You need insecurity. I'm grateful for it." This genuinely shows Type 7 growth toward Type 5 integration.
+- "His Unusual Relationship with Insecurity" is the piece's best Enneagram section: "You need insecurity. I'm grateful for it." This genuinely shows Type 7 maturing into analysis instead of constant escape.
 - The marriage section (rule about clearing premises with Emma, proposal story, IVF openness) effectively shows Type 7 negotiating with commitment.
 - The psychology degree observation is a smart detail: "He didn't just stumble into understanding human behavior. He studied it formally."
 - NEEDS WORK: The Rise to Fame section is heavy on career chronology and light on psychological analysis. What does the Enneagram reveal about Schulz that his own podcast doesn't?
-- NEEDS WORK: Counter-typing (why not Type 3 or Type 8) is mentioned in the TL;DR but not developed in the body. Needs a full section.
+- NEEDS WORK: Alternate-type arguments (why not Type 3 or Type 8) are mentioned in the TL;DR but not developed in the body. Needs a full section.
 - NEEDS WORK: The ending ("What would you build if you refused to let anyone tell you no?") is generic. The strongest line is "making sure no one can tell Andrew Schulz what he's allowed to say or who he's allowed to be" — build the ending around that.
 - NEEDS WORK: Sourcing is lighter than the best pieces — more paraphrasing, fewer direct quotes with specific attributions.
 - NEEDS WORK: The "What Andrew Schulz's Success Reveals" section is a numbered list of observations that reads like a summary, not an insight. Weave into the narrative or cut.
-- TO REACH B+: Add counter-typing section, strengthen Enneagram thread through career sections, sharper ending, cut numbered-list conclusion.
+- TO REACH B+: Add opt-in alternate-type section, strengthen Enneagram thread through career sections, sharper ending, cut numbered-list conclusion.
+
+RETROFIT (2026-04-17): Added the opt-in Enneagram Rabbit Hole block and moved specialist analysis out of the main narrative.
 -->
 
 <!-- // notes:  -->
@@ -65,7 +67,7 @@ That wasn't just business strategy. That was Schulz showing you exactly who he i
 <li><b>Fear of Limitation Drives Everything:</b> Schulz's entire career is built on refusing to be constrained. Not by networks. Not by platforms. Not by cultural expectations. That fear of limitation? It's the core fear of every Type 7.</li>
 <li><b>Reframes Pain as Opportunity:</b> When venues cancel him or platforms demand edits, Schulz transforms rejection into fuel. His "Infamous" special buyback turned a setback into his biggest win. Type 7 positive reframing, executed at the highest level.</li>
 <li><b>Never in One Lane:</b> Podcasting, stand-up, acting, YouTube, merchandise. Schulz refuses to stay in one box. Type 7s are generalists who fear missing out and need variety to feel alive.</li>
-<li><b>The 8 Wing Shows Up in Battle:</b> Unlike gentler Type 7s, Schulz's 7w8 configuration makes him confrontational, willing to clash with anyone who threatens his autonomy. "The future is ownership, not censorship" is pure Type 8 energy.</li>
+<li><b>The Fighter Edge:</b> Unlike gentler Type 7s, Schulz becomes confrontational when anyone threatens his autonomy. "The future is ownership, not censorship" is the whole pattern in one line.</li>
 <li><b>Uses Insecurity as Fuel:</b> Schulz openly discusses needing both confidence AND insecurity to succeed. This self-awareness about his inner turmoil reflects the Type 7's relationship with their own anxiety.</li>
 </ul>
 </div>
@@ -73,15 +75,13 @@ That wasn't just business strategy. That was Schulz showing you exactly who he i
 
 ## What is Andrew Schulz's Personality Type?
 
-### Andrew Schulz is an Enneagram Type 7 with an 8 Wing (7w8)
+### Andrew Schulz is an Enneagram Type 7
 
 Enneagram Type 7s are called "The Enthusiast" because they're hungry. Hungry for new experiences, ideas, and opportunities. But beneath that hunger is something darker: **the fear of being trapped, limited, or deprived of freedom**.
 
 That's Schulz. His entire career has been about tearing down anything that could box him in. Networks. Streaming platforms. Cultural gatekeepers. Even the traditional comedy club circuit. He's gone after all of them.
 
-The [8 wing](/enneagram-corner/enneagram-type-8) adds a combative edge that pure 7s often lack. While a 7w6 might seek safety in alliances and structures, the 7w8 fights for independence. These are the entrepreneurs, the disruptors, the ones who'd rather build their own empire than ask permission to join someone else's.
-
-Put those together and you get someone who's optimistic but ready to fight. Forward-looking but protective of what's his. Charming until you cross him, then brutally direct.
+Schulz's version of the pattern is especially combative. He is optimistic, fast, and future-focused, but he is also protective of what he owns. Charming until you cross him, then brutally direct.
 
 ## What Schulz's Comedy Actually Looks Like
 
@@ -125,7 +125,7 @@ Schulz's path to comedy wasn't direct. He was managing a restaurant in New York 
 
 But the traditional comedy path wasn't working. Networks weren't calling. Streaming deals weren't materializing. For many comedians, this would mean giving up or grinding indefinitely.
 
-**For a Type 7w8, it meant building something new.**
+**For Schulz, it meant building something new.**
 
 Around 2017, Schulz noticed something: the gatekeepers were failing comedians. Specials sat unreleased. Content got edited. Voices got sanitized.
 
@@ -155,7 +155,7 @@ BAM claimed the decision was made before the Trump episode dropped. Schulz didn'
 
 What did Schulz do? He booked the Beacon Theatre instead. A bigger, more prestigious venue. And he made sure to mention that Flagrant had also invited Kamala Harris to appear. Her team declined.
 
-That's the 7w8 playbook: when someone tries to limit you, find a bigger stage.
+That's the Schulz pattern: when someone tries to limit you, find a bigger stage.
 
 ## The Psychology of Control
 
@@ -185,7 +185,40 @@ That's unusual for a Type 7. Sevens typically avoid negative emotions. They'd ra
 
 But Schulz has figured out how to **use** his anxiety instead of running from it. He's turned the fear of not being good enough into fuel for improvement.
 
-That's healthy growth. When Sevens mature, they move toward [Type 5](/enneagram-corner/enneagram-type-5). They get more analytical. More willing to sit with discomfort. More strategic. Schulz's psychology degree and the methodical way he's built his empire show he's reached this level.
+That is the part of Schulz that keeps the freedom-seeking from becoming pure avoidance. The psychology degree, the methodical distribution strategy, and the willingness to study his own insecurity show someone learning to sit with discomfort long enough to make it useful.
+
+<details class="enneagram-rabbit-hole">
+<summary class="accordion">Enneagram Rabbit Hole: Wings, Subtypes &amp; Connecting Lines for Andrew Schulz</summary>
+<div class="panel">
+
+<p><em>For Enneagram readers going deep on Andrew Schulz. Skip if you're here for the story — the rest of the analysis stands on its own.</em></p>
+
+### Andrew Schulz's Wing: 7w8
+
+Schulz reads as 7w8 — the Enthusiast with a Challenger <a href="/enneagram-corner/enneagram-wings-complete-guide">wing</a>. A 7w6 version would still chase options, jokes, and novelty, but would lean harder on alliances, group safety, and reassurance from trusted people. Schulz goes the other direction. When a platform, venue, or audience tries to contain him, he attacks the limit and builds around it.
+
+The 8-wing explains why his optimism has teeth. Buying back "Infamous" was not just a clever distribution bet; it was a refusal to let Amazon define the acceptable version of his voice. The BAM cancellation produced the same response: bigger room, louder posture, no apology. The freedom hunger is Type 7. The instinct to meet pressure with force is the 8-wing.
+
+### Andrew Schulz's Instinctual Subtype: sp/so
+
+Schulz reads as self-preservation dominant with social second. The sp-7 pattern is not only pleasure-seeking; it is also resource-building, opportunity stacking, and making sure no one can trap you because you have options. The direct audience, owned specials, podcasts, YouTube channels, merchandise, touring model, and willingness to risk his savings all fit the <a href="/enneagram-corner/enneagram-instinctual-subtypes">instinct stack</a>.
+
+Social sits second because the empire is not private. Flagrant is a room, a network, a status engine, and a stage where proximity to Rogan, Charlamagne, Trump, comedians, and fans becomes part of the product. Sexual reads last: Schulz can be intense, but the dominant pattern is not one-to-one fusion. It is freedom through ownership plus leverage through audience.
+
+### Stress and Growth Arrows
+
+Under stress, Type 7 moves toward Type 1. Schulz's controversies show that edge: the playful provocateur can harden into moral certainty about censorship, free speech, and who is allowed to tell him no. When challenged, the joking register turns prosecutorial. The target becomes the limit itself.
+
+In growth, Type 7 moves toward Type 5. See <a href="/enneagram-corner/enneagram-connecting-lines">the connecting lines</a> in his relationship with insecurity. Instead of outrunning anxiety, Schulz studies it, uses it, and builds systems from it. The psychology degree, the business model, and the IVF/fatherhood material in "LIFE" all show depth replacing pure escape.
+
+### Counterarguments: Why Andrew Schulz Might Not Be Type 7
+
+Type 8 is the obvious alternate. Schulz is confrontational, autonomy-driven, and willing to burn bridges. But 8s usually lead with control and protection. Schulz leads with possibility. Even the fights become new stages, new clips, new products, and new routes around constraint.
+
+Type 3 also has a case because the career architecture is polished and ambitious. But the emotional engine is not primarily status. He is not trying to look acceptable to the room. He is trying to make sure the room cannot cage him. That fear of limitation is the Type 7 tell.
+
+</div>
+</details>
 
 ## Controversies and Criticism
 
@@ -195,7 +228,7 @@ No analysis of Schulz would be complete without addressing the controversies. An
 
 Schulz's response? He doubled down on Flagrant, making sexual jokes about Kendrick and saying "the only thing he could do is decide if it's consensual or not." Four months later on The Breakfast Club, he was still making references to wanting to "make love" to Lamar, this time referencing Kendrick's Super Bowl halftime outfit.
 
-That's 7w8: attacked, so attack harder. Louder, this time.
+That's Schulz: attacked, so attack harder. Louder, this time.
 
 **Venue cancellations:** Massey Hall in Toronto canceled his shows after "researching" his material. The Brooklyn Academy of Music canceled his special after he hosted Trump on Flagrant.
 
@@ -203,7 +236,7 @@ That's 7w8: attacked, so attack harder. Louder, this time.
 
 What's interesting is that Schulz doesn't back down from any of this. He leans in.
 
-For a 7w8, criticism doesn't trigger retreat. It triggers attack. The 8 wing means Schulz feels any attempt to silence him as an attack on his freedom. When 8s feel attacked, they push harder.
+For Schulz, criticism doesn't trigger retreat. It triggers attack. He experiences attempts to silence him as attacks on his freedom, so the pressure makes him push harder.
 
 He's said that "censorship is kind of good for comedy" because it makes certain voices louder and more culturally powerful. That's not contrarian posturing. It's a genuine belief that constraint creates resistance, and resistance creates power.
 
@@ -237,6 +270,6 @@ And he's very, very good at making sure he never is.
 
 Every joke that pushes boundaries, every platform he builds, every deal he walks away from comes back to the same thing: **making sure no one can tell Andrew Schulz what he's allowed to say or who he's allowed to be.**
 
-Schulz hasn't just built a career. He's built a structure specifically engineered around his own psychology. The 7w8 who can't stand being trapped didn't fight the feeling — he made it architecturally impossible for anyone to put a ceiling on him. Direct distribution. Owned content. No network with veto power. When the Brooklyn Academy of Music dropped him after the Trump episode, he booked the Beacon Theatre. Bigger room, no apology.
+Schulz hasn't just built a career. He's built a structure specifically engineered around his own psychology. The comedian who can't stand being trapped didn't fight the feeling — he made it architecturally impossible for anyone to put a ceiling on him. Direct distribution. Owned content. No network with veto power. When the Brooklyn Academy of Music dropped him after the Trump episode, he booked the Beacon Theatre. Bigger room, no apology.
 
-The 2025 Netflix special "LIFE" complicates this neatly. The material is about IVF, fatherhood, Emma. Softer material, not his comfort zone. Critics called the shift awkward. Schulz kept going anyway. A 7w8 who's genuinely maturing doesn't abandon the fight — he expands what he's willing to fight for.
+The 2025 Netflix special "LIFE" complicates this neatly. The material is about IVF, fatherhood, Emma. Softer material, not his comfort zone. Critics called the shift awkward. Schulz kept going anyway. A freedom addict who's genuinely maturing doesn't abandon the fight — he expands what he's willing to fight for.

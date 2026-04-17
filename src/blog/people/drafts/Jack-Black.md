@@ -55,10 +55,10 @@ This origin story matters because it sets up the central question of Jack Black'
 <div class="panel">
 <ul>
 <li><b>Boundless energy as survival:</b> Jack's manic, larger-than-life performances aren't manufactured. They emerged from a childhood where staying positive was the only way to cope — parents' divorce at 10, brother's death from AIDS, cocaine addiction at 15.</li>
-<li><b>The non-obvious tell:</b> What makes Jack a fascinating Type 7 isn't the chaos. It's the moments he <i>chooses restraint</i>. Insisting on playing the straight man in Anaconda. Requesting 32 takes for a love scene in Shallow Hal. Delivering a subdued, devastating performance in Bernie. A 7 who can voluntarily rein in his energy has done real inner work.</li>
-<li><b>Under stress, he becomes a Type 1:</b> When crisis hits, Jack's playfulness vanishes. He becomes rigid, principled, and decisive — canceling an entire world tour overnight over Kyle Gass's Trump comment. No hedging, no humor. Just moral clarity.</li>
-<li><b>In growth, he becomes a Type 5:</b> The self-proclaimed "hermit" who meditates, contemplates moral complexity, and chose acting because he "felt like he connected to something emotional and real." Not the man you'd expect from the TikTok videos.</li>
-<li><b>The <a href="/enneagram-corner/enneagram-type-8">8 wing</a> adds edge:</b> Unlike Type 7s who avoid conflict, Jack's 7w8 personality gives him bold, assertive stage presence and the backbone to set boundaries when it counts.</li>
+<li><b>The non-obvious tell:</b> What makes Jack fascinating isn't the chaos. It's the moments he <i>chooses restraint</i>. Insisting on playing the straight man in Anaconda. Requesting 32 takes for a love scene in Shallow Hal. Delivering a subdued, devastating performance in Bernie. An Enthusiast who can voluntarily rein in his energy has done real inner work.</li>
+<li><b>Under stress, the showman vanishes:</b> When crisis hits, Jack's playfulness is replaced by something rigid and principled — canceling an entire world tour overnight over Kyle Gass's Trump comment. No hedging, no humor. Just moral clarity.</li>
+<li><b>In growth, he goes inward:</b> The self-proclaimed "hermit" who meditates, contemplates moral complexity, and chose acting because he "felt like he connected to something emotional and real." Not the man you'd expect from the TikTok videos.</li>
+<li><b>The edge underneath:</b> Jack doesn't avoid conflict the way softer performers do. The bold stage presence and the backbone to set boundaries are his signature, not a glitch.</li>
 </ul>
 </div>
 </details>
@@ -97,7 +97,7 @@ What saved Jack? A school counselor. And the moment was more profound than a sim
 
 "I spilled my guts, telling him I felt guilty about stealing from my mom to get money for cocaine. I cried like a baby. It was a huge release and a huge relief... It changed me."
 
-That moment — sitting with painful truth rather than fleeing it — was the first time Jack accessed the depth that would later define his best work. In Enneagram terms, it was his first movement toward [Type 5](/enneagram-corner/enneagram-type-5): going inward instead of outward, processing instead of performing.
+That moment — sitting with painful truth rather than fleeing it — was the first time Jack accessed the depth that would later define his best work. It was his first time going inward instead of outward, processing instead of performing.
 
 Early in his career, people told Jack he was "the next John Belushi or Chris Farley." He understood the compliment came with a sting — both died young from substance abuse. Jack described wanting Belushi's "hangability quotient" and acknowledged they shared "a similar raunchy energy." But he consciously diverged from the self-destructive template. He doesn't like getting drunk, hates big parties, and feels self-conscious dancing in public. The explosive comedy doesn't require a destructive lifestyle. That distinction may have saved his life.
 
@@ -119,7 +119,7 @@ The result? "Let's be honest, the film belongs to Jack Black," critics noted. "A
 
 His performance was so good it arguably disrupted the film's balance, making John Cusack's brooding lead feel indulgent by comparison. In an interview with GQ, Black called it his "big breakthrough role."
 
-What happened next reveals something important. After High Fidelity, Jack "rose too fast and got what you would call celebrity sickness." But unlike many who ride that wave until it crashes, he self-corrected: "I got my bearings after a couple of years." That capacity for self-correction — recognizing excess and pulling back — is the Type 7 moving toward Type 1's discipline. It's a pattern that would repeat throughout his career.
+What happened next reveals something important. After High Fidelity, Jack "rose too fast and got what you would call celebrity sickness." But unlike many who ride that wave until it crashes, he self-corrected: "I got my bearings after a couple of years." That capacity for self-correction — recognizing excess and pulling back — is a pattern that would repeat throughout his career.
 
 ### Why "School of Rock" Matters to Jack
 
@@ -131,7 +131,7 @@ Parents on set were initially nervous about Jack's influence. Jordan-Claire Gree
 
 Instead, Jack was "amazing" behind the scenes. Miranda Cosgrove said he was "the best" and would play games with the young cast members between takes.
 
-This reveals something important about Type 7s with an [8 wing](/enneagram-corner/enneagram-type-8): **they're often unexpectedly protective and generous with people they care about.** The character of Dewey Finn — an underestimated rebel who inspires everyone around him — wasn't far from the man playing him. Jack's favorite film is **One Flew Over the Cuckoo's Nest**, and Jack Nicholson's Randle McMurphy haunts every role Jack plays. Wild, rebellious, ignoring social conventions, but ultimately fighting for the people the system has failed.
+This reveals the protective instinct running underneath the chaos: **Jack is often unexpectedly generous with the people he cares about.** The character of Dewey Finn — an underestimated rebel who inspires everyone around him — wasn't far from the man playing him. Jack's favorite film is **One Flew Over the Cuckoo's Nest**, and Jack Nicholson's Randle McMurphy haunts every role Jack plays. Wild, rebellious, ignoring social conventions, but ultimately fighting for the people the system has failed.
 
 ### The Nacho Libre Cult
 
@@ -145,13 +145,13 @@ Like many of his characters (Po in Kung Fu Panda, Dewey Finn in School of Rock),
 
 TikTok and meme culture have only expanded the film's reach. A new generation discovered Nacho Libre through viral sounds and quotes, proving that genuine weirdness ages better than calculated cool.
 
-## When the Showman Goes Quiet: Stress and Growth
+## When the Showman Goes Quiet
 
-This is where the Enneagram framework reveals something about Jack Black that pure biography misses.
+There are two Jack Blacks that almost nobody talks about, and both live underneath the TikTok dances and the power ballads.
 
-In the Enneagram system, each type has a **stress direction** and a **growth direction** — predictable shifts in behavior that emerge under specific conditions. For Type 7s, stress pushes them toward [Type 1](/enneagram-corner/enneagram-type-1) (rigid, critical, black-and-white thinking), while growth pulls them toward [Type 5](/enneagram-corner/enneagram-type-5) (focused, contemplative, willing to sit with depth).
+The first is the Jack who snaps rigid and principled under pressure — the one who canceled a tour overnight. The second is the Jack who goes quiet and inward when he's healthy — the hermit who meditates, studies a convicted murderer for a role, comes back with questions instead of answers.
 
-Jack Black exhibits both patterns clearly. And they're far more psychologically interesting than his onstage manic energy.
+Both patterns are far more psychologically interesting than his onstage manic energy.
 
 ### Under Stress: The Sudden Perfectionist
 
@@ -159,11 +159,11 @@ When pressure hits, Jack's anything-goes playfulness vanishes. He becomes exacti
 
 On filming a love scene in **Shallow Hal**: "It was just strictly professional. It was like a doctor or a carpenter plying his trade. I received no pleasure whatsoever... I requested 32 takes for the perfection of the craft."
 
-This is not the man you see doing shirtless TikTok dances. This is a Type 7 who has snapped into Type 1 mode — approaching work with clinical precision rather than spontaneous joy.
+This is not the man you see doing shirtless TikTok dances. This is the same person approaching work with clinical precision rather than spontaneous joy — the playfulness replaced by something far more exacting.
 
 Fatherhood triggered the same shift. "What surprised me is how much I worry," he said. "I've had to be responsible now. I've got to figure out the right thing to do in all these different situations that I had never really paid attention to before."
 
-The language is telling. "The right thing to do." Not "the fun thing" or "the exciting thing." That's a 7 operating in 1 territory — rule-following, anxious about correctness, suddenly concerned with moral duty.
+The language is telling. "The right thing to do." Not "the fun thing" or "the exciting thing." Rule-following. Anxious about correctness. Suddenly concerned with moral duty. That's the same snap-to-principle pattern that runs through every one of Jack's high-stakes moments.
 
 The most dramatic example came in July 2024.
 
@@ -183,7 +183,7 @@ Kyle Gass later revealed: "We hashed it out. And it was hard." He compared their
 
 But here's where Jack's underlying 7 nature resurfaced. He maintained the friendship. He expressed optimism. "Yeah, we're friends. That hasn't changed. These things take time sometimes... And we'll be back when it feels right." By 2025, they'd released new music together — an REO Speedwagon cover on a charity record.
 
-**Address it directly. Set the boundary. Then move forward.** That's a [7w8](/enneagram-corner/enneagram-type-7) who's learned to use his stress direction constructively rather than being consumed by it.
+**Address it directly. Set the boundary. Then move forward.** That's a showman who's learned to use the severity constructively rather than being consumed by it.
 
 ### In Growth: The Hermit and the Philosopher
 
@@ -193,7 +193,7 @@ Despite his larger-than-life public persona, Jack describes himself as a "hermit
 
 He meditates. He practices visualization. He uses stretching and sleep as deliberate anxiety-coping tools. "You don't want to focus on what can go wrong," he's said. "You've got to focus on what could go right."
 
-A Type 7 developing an intentional mental discipline practice is significant. It's the movement toward Type 5 — from scattershot enthusiasm to focused inner work.
+A man whose career runs on chaotic improvisation building an intentional mental-discipline practice is significant. The scattershot enthusiasm that defines his public self has a quieter twin that appears when the cameras go off.
 
 The deepest expression of this growth came in **Bernie** (2011). Richard Linklater cast Jack as Bernie Tiede, a small-town mortician who murders a wealthy widow. Jack spent time with the real Tiede in prison, studying his mannerisms, his "very soft and sweet" personality. He suppressed every instinct that had made him famous — the manic energy, the blustery confidence, the lovable lunacy.
 
@@ -201,11 +201,44 @@ Roger Ebert called it "one of the performances of the year." He noted that Jack 
 
 Jack acknowledged the pressure: "There's a lot of pressure... it's a tricky spot to be in when you want to be funny, but this is a person's life you're playing with."
 
-This is a 7 in growth. Not chasing stimulation. Not fleeing pain. Sitting with a complex, morally ambiguous character and giving him depth. Jack once told Parade that acting attracted him most when he "felt like he connected to something emotional and real." That's not the statement of someone who's just performing chaos. That's someone reaching toward meaning.
+This is Jack at his healthiest. Not chasing stimulation. Not fleeing pain. Sitting with a complex, morally ambiguous character and giving him depth. Jack once told Parade that acting attracted him most when he "felt like he connected to something emotional and real." That's not the statement of someone who's just performing chaos. That's someone reaching toward meaning.
 
 Perhaps the most revealing quote: "Before we snap to judge someone who's done a horrible crime, is it possible that all of us in the worst possible circumstances could be capable of something like that? So it's about not judging people before really considering what the circumstance was."
 
 That's not the Kung Fu Panda guy talking. That's someone who spent real time with a convicted murderer, sat with what he found, and came back with questions instead of answers. The man who plays the loudest character in every movie quietly contemplates moral nuance when no one's watching.
+
+<details class="enneagram-rabbit-hole">
+<summary class="accordion">Enneagram Rabbit Hole: Wings, Subtypes &amp; Connecting Lines for Jack Black</summary>
+<div class="panel">
+
+<p><em>For the Enneagram nerds. Skip if you're not deep into the system — the rest of the analysis stands on its own.</em></p>
+
+### Jack Black's Wing: 7w8
+
+Jack reads as 7w8 — the Enthusiast with a Challenger <a href="/enneagram-corner/enneagram-wings-complete-guide">wing</a>. A 7w6 is softer, more anxious, more dependent on the group's approval for safety. Jack has visible 8-wing edge: the bombastic stage presence, the backbone to cancel a world tour over a political comment, the protective instinct that kept the School of Rock kids safe on set. When a 7w8 commits, the commitment lands with weight. 7w6s apologize their way through conflict; 7w8s draw the line and walk away.
+
+The 8-wing is what makes Tenacious D work as a performance mode. Pure 7s don't scream operatic metal. They need the 8's body-level intensity to push the voice past speaker-cone levels. Same wing shows up in the three-octave range he built without classical training and in the willingness to be publicly ridiculous without flinching.
+
+### Jack Black's Instinctual Subtype: sp/so
+
+Jack reads as self-preservation-dominant with social secondary. The sp-7 signature is the hermit baseline. "I don't like getting drunk, hate big parties, feel self-conscious dancing in public." Sleep late. All-night movie marathons. Video games on Xbox. Sp-7s chase appetite at home, not in crowds. The <a href="/enneagram-corner/enneagram-instinctual-subtypes">instinct</a> runs on securing the comfortable base — which is why the TikTok shirtless-in-a-speedo videos work: they're performed from a place of private self-acceptance, not exhibitionist need.
+
+Social sits second and carries the principled public work. 21 charities, 16 causes. The tour-cancellation statement sounding "reviewed by a lawyer and a priest." The long steady partnership with Tanya. The protectiveness over the School of Rock kids. Sexual sits last. A 15-year shy crush you never act on is not an sx-first move; neither is a career almost entirely free of relationship drama.
+
+### Stress and Growth Arrows
+
+Under pressure, Jack reaches toward Type 1. The Kyle Gass cancellation is the clearest case — no hedging, no humor, formal language that sounds "reviewed by a lawyer and a priest." The Shallow Hal 32-takes ("strictly professional… I received no pleasure whatsoever") is the same mechanism in a smaller frame. Fatherhood language: "I've got to figure out the right thing to do." 7-in-stress borrows the Reformer's rigidity without the Reformer's usual framework to hold it.
+
+In growth he moves toward Type 5. The school counselor breakthrough at 15 — spilling his guts, crying, actually sitting with the guilt — was his first time going inward. The Bernie performance came from prison visits and studying a convicted murderer's soft voice. Meditation, visualization, stretching as anxiety tools. See <a href="/enneagram-corner/enneagram-connecting-lines">the connecting lines</a> for how 7s borrow 5's depth when they stop running.
+
+### Counterarguments: Why Jack Might Not Be Type 7
+
+The strongest alternate read is Type 3. The career success, the range across comedy, music, voice acting, TikTok, the capacity to charm any audience. 3s and 7s both look energetic from the outside and both know how to land a performance.
+
+The rebuttal: 3s curate their image carefully, adapting presentation to the audience's reward signals. Jack is the opposite shape — un-curated, anti-image. Shirtless in a red speedo getting hosed down for TikTok. Shirtless in a green tracksuit with a red mohawk rising from under the Barclays Center stage. These aren't 3-calibrated image moves; they're 7s following the next fun thing without filtering for status. The 7's appetite signature shows up in the variety itself: Jack doesn't pick one arena and optimize it. He goes wide because narrowing feels like cage.
+
+</div>
+</details>
 
 ## Jack Black's Mind: Quirks, Habits, and Hidden Depths
 

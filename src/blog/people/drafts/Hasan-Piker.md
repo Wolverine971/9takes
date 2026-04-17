@@ -69,7 +69,7 @@ Love him or hate him (and most people do one or the other), you have to ask: wha
 
 They fear being harmed or controlled, so they project strength to prevent vulnerability. They'd rather be respected than liked. They fight hard for what they believe in. Sometimes too hard.
 
-Personality typing communities consistently place Hasan as an 8w7 (Eight with a Seven wing), called "the Maverick." This subtype fuses the Eight's confrontational energy with the Seven's enthusiasm and intellectual restlessness.
+Hasan carries an additional current that's easy to miss in the shouting: a restlessness and appetite for variety that keeps him inside eight-hour streams without the rage burning out.
 
 "I don't think masculinity is associated with MAGA," Hasan has said. "I think what we consider to be masculine is just confidence and a demonstration of leadership skills."
 
@@ -257,7 +257,7 @@ The rage is real. But so are the moments of absurdity and genuine fun.
 
 A significant chunk of his streams aren't political at all. He'll disappear into GTA roleplay on NoPixel servers for 10+ hours, fully inhabiting a character. He co-hosts the Fear& podcast with Will Neff, QTCinderella, and AustinShow. He collaborates with <a href="/personality-analysis/Kai-Cenat">Kai Cenat</a>, another streaming giant with completely different energy. He "ruminates endlessly on the legacy of LeBron James."
 
-The political stuff lands harder because it's surrounded by entertainment. And for an 8w7—where the Seven wing craves stimulation, variety, and intellectual restlessness—this isn't just strategy. Hasan needs all of it to stay engaged. The moment he gets bored, he moves to the next thing.
+The political stuff lands harder because it's surrounded by entertainment. For someone wired for stimulation, variety, and intellectual restlessness, this isn't just strategy. Hasan needs all of it to stay engaged. The moment he gets bored, he moves to the next thing.
 
 ### Chat: The Love-Hate Relationship
 
@@ -359,13 +359,13 @@ The "authoritarian apologism" critique cuts deeper. Critics on the left argue th
 
 These aren't bad-faith attacks. They're the specific failure mode of a Type 8 running on opposition as a worldview: the thing that makes him impossible to co-opt also makes him impossible to course-correct.
 
-## The Stress and Security of a Type 8
+## Burnout and the Softer Side
 
-To understand Hasan, you need to see how Type 8s function under pressure and when they feel safe.
+To understand Hasan, you need to see both what happens when the fight drains him and what shows up when he actually feels safe.
 
-### Under Stress: Moving Toward 5
+### Under Pressure: The Withdrawal
 
-When overwhelmed, Type 8s take on negative characteristics of <a href="/enneagram-corner/enneagram-type-5">Type 5</a>. They become withdrawn, paranoid, isolated.
+When the machine overloads, the relentless presence fades. He becomes quieter, more guarded, visibly worn.
 
 By late 2025, observers noted concerning changes in Hasan's demeanor. He was experiencing "serious personal and professional strain," visible in his energy, engagement, and overall presence on stream.
 
@@ -373,15 +373,48 @@ The stressors were layered: sustained harassment campaigns (including viral fake
 
 He has experienced SWATTING, federal interrogation, and believes he is under government surveillance. Journalist Taylor Lorenz noted: "He gets the entire internet weaponized against him. He is the only straight man I've ever seen that has been Gamergated."
 
-This is the Type 8 nightmare: being attacked from all sides with no safe space. The response is often to retreat further into work and isolation.
+This is the nightmare for someone built like Hasan: being attacked from all sides with no safe space. The response is to retreat further into work and isolation.
 
-By early 2026, Hasan told CNN he wants to "stream less in 2026." For a Type 8 who's built his entire identity around relentless output, this admission signals serious burnout. Whether he'll actually follow through remains unclear. Type 8s rarely surrender territory voluntarily.
+By early 2026, Hasan told CNN he wants to "stream less in 2026." For someone who's built his entire identity around relentless output, that admission signals serious burnout. Whether he'll actually follow through remains unclear. People wired like Hasan rarely surrender territory voluntarily.
 
-### In Security: Moving Toward 2
+### In Health: The Warmer Register
 
-When healthy, Type 8s access the positive qualities of <a href="/enneagram-corner/enneagram-type-2">Type 2</a>: becoming warmer, more nurturing, focused on helping others.
+When the intensity turns toward people instead of against an enemy, it becomes something closer to nurture.
 
-You see this in the charitable drives detailed above, but also in smaller moments. "I say no all the time to a lot of deals, like a lot of money," he's said about turning down offers that conflict with his values. His manager fielded a $1 million offer from a betting platform for election night. Hasan said no. When the Eight is healthy, the intensity that infuriates critics becomes the engine for defending boundaries and helping the powerless.
+You see this in the charitable drives detailed above, but also in smaller moments. "I say no all the time to a lot of deals, like a lot of money," he's said about turning down offers that conflict with his values. His manager fielded a $1 million offer from a betting platform for election night. Hasan said no. When the armor softens, the intensity that infuriates critics becomes the engine for defending boundaries and helping the powerless.
+
+<details class="enneagram-rabbit-hole">
+<summary class="accordion">Enneagram Rabbit Hole: Wings, Subtypes &amp; Connecting Lines for Hasan Piker</summary>
+<div class="panel">
+
+<p><em>For the Enneagram nerds. Skip if you're not deep into the system — the rest of the analysis stands on its own.</em></p>
+
+### Hasan Piker's Wing: 8w7
+
+Hasan reads as 8w7 — the Challenger with an Enthusiast <a href="/enneagram-corner/enneagram-wings-complete-guide">wing</a>. An 8w9 would be stoic, rooted, less stimulation-seeking — a heavier, slower version of the same protective drive. Hasan is the opposite. The content format is built on restlessness: eight-hour streams jumping between Candace Owens clips, viral TikToks, Valorant matches, NoPixel roleplay, _One Piece_ reactions, then back to the news. The 7-wing keeps the attention burning even when the outrage well runs dry.
+
+The 7-wing also explains the pivot velocity — podcast deals, charity streams, GTA roleplay, debate events, Fear& collaborations, the Debatelords pie-throwing. A pure 8 doesn't willingly take a pie to the face for $50,000 in charity. 8w7 does, because the stimulation is part of the reward and the cause rides along with it. 8w9s conserve energy; 8w7s keep the tank full by constantly generating new arenas to enter.
+
+### Hasan Piker's Instinctual Subtype: so/sp
+
+Hasan reads as social-dominant with self-preservation secondary. The so-8 signature is the organizing-instinct — 3 million followers built around a collective political identity, $1.3 million raised for Turkey-Syria in four days, $1 million for Gaza, the "persuade, not scold" framing aimed at moving young men left. The <a href="/enneagram-corner/enneagram-instinctual-subtypes">instinct stack</a> runs on group alignment and protection of the in-group. So-8s are the protective-leader variant — the type that rallies the collective against a common enemy.
+
+Self-preservation sits second and carries the body-and-base work. The 6'4" bodybuilder frame. The one-to-two-hour daily workout. The $2.74M Beverly Grove house. The ZYN pouches, cold brew, zero-sugar sodas, and stacks of fuel on the desk. The mom bringing snacks mid-stream. Sexual sits last. One publicly confirmed relationship since 2018, notable privacy about romantic life, no visible fusion-intensity pattern.
+
+### Stress and Growth Arrows
+
+Under pressure, Hasan reaches toward Type 5. By late 2025, observers noted concerning changes — "serious personal and professional strain," drained energy on stream, visible wear. Sustained harassment, SWATTING, federal interrogation, the belief he's under government surveillance — these stack into the 8-in-stress pattern of withdrawal, suspicion, and isolation. He's telling CNN he wants to stream less. For someone whose entire operating system runs on relentless output, that admission is 5-territory.
+
+In growth he moves toward Type 2. The protective intensity softens into something closer to nurture. $1.3 million raised for earthquake relief, personally donating $45,000. $150,000 raised in the first fifteen minutes of a single stream. Turning down a $1 million betting-platform offer because it conflicted with his values. See <a href="/enneagram-corner/enneagram-connecting-lines">the connecting lines</a> for how 8s borrow 2's warmer register when the intensity turns toward the people rather than against an enemy.
+
+### Counterarguments: Why Hasan Might Not Be Type 8
+
+The strongest alternate read is Type 1. The moral clarity, the "persuade not scold" framing, the explicit ethical scaffolding ("I would never condone hate speech"), the policy-list rigor, the Reformer's preoccupation with injustice. 1s and 8s share a gut-center anger signature and both show up in political roles.
+
+The rebuttal: 1s have an internalized critic and apologize when it catches them crossing a line. Hasan never does. When his own viewers challenge him on contradictions, when critics from his own side point out inconsistencies, when the 9/11 comment cost him a Twitch ban — he holds. 1s run hot with suppressed anger filtered through "should"; 8s run hot with expressed anger routed through "will." The anger routing is the tell. Hasan's anger is visible, immediate, and unfiltered. That's 8 energy. A 1 in his position would have issued the clean apology years ago — and felt better for it.
+
+</div>
+</details>
 
 ## Legacy and Current Work: The Streamer Who Changed Political Media
 

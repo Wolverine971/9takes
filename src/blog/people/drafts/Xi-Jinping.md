@@ -36,9 +36,11 @@ Hook: 9 | Enneagram: 9 | Evidence: 9 | Writing: 9 | Originality: 9
 FEEDBACK (2026-03-14):
 - SIGNATURE DETAIL: The father drinking cheap liquor and crying alone on Xi's birthday — and the birthday letter signed "Son. Jinping. Kowtow." — are the emotional spine of this piece. They make the Type 8 armor thesis visceral rather than theoretical.
 - BEST LINE: "He built a system that can't function without him. Then he complained that it can't function without him." — this is the kind of insight that justifies the Enneagram framework. Also: "Detention camps are detention camps. That sentence has to survive the psychological framing, and it does" — rare moral clarity in a personality analysis.
-- ENNEAGRAM AS ENGINE: Belt and Road as anti-isolation psychology, reading as Type 5 stress retreat, zero-COVID as Type 8 rigidity — every major initiative is explained through the type without feeling forced.
+- ENNEAGRAM AS ENGINE: Belt and Road as anti-isolation psychology, reading as pressure retreat, zero-COVID as Type 8 rigidity — every major initiative is explained through the type without feeling forced.
 - NEEDS WORK: FAQs section is the weakest part — "Is Xi Jinping a dictator?" reads like generic SEO padding compared to the quality of the analysis sections. Consider trimming to 3 FAQs max and making them sharper.
-- TO REACH A+: (1) Add explicit wing discussion — Xi likely has a strong 9 wing (patience, strategic waiting) which distinguishes him from 8w7 leaders like Trump. (2) Address counter-typing: Xi's controlled, patient demeanor doesn't match the stereotypical loud Type 8 — explain why. (3) Trim or sharpen FAQs. (4) The opening quote is good but consider leading with the cave scene directly for maximum impact — "In 1969, a fifteen-year-old boy climbed off a train in rural Shaanxi..." would hit harder than starting with the proverb.
+- TO REACH A+: (1) Add explicit adjacent-type discussion — Xi's patience and strategic waiting distinguish him from louder leaders like Trump. (2) Address alternate readings: Xi's controlled, patient demeanor doesn't match the stereotypical loud Type 8 — explain why. (3) Trim or sharpen FAQs. (4) The opening quote is good but consider leading with the cave scene directly for maximum impact — "In 1969, a fifteen-year-old boy climbed off a train in rural Shaanxi..." would hit harder than starting with the proverb.
+
+RETROFIT (2026-04-17): Added the opt-in Enneagram Rabbit Hole block and moved specialist analysis out of the main narrative.
 -->
 
 > "The knife is sharpened on a stone, people are strengthened in adversity."
@@ -56,7 +58,7 @@ The distance from that cave to Zhongnanhai isn't a rags-to-riches story. It's wh
 <li><b>Trauma-forged strength:</b> Xi survived the Cultural Revolution's destruction of his family and emerged with the classic Type 8 belief: vulnerability equals death.</li>
 <li><b>Control as survival:</b> Type 8s fear being controlled or harmed by others. Xi has centralized power more than any leader since Mao, not from simple ambition but from a psychological need to never be powerless again.</li>
 <li><b>Protector identity:</b> Healthy Type 8s become fierce protectors. Xi frames himself as defending China from foreign threats and corrupt officials, drawing on his seven years among peasants.</li>
-<li><b>Stress pattern to Type 5:</b> Under pressure, Type 8s become secretive, rigid, and withdrawn like unhealthy <a href="/enneagram-corner/enneagram-type-5">Type 5s</a>. Xi's zero-COVID response showed classic disintegration: doubling down on failing policies rather than admitting error.</li>
+<li><b>Pressure pattern:</b> Under pressure, Xi becomes secretive, rigid, and withdrawn. The zero-COVID response showed the pattern clearly: doubling down on a failing policy rather than admitting error.</li>
 <li><b>Emotional fortress:</b> Lee Kuan Yew compared Xi to Nelson Mandela for his "enormous emotional stability." The controlled exterior over an intense interior is textbook Type 8.</li>
 </ul>
 </div>
@@ -74,7 +76,7 @@ What comes out the other side isn't just trauma. It's a determination — iron, 
 
 But here's what trips people up: Xi doesn't _look_ like a Type 8. The stereotypical 8 is loud, confrontational, obviously dominant — think [Trump](/personality-analysis/Donald-Trump) working a rally. Xi smiles. He listens. He waits years before making a move. Diplomats consistently describe him as polite and restrained.
 
-That's because Xi is almost certainly an **8w9** — a Type 8 with a strong [Type 9](/enneagram-corner/enneagram-type-9) wing. The 9 wing adds patience, strategic calm, and an ability to absorb pressure without reacting visibly. Where an 8w7 like Trump escalates fast and loud, an 8w9 like Xi consolidates slowly and quietly. The power drive is identical. The tempo is completely different. Xi applied to the Communist Party ten times over several years. That's not 8w7 energy. That's 8w9: immovable rather than explosive.
+That restraint does not contradict the typing. It changes the tempo. Xi's power drive is not explosive; it is immovable. He applied to the Communist Party ten times over several years. He consolidated slowly, watched carefully, and moved only when the terrain was ready.
 
 The aggression isn't cruelty for its own sake. It's protection. Beneath the armor is someone who deeply fears betrayal. That distinction matters, because it's also what makes the psychology so hard to argue with from the inside.
 
@@ -126,6 +128,39 @@ In 2012, he became General Secretary. By 2022, he had secured an unprecedented t
 
 The timeline explains how Xi got there. The psychology explains what he did once he arrived — and why he can't stop.
 
+<details class="enneagram-rabbit-hole">
+<summary class="accordion">Enneagram Rabbit Hole: Wings, Subtypes &amp; Connecting Lines for Xi Jinping</summary>
+<div class="panel">
+
+<p><em>For Enneagram readers going deep on Xi Jinping. Skip if you're here for the story — the rest of the analysis stands on its own.</em></p>
+
+### Xi Jinping's Wing: 8w9
+
+Xi reads as 8w9 — the Challenger with a Peacemaker <a href="/enneagram-corner/enneagram-wings-complete-guide">wing</a>. An 8w7 version would be louder, faster, more openly provocative, and more visibly appetite-driven. Xi's dominance is quieter. He absorbs pressure, waits through rejection, remembers the landscape, and then consolidates in ways that are hard to reverse.
+
+The 9-wing explains why outsiders can underestimate the force. He does not need the rally performance or the constant public escalation. The power is in patience: ten party applications, decades in provincial posts, gradual ally cultivation, and then the abolition of term limits once the machine was sufficiently under his control. The aggression is not theatrical. It is structural.
+
+### Xi Jinping's Instinctual Subtype: sp/so
+
+Xi reads as self-preservation dominant with social second. The sp-8 pattern is about security, territory, infrastructure, family protection, and never again being exposed to forces that can destroy you. The state becomes the bunker. The family pseudonym at Harvard, the harsh response to leaks, the surveillance apparatus, and the obsession with supply chains all fit the <a href="/enneagram-corner/enneagram-instinctual-subtypes">instinct stack</a>.
+
+Social sits second because power is routed through rank, party legitimacy, national destiny, and China's place in the global order. Belt and Road is not just concrete; it is a social map with China at the center. Sexual reads last. Xi can form intense loyalties, but the dominant pattern is security first, hierarchy second.
+
+### Stress and Growth Arrows
+
+Under stress, Type 8 moves toward Type 5. Xi's retreat into books during Liangjiahe was adaptive; the later version becomes secrecy, information control, and withdrawal into a small circle. Zero-COVID showed the unhealthy edge: when reality challenged the policy, the system became more rigid before it changed.
+
+In growth, Type 8 moves toward Type 2. See <a href="/enneagram-corner/enneagram-connecting-lines">the connecting lines</a> in Xi's protector identity: village loyalty, anti-corruption as defense of ordinary people, and fierce protection of his daughter. The healthy move is strength used to protect without needing total control. Xi shows flashes of that protector impulse, but the control impulse usually wins.
+
+### Counterarguments: Why Xi Jinping Might Not Be Type 8
+
+Type 1 is plausible because Xi speaks in moral campaigns, discipline, rectification, and national renewal. But the engine is not purity. It is control. Rules matter because they secure the system and expose disloyalty.
+
+Type 5 also has a case because of the reading, secrecy, and emotional reserve. But a core 5 usually withdraws to conserve energy and autonomy. Xi gathers power, centralizes command, and extends control outward. The cave made him intellectual; it did not make him detached.
+
+</div>
+</details>
+
 ## Xi Jinping's Psychology: The Patterns Behind the Power
 
 ### The Reader Who Survived
@@ -134,7 +169,7 @@ Xi's love of books isn't a PR talking point. It's how he survived.
 
 > "I have many hobbies. I love reading the most. Reading has become a way of life for me."
 
-He devoured Dostoevsky — whom Xi has called "the deepest Russian writer" — along with Tolstoy, Shakespeare, and Victor Hugo. For Type 8s under stress, intellectual retreat is a known pattern — movement toward [Type 5](/enneagram-corner/enneagram-type-5), a way of retreating into your head when the world outside is uncontrollable. In the cave, the books gave Xi somewhere the physical world couldn't reach him.
+He devoured Dostoevsky — whom Xi has called "the deepest Russian writer" — along with Tolstoy, Shakespeare, and Victor Hugo. In the cave, the books gave Xi somewhere the physical world couldn't reach him.
 
 Today, Xi name-drops authors constantly. Some former princelings attribute this to insecurity about his interrupted education. One who has known him for decades remarked: "Xi is not cultured. He was basically just an elementary schooler. He's very sensitive about that."
 
@@ -200,7 +235,7 @@ Xi's major initiatives make more sense through a psychological lens than a purel
 
 Take the Belt and Road Initiative. On paper it's infrastructure — ports, railways, highways across 150 countries. But the underlying logic is the logic of someone who never wants to be isolated again. China at the center of a global network China itself built cannot be strangled the way the West tried to strangle it in the 1990s. The whole architecture is about ensuring there's no position from which an adversary can cut off the oxygen.
 
-The anti-corruption campaign is harder to read, because it's doing two things at once. Over a million party members punished since 2012 — some of that is genuine. Xi grew up watching corrupt officials destroy his father's career on fabricated charges. He knows what abuse of power looks like from the receiving end. But the campaign also swept out rivals, filled the Politburo with loyalists, and concentrated accountability in Xi himself. A Type 8 who is also clearing the field of threats isn't being cynical. Both motivations are real. That's what makes it effective.
+The anti-corruption campaign is harder to read, because it's doing two things at once. Over a million party members punished since 2012 — some of that is genuine. Xi grew up watching corrupt officials destroy his father's career on fabricated charges. He knows what abuse of power looks like from the receiving end. But the campaign also swept out rivals, filled the Politburo with loyalists, and concentrated accountability in Xi himself. A leader can believe he is cleaning the system while also clearing the field of threats. Both motivations are real. That's what makes it effective.
 
 ### The Inner Circle: Loyalty and Its Limits
 
@@ -236,7 +271,7 @@ By 2022, the rest of the world had moved on.
 
 China was still welding doors shut.
 
-Type 8s under extreme stress become rigid — doubling down on failing strategies rather than admitting error. Admitting the policy had failed would mean admitting vulnerability. For someone whose entire psychology is built around never being exposed, never being wrong in a way others can use against him, that calculus doesn't bend to infection curves.
+Under extreme pressure, Xi doubled down rather than admit error. Admitting the policy had failed would mean admitting vulnerability. For someone whose entire psychology is built around never being exposed, never being wrong in a way others can use against him, that calculus doesn't bend to infection curves.
 
 The policy ended only when protests erupted across multiple cities in November 2022, the largest demonstrations since Tiananmen. Xi reversed course within weeks.
 
@@ -266,7 +301,7 @@ These aren't abstract statistics. They represent the kind of instability that, i
 
 Xi's response reveals the pattern at its most rigid. He named Western "containment" as the primary cause and prescribed more state control as the solution — directing investment toward advanced manufacturing and AI while tightening Party oversight of the private sector. When a September 2024 stimulus package briefly rallied markets, the underlying structural problems remained unresolved.
 
-What's observable is the Type 8 stress response scaled to macroeconomics: when pressure increases, the external threat narrative intensifies and internal tolerance for dissent decreases. The psychology tightens. It doesn't open up. Whether China's economy actually needs more state control or more market freedom is a legitimate debate among economists. But the choice Xi makes is never in question. More control is always the answer, because for someone with his psychology, less control is never an option.
+What's observable is the same control response scaled to macroeconomics: when pressure increases, the external threat narrative intensifies and internal tolerance for dissent decreases. The psychology tightens. It doesn't open up. Whether China's economy actually needs more state control or more market freedom is a legitimate debate among economists. But the choice Xi makes is never in question. More control is always the answer, because for someone with his psychology, less control is never an option.
 
 ## Xi Jinping's Legacy and Current Work
 
@@ -300,11 +335,11 @@ What it does do is make Xi comprehensible. And comprehensible actors are easier 
 
 **How does Xi compare to Putin?**
 
-Both are [Type 8s](/enneagram-corner/enneagram-type-8), but the wing difference is everything. [Putin](/personality-analysis/Vladimir-Putin) is more likely an 8w7 — shaped by KGB training and Soviet collapse, overtly aggressive, theatrical, willing to gamble. Xi is an 8w9 — shaped by Cultural Revolution trauma and rural exile, controlled, patient, playing decades-long games. Putin invades countries. Xi builds infrastructure across 150 of them. Both refuse to show weakness. The methods couldn't be more different.
+Both are [Type 8s](/enneagram-corner/enneagram-type-8), but the tempo difference is everything. [Putin](/personality-analysis/Vladimir-Putin) is shaped by KGB training and Soviet collapse: overtly aggressive, theatrical, willing to gamble. Xi is shaped by Cultural Revolution trauma and rural exile: controlled, patient, playing decades-long games. Putin invades countries. Xi builds infrastructure across 150 of them. Both refuse to show weakness. The methods couldn't be more different.
 
 **Why doesn't Xi seem like a "typical" Type 8?**
 
-Because most people picture 8w7s when they think of Type 8 — loud, confrontational, obviously dominant. Xi's 9 wing gives him a calm, absorptive quality that reads as restraint rather than aggression. But watch what he _does_ rather than how he _appears_: abolishing term limits, purging the entire senior leadership of a nuclear missile force, building the most extensive surveillance state in history. The power drive is unmistakable. It's just quieter than people expect.
+Because most people picture the loud, confrontational version of Type 8. Xi's calm, absorptive quality reads as restraint rather than aggression. But watch what he _does_ rather than how he _appears_: abolishing term limits, purging the entire senior leadership of a nuclear missile force, building the most extensive surveillance state in history. The power drive is unmistakable. It's just quieter than people expect.
 
 **What is Xi's relationship with the Chinese people?**
 

@@ -38,7 +38,7 @@ FEEDBACK (2026-02-18):
 - ENNEAGRAM AS ENGINE: The hot letters, cabinet of rivals, father estrangement, grief scheduling, and "better angels" revision all work as Type 9 mechanisms, not labels. The framework resolves the central contradiction (accessible/unknowable) rather than decorating it.
 - OUTSTANDING ENDING: "The man who couldn't carry a knife had spent four years finding reasons not to use the executioner's" — ties the final act back to the opening detail. True cut-to-black at peak insight.
 - MINOR (ADDRESSED): SEO header pair reframed to "The Type 9 Who Held the Union Together." Wrestling section woven into frontier section. Douglass section trimmed.
-- TO REACH A+: Add one more instinctual variant or growth arrow detail.
+- TO REACH A+: Add one more layer of advanced Type 9 specificity.
 -->
 
 <p class="firstLetter">Abraham Lincoln never carried a pocket knife.</p>
@@ -69,13 +69,41 @@ Both descriptions are true. That's the paradox the Enneagram resolves.
 
 ### Abraham Lincoln is an Enneagram Type 9
 
-Lincoln was no passive Peacemaker. He represents the fully integrated [Type 9](/enneagram-corner/enneagram-type-9) — what the Enneagram calls **"The Idealist"** (9w1), combining the peace-seeking core with a One wing's moral conviction. He waited for the right moment to issue the Emancipation Proclamation, and when he signed it, he declared: **"My whole soul is in it."**
+Lincoln was no passive Peacemaker. He represents a morally awake [Type 9](/enneagram-corner/enneagram-type-9) — peace-seeking without moral vacancy. He waited for the right moment to issue the Emancipation Proclamation, and when he signed it, he declared: **"My whole soul is in it."**
 
 The tell isn't his gentleness. It's how he handled conflict.
 
 Type 3s fight to win. Type 8s fight to dominate. Lincoln absorbed. He took Stanton's insults and gave him a promotion. He took Chase's betrayal and gave him the highest court. He wrote furious letters and never sent them. He read Shakespeare alone at night while the nation bled. He merged with the country's pain until his own face, visitors noted, aged decades in four years.
 
 His guiding philosophy: **"My policy is to have no policy."** Pragmatic, flexible, willing to experiment when one approach failed. He held steady on values while remaining open on methods — holding all perspectives in the room because a Peacemaker can't bear to let any voice go unheard.
+
+<details class="enneagram-rabbit-hole">
+<summary class="accordion">Enneagram Rabbit Hole: Wings, Subtypes &amp; Connecting Lines for Abraham Lincoln</summary>
+<div class="panel">
+<p><em>For Enneagram readers going deep on Abraham Lincoln. Skip if you're here for the story — the rest of the analysis stands on its own.</em></p>
+
+### Abraham Lincoln's Wing: 9w1
+
+Lincoln is best read as a 9w1: a Peacemaker with a moral spine. The Nine core explains the absorption, patience, humor, and almost supernatural capacity to keep enemies in the same room. The One side explains why that patience did not collapse into appeasement. He could delay the Emancipation Proclamation until the timing was right, then sign it with "my whole soul is in it." In the language of <a href="/enneagram-corner/enneagram-wings-complete-guide">Enneagram wings</a>, the One influence gives his peace a conscience.
+
+### Abraham Lincoln's Instinctual Subtype: so/sp
+
+Lincoln's likely stack is so/sp. Social came first: preserving the Union, reading the room, holding a cabinet of rivals together, and constantly tracking how one decision would ripple through a nation. His identity was organized around the body politic. Self-preservation came second in his melancholy routines: the telegraph office refuge, the Green Room grief schedule, the private reading, the jokes that kept the vessel from cracking. The intimate lane was real but hardest for him; family suffered from the same devotion that held the country together. For the full map, see the <a href="/enneagram-corner/enneagram-instinctual-subtypes">instinctual subtypes guide</a>.
+
+### Stress and Growth Arrows
+
+The <a href="/enneagram-corner/enneagram-connecting-lines">connecting lines</a> make Lincoln's contradiction easier to see. Under pressure, Type 9 can pick up the anxious vigilance of Type 6. Lincoln's breakdowns, his fear of self-harm, and his nightly telegraph habit show a Peacemaker whose inner world could become saturated with threat.
+
+Growth points toward Type 3: decisive action, visible leadership, and the willingness to shape events rather than merely absorb them. The Emancipation Proclamation, the Second Inaugural, and the final pardons are not passive harmony. They are a Nine stepping into history and acting with purpose.
+
+### Counterarguments: Why Abraham Lincoln Might Not Be Type 9
+
+Type 1 has a strong case because Lincoln's moral seriousness is undeniable. But Type 1s tend to lead from correction. Lincoln led from containment. He tolerated rivals, delayed action, revised language, and kept listening long after a stricter reformer would have cut people off.
+
+Type 6 is also plausible because anxiety and loyalty run through the story. But the governing pattern is not suspicion. It is absorption. Lincoln did not build life around finding a safe authority; he became the container other people trusted when the country had none.
+
+</div>
+</details>
 
 ## Abraham Lincoln's Childhood on the Frontier
 
@@ -155,7 +183,7 @@ Lincoln experienced what modern psychiatrists would likely diagnose as major dep
 
 **The 1841 breakdown**: During a political crisis and a broken engagement to Mary Todd, Lincoln collapsed. Joshua Speed, his closest friend and roommate of four years, recalled: _"Lincoln went crazy. I had to remove razors from his room — take away all knives and other such dangerous things."_ Lincoln wrote to Congressman John Todd Stuart: **_"I am now the most miserable man living. If what I felt were equally distributed to the whole human family, there would not be one cheerful face on the earth."_**
 
-From an Enneagram perspective, Lincoln's depression reflects a core Type 9 pattern: when peace-seeking fails and conflict cannot be avoided, [Nines turn their frustration inward](/enneagram-corner/enneagram-types-in-stress). They suppress anger, merge with circumstances, and experience what feels like dissolution of self.
+From an Enneagram perspective, Lincoln's depression reflects a core Type 9 pattern: when peace-seeking fails and conflict cannot be avoided, Nines can turn their frustration inward. They suppress anger, merge with circumstances, and experience what feels like dissolution of self.
 
 ### The Green Room
 

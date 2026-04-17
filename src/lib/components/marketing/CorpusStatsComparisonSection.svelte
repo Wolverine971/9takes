@@ -147,11 +147,11 @@
 		<p>
 			The 9takes corpus is a non-random sample of well-documented public figures. It is
 			<strong>not</strong>
-			a representative population sample. When our numbers diverge from test-taker datasets like
-			Truity or enneagram-personality.com, the divergence is usually a story about <em>our</em> sample
-			— which types become famous, who gets written about, which professions we lean toward — not about
-			which dataset is "right." This section exists to make those sample biases legible, not to claim
-			a true population distribution.
+			a representative population sample. When our numbers diverge from test-taker datasets like Truity
+			or enneagram-personality.com, the divergence is usually a story about <em>our</em> sample — which
+			types become famous, who gets written about, which professions we lean toward — not about which
+			dataset is "right." This section exists to make those sample biases legible, not to claim a true
+			population distribution.
 		</p>
 		<p class="sub">
 			Sources last reviewed {external.last_reviewed}. See
@@ -213,8 +213,8 @@
 		</table>
 	</div>
 	<p class="table-note">
-		<strong>n/d</strong> = not disclosed. Truity has never published a consolidated 9-type table —
-		only Types 5, 7, 8, and 9 have explicit shares on record.
+		<strong>n/d</strong> = not disclosed. Truity has never published a consolidated 9-type table — only
+		Types 5, 7, 8, and 9 have explicit shares on record.
 	</p>
 
 	<!-- ========== DIVERGENCE INTERPRETATIONS ========== -->

@@ -41,14 +41,14 @@ FEEDBACK (2026-02-20):
   (3) "He describes his father's emotion. Not his own." — the observer who can't stop observing at rock bottom
   (4) Colombia drug mapping as intelligence operation — the analytical mind doesn't switch off even in self-destruction
   (5) Amy the liberal South Florida therapist who taught him interviewing
-- The counter-typing section ("What Doesn't Fit the Type 5 Reading") shows rare intellectual integrity — acknowledging the combat hunger, restaurant meltdown, and passionate advocacy that break the mold.
+- The "What Doesn't Fit the Type 5 Reading" section shows rare intellectual integrity — acknowledging the combat hunger, restaurant meltdown, and passionate advocacy that break the mold.
 - The father-son thread (military pharmacist → BUD/S motivation → Colombia mother's voice → father over the bed → now a father himself) is beautifully sustained across the entire piece.
 - The ibogaine section is remarkable writing: "concentrate on not trying to concentrate" captures the Type 5's ultimate challenge — surrendering mental control.
 
 - NEEDS WORK: The "Where Shawn Ryan Goes From Here" section slightly drifts into summary/recap territory, though the advocacy for psychedelic therapy redeems it.
-- MINOR: Growth arrow (Type 5 → Type 8 in health) isn't explicitly named, though the confrontational episodes serve this function implicitly.
+- RETROFIT (2026-04-17): Added the opt-in Enneagram Rabbit Hole block and moved specialist analysis out of the main narrative.
 
-- TO REACH A+: (1) Name the growth arrow explicitly — his political confrontations (Crenshaw, Trump) and moral reckoning show Type 8 integration. (2) Tighten the final section — cut the podcast stats recap (already covered) and end closer to "the man who lost access to his emotions is trying to raise kids who never have to." That's the real ending. (3) Consider whether the "When Data Overrides Loyalty" section could be restructured for even more impact — the Trump reckoning is the strongest beat there.
+- TO REACH A+: (1) Tighten the final section — cut the podcast stats recap (already covered) and end closer to "the man who lost access to his emotions is trying to raise kids who never have to." That's the real ending. (2) Consider whether the "When Data Overrides Loyalty" section could be restructured for even more impact — the Trump reckoning is the strongest beat there.
 -->
 
 <p class="firstLetter">On Joe Rogan's podcast, Shawn Ryan mentions his suicide attempt mid-sentence. "I was, I mean I tried to kill myself." Then he pivots to veteran statistics. No pause. No lingering. Just data.</p>
@@ -288,7 +288,7 @@ After the sessions, the healing came not as emotional catharsis but as informati
 
 His brain reclassified substances from "necessary" to "poison" and behavior changed instantly. He quit alcohol, Adderall, Ambien, and sugar, all at once, with zero effort. The analytical mind that had been serving his destruction simply updated its model.
 
-## How a Type 5 Finds Faith
+## How Shawn Ryan Finds Faith
 
 Shawn's path to faith was not emotional surrender. It was an investigation.
 
@@ -332,7 +332,7 @@ And now a father himself, choosing to homeschool his children because he believe
 
 ## When Data Overrides Loyalty
 
-Type 5s don't confront out of emotion. They confront when analysis produces a conclusion that can't be rationalized away. They watch until the evidence becomes undeniable, then act with a precision that unsettles people.
+Shawn doesn't confront out of raw emotion. He confronts when analysis produces a conclusion that can't be rationalized away. He watches until the evidence becomes undeniable, then acts with a precision that unsettles people.
 
 ### Questioning Power
 
@@ -352,7 +352,7 @@ He cataloged broken promises the way he once cataloged threat patterns: the Ukra
 
 > "Every time I have a politician, whether it's Trump or some congressman, they all lie."
 
-This isn't partisan disillusionment. It's what happens when a Type 5 gives someone the benefit of his analysis, watches the data come in, and updates his model. Tribal loyalty doesn't override evidence. He began hosting guests across the political spectrum, Democratic Congressman Ro Khanna, Hunter Biden, not because he shifted ideologically, but because limiting his sources would compromise the investigation.
+This isn't partisan disillusionment. It's what happens when Shawn gives someone the benefit of his analysis, watches the data come in, and updates his model. Tribal loyalty doesn't override evidence. He began hosting guests across the political spectrum, Democratic Congressman Ro Khanna, Hunter Biden, not because he shifted ideologically, but because limiting his sources would compromise the investigation.
 
 ### The Moral Reckoning
 
@@ -364,13 +364,38 @@ A man who spent over a decade in service, ruthlessly reassessing his own framewo
 
 Not everyone applauds these confrontations. Critics point to his coverage of UFOs and spiritual warfare as territory that undermines his credibility. His willingness to wade into conspiracy-adjacent topics alongside investigative work creates a split: supporters see fearlessness, detractors see recklessness. But the pattern holds. Follow the evidence. Say what you find.
 
-## What Doesn't Fit the Type 5 Reading
+<details class="enneagram-rabbit-hole">
+<summary class="accordion">Enneagram Rabbit Hole: Wings, Subtypes &amp; Connecting Lines for Shawn Ryan</summary>
+<div class="panel">
 
-No personality typing captures a person completely. There are real complications in reading Shawn as a pure Type 5.
+<p><em>For Enneagram readers going deep on Shawn Ryan. Skip if you're here for the story — the rest of the analysis stands on its own.</em></p>
 
-He left the SEAL Teams because he "wasn't getting enough" combat. Not because he was burned out, but because the intensity was insufficient. That sounds more like a Type 8's need for challenge or a Type 7's hunger for stimulation than a Type 5's preference for observation. The restaurant meltdown in Sedona, where he screamed at strangers, is wildly out of character. His raw emotional advocacy for veteran psychedelic access ("Why can't you just let us get better?") breaks through the analytical detachment with a passion that feels less like an investigator presenting findings and more like a protector fighting for his people.
+### Shawn Ryan's Wing: 5w6
 
-These moments don't invalidate the Type 5 reading. They reveal a man who is more than any single label. The investigator framework explains the dominant pattern: the listening, the withdrawal, the systematic mind, the knowledge-building. But Shawn Ryan has lived, in his words, "three or four lives." Not every chapter reads the same.
+Shawn reads as 5w6 — the Investigator with a Loyalist <a href="/enneagram-corner/enneagram-wings-complete-guide">wing</a>. A 5w4 version of this story would tilt more toward private originality, aesthetic self-definition, or outsider identity. Shawn's mind is more tactical than artistic. Reconnaissance, CIA protection work, threat assessment, receipts, legal discovery, source networks: the 6-wing turns the 5's knowledge drive toward security, loyalty, and detecting what might go wrong.
+
+The same wing explains why betrayal and institutional failure hit him so hard. He warned a CIA compound that it was time-and-place predictable; leadership ignored him, and the attack came. He supported Trump, watched the data come in, and updated the model. Shawn's trust is not sentimental. It is evidence-based. Once the evidence breaks, loyalty does too.
+
+### Shawn Ryan's Instinctual Subtype: sp/so
+
+Shawn reads as self-preservation-dominant with social secondary. The sp-5 signature is the fortress: controlled studio, off-grid Colorado property, solar power, glacier-fed water, small circles, business and kids as the only activities he names. The <a href="/enneagram-corner/enneagram-instinctual-subtypes">instinct stack</a> channels the Investigator pattern through resource control and privacy. He is happiest where the inputs are limited and the systems are his.
+
+Social sits second and carries the mission. The podcast, veteran advocacy, psychedelic-therapy work, and willingness to host ideologically varied guests are not casual networking. They are controlled public channels for gathering and distributing information. Sexual reads last. The public pattern is not fusion or romantic intensity; it is guarded access, calibrated disclosure, and trust earned slowly through competence.
+
+### Stress and Growth Arrows
+
+Under stress, Type 5 moves toward Type 7, and Shawn's Colombia spiral shows the scattered version: substances, dangerous places, drug-network mapping, gear reviews, alpacas, camping stoves, and restless searching for a new system to master. See <a href="/enneagram-corner/enneagram-connecting-lines">the connecting lines</a> for how a depleted 5 can flip from withdrawal into frantic consumption and scattered activity.
+
+In growth, Type 5 moves toward Type 8. Shawn's healthier confrontations have that shape: publishing receipts instead of backing down, welcoming legal discovery, challenging politicians from his own tribe, and fighting publicly for veterans' access to treatments that saved his life. The best version is not merely observing. It is using what he knows to protect people.
+
+### Counterarguments: Why Shawn Ryan Might Not Be Type 5
+
+The strongest alternate is Type 8. He left the SEAL Teams because he "wasn't getting enough" combat, screamed at strangers during the Sedona meltdown, and advocates for veterans with a protector's force. Those are not detached librarian signals. They look confrontational, intense, and body-forward.
+
+The Type 7 case also exists: danger-seeking, substances, Colombia, conspiracy-adjacent curiosity, and a life that keeps reinventing itself. But the dominant pattern is not appetite or dominance. It is observation, compartmentalization, and knowledge control. Even self-destruction became an intelligence operation. The combat hunger and advocacy complicate the typing; they do not replace the core architecture.
+
+</div>
+</details>
 
 ## Where Shawn Ryan Goes From Here
 

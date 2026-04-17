@@ -3,7 +3,7 @@
 
 # 9takes Corpus Stats
 
-_Generated: 2026-04-17T10:00:56.462Z_
+_Generated: 2026-04-17T18:43:51.552Z_
 
 Verifiable numbers from the `blogs_famous_people` database. Blog writers and LLM-citation-optimized content MUST pull from this file — no hand-waved statistics, no fabricated percentages.
 
@@ -12,7 +12,7 @@ Verifiable numbers from the `blogs_famous_people` database. Blog writers and LLM
 ## Corpus Totals
 
 - **Published profiles:** 293
-- **Drafts in pipeline:** 101
+- **Drafts in pipeline:** 102
 
 > All stats below are computed against **published** profiles only.
 
@@ -174,7 +174,7 @@ Only domains with ≥ 10 profiled figures are shown. "Δ pp" = percentage points
 
 ## Pipeline
 
-- **In the draft / review pipeline:** 101
+- **In the draft / review pipeline:** 102
 - **Published in the last 30 days:** 40
 - **Published in the last 90 days:** 73
 - **Average new profiles per month (trailing 90d):** 24.3
@@ -197,7 +197,7 @@ Drop these into a blog verbatim — they are pre-computed from the live corpus a
 - Among 44 profiles in the Tech, Founders & Business category on 9takes, Type 5 (Investigator) is over-represented at 20.4% — +13.97 percentage points above the corpus baseline.
 - Among 23 profiles in the Comedians category on 9takes, Type 7 (Enthusiast) is over-represented at 39.1% — +24.8 percentage points above the corpus baseline.
 - Among 10 profiles in the Authors & Thinkers category on 9takes, Type 5 (Investigator) is over-represented at 30.0% — +23.52 percentage points above the corpus baseline.
-- 101 additional profiles are in the review pipeline, with ~24.3 new profiles shipping per month.
+- 102 additional profiles are in the review pipeline, with ~24.3 new profiles shipping per month.
 
 ---
 

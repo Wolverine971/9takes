@@ -3955,6 +3955,18 @@ export type Database = {
         Args: { p_slug: string }
         Returns: string
       }
+      analytics_normalize_personality_path: {
+        Args: {
+          p_content_slug?: string
+          p_content_type?: string
+          p_path: string
+        }
+        Returns: string
+      }
+      analytics_personality_detail_slug: {
+        Args: { p_path: string }
+        Returns: string
+      }
       analytics_scope_match: {
         Args: { p_content_type: string; p_path: string; p_scope: string }
         Returns: boolean

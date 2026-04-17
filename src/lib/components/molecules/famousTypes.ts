@@ -223,6 +223,7 @@ export const famousTypes: { [index: number]: { name: string; link: boolean; hasI
 		{ name: 'satya-nadella', link: true, hasImage: true, lastmod: '2026-02-18', personaTitle: 'Microsoft\'s Silent Architect', contentGrade: 8.8 },
 		{ name: 'shawn-ryan', link: true, hasImage: true, lastmod: '2026-02-10', personaTitle: 'Intelligence\'s Silent Observer', contentGrade: 9.1 },
 		{ name: 'tyler-cowen', link: false, hasImage: true, lastmod: '2026-03-27', personaTitle: 'Economics\' Quiet Devourer', contentGrade: 8.9 },
+		{ name: 'asmongold', link: false, hasImage: false, lastmod: '2026-04-17', personaTitle: 'Streaming\'s Feral Recluse', contentGrade: 8.9 },
 		{ name: 'daniel-day-lewis', link: false, hasImage: false, lastmod: '2026-04-03', personaTitle: 'Cinema\'s Vanishing Craftsman', contentGrade: 8.9 },
 		{ name: 'stephen-king', link: false, hasImage: false, lastmod: '2026-04-01', personaTitle: 'The Fortress That Writes Nightmares', contentGrade: 8.8 },
 		{ name: 'warren-buffett', link: false, hasImage: false, lastmod: '2026-04-10', personaTitle: 'Omaha\'s Quiet Fortress', contentGrade: 8.8 },

@@ -268,7 +268,7 @@
 		left: 0;
 		right: 0;
 		background: linear-gradient(to top, rgba(10, 10, 15, 0.9), rgba(0, 0, 0, 0.5));
-		color: var(--text-primary);
+		color: var(--text-on-dark);
 		padding: 0.5rem;
 		opacity: 0;
 		transition: all 0.3s ease;

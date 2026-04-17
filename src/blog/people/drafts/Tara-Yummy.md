@@ -36,12 +36,14 @@ Hook: 8 | Enneagram: 9 | Evidence: 8.5 | Writing: 9 | Originality: 8.5
 REVISION NOTES (2026-02-22):
 - ADDED: Jake Webber external quote (Zach Sang Show) — "Me and Tara always told each other we're not Jake-and-Tara. We're Jake and Tara." First external voice in the piece.
 - ADDED: Paris Hilton story — "If I ever meet Paris Hilton I'm going to throw up on her" → Paris duets it → "You are so cute and sweet, love you sis." Strong illustration of warmth as gravity.
-- ADDED: 2w3 wing paragraph — IMG Models, Marc Jacobs, Playboy, WME signing, "seasons of a show" framing. The ambition is real; it just wears warmth.
+- ADDED: ambition paragraph — IMG Models, Marc Jacobs, Playboy, WME signing, "seasons of a show" framing. The ambition is real; it just wears warmth.
 - ADDED: 30k mirror card — signature detail. The ceiling she'd set for herself still on her mirror when the floor had already risen past it.
 - EXPANDED: Freddie Mercury paragraph — Farrokh Bulsara as immigrant who made himself more, not smaller; Wembley at 72k; the specific principle she's claiming (full presence regardless of cost), not the bloodline.
 - FIXED: Ending — cut the two summarizing sentences. Now ends on the image, not the theme statement.
 
-TO REACH A (9.0): (1) The hook is still the weakest dimension — consider opening with the "too nice to be believed" high school story rather than the party scene, as that's the more surprising and character-revealing moment. (2) Instinctual variants remain unexplored — she reads as Social subtype (classic for high-achieving Twos who need the room, not just one person). A sentence on this would complete the Enneagram trifecta.
+RETROFIT (2026-04-17): Added the opt-in Enneagram Rabbit Hole block and moved specialist analysis out of the main narrative.
+
+TO REACH A (9.0): The hook is still the weakest dimension — consider opening with the "too nice to be believed" high school story rather than the party scene, as that's the more surprising and character-revealing moment.
 -->
 
 > "I partied my way to making YouTube videos. I'm not even kidding."
@@ -155,13 +157,46 @@ This belief creates the most generous, magnetic people you'll ever meet, and the
 
 Her content philosophy says everything: "I think I am most proud of how genuine my content is, and how I never play a character, it's just me in front of the camera like I'm on FaceTime with everyone." She doesn't see her audience as fans. She sees them as people on the other end of a FaceTime call. Friends she hasn't met yet.
 
-### The 2w3: Ambition Hiding Inside Warmth
+### Ambition Hiding Inside Warmth
 
-Her wing complicates the picture in a useful way. Most Twos run either 2w1 (Helper with a Principled edge) or 2w3 (Helper with an Achiever edge). Tara is 2w3, but **the ambition hides inside the warmth** — easy to miss. She didn't just make content; she branded herself. The "Tara Yummy Mindset" is a philosophy, a tour, a DJ residency, and a career architecture. "Every chapter is exciting in its own way," she told Our Era Magazine. "It feels like seasons of a show." She signed with IMG Models, fronted a Heaven by Marc Jacobs campaign, landed Playboy's Spotlight of the Month, and in February 2026 signed with _William Morris Endeavor_ in all areas — the move of someone building toward traditional entertainment with deliberate intent. "I'm thrilled to be signing with WME," she said. "This is just the beginning." The Three wing gives her the infrastructure to deliver the Two's gifts at scale. She doesn't just want to make one room feel good. **She wants to make millions of people feel loved, and she's building the machine to do it.**
+Her ambition complicates the picture in a useful way because it hides inside the warmth. She didn't just make content; she branded herself. The "Tara Yummy Mindset" is a philosophy, a tour, a DJ residency, and a career architecture. "Every chapter is exciting in its own way," she told Our Era Magazine. "It feels like seasons of a show." She signed with IMG Models, fronted a Heaven by Marc Jacobs campaign, landed Playboy's Spotlight of the Month, and in February 2026 signed with _William Morris Endeavor_ in all areas — the move of someone building toward traditional entertainment with deliberate intent. "I'm thrilled to be signing with WME," she said. "This is just the beginning." She doesn't just want to make one room feel good. **She wants to make millions of people feel loved, and she's building the machine to do it.**
 
-Twos [under stress](/enneagram-corner/enneagram-types-in-stress) move toward [Type 8](/enneagram-corner/enneagram-type-8). The soft warmth hardens into demands and boundary-setting. Her own words: "I don't like being tied down... I don't like being restricted. I feel like I have an authority problem." This isn't natural defiance. It's what happens when someone who's spent years giving finally hits the wall. Her Dropouts podcast departure in mid-2024 is this behavior in action: the hot-take game format forced her to share opinions that could alienate the audience she'd spent years nurturing. She chose intimacy over reach. That's a Two who's learned that openness without limits gets you hurt.
+The soft warmth can harden into demands and boundary-setting. Her own words: "I don't like being tied down... I don't like being restricted. I feel like I have an authority problem." This isn't natural defiance. It's what happens when someone who's spent years giving finally hits the wall. Her Dropouts podcast departure in mid-2024 is this behavior in action: the hot-take game format forced her to share opinions that could alienate the audience she'd spent years nurturing. She chose intimacy over reach. That's someone who's learned that openness without limits gets you hurt.
 
-Twos in growth move toward [Type 4](/enneagram-corner/enneagram-type-4), accessing their authentic inner world, their willingness to be seen for who they _are_ rather than what they _give_. Her evolution into DJing and stand-up follows this arc exactly. You can't DJ someone else's taste or tell someone else's stories. "I don't care what everyone else likes. I want to play what I want." That's a Two discovering she's a person, not just a function.
+Her evolution into DJing and stand-up follows the same arc. You can't DJ someone else's taste or tell someone else's stories. "I don't care what everyone else likes. I want to play what I want." That's Tara discovering she's a person, not just a function.
+
+<details class="enneagram-rabbit-hole">
+<summary class="accordion">Enneagram Rabbit Hole: Wings, Subtypes &amp; Connecting Lines for Tara Yummy</summary>
+<div class="panel">
+
+<p><em>For Enneagram readers going deep on Tara Yummy. Skip if you're here for the story — the rest of the analysis stands on its own.</em></p>
+
+### Tara Yummy's Wing: 2w3
+
+Tara reads as 2w3 — the Helper with an Achiever <a href="/enneagram-corner/enneagram-wings-complete-guide">wing</a>. A 2w1 version would lead with principle, responsibility, and a clearer moral edge. Tara's warmth is more performative in the best sense: room-reading, charm, brand-building, stage energy, and the ability to turn friendliness into an entire entertainment architecture.
+
+The 3-wing is why the kindness scales. "Tara Yummy Mindset" becomes a tour, a DJ residency, a philosophy, a WME signing, modeling campaigns, Playboy, Marc Jacobs, and a series of career chapters she describes like "seasons of a show." She does not only want one person to feel loved. She wants millions to feel invited, and she is building the machine to make that happen.
+
+### Tara Yummy's Instinctual Subtype: so/sx
+
+Tara reads as social-dominant with sexual secondary. The so-2 signature is the room: LA parties where she knew nobody, "Stuck in a Car" chemistry, sold-out DJ nights, audience-as-FaceTime, and success defined as changing a minute of someone's day. The <a href="/enneagram-corner/enneagram-instinctual-subtypes">instinct stack</a> routes the Helper pattern through group warmth and social belonging.
+
+Sexual sits second in the intensity of her creative bonds: Jake Webber, Johnnie Guilbert, Paris Hilton, Vinnie Hacker chemistry, and the way one-on-one connection becomes public magnetism. Self-preservation reads last but is developing — the house at 23, privacy after the breakup, and new boundaries around access are learned protections rather than the original engine.
+
+### Stress and Growth Arrows
+
+Under stress, Type 2 moves toward Type 8. Tara's "authority problem," dislike of restriction, Dropouts exit, and lesson about not being nice to people who aren't nice to her all show the warm Helper hardening into boundary. See <a href="/enneagram-corner/enneagram-connecting-lines">the connecting lines</a> for how 2s can borrow 8's force when giving without limits becomes dangerous.
+
+In growth, Type 2 moves toward Type 4. Tara's DJing, stand-up, Persian identity, Freddie Mercury admiration, and decision to keep romance private all show a person separating "who I am" from "what I give people." The healthier arc is not less warmth. It is warmth with an inner life that does not have to be constantly accessible.
+
+### Counterarguments: Why Tara Yummy Might Not Be Type 2
+
+The strongest alternate is Type 7. The parties, DJing, party-girl image, "not giving a f---," and constant career expansion all look Enthusiast-shaped. But the motive is not escape from pain into stimulation. It is connection. The party is not just a party; it is a room she can make warmer.
+
+Type 3 also has a case because the brand machine is real. WME, IMG, Marc Jacobs, the tour, and the "seasons of a show" framing all show ambition. But a core 3 would foreground status and achievement more explicitly. Tara keeps returning to changed minutes, FaceTime intimacy, niceness, and the cost of overgiving. The achievement serves the connection, not the other way around.
+
+</div>
+</details>
 
 ## The Too-Nice Problem
 

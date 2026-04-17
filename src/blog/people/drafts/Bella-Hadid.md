@@ -42,8 +42,10 @@ FEEDBACK (2026-02-18):
 - NCHA Rookie of the Year and return to equestrian is a surprising and satisfying detail — the Olympic dream returning through a different door.
 - NEEDS WORK: Rise to Fame section is more fact-heavy than psychologically analytical. What does the Type 4 lens specifically reveal about her modeling career?
 - NEEDS WORK: The ending question is generic. The strongest ending line is "learned to make that difference her power" — build the close around that.
-- NEEDS WORK: Counter-typing section is missing entirely. Why Type 4 and not Type 3 (image-conscious model) or Type 6 (anxiety, loyalty)?
-- TO REACH B+: Add counter-typing, deepen Enneagram analysis in career sections, sharper ending.
+- NEEDS WORK: Alternate-type section is missing entirely. Why Type 4 and not Type 3 (image-conscious model) or Type 6 (anxiety, loyalty)?
+- TO REACH B+: Add alternate-type section, deepen Enneagram analysis in career sections, sharper ending.
+
+RETROFIT (2026-04-17): Added the opt-in Enneagram Rabbit Hole block and moved specialist analysis out of the main narrative.
 -->
 
 > "I always ask myself, how did a girl with incredible insecurities, anxiety, depression, body-image issues, eating issues, who hates to be touched, who has intense social anxiety, what was I doing getting into this business? But over the years I became a good actress. I put on a very smiley face, or a very strong face.": Bella Hadid
@@ -121,7 +123,7 @@ The irony wasn't lost on her. The girl who felt like the "uglier sister" was now
 
 "I always felt like I had something to prove," Bella admitted. "People can say anything about how I look, about how I talk, about how I act. But in seven years I never missed a job, canceled a job, was late to a job. No one can ever say that I don't work my ass off."
 
-This work ethic reveals Type 4's integration toward [Type 1](/enneagram-corner/enneagram-type-1), channeling emotional intensity into discipline and integrity. When healthy, Type 4s become remarkably principled and hardworking.
+This work ethic reveals the healthier version of Bella's intensity: discipline, integrity, and the refusal to let anyone say she didn't earn her place.
 
 By 2022, she had won Model of the Year from the British Fashion Council. In 2023, Time magazine named her one of the 100 most influential people in the world. She became one of the highest-paid models globally, earning $19 million that year.
 
@@ -215,6 +217,39 @@ The three launch fragrances, Window2Soul, Salted Muse, and Blooming Fire, are de
 
 By late 2025, Orebella had expanded internationally to Selfridges, Mexico, and the Middle East through Ulta Beauty. Backed by Celebrands (the firm behind [Halsey](/personality-analysis/Halsey)'s About-Face line), it's become one of the standout celebrity beauty brands of its era.
 
+<details class="enneagram-rabbit-hole">
+<summary class="accordion">Enneagram Rabbit Hole: Wings, Subtypes &amp; Connecting Lines for Bella Hadid</summary>
+<div class="panel">
+
+<p><em>For Enneagram readers going deep on Bella Hadid. Skip if you're here for the story — the rest of the analysis stands on its own.</em></p>
+
+### Bella Hadid's Wing: 4w3
+
+Bella reads as 4w3 — the Individualist with an Achiever <a href="/enneagram-corner/enneagram-wings-complete-guide">wing</a>. A 4w5 version would retreat further into private interiority. Bella's identity wound became public image: runway discipline, Vogue covers, Model of the Year, the alter ego, and the hard-earned ability to act confident while feeling shattered inside.
+
+The 3-wing explains the paradox of a woman who felt like "the uglier sister" becoming one of the most successful models in the world. Achievement did not erase the wound. It staged the wound beautifully enough that the world applauded, which is not the same as healing it.
+
+### Bella Hadid's Instinctual Subtype: so/sp
+
+Bella reads as social-dominant with self-preservation second. The so-4 pattern is comparison, shame, public identity, and the feeling of being visibly deficient beside people who seem to belong more naturally. Gigi, the nose job, the runway, the Weeknd breakup, and Palestinian visibility all fit the <a href="/enneagram-corner/enneagram-instinctual-subtypes">instinct stack</a>.
+
+Self-preservation sits second in the health story: Lyme disease, Orebella's sensitive-skin formulas, ASICS and mental health, ranch life, horses, and the need to keep her body and nervous system functional. Sexual reads last. Her relationships matter deeply, but the dominant wound is public identity and the second project is embodied repair.
+
+### Stress and Growth Arrows
+
+Under stress, Type 4 moves toward Type 2. Bella's public heartbreak, longing to be seen by a partner, and fear of being undesirable show how identity can collapse into attachment: who am I without the person who understands me?
+
+In growth, Type 4 moves toward Type 1. See <a href="/enneagram-corner/enneagram-connecting-lines">the connecting lines</a> in her work ethic, the Palestinian advocacy, Orebella's careful formulation standards, and the return to competitive riding. The healthy move is emotion disciplined into values, craft, and a life that functions.
+
+### Counterarguments: Why Bella Hadid Might Not Be Type 4
+
+Type 3 is plausible because modeling is image-driven and Bella is clearly ambitious. But the achievement never appears to be the core wound. The story keeps returning to identity, erasure, comparison, and authenticity.
+
+Type 6 also has a case because of anxiety, loyalty, and threat sensitivity. But Bella's anxiety clusters around selfhood: the face, the lineage, the body, the public image, and whether anyone sees the real person underneath. That is Type 4 terrain.
+
+</div>
+</details>
+
 ## The Current Chapter: December 2025
 
 As of this writing, Bella has returned to both the runway and the rodeo.
@@ -229,11 +264,11 @@ Her recent social media reflects a woman in transition: ranch life, horses, well
 
 ## The Void That Fame Didn't Fill
 
-What makes Bella Hadid's story compelling isn't the Victoria's Secret wings or Vogue covers. It's the brutal honesty about what it cost her to wear them.
+What makes Bella Hadid's story compelling isn't the Victoria's Secret runway or Vogue covers. It's the brutal honesty about what it cost her to wear them.
 
 She's a Type 4 who achieved exactly what she thought would fill the void — fame, beauty, validation — and found the void still there. So she did the harder work: signing with ASICS in 2022 for a campaign that explicitly tied athletic performance to mental health, launching Orebella with her Arabic family name embedded in the product, returning to competitive cutting horse riding with Banuelos in 2024. Not image. Function. Identity that doesn't wash off.
 
-Her arc from Olympic hopeful to supermodel to cowgirl entrepreneur isn't random. It's a Type 4's journey toward integration: channeling the intensity that once fueled self-destruction into creative expression and genuine connection.
+Her arc from Olympic hopeful to supermodel to cowgirl entrepreneur isn't random. It's a journey toward channeling the intensity that once fueled self-destruction into creative expression and genuine connection.
 
 "I don't walk down the street like, 'I'm famous,'" she's said. "It's still weird to me when people ask for pictures."
 

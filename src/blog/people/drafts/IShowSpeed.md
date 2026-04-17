@@ -54,10 +54,10 @@ One hundred thirty-five million followers later, same fear.
 
 What you see when you watch IShowSpeed (the screaming, the fireworks in the bedroom, the barking at Talking Ben until his voice cracks) isn't chaos. It's load-bearing walls. Every room he enters gets filled with noise before the silence can remind him of that empty desk.
 
-That wiring maps onto [Enneagram Type 8](/enneagram-corner/enneagram-type-8), specifically an **8w7**, combining the Eight's dominance drive with the Seven's restless hunger for new arenas. But calling Speed "a Challenger" doesn't capture it. He's more specific than a label: **the kid who discovered that volume is armor**, and who spent the next decade turning it up — until the day he discovered what happens when you turn it off.
+That wiring maps onto [Enneagram Type 8](/enneagram-corner/enneagram-type-8) — the Challenger. But calling Speed "a Challenger" doesn't capture it. He's more specific than a label: **the kid who discovered that volume is armor**, and who spent the next decade turning it up — until the day he discovered what happens when you turn it off.
 
 <details>
-<summary class="accordion">TL;DR: Why IShowSpeed is an Enneagram 8w7</summary>
+<summary class="accordion">TL;DR: Why IShowSpeed is an Enneagram Type 8</summary>
 <div class="panel">
 <ul>
 <li><b>Volume as armor:</b> Speed fills every room (game lobbies, stadiums, entire countries) with noise and intensity, leaving no space for the silence that triggers his core fear: being invisible. The rage is the roof. The fear is the foundation.</li>
@@ -70,19 +70,11 @@ That wiring maps onto [Enneagram Type 8](/enneagram-corner/enneagram-type-8), sp
 
 ## What is IShowSpeed's personality type?
 
-### IShowSpeed is an Enneagram Type 8w7
+### IShowSpeed is an Enneagram Type 8
 
 Eights carry one core fear: being controlled, diminished, or dismissed. They respond by filling every room first, with their voice, their body, their presence, so no one can fill it for them.
 
-The 8w7 variant turns this up. The Seven wing adds appetite: not just dominance, but dominance _everywhere_, _constantly_, in _new ways_. Speed doesn't want to be heard in one arena. He wants to be heard in all of them simultaneously. The Seven wing makes the armor restless. One room is never enough.
-
-**Why not Type 7?** Speed looks like a Seven on the surface: restless, sensation-seeking, genre-hopping. But Sevens run _from_ pain toward pleasure. Speed runs _toward_ it. He lights fireworks in his bedroom. He gets speared through a table at the Royal Rumble. He races an Olympic sprinter knowing he'll lose. When something scares him, his first reflex is aggression, not escape. That's gut-center energy, anger as the baseline operating temperature, not the head center's anxiety.
-
-**Why not Type 3?** Threes perform for approval and recalibrate when criticized. Speed doubles down. The persona isn't shaped by what the audience rewards; it's shaped by what he can't contain.
-
 The anger is the tell. Speed's rage at Talking Ben, at Valorant teammates, at his own controller. That's not a man losing his temper. That's a man whose default temperature runs hot, and whose career was built on letting other people feel the heat.
-
-When Eights grow, they move toward Two: empathy, generosity, protection of others. Under stress, they move toward Five: withdrawal, isolation, silence. We'll see both.
 
 ## The Empty Desk That Still Drives Him
 
@@ -366,6 +358,39 @@ The faith thread runs through all of it. Speed explored Ramadan fasting after ta
 
 For someone whose entire wiring is about control, this is the most revealing pattern of all. Faith requires surrender. It requires admitting something is bigger than you. Speed — who negotiates honorary mayoral terms upward, who turned down $140 million, who refused to let a cartoon dog tell him no — keeps voluntarily walking into rooms where he's not in charge. That's not performance. That's the armor coming off.
 
+<details class="enneagram-rabbit-hole">
+<summary class="accordion">Enneagram Rabbit Hole: Wings, Subtypes &amp; Connecting Lines for IShowSpeed</summary>
+<div class="panel">
+
+<p><em>For Enneagram readers going deep on IShowSpeed. Skip if you're here for the story — the rest of the analysis stands on its own.</em></p>
+
+### IShowSpeed's Wing: 8w7
+
+Speed reads as 8w7 — the Challenger with an Enthusiast <a href="/enneagram-corner/enneagram-wings-complete-guide">wing</a>. An 8w9 would be rooted, heavy, slow-moving, protective of home turf. Speed is the opposite shape: restless, hungry, constantly cannonballing into new arenas. Gaming to music to WWE to IRL tours to 80 countries in a year. The 7-wing is what makes one room never enough. A pure 8 conquers; an 8w7 conquers and keeps looking for the next fight.
+
+The 7-wing also explains the appetite for spectacle. Fireworks in the bedroom. Speared through a table at the Royal Rumble. 50-meter sprint against Noah Lyles knowing he'll lose. 8w9s don't pick fights they'll lose for the story — they avoid unnecessary friction. 8w7s generate the friction because the sensation of impact is the point. Speed doesn't want to win safely. He wants to be inside the collision.
+
+### IShowSpeed's Instinctual Subtype: sx/so
+
+Speed reads as sexual-dominant with social secondary. The sx-8 signature is the intensity — the Ronaldo tears, the Kai Cenat brotherhood (wrestling each other during a 68-hour Minecraft marathon), the 70% of his life shared on stream, the "I almost jumped off a building" volatility during the Tokyo crisis. Sx-8s fuse at high voltage. The <a href="/enneagram-corner/enneagram-instinctual-subtypes">instinct stack</a> runs on charged one-to-one connection — which is why a cartoon dog saying "no" reads to him as an insult worth a six-month grudge.
+
+Social sits second and carries the platform work. The Foundation, the envelopes to childhood friends, the Streamer University connection for Jamal, the loyalty tests with Adin Ross, the MrBeast WhatsApp-group calculus — these are so-8 moves, building and policing the group. Self-preservation sits last. He lights fireworks indoors. He streams 35 days nonstop across America. He gets speared through a table. Sp-8s protect their own bodies and resources first; Speed reliably expends his to keep the arena full.
+
+### Stress and Growth Arrows
+
+Under pressure, Speed reaches toward Type 5. The Tokyo hospital stretch is the clearest case — when the armor cracks, the reflex isn't rage. It's withdrawal. Prayer instead of performance. He streamed from the bed but went dark afterward. Same pattern on the stone floor in the Gorée Island slave cell: silence, no character, no screaming. 8-in-stress pulls the Investigator's isolation, not the Investigator's best analytical depth — the version you access under pressure is the withdrawn one.
+
+In growth he moves toward Type 2. Buying his mother a house at 16 after she kicked him out. Offering his father a four-million-dollar mansion. Protecting his sister from cameras. Escalating when Jamal reported getting bullied. The IShowSpeed Foundation, the envelopes of money for childhood friends framed as "a piece of what I've earned." See <a href="/enneagram-corner/enneagram-connecting-lines">the connecting lines</a> for how 8s borrow 2's protective generosity when they stop running on pure dominance.
+
+### Counterarguments: Why IShowSpeed Might Not Be Type 8
+
+The two strongest alternates are Type 7 and Type 3. The 7 read points at the restlessness, the sensation-seeking, the constant genre-hopping. But 7s run _from_ pain toward pleasure. Speed runs _toward_ pain. Fireworks indoors. Spear through a table. 40-yard dash against an Olympic sprinter. When something scares him, his first reflex is aggression, not escape. 7s flinch away; 8s lean in. Speed leans.
+
+The 3 read points at the career-building, the brand, the platform calculus. But 3s perform for approval and recalibrate when criticized. Speed doubles down. A 3 in his position would have smoothed the edges after the Adin Ross ban, apologized professionally, re-entered cleaner. Speed tweeted "Bye" with a screenshot and moved platforms. That's an 8 refusing to soften for the audience, not a 3 performing for them.
+
+</div>
+</details>
+
 ## Why He Still Feels Alone
 
 In a world where most people suppress their feelings, Speed expresses everything at maximum volume. Happy? Ecstatic. Angry? Furious. Scared? Sobbing in a Tokyo hospital while his fans sing outside.
@@ -382,7 +407,7 @@ The kid from the empty desk, finally named.
 
 **What personality type is IShowSpeed?**
 
-IShowSpeed reads most clearly as an [Enneagram Type 8](/enneagram-corner/enneagram-type-8) with a strong 7 wing. The pattern is aggression first, fear underneath, and constant expansion into new arenas so nobody gets to box him in.
+IShowSpeed reads most clearly as an [Enneagram Type 8](/enneagram-corner/enneagram-type-8). The pattern is aggression first, fear underneath, and constant expansion into new arenas so nobody gets to box him in.
 
 **Why is IShowSpeed so loud on stream?**
 

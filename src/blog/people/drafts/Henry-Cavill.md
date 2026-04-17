@@ -37,9 +37,9 @@ FEEDBACK (2026-02-18):
 - STRONG: The WoW/Superman phone call is one of the best hooks in the collection — specific, surprising, and immediately reveals the Type 2 operating system.
 - STRONG: The Russell Crowe silence is a genuine signature detail — "Most actors would have led with that story on day one. Cavill swallowed it for months" is the line that makes the whole analysis click.
 - STRONG: Memorable prose throughout — "Even his fantasies involve creatures he'd have to take care of" and "A sentence only a man who spent years hiding his softness would need to say" are both standout lines.
-- NEEDS WORK: No wings discussion (2w1 vs 2w3?) and no counter-typing addressed. The Enneagram integration is strong but adding wing analysis and addressing "why not Type 1 or Type 9?" would deepen it.
+- RETROFIT (2026-04-17): Added the opt-in Enneagram Rabbit Hole block and moved specialist analysis out of the main narrative.
 - NEEDS WORK: Some quote attributions are vague — "he admitted in an interview," "he told an interviewer" — adding publication names (GQ, Men's Health, etc.) would strengthen sourcing.
-- TO REACH B+: (1) Add a brief wings discussion — his meticulousness with lore and self-discipline suggest 2w1, worth a paragraph. (2) Address counter-typing — why Type 2 and not Type 6 (loyalty) or Type 9 (peacemaking)? (3) Sharpen 3-4 vague attributions with publication names. (4) Deepen the Witcher section — the departure is "publicly vague" but even one specific sourced detail about the creative disagreements would elevate it.
+- TO REACH B+: (1) Sharpen 3-4 vague attributions with publication names. (2) Deepen the Witcher section — the departure is "publicly vague" but even one specific sourced detail about the creative disagreements would elevate it.
 -->
 
 <p class="firstLetter">The phone rang during a World of Warcraft raid.</p>
@@ -174,11 +174,11 @@ The work has been meticulous. Cavill personally audited more than 300 individual
 
 "It is a tricky IP, and a very complex IP, and that's what I love about it," he told Esquire. "The challenges that come with putting this on the page in a way that is doing justice to that complexity, that trickiness, and that nuance, is a challenge I'm enjoying enormously."
 
-This is the Type 2 growth direction made real. When Helpers mature, they move toward [Type 4](/enneagram-corner/enneagram-type-4), developing their own creative identity rather than exclusively serving others. Cavill isn't just acting out someone else's interpretation of a beloved property. He's shaping it. He has, as he put it, "my hand on the tiller of things" for the first time.
+For once, Cavill isn't just acting out someone else's interpretation of a beloved property. He's shaping it. He has, as he put it, "my hand on the tiller of things" for the first time.
 
 But even as a producer, the Helper's instinct is to serve the fans, the lore, the community. Not to impose his vision, but to protect theirs.
 
-That producer's instinct also reveals something about which _kind_ of Helper Cavill is. He tilts toward **2w1**, the Helper with a Reformer's wing. The One wing shows in the meticulous lore auditing, the insistence on source-material fidelity, the self-discipline of his training regimens. A 2w3 (the Helper with a Performer's wing) would lean into charm and public image; think the actor who works the press circuit effortlessly. Cavill's version of showing up is different: it's correctness, thoroughness, doing the thing _right_ rather than doing it flashily. Three hundred lines of dialogue checked by hand isn't a performance. It's a moral obligation.
+That producer's instinct also has a moral texture. Cavill's version of showing up is correctness, thoroughness, doing the thing _right_ rather than doing it flashily. Three hundred lines of dialogue checked by hand isn't a performance. It's a moral obligation.
 
 Compare this to fellow Type 2 [Margot Robbie](/personality-analysis/Margot-Robbie), who similarly evolved from performer to producer and used the role to champion stories she believed others needed to see.
 
@@ -192,19 +192,42 @@ His departure after three seasons became one of the most discussed exits in rece
 
 Cavill himself was diplomatic but pointed: "I always had it in the back of my mind that if this was going to work, it had to be the books."
 
-That's the Type 2 stress line made visible. Under pressure, Helpers move toward [Type 8](/enneagram-corner/enneagram-type-8), becoming more assertive, more demanding, less willing to accommodate. Cavill wasn't fighting for his ego. He was fighting for the readers and gamers he considered himself responsible to. When the show's direction made that stewardship impossible, the stress response looked exactly like an actor insisting on source fidelity to the point of departure.
+Cavill wasn't fighting for his ego. He was fighting for the readers and gamers he considered himself responsible to. When the show's direction made that stewardship impossible, the caretaker became forceful: less accommodating, more demanding, and willing to leave rather than keep lending his name to something he couldn't protect.
 
 He didn't trash the show publicly. He left. Then he found Warhammer, another beloved property, this time one where he holds the creative authority.
 
-## Why Type 2 and Not Type 6 or Type 9?
+<details class="enneagram-rabbit-hole">
+<summary class="accordion">Enneagram Rabbit Hole: Wings, Subtypes &amp; Connecting Lines for Henry Cavill</summary>
+<div class="panel">
 
-The obvious objection: Cavill's loyalty to his WoW teammates, his fidelity to source material, his quiet consistency. Couldn't that be [Type 6](/enneagram-corner/enneagram-type-6), the Loyalist?
+<p><em>For Enneagram readers going deep on Henry Cavill. Skip if you're here for the story — the rest of the analysis stands on its own.</em></p>
 
-The distinction is motive. A Type 6 is loyal because they're scanning for threats and building alliances against an unsafe world. Their loyalty is a survival strategy: _if I'm faithful to you, you'll have my back._ Cavill's loyalty doesn't carry that anxious undertone. He doesn't show up for people because the world is dangerous. He shows up because being needed is oxygen.
+### Henry Cavill's Wing: 2w1
 
-The Type 9 case is subtler. Nines are peacemakers who merge with others' agendas and avoid conflict. Cavill's Russell Crowe silence, months of not mentioning their shared history, could look like Nine-style conflict avoidance. But a Nine would swallow that story to keep the peace, to avoid any disruption. Cavill swallowed it to protect Crowe from feeling obligated. The motivation isn't harmony for its own sake. It's service disguised as self-erasure.
+Cavill reads as 2w1 — the Helper with a Reformer's <a href="/enneagram-corner/enneagram-wings-complete-guide">wing</a>. A 2w3 Cavill would lean harder into charm, visibility, and the public-performance side of care: the actor who works the room because affection is another scoreboard. Cavill's care has a different texture. It is duty, correctness, and stewardship. Three hundred Warhammer lines checked by hand is not image management. It is the feeling that if millions of fans are trusting him with something beloved, he is morally obligated to get it right.
 
-And when the stakes were high enough, when The Witcher's creative direction threatened the fans he felt responsible for, Cavill didn't merge or accommodate. He walked. A Nine would have stayed and quietly simmered. A Two under stress moves to Eight and draws a line.
+The same 1-wing shows in the body discipline, the source-material fidelity, and the almost old-fashioned seriousness around roles. He doesn't just want to be loved for showing up. He wants to show up _properly_. That is why the Witcher conflict matters: the wound was not merely that the writers disagreed with him. It was that the work no longer felt faithful enough to the people and text he believed he was serving.
+
+### Henry Cavill's Instinctual Subtype: sp/so
+
+Cavill reads as self-preservation-dominant with social secondary. The sp-2 signature is the private nest of care: Kal in the trailer, the dogs counted in the family of five, the fatherhood fantasy of being fit enough to run with his children without catching a breather. The <a href="/enneagram-corner/enneagram-instinctual-subtypes">instinct stack</a> routes the Helper pattern through home, body, routine, and the beings who need him close.
+
+Social sits second and carries the fandom stewardship. Superman, The Witcher, Warhammer: each role becomes a community obligation, not just a job. He becomes an ambassador for hobbies, explains Warhammer instead of hiding it, and treats lore accuracy as service to the group. Sexual reads last; Cavill's public psychology is less about fusion-intensity and more about dependable presence, private bonds, and duty to communities he has agreed to protect.
+
+### Stress and Growth Arrows
+
+Under pressure, Cavill shows the Type 2 stress move toward Type 8. The Witcher departure is the cleanest example. The accommodating, diplomatic actor becomes more forceful when the thing he is protecting feels compromised. He does not attack publicly, but he does draw a line. See <a href="/enneagram-corner/enneagram-connecting-lines">the connecting lines</a> for how 2s can borrow 8's assertiveness when service turns into defense.
+
+In growth, he moves toward Type 4: personal creative identity rather than service alone. Warhammer puts his hand on the tiller for the first time. He is still serving fans and lore, but the mature version is not only adapting to someone else's vision. It is shaping a world through his own taste, tenderness, and seriousness.
+
+### Counterarguments: Why Henry Cavill Might Not Be Type 2
+
+The obvious alternate is Type 6. Cavill's loyalty to his WoW teammates, his fidelity to source material, and his quiet consistency all fit the Loyalist surface. But the motive is different. A 6 is loyal because the world is unsafe and alliances matter. Cavill's loyalty does not carry that anxious scanning quality. He shows up because being needed is oxygen.
+
+The Type 9 case is subtler. Russell Crowe silence could look like conflict avoidance: a man swallowing his own story to keep the room smooth. But Cavill was not avoiding disruption for its own sake. He was protecting Crowe from obligation or awkwardness. And when The Witcher crossed a line, he did not merge, accommodate, and quietly simmer. He walked. The pattern is not peace at any cost. It is service until service requires a boundary.
+
+</div>
+</details>
 
 ## Man's Best Friend Named After Superman's Real Name
 

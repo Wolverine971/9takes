@@ -38,7 +38,9 @@ FEEDBACK (2026-02-23):
 - EXCELLENT: The Disney vs. OpenAI anger distinction is the genuine "aha" moment — institutional betrayal (forgiven, "poor judgment") vs. personal violation (still carrying edge, "good Marvel villain"). This reveals how Nine anger operates differently based on what boundary was crossed.
 - EXCELLENT: The 9:36 PM first date detail is the signature moment — genuine connection throwing a Nine into flight mode. Worth more than a hundred quotes about finding the right person.
 - MINOR: A few quotes lack specific source attribution (which interview, what publication). The $40M settlement is qualified as "reportedly."
-- TO STAY AT A / REACH A+: (1) Sharpen source attribution on 2-3 key quotes. (2) Consider whether the counter-typing section (vs 6, vs 4) could flow more narratively — it's the one section that reads slightly more analytical than the rest. (3) A completely paradigm-shifting thesis about Johansson (not just deeply insightful confirmation) would push into A+ territory.
+- TO STAY AT A / REACH A+: (1) Sharpen source attribution on 2-3 key quotes. (2) Consider whether the alternate-type section (vs 6, vs 4) could flow more narratively — it's the one section that reads slightly more analytical than the rest. (3) A completely paradigm-shifting thesis about Johansson (not just deeply insightful confirmation) would push into A+ territory.
+
+RETROFIT (2026-04-17): Added the opt-in Enneagram Rabbit Hole block and moved specialist analysis out of the main narrative.
 -->
 
 > "Puberty hit and I crawled into a dark, cold shell and never left."
@@ -61,7 +63,7 @@ This is the psychology of <a href="/enneagram-corner/enneagram-type-9">Enneagram
 <ul>
 <li><b>The Foundational Wound:</b> Passed over for her brother by a talent agent at seven. For a Type 9 — the type that already struggles with feeling invisible — this confirmed the fear. She responded not with anger but with quiet, internal resolve.</li>
 <li><b>The Shell:</b> "Puberty hit and I crawled into a dark, cold shell and never left." Describes herself as "too fragile" for social media. Tried Instagram for three days, got sucked into comparing herself to strangers, deleted it.</li>
-<li><b>The 9w8 Core:</b> Natalie Portman: "She's very direct." Chris Evans calls himself the "younger sibling" despite being three years older. When boundaries get crossed, the stubbornness surfaces: Disney lawsuit, OpenAI confrontation, SodaStream/Oxfam break.</li>
+<li><b>Calm With a Steel Edge:</b> Natalie Portman: "She's very direct." Chris Evans calls himself the "younger sibling" despite being three years older. When boundaries get crossed, the stubbornness surfaces: Disney lawsuit, OpenAI confrontation, SodaStream/Oxfam break.</li>
 <li><b>The Anger Pattern:</b> Holds out hope, avoids confrontation as long as possible, then moves with quiet force when pushed past the threshold. Said no to OpenAI twice. When they used her voice anyway, she went public.</li>
 <li><b>The 30-Year Dream:</b> Wanted to direct since watching Robert Redford at age 12. Didn't do it until she was 40. Type 9s don't rush their deepest goals.</li>
 </ul>
@@ -140,57 +142,44 @@ Direct in the work. Invisible in her personal life. That gap is the whole story.
 
 ## What Is Scarlett Johansson's Personality Type?
 
-### Why Type 9 — and Not Type 6
+### Scarlett Johansson is an Enneagram Type 9
 
-Someone who avoids social media, describes herself as "too fragile," and seeks stable relationships could look like a <a href="/enneagram-corner/enneagram-type-6">Type 6 (The Loyalist)</a>. Both types value security. Both can appear guarded.
+Johansson reads as [Enneagram Type 9](/enneagram-corner/enneagram-type-9), the Peacemaker. Not because she is passive. Because her first move is almost always to preserve inner calm, absorb the pressure, and keep the personal self protected while the work carries the emotion.
 
-But the core motivation is different. Type 6s avoid out of _fear_ — the mind running worst-case scenarios. Type 9s avoid out of _desire for peace_ — they don't want the sharp edges.
+The mistake is treating calm as emptiness. Johansson's calm is active. It lets her disappear into wildly different roles, keep her private life out of the feed, and wait years before acting on the directing dream she formed at twelve. But when a boundary is crossed, the stillness hardens. Disney, OpenAI, SodaStream, and _Jojo Rabbit_ all show the same pattern: avoid the fight as long as possible, then become impossible to move.
 
-Watch how Johansson responds to threat. When Disney publicly attacked her during the Black Widow lawsuit, calling her "callous," she didn't build coalitions, rally allies, or go on a media blitz. She held firm, settled, then expressed quiet disappointment that her peers hadn't spoken up. Silence, boundary, slow processing. That's 9, not 6.
+<details class="enneagram-rabbit-hole">
+<summary class="accordion">Enneagram Rabbit Hole: Wings, Subtypes &amp; Connecting Lines for Scarlett Johansson</summary>
+<div class="panel">
 
-A Six under fire gets _more_ vigilant, more reactive. Johansson gets quieter.
+<p><em>For Enneagram readers going deep on Scarlett Johansson. Skip if you're here for the story — the rest of the analysis stands on its own.</em></p>
 
-The stress arrow confirms it. Under pressure, Type 9s temporarily move toward 6 behaviors — anxiety spikes, vulnerability surfaces. Johansson's three-day Instagram experiment is the tell: she felt the comparison anxiety, recognized the trigger, removed it, returned to calm. A Six would more likely stay on the platform, anxiously monitoring it. Johansson just deleted the app.
+### Scarlett Johansson's Wing: 9w8
 
-### Why Type 9 — and Not Type 4
+Johansson reads as 9w8 — the Peacemaker with a Challenger <a href="/enneagram-corner/enneagram-wings-complete-guide">wing</a>. A 9w1 version would likely lead with propriety, visible moral tension, and a stronger need to be seen as correct. Johansson's pattern is more gut-level: private, grounded, hard to provoke, and then surprisingly forceful when the line is crossed.
 
-Her artistic depth, distinctive voice, and creative range could suggest <a href="/enneagram-corner/enneagram-type-4">Type 4 (The Individualist)</a>. But the evidence runs the other way.
+Natalie Portman's "She's very direct" comment is the cleanest tell. So is the SodaStream/Oxfam break. She did not perform anguish for the public; she made the call and held it. Taika Waititi saw the same force when Johansson stopped him from rushing a difficult _Jojo Rabbit_ scene. The surface is calm. The boundary underneath is not soft.
 
-"I've described my childhood as very ordinary." A Four would never say that. Fours experience themselves as fundamentally different from others. Johansson actively minimizes. Five siblings, food stamps, divorce — _ordinary_.
+### Scarlett Johansson's Instinctual Subtype: sp/sx
 
-Her directorial debut, _Eleanor the Great_, is about intergenerational friendship, preserving stories, bridging divides. Type 9 themes. A Four's directorial debut would more likely explore alienation, longing, the unique pain of being misunderstood.
+Johansson reads as self-preservation dominant with sexual second. The sp-9 pattern protects peace through privacy, familiar routines, home, family, and careful control over access. No social media, the "dark, cold shell," the free-school-lunch childhood minimized as "ordinary," and the desire to disappear into characters all fit the <a href="/enneagram-corner/enneagram-instinctual-subtypes">instinct stack</a>.
 
-And her career: she moves between Marvel blockbusters, Wes Anderson films, indie dramas, and horror without cultivating a deliberately distinctive filmography. Chris Evans praised her for "seamlessly transitioning between independent and mainstream films, refusing to be boxed in." That's the Nine's ability to merge with any environment. A Four curates. A Nine adapts.
+Sexual sits second in the depth of a few trusted bonds: Dorothy Sloan, Colin Jost, her children, and the intense jolt of real connection that made her flee the first date at 9:36 PM. Social reads last. She can dominate the box office and still treat public exposure as something to be managed, not a source of nourishment.
 
-### The 9w8 Wing
+### Stress and Growth Arrows
 
-Type 9 has two possible wings. A 9w1 (wing One) is more principled, orderly, guilt-prone about anger. A 9w8 (wing Eight) is more direct, stubborn, assertive when pushed.
+Under stress, Type 9 moves toward Type 6. Johansson's three-day Instagram experiment shows the pattern: comparison anxiety, mental spiraling, quick retreat. Disney's public attack during the _Black Widow_ lawsuit also brought out vigilance and disappointment that peers stayed silent.
 
-Johansson reads as 9w8.
+In growth, Type 9 moves toward Type 3. See <a href="/enneagram-corner/enneagram-connecting-lines">the connecting lines</a> in the directing dream. _Eleanor the Great_ is Johansson becoming visible as an author after nearly thirty years of waiting. The healthy move is not louder conflict. It is decisive action on her own desire.
 
-Portman's observation — "She's very direct" — is Eight-wing energy. So is the SodaStream stance. When Oxfam objected to her ambassadorship for SodaStream (whose factory sat in a West Bank settlement), she didn't agonize. She left Oxfam after eight years and dismissed the criticism as "noise." A 9w1 would have wrestled with the moral tension. Johansson made a gut-level call and held it.
+### Counterarguments: Why Scarlett Johansson Might Not Be Type 9
 
-Taika Waititi experienced the Eight wing on the _Jojo Rabbit_ set. He was ready to rush past a difficult scene due to schedule pressure. Johansson stopped him:
+Type 6 is plausible because she is guarded, avoids social media, and values safety. But 6s usually become more outwardly vigilant under threat. Johansson tends to get quieter, hold the line, and process slowly.
 
-> "You're not coming back to this set ever again. This is the only chance we have to do it... let's not rush it because we're worried about a schedule thing. If we're trying to get it right, then let's get it right. What's another 10 minutes?"
+Type 4 also has a case: distinctive voice, artistic depth, old-soul aura. But Johansson minimizes difference rather than curating it. "I've described my childhood as very ordinary" is not the language of someone building identity around uniqueness. Her career adapts across worlds; her films often seek connection, memory, and peace. That is Type 9 territory.
 
-Waititi's reflection: "It was cool to have an ally."
-
-The person in the room who rarely pushes — but when she does, you listen.
-
-### The Body Triad: Where Anger Lives
-
-Type 9 sits in the Enneagram's gut/anger triad alongside <a href="/enneagram-corner/enneagram-type-8">Types 8</a> and <a href="/enneagram-corner/enneagram-type-1">1</a>. All three have a complicated relationship with anger. Eights externalize it. Ones repress it into rigidity. Nines deny it entirely — they "fall asleep" to their own anger because expressing it might rupture the peace.
-
-The anger doesn't disappear. It accumulates. When it finally surfaces, the eruption shocks everyone because nothing in the Nine's calm exterior suggested the pressure building underneath.
-
-Johansson's anger surfaces in a specific pattern: hold out hope, avoid confrontation as long as possible, absorb the pressure — then, past a threshold she may not have known existed, move with quiet force.
-
-The Rub & Tug controversy in 2018 shows all three phases. **Phase one: defensiveness.** When criticized for being cast as a transgender man, her representative's statement was sarcastic and combative — "Tell them that they can be directed to Jeffrey Tambor, Jared Leto, and Felicity Huffman's reps for comment." **Phase two: withdrawal.** She exited the project quietly. **Phase three** — over a year later — **genuine reflection:** "In hindsight, I mishandled that situation. I was not sensitive, my initial reaction to it... I wasn't aware of that conversation — I was uneducated."
-
-Stubbornness, withdrawal, slow integration. The body triad processing anger on its own timeline.
-
-She's admitted to this pattern in her career too. Losing _The Parent Trap_ to Lindsay Lohan: "I started to get bitter at that point." Missing out on _Iron Man 2_ and _Gravity_ left her "really frustrated and hopeless," asking herself, "Am I doing the right job?" The frustration accumulates in private. The public face stays calm.
+</div>
+</details>
 
 ## Going to War With Disney
 
@@ -234,13 +223,13 @@ Shocked, angered, disbelief. Not the calm processing of a person at peace. Raw a
 
 > "I had actively avoided being a part of the conversation, which was what made it so disturbing. I was like, 'How did I get wrapped up in this?' It was crazy. I was so angry."
 
-She said no twice. Maintained peace. Avoided the fight. And the fight came to her anyway. When a Nine's fundamental sense of self gets violated — not their image, not their career, but their _self_ — the Eight wing fires.
+She said no twice. Maintained peace. Avoided the fight. And the fight came to her anyway. When a Nine's fundamental sense of self gets violated — not their image, not their career, but their _self_ — the steel edge appears.
 
 She hired lawyers. OpenAI paused the voice, insisting it was based on a different actress. The controversy exposed gaps in legal protections around AI and voice likeness. Johansson became an unexpected advocate for artists' rights in an industry she'd been trying to avoid.
 
 The difference between Disney and OpenAI is instructive. Disney was institutional. She forgave it. "Poor judgment and poor leadership." OpenAI was personal. She joked that Altman would make "a good Marvel villain, maybe with a robotic arm." The edge was still there months later.
 
-This is Type 9 integration toward <a href="/enneagram-corner/enneagram-type-8">Type 8</a>. A Peacemaker who fights not from aggression but from a violated boundary. The anger isn't hot. It's immovable.
+This is the Peacemaker who fights not from aggression but from a violated boundary. The anger isn't hot. It's immovable.
 
 ## Why Social Media Would Break Her
 
@@ -280,7 +269,7 @@ Jost on what drew him: "I think part of the reason I fell in love with her is sh
 
 He also revealed: "Games are serious business. She's really upset when I beat her at backgammon, which I do all the time."
 
-Playful competitiveness inside a safe relationship. The stubborn streak channeled into board games instead of conflict. Healthy 9w8 behavior.
+Playful competitiveness inside a safe relationship. The stubborn streak channeled into board games instead of conflict.
 
 ## The Directing Dream Held for 30 Years
 

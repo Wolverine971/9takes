@@ -44,14 +44,31 @@ function removeQueryAndHash(path: string): string {
 	return noHash.split('?')[0];
 }
 
+function normalizePersonalityAnalyticsSlug(slug: string | null | undefined): string {
+	return slug?.trim().replace(/\s+/g, '-').toLowerCase() ?? '';
+}
+
+function normalizePersonalityAnalyticsPath(path: string): string {
+	const detailMatch = path.match(/^\/personality-analysis\/([^/]+)$/i);
+	if (!detailMatch) return path;
+
+	const slug = detailMatch[1];
+	if (slug.toLowerCase() === 'type' || slug.toLowerCase() === 'categories') {
+		return path;
+	}
+
+	const normalizedSlug = normalizePersonalityAnalyticsSlug(slug);
+	return normalizedSlug ? `/personality-analysis/${normalizedSlug}` : path;
+}
+
 export function normalizePath(path: string | null | undefined): string {
 	const raw = path && path.trim() ? path.trim() : '/';
 	const base = removeQueryAndHash(raw);
 	const withSlash = base.startsWith('/') ? base : `/${base}`;
 	if (withSlash.length > 1 && withSlash.endsWith('/')) {
-		return withSlash.slice(0, -1);
+		return normalizePersonalityAnalyticsPath(withSlash.slice(0, -1));
 	}
-	return withSlash;
+	return normalizePersonalityAnalyticsPath(withSlash);
 }
 
 export function isUtilityPath(path: string): boolean {

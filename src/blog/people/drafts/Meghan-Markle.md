@@ -36,7 +36,7 @@ Hook: 9 | Enneagram: 9 | Evidence: 8.5 | Writing: 9 | Originality: 9
 
 FEEDBACK (2026-02-20):
 - The calligraphy hook is the best in the entire draft collection — "freelance calligrapher" to "most polarizing woman in the English-speaking world" is a perfect setup that nobody leads with. Robin Thicke's wedding invitations is the kind of specificity that makes it land.
-- The Type 3 vs Type 2 contrast panel ("What a Type 3 Would Say" vs "What Meghan Actually Said") is the strongest counter-typing I've seen in any blog. It's visual, concrete, and immediately convincing.
+- The Type 3 vs Type 2 contrast panel ("What a Type 3 Would Say" vs "What Meghan Actually Said") is one of the strongest objections-and-answer sections in any blog. It's visual, concrete, and immediately convincing.
 - The Diana comparison is genuinely novel: same Type 2, different defenses. "Diana asked: What did I do wrong? Meghan asked: What did they do wrong?" crystallizes the distinction perfectly.
 - The census form thread — blank form at age 12, erasing her box when she shut down The Tig, the question that keeps returning — gives the piece structural unity.
 - Staff turnover section framed through Type 2 lens (staff as facilitators not recipients) is a genuine "aha moment."
@@ -63,7 +63,7 @@ The warmth is real. The intensity is also real. And they come from the same plac
 <ul>
 <li><b>The giving came first:</b> Humanitarian fieldwork in Rwanda, UN speeches, soup kitchen volunteering — all before she met Harry. The helping isn't a brand strategy. It's her operating system.</li>
 <li><b>The crisis was relational, not professional:</b> She didn't tell Oprah "they blocked my career." She said "they didn't care how I felt." The wound is about love, not achievement.</li>
-<li><b>Under stress, she becomes a fighter:</b> The Oprah interview, the lawsuits, the confrontational staff behavior — classic Type 2 disintegration to Type 8. Helpers don't stay helpless.</li>
+<li><b>Under stress, she becomes a fighter:</b> The Oprah interview, the lawsuits, the confrontational staff behavior — the helper doesn't stay helpless.</li>
 <li><b>The core question that drives everything:</b> Am I loved for who I am, or only when I'm giving?</li>
 </ul>
 </div>
@@ -117,26 +117,37 @@ The evidence for Meghan as a Type 2 is not in her accomplishments. It's in what 
 - When she sought help for suicidal thoughts during pregnancy, the pain wasn't that the institution was dysfunctional. The pain was that she asked for care and was told her care didn't matter: "I was told it wouldn't be good for the institution."
 - Her first solo royal project wasn't a PR campaign or a charitable foundation announcement. It was a cookbook — _Together: Our Community Cookbook_ — where she personally visited a Grenfell Tower survivors' kitchen, asked "why isn't this open seven days a week?", and organized the project herself. It raised over £911,000. The Type 2 impulse in its purest form: see a need, make yourself the bridge.
 
-The counter-argument is Type 3 — The Achiever. Online personality databases lean 3w2. The case is reasonable: the acting career, the polished image, the media savvy, the upward trajectory from briefcase model to duchess to media mogul.
+The counter-argument is Type 3 — The Achiever. The case is reasonable: the acting career, the polished image, the media savvy, the upward trajectory from briefcase model to duchess to media mogul.
 
-But the diagnostic line is in the crisis, not the climb. Type 3s under stress become passive and disengaged, moving toward Type 9. Meghan under stress became confrontational and aggressive — the Oprah bombs, the tabloid lawsuits, the reported staff conflicts. That's Type 2 disintegrating to [Type 8](/enneagram-corner/enneagram-type-8). The helper who can't get her needs met through giving becomes the fighter who demands what she's owed.
+But the diagnostic line is in the crisis, not the climb. She didn't say the Palace held back her success. She said the Palace didn't care how she felt. The pain is relational. The wound is about love. The polish, ambition, and career drive are real, but the core is Two. And the core is where the bleeding happens.
 
-<div class="contrast-panel">
-  <div class="contrast-panel__side contrast-panel__side--left">
-    <div class="contrast-panel__label">What a Type 3 Would Say</div>
-    <p>"They prevented me from doing meaningful work."</p>
-    <p>"They didn't let me succeed."</p>
-    <p>"I could have done so much more if they'd let me."</p>
-  </div>
-  <div class="contrast-panel__side contrast-panel__side--right">
-    <div class="contrast-panel__label">What Meghan Actually Said</div>
-    <p>"They didn't care how I felt."</p>
-    <p>"I just didn't want to be alive anymore."</p>
-    <p>"I said I needed help and was told it wouldn't be good for the institution."</p>
-  </div>
+<details class="enneagram-rabbit-hole">
+<summary class="accordion">Enneagram Rabbit Hole: Wings, Subtypes &amp; Connecting Lines for Meghan Markle</summary>
+<div class="panel">
+<p><em>For Enneagram readers going deep on Meghan Markle. Skip if you're here for the story — the rest of the analysis stands on its own.</em></p>
+
+### Meghan Markle's Wing: 2w3
+
+Meghan reads as a 2w3: a helper with presentation, ambition, and brand fluency. The Two core is visible in the relational wound — "they didn't care how I felt" — while the Three side explains the polish. She knows how to package care: calligraphy, _The Tig_, the Grenfell cookbook, Archewell, podcasts, lifestyle shows, and public advocacy all turn warmth into a visible offering. In the <a href="/enneagram-corner/enneagram-wings-complete-guide">Enneagram wings</a> frame, that does not make her a Three. It means her helping comes with a camera-ready surface.
+
+### Meghan Markle's Instinctual Subtype: so/sx
+
+Her likely stack is so/sx. Social comes first because her helping is routed through platforms, institutions, causes, and reputation fields: UN Women, World Vision, royal patronages, media ventures, and public campaigns. She wants belonging at scale, not just intimacy in private. The one-to-one instinct runs close behind: Harry's protection, the rupture with Thomas Markle, the need to be believed, and the intensity of chosen relationships. Self-preservation seems least dominant; she often spends comfort, privacy, and stability to keep the mission moving. The larger pattern is mapped in the <a href="/enneagram-corner/enneagram-instinctual-subtypes">instinctual subtypes guide</a>.
+
+### Stress and Growth Arrows
+
+The <a href="/enneagram-corner/enneagram-connecting-lines">connecting lines</a> explain why the helper can become combative. Under pressure, Type 2 can pick up the forceful edge of Type 8. The Oprah interview, lawsuits, staff conflicts, and public break with palace etiquette all show the same move: when giving does not produce care, she stops pleading and starts confronting.
+
+Growth points toward Type 4: honest selfhood without earning love through usefulness. Meghan's census-form story matters because it asks a deeper question than "what can I do for you?" It asks, "what box can hold me?" Her healthiest path is not more output. It is a truer self that does not need every audience to answer back.
+
+### Counterarguments: Why Meghan Markle Might Not Be Type 2
+
+Type 3 is the obvious alternate. A Type 3 would emphasize blocked achievement: "They prevented my work. They didn't let me succeed." Meghan's crisis language is different: "They didn't care how I felt." The wound is relational.
+
+Type 8 also has a case because she fights institutions and does not stay quiet. But the fighting appears after failed bids for care. The challenger is not the starting point. It is what emerges when the helper feels abandoned.
+
 </div>
-
-The pain is relational. The wound is about love. The 3 wing gives her the polish, the ambition, the career drive. But the core is Two. And the core is where the bleeding happens.
+</details>
 
 ---
 
@@ -271,7 +282,7 @@ But the differences reveal more.
 
 Diana was a Type 2 who internalized the rejection. She developed bulimia, self-harmed, and described feeling "so inadequate." When the institution told her she wasn't enough, she believed it. Her vulnerability was genuine and unstrategic — the Panorama interview was a Hail Mary from someone who had nothing left to lose.
 
-Meghan is a Type 2 who externalizes the rejection. When the institution told her she wasn't enough, she didn't collapse. She fought. The Oprah interview wasn't a Hail Mary — it was a tactical strike. The lawsuits, the Netflix documentary, the public disclosures — all of it was a Type 2 moving to Type 8 under stress. The helper became the challenger.
+Meghan is a Type 2 who externalizes the rejection. When the institution told her she wasn't enough, she didn't collapse. She fought. The Oprah interview wasn't a Hail Mary — it was a tactical strike. The lawsuits, the Netflix documentary, the public disclosures — all of it came from the helper becoming the challenger.
 
 Diana asked: _What did I do wrong?_
 

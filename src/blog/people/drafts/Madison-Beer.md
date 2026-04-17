@@ -79,10 +79,6 @@ Madison Beer needs to be understood as her real self. The problem is she became 
 
 That's the engine. Not pain alone. Not talent alone. The need to find yourself while the world is already deciding who you are.
 
-**She's a 4w3** — blending the Individualist's emotional depth with the Achiever's hunger for recognition. The wing distinction matters. A 4w5 Madison might have retreated after being dropped at 16. Disappeared into songwriting without caring if anyone heard it. Instead, she rebuilt her public presence. Fought for visibility. Turned her pain into a Grammy-nominated career.
-
-The 3 wing doesn't make her less authentic. It means she wants to be authentically successful. Not just authentically suffering.
-
 ---
 
 ## The Girl Who Was Famous Before She Was Anyone
@@ -193,7 +189,7 @@ The woman who feels like a failure being told by her idol that the pressure is s
 
 The pattern is visible once you know what to look for.
 
-Type 4s under stress move toward Type 2 — they become clingy, people-pleasing, abandoning their own identity to keep the other person from leaving. The independence evaporates. The person who writes entire albums about authentic self-expression loses herself completely in another person's orbit.
+Under pressure, Madison collapses into her relationships. She becomes clingy, people-pleasing, abandoning her own identity to keep the other person from leaving. The independence evaporates. The woman who writes entire albums about authentic self-expression loses herself completely in another person's orbit.
 
 Madison's relationship with Vine star Jack Gilinsky was where this pattern crystallized. They dated from roughly 2015 to 2017 — she was 15 to 18. Leaked audio revealed him verbally abusing her, calling her a "slut" repeatedly. A second recording captured her walking in on him cheating.
 
@@ -271,9 +267,42 @@ She swims for hours in her pool and leaves her phone inside. The one place she's
 </div>
 </div>
 
-This is what integration looks like for someone with her wiring. The healthy version of a Type 4 moves toward Type 1 qualities: discipline, structure, principle applied to the emotional chaos. Three therapy sessions a week isn't casual self-care. It's a rigorous system for self-understanding. The early bedtime, the small creative circle, the boundary-setting — all of it is structure imposed on a personality that could easily dissolve into feeling.
+This is what the healthy version of Madison looks like: discipline, structure, principle applied to the emotional chaos. Three therapy sessions a week isn't casual self-care. It's a rigorous system for self-understanding. The early bedtime, the small creative circle, the boundary-setting — all of it is structure imposed on a personality that could easily dissolve into feeling.
 
 "You have to try to be better, always," she said about her BPD. She won't use her diagnosis as an excuse. That's the principled streak at work.
+
+<details class="enneagram-rabbit-hole">
+<summary class="accordion">Enneagram Rabbit Hole: Wings, Subtypes &amp; Connecting Lines for Madison Beer</summary>
+<div class="panel">
+
+<p><em>For Enneagram readers going deep on Madison Beer. Skip if you're here for the story — the rest of the analysis stands on its own.</em></p>
+
+### Madison Beer's Wing: 4w3
+
+Madison reads as 4w3 — the Individualist with an Achiever <a href="/enneagram-corner/enneagram-wings-complete-guide">wing</a>. A 4w5 Madison would have retreated after being dropped at 16. Disappeared into songwriting without caring if anyone heard it. Turned the wound inward. Madison did the opposite. She rebuilt her public presence, fought for visibility, and turned her pain into a Grammy-nominated career. That's 3-wing fuel — the hunger to be seen, measured, and counted in the same arena as her peers.
+
+The 3-wing also explains the comparison engine. "They were selling out arenas or getting number one hit records and I felt like a failure." A pure 4w5 measures shame against its own internal aesthetic; a 4w3 measures it against everyone else's metrics. That's why _Evie Magazine_'s "Why Hasn't Madison Beer Reached Olivia Rodrigo's Level of Success?" could land as hard as it did. The 3-wing doesn't make her less authentic — it means she wants to be authentically _successful_, not just authentically suffering.
+
+### Madison Beer's Instinctual Subtype: sx/so
+
+Madison reads as sexual-dominant with social secondary. The sx-4 signature is the near-continuous chain of intense romantic relationships — Gilinsky, Bia, Austin, Herbert, each one a new container for the identity she couldn't locate alone. "I've been a bit codependent in my romances." Sx-4s burn through partners because each relationship becomes a whole self, and when it ends, the self ends with it. The <a href="/enneagram-corner/enneagram-instinctual-subtypes">instinct</a> runs on fusion — songs written inside the relationship that expose the truth before she can.
+
+Social sits second and carries the public-identity work. "Dear Society." The memoir. The "too sexy" industry rejection reframed into a publicly processed wound. The comparison envy that sharpens specifically against her female peer cohort. Self-preservation reads as structure she's recently building rather than her default mode — therapy three times a week, the 10 PM bedtime, the phone-free swims. Sx/so 4s project the whole identity search outward, into rooms full of watchers.
+
+### Stress and Growth Arrows
+
+Under pressure, Madison moves toward Type 2. The Gilinsky stretch is the clearest case — staying to "fix him," fearing he'd hurt another girl if she left, the caretaking instinct overriding every self-preserving impulse. The same pattern repeats across Bia, Austin, and into Herbert, before the current relationship started feeling different ("someone to lean on" instead of someone to save). 4-in-stress pulls the Helper's merging, not the Helper's best generosity — the version you get under pressure is the codependent one.
+
+In growth she moves toward Type 1. The therapy three times a week. The discipline of 10 PM bedtimes after years of 4 AM chaos. The memoir with interactive journal prompts — private excavation turned into rigorous shared exercise. Refusing to use BPD as an excuse: "You have to try to be better, always." See <a href="/enneagram-corner/enneagram-connecting-lines">the connecting lines</a> for how 4s borrow 1's spine when they stop dissolving into feeling and start imposing structure.
+
+### Counterarguments: Why Madison Might Not Be Type 4
+
+The strongest alternate read is Type 2. The codependent relationships, the abandonment fear, "I tried to be somewhat of a role model for so long that I ended up not even allowing myself to make human errors" — all 2-shaped on the surface. The public persona of the accessible, fan-connecting pop star adds to the read.
+
+The rebuttal: 2s metabolize pain through serving the other. 4s metabolize it by writing songs about themselves. Madison writes whole albums about _her_ — her identity, her search, her defectiveness, her lockets. A 2 in her position would have built a career oriented around the fans' experience, the "what I do for you" framing. Madison's work is the opposite shape — "what I'm trying to find out about me," and the fans are witnesses, not subject. The shame fixation is also the tell: 2s rarely sit inside the conviction that something is _fundamentally defective_ about them. They believe they're needed; 4s believe they're missing a piece.
+
+</div>
+</details>
 
 ---
 

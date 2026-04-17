@@ -35,8 +35,8 @@ Hook: 9 | Enneagram: 9.5 | Evidence: 9.5 | Writing: 9 | Originality: 9
 
 FEEDBACK (2026-02-18):
 - The "alchemy" thesis is the piece's defining insight and it carries everything: "She took everything she hated about herself and turned it into a multimillion-dollar brand." This is not a standard personality analysis — it's a genuine psychological argument.
-- The Drake section is masterfully handled. The timeline (interview → deletion → rumors → reconciliation) is well-sourced, and the Type 4 stress analysis ("projecting their internal chaos onto others") reframes celebrity gossip as personality psychology.
-- The 4w5 "Bohemian" subtype analysis is thorough: withdrawn energy, dry intellectual humor, observer quality, reserved emotional expression — each mapped to specific Bobbi behaviors with evidence.
+- The Drake section is masterfully handled. The timeline (interview → deletion → rumors → reconciliation) is well-sourced, and the overwhelmed Type 4 analysis ("projecting their internal chaos onto others") reframes celebrity gossip as personality psychology.
+- The withdrawn specialist analysis is thorough: dry intellectual humor, observer quality, reserved emotional expression — each mapped to specific Bobbi behaviors with evidence.
 - "An amalgamation of her biggest insecurities, just without shame" is perfectly analyzed as Type 4 creative transformation, and the comparison to Billie Eilish and Lana Del Rey grounds it in a broader pattern.
 - Sourcing is exceptional: Rainn Wilson Soul Boom podcast (with link), Vox analysis by Alex Abad-Santos, Women On Top podcast, TMZ for divorce details, specific quotes throughout.
 - The suicide attempt at 14 is handled with appropriate gravity — not sensationalized, properly contextualized within the Type 4 core wound.
@@ -44,6 +44,8 @@ FEEDBACK (2026-02-18):
 - The conclusion lands: "You're seeing someone who finally found a way to make the discomfort she's always felt into something valuable."
 - MINOR: The disclaimer appears at the top rather than the bottom, breaking the standard format. Move to bottom.
 - TO REACH A+: The piece is strong throughout. To elevate further, the "Persona as Transformation" section could go even deeper — what does it mean psychologically when the character you create is braver than you are? This is where the piece hints at something profound but doesn't fully develop it.
+
+RETROFIT (2026-04-17): Added the opt-in Enneagram Rabbit Hole block and moved specialist analysis out of the main narrative.
 -->
 
 > **Disclaimer** This analysis of Bobbi Althoff's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Bobbi.
@@ -64,7 +66,7 @@ Understanding Bobbi Althoff means understanding why her "awkward" persona isn't 
 <li><b>Transforming Pain into Art:</b> Her deadpan persona embodies her "biggest insecurities without shame", taking what made her feel broken and making it her signature. Type 4 creative alchemy.</li>
 <li><b>Deep Emotional Intensity:</b> Depression since childhood, a suicide attempt at 14, postpartum depression — Type 4s absorb all of it.</li>
 <li><b>The Outsider Feeling:</b> "I didn't fit in" and felt she'd never "find my place in this world": the Type 4's lifelong sense of being unlike everyone else.</li>
-<li><b>The 5 Wing:</b> Her withdrawn nature, debilitating social anxiety, dry intellectual humor, and observer-like quality in interviews point to a 4w5 "Bohemian" subtype.</li>
+<li><b>The Observer Quality:</b> Her withdrawn nature, debilitating social anxiety, dry intellectual humor, and watcher-like interview style explain why the persona feels so contained.</li>
 </ul>
 </div>
 </details>
@@ -82,7 +84,7 @@ Bobbi Althoff embodies the [Enneagram Type 4](/enneagram-corner/enneagram-type-4
 - **Key Traits**: Emotionally intense, introspective, creative, feeling different from others
 - **Defense Mechanism**: Introjection, taking in criticism and making it part of her identity, then transforming it
 
-What makes Bobbi's Type 4 expression fascinating is her **5 wing**. The 4w5 is called "The Bohemian" or "The Free Spirit", more withdrawn, intellectual, and observational than the more emotionally expressive 4w3. This explains her dry, cerebral humor rather than dramatic flair, and her tendency to create distance in interviews rather than emotional intimacy.
+What makes Bobbi's Type 4 expression fascinating is how contained it is. Her humor is dry, cerebral, and observational rather than dramatic. She creates distance in interviews instead of emotional intimacy, which is why the awkward silence feels like a room she controls.
 
 ## The Making of a Deadpan Queen: Bobbi's Turbulent Childhood
 
@@ -182,7 +184,7 @@ He added: "You made me feel like our interview was the reason your life was bad.
 
 Bobbi admitted she got "mad" at Drake "one time" and blamed him for her struggles when she probably shouldn't have.
 
-This is Type 4 behavior under stress. When 4s are overwhelmed, they can become envious and resentful, projecting their internal chaos onto others. Drake became a convenient target for feelings that had nothing to do with him.
+This is what Bobbi's Type 4 pattern can look like when overwhelmed. The emotional weather gets projected outward, and Drake became a convenient target for feelings that had little to do with him.
 
 ## The Persona as Transformation
 
@@ -208,25 +210,38 @@ In real life, Bobbi describes herself as a people pleaser. She's nervous on Zoom
 
 The character is everything she wished she could be, confident in her differentness, while the real Bobbi still struggles with the same insecurities that haunted her childhood.
 
-## The Psychological Complexity of Type 4w5
+<details class="enneagram-rabbit-hole">
+<summary class="accordion">Enneagram Rabbit Hole: Wings, Subtypes &amp; Connecting Lines for Bobbi Althoff</summary>
+<div class="panel">
 
-### The "Bohemian" Subtype
+<p><em>For Enneagram readers going deep on Bobbi Althoff. Skip if you're here for the story — the rest of the analysis stands on its own.</em></p>
 
-Bobbi's Type 4 personality is flavored by a strong 5 wing, creating the 4w5 "Bohemian" subtype. This explains several distinctive aspects of her presentation:
+### Bobbi Althoff's Wing: 4w5
 
-**Withdrawn Energy**: Despite massive fame, she isolated herself as a stay-at-home mom. She has "debilitating social anxiety." The 5 wing pulls Type 4s inward, toward observation rather than expression.
+Bobbi reads as 4w5 — the Individualist with an Investigator <a href="/enneagram-corner/enneagram-wings-complete-guide">wing</a>. A 4w3 version would likely push harder toward glamour, emotional display, and polished personal mythology. Bobbi's signature is colder and stranger: silence, blank stares, dry questions, and the feeling that she is watching the room from one step outside it.
 
-**Dry, Intellectual Humor**: Her comedy isn't emotionally expressive like a 4w3 might be. It's cerebral, deadpan, almost clinical. The 5 wing brings intellectual distance.
+The 5-wing explains why her vulnerability rarely comes as spectacle. She can describe devastating material, including childhood depression and the attempt at 14, but the public persona stays controlled, almost clinical. Even her comedy works by withholding. She does not rush to connect with guests. She studies them, lets the discomfort grow, and turns distance into the joke.
 
-**Observer Quality**: In interviews, she creates space and watches what happens. She's not trying to connect emotionally, she's studying reactions from a remove.
+### Bobbi Althoff's Instinctual Subtype: so/sp
 
-**Reserved Emotional Expression**: Even when she's emotional (like her tearful response to hate comments), she's more contained than dramatic. The 5 wing tempers the 4's expressiveness.
+Bobbi reads as social-dominant with self-preservation second. The so-4 pattern centers shame, comparison, exclusion, and the feeling of being visibly different. Her repeated language — not fitting in, hating who she was, feeling uncomfortable in every room — fits the <a href="/enneagram-corner/enneagram-instinctual-subtypes">instinct stack</a> cleanly. The wound is social, and the brand is a reversal of that wound.
 
-### Stress and Growth Patterns
+Self-preservation comes through in the contained format: small rooms, bed interviews, controlled silence, motherhood as anchor, medication, and the need to keep functioning through emotional weather. Sexual reads last. The viral career creates intense moments, but the dominant pattern is shame transformed into social position, then protected by boundaries.
 
-**Under Stress (Goes to [Type 2](/enneagram-corner/enneagram-type-2))**: Type 4s move toward Type 2 behaviors when stressed. Bobbi admits she's a people pleaser. The hate comments affect her deeply because she wants to be liked. Her children became her reason for living, an intense attachment characteristic of the 4-to-2 movement.
+### Stress and Growth Arrows
 
-**In Growth (Moves to [Type 1](/enneagram-corner/enneagram-type-1))**: When healthy, Type 4s access Type 1's discipline and principle. Bobbi's work ethic, maintaining multiple podcasts, a tour, content creation, shows this integration. Her honesty about mental health, even when it's uncomfortable, reflects Type 1's commitment to truth.
+Under stress, Type 4 moves toward Type 2. Bobbi admits she is a people pleaser, and the Drake fallout shows the painful version of that line: needing connection, feeling rejected, then blaming someone nearby for feelings that had been building elsewhere. The hate comments land because they touch the fear that something about her is unacceptable.
+
+In growth, Type 4 moves toward Type 1. See <a href="/enneagram-corner/enneagram-connecting-lines">the connecting lines</a> in her increasing discipline: multiple podcasts, tour attempts, public accountability with Drake, therapy after divorce, and frank mental-health advocacy. The healthier move is not becoming less different. It is putting structure around the difference so it can serve her children, her work, and her audience.
+
+### Counterarguments: Why Bobbi Althoff Might Not Be Type 4
+
+Type 5 is the strongest alternate because of the deadpan distance, social anxiety, and observational humor. But a core 5 usually protects competence and privacy first. Bobbi's deepest material keeps returning to identity, shame, not belonging, and turning emotional defectiveness into art.
+
+Type 9 also has a case because she can look flat, conflict-avoidant, and numb on camera. But the flatness is not peacekeeping. It is stylized alienation. The persona works because it weaponizes the exact discomfort that once made her feel broken, which is pure Type 4 alchemy.
+
+</div>
+</details>
 
 ## The Divorce and Its Aftermath
 
@@ -300,7 +315,7 @@ The debate crystallized ongoing criticism: Is Bobbi's schtick entertaining, or j
 
 In 2024, Bobbi embarked on a live podcast tour with comedian Funny Marco called "Open Thoughts vs. Really Good Podcast." But Marco canceled the remaining dates, citing concerns about the show's format and audience engagement.
 
-Marco implied that Bobbi's anxiety was affecting the live performances. Fans noted that stage presence requires different skills than intimate podcast recordings. And Bobbi's withdrawn 4w5 energy may not translate well to large venues.
+Marco implied that Bobbi's anxiety was affecting the live performances. Fans noted that stage presence requires different skills than intimate podcast recordings. And Bobbi's withdrawn interview energy may not translate well to large venues.
 
 ## The Drake Partnership Redux
 

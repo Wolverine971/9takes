@@ -35,15 +35,17 @@ Hook: 8 | Enneagram: 8 | Evidence: 8 | Writing: 8 | Originality: 8
 FEEDBACK (2026-02-23):
 - Major improvement from D (6.2) to B (8.0). The rewrite addressed all core issues from the previous review.
 - The doorstep hook is now the opening — "The five-year-old stood on the doorstep of Park House, waiting" — and it works. Thesis lands within 4 paragraphs.
-- Counter-typing addressed directly: "There's a strong argument for Type 4... But Type 4s move inward... Diana moved outward." This is real analytical work, not hand-waving.
+- Alternate-type case addressed directly: "There's a strong argument for Type 4... But Type 4s move inward... Diana moved outward." This is real analytical work, not hand-waving.
 - "She gave away what she most needed someone to give her" — this is the piece's signature line. The final section ("What the Enneagram Actually Explains") genuinely uses the framework as engine.
-- Stress arrow to 8 used across multiple scenes (Raine stairs, tabloid warfare, "She won't go quietly") — well-integrated, not bolted on.
+- Pressure pattern used across multiple scenes (Raine stairs, tabloid warfare, "She won't go quietly") — well-integrated, not bolted on.
 - Waist measurement detail (29 → 23.5 inches) is visceral and specific. "When you can't control whether someone loves you, you control your waist" is a memorable line.
 
-- NEEDS WORK: No wings discussion. Diana is likely 2w3 (The Host) — public-facing, image-conscious, success-oriented in her charity work. The 2w3 lens explains her media savvy and her need for public validation in a way the base type doesn't.
+- NEEDS WORK: No adjacent-style discussion. Diana is likely public-facing, image-conscious, and success-oriented in her charity work. That lens explains her media savvy and her need for public validation in a way the base type doesn't.
 - NEEDS WORK: "That measurement is the piece of data this piece should have opened with" breaks the fourth wall. Cut it — the detail speaks for itself.
 
-- TO REACH B+ (8.5): (1) Add wings — 2w3 explains the media instinct, the "revenge dress," the calculated public appearances. (2) Add growth arrow to Type 4 — Diana's later years showed more authentic self-expression, sitting with her own feelings rather than only giving. Her resignation from 100 charities to 6 could be framed as growth integration. (3) Cut the fourth-wall-breaking meta comment in the bulimia section. (4) Sharpen attribution on 2-3 vague quotes ("she said later" — which interview? when?).
+- TO REACH B+ (8.5): (1) Add adjacent-style analysis explaining the media instinct, the "revenge dress," and the calculated public appearances. (2) Add healthy-direction analysis — Diana's later years showed more authentic self-expression, sitting with her own feelings rather than only giving. Her resignation from 100 charities to 6 could be framed as growth. (3) Cut the fourth-wall-breaking meta comment in the bulimia section. (4) Sharpen attribution on 2-3 vague quotes ("she said later" — which interview? when?).
+
+RETROFIT (2026-04-17): Added the opt-in Enneagram Rabbit Hole block and moved specialist analysis out of the main narrative.
 -->
 
 <p class="firstLetter">The five-year-old stood on the doorstep of Park House, waiting.</p>
@@ -63,7 +65,7 @@ That's the whole story, compressed into a single image. Everything else — the 
 <li><b>Core Wound:</b> Her mother's abandonment at age 5 created a lifelong fear of being unloved and unwanted.</li>
 <li><b>Need for Validation:</b> She sought constant approval in relationships, at a level "no one could maintain."</li>
 <li><b>Helping as Identity:</b> Her humanitarian work wasn't just charity — it was how she proved she deserved to exist.</li>
-<li><b>Stress Response:</b> Under pressure, she became aggressive and combative (Type 8 disintegration) — pushing her stepmother, using media for retaliation.</li>
+<li><b>Pressure Response:</b> Under pressure, she became aggressive and combative — pushing her stepmother, using media for retaliation.</li>
 <li><b>World Through Her Wound:</b> She said "the biggest disease the world suffers from is people feeling unloved" — and she meant it. She was trying to fix the disease she had.</li>
 </ul>
 </div>
@@ -79,7 +81,7 @@ What drives them is a fear so deep it operates below conscious thought: that the
 
 Diana held up her end of the deal her whole life.
 
-There's a strong argument for Type 4 here — the dramatic emotional expression, the sense of being fundamentally different, the identity built around feeling misunderstood. Diana was flamboyant in her pain in ways that read as Type 4. But Type 4s move inward; they nurse the wound privately, they create from it. Diana moved outward. She found people worse off than herself and went to them. The bulimia, the loneliness, the failed marriage — she alchemized all of it into fuel for giving. That's the Type 2 mechanism, not the 4.
+Diana's dramatic emotional expression can make her look like someone whose life was organized around being misunderstood. But the pattern runs outward. She found people worse off than herself and went to them. The bulimia, the loneliness, the failed marriage — she alchemized all of it into fuel for giving.
 
 Her core desire was to feel loved and needed. Her core fear was that she wasn't, and never had been, since that doorstep.
 
@@ -91,7 +93,7 @@ Diana felt like a nuisance from birth. "I couldn't understand why I was perhaps 
 
 Then came Raine, her stepmother. The Spencer children called her "Acid Raine." Diana reportedly pushed her down the stairs once.
 
-That detail matters. It isn't typical Helper behavior unless you understand what happens to Type 2s under extreme stress — they flip toward Type 8. Confrontational. Aggressive. Willing to fight dirty. Diana at 8-stress wasn't a wounded lamb. She was someone who had run out of soft options.
+That detail matters because it breaks the saintly caricature. Diana under pressure wasn't a wounded lamb. She was confrontational, aggressive, and willing to fight dirty when she had run out of soft options.
 
 Charles Spencer underwent what he called "agonizing and horrible" therapy to deal with their childhood. He described developing "a predisposition for rescuing people" because of it.
 
@@ -127,9 +129,7 @@ This was not calculated PR. This was pure Type 2 instinct: see suffering, move t
 
 ### Bulimia: Where the Numbers Tell It
 
-Her waist went from 29 inches to 23.5 inches between her first wedding dress fitting and her last.
-
-That measurement is the piece of data this piece should have opened with. It tells you more about Diana's marriage than any quote does. A six-inch reduction in five months. The body keeping score.
+Her waist went from 29 inches to 23.5 inches between her first wedding dress fitting and her last. A six-inch reduction in five months. The body keeping score.
 
 "I didn't like myself. I was ashamed because I couldn't cope with the pressures," Diana said. She described bulimia as "a secret disease that you inflict upon yourself because your self-esteem's at a low ebb. You don't think you're worthy or valuable."
 
@@ -175,6 +175,39 @@ A hundred down to six. That's not scaling back. That's someone finally asking wh
 
 Her son [Prince Harry](/personality-analysis/Prince-Harry) continues her landmine work through HALO Trust. [Meghan Markle](/personality-analysis/Meghan-Markle), his wife, has navigated her own version of the institution Diana spent her adult life fighting against.
 
+<details class="enneagram-rabbit-hole">
+<summary class="accordion">Enneagram Rabbit Hole: Wings, Subtypes &amp; Connecting Lines for Princess Diana</summary>
+<div class="panel">
+
+<p><em>For Enneagram readers going deep on Princess Diana. Skip if you're here for the story — the rest of the analysis stands on its own.</em></p>
+
+### Princess Diana's Wing: 2w3
+
+Diana reads as 2w3 — the Helper with an Achiever <a href="/enneagram-corner/enneagram-wings-complete-guide">wing</a>. A 2w1 version would lean more dutiful, morally correct, and quietly service-oriented. Diana's helping had stagecraft. The handshake with AIDS patients, the landmine walk, the revenge dress, the Panorama interview, and the carefully timed appearances all show a woman who understood public image as a delivery system for love, pain, and leverage.
+
+The 3-wing explains why validation from the public mattered so much. She did not only need to be loved privately. When the royal family failed her, the public became the audience that could confirm she still mattered. Charity became identity, mission, and image all at once.
+
+### Princess Diana's Instinctual Subtype: so/sx
+
+Diana reads as social-dominant with sexual second. The so-2 pattern wants to be indispensable to the group: the People's Princess, the public as extended family, the humanitarian figure who makes whole populations feel personally touched. Her work with AIDS patients, landmine survivors, children, and the homeless fits the <a href="/enneagram-corner/enneagram-instinctual-subtypes">instinct stack</a>.
+
+Sexual second shows in the intensity of attachment and betrayal: Charles, Camilla, the "three of us" line, the need for someone to be there and make her feel safe. Self-preservation reads last. Diana was often careless with her own protection, appetite, rest, and security when love or public connection was at stake.
+
+### Stress and Growth Arrows
+
+Under stress, Type 2 moves toward Type 8. Diana's tabloid warfare, the Raine stairs incident, and "She won't go quietly" show the Helper turning confrontational when giving fails to secure love. The soft strategy collapses into force.
+
+In growth, Type 2 moves toward Type 4. See <a href="/enneagram-corner/enneagram-connecting-lines">the connecting lines</a> in her later narrowing from more than 100 charities to six, her willingness to speak directly about bulimia, and the growing insistence that her own feelings mattered. The healthy move was not more giving. It was honest selfhood.
+
+### Counterarguments: Why Princess Diana Might Not Be Type 2
+
+Type 4 is the strongest alternate because Diana's pain was dramatic, public, and identity-shaping. But 4s usually move inward with the wound. Diana moved toward the unloved and tried to become necessary to them.
+
+Type 3 also has a case because she understood image brilliantly. But the image was not the core prize. It was the tool she used to secure love, repair abandonment, and make the world need her back.
+
+</div>
+</details>
+
 ## Drama and Controversies
 
 ### The Helper's Shadow
@@ -185,7 +218,7 @@ Diana showed all of it. The tabloid tips. The timed appearances to upstage other
 
 Those aren't accusations that can be dismissed. They're accurate.
 
-But they're also what Type 2 stress behavior looks like: the Helper who has been denied long enough flips toward Type 8. Controlling. Confrontational. Willing to fight through any channel available. Diana's "revenge" moves weren't irrational. They were a wounded woman fighting for something she had never actually been given.
+But they're also what Diana looked like when she had been denied long enough. Controlling. Confrontational. Willing to fight through any channel available. Diana's "revenge" moves weren't irrational. They were a wounded woman fighting for something she had never actually been given.
 
 "She won't go quietly, that's the problem," Diana said of herself. "I'll fight to the end, because I believe that I have a role to fulfill."
 

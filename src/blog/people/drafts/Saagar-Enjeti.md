@@ -46,7 +46,7 @@ They're wrong. What they're actually watching is a man who cannot stop consuming
 <ul>
 <li><b>The Serial Obsessor:</b> He became "obsessed" with the American West after one podcast. Then Antarctic exploration. Then Percy Fawcett's Amazon. Then Bobby Fischer. Each obsession consumed voraciously and shared publicly — not hoarded privately.</li>
 <li><b>The Expanding Platform:</b> From policy briefs to White House correspondent to cable news to independent podcast to anti-gambling crusader — each career move expanded his territory rather than narrowing it.</li>
-<li><b>The One-Take Crusader:</b> "3,000 words. Filmed in 1 take." His sports betting and marijuana campaigns reveal the engaged fury of a Seven under stress, not the detached observation of a Five.</li>
+<li><b>The One-Take Crusader:</b> "3,000 words. Filmed in 1 take." His sports betting and marijuana campaigns reveal engaged fury, not detached observation.</li>
 <li><b>The Fear Engine:</b> Underneath the enthusiasm sits a nine-year-old whose Hindu temple needed protection after 9/11. The insatiable hunger is how he makes sure the world never catches him off guard again.</li>
 </ul>
 </div>
@@ -110,24 +110,48 @@ Saagar's childhood wound maps this precisely. The world showed him it was danger
 
 Lex Fridman framed him this way: someone fascinated by how power works and what it does to people. Fascination — not detachment — is the through-line.
 
-**The [6 wing](/enneagram-corner/enneagram-type-6)** adds the threat detector. The security-policy graduate degree from Georgetown. The think tank and national-security reporting track. The pattern of investigating dangers — understanding them, then _crusading_ against them. The 6 wing is why Saagar's enthusiasm always carries an edge of vigilance. He's not just excited about the next idea. He's scanning for what's wrong with the current system.
+<details class="enneagram-rabbit-hole">
+<summary class="accordion">Enneagram Rabbit Hole: Wings, Subtypes &amp; Connecting Lines for Saagar Enjeti</summary>
+<div class="panel">
 
-The 7w6 combination means he's drawn to every new subject _and_ deeply suspicious of every institution. Both at once. The enthusiasm and the skepticism aren't contradictions — they're the same engine, a mind that runs hot in both directions because sitting still feels like surrender.
+<p><em>For Enneagram readers going deep on Saagar Enjeti. Skip if you're here for the story — the rest of the analysis stands on its own.</em></p>
 
-<div class="aside-box">
-<div class="aside-box__title">Why Everyone Thinks He's a Five</div>
-<p>People mistype Saagar because they confuse the behavior with the motivation. Yes, he reads voraciously. Yes, he has deep expertise. But look at <i>how</i> he reads: broadly, serially, obsessively — across dozens of subjects — and then <b>shares it all publicly</b>. He gives books away at podcasts. He publishes reading lists for his audience. He can't wait to tell you about what he just found.</p>
-<p>Type 5s conserve energy. Saagar burns it — multiple shows, constant content, and a pace that keeps expanding. Type 5s narrow their focus. Saagar broadens his every quarter. Type 5s detach from emotional engagement. Saagar rages on camera about sports betting.</p>
-<p>The deep-research mode people see is actually his <b>growth arrow</b>. When healthy, Sevens access Five's capacity for focused depth. The careful policy breakdowns, the four-hour Lex Fridman conversations, the patient historical analysis — that's a Seven at his best. The core Saagar is the one who can't sit still.</p>
+### Saagar Enjeti's Wing: 7w6
+
+Saagar reads as 7w6 — the Enthusiast with a Loyalist <a href="/enneagram-corner/enneagram-wings-complete-guide">wing</a>. A 7w8 version would be more openly domineering and autonomy-first. Saagar's restlessness is braided with threat detection: Georgetown security policy, think tanks, national-security reporting, institutional suspicion, and crusades against systems he thinks are harming people.
+
+The 6-wing is why the enthusiasm always carries vigilance. He is excited by the next idea, but he is also scanning for what the current system is hiding. The result is a mind that runs hot in both directions: curious and suspicious, expansive and alarmed.
+
+It also explains why the inner circle stays unusually stable. The subjects rotate fast; the tested people do not. Krystal, Jill, and Marshall anchor the motion.
+
+### Saagar Enjeti's Instinctual Subtype: so/sp
+
+Saagar reads as social-dominant with self-preservation second. The so-7 pattern wants the conversation, the audience, the platform, the public map of power. He reads, travels, interviews, and then shares the findings, which fits the <a href="/enneagram-corner/enneagram-instinctual-subtypes">instinct stack</a>.
+
+Self-preservation sits second in the security concerns: gambling, drugs, intelligence agencies, war, institutional failure, and what those systems do to ordinary people. Sexual reads last. His intensity attaches more to topics, platforms, and public causes than to one-to-one fusion.
+
+### Stress and Growth Arrows
+
+Under stress, Type 7 moves toward Type 1. The sports betting and marijuana crusades show the pattern: playful range narrows into moral certainty, the voice hardens, and the next system failure becomes an enemy that must be exposed.
+
+In growth, Type 7 moves toward Type 5. See <a href="/enneagram-corner/enneagram-connecting-lines">the connecting lines</a> in the careful policy breakdowns, historical reading, and four-hour Lex Fridman conversations. The healthiest Saagar can sit with complexity long enough to make the hunger useful.
+
+### Counterarguments: Why Saagar Enjeti Might Not Be Type 7
+
+Type 5 is the obvious alternate because he reads voraciously and has deep expertise. But the energy is not withdrawn conservation. He shares the knowledge publicly, brings books as gifts, expands platforms, and rages on camera when systems fail.
+
+Type 1 also has a case because of the crusading moral certainty. But the certainty appears most strongly when a wider, faster, more exploratory Seven hits fear and frustration. The core is still motion, appetite, and possibility.
+
+If he were a core 1, the story would begin with order. Saagar's story begins with hunger, and the order arrives only when the hunger finds a target.
+
 </div>
+</details>
 
-**Under stress**, Sevens disintegrate toward Type 1 — becoming rigid, judgmental, and absolutist. Watch the crusades and you'll see this shift in real time:
+The danger side of the pattern shows up most clearly in the crusades:
 
 "Nobody needs to study weed. We know everything we need to know: It makes people dumber, it makes people literally go crazy, it messes with hormones, it increases risk of heart attacks, is horrible for pregnant women, and lastly it smells like shit."
 
-That's not the playful, expanding energy of a Seven in flow. That's a Seven accessing One's moral certainty. The pattern reveals itself: the absolutist crusades emerge when the stakes feel personal and the institutions have failed — exactly when a Seven's fear of being trapped in a broken system peaks.
-
-**In growth**, the Seven moves toward Five — focused, contemplative, willing to sit with complexity. That's the Saagar who produces his most admired work. The careful breakdowns. The patient conversations. The research that radiates through every analysis. People see that version and call him a Five. They're seeing his best self, not his core self.
+That's not the playful, expanding energy of Saagar in flow. That's the hard-edged version that emerges when the stakes feel personal and the institutions have failed.
 
 ---
 
@@ -174,7 +198,7 @@ Seven words that explain an entire career.
 
 ## The Crusades
 
-Here's where the Five mistype collapses entirely. A Five observes systems from a safe distance. Saagar goes to war with them.
+Here's where the cerebral-wonk read collapses entirely. A detached observer watches systems from a safe distance. Saagar goes to war with them.
 
 The sports betting crusade: he argues that legalized mobile gambling is the next opioid crisis. Connecticut's state impact study found that problem gamblers (about 1.8% of residents) accounted for roughly half of sportsbook revenue. Separate U.S. research has linked online sports betting legalization with higher debt distress and bankruptcy filings, and another working paper found larger spikes in intimate partner violence after upset NFL losses in states with legal online sportsbooks.
 
@@ -200,7 +224,7 @@ Saagar and [Krystal Ball](/personality-analysis/Krystal-Ball) have survived thre
 
 "What if we hated each other less, and the elites more."
 
-His 6 wing holds the relationships steady while the 7 core keeps chasing the next horizon. The people he's tested and chosen — Krystal, Jill, Marshall Kosloff at The Realignment — they stay. Everyone else is a temporary collaborator in the latest campaign.
+His loyal side holds the relationships steady while the restless core keeps chasing the next horizon. The people he's tested and chosen — Krystal, Jill, Marshall Kosloff at The Realignment — they stay. Everyone else is a temporary collaborator in the latest campaign.
 
 Their daughter, Priya June Enjeti, was born in May 2025. He posted a tribute when his childhood dog died after seventeen years. For a man who moves at this velocity, the private bonds hold with a steadiness that contradicts the public pace entirely.
 
@@ -220,4 +244,4 @@ Lex Fridman called him "one of the most well-read people I've ever met" and note
 
 There's a hike in Shenandoah National Park where Saagar and Jill got lost. Went four miles past their intended turnaround. Most people would tell that story as a cautionary tale about preparation. Saagar told it like a highlight.
 
-A Five gets lost on a trail and recalculates the optimal route home. A Seven gets lost and keeps going to see what's past the next ridge. At some point you have to wonder whether Saagar Enjeti is running toward the next revelation or away from the nine-year-old whose temple needed guards while his neighbors waved flags. Probably both. And probably he'll never stop long enough to find out which one is winning.
+A cautious researcher gets lost on a trail and recalculates the optimal route home. Saagar gets lost and keeps going to see what's past the next ridge. At some point you have to wonder whether Saagar Enjeti is running toward the next revelation or away from the nine-year-old whose temple needed guards while his neighbors waved flags. Probably both. And probably he'll never stop long enough to find out which one is winning.

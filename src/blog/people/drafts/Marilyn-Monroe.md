@@ -34,11 +34,11 @@ content_quality:
 Hook: 9 | Enneagram: 9 | Evidence: 9 | Writing: 9 | Originality: 9
 
 FEEDBACK (2026-02-19):
-- EXCEPTIONAL counter-typing: The 6→3 stress arrow resolving why she reads as a Three is one of the strongest arguments in the collection. The Enneagram is the engine, not the paint.
+- EXCEPTIONAL Type 3 contrast: the analysis resolving why she reads as a Three is one of the strongest arguments in the collection. The Enneagram is the engine, not the paint.
 - Multiple 9-level lines: "The voice that launched a thousand fantasies was a trauma response, dressed up and sent to work." The ending — "The loyalty she spent her life searching for arrived, finally, in a form she couldn't feel" — is one of the best in the collection.
 - Evidence density is outstanding: Monroe's own words throughout (diary, Greenson letters, Life interview), plus testimony from Dougherty, Wilder, Miller, both Strasbergs, Eve Arnold, Edith Sitwell. The person's voice is heard, not summarized.
-- MINOR GAPS: Growth arrow (6→9) and instinctual variants not discussed. Business section is slightly more informational than narrative. Childhood section tells more than shows compared to the best immersive scenes (Payne Whitney is the emotional peak).
-- TO REACH A+ (9.5): (1) Add growth arrow — what does Monroe moving toward healthy 9 look like? The DiMaggio Florida recovery scenes could illustrate this. (2) Make the childhood section more scene-driven — put the reader in the room for one specific foster home moment rather than summarizing eleven. (3) Business section could open with a scene (the Fox negotiation standoff) rather than salary figures.
+- MINOR GAPS: The recovery side of her pattern and deeper relationship-to-safety analysis could use more detail. Business section is slightly more informational than narrative. Childhood section tells more than shows compared to the best immersive scenes (Payne Whitney is the emotional peak).
+- TO REACH A+ (9.5): (1) Add more of what Monroe looked like when she could set vigilance down — the DiMaggio Florida recovery scenes could illustrate this. (2) Make the childhood section more scene-driven — put the reader in the room for one specific foster home moment rather than summarizing eleven. (3) Business section could open with a scene (the Fox negotiation standoff) rather than salary figures.
 -->
 
 > "I knew I belonged to the public and to the world, not because I was talented or even beautiful, but because I had never belonged to anything or anyone else."
@@ -55,7 +55,7 @@ That question — what was Norma Jeane protecting, and did she ever find anyone 
 <ul>
 <li><b>The persona was armor, not identity:</b> She referred to "Marilyn" in the third person and could switch the character on and off at will — the opposite of someone who IS their image.</li>
 <li><b>Every relationship was a loyalty test:</b> DiMaggio, Miller, the Strasbergs — each one structured around the question: will you stay when you see the real me?</li>
-<li><b>Counterphobic courage:</b> She was crippled by stage fright yet became the biggest movie star alive. She challenged the studio system and won. The fear didn't stop her — it drove her.</li>
+<li><b>Courage through fear:</b> She was crippled by stage fright yet became the biggest movie star alive. She challenged the studio system and won. The fear didn't stop her — it drove her.</li>
 <li><b>Knowledge as armor:</b> A 430-book library, James Joyce on her lunch breaks, discussions of Rudolf Steiner with Edith Sitwell. She armed herself against a world she didn't trust.</li>
 </ul>
 </div>
@@ -109,12 +109,7 @@ _"The truth is I've never fooled anyone. I've let people fool themselves. They d
 
 _"People had a habit of looking at me as if I were some kind of mirror instead of a person. They didn't see me, they saw their own lewd thoughts, then they white-masked themselves by calling me the lewd one."_
 
-A Type 3 builds an image and disappears behind it — the image becomes the self. Monroe always knew exactly where Norma Jeane ended and Marilyn began. The persona wasn't identity. It was a weapon. A shield. The counterphobic Six charging directly at the thing that terrified her — being seen, being consumed, being wanted for the wrong reasons — and turning it into something she controlled.
-
-<div class="aside-box">
-<div class="aside-box__title">The Type 6 Stress Arrow</div>
-<p>When a Type 6 is <a href="/enneagram-corner/enneagram-types-in-stress">under stress</a>, they move toward the unhealthy side of Type 3 — becoming image-conscious, performative, focused on how they appear rather than how they feel. The entire "Marilyn Monroe" persona can be read as a sustained stress response: a woman who felt fundamentally unsafe creating a dazzling image to manage the world's perception. This is why she reads as a Three on the surface. The Three-like behavior is the stress pattern, not the core.</p>
-</div>
+A Type 3 builds an image and disappears behind it — the image becomes the self. Monroe always knew exactly where Norma Jeane ended and Marilyn began. The persona wasn't identity. It was a weapon. A shield. A frightened Six charging directly at the thing that terrified her — being seen, being consumed, being wanted for the wrong reasons — and turning it into something she controlled.
 
 Enneagram Sixes are defined by their relationship with trust. They scan for threats. They test loyalty. They seek authority figures who can provide safety — then question whether those figures deserve the trust they've been given. They oscillate between clinging and rebelling, between seeking protection and demanding independence.
 
@@ -125,6 +120,34 @@ Billy Wilder, who directed her in two films, captured the paradox: _"She had a f
 Lee Strasberg — whose students included Brando, De Niro, Pacino, and Fonda — said she was one of the two greatest acting talents he ever worked with. The other was Brando.
 
 The anxiety didn't limit her. It was the engine.
+
+<details class="enneagram-rabbit-hole">
+<summary class="accordion">Enneagram Rabbit Hole: Wings, Subtypes &amp; Connecting Lines for Marilyn Monroe</summary>
+<div class="panel">
+<p><em>For Enneagram readers going deep on Marilyn Monroe. Skip if you're here for the story — the rest of the analysis stands on its own.</em></p>
+
+### Marilyn Monroe's Wing: 6w7
+
+Monroe reads like a 6w7 more than a 6w5. The core is fear, loyalty, and threat-scanning, but the outward strategy is not retreat into expertise. It is charm, performance, and a public persona bright enough to control the room before the room could hurt her. In the language of <a href="/enneagram-corner/enneagram-wings-complete-guide">Enneagram wings</a>, the Seven side explains the sparkle: the quick wit, the appetite for experience, the ability to turn terror into magnetism. The Six core explains why the sparkle never felt safe.
+
+### Marilyn Monroe's Instinctual Subtype: sx/so
+
+Her pattern looks most like sx/so. The one-to-one drive came first: DiMaggio as protector, Miller as intellectual witness, the Strasbergs as chosen family, Greenson as dangerous anchor. She did not merely want an audience; she wanted a person who would pass the test after the audience left. The social instinct came second, magnified by Hollywood. Fame gave her leverage, but it also created the very public appetite she feared. For a broader map of those drives, see the <a href="/enneagram-corner/enneagram-instinctual-subtypes">instinctual subtypes guide</a>.
+
+### Stress and Growth Arrows
+
+Monroe's Type 3 surface makes sense through the <a href="/enneagram-corner/enneagram-connecting-lines">connecting lines</a>. Under pressure, Six can take on the brittle, image-managed side of Three: performance replaces feeling, visibility becomes protection, and the question shifts from "who is safe?" to "how do I look?" Marilyn Monroe, the persona, was partly that response.
+
+Growth points the other direction: toward Type 9's settled presence. You can glimpse it in the Florida recovery with DiMaggio, in quiet reading, in moments when she could stop performing and let the world recede. The tragedy is that those windows were brief. The system around her rewarded the dazzling armor, not the calmer Norma Jeane beneath it.
+
+### Counterarguments: Why Marilyn Monroe Might Not Be Type 6
+
+Type 3 is the strongest alternate read. The reinvention, ambition, studio negotiation, and image control are real. But her own words separate the image from the self: Marilyn was a veil, not an identity. That is not classic Three psychology; it is a safety strategy.
+
+Type 4 also has a case: the loneliness, poetry, tragic self-awareness, and lifelong sense of being unseen. But the center of gravity is not identity as much as trust. Her relationships are structured as tests: will you stay, will you protect me, will you see the person under the role? That is why Type 6 still carries the page.
+
+</div>
+</details>
 
 ## Four Loyalty Tests
 

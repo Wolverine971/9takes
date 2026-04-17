@@ -114,16 +114,6 @@
 	let selectedType = $derived.by(
 		() => enneagramTypes.find((type) => String(type.num) === enneagram) ?? null
 	);
-	let displayName = $derived.by(() => {
-		const fullName = [firstName.trim(), lastName.trim()].filter(Boolean).join(' ');
-		if (fullName) return fullName;
-
-		const emailHandle = userEmail
-			.split('@')[0]
-			?.replace(/[._-]+/g, ' ')
-			.trim();
-		return emailHandle ? toTitleCase(emailHandle) : 'Your Account';
-	});
 	let formChanged = $derived.by(() => {
 		const normalizedFirstName = firstName.trim();
 		const normalizedLastName = lastName.trim();
@@ -164,14 +154,6 @@
 
 	function normalizeText(value: string | null | undefined) {
 		return value?.trim() ?? '';
-	}
-
-	function toTitleCase(value: string) {
-		return value
-			.split(/\s+/)
-			.filter(Boolean)
-			.map((part) => part.charAt(0).toUpperCase() + part.slice(1))
-			.join(' ');
 	}
 
 	async function submitLogout({ cancel }: { cancel: Function }) {
@@ -241,42 +223,25 @@
 			<div class="header-copy">
 				<p class="kicker">Profile settings</p>
 				<h1>Account</h1>
-				<p class="header-summary">Update the few account details used across 9takes.</p>
 			</div>
 
-			<div class="header-rail">
-				<div class="header-data">
-					<span class="data-key">Signed in as</span>
-					<span class="data-value">{displayName}</span>
-					<span class="data-subvalue">{userEmail}</span>
-				</div>
+			<div class="header-actions">
+				{#if user.admin}
+					<a href="/admin" class="action-link action-link-primary">Admin dashboard</a>
+				{/if}
 
-				<div class="meta-pills">
-					<span class="meta-pill">{roleLabel}</span>
-					<span class="meta-pill">{subscriptionLabel}</span>
-					{#if selectedType}
-						<span class="meta-pill meta-pill-accent">{`Type ${selectedType.num}`}</span>
-					{/if}
-				</div>
-
-				<div class="header-actions">
-					{#if user.admin}
-						<a href="/admin" class="action-link action-link-primary">Admin dashboard</a>
-					{/if}
-
-					<form action="/logout" method="POST" use:enhance={submitLogout}>
-						<LoadingButton
-							type="submit"
-							variant="secondary"
-							size="md"
-							loading={loggingOut}
-							loadingText="Signing out..."
-							className="account-action signout-button"
-						>
-							Sign out
-						</LoadingButton>
-					</form>
-				</div>
+				<form action="/logout" method="POST" use:enhance={submitLogout}>
+					<LoadingButton
+						type="submit"
+						variant="secondary"
+						size="md"
+						loading={loggingOut}
+						loadingText="Signing out..."
+						className="account-action signout-button"
+					>
+						Sign out
+					</LoadingButton>
+				</form>
 			</div>
 		</header>
 
@@ -376,7 +341,12 @@
 					<div>
 						<p class="section-label">Watchlist</p>
 						<h2>Followed questions</h2>
-						<p class="section-copy">The questions you're currently following.</p>
+						<div class="watchlist-meta">
+							{#if user.admin}
+								<span class="meta-pill">{roleLabel}</span>
+							{/if}
+							<span class="meta-pill">{subscriptionLabel}</span>
+						</div>
 					</div>
 
 					<a href="/questions" class="text-link">Browse</a>
@@ -458,19 +428,21 @@
 	}
 
 	.header-panel {
-		display: grid;
-		grid-template-columns: minmax(0, 1fr) minmax(280px, 340px);
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
 		gap: 1rem;
-		padding: 1rem 1.1rem;
-		align-items: start;
+		padding: 0.85rem 1.1rem;
+		flex-wrap: wrap;
 	}
 
 	.header-copy {
 		min-width: 0;
+		display: grid;
+		gap: 0.15rem;
 	}
 
 	.kicker,
-	.data-key,
 	.section-label,
 	.row-index,
 	.row-action {
@@ -483,65 +455,32 @@
 
 	.kicker,
 	.section-label {
-		margin: 0 0 0.4rem;
+		margin: 0;
 		color: color-mix(in srgb, var(--primary) 70%, var(--text-tertiary));
+	}
+
+	.section-label {
+		margin-bottom: 0.4rem;
 	}
 
 	.header-copy h1 {
 		margin: 0;
 		font-family: var(--font-display);
-		font-size: clamp(1.9rem, 4vw, 2.75rem);
-		line-height: 0.95;
+		font-size: clamp(1.4rem, 3vw, 1.9rem);
+		line-height: 1;
 		color: var(--text-primary);
 	}
 
-	.header-summary {
-		margin: 0.45rem 0 0;
-		max-width: 36rem;
-		color: var(--text-secondary);
-		font-size: 0.95rem;
-		line-height: 1.5;
-	}
-
-	.header-rail {
-		display: grid;
-		gap: 0.7rem;
-		align-content: start;
-	}
-
-	.header-data {
-		display: grid;
-		gap: 0.2rem;
-		padding: 0.85rem 0.95rem;
-		border-radius: 0.8rem;
-		border: 1px solid color-mix(in srgb, var(--text-tertiary) 14%, transparent);
-		background: color-mix(in srgb, var(--bg-deep) 92%, transparent);
-	}
-
-	.data-key,
 	.row-index,
 	.row-action {
 		color: var(--text-tertiary);
 	}
 
-	.data-value {
-		color: var(--text-primary);
-		font-size: 1rem;
-		font-weight: 600;
-		line-height: 1.3;
-		word-break: break-word;
-	}
-
-	.data-subvalue {
-		color: var(--text-secondary);
-		font-size: 0.84rem;
-		word-break: break-all;
-	}
-
-	.meta-pills {
+	.watchlist-meta {
 		display: flex;
 		flex-wrap: wrap;
-		gap: 0.5rem;
+		gap: 0.4rem;
+		margin-top: 0.5rem;
 	}
 
 	.meta-pill {
@@ -555,11 +494,6 @@
 		font-size: 0.8rem;
 		font-weight: 600;
 		line-height: 1;
-	}
-
-	.meta-pill-accent {
-		border-color: color-mix(in srgb, var(--primary) 28%, transparent);
-		background: color-mix(in srgb, var(--primary) 10%, var(--bg-deep));
 	}
 
 	.header-actions {
@@ -898,7 +832,6 @@
 	}
 
 	@media (max-width: 960px) {
-		.header-panel,
 		.content-grid {
 			grid-template-columns: 1fr;
 		}

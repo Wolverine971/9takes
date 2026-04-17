@@ -108,9 +108,9 @@ That detail cracks open the whole pattern. A man who has spent his entire life p
 
 Here is what the Enneagram illuminates that biography alone cannot: Newsom is not driven by ideology. He's not driven by power. He's driven by the need to prove that the boy in the shack behind the school is worth something. Every business launched, every bold political gambit, every camera-ready appearance is another piece of evidence in a case he's been building his whole life. The jury is a father who died without delivering a verdict.
 
-**The 3w2 pattern** (Achiever with a Helper wing) explains why Newsom's ambition always flows through people. Gordon Getty invested in PlumpJack because Newsom made him feel like a father. Newsom wins rooms the way 3w2s always win rooms: remembering names, making everyone feel seen, building coalitions. The warmth is real. The charm is genuine. And it's also strategic.
+Newsom's ambition almost always flows through people. Gordon Getty invested in PlumpJack because Newsom made him feel like a father. Newsom wins rooms by remembering names, making people feel seen, and building coalitions. The warmth is real. The charm is genuine. And it's also strategic.
 
-**The Social subtype** explains the image obsession. Social Threes are the most competitive, most prestige-oriented expression of the type. They "know how to climb and present themselves as successful." Their presentation shifts to match each group. His first marriage to Kimberly Guilfoyle was called "the social event of the year." Harper's Bazaar shot them in the Getty mansion and labeled them "the new Kennedys."
+That same image instinct explains the polish. His presentation shifts to match each group. His first marriage to Kimberly Guilfoyle was called "the social event of the year." Harper's Bazaar shot them in the Getty mansion and labeled them "the new Kennedys."
 
 <div class="contrast-panel">
 <div class="contrast-panel__left">
@@ -190,7 +190,40 @@ But the images, thousands of joyful couples streaming through City Hall, humaniz
 
 This is the moment that complicates any easy read of Newsom. Enneagram Threes are supposed to be image-conscious calculators. They're supposed to calibrate every move for maximum approval. Here, Newsom did the opposite. He took a position that a Social Three should instinctively avoid, because it guaranteed disapproval from the very people whose approval he needed.
 
-The Enneagram's integration arrow points from Type 3 toward Type 6, and healthy Sixes are defined by principled courage, loyalty to values over image. The Winter of Love is Newsom at his most integrated: the achiever who stopped calculating and acted from conviction. It's the strongest evidence that there's more underneath the performance than performance.
+The Winter of Love is Newsom at his best: the achiever who stopped calculating and acted from conviction. It's the strongest evidence that there's more underneath the performance than performance.
+
+<details class="enneagram-rabbit-hole">
+<summary class="accordion">Enneagram Rabbit Hole: Wings, Subtypes &amp; Connecting Lines for Gavin Newsom</summary>
+<div class="panel">
+
+<p><em>For Enneagram readers going deep on Gavin Newsom. Skip if you're here for the story — the rest of the analysis stands on its own.</em></p>
+
+### Gavin Newsom's Wing: 3w2
+
+Newsom reads as 3w2 — the Achiever with a Helper <a href="/enneagram-corner/enneagram-wings-complete-guide">wing</a>. A 3w4 version would be more self-styled, more artistically distinct, more openly invested in being singular. Newsom's ambition works through people: donors, coalitions, rooms, cameras, voters, and the feeling that he can make each person in front of him feel seen.
+
+The 2-wing also explains why the performance often comes wrapped in care. The same man who builds the perfect image also tells a bullied kid with dyslexia not to let anyone define him, frames policy as protection, and presents himself as advocate rather than climber. The warmth is not fake. The point is that warmth and ambition are fused.
+
+### Gavin Newsom's Instinctual Subtype: so/sp
+
+Newsom reads as social-dominant with self-preservation secondary. The so-3 signature is public positioning: "new Kennedys," the Getty world, the polished anti-Trump warrior, the memoir tour, the podcast, the DeSantis debate, and the constant sense that every vulnerability has to become a message. The <a href="/enneagram-corner/enneagram-instinctual-subtypes">instinct stack</a> routes achievement through rank, audience, and social meaning.
+
+Self-preservation sits second in the business architecture: PlumpJack, 23 companies, housing promises, executive orders, and the managerial instinct to turn every idea into a platform. Sexual reads last. The public pattern is not fusion-intensity or one-to-one obsession. It is broad social calibration with enough material security to keep the performance funded.
+
+### Stress and Growth Arrows
+
+Under stress, Type 3 moves toward Type 9. Newsom's mask slips when the performance cannot absorb the pressure: the affair with his best friend's wife, the French Laundry dinner, the alcohol period, and the temptation to avoid the gap between the image and the person. See <a href="/enneagram-corner/enneagram-connecting-lines">the connecting lines</a> for how a stressed 3 can go numb, passive, or compartmentalized when winning the room stops working.
+
+In growth, Type 3 moves toward Type 6. The Winter of Love is the cleanest case: 31% national support, Democratic elders warning him off, clear political risk, and he issued the licenses anyway. The healthy move is loyalty to principle over image. The achiever stopped asking "Will this make me look good?" and acted from commitment.
+
+### Counterarguments: Why Gavin Newsom Might Not Be Type 3
+
+The strongest alternate is Type 7. The speed, charm, big ideas, "Young Man in a Hurry" memoir title, podcast, Fox debate, memoir tour, and constant next-stage energy can look like an Enthusiast outrunning discomfort. But the emotional fuel is not pleasure-seeking. It is proof. The boy in the school shack is still making the case that he is not average.
+
+Type 8 also has a case because Newsom likes a fight, especially with Trump and DeSantis. But 8s fight to maintain autonomy and control. Newsom fights in front of cameras, with the message polished for the audience. The political aggression is real, but it still routes through image, approval, and the need to be seen as the one who can win.
+
+</div>
+</details>
 
 ---
 
@@ -228,7 +261,7 @@ He announced he would seek help for "problems with alcohol," though he later cla
 
 "My problems with alcohol are not an excuse for my personal lapses in judgment."
 
-This is the [Type 3 stress pattern](/enneagram-corner/enneagram-types-in-stress) in high definition. Under pressure, Threes disintegrate toward the unhealthy patterns of [Type 9](/enneagram-corner/enneagram-type-9). The drive evaporates into paralysis, the achiever becomes the avoider. The person who never stopped moving suddenly can't start. And the careful self-presentation gives way to exactly the kind of reckless behavior the presentation was designed to conceal.
+This is the stress pattern in high definition. The drive evaporates into avoidance. The person who never stopped moving suddenly can't start. And the careful self-presentation gives way to exactly the kind of reckless behavior the presentation was designed to conceal.
 
 The affair wasn't a random moral failure. It was the wound breaking through the surface.
 
@@ -252,7 +285,7 @@ The French Laundry incident isn't about COVID rules. It's about the fundamental 
 
 It triggered a recall campaign. 1.7 million Californians signed a petition to remove him from office.
 
-For a Type 3, a recall isn't just a political threat. It's an existential one. The audience is saying: _we reject your performance_. The crowd is booing. Every Three's nightmare.
+For Newsom, a recall isn't just a political threat. It's an existential one. The audience is saying: _we reject your performance_. The crowd is booing.
 
 Newsom called the French Laundry dinner "personal stupidity" that "took a life of its own" and was "weaponized" by opponents. Then he did what Threes do when the image cracks: he built a better one. His team successfully dissuaded any high-profile Democrat from entering the replacement field. When conservative radio host Larry Elder emerged as the frontrunner, Newsom stopped defending his record and reframed the entire recall as a referendum on Trump, who was deeply unpopular in California.
 
@@ -260,7 +293,7 @@ Newsom called the French Laundry dinner "personal stupidity" that "took a life o
 
 He raised five times as much money as his opponents combined. He won 62% of the vote. The achievement machine roared back to life.
 
-His victory speech was pure Three, not a moment of humility but a cascade of affirmations: "We said yes to science. We said yes to vaccines. We said yes to ending this pandemic." The man who'd been caught breaking his own rules stood at a podium and declared that the voters had validated everything he stood for. The stumble had been absorbed. The narrative had been rewritten. The performance continued.
+His victory speech was not a moment of humility but a cascade of affirmations: "We said yes to science. We said yes to vaccines. We said yes to ending this pandemic." The man who'd been caught breaking his own rules stood at a podium and declared that the voters had validated everything he stood for. The stumble had been absorbed. The narrative had been rewritten. The performance continued.
 
 ---
 

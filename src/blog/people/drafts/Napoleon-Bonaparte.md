@@ -35,10 +35,12 @@ Hook: 9 | Enneagram: 9 | Evidence: 9 | Writing: 9 | Originality: 9
 
 FEEDBACK (2026-03-01):
 - STANDOUT HOOK: The Clisson et Eugénie opening is a genuine signature detail — most Napoleon analyses don't start with his romance novel, and it perfectly sets up the love/control contradiction that drives the entire piece.
-- EXCEPTIONAL COUNTER-TYPING: The coronation scene distinguishing Type 8 from Type 3 ("Napoleon didn't want validation. He wanted sovereignty.") is the best counter-typing example in the drafts folder. The 8→5 stress arrow via the Elba spy-mode section is equally strong.
+- EXCEPTIONAL ALTERNATE-TYPE CASE: The coronation scene distinguishing Type 8 from Type 3 ("Napoleon didn't want validation. He wanted sovereignty.") is the best alternate-type example in the drafts folder. The Elba spy-mode section is equally strong.
 - MEMORABLE PROSE: "The fortress he'd built since childhood had exactly one door — Josephine. And she walked through it whenever she wanted." / "the most dangerous man in Europe pretended to garden" — these are magazine-quality lines.
-- NEEDS WORK: The growth arrow (8→2 in health) is never explicitly explored. Napoleon's tenderness with his son and the Borodino portrait scene implicitly show it, but naming the integration point would deepen the Enneagram analysis.
-- TO REACH A+: (1) Add a brief mention of the 8→2 growth arrow when discussing the son/Marie Louise tenderness. (2) The Marie Louise section could be slightly tighter — the "married a womb" to genuine love arc is good but takes a beat too long to land. (3) Consider one more collaborator/enemy quote in the "Artist of Power" section to match the evidence density of the letters section.
+- NEEDS WORK: The healthy-direction point is never explicitly explored. Napoleon's tenderness with his son and the Borodino portrait scene implicitly show it, but naming the softer protective turn would deepen the Enneagram analysis.
+- TO REACH A+: (1) Add a brief mention of the softer protective turn when discussing the son/Marie Louise tenderness. (2) The Marie Louise section could be slightly tighter — the "married a womb" to genuine love arc is good but takes a beat too long to land. (3) Consider one more collaborator/enemy quote in the "Artist of Power" section to match the evidence density of the letters section.
+
+RETROFIT (2026-04-17): Added the opt-in Enneagram Rabbit Hole block and moved specialist analysis out of the main narrative.
 -->
 
 > "I have not spent a day without loving you; I have not spent a night without clasping you in my arms; I have not drunk a cup of tea without cursing the glory and ambition which keep me from the heart of my very being."
@@ -153,39 +155,52 @@ Goethe, after a single audience, said two words: "There is a man."
 
 ### Napoleon is an Enneagram Type 8
 
-The popular reading of Napoleon is ambition — a man driven by achievement, glory, and legacy. That reading points toward [Enneagram Type 3](/enneagram-corner/enneagram-type-3), the Achiever.
+The popular reading of Napoleon is ambition — a man driven by achievement, glory, and legacy. But that misses the deeper pattern.
 
-And that's exactly why he makes such a useful foil to [Julius Caesar](/personality-analysis/Julius-Caesar). Caesar turned conquest into personal mythmaking. Napoleon turned it into personal sovereignty.
+[Julius Caesar](/personality-analysis/Julius-Caesar) turned conquest into personal mythmaking. Napoleon turned it into personal sovereignty.
 
 But watch what happens at the coronation in 1804. The Pope traveled from Rome to Notre-Dame to crown the new Emperor. Protocol, precedent, and a thousand years of European tradition all demanded that the Pope place the crown on Napoleon's head. At the decisive moment, Napoleon turned, took the crown from Pius VII's hands, and placed it on his own head.
 
-A Type 3 would have accepted the Pope's blessing. The approval of the most powerful religious authority in Europe is exactly the kind of validation a 3 craves. Napoleon didn't want validation. He wanted everyone in that cathedral to understand that no one — not the Pope, not God's representative on Earth — had authority over him. The gesture wasn't about glory. It was about sovereignty.
+An approval-seeking ruler would have accepted the Pope's blessing. Napoleon didn't want validation. He wanted everyone in that cathedral to understand that no one — not the Pope, not God's representative on Earth — had authority over him. The gesture wasn't about glory. It was about sovereignty.
 
 That distinction runs through everything he did. When the Pope later refused to cooperate with the Continental System, Napoleon imprisoned him. When his brothers governed their assigned kingdoms poorly, he replaced them without sentiment. When Talleyrand — his most brilliant minister — was caught negotiating behind his back, Napoleon called him "shit in a silk stocking" to his face in front of the entire court. A man managing his reputation would never say that in public. A man who experienced disloyalty as a physical threat would.
 
-The deepest tell is what happened when things went wrong. Type 3s rebrand. They find a new angle, a new performance. When Napoleon's empire collapsed in 1814, he didn't rebrand. He tried to kill himself. He couldn't exist as anything less than what he was. That's not achievement addiction. That's an identity fused with dominance — and when the dominance was stripped away, the identity collapsed with it.
+The deepest tell is what happened when things went wrong. When Napoleon's empire collapsed in 1814, he didn't rebrand. He tried to kill himself. He couldn't exist as anything less than what he was. That's not achievement addiction. That's an identity fused with dominance — and when the dominance was stripped away, the identity collapsed with it.
 
 He said it plainly: "A King should sacrifice the best affections of his heart for the good of his country; no sacrifice should be above his determination." That's not a man describing ambition. That's a man describing the cost of control — and accepting it as the price of being who he is.
 
-### The 8w7 Wing: The Conqueror Who Couldn't Sit Still
+<details class="enneagram-rabbit-hole">
+<summary class="accordion">Enneagram Rabbit Hole: Wings, Subtypes &amp; Connecting Lines for Napoleon Bonaparte</summary>
+<div class="panel">
 
-The [Type 8 with a 7 wing](/enneagram-corner/enneagram-type-8) — sometimes called "The Maverick" — adds something specific to the 8's need for control: a horizon-scanning restlessness that makes consolidation feel like captivity.
+<p><em>For Enneagram readers going deep on Napoleon Bonaparte. Skip if you're here for the story — the rest of the analysis stands on its own.</em></p>
 
-You see it on Elba before you see it anywhere else. Napoleon arrived on the island in May 1814, ruler of nothing but a rock with 12,000 inhabitants. Within weeks he was issuing decrees, modernizing roads, revitalizing mines, draining marshes, redesigning the education system. A manager at the island's iron works noted that Napoleon "remembered perfectly all the work he had ordered and all the measures he had taken for the island of Elba, with the dates present in his memory as if he had never occupied himself with anything else."
+### Napoleon Bonaparte's Wing: 8w7
 
-He governed a flyspeck in the Mediterranean with the same intensity he'd governed France. Not because Elba mattered. Because the alternative — stillness, reflection, the absence of a problem to solve — was unbearable.
+Napoleon reads as 8w7 — the Challenger with an Enthusiast <a href="/enneagram-corner/enneagram-wings-complete-guide">wing</a>. An 8w9 version would consolidate, hold territory, and move more slowly. Napoleon could not sit still. Italy, Egypt, empire, Spain, Russia, Elba's roads and mines: every horizon produced another horizon.
 
-### Under Stress: The Warrior Who Became a Spy
+The 7-wing explains why control alone was never enough. He needed motion, expansion, invention, and the next impossible problem. Even exile became a project. On Elba, he modernized a flyspeck in the Mediterranean with the same intensity he had brought to France because the absence of a problem to solve was unbearable.
 
-When an 8 [moves toward Type 5 under stress](/enneagram-corner/enneagram-types-in-stress), the pattern is withdrawal, isolation, and obsessive information-gathering. The fighter retreats into analysis.
+### Napoleon Bonaparte's Instinctual Subtype: sp/so
 
-On Elba, it was unmistakable. Napoleon had 695 books shipped from Fontainebleau to a private library adjoining his bedroom — a room he allowed no one else to enter. He carefully monitored French politics, tracking unemployment figures and food prices, assessing the growing discontent with Bourbon rule. Visitors arrived with intelligence from the mainland. He studied newspapers for any mention of plans to exile him further.
+Napoleon reads as self-preservation dominant with social second. The sp-8 pattern is survival through territory, command, logistics, law, and resource control. The bullied Corsican boy built a world in which no one could make him powerless again. The army, the Code Napoleon, the family thrones, and the Continental System all fit the <a href="/enneagram-corner/enneagram-instinctual-subtypes">instinct stack</a>.
 
-Meanwhile, he maintained a deliberate facade of contentment. He told the British commissioner Neil Campbell that he was "a dead man" — that his time of greatness had passed. Campbell believed him. Campbell was wrong.
+Social second shows in the way soldiers adored him, the way he built institutions, and the way he dictated a mythology from St. Helena. Sexual intensity is real, especially with Josephine, but it functions as the crack in the fortress rather than the main architecture.
 
-Behind the gardening and the road-building and the claims of retirement, Napoleon was assembling a force of 2,000 soldiers, 600 Imperial Guardsmen, and a small navy. When Campbell left the island for Florence, Napoleon chose his moment. Seven ships slipped out of port on February 26, 1815, carrying the most dangerous man in Europe back to the mainland. Twenty days later he was in Paris. The king had fled.
+### Stress and Growth Arrows
 
-The warrior who seemed to have surrendered had actually been gathering intelligence like a spy — the purest expression of an 8 disintegrating into 5.
+Under stress, Type 8 moves toward Type 5. Elba is the cleanest example: 695 books, a private library, monitored newspapers, mainland intelligence, and the deliberate performance of retirement while he gathered information for the Hundred Days.
+
+In growth, Type 8 moves toward Type 2. See <a href="/enneagram-corner/enneagram-connecting-lines">the connecting lines</a> in his tenderness toward his son and the Borodino portrait scene. The conqueror softened when he could protect rather than dominate. The tragedy is that he usually returned to force before love could become a governing principle.
+
+### Counterarguments: Why Napoleon Bonaparte Might Not Be Type 8
+
+Type 3 is the obvious alternate because of the glory, titles, coronation, and mythmaking. But the crown scene reveals the difference: he did not want validation from authority. He wanted authority itself.
+
+Type 5 also has a case because of the books, compartmentalization, and Elba intelligence work. But Napoleon did not withdraw to preserve privacy or conserve energy. He withdrew to retake control. The analysis served the fight.
+
+</div>
+</details>
 
 ---
 

@@ -21,6 +21,14 @@
 		});
 	}
 
+	function formatCorpusDate(value: string): string {
+		return new Date(value).toLocaleDateString('en-US', {
+			month: 'long',
+			day: 'numeric',
+			year: 'numeric'
+		});
+	}
+
 	function typeUrl(enneagram: string) {
 		return `/personality-analysis/type/${enneagram}`;
 	}
@@ -45,7 +53,7 @@
 		corpusStats
 			? [
 					{
-						question: `Which Enneagram type is over-represented among ${data.category.label.toLowerCase()} on 9takes?`,
+						question: `Which Enneagram type is over-represented in the 9takes ${data.category.label} category?`,
 						answer: `${corpusStats.headlineClaim} ${corpusStats.underClaim} These numbers are computed from the 9takes corpus of ${corpusStats.corpusPublished} published profiles and regenerated on every deploy — see the full dataset at ${corpusStats.datasetUrl}.`
 					},
 					{
@@ -139,6 +147,9 @@
 								'@id': 'https://9takes.com/corpus-stats#dataset',
 								name: '9takes Enneagram Personality Type Distribution Corpus',
 								url: corpusStats.datasetUrl
+							},
+							subjectOf: {
+								'@id': `${canonicalUrl}#corpus-slice`
 							}
 						}
 					: {}),
@@ -274,12 +285,18 @@
 							<strong
 								>{corpusStats.over.deltaPp >= 0 ? '+' : ''}{corpusStats.over.deltaPp.toFixed(2)} pp</strong
 							>
-							vs. the {corpusStats.corpusPublished}-profile corpus baseline. {corpusStats.under
-								.typeName} is the most under-represented at {corpusStats.under.sharePct}.
+							vs. the {corpusStats.corpusPublished}-profile corpus baseline.
+							<a href={`/personality-analysis/type/${corpusStats.under.type}`}>
+								{corpusStats.under.typeName}
+							</a>
+							is the most under-represented at {corpusStats.under.sharePct}.
 						</p>
 						<p class="corpus-insight-meta">
-							{corpusStats.freshnessShare90dPct} of the corpus was refreshed in the last 90 days.
-							<a href="/corpus-stats">See the full dataset →</a>
+							{corpusStats.freshnessShare90dPct} of the corpus was refreshed in the last 90 days. As
+							of
+							<time datetime={corpusStats.generatedAt}
+								>{formatCorpusDate(corpusStats.generatedAt)}</time
+							>. <a href="/corpus-stats">See the full dataset →</a>
 						</p>
 					</aside>
 				{/if}

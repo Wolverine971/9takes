@@ -37,11 +37,13 @@ FEEDBACK (2026-02-20):
 - NEAR-PERFECT HOOK: The smear campaign response — redirecting every eyeball to the Trevor Project, Doctors Without Borders, and World Food Kitchen instead of defending himself — is specific, surprising, and reveals character in one image. "The most anxious man in Hollywood responded to an attack on his character by redirecting every eyeball to the people who actually needed protecting." Thesis crystallized immediately.
 - MULTIPLE SIGNATURE DETAILS: (1) The hand-on-torso physical tell, documented across 20 years of red carpet photos — "You know why? It's because my anxiety is right here." (2) The SAG Awards speech: "I'm going to have a panic attack and I'm going to leave." (3) "I'm already broken" as Type 6 logic. (4) Lux on the Chanel runway and "I see you before I see myself." Each of these alone could anchor an analysis.
 - EXCEPTIONAL EMOTIONAL IMMERSION: The exile section makes the reader feel what it means for a child's brain to absorb "safety is something you flee toward, not something you're born into." The Killmonger parallel — wait, this is Pedro, not MBJ — the anxiety management section with the doomscrolling and physical grounding is deeply felt. The Lux section is devastating without being sentimental.
-- STRONG SIX ENGINE: Every section is driven by the type. The protector roles are connected to the childhood. The humor is connected to the 7 wing. The "daddy" arc is traced through Six psychology. The doomscrolling is explained as Six fear management. Even the romantic privacy is explained through Type 6 trust calculus.
+- STRONG SIX ENGINE: Every section is driven by the type. The protector roles are connected to the childhood. The humor is connected to his playful edge. The "daddy" arc is traced through Six psychology. The doomscrolling is explained as Six fear management. Even the romantic privacy is explained through Type 6 trust calculus.
 - EXCELLENT WRITING: Visual rhythm is masterful. "He didn't defend himself. He didn't issue a statement." Short punchy lines alternate throughout. The humor sections (Starbucks order, SNL missed cue) provide perfect relief. The ending — "they have never once doubted that he would be there" — is one of the best cut-to-black endings in the collection.
-- NEEDS WORK: Stress/growth arrows aren't explicitly named. Where does Type 6 go under stress (→ 3, performing/achieving) and in health (→ 9, inner peace)? The career-building and Fantastic Four casting could connect to the stress arrow to 3. The moments of peace with friends could connect to the growth arrow to 9.
-- NEEDS WORK: Counter-typing section is absent. Why not Type 2 (helper, protective)? Why not Type 4 (emotional depth, artist identity)?
-- TO REACH A+: (1) Add explicit stress/growth arrow integration — the stress to 3 (performing to prove worth, the Fantastic Four self-doubt) and growth to 9 (the moments of calm with his inner circle) are already IN the piece but need to be named. (2) Add a brief counter-typing paragraph — the protective instinct could look like Type 2 but it's fear-driven rather than love-driven; the emotional depth could look like Type 4 but it's anxiety-based rather than identity-based. (3) These additions would make an already exceptional piece airtight.
+- NEEDS WORK: Stress/growth movement isn't explicitly named. Where does Type 6 go under pressure and in health? The career-building and Fantastic Four casting could connect to the performing-to-prove-worth pattern. The moments of peace with friends could connect to the calmer healthy pattern.
+- NEEDS WORK: Alternate-type section is absent. Why not Type 2 (helper, protective)? Why not Type 4 (emotional depth, artist identity)?
+- TO REACH A+: (1) Add explicit pressure/health movement — performing to prove worth and the moments of calm with his inner circle are already IN the piece but need to be named. (2) Add a brief alternate-type paragraph — the protective instinct could look like Type 2 but it's fear-driven rather than love-driven; the emotional depth could look like Type 4 but it's anxiety-based rather than identity-based. (3) These additions would make an already exceptional piece airtight.
+
+RETROFIT (2026-04-17): Added the opt-in Enneagram Rabbit Hole block and moved specialist analysis out of the main narrative.
 -->
 
 > "Fear is the way that they win. So keep telling the stories, keep expressing yourself and keep fighting to be who you are."
@@ -154,7 +156,7 @@ During the pandemic, Pascal's natural coping mechanisms broke down. "I was alway
 
 The habit never fully left. In a joint interview with Joaquin Phoenix for _Eddington_, Pascal admitted: "I'm doomscrolling like a fucking madman. It's worse than ever before." He described social media as "pacifying a feeling of helpless impotence against things that I feel angry about." Phoenix doesn't doomscroll. Pascal can't stop.
 
-When it got bad enough, he went back to what always worked: "Engagement in my relationships, my friendships, and conversation and shared experience." Connection as medicine. Understanding [how each type handles stress](/enneagram-corner/enneagram-types-in-stress) illuminates why this pattern runs so deep. His coping comes down to three things: human connection when possible, physical self-grounding when the body takes over, and naming the fear out loud instead of performing composure. He's never publicly mentioned therapy or meditation. His trainer has documented physical routines for role preparation, but when it comes to the anxiety itself, Pascal's toolkit is stubbornly interpersonal: talk to the people who know you, name what you're feeling, and stop pretending you're fine.
+When it got bad enough, he went back to what always worked: "Engagement in my relationships, my friendships, and conversation and shared experience." Connection as medicine. His coping comes down to three things: human connection when possible, physical self-grounding when the body takes over, and naming the fear out loud instead of performing composure. He's never publicly mentioned therapy or meditation. His trainer has documented physical routines for role preparation, but when it comes to the anxiety itself, Pascal's toolkit is stubbornly interpersonal: talk to the people who know you, name what you're feeling, and stop pretending you're fine.
 
 ### Public Vulnerability, Private Boundaries
 
@@ -164,7 +166,42 @@ He'll tell you about the fear that lives in his body. He won't tell you who he's
 
 For a man whose earliest lesson was that safety can be taken without warning, that's a different calculus entirely.
 
-## The 7 Wing: Chaos, Charm, and the "Daddy" Arc
+<details class="enneagram-rabbit-hole">
+<summary class="accordion">Enneagram Rabbit Hole: Wings, Subtypes &amp; Connecting Lines for Pedro Pascal</summary>
+<div class="panel">
+
+<p><em>For Enneagram readers going deep on Pedro Pascal. Skip if you're here for the story — the rest of the analysis stands on its own.</em></p>
+
+### Pedro Pascal's Wing: 6w7
+
+Pascal reads as 6w7 — the Loyalist with an Enthusiast <a href="/enneagram-corner/enneagram-wings-complete-guide">wing</a>. A 6w5 version would likely be more guarded, analytical, and withdrawn. Pascal's anxiety is visible, but it is wrapped in warmth, jokes, public oversharing, and chaotic charm.
+
+The 7-wing explains the Starbucks outrage, the SNL missed-cue story, the "cool, slutty daddy" riff, and the way he turns terror into connection. The humor does not replace the fear. It rides on top of it, giving the room a way to relax while he admits he is not relaxed at all.
+
+That is why the public vulnerability lands as warmth instead of confession. He makes anxiety communal: a joke, a hand held onstage, a story everyone can survive together.
+
+### Pedro Pascal's Instinctual Subtype: so/sx
+
+Pascal reads as social-dominant with sexual second. The so-6 pattern seeks safety through tested networks: Sarah Paulson, Oscar Isaac, Lux, the family WhatsApp, long friendships, and public advocacy for people under threat. His protection is communal, which fits the <a href="/enneagram-corner/enneagram-instinctual-subtypes">instinct stack</a>.
+
+Sexual second shows in the fierce one-to-one bonds and the intensity of "I see you before I see myself." Self-preservation reads last. He grounds his body when anxious, but his first medicine is relationship, not retreat.
+
+### Stress and Growth Arrows
+
+Under stress, Type 6 moves toward Type 3. Pascal's doubts around _Fantastic Four_ show the risk: the fear becomes performance pressure, the question becomes whether he can serve the role convincingly, and the heart itself feels subject to public disgust.
+
+In growth, Type 6 moves toward Type 9. See <a href="/enneagram-corner/enneagram-connecting-lines">the connecting lines</a> in his inner circle: the long friendships, the chosen family, the birthday dancing, and the calm certainty that he will show up. The healthier Pascal is not less loyal. He is less run by fear while being loyal.
+
+### Counterarguments: Why Pedro Pascal Might Not Be Type 6
+
+Type 2 is plausible because he protects people and redirects attention to those in need. But the engine is not mainly a need to be needed. It is vigilance and loyalty: who is unsafe, who can be trusted, who needs shielding?
+
+Type 4 also has a case because of the grief, vulnerability, and artist identity. But the emotional center is not uniqueness. It is anxiety, exile, trust, and the lifelong project of creating safety with other people.
+
+</div>
+</details>
+
+## Chaos, Charm, and the "Daddy" Arc
 
 Here's the thing about Pedro Pascal that the anxiety narrative alone doesn't capture: he is genuinely, chaotically funny.
 
@@ -172,7 +209,7 @@ At the SNL 50th Anniversary special in 2025, he missed his musical cue in a sket
 
 When paparazzi photographed his Starbucks order (six shots of espresso over ice in a venti cup) and Jimmy Kimmel asked about it, Pascal's outrage was magnificent: "I cannot begin to tell you how violating this was. It's an incredibly private morning ritual that I never wanted anyone to know about." The punchline: "You sip it, you get really high, and you answer emails and stuff."
 
-This playful energy comes from a strong [Type 7](/enneagram-corner/enneagram-type-7) wing, the combination sometimes called "The Buddy." The humor doesn't replace the anxiety. It rides on top of it. He misses the cue because he's terrified, then turns the terror into the funniest story of the night. The six-shot espresso order is objectively chaotic. He builds warmth by being so disarmingly honest about his own mess that people can't help trusting him.
+The humor doesn't replace the anxiety. It rides on top of it. He misses the cue because he's terrified, then turns the terror into the funniest story of the night. The six-shot espresso order is objectively chaotic. He builds warmth by being so disarmingly honest about his own mess that people can't help trusting him.
 
 The "internet daddy" phenomenon tracks a similar pattern. In 2022, when a reporter showed him a tweet calling him "my cool, slutty father," he leaned all the way in: "I am your cool, slutty daddy." By mid-2023, he'd built a theory for it: "It seems a little role-related. The Mandalorian is very daddy to baby Grogu. Joel is very daddy to Ellie. These are daddy parts."
 

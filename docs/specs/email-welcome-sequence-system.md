@@ -1,4 +1,5 @@
 <!-- docs/specs/email-welcome-sequence-system.md -->
+
 # Welcome Email Sequence System — Replication Spec
 
 A production-grade, queue-driven welcome email sequence built on Supabase + SvelteKit + Gmail API. This spec documents the full system as it runs in 9takes so it can be replicated on another project.

@@ -37,8 +37,10 @@ FEEDBACK (2026-02-19):
 - STANDOUT HOOK: The dance injury → "Ocean Eyes" irony ("The song written for a dance class launched a music career — for a girl who could no longer dance") is a signature opening that contains the entire thesis in miniature.
 - EXCEPTIONAL EVIDENCE: Nearly every claim is sourced with specific, attributed quotes from 8+ publications. The Vanity Fair longitudinal interviews, Finneas's collaborator testimony, and the Nat Wolff Tourette's bond create a multi-perspective portrait. The person's voice is heard, not summarized.
 - ORIGINAL INSIGHT: "Both modes — hiding and revealing — were driven by the same wound" resolves the baggy clothes vs. Vogue cover contradiction elegantly. The "body went from enemy to instrument" thread connecting self-harm to the pool photoshoot is genuinely novel.
-- NEEDS WORK: No wing analysis (4w3 vs 4w5 — the performer/artist tension practically begs for this) and no instinctual variant exploration. Adding even a paragraph on her likely 4w3 wing (the Grammy speeches, the competitive go-kart behavior, the Vogue cover) would strengthen the Enneagram section.
-- TO REACH A+: (1) Add wing analysis — the 4w3 vs 4w5 tension maps perfectly onto the hiding/revealing dialectic. (2) Sharpen the ending — the current close is lyrical and strong but could cut harder; consider ending on the Nat Wolff quote ("she's one of us") or the Vanity Fair decision to stop annual interviews. (3) One more emotionally immersive scene — the pool section is close but told at a slight distance; putting the reader *in the water* would elevate it.
+- NEEDS WORK: No adjacent-style analysis — the performer/artist tension practically begs for this — and no deep motive-stack exploration. Adding even a paragraph on her likely performer edge (the Grammy speeches, the competitive go-kart behavior, the Vogue cover) would strengthen the Enneagram section.
+- TO REACH A+: (1) Add adjacent-style analysis — the performer/observer tension maps perfectly onto the hiding/revealing dialectic. (2) Sharpen the ending — the current close is lyrical and strong but could cut harder; consider ending on the Nat Wolff quote ("she's one of us") or the Vanity Fair decision to stop annual interviews. (3) One more emotionally immersive scene — the pool section is close but told at a slight distance; putting the reader *in the water* would elevate it.
+
+RETROFIT (2026-04-17): Added the opt-in Enneagram Rabbit Hole block and moved specialist analysis out of the main narrative.
 -->
 
 > "This whole process has felt like I'm coming back to the girl that I was. I've been grieving her. I've been looking for her in everything, and it's almost like she got drowned by the world and the media. I don't remember when she went away."
@@ -62,7 +64,7 @@ The distinction is surgical. Most people couldn't articulate it at 42, let alone
 <div class="panel">
 <ul>
 <li><b>The authenticity paradox:</b> She built a brand on being real, then realized the brand itself had become a performance she couldn't escape.</li>
-<li><b>The body as battleground:</b> Every aesthetic era (baggy clothes, blonde bombshell, current integration) was driven by the same wound of feeling undesirable, not by the freedom she presented it as.</li>
+<li><b>The body as battleground:</b> Every aesthetic era (baggy clothes, blonde bombshell, current synthesis) was driven by the same wound of feeling undesirable, not by the freedom she presented it as.</li>
 <li><b>The alchemy:</b> Depression, self-harm, sleep paralysis, synesthesia. She doesn't just experience pain differently, she literally perceives the world differently, and she's turned that difference into art that has won 10 Grammys and 2 Oscars.</li>
 <li><b>The grief:</b> She's been mourning the girl she was before fame since she was 18. The most recent album is her first real attempt to stop performing and start existing.</li>
 </ul>
@@ -151,9 +153,42 @@ She has lucid dreams, night terrors, and sleep paralysis. She has body dysmorphi
 
 This is the [Enneagram Type 4](/enneagram-corner/enneagram-type-4) pattern at its most vivid. Fours don't choose to be different — they _are_ different, and their entire psychological project is figuring out what to do with that difference. Do you hide it? Perform it? Weaponize it? Build an identity around it? All of the above, in sequence, until you exhaust every option and have to start figuring out which parts are actually you?
 
-Billie has done all of these. The green hair was performing it. The baggy clothes were hiding it. The Vogue cover was weaponizing it. The Grammy apology was being overwhelmed by it. And _Hit Me Hard and Soft_, her third album, the one she calls "the most me thing I've ever made," might be the beginning of the last stage: integration.
+Billie has done all of these. The green hair was performing it. The baggy clothes were hiding it. The Vogue cover was weaponizing it. The Grammy apology was being overwhelmed by it. And _Hit Me Hard and Soft_, her third album, the one she calls "the most me thing I've ever made," might be the beginning of the last stage: wholeness.
 
 The Enneagram resolves the contradiction that everyone sees but no one can explain. Billie Eilish is not a girl who chose to be different and then struggled with fame. She is a girl who was born different (synesthesia, Tourette's, lucid dreams, a body that "gaslighted" her) and built a career by channeling that difference into music so successfully that the world's consumption of her difference became its own form of alienation. She sold her wound, and now she can't tell which parts of the wound are hers and which belong to everyone else.
+
+<details class="enneagram-rabbit-hole">
+<summary class="accordion">Enneagram Rabbit Hole: Wings, Subtypes &amp; Connecting Lines for Billie Eilish</summary>
+<div class="panel">
+
+<p><em>For Enneagram readers going deep on Billie Eilish. Skip if you're here for the story — the rest of the analysis stands on its own.</em></p>
+
+### Billie Eilish's Wing: 4w3
+
+Billie reads as 4w3 — the Individualist with an Achiever <a href="/enneagram-corner/enneagram-wings-complete-guide">wing</a>. A 4w5 version would lean more withdrawn, private, and cerebral. Billie has that inwardness, but the public pattern keeps returning to image, stage, impact, and the painful question of whether the performance is still authentic.
+
+The 3-wing explains why her aesthetic shifts become eras rather than private experiments. Baggy clothes, green roots, the British Vogue corset, the Grammy apologies, the go-kart competitiveness, and the political speech all carry performance charge. She is not only expressing difference. She is staging it, then grieving when the staging becomes a box.
+
+### Billie Eilish's Instinctual Subtype: so/sx
+
+Billie reads as social-dominant with sexual second. The so-4 pattern is shame under a spotlight: being watched, compared, consumed, misunderstood, and turned into a symbol before the self can catch up. The Vanity Fair interviews, the body discourse, the follower loss after Vogue, and the constant negotiation with audience projection all fit the <a href="/enneagram-corner/enneagram-instinctual-subtypes">instinct stack</a>.
+
+Sexual second explains the intensity of disclosure: sexuality, desire, power, the need to be seen by one person without being consumed by everyone. Self-preservation reads last. She has strong body-protection themes, but the dominant wound is social visibility and the second charge is intimate intensity.
+
+### Stress and Growth Arrows
+
+Under stress, Type 4 moves toward Type 2. Billie describes feeling unlovable, tolerating poor treatment, and dissolving into relationships because being alone felt unbearable. The longing to be chosen can override the very identity she fights to protect.
+
+In growth, Type 4 moves toward Type 1. See <a href="/enneagram-corner/enneagram-connecting-lines">the connecting lines</a> in the fur condition with Oscar de la Renta, the vegan tour infrastructure, the Grammy speech, and the decision to slow the annual Vanity Fair ritual. The healthier Billie does not just feel deeply. She makes choices from principle and builds boundaries around what is hers.
+
+### Counterarguments: Why Billie Eilish Might Not Be Type 4
+
+Type 6 is plausible because of the anxiety, family dependence, and fear of abandonment. But the core problem is not trust in systems. It is identity: who am I when everyone has consumed the image?
+
+Type 3 also has a case because Billie is a decorated performer with a sharp public aesthetic. But the achievements never seem to settle her. The awards, looks, and eras circle back to the same wound of difference, shame, and authenticity. That is Type 4 territory.
+
+</div>
+</details>
 
 ---
 
@@ -191,7 +226,7 @@ They say the cruelest things to each other. They love each other more than anyon
 
 Now Billie is learning to produce music without him. Finneas told The Hollywood Reporter she's "very good at it." He taught her how to comp her own vocals so he could leave the room and let her record independently: "Let me teach you how to do this. It's not that hard."
 
-She described touring without him as "bittersweet and really sad." But also: "Finneas is, like, really, finally, I feel, like, getting to flap his wings."
+She described touring without him as "bittersweet and really sad." But also: "Finneas is, like, really, finally, I feel, like, getting to fly on his own."
 
 The girl who couldn't sleep without her parents until eleven. The artist who couldn't make a song without her brother until twenty-two. The pattern is the same: enmeshment, then slow, painful individuation. The shared bed, then the separate rooms. The blood harmony, then the solo voice.
 
@@ -263,9 +298,9 @@ This is the Billie Eilish who doesn't appear in the moody aesthetic or the whisp
 
 When Finneas was asked about the backlash (senators, Fox News, Bill Maher), he responded: "We can literally see your names in the Epstein files."
 
-Under stress, Fours can move toward [Type 2](/enneagram-corner/enneagram-type-2) patterns: people-pleasing, losing themselves in others' needs, dissolving their own identity to keep a relationship alive. Billie has described this precisely: feeling "incredibly unlovable," tolerating poor treatment because she couldn't bear to be alone, the ex-boyfriend who didn't get her anything for Valentine's Day and punched a wall when confronted.
+Billie has described the painful version of that same emotional intensity: feeling "incredibly unlovable," tolerating poor treatment because she couldn't bear to be alone, the ex-boyfriend who didn't get her anything for Valentine's Day and punched a wall when confronted.
 
-But in health, Fours integrate toward Type 1: principled, purposeful, channeling their emotional intensity into moral conviction. The Grammy speech. The demand that Oscar de la Renta ban fur as a condition of wearing their clothes. The all-vegan tour catering that saved 8.8 million gallons of water. The go-kart behavior.
+But the healthier Billie channels the intensity into conviction. The Grammy speech. The demand that Oscar de la Renta ban fur as a condition of wearing their clothes. The all-vegan tour catering that saved 8.8 million gallons of water. The go-kart behavior.
 
 The same girl. Different modes.
 

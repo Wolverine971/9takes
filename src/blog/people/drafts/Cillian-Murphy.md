@@ -35,11 +35,11 @@ Hook: 9 | Enneagram: 9 | Evidence: 8 | Writing: 9 | Originality: 9
 
 FEEDBACK (2026-02-19):
 - EXCELLENT HOOK: The Downey/antiquing scene into Blunt's "best actor/worst celebrity" line creates immediate tension. The central contradiction is clear within 5 paragraphs. A Google-landing reader stays.
-- SIGNATURE DETAILS: Two moments that make the analysis click — (1) crying on the Dublin train reading Claire Keegan, hiding under his hood, then channeling those tears into producing Small Things Like These; (2) "Remember, I'm an actor" — five words via text that demonstrate the Five-to-Eight growth arrow in action.
-- ENNEAGRAM AS ENGINE: The "hoard, then release" paradox drives every section. Growth arrow to 8 is shown, not told. Counter-typing addressed naturally in "But What About the Life Force?" Fresh language throughout ("the fortress has no WiFi," "cancel reality for a while").
+- SIGNATURE DETAILS: Two moments that make the analysis click — (1) crying on the Dublin train reading Claire Keegan, hiding under his hood, then channeling those tears into producing Small Things Like These; (2) "Remember, I'm an actor" — five words via text that demonstrate the private man stepping forward.
+- ENNEAGRAM AS ENGINE: The "hoard, then release" paradox drives every section. Healthy assertion is shown, not told. The "But What About the Life Force?" section handles the obvious objection naturally. Fresh language throughout ("the fortress has no WiFi," "cancel reality for a while").
 - WRITING: Perfect ending — cuts to black with the wife's quote. Visual rhythm is strong. Confident, minimal hedging.
 - NEEDS WORK: Evidence sourcing — abundant direct quotes but none attributed to specific publications or dates. "He's said" and "she said later" should become "he told The Guardian in 2023" or "she said in a Vanity Fair profile."
-- TO REACH A: (1) Source at least 8-10 key quotes to specific publications/dates (the Downey quotes, Blunt quotes, Nolan handwritten note, Knight encounter, wife's "getting Cillian back"). (2) Consider adding the stress arrow to Type 7 — when does Murphy scatter or over-stimulate under pressure? The music/band period might be worth exploring through that lens. (3) Instinctual variant (likely self-preservation) could add one more layer of specificity.
+- TO REACH A: (1) Source at least 8-10 key quotes to specific publications/dates (the Downey quotes, Blunt quotes, Nolan handwritten note, Knight encounter, wife's "getting Cillian back"). (2) Consider adding more detail on what Murphy looks like when pressure makes him scatter or over-stimulate — the music/band period might be worth exploring. (3) His privacy infrastructure could support one more layer of specificity.
 -->
 
 > "I'm stubborn and lacking in confidence — a terrible combination."
@@ -152,7 +152,35 @@ Knight never forgot. "What he meant was that when he walks into a room, he's not
 
 That text is the moment where Murphy's personality cracks open. The man who hates self-promotion, who finds publicity "terrifying," who would rather be invisible, advocating for himself with quiet, absolute confidence. Not aggressive. Not desperate. Just: _remember what I am._
 
-In Enneagram terms, this is a Five accessing their growth direction, [Type 8](/enneagram-corner/enneagram-type-8). When a Five is healthy, they stop hoarding and start acting. They step forward. They claim space. Murphy does this rarely, but when he does, it changes everything.
+When Murphy is healthy, he stops hoarding and starts acting. He steps forward. He claims space. He does this rarely, but when he does, it changes everything.
+
+<details class="enneagram-rabbit-hole">
+<summary class="accordion">Enneagram Rabbit Hole: Wings, Subtypes &amp; Connecting Lines for Cillian Murphy</summary>
+<div class="panel">
+<p><em>For Enneagram readers going deep on Cillian Murphy. Skip if you're here for the story — the rest of the analysis stands on its own.</em></p>
+
+### Cillian Murphy's Wing: 5w4
+
+Murphy looks like a 5w4 rather than a 5w6. The Five core explains the fortress: privacy, preparation, withholding, and the fear of being exposed without enough inner resources. The Four side explains the charge inside the fortress. His work is not merely competent or technical; it is moody, aesthetic, emotionally saturated, and drawn toward alienation, grief, violence, and hidden tenderness. That artistic gravity is why his silence never feels empty; it feels pressurized. The guide to <a href="/enneagram-corner/enneagram-wings-complete-guide">Enneagram wings</a> helps frame that blend: Five supplies distance, Four supplies atmosphere.
+
+### Cillian Murphy's Instinctual Subtype: sp/sx
+
+Murphy's likely stack is sp/sx. The self-preservation signal is almost comically clear: no internet at home, no social media, no smartphone dependence, simple routines, sleep as a non-negotiable resource, and a life built around controlling intake. The sexual instinct comes second through the intensity of the work. He disappears into roles, bonds deeply with chosen collaborators, and lets a private emotional world erupt only when the conditions are right. Social comes last: he can handle the Oscars, but celebrity itself drains him. The broader framework lives in the <a href="/enneagram-corner/enneagram-instinctual-subtypes">instinctual subtypes guide</a>.
+
+### Stress and Growth Arrows
+
+The <a href="/enneagram-corner/enneagram-connecting-lines">connecting lines</a> clarify why Murphy is not only withdrawal. Under pressure, Type 5 can pick up the scattered, overstimulated edge of Type 7. His early band years, the failed law start, the "wacky lyrics and endless guitar solos," and the sudden leap into _Disco Pigs_ show a young man searching through multiple exits before narrowing into mastery.
+
+Growth points toward Type 8. "Remember, I'm an actor" is the cleanest example: no speech, no campaign, just a direct claim. The production company behind _Small Things Like These_ is another. He takes the protected inner response — tears under a hood on a train — and turns it into public action.
+
+### Counterarguments: Why Cillian Murphy Might Not Be Type 5
+
+Type 9 is tempting because he is low-key, private, and conflict-avoidant in celebrity contexts. But Murphy's privacy is not merging or comfort-seeking. It is resource management. He withholds so he can concentrate.
+
+Type 4 is also plausible because of the intensity, melancholy, and artistic self-erasure. But the method is Five: research, ration energy, control exposure, then release. The emotional force is real, yet the operating system is still investigative and protective.
+
+</div>
+</details>
 
 ## Why Cillian Murphy Is So Private
 

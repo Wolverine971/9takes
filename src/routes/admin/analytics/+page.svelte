@@ -110,6 +110,26 @@
 	type SortDirection = 'asc' | 'desc';
 	type PageBreakdownWindow = '24h' | '7d' | '14d' | '30d' | '90d';
 	type AnalyticsTab = 'pageviews' | 'timing' | 'releases' | 'cohorts';
+	type ReleaseSortKey =
+		| 'title'
+		| 'published_at'
+		| 'minutes_to_first_view'
+		| 'views_24h'
+		| 'views_7d'
+		| 'views_30d'
+		| 'total_views'
+		| 'benchmark_score'
+		| 'performance_band'
+		| 'growth_slope_7d'
+		| 'bounce_rate'
+		| 'avg_time_on_page_ms';
+	type ReleaseBandFilter =
+		| 'all'
+		| 'above_norm'
+		| 'below_norm'
+		| 'near_norm'
+		| 'collecting'
+		| 'insufficient_history';
 
 	interface PageBreakdownWindowOption {
 		key: PageBreakdownWindow;
@@ -301,6 +321,40 @@
 	];
 	const defaultPageBreakdownWindow: PageBreakdownWindow = '30d';
 
+	const releaseBandFilterOptions: Array<{ key: ReleaseBandFilter; label: string }> = [
+		{ key: 'all', label: 'All releases' },
+		{ key: 'above_norm', label: 'Overperforming' },
+		{ key: 'below_norm', label: 'Underperforming' },
+		{ key: 'near_norm', label: 'Near norm' },
+		{ key: 'collecting', label: 'Collecting' },
+		{ key: 'insufficient_history', label: 'Needs history' }
+	];
+
+	const releaseSortOptions: Array<{ key: ReleaseSortKey; label: string }> = [
+		{ key: 'benchmark_score', label: 'Benchmark score' },
+		{ key: 'views_24h', label: '24h views' },
+		{ key: 'views_7d', label: '7d views' },
+		{ key: 'views_30d', label: '30d views' },
+		{ key: 'total_views', label: 'Total views' },
+		{ key: 'published_at', label: 'Publish date' },
+		{ key: 'growth_slope_7d', label: '7d growth slope' },
+		{ key: 'minutes_to_first_view', label: 'Time to first view' },
+		{ key: 'avg_time_on_page_ms', label: 'Avg time' },
+		{ key: 'bounce_rate', label: 'Bounce rate' },
+		{ key: 'title', label: 'Title' }
+	];
+
+	const releaseTableColumns: Array<{ key: ReleaseSortKey; label: string; numeric?: boolean }> = [
+		{ key: 'title', label: 'Release' },
+		{ key: 'published_at', label: 'Published' },
+		{ key: 'minutes_to_first_view', label: 'First View', numeric: true },
+		{ key: 'views_24h', label: '24h', numeric: true },
+		{ key: 'views_7d', label: '7d', numeric: true },
+		{ key: 'views_30d', label: '30d', numeric: true },
+		{ key: 'benchmark_score', label: 'Score', numeric: true },
+		{ key: 'performance_band', label: 'Band' }
+	];
+
 	let fromDate = $state(initialFilters?.from ?? '');
 	let toDate = $state(initialFilters?.to ?? '');
 	let scope = $state<AnalyticsScope>(
@@ -355,6 +409,9 @@
 	let releasesLoading = $state(false);
 	let releasesLoaded = $state(false);
 	let selectedReleaseSlug = $state('');
+	let releaseSortBy = $state<ReleaseSortKey>('benchmark_score');
+	let releaseSortDir = $state<SortDirection>('desc');
+	let releaseBandFilter = $state<ReleaseBandFilter>('all');
 	let releaseGrowthPoints = $state<ReleaseGrowthPoint[]>([]);
 	let releaseGrowthLoading = $state(false);
 	const releaseGrowthCache = new Map<string, ReleaseGrowthPoint[]>();
@@ -570,6 +627,168 @@
 		return sortDir === 'asc' ? 'ascending' : 'descending';
 	}
 
+	function getReleaseSortIndicator(column: ReleaseSortKey): string {
+		if (releaseSortBy !== column) return '';
+		return releaseSortDir === 'desc' ? '↓' : '↑';
+	}
+
+	function getReleaseAriaSort(column: ReleaseSortKey): 'none' | 'ascending' | 'descending' {
+		if (releaseSortBy !== column) return 'none';
+		return releaseSortDir === 'asc' ? 'ascending' : 'descending';
+	}
+
+	function getReleaseBandCount(filter: ReleaseBandFilter): number {
+		if (filter === 'all') return releaseRows.length;
+		return releaseRows.filter((row) => row.performance_band === filter).length;
+	}
+
+	function getReleaseBandSortRank(value: string): number {
+		switch (value) {
+			case 'above_norm':
+				return 4;
+			case 'near_norm':
+				return 3;
+			case 'collecting':
+				return 2;
+			case 'insufficient_history':
+				return 1;
+			case 'below_norm':
+				return 0;
+			default:
+				return -1;
+		}
+	}
+
+	function getReleaseSortValue(
+		row: ReleasePerformanceRow,
+		key: ReleaseSortKey
+	): number | string | null {
+		switch (key) {
+			case 'title':
+				return row.title || row.slug;
+			case 'published_at':
+				return row.published_at ? new Date(row.published_at).getTime() : null;
+			case 'minutes_to_first_view':
+				return row.minutes_to_first_view;
+			case 'views_24h':
+				return row.views_24h;
+			case 'views_7d':
+				return row.views_7d;
+			case 'views_30d':
+				return row.views_30d;
+			case 'total_views':
+				return row.total_views;
+			case 'benchmark_score':
+				return row.benchmark_score;
+			case 'performance_band':
+				return getReleaseBandSortRank(row.performance_band);
+			case 'growth_slope_7d':
+				return row.growth_slope_7d;
+			case 'bounce_rate':
+				return row.bounce_rate;
+			case 'avg_time_on_page_ms':
+				return row.avg_time_on_page_ms;
+		}
+	}
+
+	function compareReleaseRows(
+		a: ReleasePerformanceRow,
+		b: ReleasePerformanceRow,
+		key: ReleaseSortKey,
+		direction: SortDirection
+	): number {
+		const aValue = getReleaseSortValue(a, key);
+		const bValue = getReleaseSortValue(b, key);
+		const aMissing =
+			aValue === null ||
+			aValue === undefined ||
+			(typeof aValue === 'number' && Number.isNaN(aValue));
+		const bMissing =
+			bValue === null ||
+			bValue === undefined ||
+			(typeof bValue === 'number' && Number.isNaN(bValue));
+
+		if (aMissing && bMissing) {
+			return (a.title || a.slug).localeCompare(b.title || b.slug);
+		}
+		if (aMissing) return 1;
+		if (bMissing) return -1;
+
+		let comparison = 0;
+		if (typeof aValue === 'string' && typeof bValue === 'string') {
+			comparison = aValue.localeCompare(bValue);
+		} else {
+			comparison = Number(aValue) - Number(bValue);
+		}
+
+		if (comparison === 0) {
+			comparison = (a.title || a.slug).localeCompare(b.title || b.slug);
+		}
+
+		return direction === 'asc' ? comparison : -comparison;
+	}
+
+	function getReleaseRowsForControls(
+		filter: ReleaseBandFilter = releaseBandFilter,
+		key: ReleaseSortKey = releaseSortBy,
+		direction: SortDirection = releaseSortDir
+	): ReleasePerformanceRow[] {
+		const filtered =
+			filter === 'all'
+				? [...releaseRows]
+				: releaseRows.filter((row) => row.performance_band === filter);
+
+		return filtered.sort((a, b) => compareReleaseRows(a, b, key, direction));
+	}
+
+	function ensureSelectedReleaseInVisibleRows() {
+		const visibleRows = getReleaseRowsForControls();
+		if (visibleRows.length === 0) {
+			selectedReleaseSlug = '';
+			releaseGrowthPoints = [];
+			releaseEventRows = [];
+			releaseGrowthLoading = false;
+			releaseEventsLoading = false;
+			return;
+		}
+		if (visibleRows.some((row) => row.slug === selectedReleaseSlug)) {
+			return;
+		}
+
+		void selectRelease(visibleRows[0].slug);
+	}
+
+	function handleReleaseSort(column: ReleaseSortKey) {
+		if (releaseSortBy === column) {
+			releaseSortDir = releaseSortDir === 'desc' ? 'asc' : 'desc';
+		} else {
+			releaseSortBy = column;
+			releaseSortDir = column === 'title' ? 'asc' : 'desc';
+		}
+
+		ensureSelectedReleaseInVisibleRows();
+	}
+
+	function updateReleaseSortKey(value: string) {
+		releaseSortBy = value as ReleaseSortKey;
+		ensureSelectedReleaseInVisibleRows();
+	}
+
+	function toggleReleaseSortDirection() {
+		releaseSortDir = releaseSortDir === 'desc' ? 'asc' : 'desc';
+		ensureSelectedReleaseInVisibleRows();
+	}
+
+	function setReleaseBandFilter(filter: ReleaseBandFilter) {
+		releaseBandFilter = filter;
+		ensureSelectedReleaseInVisibleRows();
+	}
+
+	function focusReleaseSignal(slug: string, filter: ReleaseBandFilter) {
+		releaseBandFilter = filter;
+		void selectRelease(slug);
+	}
+
 	function handleSort(column: SortKey) {
 		if (sortBy === column) {
 			sortDir = sortDir === 'desc' ? 'asc' : 'desc';
@@ -760,11 +979,21 @@
 			label: `Day ${point.day_number}: ${point.cumulative_visits.toLocaleString()} cumulative visits`
 		}))
 	);
+	let releaseVisibleRows = $derived(getReleaseRowsForControls());
+	let overperformingRows = $derived(
+		getReleaseRowsForControls('above_norm', 'benchmark_score', 'desc').slice(0, 3)
+	);
+	let underperformingRows = $derived(
+		getReleaseRowsForControls('below_norm', 'benchmark_score', 'asc').slice(0, 3)
+	);
 	let releaseSummary = $derived({
 		total: releaseRows.length,
 		aboveNorm: releaseRows.filter((row) => row.performance_band === 'above_norm').length,
 		belowNorm: releaseRows.filter((row) => row.performance_band === 'below_norm').length,
-		collecting: releaseRows.filter((row) => row.performance_band === 'collecting').length
+		nearNorm: releaseRows.filter((row) => row.performance_band === 'near_norm').length,
+		collecting: releaseRows.filter((row) => row.performance_band === 'collecting').length,
+		needsHistory: releaseRows.filter((row) => row.performance_band === 'insufficient_history')
+			.length
 	});
 
 	$effect(() => {
@@ -1075,7 +1304,10 @@
 			releaseRows = (body.rows ?? []) as ReleasePerformanceRow[];
 			releasesLoaded = true;
 
+			const visibleRows = getReleaseRowsForControls();
 			const nextSlug =
+				visibleRows.find((row) => row.slug === selectedReleaseSlug)?.slug ??
+				visibleRows[0]?.slug ??
 				releaseRows.find((row) => row.slug === selectedReleaseSlug)?.slug ??
 				releaseRows[0]?.slug ??
 				'';
@@ -1153,6 +1385,97 @@
 		if (nextPage < 1 || nextPage > totalPages || nextPage === page) return;
 		page = nextPage;
 		await fetchPages();
+	}
+
+	function csvEscape(value: string | number | null | undefined): string {
+		if (value === null || value === undefined) return '';
+		const text = String(value);
+		if (/[",\n\r]/.test(text)) {
+			return `"${text.replace(/"/g, '""')}"`;
+		}
+		return text;
+	}
+
+	function formatCsvDate(value: string | null): string {
+		if (!value) return '';
+		const date = new Date(value);
+		if (Number.isNaN(date.getTime())) return value;
+		return date.toISOString();
+	}
+
+	function buildReleaseAnalysisCsv(exportRows: ReleasePerformanceRow[]): string {
+		const columns: Array<{
+			header: string;
+			value: (row: ReleasePerformanceRow) => string | number | null | undefined;
+		}> = [
+			{ header: 'title', value: (row) => row.title },
+			{ header: 'slug', value: (row) => row.slug },
+			{ header: 'path', value: (row) => row.path },
+			{ header: 'published_at', value: (row) => formatCsvDate(row.published_at) },
+			{ header: 'first_view_at', value: (row) => formatCsvDate(row.first_view_at) },
+			{ header: 'minutes_to_first_view', value: (row) => row.minutes_to_first_view },
+			{ header: 'performance_band', value: (row) => formatPerformanceBand(row.performance_band) },
+			{ header: 'release_stage', value: (row) => formatReleaseStage(row.release_stage) },
+			{ header: 'benchmark_score', value: (row) => row.benchmark_score },
+			{ header: 'benchmark_basis', value: (row) => row.benchmark_basis },
+			{ header: 'benchmark_sample_size', value: (row) => row.benchmark_sample_size },
+			{ header: 'views_1h', value: (row) => row.views_1h },
+			{ header: 'views_6h', value: (row) => row.views_6h },
+			{ header: 'views_24h', value: (row) => row.views_24h },
+			{ header: 'views_24h_percentile', value: (row) => row.views_24h_percentile },
+			{ header: 'unique_24h', value: (row) => row.unique_24h },
+			{ header: 'views_7d', value: (row) => row.views_7d },
+			{ header: 'views_7d_percentile', value: (row) => row.views_7d_percentile },
+			{ header: 'unique_7d', value: (row) => row.unique_7d },
+			{ header: 'views_30d', value: (row) => row.views_30d },
+			{ header: 'views_30d_percentile', value: (row) => row.views_30d_percentile },
+			{ header: 'unique_30d', value: (row) => row.unique_30d },
+			{ header: 'total_views', value: (row) => row.total_views },
+			{ header: 'total_unique_visitors', value: (row) => row.total_unique_visitors },
+			{
+				header: 'avg_time_on_page_seconds',
+				value: (row) => Math.round(row.avg_time_on_page_ms / 1000)
+			},
+			{
+				header: 'median_time_on_page_seconds',
+				value: (row) => Math.round(row.median_time_on_page_ms / 1000)
+			},
+			{ header: 'avg_scroll_pct', value: (row) => row.avg_scroll_pct },
+			{ header: 'bounce_rate', value: (row) => row.bounce_rate },
+			{ header: 'growth_slope_7d', value: (row) => row.growth_slope_7d },
+			{ header: 'decay_rate_after_spike', value: (row) => row.decay_rate_after_spike }
+		];
+
+		return [
+			columns.map((column) => csvEscape(column.header)).join(','),
+			...exportRows.map((row) => columns.map((column) => csvEscape(column.value(row))).join(','))
+		].join('\n');
+	}
+
+	function getReleaseExportFilename(): string {
+		const filterSuffix =
+			releaseBandFilter === 'all' ? '' : `-${releaseBandFilter.replace(/_/g, '-')}`;
+		return `release-performance-${fromDate || 'start'}-${toDate || 'end'}${filterSuffix}.csv`;
+	}
+
+	function exportReleaseAnalysisCsv() {
+		const exportRows = releaseVisibleRows;
+		if (exportRows.length === 0) {
+			notifications.warning('No release rows to export', 2500);
+			return;
+		}
+
+		const csv = buildReleaseAnalysisCsv(exportRows);
+		const blob = new Blob([csv], { type: 'text/csv;charset=utf-8' });
+		const url = URL.createObjectURL(blob);
+		const link = document.createElement('a');
+		link.href = url;
+		link.download = getReleaseExportFilename();
+		document.body.appendChild(link);
+		link.click();
+		link.remove();
+		URL.revokeObjectURL(url);
+		notifications.success(`Exported ${exportRows.length.toLocaleString()} releases`, 2500);
 	}
 
 	function formatBounceRate(value: number): string {
@@ -1881,19 +2204,28 @@
 
 	{#if activeTab === 'releases' || hasOpenedReleases}
 		<div hidden={activeTab !== 'releases'}>
-			<section class="insight-card">
-				<div class="insight-header">
+			<section class="insight-card release-performance-card">
+				<div class="insight-header release-header">
 					<div>
 						<h2>Release Performance</h2>
 						<p>Personality analysis releases in {formatDateWindow(fromDate, toDate)}</p>
 					</div>
-					<button
-						class="btn btn-secondary"
-						onclick={fetchReleaseAnalytics}
-						disabled={releasesLoading}
-					>
-						{releasesLoading ? 'Refreshing...' : 'Refresh'}
-					</button>
+					<div class="release-header-actions">
+						<button
+							class="btn btn-secondary"
+							onclick={exportReleaseAnalysisCsv}
+							disabled={releasesLoading || releaseVisibleRows.length === 0}
+						>
+							Export CSV
+						</button>
+						<button
+							class="btn btn-secondary"
+							onclick={fetchReleaseAnalytics}
+							disabled={releasesLoading}
+						>
+							{releasesLoading ? 'Refreshing...' : 'Refresh'}
+						</button>
+					</div>
 				</div>
 
 				{#if releasesLoading && !releasesLoaded}
@@ -1901,23 +2233,86 @@
 				{:else if releaseRows.length === 0}
 					<div class="empty-panel">No personality releases found for this date range.</div>
 				{:else}
-					<div class="release-summary-grid">
-						<div class="timing-stat">
-							<span>Releases</span>
-							<strong>{releaseSummary.total.toLocaleString()}</strong>
+					<div class="release-command-row">
+						<div class="release-band-filters" role="group" aria-label="Release performance filter">
+							{#each releaseBandFilterOptions as option}
+								<button
+									type="button"
+									class="summary-filter"
+									class:active={releaseBandFilter === option.key}
+									class:above={option.key === 'above_norm'}
+									class:below={option.key === 'below_norm'}
+									onclick={() => setReleaseBandFilter(option.key)}
+								>
+									<span>{option.label}</span>
+									<strong>{getReleaseBandCount(option.key).toLocaleString()}</strong>
+								</button>
+							{/each}
 						</div>
-						<div class="timing-stat">
-							<span>Above norm</span>
-							<strong>{releaseSummary.aboveNorm.toLocaleString()}</strong>
+						<div class="release-sort-controls">
+							<label>
+								<span>Sort by</span>
+								<select
+									value={releaseSortBy}
+									onchange={(event) =>
+										updateReleaseSortKey((event.currentTarget as HTMLSelectElement).value)}
+								>
+									{#each releaseSortOptions as option}
+										<option value={option.key}>{option.label}</option>
+									{/each}
+								</select>
+							</label>
+							<button type="button" class="btn btn-secondary" onclick={toggleReleaseSortDirection}>
+								{releaseSortDir === 'desc' ? 'High to low' : 'Low to high'}
+							</button>
 						</div>
-						<div class="timing-stat">
-							<span>Below norm</span>
-							<strong>{releaseSummary.belowNorm.toLocaleString()}</strong>
+					</div>
+
+					<div class="release-signal-grid">
+						<div class="release-signal-panel over">
+							<div class="signal-header">
+								<span>Overperforming</span>
+								<strong>{releaseSummary.aboveNorm.toLocaleString()}</strong>
+							</div>
+							{#if overperformingRows.length === 0}
+								<p>No releases above benchmark yet.</p>
+							{:else}
+								{#each overperformingRows as row}
+									<button type="button" onclick={() => focusReleaseSignal(row.slug, 'above_norm')}>
+										<span>{row.title || row.slug}</span>
+										<strong>{formatBenchmarkScore(row.benchmark_score)}</strong>
+									</button>
+								{/each}
+							{/if}
 						</div>
-						<div class="timing-stat">
-							<span>Collecting</span>
-							<strong>{releaseSummary.collecting.toLocaleString()}</strong>
+						<div class="release-signal-panel under">
+							<div class="signal-header">
+								<span>Underperforming</span>
+								<strong>{releaseSummary.belowNorm.toLocaleString()}</strong>
+							</div>
+							{#if underperformingRows.length === 0}
+								<p>No releases below benchmark yet.</p>
+							{:else}
+								{#each underperformingRows as row}
+									<button type="button" onclick={() => focusReleaseSignal(row.slug, 'below_norm')}>
+										<span>{row.title || row.slug}</span>
+										<strong>{formatBenchmarkScore(row.benchmark_score)}</strong>
+									</button>
+								{/each}
+							{/if}
 						</div>
+					</div>
+
+					<div class="release-result-meta">
+						<span>
+							Showing {releaseVisibleRows.length.toLocaleString()} of {releaseSummary.total.toLocaleString()}
+							releases
+						</span>
+						<span>
+							{releaseSummary.nearNorm.toLocaleString()} near norm,
+							{releaseSummary.collecting.toLocaleString()} collecting,
+							{releaseSummary.needsHistory.toLocaleString()} need history
+						</span>
 					</div>
 
 					<div class="release-layout">
@@ -1929,64 +2324,80 @@
 							<table class="data-table release-table">
 								<thead>
 									<tr>
-										<th>Release</th>
-										<th>Published</th>
-										<th>First View</th>
-										<th class="num">24h</th>
-										<th class="num">7d</th>
-										<th class="num">30d</th>
-										<th>Band</th>
+										{#each releaseTableColumns as column}
+											<th class:num={column.numeric} aria-sort={getReleaseAriaSort(column.key)}>
+												<button
+													type="button"
+													class="sort-button"
+													class:num={column.numeric}
+													class:active={releaseSortBy === column.key}
+													onclick={() => handleReleaseSort(column.key)}
+												>
+													<span>{column.label}</span>
+													<span class="sort-indicator">{getReleaseSortIndicator(column.key)}</span>
+												</button>
+											</th>
+										{/each}
 									</tr>
 								</thead>
 								<tbody>
-									{#each releaseRows as row}
-										<tr class:active-row={selectedReleaseSlug === row.slug}>
-											<td data-label="Release">
-												<button
-													type="button"
-													class="table-path-button"
-													class:active={selectedReleaseSlug === row.slug}
-													onclick={() => void selectRelease(row.slug)}
-												>
-													{row.title || row.slug}
-												</button>
-												<div class="release-path">{row.path}</div>
-											</td>
-											<td data-label="Published">{formatDateTime(row.published_at)}</td>
-											<td data-label="First view"
-												>{formatMinutesToFirstView(row.minutes_to_first_view)}</td
-											>
-											<td class="num" data-label="24h">
-												{row.views_24h.toLocaleString()}
-												<small>{row.unique_24h.toLocaleString()} unique</small>
-												{#if row.views_24h_percentile !== null}
-													<small>{formatPercentile(row.views_24h_percentile)}</small>
-												{/if}
-											</td>
-											<td class="num" data-label="7d">
-												{row.views_7d.toLocaleString()}
-												{#if row.views_7d_percentile !== null}
-													<small>{formatPercentile(row.views_7d_percentile)}</small>
-												{/if}
-											</td>
-											<td class="num" data-label="30d">
-												{row.views_30d.toLocaleString()}
-												{#if row.views_30d_percentile !== null}
-													<small>{formatPercentile(row.views_30d_percentile)}</small>
-												{/if}
-											</td>
-											<td data-label="Band">
-												<span class={`band-pill ${getBandClass(row.performance_band)}`}>
-													{formatPerformanceBand(row.performance_band)}
-												</span>
-												<small>Score {formatBenchmarkScore(row.benchmark_score)}</small>
-												{#if row.benchmark_sample_size > 0}
-													<small>n={row.benchmark_sample_size.toLocaleString()}</small>
-												{/if}
-												<small>{formatReleaseStage(row.release_stage)}</small>
-											</td>
+									{#if releaseVisibleRows.length === 0}
+										<tr>
+											<td colspan="8" class="empty">No releases match this performance filter.</td>
 										</tr>
-									{/each}
+									{:else}
+										{#each releaseVisibleRows as row}
+											<tr class:active-row={selectedReleaseSlug === row.slug}>
+												<td data-label="Release">
+													<button
+														type="button"
+														class="table-path-button"
+														class:active={selectedReleaseSlug === row.slug}
+														onclick={() => void selectRelease(row.slug)}
+													>
+														{row.title || row.slug}
+													</button>
+													<div class="release-path">{row.path}</div>
+												</td>
+												<td data-label="Published">{formatDateTime(row.published_at)}</td>
+												<td data-label="First view"
+													>{formatMinutesToFirstView(row.minutes_to_first_view)}</td
+												>
+												<td class="num" data-label="24h">
+													{row.views_24h.toLocaleString()}
+													<small>{row.unique_24h.toLocaleString()} unique</small>
+													{#if row.views_24h_percentile !== null}
+														<small>{formatPercentile(row.views_24h_percentile)}</small>
+													{/if}
+												</td>
+												<td class="num" data-label="7d">
+													{row.views_7d.toLocaleString()}
+													{#if row.views_7d_percentile !== null}
+														<small>{formatPercentile(row.views_7d_percentile)}</small>
+													{/if}
+												</td>
+												<td class="num" data-label="30d">
+													{row.views_30d.toLocaleString()}
+													{#if row.views_30d_percentile !== null}
+														<small>{formatPercentile(row.views_30d_percentile)}</small>
+													{/if}
+												</td>
+												<td class="num" data-label="Score">
+													{formatBenchmarkScore(row.benchmark_score)}
+													<small>{formatBenchmarkBasis(row.benchmark_basis)}</small>
+													{#if row.benchmark_sample_size > 0}
+														<small>n={row.benchmark_sample_size.toLocaleString()}</small>
+													{/if}
+												</td>
+												<td data-label="Band">
+													<span class={`band-pill ${getBandClass(row.performance_band)}`}>
+														{formatPerformanceBand(row.performance_band)}
+													</span>
+													<small>{formatReleaseStage(row.release_stage)}</small>
+												</td>
+											</tr>
+										{/each}
+									{/if}
 								</tbody>
 							</table>
 						</div>
@@ -2011,7 +2422,7 @@
 										data={releaseGrowthChartData}
 										title="Cumulative Views After Publish"
 										xLabel="Days Since Publish"
-										height={300}
+										height={240}
 										color="#10b981"
 										showPoints={true}
 										showGrid={true}
@@ -2642,15 +3053,216 @@
 		color: var(--text-primary);
 	}
 
+	.release-performance-card {
+		padding: 12px;
+	}
+
+	.release-header {
+		margin-bottom: 10px;
+	}
+
+	.release-header-actions {
+		display: flex;
+		gap: 8px;
+		flex-wrap: wrap;
+		justify-content: flex-end;
+	}
+
+	.release-command-row {
+		display: grid;
+		grid-template-columns: minmax(0, 1fr) auto;
+		gap: 10px;
+		align-items: stretch;
+		margin-bottom: 10px;
+	}
+
+	.release-band-filters {
+		display: grid;
+		grid-template-columns: repeat(6, minmax(0, 1fr));
+		gap: 8px;
+	}
+
+	.summary-filter {
+		border: 1px solid var(--bg-elevated);
+		background: var(--bg-deep);
+		color: var(--text-primary);
+		border-radius: 8px;
+		padding: 8px 9px;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		gap: 8px;
+		cursor: pointer;
+		min-width: 0;
+	}
+
+	.summary-filter span {
+		font-size: 0.72rem;
+		color: var(--text-secondary);
+		overflow: hidden;
+		text-overflow: ellipsis;
+		white-space: nowrap;
+	}
+
+	.summary-filter strong {
+		font-size: 0.95rem;
+		color: var(--text-primary);
+	}
+
+	.summary-filter:hover {
+		border-color: var(--bg-highlight);
+	}
+
+	.summary-filter.active {
+		border-color: #3b82f6;
+		background: rgba(59, 130, 246, 0.14);
+	}
+
+	.summary-filter.above.active {
+		border-color: rgba(16, 185, 129, 0.7);
+		background: rgba(16, 185, 129, 0.14);
+	}
+
+	.summary-filter.below.active {
+		border-color: rgba(251, 113, 133, 0.7);
+		background: rgba(251, 113, 133, 0.14);
+	}
+
+	.release-sort-controls {
+		border: 1px solid var(--bg-elevated);
+		border-radius: 8px;
+		background: var(--bg-deep);
+		padding: 8px;
+		display: flex;
+		align-items: end;
+		gap: 8px;
+	}
+
+	.release-sort-controls label {
+		display: grid;
+		gap: 4px;
+		min-width: 170px;
+	}
+
+	.release-sort-controls label span {
+		font-size: 0.72rem;
+		color: var(--text-secondary);
+	}
+
+	.release-sort-controls select {
+		border: 1px solid var(--bg-elevated);
+		border-radius: 8px;
+		background: var(--bg-surface);
+		color: var(--text-primary);
+		padding: 8px;
+	}
+
+	.release-signal-grid {
+		display: grid;
+		grid-template-columns: repeat(2, minmax(0, 1fr));
+		gap: 10px;
+		margin-bottom: 8px;
+	}
+
+	.release-signal-panel {
+		border: 1px solid var(--bg-elevated);
+		border-radius: 8px;
+		background: var(--bg-deep);
+		padding: 9px;
+		display: grid;
+		gap: 7px;
+		min-width: 0;
+	}
+
+	.release-signal-panel.over {
+		border-color: rgba(16, 185, 129, 0.35);
+	}
+
+	.release-signal-panel.under {
+		border-color: rgba(251, 113, 133, 0.35);
+	}
+
+	.signal-header,
+	.release-signal-panel button {
+		display: grid;
+		grid-template-columns: minmax(0, 1fr) auto;
+		gap: 8px;
+		align-items: center;
+	}
+
+	.signal-header span {
+		font-size: 0.78rem;
+		color: var(--text-secondary);
+		font-weight: 700;
+	}
+
+	.signal-header strong {
+		color: var(--text-primary);
+	}
+
+	.release-signal-panel button {
+		border: none;
+		background: transparent;
+		color: var(--text-primary);
+		padding: 0;
+		cursor: pointer;
+		text-align: left;
+	}
+
+	.release-signal-panel button:hover span {
+		color: #fbbf24;
+		text-decoration: underline;
+	}
+
+	.release-signal-panel button span {
+		overflow: hidden;
+		text-overflow: ellipsis;
+		white-space: nowrap;
+		font-size: 0.8rem;
+	}
+
+	.release-signal-panel button strong {
+		font-size: 0.78rem;
+		color: var(--text-secondary);
+	}
+
+	.release-signal-panel p {
+		margin: 0;
+		color: var(--text-secondary);
+		font-size: 0.78rem;
+	}
+
+	.release-result-meta {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		gap: 10px;
+		margin-bottom: 8px;
+		color: var(--text-secondary);
+		font-size: 0.78rem;
+		flex-wrap: wrap;
+	}
+
 	.release-layout {
 		display: grid;
-		grid-template-columns: minmax(0, 1.2fr) minmax(360px, 0.8fr);
+		grid-template-columns: minmax(0, 1.08fr) minmax(400px, 0.92fr);
 		gap: 12px;
 	}
 
 	.release-table-wrapper {
-		max-height: 620px;
+		max-height: 660px;
 		overflow-y: auto;
+	}
+
+	.release-table th {
+		position: sticky;
+		top: 0;
+		z-index: 1;
+	}
+
+	.release-table td {
+		padding-top: 8px;
+		padding-bottom: 8px;
 	}
 
 	.release-table td small {
@@ -2699,6 +3311,10 @@
 
 	.release-growth-panel {
 		padding: 12px;
+	}
+
+	.release-growth-panel .trend-empty {
+		min-height: 220px;
 	}
 
 	.release-detail-header {
@@ -3048,12 +3664,25 @@
 		.release-event-form {
 			grid-template-columns: repeat(2, minmax(0, 1fr));
 		}
+
+		.release-command-row {
+			grid-template-columns: 1fr;
+		}
+
+		.release-sort-controls {
+			justify-content: flex-start;
+		}
+
+		.release-band-filters {
+			grid-template-columns: repeat(3, minmax(0, 1fr));
+		}
 	}
 
 	@media (max-width: 980px) {
 		.charts-grid,
 		.top-lists-grid,
-		.top-trend-layout {
+		.top-trend-layout,
+		.release-signal-grid {
 			grid-template-columns: 1fr;
 		}
 
@@ -3208,6 +3837,25 @@
 
 		.release-event-form {
 			grid-template-columns: 1fr;
+		}
+
+		.release-header-actions,
+		.release-sort-controls {
+			width: 100%;
+			justify-content: flex-start;
+		}
+
+		.release-sort-controls {
+			flex-direction: column;
+			align-items: stretch;
+		}
+
+		.release-sort-controls label {
+			min-width: 0;
+		}
+
+		.release-band-filters {
+			grid-template-columns: repeat(2, minmax(0, 1fr));
 		}
 
 		.release-event-impact {

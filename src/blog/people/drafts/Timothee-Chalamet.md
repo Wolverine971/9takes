@@ -35,10 +35,10 @@ Hook: 9 | Enneagram: 9 | Evidence: 8.5 | Writing: 8.5 | Originality: 8.5
 
 FEEDBACK (2026-02-18):
 - STRONG HOOK: The Villeneuve "needed to be protected" quote juxtaposed against the SAG "pursuit of greatness" speech crystallizes the central contradiction in 5 paragraphs. A Google-landing reader stays.
-- EXCEPTIONAL ENNEAGRAM ENGINE: "Not ambition wearing anxiety as a costume, but anxiety that has learned to charge directly at the things it fears most" — the counter-phobic Six framework genuinely resolves the public contradiction. Counter-typing section (Why Not 3 or 4?) is thorough with specific behavioral evidence. Stress arrows to Type 3 and growth toward Type 9 are tracked with dated quotes showing real trajectory.
-- SIGNATURE FORMULATIONS: "Catastrophizing as craft," "Loyalty as Architecture," and "A Six pays out of pocket to control the outcome and picks the songs most likely to fail" are all memorable lines that earn their place structurally.
+- EXCEPTIONAL ENNEAGRAM ENGINE: "Not ambition wearing anxiety as a costume, but anxiety that has learned to charge directly at the things it fears most" genuinely resolves the public contradiction. The deeper specialist analysis now lives in the opt-in rabbit-hole block.
+- SIGNATURE FORMULATIONS: "Catastrophizing as craft" and "Loyalty as Architecture" are memorable lines that earn their place structurally.
 - NEEDS WORK: The CTA ending ("Drop your thoughts below. We'd love to hear how his personality resonates with yours.") undercuts the excellent cut-to-black that precedes it. The analytical ending — "already scanning the horizon for the next thing that could go wrong" — is the real closer.
-- NEEDS WORK: Nearly every section explicitly labels the type ("Type 6," "the Six," "counter-phobic Six"). The best sections (A-level blogs) let the behavior speak without constant labeling — the reader should feel the type without being told.
+- NEEDS WORK: Nearly every section explicitly labels the type. The best sections (A-level blogs) let the behavior speak without constant labeling — the reader should feel the type without being told.
 - TO REACH A: (1) Delete the CTA — end on "already scanning the horizon for the next thing that could go wrong." (2) Let 2-3 sections breathe without explicit type labels — "Preparation as Prayer" and "The Authority Question" are strong enough to work as pure storytelling. (3) Add one more "crack-open" signature detail — something as unexpected as Peter Thiel's Tolkien naming thread. The ping pong training is impressive but well-known; dig for a smaller, stranger moment that makes the Six typing undeniable.
 -->
 
@@ -60,9 +60,9 @@ That's [Type 6](/enneagram-corner/enneagram-type-6) psychology running at full t
 <summary class="accordion">TL;DR: Why Timothée Chalamet is an Enneagram Type 6</summary>
 <div class="panel">
 <ul>
-<li><b>Fear as foundation:</b> He grew up in Manhattan Plaza watching artists struggle — "This building truthfully made me scared of acting because it's a tough lifestyle." A Type 3 would see competition to surpass. A Type 4 would romanticize the struggle. Chalamet was terrified by it.</li>
+<li><b>Fear as foundation:</b> He grew up in Manhattan Plaza watching artists struggle — "This building truthfully made me scared of acting because it's a tough lifestyle." Chalamet was terrified by what talent alone could not protect.</li>
 <li><b>Preparation as anxiety management:</b> Seven years of ping pong training. Five years studying Bob Dylan. Six figures of his own money on a single SNL performance. Wearing blinding contact lenses because a director asked. This isn't ambition — it's catastrophe prevention.</li>
-<li><b>Counter-phobic charging:</b> The SAG "pursuit of greatness" speech, the "top-level shit" self-assessment — then immediately walking it back: "Sometimes I feel like I've been misinterpreted in my quest." He charges at the fear, then questions whether he went too far.</li>
+<li><b>Charging at Fear:</b> The SAG "pursuit of greatness" speech, the "top-level shit" self-assessment — then immediately walking it back: "Sometimes I feel like I've been misinterpreted in my quest." He charges at the fear, then questions whether he went too far.</li>
 <li><b>Authority-seeking:</b> Tom Cruise sent him a training "war cry" email and he followed it to the letter. He told Josh Safdie "I'll do anything you ask me to do." Villeneuve said he "needed to be protected." He doesn't trust his own instincts alone — he anchors against people he's decided to trust.</li>
 </ul>
 </div>
@@ -104,21 +104,7 @@ When the external world becomes unfamiliar, he reaches for the familiar anchor. 
 
 ### Timothée Chalamet is an Enneagram Type 6
 
-### Why Not Type 3 or Type 4?
-
-**The case for Type 3** (The Achiever) seems obvious. The SAG speech. The "pursuit of greatness." The comparisons to Michael Jordan and Michael Phelps. The Warner Bros. first-look deal. Nearly a billion dollars in 2024 box office. The self-assessment: "This is really some top-level shit... I don't want people to take it for granted."
-
-But watch what happens after the bold declaration. Within weeks of the _Marty Supreme_ press tour, Chalamet was already retreating: "Sometimes I feel like I've been misinterpreted in my quest."
-
-A Type 3 doesn't backpedal. A Three commits to the image because the image _is_ the identity. Chalamet's bold declarations are followed by doubt, qualification, retreat — charge at the fear, then immediately question whether you went too far.
-
-**The case for Type 4** (The Individualist) has its own logic. Josh Safdie saw "a romantic angst" and "a feeling of a misfit" when they first met in 2017. Chalamet has called himself "self-observant and self-loathing." His emotional depth in roles like Elio and Nic Sheff, his "me-against-the-world" confession — all read Four-ish.
-
-But Type 4s _romanticize_ the struggle. They lean into the outsider identity, resist commercial polish, choose authenticity at all costs.
-
-Chalamet does the opposite. He over-prepares precisely because he doesn't trust the struggle to work out. He didn't romanticize the artists he grew up around in Manhattan Plaza — he was terrified of becoming them. And his vulnerability isn't curated; it's involuntary: "I feel my heart is on my sleeve and any attempt to disguise that or be too cool for school is challenging for me."
-
-The distinguishing evidence is Villeneuve's observation: he saw "a young adult whose identity was not solidified" who "needed to be protected." Type 3s arrive with identity fully formed — constructed, but solid. Type 4s arrive knowing exactly who they are — painful, but certain. Chalamet arrived still looking for someone to tell him he belonged.
+The simplest version: Chalamet is not driven by certainty. He is driven by what happens when certainty is missing. The preparation, the authority-checking, the backup plans, the cautious relationship timeline, the public ambition followed by immediate qualification — all of it points to someone trying to make unstable ground hold.
 
 ## How Timothée Chalamet Over-Prepares for Roles
 
@@ -132,7 +118,7 @@ For _A Complete Unknown_, Chalamet studied Dylan for five years. Learned guitar 
 
 _"If I was lazy on a day where something went wrong."_ Not "if I wasn't good enough." Not "if the performance failed." His fear is specific and procedural: that a future disaster could be traced back to a moment of insufficient preparation. Catastrophizing as craft.
 
-He's never met Bob Dylan. When asked what he'd say if they met, his answer was pure Six: "I would try to 'out-Bob' him. Not even mention the movie, maybe talk about the weather." Then, more honestly: "My respect for Bob Dylan is greater than my desire to meet him."
+He's never met Bob Dylan. When asked what he'd say if they met, his answer was telling: "I would try to 'out-Bob' him. Not even mention the movie, maybe talk about the weather." Then, more honestly: "My respect for Bob Dylan is greater than my desire to meet him."
 
 ### Ping Pong (2018-2025)
 
@@ -148,7 +134,7 @@ When Chalamet hosted Saturday Night Live for the third time, he insisted on perf
 
 Then he spent **six figures of his own money** to produce the musical performances — paying the band, constructing a set, covering expenses a record label normally handles. And instead of playing Dylan's greatest hits, he chose deep cuts: "Outlaw Blues," "Three Angels," "Tomorrow Is a Long Time."
 
-A Type 3 would have done the crowd-pleasers. A Six pays out of pocket to control the outcome and picks the songs most likely to fail.
+A pure image strategist would have done the crowd-pleasers. Chalamet paid out of pocket to control the outcome and picked the songs most likely to fail.
 
 ## The Authority Question
 
@@ -170,8 +156,6 @@ Total submission to Safdie. Defiance of Nolan. Gospel-level following of Cruise.
 
 ## Under Stress: The Pursuit of Greatness
 
-In Enneagram theory, Type 6s under stress move toward the unhealthy patterns of [Type 3](/enneagram-corner/enneagram-type-3) — becoming image-conscious, self-promotional, competitive.
-
 Watch Chalamet's 2025 press tour.
 
 The SAG speech: "I'm as inspired by Daniel Day-Lewis, Marlon Brando, and Viola Davis as I am by Michael Jordan, Michael Phelps."
@@ -182,7 +166,7 @@ Comparisons to [Kanye](/personality-analysis/Kanye) West's self-aggrandizing sur
 
 Then the retreat: "Sometimes I feel like I've been misinterpreted in my quest."
 
-This oscillation — bold declaration, public backlash, immediate qualification — is the counter-phobic pattern under stress made visible. The fear of not being taken seriously pushes him toward Three-like self-promotion. The fear of being seen as arrogant pulls him back. Both directions run on the same engine: the terror of being misjudged.
+This oscillation — bold declaration, public backlash, immediate qualification — is the stress pattern made visible. The fear of not being taken seriously pushes him toward self-promotion. The fear of being seen as arrogant pulls him back. Both directions run on the same engine: the terror of being misjudged.
 
 "I don't want to look back on life and career and go, 'I pretended to care less about this than I did,'" he told The Curb. That sentence contains the entire conflict. He's afraid of hiding his ambition _and_ afraid of showing it.
 
@@ -194,13 +178,11 @@ Every step has been taken with the precision of someone managing risk. First red
 
 "It took Kylie a long time to introduce him to her kids," a source told People. "He's part of the family now though."
 
-This isn't playing it cool. This is trust built one verified step at a time. A Three would leverage the relationship for visibility. A Four would demand emotional intensity from the start. Chalamet constructs loyalty architecturally — each step of vulnerability contingent on the previous step holding.
+This isn't playing it cool. This is trust built one verified step at a time. Chalamet constructs loyalty architecturally — each step of vulnerability contingent on the previous step holding.
 
 When breakup rumors surfaced in November 2025, they responded not with a statement but with a red carpet appearance at the _Marty Supreme_ premiere the following month. Actions over words. Proof over promises.
 
-## Growing Toward Nine
-
-When Type 6s are at their healthiest, they move toward the positive qualities of [Type 9](/enneagram-corner/enneagram-type-9) — calm, accepting, present, less driven by worst-case scenarios.
+## Learning to Set Vigilance Down
 
 The trajectory is visible.
 
@@ -216,6 +198,39 @@ In Chalamet's own words: "When you really release yourself of the responsibility
 
 That's someone who has done enough work to occasionally — not permanently, but occasionally — set the vigilance down.
 
+<details class="enneagram-rabbit-hole">
+<summary class="accordion">Enneagram Rabbit Hole: Wings, Subtypes &amp; Connecting Lines for Timothée Chalamet</summary>
+<div class="panel">
+
+<p><em>For Enneagram readers going deep on Timothée Chalamet. Skip if you're here for the story — the rest of the analysis stands on its own.</em></p>
+
+### Timothée Chalamet's Wing: 6w5
+
+Chalamet reads as 6w5 — the Loyalist with an Investigator <a href="/enneagram-corner/enneagram-wings-complete-guide">wing</a>. A 6w7 version would be more visibly buoyant, more socially improvisational, more likely to diffuse anxiety through charm and constant motion. Chalamet's anxiety is quieter and more cerebral. He studies for years, builds backup plans, evaluates authorities case by case, and treats craft like catastrophe prevention.
+
+The 5-wing also explains why the preparation can become almost monastic. Five years on Dylan. Seven years on ping pong. Traveling with a table across productions. Paying six figures for SNL because leaving the outcome to the normal machine felt too exposed. The fear does not scatter him. It narrows him into research, rehearsal, and control.
+
+### Timothée Chalamet's Instinctual Subtype: sp/so
+
+Chalamet reads as self-preservation-dominant with social secondary. The sp-6 signature is safety through preparation: Columbia as backup plan, trusted friends after _Call Me By Your Name_, guarded relationship timing with Kylie, and the recurring need to know who or what can hold when fame destabilizes everything. The <a href="/enneagram-corner/enneagram-instinctual-subtypes">instinct stack</a> runs on risk management before display.
+
+Social sits second and carries the ambition to belong among the greats. The SAG speech, the Cruise "war cry," the reverence for Dylan, Daniel Day-Lewis, Brando, Viola Davis, Jordan, and Phelps — these are not just personal goals. They are social placement questions: where do I stand in the lineage, and who has earned authority? Sexual reads last because the public pattern is less fusion-intensity than cautious disclosure, verified trust, and proof over promises.
+
+### Stress and Growth Arrows
+
+Under stress, Type 6 moves toward Type 3. Chalamet's 2025 press tour shows it: "pursuit of greatness," "top-level shit," public comparison to elite performers, then immediate concern that he had been misunderstood. See <a href="/enneagram-corner/enneagram-connecting-lines">the connecting lines</a> for how 6s can borrow 3's image-and-performance drive when fear becomes overcompensation.
+
+In growth, Type 6 moves toward Type 9. The calmer late-2025 quotes matter because they are not bravado. "I have fewer and fewer fears." "When you really release yourself of the responsibility to be enjoying things, that's when you actually do." Villeneuve's observation that he returned to _Dune_ more assured and aware of his limits is the same movement: vigilance softening into presence.
+
+### Counterarguments: Why Timothée Chalamet Might Not Be Type 6
+
+The strongest alternate is Type 3. The SAG speech, Warner Bros. first-look deal, billion-dollar box office year, and self-assessment as "top-level" all make the Achiever case obvious. But the follow-up is the tell. He backpedals, worries about being misread, and keeps exposing uncertainty. A core 3 commits to the image. Chalamet charges, then checks whether the charge was safe.
+
+Type 4 also has a case: romantic angst, self-loathing, emotional roles, and the me-against-the-world confession. But 4s tend to metabolize struggle into identity. Chalamet treats struggle as risk. Manhattan Plaza did not make him romanticize the artist's life; it made him afraid of it. Villeneuve saw the key distinction early: not a fully formed image or a self-certain outsider, but a young adult whose identity was still looking for protection.
+
+</div>
+</details>
+
 ## Why Timothée Chalamet Still Doubts Himself
 
 Late in his _Marty Supreme_ press tour — after the SAG win, the billion-dollar box office, being called "the rarest of species: a bankable leading man" — Chalamet said something quietly devastating to The Curb:
@@ -224,7 +239,7 @@ Late in his _Marty Supreme_ press tour — after the SAG win, the billion-dollar
 
 The biggest movie star in the world. And he still doesn't know if he can sustain it.
 
-A Three would never say that out loud — it breaks the image. A Four would say it louder, with more poetry. Only a Six says it like that: matter-of-factly, almost surprised by his own doubt, already scanning the horizon for the next thing that could go wrong.
+An image manager would never say that out loud. A romantic outsider would likely make it more poetic. Chalamet says it matter-of-factly, almost surprised by his own doubt, already scanning the horizon for the next thing that could go wrong.
 
 ---
 
