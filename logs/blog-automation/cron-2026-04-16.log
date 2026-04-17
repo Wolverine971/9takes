@@ -1,0 +1,32 @@
+[2026-04-16 21:14:51] [INFO] Starting daily blog creator
+[2026-04-16 21:14:51] [INFO] Pre-flight: pause=false, inProgress=null, rateLimit=4/5 (week rolling over)
+[2026-04-16 21:14:51] [INFO] Resetting weekly rate limit (weekStartDate 2026-04-09 -> 2026-04-16)
+[2026-04-16 21:14:51] [INFO] SELECTED: jeremy-allen-white (Type 4, Priority: 91)
+[2026-04-16 21:23:10] [SUCCESS] Draft created: src/blog/people/drafts/Jeremy-Allen-White.md (3131 words)
+[2026-04-16 21:23:10] [SUCCESS] Grade: 8.5/10 (B+) - meets publication threshold
+[2026-04-16 21:23:10] [INFO] Queue updated: moved to completed, rateLimit 1/5 this week
+[2026-04-16 21:23:10] [INFO] Daily blog creator complete
+```
+=== DAILY BLOG CREATOR SUMMARY ===
+Date: 2026-04-16
+Status: SUCCESS ✅
+Blog: Jeremy Allen White (Type 4, Priority 91)
+Grade: 8.5/10 (B+) — meets publication threshold
+Duration: ~30 min
+Word count: 3,131
+File: src/blog/people/drafts/Jeremy-Allen-White.md
+
+Core thesis: The dancer-first origin story explains why he keeps
+playing men who can't survive their own families, and why the
+Calvin Klein moment felt to him like a loss.
+
+Next blog in queue: snoop-dogg (Type 9, Priority 90)
+Rate limit: 1/5 this week (reset from previous week)
+Next Run: Tomorrow 2:00 AM
+===================================
+```
+
+**Notes for review:**
+- Anna-Kendrick.md draft exists in `src/blog/people/drafts/` but she's still in the queue at priority 60 — may need reconciling in a future run.
+- Jeremy draft passes testimony gate (Storer, Moss-Bachrach, Durkin), heading mix (2 signature / 2 hybrid / 2 search-intent), and has the required Enneagram Rabbit Hole with all four sub-sections plus counterarguments.
+- `production_pretext.status: draft` — awaiting your review before `blog_content_production_people`.

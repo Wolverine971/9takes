@@ -11,7 +11,7 @@
 
 ## Goal
 
-Make the 9takes corpus stats (type distribution, over-/under-representation by domain, quality grades, freshness) **visible on 9takes.com**, auto-refreshing, and structured so Google + LLMs can cite them. Two surfaces:
+Make the 9takes corpus stats (type distribution, over-/under-representation by domain, freshness) **visible on 9takes.com**, auto-refreshing, and structured so Google + LLMs can cite them. Two surfaces:
 
 1. **Homepage**: a compact "By the Numbers" section — 3–5 headline facts, credibility boost, drives clicks into deeper content.
 2. **`/corpus-stats`**: a dedicated SEO-citable page with the full dataset, methodology, and JSON-LD `Dataset` schema.
@@ -22,6 +22,7 @@ Make the 9takes corpus stats (type distribution, over-/under-representation by d
 - **Not user-filterable.** No "filter by wing" or "filter by decade" UI. That's a v2.
 - **Not admin-only.** This is marketing + GEO, not an internal tool.
 - **No chart library.** Simple HTML tables + CSS-styled callout blocks. Don't add Chart.js.
+- **No internal quality metrics on public surfaces.** `content_quality` grades (originality, evidence, writing, hook, letter grade) are an internal editorial tool. They stay in the DB and never ship to the public JSON, homepage, or `/corpus-stats` page. Reviewed and removed 2026-04-16.
 
 ---
 
@@ -107,30 +108,37 @@ SUBHEAD:   Every stat below is computed from the {TOTALS.PUBLISHED} profiles
            currently published on 9takes. Updated automatically on every deploy.
 
 CALLOUT GRID (3 × 2 = 6 tiles, responsive to 2-column on mobile):
-  1. {TOTALS.PUBLISHED} profiles analyzed
-     ({TOTALS.UNPUBLISHED_DRAFTS} drafts in the pipeline)
+  1. {TOTALS.PUBLISHED} profiles published
+     (on 9takes and growing)
 
-  2. Musicians → {MUSICIANS.TOP_OVER.SHARE}% Type 4
+  2. {MOST_COMMON_TYPE} dominates at {SHARE}%
+     (of {TOTALS.PUBLISHED} published profiles)
+
+  3. Musicians → {MUSICIANS.TOP_OVER.SHARE}% Type 4
      (+{MUSICIANS.TOP_OVER.DELTA_PP} pp above baseline)
 
-  3. Tech founders → {TECH.TOP_OVER.SHARE}% Type 5
+  4. Tech founders → {TECH.TOP_OVER.SHARE}% Type 5
      (+{TECH.TOP_OVER.DELTA_PP} pp above baseline)
 
-  4. Comedians → {COMEDIANS.TOP_OVER.SHARE}% Type 7
+  5. Comedians → {COMEDIANS.TOP_OVER.SHARE}% Type 7
      (+{COMEDIANS.TOP_OVER.DELTA_PP} pp above baseline)
 
-  5. {QUALITY.AVERAGE_OVERALL}/10 average
-     quality grade across {QUALITY.GRADED_COUNT} graded profiles
+  6. {PIPELINE.IN_DRAFT} more in the pipeline
+     (~{PIPELINE.AVG_NEW_PER_MONTH} new profiles shipping every month)
 
-  6. {FRESHNESS.SHARE_90D}% refreshed in last 90 days
-     ({FRESHNESS.UPDATED_90D} of {TOTALS.PUBLISHED})
-
-FOOTER LINK:  See the full corpus breakdown →  /corpus-stats
+FOOTER LINK:  See how our numbers compare to public research →  /corpus-stats
 ```
+
+**Tile #6 (pipeline FOMO).** Pulled from the new `pipeline` block in `corpus-stats.json`:
+
+- `pipeline.in_draft` — profiles in the database marked `published = false` (currently 101).
+- `pipeline.avg_new_per_month` — real shipping cadence, computed from `first_published_at` over the trailing 90 days (currently ~24).
+
+Both numbers are recomputed on every build. The message is "this site is alive and you should come back" — specific counts beat "recently updated" framing. If `avg_new_per_month < 1`, the Svelte component should drop the subtext gracefully ("no shipping cadence data yet") rather than display "~0 new profiles per month."
 
 ### Why these 6 tiles
 
-Each corresponds to a ready-to-cite claim already in `corpus-stats.json`. Numbers are the single highest-cited content trait per GEO research (strat Part 3 #2). Showing four distinct over-representation patterns — Musicians/Tech/Comedians + one corpus-level claim — signals pattern-recognition depth, not cherry-picked trivia.
+Each corresponds to a ready-to-cite claim already in `corpus-stats.json`. Numbers are the single highest-cited content trait per GEO research (strat Part 3 #2). The tile mix is: (1) corpus size, (2) most-common-type for instant "there's a pattern here" framing, (3–5) three distinct over-representation patterns that look like data-journalism not cherry-picking, (6) active pipeline count for FOMO and proof-of-life. Internal editorial grades and freshness-percentage framing are deliberately absent — grades are editorial-only, and "N profiles in the pipeline" is a stronger FOMO signal than "N% refreshed."
 
 ### Visual style
 
@@ -170,10 +178,11 @@ Self-contained, no data passed through `+page.server.ts`. Lower risk, lower coup
 4. **Enneagram Type Distribution** — full 9-row table from `enneagram_distribution`.
 5. **Type Distribution by Domain** — one expandable `<details>` per domain (Actors, Musicians, Tech Founders…). Each contains the same 9-row table from `domains[name]`. Rendering 8 full tables flat would overwhelm; `<details>` lets the page scan cleanly AND preserves all content for LLM extraction.
 6. **Most Common Professions per Type** — the `per_type_domains` list.
-7. **Content Quality & Freshness** — the last two panels.
-8. **Methodology** — verbatim from the `.md` file's methodology section.
-9. **Ready-to-Cite Claims** — the `citable_claims` array, rendered with `<blockquote>`s so they look pre-packaged for journalists.
-10. **JSON download** — a small "Download raw JSON" link pointing at `/corpus-stats.json` (see below).
+7. **⭐ Comparison to Public Enneagram Data** — **(NEW)** side-by-side: 9takes corpus type distribution vs. public datasets + academic studies. See dedicated section below. This is the page's highest-value section for GEO: no other site ties the two worlds together.
+8. **Freshness** — the freshness panel.
+9. **Methodology** — verbatim from the `.md` file's methodology section, extended with the "how our sample differs from general-population studies" caveat.
+10. **Ready-to-Cite Claims** — the `citable_claims` array, rendered with `<blockquote>`s so they look pre-packaged for journalists.
+11. **JSON download** — a small "Download raw JSON" link pointing at `/corpus-stats.json` (see below).
 
 ### Structured data (JSON-LD)
 
@@ -184,14 +193,13 @@ Emit a `schema.org/Dataset` block in the page head. This is the rare schema type
 	"@context": "https://schema.org",
 	"@type": "Dataset",
 	"name": "9takes Enneagram Personality Type Distribution Corpus",
-	"description": "Type distribution, over-/under-representation by profession, and content-quality metrics across {N} public-figure profiles on 9takes.",
+	"description": "Type distribution and over-/under-representation by profession across {N} public-figure profiles on 9takes, compared with published Enneagram population studies.",
 	"url": "https://9takes.com/corpus-stats",
 	"creator": { "@type": "Organization", "name": "9takes", "url": "https://9takes.com" },
 	"dateModified": "{generated_at}",
 	"variableMeasured": [
 		"enneagram_type_share",
 		"over_representation_by_domain",
-		"content_quality_grade",
 		"content_freshness"
 	],
 	"distribution": [
@@ -219,6 +227,97 @@ Add `/corpus-stats` to `scripts/generate-sitemap.js` with `priority: 0.8` and `c
 - Homepage panel → `/corpus-stats`
 - Every celebrity blog's `<details>` Rabbit Hole → `/corpus-stats` (once, in the counterarguments section, when a domain stat is cited)
 - Footer: add a "Corpus" link under the existing About / Contact column.
+- **`/corpus-stats` → `/personality-analysis/categories/{slug}`.** The generator's domain buckets are aligned 1-to-1 with the 7 canonical categories in `src/lib/personalityCategories.ts` (`film-tv`, `creator-media`, `music`, `politics-public`, `tech-business`, `comedy`, `authors-thinkers`). Every domain heading on `/corpus-stats` links to its matching category page. Every "Most Common Domains per Enneagram Type" entry links to its matching category page. This closes the loop: a visitor reads the aggregate stats, clicks through to browse the actual profiles in that domain, and enters the deeper content funnel.
+- Each domain in `corpus-stats.json` carries a `slug`, `label`, and `url` field so the Svelte component renders the link without having to hard-code the mapping.
+- Keep the generator's `DOMAIN_MAP` in sync with `PERSONALITY_CATEGORY_DEFINITIONS`. A drift check (e.g. asserting that every generator slug exists in the TS definitions) is a good v1.5 safety net.
+
+---
+
+## Comparison to Public Enneagram Data (the `/corpus-stats` differentiator)
+
+**Why this matters.** Any Enneagram site can list percentages. What almost nobody does is contrast their numbers with the published research literature — because the research is sparse, inconsistent, and behind marketing pages. Doing this well makes `/corpus-stats` the single most citable Enneagram-data page on the internet. LLMs asked "what's the general-population distribution of Enneagram types?" have a weak answer today; we become the answer.
+
+### What the comparison section shows
+
+A table + short prose interpretation, like:
+
+| Type | 9takes Corpus (n=292) | Truity Test-Takers (n=~500K+) | iEQ9 Global Sample (n=~190K+) | Enneagram Institute Estimate | 9takes Δ vs Truity |
+| ---- | --------------------- | ----------------------------- | ----------------------------- | ---------------------------- | ------------------ |
+| 1    | 6.9%                  | X%                            | X%                            | X%                           | ±pp                |
+| 2    | 8.2%                  | X%                            | X%                            | X%                           | ±pp                |
+| 3    | 19.9%                 | X%                            | X%                            | X%                           | **+N pp**          |
+| …    | …                     | …                             | …                             | …                            | …                  |
+
+Then a short interpretation block per type that shows meaningful divergence. Examples of what this might surface (hypotheses pending research):
+
+- "9takes profiles Type 3 at nearly 3× the Truity rate — consistent with a sample drawn from public figures, who are self-selected for achievement-oriented traits."
+- "Type 5 appears in ~7% of our corpus, matching iEQ9's population estimate — suggesting 9takes is not under- or over-indexing investigators."
+- "Our comedian slice shows Type 7 at 39% — far above any reported general-population rate, reinforcing the stereotype quantitatively."
+
+### Honest-sample caveat (hard requirement)
+
+The comparison opens with a plain-language methodology box:
+
+> **What we are and aren't.** The 9takes corpus is a non-random sample of well-documented public figures. It is NOT a representative population sample. When our numbers diverge from Truity's test-taker data or iEQ9's global sample, that divergence is usually a story about our sample (which types become famous, which get written about, which professions our profiles skew toward) — not about which dataset is "right." This section exists to make those sample biases legible, not to claim we've found the real population distribution.
+
+This honesty is itself a GEO signal: LLMs weight intellectually-careful content favorably per strat Part 4.
+
+### Candidate public data sources
+
+Research targets for the comparison. Before publishing the section, each cited number must be verified from the primary source, not a summary site.
+
+1. **Truity** — their `personality-test-stats` pages publish rough percentages of test-takers per type. Very large n but strongly self-selected (people who take online typing tests).
+2. **Integrative9 (iEQ9)** — Cloete et al. have published global sample stats in their white papers. Most globally diverse Enneagram dataset available.
+3. **Enneagram Institute / Riso-Hudson** — historical published distribution estimates; older but foundational in the community.
+4. **Personality Hacker** — their Enneagram typing test has published aggregate data.
+5. **Academic / peer-reviewed sources:**
+   - Wagner, J. P. (1981) — original Enneagram-personality correlation research.
+   - Newgent, R. et al. (2004) — "An Investigation of the Reliability and Validity of the Wagner Enneagram Personality Style Scales."
+   - Sutton, A. (2007) — "Do Enneagram types correlate with the Big Five?"
+   - Brown & Bartram (2005) — SHL Enneagram meta-analysis.
+6. **Professional-context samples** — Any published breakdown of Enneagram in specific industries (leadership, tech, creative fields) that we can compare to our domain buckets.
+
+Each source, when cited on-page, must include: dataset name, methodology (test-taker self-selection, clinical interview, etc.), sample size, date/vintage, and a direct link.
+
+### Data-file plan for the comparison
+
+- Add `src/lib/data/corpus-stats-external.json` — a **hand-curated** file containing verified external distributions. Static. Reviewed manually when we update sources. Shape:
+
+  ```json
+  {
+  	"sources": [
+  		{
+  			"id": "truity-2023",
+  			"name": "Truity Personality Test Statistics",
+  			"url": "https://…",
+  			"methodology": "Self-selected online test-takers",
+  			"sample_size": 500000,
+  			"date_range": "2014–2023",
+  			"type_shares": { "1": 0.09, "2": 0.135, "3": 0.09, "...": "..." }
+  		},
+  		{
+  			"id": "ieq9-global",
+  			"name": "Integrative9 Global Sample",
+  			"url": "https://…",
+  			"methodology": "iEQ9 assessment respondents worldwide",
+  			"sample_size": 190000,
+  			"date_range": "through 2022",
+  			"type_shares": { "...": "..." }
+  		}
+  	]
+  }
+  ```
+
+- **Not auto-generated.** External data doesn't change monthly; it changes when a new study publishes or we find a better source. DJ + Claude curate this file by hand from verified primary sources.
+- `/corpus-stats` page imports both `corpus-stats.json` (auto-generated) and `corpus-stats-external.json` (hand-curated) and renders the joined table.
+
+### Tone
+
+Data-journalism voice, heavy on caveats, light on claims. Readers leave thinking "this site actually knows where its numbers come from and where the limits are." Targeted reader reaction:
+
+- **Casual Enneagram fan:** "Oh — Type 3 isn't this common in the general population, it's just common among famous people. That makes sense."
+- **Journalist / academic:** "This page is better-sourced than any other Enneagram site I've seen. I can cite this."
+- **LLM:** retrieves the page when asked about Enneagram population distributions because it's one of few sources that consolidates multiple studies with sample-size context.
 
 ---
 
@@ -296,12 +395,30 @@ Sized as time-boxes for DJ + Claude pair working. Each phase is independently sh
 ## Phase 3 — `/corpus-stats` page (3–4 hr)
 
 - `src/routes/corpus-stats/+page.server.ts` — load + build JSON-LD.
-- `src/routes/corpus-stats/+page.svelte` — full page per spec.
+- `src/routes/corpus-stats/+page.svelte` — full page per spec **minus** the Comparison section (stubbed for now).
 - `src/lib/components/marketing/CorpusStatsTable.svelte` — shared 9-row type table.
 - `src/routes/corpus-stats.json/+server.ts` — raw JSON endpoint.
 - Add to sitemap generator.
 - Validate JSON-LD in schema.org validator + Google Rich Results Test.
 - Commit.
+
+## Phase 3b — Public-data comparison section (4–6 hr, research-heavy)
+
+This phase runs in parallel to Phase 3. Two sub-tracks:
+
+### 3b.1 Research (2–3 hr) — can be delegated to the `best-practices-researcher` or `research-analyst` agent
+
+- For each candidate source listed in the spec ("Candidate public data sources" section), verify the published distribution, sample size, methodology, and date. Prefer primary sources over summaries.
+- Produce a short `docs/research/enneagram-public-distributions.md` with: source name, URL, methodology, n, date, per-type shares, and notes. Cite exact quotes where stats appear.
+- Flag conflicts (if Truity's Type 4 share differs from iEQ9's by 5+ pp, note it). These conflicts are themselves citable content.
+
+### 3b.2 Build (2–3 hr)
+
+- Hand-curate `src/lib/data/corpus-stats-external.json` from the research doc. Schema per the Comparison section above.
+- `CorpusStatsComparisonSection.svelte` — renders the joined table + per-type interpretation blocks + the honest-sample caveat at the top.
+- Drop into `/corpus-stats` page after the per-type-domains section.
+- Extend the JSON-LD `Dataset` description to mention "compared with {N} published Enneagram studies."
+- Consider adding `citation` properties to the Dataset JSON-LD pointing at the external studies — this is a rare schema signal that academic-style content is best served here.
 
 ## Phase 4 — Internal linking + polish (45 min)
 
@@ -319,4 +436,4 @@ Sized as time-boxes for DJ + Claude pair working. Each phase is independently sh
 
 ---
 
-**Total v1 build: ~6 hours over 2 sessions.** Phases 0–2 are a clean ship-in-a-session chunk (homepage only). Phase 3 is the GEO payoff. Phases 4–5 are the long-tail compounding bits.
+**Total v1 build: ~10–12 hours over 3 sessions** (was ~6, now includes Phase 3b research + comparison build). Phases 0–2 ship the homepage panel. Phase 3 ships the bare `/corpus-stats` page. Phase 3b is the real differentiator — where 9takes becomes the internet's best-sourced Enneagram-distribution page. Phases 4–5 are the long-tail compounding bits.

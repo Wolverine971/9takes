@@ -1,7 +1,7 @@
 <!-- docs/BLOG-CROSSLINK-INDEX.md -->
 # Blog Cross-Link Index
 
-_Generated: 2026-04-16_
+_Generated: 2026-04-17_
 _Total Posts Analyzed: 177 (Published: 155, Unpublished: 22)_
 _Note: Individual type pages (enneagram-type-1 through 9) excluded from link counts_
 
@@ -323,7 +323,7 @@ Sorted by total connections (incoming + outgoing).
 | 3 | 1 | 2 | The Bible Doesn | `community/questions-are-the-engine-of-moral-awakening.md` |
 | 3 | 1 | 2 | Why Your Enneagram Clients Aren | `enneagram/enneagram-coach-toolkit.md` |
 | 3 | 2 | 1 | Who Built the Enneagram? The Mystics, Psychiatrists, and Phi... | `enneagram/enneagram-influences.md` |
-| 3 | 2 | 1 | How to Apologize Like a Pro: The Enneagram Guide to Authenti... | `enneagram/how-to-apologize-like-a-pro.md` |
+| 3 | 2 | 1 | How to Apologize by Enneagram Type: The Nine Scripts Each Ty... | `enneagram/how-to-apologize-like-a-pro.md` |
 | 3 | 1 | 2 | Ghislaine Maxwell: The Hostage Princess Who Became the Enabl... | `pop-culture/ghislaine-maxwell-psychology.md` |
 | 3 | 2 | 1 | Inside the Heartthrob Machine: What Fame Does to the Men Wom... | `pop-culture/hollywood-heartthrobs-enneagram-analysis.md` |
 | 3 | 1 | 2 | The Kardashian Family Enneagram: How Each Type Built a Billi... | `pop-culture/kardashian-family-enneagram-analysis.md` |

@@ -1,24 +1,11 @@
 {
-	"lastUpdated": "2026-04-15T12:00:00Z",
+	"lastUpdated": "2026-04-16T12:00:00Z",
 	"stats": {
 		"totalUnpublished": 107,
 		"totalPublished": 265,
 		"completionRate": "71.2%"
 	},
 	"queue": [
-		{
-			"name": "jeremy-allen-white",
-			"displayName": "Jeremy Allen White",
-			"type": 4,
-			"priority": 91,
-			"priorityReason": "The Bear cultural phenomenon, extremely hot right now, Calvin Klein campaign buzz",
-			"estimatedTraffic": "very-high",
-			"searchVolume": "very-high",
-			"personaTitle": null,
-			"addedToQueue": "2026-04-03",
-			"retryCount": 0,
-			"strategicValue": "hollywood-rising-star-cluster"
-		},
 		{
 			"name": "snoop-dogg",
 			"displayName": "Snoop Dogg",
@@ -397,19 +384,6 @@
 			"strategicValue": "hollywood-legacy-cluster"
 		},
 		{
-			"name": "anna-kendrick",
-			"displayName": "Anna Kendrick",
-			"type": 6,
-			"priority": 60,
-			"priorityReason": "Mainstream actor with sharp comic persona, broad audience appeal, and a clear Type 6 analysis lane",
-			"estimatedTraffic": "high",
-			"searchVolume": "high",
-			"personaTitle": null,
-			"addedToQueue": "2026-04-12",
-			"retryCount": 0,
-			"strategicValue": "hollywood-comedy-cluster"
-		},
-		{
 			"name": "john-goodman",
 			"displayName": "John Goodman",
 			"type": 9,
@@ -528,6 +502,17 @@
 		}
 	],
 	"completed": [
+		{
+			"name": "jeremy-allen-white",
+			"displayName": "Jeremy Allen White",
+			"type": 4,
+			"priority": 91,
+			"completedAt": "2026-04-16T12:30:00Z",
+			"contentGrade": 8.5,
+			"letterGrade": "B+",
+			"duration": 30,
+			"needsReview": false
+		},
 		{
 			"name": "bruno-mars",
 			"displayName": "Bruno Mars",

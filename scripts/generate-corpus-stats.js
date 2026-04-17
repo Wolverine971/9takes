@@ -1,14 +1,15 @@
 // scripts/generate-corpus-stats.js
 //
 // Generates the 9takes Corpus Stats data file from Supabase.
-// Writes docs/data/corpus-stats.json (machine-readable, for blog commands
-// + automation) and docs/data/corpus-stats.md (human-readable, with
-// ready-to-cite phrasings).
+// Writes src/lib/data/corpus-stats.json (machine-readable, imported at
+// build time by the homepage panel + /corpus-stats page) and
+// docs/data/corpus-stats.md (human-readable, for DJ + blog commands).
 //
 // Run: pnpm gen:corpus-stats
-// Refresh cadence: monthly (see 9takes-strat.md, Tier 1 task #4).
+// Refresh cadence: every Vercel deploy (wired into build:vercel).
 
-import fs from 'fs/promises';
+import fs from 'fs';
+import fsp from 'fs/promises';
 import path from 'path';
 import { fileURLToPath } from 'url';
 import { createClient } from '@supabase/supabase-js';
@@ -18,36 +19,74 @@ dotenv.config();
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
-const OUT_DIR = path.join(__dirname, '..', 'docs', 'data');
-const JSON_OUT = path.join(OUT_DIR, 'corpus-stats.json');
-const MD_OUT = path.join(OUT_DIR, 'corpus-stats.md');
+const JSON_OUT_DIR = path.join(__dirname, '..', 'src', 'lib', 'data');
+const JSON_OUT = path.join(JSON_OUT_DIR, 'corpus-stats.json');
+const MD_OUT_DIR = path.join(__dirname, '..', 'docs', 'data');
+const MD_OUT = path.join(MD_OUT_DIR, 'corpus-stats.md');
 
 const SUPABASE_URL = process.env.PUBLIC_SUPABASE_URL;
 const SUPABASE_ANON_KEY = process.env.PUBLIC_SUPABASE_PUBLISHABLE_KEY;
 
-if (!SUPABASE_URL || !SUPABASE_ANON_KEY) {
-	console.error('❌ Missing Supabase environment variables');
+function warnAndSkip(reason) {
+	console.warn(`⚠️  ${reason}`);
+	if (fs.existsSync(JSON_OUT)) {
+		console.warn(`   Keeping previous ${path.relative(process.cwd(), JSON_OUT)} in place.`);
+		process.exit(0);
+	}
+	console.error(`   No previous ${path.relative(process.cwd(), JSON_OUT)} to fall back on.`);
 	process.exit(1);
+}
+
+if (!SUPABASE_URL || !SUPABASE_ANON_KEY) {
+	warnAndSkip('Missing Supabase environment variables');
 }
 
 const supabase = createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
 
-// Group the raw `type` labels stored in blogs_famous_people into readable
-// domain buckets. Only domains with ≥ MIN_DOMAIN_SIZE profiles are
-// reported to avoid small-sample noise in over-/under-representation
-// claims.
-const DOMAIN_MAP = {
-	Actors: ['movieStar', 'newMovieStar', 'actor'],
-	Musicians: ['musician'],
-	'Creators & Influencers': ['creator', 'tiktoker', 'influencer', 'lifestyleInfluencer'],
-	Politicians: ['politician'],
-	'Tech & Business Founders': ['techie', 'entrepreneur', 'business'],
-	Comedians: ['comedian'],
-	'Authors & Journalists': ['author', 'writer', 'journalist'],
-	Athletes: ['athlete', 'sports'],
-	'Historical Figures': ['historical'],
-	Activists: ['activist']
-};
+// Domain buckets — MUST stay in sync with PERSONALITY_CATEGORY_DEFINITIONS
+// in src/lib/personalityCategories.ts. Each entry maps to a live page at
+// /personality-analysis/categories/{slug}, which the /corpus-stats page
+// links to. If you add / rename a category on the site, update this list
+// and regenerate. Only domains with ≥ MIN_DOMAIN_SIZE profiles are
+// reported to avoid small-sample noise.
+const DOMAIN_MAP = [
+	{
+		slug: 'film-tv',
+		label: 'Film & TV',
+		rawTypes: ['movieStar', 'newMovieStar', 'celebrity']
+	},
+	{
+		slug: 'creator-media',
+		label: 'Creators & Internet Personalities',
+		rawTypes: ['creator', 'influencer', 'tiktoker', 'lifestyleInfluencer', 'journalist']
+	},
+	{
+		slug: 'music',
+		label: 'Musicians & Artists',
+		rawTypes: ['musician']
+	},
+	{
+		slug: 'politics-public',
+		label: 'Politics & Public Figures',
+		rawTypes: ['politician', 'historical', 'activist']
+	},
+	{
+		slug: 'tech-business',
+		label: 'Tech, Founders & Business',
+		rawTypes: ['techie', 'entrepreneur', 'business']
+	},
+	{
+		slug: 'comedy',
+		label: 'Comedians',
+		rawTypes: ['comedian']
+	},
+	{
+		slug: 'authors-thinkers',
+		label: 'Authors & Thinkers',
+		rawTypes: ['author', 'psychology', 'essay']
+	}
+];
+const CATEGORY_URL = (slug) => `/personality-analysis/categories/${slug}`;
 const MIN_DOMAIN_SIZE = 10;
 const OVER_REP_THRESHOLD_PP = 3; // only surface deltas ≥ 3 percentage points
 
@@ -72,14 +111,17 @@ function round(n, digits = 2) {
 }
 
 async function fetchRows() {
-	const { data, error } = await supabase
-		.from('blogs_famous_people')
-		.select(
-			'person, enneagram, type, content_quality, published, lastmod, first_published_at, published_at'
-		);
+	let data;
+	let error;
+	try {
+		({ data, error } = await supabase
+			.from('blogs_famous_people')
+			.select('person, enneagram, type, published, lastmod, first_published_at, published_at'));
+	} catch (err) {
+		warnAndSkip(`Supabase request threw: ${err.message}`);
+	}
 	if (error) {
-		console.error('❌ Supabase fetch failed:', error.message);
-		process.exit(1);
+		warnAndSkip(`Supabase fetch failed: ${error.message}`);
 	}
 	return data || [];
 }
@@ -90,7 +132,6 @@ function normalizeRows(rows) {
 			person: r.person,
 			enneagram: parseInt(r.enneagram, 10),
 			types: Array.isArray(r.type) ? r.type : [],
-			cq: r.content_quality || null,
 			published: r.published === true,
 			lastmod: r.lastmod,
 			first_published_at: r.first_published_at,
@@ -114,8 +155,8 @@ function rankEntries(obj, { desc = true } = {}) {
 
 function buildDomainStats(published, baselineShares) {
 	const domains = {};
-	for (const [domainName, rawLabels] of Object.entries(DOMAIN_MAP)) {
-		const matches = published.filter((r) => r.types.some((t) => rawLabels.includes(t)));
+	for (const { slug, label, rawTypes } of DOMAIN_MAP) {
+		const matches = published.filter((r) => r.types.some((t) => rawTypes.includes(t)));
 		if (matches.length < MIN_DOMAIN_SIZE) continue;
 
 		const { counts, shares } = typeDistribution(matches);
@@ -128,8 +169,11 @@ function buildDomainStats(published, baselineShares) {
 		const topOverType = Number(rankedOver[0][0]);
 		const topUnderType = Number(rankedUnder[0][0]);
 
-		domains[domainName] = {
-			raw_labels: rawLabels,
+		domains[slug] = {
+			slug,
+			label,
+			url: CATEGORY_URL(slug),
+			raw_labels: rawTypes,
 			total: matches.length,
 			counts_by_type: counts,
 			share_by_type: Object.fromEntries(Object.entries(shares).map(([k, v]) => [k, round(v, 4)])),
@@ -153,26 +197,29 @@ function buildDomainStats(published, baselineShares) {
 	return domains;
 }
 
-function buildQualityStats(published) {
-	const graded = published.filter((r) => r.cq && typeof r.cq.overall === 'number');
-	const overall = graded.map((r) => r.cq.overall);
-	const avg = overall.length ? overall.reduce((a, b) => a + b, 0) / overall.length : null;
+function buildPipelineStats(normalized, published) {
+	// Unpublished drafts = profiles in the review pipeline.
+	// Publishing cadence = real count of profiles whose first_published_at
+	// fell in the last 30/90 days — proof the pipeline is active.
+	const drafts = normalized.filter((r) => !r.published);
+	const now = new Date();
+	const cut30 = new Date(now.getTime() - 30 * 86400000);
+	const cut90 = new Date(now.getTime() - 90 * 86400000);
 
-	const letters = {};
-	for (const r of graded) {
-		const l = r.cq.letter;
-		if (l) letters[l] = (letters[l] || 0) + 1;
+	let published30 = 0;
+	let published90 = 0;
+	for (const r of published) {
+		if (!r.first_published_at) continue;
+		const d = new Date(r.first_published_at);
+		if (d >= cut30) published30++;
+		if (d >= cut90) published90++;
 	}
 
-	const aOrHigher = graded.filter((r) => /^A/.test(r.cq.letter || '')).length;
-
 	return {
-		graded_count: graded.length,
-		ungraded_count: published.length - graded.length,
-		average_overall: avg !== null ? round(avg, 2) : null,
-		letter_distribution: letters,
-		grade_a_or_higher_count: aOrHigher,
-		grade_a_or_higher_share: graded.length ? round(aOrHigher / graded.length, 4) : null
+		in_draft: drafts.length,
+		published_last_30_days: published30,
+		published_last_90_days: published90,
+		avg_new_per_month: round(published90 / 3, 1)
 	};
 }
 
@@ -206,17 +253,19 @@ function buildPerTypeDomains(published) {
 	const perType = {};
 	for (let t = 1; t <= 9; t++) {
 		const matches = published.filter((r) => r.enneagram === t);
-		const domainCounts = {};
-		for (const [domainName, rawLabels] of Object.entries(DOMAIN_MAP)) {
-			domainCounts[domainName] = matches.filter((r) =>
-				r.types.some((x) => rawLabels.includes(x))
-			).length;
-		}
-		const ranked = rankEntries(domainCounts).filter(([, v]) => v > 0);
+		const ranked = DOMAIN_MAP.map(({ slug, label, rawTypes }) => {
+			const count = matches.filter((r) => r.types.some((x) => rawTypes.includes(x))).length;
+			return { slug, label, count };
+		})
+			.filter((d) => d.count > 0)
+			.sort((a, b) => b.count - a.count);
+
 		perType[t] = {
 			total: matches.length,
-			top_domains: ranked.slice(0, 3).map(([domain, count]) => ({
-				domain,
+			top_domains: ranked.slice(0, 3).map(({ slug, label, count }) => ({
+				slug,
+				label,
+				url: CATEGORY_URL(slug),
 				count,
 				share: matches.length ? round(count / matches.length, 4) : 0
 			}))
@@ -226,7 +275,7 @@ function buildPerTypeDomains(published) {
 }
 
 function buildCitableClaims(stats) {
-	const { totals, enneagram_distribution, domains, content_quality, freshness } = stats;
+	const { totals, enneagram_distribution, domains, freshness } = stats;
 	const claims = [];
 
 	claims.push(
@@ -236,19 +285,22 @@ function buildCitableClaims(stats) {
 	);
 
 	// Per-domain over-representation
-	for (const [domainName, d] of Object.entries(domains)) {
+	for (const d of Object.values(domains)) {
 		if (Math.abs(d.top_over_represented.delta_pp) < OVER_REP_THRESHOLD_PP) continue;
 		claims.push(
-			`Among ${d.total} ${domainName.toLowerCase()} profiled on 9takes, ${TYPE_NAMES[d.top_over_represented.type]} is over-represented at ${pct(
+			`Among ${d.total} profiles in the ${d.label} category on 9takes, ${TYPE_NAMES[d.top_over_represented.type]} is over-represented at ${pct(
 				d.top_over_represented.share
 			)}% — ${d.top_over_represented.delta_pp >= 0 ? '+' : ''}${d.top_over_represented.delta_pp} percentage points above the corpus baseline.`
 		);
 	}
 
-	// Grade
-	if (content_quality.average_overall !== null) {
+	// Pipeline — FOMO-style ("work in progress")
+	if (stats.pipeline && stats.pipeline.in_draft > 0) {
+		const cadenceSuffix = stats.pipeline.avg_new_per_month
+			? `, with ~${stats.pipeline.avg_new_per_month} new profiles shipping per month`
+			: '';
 		claims.push(
-			`The ${content_quality.graded_count} graded profiles on 9takes average ${content_quality.average_overall}/10 on our internal quality rubric (originality, evidence, writing, hook).`
+			`${stats.pipeline.in_draft} additional profiles are in the review pipeline${cadenceSuffix}.`
 		);
 	}
 
@@ -273,7 +325,7 @@ function buildMarkdown(stats) {
 		enneagram_distribution,
 		domains,
 		per_type_domains,
-		content_quality,
+		pipeline,
 		freshness,
 		citable_claims
 	} = stats;
@@ -324,8 +376,8 @@ function buildMarkdown(stats) {
 	);
 	lines.push('');
 
-	for (const [domainName, d] of Object.entries(domains)) {
-		lines.push(`### ${domainName} (n=${d.total})`);
+	for (const d of Object.values(domains)) {
+		lines.push(`### [${d.label}](${d.url}) (n=${d.total})`);
 		lines.push('');
 		lines.push('| Type | Count | Share | Δ vs baseline |');
 		lines.push('| ---- | ----- | ----- | ------------- |');
@@ -348,38 +400,24 @@ function buildMarkdown(stats) {
 	}
 
 	// Per-type top domains
-	lines.push('## Most Common Professions per Enneagram Type');
+	lines.push('## Most Common Domains per Enneagram Type');
 	lines.push('');
 	for (let t = 1; t <= 9; t++) {
 		const entry = per_type_domains[t];
 		const rank = entry.top_domains
-			.map((d) => `${d.domain} (${d.count}, ${pct(d.share)}%)`)
+			.map((d) => `[${d.label}](${d.url}) (${d.count}, ${pct(d.share)}%)`)
 			.join(', ');
 		lines.push(`- **${TYPE_NAMES[t]}** (n=${entry.total}): ${rank || '—'}`);
 	}
 	lines.push('');
 
-	// Quality
-	lines.push('## Content Quality');
+	// Pipeline
+	lines.push('## Pipeline');
 	lines.push('');
-	lines.push(`- **Graded profiles:** ${content_quality.graded_count} of ${totals.published}`);
-	lines.push(`- **Average overall grade:** ${content_quality.average_overall ?? 'n/a'} / 10`);
-	if (content_quality.grade_a_or_higher_share !== null) {
-		lines.push(
-			`- **Grade A or higher:** ${content_quality.grade_a_or_higher_count} (${pct(content_quality.grade_a_or_higher_share)}% of graded)`
-		);
-	}
-	lines.push('- **Letter distribution:**');
-	const letterOrder = ['A+', 'A', 'A-', 'B+', 'B', 'B-', 'C+', 'C', 'C-', 'D', 'F'];
-	const known = new Set(letterOrder);
-	for (const l of letterOrder) {
-		if (content_quality.letter_distribution[l]) {
-			lines.push(`  - ${l}: ${content_quality.letter_distribution[l]}`);
-		}
-	}
-	for (const [l, n] of Object.entries(content_quality.letter_distribution)) {
-		if (!known.has(l)) lines.push(`  - ${l}: ${n}`);
-	}
+	lines.push(`- **In the draft / review pipeline:** ${pipeline.in_draft}`);
+	lines.push(`- **Published in the last 30 days:** ${pipeline.published_last_30_days}`);
+	lines.push(`- **Published in the last 90 days:** ${pipeline.published_last_90_days}`);
+	lines.push(`- **Average new profiles per month (trailing 90d):** ${pipeline.avg_new_per_month}`);
 	lines.push('');
 
 	// Freshness
@@ -419,9 +457,6 @@ function buildMarkdown(stats) {
 		"- **Over/under-representation:** Each domain's type share minus the corpus-wide baseline share, in percentage points. Positive means over-represented vs. the 9takes corpus average, not vs. general population."
 	);
 	lines.push(
-		"- **Grading:** `content_quality.overall` is 9takes' internal 10-point rubric covering originality, evidence, writing, and hook. Not all profiles are graded."
-	);
-	lines.push(
 		'- **Multi-domain figures:** A person tagged with both `musician` and `activist` is counted in both domains.'
 	);
 	lines.push('');
@@ -443,7 +478,7 @@ async function main() {
 	const baselineDist = typeDistribution(published);
 	const domains = buildDomainStats(published, baselineDist.shares);
 	const perTypeDomains = buildPerTypeDomains(published);
-	const quality = buildQualityStats(published);
+	const pipeline = buildPipelineStats(normalized, published);
 	const freshness = buildFreshnessStats(published);
 
 	const stats = {
@@ -463,15 +498,16 @@ async function main() {
 		},
 		domains,
 		per_type_domains: perTypeDomains,
-		content_quality: quality,
+		pipeline,
 		freshness,
 		min_domain_size: MIN_DOMAIN_SIZE
 	};
 	stats.citable_claims = buildCitableClaims(stats);
 
-	await fs.mkdir(OUT_DIR, { recursive: true });
-	await fs.writeFile(JSON_OUT, JSON.stringify(stats, null, 2) + '\n', 'utf-8');
-	await fs.writeFile(MD_OUT, buildMarkdown(stats), 'utf-8');
+	await fsp.mkdir(JSON_OUT_DIR, { recursive: true });
+	await fsp.mkdir(MD_OUT_DIR, { recursive: true });
+	await fsp.writeFile(JSON_OUT, JSON.stringify(stats, null, 2) + '\n', 'utf-8');
+	await fsp.writeFile(MD_OUT, buildMarkdown(stats), 'utf-8');
 
 	console.log(`✅ Wrote ${path.relative(process.cwd(), JSON_OUT)}`);
 	console.log(`✅ Wrote ${path.relative(process.cwd(), MD_OUT)}`);
@@ -481,6 +517,10 @@ async function main() {
 }
 
 main().catch((err) => {
-	console.error('❌ Error generating corpus stats:', err);
+	console.error('⚠️  Error generating corpus stats:', err.message);
+	if (fs.existsSync(JSON_OUT)) {
+		console.warn(`   Keeping previous ${path.relative(process.cwd(), JSON_OUT)} in place.`);
+		process.exit(0);
+	}
 	process.exit(1);
 });

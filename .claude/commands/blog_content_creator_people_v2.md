@@ -42,7 +42,7 @@ A 9takes celebrity blog is not a Wikipedia summary, a personality-quiz page, or 
 
 ---
 
-## The Four Craft Principles
+## The Five Craft Principles
 
 These are the rules for how 9takes celebrity blogs are _written_. They apply to hooks, headings, claims, and prose. Each principle ships with a before/after example, because the first principle is itself "show, don't label."
 
@@ -82,6 +82,8 @@ The Enneagram is a lens, not a subject. Keep typology debates off the page.
 
 **Where it applies:** the whole draft. Especially the "What is [Person]'s personality type?" section — it should analyze the person, not argue against neighboring types.
 
+**Exception — the Enneagram Rabbit Hole block:** typology-nerd content (wings, instinctual subtypes, stress/growth arrows, counter-typing cases against neighboring types) is permitted when quarantined inside a collapsed `<details class="enneagram-rabbit-hole">` block clearly labeled _"🐇 Enneagram Rabbit Hole"_ with an opt-in note like _"Skip if you're not deep into the system — the rest of the analysis stands on its own."_ This block is added by a separate flow, not by this command. Do **not** generate a Rabbit Hole from this command. But when Self-Review encounters one in the draft, treat it as approved — it does not count against the Distribution Rule or the "story over system" principle, because it is reader-opt-in and sits outside the main narrative surface.
+
 ### 4. Sound like 9takes
 
 Every line should be one nobody else could publish unchanged. A Psychology Today piece, a 16Personalities post, and a generic Medium essay should all fail a copy-paste test against your draft.
@@ -90,6 +92,25 @@ Every line should be one nobody else could publish unchanged. A Psychology Today
 - **Prefer (ownable):** "When a Type 4 reads Type 8 answers, they stop mistaking anger for cruelty."
 
 **Where it applies:** signature headings, pull quotes, the ending. **But note:** principle 4 pulls against SEO. Not every heading should be maximally ownable — some should be search-intent. See "Heading Strategy: SEO vs. Copywriting Balance" below for the mix rule.
+
+### 5. Compress ruthlessly
+
+Every word must do work. Long paragraphs hide weak thinking. Compression signals quality; length is not a proxy for depth.
+
+- **Avoid (filler + meta-commentary):** "In this post, we'll explore how Taylor Swift's background shaped her career. It's important to note that, in many ways, her journey has been complex."
+- **Prefer (compressed):** "Taylor Swift wrote her first contract at 14. She has been re-writing them ever since."
+
+**Specific rules under this principle:**
+
+- **Kaplan's Law of Words** — cut every word, phrase, or sentence that doesn't earn its place. If a sentence can be deleted without loss, delete it.
+- **First line. Second line.** The opening sentence sells the second. The second sells the third. Do not announce the post; drop into it.
+- **Kill meta-commentary.** Ban: "In this post, we'll explore...", "Let's dive into...", "Before we get started...", "By the end of this article...". These announce instead of delivering.
+- **Kill filler.** Watch for: "it's important to note that," "at the end of the day," "in many ways," "needless to say." Cut on sight.
+- **Two-line paragraphs (or feels like it).** Break any paragraph over ~4 lines. White space is a feature.
+- **Two-second test.** Every headline, header, and opening sentence should land its meaning in under two seconds. If it needs rereading, sharpen it.
+- **Narrow beats broad.** Strength of an idea is inversely proportional to its scope. "How Taylor Swift wrote a break-up album that outsold her break-ups" beats "How Taylor Swift processes emotion."
+
+**Where it applies:** every paragraph, every heading, every transition. Apply this principle last — after the story is in place — to tighten without gutting voice.
 
 ---
 
@@ -152,7 +173,7 @@ This is **not a hard gate**. A tight profile with zero numbers can still be exce
 
 - **About the person**, verifiable from a named source: "[Person] has released 14 studio albums in 11 years" (Discogs), "[Person]'s _Memoir Title_ sold 2.3 million copies in its first year" (Publishers Weekly).
 - **About their field** or domain, anchoring the person in context: "Only 4 of the last 25 Best Director winners started as actors" (Academy records).
-- **About the corpus**, when relevant and available: "Of the 23 Type 8 musicians profiled on 9takes, [Person] is one of only 3 who…" (9takes corpus data).
+- **About the corpus**, when relevant and available: "Of the 23 Type 8 musicians profiled on 9takes, [Person] is one of only 3 who…" (9takes corpus data). Pull numbers from `docs/data/corpus-stats.md` (LLM-readable) and link out to the public page at `https://9takes.com/corpus-stats` (canonical source + JSON-LD `Dataset` for Google/LLM citation).
 - **Confidence framing** on the typing itself: "Confidence: high — the wing/subtype/arrow evidence all point to 5w6."
 
 ### What does NOT count
@@ -304,6 +325,15 @@ In every celebrity blog, the H2 set should distribute roughly like this:
 
 **The best headings are hybrids.** `The Empty Desk That Still Drives IShowSpeed` names a person and keeps the search-intent intact. `Why Jennifer Lopez Seems So Demanding` feels like a real query and also belongs only to her. `How Hailey Bieber Turned Pressure Into Rhode` points at a specific product and a specific transformation.
 
+### Parallel framing across siblings
+
+When two or more H2s cover related ground, frame them in parallel. Parallel structure signals craft; drift signals randomness.
+
+- **Avoid (drift):** `What Taylor Swift sounds like under stress` → `Some thoughts on her growth arc` → `Reinvention patterns`
+- **Prefer (parallel):** `What Taylor Swift sounds like under stress` → `What Taylor Swift sounds like in growth` → `What Taylor Swift sounds like when she reinvents`
+
+This also applies to H3 siblings inside a section. If H3 #1 names a specific contradiction, H3 #2 should too — not pivot to an abstract category.
+
 ### Required structural heading (always present)
 
 - H2: `What is [Person]'s personality type?`
@@ -331,8 +361,9 @@ If a vivid heading is too cryptic, **add the topic back into it** instead of fla
 2. Is the heading a specific claim or topic, not a mood or theme? (falsify)
 3. Would a reader searching for this person's story plausibly land here? (SEO)
 4. Could a Psychology Today or 16Personalities article use this heading unchanged? (ownable — inverse test)
+5. Does the meaning land in under two seconds? (two-second test — if a reader has to reread, sharpen or cut)
 
-A good signature heading passes 1, 2, 4 strongly. A good search-intent heading passes 1, 2, 3 strongly. A good hybrid passes all four.
+A good signature heading passes 1, 2, 4, 5 strongly. A good search-intent heading passes 1, 2, 3, 5 strongly. A good hybrid passes all five.
 
 ---
 
@@ -644,11 +675,13 @@ If nothing surfaces after a reasonable search, name the specific gap in working 
 - No visible FAQ section at the bottom
 - Strong ending that cuts to black (see The Ending Rule)
 
-**Apply the Four Craft Principles throughout** — show don't label, point don't talk, story over system, sound like 9takes.
+**Apply the Five Craft Principles throughout** — show don't label, point don't talk, story over system, sound like 9takes, compress ruthlessly.
 
 **Apply The Distribution Rule** — explicit Enneagram framing in at most 3–4 sections; the rest work as pure narrative.
 
-**Apply the Heading Strategy** — hit the SEO/copy mix: 1–2 signature / 2–3 search-intent / rest hybrid. Every H2 passes the heading test.
+**Apply the Heading Strategy** — hit the SEO/copy mix: 1–2 signature / 2–3 search-intent / rest hybrid. Every H2 passes the heading test. Siblings frame in parallel.
+
+**Every section has conflict.** If a section is just listing traits, benefits, or accomplishments with no tension, inject contrast: before/after, public vs. private, what fans think vs. what's actually true, Type X reaction vs. Type Y reaction, stress vs. security. A flat section is a section that gets skimmed. Apply this even to "upbringing" and "accomplishments" — find the tension inside the material.
 
 **Tailor structure to the person:**
 
@@ -941,6 +974,15 @@ Before finalizing any blog (new or updated). Every item must pass. Items marked 
 - [ ] At least half the sections work as pure narrative without explicit Enneagram labeling?
 - [ ] A reader who doesn't care about the Enneagram still finds this a compelling profile?
 - [ ] No passages that turn into insider typology debate (Type-vs-Type, wing arguments, subtype detours).
+- [ ] **[H] Every section has conflict** — no section is a flat list of traits, benefits, or accomplishments. Each contains before/after, public vs. private, expectation vs. reality, or Type-on-Type tension.
+
+### Compression & prose discipline
+
+- [ ] **[H] No meta-commentary openings** — no "In this post...", "Let's dive into...", "Before we get started...", "By the end of this article...". The opening drops into the insight or scene.
+- [ ] **[H] No filler phrases** — scrub "it's important to note that," "at the end of the day," "in many ways," "needless to say."
+- [ ] **[H] Kaplan's Law check** — every sentence earns its place. Cut any sentence that could be deleted without loss.
+- [ ] **[H] Paragraph length** — no paragraph over ~4 lines unless the rhythm demands it. Dense blocks broken up.
+- [ ] **[H] First line sells second line** — the opening sentence creates enough pull that the reader wants the second. The second pulls into the third.
 
 ### Voice & evidence
 

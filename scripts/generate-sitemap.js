@@ -115,6 +115,12 @@ const ROUTE_FILES = {
 	blogExperiment: [
 		'src/routes/blog/experiment/+page.svelte',
 		'src/routes/blog/experiment/+page.server.ts'
+	],
+	corpusStats: [
+		'src/routes/corpus-stats/+page.svelte',
+		'src/routes/corpus-stats/+page.server.ts',
+		'src/routes/corpus-stats/+page.ts',
+		'src/lib/data/corpus-stats.json'
 	]
 };
 
@@ -359,6 +365,13 @@ export function buildStaticPages({
 			lastmod: resolveStaticLastmod({
 				routePaths: ROUTE_FILES.bookSession,
 				fallbackLastmod: '2025-05-22',
+				siteFallbackLastmod
+			})
+		},
+		{
+			loc: `${SITE_URL}/corpus-stats`,
+			lastmod: resolveStaticLastmod({
+				routePaths: ROUTE_FILES.corpusStats,
 				siteFallbackLastmod
 			})
 		},

@@ -10,6 +10,7 @@ import {
 	sortPeopleForCategory,
 	type PersonalityCategoryRow
 } from '$lib/server/personalityCategoryData';
+import { getPersonalityCategoryStats } from '$lib/server/personalityCategoryStats';
 
 export const load: PageServerLoad = async ({ locals, params }) => {
 	const category = getPersonalityCategoryBySlug(params.slug);
@@ -39,6 +40,7 @@ export const load: PageServerLoad = async ({ locals, params }) => {
 	const latestUpdate = getLatestCategoryDate(people);
 	const distribution = getEnneagramDistribution(people);
 	const groups = getPersonalityCategoryGroups(category.slug, people);
+	const corpusStats = getPersonalityCategoryStats(category.slug);
 
 	const relatedCategories = category.related
 		.map((slug) => {
@@ -59,6 +61,7 @@ export const load: PageServerLoad = async ({ locals, params }) => {
 		featured,
 		distribution,
 		latestUpdate,
-		relatedCategories
+		relatedCategories,
+		corpusStats
 	};
 };

@@ -5,6 +5,7 @@
 	import { fly } from 'svelte/transition';
 	import { browser } from '$app/environment';
 	import SEOHead from '$lib/components/SEOHead.svelte';
+	import CorpusStatsPanel from '$lib/components/marketing/CorpusStatsPanel.svelte';
 	import {
 		buildPersonalityAnalysisPath,
 		buildPersonalityAnalysisUrl,
@@ -17,8 +18,8 @@
 
 	let { data }: { data: PageData } = $props();
 	let observer: IntersectionObserver | null = null;
-	// Funnel sections after the fork: give-first, qotd, blogs, famous, coaching, final
-	let sectionsVisible = $state(Array(6).fill(browser ? false : true));
+	// Funnel sections after the fork: give-first, qotd, blogs, famous, corpus-stats, coaching, final
+	let sectionsVisible = $state(Array(7).fill(browser ? false : true));
 
 	// Emotional stance phrases per type
 	const stancePhrases: Record<number, string> = {
@@ -306,7 +307,7 @@
 
 	function setupIntersectionObserver() {
 		if (!browser || typeof IntersectionObserver === 'undefined') {
-			sectionsVisible = Array(6).fill(true);
+			sectionsVisible = Array(7).fill(true);
 			return;
 		}
 
@@ -826,9 +827,18 @@
 			{/if}
 		</div>
 
-		<!-- ========== COACHING ========== -->
+		<!-- ========== CORPUS STATS ========== -->
 		<div class="section-observer">
 			{#if sectionsVisible[4] || !browser}
+				<div in:fly={getTransition()}>
+					<CorpusStatsPanel />
+				</div>
+			{/if}
+		</div>
+
+		<!-- ========== COACHING ========== -->
+		<div class="section-observer">
+			{#if sectionsVisible[5] || !browser}
 				<section class="section" in:fly={getTransition()}>
 					<div class="coaching-card">
 						<div class="coaching-glow"></div>
@@ -874,7 +884,7 @@
 		<!-- ========== FINAL CTA ========== -->
 		{#if !data?.user}
 			<div class="section-observer">
-				{#if sectionsVisible[5] || !browser}
+				{#if sectionsVisible[6] || !browser}
 					<section class="final-section" in:fly={getTransition()}>
 						<div class="final-glow"></div>
 						<div class="final-inner">

@@ -39,6 +39,23 @@
 
 	const seoKeywords = $derived(data.category.seoKeywords.join(', '));
 
+	const corpusStats = $derived(data.corpusStats);
+
+	const statFaqs = $derived(
+		corpusStats
+			? [
+					{
+						question: `Which Enneagram type is over-represented among ${data.category.label.toLowerCase()} on 9takes?`,
+						answer: `${corpusStats.headlineClaim} ${corpusStats.underClaim} These numbers are computed from the 9takes corpus of ${corpusStats.corpusPublished} published profiles and regenerated on every deploy — see the full dataset at ${corpusStats.datasetUrl}.`
+					},
+					{
+						question: 'How fresh is the data on this page?',
+						answer: corpusStats.freshnessClaim
+					}
+				]
+			: []
+	);
+
 	const structuredData = $derived.by(() => ({
 		'@context': 'https://schema.org',
 		'@graph': [
@@ -95,6 +112,36 @@
 						name: data.category.label
 					}
 				],
+				...(corpusStats
+					? {
+							mentions: [
+								{
+									'@type': 'Claim',
+									text: corpusStats.headlineClaim,
+									appearance: {
+										'@type': 'WebPage',
+										url: corpusStats.datasetUrl,
+										name: '9takes Corpus Stats'
+									}
+								},
+								{
+									'@type': 'Claim',
+									text: corpusStats.freshnessClaim,
+									appearance: {
+										'@type': 'WebPage',
+										url: corpusStats.datasetUrl,
+										name: '9takes Corpus Stats'
+									}
+								}
+							],
+							isBasedOn: {
+								'@type': 'Dataset',
+								'@id': 'https://9takes.com/corpus-stats#dataset',
+								name: '9takes Enneagram Personality Type Distribution Corpus',
+								url: corpusStats.datasetUrl
+							}
+						}
+					: {}),
 				publisher: {
 					'@type': 'Organization',
 					name: '9takes',
@@ -129,7 +176,7 @@
 			{
 				'@type': 'FAQPage',
 				'@id': `${canonicalUrl}#faq`,
-				mainEntity: data.category.seoFaqs.map((faq) => ({
+				mainEntity: [...data.category.seoFaqs, ...statFaqs].map((faq) => ({
 					'@type': 'Question',
 					name: faq.question,
 					acceptedAnswer: {
@@ -137,7 +184,37 @@
 						text: faq.answer
 					}
 				}))
-			}
+			},
+			...(corpusStats
+				? [
+						{
+							'@type': 'Dataset',
+							'@id': `${canonicalUrl}#corpus-slice`,
+							name: `Enneagram type distribution among ${corpusStats.domainLabel} (9takes corpus slice)`,
+							description: corpusStats.headlineClaim,
+							url: corpusStats.datasetUrl,
+							isBasedOn: 'https://9takes.com/corpus-stats#dataset',
+							dateModified: corpusStats.generatedAt,
+							variableMeasured: [
+								'enneagram_type_share',
+								'over_representation_vs_baseline',
+								'domain_total'
+							],
+							creator: {
+								'@type': 'Organization',
+								name: '9takes',
+								url: 'https://9takes.com'
+							},
+							distribution: [
+								{
+									'@type': 'DataDownload',
+									encodingFormat: 'application/json',
+									contentUrl: 'https://9takes.com/corpus-stats.json'
+								}
+							]
+						}
+					]
+				: [])
 		]
 	}));
 </script>
@@ -183,6 +260,29 @@
 						<span>Updated {formatDate(data.latestUpdate)}</span>
 					{/if}
 				</div>
+
+				{#if corpusStats}
+					<aside class="corpus-insight" aria-label="Corpus statistic">
+						<p class="corpus-insight-eyebrow">9takes Corpus Snapshot</p>
+						<p class="corpus-insight-claim">
+							Of the <strong>{corpusStats.domainTotal}</strong> profiles in the 9takes
+							{corpusStats.domainLabel} category,
+							<a href={`/personality-analysis/type/${corpusStats.over.type}`}>
+								{corpusStats.over.typeName}
+							</a>
+							is over-represented at <strong>{corpusStats.over.sharePct}</strong> —
+							<strong
+								>{corpusStats.over.deltaPp >= 0 ? '+' : ''}{corpusStats.over.deltaPp.toFixed(2)} pp</strong
+							>
+							vs. the {corpusStats.corpusPublished}-profile corpus baseline. {corpusStats.under
+								.typeName} is the most under-represented at {corpusStats.under.sharePct}.
+						</p>
+						<p class="corpus-insight-meta">
+							{corpusStats.freshnessShare90dPct} of the corpus was refreshed in the last 90 days.
+							<a href="/corpus-stats">See the full dataset →</a>
+						</p>
+					</aside>
+				{/if}
 
 				<div class="tag-row">
 					{#each data.category.rawTypes as rawType}
@@ -515,6 +615,57 @@
 		border: 1px solid var(--accent-border);
 		font-size: 0.78rem;
 		color: var(--text-primary);
+	}
+
+	.corpus-insight {
+		margin-top: 1.1rem;
+		padding: 0.95rem 1.05rem;
+		border-radius: 1rem;
+		background: linear-gradient(
+			180deg,
+			color-mix(in srgb, var(--accent-soft) 30%, transparent) 0%,
+			var(--surface-card) 100%
+		);
+		border: 1px solid var(--accent-border);
+		box-shadow: var(--shadow-sm);
+		max-width: 760px;
+	}
+
+	.corpus-insight-eyebrow {
+		text-transform: uppercase;
+		letter-spacing: 0.12em;
+		font-size: 0.68rem;
+		font-weight: 700;
+		color: var(--text-secondary);
+		margin: 0 0 0.35rem;
+	}
+
+	.corpus-insight-claim {
+		margin: 0;
+		color: var(--text-primary);
+		line-height: 1.55;
+		font-size: 0.94rem;
+
+		a {
+			color: var(--primary);
+			text-decoration: underline;
+			text-underline-offset: 2px;
+		}
+	}
+
+	.corpus-insight-meta {
+		margin: 0.55rem 0 0;
+		color: var(--text-secondary);
+		font-size: 0.82rem;
+
+		a {
+			color: var(--primary);
+			text-decoration: none;
+
+			&:hover {
+				text-decoration: underline;
+			}
+		}
 	}
 
 	.distribution-card {

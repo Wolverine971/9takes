@@ -258,6 +258,7 @@ export const famousTypes: { [index: number]: { name: string; link: boolean; hasI
 		{ name: 'trevor-noah', link: true, hasImage: true, lastmod: '2026-03-03', personaTitle: 'Comedy\'s Stateless Ambassador', contentGrade: 8.9 },
 		{ name: 'tucker-carlson', link: true, hasImage: true, lastmod: '2026-03-27', personaTitle: 'Media\'s Contrarian Watchdog', contentGrade: null },
 		{ name: 'zendaya', link: true, hasImage: true, lastmod: '2026-01-17', personaTitle: 'Hollywood\'s Weaponized Worrier', contentGrade: 9 },
+		{ name: 'anna-kendrick', link: false, hasImage: false, lastmod: '2026-04-16', personaTitle: 'Hollywood\'s Scrappy Skeptic', contentGrade: 9 },
 		{ name: 'ben-shapiro', link: false, hasImage: false, lastmod: '2025-06-25', personaTitle: null, contentGrade: null },
 		{ name: 'camila-cabello', link: false, hasImage: false, lastmod: '2026-04-06', personaTitle: 'Pop\'s Counter-Phobic Dreamer', contentGrade: 8.8 },
 		{ name: 'david-goggins', link: false, hasImage: false, lastmod: '2025-06-25', personaTitle: null, contentGrade: null },

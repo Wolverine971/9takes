@@ -8,7 +8,8 @@
 	const mainLinks = [
 		{ href: '/', label: 'Home' },
 		{ href: '/questions', label: 'Question List' },
-		{ href: '/about', label: 'About' }
+		{ href: '/about', label: 'About' },
+		{ href: '/corpus-stats', label: 'Corpus Stats' }
 	];
 
 	// Blog section links (from navbar dropdown)

@@ -70,6 +70,8 @@ pnpm gen:sitemap        # Regenerate sitemap
 
 `/personality-analysis` is managed through the admin UI at `/admin/content-board` and versioned in `blogs_famous_people_history`.
 
+Corpus-wide numbers (type distribution, over-representation by domain, quality + freshness) live at [`/corpus-stats`](https://9takes.com/corpus-stats) and are regenerated on every deploy from `scripts/generate-corpus-stats.js`. The machine-readable copy is `src/lib/data/corpus-stats.json`; the human-readable Markdown mirror is `docs/data/corpus-stats.md`.
+
 ## Testing
 
 - **Unit**: Vitest. Specs live next to the code they test (`src/lib/server/*.spec.ts`, `src/routes/**/*.spec.ts`). Run `pnpm test:unit`.

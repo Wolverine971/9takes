@@ -10,6 +10,75 @@
 
 ---
 
+<!-- =====================================================================
+ACTIONABLE PRIORITIES — added 2026-04-16 after audit of existing tooling
+What follows is the strat. This section maps strat sections to existing
+commands/skills so we know what's already partially solved vs. what's
+greenfield. Priorities are reordered around what we can actually ship
+this week vs. what needs more groundwork.
+===================================================================== -->
+
+## Actionable Priorities (Mapped to Existing Tooling)
+
+### Tier 0 — Ship this week (high leverage, low new infra)
+
+1. **Update v2 personality blog command with the "Enneagram Rabbit Hole" furniture pattern.**
+   - File: `.claude/commands/blog_content_creator_people_v2.md`
+   - Add a new HTML furniture element to the Step 6 Furniture Pass: a collapsed `<details>` block titled **"Enneagram Rabbit Hole: Wings, Subtypes & Connecting Lines for [Person]"** that contains the wing analysis, instinctual subtype, and arrow patterns. This keeps casual readers in narrative flow (per the Distribution Rule) while satisfying power users + capturing the long-tail SEO/LLM-fanout queries (`[Person] wing 3w4`, `[Person] sx/so subtype`, etc.).
+   - Link out from inside the rabbit hole to the existing pillar pages: `/enneagram-corner/enneagram-wings-complete-guide` and `/enneagram-corner/enneagram-instinctual-subtypes` — both already published.
+   - This directly serves Part 4 (Query Fan-Out) without diluting the body of the blog.
+
+2. **Tweak v1 + v2 to strongly encourage statistical claims with cited sources (Part 3, point #2).** ✅ DONE 2026-04-16
+   - Both commands now have a dedicated "Statistical Claims & Cited Sources (Strongly Encouraged, Not Required)" section in Part 1 that explains the GEO/AEO citation-lift rationale (Princeton's ~40% visibility-lift finding), defines what counts as a citation-grade stat, lists where to place them (hook, type diagnosis, counterarguments, accomplishments), and specifies citation format.
+   - Quality Checklist now includes a softened "Stat check (strongly encouraged, not required)" item. A blog with zero stats can still ship if the rest is strong — the goal is to surface verifiable, sourced numbers when they exist, not to force fake ones.
+   - Rationale for softening: a hard requirement produces invented or forced-in numbers that damage credibility. 1–2 well-placed sourced stats beat 5 mandatory ones.
+   - Tier 1 task #4 (corpus stats data file) remains useful for when corpus-level numbers are the right fit — it unlocks one of the four citation-grade stat categories, not the floor.
+
+3. **Audit `PeopleBlogPageHead.svelte` for FAQPage schema.**
+   - Already implements: `Article`, `Person`, `Organization`, `BreadcrumbList`, `datePublished`/`dateModified`. So strat section 7.1 is **half done** — Person + Article schema is shipped.
+   - Missing: `FAQPage` JSON-LD. The blogs don't currently have visible FAQ sections (by design — see v2 line "no visible FAQ"), so this would need an invisible JSON-LD-only FAQ derived from the H2/H3 question headings. Worth ~1 day of work.
+
+### Tier 1 — Ship this month
+
+4. **Build a "9takes Corpus Stats" data file.**
+   - One JSON or markdown file the blog command can read at write-time to pull verifiable numbers ("of 847 profiles, 23% are Type 3", "the most over-represented type among musicians is 4 at 19%"). Without this, requirement #2 above produces fake numbers.
+   - Auto-generate from `famousTypes.ts` + `blogs_famous_people` query. One-shot script, refreshed monthly.
+
+5. **Create a `/llm-citation-monitor` skill or weekly cron.**
+   - Strat Part 10 measurement is currently manual. Build a script that hits ChatGPT/Claude/Perplexity APIs with the standardized prompt set ("What Enneagram type is X?", "Best Enneagram analysis site", etc.) and logs whether 9takes appears, in what position. Store in `logs/llm-citation/`.
+   - This is the only way we'll know if any of this strategy is working.
+
+6. **Quora / Twitter / Instagram warmup commands → tighten the loop with Part 5/6.**
+   - We already have: `.claude/commands/quora-warmup.md`, `.claude/commands/quora-answer.md`, `.claude/commands/twitter-warmup.md`, `.claude/commands/instagram-warmup.md`, `.claude/commands/instagram-reply.md`.
+   - **Gap:** no Reddit equivalent. The strat says Reddit is the #1 channel. Build `.claude/commands/reddit-warmup.md` modeled on the quora-warmup workflow (subreddit watch list, value-first comment drafting, founder disclosure boilerplate, karma tracker).
+   - **Gap:** none of these warmup commands currently track whether mentions get cited by LLMs later. Tier 1 task #5 closes that loop.
+
+### Tier 1.5 — Skills already half-doing this work
+
+These exist and are underused. Lower-cost wins than building new commands:
+
+- **`distribute`** — Celebrity Blog Distribution Asset Generator. Already designed for the "1 blog → many channel artifacts" multiplier in strat Part 9. **Action:** verify it outputs Reddit + Twitter + Instagram variants together; if not, extend it.
+- **`content-repurposing-engine`** — overlaps with `distribute`. Decide which one is the canonical multi-channel pipeline; deprecate the other.
+- **`daily-blog-creator`** — automated workflow. **Action:** wire it through the v2 personality blog command + the new Enneagram Rabbit Hole furniture so daily output ships with both improvements.
+- **`copywriting-audit`** + **`copywriting-pass`** + **`grade_blog`** — quality gates already exist. **Action:** add a stat-claim check to `grade_blog` rubric so blogs without ≥1 numerical claim get docked, enforcing Tier 0 #2.
+- **`seobeast-audit`** — full-site SEO audit skill. **Action:** run once on 9takes.com to baseline the AEO score before any Tier 0 changes ship, then re-run after for delta measurement. Pairs with Tier 1 #5 LLM citation monitor.
+- **`blog_content_fresh_eyes_people`** + **`blog_content_editor_pass_people`** + **`blog_content_second_pass_people`** — three review skills. **Action:** make sure each one knows about the new Enneagram Rabbit Hole furniture so reviews don't strip it out as "deep typology debate."
+
+### Tier 2 — Backlog
+
+7. **Wikidata entry for 9takes.** One-off, ~1 hour. Strat Part 3 checklist.
+8. **r/9takes subreddit creation + seeding.** Strat Part 5. Squat-prevention.
+9. **Statistical Analysis Pieces** (strat Part 8). One per month, distribute across channels. Build a `.claude/commands/stat-analysis-piece.md` workflow that wraps research + Reddit/Twitter/Instagram repurposing.
+10. **Wikipedia article feasibility research.** Needs independent coverage first → don't start until Tier 0/1 mentions accumulate.
+
+### What we are NOT doing (deprioritized from the strat)
+
+- **`llms.txt` file.** Strat already calls this P3. Skip.
+- **Custom schema.org typing vocabulary** (strat 7.7). Long-shot, low ROI right now.
+- **Question-based H2 reformatting at scale** (strat 7.4). Already partially baked into v2's heading mix rule; further retrofitting is lower-ROI than the rabbit-hole furniture and stats additions.
+
+---
+
 ## Part 1: Strategic Context
 
 ### The Shift: From SEO to Trust Routing
@@ -54,11 +123,26 @@ This is the #1 thing to internalize: **our own site cannot make us an authority.
 
 2. **Statistics and named numbers.** Princeton's GEO research identified "Statistics Addition" and "Cite Sources" as the top-performing techniques, with reported visibility boosts up to 40%. LLMs preferentially cite content with specific numerical claims because they anchor synthesis. "Across 847 profiles analyzed on 9takes, 23% of Type 8s in leadership roles exhibit a 9-wing" gets cited. "9takes has lots of Enneagram content" does not.
 
+   <!-- ACTION: Tier 0 #2 shipped 2026-04-16. Both v1 and v2 now have a
+   "Statistical Claims & Cited Sources (Strongly Encouraged, Not Required)"
+   section + softened Quality Checklist item that encourages 1–2 sourced,
+   falsifiable numbers with citations. Not a hard gate — forcing fake
+   numbers is worse than no numbers. Tier 1 #4 (corpus stats data file)
+   is still worth building because it unlocks a whole category of
+   citation-grade stats (corpus-level claims), but it's no longer the
+   blocker it would have been under a hard requirement. -->
+
 3. **Content freshness.** Content updated within the last 13 weeks is significantly more likely to be cited. LLMs weight recency heavily. This is where the HTML meta tag / structured data fix (see section 7) directly matters.
 
 4. **Structured markup (JSON-LD).** FAQPage, Article, Person schemas measurably reduce model hallucination risk, which increases citation rate.
 
 5. **Query fan-out coverage.** LLMs decompose a prompt into multiple sub-queries. Someone asking "What Enneagram type is Taylor Swift?" triggers sub-queries like "Taylor Swift personality," "Swift Enneagram analysis," "Type 3 musicians," "Swift public persona." Content that covers the fan-out wins more citation slots than content that only targets the head query.
+
+   <!-- ACTION: This is exactly what the Enneagram Rabbit Hole furniture
+   element solves (Tier 0 #1). Wing/subtype/arrow content was being
+   suppressed by v2's Distribution Rule "no insider typology debate" —
+   moving it into a collapsed details block keeps the body clean AND
+   captures the long-tail fan-out queries. Best of both worlds. -->
 
 Everything else — llms.txt files, SpeakableSpecification markup, voice search — is lower-order. Don't rabbit-hole.
 
@@ -110,7 +194,21 @@ Pick 10 of the highest-traffic celebrity pages on 9takes. For each:
 2. Check which sub-queries the current page addresses vs misses.
 3. Produce a gap report with recommended additions.
 
+<!-- ACTION: Top-traffic celebrity pages are queryable from
+`blogs_famous_people` ordered by analytics views. We can build a one-shot
+agent that runs this audit and outputs gap reports as draft updates that
+feed into the v2 "Update Existing Draft" workflow. Pair with retrofitting
+the Enneagram Rabbit Hole furniture to those 10 pages first. -->
+
 ---
+
+<!-- ACTION: We have ZERO Reddit tooling. Existing warmup commands cover
+Quora (.claude/commands/quora-warmup.md, quora-answer.md), Twitter
+(twitter-warmup.md, twitter.md, next-tweet.md, tweet-reply.md), and
+Instagram (instagram-warmup.md, instagram-reply.md, distribute-instagram.md).
+Build .claude/commands/reddit-warmup.md modeled on quora-warmup. The
+quora-warmup workflow already enforces value-first commenting + founder
+disclosure + a question log — same pattern transfers cleanly to Reddit. -->
 
 ## Part 5: Reddit Strategy (Deep Dive)
 
@@ -212,6 +310,14 @@ For each target subreddit, produce a brief containing:
 
 ---
 
+<!-- ACTION: Twitter tooling exists (twitter-warmup.md, twitter.md,
+next-tweet.md, tweet-reply.md). Gaps to close:
+1. Tie tweet drafts to a 9takes URL (link-back step is implicit, not enforced)
+2. Add a "thread from blog" mode to twitter.md that takes a personality blog
+   slug and outputs an 8-12 tweet thread per the strat's content cadence
+3. Cross-pollination: each Instagram carousel from distribute-instagram.md
+   should auto-generate a Twitter thread variant -->
+
 ## Part 6: Twitter/X Strategy
 
 Twitter's personality / Enneagram / psychology community is active and LLMs increasingly pull from Twitter for citation. The strategy differs from Reddit:
@@ -265,6 +371,19 @@ DJ has identified specific gaps. Here's the prioritized list:
 
 This is the single biggest technical citation-boost available.
 
+<!-- ACTION / STATUS UPDATE: This is HALF DONE as of audit on 2026-04-16.
+src/lib/components/blog/PeopleBlogPageHead.svelte already emits:
+  - Article schema (with datePublished + dateModified from frontmatter)
+  - Person schema (with sameAs links via buildPersonSameAsUrls)
+  - Organization schema
+  - BreadcrumbList schema
+  - WebPage schema
+What's still missing:
+  - FAQPage schema (v2 explicitly hides visible FAQs — derive invisible
+    JSON-LD FAQ from H2/H3 question-format headings instead)
+  - Verification that dateModified flows from DB blogs_famous_people.lastmod
+    into the rendered tag (Tier 0 #3 audit). -->
+
 ### 7.2 Meta Tag Freshness (P0)
 
 **Current issue:** When content updates, the rendered HTML meta tags (og:updated_time, article:modified_time, Twitter card metadata) may not be updating.
@@ -290,6 +409,12 @@ Going forward, every piece of analysis content should include specific numerical
 
 Retrofit the highest-traffic 20 pages with statistical framing where possible. These are the pages LLMs are most likely to already be pulling from; making them more quotable compounds.
 
+<!-- ACTION: v2's heading mix rule (Reference Guide → "Heading Strategy:
+SEO vs. Copywriting Balance") already requires 2-3 search-intent headings
+per blog with patterns like "Why [Person] ...", "How [Person] ...". So
+new blogs going through v2 ship with this. Retrofit task is for OLD blogs
+that pre-date v2 — pair with the Fan-Out Audit on top-traffic pages. -->
+
 ### 7.4 Question-Based Headers (P1)
 
 Reformat page headers as questions users actually ask:
@@ -312,6 +437,15 @@ There's a small emerging trend of sites adding `/llms.txt` files to indicate con
 Research: is there a schema.org vocabulary that supports typing claims? If so, implement. If not, document the gap for the schema.org community. This is a long-shot play but potentially a signature move that gets 9takes cited as the canonical source for typology metadata.
 
 ---
+
+<!-- ACTION: This is greenfield — no command exists for stat-analysis pieces.
+Build .claude/commands/stat-analysis-piece.md after Tier 1 #4 (corpus stats
+data file) is in place. The command should:
+1. Take a slice (e.g. "Type 8 musicians") + pull stats from corpus file
+2. Produce blog draft + Reddit post variant + Twitter thread variant +
+   Instagram carousel outline in one workflow
+3. Save the canonical blog to src/blog/community/ or src/blog/topical/
+   (NOT personality-analysis — these aren't person profiles) -->
 
 ## Part 8: Content Strategy — Statistical Analysis Pieces
 
@@ -341,6 +475,12 @@ One of these per month is enough. Don't dilute.
 
 ---
 
+<!-- ACTION: Existing Instagram tooling — distribute-instagram.md,
+instagram-warmup.md, instagram-reply.md — handles the carousel side well.
+The cross-platform multiplier (1 carousel → 4 artifacts) is NOT yet
+automated. Best path: extend distribute-instagram.md so it accepts a
+target list (twitter|reddit|blog) and produces the variants together. -->
+
 ## Part 9: Instagram Carousel Strategy (Extending Current Work)
 
 DJ already produces Canva-based Instagram carousels. Extend with systematic cross-platform distribution:
@@ -353,6 +493,11 @@ DJ already produces Canva-based Instagram carousels. Extend with systematic cros
 The goal: each piece of analysis work produces 4+ distribution artifacts, not 1. Maximum leverage per unit of creative work.
 
 ---
+
+<!-- ACTION: Tier 1 #5 — build the LLM citation monitor as a weekly cron.
+Without this we have no feedback loop and can't tell which strat moves are
+actually working. Could be a .claude/commands/llm-citation-check.md run via
+the /loop or /schedule skill on a Mon AM cadence. -->
 
 ## Part 10: Measurement
 
