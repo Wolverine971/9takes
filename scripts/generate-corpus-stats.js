@@ -275,7 +275,7 @@ function buildPerTypeDomains(published) {
 }
 
 function buildCitableClaims(stats) {
-	const { totals, enneagram_distribution, domains, freshness } = stats;
+	const { totals, enneagram_distribution, domains } = stats;
 	const claims = [];
 
 	claims.push(
@@ -301,13 +301,6 @@ function buildCitableClaims(stats) {
 			: '';
 		claims.push(
 			`${stats.pipeline.in_draft} additional profiles are in the review pipeline${cadenceSuffix}.`
-		);
-	}
-
-	// Freshness
-	if (freshness.share_updated_last_90_days !== null) {
-		claims.push(
-			`${pct(freshness.share_updated_last_90_days)}% of our published profiles have been refreshed in the last 90 days (${freshness.updated_last_90_days} of ${totals.published}).`
 		);
 	}
 
@@ -349,9 +342,8 @@ function buildMarkdown(stats) {
 	// Totals
 	lines.push('## Corpus Totals');
 	lines.push('');
-	lines.push(`- **Total profiles in database:** ${totals.total_in_db}`);
-	lines.push(`- **Published:** ${totals.published}`);
-	lines.push(`- **Unpublished drafts:** ${totals.unpublished_drafts}`);
+	lines.push(`- **Published profiles:** ${totals.published}`);
+	lines.push(`- **Drafts in pipeline:** ${totals.unpublished_drafts}`);
 	lines.push('');
 	lines.push('> All stats below are computed against **published** profiles only.');
 	lines.push('');
@@ -444,11 +436,9 @@ function buildMarkdown(stats) {
 	lines.push('');
 	lines.push('## Methodology');
 	lines.push('');
+	lines.push('- **Source:** 9takes public-figure corpus. One row per profiled person.');
 	lines.push(
-		'- **Source:** `blogs_famous_people` Supabase table. One row per profiled public figure.'
-	);
-	lines.push(
-		'- **Scope of public-facing stats:** `published = true` rows only. Unpublished drafts are excluded from all percentages and over/under-representation deltas.'
+		'- **Scope of public-facing stats:** published profiles only. Unpublished drafts are excluded from all percentages and over/under-representation deltas.'
 	);
 	lines.push(
 		`- **Domain buckets:** Raw \`type\` labels are grouped into readable categories (e.g. \`movieStar\` + \`newMovieStar\` + \`actor\` → Actors). Domains with fewer than ${MIN_DOMAIN_SIZE} profiled figures are omitted to avoid small-sample noise.`
@@ -483,10 +473,7 @@ async function main() {
 
 	const stats = {
 		generated_at: new Date().toISOString(),
-		source: 'blogs_famous_people',
 		totals: {
-			total_in_db: rows.length,
-			normalized_rows: normalized.length,
 			published: published.length,
 			unpublished_drafts: normalized.length - published.length
 		},

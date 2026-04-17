@@ -5,6 +5,9 @@
 	import corpusStats from '$lib/data/corpus-stats.json';
 
 	type DomainStat = {
+		slug: string;
+		label: string;
+		url: string;
 		total: number;
 		top_over_represented: { type: number; share: number; delta_pp: number };
 	};
@@ -15,7 +18,12 @@
 			shares: Record<string, number>;
 		};
 		domains: Record<string, DomainStat>;
-		freshness: { share_updated_last_90_days: number | null; updated_last_90_days: number };
+		pipeline?: {
+			in_draft: number;
+			published_last_30_days: number;
+			published_last_90_days: number;
+			avg_new_per_month: number;
+		};
 	};
 
 	const stats = corpusStats as unknown as Stats;
@@ -35,10 +43,10 @@
 	const pct = (n: number) => (n * 100).toFixed(0);
 	const fmtDelta = (pp: number) => (pp >= 0 ? `+${pp.toFixed(0)}` : `${pp.toFixed(0)}`);
 
-	const musicians = stats.domains['Musicians'];
-	const tech = stats.domains['Tech & Business Founders'];
-	const comedians = stats.domains['Comedians'];
-	const freshness = stats.freshness;
+	const musicians = stats.domains['music'];
+	const tech = stats.domains['tech-business'];
+	const comedians = stats.domains['comedy'];
+	const pipeline = stats.pipeline;
 
 	// Corpus-wide baseline: which type is most common across all profiled figures?
 	const topTypeEntry = Object.entries(stats.enneagram_distribution.counts).sort(
@@ -80,11 +88,15 @@
 			label: `${TYPE_LABEL[topType]} leads the corpus`,
 			detail: `${topTypeCount} of ${stats.totals.published} — the most common of nine types`
 		},
-		freshness.share_updated_last_90_days !== null && {
-			value: `${pct(freshness.share_updated_last_90_days)}%`,
-			label: 'refreshed in last 90 days',
-			detail: `${freshness.updated_last_90_days} of ${stats.totals.published}`
-		}
+		pipeline &&
+			pipeline.in_draft > 0 && {
+				value: `${pipeline.in_draft}`,
+				label: 'more in the pipeline',
+				detail:
+					pipeline.avg_new_per_month >= 1
+						? `~${pipeline.avg_new_per_month} new profiles shipping every month`
+						: 'being drafted, fact-checked, and polished right now'
+			}
 	].filter((t): t is Tile => Boolean(t));
 </script>
 

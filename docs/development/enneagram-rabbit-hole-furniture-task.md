@@ -13,7 +13,9 @@
 
 Personality analysis blogs walk a tightrope. General readers want a compelling profile — they don't want to wade through wing/subtype/arrow debate. Hardcore Enneagram readers want exactly that depth and bounce if they don't get it. The strat doc (`9takes-strat.md` Part 4) also wants long-tail LLM fan-out queries (`[Person] 3w4`, `[Person] sx/so subtype`, `[Person] integration to type 7`) covered on the page.
 
-The Enneagram Rabbit Hole solves all three: a single collapsed `<details>` block placed after the main type analysis. Casuals scroll past. Power readers open it. Search engines and LLMs index everything inside.
+The Enneagram Rabbit Hole solves all three: a single collapsed `<details>` block placed **in the body of the blog, next to the narrative beat it deepens** — not stacked directly below the TL;DR accordion. Casuals scroll past. Power readers open it. Search engines and LLMs index everything inside.
+
+**Placement rule (important):** the rabbit hole must NOT sit directly beneath the TL;DR `<details>`. Two collapsed accordions back-to-back look like a broken page and bury the opening narrative under stacked chrome. Drop the rabbit hole next to the section it naturally amplifies — usually the `Stress and Growth` beat or the narrative moment where the type's core pattern is most visible — with at least one full H2 prose section between it and the TL;DR.
 
 It is the **only** place wing/subtype/arrow content lives in a celebrity blog (see `blog_content_creator_people_v2.md` → "The Distribution Rule").
 
@@ -257,7 +259,7 @@ Insert this block in the "CSS Furniture Elements" section, after the `.aside-box
 Also update the "Usage Guide → Celebrity personality blogs should also have" checklist at the bottom of the file to add:
 
 ```markdown
-- `.enneagram-rabbit-hole` for the wing/subtype/arrow deep dive (one per blog, after main type analysis)
+- `.enneagram-rabbit-hole` for the wing/subtype/arrow deep dive (one per blog, anchored to a mid-body narrative section — never stacked directly under the TL;DR)
 ```
 
 ---
@@ -270,7 +272,7 @@ Once the SCSS is in place, validate against a real blog before rolling out broad
 
 Recommend a Type 5 or Type 8 with a reasonably clean wing call — easier to write a tight rabbit hole. Suggested candidates: `Elon-Musk`, `Peter-Thiel`, `Taylor-Swift`. Edit the blog content directly in `/admin/content-board` or the underlying record in `blogs_famous_people`.
 
-**3b. Insert a hand-written rabbit hole** following the structure above. Place it after the H2 `What is [Person]'s personality type?` section.
+**3b. Insert a hand-written rabbit hole** following the structure above. Drop it next to the narrative beat it amplifies — typically after the `Stress and Growth` H2 (or the section that discusses the type's core pattern most directly). **Never** place it directly after the TL;DR accordion — put at least one full narrative H2 section between the TL;DR and the rabbit hole so two `<details>` panels don't stack back-to-back.
 
 **3c. Visual checks** at `/personality-analysis/[slug]`:
 

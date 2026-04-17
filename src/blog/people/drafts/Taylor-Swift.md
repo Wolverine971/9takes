@@ -72,43 +72,6 @@ Type 3s navigate careers [strategically](/enneagram-corner/enneagram-types-and-c
 </div>
 </details>
 
-<details class="enneagram-rabbit-hole">
-<summary class="accordion">Enneagram Rabbit Hole: Wings, Subtypes &amp; Connecting Lines for Taylor Swift</summary>
-<div class="panel">
-
-<p><em>For the Enneagram nerds. Skip if you're not deep into the system — the rest of the analysis stands on its own.</em></p>
-
-### Taylor Swift's Wing: 3w4
-
-The 4 <a href="/enneagram-corner/enneagram-wings-complete-guide">wing</a> is what separates Swift from a pure 3 executive. A 3w2 achiever wins by being warm and useful. Swift wins by being the author — excavating private pain and turning it into catalogued, color-coded chapters the audience can step inside. That's 4-wing territory: image as curated art object, each album a world with its own palette, the willingness to stay in an emotion long enough to mine it for a song.
-
-You can see it in the songwriting specificity. "All Too Well" is not a 3w2 hit; that level of introspective detail belongs to someone whose identity hinges on artistic authenticity, not just social approval. The re-recordings are the cleanest proof — a 3w2 would have moved on to the next chart cycle. The 3w4 had to reclaim the catalogue because the work itself is identity, not just leverage.
-
-The 2-wing still shows (the protective instinct, the fan hospitality, the closed-circle loyalty with Blake and Selena), but it operates in service of the 3w4's central need: to be seen as the best at translating feeling into form.
-
-### Taylor Swift's Instinctual Subtype: so/sx
-
-Swift is a social-dominant 3 with a sexual secondary — the classic "prestige" <a href="/enneagram-corner/enneagram-instinctual-subtypes">subtype</a>. So-3s read the cultural moment and position themselves at its center. Country to pop to indie folk to pop again. The Apple Music open letter. The Eras Tour as an economic event that moved Federal Reserve metrics. So-3s don't chase individual fame; they engineer cultural gravity.
-
-The sx secondary is where the songwriting lives. Intimate excavation, the magnetism of the "you" in every track, the pattern of intense pair-bonding that later gets reframed as chapter. The Travis relationship fits this perfectly — she didn't just get engaged, she staged a genre shift inside her own narrative. Sx-3s seduce through story.
-
-Self-preservation reads as weakest. The touring schedule, the eating disorder she publicly acknowledged, the way rest never enters the narrative until someone else (Travis) forces it — all point to sp-last, where the body gets treated as equipment the image rides on top of.
-
-### Stress and Growth Arrows
-
-Under <a href="/enneagram-corner/enneagram-types-in-stress">stress, Type 3 moves to the shadow side of Type 9</a>: disengagement, numbing, self-erasure. The year-long public disappearance after the 2016 Kim/Kanye fallout is the textbook 9-arrow in stress. Not a counter-offensive — a vanish. The 3 who normally performs identity at full volume went silent and let the culture forget what she sounded like, so she could rebuild the performance from scratch.
-
-In growth, Type 3 integrates to healthy Type 6: loyalty, mutual care, community over individual achievement. The Blake Lively defense. The long friendship with Selena Gomez. The decision to finally break political silence in 2018. The fan relationship built on clues and access rather than distance. 6-in-growth is where the Achiever stops performing and starts protecting the people around her as if they were her own.
-
-### Counterarguments: Why Taylor Swift Might Not Be Type 3
-
-The strongest alternate is Type 4: artistic depth, emotional excavation, the insistence that her story is uniquely hers. The case looks tempting because the songwriting is so introspective. But 4s court melancholy as identity — they stay in the wound. Swift's instinct is always forward motion: snake emoji becomes 63-foot cobra, masters get stolen and re-recorded, heartbreak becomes chart-topper. 4s marinate; 3s metabolize and ship. The pattern here is productive reinvention, not sustained longing — 3w4, not 4w3.
-
-The Type 8 case shows up in the Baldoni texts, the Apple Music letter, the Scooter Braun confrontation. But 8s lead with direct combat, not strategic retreat-then-return. Swift's power move is always to disappear, prepare the next era, and re-enter on her own narrative terms. That's 3's image management, not 8's instinct to confront in real time.
-
-</div>
-</details>
-
 ## Taylor's Nashville Bet
 
 What kind of 14-year-old convinces her entire family to uproot their lives for her dream?
@@ -168,6 +131,43 @@ Her response: "Instead of answering those who are asking how I feel about the vi
 **2024-2026: Closure.** Her track "thanK you aIMee" spelled out "KIM" in capitals. Then in January 2026, Kim told her sister's podcast she has "all" of Swift's music on her playlist. "She's super talented."
 
 A decade-long war, ended with a playlist.
+
+<details class="enneagram-rabbit-hole">
+<summary class="accordion">Enneagram Rabbit Hole: Wings, Subtypes &amp; Connecting Lines for Taylor Swift</summary>
+<div class="panel">
+
+<p><em>For the Enneagram nerds. Skip if you're not deep into the system — the rest of the analysis stands on its own.</em></p>
+
+### Taylor Swift's Wing: 3w4
+
+The 4 <a href="/enneagram-corner/enneagram-wings-complete-guide">wing</a> is what separates Swift from a pure 3 executive. A 3w2 achiever wins by being warm and useful. Swift wins by being the author — excavating private pain and turning it into catalogued, color-coded chapters the audience can step inside. That's 4-wing territory: image as curated art object, each album a world with its own palette, the willingness to stay in an emotion long enough to mine it for a song.
+
+You can see it in the songwriting specificity. "All Too Well" is not a 3w2 hit; that level of introspective detail belongs to someone whose identity hinges on artistic authenticity, not just social approval. The re-recordings are the cleanest proof — a 3w2 would have moved on to the next chart cycle. The 3w4 had to reclaim the catalogue because the work itself is identity, not just leverage.
+
+The 2-wing still shows (the protective instinct, the fan hospitality, the closed-circle loyalty with Blake and Selena), but it operates in service of the 3w4's central need: to be seen as the best at translating feeling into form.
+
+### Taylor Swift's Instinctual Subtype: so/sx
+
+Swift is a social-dominant 3 with a sexual secondary — the classic "prestige" <a href="/enneagram-corner/enneagram-instinctual-subtypes">subtype</a>. So-3s read the cultural moment and position themselves at its center. Country to pop to indie folk to pop again. The Apple Music open letter. The Eras Tour as an economic event that moved Federal Reserve metrics. So-3s don't chase individual fame; they engineer cultural gravity.
+
+The sx secondary is where the songwriting lives. Intimate excavation, the magnetism of the "you" in every track, the pattern of intense pair-bonding that later gets reframed as chapter. The Travis relationship fits this perfectly — she didn't just get engaged, she staged a genre shift inside her own narrative. Sx-3s seduce through story.
+
+Self-preservation reads as weakest. The touring schedule, the eating disorder she publicly acknowledged, the way rest never enters the narrative until someone else (Travis) forces it — all point to sp-last, where the body gets treated as equipment the image rides on top of.
+
+### Stress and Growth Arrows
+
+The Kim/Kanye saga above is Swift's textbook 9-arrow moment. Under <a href="/enneagram-corner/enneagram-types-in-stress">stress, Type 3 moves to the shadow side of Type 9</a>: disengagement, numbing, self-erasure. Not a counter-offensive — a vanish. The 3 who normally performs identity at full volume went silent for a year and let the culture forget what she sounded like, so she could rebuild the performance from scratch.
+
+In growth, Type 3 integrates to healthy Type 6: loyalty, mutual care, community over individual achievement. The Blake Lively defense up next. The long friendship with Selena Gomez. The decision to finally break political silence in 2018. The fan relationship built on clues and access rather than distance. 6-in-growth is where the Achiever stops performing and starts protecting the people around her as if they were her own.
+
+### Counterarguments: Why Taylor Swift Might Not Be Type 3
+
+The strongest alternate is Type 4: artistic depth, emotional excavation, the insistence that her story is uniquely hers. The case looks tempting because the songwriting is so introspective. But 4s court melancholy as identity — they stay in the wound. Swift's instinct is always forward motion: snake emoji becomes 63-foot cobra, masters get stolen and re-recorded, heartbreak becomes chart-topper. 4s marinate; 3s metabolize and ship. The pattern here is productive reinvention, not sustained longing — 3w4, not 4w3.
+
+The Type 8 case shows up in the Baldoni texts, the Apple Music letter, the Scooter Braun confrontation. But 8s lead with direct combat, not strategic retreat-then-return. Swift's power move is always to disappear, prepare the next era, and re-enter on her own narrative terms. That's 3's image management, not 8's instinct to confront in real time.
+
+</div>
+</details>
 
 ## What the Loyalty to Blake Reveals
 

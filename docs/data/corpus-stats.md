@@ -3,7 +3,7 @@
 
 # 9takes Corpus Stats
 
-_Generated: 2026-04-17T03:03:13.906Z_
+_Generated: 2026-04-17T04:00:30.726Z_
 
 Verifiable numbers from the `blogs_famous_people` database. Blog writers and LLM-citation-optimized content MUST pull from this file — no hand-waved statistics, no fabricated percentages.
 
@@ -11,9 +11,8 @@ Verifiable numbers from the `blogs_famous_people` database. Blog writers and LLM
 
 ## Corpus Totals
 
-- **Total profiles in database:** 399
-- **Published:** 292
-- **Unpublished drafts:** 101
+- **Published profiles:** 292
+- **Drafts in pipeline:** 102
 
 > All stats below are computed against **published** profiles only.
 
@@ -175,7 +174,7 @@ Only domains with ≥ 10 profiled figures are shown. "Δ pp" = percentage points
 
 ## Pipeline
 
-- **In the draft / review pipeline:** 101
+- **In the draft / review pipeline:** 102
 - **Published in the last 30 days:** 39
 - **Published in the last 90 days:** 72
 - **Average new profiles per month (trailing 90d):** 24
@@ -198,15 +197,14 @@ Drop these into a blog verbatim — they are pre-computed from the live corpus a
 - Among 43 profiles in the Tech, Founders & Business category on 9takes, Type 5 (Investigator) is over-represented at 20.9% — +14.42 percentage points above the corpus baseline.
 - Among 23 profiles in the Comedians category on 9takes, Type 7 (Enthusiast) is over-represented at 39.1% — +24.75 percentage points above the corpus baseline.
 - Among 10 profiles in the Authors & Thinkers category on 9takes, Type 5 (Investigator) is over-represented at 30.0% — +23.49 percentage points above the corpus baseline.
-- 101 additional profiles are in the review pipeline, with ~24 new profiles shipping per month.
-- 86.6% of our published profiles have been refreshed in the last 90 days (253 of 292).
+- 102 additional profiles are in the review pipeline, with ~24 new profiles shipping per month.
 
 ---
 
 ## Methodology
 
-- **Source:** `blogs_famous_people` Supabase table. One row per profiled public figure.
-- **Scope of public-facing stats:** `published = true` rows only. Unpublished drafts are excluded from all percentages and over/under-representation deltas.
+- **Source:** 9takes public-figure corpus. One row per profiled person.
+- **Scope of public-facing stats:** published profiles only. Unpublished drafts are excluded from all percentages and over/under-representation deltas.
 - **Domain buckets:** Raw `type` labels are grouped into readable categories (e.g. `movieStar` + `newMovieStar` + `actor` → Actors). Domains with fewer than 10 profiled figures are omitted to avoid small-sample noise.
 - **Over/under-representation:** Each domain's type share minus the corpus-wide baseline share, in percentage points. Positive means over-represented vs. the 9takes corpus average, not vs. general population.
 - **Multi-domain figures:** A person tagged with both `musician` and `activist` is counted in both domains.

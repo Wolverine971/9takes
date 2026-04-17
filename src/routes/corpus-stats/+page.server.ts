@@ -15,7 +15,7 @@ export const load: PageServerLoad = async () => {
 		'@context': 'https://schema.org',
 		'@type': 'Dataset',
 		name: '9takes Enneagram Personality Type Distribution Corpus',
-		description: `Type distribution, over- and under-representation by profession, and content-quality metrics across ${stats.totals.published} published public-figure profiles on 9takes.`,
+		description: `Type distribution, over- and under-representation by profession, and publishing pipeline across ${stats.totals.published} published public-figure profiles on 9takes.`,
 		url: `${SITE_URL}/corpus-stats`,
 		creator: {
 			'@type': 'Organization',
@@ -34,8 +34,7 @@ export const load: PageServerLoad = async () => {
 		variableMeasured: [
 			'enneagram_type_share',
 			'over_representation_by_domain',
-			'content_quality_grade',
-			'content_freshness'
+			'publishing_pipeline_cadence'
 		],
 		distribution: [
 			{

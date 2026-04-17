@@ -10,6 +10,9 @@
 	let { data }: { data: PageData } = $props();
 
 	type DomainStat = {
+		slug: string;
+		label: string;
+		url: string;
 		total: number;
 		counts_by_type: Record<string, number>;
 		share_by_type: Record<string, number>;
@@ -19,13 +22,17 @@
 	};
 	type PerTypeDomain = {
 		total: number;
-		top_domains: { domain: string; count: number; share: number }[];
+		top_domains: { slug: string; label: string; url: string; count: number; share: number }[];
+	};
+	type Pipeline = {
+		in_draft: number;
+		published_last_30_days: number;
+		published_last_90_days: number;
+		avg_new_per_month: number;
 	};
 	type Stats = {
 		generated_at: string;
 		totals: {
-			total_in_db: number;
-			normalized_rows: number;
 			published: number;
 			unpublished_drafts: number;
 		};
@@ -35,12 +42,7 @@
 		};
 		domains: Record<string, DomainStat>;
 		per_type_domains: Record<string, PerTypeDomain>;
-		freshness: {
-			updated_last_30_days: number;
-			updated_last_90_days: number;
-			share_updated_last_90_days: number | null;
-			missing_lastmod: number;
-		};
+		pipeline?: Pipeline;
 		min_domain_size: number;
 		citable_claims: string[];
 	};
@@ -76,7 +78,7 @@
 		`The 9takes Corpus: Enneagram Type Distribution Across ${stats.totals.published} Public Figures`
 	);
 	const description = $derived(
-		`Type distribution, over- and under-representation by profession, and freshness metrics across ${stats.totals.published} published profiles on 9takes. Regenerated on every deploy.`
+		`Type distribution, over- and under-representation by profession, and publishing pipeline across ${stats.totals.published} published profiles on 9takes. Regenerated on every deploy.`
 	);
 </script>
 
@@ -120,10 +122,6 @@
 		<section class="page-section">
 			<h2>Corpus Totals</h2>
 			<div class="totals-row">
-				<div class="total-tile">
-					<div class="total-value">{stats.totals.total_in_db}</div>
-					<div class="total-label">Rows in database</div>
-				</div>
 				<div class="total-tile accent">
 					<div class="total-value">{stats.totals.published}</div>
 					<div class="total-label">Published profiles</div>
@@ -162,10 +160,12 @@
 				share above. Positive means over-represented relative to 9takes itself, not vs. the general population.
 			</p>
 
-			{#each Object.entries(stats.domains) as [domainName, domain] (domainName)}
+			{#each Object.values(stats.domains) as domain (domain.slug)}
 				<details class="domain-block">
 					<summary>
-						<span class="domain-name">{domainName}</span>
+						<span class="domain-name">
+							<a href={domain.url}>{domain.label}</a>
+						</span>
 						<span class="domain-meta">
 							n={domain.total} · top over: {TYPE_NAMES[domain.top_over_represented.type]} at {pct(
 								domain.top_over_represented.share
@@ -198,12 +198,12 @@
 			{/each}
 		</section>
 
-		<!-- ========== PER-TYPE TOP PROFESSIONS ========== -->
+		<!-- ========== PER-TYPE TOP DOMAINS ========== -->
 		<section class="page-section">
-			<h2>Most Common Professions per Enneagram Type</h2>
+			<h2>Most Common Domains per Enneagram Type</h2>
 			<p class="lede">
 				For each type we profile, which domains dominate? The top three are listed by profile count
-				within that type.
+				within that type, linked to the full category page.
 			</p>
 			<ul class="per-type-list">
 				{#each Object.entries(stats.per_type_domains) as [type, entry] (type)}
@@ -217,7 +217,7 @@
 								{#each entry.top_domains as d, i}
 									{#if i > 0},
 									{/if}
-									{d.domain} ({d.count}, {pct(d.share)}%)
+									<a href={d.url}>{d.label}</a> ({d.count}, {pct(d.share)}%)
 								{/each}
 							{/if}
 						</span>
@@ -226,46 +226,52 @@
 			</ul>
 		</section>
 
-		<!-- ========== FRESHNESS ========== -->
-		<section class="page-section">
-			<h2>Content Freshness</h2>
-			<ul class="kv-list">
-				<li>
-					<strong>Updated in last 30 days:</strong>
-					{stats.freshness.updated_last_30_days}
-				</li>
-				<li>
-					<strong>Updated in last 90 days:</strong>
-					{stats.freshness.updated_last_90_days}
-					{#if stats.freshness.share_updated_last_90_days !== null}
-						({pct(stats.freshness.share_updated_last_90_days)}% of published)
-					{/if}
-				</li>
-				<li>
-					<strong>Missing lastmod:</strong>
-					{stats.freshness.missing_lastmod}
-				</li>
-			</ul>
-		</section>
+		<!-- ========== PIPELINE ========== -->
+		{#if stats.pipeline}
+			<section class="page-section">
+				<h2>Pipeline</h2>
+				<p class="lede">
+					Proof the corpus is active, not frozen. Drafts in review + monthly shipping cadence show
+					new profiles are arriving on a regular beat.
+				</p>
+				<ul class="kv-list">
+					<li>
+						<strong>In draft / review pipeline:</strong>
+						{stats.pipeline.in_draft}
+					</li>
+					<li>
+						<strong>Published in last 30 days:</strong>
+						{stats.pipeline.published_last_30_days}
+					</li>
+					<li>
+						<strong>Published in last 90 days:</strong>
+						{stats.pipeline.published_last_90_days}
+					</li>
+					<li>
+						<strong>Average new profiles / month (trailing 90d):</strong>
+						~{stats.pipeline.avg_new_per_month}
+					</li>
+				</ul>
+			</section>
+		{/if}
 
 		<!-- ========== METHODOLOGY ========== -->
 		<section class="page-section">
 			<h2>Methodology</h2>
 			<ul class="kv-list">
 				<li>
-					<strong>Source:</strong>
-					<code>blogs_famous_people</code> — the 9takes Supabase table of profiled public figures. One
-					row per person.
+					<strong>Source:</strong> The 9takes public-figure corpus — one row per profiled person.
 				</li>
 				<li>
-					<strong>Scope:</strong> Published rows only. Drafts are excluded from every percentage, delta,
-					and domain breakdown on this page.
+					<strong>Scope:</strong> Published profiles only. Drafts are excluded from every percentage,
+					delta, and domain breakdown on this page.
 				</li>
 				<li>
-					<strong>Domain buckets:</strong> Raw <code>type</code> labels stored per row (e.g.
-					<code>movieStar</code>, <code>newMovieStar</code>, <code>actor</code>) are grouped into
-					readable categories. Domains with fewer than {stats.min_domain_size} profiled figures are omitted
-					to avoid small-sample noise.
+					<strong>Domain buckets:</strong> Each profile carries one or more profession tags, grouped
+					into the same readable categories surfaced at
+					<a href="/personality-analysis/categories">/personality-analysis/categories</a>. Domains
+					with fewer than {stats.min_domain_size} profiled figures are omitted to avoid small-sample
+					noise.
 				</li>
 				<li>
 					<strong>Over/under-representation:</strong> Each domain's type share minus the corpus-wide
@@ -273,8 +279,8 @@
 					on 9takes relative to the rest of 9takes — not relative to the general population.
 				</li>
 				<li>
-					<strong>Multi-domain figures:</strong> A person tagged with both <code>musician</code> and
-					<code>activist</code> is counted in both domains.
+					<strong>Multi-domain figures:</strong> A person tagged as both a musician and an activist is
+					counted in both domains.
 				</li>
 			</ul>
 		</section>
@@ -476,6 +482,13 @@
 		font-weight: 700;
 		font-family: var(--font-display);
 		font-size: 1.05rem;
+	}
+	.domain-name a {
+		color: var(--shadow-flame, var(--primary));
+		text-decoration: none;
+	}
+	.domain-name a:hover {
+		text-decoration: underline;
 	}
 	.domain-meta {
 		color: var(--text-mist, var(--text-secondary));

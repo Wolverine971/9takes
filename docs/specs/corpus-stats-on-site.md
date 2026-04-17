@@ -174,45 +174,185 @@ Self-contained, no data passed through `+page.server.ts`. Lower risk, lower coup
 
 1. **Hero** — h1 "The 9takes Corpus: Enneagram Type Distribution Across {TOTALS.PUBLISHED} Public Figures" + generation timestamp.
 2. **TL;DR** — a 3-bullet summary, pulled from `citable_claims[0..2]`.
-3. **Corpus Totals** — mini-panel: total / published / drafts.
+3. **Corpus Totals + Pipeline** — mini-panel: published / drafts in pipeline / avg new profiles per month (from `totals` + `pipeline`). Gives proof-of-life without a freshness section.
 4. **Enneagram Type Distribution** — full 9-row table from `enneagram_distribution`.
-5. **Type Distribution by Domain** — one expandable `<details>` per domain (Actors, Musicians, Tech Founders…). Each contains the same 9-row table from `domains[name]`. Rendering 8 full tables flat would overwhelm; `<details>` lets the page scan cleanly AND preserves all content for LLM extraction.
-6. **Most Common Professions per Type** — the `per_type_domains` list.
-7. **⭐ Comparison to Public Enneagram Data** — **(NEW)** side-by-side: 9takes corpus type distribution vs. public datasets + academic studies. See dedicated section below. This is the page's highest-value section for GEO: no other site ties the two worlds together.
-8. **Freshness** — the freshness panel.
-9. **Methodology** — verbatim from the `.md` file's methodology section, extended with the "how our sample differs from general-population studies" caveat.
-10. **Ready-to-Cite Claims** — the `citable_claims` array, rendered with `<blockquote>`s so they look pre-packaged for journalists.
-11. **JSON download** — a small "Download raw JSON" link pointing at `/corpus-stats.json` (see below).
+5. **Type Distribution by Domain** — one expandable `<details>` per domain (Film & TV, Music, Tech, Founders & Business…). Each contains the same 9-row table from `domains[slug]`. Each domain heading is a live link to `/personality-analysis/categories/{slug}`. `<details>` keeps the page scannable while preserving all content for LLM extraction.
+6. **Most Common Domains per Type** — the `per_type_domains` list, every domain name a link to `/personality-analysis/categories/{slug}`.
+7. **⭐ Comparison to Public Enneagram Data** — side-by-side: 9takes corpus type distribution vs. public datasets + academic studies. See dedicated section below. This is the page's highest-value section for GEO: no other site ties the two worlds together.
+8. **Methodology** — verbatim from the `.md` file's methodology section, extended with the "how our sample differs from general-population studies" caveat.
+9. **Ready-to-Cite Claims** — the `citable_claims` array, rendered with `<blockquote>`s so they look pre-packaged for journalists.
+10. **JSON download** — a small "Download raw JSON" link pointing at `/corpus-stats.json` (see below).
 
-### Structured data (JSON-LD)
+**Freshness removed from the public page** (2026-04-16). `freshness` stays in the JSON for internal use + blog commands, but "87% refreshed in 90 days" is weaker framing than the pipeline tile on the homepage and would dilute the scan on a data-dense page. Keep the data, drop the section.
 
-Emit a `schema.org/Dataset` block in the page head. This is the rare schema type LLMs love for statistical claims. Minimal shape:
+### Structured data (JSON-LD) — dynamically populated
 
-```json
-{
-	"@context": "https://schema.org",
-	"@type": "Dataset",
-	"name": "9takes Enneagram Personality Type Distribution Corpus",
-	"description": "Type distribution and over-/under-representation by profession across {N} public-figure profiles on 9takes, compared with published Enneagram population studies.",
-	"url": "https://9takes.com/corpus-stats",
-	"creator": { "@type": "Organization", "name": "9takes", "url": "https://9takes.com" },
-	"dateModified": "{generated_at}",
-	"variableMeasured": [
-		"enneagram_type_share",
-		"over_representation_by_domain",
-		"content_freshness"
-	],
-	"distribution": [
-		{
-			"@type": "DataDownload",
-			"encodingFormat": "application/json",
-			"contentUrl": "https://9takes.com/corpus-stats.json"
-		}
-	]
+The `/corpus-stats` page emits **three JSON-LD blocks**: `Dataset`, `WebPage`, and `BreadcrumbList`. All three are built at request time in `+page.server.ts` from the imported `corpus-stats.json` and external-data file. No static strings for numbers; every count and date flows from the data.
+
+**Why dynamic matters:** Google Rich Results + LLM retrievers cross-check the JSON-LD numbers against the visible HTML. If the LD says "292 profiles" but the body says "101 drafts pending," both surfaces must update together on every deploy. Hard-coding risks drift.
+
+#### Loader (`src/routes/corpus-stats/+page.server.ts`)
+
+```ts
+import type { PageServerLoad } from './$types';
+import corpusStats from '$lib/data/corpus-stats.json';
+// Hand-curated; absent on first ship, populated in Phase 3b.
+import externalStats from '$lib/data/corpus-stats-external.json' assert { type: 'json' };
+
+const SITE = 'https://9takes.com';
+
+function buildDatasetJsonLd(stats: typeof corpusStats) {
+	const domainLabels = Object.values(stats.domains).map((d) => d.label);
+	const domainCount = domainLabels.length;
+	const mostCommonType = Object.entries(stats.enneagram_distribution.counts).sort(
+		(a, b) => b[1] - a[1]
+	)[0][0];
+
+	const externalCitations =
+		externalStats?.sources?.map((s: { name: string; url: string }) => ({
+			'@type': 'CreativeWork',
+			name: s.name,
+			url: s.url
+		})) ?? [];
+
+	return {
+		'@context': 'https://schema.org',
+		'@type': 'Dataset',
+		name: '9takes Enneagram Personality Type Distribution Corpus',
+		alternateName: '9takes Corpus Stats',
+		description:
+			`Enneagram type distribution and over-/under-representation by professional domain across ` +
+			`${stats.totals.published} publicly-documented figures on 9takes, spanning ${domainCount} categories ` +
+			`(${domainLabels.join(', ')}). Updated automatically on every deploy.`,
+		url: `${SITE}/corpus-stats`,
+		sameAs: `${SITE}/corpus-stats`,
+		creator: { '@type': 'Organization', name: '9takes', url: SITE },
+		publisher: { '@type': 'Organization', name: '9takes', url: SITE },
+		dateModified: stats.generated_at,
+		license: 'https://creativecommons.org/licenses/by/4.0/',
+		isAccessibleForFree: true,
+		inLanguage: 'en',
+		keywords: [
+			'Enneagram',
+			'personality types',
+			'type distribution',
+			'public figures',
+			`Type ${mostCommonType}`,
+			...domainLabels
+		],
+		variableMeasured: [
+			{
+				'@type': 'PropertyValue',
+				name: 'Enneagram type share',
+				description: 'Percentage of profiled figures for each of the 9 Enneagram types'
+			},
+			{
+				'@type': 'PropertyValue',
+				name: 'Over-/under-representation by domain',
+				description:
+					'Percentage-point delta between a professional-domain type share and the corpus baseline'
+			},
+			{
+				'@type': 'PropertyValue',
+				name: 'Pipeline cadence',
+				description: 'Rate at which new profiles are added to the corpus (trailing 90 days)'
+			}
+		],
+		distribution: {
+			'@type': 'DataDownload',
+			encodingFormat: 'application/json',
+			contentUrl: `${SITE}/corpus-stats.json`,
+			dateModified: stats.generated_at
+		},
+		measurementTechnique:
+			'Expert typology review of publicly-available behavior, interviews, quotes, ' +
+			'and documented patterns. Each figure is tagged into one or more professional domains.',
+		size:
+			`${stats.totals.published} profiles across ${domainCount} categories` +
+			(stats.pipeline?.in_draft
+				? `; ${stats.pipeline.in_draft} additional profiles in the review pipeline`
+				: ''),
+		spatialCoverage: 'Global (primarily English-language public figures)',
+		...(externalCitations.length > 0 && { citation: externalCitations })
+	};
 }
+
+function buildWebPageJsonLd(stats: typeof corpusStats) {
+	return {
+		'@context': 'https://schema.org',
+		'@type': 'WebPage',
+		'@id': `${SITE}/corpus-stats#webpage`,
+		url: `${SITE}/corpus-stats`,
+		name: `The 9takes Corpus: Enneagram Type Distribution Across ${stats.totals.published} Public Figures`,
+		description:
+			`Aggregate Enneagram type statistics across ${stats.totals.published} published profiles on 9takes, ` +
+			`compared against published research. Refreshed on every deploy.`,
+		isPartOf: { '@type': 'WebSite', name: '9takes', url: SITE },
+		dateModified: stats.generated_at,
+		about: { '@type': 'Thing', name: 'Enneagram personality type distribution' }
+	};
+}
+
+function buildBreadcrumbJsonLd() {
+	return {
+		'@context': 'https://schema.org',
+		'@type': 'BreadcrumbList',
+		itemListElement: [
+			{ '@type': 'ListItem', position: 1, name: 'Home', item: SITE },
+			{
+				'@type': 'ListItem',
+				position: 2,
+				name: 'Personality Analysis',
+				item: `${SITE}/personality-analysis`
+			},
+			{
+				'@type': 'ListItem',
+				position: 3,
+				name: 'Corpus Stats',
+				item: `${SITE}/corpus-stats`
+			}
+		]
+	};
+}
+
+export const load: PageServerLoad = async () => {
+	return {
+		stats: corpusStats,
+		external: externalStats,
+		jsonLd: [
+			buildDatasetJsonLd(corpusStats),
+			buildWebPageJsonLd(corpusStats),
+			buildBreadcrumbJsonLd()
+		]
+	};
+};
 ```
 
-Also emit `BreadcrumbList` + `WebPage` per the existing pattern in `PeopleBlogPageHead.svelte`.
+#### Rendering in `+page.svelte`
+
+Render all three blocks inside `<svelte:head>`:
+
+```svelte
+<svelte:head>
+	{#each data.jsonLd as block}
+		{@html `<script type="application/ld+json">${JSON.stringify(block)}</script>`}
+	{/each}
+</svelte:head>
+```
+
+Use `{@html}` + `JSON.stringify`. Do **not** hand-write the JSON-LD as a template string — it's too easy to break escaping.
+
+#### Validation checklist (before shipping)
+
+- [ ] Paste the rendered HTML into [Google's Rich Results Test](https://search.google.com/test/rich-results). `Dataset` should parse with zero errors.
+- [ ] Paste into the [Schema.org validator](https://validator.schema.org/). All three blocks should be well-formed.
+- [ ] View source on `/corpus-stats` after deploy and confirm `{stats.totals.published}` is interpolated as a real number, not a template placeholder.
+- [ ] Change `stats.generated_at` (e.g. regenerate), redeploy, and confirm `dateModified` updates in both the visible page and the JSON-LD.
+- [ ] Confirm `citation` array populates once `corpus-stats-external.json` lands in Phase 3b.
+
+#### Why `Dataset` specifically
+
+`Dataset` is the underused schema type purpose-built for numerical/statistical content. Of the content LLMs preferentially cite, "named statistics with provenance" is the single highest-performing pattern (strat Part 3 #2). `Dataset` JSON-LD explicitly signals: this page contains structured, citable statistics — not opinion, not anecdote. Sites that use it well (Our World in Data, Kaggle dataset pages, academic repositories) get cited at outsized rates for data queries. We earn that citation lane.
 
 ### Raw JSON endpoint
 

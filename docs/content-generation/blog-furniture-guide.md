@@ -678,7 +678,7 @@ A bordered box with an optional title, offset from the main text.
 
 **Rules:**
 
-- **One per blog**, placed after the main `What is [Person]'s personality type?` H2 section, before the next narrative section
+- **One per blog**, placed in the mid-body next to the narrative beat it amplifies — usually the `Stress and Growth` section or the H2 where the type's core pattern is clearest. **Never stacked directly below the TL;DR `<details>`** — at least one full narrative H2 section must sit between the TL;DR and the rabbit hole so two collapsed accordions don't appear back-to-back
 - **All four sub-sections required** — Wing, Subtype, Arrows, Counterarguments
 - **Word budget: 400–700 inside the block.** Substantive but not a second blog
 - **Frame paragraph required** — the italicized "For the Enneagram nerds…" line. This is what tells casual readers it's safe to skip and makes the body of the blog work for general audiences
@@ -715,7 +715,7 @@ These patterns appear in specific articles. They use custom CSS classes defined 
 ### Celebrity personality blogs should also have:
 
 - `<details>/<summary class="accordion">` for TL;DR section
-- `.enneagram-rabbit-hole` for the wing/subtype/arrow deep dive (one per blog, after main type analysis)
+- `.enneagram-rabbit-hole` for the wing/subtype/arrow deep dive (one per blog, anchored to a mid-body narrative section — never stacked directly under the TL;DR)
 - 2-5 internal links (see linking rules in blog_content_creator_people.md)
 - 2-4 CSS furniture elements from the section above (pull quotes, timelines, contrast panels, etc.)
 

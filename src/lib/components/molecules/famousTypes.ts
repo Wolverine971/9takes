@@ -196,6 +196,7 @@ export const famousTypes: { [index: number]: { name: string; link: boolean; hasI
 		{ name: 'edgar-allan-poe', link: false, hasImage: false, lastmod: '2026-03-28', personaTitle: 'Literature\'s Cartographer of Loss', contentGrade: 8.7 },
 		{ name: 'frank-ocean', link: false, hasImage: false, lastmod: '2025-06-25', personaTitle: null, contentGrade: null },
 		{ name: 'janelle-monae', link: false, hasImage: false, lastmod: '2025-06-25', personaTitle: null, contentGrade: null },
+		{ name: 'jeremy-allen-white', link: false, hasImage: false, lastmod: '2026-04-16', personaTitle: 'Brooklyn\'s Brooding Dancer', contentGrade: 9 },
 		{ name: 'jonathan-graff', link: false, hasImage: false, lastmod: '2025-06-25', personaTitle: null, contentGrade: null },
 		{ name: 'oscar-isaac', link: false, hasImage: false, lastmod: '2026-04-06', personaTitle: 'Cinema\'s Grief Alchemist', contentGrade: 8.6 }
 	],
@@ -258,7 +259,6 @@ export const famousTypes: { [index: number]: { name: string; link: boolean; hasI
 		{ name: 'trevor-noah', link: true, hasImage: true, lastmod: '2026-03-03', personaTitle: 'Comedy\'s Stateless Ambassador', contentGrade: 8.9 },
 		{ name: 'tucker-carlson', link: true, hasImage: true, lastmod: '2026-03-27', personaTitle: 'Media\'s Contrarian Watchdog', contentGrade: null },
 		{ name: 'zendaya', link: true, hasImage: true, lastmod: '2026-01-17', personaTitle: 'Hollywood\'s Weaponized Worrier', contentGrade: 9 },
-		{ name: 'anna-kendrick', link: false, hasImage: false, lastmod: '2026-04-16', personaTitle: 'Hollywood\'s Scrappy Skeptic', contentGrade: 9 },
 		{ name: 'ben-shapiro', link: false, hasImage: false, lastmod: '2025-06-25', personaTitle: null, contentGrade: null },
 		{ name: 'camila-cabello', link: false, hasImage: false, lastmod: '2026-04-06', personaTitle: 'Pop\'s Counter-Phobic Dreamer', contentGrade: 8.8 },
 		{ name: 'david-goggins', link: false, hasImage: false, lastmod: '2025-06-25', personaTitle: null, contentGrade: null },
@@ -316,6 +316,7 @@ export const famousTypes: { [index: number]: { name: string; link: boolean; hasI
 		{ name: 'tim-dillon', link: true, hasImage: true, lastmod: '2026-04-06', personaTitle: 'Comedy\'s Panic Prophet', contentGrade: 8.8 },
 		{ name: 'tom-holland', link: true, hasImage: true, lastmod: '2026-03-01', personaTitle: 'Hollywood\'s Armored Enthusiast', contentGrade: 8.9 },
 		{ name: 'xqc', link: true, hasImage: true, lastmod: '2026-02-23', personaTitle: 'Streaming\'s Doomsday Escape Artist', contentGrade: 9 },
+		{ name: 'anna-kendrick', link: false, hasImage: false, lastmod: '2026-04-16', personaTitle: 'Hollywood\'s Scrappy Reframer', contentGrade: 9 },
 		{ name: 'florence-pugh', link: false, hasImage: false, lastmod: '2025-06-25', personaTitle: null, contentGrade: null },
 		{ name: 'jacksepticeye', link: false, hasImage: false, lastmod: '2025-06-25', personaTitle: null, contentGrade: null },
 		{ name: 'julia-roberts', link: false, hasImage: false, lastmod: '2025-06-25', personaTitle: null, contentGrade: null },

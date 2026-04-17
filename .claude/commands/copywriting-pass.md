@@ -125,6 +125,15 @@ Flag:
 
 For each hit: identify what could be pointed at instead.
 
+**Light-touch stat / citation check (encouraged, not required):** scan for numbers and provenance.
+
+- Note any unsourced or round marketing numbers ("millions of fans," "tons of interviews") — flag for a citation or a cut.
+- Note any specific, verifiable number that is already in the piece but missing attribution — flag to add an inline source (parenthetical, hyperlink, or named-source prefix).
+- Note places where a falsifiable, sourced number would sharpen the claim (hook, type diagnosis, an accomplishment line) — flag as an opportunity, not a required fix.
+- **Never invent numbers.** If the source can't be verified, cut the claim rather than soften it.
+
+This is a light pass, not a grading gate. The goal is to surface stat opportunities and sourcing gaps, not to force every blog to hit a numerical quota.
+
 ### Audit Dimension 3: Ownability Test (Rule 3) — **explicitly applied to every H2 and H3, not just the title**
 
 This is the dimension most posts fail on. Pull every header and subheader into a list and ask, for each one: **could a competitor sign this?**

@@ -677,9 +677,11 @@ If nothing surfaces after a reasonable search, name the specific gap in working 
 
 **Apply the Five Craft Principles throughout** — show don't label, point don't talk, story over system, sound like 9takes, compress ruthlessly.
 
-**Apply The Distribution Rule** — explicit Enneagram framing in at most 3–4 sections; the rest work as pure narrative.
+**Apply The Distribution Rule** — at most 4 type-theory paragraphs in the main body (diagnosis section and Rabbit Hole excluded). A one-sentence bridging mention inside a narrative paragraph does not count; a block of 2+ consecutive sentences about what the type generally does counts as one type-theory paragraph. The rest of the body works as pure narrative about this specific person. See Gate 5 in Step 5.
 
 **Apply the Heading Strategy** — hit the SEO/copy mix: 1–2 signature / 2–3 search-intent / rest hybrid. Every H2 passes the heading test. Siblings frame in parallel.
+
+**Apply the stat guidance where it earns its weight** — see "Statistical Claims & Cited Sources" in Part 1. Strongly encouraged, not required. 1–2 sourced, falsifiable numbers placed in the hook, type diagnosis, or a single accomplishment line beat zero stats; zero stats beat invented stats.
 
 **Every section has conflict.** If a section is just listing traits, benefits, or accomplishments with no tension, inject contrast: before/after, public vs. private, what fans think vs. what's actually true, Type X reaction vs. Type Y reaction, stress vs. security. A flat section is a section that gets skimmed. Apply this even to "upbringing" and "accomplishments" — find the tension inside the material.
 
@@ -702,12 +704,84 @@ Before metadata or saving, run the draft through the Quality Checklist at the en
 
 **For a standalone deep copywriting pass outside this workflow**, use the `/copywriting-pass` command on the finished draft.
 
-**Hard gates (the draft cannot proceed to Step 7 if any of these fail):**
+**Hard gates (the draft cannot proceed to Step 7 if any of these fail). Gates are _enumerated_, not scored — each gate must be worked through by explicitly listing the evidence, not by self-assessment.**
 
-1. **Testimony gate** — the draft must contain at least **2 named-source quotes from people around the subject** (collaborator, family member, friend, producer, director, co-star, rival, substantive critic). Each quote needs attribution (name + approximate source/year). Quotes the subject gave about themselves do not count. If research genuinely couldn't surface this, set `production_pretext.status: blocked` with a `thin_collaborator_testimony` blocker rather than self-grading past it.
-2. **Heading mix gate** — tag each H2 as signature / search-intent / hybrid _before_ saving. The set must contain at least **2 search-intent headings** (or hybrids with strong search-intent). If fewer, rewrite headings before proceeding. Do not ship a signature-only catalog.
-3. **Self-loop gate** — no internal link targets the blog's own slug.
-4. **Anti-imitation gate** — the hook and the ending must not echo the structural cadence of any excerpt in the reference library. Specifically: no `"A [Type]. Doing what [Type]s do."` endings.
+### Gate 1: Testimony Ledger (enumerate, don't assess)
+
+Before saving, produce a **Testimony Ledger** as an HTML comment at the top of the draft (below the frontmatter, above the opening quote). Enumerate every named-third-party quote currently present in the draft. Do not self-grade — _list them_:
+
+```html
+<!-- TESTIMONY LEDGER
+1. [Name]: "[exact quote]" — [source, year]
+2. [Name]: "[exact quote]" — [source, year]
+...
+Total qualifying quotes: [N]
+-->
+```
+
+**What qualifies** (each quote must meet all four):
+
+- Named speaker other than the subject (collaborator, family, producer, director, co-star, rival, substantive critic, friend)
+- Direct quote with real quotation marks, not paraphrase or narrated action
+- Attribution (source + year)
+- Speaker is commenting on _the subject_ (not just present in a scene the subject describes; not just speaking about themselves in conversation with the subject)
+
+**What doesn't qualify:**
+
+- Subject quoting themselves about themselves
+- Subject recounting what someone said to them (unless the speaker's line is independently attributable)
+- Named interactions without a direct quote (_"Sondheim handed her revised lyrics"_ — named action, no quote, doesn't count)
+
+**Gate rule:** `Total qualifying quotes` must be ≥ 2. If the enumeration produces 0 or 1, the draft is blocked. Either: return to Step 3 and gather more testimony, or set `production_pretext.status: blocked` with a `thin_collaborator_testimony` blocker and surface the gap to the user. Do **not** proceed to metadata.
+
+### Gate 2: Heading Mix Ledger
+
+Before saving, produce a **Heading Mix Ledger** as an HTML comment. List every H2 with a tag:
+
+```html
+<!-- HEADING MIX LEDGER
+H2 1: "[heading]" — [signature | search-intent | hybrid]
+H2 2: "[heading]" — [signature | search-intent | hybrid]
+...
+Search-intent + hybrid count: [N]
+-->
+```
+
+**Gate rule:** at least **2 of the H2s** must be tagged `search-intent` or `hybrid` with strong search-intent. If fewer, rewrite headings before saving. Do not ship a signature-only catalog.
+
+### Gate 3: Self-loop gate
+
+No internal link may target the blog's own slug. Check all `<a href>` and `](/...)` links before saving.
+
+### Gate 4: Anti-imitation gate (broader than before)
+
+The hook and the ending must not echo the structural cadence of any excerpt in the reference library. Specific prohibited patterns:
+
+- `"A [Type]. Doing what [Type]s do."` endings (the original Thiel cadence)
+- `"A [Type] does X. A [Type] does Y."` endings (the double-tap variant)
+- **Any ending with more than one sentence beginning with `"A [Type]"` or `"A [Type]'s"`** — one type-named sentence per ending is the absolute max, and it must not be paired with an anaphora partner
+- Hooks that open with the same _object-reveal_ structure used in the Thiel parachute reference
+
+One `"A [Seven]..."` sentence is allowed. Two is a fail.
+
+### Gate 5: Distribution Rule — paragraph count (refined)
+
+Count **type-theory paragraphs** in the main body. A type-theory paragraph is any paragraph (outside the required `What is [Person]'s personality type?` diagnosis section and outside the Rabbit Hole) that spends 2 or more consecutive sentences on system-level type theory rather than on the subject's behavior.
+
+A single bridging sentence inside a narrative paragraph (e.g., _"That is a Seven's relationship to accomplishment"_) does **not** count as a type-theory paragraph. A block of 2+ consecutive sentences about what Sevens generally do **does** count.
+
+**Gate rule:** at most **4 type-theory paragraphs** in the main body (diagnosis section and Rabbit Hole excluded). If more, compress type theory into single-sentence bridges and let the behavior carry more of the weight.
+
+Produce a **Distribution Ledger** HTML comment:
+
+```html
+<!-- DISTRIBUTION LEDGER
+Type-theory paragraphs outside diagnosis section and Rabbit Hole: [N]
+Locations: [section heading 1], [section heading 2], ...
+-->
+```
+
+---
 
 Add reviewer notes as HTML comments (`<!-- -->`) for anything flagged but deliberately left.
 
@@ -721,40 +795,42 @@ Enhance the reading experience with visual furniture — decorative elements tha
 
 **Available HTML furniture:**
 
-| Element                                                     | When to use                                             |
-| ----------------------------------------------------------- | ------------------------------------------------------- |
-| `<p class="firstLetter">`                                   | Opening paragraph (already present from Step 4)         |
-| `<details>/<summary class="accordion">/<div class="panel">` | TL;DR (already present from Step 4)                     |
-| `---` horizontal rules                                      | Between major sections                                  |
-| `>` blockquotes                                             | Pull quotes, attributed quotes, disclaimers             |
-| `<div class="iframe-container">` + `<iframe>`               | Embed a relevant YouTube interview clip                 |
-| `<div class="scroll-table">`                                | Wrap wide comparison tables                             |
-| `<blockquote class="twitter-tweet">`                        | Embed a relevant tweet as evidence                      |
-| Markdown pipe tables                                        | Structured comparisons                                  |
-| `<div class="pull-quote">`                                  | Elevate a powerful quote out of the prose               |
-| `<div class="key-stat">` / `<div class="key-stat-row">`     | Highlight a striking number                             |
-| `<p class="inner-thought">`                                 | Imagine what the person was thinking in a key moment    |
-| `<div class="timeline">`                                    | Chronological arc                                       |
-| `<div class="contrast-panel">`                              | Public vs. private, says vs. does                       |
-| `<div class="source-card">`                                 | Cite a specific podcast or interview source             |
-| `<div class="dialogue">`                                    | Recreate a revealing interview exchange                 |
-| `<div class="aside-box">`                                   | Supplementary context                                   |
-| **Enneagram Rabbit Hole** (`<details>` block)               | **REQUIRED for power-user Enneagram depth — see below** |
+| Element                                                     | When to use                                                            |
+| ----------------------------------------------------------- | ---------------------------------------------------------------------- |
+| `<p class="firstLetter">`                                   | Opening paragraph (already present from Step 4)                        |
+| `<details>/<summary class="accordion">/<div class="panel">` | TL;DR (already present from Step 4)                                    |
+| `---` horizontal rules                                      | Between major sections                                                 |
+| `>` blockquotes                                             | Pull quotes, attributed quotes, disclaimers                            |
+| `<div class="iframe-container">` + `<iframe>`               | Embed a relevant YouTube interview clip                                |
+| `<div class="scroll-table">`                                | Wrap wide comparison tables                                            |
+| `<blockquote class="twitter-tweet">`                        | Embed a relevant tweet as evidence                                     |
+| Markdown pipe tables                                        | Structured comparisons                                                 |
+| `<div class="pull-quote">`                                  | Elevate a powerful quote out of the prose                              |
+| `<div class="key-stat">` / `<div class="key-stat-row">`     | Highlight a striking number                                            |
+| `<p class="inner-thought">`                                 | Imagine what the person was thinking in a key moment                   |
+| `<div class="timeline">`                                    | Chronological arc                                                      |
+| `<div class="contrast-panel">`                              | Public vs. private, says vs. does                                      |
+| `<div class="source-card">`                                 | Cite a specific podcast or interview source                            |
+| `<div class="dialogue">`                                    | Recreate a revealing interview exchange                                |
+| `<div class="aside-box">`                                   | Supplementary context                                                  |
+| **Enneagram Rabbit Hole** (`<details>` block)               | Added by a separate flow. Preserve if already in the draft — see below |
 
 **Rules:**
 
 - 2–4 furniture additions per blog. More competes with the writing.
 - Every element must earn its place. If a YouTube embed doesn't add insight the text can't, cut it.
 - No furniture in the intro or the ending. The intro hooks with prose. The ending cuts to black.
-- The **Enneagram Rabbit Hole** is the one mandatory furniture element. Add it once per blog, after the main type analysis section.
+- The **Enneagram Rabbit Hole** is added by a separate flow, not this command. Do not generate one here. If an existing draft already contains one, preserve it — do not strip it during revision. The reference spec below is retained so you can validate an existing block and know what belongs where.
 
-### The Enneagram Rabbit Hole (REQUIRED)
+### The Enneagram Rabbit Hole (Reference — Managed by Separate Flow)
+
+**This command does not generate a Rabbit Hole.** A dedicated flow owns that step. The reference below exists so you can (1) recognize one in an existing draft and preserve it during revision, and (2) validate it passes the structural rules when present.
 
 The Distribution Rule keeps the body free of typology debate so casual readers stay engaged. But power readers come to 9takes specifically for wing/subtype/arrow depth, AND those long-tail terms (`[Person] 3w4`, `[Person] sx/so subtype`, `[Person] integration to type 7`) are exactly the LLM fan-out queries we want to capture.
 
-Solution: a **single collapsed `<details>` block** placed after the main type analysis section that delivers all the advanced Enneagram material in one sealed unit. Casual readers scroll past it. Power users open it. Search engines and LLMs index everything inside.
+The solution the separate flow uses: a **single collapsed `<details>` block** dropped into the body next to the narrative beat it deepens, delivering all the advanced Enneagram material in one sealed unit. Casual readers scroll past it. Power users open it. Search engines and LLMs index everything inside.
 
-**Placement:** after the H2 `What is [Person]'s personality type?` section, before the next narrative section.
+**Placement:** anchor the rabbit hole to a mid-body H2 where the type's core pattern is most visible — usually the `Stress and Growth` section. **Do NOT place it directly after the TL;DR accordion.** Two `<details>` panels stacked back-to-back look broken and bury the opening narrative. Keep at least one full prose H2 between the TL;DR and the rabbit hole.
 
 **Required structure:**
 
@@ -989,20 +1065,22 @@ Before finalizing any blog (new or updated). Every item must pass. Items marked 
 - [ ] **[H] Three most important claims point at evidence**, not adjectives. The thesis restatement, the core-tension summary, and the type diagnosis each reference a specific quote, behavior, number, or moment.
 - [ ] **Confidence calibration** — analysis is confident, not undermined by excessive "likely," "suggests," "appears to be."
 - [ ] **Quote density** — subject's own voice is the dominant material, not paraphrase.
-- [ ] **Testimony (hard gate)** — at least 2 named-source quotes from people around the subject, each with attribution (name + approximate source/year). Quotes the subject gave about themselves do not count.
+- [ ] **Testimony (hard gate — Gate 1)** — Testimony Ledger HTML comment is present with ≥2 enumerated qualifying quotes. Each row has a named speaker other than the subject, a direct quote with quotation marks, an attribution (source + year), and the speaker is commenting on the subject. Paraphrased or narrated actions do not qualify.
 - [ ] **Stat check (strongly encouraged, not required)** — ideally 1–2 specific, sourced, falsifiable numbers are placed where they earn their weight (hook, type diagnosis, counterarguments, or a single accomplishment stat). Examples: "[Person] has written 44 films" (IMDb), "of 23 Type 8 musicians profiled on 9takes, only 3 publicly…" (9takes corpus). See "Statistical Claims & Cited Sources" in Part 1. A blog with zero stats can still ship if the rest is strong — but if you have verifiable numbers and left them out, add them. Do not invent numbers to satisfy this check.
 
-### Enneagram Rabbit Hole
+### Enneagram Rabbit Hole (if present — added by separate flow)
 
-- [ ] **Rabbit Hole present (hard gate)** — the `<details class="enneagram-rabbit-hole">` block exists, placed after the main type analysis section.
-- [ ] **All four sub-sections present** — Wing, Subtype, Stress/Growth Arrows, Counterarguments.
-- [ ] **Word count 400–700 inside the block.** Not a token gesture, not a second blog.
-- [ ] **Frame paragraph present** — the italicized "For the Enneagram nerds…" line at the top.
-- [ ] **Body of the blog stays free of wing/subtype/arrow jargon** — if the body argues wings or subtypes, move it into the rabbit hole.
+This command does not generate a Rabbit Hole. The separate flow that owns it is the source of truth. These checks validate what you encounter in an existing draft.
+
+- [ ] **Preservation** — if the draft already contains a `<details class="enneagram-rabbit-hole">` block, it was not stripped during revision.
+- [ ] **If present, structure is intact** — placed after the main type analysis section; frame paragraph with "For the Enneagram nerds…" line; four sub-sections (Wing, Subtype, Stress/Growth Arrows, Counterarguments); 400–700 words inside.
+- [ ] **Body stays free of wing/subtype/arrow jargon** — if the body argues wings or subtypes, flag it so the Rabbit Hole flow (or a manual edit) can move the material into the block. Do not generate a Rabbit Hole from this command.
 
 ### Headings & titles
 
-- [ ] **[H] H2 mix hits the ratio (hard gate)** — tag each H2 as signature / search-intent / hybrid. At least 2 must be search-intent or hybrid with strong search-intent. No signature-only catalog.
+- [ ] **[H] H2 mix hits the ratio (hard gate — Gate 2)** — Heading Mix Ledger HTML comment is present. Each H2 tagged. At least 2 tagged `search-intent` or strong-hybrid. No signature-only catalog.
+- [ ] **Distribution Rule (hard gate — Gate 5)** — Distribution Ledger HTML comment is present. Type-theory paragraphs outside the diagnosis section and Rabbit Hole ≤ 4. Single-sentence bridges in narrative paragraphs are allowed and do not count.
+- [ ] **Anti-imitation (hard gate — Gate 4)** — ending contains at most one sentence beginning with `"A [Type]"` or `"A [Type]'s"`. No anaphora on type references. Hook does not echo a reference-library object-reveal structure.
 - [ ] **[H] Every H2/H3 passes the heading test** — visualize, falsify, SEO-plausible or ownable (anti-pattern failures flagged: neither flat-category nor opaque-magazine).
 - [ ] **[H] `title` passes visualize** (names the person + a specific frame).
 - [ ] **[H] `meta_title` passes falsify** (a claim, not a mood) and targets 50–60 chars (65 max).
