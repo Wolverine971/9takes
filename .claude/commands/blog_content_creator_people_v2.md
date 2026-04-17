@@ -24,6 +24,48 @@ Use TaskCreate / TaskUpdate to track progress through the workflow. Create an in
 
 ---
 
+## Execution Mode
+
+Two modes:
+
+- **Interactive (default)** — prompt at decision points and wait for user input.
+- **Non-interactive / unattended** — auto-proceed at every wait point without prompting.
+
+### How to detect non-interactive mode
+
+Treat the run as non-interactive if **any** of the following is true:
+
+1. The invocation includes `--non-interactive`, `--auto`, or `--unattended` as an argument
+2. The invocation includes `unattended`, `non-interactive`, or `no prompts` as natural-language text
+3. The command was invoked by an automated workflow — `/daily-blog-creator`, a cron run, or any scripted batch (detectable via `claude --chrome` / `--dangerously-skip-permissions` context, or a parent command that itself ran non-interactively)
+
+Otherwise, default to interactive.
+
+### Non-interactive auto-proceed defaults
+
+Apply these at every step that would normally wait for a user reply:
+
+1. **Type ambiguity (Step 2)** — pick the leading hypothesis and proceed. Log the unresolved ambiguity in working notes (HTML comment in the draft). Do not pause to ask.
+2. **Transcript gather (Step 3, Substep 3b)** — default to **Option B** (fetch transcripts yourself). Invoke the `/youtube-transcript` skill (or `yt-dlp` + `youtube-transcript-api` directly) on 2-4 shortlisted URLs. If every fetch fails, fall back to Option C, log `research_limitation: no_transcripts` in working notes, and continue. Never present the A/B/C prompt to the user in non-interactive mode.
+3. **Hard gates (Gates 1, 2, 4, 5 in Step 5)** — enforce normally. If a gate blocks the draft, do **not** prompt. Save the draft anyway with `production_pretext.status: blocked` and the appropriate blocker (`thin_collaborator_testimony`, `heading_mix_violation`, `anti_imitation_violation`, `distribution_rule_violation`) in the `blockers` list. Include the gate failure in the final output.
+4. **Draft save (Step 8)** — always save with `production_pretext.status: draft` (or `blocked` if a gate failed). Never auto-promote to `ready` in non-interactive mode; human review before production is still required.
+5. **Post-save options menu (Step 8)** — skip the numbered-options menu. Report draft location, internal-link summary, grade, and gate status, then exit.
+6. **Review and refinement (Step 9)** — not applicable. There is no user-in-the-loop iteration in non-interactive mode. A single full pass, gated by the Quality Checklist and the hard gates, is the entire run.
+
+In non-interactive mode, completion output should always include:
+
+```
+MODE: non-interactive
+DRAFT: /src/blog/people/drafts/[Person-Name].md
+STATUS: production_pretext.status = [draft | blocked]
+BLOCKERS: [list or "none"]
+GRADE: [overall] ([letter])  # omit if grading skipped
+GATES: [Gate 1: pass/fail, Gate 2: pass/fail, Gate 4: pass/fail, Gate 5: pass/fail]
+LIMITATIONS: [list or "none"]
+```
+
+---
+
 # Part 1: Reference Guide
 
 These sections define the rules the workflow in Part 2 applies. Everything a writer must follow to produce a 9takes-quality blog lives in this Part — the external playbooks (`prep-prompt-1.md`, `prep-prompt-2.md`, `writing-prompt-1.md`) add research depth and worked examples, not safety. The blog should not fail quality if one of them is skipped.

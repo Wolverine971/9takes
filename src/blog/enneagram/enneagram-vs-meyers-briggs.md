@@ -208,6 +208,8 @@ Let's be honest about the science:
 
 **Neither is "scientific" in the way the Big Five is.** But both can be useful tools for self-reflection, as long as you don't treat them as absolute truth.
 
+If you want to see how the Enneagram actually distributes across a real set of people, our [corpus stats](/corpus-stats) break down 293 public-figure profiles by type and compare those numbers to the two largest public Enneagram datasets that publish distributions.
+
 ## How to Use Both Together
 
 The most powerful approach is combining insights:

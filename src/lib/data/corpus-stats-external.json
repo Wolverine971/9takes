@@ -1,0 +1,95 @@
+{
+	"$comment": "Hand-curated Enneagram distribution data from primary sources. Source of truth: docs/research/enneagram-public-distributions.md. Review before each deploy that changes the comparison section. Not auto-generated.",
+	"last_reviewed": "2026-04-17",
+	"sources": [
+		{
+			"id": "enneagram_personality_com",
+			"name": "enneagram-personality.com Population Distribution",
+			"short_name": "enneagram-personality.com",
+			"url": "https://enneagram-personality.com/en/test/stats/1-enneagram-population-distribution",
+			"methodology": "Self-selected online test-takers (unique-IP and anti-bot filtering; primary type required to score >6% above second-highest).",
+			"sample_size": 200000,
+			"date_range": "2025-01-20 to 2026-04-04 (page updated 2026-04-07)",
+			"complete": true,
+			"type_shares": {
+				"1": 0.115,
+				"2": 0.115,
+				"3": 0.1,
+				"4": 0.122,
+				"5": 0.046,
+				"6": 0.138,
+				"7": 0.136,
+				"8": 0.063,
+				"9": 0.165
+			},
+			"notes": "Only public source verified with a complete 9-type table, sample size, date, and methodology on a single URL. Self-selected online sample."
+		},
+		{
+			"id": "truity",
+			"name": "Truity Personality Test Statistics",
+			"short_name": "Truity",
+			"url": "https://www.truity.com/blog/what-most-common-enneagram-type",
+			"methodology": "Self-selected Truity online test-takers (free opt-in test).",
+			"sample_size": 54000,
+			"date_range": "Published October 2022; relationship survey at n=88,000 dated January 2021",
+			"complete": false,
+			"type_shares": {
+				"5": 0.1,
+				"7": 0.09,
+				"8": 0.15,
+				"9": 0.13
+			},
+			"notes": "Truity has never published a consolidated 9-type table; only Types 5, 7, 8, 9 are given explicit percentages. Type 7 is reported as rarest at 9%, contradicting enneagram-personality.com (13.6%) — the sharpest disagreement in the public data."
+		}
+	],
+	"credibility_references": [
+		{
+			"id": "wagner_1981",
+			"name": "Wagner (1981)",
+			"citation": "Wagner, J. P. (1981). A descriptive, reliability, and validity study of the Enneagram personality typology. Loyola University of Chicago.",
+			"url": "https://ecommons.luc.edu/luc_diss/2109/",
+			"sample_size": 390,
+			"contribution": "Original Wagner Enneagram Personality Inventory (WEPI); foundational Enneagram–Millon correlation."
+		},
+		{
+			"id": "newgent_2004",
+			"name": "Newgent et al. (2004)",
+			"citation": "Newgent, R. A., Parr, P. E., Newman, I., & Higgins, K. K. (2004). The Riso–Hudson Enneagram Type Indicator: Estimates of reliability and validity. Measurement and Evaluation in Counseling and Development, 36(4), 226–237.",
+			"url": "https://www.tandfonline.com/doi/abs/10.1080/07481756.2004.11909744",
+			"sample_size": null,
+			"contribution": "RHETI reliability (Cronbach α ranged .56 to .82)."
+		},
+		{
+			"id": "sutton_2007",
+			"name": "Sutton (2007 / 2013)",
+			"citation": "Sutton, A. (2013). But is it real? A review of research on the Enneagram. IEA Nine Points Journal.",
+			"url": "https://ieaninepoints.com/wp-content/uploads/2019/01/2012-IEA-Journal_Anna-Sutton.pdf",
+			"sample_size": 416,
+			"contribution": "Big Five correlations by Enneagram type; 75% classification accuracy."
+		},
+		{
+			"id": "bartram_brown_2005",
+			"name": "Bartram & Brown (2005)",
+			"citation": "Bartram, D., & Brown, A. (2005). Putting the person into personality: Enneagram and OPQ32 correlations (SHL white paper).",
+			"url": "https://kar.kent.ac.uk/98017/1/Bartram%20&%20Brown%20(2005)%20-%20Putting%20the%20Person%20into%20Personality%20-%20white%20paper.pdf",
+			"sample_size": 241,
+			"contribution": "Significant Enneagram–OPQ32 correlations across multiple scales."
+		},
+		{
+			"id": "hook_2021",
+			"name": "Hook et al. (2021)",
+			"citation": "Hook, J. N., Hall, T. W., Davis, D. E., Van Tongeren, D. R., & Conner, M. (2021). The Enneagram: A systematic review of the literature and directions for future research. Journal of Clinical Psychology, 77(4), 865–883.",
+			"url": "https://onlinelibrary.wiley.com/doi/10.1002/jclp.23097",
+			"sample_size": null,
+			"contribution": "Systematic review — mixed but improving evidence for Enneagram construct validity."
+		},
+		{
+			"id": "integrative9_validity",
+			"name": "Integrative9 iEQ9 Validity Study (2019)",
+			"citation": "Integrative Enneagram Solutions (2019). Testing the iEQ9: Reliability and validity of the Integrative Enneagram Questionnaire.",
+			"url": "https://www.integrative9.com/media/articles/35/testing-the-ieq9-reliability-and-validity",
+			"sample_size": 5910,
+			"contribution": "Adaptive-assessment validity study; over 350,000 cumulative administrations. Per-type distribution not publicly disclosed."
+		}
+	]
+}

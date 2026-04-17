@@ -138,9 +138,40 @@ His biweekly "Dario Vision Quest" meetings involve standing before the entire co
 
 He never wanted to found a company or work in tech. He wanted to discover "fundamental scientific truth." The CEO role is a means, not an end: the minimum organizational structure required to do the thing he actually cares about.
 
-The Five's wing matters here. Dario reads as a 5w6, the Investigator with a Loyalist wing. The [6 wing](/enneagram-corner/enneagram-type-6) adds something the core Five often lacks: institutional thinking, loyalty bonds, and a visceral concern for security. This wing explains Anthropic.
+An Investigator who only cared about understanding would have stayed in academia, accumulating knowledge for its own sake. Dario built an _institution_ around his understanding instead — a company explicitly designed to prepare for worst-case scenarios. The same impulse is why fourteen researchers followed him out of OpenAI. People don't follow pure intellects. They follow people they trust.
 
-A pure Five might have stayed in academia, accumulating knowledge for its own sake. The 6 wing made Dario build an _institution_ around his understanding, a company explicitly designed to prepare for worst-case scenarios. It's also what made fourteen researchers follow him out of OpenAI. People don't follow pure intellects. They follow people they trust.
+<details class="enneagram-rabbit-hole">
+<summary class="accordion">Enneagram Rabbit Hole: Wings, Subtypes &amp; Connecting Lines for Dario Amodei</summary>
+<div class="panel">
+
+<p><em>For the Enneagram nerds. Skip if you're not deep into the system — the rest of the analysis stands on its own.</em></p>
+
+### Dario Amodei's Wing: 5w6
+
+Dario reads as 5w6 — the Investigator with a Loyalist <a href="/enneagram-corner/enneagram-wings-complete-guide">wing</a>. A 5w4 would have stayed in aesthetic theory, writing melancholy papers on consciousness and never founding a company. 5w6 is what turns private understanding into institution. The Responsible Scaling Policy, the ASL levels modeled on biosafety tiers, Anthropic's architecture as a bet against worst-case scenarios — that's 6-wing vigilance grafted onto 5's mapping instinct.
+
+The 6-wing also explains the loyalty bonds. Fourteen researchers don't follow a pure 5 out of OpenAI — they follow someone whose trustworthiness has been demonstrated at close range. "Total and complete trust" in Daniela, amicus briefs from Jeff Dean, Holden Karnofsky working safety strategy inside the org. The 6-wing treats the right people as the load-bearing element of the plan. A 5w4 hoards knowledge; a 5w6 builds a fortress of trusted peers around it.
+
+### Dario Amodei's Instinctual Subtype: sp/so
+
+Dario reads as self-preservation-dominant with social secondary. The sp-5 signature is everywhere: total media invisibility (his wife's name has never appeared in public reporting, no social accounts, no weekend-profile interviews), the boundary around his father's illness maintained across years of press, minimal self-disclosure at every opportunity. Sp-5s conserve. They keep the door closed. The <a href="/enneagram-corner/enneagram-instinctual-subtypes">instinct stack</a> is the cleanest signal on the page.
+
+The social secondary is what puts him on stage at all. Biweekly Vision Quest addresses to the whole company. 14,000-word public essays. Congressional testimony. Pentagon negotiations. These are so-energy outputs — maintaining the group's orientation and the institution's direction. Sexual sits last. The fusion pattern doesn't appear; his collaborations read as long working partnerships, not intensities. Sp holds the gate; So shapes the institution.
+
+### Stress and Growth Arrows
+
+Under pressure, Dario reaches toward Type 7. "Machines of Loving Grace" is the tell — 14,000 words imagining AI curing every major disease, lifting the developing world out of poverty, solving mental health. A centered 5 wouldn't write that essay. A stressed 5 reaches for the 7's possibility-generator to keep the doom map bearable. The essay's scope is escape velocity from a risk surface the Investigator can't tolerate sitting inside any longer.
+
+In growth he moves toward Type 8. The Pentagon red lines are the clearest case: refusing Hegseth's demand to strip the autonomy and surveillance clauses, filing federal suits after the Supply-Chain Risk designation, walking 14 researchers out of OpenAI when the safety argument stalled. Healthy 5-to-8 looks like this — decisive confrontation backed by the map, not chest-thumping. See <a href="/enneagram-corner/enneagram-connecting-lines">the connecting lines</a> for how 5s borrow 8's gut-center force under growth.
+
+### Counterarguments: Why Dario Might Not Be Type 5
+
+The strongest alternate read is Type 6. The worst-case essays, the ASL ladder, the institution built for safety, the loyalty structures and threat modeling — all read as Loyalist signatures at first glance. 5s and 6s share the anxious-head-center cognition; both run worst-case scenarios; both hedge against catastrophe.
+
+The rebuttal: 6s orient around external authorities and group-held certainty. They look for the map to trust, then follow it. Dario is the opposite shape — he insists on his own map, refuses to cede interpretation to the government, writes the framework and then publishes it. A 6 under Pentagon pressure would have found reasons to comply. Dario's response was a 14,000-word essay and two federal lawsuits. That's a 5 defending the perimeter of his own thinking, not a 6 negotiating with authority. Type 1 is the other candidate — moral clarity, red lines — but 1s run hot against an inner critic's "should." Dario's moral clarity is cold and derived from the map. The heat never shows up.
+
+</div>
+</details>
 
 ---
 

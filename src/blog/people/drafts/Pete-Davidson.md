@@ -61,7 +61,7 @@ The tension between erasure and presence runs through everything.
 <ul>
 <li><b>The Chameleon:</b> Jennifer Coolidge called him exactly this, someone you can never get a read on because he becomes whoever he's with.</li>
 <li><b>The Peacekeeper:</b> His go-to move in every crisis is to diffuse tension through humor, even when the crisis is his own mental health.</li>
-<li><b>The 9w8 Snap:</b> He texted Kanye West "I want everything to be smooth," and when Kanye kept pushing, fired back "I'm in bed with your wife." Classic peacemaker-to-fighter escalation.</li>
+<li><b>The peacemaker-to-fighter snap:</b> He texted Kanye West "I want everything to be smooth," and when Kanye kept pushing, fired back "I'm in bed with your wife." Absorbed conflict for months, then cut clean through it in one message.</li>
 <li><b>The Quiet Resilience:</b> Behind the tabloid chaos is someone who fought his way to sobriety, fatherhood, and a career on his own terms.</li>
 </ul>
 </div>
@@ -170,11 +170,11 @@ Look at Pete's history through this lens. The pool at eight. The hair-pulling un
 
 Remember the Volcano Room at America's Camp? A room full of punching bags, "sold out till Thursday." Two hundred grieving children, and the most popular activity was breaking things. Anger was the main event. It just needed permission to come out.
 
-### The 9w8: The Furnace Beneath the Floorboards
+### The Furnace Beneath the Floorboards
 
-Pete is specifically a Nine with an Eight wing. That wing gives him an edge that pure Nines don't always have — it explains why his comedy can turn sharp, why Bill Burr considered him "a peer" rather than a pushover, and why the Kanye West conflict became the most revealing public episode of Pete's personality.
+Pete has an edge most Peacemakers don't carry. It's what lets his comedy turn sharp when it needs to, what made Bill Burr consider him "a peer" rather than a pushover, and what made the Kanye West conflict the most revealing public episode of Pete's personality.
 
-Before Kanye, the Eight wing had already surfaced in private. Pete told [Maron in 2017](https://www.youtube.com/watch?v=-M34WZSZA_M) about the blind rages that led to his BPD diagnosis, episodes where he would "freak out. Like, rage. Rage. Like stuff. And then not remember what happened after." His girlfriend at the time told him, "Something, you snapped." He described coming to after these episodes the way someone describes waking from a blackout, piecing things together from broken objects and fog.
+Before Kanye, the edge had already surfaced in private. Pete told [Maron in 2017](https://www.youtube.com/watch?v=-M34WZSZA_M) about the blind rages that led to his BPD diagnosis, episodes where he would "freak out. Like, rage. Rage. Like stuff. And then not remember what happened after." His girlfriend at the time told him, "Something, you snapped." He described coming to after these episodes the way someone describes waking from a blackout, piecing things together from broken objects and fog.
 
 The Kanye timeline put this dynamic on a public stage. In early 2022, [Kanye](/personality-analysis/Kanye) spent months publicly harassing Pete over his relationship with Kim Kardashian. He released a song threatening to "beat Pete Davidson's ass." He dubbed Pete "Skete" on Instagram. He released an animated music video depicting himself kidnapping and burying a Pete-like figure.
 
@@ -186,9 +186,42 @@ Then Kanye asked where Pete was.
 
 And: "But if you continue to press me like you have for the past 6 months I'm gonna stop being nice."
 
-That's the Eight wing. 9w8s absorb an extraordinary amount of conflict before reacting. They joke, deflect, accommodate, merge. But there's a line, and once crossed, the response isn't diplomatic. It's blunt, aggressive, and startling compared to their usual easygoing nature. Pete went from peacemaker to provocateur in a single text message.
+That's the pattern. Pete absorbs an extraordinary amount of conflict before reacting. He jokes, deflects, accommodates, merges. But there's a line, and once crossed, the response isn't diplomatic. It's blunt, aggressive, and startling compared to his usual easygoing nature. Pete went from peacemaker to provocateur in a single text message.
 
-The Eight wing also surfaces in his comedy when he shifts from self-deprecation to something sharper. His SNL parody of Joe Rogan had real teeth: "I used to host Fear Factor and now doctors fear me." When he needs to, Pete can hit hard. He usually chooses not to.
+The same edge surfaces in his comedy when he shifts from self-deprecation to something sharper. His SNL parody of Joe Rogan had real teeth: "I used to host Fear Factor and now doctors fear me." When he needs to, Pete can hit hard. He usually chooses not to.
+
+<details class="enneagram-rabbit-hole">
+<summary class="accordion">Enneagram Rabbit Hole: Wings, Subtypes &amp; Connecting Lines for Pete Davidson</summary>
+<div class="panel">
+
+<p><em>For the Enneagram nerds. Skip if you're not deep into the system — the rest of the analysis stands on its own.</em></p>
+
+### Pete Davidson's Wing: 9w8
+
+Pete reads as 9w8 — the Peacemaker with a Challenger <a href="/enneagram-corner/enneagram-wings-complete-guide">wing</a>. A 9w1 would be tidier, more principled, more likely to moralize under pressure. Pete is the opposite: physical, earthy, explosive when the line gets crossed. The 9w8 signature is the BPD blind rages — "freak out. Like, rage. Rage. Like stuff. And then not remember." 9w1s don't blackout-rage; they get stiff and disapproving.
+
+The 8-wing is what makes Pete a peer to Bill Burr instead of a punching bag, what lets the Joe Rogan parody actually land with teeth, and what surfaced in the single text that ended the Kanye conflict. "I want everything to be smooth" is the 9. "In your wife's bed" is the 8-wing cutting through when accommodation stops working. Most 9s can't access that edge. 9w8s can — but only once the absorbing has run its course.
+
+### Pete Davidson's Instinctual Subtype: sx/sp
+
+Pete reads as sexual-dominant with self-preservation secondary — and social-blind. The sx-9 signature is the total-immersion relationship pattern. Matching tattoos with Grande within weeks. Bleached hair and Skims for Kardashian. "Sometimes you want to make your outside match how you feel on the inside." That's sx fusion — the <a href="/enneagram-corner/enneagram-instinctual-subtypes">instinct</a> that collapses the boundary between self and the intimate other because the other's weather is easier to feel than his own.
+
+Self-preservation sits second and runs the recovery work: DBT workbooks, rehab pauses, the garage podcast, the quiet life outside New York, the decade-long tattoo removal. Social is the blind spot. He's off social media entirely, avoids Hollywood's networking rituals, calls the whole thing "a trap" where "everybody can smell it on you." So-blind 9s withdraw from public orientation as self-protection — and when they retreat, they retreat all the way.
+
+### Stress and Growth Arrows
+
+Under pressure, Pete reaches toward Type 6. The BPD-driven suspicion loops are the clearest case: engineer a reassurance, disbelieve it, treat the breakdown as proof. The man whose baseline is "OK, cool" becomes the person who can't stop scanning for betrayal. A stressed 9 borrows the 6's hyper-vigilance without the 6's framework to contain it.
+
+In growth he moves toward Type 3. The Peacock series with Pesci is the signature case: Pete co-wrote it, fought for the casting, built a set where "best joke wins, best take wins." Not the shapeshifter chasing validation, but a person who discovered what he actually wanted and went after it. See <a href="/enneagram-corner/enneagram-connecting-lines">the connecting lines</a> for how 9s borrow 3's focused drive when they finally wake up to their own agency.
+
+### Counterarguments: Why Pete Might Not Be Type 9
+
+The strongest alternate read is Type 4. The melancholy, the self-loathing, "I don't belong here," the stranger-in-his-own-photos line, the cutting and the tattooing — all look like the Individualist's signature relationship to pain. A 4 reading would say Pete's entire aesthetic is shaped grief, and the drift between partners is the Romantic's restless search for the feeling that finally fits.
+
+The rebuttal: 4s intensify feelings to build identity. Pete numbs his to escape identity. A 4 in Pete's position would collect uniqueness — hoard the grief, write the memoir, treat the pain as the thing that makes him who he is. Pete is doing the opposite. He's removing the tattoos, stepping off social media, spending years trying to get to "okay." A 4 would never want "okay" — it's the deadest possible outcome to a Romantic. Pete's explicit goal, stated to Maron: "I would love to be okay, Marc. That would be incredible." That's the 9's vocabulary, not the 4's.
+
+</div>
+</details>
 
 ## The Relationship Pattern
 
@@ -210,7 +243,7 @@ He described calling bluffs, pushing people away to test whether they'd leave. "
 
 On [_WTF_](https://www.youtube.com/watch?v=-M34WZSZA_M), he described the manipulative conversational loops: engineering conversations to get specific reassurances, then disbelieving those reassurances, creating exhausting cycles for partners. "You don't love me." "Of course I do." "No, I know something's up." And when they finally broke down: "Okay, I see. I knew it."
 
-The Enneagram maps this spiral. When Nines lose their footing, they swing toward the anxiety and suspicion of Type Six. The man whose default is "OK, cool" becomes the person who can't stop scanning for betrayal. Pete described it himself: engineer a reassurance, disbelieve it, treat the breakdown as proof. It's the opposite of the Nine's natural state — instead of falling asleep to the threat, he couldn't stop seeing threats everywhere.
+The whole spiral is a reversal of his default. The man whose baseline is "OK, cool" becomes the person who can't stop scanning for betrayal. Pete described it himself: engineer a reassurance, disbelieve it, treat the breakdown as proof. Instead of falling asleep to the threat, he couldn't stop seeing threats everywhere.
 
 Then came the cultural moment he never wanted. In 2018, a comment from Grande about Pete's anatomy went viral as "Big Dick Energy," a meme that consumed the internet and reduced him to a punchline. "No one talked about any work I was doing," he said. "That hurt so much."
 
@@ -326,7 +359,7 @@ It's the first project Pete has been proud of. "I've never said this about anyth
 
 There's a version of Pete Davidson that never gets here. The version that keeps drifting, keeps absorbing other people's gravity, keeps asking to be fired from his own life. What changed wasn't just sobriety or therapy — it was direction. He co-wrote the show. He fought for Pesci. He built a set where the best idea wins. For the first time, Pete wasn't orbiting someone else's world. He was building his own and standing behind it.
 
-In Enneagram terms, this is what happens when a Nine wakes up — they move toward the focused, purposeful energy of a healthy Three. Not the shapeshifter chasing validation, but the person who discovers what they actually want and goes after it. Pete probably wouldn't use that language. He'd just say he finally got tired of being sick of himself.
+This is what happens when a Peacemaker wakes up. Not the shapeshifter chasing validation, but the person who discovers what they actually want and goes after it. Pete probably wouldn't use that language. He'd just say he finally got tired of being sick of himself.
 
 He's off social media entirely. "We live in a doom scrolling world where we're all trying to be what we think people want us to be," he told Variety, "and that's not a healthy way to live." He moved to a quieter life outside New York. He told W Magazine: "I just want to be known for doing good work. I want to be out there only when it's movie, stand-up, charity, or business ventures. That's when I want to be seen."
 

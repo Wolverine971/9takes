@@ -2,7 +2,7 @@
 import type { PageServerLoad } from './$types';
 import { dev } from '$app/environment';
 import type { Actions } from './$types';
-import { error } from '@sveltejs/kit';
+import { error, redirect } from '@sveltejs/kit';
 import type { Database } from '../../../../database.types';
 import type { SupabaseClient } from '@supabase/supabase-js';
 import {
@@ -10,6 +10,7 @@ import {
 	type PersonalitySimilarityRow
 } from '$lib/server/personalitySimilarity';
 import {
+	buildPersonalityAnalysisPath,
 	buildPersonalityAnalysisUrl,
 	normalizePersonalitySlug
 } from '$lib/utils/personalityAnalysis';
@@ -23,6 +24,12 @@ export const load: PageServerLoad = async (event) => {
 	const session = event.locals.session;
 	const user = session?.user;
 	const requestedSlug = event.params.slug;
+	const canonicalSlugParam = normalizePersonalitySlug(requestedSlug);
+
+	if (canonicalSlugParam && requestedSlug !== canonicalSlugParam) {
+		throw redirect(301, buildPersonalityAnalysisPath(canonicalSlugParam) + event.url.search);
+	}
+
 	const cookie = event.cookies.get('9tfingerprint');
 	const supabase = event.locals.supabase;
 
@@ -41,7 +48,7 @@ export const load: PageServerLoad = async (event) => {
 	const { data: personDataRaw } = await supabase
 		.from('blogs_famous_people')
 		.select('*')
-		.ilike('person', requestedSlug)
+		.eq('person', canonicalSlugParam)
 		.maybeSingle();
 	const personData = personDataRaw as FamousPersonRow | null;
 

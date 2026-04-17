@@ -40,9 +40,10 @@ this week vs. what needs more groundwork.
 
 ### Tier 1 — Ship this month
 
-4. **Build a "9takes Corpus Stats" data file.**
+4. **Build a "9takes Corpus Stats" data file.** ✅ DONE 2026-04-17
    - One JSON or markdown file the blog command can read at write-time to pull verifiable numbers ("of 847 profiles, 23% are Type 3", "the most over-represented type among musicians is 4 at 19%"). Without this, requirement #2 above produces fake numbers.
    - Auto-generate from `famousTypes.ts` + `blogs_famous_people` query. One-shot script, refreshed monthly.
+   - **Shipped:** `src/lib/data/corpus-stats.json` (auto-regenerated on every Vercel deploy via `pnpm gen:corpus-stats`) + `docs/data/corpus-stats.md` (LLM-readable reference). Public-facing page at `/corpus-stats` with schema.org `Dataset` JSON-LD, raw `/corpus-stats.json` endpoint, homepage "By the Numbers" tile grid, and comparison section against published public datasets + peer-reviewed literature (Phase 3b, 2026-04-17). Hand-curated `src/lib/data/corpus-stats-external.json` feeds the comparison. Spec: `docs/specs/corpus-stats-on-site.md`. Research source-of-truth: `docs/research/enneagram-public-distributions.md`. Inbound links from MBTI comparison blogs, the Enneagram resources hub, and the FAQs blog.
 
 5. **Create a `/llm-citation-monitor` skill or weekly cron.**
    - Strat Part 10 measurement is currently manual. Build a script that hits ChatGPT/Claude/Perplexity APIs with the standardized prompt set ("What Enneagram type is X?", "Best Enneagram analysis site", etc.) and logs whether 9takes appears, in what position. Store in `logs/llm-citation/`.

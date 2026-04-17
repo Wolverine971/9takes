@@ -61,7 +61,7 @@ The question is where that desperation comes from. And the answer starts in a to
 <ul>
 <li><b>Survival through reframing:</b> From childhood poverty to suicidal ideation, Hearon learned to convert every dark thing into something funny, a textbook Enthusiast mechanism.</li>
 <li><b>Restless creative energy:</b> HBO special, chart-topping podcast, two films, a Hulu sitcom, and stand-up touring, all simultaneously.</li>
-<li><b>Connection as oxygen:</b> Everything he builds is oriented around making people feel less alone, the hallmark of a Social Seven.</li>
+<li><b>Connection as oxygen:</b> Everything he builds is oriented around making people feel less alone, the hallmark of the Enthusiast.</li>
 <li><b>Depth emerging:</b> His father material in the special and the autobiographical film <em>Trash Mountain</em> signal a comedian learning to sit with what he used to outrun.</li>
 </ul>
 </div>
@@ -145,13 +145,44 @@ When asked whether performing that material felt cathartic or draining, he was c
 
 An act of love. Expressed by converting a dead man's life into a comedy set. For most people, that would sound cold. For a Seven, it's the most intimate thing they know how to do.
 
-### The Social Seven: Connection as Oxygen
-
-Hearon isn't just any Seven. He's a Social Seven, the subtype that channels restless energy into building community and creating shared joy. Social Sevens sacrifice their own needs for the group. They're the ones planning the trip, organizing the party, making sure everyone's having a good time.
+### Community as Mission
 
 "All of this is about community and about connecting with each other," Hearon told Sharp Magazine. "In all of these spaces, I'm there in service of the larger idea and the larger goal of connecting with people."
 
 In service. Not in pursuit of fame or money. In service. His podcast So True (a weekly solo-host interview show he launched in February 2024 from a Brooklyn studio he calls "Legitimate Business World Headquarters") racked up a million downloads in its first three months and has accumulated over 43 million YouTube views. The format is deceptively simple: one conversation, no co-host, no games, just Hearon getting people to say things they didn't plan to say. The guest list runs from Kumail Nanjiani and Rachel Sennott to queer historians and union organizers. One episode is literally titled "Confronting a Union Organizer." He organized with Black Lives Matter in college and currently organizes with KC Tenants, a Missouri affordable-housing nonprofit.
+
+<details class="enneagram-rabbit-hole">
+<summary class="accordion">Enneagram Rabbit Hole: Wings, Subtypes &amp; Connecting Lines for Caleb Hearon</summary>
+<div class="panel">
+
+<p><em>For the Enneagram nerds. Skip if you're not deep into the system — the rest of the analysis stands on its own.</em></p>
+
+### Caleb Hearon's Wing: 7w6
+
+The 6 <a href="/enneagram-corner/enneagram-wings-complete-guide">wing</a> is what keeps Hearon anchored to specific people rather than spinning off into pure novelty. A 7w8 would play bigger rooms, burn through collaborators, and treat loyalty as a speed bump. Hearon's shape is the opposite. He and Holmes have been building together since they both landed at iO in 2017. The Hulu pilot _Stuck_ came out of a ten-day writing sprint in Kansas City. That's 6-wing loyalty — picking one person and growing the career around them.
+
+The 6-wing also explains the anxiety underneath the stage persona. "Public attention is a very poisonous thing and it will really destroy somebody." 8-wings like the weight of attention; 7w6 scans for threat and can't turn the radar off. The hyper-consciousness as a kid about what his mother's Christmas sacrifice cost is the same radar, pointed at family finances instead of celebrity scrutiny.
+
+### Caleb Hearon's Instinctual Subtype: so/sx
+
+Hearon reads as social-dominant with sexual secondary. So-7s are the community architects — the ones organizing the party, producing the variety show, building the podcast network, doing the tenant-union work on the side. The <a href="/enneagram-corner/enneagram-instinctual-subtypes">instinct stack</a> is visible in how he spends his time: podcast as connective tissue, BLM and KC Tenants as deliberate labor, the HBO special framed as dinner with friends where someone stands up and starts telling a story. Everything is pitched at the group.
+
+The sexual secondary is what gives the character videos and stand-up their intimacy — the front-facing camera, the directness of direct address, the way guests on _So True_ admit things they didn't plan to say. Self-preservation sits last. He grew up poor, still splits time between Brooklyn and Kansas City rather than locking into one base, and frames the cost of fame against his grandfather's railroad labor. Sp-7s protect their appetites first; Hearon reliably gives his to the room.
+
+### Stress and Growth Arrows
+
+Under pressure, Hearon collapses toward Type 1. The admin-assistant-by-day, jokes-by-night grind in Chicago is that arrow firing — structured, perfectionistic, intensely self-critical. So is the advice at Penn State: "I don't recommend having patience... being really kind of intense and annoying about it." That's 7-in-stress wearing 1's severity as a production discipline. When the reframe engine sputters, he doesn't relax — he tightens.
+
+In growth he pulls toward Type 5. The HBO special's father material, the _Trash Mountain_ screenplay, the willingness to sit publicly inside grief rather than pivot away from it — those are 5-flavored moves. A healthy 7 borrows the Investigator's tolerance for depth, converting restless motion into sustained focus on something that hurts. See <a href="/enneagram-corner/enneagram-connecting-lines">the connecting lines</a> for how 7s metabolize 5's depth.
+
+### Counterarguments: Why Caleb Hearon Might Not Be Type 7
+
+The strongest alternate read is Type 2. "I just really, really, really want to connect with people. I'm desperate for it" sounds like the Helper's core motive. The service orientation (BLM, KC Tenants, "in service of the larger goal"), the phone call to check on MrBeast's mental health, the grace extended to his father — all 2-shaped on the surface.
+
+The rebuttal: 2s metabolize pain through relational attention, not by converting it into product and filing it away. Hearon's explicit method — "get some of the stuff about my dad in there so I can stop talking about it on stage" — is the 7's pain-to-material alchemy, the thing a 2 structurally cannot do. A 2 in his position would sit longer with the father grief in private and perform less of it. Hearon makes the grief into a closing bit at Constellation. That's the Enthusiast metabolism, dressed in the Helper's clothes because the Social instinct reads like caretaking from the outside.
+
+</div>
+</details>
 
 ---
 

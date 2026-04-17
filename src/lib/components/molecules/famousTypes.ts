@@ -10,7 +10,7 @@ export const famousTypes: { [index: number]: { name: string; link: boolean; hasI
 		{ name: 'gwyneth-paltrow', link: true, hasImage: true, lastmod: '2026-01-23', personaTitle: 'Wellness\'s Relentless Reformer', contentGrade: 9.2 },
 		{ name: 'hillary-clinton', link: true, hasImage: true, lastmod: '2026-03-23', personaTitle: 'Politics\' Iron Administrator', contentGrade: 9.2 },
 		{ name: 'j.k.-rowling', link: true, hasImage: true, lastmod: '2026-02-19', personaTitle: 'Literature\'s Moral Architect', contentGrade: 9 },
-		{ name: 'james-dyson', link: false, hasImage: true, lastmod: '2026-03-28', personaTitle: 'Engineering\'s Relentless Reformer', contentGrade: 9 },
+		{ name: 'james-dyson', link: true, hasImage: true, lastmod: '2026-04-17', personaTitle: 'Engineering\'s Relentless Reformer', contentGrade: 9 },
 		{ name: 'jordan-peterson', link: true, hasImage: true, lastmod: '2026-02-18', personaTitle: 'Psychology\'s Weeping Crusader', contentGrade: 9.4 },
 		{ name: 'kourtney-kardashian', link: true, hasImage: true, lastmod: '2026-03-28', personaTitle: 'Reality\'s Reluctant Reformer', contentGrade: 8.9 },
 		{ name: 'krystal-ball', link: true, hasImage: true, lastmod: '2026-02-23', personaTitle: 'Media\'s Principled Arsonist', contentGrade: 9 },

@@ -47,6 +47,45 @@ If the user wants production actions after the writing is done, hand off to `blo
 
 ---
 
+## Execution Mode
+
+This command runs in one of two modes:
+
+- **Interactive (default)** — prompts at decision points and waits for user input.
+- **Non-interactive / unattended** — auto-proceeds at every wait point without prompting.
+
+### How to detect non-interactive mode
+
+Treat the run as non-interactive if **any** of the following is true:
+
+1. The invocation includes `--non-interactive`, `--auto`, or `--unattended` as an argument
+2. The invocation includes `unattended`, `non-interactive`, or `no prompts` as natural-language text
+3. The command was invoked by an automated workflow — `/daily-blog-creator`, a cron run, or any scripted batch (detectable via `claude --chrome` / `--dangerously-skip-permissions` context, or a parent command that itself ran non-interactively)
+
+Otherwise, default to interactive.
+
+### Non-interactive auto-proceed defaults
+
+Apply these at every step that would normally wait for a user reply:
+
+1. **Type ambiguity (Step 2)** — pick the leading hypothesis and proceed. Log the unresolved ambiguity in working notes (HTML comment in the draft). Do not pause to ask.
+2. **Transcript gather (Step 3)** — do not wait for the user to supply transcripts. Attempt to fetch 2-4 shortlisted URLs yourself via the `/youtube-transcript` skill (or `yt-dlp` + `youtube-transcript-api` directly). If every fetch fails, proceed without transcripts and log `research_limitation: no_transcripts` in working notes.
+3. **Draft save (Step 8)** — always save with `production_pretext.status: draft`. Never auto-promote to `ready` in non-interactive mode; human review before production is still required.
+4. **Post-save options menu (Step 8)** — skip the numbered-options menu. Report draft location, internal-link summary, and grade (if applied), then exit.
+5. **Review and refinement (Step 9)** — not applicable. There is no user-in-the-loop iteration in non-interactive mode. A single full pass, gated by the Quality Checklist and Copywriting Pass, is the entire run.
+
+In non-interactive mode, completion output should always include:
+
+```
+MODE: non-interactive
+DRAFT: /src/blog/people/drafts/[Person-Name].md
+STATUS: production_pretext.status = draft (human review required before production)
+GRADE: [overall] ([letter])  # omit if not graded
+LIMITATIONS: [list or "none"]
+```
+
+---
+
 # Part 1: Reference Guide
 
 These sections define the rules and standards. The workflow steps in Part 2 reference them.

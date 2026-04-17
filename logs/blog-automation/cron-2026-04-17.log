@@ -1,0 +1,90 @@
+[2026-04-17 02:03:01] [INFO] Starting daily blog creator
+[2026-04-17 02:03:01] [INFO] Pre-flight: pause=false, inProgress=null, rateLimit=1/5
+[2026-04-17 02:03:01] [INFO] SELECTED: snoop-dogg (Type 9, Priority 90) - Cultural icon, fills Type 9 gap
+## Research Synthesis: Snoop Dogg
+
+### Proposed Enneagram Typing: **9w8** (Peacemaker with Challenger wing)
+
+**Internal lens brief (informed by 3 internal posts):**
+- `/enneagram-corner/enneagram-type-9` — core 9 framework: self-forgetting, buried anger, merging
+- `/enneagram-corner/enneagram-types-in-stress` — 9 stress pattern: numbing out, passive-aggressive disappearance, "I'm fine"
+- `/enneagram-corner/enneagram-and-mental-illness` — 9 mental health patterns: self-narcotizing, dissociation
+
+**Evidence for 9w8:**
+- Unflappable laid-back affect (9) paired with street backbone (8 wing)
+- Constant self-narcotizing through weed (classic 9 numbing)
+- Merges with every environment — Crips → Death Row → No Limit → Rastafari → Christianity → Martha Stewart → Olympics → NBC
+- Never publicly beefs; the great bridge-builder of American culture
+- Stress to 6: fear-driven retreat from gang life post-1996 acquittal; founded youth football league
+- Integration to 3: relentless reinvention — Snoop Lion, gospel, cooking shows, NBC correspondent, Death Row owner
+
+### Core Tension
+
+**The gangster who became America's grandpa.** Or more precisely: *the man who discovered his calm was a survival weapon — and never stopped using it.* Behind the universal beloved-ness sits a buried question: is the peace real, or has Snoop merged with so many worlds that even he no longer knows where the Calvin Broadus underneath actually lives?
+
+### Psychological Question
+
+What happens to your original self when merging with the world is your defense mechanism — and it works so well that the world loves you back?
+
+### Small Moments Found
+
+1. **Hung up on Dr. Dre** thinking it was a prank call — the 9's instinct not to take up space
+2. **Afeni Shakur sending him to the bathroom** before seeing Tupac on life support: "My baby ain't never seen you weak." He fixed his face and walked back in
+3. **The Solo Stove "I'm giving up smoke" bit** — he tricked the entire country for a fire pit paycheck
+4. **"I felt like Muhammad Ali. When you hold the torch, you're a peace messenger."** From a man once on trial for murder
+5. **Still lives in the same Diamond Bar house** he bought in 1998 — worth $2.2M now, won't leave
+6. **Played "Stand By Me"** at his concert the night his mother died
+7. **Got publicly rejected by Bunny Wailer** after his Rastafari conversion. He just… moved on. To gospel. Then country
+
+### Recommended Podcasts/Interviews for Transcript Analysis
+
+| # | Title | Why It's Valuable | URL |
+|---|-------|-------------------|-----|
+| 1 | Snoop Dogg on The Howard Stern Show (2018, full interview) | Most candid about childhood, gang life, first Dre audition, what he learned about himself | [The Global Herald](https://theglobalherald.com/entertainment/snoop-dogg-on-the-howard-stern-show-full-2018-interview/) |
+| 2 | Snoop Dogg on The Breakfast Club (various) | Street-level candor, peer-to-peer honesty about feuds and transitions | search "Snoop Dogg Breakfast Club" |
+| 3 | Snoop Dogg: Tupac Rock & Roll Hall of Fame Induction Speech (2017) | His most vulnerable public testimony about brotherhood, loss, love | YouTube search |
+| 4 | Snoop Dogg on Million Dollaz Worth of Game w/ Gillie & Wallo | Long-form, unguarded, spiritual reflections and grief | YouTube search |
+| 5 | Snoop Dogg on Drink Champs (N.O.R.E.) | Deep hip-hop history, relationships with Dre, Tupac, Master P | YouTube search |
+
+---
+
+## Your Options
+
+1. **Grab transcripts from 2-4 of the above and share them with me** (preferred — will sharpen direct quotes significantly)
+2. **Proceed with the research I have now** — I can write a strong draft using the quotes and primary-source material gathered from the research pass
+
+Which would you like?
+[2026-04-17 02:30:00] [ERROR] Blog content creator completed without producing draft
+[2026-04-17 02:30:00] [ERROR] Process paused at "Research Synthesis" decision point asking user to choose between fetching transcripts or proceeding. Non-interactive mode cannot respond.
+[2026-04-17 02:30:00] [WARN] Restoring snoop-dogg to top of queue with retryCount=1
+[2026-04-17 02:30:00] [WARN] Rate limit NOT incremented (workflow issue, not content completion)
+[2026-04-17 02:30:00] [INFO] Daily blog creator complete (FAILURE)
+```
+=== DAILY BLOG CREATOR SUMMARY ===
+Date: 2026-04-17
+Status: ⚠️ FAILED
+Blog: Snoop Dogg (Type 9, Priority 90)
+Retry: 1/3
+Duration: ~25 min (research complete, draft not written)
+
+Error: Content creator produced research synthesis (9w8 typing,
+core tension, small moments, recommended podcasts) but paused at
+a "Your Options" decision point asking the user to choose between
+fetching podcast transcripts or proceeding with existing research.
+Non-interactive subprocess had no way to answer, so it exited.
+
+Action Taken:
+  • Restored snoop-dogg to top of queue with retryCount=1
+  • Cleared inProgress
+  • Rate limit NOT incremented (workflow bug, not content failure)
+  • Research output preserved in cron log
+
+Recommendation: `/blog_content_creator_people` needs an auto-proceed
+default (or --non-interactive flag) for unattended runs — otherwise
+this will fail again tomorrow on the same step.
+
+Next Run: Tomorrow 2:00 AM (will retry Snoop Dogg)
+===================================
+```
+
+The research work wasn't wasted — it's in `logs/blog-automation/cron-2026-04-17.log`. You may want to either (1) run `/blog_content_creator_people snoop-dogg` manually and pick option 2 when prompted, or (2) patch the creator skill to auto-proceed so tomorrow's cron run succeeds.

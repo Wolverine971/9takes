@@ -168,6 +168,12 @@ Not sure of your type? See our [full comparison of Enneagram tests](/enneagram-c
 
 - <a  target="_blank" rel="noopener" href="https://www.internationalenneagram.org/">International Enneagram Association</a> (IEA): The professional body for Enneagram practitioners. Hosts global conferences, maintains accreditation standards, and publishes the Nine Points magazine.
 
+### Data & Research
+
+- [9takes Corpus Stats](/corpus-stats): Live distribution of Enneagram types across 293 publicly-documented figures on 9takes, broken out by professional domain (musicians, tech founders, comedians, politicians) and compared side-by-side with the two largest public test-taker datasets (Truity, enneagram-personality.com) and the peer-reviewed literature. Regenerated on every deploy. Citable as a public dataset.
+
+- <a target="_blank" rel="noopener" href="https://enneagram-personality.com/en/test/stats/1-enneagram-population-distribution">Enneagram-Personality.com Population Distribution</a>: The only public source we've found that publishes a complete 9-type distribution table with sample size, date, and methodology on a single page. n ≈ 200,000 online test-takers as of 2026.
+
 </article>
 
 <article class="section-content">
@@ -702,7 +708,7 @@ Look for certification from the International Enneagram Association (IEA), train
 
 ### Is the Enneagram scientifically validated?
 
-The honest answer: it's promising but not settled science. A <a  target="_blank" rel="noopener" href="https://pubmed.ncbi.nlm.nih.gov/33332604/">2021 systematic review</a> in the _Journal of Clinical Psychology_ (Hook et al.) analyzed 104 independent samples and found mixed but growing evidence of reliability and validity. The majority of published studies are doctoral dissertations and specialty journal articles; relatively few have appeared in mainstream psychology journals yet. The Enneagram lacks the extensive validation of the Big Five, but practitioners and a growing number of researchers argue it captures dimensions of personality (especially around motivation and defense mechanisms) that other models miss. Read more in our guide to [Enneagram science and mental health](/enneagram-corner/mental-health/enneagram-science-mental-health).
+The honest answer: it's promising but not settled science. A <a  target="_blank" rel="noopener" href="https://pubmed.ncbi.nlm.nih.gov/33332604/">2021 systematic review</a> in the _Journal of Clinical Psychology_ (Hook et al.) analyzed 104 independent samples and found mixed but growing evidence of reliability and validity. The majority of published studies are doctoral dissertations and specialty journal articles; relatively few have appeared in mainstream psychology journals yet. The Enneagram lacks the extensive validation of the Big Five, but practitioners and a growing number of researchers argue it captures dimensions of personality (especially around motivation and defense mechanisms) that other models miss. Read more in our guide to [Enneagram science and mental health](/enneagram-corner/mental-health/enneagram-science-mental-health). We also publish our own ongoing [corpus distribution comparison](/corpus-stats) against the largest public test-taker datasets and the peer-reviewed literature.
 
 ### How is the Enneagram different from Myers-Briggs?
 

@@ -17,7 +17,7 @@ export const WELCOME_SEQUENCE_CONTENT: WelcomeSequenceContent[] = [
 		subject: "You answer before you read. Here's why that matters.",
 		preheader: 'Most apps train you to read the room first. 9takes flips the order.',
 		htmlContent: `<p>Hi {{first_name}},</p>
-<p>Most social apps train you to read the room first. 9takes works in the opposite order.</p>
+<p>Reading the room feels like wisdom. Most of the time it is mimicry with extra steps. 9takes inverts that on purpose.</p>
 <ol>
   <li>Pick a question that feels real.</li>
   <li>Answer before seeing the crowd.</li>
@@ -25,12 +25,12 @@ export const WELCOME_SEQUENCE_CONTENT: WelcomeSequenceContent[] = [
 </ol>
 <p>The value is the gap: what you noticed, what other people noticed, and what everyone assumed too quickly.</p>
 <p><a class="button" href="{{questions_url}}">Answer one question</a></p>
-<p>Start with the question that gives you an instant opinion. That usually means there is something worth seeing.</p>
-<p>Want the longer version of why I built it this way? <a href="https://9takes.com/community/introducing-9takes">Read "Introducing 9takes: Answer First, Then Compare Perspectives."</a></p>
+<p>Start with the one that gives you an instant opinion. That reaction is usually where the signal is.</p>
+<p>Want the longer version of why I built it this way? <a href="https://9takes.com/community/introducing-9takes">Read "Introducing 9takes: Answer First, Then Compare Perspectives"</a>.</p>
 <p>DJocrates<br />9takes.com</p>`,
 		plainText: `Hi {{first_name}},
 
-Most social apps train you to read the room first. 9takes works in the opposite order.
+Reading the room feels like wisdom. Most of the time it is mimicry with extra steps. 9takes inverts that on purpose.
 
 1. Pick a question that feels real.
 2. Answer before seeing the crowd.
@@ -40,7 +40,7 @@ The value is the gap: what you noticed, what other people noticed, and what ever
 
 Answer one question: {{questions_url}}
 
-Start with the question that gives you an instant opinion. That usually means there is something worth seeing.
+Start with the one that gives you an instant opinion. That reaction is usually where the signal is.
 
 Want the longer version of why I built it this way? Read "Introducing 9takes: Answer First, Then Compare Perspectives": https://9takes.com/community/introducing-9takes
 
@@ -62,7 +62,7 @@ DJocrates
 <p>Same moment. Different read. That is where the real conversation starts.</p>
 <p>Try it on a live question. Answer first, then look for the assumption you did not realize you were making.</p>
 <p><a class="button" href="{{questions_url}}">Try the loop</a></p>
-<p>A warning though: your "first read" usually isn't yours. A single fake upvote shifts a comment's score by 25%, which is why reading-the-room-first is dangerous. <a href="https://9takes.com/community/memetic-comments">Read "Memetic Comments: Why Your Online Opinions Aren't Really Yours."</a></p>
+<p>Fair warning: your "first read" usually isn't yours. A single fake upvote shifts a comment's score by 25%, which is why reading the room first is dangerous. <a href="https://9takes.com/community/memetic-comments">Read "Memetic Comments: Why Your Online Opinions Aren't Really Yours"</a>.</p>
 <p>DJocrates<br />9takes.com</p>`,
 		plainText: `Hi {{first_name}},
 
@@ -80,7 +80,7 @@ Try it on a live question. Answer first, then look for the assumption you did no
 
 Try the loop: {{questions_url}}
 
-A warning though: your "first read" usually isn't yours. A single fake upvote shifts a comment's score by 25%, which is why reading-the-room-first is dangerous. Read "Memetic Comments: Why Your Online Opinions Aren't Really Yours": https://9takes.com/community/memetic-comments
+Fair warning: your "first read" usually isn't yours. A single fake upvote shifts a comment's score by 25%, which is why reading the room first is dangerous. Read "Memetic Comments: Why Your Online Opinions Aren't Really Yours": https://9takes.com/community/memetic-comments
 
 DJocrates
 9takes.com`
@@ -94,11 +94,10 @@ DJocrates
 <p>Weak question: <em>Why are people so fake?</em></p>
 <p>Better question: <em>My friend is warm in person but takes days to reply. What might be going on?</em></p>
 <p>The second one gives people something real to work with. They can name different motives, fears, habits, and blind spots without pretending one answer explains everyone.</p>
-<p>You can answer a current question for free, then read the comments and compare what other people noticed.</p>
-<p>Asking your own question is different. If there is a situation you keep replaying and you want to post it, sign up first.</p>
-<p><a class="button" href="{{questions_url}}">Answer a current question</a></p>
-<p><a href="https://9takes.com/register">Sign up to ask one</a></p>
-<p>This same shift — stop trying to win, start asking questions that can actually be answered — is how online arguments turn into real conversations. <a href="https://9takes.com/community/what-winning-online-arguments-looks-like">Read "What Winning Online Arguments Looks Like."</a></p>
+<p>If there is a situation you keep replaying in your head, that is the one to post. You will get reads you did not think of.</p>
+<p><a class="button" href="https://9takes.com/questions/create">Ask your own question</a></p>
+<p><a href="{{questions_url}}">Or answer a current one first</a></p>
+<p>This same shift — stop trying to win, start asking questions that can actually be answered — is how online arguments turn into real conversations. <a href="https://9takes.com/community/what-winning-online-arguments-looks-like">Read "What Winning Online Arguments Looks Like"</a>.</p>
 <p>DJocrates<br />9takes.com</p>`,
 		plainText: `Hi {{first_name}},
 
@@ -110,12 +109,10 @@ Better question: My friend is warm in person but takes days to reply. What might
 
 The second one gives people something real to work with. They can name different motives, fears, habits, and blind spots without pretending one answer explains everyone.
 
-You can answer a current question for free, then read the comments and compare what other people noticed.
+If there is a situation you keep replaying in your head, that is the one to post. You will get reads you did not think of.
 
-Asking your own question is different. If there is a situation you keep replaying and you want to post it, sign up first.
-
-Answer a current question: {{questions_url}}
-Sign up to ask one: https://9takes.com/register
+Ask your own question: https://9takes.com/questions/create
+Or answer a current one first: {{questions_url}}
 
 This same shift — stop trying to win, start asking questions that can actually be answered — is how online arguments turn into real conversations. Read "What Winning Online Arguments Looks Like": https://9takes.com/community/what-winning-online-arguments-looks-like
 

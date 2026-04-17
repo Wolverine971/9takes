@@ -544,6 +544,10 @@ Sized as time-boxes for DJ + Claude pair working. Each phase is independently sh
 
 ## Phase 3b — Public-data comparison section (4–6 hr, research-heavy)
 
+**Status:** ✅ Shipped 2026-04-17. Research delegated to `research-analyst` agent (brief: `docs/research/enneagram-public-distributions.md`). Curated data file: `src/lib/data/corpus-stats-external.json` (2 sources + 6 credibility references). Component: `src/lib/components/marketing/CorpusStatsComparisonSection.svelte` — joined 9takes vs enneagram-personality.com vs Truity table, auto-ordered per-type interpretations for Types 3/8/9/1/6/7, honest-sample caveat, equal-distribution-myth debunk, full source + academic context lists. Wired into `/corpus-stats` between per-type-domains and pipeline. Dataset JSON-LD extended: description now references 2 published datasets + 6 peer-reviewed refs, adds `citation` array with all 8 sources, adds `delta_vs_public_test_taker_distributions` to `variableMeasured`, plus `publisher`/`license`/`isAccessibleForFree`/`inLanguage`.
+
+**Cross-link pass (2026-04-17):** Inbound links added from `enneagram-vs-meyers-briggs` (Validity Question section), `community/mbti-vs-enneagram` (What It Doesn't Get Right section), `enneagram-books-websites-podcasts` (new "Data & Research" subsection + scientific-validation FAQ), and `enneagram-faqs` (Is the Enneagram Scientifically Valid FAQ).
+
 This phase runs in parallel to Phase 3. Two sub-tracks:
 
 ### 3b.1 Research (2–3 hr) — can be delegated to the `best-practices-researcher` or `research-analyst` agent

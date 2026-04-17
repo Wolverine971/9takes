@@ -11,7 +11,7 @@
   </url>
   <url>
     <loc>https://9takes.com/blog</loc>
-    <lastmod>2026-04-16</lastmod>
+    <lastmod>2026-04-17</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/blog/experiment</loc>
@@ -139,7 +139,7 @@
   </url>
   <url>
     <loc>https://9takes.com/corpus-stats</loc>
-    <lastmod>2026-04-16</lastmod>
+    <lastmod>2026-04-17</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/enneagram-corner</loc>
@@ -898,7 +898,7 @@
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis</loc>
-    <lastmod>2026-04-16</lastmod>
+    <lastmod>2026-04-17</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/abraham-lincoln</loc>
@@ -1196,7 +1196,7 @@
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/categories</loc>
-    <lastmod>2026-04-16</lastmod>
+    <lastmod>2026-04-17</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/categories/authors-thinkers</loc>
@@ -1224,7 +1224,7 @@
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/categories/tech-business</loc>
-    <lastmod>2026-04-16</lastmod>
+    <lastmod>2026-04-17</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/chamath-palihapitiya</loc>
@@ -1728,6 +1728,13 @@
     <lastmod>2026-02-18</lastmod>
     <image:image>
       <image:loc>https://9takes.com/types/3s/James-Charles.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://9takes.com/personality-analysis/james-dyson</loc>
+    <lastmod>2026-04-17</lastmod>
+    <image:image>
+      <image:loc>https://9takes.com/types/1s/James-Dyson.webp</image:loc>
     </image:image>
   </url>
   <url>
@@ -2915,7 +2922,7 @@
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/type/1</loc>
-    <lastmod>2026-04-07</lastmod>
+    <lastmod>2026-04-17</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/type/2</loc>

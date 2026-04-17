@@ -4,12 +4,12 @@ meta_title: "Why James Dyson Can't Stop Fixing Things (The Psychology Behind the
 persona_title: "Engineering's Relentless Reformer"
 description: "Inside the mind of James Dyson: how losing his father at 9 created a lifelong compulsion to fix what's broken, told through the Enneagram."
 author: 'DJ Wayne'
-date: '2026-03-28'
+date: '2026-04-17'
 loc: 'https://9takes.com/personality-analysis/James-Dyson'
-lastmod: '2026-03-28'
+lastmod: '2026-04-17'
 changefreq: 'monthly'
 priority: '0.6'
-published: false
+published: true
 enneagram: 1
 content_quality:
   hook: 9

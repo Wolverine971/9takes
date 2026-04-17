@@ -1,0 +1,16 @@
+```text
+Published people blog.
+
+Person: james-dyson
+Draft: src/blog/people/drafts/James-Dyson.md
+Date/lastmod: 2026-04-17
+Supabase: published=true (row id=918)
+Images: full + thumbnail present (static/types/1s/James-Dyson.webp, s-James-Dyson.webp)
+Content grade: 9 • Word count: 3793
+Generated files: pnpm gen:all completed
+  - famousTypes.ts: james-dyson → link: true, hasImage: true, lastmod: 2026-04-17
+  - sitemap.xml: /personality-analysis/james-dyson present
+
+Blockers:
+- none
+```

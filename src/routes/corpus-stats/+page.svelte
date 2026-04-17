@@ -5,6 +5,7 @@
 <script lang="ts">
 	import SEOHead from '$lib/components/SEOHead.svelte';
 	import CorpusStatsTable from '$lib/components/marketing/CorpusStatsTable.svelte';
+	import CorpusStatsComparisonSection from '$lib/components/marketing/CorpusStatsComparisonSection.svelte';
 	import type { PageData } from './$types';
 
 	let { data }: { data: PageData } = $props();
@@ -225,6 +226,9 @@
 				{/each}
 			</ul>
 		</section>
+
+		<!-- ========== COMPARISON TO PUBLIC DATA ========== -->
+		<CorpusStatsComparisonSection />
 
 		<!-- ========== PIPELINE ========== -->
 		{#if stats.pipeline}

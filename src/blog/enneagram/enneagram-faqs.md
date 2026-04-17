@@ -67,6 +67,8 @@ The Enneagram isn't scientifically validated like the Big Five personality model
 
 The Enneagram is a framework for understanding motivation, not a diagnostic tool. Use it as a lens, not a label.
 
+If you want to look at actual numbers, our [corpus stats page](/corpus-stats) shows how Enneagram types distribute across 293 public-figure profiles we've analyzed, side-by-side with the two largest public test-taker datasets — partly to add our own transparency to the pile, partly to make our sampling bias legible.
+
 <strong>Deep dive:</strong> <a href="/enneagram-corner/enneagram-criticisms">Complete analysis of Enneagram criticisms</a>
 
 </div>

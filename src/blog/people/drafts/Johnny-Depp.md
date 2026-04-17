@@ -70,7 +70,7 @@ Because the central tension in his life isn't "eccentric actor." It's quieter th
 
 [Enneagram Type 4](/enneagram-corner/enneagram-type-4), "The Individualist," is built around identity. Fours sit in the heart triad, where the core emotion is shame — not guilt about what you've done, but a quieter conviction that something about _what you are_ is broken. They carry a need to be authentic, to be _seen_ for who they really are, and an equally deep fear that the real self, once exposed, won't be enough.
 
-Johnny Depp is a Four with a Five wing (4w5): intensely private, artistic, and internally inhabited. The public sees the costumes. The psychology lives in what the costumes protect.
+Depp is an intensely private, artistic, internally inhabited version of the type. The public sees the costumes. The psychology lives in what the costumes protect.
 
 The evidence shows up less in headlines and more in recurring patterns:
 
@@ -79,10 +79,6 @@ The evidence shows up less in headlines and more in recurring patterns:
 - **A hair-trigger sensitivity to identity:** "Papa" and "Dad" aren't synonyms. They're two different worlds.
 - **A willingness to expose himself to correct the record:** when misrecognized, he doesn't just feel annoyed — he feels erased.
 - **Art as sanctuary:** whenever fame gets loud, he gets quieter and makes something.
-
-The obvious objection: the partying, the rock-star lifestyle, the irreverent humor — isn't this a [Type 7](/enneagram-corner/enneagram-type-7)? Depp himself drew the line under oath: "My use of substances is to numb myself, not to party." Sevens reframe pain into adventure. Depp sits inside his and tries to survive it. He told _GQ_: "I don't trust anyone who hasn't been self-destructive in some way. You've got to bang yourself around a bit to know yourself." No Seven calls self-destruction a path to knowledge.
-
-The other objection: the French countryside, the disappearing — isn't this a [Type 9](/enneagram-corner/enneagram-type-9)? But Nines withdraw to avoid conflict. Depp withdrew to _construct_ a world that matched his inner one. And when that world was threatened, he didn't accommodate. He chose a six-week televised trial over a quiet settlement. No Nine does that.
 
 ---
 
@@ -196,8 +192,6 @@ Within five months they were engaged. He was twenty-six. She was eighteen. He go
 
 The intensity of that gesture is the tell. Most people in love say "forever." Depp wrote it on his body — made his skin a public declaration of identity. _I am the person who belongs to this person._
 
-This is what happens when a Four slides toward [Type 2](/enneagram-corner/enneagram-type-2) under the pressure of love: the missing piece of identity gets projected onto the beloved. The relationship doesn't complement the self. It _becomes_ the self.
-
 When it ended in 1993, he didn't have the tattoo removed. He had it altered: **WINO FOREVER**.
 
 Tim Burton, directing Depp through _Ed Wood_ during the aftermath, saw what the breakup actually cost: "It's almost like Winona took Johnny's soul, Johnny's love."
@@ -213,6 +207,39 @@ Years later, during Depp's defamation trial, Ryder submitted a witness statement
 She called him her "first everything." She said the abuse allegations left her "shocked, confused and upset."
 
 Whatever version of Depp the world was looking at by then, Winona was still reading the original text.
+
+<details class="enneagram-rabbit-hole">
+<summary class="accordion">Enneagram Rabbit Hole: Wings, Subtypes &amp; Connecting Lines for Johnny Depp</summary>
+<div class="panel">
+
+<p><em>For Enneagram readers going deep on Johnny Depp. Skip if you're here for the story — the rest of the analysis stands on its own.</em></p>
+
+### Johnny Depp's Wing: 4w5
+
+Depp reads as 4w5 — the Individualist with an Investigator <a href="/enneagram-corner/enneagram-wings-complete-guide">wing</a>. A 4w3 is more image-forward, chasing glamour and recognizable success; Depp has spent his career repelled by exactly that. 4w5 withdraws, collects esoterica, lives in the interior. The locked bedroom at twelve with the guitar. The estate outside Saint-Tropez where nobody recognized him at the market. The painting studio where thirty years of private portraits accumulated before anyone saw them.
+
+The 5-wing also explains the research-as-costume method. Ichabod Crane modeled on Angela Lansbury's "fragile... feminine" register. Sweeney Todd drawn from Peter Lorre's "creepy but sympathetic" surgeon. These aren't 4w3's charisma-driven performances. They're 4w5 studies — deep, strange, specific, built from reference material nobody else would think to consult. The costume as a vehicle for an interior that would otherwise never surface.
+
+### Johnny Depp's Instinctual Subtype: sp/sx
+
+Depp reads as self-preservation-dominant with sexual secondary. The sp-4 signature is the protective retreat. Fourteen years in the South of France raising his kids bilingual and anonymous. "The first time I felt I had a home." That's <a href="/enneagram-corner/enneagram-instinctual-subtypes">sp-4</a> — the variant that builds a physical sanctuary rather than burning through intensity or activism.
+
+The sexual secondary is what produces the merge-relationships. WINONA FOREVER tattooed on his arm within months. With Heard: "If you look in a person's eye and see some sadness, you feel you can help that person." That's sx — the instinct that collapses identity into the other when attraction fires. Social sits last. The teen-idol chapter felt like "suffocation." So-last 4s treat the public's picture as a cage; the private life is the only real one.
+
+### Stress and Growth Arrows
+
+Under pressure, Depp reaches toward Type 2. The mechanism is identity-by-rescue: see someone's pain, make it your mission, lose the self inside it. The Ryder tattoo — WINONA FOREVER — is this arrow at its most literal, a body-level declaration that who he is now is the person who belongs to this person. With Heard, the same pattern repeated: "feel you can help that person." Burton watching the Ryder aftermath: "Winona took Johnny's soul." 4s under stress don't grieve a partner; they grieve a version of themselves.
+
+In growth he moves toward Type 1. The decision to take the defamation case to trial is the signature example — less wallowing, clearer principles, action where there used to be only feeling. "I didn't feel nervous... if you're just speaking the truth?" And the naming of shame in the courtroom ("I am ashamed") is a 1-level move: taking responsibility for the ugly texts instead of performing them into a story. See <a href="/enneagram-corner/enneagram-connecting-lines">the connecting lines</a> for how 4s borrow 1's spine when they stop aestheticizing the feeling and start acting on principle.
+
+### Counterarguments: Why Depp Might Not Be Type 4
+
+The two strongest alternates are Type 7 and Type 9. The 7 read points at the partying, the rock-star lifestyle, the irreverent humor — classic Enthusiast surface. Depp drew that line under oath himself: "My use of substances is to numb myself, not to party." 7s reframe pain into adventure; Depp sits inside his and tries to survive it. His _GQ_ line — "I don't trust anyone who hasn't been self-destructive in some way. You've got to bang yourself around a bit to know yourself" — is something no 7 would say. No Enthusiast calls self-destruction a path to knowledge.
+
+The 9 read points at the French countryside and the long disappearing act. But 9s withdraw to avoid conflict; Depp withdrew to _construct_ a world that matched his inner one. And when that world was threatened, he didn't accommodate — he chose a six-week televised trial over a quiet settlement. 9s want peace; Depp wants to be seen correctly. Those are different needs, and the trial was Depp fighting for the second at the expense of the first.
+
+</div>
+</details>
 
 ---
 
@@ -258,7 +285,7 @@ In 2012, Depp met Amber Heard. Years later, he described the attraction with the
 
 > "If you're a sucker like I am, sometimes you look in a person's eye and see some sadness, some lonely thing, and you feel you can help that person."
 
-The Four's stress arrow to Two, one more time: see someone's pain, make it your mission, lose yourself inside it. But this time, the cost was existential:
+The same pattern with Heard as with Ryder: see someone's pain, make it your mission, lose yourself inside it. But this time, the cost was existential:
 
 > "I was as low as I believe I could have gotten. The next step was, 'You're going to arrive somewhere with your eyes open and you're going to leave there with your eyes closed.'"
 
@@ -276,7 +303,7 @@ Depp chose the opposite: exposure.
 
 Whatever you think about the spectacle, that motivation is coherent: for someone wired like Depp, being misrecognized isn't a PR problem. It's an existential one. And the decision to face it — publicly, under oath, for six weeks — marks something the Enneagram tracks precisely.
 
-When Fours move toward health, they access [Type 1](/enneagram-corner/enneagram-type-1): less wallowing, clearer principles, action where there used to be only feeling. The man who had spent decades disappearing into characters and dissolving into relationships chose to sit still, tell the truth, and let a jury decide.
+Something shifted under pressure: less wallowing, clearer principles, action where there used to be only feeling. The man who had spent decades disappearing into characters and dissolving into relationships chose to sit still, tell the truth, and let a jury decide.
 
 > "So the night before the trial in Virginia I didn't feel nervous. If you don't have to memorize lines, if you're just speaking the truth?"
 

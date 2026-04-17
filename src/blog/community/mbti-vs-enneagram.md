@@ -232,6 +232,8 @@ Honesty check: the Enneagram has less peer-reviewed research than MBTI or the Bi
 
 The system also resists standardized testing by design. It works best through self-reflection and guided inquiry, not bubble sheets. That makes it powerful for growth but harder to validate through traditional psychometric methods.
 
+What we can do is be transparent about the numbers we produce. Our [corpus stats](/corpus-stats) show how the Enneagram distributes across 293 public-figure profiles we've analyzed, compared side-by-side against the two largest published Enneagram test-taker samples. Every number is computed, not asserted.
+
 If pure scientific rigor is your only criterion, the Big Five is your system. But if you want a framework that helps you _change_, the Enneagram offers something neither MBTI nor the Big Five provides: a map with directions on it.
 
 ## If You're Choosing One System
