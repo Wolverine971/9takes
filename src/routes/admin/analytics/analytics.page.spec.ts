@@ -30,13 +30,13 @@ describe('/admin/analytics page', () => {
 			acquisitionSource: ''
 		},
 		overview: {
-			total_visits: 12,
-			unique_visitors: 10,
-			authenticated_visits: 4,
-			anonymous_visits: 8,
-			avg_time_on_page_ms: 30000,
-			median_time_on_page_ms: 22000,
-			bounce_rate: 41.5
+			total_visits: 0,
+			unique_visitors: 0,
+			authenticated_visits: 0,
+			anonymous_visits: 0,
+			avg_time_on_page_ms: 0,
+			median_time_on_page_ms: 0,
+			bounce_rate: 0
 		},
 		timeseries: [],
 		topPages: {
@@ -61,6 +61,14 @@ describe('/admin/analytics page', () => {
 			totalPages: 1
 		}
 	};
+
+	function fetchUrls(): string[] {
+		return (
+			fetch as unknown as {
+				mock: { calls: Array<[RequestInfo | URL, RequestInit | undefined]> };
+			}
+		).mock.calls.map(([input]) => String(input));
+	}
 
 	beforeEach(() => {
 		vi.stubGlobal(
@@ -90,23 +98,38 @@ describe('/admin/analytics page', () => {
 			data: pageData as any
 		});
 
-		expect(fetch).not.toHaveBeenCalled();
+		await waitFor(() => {
+			expect(fetchUrls()).toContain(
+				'/api/admin/analytics/top-pages?from=2026-03-10&to=2026-04-08&scope=all&topN=6&limit=8&minVisits=3'
+			);
+		});
+		expect(fetchUrls()).toEqual(
+			expect.arrayContaining([
+				'/api/admin/analytics/overview?from=2026-03-10&to=2026-04-08&scope=all',
+				'/api/admin/analytics/timeseries?from=2026-03-10&to=2026-04-08&scope=all',
+				'/api/admin/analytics/pages?from=2026-03-10&to=2026-04-08&scope=all&page=1&limit=50&sortBy=visits&sortDir=desc&window=30d'
+			])
+		);
+		expect(
+			fetchUrls().filter((url) => url.startsWith('/api/admin/analytics/cohorts?'))
+		).toHaveLength(0);
 		expect(screen.queryByText('Cohort from')).toBeNull();
 
 		await fireEvent.click(screen.getByRole('tab', { name: 'Acquisition & Retention' }));
 
 		await waitFor(() => {
-			expect(fetch).toHaveBeenCalledTimes(1);
+			expect(fetchUrls()).toContain(
+				'/api/admin/analytics/cohorts?from=2026-02-09&to=2026-04-05&nextPathLimit=12'
+			);
 		});
-		expect(fetch).toHaveBeenCalledWith(
-			'/api/admin/analytics/cohorts?from=2026-02-09&to=2026-04-05&nextPathLimit=12'
-		);
 		expect(screen.getByText('Cohort from')).toBeTruthy();
 
 		await fireEvent.click(screen.getByRole('tab', { name: 'Pageviews' }));
 		await fireEvent.click(screen.getByRole('tab', { name: 'Acquisition & Retention' }));
 
-		expect(fetch).toHaveBeenCalledTimes(1);
+		expect(
+			fetchUrls().filter((url) => url.startsWith('/api/admin/analytics/cohorts?'))
+		).toHaveLength(1);
 	});
 
 	it('loads timing and release analytics only after their tabs are opened', async () => {
@@ -114,12 +137,18 @@ describe('/admin/analytics page', () => {
 			data: pageData as any
 		});
 
-		expect(fetch).not.toHaveBeenCalled();
+		await waitFor(() => {
+			expect(fetchUrls()).toContain(
+				'/api/admin/analytics/top-pages?from=2026-03-10&to=2026-04-08&scope=all&topN=6&limit=8&minVisits=3'
+			);
+		});
+		expect(fetchUrls().some((url) => url.startsWith('/api/admin/analytics/timing?'))).toBe(false);
+		expect(fetchUrls().some((url) => url.startsWith('/api/admin/analytics/releases?'))).toBe(false);
 
 		await fireEvent.click(screen.getByRole('tab', { name: 'Traffic Timing' }));
 
 		await waitFor(() => {
-			expect(fetch).toHaveBeenCalledWith(
+			expect(fetchUrls()).toContain(
 				'/api/admin/analytics/timing?from=2026-03-10&to=2026-04-08&scope=all'
 			);
 		});
@@ -127,7 +156,7 @@ describe('/admin/analytics page', () => {
 		await fireEvent.click(screen.getByRole('tab', { name: 'Release Performance' }));
 
 		await waitFor(() => {
-			expect(fetch).toHaveBeenCalledWith(
+			expect(fetchUrls()).toContain(
 				'/api/admin/analytics/releases?from=2026-03-10&to=2026-04-08&scope=all&limit=80'
 			);
 		});

@@ -1,3 +1,5 @@
+<!-- docs/research/enneagram-public-distributions.md -->
+
 # Public Enneagram Type Distribution — Research Brief
 
 **Created:** 2026-04-17
@@ -12,6 +14,7 @@
 **Where the research is weakest:** Integrative9/iEQ9, often cited as the most methodologically rigorous Enneagram assessment (adaptive questionnaire, 5,910-person validation study, 350,000+ administrations), does **not** publish a per-type global distribution in any public-facing URL verified during this pass. Their distribution data appears to live in a paid "Statistical Manual" referenced by their validity white paper. The Enneagram Institute (Riso-Hudson) similarly does not publish population percentages — they explicitly decline to, and their community often asserts a theoretical "11.11% equal distribution" baseline rather than empirical data.
 
 **Headline numbers where sources actually agree:**
+
 - **Type 9 is consistently on the high end** across sources (Truity: 13%; enneagram-personality.com: 16.5%). Both data sets are self-selected online test-takers.
 - **Type 5 is consistently on the low end** (enneagram-personality.com: 4.6%; Truity describes it as "as low as 6 percent" and among the rarest).
 - **Type 7 disagrees sharply:** Truity says Type 7 is the **rarest** at 9% while enneagram-personality.com says Type 7 is among the **most common** at 13.6% — a very likely artifact of how their tests are worded and who takes them.
@@ -25,7 +28,7 @@
 - **"Equal distribution" myth.** Community lore (including statements in the Enneagram Institute's orbit) often claims each of the 9 types represents ~11.11% of the general population. No primary empirical source supports this; it's a theoretical prior, not a finding.
 - **Self-selection bias is universal.** Every large-n source is online test-takers who found an Enneagram site and opted in. None is representative of the general population. The 9takes corpus of 293 public figures is third-party-typed celebrities — a different bias axis entirely (high-achievement, high-visibility, historically male-skewed), which is exactly why the comparison is interesting.
 - **HiPeople reuses enneagram-personality.com data without citation.** The 189,957-sample figure circulating on HiPeople, Quora, Pinterest, etc. is the same data set that enneagram-personality.com publishes (formerly at n=189,957, now updated to n=200,000 in April 2026). Do not treat HiPeople as an independent source.
-- **Academic papers report correlations, not distributions.** Wagner 1981 (n=390), Newgent 2004 (RHETI reliability), Sutton 2007 (n=416), and Bartram & Brown 2005 (n=241) all test the Enneagram's validity and overlap with Big Five — none publishes a headline "X% of people are Type N" table. They are useful for *credibility context*, not for the comparison chart data.
+- **Academic papers report correlations, not distributions.** Wagner 1981 (n=390), Newgent 2004 (RHETI reliability), Sutton 2007 (n=416), and Bartram & Brown 2005 (n=241) all test the Enneagram's validity and overlap with Big Five — none publishes a headline "X% of people are Type N" table. They are useful for _credibility context_, not for the comparison chart data.
 - **Integrative9's 5,910-person validation sample.** Their 2019 validity paper does break out factor loadings and reliability metrics by type, but it does not publish what fraction of the 5,910 were each type. Treat as "sample size acknowledged, distribution not disclosed."
 
 ---
@@ -41,18 +44,18 @@
 - **Date range:** Test-takers between 2025-01-20 and 2026-04-04. Page last updated 2026-04-07.
 - **Per-type shares:**
 
-  | Type | Share  | Notes                          |
-  | ---- | ------ | ------------------------------ |
-  | 1    | 11.5%  |                                |
-  | 2    | 11.5%  |                                |
-  | 3    | 10.0%  |                                |
-  | 4    | 12.2%  |                                |
-  | 5    | 4.6%   | Rarest                         |
-  | 6    | 13.8%  | 2nd most common                |
-  | 7    | 13.6%  | Contradicts Truity (Truity: 9%)|
-  | 8    | 6.3%   | 2nd rarest                     |
-  | 9    | 16.5%  | Most common                    |
-  |      | 100.0% |                                |
+  | Type | Share  | Notes                           |
+  | ---- | ------ | ------------------------------- |
+  | 1    | 11.5%  |                                 |
+  | 2    | 11.5%  |                                 |
+  | 3    | 10.0%  |                                 |
+  | 4    | 12.2%  |                                 |
+  | 5    | 4.6%   | Rarest                          |
+  | 6    | 13.8%  | 2nd most common                 |
+  | 7    | 13.6%  | Contradicts Truity (Truity: 9%) |
+  | 8    | 6.3%   | 2nd rarest                      |
+  | 9    | 16.5%  | Most common                     |
+  |      | 100.0% |                                 |
 
 - **Exact quote:** "Sample: 100,000 men and 100,000 women who took this Enneagram test between 01/20/2025 and 04/04/2026." Filtering is described: "unique IP filtering, anti-bot filters, and a sufficiently high primary type score (>6% above the second-highest type)."
 - **Notes:** This is the only source verified in this pass with a **complete per-type table + sample size + date + methodology** all on one public URL. It is self-selected online test-takers (same bias class as Truity), not a representative general-population sample. Also note: widely re-cited by secondary sites (HiPeople, Quora, Pinterest) usually with the older n=189,957 figure and no attribution.
@@ -68,17 +71,17 @@
 - **Date range:** Most-common / rarest blog posts dated October 2022; relationship survey dated January 2021.
 - **Per-type shares (partial — Truity has NOT published a consolidated table):**
 
-  | Type | Share              | Source quote                                                             |
-  | ---- | ------------------ | ------------------------------------------------------------------------ |
-  | 1    | not disclosed      | —                                                                        |
-  | 2    | not disclosed      | —                                                                        |
-  | 3    | not disclosed      | —                                                                        |
-  | 4    | not disclosed      | —                                                                        |
-  | 5    | ~10% (to "as low as 6%")| "population results measuring at around 10 percent, to as low as 6 percent on some online forums" |
-  | 6    | not disclosed      | —                                                                        |
-  | 7    | 9% (rarest)        | "Type 7 represented 9 percent of the population, making it the least common" |
-  | 8    | ~15% (most common) | "Type 8 represents about 15 percent of the population"; 18% men, ~12% women |
-  | 9    | ~13%               | "13% of the population, with 14% of women and 12% of men"                |
+  | Type | Share                    | Source quote                                                                                      |
+  | ---- | ------------------------ | ------------------------------------------------------------------------------------------------- |
+  | 1    | not disclosed            | —                                                                                                 |
+  | 2    | not disclosed            | —                                                                                                 |
+  | 3    | not disclosed            | —                                                                                                 |
+  | 4    | not disclosed            | —                                                                                                 |
+  | 5    | ~10% (to "as low as 6%") | "population results measuring at around 10 percent, to as low as 6 percent on some online forums" |
+  | 6    | not disclosed            | —                                                                                                 |
+  | 7    | 9% (rarest)              | "Type 7 represented 9 percent of the population, making it the least common"                      |
+  | 8    | ~15% (most common)       | "Type 8 represents about 15 percent of the population"; 18% men, ~12% women                       |
+  | 9    | ~13%                     | "13% of the population, with 14% of women and 12% of men"                                         |
 
 - **Exact quotes:** "In Truity's survey of over 54,000 people, Type 7 represented 9 percent of the population, making it the least common of the nine types." / "The Enneagram Type 8 represents about 15 percent of the population, according to a survey conducted by Truity." / Relationship study: "Sample size: 88,000 test-takers" (Jan 2021).
 - **Notes:** Truity's numbers sum to approximately 47% for the 4 disclosed types (9 + 10 + 15 + 13), leaving 53% to be distributed across the 5 undisclosed types — so each of types 1, 2, 3, 4, 6 would average ~10.6%. Truity's "rare types reflect about 10 to 12 percent of the population, while more common ones weigh in a bit higher" statement is consistent with this. **For the comparison table, Truity should be used as a sanity check (Type 7, 8, 9, and 5 anchors) rather than a full 9-type source.**
@@ -153,4 +156,5 @@ Rank by credibility × sample size × completeness:
 4. **integrative9** — **NAME-DROP ONLY.** Mention as the most methodologically rigorous assessment (5,910-person validity study, 350,000+ administrations) but note their distribution data is not public; consider this an open research opportunity/outreach target.
 
 **Suggested framing for the copy:**
+
 > "Published Enneagram distributions all come from self-selected online test-takers — there is no representative general-population sample. The two largest public data sets (Truity, n=54,000; enneagram-personality.com, n=200,000) agree that Type 5 is rare and Type 9 is common, but they disagree sharply on Type 7 (9% vs. 13.6%). Academic studies (Wagner, Newgent, Sutton, Bartram & Brown) validate the construct but do not report distributions. Against this noisy baseline, the 9takes corpus of 293 public-figure profiles is a different beast entirely: it's third-party-typed celebrities and historical figures, biased toward high-achievement and high-visibility, so divergence is expected and is the point of the comparison."

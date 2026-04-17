@@ -1,5 +1,6 @@
 <!-- src/routes/admin/analytics/+page.svelte -->
 <script lang="ts">
+	import { onMount } from 'svelte';
 	import type { PageData } from './$types';
 	import StatCard from '$lib/components/charts/StatCard.svelte';
 	import LineChart from '$lib/components/charts/LineChart.svelte';
@@ -250,7 +251,14 @@
 	const initialTimeseries = initialPageData.timeseries;
 	const initialRows = initialPageData.rows;
 	const initialTopPages = initialPageData.topPages;
+	const hasInitialPageviewData = Boolean(
+		(initialOverview?.total_visits ?? 0) > 0 ||
+			(initialTimeseries?.length ?? 0) > 0 ||
+			(initialRows?.length ?? 0) > 0 ||
+			(initialTopPages?.topPagesOverTime?.length ?? 0) > 0
+	);
 	let activeTab = $state<AnalyticsTab>('pageviews');
+	let pageviewsLoaded = $state(hasInitialPageviewData);
 	let hasOpenedTiming = $state(false);
 	let hasOpenedReleases = $state(false);
 	let hasOpenedCohorts = $state(false);
@@ -376,9 +384,9 @@
 	let tableFetchRequestId = 0;
 	let seededPageBreakdownCache = false;
 
-	let loading = $state(false);
-	let tableLoading = $state(false);
-	let insightsLoading = $state(false);
+	let loading = $state(!hasInitialPageviewData);
+	let tableLoading = $state(!hasInitialPageviewData);
+	let insightsLoading = $state(!hasInitialPageviewData);
 	let trendLoading = $state(false);
 	let overview = $state<AnalyticsOverview>({ ...defaultOverview, ...(initialOverview ?? {}) });
 	let timeseries = $state<TimeseriesPoint[]>((initialTimeseries ?? []) as TimeseriesPoint[]);
@@ -399,7 +407,9 @@
 		}
 	});
 
-	let selectedTrendPath = $state(initialTopPages?.topPagesOverTime?.[0]?.path ?? '');
+	let selectedTrendPath = $state(
+		((initialTopPages?.topPagesOverTime ?? []) as TopPagesTimeseriesRow[])[0]?.path ?? ''
+	);
 	let selectedTrendPoints = $state<PageTrendPoint[]>([]);
 	const trendCache = new Map<string, PageTrendPoint[]>();
 	let timingRows = $state<TimingHeatmapRow[]>([]);
@@ -1165,6 +1175,15 @@
 		}
 	}
 
+	async function fetchPageviewAnalytics() {
+		try {
+			await Promise.all([fetchOverviewAndTimeseries(), fetchPages(), fetchTopPagesInsights()]);
+			selectedTrendPath = topPages.topPagesOverTime[0]?.path ?? '';
+		} finally {
+			pageviewsLoaded = true;
+		}
+	}
+
 	async function fetchTimingAnalytics() {
 		timingLoading = true;
 		try {
@@ -1340,7 +1359,7 @@
 		releaseGrowthPoints = [];
 		releaseEventsCache.clear();
 		releaseEventRows = [];
-		await Promise.all([fetchOverviewAndTimeseries(), fetchPages(), fetchTopPagesInsights()]);
+		await fetchPageviewAnalytics();
 		if (activeTab === 'timing') {
 			await fetchTimingAnalytics();
 		}
@@ -1371,7 +1390,7 @@
 		releaseGrowthPoints = [];
 		releaseEventsCache.clear();
 		releaseEventRows = [];
-		await Promise.all([fetchOverviewAndTimeseries(), fetchPages(), fetchTopPagesInsights()]);
+		await fetchPageviewAnalytics();
 		if (activeTab === 'timing') {
 			await fetchTimingAnalytics();
 		}
@@ -1644,6 +1663,9 @@
 
 	function openTab(tab: AnalyticsTab) {
 		activeTab = tab;
+		if (tab === 'pageviews' && !pageviewsLoaded && !loading && !tableLoading && !insightsLoading) {
+			void fetchPageviewAnalytics();
+		}
 		if (tab === 'timing') {
 			hasOpenedTiming = true;
 			if (!timingLoaded && !timingLoading) {
@@ -1660,6 +1682,12 @@
 			hasOpenedCohorts = true;
 		}
 	}
+
+	onMount(() => {
+		if (!pageviewsLoaded) {
+			void fetchPageviewAnalytics();
+		}
+	});
 </script>
 
 <div class="analytics-page">

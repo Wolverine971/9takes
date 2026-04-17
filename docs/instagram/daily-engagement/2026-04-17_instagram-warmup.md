@@ -15,13 +15,13 @@ The last warmup with drafted replies was **April 13 PM** (5 drafts). The April 1
 
 **Treat all April 13 PM drafts as aging out or already stale:**
 
-| #   | Account                | Post                                                      | Apr 13 PM Status | Apr 17 Reality                           |
-| --- | ---------------------- | --------------------------------------------------------- | ---------------- | ---------------------------------------- |
-| 1   | @enneagramwithjb       | Body signals / Enneagram override (was 2h old on Apr 13)  | Drafted          | 4d+ old — AGED OUT                       |
-| 2   | @enneagrampaths        | Carl thread — Type 3 proposal (was 7d unanswered)         | Drafted          | 11d unanswered — post may still help     |
-| 3   | @enneagrampaths        | Longings — "deeply listened to" (was 7d unanswered)       | Drafted          | 11d unanswered — post may still help     |
-| 4   | @thesecurerelationship | "What is the anxiety trying to manage?" (was ~20h)        | Drafted          | 4d+ old — AGED OUT (backup is fresher)   |
-| 5   | @enneagramashton       | "Not bad at vulnerability" (was 28h)                      | Drafted          | 4d+ old — AGED OUT                       |
+| #   | Account                | Post                                                     | Apr 13 PM Status | Apr 17 Reality                         |
+| --- | ---------------------- | -------------------------------------------------------- | ---------------- | -------------------------------------- |
+| 1   | @enneagramwithjb       | Body signals / Enneagram override (was 2h old on Apr 13) | Drafted          | 4d+ old — AGED OUT                     |
+| 2   | @enneagrampaths        | Carl thread — Type 3 proposal (was 7d unanswered)        | Drafted          | 11d unanswered — post may still help   |
+| 3   | @enneagrampaths        | Longings — "deeply listened to" (was 7d unanswered)      | Drafted          | 11d unanswered — post may still help   |
+| 4   | @thesecurerelationship | "What is the anxiety trying to manage?" (was ~20h)       | Drafted          | 4d+ old — AGED OUT (backup is fresher) |
+| 5   | @enneagramashton       | "Not bad at vulnerability" (was 28h)                     | Drafted          | 4d+ old — AGED OUT                     |
 
 Strategic implication: **today's scan prioritizes fresh content** on the same accounts plus new peer/adjacent discovery. If Melissa's two 11-day-old threads are still openable with a short, warm reply, they remain valuable (threads don't age the same way posts do).
 

@@ -11,6 +11,7 @@ import {
 	getMissingPublishFrontmatterFields,
 	getPublishImageStatus,
 	parseMarkdownFile,
+	resolveFirstPublishedAt,
 	selectPublishCandidate,
 	shouldProcessMarkdownFile,
 	updatePublishFrontmatterContent
@@ -153,6 +154,31 @@ Body`;
 		expect(output).toContain("loc: 'https://9takes.com/personality-analysis/Hilary-Duff'");
 		expect(output).not.toContain('description: >-');
 		expect(output).not.toContain('author: DJ Wayne');
+	});
+
+	it('uses the current publish time as first_published_at for unpublished draft rows', () => {
+		const publishedAt = '2026-04-17T10:00:00.000Z';
+
+		expect(
+			resolveFirstPublishedAt(
+				{
+					published: false,
+					published_at: null,
+					first_published_at: null
+				},
+				publishedAt
+			)
+		).toBe(publishedAt);
+		expect(
+			resolveFirstPublishedAt(
+				{
+					published: true,
+					published_at: '2026-04-01T12:00:00.000Z',
+					first_published_at: null
+				},
+				publishedAt
+			)
+		).toBe('2026-04-01T12:00:00.000Z');
 	});
 
 	it('detects publishable body shape and unfinished markers', () => {

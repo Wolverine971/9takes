@@ -825,6 +825,21 @@ async function updateDraftFrontmatterForPublish(filePath, publishDate) {
 }
 
 /**
+ * @param {{ published?: boolean | null; published_at?: string | null; first_published_at?: string | null } | null | undefined} existing
+ * @param {string} publishedAt
+ * @returns {string}
+ */
+export function resolveFirstPublishedAt(existing, publishedAt) {
+	const hasPriorPublication = Boolean(
+		existing?.first_published_at || existing?.published_at || existing?.published === true
+	);
+
+	return hasPriorPublication
+		? existing?.first_published_at || existing?.published_at || publishedAt
+		: publishedAt;
+}
+
+/**
  * @param {ReturnType<typeof createSupabaseServiceClient>} supabase
  * @param {PersonBlogEntry} entry
  * @param {string} publishDate
@@ -842,11 +857,7 @@ async function publishSupabaseEntry(supabase, entry, publishDate) {
 		throw new Error(`Unable to read publish metadata for ${entry.person}: ${lookupError.message}`);
 	}
 
-	const firstPublishedAt =
-		existing?.first_published_at || existing?.published_at || existing?.created_at || publishedAt;
-	const hasPriorPublication = Boolean(
-		existing?.first_published_at || existing?.published_at || existing?.published === true
-	);
+	const firstPublishedAt = resolveFirstPublishedAt(existing, publishedAt);
 	const { data, error } = await supabase
 		.from('blogs_famous_people')
 		.update({

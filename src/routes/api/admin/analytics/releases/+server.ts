@@ -42,6 +42,24 @@ const querySchema = z.object({
 	limit: z.coerce.number().int().min(1).max(200).default(50)
 });
 
+function toDateString(date: Date): string {
+	const year = date.getFullYear();
+	const month = String(date.getMonth() + 1).padStart(2, '0');
+	const day = String(date.getDate()).padStart(2, '0');
+	return `${year}-${month}-${day}`;
+}
+
+function getFreshnessRefreshRange(): { from: string; to: string } {
+	const to = new Date();
+	const from = new Date(to);
+	from.setDate(from.getDate() - 44);
+
+	return {
+		from: toDateString(from),
+		to: toDateString(to)
+	};
+}
+
 function parseDate(value: string | null): string | undefined {
 	if (!value) return undefined;
 	const parsed = analyticsDateSchema.safeParse(value);
@@ -82,6 +100,17 @@ export const GET: RequestHandler = async ({ url, locals }) => {
 	}
 
 	const supabaseAny = locals.supabase as any;
+	const refreshRange = getFreshnessRefreshRange();
+	const { error: refreshError } = await supabaseAny.rpc('refresh_content_analytics_daily', {
+		p_from: refreshRange.from,
+		p_to: refreshRange.to,
+		p_content_type: 'people'
+	});
+
+	if (refreshError) {
+		console.warn('Failed to refresh people release analytics before read:', refreshError);
+	}
+
 	const { data, error: rpcError } = await supabaseAny.rpc('get_content_release_performance', {
 		p_from_date: fromDate,
 		p_to_date: toDate,
