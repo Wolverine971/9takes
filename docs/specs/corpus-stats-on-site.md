@@ -566,10 +566,11 @@ This phase runs in parallel to Phase 3. Two sub-tracks:
 
 ## Phase 4 — Internal linking + polish (45 min)
 
-- Footer: add "Corpus" link.
-- Update blog command's numerical-claim gate copy to point at `/corpus-stats` as the canonical public source (in addition to `docs/data/corpus-stats.md` for LLM-readable reference).
-- Update `README.md` with a one-line pointer.
-- Commit.
+**Status:** ✅ Shipped 2026-04-17.
+
+- Footer: "Corpus Stats" link sits in the main-nav block of `src/lib/components/molecules/Footer.svelte:12` (landed earlier with Phase 2).
+- Blog command stat-claim guidance: v2 already carried the corpus bullet + `/corpus-stats` link since the 2026-04-16 rewrite (`.claude/commands/blog_content_creator_people_v2.md:218`). v1 now matches (`.claude/commands/blog_content_creator_people.md` — "About the 9takes corpus" bullet added) so the daily-blog-creator cron, which invokes v1, produces the same citation shape.
+- `README.md` pointer refreshed under "Blog sections" — dropped the stale "quality + freshness" framing (quality grades are editorial-internal, freshness was removed from the public page), added the hand-curated external-data file, and called out `/corpus-stats` as the canonical public source to cite for any 9takes-corpus numerical claim.
 
 ## Phase 5 — Verify + measure (ongoing)
 

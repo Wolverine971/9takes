@@ -1,6 +1,7 @@
 // src/routes/api/admin/content/[id]/+server.ts
 import { error, json } from '@sveltejs/kit';
 import type { RequestHandler } from './$types';
+import { normalizePersonalitySlug } from '$lib/utils/personalityAnalysis';
 
 // GET - Fetch full content including markdown and history
 export const GET: RequestHandler = async ({ params, locals }) => {
@@ -117,6 +118,29 @@ export const PUT: RequestHandler = async ({ params, request, locals }) => {
 	// Auto-update lastmod
 	safeUpdates.lastmod = new Date().toISOString().split('T')[0];
 
+	const { data: existingContent, error: existingContentError } = await supabase
+		.from('blogs_famous_people')
+		.select('id, person, title, published, published_at, first_published_at')
+		.eq('id', contentId)
+		.single();
+
+	if (existingContentError) {
+		console.error('Error fetching existing content:', existingContentError);
+		throw error(404, 'Content not found');
+	}
+
+	const isPublishingNow =
+		Object.prototype.hasOwnProperty.call(safeUpdates, 'published') &&
+		safeUpdates.published === true &&
+		existingContent?.published !== true;
+	const publishedAt = isPublishingNow ? new Date().toISOString() : null;
+
+	if (isPublishingNow && publishedAt) {
+		safeUpdates.published_at = publishedAt;
+		safeUpdates.first_published_at =
+			existingContent.first_published_at || existingContent.published_at || publishedAt;
+	}
+
 	const { data, error: updateError } = await supabase
 		.from('blogs_famous_people')
 		.update(safeUpdates)
@@ -127,6 +151,28 @@ export const PUT: RequestHandler = async ({ params, request, locals }) => {
 	if (updateError) {
 		console.error('Error updating content:', updateError);
 		throw error(400, updateError.message);
+	}
+
+	if (isPublishingNow && publishedAt) {
+		const contentSlug = normalizePersonalitySlug(data.person || existingContent.person);
+		const supabaseAny = supabase as any;
+		const { error: eventError } = await supabaseAny.rpc('record_content_release_event', {
+			p_content_type: 'people',
+			p_content_slug: contentSlug,
+			p_event_type: 'published',
+			p_event_at: publishedAt,
+			p_source: 'admin-content-api',
+			p_path: `/personality-analysis/${contentSlug}`,
+			p_metadata: {
+				blog_id: data.id,
+				title: data.title || existingContent.title || null
+			}
+		});
+
+		if (eventError) {
+			console.error('Error recording content release event:', eventError);
+			throw error(400, eventError.message || 'Failed to record release event');
+		}
 	}
 
 	return json({ data });

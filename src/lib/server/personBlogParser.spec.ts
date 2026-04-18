@@ -12,6 +12,7 @@ import {
 	getPublishImageStatus,
 	parseMarkdownFile,
 	resolveFirstPublishedAt,
+	resolveReleaseEventType,
 	selectPublishCandidate,
 	shouldProcessMarkdownFile,
 	updatePublishFrontmatterContent
@@ -179,6 +180,23 @@ Body`;
 				publishedAt
 			)
 		).toBe('2026-04-01T12:00:00.000Z');
+	});
+
+	it('classifies new publish events separately from republishes', () => {
+		expect(
+			resolveReleaseEventType({
+				published: false,
+				published_at: null,
+				first_published_at: null
+			})
+		).toBe('published');
+		expect(
+			resolveReleaseEventType({
+				published: true,
+				published_at: '2026-04-01T12:00:00.000Z',
+				first_published_at: null
+			})
+		).toBe('republished');
 	});
 
 	it('detects publishable body shape and unfinished markers', () => {

@@ -70,7 +70,7 @@ pnpm gen:sitemap        # Regenerate sitemap
 
 `/personality-analysis` is managed through the admin UI at `/admin/content-board` and versioned in `blogs_famous_people_history`.
 
-Corpus-wide numbers (type distribution, over-representation by domain, quality + freshness) live at [`/corpus-stats`](https://9takes.com/corpus-stats) and are regenerated on every deploy from `scripts/generate-corpus-stats.js`. The machine-readable copy is `src/lib/data/corpus-stats.json`; the human-readable Markdown mirror is `docs/data/corpus-stats.md`.
+Corpus-wide numbers (type distribution, over-/under-representation by domain, pipeline cadence, and a side-by-side comparison against published Enneagram research) live at [`/corpus-stats`](https://9takes.com/corpus-stats) and are regenerated on every Vercel deploy via `scripts/generate-corpus-stats.js`. The machine-readable copy is `src/lib/data/corpus-stats.json` (plus hand-curated `src/lib/data/corpus-stats-external.json` for the public-data comparison); the human-readable Markdown mirror blog commands pull from is `docs/data/corpus-stats.md`. `/corpus-stats` is the canonical public source to cite for any numerical claim about the 9takes corpus.
 
 ## Testing
 

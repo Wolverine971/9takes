@@ -315,6 +315,7 @@ This is **not a hard requirement**. A tight profile with zero stats can still sh
 
 - **About the person**, verifiable from a named source: "[Person] has released 14 studio albums in 11 years" (Discogs), "[Person]'s memoir sold 2.3 million copies in its first year" (Publishers Weekly).
 - **About their field or domain**, anchoring the person in context: "Only 4 of the last 25 Best Director winners started as actors" (Academy records).
+- **About the 9takes corpus**, when relevant and available: "Of the 23 Type 8 musicians profiled on 9takes, [Person] is one of only 3 who…" (9takes corpus data). Pull numbers from `docs/data/corpus-stats.md` (LLM-readable) and link out to the public page at `https://9takes.com/corpus-stats` (canonical source + JSON-LD `Dataset` for Google/LLM citation).
 - **Confidence framing** on the typing: "Confidence: high — wing, subtype, and arrow evidence all point the same direction."
 
 ### What does NOT count

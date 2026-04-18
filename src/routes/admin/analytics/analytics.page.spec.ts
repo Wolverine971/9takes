@@ -157,7 +157,7 @@ describe('/admin/analytics page', () => {
 
 		await waitFor(() => {
 			expect(fetchUrls()).toContain(
-				'/api/admin/analytics/releases?from=2026-03-10&to=2026-04-08&scope=all&limit=80'
+				'/api/admin/analytics/releases?from=2026-03-10&to=2026-04-08&scope=all&limit=500'
 			);
 		});
 	});
@@ -198,12 +198,13 @@ describe('/admin/analytics page', () => {
 			...overrides
 		});
 		const releaseRows = [
-			makeRelease({ id: 1 }),
+			makeRelease({ id: 1, published_at: '2026-04-03T12:00:00.000Z' }),
 			makeRelease({
 				id: 2,
 				slug: 'beta-person',
 				path: '/personality-analysis/beta-person',
 				title: 'Beta Person',
+				published_at: '2026-04-01T12:00:00.000Z',
 				views_24h: 4,
 				views_7d: 8,
 				views_30d: 16,
@@ -215,6 +216,7 @@ describe('/admin/analytics page', () => {
 				slug: 'gamma-person',
 				path: '/personality-analysis/gamma-person',
 				title: 'Gamma Person',
+				published_at: '2026-04-02T12:00:00.000Z',
 				views_24h: 28,
 				views_7d: 120,
 				views_30d: 160,

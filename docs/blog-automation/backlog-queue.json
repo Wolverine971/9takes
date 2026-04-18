@@ -1,11 +1,26 @@
 {
-	"lastUpdated": "2026-04-17T02:00:00Z",
+	"lastUpdated": "2026-04-17T18:00:00Z",
 	"stats": {
 		"totalUnpublished": 107,
 		"totalPublished": 265,
 		"completionRate": "71.2%"
 	},
 	"queue": [
+		{
+			"name": "brene-brown",
+			"displayName": "Brené Brown",
+			"type": 2,
+			"priority": 98,
+			"priorityReason": "Fills Type 2 gap, vulnerability/shame research icon, huge podcast + TED audience, evergreen search",
+			"estimatedTraffic": "very-high",
+			"searchVolume": "very-high",
+			"personaTitle": null,
+			"addedToQueue": "2026-04-03",
+			"reQueuedAt": "2026-04-17T18:00:00Z",
+			"reQueuedReason": "Previous run interrupted 2026-04-06; slug normalized from 'brené-brown' to 'brene-brown' to avoid Unicode NFC/NFD hazards across shell, URL, filesystem, and DB. Display name keeps the é.",
+			"retryCount": 0,
+			"strategicValue": "fills-type-2-gap"
+		},
 		{
 			"name": "snoop-dogg",
 			"displayName": "Snoop Dogg",
@@ -650,17 +665,7 @@
 		}
 	],
 	"inProgress": null,
-	"failed": [
-		{
-			"name": "brené-brown",
-			"displayName": "Brené Brown",
-			"type": 2,
-			"priority": 98,
-			"failedAt": "2026-04-06T08:40:00Z",
-			"reason": "Process interrupted - Claude Code session terminated",
-			"retryCount": 1
-		}
-	],
+	"failed": [],
 	"metadata": {
 		"priorityAlgorithm": "typeMultiplier * 10 + personaTitleBonus + searchVolumeEstimate",
 		"typeMultipliers": {

@@ -362,6 +362,7 @@
 		{ key: 'benchmark_score', label: 'Score', numeric: true },
 		{ key: 'performance_band', label: 'Band' }
 	];
+	const releaseAnalyticsLimit = 500;
 
 	let fromDate = $state(initialFilters?.from ?? '');
 	let toDate = $state(initialFilters?.to ?? '');
@@ -419,7 +420,7 @@
 	let releasesLoading = $state(false);
 	let releasesLoaded = $state(false);
 	let selectedReleaseSlug = $state('');
-	let releaseSortBy = $state<ReleaseSortKey>('benchmark_score');
+	let releaseSortBy = $state<ReleaseSortKey>('published_at');
 	let releaseSortDir = $state<SortDirection>('desc');
 	let releaseBandFilter = $state<ReleaseBandFilter>('all');
 	let releaseGrowthPoints = $state<ReleaseGrowthPoint[]>([]);
@@ -1312,7 +1313,7 @@
 		releasesLoading = true;
 		try {
 			const params = buildParams(false);
-			params.set('limit', '80');
+			params.set('limit', String(releaseAnalyticsLimit));
 			const response = await fetch(`/api/admin/analytics/releases?${params.toString()}`);
 			const body = await response.json();
 
@@ -2235,7 +2236,7 @@
 			<section class="insight-card release-performance-card">
 				<div class="insight-header release-header">
 					<div>
-						<h2>Release Performance</h2>
+						<h2>Personality Analysis Release Performance</h2>
 						<p>Personality analysis releases in {formatDateWindow(fromDate, toDate)}</p>
 					</div>
 					<div class="release-header-actions">

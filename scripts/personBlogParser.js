@@ -840,6 +840,18 @@ export function resolveFirstPublishedAt(existing, publishedAt) {
 }
 
 /**
+ * @param {{ published?: boolean | null; published_at?: string | null; first_published_at?: string | null } | null | undefined} existing
+ * @returns {'published' | 'republished'}
+ */
+export function resolveReleaseEventType(existing) {
+	const hasPriorPublication = Boolean(
+		existing?.first_published_at || existing?.published_at || existing?.published === true
+	);
+
+	return hasPriorPublication ? 'republished' : 'published';
+}
+
+/**
  * @param {ReturnType<typeof createSupabaseServiceClient>} supabase
  * @param {PersonBlogEntry} entry
  * @param {string} publishDate
@@ -858,6 +870,7 @@ async function publishSupabaseEntry(supabase, entry, publishDate) {
 	}
 
 	const firstPublishedAt = resolveFirstPublishedAt(existing, publishedAt);
+	const releaseEventType = resolveReleaseEventType(existing);
 	const { data, error } = await supabase
 		.from('blogs_famous_people')
 		.update({
@@ -886,7 +899,7 @@ async function publishSupabaseEntry(supabase, entry, publishDate) {
 		content_type: 'people',
 		content_slug: contentSlug,
 		path: `/personality-analysis/${contentSlug}`,
-		event_type: hasPriorPublication ? 'republished' : 'published',
+		event_type: releaseEventType,
 		event_at: publishedAt,
 		source: 'personBlogParser',
 		metadata: {

@@ -100,4 +100,96 @@ describe('/api/admin/analytics/releases', () => {
 			benchmarked: 1
 		});
 	});
+
+	it('fetches multiple release batches when the requested limit exceeds the RPC page size', async () => {
+		const makeRow = (id: number, publishedAt: string) => ({
+			id,
+			slug: `person-${id}`,
+			path: `/personality-analysis/person-${id}`,
+			title: `Person ${id}`,
+			published_at: publishedAt,
+			first_view_at: publishedAt,
+			minutes_to_first_view: 0,
+			views_1h: 0,
+			views_6h: 0,
+			views_24h: 0,
+			unique_24h: 0,
+			views_7d: 0,
+			unique_7d: 0,
+			views_30d: 0,
+			unique_30d: 0,
+			total_views: 0,
+			total_unique_visitors: 0,
+			avg_time_on_page_ms: 0,
+			median_time_on_page_ms: 0,
+			avg_scroll_pct: 0,
+			bounce_rate: 0,
+			views_24h_percentile: null,
+			views_7d_percentile: null,
+			views_30d_percentile: null,
+			benchmark_score: null,
+			benchmark_sample_size: 0,
+			benchmark_basis: 'insufficient_history',
+			performance_band: 'insufficient_history',
+			release_stage: 'mature',
+			growth_slope_7d: null,
+			decay_rate_after_spike: null
+		});
+		const firstBatch = Array.from({ length: 200 }, (_, index) =>
+			makeRow(
+				index + 1,
+				`2026-01-${String(30 - Math.floor(index / 8)).padStart(2, '0')}T12:00:00.000Z`
+			)
+		);
+		const secondBatch = [makeRow(201, '2025-12-31T12:00:00.000Z')];
+		const rpc = vi
+			.fn()
+			.mockResolvedValueOnce({
+				data: 12,
+				error: null
+			})
+			.mockResolvedValueOnce({
+				data: firstBatch,
+				error: null
+			})
+			.mockResolvedValueOnce({
+				data: secondBatch,
+				error: null
+			});
+		const profilesSingle = vi.fn().mockResolvedValue({
+			data: { admin: true },
+			error: null
+		});
+		const supabase = {
+			from: vi.fn(() => ({
+				select: vi.fn(() => ({
+					eq: vi.fn(() => ({
+						single: profilesSingle
+					}))
+				}))
+			})),
+			rpc
+		};
+
+		const response = await GET({
+			url: new URL('https://9takes.test/api/admin/analytics/releases?limit=500'),
+			locals: {
+				session: { user: { id: 'admin-user' } },
+				supabase
+			}
+		} as any);
+		const body = await response.json();
+
+		expect(rpc).toHaveBeenNthCalledWith(2, 'get_content_release_performance', {
+			p_from_date: undefined,
+			p_to_date: undefined,
+			p_limit: 200
+		});
+		expect(rpc).toHaveBeenNthCalledWith(3, 'get_content_release_performance', {
+			p_from_date: undefined,
+			p_to_date: expect.any(String),
+			p_limit: 200
+		});
+		expect(body.rows).toHaveLength(201);
+	});
 });
