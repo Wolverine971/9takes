@@ -1,9 +1,9 @@
 {
-	"lastUpdated": "2026-04-17T18:00:00Z",
+	"lastUpdated": "2026-04-18T12:00:00Z",
 	"stats": {
-		"totalUnpublished": 107,
+		"totalUnpublished": 113,
 		"totalPublished": 265,
-		"completionRate": "71.2%"
+		"completionRate": "70.1%"
 	},
 	"queue": [
 		{
@@ -516,6 +516,84 @@
 			"addedToQueue": "2026-04-15",
 			"retryCount": 0,
 			"strategicValue": "alt-pop-eccentric-cluster"
+		},
+		{
+			"name": "teyana-taylor",
+			"displayName": "Teyana Taylor",
+			"type": 8,
+			"priority": 50,
+			"priorityReason": "Multi-hyphenate singer-dancer-actor with One of Them Days momentum, fierce creative autonomy, and a strong Type 8 performer analysis angle",
+			"estimatedTraffic": "high",
+			"searchVolume": "high",
+			"personaTitle": null,
+			"addedToQueue": "2026-04-18",
+			"retryCount": 0,
+			"strategicValue": "contemporary-music-cluster"
+		},
+		{
+			"name": "julia-fox",
+			"displayName": "Julia Fox",
+			"type": 4,
+			"priority": 49,
+			"priorityReason": "Provocative cultural figure with viral style moments, raw memoir, and a strong Type 4 individualist analysis angle",
+			"estimatedTraffic": "high",
+			"searchVolume": "high",
+			"personaTitle": null,
+			"addedToQueue": "2026-04-18",
+			"retryCount": 0,
+			"strategicValue": "downtown-icon-cluster"
+		},
+		{
+			"name": "madelaine-petsch",
+			"displayName": "Madelaine Petsch",
+			"type": 6,
+			"priority": 48,
+			"priorityReason": "Riverdale lead with massive Gen Z social following, vegan advocate, and a grounded Type 6 analysis angle",
+			"estimatedTraffic": "high",
+			"searchVolume": "high",
+			"personaTitle": null,
+			"addedToQueue": "2026-04-18",
+			"retryCount": 0,
+			"strategicValue": "gen-z-hollywood-pop-cluster"
+		},
+		{
+			"name": "kaia-gerber",
+			"displayName": "Kaia Gerber",
+			"type": 5,
+			"priority": 47,
+			"priorityReason": "Model-actor with book club platform, literary introspection, and a clear Type 5 observer analysis angle",
+			"estimatedTraffic": "high",
+			"searchVolume": "high",
+			"personaTitle": null,
+			"addedToQueue": "2026-04-18",
+			"retryCount": 0,
+			"strategicValue": "gen-z-hollywood-pop-cluster"
+		},
+		{
+			"name": "kiernan-shipka",
+			"displayName": "Kiernan Shipka",
+			"type": 3,
+			"priority": 46,
+			"priorityReason": "Mad Men and Sabrina prestige actor with polished public persona and a clear Type 3 performance analysis angle",
+			"estimatedTraffic": "high",
+			"searchVolume": "high",
+			"personaTitle": null,
+			"addedToQueue": "2026-04-18",
+			"retryCount": 0,
+			"strategicValue": "gen-z-hollywood-pop-cluster"
+		},
+		{
+			"name": "xochitl-gomez",
+			"displayName": "Xochitl Gomez",
+			"type": 7,
+			"priority": 45,
+			"priorityReason": "MCU actor and DWTS champion with fast-rising Gen Z recognition and a lively Type 7 performer analysis angle",
+			"estimatedTraffic": "medium",
+			"searchVolume": "medium",
+			"personaTitle": null,
+			"addedToQueue": "2026-04-18",
+			"retryCount": 0,
+			"strategicValue": "gen-z-hollywood-pop-cluster"
 		}
 	],
 	"completed": [
@@ -664,7 +742,13 @@
 			"removedReason": "draft already written"
 		}
 	],
-	"inProgress": null,
+	"inProgress": {
+		"name": "brene-brown",
+		"displayName": "Brené Brown",
+		"type": 2,
+		"priority": 98,
+		"startedAt": "2026-04-18T00:00:00Z"
+	},
 	"failed": [],
 	"metadata": {
 		"priorityAlgorithm": "typeMultiplier * 10 + personaTitleBonus + searchVolumeEstimate",

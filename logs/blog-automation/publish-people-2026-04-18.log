@@ -1,0 +1,13 @@
+```text
+Published people blog.
+
+Person: john-lennon
+Draft: src/blog/people/drafts/John-Lennon.md
+Date/lastmod: 2026-04-18
+Supabase: published=true (id=663)
+Images: full + thumbnail present (static/types/4s/John-Lennon.webp + s-John-Lennon.webp)
+Generated files: famousTypes.ts has link: true, hasImage: true, lastmod: 2026-04-18; sitemap.xml includes personality-analysis/John-Lennon
+
+Blockers:
+- none (pnpm gen:all hit transient Supabase API network errors on gen:types and first gen:sitemap; retried gen:sitemap successfully. gen:types still failing but unrelated to this publish — re-run later when network is stable)
+```

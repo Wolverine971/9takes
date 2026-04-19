@@ -165,7 +165,7 @@ export const famousTypes: { [index: number]: { name: string; link: boolean; hasI
 		{ name: 'jacob-elordi', link: true, hasImage: true, lastmod: '2026-02-13', personaTitle: 'Cinema\'s Restless Apprentice', contentGrade: 9.4 },
 		{ name: 'jared-leto', link: true, hasImage: true, lastmod: '2026-02-18', personaTitle: 'The Man With No Default Setting', contentGrade: 8.9 },
 		{ name: 'joaquin-phoenix', link: true, hasImage: true, lastmod: '2025-03-24', personaTitle: 'Cinema\'s Tortured Method Man', contentGrade: null },
-		{ name: 'john-lennon', link: false, hasImage: true, lastmod: '2026-03-28', personaTitle: 'Rock\'s Wounded Prophet', contentGrade: 9 },
+		{ name: 'john-lennon', link: true, hasImage: true, lastmod: '2026-04-18', personaTitle: 'Rock\'s Wounded Prophet', contentGrade: 9 },
 		{ name: 'john-mayer', link: true, hasImage: true, lastmod: '2026-04-06', personaTitle: 'Music\'s Haunted Virtuoso', contentGrade: 8.9 },
 		{ name: 'johnny-depp', link: true, hasImage: true, lastmod: '2026-02-19', personaTitle: 'Hollywood\'s Beautiful Outsider', contentGrade: 9 },
 		{ name: 'kendrick-lamar', link: true, hasImage: true, lastmod: '2025-12-09', personaTitle: 'Compton\'s Lyrical Conscience', contentGrade: null },

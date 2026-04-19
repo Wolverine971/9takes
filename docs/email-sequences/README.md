@@ -6,9 +6,10 @@ All documentation related to automated email sequences for 9takes.
 
 ## Documents
 
-| Document                                                     | Purpose                                             |
-| ------------------------------------------------------------ | --------------------------------------------------- |
-| [welcome-email-assessment.md](./welcome-email-assessment.md) | Copy analysis, strategy review, and rewrite history |
+| Document                                                         | Purpose                                             |
+| ---------------------------------------------------------------- | --------------------------------------------------- |
+| [welcome-email-assessment.md](./welcome-email-assessment.md)     | Copy analysis, strategy review, and rewrite history |
+| [reactivation-sequence-plan.md](./reactivation-sequence-plan.md) | Spec for dormant-signup win-back sequence (drafted) |
 
 ## Admin Tools
 

@@ -1,7 +1,7 @@
 // src/routes/admin/+page.server.ts
 import type { PageServerLoad } from './$types';
 import { error, redirect, type Actions } from '@sveltejs/kit';
-import { checkDemoTime } from '../../utils/api';
+import { checkDemoTime, invalidateDemoTimeCache } from '../../utils/api';
 import {
 	createESQuestion,
 	bulkIndexQuestions,
@@ -309,6 +309,7 @@ export const actions: Actions = {
 				.select();
 			// insert(userData);
 			if (!updateDemoError) {
+				invalidateDemoTimeCache();
 				return { success: true };
 			} else {
 				throw error(500, {

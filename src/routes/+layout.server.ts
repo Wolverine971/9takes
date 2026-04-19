@@ -6,19 +6,21 @@ import {
 } from '$lib/server/questionCategoryTree';
 import { buildQuestionCategorySlug } from '$lib/utils/questionCategorySlug';
 import { logger } from '$lib/utils/logger';
+import { checkDemoTime } from '../utils/api';
 
 type ParentCategory = Pick<QuestionCategoryRow, 'id' | 'category_name' | 'slug' | 'level'>;
 
 export const load: LayoutServerLoad = async (event) => {
-	const { data: demoSetting, error: adminSettingsError } = await event.locals.supabase
-		.from('admin_settings')
-		.select('value')
-		.eq('type', 'demo_time')
-		.limit(1)
-		.maybeSingle();
-
-	if (adminSettingsError) {
-		logger.warn('Failed to load admin_settings in layout', adminSettingsError);
+	let demoTimeValue: unknown = undefined;
+	try {
+		demoTimeValue = await checkDemoTime(event.locals.supabase);
+	} catch (adminSettingsError) {
+		logger.warn('Failed to load admin_settings in layout', {
+			error:
+				adminSettingsError instanceof Error
+					? adminSettingsError.message
+					: String(adminSettingsError)
+		});
 	}
 
 	let parents: ParentCategory[] = [];
@@ -55,7 +57,7 @@ export const load: LayoutServerLoad = async (event) => {
 		}
 	}
 
-	const demo_time = demoSetting?.value;
+	const demo_time = demoTimeValue;
 	const session = event.locals.session;
 	let user = event.locals.user;
 

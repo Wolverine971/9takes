@@ -4529,6 +4529,10 @@ export type Database = {
           visits: number
         }[]
       }
+      get_project_full: {
+        Args: { p_actor_id: string; p_project_id: string }
+        Returns: Json
+      }
       get_questions_by_category: {
         Args: { p_category_id: number; p_limit?: number; p_offset?: number }
         Returns: {
