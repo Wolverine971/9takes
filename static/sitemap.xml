@@ -11,7 +11,7 @@
   </url>
   <url>
     <loc>https://9takes.com/blog</loc>
-    <lastmod>2026-04-18</lastmod>
+    <lastmod>2026-04-19</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/blog/experiment</loc>
@@ -898,7 +898,7 @@
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis</loc>
-    <lastmod>2026-04-18</lastmod>
+    <lastmod>2026-04-19</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/abraham-lincoln</loc>
@@ -1196,11 +1196,11 @@
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/categories</loc>
-    <lastmod>2026-04-18</lastmod>
+    <lastmod>2026-04-19</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/categories/authors-thinkers</loc>
-    <lastmod>2026-04-17</lastmod>
+    <lastmod>2026-04-19</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/categories/comedy</loc>
@@ -1224,7 +1224,7 @@
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/categories/tech-business</loc>
-    <lastmod>2026-04-17</lastmod>
+    <lastmod>2026-04-19</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/chamath-palihapitiya</loc>
@@ -2914,6 +2914,13 @@
     </image:image>
   </url>
   <url>
+    <loc>https://9takes.com/personality-analysis/tyler-cowen</loc>
+    <lastmod>2026-04-19</lastmod>
+    <image:image>
+      <image:loc>https://9takes.com/types/5s/Tyler-Cowen.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
     <loc>https://9takes.com/personality-analysis/tyler-perry</loc>
     <lastmod>2026-03-24</lastmod>
     <image:image>
@@ -2945,7 +2952,7 @@
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/type/5</loc>
-    <lastmod>2026-04-15</lastmod>
+    <lastmod>2026-04-19</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/type/6</loc>

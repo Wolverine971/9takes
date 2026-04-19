@@ -145,6 +145,59 @@ In the warmup doc, capture the pattern and the reply angle, but do not write the
 
 ---
 
+## Engagement Mode: Post-Level vs Comment-Level
+
+Not every strong post deserves a top-level comment. When a post is already crowded, a new top-level comment gets buried and trains nobody's algorithm. Supporting the people already saying real things is more valuable than shouting into a hundred-comment pile.
+
+Decide an `Engagement Mode` for every queued post:
+
+- **`post`** — Draft a top-level comment on the post itself.
+- **`comment-level`** — Do not add a top-level comment. Instead, surface specific existing commenters worth replying to or liking.
+- **`mixed`** — Rare. Only when there is a genuinely distinct top-level angle that no existing comment touches AND at least one existing comment is worth supporting.
+
+### Thresholds
+
+Use visible comment count as the primary signal, adjusted for the account's typical comment density:
+
+- **Under ~40 comments:** Default to `post`.
+- **40–99 comments:** Judgment call. Default to `post`, but switch to `comment-level` if the top comments are already carrying the exact angle 9takes would bring.
+- **100–199 comments:** Default to `comment-level`. Only use `post` if there is a truly unique angle the thread is missing.
+- **200+ comments:** Always `comment-level`. A new top-level comment will be lost. Never override this.
+
+If comment count is hidden, estimate from scroll depth and fall back conservatively (assume more, not fewer).
+
+### Comment-Level Selection
+
+When `Engagement Mode = comment-level`, open the comments, scan the top-ranked and most-recent sections, and surface 3–7 individual comments that are worth engaging with.
+
+A comment is worth engaging with when it:
+
+- Already says something close to what 9takes would say, and deserves amplification.
+- Names a specific, observable pattern (not a vague truism).
+- Comes from an account with plausible strategic relevance (peer, adjacent, rising, or a thoughtful voice with real audience overlap).
+- Opens a natural continuation — a reply can add one sharp observation without rehashing the top-level post.
+
+Skip comments that:
+
+- Are purely emoji or one-word reactions.
+- Are from clearly spammy, sales-heavy, or bot-like accounts.
+- Are already at 100+ replies themselves (same burial problem, one level down).
+- Are arguments or crisis content.
+
+For each selected comment, capture in the warmup doc:
+
+- Commenter handle
+- Full quoted comment text (exact, so `/instagram-reply` can draft against it)
+- Commenter's approximate follower size or strategic read, if visible
+- Action type: `Reply` or `Like only`
+- Why this comment is worth supporting
+- Reply angle if the action is `Reply` (what to add, not what to write)
+- Visibility level (0/1/2) for the reply itself
+
+`Like only` is a legitimate action when a comment nails the angle and adding a reply would dilute rather than amplify it. Prefer `Like only` over a weak reply.
+
+---
+
 ## Daily Workflow
 
 ## Phase 0: Create Today’s Warmup Doc
@@ -237,7 +290,9 @@ Capture:
 - Relationship intel
 - Past touchpoints summary
 - Visibility level
-- Reply angle for `/instagram-reply`
+- **Engagement Mode:** `post`, `comment-level`, or `mixed` (see thresholds above)
+- Reply angle for `/instagram-reply` (only required when Mode includes `post`)
+- **Comment-Level Targets** (required when Mode includes `comment-level`): 3–7 individual comments with commenter handle, full quoted text, action type (`Reply` or `Like only`), and a per-comment reply angle if Action = Reply
 - Queue status
 
 ## Phase 6: Prioritize

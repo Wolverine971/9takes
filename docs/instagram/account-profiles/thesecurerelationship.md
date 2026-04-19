@@ -11,8 +11,8 @@
 **Relationship Status:** Warm
 **Audience Quality:** High (therapy-literate, personal stories, low spam)
 **Profile Created:** 2026-04-06
-**Last Reviewed:** 2026-04-13
-**Last Engaged:** 2026-04-06 PM (commented on lovability post — 7 days ago; 7-day natural cool-off now complete)
+**Last Reviewed:** 2026-04-19
+**Last Engaged:** 2026-04-06 PM (commented on lovability post — now 13 days ago; Apr 7/10/11/13 drafted replies never confirmed posted)
 **Source of First Discovery:** Engagement targets list (Tier 2: Psychology, Therapy & Mental Health)
 
 ## Condensed Intel
@@ -60,17 +60,20 @@
 | 2026-04-11 | Carousel | Not All Struggling Relationships Are Trauma Bonded                                                                                 | Queued    | Pending   | 1d old, 466 likes, 9 comments. Challenges misuse of "trauma bond" in pop psychology. Angle: label can become its own trap — makes you feel chemically hooked rather than in a changeable pattern. Level 0. 5-day spacing = safe.                                                                                                                     | Pending — superseded by Apr 13 fresh post                 | 2026-04-11_instagram-warmup.md     |
 | 2026-04-13 | Carousel | "What is the anxiety trying to manage? What pain is underneath it?"                                                                | Queued    | Pending   | 14h old, 508 likes, 5 real comments. NEW — freshest post. Massive gap on 1.3M account. Level 0. 7-day natural spacing since last engagement = perfect. Angle: anxiety isn't random — it learned to protect something real. The Q shifts from "what's wrong with me" to "what's safe enough to put down."                                             | Pending                                                   | 2026-04-13_instagram-warmup.md     |
 | 2026-04-13 | Carousel | Anxiety post — replies drafted                                                                                                     | Drafted   | Pending   | 3 options drafted (Level 0). Best Option 1: "the anxiety isn't random — it learned to protect something real. that question 'what is it managing?' shifts the whole thing from 'what's wrong with me' to 'what did I need to stay safe.' completely different starting point." Do NOT mention Enneagram.                                             | Drafted - Pending Posting                                 | 2026-04-13_instagram-replies-pm.md |
+| 2026-04-19 | Carousel | "Your partner is not the problem you're trying to solve. The cycle is."                                                            | Reviewed  | Queued    | 14h old, 979 likes, 9 comments. https://www.instagram.com/thesecurerelationship/p/DXSZTW1klXK/ Level 0 ONLY. Strong thematic fit — pattern/cycle thinking without naming Enneagram. Comment field is mostly affirming one-liners; depth has room. Massive 13-day spacing since last engagement = safe timing.                                        | Pending                                                   | 2026-04-19_instagram-warmup.md     |
+| 2026-04-19 | Carousel | "Cycle is the problem" — replies drafted                                                                                           | Drafted   | Pending   | 3 options drafted (Level 0). Best Option 1: "both people are right that something is hurting them. the mistake is identifying what. the cycle is the only story that lets both of you be accurate about the pain and still end up on the same side." Non-villain frame. Do NOT mention Enneagram. No em dashes.                                    | Drafted - Pending Posting                                 | 2026-04-19_instagram-replies.md    |
 
 ## Open Loops
 
-- 7-day natural spacing since last engagement (Apr 6 PM → Apr 13). Perfect timing — not try-hard.
-- Julie liked 3 of our comments in the first week. Relationship is solidly Warm.
-- NEW (Apr 13): "What is the anxiety trying to manage?" carousel (14h, 508 likes, 5 real comments) — freshest and best opportunity since Apr 6
-- Trauma bond post (3d, 534 likes, 9 comments) — still valid secondary option if needed
+- **NEW (Apr 19): "The cycle is the problem" carousel** — 14h, 979 likes, 9 comments. 3 options drafted in 2026-04-19_instagram-replies.md — Drafted - Pending Posting. https://www.instagram.com/thesecurerelationship/p/DXSZTW1klXK/
+- 13-day natural spacing since last confirmed-posted engagement (Apr 6 PM). Anti-try-hard zone — perfect timing to show back up.
+- Julie liked 3 of our comments in the first week. Relationship still Warm.
+- Apr 13 anxiety post & Apr 13 drafted replies never confirmed posted — treat as aged out
 - Still unknown whether Apr 7 anxious-vs-avoidant or Apr 10 shame comments were actually posted
 
 ## Next Best Angles
 
-- **Today (priority):** Anxiety isn't random — it learned to protect something real. The question "what is it managing?" shifts it from "something wrong with me" to "something that made sense once." The hardest part: the protection is usually still right about what it's protecting — it just doesn't know the situation has changed.
+- **Today (priority — "cycle is the problem" post):** The cycle feels like each of them is the problem because each person is actually right about one thing: they ARE being hurt by something. What they miss is that what's hurting them isn't the other person — it's the way both of their protections interlock. Naming the cycle is the only move that doesn't require one person to be the villain. Level 0 — do NOT mention Enneagram.
+- **Alt angle:** "when the cycle becomes the shared problem, suddenly there's a we that didn't exist when it was me-vs-you. the thing you're both fighting stops being each other."
 - **Future:** The "missed bid for connection" angle — how missing bids accumulates silently until someone "suddenly" shuts down
 - **Future:** The role of childhood in what your nervous system registers as "positive" vs "dangerous" in relationships

@@ -1,0 +1,15 @@
+Pre-flight checks show `inProgress` is set to "brene-brown" (started 2026-04-18). Per workflow rules, I must stop immediately when a blog is in progress.
+
+BLOG IN PROGRESS: brene-brown - skipping today's run
+
+```
+=== DAILY BLOG CREATOR SUMMARY ===
+Date: 2026-04-19
+Status: SKIPPED (blog in progress)
+Blog: Brené Brown (started 2026-04-18T00:00:00Z)
+Action: None taken
+Next Run: Tomorrow 2:00 AM
+===================================
+```
+
+Note: The `inProgress` entry for brene-brown may be stale from the interrupted run logged in `reQueuedReason` (previous run interrupted 2026-04-06, re-queued 2026-04-17). If you want me to clear the stale `inProgress` and proceed with today's selection, let me know.

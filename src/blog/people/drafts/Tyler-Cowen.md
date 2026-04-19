@@ -4,12 +4,12 @@ meta_title: 'Why Tyler Cowen Reads 5 Books a Day But Orders Sample-Size Ice Crea
 persona_title: "Economics' Quiet Devourer"
 description: 'Inside the mind that reads 5 books a day, blogs on Christmas, and claims to never have unhappy days. Tyler Cowen through the Enneagram.'
 author: 'DJ Wayne'
-date: '2026-03-27'
+date: '2026-04-19'
 loc: 'https://9takes.com/personality-analysis/Tyler-Cowen'
-lastmod: '2026-03-27'
+lastmod: '2026-04-19'
 changefreq: 'monthly'
 priority: '0.6'
-published: false
+published: true
 enneagram: 5
 type: ['techie', 'author']
 person: 'Tyler-Cowen'

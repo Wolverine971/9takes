@@ -24,11 +24,15 @@ export const checkDemoTime = async (client?: SupabaseClient<Database>) => {
 	}
 
 	const sb = client ?? (supabase as unknown as SupabaseClient<Database>);
-	const { data: demoTime } = await sb
+	const { data: demoTime, error } = await sb
 		.from('admin_settings')
 		.select('value')
 		.eq('type', 'demo_time')
 		.single();
+
+	if (error) {
+		return demoTime?.value;
+	}
 
 	const demo_time = demoTime?.value;
 	demoTimeCache = { value: demo_time, expiresAt: now + DEMO_TIME_CACHE_TTL_MS };
