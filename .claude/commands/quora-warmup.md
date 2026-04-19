@@ -25,18 +25,33 @@ If another session already exists for the same date, create a suffixed variant:
 
 ---
 
-## Required Context
+## Strategic Context (Why This Command Works)
 
-Read these before starting:
+This section is inlined so you do not need to pre-read other files. Operating rules live here, not in linked docs.
 
-- `docs/growth/quora-strategy.md`
-- `docs/brand/brand-style-guide-v2.md`
-- `docs/quora/question-log.md` (create if missing — use the template at end of this file)
+### The edge
 
-Cross-reference as needed:
+DJ Wayne's Quora edge is the **Enneagram gap**. Most top answers on Quora questions about human behavior don't name Enneagram types — they offer generic emotional-intelligence advice or pop psychology. By reading a question through the Enneagram lens and showing which 2-3 types explain the behavior, we add a layer nobody else is adding on that question.
 
-- `docs/quora/sessions/` (recent sessions, if any)
-- `docs/domain-authority/` (understand what topics 9takes owns)
+That gap is the only reason we win on Quora. Every question we queue must have this gap in the top 5 upvoted answers. If the top answers already name types specifically, the question is saturated — skip it.
+
+### Who DJ Wayne is on Quora
+
+- Credential: "Independent Enneagram researcher | Founder, 9takes"
+- 10+ years studying personality systems — self-taught, verifiable (the platform). "Independent researcher" is Quora's accepted shorthand for self-taught depth.
+- Voice: personal, direct, experience-based. Never academic-toned. Never "some people might…"
+
+### Hard rules
+
+1. **Never create a new question.** Creating questions to answer them is a spam flag and can suspend the account. Only answer existing high-traffic questions.
+2. **Never link in the first third of an answer.** Instant spam signal. Links go 2/3 down, once per answer max, to a specific 9takes blog post (not the homepage, never shortened URLs).
+3. **Answer existing traffic, don't manufacture it.** Quora's algorithm surfaces strong answers on popular existing questions far more than new ones.
+
+### Required cross-references (optional, not pre-read)
+
+- `docs/quora/question-log.md` — must be read during Phase 1 to check for duplicates (create if missing using the template at end of this file).
+- `docs/quora/sessions/` — skim last 3 sessions during Phase 1 to avoid re-evaluating the same questions.
+- `docs/domain-authority/` — consult only if you need to verify what topics 9takes owns.
 
 ---
 
@@ -111,6 +126,29 @@ Use judgment for borderline cases. 200 answers on a 100K-view question is still 
 | Still active            | 1x     | Recent answers visible (question still surfacing) |
 
 Score each factor 0–10, multiply by weight, sum for a 0–100 total.
+
+---
+
+## Topic Fit: Question Category → Enneagram Angle Map
+
+Use this table when evaluating "topic fit" in the scoring framework. If a candidate question maps cleanly to one of these categories, it's in-bounds. If it doesn't map, it's out of bounds (skip or deprioritize).
+
+The "Best Angle" column is what you're pattern-matching for when reading the top 5 answers to check for the Enneagram gap — these are the types that actually explain the behavior.
+
+| Category                          | Example question                                    | Best Enneagram angle               |
+| --------------------------------- | --------------------------------------------------- | ---------------------------------- |
+| Victim mentality                  | "Why do some people always play the victim?"        | Type 4 vs Type 6 distinction       |
+| Stonewalling / shutdown           | "Why does my partner shut down during conflict?"    | Type 9 / Type 5 conflict avoidance |
+| Argumentative / needs-to-be-right | "How do I deal with someone who needs to be right?" | Type 1 vs Type 8 dynamics          |
+| Emotional unavailability          | "Why are some people emotionally unavailable?"      | Type 5, Type 9 under stress        |
+| People-pleasing                   | "What makes someone a people-pleaser?"              | Type 2 / Type 9 fear mechanics     |
+| Over-responsibility               | "Why do I feel responsible for everyone?"           | Type 2 / Type 6                    |
+| Narcissism red flags              | "How do you know if someone is a narcissist?"       | Type 3 / Type 8 distress patterns  |
+| Introversion                      | "Why do introverts avoid social situations?"        | Type 5 energy economics            |
+| Passive aggression                | "What makes someone passive-aggressive?"            | Type 1 / Type 9 under pressure     |
+| Overthinking / anxiety            | "How do I stop overthinking?"                       | Type 6 worst-case scanning         |
+
+**Coverage note:** over time, aim for type-coverage diversity — don't queue 4 questions that all hit the same type. The "Type Coverage" section of the session doc helps track this.
 
 ---
 
@@ -422,4 +460,22 @@ Next step: /quora-answer [session path]
 
 ---
 
-_Last Updated: 2026-04-13_
+## Go Deeper
+
+This command is self-sufficient for Stage 1 (warmup). The root docs below are source-of-truth for the inlined content — read them only if you need fuller context:
+
+- `docs/growth/quora-strategy.md` — full Quora playbook: profile setup, "Knows About" topic list (10+ to add), bio copy, answer formula, formatting rules, link strategy, sample answers, posting schedule. **Matters most for `/quora-answer`, not warmup.** Consult during warmup only if you're evaluating a borderline question and need to check the exact "sweet spot" criteria or link strategy.
+- `docs/brand/brand-style-guide-v2.md` — 9takes voice and tone. Relevant for answer drafting, not question selection. Skip during warmup.
+- `docs/quora/question-log.md` — must read during Phase 1 (not optional) to avoid duplicates.
+- `docs/quora/sessions/` — skim last 3 sessions during Phase 1 for recent evaluations.
+- `docs/domain-authority/` — optional reference for what 9takes topics already rank.
+
+**When to read a root doc:**
+
+- Borderline sweet-spot case (e.g., 200 answers on a 100K-view question) — check quora-strategy for fuller judgment criteria.
+- You need to confirm whether 9takes owns a particular topic/angle — check domain-authority.
+- You don't during warmup need brand-style-guide-v2 or most of quora-strategy — save those for `/quora-answer`.
+
+---
+
+_Last Updated: 2026-04-19_

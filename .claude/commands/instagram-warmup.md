@@ -299,16 +299,18 @@ Capture:
 
 Score using these factors:
 
-| Factor              | Weight | Criteria                         |
-| ------------------- | ------ | -------------------------------- |
-| Freshness           | 3x     | Newer is better                  |
-| Natural fit         | 3x     | Clear way to add value           |
-| Tone match          | 2x     | You can sound native to the room |
-| Comment competition | 2x     | Lower is better                  |
-| Content bridge      | 1x     | Natural follow-up opportunity    |
-| Relationship value  | 1x     | Worth building over time         |
+| Factor              | Weight | Criteria                                                                        |
+| ------------------- | ------ | ------------------------------------------------------------------------------- |
+| Freshness           | 3x     | Newer is better                                                                 |
+| Natural fit         | 3x     | Clear way to add value                                                          |
+| Tone match          | 2x     | You can sound native to the room                                                |
+| Comment competition | 2x     | Lower is better for `post` mode; stops being a penalty for `comment-level` mode |
+| Content bridge      | 1x     | Natural follow-up opportunity                                                   |
+| Relationship value  | 1x     | Worth building over time                                                        |
 
-Select the top 5-7 opportunities for the reply queue.
+High-comment posts (100+) should not be dropped for comment competition alone. Re-score them as `comment-level` opportunities — they can be high-value even on a buried post, because you are amplifying existing voices, not competing with them.
+
+Select the top 5-7 opportunities for the reply queue. Mix modes: aim for a blend of `post` and `comment-level` items rather than loading the queue with only one mode.
 
 ---
 
@@ -319,15 +321,18 @@ Prioritize posts that are:
 - From the last 24 hours
 - Fresh enough to matter, ideally under 12 hours
 - Strong fit for personality, psychology, relationships, Enneagram, MBTI, or behavior analysis
-- Light to moderate on comments
 - Not already captured in the last 7 days
 - Worth either relationship depth or algorithm training
+
+Comment density guides engagement mode rather than inclusion:
+
+- Light to moderate on comments → `post` mode
+- Heavy on comments (100+) → `comment-level` mode (do not skip; switch the mode)
 
 Skip posts that are:
 
 - Sponsored or ad-like
-- Too crowded to matter
-- Purely aesthetic with no conversation angle
+- Purely aesthetic with no conversation angle and no real comment thread to support
 - Low-effort reposts
 - Mental health crisis content
 - Political fights
@@ -361,9 +366,10 @@ Use this structure:
 
 ## Priority Summary
 
-| #   | Account | Topic         | Age | Comments | Opp Type                | Level | Score | Profile | Queue  |
-| --- | ------- | ------------- | --- | -------- | ----------------------- | ----- | ----- | ------- | ------ |
-| 1   | @handle | [brief topic] | 2h  | 3        | Relationship/attachment | 0     | 98    | [path]  | Queued |
+| #   | Account | Topic         | Age | Comments | Mode          | Opp Type                | Level | Score | Profile | Queue  |
+| --- | ------- | ------------- | --- | -------- | ------------- | ----------------------- | ----- | ----- | ------- | ------ |
+| 1   | @handle | [brief topic] | 2h  | 3        | post          | Relationship/attachment | 0     | 98    | [path]  | Queued |
+| 2   | @handle | [brief topic] | 6h  | 312      | comment-level | Community amplification | 1     | 88    | [path]  | Queued |
 
 ---
 
@@ -379,6 +385,7 @@ Use this structure:
 **Profile File:** [path]
 **Profile Status:** [Existing / Created today]
 **Strategic Role:** [Peer / Anchor / Adjacent Partner / Rising / Monitor only]
+**Engagement Mode:** [post / comment-level / mixed]
 
 **Why This Post:**
 [Why it is worth considering.]
@@ -400,22 +407,34 @@ Use this structure:
 **Internal Pattern Read:**
 [What the Enneagram lens suggests internally.]
 
-**Reply Angle for `/instagram-reply`:**
+**Reply Angle for `/instagram-reply`** _(required when Mode includes `post`)_:
 
 - [What the reply should do]
 - [What tone or mode to use]
 - [What to avoid repeating]
 
-**Visibility Level:** [0/1/2]
+**Comment-Level Targets** _(required when Mode includes `comment-level`)_:
+
+| #   | Commenter | Action    | Why Support / Reply                            | Reply Angle (if Reply) | Visibility |
+| --- | --------- | --------- | ---------------------------------------------- | ---------------------- | ---------- |
+| a   | @handle   | Reply     | [Names a specific pattern aligned with 9takes] | [What to add]          | 0          |
+| b   | @handle   | Like only | [Nails the angle, amplifying > diluting]       | —                      | —          |
+
+For each `Reply` action, paste the exact commenter text as a blockquote below the table so `/instagram-reply` can draft against it verbatim:
+
+> [Commenter @handle]: "[exact comment text]"
+
+**Visibility Level:** [0/1/2] _(post-level reply visibility; comment-level items carry their own)_
 **Queue Status:** Queued for `/instagram-reply`
 
 ---
 
 ## Reply Queue
 
-| Priority | Account | Post    | Profile | Strategic Role | Relationship Stage         | Reply Angle   | Status |
-| -------- | ------- | ------- | ------- | -------------- | -------------------------- | ------------- | ------ |
-| 1        | @handle | [topic] | [path]  | [Peer]         | [Prospect / Active / Warm] | [brief angle] | Queued |
+| Priority | Account | Post    | Profile | Strategic Role | Relationship Stage         | Mode          | Reply Angle / Targets          | Status |
+| -------- | ------- | ------- | ------- | -------------- | -------------------------- | ------------- | ------------------------------ | ------ |
+| 1        | @handle | [topic] | [path]  | [Peer]         | [Prospect / Active / Warm] | post          | [brief angle]                  | Queued |
+| 2        | @handle | [topic] | [path]  | [Rising]       | [Prospect]                 | comment-level | [N reply targets, M like-only] | Queued |
 
 ---
 
@@ -524,4 +543,4 @@ Warmup doc: docs/instagram/daily-engagement/[filename]
 
 ---
 
-_Last Updated: 2026-04-06_
+_Last Updated: 2026-04-19 (v3 — comment-level engagement mode for high-comment posts)_

@@ -45,16 +45,14 @@ Never overwrite a different same-day replies doc just because the date matches.
 
 ## Required Reading
 
-Read these first:
+Read ONLY these two things:
 
-- The source warmup doc
-- `/docs/brand/brand-style-guide-v2.md`
-- `/docs/brand/brand-positioning.md`
-- `/docs/instagram/gen-z-instagram-posting-cheat-sheet-2026.md`
-- `/docs/instagram/account-profiles/README.md`
-- `/docs/instagram/instagram-peer-growth-strategy-2026.md`
+1. The source warmup doc
+2. The account profile for every queued account listed in that warmup doc
 
-Then read the account profile for every queued account listed in the warmup doc.
+Do **not** open the brand style guide, brand positioning doc, gen-z posting cheat sheet, peer growth strategy doc, or account-profiles README during this pass. Everything you need to draft on-brand replies is embedded below in **The 9takes Voice for IG Comments** and **Comment Crafting Rules**.
+
+**Why this restriction exists:** Past versions of this command made the agent pull in 5-6 brand docs. Those docs cover original _posting_ (carousels, reels, captions) — not _commenting on other accounts' posts_. When the agent averages them in, the drafts come out as generic Enneagram-coach wisdom: abstract, sage, neutral, indistinguishable from any other personality account. The voice rules below are tuned specifically for the comment context. Use them as the only source of voice truth for this pass.
 
 ---
 
@@ -62,17 +60,30 @@ Then read the account profile for every queued account listed in the warmup doc.
 
 `/instagram-reply` should:
 
-1. Read the reply queue from the warmup doc.
+1. Read the reply queue from the warmup doc, including the `Engagement Mode` for each item.
 2. Read each queued account profile.
-3. Draft 2-3 reply options per queued post.
-4. Avoid repeating old angles or phrasing from past interactions.
-5. Write a separate replies doc.
-6. Update account histories with `Drafted` notes.
-7. If the user confirms actual posting, record the exact comment and mark it `Posted`.
+3. For `post` mode items, draft 2-3 reply options for the post itself.
+4. For `comment-level` mode items, draft 1-2 reply options per targeted commenter (skipping `Like only` targets — see below) and quote the exact commenter text above every draft.
+5. For `mixed` mode items, do both.
+6. Avoid repeating old angles or phrasing from past interactions.
+7. Write a separate replies doc.
+8. Update account histories with `Drafted` notes that distinguish post-level replies, comment-level replies, and planned likes.
+9. If the user confirms actual posting or liking, record the exact action and mark it `Posted`.
 
-If the warmup doc is a legacy doc without a `Reply Queue`, convert it into a working queue first using legacy compatibility mode.
+If the warmup doc is a legacy doc without a `Reply Queue`, convert it into a working queue first using legacy compatibility mode. Legacy items default to `Engagement Mode: post`.
 
 Do not change the warmup sourcing decisions unless there is a clear error.
+
+### Comment-Level Handling
+
+For each `Comment-Level Targets` table entry in the warmup doc:
+
+- **`Action: Reply`** — Draft 1-2 comment options. Paste the original commenter's text as a blockquote in the replies doc so the exact target is unambiguous. The reply should add one sharp observation that builds on what the commenter said, not a rehash of the top-level post angle.
+- **`Action: Like only`** — Do not draft a reply. Record the item as a `Planned Like` in the replies doc. The reply-drafting constraints do not apply; this is a one-tap action.
+
+Comment-level replies should usually be shorter than top-level replies. Two sentences max. The commenter is not the audience for the original post — don't re-explain what the post was about.
+
+If adding a reply would dilute a comment that already nails the angle, override `Reply` back to `Like only` and note the override in the replies doc with a one-line reason. Prefer supporting the existing voice over stacking another opinion.
 
 ---
 
@@ -105,16 +116,75 @@ Visibility levels from the warmup doc still apply:
 
 ---
 
+## The 9takes Voice for IG Comments
+
+This is the most important section in the command. Read it before drafting anything.
+
+### Who is commenting
+
+A guy (DJ Wayne) who built a Q&A platform where users see 9 different takes on the same situation. He sees patterns across types because he watches them play out side by side every day. He talks like a sharp friend who happens to run a thing — not like a coach, not like a therapist, not like a wisdom influencer.
+
+### What the voice sounds like
+
+- A **specific, named pattern**, not a general truth.
+- A **behavior anyone could verify** if they watched for it.
+- **Conversational** — would you actually text this to a friend at midnight?
+- **POV with a slight edge**, not neutral wisdom.
+- **Lowercase is fine**, but the energy should feel like a real person typing fast on a phone.
+
+### What the voice is NOT (hard ban list)
+
+These are patterns the agent keeps falling into. Treat each as a rewrite trigger.
+
+**Therapy-poet voice** (banned):
+
+- "the line between X and Y is where this lands for me"
+- "the third beat between [abstract A] and [abstract B]"
+- "the room actually feels different"
+- "the first time the real person gets to be in the room"
+- "the kid who built it didn't have better options"
+- "the first honest bid for connection their nervous system has ever allowed"
+
+**Wisdom-influencer aphorism voice** (banned):
+
+- "the cycle is the only story that lets both of you be accurate about the pain"
+- "expansion isn't leaving your type, it's finding out how big it actually was"
+- "knowing your type can be the cage if you stop there"
+- Any sentence that could be screenshotted and posted as a standalone quote tile
+
+**Sage closer voice** (banned):
+
+- Ending with a tidy aphorism that wraps the comment up
+- "almost no one sees what it's protecting"
+- "the cycle is the first target that moves when you hit it"
+- Any closer where you can hear an imaginary mic drop
+
+### Two tests every draft must pass
+
+1. **The friend-text test:** Read it out loud as if texting a friend. If it sounds like a sermon, a coaching session, or a LinkedIn quote — kill it.
+2. **The 500K-coach test:** Could a generic Enneagram account with 500K followers post this word-for-word? If yes, it's not 9takes. The 9takes angle is "I watch 9 types react to the same prompt every day, here's the pattern that shows up." Surface that or rewrite.
+
+### What an on-brand 9takes comment looks like
+
+Not "the pattern that built itself for survival is still the one driving" — that's wisdom voice.
+
+Closer to: "type 4s I know cancel plans to be alone, then text 'i miss you' an hour later. same nervous system, two outputs."
+
+The difference: a concrete behavior you could film, attached to a type, with a tiny bit of dry observation. Not a meditation. Not a moral.
+
+---
+
 ## Comment Crafting Rules
 
 ### Core Principles
 
 1. Most comments should not mention Enneagram directly.
 2. Be a community member first, never a brand strategist in the comments.
-3. Add one sharp observation, not a mini-essay.
-4. Match the author’s tone, vocabulary, and energy.
+3. Add one sharp observation, not a mini-essay. **One** — not three insights stacked into one comment.
+4. Match the author's tone, vocabulary, and energy.
 5. Keep comments short enough to feel typed on a phone.
-6. Avoid clear AI patterns like over use of emdashes.
+6. Avoid clear AI patterns (em dashes, semicolons in shorts, balanced clauses).
+7. If you can't name a concrete behavior, don't post — like instead.
 
 ### Modes
 
@@ -144,13 +214,15 @@ Value comments don't explain. They name something the reader already felt but ha
 
 ### Constraints
 
-- 1-2 sentences preferred, 3 max
-- No hashtags
-- Minimal emoji, only if natural
-- Avoid preachy phrasing
-- Avoid `genuinely curious`
-- Avoid opening every option with praise
-- Never sound like a brand account
+- **1-2 sentences. 3 only with a strong reason.** If your draft is 4+ sentences, you are writing an essay — cut.
+- No stacking multiple insights into one comment. Pick one and trust it.
+- No hashtags.
+- Minimal emoji, only if natural.
+- No preachy phrasing.
+- Avoid `genuinely curious`.
+- Don't open every option with praise.
+- Never sound like a brand account.
+- Never sound like a coach or therapist either.
 
 ### Anti-AI Patterns (Hard Bans)
 
@@ -231,9 +303,12 @@ For each queued item:
 1. Read the account profile.
 2. Pull the relationship intel and past touchpoints.
 3. Note repetition risks.
-4. Draft 2-3 comment options with different modes.
+4. Check the `Engagement Mode` set by the warmup. Draft accordingly:
+   - **`post`**: 2-3 top-level comment options with different tonal modes (Value / Casual / Cheerleader).
+   - **`comment-level`**: For every `Action: Reply` target, quote the commenter's exact text and draft 1-2 options aimed at that commenter, not the post author. For every `Action: Like only` target, add a `Planned Like` row — no draft needed.
+   - **`mixed`**: Do both. Keep the post-level draft and the comment-level drafts clearly separated in the doc.
 5. Update the replies doc immediately.
-6. Add a `Drafted` row to the account profile history if one does not already exist for this post.
+6. Add a `Drafted` (or `Planned Like`) row to the account profile history for the post, noting which commenter was targeted when applicable. One row per distinct action, so post-level drafts and comment-level drafts stay legible in the history.
 
 ## Step 4: Record Execution State
 
@@ -269,15 +344,16 @@ Use this structure:
 
 ## Queue Summary
 
-| #   | Account | Topic   | Profile | Relationship Note | Status  |
-| --- | ------- | ------- | ------- | ----------------- | ------- |
-| 1   | @handle | [topic] | [path]  | [brief context]   | Drafted |
+| #   | Account | Topic   | Mode          | Profile | Relationship Note | Status  |
+| --- | ------- | ------- | ------------- | ------- | ----------------- | ------- |
+| 1   | @handle | [topic] | post          | [path]  | [brief context]   | Drafted |
+| 2   | @handle | [topic] | comment-level | [path]  | [brief context]   | Drafted |
 
 ---
 
 ## Reply Drafts
 
-### 1. @handle - [Topic]
+### 1. @handle - [Topic] _(Mode: post)_
 
 **Post Link:** [URL]
 **Profile File:** [path]
@@ -311,6 +387,51 @@ Use this structure:
 
 ---
 
+### 2. @handle - [Topic] _(Mode: comment-level)_
+
+**Post Link:** [URL]
+**Profile File:** [path]
+**Why comment-level:** [Post has N+ comments; amplify existing voices rather than add noise.]
+
+**Relationship Intel:**
+
+- [summary]
+
+**Do Not Repeat:**
+
+- [previous angle or phrasing to avoid]
+
+#### Comment-Level Target 2a — Reply to @commenter-handle
+
+**Original Comment:**
+
+> @commenter-handle: "[exact commenter text]"
+
+**Why Support This Comment:** [Names a specific observable pattern aligned with 9takes.]
+
+**Suggested Reply Option 1 (mode: value):**
+
+> [1-2 sentence reply that builds on the commenter's point]
+
+**Suggested Reply Option 2 (mode: casual):**
+
+> [shorter, more human reply]
+
+**Visibility Level:** [0/1/2]
+**Execution Status:** Drafted - Pending Posting
+**If Posted, Record Exact Comment Here:** Pending
+
+#### Comment-Level Target 2b — Planned Like on @commenter-handle
+
+**Original Comment:**
+
+> @commenter-handle: "[exact commenter text]"
+
+**Why Like Only:** [Nails the angle; adding a reply would dilute it.]
+**Execution Status:** Planned Like - Pending Action
+
+---
+
 ## Execution Plan
 
 - [Recommended order]
@@ -321,11 +442,23 @@ Use this structure:
 
 ---
 
+## Planned Likes
+
+For `comment-level` items with `Action: Like only`, record them here so you can knock them out in one pass:
+
+| #   | Account | Post    | Commenter  | Commenter Quote (trimmed) | Status                 |
+| --- | ------- | ------- | ---------- | ------------------------- | ---------------------- |
+| 1   | @handle | [topic] | @commenter | "[short excerpt]"         | Planned Like - Pending |
+
+---
+
 ## Reconciliation Needed
 
-| Account | Post    | Current State             | Next Update Needed                    |
-| ------- | ------- | ------------------------- | ------------------------------------- |
-| @handle | [topic] | Drafted - Pending Posting | Mark Posted / Skipped / Still pending |
+| Account | Post    | Target              | Current State             | Next Update Needed                    |
+| ------- | ------- | ------------------- | ------------------------- | ------------------------------------- |
+| @handle | [topic] | Post                | Drafted - Pending Posting | Mark Posted / Skipped / Still pending |
+| @handle | [topic] | Reply to @commenter | Drafted - Pending Posting | Mark Posted / Skipped / Still pending |
+| @handle | [topic] | Like on @commenter  | Planned Like - Pending    | Mark Liked / Skipped / Still pending  |
 
 ---
 
@@ -373,4 +506,4 @@ If you already posted any of these manually, tell me which ones and I’ll mark 
 /instagram-reply -> Draft replies, avoid repetition, record execution notes
 ```
 
-_Last Updated: 2026-04-13 (v2 — anti-AI patterns, em dash ban, banned phrase list)_
+_Last Updated: 2026-04-19 (v4 — embedded the 9takes voice for IG comments directly in the command; removed required reading of brand/strategy docs that were diluting drafts into generic Enneagram-coach wisdom)_

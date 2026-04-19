@@ -31,14 +31,11 @@ Example: /distribute-instagram Pete Davidson
 
 Then wait for user input.
 
-## Required Source Files (Read First)
+## Source of Truth
 
-1. `docs/instagram/gen-z-instagram-posting-cheat-sheet-2026.md` (primary operating rules)
-2. `docs/instagram/instagram-launch-plan-feb-2026.md` (voice + examples)
-3. `youtube-transcript-research/learn-copywriting.md` (full transcript + analysis)
-4. `youtube-transcript-research/3-rules-of-copywriting.md` (3-rule transcript + analysis)
+This command is **self-sufficient**. Operating principles, frameworks, hook patterns, and templates are inlined below — you do not need to read any other file to run this command.
 
-If any file is missing, continue with available files and note the limitation.
+Only read the root docs in the "Go Deeper" section at the end if you hit an edge case the inlined frameworks don't cover, or if you want background on where a rule came from.
 
 ## Pre-Approved Operations
 
@@ -63,26 +60,136 @@ Use TaskCreate/TaskUpdate to track progress through the workflow. Create 6 tasks
 
 # Workflow
 
-## Step 0: Load the Cheat Sheet Rules
+## Step 0: Operating Principles (Non-Negotiables)
 
-Before generating content, read and apply the principles from:
+Apply these to every line of output. They are not stylistic preferences — they are quality gates.
 
-- `docs/instagram/gen-z-instagram-posting-cheat-sheet-2026.md`
-- `youtube-transcript-research/learn-copywriting.md`
-- `youtube-transcript-research/3-rules-of-copywriting.md`
+### Brand frame
 
-Non-negotiables for every output:
+9takes is **not** gossip and **not** fan content. 9takes is **pattern recognition in public behavior through personality frameworks**. Every post should feel:
 
-1. **No-waste opening:** first line (or first 1-2 seconds) states the payoff.
-2. **Content Value Triad:** entertaining + educational + expressive.
-3. **Copy Quality Triad:** visualizable + falsifiable + 9takes-unique.
-4. **Falsifiable psychology:** claim + evidence + boundary/counter-signal + disclaimer.
-5. **Forced-choice CTA:** ask an agree/disagree or A/B prompt.
-6. **One Mississippi test:** hook must be understandable in about 2 seconds.
-7. **Don't talk, only point:** replace adjectives with observable proof.
-8. **Competitor-signability test:** reject lines a generic account could post.
-9. **Conflict requirement:** include at least one clear tension/contrast.
-10. **Compression rule:** keep caption/story paragraphs to two lines max.
+- **Entertaining** enough to watch (tension, surprise, stakes, emotional contrast).
+- **Educational** enough to teach a model or mechanism.
+- **Expressive** enough to show a clear 9takes POV (never neutral summary).
+
+### The 10 non-negotiables
+
+1. **No-waste opening:** first line (or first 1-2 seconds) states the payoff. Start with the conflict, not background. No "Hey guys, today..." intros.
+2. **Content Value Triad:** score ≥1 on entertaining + educational + expressive.
+3. **Copy Quality Triad (Harry Dry):** every hook + thesis line must pass:
+   - _Can I visualize it?_ — reader can picture a scene/object.
+   - _Can I falsify it?_ — claim can be proven true or false.
+   - _Can nobody else say this?_ — tied to 9takes positioning, not a line a competitor could sign.
+   - 3 no's → rewrite.
+4. **Falsifiable psychology:** every personality claim needs Claim + Evidence + Boundary + Counter-signal + Disclaimer (template in Frameworks below).
+5. **Forced-choice CTA:** ask an agree/disagree, this-or-that, or A/B prompt. No "what do you think?"
+6. **One Mississippi test:** hook must be understandable in ~2 seconds. If it takes longer, rewrite.
+7. **Don't talk, only point:** replace adjectives with observable proof. "He's insecure" → "In the 2026 interview, he laughs, looks down, and changes subject when asked about failure."
+8. **Competitor-signability test:** if any generic IG account could post this line verbatim, it's not 9takes-ownable. Rewrite.
+9. **Conflict requirement:** include at least one tension/contrast (public vs private, image vs reality, strength vs cost).
+10. **Compression rule:** caption and story paragraphs max two lines on mobile. One idea per paragraph. If a sentence can be cut without losing meaning, cut it.
+
+---
+
+## Step 0.5: Frameworks Reference
+
+Use these while drafting. Do not skip — the output template at Step 4 references them directly.
+
+### Hook patterns (pick ONE per post)
+
+The `Hook Type Used` field in the output must be one of these six:
+
+1. **Contrarian** — "You think X. It's actually Y." → _"Everyone saw Pete Davidson's tattoos as self-expression. They're a second skin covering scars."_
+2. **Prediction** — "Within 12 months, this person will..." → _"Within 12 months, Sabrina Carpenter will pivot from flirty persona to control era."_
+3. **Pattern Interrupt** — "Most people miss this 5-second clip." → _"Most people missed the 2-second tell in his Netflix interview."_
+4. **Identity Callout** — "If you're Type 7, this is your blind spot." → _"If you're a Type 9, Pete's $200k tattoo removal should scare you."_
+5. **Evidence-Led** — "After analyzing 200+ profiles, here's what repeats." → _"After 200+ personality reads, this is the one move every Type 3 makes under stress."_
+6. **High-Stakes Binary** — "This is either X or Y. Nothing in between." → _"This is either confidence or fear-masking. Pick one."_
+
+Hook checklist before writing: concrete nouns (person, event, quote), time/place context, implied tension.
+
+### Hook Build Method (First Line / Second Line)
+
+- **First line:** concrete scene + tension.
+- **Second line:** interpretation payoff.
+
+If line two repeats line one, delete and rewrite.
+
+Examples:
+
+- L1: "He laughed when asked about commitment on live TV."
+- L2: "That reaction is classic Type 7 escape behavior."
+
+- L1: "She praised the team, then took control in the same breath."
+- L2: "That is Type 3 image management under pressure."
+
+### Don't Talk, Only Point — conversion examples
+
+Use these as a model for the required "Abstract → Concrete Rewrites" section in the output:
+
+| Abstract                     | Pointed                                                                                                |
+| ---------------------------- | ------------------------------------------------------------------------------------------------------ |
+| "He's insecure."             | "In the 2026 interview, he laughs, looks down, and changes subject when asked about failure."          |
+| "She's authentic."           | "She posts unedited studio clips the same day she records them, including mistakes."                   |
+| "He's a people pleaser."     | "He says yes to two conflicting commitments in the same week, then apologizes publicly to both sides." |
+| "She has strong boundaries." | "She ended the interview after the third question about her ex and stated the boundary on camera."     |
+
+Drafting rule: for each major claim, add at least one pointed sentence with a quote, timestamped moment, or concrete behavior.
+
+### Falsifiable claim template (required structure)
+
+Every personality read uses this five-part shape:
+
+1. **Claim:** "X behavior suggests Y pattern."
+2. **Evidence:** observed public behavior or direct quote.
+3. **Boundary:** when this interpretation may fail.
+4. **Counter-signal:** what would disconfirm the read.
+5. **Disclaimer:** speculative, public-data-based.
+
+Template:
+
+```
+Based on [observable behavior], my read is [type/pattern].
+If this were wrong, we'd expect [alternative behavior].
+Speculative analysis only; not a diagnosis.
+```
+
+### "Only 9takes can say this" credibility anchors
+
+Use at least one in ~70% of posts:
+
+- "We've analyzed 200+ public figures through this lens."
+- "Across our archive, this pattern appears most in Types X and Y."
+- "Most takes stop at behavior; we map motive + fear + coping style."
+- "Our model predicts what happens under stress, not just public image."
+
+Don't force this into every post. Use when it increases authority.
+
+### Conflict and contrast templates
+
+- "Publicly, [image]. Privately, [behavior]. That's the tension."
+- "[Common interpretation] sounds right, but [better interpretation] explains more."
+- "This is not [label A]. It's [label B], and here's the evidence."
+- "The strength that built them is now the thing costing them."
+
+### Disclaimer strings (exact text)
+
+**Short (use in captions):**
+
+> Speculative personality read based on publicly available behavior, not diagnosis.
+
+**Long (use when tone demands more care, e.g. mental-health-adjacent subjects):**
+
+> Disclaimer: This Enneagram analysis is speculative, based on publicly available information, and may not reflect the person's actual personality type.
+
+### Guardrails
+
+Before publishing, run:
+
+- No mental health diagnosis claims.
+- No definitive certainty on speculative reads — always hedge with "my read" / "suggests" / "likely."
+- No low-effort reposting or shock framing that adds no value.
+- No diagnosing mental health conditions (depression, BPD, addiction) — describe behavior only.
 
 ## Step 1: Resolve Blog Target and Metadata
 
@@ -383,10 +490,18 @@ Then report:
 
 ---
 
-# References
+# Go Deeper
 
-- `docs/instagram/gen-z-instagram-posting-cheat-sheet-2026.md` (primary framework)
-- `docs/instagram/instagram-launch-plan-feb-2026.md` (voice + examples)
-- `docs/marketing/blog-distribution-strategy.md` (Instagram playbook context)
-- `youtube-transcript-research/learn-copywriting.md` (full interview insights)
-- `youtube-transcript-research/3-rules-of-copywriting.md` (three-rule quality filter)
+This command is self-sufficient. The frameworks above are distilled from these root docs — consult them only if you need fuller context, historical research, or examples beyond what's inlined:
+
+- `docs/instagram/gen-z-instagram-posting-cheat-sheet-2026.md` — full cheat sheet with content pillars, posting cadence, 14-day sprint, testing and experimentation playbook, metrics framework. Source of truth for the 10 non-negotiables and the frameworks in Step 0.5.
+- `docs/instagram/instagram-launch-plan-feb-2026.md` — full Pete Davidson case study (hook options, key quotes, carousel draft, caption template, hashtag + tag lists). Use as a worked example when the current target is analogous.
+- `docs/marketing/blog-distribution-strategy.md` — wider Instagram playbook context.
+- `youtube-transcript-research/learn-copywriting.md` — full Harry Dry interview (background on the 3 rules and "don't talk, only point").
+- `youtube-transcript-research/3-rules-of-copywriting.md` — shorter version of the 3 rules framework with additional examples.
+
+**When to read a root doc:**
+
+- You hit a situation the inlined frameworks don't cover.
+- The user explicitly asks for an angle or framework from one of these.
+- You want to refresh your understanding of the _why_ behind a rule.

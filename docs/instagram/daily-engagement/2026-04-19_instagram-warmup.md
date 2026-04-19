@@ -15,13 +15,13 @@ Last warmup with a drafted, reply-ready queue: **April 13 PM** (5 drafts). Apr 1
 
 Carryover from Apr 13 PM — the four feed posts have aged out as fresh opportunities, but Melissa's two long-standing threads on @enneagrampaths remain openable because thread replies don't age the same way:
 
-| #   | Account                | Post                                            | Apr 13 Status | Apr 19 Reality                            |
-| --- | ---------------------- | ----------------------------------------------- | ------------- | ----------------------------------------- |
-| 1   | @enneagramwithjb       | Body signals / override (was 2h on Apr 13)      | Drafted       | 6d+ old — AGED OUT                        |
-| 2   | @enneagrampaths        | Carl thread — Type 3 proposal (9d on Apr 13)    | Drafted       | 13d unanswered — thread still openable    |
-| 3   | @enneagrampaths        | Longings — "deeply listened to" (9d on Apr 13)  | Drafted       | 13d unanswered — thread still openable    |
-| 4   | @thesecurerelationship | "What is the anxiety trying to manage?" (~20h)  | Drafted       | 6d+ old — AGED OUT                        |
-| 5   | @enneagramashton       | "Not bad at vulnerability" (28h on Apr 13)      | Drafted       | 6d+ old — AGED OUT                        |
+| #   | Account                | Post                                           | Apr 13 Status | Apr 19 Reality                         |
+| --- | ---------------------- | ---------------------------------------------- | ------------- | -------------------------------------- |
+| 1   | @enneagramwithjb       | Body signals / override (was 2h on Apr 13)     | Drafted       | 6d+ old — AGED OUT                     |
+| 2   | @enneagrampaths        | Carl thread — Type 3 proposal (9d on Apr 13)   | Drafted       | 13d unanswered — thread still openable |
+| 3   | @enneagrampaths        | Longings — "deeply listened to" (9d on Apr 13) | Drafted       | 13d unanswered — thread still openable |
+| 4   | @thesecurerelationship | "What is the anxiety trying to manage?" (~20h) | Drafted       | 6d+ old — AGED OUT                     |
+| 5   | @enneagramashton       | "Not bad at vulnerability" (28h on Apr 13)     | Drafted       | 6d+ old — AGED OUT                     |
 
 Strategic implication: **today's queue prioritizes fresh content on tracked accounts**. Three brand-new posts (21h, 14h, 12h) landed on warm/profiled accounts — those take priority over reviving carryover. Melissa's two threads stay as long-tail secondary items.
 
@@ -55,13 +55,13 @@ From Apr 10–17 warmup history:
 
 ## Priority Summary
 
-| # | Account                | Topic                                               | Age  | Comments | Opp Type                                   | Level | Score | Profile                                                              | Queue  |
-| - | ---------------------- | --------------------------------------------------- | ---- | -------- | ------------------------------------------ | ----- | ----- | -------------------------------------------------------------------- | ------ |
-| 1 | @enneagramwithjb       | "Your pattern is not wrong, but it is not neutral" | 21h  | 0        | First-comment on profiled warm account     | 1-2   | 98    | docs/instagram/account-profiles/enneagramwithjb.md                   | Queued |
-| 2 | @thesecurerelationship | "Your partner is not the problem. The cycle is."   | 14h  | 9        | Depth-add on 1.3M Anchor, 13d re-opening   | 0     | 94    | docs/instagram/account-profiles/thesecurerelationship.md             | Queued |
-| 3 | @mindfulmft            | "I'm unhappy here" — acknowledgment post           | 12h  | 14       | First real engagement on Adjacent Partner  | 0     | 91    | docs/instagram/account-profiles/mindfulmft.md                        | Queued |
-| 4 | @enneagrampaths        | Expansion vs contraction / "break the mold"        | 4d   | 8        | Peer warmth, moderate freshness            | 2     | 72    | docs/instagram/account-profiles/enneagrampaths.md                    | Queued |
-| 5 | @enneagrampaths        | Carl thread + Longings thread (long-tail revive)   | 13d  | —        | Unanswered replies to Melissa              | 2     | 65    | docs/instagram/account-profiles/enneagrampaths.md                    | Optional |
+| #   | Account                | Topic                                              | Age | Comments | Opp Type                                  | Level | Score | Profile                                                  | Queue    |
+| --- | ---------------------- | -------------------------------------------------- | --- | -------- | ----------------------------------------- | ----- | ----- | -------------------------------------------------------- | -------- |
+| 1   | @enneagramwithjb       | "Your pattern is not wrong, but it is not neutral" | 21h | 0        | First-comment on profiled warm account    | 1-2   | 98    | docs/instagram/account-profiles/enneagramwithjb.md       | Queued   |
+| 2   | @thesecurerelationship | "Your partner is not the problem. The cycle is."   | 14h | 9        | Depth-add on 1.3M Anchor, 13d re-opening  | 0     | 94    | docs/instagram/account-profiles/thesecurerelationship.md | Queued   |
+| 3   | @mindfulmft            | "I'm unhappy here" — acknowledgment post           | 12h | 14       | First real engagement on Adjacent Partner | 0     | 91    | docs/instagram/account-profiles/mindfulmft.md            | Queued   |
+| 4   | @enneagrampaths        | Expansion vs contraction / "break the mold"        | 4d  | 8        | Peer warmth, moderate freshness           | 2     | 72    | docs/instagram/account-profiles/enneagrampaths.md        | Queued   |
+| 5   | @enneagrampaths        | Carl thread + Longings thread (long-tail revive)   | 13d | —        | Unanswered replies to Melissa             | 2     | 65    | docs/instagram/account-profiles/enneagrampaths.md        | Optional |
 
 ---
 
@@ -85,11 +85,13 @@ From Apr 10–17 warmup history:
 Jackie has liked our comments before (retroactive like on a 2-week-old comment confirmed Apr 13). She posts substantive educational content where Enneagram language is native (Level 2). A first-comment slot here maximizes the likelihood Jackie sees it.
 
 **Relationship Intel:**
+
 - Active relationship, Jackie likes our comments occasionally
 - Teacher energy; she values depth that extends her point, not restatement
 - Apr 13 PM draft on her body-signals post was never posted (status unknown but likely stale)
 
 **Past Touchpoints:**
+
 - Defense mechanisms carousel (Apr 6 PM): "the part that gets me is how fast the defense fires faster than awareness…" — status uncertain
 - Body signals post (Apr 13): drafted "each type doesn't just override the signal — there's a story that makes it feel justified" — status unknown
 - Avoid reusing: "autopilot," "catching the pattern," "mid-fire"
@@ -98,6 +100,7 @@ Jackie has liked our comments before (retroactive like on a 2-week-old comment c
 The "awareness is not about blame" line is the exact place where each type's internal moralizing shows up — 1 hears "so I'm still responsible," 2 hears "so this is about how I love," 6 hears "so I can't trust my reactions." Jackie leaves a soft third beat open: awareness without blame, but also without bypass. That third beat is the reply angle.
 
 **Reply Angle for `/instagram-reply`:**
+
 - Extend Jackie's point by naming the trap awareness-without-blame can fall into: bypass. The pattern isn't wrong AND it's not neutral AND the current you still has to actually choose.
 - Tone: warm, Level 2 acceptable (her audience is Enneagram-literate)
 - Keep it tight — 2 short sentences, no jargon
@@ -126,12 +129,14 @@ The "awareness is not about blame" line is the exact place where each type's int
 Biggest Tier 2 account we engage with. Julie is warming — 3 historical likes on our comments. 13 days since last confirmed-posted engagement means showing up now feels organic, not stalkery.
 
 **Relationship Intel:**
+
 - Julie liked our 4 C's comment (Apr 6)
 - Our lovability comment (Apr 6 PM) got a follower like
 - Apr 7 / 10 / 11 / 13 drafted replies were never confirmed posted — treat as stale
 - Audience is therapy-literate, low spam, rewards depth not cheerleading
 
 **Past Touchpoints:**
+
 - 4 C's of Attachment Styles (Apr 6) — Julie liked
 - Lovability carousel (Apr 6 PM) — "the lovability question is quieter but it runs deeper"
 - Several Apr 7–13 drafts never confirmed posted
@@ -140,6 +145,7 @@ Biggest Tier 2 account we engage with. Julie is warming — 3 historical likes o
 Each person in the cycle is correct about one thing: they ARE being hurt by something. The mistake is identifying what. The pattern isn't about the partner, it's about how the two protection strategies interlock. Naming the cycle is the only move that doesn't require someone to be the villain — it lets both people be accurate about their pain and still be on the same side.
 
 **Reply Angle for `/instagram-reply`:**
+
 - Frame: each person is right that something is hurting them — the cycle explanation is the first one that doesn't require a villain
 - Tone: warm, Level 0 ONLY — no Enneagram language
 - 2-3 sentences, depth-forward
@@ -168,17 +174,20 @@ Each person in the cycle is correct about one thing: they ARE being hurt by some
 We've had @mindfulmft as a Prospect since Apr 7 without a single posted engagement. Her audience overlap with 9takes' ICP is high, and her "origin wounds shape adult patterns" frame is Enneagram childhood-wound theory without the labels. This post is the best Level 0 entry point we've seen from her yet.
 
 **Relationship Intel:**
+
 - No prior comment posted (Apr 7 draft never confirmed)
 - Audience is therapy-literate, low spam, reflective
 - Her tone rewards paradox-holding, not resolution
 
 **Past Touchpoints:**
+
 - Apr 7 compassion + accountability carousel queued, never confirmed posted (12d — aged out)
 
 **Internal Pattern Read:**
 For the people conditioned to pretend (Type 9, Type 2, Type 6 in particular), "I'm unhappy here" isn't a complaint. It's the first honest bid for connection their nervous system has ever permitted. The bravery isn't in the words. It's in a system that learned years ago that honest equals dangerous finally betting that honest might not cost them everything this time.
 
 **Reply Angle for `/instagram-reply`:**
+
 - Frame: the pretending wasn't dishonesty — it was protection. Saying "I'm unhappy" is the first time the real person is allowed into the room.
 - Tone: reflective, slightly poetic (matches Vienna's voice), Level 0 ONLY
 - 2-3 sentences, no Enneagram, no frameworks
@@ -207,6 +216,7 @@ For the people conditioned to pretend (Type 9, Type 2, Type 6 in particular), "I
 Melissa's Carl thread and Longings thread have been sitting unanswered for 13 days. A fresh comment on a newer post might be easier and lower-stakes than reviving those threads. Stacking a fresh comment plus optionally the revive-threads play could work, but it risks looking like a sudden burst.
 
 **Reply Angle for `/instagram-reply`:**
+
 - Frame: each type breaks the mold in its own direction — the 4 in how they relate to belonging, the 5 in how they bring their knowledge into the room, the 8 in what they let tender look like
 - Tone: warm, Level 2, conversational — match Melissa's voice
 - Short — 1-2 sentences
@@ -219,6 +229,7 @@ Melissa's Carl thread and Longings thread have been sitting unanswered for 13 da
 ### 5. (Optional) @enneagrampaths — Carl thread / Longings thread (long-tail revive)
 
 **Post Links:**
+
 - Carl thread: https://www.instagram.com/p/DWwWUEAlFwQ/
 - Longings thread: https://www.instagram.com/p/DWzFwmGFB2m/
 
@@ -229,10 +240,12 @@ Melissa's Carl thread and Longings thread have been sitting unanswered for 13 da
 Thread replies get email notifications to the post author even when the post is old. Melissa is in active grief (father's passing Apr 11), so a short warm reply matters more than a pointed type argument. Apr 10 PM and Apr 13 PM drafts both exist.
 
 **Recommendation:**
+
 - If @enneagrampaths DXJqt8SFE8c (opportunity #4) gets a comment today, skip the thread revives. Stacking would feel like a burst.
 - If we skip opportunity #4, consider posting the Longings thread reply only (shorter, warmer, matches grief context). Skip the Carl thread reply — the type-debate energy is wrong for this moment.
 
 **Reply Angle:**
+
 - Longings thread: existing Apr 13 PM draft — "yeah — for 8 it's a bit sharper than 'listened to.' it's being read accurately. anyone can tolerate the volume. almost no one sees what it's protecting."
 
 **Visibility Level:** 2
@@ -242,24 +255,24 @@ Thread replies get email notifications to the post author even when the post is 
 
 ## Reply Queue
 
-| Priority | Account                | Post                                       | Profile                                                  | Strategic Role     | Relationship Stage | Reply Angle                                                                 | Status |
-| -------- | ---------------------- | ------------------------------------------ | -------------------------------------------------------- | ------------------ | ------------------ | --------------------------------------------------------------------------- | ------ |
-| 1        | @enneagramwithjb       | "Pattern is not wrong, but not neutral"   | docs/instagram/account-profiles/enneagramwithjb.md       | Peer/Anchor        | Active             | Awareness without blame AND without bypass — the current you still chooses | Queued |
-| 2        | @thesecurerelationship | "Cycle is the problem"                    | docs/instagram/account-profiles/thesecurerelationship.md | Anchor             | Warm               | Both are right about being hurt; cycle is the only non-villain explanation | Queued |
-| 3        | @mindfulmft            | "I'm unhappy here" acknowledgment         | docs/instagram/account-profiles/mindfulmft.md            | Adjacent Partner   | Prospect           | Pretending wasn't dishonesty, it was protection — Level 0                  | Queued |
-| 4        | @enneagrampaths        | Expansion vs contraction / break the mold | docs/instagram/account-profiles/enneagrampaths.md        | Peer               | Active             | Each type breaks the mold in its own direction                              | Queued |
-| 5        | @enneagrampaths        | Longings thread (long-tail revive)        | docs/instagram/account-profiles/enneagrampaths.md        | Peer               | Active             | Existing Apr 13 draft — short, warm, "almost no one sees what it's protecting" | Optional |
+| Priority | Account                | Post                                      | Profile                                                  | Strategic Role   | Relationship Stage | Reply Angle                                                                    | Status   |
+| -------- | ---------------------- | ----------------------------------------- | -------------------------------------------------------- | ---------------- | ------------------ | ------------------------------------------------------------------------------ | -------- |
+| 1        | @enneagramwithjb       | "Pattern is not wrong, but not neutral"   | docs/instagram/account-profiles/enneagramwithjb.md       | Peer/Anchor      | Active             | Awareness without blame AND without bypass — the current you still chooses     | Queued   |
+| 2        | @thesecurerelationship | "Cycle is the problem"                    | docs/instagram/account-profiles/thesecurerelationship.md | Anchor           | Warm               | Both are right about being hurt; cycle is the only non-villain explanation     | Queued   |
+| 3        | @mindfulmft            | "I'm unhappy here" acknowledgment         | docs/instagram/account-profiles/mindfulmft.md            | Adjacent Partner | Prospect           | Pretending wasn't dishonesty, it was protection — Level 0                      | Queued   |
+| 4        | @enneagrampaths        | Expansion vs contraction / break the mold | docs/instagram/account-profiles/enneagrampaths.md        | Peer             | Active             | Each type breaks the mold in its own direction                                 | Queued   |
+| 5        | @enneagrampaths        | Longings thread (long-tail revive)        | docs/instagram/account-profiles/enneagrampaths.md        | Peer             | Active             | Existing Apr 13 draft — short, warm, "almost no one sees what it's protecting" | Optional |
 
 ---
 
 ## Profiles Created or Updated
 
-| Account                  | Profile                                                   | Action  | Why                                                                                               |
-| ------------------------ | --------------------------------------------------------- | ------- | ------------------------------------------------------------------------------------------------- |
-| @enneagrampaths          | docs/instagram/account-profiles/enneagrampaths.md         | Updated | Added 2026-04-19 review row for DXJqt8SFE8c, updated Last Reviewed, refreshed Open Loops          |
-| @enneagramwithjb         | docs/instagram/account-profiles/enneagramwithjb.md        | Updated | Added 2026-04-19 TOP PRIORITY row for DXRv5jtDm3F (21h, 0 comments), refreshed Open Loops + angles |
-| @thesecurerelationship   | docs/instagram/account-profiles/thesecurerelationship.md  | Updated | Added 2026-04-19 row for DXSZTW1klXK (cycle post), refreshed spacing + angles                     |
-| @mindfulmft              | docs/instagram/account-profiles/mindfulmft.md             | Updated | Added 2026-04-19 row for DXSpyWwjPSS, aged out Apr 7 queue, refreshed angles                      |
+| Account                | Profile                                                  | Action  | Why                                                                                                |
+| ---------------------- | -------------------------------------------------------- | ------- | -------------------------------------------------------------------------------------------------- |
+| @enneagrampaths        | docs/instagram/account-profiles/enneagrampaths.md        | Updated | Added 2026-04-19 review row for DXJqt8SFE8c, updated Last Reviewed, refreshed Open Loops           |
+| @enneagramwithjb       | docs/instagram/account-profiles/enneagramwithjb.md       | Updated | Added 2026-04-19 TOP PRIORITY row for DXRv5jtDm3F (21h, 0 comments), refreshed Open Loops + angles |
+| @thesecurerelationship | docs/instagram/account-profiles/thesecurerelationship.md | Updated | Added 2026-04-19 row for DXSZTW1klXK (cycle post), refreshed spacing + angles                      |
+| @mindfulmft            | docs/instagram/account-profiles/mindfulmft.md            | Updated | Added 2026-04-19 row for DXSpyWwjPSS, aged out Apr 7 queue, refreshed angles                       |
 
 ---
 

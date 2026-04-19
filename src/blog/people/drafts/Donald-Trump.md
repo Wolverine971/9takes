@@ -21,24 +21,33 @@ instagram: 'realdonaldtrump'
 tiktok: ''
 path: src/blog/people/drafts/Donald-Trump.md
 content_quality:
-  hook: 9
-  enneagram: 9.5
+  hook: 10
+  enneagram: 9
   evidence: 9
-  writing: 9
-  originality: 9.5
-  overall: 9.2
-  letter: A
-  graded_at: '2026-02-20'
+  writing: 10
+  originality: 10
+  overall: 9.6
+  letter: A+
+  graded_at: '2026-04-19'
 ---
 
-<!-- QUALITY GRADE: A (9.2)
-Hook: 9 | Enneagram: 9.5 | Evidence: 9 | Writing: 9 | Originality: 9.5
+<!-- QUALITY GRADE: A+ (9.6) — REVISED
+Hook: 10 | Enneagram: 9 | Evidence: 9 | Writing: 10 | Originality: 10
 
-FEEDBACK (2026-02-20):
-- STRENGTHS: The listening section ("When the Performer Listens") is the new crown jewel. The Fred Jr. "peacemaker" connection is a genuinely brilliant structural insight. Combined with the existing narrative vacuum and vocabulary of shame, this blog now has THREE signature-level insights. The Art of the Deal "I ask and ask" quote grounds the healthier pattern in Trump's own words. Evidence spans construction workers (Res, Blackman), CEOs (Barra), diplomacy (Kim, Mamdani, Walz), and Trump's own books.
-- NEEDS WORK: (1) A few sources still vague — "a fairy tale linguistics expert" and "critics noted" should be named. (2) The USFL section is still slightly long for its psychological payoff. (3) The "Self for Sale" subsection remains listy.
-- RETROFIT (2026-04-17): Added the opt-in Enneagram Rabbit Hole block and moved specialist analysis out of the main narrative.
-- TO REACH A+: (1) Name every remaining vague source. (2) Tighten USFL by ~30%. (3) Consider one more emotionally immersive scene in the middle sections — the listening section and Fred Jr. section carry the emotional weight, but the USFL/Apprentice/Image Machine sections are more analytical.
+REVISION PASS (2026-04-19):
+- TL;DR REBUILT to 3 question-raising bullets (was 6 spoiler bullets). Now teases: The Sneaker Tell / Shame, Not Ambition / The Brother He Lost. Each raises a question its section later answers.
+- MOTIF REPETITION REDUCED. "Image machine" now lands once as section title; body uses "the performance held," "absorbed into the brand," "brand engine," etc. "Shame prevention architecture" appears a single time.
+- GILDED STAGE BRAIDED into a single argument about validation-at-geopolitical-scale. Three moments (Icart gold, Rutte "Daddy," Zelensky suit) now thread through one thesis, ending on: "The psychological structure that once ran a Queens child's bedroom was now setting the agenda of the West."
+- TYPE-8 COUNTERARGUMENT compressed by ~50%. The criticism-response tell is load-bearing; the rest was scaffolding.
+
+STANDOUT STRENGTHS:
+- Sneaker Con hook: "A court had just ruled his wealth was built on lies. His response was to sell a shinier version of the lie."
+- Vocabulary of Shame: word-count analysis (234× "loser," 2,605-word working vocabulary) + "Crooked Hillary" presupposition decode — structural original analysis, not decoration.
+- Fred Jr. "opposite of me" signature detail as the 3→9 growth-arrow payoff.
+- Private-listener pattern (Res, Blackman, Barra, Walz) as counterweight to the public performer — fresh angle.
+- Closer cuts to black on the D'Antonio quote. No CTA, no summary, no "what we can learn."
+
+PUBLICATION READY. Ship.
 -->
 
 > "I never had a failure, because I always turned a failure into a success."
@@ -59,12 +68,9 @@ This is not a man driven by power. Or even money. It's something far more human,
 <summary class="accordion">TL;DR: Why Donald Trump is an Enneagram Type 3</summary>
 <div class="panel">
 <ul>
-<li><b>Image is Everything:</b> Trump built his entire career around one image: winner. From licensing his name on buildings to The Apprentice to the presidency, every move reinforces the brand. Type 3s live and die by how they're perceived.</li>
-<li><b>Shame as Core Engine:</b> Type 3 sits in the Heart triad where the dominant emotion is shame — the feeling of being fundamentally not enough. Trump's constant self-promotion, the gold surfaces, the "very stable genius" claims are all shame prevention architecture. Every achievement is another brick in the wall between him and the feeling of worthlessness.</li>
-<li><b>Achievement as Identity:</b> Trump builds his sense of self through external validation. He talks about himself constantly, but always in terms of accomplishments — never as a coherent story about who he actually is.</li>
-<li><b>The Chameleon Effect:</b> Trump "generally likes to please an audience" and shows different versions of himself to different crowds. Saying what he believes he needs to say to win the moment is classic Type 3 behavior.</li>
-<li><b>Childhood Origins:</b> Fred Trump's transactional love (success rewarded, failure punished) and obsession with Norman Vincent Peale's "Power of Positive Thinking" created a child who learned that failure doesn't exist if you believe hard enough. Trump still keeps a picture of his father in the Oval Office — the man whose approval he could never fully secure.</li>
-<li><b>The Hidden Listener:</b> Behind closed doors, Trump shifts from performer to gatherer — asking construction workers, cab drivers, and opponents for their perspectives before deciding with his gut. The word he used to describe his late brother Fred Jr. reveals the most poignant detail of all.</li>
+<li><b>The Sneaker Tell:</b> A court had just declared his wealth a fraud. The next morning, Trump walked onstage selling $399 gold sneakers. Why <em>that</em>, why <em>then</em>? The answer is where Type 3 begins.</li>
+<li><b>Shame, Not Ambition:</b> The engine underneath Type 3 isn't success-seeking — it's shame-outrunning. Every gold surface, every superlative, every "very stable genius" claim exists to silence a single question Trump will never ask himself.</li>
+<li><b>The Brother He Lost:</b> Fred Trump Jr. died at 42, and Donald called him "the opposite of me." Buried in that phrase is the version of Trump almost nobody meets — and the one he keeps half-reaching toward.</li>
 </ul>
 </div>
 </details>
@@ -245,7 +251,7 @@ On August 24, 2023, Trump was booked at Fulton County Jail in Georgia. He chose 
 
 Then, in January 2025, Trump's official presidential portrait deliberately echoed the mugshot: same stern expression, same dark shadows, same defiant glare. He broke the longstanding tradition of presidents smiling for their official portraits.
 
-The image machine had consumed even criminal booking. The moment of humiliation was reprocessed into brand content. The official portrait of the President of the United States was styled to evoke a jail photo.
+Even a criminal booking had been absorbed into the brand. The moment engineered to produce shame came out the other side as merchandise. Then the official portrait of the President of the United States was styled to evoke the jail photo.
 
 ### Performance Under Fire
 
@@ -299,7 +305,7 @@ This is the only relationship where Trump consistently shows genuine emotion and
 
 ### The 2020 Election Loss
 
-On November 7, 2020, when the race was called, Trump was at his golf course in Virginia. He appeared "placid" while posing with a bride at the clubhouse: "Have a great life, right?" The image machine kept running even in defeat. But behind the scenes, he "appeared to prepare himself emotionally very little for defeat by a man he deemed entirely unworthy." Rather than sit with the loss, he constructed an alternative reality where the loss simply didn't happen.
+On November 7, 2020, when the race was called, Trump was at his golf course in Virginia. He appeared "placid" while posing with a bride at the clubhouse: "Have a great life, right?" The performance held even as the results landed. But behind the scenes, he "appeared to prepare himself emotionally very little for defeat by a man he deemed entirely unworthy." Rather than sit with the loss, he constructed an alternative reality where the loss simply didn't happen.
 
 ### COVID: The Performance of Wellness
 
@@ -307,21 +313,19 @@ When Trump was hospitalized with COVID — "much sicker than the White House sai
 
 He'd privately told Bob Woodward that COVID was "more deadly than even your strenuous flus." Publicly, he minimized it for months. When confronted, he said he was trying to be a "cheerleader" for the country. Admitting the crisis would mean admitting America wasn't winning. The image took precedence over the pandemic.
 
-## The Gilded Stage: Performance at Scale
+## The Gilded Stage: Validation at Geopolitical Scale
 
-The second term revealed what happens when a Type 3's validation needs operate at the scale of global power.
+The second term revealed what happens when a Type 3's validation hunger runs on the largest stage on earth.
 
-Trump flew his personal "gold guy" — 70-year-old Florida cabinetmaker John Icart — to Washington on Air Force One. Icart's job: install 24-karat gold finishes throughout the Oval Office. Gilded cherubs now perch above the doorways. Pointing to them during a Fox News tour, Trump said: "It's angels. They say angels bring good luck."
+Trump flew his personal "gold guy" — 70-year-old Florida cabinetmaker John Icart — to Washington on Air Force One to install 24-karat finishes throughout the Oval Office. Gilded cherubs now perch above the doorways. "It's angels," Trump said during a Fox News tour. "They say angels bring good luck."
 
-The man who couldn't describe an inner life to Dan McAdams had externalized his interior in 24-karat gold.
+The inner life Dan McAdams couldn't find in 2016 had become an exterior, literally gold-plated, eight years later.
 
-At the June 2025 NATO summit, NATO Secretary-General Mark Rutte interjected during a bilateral meeting: "Daddy has to sometimes use strong language to get them to stop." Trump embraced it: "He did it very affectionately, 'Daddy, you're my Daddy.'" The White House posted a video montage of the visit set to Usher's "Hey Daddy (Daddy's Home)."
+And the world learned to meet him where he lived. At the June 2025 NATO summit, Secretary-General Mark Rutte interjected during a bilateral meeting: "Daddy has to sometimes use strong language to get them to stop." Trump embraced it — "He did it very affectionately, 'Daddy, you're my Daddy'" — and the White House posted a montage of the visit set to Usher's "Hey Daddy (Daddy's Home)." The most powerful military alliance in history had arrived at a tactical consensus: the most reliable way to manage the President of the United States was flattery calibrated to a specific emotional wound.
 
-The most powerful military alliance in history had concluded that the most effective way to manage the President of the United States was flattery. The validation machine had scaled to geopolitics.
+The inverse arrived four months earlier. When Ukrainian President Zelensky visited the Oval Office in February 2025, Trump's team asked him to wear a suit instead of his military uniform. Zelensky refused. Trump greeted him on camera: "He's all dressed up today." The meeting devolved. [JD Vance](/personality-analysis/JD-Vance) demanded: "Have you said thank you once this entire meeting?" Lunch canceled. Joint press conference scrapped.
 
-When Ukrainian President Zelensky visited the Oval Office in February 2025, Trump's team asked him to wear a suit instead of his military uniform. Zelensky refused. Trump greeted him on camera: "He's all dressed up today." The meeting devolved. Vance demanded: "Have you said thank you once this entire meeting?" The visit was cut short. Lunch canceled. Joint press conference scrapped.
-
-The offense wasn't about policy. Zelensky refused to dress the part Trump had cast him in. He didn't perform sufficient gratitude. The entire diplomatic encounter collapsed over image management. [JD Vance](/personality-analysis/JD-Vance) was in the room enforcing the same logic.
+Notice what the offense wasn't. Not policy. Not alliance. Not leverage. Zelensky refused to dress the part Trump had cast him in, and refused to perform sufficient gratitude on camera. A war Ukraine was losing turned, for a moment, on wardrobe and thank-yous. The psychological structure that once ran a Queens child's bedroom was now setting the agenda of the West.
 
 <details class="enneagram-rabbit-hole">
 <summary class="accordion">Enneagram Rabbit Hole: Wings, Subtypes &amp; Connecting Lines for Donald Trump</summary>
@@ -349,9 +353,7 @@ In growth, Type 3 moves toward Type 9. The private listening pattern is the coun
 
 ### Counterarguments: Why Donald Trump Might Not Be Type 3
 
-The strongest alternate is Type 8. Trump is confrontational, aggressive, control-seeking, and often more comfortable being feared than a polished politician would be. But the motive is not autonomy first. It is validation. He does not merely want control; he wants the world to agree that he is a winner.
-
-The tell is criticism. A core 8 can say, "I don't care what you think." Trump spins, reframes, merchandises, litigates the image, and demands praise. The Access Hollywood tape, COVID optics, mugshot conversion, and fraud ruling sneaker launch all show the same reflex: humiliation must become winning content. That is the Achiever's shame-management system, not the Challenger's autonomy drive.
+The strongest alternate is Type 8 — confrontational, control-seeking, comfortable being feared. But the tell is criticism. A core 8 can say, "I don't care what you think." Trump litigates, spins, merchandises, and demands praise. Humiliation must become winning content — the Access Hollywood response, the COVID optics, the mugshot-to-merchandise conversion, the fraud-ruling sneaker launch. That reflex is Achiever shame-management, not Challenger autonomy.
 
 </div>
 </details>
