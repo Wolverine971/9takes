@@ -4171,6 +4171,13 @@ export type Database = {
           new_visitors: number
         }[]
       }
+      get_admin_enneagram_distribution: {
+        Args: { p_demo_time?: boolean }
+        Returns: {
+          enneagram: string
+          user_count: number
+        }[]
+      }
       get_admin_retention_summary: {
         Args: { p_anchor_date?: string }
         Returns: Json

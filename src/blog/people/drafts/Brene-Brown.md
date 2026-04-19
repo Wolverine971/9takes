@@ -29,6 +29,7 @@ production_pretext:
     - regenerate_famous_types
     - image_check
   blockers: []
+path: src/blog/people/drafts/Brene-Brown.md
 ---
 
 > "I call it a breakdown. My therapist calls it a spiritual awakening. A spiritual awakening sounds better than breakdown, but I assure you, it was a breakdown." — Brené Brown, TEDxHouston, 2010

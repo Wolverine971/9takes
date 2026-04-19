@@ -135,36 +135,53 @@ export const handle: Handle = async ({ event, resolve }) => {
 	}
 
 	if (protectedContentPath && isTrackableContentRequester(requester)) {
-		const counters = await recordSharedContentAccessEvent({
+		const recordEvent = recordSharedContentAccessEvent({
 			requester,
 			path: protectedContentPath,
 			requestKind: getContentRequestKind(event.url.pathname)
 		});
 
-		if (counters) {
-			const rateLimitDecision = getContentAccessDecision(requester, counters);
+		// For anonymous humans (the bulk of traffic), don't block the response on
+		// the Supabase RPC. Human throttling is a soft anti-scraping measure;
+		// stable-cookie scrapers are rare and the latency cost on every page load
+		// outweighs the throttle's value. Fire-and-forget via waitUntil so the
+		// write still lands.
+		if (requester.kind === 'anonymous_human') {
+			const waitUntil = (
+				event.platform as { context?: { waitUntil?: (p: Promise<unknown>) => void } } | undefined
+			)?.context?.waitUntil;
+			if (waitUntil) {
+				waitUntil(recordEvent.catch(() => {}));
+			} else {
+				// Local dev / non-Vercel runtime: still fire, just don't await.
+				recordEvent.catch(() => {});
+			}
+		} else {
+			// Allowed AI crawlers: keep the await so quotas are enforced accurately.
+			const counters = await recordEvent;
 
-			if (rateLimitDecision.action === 'throttle') {
-				console.warn('Throttled article crawl', {
-					requester: requester.name,
-					reason: rateLimitDecision.reason,
-					path: protectedContentPath,
-					clientIp,
-					userAgent,
-					counters
-				});
+			if (counters) {
+				const rateLimitDecision = getContentAccessDecision(requester, counters);
 
-				return createContentGuardResponse({
-					event,
-					status: 429,
-					message:
-						requester.kind === 'allowed_ai_crawler'
-							? 'Crawler article budget exceeded for now.'
-							: 'Too many article requests from this browser session. Slow down and try again later.',
-					cacheControl: CONTENT_GUARD_CACHE_CONTROL,
-					retryAfterSeconds: rateLimitDecision.retryAfterSeconds,
-					anonCookieValue: shouldSetAnonCookie ? pendingAnonCookieValue : null
-				});
+				if (rateLimitDecision.action === 'throttle') {
+					console.warn('Throttled article crawl', {
+						requester: requester.name,
+						reason: rateLimitDecision.reason,
+						path: protectedContentPath,
+						clientIp,
+						userAgent,
+						counters
+					});
+
+					return createContentGuardResponse({
+						event,
+						status: 429,
+						message: 'Crawler article budget exceeded for now.',
+						cacheControl: CONTENT_GUARD_CACHE_CONTROL,
+						retryAfterSeconds: rateLimitDecision.retryAfterSeconds,
+						anonCookieValue: shouldSetAnonCookie ? pendingAnonCookieValue : null
+					});
+				}
 			}
 		}
 	}

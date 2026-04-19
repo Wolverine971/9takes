@@ -166,7 +166,7 @@ export const GET: RequestHandler = async ({ url, locals }) => {
 	const fromDate = parseDate(url.searchParams.get('from'));
 	const toDate = parseDate(url.searchParams.get('to'));
 	const parsedQuery = querySchema.safeParse({
-		limit: url.searchParams.get('limit') ?? '50'
+		limit: url.searchParams.get('limit') ?? undefined
 	});
 
 	if (!parsedQuery.success) {

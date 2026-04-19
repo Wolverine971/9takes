@@ -4,6 +4,48 @@ import { describe, expect, it, vi } from 'vitest';
 import { GET } from './+server';
 
 describe('/api/admin/analytics/releases', () => {
+	it('uses the raised default release limit when no explicit limit is provided', async () => {
+		const rpc = vi
+			.fn()
+			.mockResolvedValueOnce({
+				data: 12,
+				error: null
+			})
+			.mockResolvedValueOnce({
+				data: [],
+				error: null
+			});
+		const profilesSingle = vi.fn().mockResolvedValue({
+			data: { admin: true },
+			error: null
+		});
+		const supabase = {
+			from: vi.fn(() => ({
+				select: vi.fn(() => ({
+					eq: vi.fn(() => ({
+						single: profilesSingle
+					}))
+				}))
+			})),
+			rpc
+		};
+
+		const response = await GET({
+			url: new URL('https://9takes.test/api/admin/analytics/releases'),
+			locals: {
+				session: { user: { id: 'admin-user' } },
+				supabase
+			}
+		} as any);
+
+		expect(response.status).toBe(200);
+		expect(rpc).toHaveBeenNthCalledWith(2, 'get_content_release_performance', {
+			p_from_date: undefined,
+			p_to_date: undefined,
+			p_limit: 200
+		});
+	});
+
 	it('normalizes expanded release benchmark fields', async () => {
 		const rpc = vi
 			.fn()

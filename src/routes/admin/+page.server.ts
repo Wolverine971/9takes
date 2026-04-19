@@ -11,9 +11,11 @@ import {
 	getQuestionIndexMapping,
 	getBlogIndexMapping
 } from '$lib/server/elasticSearch';
-import { mapDemoValues } from '../../utils/demo';
 import type { Database } from '../../../database.types';
-import { countUniqueContributors } from '$lib/server/adminAnalytics';
+import {
+	countRecentActiveContributors,
+	loadAdminEnneagramDistribution
+} from '$lib/server/adminAnalytics';
 
 type QuestionRow = Database['public']['Tables']['questions']['Row'];
 
@@ -111,43 +113,11 @@ export const load: PageServerLoad = async (event) => {
 	if (!session?.user?.id) {
 		throw redirect(302, '/questions');
 	}
-	const { demo_time } = await event.parent();
-	const { data: user, error: findUserError } = await supabase
-		.from(demo_time === true ? 'profiles_demo' : 'profiles')
-		.select('id, admin, external_id')
-		.eq('id', session?.user?.id)
-		.single();
 
-	if (!user?.admin) {
+	const { demo_time, user: parentUser } = await event.parent();
+	const adminUser = parentUser as unknown as { admin?: boolean } | null;
+	if (!adminUser?.admin) {
 		throw redirect(307, '/questions');
-	}
-
-	if (findUserError) {
-		throw error(404, {
-			message: `Error searching for user`
-		});
-	}
-
-	// Parallelize analytics RPC calls for better performance
-	const [
-		{ data: dailyVisitors, error: dailyVisitorsErrors },
-		{ data: dailyComments, error: dailyCommentsErrors },
-		{ data: dailyQuestions, error: dailyQuestionsErrors }
-	] = await Promise.all([
-		supabase.rpc('visitors_last_30_days'),
-		supabase.rpc('comments_last_30_days'),
-		supabase.rpc('daily_questions_stats')
-	]);
-
-	// Handle errors after parallel execution
-	if (dailyVisitorsErrors) {
-		// Handle daily visitors error
-	}
-	if (dailyCommentsErrors) {
-		// Handle daily comments error
-	}
-	if (dailyQuestionsErrors) {
-		// Handle daily questions error
 	}
 
 	// Pre-calculate date constants
@@ -159,81 +129,78 @@ export const load: PageServerLoad = async (event) => {
 	sevenDaysAgo.setDate(sevenDaysAgo.getDate() - 7);
 
 	const profilesTable = demo_time === true ? 'profiles_demo' : 'profiles';
+	const demoTime = demo_time === true;
 
-	// Parallelize all count queries and data fetching for massive performance improvement
 	const [
-		{ count: totalUsers },
-		{ count: newUsersMonth },
-		{ count: newUsersToday },
-		{ count: coachingWaitlist },
-		{ data: coachingWaitlistUsers },
-		{ count: totalQuestions },
-		{ count: totalComments },
-		{ data: recentQuestionComments },
-		{ data: recentBlogComments },
-		{ data: usersByType },
-		{ data: recentSignups },
-		{ count: questionsToday },
-		{ count: commentsToday },
+		dailyVisitorsResult,
+		dailyCommentsResult,
+		dailyQuestionsResult,
+		totalUsersResult,
+		newUsersMonthResult,
+		newUsersTodayResult,
+		coachingWaitlistResult,
+		coachingWaitlistUsersResult,
+		totalQuestionsResult,
+		totalCommentsResult,
+		enneagramDistribution,
+		recentSignupsResult,
+		questionsTodayResult,
+		commentsTodayResult,
 		retentionSummaryResult
 	] = await Promise.all([
-		// User counts
-		supabase.from(profilesTable).select('*', { count: 'exact', head: true }),
+		supabase.rpc('visitors_last_30_days'),
+		supabase.rpc('comments_last_30_days'),
+		supabase.rpc('daily_questions_stats'),
+		// All-time totals can be estimated; exact filtered counts are kept for recent activity.
+		supabase.from(profilesTable).select('id', { count: 'estimated', head: true }),
 		supabase
 			.from(profilesTable)
-			.select('*', { count: 'exact', head: true })
+			.select('id', { count: 'exact', head: true })
 			.gte('created_at', thirtyDaysAgo.toISOString()),
 		supabase
 			.from(profilesTable)
-			.select('*', { count: 'exact', head: true })
+			.select('id', { count: 'exact', head: true })
 			.gte('created_at', today.toISOString()),
-		// Coaching waitlist count
-		supabase.from('coaching_waitlist').select('*', { count: 'exact', head: true }),
-		// Coaching waitlist users
+		supabase.from('coaching_waitlist').select('id', { count: 'exact', head: true }),
 		supabase
 			.from('coaching_waitlist')
-			.select('*')
+			.select('id, email, session_goal, created_at')
 			.order('created_at', { ascending: false })
-			.limit(20),
-		// Content counts
-		supabase.from('questions').select('*', { count: 'exact', head: true }),
-		supabase.from('comments').select('*', { count: 'exact', head: true }),
-		// Contributor activity data
-		supabase
-			.from('comments')
-			.select('author_id, fingerprint, ip')
-			.gte('created_at', sevenDaysAgo.toISOString()),
-		supabase
-			.from('blog_comments')
-			.select('author_id, fingerprint, ip')
-			.gte('created_at', sevenDaysAgo.toISOString()),
-		// Enneagram distribution data
-		supabase.from(profilesTable).select('enneagram'),
-		// Recent signups
+			.limit(6),
+		supabase.from('questions').select('id', { count: 'estimated', head: true }),
+		supabase.from('comments').select('id', { count: 'estimated', head: true }),
+		loadAdminEnneagramDistribution(supabase as any, {
+			demoTime,
+			profilesTable
+		}),
 		supabase
 			.from(profilesTable)
 			.select('id, email, enneagram, created_at, external_id')
 			.order('created_at', { ascending: false })
-			.limit(10),
-		// Today's activity
+			.limit(8),
 		supabase
 			.from('questions')
-			.select('*', { count: 'exact', head: true })
+			.select('id', { count: 'exact', head: true })
 			.gte('created_at', today.toISOString()),
 		supabase
 			.from('comments')
-			.select('*', { count: 'exact', head: true })
+			.select('id', { count: 'exact', head: true })
 			.gte('created_at', today.toISOString()),
-		demo_time === true
+		demoTime
 			? Promise.resolve({ data: null, error: null })
 			: (supabase as any).rpc('get_admin_retention_summary')
 	]);
 
-	// Process results after parallel execution
-	const activeContributors = countUniqueContributors([
-		...(recentQuestionComments || []),
-		...(recentBlogComments || [])
-	]);
+	if (dailyVisitorsResult.error) {
+		console.error('Failed to load admin daily visitors', dailyVisitorsResult.error);
+	}
+	if (dailyCommentsResult.error) {
+		console.error('Failed to load admin daily comments', dailyCommentsResult.error);
+	}
+	if (dailyQuestionsResult.error) {
+		console.error('Failed to load admin daily question stats', dailyQuestionsResult.error);
+	}
+
 	const retentionSummary =
 		retentionSummaryResult.error && !isMissingRetentionSummaryRpc(retentionSummaryResult.error)
 			? normalizeRetentionSummary(null)
@@ -243,39 +210,32 @@ export const load: PageServerLoad = async (event) => {
 		console.error('Failed to load admin retention summary', retentionSummaryResult.error);
 	}
 
+	let activeContributors = retentionSummary.activeContributorsThisWeek;
 	if (!retentionSummary.available) {
+		activeContributors = await countRecentActiveContributors(
+			supabase as any,
+			sevenDaysAgo.toISOString()
+		);
 		retentionSummary.activeContributorsThisWeek = activeContributors;
 	}
 
-	const enneagramDistribution = usersByType?.reduce((acc: any, user: any) => {
-		if (user.enneagram) {
-			acc[user.enneagram] = (acc[user.enneagram] || 0) + 1;
-		}
-		return acc;
-	}, {});
-
-	if (!user?.admin) {
-		throw redirect(307, '/questions');
-	}
-
 	return {
-		user: mapDemoValues(user),
 		demoTime: demo_time,
-		dailyVisitors,
-		dailyComments,
-		dailyQuestions,
-		totalUsers: totalUsers || 0,
-		newUsersMonth: newUsersMonth || 0,
-		newUsersToday: newUsersToday || 0,
-		coachingWaitlist: coachingWaitlist || 0,
-		coachingWaitlistUsers: coachingWaitlistUsers || [],
-		totalQuestions: totalQuestions || 0,
-		totalComments: totalComments || 0,
+		dailyVisitors: dailyVisitorsResult.error ? [] : dailyVisitorsResult.data,
+		dailyComments: dailyCommentsResult.error ? [] : dailyCommentsResult.data,
+		dailyQuestions: dailyQuestionsResult.error ? [] : dailyQuestionsResult.data,
+		totalUsers: totalUsersResult.count || 0,
+		newUsersMonth: newUsersMonthResult.count || 0,
+		newUsersToday: newUsersTodayResult.count || 0,
+		coachingWaitlist: coachingWaitlistResult.count || 0,
+		coachingWaitlistUsers: coachingWaitlistUsersResult.data || [],
+		totalQuestions: totalQuestionsResult.count || 0,
+		totalComments: totalCommentsResult.count || 0,
 		activeContributors,
-		enneagramDistribution: enneagramDistribution || {},
-		recentSignups: recentSignups || [],
-		questionsToday: questionsToday || 0,
-		commentsToday: commentsToday || 0,
+		enneagramDistribution,
+		recentSignups: recentSignupsResult.data || [],
+		questionsToday: questionsTodayResult.count || 0,
+		commentsToday: commentsTodayResult.count || 0,
 		retentionSummary
 	};
 };

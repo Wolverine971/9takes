@@ -4,12 +4,12 @@ meta_title: "The Real John Lennon: Why the Peace Prophet Couldn't Stop the War I
 persona_title: "Rock's Wounded Prophet"
 description: "John Lennon sang peace to the world but couldn't find it himself. Inside the abandonment wound that made him a genius and a ghost."
 author: 'DJ Wayne'
-date: '2026-03-28'
+date: '2026-04-18'
 loc: 'https://9takes.com/personality-analysis/John-Lennon'
-lastmod: '2026-03-28'
+lastmod: '2026-04-18'
 changefreq: 'monthly'
 priority: '0.6'
-published: false
+published: true
 enneagram: 4
 type: ['musician', 'historical']
 person: 'John-Lennon'
@@ -304,3 +304,35 @@ He asked Paul McCartney the question that haunted him most: "Paul, I worry about
 He had been asking variations of that question since he was twelve years old, squinting at a blurry Liverpool street, shoulders up around his ears, pretending he didn't need the glasses that would let him see the world clearly. He spent forty years looking for the missing piece: in fame, in revolution, in heroin, in therapy, in Yoko, in bread dough, in a baby's face.
 
 He was still reaching when the last box was checked for him. Ten steps from the door. The kitchen where the bread was rising.
+
+<!-- FRESH EYES REVIEW (2026-04-18)
+Biggest issues:
+- The murder itself is elided to the point of abstraction. "The last box was checked for him" and "ten steps from the door" are elegant, but a first-time reader who doesn't already know the story may not register that he was shot by a fan outside the Dakota, hours after signing that fan's copy of Double Fantasy. Chapman is never named. The piece can stay spare, but it needs one or two concrete sentences so the ending actually lands as murder, not metaphor.
+- Alfred Lennon — the father — disappears from the narrative after paragraph one ("vanished almost immediately"). In real life, Alfred reappeared at the height of Beatlemania looking for money, and there's a famous moment where a six-year-old John was asked to choose between his parents on a Blackpool doorstep. That is the origin story of the abandonment wound, and it's completely missing. A reader who knows Lennon will feel the absence.
+- "Imagine" is the song most of the world associates with him, and the piece never actually engages with it. It's named once in the intro ("imagine") and implied throughout, but never analyzed. For a Type 4 framing about turning private ache into public anthem, "Imagine" is the anthem. Feels like a gap.
+
+What to expand:
+- The "missing piece" refrain is the emotional spine of the piece — and it's also stated almost verbatim at least five times (hook, TL;DR, "still searching for the missing piece," "the missing piece might not be a grand passion," "the missing piece had been in the kitchen the whole time"). Pick the two strongest uses and let the metaphor carry the rest implicitly.
+- The Julian five-years-old symmetry is the devastating payoff — but it's delivered three separate times (TL;DR, the "surgical accuracy" paragraph, "same age John was when Julia died"). One precise statement hits harder than three.
+- The LSD period is absent. Lennon himself said he took "thousands" of trips in the mid-60s to dissolve his ego. For a Four chasing the missing piece, that's a defining container the draft lists but doesn't name. It belongs in "Most Famous Nowhere Man" or as its own beat before Yoko.
+- Stuart Sutcliffe. John's closest friend in the early Beatles died of a brain hemorrhage in Hamburg in 1962. Another abandonment, this one chosen family, and it's missing from the cascade.
+- Brian Epstein's death in 1967 was the moment Lennon later said "we've had it" about the Beatles. Worth one line given how much the piece leans on the merging-and-losing-family pattern.
+
+What to trim:
+- The H2 "What is John Lennon's Personality Type?" with the bullet-point evidence list. The 2026-04-03 grader flagged this too. It reads like a report slotted into a narrative essay. Most of those bullets (authenticity, envy of ordinariness, writing to please himself, total merging) are already dramatized earlier. The Rolling Stone "normal thing" quote is the one piece of evidence not used elsewhere and deserves to be woven into the Weybridge/Nowhere Man section instead.
+- Paul's "I was like his priest" quote is great, but it lands in the bullet-list section where its weight is diluted. Move it somewhere it can breathe.
+- The TL;DR accordion and the body both open with the double-abandonment frame. The TL;DR could compress to 3 bullets — anything past that is re-reading the article.
+
+Structural suggestions:
+- The Julian section currently sits after "Bread and Babies," which makes the redemption arc (Sean, bread, growth) get undercut immediately by "but he abandoned his other son." Consider placing the Julian reckoning before "Bread and Babies" so the domesticity section can function as the partial, late, uncomplete repair — with Julian's exclusion from it as the shadow, not a whiplash reversal.
+- Between "The Missing Piece at Forty" and the final "ten steps from the door" line, there's almost no bridge to the murder. One short beat — December 8, the autograph, the walk back from the studio — would let the ending cut without feeling like it skipped a scene.
+- A brief mention of the FBI surveillance / deportation fight of the early 70s would give the "peace movement as violence engine" thesis a concrete political stake beyond the bed-ins.
+
+What's already working:
+- The glasses opening. Do not touch it. Signature hook.
+- "It could also be Mother" as the Yoko-section pivot. Best single move in the piece.
+- "The peace movement wasn't despite the violence. It was because of it." That is the sentence that earns the whole thesis.
+- Paul's "guarded, hopelessly guarded" observation and Janov's "as much pain as I've ever seen" land because they come from people with standing to say it.
+- The Polaroid of the first loaf of bread — specific, strange, true. Keep.
+- The refusal to end with a CTA or summary. The cut-to-black ending is right, once the murder has been named enough for it to function.
+-->

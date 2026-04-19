@@ -32,13 +32,14 @@ production_pretext:
   blockers: []
 content_quality:
   hook: 9.0
-  enneagram: 9.0
-  evidence: 8.7
-  writing: 8.8
-  originality: 9.0
-  overall: 8.9
-  letter: 'B+'
+  enneagram: 9.2
+  evidence: 9.2
+  writing: 9.0
+  originality: 9.2
+  overall: 9.1
+  letter: 'A-'
   graded_at: '2026-04-18'
+path: src/blog/people/drafts/Tyga.md
 ---
 
 <!-- WORKING NOTES
@@ -92,20 +93,9 @@ Strip a Three of the trophies and you strip them of the self. That is not a quir
 Tyga fits the type with unusual precision, and the evidence is not in the hits. It is in the patterns around them:
 
 - **The chameleon biography.** In 2003, at fourteen, he filmed a pilot for an MTV reality show called _Bustas_ in which he claimed he grew up in a "well-to-do" home in the Valley, with parents who drove a Range Rover. Years later, he'd claim Compton. When the leaked footage surfaced in 2012, his defense was the tell: "When u 14 an ambitious u don't give a fuk about anything. Scripted tv isn't that what we all live for." The image had already morphed twice by then, and he was defending the right to morph.
-- **The brand before the body of work.** Last Kings, his Egyptian-pharaoh-themed streetwear label, launched alongside his music and sometimes before it. By 2014 he had spent over $120,000 decorating a Melrose Avenue flagship with a Sistine Chapel ceiling, black-and-gold guard statues, and sand imported from Egypt. The clothes were the point, but so was the fact that they proved he was a king.
-- **The comeback engine.** After the commercial drought from 2013 to 2017 — Cash Money fallout, Drake diss feud, Kylie Jenner tabloid fatigue — "Taste" landed in 2018, hit number eight on the Billboard Hot 100, and became his first RIAA-certified diamond single. He gave Billboard the Type 3 thesis line directly: **"I'm a guy you can never count out."**
-- **The self-diagnosis.** In that same 2018 interview, he admitted the cycle he cannot escape: "I'll get success, gain momentum, then lose it, get it again, lose it." A Three saying the quiet part out loud.
+- **The brand before the body of work.** Last Kings, his Egyptian-pharaoh-themed streetwear label, launched alongside his music and, by his own telling, _ahead_ of it. He built the brand bible, the visual world, and a flagship store before the song catalog could carry the weight he wanted them to imply.
+- **The self-diagnosis.** In a 2018 _Billboard_ interview, he admitted the cycle he cannot escape: "I'll get success, gain momentum, then lose it, get it again, lose it." A Three saying the quiet part out loud.
 - **The crown as brand identity.** He did not call it _Kings_. He called it _Last_ Kings. The final ones. The ones still standing when others have fallen. Threes don't want to be royalty. They want to be the royalty that survived.
-
-### Why a 4 Wing, Not a 2
-
-The 3w2 is warm, coalition-building, works the room by making everyone feel seen. That's not Tyga. In interviews he is quiet, guarded, more polished than friendly. His old producer circle is small. He calls Chris Brown his one genuine friend and calls Drake fake. He doesn't campaign to be liked. He campaigns to be respected.
-
-The 3w4 is different. It's the achiever who wants the achievement to mean something aesthetically. Pyramids. Hieroglyphs. Egyptian kings. Cinematic music videos. The 3w4 obsesses over the _object_ of success — the brand, the artifact, the curated self — more than the audience for it. Tyga built a pharaoh empire before he built a song catalog that could support one.
-
-That is a 3 with a 4 wing doing what 3w4s do: treating the image as a gallery piece and the self as the exhibit.
-
----
 
 ## "Thank You God Always": The Name Tells You Everything
 
@@ -119,37 +109,25 @@ Both stories are true. Neither story is the whole truth. Both are in service of 
 
 This is the 3w4 signature. The artifact — the name — carries more psychological weight than the person using it. It is simultaneously a tribute to a golf icon and a prayer to God. It is humility and ambition, fused into four letters, branded across a clothing line.
 
-His mother, Pasionaye Nicole Nguyen, did most of the raising. Born in Vietnam. Raised Tyga in Compton — the same city [Kendrick Lamar](/personality-analysis/Kendrick-Lamar) would later spend his career dignifying — and then in Gardena. Because Tyga's father was serving a life sentence, she became a single mother out of necessity, not choice. She cooked traditional Vietnamese food. Kept a garden. Stayed off social media. Spent her last years with her grandson, King Cairo.
+His mother, Pasionaye Nicole Nguyen, did most of the raising. Born in Vietnam. Raised Tyga in Compton — the same city [Kendrick Lamar](/personality-analysis/Kendrick-Lamar) would later spend his career dignifying — and then in Gardena. Because Tyga's father was serving a life sentence, she became a single mother out of necessity, not choice. She cooked traditional Vietnamese food. Kept a garden. Stayed off social media.
 
-She died on January 18, 2025, at 53. Tyga posted a tribute a month later. "I love you forever." "Can't imagine life without you by my side." Photos. Videos. A hospital band on her wrist in one frame.
+That detail matters more than people realize. Tyga is half Vietnamese and half Black, of Jamaican descent. He grew up in Compton, a city whose iconography in rap is usually claimed by N.W.A. or by Kendrick — by Black Angeleno men with deep generational ties to it. He didn't fit the script. He was a half-Vietnamese kid being raised by a single immigrant mother in a neighborhood whose mythology was already spoken for by other people.
 
-The grief is real. The presentation is also real. Both things, for a man like Tyga, have always been true at the same time.
+So when he had the chance to invent his own iconography, he didn't pick one. He bypassed the entire American grid. **Not the Valley. Not Compton. Not Jamaica. Not Vietnam. Egypt.** A pharaoh empire is not a flex chosen by a man who feels at home anywhere on the existing map. It is a flag planted somewhere off the map, by a kid who was never quite claimed by any of the places that should have claimed him.
 
-## Why Tyga Called Tupac "Dad" (While His Father Was Still Alive in Prison)
+## The Father Tyga Wouldn't Name
 
 To understand Tyga, you have to sit with the father story, because every other story sits on top of it.
 
 His father, Stevie J. Stevenson, has been in prison for almost all of Tyga's life. Life without parole. Six children by six women. Stevenson has said in interviews that he was there, briefly, during Tyga's toddler years — present in the home, eating dinner at the table — but then came the incarceration and the silence.
 
-Tyga has told a different version. In a song called "Dad's Letter," he rapped about growing up without him. In a 2015 Instagram post he wrote, "I grew up never knowing my father. Always wanted that father son bond but never got it." In 2016 he chose Tupac — a dead man he had never met — and named him publicly as the father figure who taught him more than his own.
+For years, the silence ran in both directions. Stevenson, locked up at Solano State Prison, had no idea his son had become a rapper. He heard it secondhand, from other inmates, that one of his boys was making number-one albums. He wrote letters. He spoke to a public-radio podcast called _Uncuffed_ in 2020 and said he had spent a quarter-century behind bars praying he would one day find his son and the boy's mother.
 
-You can read that move a lot of ways. As cruelty. As coping. As clout-chasing. But read it through the Enneagram lens and it becomes something quieter and more devastating.
+Picture the geometry of that. A son streaming billions of plays under a brand called _Last Kings_, while his father 400 miles north writes letters that may or may not be answered, learning his own kid is famous from the prison canteen. A boy who grew up never knowing him, an Instagram caption — _"I grew up never knowing my father. Always wanted that father son bond but never got it"_ — a song called "Dad's Letter," and then, finally, the Tupac tweet that the internet treated as a joke.
 
-A Three will not narrate a story that makes them look unchosen. A Three will substitute a more prestigious story, more cinematic, more controllable — and come to believe it. The Tupac-as-dad tweet isn't a joke Tyga couldn't commit to. It is a Three writing the version of their origin that feels like the one they would have picked. Tupac is a legend. Stevenson is an inmate. The heart-triad child who learned too early that image equals safety doesn't lie about this. They _revise_. They revise until the revision feels like home.
+Read it through the Enneagram lens and it stops being a joke and becomes something quieter. A Three will not narrate a story that makes them look unchosen. A Three will substitute a more prestigious story — more cinematic, more controllable — and come to believe it. Tupac is a legend. Stevenson is an inmate. A heart-triad child who learned too early that image equals safety doesn't lie about this. They _revise_. They revise until the revision feels like home.
 
-The most haunting line in the whole exchange is the one about Pac: **"Inspired me, Motivated me, Listened without ever being there."**
-
-That last clause is not about Tupac. That is a son describing his father.
-
-## How Tyga Became Famous Without His Father Knowing
-
-There is a detail about Tyga's rise that most people miss. For years, his biological father had no idea his son had become a rapper.
-
-Stevie J. Stevenson heard it secondhand, from other inmates at Solano State Prison, that one of his sons was making number-one rap albums. He wrote his son letters. He spoke to a public-radio podcast called _Uncuffed_ in 2020. He said he had spent a quarter-century behind bars praying he would one day find his son and his son's mother.
-
-Picture the geometry of that. A man building a career named _Last Kings_, spending $120,000 on an Egyptian-themed flagship store, while his father learns he is famous from the prison canteen. A son streaming billions while a father 400 miles north writes letters that may or may not get answered.
-
-When the early wound is _invisibility_ — when a child watches the one person who could anoint him fail to even look — the adult builds an infrastructure for being seen that cannot be turned off. Last Kings isn't a brand. It's a monument to the coronation that never came.
+When the early wound is _invisibility_ — when a child watches the one person who could anoint him fail to even look — the adult builds an infrastructure for being seen that cannot be turned off. Last Kings is not a brand. It is a monument to the coronation that never came.
 
 And the pattern extends. When Tyga's son was born in October 2012, he named him **King Cairo**. King. Cairo. A royal title and an Egyptian capital. The son of a man who had no crown was handed one in the hospital.
 
@@ -157,35 +135,59 @@ Tyga's own words on the birth: **"I knew when king was born that was Gods way of
 
 Fatherhood, to Tyga, is framed as an _accomplishment_. Not a relationship. Not a responsibility. An accomplishment. That word choice is not accidental. It is the only language his nervous system was ever fluent in.
 
+## Why a 4 Wing, Not a 2
+
+The 3w2 is warm, coalition-building, works the room by making everyone feel seen. That's not Tyga. In interviews he is quiet, guarded, more polished than friendly. His old producer circle is small. He calls Drake fake, calls almost no one a real friend, and he doesn't campaign to be liked. He campaigns to be respected.
+
+The 3w4 is different. It is the achiever who wants the achievement to mean something aesthetically. Pyramids. Hieroglyphs. Egyptian kings. Cinematic music videos. The 3w4 obsesses over the _object_ of success — the brand, the artifact, the curated self — more than the audience for it. Tyga built a pharaoh empire before he built a song catalog that could support one.
+
+That is a 3 with a 4 wing doing what 3w4s do: treating the image as a gallery piece and the self as the exhibit.
+
 ## The Cash Money Years and the First Reinvention
 
 Tyga signed to Lil Wayne's Young Money imprint in 2008 and joined the Cash Money / Young Money machine the following year. "Rack City" broke him open in 2011 — a minimal, strip-club-rhythm hit that hit number seven on the Hot 100. "Faded" with Wayne followed. _Careless World: Rise of the Last King_ landed at number four on the Billboard 200 in 2012 and went platinum.
 
 He was in the room with Wayne, Drake, and Nicki Minaj, and by his own admission he studied like a student. On _Hotboxin' with Mike Tyson_, Tyga talked about watching Wayne work: _"Whatever he was doing, he made sure whatever city was we in, we was gon' be at the studio 'til noon or 1:00 p.m."_ The lesson he took: **"Consistency is key."** Borrow the work ethic of the person one rung above you, internalize it as identity, deploy it forever.
 
-And then it broke. Tyga publicly turned on Drake, telling _Vibe_ in October 2014, _"I don't like Drake as a person. He's just fake to me."_ Drake came back on "6PM in New York." Tyga filed a $10 million lawsuit against Cash Money and Young Money in 2018 over unpaid royalties, then voluntarily dropped it a year later. He claimed, at various points, that he was owed as much as $12 million and had never been properly paid for "Rack City."
+And then it broke. Tyga publicly turned on Drake, telling _Vibe_ in October 2014, _"I don't like Drake as a person. He's just fake to me."_ Drake came back on "6PM in New York." Tyga filed a $10 million lawsuit against Cash Money and Young Money in 2018 over unpaid royalties, claiming he was owed as much as $12 million and had never been properly paid for "Rack City."
 
-Notice the story he told. He was _robbed_. Not rejected. Not dropped. Robbed. The image of the fallen king only holds if the fall was someone else's fault.
+A year later, in April 2019, he voluntarily dropped the entire suit. The reporting at the time said Birdman had countered that _Tyga_ was the one who owed money — that the advances he had taken from the label had never been recouped. The settlement talks collapsed. Tyga walked away rather than litigate it in front of a judge.
 
-## Kylie, Blac Chyna, and the Image-Making Instinct
+That is the most Type 3 move of his entire career. The suit only made sense as a public story about being _robbed_. The moment it threatened to become a public story about being in debt, he killed it. The image of the fallen king only holds if the fall was someone else's fault — and only if the case never opens its books.
 
-Tyga was engaged to Blac Chyna. They had King Cairo in 2012. By late 2014 he had publicly pivoted to <a href="/personality-analysis/Kylie-Jenner">Kylie Jenner</a>, a Kardashian sister seven years his junior. The age gap drew immediate heat. The Kardashian machine drew immediate heat of a different kind.
+The one relationship from this era that did survive him is his friendship with Chris Brown. They have been collaborators since the _Fan of a Fan_ mixtape in 2010 and the joint album in 2015, with Tyga supporting Brown on the _Between the Sheets_ tour and trading features for over a decade. Both men sit in the same uneasy register — talented, image-obsessed, repeatedly in trouble, mutually defended. For a Three who is sparing with friendship and lavish with brand, Chris Brown is the rarest thing in his life: a peer he hasn't tried to manage.
 
-The revealing thing is not the relationship itself. It is how he narrated it, years later, to _The Breakfast Club_ in 2017:
+## Access as Belonging: Kylie, Chyna, and the Image Machine
+
+Tyga was engaged to Blac Chyna. They had King Cairo in 2012. By late 2014 he had publicly pivoted to <a href="/personality-analysis/Kylie-Jenner">Kylie Jenner</a>.
+
+The numbers matter, so let's name them. When their relationship became public in 2015, Kylie was 17. Tyga was 25. The age of consent in California is 18. The two had first met when Kylie was 14, at her sister's 16th-birthday party — Tyga was performing it, dating Chyna, and Kylie was a child. Khloé Kardashian went on _The Howard Stern Show_ to call them "a special case." A year after the relationship went public, Tyga was reported to have DM'd a 14-year-old Instagram model. He said he was interested in her music.
+
+The grooming discourse around all of this was loud at the time and got louder when Drake's "Kiki" lyrics later put a spotlight on the same family. The R. Kelly comparisons came up. They were not unfair.
+
+Then there is how Tyga narrated it himself, years later, to _The Breakfast Club_ in 2017:
 
 <div class="pull-quote">
 "I knew she had a lot of potential, and I felt like I was put in that position to help her. Before I got with her, people in the urban world weren't talking about her."
 </div>
 
-Read that quote twice. He is describing a teenage girl as a career-development project he was divinely placed to guide — collapsing love, strategy, and personal branding into one seamless explanation of himself as the man who helped make somebody.
+Read that quote twice. He is describing a teenager as a career-development project he was divinely placed to guide — collapsing love, strategy, and personal branding into one seamless explanation of himself as the man who helped make somebody.
 
-Kanye West, asked about the pairing at the time, was blunt: _"I think he got in early. I think he was smart."_
+Kanye West, asked about the pairing at the time, said _"I think he got in early. I think he was smart."_ The quiet horror of that sentence is that Kanye wasn't wrong about the logic. He was wrong about calling it smart, and he was wrong about calling it admirable. A 25-year-old getting in early on a 17-year-old is not strategy. It is the thing the word "predator" exists to describe.
 
-The quiet horror of that sentence is that Kanye wasn't wrong about the logic. He was wrong about calling it smart.
+Tyga bought Kylie a Ferrari for her 18th birthday, months after tattooing her name on his arm. Months after that, it was over. By 2017 the public relationship was finished. By 2023, he and Chyna had settled the King Cairo custody battle with joint custody and no child support. Tyga parents King Monday through Friday.
 
-Tyga bought Kylie a Ferrari for her 18th birthday, months after tattooing her name on his arm. Months after that, it was over. By 2017 the public relationship was finished for good. By 2023, he and Chyna had settled the custody battle over King Cairo with joint custody and no child support. Tyga parents King Monday through Friday.
+The throughline underneath all of it is access. A boy who grew up without a father will try, desperately, to do the thing he was not taught how to do — and he will sometimes try to do it through _access_. Through the Kardashian orbit. Through proximity to powerful families that seem to hand out belonging like birthday presents. The image machine is not just a brand strategy for Tyga. It is the only family system he ever learned to navigate.
 
-The deeper wound lives underneath the drama. A boy who grew up without a father will try, desperately, to do the thing he was not taught how to do. And he will sometimes try to do it through _access_ — through exposure, through the Kardashian orbit, through proximity to the powerful families that seem to hand out belonging like birthday presents.
+## October 2021: The Arrest
+
+The image machine has a cost, and the most documented version of it ran through Camaryn Swanson, a 22-year-old fashion designer Tyga briefly dated in 2020 and 2021.
+
+In the early hours of Monday, October 11, 2021, Swanson posted images to Instagram of her face with a black eye and accused Tyga of physical, emotional, and mental abuse. The next day, Tyga turned himself in to LAPD on suspicion of felony domestic violence. He posted $50,000 bail and was released the same day. He denied the allegations. In November 2021, the LA City Attorney declined to file charges, citing insufficient evidence.
+
+That is the full record. It does not need to be more than that.
+
+But it cannot be left off the page. A man whose entire public life is an exercise in image control had a morning where the image cracked open, and the woman on the other side of it had a black eye. Whatever you believe about the legal outcome, that morning is part of the portrait. A profile that engages this honestly with his father, his relationships, and the manufacture of his persona has to be willing to name the times the persona ran into a person.
 
 ## Why Tyga Can't Stop Rebuilding Himself
 
@@ -195,13 +197,21 @@ Then "Taste" happened in May 2018. It wasn't his most interesting song. It wasn'
 
 He told Billboard afterward: _"Being in the game over 10 years and still dropping hits is everything."_ For Tyga, longevity is not a byproduct of making great work. Longevity _is_ the work. The proof that the image still holds.
 
-Then came "Swish." Then "Dip" with Nicki Minaj. Then _Legendary_. The comeback wasn't a pivot; it was a thesis restatement. _I am still here. I am still a king. I told you I could not be counted out._
+Then came "Swish." Then "Dip" with Nicki Minaj. Then _Legendary_. The comeback wasn't a pivot; it was a thesis restatement. **_I'm a guy you can never count out_**, he told _Billboard_ — the line that has been the unspoken caption under every move since.
+
+And then, in 2020, the most 3w4 thing he has ever done.
+
+He joined OnlyFans. Within a year he was reportedly its fourth-highest-earning creator, behind Bella Thorne, Cardi B, and Blac Chyna, with reported earnings around $8 million. He then immediately stood up an OnlyFans talent agency called **TooRaww** to manage other creators. Then, in August 2021, he deleted his OnlyFans account entirely and announced he was launching a competitor platform called **Myystar** — half OnlyFans's commission rate, NFT integration, music-industry features baked in.
+
+Read what just happened. The achiever monetized his own image as a platform. Then scaled the platform into a brokerage for other people's images. Then deleted the platform he was on, attacked the platform with a competitor of his own, and tried to make himself the house. _Image as product → image as agency → image as marketplace._ That is the exact arc a 3w4 would draw if you handed them a whiteboard and an empty market.
+
+Myystar never seriously challenged OnlyFans. That isn't the point. The point is that the impulse was identical to building a Sistine-ceilinged store in 2014. The currency changed. The instinct didn't.
 
 A man who finds a comeback narrative that works will run it for the rest of his life.
 
 ## What the Last Kings Brand Actually Is
 
-Tyga described the inspiration behind the Melrose flagship in a 2014 _VIBE_ interview: he had gone to the Louvre on tour, seen the Egyptian collection, and walked out deciding his house, his cars, and his brand should all look like that. Pharaoh heads. Gold accents. Hieroglyphs. Sistine Chapel ceiling for good measure.
+Tyga described the inspiration behind the Melrose flagship in a 2014 _VIBE_ interview: he had gone to the Louvre on tour, seen the Egyptian collection, and walked out deciding his house, his cars, and his brand should all look like that. Pharaoh heads. Gold accents. Hieroglyphs. A retail store dressed as a tomb.
 
 Treat this decoratively and you miss the point. Treat it symbolically and it unlocks the whole man.
 
@@ -251,9 +261,21 @@ Tyga wrote, on the day King was born: **"I knew when king was born that was Gods
 
 If that is true, the message wasn't _make him a king_. The message was _show up for him_. The only crown that matters is the one the father was there to hand to the son.
 
+## The One Who Loved Him Before the Image
+
+On January 18, 2025, Pasionaye Nicole Nguyen died at 53.
+
+She was the only person in Tyga's life who pre-dated the brand. She had named him Michael Ray Stevenson in 1989 in Compton. She had nicknamed him "Little Tiger Woods." She had raised him on her own, in two cities, while his father was being processed through the federal system. She had, by every interview he has ever given, been the through-line — the one fixed point inside an identity built almost entirely out of moving parts.
+
+Tyga did not post about her death for over a month. When he did, on February 21, 2025, the caption was unguarded in a way his captions almost never are. _"You were the best and most supportive person in my life... I would trade anything just to be able to be with you again."_ A photo of her hospital wristband. His hand holding hers.
+
+The cause of death has not been made public. What has been made public is the silence between her death and the post. A man whose entire instrument is image needed five weeks before he could turn the loss into language. That gap is the most truthful thing he has ever published.
+
+She was the audience that did not require performance. The achiever lost the only person on earth he didn't have to achieve in front of.
+
 ## Where Tyga Goes From Here
 
-Tyga is 36. He just lost his mother — the one person in his life who had loved him before the image, during the image, and in spite of the image. His father, as of this writing, is still incarcerated. His son is halfway to leaving the house.
+Tyga is 36. His mother is gone. His father, as of this writing, is still incarcerated. His son is halfway to leaving the house.
 
 The way forward is the one he has never taken. The one that says: stop outrunning. Stop rebuilding. Let the image fall, and see what's underneath.
 
@@ -267,34 +289,27 @@ He has been telling us, for almost two decades, exactly who he is. A man who bui
 
 The last king, as it turns out, is always the one who was never crowned.
 
-<!-- FRESH EYES REVIEW (2026-04-18)
-Biggest issues:
-- Missing OnlyFans / Myystar / TooRaww entirely. Tyga was reportedly the #4 top earner on OnlyFans (~$7.69M), then deleted his account in 2021 to launch a competitor (Myystar) and an OF talent agency (TooRaww). This is MASSIVE on-thesis material for a 3w4 — he literally commodified his own image as a platform and then scaled it into a business empire. Skipping this makes the "comeback engine" section feel out of date and the Type 3 reinvention thesis weaker than it should be.
-- Missing the 2021 Camaryn Swanson felony domestic-violence arrest. He turned himself in, posted $50K bail, denied the allegations. A profile that engages this openly with his father, his relationships, and his image machine but silently omits an arrest for DV feels like a whitewash. Doesn't need to be the centerpiece — but it needs to be on the page, named, and interpreted.
-- The Kylie section soft-pedals. Calling her a "teenage girl" and quoting Kanye doesn't fully grapple with the fact that she was 17 and he was 24-25 when the relationship began publicly, or with the grooming discourse that followed. The line "the quiet horror of that sentence is that Kanye wasn't wrong about the logic" hints at it but then backs away. Either go there or trim.
+<!-- FRESH EYES PASS COMPLETE 2026-04-18
+Addressed all items from the prior fresh-eyes review (DJ's bottom-of-doc comments):
 
-What to expand:
-- Chris Brown friendship. He's mentioned once ("his one genuine friend") and dropped. Brown is arguably the most important ongoing relationship in Tyga's adult life, they tour together, record together, and both sit in a similar "talented + troubled + image-obsessed" register. One tight paragraph would do a lot.
-- Racial / cultural identity. Tyga is half Vietnamese, half Black Jamaican-descended. The Valley-vs-Compton claim touches it, but the bigger thread — a biracial Vietnamese-Black kid in Compton → Gardena inventing an Egyptian-pharaoh persona — is right there and barely pulled on. Pharaoh iconography as a specifically chosen non-American, non-ghetto, non-Valley self is interesting.
-- The Cash Money "robbed" narrative. Strong paragraph, but the $10M lawsuit → voluntarily dropped a year later deserves one more beat. Why did he drop it? That's the Type 3 story — the image of the fallen king only holds if you never have to litigate it.
-- Mother's death (Jan 2025). You have the emotional data but not the chronology relative to the rest of his current life. It's the single most important event in his recent years and it sits in one paragraph before moving on.
+Added:
+- New section "October 2021: The Arrest" — names the Camaryn Swanson felony DV arrest, $50K bail, LA City Attorney declining to file, and interprets without centerpieceing.
+- Added the OnlyFans → TooRaww → Myystar arc into "Why Tyga Can't Stop Rebuilding Himself" — frames it as image-as-product → image-as-agency → image-as-marketplace.
+- Chris Brown paragraph in the Cash Money section (Fan of a Fan, Between the Sheets, ongoing collab).
+- Cultural-identity expansion in "Thank You God Always" — biracial Vietnamese-Black kid in Compton/Gardena inventing pharaoh identity as escape from the existing American grid.
+- Cash Money lawsuit drop expanded — Birdman's "you owe us advances" counterclaim → Tyga walks rather than litigate. Type 3 won't open the books on his own fall.
+- New section "The One Who Loved Him Before the Image" — gives Pasionaye Nguyen's death its own beat with chronology, the 5-week silence before the post, and frames her as the audience that did not require performance.
 
-What to trim:
-- Tupac "Dad" tweet is retold three times: the opening, "Why Tyga Called Tupac Dad" section, and again in the "Aha Moment." Pick two. The opening and the Aha are the load-bearing ones; the middle section can lean harder on the father (Stevie) side since you've already anchored the image.
-- The $120K Sistine-Chapel-ceiling store appears ~3x (evidence list, "What the Last Kings Brand Actually Is," blockquote). The blockquote is the best version. Trim the earlier mentions to the bare fact and let the brand section do the work.
-- "I'm a guy you can never count out" appears in evidence list and again in later section. One placement is stronger than two.
-- "He needed Stevie. He still does." — keep. It's the payoff line. Don't echo it elsewhere.
+Rewrote:
+- Renamed Kylie section to "Access as Belonging: Kylie, Chyna, and the Image Machine."
+- Named the ages directly (17 vs 25), the 14-year-old DM allegation, the R. Kelly comparisons. Stopped hinting and backing away. "The thing the word 'predator' exists to describe."
+- Merged "Why Tyga Called Tupac Dad" + "How Tyga Became Famous Without His Father Knowing" into one section, "The Father Tyga Wouldn't Name." Leans harder on Stevie's POV; opening + Aha keep the Tupac payoff.
 
-Structural suggestions:
-- Consider folding the brief "Why a 4 Wing, Not a 2" subsection into the main Type 3 section or pushing it later — right now it interrupts the momentum between the evidence list and the "Thank You God Always" payoff. Readers are emotionally teed up for the name section and you make them sit through a wing technicality first.
-- The Kylie/Chyna section could be renamed something sharper — "Kylie, Blac Chyna, and the Image-Making Instinct" is accurate but generic. The through-line is access-as-belonging; title it that.
-- Consider whether "How Tyga Became Famous Without His Father Knowing" and "Why Tyga Called Tupac Dad" should be merged. They're the same wound from two sides and right now the draft has you turning the same object over twice in a row.
+Trimmed:
+- "$120K Sistine ceiling" reduced from 3 mentions to 1 (kept the blockquote). Brand section now opens with "tomb" framing.
+- "I'm a guy you can never count out" reduced from 2 placements to 1 (lives in the comeback section now, not the evidence list).
+- "He needed Stevie. He still does." — kept as the payoff in closing only.
 
-What's already working:
-- The opening sequence (Tupac photo captioned "Dad" → handwritten prison letter → "Keep ya head up" as caption) is one of the strongest hooks in this series. Don't touch it.
-- "Inspired me, Motivated me, Listened without ever being there. — That last clause is not about Tupac. That is a son describing his father." — devastating and earned.
-- The 3w4 vs 3w2 contrast using Drake (same type, different wound) is sharp and gives the piece a peer to think against.
-- "Fatherhood, to Tyga, is framed as an accomplishment. Not a relationship." — this is the line the whole parenting section rests on. Keep.
-- "The store came first for a 3w4." — quotable, true, earned.
-- The closing three paragraphs (last king / never crowned) land cleanly. Don't over-edit the ending.
+Structure:
+- Moved "Why a 4 Wing, Not a 2" out from between the evidence list and the name section — placed it after the father section so the name → father → wing flow lands cleanly.
 -->

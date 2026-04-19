@@ -1,7 +1,11 @@
 // src/lib/server/adminAnalytics.spec.ts
 import { describe, expect, it } from 'vitest';
 
-import { countUniqueContributors, getContributorKey } from './adminAnalytics';
+import {
+	buildEnneagramDistribution,
+	countUniqueContributors,
+	getContributorKey
+} from './adminAnalytics';
 
 describe('adminAnalytics', () => {
 	it('prefers authenticated ids over anonymous identifiers', () => {
@@ -29,5 +33,22 @@ describe('adminAnalytics', () => {
 				{ ip: '127.0.0.2' }
 			])
 		).toBe(3);
+	});
+
+	it('normalizes database enneagram distribution rows for chart consumption', () => {
+		expect(
+			buildEnneagramDistribution([
+				{ enneagram: '1', user_count: 3 },
+				{ enneagram: 2, user_count: '4' },
+				{ enneagram: 'unknown', user_count: 10 },
+				{ enneagram: '3', count: 2 },
+				{ enneagram: '4', user_count: 'not-a-number' }
+			])
+		).toEqual({
+			'1': 3,
+			'2': 4,
+			'3': 2,
+			'4': 0
+		});
 	});
 });
