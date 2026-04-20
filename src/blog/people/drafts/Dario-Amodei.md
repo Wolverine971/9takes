@@ -27,6 +27,44 @@ content_quality:
   overall: 8.8
   letter: 'B+'
   graded_at: '2026-03-15'
+wikidata_qid: 'Q103335665'
+birth_place: 'San Francisco, California, USA'
+nationality: 'American'
+occupation:
+  - 'AI Researcher'
+  - 'Business Executive'
+  - 'Entrepreneur'
+knows_about:
+  - 'Artificial intelligence safety'
+  - 'Large language models'
+  - 'AI alignment and interpretability'
+  - 'Constitutional AI'
+  - 'Scaling laws in machine learning'
+  - 'AI policy'
+keywords:
+  - 'Dario Amodei Enneagram'
+  - 'Dario Amodei personality'
+  - 'Anthropic CEO'
+  - 'Claude AI founder'
+  - 'AI safety leader'
+  - 'Dario Amodei Anthropic'
+  - 'AI alignment researcher'
+same_as:
+  - 'https://en.wikipedia.org/wiki/Dario_Amodei'
+  - 'https://www.wikidata.org/wiki/Q103335665'
+  - 'https://darioamodei.com/'
+  - 'https://www.anthropic.com/'
+citations:
+  - 'https://en.wikipedia.org/wiki/Dario_Amodei'
+  - 'https://www.anthropic.com/company'
+  - 'https://darioamodei.com/'
+faqs:
+  - question: "What is Dario Amodei's personality type?"
+    answer: 'Dario Amodei reads as an Enneagram Type 5, the Investigator. His measured public communication, emphasis on interpretability and scaling research, and willingness to walk 14 colleagues out of OpenAI to start Anthropic fit the Type 5 pattern of pursuing understanding and intellectual independence.'
+    anchor: 'what-is-dario-amodeis-personality-type'
+  - question: 'Why did Dario Amodei leave OpenAI to start Anthropic?'
+    answer: 'Amodei and his sister Daniela left OpenAI in 2021 with roughly a dozen colleagues over disagreements about safety direction, and founded Anthropic as an AI safety lab. The move reflects the Type 5 preference for protecting epistemic autonomy and building systems on their own terms.'
+    anchor: 'fourteen-people-followed-him-out-the-door'
 path: src/blog/people/drafts/Dario-Amodei.md
 ---
 

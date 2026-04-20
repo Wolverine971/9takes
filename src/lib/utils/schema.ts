@@ -196,6 +196,32 @@ function hasSchemaType(node: JsonLdNode, schemaType: string): boolean {
 	return false;
 }
 
+/**
+ * Walks a parsed JSON-LD value (node, array, or node with `@graph`) to check
+ * whether it contains a node of the given schema type. Used to avoid
+ * double-emitting schema (e.g. a separate BreadcrumbList when the snippet
+ * already includes one inside its graph).
+ */
+export function jsonLdContainsType(value: unknown, schemaType: string): boolean {
+	if (Array.isArray(value)) {
+		return value.some((entry) => jsonLdContainsType(entry, schemaType));
+	}
+
+	if (!isJsonLdNode(value)) {
+		return false;
+	}
+
+	if (hasSchemaType(value, schemaType)) {
+		return true;
+	}
+
+	if (Array.isArray(value['@graph'])) {
+		return value['@graph'].some((entry) => jsonLdContainsType(entry, schemaType));
+	}
+
+	return false;
+}
+
 function isArticleSchemaNode(node: JsonLdNode): boolean {
 	return ['Article', 'BlogPosting', 'NewsArticle'].some((schemaType) =>
 		hasSchemaType(node, schemaType)

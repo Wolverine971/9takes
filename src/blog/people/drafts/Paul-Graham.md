@@ -27,6 +27,52 @@ content_quality:
   overall: 8.7
   letter: 'B+'
   graded_at: '2026-02-20'
+wikidata_qid: 'Q92650'
+birth_date: '1964-11-13'
+birth_place: 'Weymouth, Dorset, England'
+nationality: 'British-American'
+occupation:
+  - 'Venture capitalist'
+  - 'Essayist'
+  - 'Programmer'
+  - 'Writer'
+  - 'Entrepreneur'
+knows_about:
+  - 'Startup advice'
+  - 'Lisp programming'
+  - 'Essay writing'
+  - 'Venture capital'
+  - 'Y Combinator'
+  - 'Seed-stage investing'
+  - 'Programming language design'
+keywords:
+  - 'Paul Graham Enneagram Type 7'
+  - 'Paul Graham personality analysis'
+  - 'Y Combinator Paul Graham'
+  - 'Paul Graham essays'
+  - 'Fierce Nerd Paul Graham'
+  - 'Type 7 Enthusiast'
+  - 'Viaweb Paul Graham'
+same_as:
+  - 'https://en.wikipedia.org/wiki/Paul_Graham_(programmer)'
+  - 'https://www.wikidata.org/wiki/Q92650'
+  - 'https://paulgraham.com/'
+  - 'https://twitter.com/paulg'
+  - 'https://www.ycombinator.com/people'
+citations:
+  - 'https://en.wikipedia.org/wiki/Paul_Graham_(programmer)'
+  - 'https://paulgraham.com/bio.html'
+  - 'https://www.ycombinator.com/people'
+faqs:
+  - question: "What is Paul Graham's personality type?"
+    answer: "Paul Graham is an Enneagram Type 7, the Enthusiast. He sprints between disciplines, philosophy, painting, programming, startups, essays, because staying in any one too long feels like confinement, and the Seven's engine runs on new horizons."
+    anchor: 'what-is-paul-grahams-personality-type'
+  - question: 'Why did Paul Graham quit painting after two decades?'
+    answer: 'In 2014 he put the brush down mid-painting because, in his words, he ran out of steam. For a Type 7, the moment a pursuit stops feeding the appetite for novelty and momentum, it becomes a cage, and the only option is to exit before the walls close in.'
+    anchor: 'choosing-painting-and-poverty-in-florence'
+  - question: "What did Paul Graham's Fierce Nerd essay reveal about him?"
+    answer: 'The essay is a self-portrait dressed as a founder profile, a celebration of restless, uncompromising intensity that refuses to be smoothed over. It is the Seven romanticizing his own escape velocity and giving a generation of founders permission to do the same.'
+    anchor: 'the-fierce-nerd-essay-as-self-portrait'
 path: src/blog/people/drafts/Paul-Graham.md
 ---
 

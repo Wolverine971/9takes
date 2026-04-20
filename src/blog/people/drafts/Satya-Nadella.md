@@ -18,6 +18,55 @@ wikipedia: 'https://en.wikipedia.org/wiki/Satya_Nadella'
 twitter: '@sataborasu'
 instagram: ''
 tiktok: ''
+wikidata_qid: 'Q7426870'
+imdb_id: 'nm8202665'
+birth_date: '1967-08-19'
+birth_place: 'Hyderabad, Telangana, India'
+nationality: 'Indian-American'
+occupation:
+  - 'Business executive'
+  - 'Chief executive officer'
+  - 'Engineer'
+  - 'Investor'
+knows_about:
+  - 'Microsoft'
+  - 'Cloud computing'
+  - 'Artificial intelligence'
+  - 'Enterprise software'
+  - 'OpenAI partnership'
+  - 'Growth mindset leadership'
+  - 'Azure'
+keywords:
+  - 'Satya Nadella Enneagram'
+  - 'Satya Nadella Type 5'
+  - 'Satya Nadella personality'
+  - 'Microsoft CEO personality'
+  - 'Satya Nadella Investigator'
+  - 'Satya Nadella leadership'
+  - 'Satya Nadella empathy'
+  - 'Microsoft CEO Enneagram'
+same_as:
+  - 'https://en.wikipedia.org/wiki/Satya_Nadella'
+  - 'https://www.wikidata.org/wiki/Q7426870'
+  - 'https://www.imdb.com/name/nm8202665/'
+  - 'https://twitter.com/satyanadella'
+  - 'https://news.microsoft.com/source/leadership/'
+citations:
+  - 'https://en.wikipedia.org/wiki/Satya_Nadella'
+  - 'https://news.microsoft.com/source/leadership/'
+  - 'https://news.microsoft.com/source/exec/satya-nadella/'
+  - 'https://news.microsoft.com/source/2014/02/04/satya-nadella-email-to-employees-on-first-day-as-ceo/'
+  - 'https://blogs.microsoft.com/blog/2014/02/04/introducing-microsofts-new-ceo-satya-nadella/'
+faqs:
+  - question: "What is Satya Nadella's personality type?"
+    answer: 'Satya Nadella reads as an Enneagram Type 5, the Investigator. He leads from observation and model-building, runs listening tours, and converts curiosity into strategic bets like the early investment in OpenAI.'
+    anchor: 'what-is-satya-nadellas-personality-type'
+  - question: 'What was the listening tour that saved Microsoft?'
+    answer: "When Nadella became CEO in 2014, he inherited a company calcified by stack ranking and warring fiefdoms. His first move was a company-wide listening tour that shifted the culture from know-it-all to learn-it-all and unlocked Microsoft's next decade of growth."
+    anchor: 'the-listening-tour-that-saved-microsoft'
+  - question: "What was Satya Nadella's billion-dollar bet nobody wanted?"
+    answer: 'In 2019 Nadella committed $1 billion to OpenAI, later extending the partnership to more than $13 billion. The bet, questioned even by Bill Gates, positioned Microsoft as the default infrastructure partner when ChatGPT went mainstream.'
+    anchor: 'the-billion-dollar-bet-nobody-wanted'
 path: src/blog/people/drafts/Satya-Nadella.md
 content_quality:
   hook: 9.0

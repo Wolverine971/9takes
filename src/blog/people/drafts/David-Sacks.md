@@ -28,6 +28,53 @@ content_quality:
   overall: 8.9
   letter: 'B+'
   graded_at: '2026-02-20'
+wikidata_qid: 'Q5238174'
+imdb_id: 'nm1616294'
+birth_date: '1972-05-25'
+birth_place: 'Cape Town, Western Cape, South Africa'
+nationality: 'South African-American'
+occupation:
+  - 'Entrepreneur'
+  - 'Venture capitalist'
+  - 'Investor'
+  - 'Film producer'
+  - 'Political advisor'
+knows_about:
+  - 'Enterprise software'
+  - 'Venture capital'
+  - 'Startup operations'
+  - 'Product management'
+  - 'Cryptocurrency policy'
+  - 'Artificial intelligence policy'
+  - 'PayPal Mafia'
+keywords:
+  - 'David Sacks Enneagram Type 6'
+  - 'David Sacks personality analysis'
+  - 'All-In podcast Rain Man'
+  - 'Craft Ventures David Sacks'
+  - 'PayPal Mafia personality'
+  - 'David Sacks AI czar'
+  - 'Type 6 Counter-phobic'
+same_as:
+  - 'https://en.wikipedia.org/wiki/David_O._Sacks'
+  - 'https://www.wikidata.org/wiki/Q5238174'
+  - 'https://www.imdb.com/name/nm1616294/'
+  - 'https://twitter.com/DavidSacks'
+  - 'https://www.craftventures.com/team/david-sacks'
+citations:
+  - 'https://en.wikipedia.org/wiki/David_O._Sacks'
+  - 'https://www.craftventures.com/team/david-sacks'
+  - 'https://www.nfx.com/post/david-sacks-nfx-podcast'
+faqs:
+  - question: "What is David Sacks's personality type?"
+    answer: 'David Sacks is an Enneagram Type 6, the Loyalist, with a counter-phobic expression. He reaches for order, frameworks, and loyal alliances because at some level he believes the world is always about to come apart, and he fights that anxiety by out-preparing everyone in the room.'
+    anchor: 'what-is-david-sackss-personality-type'
+  - question: 'What happened with the Zenefits affair?'
+    answer: 'When Zenefits imploded over compliance failures in 2016, Sacks stepped in as CEO and ran a textbook Type 6 cleanup, rebuilding procedures, replacing leadership, and reinstating trust with regulators. It was the counter-phobic Six doing what he does best: facing a feared threat head-on with disciplined process.'
+    anchor: 'the-zenefits-affair-how-a-6-fights'
+  - question: 'Why do people compare Sacks to Peter Thiel?'
+    answer: "Both came out of the Stanford Review and the early PayPal circle and share a contrarian, threat-scanning worldview. But where Thiel operates like a solitary strategist, Sacks operates like a loyal lieutenant building frameworks and coalitions, which is the classic Type 6 counterpart to Thiel's more detached Type 5 energy."
+    anchor: 'the-thiel-mirror'
 path: src/blog/people/drafts/David-Sacks.md
 ---
 

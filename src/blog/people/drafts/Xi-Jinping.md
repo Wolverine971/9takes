@@ -49,7 +49,7 @@ same_as:
 citations:
   - 'https://en.wikipedia.org/wiki/Xi_Jinping'
   - 'https://www.britannica.com/biography/Xi-Jinping'
-  - 'https://www.bbc.com/news/world-asia-china-11551399'
+  - 'https://www.bbc.com/news/world-asia-pacific-11551399'
 faqs:
   - question: "What is Xi Jinping's personality type?"
     answer: "Xi's arc — surviving the Cultural Revolution in a cave, outlasting every rival on the climb, then reshaping the Party around his own ideology once in power — reads as Enneagram Type 8, the Challenger: a personality forged by early powerlessness into a lifelong commitment to never be powerless again, and to decide who lives inside his walls."

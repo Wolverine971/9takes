@@ -27,6 +27,47 @@ content_quality:
   overall: 8.8
   letter: B+
   graded_at: '2026-03-29'
+wikidata_qid: 'Q74093'
+birth_date: '1980-02-27'
+birth_place: 'El Paso, Texas, USA'
+nationality: 'American'
+occupation:
+  - 'Entrepreneur'
+  - 'Record producer'
+knows_about:
+  - 'Venture capital'
+  - 'Startup mentorship'
+  - 'Y Combinator'
+  - 'App.net'
+  - 'Social platforms'
+  - 'Tar pit ideas'
+keywords:
+  - 'Dalton Caldwell enneagram'
+  - 'Dalton Caldwell type 6'
+  - 'Dalton Caldwell personality'
+  - 'Y Combinator partner'
+  - 'App.net founder'
+  - 'Standard Capital'
+  - 'Loyalist enneagram'
+same_as:
+  - 'https://en.wikipedia.org/wiki/Dalton_Caldwell'
+  - 'https://www.wikidata.org/wiki/Q74093'
+  - 'https://twitter.com/daltonc'
+  - 'https://www.standardcap.com/partners/dalton'
+citations:
+  - 'https://en.wikipedia.org/wiki/Dalton_Caldwell'
+  - 'https://www.ycombinator.com/blog/dalton-caldwell-partner-emeritus'
+  - 'https://www.standardcap.com/partners/dalton'
+faqs:
+  - question: "What is Dalton Caldwell's personality type?"
+    answer: 'Dalton Caldwell is an Enneagram Type 6 (The Loyalist) with a 5 wing. The evidence shows up in his pattern recognition as threat detection, counterphobic confrontation of powerful systems, radical self-honesty about past failures, and decades-long loyalty to Y Combinator.'
+    anchor: 'what-is-dalton-caldwells-personality-type'
+  - question: "What was Dalton Caldwell's open letter to Mark Zuckerberg?"
+    answer: "In 2012, after a Facebook meeting where executives pressured him to sell his company, Dalton Caldwell published a viral open letter to Mark Zuckerberg declining the offer and calling out the platform's incentive structure. The letter catalyzed App.net, his subscription-based alternative to advertising-funded social networks."
+    anchor: 'daltons-open-letter-to-mark-zuckerberg'
+  - question: "What is Dalton Caldwell's founder rule: just don't die?"
+    answer: "Caldwell's core advice to founders after thousands of YC office hours was 'just don't die' — stay irrational enough to keep building when numbers say stop, but honest enough to quit if the work is destroying you. He framed irrationality as a feature, not a bug, because great startups look crazy until they don't."
+    anchor: 'daltons-founder-rule-just-dont-die'
 path: src/blog/people/drafts/Dalton-Caldwell.md
 ---
 

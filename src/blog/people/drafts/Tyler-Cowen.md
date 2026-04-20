@@ -27,6 +27,53 @@ content_quality:
   overall: 8.9
   letter: B+
   graded_at: '2026-03-28'
+wikidata_qid: 'Q602278'
+birth_date: '1962-01-21'
+birth_place: 'Bergen County, New Jersey, USA'
+nationality: 'American'
+occupation:
+  - 'Economist'
+  - 'Writer'
+  - 'Blogger'
+  - 'University teacher'
+  - 'Podcaster'
+knows_about:
+  - 'Economics'
+  - 'George Mason University'
+  - 'Marginal Revolution'
+  - 'Emergent Ventures'
+  - 'Economic growth'
+  - 'Cultural economics'
+  - 'Stubborn Attachments'
+keywords:
+  - 'Tyler Cowen enneagram'
+  - 'Tyler Cowen type 5'
+  - 'Tyler Cowen personality'
+  - 'Marginal Revolution blog'
+  - 'George Mason economist'
+  - 'Investigator enneagram'
+  - 'Information monster'
+same_as:
+  - 'https://en.wikipedia.org/wiki/Tyler_Cowen'
+  - 'https://www.wikidata.org/wiki/Q602278'
+  - 'https://twitter.com/tylercowen'
+  - 'https://marginalrevolution.com/'
+  - 'https://www.mercatus.org/tyler-cowen'
+citations:
+  - 'https://en.wikipedia.org/wiki/Tyler_Cowen'
+  - 'https://marginalrevolution.com/'
+  - 'https://www.mercatus.org/scholars/tyler-cowen'
+  - 'https://conversationswithtyler.com/'
+faqs:
+  - question: "What is Tyler Cowen's personality type?"
+    answer: 'Tyler Cowen is an Enneagram Type 5 (The Investigator), specifically the Social Five variant that uses expertise as social currency. The scarcity economy applied to everything, the pre-computed exit from chess, and the emotional conservation that reads as even-tempered serenity all fit the Type 5 architecture integrated toward Type 8.'
+    anchor: 'what-is-tyler-cowens-personality-type'
+  - question: 'How did library trips shape Tyler Cowen?'
+    answer: 'Cowen was born in 1962 in Kearny, New Jersey, a blue-collar town, later moving to Hillsdale. His mother drove him repeatedly to Carnegie and Bergen County libraries; he has said that without those trips he would have been a very different person. The library was the one institution offering unlimited resources to the mind he was building.'
+    anchor: 'the-library-trips-that-built-a-fortress'
+  - question: "What is Tyler Cowen's ethnic dining guide really about?"
+    answer: "For nearly thirty years Cowen has maintained Tyler Cowen's Ethnic Dining Guide covering the D.C., Maryland, and Virginia area. It's not a food blog but an information system built on economic principles — cluster theory, ingredient sourcing, conversational acoustics — treating every restaurant as a data set and every meal as a controlled experiment."
+    anchor: 'the-ethnic-dining-guide-to-the-human-condition'
 path: src/blog/people/drafts/Tyler-Cowen.md
 ---
 

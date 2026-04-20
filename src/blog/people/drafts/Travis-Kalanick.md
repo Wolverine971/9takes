@@ -27,6 +27,49 @@ content_quality:
   overall: 8.8
   letter: 'B+'
   graded_at: '2026-03-21'
+wikidata_qid: 'Q7836291'
+birth_date: '1976-08-06'
+birth_place: 'Los Angeles, California, USA'
+nationality: 'American'
+occupation:
+  - 'Entrepreneur'
+  - 'Businessperson'
+  - 'Investor'
+knows_about:
+  - 'Uber'
+  - 'CloudKitchens'
+  - 'Ride-sharing economy'
+  - 'Ghost kitchens'
+  - 'Startup leadership'
+  - 'Scour'
+  - 'Red Swoosh'
+keywords:
+  - 'Travis Kalanick Enneagram Type 8'
+  - 'Travis Kalanick personality analysis'
+  - 'Uber founder psychology'
+  - 'Type 8 Challenger CEO'
+  - 'Travis Kalanick CloudKitchens'
+  - 'Travis Kalanick Uber ouster'
+  - 'Type 8 stress Type 5'
+same_as:
+  - 'https://en.wikipedia.org/wiki/Travis_Kalanick'
+  - 'https://www.wikidata.org/wiki/Q7836291'
+  - 'https://twitter.com/travisk'
+  - 'https://www.cloudkitchens.com/'
+citations:
+  - 'https://en.wikipedia.org/wiki/Travis_Kalanick'
+  - 'https://www.cloudkitchens.com/'
+  - 'https://www.forbes.com/profile/travis-kalanick/'
+faqs:
+  - question: "What is Travis Kalanick's personality type?"
+    answer: 'Travis Kalanick is an Enneagram Type 8 (The Challenger). His war-metaphor language, inability to process vulnerability in the Whetstone moment, and encoding of Meritocracy and Toe-Stepping as a company value all show an 8 whose engine is fear of helplessness, not appetite for power.'
+    anchor: 'what-is-travis-kalanicks-personality-type'
+  - question: 'What happened during Travis Kalanick eight years of silence?'
+    answer: "After his 2017 ouster from Uber, Kalanick poured $150 million into City Storage Systems and built CloudKitchens into a 400+ location operator across 30 countries, almost entirely without public appearances. The withdrawal is the textbook Type 8 stress arrow toward Type 5's isolation and information hoarding."
+    anchor: 'the-ghost-eight-years-of-silence'
+  - question: "What does Travis Kalanick's atoms and emotional intelligence pivot mean?"
+    answer: 'When Kalanick returned to public life, he spoke about atoms (physical-world software), robotics labs, and needing leadership help — a distinctly softer register than the Uber-era combatant. It maps to a Type 8 integrating toward the healthy qualities of Type 2, discovering that strength can protect rather than dominate.'
+    anchor: 'atoms-and-the-emotional-intelligence-pivot'
 path: src/blog/people/drafts/Travis-Kalanick.md
 ---
 

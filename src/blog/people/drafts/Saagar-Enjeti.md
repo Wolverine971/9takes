@@ -52,7 +52,7 @@ TO REACH A+ (9.5+): (1) Pull exact dialogue from the Hitler book handoff clip (y
 
 <p class="firstLetter">March 2021. First time on Lex Fridman's podcast. About ten minutes in, Saagar Enjeti reaches into his bag and pulls out the second volume of Ian Kershaw's Hitler biography — a 1,000-page study of the Reich's collapse — and hands it to Lex as a gift. Not a signed copy of his own book. Not a bottle of wine. A doorstop history of fascism, delivered with the energy of someone who just found buried treasure and physically cannot keep it to himself.</p>
 
-That gesture tells you more about Saagar Enjeti than a thousand policy monologues. A man who guards his knowledge brings nothing. A man who can't contain his excitement about what he's found brings the heaviest book he owns.
+That gesture tells you more about Saagar Enjeti than a thousand policy monologues — and it's the signature move of an Enneagram Type 7. A man who guards his knowledge brings nothing. A man who can't contain his excitement about what he's found brings the heaviest book he owns.
 
 You've probably seen him behind the Breaking Points desk, rapid-firing through political analysis with encyclopedic recall that makes people assume he's a cerebral introvert. A bookworm. A policy wonk who lives in his head.
 
@@ -71,7 +71,7 @@ They're wrong. What they're actually watching is a man who cannot stop consuming
 
 ---
 
-## A Nine-Year-Old in W. Country
+## Saagar Enjeti at Nine in W. Country
 
 Saagar was born January 1, 1992 in College Station, Texas — home of Texas A&M, deep in George W. Bush country. His parents, Dr. Prasad Enjeti and Dr. Radhika Viruru, are Telugu immigrants from India, both professors at the university. An academic household where books weren't entertainment. They were the infrastructure of daily life.
 
@@ -91,7 +91,7 @@ Most people who absorb that wound at nine years old build walls. They retreat. T
 
 ---
 
-## The Obsession Engine
+## The Type 7 Obsession Engine
 
 Listen to Saagar talk about books and you'll hear something most people mistake for scholarly discipline. It's not discipline. It's hunger.
 
@@ -168,7 +168,7 @@ That's not the playful, expanding energy of Saagar in flow. That's the hard-edge
 
 ---
 
-## Every Platform Was Too Small
+## Every Platform Was Too Small for Saagar
 
 Track the career and the Seven pattern emerges in every move: each step eliminated a constraint.
 
@@ -209,7 +209,7 @@ Seven words that explain an entire career.
 
 ---
 
-## The Crusades
+## The Crusades: Sports Betting, Weed, Epstein
 
 July 8, 2025. Saagar is on the Tucker Carlson Show, ostensibly to discuss Pam Bondi's handling of the Epstein files. Partway through, the cerebral analysis drops away. His voice hardens.
 
@@ -231,7 +231,7 @@ This is what the Seven's fear looks like when it channels outward. The threats k
 
 ---
 
-## The Loyalty Exception
+## The 7w6 Loyalty Exception
 
 For all the Seven's restlessness — the serial obsessions, the expanding platforms, the new crusade every month — the inner circle doesn't rotate.
 

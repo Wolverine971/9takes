@@ -18,6 +18,53 @@ wikipedia: 'https://en.wikipedia.org/wiki/Sam_Altman'
 twitter: 'https://twitter.com/sama'
 instagram: ''
 tiktok: ''
+wikidata_qid: 'Q7407093'
+imdb_id: 'nm10310272'
+birth_date: '1985-04-22'
+birth_place: 'Chicago, Illinois, USA'
+nationality: 'American'
+occupation:
+  - 'Entrepreneur'
+  - 'Programmer'
+knows_about:
+  - 'Artificial intelligence'
+  - 'OpenAI'
+  - 'Y Combinator'
+  - 'Startup funding'
+  - 'AI safety'
+  - 'Worldcoin'
+  - 'AGI'
+keywords:
+  - 'Sam Altman enneagram'
+  - 'Sam Altman type 4'
+  - 'Sam Altman personality'
+  - 'OpenAI CEO'
+  - 'ChatGPT founder'
+  - 'Individualist enneagram'
+  - '4w3 tech founder'
+same_as:
+  - 'https://en.wikipedia.org/wiki/Sam_Altman'
+  - 'https://www.wikidata.org/wiki/Q7407093'
+  - 'https://www.imdb.com/name/nm10310272/'
+  - 'https://twitter.com/sama'
+  - 'https://blog.samaltman.com/'
+  - 'https://openai.com/'
+citations:
+  - 'https://en.wikipedia.org/wiki/Sam_Altman'
+  - 'https://www.britannica.com/money/Sam-Altman'
+  - 'https://www.newyorker.com/magazine/2016/10/10/sam-altmans-manifest-destiny'
+  - 'https://www.forbes.com/profile/sam-altman/'
+  - 'https://blog.samaltman.com/'
+faqs:
+  - question: "What is Sam Altman's personality type?"
+    answer: "Sam Altman is an Enneagram Type 4 with a 3 wing — an sp/so Individualist whose identity project is poured into leadership instead of theatrical moodiness. The $76K salary, the word 'shameful' after being fired, and the lifelong preoccupation with identity (from coming out at 17 to Worldcoin) all converge on Type 4."
+    anchor: 'what-is-sam-altmans-personality-type'
+  - question: "What was Sam Altman's first island: St. Louis, the Macintosh, and a secret?"
+    answer: 'Altman grew up in Clayton, Missouri as the eldest of four in a competitive household. At eight he received an Apple Macintosh LC II that he called a dividing line in his life; growing up gay in the Midwest, AOL chat rooms became a lifeline and technology became the bridge between his secret self and a world where it was allowed.'
+    anchor: 'the-first-island-st-louis-the-macintosh-and-a-secret'
+  - question: 'What happened the night Sam Altman was fired from OpenAI?'
+    answer: "On November 17, 2023, the OpenAI board fired Altman via a Google Meet link while he was watching the Las Vegas Grand Prix. He called it like reading your own eulogy while you're still alive and later described the stretch as chaotic, shameful, and upsetting. Nearly all 800 employees threatened to quit, and he returned within five days."
+    anchor: 'the-night-everything-broke'
 path: src/blog/people/drafts/Sam-Altman.md
 content_quality:
   hook: 9

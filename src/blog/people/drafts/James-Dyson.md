@@ -27,6 +27,44 @@ wikipedia: 'https://en.wikipedia.org/wiki/James_Dyson'
 twitter: ''
 instagram: ''
 tiktok: ''
+wikidata_qid: 'Q1346101'
+birth_date: '1947-05-02'
+birth_place: 'Cromer, Norfolk, United Kingdom'
+nationality: 'British'
+occupation:
+  - 'Industrial Designer'
+  - 'Inventor'
+  - 'Entrepreneur'
+  - 'Engineer'
+knows_about:
+  - 'Industrial design'
+  - 'Cyclonic separation technology'
+  - 'Vacuum cleaner engineering'
+  - 'Product iteration and prototyping'
+  - 'Manufacturing and engineering education'
+  - 'British engineering'
+keywords:
+  - 'James Dyson Enneagram type 1'
+  - 'James Dyson personality'
+  - 'Dyson founder mindset'
+  - 'James Dyson inventor'
+  - 'Dyson cyclone vacuum'
+  - 'Dyson 5127 prototypes'
+  - 'James Dyson Foundation'
+same_as:
+  - 'https://en.wikipedia.org/wiki/James_Dyson'
+  - 'https://www.wikidata.org/wiki/Q1346101'
+  - 'https://www.britannica.com/biography/James-Dyson'
+citations:
+  - 'https://en.wikipedia.org/wiki/James_Dyson'
+  - 'https://www.britannica.com/biography/James-Dyson'
+faqs:
+  - question: "What is James Dyson's personality type?"
+    answer: 'James Dyson presents as an Enneagram Type 1, the Perfectionist. His 15-year, 5,127-prototype journey to perfect the cyclone vacuum reflects the Type 1 drive for correctness, relentless iteration, and an internal standard that refuses to settle for good enough.'
+    anchor: 'what-is-james-dysons-personality-type'
+  - question: 'What did it take James Dyson to invent the cyclone vacuum?'
+    answer: 'Dyson built 5,127 failed prototypes over roughly 15 years before arriving at a working bagless cyclone vacuum. The process nearly bankrupted his family and is the clearest public example of Type 1 endurance applied to industrial design.'
+    anchor: '5127-ways-to-be-wrong'
 path: src/blog/people/drafts/James-Dyson.md
 ---
 

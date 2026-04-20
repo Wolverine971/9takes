@@ -20,7 +20,7 @@ tiktok: ''
 wikidata_qid: 'Q9685'
 imdb_id: 'nm0697740'
 birth_date: '1961-07-01'
-birth_place: 'Sandringham, Norfolk, United Kingdom'
+birth_place: 'Park House, Sandringham, Norfolk, United Kingdom'
 nationality: 'British'
 occupation:
   - 'Humanitarian'

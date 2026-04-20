@@ -30,6 +30,50 @@ production_pretext:
     - regenerate_famous_types
     - image_check
   blockers: []
+wikidata_qid: 'Q76448707'
+birth_date: '1983-08-15'
+birth_place: 'Buston, Sughd Region, Tajikistan'
+nationality: 'Russian-American'
+occupation:
+  - 'Computer scientist'
+  - 'Podcaster'
+  - 'Researcher'
+knows_about:
+  - 'Artificial intelligence'
+  - 'Autonomous vehicles'
+  - 'Deep learning'
+  - 'Human-robot interaction'
+  - 'Long-form interviewing'
+  - 'Brazilian jiu-jitsu'
+  - 'Russian literature'
+keywords:
+  - 'Lex Fridman Enneagram'
+  - 'Lex Fridman Type 5'
+  - 'Lex Fridman personality'
+  - 'Lex Fridman podcast personality'
+  - 'Lex Fridman Investigator'
+  - 'Lex Fridman 5w4'
+  - 'Lex Fridman MIT'
+  - 'Lex Fridman interview style'
+same_as:
+  - 'https://en.wikipedia.org/wiki/Lex_Fridman'
+  - 'https://www.wikidata.org/wiki/Q76448707'
+  - 'https://twitter.com/lexfridman'
+  - 'https://lexfridman.com/'
+citations:
+  - 'https://en.wikipedia.org/wiki/Lex_Fridman'
+  - 'https://lexfridman.com/'
+  - 'https://agelab.mit.edu/'
+faqs:
+  - question: "What is Lex Fridman's personality type?"
+    answer: 'Lex Fridman reads as an Enneagram Type 5 with a Four wing. His one-meal-a-day, single-wardrobe resource conservation plus willingness to sit publicly with melancholy and existential uncertainty tracks the 5w4 Iconoclast.'
+    anchor: 'what-is-lex-fridmans-personality-type'
+  - question: 'How does the body keep the mind honest for Lex Fridman?'
+    answer: 'Fridman holds black belts in Brazilian jiu-jitsu and judo and credits martial arts with pulling him out of anxiety and trauma. For a Five who lives in the mind, the mats are the one place where theory meets reality and reality wins.'
+    anchor: 'the-body-keeps-the-mind-honest'
+  - question: "What is Lex Fridman's idea of a better life?"
+    answer: "Fridman's evenings run on Russian literature, a guitar, one meal, and a nightly meditation on his own death. The question of what a better life looks like is the one he keeps asking guests because he is still asking it of himself."
+    anchor: 'whats-a-better-life'
 path: src/blog/people/drafts/Lex-Fridman.md
 content_quality:
   hook: 9

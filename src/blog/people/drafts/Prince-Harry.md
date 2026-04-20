@@ -21,7 +21,7 @@ tiktok: ''
 wikidata_qid: 'Q152316'
 imdb_id: 'nm1056412'
 birth_date: '1984-09-15'
-birth_place: 'London, England, United Kingdom'
+birth_place: "St Mary's Hospital, London, England, United Kingdom"
 nationality: 'British'
 occupation:
   - 'Military officer'
@@ -49,7 +49,7 @@ same_as:
   - 'https://sussex.com/'
 citations:
   - 'https://en.wikipedia.org/wiki/Prince_Harry,_Duke_of_Sussex'
-  - 'https://www.britannica.com/biography/Prince-Harry-British-prince'
+  - 'https://www.britannica.com/biography/Prince-Harry-duke-of-Sussex'
   - 'https://sussex.com/'
 faqs:
   - question: 'How did Prince Harry choose Meghan — and what does that choice reveal?'

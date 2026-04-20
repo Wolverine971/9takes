@@ -13,17 +13,25 @@
 
 A large share of 9takes signups predate the welcome sequence and have never received any follow-up email. This plan specs a **reactivation / win-back sequence** to re-introduce 9takes, share what's grown, and give dormant users a reason to come back — or a clean way to leave.
 
-### Audience size (current snapshot)
+### Audience size (measured 2026-04-20)
 
-| Source                              | Count    | Notes                                                    |
-| ----------------------------------- | -------- | -------------------------------------------------------- |
-| `profiles` (registered users)       | 136      | Has `created_at`, `first_name`, `enneagram`              |
-| `signups` (email-only, no account)  | 38       | Email list, fewer personalization fields                 |
-| **Total candidates**                | **~174** | Before dedupe + suppression + welcome-sequence exclusion |
-| Already received welcome sequence   | ~10–15   | Exclude from reactivation                                |
-| **Estimated reactivation-eligible** | **~160** |                                                          |
+Run against production via [`reactivation-bucket-breakdown.sql`](./reactivation-bucket-breakdown.sql):
 
-Because the list is small, **deliverability warm-up concerns are minimal** (Gmail API limits are not a constraint at this scale), but **list validation matters more than usual** — a handful of bad addresses is a meaningful complaint-rate percentage on a send of 50–100.
+| Bucket                | Candidates | Age range (days) | Share of campaign |
+| --------------------- | ---------- | ---------------- | ----------------- |
+| **Cold** (30–89d)     | 13         | 36–80            | 8%                |
+| **Dormant** (90–364d) | 66         | 90–361           | 43%               |
+| **Zombies** (365+d)   | 75         | 370–1,147        | 49%               |
+| **Total eligible**    | **154**    | —                | 100%              |
+
+Post-dedupe (profiles wins over signups), post-suppression, post-welcome-enrolled exclusion.
+
+**Implications these numbers create:**
+
+1. **Zombies is the biggest bucket.** ~half the campaign is 365+ day-old addresses, some up to ~3.14 years old. Highest spam-trap probability, highest deliverability risk, highest share of the work.
+2. **Cold (13) is too small to warm up on.** One spam complaint out of 13 = 7.7% rate — you can't get statistically useful engagement signal from it. Cold should not be the first batch.
+3. **Dormant (66) is the actual safe warmup bucket.** Large enough to give signal, recent enough that spam-trap risk is lower than zombies. Hit this first to establish baseline metrics.
+4. **List validation is effectively mandatory, not optional.** If even 5% of zombies are dead addresses, that's 3–4 hard bounces in a single 75-send batch = 5%+ bounce rate = deliverability disaster. At this scale ZeroBounce/NeverBounce costs <$3 total and prevents the campaign from torching your domain reputation on send one.
 
 ### Explicit non-goals
 
@@ -282,12 +290,15 @@ These are **non-negotiable before sending to the 365+ bucket** and strongly reco
 - [ ] **Decide on sending address.** Options:
   - Keep `usersup@9takes.com` (simplest, but any reputation damage affects transactional/welcome sends)
   - Create a separate `hello@9takes.com` or `dj@9takes.com` for reactivation (quarantines reputation risk; recommended)
-- [ ] **Warm-up plan** _(lower-risk at this scale but still worth structuring)_:
-  - Day 1: Cold bucket only (30–90d), 50% of it
-  - Day 2: Remainder of Cold bucket, if complaint rate <0.1%
-  - Day 4: Dormant bucket (90–365d), 50%
-  - Day 5: Remainder of Dormant, if metrics hold
-  - Day 7+: Zombies bucket, only after review
+- [ ] **Batch schedule** _(revised 2026-04-20 — based on actual bucket sizes from `reactivation-bucket-breakdown.sql`: Cold 13, Dormant 66, Zombies 75)_:
+  - **Day 1:** Dormant bucket, first 33 (half). Largest bucket with usable signal; establishes baseline metrics.
+  - **Day 2:** Remaining 33 of Dormant, only if Day 1 complaint rate <0.1% and bounce rate <2%.
+  - **Day 4:** All 13 of Cold (sample too small to split). Confirms systems are healthy before zombies.
+  - **Day 6:** Zombies — **first 25 only** (one-third). Highest-risk bucket; kept small on purpose.
+  - **Day 8:** Zombies second 25, only if Day 6 metrics held.
+  - **Day 10:** Zombies final 25, only if Day 8 metrics held.
+  - **Total campaign enrollment span:** ~10 days to fire Email 1 across all buckets; each enrollee then runs their own ~24-day clock through emails 2–5.
+  - **Rationale for flipping the conventional "start small/cold-first" order:** Cold at 13 is too small to get usable signal from — one complaint = 7.7%, which would force an abort without telling us anything real. Dormant at 66 gives measurable signal (1 complaint = 1.5%). Zombies split across three batches creates multiple abort points, since those are the highest spam-trap-probability addresses (some >3 years old).
 - [ ] **Complaint-rate monitoring cadence.** Check after every batch, not end-of-campaign. Any batch exceeding 0.3% complaints: pause sequence, investigate.
 - [ ] **Set up bounce tracking.** See §8.5. At minimum, scan Gmail API sent-message status after each batch for `550`/`553`/`554` responses and flag those addresses as bounced.
 
@@ -319,3 +330,4 @@ These are **non-negotiable before sending to the 365+ bucket** and strongly reco
 ## 12. Changelog
 
 - **2026-04-18** — Initial draft. Plan spec'd out. Blocked on pre-launch action items (§9).
+- **2026-04-20** — Real bucket counts measured: Cold 13, Dormant 66, Zombies 75 (total 154). §1 updated with actuals + implications. §9 batch schedule flipped to Dormant-first (Cold too small to gate on, Zombies split across 3 sub-batches for abort points).

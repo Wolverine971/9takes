@@ -112,11 +112,9 @@ He hadn't found the right institution yet.
 
 Then he found journalism.
 
-Grim joined HuffPost in January 2009 and became Washington bureau chief by 2010. Over nine years, he built something. Not just a team, but a culture. Under his leadership, HuffPost reporters were twice finalists for the Pulitzer Prize. Dave Wood won one in 2012 for reporting on wounded soldiers' lives after war. Grim edited and contributed to Jason Cherkis's investigation on heroin treatment that was itself a Pulitzer finalist, and that investigation changed federal and state laws around opioid treatment.
+Grim joined HuffPost in January 2009 and was running the Washington bureau by 2010. Over nine years he built not just a team but a culture — the kind that put his reporters on the Pulitzer list twice, including Dave Wood's 2012 win for reporting on wounded soldiers' lives after war, and Jason Cherkis's heroin-treatment investigation that rewrote state and federal opioid law.
 
-"There are few people in political journalism who have Ryan's disposition," his colleague Sam Stein said when he left. "He is preternaturally calm, kind, and friendly."
-
-HuffPost editor-in-chief Lydia Polgreen called him "one of the most authoritative voices in Washington" whose specialty was "giving voice to the voiceless." Stein added: "He's also an incredible mentor and colleague. He wanted reporters to feel empowered, to find their own stories and to experiment and push boundaries."
+"There are few people in political journalism who have Ryan's disposition," his colleague Sam Stein said when Grim left. "He is preternaturally calm, kind, and friendly."
 
 <div class="pull-quote">
 "Hard to overstate Ryan Grim's effect on HuffPost in building up and leading the DC operation."
@@ -146,7 +144,13 @@ He didn't flinch. The same principle that drove the Kavanaugh reporting drove th
 
 "The investigations into the validity of Tara Reade's undergraduate degree demolished her ability to be heard," he said later. Whether Reade's allegations were true or not, Grim's point was about the mechanism: was the system applying its own standards fairly?
 
-The left burned him for it. He kept going — not from certainty, but from the opposite. Grim is visibly prone to public updating when the evidence shifts under him. Years earlier, he had publicly apologized to Nate Silver for underestimating uncertainty in his own election analysis: "You were right that there was far more uncertainty than we were accounting for." The journalist who confronts doesn't usually apologize. The journalist who apologizes doesn't usually confront. Grim does both, and the same engine drives both moves. If the system is lying, say so. If you are the one who was wrong, say that too. The audit has to apply in both directions or it isn't really an audit.
+The left burned him for it. He kept going — not from certainty, but from the opposite.
+
+## The Audit That Runs Both Ways
+
+Years earlier, Grim had publicly apologized to Nate Silver for underestimating uncertainty in his own election analysis: "You were right that there was far more uncertainty than we were accounting for."
+
+The journalist who confronts doesn't usually apologize. The journalist who apologizes doesn't usually confront. Grim does both, and the same engine drives both moves. If the system is lying, say so. If you are the one who was wrong, say that too. The audit has to apply in both directions or it isn't really an audit.
 
 ## What is Ryan Grim's Personality Type?
 
@@ -157,8 +161,6 @@ Most people see Grim as a progressive advocate journalist, someone whose politic
 [Type 6s](/enneagram-corner/enneagram-type-6) in the Enneagram are driven by a core need to assess whether the systems and people around them can be trusted. They scan for danger. They stress-test claims. They build alliances with the people they trust and challenge the people they don't, not from ideology but from an awareness that the ground can shift without warning.
 
 Grim fits the type in the way that matters most: he fights while visibly uncertain. He'll publish the explosive story and then publicly update his priors when the evidence shifts. He prefaces his most damaging article with a confession that he's the wrong messenger to deliver it. He stays loyal to the people inside his circle for years before the confrontation comes. That combination — adversarial posture, principled self-doubt, long-memory loyalty — is what separates a Six from the nearby types in the gut triad.
-
-Sixes don't abandon. They stress-test. And they fight hardest for the people inside their circle of trust.
 
 <details class="enneagram-rabbit-hole">
 <summary class="accordion">Enneagram Rabbit Hole: Wings, Subtypes &amp; Connecting Lines for Ryan Grim</summary>
@@ -174,11 +176,9 @@ The 5-wing also explains the composure. Sam Stein's "preternaturally calm" obser
 
 ### Ryan Grim's Instinctual Subtype: so/sx
 
-Grim reads as social-dominant with a sexual secondary — the "duty" flavor of 6. Social 6s are the subtype most invested in the health of the tribe, the movement, the institution that's supposed to protect people. The ideological weight of his reporting isn't random; it's a gut-level investment in whether the progressive project is actually doing its job, paired with the willingness to betray it tactically to save it strategically. That's the so-6 signature: loyalty routed through auditing.
+Grim reads as social-dominant with a sexual secondary — the "duty" flavor of 6. Social 6s invest at a gut level in the health of the tribe, then remain willing to betray it tactically to save it strategically. That's the so-6 signature: loyalty routed through auditing.
 
-The sexual secondary shows up in the counterphobic spikes. Confronting Watters. Publishing the progressive-meltdowns piece knowing it would nuke relationships with movement allies. Breaking the Tara Reade story in an election year when the personal cost was obvious. A pure social 6 would stay inside the group's mood; the sx-secondary is what makes him willing to walk straight into the collision.
-
-Self-preservation reads last. He's not the journalist who optimizes for his own safety or salary. He's the one who leaves HuffPost for The Intercept, then tries to rescue The Intercept, then launches a nonprofit newsroom with no billionaire patron. Sp-last 6s routinely bet their stability on the mission.
+The sexual secondary shows up in the counterphobic spikes — confronting Watters, torching the progressive meltdowns, breaking Tara Reade in an election year when the personal cost was obvious. A pure social 6 stays inside the group's mood; the sx-secondary walks straight into the collision. Self-preservation reads last: Sp-last 6s routinely bet their stability on the mission, which is exactly what leaving HuffPost for The Intercept, then trying to rescue The Intercept, then launching a nonprofit newsroom with no billionaire patron actually looks like from the outside.
 
 ### Stress and Growth Arrows
 
@@ -252,7 +252,7 @@ Daily reporting is how a Six checks individual joints in the structure. Book-wri
 
 _We've Got People: From Jesse Jackson to AOC, the End of Big Money and the Rise of a Movement_ (2019) traces progressive populism from Jesse Jackson's 1988 Rainbow Coalition through Bernie Sanders's campaigns to Ocasio-Cortez's upset in 2018. The title comes from AOC's campaign, and the thesis is that movements aren't built by charismatic individuals but by the people who do the unglamorous work of organizing, fundraising, and challenging party structures from within. One of the few white progressives to endorse Jackson's campaign early, Grim notes, was Burlington Mayor Bernie Sanders. The thread runs thirty years.
 
-_The Squad: AOC and the Hope of a Political Revolution_ (2023, Henry Holt) picks up where the first book ends. It covers AOC, Rashida Tlaib, Ilhan Omar, Ayanna Pressley, Jamaal Bowman, and Cori Bush from 2015 to the 2022 midterms. The book documents how AIPAC offered Ocasio-Cortez $100,000 just for a meeting after her first election, "with much more than that to come," and how the lobby's money came with "an implicit threat" that it would be spent against anyone who turned it down. Kirkus called it "an insider's often dismaying picture of national politics." Semafor named it the best political book of 2023.
+_The Squad_ (2023) picks up where the first book ends, following AOC, Rashida Tlaib, Ilhan Omar, Ayanna Pressley, Jamaal Bowman, and Cori Bush from 2015 through the 2022 midterms. The signature revelation: AIPAC offered Ocasio-Cortez $100,000 just for a meeting after her first election, "with much more than that to come" — money that arrived with "an implicit threat" it would be spent against anyone who turned it down. Semafor named it the best political book of 2023.
 
 Single articles expose a failure. Book-length arguments map how the whole system produces those failures. That's the work of someone who needs the full blueprint in his head before he'll trust his own reporting on any single room.
 

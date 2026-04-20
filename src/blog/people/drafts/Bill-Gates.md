@@ -18,6 +18,52 @@ wikipedia: 'https://en.wikipedia.org/wiki/Bill_Gates'
 twitter: 'BillGates'
 instagram: 'thisisbillgates'
 tiktok: ''
+wikidata_qid: 'Q5284'
+imdb_id: 'nm0309540'
+birth_date: '1955-10-28'
+birth_place: 'Seattle, Washington, USA'
+nationality: 'American'
+occupation:
+  - 'Computer programmer'
+  - 'Business magnate'
+  - 'Philanthropist'
+  - 'Investor'
+knows_about:
+  - 'Microsoft'
+  - 'Bill & Melinda Gates Foundation'
+  - 'Software engineering'
+  - 'Global public health'
+  - 'Philanthropy'
+  - 'Climate change'
+  - 'Antitrust law'
+keywords:
+  - 'Bill Gates Enneagram Type 5'
+  - 'Bill Gates personality analysis'
+  - 'Microsoft founder psychology'
+  - 'Type 5 Investigator CEO'
+  - 'Bill Gates childhood'
+  - 'Gates Foundation philanthropy'
+  - 'Bill Gates leadership style'
+same_as:
+  - 'https://en.wikipedia.org/wiki/Bill_Gates'
+  - 'https://www.wikidata.org/wiki/Q5284'
+  - 'https://www.imdb.com/name/nm0309540/'
+  - 'https://twitter.com/BillGates'
+  - 'https://www.gatesnotes.com/'
+citations:
+  - 'https://en.wikipedia.org/wiki/Bill_Gates'
+  - 'https://www.gatesfoundation.org/'
+  - 'https://www.britannica.com/biography/Bill-Gates'
+faqs:
+  - question: "How did Bill Gates's childhood make him an Investigator?"
+    answer: "Born October 28, 1955 in Seattle to a lawyer father and a board-serving mother, young Gates devoured encyclopedias, preferred solitary pursuits, and told a psychologist at age 11 that he was at war with his parents. His parents' decision to give him mental space mirrored the Type 5 boundary in action."
+    anchor: 'the-making-of-an-investigator-gates-childhood'
+  - question: 'How did Bill Gates go from Harvard dropout to Microsoft mastermind?'
+    answer: "Gates left Harvard in 1975 to co-found Microsoft with Paul Allen, betting early that software, not hardware, would define personal computing. The decision reflects the Type 5's conviction that deep knowledge plus decisive deployment can reshape an entire industry."
+    anchor: 'from-harvard-dropout-to-microsoft-mastermind'
+  - question: 'What are the Gates Foundation years about?'
+    answer: 'After stepping back from Microsoft, Gates channeled decades of compounded expertise into the Bill & Melinda Gates Foundation, which he has pledged will give away the vast majority of his wealth. It marked the arc from Type 5 knowledge-hoarding to knowledge-deployment at global scale.'
+    anchor: 'when-knowledge-becomes-action-the-gates-foundation-years'
 path: src/blog/people/drafts/Bill-Gates.md
 content_quality:
   hook: 8.5

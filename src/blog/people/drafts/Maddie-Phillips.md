@@ -6,7 +6,7 @@ description: 'Maddie Phillips keeps playing characters who have lost themselves.
 author: 'DJ Wayne'
 date: '2026-04-18'
 loc: 'https://9takes.com/personality-analysis/Maddie-Phillips'
-lastmod: '2026-04-18'
+lastmod: '2026-04-20'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
@@ -40,13 +40,9 @@ content_quality:
 path: src/blog/people/drafts/Maddie-Phillips.md
 ---
 
-> "I do remember feeling not like a woman, not like a person, which was quite jarring. You just sort of become a thing with skin."
-
 <p class="firstLetter">Maddie Phillips has lived in three different versions of her own life before she turned twenty.</p>
 
-Born in Vancouver. Uprooted to Perth, Western Australia at ten, to live near her mother's family. Sent back to Vancouver at seventeen, alone, to pursue the career she had already decided on when she was six. By the time she auditioned for her breakout role — Sterling Wesley, a Christian cheerleader with a secret life in _Teenage Bounty Hunters_ — she had been a different person in two hemispheres and had spent nearly eight years auditioning for anyone who would see her.
-
-You can hear it when she talks about her work. She doesn't describe acting the way image-conscious young stars do, the way achievement-coded actresses narrate their hustle. She describes it the way someone describes a haunting.
+Vancouver, then Perth, then Vancouver again — a Canadian father, an Australian mother, a six-year-old's decision to be an actress, and a seventeen-year-old's decision to cross the Pacific alone to act on it. You can hear the whole of it when she talks about her work. She doesn't describe acting the way image-conscious young stars do, the way achievement-coded actresses narrate their hustle. She describes it the way someone describes a haunting.
 
 On grief: "It's something that paralyzes you."
 
@@ -68,8 +64,7 @@ That is not an accident. That is a [Type 4](/enneagram-corner/enneagram-type-4) 
 <ul>
 <li><b>The type:</b> Enneagram 4w5 — the Individualist with a Five wing, sometimes called the Bohemian. Withdrawn, intellectual, emotionally precise, drawn to depth and melancholy rather than spectacle.</li>
 <li><b>The core tension:</b> Phillips is shy in a profession that demands visibility. Her answer is to keep disappearing into characters who are themselves trying to disappear — or to be seen for the first time.</li>
-<li><b>The long apprenticeship:</b> She debuted at nineteen in a forgotten 2013 film, then spent seven years in single-episode TV arcs and small TV movies before Sterling Wesley. The fainting wasn't the shock of sudden success. It was a body letting go of eight years of held breath.</li>
-<li><b>The role pattern:</b> Every major character she plays is a young woman asking "who am I, actually?" Sterling the double-life cheerleader. Cate the shape-shifting power user. The question isn't Cate's or Sterling's. It's hers.</li>
+<li><b>The role pattern:</b> Sterling Wesley in <i>Teenage Bounty Hunters</i>. Cate Dunlap in <i>Gen V</i>. Both young women with no clean answer to who they are. An actor who keeps circling the same question is usually asking it about herself.</li>
 <li><b>The evidence in the margins:</b> Ten years of soccer. A High Distinction from LAMDA. An early acceptance to a Vancouver acting conservatory she walked away from. A habit of naming her own emotional weather — panic, numb, daunting — in print, without softening it.</li>
 </ul>
 </div>
@@ -85,7 +80,7 @@ The evidence is in how she narrates her inner world — and whose inner worlds s
 
 **She's drawn to the inside of the wound, not the outside.** In her longest interview about Cate, Phillips dismisses the surface markers of her character's damage — the lost arm, the shaved head — with a sentence that reads like a Type 4 manifesto: "Her life isn't that different without an arm, her life isn't that different without her hair. That's not the problem. The problem is within, and that's harder to address." The visible damage doesn't interest her. The invisible kind does.
 
-**The roles are a confession.** Sterling Wesley is a girl trying to figure out who she is behind the Christian girl the world sees. Cate Dunlap, per Phillips herself, "doesn't even know" who she is. Phillips didn't just play these characters. She chose them, returned to them, stayed with them across seasons. An actor who keeps circling the same question is usually asking it about herself.
+**The roles are a confession.** Sterling Wesley is a girl trying to figure out who she is behind the Christian girl the world sees. Cate Dunlap, by Phillips's own read, hasn't figured out who she is either. Phillips didn't just play these characters. She chose them, returned to them, stayed with them across seasons. An actor who keeps circling the same question is usually asking it about herself.
 
 **She's Fiveish, not Threeish.** The 4w5 wing shows in her remove. She isn't chasing magazine covers, it-girl runway moments, or the launch-your-brand energy of a 4w3. She books challenging character work on prestige streaming shows and lets the work speak. She talks philosophy in interviews, unprompted — "Navigating our free will and the free will of others is kinda the point of it all, I think" — in the way a [Type 5](/enneagram-corner/enneagram-type-5)-wing Four does when an interviewer asks a normal question and she answers a bigger one.
 
@@ -122,6 +117,8 @@ It is the exact formative arc that tends to produce Fours who become artists: no
 <li><b>2020:</b> Breaks out as Sterling Wesley in <i>Teenage Bounty Hunters</i>. Faints the night she finds out. Netflix cancels the show after one season.</li>
 <li><b>2021–2022:</b> One small indie (<i>Four Walls</i>). Waits.</li>
 <li><b>2023:</b> Cate Dunlap on <i>Gen V</i>. The story everyone thinks started in 2020 actually started ten years earlier.</li>
+<li><b>2025:</b> Returns for <i>Gen V</i> season two. Walks a San Diego Comic-Con panel and calls it, in print, "stimulating yet initially daunting."</li>
+<li><b>2026:</b> <i>Gen V</i> season three unconfirmed. Two smaller films reported in post-production.</li>
 </ul>
 </div>
 
@@ -137,27 +134,47 @@ Then, at twenty-five, she got the call about Sterling. She fainted.
 
 "I literally fainted the night I found out 'cause I was so overwhelmed." That is not the reaction of someone for whom the lead role is a logical next step after a viral post. That is the body of a person who has been auditioning, losing, auditioning, losing — and has finally been picked for something that matters, with no template for the right response.
 
-**Sterling Wesley** in _Teenage Bounty Hunters_, Kathleen Jordan and Jenji Kohan's 2020 Netflix series, was a Christian cheerleader at a conservative Georgia private school. In the show's first scene, she's losing her virginity in a truck while explaining, "It's totally fine. God loves us, no matter what." Publicly one thing, privately another; the show's whole engine is which version is real. On the last day of filming, Phillips, Fellini, and Jordan got matching tattoos. A year later, Netflix canceled the show. The show is gone. The ink is permanent. That is exactly the kind of artifact a Four would not regret getting even after the loss. Especially after the loss.
+**Sterling Wesley** in _Teenage Bounty Hunters_, Kathleen Jordan and Jenji Kohan's 2020 Netflix series, was a Christian cheerleader at a conservative Georgia private school. In the show's first scene, she's losing her virginity in a truck while explaining, "It's totally fine. God loves us, no matter what." Publicly one thing, privately another; the show's whole engine is which version is real. On the last day of filming, Phillips, Anjelica Bette Fellini, and showrunner Kathleen Jordan got matching tattoos. The show aired in August 2020. Netflix canceled it in October. The ink stayed.
 
 Then came the wait.
 
 Most pieces about Phillips skip over 2021 and 2022, because there is not much to narrate. A tiny indie called _Four Walls_. Nothing that lands. For a Four who had just had a dream role publicly erased, two years of waiting is not a biographical footnote. It is a character-forming period. She did not pivot into influencer work or launch a podcast. She did the thing Fours do when the thing they loved disappears: she stayed inside the loss and kept working.
 
-**Cate Dunlap** in _Gen V_ and its parent show _The Boys_ arrived in 2023. Cate's superpower, in Phillips's description, is "coercion via touch" — she can plant an idea in anyone's head and make them believe it's their own. In season one, she turns out to be a plant, a villain. In season two, she has lost her arm, her hair, and her certainty about which side she was ever on. Phillips's summary: "The question of who Cate is, I think, is one that she doesn't even know."
+**Cate Dunlap** in _Gen V_ and its parent show _The Boys_ arrived in 2023. Cate's superpower, in Phillips's description, is "coercion via touch" — she can plant an idea in anyone's head and make them believe it's their own. In season one, she turns out to be a plant, a villain. In season two, she has lost her arm, her hair, and her certainty about which side she was ever on.
 
 > "Cate has no clue who she is, so she's a blank canvas, honey. She can be whatever she wants."
 
 The warmth in that line — _honey_, aimed at a shape-shifting villain — is the real giveaway. Phillips isn't judging Cate. She's rooting for her. And it shows in the acting. Across two seasons Cate has been a hero, a villain, a double agent, a victim of medical torture, a traitor, a grieving friend. A [Type 3](/enneagram-corner/enneagram-type-3) actress would play that as a set of distinct arcs, each landing cleanly. A Type 5 actress would play the intellectual architecture of it. A Type 7 actress would undermine the horror with charm.
 
-Phillips plays it as a single, wounded, unresolved consciousness watching herself do things she partially understands and partially doesn't, all at once.
+Phillips plays it as a single, wounded, unresolved consciousness watching herself do things she partially understands and partially doesn't, all at once. Watch her in the aftermath of Andre's death in season two: the brain-glitch she described in interviews shows up on her face as a kind of stunned, lowered stillness. She does not oversell. The camera has to come to her, because she does not come to the camera.
 
 That is exactly the Four's first-person experience of being a person in the world. She didn't have to build it. She had it already.
 
 ---
 
+## Sterling, April, and the Fans Who Refused to Let It End
+
+_Teenage Bounty Hunters_ had a premise. It had a fandom because of something else.
+
+Mid-season, Sterling falls for April Stevens — a devout, closeted debate rival. The arc wasn't in the original pitch. Phillips has said that early on she suggested Sterling might be bisexual; Kathleen Jordan told her no. Then, partway through the season, Jordan texted: _hey, I had to lie to you before, but here you go._ The April script followed. Phillips's own words on reading it: it "made me lose my mind."
+
+You can hear, in that phrase, what it means to a Four to be let in on something after being told no. It isn't relief. It's recognition.
+
+The show aired in August 2020. Netflix canceled it in October. The fandom, most of it queer and mostly young, did not take it quietly. A Change.org petition crossed thirty thousand signatures. Fans organized a letter campaign around Sour Patch Kids — a reference to the finale's title, _Something Sour Patch_ — mailing boxes of candy to Netflix headquarters; the brand's own account joined in on Twitter. _The Advocate_ wrote that the "friends-to-enemies-to-lovers story between Sterling and April" was now "woefully unfinished."
+
+Phillips's grief over the cancellation, in interviews afterward, wasn't about the career setback. It was about the interior she never got to play. In her Collider exit interview:
+
+> "I would love to see Sterling explore her sexuality more, now that she knows she has a thing for girls. I would love to see that explored more because it's such a new thing for her."
+
+That sentence is about an inner life, not a contract. Sterling never got to become the person the ending was pointing toward. For a Four, the loss is never the show. It's the character being stuck.
+
+---
+
 ## "A Thing With Skin": What the Work Actually Costs Her
 
-The line we opened with came from a 2025 Variety interview about an episode of _Gen V_ season two in which Cate is stripped, medically examined, and dehumanized by villains who want to study her. Phillips was describing the difficulty of filming those scenes. What she actually said is worth sitting with: she "wasn't looking for costumes or the intimacy coordinator," and she "didn't feel like a woman, not like a person, which was quite jarring."
+In a 2025 Variety interview about an episode of _Gen V_ season two — the one where Cate is stripped, medically examined, and dehumanized by villains who want to study her — Phillips was asked how filming those scenes had felt. She said she "wasn't looking for costumes or the intimacy coordinator," and then she said this:
+
+> "I do remember feeling not like a woman, not like a person, which was quite jarring. You just sort of become a thing with skin."
 
 Read that carefully. She is describing a professional experience — the awkwardness of prolonged medical-exam-style filming — and her body skipped past "uncomfortable" and landed on _not a person_.
 
@@ -187,6 +204,8 @@ Phillips doesn't broadcast herself. She has a modest Instagram presence, no memo
 
 **The Finsta friendship.** When she met Anjelica Bette Fellini, cast as her twin sister on _Teenage Bounty Hunters_, the two bonded over having nearly identical Finstas — the secret, unpolished, too-honest private Instagram accounts that serve as a confessional outlet for a generation. Phillips called this "best friends" territory: "As soon as you get accepted into somebody's Finsta, you're best friends, right?" A Four gives you a real invitation or she gives you nothing. Letting someone into the ugly private feed is, for her, the actual threshold of trust.
 
+The friendship held after the show went away. Within weeks of the cancellation, the two hopped on a joint Instagram Live. They kept turning up in each other's press — BuzzFeed, MTV, a string of podcasts — long after any studio publicist was paying them to. Fellini later described the matching tattoos, in a 2020 interview, as "a little bit of a bonding thing." They are still there.
+
 **The tampons.** In a 2020 interview about Sterling's sexual frankness, Phillips casually surfaced her own girlhood: "I remember, growing up, I was afraid of people noticing me taking out tampons from my bag." Most actresses asked about a sex-positive character would pivot to empowerment-speak. Phillips remembered the specific physical shame of being fifteen and not wanting anyone to see her hand. It is the tiny, precise, slightly humiliating memory a Four reaches for instead of the press-kit answer.
 
 **The therapist.** Asked about Cate, Phillips delivered the most telling one-liner she has given in any interview:
@@ -205,6 +224,16 @@ A Four says this only after she has been harsh with herself long enough to have 
 
 ---
 
+## The Things That Aren't Evidence
+
+Ten years of soccer. High Distinction from LAMDA. The conservatory she got into and walked away from. The hikes. The specific shade of attention she gives to Nayyirah Waheed's poetry, years on. A tattoo from a show that got canceled, which she didn't cover.
+
+None of that proves she's a Four. Most of it just proves she's a person who kept the receipts. Typing is a useful lens. It isn't a complete one — and a Four, of all people, would flinch at being reduced to a number.
+
+She is that, also. She is other things.
+
+---
+
 ## The Quiet Part, Said Out Loud
 
 Maddie Phillips has given the audience exactly one sentence that explains her whole career, and almost no one has noticed it, because it was buried in a feature about a photoshoot.
@@ -215,37 +244,6 @@ When asked about her creative inspiration, she said this:
 
 A Four is someone for whom _home_ is usually not a place. It is a feeling that arrives unexpectedly when a piece of art, a song, a room, or — yes — a script matches the inside of her in a way the actual world usually doesn't. Home is not Vancouver. It is not Perth. It is what happens when she reads something and, for one moment, stops being the girl between hemispheres.
 
-She has been looking for that feeling her whole career. The roles she keeps choosing are the ones that give it to her most consistently. Sterling gave it to her. Cate, improbably, has given it to her again.
+She has been looking for that feeling her whole career. The roles she keeps choosing are the ones that give it to her most consistently. Sterling gave it to her. Cate, improbably, has given it to her again — ending _Gen V_'s second season as a fugitive, still unresolved, with a third season as of this writing unconfirmed. Two smaller films sit in post-production. Another girl who doesn't know who she is yet will come along.
 
 She keeps playing girls who don't know who they are because, when the cameras are rolling, that is the only time she knows exactly who she is.
-
-<!-- COPYWRITING PASS COMPLETE
-Titles: meta_title tightened from 66 to 56 chars for SEO; evergreen title and persona title passed
-Hook: passed — specific and falsifiable opening
-Key claims: passed — thesis "Type 4 problem wearing an acting career as a solution" is sharp and specific
-Headings: passed — mix of signature headings and search-intent phrasing; all person-specific
--->
-
-<!-- REVIEWER NOTES
-- Type confidence: high. 4w5 is the call; 4w3 possible given professional persistence but tenor of interviews leans Five-wing.
-- Research sources: Variety, Hollywood Reporter, The Wrap, Collider, Hollywood Life, Bustle, PhotoBook Magazine, IMDb bio, Wikipedia.
-- Verified 2026-04-18: Instagram handle is themaddiep (~444K followers); maddiephillipss was incorrect in prior draft.
-- Possible follow-up research: her relationship status, any recent statements about family, transcript pulls from One Take, Dial M For Movies, Late Night Scrolling podcast appearances.
--->
-
-<!-- FRESH EYES REVIEW (2026-04-18) — ADDRESSED
-Changes applied:
-- Instagram handle corrected: maddiephillipss → themaddiep (verified 444K followers)
-- Pre-Sterling grind added as dedicated beat (Supernatural, Project Mc2, Ghost Wars, Van Helsing, TV movies); fainting now framed as release of eight years of held breath
-- Soccer (10 yrs), singing, writing, photography, Nayyirah Waheed integrated into childhood section — widens the Four-kid portrait and strengthens 4w5 wing argument
-- ASAS program at Capilano added: she got in, then walked away to sign with an agency (sharper 17-yr-old-alone beat)
-- 2021–2022 gap after Teenage Bounty Hunters cancellation named and dwelt on; Four Walls indie acknowledged; merged into Cate arc
-- Matching tattoos moved into the Sterling/TBH paragraph where they pay off the cancellation
-- "Between worlds" reduced from 5+ hits to 2; "A Four does X" labeling cut back
-- Fainting duplicated placement consolidated into the TBH arc
-- Comic-Con beat merged into "Thing With Skin" section instead of standing alone
-- Cut "Role She Still Wants" (Harley Quinn/period/stage) — weakest section, pure speculation
-- Merged "Why Cate Was Role of a Lifetime" into the main "Why She Plays Girls..." section; Type 3/5/7 contrast preserved
-- Merged "Fainting, the Finsta" and "Therapist" into single "Small Moments" section
-- Section count: 10 → 6 headed sections
--->

@@ -52,7 +52,7 @@ same_as:
 citations:
   - 'https://en.wikipedia.org/wiki/Abraham_Lincoln'
   - 'https://millercenter.org/president/lincoln'
-  - 'https://www.whitehouse.gov/about-the-white-house/presidents/abraham-lincoln/'
+  - 'https://home.nps.gov/abli/planyourvisit/lincolnbio.htm'
 faqs:
   - question: "What is Abraham Lincoln's personality type?"
     answer: "Lincoln's pattern — absorbing opposition into a cabinet, metabolizing anger through unsent letters, holding the Union together through quiet, inclusive persistence — reads as Enneagram Type 9, the Peacemaker: the personality built to merge with others, hold contradictions without collapsing, and use patience as power."

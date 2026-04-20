@@ -27,6 +27,52 @@ content_quality:
   overall: 8.5
   letter: 'B+'
   graded_at: '2026-03-23'
+wikidata_qid: 'Q335552'
+imdb_id: 'nm4263038'
+birth_date: '1976-11-19'
+birth_place: 'St. Louis, Missouri, USA'
+nationality: 'American'
+occupation:
+  - 'Software engineer'
+  - 'Internet entrepreneur'
+  - 'Business executive'
+  - 'Philanthropist'
+knows_about:
+  - 'Twitter'
+  - 'Block, Inc.'
+  - 'Square'
+  - 'Bitcoin'
+  - 'Decentralized protocols'
+  - 'Vipassana meditation'
+  - 'Bluesky and Nostr'
+keywords:
+  - 'Jack Dorsey Enneagram Type 5'
+  - 'Jack Dorsey personality analysis'
+  - 'Twitter founder psychology'
+  - 'Type 5 Investigator CEO'
+  - 'Jack Dorsey Bitcoin'
+  - 'Jack Dorsey Block Square'
+  - 'Jack Dorsey meditation'
+same_as:
+  - 'https://en.wikipedia.org/wiki/Jack_Dorsey'
+  - 'https://www.wikidata.org/wiki/Q335552'
+  - 'https://www.imdb.com/name/nm4263038/'
+  - 'https://twitter.com/jack'
+  - 'https://block.xyz/'
+citations:
+  - 'https://en.wikipedia.org/wiki/Jack_Dorsey'
+  - 'https://block.xyz/'
+  - 'https://www.forbes.com/profile/jack-dorsey/'
+faqs:
+  - question: "What is Jack Dorsey's personality type?"
+    answer: "Jack Dorsey is an Enneagram Type 5 (The Investigator). His ideal of a CEO who doesn't have to decide, his protocol-over-company instinct, and his minimalism as resource conservation all point to a Five operating on an economy of scarcity of self."
+    anchor: 'what-is-jack-dorseys-personality-type'
+  - question: "What was Jack Dorsey's 117 mosquito bites in a cave?"
+    answer: 'For his 2018 birthday, Dorsey did a ten-day silent Vipassana retreat in Pyin Oo Lwin, Myanmar, and counted 117 mosquito bites after one cave meditation. He reported it as a data point, not a complaint — the Type 5 relationship to sensation as information.'
+    anchor: '117-mosquito-bites-in-a-cave'
+  - question: 'Why does Jack Dorsey want Twitter to be a protocol?'
+    answer: "Dorsey has said Twitter's original sin was becoming a company rather than an open protocol, and has since funded Bluesky and championed Nostr. For a Type 5, a protocol is utopia: it can't be owned and doesn't demand the scarce personal energy that leadership requires."
+    anchor: 'the-protocol-that-should-have-been'
 path: src/blog/people/drafts/Jack-Dorsey.md
 ---
 

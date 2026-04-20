@@ -27,6 +27,51 @@ content_quality:
   overall: 8.8
   letter: 'B+'
   graded_at: '2026-03-28'
+wikidata_qid: 'Q19837'
+imdb_id: 'nm0423418'
+birth_date: '1955-02-24'
+birth_place: 'San Francisco, California, USA'
+nationality: 'American'
+occupation:
+  - 'Entrepreneur'
+  - 'Business magnate'
+  - 'Designer'
+  - 'Inventor'
+knows_about:
+  - 'Apple Inc.'
+  - 'Pixar Animation Studios'
+  - 'NeXT'
+  - 'Industrial design'
+  - 'Personal computing'
+  - 'Zen Buddhism'
+  - 'Product marketing'
+keywords:
+  - 'Steve Jobs Enneagram Type 1'
+  - 'Steve Jobs personality analysis'
+  - 'Steve Jobs perfectionist'
+  - 'Apple founder psychology'
+  - 'Type 1 Perfectionist CEO'
+  - 'Steve Jobs and Lisa Brennan'
+  - 'Steve Jobs Zen Buddhism'
+same_as:
+  - 'https://en.wikipedia.org/wiki/Steve_Jobs'
+  - 'https://www.wikidata.org/wiki/Q19837'
+  - 'https://www.imdb.com/name/nm0423418/'
+  - 'https://www.apple.com/'
+citations:
+  - 'https://en.wikipedia.org/wiki/Steve_Jobs'
+  - 'https://www.apple.com/stevejobs/'
+  - 'https://www.britannica.com/biography/Steve-Jobs'
+faqs:
+  - question: "What is Steve Jobs' personality type?"
+    answer: "Steve Jobs is an Enneagram Type 1 (The Perfectionist) with a 9 wing. His binary moral reasoning, moral-outrage anger, and pursuit of invisible standards even when no audience existed all point to the 1's inner critic rather than the Type 3 Achiever's audience-driven performance."
+    anchor: 'what-is-steve-jobs-personality-type'
+  - question: 'Why did Steve Jobs deny Lisa for years?'
+    answer: "Jobs filed a sworn statement claiming he was sterile despite a DNA test showing 94.41% probability of paternity, yet he named the Apple Lisa computer after his daughter. For a Type 1, the product could be claimed as a private standard while the person represented a moral failing he couldn't acknowledge."
+    anchor: 'why-steve-jobs-denied-lisa-for-years'
+  - question: "What did Steve Jobs's final words reveal?"
+    answer: "Jobs's reported final words, 'Oh wow. Oh wow. Oh wow,' stand in contrast to a life spent prosecuting imperfection. They suggest a Type 1 who, at the end, briefly released the inner critic and integrated toward Type 7's capacity for wonder."
+    anchor: 'steve-jobss-final-words-and-what-they-revealed'
 path: src/blog/people/drafts/Steve-Jobs.md
 ---
 

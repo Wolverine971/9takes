@@ -18,6 +18,49 @@ wikipedia: 'https://en.wikipedia.org/wiki/Sundar_Pichai'
 twitter: 'sundarpichai'
 instagram: ''
 tiktok: ''
+wikidata_qid: 'Q3503829'
+birth_date: '1972-06-10'
+birth_place: 'Madurai, Tamil Nadu, India'
+nationality: 'Indian-American'
+occupation:
+  - 'Computer scientist'
+  - 'Technology entrepreneur'
+  - 'Chief executive officer'
+knows_about:
+  - 'Google'
+  - 'Alphabet Inc.'
+  - 'Chrome browser'
+  - 'Android operating system'
+  - 'Artificial intelligence'
+  - 'Search engine technology'
+  - 'Antitrust law'
+keywords:
+  - 'Sundar Pichai Enneagram'
+  - 'Sundar Pichai Type 9'
+  - 'Sundar Pichai personality'
+  - 'Google CEO personality'
+  - 'Sundar Pichai Peacemaker'
+  - 'Sundar Pichai leadership'
+  - 'Alphabet CEO Enneagram'
+  - 'Sundar Pichai harmony'
+same_as:
+  - 'https://en.wikipedia.org/wiki/Sundar_Pichai'
+  - 'https://www.wikidata.org/wiki/Q3503829'
+  - 'https://twitter.com/sundarpichai'
+citations:
+  - 'https://en.wikipedia.org/wiki/Sundar_Pichai'
+  - 'https://www.investopedia.com/articles/investing/090815/look-sundar-pichai-googles-new-ceo.asp'
+  - 'https://blog.google/inside-google/message-ceo/january-update/'
+faqs:
+  - question: "What is Sundar Pichai's personality type?"
+    answer: 'Sundar Pichai reads as an Enneagram Type 9, the Peacemaker. His consensus-building style, conflict avoidance, and body-triad anger (displeasure radiating through silence) track Type 9 far more cleanly than Type 5.'
+    anchor: 'what-is-sundar-pichais-personality-type'
+  - question: 'How did Pichai win Google without fighting for it?'
+    answer: "Pichai built Chrome, Android, and his path to CEO by accumulating consensus rather than wielding political leverage. He won his internal fights so quietly that the opposition often didn't notice they had lost."
+    anchor: 'how-pichai-won-google-without-fighting-for-it'
+  - question: "What were the key controversies of Pichai's tenure?"
+    answer: "Google's 2023 mass layoffs by email, the AI ethics departures, and Judge Mehta's 2024 monopoly ruling all exposed the shadow side of a peacemaker leading a trillion-dollar company. The same harmony-seeking instinct that built Pichai's career produced maximum harm when direct confrontation was needed."
+    anchor: 'controversies-and-challenges'
 path: src/blog/people/drafts/Sundar-Pichai.md
 content_quality:
   hook: 9

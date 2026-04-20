@@ -98,7 +98,7 @@ export const famousTypes: { [index: number]: { name: string; link: boolean; hasI
 		{ name: 'jonah-hill', link: false, hasImage: true, lastmod: '2026-04-10', personaTitle: 'Hollywood\'s Perpetual Renovation', contentGrade: 8.6 },
 		{ name: 'jordi-hays', link: true, hasImage: true, lastmod: '2026-03-21', personaTitle: 'Tech\'s Calculated Showman', contentGrade: 8.7 },
 		{ name: 'julius-caesar', link: true, hasImage: true, lastmod: '2026-03-09', personaTitle: 'History\'s Relentless Conqueror', contentGrade: 8.8 },
-		{ name: 'justin-bieber', link: true, hasImage: true, lastmod: '2026-04-03', personaTitle: 'Pop\'s Hollow Prodigy', contentGrade: 8.9 },
+		{ name: 'justin-bieber', link: true, hasImage: true, lastmod: '2026-04-20', personaTitle: 'Pop\'s Hollow Prodigy', contentGrade: 9.1 },
 		{ name: 'justin-trudeau', link: true, hasImage: true, lastmod: '2026-02-19', personaTitle: 'Canada\'s Hope Brand', contentGrade: 9.1 },
 		{ name: 'kamala-harris', link: true, hasImage: true, lastmod: '2026-02-19', personaTitle: 'Politics\' Relentless Reinventor', contentGrade: 9 },
 		{ name: 'keke-palmer', link: true, hasImage: true, lastmod: '2026-02-26', personaTitle: 'Entertainment\'s Self-Made Architect', contentGrade: 8.8 },
@@ -154,7 +154,7 @@ export const famousTypes: { [index: number]: { name: string; link: boolean; hasI
 		{ name: 'alex-karp', link: true, hasImage: true, lastmod: '2026-04-03', personaTitle: 'Silicon Valley\'s Ornery Poet', contentGrade: 8.9 },
 		{ name: 'anya-taylor-joy', link: true, hasImage: true, lastmod: '2026-03-21', personaTitle: 'Cinema\'s Beautiful Exile', contentGrade: null },
 		{ name: 'bella-hadid', link: true, hasImage: true, lastmod: '2025-12-21', personaTitle: 'Fashion\'s Erased Daughter', contentGrade: 8.3 },
-		{ name: 'billie-eilish', link: true, hasImage: true, lastmod: '2026-02-19', personaTitle: 'Gen Z\'s Beautiful Wound', contentGrade: 9.1 },
+		{ name: 'billie-eilish', link: true, hasImage: true, lastmod: '2026-04-20', personaTitle: 'Gen Z\'s Beautiful Wound', contentGrade: 9.1 },
 		{ name: 'bob-dylan', link: true, hasImage: true, lastmod: '2025-04-08', personaTitle: 'Rock\'s Eternal Shapeshifter', contentGrade: null },
 		{ name: 'bobbi-althoff', link: true, hasImage: true, lastmod: '2025-12-09', personaTitle: 'Podcasting\'s Awkward Alchemist', contentGrade: 9.2 },
 		{ name: 'casey-neistat', link: true, hasImage: true, lastmod: '2026-03-21', personaTitle: 'Vlogging\'s Restless Artist', contentGrade: 8.6 },
@@ -203,7 +203,7 @@ export const famousTypes: { [index: number]: { name: string; link: boolean; hasI
 		{ name: 'jeremy-allen-white', link: false, hasImage: false, lastmod: '2026-04-16', personaTitle: 'Brooklyn\'s Brooding Dancer', contentGrade: 9 },
 		{ name: 'jonathan-graff', link: false, hasImage: false, lastmod: '2025-06-25', personaTitle: null, contentGrade: null },
 		{ name: 'lili-reinhart', link: false, hasImage: false, lastmod: '2026-04-18', personaTitle: 'Riverdale\'s Confessional Poet', contentGrade: 9.1 },
-		{ name: 'maddie-phillips', link: false, hasImage: false, lastmod: '2026-04-18', personaTitle: 'Streaming\'s Tender Shapeshifter', contentGrade: 8.7 },
+		{ name: 'maddie-phillips', link: false, hasImage: false, lastmod: '2026-04-20', personaTitle: 'Streaming\'s Tender Shapeshifter', contentGrade: 8.7 },
 		{ name: 'odessa-azion', link: false, hasImage: false, lastmod: '2026-04-18', personaTitle: 'Hollywood\'s Inherited Runaway', contentGrade: 8.9 },
 		{ name: 'oscar-isaac', link: false, hasImage: false, lastmod: '2026-04-06', personaTitle: 'Cinema\'s Grief Alchemist', contentGrade: 8.6 }
 	],
@@ -418,6 +418,7 @@ export const famousTypes: { [index: number]: { name: string; link: boolean; hasI
 		{ name: 'khaby-lame', link: false, hasImage: false, lastmod: '2025-06-25', personaTitle: null, contentGrade: null },
 		{ name: 'robert-f-kennedy-jr', link: false, hasImage: false, lastmod: '2025-06-25', personaTitle: null, contentGrade: null },
 		{ name: 'ron-desantis', link: false, hasImage: false, lastmod: '2025-06-25', personaTitle: null, contentGrade: null },
-		{ name: 'shawn-mendes', link: false, hasImage: false, lastmod: '2025-06-25', personaTitle: null, contentGrade: null }
+		{ name: 'shawn-mendes', link: false, hasImage: false, lastmod: '2025-06-25', personaTitle: null, contentGrade: null },
+		{ name: 'snoop-dogg', link: false, hasImage: false, lastmod: '2026-04-20', personaTitle: 'Hip-Hop\'s Unmovable Peacemaker', contentGrade: 8.9 }
 	]
 };

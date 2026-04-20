@@ -22,21 +22,6 @@
 			"strategicValue": "fills-type-2-gap"
 		},
 		{
-			"name": "snoop-dogg",
-			"displayName": "Snoop Dogg",
-			"type": 9,
-			"priority": 90,
-			"priorityReason": "Cultural icon, Olympic fame resurgence, fills Type 9 gap, massive name recognition",
-			"estimatedTraffic": "very-high",
-			"searchVolume": "very-high",
-			"personaTitle": null,
-			"addedToQueue": "2026-04-03",
-			"retryCount": 1,
-			"lastFailedAt": "2026-04-17T02:00:00Z",
-			"lastFailureReason": "Content creator paused at research-synthesis decision point awaiting user input instead of auto-proceeding to draft",
-			"strategicValue": "fills-type-9-gap"
-		},
-		{
 			"name": "cardi-b",
 			"displayName": "Cardi B",
 			"type": 8,

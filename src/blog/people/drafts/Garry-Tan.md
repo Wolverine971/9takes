@@ -27,6 +27,51 @@ content_quality:
   overall: 9.0
   letter: 'A'
   graded_at: '2026-03-28'
+wikidata_qid: 'Q23417057'
+birth_date: '1981-03-21'
+birth_place: 'Winnipeg, Manitoba, Canada'
+nationality: 'Canadian-American'
+occupation:
+  - 'Venture capitalist'
+  - 'Entrepreneur'
+  - 'Investor'
+  - 'Software engineer'
+knows_about:
+  - 'Startup accelerators'
+  - 'Seed-stage investing'
+  - 'Software engineering'
+  - 'Y Combinator'
+  - 'Founder coaching'
+  - 'San Francisco politics'
+  - 'Cryptocurrency investing'
+keywords:
+  - 'Garry Tan Enneagram Type 6'
+  - 'Garry Tan personality analysis'
+  - 'Y Combinator CEO'
+  - 'Initialized Capital Garry Tan'
+  - 'Coinbase early investor Tan'
+  - 'Type 6 Loyalist'
+  - 'Garry Tan San Francisco politics'
+same_as:
+  - 'https://en.wikipedia.org/wiki/Garry_Tan'
+  - 'https://www.wikidata.org/wiki/Q23417057'
+  - 'https://twitter.com/garrytan'
+  - 'https://www.ycombinator.com/people/garry-tan'
+  - 'https://blog.garrytan.com/'
+citations:
+  - 'https://en.wikipedia.org/wiki/Garry_Tan'
+  - 'https://www.ycombinator.com/people/garry-tan'
+  - 'https://www.ycombinator.com/blog/welcome-home-garry-tan'
+faqs:
+  - question: "What is Garry Tan's personality type?"
+    answer: 'Garry Tan is an Enneagram Type 6, the Loyalist. His earnestness, his vigilance, and his 1 AM combative turns all come from the same fear-driven engine, a Six who learned young that the world is unstable and you have to fight for your people.'
+    anchor: 'what-is-garry-tans-personality-type'
+  - question: "What did Garry Tan mean by 'that's my mask, man'?"
+    answer: 'He was admitting that the polished, optimistic YC president is a role he performs on top of a messier, self-critical interior. For a Type 6, the public persona functions as armor, and moments like that one are the rare crack where the scared kid from Fremont shows through.'
+    anchor: 'thats-my-mask-man'
+  - question: 'Why does Garry Tan escalate fights so aggressively?'
+    answer: 'His 10x response pattern is the counter-phobic move of a Six who refuses to look afraid, so he runs at the threat louder than it ran at him. It protects the tribe he identifies with, founders and YC, but it also explains the 1 AM Twitter meltdowns that keep getting him in trouble.'
+    anchor: 'every-way-they-come-after-me-im-going-10x'
 path: src/blog/people/drafts/Garry-Tan.md
 ---
 

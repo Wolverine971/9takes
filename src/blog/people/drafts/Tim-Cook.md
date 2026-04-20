@@ -18,6 +18,55 @@ wikipedia: 'https://en.wikipedia.org/wiki/Tim_Cook'
 twitter: 'tim_cook'
 instagram: 'timcook'
 tiktok: ''
+wikidata_qid: 'Q265852'
+imdb_id: 'nm7378038'
+birth_date: '1960-11-01'
+birth_place: 'Mobile, Alabama, USA'
+nationality: 'American'
+occupation:
+  - 'Business executive'
+  - 'CEO'
+  - 'Engineer'
+  - 'Industrialist'
+  - 'Philanthropist'
+knows_about:
+  - 'Apple Inc.'
+  - 'Supply chain management'
+  - 'Consumer electronics'
+  - 'Digital privacy'
+  - 'Corporate social responsibility'
+  - 'LGBTQ advocacy'
+  - 'Industrial engineering'
+keywords:
+  - 'Tim Cook Enneagram'
+  - 'Tim Cook Type 1'
+  - 'Tim Cook personality'
+  - 'Apple CEO personality'
+  - 'Tim Cook Reformer'
+  - 'Tim Cook leadership'
+  - 'Tim Cook moral code'
+  - 'Apple CEO Enneagram'
+same_as:
+  - 'https://en.wikipedia.org/wiki/Tim_Cook'
+  - 'https://www.wikidata.org/wiki/Q265852'
+  - 'https://www.imdb.com/name/nm7378038/'
+  - 'https://twitter.com/tim_cook'
+  - 'https://www.apple.com/leadership/tim-cook/'
+citations:
+  - 'https://en.wikipedia.org/wiki/Tim_Cook'
+  - 'https://www.apple.com/leadership/tim-cook/'
+  - 'https://www.britannica.com/biography/Tim-Cook'
+  - 'https://time.com/3548342/tim-cook-apple/'
+faqs:
+  - question: "What is Tim Cook's personality type?"
+    answer: 'Tim Cook is widely read as an Enneagram Type 1, the Reformer. His moral code, discipline, and language about work (calling inventory fundamentally evil) all track a Type 1 in command.'
+    anchor: 'what-is-tim-cooks-personality-type'
+  - question: 'Why does Tim Cook wake up at 4 a.m.?'
+    answer: 'Cook is up around 3:45 a.m. to read customer emails and prepare before anyone else. For a Type 1, the pre-dawn hours are a pre-emptive strike against the fear that something wrong might happen on his watch.'
+    anchor: 'why-tim-cook-wakes-up-at-4-a-m'
+  - question: 'How did Tim Cook handle the FBI and China test?'
+    answer: "After the 2015 San Bernardino attack, Cook publicly refused the FBI's demand to build an iOS back door, calling it too dangerous to create. The same moral clarity wobbles on China, where Apple's deep manufacturing dependence forces Cook into ongoing compromise."
+    anchor: 'the-fbi-china-and-the-hardest-test'
 path: src/blog/people/drafts/Tim-Cook.md
 production_pretext:
   status: draft

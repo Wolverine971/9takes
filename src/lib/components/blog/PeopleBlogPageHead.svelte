@@ -11,6 +11,7 @@
 	import {
 		buildBreadcrumbSchema,
 		buildPersonSameAsUrls,
+		jsonLdContainsType,
 		mergePersonSameAsIntoJsonLd,
 		parseJsonLdSnippet,
 		updateJsonLdDateModified
@@ -35,15 +36,20 @@
 	);
 	let resolvedPersonSlug = $derived(resolvePersonalityImageSlug(data?.person || data?.slug));
 
-	let breadcrumbJsonLd = $derived.by(() =>
-		JSON.stringify(
+	let parsedJsonLdSnippet = $derived(parseJsonLdSnippet(data.jsonld_snippet));
+	let snippetHasBreadcrumb = $derived(
+		parsedJsonLdSnippet ? jsonLdContainsType(parsedJsonLdSnippet, 'BreadcrumbList') : false
+	);
+	let breadcrumbJsonLd = $derived.by(() => {
+		if (snippetHasBreadcrumb) return '';
+		return JSON.stringify(
 			buildBreadcrumbSchema([
 				{ name: 'Home', url: 'https://9takes.com/' },
 				{ name: 'Personality Analysis', url: 'https://9takes.com/personality-analysis' },
 				{ name: personName, url: canonicalUrl }
 			])
-		)
-	);
+		);
+	});
 
 	// Build Wikipedia URL from person slug (e.g., "Taylor-Swift" -> "https://en.wikipedia.org/wiki/Taylor_Swift")
 	let wikipediaName = $derived(
@@ -114,11 +120,10 @@
 
 	let jsonLdString = $derived.by(() => {
 		try {
-			const parsedSnippet = parseJsonLdSnippet(data.jsonld_snippet);
-			const baseJsonLdObject = parsedSnippet
-				? updateJsonLdDateModified(parsedSnippet, modifiedAt)
+			const baseJsonLdObject = parsedJsonLdSnippet
+				? updateJsonLdDateModified(parsedJsonLdSnippet, modifiedAt)
 				: buildCommonJsonLdFields();
-			const jsonLdObject = parsedSnippet
+			const jsonLdObject = parsedJsonLdSnippet
 				? mergePersonSameAsIntoJsonLd(baseJsonLdObject, {
 						personName,
 						sameAs: personSameAs

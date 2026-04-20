@@ -39,6 +39,47 @@ content_quality:
   overall: 8.7
   letter: B+
   graded_at: '2026-04-15'
+wikidata_qid: 'Q305177'
+imdb_id: 'nm13002020'
+birth_date: '1963-02-17'
+birth_place: 'Taipei, Taiwan'
+nationality: 'Taiwanese-American'
+occupation:
+  - 'Business Executive'
+  - 'Entrepreneur'
+  - 'Electrical Engineer'
+  - 'Philanthropist'
+knows_about:
+  - 'Graphics processing units'
+  - 'Parallel computing and CUDA'
+  - 'Artificial intelligence hardware'
+  - 'Semiconductor industry'
+  - 'Accelerated computing'
+  - 'Nvidia corporate strategy'
+keywords:
+  - 'Jensen Huang Enneagram type 6'
+  - 'Jensen Huang personality'
+  - 'Nvidia CEO'
+  - 'Jensen Huang Loyalist'
+  - 'Nvidia founder psychology'
+  - 'Jensen Huang leadership'
+  - 'AI chips Nvidia'
+same_as:
+  - 'https://en.wikipedia.org/wiki/Jensen_Huang'
+  - 'https://www.wikidata.org/wiki/Q305177'
+  - 'https://www.imdb.com/name/nm13002020/'
+  - 'https://www.nvidia.com/'
+citations:
+  - 'https://en.wikipedia.org/wiki/Jensen_Huang'
+  - 'https://nvidianews.nvidia.com/bios/jensen-huang'
+  - 'https://www.nvidia.com/'
+faqs:
+  - question: "What is Jensen Huang's personality type?"
+    answer: 'Jensen Huang presents as an Enneagram Type 6, the Loyalist. His famous "our company is always 30 days from going out of business" posture, his flat reporting structure designed to surface bad news fast, and his tribal loyalty to long-tenured Nvidia employees all fit the Type 6 vigilance pattern.'
+    anchor: 'what-is-jensen-huangs-personality-type'
+  - question: 'Why does Jensen Huang say he wishes pain and suffering on people?'
+    answer: 'In his 2024 commencement speech, Huang told graduates he wished them ample doses of pain and suffering because he believes character and resilience are forged through hardship. Coming from a Type 6, it reads as an honest transmission of the Loyalist survival playbook: expect adversity, train for it, belong to a tribe that endures it together.'
+    anchor: 'i-wish-upon-you-ample-doses-of-pain-and-suffering'
 path: src/blog/people/drafts/Jensen-Huang.md
 ---
 

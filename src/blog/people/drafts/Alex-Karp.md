@@ -27,6 +27,50 @@ content_quality:
   overall: 8.9
   letter: B+
   graded_at: '2026-03-21'
+wikidata_qid: 'Q19560940'
+imdb_id: 'nm13972050'
+birth_date: '1967-10-02'
+birth_place: 'New York City, New York, USA'
+nationality: 'American'
+occupation:
+  - 'Businessperson'
+  - 'Chief executive officer'
+  - 'Entrepreneur'
+knows_about:
+  - 'Palantir Technologies'
+  - 'Data analytics'
+  - 'Defense technology'
+  - 'Critical theory'
+  - 'Philosophy'
+  - 'Neurodiversity'
+  - 'Techno-nationalism'
+keywords:
+  - 'Alex Karp Enneagram Type 4'
+  - 'Alex Karp personality analysis'
+  - 'Palantir CEO psychology'
+  - 'Type 4 Individualist CEO'
+  - 'Alex Karp outsider identity'
+  - 'Alex Karp philosophy'
+  - 'Alex Karp neurodivergent'
+same_as:
+  - 'https://en.wikipedia.org/wiki/Alex_Karp'
+  - 'https://www.wikidata.org/wiki/Q19560940'
+  - 'https://www.imdb.com/name/nm13972050/'
+  - 'https://www.palantir.com/'
+citations:
+  - 'https://en.wikipedia.org/wiki/Alex_Karp'
+  - 'https://www.palantir.com/'
+  - 'https://time.com/collections/100-most-influential-people-2025/7273812/alex-karp/'
+faqs:
+  - question: "What is Alex Karp's personality type?"
+    answer: 'Alex Karp is an Enneagram Type 4 (The Individualist). His refusal to modulate, authenticity-as-survival, and pattern of turning every personal wound (dyslexia, outsider identity, inability to sit still) into a public contribution all reflect the Type 4 drive to make being different matter.'
+    anchor: 'what-is-alex-karps-personality-type'
+  - question: "Why can't Alex Karp sit still?"
+    answer: "After a viral clip of Karp fidgeting at the 2025 DealBook Summit, he launched Palantir's Neurodivergent Fellowship paying $110,000 to $200,000 a year. The man who hid his dyslexia for decades turned his inability to sit in a chair into a hiring program."
+    anchor: 'why-alex-karp-cant-sit-still'
+  - question: "What is Alex Karp's political contradiction?"
+    answer: 'Karp calls himself a progressive and a neo-Marxist while running a defense-tech company whose software is used by the U.S. military, ICE, and the IDF. He defends Palantir on operational grounds: its auditable targeting chain in Ukraine compresses decision time from hours to minutes with a reviewable record.'
+    anchor: 'alex-karps-political-contradiction'
 path: src/blog/people/drafts/Alex-Karp.md
 ---
 

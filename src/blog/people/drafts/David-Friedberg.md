@@ -27,6 +27,51 @@ content_quality:
   overall: 8.5
   letter: 'B+'
   graded_at: '2026-02-20'
+wikidata_qid: 'Q112898833'
+imdb_id: 'nm13057644'
+birth_date: '1980-06-06'
+birth_place: 'South Africa'
+nationality: 'South African-American'
+occupation:
+  - 'Entrepreneur'
+  - 'Businessperson'
+  - 'Investor'
+knows_about:
+  - 'Agricultural technology'
+  - 'Climate science'
+  - 'Plant genetics'
+  - 'Data science'
+  - 'Venture capital'
+  - 'Food systems'
+  - 'Astrophysics'
+keywords:
+  - 'David Friedberg Enneagram Type 5'
+  - 'David Friedberg personality analysis'
+  - 'All-In podcast Sultan of Science'
+  - 'Climate Corporation Monsanto sale'
+  - 'Ohalo Genetics Friedberg'
+  - 'Type 5 Investigator'
+  - 'Production Board Friedberg'
+same_as:
+  - 'https://en.wikipedia.org/wiki/David_Friedberg'
+  - 'https://www.wikidata.org/wiki/Q112898833'
+  - 'https://www.imdb.com/name/nm13057644/'
+  - 'https://twitter.com/friedberg'
+  - 'https://allin.com/about/david-friedberg'
+citations:
+  - 'https://en.wikipedia.org/wiki/David_Friedberg'
+  - 'https://allin.com/about/david-friedberg'
+  - 'https://en.wikipedia.org/wiki/The_Climate_Corporation'
+faqs:
+  - question: "What is David Friedberg's personality type?"
+    answer: 'David Friedberg is an Enneagram Type 5, the Investigator. He leads with data, retreats into systems thinking, and consistently follows evidence past the emotional implications, including selling his climate company to a firm his own father called the most evil company in the world.'
+    anchor: 'what-is-david-friedbergs-personality-type'
+  - question: 'Why did David Friedberg sell The Climate Corporation to Monsanto?'
+    answer: "Friedberg's data told him Monsanto had the distribution footprint to deploy Climate Corp's technology at the scale his models required. A Type 5 trusts the system over the sentiment, so he took the $1.1 billion deal and accepted that his father would hate him for it."
+    anchor: 'the-1-1-billion-education-in-humility'
+  - question: 'What is Friedberg trying to do at Ohalo Genetics?'
+    answer: 'At Ohalo he is trying to double crop yields through polyploid plant breeding so the world can feed ten billion people without expanding farmland. It is a textbook Type 5 project, an under-the-radar systems-level bet that trusts compounding biological data more than the attention economy.'
+    anchor: 'feeding-ten-billion'
 path: src/blog/people/drafts/David-Friedberg.md
 ---
 

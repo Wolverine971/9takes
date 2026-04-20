@@ -18,6 +18,50 @@ wikipedia: 'https://en.wikipedia.org/wiki/Peter_Thiel'
 twitter: ''
 instagram: ''
 tiktok: ''
+wikidata_qid: 'Q705525'
+imdb_id: 'nm1902615'
+birth_date: '1967-10-11'
+birth_place: 'Frankfurt, Hesse, Germany'
+nationality: 'German-American-New Zealander'
+occupation:
+  - 'Venture Capitalist'
+  - 'Entrepreneur'
+  - 'Investor'
+  - 'Author'
+  - 'Hedge Fund Manager'
+knows_about:
+  - 'Venture capital'
+  - 'Monopoly theory and competition'
+  - 'René Girard and mimetic theory'
+  - 'Libertarian political philosophy'
+  - 'Data analytics and national security'
+  - 'Contrarian investing'
+keywords:
+  - 'Peter Thiel Enneagram type 6'
+  - 'Peter Thiel personality'
+  - 'Peter Thiel Loyalist'
+  - 'PayPal Mafia founder'
+  - 'Palantir cofounder'
+  - 'Peter Thiel Girard'
+  - 'Zero to One Peter Thiel'
+same_as:
+  - 'https://en.wikipedia.org/wiki/Peter_Thiel'
+  - 'https://www.wikidata.org/wiki/Q705525'
+  - 'https://www.imdb.com/name/nm1902615/'
+  - 'https://x.com/peterthiel'
+  - 'https://www.foundersfund.com/'
+  - 'https://www.palantir.com/'
+citations:
+  - 'https://en.wikipedia.org/wiki/Peter_Thiel'
+  - 'https://www.foundersfund.com/team/peter-thiel/'
+  - 'https://www.palantir.com/'
+faqs:
+  - question: "What is Peter Thiel's personality type?"
+    answer: 'Peter Thiel presents as an Enneagram Type 6, the Loyalist. His obsession with hidden threats, tight-knit PayPal Mafia tribe, decades-long feud with Gawker, and apocalypse-hedged investments all track with the Type 6 core fear of an unsafe world and the counterphobic drive to pre-empt it.'
+    anchor: 'what-is-peter-thiels-personality-type'
+  - question: 'How does Peter Thiel view monopoly and competition?'
+    answer: 'Thiel argues that competition is for losers and that durable businesses are monopolies built by escaping rivalry. It is the Type 6 strategy articulated as economic doctrine: secure a defensible position, then fortify it against the future threats you assume are always coming.'
+    anchor: 'how-monopoly-explains-his-worldview'
 path: src/blog/people/drafts/Peter-Thiel.md
 content_quality:
   hook: 10

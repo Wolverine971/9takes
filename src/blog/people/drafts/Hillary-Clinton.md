@@ -21,7 +21,7 @@ instagram: 'hillaryclinton'
 tiktok: ''
 wikidata_qid: 'Q6294'
 birth_date: '1947-10-26'
-birth_place: 'Chicago, Illinois, USA'
+birth_place: 'Edgewater Hospital, Chicago, Illinois, USA'
 nationality: 'American'
 occupation:
   - 'Politician'

@@ -27,6 +27,53 @@ content_quality:
   overall: 9.0
   letter: 'A'
   graded_at: '2026-03-03'
+wikidata_qid: 'Q36215'
+imdb_id: 'nm3212916'
+birth_date: '1984-05-14'
+birth_place: 'White Plains, New York, USA'
+nationality: 'American'
+occupation:
+  - 'Programmer'
+  - 'Entrepreneur'
+  - 'Computer scientist'
+  - 'Chief executive officer'
+  - 'Philanthropist'
+knows_about:
+  - 'Social networks'
+  - 'Facebook'
+  - 'Meta Platforms'
+  - 'Artificial intelligence'
+  - 'Virtual reality'
+  - 'Software engineering'
+keywords:
+  - 'Mark Zuckerberg enneagram'
+  - 'Mark Zuckerberg type 5'
+  - 'Mark Zuckerberg personality'
+  - 'Meta CEO'
+  - 'Facebook founder'
+  - 'Investigator enneagram'
+  - '5w6 tech founder'
+same_as:
+  - 'https://en.wikipedia.org/wiki/Mark_Zuckerberg'
+  - 'https://www.wikidata.org/wiki/Q36215'
+  - 'https://www.imdb.com/name/nm3212916/'
+  - 'https://www.instagram.com/zuck/'
+  - 'https://about.meta.com/'
+citations:
+  - 'https://en.wikipedia.org/wiki/Mark_Zuckerberg'
+  - 'https://about.meta.com/media-gallery/executives/mark-zuckerberg/'
+  - 'https://www.forbes.com/profile/mark-zuckerberg/'
+  - 'https://www.newyorker.com/magazine/2010/09/20/the-face-of-facebook'
+faqs:
+  - question: "What is Mark Zuckerberg's personality type?"
+    answer: 'Mark Zuckerberg is an Enneagram Type 5, specifically a 5w6 — The Problem Solver. The engine is a scarcity model of energy and a fear of incompetence, answered by building fortress-like systems of understanding. The dual-class share structure, the gray t-shirts, and the withdrawal-then-architecture crisis response all fit the pattern.'
+    anchor: 'what-is-mark-zuckerbergs-personality-type'
+  - question: 'What was ZuckNet and why did he build it?'
+    answer: "At twelve, Zuckerberg built ZuckNet in Atari BASIC to replace the receptionist shouting down the hall at his father's dental practice. His first software solved a human communication problem by eliminating the need for direct human interaction — the earliest evidence of the Type 5 pattern that would define Facebook."
+    anchor: 'zucknet-and-the-shouting-problem'
+  - question: "How does Zuckerberg's 'drawbridge' reveal his psychology?"
+    answer: "Zuckerberg built the most invasive connection machine in history while maintaining one of the most fiercely guarded personal boundaries in tech. The fortress isn't emptiness — it's selective access. The drawbridge lowers for people who've earned entry; everyone else sees the wall."
+    anchor: 'the-drawbridge'
 path: src/blog/people/drafts/Mark-Zuckerberg.md
 ---
 

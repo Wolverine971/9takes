@@ -18,6 +18,49 @@ wikipedia: 'https://en.wikipedia.org/wiki/Reed_Hastings'
 twitter: ''
 instagram: ''
 tiktok: ''
+wikidata_qid: 'Q7306657'
+imdb_id: 'nm2484396'
+birth_date: '1960-10-08'
+birth_place: 'Boston, Massachusetts, USA'
+nationality: 'American'
+occupation:
+  - 'Entrepreneur'
+  - 'Philanthropist'
+  - 'Education philanthropist'
+knows_about:
+  - 'Netflix'
+  - 'Streaming media'
+  - 'Charter schools'
+  - 'Corporate culture design'
+  - 'Pure Software'
+  - 'Education reform'
+  - 'No Rules Rules management philosophy'
+keywords:
+  - 'Reed Hastings Enneagram Type 8'
+  - 'Reed Hastings personality analysis'
+  - 'Netflix founder psychology'
+  - 'Type 8 Challenger CEO'
+  - 'Netflix culture deck'
+  - 'Reed Hastings No Rules Rules'
+  - 'Reed Hastings education philanthropy'
+same_as:
+  - 'https://en.wikipedia.org/wiki/Reed_Hastings'
+  - 'https://www.wikidata.org/wiki/Q7306657'
+  - 'https://www.imdb.com/name/nm2484396/'
+citations:
+  - 'https://en.wikipedia.org/wiki/Reed_Hastings'
+  - 'https://www.britannica.com/biography/Reed-Hastings'
+  - 'https://www.gsb.stanford.edu/insights/netflix-founder-reed-hastings-make-few-decisions-possible'
+faqs:
+  - question: "What is Reed Hastings' personality type?"
+    answer: "Reed Hastings is an Enneagram Type 8 (The Challenger) with a 7 wing. His Freedom and Responsibility architecture isn't delegation — it's an 8 designing systems where he sets the terms that happen to look like freedom, protecting him from ever being controlled."
+    anchor: 'what-is-reed-hastings-personality-type'
+  - question: 'How did vacuum cleaners, the Marines, and Swaziland shape Reed Hastings?'
+    answer: 'Before Stanford, Hastings deferred college to sell Rainbow vacuums door-to-door, tried Marine Corps Platoon Leader Class, and then joined the Peace Corps teaching math in Swaziland. The pivot from an institution demanding obedience to one demanding initiative is the Type 8 refusing to be controlled.'
+    anchor: 'the-vacuum-cleaners-the-marines-and-the-valleys-of-swaziland'
+  - question: "How does Hastings describe Netflix's culture?"
+    answer: "Hastings describes Netflix culture as a jazz band, not a symphony — high-talent players improvising within a tight framework he designed. It's the Type 8 blueprint: maximum autonomy for others inside a system whose architecture the Challenger alone controls."
+    anchor: 'building-a-jazz-band'
 path: src/blog/people/drafts/Reed-Hastings.md
 content_quality:
   hook: 8.5

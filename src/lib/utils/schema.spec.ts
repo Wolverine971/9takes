@@ -4,6 +4,7 @@ import { describe, expect, it } from 'vitest';
 import {
 	buildPersonIdentifiers,
 	buildPersonSameAsUrls,
+	jsonLdContainsType,
 	mergePersonSameAsIntoJsonLd,
 	parseJsonLdSnippet,
 	updateJsonLdDateModified
@@ -356,6 +357,42 @@ describe('JSON-LD helpers', () => {
 					sameAs: ['https://en.wikipedia.org/wiki/Benson_Boone', 'https://twitter.com/BensonBoone']
 				}
 			]
+		});
+	});
+
+	describe('jsonLdContainsType', () => {
+		it('returns false for null/non-node inputs', () => {
+			expect(jsonLdContainsType(null, 'BreadcrumbList')).toBe(false);
+			expect(jsonLdContainsType(undefined, 'BreadcrumbList')).toBe(false);
+			expect(jsonLdContainsType('BreadcrumbList', 'BreadcrumbList')).toBe(false);
+		});
+
+		it('detects a type at the top level of a node', () => {
+			expect(jsonLdContainsType({ '@type': 'BreadcrumbList' }, 'BreadcrumbList')).toBe(true);
+			expect(jsonLdContainsType({ '@type': 'Article' }, 'BreadcrumbList')).toBe(false);
+		});
+
+		it('detects a type inside a @graph array', () => {
+			const snippet = {
+				'@context': 'https://schema.org',
+				'@graph': [
+					{ '@type': 'Article', headline: 'X' },
+					{ '@type': 'BreadcrumbList', itemListElement: [] }
+				]
+			};
+			expect(jsonLdContainsType(snippet, 'BreadcrumbList')).toBe(true);
+			expect(jsonLdContainsType(snippet, 'FAQPage')).toBe(false);
+		});
+
+		it('detects a type inside a bare array of nodes', () => {
+			const snippet = [{ '@type': 'Article' }, { '@type': 'BreadcrumbList' }];
+			expect(jsonLdContainsType(snippet, 'BreadcrumbList')).toBe(true);
+		});
+
+		it('handles @type arrays', () => {
+			expect(jsonLdContainsType({ '@type': ['Thing', 'BreadcrumbList'] }, 'BreadcrumbList')).toBe(
+				true
+			);
 		});
 	});
 });

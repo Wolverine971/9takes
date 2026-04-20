@@ -51,7 +51,7 @@ same_as:
 citations:
   - 'https://en.wikipedia.org/wiki/Martin_Luther_King_Jr.'
   - 'https://www.britannica.com/biography/Martin-Luther-King-Jr'
-  - 'https://kinginstitute.stanford.edu/martin-luther-king-jr-biography'
+  - 'https://thekingcenter.org/about-tkc/martin-luther-king-jr/'
 faqs:
   - question: "What was Martin Luther King Jr.'s personality type?"
     answer: "King maps onto Enneagram Type 8, the Challenger — a protector whose righteous anger got channeled into nonviolent discipline. The Type 8's gift is confronting injustice head-on without flinching; King's innovation was aiming that raw confrontational energy at systems instead of individuals."

@@ -27,6 +27,53 @@ content_quality:
   overall: 8.8
   letter: 'B+'
   graded_at: '2026-03-22'
+wikidata_qid: 'Q211098'
+birth_date: '1967-08-05'
+birth_place: 'Stanford, California, USA'
+nationality: 'American'
+occupation:
+  - 'Entrepreneur'
+  - 'Venture capitalist'
+  - 'Investor'
+  - 'Businessperson'
+  - 'Author'
+knows_about:
+  - 'LinkedIn'
+  - 'PayPal'
+  - 'Greylock Partners'
+  - 'Blitzscaling'
+  - 'Artificial intelligence'
+  - 'Professional networks'
+  - 'Philanthropy'
+keywords:
+  - 'Reid Hoffman Enneagram'
+  - 'Reid Hoffman Type 7'
+  - 'Reid Hoffman personality'
+  - 'LinkedIn founder personality'
+  - 'Reid Hoffman Enthusiast'
+  - 'Reid Hoffman leadership'
+  - 'Reid Hoffman blitzscaling'
+  - 'Greylock partner Enneagram'
+same_as:
+  - 'https://en.wikipedia.org/wiki/Reid_Hoffman'
+  - 'https://www.wikidata.org/wiki/Q211098'
+  - 'https://twitter.com/reidhoffman'
+  - 'https://greylock.com/team/reid-hoffman/'
+  - 'https://www.reidhoffman.org/'
+citations:
+  - 'https://en.wikipedia.org/wiki/Reid_Hoffman'
+  - 'https://greylock.com/team/reid-hoffman/'
+  - 'https://mastersofscale.com/'
+faqs:
+  - question: "What is Reid Hoffman's personality type?"
+    answer: 'Reid Hoffman reads as an Enneagram Type 7 with a Six wing. His restless serial venture-building, strategy-as-games worldview, and coalition-driven loyalty patterns track the Enthusiast with a Loyalist flavor.'
+    anchor: 'what-is-reid-hoffmans-personality-type'
+  - question: 'What was the integrity decision that cost Hoffman billions?'
+    answer: 'When Peter Thiel offered Hoffman an early Facebook board seat, he turned it down to avoid even the appearance of conflict with LinkedIn. He called it the most expensive decision he had ever made on a pure economic basis.'
+    anchor: 'the-integrity-decision-that-cost-him-billions'
+  - question: 'How did the friendship with Peter Thiel break?'
+    answer: 'Hoffman and Peter Thiel argued politics for decades before their thirty-year friendship ruptured publicly at Sun Valley in 2024. Hoffman has since become one of the few Silicon Valley voices openly criticizing the Trump administration, at significant personal cost.'
+    anchor: 'the-friendship-that-broke-and-the-loneliness-that-followed'
 path: src/blog/people/drafts/Reid-Hoffman.md
 ---
 

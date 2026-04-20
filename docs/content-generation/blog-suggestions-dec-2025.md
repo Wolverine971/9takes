@@ -69,7 +69,6 @@ _Related: [Group Dynamics Ideas](./pop-culture-group-dynamics-ideas.md) | [Pop C
 ### Type 9 (The Peacemaker)
 
 - Jeff Goldblum - easygoing charm, unique presence
-- Snoop Dogg - laid-back icon, cultural omnipresence (Olympics hosting, etc.)
 - Bob Ross - ultimate peaceful presence, nostalgic appeal
 
 ## Viral Moments of 2025 to Consider

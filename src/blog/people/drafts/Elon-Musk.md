@@ -29,6 +29,50 @@ wikipedia: 'https://en.wikipedia.org/wiki/Elon_Musk'
 twitter: 'https://twitter.com/elonmusk'
 instagram: 'https://www.instagram.com/elonmusk'
 tiktok: 'https://www.tiktok.com/discover/ELON-MUSK'
+wikidata_qid: 'Q317521'
+imdb_id: 'nm1907769'
+birth_date: '1971-06-28'
+birth_place: 'Pretoria, Gauteng, South Africa'
+nationality: 'South African-Canadian-American'
+occupation:
+  - 'Entrepreneur'
+  - 'Engineer'
+  - 'Business Executive'
+  - 'Inventor'
+knows_about:
+  - 'Electric vehicles'
+  - 'Space launch systems'
+  - 'Rocket engineering'
+  - 'Artificial intelligence'
+  - 'Brain-computer interfaces'
+  - 'Social media platforms'
+  - 'First-principles reasoning'
+keywords:
+  - 'Elon Musk Enneagram type 5'
+  - 'Elon Musk personality'
+  - 'Elon Musk Investigator'
+  - 'Tesla founder psychology'
+  - 'SpaceX Elon Musk'
+  - 'Elon Musk first principles'
+  - 'Elon Musk DOGE'
+same_as:
+  - 'https://en.wikipedia.org/wiki/Elon_Musk'
+  - 'https://www.wikidata.org/wiki/Q317521'
+  - 'https://www.imdb.com/name/nm1907769/'
+  - 'https://x.com/elonmusk'
+  - 'https://www.tesla.com/'
+  - 'https://www.spacex.com/'
+citations:
+  - 'https://en.wikipedia.org/wiki/Elon_Musk'
+  - 'https://www.britannica.com/biography/Elon-Musk'
+  - 'https://www.spacex.com/'
+faqs:
+  - question: "How does Elon Musk's Enneagram type show up under stress?"
+    answer: 'Under stress, Musk exhibits the classic Type 5 move toward unhealthy Type 7 behavior: impulsive acquisitions, scattered public attention, and late-night posting sprees. His 2022 Twitter purchase and erratic X-era behavior are textbook examples of a 5 disintegrating into distraction.'
+    anchor: 'stress-and-growth'
+  - question: 'What are the blind spots of Elon Musk as a Type 5?'
+    answer: "Musk's blind spots are the Type 5 classics: treating people like systems, undervaluing emotional context, and mistaking the absence of disagreement for alignment. It explains why brilliant engineering leadership coexists with repeated interpersonal and public-relations collapses."
+    anchor: 'blind-spots'
 path: src/blog/people/drafts/Elon-Musk.md
 content_quality:
   hook: 9

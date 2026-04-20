@@ -18,6 +18,51 @@ wikipedia: 'https://en.wikipedia.org/wiki/Jeff_Bezos'
 twitter: 'JeffBezos'
 instagram: 'jeffbezos'
 tiktok: ''
+wikidata_qid: 'Q312556'
+imdb_id: 'nm1757263'
+birth_date: '1964-01-12'
+birth_place: 'Albuquerque, New Mexico, USA'
+nationality: 'American'
+occupation:
+  - 'Entrepreneur'
+  - 'Investor'
+  - 'Business Executive'
+  - 'Astronaut'
+knows_about:
+  - 'E-commerce and retail logistics'
+  - 'Cloud computing (AWS)'
+  - 'Commercial spaceflight'
+  - 'Long-term decision-making'
+  - 'Customer-obsessed business strategy'
+  - 'Media ownership'
+keywords:
+  - 'Jeff Bezos Enneagram type 8'
+  - 'Jeff Bezos personality'
+  - 'Amazon founder Challenger'
+  - 'Jeff Bezos Day 1'
+  - 'Blue Origin founder'
+  - 'Jeff Bezos leadership'
+  - 'Bezos Washington Post'
+same_as:
+  - 'https://en.wikipedia.org/wiki/Jeff_Bezos'
+  - 'https://www.wikidata.org/wiki/Q312556'
+  - 'https://www.imdb.com/name/nm1757263/'
+  - 'https://x.com/JeffBezos'
+  - 'https://www.amazon.com/'
+citations:
+  - 'https://en.wikipedia.org/wiki/Jeff_Bezos'
+  - 'https://ir.aboutamazon.com/officers-and-directors/person-details/default.aspx'
+  - 'https://www.britannica.com/biography/Jeff-Bezos'
+faqs:
+  - question: "What is Jeff Bezos's personality type?"
+    answer: 'Jeff Bezos presents as an Enneagram Type 8, the Challenger. His appetite for confrontation, willingness to take huge bets (AWS, Kindle, Blue Origin), the relentless Day 1 posture, and his direct handling of the Washington Post and National Enquirer situations all track with Type 8 agency and control.'
+    anchor: 'what-is-jeff-bezoss-personality-type'
+  - question: "What is Jeff Bezos's Day 1 philosophy?"
+    answer: "Day 1 is Bezos's operating principle that companies must behave like startups forever, because Day 2 is stasis, followed by irrelevance, followed by excruciating painful decline, followed by death. For a Type 8, it is a codified refusal to be controlled by bureaucracy, comfort, or complacency."
+    anchor: 'the-day-1-philosophy'
+  - question: 'How does Jeff Bezos make decisions?'
+    answer: 'Bezos sorts decisions into Type 1 (irreversible, two-way-door) and Type 2 (reversible) and urges fast, decentralized calls on reversible ones. The framework is a Type 8 tool for preserving decisive agency at scale without drowning the org in consensus.'
+    anchor: 'how-bezos-makes-decisions'
 path: src/blog/people/drafts/Jeff-Bezos.md
 content_quality:
   hook: 8

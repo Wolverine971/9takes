@@ -27,6 +27,49 @@ content_quality:
   overall: 9.0
   letter: A
   graded_at: '2026-02-20'
+wikidata_qid: 'Q16269109'
+birth_date: '1992-09-19'
+birth_place: 'Long Beach, California, USA'
+nationality: 'American'
+occupation:
+  - 'Inventor'
+  - 'Entrepreneur'
+  - 'Journalist'
+knows_about:
+  - 'Virtual reality'
+  - 'Oculus Rift'
+  - 'Defense technology'
+  - 'Anduril Industries'
+  - 'Autonomous weapons'
+  - 'Head-mounted displays'
+keywords:
+  - 'Palmer Luckey enneagram'
+  - 'Palmer Luckey type 7'
+  - 'Palmer Luckey personality'
+  - 'Anduril founder'
+  - 'Oculus founder'
+  - 'Enthusiast enneagram'
+  - 'VR headset inventor'
+same_as:
+  - 'https://en.wikipedia.org/wiki/Palmer_Luckey'
+  - 'https://www.wikidata.org/wiki/Q16269109'
+  - 'https://twitter.com/PalmerLuckey'
+  - 'https://www.anduril.com/'
+citations:
+  - 'https://en.wikipedia.org/wiki/Palmer_Luckey'
+  - 'https://www.anduril.com/'
+  - 'https://www.cbsnews.com/news/palmer-luckey-future-warfare-anduril-60-minutes/'
+  - 'https://www.forbes.com/profile/palmer-luckey/'
+faqs:
+  - question: "What is Palmer Luckey's personality type?"
+    answer: "Palmer Luckey is an Enneagram Type 7 (The Enthusiast). The core driver isn't joy but a terror of limitation — every venture from VR to defense tech to banking is another doorway out of a bounded reality. Reframing adversity as fuel and a patient capacity for grudges reveal both the power and shadow of the Seven."
+    anchor: 'what-is-palmer-luckeys-personality-type'
+  - question: 'What was Palmer Luckey homeschooled for?'
+    answer: "Luckey was homeschooled by his mother Julie after she concluded public school couldn't handle his restless curiosity. By 14 he was taking college courses; by 16 he had built his first VR headset in the family garage, rejecting formal education because structure felt like a cage."
+    anchor: 'boy-disorder'
+  - question: "What is Palmer Luckey's 'world gun store' philosophy?"
+    answer: "Luckey's defense philosophy — articulated on 60 Minutes — is that the United States should transition from being the world police to being the world gun store, selling advanced autonomous weapons to allies. He argues smart weapons are more ethical than dumb ones because they can distinguish targets."
+    anchor: 'the-world-gun-store'
 path: src/blog/people/drafts/Palmer-Luckey.md
 ---
 

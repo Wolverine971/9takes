@@ -27,6 +27,46 @@ content_quality:
   overall: 8.8
   letter: 'B+'
   graded_at: '2026-03-28'
+wikidata_qid: 'Q28226109'
+birth_date: '1982-10-07'
+birth_place: 'Brooklyn, New York, USA'
+nationality: 'American'
+occupation:
+  - 'Entrepreneur'
+knows_about:
+  - 'Startup accelerators'
+  - 'Y Combinator'
+  - 'Twitch'
+  - 'Justin.tv'
+  - 'Product-market fit'
+  - 'Founder coaching'
+keywords:
+  - 'Michael Seibel enneagram'
+  - 'Michael Seibel type 1'
+  - 'Michael Seibel personality'
+  - 'Y Combinator CEO'
+  - 'Twitch cofounder'
+  - 'Reformer enneagram'
+  - 'Justin.tv founder'
+same_as:
+  - 'https://en.wikipedia.org/wiki/Michael_Seibel'
+  - 'https://www.wikidata.org/wiki/Q28226109'
+  - 'https://twitter.com/mwseibel'
+  - 'https://www.michaelseibel.com/'
+citations:
+  - 'https://en.wikipedia.org/wiki/Michael_Seibel'
+  - 'https://www.ycombinator.com/people/michael-seibel'
+  - 'https://www.michaelseibel.com/'
+faqs:
+  - question: "What is Michael Seibel's personality type?"
+    answer: 'Michael Seibel is an Enneagram Type 1 with a 2 wing — The Advocate. His anger channeled into standards, his obsession with founder honesty, his systematic self-improvement, and his principled push to fund underrepresented founders all point to the Reformer archetype operating at the level of institutions.'
+    anchor: 'what-is-michael-seibels-personality-type'
+  - question: 'How did Michael Seibel go from Brooklyn to the suburbs?'
+    answer: 'Born in 1982 in Brooklyn to young working parents, Seibel was a slow reader who adjusted late to suburban New Jersey. Placed in the regular academic track, he fought his way into honors classes and outperformed students tracked ahead of him — the first appearance of the underdog-to-reformer pattern.'
+    anchor: 'brooklyn-suburbia-and-the-slow-reader'
+  - question: 'How did Michael Seibel get from Yale to Justin.tv?'
+    answer: "Seibel majored in political science at Yale, joined the Black Student Alliance, and met future cofounder Justin Kan. After graduating in 2005 he worked as finance director on Kweisi Mfume's U.S. Senate campaign; when Mfume lost the primary, Seibel joined Kan and Emmett Shear driving cross-country to build Justin.tv."
+    anchor: 'yale-politics-and-the-first-departure'
 path: src/blog/people/drafts/Michael-Seibel.md
 ---
 

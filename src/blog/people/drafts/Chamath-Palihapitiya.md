@@ -18,6 +18,53 @@ wikipedia: 'https://en.wikipedia.org/wiki/Chamath_Palihapitiya'
 twitter: 'chaaborhee'
 instagram: ''
 tiktok: ''
+wikidata_qid: 'Q16734050'
+imdb_id: 'nm9501838'
+birth_date: '1976-09-03'
+birth_place: 'Galle, Sri Lanka'
+nationality: 'Canadian-American'
+occupation:
+  - 'Venture capitalist'
+  - 'Entrepreneur'
+  - 'Investor'
+  - 'Chief executive officer'
+  - 'Television personality'
+knows_about:
+  - 'Venture capital'
+  - 'Special purpose acquisition companies'
+  - 'Growth hacking'
+  - 'Social media strategy'
+  - 'Technology investing'
+  - 'Artificial intelligence'
+  - 'Clean energy investing'
+keywords:
+  - 'Chamath Palihapitiya Enneagram Type 3'
+  - 'Chamath personality analysis'
+  - 'Social Capital Chamath'
+  - 'All-In podcast Chamath'
+  - 'SPAC king Chamath'
+  - 'Type 3 Achiever'
+  - 'Facebook growth Chamath'
+same_as:
+  - 'https://en.wikipedia.org/wiki/Chamath_Palihapitiya'
+  - 'https://www.wikidata.org/wiki/Q16734050'
+  - 'https://www.imdb.com/name/nm9501838/'
+  - 'https://twitter.com/chamath'
+  - 'https://www.socialcapital.com/about'
+citations:
+  - 'https://en.wikipedia.org/wiki/Chamath_Palihapitiya'
+  - 'https://www.socialcapital.com/about'
+  - 'https://time.com/5342756/chamath-palihapitiya/'
+faqs:
+  - question: "What is Chamath Palihapitiya's personality type?"
+    answer: 'Chamath Palihapitiya is an Enneagram Type 3, the Achiever. His identity runs on visible winning, and he reinvents himself, welfare kid to Facebook exec to SPAC king to AI founder, whenever a new arena for dominance opens up.'
+    anchor: 'what-is-chamath-palihapitiyas-personality-type'
+  - question: "Why did Chamath say 'nobody cares' about the Uyghurs?"
+    answer: "When pushed on human rights abuses in China during a 2022 episode, Chamath snapped into a classic Type 3 stress move, dismissing the question to protect his position rather than reckon with it. The Achiever goes numb and reframes the problem as everyone else's whenever the result cannot be spun into a win."
+    anchor: 'nobody-cares'
+  - question: 'Why does Chamath polarize people so intensely?'
+    answer: 'He cycles personas, truth-teller, contrarian, populist hero, political insider, and each is calibrated for maximum impact in its moment. For admirers this looks like reinvention, for critics it reads as calculated image-crafting, which is exactly the double-edged signature of a high-functioning Type 3.'
+    anchor: 'why-chamath-polarizes-people'
 path: src/blog/people/drafts/Chamath-Palihapitiya.md
 ---
 

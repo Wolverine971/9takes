@@ -18,6 +18,51 @@ wikipedia: 'https://en.wikipedia.org/wiki/Jason_Calacanis'
 twitter: ''
 instagram: ''
 tiktok: ''
+wikidata_qid: 'Q3807391'
+imdb_id: 'nm2635537'
+birth_date: '1970-11-28'
+birth_place: 'Bay Ridge, Brooklyn, New York, USA'
+nationality: 'American'
+occupation:
+  - 'Entrepreneur'
+  - 'Investor'
+  - 'Podcaster'
+knows_about:
+  - 'Angel investing'
+  - 'Startup accelerators'
+  - 'Digital media'
+  - 'Podcasting'
+  - 'Technology journalism'
+  - 'Founder education'
+  - 'Event production'
+keywords:
+  - 'Jason Calacanis Enneagram Type 3'
+  - 'Jason Calacanis personality analysis'
+  - 'All-In podcast Calacanis'
+  - 'LAUNCH Fund Calacanis'
+  - 'This Week in Startups'
+  - 'Type 3 Achiever'
+  - 'Angel investor Calacanis'
+same_as:
+  - 'https://en.wikipedia.org/wiki/Jason_Calacanis'
+  - 'https://www.wikidata.org/wiki/Q3807391'
+  - 'https://www.imdb.com/name/nm2635537/'
+  - 'https://calacanis.com/'
+  - 'https://launch.co/'
+citations:
+  - 'https://en.wikipedia.org/wiki/Jason_Calacanis'
+  - 'https://launch.co/'
+  - 'https://calacanis.com/'
+faqs:
+  - question: "What is Jason Calacanis's personality type?"
+    answer: 'Jason Calacanis is an Enneagram Type 3, the Achiever. His life runs on a straight line from Brooklyn bar kid to White House guest, and every pivot follows the same rule: if he stops achieving visibly, he stops existing.'
+    anchor: 'what-is-jason-calacaniss-personality-type'
+  - question: 'How did Jason Calacanis turn the All-In Summit into an empire?'
+    answer: 'He productized his friendships into a live event brand, stacking sponsorships, waitlists, and celebrity attendees until the summit became a trophy asset for Silicon Valley. That conversion of social proof into recurring revenue is peak Type 3 operator behavior.'
+    anchor: 'building-the-all-in-summit-into-an-empire'
+  - question: 'What does Calacanis teach founders at LAUNCH and Founder University?'
+    answer: "He teaches relentless execution, visible progress, and distribution discipline, the same hustle script he has used on himself for three decades. The Achiever's edge is turning his personal playbook into a teachable, repeatable machine for other founders."
+    anchor: 'launch-founder-university-and-the-machine'
 path: src/blog/people/drafts/Jason-Calacanis.md
 content_quality:
   hook: 8

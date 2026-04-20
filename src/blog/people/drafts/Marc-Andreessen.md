@@ -27,6 +27,55 @@ content_quality:
   overall: 8.8
   letter: 'B+'
   graded_at: '2026-03-24'
+wikidata_qid: 'Q62882'
+imdb_id: 'nm4336932'
+birth_date: '1971-07-09'
+birth_place: 'Cedar Falls, Iowa, USA'
+nationality: 'American'
+occupation:
+  - 'Software engineer'
+  - 'Entrepreneur'
+  - 'Venture capitalist'
+  - 'Investor'
+  - 'Businessperson'
+knows_about:
+  - 'Web browsers'
+  - 'Netscape'
+  - 'Andreessen Horowitz'
+  - 'Venture capital'
+  - 'Software industry'
+  - 'Techno-optimism'
+  - 'Cryptocurrency policy'
+keywords:
+  - 'Marc Andreessen Enneagram'
+  - 'Marc Andreessen Type 5'
+  - 'Marc Andreessen personality'
+  - 'a16z founder personality'
+  - 'Marc Andreessen Investigator'
+  - 'Netscape founder Enneagram'
+  - 'Marc Andreessen techno-optimist'
+  - 'Marc Andreessen leadership'
+same_as:
+  - 'https://en.wikipedia.org/wiki/Marc_Andreessen'
+  - 'https://www.wikidata.org/wiki/Q62882'
+  - 'https://www.imdb.com/name/nm4336932/'
+  - 'https://twitter.com/pmarca'
+  - 'https://a16z.com/author/marc-andreessen/'
+citations:
+  - 'https://en.wikipedia.org/wiki/Marc_Andreessen'
+  - 'https://a16z.com/author/marc-andreessen/'
+  - 'https://a16z.com/the-techno-optimist-manifesto/'
+  - 'https://www.newyorker.com/magazine/2015/05/18/tomorrows-advance-man'
+faqs:
+  - question: "What is Marc Andreessen's personality type?"
+    answer: "Marc Andreessen reads as an Enneagram Type 5 with a Six wing. His knowledge hoarding, calendar-controlled energy conservation, and rejection of introspection all track the Investigator's fortress-building logic."
+    anchor: 'what-is-marc-andreessens-personality-type'
+  - question: "How does 'software is eating the world' reveal Andreessen's psychology?"
+    answer: "Andreessen's 2011 Wall Street Journal essay predicted that software companies would transform every industry. Read as psychology rather than economics, it is a Five's dream sentence: the abstract system consuming the messy physical world."
+    anchor: 'software-is-eating-the-world-the-manifesto-as-architecture'
+  - question: 'What does the Techno-Optimist Manifesto reveal about Andreessen under stress?'
+    answer: "The 2023 manifesto, Mar-a-Lago visits, and $5 million in political donations mark Andreessen's disintegration toward Type 7. Under existential threat to his portfolio, the usually measured Five scattered into frantic, high-visibility engagement on every front at once."
+    anchor: 'the-techno-optimist-manifesto-a-five-under-stress'
 path: src/blog/people/drafts/Marc-Andreessen.md
 ---
 
