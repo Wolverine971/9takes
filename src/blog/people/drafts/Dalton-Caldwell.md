@@ -4,16 +4,16 @@ meta_title: 'Why Dalton Caldwell Trusts Systems More Than Platforms'
 persona_title: "Silicon Valley's Devoted Skeptic"
 description: 'Dalton Caldwell built his career by spotting where platforms betray creators, how trust breaks, and why skepticism became his edge.'
 author: 'DJ Wayne'
-date: '2026-03-29'
+date: '2026-04-20'
 loc: 'https://9takes.com/personality-analysis/Dalton-Caldwell'
-lastmod: '2026-04-06'
+lastmod: '2026-04-20'
 changefreq: 'monthly'
 priority: '0.6'
-published: false
+published: true
 enneagram: 6
 type: ['techie']
 person: 'Dalton-Caldwell'
-suggestions: ['Sam-Altman', 'Peter-Thiel', 'Paul-Graham', 'Marc-Andreessen']
+suggestions: ['Garry-Tan', 'Michael-Seibel', 'Paul-Graham', 'Sam-Altman', 'Marc-Andreessen']
 wikipedia: 'https://en.wikipedia.org/wiki/Dalton_Caldwell'
 twitter: 'https://twitter.com/daltonc'
 instagram: ''
@@ -40,7 +40,7 @@ He went home and wrote an open letter to [Mark Zuckerberg](/personality-analysis
 
 Here's what nobody talks about: App.net failed. The company that was supposed to prove Caldwell right about platform ethics couldn't solve the chicken-and-egg problem of user adoption. It entered maintenance mode in 2014 and shut down for good in 2017.
 
-And yet. This is a man who then spent twelve years at Y Combinator, conducting more than 6,500 office hours with founders, advising 35+ unicorns, showing up as what Garry Tan called "a steady presence for founders navigating the earliest and often hardest parts of company-building."
+And yet. This is a man who then spent twelve years at Y Combinator, conducting more than 6,500 office hours with founders, advising 35+ unicorns, showing up as what [Garry Tan](/personality-analysis/Garry-Tan) called "a steady presence for founders navigating the earliest and often hardest parts of company-building."
 
 The person who trusts no system spent a decade building the system everyone else trusts. That paradox — skepticism and devotion, operating simultaneously at full volume — is the key to understanding Dalton Caldwell.
 
@@ -263,7 +263,7 @@ These aren't comfort-watch choices. They're study materials.
 
 In June 2025, after twelve years at Y Combinator, Dalton Caldwell transitioned to Partner Emeritus. Garry Tan called him "a steady presence for founders navigating the earliest and often hardest parts of company-building" and described the move as "a natural next step." Caldwell's announcement was characteristically measured: "I'm grateful to the thousands of founders who trusted me with their journeys, my fellow YC partners and teammates, and to Paul, Jessica, Trevor, and Robert for creating this extraordinary institution."
 
-The last names he listed — Graham, Livingston, Blackwell, Morris — are YC's four original founders. Even in leaving, he honored the architecture.
+The last names he listed — [Graham](/personality-analysis/Paul-Graham), Livingston, Blackwell, Morris — are YC's four original founders. Even in leaving, he honored the architecture.
 
 He launched Standard Capital with Paul Buchheit and Bryan Berg. Buchheit created Gmail, developed the AdSense prototype, coined "Don't be evil," co-founded FriendFeed, and was an early OpenAI investor. But the Bryan Berg connection runs deeper than any résumé: Berg was CTO at imeem alongside Caldwell, then co-founded App.net with him, then went to Stripe as Head of Security. Three people who have built together, failed together, and rebuilt together across two decades.
 

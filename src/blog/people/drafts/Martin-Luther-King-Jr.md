@@ -19,6 +19,46 @@ wikipedia: 'https://en.wikipedia.org/wiki/Martin_Luther_King_Jr.'
 twitter: ''
 instagram: ''
 tiktok: ''
+wikidata_qid: 'Q8027'
+imdb_id: 'nm0455052'
+birth_date: '1929-01-15'
+birth_place: 'Atlanta, Georgia, USA'
+nationality: 'American'
+occupation:
+  - 'Baptist minister'
+  - 'Civil rights advocate'
+  - 'Pastor'
+  - 'Writer'
+  - 'Human rights defender'
+knows_about:
+  - 'American civil rights movement'
+  - 'Nonviolent resistance'
+  - 'Christian theology and Baptist ministry'
+  - 'Southern Christian Leadership Conference'
+  - 'Racial and economic justice'
+  - 'Vietnam War opposition'
+keywords:
+  - 'Martin Luther King Jr Enneagram'
+  - 'MLK personality type'
+  - 'Martin Luther King Type 8'
+  - 'civil rights leader personality'
+  - 'Enneagram Type 8 activist'
+  - 'MLK psychology'
+same_as:
+  - 'https://en.wikipedia.org/wiki/Martin_Luther_King_Jr.'
+  - 'https://www.wikidata.org/wiki/Q8027'
+  - 'https://www.imdb.com/name/nm0455052/'
+citations:
+  - 'https://en.wikipedia.org/wiki/Martin_Luther_King_Jr.'
+  - 'https://www.britannica.com/biography/Martin-Luther-King-Jr'
+  - 'https://kinginstitute.stanford.edu/martin-luther-king-jr-biography'
+faqs:
+  - question: "What was Martin Luther King Jr.'s personality type?"
+    answer: "King maps onto Enneagram Type 8, the Challenger — a protector whose righteous anger got channeled into nonviolent discipline. The Type 8's gift is confronting injustice head-on without flinching; King's innovation was aiming that raw confrontational energy at systems instead of individuals."
+    anchor: 'what-was-martin-luther-king-jrs-personality-type'
+  - question: 'Was Martin Luther King Jr. really a Type 1 instead of a Type 8?'
+    answer: "Type 1s reform from moral duty; Type 8s protect from raw confrontation. King did both — but his operating system was confrontational first, moral-framing second. He didn't write 'Letter from Birmingham Jail' to persuade by reason; he wrote it to name who the adversary was and why he would not back down. That's Type 8, not Type 1."
+    anchor: 'isnt-he-really-a-type-1'
 path: src/blog/people/drafts/Martin-Luther-King-Jr.md
 content_quality:
   hook: 9

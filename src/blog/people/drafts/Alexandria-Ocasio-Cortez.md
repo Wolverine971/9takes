@@ -26,6 +26,53 @@ wikipedia: 'https://en.wikipedia.org/wiki/Alexandria_Ocasio-Cortez'
 twitter: 'AOC'
 instagram: 'aoc'
 tiktok: ''
+wikidata_qid: 'Q55223040'
+imdb_id: 'nm9936326'
+birth_date: '1989-10-13'
+birth_place: 'The Bronx, New York City, USA'
+nationality: 'American'
+occupation:
+  - 'Politician'
+  - 'U.S. Representative'
+  - 'Social activist'
+  - 'Public speaker'
+  - 'Community organizer'
+knows_about:
+  - 'United States politics'
+  - 'Progressive policy'
+  - 'Climate change policy'
+  - 'Medicare for All'
+  - 'Economic justice'
+  - 'Community organizing'
+keywords:
+  - 'Alexandria Ocasio-Cortez Enneagram type'
+  - 'AOC personality'
+  - 'AOC Enneagram Type 6'
+  - 'Ocasio-Cortez Loyal Skeptic'
+  - 'Enneagram Type 6 politician'
+  - 'AOC psychology analysis'
+  - 'AOC 6w7 personality'
+same_as:
+  - 'https://en.wikipedia.org/wiki/Alexandria_Ocasio-Cortez'
+  - 'https://www.wikidata.org/wiki/Q55223040'
+  - 'https://www.imdb.com/name/nm9936326/'
+  - 'https://twitter.com/AOC'
+  - 'https://www.instagram.com/aoc/'
+  - 'https://ocasio-cortez.house.gov/'
+citations:
+  - 'https://en.wikipedia.org/wiki/Alexandria_Ocasio-Cortez'
+  - 'https://ocasio-cortez.house.gov/'
+  - 'https://www.britannica.com/biography/Alexandria-Ocasio-Cortez'
+faqs:
+  - question: "What is Alexandria Ocasio-Cortez's personality type?"
+    answer: "AOC is an Enneagram Type 6 — the Loyal Skeptic. Type 6s commit deeply to their beliefs, anticipate problems before others see them, and show fierce loyalty to their communities. The core fear — being without support when everything falls apart — doesn't make AOC cautious; it makes her dangerous, because every policy she champions is a safety net thrown wider."
+    anchor: 'what-is-alexandria-ocasio-cortezs-personality-type'
+  - question: 'How did AOC get from bartender to Congress?'
+    answer: 'AOC was tending bar at Flats Fix in Union Square when Brand New Congress recruited her to run against ten-term incumbent Joe Crowley. With no money, no establishment backing, and a shoestring volunteer operation, she beat him in the 2018 primary — one of the biggest upsets in modern congressional history — and became the youngest woman ever elected to Congress.'
+    anchor: 'from-bartender-to-congress'
+  - question: 'What did AOC study at Boston University?'
+    answer: "At Boston University, Ocasio-Cortez studied international relations and economics and also worked in Senator Ted Kennedy's immigration office. Her father's death from lung cancer pushed her away from a pre-med path and toward public health, economics, and policy."
+    anchor: 'boston-university-and-the-ted-kennedy-connection'
 path: src/blog/people/drafts/Alexandria-Ocasio-Cortez.md
 content_quality:
   hook: 9

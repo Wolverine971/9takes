@@ -2,7 +2,7 @@
 title: 'Zohran Mamdani: Three Continents, No Home, and a Need to Belong'
 meta_title: "Why Zohran Mamdani Can't Stop Showing Up for Everyone"
 persona_title: "New York's Devoted Outsider"
-description: "Three continents by age seven. A failed rapper named Young Cardamom. Then Zohran Mamdani became NYC's youngest mayor — driven by the psychology of belonging."
+description: "Three continents by age seven. A failed rapper named Young Cardamom. Then Zohran Mamdani became NYC's youngest mayor in generations — driven by the psychology of belonging."
 author: 'DJ Wayne'
 date: '2026-02-18'
 loc: 'https://9takes.com/personality-analysis/Zohran-Mamdani'
@@ -15,9 +15,52 @@ type: ['politician']
 person: 'Zohran-Mamdani'
 suggestions: ['Alexandria-Ocasio-Cortez', 'Gavin-Newsom', 'Kamala-Harris', 'Nancy-Pelosi']
 wikipedia: 'https://en.wikipedia.org/wiki/Zohran_Mamdani'
-twitter: '@ZohranKMamdani'
-instagram: '@zohran'
-tiktok: '@zohran_k_mamdani'
+twitter: 'ZohranKMamdani'
+instagram: 'zohrankmamdani'
+tiktok: 'zohran_k_mamdani'
+wikidata_qid: 'Q28034971'
+imdb_id: 'nm8421715'
+birth_date: '1991-10-18'
+birth_place: 'Kampala, Uganda'
+nationality: 'Ugandan-American'
+occupation:
+  - 'Politician'
+  - 'Mayor of New York City'
+  - 'Housing counselor'
+  - 'Social activist'
+  - 'Rapper'
+knows_about:
+  - 'New York City politics'
+  - 'Democratic socialism'
+  - 'Housing and tenant rights'
+  - 'Foreclosure prevention'
+  - 'Immigrant and South Asian American advocacy'
+  - 'State Assembly legislation'
+keywords:
+  - 'Zohran Mamdani Enneagram'
+  - 'Zohran Mamdani personality type'
+  - 'Zohran Mamdani Type 2'
+  - 'NYC mayor personality'
+  - 'Enneagram Type 2 politician'
+  - 'Zohran Mamdani psychology'
+same_as:
+  - 'https://en.wikipedia.org/wiki/Zohran_Mamdani'
+  - 'https://www.wikidata.org/wiki/Q28034971'
+  - 'https://www.imdb.com/name/nm8421715/'
+  - 'https://twitter.com/ZohranKMamdani'
+  - 'https://www.instagram.com/zohrankmamdani/'
+  - 'https://www.nyc.gov/mayor'
+citations:
+  - 'https://en.wikipedia.org/wiki/Zohran_Mamdani'
+  - 'https://www.wikidata.org/wiki/Q28034971'
+  - 'https://www.nyc.gov/mayor'
+faqs:
+  - question: "What is Zohran Mamdani's personality type?"
+    answer: 'Mamdani maps onto Enneagram Type 2, the Helper — a politician whose displacement-fueled need to belong turned into a career built on showing up for other people. His door-knocking, his focus on the price of chicken over rice, his refusal to lead with credentials: all textbook Type 2 moves where identity gets built through service.'
+    anchor: 'what-is-zohran-mamdanis-personality-type'
+  - question: 'What did rap teach Zohran Mamdani about being a politician?'
+    answer: "Before politics, Mamdani made music as Young Cardamom — and the failure taught him the Type 2 discipline that shows up in his political career now: you don't win by demanding attention, you win by paying attention. The rapper learned what the canvasser later used: show up, listen, and let the audience tell you what they need."
+    anchor: 'what-rap-taught-the-future-mayor'
 path: src/blog/people/drafts/Zohran-Mamdani.md
 ---
 
@@ -31,7 +74,7 @@ Mira Nair, Oscar-nominated filmmaker, director of _Monsoon Wedding_ and _The Nam
 
 Her son learned that from somewhere.
 
-**Zohran Kwame Mamdani** became the 111th mayor of New York City on January 1, 2026, the youngest in over a century, the first Muslim, the first South Asian. He won by talking about the price of chicken over rice. But the real story isn't the viral videos or the upset over Andrew Cuomo. It's the pattern underneath: what happens when a personality built on giving meets a job where you can't give everyone what they want.
+**Zohran Kwame Mamdani** became the 112th mayor of New York City on January 1, 2026, the youngest in over a century, the first Muslim, the first South Asian. He won by talking about the price of chicken over rice. But the real story isn't the viral videos or the upset over Andrew Cuomo. It's the pattern underneath: what happens when a personality built on giving meets a job where you can't give everyone what they want.
 
 <details>
 <summary class="accordion">TL;DR: Why Zohran Mamdani is an Enneagram Type 2</summary>

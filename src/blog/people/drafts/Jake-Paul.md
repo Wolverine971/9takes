@@ -13,7 +13,7 @@ published: false
 enneagram: 3
 type: ['creator']
 person: 'Jake-Paul'
-suggestions: ['Logan-Paul', 'Alex-Hormozi', 'Gary-Vee', 'Donald-Trump']
+suggestions: ['Logan-Paul', 'Conor-McGregor', 'Alex-Hormozi', 'Donald-Trump']
 wikipedia: 'https://en.wikipedia.org/wiki/Jake_Paul'
 twitter: 'jakepaul'
 instagram: 'jakepaul'

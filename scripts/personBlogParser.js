@@ -67,7 +67,18 @@ dotenv.config();
  *   tiktok: string,
  *   content: string,
  *   jsonld_snippet: JsonLdSnippet | null,
- *   content_quality?: ContentQuality | null
+ *   content_quality?: ContentQuality | null,
+ *   keywords?: string[] | null,
+ *   same_as?: string[] | null,
+ *   faqs?: Array<{ question: string, answer: string, anchor?: string }> | null,
+ *   wikidata_qid?: string | null,
+ *   imdb_id?: string | null,
+ *   birth_date?: string | null,
+ *   birth_place?: string | null,
+ *   nationality?: string | null,
+ *   occupation?: string[] | null,
+ *   knows_about?: string[] | null,
+ *   citations?: string[] | null
  * }} BlogRecord
  */
 
@@ -277,6 +288,194 @@ export function normalizeContentQuality(raw) {
 	if (gradedAt !== null) normalized.graded_at = gradedAt;
 
 	return Object.keys(normalized).length > 0 ? normalized : undefined;
+}
+
+/**
+ * @typedef {{ question: string, answer: string, anchor?: string }} NormalizedFaq
+ */
+
+/**
+ * Normalize an array of strings: trim, drop empty, dedupe case-insensitively.
+ * Returns null for empty/non-array input so callers can skip the DB column.
+ * @param {unknown} raw
+ * @returns {string[] | null}
+ */
+export function normalizeStringArray(raw) {
+	if (!Array.isArray(raw)) return null;
+	const seen = new Set();
+	const out = [];
+	for (const item of raw) {
+		if (typeof item !== 'string') continue;
+		const trimmed = item.trim();
+		if (!trimmed) continue;
+		const key = trimmed.toLowerCase();
+		if (seen.has(key)) continue;
+		seen.add(key);
+		out.push(trimmed);
+	}
+	return out.length > 0 ? out : null;
+}
+
+/**
+ * Validate and normalize a single absolute HTTPS URL.
+ * Rejects sentinel values ("none", "n/a"), blank, non-URL, non-HTTPS.
+ * @param {unknown} value
+ * @returns {string | null}
+ */
+function normalizeHttpsUrl(value) {
+	if (typeof value !== 'string') return null;
+	const trimmed = value.trim();
+	if (!trimmed) return null;
+	const lower = trimmed.toLowerCase();
+	if (lower === 'none' || lower === 'n/a') return null;
+	try {
+		const url = new URL(trimmed);
+		if (url.protocol !== 'https:') return null;
+		return url.toString();
+	} catch {
+		return null;
+	}
+}
+
+/**
+ * Normalize a list of HTTPS URLs (used for same_as and citations):
+ * HTTPS only, dedupe case-insensitively, ignoring trailing slash.
+ * @param {unknown} raw
+ * @param {string} [fieldLabel]
+ * @returns {string[] | null}
+ */
+export function normalizeUrlArray(raw, fieldLabel = 'url_array') {
+	if (!Array.isArray(raw)) return null;
+	const seen = new Set();
+	const out = [];
+	for (const item of raw) {
+		const url = normalizeHttpsUrl(item);
+		if (!url) {
+			if (typeof item === 'string' && item.trim()) {
+				console.warn(`[${fieldLabel}] rejected non-HTTPS or invalid URL: ${item}`);
+			}
+			continue;
+		}
+		const key = url.toLowerCase().replace(/\/$/, '');
+		if (seen.has(key)) continue;
+		seen.add(key);
+		out.push(url);
+	}
+	return out.length > 0 ? out : null;
+}
+
+/**
+ * Validate Wikidata QID against ^Q[1-9]\d*$ (matches DB CHECK constraint).
+ * @param {unknown} raw
+ * @param {string} [personSlug]
+ * @returns {string | null}
+ */
+export function normalizeWikidataQid(raw, personSlug = '') {
+	if (raw === null || raw === undefined || raw === '') return null;
+	if (typeof raw !== 'string') return null;
+	const trimmed = raw.trim();
+	if (!trimmed) return null;
+	if (!/^Q[1-9]\d*$/.test(trimmed)) {
+		console.warn(`[${personSlug || 'wikidata_qid'}] rejected invalid QID: ${raw}`);
+		return null;
+	}
+	return trimmed;
+}
+
+/**
+ * Validate IMDb nconst against ^nm\d+$ (matches DB CHECK constraint).
+ * @param {unknown} raw
+ * @param {string} [personSlug]
+ * @returns {string | null}
+ */
+export function normalizeImdbId(raw, personSlug = '') {
+	if (raw === null || raw === undefined || raw === '') return null;
+	if (typeof raw !== 'string') return null;
+	const trimmed = raw.trim();
+	if (!trimmed) return null;
+	if (!/^nm\d+$/.test(trimmed)) {
+		console.warn(`[${personSlug || 'imdb_id'}] rejected invalid IMDb id: ${raw}`);
+		return null;
+	}
+	return trimmed;
+}
+
+/**
+ * Validate ISO 8601 YYYY-MM-DD birth_date. Handles both string and Date input
+ * (YAML auto-parses unquoted YYYY-MM-DD into a Date object).
+ * @param {unknown} raw
+ * @param {string} [personSlug]
+ * @returns {string | null}
+ */
+export function normalizeBirthDate(raw, personSlug = '') {
+	if (raw === null || raw === undefined || raw === '') return null;
+	if (raw instanceof Date && !Number.isNaN(raw.getTime())) {
+		return raw.toISOString().slice(0, 10);
+	}
+	if (typeof raw !== 'string') return null;
+	const trimmed = raw.trim();
+	if (!/^\d{4}-\d{2}-\d{2}$/.test(trimmed)) {
+		console.warn(`[${personSlug || 'birth_date'}] rejected non-ISO date: ${raw}`);
+		return null;
+	}
+	const parsed = new Date(`${trimmed}T00:00:00Z`);
+	if (Number.isNaN(parsed.getTime())) {
+		console.warn(`[${personSlug || 'birth_date'}] rejected unparseable date: ${raw}`);
+		return null;
+	}
+	return trimmed;
+}
+
+/**
+ * Trim a string field; return null if empty or non-string.
+ * @param {unknown} raw
+ * @returns {string | null}
+ */
+export function normalizeTrimmedString(raw) {
+	if (typeof raw !== 'string') return null;
+	const trimmed = raw.trim();
+	return trimmed ? trimmed : null;
+}
+
+/**
+ * Normalize FAQs: require non-empty question + answer strings. Drop invalid
+ * items with a warning. Dedupe by lowercase question. Optional anchor kept
+ * when present.
+ *
+ * Note: the plan calls for a visible-source validation pass (heading/QuickAnswer/
+ * details match in the rendered body) before emission. Authors are expected
+ * to only write FAQs backed by visible content; a lightweight body-scan check
+ * can be added as a follow-up once the content flow settles.
+ *
+ * @param {unknown} raw
+ * @param {string} [personSlug]
+ * @returns {NormalizedFaq[] | null}
+ */
+export function normalizeFaqs(raw, personSlug = '') {
+	if (!Array.isArray(raw)) return null;
+	const seen = new Set();
+	const out = [];
+	for (const item of raw) {
+		if (!item || typeof item !== 'object' || Array.isArray(item)) continue;
+		const record = /** @type {Record<string, unknown>} */ (item);
+		const question = typeof record.question === 'string' ? record.question.trim() : '';
+		const answer = typeof record.answer === 'string' ? record.answer.trim() : '';
+		if (!question || !answer) {
+			console.warn(
+				`[${personSlug || 'faqs'}] dropped FAQ missing question or answer: ${JSON.stringify(item)}`
+			);
+			continue;
+		}
+		const key = question.toLowerCase();
+		if (seen.has(key)) continue;
+		seen.add(key);
+		/** @type {NormalizedFaq} */
+		const normalized = { question, answer };
+		const anchor = typeof record.anchor === 'string' ? record.anchor.trim() : '';
+		if (anchor) normalized.anchor = anchor;
+		out.push(normalized);
+	}
+	return out.length > 0 ? out : null;
 }
 
 /**
@@ -526,6 +725,24 @@ export async function parseMarkdownFile(filePath) {
 	// Clean up content
 	const cleanedContent = cleanupContent(content);
 
+	// New structured-data fields (Phase 2 of people-jsonld-unification).
+	// Each field is optional and validated; invalid items are dropped with a
+	// warning so a typo in one field never blocks the whole push.
+	const keywords = normalizeStringArray(data.keywords);
+	const same_as = normalizeUrlArray(data.same_as, `${normalizedPerson || 'same_as'}:same_as`);
+	const faqs = normalizeFaqs(data.faqs, normalizedPerson);
+	const wikidata_qid = normalizeWikidataQid(data.wikidata_qid, normalizedPerson);
+	const imdb_id = normalizeImdbId(data.imdb_id, normalizedPerson);
+	const birth_date = normalizeBirthDate(data.birth_date, normalizedPerson);
+	const birth_place = normalizeTrimmedString(data.birth_place);
+	const nationality = normalizeTrimmedString(data.nationality);
+	const occupation = normalizeStringArray(data.occupation);
+	const knows_about = normalizeStringArray(data.knows_about);
+	const citations = normalizeUrlArray(
+		data.citations,
+		`${normalizedPerson || 'citations'}:citations`
+	);
+
 	// Create the database record
 	return {
 		title: data.title || '',
@@ -552,6 +769,17 @@ export async function parseMarkdownFile(filePath) {
 		content: cleanedContent,
 		jsonld_snippet,
 		content_quality: normalizedContentQuality,
+		keywords,
+		same_as,
+		faqs,
+		wikidata_qid,
+		imdb_id,
+		birth_date,
+		birth_place,
+		nationality,
+		occupation,
+		knows_about,
+		citations,
 		_has_content_quality: hasContentQualityField,
 		_has_valid_content_quality: hasValidContentQuality
 	};
@@ -1048,7 +1276,18 @@ async function insertIntoSupabase(entries, options = {}) {
 		tiktok: '',
 		content: '',
 		jsonld_snippet: null,
-		content_quality: null
+		content_quality: null,
+		keywords: null,
+		same_as: null,
+		faqs: null,
+		wikidata_qid: null,
+		imdb_id: null,
+		birth_date: null,
+		birth_place: null,
+		nationality: null,
+		occupation: null,
+		knows_about: null,
+		citations: null
 	};
 
 	for (const entry of entries) {

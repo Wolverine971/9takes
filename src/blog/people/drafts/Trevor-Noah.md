@@ -274,7 +274,7 @@ Since leaving The Daily Show, Trevor Noah has not slowed down. He has accelerate
 
 His "Where Was I" comedy special sold out the Hollywood Bowl, ten consecutive Beacon Theatre shows, three O2 Arena dates in London, and set a record for the most tickets sold by a non-German comedian in Berlin. It was nominated for a Grammy, an Emmy, and a Golden Globe.
 
-His production company Day Zero, a joint venture with Paramount, has a film adaptation of _Born a Crime_ in development starring Lupita Nyong'o, plus a biopic of 8-year-old Nigerian chess champion Tanitoluwa Adewumi and a reimagining of _The President's Analyst_.
+His production company Day Zero, a joint venture with Paramount, has a film adaptation of _Born a Crime_ in development starring [Lupita Nyong'o](/personality-analysis/Lupita-Nyongo), plus a biopic of 8-year-old Nigerian chess champion Tanitoluwa Adewumi and a reimagining of _The President's Analyst_.
 
 His children's book _Into the Uncut Grass_ became a #1 New York Times bestseller, a story about a child who ventures beyond the familiar into the wild unknown. The uncut grass, Trevor explained, represents "an area that is not traversed, that holds a whole lot of mystery." For the boy who was locked indoors for his own safety, the uncut grass isn't an adventure. It's the place where no one has written the rules yet. For a Six, that's both the most terrifying and the most liberating place to be.
 

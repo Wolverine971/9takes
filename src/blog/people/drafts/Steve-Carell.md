@@ -13,7 +13,7 @@ published: true
 enneagram: '9'
 type: ['celebrity', 'movieStar', 'comedian']
 person: 'Steve-Carell'
-suggestions: ['Jon-Stewart', 'Paul-Rudd', 'Keanu-Reeves', 'Ryan-Gosling', 'Dave-Chappelle']
+suggestions: ['Jon-Stewart', 'Stephen-Colbert', 'Paul-Rudd', 'Keanu-Reeves', 'Ryan-Gosling']
 wikipedia: 'https://en.wikipedia.org/wiki/Steve_Carell'
 twitter: 'https://twitter.com/SteveCarell'
 instagram: 'https://instagram.com/stevecarell'
@@ -129,7 +129,7 @@ That is the most Type-9-parenting moment in the entire biography. A Nine who can
 
 Chicago is where the pattern stopped being a childhood habit and became an adult identity.
 
-At Second City in the early 1990s, Carell did something that reads like a joke only in retrospect: his understudy — the guy hired to replace him when he couldn't do the Mainstage show — was a young actor named Stephen Colbert. Not Colbert the future political satirist. Colbert the cash-strapped kid who had taken a job at the Second City box office in exchange for free improv classes. Carell and Colbert became lifelong friends. Years later, when Colbert was asked to describe Carell in an interview, he produced what is still the single best description of Carell's presence anyone has ever written:
+At Second City in the early 1990s, Carell did something that reads like a joke only in retrospect: his understudy — the guy hired to replace him when he couldn't do the Mainstage show — was a young actor named [Stephen Colbert](/personality-analysis/Stephen-Colbert). Not Colbert the future political satirist. Colbert the cash-strapped kid who had taken a job at the Second City box office in exchange for free improv classes. Carell and Colbert became lifelong friends. Years later, when Colbert was asked to describe Carell in an interview, he produced what is still the single best description of Carell's presence anyone has ever written:
 
 > "Steve is beige against a tan wall."
 

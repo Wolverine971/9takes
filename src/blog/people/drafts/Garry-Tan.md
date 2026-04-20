@@ -13,7 +13,7 @@ published: true
 enneagram: 6
 type: ['techie']
 person: 'Garry-Tan'
-suggestions: ['Peter-Thiel', 'David-Sacks', 'Chamath-Palihapitiya', 'Jason-Calacanis']
+suggestions: ['Michael-Seibel', 'Dalton-Caldwell', 'Paul-Graham', 'Peter-Thiel', 'David-Sacks']
 wikipedia: 'https://en.wikipedia.org/wiki/Garry_Tan'
 twitter: 'garrytan'
 instagram: 'garrytan'

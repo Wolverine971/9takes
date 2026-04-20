@@ -16,8 +16,57 @@ person: 'JD-Vance'
 suggestions: ['Donald-Trump', 'Peter-Thiel', 'Tucker-Carlson', 'Gavin-Newsom']
 wikipedia: 'https://en.wikipedia.org/wiki/JD_Vance'
 twitter: 'JDVance'
-instagram: 'jd_vance'
+instagram: 'jdvance'
 tiktok: ''
+wikidata_qid: 'Q28935729'
+imdb_id: 'nm8577419'
+birth_date: '1984-08-02'
+birth_place: 'Middletown, Ohio, USA'
+nationality: 'American'
+occupation:
+  - 'Politician'
+  - 'Vice President of the United States'
+  - 'Writer'
+  - 'Lawyer'
+  - 'Venture capitalist'
+  - 'Marine Corps veteran'
+knows_about:
+  - 'Appalachian culture'
+  - 'American populism'
+  - 'Venture capital'
+  - 'Post-industrial Midwest'
+  - 'Marine Corps service'
+  - 'Catholic conservatism'
+  - 'MAGA political coalition'
+keywords:
+  - 'JD Vance Enneagram 3'
+  - 'JD Vance personality type'
+  - 'Enneagram type 3 politician'
+  - 'Vance psychology'
+  - 'Achiever personality Vice President'
+  - 'Hillbilly Elegy author personality'
+  - 'JD Vance character analysis'
+same_as:
+  - 'https://en.wikipedia.org/wiki/JD_Vance'
+  - 'https://www.wikidata.org/wiki/Q28935729'
+  - 'https://www.imdb.com/name/nm8577419/'
+  - 'https://www.whitehouse.gov/administration/jd-vance/'
+  - 'https://twitter.com/JDVance'
+  - 'https://www.instagram.com/jdvance/'
+citations:
+  - 'https://en.wikipedia.org/wiki/JD_Vance'
+  - 'https://www.whitehouse.gov/administration/jd-vance/'
+  - 'https://www.britannica.com/biography/J-D-Vance'
+faqs:
+  - question: 'How did the Marines shape JD Vance?'
+    answer: "The Marines gave Vance the first operating system that reliably worked: show up, perform, get graded, get promoted. For an Enneagram Type 3, that's catnip — a clean feedback loop that converts effort into status, and a uniform that tells the world you've made it."
+    anchor: 'the-marine-template'
+  - question: "How did 'Hillbilly Elegy' launch JD Vance's career?"
+    answer: "Hillbilly Elegy didn't just tell Vance's story — it branded him. That's a Type 3 instinct: package the life into a product, let the product do the networking, and use the resulting access to climb to the next room. The memoir was the launchpad, not the destination."
+    anchor: 'the-book-that-built-a-brand'
+  - question: 'Why does JD Vance shift political positions so often?'
+    answer: "Vance's public pivots — never-Trumper to Trump VP, Silicon Valley liberal circles to MAGA populist — aren't incoherence; they're the Type 3 reading the room. The Achiever becomes whatever the room rewards, because the self underneath is built around winning, not around a fixed ideology."
+    anchor: 'the-mask-and-the-man-beneath-it'
 path: src/blog/people/drafts/JD-Vance.md
 content_quality:
   hook: 10

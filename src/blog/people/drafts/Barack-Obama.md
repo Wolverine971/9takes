@@ -27,6 +27,54 @@ content_quality:
   overall: 8.9
   letter: 'B+'
   graded_at: '2026-03-27'
+wikidata_qid: 'Q76'
+imdb_id: 'nm1682433'
+birth_date: '1961-08-04'
+birth_place: 'Honolulu, Hawaii, USA'
+nationality: 'American'
+occupation:
+  - 'Politician'
+  - 'President of the United States'
+  - 'Lawyer'
+  - 'Author'
+  - 'Community organizer'
+  - 'Law professor'
+knows_about:
+  - 'United States politics'
+  - 'Constitutional law'
+  - 'Community organizing'
+  - 'Presidential leadership'
+  - 'Healthcare policy'
+  - 'Race and identity in America'
+keywords:
+  - 'Barack Obama Enneagram type'
+  - 'Barack Obama personality'
+  - 'Barack Obama Type 9'
+  - 'Enneagram Type 9 president'
+  - 'No Drama Obama personality'
+  - 'Obama psychology analysis'
+  - 'Obama Peacemaker personality type'
+same_as:
+  - 'https://en.wikipedia.org/wiki/Barack_Obama'
+  - 'https://www.wikidata.org/wiki/Q76'
+  - 'https://www.imdb.com/name/nm1682433/'
+  - 'https://twitter.com/BarackObama'
+  - 'https://www.instagram.com/barackobama/'
+  - 'https://www.obama.org/'
+citations:
+  - 'https://en.wikipedia.org/wiki/Barack_Obama'
+  - 'https://millercenter.org/president/obama'
+  - 'https://obamawhitehouse.archives.gov/administration/president-obama'
+faqs:
+  - question: "What is Barack Obama's personality type?"
+    answer: "Barack Obama is an Enneagram Type 9 with a One wing — the Peacemaker whose capacity to hold every perspective was forged by a childhood spent between cultures. No Drama Obama wasn't marketing; it was a Type 9's trained composure converted into political brand."
+    anchor: 'what-is-barack-obamas-personality-type'
+  - question: "Why was Obama called 'No Drama Obama'?"
+    answer: "The nickname came from General Tony McPeak in 2008 and stuck because Obama's entire public life radiated an eerie steadiness. As Jen Psaki observed: during the most difficult moments, that's when he was the calmest. But the composure came at a cost — anger that only broke through after Sandy Hook."
+    anchor: 'no-drama-obama-and-what-the-composure-cost'
+  - question: 'What was Obama like growing up between worlds?'
+    answer: "Born in Hawaii to a Kenyan father and a Kansas mother, raised partly in Indonesia, Obama learned early to slip back and forth between his black and white worlds. That cross-cultural code-switching became the foundation of the Type 9's perspective-taking gift — and the source of the identity questions he later admitted he tried to numb."
+    anchor: 'the-boy-between-worlds'
 path: src/blog/people/drafts/Barack-Obama.md
 ---
 

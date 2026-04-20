@@ -27,6 +27,49 @@ content_quality:
   overall: 9.0
   letter: 'A'
   graded_at: '2026-03-21'
+wikidata_qid: 'Q170581'
+birth_date: '1940-03-26'
+birth_place: 'Baltimore, Maryland, USA'
+nationality: 'American'
+occupation:
+  - 'Politician'
+  - 'Speaker of the U.S. House of Representatives'
+  - 'Legislator'
+knows_about:
+  - 'US House of Representatives'
+  - 'Democratic Party leadership'
+  - 'Legislative vote counting'
+  - 'Appropriations and budget politics'
+  - 'Campaign fundraising'
+  - 'San Francisco politics'
+keywords:
+  - 'Nancy Pelosi Enneagram'
+  - 'Nancy Pelosi Type 3'
+  - 'Nancy Pelosi personality'
+  - 'Nancy Pelosi psychology'
+  - 'Speaker Pelosi power'
+  - 'Enneagram 3 politician'
+  - 'Pelosi favor file'
+same_as:
+  - 'https://en.wikipedia.org/wiki/Nancy_Pelosi'
+  - 'https://www.wikidata.org/wiki/Q170581'
+  - 'https://twitter.com/SpeakerPelosi'
+  - 'https://www.instagram.com/speakerpelosi/'
+  - 'https://pelosi.house.gov/'
+citations:
+  - 'https://en.wikipedia.org/wiki/Nancy_Pelosi'
+  - 'https://pelosi.house.gov/'
+  - 'https://history.house.gov/People/Detail/19167'
+faqs:
+  - question: "What is Nancy Pelosi's personality type?"
+    answer: 'Pelosi maps onto Enneagram Type 3, the Achiever — a disciplined operator who translated her Baltimore upbringing into a vote-counting, favor-tracking, results-obsessed style of leadership that made her the most effective Speaker in modern memory.'
+    anchor: 'what-is-nancy-pelosis-personality-type'
+  - question: "How did the Baltimore D'Alesandro machine shape Nancy Pelosi?"
+    answer: "Growing up as the daughter of Baltimore mayor Thomas D'Alesandro, Pelosi absorbed the favor file — a precise ledger of who helped whom — and turned it into the operating system she later ran in Congress."
+    anchor: 'the-dalesandro-machine-where-service-became-strategy'
+  - question: 'How did Nancy Pelosi nudge Joe Biden out of the 2024 race?'
+    answer: "The quiet, surgical pressure campaign that nudged Biden out of the 2024 race was vintage Pelosi: no leaks, no on-camera attacks, just the Three's understanding that winning requires protecting the brand of the team, not any one member."
+    anchor: 'the-art-of-the-exit-biden-2024'
 path: src/blog/people/drafts/Nancy-Pelosi.md
 ---
 

@@ -27,6 +27,50 @@ content_quality:
   overall: 9.1
   letter: A
   graded_at: '2026-03-28'
+wikidata_qid: 'Q207'
+imdb_id: 'nm0124133'
+birth_date: '1946-07-06'
+birth_place: 'New Haven, Connecticut, USA'
+nationality: 'American'
+occupation:
+  - 'Politician'
+  - 'President of the United States'
+  - 'Businessperson'
+  - 'Military officer'
+knows_about:
+  - 'American politics'
+  - 'Republican Party'
+  - 'War on Terror'
+  - 'Texas governance'
+  - 'Faith-based leadership'
+  - 'Post-9/11 foreign policy'
+  - 'Addiction recovery'
+keywords:
+  - 'George W. Bush Enneagram 6'
+  - 'George W. Bush personality type'
+  - 'Enneagram type 6 president'
+  - 'Bush 43 psychology'
+  - 'Loyalist personality politicians'
+  - 'George W. Bush character analysis'
+same_as:
+  - 'https://en.wikipedia.org/wiki/George_W._Bush'
+  - 'https://www.wikidata.org/wiki/Q207'
+  - 'https://www.imdb.com/name/nm0124133/'
+  - 'https://www.georgewbushlibrary.gov/'
+citations:
+  - 'https://en.wikipedia.org/wiki/George_W._Bush'
+  - 'https://millercenter.org/president/gwbush'
+  - 'https://www.georgewbushlibrary.gov/'
+faqs:
+  - question: "What is George W. Bush's personality type?"
+    answer: "Based on his pattern of seeking guidance from trusted advisors, his defining loyalty to inner-circle figures, and his decisive-yet-anxious response to 9/11, George W. Bush most closely aligns with Enneagram Type 6 — the Loyalist. It's the personality that scans for threats, values certainty, and leans hard on tight alliances when fear rises."
+    anchor: 'what-is-george-w-bushs-personality-type'
+  - question: "What did Bush's 'I can hear you' moment reveal about his psychology?"
+    answer: "His Ground Zero moment with the bullhorn on September 14, 2001, is a textbook Loyalist move: when fear grips the group, the Type 6 locates the threat, finds a symbol, and commits to the fight. It's where his anxiety converted into steadiness others could stand on."
+    anchor: 'i-can-hear-you'
+  - question: 'How does Bush describe his post-presidency?'
+    answer: "In his post-presidency, Bush has described painting, ranching, and family as giving him a quiet kind of joy — the Type 6's reward for putting down the scanning vigilance of the job and trusting that safety can exist without him holding the line."
+    anchor: 'every-day-has-been-pretty-joyous'
 path: src/blog/people/drafts/George-W-Bush.md
 ---
 

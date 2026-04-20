@@ -13,7 +13,7 @@ published: false
 enneagram: 5
 type: ['techie', 'entrepreneur']
 person: 'David-Friedberg'
-suggestions: ['Peter-Thiel', 'Elon-Musk', 'David-Sacks', 'Jason-Calacanis']
+suggestions: ['Chamath-Palihapitiya', 'David-Sacks', 'Jason-Calacanis', 'Elon-Musk']
 wikipedia: 'https://en.wikipedia.org/wiki/David_Friedberg'
 twitter: 'friedberg'
 instagram: ''
@@ -148,7 +148,7 @@ Friedberg's entire career is a Five's biography.
 
 - **The knowledge-as-safety instinct**: Poker on the resume. Astrophysics at Berkeley. Weather modeling at a startup. Data science for agriculture. Gene editing for crop yields. Each leap goes deeper into more complex systems. A Five doesn't feel safe until they've understood the architecture.
 
-- **The privacy reflex**: Friedberg keeps his personal life almost entirely out of public view. He has a wife, Allison Broude Friedberg, and three children in San Francisco. You'd barely know from anything he's ever said publicly. His co-hosts on the All-In Podcast — Chamath Palihapitiya, [Jason Calacanis](/personality-analysis/Jason-Calacanis), [David Sacks](/personality-analysis/David-Sacks) — are flamingly public personalities. Friedberg is the one who shows up with data.
+- **The privacy reflex**: Friedberg keeps his personal life almost entirely out of public view. He has a wife, Allison Broude Friedberg, and three children in San Francisco. You'd barely know from anything he's ever said publicly. His co-hosts on the All-In Podcast — [Chamath Palihapitiya](/personality-analysis/Chamath-Palihapitiya), [Jason Calacanis](/personality-analysis/Jason-Calacanis), [David Sacks](/personality-analysis/David-Sacks) — are flamingly public personalities. Friedberg is the one who shows up with data.
 
 Under stress, Fives move toward [Type 7](/enneagram-corner/enneagram-type-7) — becoming scattered, impulsive, chasing new stimulations to avoid the anxiety of not knowing enough. You can see this in Friedberg's portfolio: Climate Corporation, Metromile, Eatsa, Cana, Ohalo, The Production Board. The ventures multiply. The scope expands. When the tension between knowing and doing becomes unbearable, a Five starts more projects.
 

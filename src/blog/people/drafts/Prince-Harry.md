@@ -18,6 +18,46 @@ wikipedia: ''
 twitter: ''
 instagram: ''
 tiktok: ''
+wikidata_qid: 'Q152316'
+imdb_id: 'nm1056412'
+birth_date: '1984-09-15'
+birth_place: 'London, England, United Kingdom'
+nationality: 'British'
+occupation:
+  - 'Military officer'
+  - 'Helicopter pilot'
+  - 'Philanthropist'
+  - 'Author'
+knows_about:
+  - 'British Royal Family'
+  - 'Invictus Games and veteran advocacy'
+  - 'Mental health advocacy'
+  - 'Army helicopter piloting'
+  - 'Media and press reform'
+  - 'Archewell philanthropy'
+keywords:
+  - 'Prince Harry Enneagram'
+  - 'Prince Harry personality type'
+  - 'Prince Harry Type 6'
+  - 'Duke of Sussex personality'
+  - 'Enneagram Type 6 royal'
+  - 'Prince Harry psychology'
+same_as:
+  - 'https://en.wikipedia.org/wiki/Prince_Harry,_Duke_of_Sussex'
+  - 'https://www.wikidata.org/wiki/Q152316'
+  - 'https://www.imdb.com/name/nm1056412/'
+  - 'https://sussex.com/'
+citations:
+  - 'https://en.wikipedia.org/wiki/Prince_Harry,_Duke_of_Sussex'
+  - 'https://www.britannica.com/biography/Prince-Harry-British-prince'
+  - 'https://sussex.com/'
+faqs:
+  - question: 'How did Prince Harry choose Meghan — and what does that choice reveal?'
+    answer: "Harry's choice to marry Meghan — and fight the institution to protect her — is the Type 6's loyalty logic made visible. 6s don't bond abstractly; they bond to the person who proves the world is safe with them in it. Meghan became his inner circle; everything outside it became the threat."
+    anchor: 'how-he-chose-meghan--and-what-that-choice-reveals'
+  - question: 'What is Megxit and what risk calculation does it reveal about Prince Harry?'
+    answer: "Megxit wasn't impulsive — it was a Type 6 risk calculation: the institution could not be trusted to protect his family, so the family had to leave the institution. The Loyal Skeptic runs a lifetime cost-benefit analysis on every relationship and every system, and when the balance tips, they walk."
+    anchor: 'megxit-the-risk-calculation-most-people-miss'
 path: src/blog/people/drafts/Prince-Harry.md
 ---
 

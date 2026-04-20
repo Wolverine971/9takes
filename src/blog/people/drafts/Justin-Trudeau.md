@@ -18,6 +18,51 @@ wikipedia: 'https://en.wikipedia.org/wiki/Justin_Trudeau'
 twitter: 'JustinTrudeau'
 instagram: 'justinpjtrudeau'
 tiktok: ''
+wikidata_qid: 'Q3099714'
+imdb_id: 'nm0874040'
+birth_date: '1971-12-25'
+birth_place: 'Ottawa, Ontario, Canada'
+nationality: 'Canadian'
+occupation:
+  - 'Politician'
+  - 'Prime Minister of Canada'
+  - 'Teacher'
+  - 'Actor'
+  - 'Public speaker'
+knows_about:
+  - 'Canadian federal politics'
+  - 'Liberal Party of Canada'
+  - 'Progressive policy branding'
+  - 'Climate policy'
+  - 'Multiculturalism'
+  - 'Public education'
+keywords:
+  - 'Justin Trudeau Enneagram'
+  - 'Justin Trudeau Type 3'
+  - 'Justin Trudeau personality'
+  - 'Justin Trudeau psychology'
+  - 'Canada prime minister personality'
+  - 'Enneagram 3 world leader'
+  - 'Trudeau hope brand'
+same_as:
+  - 'https://en.wikipedia.org/wiki/Justin_Trudeau'
+  - 'https://www.wikidata.org/wiki/Q3099714'
+  - 'https://www.imdb.com/name/nm0874040/'
+  - 'https://twitter.com/JustinTrudeau'
+  - 'https://www.instagram.com/justinpjtrudeau/'
+citations:
+  - 'https://en.wikipedia.org/wiki/Justin_Trudeau'
+  - 'https://www.britannica.com/biography/Justin-Trudeau'
+faqs:
+  - question: "What is Justin Trudeau's personality type?"
+    answer: 'Trudeau maps onto Enneagram Type 3, the Achiever — a politician who built his career on image, optics, and the hope brand, where keeping the face on became both his greatest strength and deepest vulnerability.'
+    anchor: 'what-is-justin-trudeaus-personality-type'
+  - question: 'How did growing up in the spotlight shape Justin Trudeau?'
+    answer: 'As the son of Pierre Elliott Trudeau, Justin grew up inside the residence, the press pool, and the expectation of a national legacy. For a Type 3, that upbringing fused identity with public performance from childhood.'
+    anchor: 'born-into-the-spotlight'
+  - question: 'What does the Halifax tarmac moment reveal about Trudeau?'
+    answer: "The Halifax tarmac moment — where the choreography cracked on camera — captures the Three's core fear: a failure of image in front of the people whose approval you need."
+    anchor: 'a-threes-worst-nightmare-the-tarmac-in-halifax'
 path: src/blog/people/drafts/Justin-Trudeau.md
 content_quality:
   hook: 9

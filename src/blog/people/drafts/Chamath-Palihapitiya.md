@@ -13,7 +13,7 @@ published: false
 enneagram: 3
 type: ['techie']
 person: 'Chamath-Palihapitiya'
-suggestions: ['Elon-Musk', 'David-Sacks', 'Jason-Calacanis', 'Mark-Zuckerberg']
+suggestions: ['David-Sacks', 'Jason-Calacanis', 'David-Friedberg', 'Elon-Musk']
 wikipedia: 'https://en.wikipedia.org/wiki/Chamath_Palihapitiya'
 twitter: 'chaaborhee'
 instagram: ''
@@ -168,7 +168,7 @@ Type 3s are drawn to power not necessarily for ideological reasons, but because 
 
 ## The All-In Besties
 
-Since 2020, Chamath has co-hosted the All-In podcast with [Jason Calacanis](/personality-analysis/Jason-Calacanis), David Sacks, and David Friedberg. They call themselves "besties," a tongue-in-cheek term for their competitive, combative friendship.
+Since 2020, Chamath has co-hosted the All-In podcast with [Jason Calacanis](/personality-analysis/Jason-Calacanis), David Sacks, and [David Friedberg](/personality-analysis/David-Friedberg). They call themselves "besties," a tongue-in-cheek term for their competitive, combative friendship.
 
 This matters more than it might seem. For millions of listeners, podcast Chamath _is_ Chamath. It's the medium through which most people form their entire impression of him. And the group dynamic reveals things that his investor persona carefully conceals.
 

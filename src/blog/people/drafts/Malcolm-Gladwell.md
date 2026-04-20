@@ -13,7 +13,7 @@ published: false
 enneagram: 5
 type: ['author']
 person: 'Malcolm-Gladwell'
-suggestions: ['Bill-Gates', 'Robert-Greene', 'Elon-Musk', 'Sam-Altman']
+suggestions: ['Tyler-Cowen', 'Bill-Gates', 'Robert-Greene', 'Elon-Musk']
 wikipedia: 'https://en.wikipedia.org/wiki/Malcolm_Gladwell'
 twitter: 'gladwell'
 instagram: ''
@@ -84,7 +84,7 @@ His father had what Gladwell calls **"an endless appetite for understanding thro
 
 The Mennonite culture, Gladwell has said, was more formative than his formal Presbyterian upbringing — a community built on simplicity, humility, and participatory governance where no single person "ran the room." Those values — observation over assertion, community over hierarchy — would shape how he asked questions and whose answers he trusted.
 
-And then there was his mother's influence. In conversation with Tyler Cowen, Gladwell drew a distinction between Joyce's public and private selves: she **"wrote the stories she would never tell in public."** A mother who processed her deepest material through writing — privately, carefully, on her own terms.
+And then there was his mother's influence. In conversation with [Tyler Cowen](/personality-analysis/Tyler-Cowen), Gladwell drew a distinction between Joyce's public and private selves: she **"wrote the stories she would never tell in public."** A mother who processed her deepest material through writing — privately, carefully, on her own terms.
 
 Her son would make a career doing the same thing. Just with a bigger audience.
 

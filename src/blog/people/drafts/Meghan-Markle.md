@@ -28,6 +28,50 @@ content_quality:
   overall: 8.9
   letter: B+
   graded_at: '2026-02-20'
+wikidata_qid: 'Q3304418'
+imdb_id: 'nm1620783'
+birth_date: '1981-08-04'
+birth_place: 'Los Angeles, California, USA'
+nationality: 'American'
+occupation:
+  - 'Actress'
+  - 'Author'
+  - 'Activist'
+  - 'Model'
+knows_about:
+  - 'Acting'
+  - "Women's rights"
+  - 'British royal family'
+  - 'Lifestyle media'
+  - 'Mental health advocacy'
+  - 'Philanthropy'
+keywords:
+  - 'Meghan Markle Enneagram type'
+  - 'Meghan Markle personality'
+  - 'Meghan Markle Type 2'
+  - 'Meghan Markle Duchess of Sussex personality'
+  - 'Enneagram Type 2 Helper'
+  - 'Meghan Markle royal family psychology'
+same_as:
+  - 'https://en.wikipedia.org/wiki/Meghan,_Duchess_of_Sussex'
+  - 'https://www.wikidata.org/wiki/Q3304418'
+  - 'https://www.imdb.com/name/nm1620783/'
+  - 'https://www.instagram.com/meghan/'
+  - 'https://sussex.com/meghan-duchess-of-sussex/'
+citations:
+  - 'https://en.wikipedia.org/wiki/Meghan,_Duchess_of_Sussex'
+  - 'https://www.britannica.com/biography/Meghan-Markle'
+  - 'https://sussex.com/meghan-duchess-of-sussex/'
+faqs:
+  - question: "What is Meghan Markle's personality type?"
+    answer: 'Meghan Markle is an Enneagram Type 2, The Helper. The core wound shows up in her own words — leaving the royal family because everyone was obsessed with how it looks but not how it feels — a relational complaint about care, not a Type 3 complaint about blocked achievement.'
+    anchor: 'what-is-meghan-markles-personality-type'
+  - question: 'What did 11-year-old Meghan Markle do to change a commercial?'
+    answer: "At age 11, Meghan wrote letters to four separate authority figures — including Hillary Clinton and soap-maker Procter & Gamble — protesting a sexist dish-soap ad. The company changed the commercial's wording. It was an early preview of the see-what's-wrong, make-yourself-the-person-who-fixes-it pattern that defines Type 2."
+    anchor: 'the-11-year-old-who-changed-a-commercial'
+  - question: 'Why did Meghan Markle leave the royal family?'
+    answer: "The breaking point wasn't career limits — it was the feeling that her suffering didn't matter to the institution. When she sought help for suicidal thoughts during pregnancy, she was told it wouldn't be good for the institution. For a Type 2, being told your pain is inconvenient is the worst wound possible."
+    anchor: 'the-royal-chapter-when-giving-isnt-enough'
 path: src/blog/people/drafts/Meghan-Markle.md
 ---
 

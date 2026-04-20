@@ -18,6 +18,52 @@ wikipedia: 'https://en.wikipedia.org/wiki/Tucker_Carlson'
 twitter: 'TuckerCarlson'
 instagram: ''
 tiktok: ''
+wikidata_qid: 'Q743162'
+imdb_id: 'nm1227121'
+birth_date: '1969-05-16'
+birth_place: 'San Francisco, California, USA'
+nationality: 'American'
+occupation:
+  - 'Television presenter'
+  - 'Journalist'
+  - 'Author'
+  - 'Podcaster'
+  - 'Political commentator'
+knows_about:
+  - 'Cable news commentary'
+  - 'American conservative politics'
+  - 'Foreign policy skepticism'
+  - 'Populist media'
+  - 'Broadcast journalism'
+  - 'Media criticism'
+keywords:
+  - 'Tucker Carlson Enneagram'
+  - 'Tucker Carlson Type 6'
+  - 'Tucker Carlson personality'
+  - 'Tucker Carlson psychology'
+  - 'why Tucker Carlson questions everything'
+  - 'Tucker Carlson Network'
+  - 'Enneagram 6 media figure'
+same_as:
+  - 'https://en.wikipedia.org/wiki/Tucker_Carlson'
+  - 'https://www.wikidata.org/wiki/Q743162'
+  - 'https://www.imdb.com/name/nm1227121/'
+  - 'https://twitter.com/TuckerCarlson'
+  - 'https://tuckercarlson.com/'
+citations:
+  - 'https://en.wikipedia.org/wiki/Tucker_Carlson'
+  - 'https://www.britannica.com/biography/Tucker-Carlson'
+  - 'https://tuckercarlson.com/'
+faqs:
+  - question: "What is Tucker Carlson's personality type?"
+    answer: 'Tucker Carlson maps closely onto Enneagram Type 6, the Skeptic — a counter-phobic Six whose relentless questioning and distrust of institutions stem from early experiences of abandonment and betrayal.'
+    anchor: 'what-is-tucker-carlsons-personality-type'
+  - question: "What shaped Tucker Carlson's distrust of institutions?"
+    answer: "Carlson's mother abandoned the family when he was six and moved to France, never returning. That early betrayal — reinforced later when his father was pushed out by the Bush administration — seeded the distrust that drives his on-air skepticism."
+    anchor: 'the-wound-that-created-americas-skeptic'
+  - question: "How does Tucker Carlson shape Trump's second term?"
+    answer: 'By 2025 Carlson operated the Tucker Carlson Network and became one of the most-cited outside voices shaping Trump administration personnel and foreign-policy debates, especially on questions of war and intervention.'
+    anchor: 'tucker-carlsons-influence-on-trumps-second-term'
 path: src/blog/people/drafts/Tucker-Carlson.md
 ---
 

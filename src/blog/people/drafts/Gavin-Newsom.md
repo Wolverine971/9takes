@@ -27,6 +27,48 @@ content_quality:
   overall: 8.8
   letter: 'B+'
   graded_at: '2026-03-22'
+wikidata_qid: 'Q461391'
+imdb_id: 'nm1821303'
+birth_date: '1967-10-10'
+birth_place: 'San Francisco, California, USA'
+nationality: 'American'
+occupation:
+  - 'Politician'
+  - 'Governor of California'
+  - 'Businessperson'
+  - 'Entrepreneur'
+knows_about:
+  - 'California politics'
+  - 'Democratic Party strategy'
+  - 'Executive leadership'
+  - 'Housing and homelessness policy'
+  - 'Climate and energy policy'
+  - 'Public health policy'
+keywords:
+  - 'Gavin Newsom Enneagram'
+  - 'Gavin Newsom personality type'
+  - 'Gavin Newsom Type 3'
+  - 'California governor personality'
+  - 'Enneagram Type 3 politician'
+  - 'Gavin Newsom psychology'
+same_as:
+  - 'https://en.wikipedia.org/wiki/Gavin_Newsom'
+  - 'https://www.wikidata.org/wiki/Q461391'
+  - 'https://www.imdb.com/name/nm1821303/'
+  - 'https://twitter.com/GavinNewsom'
+  - 'https://www.instagram.com/gavinnewsom/'
+  - 'https://www.gavinnewsom.com/'
+citations:
+  - 'https://en.wikipedia.org/wiki/Gavin_Newsom'
+  - 'https://www.britannica.com/biography/Gavin-Newsom'
+  - 'https://www.gavinnewsom.com/'
+faqs:
+  - question: "What is Gavin Newsom's personality type?"
+    answer: 'Newsom maps onto Enneagram Type 3, the Achiever — a politician built on image, polish, and a clean public persona, where the appearance of effortless competence is itself the product. His arc from dyslexic outsider to San Francisco mayor to California governor is the Type 3 story of converting private inadequacy into public excellence.'
+    anchor: 'what-is-gavin-newsoms-personality-type'
+  - question: "What is the significance of 'The Shack Behind the School' in Gavin Newsom's life?"
+    answer: "The Shack — a symbol from his dyslexic childhood — is where Newsom learned the Type 3 lesson that image can be engineered to outrun reality. The achievement machine he built later, from PlumpJack to the governor's office, runs on the same childhood rule: if you can't be smart the normal way, be polished the visible way."
+    anchor: 'the-shack-behind-the-school'
 path: src/blog/people/drafts/Gavin-Newsom.md
 ---
 

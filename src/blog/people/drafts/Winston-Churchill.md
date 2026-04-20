@@ -19,6 +19,46 @@ twitter: ''
 instagram: ''
 tiktok: ''
 meta_title: 'Why Was Winston Churchill So Intense and So Emotional?'
+wikidata_qid: 'Q8016'
+imdb_id: 'nm0161476'
+birth_date: '1874-11-30'
+birth_place: 'Woodstock, Oxfordshire, United Kingdom'
+nationality: 'British'
+occupation:
+  - 'Politician'
+  - 'Statesman'
+  - 'Writer'
+  - 'Historian'
+  - 'Military officer'
+knows_about:
+  - 'World War II leadership'
+  - 'British parliamentary politics'
+  - 'Military strategy'
+  - 'Historical and biographical writing'
+  - 'Oratory and wartime rhetoric'
+  - 'Anglo-American alliance'
+keywords:
+  - 'Winston Churchill Enneagram'
+  - 'Winston Churchill personality type'
+  - 'Churchill Type 8'
+  - 'British Prime Minister personality'
+  - 'Enneagram Type 8 leader'
+  - 'Churchill psychology'
+same_as:
+  - 'https://en.wikipedia.org/wiki/Winston_Churchill'
+  - 'https://www.wikidata.org/wiki/Q8016'
+  - 'https://www.imdb.com/name/nm0161476/'
+citations:
+  - 'https://en.wikipedia.org/wiki/Winston_Churchill'
+  - 'https://www.britannica.com/biography/Winston-Churchill'
+  - 'https://www.churchillarchive.com/'
+faqs:
+  - question: "What is Winston Churchill's personality type?"
+    answer: 'Churchill maps onto Enneagram Type 8, the Challenger — a leader whose iron will and public tears came from the same source: a refusal to be invisible. The boy who wrote desperate letters to a mother who never answered grew into the man who made sure no one could ever ignore him again.'
+    anchor: 'what-is-winston-churchills-personality-type'
+  - question: "What was Winston Churchill's 'Black Dog' and how did depression affect him?"
+    answer: "The Black Dog was Churchill's term for the severe depression that stalked him for most of his adult life. For a Type 8, depression is especially disorienting because the Challenger's operating system runs on action; when the fuel drops out, the 8 is left with a body built for confrontation and nothing to confront. Churchill's painting, writing, and bricklaying were literal coping structures."
+    anchor: 'winston-churchills-black-dog-and-depression'
 path: src/blog/people/drafts/Winston-Churchill.md
 ---
 

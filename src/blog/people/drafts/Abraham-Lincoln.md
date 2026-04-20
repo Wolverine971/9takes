@@ -18,6 +18,51 @@ wikipedia: 'https://en.wikipedia.org/wiki/Abraham_Lincoln'
 twitter: ''
 instagram: ''
 tiktok: ''
+wikidata_qid: 'Q91'
+imdb_id: 'nm1118823'
+birth_date: '1809-02-12'
+birth_place: 'Hodgenville, Kentucky, USA'
+nationality: 'American'
+occupation:
+  - 'Politician'
+  - 'Lawyer'
+  - 'President of the United States'
+  - 'Statesman'
+  - 'Writer'
+knows_about:
+  - 'American Civil War'
+  - 'Emancipation and abolition'
+  - 'Frontier law practice'
+  - '19th-century American politics'
+  - 'Constitutional interpretation'
+  - 'Wartime leadership'
+  - 'Rhetoric and speechwriting'
+keywords:
+  - 'Abraham Lincoln Enneagram 9'
+  - 'Abraham Lincoln personality type'
+  - 'Enneagram type 9 president'
+  - 'Lincoln psychology'
+  - 'Peacemaker personality leaders'
+  - 'Lincoln melancholy depression'
+  - 'Lincoln character analysis'
+same_as:
+  - 'https://en.wikipedia.org/wiki/Abraham_Lincoln'
+  - 'https://www.wikidata.org/wiki/Q91'
+  - 'https://www.imdb.com/name/nm1118823/'
+citations:
+  - 'https://en.wikipedia.org/wiki/Abraham_Lincoln'
+  - 'https://millercenter.org/president/lincoln'
+  - 'https://www.whitehouse.gov/about-the-white-house/presidents/abraham-lincoln/'
+faqs:
+  - question: "What is Abraham Lincoln's personality type?"
+    answer: "Lincoln's pattern — absorbing opposition into a cabinet, metabolizing anger through unsent letters, holding the Union together through quiet, inclusive persistence — reads as Enneagram Type 9, the Peacemaker: the personality built to merge with others, hold contradictions without collapsing, and use patience as power."
+    anchor: 'what-is-abraham-lincolns-personality-type'
+  - question: 'How did Abraham Lincoln handle anger?'
+    answer: "Lincoln famously wrote hot letters full of rage — and then filed them, unsent. That's a Type 9 move: metabolize the anger privately so the public version stays measured. 9s don't suppress anger because they can't feel it; they suppress it because they've learned it blows up the room."
+    anchor: 'how-abraham-lincoln-handled-anger'
+  - question: 'How did Abraham Lincoln build a team of rivals?'
+    answer: "Appointing Seward, Chase, and Bates — men who'd all run against him — was classic Peacemaker strategy. Type 9s merge with other viewpoints to find the larger picture, and Lincoln used that trait to convert rivals into builders of the same Union."
+    anchor: 'how-abraham-lincoln-built-a-team-of-rivals'
 path: src/blog/people/drafts/Abraham-Lincoln.md
 content_quality:
   hook: 9

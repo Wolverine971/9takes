@@ -10,6 +10,12 @@ import {
 	findUnfinishedDraftMarkers,
 	getMissingPublishFrontmatterFields,
 	getPublishImageStatus,
+	normalizeBirthDate,
+	normalizeFaqs,
+	normalizeImdbId,
+	normalizeStringArray,
+	normalizeUrlArray,
+	normalizeWikidataQid,
 	parseMarkdownFile,
 	resolveFirstPublishedAt,
 	resolveReleaseEventType,
@@ -256,5 +262,78 @@ TODO: add source.
 
 		expect(selected?.entry.person).toBe('candidate-b');
 		expect(candidates[0].blockers).toContain('already_published');
+	});
+
+	describe('JSON-LD frontmatter normalizers', () => {
+		it('trims, drops empty, and dedupes string arrays case-insensitively', () => {
+			expect(normalizeStringArray(['  Pop music ', 'pop music', 'Songwriting', ''])).toEqual([
+				'Pop music',
+				'Songwriting'
+			]);
+			expect(normalizeStringArray([])).toBeNull();
+			expect(normalizeStringArray(null)).toBeNull();
+			expect(normalizeStringArray('not an array')).toBeNull();
+		});
+
+		it('rejects non-HTTPS and invalid URLs and dedupes on trailing slash', () => {
+			expect(
+				normalizeUrlArray([
+					'https://en.wikipedia.org/wiki/Taylor_Swift',
+					'https://en.wikipedia.org/wiki/Taylor_Swift/', // trailing-slash dup
+					'http://insecure.example.com',
+					'not a url',
+					'none',
+					'  ',
+					''
+				])
+			).toEqual(['https://en.wikipedia.org/wiki/Taylor_Swift']);
+			expect(normalizeUrlArray(null)).toBeNull();
+			expect(normalizeUrlArray([])).toBeNull();
+		});
+
+		it('accepts valid Wikidata QIDs and rejects malformed ones', () => {
+			expect(normalizeWikidataQid('Q26876')).toBe('Q26876');
+			expect(normalizeWikidataQid('  Q26876  ')).toBe('Q26876');
+			expect(normalizeWikidataQid('Q')).toBeNull();
+			expect(normalizeWikidataQid('q26876')).toBeNull();
+			expect(normalizeWikidataQid('Q 26876')).toBeNull();
+			expect(normalizeWikidataQid('Q0')).toBeNull();
+			expect(normalizeWikidataQid('')).toBeNull();
+			expect(normalizeWikidataQid(null)).toBeNull();
+		});
+
+		it('accepts valid IMDb nconsts and rejects malformed ones', () => {
+			expect(normalizeImdbId('nm1728342')).toBe('nm1728342');
+			expect(normalizeImdbId('tt1234567')).toBeNull();
+			expect(normalizeImdbId('NM1728342')).toBeNull();
+			expect(normalizeImdbId('')).toBeNull();
+		});
+
+		it('accepts ISO 8601 birth dates as strings and YAML Date objects', () => {
+			expect(normalizeBirthDate('1989-12-13')).toBe('1989-12-13');
+			expect(normalizeBirthDate(new Date('1989-12-13T00:00:00Z'))).toBe('1989-12-13');
+			expect(normalizeBirthDate('12/13/1989')).toBeNull();
+			expect(normalizeBirthDate('not a date')).toBeNull();
+			expect(normalizeBirthDate('')).toBeNull();
+			expect(normalizeBirthDate(null)).toBeNull();
+		});
+
+		it('drops FAQs missing question or answer, dedupes, preserves anchors', () => {
+			expect(
+				normalizeFaqs([
+					{ question: 'Q1?', answer: 'A1.', anchor: 'q1' },
+					{ question: 'Q1?', answer: 'duplicate' },
+					{ question: 'Q2?' },
+					{ answer: 'no question' },
+					{ question: '  ', answer: 'blank question' },
+					{ question: 'Q3?', answer: 'A3.' }
+				])
+			).toEqual([
+				{ question: 'Q1?', answer: 'A1.', anchor: 'q1' },
+				{ question: 'Q3?', answer: 'A3.' }
+			]);
+			expect(normalizeFaqs([])).toBeNull();
+			expect(normalizeFaqs(null)).toBeNull();
+		});
 	});
 });

@@ -16,7 +16,7 @@ export const famousTypes: { [index: number]: { name: string; link: boolean; hasI
 		{ name: 'kourtney-kardashian', link: true, hasImage: true, lastmod: '2026-03-28', personaTitle: 'Reality\'s Reluctant Reformer', contentGrade: 8.9 },
 		{ name: 'krystal-ball', link: true, hasImage: true, lastmod: '2026-04-19', personaTitle: 'Media\'s Principled Arsonist', contentGrade: 9 },
 		{ name: 'matt-damon', link: true, hasImage: true, lastmod: '2026-04-07', personaTitle: 'Hollywood\'s Disciplined Everyman', contentGrade: 8.6 },
-		{ name: 'michael-seibel', link: false, hasImage: true, lastmod: '2026-03-28', personaTitle: 'Silicon Valley\'s Principled Gatekeeper', contentGrade: 8.8 },
+		{ name: 'michael-seibel', link: true, hasImage: true, lastmod: '2026-04-20', personaTitle: 'Silicon Valley\'s Principled Gatekeeper', contentGrade: 8.8 },
 		{ name: 'michelle-obama', link: true, hasImage: true, lastmod: '2026-04-01', personaTitle: 'The First Lady of Controlled Fire', contentGrade: 9.1 },
 		{ name: 'morgan-freeman', link: true, hasImage: true, lastmod: '2025-12-03', personaTitle: 'Cinema\'s Voice of Conscience', contentGrade: null },
 		{ name: 'natalie-portman', link: true, hasImage: true, lastmod: '2026-03-24', personaTitle: 'Hollywood\'s Self-Made Shield', contentGrade: 9 },
@@ -239,7 +239,7 @@ export const famousTypes: { [index: number]: { name: string; link: boolean; hasI
 	6: [
 		{ name: 'alexandria-ocasio-cortez', link: true, hasImage: true, lastmod: '2026-03-27', personaTitle: 'Congress\'s Vigilant Insurgent', contentGrade: 9 },
 		{ name: 'aubrey-plaza', link: true, hasImage: true, lastmod: '2026-02-17', personaTitle: 'Comedy\'s Deadpan Skeptic', contentGrade: 9 },
-		{ name: 'dalton-caldwell', link: false, hasImage: true, lastmod: '2026-04-06', personaTitle: 'Silicon Valley\'s Devoted Skeptic', contentGrade: 8.8 },
+		{ name: 'dalton-caldwell', link: true, hasImage: true, lastmod: '2026-04-20', personaTitle: 'Silicon Valley\'s Devoted Skeptic', contentGrade: 8.8 },
 		{ name: 'david-sacks', link: true, hasImage: true, lastmod: '2026-02-20', personaTitle: 'Silicon Valley\'s Vigilant Architect', contentGrade: 8.9 },
 		{ name: 'ellen-degeneres', link: true, hasImage: true, lastmod: '2025-03-24', personaTitle: 'Daytime\'s Fallen Sweetheart', contentGrade: null },
 		{ name: 'eminem', link: true, hasImage: true, lastmod: '2026-01-26', personaTitle: 'Detroit\'s Anxious Assassin', contentGrade: 9.1 },

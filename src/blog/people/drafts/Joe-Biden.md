@@ -18,6 +18,50 @@ wikipedia: 'https://en.wikipedia.org/wiki/Joe_Biden'
 twitter: 'JoeBiden'
 instagram: 'joebiden'
 tiktok: ''
+wikidata_qid: 'Q6279'
+birth_date: '1942-11-20'
+birth_place: 'Scranton, Pennsylvania, USA'
+nationality: 'American'
+occupation:
+  - 'Politician'
+  - 'President of the United States'
+  - 'Lawyer'
+  - 'U.S. Senator'
+  - 'Vice President of the United States'
+knows_about:
+  - 'United States politics'
+  - 'Foreign policy'
+  - 'Senate procedure'
+  - 'Grief and resilience'
+  - 'Catholic social teaching'
+  - 'Violence Against Women Act'
+keywords:
+  - 'Joe Biden Enneagram type'
+  - 'Joe Biden personality'
+  - 'Joe Biden Type 2'
+  - 'Enneagram Type 2 president'
+  - 'Joe Biden empathy personality'
+  - 'Joe Biden psychology'
+  - 'Biden Helper personality type'
+same_as:
+  - 'https://en.wikipedia.org/wiki/Joe_Biden'
+  - 'https://www.wikidata.org/wiki/Q6279'
+  - 'https://twitter.com/JoeBiden'
+  - 'https://www.instagram.com/joebiden/'
+citations:
+  - 'https://en.wikipedia.org/wiki/Joe_Biden'
+  - 'https://millercenter.org/president/biden'
+  - 'https://www.britannica.com/biography/Joe-Biden'
+faqs:
+  - question: "What is Joe Biden's Enneagram type?"
+    answer: "Joe Biden is an Enneagram Type 2 with a One wing — a Helper whose worth is measured in how useful he is to other people's pain. David Axelrod called empathy his superpower; aides describe a mind wired to prioritize relational data over every other kind."
+    anchor: 'the-need-to-be-needed'
+  - question: 'How did December 18, 1972 shape Joe Biden?'
+    answer: 'On December 18, 1972, weeks after Biden won his first Senate seat, a truck struck his wife Neilia and their three children. Neilia and infant daughter Naomi were killed; sons Beau and Hunter were critically injured. The grief — and the vow to raise his surviving boys — became the emotional foundation of his Type 2 identity: being needed was the only reason to keep going.'
+    anchor: 'december-18-1972'
+  - question: "Why isn't Joe Biden a Type 3?"
+    answer: "Type 3s organize around image and achievement. Biden's crises are relational, not achievement-based: the grief over Neilia and Beau, the nightly call to Hunter, the empathy routed through voter rope lines. Awards and titles matter to him, but they're fuel for being needed — not the core wound."
+    anchor: 'why-not-a-type-3'
 path: src/blog/people/drafts/Joe-Biden.md
 content_quality:
   hook: 9

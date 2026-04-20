@@ -18,6 +18,53 @@ wikipedia: 'https://en.wikipedia.org/wiki/Kamala_Harris'
 twitter: 'KamalaHarris'
 instagram: 'kamalaharris'
 tiktok: ''
+wikidata_qid: 'Q10853588'
+imdb_id: 'nm3668431'
+birth_date: '1964-10-20'
+birth_place: 'Oakland, California, USA'
+nationality: 'American'
+occupation:
+  - 'Politician'
+  - 'Lawyer'
+  - 'Prosecutor'
+  - 'California Attorney General'
+  - 'U.S. Senator'
+  - 'Vice President of the United States'
+knows_about:
+  - 'American politics'
+  - 'Criminal prosecution'
+  - 'Civil rights law'
+  - 'US Senate legislation'
+  - 'Executive branch policy'
+  - 'Presidential campaigns'
+keywords:
+  - 'Kamala Harris Enneagram'
+  - 'Kamala Harris Type 3'
+  - 'Kamala Harris personality'
+  - 'Kamala Harris psychology'
+  - 'why Kamala Harris loses'
+  - 'Enneagram 3 politician'
+  - 'Kamala Harris prosecutor'
+same_as:
+  - 'https://en.wikipedia.org/wiki/Kamala_Harris'
+  - 'https://www.wikidata.org/wiki/Q10853588'
+  - 'https://www.imdb.com/name/nm3668431/'
+  - 'https://twitter.com/KamalaHarris'
+  - 'https://www.instagram.com/kamalaharris/'
+citations:
+  - 'https://en.wikipedia.org/wiki/Kamala_Harris'
+  - 'https://www.britannica.com/biography/Kamala-Harris'
+  - 'https://bidenwhitehouse.archives.gov/administration/vice-president-harris/'
+faqs:
+  - question: "What is Kamala Harris's personality type?"
+    answer: 'Harris shows the markers of Enneagram Type 3, the Achiever — a performer who reads rooms, adapts messaging, and measures her worth through public wins, which is why the 107-day 2024 campaign hit her so hard.'
+    anchor: 'what-is-kamala-harriss-personality-type'
+  - question: "How did Kamala Harris's mother shape her?"
+    answer: "Harris's mother Shyamala, a cancer researcher and civil-rights activist, drilled achievement and service into her daughters. That programming — don't sit and complain, do something about it — became the operating system behind Harris's career."
+    anchor: 'shyamalas-daughter'
+  - question: 'Why did the 107-day 2024 campaign hit Kamala Harris so hard?'
+    answer: "Her abbreviated 2024 presidential run exposed the Three's vulnerability: when the image of success cracks, shame floods in. Losing in front of the entire country is the single hardest thing a Type 3 can experience."
+    anchor: '107-days-and-the-shame-of-losing'
 path: src/blog/people/drafts/Kamala-Harris.md
 content_quality:
   hook: 9

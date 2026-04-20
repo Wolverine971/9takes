@@ -17,6 +17,50 @@ wikipedia: 'https://en.wikipedia.org/wiki/Diana,_Princess_of_Wales'
 twitter: ''
 instagram: ''
 tiktok: ''
+wikidata_qid: 'Q9685'
+imdb_id: 'nm0697740'
+birth_date: '1961-07-01'
+birth_place: 'Sandringham, Norfolk, United Kingdom'
+nationality: 'British'
+occupation:
+  - 'Humanitarian'
+  - 'Philanthropist'
+  - 'Princess of Wales'
+knows_about:
+  - 'HIV/AIDS advocacy'
+  - 'Landmine removal campaigns'
+  - 'British royal family'
+  - 'Humanitarian diplomacy'
+  - 'Media and public image'
+  - "Children's charities"
+  - 'Mental health awareness'
+keywords:
+  - 'Princess Diana Enneagram 2'
+  - 'Princess Diana personality type'
+  - 'Enneagram type 2 royal'
+  - 'Diana psychology'
+  - 'Helper personality Princess of Wales'
+  - 'Princess Diana character analysis'
+  - "People's Princess Enneagram"
+same_as:
+  - 'https://en.wikipedia.org/wiki/Diana,_Princess_of_Wales'
+  - 'https://www.wikidata.org/wiki/Q9685'
+  - 'https://www.imdb.com/name/nm0697740/'
+  - 'https://www.royal.uk/diana-princess-wales'
+citations:
+  - 'https://en.wikipedia.org/wiki/Diana,_Princess_of_Wales'
+  - 'https://www.royal.uk/diana-princess-wales'
+  - 'https://www.britannica.com/biography/Diana-princess-of-Wales'
+faqs:
+  - question: "What is Princess Diana's personality type?"
+    answer: "Diana's signature moves — shaking hands with AIDS patients when no one else would, kneeling to be eye-level with children, using her access to route attention toward the hurting — all point to Enneagram Type 2, the Helper: a personality that builds identity through being needed, and that reads a room by scanning for who's suffering."
+    anchor: 'what-is-princess-dianas-personality-type'
+  - question: 'How does Princess Diana fit the Helper personality pattern?'
+    answer: "Type 2s give love forward to get love back, and struggle when the love doesn't return in the form they expected. Diana's marriage to Charles was the classic Helper trap: she gave everything to a person who was emotionally booked elsewhere, then collapsed into bulimia and public confession when the ledger wouldn't balance."
+    anchor: 'the-helpers-personality-patterns'
+  - question: 'What does the Enneagram reveal about Princess Diana?'
+    answer: "The Enneagram doesn't make Diana's pain or her warmth less real — it just names the pattern underneath both. Type 2s are built to love people into feeling seen, and Diana aimed that gift at AIDS wards, landmine fields, and a billion strangers who'd never met her. That's the Helper's gift, and also the Helper's cost."
+    anchor: 'what-the-enneagram-actually-explains'
 path: src/blog/people/drafts/Princess-Diana.md
 content_quality:
   hook: 8

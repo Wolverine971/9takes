@@ -27,6 +27,54 @@ content_quality:
   overall: 9.1
   letter: A-
   graded_at: '2026-04-01'
+wikidata_qid: 'Q13133'
+imdb_id: 'nm2349292'
+birth_date: '1964-01-17'
+birth_place: 'Chicago, Illinois, USA'
+nationality: 'American'
+occupation:
+  - 'Lawyer'
+  - 'Author'
+  - 'First Lady of the United States'
+  - 'Public servant'
+  - 'Podcaster'
+  - 'Non-profit executive'
+knows_about:
+  - 'Education advocacy'
+  - 'Childhood nutrition'
+  - 'Military families'
+  - "Girls' education"
+  - 'First Lady leadership'
+  - 'Race and identity in America'
+keywords:
+  - 'Michelle Obama Enneagram type'
+  - 'Michelle Obama personality'
+  - 'Michelle Obama Type 1'
+  - 'Enneagram Type 1 First Lady'
+  - 'Michelle Obama psychology'
+  - 'Becoming memoir personality analysis'
+  - 'Michelle Obama Reformer personality'
+same_as:
+  - 'https://en.wikipedia.org/wiki/Michelle_Obama'
+  - 'https://www.wikidata.org/wiki/Q13133'
+  - 'https://www.imdb.com/name/nm2349292/'
+  - 'https://twitter.com/MichelleObama'
+  - 'https://www.instagram.com/michelleobama/'
+  - 'https://www.obama.org/'
+citations:
+  - 'https://en.wikipedia.org/wiki/Michelle_Obama'
+  - 'https://obamawhitehouse.archives.gov/administration/first-lady-michelle-obama'
+  - 'https://www.britannica.com/biography/Michelle-Obama'
+faqs:
+  - question: "What is Michelle Obama's personality type?"
+    answer: "Michelle Obama is an Enneagram Type 1. Type 1 sits in the gut triad — the anger center — and internalizes that anger into moral energy: a relentless pressure to fix what's wrong and hold yourself to a standard so high no critic can reach higher. As she put it on the IMO podcast: I am probably less light than many of my white female friends."
+    anchor: 'what-is-michelle-obamas-personality-type'
+  - question: "Why does Michelle Obama call herself 'less light'?"
+    answer: "On the IMO podcast, Michelle pushed back against the angry Black woman stereotype not by denying weight, but by reframing it: less light. It's a classic Type 1 move — acknowledge the anger without performing it for anyone's consumption, and refuse to be made smaller than the truth."
+    anchor: 'why-michelle-calls-herself-less-light'
+  - question: 'Why did Michelle Obama leave her law career?'
+    answer: "After making partner track at Sidley Austin, Michelle realized the work didn't serve anyone. She left prestige for Public Allies Chicago and the University of Chicago's community service programs. For a Type 1, a career that doesn't produce moral output isn't prestigious — it's an ethics failure. So she welded the door shut."
+    anchor: 'leaving-prestige-for-purpose'
 path: src/blog/people/drafts/Michelle-Obama.md
 ---
 

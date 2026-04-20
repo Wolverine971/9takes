@@ -4,16 +4,16 @@ meta_title: "Michael Seibel's Secret Life Plan (Tech Was Never the Destination)"
 persona_title: "Silicon Valley's Principled Gatekeeper"
 description: 'Michael Seibel built Twitch and ran YC. But tech was always the detour. Inside the reformer who is returning to his original mission.'
 author: 'DJ Wayne'
-date: '2026-03-28'
+date: '2026-04-20'
 loc: 'https://9takes.com/personality-analysis/Michael-Seibel'
-lastmod: '2026-03-28'
+lastmod: '2026-04-20'
 changefreq: 'monthly'
 priority: '0.6'
-published: false
+published: true
 enneagram: 1
 type: ['techie']
 person: 'Michael-Seibel'
-suggestions: ['Sam-Altman', 'Peter-Thiel', 'Paul-Graham', 'Reid-Hoffman']
+suggestions: ['Garry-Tan', 'Dalton-Caldwell', 'Paul-Graham', 'Sam-Altman']
 wikipedia: 'https://en.wikipedia.org/wiki/Michael_Seibel'
 twitter: 'https://twitter.com/mwseibel'
 instagram: ''
@@ -198,7 +198,7 @@ Let that sit. The man who mentored thousands of founders, who built billion-doll
 
 ## The Departure
 
-In January 2023, Y Combinator named Garry Tan — who had been running a separate venture fund outside YC — as president and CEO. The move surprised some YC employees who believed Seibel was next in line. He had been running the Core unit since 2016. He had built the modern YC interview process. He had mentored more companies than almost anyone in the organization's history.
+In January 2023, Y Combinator named [Garry Tan](/personality-analysis/Garry-Tan) — who had been running a separate venture fund outside YC — as president and CEO. The move surprised some YC employees who believed Seibel was next in line. He had been running the Core unit since 2016. He had built the modern YC interview process. He had mentored more companies than almost anyone in the organization's history.
 
 He didn't get the job. When Steven Levy asked him about it for Wired, Seibel said he "did not feel disappointed" — but would have accepted the role if offered. That's a precise distinction. Not bitterness. Not indifference. Acknowledgment without grievance.
 

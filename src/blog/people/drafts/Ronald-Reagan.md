@@ -19,6 +19,51 @@ wikipedia: 'https://en.wikipedia.org/wiki/Ronald_Reagan'
 twitter: ''
 instagram: ''
 tiktok: ''
+wikidata_qid: 'Q9960'
+birth_date: '1911-02-06'
+birth_place: 'Tampico, Illinois, USA'
+nationality: 'American'
+occupation:
+  - 'Actor'
+  - 'Politician'
+  - 'President of the United States'
+  - 'Governor'
+  - 'Broadcaster'
+knows_about:
+  - 'US presidency'
+  - 'Cold War diplomacy'
+  - 'American conservatism'
+  - 'Supply-side economics'
+  - 'California state politics'
+  - 'Hollywood and Screen Actors Guild'
+keywords:
+  - 'Ronald Reagan Enneagram'
+  - 'Ronald Reagan Type 9'
+  - 'Ronald Reagan personality'
+  - 'Reagan psychology'
+  - 'Great Communicator personality'
+  - 'Enneagram 9 president'
+  - 'Reagan 9w8'
+same_as:
+  - 'https://en.wikipedia.org/wiki/Ronald_Reagan'
+  - 'https://www.wikidata.org/wiki/Q9960'
+  - 'https://www.reaganfoundation.org/'
+  - 'https://www.reaganlibrary.gov/'
+citations:
+  - 'https://en.wikipedia.org/wiki/Ronald_Reagan'
+  - 'https://millercenter.org/president/reagan'
+  - 'https://www.reaganlibrary.gov/'
+  - 'https://www.reaganfoundation.org/'
+faqs:
+  - question: "What is Ronald Reagan's personality type?"
+    answer: "Reagan maps closely onto Enneagram Type 9, the Peacemaker — specifically 9w8, where an unshakable calm runs on something harder underneath. That's why he could joke with surgeons mid-crisis and stay warm with political enemies without ever losing his core conviction."
+    anchor: 'what-is-ronald-reagans-personality-type'
+  - question: "How did Ronald Reagan use his 'Great Communicator' gift?"
+    answer: "Reagan's famous 'There you go again' line in the 1980 Carter debate captures the Nine's gift: defuse conflict with warmth and a punchline, then keep moving. He never raised his voice, and the debate effectively ended in four words."
+    anchor: 'the-great-communicator-in-action'
+  - question: "What does Iran-Contra reveal about Reagan's blind spots?"
+    answer: "Iran-Contra exposed the Nine's blind spot: Reagan's tendency to trust the people around him and avoid internal conflict left room for subordinates to run operations he either didn't fully grasp or didn't want to confront."
+    anchor: 'iran-contra-the-shadow-side-of-trust'
 path: src/blog/people/drafts/Ronald-Reagan.md
 ---
 

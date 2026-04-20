@@ -18,6 +18,48 @@ wikipedia: 'https://en.wikipedia.org/wiki/Xi_Jinping'
 twitter: ''
 instagram: ''
 tiktok: ''
+wikidata_qid: 'Q15031'
+birth_date: '1953-06-15'
+birth_place: 'Beijing, China'
+nationality: 'Chinese'
+occupation:
+  - 'Politician'
+  - 'General Secretary of the Chinese Communist Party'
+  - 'President of China'
+  - 'Statesman'
+knows_about:
+  - 'Chinese Communist Party'
+  - 'Chinese politics and governance'
+  - 'Belt and Road Initiative'
+  - 'Party ideology and Xi Jinping Thought'
+  - 'Anti-corruption campaigns'
+  - 'Chinese economic policy'
+  - 'Cultural Revolution history'
+keywords:
+  - 'Xi Jinping Enneagram 8'
+  - 'Xi Jinping personality type'
+  - 'Enneagram type 8 leader'
+  - 'Xi psychology'
+  - 'Challenger personality China'
+  - 'Xi Jinping character analysis'
+  - 'Chinese president Enneagram'
+same_as:
+  - 'https://en.wikipedia.org/wiki/Xi_Jinping'
+  - 'https://www.wikidata.org/wiki/Q15031'
+citations:
+  - 'https://en.wikipedia.org/wiki/Xi_Jinping'
+  - 'https://www.britannica.com/biography/Xi-Jinping'
+  - 'https://www.bbc.com/news/world-asia-china-11551399'
+faqs:
+  - question: "What is Xi Jinping's personality type?"
+    answer: "Xi's arc — surviving the Cultural Revolution in a cave, outlasting every rival on the climb, then reshaping the Party around his own ideology once in power — reads as Enneagram Type 8, the Challenger: a personality forged by early powerlessness into a lifelong commitment to never be powerless again, and to decide who lives inside his walls."
+    anchor: 'what-is-xi-jinpings-personality-type'
+  - question: "What was Xi Jinping's upbringing like, from palace to peasant?"
+    answer: "Xi grew up the son of a Communist Party elite — until his father was purged and Xi himself was sent down to live in a cave in rural Shaanxi. That whiplash, from protected child to manual-labor outcast, is the crucible most Type 8s point to: the early lesson that the world can take everything from you if you don't take control first."
+    anchor: 'xi-jinpings-upbringing-from-palace-to-peasant'
+  - question: "What are the costs of Xi Jinping's control-first psychology?"
+    answer: "Xi's Type 8 operating system built unprecedented personal power — and made China's system more brittle around him. 8s that never share the steering wheel eventually can't tell what's a real problem and what's flattery, because everyone around them has learned not to bring bad news. That's the long-term bill on the Challenger's strategy."
+    anchor: 'the-costs-of-a-psychology-that-works'
 path: src/blog/people/drafts/Xi-Jinping.md
 content_quality:
   hook: 9

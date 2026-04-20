@@ -18,6 +18,49 @@ wikipedia: 'https://en.wikipedia.org/wiki/George_H._W._Bush'
 twitter: 'georgehwbush'
 instagram: ''
 tiktok: ''
+wikidata_qid: 'Q23505'
+birth_date: '1924-06-12'
+birth_place: 'Milton, Massachusetts, USA'
+nationality: 'American'
+occupation:
+  - 'Politician'
+  - 'President of the United States'
+  - 'Diplomat'
+  - 'Military officer'
+  - 'Businessperson'
+knows_about:
+  - 'American foreign policy'
+  - 'Cold War diplomacy'
+  - 'CIA and intelligence'
+  - 'Gulf War coalition-building'
+  - 'Republican Party'
+  - 'Post-WWII Naval aviation'
+  - 'Texas oil industry'
+keywords:
+  - 'George H.W. Bush Enneagram 6'
+  - 'George H.W. Bush personality type'
+  - 'Enneagram type 6 president'
+  - 'Bush 41 psychology'
+  - 'Loyalist diplomat personality'
+  - 'George H.W. Bush character analysis'
+same_as:
+  - 'https://en.wikipedia.org/wiki/George_H._W._Bush'
+  - 'https://www.wikidata.org/wiki/Q23505'
+  - 'https://www.bush41.org/'
+citations:
+  - 'https://en.wikipedia.org/wiki/George_H._W._Bush'
+  - 'https://millercenter.org/president/bush'
+  - 'https://www.bush41.org/'
+faqs:
+  - question: "What is George H.W. Bush's personality type?"
+    answer: "Bush 41's lifelong loyalty to institutions — Navy, CIA, Republican Party, family — his coalition-first instincts during the Gulf War, and his private-not-public emotional register point to Enneagram Type 6, the Loyalist: a personality built around duty, trust networks, and earning belonging by showing up."
+    anchor: 'what-is-george-hw-bushs-personality-type'
+  - question: 'How did Bush build security through alliance?'
+    answer: "His signature foreign policy win — assembling a 35-nation coalition for the Gulf War — is the Loyalist playbook at scale. Type 6s don't trust unilateral force; they trust the alliance that backs it. Bush spent his rolodex, not his ego, to get the job done."
+    anchor: 'building-security-through-alliance'
+  - question: "What did George W. Bush's eulogy reveal about his father?"
+    answer: 'When George W. Bush sobbed eulogizing his father, the country saw something Bush 41 himself rarely let out: Loyalists often raise sons who carry the feelings their fathers filed away, because duty taught the father to keep the emotion on a low shelf.'
+    anchor: 'the-son-who-broke-at-the-podium'
 path: src/blog/people/drafts/George-H-W-Bush.md
 content_quality:
   hook: 8.5

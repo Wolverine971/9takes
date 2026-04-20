@@ -27,6 +27,46 @@ content_quality:
   overall: 8.9
   letter: 'A'
   graded_at: '2026-03-27'
+wikidata_qid: 'Q359442'
+birth_date: '1941-09-08'
+birth_place: 'Brooklyn, New York, USA'
+nationality: 'American'
+occupation:
+  - 'Politician'
+  - 'U.S. Senator'
+  - 'Writer'
+  - 'Journalist'
+knows_about:
+  - 'Democratic socialism'
+  - 'Progressive economic policy'
+  - 'United States Senate'
+  - 'Income inequality and labor rights'
+  - 'Medicare for All and healthcare reform'
+  - 'Campaign finance reform'
+keywords:
+  - 'Bernie Sanders Enneagram'
+  - 'Bernie Sanders personality type'
+  - 'Bernie Sanders Type 1'
+  - 'progressive senator personality'
+  - 'Enneagram Type 1 politician'
+  - 'Bernie Sanders psychology'
+same_as:
+  - 'https://en.wikipedia.org/wiki/Bernie_Sanders'
+  - 'https://www.wikidata.org/wiki/Q359442'
+  - 'https://www.sanders.senate.gov/'
+  - 'https://twitter.com/BernieSanders'
+  - 'https://www.instagram.com/berniesanders/'
+citations:
+  - 'https://en.wikipedia.org/wiki/Bernie_Sanders'
+  - 'https://www.britannica.com/biography/Bernie-Sanders'
+  - 'https://www.sanders.senate.gov/'
+faqs:
+  - question: "What is Bernie Sanders' personality type?"
+    answer: "Sanders maps onto Enneagram Type 1, the Reformer — a politician whose entire public life runs on moral non-negotiables. The same speech for forty years isn't stubbornness; it's the Type 1's refusal to update principle based on political weather. The inner critic that drives 1s toward perfection drove Sanders toward a kind of saintly consistency."
+    anchor: 'what-is-bernie-sanders-personality-type'
+  - question: "What was Bernie Sanders' eight-and-a-half-hour Senate speech about?"
+    answer: "In 2010, Sanders delivered an eight-and-a-half-hour Senate speech against extending the Bush tax cuts — a full workday of moral argument. For a Type 1, that's not performance; it's witnessing, the act of refusing to let a wrong pass unnamed. The body tires but the Reformer's sense of duty doesn't, because sitting down would be the ethics failure."
+    anchor: 'the-eight-and-a-half-hour-sermon'
 path: src/blog/people/drafts/Bernie-Sanders.md
 ---
 

@@ -26,7 +26,7 @@
 		{#if !compact}
 			<p class="author-bio-text">
 				Former USMC infantry turned personality psychology nerd. I built 9takes to help people see
-				the underlying emotions and logic behind every take. One question, 9 ways to see it.
+				the underlying emotions and logic behind their worldview. Ask a question, see 9 takes.
 			</p>
 		{/if}
 

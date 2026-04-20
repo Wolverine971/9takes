@@ -13,7 +13,7 @@ published: false
 enneagram: 9
 type: ['musician']
 person: 'Post-Malone'
-suggestions: ['Drake', 'Billie-Eilish', 'Justin-Bieber', 'Taylor-Swift']
+suggestions: ['Jelly-Roll', 'Drake', 'Billie-Eilish', 'Justin-Bieber', 'Taylor-Swift']
 wikipedia: 'https://en.wikipedia.org/wiki/Post_Malone'
 twitter: 'PostMalone'
 instagram: 'postmalone'
@@ -212,7 +212,7 @@ His producer Louis Bell: "As far as Post Malone goes, it's much deeper than musi
 
 His sound engineer Nick Mac: "He is so involved in things, and he really cares about things to the highest degree."
 
-During their Big Ass Stadium Tour in 2025, Jelly Roll stopped the show to address Post directly: "You've changed my life. Our friendship means more to me than you'll ever know." Then: "I see a mother, a father, a daughter... somebody in your family every night backstage. You're a great human." Then: "Everybody who works for you loves you, Post. There is a backstage crew of people who love you."
+During their Big Ass Stadium Tour in 2025, [Jelly Roll](/personality-analysis/Jelly-Roll) stopped the show to address Post directly: "You've changed my life. Our friendship means more to me than you'll ever know." Then: "I see a mother, a father, a daughter... somebody in your family every night backstage. You're a great human." Then: "Everybody who works for you loves you, Post. There is a backstage crew of people who love you."
 
 The crowd chanted "We love you, Postie." The two shared a hug.
 

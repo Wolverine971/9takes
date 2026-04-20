@@ -19,6 +19,52 @@ wikipedia: 'https://en.wikipedia.org/wiki/Hillary_Clinton'
 twitter: 'HillaryClinton'
 instagram: 'hillaryclinton'
 tiktok: ''
+wikidata_qid: 'Q6294'
+birth_date: '1947-10-26'
+birth_place: 'Chicago, Illinois, USA'
+nationality: 'American'
+occupation:
+  - 'Politician'
+  - 'Lawyer'
+  - 'Diplomat'
+  - 'Author'
+  - 'U.S. Senator'
+  - 'U.S. Secretary of State'
+  - 'First Lady of the United States'
+knows_about:
+  - 'United States politics'
+  - 'Foreign policy'
+  - "Women's rights"
+  - "Children's advocacy"
+  - 'Healthcare reform'
+  - 'U.S. State Department'
+keywords:
+  - 'Hillary Clinton Enneagram type'
+  - 'Hillary Clinton personality'
+  - 'Hillary Clinton Type 1'
+  - 'Enneagram Type 1 Reformer'
+  - 'Hillary Clinton psychology'
+  - 'Hillary Clinton Secretary of State personality'
+  - 'Type 1 Reformer politician'
+same_as:
+  - 'https://en.wikipedia.org/wiki/Hillary_Clinton'
+  - 'https://www.wikidata.org/wiki/Q6294'
+  - 'https://twitter.com/HillaryClinton'
+  - 'https://www.instagram.com/hillaryclinton/'
+citations:
+  - 'https://en.wikipedia.org/wiki/Hillary_Clinton'
+  - 'https://www.britannica.com/biography/Hillary-Clinton'
+  - 'https://www.state.gov/biographies/hillary-rodham-clinton/'
+faqs:
+  - question: 'What drives a Type 1?'
+    answer: "Type 1s operate from a simple premise: the world could be better, and it's their job to fix it. Their core fear is being morally defective; their core desire is to be good, right, and above reproach. When Hillary says the rights of women and girls is the unfinished business of the 21st century, she's not making a political statement — she's revealing her operating system."
+    anchor: 'what-drives-a-type-1'
+  - question: 'How did Hillary Clinton go from Goldwater Girl to Democrat?'
+    answer: 'In 1964, teenage Hillary was a Goldwater Girl in a cowgirl outfit, president of the Wellesley Young Republicans. Influenced by her Methodist youth minister Donald Jones and by Martin Luther King Jr., she broke with the GOP by 1968. Type 1s follow their principles wherever they lead — even when that means abandoning everything they once believed.'
+    anchor: 'from-goldwater-girl-to-democrat'
+  - question: 'Why did Hillary give the concession speech anyway?'
+    answer: "For a Type 1, the moral duty of a peaceful transfer of power outweighed personal devastation. She wore purple — a bipartisan color — and told young women watching that they were valuable, powerful, and deserving of every chance. The Reformer's code wouldn't let her skip it, even in her worst professional hour."
+    anchor: 'why-hillary-gave-the-concession-speech-anyway'
 path: src/blog/people/drafts/Hillary-Clinton.md
 content_quality:
   hook: 9

@@ -94,7 +94,7 @@ By 16, she had a five-album deal with Atlantic Records. She didn't know who she 
 
 The song that launched Charli's mainstream career was a rejection letter.
 
-"Boom Clap" was originally written for Hilary Duff. Duff's team passed, saying it "wasn't cool enough for Hilary." Charli was crushed. Then the song landed in the _Fault in Our Stars_ soundtrack, went top ten in 14 countries, and became one of the biggest pop hits of 2014.
+"Boom Clap" was originally written for [Hilary Duff](/personality-analysis/Hilary-Duff). Duff's team passed, saying it "wasn't cool enough for Hilary." Charli was crushed. Then the song landed in the _Fault in Our Stars_ soundtrack, went top ten in 14 countries, and became one of the biggest pop hits of 2014.
 
 "I was still in school," she told The Guardian about her early Atlantic years. "I'd just come out of this weird rave scene, and I wasn't really sure what to make of that. And when I got signed, I hated pop music; I wanted to make bad rap music. I didn't know who I was. I didn't know what I liked."
 

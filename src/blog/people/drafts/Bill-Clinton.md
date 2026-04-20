@@ -18,6 +18,46 @@ wikipedia: 'https://en.wikipedia.org/wiki/Bill_Clinton'
 twitter: '@BillClinton'
 instagram: ''
 tiktok: ''
+wikidata_qid: 'Q1124'
+imdb_id: 'nm0001051'
+birth_date: '1946-08-19'
+birth_place: 'Hope, Arkansas, USA'
+nationality: 'American'
+occupation:
+  - 'Politician'
+  - 'President of the United States'
+  - 'Lawyer'
+  - 'Author'
+knows_about:
+  - 'United States politics'
+  - 'Domestic policy'
+  - 'Foreign policy'
+  - 'Presidential leadership'
+  - 'Arkansas politics'
+keywords:
+  - 'Bill Clinton Enneagram type'
+  - 'Bill Clinton Type 2'
+  - 'Bill Clinton personality analysis'
+  - 'Bill Clinton psychology'
+  - 'Enneagram Type 2 president'
+  - 'Bill Clinton The Helper'
+same_as:
+  - 'https://en.wikipedia.org/wiki/Bill_Clinton'
+  - 'https://www.wikidata.org/wiki/Q1124'
+  - 'https://www.imdb.com/name/nm0001051/'
+  - 'https://twitter.com/BillClinton'
+  - 'https://www.clintonfoundation.org/'
+citations:
+  - 'https://en.wikipedia.org/wiki/Bill_Clinton'
+  - 'https://en.wikipedia.org/wiki/My_Life_(Clinton_autobiography)'
+  - 'https://millercenter.org/president/clinton'
+  - 'https://en.wikipedia.org/wiki/1992_United_States_presidential_election'
+faqs:
+  - question: "What is Bill Clinton's personality type?"
+    answer: 'Bill Clinton is an Enneagram Type 2, The Helper. His hyperattunement to other people, legendary charisma on rope lines, and need to be needed are textbook Type 2 patterns — rooted in a childhood where reading emotional danger was survival.'
+    anchor: 'what-is-bill-clintons-personality-type'
+  - question: 'Why is Bill Clinton an Enneagram Type 2?'
+    answer: "Clinton's childhood trained him to read emotional danger and take care of everyone around him — his legendary charisma wasn't a political strategy, it was a survival mechanism. His private struggles follow the exact pattern of a Two whose own needs went underground and erupted destructively, and the gap between his extraordinary public warmth and hidden inner darkness is textbook Two: a man who could feel everyone's pain except his own."
 content_quality:
   hook: 9
   enneagram: 9

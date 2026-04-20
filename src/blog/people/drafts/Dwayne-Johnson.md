@@ -13,7 +13,7 @@ published: false
 enneagram: 3
 type: ['movieStar']
 person: 'Dwayne-Johnson'
-suggestions: ['kevin-hart', 'arnold-schwarzenegger', 'tom-cruise', 'alex-hormozi']
+suggestions: ['kevin-hart', 'arnold-schwarzenegger', 'tom-cruise', 'stephen-a-smith']
 wikipedia: 'https://en.wikipedia.org/wiki/Dwayne_Johnson'
 twitter: 'TheRock'
 instagram: 'therock'

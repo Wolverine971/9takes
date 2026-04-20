@@ -1,4 +1,5 @@
 <!-- docs/content-analysis/people-crosslink-audit-2026-04-20.md -->
+
 # People Cross-Link Audit - 2026-04-20
 
 ## Scope

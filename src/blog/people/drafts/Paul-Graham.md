@@ -13,7 +13,7 @@ published: true
 enneagram: 7
 type: ['techie']
 person: 'Paul-Graham'
-suggestions: ['Sam-Altman', 'Elon-Musk', 'Peter-Thiel', 'Mark-Zuckerberg', 'Palmer-Luckey']
+suggestions: ['Sam-Altman', 'Michael-Seibel', 'Dalton-Caldwell', 'Garry-Tan', 'Peter-Thiel']
 wikipedia: 'https://en.wikipedia.org/wiki/Paul_Graham_(programmer)'
 twitter: 'https://twitter.com/paulg'
 instagram: ''

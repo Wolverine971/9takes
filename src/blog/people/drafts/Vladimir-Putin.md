@@ -18,6 +18,47 @@ wikipedia: 'https://en.wikipedia.org/wiki/Vladimir_Putin'
 twitter: ''
 instagram: ''
 tiktok: ''
+wikidata_qid: 'Q7747'
+birth_date: '1952-10-07'
+birth_place: 'Leningrad, Russian SFSR, Soviet Union'
+nationality: 'Russian'
+occupation:
+  - 'Politician'
+  - 'President of Russia'
+  - 'Intelligence officer'
+  - 'Statesman'
+knows_about:
+  - 'Russian politics'
+  - 'KGB and intelligence operations'
+  - 'Post-Soviet governance'
+  - 'Authoritarianism'
+  - 'Geopolitics of Eastern Europe'
+  - 'Russian Orthodox identity politics'
+  - 'Oligarch management'
+keywords:
+  - 'Vladimir Putin Enneagram 8'
+  - 'Vladimir Putin personality type'
+  - 'Enneagram type 8 leader'
+  - 'Putin psychology'
+  - 'Challenger personality dictators'
+  - 'Putin character analysis'
+same_as:
+  - 'https://en.wikipedia.org/wiki/Vladimir_Putin'
+  - 'https://www.wikidata.org/wiki/Q7747'
+citations:
+  - 'https://en.wikipedia.org/wiki/Vladimir_Putin'
+  - 'https://www.britannica.com/biography/Vladimir-Putin'
+  - 'https://www.bbc.com/news/world-europe-15047823'
+faqs:
+  - question: "What is Vladimir Putin's personality type?"
+    answer: "Putin's pattern of seizing control the moment he feels cornered, his instinctive distrust of anyone above him in a hierarchy, and his famous cornered-rat story from childhood Leningrad line up with Enneagram Type 8 — the Challenger. It's the personality organized around never being controlled, and around pre-emptively controlling the room instead."
+    anchor: 'what-is-vladimir-putins-personality-type'
+  - question: 'What did Angela Merkel notice about Putin in their 2007 meeting?'
+    answer: 'When Putin brought his large dog into a 2007 meeting with Angela Merkel — who he knew was afraid of dogs — Merkel read it instantly: this is a man who needs to test who flinches. Type 8s lead with dominance displays because information about who will submit is survival data to them.'
+    anchor: 'the-weakness-merkel-saw-immediately'
+  - question: "Why does Putin's Type 8 pattern keep holding across his career?"
+    answer: "Putin's arc from KGB officer to president to wartime autocrat is one consistent Type 8 loop: control the room, punish betrayal, escalate when threatened, refuse to be the cornered rat again. Ukraine, Navalny, and the oligarch purges all run on the same operating system."
+    anchor: 'why-the-pattern-still-holds'
 path: src/blog/people/drafts/Vladimir-Putin.md
 content_quality:
   hook: 9

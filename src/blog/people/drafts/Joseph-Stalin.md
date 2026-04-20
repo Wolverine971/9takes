@@ -27,6 +27,49 @@ content_quality:
 twitter: ''
 instagram: ''
 tiktok: ''
+wikidata_qid: 'Q855'
+birth_date: '1878-12-18'
+birth_place: 'Gori, Tiflis Governorate, Russian Empire'
+nationality: 'Georgian-Soviet'
+occupation:
+  - 'Politician'
+  - 'Revolutionary'
+  - 'Dictator'
+  - 'General Secretary of the Communist Party of the Soviet Union'
+  - 'Head of government'
+  - 'Military commander'
+knows_about:
+  - 'Soviet Union politics'
+  - 'Marxism-Leninism'
+  - 'Bolshevik revolution'
+  - 'Great Purge and state terror'
+  - 'World War II Eastern Front'
+  - 'Communist Party of the Soviet Union'
+keywords:
+  - 'Joseph Stalin Enneagram'
+  - 'Joseph Stalin Type 6'
+  - 'Stalin personality'
+  - 'Stalin psychology'
+  - 'Stalin paranoia'
+  - 'Enneagram 6 dictator'
+  - 'Man of Steel psychology'
+same_as:
+  - 'https://en.wikipedia.org/wiki/Joseph_Stalin'
+  - 'https://www.wikidata.org/wiki/Q855'
+citations:
+  - 'https://en.wikipedia.org/wiki/Joseph_Stalin'
+  - 'https://www.britannica.com/biography/Joseph-Stalin'
+  - 'https://www.history.com/topics/european-history/joseph-stalin'
+faqs:
+  - question: "What is Joseph Stalin's personality type?"
+    answer: 'Stalin maps onto an unhealthy Enneagram Type 6, the Loyalist — a counter-phobic Six whose lifelong distrust metastasized into paranoia, where every potential threat had to be eliminated before it could eliminate him.'
+    anchor: 'what-is-joseph-stalins-personality-type'
+  - question: "What did Stalin's 40,000-book library reveal about his psychology?"
+    answer: "Stalin's personal library of roughly 40,000 volumes — many heavily annotated — shows the Six's compulsion to research every angle, anticipate every argument, and never be caught unprepared by an enemy."
+    anchor: 'the-40000-book-fortress'
+  - question: "Why did Stalin's own system fail him at the end?"
+    answer: 'When Stalin collapsed at Kuntsevo in 1953, his guards were too frightened to check on him for hours. The culture of fear he built around himself was so total that it delayed the help that might have saved his life.'
+    anchor: 'the-system-that-killed-its-creator'
 path: src/blog/people/drafts/Joseph-Stalin.md
 ---
 

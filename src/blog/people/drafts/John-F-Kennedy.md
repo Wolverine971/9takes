@@ -27,6 +27,44 @@ content_quality:
 twitter:
 instagram:
 tiktok:
+wikidata_qid: 'Q9696'
+birth_date: '1917-05-29'
+birth_place: 'Brookline, Massachusetts, USA'
+nationality: 'American'
+occupation:
+  - 'Politician'
+  - 'Journalist'
+  - 'Naval officer'
+  - 'Writer'
+  - 'Statesman'
+knows_about:
+  - 'United States presidency'
+  - 'Cold War foreign policy'
+  - 'Cuban Missile Crisis'
+  - 'Civil rights legislation'
+  - 'Space program (Apollo)'
+  - 'American political dynasties'
+keywords:
+  - 'John F. Kennedy Enneagram'
+  - 'JFK personality type'
+  - 'JFK Type 7'
+  - 'Kennedy presidency personality'
+  - 'Enneagram Type 7 president'
+  - 'JFK psychology'
+same_as:
+  - 'https://en.wikipedia.org/wiki/John_F._Kennedy'
+  - 'https://www.wikidata.org/wiki/Q9696'
+citations:
+  - 'https://en.wikipedia.org/wiki/John_F._Kennedy'
+  - 'https://millercenter.org/president/kennedy'
+  - 'https://www.britannica.com/biography/John-F-Kennedy'
+faqs:
+  - question: "What is JFK's personality type?"
+    answer: "Kennedy maps onto Enneagram Type 7, the Enthusiast — a personality organized around stimulation, future possibility, and the refusal to stay in pain. JFK lived in constant physical agony but projected vigor and optimism to an entire nation; that gap between suffered reality and performed vitality is the Type 7's signature move."
+    anchor: 'what-is-jfks-personality-type'
+  - question: 'How did JFK handle the Cuban Missile Crisis?'
+    answer: 'Kennedy navigated the Cuban Missile Crisis by refusing the binary the generals offered him — strike or surrender — and instead improvising a naval quarantine that preserved options. Type 7s are masters of reframing constraint as opportunity, and the crisis showed that cognitive move at its highest stakes: keep every door open until you find the one nobody else saw.'
+    anchor: 'how-jfk-handled-the-cuban-missile-crisis'
 path: src/blog/people/drafts/John-F-Kennedy.md
 ---
 

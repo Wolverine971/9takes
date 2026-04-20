@@ -19,6 +19,55 @@ wikipedia: 'https://en.wikipedia.org/wiki/Donald_Trump'
 twitter: 'realDonaldTrump'
 instagram: 'realdonaldtrump'
 tiktok: ''
+wikidata_qid: 'Q22686'
+imdb_id: 'nm0874339'
+birth_date: '1946-06-14'
+birth_place: 'Queens, New York City, USA'
+nationality: 'American'
+occupation:
+  - 'Politician'
+  - 'President of the United States'
+  - 'Businessperson'
+  - 'Television personality'
+  - 'Real estate developer'
+  - 'Author'
+knows_about:
+  - 'United States politics'
+  - 'Real estate development'
+  - 'Branding and media'
+  - 'Reality television'
+  - 'Populist messaging'
+  - 'Presidential campaigns'
+keywords:
+  - 'Donald Trump Enneagram type'
+  - 'Donald Trump personality'
+  - 'Donald Trump Type 3'
+  - 'Enneagram Type 3 Achiever'
+  - 'Trump psychology analysis'
+  - 'Trump personality analysis'
+  - 'Type 3 president personality'
+same_as:
+  - 'https://en.wikipedia.org/wiki/Donald_Trump'
+  - 'https://www.wikidata.org/wiki/Q22686'
+  - 'https://www.imdb.com/name/nm0874339/'
+  - 'https://truthsocial.com/@realDonaldTrump'
+  - 'https://www.donaldjtrump.com/'
+  - 'https://www.whitehouse.gov/administration/donald-j-trump/'
+citations:
+  - 'https://en.wikipedia.org/wiki/Donald_Trump'
+  - 'https://millercenter.org/president/trump'
+  - 'https://www.britannica.com/biography/Donald-Trump'
+  - 'https://www.whitehouse.gov/administration/donald-j-trump/'
+faqs:
+  - question: "What is Donald Trump's personality type?"
+    answer: "Donald Trump is an Enneagram Type 3 — The Achiever. Type 3s are driven, image-conscious, and adaptive, focused on success and how others perceive them. Beneath the polished exterior lies a terror of being worthless: the gold buildings, the name on every surface, the superlatives heaped on every accomplishment — it's all shame-prevention architecture."
+    anchor: 'what-is-donald-trumps-personality-type'
+  - question: "How did Trump's childhood shape him into an Achiever?"
+    answer: "Growing up in Jamaica Estates, Queens, Donald lived under Fred Trump's three-word gospel: compete, win, be a killer. Fred's love was transactional — success rewarded, failure punished. When Donald was two, his mother became seriously ill and was effectively absent. The combination — impossible paternal standard plus maternal abandonment — is the classic Type 3 origin story."
+    anchor: 'the-making-of-an-achiever-trumps-childhood'
+  - question: 'What happens when Trump is under stress?'
+    answer: "Under stress, Type 3s move toward Type 9 disengagement — not literal withdrawal, but a shutdown of the performance engine. Trump's stress tells are stamina collapses at rallies, incoherent late-night posts, and retreat into grievance loops. When the image machine breaks down, the Type 3's unanswered question — if I'm not successful, am I anything at all? — leaks through."
+    anchor: 'when-the-image-cracks-trump-under-stress'
 path: src/blog/people/drafts/Donald-Trump.md
 content_quality:
   hook: 10

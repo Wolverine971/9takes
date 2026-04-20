@@ -13,7 +13,7 @@ published: false
 enneagram: '8'
 type: ['creator']
 person: 'Hasan-Piker'
-suggestions: ['Joe-Rogan', 'Alexandria-Ocasio-Cortez', 'Pokimane', 'Donald-Trump']
+suggestions: ['Taylor-Lorenz', 'Joe-Rogan', 'Alexandria-Ocasio-Cortez', 'Pokimane']
 wikipedia: 'https://en.wikipedia.org/wiki/Hasan_Piker'
 twitter: 'hasanthehun'
 instagram: 'hasand_'
@@ -371,7 +371,7 @@ By late 2025, observers noted concerning changes in Hasan's demeanor. He was exp
 
 The stressors were layered: sustained harassment campaigns (including viral fake "dog abuse" allegations), being named by politicians on national television, and general burnout from endless streaming.
 
-He has experienced SWATTING, federal interrogation, and believes he is under government surveillance. Journalist Taylor Lorenz noted: "He gets the entire internet weaponized against him. He is the only straight man I've ever seen that has been Gamergated."
+He has experienced SWATTING, federal interrogation, and believes he is under government surveillance. Journalist [Taylor Lorenz](/personality-analysis/Taylor-Lorenz) noted: "He gets the entire internet weaponized against him. He is the only straight man I've ever seen that has been Gamergated."
 
 This is the nightmare for someone built like Hasan: being attacked from all sides with no safe space. The response is to retreat further into work and isolation.
 

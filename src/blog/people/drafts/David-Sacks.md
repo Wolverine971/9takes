@@ -13,7 +13,8 @@ published: false
 enneagram: 6
 type: ['techie']
 person: 'David-Sacks'
-suggestions: ['Peter-Thiel', 'Elon-Musk', 'Jason-Calacanis', 'Sam-Altman']
+suggestions:
+  ['Peter-Thiel', 'Elon-Musk', 'Jason-Calacanis', 'Chamath-Palihapitiya', 'David-Friedberg']
 wikipedia: 'https://en.wikipedia.org/wiki/David_O._Sacks'
 twitter: 'DavidSacks'
 instagram: ''
@@ -277,7 +278,7 @@ A man who demands privacy, throwing the most un-private party imaginable, reques
 
 On the All-In Podcast, Sacks plays against type. Or rather, he plays exactly to type in a way the other hosts don't.
 
-<a href="/personality-analysis/Jason-Calacanis">Jason Calacanis</a> is the hype man, the emotional one, the host who screams and laughs and calls himself "the world's greatest moderator." Chamath Palihapitiya is the provocateur, the one who drops contrarian bombs and watches the fallout. David Friedberg is the scientist, bringing data and dry humor.
+<a href="/personality-analysis/Jason-Calacanis">Jason Calacanis</a> is the hype man, the emotional one, the host who screams and laughs and calls himself "the world's greatest moderator." [Chamath Palihapitiya](/personality-analysis/Chamath-Palihapitiya) is the provocateur, the one who drops contrarian bombs and watches the fallout. [David Friedberg](/personality-analysis/David-Friedberg) is the scientist, bringing data and dry humor.
 
 Sacks is the one who builds the argument. He doesn't riff or riff. He constructs. "Wait, let me finish" is his signature phrase because he's mid-framework, and the interruption threatens the structure. Listeners note that he frequently interrupts others yet demands the space to complete his own points.
 

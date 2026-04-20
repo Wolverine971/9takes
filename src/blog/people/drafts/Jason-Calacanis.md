@@ -13,7 +13,7 @@ published: true
 enneagram: 3
 type: ['techie']
 person: 'Jason-Calacanis'
-suggestions: ['David-Sacks', 'Elon-Musk', 'Sam-Altman', 'Joe-Rogan', 'Mark-Zuckerberg']
+suggestions: ['David-Sacks', 'Chamath-Palihapitiya', 'David-Friedberg', 'Elon-Musk', 'Sam-Altman']
 wikipedia: 'https://en.wikipedia.org/wiki/Jason_Calacanis'
 twitter: ''
 instagram: ''
@@ -159,7 +159,7 @@ He didn't push back. He didn't leave. He absorbed the rebuke and reaffirmed his 
 
 ### Building Media Power
 
-Jason co-hosts the All-In Podcast alongside <a href="/personality-analysis/David-Sacks">David Sacks</a>, Chamath Palihapitiya, and David Friedberg. What started as casual conversations between friends has become one of the most influential business podcasts in America.
+Jason co-hosts the All-In Podcast alongside <a href="/personality-analysis/David-Sacks">David Sacks</a>, [Chamath Palihapitiya](/personality-analysis/Chamath-Palihapitiya), and [David Friedberg](/personality-analysis/David-Friedberg). What started as casual conversations between friends has become one of the most influential business podcasts in America.
 
 The origin is worth understanding. During COVID, the four were already texting and calling each other constantly, smart people with no one new to talk to. Someone hit record. The chemistry was real and accidental: four opinionated investors who genuinely liked arguing with each other. The audience found it because it sounded nothing like a produced show.
 
