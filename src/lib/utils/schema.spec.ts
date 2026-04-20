@@ -2,6 +2,7 @@
 import { describe, expect, it } from 'vitest';
 
 import {
+	buildPersonIdentifiers,
 	buildPersonSameAsUrls,
 	mergePersonSameAsIntoJsonLd,
 	parseJsonLdSnippet,
@@ -98,6 +99,95 @@ describe('JSON-LD helpers', () => {
 				tiktok: 'n/a'
 			})
 		).toEqual(['https://en.wikipedia.org/wiki/Benson_Boone']);
+	});
+
+	it('merges explicit sameAs URLs ahead of legacy fallbacks', () => {
+		expect(
+			buildPersonSameAsUrls({
+				sameAs: [
+					'https://www.taylorswift.com/',
+					'https://open.spotify.com/artist/06HL4z0CvFAxyc27GXpf02'
+				],
+				wikipedia: 'https://en.wikipedia.org/wiki/Taylor_Swift',
+				twitter: '@taylorswift13'
+			})
+		).toEqual([
+			'https://www.taylorswift.com/',
+			'https://open.spotify.com/artist/06HL4z0CvFAxyc27GXpf02',
+			'https://en.wikipedia.org/wiki/Taylor_Swift',
+			'https://twitter.com/taylorswift13'
+		]);
+	});
+
+	it('expands wikidataQid and imdbId into sameAs URLs', () => {
+		expect(
+			buildPersonSameAsUrls({
+				wikidataQid: 'Q26876',
+				imdbId: 'nm1728342'
+			})
+		).toEqual(['https://www.wikidata.org/wiki/Q26876', 'https://www.imdb.com/name/nm1728342/']);
+	});
+
+	it('dedupes an explicit Wikidata sameAs against the QID-derived URL', () => {
+		expect(
+			buildPersonSameAsUrls({
+				sameAs: ['https://www.wikidata.org/wiki/Q26876/'],
+				wikidataQid: 'Q26876'
+			})
+		).toEqual(['https://www.wikidata.org/wiki/Q26876/']);
+	});
+
+	it('rejects invalid wikidataQid and imdbId values', () => {
+		expect(
+			buildPersonSameAsUrls({
+				wikidataQid: 'q26876',
+				imdbId: 'tt1234567'
+			})
+		).toEqual([]);
+
+		expect(
+			buildPersonSameAsUrls({
+				wikidataQid: 'Q',
+				imdbId: 'NM1234567'
+			})
+		).toEqual([]);
+	});
+
+	it('rejects http://, relative paths, blank strings, and sentinels from explicit sameAs', () => {
+		expect(
+			buildPersonSameAsUrls({
+				sameAs: [
+					'http://example.com',
+					'/relative/path',
+					'',
+					'none',
+					'n/a',
+					'not a url',
+					'https://example.com/valid'
+				]
+			})
+		).toEqual(['https://example.com/valid']);
+	});
+
+	it('builds identifier PropertyValues only for present IDs', () => {
+		expect(buildPersonIdentifiers({ wikidataQid: 'Q26876', imdbId: 'nm1728342' })).toEqual([
+			{ '@type': 'PropertyValue', propertyID: 'wikidata', value: 'Q26876' },
+			{ '@type': 'PropertyValue', propertyID: 'imdb', value: 'nm1728342' }
+		]);
+
+		expect(buildPersonIdentifiers({ wikidataQid: 'Q26876' })).toEqual([
+			{ '@type': 'PropertyValue', propertyID: 'wikidata', value: 'Q26876' }
+		]);
+
+		expect(buildPersonIdentifiers({ imdbId: 'nm1728342' })).toEqual([
+			{ '@type': 'PropertyValue', propertyID: 'imdb', value: 'nm1728342' }
+		]);
+
+		expect(buildPersonIdentifiers({})).toEqual([]);
+
+		expect(buildPersonIdentifiers({ wikidataQid: 'not-a-qid', imdbId: 'not-an-nconst' })).toEqual(
+			[]
+		);
 	});
 
 	it('merges sameAs into article person references without mutating the source', () => {

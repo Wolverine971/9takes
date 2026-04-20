@@ -114,10 +114,17 @@ declare global {
 			id: string;
 		}
 
+		interface BlogPostFaq {
+			question: string;
+			answer: string;
+			anchor?: string;
+		}
+
 		interface BlogPost {
 			slug: string;
 			title: string;
 			meta_title?: string;
+			persona_title?: string;
 			author: string;
 			description: string;
 			date: string;
@@ -135,6 +142,24 @@ declare global {
 			twitter?: string;
 			instagram?: string;
 			tiktok?: string;
+
+			// Phase 1 structured-data fields (see docs/planning/people-jsonld-unification-2026-04-19.md)
+			keywords?: string[];
+			same_as?: string[];
+			faqs?: BlogPostFaq[] | null;
+			wikidata_qid?: string;
+			imdb_id?: string;
+			birth_date?: string;
+			birth_place?: string;
+			nationality?: string;
+			occupation?: string[];
+			knows_about?: string[];
+			citations?: string[];
+
+			// Computed at page load, not persisted.
+			word_count?: number;
+			time_required?: string;
+
 			blog?: boolean;
 			jsonld?: string | null;
 			jsonld_snippet?: unknown;

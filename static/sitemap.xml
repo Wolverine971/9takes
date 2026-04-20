@@ -11,7 +11,7 @@
   </url>
   <url>
     <loc>https://9takes.com/blog</loc>
-    <lastmod>2026-04-19</lastmod>
+    <lastmod>2026-04-20</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/blog/experiment</loc>
@@ -898,7 +898,7 @@
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis</loc>
-    <lastmod>2026-04-19</lastmod>
+    <lastmod>2026-04-20</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/abraham-lincoln</loc>
@@ -1125,6 +1125,13 @@
     </image:image>
   </url>
   <url>
+    <loc>https://9takes.com/personality-analysis/bill-clinton</loc>
+    <lastmod>2026-04-20</lastmod>
+    <image:image>
+      <image:loc>https://9takes.com/types/2s/Bill-Clinton.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
     <loc>https://9takes.com/personality-analysis/bill-gates</loc>
     <lastmod>2026-03-28</lastmod>
     <image:image>
@@ -1196,7 +1203,7 @@
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/categories</loc>
-    <lastmod>2026-04-19</lastmod>
+    <lastmod>2026-04-20</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/categories/authors-thinkers</loc>
@@ -1220,7 +1227,7 @@
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/categories/politics-public</loc>
-    <lastmod>2026-04-18</lastmod>
+    <lastmod>2026-04-20</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/categories/tech-business</loc>
@@ -2940,7 +2947,7 @@
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/type/2</loc>
-    <lastmod>2026-04-12</lastmod>
+    <lastmod>2026-04-20</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/type/3</loc>

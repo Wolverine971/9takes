@@ -299,26 +299,36 @@ export type Database = {
       blogs_famous_people: {
         Row: {
           author: string | null
+          birth_date: string | null
+          birth_place: string | null
           category: string | null
           changefreq: string | null
+          citations: string[] | null
           content: string | null
           content_quality: Json | null
           created_at: string
           date: string | null
           description: string | null
           enneagram: string | null
+          faqs: Json | null
           first_published_at: string | null
           id: number
+          imdb_id: string | null
           instagram: string | null
           jsonld_snippet: Json | null
+          keywords: string[] | null
+          knows_about: string[] | null
           lastmod: string | null
           loc: string | null
           meta_title: string | null
+          nationality: string | null
+          occupation: string[] | null
           person: string | null
           persona_title: string | null
           priority: string | null
           published: boolean | null
           published_at: string | null
+          same_as: string[] | null
           search_vector: unknown
           suggestions: Json | null
           tags: string[] | null
@@ -326,30 +336,41 @@ export type Database = {
           title: string | null
           twitter: string | null
           type: Json | null
+          wikidata_qid: string | null
           wikipedia: string | null
         }
         Insert: {
           author?: string | null
+          birth_date?: string | null
+          birth_place?: string | null
           category?: string | null
           changefreq?: string | null
+          citations?: string[] | null
           content?: string | null
           content_quality?: Json | null
           created_at?: string
           date?: string | null
           description?: string | null
           enneagram?: string | null
+          faqs?: Json | null
           first_published_at?: string | null
           id?: number
+          imdb_id?: string | null
           instagram?: string | null
           jsonld_snippet?: Json | null
+          keywords?: string[] | null
+          knows_about?: string[] | null
           lastmod?: string | null
           loc?: string | null
           meta_title?: string | null
+          nationality?: string | null
+          occupation?: string[] | null
           person?: string | null
           persona_title?: string | null
           priority?: string | null
           published?: boolean | null
           published_at?: string | null
+          same_as?: string[] | null
           search_vector?: unknown
           suggestions?: Json | null
           tags?: string[] | null
@@ -357,30 +378,41 @@ export type Database = {
           title?: string | null
           twitter?: string | null
           type?: Json | null
+          wikidata_qid?: string | null
           wikipedia?: string | null
         }
         Update: {
           author?: string | null
+          birth_date?: string | null
+          birth_place?: string | null
           category?: string | null
           changefreq?: string | null
+          citations?: string[] | null
           content?: string | null
           content_quality?: Json | null
           created_at?: string
           date?: string | null
           description?: string | null
           enneagram?: string | null
+          faqs?: Json | null
           first_published_at?: string | null
           id?: number
+          imdb_id?: string | null
           instagram?: string | null
           jsonld_snippet?: Json | null
+          keywords?: string[] | null
+          knows_about?: string[] | null
           lastmod?: string | null
           loc?: string | null
           meta_title?: string | null
+          nationality?: string | null
+          occupation?: string[] | null
           person?: string | null
           persona_title?: string | null
           priority?: string | null
           published?: boolean | null
           published_at?: string | null
+          same_as?: string[] | null
           search_vector?: unknown
           suggestions?: Json | null
           tags?: string[] | null
@@ -388,6 +420,7 @@ export type Database = {
           title?: string | null
           twitter?: string | null
           type?: Json | null
+          wikidata_qid?: string | null
           wikipedia?: string | null
         }
         Relationships: []

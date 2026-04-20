@@ -353,25 +353,102 @@ export function updateJsonLdDateModified(
 	return visit(clonedValue) as JsonLdValue;
 }
 
+const WIKIDATA_QID_PATTERN = /^Q[1-9]\d*$/;
+const IMDB_NCONST_PATTERN = /^nm\d+$/;
+
+export interface PersonIdentifier {
+	'@type': 'PropertyValue';
+	propertyID: string;
+	value: string;
+}
+
+/**
+ * Validate an explicit sameAs entry. Stricter than the legacy platform
+ * normalizer: requires an absolute HTTPS URL, rejects placeholders, rejects
+ * http:// pass-through.
+ */
+function normalizeExplicitSameAsUrl(value: string | null | undefined): string | null {
+	if (isEmptySocialValue(value)) return null;
+
+	const trimmed = value!.trim();
+	try {
+		const parsed = new URL(trimmed);
+		if (parsed.protocol !== 'https:') return null;
+		if (!parsed.hostname) return null;
+		return parsed.toString();
+	} catch {
+		return null;
+	}
+}
+
+function normalizeWikidataQid(value: string | null | undefined): string | null {
+	if (isEmptySocialValue(value)) return null;
+	const trimmed = value!.trim();
+	return WIKIDATA_QID_PATTERN.test(trimmed) ? trimmed : null;
+}
+
+function normalizeImdbNconst(value: string | null | undefined): string | null {
+	if (isEmptySocialValue(value)) return null;
+	const trimmed = value!.trim();
+	return IMDB_NCONST_PATTERN.test(trimmed) ? trimmed : null;
+}
+
 export function buildPersonSameAsUrls(options: {
+	sameAs?: string[] | null;
+	wikidataQid?: string | null;
+	imdbId?: string | null;
 	wikipedia?: string | null;
 	fallbackWikipedia?: string | null;
 	twitter?: string | null;
 	instagram?: string | null;
 	tiktok?: string | null;
 }): string[] {
+	const explicit = (options.sameAs ?? [])
+		.map((value) => normalizeExplicitSameAsUrl(value))
+		.filter((value): value is string => Boolean(value));
+
+	const wikidataQid = normalizeWikidataQid(options.wikidataQid);
+	const imdbId = normalizeImdbNconst(options.imdbId);
+
 	const wikipediaUrl =
 		normalizeProfileUrl('wikipedia', options.wikipedia) ??
 		normalizeProfileUrl('wikipedia', options.fallbackWikipedia);
 
 	return dedupeUrls(
 		[
+			...explicit,
+			wikidataQid ? `https://www.wikidata.org/wiki/${wikidataQid}` : null,
+			imdbId ? `https://www.imdb.com/name/${imdbId}/` : null,
 			wikipediaUrl,
 			normalizeProfileUrl('twitter', options.twitter),
 			normalizeProfileUrl('instagram', options.instagram),
 			normalizeProfileUrl('tiktok', options.tiktok)
 		].filter((value): value is string => Boolean(value))
 	);
+}
+
+/**
+ * Build the structured `identifier` PropertyValue array for a Person node.
+ * Wikidata QID and IMDb nconst are the canonical entity-linking IDs for
+ * Knowledge Graph and LLM retrieval.
+ */
+export function buildPersonIdentifiers(options: {
+	wikidataQid?: string | null;
+	imdbId?: string | null;
+}): PersonIdentifier[] {
+	const identifiers: PersonIdentifier[] = [];
+
+	const wikidataQid = normalizeWikidataQid(options.wikidataQid);
+	if (wikidataQid) {
+		identifiers.push({ '@type': 'PropertyValue', propertyID: 'wikidata', value: wikidataQid });
+	}
+
+	const imdbId = normalizeImdbNconst(options.imdbId);
+	if (imdbId) {
+		identifiers.push({ '@type': 'PropertyValue', propertyID: 'imdb', value: imdbId });
+	}
+
+	return identifiers;
 }
 
 export function mergePersonSameAsIntoJsonLd(

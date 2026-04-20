@@ -4,12 +4,12 @@ meta_title: 'Why Bill Clinton Needed Everyone to Love Him'
 persona_title: "Politics' Devoted Shapeshifter"
 description: 'Bill Clinton made everyone feel like the only person in the room. But who was he when the room was empty? Inside the parallel lives of a Type 2 president.'
 author: 'DJ Wayne'
-date: '2026-04-10'
+date: '2026-04-20'
 loc: 'https://9takes.com/personality-analysis/Bill-Clinton'
-lastmod: '2026-04-10'
+lastmod: '2026-04-20'
 changefreq: 'monthly'
 priority: '0.6'
-published: false
+published: true
 enneagram: 2
 type: ['politician']
 person: 'Bill-Clinton'

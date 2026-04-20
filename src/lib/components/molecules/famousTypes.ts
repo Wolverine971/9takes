@@ -32,7 +32,7 @@ export const famousTypes: { [index: number]: { name: string; link: boolean; hasI
 		{ name: 'peter-attia', link: false, hasImage: false, lastmod: '2025-06-25', personaTitle: null, contentGrade: null }
 	],
 	2: [
-		{ name: 'bill-clinton', link: false, hasImage: true, lastmod: '2026-04-10', personaTitle: 'Politics\' Devoted Shapeshifter', contentGrade: 8.8 },
+		{ name: 'bill-clinton', link: true, hasImage: true, lastmod: '2026-04-20', personaTitle: 'Politics\' Devoted Shapeshifter', contentGrade: 8.8 },
 		{ name: 'dolly-parton', link: true, hasImage: true, lastmod: '2026-02-04', personaTitle: 'Country\'s Beloved Fairy Godmother', contentGrade: 8.1 },
 		{ name: 'harry-styles', link: true, hasImage: true, lastmod: '2026-01-17', personaTitle: 'Pop\'s Emotional First Responder', contentGrade: 9.3 },
 		{ name: 'henry-cavill', link: true, hasImage: true, lastmod: '2026-02-18', personaTitle: 'Superman Who Chose His Raid Party', contentGrade: 8.3 },
@@ -162,6 +162,7 @@ export const famousTypes: { [index: number]: { name: string; link: boolean; hasI
 		{ name: 'demi-lovato', link: true, hasImage: true, lastmod: '2025-06-25', personaTitle: 'Pop\'s Unfiltered Survivor', contentGrade: null },
 		{ name: 'dixie-d\'amelio', link: true, hasImage: true, lastmod: '2026-01-17', personaTitle: 'TikTok\'s Shadow Sister', contentGrade: 8.1 },
 		{ name: 'elton-john', link: true, hasImage: true, lastmod: '2025-12-09', personaTitle: 'Rock\'s Flamboyant Phoenix', contentGrade: null },
+		{ name: 'emma-chamberlain', link: true, hasImage: true, lastmod: '2026-04-19', personaTitle: 'Gen Z\'s Reluctant Aristocrat', contentGrade: 9 },
 		{ name: 'frida-kahlo', link: true, hasImage: true, lastmod: '2026-04-06', personaTitle: 'Art\'s Unfinished Self-Portrait', contentGrade: 8.7 },
 		{ name: 'hozier', link: true, hasImage: true, lastmod: '2025-12-09', personaTitle: 'Ireland\'s Devotional Mourner', contentGrade: 8.3 },
 		{ name: 'jackie-kennedy', link: true, hasImage: true, lastmod: '2026-04-09', personaTitle: 'America\'s Tragic Elegance', contentGrade: 9 },
@@ -197,7 +198,6 @@ export const famousTypes: { [index: number]: { name: string; link: boolean; hasI
 		{ name: 'adam-driver', link: false, hasImage: false, lastmod: '2025-06-25', personaTitle: null, contentGrade: null },
 		{ name: 'colleen-hoover', link: false, hasImage: false, lastmod: '2025-06-25', personaTitle: null, contentGrade: null },
 		{ name: 'edgar-allan-poe', link: false, hasImage: false, lastmod: '2026-03-28', personaTitle: 'Literature\'s Cartographer of Loss', contentGrade: 8.7 },
-		{ name: 'emma-chamberlain', link: true, hasImage: false, lastmod: '2026-04-19', personaTitle: 'Gen Z\'s Reluctant Aristocrat', contentGrade: 9 },
 		{ name: 'frank-ocean', link: false, hasImage: false, lastmod: '2025-06-25', personaTitle: null, contentGrade: null },
 		{ name: 'janelle-monae', link: false, hasImage: false, lastmod: '2025-06-25', personaTitle: null, contentGrade: null },
 		{ name: 'jeremy-allen-white', link: false, hasImage: false, lastmod: '2026-04-16', personaTitle: 'Brooklyn\'s Brooding Dancer', contentGrade: 9 },

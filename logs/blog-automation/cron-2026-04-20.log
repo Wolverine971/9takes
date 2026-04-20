@@ -1,0 +1,15 @@
+Pre-flight check found blocker. `inProgress` is set to Brené Brown (started 2026-04-18). Per the critical rules, I must stop immediately.
+
+```
+BLOG IN PROGRESS: Brené Brown - skipping today's run
+```
+
+=== DAILY BLOG CREATOR SUMMARY ===
+Date: 2026-04-20
+Status: SKIPPED (in-progress blog detected)
+Blog: Brené Brown (started 2026-04-18)
+Action: None taken — prior run still marked active
+Next Run: Tomorrow 2:00 AM
+===================================
+
+The Brené Brown run from 2026-04-18 never cleared its `inProgress` flag. To unblock future runs, either complete that draft or manually clear `inProgress` in `docs/blog-automation/backlog-queue.json`. Want me to investigate whether that draft actually got created?

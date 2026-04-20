@@ -104,15 +104,46 @@ export const PUT: RequestHandler = async ({ params, request, locals }) => {
 		'wikipedia',
 		'suggestions',
 		'pic',
-		'tags'
+		'tags',
+		// Structured-data fields — see docs/planning/people-jsonld-unification-2026-04-19.md
+		'keywords',
+		'same_as',
+		'faqs',
+		'wikidata_qid',
+		'imdb_id',
+		'birth_date',
+		'birth_place',
+		'nationality',
+		'occupation',
+		'knows_about',
+		'citations'
 	]);
+
+	const WIKIDATA_QID_PATTERN = /^Q[1-9]\d*$/;
+	const IMDB_NCONST_PATTERN = /^nm\d+$/;
 
 	// Filter to only allowed fields
 	const safeUpdates: Record<string, unknown> = {};
 	for (const [key, value] of Object.entries(updates)) {
-		if (allowedFields.has(key)) {
-			safeUpdates[key] = value;
+		if (!allowedFields.has(key)) continue;
+
+		if (key === 'wikidata_qid' && typeof value === 'string' && value.trim() !== '') {
+			if (!WIKIDATA_QID_PATTERN.test(value.trim())) {
+				throw error(400, 'wikidata_qid must match /^Q[1-9]\\d*$/ (e.g. "Q26876")');
+			}
+			safeUpdates[key] = value.trim();
+			continue;
 		}
+
+		if (key === 'imdb_id' && typeof value === 'string' && value.trim() !== '') {
+			if (!IMDB_NCONST_PATTERN.test(value.trim())) {
+				throw error(400, 'imdb_id must match /^nm\\d+$/ (e.g. "nm1728342")');
+			}
+			safeUpdates[key] = value.trim();
+			continue;
+		}
+
+		safeUpdates[key] = value;
 	}
 
 	// Auto-update lastmod

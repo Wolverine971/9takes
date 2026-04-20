@@ -1,0 +1,15 @@
+```text
+Published people blog.
+
+Person: bill-clinton
+Draft: src/blog/people/drafts/Bill-Clinton.md
+Date/lastmod: 2026-04-20
+Supabase: published=true (row id=956)
+Images: full + thumbnail present (static/types/2s/Bill-Clinton.webp, s-Bill-Clinton.webp)
+Generated files: pnpm gen:all completed
+  - famousTypes.ts: bill-clinton link=true, hasImage=true, lastmod=2026-04-20, contentGrade=8.8
+  - sitemap.xml: /personality-analysis/bill-clinton present
+
+Blockers:
+- none
+```
