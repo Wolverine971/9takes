@@ -130,7 +130,7 @@ Type 2s scan every room for need. They move toward suffering the way some people
 
 Biden doesn't just exhibit these traits. He organized his entire political career around them.
 
-Campaign staffers spent decades trying to keep him on schedule. He'd linger with voters long past the cutoff, listening to their stories, offering his phone number, calling them weeks later to check in. Former <a href="/personality-analysis/Barack-Obama">Obama</a> advisor David Axelrod put it simply: **"His superpower is empathy. That's not something you can fake."**
+Campaign staffers spent decades trying to keep him on schedule. He'd linger with voters long past the cutoff, listening to their stories, offering his phone number, calling them weeks later to check in. Former Obama advisor David Axelrod put it simply: **"His superpower is empathy. That's not something you can fake."**
 
 A former aide described his memory: **"He remembers everyone's story. Not just their name, but what they're going through, what matters to them. It's like he keeps a mental rolodex of people he cares about, and that's basically everyone he's ever met."**
 
@@ -208,7 +208,7 @@ A dying son asking his father to survive. The same father who, forty-three years
 
 Biden chose not to run in 2016. He announced it in the Rose Garden on October 21, 2015, with Obama beside him: **"The process, by the time we get through it, closes the window on mounting a realistic campaign for president."**
 
-The decision was more complicated than grief alone. Obama had privately discouraged Biden from running, gently pressing him over several weeks and sending his top strategists to deliver discouraging assessments of Biden's odds against Hillary Clinton. Biden later said simply: **"The president was not encouraging."**
+The decision was more complicated than grief alone. Obama had privately discouraged Biden from running, gently pressing him over several weeks and sending his top strategists to deliver discouraging assessments of Biden's odds against [Hillary Clinton](/personality-analysis/Hillary-Clinton). Biden later said simply: **"The president was not encouraging."**
 
 For a Type 2, that's not a political calculation. It's a relational wound, the deepest kind a Two can suffer. Biden had spent eight years as Obama's loyal number two, absorbing slights, deferring his own ambitions, showing up every day. And when he needed support in return, the person he'd served told him to stand down. According to Steven Levingston's book _Barack and Joe_, Obama viewed Biden as **"just another white guy, one in a long line of American presidents"**, hardly the symbol of change Obama wanted his legacy to be. Obama had placed his bet on Hillary Clinton.
 
@@ -222,7 +222,7 @@ The Cancer Moonshot followed. Biden channeled Beau's death into a federal initia
 
 Then, on May 18, 2025, Biden's office announced that he had been diagnosed with aggressive prostate cancer. Gleason 9, on a scale that tops out at 10. The cancer had already metastasized to his bones. Only about 7% of prostate cancer patients present at that stage. Five-year survival rates hover around 30%. A University of Pittsburgh urologist told NPR that Biden had **"a very bad version of it, probably the worst version you can get."**
 
-The timing was almost literary. The diagnosis came twelve days before the tenth anniversary of Beau's death. The man who had channeled his son's cancer into a federal crusade now had one of the most aggressive forms of the disease himself. Barack Obama's statement cut to the irony: **"Nobody has done more to find breakthrough treatments for cancer in all its forms than Joe."**
+The timing was almost literary. The diagnosis came twelve days before the tenth anniversary of Beau's death. The man who had channeled his son's cancer into a federal crusade now had one of the most aggressive forms of the disease himself. [Barack Obama](/personality-analysis/Barack-Obama)'s statement cut to the irony: **"Nobody has done more to find breakthrough treatments for cancer in all its forms than Joe."**
 
 His first public remarks came on May 30, 2025, the anniversary itself, at Veterans Memorial Park in New Castle, Delaware. He could have held a press conference. He could have scripted a video. Instead, he chose to stand among grieving military families, other people's pain, the place he has always been most comfortable, and speak about his own.
 

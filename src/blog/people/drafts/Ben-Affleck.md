@@ -234,7 +234,7 @@ The darker side of that fatherhood came early. Paparazzi made Violet's youth soc
 
 Years later, Violet testified at the United Nations about long COVID in children and published an academic paper in the Yale Global Health Review. Affleck's assessment: "She takes after her mom. She's spectacular."
 
-"Really, for me, actually, the meaning of my life is going to be these kids," he told Kevin Hart. He said it without his usual analytical framing. When he talks about Violet, Seraphina, and Samuel, the distance drops. He's just a dad.
+"Really, for me, actually, the meaning of my life is going to be these kids," he told [Kevin Hart](/personality-analysis/Kevin-Hart). He said it without his usual analytical framing. When he talks about Violet, Seraphina, and Samuel, the distance drops. He's just a dad.
 
 This is the Three in integration: moved toward loyalty, toward service, toward something that can't be performed. You can fake an Oscar campaign. You can't fake coaching Little League. Either you're there or you're not.
 

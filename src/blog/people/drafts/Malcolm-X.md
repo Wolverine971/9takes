@@ -230,7 +230,7 @@ The FBI — with every resource available, every incentive to discredit him — 
 
 His principles had no price. His positions did.
 
-He changed his view of race after Mecca. His view of women after Africa. His view of Martin Luther King Jr. after watching what King's commitment actually cost. He kept every one of those changes while maintaining the ferocity that made him dangerous in the first place.
+He changed his view of race after Mecca. His view of women after Africa. His view of [Martin Luther King Jr.](/personality-analysis/Martin-Luther-King-Jr) after watching what King's commitment actually cost. He kept every one of those changes while maintaining the ferocity that made him dangerous in the first place.
 
 "The mental flexibility of the wise man permits him to keep an open mind and enables him to readjust himself whenever it becomes necessary for a change."
 

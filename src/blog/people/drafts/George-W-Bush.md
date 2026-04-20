@@ -190,7 +190,7 @@ Hurricane Katrina hit the Gulf Coast on August 29, 2005. Bush was at his Crawfor
 
 "That photo of me hovering over the damage suggested I was detached from the suffering on the ground," he wrote in _Decision Points_. "That was not how I felt. But once that impression was formed, I couldn't change it."
 
-On September 2, he stood at Mobile Regional Airport and said: "Brownie, you're doing a heck of a job." Brown — whose previous job had been running the International Arabian Horse Association — resigned ten days later. That same day, Kanye West said on live television: "George Bush doesn't care about Black people."
+On September 2, he stood at Mobile Regional Airport and said: "Brownie, you're doing a heck of a job." Brown — whose previous job had been running the International Arabian Horse Association — resigned ten days later. That same day, [Kanye West](/personality-analysis/Kanye) said on live television: "George Bush doesn't care about Black people."
 
 Bush later told Matt Lauer it was the worst moment of his entire presidency. Not 9/11. Not Iraq. Being told he didn't care.
 
@@ -220,7 +220,7 @@ The progression tells the Six's growth story: from leaning on Cheney as the trus
 
 After leaving office with a 34% approval rating, George W. Bush did something nobody predicted.
 
-He read Winston Churchill's essay "Painting as a Pastime." He thought: "I admired his leadership. I thought his paintings were very good, and I decided if he could, I could."
+He read [Winston Churchill](/personality-analysis/Winston-Churchill)'s essay "Painting as a Pastime." He thought: "I admired his leadership. I thought his paintings were very good, and I decided if he could, I could."
 
 He took lessons from Texas Christian University art professor Jim Woodson, then from artist Sedrick Huckaby, who gave him the advice that changed everything: paint people you know but others don't.
 

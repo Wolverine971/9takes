@@ -51,7 +51,7 @@ An elderly church member named Ruth Green kept staring at him. Every time he loo
 
 Denzel kept that piece of paper. He still carries it in his wallet.
 
-He thought the prophecy meant acting. So he acted. He won Oscars and commanded $20 million a picture and built a wine cellar he'd drain for the next fifteen years. He played Malcolm X and a corrupt cop and a grief-stricken bodyguard and a father who couldn't stop controlling the people he loved most. He became, by almost any measure, the most respected actor of his generation.
+He thought the prophecy meant acting. So he acted. He won Oscars and commanded $20 million a picture and built a wine cellar he'd drain for the next fifteen years. He played [Malcolm X](/personality-analysis/Malcolm-X) and a corrupt cop and a grief-stricken bodyguard and a father who couldn't stop controlling the people he loved most. He became, by almost any measure, the most respected actor of his generation.
 
 Then, three days before his seventieth birthday, he walked into Kelly Temple Church of God in Christ in New York City, was baptized, and received a minister's training license. "It took a while," he said, "but I'm finally here."
 
@@ -124,7 +124,7 @@ After Fordham, Denzel studied briefly at the American Conservatory Theater in Sa
 
 The film career grew alongside it. _A Soldier's Story_ in 1984. _Cry Freedom_ in 1987, playing South African activist Stephen Biko -- his first Oscar nomination. Then _Glory_ in 1989, as Private Trip, a defiant former slave who refuses to fight until he has something worth fighting for. The whipping scene -- where Trip is lashed and a single tear rolls down his face while he stares straight ahead -- won him the Academy Award for Best Supporting Actor.
 
-Three years later he played Malcolm X in Spike Lee's epic. After that, by his own admission, he lost his way. "After _Malcolm X_ I made some real clunkers," he told The Times. "Look them up -- I won't say their names." He also turned down the role that went to Brad Pitt in _Se7en_ because he thought the script was "too demonic." After watching the finished film: "Oh, I blew it."
+Three years later he played Malcolm X in Spike Lee's epic. After that, by his own admission, he lost his way. "After _Malcolm X_ I made some real clunkers," he told The Times. "Look them up -- I won't say their names." He also turned down the role that went to [Brad Pitt](/personality-analysis/Brad-Pitt) in _Se7en_ because he thought the script was "too demonic." After watching the finished film: "Oh, I blew it."
 
 The post-_Malcolm X_ slump matters because it shows the pattern: Denzel doesn't course-correct publicly. He withdraws, recalibrates, and re-emerges with better choices. The retreat is always private. The comeback is always visible.
 

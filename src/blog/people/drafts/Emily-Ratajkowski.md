@@ -98,7 +98,7 @@ Emily Ratajkowski's breakthrough came in 2013 with Robin Thicke's "Blurred Lines
 
 The video made her famous overnight. It also taught her how exploitation can masquerade as empowerment. At 21, she thought she was being liberated. Looking back, she saw a more complicated picture.
 
-**David Fincher cast her in "Gone Girl" (2014)** as Ben Affleck's manipulative mistress, a role that demonstrated range beyond music video aesthetics. But Emily was already thinking beyond acting. The modeling world had given her a platform. Now she needed to figure out what to build on it.
+**David Fincher cast her in "Gone Girl" (2014)** as [Ben Affleck](/personality-analysis/Ben-Affleck)'s manipulative mistress, a role that demonstrated range beyond music video aesthetics. But Emily was already thinking beyond acting. The modeling world had given her a platform. Now she needed to figure out what to build on it.
 
 Rather than accepting the "it girl" role Hollywood offered, she started interrogating the very systems that created her fame. She started writing. She started speaking out. She started building the intellectual identity that the industry wanted to deny her.
 

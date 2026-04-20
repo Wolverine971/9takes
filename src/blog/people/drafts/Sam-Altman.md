@@ -32,7 +32,7 @@ content_quality:
 
 > "You could parachute him into an island full of cannibals and come back in five years and he'd be the king."
 
-<p class="firstLetter">Paul Graham wrote that about Sam Altman in 2008. Altman was twenty-three years old. His startup was failing. He had no major wins, no empire, no leverage. And the man who'd funded more successful founders than almost anyone alive looked at him and saw not a future billionaire, not a great technician, but a force of nature.</p>
+<p class="firstLetter">[Paul Graham](/personality-analysis/Paul-Graham) wrote that about Sam Altman in 2008. Altman was twenty-three years old. His startup was failing. He had no major wins, no empire, no leverage. And the man who'd funded more successful founders than almost anyone alive looked at him and saw not a future billionaire, not a great technician, but a force of nature.</p>
 
 Graham didn't say Altman would _survive_ the island. He said he'd _rule_ it.
 
@@ -50,7 +50,7 @@ And the [Enneagram Type 4](/enneagram-corner/enneagram-type-4) is the map.
 <li><b>Meaning Over Money:</b> Takes no equity and earns $76K running one of the most valuable companies on Earth. Status-chasing alone cannot explain that choice.</li>
 <li><b>The Word "Shameful":</b> When fired from OpenAI in 2023, he didn't call it "unfair" or "political." He called it <i>shameful</i>, the core emotion of the heart triad, and specifically the Type 4 variant.</li>
 <li><b>Identity, Not Ambition:</b> From coming out at 17 to Worldcoin's mission of giving every human a unique identity, the thread isn't career advancement. It's: <i>I am different. That difference matters. I will build a world where it's allowed to exist.</i></li>
-<li><b>Conflict Through Feeling:</b> When Elon Musk turned adversary, Altman texted: "You're my hero and it really fucking hurts when you publicly attack OpenAI." Vulnerability first, strategy second.</li>
+<li><b>Conflict Through Feeling:</b> When [Elon Musk](/personality-analysis/Elon-Musk) turned adversary, Altman texted: "You're my hero and it really fucking hurts when you publicly attack OpenAI." Vulnerability first, strategy second.</li>
 </ul>
 </div>
 </details>
@@ -320,7 +320,7 @@ Set the two readings aside for a moment. The sentence itself is the purest Type 
 
 That is the engine. Everything in this section runs on it.
 
-In 2016, Sam Altman [wrote](https://abcnews.go.com/US/openais-sam-altman-warned-america-trump-now-partnering/story?id=118145337) that Donald Trump represented "an unprecedented threat to America." He compared the political moment to 1930s Germany. He posted on X: "I think Trump is terrible and few things would make me happier than him not being president."
+In 2016, Sam Altman [wrote](https://abcnews.go.com/US/openais-sam-altman-warned-america-trump-now-partnering/story?id=118145337) that [Donald Trump](/personality-analysis/Donald-Trump) represented "an unprecedented threat to America." He compared the political moment to 1930s Germany. He posted on X: "I think Trump is terrible and few things would make me happier than him not being president."
 
 On January 21, 2025, Altman stood at a White House podium beside Trump and said: ["We wouldn't be able to do this without you, Mr. President."](https://singjupost.com/transcript-of-trump-press-conference-announcing-ai-infrastructure-project-called-stargate/)
 

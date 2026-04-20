@@ -64,7 +64,7 @@ An only child in a rural parish. An American-born kid with a Dublin accent atten
 
 She always had a sense of not quite ever being from one place.
 
-Her father was an actor — he appeared alongside Brad Pitt in _The Devil's Own_ and Cate Blanchett in _Veronica Guerin_. So when nine-year-old Saoirse walked onto the set of the Irish TV series _The Clinic_, it wasn't a break from her world. It was an extension of it. The one space where feeling everything — where being the sensitive kid who read rooms and carried other people's weather — was the job description.
+Her father was an actor — he appeared alongside [Brad Pitt](/personality-analysis/Brad-Pitt) in _The Devil's Own_ and Cate Blanchett in _Veronica Guerin_. So when nine-year-old Saoirse walked onto the set of the Irish TV series _The Clinic_, it wasn't a break from her world. It was an extension of it. The one space where feeling everything — where being the sensitive kid who read rooms and carried other people's weather — was the job description.
 
 "My mom, who I'm basically a clone of, is a fiercely independent woman who's very hard working," Saoirse said. "She had to work hard, had to be independent and she had to rely on herself."
 

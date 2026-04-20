@@ -13,7 +13,7 @@ published: false
 enneagram: '4'
 type: ['creator', 'lifestyleInfluencer', 'entrepreneur']
 person: 'Emma-Chamberlain'
-suggestions: ['Olivia-Rodrigo', 'Billie-Eilish', "Charli-D'Amelio", 'Hailey-Bieber']
+suggestions: ['Alex-Cooper', 'Olivia-Rodrigo', 'Billie-Eilish', "Charli-D'Amelio", 'Hailey-Bieber']
 wikipedia: 'https://en.wikipedia.org/wiki/Emma_Chamberlain'
 twitter: 'emmachamberlain'
 instagram: 'emmachamberlain'
@@ -141,7 +141,7 @@ Fours do not casually have friends. They have one or two people who understand t
 
 The Sister Squad fell apart quietly through 2019. James Charles spiraled into one scandal after another. The Dolan Twins took an open-ended break and never really came back. Emma withdrew. She did not denounce anyone. She did not make a goodbye video. She did what Fours do when they decide a relationship has run its course: she went silent, and went home.
 
-She told Alex Cooper later that she had felt "used by other YouTubers in order to gain views" and "burned by the people she once looked up to." She did not give names. The withdrawal _was_ the statement.
+She told [Alex Cooper](/personality-analysis/Alex-Cooper) later that she had felt "used by other YouTubers in order to gain views" and "burned by the people she once looked up to." She did not give names. The withdrawal _was_ the statement.
 
 ---
 

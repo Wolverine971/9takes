@@ -94,7 +94,7 @@ There are two versions of that story, and the gap between them is psychologicall
 
 **Putin's own published account:** "Once my mother fainted from hunger and people thought she had died, laying her out with the corpses. Luckily Mama woke up in time and started moaning."
 
-**The version Putin told Hillary Clinton privately:** His father came home from the front for a short break. Approaching their apartment, he saw a pile of bodies stacked in the street and men loading them onto a truck. He drew nearer and recognized his wife's shoes on one of the bodies. He ran up and demanded her body. She was still alive.
+**The version Putin told [Hillary Clinton](/personality-analysis/Hillary-Clinton) privately:** His father came home from the front for a short break. Approaching their apartment, he saw a pile of bodies stacked in the street and men loading them onto a truck. He drew nearer and recognized his wife's shoes on one of the bodies. He ran up and demanded her body. She was still alive.
 
 In the private telling, his father is the hero who saves his mother. In the public version, his mother saves herself. Even when recounting his parents' most traumatic moment, Putin controls the narrative. He tells different versions to different audiences. The instinct to manage information — to never let anyone hold a story you don't control — didn't start with the KGB. It started at the kitchen table.
 

@@ -90,7 +90,7 @@ It raised $2.5 million.
 
 Two years later, before Oculus had shipped a single consumer product, Facebook acquired the company for $2 billion. Luckey was 21.
 
-"I try to be a humble guy. I don't usually succeed," he told Joe Rogan. "But I am not humble in this one regard. I believe that I am the world's best head-mounted display designer, bar none. I took the crown with the Oculus Rift. I think I still hold it."
+"I try to be a humble guy. I don't usually succeed," he told [Joe Rogan](/personality-analysis/Joe-Rogan). "But I am not humble in this one regard. I believe that I am the world's best head-mounted display designer, bar none. I took the crown with the Oculus Rift. I think I still hold it."
 
 He was barefoot when he said this.
 
@@ -122,7 +122,7 @@ He tracked his critics. He kept receipts. Five years later, at the All-In Summit
 
 "After years of lies, personal attacks, and celebrating my firing," Luckey later wrote, "Jason kept telling people I refused to be on his podcast because of something he said about Oculus. No. I refused because of his crew of bullies."
 
-Paul Graham, watching the video, called it "extraordinary."
+[Paul Graham](/personality-analysis/Paul-Graham), watching the video, called it "extraordinary."
 
 "I am infamously good at holding grudges," Luckey admitted.
 
@@ -200,7 +200,7 @@ Critics call this terrifying. The UN Secretary-General has called lethal autonom
 
 Luckey doesn't bother with the diplomacy.
 
-"Do you think that NATO should be armed with squirt guns or slingshots? How about sternly worded letters? Would you like it if NATO just had a bunch of guys sitting at typewriters, a thousand monkeys writing letters to Vladimir Putin begging him not to invade Ukraine?"
+"Do you think that NATO should be armed with squirt guns or slingshots? How about sternly worded letters? Would you like it if NATO just had a bunch of guys sitting at typewriters, a thousand monkeys writing letters to [Vladimir Putin](/personality-analysis/Vladimir-Putin) begging him not to invade Ukraine?"
 
 He paused.
 

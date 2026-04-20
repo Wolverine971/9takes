@@ -14,7 +14,14 @@ enneagram: 9
 type: ['celebrity', 'lifestyleInfluencer']
 person: 'Kylie-Jenner'
 suggestions:
-  ['Kim-Kardashian', 'Timothee-Chalamet', 'Kendall-Jenner', 'Travis-Scott', 'Paris-Hilton']
+  [
+    'Kris-Jenner',
+    'Kim-Kardashian',
+    'Timothee-Chalamet',
+    'Kendall-Jenner',
+    'Travis-Scott',
+    'Paris-Hilton'
+  ]
 wikipedia: 'https://en.wikipedia.org/wiki/Kylie_Jenner'
 twitter: 'KylieJenner'
 instagram: 'kyliejenner'
@@ -132,7 +139,7 @@ This is the Type 9 survival strategy taken to its logical extreme: if being real
 
 _"It doesn't really hurt me because I know that's not really me."_ Attacks land on the character, not the person. The distance is the point.
 
-Kris Jenner named it from the outside: _"She has learned to be emotionally available only to the people she feels really comfortable being around. She protects her mental health that way."_ <a href="https://anneofcarversville.com/fashion/2024/8/13/kylie-jenner-by-luis-alberto-rodriguez-british-vogue-september" target="_blank" rel="noopener">Source</a>
+[Kris Jenner](/personality-analysis/Kris-Jenner) named it from the outside: _"She has learned to be emotionally available only to the people she feels really comfortable being around. She protects her mental health that way."_ <a href="https://anneofcarversville.com/fashion/2024/8/13/kylie-jenner-by-luis-alberto-rodriguez-british-vogue-september" target="_blank" rel="noopener">Source</a>
 
 Protect is the right word. But what's being protected is also being hidden. And what's hidden eventually gets lost.
 

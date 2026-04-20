@@ -44,7 +44,7 @@ FEEDBACK (2026-02-18):
 
 > "I am the model middle child. I am patient and I like to take care of everyone. Being called nice is a compliment. It's not a boring way to describe me." — Jennifer Garner, _People_ magazine
 
-<p class="firstLetter">In 2018, photographers caught Jennifer Garner driving Ben Affleck to rehab. The marriage was over. The caretaking wasn't.</p>
+<p class="firstLetter">In 2018, photographers caught Jennifer Garner driving [Ben Affleck](/personality-analysis/Ben-Affleck) to rehab. The marriage was over. The caretaking wasn't.</p>
 
 It's a brutal little scene because it forces a question most celebrity profiles avoid: **what happens when the person who's always "the strong one" finally hits the limit of what strength can fix?**
 

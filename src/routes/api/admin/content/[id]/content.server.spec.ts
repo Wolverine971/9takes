@@ -256,4 +256,27 @@ describe('/api/admin/content/[id]', () => {
 
 		expect(captured.payload).toBeNull();
 	});
+
+	it('coerces blank wikidata_qid and imdb_id strings to null for clearing', async () => {
+		const captured: CapturedUpdate = { payload: null };
+		const supabase = buildSupabaseStub(captured);
+
+		const response = await PUT({
+			params: { id: '42' },
+			request: new Request('https://9takes.test/api/admin/content/42', {
+				method: 'PUT',
+				body: JSON.stringify({ wikidata_qid: '   ', imdb_id: '  ' })
+			}),
+			locals: {
+				session: { user: { id: 'admin-user' } },
+				supabase
+			}
+		} as any);
+
+		expect(response.status).toBe(200);
+		expect(captured.payload).toMatchObject({
+			wikidata_qid: null,
+			imdb_id: null
+		});
+	});
 });

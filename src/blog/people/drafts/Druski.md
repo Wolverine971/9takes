@@ -234,7 +234,7 @@ The comedian who filmed his first skits in his mother's living room is now the o
 
 The evidence:
 
-**Dunkin' "DunKings 2" Super Bowl Campaign**: A two-minute mini-film alongside Ben Affleck and Jeremy Strong, one of the year's most-watched ads.
+**Dunkin' "DunKings 2" Super Bowl Campaign**: A two-minute mini-film alongside [Ben Affleck](/personality-analysis/Ben-Affleck) and Jeremy Strong, one of the year's most-watched ads.
 
 **Justin Bieber's SWAG Album**: Bieber asked Druski, "Why wouldn't you be my therapist?" The comedian appeared on three tracks, serving as a "therapist" figure punctuating the R&B-forward album. Bieber knew Druski's "sprawling reach and range made him a perfect partner" for his mature new chapter.
 

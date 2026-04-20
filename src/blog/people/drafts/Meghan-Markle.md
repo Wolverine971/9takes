@@ -93,7 +93,7 @@ At eleven, Meghan saw a TV ad for Ivory dishwashing liquid. The tagline: "Women 
 
 She was bothered. Not by the soap. By the word "women."
 
-So she wrote letters. To Procter & Gamble. To Hillary Clinton. To Gloria Allred. To Nick News anchor Linda Ellerbee. She was methodical about it — her father told her to write "to the most powerful people you can find."
+So she wrote letters. To Procter & Gamble. To [Hillary Clinton](/personality-analysis/Hillary-Clinton). To Gloria Allred. To Nick News anchor Linda Ellerbee. She was methodical about it — her father told her to write "to the most powerful people you can find."
 
 Procter & Gamble changed the ad. "Women" became "people."
 
@@ -262,7 +262,7 @@ Sources describe the most serious dispute in their six-year marriage. Harry, 41,
 
 This is the tension that could define everything that comes next. Harry left an institution. Meghan was rejected by one. Returning means fundamentally different things to each of them.
 
-For Harry — a <a href="/personality-analysis/Prince-Harry">Type 6</a> whose entire worldview revolves around trust and safety — repairing the relationship with his father is about healing the original wound. Diana died. The institution failed. But maybe, with enough work, safety can be rebuilt.
+For Harry — a [Type 6](/enneagram-corner/enneagram-type-6) whose entire worldview revolves around trust and safety — repairing the relationship with his father is about healing the original wound. Diana died. The institution failed. But maybe, with enough work, safety can be rebuilt.
 
 For Meghan — a Type 2 who asked for love and was told her feelings were inconvenient — returning to the UK means walking back into the room that rejected her most completely. It means risking, again, the answer she fears most: _We want your performance. We don't want you._
 

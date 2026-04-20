@@ -44,7 +44,7 @@ Jason is an [Enneagram Type 3](/enneagram-corner/enneagram-type-3), "The Achieve
 <li><b>Image Consciousness:</b> His self-proclaimed title as the "world's greatest moderator" on All-In isn't arrogance. It's Type 3 brand management. He curates his public persona with surgical precision.</li>
 <li><b>Fear of Worthlessness:</b> Behind the hustle is a deep anxiety about being seen as a failure. His Brooklyn working-class roots fuel an insatiable drive to prove he belongs among the billionaires.</li>
 <li><b>Achievement as Identity:</b> 300+ startups backed. 8 unicorns. Around 100 new investments per year. For Jason, accomplishments aren't just metrics. They're proof of existence.</li>
-<li><b>Charm Offensive:</b> Type 3s read rooms instinctively. Jason's ability to network, pivot between serious debates and humor, and manage relationships with titans like <a href="/personality-analysis/Elon-Musk">Elon Musk</a> showcases classic Achiever social intelligence.</li>
+<li><b>Charm Offensive:</b> Type 3s read rooms instinctively. Jason's ability to network, pivot between serious debates and humor, and manage relationships with titans like Elon Musk showcases classic Achiever social intelligence.</li>
 </ul>
 </div>
 </details>
@@ -145,7 +145,7 @@ Court documents revealed private texts where Jason offered himself up with almos
 
 > "Board member, advisor, whatever… you have my sword. Put me in the game coach! Twitter CEO is my dream job."
 
-He raised tens of millions for investment stakes. He suggested return-to-office mandates as "gentlemen's layoffs" to cut staff. When Musk closed the deal, Jason became one of his closest confidants. He changed his Twitter bio to "Chief Meme Officer, Twitter" and was listed as a contractor in Twitter's internal directory alongside <a href="/personality-analysis/David-Sacks">David Sacks</a>.
+He raised tens of millions for investment stakes. He suggested return-to-office mandates as "gentlemen's layoffs" to cut staff. When Musk closed the deal, Jason became one of his closest confidants. He changed his Twitter bio to "Chief Meme Officer, Twitter" and was listed as a contractor in Twitter's internal directory alongside David Sacks.
 
 The relationship had friction. Musk chastised Jason for marketing investment opportunities "to randos": "This is not ok. Morgan Stanley and Jared think you are using our friendship not in a good way."
 
@@ -346,7 +346,7 @@ Is that healthy compartmentalization, or evidence of someone who can't integrate
 
 Perhaps the most damaging criticism of Jason came from Y Combinator itself.
 
-In 2016, it was revealed that Jason had been <a class="external-link" target="_blank" rel="noopener" href="https://news.ycombinator.com/item?id=11315325">banned from YC Demo Day</a>, the most important event in the startup fundraising calendar. Sam Altman, then YC's president, explained:
+In 2016, it was revealed that Jason had been <a class="external-link" target="_blank" rel="noopener" href="https://news.ycombinator.com/item?id=11315325">banned from YC Demo Day</a>, the most important event in the startup fundraising calendar. [Sam Altman](/personality-analysis/Sam-Altman), then YC's president, explained:
 
 > "We collect feedback from YC founders on investors. If you mistreat founders, we don't invite you to Demo Day. This isn't permanent. If you stop mistreating founders we start inviting you again... investors have enough advantages in the system and we unashamedly take the side of our founders."
 

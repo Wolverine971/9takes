@@ -276,7 +276,7 @@ In 2013, she admitted she had experienced **"the symptoms of a nervous breakdown
 
 She did what she always does at the edge. She took control. Stepped up as CEO. Killed underperforming shows. Built "Super Soul Sunday" and "Oprah's Lifeclass." The network recovered. But the crisis left a mark.
 
-Before 2007, Oprah had never publicly endorsed a political candidate. Her 2008 endorsement of Barack Obama — which researchers estimated was worth approximately 1 million votes — cracked that wall. By August 2024, she was standing onstage at the Democratic National Convention in Chicago, the city where her career began, delivering a surprise endorsement of Vice President [Kamala Harris](/personality-analysis/kamala-harris).
+Before 2007, Oprah had never publicly endorsed a political candidate. Her 2008 endorsement of [Barack Obama](/personality-analysis/Barack-Obama) — which researchers estimated was worth approximately 1 million votes — cracked that wall. By August 2024, she was standing onstage at the Democratic National Convention in Chicago, the city where her career began, delivering a surprise endorsement of Vice President [Kamala Harris](/personality-analysis/kamala-harris).
 
 **"Decency and respect are on the ballot,"** she said. She identified herself as a registered Independent, aiming her words specifically at undecided voters.
 

@@ -178,7 +178,7 @@ That's not a tantrum. That's an articulate boundary. And it cost her something. 
 
 ### Chappell vs. Kayleigh: The Persona as Armor
 
-"I used to dress fucking crazy before all of this happened," she told Alex Cooper. "I had energy and like light in my eyes... and then I just lost my shine."
+"I used to dress fucking crazy before all of this happened," she told [Alex Cooper](/personality-analysis/Alex-Cooper). "I had energy and like light in my eyes... and then I just lost my shine."
 
 Fame collapsed the boundary. "I would look at myself in the mirror and be like, _what's the difference between Chappell and me?_"
 

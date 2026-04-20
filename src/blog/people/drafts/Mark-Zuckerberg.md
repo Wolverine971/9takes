@@ -244,7 +244,7 @@ Then came the gold chain. The black button-down shirts with exposed chest hair. 
 
 The internet didn't know what to do with New Zuckerberg.
 
-On the Joe Rogan Experience in January 2025, he said: "Masculine energy I think is good... I think having a culture that celebrates the aggression a bit more has its own merits."
+On the [Joe Rogan](/personality-analysis/Joe-Rogan) Experience in January 2025, he said: "Masculine energy I think is good... I think having a culture that celebrates the aggression a bit more has its own merits."
 
 On the Theo Von podcast in April 2025, when asked if he'd ever felt socially awkward, he responded: "No, I'm really smooth." Then, with the first genuine self-awareness he'd ever shown on camera: "Obviously, yes, I'm like the most awkward person. People have been calling me a robot online for 20 years. It's really done wonders for my confidence."
 

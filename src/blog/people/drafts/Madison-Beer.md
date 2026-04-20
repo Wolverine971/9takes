@@ -153,7 +153,7 @@ Read that again. Fans are telling her she's their dream. And she's standing ther
 
 "I tried to be somewhat of a role model for so long that I ended up not even allowing myself to make human errors — that's unhealthy."
 
-The comparison had a target. She never named names, but the context is legible: Olivia Rodrigo, [Billie Eilish](/personality-analysis/Billie-Eilish), Sabrina Carpenter — generational peers who achieved the mainstream dominance that kept eluding her. _Evie Magazine_ even ran an article titled "Why Hasn't Madison Beer Reached Olivia Rodrigo's Level of Success?"
+The comparison had a target. She never named names, but the context is legible: [Olivia Rodrigo](/personality-analysis/Olivia-Rodrigo), [Billie Eilish](/personality-analysis/Billie-Eilish), [Sabrina Carpenter](/personality-analysis/Sabrina-Carpenter) — generational peers who achieved the mainstream dominance that kept eluding her. _Evie Magazine_ even ran an article titled "Why Hasn't Madison Beer Reached Olivia Rodrigo's Level of Success?"
 
 She says she's "fiercely protective of her female peers." But protectiveness and comparison coexist. You can root for someone and still measure yourself against them every night.
 

@@ -63,7 +63,7 @@ That's [Type 6](/enneagram-corner/enneagram-type-6) psychology running at full t
 <li><b>Fear as foundation:</b> He grew up in Manhattan Plaza watching artists struggle — "This building truthfully made me scared of acting because it's a tough lifestyle." Chalamet was terrified by what talent alone could not protect.</li>
 <li><b>Preparation as anxiety management:</b> Seven years of ping pong training. Five years studying Bob Dylan. Six figures of his own money on a single SNL performance. Wearing blinding contact lenses because a director asked. This isn't ambition — it's catastrophe prevention.</li>
 <li><b>Charging at Fear:</b> The SAG "pursuit of greatness" speech, the "top-level shit" self-assessment — then immediately walking it back: "Sometimes I feel like I've been misinterpreted in my quest." He charges at the fear, then questions whether he went too far.</li>
-<li><b>Authority-seeking:</b> Tom Cruise sent him a training "war cry" email and he followed it to the letter. He told Josh Safdie "I'll do anything you ask me to do." Villeneuve said he "needed to be protected." He doesn't trust his own instincts alone — he anchors against people he's decided to trust.</li>
+<li><b>Authority-seeking:</b> [Tom Cruise](/personality-analysis/Tom-Cruise) sent him a training "war cry" email and he followed it to the letter. He told Josh Safdie "I'll do anything you ask me to do." Villeneuve said he "needed to be protected." He doesn't trust his own instincts alone — he anchors against people he's decided to trust.</li>
 </ul>
 </div>
 </details>
@@ -186,7 +186,7 @@ When breakup rumors surfaced in November 2025, they responded not with a stateme
 
 The trajectory is visible.
 
-2018, Harry Styles interview in i-D: "Whatever bone gets electrified when I act, there's always a feeling that I'm a little bit out of my depth or out of control."
+2018, [Harry Styles](/personality-analysis/Harry-Styles) interview in i-D: "Whatever bone gets electrified when I act, there's always a feeling that I'm a little bit out of my depth or out of control."
 
 2025, Numero magazine: "I'm almost 30 years old, and I have fewer and fewer fears. The world is strange enough, so why choose to live a life that comes with fears?"
 

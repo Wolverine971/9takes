@@ -13,7 +13,7 @@ published: true
 enneagram: 7
 type: ['comedian', 'celebrity']
 person: 'Jon-Stewart'
-suggestions: ['Dave-Chappelle', 'Trevor-Noah', 'Pete-Davidson', 'Joe-Rogan']
+suggestions: ['Dave-Chappelle', 'Steve-Carell', 'Trevor-Noah', 'Pete-Davidson', 'Joe-Rogan']
 wikipedia: 'https://en.wikipedia.org/wiki/Jon_Stewart'
 twitter: 'https://twitter.com/JonStewart'
 instagram: 'https://www.instagram.com/jonstewart/'
@@ -132,7 +132,7 @@ The evidence:
 
 - **The self-medication.** "I used cigarettes to fill a void. It was an activity that I did to make myself feel better." The crack house. The mushroom binges. The insomnia he calls his "greatest inspiration." The confession that he "lives in a constant state of depression." These aren't footnotes. They're the foundation. The performance — all of it, the comedy, the moral clarity, the infectious energy — is built on top of a pain that never fully went away.
 
-The wing is 7w6. The six-wing explains everything the core Seven doesn't: the loyalty that borders on tribal (defending <a href="/personality-analysis/Dave-Chappelle">Chappelle</a>, <a href="/personality-analysis/Joe-Rogan">Rogan</a>, <a href="/personality-analysis/Pete-Davidson">Pete Davidson</a> no matter what), the anxiety beneath the humor, the community-building instinct that produced Colbert, Oliver, Bee, Noah, and an entire generation of political comedians. Robin Williams is the parallel — brilliant entertainer, deep anxiety, humor as both gift and shield, a public persona of joy concealing private struggle.
+The wing is 7w6. The six-wing explains everything the core Seven doesn't: the loyalty that borders on tribal (defending Chappelle, Rogan, Pete Davidson no matter what), the anxiety beneath the humor, the community-building instinct that produced Colbert, Oliver, Bee, Noah, and an entire generation of political comedians. Robin Williams is the parallel — brilliant entertainer, deep anxiety, humor as both gift and shield, a public persona of joy concealing private struggle.
 
 ---
 
@@ -232,7 +232,7 @@ Stephen Colbert at the Mark Twain Prize ceremony: "He is the kindest, most thoug
 
 John Oliver: "It's hard to overstate — I wouldn't be sitting in this country if it wasn't for him. I left the country for him... I left my country for that man. I don't live in the country I was born in because I wanted to work with him."
 
-Steve Carell described his ethic as "making sense out of the insane and finding joy in the darkness."
+[Steve Carell](/personality-analysis/Steve-Carell) described his ethic as "making sense out of the insane and finding joy in the darkness."
 
 <a href="/personality-analysis/Pete-Davidson">Pete Davidson</a>, roast-style: "Jon is loyal — friendship isn't something he half-asses, like acting, or gives up quickly, like directing."
 

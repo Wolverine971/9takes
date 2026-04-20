@@ -295,7 +295,7 @@ On December 8, 1980, the future ran out.
 
 In the last weeks of his life, John Lennon was, by most accounts, happier than he had ever been. _Double Fantasy_ was finished. He was making music again. He was talking about the future with an energy his friends hadn't seen in years.
 
-"You make your own dream," he said. "Don't expect Jimmy Carter or Ronald Reagan or John Lennon or Yoko Ono or Bob Dylan or Jesus Christ to come and do it for you. You have to do it yourself."
+"You make your own dream," he said. "Don't expect Jimmy Carter or [Ronald Reagan](/personality-analysis/Ronald-Reagan) or John Lennon or Yoko Ono or Bob Dylan or Jesus Christ to come and do it for you. You have to do it yourself."
 
 He included himself in the list of people who cannot save you. The peace prophet had finally stopped asking to be saved.
 

@@ -148,7 +148,7 @@ She recounted her own experiences: being called "bossy" at eight for wanting to 
 
 The speech crossed 11 million YouTube views. Within three days, 100,000 men had pledged to the campaign, hitting UN Women's initial goal. Over 1.1 million #HeForShe tweets from 750,000 users flooded the platform in two weeks. Twitter named the launch a "catalytic moment" of 2014.
 
-Barack Obama pledged. Matt Damon pledged. <a href="/personality-analysis/Harry-Styles">Harry Styles</a> called himself "a proud feminist."
+[Barack Obama](/personality-analysis/Barack-Obama) pledged. [Matt Damon](/personality-analysis/Matt-Damon) pledged. <a href="/personality-analysis/Harry-Styles">Harry Styles</a> called himself "a proud feminist."
 
 ### Criticism and the Response
 

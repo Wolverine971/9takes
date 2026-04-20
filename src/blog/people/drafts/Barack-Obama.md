@@ -42,7 +42,7 @@ That detail, fifteen games of spades during the bin Laden raid, tells you more a
 
 But it shouldn't. Because Obama had learned something at a dinner table in Hawaii when he was eight years old, something he'd been practicing ever since: when tension fills a room, the safest thing you can do is refuse to let it run you.
 
-The trouble is that the same steadiness that made him the most reassuring leader in modern American memory is the quality people closest to him describe as distance. [Michelle](/personality-analysis/Michelle-Obama) said there were times she "wanted to push Barack out of the window." Critics said he wasn't angry enough about anything. His staff called him "No Drama Obama" and meant it as both compliment and confession.
+The trouble is that the same steadiness that made him the most reassuring leader in modern American memory is the quality people closest to him describe as distance. Michelle said there were times she "wanted to push Barack out of the window." Critics said he wasn't angry enough about anything. His staff called him "No Drama Obama" and meant it as both compliment and confession.
 
 What nobody seemed to agree on was whether the calm was a gift or a wall.
 
@@ -183,7 +183,7 @@ He collected Spider-Man and Conan the Barbarian comics. Didn't drink coffee. Rar
 
 ## The Marriage Deficit
 
-Michelle Obama has been honest about the cost.
+[Michelle Obama](/personality-analysis/Michelle-Obama) has been honest about the cost.
 
 "There are going to be long periods of time when you can't stand each other," she said publicly. There were times she wanted to push him out of the window. Having children during a political career "contributed to challenges in their relationship."
 

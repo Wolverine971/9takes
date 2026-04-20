@@ -212,7 +212,7 @@ The word exists because Kris needed it to. No existing title captured what she w
 
 But the show didn't materialize from nothing. In early 2007, a sex tape featuring Kim and her ex-boyfriend Ray J leaked, or was released, depending on who you believe. Kim sued Vivid Entertainment, then dropped the lawsuit and settled for a reported $5 million. Ray J has since alleged that Kris was in the room for the negotiation, that she watched multiple tapes and selected the one that presented Kim most favorably. Kris and Kim have denied this under oath. The allegations have escalated through lawsuits into 2026.
 
-What is not disputed: the tape made Kim Kardashian the most searched name on the internet. And seven months later, producer Ryan Seacrest hired a cameraman to film a Kardashian Sunday barbecue. He took the footage to E! Entertainment. On October 14, 2007, "Keeping Up with the Kardashians" premiered.
+What is not disputed: the tape made [Kim Kardashian](/personality-analysis/Kim-Kardashian) the most searched name on the internet. And seven months later, producer Ryan Seacrest hired a cameraman to film a Kardashian Sunday barbecue. He took the footage to E! Entertainment. On October 14, 2007, "Keeping Up with the Kardashians" premiered.
 
 What Kris negotiated for that show was unprecedented in reality television. At a time when reality stars were disposable talent (modest appearance fees, no intellectual property rights), she secured creative control, ownership stakes, and profit participation. She positioned her family as content creators, not subjects. A family member described her negotiation style bluntly: "She fights like a pit bull."
 

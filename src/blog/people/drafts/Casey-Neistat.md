@@ -258,7 +258,7 @@ A man driven by longing, who moved 3,000 miles to escape it, only to discover th
 
 In October 2016, at the peak of his daily vlog and cultural influence, Casey uploaded a video called "Who I'm Endorsing for President."
 
-He endorsed Hillary Clinton. That alone would have been unremarkable from most public figures. But from a YouTuber with millions of subscribers, an audience skewing young, male, and politically mixed, it was a grenade.
+He endorsed [Hillary Clinton](/personality-analysis/Hillary-Clinton). That alone would have been unremarkable from most public figures. But from a YouTuber with millions of subscribers, an audience skewing young, male, and politically mixed, it was a grenade.
 
 "I'm speaking up now because this election has very little to do with politics, policy, or legislation," he said in the video. "This has to do with morals and principles."
 

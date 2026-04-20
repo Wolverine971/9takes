@@ -205,7 +205,7 @@ Type 4 also has a case because of the grief, vulnerability, and artist identity.
 
 Here's the thing about Pedro Pascal that the anxiety narrative alone doesn't capture: he is genuinely, chaotically funny.
 
-At the SNL 50th Anniversary special in 2025, he missed his musical cue in a sketch with Sabrina Carpenter, not once, not twice, but three times in a row. His recap: "I was the first record scratch of the night." He described it as "a cognitive and auditory failure" caused by nerves so severe he literally could not hear the cue. Then he told the story on every press tour stop, laughing harder each time.
+At the SNL 50th Anniversary special in 2025, he missed his musical cue in a sketch with [Sabrina Carpenter](/personality-analysis/Sabrina-Carpenter), not once, not twice, but three times in a row. His recap: "I was the first record scratch of the night." He described it as "a cognitive and auditory failure" caused by nerves so severe he literally could not hear the cue. Then he told the story on every press tour stop, laughing harder each time.
 
 When paparazzi photographed his Starbucks order (six shots of espresso over ice in a venti cup) and Jimmy Kimmel asked about it, Pascal's outrage was magnificent: "I cannot begin to tell you how violating this was. It's an incredibly private morning ritual that I never wanted anyone to know about." The punchline: "You sip it, you get really high, and you answer emails and stuff."
 

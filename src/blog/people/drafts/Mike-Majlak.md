@@ -132,7 +132,7 @@ That campaign brought the two of them closer. Mike became part of Logan's inner 
 
 The dynamic worked because they're complementary opposites. Logan was bold, reckless, the face. Mike was grounded (or at least, grounded relative to Logan Paul), the storyteller, the one who'd lived enough to know what questions to ask. He's also genuinely funny in a way the written word can't fully capture: dry, self-deprecating, willing to be the punchline. Mike often functioned as Logan's "babysitter," especially after the Japan controversy. The former addict keeping the young star out of trouble. An irony Mike has never shied away from.
 
-He also launched his own YouTube series, _The Night Shift_, filming with MrBeast, Kai Cenat, members of the Sidemen, Mark Rober, and other top creators. Fellow Type 7 podcasters like [Theo Von](/personality-analysis/Theo-Von) and [Tim Dillon](/personality-analysis/Tim-Dillon) share that same restless momentum, but Mike's runs on a fuel they all recognize: the need to keep moving or risk feeling everything at once.
+He also launched his own YouTube series, _The Night Shift_, filming with MrBeast, [Kai Cenat](/personality-analysis/Kai-Cenat), members of the Sidemen, Mark Rober, and other top creators. Fellow Type 7 podcasters like [Theo Von](/personality-analysis/Theo-Von) and [Tim Dillon](/personality-analysis/Tim-Dillon) share that same restless momentum, but Mike's runs on a fuel they all recognize: the need to keep moving or risk feeling everything at once.
 
 ## What is Mike Majlak's personality type?
 

@@ -13,7 +13,8 @@ published: true
 enneagram: 3
 type: ['athlete']
 person: 'Cristiano-Ronaldo'
-suggestions: ['Arnold-Schwarzenegger', 'Dwayne-Johnson', 'Tom-Cruise', 'Alex-Hormozi']
+suggestions:
+  ['Lionel-Messi', 'Arnold-Schwarzenegger', 'Dwayne-Johnson', 'Tom-Cruise', 'Alex-Hormozi']
 wikipedia: 'https://en.wikipedia.org/wiki/Cristiano_Ronaldo'
 twitter: 'cristiano'
 instagram: 'cristiano'
@@ -271,7 +272,7 @@ In 2025, he and Georgina Rodriguez got engaged — nearly a decade after they me
 
 ### The Messi Question
 
-For 15 years, Ronaldo and Lionel Messi pushed each other to heights neither might have reached alone. The Ballon d'Or races, the El Clasico battles, the constant comparison. For a Type 3, having an equal is both torture and fuel. Messi's existence meant Ronaldo could never rest, never declare himself definitively superior, never silence the debate.
+For 15 years, Ronaldo and [Lionel Messi](/personality-analysis/Lionel-Messi) pushed each other to heights neither might have reached alone. The Ballon d'Or races, the El Clasico battles, the constant comparison. For a Type 3, having an equal is both torture and fuel. Messi's existence meant Ronaldo could never rest, never declare himself definitively superior, never silence the debate.
 
 "I don't agree with that opinion," Ronaldo said when told Messi might be better. "I don't want to be humble."
 

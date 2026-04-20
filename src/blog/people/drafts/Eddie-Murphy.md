@@ -13,7 +13,7 @@ published: true
 enneagram: 7
 type: ['comedian', 'movieStar']
 person: 'Eddie-Murphy'
-suggestions: ['Will-Smith', 'Tyler-Perry', 'Tom-Cruise', 'Paris-Hilton']
+suggestions: ['Dave-Chappelle', 'Will-Smith', 'Tyler-Perry', 'Tom-Cruise', 'Paris-Hilton']
 content_quality:
   hook: 9
   enneagram: 9
@@ -217,7 +217,7 @@ At 19, sitting in a blues bar with John Belushi and Robin Williams, both of them
 
 He has never tried cocaine. He stopped drinking over twenty years ago. He smoked one joint at age 30. That's the entire drug history of a man who spent the 1980s as the biggest star in the world, surrounded by people who were consuming everything.
 
-Dave Chappelle, who followed Murphy's blueprint — explode into fame, then walk away — put it simply: "Surviving being Eddie Murphy is a hell of an accomplishment." It's the kind of survival that [Tyler Perry](/personality-analysis/Tyler-Perry), another Black entertainment mogul who built his own fortress, would understand intimately.
+[Dave Chappelle](/personality-analysis/Dave-Chappelle), who followed Murphy's blueprint — explode into fame, then walk away — put it simply: "Surviving being Eddie Murphy is a hell of an accomplishment." It's the kind of survival that [Tyler Perry](/personality-analysis/Tyler-Perry), another Black entertainment mogul who built his own fortress, would understand intimately.
 
 ---
 

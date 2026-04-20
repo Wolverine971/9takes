@@ -13,7 +13,8 @@ published: true
 enneagram: 1
 type: ['politician']
 person: 'Hillary-Clinton'
-suggestions: ['Donald-Trump', 'Barack-Obama', 'Joe-Biden', 'Bernie-Sanders', 'Kamala-Harris']
+suggestions:
+  ['Bill-Clinton', 'Donald-Trump', 'Barack-Obama', 'Joe-Biden', 'Bernie-Sanders', 'Kamala-Harris']
 wikipedia: 'https://en.wikipedia.org/wiki/Hillary_Clinton'
 twitter: 'HillaryClinton'
 instagram: 'hillaryclinton'
@@ -99,7 +100,7 @@ In 1964, teenage Hillary was a "Goldwater Girl, right down to my cowgirl outfit 
 
 But Type 1s follow their principles wherever they lead. Even when that means abandoning everything they once believed.
 
-Two pivotal influences began reshaping her worldview: her Methodist youth minister, Donald Jones, who exposed her to issues of social justice, and the speeches of Dr. Martin Luther King Jr., whom she heard speak in 1962. She later wrote to a high school friend: "**I'm a heart liberal, but a mind conservative.**"
+Two pivotal influences began reshaping her worldview: her Methodist youth minister, Donald Jones, who exposed her to issues of social justice, and the speeches of Dr. [Martin Luther King Jr.](/personality-analysis/Martin-Luther-King-Jr), whom she heard speak in 1962. She later wrote to a high school friend: "**I'm a heart liberal, but a mind conservative.**"
 
 The transformation accelerated at Wellesley. By graduation, she had stepped down from her GOP post because of her evolving views on civil rights and the Vietnam War. "I had gone from being a Goldwater Girl to supporting the anti-war campaign of Eugene McCarthy," she recalled, "driving to New Hampshire on weekends to stuff envelopes and walk precincts."
 
@@ -155,7 +156,7 @@ This relentless self-examination drives her work ethic. It also creates exhausti
 
 ## The Marriage That Endured
 
-Hillary's marriage to [Bill Clinton](https://en.wikipedia.org/wiki/Bill_Clinton) is probably the most scrutinized relationship in American political history. They met at Yale Law School and married on October 11, 1975. Bill's mother cried at the wedding because Hillary refused to take his last name.
+Hillary's marriage to [Bill Clinton](/personality-analysis/Bill-Clinton) is probably the most scrutinized relationship in American political history. They met at Yale Law School and married on October 11, 1975. Bill's mother cried at the wedding because Hillary refused to take his last name.
 
 When asked about staying after the Monica Lewinsky scandal, Hillary gave a characteristically Type 1 answer: "**I think the gutsiest thing I've ever done, well, personally, is make the decision to stay in my marriage.**"
 

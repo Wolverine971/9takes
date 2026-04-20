@@ -184,7 +184,7 @@ The point isn't that any of these people are "fake." It's that Instagram is the 
 
 **Example niche:** Dark aesthetic, poetry, alternative fashion, music, "soft girl" cottagecore, dream-pop visuals.
 
-**Faces:** Lana Del Rey's entire visual ecosystem. Phoebe Bridgers and her fan accounts. Devon Lee Carlson's "cool girl" archive. The dark academia and "fairy grunge" corners of TikTok and IG that would rather die than use the trending audio.
+**Faces:** Lana Del Rey's entire visual ecosystem. [Emma Chamberlain](/personality-analysis/emma-chamberlain)'s deadpan anti-polish. Phoebe Bridgers and her fan accounts. Devon Lee Carlson's "cool girl" archive. The dark academia and "fairy grunge" corners of TikTok and IG that would rather die than use the trending audio.
 
 **Quote:** "I refuse to use trending audio — that's not me."
 
@@ -226,7 +226,7 @@ The point isn't that any of these people are "fake." It's that Instagram is the 
 
 **Example niche:** Travel, "day in my life," try-on hauls, party lifestyle, vlog dynasties, food adventures.
 
-**Faces:** Emma Chamberlain's deadpan vlog era. Casey Neistat's daily uploads. David Dobrik's Vlog Squad chaos. Alex Cooper's "Daddy Gang" expansion across podcasts, brands, and time zones. Mr. Beast, on his Type 7 wing, when he's the one in the obstacle course rather than the one running spreadsheets.
+**Faces:** Casey Neistat's daily uploads. David Dobrik's Vlog Squad chaos. Alex Cooper's "Daddy Gang" expansion across podcasts, brands, and time zones. Mr. Beast, on his Type 7 wing, when he's the one in the obstacle course rather than the one running spreadsheets.
 
 **Quote:** "Why would I stick to one thing when everything is interesting?"
 
@@ -290,7 +290,7 @@ The platform shifted from "do you look successful?" to "can you hold attention f
 
 </InsightBox>
 
-This explains why a lot of veteran Type 3 influencers feel stuck on Reels. The instinct to over-polish is exactly what tanks reach in a feed that rewards looseness. It also explains why Emma Chamberlain (Type 7) feels so different from Kim Kardashian (Type 3) even though both are global lifestyle brands — they grew up on platforms that selected for opposite traits.
+This explains why a lot of veteran Type 3 influencers feel stuck on Reels. The instinct to over-polish is exactly what tanks reach in a feed that rewards looseness. It also explains why Casey Neistat's daily-upload chaos feels so different from Kim Kardashian's Type 3 polish even though both built global lifestyle brands — they grew up on platforms that selected for opposite traits.
 
 Type 3 isn't dying. It's adapting — and the adaptation looks like Type 3s trying to perform Type 7 spontaneity, which is its own kind of exhausting.
 

@@ -13,7 +13,7 @@ published: true
 enneagram: 9
 type: ['comedian', 'celebrity']
 person: 'Dave-Chappelle'
-suggestions: ['Kevin-Hart', 'Jon-Stewart', 'Will-Smith', 'Morgan-Freeman']
+suggestions: ['Kevin-Hart', 'Eddie-Murphy', 'Jon-Stewart', 'Will-Smith', 'Morgan-Freeman']
 wikipedia: 'https://en.wikipedia.org/wiki/Dave_Chappelle'
 twitter: 'davechappelle'
 instagram: 'davechappelle'
@@ -162,7 +162,7 @@ When Chappelle sat down with James Lipton after returning from Africa, the world
 
 "A weak person cannot get to sit here and talk to you. Ain't no weak people talking to you. So what is happening in Hollywood? Nobody knows."
 
-Then the line that went viral fifteen years later, resurfacing after Kanye's hospitalization, after Britney's conservatorship hearings:
+Then the line that went viral fifteen years later, resurfacing after [Kanye](/personality-analysis/Kanye)'s hospitalization, after Britney's conservatorship hearings:
 
 **"The worst thing to call somebody is crazy. It's dismissive. 'I don't understand this person, so they're crazy.' That's bullshit. These people are not crazy. They are strong people. Maybe the environment is a little sick."**
 

@@ -172,7 +172,7 @@ By 2021, "Call Her Daddy" had left Barstool for Spotify. The show shifted from s
 
 How does Alex Cooper get <a href="/personality-analysis/Hailey-Bieber">Hailey Bieber</a> to address the Selena Gomez timeline controversy for the first and only time? How does she get <a href="/personality-analysis/Miley-Cyrus">Miley Cyrus</a> to reveal she was attracted to women before men, something she hadn't shared anywhere else?
 
-If you listen to a 2025 episode, the show that launched on sex tips now sounds closer to a therapy session in sweats. Cooper sits cross-legged, lets silences breathe, and goes off-script deliberately. The Cyrus confession happened mid-tangent, not in response to a prepared question. When Chappell Roan opened up about fan boundaries and sexuality for over an hour, the episode won a GLAAD Media Award.
+If you listen to a 2025 episode, the show that launched on sex tips now sounds closer to a therapy session in sweats. Cooper sits cross-legged, lets silences breathe, and goes off-script deliberately. The Cyrus confession happened mid-tangent, not in response to a prepared question. When [Chappell Roan](/personality-analysis/Chappell-Roan) opened up about fan boundaries and sexuality for over an hour, the episode won a GLAAD Media Award.
 
 Three techniques make it work. She follows emotional flow over scripted structure. She leaves room for mess instead of rushing to clean up oversharing. And she protects her guests in the edit, telling them: "This is going to make you look really bad, and I'm going to choose to believe you didn't mean to say that."
 

@@ -151,7 +151,7 @@ She said this matter-of-factly in a 2024 Women's Wear Daily interview. An Oscar-
 
 Nolan cast her in _Interstellar_ (2014) when others wouldn't touch her. "I don't know if he knew that he was backing me at the time, but it had that effect. And my career did not lose momentum the way it could have if he hadn't backed me."
 
-Now she's starring in her third Nolan film, _The Odyssey_ (2026), playing Penelope opposite Tom Holland, Zendaya, and Robert Pattinson. "It fills me with so much joy... I love Chris and Emma Nolan so much, and to be invited into their world is one of the best places you can find yourself."
+Now she's starring in her third Nolan film, _The Odyssey_ (2026), playing Penelope opposite Tom Holland, [Zendaya](/personality-analysis/Zendaya), and Robert Pattinson. "It fills me with so much joy... I love Chris and Emma Nolan so much, and to be invited into their world is one of the best places you can find yourself."
 
 Being repeatedly chosen by one of cinema's most acclaimed directors — that's not a career milestone. For someone who felt rejected by the world for trying too hard, it's proof that earnestness and dedication were virtues, not flaws.
 

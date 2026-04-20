@@ -186,7 +186,7 @@ Within 18 months of arriving in New York as a disgraced daughter selling real es
 
 She and Epstein hosted dinner parties at their Upper East Side properties — his mansion on East 71st Street, her townhouse on East 65th (purchased for **$4.95 million** through an anonymous LLC funded by Epstein). Investment banker Euan Rellie, an Oxford classmate, described the dynamic: "Epstein did not appear until all the guests had taken their seats. **The real draw was Maxwell.**" She curated the guest lists, made people feel welcome, and positioned Epstein as the mysterious, powerful figure who arrived after everyone else.
 
-Journalist Vicky Ward, who first met Maxwell at a party in 1997, observed she had "transformed herself into a darling of New York society, always saying she'd flown in from somewhere exotic and name-dropping Henry Kissinger and Bill Clinton."
+Journalist Vicky Ward, who first met Maxwell at a party in 1997, observed she had "transformed herself into a darling of New York society, always saying she'd flown in from somewhere exotic and name-dropping Henry Kissinger and [Bill Clinton](/personality-analysis/bill-clinton)."
 
 This is the Type 6 pattern in real-time: a woman who had lost her entire identity structure rebuilding it by embedding herself in a new power system. She didn't start a business. She didn't pursue a career. She made herself **the indispensable social connector** between Epstein's money and the world of influence he wanted to access. Her value was _relational_ — she was the person who introduced everyone to everyone else, who managed the logistics, who opened the doors. **Without an authority figure to orbit, she had no center. With one, she was formidable.**
 

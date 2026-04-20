@@ -13,7 +13,7 @@ published: true
 enneagram: '9'
 type: ['celebrity', 'movieStar', 'comedian']
 person: 'Steve-Carell'
-suggestions: ['Paul-Rudd', 'Keanu-Reeves', 'Ryan-Gosling', 'Dave-Chappelle']
+suggestions: ['Jon-Stewart', 'Paul-Rudd', 'Keanu-Reeves', 'Ryan-Gosling', 'Dave-Chappelle']
 wikipedia: 'https://en.wikipedia.org/wiki/Steve_Carell'
 twitter: 'https://twitter.com/SteveCarell'
 instagram: 'https://instagram.com/stevecarell'
@@ -153,7 +153,7 @@ The Steve Carell marriage is not the tabloid marriage. It is the shared-routine 
 
 ## The Quietest Man on The Daily Show
 
-Between Second City and movie stardom, Steve Carell spent almost six years sitting next to Jon Stewart.
+Between Second City and movie stardom, Steve Carell spent almost six years sitting next to [Jon Stewart](/personality-analysis/Jon-Stewart).
 
 From 1999 to 2005, he was a correspondent on _The Daily Show_ alongside Stephen Colbert, Ed Helms, Rob Corddry, and Samantha Bee. His segments were not rants. They were not political monologues. They were field pieces in which Carell stood in a church basement or a factory floor or a campaign rally in Ohio and absorbed whatever the interviewee said with the patient, unreadable face of a man trying very hard to keep up. On the recurring "Even Stevphen" bits, he and Colbert sat at a news desk and screamed canned, absurdly heated arguments at each other about trivial topics, neither of them breaking character, both of them playing outraged idiots with the utter commitment that only Second City training produces.
 

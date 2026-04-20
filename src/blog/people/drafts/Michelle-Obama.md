@@ -36,7 +36,7 @@ path: src/blog/people/drafts/Michelle-Obama.md
 
 Not because she didn't have one. Michelle Obama always has a dress. She walks around with the right outfit, travels with clothes just in case something pops off. She is, by any measure, one of the most meticulously prepared public figures alive.
 
-But she knew herself. If the dress existed, she'd put it on. If the option to attend Donald Trump's second inauguration was physically available to her, the voice inside — the one that has been running since childhood, the one that says _do the right thing, show up, be above reproach_ — would win.
+But she knew herself. If the dress existed, she'd put it on. If the option to attend [Donald Trump](/personality-analysis/Donald-Trump)'s second inauguration was physically available to her, the voice inside — the one that has been running since childhood, the one that says _do the right thing, show up, be above reproach_ — would win.
 
 So she removed the option entirely.
 

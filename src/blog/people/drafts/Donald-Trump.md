@@ -169,7 +169,7 @@ The nicknames are the clearest window into this.
 
 "Crooked Hillary." "Sleepy Joe." "Low Energy Jeb." "Little Marco." "Lyin' Ted." "Crazy Bernie." Each one functions the same way: it takes a person and reduces them to a single source of shame.
 
-Not "I disagree with Hillary Clinton's policies." _Crooked._ Not "Joe Biden is too old for the presidency." _Sleepy._ Not "Jeb Bush's campaign lacks excitement." _Low Energy._
+Not "I disagree with [Hillary Clinton](/personality-analysis/Hillary-Clinton)'s policies." _Crooked._ Not "[Joe Biden](/personality-analysis/Joe-Biden) is too old for the presidency." _Sleepy._ Not "Jeb Bush's campaign lacks excitement." _Low Energy._
 
 A fairy tale linguistics expert observed that the structure is more psychologically potent than a direct accusation. The sentence "Hillary is crooked" passes through the intellect — the listener evaluates whether it's true. But the epithet "Crooked Hillary" presupposes the crookedness. The shame is baked into the name itself. It doesn't need to be argued. It just _is._
 
@@ -195,7 +195,7 @@ One word deserves special attention.
 
 When a reporter asks Trump a challenging question, the word that surfaces most reliably isn't "unfair" or "biased" or "wrong." It's "nasty." "What a nasty question." "You're a very nasty person." "That's a nasty thing to say."
 
-He called CNN's Kaitlan Collins "a nasty person." He called [Kamala Harris](/personality-analysis/Kamala-Harris) "nasty" for grilling Brett Kavanaugh. He called Denmark's prime minister "nasty" for calling his Greenland proposal absurd. He called Meghan Markle "nasty" for calling him misogynistic.
+He called CNN's Kaitlan Collins "a nasty person." He called [Kamala Harris](/personality-analysis/Kamala-Harris) "nasty" for grilling Brett Kavanaugh. He called Denmark's prime minister "nasty" for calling his Greenland proposal absurd. He called [Meghan Markle](/personality-analysis/Meghan-Markle) "nasty" for calling him misogynistic.
 
 The word choice reveals the wound. "Nasty" isn't an intellectual rebuttal. It isn't "you're incorrect" or "that's misleading." It's a word that lives in the world of _manners_ and _propriety_ — the world of social shame. A nasty person isn't wrong. A nasty person has violated the social contract by saying something that should have stayed unsaid. They've been _mean._
 

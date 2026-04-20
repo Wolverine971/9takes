@@ -13,7 +13,7 @@ published: true
 enneagram: 2
 type: ['politician']
 person: 'Bill-Clinton'
-suggestions: ['Barack-Obama', 'George-W-Bush', 'George-H-W-Bush', 'Donald-Trump']
+suggestions: ['Hillary-Clinton', 'Barack-Obama', 'George-W-Bush', 'George-H-W-Bush', 'Donald-Trump']
 wikipedia: 'https://en.wikipedia.org/wiki/Bill_Clinton'
 twitter: '@BillClinton'
 instagram: ''
@@ -242,7 +242,7 @@ The friendship illuminates something essential about Clinton's Two-ness. Bush re
 
 Bush understood this instinctively. "Just because you run against someone," he once said, "does not mean you have to be enemies. Politics does not have to be mean and ugly."
 
-Hillary saw it too. "He's still the most interesting, energizing and fully alive person I have ever met," she wrote, decades after the worst betrayal. "Bill Clinton started a conversation in the spring of 1971, and more than 30 years later we're still talking."
+[Hillary Clinton](/personality-analysis/Hillary-Clinton) saw it too. "He's still the most interesting, energizing and fully alive person I have ever met," she wrote, decades after the worst betrayal. "Bill Clinton started a conversation in the spring of 1971, and more than 30 years later we're still talking."
 
 She called staying in the marriage "the gutsiest thing I've ever done." She said she had to choose: "forgive and let go of the anger and the disappointment, or we weren't going to have a marriage."
 

@@ -13,7 +13,7 @@ enneagram: 7
 type: ['creator']
 person: 'Kai-Cenat'
 persona_title: "Twitch's Perpetual Motion Machine"
-suggestions: ['IShowSpeed', 'xQc', 'Mr-Beast', 'Logan-Paul']
+suggestions: ['IShowSpeed', 'Druski', 'xQc', 'Mr-Beast', 'Logan-Paul']
 wikipedia: ''
 twitter: ''
 instagram: ''
@@ -199,7 +199,7 @@ Then came the one that turned "big streamer" into cultural infrastructure.
 </div>
 </div>
 
-[Kevin Hart](/personality-analysis/Kevin-Hart) and Druski's stream became the most-watched in Twitch history. Kim Kardashian smashed a table over his head during a noodle challenge. Mariah Carey fielded his request for a Lamborghini. Snoop Dogg, Ice Cube, the Jonas Brothers, and dozens more cycled through.
+[Kevin Hart](/personality-analysis/Kevin-Hart) and [Druski](/personality-analysis/Druski)'s stream became the most-watched in Twitch history. [Kim Kardashian](/personality-analysis/Kim-Kardashian) smashed a table over his head during a noodle challenge. Mariah Carey fielded his request for a Lamborghini. Snoop Dogg, Ice Cube, the Jonas Brothers, and dozens more cycled through.
 
 But the signature moment wasn't a celebrity cameo. It was a promise kept.
 
@@ -310,7 +310,7 @@ Then he dropped a 23-minute cinematic YouTube video titled "I Quit" that initial
 
 The reveal was more interesting than retirement.
 
-He had spent weeks in **Italy**, immersing himself in garment production, learning about fabric weights, sewing techniques, and luxury design architecture in European factories. He'd signed up for **sewing classes** back home. He'd consulted with **Law Roach**, Zendaya's legendary stylist, who told him: "The biggest thing about being successful is that you can't have no fear."
+He had spent weeks in **Italy**, immersing himself in garment production, learning about fabric weights, sewing techniques, and luxury design architecture in European factories. He'd signed up for **sewing classes** back home. He'd consulted with **Law Roach**, [Zendaya](/personality-analysis/Zendaya)'s legendary stylist, who told him: "The biggest thing about being successful is that you can't have no fear."
 
 The announcement was **Vivet**, a fashion brand. Leather bags. Denim. Boots. Journals. Positioned as a legitimate label, not influencer merch. The name is Latin: _vivet_, meaning "he, she, or it will live forever."
 

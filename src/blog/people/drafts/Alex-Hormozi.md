@@ -51,7 +51,7 @@ Understanding Hormozi means understanding why some people can never feel like th
 <li><b>Decision Elimination:</b> Same three meals every day. 4am wake-ups. Wardrobe that fits in two drawers. Every repeated choice is cognitive load he's already refused to pay.</li>
 <li><b>Core Fear:</b> The Type 3 fear of worthlessness without accomplishment drives his "Grow or Die" philosophy.</li>
 <li><b>8 Wing Influence:</b> His direct, sometimes abrasive communication style shows strong 8 wing energy. He'd rather be respected than liked.</li>
-<li><b>The Duty Confession:</b> In his 2025 podcast with <a href="/personality-analysis/Tony-Robbins">Tony Robbins</a>, Alex admitted he works from duty, not delight — and Tony offered a reframe that cuts to the heart of Type 3's deepest struggle.</li>
+<li><b>The Duty Confession:</b> In his 2025 podcast with Tony Robbins, Alex admitted he works from duty, not delight — and Tony offered a reframe that cuts to the heart of Type 3's deepest struggle.</li>
 </ul>
 </div>
 </details>
@@ -274,7 +274,7 @@ This might be what the growth path looks like: achievement that serves something
 
 On August 17, 2025, Hormozi broke a Guinness World Record.
 
-$100M Money Models sold 2,917,443 copies in a single day. The previous record holder? Prince Harry's memoir Spare, at 1.43 million copies. Hormozi nearly doubled it within hours.
+$100M Money Models sold 2,917,443 copies in a single day. The previous record holder? [Prince Harry](/personality-analysis/Prince-Harry)'s memoir Spare, at 1.43 million copies. Hormozi nearly doubled it within hours.
 
 Only Harry Potter books have sold more copies on launch day.
 

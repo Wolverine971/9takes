@@ -13,7 +13,8 @@ published: true
 enneagram: 3
 type: ['celebrity', 'creator']
 person: 'Kim-Kardashian'
-suggestions: ['Paris-Hilton', 'Kylie-Jenner', 'Taylor-Swift', 'Meghan-Markle', 'Donald-Trump']
+suggestions:
+  ['Kris-Jenner', 'Paris-Hilton', 'Kylie-Jenner', 'Taylor-Swift', 'Meghan-Markle', 'Donald-Trump']
 wikipedia: 'https://en.wikipedia.org/wiki/Kim_Kardashian'
 twitter: 'https://twitter.com/KimKardashian'
 instagram: 'https://www.instagram.com/kimkardashian'
@@ -81,7 +82,7 @@ Robert Kardashian died when Kim was 22. She was in the middle of her first divor
 
 ## The Momager's Blueprint
 
-If Robert gave Kim the composure, Kris Jenner gave her the ambition.
+If Robert gave Kim the composure, [Kris Jenner](/personality-analysis/Kris-Jenner) gave her the ambition.
 
 Kris didn't just manage the family. She saw what the world would pay attention to and built infrastructure around it. She turned a large, photogenic family into a multi-platform empire. And she carries the weight of that decision.
 

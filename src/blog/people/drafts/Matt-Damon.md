@@ -226,7 +226,7 @@ Here is the most revealing detail about this marriage: Damon told Esquire that h
 
 He's describing his private life the way an engineer describes a system. The privacy isn't accidental. It's maintained through consistency, through discipline, through the deliberate refusal to generate stories. The boring narrative is the defense mechanism.
 
-And when Brad Pitt heard that Damon walks his kids to school every morning, Pitt said: "You bastard." Not because Damon is lucky. Because Damon built something Pitt couldn't.
+And when [Brad Pitt](/personality-analysis/Brad-Pitt) heard that Damon walks his kids to school every morning, Pitt said: "You bastard." Not because Damon is lucky. Because Damon built something Pitt couldn't.
 
 ## The Dream After the Funeral
 

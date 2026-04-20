@@ -13,7 +13,7 @@ published: true
 enneagram: 6
 type: ['politician']
 person: 'George-H-W-Bush'
-suggestions: ['George-W-Bush', 'Ronald-Reagan', 'John-F-Kennedy', 'Jimmy-Carter']
+suggestions: ['Bill-Clinton', 'George-W-Bush', 'Ronald-Reagan', 'John-F-Kennedy', 'Jimmy-Carter']
 wikipedia: 'https://en.wikipedia.org/wiki/George_H._W._Bush'
 twitter: 'georgehwbush'
 instagram: ''
@@ -249,7 +249,7 @@ The defeat stung. But Bush handled the transition with characteristic Type 6 gra
 
 ### The Longest Goodbye
 
-In retirement, Bush and Bill Clinton — the man who demolished him in 1992 — became genuine friends. They traveled together after the 2004 tsunami and Hurricane Katrina, raising hundreds of millions in relief funds. Clinton called him "a man I respect enormously." The Type 6 coalition-builder, still building coalitions, this time with his political enemy.
+In retirement, Bush and [Bill Clinton](/personality-analysis/Bill-Clinton) — the man who demolished him in 1992 — became genuine friends. They traveled together after the 2004 tsunami and Hurricane Katrina, raising hundreds of millions in relief funds. Clinton called him "a man I respect enormously." The Type 6 coalition-builder, still building coalitions, this time with his political enemy.
 
 He also took up skydiving. Jumps on his 75th, 80th, 85th, and 90th birthdays. The man Newsweek once labeled a wimp was jumping out of airplanes at 90. That detail never gets old.
 

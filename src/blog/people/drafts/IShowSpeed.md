@@ -260,7 +260,7 @@ The dynamic works because neither defers. Speed gravitates toward equals, people
 
 **Adin Ross** failed the test. After a platform dispute, Speed confronted him: "_Me and Adin haven't talked in like... months. I text him and he hasn't been texting me._" The core grievance wasn't business. It was loyalty. _Are you my friend when the camera's off?_ Speed asks this question through confrontation, not conversation.
 
-**Cristiano Ronaldo** is the one crack in the armor.
+**[Cristiano Ronaldo](/personality-analysis/Cristiano-Ronaldo)** is the one crack in the armor.
 
 <div class="iframe-container">
 <iframe width="560" height="315" loading="lazy" src="https://www.youtube.com/embed/Uv1PyE8J38w?si=2RYXWH2HSF6XlmQx" title="IShowSpeed meets Ronaldo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>

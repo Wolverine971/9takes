@@ -81,7 +81,7 @@ Watch the jokes and chaos? You might see [Type 7](/enneagram-corner/enneagram-ty
 
 But the through-line is achievement and image. Adin isn't trying to be the loudest person in the room. He's trying to be the one who's winning.
 
-The 2025 controversies reveal this clearly. When <a href="/personality-analysis/Doechii">Doechii</a> won a Grammy and got industry praise, Adin's response wasn't indifference (Type 9), adventurous distraction (Type 7), or direct confrontation for power (Type 8). It was an attack on her legitimacy, calling her an "industry plant" whose success wasn't "real."
+The 2025 controversies reveal this clearly. When Doechii won a Grammy and got industry praise, Adin's response wasn't indifference (Type 9), adventurous distraction (Type 7), or direct confrontation for power (Type 8). It was an attack on her legitimacy, calling her an "industry plant" whose success wasn't "real."
 
 That's Type 3 shadow behavior: when someone else's achievement threatens your sense of worth, you try to delegitimize it.
 
@@ -147,7 +147,7 @@ When asked why he supports Trump: "I have my personal reasons, such as crypto. B
 
 Notice the order. _Crypto_ comes first. Outcomes over theory.
 
-The validation peaked at Trump's January 2025 inauguration. Dana White took the stage to publicly thank the influencers who helped deliver victory: **"I want to thank the Nelk Boys, Adin Ross, Theo Von, Bussin' With The Boys and last but not least, the mighty and powerful Joe Rogan."**
+The validation peaked at Trump's January 2025 inauguration. Dana White took the stage to publicly thank the influencers who helped deliver victory: **"I want to thank the Nelk Boys, Adin Ross, Theo Von, Bussin' With The Boys and last but not least, the mighty and powerful [Joe Rogan](/personality-analysis/Joe-Rogan)."**
 
 Mutually beneficial. Trump gets access to Adin's demographic. Adin gets the status boost of associating with a president.
 

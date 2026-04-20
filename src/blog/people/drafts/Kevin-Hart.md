@@ -177,7 +177,7 @@ September 1, 2019. A Plymouth Barracuda on Mulholland Highway. Three spinal frac
 
 For the first time in his adult life, Kevin Hart could not move.
 
-"It all boiled down to four walls," he told Joe Rogan. "And in the space of those four walls was my wife and my brother, my kids and my friends, all on rotation. And I got a chance to think about what matters, and it's not fame. It's not money. It's not jewelry, cars, or watches. What matters are relationships. The people that were helping me get up and out of the bed."
+"It all boiled down to four walls," he told [Joe Rogan](/personality-analysis/Joe-Rogan). "And in the space of those four walls was my wife and my brother, my kids and my friends, all on rotation. And I got a chance to think about what matters, and it's not fame. It's not money. It's not jewelry, cars, or watches. What matters are relationships. The people that were helping me get up and out of the bed."
 
 The biggest cry of his life came the day he went home from the hospital: "Because I never had to see that house again. There was an option of me never walking on that driveway again. There was an option of me never seeing my wife and my kids again."
 

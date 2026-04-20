@@ -127,19 +127,29 @@ export const PUT: RequestHandler = async ({ params, request, locals }) => {
 	for (const [key, value] of Object.entries(updates)) {
 		if (!allowedFields.has(key)) continue;
 
-		if (key === 'wikidata_qid' && typeof value === 'string' && value.trim() !== '') {
-			if (!WIKIDATA_QID_PATTERN.test(value.trim())) {
+		if (key === 'wikidata_qid' && typeof value === 'string') {
+			const trimmed = value.trim();
+			if (trimmed === '') {
+				safeUpdates[key] = null;
+				continue;
+			}
+			if (!WIKIDATA_QID_PATTERN.test(trimmed)) {
 				throw error(400, 'wikidata_qid must match /^Q[1-9]\\d*$/ (e.g. "Q26876")');
 			}
-			safeUpdates[key] = value.trim();
+			safeUpdates[key] = trimmed;
 			continue;
 		}
 
-		if (key === 'imdb_id' && typeof value === 'string' && value.trim() !== '') {
-			if (!IMDB_NCONST_PATTERN.test(value.trim())) {
+		if (key === 'imdb_id' && typeof value === 'string') {
+			const trimmed = value.trim();
+			if (trimmed === '') {
+				safeUpdates[key] = null;
+				continue;
+			}
+			if (!IMDB_NCONST_PATTERN.test(trimmed)) {
 				throw error(400, 'imdb_id must match /^nm\\d+$/ (e.g. "nm1728342")');
 			}
-			safeUpdates[key] = value.trim();
+			safeUpdates[key] = trimmed;
 			continue;
 		}
 

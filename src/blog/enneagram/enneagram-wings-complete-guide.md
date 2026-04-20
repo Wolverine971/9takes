@@ -216,7 +216,7 @@ _"Helping through achievement and charm"_
 
 **Career Patterns:** Sales, PR, hospitality, entertainment, politics, fundraising
 
-**Famous Examples:** Bill Clinton, Dolly Parton, Nancy Reagan
+**Famous Examples:** [Bill Clinton](/personality-analysis/bill-clinton), Dolly Parton, Nancy Reagan
 
 **Red Flags You're This Type:**
 

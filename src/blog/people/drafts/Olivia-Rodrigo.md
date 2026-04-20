@@ -155,7 +155,7 @@ In January 2021, a seventeen-year-old Olivia Rodrigo released "drivers license" 
 
 **"Literally, it was the first song out of the gate and all of that shit happened. I felt so ill-equipped."**
 
-The media machine took her real pain and made it gossip content. Every lyric was decoded, every possible subject identified, sides were drawn. She was seventeen. Then "good 4 u" came out, and the internet noticed it sounded like Paramore's "Misery Business" — and Hayley Williams and Josh Farro ended up with songwriting credits. Then the Taylor Swift comparisons started. Not flattering ones. The implication-heavy kind, where being compared to a more established artist means you haven't built anything real yet.
+The media machine took her real pain and made it gossip content. Every lyric was decoded, every possible subject identified, sides were drawn. She was seventeen. Then "good 4 u" came out, and the internet noticed it sounded like Paramore's "Misery Business" — and Hayley Williams and Josh Farro ended up with songwriting credits. Then the [Taylor Swift](/personality-analysis/Taylor-Swift) comparisons started. Not flattering ones. The implication-heavy kind, where being compared to a more established artist means you haven't built anything real yet.
 
 **"Last time there was so much weird media shit and I had no idea how to deal with any of it."**
 

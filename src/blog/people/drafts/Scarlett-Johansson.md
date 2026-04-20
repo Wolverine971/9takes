@@ -211,7 +211,7 @@ For a personality type that struggles to advocate for itself, watching everyone 
 
 Then came OpenAI. And the anger was different this time.
 
-September 2023. Sam Altman approached Johansson to voice ChatGPT. He told her she "could bridge the gap between tech companies and creatives" and that her voice "would be comforting to people." She declined for personal reasons. Altman contacted her again. She declined again.
+September 2023. [Sam Altman](/personality-analysis/Sam-Altman) approached Johansson to voice ChatGPT. He told her she "could bridge the gap between tech companies and creatives" and that her voice "would be comforting to people." She declined for personal reasons. Altman contacted her again. She declined again.
 
 Two days before the May 2024 demo, Altman's team reached out a third time. "Before we could connect, the system was out there."
 

@@ -272,7 +272,7 @@ The man is offering something Zendaya has built her entire career around: predic
 
 Zendaya's upcoming slate reads like a Type 6's dream portfolio:
 
-**The Odyssey** (2026): Christopher Nolan cast her as Athena, goddess of wisdom and strategic warfare. She'll appear alongside fiancé Tom Holland (playing Telemachus) and heavy-hitters like Matt Damon, [Anne Hathaway](/personality-analysis/Anne-Hathaway), and Charlize Theron.
+**The Odyssey** (2026): Christopher Nolan cast her as Athena, goddess of wisdom and strategic warfare. She'll appear alongside fiancé Tom Holland (playing Telemachus) and heavy-hitters like [Matt Damon](/personality-analysis/Matt-Damon), [Anne Hathaway](/personality-analysis/Anne-Hathaway), and Charlize Theron.
 
 The symbolism isn't lost. Athena is the patron deity of heroes. She doesn't fight with brute force, she wins through preparation, strategy, and being several moves ahead.
 

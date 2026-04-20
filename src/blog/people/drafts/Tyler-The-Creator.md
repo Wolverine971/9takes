@@ -242,7 +242,7 @@ But the evolution of how he's addressed it, tracked through his lyrics, tells it
 
 **2023's "Sorry Not Sorry"**: Tyler finally addressed the hiding directly, apologizing to the guys he had to hide and the girls he had to lie to.
 
-**Chromakopia (2024)**: The album goes further. On "Balloon" featuring Doechii, Tyler states he doesn't like girls. "Take Your Mask Off" addresses hiding queerness and the damage it causes. The mask doing more harm than good.
+**Chromakopia (2024)**: The album goes further. On "Balloon" featuring [Doechii](/personality-analysis/Doechii), Tyler states he doesn't like girls. "Take Your Mask Off" addresses hiding queerness and the damage it causes. The mask doing more harm than good.
 
 The trajectory (from slurs to hints to apology to openness) mirrors a classic coming-out arc, just stretched across a decade of music. Tyler never held a press conference. He let the art speak.
 
