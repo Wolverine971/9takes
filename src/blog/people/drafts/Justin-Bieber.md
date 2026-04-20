@@ -111,15 +111,17 @@ By the time anyone thought to check whether the person inside was keeping up wit
 
 ## 48 Hours
 
-There's a thread most Bieber biographies skip. Usher didn't just sign Justin — Usher had himself lived at "Puffy Flavor Camp" for a year at thirteen, a stay he later described on Howard Stern as "very curious things taking place," "pretty wild," "pretty crazy." Asked if he'd send his own kids there, Usher said, "Hell no."
+By fifteen, the fatherless boy had three surrogate fathers. All older men. All commercial stakeholders in the product.
 
-Usher introduced the fifteen-year-old Bieber to Sean Combs. In November 2009, Justin uploaded a video to his own YouTube channel titled "JUSTIN BIEBER's 48 HRS with DIDDY!!" Diddy, to the camera: "Where we're hanging out and what we're doing, we can't really disclose, but it's definitely a fifteen-year-old's dream." He claims "custody" for the weekend. He promises Justin a car when he turns sixteen.
+Scooter Braun managed him. Usher Raymond signed him. And in November 2009, Usher introduced him to Sean Combs.
+
+Justin uploaded the video himself: "JUSTIN BIEBER's 48 HRS with DIDDY!!" Diddy, to the camera: "Where we're hanging out and what we're doing, we can't really disclose, but it's definitely a fifteen-year-old's dream." He claims "custody" for the weekend. Promises Justin a car when he turns sixteen.
 
 When Diddy asks what he wants to do, Justin grins: "Let's just get some girls, let's go hang out with some girls."
 
 That's not a fifteen-year-old's line. That's a Three reading the room.
 
-Whatever did or didn't happen in those forty-eight hours, the pattern is worth naming. By fifteen, the fatherless boy had three surrogate fathers — all older men, all commercial stakeholders in the product. Scooter. Usher. Diddy. The fourth absence was the one that might have protected him from the other three.
+Every adult man in his life had a financial stake in his continued performance. The one person whose role was supposed to be none of that — the father — was the one who wasn't there.
 
 ## What is Justin Bieber's Personality Type?
 
@@ -142,9 +144,9 @@ The evidence is everywhere:
 - "I think a lot of people in life feel like they have to put on a front because maybe who they are isn't good enough," he said in his 2020 documentary. He was describing himself.
 - Under stress, Type 3s move toward [Nine](/enneagram-corner/enneagram-type-9) — numbing, withdrawal, checking out. Justin's entire dark period was a textbook disintegration: pills at dawn, withdrawal from everyone, losing all motivation. Not rebellion. Collapse.
 
-Threes are heart-center types, and the heart center runs on shame — not the clean guilt of something you did, but the older, heavier shame of something you are. Threes spend their lives outrunning it by achieving so much the shame can't catch them. When it works, they feel alive. When it stops working, the shame floods back. For fifteen years, Bieber outran it the only way a Three knows how: by making the performance louder.
+Threes are heart-center types, and the heart center runs on shame — not the clean guilt of something you did, but the older, heavier shame of something you are. Threes spend their lives outrunning it by achieving so much the shame can't catch them. When it works, they feel alive. When it stops working, the shame floods back.
 
-Most people see a cautionary tale about the dangers of fame. But fame was the only identity Justin was ever given. When it stopped filling the void, there was nothing underneath to fall back on.
+For fifteen years, Bieber outran it the only way a Three knows how: by making the performance louder.
 
 ---
 
@@ -250,9 +252,11 @@ Read that again. Not _felt like a fraud about [some specific thing]_. _Unworthy,
 
 In May 2025, Bieber's spokesperson issued a statement to _People_ during Sean Combs' federal sex trafficking trial: "Although Justin is not among Sean Combs' victims, there are individuals who were genuinely harmed by him."
 
-In June 2025, another post: "People keep telling me to heal. I know I'm broken. I know I have anger issues. I tried to do the work my whole life to be like the people who told me I needed to be fixed like them. And it just keeps making me more tired and more angry."
+Weeks later, another post:
 
-Whatever the proximity between those two posts means or doesn't mean — a denial in May, a confession of brokenness weeks later — it's the context in which to read the rest of 2025.
+> "People keep telling me to heal. I know I'm broken. I know I have anger issues. I tried to do the work my whole life to be like the people who told me I needed to be fixed like them. And it just keeps making me more tired and more angry."
+
+A denial in May. A confession of brokenness weeks later. It's the context in which to read the rest of 2025.
 
 Reports surfaced that Hailey was reaching out to friends: "Pray for him, he's not okay."
 

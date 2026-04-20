@@ -31,9 +31,9 @@ describe('getEnneagramSidebarContext', () => {
 describe('getEnneagramSidebarCopy', () => {
 	it('returns section-specific copy', () => {
 		expect(getEnneagramSidebarCopy('/pop-culture/brad-pitt')).toEqual({
-			title: 'Get new pop culture personality reads by email',
-			copy: 'Fresh celebrity analyses, internet-culture breakdowns, and enneagram takes on public figures.',
-			buttonLabel: 'Get pop culture emails'
+			title: 'Get new culture reads',
+			copy: 'Celebrity typings and internet-culture reads through the Enneagram lens.',
+			buttonLabel: 'Send it to me'
 		});
 	});
 });

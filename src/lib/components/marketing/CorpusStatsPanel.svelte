@@ -151,18 +151,18 @@
 		padding: 1.5rem 1.25rem;
 		background: linear-gradient(180deg, var(--void-shadow) 0%, var(--void-umbra) 100%);
 		border: 1px solid rgba(45, 212, 191, 0.18);
-		border-radius: 14px;
+		border-radius: 8px;
 		text-align: left;
 		box-shadow: var(--card-shadow-soft), var(--card-highlight);
 	}
 
 	.tile-value {
 		font-family: var(--font-display);
-		font-size: clamp(1.85rem, 3.2vw, 2.4rem);
+		font-size: 2.1rem;
 		font-weight: 700;
 		line-height: 1.05;
 		color: var(--shadow-flame);
-		letter-spacing: -0.02em;
+		letter-spacing: 0;
 	}
 
 	.tile-label {
@@ -194,6 +194,10 @@
 	@media (max-width: 480px) {
 		.corpus-grid {
 			grid-template-columns: 1fr;
+		}
+
+		.tile-value {
+			font-size: 1.85rem;
 		}
 	}
 </style>

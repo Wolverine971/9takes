@@ -221,6 +221,97 @@ Before this copy gets converted into the TypeScript content module:
 
 ---
 
+## Appendix A — Altered flow for `signups`-table contacts
+
+### Context
+
+The 38 rows in the `signups` table are email-only leads — no account, no `profiles` row. They came in via blog-page signup forms (`EnneagramCTASidebar`, `Email-Signup` components). The CTAs they clicked promised **content updates**, not access to the Q&A platform:
+
+- "Get the next personality breakdown by email"
+- "Get enneagram guides by email"
+- "Get enneagram mental health guides by email"
+- "Get type-by-type enneagram insights by email"
+- "Get new pop culture personality reads by email"
+- "Get the next community take by email"
+- "Get practical psychology guides by email"
+- Generic: "Get enneagram insights by email. No account required."
+
+They got one welcome email and nothing since. The existing `signupWelcomeEmail` copy (in `src/emails/index.ts:471`) said "You are on the 9takes update list" and pointed at questions, enneagram corner, and personality analyses.
+
+### Why the main flow needs to change for them
+
+The draft Email 1 above opens with _"Here's the loop the whole platform runs on: answer before seeing what anyone else thinks…"_ — that's pitching the Q&A platform mechanic. A signups contact never asked for that. They asked for **new writing**. Pushing the platform loop at them feels like a bait-and-switch from what they opted into.
+
+**Two changes only. Everything else stays shared with the `profiles` flow:**
+
+1. **Email 1 opener** — single variant regardless of bucket. Content-led, not platform-led.
+2. **Email 3 CTA** — swap the `{{questions_url}}` link for a second piece of content (another hero blog). They're not here for live threads.
+
+Emails 2, 4, and 5 work as-is for signups. The founder note (Email 2) is even more relevant here — they signed up for writing from someone, and this is the note from that someone. The re-permission (Email 4) and goodbye (Email 5) are source-agnostic.
+
+### Signups Email 1 — replacement copy
+
+**Subject:** `Quick note on the emails you signed up for`
+**Preheader:** `You're on the 9takes update list. Here's what's worth reading first.`
+
+**Body:**
+
+> You signed up for 9takes emails back in {{signup_month_year}} — you probably came in off a blog post or a personality breakdown. I sent you one welcome note and then went quiet, which isn't what you asked for. Starting this week, that's changing.
+>
+> The most-read thing on 9takes right now is ["Enneagram and Mental Illness"]({{hero_url}}). If you signed up because the psychology side of this stuff interests you, that's the place to start. It's the cleanest example of what I mean by "pattern-recognition, not personality tests."
+>
+> More next week — a personal note about why I'm obsessed with this in the first place. After that, one Enneagram piece per week or two, roughly.
+>
+> If this isn't what you want in your inbox, the unsubscribe at the bottom works on one click. I'd rather lose you than mis-serve you.
+>
+> DJocrates
+> 9takes.com
+
+**Plain text:**
+
+```
+You signed up for 9takes emails back in {{signup_month_year}} — you probably came in off a blog post or a personality breakdown. I sent you one welcome note and then went quiet, which isn't what you asked for. Starting this week, that's changing.
+
+The most-read thing on 9takes right now is "Enneagram and Mental Illness". If you signed up because the psychology side of this stuff interests you, that's the place to start. It's the cleanest example of what I mean by "pattern-recognition, not personality tests."
+{{hero_url}}
+
+More next week — a personal note about why I'm obsessed with this in the first place. After that, one Enneagram piece per week or two, roughly.
+
+If this isn't what you want in your inbox, the unsubscribe at the bottom works on one click. I'd rather lose you than mis-serve you.
+
+DJocrates
+9takes.com
+```
+
+### Signups Email 3 — altered CTA
+
+Email 3's body is the same ("he thinks she's cold. she thinks he's needy."), but the closing CTA swaps from questions to a second piece of content.
+
+**Replace this line:**
+
+> [Read the full thread and add your take]({{questions_url}})
+
+**With (for signups):**
+
+> There's a longer write-up on exactly this dynamic: ["How Minds Actually Change on 9takes"]({{secondary_content_url}}). If the text-pattern example above tracks for you, that piece takes it further.
+
+**New token needed:** `{{secondary_content_url}}` — default `https://9takes.com/community/how-minds-change-on-9takes` (or similar; DJ to choose). For `profiles` contacts this token isn't used (they get the questions CTA unchanged).
+
+### Bucket behavior for signups
+
+Signups still get bucketed into Cold / Dormant / Zombies by `created_at` age, and the batch schedule (plan §9) applies to them the same way. Only the content of Email 1's opener and Email 3's CTA differ — bucket still drives timing and warmup batching.
+
+At 38 signups, the likely distribution roughly mirrors the overall campaign: a few in Cold, most in Dormant or Zombies. The bucket query will confirm.
+
+### Rollout checklist for signups
+
+- [ ] Confirm the signups Email 1 opener reads right — does "you signed up for the emails" feel honest given the only-one-email history?
+- [ ] Pick the `{{secondary_content_url}}` — second hero blog for Email 3 signups variant.
+- [ ] Decide: should signups get the re-permission Email 4 framed differently? Current version says "You've gotten three emails from me over the last few weeks after a long stretch of nothing." That's accurate for signups too. Keep as-is unless DJ sees a mismatch.
+
+---
+
 ## Changelog
 
+- **2026-04-20 (PM)** — Added Appendix A: altered flow for `signups`-table contacts. Two-email divergence (Email 1 opener + Email 3 CTA) with rest shared.
 - **2026-04-20** — Initial draft v1. Email 2 personal story left as placeholder. All other copy directional, written in welcome-sequence voice.

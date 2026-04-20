@@ -39,7 +39,38 @@ The plan §8.2 flagged this. Now that we have concrete copy:
 
 **Recommendation: three sequences.** The Email 1 variance is only in opener + subject; steps 2–5 are literally the same content. Duplication is 5 rows per sequence × 3 = 15 rows, trivial. Cleaner metrics, simpler template engine.
 
-**Need from DJ:** confirm three-sequence approach or push back.
+**DECIDED 2026-04-20:** Three sequences confirmed. `reactivation_cold`, `reactivation_dormant`, `reactivation_zombies`.
+
+### 1.3 — Signups-source content variance (added 2026-04-20)
+
+The 38 `signups`-table contacts opted into blog/content updates, not the Q&A platform. Their reactivation flow needs a different Email 1 opener and a different Email 3 CTA (see `reactivation-sequence-copy.md` Appendix A).
+
+**Implementation options:**
+
+| Option                                                          | How                                                                                                                                                | Verdict                                               |
+| --------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------- |
+| **D1. Six sequences** (`_profiles_cold`, `_signups_cold`, etc.) | Duplicate each bucket by source                                                                                                                    | Rejected — explosion for 38 contacts                  |
+| **D2. Source-aware template rendering**                         | Three sequences. Template engine reads `recipient_source` from the enrollment row and picks the right Email 1 variant + Email 3 CTA at render time | **Recommended** — minimal infra, clean copy isolation |
+
+**Pick D2.** Store content as two variants per step (profiles vs. signups) for the two emails that diverge (Email 1 and Email 3). Step 2, 4, 5 have one variant each. Render-time branch on `enrollment.recipient_source`.
+
+**Impact on `reactivation-sequence-content.ts` shape:**
+
+```ts
+export type ReactivationStep = {
+	sequenceKey: string; // reactivation_cold | _dormant | _zombies
+	stepNumber: number; // 1..5
+	source: 'profiles' | 'signups' | 'shared';
+	subject: string;
+	preheader: string;
+	htmlContent: string;
+	plainText: string;
+};
+```
+
+Renderer logic: for a given enrollment, fetch the step where `source = enrollment.recipient_source` first, fall back to `source = 'shared'` if no source-specific variant exists.
+
+**New token for signups Email 3:** `{{secondary_content_url}}` (blog URL, not questions URL).
 
 ---
 
@@ -262,3 +293,4 @@ Carried over from the plan doc, still unresolved:
 ## 9. Changelog
 
 - **2026-04-20** — Initial spec. Two blocking decisions identified. Ready for DJ review.
+- **2026-04-20 (PM)** — §1.2 decision recorded: three sequences confirmed. §1.3 added: signups source-variance approach (D2 — source-aware template rendering, one content module with step variants). `ReactivationStep` type updated with `source` field.

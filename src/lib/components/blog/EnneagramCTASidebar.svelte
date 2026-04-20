@@ -17,7 +17,7 @@
 	export let sidePosition: 'left' | 'right' = 'right';
 	export let showAtScrollY: number = 1500;
 	export let hideBeforeBottom: number = 1500;
-	export let sidebarWidth: number = 220;
+	export let sidebarWidth: number = 240;
 	export let mobileBreakpoint: number = 1024;
 	export let ctaTitle: string | null = null;
 	export let ctaCopy: string | null = null;
@@ -34,6 +34,7 @@
 	let resolvedTitle = '';
 	let resolvedCopy = '';
 	let resolvedButtonLabel = '';
+	const errorId = 'enneagram-cta-sidebar-error';
 
 	async function handleSubmit() {
 		if (loading) return;
@@ -196,23 +197,32 @@
 		{#if submitted}
 			<p class="sidebar-success">You&rsquo;re in. Check your inbox for the welcome note.</p>
 		{:else}
-			<form on:submit|preventDefault={handleSubmit} class="sidebar-form">
+			<form
+				on:submit|preventDefault={handleSubmit}
+				class="sidebar-form"
+				aria-label="Subscribe by email"
+				aria-busy={loading}
+				novalidate
+			>
 				<div>
 					<input
 						type="email"
 						bind:value={email}
+						on:input={() => (error = '')}
 						placeholder="you@example.com"
 						required
 						autocomplete="email"
+						aria-invalid={error ? 'true' : 'false'}
+						aria-describedby={error ? errorId : undefined}
 						class="sidebar-input"
 					/>
 				</div>
-				<button type="submit" class="sidebar-button" disabled={loading || !email.trim().length}>
+				<button type="submit" class="sidebar-button" disabled={loading}>
 					{loading ? 'Submitting...' : resolvedButtonLabel}
 				</button>
 			</form>
 			{#if error}
-				<p class="sidebar-error">{error}</p>
+				<p class="sidebar-error" id={errorId}>{error}</p>
 			{/if}
 		{/if}
 	</div>
@@ -222,20 +232,15 @@
 	.cta-sidebar {
 		position: fixed;
 		top: 50%;
-		width: 14rem;
+		box-sizing: border-box;
+		width: 15rem;
 		transform: translateY(-50%);
-		padding: 1.35rem;
-		border-radius: 1.15rem;
-		border: 1px solid color-mix(in srgb, var(--accent) 18%, var(--border-color));
-		background:
-			linear-gradient(
-				180deg,
-				color-mix(in srgb, var(--accent-soft) 30%, transparent) 0%,
-				transparent 45%
-			),
-			color-mix(in srgb, var(--bg-surface) 94%, var(--bg-base));
-		box-shadow: var(--shadow-lg);
-		backdrop-filter: blur(14px);
+		padding: 1rem;
+		border: 1px solid color-mix(in srgb, var(--primary) 16%, var(--border-color));
+		border-radius: 0.5rem;
+		background: color-mix(in srgb, var(--bg-surface) 94%, var(--bg-base));
+		box-shadow: var(--shadow-md);
+		backdrop-filter: blur(12px);
 	}
 
 	.cta-sidebar--embedded {
@@ -245,86 +250,72 @@
 		right: auto;
 		width: 100%;
 		transform: none;
-		padding: 1rem;
-		border-radius: 1rem;
-		background:
-			linear-gradient(
-				180deg,
-				color-mix(in srgb, var(--accent-soft) 18%, transparent) 0%,
-				transparent 45%
-			),
-			color-mix(in srgb, var(--bg-surface) 88%, var(--bg-base));
-		box-shadow: inset 0 1px 0 color-mix(in srgb, white 6%, transparent);
-	}
-
-	.cta-sidebar::before {
-		content: '';
-		position: absolute;
-		inset: 0;
-		border-radius: inherit;
-		background: linear-gradient(
-			135deg,
-			color-mix(in srgb, var(--primary-subtle) 52%, transparent),
-			transparent 55%
-		);
-		pointer-events: none;
+		padding: 0.15rem 0.15rem 0;
+		border: 0;
+		border-radius: 0;
+		background: transparent;
+		box-shadow: none;
+		backdrop-filter: none;
 	}
 
 	.sidebar-title,
 	.sidebar-copy {
-		position: relative;
-		z-index: 1;
-		text-align: center;
+		text-align: left;
 	}
 
 	.sidebar-title {
-		margin: 0 0 0.6rem;
-		font-size: 1.05rem;
+		margin: 0 0 0.45rem;
+		font-size: 1rem;
 		font-weight: 700;
-		line-height: 1.35;
+		line-height: 1.3;
+		letter-spacing: 0;
 		color: var(--text-primary);
 	}
 
 	.sidebar-copy {
-		margin: 0 0 1rem;
-		font-size: 0.88rem;
-		line-height: 1.55;
+		margin: 0 0 0.9rem;
+		font-size: 0.85rem;
+		line-height: 1.5;
 		color: var(--text-secondary);
 	}
 
 	.sidebar-success,
 	.sidebar-error {
-		position: relative;
-		z-index: 1;
 		margin: 0;
-		font-size: 0.88rem;
-		line-height: 1.55;
-		text-align: center;
+		font-size: 0.84rem;
+		line-height: 1.45;
+		text-align: left;
 	}
 
 	.sidebar-success {
+		padding: 0.7rem 0.75rem;
+		border: 1px solid color-mix(in srgb, var(--primary) 18%, var(--border-color));
+		border-radius: 0.5rem;
+		background: color-mix(in srgb, var(--primary) 8%, transparent);
 		color: var(--text-primary);
 	}
 
 	.sidebar-error {
+		margin-top: 0.55rem;
 		color: var(--warning);
 	}
 
 	.sidebar-form {
-		position: relative;
-		z-index: 1;
 		display: grid;
-		gap: 0.75rem;
+		gap: 0.6rem;
 	}
 
 	.sidebar-input {
+		box-sizing: border-box;
 		width: 100%;
-		padding: 0.8rem 0.9rem;
-		border: 1px solid color-mix(in srgb, var(--accent) 18%, var(--border-color));
-		border-radius: 0.9rem;
+		min-height: 2.55rem;
+		padding: 0.7rem 0.75rem;
+		border: 1px solid color-mix(in srgb, var(--primary) 16%, var(--border-color));
+		border-radius: 0.5rem;
 		background: color-mix(in srgb, var(--bg-surface) 90%, var(--bg-base));
 		color: var(--text-primary);
-		font-size: 0.92rem;
+		font-size: 0.9rem;
+		line-height: 1.2;
 		transition:
 			border-color 0.2s ease,
 			box-shadow 0.2s ease,
@@ -335,6 +326,10 @@
 		color: var(--text-tertiary);
 	}
 
+	.sidebar-input:hover {
+		border-color: color-mix(in srgb, var(--primary) 28%, var(--border-color));
+	}
+
 	.sidebar-input:focus {
 		outline: none;
 		border-color: var(--primary);
@@ -342,18 +337,26 @@
 		background: var(--bg-surface);
 	}
 
+	.sidebar-input[aria-invalid='true'] {
+		border-color: var(--warning);
+		box-shadow: none;
+	}
+
 	.sidebar-button {
 		display: inline-flex;
 		align-items: center;
 		justify-content: center;
 		width: 100%;
-		padding: 0.85rem 1rem;
-		border: none;
-		border-radius: 0.9rem;
+		min-height: 2.65rem;
+		padding: 0.75rem 0.85rem;
+		border: 1px solid transparent;
+		border-radius: 0.5rem;
 		background: linear-gradient(135deg, var(--primary-dark) 0%, var(--primary) 100%);
 		color: var(--text-on-primary);
-		font-size: 0.92rem;
+		font-size: 0.9rem;
 		font-weight: 700;
+		line-height: 1.2;
+		white-space: nowrap;
 		cursor: pointer;
 		box-shadow: var(--glow-sm);
 		transition:
@@ -363,20 +366,25 @@
 	}
 
 	.sidebar-button:disabled {
-		cursor: not-allowed;
-		opacity: 0.65;
-		box-shadow: none;
+		cursor: wait;
+		opacity: 0.72;
+		box-shadow: var(--glow-sm);
 	}
 
-	.sidebar-button:hover {
+	.sidebar-button:focus-visible {
+		outline: 2px solid color-mix(in srgb, var(--primary) 70%, white);
+		outline-offset: 2px;
+	}
+
+	.sidebar-button:not(:disabled):hover {
 		transform: translateY(-1px);
 		box-shadow: var(--glow-md);
 		filter: saturate(1.05);
 	}
 
-	.sidebar-button:disabled:hover {
-		transform: none;
-		box-shadow: none;
+	.sidebar-button:not(:disabled):active {
+		transform: translateY(0);
+		box-shadow: var(--glow-sm);
 		filter: none;
 	}
 </style>

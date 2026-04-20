@@ -17,44 +17,44 @@ export type EnneagramSidebarCopy = {
 
 const SIDEBAR_COPY: Record<EnneagramSidebarContext, EnneagramSidebarCopy> = {
 	'personality-analysis': {
-		title: 'Get the next personality breakdown by email',
-		copy: 'Fresh celebrity analyses, relationship reads, and enneagram-based explanations from 9takes.',
-		buttonLabel: 'Get personality emails'
+		title: 'Get the next breakdown',
+		copy: 'Celebrity types, relationship patterns, and plain-English Enneagram context.',
+		buttonLabel: 'Send it to me'
 	},
 	'enneagram-corner': {
-		title: 'Get enneagram guides by email',
-		copy: 'Type-specific growth, relationship, stress, and self-understanding guides from 9takes.',
-		buttonLabel: 'Get enneagram guides'
+		title: 'Get Enneagram notes',
+		copy: 'Short guides on type patterns, growth, stress, and relationships.',
+		buttonLabel: 'Send it to me'
 	},
 	'enneagram-mental-health': {
-		title: 'Get enneagram mental health guides by email',
-		copy: 'New type-aware writing on anxiety, burnout, healing, and emotional patterns from 9takes.',
-		buttonLabel: 'Get mental health guides'
+		title: 'Get type-aware guides',
+		copy: 'Notes on anxiety, burnout, healing, and emotional patterns.',
+		buttonLabel: 'Send it to me'
 	},
 	'enneagram-type': {
-		title: 'Get type-by-type enneagram insights by email',
-		copy: 'Clear breakdowns of each type, their patterns, and how they relate to other people.',
-		buttonLabel: 'Get type insights'
+		title: 'Go deeper on each type',
+		copy: 'Clear breakdowns of type patterns, blind spots, and relationships.',
+		buttonLabel: 'Send it to me'
 	},
 	'pop-culture': {
-		title: 'Get new pop culture personality reads by email',
-		copy: 'Fresh celebrity analyses, internet-culture breakdowns, and enneagram takes on public figures.',
-		buttonLabel: 'Get pop culture emails'
+		title: 'Get new culture reads',
+		copy: 'Celebrity typings and internet-culture reads through the Enneagram lens.',
+		buttonLabel: 'Send it to me'
 	},
 	community: {
-		title: 'Get the next community take by email',
-		copy: 'Sharp questions, honest answers, and personality-driven community conversations from 9takes.',
-		buttonLabel: 'Get community emails'
+		title: 'Get the next reader take',
+		copy: 'Questions, answers, and sharper takes from the 9takes community.',
+		buttonLabel: 'Send it to me'
 	},
 	'how-to-guides': {
-		title: 'Get practical psychology guides by email',
-		copy: 'New how-to breakdowns on relationships, communication, and understanding people.',
-		buttonLabel: 'Get practical guides'
+		title: 'Get practical people guides',
+		copy: 'Notes on communication, relationships, and reading people.',
+		buttonLabel: 'Send it to me'
 	},
 	generic: {
-		title: 'Get enneagram insights by email',
+		title: 'Get Enneagram notes',
 		copy: 'New guides and 9takes updates. No account required.',
-		buttonLabel: 'Subscribe'
+		buttonLabel: 'Send it to me'
 	}
 };
 

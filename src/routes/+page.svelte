@@ -90,6 +90,21 @@
 		}
 	];
 
+	const demoReplyTypes = [
+		{
+			type: 4,
+			hint: 'Looks for the emotional thing nobody is saying.'
+		},
+		{
+			type: 6,
+			hint: 'Checks what is trustworthy, risky, or unstable.'
+		},
+		{
+			type: 8,
+			hint: 'Reads power, control, and what needs direct action.'
+		}
+	];
+
 	// Blog category cards — each is a whole library, not a single post.
 	const blogCategories = [
 		{
@@ -374,132 +389,44 @@
 	<div class="bg-grid"></div>
 
 	<main class="content">
-		<header class="page-intro" in:fly={getTransition()}>
-			<div class="section-header">
+		<section class="hero-section" in:fly={getTransition()}>
+			<div class="hero-copy">
 				<div class="section-badge accent">
 					<span class="badge-dot"></span>
-					<span>ENNEAGRAM PERSONALITY ANALYSIS</span>
+					<span>START HERE</span>
 				</div>
-				<h1 class="page-title">
-					Understand the 9 Enneagram types and why people react so differently.
-				</h1>
+				<h1 class="page-title">Do you know your Enneagram type?</h1>
 				<p class="page-lede">
-					9takes is an Enneagram platform for personality analysis, emotional intelligence, and
-					social dynamics. Explore type guides, famous-person breakdowns, practical advice, and
-					questions answered through all nine perspectives.
+					9takes turns one situation into nine emotional lenses. Give your take first, then see how
+					every type reads the same question.
 				</p>
-			</div>
 
-			<nav class="intro-links" aria-label="Explore the main sections of 9takes">
-				{#each primaryResources as resource}
-					<a href={resource.path} class="intro-link">
-						<span class="intro-link-title">{resource.name}</span>
-						<span class="intro-link-desc">{resource.description}</span>
+				<div class="hero-actions">
+					<a
+						href={data.questionOfTheDay?.url
+							? `/questions/${data.questionOfTheDay.url}`
+							: '/questions'}
+						class="btn-shadow lg"
+					>
+						<span>Give Today's Take</span>
 					</a>
-				{/each}
-			</nav>
-		</header>
-
-		<!-- ========== MOBILE FORK SECTION (mobile only) ========== -->
-		<section class="mobile-fork-section mobile-only" in:fly={getTransition()}>
-			<header class="mobile-fork-header">
-				<div class="section-badge accent">
-					<span class="badge-dot"></span>
-					<span>START HERE</span>
-				</div>
-				<h2 class="mobile-fork-h1">Do you know about<br />the Enneagram?</h2>
-			</header>
-
-			<!-- Branching tree visual: root → trunk → split → drops -->
-			<div class="mfork-tree" aria-hidden="true">
-				<span class="tree-root"></span>
-				<span class="tree-trunk"></span>
-				<span class="tree-cross"></span>
-				<span class="tree-drop tree-drop-no"></span>
-				<span class="tree-drop tree-drop-yes"></span>
-			</div>
-
-			<!-- Pills row aligned with each path -->
-			<div class="mfork-labels">
-				<span class="label-pill no-pill">NO</span>
-				<span class="label-pill yes-pill">YES</span>
-			</div>
-
-			<!-- Twin columns: NO holds the basics, YES is just an intro before expanding -->
-			<div class="mfork-cols">
-				<article class="mfork-col no-col">
-					<h2 class="mfork-col-title">Start with the basics</h2>
-					<p class="mfork-col-sub">Three quick reads.</p>
-					<ol class="mfork-links">
-						{#each noPathBlogs as blog, i}
-							<li>
-								<a href={blog.url}>
-									<span class="link-num">{(i + 1).toString().padStart(2, '0')}</span>
-									<span class="link-text">
-										<span class="link-title">{blog.title}</span>
-										<span class="link-sub">{blog.subtitle}</span>
-									</span>
-								</a>
-							</li>
-						{/each}
-					</ol>
-					<div class="no-end">
-						<span class="end-mark" aria-hidden="true">×</span>
-						<span>Come back when you know your type.</span>
-					</div>
-				</article>
-
-				<article class="mfork-col yes-col">
-					<div class="yes-card">
-						<h2 class="mfork-col-title">9takes is your place</h2>
-						<p class="mfork-col-tease">Like Reddit — with personality types on every reply.</p>
-					</div>
-					<div class="yes-trail" aria-hidden="true">
-						<span class="trail-line"></span>
-					</div>
-				</article>
-			</div>
-
-			<!-- YES path takes over the full width -->
-			<div class="mfork-takeover">
-				<span class="takeover-bridge" aria-hidden="true"></span>
-				<p class="takeover-headline">
-					<em>Reddit — but every comment is tagged with the writer's Enneagram type.</em>
-				</p>
-				<p class="takeover-body">
-					One question. Nine emotional lenses. You stop assuming everyone reacts the way you do —
-					and start seeing situations through eyes that work nothing like yours.
-				</p>
-				<div class="takeover-cta">
-					<span class="cta-label">Keep scrolling</span>
-					<span class="cta-arrow" aria-hidden="true">↓</span>
+					<a
+						href="/enneagram-corner/beginners-guide-to-determining-your-enneagram-type"
+						class="btn-system"
+					>
+						I'm New to This
+					</a>
 				</div>
 			</div>
-		</section>
 
-		<!-- ========== DESKTOP FORK SECTION (desktop only) ========== -->
-		<section class="fork-section desktop-only" in:fly={getTransition()}>
-			<header class="fork-header">
-				<div class="section-badge accent">
-					<span class="badge-dot"></span>
-					<span>START HERE</span>
-				</div>
-				<h2 class="fork-h1">Do you know about the Enneagram?</h2>
-			</header>
-
-			<div class="fork-tree" aria-hidden="true">
-				<div class="line trunk"></div>
-				<div class="line crossbar"></div>
-				<div class="line drop drop-no"></div>
-				<div class="line drop drop-yes"></div>
-			</div>
-
-			<div class="fork-grid">
-				<article class="branch branch-no">
-					<span class="branch-label no-label">NO</span>
+			<div class="hero-decision" aria-label="Choose where to start">
+				<article class="decision-panel decision-no">
+					<span class="branch-label no-label">I'M NEW</span>
 					<h2 class="branch-title">Start with the basics</h2>
-					<p class="branch-intro">Three quick reads to get you up to speed.</p>
-					<ul class="branch-links">
+					<p class="branch-intro">
+						Get your footing first. These three reads explain the system without making it weird.
+					</p>
+					<ol class="branch-links">
 						{#each noPathBlogs as blog}
 							<li>
 								<a href={blog.url} class="branch-link">
@@ -508,32 +435,66 @@
 								</a>
 							</li>
 						{/each}
-					</ul>
-					<div class="branch-end">
-						<span class="terminus-dot" aria-hidden="true"></span>
-						<span class="terminus-text">Come back when you know your type.</span>
+					</ol>
+				</article>
+
+				<article class="decision-panel decision-yes">
+					<span class="branch-label yes-label">I KNOW MY TYPE</span>
+					<h2 class="branch-title">Answer first. Then compare the nine lenses.</h2>
+					<p class="branch-tagline">
+						<em>Reddit — but every comment is tagged with the writer's Enneagram type.</em>
+					</p>
+
+					<div class="demo-preview" aria-label="Preview of the 9takes answer-first mechanic">
+						<div class="demo-topline">
+							<span>Today's question</span>
+							<span>{data.questionOfTheDay?.comment_count || 0} responses</span>
+						</div>
+						<h3 class="demo-question">
+							{data.questionOfTheDay?.question_formatted ??
+								'What is something people misunderstand about you?'}
+						</h3>
+
+						<div class="demo-compose">
+							<span class="demo-user">You</span>
+							<span>Write your take before the room can shape it.</span>
+						</div>
+
+						<div class="demo-replies">
+							{#each demoReplyTypes as reply}
+								<div class="demo-reply" style="--type-color: {shadowTypes[reply.type].color}">
+									<div class="demo-reply-head">
+										<span>Type {reply.type}</span>
+										<span>Locked</span>
+									</div>
+									<p>{reply.hint}</p>
+								</div>
+							{/each}
+						</div>
+					</div>
+
+					<div class="decision-actions">
+						<a
+							href={data.questionOfTheDay?.url
+								? `/questions/${data.questionOfTheDay.url}`
+								: '/questions'}
+							class="btn-shadow"
+						>
+							<span>Give Your Take</span>
+						</a>
+						<a href="/questions" class="btn-system">Browse Questions</a>
 					</div>
 				</article>
-
-				<article class="branch branch-yes">
-					<span class="branch-label yes-label">YES</span>
-					<h2 class="branch-title">Then 9takes is your kind of place</h2>
-					<p class="branch-tagline">
-						<em>Think Reddit — but every comment is tagged with the commenter's Enneagram type.</em>
-					</p>
-					<p class="branch-body">
-						One question, nine emotional lenses. So you stop assuming everyone reacts the way you do
-						— and start seeing situations through eyes that work nothing like yours.
-					</p>
-				</article>
 			</div>
 
-			<div class="fork-merge" aria-hidden="true">
-				<div class="line merge-down-yes"></div>
-				<div class="line merge-horizontal"></div>
-				<div class="line merge-into-trunk"></div>
-				<div class="merge-node"></div>
-			</div>
+			<nav class="resource-pills" aria-label="Explore the main sections of 9takes">
+				<span class="resource-kicker">Explore</span>
+				{#each primaryResources as resource}
+					<a href={resource.path} class="resource-pill" title={resource.description}>
+						{resource.name}
+					</a>
+				{/each}
+			</nav>
 		</section>
 
 		<!-- ========== GIVE-FIRST MECHANIC ========== -->
@@ -971,83 +932,9 @@
 	.content {
 		position: relative;
 		z-index: 10;
-		max-width: 1100px;
+		max-width: 1120px;
 		margin: 0 auto;
 		padding: 0 1rem;
-	}
-
-	.page-intro {
-		padding: 4rem 0 1.5rem;
-	}
-
-	.page-title {
-		font-family: var(--font-display);
-		font-size: clamp(2.1rem, 5vw, 3.4rem);
-		font-weight: 700;
-		line-height: 1.08;
-		letter-spacing: -0.02em;
-		color: var(--text-pale);
-		max-width: 900px;
-		margin: 0 auto 0.85rem;
-		text-wrap: balance;
-	}
-
-	.page-lede {
-		max-width: 760px;
-		margin: 0 auto;
-		font-size: 1.05rem;
-		line-height: 1.7;
-		color: var(--text-mist);
-		text-wrap: pretty;
-	}
-
-	.intro-links {
-		display: grid;
-		grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-		gap: 0.85rem;
-		margin-top: 2rem;
-	}
-
-	.intro-link {
-		display: flex;
-		flex-direction: column;
-		gap: 0.4rem;
-		padding: 1rem 1rem 1.05rem;
-		background: linear-gradient(
-			180deg,
-			var(--card-surface-top) 0%,
-			var(--card-surface-bottom) 100%
-		);
-		border: 1px solid var(--card-border-accent);
-		border-radius: 14px;
-		text-decoration: none;
-		box-shadow: var(--card-shadow-soft), var(--card-highlight);
-		transition:
-			transform 220ms var(--ease-out),
-			border-color 220ms var(--ease-out),
-			box-shadow 220ms var(--ease-out);
-	}
-
-	.intro-link:hover {
-		transform: translateY(-3px);
-		border-color: var(--card-border-accent-strong);
-		box-shadow:
-			var(--card-shadow-strong),
-			0 0 28px color-mix(in srgb, var(--primary) 16%, transparent),
-			var(--card-highlight);
-	}
-
-	.intro-link-title {
-		font-family: var(--font-display);
-		font-size: 1rem;
-		font-weight: 600;
-		color: var(--text-pale);
-	}
-
-	.intro-link-desc {
-		font-size: 0.84rem;
-		line-height: 1.5;
-		color: var(--text-mist);
 	}
 
 	/* Background layers */
@@ -1083,102 +970,91 @@
 	}
 
 	/* ==========================================
-	   FORK SECTION
+	   HERO DECISION
 	   ========================================== */
-	.fork-section {
-		padding: 5rem 0 1rem;
+	.hero-section {
+		padding: 4rem 0 2.75rem;
+	}
+
+	.hero-copy {
+		max-width: 820px;
+		margin: 0 auto 2rem;
 		text-align: center;
 	}
 
-	.fork-header {
-		max-width: 760px;
-		margin: 0 auto;
-	}
-
-	.fork-h1 {
+	.page-title {
 		font-family: var(--font-display);
-		font-size: clamp(2rem, 5.5vw, 3.25rem);
+		font-size: 3.35rem;
 		font-weight: 700;
-		line-height: 1.15;
+		line-height: 1.08;
+		letter-spacing: 0;
 		color: var(--text-pale);
-		margin: 1rem 0 0;
+		max-width: 780px;
+		margin: 0 auto 0.85rem;
+		text-wrap: balance;
 	}
 
-	/* ----- Top tree connector (trunk + crossbar + drops) ----- */
-	.fork-tree {
-		position: relative;
-		height: 90px;
-		margin-top: 1.25rem;
+	.page-lede {
+		max-width: 660px;
+		margin: 0 auto;
+		font-size: 1.08rem;
+		line-height: 1.7;
+		color: var(--text-mist);
+		text-wrap: pretty;
 	}
 
-	.line {
-		position: absolute;
-		background: var(--line-color);
-		box-shadow: 0 0 10px var(--line-glow);
-		border-radius: 1px;
+	.hero-actions,
+	.decision-actions {
+		display: flex;
+		flex-wrap: wrap;
+		align-items: center;
+		justify-content: center;
+		gap: 0.75rem;
 	}
 
-	.trunk {
-		top: 0;
-		left: 50%;
-		width: 2px;
-		height: 36px;
-		transform: translateX(-1px);
+	.hero-actions {
+		margin-top: 1.35rem;
 	}
 
-	.crossbar {
-		top: 36px;
-		left: var(--no-center);
-		right: calc(100% - var(--yes-center));
-		height: 2px;
-	}
-
-	.drop {
-		top: 36px;
-		width: 2px;
-		height: 54px;
-	}
-
-	.drop-no {
-		left: var(--no-center);
-		transform: translateX(-1px);
-	}
-
-	.drop-yes {
-		left: var(--yes-center);
-		transform: translateX(-1px);
-	}
-
-	/* ----- Branches grid ----- */
-	.fork-grid {
+	.hero-decision {
 		display: grid;
-		grid-template-columns: 1fr 2fr;
-		gap: var(--col-gap);
+		grid-template-columns: minmax(250px, 0.82fr) minmax(0, 1.5fr);
+		gap: 1rem;
 		align-items: stretch;
 	}
 
-	.branch {
+	.decision-panel {
 		position: relative;
+		display: flex;
+		flex-direction: column;
 		text-align: left;
-		padding: 1.75rem 1.5rem;
-		background: linear-gradient(180deg, var(--void-shadow) 0%, var(--void-umbra) 100%);
-		border: 1px solid rgba(45, 212, 191, 0.18);
-		border-radius: 16px;
-		box-shadow:
-			0 0 30px rgba(45, 212, 191, 0.06),
-			inset 0 1px 0 rgba(45, 212, 191, 0.08);
+		padding: 1.35rem;
+		background: linear-gradient(
+			180deg,
+			var(--card-surface-top) 0%,
+			var(--card-surface-bottom) 100%
+		);
+		border: 1px solid var(--card-border-accent);
+		border-radius: 8px;
+		box-shadow: 0 12px 24px color-mix(in srgb, var(--shadow-color) 48%, transparent);
 	}
 
-	.branch-no {
-		align-self: start;
-		border-color: rgba(251, 113, 133, 0.22);
-		box-shadow:
-			0 0 30px rgba(251, 113, 133, 0.06),
-			inset 0 1px 0 rgba(251, 113, 133, 0.08);
+	.decision-no {
+		border-color: color-mix(in srgb, var(--secondary) 26%, var(--border-color));
 	}
 
-	.branch-yes {
-		border-color: rgba(45, 212, 191, 0.28);
+	.decision-yes {
+		border-color: color-mix(in srgb, var(--primary) 42%, var(--border-color));
+		background:
+			linear-gradient(
+				180deg,
+				color-mix(in srgb, var(--primary) 6%, var(--card-surface-top)) 0%,
+				var(--card-surface-bottom) 100%
+			),
+			var(--card-surface-bottom);
+		box-shadow:
+			0 16px 32px color-mix(in srgb, var(--shadow-color) 56%, transparent),
+			0 0 30px color-mix(in srgb, var(--primary) 12%, transparent);
 	}
 
 	.branch-label {
@@ -1206,11 +1082,16 @@
 
 	.branch-title {
 		font-family: var(--font-display);
-		font-size: clamp(1.2rem, 2.4vw, 1.6rem);
+		font-size: 1.45rem;
 		font-weight: 700;
 		color: var(--text-pale);
 		margin: 0 0 0.65rem;
 		line-height: 1.25;
+	}
+
+	.decision-yes .branch-title {
+		font-size: 1.8rem;
+		line-height: 1.15;
 	}
 
 	.branch-intro,
@@ -1229,7 +1110,7 @@
 	.branch-links {
 		list-style: none;
 		padding: 0;
-		margin: 1rem 0 1.25rem;
+		margin: 1rem 0 0;
 		display: flex;
 		flex-direction: column;
 		gap: 0.6rem;
@@ -1238,9 +1119,9 @@
 	.branch-link {
 		display: block;
 		padding: 0.85rem 1rem;
-		border-radius: 10px;
+		border-radius: 8px;
 		background: color-mix(in srgb, var(--bg-deep) 70%, transparent);
-		border: 1px solid rgba(251, 113, 133, 0.18);
+		border: 1px solid color-mix(in srgb, var(--secondary) 20%, var(--border-color));
 		text-decoration: none;
 		transition: all 200ms var(--ease-out);
 	}
@@ -1267,72 +1148,135 @@
 		margin-top: 0.15rem;
 	}
 
-	.branch-end {
-		display: flex;
-		align-items: center;
-		gap: 0.6rem;
-		margin-top: 1.25rem;
-		padding-top: 1rem;
-		border-top: 1px dashed rgba(251, 113, 133, 0.2);
+	.demo-preview {
+		margin: 0.25rem 0 1.25rem;
+		padding: 1rem;
+		background: color-mix(in srgb, var(--bg-deep) 72%, transparent);
+		border: 1px solid color-mix(in srgb, var(--primary) 20%, var(--border-color));
+		border-radius: 8px;
 	}
 
-	.terminus-dot {
-		width: 10px;
-		height: 10px;
+	.demo-topline {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		gap: 0.75rem;
+		font-family: var(--font-mono);
+		font-size: 0.72rem;
+		line-height: 1.4;
+		letter-spacing: 0.05em;
+		text-transform: uppercase;
+		color: var(--shadow-flame);
+	}
+
+	.demo-question {
+		font-family: var(--font-display);
+		font-size: 1.35rem;
+		line-height: 1.25;
+		color: var(--text-pale);
+		margin: 0.65rem 0 0.9rem;
+	}
+
+	.demo-compose {
+		display: flex;
+		align-items: center;
+		gap: 0.65rem;
+		padding: 0.75rem;
+		border: 1px dashed color-mix(in srgb, var(--primary) 32%, var(--border-color));
+		border-radius: 8px;
+		color: var(--text-mist);
+		font-size: 0.9rem;
+	}
+
+	.demo-user {
+		display: inline-flex;
+		align-items: center;
+		justify-content: center;
+		width: 2rem;
+		height: 2rem;
 		border-radius: 50%;
-		background: var(--system-hologram);
-		box-shadow: 0 0 12px rgba(251, 113, 133, 0.6);
+		background: var(--primary);
+		color: var(--text-on-primary);
+		font-family: var(--font-mono);
+		font-size: 0.72rem;
+		font-weight: 700;
 		flex-shrink: 0;
 	}
 
-	.terminus-text {
+	.demo-replies {
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+		gap: 0.55rem;
+		margin-top: 0.75rem;
+	}
+
+	.demo-reply {
+		min-width: 0;
+		padding: 0.7rem;
+		border: 1px solid color-mix(in srgb, var(--type-color) 30%, var(--border-color));
+		border-radius: 8px;
+		background: color-mix(in srgb, var(--type-color) 6%, transparent);
+	}
+
+	.demo-reply-head {
+		display: flex;
+		justify-content: space-between;
+		gap: 0.5rem;
 		font-family: var(--font-mono);
-		font-size: 0.75rem;
-		color: var(--text-faded);
+		font-size: 0.68rem;
+		font-weight: 700;
 		letter-spacing: 0.04em;
+		color: var(--type-color);
+		text-transform: uppercase;
 	}
 
-	/* ----- Merge connector (yes branch → next full-width section) ----- */
-	.fork-merge {
-		position: relative;
-		height: 110px;
+	.demo-reply p {
+		margin: 0.45rem 0 0;
+		font-size: 0.78rem;
+		line-height: 1.4;
+		color: var(--text-mist);
 	}
 
-	.merge-down-yes {
-		top: 0;
-		left: var(--yes-center);
-		width: 2px;
-		height: 50px;
-		transform: translateX(-1px);
+	.resource-pills {
+		display: flex;
+		flex-wrap: wrap;
+		align-items: center;
+		justify-content: center;
+		gap: 0.55rem;
+		margin-top: 1.25rem;
+		color: var(--text-faded);
 	}
 
-	.merge-horizontal {
-		top: 50px;
-		left: 50%;
-		right: calc(100% - var(--yes-center));
-		height: 2px;
+	.resource-kicker,
+	.resource-pill {
+		font-family: var(--font-mono);
+		font-size: 0.76rem;
+		letter-spacing: 0.04em;
+		text-transform: uppercase;
 	}
 
-	.merge-into-trunk {
-		top: 50px;
-		left: 50%;
-		width: 2px;
-		height: 50px;
-		transform: translateX(-1px);
+	.resource-pill {
+		display: inline-flex;
+		align-items: center;
+		min-height: 2.15rem;
+		padding: 0.45rem 0.75rem;
+		border: 1px solid color-mix(in srgb, var(--primary) 18%, var(--border-color));
+		border-radius: 8px;
+		background: color-mix(in srgb, var(--bg-surface) 72%, transparent);
+		color: var(--text-mist);
+		text-decoration: none;
+		transition:
+			color 180ms var(--ease-out),
+			border-color 180ms var(--ease-out),
+			background 180ms var(--ease-out),
+			transform 180ms var(--ease-out);
 	}
 
-	.merge-node {
-		position: absolute;
-		top: calc(100px - 6px);
-		left: 50%;
-		width: 12px;
-		height: 12px;
-		border-radius: 50%;
-		background: var(--shadow-flame);
-		box-shadow:
-			0 0 18px rgba(45, 212, 191, 0.7),
-			0 0 4px rgba(45, 212, 191, 0.9);
-		transform: translateX(-50%);
+	.resource-pill:hover {
+		color: var(--primary-light);
+		border-color: color-mix(in srgb, var(--primary) 38%, var(--border-color));
+		background: var(--primary-subtle);
+		transform: translateY(-1px);
 	}
 
 	/* ==========================================
@@ -1388,7 +1332,7 @@
 
 	.section-title {
 		font-family: var(--font-display);
-		font-size: clamp(1.6rem, 3.6vw, 2.25rem);
+		font-size: 2.1rem;
 		font-weight: 700;
 		color: var(--text-pale);
 		margin-bottom: 0.5rem;
@@ -1419,7 +1363,7 @@
 		padding: 1.75rem 1.5rem;
 		background: linear-gradient(180deg, var(--void-shadow) 0%, var(--void-umbra) 100%);
 		border: 1px solid rgba(45, 212, 191, 0.18);
-		border-radius: 14px;
+		border-radius: 8px;
 		text-align: left;
 	}
 
@@ -1484,7 +1428,7 @@
 		padding: 1.5rem;
 		background: linear-gradient(180deg, var(--void-shadow) 0%, var(--void-umbra) 100%);
 		border: 1px solid rgba(45, 212, 191, 0.2);
-		border-radius: 16px;
+		border-radius: 8px;
 		text-decoration: none;
 		box-shadow:
 			0 0 40px rgba(45, 212, 191, 0.1),
@@ -1551,7 +1495,7 @@
 
 	.quest-title {
 		font-family: var(--font-display);
-		font-size: clamp(1.125rem, 3vw, 1.5rem);
+		font-size: 1.35rem;
 		font-weight: 600;
 		color: var(--text-pale);
 		line-height: 1.35;
@@ -1611,7 +1555,7 @@
 		padding: 1.75rem 1.5rem;
 		background: linear-gradient(180deg, var(--void-shadow) 0%, var(--void-umbra) 100%);
 		border: 1px solid rgba(45, 212, 191, 0.18);
-		border-radius: 16px;
+		border-radius: 8px;
 		text-decoration: none;
 		overflow: hidden;
 		transition: all 240ms var(--ease-out);
@@ -1645,7 +1589,7 @@
 		height: 3.25rem;
 		background: color-mix(in srgb, var(--primary) 10%, var(--bg-deep));
 		border: 1px solid rgba(45, 212, 191, 0.3);
-		border-radius: 12px;
+		border-radius: 8px;
 		color: var(--shadow-flame);
 		margin-bottom: 0.25rem;
 		box-shadow: inset 0 0 16px rgba(45, 212, 191, 0.12);
@@ -1743,7 +1687,7 @@
 			var(--card-surface-bottom) 100%
 		);
 		border: 1px solid var(--card-border-accent);
-		border-radius: 18px;
+		border-radius: 8px;
 		box-shadow:
 			var(--card-shadow-soft),
 			0 0 36px color-mix(in srgb, var(--primary) 10%, transparent),
@@ -1757,7 +1701,7 @@
 
 	.type-guide-heading {
 		font-family: var(--font-display);
-		font-size: clamp(1.3rem, 3vw, 1.75rem);
+		font-size: 1.6rem;
 		line-height: 1.2;
 		color: var(--text-pale);
 		margin: 0 0 0.55rem;
@@ -1784,7 +1728,7 @@
 		padding: 1rem;
 		background: var(--card-surface-raised);
 		border: 1px solid color-mix(in srgb, var(--type-color) 30%, var(--border-color));
-		border-radius: 14px;
+		border-radius: 8px;
 		text-decoration: none;
 		box-shadow: 0 10px 20px color-mix(in srgb, var(--shadow-color) 42%, transparent);
 		transition:
@@ -1843,7 +1787,7 @@
 			var(--void-shadow) 50%,
 			var(--void-umbra) 100%
 		);
-		border-radius: 24px;
+		border-radius: 8px;
 		margin: 1rem 0;
 		padding: 3rem 1rem;
 	}
@@ -1888,7 +1832,7 @@
 		display: block;
 		background: linear-gradient(180deg, var(--void-shadow) 0%, var(--void-umbra) 100%);
 		border: 1px solid color-mix(in srgb, var(--type-color) 15%, transparent);
-		border-radius: 12px;
+		border-radius: 8px;
 		padding: 1rem;
 		text-decoration: none;
 		overflow: hidden;
@@ -2106,7 +2050,7 @@
 		position: relative;
 		background: linear-gradient(180deg, var(--void-shadow) 0%, var(--void-umbra) 100%);
 		border: 1px solid rgba(245, 158, 11, 0.2);
-		border-radius: 20px;
+		border-radius: 8px;
 		overflow: hidden;
 	}
 
@@ -2154,7 +2098,7 @@
 
 	.coaching-title {
 		font-family: var(--font-display);
-		font-size: clamp(1.5rem, 4vw, 2rem);
+		font-size: 1.85rem;
 		font-weight: 700;
 		color: var(--text-pale);
 		margin-bottom: 0.75rem;
@@ -2202,7 +2146,7 @@
 	.final-section {
 		position: relative;
 		margin: 2rem 0 4rem;
-		border-radius: 20px;
+		border-radius: 8px;
 		background: linear-gradient(
 			135deg,
 			rgba(45, 212, 191, 0.12) 0%,
@@ -2271,7 +2215,7 @@
 
 	.final-title {
 		font-family: var(--font-display);
-		font-size: clamp(1.75rem, 4vw, 2.5rem);
+		font-size: 2.25rem;
 		font-weight: 700;
 		color: var(--text-pale);
 		margin-bottom: 0.5rem;
@@ -2297,525 +2241,15 @@
 		}
 	}
 
-	/* ==========================================
-	   MOBILE FORK SECTION (<768px only)
-	   ========================================== */
-	.mobile-fork-section {
-		position: relative;
-		padding: 2.5rem 0 0.5rem;
-		text-align: center;
-		/* Geometry: column gap drives where the tree drops, rails, and bridge land */
-		--mfork-gap: 0.85rem;
-		--no-x: calc(25% - var(--mfork-gap) / 4);
-		--yes-x: calc(75% + var(--mfork-gap) / 4);
-	}
-
-	.mobile-fork-header {
-		max-width: 560px;
-		margin: 0 auto;
-		padding: 0 0.25rem;
-	}
-
-	.mobile-fork-h1 {
-		font-family: var(--font-display);
-		font-size: clamp(1.85rem, 8.5vw, 2.4rem);
-		font-weight: 700;
-		line-height: 1.12;
-		letter-spacing: -0.015em;
-		color: var(--text-pale);
-		margin: 0.85rem 0 0;
-	}
-
-	/* ----- Branching tree (root → trunk → split → drops) ----- */
-	.mfork-tree {
-		position: relative;
-		height: 58px;
-		margin: 1.5rem 0 0.65rem;
-	}
-
-	.tree-root {
-		position: absolute;
-		left: 50%;
-		top: 0;
-		width: 9px;
-		height: 9px;
-		border-radius: 50%;
-		background: var(--shadow-flame);
-		box-shadow:
-			0 0 14px rgba(45, 212, 191, 0.85),
-			0 0 4px rgba(45, 212, 191, 1);
-		transform: translate(-50%, -50%);
-		z-index: 2;
-	}
-
-	.tree-trunk {
-		position: absolute;
-		left: 50%;
-		top: 4px;
-		width: 2px;
-		height: 18px;
-		background: var(--line-color);
-		box-shadow: 0 0 8px var(--line-glow);
-		border-radius: 1px;
-		transform: translateX(-50%);
-	}
-
-	.tree-cross {
-		position: absolute;
-		top: 22px;
-		left: var(--no-x);
-		right: calc(100% - var(--yes-x));
-		height: 2px;
-		background: var(--line-color);
-		box-shadow: 0 0 8px var(--line-glow);
-		border-radius: 1px;
-	}
-
-	.tree-drop {
-		position: absolute;
-		top: 22px;
-		width: 2px;
-		height: 36px;
-		border-radius: 1px;
-	}
-
-	.tree-drop-no {
-		left: var(--no-x);
-		background: linear-gradient(180deg, var(--line-color) 0%, rgba(251, 113, 133, 0.78) 100%);
-		box-shadow: 0 0 8px rgba(251, 113, 133, 0.45);
-		transform: translateX(-1px);
-	}
-
-	.tree-drop-yes {
-		left: var(--yes-x);
-		background: linear-gradient(180deg, var(--line-color) 0%, rgba(45, 212, 191, 0.85) 100%);
-		box-shadow: 0 0 9px rgba(45, 212, 191, 0.55);
-		transform: translateX(-1px);
-	}
-
-	/* ----- Pills row aligned with the drops ----- */
-	.mfork-labels {
-		display: grid;
-		grid-template-columns: 1fr 1fr;
-		gap: var(--mfork-gap);
-		margin-bottom: 0.75rem;
-	}
-
-	.label-pill {
-		justify-self: center;
-		font-family: var(--font-mono);
-		font-size: 0.7rem;
-		font-weight: 700;
-		letter-spacing: 0.18em;
-		padding: 0.34rem 0.95rem;
-		border-radius: 999px;
-		line-height: 1;
-	}
-
-	.label-pill.no-pill {
-		background: rgba(251, 113, 133, 0.14);
-		color: var(--system-hologram);
-		border: 1px solid rgba(251, 113, 133, 0.45);
-		box-shadow: 0 0 14px rgba(251, 113, 133, 0.18);
-	}
-
-	.label-pill.yes-pill {
-		background: rgba(45, 212, 191, 0.14);
-		color: var(--shadow-flame);
-		border: 1px solid rgba(45, 212, 191, 0.5);
-		box-shadow: 0 0 16px rgba(45, 212, 191, 0.24);
-	}
-
-	/* ----- Twin columns ----- */
-	.mfork-cols {
-		display: grid;
-		grid-template-columns: 1fr 1fr;
-		gap: var(--mfork-gap);
-		align-items: stretch;
-	}
-
-	.mfork-col {
-		position: relative;
-		display: flex;
-		flex-direction: column;
-		text-align: left;
-		padding: 1rem 0.85rem 1.05rem;
-		background: linear-gradient(180deg, var(--void-shadow) 0%, var(--void-umbra) 100%);
-		border-radius: 14px;
-		min-width: 0;
-	}
-
-	.no-col {
-		border: 1px solid rgba(251, 113, 133, 0.36);
-		box-shadow:
-			0 8px 28px rgba(0, 0, 0, 0.32),
-			0 0 22px rgba(251, 113, 133, 0.08),
-			inset 0 1px 0 rgba(251, 113, 133, 0.12);
-	}
-
-	/* The YES column is a transparent wrapper: a small card on top + a long rail below.
-	   This keeps the YES card compact while letting the rail bridge the empty space. */
-	.yes-col {
-		background: none;
-		border: none;
-		box-shadow: none;
-		padding: 0;
-		border-radius: 0;
-	}
-
-	.yes-card {
-		padding: 1rem 0.95rem 1.1rem;
-		background: linear-gradient(180deg, var(--void-shadow) 0%, var(--void-umbra) 100%);
-		border: 1px solid rgba(45, 212, 191, 0.45);
-		border-radius: 14px;
-		box-shadow:
-			0 8px 28px rgba(0, 0, 0, 0.32),
-			0 0 26px rgba(45, 212, 191, 0.12),
-			inset 0 1px 0 rgba(45, 212, 191, 0.16);
-	}
-
-	.mfork-col-title {
-		font-family: var(--font-display);
-		font-size: 0.98rem;
-		font-weight: 700;
-		line-height: 1.22;
-		color: var(--text-pale);
-		margin: 0 0 0.45rem;
-		letter-spacing: -0.005em;
-	}
-
-	.mfork-col-sub,
-	.mfork-col-tease {
-		font-size: 0.78rem;
-		color: var(--text-mist);
-		line-height: 1.5;
-		margin: 0 0 0.75rem;
-	}
-
-	.mfork-col-tease {
-		color: var(--shadow-ethereal);
-	}
-
-	/* ----- Quick-read links inside the NO column ----- */
-	.mfork-links {
-		list-style: none;
-		padding: 0;
-		margin: 0;
-		display: flex;
-		flex-direction: column;
-		gap: 0.4rem;
-	}
-
-	.mfork-links li {
-		display: block;
-	}
-
-	.mfork-links a {
-		display: flex;
-		align-items: flex-start;
-		gap: 0.55rem;
-		padding: 0.5rem 0.55rem 0.55rem;
-		border-radius: 9px;
-		background: color-mix(in srgb, var(--bg-deep) 70%, transparent);
-		border: 1px solid rgba(251, 113, 133, 0.22);
-		text-decoration: none;
-		transition: all 180ms var(--ease-out);
-	}
-
-	.mfork-links a:active {
-		border-color: rgba(251, 113, 133, 0.55);
-		background: color-mix(in srgb, var(--bg-deep) 50%, transparent);
-		transform: translateY(1px);
-	}
-
-	.mfork-links .link-num {
-		font-family: var(--font-mono);
-		font-size: 0.6rem;
-		font-weight: 700;
-		color: var(--system-hologram);
-		letter-spacing: 0.05em;
-		padding-top: 0.22rem;
-		flex-shrink: 0;
-		line-height: 1;
-	}
-
-	.mfork-links .link-text {
-		display: flex;
-		flex-direction: column;
-		min-width: 0;
-		flex: 1;
-	}
-
-	.mfork-links .link-title {
-		font-family: var(--font-display);
-		font-size: 0.82rem;
-		font-weight: 600;
-		color: var(--text-pale);
-		line-height: 1.25;
-	}
-
-	.mfork-links .link-sub {
-		font-size: 0.7rem;
-		color: var(--text-faded);
-		line-height: 1.32;
-		margin-top: 0.15rem;
-	}
-
-	/* ----- NO terminus (the path stops here) ----- */
-	.no-end {
-		display: flex;
-		align-items: flex-start;
-		gap: 0.55rem;
-		margin-top: 0.85rem;
-		padding-top: 0.75rem;
-		border-top: 1px dashed rgba(251, 113, 133, 0.32);
-		font-family: var(--font-mono);
-		font-size: 0.62rem;
-		color: var(--text-faded);
-		line-height: 1.4;
-		letter-spacing: 0.02em;
-	}
-
-	.end-mark {
-		display: inline-flex;
-		align-items: center;
-		justify-content: center;
-		width: 1.05rem;
-		height: 1.05rem;
-		border-radius: 50%;
-		background: rgba(251, 113, 133, 0.14);
-		border: 1px solid rgba(251, 113, 133, 0.5);
-		color: var(--system-hologram);
-		font-size: 0.78rem;
-		font-weight: 700;
-		line-height: 1;
-		flex-shrink: 0;
-	}
-
-	/* ----- YES trail (the rail that visually carries the path into the takeover) ----- */
-	.yes-trail {
-		position: relative;
-		flex: 1;
-		min-height: 80px;
-		margin-top: 0.85rem;
-	}
-
-	.trail-line {
-		position: absolute;
-		left: 50%;
-		top: 0;
-		bottom: 0; /* yes-col has no padding now — extends to col bottom */
-		width: 2px;
-		transform: translateX(-1px);
-		background: linear-gradient(180deg, rgba(45, 212, 191, 0.55) 0%, rgba(45, 212, 191, 0.85) 100%);
-		box-shadow:
-			0 0 10px rgba(45, 212, 191, 0.55),
-			0 0 22px rgba(45, 212, 191, 0.25);
-		border-radius: 1px;
-		overflow: hidden;
-	}
-
-	/* A glowing pulse traveling down the rail to suggest the path is alive */
-	.trail-line::before {
-		content: '';
-		position: absolute;
-		left: 0;
-		right: 0;
-		top: -30%;
-		height: 30%;
-		background: linear-gradient(
-			180deg,
-			transparent 0%,
-			rgba(255, 255, 255, 0.85) 50%,
-			transparent 100%
-		);
-		filter: blur(0.5px);
-		animation: trail-pulse 2.4s ease-in-out infinite;
-	}
-
-	@keyframes trail-pulse {
-		0% {
-			top: -30%;
-			opacity: 0;
-		}
-		15% {
-			opacity: 1;
-		}
-		85% {
-			opacity: 1;
-		}
-		100% {
-			top: 100%;
-			opacity: 0;
-		}
-	}
-
-	/* ----- YES Takeover (full-width section the YES path expands into) ----- */
-	.mfork-takeover {
-		position: relative;
-		margin-top: 1.8rem;
-		padding: 1.6rem 1.25rem 1.4rem;
-		background:
-			radial-gradient(
-				140% 140px at var(--yes-x) 0%,
-				color-mix(in srgb, var(--primary) 22%, transparent) 0%,
-				transparent 65%
-			),
-			linear-gradient(
-				180deg,
-				color-mix(in srgb, var(--primary) 6%, var(--void-shadow)) 0%,
-				var(--void-umbra) 100%
-			);
-		border: 1px solid rgba(45, 212, 191, 0.42);
-		border-radius: 16px;
-		box-shadow:
-			0 14px 36px rgba(0, 0, 0, 0.36),
-			0 0 30px rgba(45, 212, 191, 0.12),
-			inset 0 1px 0 rgba(45, 212, 191, 0.2);
-		text-align: left;
-	}
-
-	/* The bridge: a glowing rail in the gap above the takeover, capped with a node */
-	.takeover-bridge {
-		position: absolute;
-		left: var(--yes-x);
-		top: -1.8rem;
-		width: 2px;
-		height: 1.8rem;
-		transform: translateX(-1px);
-		background: linear-gradient(180deg, rgba(45, 212, 191, 0.55) 0%, var(--shadow-flame) 100%);
-		box-shadow: 0 0 10px rgba(45, 212, 191, 0.55);
-		border-radius: 1px;
-	}
-
-	.takeover-bridge::after {
-		content: '';
-		position: absolute;
-		left: 50%;
-		bottom: -7px;
-		width: 14px;
-		height: 14px;
-		border-radius: 50%;
-		background: var(--shadow-flame);
-		box-shadow:
-			0 0 22px rgba(45, 212, 191, 1),
-			0 0 8px rgba(45, 212, 191, 1),
-			0 0 0 3px color-mix(in srgb, var(--primary) 28%, transparent);
-		transform: translateX(-50%);
-		animation: bridge-pulse 3s ease-in-out infinite;
-	}
-
-	@keyframes bridge-pulse {
-		0%,
-		100% {
-			box-shadow:
-				0 0 22px rgba(45, 212, 191, 1),
-				0 0 8px rgba(45, 212, 191, 1),
-				0 0 0 3px color-mix(in srgb, var(--primary) 28%, transparent);
-		}
-		50% {
-			box-shadow:
-				0 0 28px rgba(45, 212, 191, 1),
-				0 0 12px rgba(45, 212, 191, 1),
-				0 0 0 6px color-mix(in srgb, var(--primary) 16%, transparent);
-		}
-	}
-
-	.takeover-headline {
-		position: relative;
-		z-index: 2;
-		font-family: var(--font-display);
-		font-size: 1rem;
-		line-height: 1.4;
-		margin: 0 0 0.75rem;
-		color: var(--text-pale);
-		font-weight: 500;
-	}
-
-	.takeover-headline em {
-		color: var(--shadow-ethereal);
-		font-style: italic;
-	}
-
-	.takeover-body {
-		position: relative;
-		z-index: 2;
-		font-size: 0.9rem;
-		color: var(--text-mist);
-		line-height: 1.55;
-		margin: 0 0 1.1rem;
-	}
-
-	/* Distinct "go to next section" CTA — visually clear handoff */
-	.takeover-cta {
-		position: relative;
-		z-index: 2;
-		display: inline-flex;
-		align-items: center;
-		gap: 0.55rem;
-		padding: 0.55rem 0.95rem 0.55rem 1rem;
-		background: color-mix(in srgb, var(--primary) 16%, var(--bg-deep));
-		border: 1px solid rgba(45, 212, 191, 0.55);
-		border-radius: 999px;
-		font-family: var(--font-mono);
-		font-size: 0.7rem;
-		font-weight: 700;
-		color: var(--text-pale);
-		letter-spacing: 0.08em;
-		text-transform: uppercase;
-		box-shadow:
-			0 6px 18px rgba(0, 0, 0, 0.3),
-			0 0 14px rgba(45, 212, 191, 0.3);
-	}
-
-	.cta-arrow {
-		display: inline-flex;
-		align-items: center;
-		justify-content: center;
-		width: 1.1rem;
-		height: 1.1rem;
-		border-radius: 50%;
-		background: var(--shadow-flame);
-		color: var(--bg-deep);
-		font-size: 0.85rem;
-		font-weight: 900;
-		line-height: 1;
-		animation: cta-arrow-bounce 2s ease-in-out infinite;
-	}
-
-	@keyframes cta-arrow-bounce {
-		0%,
-		100% {
-			transform: translateY(0);
-		}
-		50% {
-			transform: translateY(3px);
-		}
-	}
-
-	/* ==========================================
-	   RESPONSIVE — collapse the tree on small screens
-	   ========================================== */
-	@media (max-width: 720px) {
-		.fork-grid {
-			grid-template-columns: 1fr;
-		}
-
-		.fork-tree,
-		.fork-merge {
-			display: none;
-		}
-
-		.branch {
-			padding: 1.5rem 1.25rem;
-		}
-
-		.give-first-row {
-			grid-template-columns: 1fr;
-		}
-	}
-
 	@media (max-width: 960px) and (min-width: 721px) {
+		.page-title {
+			font-size: 2.75rem;
+		}
+
+		.hero-decision {
+			grid-template-columns: 1fr;
+		}
+
 		.give-first-row {
 			grid-template-columns: 1fr 1fr;
 		}
@@ -2833,12 +2267,16 @@
 			padding: 0 1rem;
 		}
 
-		.page-intro {
-			padding: 3rem 0 1rem;
+		.hero-section {
+			padding: 2.7rem 0 2rem;
+		}
+
+		.hero-copy {
+			margin-bottom: 1.25rem;
 		}
 
 		.page-title {
-			font-size: clamp(1.95rem, 8vw, 2.45rem);
+			font-size: 2.25rem;
 			line-height: 1.12;
 		}
 
@@ -2847,9 +2285,36 @@
 			line-height: 1.6;
 		}
 
-		.intro-links {
+		.hero-decision {
 			grid-template-columns: 1fr;
-			margin-top: 1.5rem;
+			gap: 0.85rem;
+		}
+
+		.decision-panel {
+			padding: 1.15rem;
+		}
+
+		.decision-yes {
+			order: 1;
+		}
+
+		.decision-no {
+			order: 2;
+		}
+
+		.decision-yes .branch-title {
+			font-size: 1.55rem;
+		}
+
+		.demo-replies {
+			grid-template-columns: 1fr;
+		}
+
+		.hero-actions .btn-shadow,
+		.hero-actions .btn-system,
+		.decision-actions .btn-shadow,
+		.decision-actions .btn-system {
+			width: 100%;
 		}
 
 		.section {
@@ -2862,9 +2327,9 @@
 		}
 
 		.section-title {
-			font-size: clamp(1.45rem, 6.5vw, 1.8rem);
+			font-size: 1.65rem;
 			line-height: 1.2;
-			letter-spacing: -0.01em;
+			letter-spacing: 0;
 		}
 
 		.section-desc {
@@ -2895,7 +2360,7 @@
 		.give-step {
 			padding: 1.15rem 1.2rem 1.2rem;
 			margin-bottom: 0.85rem;
-			border-radius: 12px;
+			border-radius: 8px;
 		}
 
 		.give-step:last-child {
@@ -2932,7 +2397,7 @@
 		/* ----- Question of the day card ----- */
 		.quest-card {
 			padding: 1.25rem;
-			border-radius: 14px;
+			border-radius: 8px;
 		}
 
 		.quest-header {
@@ -2965,7 +2430,7 @@
 		.blog-card-icon {
 			width: 2.75rem;
 			height: 2.75rem;
-			border-radius: 10px;
+			border-radius: 8px;
 		}
 
 		.blog-card-icon svg {
@@ -2989,7 +2454,7 @@
 		.type-guide-block {
 			margin-top: 1.5rem;
 			padding: 1.15rem;
-			border-radius: 16px;
+			border-radius: 8px;
 		}
 
 		.type-guide-grid {
@@ -3003,7 +2468,7 @@
 		/* ----- Famous people grid ----- */
 		.types-section {
 			padding: 2.5rem 1rem;
-			border-radius: 18px;
+			border-radius: 8px;
 			margin: 0.5rem 0;
 		}
 
@@ -3013,7 +2478,7 @@
 
 		.type-card {
 			padding: 0.85rem 0.6rem 0.9rem;
-			border-radius: 10px;
+			border-radius: 8px;
 		}
 
 		.type-card .avatar,
@@ -3043,7 +2508,7 @@
 
 		/* ----- Coaching ----- */
 		.coaching-card {
-			border-radius: 16px;
+			border-radius: 8px;
 		}
 
 		.coaching-content {
@@ -3066,7 +2531,7 @@
 		/* ----- Final CTA ----- */
 		.final-section {
 			margin: 1rem 0 2.5rem;
-			border-radius: 18px;
+			border-radius: 8px;
 		}
 
 		.final-inner {
