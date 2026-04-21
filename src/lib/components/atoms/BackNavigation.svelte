@@ -10,17 +10,6 @@
 
 	let navSteps: NavStep[] = [];
 
-	$: jsonLd = {
-		'@context': 'https://schema.org',
-		'@type': 'BreadcrumbList',
-		itemListElement: navSteps.map((step, index) => ({
-			'@type': 'ListItem',
-			position: index + 1,
-			name: step.name,
-			item: `https://9takes.com${step.url}`
-		}))
-	};
-
 	function getHref(index: number, steps: string[]): string {
 		return '/' + steps.slice(0, index).join('/');
 	}
@@ -54,12 +43,6 @@
 
 	$: navSteps = $page?.url?.pathname ? buildNavSteps($page.url.pathname) : [];
 </script>
-
-<svelte:head>
-	{#if navSteps.length}
-		{@html `<script type="application/ld+json">${JSON.stringify(jsonLd)}</script>`}
-	{/if}
-</svelte:head>
 
 {#if navSteps.length}
 	<div class="xs:px-1 mx-auto w-full max-w-4xl px-2">

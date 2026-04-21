@@ -20,17 +20,6 @@
 
 	$: categories = categoryStructure;
 
-	$: jsonLd = {
-		'@context': 'https://schema.org',
-		'@type': 'BreadcrumbList',
-		itemListElement: categories.map((step, index) => ({
-			'@type': 'ListItem',
-			position: index + 1,
-			name: step.category_name,
-			item: `https://9takes.com${getCategoryUrl(step)}`
-		}))
-	};
-
 	function getCategoryUrl(category: Pick<CategoryStep, 'slug' | 'category_name'>): string {
 		return buildQuestionCategoryPath(category.slug || category.category_name);
 	}
@@ -64,12 +53,6 @@
 		}
 	});
 </script>
-
-<svelte:head>
-	{#if categories.length}
-		{@html `<script type="application/ld+json">${JSON.stringify(jsonLd)}</script>`}
-	{/if}
-</svelte:head>
 
 {#if categories.length}
 	<div class="category-wrapper" bind:clientWidth={containerWidth}>
