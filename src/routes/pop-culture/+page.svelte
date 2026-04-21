@@ -78,10 +78,39 @@
 />
 
 <div class="page-wrapper">
-	<!-- Hero Section -->
-	<header class="hero">
-		<h1>Pop Culture Psychology</h1>
+	<header class="index-hero">
+		<div class="index-badge">Pop Culture Psychology</div>
+		<h1>Public stories reveal private patterns.</h1>
+		<p class="index-hero-copy">
+			Read Enneagram-informed takes on celebrities, internet culture, fictional characters, and the
+			psychology underneath public behavior.
+		</p>
+		<div class="index-hero-actions">
+			<a href="#featured" class="index-action primary">Start with Latest</a>
+			<a href="#all-posts" class="index-action">Browse All Analyses</a>
+		</div>
 	</header>
+
+	<nav class="index-link-band" aria-label="Pop Culture Navigation">
+		<div class="index-link-scroll">
+			<a href="#featured" class="index-link-pill">
+				<span class="index-link-code">01</span>
+				<span>Latest</span>
+			</a>
+			<a href="#recent" class="index-link-pill">
+				<span class="index-link-code">02</span>
+				<span>Recently Updated</span>
+			</a>
+			<a href="#all-posts" class="index-link-pill">
+				<span class="index-link-code">03</span>
+				<span>All Analyses</span>
+			</a>
+			<a href="/personality-analysis" class="index-link-pill">
+				<span class="index-link-code">04</span>
+				<span>Famous People</span>
+			</a>
+		</div>
+	</nav>
 
 	<main class="main-content">
 		<!-- Featured Section -->
@@ -89,7 +118,7 @@
 			<section class="content-section" id="featured">
 				<div class="section-header">
 					<div class="section-title-group">
-						<span class="section-icon">🔥</span>
+						<span class="section-marker">01</span>
 						<div>
 							<h2>Latest</h2>
 							<p class="section-subtitle">Most recently updated analysis</p>
@@ -138,7 +167,7 @@
 			<section class="content-section" id="recent">
 				<div class="section-header">
 					<div class="section-title-group">
-						<span class="section-icon">⚡</span>
+						<span class="section-marker">02</span>
 						<div>
 							<h2>Recently Updated</h2>
 							<p class="section-subtitle">Fresh analyses and new content</p>
@@ -181,7 +210,7 @@
 			<section class="content-section" id="all-posts">
 				<div class="section-header">
 					<div class="section-title-group">
-						<span class="section-icon">📚</span>
+						<span class="section-marker">03</span>
 						<div>
 							<h2>All Analyses</h2>
 							<p class="section-subtitle">Deep dives into pop culture psychology</p>
@@ -273,7 +302,7 @@
 		font-weight: 700;
 		line-height: 1.2;
 		margin: 0;
-		letter-spacing: -0.02em;
+		letter-spacing: 0;
 		color: var(--text-primary);
 		position: relative;
 		background: linear-gradient(135deg, var(--text-primary) 0%, var(--accent-light) 100%);
@@ -347,7 +376,7 @@
 		@extend .image-card !optional;
 		@extend .image-card--inset !optional;
 		position: relative;
-		border-radius: 1rem;
+		border-radius: 8px;
 		transition: all 0.3s ease;
 		min-height: 300px;
 		border: 1px solid var(--border-color);
@@ -434,7 +463,7 @@
 		padding: 0.2rem 0.5rem;
 		font-size: 0.6875rem;
 		font-weight: 600;
-		border-radius: 1rem;
+		border-radius: 8px;
 		background: var(--primary-subtle);
 		color: var(--accent-light);
 		border: 1px solid rgba(45, 212, 191, 0.3);
@@ -465,7 +494,7 @@
 		@extend .image-card !optional;
 		position: relative;
 		aspect-ratio: 3 / 2;
-		border-radius: 0.75rem;
+		border-radius: 8px;
 		transition: all 0.25s ease;
 		border: 1px solid rgba(45, 212, 191, 0.15);
 
@@ -514,7 +543,7 @@
 		@extend .image-card !optional;
 		position: relative;
 		aspect-ratio: 4 / 3;
-		border-radius: 0.75rem;
+		border-radius: 8px;
 		transition: all 0.25s ease;
 		border: 1px solid var(--border-color);
 
@@ -593,7 +622,7 @@
 	/* CTA Section */
 	.cta-section {
 		background: linear-gradient(135deg, var(--bg-surface) 0%, var(--bg-deep) 100%);
-		border-radius: 1rem;
+		border-radius: 8px;
 		padding: 2.5rem 2rem;
 		text-align: center;
 		color: var(--text-primary);
@@ -750,7 +779,7 @@
 
 		.cta-section {
 			padding: 1.5rem 1.25rem;
-			border-radius: 0.75rem;
+			border-radius: 8px;
 			margin-top: 0.5rem;
 		}
 

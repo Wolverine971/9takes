@@ -13,6 +13,7 @@ All documentation related to automated email sequences for 9takes.
 | [reactivation-sequence-copy.md](./reactivation-sequence-copy.md)             | Draft email copy for the reactivation sequence (v1)       |
 | [reactivation-bucket-breakdown.sql](./reactivation-bucket-breakdown.sql)     | SQL to count candidates per bucket (Cold/Dormant/Zombies) |
 | [reactivation-implementation-spec.md](./reactivation-implementation-spec.md) | Migration, content module, enrollment, re-permission plan |
+| [signups-reengagement-flow.md](./signups-reengagement-flow.md)               | Separate content-led path + preferences questionnaire for 38 email-only signups |
 
 ## Admin Tools
 

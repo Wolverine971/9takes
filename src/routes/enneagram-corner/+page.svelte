@@ -62,7 +62,7 @@
 			subtitle: 'Core personality patterns',
 			type: 'nine-types',
 			linkTitle: 'All 9 Types',
-			icon: '🎯'
+			icon: '01'
 		},
 		{
 			id: 'understanding',
@@ -70,7 +70,7 @@
 			subtitle: 'Master the fundamentals',
 			type: 'overview',
 			linkTitle: 'Core Concepts',
-			icon: '📚'
+			icon: '02'
 		},
 		{
 			id: 'personal-development',
@@ -78,7 +78,7 @@
 			subtitle: 'Transform yourself',
 			type: 'development',
 			linkTitle: 'Growth Strategies',
-			icon: '🌱'
+			icon: '03'
 		},
 		{
 			id: 'relationships',
@@ -86,7 +86,7 @@
 			subtitle: 'Connect deeper',
 			type: 'relationships',
 			linkTitle: 'Relationship Insights',
-			icon: '💜'
+			icon: '04'
 		},
 		{
 			id: 'mental-health',
@@ -94,7 +94,7 @@
 			subtitle: 'Type-aware wellness',
 			type: 'mental-health',
 			linkTitle: 'Wellness Resources',
-			icon: '🧠'
+			icon: '05'
 		},
 		{
 			id: 'workplace',
@@ -102,7 +102,7 @@
 			subtitle: 'Professional growth',
 			type: 'workplace',
 			linkTitle: 'Career Insights',
-			icon: '💼'
+			icon: '06'
 		},
 		{
 			id: 'situations',
@@ -110,7 +110,7 @@
 			subtitle: 'Types in action',
 			type: 'situational',
 			linkTitle: 'Real-World Examples',
-			icon: '🎭'
+			icon: '07'
 		},
 		{
 			id: 'resources',
@@ -118,7 +118,7 @@
 			subtitle: 'Books & tools',
 			type: 'resources',
 			linkTitle: 'Resources',
-			icon: '🔧'
+			icon: '08'
 		}
 	];
 
@@ -287,23 +287,29 @@
 />
 
 <div class="page-wrapper">
-	<!-- Hero Section -->
-	<header class="hero">
-		<h1>Enneagram Guide</h1>
+	<header class="index-hero">
+		<div class="index-badge">Enneagram Corner</div>
+		<h1>Learn the Enneagram without getting lost.</h1>
+		<p class="index-hero-copy">
+			Start with the nine types, then go deeper into centers, wings, relationships, work, and
+			growth.
+		</p>
+		<div class="index-hero-actions">
+			<a href="/enneagram-corner/subtopic/nine-types" class="index-action primary">
+				Start with the 9 Types
+			</a>
+			<a href="/enneagram-corner/enneagram-concepts" class="index-action"> Learn Core Concepts </a>
+		</div>
 	</header>
 
-	<!-- Quick Navigation -->
-	<nav class="quick-nav" aria-label="Topic Navigation">
-		<span class="quick-nav-kicker">Browse by topic</span>
-		<div class="quick-nav-shell">
-			<div class="nav-scroll">
-				{#each blogSections as section}
-					<a href="#{section.id}" class="nav-pill">
-						<span class="nav-icon" aria-hidden="true">{section.icon}</span>
-						<span class="nav-text">{section.title}</span>
-					</a>
-				{/each}
-			</div>
+	<nav class="index-link-band" aria-label="Topic Navigation">
+		<div class="index-link-scroll">
+			{#each blogSections as section}
+				<a href="#{section.id}" class="index-link-pill">
+					<span class="index-link-code">{section.icon}</span>
+					<span>{section.title}</span>
+				</a>
+			{/each}
 		</div>
 	</nav>
 
@@ -313,7 +319,7 @@
 			<section class="featured-section">
 				<div class="section-header">
 					<div class="section-title-group">
-						<span class="section-icon">🔥</span>
+						<span class="section-marker">F</span>
 						<div>
 							<h2>Featured</h2>
 							<p class="section-subtitle">Most recently updated</p>
@@ -368,7 +374,7 @@
 			<section class="recent-section">
 				<div class="section-header">
 					<div class="section-title-group">
-						<span class="section-icon">⚡</span>
+						<span class="section-marker">R</span>
 						<div>
 							<h2>Recently Updated</h2>
 							<p class="section-subtitle">Fresh insights and revisions</p>
@@ -411,7 +417,7 @@
 			<section class="content-section" id={section.id}>
 				<div class="section-header">
 					<div class="section-title-group">
-						<span class="section-icon">{section.icon}</span>
+						<span class="section-marker">{section.icon}</span>
 						<div>
 							<h2>{section.title}</h2>
 							<p class="section-subtitle">{section.subtitle}</p>
@@ -520,7 +526,7 @@
 		font-weight: 700;
 		line-height: 1.2;
 		margin: 0;
-		letter-spacing: -0.02em;
+		letter-spacing: 0;
 		color: var(--text-primary);
 		position: relative;
 		background: linear-gradient(135deg, var(--text-primary) 0%, var(--accent-light) 100%);
@@ -540,7 +546,7 @@
 	.quick-nav-shell {
 		position: relative;
 		padding: 0.75rem 0.85rem;
-		border-radius: 1rem;
+		border-radius: 8px;
 		border: 1px solid color-mix(in srgb, var(--primary) 14%, var(--glass-border));
 		background:
 			radial-gradient(circle at left center, rgba(45, 212, 191, 0.16), transparent 28%),
@@ -584,7 +590,7 @@
 		align-items: center;
 		gap: 0.45rem;
 		padding: 0.46rem 0.72rem;
-		border-radius: 999px;
+		border-radius: 8px;
 		background: color-mix(in srgb, var(--primary-subtle) 86%, white);
 		border: 1px solid color-mix(in srgb, var(--primary) 16%, transparent);
 		box-shadow:
@@ -604,7 +610,7 @@
 		content: '';
 		width: 0.4rem;
 		height: 0.4rem;
-		border-radius: 999px;
+		border-radius: 8px;
 		background: currentColor;
 		opacity: 0.75;
 	}
@@ -640,7 +646,7 @@
 		gap: 0.48rem;
 		padding: 0.58rem 0.88rem;
 		background: color-mix(in srgb, var(--bg-base) 84%, white);
-		border-radius: 999px;
+		border-radius: 8px;
 		color: var(--text-secondary);
 		transition: all 0.18s ease;
 		text-decoration: none;
@@ -693,7 +699,7 @@
 		z-index: 1;
 		font-size: 0.84rem;
 		font-weight: 600;
-		letter-spacing: -0.01em;
+		letter-spacing: 0;
 		color: var(--text-primary);
 		transition: color 0.18s ease;
 	}
@@ -792,7 +798,7 @@
 		@extend .image-card !optional;
 		position: relative;
 		aspect-ratio: 4 / 3;
-		border-radius: 0.75rem;
+		border-radius: 8px;
 		transition: all 0.25s ease;
 		border: 1px solid var(--border-color);
 
@@ -878,7 +884,7 @@
 		@extend .image-card--inset !optional;
 		position: relative;
 		min-height: 280px;
-		border-radius: 0.75rem;
+		border-radius: 8px;
 		transition: all 0.25s ease;
 		border: 1px solid color-mix(in srgb, var(--primary) 18%, var(--border-color));
 		box-shadow: var(--shadow-sm);
@@ -888,7 +894,7 @@
 			content: '';
 			position: absolute;
 			inset: 0.45rem;
-			border-radius: 0.8rem;
+			border-radius: 8px;
 			background: linear-gradient(135deg, var(--primary-subtle) 0%, transparent 50%);
 			opacity: 0;
 			transition: opacity 0.25s ease;
@@ -970,7 +976,7 @@
 		font-weight: 600;
 		text-transform: uppercase;
 		letter-spacing: 0.05em;
-		border-radius: 999px;
+		border-radius: 8px;
 	}
 
 	.featured-card .recency-badge {
@@ -978,7 +984,7 @@
 		align-items: center;
 		padding: 0.375rem 0.75rem;
 		margin-bottom: 0;
-		border-radius: 999px;
+		border-radius: 8px;
 		border: 1px solid color-mix(in srgb, var(--primary) 24%, transparent);
 		background: color-mix(in srgb, var(--primary) 16%, transparent);
 		color: var(--primary-light);
@@ -1012,7 +1018,7 @@
 		@extend .image-card !optional;
 		position: relative;
 		aspect-ratio: 3 / 2;
-		border-radius: 0.75rem;
+		border-radius: 8px;
 		transition: all 0.25s ease;
 		border: 1px solid var(--border-color);
 
@@ -1076,7 +1082,7 @@
 	/* CTA Section - Refined */
 	.cta-section {
 		background: linear-gradient(135deg, var(--bg-surface) 0%, var(--bg-deep) 100%);
-		border-radius: 1rem;
+		border-radius: 8px;
 		padding: 2.5rem 2rem;
 		text-align: center;
 		color: var(--text-primary);
@@ -1306,7 +1312,7 @@
 
 		.cta-section {
 			padding: 1.5rem 1.25rem;
-			border-radius: 0.75rem;
+			border-radius: 8px;
 			margin-top: 0.5rem;
 		}
 

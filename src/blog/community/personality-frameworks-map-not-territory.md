@@ -11,9 +11,11 @@ published: true
 type: ['opinion']
 blog: true
 previewHtml: 'Stop arguing over the map. Update the math. The type is not you — and that distinction changes everything.'
-pic: 'greek-statues-map-territory'
+pic: ''
 path: src/blog/community/personality-frameworks-map-not-territory.md
 ---
+
+<!-- greek-statues-map-territory -->
 
 <script>
   import QuickAnswer from '$lib/components/blog/callouts/QuickAnswer.svelte';

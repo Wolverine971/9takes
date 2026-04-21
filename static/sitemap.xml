@@ -3,11 +3,11 @@
   xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://9takes.com</loc>
-    <lastmod>2026-04-16</lastmod>
+    <lastmod>2026-04-20</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/about</loc>
-    <lastmod>2026-04-09</lastmod>
+    <lastmod>2026-04-20</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/blog</loc>
@@ -84,9 +84,6 @@
   <url>
     <loc>https://9takes.com/community/personality-frameworks-map-not-territory</loc>
     <lastmod>2026-04-15</lastmod>
-    <image:image>
-      <image:loc>https://9takes.com/blogs/greek-statues-map-territory.webp</image:loc>
-    </image:image>
   </url>
   <url>
     <loc>https://9takes.com/community/questions-are-the-engine-of-moral-awakening</loc>

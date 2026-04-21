@@ -115,32 +115,34 @@
 />
 
 <div class="page-wrapper">
-	<!-- Hero Section -->
-	<header class="hero">
-		<h1>Famous Personality Analysis</h1>
-		<p class="hero-copy">Browse the library by Enneagram number or by public-figure category.</p>
-		<div class="hero-actions">
-			<a href="/personality-analysis/categories" class="hero-link hero-link-primary">
+	<header class="index-hero">
+		<div class="index-badge">Personality Analysis</div>
+		<h1>See public figures through the patterns that drive them.</h1>
+		<p class="index-hero-copy">
+			Browse Enneagram analyses of celebrities, founders, artists, athletes, and public figures by
+			type or category.
+		</p>
+		<div class="index-hero-actions">
+			<a href="/personality-analysis/categories" class="index-action primary">
 				Browse Categories
 			</a>
-			<a href="#type-1" class="hero-link">Jump to Enneagram Types</a>
+			<a href="#type-1" class="index-action">Jump to Enneagram Types</a>
 		</div>
-		<div class="category-pills" aria-label="Category Navigation">
+		<div class="index-tag-row" aria-label="Category Navigation">
 			{#each primaryCategories as category}
-				<a href="/personality-analysis/categories/{category.slug}" class="category-pill">
-					<span class="category-pill-label">{category.shortLabel}</span>
+				<a href="/personality-analysis/categories/{category.slug}" class="index-tag">
+					<span>{category.shortLabel}</span>
 				</a>
 			{/each}
 		</div>
 	</header>
 
-	<!-- Quick Type Navigation -->
-	<nav class="quick-nav" aria-label="Type Navigation">
-		<div class="nav-scroll">
+	<nav class="index-link-band" aria-label="Type Navigation">
+		<div class="index-link-scroll">
 			{#each Array.from({ length: 9 }, (_, i) => i + 1) as typeNum}
-				<a href="#type-{typeNum}" class="nav-pill">
-					<span class="type-number">{typeNum}</span>
-					<span class="type-name">{typeNames[typeNum].name.replace('The ', '')}</span>
+				<a href="#type-{typeNum}" class="index-link-pill">
+					<span class="index-link-code">{typeNum}</span>
+					<span>{typeNames[typeNum].name.replace('The ', '')}</span>
 				</a>
 			{/each}
 		</div>
@@ -152,7 +154,7 @@
 			<section class="featured-section">
 				<div class="section-header featured-header">
 					<div class="type-badge featured-badge-icon">
-						<span class="type-num">🔥</span>
+						<span class="type-num">F</span>
 					</div>
 					<div class="section-info">
 						<h2>Featured</h2>
@@ -201,7 +203,7 @@
 			<section class="recent-section">
 				<div class="section-header recent-header">
 					<div class="type-badge recent-badge-icon">
-						<span class="type-num">⚡</span>
+						<span class="type-num">R</span>
 					</div>
 					<div class="section-info">
 						<h2>Recently Updated</h2>
@@ -347,7 +349,7 @@
 		font-weight: 700;
 		line-height: 1.2;
 		margin: 0;
-		letter-spacing: -0.02em;
+		letter-spacing: 0;
 		position: relative;
 		background: linear-gradient(135deg, var(--text-primary) 0%, var(--accent-light) 100%);
 		-webkit-background-clip: text;
@@ -377,7 +379,7 @@
 		align-items: center;
 		justify-content: center;
 		padding: 0.65rem 1rem;
-		border-radius: 999px;
+		border-radius: 8px;
 		border: 1px solid var(--glass-border);
 		background: var(--glass-color);
 		color: var(--text-secondary);
@@ -413,7 +415,7 @@
 		display: inline-flex;
 		align-items: center;
 		padding: 0.45rem 0.75rem;
-		border-radius: 999px;
+		border-radius: 8px;
 		border: 1px solid var(--glass-border);
 		background: var(--glass-color);
 		color: var(--text-secondary);
@@ -525,7 +527,7 @@
 	}
 
 	.type-name {
-		letter-spacing: -0.01em;
+		letter-spacing: 0;
 	}
 
 	/* Main Content */
@@ -559,7 +561,7 @@
 		height: 2.75rem;
 		background: var(--type-chip-bg);
 		border: 1px solid var(--type-chip-border-strong);
-		border-radius: 0.625rem;
+		border-radius: 8px;
 		flex-shrink: 0;
 		box-shadow:
 			0 12px 24px var(--type-chip-shadow),
@@ -612,7 +614,7 @@
 	.person-card {
 		position: relative;
 		aspect-ratio: 1;
-		border-radius: 0.75rem;
+		border-radius: 8px;
 		overflow: hidden;
 		background: var(--bg-surface);
 		text-decoration: none;
@@ -625,7 +627,7 @@
 			content: '';
 			position: absolute;
 			inset: 0.45rem;
-			border-radius: 0.6rem;
+			border-radius: 8px;
 			background: linear-gradient(135deg, rgba(45, 212, 191, 0.08) 0%, transparent 50%);
 			opacity: 0;
 			transition: opacity 0.25s ease;
@@ -660,7 +662,7 @@
 	.person-image {
 		position: absolute;
 		inset: 0.45rem;
-		border-radius: 0.6rem;
+		border-radius: 8px;
 		overflow: hidden;
 
 		img {
@@ -745,7 +747,7 @@
 	.view-all-text {
 		font-size: 0.875rem;
 		font-weight: 600;
-		letter-spacing: -0.01em;
+		letter-spacing: 0;
 	}
 
 	/* Featured Section */
@@ -779,7 +781,7 @@
 	.featured-person-card {
 		position: relative;
 		aspect-ratio: 3 / 4;
-		border-radius: 0.75rem;
+		border-radius: 8px;
 		overflow: hidden;
 		background: var(--bg-surface);
 		text-decoration: none;
@@ -808,7 +810,7 @@
 	.featured-person-image {
 		position: absolute;
 		inset: 0.55rem;
-		border-radius: 0.8rem;
+		border-radius: 8px;
 		overflow: hidden;
 
 		img {
@@ -822,7 +824,7 @@
 	.featured-person-overlay {
 		position: absolute;
 		inset: 0.55rem;
-		border-radius: 0.8rem;
+		border-radius: 8px;
 		background: linear-gradient(
 			to top,
 			rgba(12, 10, 9, 0.97) 0%,
@@ -906,7 +908,7 @@
 	.recent-person-card {
 		position: relative;
 		aspect-ratio: 3 / 4;
-		border-radius: 0.75rem;
+		border-radius: 8px;
 		overflow: hidden;
 		background: var(--bg-surface);
 		text-decoration: none;
@@ -935,7 +937,7 @@
 	.recent-person-image {
 		position: absolute;
 		inset: 0.45rem;
-		border-radius: 0.6rem;
+		border-radius: 8px;
 		overflow: hidden;
 
 		img {
@@ -949,7 +951,7 @@
 	.recent-person-overlay {
 		position: absolute;
 		inset: 0.45rem;
-		border-radius: 0.6rem;
+		border-radius: 8px;
 		background: linear-gradient(
 			to top,
 			rgba(12, 10, 9, 0.96) 0%,
@@ -990,7 +992,7 @@
 		margin-top: 3rem;
 		padding: 2rem;
 		background: linear-gradient(135deg, var(--bg-surface) 0%, var(--bg-deep) 100%);
-		border-radius: 1rem;
+		border-radius: 8px;
 		border: 1px solid rgba(45, 212, 191, 0.2);
 		position: relative;
 		overflow: hidden;
@@ -1179,7 +1181,7 @@
 
 		.signup-section {
 			padding: 1.5rem 1.25rem;
-			border-radius: 0.75rem;
+			border-radius: 8px;
 			margin-top: 2rem;
 		}
 	}

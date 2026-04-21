@@ -103,26 +103,47 @@
 />
 
 <div class="page-wrapper">
-	<header class="hero">
-		<h1>Community</h1>
+	<header class="index-hero">
+		<div class="index-badge">Community</div>
+		<h1>Ideas behind 9takes.</h1>
+		<p class="index-hero-copy">
+			Read the essays, product thinking, and perspective-shifting ideas that shape how 9takes
+			approaches personality, debate, and connection.
+		</p>
+		<div class="index-hero-actions">
+			<a href="#latest" class="index-action primary">Read Latest</a>
+			<a href="/questions" class="index-action">Answer Questions</a>
+		</div>
 	</header>
 
-	<main class="main-content">
-		<!-- Intro Section -->
-		<section class="intro-section">
-			<p class="intro-text">
-				One situation, 9 ways to see it. 9takes explores how personality shapes perspective.
-				Discover the ideas and inspirations behind our platform, and see why
-				<strong>understanding different takes leads to deeper connection</strong>.
-			</p>
-		</section>
+	<nav class="index-link-band" aria-label="Community Navigation">
+		<div class="index-link-scroll">
+			<a href="#latest" class="index-link-pill">
+				<span class="index-link-code">01</span>
+				<span>Latest</span>
+			</a>
+			<a href="#recent" class="index-link-pill">
+				<span class="index-link-code">02</span>
+				<span>Recently Updated</span>
+			</a>
+			<a href="#inspiration" class="index-link-pill">
+				<span class="index-link-code">03</span>
+				<span>Inspiration</span>
+			</a>
+			<a href="#ideas" class="index-link-pill">
+				<span class="index-link-code">04</span>
+				<span>Ideas</span>
+			</a>
+		</div>
+	</nav>
 
+	<main class="main-content">
 		<!-- Featured -->
 		{#if data.featured.length > 0}
-			<section class="content-section">
+			<section class="content-section" id="latest">
 				<div class="section-header">
 					<div class="section-title-group">
-						<span class="section-icon">🔥</span>
+						<span class="section-marker">01</span>
 						<div>
 							<h2>Latest</h2>
 							<p class="section-subtitle">Most recently updated posts</p>
@@ -169,10 +190,10 @@
 
 		<!-- Recently Updated -->
 		{#if data.recentlyUpdated.length > 0}
-			<section class="content-section">
+			<section class="content-section" id="recent">
 				<div class="section-header">
 					<div class="section-title-group">
-						<span class="section-icon">⚡</span>
+						<span class="section-marker">02</span>
 						<div>
 							<h2>Recently Updated</h2>
 							<p class="section-subtitle">Fresh content and new perspectives</p>
@@ -213,10 +234,10 @@
 
 		<!-- Inspiration Section -->
 		{#if inspirationPosts.length > 0}
-			<section class="content-section">
+			<section class="content-section" id="inspiration">
 				<div class="section-header">
 					<div class="section-title-group">
-						<span class="section-icon">💡</span>
+						<span class="section-marker">03</span>
 						<div>
 							<h2>The Inspiration Behind 9takes</h2>
 						</div>
@@ -248,10 +269,10 @@
 
 		<!-- Ideas Section -->
 		{#if ideaPosts.length > 0}
-			<section class="content-section">
+			<section class="content-section" id="ideas">
 				<div class="section-header">
 					<div class="section-title-group">
-						<span class="section-icon">🧠</span>
+						<span class="section-marker">04</span>
 						<div>
 							<h2>The Ideas Behind 9takes</h2>
 						</div>
@@ -319,7 +340,7 @@
 		font-weight: 700;
 		line-height: 1.2;
 		margin: 0;
-		letter-spacing: -0.02em;
+		letter-spacing: 0;
 		position: relative;
 		background: linear-gradient(135deg, var(--text-primary) 0%, var(--accent-light) 100%);
 		-webkit-background-clip: text;
@@ -409,7 +430,7 @@
 		@extend .image-card !optional;
 		@extend .image-card--inset !optional;
 		position: relative;
-		border-radius: 1rem;
+		border-radius: 8px;
 		transition: all 0.3s ease;
 		min-height: 280px;
 		border: 1px solid color-mix(in srgb, var(--primary) 18%, var(--border-color));
@@ -503,7 +524,7 @@
 		padding: 0.2rem 0.5rem;
 		font-size: 0.6875rem;
 		font-weight: 600;
-		border-radius: 1rem;
+		border-radius: 8px;
 		background: var(--primary-subtle);
 		color: var(--accent-light);
 		border: 1px solid rgba(45, 212, 191, 0.3);
@@ -528,7 +549,7 @@
 		@extend .image-card !optional;
 		position: relative;
 		aspect-ratio: 3 / 2;
-		border-radius: 0.75rem;
+		border-radius: 8px;
 		transition: all 0.25s ease;
 		border: 1px solid rgba(45, 212, 191, 0.15);
 
@@ -577,7 +598,7 @@
 		@extend .image-card !optional;
 		position: relative;
 		aspect-ratio: 4 / 3;
-		border-radius: 0.75rem;
+		border-radius: 8px;
 		transition: all 0.25s ease;
 		border: 1px solid var(--border-color);
 
