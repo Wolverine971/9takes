@@ -120,7 +120,7 @@ describe('buildPersonPageJsonLd', () => {
 			],
 			speakable: {
 				'@type': 'SpeakableSpecification',
-				cssSelector: ['.firstLetter', 'details > div.panel', 'h2 + p:first-of-type']
+				cssSelector: ['.article-body p']
 			}
 		});
 	});
@@ -278,7 +278,7 @@ describe('buildPersonPageJsonLd', () => {
 		const defaultedArticle = getGraphNode(defaulted, 'Article') as Record<string, unknown>;
 		expect(defaultedArticle.speakable).toEqual({
 			'@type': 'SpeakableSpecification',
-			cssSelector: ['.firstLetter', 'details > div.panel', 'h2 + p:first-of-type']
+			cssSelector: ['.article-body p']
 		});
 
 		const overridden = buildPersonPageJsonLd(

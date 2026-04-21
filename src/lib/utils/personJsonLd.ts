@@ -78,7 +78,7 @@ export const PUBLISHER_SAME_AS = [
 
 const DEFAULT_ARTICLE_SECTION = 'Personality Analysis';
 const DEFAULT_IN_LANGUAGE = 'en-US';
-const DEFAULT_SPEAKABLE_SELECTORS = ['.firstLetter', 'details > div.panel', 'h2 + p:first-of-type'];
+const DEFAULT_SPEAKABLE_SELECTORS = ['.article-body p'];
 const MIN_FAQ_ITEMS = 2;
 
 type JsonLdNode = Record<string, unknown>;
