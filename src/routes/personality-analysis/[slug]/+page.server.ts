@@ -92,6 +92,7 @@ export const load: PageServerLoad = async (event) => {
 	}
 
 	const { content, placeholders, headings } = await processBlogContent(personData.content ?? '');
+	const wordCount = countRenderableWords(content);
 	const publishedAt = personData.published_at ?? personData.date ?? personData.created_at;
 	const modifiedAt = personData.lastmod ?? publishedAt;
 
@@ -113,6 +114,8 @@ export const load: PageServerLoad = async (event) => {
 			changefreq: personData.changefreq ?? 'weekly',
 			priority: personData.priority ?? '0.6',
 			published: personData.published ?? false,
+			word_count: wordCount,
+			time_required: buildTimeRequired(wordCount),
 			content
 		},
 		slug: canonicalSlug,
@@ -125,6 +128,20 @@ export const load: PageServerLoad = async (event) => {
 
 // In-memory cache for related posts
 const relatedPostsCache = new Map();
+
+function countRenderableWords(content: string): number {
+	const plainText = content
+		.replace(/<script[\s\S]*?<\/script>/gi, ' ')
+		.replace(/<style[\s\S]*?<\/style>/gi, ' ')
+		.replace(/<[^>]+>/g, ' ')
+		.replace(/&[a-zA-Z0-9#]+;/g, ' ');
+
+	return plainText.match(/[A-Za-z0-9][A-Za-z0-9'-]*/g)?.length ?? 0;
+}
+
+function buildTimeRequired(wordCount: number): string {
+	return `PT${Math.max(1, Math.ceil(wordCount / 200))}M`;
+}
 
 export const actions: Actions = {
 	getRelatedPosts: async ({ request, locals }) => {

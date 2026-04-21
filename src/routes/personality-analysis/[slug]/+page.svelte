@@ -8,7 +8,6 @@
 	import { page } from '$app/stores';
 	import {
 		buildPersonalityImagePath,
-		buildPersonalityImageUrl,
 		formatPersonalityDisplayName
 	} from '$lib/utils/personalityAnalysis';
 
@@ -38,6 +37,29 @@
 		return value.filter((item): item is string => typeof item === 'string');
 	}
 
+	function toFaqArray(value: unknown): App.BlogPostFaq[] {
+		if (!Array.isArray(value)) return [];
+
+		return value
+			.map((item) => {
+				if (!item || typeof item !== 'object' || Array.isArray(item)) return null;
+
+				const record = item as Record<string, unknown>;
+				const question = toStringValue(record.question).trim();
+				const answer = toStringValue(record.answer).trim();
+				const anchor = toStringValue(record.anchor).trim();
+
+				if (!question || !answer) return null;
+
+				return {
+					question,
+					answer,
+					...(anchor && { anchor })
+				};
+			})
+			.filter((item): item is App.BlogPostFaq => Boolean(item));
+	}
+
 	function toEnneagramNumber(value: unknown): number | undefined {
 		if (typeof value === 'number' && Number.isFinite(value)) return value;
 		if (typeof value === 'string' && value.trim() !== '') {
@@ -53,6 +75,7 @@
 			slug: toStringValue(post.slug),
 			title: toStringValue(post.title),
 			meta_title: toStringValue(post.meta_title),
+			persona_title: toStringValue(post.persona_title),
 			author: toStringValue(post.author, 'DJ Wayne'),
 			description: toStringValue(post.description),
 			date: toStringValue(post.date),
@@ -69,7 +92,22 @@
 			twitter: toStringValue(post.twitter),
 			instagram: toStringValue(post.instagram),
 			tiktok: toStringValue(post.tiktok),
-			jsonld_snippet: post.jsonld_snippet ?? null
+			keywords: toStringArray(post.keywords),
+			same_as: toStringArray(post.same_as),
+			faqs: toFaqArray(post.faqs),
+			wikidata_qid: toStringValue(post.wikidata_qid),
+			imdb_id: toStringValue(post.imdb_id),
+			birth_date: toStringValue(post.birth_date),
+			birth_place: toStringValue(post.birth_place),
+			nationality: toStringValue(post.nationality),
+			occupation: toStringArray(post.occupation),
+			knows_about: toStringArray(post.knows_about),
+			citations: toStringArray(post.citations),
+			word_count:
+				typeof post.word_count === 'number' && Number.isFinite(post.word_count)
+					? post.word_count
+					: undefined,
+			time_required: toStringValue(post.time_required)
 		};
 	}
 
@@ -97,10 +135,6 @@
 		data.post.enneagram,
 		data.post.person || data.post.slug
 	);
-	let postImageUrl: string = buildPersonalityImageUrl(
-		data.post.enneagram,
-		data.post.person || data.post.slug
-	);
 
 	$: post = data.post;
 	$: comments = data.comments;
@@ -113,7 +147,6 @@
 		postMeta.enneagram,
 		postMeta.person || postMeta.slug
 	);
-	$: postImageUrl = buildPersonalityImageUrl(postMeta.enneagram, postMeta.person || postMeta.slug);
 
 	// Table of Contents support
 	const contentStore = writable('');
@@ -348,20 +381,16 @@
 	});
 </script>
 
-<article itemscope itemtype="https://schema.org/BlogPosting" class="blog">
+<article class="blog">
 	<div class="article-header">
 		{#key post.slug}
 			<PeopleBlogPageHead data={postMeta} />
-			<ArticleTitle title={postMeta.title} />
-			<ArticleSubTitle metaData={postMeta} />
-			<meta itemprop="description" content={postMeta.description} />
+			<ArticleTitle title={postMeta.title} structuredData={false} />
+			<ArticleSubTitle metaData={postMeta} structuredData={false} />
 		{/key}
 	</div>
 
-	<div class="featured-image" itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
-		<meta itemprop="url" content={postImageUrl} />
-		<meta itemprop="width" content="900" />
-		<meta itemprop="height" content="900" />
+	<div class="featured-image">
 		<PopCard
 			image={postImagePath}
 			showIcon={false}
@@ -380,7 +409,7 @@
 		renderMode="accordion-only"
 	/>
 
-	<div class="article-body" itemprop="articleBody">
+	<div class="article-body">
 		{@html post.content}
 	</div>
 

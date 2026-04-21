@@ -423,6 +423,10 @@ export function normalizeBirthDate(raw, personSlug = '') {
 		console.warn(`[${personSlug || 'birth_date'}] rejected unparseable date: ${raw}`);
 		return null;
 	}
+	if (parsed.toISOString().slice(0, 10) !== trimmed) {
+		console.warn(`[${personSlug || 'birth_date'}] rejected invalid calendar date: ${raw}`);
+		return null;
+	}
 	return trimmed;
 }
 

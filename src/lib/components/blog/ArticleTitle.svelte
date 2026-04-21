@@ -2,6 +2,7 @@
 <script lang="ts">
 	export let slug = '';
 	export let title: string;
+	export let structuredData = true;
 	const cleanedTitle = title.toLowerCase().replace(/[^a-zA-Z0-9]/g, '');
 	const id = cleanedTitle;
 
@@ -19,7 +20,7 @@
 		class="heading"
 		class:large={!slug}
 		{id}
-		itemprop="headline"
+		itemprop={structuredData ? 'headline' : undefined}
 		style:--tag={`h-blog-${cleanedTitle}`}
 	>
 		{title}

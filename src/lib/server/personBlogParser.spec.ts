@@ -312,6 +312,7 @@ TODO: add source.
 		it('accepts ISO 8601 birth dates as strings and YAML Date objects', () => {
 			expect(normalizeBirthDate('1989-12-13')).toBe('1989-12-13');
 			expect(normalizeBirthDate(new Date('1989-12-13T00:00:00Z'))).toBe('1989-12-13');
+			expect(normalizeBirthDate('2026-02-31')).toBeNull();
 			expect(normalizeBirthDate('12/13/1989')).toBeNull();
 			expect(normalizeBirthDate('not a date')).toBeNull();
 			expect(normalizeBirthDate('')).toBeNull();

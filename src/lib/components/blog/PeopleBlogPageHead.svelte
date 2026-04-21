@@ -8,14 +8,8 @@
 		resolvePersonalityImageSlug
 	} from '$lib/utils/personalityAnalysis';
 	import { buildSocialImageUrl } from '$lib/utils/socialImage';
-	import {
-		buildBreadcrumbSchema,
-		buildPersonSameAsUrls,
-		jsonLdContainsType,
-		mergePersonSameAsIntoJsonLd,
-		parseJsonLdSnippet,
-		updateJsonLdDateModified
-	} from '$lib/utils/schema';
+	import { buildPersonPageJsonLd } from '$lib/utils/personJsonLd';
+	import { buildPersonIdentifiers, buildPersonSameAsUrls } from '$lib/utils/schema';
 
 	let { data }: { data: App.BlogPost } = $props();
 
@@ -36,20 +30,11 @@
 	);
 	let resolvedPersonSlug = $derived(resolvePersonalityImageSlug(data?.person || data?.slug));
 
-	let parsedJsonLdSnippet = $derived(parseJsonLdSnippet(data.jsonld_snippet));
-	let snippetHasBreadcrumb = $derived(
-		parsedJsonLdSnippet ? jsonLdContainsType(parsedJsonLdSnippet, 'BreadcrumbList') : false
-	);
-	let breadcrumbJsonLd = $derived.by(() => {
-		if (snippetHasBreadcrumb) return '';
-		return JSON.stringify(
-			buildBreadcrumbSchema([
-				{ name: 'Home', url: 'https://9takes.com/' },
-				{ name: 'Personality Analysis', url: 'https://9takes.com/personality-analysis' },
-				{ name: personName, url: canonicalUrl }
-			])
-		);
-	});
+	let breadcrumbItems = $derived.by(() => [
+		{ name: 'Home', url: 'https://9takes.com/' },
+		{ name: 'Personality Analysis', url: 'https://9takes.com/personality-analysis' },
+		{ name: personName, url: canonicalUrl }
+	]);
 
 	// Build Wikipedia URL from person slug (e.g., "Taylor-Swift" -> "https://en.wikipedia.org/wiki/Taylor_Swift")
 	let wikipediaName = $derived(
@@ -62,6 +47,9 @@
 	);
 	let personSameAs = $derived(
 		buildPersonSameAsUrls({
+			sameAs: data?.same_as,
+			wikidataQid: data?.wikidata_qid,
+			imdbId: data?.imdb_id,
 			wikipedia: data?.wikipedia,
 			fallbackWikipedia: wikipediaName ? `https://en.wikipedia.org/wiki/${wikipediaName}` : null,
 			twitter: data?.twitter,
@@ -69,72 +57,53 @@
 			tiktok: data?.tiktok
 		})
 	);
+	let personIdentifiers = $derived(
+		buildPersonIdentifiers({
+			wikidataQid: data?.wikidata_qid,
+			imdbId: data?.imdb_id
+		})
+	);
 
-	// Prepare common JSON-LD fields
-	function buildCommonJsonLdFields() {
-		return {
-			'@context': 'https://schema.org',
-			'@type': 'Article',
-			headline: title,
-			description,
-			author: {
-				'@type': 'Person',
-				name: 'DJ Wayne',
-				sameAs: [
-					'https://www.instagram.com/djwayne3/',
-					'https://www.youtube.com/@djwayne3',
-					'https://www.linkedin.com/in/davidtwayne/',
-					'https://twitter.com/djwayne3'
-				]
-			},
-			about: {
-				'@type': 'Person',
-				name: personName,
-				...(personSameAs.length > 0 && { sameAs: personSameAs })
-			},
-			publisher: {
-				'@type': 'Organization',
-				name: '9takes',
-				logo: {
-					'@type': 'ImageObject',
-					url: 'https://9takes.com/brand/darkRubix.png'
-				},
-				sameAs: ['https://www.instagram.com/9takesdotcom/', 'https://twitter.com/9takesdotcom']
-			},
-			mainEntityOfPage: {
-				'@type': 'WebPage',
-				'@id': canonicalUrl
-			},
-			datePublished: publishedAt,
-			dateModified: modifiedAt,
-			...(shareImageUrl && {
-				image: {
-					'@type': 'ImageObject',
-					url: shareImageUrl,
-					width: 900,
-					height: 900
-				}
-			})
-		};
+	function buildArticleBodySummary(personaTitle: string | null | undefined, fallback: string) {
+		const parts = [personaTitle, fallback].filter(
+			(value): value is string => typeof value === 'string' && value.trim().length > 0
+		);
+		return parts.join('. ');
 	}
 
 	let jsonLdString = $derived.by(() => {
 		try {
-			const baseJsonLdObject = parsedJsonLdSnippet
-				? updateJsonLdDateModified(parsedJsonLdSnippet, modifiedAt)
-				: buildCommonJsonLdFields();
-			const jsonLdObject = parsedJsonLdSnippet
-				? mergePersonSameAsIntoJsonLd(baseJsonLdObject, {
-						personName,
-						sameAs: personSameAs
-					})
-				: baseJsonLdObject;
-
-			return JSON.stringify(jsonLdObject);
+			return JSON.stringify(
+				buildPersonPageJsonLd({
+					personName,
+					canonicalUrl,
+					breadcrumb: breadcrumbItems,
+					title,
+					description,
+					articleBody: buildArticleBodySummary(data?.persona_title, description),
+					datePublished: publishedAt,
+					dateModified: modifiedAt,
+					imageUrl: shareImageUrl,
+					imageWidth: 900,
+					imageHeight: 900,
+					keywords: data?.keywords ?? [],
+					sameAs: personSameAs,
+					identifiers: personIdentifiers,
+					birthDate: data?.birth_date,
+					birthPlace: data?.birth_place,
+					nationality: data?.nationality,
+					jobTitle: data?.occupation?.[0],
+					hasOccupation: data?.occupation ?? [],
+					knowsAbout: data?.knows_about ?? [],
+					citations: data?.citations ?? [],
+					wordCount: data?.word_count,
+					timeRequired: data?.time_required,
+					faqs: data?.faqs ?? []
+				})
+			);
 		} catch (error) {
 			console.error('Error generating JSON-LD:', error);
-			// Fallback to basic JSON-LD
-			return JSON.stringify(buildCommonJsonLdFields());
+			return '';
 		}
 	});
 </script>
@@ -193,8 +162,5 @@
 	<!-- JSON-LD snippet - Use {@html} to avoid double-escaping -->
 	{#if jsonLdString}
 		{@html `<script type="application/ld+json">${jsonLdString}</script>`}
-	{/if}
-	{#if breadcrumbJsonLd}
-		{@html `<script type="application/ld+json">${breadcrumbJsonLd}</script>`}
 	{/if}
 </svelte:head>

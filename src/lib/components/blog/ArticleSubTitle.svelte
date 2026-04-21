@@ -1,6 +1,7 @@
 <!-- src/lib/components/blog/ArticleSubTitle.svelte -->
 <script lang="ts">
 	export let metaData: App.BlogPost;
+	export let structuredData = true;
 
 	// import twitter from '$lib/images/twitter.svg';
 
@@ -39,24 +40,37 @@
 </script>
 
 <p class="article-meta">
-	<span class="author" itemprop="author" itemscope itemtype="https://schema.org/Person">
+	<span
+		class="author"
+		itemprop={structuredData ? 'author' : undefined}
+		itemscope={structuredData}
+		itemtype={structuredData ? 'https://schema.org/Person' : undefined}
+	>
 		<a
-			itemprop="url"
+			itemprop={structuredData ? 'url' : undefined}
 			class="external-link"
 			target="_blank"
 			rel="noreferrer"
 			href="https://twitter.com/djwayne3"
 		>
-			<span itemprop="name">{metaData.author}</span>
+			<span itemprop={structuredData ? 'name' : undefined}>{metaData.author}</span>
 		</a>
 	</span>
 	<span class="separator">|</span>
-	<time class="date" itemprop="datePublished" datetime={metaData.date}>
+	<time
+		class="date"
+		itemprop={structuredData ? 'datePublished' : undefined}
+		datetime={metaData.date}
+	>
 		Published: {publishedDate?.label ?? metaData.date}
 	</time>
 	{#if modifiedDate && modifiedDate.key !== publishedDate?.key}
 		<span class="separator">|</span>
-		<time class="date updated" itemprop="dateModified" datetime={metaData.lastmod}>
+		<time
+			class="date updated"
+			itemprop={structuredData ? 'dateModified' : undefined}
+			datetime={metaData.lastmod}
+		>
 			Updated: {modifiedDate.label}
 		</time>
 	{/if}
