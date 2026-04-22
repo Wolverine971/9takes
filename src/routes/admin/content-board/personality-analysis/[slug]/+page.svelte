@@ -10,8 +10,8 @@
 
 	interface HistoryItem {
 		id: number;
-		changed_at: string;
-		new_content: string;
+		changed_at: string | null;
+		new_content: string | null;
 	}
 
 	let { data: pageData }: { data: PageData } = $props();
@@ -85,7 +85,7 @@
 			notifications.success('Content saved successfully');
 		} catch (error) {
 			console.error('Error saving content:', error);
-			notifications.error('Failed to save content');
+			notifications.danger('Failed to save content');
 		} finally {
 			saving = false;
 		}

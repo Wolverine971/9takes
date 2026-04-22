@@ -13,7 +13,7 @@
 	let sectionsVisible = Array(5).fill(browser ? false : true);
 
 	// Shadow Soldier archetypes for each type
-	const shadowTypes = {
+	const shadowTypes: Record<number, { name: string; color: string }> = {
 		1: { name: 'The Perfectionist Knight', color: '#A8DADC' },
 		2: { name: 'The Heart Sentinel', color: '#FF6B6B' },
 		3: { name: 'The Achiever Blade', color: '#FFD700' },
@@ -138,10 +138,9 @@
 		}, 100);
 	}
 
-	onMount(async () => {
+	onMount(() => {
 		loaded = true;
-		await tick();
-		setupIntersectionObserver();
+		void tick().then(setupIntersectionObserver);
 		window.addEventListener(
 			'resize',
 			() => {

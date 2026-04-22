@@ -26,7 +26,8 @@
 	description="Review draft: {data.frontmatter.description ||
 		'Celebrity personality analysis draft'}"
 	canonical="https://9takes.com/admin/drafts/{data.slug}"
-	robots="noindex, nofollow"
+	noindex
+	nofollow
 />
 
 <main class="draft-view">

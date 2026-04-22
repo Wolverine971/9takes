@@ -121,6 +121,7 @@ declare global {
 		}
 
 		interface BlogPost {
+			id?: number;
 			slug: string;
 			title: string;
 			meta_title?: string;
@@ -133,8 +134,10 @@ declare global {
 			changefreq: string;
 			priority: string;
 			published: boolean;
-			enneagram?: number;
-			type?: string[];
+			enneagram?: string | number;
+			type?: string[] | string;
+			stage?: number;
+			stageName?: string;
 			tags?: string[];
 			suggestions?: string[];
 			person?: string;
@@ -171,3 +174,5 @@ declare global {
 		}
 	}
 }
+
+declare module 'opentype.js';

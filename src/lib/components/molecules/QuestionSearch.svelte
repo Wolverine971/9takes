@@ -1,21 +1,41 @@
 <!-- src/lib/components/molecules/QuestionSearch.svelte -->
+<script lang="ts" context="module">
+	export interface QuestionSearchValue {
+		id: number;
+		url: string;
+		question: string;
+		comment_count: number;
+		question_formatted?: string;
+		created_at?: string;
+	}
+
+	export interface QuestionSearchOption {
+		text: string;
+		value: QuestionSearchValue;
+	}
+</script>
+
 <script lang="ts">
 	import { createEventDispatcher } from 'svelte';
 
 	export let placeholder = 'Search...';
 	export let loading = false;
-	export let options = [];
+	export let options: QuestionSearchOption[] = [];
 
 	let searchTerm = '';
 	let activeIndex = -1;
 	let isOpen = false;
-	let inputElement;
-	let timer;
+	let inputElement: HTMLDivElement;
+	let timer: ReturnType<typeof setTimeout> | undefined;
 
-	const dispatch = createEventDispatcher();
+	const dispatch = createEventDispatcher<{
+		search: { text: string };
+		selection: QuestionSearchValue;
+	}>();
 
-	function handleInput(e) {
-		searchTerm = e.target.value;
+	function handleInput(e: Event) {
+		const target = e.target as HTMLInputElement | null;
+		searchTerm = target?.value ?? '';
 		if (searchTerm.length > 1) {
 			isOpen = true;
 			clearTimeout(timer);
@@ -28,7 +48,7 @@
 		activeIndex = -1;
 	}
 
-	function handleKeydown(e) {
+	function handleKeydown(e: KeyboardEvent) {
 		if (!isOpen) return;
 
 		// Down arrow
@@ -52,14 +72,14 @@
 		}
 	}
 
-	function selectOption(option) {
+	function selectOption(option: QuestionSearchOption) {
 		searchTerm = option.text;
 		isOpen = false;
 		dispatch('selection', option.value);
 	}
 
-	function handleClickOutside(e) {
-		if (inputElement && !inputElement.contains(e.target)) {
+	function handleClickOutside(e: MouseEvent) {
+		if (inputElement && e.target instanceof Node && !inputElement.contains(e.target)) {
 			isOpen = false;
 		}
 	}

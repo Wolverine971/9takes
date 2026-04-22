@@ -9,8 +9,10 @@
 	import { famousTypes } from './famousTypes'; // adjust path as needed
 	import SmallPopCard from '../atoms/SmallPopCard.svelte';
 
+	type PersonImage = { type: number | string; name: string; url?: string };
+
 	let gridSize = 9;
-	export let images: Array<any> = images.length;
+	export let images: PersonImage[] = [];
 
 	// We'll still track total / loaded for optional usage or debugging
 	let totalCount = 0;

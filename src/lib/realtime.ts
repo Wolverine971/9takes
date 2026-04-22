@@ -2,6 +2,8 @@
 import type { SupabaseClient } from '@supabase/supabase-js';
 import type { RealtimeChannel } from '@supabase/supabase-js';
 
+type AnySupabaseClient = SupabaseClient<any, 'public', any>;
+
 export interface Message {
 	id: string;
 	type: 'server' | 'user';
@@ -14,7 +16,7 @@ export interface Message {
 export class RealtimeMessaging {
 	private channels: Map<string, RealtimeChannel> = new Map();
 
-	constructor(private supabase: SupabaseClient) {}
+	constructor(private supabase: AnySupabaseClient) {}
 
 	/**
 	 * Subscribe to a channel for receiving messages
@@ -110,7 +112,7 @@ export class RealtimeMessaging {
  * Create a presence channel for tracking online users
  */
 export function createPresenceChannel(
-	supabase: SupabaseClient,
+	supabase: AnySupabaseClient,
 	channelName: string,
 	userInfo: { id: string; email: string }
 ) {

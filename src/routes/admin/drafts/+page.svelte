@@ -28,7 +28,8 @@
 	title="Blog Drafts - Admin Panel | 9takes"
 	description="Review and manage celebrity personality analysis blog drafts"
 	canonical="https://9takes.com/admin/drafts"
-	robots="noindex, nofollow"
+	noindex
+	nofollow
 />
 
 <div class="header-section">

@@ -23,7 +23,7 @@
 	let globalChannel: RealtimeChannel;
 	let userChannel: RealtimeChannel;
 
-	onMount(async () => {
+	onMount(() => {
 		if (browser) {
 			messaging = new RealtimeMessaging(supabase);
 			channelListeningOn = `user-${data?.user?.external_id || 'anonymous'}`;
@@ -42,28 +42,38 @@
 
 			if (data?.user) {
 				presenceChannel = createPresenceChannel(supabase, 'admin-presence', {
-					id: data.user.external_id,
-					email: data.user.email
+					id: data.user.external_id ?? data.user.id,
+					email: data.user.email ?? ''
 				});
 
 				presenceChannel
 					.on('presence', { event: 'sync' }, () => {
 						const state = presenceChannel.presenceState();
-						onlineUsers = Object.values(state).flat() as any[];
+						onlineUsers = Object.values(state).flat() as {
+							id: string;
+							email: string;
+							presence_ref: string;
+						}[];
 					})
 					.on('presence', { event: 'join' }, ({ key, newPresences }) => {
-						onlineUsers = [...onlineUsers, ...newPresences];
+						onlineUsers = [
+							...onlineUsers,
+							...(newPresences as { id: string; email: string; presence_ref: string }[])
+						];
 					})
 					.on('presence', { event: 'leave' }, ({ key, leftPresences }) => {
 						onlineUsers = onlineUsers.filter(
-							(user) => !leftPresences.some((left) => left.presence_ref === user.presence_ref)
+							(user) =>
+								!(leftPresences as { presence_ref?: string }[]).some(
+									(left) => left.presence_ref === user.presence_ref
+								)
 						);
 					})
 					.subscribe(async (status) => {
 						if (status === 'SUBSCRIBED') {
 							await presenceChannel.track({
-								id: data.user.external_id,
-								email: data.user.email,
+								id: data.user.external_id ?? data.user.id,
+								email: data.user.email ?? '',
 								online_at: new Date().toISOString()
 							});
 						}
@@ -298,7 +308,11 @@
 					<div class="user-list">
 						{#each data?.users as u}
 							{#if u}
-								<button type="button" class="user-item" onclick={() => (userid = u.external_id)}>
+								<button
+									type="button"
+									class="user-item"
+									onclick={() => (userid = u.external_id ?? '')}
+								>
 									<div class="user-info">
 										<span class="user-email">{u?.email}</span>
 										<span class="user-id">ID: {u?.external_id}</span>

@@ -10,7 +10,7 @@
 		if (!name) return;
 
 		let iteration = 0;
-		clearInterval(interval);
+		if (interval) clearInterval(interval);
 
 		interval = setInterval(() => {
 			name.innerText = text
@@ -21,7 +21,7 @@
 				.join('');
 
 			if (iteration >= (name.dataset.value?.length ?? 0)) {
-				clearInterval(interval);
+				if (interval) clearInterval(interval);
 			}
 
 			iteration += 1 / 3;

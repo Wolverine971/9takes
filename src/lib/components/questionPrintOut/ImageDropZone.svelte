@@ -4,9 +4,9 @@
 
 	const dispatch = createEventDispatcher();
 
-	function handleDrop(e) {
+	function handleDrop(e: DragEvent) {
 		e.preventDefault();
-		const file = e.dataTransfer.files[0];
+		const file = e.dataTransfer?.files[0];
 		if (file && file.type.startsWith('image/')) {
 			const reader = new FileReader();
 			reader.onload = function (event) {
@@ -16,7 +16,7 @@
 		}
 	}
 
-	function handleDragOver(e) {
+	function handleDragOver(e: DragEvent) {
 		e.preventDefault();
 	}
 </script>

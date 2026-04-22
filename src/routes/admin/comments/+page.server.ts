@@ -12,9 +12,28 @@ import { getCommentParents } from '../../../utils/conversions';
 
 type CommentRow = Database['public']['Tables']['comments']['Row'];
 type CommentDemoRow = Database['public']['Tables']['comments_demo']['Row'];
+type FlaggedCommentRow = Database['public']['Tables']['flagged_comments']['Row'];
+type BlogCommentRow = Database['public']['Tables']['blog_comments']['Row'];
+type ProfileRow = Database['public']['Tables']['profiles']['Row'];
+type QuestionRow = Database['public']['Tables']['questions']['Row'];
 type AppSupabase = SupabaseClient<Database>;
 type CommentParentData = Pick<CommentRow | CommentDemoRow, 'parent_type' | 'parent_id'>;
 type CommentsQueryTable = 'comments' | 'comments_demo' | 'flagged_comments' | 'blog_comments';
+type ProfileSummary = Pick<ProfileRow, 'email' | 'external_id'>;
+type AdminComment = (CommentRow | CommentDemoRow) & {
+	removed?: boolean;
+	profiles?: ProfileSummary | null;
+	profiles_demo?: ProfileSummary | null;
+	parentQuestion?: QuestionRow;
+	parentComment?: CommentRow;
+};
+type FlaggedComment = FlaggedCommentRow & {
+	comments: CommentRow | null;
+	profiles: ProfileSummary | null;
+};
+type AdminBlogComment = BlogCommentRow & {
+	profiles: ProfileSummary | null;
+};
 
 // Validation schemas
 const commentActionSchema = z.object({
@@ -195,6 +214,7 @@ export const load: PageServerLoad = async (event) => {
 		// Table name based on demo mode
 		const commentsTable: CommentsQueryTable = isDemo ? 'comments_demo' : 'comments';
 		const profilesTable = isDemo ? 'profiles_demo' : 'profiles';
+		const profileSelection = `profiles:${profilesTable} (email, external_id)`;
 
 		// Parallelize all comment loading for better performance
 		const [{ data: comments }, { data: flaggedComments }, { data: blogComments }] =
@@ -204,7 +224,7 @@ export const load: PageServerLoad = async (event) => {
 					commentsTable,
 					page,
 					{
-						selectionFields: `*, ${profilesTable} (*)`,
+						selectionFields: `*, ${profileSelection}`,
 						limit: PAGE_SIZE,
 						orderField: 'created_at',
 						orderDirection: { ascending: false }
@@ -238,21 +258,14 @@ export const load: PageServerLoad = async (event) => {
 			]);
 
 		// Process comments to include parent questions
-		const processedComments = comments
-			? await getCommentParents(
-					comments as unknown as Array<{
-						id: number;
-						parent_id: number | null;
-						parent_type: string;
-					}>
-				)
-			: [];
+		const recentComments = (comments ?? []) as unknown as AdminComment[];
+		const processedComments = recentComments.length ? await getCommentParents(recentComments) : [];
 
 		return {
 			user,
 			comments: processedComments,
-			flaggedComments,
-			blogComments,
+			flaggedComments: (flaggedComments ?? []) as unknown as FlaggedComment[],
+			blogComments: (blogComments ?? []) as unknown as AdminBlogComment[],
 			demoTime: isDemo,
 			currentPage: page,
 			hasMore:

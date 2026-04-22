@@ -18,6 +18,40 @@ const { glob } = pkg;
 
 dotenv.config();
 
+/**
+ * @typedef {string | number | Date | null | undefined} DateInput
+ * @typedef {{ loc: string, lastmod: string | null, imageLoc?: string }} SitemapEntry
+ * @typedef {{
+ *   loc?: string | null,
+ *   lastmod?: DateInput,
+ *   date?: DateInput,
+ *   sourceCategory?: string | null,
+ *   type?: unknown,
+ *   pic?: string | null,
+ *   person?: string | null,
+ *   slug?: string | null,
+ *   enneagram?: string | number | null,
+ *   [key: string]: unknown
+ * }} ContentPost
+ * @typedef {{ id: string | number, url?: string | null, updated_at?: DateInput, created_at?: DateInput }} QuestionRow
+ * @typedef {{ id: string | number, category_name: string, slug?: string | null, parent_id: string | number | null, intro_updated_at?: DateInput }} QuestionCategory
+ * @typedef {{ question_id: string | number, tag_id: string | number }} QuestionCategoryTag
+ * @typedef {{
+ *   id: string | number,
+ *   category_name: string,
+ *   slug?: string | null,
+ *   parent_id: string | number | null,
+ *   children: QuestionCategoryNode[],
+ *   directQuestionIds: Set<string | number>,
+ *   introLastmod: string | null,
+ *   lastmod?: string | null
+ * }} QuestionCategoryNode
+ * @typedef {{ entries: SitemapEntry[], latestLastmod: string | null }} QuestionCategoryPages
+ * @typedef {{ contentDates?: DateInput[], routePaths?: string[], fallbackLastmod?: DateInput, siteFallbackLastmod?: DateInput }} StaticLastmodOptions
+ * @typedef {{ posts: ContentPost[], peoplePosts: ContentPost[], questions: QuestionRow[], questionCategoryLastmod?: DateInput }} StaticPageOptions
+ * @typedef {ReturnType<typeof createClient>} SupabaseClient
+ */
+
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 const SITE_URL = 'https://9takes.com';
@@ -27,6 +61,7 @@ const SUPABASE_URL = process.env.PUBLIC_SUPABASE_URL || process.env.SUPABASE_URL
 const SUPABASE_ANON_KEY =
 	process.env.PUBLIC_SUPABASE_PUBLISHABLE_KEY || process.env.PUBLIC_SUPABASE_ANON_KEY;
 
+/** @type {SupabaseClient | null} */
 let supabase = null;
 
 const ENNEAGRAM_SUBTOPIC_SLUGS = [
@@ -124,8 +159,12 @@ const ROUTE_FILES = {
 	]
 };
 
+/** @type {Map<string, string | null>} */
 const gitDateCache = new Map();
 
+/**
+ * @returns {SupabaseClient}
+ */
 function getSupabase() {
 	if (supabase) return supabase;
 
@@ -139,6 +178,10 @@ function getSupabase() {
 	return supabase;
 }
 
+/**
+ * @param {DateInput} value
+ * @returns {string | null}
+ */
 function formatLastmod(value) {
 	if (!value) return null;
 
@@ -148,13 +191,22 @@ function formatLastmod(value) {
 	return date.toISOString().slice(0, 10);
 }
 
+/**
+ * @param {unknown} value
+ * @returns {string}
+ */
 function normalizeTypeKey(value) {
 	return String(value ?? '')
 		.replace(/[^a-z0-9]/gi, '')
 		.toLowerCase();
 }
 
+/**
+ * @param {unknown} value
+ * @returns {string[]}
+ */
 function normalizeTypeList(value) {
+	/** @type {string[]} */
 	let raw = [];
 
 	if (Array.isArray(value)) {
@@ -182,10 +234,18 @@ function normalizeTypeList(value) {
 	return normalized;
 }
 
+/**
+ * @param {unknown} value
+ * @returns {string | null}
+ */
 function getPrimaryPostType(value) {
 	return normalizeTypeList(value)[0] ?? null;
 }
 
+/**
+ * @param {unknown} value
+ * @returns {string[]}
+ */
 function getPersonalityCategorySlugs(value) {
 	const typeKeys = new Set(normalizeTypeList(value).map((type) => normalizeTypeKey(type)));
 
@@ -194,6 +254,10 @@ function getPersonalityCategorySlugs(value) {
 	).map((category) => category.slug);
 }
 
+/**
+ * @param {unknown} loc
+ * @returns {string}
+ */
 function getPathname(loc) {
 	if (typeof loc !== 'string' || loc.trim().length === 0) return '';
 
@@ -209,6 +273,10 @@ function getPathname(loc) {
 	}
 }
 
+/**
+ * @param {DateInput[]} values
+ * @returns {string | null}
+ */
 function getLatestDate(values) {
 	let latest = null;
 	let latestTimestamp = Number.NEGATIVE_INFINITY;
@@ -227,6 +295,10 @@ function getLatestDate(values) {
 	return latest;
 }
 
+/**
+ * @param {...(DateInput | DateInput[])} values
+ * @returns {string | null}
+ */
 function maxLastmod(...values) {
 	return getLatestDate(
 		values.flatMap((value) => {
@@ -236,17 +308,27 @@ function maxLastmod(...values) {
 	);
 }
 
+/**
+ * @template T
+ * @param {T[]} items
+ * @param {(item: T) => DateInput} selector
+ * @returns {string | null}
+ */
 function getLatestItemDate(items, selector) {
 	return getLatestDate(items.map(selector));
 }
 
+/**
+ * @param {string[]} paths
+ * @returns {string | null}
+ */
 function getLatestGitDate(paths) {
 	const validPaths = paths.filter(Boolean);
 	if (validPaths.length === 0) return null;
 
 	const cacheKey = validPaths.join('|');
 	if (gitDateCache.has(cacheKey)) {
-		return gitDateCache.get(cacheKey);
+		return gitDateCache.get(cacheKey) ?? null;
 	}
 
 	try {
@@ -264,10 +346,18 @@ function getLatestGitDate(paths) {
 	}
 }
 
+/**
+ * @param {ContentPost} post
+ * @returns {boolean}
+ */
 function isEnneagramPost(post) {
 	return typeof post.sourceCategory === 'string' && post.sourceCategory.startsWith('enneagram');
 }
 
+/**
+ * @param {ContentPost} post
+ * @returns {boolean}
+ */
 function isMentalHealthPost(post) {
 	const pathname = getPathname(post.loc);
 	return (
@@ -279,14 +369,28 @@ function isMentalHealthPost(post) {
 	);
 }
 
+/**
+ * @param {ContentPost} person
+ * @param {string | number} enneagram
+ * @returns {boolean}
+ */
 function isPersonalityTypePost(person, enneagram) {
 	return String(person.enneagram ?? '') === String(enneagram);
 }
 
+/**
+ * @param {ContentPost} person
+ * @param {string} categorySlug
+ * @returns {boolean}
+ */
 function isPersonalityCategoryPost(person, categorySlug) {
 	return getPersonalityCategorySlugs(person.type).includes(categorySlug);
 }
 
+/**
+ * @param {StaticLastmodOptions} options
+ * @returns {string | null}
+ */
 function resolveStaticLastmod({
 	contentDates = [],
 	routePaths = [],
@@ -294,10 +398,15 @@ function resolveStaticLastmod({
 	siteFallbackLastmod = null
 }) {
 	return (
-		maxLastmod(contentDates, getLatestGitDate(routePaths), fallbackLastmod) ?? siteFallbackLastmod
+		maxLastmod(contentDates, getLatestGitDate(routePaths), fallbackLastmod) ??
+		formatLastmod(siteFallbackLastmod)
 	);
 }
 
+/**
+ * @param {StaticPageOptions} options
+ * @returns {SitemapEntry[]}
+ */
 export function buildStaticPages({
 	posts,
 	peoplePosts,
@@ -503,6 +612,10 @@ export function buildStaticPages({
 	];
 }
 
+/**
+ * @param {SitemapEntry} entry
+ * @returns {string}
+ */
 function renderUrlEntry(entry) {
 	const imageBlock = entry.imageLoc
 		? `
@@ -517,6 +630,10 @@ function renderUrlEntry(entry) {
   </url>`;
 }
 
+/**
+ * @param {SitemapEntry[]} entries
+ * @returns {SitemapEntry[]}
+ */
 function dedupeEntries(entries) {
 	const byLoc = new Map();
 
@@ -528,17 +645,30 @@ function dedupeEntries(entries) {
 	return [...byLoc.values()];
 }
 
+/**
+ * @param {QuestionCategory[]} categories
+ * @param {QuestionCategoryTag[]} categoryTags
+ * @param {QuestionRow[]} questions
+ * @returns {QuestionCategoryPages}
+ */
 function buildQuestionCategoryEntries(categories, categoryTags, questions) {
+	/** @type {Map<string | number, string | null>} */
 	const activeQuestionLastmodById = new Map(
 		questions
-			.map((question) => [question.id, formatLastmod(question.updated_at ?? question.created_at)])
+			.map(
+				(question) =>
+					/** @type {[string | number, string | null]} */ ([
+						question.id,
+						formatLastmod(question.updated_at ?? question.created_at)
+					])
+			)
 			.filter(([, lastmod]) => Boolean(lastmod))
 	);
 
 	const nodes = new Map(
 		categories.map((category) => [
 			category.id,
-			{
+			/** @type {QuestionCategoryNode} */ ({
 				id: category.id,
 				category_name: category.category_name,
 				slug: category.slug,
@@ -546,7 +676,7 @@ function buildQuestionCategoryEntries(categories, categoryTags, questions) {
 				children: [],
 				directQuestionIds: new Set(),
 				introLastmod: formatLastmod(category.intro_updated_at)
-			}
+			})
 		])
 	);
 
@@ -555,6 +685,7 @@ function buildQuestionCategoryEntries(categories, categoryTags, questions) {
 		nodes.get(tag.tag_id)?.directQuestionIds.add(tag.question_id);
 	}
 
+	/** @type {QuestionCategoryNode[]} */
 	const roots = [];
 	for (const category of categories) {
 		const node = nodes.get(category.id);
@@ -571,8 +702,15 @@ function buildQuestionCategoryEntries(categories, categoryTags, questions) {
 		roots.push(node);
 	}
 
+	/**
+	 * @param {QuestionCategoryNode} node
+	 * @returns {QuestionCategoryNode | null}
+	 */
 	function prune(node) {
-		const prunedChildren = node.children.map((child) => prune(child)).filter(Boolean);
+		/** @type {QuestionCategoryNode[]} */
+		const prunedChildren = node.children
+			.map((child) => prune(child))
+			.filter((child) => child !== null);
 		const hasQuestions = node.directQuestionIds.size > 0 || prunedChildren.length > 0;
 
 		if (!hasQuestions) {
@@ -592,14 +730,23 @@ function buildQuestionCategoryEntries(categories, categoryTags, questions) {
 			id: node.id,
 			category_name: node.category_name,
 			slug: node.slug,
+			parent_id: node.parent_id,
+			directQuestionIds: node.directQuestionIds,
+			introLastmod: node.introLastmod,
 			lastmod,
 			children: prunedChildren
 		};
 	}
 
+	/** @type {SitemapEntry[]} */
 	const entries = [];
+	/** @type {string | null} */
 	let latestLastmod = null;
 
+	/**
+	 * @param {QuestionCategoryNode} node
+	 * @returns {void}
+	 */
 	function collect(node) {
 		if (node.lastmod) {
 			entries.push({
@@ -614,7 +761,7 @@ function buildQuestionCategoryEntries(categories, categoryTags, questions) {
 		}
 	}
 
-	for (const root of roots.map((node) => prune(node)).filter(Boolean)) {
+	for (const root of roots.map((node) => prune(node)).filter((node) => node !== null)) {
 		collect(root);
 	}
 
@@ -624,6 +771,10 @@ function buildQuestionCategoryEntries(categories, categoryTags, questions) {
 	};
 }
 
+/**
+ * @param {QuestionRow} question
+ * @returns {SitemapEntry | null}
+ */
 function buildQuestionEntry(question) {
 	const lastmod = formatLastmod(question.updated_at ?? question.created_at);
 	if (!question?.url || !lastmod) return null;
@@ -634,6 +785,10 @@ function buildQuestionEntry(question) {
 	};
 }
 
+/**
+ * @param {QuestionRow[]} questions
+ * @returns {Promise<QuestionCategoryPages>}
+ */
 async function getQuestionCategoryPages(questions) {
 	const supabase = getSupabase();
 	const [
@@ -667,6 +822,9 @@ async function getQuestionCategoryPages(questions) {
 	return buildQuestionCategoryEntries(categories ?? [], categoryTags ?? [], questions);
 }
 
+/**
+ * @returns {Promise<ContentPost[]>}
+ */
 async function getAllPosts() {
 	const categories = [
 		'community',
@@ -682,6 +840,7 @@ async function getAllPosts() {
 		'topical'
 	];
 
+	/** @type {ContentPost[]} */
 	const posts = [];
 
 	for (const category of categories) {
@@ -702,7 +861,8 @@ async function getAllPosts() {
 					});
 				}
 			} catch (error) {
-				console.warn(`Could not read ${path.basename(file)}: ${error.message}`);
+				const message = error instanceof Error ? error.message : String(error);
+				console.warn(`Could not read ${path.basename(file)}: ${message}`);
 			}
 		}
 	}
@@ -710,6 +870,9 @@ async function getAllPosts() {
 	return posts;
 }
 
+/**
+ * @returns {Promise<QuestionRow[]>}
+ */
 async function getQuestions() {
 	const supabase = getSupabase();
 	const { data, error } = await supabase
@@ -728,6 +891,9 @@ async function getQuestions() {
 	return data ?? [];
 }
 
+/**
+ * @returns {Promise<ContentPost[]>}
+ */
 async function getFamousPeople() {
 	const supabase = getSupabase();
 	const { data, error } = await supabase
@@ -742,23 +908,31 @@ async function getFamousPeople() {
 		return [];
 	}
 
-	return (data ?? []).map((person) => ({
-		...person,
-		slug: normalizePersonalitySlug(person.person)
-	}));
+	return (data ?? []).map((person) => {
+		const row = /** @type {ContentPost} */ (person);
+		return {
+			...row,
+			slug: normalizePersonalitySlug(row.person)
+		};
+	});
 }
 
+/**
+ * @param {ContentPost} post
+ * @returns {SitemapEntry | null}
+ */
 function buildPostEntry(post) {
+	const fallbackPersonSlug = post.person ?? post.slug ?? undefined;
 	const loc =
 		post.loc?.includes('personality-analysis') || post.person
-			? normalizePersonalityAnalysisUrl(post.loc, post.person ?? post.slug)
+			? normalizePersonalityAnalysisUrl(post.loc, fallbackPersonSlug)
 			: post.loc;
 
 	const lastmod = formatLastmod(post.lastmod ?? post.date);
 	if (!loc || !lastmod) return null;
 
 	if (post.person || loc.includes('/personality-analysis/')) {
-		const imagePath = buildPersonalityImagePath(post.enneagram, post.person ?? post.slug);
+		const imagePath = buildPersonalityImagePath(post.enneagram, fallbackPersonSlug);
 		return {
 			loc,
 			lastmod,
@@ -793,12 +967,13 @@ async function generateSitemap() {
 		questionCategoryLastmod: questionCategoryPages.latestLastmod
 	});
 
+	/** @type {SitemapEntry[]} */
 	const dynamicEntries = [
 		...posts.map(buildPostEntry),
 		...peoplePosts.map(buildPostEntry),
 		...questions.map(buildQuestionEntry),
 		...questionCategoryPages.entries
-	].filter(Boolean);
+	].filter((entry) => entry !== null);
 
 	const entries = dedupeEntries([...staticPages, ...dynamicEntries]).sort((a, b) =>
 		a.loc.localeCompare(b.loc)

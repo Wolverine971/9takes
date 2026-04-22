@@ -26,12 +26,45 @@ import matter from 'gray-matter';
 
 dotenv.config();
 
+/**
+ * @typedef {string | number | Date | null | undefined} DateInput
+ * @typedef {{ path: string, category: string, route: string }} BlogDirectory
+ * @typedef {Record<string, any>} Frontmatter
+ * @typedef {{
+ *   slug: string,
+ *   title: string,
+ *   description: string,
+ *   content: string,
+ *   headings: string[],
+ *   author: string,
+ *   date: DateInput,
+ *   lastmod: DateInput,
+ *   changefreq: string,
+ *   priority: string,
+ *   published: boolean,
+ *   blog: boolean,
+ *   enneagram: string | number | null,
+ *   type: string[],
+ *   tags: string[],
+ *   category: string,
+ *   loc: string,
+ *   url: string,
+ *   pic: string,
+ *   path: string,
+ *   content_hash: string
+ * }} BlogContentEntry
+ * @typedef {{ slug: string, content_hash?: string | null, published?: boolean | null, path?: string | null }} ExistingBlogEntry
+ * @typedef {{ dryRun?: boolean, force?: boolean }} SyncOptions
+ * @typedef {ReturnType<typeof createSupabaseServiceClient>} SupabaseClient
+ */
+
 const SUPABASE_URL = process.env.SUPABASE_URL || process.env.PUBLIC_SUPABASE_URL;
 const SUPABASE_SERVICE_KEY = process.env.SUPABASE_SERVICE_KEY;
 
 // ============================================
 // CONFIGURATION - All blog directories
 // ============================================
+/** @type {BlogDirectory[]} */
 const BLOG_DIRECTORIES = [
 	// Main enneagram content (includes mental-health subdirectory)
 	{ path: 'src/blog/enneagram', category: 'enneagram', route: '/enneagram-corner' },
@@ -69,6 +102,7 @@ const BLOG_DIRECTORIES = [
 	// NOTE: src/blog/people is handled separately via blogs_famous_people
 ];
 
+/** @type {Record<string, string>} */
 const ROUTE_MAP = {
 	enneagram: '/enneagram-corner',
 	'mental-health': '/enneagram-corner/mental-health',
@@ -104,15 +138,20 @@ function hasSupabaseServiceEnv() {
 }
 
 function createSupabaseServiceClient() {
-	if (!hasSupabaseServiceEnv()) {
+	const url = SUPABASE_URL;
+	const serviceKey = SUPABASE_SERVICE_KEY;
+	if (!url || !serviceKey) {
 		throw new Error('Missing SUPABASE_URL or SUPABASE_SERVICE_KEY environment variables');
 	}
 
-	return createClient(SUPABASE_URL, SUPABASE_SERVICE_KEY);
+	return createClient(url, serviceKey);
 }
 
 /**
  * Recursively find all markdown files in a directory.
+ * @param {string} dir
+ * @param {string[]} fileList
+ * @returns {Promise<string[]>}
  */
 async function findMarkdownFiles(dir, fileList = []) {
 	try {
@@ -137,12 +176,18 @@ async function findMarkdownFiles(dir, fileList = []) {
 			}
 		}
 	} catch (error) {
-		console.error(`Error reading directory ${dir}:`, error.message);
+		const message = error instanceof Error ? error.message : String(error);
+		console.error(`Error reading directory ${dir}:`, message);
 	}
 
 	return fileList;
 }
 
+/**
+ * @param {string} filePath
+ * @param {string} category
+ * @returns {string}
+ */
 function generateSlug(filePath, category) {
 	const fileName = path.basename(filePath, path.extname(filePath));
 	const relativePath = filePath.split(`src/blog/${category}/`)[1];
@@ -155,6 +200,11 @@ function generateSlug(filePath, category) {
 	return fileName;
 }
 
+/**
+ * @param {string} filePath
+ * @param {string} baseCategory
+ * @returns {string}
+ */
 function extractSubcategory(filePath, baseCategory) {
 	const relativePath = filePath.split(`src/blog/${baseCategory}/`)[1];
 	if (relativePath && relativePath.includes('/')) {
@@ -163,6 +213,12 @@ function extractSubcategory(filePath, baseCategory) {
 	return baseCategory;
 }
 
+/**
+ * @param {string} slug
+ * @param {string} category
+ * @param {string} subcategory
+ * @returns {string}
+ */
 function generateUrl(slug, category, subcategory) {
 	if (subcategory && ROUTE_MAP[subcategory]) {
 		return `${ROUTE_MAP[subcategory]}/${slug.split('/').pop()}`;
@@ -183,6 +239,10 @@ function generateUrl(slug, category, subcategory) {
 	return `${baseRoute}/${slug}`;
 }
 
+/**
+ * @param {string} text
+ * @returns {string}
+ */
 function normalizeInlineMarkdownText(text) {
 	return text
 		.replace(/!\[([^\]]*)\]\([^)]+\)/g, '$1')
@@ -194,6 +254,10 @@ function normalizeInlineMarkdownText(text) {
 		.trim();
 }
 
+/**
+ * @param {string} text
+ * @returns {string}
+ */
 function normalizeMarkdownForSearch(text) {
 	return text
 		.replace(/!\[([^\]]*)\]\([^)]+\)/g, '$1')
@@ -209,6 +273,8 @@ function normalizeMarkdownForSearch(text) {
 /**
  * Clean markdown content for storage.
  * Removes Svelte-only syntax and noisy formatting while preserving searchable text.
+ * @param {string} content
+ * @returns {string}
  */
 function cleanContent(content) {
 	let cleaned = content;
@@ -227,7 +293,12 @@ function cleanContent(content) {
 	return cleaned.trim();
 }
 
+/**
+ * @param {string} content
+ * @returns {string[]}
+ */
 function extractHeadings(content) {
+	/** @type {string[]} */
 	const headings = [];
 	const tokens = marked.lexer(content);
 
@@ -245,6 +316,12 @@ function extractHeadings(content) {
 	return headings;
 }
 
+/**
+ * @param {Frontmatter} data
+ * @param {string} content
+ * @param {string} category
+ * @returns {string[]}
+ */
 function extractTags(data, content, category) {
 	const tags = new Set();
 
@@ -300,6 +377,10 @@ function extractTags(data, content, category) {
 	return [...tags].sort((left, right) => left.localeCompare(right));
 }
 
+/**
+ * @param {Omit<BlogContentEntry, 'content_hash'>} entry
+ * @returns {string}
+ */
 function buildContentHash(entry) {
 	const hashSource = {
 		slug: entry.slug,
@@ -327,10 +408,19 @@ function buildContentHash(entry) {
 	return createHash('sha256').update(JSON.stringify(hashSource)).digest('hex');
 }
 
+/**
+ * @param {Frontmatter} data
+ * @returns {boolean}
+ */
 function isPublishedFrontmatter(data) {
 	return data.published === true;
 }
 
+/**
+ * @param {string} filePath
+ * @param {BlogDirectory} dirConfig
+ * @returns {Promise<BlogContentEntry | null>}
+ */
 async function parseMarkdownFile(filePath, dirConfig) {
 	const fileContent = await fs.readFile(filePath, 'utf8');
 	const { data, content } = matter(fileContent);
@@ -354,6 +444,7 @@ async function parseMarkdownFile(filePath, dirConfig) {
 		}
 	}
 
+	/** @type {Omit<BlogContentEntry, 'content_hash'>} */
 	const entry = {
 		slug,
 		title: data.title || path.basename(filePath, path.extname(filePath)),
@@ -383,8 +474,13 @@ async function parseMarkdownFile(filePath, dirConfig) {
 	};
 }
 
+/**
+ * @param {BlogContentEntry[]} entries
+ * @returns {void}
+ */
 function validateUniqueSlugs(entries) {
 	const seen = new Map();
+	/** @type {string[]} */
 	const duplicates = [];
 
 	for (const entry of entries) {
@@ -401,6 +497,10 @@ function validateUniqueSlugs(entries) {
 	}
 }
 
+/**
+ * @param {SupabaseClient} supabase
+ * @returns {Promise<Map<string, ExistingBlogEntry>>}
+ */
 async function loadExistingEntries(supabase) {
 	const { data, error } = await supabase
 		.from('blogs_content')
@@ -414,6 +514,12 @@ async function loadExistingEntries(supabase) {
 	return new Map((data || []).map((row) => [row.slug, row]));
 }
 
+/**
+ * @param {ExistingBlogEntry | undefined} existing
+ * @param {BlogContentEntry} entry
+ * @param {boolean} force
+ * @returns {'insert' | 'update' | 'skip'}
+ */
 function getEntryOperation(existing, entry, force = false) {
 	if (!existing) {
 		return 'insert';
@@ -442,6 +548,10 @@ function getEntryOperation(existing, entry, force = false) {
 	return 'skip';
 }
 
+/**
+ * @param {string | number | Date | null | undefined} value
+ * @returns {string | null}
+ */
 function normalizeDate(value) {
 	if (!value) {
 		return null;
@@ -450,6 +560,10 @@ function normalizeDate(value) {
 	return new Date(value).toISOString().split('T')[0];
 }
 
+/**
+ * @param {string | number | Date | null | undefined} value
+ * @returns {string | null}
+ */
 function normalizeTimestamp(value) {
 	if (!value) {
 		return null;
@@ -458,6 +572,13 @@ function normalizeTimestamp(value) {
 	return new Date(value).toISOString();
 }
 
+/**
+ * @param {Map<string, ExistingBlogEntry>} existingEntries
+ * @param {Set<string>} activeSlugs
+ * @param {SyncOptions} options
+ * @param {SupabaseClient | null} supabase
+ * @returns {Promise<{ deactivated: number, errors: number }>}
+ */
 async function syncRemovedEntries(existingEntries, activeSlugs, options = {}, supabase) {
 	const { dryRun = false } = options;
 	const staleEntries = [...existingEntries.values()].filter(
@@ -471,6 +592,10 @@ async function syncRemovedEntries(existingEntries, activeSlugs, options = {}, su
 	let deactivated = 0;
 	let errors = 0;
 
+	if (!dryRun && !supabase) {
+		throw new Error('Supabase client is required to unpublish stale blog index rows');
+	}
+
 	for (const staleEntry of staleEntries) {
 		if (dryRun) {
 			console.log(
@@ -478,6 +603,10 @@ async function syncRemovedEntries(existingEntries, activeSlugs, options = {}, su
 			);
 			deactivated++;
 			continue;
+		}
+
+		if (!supabase) {
+			throw new Error('Supabase client is required to unpublish stale blog index rows');
 		}
 
 		const { error } = await supabase
@@ -501,6 +630,13 @@ async function syncRemovedEntries(existingEntries, activeSlugs, options = {}, su
 	return { deactivated, errors };
 }
 
+/**
+ * @param {BlogContentEntry[]} entries
+ * @param {SyncOptions} options
+ * @param {SupabaseClient | null} supabase
+ * @param {Map<string, ExistingBlogEntry>} existingEntries
+ * @returns {Promise<{ inserted: number, updated: number, skipped: number, errors: number, deactivated: number }>}
+ */
 async function upsertToSupabase(
 	entries,
 	options = {},
@@ -515,6 +651,10 @@ async function upsertToSupabase(
 	let updated = 0;
 	let skipped = 0;
 	let errors = 0;
+
+	if (!dryRun && !supabase) {
+		throw new Error('Supabase client is required to upsert blog index rows');
+	}
 
 	for (const entry of entries) {
 		const existing = existingEntries.get(entry.slug);
@@ -538,6 +678,10 @@ async function upsertToSupabase(
 		}
 
 		try {
+			if (!supabase) {
+				throw new Error('Supabase client is required to upsert blog index rows');
+			}
+
 			const payload = {
 				...entry,
 				date: normalizeDate(entry.date),
@@ -571,7 +715,8 @@ async function upsertToSupabase(
 				published: entry.published
 			});
 		} catch (error) {
-			console.error(`Error processing ${entry.slug}:`, error.message);
+			const message = error instanceof Error ? error.message : String(error);
+			console.error(`Error processing ${entry.slug}:`, message);
 			errors++;
 		}
 	}
@@ -617,7 +762,9 @@ async function main() {
 		throw new Error('Missing SUPABASE_URL or SUPABASE_SERVICE_KEY environment variables');
 	}
 
+	/** @type {SupabaseClient | null} */
 	let supabase = null;
+	/** @type {Map<string, ExistingBlogEntry>} */
 	let existingEntries = new Map();
 	if (hasSupabaseServiceEnv()) {
 		supabase = createSupabaseServiceClient();
@@ -629,7 +776,8 @@ async function main() {
 			}
 
 			supabase = null;
-			console.warn(`Warning: ${error.message}. Continuing dry run without remote index state.`);
+			const message = error instanceof Error ? error.message : String(error);
+			console.warn(`Warning: ${message}. Continuing dry run without remote index state.`);
 		}
 	}
 
@@ -638,7 +786,9 @@ async function main() {
 		console.log(`  - ${directory.path} -> ${directory.route}`)
 	);
 
+	/** @type {BlogContentEntry[]} */
 	const allEntries = [];
+	/** @type {Record<string, number>} */
 	const categoryCounts = {};
 
 	for (const directory of BLOG_DIRECTORIES) {
@@ -656,7 +806,8 @@ async function main() {
 					allEntries.push(entry);
 				}
 			} catch (error) {
-				console.error(`Error parsing ${file}:`, error.message);
+				const message = error instanceof Error ? error.message : String(error);
+				console.error(`Error parsing ${file}:`, message);
 			}
 		}
 	}

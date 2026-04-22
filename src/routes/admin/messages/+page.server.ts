@@ -12,7 +12,7 @@ export const load: PageServerLoad = async (event) => {
 	}
 	const { data: user, error: findUserError } = await supabase
 		.from('profiles')
-		.select('id, admin, external_id')
+		.select('id, admin, email, external_id')
 		.eq('id', session?.user?.id)
 		.single();
 

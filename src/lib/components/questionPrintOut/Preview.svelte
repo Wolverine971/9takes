@@ -15,23 +15,24 @@
 
 	const dispatch = createEventDispatcher();
 
-	function handleDragStart(event, index) {
-		event.dataTransfer.setData('text/plain', index);
+	function handleDragStart(event: DragEvent, index: number) {
+		event.dataTransfer?.setData('text/plain', String(index));
 	}
 
-	function handleDragOver(event) {
+	function handleDragOver(event: DragEvent) {
 		event.preventDefault();
 	}
 
-	function handleDrop(event) {
+	function handleDrop(event: DragEvent) {
 		event.preventDefault();
-		const index = parseInt(event.dataTransfer.getData('text'));
-		const x = event.clientX - event.target.getBoundingClientRect().left;
-		const y = event.clientY - event.target.getBoundingClientRect().top;
+		const index = parseInt(event.dataTransfer?.getData('text') ?? '');
+		const target = event.currentTarget as HTMLElement;
+		const x = event.clientX - target.getBoundingClientRect().left;
+		const y = event.clientY - target.getBoundingClientRect().top;
 		dispatch('updatePosition', { index, x, y });
 	}
 
-	function handleToggleBackground(index) {
+	function handleToggleBackground(index: number) {
 		dispatch('toggleBackground', { index });
 	}
 </script>

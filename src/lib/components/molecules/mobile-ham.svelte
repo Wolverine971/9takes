@@ -5,9 +5,11 @@
 	import { page } from '$app/stores';
 	import Context, { onClickOutside } from '$lib/components/molecules/Context.svelte';
 
+	type NavItem = { href: string; label: string };
+
 	// Props to receive navigation items
-	export let navItems = [];
-	export let blogItems = [];
+	export let navItems: NavItem[] = [];
+	export let blogItems: NavItem[] = [];
 
 	// State management
 	let isMenuOpen = false;

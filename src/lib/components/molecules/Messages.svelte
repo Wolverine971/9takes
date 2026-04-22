@@ -1,12 +1,10 @@
 <!-- src/lib/components/molecules/Messages.svelte -->
 <script lang="ts">
-	const sendBtn = document.querySelector('#send');
-	const messages = document.querySelector('#messages');
-	const messageBox = document.querySelector('#messageBox');
+	let messages: HTMLPreElement | null = null;
+	let messageBox: HTMLInputElement | null = null;
 
-	let ws;
-
-	function showMessage(message) {
+	function showMessage(message: string) {
+		if (!messages || !messageBox) return;
 		messages.textContent += `\n\n${message}`;
 		messages.scrollTop = messages.scrollHeight;
 		messageBox.value = '';
@@ -14,8 +12,9 @@
 </script>
 
 <h1>Real Time Messaging</h1>
-<pre id="messages" style="height: 400px; overflow: scroll"></pre>
+<pre bind:this={messages} id="messages" style="height: 400px; overflow: scroll"></pre>
 <input
+	bind:this={messageBox}
 	type="text"
 	id="messageBox"
 	placeholder="Type your message here"

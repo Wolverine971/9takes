@@ -5,11 +5,11 @@
 
 	export let questionData: {
 		id: number;
-		url: string;
-		question_formatted?: string;
-		question: string;
-		comment_count: number;
-		created_at: string;
+		url: string | null;
+		question_formatted?: string | null;
+		question: string | null;
+		comment_count: number | null;
+		created_at: string | null;
 	};
 	export let showDetails = true;
 
@@ -22,7 +22,7 @@
 	// Format date - use Intl.DateTimeFormat for efficiency
 	$: formattedDate = formatDate(questionData.created_at, innerWidth > 400);
 
-	function formatDate(dateString: string, showYear: boolean): string {
+	function formatDate(dateString: string | null, showYear: boolean): string {
 		if (!dateString) return '';
 		const date = new Date(dateString);
 		const month = date.getUTCMonth() + 1;
@@ -32,7 +32,7 @@
 	}
 
 	// Precomputed question text for display
-	$: displayQuestion = questionData.question_formatted || questionData.question;
+	$: displayQuestion = questionData.question_formatted || questionData.question || '';
 
 	// Memoize hover/leave handlers
 	const handleMouseEnter = () => {
@@ -61,7 +61,7 @@
 		<div class="flex items-start">
 			<p
 				class="font-greek-body m-0 line-clamp-2 overflow-hidden text-ellipsis break-words text-sm sm:text-base"
-				style:--tag={`h-question-${questionData.question.toLowerCase().replace(/[^a-zA-Z0-9]/g, '')}`}
+				style:--tag={`h-question-${(questionData.question ?? '').toLowerCase().replace(/[^a-zA-Z0-9]/g, '')}`}
 			>
 				{displayQuestion}
 			</p>

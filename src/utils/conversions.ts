@@ -14,21 +14,23 @@ export const convertDateToReadable = (date: string): string => {
 	return newdate;
 };
 
-interface Comment {
+interface CommentWithParent {
 	id: number;
 	parent_id: number | null;
-	parent_type: string;
+	parent_type: string | null;
 	parentQuestion?: QuestionRow;
 	parentComment?: ParentCommentRow;
 }
 
-export const getCommentParents = async (comments: Comment[]): Promise<Comment[]> => {
+export const getCommentParents = async <T extends CommentWithParent>(
+	comments: T[]
+): Promise<T[]> => {
 	const commentsOnQuestions = comments.filter(
-		(comment): comment is Comment & { parent_id: number } =>
+		(comment): comment is T & { parent_id: number } =>
 			comment.parent_id !== null && comment.parent_type === 'question'
 	);
 	const commentsOnComments = comments.filter(
-		(comment): comment is Comment & { parent_id: number } =>
+		(comment): comment is T & { parent_id: number } =>
 			comment.parent_id !== null && comment.parent_type !== 'question'
 	);
 

@@ -59,7 +59,7 @@ export const load: LayoutServerLoad = async (event) => {
 
 	const demo_time = demoTimeValue;
 	const session = event.locals.session;
-	let user = event.locals.user;
+	let user: (typeof event.locals.user & { admin?: boolean }) | null = event.locals.user;
 
 	if (user?.id) {
 		const { data: profile, error: profileError } = await event.locals.supabase

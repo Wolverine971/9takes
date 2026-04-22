@@ -19,7 +19,7 @@
 
 	function scribbleScrabble() {
 		if (!scrambleText) return;
-		clearInterval(interval);
+		if (interval) clearInterval(interval);
 		const name = document.querySelector('.jumbo-name');
 		if (!name) return;
 
@@ -33,7 +33,7 @@
 				.join('');
 
 			if (iteration >= text.length) {
-				clearInterval(interval);
+				if (interval) clearInterval(interval);
 			}
 			iteration += 1 / 3;
 		}, 30);
@@ -44,7 +44,7 @@
 			const jumboCard = document.querySelector('.jumbo-card');
 			jumboCard?.addEventListener('mouseenter', scribbleScrabble);
 			return () => {
-				clearInterval(interval);
+				if (interval) clearInterval(interval);
 				jumboCard?.removeEventListener('mouseenter', scribbleScrabble);
 			};
 		}

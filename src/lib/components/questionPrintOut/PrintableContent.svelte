@@ -2,18 +2,30 @@
 <script lang="ts">
 	import { get } from 'svelte/store';
 
-	export let style;
-	export let images;
-	export let imagePositions;
-	export let question;
-	export let question2;
-	export let question3;
+	import type { Readable } from 'svelte/store';
+
+	type PrintableStyle = { color: string; fontFamily: string; fontSize: string };
+	type ImagePosition = { x: number; y: number; isBackground?: boolean };
+	type PrintableQuestion = {
+		id: string;
+		url: string;
+		question: string;
+		question_formatted?: string;
+	};
+
+	export let style: PrintableStyle;
+	export let images: string[] = [];
+	export let imagePositions: ImagePosition[] | Readable<ImagePosition[]> = [];
+	export let question: PrintableQuestion | null = null;
+	export let question2: PrintableQuestion | null = null;
+	export let question3: PrintableQuestion | null = null;
 
 	import Frame from './frame.svelte';
 	import Rubix from '../icons/rubix.svelte';
 	import Scribble from '../atoms/scribble.svelte';
 	import QuestionDisplay from '../questions/QuestionDisplay.svelte';
 
+	let positions: ImagePosition[] = [];
 	$: positions = Array.isArray(imagePositions)
 		? imagePositions
 		: imagePositions?.subscribe

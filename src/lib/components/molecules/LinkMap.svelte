@@ -4,54 +4,64 @@
 	import { Map, Geocoder, Marker, controls } from '$lib/components/map/components';
 
 	const { GeolocateControl, NavigationControl } = controls;
-	const place = null;
+
+	interface GeocoderPlace {
+		label?: string;
+		center: unknown;
+		geometry?: {
+			lat?: number;
+			lng?: number;
+		};
+	}
+
+	let place: GeocoderPlace | null = null;
 	// export let points: any[] = [];
 
 	interface LinkDrops {
 		id: number;
 		created_at: string;
-		question_id: number;
-		address_id: number;
-		number_of_drops: number;
-		number_of_hits: number;
+		question_id: number | null;
+		address_id: number | null;
+		number_of_drops: number | null;
+		number_of_hits: number | null;
 		external_id: string;
-		addresses: Addresses;
-		questions: Questions;
+		addresses: Addresses | null;
+		questions: Questions | null;
 	}
 
 	interface Questions {
 		id: number;
-		question: string;
+		question: string | null;
 		created_at: string;
-		updated_at: string;
-		data?: any;
-		name?: any;
-		author_id: string;
-		context: string;
-		url: string;
-		img_url: string;
-		es_id: string;
+		updated_at?: string | null;
+		data?: unknown;
+		name?: unknown;
+		author_id: string | null;
+		context: string | null;
+		url: string | null;
+		img_url: string | null;
+		es_id: string | null;
 		comment_count: number;
-		tagged: boolean;
-		flagged: boolean;
-		question_formatted: string;
-		removed: boolean;
+		tagged: boolean | null;
+		flagged: boolean | null;
+		question_formatted: string | null;
+		removed: boolean | null;
 	}
 
 	interface Addresses {
 		id: number;
 		created_at: string;
-		updated_at?: any;
-		address_line_1: string;
-		address_line_2?: any;
-		city: string;
-		state: string;
-		postal_code: string;
-		latitude: number;
-		longitude: number;
-		name: string;
-		extra_details: Extradetail[];
-		country: string;
+		updated_at?: string | null;
+		address_line_1: string | null;
+		address_line_2?: string | null;
+		city: string | null;
+		state: string | null;
+		postal_code: string | null;
+		latitude: number | null;
+		longitude: number | null;
+		name: string | null;
+		extra_details: Extradetail[] | unknown;
+		country: string | null;
 	}
 
 	interface Extradetail {
@@ -62,24 +72,23 @@
 
 	export let linkDrops: LinkDrops[] | undefined = [];
 	// 40.911552736237624, -73.9934208
-	let center = { lat: 40.91155273, lng: -73.9934208 };
+	let center: [number, number] = [-73.9934208, 40.91155273];
 	let zoom = 11.15;
-	let mapComponent;
+	let mapComponent: any;
 	let innerWidth = 0;
 
 	$: linkDrops && updateCenter();
 
 	const updateCenter = () => {
-		if (linkDrops?.length) {
-			center = {
-				lat: linkDrops[0].addresses.latitude,
-				lng: linkDrops[0].addresses.longitude
-			};
+		const address = linkDrops?.[0]?.addresses;
+		if (address?.latitude != null && address.longitude != null) {
+			center = [address.longitude, address.latitude];
 		}
 	};
 
-	function placeChanged(e) {
-		const { result } = e.detail;
+	function placeChanged(e: Event) {
+		const { result } = (e as CustomEvent<{ result: GeocoderPlace }>).detail;
+		place = result;
 		mapComponent.setCenter(result.center, 14);
 	}
 
@@ -98,11 +107,21 @@
 		});
 	}
 
-	function recentre({ detail }) {
-		center = detail.center;
+	function toCenterTuple(value: unknown): [number, number] {
+		if (Array.isArray(value) && value.length >= 2) {
+			return [Number(value[0]), Number(value[1])];
+		}
+
+		const centerValue = value as { lng?: number; lat?: number };
+		return [Number(centerValue.lng ?? center[0]), Number(centerValue.lat ?? center[1])];
 	}
 
-	function drag({ detail }) {
+	function recentre(e: Event) {
+		const detail = (e as CustomEvent<{ center: unknown }>).detail;
+		center = toCenterTuple(detail.center);
+	}
+
+	function drag(_event: Event) {
 		// marker = detail.center;
 	}
 </script>
@@ -125,7 +144,7 @@
 						<dt>Name:</dt>
 						<dd>{place.label}</dd>
 						<dt>Geolocation:</dt>
-						<dd>lat: {place.geometry.lat}, lng: {place.geometry.lng}</dd>
+						<dd>lat: {place.geometry?.lat}, lng: {place.geometry?.lng}</dd>
 					</dl>
 				{/if}
 			</form>
@@ -144,24 +163,26 @@
 					<GeolocateControl on:geolocate={(e) => console.log('geolocated', e.detail)} />
 					{#if linkDrops?.length}
 						{#each linkDrops as point}
-							<Marker
-								popupHtml={`
+							{#if point.addresses?.latitude != null && point.addresses.longitude != null && point.questions}
+								<Marker
+									popupHtml={`
 								<div class="popup">
-									<h3>${point.addresses.name}</h3>
-									<a href="/questions/${point.questions.url}"" >${point.questions.question}</a>
+									<h3>${point.addresses.name ?? ''}</h3>
+									<a href="/questions/${point.questions.url ?? ''}"" >${point.questions.question ?? ''}</a>
 									<p>Number of hits: ${point.number_of_hits}</p>
 									</div>`}
-								lat={point.addresses.latitude}
-								lng={point.addresses.longitude}
-								label={point.addresses.name}
-							/>
+									lat={point.addresses.latitude}
+									lng={point.addresses.longitude}
+									label={point.addresses.name ?? 'Marker'}
+								/>
+							{/if}
 						{/each}
 					{/if}
 				</Map>
 			</div>
 			{#if center}
 				<dt>Geolocation:</dt>
-				<dd>lat: {center.lat}, lng: {center.lng}</dd>
+				<dd>lat: {center[1]}, lng: {center[0]}</dd>
 				<dd>zoom: {zoom}</dd>
 			{/if}
 		</div>

@@ -125,10 +125,9 @@
 		}, 100);
 	}
 
-	onMount(async () => {
+	onMount(() => {
 		loaded = true;
-		await tick();
-		setupIntersectionObserver();
+		void tick().then(setupIntersectionObserver);
 		window.addEventListener(
 			'resize',
 			() => {

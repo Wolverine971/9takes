@@ -134,7 +134,7 @@
 			stageName = result.stageName || null;
 		} catch (error) {
 			console.error('Error loading content:', error);
-			notifications.error('Failed to load content');
+			notifications.danger('Failed to load content');
 		} finally {
 			loading = false;
 		}
@@ -179,7 +179,7 @@
 			onsaved?.(data);
 		} catch (error) {
 			console.error('Error saving content:', error);
-			notifications.error('Failed to save content');
+			notifications.danger('Failed to save content');
 		} finally {
 			saving = false;
 		}

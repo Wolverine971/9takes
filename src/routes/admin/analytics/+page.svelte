@@ -2399,26 +2399,22 @@
 															type="button"
 															class="table-path-button"
 															class:active={selectedReleaseSlug === row.slug}
+															title={row.title || row.slug}
 															onclick={() => void selectRelease(row.slug)}
 														>
 															{row.title || row.slug}
 														</button>
-														{#if releaseHref}
-															<a
-																class="table-page-link compact"
-																href={releaseHref}
-																aria-label={`Open ${row.title || row.slug} page`}
-															>
-																Open page
-															</a>
-														{/if}
 													</div>
 													{#if releaseHref}
-														<a class="release-path release-path-link" href={releaseHref}>
+														<a
+															class="release-path release-path-link"
+															href={releaseHref}
+															title={row.path}
+														>
 															{row.path}
 														</a>
 													{:else}
-														<div class="release-path">{row.path}</div>
+														<div class="release-path" title={row.path}>{row.path}</div>
 													{/if}
 												</td>
 												<td data-label="Published">{formatDateTime(row.published_at)}</td>
@@ -3316,6 +3312,42 @@
 		overflow-y: auto;
 	}
 
+	.release-table {
+		min-width: 1040px;
+		table-layout: fixed;
+	}
+
+	.release-table th:nth-child(1),
+	.release-table td:nth-child(1) {
+		width: 330px;
+	}
+
+	.release-table th:nth-child(2),
+	.release-table td:nth-child(2) {
+		width: 128px;
+	}
+
+	.release-table th:nth-child(3),
+	.release-table td:nth-child(3),
+	.release-table th:nth-child(7),
+	.release-table td:nth-child(7) {
+		width: 104px;
+	}
+
+	.release-table th:nth-child(4),
+	.release-table td:nth-child(4),
+	.release-table th:nth-child(5),
+	.release-table td:nth-child(5),
+	.release-table th:nth-child(6),
+	.release-table td:nth-child(6) {
+		width: 74px;
+	}
+
+	.release-table th:nth-child(8),
+	.release-table td:nth-child(8) {
+		width: 120px;
+	}
+
 	.release-table th {
 		position: sticky;
 		top: 0;
@@ -3335,16 +3367,16 @@
 	}
 
 	.release-title-row {
-		display: flex;
-		align-items: flex-start;
-		gap: 8px;
+		display: block;
 	}
 
 	.release-path {
 		margin-top: 4px;
 		color: var(--text-secondary);
 		font-size: 0.72rem;
-		word-break: break-word;
+		line-height: 1.35;
+		overflow-wrap: break-word;
+		word-break: normal;
 	}
 
 	.release-path-link {
@@ -3718,10 +3750,12 @@
 		margin: 0;
 		color: var(--text-primary);
 		font-size: 0.84rem;
+		line-height: 1.25;
 		cursor: pointer;
 		text-align: left;
 		max-width: 100%;
-		word-break: break-word;
+		overflow-wrap: break-word;
+		word-break: normal;
 	}
 
 	.table-path-button:hover {
@@ -3888,6 +3922,16 @@
 		.data-table tbody,
 		.data-table tr {
 			display: block;
+		}
+
+		.release-table {
+			min-width: 0;
+			table-layout: auto;
+		}
+
+		.release-table th,
+		.release-table td {
+			width: auto;
 		}
 
 		.data-table tbody {

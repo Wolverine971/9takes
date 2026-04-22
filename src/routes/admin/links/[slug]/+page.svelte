@@ -14,10 +14,33 @@
 
 	export let data: PageData;
 
-	let selectedQuestion = null;
-	let location = null; // Will be set once user explicitly shares location
+	type SelectedQuestion = {
+		id: number;
+		url: string;
+		question: string;
+		comment_count: number;
+		question_formatted?: string;
+		created_at?: string;
+	};
+
+	type SearchOption = {
+		text: string;
+		value: SelectedQuestion;
+	};
+
+	type SearchResult = {
+		id: number;
+		url: string;
+		question: string;
+		comment_count: number;
+	};
+
+	type SharedLocation = Pick<GeolocationCoordinates, 'latitude' | 'longitude'>;
+
+	let selectedQuestion: SelectedQuestion | null = null;
+	let location: SharedLocation | null = null; // Will be set once user explicitly shares location
 	let isSearching = false;
-	let searchOptions = [];
+	let searchOptions: SearchOption[] = [];
 	let isSubmitting = false;
 
 	// Remove the existing onMount geolocation code so it's no longer automatic
@@ -62,7 +85,7 @@
 		}
 	}
 
-	async function handleSearch(event) {
+	async function handleSearch(event: CustomEvent<{ text: string }>) {
 		const { text } = event.detail;
 		if (!text || text.length < 2) return;
 
@@ -80,7 +103,7 @@
 			}
 
 			const data = await response.json();
-			const elasticOptions = data.results || [];
+			const elasticOptions = (data.results || []) as SearchResult[];
 
 			searchOptions = elasticOptions.map((o) => ({
 				text: o?.question,
@@ -100,8 +123,24 @@
 		}
 	}
 
-	function handleQuestionSelected(event) {
+	function handleQuestionSelected(event: CustomEvent<SelectedQuestion>) {
 		selectedQuestion = event.detail;
+	}
+
+	function getActionFailureMessage(
+		result: ReturnType<typeof deserialize>,
+		fallbackMessage: string
+	): string | null {
+		if (result.type === 'error') {
+			return result.error.message || fallbackMessage;
+		}
+
+		if (result.type === 'failure') {
+			const data = result.data as { error?: string; message?: string } | undefined;
+			return data?.error ?? data?.message ?? fallbackMessage;
+		}
+
+		return null;
 	}
 
 	async function saveLinkDrop() {
@@ -128,9 +167,10 @@
 			});
 
 			const result = deserialize(await response.text());
+			const failureMessage = getActionFailureMessage(result, 'Failed to drop link');
 
-			if (result.error) {
-				notifications.danger('Error dropping link: ' + result.error, 3000);
+			if (failureMessage) {
+				notifications.danger('Error dropping link: ' + failureMessage, 3000);
 			} else {
 				notifications.success('Link dropped successfully', 3000);
 				// Refresh the page to show the new link
@@ -152,9 +192,15 @@
 
 		isSubmitting = true;
 		try {
+			const linkDropExternalId = data.linkDrop?.external_id;
+			if (!linkDropExternalId) {
+				notifications.warning('Link drop data is unavailable', 3000);
+				return;
+			}
+
 			const formData = new FormData();
 			formData.append('selectedQuestionURL', selectedQuestion.url);
-			formData.append('linkDropExternalId', data.linkDrop?.external_id);
+			formData.append('linkDropExternalId', linkDropExternalId);
 
 			const response = await fetch('?/updateLinkDrop', {
 				method: 'POST',
@@ -162,9 +208,10 @@
 			});
 
 			const result = deserialize(await response.text());
+			const failureMessage = getActionFailureMessage(result, 'Failed to update link');
 
-			if (result.error) {
-				notifications.danger('Error updating link: ' + result.error, 3000);
+			if (failureMessage) {
+				notifications.danger('Error updating link: ' + failureMessage, 3000);
 			} else {
 				notifications.success('Link updated successfully', 3000);
 				getModal('edit-link').close();
@@ -241,7 +288,9 @@
 			<section class="view-section">
 				<div class="question-details">
 					<h2>Question Details</h2>
-					<QuestionItem questionData={data.question} />
+					{#if data.question}
+						<QuestionItem questionData={data.question} />
+					{/if}
 				</div>
 
 				<div class="statistics">

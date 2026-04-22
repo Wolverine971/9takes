@@ -31,7 +31,7 @@ export const checkDemoTime = async (client?: SupabaseClient<Database>) => {
 		.single();
 
 	if (error) {
-		return demoTime?.value;
+		return null;
 	}
 
 	const demo_time = demoTime?.value;

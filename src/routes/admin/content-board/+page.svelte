@@ -39,7 +39,7 @@
 		return () => window.removeEventListener('resize', handleResize);
 	});
 
-	let activeSelection = $state('people');
+	let activeSelection = $state<ContentType>('people');
 	let isDragging = $state(false);
 	let draggedBlog = $state<App.BlogPost | null>(null);
 	let searchQuery = $state('');
@@ -57,7 +57,9 @@
 	let sortOrder = $state<'asc' | 'desc'>('desc');
 	let showSocialMediaOnly = $state(false);
 
-	const contentTypes = ['enneagram', 'community', 'guides', 'people'];
+	type ContentType = 'enneagram' | 'community' | 'guides' | 'people';
+
+	const contentTypes: ContentType[] = ['enneagram', 'community', 'guides', 'people'];
 	const stages = [
 		'Not written',
 		'Prioritized',
@@ -84,8 +86,8 @@
 	};
 
 	// Helper to get data by content type
-	function getContentData(type: string): App.BlogPost[] {
-		return (data as Record<string, App.BlogPost[]>)[type] || [];
+	function getContentData(type: ContentType): App.BlogPost[] {
+		return data[type] || [];
 	}
 
 	// Helper to calculate stage for a blog post
@@ -185,10 +187,12 @@
 				let matchesSocialMedia = true;
 
 				if (activeSelection === 'people') {
-					matchesEnneagramType = !selectedEnneagramType || blog.enneagram === selectedEnneagramType;
+					matchesEnneagramType =
+						!selectedEnneagramType || String(blog.enneagram ?? '') === selectedEnneagramType;
 					matchesAuthor = !selectedAuthor || blog.author === selectedAuthor;
-					matchesSocialMedia =
-						!showSocialMediaOnly || blog.instagram || blog.twitter || blog.tiktok;
+					matchesSocialMedia = Boolean(
+						!showSocialMediaOnly || blog.instagram || blog.twitter || blog.tiktok
+					);
 
 					if (selectedType) {
 						if (Array.isArray(blog.type)) {
@@ -230,8 +234,8 @@
 						bValue = b.person || '';
 						break;
 					case 'enneagram':
-						aValue = a.enneagram || '';
-						bValue = b.enneagram || '';
+						aValue = String(a.enneagram ?? '');
+						bValue = String(b.enneagram ?? '');
 						break;
 					case 'author':
 						aValue = a.author || '';
@@ -256,8 +260,8 @@
 						break;
 					case 'lastmod':
 					default:
-						aValue = new Date(a.lastmod || 0);
-						bValue = new Date(b.lastmod || 0);
+						aValue = a.lastmod ? new Date(a.lastmod) : new Date(0);
+						bValue = b.lastmod ? new Date(b.lastmod) : new Date(0);
 						break;
 				}
 
@@ -327,7 +331,7 @@
 			const index = peopleData.findIndex((b: any) => b.id === updatedData.id);
 			if (index !== -1) {
 				peopleData[index] = { ...peopleData[index], ...updatedData };
-				(data as Record<string, App.BlogPost[]>)['people'] = [...peopleData];
+				data.people = [...peopleData];
 			}
 		}
 	}
@@ -391,7 +395,7 @@
 		element.classList.remove('drag-over');
 	}
 
-	async function drop(event: DragEvent, stageIndex: number, blogType: string) {
+	async function drop(event: DragEvent, stageIndex: number, blogType: ContentType) {
 		event.preventDefault();
 		const element = event.currentTarget as HTMLElement;
 		element.classList.remove('drag-over');
@@ -404,7 +408,7 @@
 		if (blogIndex === -1 || blogData[blogIndex].stage === stageIndex) return;
 
 		const blog = blogData[blogIndex];
-		const oldStage = blog.stage;
+		const oldStage = blog.stage ?? calculateStage(blog);
 
 		const validation = isValidTransition(blog, stageIndex);
 		if (!validation.valid) {
@@ -415,20 +419,20 @@
 		blog.stage = stageIndex;
 		blog.stageName = stages[stageIndex];
 
-		(data as Record<string, App.BlogPost[]>)[blogType] = [...blogData];
+		data[blogType] = [...blogData];
 
 		try {
 			await updateStage(blog, blogType);
 			notifications.success(`Moved "${blog.title}" to ${stages[stageIndex]}`, 3000);
 		} catch (error) {
 			blog.stage = oldStage;
-			blog.stageName = stages[oldStage];
-			(data as Record<string, App.BlogPost[]>)[blogType] = [...blogData];
-			notifications.error('Failed to update content stage', 3000);
+			blog.stageName = stages[oldStage] ?? stages[0];
+			data[blogType] = [...blogData];
+			notifications.danger('Failed to update content stage', 3000);
 		}
 	}
 
-	async function updateStage(blog: App.BlogPost, blogType: string) {
+	async function updateStage(blog: App.BlogPost, blogType: ContentType) {
 		let body = new FormData();
 
 		body.append('content_type', blogType);

@@ -393,6 +393,9 @@
 		date: '2024-05-09',
 		loc: `https://9takes.com/enneagram-corner/subtopic/${subsection}`,
 		lastmod: meta.lastmod,
+		changefreq: 'monthly',
+		priority: '0.7',
+		published: true,
 		blog: true,
 		pic: meta.pic
 	}}

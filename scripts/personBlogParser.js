@@ -1242,6 +1242,7 @@ async function publishPersonBlog(options) {
 async function insertIntoSupabase(entries, options = {}) {
 	const supabase = createSupabaseServiceClient();
 	const gradesOnly = options.gradesOnly === true;
+	/** @type {InsertIntoSupabaseResult} */
 	const result = {
 		processed: entries.length,
 		updated: 0,

@@ -6,6 +6,7 @@ import { error } from '@sveltejs/kit';
 export interface FamousPerson {
 	name: string;
 	type: number;
+	image?: string;
 	url?: string;
 	hasImage?: boolean;
 	link?: string;

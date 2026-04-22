@@ -279,14 +279,18 @@
 									<div class="comment-actions">
 										<button
 											class="btn btn-success"
-											onclick={() => confirmAction(comment?.comments?.id, 'unflag')}
+											onclick={() => {
+												if (comment?.comments?.id) confirmAction(comment.comments.id, 'unflag');
+											}}
 											disabled={loading || !comment?.comments?.id}
 										>
 											Approve
 										</button>
 										<button
 											class="btn btn-danger"
-											onclick={() => confirmAction(comment?.comments?.id, 'remove')}
+											onclick={() => {
+												if (comment?.comments?.id) confirmAction(comment.comments.id, 'remove');
+											}}
 											disabled={loading || !comment?.comments?.id}
 										>
 											Remove
