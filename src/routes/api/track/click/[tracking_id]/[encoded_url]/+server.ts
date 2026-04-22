@@ -29,16 +29,17 @@ export const GET: RequestHandler = async ({ params, request }) => {
 		throw redirect(302, 'https://9takes.com');
 	}
 
-	const trackingResults = await Promise.allSettled([
+	// Keep redirect path fast; tracking side effects run asynchronously.
+	void Promise.allSettled([
 		updateClickTracking(tracking_id, targetUrl, request),
 		exitReactivationSequenceForTrackedClick(tracking_id)
-	]);
-
-	for (const result of trackingResults) {
-		if (result.status === 'rejected') {
-			console.error('Error updating click tracking:', result.reason);
+	]).then((trackingResults) => {
+		for (const result of trackingResults) {
+			if (result.status === 'rejected') {
+				console.error('Error updating click tracking:', result.reason);
+			}
 		}
-	}
+	});
 
 	// Redirect to target URL
 	throw redirect(302, targetUrl);

@@ -389,6 +389,15 @@
 	}
 
 	.search-page {
+		--search-panel-bg: color-mix(in srgb, var(--bg-surface) 90%, transparent);
+		--search-panel-hover-bg: color-mix(in srgb, var(--bg-surface) 94%, var(--primary-subtle));
+		--search-panel-border: color-mix(in srgb, var(--primary) 16%, var(--glass-border));
+		--search-control-bg: color-mix(in srgb, var(--bg-base) 72%, transparent);
+		--search-control-border: color-mix(in srgb, var(--primary) 14%, var(--border-color));
+		--search-control-focus: color-mix(in srgb, var(--primary) 38%, var(--border-color));
+		--search-chip-bg: color-mix(in srgb, var(--bg-elevated) 42%, transparent);
+		--search-shadow: 0 20px 60px color-mix(in srgb, var(--bg-deep) 18%, transparent);
+
 		min-height: 100vh;
 		background:
 			radial-gradient(circle at top, rgba(45, 212, 191, 0.1), transparent 32%),
@@ -441,9 +450,9 @@
 	.search-shell,
 	.message-card,
 	.result-card {
-		background: rgba(10, 16, 22, 0.74);
-		border: 1px solid rgba(125, 211, 252, 0.12);
-		box-shadow: 0 20px 60px rgba(0, 0, 0, 0.2);
+		background: var(--search-panel-bg);
+		border: 1px solid var(--search-panel-border);
+		box-shadow: var(--search-shadow);
 		backdrop-filter: blur(18px);
 	}
 
@@ -466,7 +475,7 @@
 		padding: 0.9rem 1rem;
 		border-radius: 18px;
 		text-decoration: none;
-		background: rgba(255, 255, 255, 0.03);
+		background: var(--search-control-bg);
 		border: 1px solid transparent;
 		color: var(--text-secondary);
 		transition:
@@ -487,8 +496,8 @@
 	.scope-pill:hover,
 	.scope-pill.is-active {
 		transform: translateY(-1px);
-		border-color: rgba(125, 211, 252, 0.22);
-		background: rgba(45, 212, 191, 0.08);
+		border-color: var(--search-control-focus);
+		background: color-mix(in srgb, var(--primary-subtle) 70%, var(--search-control-bg));
 	}
 
 	.search-form {
@@ -506,8 +515,8 @@
 	.filter-grid select {
 		width: 100%;
 		border-radius: 16px;
-		border: 1px solid rgba(255, 255, 255, 0.1);
-		background: rgba(255, 255, 255, 0.04);
+		border: 1px solid var(--search-control-border);
+		background: var(--search-control-bg);
 		color: var(--text-primary);
 		font: inherit;
 	}
@@ -515,6 +524,17 @@
 	.query-row input {
 		padding: 1rem 1.1rem;
 		font-size: 1.05rem;
+	}
+
+	.query-row input::placeholder {
+		color: var(--text-muted);
+	}
+
+	.query-row input:focus,
+	.filter-grid select:focus {
+		border-color: var(--search-control-focus);
+		outline: 3px solid color-mix(in srgb, var(--primary) 14%, transparent);
+		outline-offset: 0;
 	}
 
 	.query-row button {
@@ -610,8 +630,8 @@
 	.meta-chip,
 	.tag-pill {
 		border-radius: 999px;
-		border: 1px solid rgba(255, 255, 255, 0.08);
-		background: rgba(255, 255, 255, 0.04);
+		border: 1px solid var(--search-control-border);
+		background: var(--search-chip-bg);
 		color: var(--text-secondary);
 	}
 
@@ -656,8 +676,8 @@
 
 	.result-card:hover {
 		transform: translateY(-2px);
-		border-color: rgba(125, 211, 252, 0.24);
-		background: rgba(13, 22, 30, 0.82);
+		border-color: var(--search-control-focus);
+		background: var(--search-panel-hover-bg);
 	}
 
 	.result-topline,
@@ -721,7 +741,7 @@
 	}
 
 	.result-headline :global(mark) {
-		background: rgba(45, 212, 191, 0.18);
+		background: var(--primary-subtle);
 		color: var(--text-primary);
 		padding: 0.05rem 0.22rem;
 		border-radius: 0.3rem;

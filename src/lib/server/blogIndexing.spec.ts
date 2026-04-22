@@ -7,6 +7,7 @@ import {
 	cleanContent,
 	extractHeadings,
 	getEntryOperation,
+	isPublishedFrontmatter,
 	parseMarkdownFile
 } from '../../../scripts/index-blogs-to-supabase.js';
 
@@ -60,6 +61,13 @@ Paragraph with [linked text](https://example.com) and \`inline code\`.
 		expect(getEntryOperation({ ...entry }, entry, true)).toBe('update');
 	});
 
+	it('only treats explicitly published frontmatter as indexable', () => {
+		expect(isPublishedFrontmatter({ published: true })).toBe(true);
+		expect(isPublishedFrontmatter({ published: false })).toBe(false);
+		expect(isPublishedFrontmatter({})).toBe(false);
+		expect(isPublishedFrontmatter({ published: 'true' })).toBe(false);
+	});
+
 	it('parses markdown files into indexed blog records with headings and hashes', async () => {
 		const directory = await mkdtemp(path.join(os.tmpdir(), 'blog-indexer-'));
 		tempDirectories.push(directory);
@@ -74,6 +82,7 @@ Paragraph with [linked text](https://example.com) and \`inline code\`.
 title: Better Search
 description: Designing a universal search
 date: 2026-04-08
+published: true
 type:
   - how-to
 ---
@@ -98,5 +107,31 @@ Search helps people find the right answer faster.
 		expect(entry?.headings).toEqual(['Why Search Matters']);
 		expect(entry?.content_hash).toMatch(/^[a-f0-9]{64}$/);
 		expect(entry?.tags).toContain('guides');
+	});
+
+	it('skips markdown files without explicit published true frontmatter', async () => {
+		const directory = await mkdtemp(path.join(os.tmpdir(), 'blog-indexer-'));
+		tempDirectories.push(directory);
+
+		const blogRoot = path.join(directory, 'src', 'blog', 'pop-culture', 'research');
+		await mkdir(blogRoot, { recursive: true });
+		const filePath = path.join(blogRoot, 'raw-notes.md');
+
+		await writeFile(
+			filePath,
+			`# Raw Notes
+
+This is research material, not a published post.
+`,
+			'utf8'
+		);
+
+		const entry = await parseMarkdownFile(filePath, {
+			path: 'src/blog/pop-culture',
+			category: 'pop-culture',
+			route: '/pop-culture'
+		});
+
+		expect(entry).toBeNull();
 	});
 });

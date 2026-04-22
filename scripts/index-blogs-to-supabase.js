@@ -327,11 +327,15 @@ function buildContentHash(entry) {
 	return createHash('sha256').update(JSON.stringify(hashSource)).digest('hex');
 }
 
+function isPublishedFrontmatter(data) {
+	return data.published === true;
+}
+
 async function parseMarkdownFile(filePath, dirConfig) {
 	const fileContent = await fs.readFile(filePath, 'utf8');
 	const { data, content } = matter(fileContent);
 
-	if (data.published === false) {
+	if (!isPublishedFrontmatter(data)) {
 		return null;
 	}
 
@@ -361,7 +365,7 @@ async function parseMarkdownFile(filePath, dirConfig) {
 		lastmod: data.lastmod || data.date || null,
 		changefreq: data.changefreq || 'weekly',
 		priority: data.priority || '0.6',
-		published: data.published !== false,
+		published: true,
 		blog: data.blog !== false,
 		enneagram,
 		type: Array.isArray(data.type) ? data.type.map(String) : [],
@@ -703,6 +707,7 @@ export {
 	findMarkdownFiles,
 	generateSlug,
 	getEntryOperation,
+	isPublishedFrontmatter,
 	parseMarkdownFile,
 	validateUniqueSlugs
 };
