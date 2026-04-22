@@ -19,6 +19,11 @@
 	let selectedRightSource = $derived(
 		data.versions?.find((v) => v.id.toString() === selectedRightVersion)?.source
 	);
+	let blogEnneagram = $derived(
+		typeof data.blog?.enneagram === 'number'
+			? data.blog.enneagram
+			: Number.parseInt(String(data.blog?.enneagram ?? ''), 10) || undefined
+	);
 
 	// Initialize with latest two versions if available
 	$effect(() => {
@@ -243,7 +248,7 @@
 					<PopCard
 						image={`/types/${data.blog?.enneagram}s/${data.blog?.person}.webp`}
 						showIcon={false}
-						enneagramType={data.blog?.enneagram}
+						enneagramType={blogEnneagram}
 						displayText={data.blog?.person?.split('-').join(' ') || ''}
 						subtext=""
 					/>

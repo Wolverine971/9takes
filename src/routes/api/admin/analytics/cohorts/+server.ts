@@ -110,10 +110,8 @@ export const GET: RequestHandler = async ({ url, locals }) => {
 		})
 	]);
 
-	const errors = [cohortFactsResult.error, nextPathsResult.error].filter(Boolean);
-
-	if (errors.length > 0) {
-		if (errors.every(isMissingRetentionDependency)) {
+	if (cohortFactsResult.error) {
+		if (isMissingRetentionDependency(cohortFactsResult.error)) {
 			return json({
 				available: false,
 				anchorDate: analyticsToday,
@@ -124,12 +122,16 @@ export const GET: RequestHandler = async ({ url, locals }) => {
 				nextPaths: []
 			});
 		}
-
 		console.error('Failed to fetch cohort analytics', {
-			cohortFacts: cohortFactsResult.error,
-			nextPaths: nextPathsResult.error
+			cohortFacts: cohortFactsResult.error
 		});
 		throw error(500, 'Failed to fetch cohort analytics');
+	}
+
+	if (nextPathsResult.error) {
+		console.warn('Failed to fetch cohort next paths', {
+			nextPaths: nextPathsResult.error
+		});
 	}
 
 	const cohortFacts = ((cohortFactsResult.data ?? []) as Array<Record<string, unknown>>).map(
@@ -160,11 +162,13 @@ export const GET: RequestHandler = async ({ url, locals }) => {
 		}),
 		acquisitionMix: aggregateAcquisitionMix(cohortFacts, entrySurface),
 		sourceOverview: aggregateSourceOverview(cohortFacts, analyticsToday, entrySurface),
-		nextPaths: ((nextPathsResult.data ?? []) as Array<Record<string, unknown>>).map((row) => ({
-			next_path: String(row.next_path ?? ''),
-			visitor_count: toNumber(row.visitor_count),
-			share_pct: toNumber(row.share_pct),
-			avg_engaged_ms: toNumber(row.avg_engaged_ms)
-		}))
+		nextPaths: nextPathsResult.error
+			? []
+			: ((nextPathsResult.data ?? []) as Array<Record<string, unknown>>).map((row) => ({
+					next_path: String(row.next_path ?? ''),
+					visitor_count: toNumber(row.visitor_count),
+					share_pct: toNumber(row.share_pct),
+					avg_engaged_ms: toNumber(row.avg_engaged_ms)
+				}))
 	});
 };

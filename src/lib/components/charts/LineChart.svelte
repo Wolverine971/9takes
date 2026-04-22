@@ -18,6 +18,8 @@
 	let container: HTMLDivElement;
 	let mounted = false;
 	let tooltip: d3.Selection<HTMLDivElement, unknown, HTMLElement, any> | null = null;
+	let resizeObserver: ResizeObserver | null = null;
+	let resizeFrame: number | null = null;
 
 	// Computed summary stats
 	$: summaryStats = data?.length
@@ -64,9 +66,22 @@
 			.style('box-shadow', 'var(--shadow-lg)')
 			.style('backdrop-filter', 'blur(8px)');
 		drawChart();
+
+		if (typeof ResizeObserver !== 'undefined') {
+			resizeObserver = new ResizeObserver(() => {
+				scheduleDrawChart();
+			});
+			resizeObserver.observe(container);
+		}
 	});
 
 	onDestroy(() => {
+		if (resizeFrame !== null) {
+			cancelAnimationFrame(resizeFrame);
+		}
+		if (resizeObserver) {
+			resizeObserver.disconnect();
+		}
 		if (tooltip) {
 			tooltip.remove();
 		}
@@ -83,8 +98,13 @@
 		d3.select(container).selectAll('*').remove();
 
 		const margin = { top: 24, right: 24, bottom: 40, left: 48 };
-		const width = container.clientWidth - margin.left - margin.right;
+		const containerWidth = container.clientWidth;
+		const width = containerWidth - margin.left - margin.right;
 		const chartHeight = height - margin.top - margin.bottom;
+
+		if (width <= 0 || chartHeight <= 0) {
+			return;
+		}
 
 		// Create SVG with proper viewBox for responsiveness
 		const svg = d3
@@ -155,7 +175,7 @@
 					.domain(d3.extent(parsedData, (d) => d.x) as [number, number])
 					.range([0, width]);
 
-		const yMax = d3.max(parsedData, (d) => d.y) as number;
+		const yMax = Math.max(1, d3.max(parsedData, (d) => d.y) ?? 0);
 		const yScale = d3
 			.scaleLinear()
 			.domain([0, yMax * 1.1])
@@ -383,10 +403,20 @@
 			});
 	}
 
-	function handleResize() {
+	function scheduleDrawChart() {
 		if (mounted) {
-			drawChart();
+			if (resizeFrame !== null) {
+				cancelAnimationFrame(resizeFrame);
+			}
+			resizeFrame = requestAnimationFrame(() => {
+				resizeFrame = null;
+				drawChart();
+			});
 		}
+	}
+
+	function handleResize() {
+		scheduleDrawChart();
 	}
 </script>
 

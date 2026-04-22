@@ -163,13 +163,14 @@ describe('/api/admin/content/[id]', () => {
 			title: 'New Title',
 			published: true
 		});
-		expect(capturedUpdate?.published_at).toEqual(expect.any(String));
-		expect(capturedUpdate?.first_published_at).toBe(capturedUpdate?.published_at);
+		const update = capturedUpdate as unknown as Record<string, unknown>;
+		expect(update.published_at).toEqual(expect.any(String));
+		expect(update.first_published_at).toBe(update.published_at);
 		expect(rpc).toHaveBeenCalledWith('record_content_release_event', {
 			p_content_type: 'people',
 			p_content_slug: 'test-person',
 			p_event_type: 'published',
-			p_event_at: capturedUpdate?.published_at,
+			p_event_at: update.published_at,
 			p_source: 'admin-content-api',
 			p_path: '/personality-analysis/test-person',
 			p_metadata: {
@@ -177,7 +178,7 @@ describe('/api/admin/content/[id]', () => {
 				title: 'New Title'
 			}
 		});
-		expect(body.data.published_at).toBe(capturedUpdate?.published_at);
+		expect(body.data.published_at).toBe(update.published_at);
 	});
 
 	it('persists every structured-data whitelist field through the PUT handler', async () => {

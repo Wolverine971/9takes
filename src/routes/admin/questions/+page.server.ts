@@ -51,16 +51,17 @@ export const load: PageServerLoad = async (event) => {
 		const session = event.locals.session;
 		const supabase = event.locals.supabase;
 		const { demo_time } = await event.parent();
+		const isDemo = demo_time === true;
 		const db = supabase as any;
 
 		// Validate user is an admin
-		const user = await validateAdmin(session, demo_time, supabase);
+		const user = await validateAdmin(session, isDemo, supabase);
 
 		// Get questions with related data
 		const { data: questions, error: questionsError } = await db
-			.from(demo_time ? 'questions_demo' : 'questions')
+			.from(isDemo ? 'questions_demo' : 'questions')
 			.select(
-				`*, question_tag(*), ${demo_time ? 'profiles_demo' : 'profiles'} ( external_id, email, enneagram )`
+				`*, question_tag(*), ${isDemo ? 'profiles_demo' : 'profiles'} ( external_id, email, enneagram )`
 			)
 			.order('created_at', { ascending: false })
 			.limit(100);
@@ -126,7 +127,7 @@ export const load: PageServerLoad = async (event) => {
 		return {
 			user: mapDemoValues(user),
 			questions: mapDemoValues(questionsWithKeywords),
-			demoTime: demo_time,
+			demoTime: isDemo,
 			tags
 		};
 	} catch (err) {
@@ -144,7 +145,7 @@ export const actions: Actions = {
 		try {
 			const session = locals?.session;
 			const supabase = locals.supabase;
-			const demo_time = await checkDemoTime(supabase);
+			const demo_time = (await checkDemoTime(supabase)) === true;
 
 			// Validate user is an admin
 			await validateAdmin(session, demo_time, supabase);
@@ -169,7 +170,7 @@ export const actions: Actions = {
 		try {
 			const session = locals?.session;
 			const supabase = locals.supabase;
-			const demo_time = await checkDemoTime(supabase);
+			const demo_time = (await checkDemoTime(supabase)) === true;
 
 			// Validate user is an admin
 			await validateAdmin(session, demo_time, supabase);
@@ -194,7 +195,7 @@ export const actions: Actions = {
 		try {
 			const session = locals?.session;
 			const supabase = locals.supabase;
-			const demo_time = await checkDemoTime(supabase);
+			const demo_time = (await checkDemoTime(supabase)) === true;
 			const db = supabase as any;
 
 			// Validate user is an admin

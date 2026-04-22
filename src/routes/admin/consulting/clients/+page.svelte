@@ -183,9 +183,9 @@
 							<td>
 								<span
 									class="status-badge"
-									style="--status-color: {statusLabels[client.status]?.color || '#6b7280'}"
+									style="--status-color: {statusLabels[client.status ?? '']?.color || '#6b7280'}"
 								>
-									{statusLabels[client.status]?.label || client.status}
+									{statusLabels[client.status ?? '']?.label || client.status}
 								</span>
 							</td>
 							<td>
@@ -260,7 +260,7 @@
 							closeModal();
 							invalidateAll();
 						} else if (result.type === 'failure') {
-							notifications.danger(result.data?.error || 'Failed to create client', 3000);
+							notifications.danger(String(result.data?.error || 'Failed to create client'), 3000);
 						}
 					};
 				}}

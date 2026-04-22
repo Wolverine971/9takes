@@ -26,7 +26,11 @@
 					buildHowToSchema({
 						name: data.frontmatter.title,
 						description: data.frontmatter.description,
-						steps: data.frontmatter.howToSteps,
+						steps: data.frontmatter.howToSteps.map((step) =>
+							typeof step === 'string'
+								? { name: step, text: step }
+								: { name: step.name ?? '', text: step.text ?? '' }
+						),
 						image: data.frontmatter.pic
 							? `https://9takes.com/blogs/${data.frontmatter.pic}.webp`
 							: undefined,

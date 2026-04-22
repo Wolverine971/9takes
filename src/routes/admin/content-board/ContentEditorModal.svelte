@@ -9,8 +9,8 @@
 
 	interface HistoryItem {
 		id: number;
-		changed_at: string;
-		new_content: string;
+		changed_at: string | null;
+		new_content: string | null;
 	}
 
 	interface Props {

@@ -20,6 +20,12 @@
 	export let question2: PrintableQuestion | null = null;
 	export let question3: PrintableQuestion | null = null;
 
+	function isReadablePositions(
+		value: ImagePosition[] | Readable<ImagePosition[]>
+	): value is Readable<ImagePosition[]> {
+		return !Array.isArray(value) && typeof value.subscribe === 'function';
+	}
+
 	import Frame from './frame.svelte';
 	import Rubix from '../icons/rubix.svelte';
 	import Scribble from '../atoms/scribble.svelte';
@@ -28,7 +34,7 @@
 	let positions: ImagePosition[] = [];
 	$: positions = Array.isArray(imagePositions)
 		? imagePositions
-		: imagePositions?.subscribe
+		: isReadablePositions(imagePositions)
 			? get(imagePositions)
 			: [];
 

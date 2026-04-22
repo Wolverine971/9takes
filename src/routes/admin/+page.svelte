@@ -62,7 +62,7 @@
 	let isReindexing = $state(false);
 
 	$effect(() => {
-		isDemoTime = data.demoTime ?? false;
+		isDemoTime = data.demoTime === true;
 	});
 
 	const readActionPayload = async <T,>(response: Response): Promise<T | null> => {

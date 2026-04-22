@@ -65,7 +65,6 @@ describe('recaptchaClient', () => {
 
 	it('retries with a fresh script tag after a load error', async () => {
 		// Simulate a not-yet-loaded global and trigger script loading.
-		// @ts-expect-error test override
 		window.grecaptcha = undefined;
 
 		const firstLoad = ensureRecaptchaLoaded();

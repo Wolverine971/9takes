@@ -45,7 +45,9 @@
 				<SmallPopCard
 					image={buildPersonalityImagePath(person.type, person.name, 'thumbnail')}
 					showIcon={false}
-					enneagramType={person.type}
+					enneagramType={typeof person.type === 'number'
+						? person.type
+						: Number.parseInt(person.type, 10)}
 					displayText={formatPersonalityDisplayName(person.name)}
 					subtext=""
 					link={person.url ? buildPersonalityAnalysisPath(person.name) : ''}

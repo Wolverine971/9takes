@@ -25,7 +25,7 @@ export const load: PageServerLoad = async (event) => {
 		if (linkDropsError) {
 			console.log('linkDropsError', linkDropsError);
 		}
-		const linkDrops = link_drops as unknown as LinkDrops;
+		const linkDrops = (link_drops ?? []) as unknown as LinkDrops[];
 
 		return { linkDrops };
 	}

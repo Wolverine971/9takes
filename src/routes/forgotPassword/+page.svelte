@@ -1,6 +1,7 @@
 <!-- src/routes/forgotPassword/+page.svelte -->
 <script lang="ts">
 	import { applyAction, enhance } from '$app/forms';
+	import type { ActionResult } from '@sveltejs/kit';
 	import { onMount, tick } from 'svelte';
 	import { browser } from '$app/environment';
 	import type { ActionData } from './$types';
@@ -70,7 +71,7 @@
 
 	function handleSubmit() {
 		loading = true;
-		return async ({ result }: { result: { type: string } }) => {
+		return async ({ result }: { result: ActionResult }) => {
 			await applyAction(result);
 
 			if (result.type === 'failure') {

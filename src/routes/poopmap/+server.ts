@@ -414,7 +414,7 @@ export async function GET() {
 					?.map((q) => {
 						return `<url>
 	    <loc>https://9takes.com/questions/${q.url}</loc>
-	    <lastmod>${new Date(q.updated_at).toISOString()}</lastmod>
+		    <lastmod>${new Date((q as { updated_at?: string; created_at: string }).updated_at ?? q.created_at).toISOString()}</lastmod>
 	    <changefreq>weekly</changefreq>
 	    <priority>0.7</priority>
 	  </url>`;

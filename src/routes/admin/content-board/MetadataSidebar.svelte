@@ -5,8 +5,8 @@
 
 	interface HistoryItem {
 		id: number;
-		changed_at: string;
-		new_content: string;
+		changed_at: string | null;
+		new_content: string | null;
 	}
 
 	interface Props {
@@ -67,7 +67,7 @@
 	}
 
 	// Format date for display
-	function formatDate(dateStr: string | undefined): string {
+	function formatDate(dateStr: string | null | undefined): string {
 		if (!dateStr) return '—';
 		const date = new Date(dateStr);
 		if (isNaN(date.getTime())) return dateStr;
@@ -75,7 +75,8 @@
 	}
 
 	// Format relative time
-	function formatRelativeTime(dateStr: string): string {
+	function formatRelativeTime(dateStr: string | null): string {
+		if (!dateStr) return '—';
 		const date = new Date(dateStr);
 		const now = new Date();
 		const diff = now.getTime() - date.getTime();

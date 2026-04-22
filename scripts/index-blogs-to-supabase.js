@@ -515,8 +515,8 @@ async function loadExistingEntries(supabase) {
 }
 
 /**
- * @param {ExistingBlogEntry | undefined} existing
- * @param {BlogContentEntry} entry
+ * @param {ExistingBlogEntry | null | undefined} existing
+ * @param {ExistingBlogEntry} entry
  * @param {boolean} force
  * @returns {'insert' | 'update' | 'skip'}
  */

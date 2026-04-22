@@ -5,6 +5,13 @@ export interface QuestionCategoryRow {
 	slug?: string | null;
 	parent_id: number | null;
 	level: number | null;
+	intro_markdown?: string | null;
+	intro_description?: string | null;
+	intro_status?: string | null;
+	intro_source?: string | null;
+	intro_generated_at?: string | null;
+	intro_updated_at?: string | null;
+	intro_reviewed_at?: string | null;
 }
 
 export interface QuestionCategoryTagRow {

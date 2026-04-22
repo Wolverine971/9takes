@@ -89,7 +89,7 @@
 			const resp = await fetch(`/email?/submitFamousPerson`, { method: 'POST', body });
 			const data = deserialize(await resp.text());
 
-			if (data?.type === 'success' || !data?.error) {
+			if (data?.type === 'success') {
 				recordSuggestion();
 				notifications.success(`Thanks for suggesting ${otherPerson.trim()}! 🎉`, 4000);
 				email = '';

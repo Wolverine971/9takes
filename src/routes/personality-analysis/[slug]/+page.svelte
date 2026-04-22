@@ -128,7 +128,7 @@
 	let comments: PageData['comments'] = data.comments;
 	let userHasAnswered: PageData['flags']['userHasAnswered'] = data.flags.userHasAnswered;
 	let postMeta: App.BlogPost = normalizePost(data.post);
-	let postTypes: string[] = postMeta.type || [];
+	let postTypes: string[] = toStringArray(postMeta.type);
 	let postSuggestions: string[] = postMeta.suggestions || [];
 	let postDisplayName: string = formatPersonalityDisplayName(data.post.person || data.post.slug);
 	let postImagePath: string = buildPersonalityImagePath(
@@ -140,7 +140,7 @@
 	$: comments = data.comments;
 	$: userHasAnswered = data.flags.userHasAnswered;
 	$: postMeta = normalizePost(post);
-	$: postTypes = postMeta.type || [];
+	$: postTypes = toStringArray(postMeta.type);
 	$: postSuggestions = postMeta.suggestions || [];
 	$: postDisplayName = formatPersonalityDisplayName(postMeta.person || postMeta.slug);
 	$: postImagePath = buildPersonalityImagePath(
@@ -394,7 +394,7 @@
 		<PopCard
 			image={postImagePath}
 			showIcon={false}
-			enneagramType={postMeta.enneagram}
+			enneagramType={toEnneagramNumber(postMeta.enneagram)}
 			displayText={postDisplayName}
 			priority={true}
 			scramble={false}

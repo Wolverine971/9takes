@@ -9,14 +9,14 @@
 
 	const opts = {
 		errorCorrectionLevel: 'H',
-		type: 'image/jpeg',
+		type: 'image/png',
 		quality: 0.7,
 		margin: 1,
 		color: {
 			dark: '#000000',
 			light: '#ffffff'
 		}
-	};
+	} as const;
 
 	let numberOfQRCodes = $state(12);
 	let qrCodes = $state<{ id: string; url: string }[]>([]);

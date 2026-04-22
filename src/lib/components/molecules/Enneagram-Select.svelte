@@ -21,7 +21,7 @@
 	<nav
 		class="menu"
 		use:onClickOutside={() => {
-			let checkbox = document.getElementById('menu-open');
+			let checkbox = document.getElementById('menu-open') as HTMLInputElement | null;
 			if (checkbox) {
 				checkbox.checked = false;
 			}

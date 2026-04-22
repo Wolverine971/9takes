@@ -56,10 +56,11 @@ export const load: PageServerLoad = async (event) => {
 		console.log(categoriesError);
 		throw error(500, 'Failed to load category tree');
 	}
+	const categoryRows = categories as QuestionCategoryRow[];
 
 	const normalizedRequestedSlug = buildQuestionCategorySlug(event.params.slug);
 	const questionTag =
-		categories.find((category) => category.slug === normalizedRequestedSlug) ?? null;
+		categoryRows.find((category) => category.slug === normalizedRequestedSlug) ?? null;
 
 	if (!questionTag) {
 		throw error(404, 'Category not found');
@@ -92,15 +93,12 @@ export const load: PageServerLoad = async (event) => {
 		(activeQuestions as ActiveQuestionRow[] | null)?.map((question) => question.id) ?? []
 	);
 	const categoryTree = buildVisibleQuestionCategoryTree(
-		(categories as QuestionCategoryRow[] | null) ?? [],
+		categoryRows,
 		(categoryTags as QuestionCategoryTagRow[] | null) ?? [],
 		activeQuestionIds
 	);
 	const currentCategoryNode = findQuestionCategoryNodeById(categoryTree, questionTag.id);
-	const parents = buildQuestionCategoryPathRows(
-		(categories as QuestionCategoryRow[] | null) ?? [],
-		questionTag.id
-	).map((category) => ({
+	const parents = buildQuestionCategoryPathRows(categoryRows, questionTag.id).map((category) => ({
 		id: category.id,
 		category_name: category.category_name,
 		slug: category.slug,

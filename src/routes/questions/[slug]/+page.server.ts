@@ -84,7 +84,7 @@ const createLeafCategorySchema = z.object({
 
 export const load: PageServerLoad = async (event) => {
 	const { demo_time } = await event.parent();
-	const isDemoTime = demo_time ?? false;
+	const isDemoTime = demo_time === true;
 	const session = event.locals.session;
 	const cookie = event.cookies.get('9tfingerprint');
 

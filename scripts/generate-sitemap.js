@@ -33,7 +33,7 @@ dotenv.config();
  *   enneagram?: string | number | null,
  *   [key: string]: unknown
  * }} ContentPost
- * @typedef {{ id: string | number, url?: string | null, updated_at?: DateInput, created_at?: DateInput }} QuestionRow
+ * @typedef {{ id?: string | number, url?: string | null, updated_at?: DateInput, created_at?: DateInput }} QuestionRow
  * @typedef {{ id: string | number, category_name: string, slug?: string | null, parent_id: string | number | null, intro_updated_at?: DateInput }} QuestionCategory
  * @typedef {{ question_id: string | number, tag_id: string | number }} QuestionCategoryTag
  * @typedef {{

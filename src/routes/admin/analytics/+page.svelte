@@ -2064,7 +2064,7 @@
 				</div>
 			</div>
 			<div class="table-wrapper" role="region" aria-label="Page breakdown">
-				<table class="data-table">
+				<table class="data-table pageview-table">
 					<thead>
 						<tr>
 							{#each tableSortColumns as column}
@@ -3637,6 +3637,54 @@
 		font-size: 0.84rem;
 	}
 
+	.pageview-table {
+		min-width: 1320px;
+		table-layout: fixed;
+	}
+
+	.pageview-table th:nth-child(1),
+	.pageview-table td:nth-child(1) {
+		width: 360px;
+	}
+
+	.pageview-table th:nth-child(2),
+	.pageview-table td:nth-child(2) {
+		width: 120px;
+	}
+
+	.pageview-table th:nth-child(3),
+	.pageview-table td:nth-child(3) {
+		width: 96px;
+	}
+
+	.pageview-table th:nth-child(4),
+	.pageview-table td:nth-child(4),
+	.pageview-table th:nth-child(5),
+	.pageview-table td:nth-child(5),
+	.pageview-table th:nth-child(6),
+	.pageview-table td:nth-child(6),
+	.pageview-table th:nth-child(7),
+	.pageview-table td:nth-child(7) {
+		width: 80px;
+	}
+
+	.pageview-table th:nth-child(8),
+	.pageview-table td:nth-child(8),
+	.pageview-table th:nth-child(9),
+	.pageview-table td:nth-child(9) {
+		width: 100px;
+	}
+
+	.pageview-table th:nth-child(10),
+	.pageview-table td:nth-child(10) {
+		width: 82px;
+	}
+
+	.pageview-table th:nth-child(11),
+	.pageview-table td:nth-child(11) {
+		width: 142px;
+	}
+
 	.data-table th,
 	.data-table td {
 		padding: 10px 10px;
@@ -3689,18 +3737,18 @@
 	}
 
 	.table-path-cell {
-		display: grid;
-		grid-template-columns: minmax(0, 1fr) auto;
-		gap: 8px;
-		align-items: start;
+		display: block;
 	}
 
 	.table-page-link,
 	.table-page-text {
+		display: block;
 		color: var(--text-primary);
 		font-size: 0.84rem;
+		line-height: 1.3;
 		max-width: 100%;
-		word-break: break-word;
+		overflow-wrap: break-word;
+		word-break: normal;
 	}
 
 	.table-page-link {
@@ -3712,7 +3760,6 @@
 		text-decoration: underline;
 	}
 
-	.table-page-link.compact,
 	.table-trend-button {
 		border: 1px solid var(--bg-elevated);
 		border-radius: 999px;
@@ -3725,7 +3772,6 @@
 		white-space: nowrap;
 	}
 
-	.table-page-link.compact:hover,
 	.table-trend-button:hover {
 		border-color: rgba(245, 158, 11, 0.55);
 		background: rgba(245, 158, 11, 0.12);
@@ -3735,6 +3781,7 @@
 
 	.table-trend-button {
 		cursor: pointer;
+		margin-top: 6px;
 	}
 
 	.table-trend-button.active {
@@ -3924,11 +3971,14 @@
 			display: block;
 		}
 
+		.pageview-table,
 		.release-table {
 			min-width: 0;
 			table-layout: auto;
 		}
 
+		.pageview-table th,
+		.pageview-table td,
 		.release-table th,
 		.release-table td {
 			width: auto;

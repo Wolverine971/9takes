@@ -174,5 +174,3 @@ declare global {
 		}
 	}
 }
-
-declare module 'opentype.js';

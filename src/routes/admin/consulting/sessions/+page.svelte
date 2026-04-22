@@ -15,7 +15,8 @@
 		goto(url.toString(), { replaceState: true, invalidateAll: true });
 	}
 
-	function formatDate(dateStr: string): string {
+	function formatDate(dateStr: string | null): string {
+		if (!dateStr) return 'Unscheduled';
 		const date = new Date(dateStr);
 		return date.toLocaleDateString('en-US', {
 			weekday: 'short',
@@ -24,27 +25,30 @@
 		});
 	}
 
-	function formatTime(dateStr: string): string {
+	function formatTime(dateStr: string | null): string {
+		if (!dateStr) return '';
 		return new Date(dateStr).toLocaleTimeString('en-US', {
 			hour: 'numeric',
 			minute: '2-digit'
 		});
 	}
 
-	function isToday(dateStr: string): boolean {
+	function isToday(dateStr: string | null): boolean {
+		if (!dateStr) return false;
 		const date = new Date(dateStr);
 		const today = new Date();
 		return date.toDateString() === today.toDateString();
 	}
 
-	function isTomorrow(dateStr: string): boolean {
+	function isTomorrow(dateStr: string | null): boolean {
+		if (!dateStr) return false;
 		const date = new Date(dateStr);
 		const tomorrow = new Date();
 		tomorrow.setDate(tomorrow.getDate() + 1);
 		return date.toDateString() === tomorrow.toDateString();
 	}
 
-	function getRelativeDate(dateStr: string): string {
+	function getRelativeDate(dateStr: string | null): string {
 		if (isToday(dateStr)) return 'Today';
 		if (isTomorrow(dateStr)) return 'Tomorrow';
 		return formatDate(dateStr);
@@ -153,7 +157,7 @@
 							<span class="session-duration">{session.duration_minutes} min</span>
 							<span
 								class="session-status"
-								style="--status-color: {statusColors[session.status] || '#6b7280'}"
+								style="--status-color: {statusColors[session.status ?? ''] || '#6b7280'}"
 							>
 								{session.status?.replace('_', ' ')}
 							</span>
