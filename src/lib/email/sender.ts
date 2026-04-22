@@ -11,7 +11,8 @@ import {
 	renderEmailContent,
 	rewriteLinksForTracking,
 	getTrackingPixelUrl,
-	getUnsubscribeUrl
+	getUnsubscribeUrl,
+	TRACKING_ID_PLACEHOLDER
 } from './base-template';
 import type { EmailRecipient, EmailSend } from '$lib/types/email';
 
@@ -164,12 +165,18 @@ export async function sendEmail(options: SendEmailOptions): Promise<SendEmailRes
 
 		// Process HTML content with tracking if trackingId provided
 		let finalHtmlContent = htmlContent;
+		let finalPlainTextContent = plainTextContent;
 		let trackingPixelUrl: string | undefined;
 		let unsubscribeUrl = providedUnsubscribeUrl;
 
 		if (trackingId) {
+			finalHtmlContent = finalHtmlContent.replaceAll(TRACKING_ID_PLACEHOLDER, trackingId);
+			finalPlainTextContent = finalPlainTextContent?.replaceAll(
+				TRACKING_ID_PLACEHOLDER,
+				trackingId
+			);
 			// Rewrite links for click tracking
-			finalHtmlContent = rewriteLinksForTracking(htmlContent, trackingId, BASE_URL);
+			finalHtmlContent = rewriteLinksForTracking(finalHtmlContent, trackingId, BASE_URL);
 			trackingPixelUrl = getTrackingPixelUrl(trackingId, BASE_URL);
 			unsubscribeUrl = getUnsubscribeUrl(trackingId, BASE_URL);
 		}
@@ -185,7 +192,7 @@ export async function sendEmail(options: SendEmailOptions): Promise<SendEmailRes
 			includeFooter
 		});
 		const resolvedPlainTextContent =
-			plainTextContent ?? htmlToPlainText(renderEmailContent(finalHtmlContent, recipientName));
+			finalPlainTextContent ?? htmlToPlainText(renderEmailContent(finalHtmlContent, recipientName));
 
 		const response = await gmail.users.messages.send({
 			requestBody: {

@@ -11,7 +11,7 @@
   </url>
   <url>
     <loc>https://9takes.com/blog</loc>
-    <lastmod>2026-04-20</lastmod>
+    <lastmod>2026-04-21</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/blog/experiment</loc>
@@ -895,7 +895,7 @@
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis</loc>
-    <lastmod>2026-04-20</lastmod>
+    <lastmod>2026-04-21</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/abraham-lincoln</loc>
@@ -1200,7 +1200,7 @@
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/categories</loc>
-    <lastmod>2026-04-20</lastmod>
+    <lastmod>2026-04-21</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/categories/authors-thinkers</loc>
@@ -1216,7 +1216,7 @@
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/categories/film-tv</loc>
-    <lastmod>2026-04-17</lastmod>
+    <lastmod>2026-04-21</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/categories/music</loc>
@@ -1284,6 +1284,13 @@
     <lastmod>2026-02-22</lastmod>
     <image:image>
       <image:loc>https://9takes.com/types/3s/Chris-Williamson.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://9takes.com/personality-analysis/christian-bale</loc>
+    <lastmod>2026-04-21</lastmod>
+    <image:image>
+      <image:loc>https://9takes.com/types/5s/Christian-Bale.webp</image:loc>
     </image:image>
   </url>
   <url>
@@ -2970,7 +2977,7 @@
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/type/5</loc>
-    <lastmod>2026-04-19</lastmod>
+    <lastmod>2026-04-21</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/type/6</loc>

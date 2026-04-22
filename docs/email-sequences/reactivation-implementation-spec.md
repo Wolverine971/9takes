@@ -2,7 +2,7 @@
 
 # Reactivation Sequence — Implementation Spec
 
-**Status:** Spec / Pre-build
+**Status:** Partially implemented
 **Created:** 2026-04-20
 **Related:** [reactivation-sequence-plan.md](./reactivation-sequence-plan.md) · [reactivation-sequence-copy.md](./reactivation-sequence-copy.md)
 
@@ -26,7 +26,7 @@ This spec is what DJ needs to review before any code gets written. It documents 
 
 **Recommendation: Option B.** It's the cleanest long-term. The welcome sequence only currently triggers on user registration (which always has a user_id), so the nullable change doesn't affect it. We can add the check constraint to make intent explicit. Blocker cost: one migration + one code change in the enroll RPC.
 
-**Need from DJ:** pick A / B / C.
+**DECIDED 2026-04-20 (PM): Option C.** Signups are now handled via a dedicated re-engagement flow (see [signups-reengagement-flow.md](./signups-reengagement-flow.md)). The reactivation sequence is now **profiles-only**. No schema change to `email_sequence_enrollments` needed. `user_id NOT NULL` stays as-is.
 
 ### 1.2 — One sequence with bucket tokens vs. three parallel sequences
 
@@ -41,36 +41,19 @@ The plan §8.2 flagged this. Now that we have concrete copy:
 
 **DECIDED 2026-04-20:** Three sequences confirmed. `reactivation_cold`, `reactivation_dormant`, `reactivation_zombies`.
 
-### 1.3 — Signups-source content variance (added 2026-04-20)
+### 1.3 — ~~Signups-source content variance~~ (SUPERSEDED 2026-04-20 PM)
 
-The 38 `signups`-table contacts opted into blog/content updates, not the Q&A platform. Their reactivation flow needs a different Email 1 opener and a different Email 3 CTA (see `reactivation-sequence-copy.md` Appendix A).
+> **Superseded.** Signups no longer flow through the reactivation sequence at all. See [signups-reengagement-flow.md](./signups-reengagement-flow.md) for the dedicated signups path (content ping → questionnaire → silent sunset).
+>
+> The source-aware template rendering approach (D2) is no longer needed. The reactivation sequence content module can treat everything as profiles-only. Remove the `source` field from `ReactivationStep` — there's nothing to vary on.
 
-**Implementation options:**
+**Net simplification from this decision:**
 
-| Option                                                          | How                                                                                                                                                | Verdict                                               |
-| --------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------- |
-| **D1. Six sequences** (`_profiles_cold`, `_signups_cold`, etc.) | Duplicate each bucket by source                                                                                                                    | Rejected — explosion for 38 contacts                  |
-| **D2. Source-aware template rendering**                         | Three sequences. Template engine reads `recipient_source` from the enrollment row and picks the right Email 1 variant + Email 3 CTA at render time | **Recommended** — minimal infra, clean copy isolation |
-
-**Pick D2.** Store content as two variants per step (profiles vs. signups) for the two emails that diverge (Email 1 and Email 3). Step 2, 4, 5 have one variant each. Render-time branch on `enrollment.recipient_source`.
-
-**Impact on `reactivation-sequence-content.ts` shape:**
-
-```ts
-export type ReactivationStep = {
-	sequenceKey: string; // reactivation_cold | _dormant | _zombies
-	stepNumber: number; // 1..5
-	source: 'profiles' | 'signups' | 'shared';
-	subject: string;
-	preheader: string;
-	htmlContent: string;
-	plainText: string;
-};
-```
-
-Renderer logic: for a given enrollment, fetch the step where `source = enrollment.recipient_source` first, fall back to `source = 'shared'` if no source-specific variant exists.
-
-**New token for signups Email 3:** `{{secondary_content_url}}` (blog URL, not questions URL).
+- No schema change to `email_sequence_enrollments`
+- No source-aware renderer logic
+- `ReactivationStep` type has no `source` field
+- No `{{secondary_content_url}}` token needed
+- Reactivation enrollment candidate query excludes `signups` table entirely
 
 ---
 
@@ -78,11 +61,11 @@ Renderer logic: for a given enrollment, fetch the step where `source = enrollmen
 
 ### 2.1 — New migration file
 
-**Path:** `supabase/migrations/20260420_reactivation_email_sequence.sql`
+**Path:** `supabase/migrations/20260421_reactivation_email_sequence.sql`
 
 **Contents (outline, not final SQL):**
 
-1. If pursuing **Option B above**: `ALTER TABLE email_sequence_enrollments ALTER COLUMN user_id DROP NOT NULL;` plus a check constraint: `CHECK (user_id IS NOT NULL OR recipient_source = 'signups')`.
+1. Add `profiles.re_permissioned_at TIMESTAMPTZ NULL`.
 2. Insert three `email_sequences` rows:
    - `key = 'reactivation_cold'`, `display_name = 'Reactivation — Cold (30–90d)'`, `trigger_type = 'manual'`, `status = 'draft'` (flip to active when ready)
    - `key = 'reactivation_dormant'`, `display_name = 'Reactivation — Dormant (90–365d)'`, same
@@ -93,10 +76,8 @@ Renderer logic: for a given enrollment, fetch the step where `source = enrollmen
    - Step 3: `7`
    - Step 4: `7`
    - Step 5: `5`
-4. RPC variants (mirror the welcome pattern):
-   - `enroll_user_in_reactivation_sequence(p_user_id, p_email, p_bucket, p_recipient_source, p_recipient_source_id)` — routes to the right sequence key by bucket.
-   - Alternatively: just reuse existing `enroll_user_in_sequence` and have JS pick the key. **Simpler. Prefer this.**
-5. Re-permission support (see §5 below): new columns on `profiles` and `signups`, or a shared `email_repermission` table. Defer to §5 decision.
+4. No new enrollment RPC. Reuse existing `enroll_user_in_sequence`; JS picks the sequence key from the bucket.
+5. Re-permission support (see §5 below): `profiles.re_permissioned_at`. `signups` stay in the separate warm-lead flow.
 
 ### 2.2 — What to NOT touch
 
@@ -164,11 +145,11 @@ Currently supported (from `src/lib/email/sequences.ts` token replacement): `{{fi
 - `{{signup_month_year}}` — e.g. "November 2024"
 - `{{signup_year}}` — e.g. "2024"
 - `{{signup_months_ago}}` — integer months since signup
-- `{{hero_url}}` — configurable per send; default `https://9takes.com/community/enneagram-and-mental-illness`
+- `{{hero_url}}` — configurable per send; default `https://9takes.com/enneagram-corner/enneagram-and-mental-illness`
 - `{{re_permission_yes_url}}` — tracking-link to confirm endpoint
 - `{{re_permission_no_url}}` — tracking-link to suppress endpoint
 
-Token computation happens at send time in `prepareSequenceSend()`. Add a branch for reactivation sequences that computes these from the enrollment record's `enrolled_at` or from `profiles.created_at` / `signups.created_at`.
+Token computation happens at send time in `prepareSequenceSend()`. Add a branch for reactivation sequences that computes these from the enrollment record's `enrolled_at` or from `profiles.created_at`.
 
 ---
 
@@ -191,11 +172,11 @@ export async function enrollDormantCandidatesInReactivationSequence(options: {
 
 ### 4.1 — Candidate selection logic
 
-Mirror the SQL in `reactivation-bucket-breakdown.sql`:
+Mirror the profiles-only SQL in `reactivation-bucket-breakdown.sql`:
 
-1. Union `profiles` + `signups` (profiles wins on email collision)
+1. Select from `profiles` only. `signups` are warm content leads and are handled by `signups-reengagement-flow.md`.
 2. Filter: non-null email, non-empty, email format valid
-3. Exclude: in `email_unsubscribes`, `signups.unsubscribed_date` set, already-enrolled in any `welcome_sequence` OR any `reactivation_*` sequence
+3. Exclude: in `email_unsubscribes`, already-enrolled in any `welcome_sequence` OR any `reactivation_*` sequence
 4. Bucket assignment: cold (30–89d), dormant (90–364d), zombies (365+d)
 5. For each candidate, call `enroll_user_in_sequence` with the right key
 
@@ -203,7 +184,7 @@ Mirror the SQL in `reactivation-bucket-breakdown.sql`:
 
 - **Default `dryRun = true`** — forces explicit opt-in to actually insert enrollments
 - **Default `limit = 50`** — one run enrolls at most 50 users, supports warmup pacing
-- **Respect bucket order** — cold first, then dormant, then zombies when limit constrains
+- **Respect batch-safety order** — dormant first, then cold, then zombies when limit constrains. Cold is too small to provide useful complaint-rate signal; zombies remain highest risk.
 
 ### 4.3 — Exposure
 
@@ -217,12 +198,11 @@ Alternative: invoke via a `pnpm` script that runs the function directly. Simpler
 
 ### 5.1 — Storage
 
-Add columns:
+Add column:
 
 - `profiles.re_permissioned_at TIMESTAMPTZ NULL`
-- `signups.re_permissioned_at TIMESTAMPTZ NULL`
 
-(Simpler than a shared table; both row types already have all the identity we need.)
+No `signups.re_permissioned_at`; signups are not in this sequence.
 
 ### 5.2 — Endpoints
 
@@ -248,7 +228,7 @@ Both minimal, inherit site layout.
 
 | Path                                                              | Action         | Purpose                                                      |
 | ----------------------------------------------------------------- | -------------- | ------------------------------------------------------------ |
-| `supabase/migrations/20260420_reactivation_email_sequence.sql`    | NEW            | Schema (if Option B) + sequence rows + steps                 |
+| `supabase/migrations/20260421_reactivation_email_sequence.sql`    | NEW            | Profile re-permission column + sequence rows + steps         |
 | `src/lib/email/reactivation-sequence-content.ts`                  | NEW            | Copy, token shape, exports                                   |
 | `src/lib/email/sequences.ts`                                      | MODIFY         | Extend `getManagedSequenceContent` + add reactivation tokens |
 | `src/lib/server/emailSequences.ts`                                | MODIFY         | Add `enrollDormantCandidatesInReactivationSequence`          |
@@ -272,7 +252,7 @@ Both minimal, inherit site layout.
 5. Build migration + content module + enrollment function + re-permission endpoints (one PR)
 6. Test in dev with a seed of ~3 test addresses DJ controls
 7. Set sequence status `draft → active` in DB when ready
-8. Run `enrollDormantCandidatesInReactivationSequence({ dryRun: false, limit: 10, buckets: ['cold'] })` — first warmup batch
+8. Run `enrollDormantCandidatesInReactivationSequence({ dryRun: false, limit: 10, buckets: ['dormant'] })` — first warmup batch
 9. Monitor complaint rate for 24h before next batch
 10. Scale per plan §9 warmup schedule
 
@@ -293,4 +273,5 @@ Carried over from the plan doc, still unresolved:
 ## 9. Changelog
 
 - **2026-04-20** — Initial spec. Two blocking decisions identified. Ready for DJ review.
-- **2026-04-20 (PM)** — §1.2 decision recorded: three sequences confirmed. §1.3 added: signups source-variance approach (D2 — source-aware template rendering, one content module with step variants). `ReactivationStep` type updated with `source` field.
+- **2026-04-20 (PM)** — §1.2 decision recorded: three sequences confirmed. §1.3 superseded source-aware rendering because signups moved to a separate warm-lead flow.
+- **2026-04-21** — Implementation started: migration, content module, renderer tokens, profiles-only dry-run/enrollment API, re-permission endpoints, click-to-reactivated exit for Emails 1-3, and Email 5 completion suppression.

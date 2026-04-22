@@ -2808,6 +2808,7 @@ export type Database = {
           first_visit_at: string | null
           id: string
           last_name: string | null
+          re_permissioned_at: string | null
           username: string | null
           website: string | null
         }
@@ -2828,6 +2829,7 @@ export type Database = {
           first_visit_at?: string | null
           id: string
           last_name?: string | null
+          re_permissioned_at?: string | null
           username?: string | null
           website?: string | null
         }
@@ -2848,6 +2850,7 @@ export type Database = {
           first_visit_at?: string | null
           id?: string
           last_name?: string | null
+          re_permissioned_at?: string | null
           username?: string | null
           website?: string | null
         }
@@ -4075,9 +4078,11 @@ export type Database = {
         Args: { p_limit?: number }
         Returns: {
           enneagram: string
+          enrolled_at: string
           enrollment_id: string
           html_content: string
           plain_text: string
+          recipient_created_at: string
           recipient_email: string
           recipient_name: string
           recipient_source: string
@@ -4092,9 +4097,11 @@ export type Database = {
         Args: { p_enrollment_id: string }
         Returns: {
           enneagram: string
+          enrolled_at: string
           enrollment_id: string
           html_content: string
           plain_text: string
+          recipient_created_at: string
           recipient_email: string
           recipient_name: string
           recipient_source: string

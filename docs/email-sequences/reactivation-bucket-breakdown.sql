@@ -4,7 +4,7 @@
 --
 -- Produces three outputs:
 --   1. Per-bucket candidate counts (Cold / Dormant / Zombies / Fresh-excluded)
---   2. Source breakdown (profiles vs. signups) per bucket
+--   2. Source breakdown per bucket (kept for historical shape; should be profiles only)
 --   3. A deduped candidate preview (first 20 rows) to sanity-check the join logic
 --
 -- Bucket definitions (by signup age relative to NOW()):
@@ -16,14 +16,14 @@
 -- Exclusion rules applied:
 --   - normalized, non-null emails
 --   - NOT in email_unsubscribes
---   - NOT signups.unsubscribed_date IS NOT NULL
 --   - NOT already enrolled in welcome_sequence (any status)
+--   - NOT already enrolled in any reactivation_* sequence
 --
--- Dedupe: if an email exists in both profiles and signups, profiles wins
--- (has more personalization fields: first_name, enneagram).
+-- Scope: profiles only. Email-only signups are warm content leads and use
+-- docs/email-sequences/signups-reengagement-flow.md instead.
 
 ---------------------------------------------------------------------
--- Candidate CTE: unified, deduped, filtered list
+-- Candidate CTE: profiles-only, deduped, filtered list
 ---------------------------------------------------------------------
 WITH normalized_profiles AS (
   SELECT
@@ -38,51 +38,33 @@ WITH normalized_profiles AS (
     AND TRIM(p.email) <> ''
     AND p.created_at IS NOT NULL
 ),
-normalized_signups AS (
-  SELECT
-    LOWER(TRIM(s.email)) AS email,
-    s.created_at,
-    s.name AS first_name,
-    NULL::text AS enneagram,
-    s.id::text AS source_id,
-    'signups'::text AS source
-  FROM signups s
-  WHERE s.email IS NOT NULL
-    AND TRIM(s.email) <> ''
-    AND s.created_at IS NOT NULL
-    AND s.unsubscribed_date IS NULL
-),
--- Union with preference: profiles entry wins if email overlaps
-unified AS (
-  SELECT * FROM normalized_profiles
-  UNION ALL
-  SELECT ns.*
-  FROM normalized_signups ns
-  WHERE NOT EXISTS (
-    SELECT 1 FROM normalized_profiles np WHERE np.email = ns.email
-  )
+deduped_profiles AS (
+  SELECT DISTINCT ON (email) *
+  FROM normalized_profiles
+  ORDER BY email, created_at ASC
 ),
 -- Exclude suppressed emails
 non_suppressed AS (
   SELECT u.*
-  FROM unified u
+  FROM deduped_profiles u
   WHERE NOT EXISTS (
     SELECT 1 FROM email_unsubscribes eu
     WHERE LOWER(TRIM(eu.email)) = u.email
   )
 ),
--- Exclude anyone already enrolled in welcome_sequence
-welcome_enrolled_emails AS (
+-- Exclude anyone already enrolled in welcome_sequence or any reactivation sequence
+sequence_enrolled_emails AS (
   SELECT DISTINCT LOWER(TRIM(ese.recipient_email)) AS email
   FROM email_sequence_enrollments ese
   JOIN email_sequences es ON es.id = ese.sequence_id
   WHERE es.key = 'welcome_sequence'
+     OR es.key LIKE 'reactivation_%'
 ),
 candidates AS (
   SELECT ns.*
   FROM non_suppressed ns
   WHERE NOT EXISTS (
-    SELECT 1 FROM welcome_enrolled_emails w WHERE w.email = ns.email
+    SELECT 1 FROM sequence_enrolled_emails se WHERE se.email = ns.email
   )
 ),
 -- Bucket assignment

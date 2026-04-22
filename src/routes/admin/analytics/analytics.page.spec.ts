@@ -100,7 +100,7 @@ describe('/admin/analytics page', () => {
 
 		await waitFor(() => {
 			expect(fetchUrls()).toContain(
-				'/api/admin/analytics/top-pages?from=2026-03-10&to=2026-04-08&scope=all&topN=6&limit=8&minVisits=3'
+				'/api/admin/analytics/top-pages?from=2026-03-10&to=2026-04-08&scope=all&topN=10&limit=8&minVisits=3'
 			);
 		});
 		expect(fetchUrls()).toEqual(
@@ -139,7 +139,7 @@ describe('/admin/analytics page', () => {
 
 		await waitFor(() => {
 			expect(fetchUrls()).toContain(
-				'/api/admin/analytics/top-pages?from=2026-03-10&to=2026-04-08&scope=all&topN=6&limit=8&minVisits=3'
+				'/api/admin/analytics/top-pages?from=2026-03-10&to=2026-04-08&scope=all&topN=10&limit=8&minVisits=3'
 			);
 		});
 		expect(fetchUrls().some((url) => url.startsWith('/api/admin/analytics/timing?'))).toBe(false);

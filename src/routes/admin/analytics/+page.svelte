@@ -506,6 +506,11 @@
 		);
 	}
 
+	function getPageHref(path: string): string | null {
+		const trimmed = path.trim();
+		return trimmed.startsWith('/') && !trimmed.startsWith('//') ? trimmed : null;
+	}
+
 	function getPageBreakdownWindowLabel(window: PageBreakdownWindow): string {
 		return pageBreakdownWindowOptions.find((option) => option.key === window)?.label ?? '';
 	}
@@ -1147,7 +1152,7 @@
 		insightsLoading = true;
 		try {
 			const params = buildParams(false);
-			params.set('topN', '6');
+			params.set('topN', '10');
 			params.set('limit', '8');
 			params.set('minVisits', '3');
 
@@ -2090,16 +2095,26 @@
 							</tr>
 						{:else}
 							{#each rows as row}
+								{@const pageHref = getPageHref(row.path)}
 								<tr class:active-row={selectedTrendPath === row.path}>
 									<td class="path" data-label="Path">
-										<button
-											type="button"
-											class="table-path-button"
-											class:active={selectedTrendPath === row.path}
-											onclick={() => void focusPathTrend(row.path)}
-										>
-											{row.path}
-										</button>
+										<div class="table-path-cell">
+											{#if pageHref}
+												<a class="table-page-link" href={pageHref} title={`Open ${row.path}`}>
+													{row.path}
+												</a>
+											{:else}
+												<span class="table-page-text">{row.path}</span>
+											{/if}
+											<button
+												type="button"
+												class="table-trend-button"
+												class:active={selectedTrendPath === row.path}
+												onclick={() => void focusPathTrend(row.path)}
+											>
+												Trend
+											</button>
+										</div>
 									</td>
 									<td data-label="Group">{row.path_group}</td>
 									<td data-label="Type">{row.content_type}</td>
@@ -2376,17 +2391,35 @@
 										</tr>
 									{:else}
 										{#each releaseVisibleRows as row}
+											{@const releaseHref = getPageHref(row.path)}
 											<tr class:active-row={selectedReleaseSlug === row.slug}>
 												<td data-label="Release">
-													<button
-														type="button"
-														class="table-path-button"
-														class:active={selectedReleaseSlug === row.slug}
-														onclick={() => void selectRelease(row.slug)}
-													>
-														{row.title || row.slug}
-													</button>
-													<div class="release-path">{row.path}</div>
+													<div class="release-title-row">
+														<button
+															type="button"
+															class="table-path-button"
+															class:active={selectedReleaseSlug === row.slug}
+															onclick={() => void selectRelease(row.slug)}
+														>
+															{row.title || row.slug}
+														</button>
+														{#if releaseHref}
+															<a
+																class="table-page-link compact"
+																href={releaseHref}
+																aria-label={`Open ${row.title || row.slug} page`}
+															>
+																Open page
+															</a>
+														{/if}
+													</div>
+													{#if releaseHref}
+														<a class="release-path release-path-link" href={releaseHref}>
+															{row.path}
+														</a>
+													{:else}
+														<div class="release-path">{row.path}</div>
+													{/if}
 												</td>
 												<td data-label="Published">{formatDateTime(row.published_at)}</td>
 												<td data-label="First view"
@@ -3301,11 +3334,27 @@
 		font-size: 0.7rem;
 	}
 
+	.release-title-row {
+		display: flex;
+		align-items: flex-start;
+		gap: 8px;
+	}
+
 	.release-path {
 		margin-top: 4px;
 		color: var(--text-secondary);
 		font-size: 0.72rem;
 		word-break: break-word;
+	}
+
+	.release-path-link {
+		display: block;
+		text-decoration: none;
+	}
+
+	.release-path-link:hover {
+		color: #fbbf24;
+		text-decoration: underline;
 	}
 
 	.band-pill {
@@ -3604,6 +3653,61 @@
 		justify-content: center;
 		min-width: 12px;
 		font-size: 0.74rem;
+		color: #fbbf24;
+	}
+
+	.table-path-cell {
+		display: grid;
+		grid-template-columns: minmax(0, 1fr) auto;
+		gap: 8px;
+		align-items: start;
+	}
+
+	.table-page-link,
+	.table-page-text {
+		color: var(--text-primary);
+		font-size: 0.84rem;
+		max-width: 100%;
+		word-break: break-word;
+	}
+
+	.table-page-link {
+		text-decoration: none;
+	}
+
+	.table-page-link:hover {
+		color: #fbbf24;
+		text-decoration: underline;
+	}
+
+	.table-page-link.compact,
+	.table-trend-button {
+		border: 1px solid var(--bg-elevated);
+		border-radius: 999px;
+		background: rgba(148, 163, 184, 0.1);
+		color: var(--text-secondary);
+		font-size: 0.7rem;
+		font-weight: 700;
+		line-height: 1;
+		padding: 5px 8px;
+		white-space: nowrap;
+	}
+
+	.table-page-link.compact:hover,
+	.table-trend-button:hover {
+		border-color: rgba(245, 158, 11, 0.55);
+		background: rgba(245, 158, 11, 0.12);
+		color: #fbbf24;
+		text-decoration: none;
+	}
+
+	.table-trend-button {
+		cursor: pointer;
+	}
+
+	.table-trend-button.active {
+		border-color: rgba(245, 158, 11, 0.7);
+		background: rgba(245, 158, 11, 0.16);
 		color: #fbbf24;
 	}
 

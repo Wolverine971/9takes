@@ -211,7 +211,7 @@ export const famousTypes: { [index: number]: { name: string; link: boolean; hasI
 		{ name: 'agatha-christie', link: true, hasImage: true, lastmod: '2025-04-10', personaTitle: 'Mystery\'s Methodical Mind', contentGrade: null },
 		{ name: 'andrew-huberman', link: true, hasImage: true, lastmod: '2026-03-27', personaTitle: 'Neuroscience\'s Protocol Monk', contentGrade: 8.5 },
 		{ name: 'bill-gates', link: true, hasImage: true, lastmod: '2026-03-28', personaTitle: 'The World-Scale Problem Solver', contentGrade: 8.7 },
-		{ name: 'christian-bale', link: false, hasImage: true, lastmod: '2026-04-10', personaTitle: 'Cinema\'s Vanishing Method Man', contentGrade: 8.8 },
+		{ name: 'christian-bale', link: true, hasImage: true, lastmod: '2026-04-21', personaTitle: 'Cinema\'s Vanishing Method Man', contentGrade: 8.8 },
 		{ name: 'cillian-murphy', link: true, hasImage: true, lastmod: '2026-04-03', personaTitle: 'Cinema\'s Invisible Vessel', contentGrade: 8.8 },
 		{ name: 'dario-amodei', link: true, hasImage: true, lastmod: '2026-03-23', personaTitle: 'AI\'s Reluctant Prometheus', contentGrade: 8.8 },
 		{ name: 'david-friedberg', link: true, hasImage: true, lastmod: '2026-02-20', personaTitle: 'Silicon Valley\'s Quiet Systems Builder', contentGrade: 8.5 },

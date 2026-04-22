@@ -51,12 +51,52 @@ describe('prepareSequenceSend', () => {
 			})
 		);
 
-		expect(prepared.subject).toBe('Should I keep sending these?');
-		expect(prepared.preheader).toBe('One more useful loop, then you can decide.');
+		expect(prepared.subject).toBe("If 9takes isn't useful in these 3 moments, unsubscribe.");
+		expect(prepared.preheader).toBe("I'd rather lose you than waste your inbox.");
 		expect(prepared.htmlContent).toContain('The whole product is one loop');
 		expect(prepared.htmlContent).not.toContain('Old DB body');
 		expect(prepared.plainText).toContain('Run the loop once more');
 		expect(prepared.plainText).not.toContain('Old DB text');
+	});
+
+	it('uses code-managed copy and profile-created date tokens for reactivation sequences', () => {
+		const prepared = prepareSequenceSend(
+			makeSequenceRow({
+				sequence_key: 'reactivation_dormant',
+				step_number: 1,
+				recipient_created_at: '2025-02-10T12:00:00.000Z',
+				subject: 'Old DB subject',
+				html_content: '<p>Old DB body</p>',
+				plain_text: 'Old DB text'
+			})
+		);
+
+		expect(prepared.subject).toBe(
+			'You signed up for 9takes in February 2025. Quick re-introduction.'
+		);
+		expect(prepared.htmlContent).toContain(
+			'https://9takes.com/enneagram-corner/enneagram-and-mental-illness'
+		);
+		expect(prepared.htmlContent).not.toContain('Old DB body');
+	});
+
+	it('renders re-permission links with the send-time tracking placeholder', () => {
+		const prepared = prepareSequenceSend(
+			makeSequenceRow({
+				sequence_key: 'reactivation_dormant',
+				step_number: 4,
+				html_content: '<p>Old DB body</p>',
+				plain_text: 'Old DB text'
+			})
+		);
+
+		expect(prepared.htmlContent).toContain(
+			'https://9takes.com/api/email/re-permission/yes/__EMAIL_TRACKING_ID__'
+		);
+		expect(prepared.htmlContent).toContain(
+			'https://9takes.com/api/email/re-permission/no/__EMAIL_TRACKING_ID__'
+		);
+		expect(prepared.plainText).toContain('__EMAIL_TRACKING_ID__');
 	});
 
 	it('escapes injected html values and preserves unknown tokens', () => {

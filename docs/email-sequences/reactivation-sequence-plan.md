@@ -6,25 +6,28 @@
 **Owner:** DJ Wayne
 **Created:** 2026-04-18
 **Target ship:** TBD (blocked on pre-launch action items — see §9)
+**Scope:** `profiles`-table (registered users) only. `signups`-table contacts have a dedicated flow — see [signups-reengagement-flow.md](./signups-reengagement-flow.md).
 
 ---
 
 ## 1. Context
 
-A large share of 9takes signups predate the welcome sequence and have never received any follow-up email. This plan specs a **reactivation / win-back sequence** to re-introduce 9takes, share what's grown, and give dormant users a reason to come back — or a clean way to leave.
+A large share of registered 9takes profiles predate the welcome sequence and have never received any follow-up email. This plan specs a **reactivation / win-back sequence** to re-introduce 9takes, share what's grown, and give dormant users a reason to come back — or a clean way to leave.
 
 ### Audience size (measured 2026-04-20)
 
-Run against production via [`reactivation-bucket-breakdown.sql`](./reactivation-bucket-breakdown.sql):
+**Note:** these counts include both `profiles` and `signups` sources. After the 2026-04-20 PM decision to handle signups via a separate flow, these need to be re-measured with `profiles`-only. Run OUTPUT 2 (source breakdown) in [`reactivation-bucket-breakdown.sql`](./reactivation-bucket-breakdown.sql) to get profiles-only counts before finalizing the batch schedule.
+
+Combined totals (profiles + signups) as originally measured:
 
 | Bucket                | Candidates | Age range (days) | Share of campaign |
 | --------------------- | ---------- | ---------------- | ----------------- |
 | **Cold** (30–89d)     | 13         | 36–80            | 8%                |
 | **Dormant** (90–364d) | 66         | 90–361           | 43%               |
 | **Zombies** (365+d)   | 75         | 370–1,147        | 49%               |
-| **Total eligible**    | **154**    | —                | 100%              |
+| **Total**             | **154**    | —                | 100%              |
 
-Post-dedupe (profiles wins over signups), post-suppression, post-welcome-enrolled exclusion.
+Expected after profiles-only filter: roughly 116 total (154 − 38 signups), assuming the signups distribution roughly tracks the profile distribution. Re-run to confirm.
 
 **Implications these numbers create:**
 
@@ -244,28 +247,28 @@ From the codebase scan (2026-04-18), existing infra supports most of this, but t
 
 ### 8.1 — New sequence definition
 
-- Migration: create `email_sequences` row with `key = 'reactivation_sequence'`
-- Add 5 rows to `email_sequence_steps` with appropriate `delay_days_after_previous`
+- Migration: create three `email_sequences` rows with keys `reactivation_cold`, `reactivation_dormant`, and `reactivation_zombies`
+- Add 5 rows to `email_sequence_steps` per sequence with appropriate `delay_days_after_previous`
 - Content module: `src/lib/email/reactivation-sequence-content.ts` (mirror pattern from `welcome-sequence-content.ts`)
 
 ### 8.2 — Bucketed enrollment function
 
-- New function in `src/lib/server/emailSequences.ts`: `enrollDormantUsersInReactivationSequence()`
+- New function in `src/lib/server/emailSequences.ts`: `enrollDormantCandidatesInReactivationSequence()`
 - Logic:
-  1. Union `profiles` + `signups` into a candidate list
+  1. Select eligible `profiles` only
   2. Filter: exclude welcome-sequence actives, suppressed, <30d, >already-in-reactivation
   3. Tag bucket on each candidate based on signup age at enrollment time
-  4. Pass bucket as a template token so Email 1 can branch on it
-- Alternative: three separate sequence keys (`reactivation_cold`, `reactivation_dormant`, `reactivation_zombie`) — simpler content-wise, cleaner admin dashboard, but more duplication. **Recommend separate keys** for clarity.
+  4. Enroll into the matching sequence key
+- Three separate sequence keys (`reactivation_cold`, `reactivation_dormant`, `reactivation_zombies`) are the chosen implementation.
 
 ### 8.3 — New personalization tokens
 
-- `{{signup_date}}`, `{{signup_month}}`, `{{signup_month_year}}`, `{{signup_year}}` — need to compute from `profiles.created_at` / `signups.created_at` at send time.
+- `{{signup_date}}`, `{{signup_month}}`, `{{signup_month_year}}`, `{{signup_year}}` — need to compute from `profiles.created_at` at send time.
 
 ### 8.4 — Re-permission click handler
 
 - New endpoint: `POST /api/email/re-permission/[tracking_id]`
-- Sets a flag on profile/signup: `re_permissioned_at`
+- Sets a flag on profile: `re_permissioned_at`
 - Optional admin view for who re-permissioned vs. who passively stayed.
 
 ### 8.5 — Known gap: bounce + complaint handling
@@ -306,7 +309,7 @@ These are **non-negotiable before sending to the 365+ bucket** and strongly reco
 
 ## 10. Open questions
 
-1. **Bucket breakdown** — what's the actual distribution across 30–90d / 90–365d / 365+? Query `profiles.created_at` + `signups.created_at` to find out before finalizing.
+1. **Bucket breakdown** — what's the actual profiles-only distribution across 30–90d / 90–365d / 365+? Query `profiles.created_at` before finalizing.
 2. **Email 2 personal story** — DJ drafts; may want editorial pass. What's the one story? The "why Enneagram" moment.
 3. **Hero content for Email 1** — which piece? Top candidate is `enneagram-and-mental-illness` (known top-traffic blog, per memory). Alt options: a signature question thread, a celebrity analysis.
 4. **Weekly cadence promise in Email 4** — if someone says "yes, keep me in," what are they opting into? Need to define the ongoing newsletter/send cadence before asking.

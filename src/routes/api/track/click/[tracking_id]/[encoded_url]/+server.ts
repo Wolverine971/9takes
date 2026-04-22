@@ -4,6 +4,7 @@
 import { redirect } from '@sveltejs/kit';
 import type { RequestHandler } from './$types';
 import { supabase } from '$lib/supabase';
+import { exitReactivationSequenceForTrackedClick } from '$lib/server/reactivationRepermission';
 
 export const GET: RequestHandler = async ({ params, request }) => {
 	const { tracking_id, encoded_url } = params;
@@ -28,10 +29,16 @@ export const GET: RequestHandler = async ({ params, request }) => {
 		throw redirect(302, 'https://9takes.com');
 	}
 
-	// Non-blocking update
-	updateClickTracking(tracking_id, targetUrl, request).catch((err) => {
-		console.error('Error updating click tracking:', err);
-	});
+	const trackingResults = await Promise.allSettled([
+		updateClickTracking(tracking_id, targetUrl, request),
+		exitReactivationSequenceForTrackedClick(tracking_id)
+	]);
+
+	for (const result of trackingResults) {
+		if (result.status === 'rejected') {
+			console.error('Error updating click tracking:', result.reason);
+		}
+	}
 
 	// Redirect to target URL
 	throw redirect(302, targetUrl);

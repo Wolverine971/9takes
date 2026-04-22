@@ -14,6 +14,8 @@ interface TemplateOptions {
 	includeFooter?: boolean;
 }
 
+export const TRACKING_ID_PLACEHOLDER = '__EMAIL_TRACKING_ID__';
+
 /**
  * Generates a clean, minimal email template optimized for deliverability.
  * Uses inline styles for maximum email client compatibility.

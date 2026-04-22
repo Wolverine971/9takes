@@ -24,13 +24,15 @@ All documentation related to automated email sequences for 9takes.
 
 ## Source Files
 
-| File                                                                                                                       | Purpose                                  |
-| -------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------- |
-| [`supabase/migrations/20260316_welcome_email_sequence.sql`](../../supabase/migrations/20260316_welcome_email_sequence.sql) | Schema, functions, and seed content      |
-| [`supabase/migrations/20260403_update_welcome_email_2.sql`](../../supabase/migrations/20260403_update_welcome_email_2.sql) | Email 2 rewrite (gender-balanced)        |
-| [`src/lib/email/sequences.ts`](../../src/lib/email/sequences.ts)                                                           | Template rendering and token replacement |
-| [`src/lib/server/emailSequences.ts`](../../src/lib/server/emailSequences.ts)                                               | Enrollment, send processing, suppression |
-| [`src/lib/server/emailAdminSequences.ts`](../../src/lib/server/emailAdminSequences.ts)                                     | Admin dashboard data queries             |
+| File                                                                                                                                 | Purpose                                  |
+| ------------------------------------------------------------------------------------------------------------------------------------ | ---------------------------------------- |
+| [`supabase/migrations/20260316_welcome_email_sequence.sql`](../../supabase/migrations/20260316_welcome_email_sequence.sql)           | Schema, functions, and seed content      |
+| [`supabase/migrations/20260403_update_welcome_email_2.sql`](../../supabase/migrations/20260403_update_welcome_email_2.sql)           | Email 2 rewrite (gender-balanced)        |
+| [`supabase/migrations/20260421_reactivation_email_sequence.sql`](../../supabase/migrations/20260421_reactivation_email_sequence.sql) | Profiles-only reactivation sequence rows |
+| [`src/lib/email/sequences.ts`](../../src/lib/email/sequences.ts)                                                                     | Template rendering and token replacement |
+| [`src/lib/email/reactivation-sequence-content.ts`](../../src/lib/email/reactivation-sequence-content.ts)                             | Profiles-only reactivation copy          |
+| [`src/lib/server/emailSequences.ts`](../../src/lib/server/emailSequences.ts)                                                         | Enrollment, send processing, suppression |
+| [`src/lib/server/emailAdminSequences.ts`](../../src/lib/server/emailAdminSequences.ts)                                               | Admin dashboard data queries             |
 
 ## Current Sequence: `welcome_sequence`
 

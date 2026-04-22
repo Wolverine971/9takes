@@ -11,12 +11,12 @@ Voice reference: `src/lib/email/welcome-sequence-content.ts` — DJocrates voice
 
 **Personalization tokens used below:**
 
-- `{{first_name}}` — may be null for signups-table contacts; fallback rendering needed
+- `{{first_name}}` — may be null for profiles; fallback rendering needed
 - `{{signup_month_year}}` — e.g. "November 2024"
 - `{{signup_year}}` — e.g. "2024"
 - `{{signup_months_ago}}` — e.g. "18"
 - `{{questions_url}}` — segment-aware like welcome sequence
-- `{{hero_url}}` — `https://9takes.com/community/enneagram-and-mental-illness` (top-traffic; flagged as open question in plan §10)
+- `{{hero_url}}` — `https://9takes.com/enneagram-corner/enneagram-and-mental-illness` (top-traffic; flagged as open question in plan §10)
 - `{{re_permission_yes_url}}` — one-click confirm
 - `{{re_permission_no_url}}` — one-click off
 
@@ -221,7 +221,11 @@ Before this copy gets converted into the TypeScript content module:
 
 ---
 
-## Appendix A — Altered flow for `signups`-table contacts
+## Appendix A — ~~Altered flow for `signups`-table contacts~~ (SUPERSEDED 2026-04-20 PM)
+
+> **Superseded.** Signups now have their own dedicated re-engagement flow — see [signups-reengagement-flow.md](./signups-reengagement-flow.md). The content below is preserved for historical context but is no longer in scope for the reactivation sequence. The reactivation sequence is now profiles-only.
+
+## Appendix A (historical) — Altered flow for `signups`-table contacts
 
 ### Context
 

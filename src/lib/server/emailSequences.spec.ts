@@ -28,6 +28,8 @@ vi.mock('$lib/email/sender', () => ({
 
 vi.mock('$lib/email/sequences', () => ({
 	WELCOME_SEQUENCE_KEY: 'welcome_sequence',
+	REACTIVATION_SEQUENCE_KEYS: ['reactivation_cold', 'reactivation_dormant', 'reactivation_zombies'],
+	getReactivationSequenceKeyForBucket: (bucket: string) => `reactivation_${bucket}`,
 	prepareSequenceSend: prepareSequenceSendMock
 }));
 

@@ -1,9 +1,9 @@
 {
-	"lastUpdated": "2026-04-20T12:00:00Z",
+	"lastUpdated": "2026-04-21T19:04:14Z",
 	"stats": {
-		"totalUnpublished": 114,
+		"totalUnpublished": 115,
 		"totalPublished": 265,
-		"completionRate": "70.1%"
+		"completionRate": "69.7%"
 	},
 	"queue": [
 		{
@@ -384,6 +384,19 @@
 			"addedToQueue": "2026-04-12",
 			"retryCount": 0,
 			"strategicValue": "hollywood-legacy-cluster"
+		},
+		{
+			"name": "nick-offerman",
+			"displayName": "Nick Offerman",
+			"type": 9,
+			"priority": 60,
+			"priorityReason": "Parks and Recreation favorite with evergreen search, woodworking/craft persona, and a grounded Type 9 actor-comedian analysis angle",
+			"estimatedTraffic": "high",
+			"searchVolume": "high",
+			"personaTitle": null,
+			"addedToQueue": "2026-04-21",
+			"retryCount": 0,
+			"strategicValue": "comedy-legacy-cluster"
 		},
 		{
 			"name": "john-goodman",
