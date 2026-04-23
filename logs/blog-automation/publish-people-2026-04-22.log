@@ -1,0 +1,15 @@
+```text
+Published people blog.
+
+Person: ed-sheeran
+Draft: src/blog/people/drafts/Ed-Sheeran.md
+Date/lastmod: 2026-04-22
+Supabase: published=true (id=954)
+Images: full + thumbnail present (static/types/9s/Ed-Sheeran.webp + s-Ed-Sheeran.webp)
+Generated files: pnpm gen:all completed
+  - famousTypes.ts: link=true, hasImage=true, lastmod=2026-04-22, grade=8.8
+  - sitemap.xml: includes /personality-analysis/ed-sheeran
+
+Blockers:
+- none
+```

@@ -10,6 +10,48 @@ You are researching as DJ Wayne: Enneagram researcher, founder of 9takes, 10+ ye
 
 ---
 
+## Execution Mode
+
+This command runs in one of two modes:
+
+- **Interactive (default)** — may pause to ask clarifying questions or confirm next steps.
+- **Non-interactive / unattended** — auto-proceeds at every wait point without prompting.
+
+### How to detect non-interactive mode
+
+Treat the run as non-interactive if **any** of the following is true:
+
+1. The invocation includes `--non-interactive`, `--auto`, or `--unattended` as an argument
+2. The invocation includes `unattended`, `non-interactive`, `no prompts`, or `cron` as natural-language text
+3. The command was invoked by an automated workflow — a cron run, scheduled task, or any scripted batch (detectable via `claude --chrome` / `--dangerously-skip-permissions` context, or a parent command that itself ran non-interactively)
+
+Otherwise, default to interactive.
+
+### Non-interactive auto-proceed defaults
+
+Apply these at every step that would normally wait for a user reply:
+
+1. **Quora access issues (Phase 2)** — if Quora blocks a search, returns rate-limit pages, or requires login, do not pause to ask the user to log in or help. Log the blocker in the session doc under `research_limitation`, skip the affected search, and continue. If fewer than 3 searches succeed across Phase A, record `research_limitation: quora_access_blocked` and exit with whatever candidates were gathered.
+2. **Phase A → Phase B escalation (Phase 2)** — auto-proceed to Phase B whenever Phase A yields fewer than 10 strong candidates. Do not ask whether to continue.
+3. **Borderline sweet-spot decisions (Phase 3)** — when a candidate is on the edge of the view/answer-count criteria, apply the scoring framework and let the score decide. Do not pause to ask the user. Log the judgment call in the evaluation card's Notes.
+4. **Topic-fit ambiguity (Phase 3)** — if a question does not cleanly map to a category in the topic-fit table, default to Skip with reason `no_topic_fit`. Do not pause to ask whether to force-queue it.
+5. **Blog-match lookup (Phase 3)** — if no clean `src/blog/` match is found, set Blog Match to `None` and continue scoring. Do not pause to ask the user to suggest one.
+6. **Queue size (Phase 5)** — always select the top 5–7 by score. If fewer than 5 candidates qualify, queue whatever passed and note the shortfall in Strategy Notes. Do not ask whether to widen criteria.
+7. **Session doc suffixing (Phase 0)** — if today's session file already exists, auto-pick the next suffix in order (`-pm`, `-eve`, `-night`, then `-2`, `-3`, …) without asking.
+8. **Final report (When Complete)** — print the summary block and exit. Do not offer a follow-up menu, do not ask "should I run /quora-answer now?", do not wait for acknowledgement.
+
+In non-interactive mode, completion output should always include:
+
+```
+MODE: non-interactive
+SESSION: docs/quora/sessions/YYYY-MM-DD_quora-warmup[-suffix].md
+QUEUED: [count]
+SKIPPED: [count]
+LIMITATIONS: [list or "none"]
+```
+
+---
+
 ## Output
 
 Create a session doc at:
@@ -478,4 +520,4 @@ This command is self-sufficient for Stage 1 (warmup). The root docs below are so
 
 ---
 
-_Last Updated: 2026-04-19_
+_Last Updated: 2026-04-22_

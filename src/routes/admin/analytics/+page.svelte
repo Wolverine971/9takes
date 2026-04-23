@@ -2829,7 +2829,6 @@
 		display: flex;
 		flex-direction: column;
 		gap: 8px;
-		max-height: 360px;
 		overflow-y: auto;
 		padding-right: 2px;
 	}

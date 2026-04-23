@@ -391,7 +391,7 @@ export const famousTypes: { [index: number]: { name: string; link: boolean; hasI
 		{ name: 'brad-pitt', link: true, hasImage: true, lastmod: '2026-01-18', personaTitle: 'Hollywood\'s Peacekeeping Chameleon', contentGrade: 8.8 },
 		{ name: 'charli-d\'amelio', link: true, hasImage: true, lastmod: '2026-02-18', personaTitle: 'TikTok\'s Vanishing Center', contentGrade: 8.9 },
 		{ name: 'dave-chappelle', link: true, hasImage: true, lastmod: '2026-02-20', personaTitle: 'Comedy\'s Reluctant Lion', contentGrade: 9 },
-		{ name: 'ed-sheeran', link: false, hasImage: true, lastmod: '2026-04-10', personaTitle: 'Pop\'s Invisible Stadium-Filler', contentGrade: 8.8 },
+		{ name: 'ed-sheeran', link: true, hasImage: true, lastmod: '2026-04-22', personaTitle: 'Pop\'s Invisible Stadium-Filler', contentGrade: 8.8 },
 		{ name: 'jelly-roll', link: true, hasImage: true, lastmod: '2026-03-03', personaTitle: 'Nashville\'s Reluctant Giant', contentGrade: 8.8 },
 		{ name: 'keanu-reeves', link: true, hasImage: true, lastmod: '2026-04-10', personaTitle: 'Hollywood\'s Gentle Vanishing Act', contentGrade: 8.9 },
 		{ name: 'kylie-jenner', link: true, hasImage: true, lastmod: '2026-04-03', personaTitle: 'America\'s Most Visible Ghost', contentGrade: 9 },

@@ -4,12 +4,12 @@ meta_title: "Ed Sheeran's Hidden Anxiety: The Man Who Fills Stadiums Alone"
 persona_title: "Pop's Invisible Stadium-Filler"
 description: 'He fills stadiums with one guitar and no band. Then he goes home to four friends, no phone, and daily anxiety. Inside the contradiction that powers Ed Sheeran.'
 author: 'DJ Wayne'
-date: '2026-04-09'
+date: '2026-04-22'
 loc: 'https://9takes.com/personality-analysis/Ed-Sheeran'
-lastmod: '2026-04-10'
+lastmod: '2026-04-22'
 changefreq: 'monthly'
 priority: '0.6'
-published: false
+published: true
 enneagram: 9
 type: ['musician']
 person: 'Ed-Sheeran'

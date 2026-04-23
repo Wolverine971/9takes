@@ -1,5 +1,5 @@
 {
-	"lastUpdated": "2026-04-22T18:15:00Z",
+	"lastUpdated": "2026-04-21T19:04:14Z",
 	"stats": {
 		"totalUnpublished": 115,
 		"totalPublished": 265,
@@ -751,18 +751,15 @@
 			"priority": 88,
 			"completedAt": "2026-03-28T13:48:00Z",
 			"removedReason": "draft already written"
-		},
-		{
-			"name": "brene-brown",
-			"displayName": "Brené Brown",
-			"type": 2,
-			"priority": 98,
-			"startedAt": "2026-04-18T00:00:00Z",
-			"completedAt": "2026-04-22T18:15:00Z",
-			"removedReason": "Queue cleanup 2026-04-22: stale inProgress since 2026-04-18. Draft exists at src/blog/people/drafts/Brene-Brown.md (30KB, 5048 words, frontmatter published=false). NOT auto-graded; grade_blog and publish still pending. NOTE: queue.type=2 but draft frontmatter enneagram=1 — verify before publish."
 		}
 	],
-	"inProgress": null,
+	"inProgress": {
+		"name": "brene-brown",
+		"displayName": "Brené Brown",
+		"type": 2,
+		"priority": 98,
+		"startedAt": "2026-04-18T00:00:00Z"
+	},
 	"failed": [],
 	"metadata": {
 		"priorityAlgorithm": "typeMultiplier * 10 + personaTitleBonus + searchVolumeEstimate",
