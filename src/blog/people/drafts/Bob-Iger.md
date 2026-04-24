@@ -36,6 +36,7 @@ content_quality:
   overall: 9.1
   letter: 'A'
   graded_at: '2026-04-24'
+path: src/blog/people/drafts/Bob-Iger.md
 ---
 
 <!-- TESTIMONY LEDGER

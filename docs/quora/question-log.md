@@ -67,17 +67,17 @@ _Status values: Queued | Drafted | Posted | Skipped_
 
 Track which behavioral patterns and Enneagram angles have been covered to ensure diversity over time.
 
-| Type   | Topics Covered                                                                                                                                                                                         | Count |
-| ------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ----- |
-| Type 1 | Self-sabotage, never apologize, worry, feel superior, control, feelings, perfectionism, defensiveness, asking for help, busyness (duty), saying no (duty), fixing (moral reform)                       | 12    |
-| Type 2 | People pleaser, emotionally unavailable attraction, people pleasing psychology, saying no (helper identity), give-but-not-receive (core signature), fixing partners, savior complex, codependency      | 8     |
-| Type 3 | Need to be right, never apologize, feel superior, FOMO (status), comparison, perfectionism, defensiveness, asking for help, busyness (id), give-but-not-receive (image)                                | 10    |
-| Type 4 | Self-sabotage, emotionally unavailable attraction, worry, victim mentality, don't belong (core), comparison, perfectionism, defensiveness                                                              | 8     |
-| Type 5 | Ghosting, stonewalling, struggle with talking about feelings, don't belong (observer), asking for help (energy economics), bored easily (depletion), give-but-not-receive (obligation debt)            | 7     |
-| Type 6 | Ghosting, self-sabotage, worry, victim mentality, control, FOMO (anxiety), comparison (threat scan), defensiveness, saying no (risk scan), codependency (anxiety management)                           | 10    |
-| Type 7 | FOMO — core type angle, busyness (avoidance through activity), bored easily (stillness avoidance)                                                                                                      | 3     |
-| Type 8 | Need to be right, never apologize, feel superior, confrontation, feelings, asking for help (vulnerability avoidance), bored easily (intensity hunger), fixing (protector)                              | 8     |
-| Type 9 | Ghosting, people pleaser, stonewalling, hate confrontation, people pleasing psychology, don't belong (self-erasure), saying no (peace protection), codependency (self-erasure)                         | 8     |
+| Type   | Topics Covered                                                                                                                                                                                    | Count |
+| ------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----- |
+| Type 1 | Self-sabotage, never apologize, worry, feel superior, control, feelings, perfectionism, defensiveness, asking for help, busyness (duty), saying no (duty), fixing (moral reform)                  | 12    |
+| Type 2 | People pleaser, emotionally unavailable attraction, people pleasing psychology, saying no (helper identity), give-but-not-receive (core signature), fixing partners, savior complex, codependency | 8     |
+| Type 3 | Need to be right, never apologize, feel superior, FOMO (status), comparison, perfectionism, defensiveness, asking for help, busyness (id), give-but-not-receive (image)                           | 10    |
+| Type 4 | Self-sabotage, emotionally unavailable attraction, worry, victim mentality, don't belong (core), comparison, perfectionism, defensiveness                                                         | 8     |
+| Type 5 | Ghosting, stonewalling, struggle with talking about feelings, don't belong (observer), asking for help (energy economics), bored easily (depletion), give-but-not-receive (obligation debt)       | 7     |
+| Type 6 | Ghosting, self-sabotage, worry, victim mentality, control, FOMO (anxiety), comparison (threat scan), defensiveness, saying no (risk scan), codependency (anxiety management)                      | 10    |
+| Type 7 | FOMO — core type angle, busyness (avoidance through activity), bored easily (stillness avoidance)                                                                                                 | 3     |
+| Type 8 | Need to be right, never apologize, feel superior, confrontation, feelings, asking for help (vulnerability avoidance), bored easily (intensity hunger), fixing (protector)                         | 8     |
+| Type 9 | Ghosting, people pleaser, stonewalling, hate confrontation, people pleasing psychology, don't belong (self-erasure), saying no (peace protection), codependency (self-erasure)                    | 8     |
 
 ---
 

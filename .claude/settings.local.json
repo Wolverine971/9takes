@@ -1558,7 +1558,10 @@
 			"WebFetch(domain:www.techrepublic.com)",
 			"WebFetch(domain:www.engadget.com)",
 			"WebFetch(domain:aimagazine.com)",
-			"WebFetch(domain:global.penguinrandomhouse.com)"
+			"WebFetch(domain:global.penguinrandomhouse.com)",
+			"Bash(rm /Users/djwayne/9takes/.claude/council/personas/Tim-Ferriss.md /Users/djwayne/9takes/.claude/council/personas/Robert-Greene.md /Users/djwayne/9takes/.claude/council/personas/Neil-Strauss.md /Users/djwayne/9takes/.claude/council/personas/Michael-Seibel.md /Users/djwayne/9takes/.claude/council/personas/Peter-Thiel.md /Users/djwayne/9takes/.claude/commands/council-add-member.md)",
+			"Bash(rmdir /Users/djwayne/9takes/.claude/council/personas)",
+			"Bash(rmdir /Users/djwayne/9takes/.claude/council)"
 		],
 		"deny": [],
 		"ask": [],

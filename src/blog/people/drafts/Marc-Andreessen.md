@@ -18,15 +18,6 @@ wikipedia: 'https://en.wikipedia.org/wiki/Marc_Andreessen'
 twitter: '@pmarca'
 instagram: ''
 tiktok: ''
-content_quality:
-  hook: 9
-  enneagram: 9
-  evidence: 8
-  writing: 9
-  originality: 9
-  overall: 8.8
-  letter: 'B+'
-  graded_at: '2026-03-24'
 wikidata_qid: 'Q62882'
 imdb_id: 'nm4336932'
 birth_date: '1971-07-09'
@@ -77,7 +68,35 @@ faqs:
     answer: "The 2023 manifesto, Mar-a-Lago visits, and $5 million in political donations mark Andreessen's disintegration toward Type 7. Under existential threat to his portfolio, the usually measured Five scattered into frantic, high-visibility engagement on every front at once."
     anchor: 'the-techno-optimist-manifesto-a-five-under-stress'
 path: src/blog/people/drafts/Marc-Andreessen.md
+content_quality:
+  hook: 9
+  enneagram: 9
+  evidence: 9
+  writing: 9
+  originality: 9
+  overall: 9.0
+  letter: A
+  graded_at: '2026-04-24'
 ---
+
+<!-- QUALITY GRADE: A (9.0)
+Hook: 9 | Enneagram: 9 | Evidence: 9 | Writing: 9 | Originality: 9
+
+FEEDBACK (2026-04-24):
+- SIGNATURE DETAIL LANDS: The Laura courtship — "a twenty-five-minute monologue on why we should go steady, with a full intellectual decision tree in anticipation of my own decision tree," followed by 17 emails the next day — is the moment the Type 5 frame clicks. Keep this untouched.
+- NON-OBVIOUS ENNEAGRAM INSIGHT: Reading "Software is eating the world" as psychology rather than economics ("the abstract will consume the physical... the system will replace the messy") elevates the whole piece. This is what a 9-level Enneagram dimension looks like.
+- NARRATIVE OVER REPORT: The dot-com-winter section (Horowitz in cold sweats vs. Andreessen's "lack of sleep enhances them both" punchline) shows rather than tells — two men, same storm, opposite nervous systems. Pure storytelling.
+- ENDING CUTS TO BLACK: "What does a man who connected the entire world think he'd find if he ever connected with himself?" — no summary, no CTA, peak insight. Good.
+
+- NEEDS WORK: The "When the Fortress Becomes a Launchpad" (Type 8) section is the weakest stretch. It re-covers the Mosaic/Netscape founding already narrated earlier and drifts into generic 8 language ("protective, decisive, willing to fight the existing power structure"). It's the only section that feels by-the-numbers.
+- NEEDS WORK: A handful of self-undercutting hedges dilute otherwise confident claims: "he's probably right," "almost too neat," "arguably." In a piece this sharp, each one reads as a flinch.
+
+TO REACH A+ (9.5+):
+(1) Either CUT the "Launchpad" Type 8 section entirely or rewrite it around a detail you haven't used yet — the Netscape founding is already spent. If kept, anchor it in something specific (the Jim Clark recruitment flight? the barefoot Time cover? the a16z "full-stack" provocation that Horowitz explicitly framed as breaking VC?).
+(2) Delete three hedges: "he's probably right" → "he's right" (or cut the sentence); "The contrast is almost too neat" → delete the line and let the Marc/Laura contrast stand; "arguably" wherever it appears.
+(3) TL;DR currently has 4 bullets. Cut "The Connection Paradox" — it duplicates the hook's framing. Three bullets hit harder.
+(4) The Mar-a-Lago paragraph is strong but buries its sharpest line. Lead with "The man who wanted a 'No hugging, no touching' T-shirt now spends half his time at Mar-a-Lago" — then unpack why that's diagnostic.
+-->
 
 > "I don't have any levels of introspection. Yes, zero. As little as possible."
 
