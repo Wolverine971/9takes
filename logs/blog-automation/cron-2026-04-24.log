@@ -1,0 +1,17 @@
+Stopping as required by the pre-flight rules.
+
+**BLOG IN PROGRESS: cardi-b - skipping today's run**
+
+Details for your review:
+- `inProgress` set to **cardi-b** at 2026-04-23T02:05:00Z (~22 hours ago)
+- Draft exists: `src/blog/people/drafts/Cardi-B.md` (30,749 bytes, modified 2026-04-23 13:08)
+- This matches the prior Brené Brown pattern — draft was created but the queue was never transitioned from `inProgress` to `completed`
+
+The draft creation likely succeeded yesterday; only the queue cleanup and grading steps are pending. I'm not auto-cleaning the queue (other agents/you may be working on it), but when you're ready, the fix is to:
+
+1. Run `/grade_blog cardi-b` to capture the grade
+2. Move the `inProgress` entry into `completed` with `contentGrade`, `completedAt`, `duration`
+3. Set `inProgress: null`
+4. Increment `rateLimit.currentWeekCount` to 1
+
+Want me to do that cleanup now so tomorrow's run can proceed, or leave it to you?

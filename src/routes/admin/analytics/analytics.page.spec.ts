@@ -184,6 +184,49 @@ describe('/admin/analytics page', () => {
 		});
 	});
 
+	it('resets release range back to all history when defaults are empty', async () => {
+		const dataWithEmptyReleaseDefaults = {
+			...pageData,
+			filters: {
+				...pageData.filters,
+				from: '',
+				to: ''
+			}
+		};
+
+		render(AnalyticsPage, {
+			data: dataWithEmptyReleaseDefaults as any
+		});
+
+		await fireEvent.click(screen.getByRole('tab', { name: 'Release Performance' }));
+
+		await waitFor(() => {
+			expect(fetchUrls()).toContain('/api/admin/analytics/releases?scope=all&limit=500');
+		});
+
+		await fireEvent.click(screen.getByRole('button', { name: 'Last 30 days' }));
+
+		await waitFor(() => {
+			const releaseCalls = fetchUrls().filter((url) =>
+				url.startsWith('/api/admin/analytics/releases?')
+			);
+			const presetCall = releaseCalls.at(-1);
+			expect(presetCall).toContain('from=');
+			expect(presetCall).toContain('&to=');
+			expect(presetCall).toContain('scope=all');
+			expect(presetCall).toContain('limit=500');
+		});
+
+		await fireEvent.click(screen.getByRole('button', { name: 'Reset range' }));
+
+		await waitFor(() => {
+			const releaseCalls = fetchUrls().filter((url) =>
+				url.startsWith('/api/admin/analytics/releases?')
+			);
+			expect(releaseCalls.at(-1)).toBe('/api/admin/analytics/releases?scope=all&limit=500');
+		});
+	});
+
 	it('filters, sorts, and exports release performance rows', async () => {
 		const makeRelease = (overrides: Partial<Record<string, unknown>>) => ({
 			id: 1,

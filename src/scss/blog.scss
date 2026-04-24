@@ -377,7 +377,8 @@ blockquote {
 		background: linear-gradient(180deg, var(--primary) 0%, var(--primary-subtle) 100%);
 	}
 
-	&__item {
+	&__item,
+	.timeline-item {
 		position: relative;
 		padding: 0.5rem 0 0.5rem 3.5rem;
 		display: flex;
@@ -405,6 +406,20 @@ blockquote {
 			left: 1.0625rem;
 			background: var(--primary-lighter);
 			box-shadow: 0 0 8px var(--primary-glow);
+		}
+	}
+
+	/* Flat markdown pattern: <div class="timeline-item"><strong>Year:</strong> event</div> */
+	.timeline-item {
+		font-size: 0.95rem;
+		line-height: 1.5;
+		color: var(--text-secondary);
+		display: block;
+
+		strong {
+			font-weight: 700;
+			color: var(--primary-lighter);
+			margin-right: 0.25rem;
 		}
 	}
 
@@ -789,7 +804,8 @@ blockquote {
 			left: 1rem;
 		}
 
-		&__item {
+		&__item,
+		.timeline-item {
 			padding-left: 2.75rem;
 			flex-direction: column;
 			gap: 0.125rem;

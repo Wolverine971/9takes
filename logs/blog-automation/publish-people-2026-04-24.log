@@ -1,0 +1,17 @@
+```
+Published people blog.
+
+Person: vincent-van-gogh
+Draft: src/blog/people/drafts/Vincent-van-Gogh.md
+Date/lastmod: 2026-04-24
+Supabase: id=610, published=true
+Images: full (static/types/4s/Vincent-van-Gogh.webp) + thumbnail (s-Vincent-van-Gogh.webp) present
+Generated files: pnpm gen:all completed
+  - famousTypes.ts: link=true, hasImage=true, lastmod=2026-04-24, persona="Art's Sacred Arsonist", grade=8.8
+  - sitemap.xml: includes /personality-analysis/vincent-van-gogh
+
+Blockers:
+- none
+```
+
+Content grade was 8.8, word count 3703. Auto-selected since no argument was supplied.

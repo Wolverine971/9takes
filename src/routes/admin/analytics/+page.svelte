@@ -1089,7 +1089,6 @@
 	}
 
 	function isReleaseDateRangeValid(): boolean {
-		if (!releaseFromDate && !releaseToDate) return false;
 		if (releaseFromDate && releaseToDate && releaseFromDate > releaseToDate) return false;
 		return true;
 	}

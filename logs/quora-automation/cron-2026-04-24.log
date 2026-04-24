@@ -1,0 +1,38 @@
+Quora warmup complete for 2026-04-24 (PM).
+
+Searches run: 11
+Questions evaluated: 14
+Questions queued: 6
+Questions skipped: 8
+
+Priority queue:
+1. "What kinds of people get bored easily?" — Est. 30K+ views, Est. 30-70 answers — Angle: Types 7, 8, 5
+2. "Why do some people have a hard time saying no?" — Est. 40K+ views, Est. 40-90 answers — Angle: Types 2, 9, 6, 1
+3. "Why do some people love to give but have trouble receiving?" — Est. 25K+ views, Est. 30-60 answers — Angle: Types 2, 1, 3, 5
+4. "What is the psychology behind why some people are so fixated on 'fixing' other people..." — Est. 20K+ views, Est. 30-70 answers — Angle: Types 2, 1, 8
+5. "What is the psychology behind having a savior complex?" — Est. 25K+ views, Est. 30-70 answers — Angle: Types 2, 1, 8
+6. "What is the root cause of Codependency?" — Est. 20K+ views, Est. 40-100 answers — Angle: Types 2, 9, 6
+
+Type coverage: Types 1, 2, 3, 5, 6, 7, 8, 9 all touched (Type 4 skipped this session — already deeply covered in 2026-04-23). **Type 2 gap closed**: 0 → 5 queued items covering 5 distinct angles (saying-no guilt, give-vs-receive, fixer, savior complex, codependency).
+Blog matches: 6 of 6 queued have a 9takes link candidate (4 point to enneagram-type-2, 1 to why-the-next-thing-wont-fix-it-type-7, 1 to attachment-styles-and-enneagram-types).
+
+Question log: docs/quora/question-log.md
+Session doc: docs/quora/sessions/2026-04-24_quora-warmup-pm.md
+
+Next step: /quora-answer docs/quora/sessions/2026-04-24_quora-warmup-pm.md
+
+```
+MODE: non-interactive
+SESSION: docs/quora/sessions/2026-04-24_quora-warmup-pm.md
+QUEUED: 6
+SKIPPED: 8
+LIMITATIONS: quora_direct_fetch_blocked_403 (view/answer counts are estimates from SERP clustering; verify in /quora-answer before posting)
+```
+
+Sources:
+- [What kinds of people get bored easily? - Quora](https://www.quora.com/What-kinds-of-people-get-bored-easily)
+- [Why do some people have a hard time saying no? - Quora](https://www.quora.com/Why-do-some-people-have-a-hard-time-saying-no)
+- [Why do some people love to give but have trouble receiving? - Quora](https://www.quora.com/Why-do-some-people-love-to-give-but-have-trouble-receiving)
+- [What is the psychology behind why some people are so fixated on the idea of 'fixing' other people... - Quora](https://www.quora.com/What-is-the-psychology-behind-why-some-people-are-so-fixated-on-the-idea-of-fixing-other-people-especially-romantic)
+- [What is the psychology behind having a savior complex? - Quora](https://www.quora.com/What-is-the-psychology-behind-having-a-savior-complex)
+- [What is the root cause of Codependency? - Quora](https://www.quora.com/What-is-the-root-cause-of-Codependency)

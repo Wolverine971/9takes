@@ -30,11 +30,10 @@
 	 * Toggle the mobile menu
 	 */
 	function toggleMenu() {
-		isMenuOpen = !isMenuOpen;
+		const nextMenuOpen = !isMenuOpen;
+		isMenuOpen = nextMenuOpen;
 
-		if (!isMenuOpen) {
-			isDropdownOpen = false;
-		}
+		isDropdownOpen = nextMenuOpen;
 
 		// Prevent body scrolling when menu is open
 		if (typeof document !== 'undefined') {

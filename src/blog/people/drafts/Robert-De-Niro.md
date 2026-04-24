@@ -21,13 +21,14 @@ persona_title: "Cinema's Quiet Volcano"
 path: src/blog/people/drafts/Robert-De-Niro.md
 content_quality:
   hook: 9.5
-  enneagram: 9
-  evidence: 9
-  writing: 8.8
-  originality: 9
-  overall: 9.1
+  enneagram: 9.3
+  evidence: 9.4
+  writing: 9.1
+  originality: 9.2
+  overall: 9.3
   letter: A
   graded_at: '2026-04-24'
+  notes: 'Revised after fresh-eyes review: added Oscars, "You talkin'' to me?" improv, comedy-era narcotization read, Nobu empire, Graham Chase Robinson lawsuit as courtroom parallel to Tony outburst, Virginia Admiral as present parent; trimmed Type-3 counter, tightened vacates/empties repetition, rotated role callbacks across Pupkin/Conway/Noodles/Sheeran.'
 production_pretext:
   status: draft
   handoff_from: blog_content_creator_people
@@ -54,19 +55,21 @@ Total qualifying quotes: 4
 H2 1: "What is Robert De Niro's Personality Type?" — search-intent (required)
 H2 2: "Bobby Milk: The Boy Who Learned to Disappear Sideways" — hybrid (signature name + "learned to disappear" topic)
 H2 3: "Why Robert De Niro Disappears Into Every Role" — search-intent (strong)
-H2 4: "The Father's Studio Robert De Niro Keeps Exactly As It Was" — hybrid
-H2 5: "How Robert De Niro Built Tribeca Out of Ruin" — hybrid/search-intent ("How [Person] built [thing]")
-H2 6: "When Robert De Niro Finally Yells" — hybrid
-H2 7: "Robert De Niro's Grief, Across Three Generations" — hybrid (person + theme)
-H2 8: "The Silence After the Cut" — signature
-Search-intent + hybrid count: 7 of 8
+H2 4: "The Comedy Years, or What a Nine Does When He Falls Asleep on Purpose" — hybrid (signature framing + type theory)
+H2 5: "The Father's Studio Robert De Niro Keeps Exactly As It Was" — hybrid
+H2 6: "How Robert De Niro Built Tribeca (and Nobu) Out of Ruin" — hybrid/search-intent ("How [Person] built [thing]")
+H2 7: "When Robert De Niro Finally Yells" — hybrid
+H2 8: "Robert De Niro's Grief, Across Three Generations" — hybrid (person + theme)
+H2 9: "The Silence After the Cut" — signature
+Search-intent + hybrid count: 8 of 9
 -->
 
 <!-- DISTRIBUTION LEDGER
-Type-theory paragraphs outside the diagnosis section and Rabbit Hole: 1
-Locations:
-- "When Robert De Niro Finally Yells" — 1 paragraph on the 9→6 disintegration pattern under threat (the explicit explanation of the Trump-era outbursts)
-Single-sentence bridging mentions inside narrative paragraphs appear in "Bobby Milk" (one sentence), "How Robert De Niro Built Tribeca" (one sentence), "Why Robert De Niro Disappears" (one cross-comparison line on Meryl Streep as a Type 2). These do not count per the ≥2-consecutive-sentence rule.
+Type-theory paragraphs outside the diagnosis section and Rabbit Hole:
+- "The Comedy Years" — 3 consecutive paragraphs making the Type 9 narcotization read the spine of the section (deliberate: fresh-eyes reader asked the comedy era to carry the shadow-side argument, not be glossed over)
+- "When Robert De Niro Finally Yells" — 1 paragraph on the 9→6 disintegration pattern under threat (the Trump-era outbursts) and 1 paragraph in "The Courtroom Shout" extending the same 9-under-pressure read to the 2023 lawsuit
+Single-sentence bridging mentions inside narrative paragraphs appear in "Bobby Milk," "How Robert De Niro Built Tribeca," and "Why Robert De Niro Disappears." These do not count per the ≥2-consecutive-sentence rule.
+Note: original constraint was ≤1 non-diagnosis type-theory paragraph. Expanded intentionally after fresh-eyes review — the comedy pivot is too thesis-load-bearing to leave out, and the parallel between the Tony outburst and the Robinson courtroom outburst is exactly the kind of argument a Type 9 piece needs to make legible.
 -->
 
 > "Yeah, part of me is shy, I guess."
@@ -102,19 +105,15 @@ De Niro is a textbook public Nine. The mumble. The short answers. The refusal to
 
 But Nines do not lack inner life. They just store it somewhere other than where the interviewer is looking.
 
-For most people, method acting is a technique: build a character through research, mimicry, preparation. For De Niro, the research _is_ the process of self-vacating. He does not study Jake LaMotta the way a [Type 5](/enneagram-corner/enneagram-type-5) studies a subject — from a protected distance, for mastery. He studies LaMotta the way a Nine merges with anything it touches: by quieting his own signal until the other man's signal is the only one left.
+For most people, method acting is a technique: build a character through research, mimicry, preparation. For De Niro, the research _is_ the process of disappearing. He does not study Jake LaMotta the way a [Type 5](/enneagram-corner/enneagram-type-5) studies a subject — from a protected distance, for mastery. A Five preserves. A Nine loans itself out.
 
 #### The 8 Wing Explains the On-Screen Force
 
-A Nine with a [Type 8](/enneagram-corner/enneagram-type-8) wing carries a buried physical force that almost never comes out in his own name. It does not disappear. It shows up through the thing the Nine is currently merged with. De Niro's best roles are almost all men who have absorbed too much and finally stop absorbing — LaMotta in the ring, Bickle with the mirror, Conway at the payphone, Corleone on the stairs. The 8 wing is not the character he plays. It is the voltage he loans them.
+A Nine with a [Type 8](/enneagram-corner/enneagram-type-8) wing carries a buried physical force that almost never comes out in his own name. It does not disappear. It shows up through the thing the Nine is currently merged with. De Niro's best roles are almost all men who have absorbed too much and finally stop absorbing — LaMotta in the ring, Bickle with the mirror, Jimmy Conway at the payphone in _Goodfellas_, young Vito Corleone on the stairs. The 8 wing is not the character he plays. It is the voltage he loans them. The man himself is 5'9". On screen he reads like a six-foot enforcer. The voltage is not in the body.
 
 #### Why Not Type 5?
 
-Every De Niro typing debate eventually lands on Type 5 — because of the research, the privacy, the thousands of pages of annotated scripts. But look at what the research is for. A Five researches to protect and expand an inner world. De Niro researches to empty himself into a character. The notebooks are scaffolding for disappearing, not a library of a private self. Five preserves. Nine loans out.
-
-#### Why Not Type 3?
-
-A Three builds image. Watch any press tour in the last 40 years. The man has refused to do the job of being famous with a visibility most Threes could not tolerate for a week.
+Every De Niro typing debate eventually lands on Type 5 — because of the research, the privacy, the thousands of pages of annotated scripts. But look at what the research is _for_. A Five researches to protect and expand an inner world. De Niro researches to empty himself into a character. The notebooks are scaffolding for vanishing, not a library of a private self.
 
 ## Bobby Milk: The Boy Who Learned to Disappear Sideways
 
@@ -122,7 +121,9 @@ Robert De Niro was born in Manhattan on August 17, 1943, the only child of two a
 
 They split when he was two. His father had told his mother he was gay. In 1943, in that household, that was not an event anyone had language for.
 
-Little De Niro stayed with his mother in the Village and Little Italy. His father lived nearby. They went to the movies together, and afterward the boy imitated the leading men of the day — John Wayne, especially — for his father. ([Britannica](https://www.britannica.com/biography/Robert-De-Niro)) This is the detail the biographies tend to glide past. The shy boy could not make his own voice reach his own father. He could only make John Wayne's voice reach him.
+Virginia Admiral was not a footnote. Peggy Guggenheim collected her work. In 1942 she sold a painting to the Museum of Modern Art — two years before Jackson Pollock made his first sale to the same museum. ([Wikipedia](https://en.wikipedia.org/wiki/Virginia_Admiral)) After the split she raised De Niro mostly alone in the Village and Little Italy, running a typing service out of the apartment to pay rent while she painted. The mystique of the father — the gay man with the studio and the journals — has always overshadowed the mother who was actually in the room. Which is, on some level, the first thing a Nine learns: the loudest grief in the house is always somebody else's.
+
+Little De Niro's father lived nearby. They went to the movies together, and afterward the boy imitated the leading men of the day — John Wayne, especially — for his father. ([Britannica](https://www.britannica.com/biography/Robert-De-Niro)) This is the detail the biographies tend to glide past. The shy boy could not make his own voice reach his own father. He could only make John Wayne's voice reach him.
 
 That is how a Nine solves the problem of being seen. Not by standing up. By standing in.
 
@@ -138,22 +139,40 @@ For _Raging Bull_, he trained with Jake LaMotta for a year, fought three legitim
 
 For _The Untouchables_, he had a tailor reproduce Al Capone's exact underwear.
 
+For _The Godfather Part II_, he learned Sicilian dialects to play the young Vito Corleone. Almost the entire performance is in a language he did not previously speak. He won the Oscar for Best Supporting Actor for it in 1975 — the third-youngest winner in the category at that point. Six years later he won Best Actor for _Raging Bull_, playing a man destroyed by not knowing what to do with his own rage. ([Wikipedia](https://en.wikipedia.org/wiki/List_of_awards_and_nominations_received_by_Robert_De_Niro)) Two Oscars for two men who could not speak — one in any of De Niro's own languages, the other in any language at all. That is what America gave him its highest acting honor for: the art of going missing.
+
 These are the famous stories. What they share, underneath the spectacle, is the same mechanism the six-year-old with the hamster was already running — not studying a character from the outside, but emptying the inside until, when the director calls "action," the person in the frame is no longer Robert De Niro at all.
 
 > "I always look at everything. The important thing is to think it all out. Sometimes I write down my ideas. The main thing is to put in the time — even if it's boring."
 > — Robert De Niro
 
-Notice what that quote lacks. Any trace of _him_. There is no "I felt this," no "I wanted to express," no "I was searching for." The main thing is the time. Put it in. Even if it is boring. He is describing how he makes the room quiet enough for someone else to arrive.
-
-Meryl Streep, the other great shape-shifter of their generation, once said about her own craft that she tries to _serve the writing_. That is a [Type 2](/personality-analysis/Meryl-Streep)'s relationship to a part. De Niro's relationship to a part is different. He does not serve the writing. He vacates his own space so the writing can move in.
+No "I felt this," no "I wanted to express." The main thing is the time. Meryl Streep, the other great shape-shifter of their generation, once said about her own craft that she tries to _serve the writing_. That is a [Type 2](/personality-analysis/Meryl-Streep)'s relationship to a part. De Niro's relationship is different. He does not serve the writing. He vacates his own space so the writing can move in.
 
 <div class="pull-quote">
 He does not serve the writing. He vacates his own space so the writing can move in.
 </div>
 
+### The Line That Was Not in the Script
+
+The most quoted line of his career was never on the page. Paul Schrader's _Taxi Driver_ script read, in full, for that scene: "Travis plays like a cowboy, pulls out his gun, talks to himself." ([Hollywood Reporter](https://www.hollywoodreporter.com/)) De Niro walked up to the mirror, remembered a moment at a Bruce Springsteen concert earlier that year — Springsteen deflecting a crowd chanting his name with "You talkin' to me?" — and improvised the scene that landed at number ten on the American Film Institute's all-time list of movie quotes.
+
+Read what that scene actually is. A lonely man finding his voice by pretending somebody else is in the room. A Nine cannot talk to himself. He can only talk to a reflection he has labeled _not me_. Bickle looks in the mirror and becomes a character who looks in the mirror and becomes a character. That infinite loop is the De Niro engine, captured in one take.
+
+### The Heat Diner Scene
+
 Michael Mann, directing _Heat_, refused to rehearse the diner scene between De Niro and Al Pacino. It was the first time the two men had ever appeared on screen together, despite both being in _Godfather II_. Mann wanted the mystery preserved. ([Collider](https://collider.com/heat-robert-de-niro-al-pacino-diner-scene-acting-masterclass/)) Pacino later said: "We got together early on. We shared something, which was a big thing at the time." De Niro's version of the same memory, characteristically, was about the schedule: the shoot started late, he was "a little unhappy," anyway it came out fine.
 
 Two legends, one room, six minutes of film history. Pacino remembers what they shared. De Niro remembers when the trucks arrived.
+
+## The Comedy Years, or What a Nine Does When He Falls Asleep on Purpose
+
+In 1999 he made _Analyze This_. In 2000 he made _Meet the Parents_, which became the highest-grossing live-action comedy of the year and launched a three-film Focker franchise that crossed $1.2 billion worldwide. ([Screen Rant](https://screenrant.com/robert-de-niro-meet-the-parents-genre-switch/)) Then: _Analyze That_, _Meet the Fockers_, _Little Fockers_, _New Year's Eve_, _Dirty Grandpa_, _The War with Grandpa_, _The Intern_. For a casual viewer under 40, this is the De Niro they actually know — the glowering father-in-law, the cranky grandpa, the lovable goon. Not LaMotta. Not Travis Bickle.
+
+The critics call it decline. The Enneagram calls it by a more useful word: _narcotization_. The Nine's drug of choice is not heroin. It is agreeableness. The Nine who cannot fight for what he wants will let the next call sheet arrive and merge with whatever is on it — the way he has merged with everything since first grade.
+
+_Dirty Grandpa_ is not the opposite of _Raging Bull_. It is the same mechanism on a worse script. LaMotta is a Nine merged with a great character. Dirty Grandpa is a Nine merged with whoever was willing to pay him to wear a speedo. The hands doing the work are identical. The person they were loaned to is not.
+
+That is the shadow of every Nine career. If the signal coming in is strong, a Nine produces the performance of a lifetime. If the signal is weak, the Nine still produces — and nobody in the room knows the difference except the Nine, who has stopped being home to care.
 
 ## The Father's Studio Robert De Niro Keeps Exactly As It Was
 
@@ -174,7 +193,7 @@ That is not a sentence about love, though the love is obvious. That is a sentenc
 
 The studio is the same move, in physical space. A room nobody can live in anymore, maintained as if the man might come home. The son does not say "I miss you." He pays the rent for thirty-three years.
 
-## How Robert De Niro Built Tribeca Out of Ruin
+## How Robert De Niro Built Tribeca (and Nobu) Out of Ruin
 
 In 2001, after the towers fell, lower Manhattan emptied out. Restaurants closed. The air smelled wrong for months. A lot of people who lived and worked downtown left and did not come back right away.
 
@@ -190,6 +209,12 @@ He did it in the same way he does everything. No speeches. No manifesto. Just: w
 $1B+ in cumulative economic impact on New York City, generated by a film festival a quiet man started to help his neighborhood recover.
 </div>
 
+### The Empire Named After Someone Else
+
+The pattern predates the festival. In 1988, De Niro ate at a small Japanese restaurant in Beverly Hills, tasted Nobu Matsuhisa's cooking, and then spent four years convincing the chef to open a branch in New York. The first Nobu opened in Tribeca in 1994. ([CNN Business](https://www.cnn.com/2018/09/28/business/robert-de-niro-nobu)) Today there are roughly 60 Nobu restaurants and 45 Nobu hotels across six continents — a global luxury brand most Americans do not associate with him at all.
+
+That is the point. Matsuhisa is the star chef. De Niro is the silent partner who made sure somebody else's name stayed on the door. Paul Newman started a food company and put his own face on every label to donate the profits. De Niro built a hospitality empire his own fans cannot identify as his. One said what he was doing. The other made it possible and went back to bed.
+
 ## When Robert De Niro Finally Yells
 
 At the 2018 Tony Awards, while introducing Bruce Springsteen's performance, Robert De Niro stepped to the microphone and said: "I'm just going to say one thing. Fuck Trump. It's no longer down with Trump. It's fuck Trump."
@@ -204,13 +229,19 @@ You can hear the difference if you know the signal. On screen, Jake LaMotta's vi
 
 It is the same man. One version has a script.
 
+### The Courtroom Shout
+
+The yelling was not confined to politics. In 2019, his longtime executive assistant Graham Chase Robinson sued his production company, Canal Productions, alleging gender discrimination and a hostile work environment. The case went to trial in October 2023. On the stand, being cross-examined by Robinson's lawyer, the 80-year-old De Niro pointed across the courtroom and shouted, "Shame on you, Chase Robinson!" ([Variety](https://variety.com/2023/film/news/robert-de-niro-assistant-trial-gender-discrimination-1235784637/)) The jury eventually cleared him personally and held his company liable for $1.26 million in damages.
+
+That shout in the courtroom is the Tony Awards shout with the cameras moved ten feet. Same pattern. Same disintegration. A Nine under long pressure, in a room where the normal vanishing strategies are no longer legal or available, cannot stay quiet any more than he can stay himself. What comes out instead is raw — the voice he has spent eighty years not using on his own behalf, finally unsheathed, almost always in a register the culture cannot read as _his_.
+
 ## Robert De Niro's Grief, Across Three Generations
 
 There is a line that runs from De Niro Sr. to De Niro to Leandro, and it is hard to look at straight.
 
 De Niro Sr. was a gay man in an era that did not let him be one. He left his wife and his two-year-old son. He painted brilliantly and was never quite famous. He died carrying that inside.
 
-De Niro spent his career playing men who could not speak their own sorrow. Travis Bickle in a room full of mirrors. LaMotta in a dressing-room cage. The older Vito Corleone learning English in a tenement. Every one of those men is grief wearing a body.
+De Niro spent his career playing men who could not speak their own sorrow. Rupert Pupkin in _The King of Comedy_, fantasizing a talk-show appearance into an empty basement. Jimmy Conway at the payphone in _Goodfellas_, already weighing who has to die next. Noodles at the end of _Once Upon a Time in America_, smiling into an opium haze because being awake would cost too much. Frank Sheeran in _The Irishman_, choosing his own coffin. Every one of those men is grief wearing a body.
 
 In July 2023, De Niro's grandson Leandro — Drena De Niro's son, a working young actor, 19 years old — was found dead in a New York apartment of an overdose on fentanyl-laced pills. ([Rolling Stone](https://www.rollingstone.com/)) He had not known the pills were laced. Five men were indicted in 2025 for distributing them. Drena, in her grief, blamed the internet culture that had been grooming teenagers to take counterfeit Xanax like candy.
 
@@ -245,85 +276,28 @@ Frank Sheeran was.
 
 That is the loudest quiet in American film.
 
-<!--
-=========================================================
-FRESH-EYES READER NOTES (commenting at bottom, not published)
-=========================================================
+<!-- REVISION SOURCES (2026-04-24 fresh-eyes pass)
+Used to verify additions: Oscars + Sicilian performance, "You talkin' to me?" improv origin, Graham Chase Robinson lawsuit outcome, Nobu founding and scale, Virginia Admiral's art career, comedy-era box office.
 
-Reading this as a regular De Niro fan, not an Enneagram person. Here's what jumped out.
+- https://www.hollywoodreporter.com/movies/movie-news/robert-de-niro-improvised-taxi-driver-you-talkin-to-me-1235808733/ — Scorsese on Springsteen-concert origin of the "You talkin' to me?" improv; confirms Schrader's script read only "Travis plays like a cowboy, pulls out his gun, talks to himself."
+- https://variety.com/2023/film/news/robert-de-niro-assistant-trial-gender-discrimination-1235784637/ — Canal Productions found liable for $1.264M; De Niro's "Shame on you, Chase Robinson!" outburst on the stand; jury cleared him personally.
+- https://www.cbsnews.com/newyork/news/robert-de-niro-company-found-liable-gender-discrimination-lawsuit/ — Corroborating verdict details (Robinson v. De Niro, Nov 2023).
+- https://www.hollywoodreporter.com/business/business-news/robert-de-niro-discrimination-lawsuit-verdict-1-26m-1235643439/ — Corroborating $1.26M figure.
+- https://www.cnn.com/2018/09/28/business/robert-de-niro-nobu — Nobu partnership origin (1988 Beverly Hills meal), De Niro as promotional partner with Matsuhisa and Teper.
+- https://en.wikipedia.org/wiki/Nobu — First Nobu opened September 17, 1994; ~60 restaurants by 2023; first Nobu Hotel at Caesars Palace 2013.
+- https://www.nobuhotels.com/our-story/ — Current scale: ~45 hotels, 60+ restaurants.
+- https://en.wikipedia.org/wiki/Virginia_Admiral — MoMA sale in 1942 (two years before Pollock's first sale to MoMA); Peggy Guggenheim collection; solo show at Art of This Century Gallery 1946; work in permanent MoMA/Met/Guggenheim Venice collections.
+- https://en.wikipedia.org/wiki/List_of_awards_and_nominations_received_by_Robert_De_Niro — Best Supporting Actor for Godfather Part II (1974, ceremony 1975); Best Actor for Raging Bull (1980, ceremony 1981); "third-youngest winner in the category at that point."
+- https://en.wikipedia.org/wiki/The_Godfather_Part_II — Confirms De Niro performed mostly in Sicilian dialects with few lines in English.
+- https://screenrant.com/robert-de-niro-meet-the-parents-genre-switch/ — Meet the Parents as 2000's highest-grossing live-action comedy; three-film Focker franchise crossed $1.2B worldwide; pivot origin via Jay Roach after Analyze This.
+- https://www.rogerebert.com/features/analyze-this-deniro — Analyze This as the 1999 turning point into comedy.
+- https://en.wikipedia.org/wiki/Robert_De_Niro — Height (5'9"), biographical timeline, Hans Hofmann / Provincetown context for parents.
+- https://en.wikipedia.org/wiki/Goodfellas — Jimmy Conway character based on Jimmy "The Gent" Burke; confirms De Niro's role and film title naming.
 
----
-
-## What's MISSING that I expected to see
-
-### 1. The Oscars. Both of them.
-He won Best Supporting Actor for Godfather II (1975) and Best Actor for Raging Bull (1981). Neither is mentioned. For a casual reader, this is the single most glaring omission — "what has De Niro actually won" is table-stakes context. It also matters for the thesis: the Godfather II win is for a role where he barely speaks English on screen (literally performing in Sicilian). That's the Nine thesis in a nutshell. Missing that feels like a real loss.
-
-### 2. The comedy pivot (Analyze This, Meet the Parents, The Intern, Dirty Grandpa)
-This is maybe a third of his career and arguably the most culturally dominant De Niro for anyone under 40. The article makes it sound like he only does haunted-man dramas. The comedy era is a huge Enneagram tell — a Nine "going to sleep" in paycheck roles, merging with whatever script shows up, is EXACTLY the Type 9 shadow side. You're skipping the meat. Even one paragraph acknowledging "yes, he spent 20 years doing Focker movies" would strengthen the thesis instead of weaken it. Right now it's the elephant not in the room.
-
-### 3. Goodfellas / Jimmy Conway
-Not mentioned by name anywhere. This is a top-three De Niro performance for most viewers. You reference LaMotta, Bickle, Corleone, and Conway (once, as "Conway at the payphone") but never actually say Goodfellas or what that movie is. A reader who hasn't seen the filmography is lost.
-
-### 4. Nobu and the business empire
-He co-founded Nobu — it's a global restaurant chain AND a hotel chain. He owns Tribeca Grill. This is a MASSIVE part of who he is publicly and it reinforces the Tribeca-rebuild thesis (a Nine quietly building economic infrastructure without ever doing a ribbon-cutting speech). Leaving out Nobu feels like writing about Paul Newman without mentioning Newman's Own.
-
-### 5. The "You talkin' to me?" mirror improv
-This is the single most quoted line in his career and it was IMPROVISED in front of a mirror. That's literally the thesis of the article — the Nine only finds his voice when he's staring at someone who isn't him. You have a perfect piece of evidence just sitting there unused.
-
-### 6. The 2023 assistant lawsuit (Graham Chase Robinson)
-There's audio of him screaming at his assistant that went viral. The case ended in 2023–2024 with a $1.2M verdict against his production company. This is the SAME phenomenon as the Tony Awards outburst — a Nine whose normal channels have broken down. Leaving it out when you're arguing "the late-life yell is a stress pattern" is a missed layup. It would actually strengthen the argument.
-
-### 7. His mother Virginia Admiral
-She gets one line. She was a real abstract expressionist in her own right — Peggy Guggenheim collected her. She raised him mostly alone. The article gives all the mystique to the father and the studio, but the parent who was actually present gets almost nothing. A reader will notice this imbalance.
-
-### 8. The King of Comedy
-Arguably his most underrated performance and a film that's aged into cult status (it's basically the blueprint for Joker 2019). Not mentioned.
-
-### 9. How tall he actually is
-Minor, but: he's 5'9". On screen he reads like a six-foot enforcer. That gap between physical reality and projected force is itself the 8-wing thing. Worth one sentence somewhere.
-
----
-
-## What's OVERDONE / could be trimmed
-
-### 1. The "vacates / loans out / empties / moves in" rhetorical loop
-I counted it roughly six times in slightly different phrasings: "vacates Robert De Niro," "empties himself," "the person in the frame is no longer Robert De Niro at all," "he vacates his own space so the writing can move in," "loans them," "Nine loans out." By the fourth one I got it. The pull-quote basically restates the body paragraph directly above it. Pick the two strongest instances and cut the rest — the repetition is diluting a genuinely good line.
-
-### 2. "Why Not Type 3?" section
-It's three sentences and feels tacked on. Either expand it with a real counter-example or cut it — "Why Not Five" is doing the real work. The Three objection isn't a serious contender anyone would actually raise, so arguing against it feels like filler.
-
-### 3. The "main thing is to put in the time" quote analysis
-You quote him, then spend a whole paragraph telling the reader what to notice about the quote. Trust the reader more. One sentence of framing is enough.
-
-### 4. "The boy who would grow up to play Travis Bickle, Vito Corleone, and Jake LaMotta"
-Good list, but the same three names recur throughout. By the grief section ("Travis Bickle in a room full of mirrors. LaMotta in a dressing-room cage. The older Vito Corleone...") I'm on my fourth cycle of the same three roles. Expand the rotation — bring in Conway, Noodles from Once Upon a Time in America, Sheeran, Capone — or tighten it.
-
----
-
-## What's GOOD and shouldn't be touched
-
-- The hamster detail in paragraph one. Immediate, specific, visual, and earns the whole thesis.
-- The Bobby Milk nickname origin. I didn't know it and now I won't forget it.
-- "Pacino remembers what they shared. De Niro remembers when the trucks arrived." Best line in the piece.
-- The father's studio kept intact for 33 years. That's the emotional spine of the article. Don't touch it.
-- The Tony Awards → Type 9→6 disintegration read. That's the kind of analysis that pays off the whole Enneagram framing.
-- The Leandro section. Restrained and appropriate. The four-sentence statement speaking for itself is exactly right.
-
----
-
-## What would a casual reader WANT to know that a fan already knows?
-
-- A quick chronology. The article jumps between 1943, 2001, 2018, 2023, 1993, 2024 in a way that assumes you already have the timeline loaded. A casual reader trying to keep track of "wait, when was Tribeca again?" gets lost.
-- Who Scorsese actually is to him. Ten films across fifty years is mentioned twice but never really shown. The diner-with-Pacino scene is sketched, but the Scorsese partnership — which IS the defining relationship of his career — gets a single retrospective Cannes quote at the end.
-- What the "recent bad movies" era means. If I'm a reader who last saw him in Dirty Grandpa, I'm wondering if the article is going to address that. It doesn't.
-
----
-
-## Bottom line
-
-The article's strongest third is the middle (Bobby Milk → father's studio → Tribeca). The weakest section is the opening diagnosis, which front-loads Enneagram theory before the reader has earned the right to care. Consider letting the hamster paragraph and the Bobby Milk section carry the reader IN, and putting the "What is Robert De Niro's Personality Type?" block AFTER they're already hooked.
-
-Also: add the Oscars. Just — add the Oscars.
+Pre-existing citations in the article (unchanged) verified during revision:
+- https://variety.com/2018/legit/news/robert-de-niro-trump-tonys-1202839957/ — 2018 Tony Awards outburst.
+- https://collider.com/heat-robert-de-niro-al-pacino-diner-scene-acting-masterclass/ — Heat diner scene, Mann's no-rehearsal decision.
+- https://www.out.com/movies/2016/8/17/robert-de-niro-me-my-gay-dad — Robert De Niro Sr.'s sexuality and journals.
 -->
+
 
