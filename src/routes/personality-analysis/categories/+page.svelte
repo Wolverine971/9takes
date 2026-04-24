@@ -3,7 +3,6 @@
 	import type { PageData } from './$types';
 	import SEOHead from '$lib/components/SEOHead.svelte';
 	import ArrowRightIcon from '$lib/components/icons/arrowRightIcon.svelte';
-	import { formatPersonalityRawType } from '$lib/personalityCategories';
 
 	let { data }: { data: PageData } = $props();
 
@@ -175,43 +174,53 @@
 
 <div class="page-shell">
 	<header class="hero">
-		<p class="eyebrow">New Browse Layer</p>
-		<h1>Explore Famous People by Category</h1>
+		<p class="eyebrow">Personality analysis · Categories</p>
+		<h1>Browse famous people by the lane they live in</h1>
 		<p class="lede">
-			Browse the personality-analysis library by domain instead of just Enneagram number. Each hub
-			now breaks into cleaner sections, so you can compare screen icons to rising actors, pop stars
-			to rappers, and heads of state to activists.
+			Instead of one flat archive, every hub now breaks into tight sub-categories — so you can
+			compare screen icons to rising actors, pop stars to rappers, and heads of state to activists
+			inside the same frame.
 		</p>
-		<div class="hero-stats">
-			<span>{data.totalPeople} published profiles</span>
-			<span
-				>{data.primaryCategories.length + data.secondaryCategories.length} active categories</span
-			>
-			<a href="/personality-analysis" class="hero-link">Back to all personalities</a>
+		<div class="hero-meta">
+			<span class="stat"><strong>{data.totalPeople}</strong> profiles</span>
+			<span class="stat-divider" aria-hidden="true">·</span>
+			<span class="stat"><strong>{allCategories.length}</strong> categories</span>
+			<a href="/personality-analysis" class="hero-back">
+				<span aria-hidden="true">←</span>
+				All personalities
+			</a>
 		</div>
 	</header>
+
+	<nav class="quick-jump" aria-label="Jump to category">
+		{#each allCategories as category}
+			<a href="#cat-{category.slug}" class="jump-pill" style={`--jump-accent:${category.accent};`}>
+				<span class="jump-dot" aria-hidden="true"></span>
+				<span class="jump-label">{category.shortLabel}</span>
+				<span class="jump-count">{category.count}</span>
+			</a>
+		{/each}
+	</nav>
 
 	<main class="content">
 		<section class="section">
 			<div class="section-head">
-				<div>
-					<p class="section-kicker">Phase 1</p>
-					<h2>Core Categories</h2>
-				</div>
-				<p class="section-copy">
-					These cover the majority of the published personality-analysis library.
-				</p>
+				<h2>Core categories</h2>
+				<p>The seven largest lanes — together they cover the bulk of the library.</p>
 			</div>
 
 			<div class="category-grid">
 				{#each data.primaryCategories as category}
 					<a
+						id="cat-{category.slug}"
 						href="/personality-analysis/categories/{category.slug}"
 						class="category-card"
 						style={`--accent:${category.accent}; --accent-soft:${category.accentSoft};`}
 					>
-						<div class="card-top">
-							<div>
+						<span class="card-accent-bar" aria-hidden="true"></span>
+
+						<div class="card-head">
+							<div class="card-title-group">
 								<p class="card-label">{category.shortLabel}</p>
 								<h3>{category.label}</h3>
 							</div>
@@ -220,52 +229,44 @@
 
 						<p class="summary">{category.summary}</p>
 
-						{#if category.groups.length > 0}
-							<div class="cluster-preview">
-								<span class="mini-label">Subcategories</span>
-								<div class="cluster-chip-row">
-									{#each category.groups.slice(0, 3) as group}
-										<span class="cluster-chip">{group.label}</span>
-									{/each}
-									{#if category.groups.length > 3}
-										<span class="cluster-chip muted">+{category.groups.length - 3} more</span>
-									{/if}
+						<div class="card-body">
+							{#if category.groups.length > 0}
+								<div class="block">
+									<p class="mini-label">Subcategories</p>
+									<div class="chip-row">
+										{#each category.groups.slice(0, 3) as group}
+											<span class="chip">{group.label}</span>
+										{/each}
+										{#if category.groups.length > 3}
+											<span class="chip muted">+{category.groups.length - 3}</span>
+										{/if}
+									</div>
 								</div>
-							</div>
-						{/if}
+							{/if}
 
-						<div class="tag-row">
-							{#each category.rawTypes as rawType}
-								<span class="tag-chip">{formatPersonalityRawType(rawType)}</span>
-							{/each}
+							{#if category.featured.length > 0}
+								<div class="block">
+									<p class="mini-label">Featured</p>
+									<p class="featured-names">
+										{#each category.featured.slice(0, 3) as person, i}
+											{#if i > 0}<span class="bullet" aria-hidden="true">·</span>{/if}<span
+												>{person.name}</span
+											>
+										{/each}
+									</p>
+								</div>
+							{/if}
 						</div>
-
-						{#if category.featured.length > 0}
-							<div class="featured-block">
-								<p class="mini-label">Featured reads</p>
-								<ul>
-									{#each category.featured.slice(0, 3) as person}
-										<li>{person.name}</li>
-									{/each}
-								</ul>
-							</div>
-						{/if}
 
 						<div class="card-footer">
-							<div class="distribution">
-								{#each category.distribution.slice(0, 4) as bucket}
-									<span>Type {bucket.enneagram}</span>
-								{/each}
-							</div>
-							<div class="cta">
-								<span>Open category</span>
-								<ArrowRightIcon iconStyle={''} height={'1rem'} fill={'currentColor'} />
-							</div>
+							<span class="cta">
+								Explore
+								<ArrowRightIcon iconStyle={''} height={'0.9rem'} fill={'currentColor'} />
+							</span>
+							{#if formatDate(category.latestUpdate)}
+								<span class="updated">Updated {formatDate(category.latestUpdate)}</span>
+							{/if}
 						</div>
-
-						{#if formatDate(category.latestUpdate)}
-							<p class="updated">Updated {formatDate(category.latestUpdate)}</p>
-						{/if}
 					</a>
 				{/each}
 			</div>
@@ -274,59 +275,79 @@
 		{#if data.secondaryCategories.length > 0}
 			<section class="section">
 				<div class="section-head">
-					<div>
-						<p class="section-kicker">Phase 2</p>
-						<h2>Specialty Categories</h2>
-					</div>
-					<p class="section-copy">Smaller lanes with enough depth to stand on their own.</p>
+					<h2>Specialty lanes</h2>
+					<p>Tighter focus, still deep enough to stand on their own.</p>
 				</div>
 
-				<div class="secondary-grid">
+				<div class="category-grid specialty">
 					{#each data.secondaryCategories as category}
 						<a
+							id="cat-{category.slug}"
 							href="/personality-analysis/categories/{category.slug}"
-							class="secondary-card"
+							class="category-card"
 							style={`--accent:${category.accent}; --accent-soft:${category.accentSoft};`}
 						>
-							<div class="secondary-top">
-								<h3>{category.label}</h3>
+							<span class="card-accent-bar" aria-hidden="true"></span>
+
+							<div class="card-head">
+								<div class="card-title-group">
+									<p class="card-label">{category.shortLabel}</p>
+									<h3>{category.label}</h3>
+								</div>
 								<span class="count-pill">{category.count}</span>
 							</div>
-							<p>{category.summary}</p>
+
+							<p class="summary">{category.summary}</p>
+
 							{#if category.groups.length > 0}
-								<div class="cluster-preview compact-preview">
-									<span class="mini-label">Subcategories</span>
-									<div class="cluster-chip-row">
+								<div class="block">
+									<p class="mini-label">Subcategories</p>
+									<div class="chip-row">
 										{#each category.groups.slice(0, 3) as group}
-											<span class="cluster-chip">{group.label}</span>
+											<span class="chip">{group.label}</span>
 										{/each}
 									</div>
 								</div>
 							{/if}
-							<div class="tag-row compact">
-								{#each category.rawTypes as rawType}
-									<span class="tag-chip">{formatPersonalityRawType(rawType)}</span>
-								{/each}
+
+							<div class="card-footer">
+								<span class="cta">
+									Explore
+									<ArrowRightIcon iconStyle={''} height={'0.9rem'} fill={'currentColor'} />
+								</span>
 							</div>
 						</a>
 					{/each}
 				</div>
 			</section>
 		{/if}
+
+		<aside class="alt-browse">
+			<div class="alt-copy">
+				<p class="mini-label">Another way in</p>
+				<h2>Or browse by Enneagram type</h2>
+				<p>See every profile grouped by the nine core personality types — 1 through 9.</p>
+			</div>
+			<a href="/personality-analysis" class="alt-link">
+				<span>Go to type index</span>
+				<ArrowRightIcon iconStyle={''} height={'1rem'} fill={'currentColor'} />
+			</a>
+		</aside>
 	</main>
 </div>
 
 <style lang="scss">
 	.page-shell {
-		--surface-card: color-mix(in srgb, var(--bg-surface) 90%, var(--bg-deep));
-		--surface-card-strong: color-mix(in srgb, var(--bg-surface) 82%, var(--bg-deep));
-		--accent-border: color-mix(in srgb, var(--accent) 18%, var(--border-color));
+		--surface-card: color-mix(in srgb, var(--bg-surface) 92%, var(--bg-deep));
+		--surface-card-strong: color-mix(in srgb, var(--bg-surface) 86%, var(--bg-deep));
+		--card-border: color-mix(in srgb, var(--accent) 20%, var(--border-color));
+		--card-border-hover: color-mix(in srgb, var(--accent) 55%, transparent);
 		min-height: 100vh;
 		background:
 			radial-gradient(
-				circle at top,
-				color-mix(in srgb, var(--accent-soft) 52%, transparent) 0%,
-				transparent 36%
+				ellipse at top,
+				color-mix(in srgb, var(--primary-subtle) 120%, transparent) 0%,
+				transparent 45%
 			),
 			linear-gradient(
 				180deg,
@@ -335,295 +356,439 @@
 			);
 	}
 
+	/* ============ Hero ============ */
 	.hero {
-		max-width: 1100px;
+		max-width: 1200px;
 		margin: 0 auto;
-		padding: 3.5rem 1.5rem 2rem;
+		padding: 4rem 1.5rem 2.25rem;
 		text-align: center;
 	}
 
 	.eyebrow,
-	.section-kicker,
-	.card-label,
 	.mini-label,
-	.updated {
+	.card-label {
 		text-transform: uppercase;
-		letter-spacing: 0.12em;
+		letter-spacing: 0.14em;
 		font-size: 0.7rem;
 		font-weight: 700;
-	}
-
-	.eyebrow,
-	.section-kicker,
-	.card-label,
-	.mini-label {
-		color: var(--text-secondary);
+		color: var(--text-tertiary);
+		margin: 0;
 	}
 
 	h1,
 	h2,
 	h3 {
-		margin: 0;
 		color: var(--text-primary);
-		line-height: 1.1;
+		margin: 0;
 	}
 
 	h1 {
-		font-size: clamp(2rem, 4vw, 3.5rem);
+		margin-top: 0.75rem;
+		font-size: clamp(2.25rem, 4.5vw, 3.75rem);
 		letter-spacing: -0.03em;
-		margin-top: 0.4rem;
+		line-height: 1.08;
 	}
 
 	.lede {
-		max-width: 760px;
-		margin: 1rem auto 0;
+		max-width: 680px;
+		margin: 1.25rem auto 0;
 		color: var(--text-secondary);
 		font-size: 1.05rem;
-		line-height: 1.7;
+		line-height: 1.65;
 	}
 
-	.hero-stats {
-		display: flex;
+	.hero-meta {
+		display: inline-flex;
 		flex-wrap: wrap;
 		align-items: center;
 		justify-content: center;
-		gap: 0.75rem;
-		margin-top: 1.5rem;
+		gap: 0.65rem 0.9rem;
+		margin-top: 1.75rem;
+		padding: 0.6rem 1.1rem;
+		border-radius: 999px;
+		background: var(--surface-card);
+		border: 1px solid var(--border-color);
+	}
 
-		span,
-		a {
-			padding: 0.6rem 0.9rem;
-			border-radius: 999px;
-			background: var(--surface-card);
-			border: 1px solid var(--accent-border);
-			color: var(--text-secondary);
-			font-size: 0.85rem;
-			text-decoration: none;
+	.stat {
+		font-size: 0.9rem;
+		color: var(--text-secondary);
+
+		strong {
+			color: var(--text-primary);
+			font-weight: 700;
+			margin-right: 0.3rem;
 		}
 	}
 
-	.hero-link:hover {
-		border-color: color-mix(in srgb, var(--accent) 38%, transparent);
-		color: var(--primary);
+	.stat-divider {
+		color: var(--text-muted);
 	}
 
+	.hero-back {
+		font-size: 0.85rem;
+		color: var(--primary);
+		text-decoration: none;
+		padding-left: 0.85rem;
+		margin-left: 0.1rem;
+		border-left: 1px solid var(--border-color);
+		display: inline-flex;
+		align-items: center;
+		gap: 0.3rem;
+
+		&:hover {
+			color: var(--primary-light);
+		}
+	}
+
+	/* ============ Quick jump ============ */
+	.quick-jump {
+		max-width: 1200px;
+		margin: 0 auto 2.5rem;
+		padding: 0 1.5rem;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		gap: 0.5rem;
+	}
+
+	.jump-pill {
+		display: inline-flex;
+		align-items: center;
+		gap: 0.55rem;
+		padding: 0.5rem 0.85rem 0.5rem 0.75rem;
+		border-radius: 999px;
+		background: var(--surface-card);
+		border: 1px solid var(--border-color);
+		color: var(--text-secondary);
+		text-decoration: none;
+		font-size: 0.85rem;
+		transition:
+			color 0.18s ease,
+			border-color 0.18s ease,
+			background 0.18s ease,
+			transform 0.18s ease;
+
+		&:hover {
+			color: var(--text-primary);
+			transform: translateY(-1px);
+			border-color: color-mix(in srgb, var(--jump-accent) 55%, transparent);
+			background: color-mix(in srgb, var(--jump-accent) 10%, var(--surface-card));
+		}
+	}
+
+	.jump-dot {
+		width: 8px;
+		height: 8px;
+		border-radius: 50%;
+		background: var(--jump-accent);
+		box-shadow: 0 0 10px color-mix(in srgb, var(--jump-accent) 45%, transparent);
+		flex-shrink: 0;
+	}
+
+	.jump-label {
+		white-space: nowrap;
+	}
+
+	.jump-count {
+		font-size: 0.72rem;
+		font-weight: 700;
+		color: var(--text-tertiary);
+		padding: 0.1rem 0.45rem;
+		border-radius: 999px;
+		background: var(--bg-base);
+	}
+
+	/* ============ Content ============ */
 	.content {
 		max-width: 1200px;
 		margin: 0 auto;
-		padding: 1rem 1.5rem 4rem;
+		padding: 0 1.5rem 4rem;
 	}
 
 	.section {
-		margin-bottom: 3rem;
+		margin-bottom: 3.5rem;
+		scroll-margin-top: 2rem;
 	}
 
 	.section-head {
-		display: flex;
-		justify-content: space-between;
-		align-items: end;
-		gap: 1rem;
-		margin-bottom: 1.25rem;
-		padding-bottom: 0.85rem;
-		border-bottom: 1px solid var(--accent-border);
+		margin-bottom: 1.5rem;
+		padding-bottom: 1rem;
+		border-bottom: 1px solid var(--border-color);
+
+		h2 {
+			font-size: 1.6rem;
+			letter-spacing: -0.015em;
+		}
+
+		p {
+			margin: 0.3rem 0 0;
+			color: var(--text-secondary);
+			font-size: 0.95rem;
+			line-height: 1.5;
+			max-width: 54ch;
+		}
 	}
 
-	.section-copy {
-		margin: 0;
-		max-width: 420px;
-		color: var(--text-secondary);
-		text-align: right;
-		line-height: 1.5;
-	}
-
+	/* ============ Cards ============ */
 	.category-grid {
 		display: grid;
 		grid-template-columns: repeat(3, minmax(0, 1fr));
 		gap: 1.25rem;
 	}
 
-	.category-card,
-	.secondary-card {
+	.category-card {
+		position: relative;
 		text-decoration: none;
-		background:
-			linear-gradient(
-				180deg,
-				color-mix(in srgb, var(--accent-soft) 38%, transparent) 0%,
-				transparent 48%
-			),
-			var(--surface-card-strong);
-		border: 1px solid var(--accent-border);
-		border-radius: 1.1rem;
-		padding: 1.25rem;
+		background: var(--surface-card-strong);
+		border: 1px solid var(--card-border);
+		border-radius: 1rem;
+		padding: 1.75rem 1.5rem 1.25rem;
 		display: flex;
 		flex-direction: column;
-		gap: 0.85rem;
+		gap: 1rem;
 		box-shadow: var(--shadow-sm);
+		overflow: hidden;
+		scroll-margin-top: 6rem;
 		transition:
 			transform 0.2s ease,
 			border-color 0.2s ease,
 			box-shadow 0.2s ease;
 
 		&:hover {
-			transform: translateY(-4px);
-			border-color: color-mix(in srgb, var(--accent) 38%, transparent);
-			box-shadow: var(--shadow-lg);
+			transform: translateY(-3px);
+			border-color: var(--card-border-hover);
+			box-shadow:
+				var(--shadow-lg),
+				0 12px 28px -15px color-mix(in srgb, var(--accent) 55%, transparent);
 		}
 	}
 
-	.category-card h3 {
-		font-size: 1.15rem;
+	.card-accent-bar {
+		position: absolute;
+		inset: 0 0 auto 0;
+		height: 4px;
+		background: linear-gradient(
+			90deg,
+			var(--accent) 0%,
+			color-mix(in srgb, var(--accent) 55%, transparent) 100%
+		);
 	}
 
-	.card-top,
-	.secondary-top {
+	.card-head {
 		display: flex;
 		align-items: start;
 		justify-content: space-between;
 		gap: 0.75rem;
 	}
 
+	.card-title-group {
+		display: grid;
+		gap: 0.3rem;
+	}
+
+	.card-label {
+		color: color-mix(in srgb, var(--accent) 80%, var(--text-secondary));
+	}
+
+	.category-card h3 {
+		font-size: 1.25rem;
+		line-height: 1.2;
+		letter-spacing: -0.01em;
+	}
+
 	.count-pill {
-		min-width: 2.2rem;
-		padding: 0.35rem 0.55rem;
+		flex-shrink: 0;
+		min-width: 2.25rem;
+		padding: 0.3rem 0.6rem;
 		border-radius: 999px;
-		background: var(--surface-card);
-		border: 1px solid var(--accent-border);
+		background: color-mix(in srgb, var(--accent-soft) 75%, var(--bg-base));
+		border: 1px solid color-mix(in srgb, var(--accent) 30%, transparent);
 		color: var(--text-primary);
 		text-align: center;
 		font-size: 0.8rem;
 		font-weight: 700;
 	}
 
-	.summary,
-	.secondary-card p {
+	.summary {
 		margin: 0;
 		color: var(--text-secondary);
-		font-size: 0.9rem;
+		font-size: 0.92rem;
 		line-height: 1.55;
 	}
 
-	.tag-row {
-		display: flex;
-		flex-wrap: wrap;
-		gap: 0.45rem;
+	.card-body {
+		display: grid;
+		gap: 0.9rem;
 	}
 
-	.cluster-preview {
+	.block {
 		display: grid;
 		gap: 0.45rem;
 	}
 
-	.cluster-chip-row {
+	.chip-row {
 		display: flex;
 		flex-wrap: wrap;
 		gap: 0.4rem;
 	}
 
-	.cluster-chip {
-		padding: 0.35rem 0.55rem;
-		border-radius: 0.75rem;
-		background: var(--surface-card);
-		border: 1px solid var(--accent-border);
+	.chip {
+		padding: 0.3rem 0.6rem;
+		border-radius: 0.5rem;
+		background: color-mix(in srgb, var(--bg-base) 55%, transparent);
+		border: 1px solid var(--border-color);
 		color: var(--text-primary);
-		font-size: 0.72rem;
+		font-size: 0.75rem;
 		line-height: 1.3;
 	}
 
-	.cluster-chip.muted {
-		color: var(--text-secondary);
+	.chip.muted {
+		color: var(--text-tertiary);
 	}
 
-	.tag-chip {
-		padding: 0.35rem 0.55rem;
-		border-radius: 999px;
-		background: var(--surface-card);
-		border: 1px solid var(--accent-border);
-		color: var(--text-secondary);
-		font-size: 0.74rem;
-	}
-
-	.featured-block ul {
-		margin: 0.45rem 0 0;
-		padding-left: 1rem;
+	.featured-names {
+		margin: 0;
 		color: var(--text-primary);
-		line-height: 1.7;
+		font-size: 0.88rem;
+		line-height: 1.5;
+	}
+
+	.featured-names .bullet {
+		margin: 0 0.4rem;
+		color: var(--text-muted);
 	}
 
 	.card-footer {
 		margin-top: auto;
+		padding-top: 0.85rem;
+		border-top: 1px solid color-mix(in srgb, var(--border-color) 65%, transparent);
 		display: flex;
 		align-items: center;
 		justify-content: space-between;
 		gap: 0.75rem;
 	}
 
-	.distribution {
-		display: flex;
-		flex-wrap: wrap;
-		gap: 0.4rem;
-
-		span {
-			font-size: 0.72rem;
-			color: var(--text-secondary);
-		}
-	}
-
 	.cta {
 		display: inline-flex;
 		align-items: center;
 		gap: 0.35rem;
-		color: var(--primary);
-		font-size: 0.82rem;
+		color: var(--accent);
+		font-size: 0.88rem;
 		font-weight: 600;
+		white-space: nowrap;
+	}
+
+	.category-card:hover .cta {
+		gap: 0.55rem;
 	}
 
 	.updated {
-		color: var(--text-tertiary);
-		margin: 0;
+		font-size: 0.68rem;
+		color: var(--text-muted);
+		letter-spacing: 0.06em;
 	}
 
-	.secondary-grid {
-		display: grid;
-		grid-template-columns: repeat(3, minmax(0, 1fr));
-		gap: 1.25rem;
+	/* ============ Alt browse ============ */
+	.alt-browse {
+		margin-top: 3rem;
+		padding: 2rem;
+		display: flex;
+		flex-wrap: wrap;
+		gap: 1.5rem;
+		align-items: center;
+		justify-content: space-between;
+		background: var(--surface-card);
+		border: 1px solid var(--border-color);
+		border-radius: 1rem;
+
+		.alt-copy {
+			max-width: 60ch;
+		}
+
+		h2 {
+			margin: 0.3rem 0 0.35rem;
+			font-size: 1.35rem;
+		}
+
+		p {
+			margin: 0;
+			color: var(--text-secondary);
+			font-size: 0.92rem;
+			line-height: 1.5;
+		}
 	}
 
-	.compact {
-		gap: 0.35rem;
+	.alt-link {
+		display: inline-flex;
+		align-items: center;
+		gap: 0.5rem;
+		padding: 0.7rem 1.25rem;
+		border-radius: 999px;
+		background: var(--primary);
+		color: var(--text-on-primary);
+		text-decoration: none;
+		font-weight: 600;
+		font-size: 0.9rem;
+		box-shadow: var(--glow-sm);
+		transition:
+			transform 0.18s ease,
+			background 0.18s ease;
+
+		&:hover {
+			transform: translateY(-1px);
+			background: var(--primary-dark);
+		}
 	}
 
-	.compact-preview {
-		margin-top: 0.1rem;
-	}
-
-	@media (max-width: 1100px) {
-		.category-grid,
-		.secondary-grid {
+	/* ============ Responsive ============ */
+	@media (max-width: 1024px) {
+		.category-grid {
 			grid-template-columns: repeat(2, minmax(0, 1fr));
 		}
 	}
 
-	@media (max-width: 720px) {
+	@media (max-width: 640px) {
 		.hero {
-			padding: 2.5rem 1rem 1.5rem;
+			padding: 2.5rem 1rem 1.75rem;
 		}
 
 		.content {
-			padding: 0.75rem 1rem 3rem;
+			padding: 0 1rem 3rem;
 		}
 
-		.section-head {
-			flex-direction: column;
-			align-items: start;
+		.quick-jump {
+			padding: 0 1rem 0.5rem;
+			flex-wrap: nowrap;
+			justify-content: flex-start;
+			overflow-x: auto;
+			scrollbar-width: none;
+
+			&::-webkit-scrollbar {
+				display: none;
+			}
 		}
 
-		.section-copy {
-			text-align: left;
+		.jump-pill {
+			flex-shrink: 0;
 		}
 
-		.category-grid,
-		.secondary-grid {
+		.category-grid {
 			grid-template-columns: 1fr;
+		}
+
+		.section-head h2 {
+			font-size: 1.35rem;
+		}
+
+		.alt-browse {
+			flex-direction: column;
+			align-items: stretch;
+			padding: 1.5rem;
+		}
+
+		.alt-link {
+			justify-content: center;
 		}
 	}
 </style>

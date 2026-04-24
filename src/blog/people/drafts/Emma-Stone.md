@@ -46,11 +46,9 @@ Acting didn't let her run from herself. It forced her into the only place her an
 
 ## The House That Was Always on Fire
 
-Emily Jean Stone grew up in Scottsdale, Arizona — comfortable suburban childhood, younger brother Spencer, parents Jeff and Krista. "I am blessed with a great family and great people around me that would be able to kick me in the shins if I ever for one minute got lost up in the clouds." Nothing about the family portrait explains what was happening inside her head.
+Emily Jean Stone grew up in Scottsdale, Arizona — comfortable suburban childhood, younger brother Spencer, parents Jeff and Krista. Nothing about the family portrait explains what was happening inside her head.
 
-The panic attacks started at seven and would not stop for three years. Her chest would get tight. She couldn't breathe. Her mother would come get her. Every time. But neither of them understood what was happening.
-
-The root, she'd discover in therapy, was separation anxiety. "I had massive separation anxiety from my mom," she told Terry Gross on NPR's _Fresh Air_ in 2024. "I, for some reason, had convinced myself that if I wasn't watching out for her, that something terrible could happen to her." A seven-year-old, standing guard over the one person she couldn't lose, certain that the moment she looked away the world would swallow her mother whole.
+The root, she'd learn in therapy, was separation. "I had massive separation anxiety from my mom," she told Terry Gross on NPR's _Fresh Air_ in 2024. "I, for some reason, had convinced myself that if I wasn't watching out for her, that something terrible could happen to her." A seven-year-old, standing guard over the one person she couldn't lose, certain that the moment she looked away the world would swallow her mother whole.
 
 In therapy, at age nine, she drew a picture. Herself, standing tall. Next to her, a tiny green figure. Across the top, in neat nine-year-old handwriting: "I'm bigger than my anxiety!"
 
@@ -74,15 +72,19 @@ In January 2004, she and her mother moved to a small apartment in Los Angeles. H
 
 She auditioned for every Disney Channel show. Every sitcom daughter role. She bombed her audition for Nickelodeon's _All That_. Then she went in for _Heroes_.
 
-She heard through the wall as the casting director told Hayden Panettiere, "You got the part. You're an 11." Stone went home and had what she called a "meltdown." She tried "Riley Stone" as a stage name for six months after that. People kept calling her Riley and she didn't realize they were talking to her.
+She heard through the wall as the casting director told Hayden Panettiere, "You got the part. You're an 11." Stone went home and had what she called a "meltdown." Around the same time, SAG told her she couldn't be Emily Stone — one was already registered. She tried "Riley" for six months, didn't answer when people said it, and settled on Emma because it was close enough to Emily that she'd still turn around.
 
-She settled on Emma because it was close enough to Emily. Not close enough to feel like herself, but close enough that she'd turn around when someone said it.
+_Superbad_ came in 2007 — her first real gig, Jonah Hill's love interest. Judd Apatow took one look at her blonde hair and suggested she dye it red to differentiate her from the other female lead. The accident became the brand. She's been the red-haired girl in every photograph since. Apatow later joked that he'd "cursed" her — casting directors would demand she stay red, and she couldn't return to her natural color on screen for years.
 
-_Superbad_ came in 2007. _Zombieland_ in 2009. Then _Easy A_ in 2010, and everything changed overnight. She was a movie star. She was famous. And the anonymity that had been protecting her from her own anxiety vanished.
+_Zombieland_ in 2009. Then _Easy A_ in 2010, a wink-to-camera rewrite of _The Scarlet Letter_ that she carried on her back. The opening montage — Olive dancing around her house compulsively singing "Pocketful of Sunshine" after complaining that it was stuck in her head — is a perfect Seven gag. Take a song you hate. Reframe it. Move through it. Dance it out. That's the coping mechanism on film.
+
+And then she was a movie star. And the anonymity that had been protecting her from her own anxiety vanished.
 
 "Losing my anonymity after _Easy A_, it was like being 7 years old all over again."
 
 She fled to New York. "I started to feel overwhelmed by the energy of Hollywood... I would go places, and all anybody could talk about was the entertainment industry." She was twenty-one, and fame had done exactly what her anxiety always predicted: it made the world feel unsafe.
+
+Around the same time, she fell in love with Andrew Garfield. They met in 2010 when he screen-tested opposite her for _The Amazing Spider-Man_ — she'd already been cast as Gwen Stacy, and the chemistry was visible from the first read. "She keeps you on your toes, and that wakes you up," Garfield said later. They dated for four years. At the _Amazing Spider-Man 2_ premiere in 2014, a reporter assumed the relationship out loud, and Garfield cut him off mid-question: "My personal life is not public property." Stone stood next to him in silence. She never needed to say it herself. By the time they split in 2015, she had learned the rule she has followed ever since: talk about the work, never about the life.
 
 ---
 
@@ -90,10 +92,10 @@ She fled to New York. "I started to feel overwhelmed by the energy of Hollywood.
 <summary class="accordion">TL;DR: Why Emma Stone is an Enneagram Type 7</summary>
 <div class="panel">
 <ul>
-<li><b>The anxiety-to-alchemy pipeline:</b> Since age seven, she has turned terror into fuel — reframing panic into performance, rejection into reinvention, vulnerability into art.</li>
-<li><b>The Emily/Emma split:</b> She maintains a deliberate "avatar" of herself for public life while fiercely protecting her private world.</li>
-<li><b>The Lanthimos partnership:</b> Four films with cinema's most demanding director reveal what happens when she trusts someone enough to stop managing the fire.</li>
-<li><b>The perfectionist shadow:</b> OCD, self-criticism, and the relentless need to measure everything — the cost of the alchemy when it fails.</li>
+<li><b>The anxiety-to-alchemy pipeline:</b> Since age seven, she has converted terror into fuel — reframing panic into performance, rejection into reinvention, vulnerability into art.</li>
+<li><b>The Emily/Emma split:</b> The name isn't hers. The hair isn't hers. The public avatar was built in pieces she's been trying to take off for two decades.</li>
+<li><b>The envelope-and-Lanthimos pattern:</b> Her best moments — the 2017 Oscars chaos, the Bella Baxter surrender — all arrive when she stops managing and starts trusting the room.</li>
+<li><b>The perfectionist shadow:</b> OCD, self-criticism, the first-chair flute she couldn't actually play — the cost of the alchemy when it fails.</li>
 </ul>
 </div>
 </details>
@@ -118,7 +120,7 @@ The evidence:
 - **"A very selfish condition"**: Her awareness that anxiety keeps you trapped in your own head — and her career-long strategy of escaping that head through characters.
 - **The refusal of armor**: She knows that growing "rhino skin" would protect her but kill her performances. She has chosen to stay open. The pain is worth it if the experiences are worth it.
 
-Her wing is Six — the Loyalist. This adds the anxiety that makes her look nothing like the stereotypical sunny Seven. It adds the worst-case-scenario thinking, the security-seeking, and the loyalty that keeps her returning to the same collaborators: <a href="/personality-analysis/Ryan-Gosling">Ryan Gosling</a> across four films, Yorgos Lanthimos across four films, <a href="/personality-analysis/Jennifer-Lawrence">Jennifer Lawrence</a> as a daily texting partner for over a decade. A Seven without the Six wing scatters freely. Stone scatters within constraints she's carefully chosen.
+Her wing is Six — the Loyalist. This adds the anxiety that makes her look nothing like the stereotypical sunny Seven. It adds the worst-case-scenario thinking, the security-seeking, and the loyalty that keeps her returning to the same collaborators: <a href="/personality-analysis/Ryan-Gosling">Ryan Gosling</a> across four films, Yorgos Lanthimos across four films, <a href="/personality-analysis/Jennifer-Lawrence">Jennifer Lawrence</a> as a daily texting partner for more than a decade, Taylor Swift as a friend since they met in matching purple dresses at the Young Hollywood Awards in 2008. A Seven without the Six wing scatters freely. Stone scatters within constraints she's carefully chosen.
 
 Under stress, Type 7s move toward the unhealthy patterns of [Type 1](/enneagram-corner/enneagram-type-1) — becoming rigid, self-critical, perfectionistic. In growth, they move toward [Type 5](/enneagram-corner/enneagram-type-5) — developing focus, depth, the ability to sit with one thing instead of chasing the next.
 
@@ -154,6 +156,28 @@ The perfectionism is the cage. The surrender is the key. She keeps finding herse
 
 ---
 
+## The La La Land Crack-Up
+
+In 2016, Damien Chazelle offered her Mia — an actress grinding through auditions for a role nobody thought she was right for. Stone identified too easily. "The parts of Mia that I related to were going on audition after audition and walking into a room where everybody's kind of dressed like the character, they look like you, you're saying one line and then they ask you to leave because they know you're not right for it," she told _Backstage_. "I've had that experience many times."
+
+The audition scene — Mia's six-minute breakdown singing "The Fools Who Dream" — is a monologue of someone admitting the cost of hope out loud. Stone filmed it after weeks of voice rest. "It's a moment where Mia finally cracks and says, 'F— it, I'm a fool who dreams. This is who I am and this is all I've got after all that rejection.'"
+
+She won her first Academy Award for it on February 26, 2017. The speech was classic Seven humility — not arrival, but a "really beautiful symbol to continue on that journey." She thanked Gosling for "making me laugh and for always raising the bar and being the greatest partner on this crazy adventure."
+
+Then, minutes later, the envelope.
+
+Warren Beatty read "La La Land" for Best Picture. Stone watched her entire cast walk to the stage. Then, mid-speech, Jordan Horowitz cut in with the correction: _Moonlight_ had won. The producers had handed the wrong card to Beatty. The entire auditorium froze.
+
+Stone, backstage afterward, was still holding something. "I was holding my Best Actress in a Leading Role card that entire time. So whatever story — I don't mean to start stuff, but whatever story that was, I had that card." She was literally the person in possession of the evidence of the mistake.
+
+And then she said what almost no one who'd just lost Best Picture would say: "I fucking love _Moonlight_. God, I love _Moonlight_ so much. I think it's one of the best films of all time, so I was pretty beside myself."
+
+No managing. No grief. Someone else's film had won and she was genuinely glad about it, in real time, with the cameras still rolling. Then: "Is that the craziest Oscar moment of all time? We made history tonight."
+
+The envelope mix-up has become cinema lore — the most chaotic Best Picture reveal in the Academy's history. For the woman whose entire operating system runs on converting chaos into motion, the strangest thing that ever happened at an awards show was also the thing she was the most natural inside.
+
+---
+
 ## The Avatar and Emily
 
 In August 2025, at the Venice Film Festival, a reporter asked Emma Stone how she handles fame without "turning into an alien."
@@ -164,11 +188,11 @@ Then she got serious: "I call it the avatar outside of me. There's me and then t
 
 _There's me. And there's me here._
 
-That's not a metaphor. That's an architecture. Emma Stone — the version on red carpets, in press junkets, accepting Oscars with a broken dress — is a construct. Emily Stone — the version who watches Jeopardy! every night, scores herself, and lives in a bubble of deliberate invisibility with her husband and daughter — is the person underneath.
+That's not a metaphor. That's an architecture. Emma Stone — the version on red carpets, in press junkets, accepting Oscars with a broken dress — is a construct built in pieces over twenty years: the name SAG forced on her at sixteen, the red hair Judd Apatow suggested for _Superbad_, the voice that was supposed to be fixed. Emily Stone — the version who watches Jeopardy! every night, scores herself, and lives in a bubble of deliberate invisibility with her husband and daughter — is the person underneath all of it.
 
-After _Easy A_ made her famous overnight, the loss of anonymity brought everything back — the panic, the certainty that nowhere was safe. She moved to New York. She hid. She built walls.
+She met Dave McCary at _Saturday Night Live_ in December 2016. He was directing a Julio Torres digital short called "Wells for Boys" — about a sensitive little boy who only wants to play with his plastic well while his mother watches over him with the kind of tenderness that understands, rather than tries to toughen, the kid. Stone played the mother. The universe handed her the metaphor and then introduced her to the director.
 
-She met Dave McCary when she hosted _Saturday Night Live_ in 2016. He was a segment director. He wasn't famous. They dated quietly for three years, got engaged with a pearl ring, and married in September 2020 during COVID — no announcement, no photos, no fanfare. Their daughter Louise Jean McCary was born in March 2021. Almost no public photographs of Louise exist. This is intentional.
+McCary wasn't famous. They dated quietly for three years, got engaged with a pearl ring, and married in September 2020 during COVID — no announcement, no photos, no fanfare. Their daughter Louise Jean McCary was born in March 2021. Almost no public photographs of Louise exist. This is intentional.
 
 "Sometimes it's a little embarrassing to say you're an actor on the forms you fill out," she has said. She describes herself on paperwork as "self-employed." After two Oscars.
 
@@ -208,19 +232,7 @@ What makes the Lanthimos partnership so revealing is the question at its center:
 
 <a href="/personality-analysis/Ryan-Gosling">Ryan Gosling</a> once described working with her: "Emma Stone is just, like, constantly opening Christmas presents. There's nobody like her." The observation is more precise than it sounds. Christmas presents are about anticipation — the thing in the box might be anything. For someone whose mind is a possibility engine, always racing ahead to the next scenario, the present moment is a gift she gets to unwrap. Even the terrifying ones.
 
----
-
-## The Broken Dress and the Infinity Stones
-
-At the 2024 SAG Awards, when Lily Gladstone's name was announced as the winner — beating Stone for Outstanding Performance by a Female Actor — Stone leapt out of her seat and applauded furiously. The reaction went viral because it didn't look like graciousness performed. It looked unguarded. She wasn't managing anything.
-
-She later gave Gladstone a gold ring she called an "Infinity Stones" ring — a pun on their shared surname. "We call each other Infinity Stones," Gladstone said. Stone had already given her the matching one.
-
-A few weeks later, at the Oscars, Stone won Best Actress for _Poor Things_. She walked to the stage and her opening line was: "My dress is broken. I think it happened during 'I'm Just Ken.'"
-
-The zipper had split during Ryan Gosling's performance earlier in the show. She had been dancing. She had been, for a few unguarded minutes, not managing anything at all.
-
-She accepted her second Academy Award held together by safety pins. In her speech: "My daughter, who's going to be 3 in three days and has turned our lives technicolor. I love you bigger than the whole sky, my girl."
+Somewhere in the middle of the Lanthimos years, she started building a house behind the camera. In 2020 she and Dave McCary founded Fruit Tree, a production company that has since backed some of the most distinctive debut and sophomore features of the era: Jane Schoenbrun's _I Saw the TV Glow_, Julio Torres's _Problemista_, Jesse Eisenberg's _A Real Pain_. In March 2025 they signed a first-look television deal with Fremantle. The woman who spent twenty years chasing the thing that would quiet her mind is now curating which other minds get that chance. That's the arrow bending toward Five — focus, patronage, the discipline to sit with one filmmaker's vision long enough to shepherd it to screen.
 
 <div class="key-stat-row">
 <div class="key-stat">
@@ -236,6 +248,20 @@ She accepted her second Academy Award held together by safety pins. In her speec
 <span class="key-stat-label">Years in therapy (and counting)</span>
 </div>
 </div>
+
+---
+
+## The Broken Dress and the Infinity Stones
+
+At the 2024 SAG Awards, when Lily Gladstone's name was announced as the winner — beating Stone for Outstanding Performance by a Female Actor — Stone leapt out of her seat and applauded furiously. The reaction went viral because it didn't look like graciousness performed. It looked unguarded. She wasn't managing anything.
+
+She later gave Gladstone a gold ring she called an "Infinity Stones" ring — a pun on their shared surname. "We call each other Infinity Stones," Gladstone said. Stone had already given her the matching one.
+
+A few weeks later, at the Oscars, Stone won Best Actress for _Poor Things_. She walked to the stage and her opening line was: "My dress is broken. I think it happened during 'I'm Just Ken.'"
+
+The zipper had split during Ryan Gosling's performance earlier in the show. She had been dancing. She had been, for a few unguarded minutes, not managing anything at all.
+
+She accepted her second Academy Award held together by safety pins. In her speech: "My daughter, who's going to be 3 in three days and has turned our lives technicolor. I love you bigger than the whole sky, my girl."
 
 ---
 

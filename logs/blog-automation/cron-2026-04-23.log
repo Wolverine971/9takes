@@ -1,0 +1,68 @@
+[2026-04-23 02:06:53] [INFO] Starting daily blog creator (--non-interactive)
+[2026-04-23 02:06:53] [INFO] Pre-flight: pause=false, inProgress=null, forceNext=null
+[2026-04-23 02:06:53] [INFO] Rate limit: new week detected (weekStartDate rolled from 2026-04-16 to 2026-04-23), reset count 0/5
+[2026-04-23 02:06:53] [WARN] Skipping queue head brene-brown (priority 98): draft already exists at src/blog/people/drafts/Brene-Brown.md and entry is logged in completed with pending grade/publish cleanup
+[2026-04-23 02:06:53] [INFO] SELECTED: cardi-b (Type 8, Priority: 89)
+[2026-04-23 02:06:53] [INFO] Reason: Always trending, massive social media presence, strong Type 8 personality
+BLOG IN PROGRESS: cardi-b - skipping today's run
+
+Pre-flight check halted execution. The backlog queue already shows `inProgress: cardi-b` (Cardi B, Type 8, Priority 89), started at `2026-04-23T02:05:00Z`. Per the critical rules, the daily blog creator must not run while another blog is in progress.
+
+```
+=== DAILY BLOG CREATOR SUMMARY ===
+Date: 2026-04-23
+Status: SKIPPED (in-progress blog detected)
+Blog: cardi-b (Cardi B)
+Started: 2026-04-23T02:05:00Z
+Selection note: Skipped queue-head brene-brown — draft already exists and is logged in completed with pending grade/publish cleanup
+Next Run: Tomorrow 2:00 AM
+===================================
+```
+
+Notes for follow-up (no action taken — flagging only):
+- `inProgress.cardi-b` was set at 02:05Z today but this run is executing shortly after; no prior completion/failure log entry resolves it. If this is a stale lock (no active Cardi B run), the `inProgress` field will need to be cleared manually before tomorrow's run.
+- `completed[]` contains a Brené Brown entry noting her draft exists at `src/blog/people/drafts/Brene-Brown.md` with `enneagram: 1` in frontmatter vs `type: 2` in the queue — verify before publish.
+Draft complete.
+
+**Location:** `/src/blog/people/drafts/Cardi-B.md`
+**Preview:** Visit `/admin/drafts/Cardi-B` to review
+
+**Type call:** Enneagram **8w7, sexual subtype** — confidence high.
+
+**Core tension:** Armor vs. exposure. The Bronx kid who built a fortress of *say-anything-fear-nothing*, who now has to live with the loneliness of never being able to safely lower it.
+
+**Internal links added (5 total):**
+- [Type 8](/enneagram-corner/enneagram-type-8) — in "Bodak Yellow" section
+- [Type 5 stress arrow](/enneagram-corner/enneagram-type-5) — in album-delay section
+- [8-to-5 stress arrow](/enneagram-corner/enneagram-types-in-stress) — in cave section
+- [Movement toward Type 2](/enneagram-corner/enneagram-type-2) — in growth-edge section
+- [Rihanna](/personality-analysis/Rihanna) — in final chapter (fellow Type 8 who walked away)
+
+**Quality grade:** **9.0 (A)** — Hook 9, Enneagram 9, Evidence 9, Writing 9, Originality 9.
+
+**Triple titles:**
+- `title`: "Cardi B: Enneagram Type 8 Analysis"
+- `meta_title`: "Why Cardi B Can't Stop Saying the Quiet Part Out Loud" (52 chars)
+- `persona_title`: "The Bronx's Unbossable Challenger"
+
+**Signature moves:** shoe throw reframed as Type 8 protection radar (Nicki liked tweets about two-month-old Kulture); seven-year *Am I the Drama?* gap diagnosed as 8-to-5 retreat; "regular degular shmegular" read as preemptive self-exposure armor; the Grammy "I can't breathe" as the rare moment the 8 operating system got overwhelmed in public.
+
+**Known limitation:** Light on testimony from people around her — her public archive is so dominated by her own voice that outside quotes are harder to surface at the density I'd want.
+
+**Options:**
+1. Edit specific sections (tell me what to change)
+2. Pull more testimony from collaborators/family to strengthen evidence
+3. Approve the draft → I'll update `production_pretext.status` to `ready` and hand off to `blog_content_production_people`
+4. Continue editing later
+
+**Sources:**
+- [Cardi B — Wikipedia](https://en.wikipedia.org/wiki/Cardi_B)
+- [Cardi B: I Became a Stripper to Escape Domestic Violence](https://www.youtube.com/watch?v=vzfcNl-o9bI)
+- [Cardi B opens up about gang affiliation (GQ)](https://hiphopwired.com/749259/cardi-b-details-butt-shots-in-gq-interview-talks-bloods-gang-affiliation/)
+- [Bernie Sanders + Cardi B on Instagram Live (Washington Post)](https://www.washingtonpost.com/arts-entertainment/2020/04/15/bernie-sanders-cardi-b-joe-biden-coronavirus/)
+- [Cardi B Wins Best Rap Album 2019 (Grammy.com)](https://www.grammy.com/news/cardi-b-wins-best-rap-album-invasion-privacy-2019-grammys)
+- [Nicki Minaj–Cardi B feud — Wikipedia](https://en.wikipedia.org/wiki/Nicki_Minaj%E2%80%93Cardi_B_feud)
+- [Am I the Drama? — Wikipedia](https://en.wikipedia.org/wiki/Am_I_the_Drama)
+- [Cardi B on Jay Shetty (Oct 2025)](https://www.jayshetty.me/podcast/cardi-b-overcoming-depression-blocking-out-the-hate-owning-your-power)
+- [Cardi B explains reason for divorce — Essence](https://www.essence.com/love/cardi-b-explains-reason-divorce-offset/)
+- [Cardi B reconciliation reasoning — E! News](https://www.eonline.com/news/1100823/cardi-b-explains-her-decision-to-stay-with-offset-after-his-cheating)

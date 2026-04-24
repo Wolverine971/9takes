@@ -11,8 +11,8 @@
 **Relationship Status:** Warm
 **Audience Quality:** High (therapy-literate, personal stories, low spam)
 **Profile Created:** 2026-04-06
-**Last Reviewed:** 2026-04-20
-**Last Engaged:** 2026-04-06 PM (commented on lovability post — now 14 days ago; Apr 7/10/11/13/19 drafted replies never confirmed posted)
+**Last Reviewed:** 2026-04-23 PM
+**Last Engaged:** Apr 6 PM plus at least one older sub-thread reply ("@\_alicedileo yes" on DXVPev6iUYg, 3d ago, 2 likes). Apr 20 "performing vs having" top-level draft was NOT posted (verified via on-post inspection 2026-04-23 — only the @\_alicedileo sub-reply visible). Apr 7/10/11/13/19 top-level drafted replies never confirmed posted.
 **Source of First Discovery:** Engagement targets list (Tier 2: Psychology, Therapy & Mental Health)
 
 ## Condensed Intel
@@ -65,20 +65,25 @@
 | 2026-04-20 | Carousel | **NEW: "When couples start to heal, it often sounds like this"** (DXVPev6iUYg)                                                     | Reviewed  | Queued    | 18h old, 437 likes, **3 comments** (one spam/unrelated) on 1.3M account. https://www.instagram.com/thesecurerelationship/p/DXVPev6iUYg/ Julie's line: "The couples that actually heal stop performing the conversation and start having it. Most never get there." Unusually thin comment floor — better target than Apr 19 cycle post. Level 0.                                                                                                                                                                                                                                                                                                          | Pending — TOP PRIORITY, supersedes Apr 19 cycle draft     | 2026-04-20_instagram-warmup.md     |
 | 2026-04-20 | Carousel | "When couples start to heal" — replies drafted                                                                                     | Drafted   | Pending   | 3 options drafted (Level 0, v4 voice rules). Best Option 1: "performing sounds like waiting for the pause so you can deliver the sentence you already rehearsed in your head. having it sounds like saying the half-formed version out loud before you have time to clean it up." Points at two concrete behaviors rather than abstracting Julie's line. Option 2 casual backup ("waiting for your turn to prove you're not the bad guy"). Option 3 body-level backup ("performing keeps your face arranged"). Avoid "trauma bond," "pre-emptive strike," "the room feels different," "first time the real person gets to be in the room," and em dashes. | Drafted - Pending Posting                                 | 2026-04-20_instagram-replies.md    |
 
+| 2026-04-23 | Post inspection | Apr 20 DXVPev6iUYg "performing vs having" draft NOT posted | https://www.instagram.com/thesecurerelationship/p/DXVPev6iUYg/ | Reviewed | Retired | Post now 3d old, 701 likes, 5 comments. Only @9takesdotcom trace is an older sub-thread reply to @\_alicedileo ("@\_alicedileo yes" — 2 likes). The drafted "performing vs having" top-level comment never posted. Window closed; retire the Apr 20 Julie draft. | N/A | 2026-04-23_instagram-warmup-pm.md |
+| 2026-04-23 | Carousel | **DXcua-jjmP1 — "Blaming vs Owning"** | https://www.instagram.com/thesecurerelationship/p/DXcua-jjmP1/ | Reviewed | Queued — STRONG | 19h old, 809 likes, ~7-8 real comments. Julie's caption: "This doesn't mean tolerating behavior that hurts you. It means recognizing where your power actually is." The Blaming vs Owning side-by-side is her classic agency frame. Moderately fresh floor (not as thin as Jackie/Vienna today) but strong fit + warm relationship. Level 0. | Pending — Priority 3 today | 2026-04-23_instagram-warmup-pm.md |
+| 2026-04-23 | Carousel | DXcua-jjmP1 — Blaming vs Owning — replies drafted | https://www.instagram.com/thesecurerelationship/p/DXcua-jjmP1/ | Drafted | Pending | 3 options drafted under v5 workflow (Level 0 only, hard). **Best Option 1 (Extend, observable tell):** "blaming sounds like a list of things they do wrong. owning sounds like a list of things you're still responsible for regardless of what they do. one is an argument against someone, the other is an argument for yourself." Option 2 (Complicate) names the "my life has to work even if they never change" axis that makes leaving a legitimate owned move. Option 3 (Cheer) names what Julie did ("recognizing where your power actually is") that most agency posts skip. All three avoid trauma-bond, pre-emptive strike, "performing vs having" (Apr 20 retired), and em dashes. | Drafted - Pending Posting | 2026-04-23_instagram-replies-pm.md |
+
 ## Open Loops
 
-- **NEW (Apr 20): "When couples start to heal" carousel** — 18h, 437 likes, 3 comments (1 spam). https://www.instagram.com/thesecurerelationship/p/DXVPev6iUYg/ TOP priority — fresher and thinner floor than Apr 19 target. Needs drafting in `/instagram-reply`.
-- Apr 19 "cycle is the problem" post still drafted but now 38h old — superseded by Apr 20 post. Consider retiring the Apr 19 draft or holding it as a fallback.
-- 14-day natural spacing since last confirmed-posted engagement (Apr 6 PM). Anti-try-hard zone still intact.
-- Julie liked 3 of our comments in the first week. Relationship still Warm.
+- **NEW (Apr 23 PM): DXcua-jjmP1 — "Blaming vs Owning"** — 19h, 809 likes, ~7-8 comments. Level 0. Moderate floor but agency/power framing is strong Julie territory. https://www.instagram.com/thesecurerelationship/p/DXcua-jjmP1/
+- **CLOSED (Apr 23): Apr 20 "performing vs having" draft was never posted; window closed** (post now 3d, 701 likes). Retire.
+- **Continued old signal:** @9takesdotcom has at least one sub-thread reply on DXVPev6iUYg ("@\_alicedileo yes", 2 likes) — minor touchpoint but proves basic engagement activity on this post.
+- 17+ day natural spacing since last confirmed-posted top-level engagement. Anti-try-hard zone still intact.
+- Julie liked 3+ of our comments in the first week. Relationship still Warm.
 - Apr 13 anxiety post & Apr 13 drafted replies never confirmed posted — treat as aged out
 - Still unknown whether Apr 7 anxious-vs-avoidant or Apr 10 shame comments were actually posted
 
 ## Next Best Angles
 
-- **Today (priority — "When couples start to heal" post):** Julie's line is "performing the conversation vs having it." The gap between those two is almost entirely about whether each person can tolerate being affected in the moment. Most people think they're listening — they're actually running a script that keeps their nervous system safe. Healing sounds different not because the words change, but because the person speaking them has finally put down the defense that was writing the script. Level 0 — do NOT mention Enneagram.
-- **Alt angle (pleasers / over-functioners):** The phrases Julie shows ("I need a minute," "I was wrong," "tell me more") cost almost nothing to say, and almost everything to actually feel. The sentences are simple; the nervous system shifts behind them are what took years.
-- **Alt angle (sharper):** "performing the conversation keeps you safe. having it risks you. most couples never fully cross that line because both of them learned somewhere that being fully yourself in love is how you get hurt."
-- **Apr 19 fallback — "cycle is the problem" post:** Non-villain framing still valid if the Apr 20 post doesn't land. 38h+ now, aging but not dead.
+- **Today (priority — DXcua-jjmP1 "Blaming vs Owning"):** Julie draws a binary between Blaming (my partner is the problem, I'll change when they do) and Owning (I'm responsible for getting my needs met, which may or may not include this relationship). The cleanest Level 0 extension points at the step between the two: most people assume owning = staying and working harder. Julie's Owning paragraph explicitly includes "or leaving the relationship." The owned move isn't staying; it's choosing. A sharper reply could name that — owning your needs is what makes leaving legible, not what forbids it. Level 0 only.
+- **Alt angle (observable tell):** "the blaming version sounds like a list of things they do wrong. the owning version sounds like a list of things you're still responsible for regardless of what they do. easy to tell the difference in two sentences — one is an argument against someone, the other is an argument for yourself."
+- **Alt angle (agency-forward):** "the jump from blaming to owning is not 'they're off the hook.' it's 'my life still has to work even if they never change.' that part is the quiet rewrite."
+- **Apr 20 retired — do not draft on "performing vs having" post.**
 - **Future:** The "missed bid for connection" angle — how missing bids accumulates silently until someone "suddenly" shuts down
 - **Future:** The role of childhood in what your nervous system registers as "positive" vs "dangerous" in relationships

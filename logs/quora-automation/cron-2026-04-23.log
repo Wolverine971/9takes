@@ -1,0 +1,38 @@
+```
+Quora warmup complete for 2026-04-23.
+
+Searches run: 13
+Questions evaluated: 9
+Questions queued: 6
+Questions skipped: 3
+
+Priority queue:
+1. "Why are some people always busy, but not really getting anywhere?" — Est. 30K+ views, 30-80 answers — Angle: Types 7, 3, 1 (score 97)
+2. "Why do I feel like I don't belong to anything?" — Est. 25K+ views, 20-60 answers — Angle: Types 4, 5, 9 (score 95)
+3. "Why do some people always compare themselves to others, while some don't?" — Est. 35K+ views, 30-80 answers — Angle: Types 3, 4, 6 (score 93)
+4. "What causes a person to be a perfectionist?" — Est. 50K+ views, 60-130 answers — Angle: Types 1, 3, 4 (score 89)
+5. "Why do some people get super defensive when you call them out?" — Est. 25K+ views, 30-70 answers — Angle: Types 6, 4, 3, 1 (score 89)
+6. "What are the main reasons people do not like asking others for help?" — Est. 15K+ views, 30-60 answers — Angle: Types 8, 5, 1, 3 (score 87)
+
+Type coverage: All 9 types touched in queue. Wins — Type 7 (0→1 with perfect blog match), Type 4 core identity wound. Gap — Type 2 has zero queued; target next session.
+Blog matches: 5 of 6 have a 9takes link candidate (1 partial match flagged as content gap; perfectionism, defensiveness, and asking-for-help blog posts identified as content roadmap opportunities)
+
+Question log: docs/quora/question-log.md
+Session doc: docs/quora/sessions/2026-04-23_quora-warmup.md
+
+Next step: /quora-answer docs/quora/sessions/2026-04-23_quora-warmup.md
+
+MODE: non-interactive
+SESSION: docs/quora/sessions/2026-04-23_quora-warmup.md
+QUEUED: 6
+SKIPPED: 3
+LIMITATIONS: quora_direct_fetch_blocked_403 (counts estimated from search-density signals; verify on Quora before drafting)
+```
+
+Sources:
+- [Why do some people always compare themselves to others](https://www.quora.com/Why-do-some-people-always-compare-themselves-to-others-while-some-just-don-t-do-this)
+- [Why are some people always busy, but not really getting anywhere?](https://www.quora.com/Why-are-some-people-always-busy-but-not-really-getting-anywhere)
+- [What causes a person to be a perfectionist?](https://www.quora.com/What-causes-a-person-to-be-a-perfectionist)
+- [Why do some people get super defensive when called out](https://www.quora.com/Why-do-some-people-get-super-defensive-when-you-call-them-out-for-their-poor-behaviour)
+- [Why do I feel like I don't belong to anything?](https://www.quora.com/Why-do-I-feel-like-I-dont-belong-to-anything)
+- [What are the main reasons people do not like asking others for help?](https://www.quora.com/What-are-the-main-reasons-people-do-not-like-asking-others-for-help)

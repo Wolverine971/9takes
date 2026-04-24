@@ -1,0 +1,15 @@
+```
+Published people blog.
+
+Person: piers-morgan
+Draft: src/blog/people/drafts/Piers-Morgan.md
+Date/lastmod: 2026-04-23
+Supabase: published=true (row id=961)
+Images: full + thumbnail present (static/types/3s/Piers-Morgan.webp, s-Piers-Morgan.webp)
+Generated files: pnpm gen:all completed
+  - famousTypes.ts: piers-morgan link=true, hasImage=true, lastmod=2026-04-23, grade 8.8
+  - sitemap.xml: /personality-analysis/piers-morgan present
+
+Blockers:
+- none
+```

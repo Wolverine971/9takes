@@ -10,6 +10,15 @@ _Status values: Queued | Drafted | Posted | Skipped_
 ## Log
 
 | Date | Question (truncated) | URL | Status | Enneagram Angle | Blog Post Linked | Views at Time | Notes |
+| 2026-04-23 | Why are some people always busy, but not really getting anywhere? | https://www.quora.com/Why-are-some-people-always-busy-but-not-really-getting-anywhere | Drafted | Types 7, 3, 1 | https://9takes.com/enneagram-corner/why-the-next-thing-wont-fix-it-type-7 | Est. 30K+ | Est. 30-80 answers; treadmill/trauma-response framing in tops; clean gap; perfect Type 7 blog match |
+| 2026-04-23 | Why do I feel like I don't belong to anything? | https://www.quora.com/Why-do-I-feel-like-I-dont-belong-to-anything | Drafted | Types 4, 5, 9 | https://9takes.com/enneagram-corner/enneagram-type-4 | Est. 25K+ | Est. 20-60 answers; "find your tribe"/intelligence-loneliness framing; clean gap; core Type 4 wound |
+| 2026-04-23 | Why do some people always compare themselves to others, while some don't? | https://www.quora.com/Why-do-some-people-always-compare-themselves-to-others-while-some-just-don-t-do-this | Drafted | Types 3, 4, 6 | https://9takes.com/enneagram-corner/enneagram-type-3 | Est. 35K+ | Est. 30-80 answers; low-self-esteem framing in tops; clean gap; built-in contrast in question |
+| 2026-04-23 | What causes a person to be a perfectionist? | https://www.quora.com/What-causes-a-person-to-be-a-perfectionist | Drafted | Types 1, 3, 4 | https://9takes.com/enneagram-corner/enneagram-type-3 | Est. 50K+ | Est. 60-130 answers; verify count before posting; low-self-esteem + parental-expectations framing; partial blog match (no perfectionism-specific post yet) |
+| 2026-04-23 | Why do some people get super defensive when you call them out? | https://www.quora.com/Why-do-some-people-get-super-defensive-when-you-call-them-out-for-their-poor-behaviour | Drafted | Types 6, 3, 1 | https://9takes.com/enneagram-corner/enneagram-type-6 | Est. 25K+ | Est. 30-70 answers; control/fear/childhood-shame framing; clean gap; fills Type 6. Blog link switched from `enneagram-criticisms` (that post is about criticisms of the system, not how types take criticism) to `enneagram-type-6`. |
+| 2026-04-23 | What are the main reasons people do not like asking others for help? | https://www.quora.com/What-are-the-main-reasons-people-do-not-like-asking-others-for-help | Drafted | Types 8, 5, 1, 3 | https://9takes.com/enneagram-corner/enneagram-type-8 | Est. 15K+ | Est. 30-60 answers; fear/shame framing; clean gap; Type 8 vulnerability angle; content gap for blog roadmap (no dedicated asking-for-help post) |
+| 2026-04-23 | Why is it so hard to ask for help? | https://www.quora.com/Why-is-it-so-hard-to-ask-for-help | Skipped | Types 8, 5 | enneagram-type-5 | Est. 20K+ | Same Enneagram angle as queued "main reasons people do not like asking others for help" — avoid duplication |
+| 2026-04-23 | What causes a person to be inclined to be a perfectionist? | https://www.quora.com/What-causes-a-person-to-be-inclined-to-be-a-perfectionist-Why-does-it-interfere-in-close-relationships-on-a-day-to-day-basis-and-harm-them | Skipped | Types 1, 3, 4 | enneagram-type-3 | Est. 25K+ | Overlaps with queued perfectionism question; pick one per session |
+| 2026-04-23 | Is it weird that I hate asking for favors or help? | https://www.quora.com/Is-it-weird-that-I-hate-asking-for-favors-or-help-I-feel-so-weak-and-like-a-burden-when-I-do-that | Skipped | Types 8, 5 | enneagram-type-8 | Est. 5K+ | First-person validation question — narrower angle, smaller traffic ceiling |
 | 2026-04-16 | Why do some people hate confrontation while others look for it? | https://www.quora.com/Why-do-some-people-hate-confrontation-while-others-look-for-it | Drafted | Types 9, 8, 1 | https://9takes.com/how-to-guides/definitive-guide-to-relationship-conflict-part-1 | Est. 25K+ | Est. 40-70 answers; fear/self-confidence framing in top answers; clean Enneagram gap; unique contrast angle |
 | 2026-04-16 | Why do some people feel the need to control everything? | https://www.quora.com/Why-do-some-people-feel-the-need-to-control-everything-1 | Drafted | Types 6, 1, 8 | https://9takes.com/enneagram-corner/enneagram-type-6 | Est. 40K+ | Est. 50-100 answers; childhood trauma framing; clean gap; fills Type 6 angle |
 | 2026-04-16 | What is the psychology behind people pleasing, and why do so many… | https://www.quora.com/What-is-the-psychology-behind-people-pleasing-and-why-do-so-many-of-us-do-it | Drafted | Types 2, 9 | https://9takes.com/enneagram-corner/enneagram-type-2 | Est. 30K+ | Est. 30-80 answers; approval-seeking framing; clean gap; fills Type 2 |
@@ -44,18 +53,18 @@ _Status values: Queued | Drafted | Posted | Skipped_
 
 Track which behavioral patterns and Enneagram angles have been covered to ensure diversity over time.
 
-| Type   | Topics Covered                                                                                 | Count |
-| ------ | ---------------------------------------------------------------------------------------------- | ----- |
-| Type 1 | Self-sabotage (perfectionism), never apologize, worry, feel superior, control, feelings        | 6     |
-| Type 2 | People pleaser, emotionally unavailable attraction, people pleasing psychology                 | 3     |
-| Type 3 | Need to be right (status), never apologize, feel superior, FOMO (status)                       | 4     |
-| Type 4 | Self-sabotage, emotionally unavailable attraction, worry, victim mentality                     | 4     |
-| Type 5 | Ghosting, stonewalling, struggle with talking about feelings                                   | 3     |
-| Type 6 | Ghosting, self-sabotage, worry, victim mentality, control everything, FOMO (anxiety)           | 6     |
-| Type 7 | FOMO — core type angle                                                                         | 1     |
-| Type 8 | Need to be right (confrontation test), never apologize, feel superior, confrontation, feelings | 5     |
-| Type 9 | Ghosting, people pleaser, stonewalling, hate confrontation, people pleasing psychology         | 5     |
+| Type   | Topics Covered                                                                                                                            | Count |
+| ------ | ----------------------------------------------------------------------------------------------------------------------------------------- | ----- |
+| Type 1 | Self-sabotage, never apologize, worry, feel superior, control, feelings, perfectionism, defensiveness, asking for help, busyness (duty)   | 10    |
+| Type 2 | People pleaser, emotionally unavailable attraction, people pleasing psychology                                                            | 3     |
+| Type 3 | Need to be right, never apologize, feel superior, FOMO (status), comparison, perfectionism, defensiveness, asking for help, busyness (id) | 9     |
+| Type 4 | Self-sabotage, emotionally unavailable attraction, worry, victim mentality, don't belong (core), comparison, perfectionism, defensiveness | 8     |
+| Type 5 | Ghosting, stonewalling, struggle with talking about feelings, don't belong (observer), asking for help (energy economics)                 | 5     |
+| Type 6 | Ghosting, self-sabotage, worry, victim mentality, control, FOMO (anxiety), comparison (threat scan), defensiveness                        | 8     |
+| Type 7 | FOMO — core type angle, busyness (avoidance through activity)                                                                             | 2     |
+| Type 8 | Need to be right, never apologize, feel superior, confrontation, feelings, asking for help (vulnerability avoidance)                      | 6     |
+| Type 9 | Ghosting, people pleaser, stonewalling, hate confrontation, people pleasing psychology, don't belong (self-erasure)                       | 6     |
 
 ---
 
-_Last Updated: 2026-04-19 (5 Queued → Drafted for 2026-04-16 session)_
+_Last Updated: 2026-04-23 (6 Drafted from 2026-04-23 session; 3 Skipped; 9 questions evaluated; answers doc: docs/quora/sessions/2026-04-23_quora-answers.md)_

@@ -9,8 +9,8 @@
 **Tier:** 1
 **Relationship Status:** Active
 **Profile Created:** 2026-04-06
-**Last Reviewed:** 2026-04-20
-**Last Engaged:** 2026-04-06 PM (commented on Defense Mechanisms carousel — autopilot frame). Apr 10/11/13/19 drafted replies never confirmed posted.
+**Last Reviewed:** 2026-04-23 PM
+**Last Engaged:** 2026-04-20 (Apr 19/20 "Pattern is not wrong" draft POSTED on DXRv5jtDm3F — Jackie liked it 2026-04-22, confirmed via notifications + on-post inspection today). Apr 6 PM defense mechanisms also posted.
 **Source of First Discovery:** Engagement targets list (Tier 1: Enneagram & Personality)
 
 ## Condensed Intel
@@ -19,7 +19,7 @@
 - **Why they matter to 9takes:** Strongest Tier 1 relationship alongside @enneagrampaths. Consistent engagement back (likes our comments). Posts deep substantive content that invites the kind of value-add comments 9takes excels at. 96.7K followers, low comment counts = high visibility for our engagement.
 - **Best engagement angles:** Add Enneagram depth — pick one type and make the insight vivid. Extend her point rather than restating it. Level 2 language (direct Enneagram terminology) is native here.
 - **What we have already said:** Comments on childhood patterns, core fears, 7 vs reactive types, consistency themes. She has liked multiple comments.
-- **Open loops:** New "defense mechanisms" carousel (3h old, 0 comments) — first comment slot available.
+- **Open loops:** Brand-new DXehACGjj35 "How Your Enneagram Type Relates to Disappointment, Needs, and Connection" posted 2026-04-23 ~midday (2h old at scan, 56 likes, 0 visible comments). Hornevian-triad framing (toward/away/adapt). Perfect extension opportunity — Jackie just liked our Apr 20 comment.
 
 ## Bio Snapshot
 
@@ -66,8 +66,14 @@
 | 2026-04-20 | Post     | "Pattern is not wrong, but not neutral" — re-reviewed for freshness                      | Reviewed  | Pending      | Re-checked: post now 46h old, 199 likes, 1 comment (from Facebook). Still Jackie's most recent post (newer reels are all older) — no newer target from Jackie this scan. Apr 19 draft still valid but aging — priority now **moderate**, not top. https://www.instagram.com/enneagramwithjb/p/DXRv5jtDm3F/                                                                                                                                                                                                                                                                                                                                                                                                                                                                               | Drafted - Pending Posting (aging)                                       | 2026-04-20_instagram-warmup.md     |
 | 2026-04-20 | Post     | "Pattern is not wrong, but not neutral" — Apr 19 draft REVISED for v4 voice rules        | Drafted   | Pending      | 3 options drafted for `/instagram-reply` 2026-04-20. Apr 19 Option 1 contained two banned therapy-poet phrasings ("the line between X and Y is where this lands for me" and "the kid who built it didn't have better options"), so it was rewritten while preserving the third-beat-between-blame-and-bypass angle. New Option 1: "there's a version of 'not about blame' that quietly slides into 'so I'm off the hook.' and a version that says 'yeah, I didn't choose the pattern, but nobody else is going to run my reactions today.' same sentence, completely different posture." Options 2 (per-type moralizing) and 3 (short/casual) carried over from Apr 19 — both pass voice rules. Post today (Apr 20) or retire. Level 2. Avoid autopilot/catching/mid-fire, no em dashes. | Drafted - Pending Posting                                               | 2026-04-20_instagram-replies.md    |
 
+| 2026-04-22 | Notification | Jackie liked @9takesdotcom comment on DXRv5jtDm3F | Reviewed | Signal | Confirmed 19h-ago like via notifications on Apr 23 PM scan. This closes the Apr 20 draft loop — Apr 19/20 reply WAS posted (exact text: "the pattern made perfect sense for the version of you that built it. that version just isn't the one driving anymore. or at least shouldnt be driving"). Relationship continues to warm. | Active signal confirmed | 2026-04-23_instagram-warmup-pm.md |
+| 2026-04-23 | Post | **DXehACGjj35 — "How Your Enneagram Type Relates to Disappointment, Needs, and Connection"** — Hornevian triads | Reviewed | Queued — TOP | Ultra-fresh: 2h old at scan, 56 likes, 0 visible comments. "Some of us move toward what's missing. Some of us move away from it. Some of us adapt to keep the relationship steady." Classic Hornevian social-style triad (toward/away/against). Angle: each style feels like "the correct way to relate" from inside — toward-person reads away-person as cold; away-person reads toward-person as enmeshed; against-person reads both as soft. Level 2 OK. Avoid autopilot/catching/mid-fire. https://www.instagram.com/enneagramwithjb/p/DXehACGjj35/ | Pending — HIGHEST PRIORITY today | 2026-04-23_instagram-warmup-pm.md |
+| 2026-04-23 | Post | DXehACGjj35 — Hornevian triads — replies drafted | https://www.instagram.com/enneagramwithjb/p/DXehACGjj35/ | Drafted | Pending | 3 options drafted under v5 workflow (Post Diagnosis + mode mix). **Best Option 1 (Complicate, Level 2):** "each style feels correct from inside. toward reads withdrawal as coldness, away reads pursuit as enmeshment, adapting reads both as someone making things harder than they need to be." Uses Jackie's own "adapt" terminology (not classic Hornevian "against") to stay faithful to her framing. Option 2 (Extend, Level 2) names each style's blind spot. Option 3 (Casual solidarity, Level 0) is a personal/human backup. All three pass the 500K-coach test. Avoid autopilot/catching/mid-fire and the reserved "pattern made perfect sense for the version of you that built it" (Apr 20 posted). | Drafted - Pending Posting | 2026-04-23_instagram-replies-pm.md |
+
 ## Open Loops
 
+- **NEW (Apr 23 PM): DXehACGjj35 Hornevian-triad post** — 2h old, first-comment slot wide open, Level 2 peer reply. Top priority today.
+- **RESOLVED (Apr 22): "Your pattern is not wrong" loop CLOSED** — Jackie liked our @9takesdotcom reply 19h ago. Comment was posted but exact phrasing differed from the revised 3 options ("the pattern made perfect sense for the version of you that built it..."). Not retire; keep as a durable relationship signal.
 - **CARRYOVER (Apr 19 → Apr 20): "Your pattern is not wrong, but it is not neutral" post** — now 46h old, 199 likes, still only 1 comment (from Facebook). First-comment slot is no longer the asset — but 1 comment on a 96.7K account at 46h means the depth angle is still uncontested. 3 options drafted in 2026-04-19_instagram-replies.md — Drafted - Pending Posting. Aging rapidly; post today or retire. https://www.instagram.com/enneagramwithjb/p/DXRv5jtDm3F/
 - Body signals / override post (Apr 13) — aged out; don't reply
 - Defense mechanisms comment status from Apr 6 PM still unknown
@@ -75,6 +81,7 @@
 
 ## Next Best Angles
 
-- **Today (priority — "pattern is not neutral" post):** The line between "my pattern is me" and "my pattern is running me" is exactly where awareness earns its keep. The pattern isn't wrong, and it's not neutral, and the version of me that built it didn't have other tools. Pick up the third beat Jackie leaves open: awareness without blame, but also without bypass — you still have to actually choose.
-- **Alt angle:** "the pattern made sense for the version of you that built it. awareness doesn't undo that — it just gives the current you a say." — or similar. Don't say "autopilot" or "catching."
+- **Today (priority — DXehACGjj35 Hornevian-triad post):** Extend Jackie's toward/away/adapt framing without restating it. Strong angle: each style feels like "the correct way to relate" from inside; that's why cross-style friction is hard to name. The toward-person reads away-person as cold; away-person reads toward-person as enmeshed; against-person reads both as soft. Everyone's correct inside their own framework. Level 2. No em dashes. Do NOT restate Karen Horney (Jackie is already doing that work).
+- **Alt angle:** The part each style is blind to — toward doesn't notice over-giving; away doesn't notice withdrawal reads as abandonment; adapt doesn't notice that staying steady can cost self.
+- **Reserved (already used on posted comment):** "the pattern made perfect sense for the version of you that built it" — do not recycle on next Jackie post.
 - **Future:** The emotion-to-feeling translation angle is still unused — keep for next Emotional Pattern post
