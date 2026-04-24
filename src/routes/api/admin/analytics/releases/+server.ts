@@ -43,6 +43,8 @@ const querySchema = z.object({
 });
 const RPC_RELEASE_LIMIT = 200;
 const MAX_RELEASE_FETCH_PAGES = 10;
+const RAW_VISIT_REFRESH_WINDOW_DAYS = 90;
+const RELEASE_ANALYTICS_WINDOW_DAYS = 30;
 const analyticsDateFormatter = new Intl.DateTimeFormat('en-CA', {
 	timeZone: 'America/New_York',
 	year: 'numeric',
@@ -74,6 +76,13 @@ function previousDateString(value: string): string | null {
 	return date.toISOString().slice(0, 10);
 }
 
+function addDaysString(value: string, days: number): string | null {
+	const date = new Date(`${value}T12:00:00Z`);
+	if (Number.isNaN(date.getTime())) return null;
+	date.setUTCDate(date.getUTCDate() + days);
+	return date.toISOString().slice(0, 10);
+}
+
 function getFreshnessRefreshRange(): { from: string; to: string } {
 	const to = new Date();
 	const from = new Date(to);
@@ -82,6 +91,39 @@ function getFreshnessRefreshRange(): { from: string; to: string } {
 	return {
 		from: toDateString(from),
 		to: toDateString(to)
+	};
+}
+
+function getRawRefreshFloor(): string {
+	const floor = new Date();
+	floor.setDate(floor.getDate() - RAW_VISIT_REFRESH_WINDOW_DAYS);
+	return toDateString(floor);
+}
+
+function getSelectedReleaseRefreshRange(
+	fromDate: string | undefined,
+	toDate: string | undefined
+): { from: string; to: string } | null {
+	const today = toDateString(new Date());
+	const rawFloor = getRawRefreshFloor();
+	const publishFrom = fromDate ?? rawFloor;
+	const publishTo = toDate ?? today;
+	const launchWindowTo = addDaysString(publishTo, RELEASE_ANALYTICS_WINDOW_DAYS - 1) ?? publishTo;
+	const from = publishFrom > rawFloor ? publishFrom : rawFloor;
+	const to = launchWindowTo < today ? launchWindowTo : today;
+
+	if (from > to) return null;
+	return { from, to };
+}
+
+function mergeRefreshRanges(
+	baseRange: { from: string; to: string },
+	selectedRange: { from: string; to: string } | null
+): { from: string; to: string } {
+	if (!selectedRange) return baseRange;
+	return {
+		from: selectedRange.from < baseRange.from ? selectedRange.from : baseRange.from,
+		to: selectedRange.to > baseRange.to ? selectedRange.to : baseRange.to
 	};
 }
 
@@ -160,6 +202,57 @@ async function fetchReleasePerformanceRows(
 	return { data: rows, error: null };
 }
 
+function toNullableNumber(value: unknown): number | null {
+	if (value === null || value === undefined) return null;
+	const numeric = Number(value);
+	return Number.isFinite(numeric) ? numeric : null;
+}
+
+function normalizeReleasePerformanceRow(row: ReleasePerformanceRow) {
+	const views7dPercentile = toNullableNumber(row.views_7d_percentile);
+	const benchmarkScore = toNullableNumber(row.benchmark_score) ?? views7dPercentile;
+	const benchmarkBasis =
+		row.benchmark_basis === null || row.benchmark_basis === undefined
+			? benchmarkScore === null
+				? 'insufficient_history'
+				: '7d'
+			: String(row.benchmark_basis);
+
+	return {
+		id: Number(row.id || 0),
+		slug: String(row.slug ?? ''),
+		path: String(row.path ?? ''),
+		title: String(row.title ?? ''),
+		published_at: row.published_at ? String(row.published_at) : null,
+		first_view_at: row.first_view_at ? String(row.first_view_at) : null,
+		minutes_to_first_view: toNullableNumber(row.minutes_to_first_view),
+		views_1h: Number(row.views_1h || 0),
+		views_6h: Number(row.views_6h || 0),
+		views_24h: Number(row.views_24h || 0),
+		unique_24h: Number(row.unique_24h || 0),
+		views_7d: Number(row.views_7d || 0),
+		unique_7d: Number(row.unique_7d || 0),
+		views_30d: Number(row.views_30d || 0),
+		unique_30d: Number(row.unique_30d || 0),
+		total_views: Number(row.total_views || 0),
+		total_unique_visitors: Number(row.total_unique_visitors || 0),
+		avg_time_on_page_ms: Number(row.avg_time_on_page_ms || 0),
+		median_time_on_page_ms: Number(row.median_time_on_page_ms || 0),
+		avg_scroll_pct: Number(row.avg_scroll_pct || 0),
+		bounce_rate: Number(row.bounce_rate || 0),
+		views_24h_percentile: toNullableNumber(row.views_24h_percentile),
+		views_7d_percentile: views7dPercentile,
+		views_30d_percentile: toNullableNumber(row.views_30d_percentile),
+		benchmark_score: benchmarkScore,
+		benchmark_sample_size: Number(row.benchmark_sample_size || 0),
+		benchmark_basis: benchmarkBasis,
+		performance_band: String(row.performance_band ?? 'insufficient_history'),
+		release_stage: String(row.release_stage ?? 'mature'),
+		growth_slope_7d: toNullableNumber(row.growth_slope_7d),
+		decay_rate_after_spike: toNullableNumber(row.decay_rate_after_spike)
+	};
+}
+
 export const GET: RequestHandler = async ({ url, locals }) => {
 	await assertAdmin(locals);
 
@@ -169,17 +262,25 @@ export const GET: RequestHandler = async ({ url, locals }) => {
 		limit: url.searchParams.get('limit') ?? undefined
 	});
 
+	if (fromDate && toDate && fromDate > toDate) {
+		throw error(400, 'Release analytics from date must be before to date');
+	}
+
 	if (!parsedQuery.success) {
 		throw error(400, 'Invalid release analytics query parameters');
 	}
 
 	const supabaseAny = locals.supabase as any;
-	const refreshRange = getFreshnessRefreshRange();
-	const { error: refreshError } = await supabaseAny.rpc('refresh_content_analytics_daily', {
-		p_from: refreshRange.from,
-		p_to: refreshRange.to,
-		p_content_type: 'people'
-	});
+	const selectedRefreshRange = getSelectedReleaseRefreshRange(fromDate, toDate);
+	const refreshRange = mergeRefreshRanges(getFreshnessRefreshRange(), selectedRefreshRange);
+	const { data: refreshedRows, error: refreshError } = await supabaseAny.rpc(
+		'refresh_content_analytics_daily',
+		{
+			p_from: refreshRange.from,
+			p_to: refreshRange.to,
+			p_content_type: 'people'
+		}
+	);
 
 	if (refreshError) {
 		console.warn('Failed to refresh people release analytics before read:', refreshError);
@@ -197,60 +298,7 @@ export const GET: RequestHandler = async ({ url, locals }) => {
 		throw error(500, 'Failed to fetch release performance analytics');
 	}
 
-	const rows = ((data ?? []) as ReleasePerformanceRow[]).map((row) => ({
-		id: Number(row.id || 0),
-		slug: String(row.slug ?? ''),
-		path: String(row.path ?? ''),
-		title: String(row.title ?? ''),
-		published_at: row.published_at ? String(row.published_at) : null,
-		first_view_at: row.first_view_at ? String(row.first_view_at) : null,
-		minutes_to_first_view:
-			row.minutes_to_first_view === null || row.minutes_to_first_view === undefined
-				? null
-				: Number(row.minutes_to_first_view),
-		views_1h: Number(row.views_1h || 0),
-		views_6h: Number(row.views_6h || 0),
-		views_24h: Number(row.views_24h || 0),
-		unique_24h: Number(row.unique_24h || 0),
-		views_7d: Number(row.views_7d || 0),
-		unique_7d: Number(row.unique_7d || 0),
-		views_30d: Number(row.views_30d || 0),
-		unique_30d: Number(row.unique_30d || 0),
-		total_views: Number(row.total_views || 0),
-		total_unique_visitors: Number(row.total_unique_visitors || 0),
-		avg_time_on_page_ms: Number(row.avg_time_on_page_ms || 0),
-		median_time_on_page_ms: Number(row.median_time_on_page_ms || 0),
-		avg_scroll_pct: Number(row.avg_scroll_pct || 0),
-		bounce_rate: Number(row.bounce_rate || 0),
-		views_24h_percentile:
-			row.views_24h_percentile === null || row.views_24h_percentile === undefined
-				? null
-				: Number(row.views_24h_percentile),
-		views_7d_percentile:
-			row.views_7d_percentile === null || row.views_7d_percentile === undefined
-				? null
-				: Number(row.views_7d_percentile),
-		views_30d_percentile:
-			row.views_30d_percentile === null || row.views_30d_percentile === undefined
-				? null
-				: Number(row.views_30d_percentile),
-		benchmark_score:
-			row.benchmark_score === null || row.benchmark_score === undefined
-				? null
-				: Number(row.benchmark_score),
-		benchmark_sample_size: Number(row.benchmark_sample_size || 0),
-		benchmark_basis: String(row.benchmark_basis ?? 'insufficient_history'),
-		performance_band: String(row.performance_band ?? 'insufficient_history'),
-		release_stage: String(row.release_stage ?? 'mature'),
-		growth_slope_7d:
-			row.growth_slope_7d === null || row.growth_slope_7d === undefined
-				? null
-				: Number(row.growth_slope_7d),
-		decay_rate_after_spike:
-			row.decay_rate_after_spike === null || row.decay_rate_after_spike === undefined
-				? null
-				: Number(row.decay_rate_after_spike)
-	}));
+	const rows = ((data ?? []) as ReleasePerformanceRow[]).map(normalizeReleasePerformanceRow);
 
 	return json({
 		rows,
@@ -260,6 +308,12 @@ export const GET: RequestHandler = async ({ url, locals }) => {
 			below_norm: rows.filter((row) => row.performance_band === 'below_norm').length,
 			collecting: rows.filter((row) => row.performance_band === 'collecting').length,
 			benchmarked: rows.filter((row) => row.benchmark_score !== null).length
+		},
+		refresh: {
+			from: refreshRange.from,
+			to: refreshRange.to,
+			rows: Number(refreshedRows || 0),
+			selectedRangeExtended: selectedRefreshRange !== null
 		}
 	});
 };

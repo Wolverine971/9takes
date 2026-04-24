@@ -87,7 +87,7 @@ Drake's life reads like a Type 3 origin myth.
 
 ## The Making of an Achiever: Drake's Origin Story
 
-### The Outsider Who Had to Prove Himself
+### Half a House in Forest Hill
 
 Aubrey Drake Graham was born October 24, 1986, in Toronto. His father Dennis, a Black musician from Memphis, played drums for Al Green and Jerry Lee Lewis. His mother Sandi was a Jewish Canadian florist and teacher. They divorced when Drake was five.
 
@@ -99,7 +99,7 @@ _"My mother was willing to live far beyond her means for her family,"_ Drake exp
 
 A kid living in a basement in a wealthy neighborhood while actually broke. That gap between appearance and reality? Drake learned to navigate it before he learned to drive.
 
-### Never Belonging Anywhere
+### The Last Kid to Get the Invite
 
 Being biracial in a white Jewish school created a foundational wound.
 
@@ -153,9 +153,9 @@ Most Type 3s construct facades to hide emotional struggles. Drake built his bran
 
 But notice: this vulnerability isn't random. Drake reveals just enough to connect while maintaining control of the narrative. **Strategic authenticity.**
 
-### Songs That Reveal His Psychology
+### Four Songs That Map the Type 3 Wound
 
-Drake's most personal tracks map his Type 3 wound directly:
+Drake's most personal tracks trace the same fault line:
 
 - **"Look What You've Done"** (2011): A tribute to his mother and grandmother addressing family struggles, his mom's painkiller use, and his promise to send her to Rome. Ends with a voicemail from his grandmother.
 
@@ -243,9 +243,7 @@ The track became a cultural phenomenon: five Grammy Awards, more than a billion 
 
 ### The Type 3 Response to Public Defeat
 
-This is where Drake's Enneagram type becomes impossible to ignore.
-
-Type 3s build their identity around success. When the world declares them a "loser," they don't just feel defeated. They feel worthless. The foundation of self-worth crumbles.
+Type 3s build identity around success. When the world declares them a "loser," they don't just feel defeated. They feel worthless. The foundation cracks.
 
 Drake's response followed a predictable pattern:
 
@@ -267,13 +265,13 @@ The rollout has been theatrical. Three noir-style livestreamed video episodes. A
 
 The persona Drake is constructing draws from two specific sources: Kimi Räikkönen, the Formula 1 champion nicknamed "The Iceman" for never flinching under pressure, and Val Kilmer's Tom "Iceman" Kazansky in _Top Gun_. Cold. Unaffected. Unreadable.
 
-**The title tells you everything.** The vulnerability that defined his career became a weapon used against him. So he's building a new shell.
+**The title tells you everything.** The vulnerability that defined his career became a weapon used against him. The bullet-hole sweatshirt was the first shell: _still standing_. Iceman is the full armor: _can't touch me_.
 
 This is the Type 3 move. When the old image cracks, you don't repair it. You ship a new one.
 
-Whether _Iceman_ succeeds commercially almost doesn't matter for this argument. What matters is the gesture itself: a man who just lost the most public rap battle in a generation responding with noir iconography, Formula 1 stoicism, and a $100,000 guerrilla marketing stunt. The kid who learned in a Toronto basement that performance was the path to love is still performing. Still paying.
+The gesture itself is the argument: a man who just lost the most public rap battle in a generation responds with noir iconography, Formula 1 stoicism, and a $100,000 ice-block stunt in downtown Toronto. The kid who learned in a basement that performance was the path to love is still performing. Still paying.
 
-Degrassi taught him that income and attention came from what he did on screen. His mother's illness and father's absence taught him that success meant survival. Being "the last kid to get the invite" taught him that belonging had to be earned, over and over again.
+Degrassi taught him that income and attention came from what he did on screen. His mother's illness and father's absence taught him that success meant survival. Being "the last kid to get the invite" taught him that belonging had to be earned, over and over again. Adonis taught him that vulnerability, once someone else leaks it, cannot be reclaimed — only spun.
 
 That's why the Kendrick loss cuts so deep. For Type 3s, public failure doesn't just hurt pride. It confirms their deepest fear: that maybe, without the wins, they really are worthless.
 

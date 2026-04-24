@@ -116,51 +116,7 @@
 
 			<div class="mobile-search-row">
 				<div class="search-slot">
-					<HeaderSearch mobile={true} />
-				</div>
-
-				<div class="library-control mobile-library-control" use:onClickOutside={closeLibrary}>
-					<button
-						type="button"
-						class="library-button"
-						class:is-active={isLibraryActive || isLibraryOpen}
-						aria-haspopup="true"
-						aria-expanded={isLibraryOpen}
-						aria-controls="mobile-library-menu"
-						on:click={toggleLibrary}
-					>
-						<span class="library-button-spacer" aria-hidden="true"></span>
-						<span class="library-button-label">Library</span>
-						<svg
-							class="dropdown-arrow"
-							class:rotated={isLibraryOpen}
-							viewBox="0 0 24 24"
-							fill="none"
-							stroke="currentColor"
-							stroke-width="1.8"
-						>
-							<path d="m6 9 6 6 6-6"></path>
-						</svg>
-					</button>
-
-					{#if isLibraryOpen}
-						<div id="mobile-library-menu" class="library-menu mobile-library-menu">
-							{#each libraryItems as item}
-								<a
-									href={item.href}
-									class="library-item"
-									class:is-current={isActive(item.href)}
-									class:is-featured={item.featured}
-									on:click={closeLibrary}
-								>
-									<span class="library-label">{item.label}</span>
-									{#if item.description}
-										<span class="library-description">{item.description}</span>
-									{/if}
-								</a>
-							{/each}
-						</div>
-					{/if}
+					<HeaderSearch mobile={true} placeholder="Search 9takes" />
 				</div>
 			</div>
 		</div>
@@ -486,17 +442,7 @@
 	}
 
 	.mobile-search-row {
-		gap: 0.7rem;
 		margin-top: 0.75rem;
-	}
-
-	.mobile-library-control {
-		flex-shrink: 0;
-	}
-
-	.mobile-library-menu {
-		right: 0;
-		width: min(21rem, calc(100vw - 2.5rem));
 	}
 
 	@media (max-width: 1180px) {
@@ -517,6 +463,7 @@
 
 		.mobile-search-row .search-slot {
 			flex: 1 1 auto;
+			width: 100%;
 		}
 
 		.library-button {
@@ -533,14 +480,6 @@
 
 		.mobile-search-row {
 			align-items: stretch;
-		}
-
-		.mobile-library-control .library-button {
-			height: 100%;
-		}
-
-		.mobile-library-menu {
-			width: min(20rem, calc(100vw - 2rem));
 		}
 	}
 </style>

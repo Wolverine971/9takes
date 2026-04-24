@@ -586,6 +586,20 @@
 		touch-action: manipulation;
 	}
 
+	:global(html),
+	:global(body) {
+		width: 100%;
+		max-width: 100%;
+		overflow-x: hidden;
+	}
+
+	@supports (overflow-x: clip) {
+		:global(html),
+		:global(body) {
+			overflow-x: clip;
+		}
+	}
+
 	.app-wrapper {
 		min-height: 100vh;
 		background: linear-gradient(180deg, var(--bg-base) 0%, var(--bg-deep) 50%, var(--bg-base) 100%);

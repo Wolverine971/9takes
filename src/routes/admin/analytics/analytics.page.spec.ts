@@ -162,6 +162,28 @@ describe('/admin/analytics page', () => {
 		});
 	});
 
+	it('lets the release tab apply a wider date range directly', async () => {
+		render(AnalyticsPage, {
+			data: pageData as any
+		});
+
+		await fireEvent.click(screen.getByRole('tab', { name: 'Release Performance' }));
+
+		await waitFor(() => {
+			expect(fetchUrls()).toContain(
+				'/api/admin/analytics/releases?from=2026-03-10&to=2026-04-08&scope=all&limit=500'
+			);
+		});
+
+		await fireEvent.click(screen.getByRole('button', { name: 'Last 90 days' }));
+
+		await waitFor(() => {
+			expect(fetchUrls()).toContain(
+				'/api/admin/analytics/releases?from=2026-01-09&to=2026-04-08&scope=all&limit=500'
+			);
+		});
+	});
+
 	it('filters, sorts, and exports release performance rows', async () => {
 		const makeRelease = (overrides: Partial<Record<string, unknown>>) => ({
 			id: 1,

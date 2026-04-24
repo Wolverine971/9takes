@@ -306,3 +306,68 @@ That gap drives everything. The exquisite Met Gala appearances and the Kjersti F
 The version at the TIME 100 podium might be the most compelling Blake Lively of all. But seeing her regularly would require the one thing she has spent her entire life avoiding: letting someone else hold the camera.
 
 > **Disclaimer** This analysis of Blake Lively's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Blake Lively.
+
+<!-- RESEARCH SOURCES (2026-04-24 revision)
+
+Taylor Swift "betty" folklore song / daughter names:
+- https://en.wikipedia.org/wiki/Betty_(Taylor_Swift_song)
+- https://hollywoodlife.com/2020/07/24/taylor-swift-betty-blake-lively-ryan-reynolds-daughters-james-inez/
+- https://www.billboard.com/music/pop/ryan-reynolds-favorite-taylor-swift-song-betty-1235728597/
+
+Taylor Swift godmother-to-all-four status / Olin name reveal:
+- https://www.eonline.com/news/1405391/taylor-swift-reveals-shes-the-godmother-of-blake-lively-and-ryan-reynolds-kids
+- https://www.eonline.com/news/1409945/ryan-reynolds-clarifies-taylor-swifts-role-as-godmother-to-his-kids-with-blake-lively
+- https://www.newsweek.com/taylor-swift-eras-tour-madrid-blake-lively-daughters-shoutout-1996199
+- https://parade.com/celebrities/taylor-swift-godchildren
+
+Woody Allen / Café Society 2016 Cannes defense:
+- https://www.eonline.com/news/764469/blake-lively-says-woody-allen-is-empowering-to-women-as-french-comedian-clarifies-rape-joke
+- https://www.indiewire.com/news/general-news/blake-lively-says-woody-allen-is-empowering-to-women-in-new-interview-290662/
+- https://www.huffpost.com/entry/blake-lively-woody-allen_n_5735d92be4b060aa781a089d
+- https://www.refinery29.com/en-us/2016/05/110728/blake-lively-cannes-rape-joke
+
+2022 Met Gala Atelier Versace transformation gown / Gilded Glamour co-chair:
+- https://www.cnn.com/style/article/blake-lively-met-gala-2022-versace-dress/index.html
+- https://www.redcarpet-fashionawards.com/2022/05/02/blake-lively-wore-atelier-versace-to-the-2022-met-gala/
+- https://www.wmagazine.com/fashion/blake-lively-met-gala-2022-versace-dress-new-york-color-changing
+- https://www.marieclaire.com/celebrity/blake-lively-met-gala-2022/
+- https://www.versace.com/us/en/stories/news-projects/met-gala-2022.html
+
+Preserve lifestyle brand failure / toxic workplace:
+- https://hd983.com/2025/05/23/blake-lively-defunct-brand/
+- https://www.yahoo.com/lifestyle/happened-blake-lively-preserve-company-023020038.html
+- https://medium.com/@SaraRoseHarc/why-blake-lively-s-brand-preserve-failed-the-real-reason-7ea6237823e
+- https://fandomwire.com/why-blake-lively-lifestyle-brand-preserve-failed-but-gwyneth-paltrow-made-fortune-with-goop/
+
+Ryan Reynolds business portfolio (Aviation Gin, Mint Mobile, Maximum Effort):
+- https://fandomwire.com/when-movie-star-turns-into-businessman-ryan-reynolds-sold-aviation-gin-for-610-million-and-mint-mobile-for-1-35-billion/
+- https://www.foxbusiness.com/markets/ryan-reynolds-sells-mint-mobile-1-35-billion-t-mobile.amp
+- https://www.cbsnews.com/news/ryan-reynolds-net-worth-wealth-mint-mobile-sale-300-million/
+- https://www.fastcompany.com/91175717/ryan-reynolds-deadpool-maximum-effort-mntn-aviation-gin-mint-mobile-advertising-marketing-turducken
+- https://www.thomasnet.com/insights/ryan-reynolds-companies/
+
+Ryan / Scarlett Johansson / Blake timeline:
+- https://en.wikipedia.org/wiki/Ryan_Reynolds
+- https://www.hellomagazine.com/film/811910/ryan-reynolds-and-scarlett-johanssons-divorce-after-two-years-real-reason/
+- https://www.netflixjunkie.com/hollywood-news-did-ryan-reynolds-leave-scarlett-johansson-for-blake-lively-see-the-real-timeline/
+- https://stylecaster.com/entertainment/celebrity-news/1234761126/why-ryan-reynolds-scarlett-johansson-break-up/
+
+Another Simple Favor (2025) straight-to-streaming / reception:
+- https://en.wikipedia.org/wiki/Another_Simple_Favor
+- https://variety.com/2025/film/news/a-simple-favor-2-blake-lively-sequel-title-sxsw-premiere-1236296855/
+- https://fandomwire.com/a-simple-favor-2-going-straight-to-streaming-has-nothing-to-do-with-blake-lively-justin-baldoni-drama/
+- https://www.imdb.com/title/tt20214908/
+
+The Shallows (2016) box office / critical reception:
+- https://en.wikipedia.org/wiki/The_Shallows_(film)
+- https://www.rottentomatoes.com/m/the_shallows
+- https://www.imdb.com/title/tt4052882/
+
+A Simple Favor (2018) menswear wardrobe / "armor" concept:
+- https://en.wikipedia.org/wiki/A_Simple_Favor_(film)
+- https://www.wmagazine.com/story/a-simple-favor-movie-blake-lively-suits
+- https://fashionista.com/2018/09/a-simple-favor-movie-costumes
+- https://hollywoodlife.com/2018/09/13/blake-lively-fashion-a-simple-favor-emily-suits/
+
+-->
+

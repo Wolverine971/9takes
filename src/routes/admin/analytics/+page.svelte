@@ -363,9 +363,17 @@
 		{ key: 'performance_band', label: 'Band' }
 	];
 	const releaseAnalyticsLimit = 500;
+	const releaseRangePresetOptions = [
+		{ label: 'Last 30 days', days: 30 },
+		{ label: 'Last 90 days', days: 90 },
+		{ label: 'Last 180 days', days: 180 },
+		{ label: 'Last year', days: 365 }
+	];
 
 	let fromDate = $state(initialFilters?.from ?? '');
 	let toDate = $state(initialFilters?.to ?? '');
+	let releaseFromDate = $state(initialFilters?.from ?? '');
+	let releaseToDate = $state(initialFilters?.to ?? '');
 	let scope = $state<AnalyticsScope>(
 		(ANALYTICS_SCOPES.includes(initialFilters?.scope as AnalyticsScope)
 			? initialFilters?.scope
@@ -469,6 +477,13 @@
 	function formatDateWindow(from: string, to: string): string {
 		if (!from || !to) return '';
 		return `${formatDateLabel(from)} - ${formatDateLabel(to)}`;
+	}
+
+	function formatReleaseDateWindow(from: string, to: string): string {
+		if (from && to) return formatDateWindow(from, to);
+		if (from) return `since ${formatDateLabel(from)}`;
+		if (to) return `through ${formatDateLabel(to)}`;
+		return 'all history';
 	}
 
 	const timingDayLabels = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
@@ -1056,9 +1071,36 @@
 		return params;
 	}
 
+	function buildReleaseParams(): URLSearchParams {
+		const params = new URLSearchParams();
+		if (releaseFromDate) {
+			params.set('from', releaseFromDate);
+		}
+		if (releaseToDate) {
+			params.set('to', releaseToDate);
+		}
+		params.set('scope', scope);
+		return params;
+	}
+
 	function isDateRangeValid(): boolean {
 		if (!fromDate || !toDate) return false;
 		return fromDate <= toDate;
+	}
+
+	function isReleaseDateRangeValid(): boolean {
+		if (!releaseFromDate && !releaseToDate) return false;
+		if (releaseFromDate && releaseToDate && releaseFromDate > releaseToDate) return false;
+		return true;
+	}
+
+	function setReleaseRangePreset(days: number) {
+		const anchor = releaseToDate ? parseDate(releaseToDate) : new Date();
+		const from = new Date(anchor);
+		from.setDate(from.getDate() - (days - 1));
+		releaseFromDate = toDateString(from);
+		releaseToDate = toDateString(anchor);
+		void applyReleaseFilters();
 	}
 
 	async function fetchOverviewAndTimeseries() {
@@ -1317,7 +1359,7 @@
 	async function fetchReleaseAnalytics() {
 		releasesLoading = true;
 		try {
-			const params = buildParams(false);
+			const params = buildReleaseParams();
 			params.set('limit', String(releaseAnalyticsLimit));
 			const response = await fetch(`/api/admin/analytics/releases?${params.toString()}`);
 			const body = await response.json();
@@ -1345,6 +1387,30 @@
 		} finally {
 			releasesLoading = false;
 		}
+	}
+
+	async function applyReleaseFilters() {
+		if (!isReleaseDateRangeValid()) {
+			notifications.warning('Please use a valid release date range', 3000);
+			return;
+		}
+
+		releasesLoaded = false;
+		selectedReleaseSlug = '';
+		releaseGrowthCache.clear();
+		releaseGrowthPoints = [];
+		releaseEventsCache.clear();
+		releaseEventRows = [];
+		await fetchReleaseAnalytics();
+	}
+
+	async function resetReleaseFilters() {
+		releaseFromDate = initialFilters?.from ?? '';
+		releaseToDate = initialFilters?.to ?? '';
+		releaseBandFilter = 'all';
+		releaseSortBy = 'published_at';
+		releaseSortDir = 'desc';
+		await applyReleaseFilters();
 	}
 
 	async function applyFilters() {
@@ -1480,7 +1546,7 @@
 	function getReleaseExportFilename(): string {
 		const filterSuffix =
 			releaseBandFilter === 'all' ? '' : `-${releaseBandFilter.replace(/_/g, '-')}`;
-		return `release-performance-${fromDate || 'start'}-${toDate || 'end'}${filterSuffix}.csv`;
+		return `release-performance-${releaseFromDate || 'start'}-${releaseToDate || 'end'}${filterSuffix}.csv`;
 	}
 
 	function exportReleaseAnalysisCsv() {
@@ -1583,6 +1649,8 @@
 		switch (value) {
 			case '24h':
 				return '24h';
+			case '7d':
+				return '7d';
 			case '24h_7d':
 				return '24h + 7d';
 			case '24h_7d_30d':
@@ -2252,7 +2320,12 @@
 				<div class="insight-header release-header">
 					<div>
 						<h2>Personality Analysis Release Performance</h2>
-						<p>Personality analysis releases in {formatDateWindow(fromDate, toDate)}</p>
+						<p>
+							Personality analysis releases {formatReleaseDateWindow(
+								releaseFromDate,
+								releaseToDate
+							)}
+						</p>
 					</div>
 					<div class="release-header-actions">
 						<button
@@ -2268,6 +2341,47 @@
 							disabled={releasesLoading}
 						>
 							{releasesLoading ? 'Refreshing...' : 'Refresh'}
+						</button>
+					</div>
+				</div>
+
+				<div class="release-range-panel" aria-label="Release date range">
+					<div class="release-range-fields">
+						<label class="field">
+							<span>Release from</span>
+							<input type="date" bind:value={releaseFromDate} />
+						</label>
+						<label class="field">
+							<span>Release to</span>
+							<input type="date" bind:value={releaseToDate} />
+						</label>
+						<div class="release-range-presets" aria-label="Release range presets">
+							{#each releaseRangePresetOptions as option}
+								<button
+									type="button"
+									class="range-preset"
+									onclick={() => setReleaseRangePreset(option.days)}
+									disabled={releasesLoading}
+								>
+									{option.label}
+								</button>
+							{/each}
+						</div>
+					</div>
+					<div class="release-range-actions">
+						<button
+							class="btn btn-primary"
+							onclick={applyReleaseFilters}
+							disabled={releasesLoading}
+						>
+							Apply range
+						</button>
+						<button
+							class="btn btn-secondary"
+							onclick={resetReleaseFilters}
+							disabled={releasesLoading}
+						>
+							Reset range
 						</button>
 					</div>
 				</div>
@@ -3125,6 +3239,60 @@
 		justify-content: flex-end;
 	}
 
+	.release-range-panel {
+		border: 1px solid var(--bg-elevated);
+		border-radius: 8px;
+		background: var(--bg-deep);
+		padding: 10px;
+		display: grid;
+		grid-template-columns: minmax(0, 1fr) auto;
+		gap: 10px;
+		align-items: end;
+		margin-bottom: 10px;
+	}
+
+	.release-range-fields {
+		display: grid;
+		grid-template-columns: minmax(150px, 180px) minmax(150px, 180px) minmax(0, 1fr);
+		gap: 10px;
+		align-items: end;
+	}
+
+	.release-range-presets {
+		display: flex;
+		gap: 6px;
+		flex-wrap: wrap;
+		align-items: center;
+	}
+
+	.range-preset {
+		border: 1px solid var(--bg-elevated);
+		background: var(--bg-surface);
+		color: var(--text-primary);
+		border-radius: 8px;
+		padding: 8px 10px;
+		cursor: pointer;
+		font-weight: 600;
+		white-space: nowrap;
+	}
+
+	.range-preset:hover:not(:disabled) {
+		border-color: #93c5fd;
+		color: #93c5fd;
+	}
+
+	.range-preset:disabled {
+		opacity: 0.5;
+		cursor: not-allowed;
+	}
+
+	.release-range-actions {
+		display: flex;
+		gap: 8px;
+		justify-content: flex-end;
+		flex-wrap: wrap;
+	}
+
 	.release-command-row {
 		display: grid;
 		grid-template-columns: minmax(0, 1fr) auto;
@@ -3886,6 +4054,22 @@
 			justify-content: flex-start;
 		}
 
+		.release-range-panel {
+			grid-template-columns: 1fr;
+		}
+
+		.release-range-actions {
+			justify-content: flex-start;
+		}
+
+		.release-range-fields {
+			grid-template-columns: repeat(2, minmax(0, 1fr));
+		}
+
+		.release-range-presets {
+			grid-column: 1 / -1;
+		}
+
 		.release-band-filters {
 			grid-template-columns: repeat(3, minmax(0, 1fr));
 		}
@@ -4074,6 +4258,22 @@
 		.release-sort-controls {
 			flex-direction: column;
 			align-items: stretch;
+		}
+
+		.release-range-fields,
+		.release-range-actions {
+			grid-template-columns: 1fr;
+			width: 100%;
+		}
+
+		.release-range-actions,
+		.release-range-presets {
+			flex-direction: column;
+			align-items: stretch;
+		}
+
+		.range-preset {
+			width: 100%;
 		}
 
 		.release-sort-controls label {

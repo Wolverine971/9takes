@@ -1,9 +1,13 @@
 // src/routes/api/admin/analytics/releases/releases.server.spec.ts
-import { describe, expect, it, vi } from 'vitest';
+import { afterEach, describe, expect, it, vi } from 'vitest';
 
 import { GET } from './+server';
 
 describe('/api/admin/analytics/releases', () => {
+	afterEach(() => {
+		vi.useRealTimers();
+	});
+
 	it('uses the raised default release limit when no explicit limit is provided', async () => {
 		const rpc = vi
 			.fn()
@@ -143,6 +147,82 @@ describe('/api/admin/analytics/releases', () => {
 		});
 	});
 
+	it('normalizes legacy 7-day benchmark rows into current score fields', async () => {
+		const rpc = vi
+			.fn()
+			.mockResolvedValueOnce({
+				data: 12,
+				error: null
+			})
+			.mockResolvedValueOnce({
+				data: [
+					{
+						id: '12',
+						slug: 'legacy-person',
+						path: '/personality-analysis/legacy-person',
+						title: 'Legacy Person',
+						published_at: '2026-03-15T12:00:00.000Z',
+						first_view_at: '2026-03-15T12:05:00.000Z',
+						minutes_to_first_view: '5',
+						views_1h: '1',
+						views_6h: '3',
+						views_24h: '5',
+						unique_24h: '4',
+						views_7d: '25',
+						unique_7d: '20',
+						views_30d: '40',
+						unique_30d: '30',
+						total_views: '45',
+						total_unique_visitors: '33',
+						avg_time_on_page_ms: '22000',
+						median_time_on_page_ms: '18000',
+						avg_scroll_pct: '61',
+						bounce_rate: '31',
+						views_7d_percentile: '67.5',
+						performance_band: 'near_norm',
+						release_stage: 'mature'
+					}
+				],
+				error: null
+			});
+		const profilesSingle = vi.fn().mockResolvedValue({
+			data: { admin: true },
+			error: null
+		});
+		const supabase = {
+			from: vi.fn(() => ({
+				select: vi.fn(() => ({
+					eq: vi.fn(() => ({
+						single: profilesSingle
+					}))
+				}))
+			})),
+			rpc
+		};
+
+		const response = await GET({
+			url: new URL('https://9takes.test/api/admin/analytics/releases?limit=10'),
+			locals: {
+				session: { user: { id: 'admin-user' } },
+				supabase
+			}
+		} as any);
+		const body = await response.json();
+
+		expect(body.rows[0]).toMatchObject({
+			views_7d_percentile: 67.5,
+			benchmark_score: 67.5,
+			benchmark_basis: '7d',
+			benchmark_sample_size: 0,
+			growth_slope_7d: null,
+			decay_rate_after_spike: null
+		});
+		expect(body.summary).toMatchObject({
+			total_releases: 1,
+			benchmarked: 1
+		});
+	});
+
 	it('fetches multiple release batches when the requested limit exceeds the RPC page size', async () => {
 		const makeRow = (id: number, publishedAt: string) => ({
 			id,
@@ -233,5 +313,63 @@ describe('/api/admin/analytics/releases', () => {
 			p_limit: 200
 		});
 		expect(body.rows).toHaveLength(201);
+	});
+
+	it('refreshes the selected release window before reading older ranges', async () => {
+		vi.useFakeTimers();
+		vi.setSystemTime(new Date(2026, 3, 24, 12, 0, 0));
+
+		const rpc = vi
+			.fn()
+			.mockResolvedValueOnce({
+				data: 8,
+				error: null
+			})
+			.mockResolvedValueOnce({
+				data: [],
+				error: null
+			});
+		const profilesSingle = vi.fn().mockResolvedValue({
+			data: { admin: true },
+			error: null
+		});
+		const supabase = {
+			from: vi.fn(() => ({
+				select: vi.fn(() => ({
+					eq: vi.fn(() => ({
+						single: profilesSingle
+					}))
+				}))
+			})),
+			rpc
+		};
+
+		const response = await GET({
+			url: new URL(
+				'https://9takes.test/api/admin/analytics/releases?from=2026-01-10&to=2026-02-10&limit=10'
+			),
+			locals: {
+				session: { user: { id: 'admin-user' } },
+				supabase
+			}
+		} as any);
+		const body = await response.json();
+
+		expect(rpc).toHaveBeenNthCalledWith(1, 'refresh_content_analytics_daily', {
+			p_from: '2026-01-24',
+			p_to: '2026-04-24',
+			p_content_type: 'people'
+		});
+		expect(rpc).toHaveBeenNthCalledWith(2, 'get_content_release_performance', {
+			p_from_date: '2026-01-10',
+			p_to_date: '2026-02-10',
+			p_limit: 10
+		});
+		expect(body.refresh).toMatchObject({
+			from: '2026-01-24',
+			to: '2026-04-24',
+			rows: 8,
+			selectedRangeExtended: true
+		});
 	});
 });
