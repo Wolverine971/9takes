@@ -122,11 +122,11 @@ When you scroll through top influencers, you're usually looking at Type 3s who'v
 
 These names show up over and over when you map influencer culture to Type 3 psychology:
 
-- **Kim Kardashian** turned image management into a multi-billion-dollar empire. The [whole Kardashian dynasty](/pop-culture/kardashian-family-enneagram-analysis) is essentially a family business built on Type 3 instincts.
+- **Kim Kardashian** turned image management into a multi-billion-dollar empire. The whole Kardashian dynasty is essentially a family business built on Type 3 instincts.
 - **Kylie Jenner** built a cosmetics brand on photogenic discipline before she could legally drink.
-- **Alix Earle** decoded the "messy but aspirational" formula and rode it to a podcast empire — and a [very public split](/pop-culture/alex-cooper-alix-earle-beef-enneagram-analysis) from her Type 7 mentor when their incentives diverged.
+- **Alix Earle** decoded the "messy but aspirational" formula and rode it to a podcast empire — and a very public split from her Type 7 mentor when their incentives diverged.
 - **MrBeast** is Type 3 in a hoodie — every thumbnail A/B tested, every video benchmarked, every minute optimized for retention.
-- **Gary Vee** and **Alex Hormozi** are Type 3 hustle culture in human form. Hormozi himself appears in our [online gurus breakdown](/pop-culture/online-gurus-enneagram-analysis), and the pattern is unmistakable.
+- **Gary Vee** and **Alex Hormozi** are Type 3 hustle culture in human form. Hormozi himself appears in the online gurus pattern, and the pattern is unmistakable.
 
 The point isn't that any of these people are "fake." It's that Instagram is the rare environment where being relentlessly image-focused stops being a flaw and starts being the job description.
 
@@ -240,7 +240,7 @@ The point isn't that any of these people are "fake." It's that Instagram is the 
 
 **Example niche:** Business/hustle culture, gym intimidation, manosphere content, "tough love" mental health, hot takes.
 
-**Faces:** Andrew Tate at his peak rage-bait. Bobby Althoff's deadpan-disrespect interview style. The "alpha male" gym corner of Reels. Most of the [podcast bros](/pop-culture/podcast-bros-enneagram-analysis) and [online gurus](/pop-culture/online-gurus-enneagram-analysis) who pair Type 8 stage presence with Type 3 monetization underneath.
+**Faces:** Andrew Tate at his peak rage-bait. Bobby Althoff's deadpan-disrespect interview style. The "alpha male" gym corner of Reels. Most of the [podcast bros](/pop-culture/podcast-bros-enneagram-analysis) and online gurus who pair Type 8 stage presence with Type 3 monetization underneath.
 
 **Quote:** "I said what I said. Don't like it? Unfollow."
 
@@ -272,7 +272,7 @@ Most "influencer" coverage talks about women, which is weird because the male si
 | **Travel / "quit my job" bros**      | 7, 9           | Type 7 wants the next country. Type 9 just wants the slow life with a sunset behind it.  |
 | **Tech / build-in-public**           | 5, 3           | Type 5 is the engineer. Type 3 is the founder posting the screenshots.                   |
 
-Read across that table and a pattern jumps out: most male influencer success looks like Type 3 wearing a different jacket. The hustle bro, the gym bro, the finance bro, the build-in-public bro — they're often the same psychology dressed for different rooms. We pulled this thread further in our [online gurus](/pop-culture/online-gurus-enneagram-analysis) and [masculinity and the Enneagram](/pop-culture/masculinity-strength-and-the-enneagram) breakdowns if you want to keep going.
+Read across that table and a pattern jumps out: most male influencer success looks like Type 3 wearing a different jacket. The hustle bro, the gym bro, the finance bro, the build-in-public bro — they're often the same psychology dressed for different rooms. We pulled this thread further in our online gurus and [masculinity and the Enneagram](/pop-culture/masculinity-strength-and-the-enneagram) breakdowns if you want to keep going.
 
 ## The TikTok Effect: Is Type 3 Losing the Crown?
 
@@ -417,7 +417,7 @@ Before you decide whether you should be posting more, posting less, deleting the
 
 - **Not sure of your type?** Take the [free Enneagram test](/enneagram-test) — about five minutes, no email required.
 - **Want the deep dive on each type?** Start with the [Enneagram Corner](/enneagram-corner) and the type pages: [1](/enneagram-corner/enneagram-type-1) · [2](/enneagram-corner/enneagram-type-2) · [3](/enneagram-corner/enneagram-type-3) · [4](/enneagram-corner/enneagram-type-4) · [5](/enneagram-corner/enneagram-type-5) · [6](/enneagram-corner/enneagram-type-6) · [7](/enneagram-corner/enneagram-type-7) · [8](/enneagram-corner/enneagram-type-8) · [9](/enneagram-corner/enneagram-type-9).
-- **More celebrity Enneagram breakdowns:** [The Kardashian dynasty](/pop-culture/kardashian-family-enneagram-analysis), [online gurus](/pop-culture/online-gurus-enneagram-analysis), [podcast bros](/pop-culture/podcast-bros-enneagram-analysis), the [Alex Cooper / Alix Earle split](/pop-culture/alex-cooper-alix-earle-beef-enneagram-analysis), and [parasocial relationships by type](/pop-culture/parasocial-relationships-enneagram-type).
+- **More celebrity Enneagram breakdowns:** [podcast bros](/pop-culture/podcast-bros-enneagram-analysis), [parasocial relationships by type](/pop-culture/parasocial-relationships-enneagram-type), and other creator-culture patterns.
 
 You don't need to become an influencer to use any of this. You just need to understand what your specific personality is doing every time you open the app — and decide whether you actually want to keep doing it.
 

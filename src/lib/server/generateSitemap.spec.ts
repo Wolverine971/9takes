@@ -62,8 +62,6 @@ describe('buildStaticPages', () => {
 				'2025-01-01',
 			'src/routes/personality-analysis/type/[slug]/+page.svelte|src/routes/personality-analysis/type/[slug]/+page.server.ts':
 				'2025-01-01',
-			'src/routes/blog/experiment/+page.svelte|src/routes/blog/experiment/+page.server.ts':
-				'2025-01-01',
 			'src/routes': '2024-12-31'
 		});
 
@@ -103,8 +101,6 @@ describe('buildStaticPages', () => {
 			'src/routes/questions/+page.svelte|src/routes/questions/+page.server.ts|src/routes/questions/+page.ts':
 				'2025-01-01',
 			'src/routes/personality-analysis/type/[slug]/+page.svelte|src/routes/personality-analysis/type/[slug]/+page.server.ts':
-				'2025-01-01',
-			'src/routes/blog/experiment/+page.svelte|src/routes/blog/experiment/+page.server.ts':
 				'2025-01-01',
 			'src/routes': '2024-12-31'
 		});

@@ -17,9 +17,22 @@ yarn.lock
 /public
 /public/*
 /static
+/logs
+/test-results
+/Freshies12
+/Freshies13
 
 .vercel/
+database.types.ts
+docs/BLOG-CROSSLINK-INDEX.md
+docs/data/corpus-stats.md
+src/lib/components/molecules/famousTypes.ts
+src/lib/data/corpus-stats.json
+src/lib/generated/personalityImageSlugMap.json
+src/blog/people/drafts
+*.bak
 
 # Large transcript folders; format on demand via `pnpm format:transcripts`
 /youtube-transcript-research
+/youtube-transcripts
 /youtube-transcripts-people

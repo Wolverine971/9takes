@@ -74,7 +74,7 @@ The Big 5 personality assessment, though widely accepted in academia, emerged fr
 
 The Enneagram operates at the intersection of psychology and philosophy. It integrates theoretical understanding with observational data, creating a framework that explores both measurable behavior and the less tangible dimensions of human experience.
 
-Ask yourself: How much do we truly understand about emotions scientifically? <a href="/blog/experiment">Test your own understanding with this 2-minute experiment.</a>
+Ask yourself: How much do we truly understand about emotions scientifically?
 
   </div>
 </details>

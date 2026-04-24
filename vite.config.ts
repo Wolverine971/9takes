@@ -8,7 +8,6 @@ import { fileURLToPath } from 'url';
 import { createLogger } from 'vite';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
-const dev = process.env.NODE_ENV === 'development';
 
 const logger = createLogger();
 const originalWarn = logger.warn.bind(logger);
@@ -34,8 +33,7 @@ const config = {
 	define: {
 		// Public variables (accessible in client-side code)
 		'import.meta.env.VERCEL_ANALYTICS_ID': JSON.stringify(process.env.VERCEL_ANALYTICS_ID),
-		'import.meta.env.PUBLIC_GOOGLE': JSON.stringify(process.env.PUBLIC_GOOGLE),
-		'import.meta.env.VITE_UNSECURE_SECRET': JSON.stringify(process.env.VITE_UNSECURE_SECRET)
+		'import.meta.env.PUBLIC_GOOGLE': JSON.stringify(process.env.PUBLIC_GOOGLE)
 	},
 	test: {
 		include: [

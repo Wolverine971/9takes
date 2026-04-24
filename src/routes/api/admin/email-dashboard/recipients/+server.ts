@@ -24,8 +24,9 @@ async function fetchAllSourceRecipients(
 ): Promise<DashboardUserRow[]> {
 	const rows: DashboardUserRow[] = [];
 	let offset = 0;
+	let hasMore = true;
 
-	while (true) {
+	while (hasMore) {
 		const { data, error: usersError } = await supabase.rpc('get_email_dashboard_users', {
 			p_source: source,
 			p_search: undefined,
@@ -39,15 +40,8 @@ async function fetchAllSourceRecipients(
 		}
 
 		const batch = (data || []) as DashboardUserRow[];
-		if (batch.length === 0) {
-			break;
-		}
-
 		rows.push(...batch);
-		if (batch.length < PAGE_SIZE) {
-			break;
-		}
-
+		hasMore = batch.length === PAGE_SIZE;
 		offset += PAGE_SIZE;
 	}
 

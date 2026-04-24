@@ -147,10 +147,6 @@ const ROUTE_FILES = {
 		'src/routes/questions/categories/[slug]/+page.svelte',
 		'src/routes/questions/categories/[slug]/+page.server.ts'
 	],
-	blogExperiment: [
-		'src/routes/blog/experiment/+page.svelte',
-		'src/routes/blog/experiment/+page.server.ts'
-	],
 	corpusStats: [
 		'src/routes/corpus-stats/+page.svelte',
 		'src/routes/corpus-stats/+page.server.ts',
@@ -600,15 +596,7 @@ export function buildStaticPages({
 					siteFallbackLastmod
 				})
 			};
-		}),
-		{
-			loc: `${SITE_URL}/blog/experiment`,
-			lastmod: resolveStaticLastmod({
-				routePaths: ROUTE_FILES.blogExperiment,
-				fallbackLastmod: '2024-09-13',
-				siteFallbackLastmod
-			})
-		}
+		})
 	];
 }
 
