@@ -30,6 +30,7 @@ See `docs/council/architecture.md` for the full design and `docs/council/dossier
 - **Michael Seibel** — Enneagram Type 1. Product-market fit, founder honesty, pivots, CEO cards, underdog execution, service-after-building.
 - **Peter Thiel** — Enneagram Type 6. Contrarian positioning, monopoly thinking, mimetic diagnosis, small trusted tribes, strategic patience, civilizational hedges.
 - **Kristen Bell** — Enneagram Type 2. Anxiety regulation, remedy boxes, codependency, marriage infrastructure, the Helper wound, refusing to apologize as developmental work.
+- **Keke Palmer** — Enneagram Type 3. Narrative authorship under public pressure, child-star economics, fragmentation vs integration, inciting-incident-vs-root-cause framing, humor as IP pipeline, infrastructure over visibility.
 
 ---
 

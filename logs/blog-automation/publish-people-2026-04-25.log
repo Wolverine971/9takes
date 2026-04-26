@@ -1,0 +1,17 @@
+```text
+Published people blog.
+
+Person: neil-strauss
+Draft: src/blog/people/drafts/Neil-Strauss.md
+Date/lastmod: 2026-04-25
+Supabase: published=true (row id=998)
+Images: full + thumbnail present (static/types/4s/Neil-Strauss.webp, s-Neil-Strauss.webp)
+Generated files: pnpm gen:all completed
+  - famousTypes.ts: neil-strauss now link=true, hasImage=true, lastmod=2026-04-25, contentGrade=9.3
+  - sitemap.xml: includes https://9takes.com/personality-analysis/neil-strauss
+
+Blockers:
+- none
+```
+
+Content grade was 9.3 (4,698 words). Persona title: "Journalism's Method Actor".

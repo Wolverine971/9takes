@@ -33,7 +33,9 @@
 		const nextMenuOpen = !isMenuOpen;
 		isMenuOpen = nextMenuOpen;
 
-		isDropdownOpen = nextMenuOpen;
+		if (!nextMenuOpen) {
+			isDropdownOpen = false;
+		}
 
 		// Prevent body scrolling when menu is open
 		if (typeof document !== 'undefined') {

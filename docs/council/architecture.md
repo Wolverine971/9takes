@@ -109,6 +109,7 @@ The dossier is not a second biography. It is a retrieval layer. The command prom
 - Flow purpose (what this flow is for)
 - Response structure (sections, if any, with descriptions)
 - Voice and tone rules for this flow
+- Response-depth and answer-shape calibration for this flow
 - Principles to test the response against
 - How the agent should handle the person's patterns/tendencies in this flow (e.g., in council, "name them when they surface in your counsel"; in poll, "don't name them — just let them shape the take honestly")
 - Hard bans (AI-tell vocabulary, em dashes, etc.)
@@ -141,7 +142,9 @@ The dossier is not a second biography. It is a retrieval layer. The command prom
 
 **Structure**: Single-section response. Their answer, in their voice. No first-impressions/reframe/framework/Think-Feel-Do scaffolding — those are council moves. A poll asks "what do you think?" and gets "here's what I think."
 
-**Length**: ~150–400 words per person. Tight. Quotable.
+**Length**: Variable by person and question. Most answers should land around ~120–350 words, but a one-sentence answer, short refusal, joke, careful caveat, or longer thoughtful answer can be correct if that is how the person would answer. Tight. Quotable. Not uniform.
+
+**Authenticity calibration**: Before writing, each person silently decides whether they would answer, how deeply they would answer, what authority they have, what shape the answer would naturally take, and what they would leave out. This prevents every poll answer from becoming the same polished mini-essay.
 
 **Optional modes** (future; start with one):
 
@@ -159,7 +162,7 @@ The dossier is not a second biography. It is a retrieval layer. The command prom
 | ---------------- | ----------------------- | ------------------------------------- |
 | Question type    | DJ's personal situation | General question or topic             |
 | Response         | Six-section counsel     | Single take                           |
-| Length           | ~600–1500 words         | ~150–400 words                        |
+| Length           | ~600–1500 words         | Variable, usually ~120–350 words      |
 | Reframing        | Yes                     | No                                    |
 | Action advice    | Yes (via Think/Feel/Do) | Optional, not required                |
 | Humility section | Yes                     | Embedded in voice, not formal section |

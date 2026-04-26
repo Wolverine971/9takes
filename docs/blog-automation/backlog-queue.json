@@ -1,40 +1,11 @@
 {
-	"lastUpdated": "2026-04-24T06:16:00Z",
+	"lastUpdated": "2026-04-25T02:00:00Z",
 	"stats": {
 		"totalUnpublished": 114,
 		"totalPublished": 266,
 		"completionRate": "69.7%"
 	},
 	"queue": [
-		{
-			"name": "brene-brown",
-			"displayName": "Brené Brown",
-			"type": 2,
-			"priority": 98,
-			"priorityReason": "Fills Type 2 gap, vulnerability/shame research icon, huge podcast + TED audience, evergreen search",
-			"estimatedTraffic": "very-high",
-			"searchVolume": "very-high",
-			"personaTitle": null,
-			"addedToQueue": "2026-04-03",
-			"reQueuedAt": "2026-04-17T18:00:00Z",
-			"reQueuedReason": "Previous run interrupted 2026-04-06; slug normalized from 'brené-brown' to 'brene-brown' to avoid Unicode NFC/NFD hazards across shell, URL, filesystem, and DB. Display name keeps the é.",
-			"retryCount": 0,
-			"strategicValue": "fills-type-2-gap"
-		},
-
-		{
-			"name": "sandra-bullock",
-			"displayName": "Sandra Bullock",
-			"type": 9,
-			"priority": 88,
-			"priorityReason": "Huge name recognition, fills Type 9 gap, private persona makes compelling analysis",
-			"estimatedTraffic": "high",
-			"searchVolume": "high",
-			"personaTitle": null,
-			"addedToQueue": "2026-04-03",
-			"retryCount": 0,
-			"strategicValue": "fills-type-9-gap"
-		},
 		{
 			"name": "shakira",
 			"displayName": "Shakira",
@@ -761,7 +732,20 @@
 			"removedReason": "Queue cleanup 2026-04-22: stale inProgress since 2026-04-18. Draft exists at src/blog/people/drafts/Brene-Brown.md (30KB, 5048 words, frontmatter published=false). NOT auto-graded; grade_blog and publish still pending. NOTE: queue.type=2 but draft frontmatter enneagram=1 — verify before publish."
 		}
 	],
-	"inProgress": null,
+	"inProgress": {
+		"name": "sandra-bullock",
+		"displayName": "Sandra Bullock",
+		"type": 9,
+		"priority": 88,
+		"priorityReason": "Huge name recognition, fills Type 9 gap, private persona makes compelling analysis",
+		"estimatedTraffic": "high",
+		"searchVolume": "high",
+		"personaTitle": null,
+		"addedToQueue": "2026-04-03",
+		"retryCount": 0,
+		"strategicValue": "fills-type-9-gap",
+		"startedAt": "2026-04-25T02:00:00Z"
+	},
 	"failed": [],
 	"metadata": {
 		"priorityAlgorithm": "typeMultiplier * 10 + personaTitleBonus + searchVolumeEstimate",

@@ -1,4 +1,5 @@
 <!-- docs/council/dossier-spec.md -->
+
 # Council Dossier Spec
 
 Person profiles stay distilled. Raw research docs preserve the source trail. Dossiers hold the deeper memory layer.

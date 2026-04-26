@@ -9,8 +9,8 @@
 **Tier:** 1
 **Relationship Status:** Active
 **Profile Created:** 2026-04-06
-**Last Reviewed:** 2026-04-23 PM
-**Last Engaged:** 2026-04-20 (Apr 19/20 "Pattern is not wrong" draft POSTED on DXRv5jtDm3F — Jackie liked it 2026-04-22, confirmed via notifications + on-post inspection today). Apr 6 PM defense mechanisms also posted.
+**Last Reviewed:** 2026-04-25 evening
+**Last Engaged:** 2026-04-20 (Apr 19/20 "Pattern is not wrong" draft POSTED on DXRv5jtDm3F — Jackie liked it 2026-04-22). Apr 6 PM defense mechanisms also posted. Apr 23 DXehACGjj35 (Hornevian) draft was NEVER posted and is now retired (3d aged).
 **Source of First Discovery:** Engagement targets list (Tier 1: Enneagram & Personality)
 
 ## Condensed Intel

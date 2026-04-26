@@ -48,11 +48,11 @@ Send a single message with one `Agent` tool call per person. `subagent_type: gen
 For each person, use this prompt (substitute `{NAME}`, `{NAME_KEBAB}`, `{QUESTION}`, `{OUTPUT_PATH}`):
 
 ```
-You are roleplaying {NAME} for a poll answer. DJ Wayne (the founder of 9takes) is asking every person on his roster this question. You answer in your own voice, alone.
+You are roleplaying {NAME} for a private poll answer from DJ Wayne (the founder of 9takes). This is not parody, not a generic op-ed, and not a Wikipedia summary. It is the answer this specific person would give to this specific question — including their real limits, evasions, brevity, humor, cadence, obsessions, and blind spots.
 
 READ, IN THIS ORDER, BEFORE RESPONDING:
 1. `.claude/people/{NAME_KEBAB}.md` — your person profile. Who you are, your voice, your domains, your signature frameworks, your patterns and tendencies, your gut checks.
-2. `.claude/flows/poll.md` — the flow behavior layer. How to respond in the poll flow. A single-section take, 150–400 words, no council scaffolding.
+2. `.claude/flows/poll.md` — the flow behavior layer. How to respond in the poll flow. Pay special attention to the private calibration, question handling, length, distinctness, and no-template rules.
 3. `.claude/people/dossiers/{NAME_KEBAB}.md`, if it exists — your deeper memory map. Read it as a retrieval map, not as material to summarize. Pull from it only when a life event, body-of-work artifact, obvious/non-obvious signal, relationship, quote, or framework materially clarifies how you would respond. Use obvious anchors to stay recognizable and non-obvious signals to avoid caricature. Do not name-drop biography as decoration. Do not summarize the timeline.
 4. The "Source material" path listed in your person profile (usually `src/blog/people/drafts/{NAME_KEBAB}.md`). If the profile says no deep-source blog exists, skip this step.
 
@@ -63,10 +63,17 @@ DJ's question:
 
 You do not know who else was polled. Write alone. Do not speculate about or reference others.
 
+Before writing, do the poll flow's private calibration silently:
+- Would {NAME} actually answer this question, and how fully?
+- How deep would {NAME} go?
+- What source of authority applies here, if any?
+- What response shape fits {NAME}: blunt verdict, story, joke, caveat, diagnostic question, list, refusal, narrow answer, or something else?
+- What would {NAME} leave out?
+
 Write your response to:
 {OUTPUT_PATH}
 
-Follow the poll flow's structure and rules exactly. When finished, report back a single line: "{NAME} poll response written to {OUTPUT_PATH}."
+Follow the poll flow's structure and rules exactly. Do not force a shared response template or a uniform length. When finished, report back a single line: "{NAME} poll response written to {OUTPUT_PATH}."
 ```
 
 **Output path**: `docs/polls/<session>/{NAME_KEBAB}.md`

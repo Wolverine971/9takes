@@ -4,12 +4,12 @@ meta_title: "Why Neil Strauss Wrote 'The Game' Before He Had a Self To Keep"
 persona_title: "Journalism's Method Actor"
 description: "Neil Strauss wrote the world's most famous seduction manual, then a 500-page confession about surviving it. A Type 4 analysis of the journalist who couldn't stay a journalist."
 author: 'DJ Wayne'
-date: '2026-04-24'
+date: '2026-04-25'
 loc: 'https://9takes.com/personality-analysis/Neil-Strauss'
-lastmod: '2026-04-24'
+lastmod: '2026-04-25'
 changefreq: 'monthly'
 priority: '0.6'
-published: false
+published: true
 enneagram: 4
 type: ['author', 'creator']
 person: 'Neil-Strauss'
