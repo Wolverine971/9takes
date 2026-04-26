@@ -13,13 +13,13 @@
 
 The morning warmup stub (`2026-04-25_instagram-warmup.md`) listed 4 Apr 23 PM drafts as "Drafted - Pending Posting." Verified each on-post today:
 
-| #   | Account                | Post ID      | Posted Date | Age     | 9takes Comment Present | Decision                                   |
-| --- | ---------------------- | ------------ | ----------- | ------- | ---------------------- | ------------------------------------------ |
-| 1   | @enneagramwithjb       | DXehACGjj35  | Apr 23      | ~2d     | No                     | **Retire** — never posted, edge of staleness |
-| 2   | @mindfulmft            | DXc3repDdAN  | Apr 22      | ~3d     | No                     | **Retire** — too aged for top-level         |
-| 3   | @thesecurerelationship | DXcua-jjmP1  | Apr 22      | ~3d     | No                     | **Retire** — too aged                       |
-| 4   | @enneagrampaths        | DXb4upElHlQ  | Apr 22      | ~3d     | No                     | **Retire top-level**; comment-level alive but past freshness window |
-| 5   | @enneagrampaths        | DWzFwmGFB2m  | ~Apr 5      | ~20d    | n/a                    | **Retire** — already aged out              |
+| #   | Account                | Post ID     | Posted Date | Age  | 9takes Comment Present | Decision                                                            |
+| --- | ---------------------- | ----------- | ----------- | ---- | ---------------------- | ------------------------------------------------------------------- |
+| 1   | @enneagramwithjb       | DXehACGjj35 | Apr 23      | ~2d  | No                     | **Retire** — never posted, edge of staleness                        |
+| 2   | @mindfulmft            | DXc3repDdAN | Apr 22      | ~3d  | No                     | **Retire** — too aged for top-level                                 |
+| 3   | @thesecurerelationship | DXcua-jjmP1 | Apr 22      | ~3d  | No                     | **Retire** — too aged                                               |
+| 4   | @enneagrampaths        | DXb4upElHlQ | Apr 22      | ~3d  | No                     | **Retire top-level**; comment-level alive but past freshness window |
+| 5   | @enneagrampaths        | DWzFwmGFB2m | ~Apr 5      | ~20d | n/a                    | **Retire** — already aged out                                       |
 
 All 4 Apr 23 PM drafts went unposted across two days and are now outside the freshness window. Today's scan focuses on **fresh posts only** (<24h preferred, <12h ideal).
 

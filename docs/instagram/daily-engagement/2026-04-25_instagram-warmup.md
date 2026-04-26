@@ -13,13 +13,13 @@
 
 The Apr 24 warmup file was created but never completed (no scan ran). The Apr 23 PM queue is still the open execution context. Reconcile each item against on-post reality before queuing fresh work.
 
-| #   | Account                | Apr 23 PM Draft Target                                | Apr 23 Status              | Apr 25 Reality          |
-| --- | ---------------------- | ----------------------------------------------------- | -------------------------- | ----------------------- |
-| 1   | @enneagramwithjb       | DXehACGjj35 "Hornevian triads"                        | Drafted - Pending Posting  | _Pending verification_  |
-| 2   | @mindfulmft            | DXc3repDdAN "Decision to end a relationship"          | Drafted - Pending Posting  | _Pending verification_  |
-| 3   | @thesecurerelationship | DXcua-jjmP1 "Blaming vs Owning"                       | Drafted - Pending Posting  | _Pending verification_  |
-| 4   | @enneagrampaths        | DXb4upElHlQ "In Our Own Words" (post + comment-level) | Drafted - Pending Posting  | _Pending verification_  |
-| 5   | @enneagrampaths        | DWzFwmGFB2m Longings thread revive (optional)         | Optional - Pending         | 19d unanswered if alive |
+| #   | Account                | Apr 23 PM Draft Target                                | Apr 23 Status             | Apr 25 Reality          |
+| --- | ---------------------- | ----------------------------------------------------- | ------------------------- | ----------------------- |
+| 1   | @enneagramwithjb       | DXehACGjj35 "Hornevian triads"                        | Drafted - Pending Posting | _Pending verification_  |
+| 2   | @mindfulmft            | DXc3repDdAN "Decision to end a relationship"          | Drafted - Pending Posting | _Pending verification_  |
+| 3   | @thesecurerelationship | DXcua-jjmP1 "Blaming vs Owning"                       | Drafted - Pending Posting | _Pending verification_  |
+| 4   | @enneagrampaths        | DXb4upElHlQ "In Our Own Words" (post + comment-level) | Drafted - Pending Posting | _Pending verification_  |
+| 5   | @enneagrampaths        | DWzFwmGFB2m Longings thread revive (optional)         | Optional - Pending        | 19d unanswered if alive |
 
 ---
 

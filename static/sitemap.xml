@@ -132,7 +132,7 @@
   </url>
   <url>
     <loc>https://9takes.com/corpus-stats</loc>
-    <lastmod>2026-04-24</lastmod>
+    <lastmod>2026-04-25</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/enneagram-corner</loc>
@@ -1097,6 +1097,13 @@
     </image:image>
   </url>
   <url>
+    <loc>https://9takes.com/personality-analysis/ben-horowitz</loc>
+    <lastmod>2026-04-25</lastmod>
+    <image:image>
+      <image:loc>https://9takes.com/types/6s/Ben-Horowitz.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
     <loc>https://9takes.com/personality-analysis/benson-boone</loc>
     <lastmod>2026-04-08</lastmod>
     <image:image>
@@ -1216,7 +1223,7 @@
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/categories/music</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-25</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/categories/politics-public</loc>
@@ -1224,7 +1231,7 @@
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/categories/tech-business</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-25</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/chamath-palihapitiya</loc>
@@ -2543,6 +2550,13 @@
     </image:image>
   </url>
   <url>
+    <loc>https://9takes.com/personality-analysis/rick-rubin</loc>
+    <lastmod>2026-04-25</lastmod>
+    <image:image>
+      <image:loc>https://9takes.com/types/4s/Rick-Rubin.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
     <loc>https://9takes.com/personality-analysis/rihanna</loc>
     <lastmod>2026-01-26</lastmod>
     <image:image>
@@ -2998,7 +3012,7 @@
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/type/6</loc>
-    <lastmod>2026-04-20</lastmod>
+    <lastmod>2026-04-25</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/type/7</loc>

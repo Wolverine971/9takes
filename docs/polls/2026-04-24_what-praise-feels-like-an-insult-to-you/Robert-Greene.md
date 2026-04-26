@@ -1,4 +1,5 @@
 <!-- docs/polls/2026-04-24_what-praise-feels-like-an-insult-to-you/Robert-Greene.md -->
+
 # Robert Greene — Poll Response
 
 "You're so prolific." That one. It lands like a slap disguised as a bow.

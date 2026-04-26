@@ -1,4 +1,5 @@
 <!-- docs/polls/2026-04-24_what-praise-feels-like-an-insult-to-you/Michael-Seibel.md -->
+
 # Michael Seibel — Poll Response
 
 "You're so articulate." That one. Every time.

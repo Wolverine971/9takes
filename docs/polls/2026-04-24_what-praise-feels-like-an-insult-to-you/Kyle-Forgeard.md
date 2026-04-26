@@ -1,4 +1,5 @@
 <!-- docs/polls/2026-04-24_what-praise-feels-like-an-insult-to-you/Kyle-Forgeard.md -->
+
 # Kyle Forgeard — Poll Response
 
 "You guys are crazy." That one. When someone says it like a compliment, I hear someone who has already decided none of this is real work.

@@ -1,4 +1,5 @@
 <!-- docs/polls/2026-04-24_what-praise-feels-like-an-insult-to-you/Keke-Palmer.md -->
+
 # Keke Palmer — Poll Response
 
 "You're so resilient." Baby, no.

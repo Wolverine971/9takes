@@ -4,12 +4,12 @@ meta_title: "Why Rick Rubin Says He Knows Nothing About Music"
 persona_title: "The Producer of Missing Pieces"
 description: 'How Rick Rubin turned the refusal of technique into the space where feeling lives — a Type 4 analysis of the producer who closes his eyes to hear what the song is actually about.'
 author: 'DJ Wayne'
-date: '2026-04-24'
+date: '2026-04-25'
 loc: 'https://9takes.com/personality-analysis/Rick-Rubin'
-lastmod: '2026-04-24'
+lastmod: '2026-04-25'
 changefreq: 'monthly'
 priority: '0.6'
-published: false
+published: true
 enneagram: '4'
 type: ['musician', 'creator']
 person: 'Rick-Rubin'

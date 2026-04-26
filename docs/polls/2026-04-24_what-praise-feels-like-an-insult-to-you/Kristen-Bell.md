@@ -1,4 +1,5 @@
 <!-- docs/polls/2026-04-24_what-praise-feels-like-an-insult-to-you/Kristen-Bell.md -->
+
 # Kristen Bell — Poll Response
 
 "You are so selfless." That one. Every time.

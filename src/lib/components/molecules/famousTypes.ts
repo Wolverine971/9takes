@@ -187,7 +187,7 @@ export const famousTypes: { [index: number]: { name: string; link: boolean; hasI
 		{ name: 'nikola-tesla', link: true, hasImage: true, lastmod: '2025-12-09', personaTitle: 'Electricity\'s Tortured Genius', contentGrade: null },
 		{ name: 'paul-mescal', link: false, hasImage: true, lastmod: '2026-04-23', personaTitle: 'Cinema\'s Guarded Romantic', contentGrade: 8.9 },
 		{ name: 'prince', link: true, hasImage: true, lastmod: '2025-03-24', personaTitle: 'Funk\'s Purple Enigma', contentGrade: null },
-		{ name: 'rick-rubin', link: false, hasImage: true, lastmod: '2026-04-24', personaTitle: 'The Producer of Missing Pieces', contentGrade: 9.1 },
+		{ name: 'rick-rubin', link: true, hasImage: true, lastmod: '2026-04-25', personaTitle: 'The Producer of Missing Pieces', contentGrade: 9.1 },
 		{ name: 'robert-oppenheimer', link: true, hasImage: true, lastmod: '2026-04-15', personaTitle: 'Physics\' Tragic Romantic', contentGrade: 8.6 },
 		{ name: 'robert-pattinson', link: true, hasImage: true, lastmod: '2026-02-10', personaTitle: 'Hollywood\'s Disappearing Act', contentGrade: 9 },
 		{ name: 'sam-altman', link: true, hasImage: true, lastmod: '2026-03-01', personaTitle: 'AI\'s Existential Architect', contentGrade: 9.5 },
@@ -248,7 +248,7 @@ export const famousTypes: { [index: number]: { name: string; link: boolean; hasI
 	6: [
 		{ name: 'alexandria-ocasio-cortez', link: true, hasImage: true, lastmod: '2026-03-27', personaTitle: 'Congress\'s Vigilant Insurgent', contentGrade: 9 },
 		{ name: 'aubrey-plaza', link: true, hasImage: true, lastmod: '2026-02-17', personaTitle: 'Comedy\'s Deadpan Skeptic', contentGrade: 9 },
-		{ name: 'ben-horowitz', link: false, hasImage: true, lastmod: '2026-04-24', personaTitle: 'Silicon Valley\'s Wartime Watchman', contentGrade: 9.1 },
+		{ name: 'ben-horowitz', link: true, hasImage: true, lastmod: '2026-04-25', personaTitle: 'Silicon Valley\'s Wartime Watchman', contentGrade: 9.1 },
 		{ name: 'dalton-caldwell', link: true, hasImage: true, lastmod: '2026-04-20', personaTitle: 'Silicon Valley\'s Devoted Skeptic', contentGrade: 8.8 },
 		{ name: 'david-sacks', link: true, hasImage: true, lastmod: '2026-02-20', personaTitle: 'Silicon Valley\'s Vigilant Architect', contentGrade: 8.9 },
 		{ name: 'ellen-degeneres', link: true, hasImage: true, lastmod: '2025-03-24', personaTitle: 'Daytime\'s Fallen Sweetheart', contentGrade: null },

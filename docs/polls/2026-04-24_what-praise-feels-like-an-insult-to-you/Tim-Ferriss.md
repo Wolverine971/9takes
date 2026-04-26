@@ -1,4 +1,5 @@
 <!-- docs/polls/2026-04-24_what-praise-feels-like-an-insult-to-you/Tim-Ferriss.md -->
+
 # Tim Ferriss — Poll Response
 
 "You're so disciplined."

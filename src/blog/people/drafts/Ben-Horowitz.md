@@ -4,12 +4,12 @@ meta_title: "Why Ben Horowitz Can't Stop Preparing for Disaster"
 persona_title: "Silicon Valley's Wartime Watchman"
 description: "Ben Horowitz wrote the book on being a wartime CEO. He also cried every two hours through his own war. Here's what Enneagram Type 6 reveals about why."
 author: 'DJ Wayne'
-date: '2026-04-24'
+date: '2026-04-25'
 loc: 'https://9takes.com/personality-analysis/Ben-Horowitz'
-lastmod: '2026-04-24'
+lastmod: '2026-04-25'
 changefreq: 'monthly'
 priority: '0.6'
-published: false
+published: true
 enneagram: '6'
 type: ['techie', 'entrepreneur', 'author']
 person: 'Ben-Horowitz'

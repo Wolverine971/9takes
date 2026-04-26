@@ -1,4 +1,5 @@
 <!-- docs/polls/2026-04-24_what-praise-feels-like-an-insult-to-you/Peter-Thiel.md -->
+
 # Peter Thiel — Poll Response
 
 "Visionary." When someone calls me a visionary, I assume they have not read anything I have written, and also that they want something from me.
