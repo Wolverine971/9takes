@@ -17,7 +17,7 @@
 
 <a
 	href={ampUrl}
-	class="group my-8 block w-full overflow-hidden rounded-lg border border-primary-200 bg-primary-50 shadow-sm transition-all duration-300 hover:shadow-md"
+	class="group my-8 block w-full overflow-hidden rounded-xl border border-primary-200 bg-primary-50 shadow-sm transition-all duration-300 hover:shadow-md"
 >
 	<div class="flex flex-col items-center md:flex-row">
 		<div class="relative w-full md:w-1/3">

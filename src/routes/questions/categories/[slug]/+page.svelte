@@ -120,7 +120,7 @@
 
 	<div class="mx-auto max-w-5xl p-2">
 		<h1
-			class="m-1 w-full rounded-lg text-left text-xl font-semibold text-[var(--text-primary)]"
+			class="m-1 w-full rounded-md text-left text-xl font-semibold text-[var(--text-primary)]"
 			id="question-box"
 			itemprop="name"
 		>

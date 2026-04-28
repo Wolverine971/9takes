@@ -142,7 +142,7 @@
 </script>
 
 <div
-	class="question-display-card bg-[var(--bg-surface)]/70 relative overflow-hidden rounded-2xl border border-[var(--primary-subtle)] px-4 py-6 shadow-[var(--glow-sm)] backdrop-blur-md sm:p-6"
+	class="question-display-card bg-[var(--bg-surface)]/70 relative overflow-hidden rounded-xl border border-[var(--primary-subtle)] px-4 py-6 shadow-[var(--glow-sm)] backdrop-blur-md sm:p-6"
 >
 	<h1
 		class="relative m-0 w-full text-center font-bold leading-snug text-[var(--text-primary)] drop-shadow-[0_0_12px_var(--primary-glow)]"

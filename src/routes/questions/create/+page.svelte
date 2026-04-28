@@ -297,14 +297,14 @@
 		Your question could lead to fascinating insights. What would you like to explore today?
 	</p>
 	<div
-		class="mt-6 rounded-2xl border border-[var(--bg-elevated)] bg-[var(--bg-surface)] p-5 shadow-[var(--shadow-md)] transition hover:border-[var(--primary-subtle)] hover:shadow-[var(--glow-sm)] sm:p-8"
+		class="mt-6 rounded-xl border border-[var(--bg-elevated)] bg-[var(--bg-surface)] p-5 shadow-[var(--shadow-md)] transition hover:border-[var(--primary-subtle)] hover:shadow-[var(--glow-sm)] sm:p-8"
 		in:fly={{ y: 20, duration: 300, delay: 300 }}
 	>
 		<textarea
 			rows="4"
 			name="question"
 			placeholder="What's on your mind? Ask a thought-provoking question that invites diverse perspectives..."
-			class="noticia-text-regular w-full rounded-2xl border-2 border-[var(--bg-elevated)] bg-[var(--bg-elevated)] p-4 text-lg text-[var(--text-primary)] placeholder-[var(--text-muted)] shadow-sm transition focus:border-[var(--primary)] focus:outline-none focus:ring-2 focus:ring-[var(--primary-subtle)]"
+			class="noticia-text-regular w-full rounded-md border-2 border-[var(--bg-elevated)] bg-[var(--bg-elevated)] p-4 text-lg text-[var(--text-primary)] placeholder-[var(--text-muted)] shadow-sm transition focus:border-[var(--primary)] focus:outline-none focus:ring-2 focus:ring-[var(--primary-subtle)]"
 			bind:value={question}
 			oninput={handleInput}
 			maxlength={MAX_CHAR_COUNT}
@@ -332,7 +332,7 @@
 				rows="3"
 				name="context"
 				placeholder="Optional: share the situation, what prompted the question, or any relevant background..."
-				class="w-full rounded-2xl border border-[var(--bg-elevated)] bg-[var(--bg-elevated)] p-4 text-base text-[var(--text-primary)] placeholder-[var(--text-muted)] shadow-sm transition focus:border-[var(--primary)] focus:outline-none focus:ring-2 focus:ring-[var(--primary-subtle)]"
+				class="w-full rounded-md border border-[var(--bg-elevated)] bg-[var(--bg-elevated)] p-4 text-base text-[var(--text-primary)] placeholder-[var(--text-muted)] shadow-sm transition focus:border-[var(--primary)] focus:outline-none focus:ring-2 focus:ring-[var(--primary-subtle)]"
 				bind:value={context}
 				oninput={handleInput}
 				maxlength={MAX_CONTEXT_CHAR_COUNT}
@@ -342,7 +342,7 @@
 			</div>
 		</div>
 		<button
-			class="mt-5 inline-flex w-full items-center justify-center rounded-full bg-gradient-to-r from-[var(--primary-dark)] to-[var(--primary-darker)] px-5 py-3 text-base font-semibold text-[var(--text-on-primary)] shadow-[var(--glow-sm)] transition hover:from-[var(--primary)] hover:to-[var(--primary-dark)] hover:shadow-[var(--glow-md)] disabled:cursor-not-allowed disabled:opacity-60"
+			class="mt-5 inline-flex w-full items-center justify-center rounded-md bg-gradient-to-r from-[var(--primary-dark)] to-[var(--primary-darker)] px-5 py-3 text-base font-semibold text-[var(--text-on-primary)] shadow-[var(--glow-sm)] transition hover:from-[var(--primary)] hover:to-[var(--primary-dark)] hover:shadow-[var(--glow-md)] disabled:cursor-not-allowed disabled:opacity-60"
 			disabled={!isQuestionValid}
 			onclick={getUrl}
 			type="button"
@@ -360,13 +360,13 @@
 
 <Modal2 id="question-create" name="create question" navTop={loading} disableClose={loading}>
 	<div
-		class="relative w-full max-w-2xl rounded-3xl border border-[var(--bg-elevated)] bg-[var(--bg-deep)] p-6 text-[var(--text-primary)] shadow-[var(--shadow-lg)] sm:p-8"
+		class="relative w-full max-w-2xl rounded-xl border border-[var(--bg-elevated)] bg-[var(--bg-deep)] p-6 text-[var(--text-primary)] shadow-[var(--shadow-lg)] sm:p-8"
 		in:fade={{ duration: 300 }}
 		aria-busy={loading}
 	>
 		{#if loading}
 			<div
-				class="bg-[var(--bg-deep)]/95 absolute inset-0 z-20 flex flex-col items-center justify-center rounded-3xl px-6 text-center"
+				class="bg-[var(--bg-deep)]/95 absolute inset-0 z-20 flex flex-col items-center justify-center rounded-xl px-6 text-center"
 				in:fade={{ duration: 150 }}
 			>
 				<div class="loader"></div>
@@ -381,7 +381,7 @@
 			<h2 class="mt-0 text-2xl font-semibold text-[var(--primary)]">Create Question</h2>
 
 			<div
-				class="mt-4 rounded-2xl border border-[var(--primary-subtle)] bg-[var(--bg-surface)] p-4"
+				class="mt-4 rounded-xl border border-[var(--primary-subtle)] bg-[var(--bg-surface)] p-4"
 			>
 				<div
 					class="mx-auto h-[168px] w-[320px] overflow-hidden rounded-xl sm:h-[209px] sm:w-[400px] md:h-[251px] md:w-[480px]"
@@ -392,7 +392,7 @@
 				</div>
 			</div>
 			<button
-				class="mt-5 inline-flex w-full items-center justify-center rounded-full bg-gradient-to-r from-[var(--primary-dark)] to-[var(--primary-darker)] px-5 py-3 text-base font-semibold text-[var(--text-on-primary)] shadow-[var(--glow-sm)] transition hover:from-[var(--primary)] hover:to-[var(--primary-dark)] hover:shadow-[var(--glow-md)] disabled:cursor-not-allowed disabled:opacity-70"
+				class="mt-5 inline-flex w-full items-center justify-center rounded-md bg-gradient-to-r from-[var(--primary-dark)] to-[var(--primary-darker)] px-5 py-3 text-base font-semibold text-[var(--text-on-primary)] shadow-[var(--glow-sm)] transition hover:from-[var(--primary)] hover:to-[var(--primary-dark)] hover:shadow-[var(--glow-md)] disabled:cursor-not-allowed disabled:opacity-70"
 				onclick={createQuestion}
 				disabled={loading}
 			>

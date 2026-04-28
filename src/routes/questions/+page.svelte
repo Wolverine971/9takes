@@ -324,7 +324,7 @@
 
 <ErrorBoundary onError={(error) => console.error('Questions page error:', error)}>
 	<div
-		class="questions-page-container bg-[var(--bg-deep)]/70 mx-auto max-w-6xl overflow-x-hidden rounded-2xl border border-[var(--primary-subtle)] p-2 shadow-[var(--shadow-md)] backdrop-blur-md sm:overflow-visible sm:p-4"
+		class="questions-page-container bg-[var(--bg-deep)]/70 mx-auto max-w-6xl overflow-x-hidden rounded-xl border border-[var(--primary-subtle)] p-2 shadow-[var(--shadow-md)] backdrop-blur-md sm:overflow-visible sm:p-4"
 		in:fade={{ duration }}
 	>
 		<!-- Header Section -->
@@ -459,7 +459,7 @@
 					<div class="mb-2 flex items-center gap-3 border-b border-[var(--primary-subtle)] pb-2">
 						<button
 							on:click={() => filterByCategory(null, null)}
-							class="bg-[var(--bg-deep)]/60 flex items-center gap-1.5 rounded-lg border border-[var(--primary-subtle)] px-3 py-1.5 text-sm font-medium text-[var(--text-secondary)] backdrop-blur-sm transition-all hover:border-[var(--primary)] hover:bg-[var(--primary-subtle)] hover:text-[var(--primary)]"
+							class="bg-[var(--bg-deep)]/60 flex items-center gap-1.5 rounded-md border border-[var(--primary-subtle)] px-3 py-1.5 text-sm font-medium text-[var(--text-secondary)] backdrop-blur-sm transition-all hover:border-[var(--primary)] hover:bg-[var(--primary-subtle)] hover:text-[var(--primary)]"
 							aria-label="Back to all questions"
 						>
 							<svg
@@ -549,7 +549,7 @@
 					<li>Sort comments by personality type and learn yours</li>
 				</ol>
 				<button
-					class="w-full rounded-lg bg-[var(--primary-dark)] px-4 py-3 text-base font-semibold text-[var(--text-on-primary)] shadow-[var(--glow-sm)] transition-all duration-300 hover:-translate-y-0.5 hover:bg-[var(--primary)] hover:shadow-[var(--glow-md)] focus:outline-none focus:ring-2 focus:ring-[var(--primary)] focus:ring-offset-2 focus:ring-offset-transparent sm:px-6 sm:py-4 sm:text-lg"
+					class="w-full rounded-md bg-[var(--primary-dark)] px-4 py-3 text-base font-semibold text-[var(--text-on-primary)] shadow-[var(--glow-sm)] transition-all duration-300 hover:-translate-y-0.5 hover:bg-[var(--primary)] hover:shadow-[var(--glow-md)] focus:outline-none focus:ring-2 focus:ring-[var(--primary)] focus:ring-offset-2 focus:ring-offset-transparent sm:px-6 sm:py-4 sm:text-lg"
 					on:click={() => goToCreateQuestionPage('')}
 					aria-label="Ask your question now"
 				>

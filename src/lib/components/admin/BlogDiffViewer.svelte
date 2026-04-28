@@ -167,7 +167,7 @@
 	}
 </script>
 
-<div class="diff-viewer overflow-hidden rounded-lg border">
+<div class="diff-viewer overflow-hidden rounded-xl border">
 	<!-- Header -->
 	<div class="border-b bg-gray-100 px-4 py-2">
 		<div class="grid grid-cols-2 gap-4">

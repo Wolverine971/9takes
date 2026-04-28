@@ -711,7 +711,7 @@
 											<button
 												type="button"
 												onclick={() => toggleLeafCategory(category.id)}
-												class="flex items-center justify-between rounded-lg border px-3 py-2 text-left text-sm transition-colors {selectedTagIds.includes(
+												class="flex items-center justify-between rounded-md border px-3 py-2 text-left text-sm transition-colors {selectedTagIds.includes(
 													category.id
 												)
 													? 'border-[var(--primary)] bg-[var(--primary-subtle)] text-[var(--primary-lightest)]'
@@ -771,7 +771,7 @@
 										bind:value={newLeafCategoryName}
 										maxlength="60"
 										placeholder="e.g. Career transitions"
-										class="bg-[var(--bg-base)]/80 w-full rounded-lg border border-[var(--bg-elevated)] px-3 py-2 text-sm text-[var(--text-primary)] placeholder-[var(--text-muted)] focus:border-[var(--primary)] focus:outline-none"
+										class="bg-[var(--bg-base)]/80 w-full rounded-md border border-[var(--bg-elevated)] px-3 py-2 text-sm text-[var(--text-primary)] placeholder-[var(--text-muted)] focus:border-[var(--primary)] focus:outline-none"
 									/>
 									<button
 										type="button"
@@ -779,7 +779,7 @@
 										disabled={creatingLeafCategory ||
 											!selectedParentCategoryId ||
 											!newLeafCategoryName.trim()}
-										class="rounded-lg border border-[var(--primary-subtle)] bg-[var(--primary-subtle)] px-3 py-2 text-sm font-medium text-[var(--primary-light)] disabled:cursor-not-allowed disabled:opacity-60"
+										class="rounded-md border border-[var(--primary-subtle)] bg-[var(--primary-subtle)] px-3 py-2 text-sm font-medium text-[var(--primary-light)] disabled:cursor-not-allowed disabled:opacity-60"
 									>
 										{creatingLeafCategory ? 'Creating...' : 'Create Leaf'}
 									</button>
@@ -800,7 +800,7 @@
 										resetCategoryEditor();
 										categoryEditorOpen = false;
 									}}
-									class="bg-[var(--bg-deep)]/60 rounded-lg border border-[var(--bg-elevated)] px-3 py-2 text-sm text-[var(--text-secondary)]"
+									class="bg-[var(--bg-deep)]/60 rounded-md border border-[var(--bg-elevated)] px-3 py-2 text-sm text-[var(--text-secondary)]"
 								>
 									Cancel
 								</button>
@@ -808,7 +808,7 @@
 									type="button"
 									onclick={saveQuestionCategories}
 									disabled={categoryEditorSaving}
-									class="rounded-lg border border-[var(--primary-subtle)] bg-[var(--primary-subtle)] px-4 py-2 text-sm font-semibold text-[var(--primary-lightest)] disabled:cursor-not-allowed disabled:opacity-60"
+									class="rounded-md border border-[var(--primary-subtle)] bg-[var(--primary-subtle)] px-4 py-2 text-sm font-semibold text-[var(--primary-lightest)] disabled:cursor-not-allowed disabled:opacity-60"
 								>
 									{categoryEditorSaving ? 'Saving...' : 'Save Categories'}
 								</button>

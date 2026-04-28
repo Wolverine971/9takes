@@ -465,12 +465,6 @@
 			flex: 1 1 auto;
 			width: 100%;
 		}
-
-		.library-button {
-			height: 2.85rem;
-			min-width: 7.25rem;
-			padding-inline: 0.9rem;
-		}
 	}
 
 	@media (max-width: 639px) {

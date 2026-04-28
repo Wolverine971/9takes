@@ -48,10 +48,6 @@
 
 	let innerWidth = 0;
 	let isMobile = false;
-	let scrollY = 0;
-	let lastScrollY = 0;
-	let headerVisible = false;
-	let ticking = false;
 
 	// Initialize page-dependent variables to prevent server access
 	let isHomePage = false;
@@ -527,7 +523,7 @@
 	})}</script>`}
 </svelte:head>
 
-<svelte:window bind:innerWidth bind:scrollY />
+<svelte:window bind:innerWidth />
 
 {#if browser && $page?.route?.id?.includes('/stories/')}
 	<slot />
@@ -545,7 +541,7 @@
 			Skip to main content
 		</a>
 		<FloatingParticles />
-		<div class="sticky top-0 z-50 transform transition-transform duration-300 ease-in-out">
+		<div class="sticky top-0 z-50">
 			<Header {data} />
 		</div>
 		<Toast />

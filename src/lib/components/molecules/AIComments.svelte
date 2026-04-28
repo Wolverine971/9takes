@@ -47,7 +47,7 @@
 
 		<div
 			bind:this={carouselRef}
-			class="focus:ring-[var(--primary)]/50 relative flex items-center justify-center overflow-hidden rounded-lg border border-[var(--bg-elevated)] bg-[var(--bg-surface)] focus:outline-none focus:ring-2"
+			class="focus:ring-[var(--primary)]/50 relative flex items-center justify-center overflow-hidden rounded-md border border-[var(--bg-elevated)] bg-[var(--bg-surface)] focus:outline-none focus:ring-2"
 			role="region"
 			aria-live="polite"
 			aria-roledescription="carousel"

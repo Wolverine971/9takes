@@ -396,7 +396,7 @@
 		}
 
 		&.active {
-			background-color: var(--accent-light);
+			background-color: var(--primary-subtle);
 			color: var(--primary);
 			border-left-color: var(--primary);
 			font-weight: 600;
@@ -477,7 +477,7 @@
 		}
 
 		&.active {
-			background-color: var(--accent-light);
+			background-color: var(--primary-subtle);
 			color: var(--primary);
 			border-left-color: var(--primary);
 			font-weight: 500;

@@ -403,7 +403,7 @@
 				</div>
 				{#if shortAnswerNudge}
 					<div
-						class="mt-2 flex items-start gap-2 rounded-lg border border-amber-500/20 bg-amber-500/5 px-3 py-2"
+						class="mt-2 flex items-start gap-2 rounded-md border border-amber-500/20 bg-amber-500/5 px-3 py-2"
 						in:slide={{ duration: 200 }}
 					>
 						<span class="mt-0.5 text-amber-400">&#9997;</span>
@@ -475,7 +475,7 @@
 		<h2 class="mb-1 text-xl font-semibold text-[var(--text-primary)]">Share This Question</h2>
 		<p class="mb-5 text-sm text-[var(--text-secondary)]">Scan the QR code to share with others</p>
 
-		<div class="mb-5 rounded-2xl border border-[var(--primary-subtle)] bg-[var(--bg-deep)] p-4">
+		<div class="mb-5 rounded-xl border border-[var(--primary-subtle)] bg-[var(--bg-deep)] p-4">
 			<img src={qrCodeUrl} alt="Share question QR code" class="h-[180px] w-[180px]" />
 		</div>
 

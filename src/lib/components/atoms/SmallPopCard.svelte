@@ -114,7 +114,7 @@
 <svelte:window bind:innerWidth />
 
 <div
-	class="hover:scale-102 relative z-10 h-full w-full transform overflow-hidden rounded-lg border border-[var(--glass-border)] bg-opacity-15 transition-transform duration-300 hover:shadow-[0_0_15px_rgba(45,212,191,0.3)]"
+	class="hover:scale-102 relative z-10 h-full w-full transform overflow-hidden rounded-xl border border-[var(--glass-border)] bg-opacity-15 transition-transform duration-300 hover:shadow-[0_0_15px_rgba(45,212,191,0.3)]"
 	class:bg-black={!enneagramType}
 	class:bg-teal-900={enneagramType}
 	class:hover:scale-103={enneagramType}
@@ -181,7 +181,7 @@
 	></div>
 
 	<div
-		class="relative z-30 m-1 flex h-full flex-col items-center justify-end rounded bg-opacity-10 shadow transition-all duration-300"
+		class="relative z-30 m-1 flex h-full flex-col items-center justify-end rounded-md bg-opacity-10 shadow transition-all duration-300"
 	>
 		{#if showIcon}
 			<img
@@ -195,7 +195,7 @@
 		<div class="text-center">
 			{#if showDescription && enneagramType && enneagramType > 0 && enneagramType <= 9}
 				<div
-					class="text-shadow m-2 rounded-lg bg-opacity-20 p-2 text-white"
+					class="text-shadow m-2 rounded-md bg-opacity-20 p-2 text-white"
 					in:fly={{ y: 200, duration: 500 }}
 				>
 					<h2 class="mb-1 text-sm font-bold">
@@ -204,7 +204,7 @@
 				</div>
 			{:else if displayText && !showDescription}
 				<p
-					class={`name-pop-${namePopId} text-shadow rounded-lg bg-white bg-opacity-20 text-xs font-normal uppercase tracking-wider text-white transition-opacity duration-300 group-hover:opacity-0`}
+					class={`name-pop-${namePopId} text-shadow rounded-md bg-white bg-opacity-20 text-xs font-normal uppercase tracking-wider text-white transition-opacity duration-300 group-hover:opacity-0`}
 					class:yourname={displayText === 'YOUR NAME'}
 					data-value={displayText}
 					in:fly={{ y: -200, duration: 1500 }}
@@ -215,7 +215,7 @@
 
 			{#if displayText === 'YOUR NAME' && showDescription}
 				<div
-					class="text-shadow m-2 rounded-lg bg-white bg-opacity-20 p-2 text-white"
+					class="text-shadow m-2 rounded-md bg-white bg-opacity-20 p-2 text-white"
 					in:fly={{ y: 200, duration: 500 }}
 				>
 					<h2 class="text-sm font-bold">What is your take?</h2>

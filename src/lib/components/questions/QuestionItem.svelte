@@ -47,7 +47,7 @@
 
 <a
 	href="/questions/{questionData.url}"
-	class="greek-question-card my-1 flex min-h-12 transform-gpu cursor-pointer items-center justify-between gap-2 rounded px-3 py-2.5 text-inherit no-underline transition-all duration-200 will-change-auto sm:px-4 sm:py-3"
+	class="greek-question-card my-1 flex min-h-12 transform-gpu cursor-pointer items-center justify-between gap-2 rounded-md px-3 py-2.5 text-inherit no-underline transition-all duration-200 will-change-auto sm:px-4 sm:py-3"
 	class:focus:outline-primary-light={true}
 	class:focus:outline-offset-2={true}
 	class:w-full={showDetails}
@@ -84,7 +84,7 @@
 				/>
 			</span>
 			<span
-				class="xs:min-w-14 xs:px-2 bg-[var(--bg-deep)]/60 flex min-w-12 justify-center rounded border border-[var(--primary-subtle)] px-1.5 py-0.5 text-center text-xs text-[var(--text-secondary)] sm:min-w-16 sm:text-sm"
+				class="xs:min-w-14 xs:px-2 bg-[var(--bg-deep)]/60 flex min-w-12 justify-center rounded-md border border-[var(--primary-subtle)] px-1.5 py-0.5 text-center text-xs text-[var(--text-secondary)] sm:min-w-16 sm:text-sm"
 			>
 				{formattedDate}
 			</span>

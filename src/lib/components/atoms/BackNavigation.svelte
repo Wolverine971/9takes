@@ -50,7 +50,7 @@
 			class="flex h-8 items-start border-b border-[var(--border-color)] transition-transform hover:-translate-x-0.5 hover:bg-[var(--primary-subtle)] active:-translate-x-1"
 		>
 			<button
-				class="xs:p-0.5 xs:min-w-7 xs:min-h-7 mr-1 flex min-h-8 min-w-8 cursor-pointer items-center justify-center rounded border-0 bg-transparent p-1 text-[var(--text-secondary)] transition-colors duration-200 hover:text-[var(--primary)]"
+				class="xs:p-0.5 xs:min-w-7 xs:min-h-7 mr-1 flex min-h-8 min-w-8 cursor-pointer items-center justify-center rounded-md border-0 bg-transparent p-1 text-[var(--text-secondary)] transition-colors duration-200 hover:text-[var(--primary)]"
 				on:click={goBack}
 				aria-label="Go back"
 			>
@@ -74,7 +74,7 @@
 			{#if previousPage}
 				<a
 					href={previousPage.url}
-					class="xs:text-sm xs:p-1 max-w-[calc(100%-50px)] overflow-hidden text-ellipsis whitespace-nowrap rounded px-2 py-1 capitalize text-[var(--text-secondary)] no-underline transition-colors duration-200 hover:text-[var(--primary)]"
+					class="xs:text-sm xs:p-1 max-w-[calc(100%-50px)] overflow-hidden text-ellipsis whitespace-nowrap rounded-md px-2 py-1 capitalize text-[var(--text-secondary)] no-underline transition-colors duration-200 hover:text-[var(--primary)]"
 				>
 					{previousPage.name}
 				</a>

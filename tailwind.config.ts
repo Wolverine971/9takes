@@ -115,10 +115,14 @@ export default {
 				'glow-rose': '0 0 20px rgba(251, 113, 133, 0.3)'
 			},
 			borderRadius: {
-				sm: '0.25rem',
-				DEFAULT: '0.5rem',
-				lg: '0.75rem',
-				xl: '1rem'
+				// Standardized radius scale. Kole's recipe: 10px for small components.
+				// Mapping: rounded-md → buttons/inputs/chips · rounded-xl → cards/modals · rounded-full → pills/avatars only.
+				// rounded-lg, rounded-2xl, rounded-3xl are deprecated — see pnpm lint:radius.
+				sm: '0.25rem', // 4px — tiny inline things
+				DEFAULT: '0.5rem', // 8px — legacy fallback
+				md: '0.625rem', // 10px — buttons, inputs, chips (Kole's pick)
+				lg: '0.75rem', // 12px — DEPRECATED, use md or xl
+				xl: '1rem' // 16px — cards, modals, banners
 			},
 			spacing: {
 				xs: '0.25rem',

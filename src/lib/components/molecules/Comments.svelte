@@ -150,7 +150,7 @@
 			<div class="space-y-4 py-4">
 				{#each Array(3) as _, i}
 					<div
-						class="bg-[var(--bg-surface)]/50 rounded-2xl p-5 backdrop-blur-sm"
+						class="bg-[var(--bg-surface)]/50 rounded-xl p-5 backdrop-blur-sm"
 						in:fade={{ duration: 300, delay: i * 50 }}
 					>
 						<div class="flex gap-4">
@@ -185,7 +185,7 @@
 	{:else if userHasAnswered && !comments.length}
 		<div class="flex flex-col items-center justify-center py-12">
 			<div
-				class="mb-4 flex h-14 w-14 items-center justify-center rounded-2xl bg-[var(--bg-elevated)]"
+				class="mb-4 flex h-14 w-14 items-center justify-center rounded-xl bg-[var(--bg-elevated)]"
 			>
 				<svg
 					class="h-7 w-7 text-[var(--text-secondary)]"

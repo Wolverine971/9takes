@@ -377,7 +377,7 @@
 
 {#if _commentComment}
 	<div
-		class="group relative rounded-lg border border-[var(--bg-elevated)] bg-[var(--bg-surface)] transition-all duration-200 hover:border-[var(--primary-subtle)] hover:shadow-[var(--glow-sm)]"
+		class="group relative rounded-xl border border-[var(--bg-elevated)] bg-[var(--bg-surface)] transition-all duration-200 hover:border-[var(--primary-subtle)] hover:shadow-[var(--glow-sm)]"
 	>
 		<div class="flex flex-col">
 			<div class="flex w-full flex-col">
@@ -406,7 +406,7 @@
 							<span class="flex items-center gap-1.5 text-xs text-[var(--text-tertiary)]">
 								{#if _commentComment.modified_at}
 									<span
-										class="inline-flex h-3.5 w-3.5 items-center justify-center rounded bg-[var(--primary-subtle)] text-[9px] font-bold text-[var(--primary)]"
+										class="inline-flex h-3.5 w-3.5 items-center justify-center rounded-sm bg-[var(--primary-subtle)] text-[9px] font-bold text-[var(--primary)]"
 										title="Modified">M</span
 									>
 								{/if}
@@ -486,7 +486,7 @@
 							<Popover position="bottom-right">
 								<svelte:fragment slot="icon">
 									<div
-										class="flex h-8 w-8 items-center justify-center rounded-lg transition-colors duration-200 hover:bg-[var(--bg-elevated)]"
+										class="flex h-8 w-8 items-center justify-center rounded-md transition-colors duration-200 hover:bg-[var(--bg-elevated)]"
 									>
 										<SettingsIcon className="w-4 h-4 text-[var(--text-tertiary)]" />
 									</div>
@@ -529,14 +529,14 @@
 				<div class="mb-3">
 					<textarea
 						placeholder="Share your perspective — what's your experience with this? The more detail, the better the conversation."
-						class="w-full resize-y rounded-xl border border-[var(--bg-elevated)] bg-[var(--bg-elevated)] p-3 text-sm text-[var(--text-primary)] placeholder-[var(--text-muted)] focus:border-[var(--primary)] focus:outline-none focus:ring-2 focus:ring-[var(--primary-subtle)]"
+						class="w-full resize-y rounded-md border border-[var(--bg-elevated)] bg-[var(--bg-elevated)] p-3 text-sm text-[var(--text-primary)] placeholder-[var(--text-muted)] focus:border-[var(--primary)] focus:outline-none focus:ring-2 focus:ring-[var(--primary-subtle)]"
 						bind:value={newcomment}
 						rows="3"
 					></textarea>
 				</div>
 				<div class="flex justify-end gap-2 sm:flex-row">
 					<button
-						class="rounded-full border border-[var(--bg-elevated)] bg-transparent px-4 py-2 text-sm font-medium text-[var(--text-secondary)] transition-all duration-200 hover:bg-[var(--bg-elevated)] hover:text-[var(--text-primary)] active:scale-[0.98] sm:px-3 sm:py-1.5"
+						class="rounded-md border border-[var(--bg-elevated)] bg-transparent px-4 py-2 text-sm font-medium text-[var(--text-secondary)] transition-all duration-200 hover:bg-[var(--bg-elevated)] hover:text-[var(--text-primary)] active:scale-[0.98] sm:px-3 sm:py-1.5"
 						type="button"
 						on:click={() => {
 							commenting = false;
@@ -546,7 +546,7 @@
 						Cancel
 					</button>
 					<button
-						class="flex items-center justify-center gap-2 rounded-full bg-gradient-to-r from-[var(--primary-dark)] to-[var(--primary-darker)] px-4 py-2 text-sm font-medium text-white transition-all duration-200 hover:shadow-[var(--glow-md)] active:scale-[0.98] disabled:cursor-not-allowed disabled:opacity-40 sm:px-3 sm:py-1.5"
+						class="flex items-center justify-center gap-2 rounded-md bg-gradient-to-r from-[var(--primary-dark)] to-[var(--primary-darker)] px-4 py-2 text-sm font-medium text-white transition-all duration-200 hover:shadow-[var(--glow-md)] active:scale-[0.98] disabled:cursor-not-allowed disabled:opacity-40 sm:px-3 sm:py-1.5"
 						type="button"
 						on:click={createReply}
 						disabled={loading || !newcomment?.trim()}
@@ -659,21 +659,21 @@
 				id="edit-comment-{_commentComment?.id}"
 				rows="6"
 				bind:value={commentEdit}
-				class="w-full resize-y rounded-xl border border-[var(--bg-elevated)] bg-[var(--bg-elevated)] p-4 text-base leading-relaxed text-[var(--text-primary)] placeholder-[var(--text-muted)] transition-all duration-200 focus:border-[var(--primary)] focus:outline-none focus:ring-2 focus:ring-[var(--primary-subtle)]"
+				class="w-full resize-y rounded-md border border-[var(--bg-elevated)] bg-[var(--bg-elevated)] p-4 text-base leading-relaxed text-[var(--text-primary)] placeholder-[var(--text-muted)] transition-all duration-200 focus:border-[var(--primary)] focus:outline-none focus:ring-2 focus:ring-[var(--primary-subtle)]"
 				placeholder="Edit your comment..."
 			></textarea>
 		</div>
 
 		<div class="flex flex-col-reverse gap-3 sm:flex-row sm:justify-end">
 			<button
-				class="w-full cursor-pointer rounded-full border border-[var(--bg-elevated)] bg-transparent px-6 py-3 text-base font-medium text-[var(--text-secondary)] transition-all duration-200 hover:bg-[var(--bg-elevated)] hover:text-[var(--text-primary)] sm:w-auto"
+				class="w-full cursor-pointer rounded-md border border-[var(--bg-elevated)] bg-transparent px-6 py-3 text-base font-medium text-[var(--text-secondary)] transition-all duration-200 hover:bg-[var(--bg-elevated)] hover:text-[var(--text-primary)] sm:w-auto"
 				type="button"
 				on:click={() => getModal(`edit-modal-${_commentComment?.id}`).close()}
 			>
 				Cancel
 			</button>
 			<button
-				class="flex w-full cursor-pointer items-center justify-center gap-2 rounded-full border-none bg-gradient-to-r from-[var(--primary-dark)] to-[var(--primary-darker)] px-6 py-3 text-base font-medium text-white transition-all duration-200 hover:shadow-[var(--glow-md)] active:scale-[0.98] disabled:cursor-not-allowed disabled:opacity-50 sm:w-auto"
+				class="flex w-full cursor-pointer items-center justify-center gap-2 rounded-md border-none bg-gradient-to-r from-[var(--primary-dark)] to-[var(--primary-darker)] px-6 py-3 text-base font-medium text-white transition-all duration-200 hover:shadow-[var(--glow-md)] active:scale-[0.98] disabled:cursor-not-allowed disabled:opacity-50 sm:w-auto"
 				type="button"
 				on:click={saveEdit}
 				disabled={loading || !commentEdit.trim()}
@@ -747,7 +747,7 @@
 							aria-describedby={flagError && !flaggingReasonId
 								? `flag-reason-error-${_commentComment?.id}`
 								: undefined}
-							class="w-full cursor-pointer rounded-xl border bg-[var(--bg-elevated)] p-4 text-base text-[var(--text-primary)] transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-[var(--primary-subtle)] {flagError &&
+							class="w-full cursor-pointer rounded-md border bg-[var(--bg-elevated)] p-4 text-base text-[var(--text-primary)] transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-[var(--primary-subtle)] {flagError &&
 							!flaggingReasonId
 								? 'border-red-500'
 								: 'border-[var(--bg-elevated)] focus:border-[var(--primary)]'}"
@@ -802,7 +802,7 @@
 						id={`flag-description-${_commentComment?.id}`}
 						rows="4"
 						bind:value={flaggingReasonDescription}
-						class="w-full resize-y rounded-xl border border-[var(--bg-elevated)] bg-[var(--bg-elevated)] p-4 text-base leading-relaxed text-[var(--text-primary)] placeholder-[var(--text-muted)] transition-all duration-200 focus:border-[var(--primary)] focus:outline-none focus:ring-2 focus:ring-[var(--primary-subtle)]"
+						class="w-full resize-y rounded-md border border-[var(--bg-elevated)] bg-[var(--bg-elevated)] p-4 text-base leading-relaxed text-[var(--text-primary)] placeholder-[var(--text-muted)] transition-all duration-200 focus:border-[var(--primary)] focus:outline-none focus:ring-2 focus:ring-[var(--primary-subtle)]"
 						placeholder="Provide any additional context that might help us review this comment..."
 					></textarea>
 				</div>
@@ -810,14 +810,14 @@
 
 			<div class="flex flex-col-reverse gap-3 sm:flex-row sm:justify-end">
 				<button
-					class="w-full cursor-pointer rounded-full border border-[var(--bg-elevated)] bg-transparent px-6 py-3 text-base font-medium text-[var(--text-secondary)] transition-all duration-200 hover:bg-[var(--bg-elevated)] hover:text-[var(--text-primary)] sm:w-auto"
+					class="w-full cursor-pointer rounded-md border border-[var(--bg-elevated)] bg-transparent px-6 py-3 text-base font-medium text-[var(--text-secondary)] transition-all duration-200 hover:bg-[var(--bg-elevated)] hover:text-[var(--text-primary)] sm:w-auto"
 					type="button"
 					on:click={closeFlagModal}
 				>
 					Cancel
 				</button>
 				<button
-					class="flex w-full cursor-pointer items-center justify-center gap-2 rounded-full border-none bg-gradient-to-r from-red-600 to-red-700 px-6 py-3 text-base font-medium text-white transition-all duration-200 hover:shadow-[0_0_20px_rgba(239,68,68,0.4)] active:scale-[0.98] disabled:cursor-not-allowed disabled:opacity-50 sm:w-auto"
+					class="flex w-full cursor-pointer items-center justify-center gap-2 rounded-md border-none bg-gradient-to-r from-red-600 to-red-700 px-6 py-3 text-base font-medium text-white transition-all duration-200 hover:shadow-[0_0_20px_rgba(239,68,68,0.4)] active:scale-[0.98] disabled:cursor-not-allowed disabled:opacity-50 sm:w-auto"
 					type="submit"
 					disabled={loading || !flaggingReasonId || !flagReasons.length}
 					aria-busy={loading}

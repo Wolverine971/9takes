@@ -19,10 +19,11 @@ export const WELCOME_SEQUENCE_CONTENT: WelcomeSequenceContent[] = [
 		htmlContent: `<p>Hi {{first_name}},</p>
 <p>You just signed up for 9takes. Here's what you actually opted into:</p>
 <p>Reading the room feels like wisdom. Most of the time it is mimicry with extra steps. 9takes inverts that on purpose.</p>
+<p>Pick any question that feels real, then run the loop:</p>
 <ol>
-  <li>Pick a question that feels real.</li>
-  <li>Answer before seeing the crowd.</li>
-  <li>Then compare your read with everyone else's.</li>
+  <li>Answer before reading.</li>
+  <li>Compare what others saw.</li>
+  <li>Name one assumption you were carrying.</li>
 </ol>
 <p>The value is the gap: what you noticed, what other people noticed, and what everyone assumed too quickly.</p>
 <p><a class="button" href="{{questions_url}}">Answer one question</a></p>
@@ -35,9 +36,11 @@ You just signed up for 9takes. Here's what you actually opted into:
 
 Reading the room feels like wisdom. Most of the time it is mimicry with extra steps. 9takes inverts that on purpose.
 
-1. Pick a question that feels real.
-2. Answer before seeing the crowd.
-3. Then compare your read with everyone else's.
+Pick any question that feels real, then run the loop:
+
+1. Answer before reading.
+2. Compare what others saw.
+3. Name one assumption you were carrying.
 
 The value is the gap: what you noticed, what other people noticed, and what everyone assumed too quickly.
 
@@ -98,7 +101,7 @@ DJocrates
 <p>Better question: <em>My friend is warm in person but takes days to reply. What might be going on?</em></p>
 <p>The second one gives people something real to work with. They can name different motives, fears, habits, and blind spots without pretending one answer explains everyone.</p>
 <p>If there is a situation you keep replaying in your head, that is the one to post. You will get reads you did not think of.</p>
-<p><a class="button" href="https://9takes.com/questions/create">Ask your own question</a></p>
+<p><a class="button" href="{{ask_question_url}}">Ask your own question</a></p>
 <p><a href="{{questions_url}}">Or answer a current one first</a></p>
 <p>This same shift — stop trying to win, start asking questions that can actually be answered — is how online arguments turn into real conversations. <a href="https://9takes.com/community/what-winning-online-arguments-looks-like">Read "What Winning Online Arguments Looks Like"</a>.</p>
 <p>DJocrates<br />9takes.com</p>`,
@@ -114,7 +117,7 @@ The second one gives people something real to work with. They can name different
 
 If there is a situation you keep replaying in your head, that is the one to post. You will get reads you did not think of.
 
-Ask your own question: https://9takes.com/questions/create
+Ask your own question: {{ask_question_url}}
 Or answer a current one first: {{questions_url}}
 
 This same shift — stop trying to win, start asking questions that can actually be answered — is how online arguments turn into real conversations. Read "What Winning Online Arguments Looks Like": https://9takes.com/community/what-winning-online-arguments-looks-like

@@ -60,7 +60,7 @@
 {#if hasError}
 	{#if fallback === 'minimal'}
 		<div class="flex min-h-[200px] items-center justify-center p-8">
-			<div class="rounded-lg border border-red-500/30 bg-red-900/20 p-6 text-center shadow-sm">
+			<div class="rounded-xl border border-red-500/30 bg-red-900/20 p-6 text-center shadow-sm">
 				<p class="mb-4 text-red-300">Something went wrong. Please try again.</p>
 				<button
 					class="rounded-md bg-red-600 px-4 py-2 text-white transition-colors hover:bg-red-700 hover:shadow-[0_0_15px_rgba(239,68,68,0.3)]"
@@ -75,7 +75,7 @@
 	{:else}
 		<div class="flex min-h-[500px] items-center justify-center p-4">
 			<div
-				class="w-full max-w-md rounded-2xl border border-[var(--border-color)] bg-[var(--bg-surface)] p-8 shadow-[var(--shadow-xl)]"
+				class="w-full max-w-md rounded-xl border border-[var(--border-color)] bg-[var(--bg-surface)] p-8 shadow-[var(--shadow-xl)]"
 			>
 				<div class="flex flex-col items-center text-center">
 					<!-- Error Icon -->
@@ -108,13 +108,13 @@
 					<!-- Action Buttons -->
 					<div class="flex w-full flex-col gap-3 sm:flex-row sm:justify-center">
 						<button
-							class="rounded-lg bg-[var(--primary-dark)] px-6 py-2.5 font-semibold text-[var(--text-on-primary)] shadow-[var(--glow-sm)] transition-all hover:bg-[var(--primary)] hover:shadow-[var(--glow-md)]"
+							class="rounded-md bg-[var(--primary-dark)] px-6 py-2.5 font-semibold text-[var(--text-on-primary)] shadow-[var(--glow-sm)] transition-all hover:bg-[var(--primary)] hover:shadow-[var(--glow-md)]"
 							on:click={retry}
 						>
 							Try Again
 						</button>
 						<button
-							class="rounded-lg border border-[var(--border-color)] bg-[var(--bg-deep)] px-6 py-2.5 font-semibold text-[var(--text-secondary)] transition-all hover:border-[var(--primary-subtle)] hover:bg-[var(--bg-elevated)] hover:text-[var(--text-primary)]"
+							class="rounded-md border border-[var(--border-color)] bg-[var(--bg-deep)] px-6 py-2.5 font-semibold text-[var(--text-secondary)] transition-all hover:border-[var(--primary-subtle)] hover:bg-[var(--bg-elevated)] hover:text-[var(--text-primary)]"
 							on:click={() => (window.location.href = '/')}
 						>
 							Go Home
@@ -130,7 +130,7 @@
 								Error details (development only)
 							</summary>
 							<div
-								class="mt-3 rounded-lg border border-[var(--border-color)] bg-[var(--bg-deep)] p-4"
+								class="mt-3 rounded-xl border border-[var(--border-color)] bg-[var(--bg-deep)] p-4"
 							>
 								<pre class="overflow-x-auto text-left text-xs text-red-400">{errorStack}</pre>
 							</div>

@@ -2451,7 +2451,6 @@
 			box-shadow:
 				0 0 0 4px var(--bg-base),
 				0 0 14px rgba(45, 212, 191, 0.45);
-			margin-bottom: 0.5rem;
 		}
 
 		.give-step h3 {

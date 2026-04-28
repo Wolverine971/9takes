@@ -209,7 +209,7 @@
 	<h1 class="mb-6 text-3xl font-bold text-primary-700">Email Administration</h1>
 
 	<!-- Custom Email Creator Section -->
-	<div class="mb-8 rounded-lg bg-white p-6 shadow-md">
+	<div class="mb-8 rounded-xl bg-white p-6 shadow-md">
 		<h2 class="mb-4 text-2xl font-semibold text-neutral-800">Custom Email Creator</h2>
 
 		<div class="grid grid-cols-1 gap-8 lg:grid-cols-2">
@@ -295,7 +295,7 @@
 			<div class="email-preview-container">
 				<h3 class="mb-3 text-lg font-medium text-neutral-700">Email Preview</h3>
 				<div
-					class="email-preview h-[500px] overflow-hidden overflow-y-auto rounded border border-neutral-200"
+					class="email-preview h-[500px] overflow-hidden overflow-y-auto rounded-xl border border-neutral-200"
 				>
 					{#if subject && header && emailBody}
 						<iframe
@@ -315,7 +315,7 @@
 	</div>
 
 	<!-- Template Emails Section -->
-	<div class="mb-8 rounded-lg bg-white p-6 shadow-md">
+	<div class="mb-8 rounded-xl bg-white p-6 shadow-md">
 		<h2 class="mb-4 text-2xl font-semibold text-neutral-800">Send Template Email</h2>
 
 		<div class="grid grid-cols-1 gap-6 md:grid-cols-2">
@@ -411,7 +411,7 @@
 			<div>
 				<h3 class="mb-3 text-lg font-medium text-neutral-700">Template Preview</h3>
 				<div
-					class="email-preview-container h-[400px] overflow-hidden overflow-y-auto rounded border border-neutral-200"
+					class="email-preview-container h-[400px] overflow-hidden overflow-y-auto rounded-xl border border-neutral-200"
 				>
 					{#if selectedTemplate}
 						<iframe
@@ -439,12 +439,12 @@
 	</div>
 
 	<!-- Template Gallery -->
-	<div class="rounded-lg bg-white p-6 shadow-md">
+	<div class="rounded-xl bg-white p-6 shadow-md">
 		<h2 class="mb-4 text-2xl font-semibold text-neutral-800">Email Template Gallery</h2>
 
 		<div class="grid grid-cols-1 gap-6 md:grid-cols-2">
 			{#each [{ name: 'joinEmail', title: 'Waitlist Join', render: joinEmail }, { name: 'joinEmail2', title: 'Waitlist Join Alt', render: joinEmail2 }, { name: 'signupEmail', title: 'Email Verification', render: signupEmail }, { name: 'forgotPass', title: 'Password Reset', render: () => forgotPass('https://9takes.com/reset-password?token=sample') }] as template}
-				<div class="overflow-hidden rounded-lg border">
+				<div class="overflow-hidden rounded-xl border">
 					<div class="border-b bg-neutral-100 p-3">
 						<h3 class="font-medium">{template.title}</h3>
 					</div>

@@ -22,7 +22,7 @@
 <div class="category-item mb-2">
 	<div
 		role="button"
-		class="flex cursor-pointer items-center rounded p-2 hover:bg-gray-100"
+		class="flex cursor-pointer items-center rounded-md p-2 hover:bg-gray-100"
 		on:click={toggleExpand}
 		on:keydown={(e) => e.key === 'Enter' && toggleExpand()}
 		tabindex="0"
