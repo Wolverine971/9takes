@@ -82,6 +82,8 @@ A 9takes celebrity blog is not a Wikipedia summary, a personality-quiz page, or 
 4. **At least one signature detail** — a small, specific, seemingly minor moment that cracks the person open (Thiel's parachute, the gift that didn't land, the Wikipedia page corrected from "Spanish descent" to "Basque"). Not a headline accomplishment.
 5. **Prose that hits.** Rhythm varies. Short sentences land after long ones. If a paragraph sounds like a textbook, it gets rewritten.
 
+**The subtractive principle (meta-rule for all five bars).** A celebrity blog draws a _persona_ of the person from public material — not the full human. The writer's job is to cut away the inessentials and sharpen the contradictions and ambivalences that most quickly characterize them. The most characterizing material is almost never the headline accomplishment; it's the contradiction the headline obscures. (Adapted from Philip Lopate on the personal essay: positioning what's already there "under the most clearly focused, sharply defined light… preferably those that lead to the most intense contradictions and ambivalences.") If a section is rounding contradictions off into a coherent-but-flat portrait, you are adding instead of subtracting — go back and cut.
+
 ---
 
 ## The Five Craft Principles
@@ -265,6 +267,18 @@ The blog ends on its sharpest insight and stops. Cut to black. The reader should
 - **Callback to the opening detail** — closes the loop on the concrete image from the hook.
 
 **Anti-imitation rule:** do not echo the cadence of any ending you read in the reference library. Specifically avoid the `"A [Type]. Doing what [Type]s do. [Anaphora]. [Anaphora]. [Anaphora]."` structure — once two blogs in the catalog share it, it becomes formulaic. Calibrate on what great _feels like_, then find a shape that fits only this person.
+
+---
+
+## Within-Section Form License
+
+The page template is fixed (TL;DR block, required `What is [Person]'s personality type?` heading, the ending rule). Within an H2, you have more room than you think.
+
+- **Borrow the shape of another form when it sharpens the section.** A timeline, a court-record, an FAQ, a footnoted aside, a single-paragraph micro essay, an annotated quote. The shape should serve the insight, not perform cleverness.
+- **Braid two threads through one section** when they illuminate each other — interleave a public quote and a private behavior, or alternate a childhood detail and the adult echo of it.
+- **Form is a tool, not a trophy.** If the reader has to figure out the shape before they get the point, flatten it. The two-second test still applies.
+
+This permission lives inside sections; it does not override the page-template rules below or the Distribution Rule above.
 
 ---
 

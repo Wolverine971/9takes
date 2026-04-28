@@ -2,7 +2,8 @@
 <script lang="ts">
 	import { browser } from '$app/environment';
 	import QRCode from 'qrcode';
-	import ModalNew from '$lib/components/atoms/ModalNew.svelte';
+	import Modal from '$lib/components/atoms/Modal2.svelte';
+	import { getModal } from '$lib/components/atoms/Modal2.svelte';
 	import Rubix from '$lib/components/icons/rubix.svelte';
 	import Scribble from '$lib/components/atoms/scribble.svelte';
 	import {
@@ -33,7 +34,6 @@
 	let selectedBackgroundPresetId = $state<QuestionPrintBackgroundPresetId>('aurora');
 	let backgroundOpacity = $state(getQuestionPrintBackgroundPreset('aurora').suggestedOpacity);
 	let qrCodeUrl = $state('');
-	let previewOpen = $state(false);
 	let showQuestionUrlOnPoster = $state(true);
 	let questionBoxWidth = $state(0);
 	let layoutRequest = 0;
@@ -167,7 +167,7 @@
 
 	async function openPreview() {
 		await ensureQrCodeReady();
-		previewOpen = true;
+		getModal('question-preview')?.open();
 	}
 
 	async function printPoster() {
@@ -737,8 +737,9 @@
 	</div>
 </div>
 
-<ModalNew bind:open={previewOpen} title="Question preview" maxWidth="1120px" fullMobile={true}>
+<Modal id="question-preview" name="Question preview" maxWidth="1120px" fullMobile={true}>
 	<div class="modal-preview">
+		<h2 class="modal-preview__title">Question preview</h2>
 		<div class="modal-preview__toolbar">
 			<p>Full-size preview for checking spacing, contrast, and QR placement before printing.</p>
 			<button class="btn btn-primary" type="button" onclick={printPoster}>Print Question</button>
@@ -748,7 +749,7 @@
 			{@render posterCard()}
 		</div>
 	</div>
-</ModalNew>
+</Modal>
 
 <style>
 	.question-print-page {
@@ -1305,6 +1306,14 @@
 		display: flex;
 		flex-direction: column;
 		gap: 1rem;
+	}
+
+	.modal-preview__title {
+		margin: 0;
+		font-size: 1.5rem;
+		font-weight: 600;
+		color: var(--text-primary);
+		line-height: 1.2;
 	}
 
 	.modal-preview__toolbar {

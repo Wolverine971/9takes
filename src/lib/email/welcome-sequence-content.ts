@@ -14,9 +14,10 @@ export type WelcomeSequenceContent = {
 export const WELCOME_SEQUENCE_CONTENT: WelcomeSequenceContent[] = [
 	{
 		stepNumber: 1,
-		subject: "You answer before you read. Here's why that matters.",
+		subject: '{{first_name}}, you answer before you read. The order is the whole product.',
 		preheader: 'Most apps train you to read the room first. 9takes flips the order.',
 		htmlContent: `<p>Hi {{first_name}},</p>
+<p>You just signed up for 9takes. Here's what you actually opted into:</p>
 <p>Reading the room feels like wisdom. Most of the time it is mimicry with extra steps. 9takes inverts that on purpose.</p>
 <ol>
   <li>Pick a question that feels real.</li>
@@ -29,6 +30,8 @@ export const WELCOME_SEQUENCE_CONTENT: WelcomeSequenceContent[] = [
 <p>Want the longer version of why I built it this way? <a href="https://9takes.com/community/introducing-9takes">Read "Introducing 9takes: Answer First, Then Compare Perspectives"</a>.</p>
 <p>DJocrates<br />9takes.com</p>`,
 		plainText: `Hi {{first_name}},
+
+You just signed up for 9takes. Here's what you actually opted into:
 
 Reading the room feels like wisdom. Most of the time it is mimicry with extra steps. 9takes inverts that on purpose.
 
@@ -87,7 +90,7 @@ DJocrates
 	},
 	{
 		stepNumber: 3,
-		subject: '"Why are people so fake?" is a broken question. Here\'s the fix.',
+		subject: '"Why are people so fake?" is the wrong question.',
 		preheader: 'The shape of the question decides the quality of the answers.',
 		htmlContent: `<p>Hi {{first_name}},</p>
 <p>A good 9takes question is specific, tense, and not already solved.</p>

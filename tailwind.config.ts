@@ -105,10 +105,12 @@ export default {
 				}
 			},
 			boxShadow: {
-				sm: '0 1px 3px rgba(12, 10, 9, 0.15)',
-				md: '0 4px 6px rgba(12, 10, 9, 0.2)',
-				lg: '0 10px 15px rgba(12, 10, 9, 0.25)',
-				xl: '0 20px 25px rgba(12, 10, 9, 0.3)',
+				// Theme-aware: defined in src/scss/index.scss for both dark and light modes.
+				// Following Kole's recipe — soft, neutral, larger blur, low alpha.
+				sm: 'var(--shadow-sm)',
+				md: 'var(--shadow-md)',
+				lg: 'var(--shadow-lg)',
+				xl: 'var(--shadow-xl)',
 				'glow-teal': '0 0 20px rgba(45, 212, 191, 0.3)',
 				'glow-rose': '0 0 20px rgba(251, 113, 133, 0.3)'
 			},

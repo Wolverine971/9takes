@@ -401,16 +401,14 @@
 	</section>
 </div>
 
-<Modal2 id="question-details-modal">
-	<div class="modal-content">
-		{#if selectedQuestion}
-			<AdminQuestionItem
-				questionData={selectedQuestion}
-				tags={data.tags || []}
-				onQuestionUpdated={updateQuestion}
-			/>
-		{/if}
-	</div>
+<Modal2 id="question-details-modal" maxWidth="1080px">
+	{#if selectedQuestion}
+		<AdminQuestionItem
+			questionData={selectedQuestion}
+			tags={data.tags || []}
+			onQuestionUpdated={updateQuestion}
+		/>
+	{/if}
 </Modal2>
 
 <style>
@@ -927,11 +925,6 @@
 	.empty-state p {
 		margin: 0;
 		color: var(--text-secondary);
-	}
-
-	.modal-content {
-		width: min(1080px, calc(100vw - 1.5rem));
-		max-width: 100%;
 	}
 
 	@media (max-width: 900px) {

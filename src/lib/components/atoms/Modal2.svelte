@@ -22,6 +22,8 @@
 	export let name = 'modal';
 	export let id = '';
 	export let disableClose = false;
+	export let maxWidth: string | null = null;
+	export let fullMobile = false;
 
 	let onTop: HTMLDivElement | null = null;
 
@@ -91,9 +93,11 @@
 >
 	<!-- Modal content container -->
 	<div
-		class="relative max-h-[90vh] w-[95%] max-w-[calc(100vw-20px)] transform overflow-hidden rounded-xl border border-[var(--border-color)] bg-[var(--bg-surface)] shadow-[var(--shadow-xl)] transition-all duration-300 sm:w-auto {visible
+		class="modal-container relative max-h-[90vh] w-[95%] max-w-[calc(100vw-20px)] transform overflow-hidden rounded-xl border border-[var(--border-color)] bg-[var(--bg-surface)] shadow-[var(--shadow-xl)] transition-all duration-300 sm:w-auto {visible
 			? 'scale-100 opacity-100'
 			: 'scale-95 opacity-0'}"
+		class:full-mobile={fullMobile}
+		style={maxWidth ? `max-width: min(${maxWidth}, calc(100vw - 20px))` : ''}
 	>
 		{#if !navTop}
 			<button
@@ -122,3 +126,15 @@
 		</div>
 	</div>
 </div>
+
+<style>
+	@media (max-width: 640px) {
+		:global(.modal-container.full-mobile) {
+			width: 100vw;
+			max-width: 100vw;
+			max-height: 100vh;
+			border-radius: 0;
+			border: none;
+		}
+	}
+</style>

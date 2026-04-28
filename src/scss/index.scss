@@ -96,10 +96,10 @@
 	--error: #ef4444;
 	--error-light: rgba(239, 68, 68, 0.15);
 	--error-700: #dc2626;
-	--info: var(--secondary);
-	--info-light: var(--secondary-subtle);
-	--info-border: var(--secondary);
-	--info-text: var(--secondary-light);
+	--info: var(--accent);
+	--info-light: var(--accent-subtle);
+	--info-border: var(--accent);
+	--info-text: var(--accent-light);
 
 	/* ========================================
 	   TEXT COLORS
@@ -149,12 +149,14 @@
 
 	/* ========================================
 	   SHADOWS & GLOWS
+	   Dark theme: Kole's recipe — bigger blur, lower alpha, neutral color.
+	   The old values (0.3-0.5 alpha on near-black) were too heavy for dark mode.
 	   ======================================== */
-	--shadow-sm: 0 1px 3px rgba(12, 10, 9, 0.3);
-	--shadow-md: 0 4px 6px rgba(12, 10, 9, 0.4);
-	--shadow-lg: 0 10px 15px rgba(12, 10, 9, 0.5);
-	--shadow-xl: 0 20px 25px rgba(12, 10, 9, 0.5);
-	--shadow-color: rgba(12, 10, 9, 0.5);
+	--shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.15);
+	--shadow-md: 0 6px 16px rgba(0, 0, 0, 0.18);
+	--shadow-lg: 0 12px 32px rgba(0, 0, 0, 0.22);
+	--shadow-xl: 0 24px 48px rgba(0, 0, 0, 0.25);
+	--shadow-color: rgba(0, 0, 0, 0.2);
 
 	/* Glow Effects */
 	--glow-sm: 0 0 10px var(--primary-glow);

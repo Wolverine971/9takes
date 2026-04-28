@@ -4,12 +4,12 @@ meta_title: "Why Cardi B Can't Stop Saying the Quiet Part Out Loud"
 persona_title: "The Bronx's Unbossable Challenger"
 description: "Cardi B's loud, no-filter Bronx persona looks like swagger. The Enneagram says it is armor. Inside the Type 8 pattern that explains the fights, the tears, and the gap between them."
 author: 'DJ Wayne'
-date: '2026-04-23'
+date: '2026-04-27'
 loc: 'https://9takes.com/personality-analysis/Cardi-B'
-lastmod: '2026-04-23'
+lastmod: '2026-04-27'
 changefreq: 'monthly'
 priority: '0.6'
-published: false
+published: true
 enneagram: '8'
 type: ['musician', 'celebrity']
 person: 'Cardi-B'

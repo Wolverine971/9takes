@@ -39,7 +39,7 @@ const STEP_1_BY_SEQUENCE: Record<
 		preheader:
 			"One situation, nine ways to see it. Here's the best thread we've had since you joined.",
 		htmlContent: `<p>Hi {{first_name}},</p>
-<p>You signed up a couple months back, and I want to use the moment to actually show you what 9takes is - not what it was the day you joined.</p>
+<p>You signed up a couple months back, and I want to use the moment to actually show you what 9takes is - not what it was the day you joined. If this email is a surprise, the unsubscribe link at the bottom works on click one - no guilt, no trick.</p>
 <p>Here's the loop the whole platform runs on:</p>
 <ol>
   <li>Pick a question that feels real.</li>
@@ -53,7 +53,7 @@ const STEP_1_BY_SEQUENCE: Record<
 <p>DJocrates<br />9takes.com</p>`,
 		plainText: `Hi {{first_name}},
 
-You signed up a couple months back, and I want to use the moment to actually show you what 9takes is - not what it was the day you joined.
+You signed up a couple months back, and I want to use the moment to actually show you what 9takes is - not what it was the day you joined. If this email is a surprise, the unsubscribe link at the bottom works on click one - no guilt, no trick.
 
 Here's the loop the whole platform runs on:
 
@@ -74,7 +74,8 @@ DJocrates
 9takes.com`
 	},
 	[REACTIVATION_DORMANT_KEY]: {
-		subject: 'You signed up for 9takes in {{signup_month_year}}. Quick re-introduction.',
+		subject:
+			'{{first_name}}, you signed up for 9takes in {{signup_month_year}}. Quick re-introduction.',
 		preheader: "It's been a while. Here's what it's become.",
 		htmlContent: `<p>Hi {{first_name}},</p>
 <p>You signed up for 9takes a while ago. I'll be honest: the product on the day you registered was half of what it is now. Here's the short version of what changed.</p>
@@ -156,16 +157,17 @@ const SHARED_STEPS: Array<
 		stepNumber: 2 | 3 | 4 | 5;
 	}
 > = [
+	// TODO(DJ): add the concrete story paragraph (replacing the generic "I spent years
+	// watching people I loved..." paragraph) before this campaign is activated.
 	{
 		stepNumber: 2,
-		subject: "why I'm obsessed with this",
+		subject: "9takes wasn't a product idea. it was a pattern.",
 		preheader: 'A personal note. 200 words, one reply button.',
 		htmlContent: `<p>Hi {{first_name}},</p>
 <p>Quick personal note.</p>
 <p>The reason 9takes exists is pattern-recognition, not a product idea. I spent years watching people I loved - friends, family, myself - misread each other with total confidence. Same moment, two completely different internal movies playing. Both people certain they saw it clearly. Both wrong about the other's read.</p>
 <p>The Enneagram is the first lens I found that actually decoded the pattern. Not "what personality are you." More like: what are you protecting, what are you scanning for, what assumption are you making about the other person's motive that isn't true.</p>
 <p>I don't need you to believe in the Enneagram. I just want you to notice the pattern once. That's the whole pitch.</p>
-<p><em>DJ note: replace this paragraph with the concrete story before activating the campaign.</em></p>
 <p>If any of that resonates - or disagrees with how you see things - hit reply. I read every response.</p>
 <p>DJocrates<br />9takes.com</p>`,
 		plainText: `Hi {{first_name}},
@@ -177,8 +179,6 @@ The reason 9takes exists is pattern-recognition, not a product idea. I spent yea
 The Enneagram is the first lens I found that actually decoded the pattern. Not "what personality are you." More like: what are you protecting, what are you scanning for, what assumption are you making about the other person's motive that isn't true.
 
 I don't need you to believe in the Enneagram. I just want you to notice the pattern once. That's the whole pitch.
-
-DJ note: replace this paragraph with the concrete story before activating the campaign.
 
 If any of that resonates - or disagrees with how you see things - hit reply. I read every response.
 

@@ -506,7 +506,7 @@
 	{/if}
 </div>
 
-<Modal2 id="user-details-modal">
+<Modal2 id="user-details-modal" maxWidth="840px">
 	<div class="modal-content detail-modal-content">
 		<h2 class="modal-title">User Details</h2>
 
@@ -1012,8 +1012,7 @@
 	}
 
 	.detail-modal-content {
-		width: min(840px, calc(100vw - 48px));
-		max-width: 840px;
+		max-width: 100%;
 	}
 
 	.modal-title {

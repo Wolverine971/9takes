@@ -422,9 +422,12 @@
 			<div class="hero-decision" aria-label="Choose where to start">
 				<article class="decision-panel decision-no">
 					<span class="branch-label no-label">I'M NEW</span>
-					<h2 class="branch-title">Start with the basics</h2>
+					<h2 class="branch-title">
+						Tired of personality tests that describe you but never help you change anything?
+					</h2>
 					<p class="branch-intro">
-						Get your footing first. These three reads explain the system without making it weird.
+						Start here. These three reads explain the system without making it weird — then show you
+						what to actually do with it.
 					</p>
 					<ol class="branch-links">
 						{#each noPathBlogs as blog}
@@ -440,7 +443,9 @@
 
 				<article class="decision-panel decision-yes">
 					<span class="branch-label yes-label">I KNOW MY TYPE</span>
-					<h2 class="branch-title">Answer first. Then compare the nine lenses.</h2>
+					<h2 class="branch-title">
+						Ready to see how the other 8 types actually read the same situation you would?
+					</h2>
 					<p class="branch-tagline">
 						<em>Reddit — but every comment is tagged with the writer's Enneagram type.</em>
 					</p>

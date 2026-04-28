@@ -28,8 +28,8 @@
 					--duration: {18 + Math.random() * 12}s;
 					--x-start: {Math.random() * 100}%;
 					--x-drift: {(Math.random() - 0.5) * 180}px;
-					--size: {4 + Math.random() * 5}px;
-					--opacity: {0.4 + Math.random() * 0.3};
+					--size: {5 + Math.random() * 5}px;
+					--opacity: {0.55 + Math.random() * 0.3};
 				"
 			/>
 		{/each}
@@ -62,8 +62,8 @@
 		height: var(--size);
 		background: radial-gradient(
 			circle,
-			rgba(94, 234, 212, 0.9) 0%,
-			rgba(45, 212, 191, 0.6) 40%,
+			rgba(94, 234, 212, 0.95) 0%,
+			rgba(45, 212, 191, 0.7) 40%,
 			transparent 70%
 		);
 		border-radius: 50%;
@@ -74,8 +74,21 @@
 		animation-delay: var(--delay);
 		filter: blur(0.5px);
 		box-shadow:
-			0 0 12px rgba(45, 212, 191, 0.5),
-			0 0 4px rgba(94, 234, 212, 0.7);
+			0 0 14px rgba(45, 212, 191, 0.5),
+			0 0 5px rgba(94, 234, 212, 0.75);
+	}
+
+	/* Light mode: darker teal core for contrast against cream backgrounds */
+	:global(.light) .particle {
+		background: radial-gradient(
+			circle,
+			rgba(20, 184, 166, 0.9) 0%,
+			rgba(13, 148, 136, 0.7) 40%,
+			transparent 70%
+		);
+		box-shadow:
+			0 0 14px rgba(13, 148, 136, 0.4),
+			0 0 5px rgba(20, 184, 166, 0.6);
 	}
 
 	@keyframes float-up {
@@ -143,12 +156,16 @@
 		}
 	}
 
-	/* Subtle in light mode */
-	:global(.light) .particles-container {
-		opacity: 0.25;
+	/* Light mode: bump the ambient glow blobs since they're 0.04-0.06 alpha
+	   and disappear against light backgrounds. Particles handle themselves. */
+	:global(.light) .glow-1 {
+		background: rgba(20, 184, 166, 0.07);
 	}
-	:global(.light) .glow-container {
-		opacity: 0.15;
+	:global(.light) .glow-2 {
+		background: rgba(225, 29, 72, 0.05);
+	}
+	:global(.light) .glow-3 {
+		background: rgba(124, 58, 237, 0.05);
 	}
 
 	/* Reduce motion for accessibility */

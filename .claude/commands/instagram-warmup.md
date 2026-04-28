@@ -55,6 +55,51 @@ If an Instagram browser automation skill exists at `/.claude/skills/instagram.sk
 
 ---
 
+## Browser Recovery (Inline — Load-Bearing)
+
+Instagram in a long-running browser session goes stale fast — especially after switching profiles, after a navigation that silently fails, or after Instagram inserts a soft block. You are responsible for noticing this and recovering. Do not keep trying to read or click against a stale page.
+
+### When to refresh
+
+Reload the current page (or, if reload fails, navigate fresh to `https://instagram.com/`) any time you see:
+
+1. **Stuck navigation** — you clicked or navigated and the URL did not change, or the URL changed but the rendered content did not.
+2. **Identical screenshots in a row** — two back-to-back screenshots show the same DOM after an action that should have produced movement.
+3. **Wrong-account header** — the top-bar avatar / handle does not match the account you intended to be on. This is the #1 staleness symptom after a profile switch.
+4. **Login wall on a logged-in account** — login modal appears even though you're signed in.
+5. **Blank / partial feed** — home feed, profile grid, or comments pane renders empty or stuck on skeleton loaders for more than ~5 seconds.
+6. **"Something went wrong" / "Please wait a few minutes"** — Instagram's soft-block screen.
+7. **Composer or like button dead** — typing produces nothing, or a like tap returns no visual change.
+
+### Recovery sequence
+
+1. Reload the current page once.
+2. If still stuck, navigate to `https://instagram.com/` fresh, confirm the correct account is active in the top bar, then re-navigate to the target.
+3. If the wrong account is active, switch via the profile menu, then reload before doing anything else.
+4. If a soft block persists across a fresh navigation, log `browser_limitation: instagram_soft_block` in today's warmup doc and continue with the next item.
+5. Never retry the same failing action more than twice in a row without a refresh in between.
+
+### Account switching is the high-risk moment
+
+Whenever you switch Instagram accounts — even within the same browser session:
+
+1. Switch accounts via the profile menu.
+2. **Always do one explicit page reload** before doing anything else.
+3. **Verify the top-bar handle matches the intended account** before queueing anything. If it doesn't match, switch again and reload again.
+4. Only after the handle is verified should you start scanning notifications, stories, feed, hashtags, etc.
+
+Do not assume an account switch took effect just because the menu animation finished.
+
+### Logging
+
+When you recover from a stale state, append one line to today's warmup doc under a `Browser Notes` heading:
+
+```
+- HH:MM — Stale state on <page/account>. Symptom: <brief>. Recovered via <reload | fresh-nav | account re-switch>. Continuing.
+```
+
+---
+
 ## Command Boundary
 
 `/instagram-warmup` is **Stage 1 only**:

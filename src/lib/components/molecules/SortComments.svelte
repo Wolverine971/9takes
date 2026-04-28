@@ -199,7 +199,7 @@
 {/if}
 
 <!-- Filter Modal -->
-<Modal2 id="sorter">
+<Modal2 id="sorter" maxWidth="420px">
 	<div class="filter-modal" in:fly={{ y: -20, duration: 300, easing: cubicOut }}>
 		<!-- Header -->
 		<div class="filter-modal__header">
@@ -449,8 +449,6 @@
 	/* Modal Styles - Dark Purple Theme */
 	.filter-modal {
 		width: 100%;
-		min-width: min(360px, 90vw);
-		max-width: 420px;
 		background: var(--bg-deep);
 		border-radius: 1rem;
 		border: 1px solid var(--primary-subtle);

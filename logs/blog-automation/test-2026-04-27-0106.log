@@ -1,0 +1,40 @@
+Blog draft complete. Output summary per non-interactive mode spec:
+
+```
+=== DAILY BLOG CREATOR SUMMARY ===
+Date: 2026-04-27
+Status: SUCCESS
+Blog: Sandra Bullock (Type 9, Priority 88)
+Grade: 8.8 (B+)
+Duration: ~30 min
+Internal links added: 4 total
+  - Keanu Reeves → /personality-analysis/Keanu-Reeves
+  - Nicole Kidman → /personality-analysis/Nicole-Kidman
+  - Enneagram types in stress → /enneagram-corner/enneagram-types-in-stress
+  - Type 6 profile → /enneagram-corner/enneagram-type-6
+Rate limit: 1/5 this week
+Next Run: Tomorrow
+===================================
+```
+
+```
+MODE: non-interactive
+DRAFT: /src/blog/people/drafts/Sandra-Bullock.md
+STATUS: production_pretext.status = draft (human review required before production)
+GRADE: 8.8 (B+)  hook:9 enneagram:9 evidence:8 writing:9 originality:9
+LIMITATIONS: No fresh transcripts pulled (non-interactive run); analysis built from interview reporting and direct quotes via web research. One co-star quote (Keanu Reeves) — could benefit from more director/co-star testimony in a future revision.
+```
+
+**Core tension landed:** America's most beloved actress built her career on disappearing into other people's needs — and at 61, after Bryan Randall's death, she finally said "I'm tired of hiding."
+
+**Type call:** 9w1, with stress arrow to 6 (resolves the apparent contradiction between her "controlling/list-making" self-description and her "easygoing" public image). Alternate Type 6 hypothesis logged in working notes and addressed in-body.
+
+The draft is at `src/blog/people/drafts/Sandra-Bullock.md` with `production_pretext.status: draft`. Human review recommended before running `blog_content_production_people`.
+
+Sources:
+- [Sandra Bullock - Wikipedia](https://en.wikipedia.org/wiki/Sandra_Bullock)
+- [Hollywood Reporter: Bryan Randall private ALS battle](https://www.hollywoodreporter.com/news/general-news/sandra-bullock-boyfriend-bryan-randall-dead-private-battle-als-1235558110/)
+- [Hollywood Reporter: 2014 Home Invasion "I Wasn't the Same After"](https://www.hollywoodreporter.com/lifestyle/lifestyle-news/sandra-bullock-home-invasion-ptsd-trauma-1235055618/)
+- [CNBC Changemakers Summit 2026 Transcript](https://www.cnbc.com/2026/04/16/cnbc-transcript-academy-award-winning-actress-producer-sandra-bullock-and-warner-bros-motion-picture-group-co-chair-ceo-pam-abdy-spoke-with-cnbcs-julia-boorstin-at-the-cnbc-changemakers-summit-in-new-york-city-today-thursday-april-16-.html)
+- [Sandra Bullock Oscar Acceptance Speech](https://aaspeechesdb.oscars.org/link/082-3/)
+- [Famous Enneagram Nines: Sandra Bullock - Enneagram in Business](https://theenneagraminbusiness.com/9-types/famous-nines-sandra-bullock-and-the-dalai-lama/)

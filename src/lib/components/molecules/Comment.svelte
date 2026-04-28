@@ -536,7 +536,7 @@
 				</div>
 				<div class="flex justify-end gap-2 sm:flex-row">
 					<button
-						class="rounded-xl border border-[var(--bg-elevated)] bg-transparent px-4 py-2 text-sm font-medium text-[var(--text-secondary)] transition-all duration-200 hover:bg-[var(--bg-elevated)] hover:text-[var(--text-primary)] active:scale-[0.98] sm:px-3 sm:py-1.5"
+						class="rounded-full border border-[var(--bg-elevated)] bg-transparent px-4 py-2 text-sm font-medium text-[var(--text-secondary)] transition-all duration-200 hover:bg-[var(--bg-elevated)] hover:text-[var(--text-primary)] active:scale-[0.98] sm:px-3 sm:py-1.5"
 						type="button"
 						on:click={() => {
 							commenting = false;
@@ -546,7 +546,7 @@
 						Cancel
 					</button>
 					<button
-						class="flex items-center justify-center gap-2 rounded-xl bg-gradient-to-r from-[var(--primary-dark)] to-[var(--primary-darker)] px-4 py-2 text-sm font-medium text-white transition-all duration-200 hover:shadow-[var(--glow-md)] active:scale-[0.98] disabled:cursor-not-allowed disabled:opacity-40 sm:px-3 sm:py-1.5"
+						class="flex items-center justify-center gap-2 rounded-full bg-gradient-to-r from-[var(--primary-dark)] to-[var(--primary-darker)] px-4 py-2 text-sm font-medium text-white transition-all duration-200 hover:shadow-[var(--glow-md)] active:scale-[0.98] disabled:cursor-not-allowed disabled:opacity-40 sm:px-3 sm:py-1.5"
 						type="button"
 						on:click={createReply}
 						disabled={loading || !newcomment?.trim()}
@@ -643,8 +643,8 @@
 {/if}
 
 <!-- Edit Comment Modal -->
-<Modal2 id={`edit-modal-${_commentComment?.id}`}>
-	<div class="w-full min-w-[min(480px,90vw)]">
+<Modal2 id={`edit-modal-${_commentComment?.id}`} maxWidth="480px">
+	<div class="w-full">
 		<h2 class="mb-2 mt-0 text-2xl font-semibold text-[var(--text-primary)]">Edit Comment</h2>
 		<p class="mb-6 text-sm text-[var(--text-secondary)]">Make changes to your comment below.</p>
 
@@ -666,14 +666,14 @@
 
 		<div class="flex flex-col-reverse gap-3 sm:flex-row sm:justify-end">
 			<button
-				class="w-full cursor-pointer rounded-xl border border-[var(--bg-elevated)] bg-transparent px-6 py-3 text-base font-medium text-[var(--text-secondary)] transition-all duration-200 hover:bg-[var(--bg-elevated)] hover:text-[var(--text-primary)] sm:w-auto"
+				class="w-full cursor-pointer rounded-full border border-[var(--bg-elevated)] bg-transparent px-6 py-3 text-base font-medium text-[var(--text-secondary)] transition-all duration-200 hover:bg-[var(--bg-elevated)] hover:text-[var(--text-primary)] sm:w-auto"
 				type="button"
 				on:click={() => getModal(`edit-modal-${_commentComment?.id}`).close()}
 			>
 				Cancel
 			</button>
 			<button
-				class="flex w-full cursor-pointer items-center justify-center gap-2 rounded-xl border-none bg-gradient-to-r from-[var(--primary-dark)] to-[var(--primary-darker)] px-6 py-3 text-base font-medium text-white transition-all duration-200 hover:shadow-[var(--glow-md)] active:scale-[0.98] disabled:cursor-not-allowed disabled:opacity-50 sm:w-auto"
+				class="flex w-full cursor-pointer items-center justify-center gap-2 rounded-full border-none bg-gradient-to-r from-[var(--primary-dark)] to-[var(--primary-darker)] px-6 py-3 text-base font-medium text-white transition-all duration-200 hover:shadow-[var(--glow-md)] active:scale-[0.98] disabled:cursor-not-allowed disabled:opacity-50 sm:w-auto"
 				type="button"
 				on:click={saveEdit}
 				disabled={loading || !commentEdit.trim()}
@@ -691,12 +691,8 @@
 </Modal2>
 
 <!-- Flag Comment Modal -->
-<Modal2 id={`flag-comment-modal-${_commentComment?.id}`}>
-	<div
-		class="w-full min-w-[min(480px,90vw)]"
-		role="dialog"
-		aria-labelledby={`flag-modal-title-${_commentComment?.id}`}
-	>
+<Modal2 id={`flag-comment-modal-${_commentComment?.id}`} maxWidth="480px">
+	<div class="w-full" role="dialog" aria-labelledby={`flag-modal-title-${_commentComment?.id}`}>
 		<div class="mb-6">
 			<h2
 				id={`flag-modal-title-${_commentComment?.id}`}
@@ -814,14 +810,14 @@
 
 			<div class="flex flex-col-reverse gap-3 sm:flex-row sm:justify-end">
 				<button
-					class="w-full cursor-pointer rounded-xl border border-[var(--bg-elevated)] bg-transparent px-6 py-3 text-base font-medium text-[var(--text-secondary)] transition-all duration-200 hover:bg-[var(--bg-elevated)] hover:text-[var(--text-primary)] sm:w-auto"
+					class="w-full cursor-pointer rounded-full border border-[var(--bg-elevated)] bg-transparent px-6 py-3 text-base font-medium text-[var(--text-secondary)] transition-all duration-200 hover:bg-[var(--bg-elevated)] hover:text-[var(--text-primary)] sm:w-auto"
 					type="button"
 					on:click={closeFlagModal}
 				>
 					Cancel
 				</button>
 				<button
-					class="flex w-full cursor-pointer items-center justify-center gap-2 rounded-xl border-none bg-gradient-to-r from-red-600 to-red-700 px-6 py-3 text-base font-medium text-white transition-all duration-200 hover:shadow-[0_0_20px_rgba(239,68,68,0.4)] active:scale-[0.98] disabled:cursor-not-allowed disabled:opacity-50 sm:w-auto"
+					class="flex w-full cursor-pointer items-center justify-center gap-2 rounded-full border-none bg-gradient-to-r from-red-600 to-red-700 px-6 py-3 text-base font-medium text-white transition-all duration-200 hover:shadow-[0_0_20px_rgba(239,68,68,0.4)] active:scale-[0.98] disabled:cursor-not-allowed disabled:opacity-50 sm:w-auto"
 					type="submit"
 					disabled={loading || !flaggingReasonId || !flagReasons.length}
 					aria-busy={loading}

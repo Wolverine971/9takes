@@ -59,6 +59,53 @@ Read these two things every pass — they are load-bearing:
 
 **Why this framing:** Past versions of this command pulled in 5-6 brand docs and drafts came out as generic Enneagram-coach wisdom: abstract, sage, neutral, indistinguishable from any other personality account. Those docs are mostly about original _posting_ (carousels, reels, captions), not _commenting on other accounts' posts_. The voice rules below — embedded in **The 9takes Voice for IG Comments** — are tuned specifically for the comment context. Treat them as the canonical source of voice truth for this pass; the brand docs above are supplemental only.
 
+If `/.claude/skills/instagram.skill.md` exists, also follow it for browser interaction. The most important browser-recovery rules are inlined below.
+
+---
+
+## Browser Recovery (Inline — Load-Bearing)
+
+Instagram in a long-running browser session goes stale fast — especially after switching profiles, after a navigation that silently fails, or after Instagram inserts a soft block. You are responsible for noticing this and recovering. Do not keep posting or liking against a stale page — that's how you accidentally like the wrong post or comment from the wrong account.
+
+### When to refresh
+
+Reload the current page (or, if reload fails, navigate fresh to `https://instagram.com/`) any time you see:
+
+1. **Stuck navigation** — you clicked or navigated and the URL did not change, or the URL changed but the rendered content did not.
+2. **Identical screenshots in a row** — two back-to-back screenshots show the same DOM after an action that should have produced movement.
+3. **Wrong-account header** — the top-bar avatar / handle does not match the account you intended to be on. This is the #1 staleness symptom after a profile switch and the most dangerous one for a reply pass.
+4. **Login wall on a logged-in account** — login modal appears even though you're signed in.
+5. **Blank / partial feed or comments pane** — empty or stuck on skeleton loaders for more than ~5 seconds.
+6. **"Something went wrong" / "Please wait a few minutes"** — Instagram's soft-block screen.
+7. **Composer or like button dead** — typing into the comment field produces nothing, or a like tap returns no visual change.
+
+### Recovery sequence
+
+1. Reload the current page once.
+2. If still stuck, navigate to `https://instagram.com/` fresh, confirm the correct account is active in the top bar, then re-navigate to the target post.
+3. If the wrong account is active, switch via the profile menu, then reload before doing anything else.
+4. If a soft block persists across a fresh navigation, log `browser_limitation: instagram_soft_block` in today's replies doc and skip the affected items for this session.
+5. Never retry the same failing comment/like more than twice in a row without a refresh in between.
+
+### Account switching is the highest-risk moment for a reply pass
+
+Posting from the wrong account is the worst-case failure of this command. Whenever you switch Instagram accounts:
+
+1. Switch accounts via the profile menu.
+2. **Always do one explicit page reload** before doing anything else.
+3. **Verify the top-bar handle matches the intended account** before drafting, posting, or liking. If it doesn't match, switch again and reload again.
+4. Re-verify the handle immediately before each post/like action, not just at session start.
+
+Do not assume an account switch took effect just because the menu animation finished.
+
+### Logging
+
+When you recover from a stale state, append one line to today's replies doc under a `Browser Notes` heading:
+
+```
+- HH:MM — Stale state on <page/account>. Symptom: <brief>. Recovered via <reload | fresh-nav | account re-switch>. Continuing.
+```
+
 ---
 
 ## Command Boundary

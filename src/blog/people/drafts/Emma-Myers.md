@@ -4,12 +4,12 @@ meta_title: "Why Emma Myers Wants to Disappear (And Plays Sunshine Anyway)"
 persona_title: 'The Werewolf Who Wants to Disappear'
 description: "Emma Myers auditioned for Wednesday and got Enid. She's an introvert playing the show's sunshine. Inside the Type 9 wiring that makes it work."
 author: 'DJ Wayne'
-date: '2026-04-23'
+date: '2026-04-27'
 loc: 'https://9takes.com/personality-analysis/Emma-Myers'
-lastmod: '2026-04-23'
+lastmod: '2026-04-27'
 changefreq: 'monthly'
 priority: '0.6'
-published: false
+published: true
 enneagram: '9'
 type: ['newMovieStar', 'celebrity']
 person: 'Emma-Myers'

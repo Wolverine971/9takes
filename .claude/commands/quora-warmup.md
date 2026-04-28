@@ -97,6 +97,41 @@ That gap is the only reason we win on Quora. Every question we queue must have t
 
 ---
 
+## Browser Recovery (Inline — Load-Bearing)
+
+Quora in a long-running browser session can go stale — pages partially load, search returns nothing despite a valid query, or a soft block / login wall appears. You are responsible for noticing this and recovering. Do not keep scoring against a stale page.
+
+### When to refresh
+
+Reload the current page (or, if reload fails, navigate fresh to `https://www.quora.com/`) any time you see:
+
+1. **Stuck navigation** — you clicked a search result or pagination and the URL did not change, or the URL changed but the rendered content did not.
+2. **Identical screenshots in a row** — two back-to-back screenshots show the same DOM after an action that should have produced movement (scroll, search, click).
+3. **Empty search results on a clearly real query** — a phrase you know has hits returns zero, or the results panel is blank past the skeleton state.
+4. **Login wall on a logged-in session** — Quora's "log in to continue" interstitial appears mid-session.
+5. **Blank / partial question page** — answers list is empty, gray, or stuck on skeleton loaders for more than ~5 seconds.
+6. **Rate-limit / soft-block screen** — "Please wait", "Too many requests", or any captcha-style interstitial.
+7. **Stale view counts or answer counts** — the same page reread shows obviously wrong numbers (e.g., zero answers on a known-popular question).
+
+### Recovery sequence
+
+1. Reload the current page once.
+2. If still stuck, navigate to `https://www.quora.com/` fresh and re-run the search or re-navigate to the question.
+3. If a soft block / rate limit persists across a fresh navigation, log `research_limitation: quora_access_blocked` in today's session doc, skip the affected search or question, and continue with the rest of the queue.
+4. Never retry the same failing search more than twice in a row without a refresh in between.
+
+This composes with the existing **Quora access issues (Phase 2)** auto-proceed rule above: try a refresh first, and only fall back to logging `research_limitation` and skipping if the refresh doesn't resolve the issue.
+
+### Logging
+
+When you recover from a stale state, append one line to today's session doc under a `Browser Notes` heading:
+
+```
+- HH:MM — Stale state on <page/query>. Symptom: <brief>. Recovered via <reload | fresh-nav>. Continuing.
+```
+
+---
+
 ## Command Boundary
 
 `/quora-warmup` is **Stage 1 only**:

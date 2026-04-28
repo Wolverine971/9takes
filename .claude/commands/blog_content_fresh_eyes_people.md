@@ -70,6 +70,7 @@ As you read, keep these lenses in mind:
 - **Narrative momentum**: does the piece keep giving the reader new value, or does it start repeating itself?
 - **Story vs. framework**: does the Enneagram illuminate the person, or does it start sounding like the same label over and over?
 - **Specificity**: are there places where the draft gestures at something important but never really cashes it out?
+- **Contradictions sharpened, not smoothed**: are the person's most intense contradictions and ambivalences the focal points of the draft, or has the writing rounded them off into a coherent-but-flat portrait?
 
 ---
 
@@ -124,6 +125,8 @@ What's already working:
 - Duplicate anecdotes across intro, TL;DR, evidence list, and body
 - Sections that feel like filler rather than sharp insight
 - Moments where the draft sounds more like an Enneagram explainer than a compelling profile
+- Contradictions named in the intro or TL;DR but never paid off in the body
+- Ambivalences resolved too neatly — the draft picks a side instead of holding the tension
 
 ---
 

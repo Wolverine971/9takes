@@ -4,12 +4,12 @@ meta_title: 'Why Matt Rife Keeps Performing for Rooms That Already Love Him'
 persona_title: "Comedy's Grief-Powered Charmer"
 description: "Matt Rife's father died by suicide when he was 17 months old. His career is one long audition for a room that can't leave. An Enneagram Type 3w2 analysis."
 author: 'DJ Wayne'
-date: '2026-04-23'
+date: '2026-04-27'
 loc: 'https://9takes.com/personality-analysis/Matt-Rife'
-lastmod: '2026-04-23'
+lastmod: '2026-04-27'
 changefreq: 'monthly'
 priority: '0.6'
-published: false
+published: true
 enneagram: '3'
 type: ['comedian']
 person: 'Matt-Rife'
