@@ -367,6 +367,17 @@ select {
 	font: inherit;
 }
 
+/*
+ * iOS auto-zoom guard.
+ * Safari zooms in on focus when an input's font-size is below 16px and never
+ * zooms back. `:where()` keeps specificity at 0 so per-component rules can
+ * still bump UP (e.g. a 1.25rem hero search) — but rules that try to drop
+ * below 16px are bugs and must be fixed at the component instead.
+ */
+:where(input, select, textarea) {
+	font-size: 16px;
+}
+
 /*==============================================
   TYPOGRAPHY
 ==============================================*/

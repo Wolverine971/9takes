@@ -1,0 +1,29 @@
+[2026-04-28 02:01:05] [INFO] Starting daily blog creator (--non-interactive)
+[2026-04-28 02:01:05] [INFO] Pre-flight: pause=false, inProgress=null, rate=2/5
+[2026-04-28 02:01:05] [INFO] Selected: jennifer-coolidge (Type 7, Priority 86)
+[2026-04-28 02:01:05] [INFO] Reason: White Lotus renaissance, comedy icon, older demo appeal
+[2026-04-28 02:01:05] [INFO] Executing blog_content_creator_people...
+[2026-04-28 02:14:00] [SUCCESS] Draft created: src/blog/people/drafts/Jennifer-Coolidge.md (21864 bytes)
+[2026-04-28 02:14:00] [INFO] Self-graded B+ (8.9) - skipping separate grade_blog (above 8.5 threshold)
+[2026-04-28 02:14:00] [WARN] Type discrepancy: queue=7, draft=4 - flagged needsReview=true
+[2026-04-28 02:14:00] [INFO] Duration: ~14 minutes
+[2026-04-28 02:14:00] [INFO] Queue updated: jennifer-coolidge → completed, inProgress cleared, rate limit 3/5
+[2026-04-28 02:14:00] [SUCCESS] Daily blog creator complete
+```
+=== DAILY BLOG CREATOR SUMMARY ===
+Date: 2026-04-28
+Status: SUCCESS (with review flag)
+Blog: Jennifer Coolidge — "Comedy's Glamorous Recluse"
+Type: 4 (queue had 7 — flagged needsReview)
+Grade: B+ (8.9/10) — Hook 9.0 · Enneagram 9.0 · Evidence 8.5 · Writing 9.0 · Originality 8.8
+Duration: ~14 min
+File: src/blog/people/drafts/Jennifer-Coolidge.md (21.8KB)
+Rate limit: 3/5 this week
+Next in queue: the-weeknd (Type 4, Priority 85)
+===================================
+```
+
+**Notes for review before publish:**
+- **Type discrepancy**: queue listed her as Type 7 (comedy/renaissance angle), draft argues Type 4 with strong 5 wing (longing/self-sabotage angle). Decide which framing to publish.
+- Auto-production not triggered — leaving in `drafts/` for manual review given the type discrepancy.
+- Self-graded above publication threshold (8.5+); skipped redundant `/grade_blog` run since the creator embedded the same rubric.

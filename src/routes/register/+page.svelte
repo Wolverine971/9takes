@@ -290,9 +290,5 @@
 		.auth-title {
 			font-size: 1.5rem;
 		}
-
-		.form-input {
-			font-size: 0.9rem;
-		}
 	}
 </style>

@@ -247,7 +247,9 @@
 		background: none;
 		border: none;
 		cursor: pointer;
-		padding: 8px;
+		padding: 10px;
+		min-width: 44px;
+		min-height: 44px;
 		display: flex;
 		align-items: center;
 		justify-content: center;
@@ -255,7 +257,7 @@
 		transition: background-color 0.2s ease;
 
 		&:hover {
-			background-color: rgba(0, 0, 0, 0.05);
+			background-color: var(--primary-subtle);
 		}
 
 		&:focus {

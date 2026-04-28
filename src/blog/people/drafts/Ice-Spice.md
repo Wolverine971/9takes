@@ -4,12 +4,12 @@ meta_title: "Why Ice Spice Won't Raise Her Voice (And Still Wins)"
 persona_title: "Rap's Cool Operator"
 description: "Why does Ice Spice rap deadpan while chasing the Met Gala, Taylor Swift, and Super Bowl-sized fame? A Type 3 Enneagram analysis of rap's quietest strategist."
 author: 'DJ Wayne'
-date: '2026-04-23'
+date: '2026-04-28'
 loc: 'https://9takes.com/personality-analysis/Ice-Spice'
-lastmod: '2026-04-23'
+lastmod: '2026-04-28'
 changefreq: 'monthly'
 priority: '0.6'
-published: false
+published: true
 enneagram: '3'
 type: ['musician', 'celebrity']
 person: 'Ice-Spice'

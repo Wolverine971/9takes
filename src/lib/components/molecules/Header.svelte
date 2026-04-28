@@ -239,6 +239,22 @@
 		gap: 0.65rem;
 	}
 
+	.account-button {
+		display: inline-flex;
+		align-items: center;
+		justify-content: center;
+		width: 2.75rem;
+		height: 2.75rem;
+		border-radius: 6px;
+		color: var(--text-secondary);
+		text-decoration: none;
+		transition: color 0.2s ease;
+	}
+
+	.account-button:hover {
+		color: var(--primary);
+	}
+
 	.desktop-login {
 		padding-inline: 1rem;
 		white-space: nowrap;
@@ -430,12 +446,12 @@
 	.mobile-login {
 		display: inline-flex;
 		align-items: center;
-		height: 2rem;
-		padding: 0 0.75rem;
+		min-height: 2.75rem;
+		padding: 0 1rem;
 		border-radius: 999px;
 		background: color-mix(in srgb, var(--primary) 12%, transparent);
 		color: var(--primary-light);
-		font-size: 0.82rem;
+		font-size: 0.875rem;
 		font-weight: 600;
 		text-decoration: none;
 		white-space: nowrap;

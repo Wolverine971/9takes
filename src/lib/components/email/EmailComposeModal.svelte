@@ -597,7 +597,7 @@
 		padding: 0.625rem 0.75rem;
 		border: 1px solid var(--border-color, #e5e7eb);
 		border-radius: var(--border-radius, 8px);
-		font-size: 0.875rem;
+		font-size: 16px;
 		background: var(--background, #ffffff);
 		font-family: inherit;
 		color: var(--text-primary, #1f2937);
@@ -606,7 +606,7 @@
 	.form-textarea {
 		resize: vertical;
 		font-family: var(--font-mono);
-		font-size: 0.8125rem;
+		font-size: 16px;
 	}
 
 	.form-input:focus,

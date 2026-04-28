@@ -660,7 +660,7 @@
 		padding: 0.75rem;
 		border: 1px solid var(--border-color);
 		border-radius: 8px;
-		font-size: 0.95rem;
+		font-size: 16px;
 		font-family: inherit;
 		transition:
 			border-color 0.2s ease,

@@ -3,7 +3,7 @@
   xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://9takes.com</loc>
-    <lastmod>2026-04-20</lastmod>
+    <lastmod>2026-04-28</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/about</loc>
@@ -11,7 +11,7 @@
   </url>
   <url>
     <loc>https://9takes.com/blog</loc>
-    <lastmod>2026-04-27</lastmod>
+    <lastmod>2026-04-28</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/book-session</loc>
@@ -132,7 +132,7 @@
   </url>
   <url>
     <loc>https://9takes.com/corpus-stats</loc>
-    <lastmod>2026-04-26</lastmod>
+    <lastmod>2026-04-27</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/enneagram-corner</loc>
@@ -891,7 +891,7 @@
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis</loc>
-    <lastmod>2026-04-27</lastmod>
+    <lastmod>2026-04-28</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/abraham-lincoln</loc>
@@ -1210,7 +1210,7 @@
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/categories</loc>
-    <lastmod>2026-04-27</lastmod>
+    <lastmod>2026-04-28</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/categories/authors-thinkers</loc>
@@ -1226,11 +1226,11 @@
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/categories/film-tv</loc>
-    <lastmod>2026-04-27</lastmod>
+    <lastmod>2026-04-28</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/categories/music</loc>
-    <lastmod>2026-04-27</lastmod>
+    <lastmod>2026-04-28</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/categories/politics-public</loc>
@@ -1700,6 +1700,13 @@
     <lastmod>2026-04-01</lastmod>
     <image:image>
       <image:loc>https://9takes.com/types/2s/Hugh-Jackman.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://9takes.com/personality-analysis/ice-spice</loc>
+    <lastmod>2026-04-28</lastmod>
+    <image:image>
+      <image:loc>https://9takes.com/types/3s/Ice-Spice.webp</image:loc>
     </image:image>
   </url>
   <url>
@@ -3021,7 +3028,7 @@
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/type/3</loc>
-    <lastmod>2026-04-27</lastmod>
+    <lastmod>2026-04-28</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/type/4</loc>
@@ -3260,7 +3267,7 @@
   </url>
   <url>
     <loc>https://9takes.com/questions</loc>
-    <lastmod>2026-04-27</lastmod>
+    <lastmod>2026-04-28</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/questions/advice-18-year-old-wants-go-college-doesnt-know-wants</loc>

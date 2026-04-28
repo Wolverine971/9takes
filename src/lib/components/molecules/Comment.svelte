@@ -451,7 +451,7 @@
 								? `Unlike this comment (${likes.length} likes)`
 								: `Like this comment${likes.length > 0 ? ` (${likes.length} likes)` : ''}`}
 							aria-pressed={likes.some((e) => e.user_id === user?.id)}
-							class="flex items-center gap-1.5 rounded-md px-2.5 py-1.5 text-sm transition-all duration-200 {likes.some(
+							class="flex min-h-11 items-center gap-1.5 rounded-md px-3 py-2 text-sm transition-all duration-200 {likes.some(
 								(e) => e.user_id === user?.id
 							)
 								? 'bg-[var(--primary-subtle)] text-[var(--primary)]'
@@ -472,7 +472,7 @@
 							title="Reply to this comment"
 							aria-label={commenting ? 'Hide reply form' : 'Reply to this comment'}
 							aria-expanded={commenting}
-							class="flex items-center gap-1.5 rounded-md px-2.5 py-1.5 text-sm text-[var(--text-secondary)] transition-all duration-200 hover:bg-[var(--bg-elevated)]"
+							class="flex min-h-11 items-center gap-1.5 rounded-md px-3 py-2 text-sm text-[var(--text-secondary)] transition-all duration-200 hover:bg-[var(--bg-elevated)]"
 							on:click={() => (commenting = !commenting)}
 						>
 							<MasterCommentIcon
@@ -486,7 +486,7 @@
 							<Popover position="bottom-right">
 								<svelte:fragment slot="icon">
 									<div
-										class="flex h-8 w-8 items-center justify-center rounded-md transition-colors duration-200 hover:bg-[var(--bg-elevated)]"
+										class="flex h-11 w-11 items-center justify-center rounded-md transition-colors duration-200 hover:bg-[var(--bg-elevated)]"
 									>
 										<SettingsIcon className="w-4 h-4 text-[var(--text-tertiary)]" />
 									</div>
@@ -529,7 +529,7 @@
 				<div class="mb-3">
 					<textarea
 						placeholder="Share your perspective — what's your experience with this? The more detail, the better the conversation."
-						class="w-full resize-y rounded-md border border-[var(--bg-elevated)] bg-[var(--bg-elevated)] p-3 text-sm text-[var(--text-primary)] placeholder-[var(--text-muted)] focus:border-[var(--primary)] focus:outline-none focus:ring-2 focus:ring-[var(--primary-subtle)]"
+						class="w-full resize-y rounded-md border border-[var(--bg-elevated)] bg-[var(--bg-elevated)] p-3 text-base text-[var(--text-primary)] placeholder-[var(--text-muted)] focus:border-[var(--primary)] focus:outline-none focus:ring-2 focus:ring-[var(--primary-subtle)]"
 						bind:value={newcomment}
 						rows="3"
 					></textarea>

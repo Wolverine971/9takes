@@ -429,7 +429,7 @@
 		border: 0;
 		background: transparent;
 		color: var(--text-primary);
-		font-size: 0.98rem;
+		font-size: max(16px, 0.98rem);
 		line-height: 1.2;
 	}
 
@@ -604,7 +604,7 @@
 	}
 
 	.mobile input {
-		font-size: 0.94rem;
+		font-size: 16px;
 	}
 
 	.mobile .results-panel {

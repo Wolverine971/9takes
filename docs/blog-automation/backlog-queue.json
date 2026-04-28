@@ -1,24 +1,11 @@
 {
-	"lastUpdated": "2026-04-27T02:15:00Z",
+	"lastUpdated": "2026-04-28T02:14:00Z",
 	"stats": {
 		"totalUnpublished": 115,
 		"totalPublished": 266,
 		"completionRate": "69.8%"
 	},
 	"queue": [
-		{
-			"name": "jennifer-coolidge",
-			"displayName": "Jennifer Coolidge",
-			"type": 7,
-			"priority": 86,
-			"priorityReason": "White Lotus renaissance, comedy icon, older demo appeal broadens audience",
-			"estimatedTraffic": "high",
-			"searchVolume": "high",
-			"personaTitle": null,
-			"addedToQueue": "2026-04-03",
-			"retryCount": 0,
-			"strategicValue": "hollywood-renaissance-cluster"
-		},
 		{
 			"name": "the-weeknd",
 			"displayName": "The Weeknd",
@@ -554,6 +541,28 @@
 		}
 	],
 	"completed": [
+		{
+			"name": "jennifer-coolidge",
+			"displayName": "Jennifer Coolidge",
+			"type": 4,
+			"queueType": 7,
+			"priority": 86,
+			"startedAt": "2026-04-28T00:00:00Z",
+			"completedAt": "2026-04-28T02:14:00Z",
+			"contentGrade": 8.9,
+			"letterGrade": "B+",
+			"duration": 14,
+			"needsReview": true,
+			"reviewReason": "Type discrepancy: queue listed Type 7, draft analyzed as Type 4 (Comedy's Glamorous Recluse)",
+			"personaTitle": "Comedy's Glamorous Recluse",
+			"contentRubric": {
+				"hook": 9.0,
+				"enneagram": 9.0,
+				"evidence": 8.5,
+				"writing": 9.0,
+				"originality": 8.8
+			}
+		},
 		{
 			"name": "shakira",
 			"displayName": "Shakira",

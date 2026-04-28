@@ -380,9 +380,7 @@
 		<div class={loading ? 'pointer-events-none select-none opacity-40' : ''}>
 			<h2 class="mt-0 text-2xl font-semibold text-[var(--primary)]">Create Question</h2>
 
-			<div
-				class="mt-4 rounded-xl border border-[var(--primary-subtle)] bg-[var(--bg-surface)] p-4"
-			>
+			<div class="mt-4 rounded-xl border border-[var(--primary-subtle)] bg-[var(--bg-surface)] p-4">
 				<div
 					class="mx-auto h-[168px] w-[320px] overflow-hidden rounded-xl sm:h-[209px] sm:w-[400px] md:h-[251px] md:w-[480px]"
 				>

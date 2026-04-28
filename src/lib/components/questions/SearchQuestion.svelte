@@ -286,7 +286,7 @@
 	.search-container {
 		position: relative;
 		width: 100%;
-		z-index: 50;
+		z-index: 10;
 	}
 
 	.search-indicator {

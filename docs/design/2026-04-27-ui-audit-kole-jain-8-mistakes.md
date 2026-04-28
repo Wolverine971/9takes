@@ -1,4 +1,5 @@
 <!-- docs/design/2026-04-27-ui-audit-kole-jain-8-mistakes.md -->
+
 # 9takes UI Audit — Kole Jain's 8 Beginner Mistakes
 
 **Date:** 2026-04-27 (audit) · last updated 2026-04-27 (progress pass)
@@ -8,7 +9,7 @@
 
 This audit walks the 9takes codebase against each of the 8 mistakes and lists concrete, ranked fixes.
 
-> **Progress to date** — see [Progress Log](#progress-log) at the bottom. As of 2026-04-27: ✅ modal consolidation complete, ✅ primary submit button shape standardized, ✅ dark-mode shadows softened to Kole's recipe. `pnpm check` passes with 0 errors.
+> **Progress to date** — see [Progress Log](#progress-log) at the bottom. As of 2026-04-27: ✅ modal consolidation complete, ✅ primary submit button shape standardized, ✅ dark-mode shadows softened to Kole's recipe, ✅ corner-radius scale standardized + lint script. `pnpm check` passes with 0 errors.
 
 ---
 
@@ -17,7 +18,7 @@ This audit walks the 9takes codebase against each of the 8 mistakes and lists co
 9takes has a **strong design-token foundation** (Tailwind palette, spacing tokens, SCSS variables) but **leaks consistency at the application layer**. The two biggest tells of beginner-level UI in the codebase right now are:
 
 1. **Effect addiction** — glow shadows everywhere (`--glow-sm/md/lg/secondary/accent/subtle`, `shadow-glow-teal`, `shadow-glow-rose`, drop-shadow filters with primary-glow), gradient buttons system-wide, and ~~dark-mode shadows running at 0.3–0.5 alpha on near-black~~ ✅ **fixed 2026-04-27** (now 0.15-0.25 alpha + 2× blur).
-2. **Component sprawl** — ~~three modals (`Modal`, `Modal2`, `ModalNew`)~~ ✅ **consolidated to one (`Modal2`) 2026-04-27**, two mobile navs (`MobileNav`, `MobileNavNew`), two rubix displays, two skeleton loaders, plus six different `rounded-*` corner radius values used across the app for visually similar elements.
+2. **Component sprawl** — ~~three modals (`Modal`, `Modal2`, `ModalNew`)~~ ✅ **consolidated to one (`Modal2`) 2026-04-27**, two mobile navs (`MobileNav`, `MobileNavNew`), two rubix displays, two skeleton loaders, plus ~~six different `rounded-*` corner radius values~~ ✅ **standardized 2026-04-27** (4 sizes: sm/md/xl/full, lint-enforced).
 
 These two compound: a button with a glow on a card with the wrong rounding next to a modal that doesn't match the other two modals = the exact "made by a beginner" feeling Kole describes. Most fixes here are **subtraction**, not addition.
 
@@ -147,27 +148,24 @@ Kole's recipe is the inverse of what we do today:
 
 ## 4. Inconsistent Components 🔴
 
-### Corner radius chaos
+### Corner radius chaos ✅ FIXED 2026-04-27
 
-Across the codebase (Tailwind classes only):
+**Before** — 6 different rounding scales used inconsistently:
 
-| Class          | Usage count |
-| -------------- | ----------- |
-| `rounded-lg`   | 28          |
-| `rounded-md`   | 26          |
-| `rounded-full` | 25          |
-| `rounded-xl`   | 17          |
-| `rounded-2xl`  | 10          |
-| `rounded-3xl`  | 2           |
+| Class               | Before |                                                                      After |
+| ------------------- | -----: | -------------------------------------------------------------------------: |
+| `rounded-md`        |     26 |                                **63** (canonical for buttons/inputs/chips) |
+| `rounded-xl`        |     17 |                                **30** (canonical for cards/modals/banners) |
+| `rounded-full`      |     25 | **23** (only spinners/dots/avatars; primary CTAs reverted to `rounded-md`) |
+| `rounded-lg`        |     28 |                                           **0** (banned — see lint script) |
+| `rounded-2xl`       |     10 |                                                             **0** (banned) |
+| `rounded-3xl`       |      2 |                                                             **0** (banned) |
+| `rounded` (default) |      6 |                                                           **0** (replaced) |
+| `rounded-sm`        |      0 |                                                  **1** (tiny inline badge) |
 
-That's **6 different rounding scales** for what should be 2–3 contexts (small components, cards, pills).
+**After: 4 sizes, lint-enforced.**
 
-**Same-purpose buttons, different shapes:**
-
-- `Comment.svelte:549,676` — primary submit: `rounded-xl`
-- `/questions/create/+page.svelte:345,395` — primary submit: `rounded-full`
-
-That's the back-button-vs-skip-button mismatch from the video.
+`tailwind.config.ts` now defines `md = 0.625rem (10px)` per Kole's recipe (was falling back to Tailwind's default 6px). `pnpm lint:radius` (also runs as part of `pnpm lint`) blocks any `rounded-lg`, `rounded-2xl`, `rounded-3xl`, or `rounded-[Npx]` from re-entering the codebase. See `scripts/lint-radius.js`.
 
 ### Duplicate components
 
@@ -188,11 +186,11 @@ That's the back-button-vs-skip-button mismatch from the video.
 
 | Severity | Fix                                                                                                                                                                                                                                                                                                                                                                                                                                              |
 | -------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| 🔴       | **Pick one corner-radius scale for small components and ban the others in lint.** Recommended: `rounded-md` (8px) for buttons + form fields + chips, `rounded-xl` (16px) for cards, `rounded-full` only for avatars and pill chips. Add a stylelint or ESLint rule that flags `rounded-2xl`, `rounded-3xl`, and ad-hoc `rounded-[Npx]`.                                                                                                          |
+| ✅       | ~~**Pick one corner-radius scale for small components and ban the others in lint.**~~ **Done 2026-04-27.** Standardized to: `rounded-md` (10px) for buttons/inputs/chips/popovers, `rounded-xl` (16px) for cards/modals/banners, `rounded-full` for pills/avatars/spinners, `rounded-sm` for tiny inline. `rounded-lg`/`rounded-2xl`/`rounded-3xl`/ad-hoc banned via `scripts/lint-radius.js` (runs in `pnpm lint`).                             |
 | ✅       | ~~**Pick one Modal and delete the other two.**~~ **Done 2026-04-27.** `Modal2` chosen as canonical, enhanced with `maxWidth` and `fullMobile` props (backwards-compat for existing callers). `ModalNew`'s sole caller (`/admin/asset-generators/question-print`) migrated to Modal2. Both `Modal.svelte` and `ModalNew.svelte` deleted. `atoms/index.ts` cleaned. _Follow-up: rename `Modal2.svelte` → `Modal.svelte` (12 import-path updates)._ |
 | 🔴       | **Pick one MobileNav.** `MobileNavNew` is referenced by `Header.svelte` — `MobileNav.svelte` is dead weight. Delete.                                                                                                                                                                                                                                                                                                                             |
 | 🟡       | Pick one Rubix and one Skeleton. Same pattern — keep the newer/used one, delete the legacy.                                                                                                                                                                                                                                                                                                                                                      |
-| ✅       | ~~**Standardize the primary CTA component.**~~ **Done 2026-04-27.** All 6 buttons in `Comment.svelte` (3 primary submits + 3 cancels) aligned to `rounded-full` to match `/questions/create`. Form inputs (textareas, radio rows, alerts) kept `rounded-xl` since they're a different visual category. _Follow-up: extract a shared `<PrimaryButton>` so the gradient + glow chain lives in one place — ties into §2 effect cleanup._            |
+| ✅       | ~~**Standardize the primary CTA component.**~~ **Done 2026-04-27** (then re-aligned during the corner-radius pass). Primary submit buttons across `Comment.svelte` and `/questions/create` now use `rounded-md` (10px) — the chosen standard for buttons. _Follow-up: extract a shared `<PrimaryButton>` so the gradient + glow chain lives in one place — ties into §2 effect cleanup._                                                         |
 | 🟢       | Reconcile the SCSS `--border-radius-*` tokens with the Tailwind `borderRadius` keys so they reference the same source-of-truth.                                                                                                                                                                                                                                                                                                                  |
 
 ---
@@ -513,3 +511,80 @@ The two `glow-teal` and `glow-rose` Tailwind tokens were left as-is for now. The
 #### What's still open from Week 1
 
 - 🔴 Strip glow chains from buttons (gradient + glow combo) — deferred. Doing this requires a `<PrimaryButton>` extraction so we don't fan out a class-string surgery across 4+ files. Recommend pairing it with the §7 button-component canonicalization in Week 2.
+
+---
+
+### 2026-04-27 — Pass 2: Corner-radius standardization (§4 🔴 → ✅)
+
+**Status:** `pnpm check` passes with 0 errors. `pnpm lint:radius` passes (246 .svelte files scanned, 0 violations).
+
+#### What changed
+
+**Token redefinition** in `tailwind.config.ts`:
+
+```ts
+borderRadius: {
+  sm: '0.25rem',     // 4px — tiny inline things
+  DEFAULT: '0.5rem', // 8px — legacy fallback
+  md: '0.625rem',    // 10px — buttons/inputs/chips (Kole's pick) ← NEW
+  lg: '0.75rem',     // 12px — DEPRECATED (lint-banned)
+  xl: '1rem'         // 16px — cards/modals/banners
+}
+```
+
+`md` was previously not defined in the extend, so it fell back to Tailwind's default of 6px. Now it's 10px — Kole's "10 pixels for small components" recipe baked into the token.
+
+**Standard applied:**
+
+| Class          | Use case                                                                |
+| -------------- | ----------------------------------------------------------------------- |
+| `rounded-sm`   | Tiny inline (e.g. 3.5×3.5px modified-marker badge)                      |
+| `rounded-md`   | Buttons, inputs, textareas, chips, popovers, icon buttons, inner labels |
+| `rounded-xl`   | Cards, modals, banners, alert cards, large containers                   |
+| `rounded-full` | Pills, avatars, spinners (`animate-spin`), decorative dots              |
+
+**Before vs after counts:**
+
+| Class            | Before |            After |
+| ---------------- | -----: | ---------------: |
+| `rounded-md`     |     26 |           **63** |
+| `rounded-xl`     |     17 |           **30** |
+| `rounded-full`   |     25 |           **23** |
+| `rounded-sm`     |      0 |            **1** |
+| `rounded-lg`     |     28 |  **0** ❌ banned |
+| `rounded-2xl`    |     10 |  **0** ❌ banned |
+| `rounded-3xl`    |      2 |  **0** ❌ banned |
+| `rounded` (bare) |      6 | **0** (replaced) |
+
+**~70 class swaps across 16 files**:
+
+- `EnneagramMentalIllnessPromo.svelte`, `BlogDiffViewer.svelte`, `WordCloud.svelte`, `email/+page.svelte` — `rounded-lg` → `rounded-xl` (cards/containers)
+- `AIComments.svelte`, `Popover.svelte`, `categories/[slug]/+page.svelte`, `Interact.svelte`, `questions/+page.svelte`, `questions/[slug]/+page.svelte` — `rounded-lg` → `rounded-md` (buttons/inputs/chips)
+- `Comment.svelte` — mixed: outer card → `rounded-xl`, icon button + textareas → `rounded-md`, plus 6 primary/cancel buttons reverted from `rounded-full` → `rounded-md`
+- `ErrorBoundary.svelte` — alert cards → `rounded-xl`, action buttons → `rounded-md`
+- `SmallPopCard.svelte` — outer card → `rounded-xl`, inner labels → `rounded-md`
+- `Comments.svelte`, `QuestionDisplay.svelte`, `Interact.svelte`, `questions/+page.svelte` — `rounded-2xl` → `rounded-xl`
+- `questions/create/+page.svelte` — `rounded-3xl` → `rounded-xl`, card containers `rounded-2xl` → `rounded-xl`, textareas → `rounded-md`, primary CTA buttons `rounded-full` → `rounded-md`
+- `BackNavigation.svelte`, `QuestionItem.svelte`, `CategoryTree.svelte` — bare `rounded` → `rounded-md`
+
+**Lint enforcement** added at `scripts/lint-radius.js`. Runs as part of `pnpm lint` (chained: `prettier --check && eslint && pnpm lint:radius`). Output:
+
+```
+✓ Radius lint passed — scanned 246 .svelte files, no banned classes found.
+```
+
+If anyone reintroduces `rounded-lg`, `rounded-2xl`, `rounded-3xl`, or `rounded-[Npx]` it fails with file:line, the snippet, and a hint pointing at the right token.
+
+#### Knock-on effect
+
+The `rounded-md` redefinition (6 → 10px) softens the existing 26 `rounded-md` uses by 4px — mainly badges, focus rings, small chips, and form inputs. Mild visual nudge, all in the right direction.
+
+The 8 primary submit buttons that became `rounded-full` last session reverted to `rounded-md` per Option A. If after eyeballing live you want pills back, easy carve-out — but the rule wins by default.
+
+#### Files touched
+
+- `tailwind.config.ts`
+- `package.json` (added `lint:radius` script, chained into `lint`)
+- `scripts/lint-radius.js` — **new**
+- 16 `.svelte` files (sweep)
+- `docs/design/2026-04-27-ui-audit-kole-jain-8-mistakes.md` (this doc)

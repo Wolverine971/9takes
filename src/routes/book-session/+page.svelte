@@ -1005,7 +1005,7 @@
 		border: 1px solid color-mix(in srgb, var(--text-tertiary) 18%, transparent);
 		background: color-mix(in srgb, var(--bg-elevated) 55%, transparent);
 		padding: 0.8rem 1rem;
-		font-size: 1rem;
+		font-size: 16px;
 		color: var(--text-primary);
 		transition:
 			border-color 0.2s ease,

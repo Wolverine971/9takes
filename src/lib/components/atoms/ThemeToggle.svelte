@@ -98,8 +98,8 @@
 		display: flex;
 		align-items: center;
 		justify-content: center;
-		width: 2rem;
-		height: 2rem;
+		width: 2.75rem;
+		height: 2.75rem;
 		padding: 0;
 		background: transparent;
 		border: 1px solid var(--bg-elevated);

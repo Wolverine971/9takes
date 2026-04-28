@@ -54,7 +54,7 @@
 			aria-label="Enneagram personality type perspectives carousel"
 		>
 			<button
-				class="z-10 ml-1 flex h-7 w-7 shrink-0 cursor-pointer items-center justify-center rounded-full border-none bg-[var(--bg-elevated)] text-[var(--primary)] transition-all duration-200 hover:bg-[var(--primary-subtle)] hover:text-[var(--primary-light)]"
+				class="z-10 ml-1 flex h-11 w-11 shrink-0 cursor-pointer items-center justify-center rounded-full border-none bg-[var(--bg-elevated)] text-[var(--primary)] transition-all duration-200 hover:bg-[var(--primary-subtle)] hover:text-[var(--primary-light)]"
 				on:click={moveLeft}
 				aria-label="Previous perspective"
 				title="Previous perspective"

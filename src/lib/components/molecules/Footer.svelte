@@ -266,7 +266,7 @@
 			margin: 0;
 			display: flex;
 			flex-direction: column;
-			gap: 0.625rem;
+			gap: 0.25rem;
 		}
 
 		li {
@@ -279,6 +279,10 @@
 		}
 
 		a {
+			display: inline-flex;
+			align-items: center;
+			min-height: 2.75rem;
+			padding: 0.5rem 0;
 			font-size: 0.875rem;
 			color: var(--text-tertiary);
 			text-decoration: none;
@@ -418,10 +422,11 @@
 			}
 
 			ul {
-				gap: 0.5rem;
+				gap: 0.125rem;
 			}
 
 			a {
+				justify-content: center;
 				font-size: 0.8125rem;
 			}
 		}
@@ -487,8 +492,8 @@
 		}
 
 		.social-link {
-			width: 2.25rem;
-			height: 2.25rem;
+			width: 2.75rem;
+			height: 2.75rem;
 
 			img {
 				width: 1rem;

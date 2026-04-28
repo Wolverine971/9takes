@@ -87,7 +87,7 @@ export const famousTypes: { [index: number]: { name: string; link: boolean; hasI
 		{ name: 'gigi-hadid', link: true, hasImage: true, lastmod: '2026-03-29', personaTitle: 'Fashion\'s Effortless Performer', contentGrade: 8.7 },
 		{ name: 'glen-powell', link: false, hasImage: true, lastmod: '2026-04-06', personaTitle: 'Hollywood\'s Relentless Shapeshifter', contentGrade: 8.7 },
 		{ name: 'hailey-bieber', link: true, hasImage: true, lastmod: '2026-04-03', personaTitle: 'Beauty\'s Polished Prover', contentGrade: 8.7 },
-		{ name: 'ice-spice', link: false, hasImage: true, lastmod: '2026-04-23', personaTitle: 'Rap\'s Cool Operator', contentGrade: 9 },
+		{ name: 'ice-spice', link: true, hasImage: true, lastmod: '2026-04-28', personaTitle: 'Rap\'s Cool Operator', contentGrade: 9 },
 		{ name: 'jake-paul', link: true, hasImage: true, lastmod: '2026-02-10', personaTitle: 'Combat\'s Restless Achiever', contentGrade: 9 },
 		{ name: 'james-charles', link: true, hasImage: true, lastmod: '2026-02-18', personaTitle: 'Beauty\'s Fabricated Origin Story', contentGrade: 8.7 },
 		{ name: 'jason-calacanis', link: true, hasImage: true, lastmod: '2026-01-21', personaTitle: 'Silicon Valley\'s Hype Man', contentGrade: 8.2 },

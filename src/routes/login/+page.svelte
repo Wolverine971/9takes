@@ -266,9 +266,5 @@
 		.title {
 			font-size: 1.5rem;
 		}
-
-		input {
-			font-size: 0.9rem;
-		}
 	}
 </style>

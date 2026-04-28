@@ -1,0 +1,15 @@
+```text
+Published people blog.
+
+Person: ice-spice
+Draft: src/blog/people/drafts/Ice-Spice.md
+Date/lastmod: 2026-04-28
+Supabase: published=true (row id=983)
+Images: full + thumbnail present (static/types/3s/Ice-Spice.webp, s-Ice-Spice.webp)
+Generated files: pnpm gen:all completed
+  - famousTypes.ts: ice-spice → link: true, hasImage: true, lastmod: 2026-04-28, contentGrade: 9
+  - sitemap.xml: /personality-analysis/ice-spice present with lastmod 2026-04-28
+
+Blockers:
+- none
+```

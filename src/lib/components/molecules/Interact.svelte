@@ -629,7 +629,7 @@
 		min-height: 80px;
 		padding: 1rem;
 		font: inherit;
-		font-size: 0.95rem;
+		font-size: 16px;
 		line-height: 1.5;
 		grid-area: 1 / 1 / 2 / 2;
 	}

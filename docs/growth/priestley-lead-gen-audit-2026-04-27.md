@@ -1,4 +1,5 @@
 <!-- docs/growth/priestley-lead-gen-audit-2026-04-27.md -->
+
 # 9takes Audit — Priestley "$1M Landing Page" Framework
 
 **Date:** 2026-04-27

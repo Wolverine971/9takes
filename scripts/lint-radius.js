@@ -1,3 +1,4 @@
+// scripts/lint-radius.js
 #!/usr/bin/env node
 // scripts/lint-radius.js
 //
@@ -23,10 +24,18 @@ const ROOT = new URL('../src', import.meta.url).pathname;
 const PROJECT_ROOT = new URL('..', import.meta.url).pathname;
 
 const BANNED = [
-	{ pattern: /\brounded-lg\b/, name: 'rounded-lg', hint: 'use rounded-md (button/input) or rounded-xl (card)' },
+	{
+		pattern: /\brounded-lg\b/,
+		name: 'rounded-lg',
+		hint: 'use rounded-md (button/input) or rounded-xl (card)'
+	},
 	{ pattern: /\brounded-2xl\b/, name: 'rounded-2xl', hint: 'use rounded-xl' },
 	{ pattern: /\brounded-3xl\b/, name: 'rounded-3xl', hint: 'use rounded-xl' },
-	{ pattern: /\brounded-\[[^\]]+\]/, name: 'rounded-[arbitrary]', hint: 'use a token: sm/md/xl/full' }
+	{
+		pattern: /\brounded-\[[^\]]+\]/,
+		name: 'rounded-[arbitrary]',
+		hint: 'use a token: sm/md/xl/full'
+	}
 ];
 
 function walk(dir) {
@@ -65,7 +74,9 @@ for (const file of files) {
 }
 
 if (violations.length === 0) {
-	console.log(`✓ Radius lint passed — scanned ${files.length} .svelte files, no banned classes found.`);
+	console.log(
+		`✓ Radius lint passed — scanned ${files.length} .svelte files, no banned classes found.`
+	);
 	process.exit(0);
 }
 

@@ -47,24 +47,23 @@
 {#if navSteps.length}
 	<div class="xs:px-1 mx-auto w-full max-w-4xl px-2">
 		<div
-			class="flex h-8 items-start border-b border-[var(--border-color)] transition-transform hover:-translate-x-0.5 hover:bg-[var(--primary-subtle)] active:-translate-x-1"
+			class="flex min-h-12 items-center border-b border-[var(--border-color)] transition-transform hover:-translate-x-0.5 hover:bg-[var(--primary-subtle)] active:-translate-x-1"
 		>
 			<button
-				class="xs:p-0.5 xs:min-w-7 xs:min-h-7 mr-1 flex min-h-8 min-w-8 cursor-pointer items-center justify-center rounded-md border-0 bg-transparent p-1 text-[var(--text-secondary)] transition-colors duration-200 hover:text-[var(--primary)]"
+				class="mr-1 flex min-h-11 min-w-11 cursor-pointer items-center justify-center rounded-md border-0 bg-transparent p-2 text-[var(--text-secondary)] transition-colors duration-200 hover:text-[var(--primary)]"
 				on:click={goBack}
 				aria-label="Go back"
 			>
 				<svg
 					xmlns="http://www.w3.org/2000/svg"
-					width="18"
-					height="18"
+					width="20"
+					height="20"
 					viewBox="0 0 24 24"
 					fill="none"
 					stroke="currentColor"
 					stroke-width="2"
 					stroke-linecap="round"
 					stroke-linejoin="round"
-					class="xs:w-4 xs:h-4"
 				>
 					<path d="M19 12H5"></path>
 					<path d="M12 19l-7-7 7-7"></path>
@@ -74,7 +73,7 @@
 			{#if previousPage}
 				<a
 					href={previousPage.url}
-					class="xs:text-sm xs:p-1 max-w-[calc(100%-50px)] overflow-hidden text-ellipsis whitespace-nowrap rounded-md px-2 py-1 capitalize text-[var(--text-secondary)] no-underline transition-colors duration-200 hover:text-[var(--primary)]"
+					class="flex min-h-11 max-w-[calc(100%-50px)] items-center overflow-hidden text-ellipsis whitespace-nowrap rounded-md px-2 py-2 capitalize text-[var(--text-secondary)] no-underline transition-colors duration-200 hover:text-[var(--primary)]"
 				>
 					{previousPage.name}
 				</a>
@@ -84,39 +83,10 @@
 {/if}
 
 <style>
-	/* Custom styles for extra small screens */
 	@media (max-width: 480px) {
 		.xs\:px-1 {
 			padding-left: 0.25rem;
 			padding-right: 0.25rem;
-		}
-
-		.xs\:p-0\.5 {
-			padding: 0.125rem;
-		}
-
-		.xs\:min-w-7 {
-			min-width: 1.75rem;
-		}
-
-		.xs\:min-h-7 {
-			min-height: 1.75rem;
-		}
-
-		.xs\:w-4 {
-			width: 1rem;
-		}
-
-		.xs\:h-4 {
-			height: 1rem;
-		}
-
-		.xs\:text-sm {
-			font-size: 0.85rem;
-		}
-
-		.xs\:p-1 {
-			padding: 0.25rem;
 		}
 	}
 </style>
