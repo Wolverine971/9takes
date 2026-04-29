@@ -1,0 +1,6 @@
+[2026-04-29 02:01:37] [INFO] === Daily Blog Creator Run Started ===
+[2026-04-29 02:01:37] [INFO] Pre-flight: pause=false, inProgress=null (cleared), rate limit 3/5
+[2026-04-29 02:01:37] [INFO] SELECTED: the-weeknd (Type 4, Priority: 85)
+[2026-04-29 02:01:37] [INFO] Reason: Global pop star, Type 4, mysterious persona, After Hours era
+[2026-04-29 02:01:37] [INFO] Executing blog_content_creator_people the-weeknd...
+[2026-04-29 02:02:14] [INFO] Launched blog_content_creator_people for the-weeknd (PID: 60896)

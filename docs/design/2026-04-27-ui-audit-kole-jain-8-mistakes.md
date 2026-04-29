@@ -2,7 +2,7 @@
 
 # 9takes UI Audit — Kole Jain's 8 Beginner Mistakes
 
-**Date:** 2026-04-27 (audit) · last updated 2026-04-27 (progress pass)
+**Date:** 2026-04-27 (audit) · last updated 2026-04-28 (verification pass)
 **Source framework:** [7 UI/UX mistakes that SCREAM you're a beginner — Kole Jain](https://www.youtube.com/watch?v=AH_ugxmLeUM)
 **Transcript:** `youtube-transcripts/2025-06-07-kole-jain-7-ui-ux-mistakes-beginner.md`
 **Analysis:** `youtube-transcripts/2025-06-07-kole-jain-7-ui-ux-mistakes-beginner-ANALYSIS.md`
@@ -588,3 +588,34 @@ The 8 primary submit buttons that became `rounded-full` last session reverted to
 - `scripts/lint-radius.js` — **new**
 - 16 `.svelte` files (sweep)
 - `docs/design/2026-04-27-ui-audit-kole-jain-8-mistakes.md` (this doc)
+
+---
+
+### 2026-04-28 — Pass 3: Verification + lint script fix
+
+**What:** Double-tap on the radius standardization. Re-ran lint, re-checked counts, sanity-tested the lint script with seeded violations, fixed a shebang positioning bug.
+
+**Lint script bug fixed:** an auto-formatter pass had inserted `// scripts/lint-radius.js` on line 1, pushing the `#!/usr/bin/env node` shebang to line 2. Node only treats `#!` as a shebang on line 1 — on line 2 it's a syntax error. Restored line 1 to the shebang. Confirmed `pnpm lint:radius` now passes again, and seeded violations still get caught with file:line:hint output.
+
+**Verification results:**
+
+| Check                                         | Result                                                                                                              |
+| --------------------------------------------- | ------------------------------------------------------------------------------------------------------------------- |
+| `pnpm lint:radius`                            | ✅ 246 .svelte files, 0 violations                                                                                  |
+| `pnpm check` (svelte-check)                   | ✅ 0 errors, 241 warnings (down from 256 pre-Pass-1)                                                                |
+| Final radius tally                            | 63 md · 30 xl · 23 full · 1 sm                                                                                      |
+| Banned classes (`rounded-lg`/`2xl`/`3xl`)     | ✅ 0                                                                                                                |
+| Ad-hoc `rounded-[Npx]`                        | ✅ 0                                                                                                                |
+| Responsive variants of banned classes         | ✅ 0                                                                                                                |
+| Bare `rounded` Tailwind uses                  | ✅ 0 (4 remaining matches are non-Tailwind: TS type literal, HTML option value, scoped CSS classes in zine-creator) |
+| Lint script catches violations (sandbox test) | ✅ Caught seeded `rounded-lg`, `rounded-2xl`, `rounded-[7px]`; exited non-zero; clean re-run after cleanup          |
+
+**Adjacent linter activity** (parallel work, not part of this audit):
+
+- A separate accessibility pass enlarged several tap targets to ≥44px (Tailwind `min-h-11 min-w-11`) — visible in `Modal2.svelte` close button, `BackNavigation.svelte` button + link, and one of the `AIComments.svelte` carousel buttons. Worth noting because §7 (interactive feedback) overlaps with touch-target sizing and that work is partially happening organically.
+- Prettier reflow on `lint-radius.js` (after the shebang fix above).
+
+**Files touched (Pass 3):**
+
+- `scripts/lint-radius.js` (shebang restored to line 1)
+- `docs/design/2026-04-27-ui-audit-kole-jain-8-mistakes.md` (this entry)

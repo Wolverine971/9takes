@@ -18,10 +18,13 @@ tags:
   - hand-raiser-posts
   - offer-validation
   - asynchronous-selling
+companion_doc: youtube-transcripts/2026-01-05-frankie-1000-clients-5-minute-loom-videos-9TAKES-ACTION-PLAN.md
 path: youtube-transcripts/2026-01-05-frankie-1000-clients-5-minute-loom-videos-ANALYSIS.md
 ---
 
 # Analysis: 1,000 Clients via "Hand-Raiser" Posts + 5-Minute Loom Videos
+
+> **Companion doc:** [9takes Action Plan — Adapting the Frankie Playbook](./2026-01-05-frankie-1000-clients-5-minute-loom-videos-9TAKES-ACTION-PLAN.md) — concrete routes, copy, and rollout for applying this to 9takes.
 
 > Note on title: YouTube says "SaaS clients" but the actual content is about **agency clients across dozens of niches** (roofers, plumbers, personal injury attorneys, etc.). Same playbook applies to anyone selling a service or offer.
 

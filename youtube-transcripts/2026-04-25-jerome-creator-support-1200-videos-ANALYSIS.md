@@ -15,7 +15,11 @@ tags:
   - audience-emotion
   - creator-mission
 path: youtube-transcripts/2026-04-25-jerome-creator-support-1200-videos-ANALYSIS.md
+companion: youtube-transcripts/2026-04-25-jerome-creator-support-9takes-action-plan.md
 ---
+
+> **Companion doc:** A 9takes-specific action plan extending these lessons lives at [`2026-04-25-jerome-creator-support-9takes-action-plan.md`](./2026-04-25-jerome-creator-support-9takes-action-plan.md).
+
 
 # Creator Support: Jerome (Scratch to Scratch) — Analysis
 
@@ -197,13 +201,19 @@ If you transposed this into a checklist for any creator stuck at the next platea
 
 ## Application to 9takes
 
-A few of these map directly:
+The short version is below. The **full action plan** — concrete moves, templates, a 30/60/90-day rollup, and open questions for DJ — lives in the companion doc: [`2026-04-25-jerome-creator-support-9takes-action-plan.md`](./2026-04-25-jerome-creator-support-9takes-action-plan.md).
 
-- **#5 (your relationship to lessons > the lessons themselves):** 9takes blog posts on Enneagram aren't competitive on raw info — every Type 5 explainer exists. The moat is DJ's POV. Lean harder into "decoded by someone who lived it" framing instead of encyclopedic explainers.
-- **#6 (decentralized sitcom):** Personality-analysis pieces should treat recurring celebrities as characters in a connected universe — cross-link, callback, build a cast. Currently mostly treated as standalone pages.
-- **#10 (future headline):** Useful exercise for the brand: *what would a publication write about 9takes in 12 months?* That's the pitch to reverse-engineer toward.
-- **#11 (word-of-mouth test):** Can a 9takes reader describe what 9takes is in one sentence? If the answer drifts from "see the emotions behind every take," tighten messaging.
-- **#12 (tagline):** "See the emotions behind every take" is already the tagline — consider whether it shows up at the *end* of every blog/post the way Colin describes "impossible is possible" working.
+Quick map of which tips fire hardest for 9takes:
+
+- **#5 (your relationship to lessons > the lessons themselves):** Encyclopedic Enneagram content is commodity. The moat is DJ's POV — pattern-recognition, emotional logic, and his read on contradictions ("where she breaks the type").
+- **#6 (decentralized sitcom):** Treat the celebrity roster as a connected universe — type-clustered hub pages, crossovers, recurring callbacks.
+- **#7 (knock them off the list):** "100 People, 9 Types" as a public, finite, tracked quest.
+- **#10 (future headline):** What would *The Atlantic* / *Every* / *NYT Style* write about 9takes in 12 months? Reverse-engineer from there.
+- **#11 (word-of-mouth test):** Pick **one** canonical one-sentence description. Use it everywhere, identical, repeated.
+- **#12 (tagline closer):** Current tagline lives in the hero, not at the close of every piece. That's where it earns word-of-mouth.
+- **#13 (vulnerability is structural):** DJ's origin story should be load-bearing in paragraph 2, not buried at the end.
+
+See the companion doc for the actual deliverables, templates, and sequencing.
 
 ---
 

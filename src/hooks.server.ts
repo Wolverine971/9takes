@@ -190,7 +190,11 @@ export const handle: Handle = async ({ event, resolve }) => {
 	// 	await tagQuestions();
 	// });
 
-	const response = await resolve(event);
+	const response = await resolve(event, {
+		// CSS is already emitted as stylesheet tags; preloading it via HTTP Link headers
+		// triggers Chrome unused-preload warnings for SvelteKit route CSS chunks.
+		preload: ({ type }) => type === 'js'
+	});
 
 	if (protectedContentPath) {
 		response.headers.set('Cache-Control', CONTENT_GUARD_CACHE_CONTROL);

@@ -67,9 +67,17 @@
 	let analyticsVisitKey: string | null = null;
 	let analyticsVisitEnded = false;
 	let analyticsMaxScrollPct = 0;
+	let analyticsLastSentScrollPct = 0;
 	let analyticsLastActivityAt = 0;
 	let analyticsLastFlushAt = 0;
 	let analyticsPingTimer: ReturnType<typeof setInterval> | null = null;
+	let analyticsPingIdleHandle: number | null = null;
+	let analyticsPingInFlight = false;
+
+	type IdleWindow = Window & {
+		requestIdleCallback?: (callback: () => void, options?: { timeout?: number }) => number;
+		cancelIdleCallback?: (handle: number) => void;
+	};
 
 	// Type for category structure passed to CategoryNavigation
 	interface CategoryStep {
@@ -200,6 +208,7 @@
 		analyticsVisitKey = createUuid();
 		analyticsVisitEnded = false;
 		analyticsMaxScrollPct = 0;
+		analyticsLastSentScrollPct = 0;
 		analyticsLastActivityAt = Date.now();
 		analyticsLastFlushAt = analyticsLastActivityAt;
 
@@ -229,18 +238,49 @@
 	}
 
 	async function flushAnalyticsPing() {
-		if (!analyticsVisitKey || analyticsVisitEnded) return;
+		if (!analyticsVisitKey || analyticsVisitEnded || analyticsPingInFlight) return;
 
 		const now = Date.now();
 		const engagedDelta = getEngagedDelta(now, false);
-		if (engagedDelta <= 0 && analyticsMaxScrollPct <= 0) return;
+		const hasNewScrollProgress = analyticsMaxScrollPct > analyticsLastSentScrollPct;
+		if (engagedDelta <= 0 && !hasNewScrollProgress) return;
 
 		setAnalyticsSessionLastSeen(now);
-		await sendAnalyticsEvent('/api/analytics/page-ping', {
-			visit_key: analyticsVisitKey,
-			engaged_ms_delta: engagedDelta,
-			max_scroll_pct: analyticsMaxScrollPct
-		});
+		analyticsPingInFlight = true;
+		try {
+			const sent = await sendAnalyticsEvent(
+				'/api/analytics/page-ping',
+				{
+					visit_key: analyticsVisitKey,
+					engaged_ms_delta: engagedDelta,
+					max_scroll_pct: analyticsMaxScrollPct
+				},
+				true
+			);
+
+			if (sent) {
+				analyticsLastSentScrollPct = Math.max(analyticsLastSentScrollPct, analyticsMaxScrollPct);
+			}
+		} finally {
+			analyticsPingInFlight = false;
+		}
+	}
+
+	function scheduleAnalyticsPing() {
+		if (!browser || analyticsPingInFlight || analyticsPingIdleHandle !== null) return;
+
+		const idleWindow = window as IdleWindow;
+		const run = () => {
+			analyticsPingIdleHandle = null;
+			void flushAnalyticsPing();
+		};
+
+		if (idleWindow.requestIdleCallback) {
+			analyticsPingIdleHandle = idleWindow.requestIdleCallback(run, { timeout: 2000 });
+			return;
+		}
+
+		void flushAnalyticsPing();
 	}
 
 	async function endAnalyticsVisit(isExit: boolean, useBeacon: boolean) {
@@ -279,7 +319,7 @@
 		window.addEventListener('beforeunload', handleBeforeUnload);
 
 		analyticsPingTimer = setInterval(() => {
-			void flushAnalyticsPing();
+			scheduleAnalyticsPing();
 		}, ANALYTICS_PING_INTERVAL_MS);
 	}
 
@@ -296,6 +336,11 @@
 		if (analyticsPingTimer) {
 			clearInterval(analyticsPingTimer);
 			analyticsPingTimer = null;
+		}
+
+		if (analyticsPingIdleHandle !== null) {
+			(window as IdleWindow).cancelIdleCallback?.(analyticsPingIdleHandle);
+			analyticsPingIdleHandle = null;
 		}
 	}
 

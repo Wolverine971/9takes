@@ -1,0 +1,29 @@
+Quora warmup complete for 2026-04-29 (PM session, suffixed after AM already ran).
+
+Searches run: 10
+Questions evaluated: 11
+Questions queued: 5
+Questions skipped: 6
+
+Priority queue:
+1. "Why do some people seem so calm in highly stressful situations while others completely fall apart?" — Est. 35K+ views, Est. 50-110 answers — Angle: Types 5, 6cp, 8 (calm) vs 4, 6p (fall apart) — Score 93
+2. "Why do some people crave alone time more than others? What is it about their personality that is different?" — Est. 25K+, Est. 30-80 — Angle: Types 5, 4, 9 — Score 92
+3. "Why do some people relive the past over and over in their heads?" — Est. 30K+, Est. 40-90 — Angle: Types 4, 6, 1 — Score 88
+4. "Why are some people so unforgiving and why do some people hold grudges while others are able to let things go?" — Est. 25K+, Est. 30-70 — Angle: Types 1, 4, 6 vs 9, 7 — Score 85
+5. "Why do some people seem to agree with everything and shift their opinion constantly?" — Est. 15K+, Est. 20-50 — Angle: Types 9, 6, 2 — Score 82
+
+Type coverage (PM additions): Type 5 → 10 (closes AM-flagged gap), Type 4 → 11 (direct rumination), Type 9 → 12 (opinion-shift), Type 1 → 14 (grudges secondary). Three of five use built-in contrast structure.
+Blog matches: 5 of 5 have a 9takes link candidate.
+
+Question log: docs/quora/question-log.md
+Session doc: docs/quora/sessions/2026-04-29_quora-warmup-pm.md
+
+```
+MODE: non-interactive
+SESSION: docs/quora/sessions/2026-04-29_quora-warmup-pm.md
+QUEUED: 5
+SKIPPED: 6
+LIMITATIONS: research_limitation: quora_access_blocked (relied on Google site:quora.com snippets via WebSearch; counts are estimates — /quora-answer must spot-check actual thread activity before drafting)
+```
+
+Day total across AM+PM: 11 Queued, 13 Skipped, 24 evaluated. Next step: `/quora-answer docs/quora/sessions/2026-04-29_quora-warmup-pm.md` (or batch with the AM doc).

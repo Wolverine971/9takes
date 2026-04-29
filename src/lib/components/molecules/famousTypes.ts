@@ -120,7 +120,7 @@ export const famousTypes: { [index: number]: { name: string; link: boolean; hasI
 		{ name: 'reese-witherspoon', link: false, hasImage: true, lastmod: '2026-04-10', personaTitle: 'Hollywood\'s Relentless Architect', contentGrade: 8.6 },
 		{ name: 'sabrina-carpenter', link: true, hasImage: true, lastmod: '2026-04-06', personaTitle: 'Pop\'s Winking Machine', contentGrade: 8.6 },
 		{ name: 'sara-saffari', link: true, hasImage: true, lastmod: '2026-04-09', personaTitle: 'Fitness\'s Self-Built Phoenix', contentGrade: 8.4 },
-		{ name: 'sofia-vergara', link: false, hasImage: true, lastmod: '2026-04-23', personaTitle: 'Hollywood\'s Accented CEO', contentGrade: 9 },
+		{ name: 'sofia-vergara', link: true, hasImage: true, lastmod: '2026-04-29', personaTitle: 'Hollywood\'s Accented CEO', contentGrade: 9 },
 		{ name: 'stephen-a-smith', link: true, hasImage: true, lastmod: '2026-04-06', personaTitle: 'Sports Media\'s Self-Made Thunder', contentGrade: 8.7 },
 		{ name: 'steven-bartlett', link: true, hasImage: true, lastmod: '2026-04-23', personaTitle: 'Podcasting\'s Restless Architect', contentGrade: 8 },
 		{ name: 'sydney-sweeney', link: true, hasImage: true, lastmod: '2026-04-03', personaTitle: 'Hollywood\'s self-erasing architect', contentGrade: 9 },

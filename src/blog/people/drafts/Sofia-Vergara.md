@@ -4,12 +4,12 @@ meta_title: "Why Sofia Vergara's Accent Is Worth $180 Million"
 persona_title: "Hollywood's Accented CEO"
 description: 'Everyone thinks Sofia Vergara is Gloria Pritchett. The accent, the giggle, the bombshell. The truth is stranger: the ditz is the business plan.'
 author: 'DJ Wayne'
-date: '2026-04-23'
+date: '2026-04-29'
 loc: 'https://9takes.com/personality-analysis/Sofia-Vergara'
-lastmod: '2026-04-23'
+lastmod: '2026-04-29'
 changefreq: 'monthly'
 priority: '0.6'
-published: false
+published: true
 enneagram: '3'
 type: ['celebrity', 'movieStar']
 person: 'Sofia-Vergara'

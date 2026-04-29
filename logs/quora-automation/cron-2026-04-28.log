@@ -1,0 +1,78 @@
+
+=== QUORA WARMUP STATUS ===
+Date: 2026-04-28
+Time: 09:02 AM EDT
+Status: INCOMPLETE - Process terminated (SIGKILL)
+
+Results:
+- Session file created: docs/quora/sessions/2026-04-28_quora-warmup.md
+- Status: Template only - research did not complete
+- Questions queued: 0
+- Questions evaluated: 0
+
+Issue:
+The claude --chrome command hung during execution and was terminated after timeout.
+This is consistent with previous morning cron runs that have had browser automation issues.
+
+Root Cause:
+The /quora-warmup command uses Chrome/Puppeteer for browser automation to search Quora.
+In the cron environment, this consistently hangs - likely due to Chrome sandbox issues
+or display requirements in the headless environment.
+
+Historical Pattern:
+- Morning cron runs (9 AM): Consistently fail/hang
+- Evening manual runs: Complete successfully (using Google search fallback)
+- Direct Quora access returns 403 errors anyway, so searches rely on Google
+
+Previous Session Status:
+The 04-27 evening session (2026-04-27_quora-warmup-eve.md) completed successfully
+with 6 questions queued and ready for /quora-answer:
+
+1. Why do some people fear being alone with their thoughts? (Type 7, Score 95)
+2. Why are some people so blunt? (Type 8, Score 92)
+3. Why are some people very private? (Type 5, Score 91)
+4. Why do some people lose themselves in romantic relationships? (Type 9, Score 90)
+5. Why are some people so much more emotional than others? (Type 4, Score 88)
+6. What causes some people to be naturally positive and others negative? (Type 7, Score 86)
+
+Recommendations:
+1. IMMEDIATE: Run /quora-answer on the 04-27 evening session to draft the 6 queued answers
+2. CRON FIX: Consider one of these options:
+   a) Disable the morning cron job and run warmup manually in the evening
+   b) Modify the command to use --no-chrome and rely on web_search tool instead
+   c) Run the cron on a machine/with settings that support Chrome automation
+   d) Use a different approach entirely (e.g., pre-built question lists)
+
+Next Step: /quora-answer docs/quora/sessions/2026-04-27_quora-warmup-eve.md
+Quora warmup complete for 2026-04-28.
+
+```
+MODE: non-interactive
+SESSION: docs/quora/sessions/2026-04-28_quora-warmup.md
+QUEUED: 5
+SKIPPED: 7
+LIMITATIONS: research_limitation: quora_access_blocked (403 on direct fetches — relied on Google site:quora.com snippets; counts estimated)
+```
+
+**Searches run:** 17 (Google `site:quora.com` phrase searches across Type 4/5/7/8/2 sin-and-passion gap angles)
+**Questions evaluated:** 12 deep-evaluated of 22 flagged
+**Questions queued:** 5
+**Questions skipped:** 7
+
+**Priority queue:**
+1. "Why do some people struggle to be happy for others' success?" — Est. 25K+ views, 30–80 answers — Angle: Type 4 envy (core sin) — Score 92
+2. "Why do some people feel compelled to hoard information?" — Est. 15K+ views, 25–60 answers — Angle: Type 5 avarice (core sin) — Score 91
+3. "Why do some people 'want more' after getting what they thought they already wanted?" — Est. 20K+ views, 30–70 answers — Angle: Type 7 gluttony (core sin) — Score 88
+4. "Why are some people so quick to anger and irritation even when it's over small things?" — Est. 30K+ views, 40–100 answers — Angle: Types 8/1/6/9 (gut-triad anger differentiation) — Score 87
+5. "Why do some people consider themselves to be indispensable when in fact it's not really possible?" — Est. 15K+ views, 20–50 answers — Angle: Type 2 pride (core sin) — Score 82
+
+**Type coverage:** Direct sin/passion entries for Types 2, 4, 5, 7, 8 — under-covered types now closed at sin level. Types 1, 3, 6, 9 not pushed today (already saturated 10–12 topics; secondary entries for 1/6/9 via the anger question's four-engine breakdown).
+
+**Blog matches:** 5 of 5 queued have a 9takes link candidate (3 are direct type-page hits ★).
+
+**Theme:** This session deliberately targeted each Enneagram type's *core sin/passion* — the type-defining motivations Quora answers almost never name. Highest-leverage entry surface available.
+
+Question log: `docs/quora/question-log.md`
+Session doc: `docs/quora/sessions/2026-04-28_quora-warmup.md`
+
+Next step: `/quora-answer docs/quora/sessions/2026-04-28_quora-warmup.md`

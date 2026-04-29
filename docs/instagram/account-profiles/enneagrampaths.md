@@ -11,8 +11,8 @@
 **Relationship Status:** Active
 **Audience Quality:** High (recurring real commenters, faith/coaching ecosystem)
 **Profile Created:** 2026-04-07
-**Last Reviewed:** 2026-04-23 PM
-**Last Engaged:** **2026-04-13 Carl-thread 3-argument reply DID get posted — confirmed via Apr 20 notification.** Longings thread revive + Apr 19 expansion-vs-contraction drafts remain unposted. No new Melissa engagement between Apr 20 and Apr 23.
+**Last Reviewed:** 2026-04-28
+**Last Engaged:** **2026-04-13 Carl-thread 3-argument reply confirmed posted via Apr 20 Melissa like.** All Apr 23 PM drafts (DXb4upElHlQ post-level + comment-level) retired Apr 25 PM. Longings thread revive + Apr 19 expansion-vs-contraction drafts remain unposted (now too aged to recycle).
 **Source of First Discovery:** Engagement targets list (Tier 1: Enneagram & Personality)
 
 ## Condensed Intel
@@ -75,18 +75,20 @@
 | 2026-04-23 | Comment | DXb4upElHlQ — reply to @throughyourlensenneagram ("aggressively nurturing") drafted | https://www.instagram.com/p/DXb4upElHlQ/ | Drafted | Pending | Target's comment fragment only: "'Aggressively nurturing' might…" — full text needs on-post re-read before posting. 2 conservative options drafted. **Option 1 (Cheer):** "'aggressively nurturing' is a type-2 word that actually lands. most 2-content stays soft and never names the pressure behind it." Option 2 (Complicate): introduces the pressure-under-care axis. Peer-to-peer with fellow Enneagram creator. | Drafted - Pending Posting (contingent on full-text verify) | 2026-04-23_instagram-replies-pm.md |
 | 2026-04-23 | Comment | DXb4upElHlQ — planned like on @maia_speaks* | https://www.instagram.com/p/DXb4upElHlQ/ | Planned Like | Pending | Verify @maia*speaks* has a contribution on this post before liking. Rationale: pattern-naming voice surfaced on two Tier 2 posts in same scan; like-only preserves discovery track before any direct reply touchpoint. | Planned Like - Pending Action | 2026-04-23_instagram-replies-pm.md |
 | 2026-04-23 | Comment | DXb4upElHlQ — planned like on @cozycrowcottage | https://www.instagram.com/p/DXb4upElHlQ/ | Planned Like | Pending | Target's comment: "Five is so spot on! Especially spiderweb and imaginative" (3 likes). Clean Type 5 self-naming — adding a reply would dilute; like amplifies. | Planned Like - Pending Action | 2026-04-23_instagram-replies-pm.md |
+| 2026-04-25 | Carousel | DXb4upElHlQ "In Our Own Words" — RETIRED | https://www.instagram.com/p/DXb4upElHlQ/ | Reviewed | Retired | All Apr 23 PM drafts (post-level + comment-level @tablefor9co/@throughyourlensenneagram replies + planned likes) retired Apr 25 PM as too aged. Window closed. | Retired | 2026-04-25_instagram-warmup-pm.md |
+| 2026-04-28 | Carousel | **DXo6f1ym47n — "Enneagram Types as Vegetables" (4-redemption repost)** | https://www.instagram.com/p/DXo6f1ym47n/ | Reviewed | Queued — TOP | 21h old, 1,648 likes, 1 visible comment (alignedsoulco "Pure heaven is what I should put on my dating profile" 3 likes). Caption: "A Monday morning repost and vengeance for the 4s. Not compared to a cauliflower any longer, here is your veggie redemption!" Full mapping: 1=Asparagus (morally steamed, side of justice); 2=Sweet Potato (warm comfort, gifted to bring joy); 3=Red Bell Pepper (shiny multitasker, "you hide seeds tho"); 4=Red Onion ("layers for days, makes someone cry, screw them, you bring vibes"); 5=Fennel (odd, the ones who get it really get it); 6=Green Beans (sturdy, not flashy); 7=Rainbow Chard (versatile, antioxidant life); 8=Kale ("frost makes you stronger, like it or not"); 9=Zucchini ("never ask for spotlight, soft hero in a crunchy world"). Mode: post. Level 2 OK. First-comment slot near-open. | Pending — TOP priority for Melissa today | 2026-04-28_instagram-warmup.md |
 
 ## Open Loops
 
-- **NEW (Apr 23 PM): DXb4upElHlQ "In Our Own Words" crowdsourced carousel** — 1d, 393 likes, active comments. Melissa is in the thread replying. Format directly parallels 9takes' "one question, 9 perspectives." Level 2.
+- **NEW (Apr 28): DXo6f1ym47n "Types as Vegetables" 4-redemption** — 21h, 1,648 likes, 1 visible comment. **TOP priority today.** Playful Level 2 carousel with sharp lines per type. Mode: post.
+- **RETIRED (Apr 25 PM): DXb4upElHlQ "In Our Own Words"** — all Apr 23 PM drafts (post-level + comment-level + planned likes) retired as too aged.
 - **Carl thread (DWwWUEAlFwQ): RESOLVED.**
-- **Longings thread (DWzFwmGFB2m):** Still 17d unanswered. Apr 13/20 drafts still valid but relationship already has strong two-way; low cadence — optional only.
-- **Expansion-vs-contraction post (DXJqt8SFE8c):** Now 8d old. Retire.
+- **Longings thread (DWzFwmGFB2m):** Now 22d unanswered. Retire.
+- **Expansion-vs-contraction post (DXJqt8SFE8c):** Retired (>2 weeks aged).
 
 ## Next Best Angles
 
-- **Today (priority — DXb4upElHlQ "In Our Own Words"):** Melissa crowdsourced single-word type descriptions via Stories. The post IS 9takes' thesis in miniature — one question, different answers by type. Strongest angle: the words that survive this exercise are usually the ones that name the COST of the type, not the identity ("calamitous" > "driven"; "spiderweb" > "imaginative"; "aggressively nurturing" > "caring"). That's the signature of someone who has done the work — they stop branding the pattern and start naming what the pattern is running away from. Level 2 OK. Can also go comment-level: maia*speaks*, throughyourlensenneagram, tablefor9co each left pointed comments worth amplifying.
-- **Alt angle (meta):** The crowd's words beat most professional copy because nobody typed FOR the reader — they typed from inside. That's exactly the gap between Enneagram content that teaches and Enneagram content that actually lands.
-- **Carl thread:** Resolved, reserved.
-- **Longings thread:** Optional only. Short, soft, warm if used.
-- **Future posts:** When she posts an IFS-heavy carousel, lean into part-naming language ("the manager part vs the protector part vs the exile") — that's where she lives.
+- **Today (priority — DXo6f1ym47n "Types as Vegetables" 4-redemption):** Melissa is doing playful per-type metaphor work and re-righting the original cauliflower-for-4 mistake. The funniest/sharpest lines do double duty: "morally steamed" (1), "you hide seeds tho" (3), "screw them, you bring vibes" (4), "frost makes you stronger, like it or not" (8). Strongest 9takes-style angle: name the _contradiction_ each veggie smuggles in — the joke that makes it stick is always the type's tradeoff, not its surface. Asparagus is sharpened-justice-as-flavor; sweet potato is sweetness-with-shelf-life (2 endurance); red onion is moodiness-as-payload (the 4 vibe IS the cost); kale is bitter-but-doesn't-wilt (8 hardness as the wedge that lets softness be safe). Level 2 OK. Mode: post. Can also be playful + personal — leaning into 8-as-kale "like it or not" honors Melissa's voice.
+- **Alt angle (meta on the redemption):** The cauliflower wasn't wrong about 4s being odd; it was wrong about the _valence_. 4s aren't pale or bland — they're vibe-loaded. The redemption isn't pretending the oddness isn't there; it's correcting the read on what the oddness _does_ to a meal.
+- **Reserved:** Carl-as-4 vs 3, Longings, expansion-vs-contraction — all retired or aged.
+- **Future posts:** When she posts an IFS-heavy carousel, lean into part-naming language ("the manager part vs the protector part vs the exile") — that's where she lives. Save the cost-vs-identity word frame from the retired DXb4upElHlQ drafts in case she does a sequel.

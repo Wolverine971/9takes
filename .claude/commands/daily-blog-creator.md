@@ -36,6 +36,25 @@ cat /Users/djwayne/9takes/docs/blog-automation/backlog-queue.json | jq '.inProgr
 
 **If `inProgress` is not null:**
 
+Check if the inProgress blog is stale (> 24 hours old):
+
+```bash
+# Calculate hours since started
+startedAt=$(cat /Users/djwayne/9takes/docs/blog-automation/backlog-queue.json | jq -r '.inProgress.startedAt')
+startedTimestamp=$(date -d "$startedAt" +%s 2>/dev/null || date -j -f "%Y-%m-%dT%H:%M:%SZ" "$startedAt" +%s)
+currentTimestamp=$(date +%s)
+hoursElapsed=$(( (currentTimestamp - startedTimestamp) / 3600 ))
+```
+
+**If stale (> 24 hours):**
+
+1. Move inProgress blog to `skipped` array with reason "stale inProgress - timeout"
+2. Clear `inProgress`
+3. Log: "STALE INPROGRESS CLEARED: ${name} after ${hoursElapsed} hours"
+4. Continue with selection
+
+**If not stale (< 24 hours):**
+
 - STOP immediately
 - Output: "BLOG IN PROGRESS: ${inProgress.name} - skipping today's run"
 - Exit without error
@@ -61,6 +80,39 @@ From `override.json`, check:
 
 ---
 
+## Pre-Selection Validation
+
+Before selecting the next blog from the queue, validate that no draft already exists:
+
+### 4. Check Queue Items for Existing Drafts
+
+For each item in the queue (in priority order):
+
+```bash
+# Check if draft exists
+if [ -f "/Users/djwayne/9takes/src/blog/people/drafts/${item.name}.md" ]; then
+  # Move to skipped array
+  # Remove from queue
+  # Log: "SKIPPED: ${name} - draft already exists"
+  # Continue to next item
+fi
+```
+
+**If draft exists:**
+
+1. Move item from `queue` to `skipped` array with:
+   - `skippedAt`: ISO timestamp
+   - `skipReason`: "draft already exists"
+   - `skipDetail`: File path and size info
+2. Log: "SKIPPED: ${name} - draft already exists at ${filepath}"
+3. Continue to next highest priority item
+
+**If no draft exists:**
+
+- Proceed with selection
+
+---
+
 ## Main Workflow
 
 ### Step 1: Select Next Blog
@@ -75,8 +127,11 @@ cat /Users/djwayne/9takes/docs/blog-automation/backlog-queue.json
 
 1. If `forceNext` exists in override.json, use that
 2. Otherwise, sort `queue` by `priority` (descending)
-3. Select first item
-4. Update `inProgress` with selected blog
+3. **For each candidate in priority order:**
+   - Check if draft exists: `ls /Users/djwayne/9takes/src/blog/people/drafts/${name}.md`
+   - If draft exists: move to `skipped`, log skip, continue to next
+   - If no draft: select this item and break
+4. Update `inProgress` with selected blog (including `startedAt` timestamp)
 5. Write updated queue file
 
 **Log selection:**
@@ -84,6 +139,12 @@ cat /Users/djwayne/9takes/docs/blog-automation/backlog-queue.json
 ```
 SELECTED: ${name} (Type ${type}, Priority: ${priority})
 Reason: ${priorityReason}
+```
+
+**Log skips:**
+
+```
+SKIPPED: ${name} - draft already exists at src/blog/people/drafts/${name}.md
 ```
 
 ### Step 2: Execute Content Creation
@@ -142,14 +203,28 @@ Capture the grade from output.
    - `contentGrade`: captured grade
    - `duration`: minutes taken
 3. Clear `inProgress`
-4. Increment `rateLimit.currentWeekCount`
+4. Increment `rateLimit.currentWeekCount` in override.json
 
 **If FAILURE (no draft):**
 
-1. Keep blog in queue
-2. Increment `retryCount`
-3. Clear `inProgress`
-4. Log error details
+1. Increment `retryCount` on the blog entry
+2. If `retryCount >= 3`:
+   - Move to `failed` array with `failedAt` and `error` fields
+   - Log: "MOVED TO FAILED: ${name} after 3 retries"
+3. If `retryCount < 3`:
+   - Keep in queue for next attempt
+   - Log: "RETRY ${retryCount}/3: ${name}"
+4. Clear `inProgress`
+5. Log error details
+
+**If SKIPPED (draft already exists):**
+
+1. Move from `queue` to `skipped` array
+2. Add skip metadata:
+   - `skippedAt`: ISO timestamp
+   - `skipReason`: "draft already exists"
+   - `skipDetail`: File path info
+3. Log: "SKIPPED: ${name} - draft already exists"
 
 **Write updated queue:**
 
@@ -282,13 +357,15 @@ Next Run: Tomorrow 2:00 AM
 ## Critical Rules
 
 1. **NEVER** run if `pause: true` in override.json
-2. **NEVER** run if `inProgress` is not null
-3. **ALWAYS** respect rate limit (5/week)
-4. **ALWAYS** update queue file after selection
-5. **ALWAYS** clear `inProgress` after completion (success or failure)
-6. **ALWAYS** send notification
-7. **NEVER** exceed 30 minute timeout
-8. **ALWAYS** log everything
+2. **NEVER** run if `inProgress` is not null (unless stale > 24h)
+3. **ALWAYS** check for existing drafts before selecting from queue
+4. **ALWAYS** auto-clear stale inProgress (> 24 hours old)
+5. **ALWAYS** respect rate limit (5/week)
+6. **ALWAYS** update queue file after selection
+7. **ALWAYS** clear `inProgress` after completion (success or failure)
+8. **ALWAYS** move skipped items to `skipped` array, not `completed`
+9. **NEVER** exceed 30 minute timeout
+10. **ALWAYS** log everything
 
 ---
 

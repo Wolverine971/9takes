@@ -11,8 +11,8 @@
 **Relationship Status:** Prospect
 **Audience Quality:** High (therapy-literate, reflective comment culture, low spam)
 **Profile Created:** 2026-04-07
-**Last Reviewed:** 2026-04-23 PM
-**Last Engaged:** Never confirmed. Apr 20 DXVYwbWjD68 draft ALSO not posted (verified via on-post inspection 2026-04-23 — no @9takesdotcom comment present among ~15 visible comments). Apr 19 DXSpyWwjPSS "I'm unhappy here" draft DID get posted at some point (notification: jillypie_hazeleyes liked "The pretending wasn't dishonesty. it was protection. 'I'm unhap..." 2d ago).
+**Last Reviewed:** 2026-04-28
+**Last Engaged:** Apr 19 DXSpyWwjPSS "I'm unhappy here" comment posted (jillypie_hazeleyes liked Apr 21). Apr 23 PM DXc3repDdAN initiator-grief draft was retired Apr 25 PM (too aged, never posted). Apr 20 DXVYwbWjD68 "I don't know" draft was confirmed not posted; retired.
 **Source of First Discovery:** Engagement targets list (Tier 2: Psychology, Therapy & Mental Health)
 
 ## Condensed Intel
@@ -59,20 +59,22 @@
 | 2026-04-23 | Notification | jillypie_hazeleyes liked Apr 19 "pretending wasn't dishonesty" comment | (on DXSpyWwjPSS) | Signal | Posted | Notification confirms Apr 19 "I'm unhappy here" draft DID get posted at some point. First real engagement with Vienna is live. Exact text fragment visible: "The pretending wasn't dishonesty. it was protection. 'I'm unhap…" — matches Option 1 phrasing. | Signal confirmed | 2026-04-23_instagram-warmup-pm.md |
 | 2026-04-23 | Post | **DXc3repDdAN — "The decision to end a relationship"** — initiator-grief frame | https://www.instagram.com/mindfulmft/p/DXc3repDdAN/ | Reviewed | Queued — TOP | 17h old, 952 likes, ~2-3 real comments. Fresh floor. Level 0. Angle: initiator grief gets no cultural permission. | Pending — TOP priority for Vienna today | 2026-04-23_instagram-warmup-pm.md |
 | 2026-04-23 | Post | DXc3repDdAN — initiator-grief — replies drafted | https://www.instagram.com/mindfulmft/p/DXc3repDdAN/ | Drafted | Pending | 3 options drafted under v5 workflow (Level 0 only, hard). **Best Option 1 (Extend, observable tell):** "initiators usually keep re-explaining the reasons out loud long after anyone is asking. from outside it sounds like convincing people. it's actually the system metabolizing the fact that love and 'i have to leave' can both be true at the same time." Option 2 (Complicate) introduces the cultural-script axis. Option 3 (Casual solidarity) is short/warm backup. All three avoid advice, emoji stacks, "this!", em dashes, and the reserved "pretending wasn't dishonesty…'I'm unhappy here' isn't drama" (Apr 19 posted). | Drafted - Pending Posting | 2026-04-23_instagram-replies-pm.md |
+| 2026-04-25 | Post | DXc3repDdAN initiator-grief — RETIRED | https://www.instagram.com/mindfulmft/p/DXc3repDdAN/ | Reviewed | Retired | All Apr 23 PM drafts retired Apr 25 PM as too aged. Window closed. | Retired | 2026-04-25_instagram-warmup-pm.md |
+| 2026-04-28 | Post (Reel/carousel) | **DXpjBOQGZc0 — "You have to KNOW someone to deeply LOVE them"** | https://www.instagram.com/p/DXpjBOQGZc0/ | Reviewed | Queued — TOP | 15h old, 1,879 likes, ~10+ comments visible. Vienna's caption explicitly invokes "infatuation, obsession, limerence" and the line "becoming meaning making machines." Most commenters are agreement-style ("love this," "true love is built over time"), with two sharper lines: alura.members "The difference between loving someone and loving the idea of them" and healingwithhaile (8h, 1 like) "challenges the idea of instant soulmates." Strong Level 0 territory — extend the "meaning making machines" frame without restating Vienna. Mode: post. Avoid advice, em dashes, emoji stacks, "this!", and the reserved Apr 19 phrasing. | Pending — TOP priority for Vienna today | 2026-04-28_instagram-warmup.md |
 
 ## Open Loops
 
-- **NEW (Apr 23 PM): DXc3repDdAN — "The decision to end a relationship can be painful for the person initiating it as well"** (17h, 952 likes, ~2-3 real comments + scattered spam). https://www.instagram.com/mindfulmft/p/DXc3repDdAN/ **TOP priority today.** Initiator-grief angle — the chooser's complex emotions rarely get cultural permission. Level 0.
-- **CLOSED (Apr 23): Apr 20 DXVYwbWjD68 "I don't know" draft was never posted; window closed (post now 3d, 18 comments, many spam).** Retire.
-- Apr 19 "I'm unhappy here" DID get posted at some point (jillypie_hazeleyes like confirms via Apr 21 notification). Ongoing engagement base established. Exact comment text fragment visible: "The pretending wasn't dishonesty. it was protection. 'I'm unhap…"
-- Apr 7 compassion/accountability post aged out (16d)
+- **NEW (Apr 28): DXpjBOQGZc0 "know to deeply love" carousel** — 15h, 1,879 likes, ~10+ comments. **TOP priority today.** Limerence / meaning-making-machine angle. Level 0. https://www.instagram.com/p/DXpjBOQGZc0/
+- **RETIRED (Apr 25 PM): Apr 23 DXc3repDdAN initiator-grief draft** — too aged.
+- Apr 19 "I'm unhappy here" engagement base established (jillypie_hazeleyes like Apr 21).
+- Apr 7 compassion/accountability post aged out (>3 weeks).
 
 ## Next Best Angles
 
-- **Today (priority — DXc3repDdAN "decision to end a relationship"):** The initiator of an ending carries grief that culturally gets no permission. The chooser isn't supposed to be sad. So the sadness, doubt, and flickers of "was this right?" get routed into silence or over-justification. Vienna is naming the permission problem. Reply should extend, not restate: name the strangeness of grieving a choice you made on purpose, or point at the tell (initiators often over-explain the decision because they're still metabolizing it, not because others need convincing). Level 0 ONLY — no Enneagram, no type references, no "9 ways" energy.
-- **Alt angle (observable tell):** "the initiator usually keeps re-explaining the reasons out loud long after anyone needs to hear them. it sounds like convincing other people, but it's the system metabolizing the fact that loving someone and choosing to leave them are both true at once."
-- **Alt angle (binary-reframe):** "the cultural script treats endings as one person's loss and one person's choice. the people who actually make the choice can tell you the math is never that clean."
+- **Today (priority — DXpjBOQGZc0 "know to deeply love"):** Vienna names limerence as a "meaning-making machine" running in the absence of actual data about the person. The Level 0 extension is to point at _what the machine runs on_ — limerence isn't lack of love, it's the brain filling in someone you don't know with everything you wanted. The fall is mistaking the projection for the person. Or: name the observable tell — limerence rehearses what you'll say to them; love listens for what they actually said. Or: name the moment the machine breaks (the first time the real person says something that doesn't fit the projection — the wobble after that is what most people call "the spark dying" but it's actually the start of knowing them). Level 0 ONLY — no Enneagram, no type-coded language. No em dashes.
+- **Alt angle (existing-comment amplify):** alura.members's "The difference between loving someone and loving the idea of them" is the cleanest 9takes-aligned line in the thread — could engage as comment-level reply or a like.
+- **Alt angle (observable tell):** "limerence rehearses what you'll say next time you see them. love notices what they actually said the last time."
 - **Reserved/used — do NOT recycle:** "the pretending wasn't dishonesty. it was protection. 'I'm unhappy here' isn't drama, it's the first time the real person gets to be in the room." (Apr 19 posted)
-- **Fallback — "I don't know" post retired.** Do not draft on that post.
+- **Fallback — "I don't know" + initiator-grief posts both retired.** Do not draft on those posts.
 - **Future:** Compassion-without-accountability collapses into self-soothing; accountability-without-compassion collapses into self-flagellation — save for a later post
 - **Future:** The role of childhood conditioning in what your nervous system reads as "safe" vs "dangerous" in relationships
