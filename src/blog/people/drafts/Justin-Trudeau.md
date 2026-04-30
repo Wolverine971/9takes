@@ -389,3 +389,58 @@ He was talking about his father.
 He could have been talking about himself.
 
 > **Disclaimer:** This analysis of Justin Trudeau's Enneagram type is speculative, based on publicly available information, and may not reflect his actual personality type.
+
+<!-- ============================================================
+FRESH-EYES ASSESSMENT — 2026-04-29 PASS 2 (Claude cold read)
+============================================================
+
+ONE-LINE VERDICT: A well-structured Type 3 portrait built on a strong childhood-anchor scene (the library at 24 Sussex) with excellent quote sourcing — earns the read but the typing-section bloat and rule-of-three counter-typing slow the front half.
+
+STRONGEST SECTION: "Turning Grief Into a Mission" — the Michel avalanche / Margaret's "I didn't want to breathe" / Pierre reading Corinthians / "Je t'aime, Papa" sequence is a genuine emotional immersion scene. The eulogy callback at the end ("He won't be coming back anymore") working as the structural closer is the strongest move in the piece.
+WEAKEST SECTION: "What is Justin Trudeau's Personality Type?" — too long, divided into three sub-sections (3 vs 3w2, why not 2/7, stress/growth arrows) that read like Enneagram-encyclopedia entries before the narrative resumes.
+
+STRENGTHS (3-5 bullets, specific):
+- The hook — five-year-old Justin walking into the library and seeing his mother crying — is genuinely a falsifiable origin story for the "keep the face on" thesis. Earns the rest of the piece.
+- The boxing match analysis ("I saw it as the right kind of narrative, the right story to tell") is the load-bearing quote of the entire blog and is correctly used as the thesis crystallization.
+- "Because it's 2015" deployed as Type 3 brand-engineering rather than as celebration is a fresh reading of a much-discussed line.
+- The Halifax tarmac scene is the cleanest "Type 3 under maximum image-pressure" passage in the batch — "I am wary of being definitive about this because the recent pictures..." paired with "I'm pissed off at myself" is exactly the kind of voice-cracks-the-frame moment.
+- Gerald Butts' "things that serve them on the way up often serve them poorly on the way down" plus "thought he might be able to pull a final rabbit out of the hat" pairing is the perfect intra-circle epitaph.
+
+WEAKNESSES (3-5 bullets, specific — name lines, phrases, sections):
+- The counter-typing rule of three appears twice: "Why not Type 2 or Type 7?" subsection has the textbook "Type 2s earn worth through being personally needed. Type 7s ... But Trudeau..." structure. Then the 3w2 vs 3w4 wing analysis runs the same move ("A 3w4 defines themselves through unique accomplishment. A 3w2 defines themselves through a helping role").
+- The bullet list under "Evidence that points to Type 3" (5 bullets, "A talent for", "A public identity", "Physical discipline") is the corpus generic-evidence-list autopilot.
+- "It is not X. It is Y." pattern: "It's not vanity. It was need"; "Not _the right fight to win_. The right _story_ to tell"; "Not denial. Not delusion. The genuine, bone-deep belief"; "But the deeper achievement was reputational"; "It wasn't an escape. The loss was the fuel." 5+ instances.
+- The closing "He was talking about his father. He could have been talking about himself" is structurally elegant but the move ("eulogy as self-eulogy") is a corpus tic — third blog in this batch using the bookend-callback closer.
+- Sophie's "marriage is success / separation is failure" quote appears in a section that pivots awkwardly — the Type 3 frame doesn't fully integrate the marriage end into the rise-and-fall arc.
+
+GAPS / MISSED OPPORTUNITIES (3-6 bullets — what a fan/critic would expect that's absent):
+- No engagement with the Conservative critique by name beyond Scheer's "phoney" line — Pierre Poilievre's specific 2022-2024 attacks on Trudeau's "wokeness" / "globalist" framing are the dominant critical frame in 2026 Canada and aren't grappled with.
+- No mention of the WE Charity scandal, which is more Type 3 than SNC-Lavalin (image-aligned charity, family ties, optics-driven defense) — a major missed test of the thesis.
+- The 2022 Emergencies Act / trucker convoy is one paragraph and never names the actual psychological stakes of a Type 3 facing genuinely hostile street protests calling him by name.
+- Carbon tax / housing crisis / inflation — the actual policy reasons Canadians turned on him — are absent. The blog reads as if the fall was purely image-based.
+- No engagement with criticism from the left — Indigenous reconciliation (broken pipeline / clean-water promises), the SNC-Lavalin handling of Jody Wilson-Raybould as a racialized woman, the loss of NDP confidence.
+- The Trump 2.0 / "51st state" / tariff dynamic in late 2024 - 2025 is invisible. This is the immediate context for Trudeau's resignation and the blog ignores it.
+
+PATTERN HITS (DJ tropes that worked here):
+- The childhood-scene-as-falsifiable-thesis hook (library scene) works.
+- Eulogy-as-bookend structure works for this specific subject because the literal eulogy exists.
+
+PATTERN MISSES (DJ tropes that felt formulaic, recycled, or autopilot here):
+- Counter-typing rule of three twice (3 vs 2/7 and 3w2 vs 3w4).
+- Type-theory-as-textbook ("Type 3s are driven by a core fear of failure...").
+- "It is not X. It is Y." 5+ times.
+- Eulogy-callback closer as autopilot variant of "child still doing what child did."
+
+CRITIC-ENGAGEMENT: Names Conservatives Scheer ("phoney"), O'Toole ("privileged, entitled"), and intra-Liberal Garneau ("ill-prepared") and intra-circle Butts. Does NOT name Poilievre, Indigenous critics, or specific left/NDP critics. Critic-engagement is moderate but skews to defanged Conservatives + intra-circle.
+
+CURRENCY (2024-2026 anchor): Strong — December 2024 Freeland resignation, January 6 2025 announcement, Carney becoming PM in March 2025 are all anchored. Trump-2.0 dynamic is missing.
+
+PARTISAN TILT: Surprisingly balanced for a Trudeau piece — the brand-as-vulnerability frame works for both sides. But sympathetic-Liberal undertone in framing the fall as image-tragedy rather than policy-failure.
+
+PRIORITY FIXES (numbered, in order of impact — 3 max):
+1. Engage Poilievre's specific critique and the actual policy-failure list (carbon tax / housing / inflation / convoy) for one paragraph — the rise-and-fall arc reads incomplete without the substance, not just the optics.
+2. Compress "What is Justin Trudeau's Personality Type?" — cut the 3w2-vs-3w4 wing section AND the why-not-2/7 section by 50% each. They're textbook entries inside a narrative piece.
+3. Add one 2025 Trump-Trudeau beat (51st-state / tariff threat) before the Curtain Call — the resignation context is missing without it.
+
+============================================================ -->
+

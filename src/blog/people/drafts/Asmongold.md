@@ -267,3 +267,53 @@ He built a career from observing the world, and the world paid him for it. He bu
 He still has not let anyone else hold the camera.
 
 He is, at this point, the only person in Zack Hoyt's life who has seen Zack Hoyt all the way through. His mother is gone. Mizkif is gone. Everyone else is looking at the content. And somewhere behind it, the observer is still sitting very still, conserving energy, taking notes, waiting for something to be worth the cost of looking up.
+
+<!-- ============================================================
+FRESH-EYES ASSESSMENT — 2026-04-29 PASS 4 (Claude cold read)
+============================================================
+
+ONE-LINE VERDICT: The most psychologically courageous piece in the batch — names the suicide-and-WoW line, the cockroach stream, the 14-day Palestinian ban, the Fuentes flirtation — but the "observer" motif over-fires and the mother-as-load-bearing-scaffold reading partially absolves Hoyt for the squalor she lived inside.
+QUALITY-CEILING TIER: TOP
+
+STRONGEST SECTION: "Why Asmongold's Politics Don't Fit a Box" — the Hasan-Piker exchange ("a Five answering a question about the self while pretending to answer a question about Gaza") is fresh, specific, and the only place a streamer-blog has handled Hoyt's drift-rightward without flattening it.
+WEAKEST SECTION: "The Cockroaches Were the Show. The Panic Attacks Were Not." — the closer leans on three "observer" callbacks and a tweet from 2021 to do the work the body of the piece already did.
+
+STRENGTHS (3-5 bullets, specific):
+- The opening juxtaposition (cockroaches stream / pulling mother from burning house) is a top-three hook in the corpus.
+- "He had planned to end his life after high school. Then _World of Warcraft: Wrath of the Lich King_ launched in 2008. He said he 'forgot.'" — signature paragraph that earns its claim.
+- The Mizkif fallout is treated factually (OTK counsel cleared him, "the room had already moved") instead of taking Hoyt's side.
+- Naming the Fuentes "Nick brings in views" quote and the Media Matters ranking is rare engagement with a politically-coded subject.
+- The cupcake/oxygen-machine scene gives Pasionaye an actual body, not just a function.
+
+WEAKNESSES (3-5 bullets, specific):
+- "Observer, monetized" / "the observer is still sitting" / "the watcher" / "the observer picks what to observe" — the central motif fires too many times.
+- "Fives do not become the best by training harder. Fives become the best by out-thinking the system everyone else is trying to brute-force." — type-plural diagnostic crutch + counter-typing rule of three.
+- "Some people do it with work. Some do it with exercise. Some do it with wine." — counter-typing rule of three.
+- "The body is not the only thing a Five lets go." — bolded mid-paragraph thesis.
+- "He was not complaining. He was describing a preference." — contrast-pair ("It is not X. It is Y.").
+
+GAPS / MISSED OPPORTUNITIES (3-6 bullets):
+- The 14-day Palestinian ban is given one sentence; the actual content of what he said (and his apology) is absent.
+- Twitch's other 2024 Asmongold ban (the "ape" comment about pro-Palestinian protesters per Aftermath) is not separated cleanly from the broader political pivot.
+- No engagement with Hasan Piker's own argument about Asmongold's audience capture — Hasan's framing of "you are radicalizing your audience whether you mean to or not" is unaddressed.
+- Pink Sparkles' breakup is given a sentence and a shrug; her account of what she experienced living with him isn't engaged.
+- The 13-year squalor framed entirely as Type-5 attention-conservation. No one in his life intervened, and that's not interrogated. Where were his housemates, his OTK partners, friends?
+- The OTK exit (Feb 2025) is one sentence — no analysis of what the company felt like to lead after Mizkif.
+
+PATTERN HITS:
+- Type-plural diagnostic crutch (multiple), counter-typing rule of three (twice), contrast-pair, bolded mid-paragraph thesis, single-sentence dramatic paragraphs ("Then she died.", "And he delivered it as a joke."), closing parallel-binary, repeated motif-as-spine ("the observer").
+
+PATTERN MISSES:
+- "Father modeled / Mother modeled" template — handled honestly (father gets one paragraph, mother is the system).
+- "Child still doing what the child did" closer — the closer is more nuanced than that.
+
+CRITIC-ENGAGEMENT: Strong on institutional critics (Twitch, Media Matters, Aftermath) and one named human (Mizkif) — but soft on Pink Sparkles and silent on women streamers/colleagues who have publicly criticized him.
+CURRENCY: Yes — Feb 2025 OTK exit, Jan 2025 record-setting fortnight on zackrawrr, late-2025 Media Matters ranking, the Fuentes / Turning Point material all current.
+DEFENSE-COUNSEL CHECK: Yes, partial. The 13-year squalor is reframed as "preserving attention for the mind by neglecting the body" — Type-5 virtue rather than failure-of-self-care. Pasionaye's COPD and oxygen tank are present but the question of whether her live-in caregiver kept her in conditions she might not have chosen is unasked. Hoyt is still the protagonist; she's the scaffolding.
+
+PRIORITY FIXES (numbered, 3 max):
+1. Cut at least three "observer" deployments so the closing line lands fresh.
+2. Detail what the 14-day ban was actually about and what his apology said. Without it, "comments about Palestinians he later acknowledged were wrong" is the duck.
+3. The 13-year squalor needs one sentence acknowledging that his mother lived in it too, especially the last seven years on oxygen. The piece protects him from a question worth asking.
+
+============================================================ -->

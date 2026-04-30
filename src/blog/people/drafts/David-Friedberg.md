@@ -268,3 +268,56 @@ He's been doing this his entire life — the six-year-old who arrived in LA with
 The reduction instinct is the thing his father couldn't do and Friedberg can't stop doing. Lionel Friedberg pointed a camera at a crisis and hoped people would feel enough to change. David Friedberg concluded that feelings don't scale. Systems do. So he builds the system, sells it to the most efficient distributor — even when that distributor is the most evil company in the world — and moves to the next problem.
 
 Whether that's wisdom or a specific kind of emotional avoidance dressed up as strategy is the question Friedberg's Type 5 would rather not answer. He prefers to stay in the lab. The yields are cleaner there.
+
+<!-- ============================================================
+FRESH-EYES ASSESSMENT — 2026-04-29 PASS 2 (Claude cold read)
+============================================================
+
+ONE-LINE VERDICT: The "father called Monsanto evil, son sold to them anyway" framing is genuinely strong and earns the read — but the typing argument leans on Type 5 textbook drops where the biographical scenes (Bike Hut, $1.1B sale, Cana printer) could carry the diagnosis on their own.
+
+STRONGEST SECTION: "The $1.1 Billion Education in Humility" — the 200-to-400 weather stations, the ski-resorts-make-their-own-snow detail, and the two-year grind to find the actual customer (farmers) is the kind of reported scene that does typing work without the textbook tag. Then the Monsanto sale lands as a real moral cost.
+WEAKEST SECTION: "What is David Friedberg's Personality Type?" — the bullet stack of "reduction instinct / outsider / knowledge-as-safety / privacy reflex" is the most autopilot section in the blog. It's all telling rather than scene work.
+
+STRENGTHS (3-5 bullets, specific):
+- The opening father-quote ("Monsanto?! The most evil company in the world?!") is a great hook — specific, surprising, falsifiable, and sets up the central tension.
+- The Bike Hut anecdote is a strong "Five sees a system, follows the thread" scene — the rain-driven discovery of WeatherBill is fresh and concrete.
+- "The reduction instinct" framing is genuinely diagnostic when applied to the Cana 1%-of-chemistry idea — that's a specific, falsifiable Type 5 move.
+- The 2.7 GPA + "I aced the lab classes / failed the lecture halls" detail is the kind of biographical reframing that earns its keep.
+- The closing parallel — "His father saw the crisis and pointed a camera at it. His son saw the same crisis and built a machine" — is line-level original.
+
+WEAKNESSES (3-5 bullets, specific — name lines, phrases, sections):
+- "Where other types seek love, approval, or control, Fives seek competence" is a textbook Enneagram drop.
+- The bullet stack with bolded labels ("**The reduction instinct**: …" / "**The outsider who learned to observe**: …" / "**The knowledge-as-safety instinct**: …" / "**The privacy reflex**: …") is the autopilot Pass 1 typing-evidence pattern.
+- "That sentence could be carved on a tombstone for a certain kind of mind" is overwrought and unearned.
+- "He prefers to stay in the lab. The yields are cleaner there" closing is too tidy — it's the corpus binary-resolution closer.
+- "He's been doing this his entire life — the six-year-old who arrived in LA with nothing, the teenager who mastered probability in card rooms, the Google employee who saw a bike shop close in the rain" — the recap-the-life-in-one-sentence rhythm is corpus-autopilot.
+
+GAPS / MISSED OPPORTUNITIES (3-6 bullets — what a fan/critic would expect that's absent):
+- No engagement with named Monsanto critics by name (Vandana Shiva, Tom Philpott, the actual environmentalists who protested the sale) — Friedberg's father is named, but external ethics critics aren't.
+- The Cana / molecular beverage printer is described as audacious but the blog never says whether it shipped or commercially failed — the reader is left wondering and that's a research gap.
+- No engagement with Friedberg's Twitter / X persona under @friedberg or his All-In takes that have aged poorly (the COVID lab-leak takes, the climate-vs-degrowth fights).
+- Ohalo's regulatory / GMO-labeling controversy is absent — gene-edited potatoes face the same political fight Friedberg dodged with Monsanto, and the blog doesn't ask the same question of the new venture.
+- The Allison Broude Friedberg / family privacy reflex is named but the "what does a Type 5 home life look like" angle isn't developed — DJ has done this better in other blogs.
+- No engagement with the All-In dynamics from Friedberg's specific angle — why does the Sultan of Science accept being the dry foil? What does he extract from the platform?
+
+PATTERN HITS (DJ tropes that worked here):
+- The single-detail typing hook (the father's quote + the sale) is the corpus's strongest move and it works at full power.
+- Stress/growth arrows (5 → 7 in stress, 5 → 8 in growth) are woven into the Production Board / Monsanto sale paragraphs rather than dropped as a separate section.
+
+PATTERN MISSES (DJ tropes that felt formulaic, recycled, or autopilot here):
+- The bolded-bullet typing-evidence stack.
+- "A Five doesn't feel safe until they've understood the architecture" / "That's a Five talking" / "A Five who can't let anything fail" — the diagnostic noun ("a Five") used as a refrain at least 8 times.
+- The closing "the yields are cleaner there" binary-resolution image.
+- The childhood-to-adulthood recap-rhythm in the closing paragraphs is the corpus child-still-doing-what-child-did trope.
+
+CRITIC-ENGAGEMENT: Weak — Lionel Friedberg (the father) is the only critic named, and his criticism is treated more as evidence-of-tension than as a substantive ethics challenge. The Monsanto deal is allowed to stand on Friedberg's "I did the math" reframe without being engaged on its merits by an actual external critic.
+
+CURRENCY (2024-2026 anchor): Partial — November 2023 Ohalo CEO transition, 50-100% potato yield trial figures. No 2025 or 2026 specifics. The blog dates to Feb 2026 but contains no 2025-2026 news beats.
+
+PRIORITY FIXES (numbered, in order of impact — 3 max):
+1. Replace the bullet-list of typing evidence with one tight scene-based paragraph — let the Bike Hut / Monsanto / Cana / Ohalo arc carry the typing without the bolded-label crutch.
+2. Add a 2024-2026 Ohalo update — what's actually shipped? What does the gene-edited-potato regulatory fight look like? The "feed 10 billion" thesis needs a current-tense beat.
+3. Name one substantive Monsanto-deal critic (not Lionel) and engage their actual argument — the blog's central tension ("data over heart") is undercut when the heart side is voiced only by the father.
+
+============================================================ -->
+

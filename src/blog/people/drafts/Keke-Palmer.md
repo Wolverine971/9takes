@@ -266,3 +266,55 @@ In January 2025 she opened _One of Them Days_ with SZA, the Issa Rae–produced 
 The girl who was trapped in a SpongeBob suit on a Nickelodeon cruise ship at fifteen is now thirty-two, building a media company, raising a son, and releasing the most honest music of her career.
 
 But the suit is still there. She designed it herself now, and she chooses when to put it on. That's the difference.
+
+<!-- ============================================================
+FRESH-EYES ASSESSMENT — 2026-04-29 (Claude cold read)
+============================================================
+
+ONE-LINE VERDICT: The strongest narrative blog in the batch — earns its 2,500+ words because the Lauren-vs-Keke split is genuinely the central architecture of Palmer's career, and the piece is built around it without flinching.
+
+STRONGEST SECTION: "Walking Around in a SpongeBob Suit" — the cruise-ship-trapped-in-cabin image is unforgettable, the True Jackson role parallel is precise (climbing a corporate ladder, working a grown-up job as a kid), and the section earns the suit metaphor that the closing line then re-monetizes.
+WEAKEST SECTION: "What is Keke Palmer's Personality Type?" — the diagnostic section is buried at H2 #11 (after the closet, the SpongeBob suit, the bankruptcy, the labels, the SNL bump reveal, the Usher concert, etc.). By the time the reader arrives at "Keke Palmer is an Enneagram Type 3" the type read has been demonstrated for fifteen paragraphs and the formal diagnostic feels redundant.
+
+STRENGTHS:
+- "She was twelve. She was also, by then, a millionaire." — devastating line, perfect pacing, sets the entire stakes-of-childhood framework.
+- The closet beat at the party — quiet, terrifying, undermines the "indestructible" persona thesis in three sentences. The writer trusts the image to do the work and it does.
+- The diaries detail in the Darius Jackson section — "for a woman who has built her life around authoring her own narrative, the destruction of her diaries is the cruelest possible violation. It is an attack not just on privacy but on the very mechanism she uses to survive." This is the load-bearing line of the entire blog.
+- The "Sorry to this man" / Dick Cheney section reframes a viral comedy moment as the Type 3's most sophisticated tool — humor as camouflage. The line "for a Type Three, comedy is the perfect cover. It looks effortless, it generates love, and it keeps the audience watching the performance instead of the performer" is the kind of original observation that justifies the blog.
+- The SNL pregnancy reveal as "narrative control performed live" is concise and load-bearing.
+- "Waited to Exhale" album title detail — that it's named after a physical symptom of her anxiety — is the kind of biographical specificity that proves the read.
+
+WEAKNESSES:
+- The piece runs ~2,800 words and contains 15 H2s. Several sections (The Black Girl on the Network, The Mirror in Nope, How Keke Palmer Builds an Infrastructure That Doesn't Need Mickey Mouse) want to be one or two sentences in adjacent sections.
+- "She built a new one. And then another. And another." — the staircase-paragraph rhythm shows up three times in the piece. By the third occurrence (the suit / brand pivots) it reads as cadence rather than content.
+- The diagnostic section ("People who share Palmer's core pattern...") arrives so late it's structural. The blog already passed the type-test five sections ago. Either move the diagnostic earlier or shrink it to a TL;DR call-back.
+- The "humor as camouflage" thesis is the piece's strongest insight and it gets one section. The writer could have built the entire piece around it instead of giving us a chronological resume of crises.
+- "She is not rejecting performance. She is rejecting being reduced to it." / "I am not my work, but I do my work." — these adjacent quotes feel like the writer reaching for a thesis-statement closer in the Just Keke section before getting to the actual closer.
+- Stress (3→9: numbing out, holding her breath, hiding in the closet) is implicit but never named. Existing in-file feedback flagged this and it remains unaddressed.
+
+GAPS / MISSED OPPORTUNITIES:
+- The Hustlers section is one paragraph and treats it as career-pivot proof, never as actual character work. Mercedes-as-Three is a free read the blog skips.
+- Will Smith's voicemail at 17 is the pivot beat that keeps her from emancipating, but the only quote we get is the voicemail itself. No follow-up on what happened internally — just "she stayed." The Three at 17 deciding not to legally cut her family for a 30-year career trajectory is enormous.
+- Tayla Parx is named as a writing collaborator who unlocked Just Keke. The piece never quotes her or describes the writing room. For a Type 3 finding their first real creative collaborator at 31, that beat deserves a paragraph.
+- The mother's perspective is absent. Sharon Palmer is named once at the start as a high-school teacher who put her dreams on hold and never spoken to or about again. For a piece anchored on parentalization, that's the single biggest missing voice.
+- No Leodis section — her son is named at the end as part of the structural pivot, but the actual experience of becoming a mother as a Three (who only knew identity-as-output) is never opened.
+- The Eddie Murphy detail ("studying Eddie Murphy's craft choices, improvisation discipline, and how to scale beyond performer identity") is buried in a list. That she's actively studying scale-beyond-performer is the 3→6 growth arrow; it deserves its own beat.
+
+PATTERN HITS (DJ tropes that worked here):
+- The cold open structurally — quote, then "That answer tells you everything" reframe, then escalating-stakes paragraphs. Works every time DJ uses it but works particularly well here because the persona-split quote IS the central architecture.
+- The closing reframe (the suit she designed herself, chooses when to put it on) lands without being precious.
+- The Roger Ebert pull at age 12 is the rare external-quote moment that actually moves the analysis forward instead of decorating it.
+
+PATTERN MISSES (DJ tropes that felt formulaic):
+- "She is not rejecting performance. She is rejecting being reduced to it." — the negate-then-reframe contrast pair, present in every blog in this batch.
+- "[X]. And [Y]. And [Z]." three-clause cadence (e.g., "She built a new one. And then another. And another.") — used multiple times.
+- "That's the difference." closing kicker — too breezy for what came before. Earns its presence by being short, but feels like the writer paused on multiple line options and picked the most reductive one.
+- This blog (older — 2026-02-26 dated) doesn't have HEADING MIX LEDGER / DISTRIBUTION LEDGER infrastructure. That tells me the meta-tracking system was added later in the corpus. Useful corpus-evolution signal.
+
+PRIORITY FIXES:
+1. Move the diagnostic section ("What is Keke Palmer's Personality Type?") to either H2 #2 or fold it into the TL;DR. By H2 #11 the reader already knows the type read and the section reads as redundant scaffolding.
+2. Cut at least 3 H2s. Candidates: collapse "The Black Girl on the Network" into "Signed, Shelved, Signed Again" (same wound, same dynamic); merge "The Mirror in Nope" into "Sorry to This Man" (Peele's read of her IS the Three's best moment); compress "How Keke Palmer Builds an Infrastructure" into "I'm Not the Puppet" closer.
+3. Add a single beat from the mother. Sharon Palmer is the only adult who watched her daughter become the family's financial engine and never appears in her own voice. One quote — even from an interview Sharon may have done — would balance the piece.
+
+============================================================ -->
+

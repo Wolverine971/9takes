@@ -266,3 +266,59 @@ Facing the dissolution of his own mind — the thing that made the warmth and th
 He lived with Alzheimer's for ten years. He died in June 2004. Nancy said he knew her until near the end.
 
 > **Disclaimer:** This analysis of Ronald Reagan's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of President Reagan.
+
+<!-- ============================================================
+FRESH-EYES ASSESSMENT — 2026-04-29 PASS 2 (Claude cold read)
+============================================================
+
+ONE-LINE VERDICT: A psychologically coherent portrait that does the rare thing of using the Enneagram to engage Reagan's real failures (AIDS, welfare-queen, Iran-Contra) — best critic-engagement in this batch — but the closing Alzheimer's letter section reads as soft and the 9w8 framing occasionally functions as a unified-field-theory dodge.
+
+STRONGEST SECTION: "What the Nine Couldn't See" (AIDS + welfare-queen) — the piece does what most Reagan analyses don't: refuses to let "kind man" off the hook for "didn't say AIDS for four years," uses the Type 9 frame as diagnostic, not exculpatory.
+WEAKEST SECTION: "The Alzheimer's Letter" — feels like a softening final beat; the "first instinct was to make other people feel better about it" framing is sentimental and doesn't add diagnostic weight.
+
+STRENGTHS (3-5 bullets, specific):
+- Hook ("There you go again" + soft smile) earns the read; the four-words-ended-the-debate framing is precise and falsifiable.
+- The Howard Baker / 25th Amendment Cabinet meeting incident is exactly the kind of biographical fact most profiles skip — it does real diagnostic work.
+- "The wall that protected young Ronald from Jack's chaos never came down. It just got nicer furniture." is the best original line in this batch.
+- Edmund Morris's 14-year failed-biography device (the embedded fictional narrator) is a brilliant piece of evidence — turns a failed book into the strongest argument for the Type 9 wall thesis.
+- Patti Davis / Michael Reagan / Ron Jr. quotes are sourced and substantively painful; the children critique lands.
+
+WEAKNESSES (3-5 bullets, specific — name lines, phrases, sections):
+- Three "It is not X. It is Y." constructions: "Not a performance — the reflexive output…", "It wasn't manipulation, he genuinely could see…", "It may be something different. But the effect is the same."
+- "He wasn't performing composure. He was composure." is an exact-twin of the Obama line ("He wasn't performing composure. He was composure.") — the piece and the Obama piece reuse this construction verbatim.
+- The "Why Not Type 3?" subsection is the textbook counter-typing-rule-of-three pattern (Three would do X / Reagan does Y) lifted whole.
+- Single-sentence dramatic-emphasis paragraphs throughout ("Curious.", "Ten votes." [oh wait that's Bernie — but pattern recurs]).
+- The closing Alzheimer's section ends on "Nancy said he knew her until near the end" — a sentimental fade-out that doesn't earn the diagnostic weight of the rest of the piece.
+
+GAPS / MISSED OPPORTUNITIES (3-6 bullets — what a fan/critic would expect that's absent):
+- Reaganomics / trickle-down economics — the single biggest substantive economic critique of his presidency, completely absent.
+- The 1976 California governor years and welfare reform there are skipped — biographical hole between SAG and Sacramento.
+- Berlin Wall speech is here but the Strategic Defense Initiative / "Star Wars" — both as Cold War strategy AND as the Reykjavik dealbreaker — is mentioned in passing; deserves more.
+- No engagement with critics who say his Cold War credit is overblown (Gorbachev did the heavy lifting / collapse was internal).
+- The Brandenburg "tear down this wall" speech context (State Dept tried 3x to remove the line) is in the piece — but no equivalent engagement with the criticism that his "evil empire" speech prolonged the conflict.
+- 2024-2026 currency: completely absent. The piece has zero current beat. For a deceased subject this is partially defensible, but Reagan's legacy is actively contested in 2025 Trump-2 era (the "Republican party Reagan built" vs. populist break) and that's not anchored at all.
+
+PATTERN HITS (DJ tropes that worked here):
+- Childhood-as-architecture (Jack Reagan alcoholism → wall-building) is used precisely without overreach.
+- Compartments-not-contradictions framing for the Tip O'Neill friendship is the corpus at its diagnostic best.
+- The "9w8 specifically" qualifier earns its keep on PATCO — the wing actually does work, not just labeled.
+
+PATTERN MISSES (DJ tropes that felt formulaic, recycled, or autopilot here):
+- "It is not X. It is Y." x3 — over the corpus cap.
+- "He wasn't performing X. He was X." identical structure to the Obama piece — autopilot.
+- Counter-typing rule of three (the Why Not Type 3 section).
+- TL;DR + bolded intro + typing section thesis-front-loading.
+- "Whether that's innocence or something else, the effect was the same" is a corpus-style equivocation that lets a sharp claim go soft.
+
+CRITIC-ENGAGEMENT: The best in this batch. Names AIDS deaths (5,500 / 21,000), engages Bengal-equivalent (welfare-queen racial dog whistle) honestly, names Edmund Morris and Lou Cannon as critics. Iran-Contra is engaged head-on. But misses the left-economic critique entirely (Reaganomics) and the conservative populist critique that he was actually a deficit hawk who blew the deficit.
+
+CURRENCY (2024-2026 anchor): None. No current beat at the close. For a deceased subject this is forgivable but a missed opportunity given the 2025 GOP debate over Reagan's actual legacy.
+
+PARTISAN TILT: Surprisingly balanced — the AIDS and welfare-queen sections cut against a sympathetic Reagan read; the Cold War and PATCO sections cut sympathetic to him. This is the most genuinely two-handed piece in the batch.
+
+PRIORITY FIXES (numbered, in order of impact — 3 max):
+1. Cut one of the three "It is not X. It is Y." constructions and rewrite the verbatim "He wasn't performing composure" line that duplicates the Obama piece — pure autopilot.
+2. Add a substantial paragraph on Reaganomics / deficit / supply-side as the major substantive policy critique — currently the piece's biggest content hole; the AIDS section shows you can do critic-engagement well.
+3. Replace the soft "Nancy said he knew her until near the end" closing with a return to the wall-with-nicer-furniture image or to the children's testimony — end on the diagnostic, not the sentimental.
+
+============================================================ -->

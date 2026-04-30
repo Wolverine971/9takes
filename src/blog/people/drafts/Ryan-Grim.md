@@ -338,3 +338,58 @@ Ryan Grim took the name and reversed the function. Three newsrooms built. Two bo
 He's built the institution he spent twenty years proving other people couldn't sustain. Whether it holds is the question he'll spend the next decade answering.
 
 And if you understand Sixes, you know he's already running the scenarios where it doesn't.
+
+<!-- ============================================================
+FRESH-EYES ASSESSMENT — 2026-04-29 PASS 2 (Claude cold read)
+============================================================
+
+ONE-LINE VERDICT: The strongest blog in this batch — the Webster-Grim-namesake bookend is unfakeable structural craft, the Mimi section is the rare private-life anchor that earns the public-life thesis, and the audit-runs-both-ways frame turns Type 6 from cliché into genuine diagnostic; loses points only in the Counterarguments / Rabbit Hole bloat.
+
+STRONGEST SECTION: "The Audit That Runs Both Ways" — the Nate Silver apology paired with the Watters confrontation, plus the "the audit has to apply in both directions or it isn't really an audit" sentence, is the cleanest 80-word psychology demonstration in the corpus. It earns Type 6 without typing language.
+WEAKEST SECTION: "The Books: Mapping the Whole System" — the editor's own comment block flagged this, and it remains the section most prone to publisher-catalog cadence. The "single articles expose a failure" sentence is good; the AIPAC $100K beat is good; the rest reads as biography.
+
+STRENGTHS (3-5 bullets, specific):
+- "Ryan Webster Grim is named after a fraud." — the cleanest single-sentence opener in the batch. Earns the read in five words.
+- The Webster-Grim namesake bookend ("Webster Grim was the patsy. Ryan Grim took the name and reversed the function") is the corpus's best example of a structural motif that pays off in the closer.
+- "Deep roots, thin soil." — three-word rhythm that does class diagnosis, geographic specificity, and Six-formation in one beat.
+- "Ones indict the person. Sixes indict the protocol." — two-sentence aphorism that does counter-typing better than the corpus's usual rule-of-three.
+- The Mimi / 89-year-old-copy-editor-with-red-pen section is the single best private-life anchor in the batch. "The man who interrogates systems for a living found the most trustworthy institution in his life in an 89-year-old woman with a red pen." is the corpus's best sentence in this batch.
+
+WEAKNESSES (3-5 bullets, specific — name lines, phrases, sections):
+- The Enneagram Rabbit Hole accordion is the longest type-theory infodump in the batch — wing, subtype, stress/growth arrow, three counter-typings. Even with the "skip if you're not nerdy" intro, it doubles the typing-section length.
+- "Sixes don't abandon. They stress-test." appears in body AND in the Counterarguments — flagged in the editor block, still uncut.
+- HuffPost section (lines 113-123 area): the editor flagged it as résumé-cadence, and it remains résumé-cadence — Pulitzers + Sam Stein quote + departure-to-Intercept.
+- The Counterarguments section's "Why not 8 / Why not 1 / Why not 3" is the corpus's three-Type counter-typing tic in slow motion — earlier blogs in the batch do it in one sentence; here it's three full paragraphs.
+- "The world doesn't announce itself as unreliable. It just proves it." — gorgeous line, but it's the kind of dramatic-aphorism close-of-section the corpus over-uses.
+
+GAPS / MISSED OPPORTUNITIES (3-6 bullets — what a fan/critic would expect that's absent):
+- Drop Site's actual reception / readership numbers / sustainability — named as "the institution he built from scratch" without engagement of whether it's working. A Six would want that audit included.
+- The Glenn Greenwald / Intercept-founding rupture — Grim arrived after the original Intercept conflict; the Greenwald / Reed Hundt / First Look context is invisible.
+- The Counterpoints / Saagar Enjeti / Krystal Ball / Breaking Points dynamic — Jashinsky gets one paragraph but the larger heterodox-podcast ecosystem isn't engaged.
+- Israel/Gaza coverage — Grim has been one of the most prominent Gaza-critical mainstream voices in 2024-2026, and his Drop Site Epstein/Israeli-intel reporting touches it, but the Israel-coverage backlash from establishment Democrats isn't engaged.
+- His own family life — wife, children — invisible. Mimi is the only intimate. Real gap given the "loyalty signature" thesis.
+- The 2025 election aftermath / Trump-DOJ-investigations-of-journalists landscape that Drop Site is operating in.
+
+PATTERN HITS (DJ tropes that worked here):
+- The bookend (open with Webster-Grim-fraud, close with Webster-Grim-correction) is the corpus's best structural craft in this batch.
+- Named-quote testimony stack (Stein, Polgreen, congressional aides) is well-distributed and proportionate.
+- "The audit has to apply in both directions or it isn't really an audit" — sentence-level Type 6 diagnosis without saying "Type 6."
+
+PATTERN MISSES (DJ tropes that felt formulaic, recycled, or autopilot here):
+- Counter-typing rule of three: "Why not Type 8 / Why not Type 1 / Why not Type 3" — the corpus's most diagnosable autopilot tic, here in three full paragraphs.
+- "What is Ryan Grim's Personality Type? / Ryan Grim is an Enneagram Type 6" — the H2/H3 typing-call structure that's identical across all 9 blogs.
+- "It is the X" thesis: "It is the patsy." / "It is what happens when…" / "It IS the trade secret." (wait, that's Amelia, but Grim has its own: "It is the proof that they can.") Multiple.
+- Bolded mini-thesis sentences: **The Institutional Stress-Tester** / **Counterphobic Loyalty** / **Three newsrooms built** / **The Calm Sentinel** — corpus default TL;DR template.
+- Single-sentence dramatic-emphasis paragraphs: "He hadn't found the right institution yet." / "And then he broke the stories." / "He didn't flinch." / "The left burned him for it." Many.
+- "What [person] is still [verb-ing]" closer mood: "And if you understand Sixes, you know he's already running the scenarios where it doesn't." — corpus closing autopilot frame.
+
+CRITIC-ENGAGEMENT: Strong by corpus standards. The Tara Reade backlash is named and not flinched from. The progressive-meltdowns critique is engaged with the offending paragraph quoted. Watters gets actual dialogue. The Nate Silver apology is reproduced. This is the most critic-engaged blog in the batch.
+
+CURRENCY (2024-2026 anchor): Strong — July 2024 Drop Site launch, February 2025 Armored Tesla scoop, 2025 Epstein/Israeli intelligence series, 2026 Iran regime-change reporting. Currency is excellent.
+
+PRIORITY FIXES (numbered, in order of impact — 3 max):
+1. Cut 40-50% of the Enneagram Rabbit Hole. The wing + subtype + stress/growth + 3-Type counter-typing is enough material for a separate explainer post; here it's the bloat the editor already flagged.
+2. Tighten HuffPost section into two paragraphs. Flagged in the editor block, still uncut.
+3. Add one paragraph on Drop Site's actual reach/sustainability. The blog asks "whether it holds is the question he'll spend the next decade answering" — a Six-style audit would include the early data we already have.
+
+============================================================ -->

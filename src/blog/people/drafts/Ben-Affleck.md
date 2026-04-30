@@ -281,3 +281,60 @@ Artists Equity is growing. The kids are thriving. The sobriety holds. The press 
 Affleck is still building. He's always building. The card counter who got banned because he had to do it really well hasn't changed. But the house he's been constructing all along — the one with three kids and a best friend and a company and five years of unbroken sobriety — was already there. Already built. Already his.
 
 The only question left is the one his whole life has been asking: can he stay inside it?
+
+<!-- ============================================================
+FRESH-EYES ASSESSMENT — 2026-04-29 PASS 3 (Claude cold read)
+============================================================
+
+ONE-LINE VERDICT: A genuinely literary Type 3 portrait that does its strongest work in the relationships-and-fatherhood architecture and is the most willing piece in this batch to let the subject's wreckage stay wreckage rather than redescribing it.
+
+STRONGEST SECTION: "The Way Back (And the Role That Was Too Close)" — Gavin O'Connor's "open up that box and let the demons out" framing, the relapse before pre-production, the salary-in-escrow detail, and the cut breakdown takes form a contained narrative that lets an Oscar-bait story stay terrifying.
+WEAKEST SECTION: "Why Ben Affleck Keeps Marrying Into Spectacles" — three short paragraphs that gesture at a thesis ("It's about the function each relationship served in the identity architecture") without doing the close-reading the rest of the piece does. The Garner / Lopez complexity deserved 5x the space.
+
+STRENGTHS (3-5 bullets, specific):
+- The card-counting hook ("If I'm going to do something, I'm going to try and do it really well") is the rare opening-quote that genuinely organizes the rest of the piece.
+- The Casey Affleck section is the corpus's best treatment of a sibling-comparison: same household, two timelines for healing, "felt like I knew him better than anyone else did." The piece resists the urge to diagnose Casey too.
+- "Bottle of scotch on the couch" / Howard Stern interview / "to be clear, my behavior is my responsibility entirely" — the piece quotes both the original tabloid-shaped statement and the clarification, and lets the reader hold the tension.
+- The Dunkin' / cigarettes / Sad Affleck meme paragraph is the corpus's smartest analysis of meme-as-image-trap. "The gap between the interior and the image has never been wider" is earned.
+- "If I could have, I would've kept it anonymous" as the piece's emotional pivot is one of the cleanest closing-thirds in the batch — the writer trusts a Damon-style flat-clarity quote to do the work.
+
+WEAKNESSES (3-5 bullets, specific — name lines, phrases, sections):
+- "He does everything really well. Including self-destruction." — contrast-pair tic, opening.
+- "Achievement equals safety. Average equals invisible." — anaphoric pair as section-closer.
+- "It's about the function each relationship served in the identity architecture. Garner was proof of seriousness. Lopez was proof of desirability. Both were constructions" — collapses both marriages into a thesis without naming what the women themselves are reported to have said. The Casey section is detailed; the Garner/Lopez section is theoretical.
+- "Either you're there or you're not." — single-sentence dramatic paragraph closing the Little League section.
+- "The only question left is the one his whole life has been asking: can he stay inside it?" — closing question to the reader is the corpus's signature cliffhanger-cadence. The piece earned a flatter close.
+
+GAPS / MISSED OPPORTUNITIES (3-6 bullets — what a fan/critic would expect that's absent):
+- The 2017 Hilarie Burton allegation (he was reported to have groped her on TRL in the early 2000s) and his apology — completely absent. A Type 3 piece on shame and image-management without that beat is incomplete.
+- The Rose McGowan Weinstein-knowledge questions (she said Affleck knew about Weinstein and lied) — also absent.
+- The 2018 "I'll be the first to admit that I have a problem with sexual addiction" reporting — absent.
+- The piece's strongest move is the willingness to let wreckage be wreckage, but it skips wreckage that fans and critics specifically remember.
+- The Jennifer Garner side of the marriage gets her famous "phoenix" zinger but very little of her own framing of what happened. The Vanity Fair piece had specific quotes the piece doesn't use.
+- The Artists Equity section reads as PR. No mention of whether the company has been profitable, whether the writers'-room program has produced anything, whether crew profit-sharing is real or marketing.
+
+PATTERN HITS (DJ tropes that worked here):
+- Childhood-wound origin: Tim Affleck's drinking, the parents' divorce, the "relief" framing. Specific, sourced, integrated.
+- Object/symbol-as-thesis: the phoenix tattoo. "He wanted the image of rising from destruction. He just didn't want anyone to see him wanting it." Earned.
+- The two-blocks-apart Damon framing as load-bearing relationship rather than friendship-color.
+- The "in stress moves toward 9, in growth moves toward 6" Enneagram integration is one of the most natural in the batch — the directing career as 6-integration, the couch-with-scotch as 9-disintegration. Both have evidence.
+
+PATTERN MISSES (DJ tropes that felt formulaic, recycled, or autopilot here):
+- "He does everything really well. Including self-destruction." — contrast-pair tic.
+- "Average equals invisible." — closing parallel-binary.
+- "He knows how to be loyal. He just doesn't always know how to be present." — same.
+- "Threes are heart types. Their core emotion is shame, not the productive kind that corrects behavior, but the kind that whispers..." — type-plural diagnostic crutch.
+- "If you build something good enough, the world will see you as worthy." — ventriloquized inner-monologue at the end of section.
+
+CRITIC-ENGAGEMENT: Mixed. Garner is allowed her own zinger ("Bless his heart") but is otherwise paraphrased. The Bill Maher / Sam Harris confrontation is described as a critic-engagement moment for Affleck, but no critic of Affleck is named or quoted. Hilarie Burton, Rose McGowan, Effie Brown — none appear.
+
+CURRENCY (2024-2026 anchor): Yes — January 2025 J.Lo divorce finalization, April 2025 Accountant 2 press tour, 2025 GQ profile, Artists Equity 2026 Netflix first-look deal. Currency is excellent.
+
+DEFENSE-COUNSEL CHECK: Mild. The "Part of why I started drinking was because I was trapped" / Garner-marriage section is the closest moment. The piece does the work to surface his clarification, but the original framing — that the marriage's unsustainability was the cause of the drinking rather than a symptom — is allowed to stand as "actually precise." Type 3's "deceit" vice is named, but the piece never asks whether his serial mea culpas are themselves another performance.
+
+PRIORITY FIXES (numbered, in order of impact — 3 max):
+1. Engage Hilarie Burton. The allegation, the apology, and what he said about it are all on record. A Type 3 portrait centered on shame and image-management cannot skip this.
+2. Trim the closing "can he stay inside it?" question. The piece's strongest move is its willingness to leave wreckage as wreckage; the cliffhanger reverses that move at the last second.
+3. Either deepen the Garner/Lopez section to match the Casey Affleck close-reading, or compress the marriages into one structural paragraph. The current half-measure flattens both women into thesis-evidence.
+
+============================================================ -->

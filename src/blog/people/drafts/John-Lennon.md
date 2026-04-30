@@ -336,3 +336,58 @@ What's already working:
 - The Polaroid of the first loaf of bread — specific, strange, true. Keep.
 - The refusal to end with a CTA or summary. The cut-to-black ending is right, once the murder has been named enough for it to function.
 -->
+
+<!-- ============================================================
+FRESH-EYES ASSESSMENT — 2026-04-29 PASS 3 (Claude cold read)
+============================================================
+
+ONE-LINE VERDICT: The strongest piece in this batch — a Type 4 reading that earns its thesis through specific, un-Googleable details — but it elides the murder so completely that the ending reads as metaphor, not history.
+
+STRONGEST SECTION: "The Mask That Hit Back" — the corpus's best example of refusing defense-counsel mode. It quotes Lennon's own confession of hitting women, then lets the line "I will have to be a lot older before I can face in public how I treated women" sit unredeemed. "He was forty. He never got older." is the corpus's strongest single paragraph.
+WEAKEST SECTION: "What is John Lennon's Personality Type?" — the prior reviewer flagged this and was right. The bullet list slots "report" mode into the middle of a narrative essay and dilutes McCartney's "I was like his priest" quote, which is one of the best pieces of evidence in the file.
+
+STRENGTHS (specific):
+- The glasses opening is the only opening in this batch that actually does something structurally — it sets up the recurring "couldn't see, couldn't be seen" motif that pays off at the bed-in (judged by appearance) and the gorilla suit (only thing that fit).
+- "It could also be Mother" is treated as the Rosetta-stone quote and the structure earns it. The Yoko section is unswappable from any other Type 4 analysis because it turns on a single sentence that only Lennon could have said.
+- Julia's death is rendered with restraint. "She was forty-four" is given its own line and trusted to do the work.
+- The bread-and-Polaroid detail is specific enough to be unfalsifiable. It's the kind of beat that makes a reader trust the writer.
+- Janov's "as much pain as I've ever seen" lands because Janov has standing.
+
+WEAKNESSES (specific):
+- "The missing piece" is repeated five separate times. The hook, TL;DR, Weybridge section, the Bread section, and the closer all reach for the same metaphor. By the fifth use it's incantation, not insight.
+- The Julian/Cynthia abuse is named, but the file does not engage with the modern critic — Julian is interviewed in the source pool but his actual published anger ("My father was a hypocrite") is paraphrased rather than quoted at full force.
+- Chapman is never named. The shooting is rendered as "the last box was checked for him." A reader who arrived without prior knowledge would not register that Lennon was murdered by a stranger four hours after autographing his record. This is elision, not minimalism.
+- "Imagine" is named once, never analyzed. For a piece arguing that the peace anthems came from the violence, the most famous peace anthem is structurally absent.
+- Alfred Lennon disappears from paragraph one. The Blackpool doorstep choice (six-year-old John told to pick a parent) is the literal scene of the abandonment wound and it's missing.
+- Stuart Sutcliffe (1962, brain hemorrhage) and Brian Epstein (1967, overdose) are absent — two more chosen-family abandonments that would make the merging-and-losing pattern feel less like a Type 4 thesis statement and more like a documented life shape.
+
+GAPS / MISSED OPPORTUNITIES:
+- The LSD years. Lennon said he took thousands of trips. For a Four chasing the missing piece through every container, the corpus's own framing demands this beat.
+- The FBI surveillance and Nixon-era deportation fight gives "peace movement as violence engine" a concrete political stake. The bed-ins read as performance-art absent the actual government threat.
+- Yoko's own work is treated as backdrop. A fan/critic would want one beat acknowledging that "John and Yoko" was a two-artist collaboration, not just the canvas onto which Lennon projected his mother.
+- The Beatles breakup is glossed. McCartney/Lennon legal warfare 1970-72 is the actual texture of the merging that consumed everything.
+- The "more popular than Jesus" beat is rendered as Lennon's authenticity wound. A critic would point out that the Memphis firecracker terror is also the only place in the piece where a real death threat against him is named — and it's used as a stepping stone to his second wife.
+- May Pang's actual book gets paraphrased but never directly quoted on the abuse-during-Lost-Weekend. The Julian section is the corpus's best engagement with a real victim — the May Pang section ducks it.
+
+PATTERN HITS (DJ tropes that worked here):
+- Type theory used to *implicate*, not excuse. "The peace movement wasn't despite the violence. It was because of it." This is the corpus's strongest example of the Enneagram earning its keep.
+- The "still doing what the child did" image lands because the symmetry (abandoned at five → abandoned Julian at five) is documentable, not metaphorical.
+
+PATTERN MISSES (formulaic):
+- TL;DR + bolded intro paragraph + counter-typing-style evidence list = triple front-loading. By the time you reach the body, you've been told the thesis four times.
+- Contrast-pair "It is not X. It is Y." appears twice — "The peace movement wasn't despite... It was because" (load-bearing, keep) and "Stability is not the same as belonging" (gratis, cut).
+- The fortress metaphor is used twice — "armor" and "fortress of personality" — both inside the same section. Pick one.
+- Single-sentence-paragraphs-stacked: "He was forty. He never got older." / "Then she was gone." / "He was five." Three uses inside the first half is fine. The corpus tic of using it for any emotional beat is starting to show.
+
+CRITIC-ENGAGEMENT: Engages Cynthia's memoir and Julian's published anger but does not name a contemporary critic who has argued Lennon's domestic violence permanently disqualifies the peace anthems — and that argument exists publicly. The piece confronts the violence but does not let an outside voice prosecute it.
+
+CURRENCY (2024-2026 anchor): No. The piece ends in 1980. Given that Julian (now 62) and Yoko (now 92) are both still alive and publicly active, and given the 2023 "Now and Then" AI Beatles release reignited the Lennon-as-canon question, the absence of a current-tense beat is the biggest structural gap.
+
+DEFENSE-COUNSEL CHECK: No. This is the cleanest example in the batch of refusing to use type theory as exoneration. "I was a hitter" stays unredeemed. The "performing fleas" line is allowed to undercut the peace prophet rather than rescue him.
+
+PRIORITY FIXES:
+1. Name Chapman, name December 8, give the murder one specific paragraph before the cut-to-black. The current ending only works for readers who already know the story.
+2. Cut the bullet-list "Personality Type" section. Weave the Rolling Stone "normal thing" quote and McCartney's "priest" quote into the body where they can breathe.
+3. Add a 2024-2026 currency beat — the Now and Then release, or Julian's recent interviews, or the Sean Lennon documentary. The piece needs one anchor in present-tense to feel un-tossed.
+
+============================================================ -->

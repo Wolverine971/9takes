@@ -442,3 +442,59 @@ Her advisers won't say what it's for. The crowds suggest they don't need to.
 Her father pointed at Captain Janeway, then at his daughter. Back and forth. She seems to remember who was watching.
 
 > **Disclaimer:** This analysis of Alexandria Ocasio-Cortez's Enneagram type is speculative, based on publicly available information, and may not reflect her actual personality type.
+
+<!-- ============================================================
+FRESH-EYES ASSESSMENT — 2026-04-29 PASS 2 (Claude cold read)
+============================================================
+
+ONE-LINE VERDICT: The strongest piece in this batch — the Janeway pointing detail and "the Three asks: did we win? The Six asks: did we protect anyone?" Pelosi line are the corpus at full extension; weakened mainly by ducking the most credible right-wing critiques and a few repetitions the prior in-file feedback already flagged.
+
+STRONGEST SECTION: "The Pelosi Dynamic: Type 6 Meets Type 3" — the framework actually does diagnostic work; "did we win? / did we protect anyone?" is the entire blog in one line and the relationship structure justifies the type call without textbook drops.
+WEAKEST SECTION: "Counterarguments: Why Alexandria Ocasio-Cortez Might Not Be Type 6" — the in-file 2026-04-20 review already flagged this as insider baseball; it remains the section that breaks the spell.
+
+STRENGTHS (3-5 bullets, specific):
+- Hook (3AM Weber miscarriage exchange) is dated, specific, character-revealing, pays off the thesis question in four paragraphs — model opening for the corpus.
+- Sergio pointing at Captain Janeway → Kate Mulgrew at the final Bronx rally is the single best small-detail callback in this batch; it makes the entire piece click.
+- "The Lost Decade" (NHI, Brook Avenue Press, Flint/Standing Rock) is the connective biographical tissue most AOC profiles skip and it does structural work.
+- Counter-phobic Six framing explains the pattern (charges what frightens her) instead of just labeling it; this is the corpus's best argument for why type theory earns its keep.
+- The "splits ticket" voter quote ("I voted Trump, but I like you and Bernie") is an unusual, sharp, current piece of evidence.
+
+WEAKNESSES (3-5 bullets, specific — name lines, phrases, sections):
+- Two "It is not X. It is Y." constructions: "It isn't recklessness. It's a survival instinct" and "The courage isn't the absence of fear. It's the decision to act…" — and the "courage isn't absence of fear" formulation appears twice.
+- The Connolly 131-84 vote appears in "The Fence-Mending" AND "What She's Building Next" (in-file feedback already flagged this — still unfixed).
+- The Met Gala "Tax the Rich" gown appears in the rabbit-hole section AND "Price of This Kind of Fight" (in-file feedback flagged — still unfixed).
+- The Riley Roberts paragraph "Type 6s don't need flashy partners. They need reliable ones." is a textbook drop in an otherwise show-don't-tell piece.
+- Bolded micro-thesis sentences mid-paragraph appear constantly (every quote bolded, plus thesis lines bolded) — the bolding loses signal-to-noise by halfway through.
+
+GAPS / MISSED OPPORTUNITIES (3-6 bullets — what a fan/critic would expect that's absent):
+- Israel / Gaza positioning — by far the most defining 2024-2026 fight on her left flank (DSA tensions, the "genocide" language, votes on Iron Dome) — completely absent.
+- The "Squad" itself as a coalition is barely named; her relationships with Tlaib, Omar, Bowman are missing.
+- Her 2020 endorsement of Bernie / strategic vote against Bowman primary opponent — none of the strategic-loyalty calculus that conservatives cite as her actual record.
+- No engagement with the right-flank critique that her policy specifics (Green New Deal cost, Medicare for All math) don't survive scrutiny — the whole "she does the work" claim is asserted rather than tested.
+- Her brief flirtation with the "Squad split" over Biden / "Genocide Joe" / endorsement reluctance — current-tense and absent.
+- $9.6M Q1 2025 fundraising is in the piece but no real engagement with her PAC infrastructure / ActBlue dependency.
+
+PATTERN HITS (DJ tropes that worked here):
+- Childhood-installs-mission structure (medical debt → universal healthcare advocacy) — used precisely; not over-leveraged.
+- The Janeway closing image is the corpus's signature small-detail-as-thesis move at its absolute best — and unlike the "child still doing what child did" closing, this one earns its sentimentality.
+- The "Three asks / Six asks" Pelosi line is the type-lens-as-diagnostic-tool ideal.
+
+PATTERN MISSES (DJ tropes that felt formulaic, recycled, or autopilot here):
+- The "It's not X. It's Y." construction (twice).
+- "The courage isn't the absence of fear. It's the decision to act while fear is screaming" — used twice in slightly different forms (once in "Unfiltered," once in "Price of This Kind of Fight").
+- TL;DR + bolded intro + typing section + rabbit-hole = thesis frontloaded four times.
+- Repetition of the Connolly vote and Met Gala (in-file feedback already flagged — autopilot leaving its tracks).
+- Pelosi gets typed as 3, AOC as 6, in-text neat-binary that risks being Enneagram-by-numbers.
+
+CRITIC-ENGAGEMENT: Names Pelosi's "glass of water" dismissal and lets it land — that's real. Names "criticism from the left" briefly (Jeffries primary). But never names a credible right-wing critic with a substantive policy objection, and the piece treats every conservative attack on her as proof of her power rather than potentially substantive.
+
+CURRENCY (2024-2026 anchor): Strong. May 2025 Weber exchange, March 2025 Schumer "huge slap in the face," Q1 2025 fundraising, June 2025 Iran impeachment line, Fighting Oligarchy tour numbers. Among the most current-anchored pieces in this batch.
+
+PARTISAN TILT: Clearly sympathetic to AOC's frame. Republican antagonists (Weber, Homan, Trump, Cruz indirectly) all appear as foils to be defeated; conservative critiques never land. The Pelosi conflict is the closest the piece comes to internal-Democratic critique, and even that resolves in AOC's favor.
+
+PRIORITY FIXES (numbered, in order of impact — 3 max):
+1. Add Israel/Gaza — this is the defining 2024-2026 left-flank political fight she's part of and skipping it makes the piece feel incomplete to anyone tracking her actual current career.
+2. Execute the in-file feedback that's still unfixed: cut Connolly repeat in "Fence-Mending," collapse Met Gala into the "Price" section, trim the Counterarguments rabbit-hole.
+3. Reduce inline bolding by ~60%; the technique loses force when every quote and every thesis sentence is bolded.
+
+============================================================ -->

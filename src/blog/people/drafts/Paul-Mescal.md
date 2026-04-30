@@ -312,3 +312,55 @@ The `<p class="inner-thought">` paragraph in the Aftersun section is gorgeous an
 The piece has a strong thesis and evidence base. The biggest risk is that it reads as written ABOUT Four-theory FIRST and about Paul Mescal SECOND — the Mescal-literate reader will notice the absence of Phoebe, the chain, the shorts, Streetcar-as-Stanley, and McCartney, and feel the piece pulled its punches on the actual texture of his fame. Fix those and the theory lands harder, because the evidence base gets wider.
 -->
 
+<!-- ============================================================
+FRESH-EYES ASSESSMENT — 2026-04-29 (Claude cold read)
+============================================================
+
+ONE-LINE VERDICT: A literate Type 4 portrait built around one truly excellent insight (the sob he can't turn off) but the prior fresh-eyes reviewer's gap list is still half-unaddressed in this version — Phoebe Bridgers, the silver chain, and Streetcar/Stanley are notably absent in the body.
+
+STRONGEST SECTION: "The tears Paul Mescal cannot turn off" — "I find sobbing hard to stop" reframed as a physiological response Mescal cannot interrupt is genuinely the best Type 4 reading in the piece, and the Joe Alwyn contrast paragraph (Three performing vulnerability vs. Four living inside it) does real type-discrimination work.
+WEAKEST SECTION: "Why Paul Mescal deleted Instagram" — the section quotes him four ways about privacy and never names Phoebe Bridgers. The section as written is correct and incomplete; the elephant is in the room and the piece walks around it.
+
+STRENGTHS:
+- The broken-jaw cold open is specific, falsifiable, and the "two days later he showed up at drama school with his jaw wired shut" detail is exactly the kind of evidence a Type 4 read needs.
+- "He cries real tears because the character is sad and he is, somewhere, sad along with the character. He cannot interrupt it." — the piece's central analytical move, and it earns its weight.
+- "A Four with a 5 wing wants to be seen and wants to not be seen, and the two wants do not resolve. They just take turns" — line of the piece.
+- The Maynooth household reading (artist-father + Garda-mother) is unusually careful — the piece notes that the "templates" are descriptions of two coexisting models, not claims about private life. That restraint is rare in the corpus.
+- Inner-thought tag in the Aftersun section ("the sense — not quite panic, but near enough — of something arriving") earns its weight because the piece has set up the physiology.
+
+WEAKNESSES:
+- Phoebe Bridgers gets one sentence in the Instagram section despite being THE relationship that explains the privacy posture. The previous reviewer's note ("name the silence") is still mostly unanswered.
+- Connell's silver chain is referenced in the Normal People section but the whole "@connellschain" Instagram fan account / Asos 130% jewelry sales spike is the purest "I felt like a commodity" receipt and gets one sentence.
+- Streetcar/Stanley Kowalski is included now (Almeida 2023, Olivier sweep, Brooklyn 2025) but only as a closing-section beat — given that it's the direct counter-evidence to the "sad boy" frame, it should be load-bearing earlier in the piece.
+- "Cannot coexist" thesis still appears at least 3 times: jaw cold open, Mescal's own quote in the jaw section, and "the actor and the man cannot coexist either" in the lede. The previous reviewer flagged this; only one was trimmed.
+- "Fame moves too fast" / "three-panel cartoon strip" is a great frame and is dropped in without unpacking. The reader has to construct the three panels themselves.
+- The closing ("The sob is the job. The privacy is the maintenance. He has not yet figured out how to do both at the same time.") is great BUT immediately followed by a 2028 Beatles paragraph that resets the tonal register. Either the Mendes paragraph closes or the sob/privacy paragraph closes — not both.
+- "It is a Four's sentence" / "A sentence a Four is capable of meaning both halves of, at once, without contradiction" / "That is a Four picking material that hurts him" — three "this is the Four doing X" meta-tags inside narrative paragraphs. The compression doesn't help when the cumulative effect is type-theory marginalia.
+
+GAPS / MISSED OPPORTUNITIES:
+- *History of Sound* (2025 Cannes premiere with Josh O'Connor) is a major recent project that's referenced in the source list but doesn't appear in the body — this is the queer-coded Mescal performance that the Type 4 read could mine for evidence.
+- Andrew Scott / All of Us Strangers gets one paragraph but the on-set / off-screen relationship with Scott (older mentor, openly gay actor, Irish cohort) is exactly the kind of detail that would deepen the 4w5 isolation argument.
+- No engagement with the Saoirse Ronan / Barry Keoghan / Jessie Buckley / Andrew Scott / Cillian Murphy generational Irish-actor cohort — a piece about a Four who feels apart should at least nod to where he sits in his class.
+- *Carmen* (2022) is missing entirely — Mescal's first post-Normal-People film role, and the piece skips from Aftersun to Gladiator II without it.
+- The "shorts discourse" / sex-symbol body politics around him is acknowledged by the prior reviewer and still unaddressed.
+- Critics' counter-argument that Mescal's range is narrow (always melancholy, always opaque) isn't engaged. Streetcar is the answer to that critique but the piece doesn't put the question first.
+- The Beatles film paragraph names the four leads (Mescal/Dickinson/Quinn/Keoghan) but doesn't engage why a private Type 4 said yes to playing the most-photographed musician of the 20th century.
+
+PATTERN HITS (DJ tropes that worked here):
+- The TL;DR bullets are particularly sharp — "Embarrassed by his gift" is the kind of one-line thesis-statement most pieces don't earn.
+- Single italicized embedded quotes work without overload.
+- The 4w5 specification (rather than just "Type 4") is one of the few places in the corpus where a wing distinction is genuinely doing analytical work.
+
+PATTERN MISSES (DJ tropes that felt formulaic, recycled, or autopilot here):
+- "X is the Y" verdict-style closes: "The sob is the job. The privacy is the maintenance" / "Inside the fear of being ordinary is a refusal to be fixed in place" / "The aesthetic is not a pose — it is a ceiling he cannot raise on his own emotional weather." Same noun-pair maxim convention as the Lively piece.
+- "What X taught him" closing recall ("What the GAA taught him... is what the industry is teaching him now") — same convention used in Drake closer and Blake Lively closer.
+- Direct authorial address to the reader ("Read that carefully") inside the Aftersun section — same writing tic appears in Keith Lee ("Pause there.") and feels like the author tapping on the glass.
+- Type-4 stress/growth arrows aren't explicitly named — the piece argues 4w5 dynamics throughout but never identifies the 4→2 stress or 4→1 growth move with evidence. Same gap as Drake.
+
+PRIORITY FIXES:
+1. Name Phoebe Bridgers in the Instagram section in one sentence. The previous reviewer was right: naming the silence is more powerful than performing it. The current sentence ("in 2022 he was reportedly engaged to the musician Phoebe Bridgers") is half-buried.
+2. Promote the Streetcar/Stanley material from the closer to earlier in the piece — it's the direct counter-image to "sad boy" and the reader needs it before the eighth H2 to feel the diagnosis being tested.
+3. Cut "cannot coexist" repetition to two strongest placements. The cold open and one body callback. The closer doesn't need it because it earns the same idea differently.
+
+============================================================ -->
+

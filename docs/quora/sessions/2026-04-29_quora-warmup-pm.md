@@ -16,17 +16,17 @@ Add to today's queue. The AM run (`2026-04-29_quora-warmup.md`) queued 6 fresh a
 
 ### Coverage-map status entering PM (assuming AM 6 all draft → 100% projected)
 
-| Type   | Pre-AM | After AM (projected) | PM priority                                                              |
-| ------ | ------ | -------------------- | ------------------------------------------------------------------------ |
-| Type 1 | 13     | 13                   | Skip                                                                     |
-| Type 2 | 9      | 10                   | Skip — picked AM advice-empathy already                                  |
-| Type 3 | 10     | 10                   | Open — fresh chameleon / image-shift angle if it shows up                |
-| Type 4 | 10     | 10                   | Open — rumination / melancholy-as-identity angle (fresh)                 |
-| Type 5 | 9      | 9                    | **Highest priority** — AM strategy notes flagged: clean entry needed     |
-| Type 6 | 11     | 12                   | Skip unless contrast Q                                                   |
-| Type 7 | 6      | 8                    | Skip — AM already added two                                              |
-| Type 8 | 10     | 11                   | Skip unless contrast Q                                                   |
-| Type 9 | 10     | 11                   | Skip unless fresh angle (security arrow / numbing-as-disappearing)       |
+| Type   | Pre-AM | After AM (projected) | PM priority                                                          |
+| ------ | ------ | -------------------- | -------------------------------------------------------------------- |
+| Type 1 | 13     | 13                   | Skip                                                                 |
+| Type 2 | 9      | 10                   | Skip — picked AM advice-empathy already                              |
+| Type 3 | 10     | 10                   | Open — fresh chameleon / image-shift angle if it shows up            |
+| Type 4 | 10     | 10                   | Open — rumination / melancholy-as-identity angle (fresh)             |
+| Type 5 | 9      | 9                    | **Highest priority** — AM strategy notes flagged: clean entry needed |
+| Type 6 | 11     | 12                   | Skip unless contrast Q                                               |
+| Type 7 | 6      | 8                    | Skip — AM already added two                                          |
+| Type 8 | 10     | 11                   | Skip unless contrast Q                                               |
+| Type 9 | 10     | 11                   | Skip unless fresh angle (security arrow / numbing-as-disappearing)   |
 
 ### Anti-duplication checklist (already covered, queued, drafted, or AM-queued today)
 
@@ -61,13 +61,13 @@ People-pleasing, ghosting, control, never-apologize, victim mentality, codepende
 
 ## Priority Queue
 
-| #   | Question (truncated)                                                                          | Views     | Answers     | Gap | Blog Match | Score | URL                                                                                                                                              |
-| --- | --------------------------------------------------------------------------------------------- | --------- | ----------- | --- | ---------- | ----- | ------------------------------------------------------------------------------------------------------------------------------------------------ |
-| 1   | Why do some people seem so calm in highly stressful situations while others completely fall apart? | Est. 35K+ | Est. 50-110 | Yes | Yes ★      | 93    | https://www.quora.com/Why-do-some-people-seem-so-calm-in-highly-stressful-situations-while-others-completely-fall-apart                          |
-| 2   | Why do some people crave alone time more than others? What is it about their personality?     | Est. 25K+ | Est. 30-80  | Yes | Yes ★      | 92    | https://www.quora.com/Why-do-some-people-crave-alone-time-more-than-others-What-is-it-about-their-personality-that-is-different                  |
-| 3   | Why do some people relive the past over and over in their heads?                              | Est. 30K+ | Est. 40-90  | Yes | Yes        | 88    | https://www.quora.com/Why-do-some-people-relive-the-past-over-and-over-in-their-heads                                                            |
-| 4   | Why are some people so unforgiving and why do some hold grudges while others let things go?    | Est. 25K+ | Est. 30-70  | Yes | Yes        | 85    | https://www.quora.com/Why-are-some-people-so-unforgiving-and-why-do-some-people-hold-grudges-while-others-are-able-to-let-things-go              |
-| 5   | Why do some people seem to agree with everything and shift their opinion constantly?           | Est. 15K+ | Est. 20-50  | Yes | Yes        | 82    | https://www.quora.com/Why-do-some-people-seem-to-agree-with-everything-and-shift-their-opinion-constantly-without-really-committing-to-a-position |
+| #   | Question (truncated)                                                                               | Views     | Answers     | Gap | Blog Match | Score | URL                                                                                                                                               |
+| --- | -------------------------------------------------------------------------------------------------- | --------- | ----------- | --- | ---------- | ----- | ------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1   | Why do some people seem so calm in highly stressful situations while others completely fall apart? | Est. 35K+ | Est. 50-110 | Yes | Yes ★      | 93    | https://www.quora.com/Why-do-some-people-seem-so-calm-in-highly-stressful-situations-while-others-completely-fall-apart                           |
+| 2   | Why do some people crave alone time more than others? What is it about their personality?          | Est. 25K+ | Est. 30-80  | Yes | Yes ★      | 92    | https://www.quora.com/Why-do-some-people-crave-alone-time-more-than-others-What-is-it-about-their-personality-that-is-different                   |
+| 3   | Why do some people relive the past over and over in their heads?                                   | Est. 30K+ | Est. 40-90  | Yes | Yes        | 88    | https://www.quora.com/Why-do-some-people-relive-the-past-over-and-over-in-their-heads                                                             |
+| 4   | Why are some people so unforgiving and why do some hold grudges while others let things go?        | Est. 25K+ | Est. 30-70  | Yes | Yes        | 85    | https://www.quora.com/Why-are-some-people-so-unforgiving-and-why-do-some-people-hold-grudges-while-others-are-able-to-let-things-go               |
+| 5   | Why do some people seem to agree with everything and shift their opinion constantly?               | Est. 15K+ | Est. 20-50  | Yes | Yes        | 82    | https://www.quora.com/Why-do-some-people-seem-to-agree-with-everything-and-shift-their-opinion-constantly-without-really-committing-to-a-position |
 
 ★ = Highest-confidence blog match (direct or near-direct type page hit).
 
@@ -157,51 +157,51 @@ People-pleasing, ghosting, control, never-apologize, victim mentality, codepende
 
 ## Skipped Questions
 
-| Question (truncated)                                                                              | URL                                                                                                                            | Reason                                                                                                                                  |
-| ------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------- |
-| Why do some people just love being sad?                                                          | https://www.quora.com/Why-do-some-people-just-love-being-sad                                                                  | Pure Type 4 melancholy-as-identity — would be the second Type 4 question this session (rumination already queued); save for next session |
-| What causes people to have condescending personalities?                                          | https://www.quora.com/What-causes-people-to-have-condescending-personalities                                                  | Type 5 know-it-all angle — but Type 5 slot taken by alone-time (cleaner gap); save for next Type 1/3/5 fresh angle                       |
-| Why do some people obsess over politics?                                                          | https://www.quora.com/Why-do-some-people-obsess-over-politics                                                                  | Topic-specific framing limits Enneagram structure; reads as political answer not character-structure answer                              |
-| Why do some people remain calm in crises but lose it over small things?                          | https://www.quora.com/Why-do-some-people-remain-calm-in-crises-but-lose-it-over-small-things                                  | Same Enneagram axis as queued #1 (calm vs fall apart) — pick one stress-contrast question per session                                  |
-| Why do some people overshare information about themselves when meeting others for the first time? | https://www.quora.com/Why-do-some-people-overshare-information-about-themselves-when-meeting-others-for-the-first-time         | Multi-type catch-all (Type 4 vulnerability bid / Type 7 enthusiasm / Type 2 connection-rush) — no clean primary engine                  |
-| Why do some people feel nostalgic for moments that never actually happened to them?              | https://www.quora.com/Why-do-some-people-feel-nostalgic-for-moments-that-never-actually-happened-to-them                       | Pure Type 4 fantasy-memory — too narrow framing; would be third Type 4 question this session                                            |
+| Question (truncated)                                                                              | URL                                                                                                                    | Reason                                                                                                                                   |
+| ------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------- |
+| Why do some people just love being sad?                                                           | https://www.quora.com/Why-do-some-people-just-love-being-sad                                                           | Pure Type 4 melancholy-as-identity — would be the second Type 4 question this session (rumination already queued); save for next session |
+| What causes people to have condescending personalities?                                           | https://www.quora.com/What-causes-people-to-have-condescending-personalities                                           | Type 5 know-it-all angle — but Type 5 slot taken by alone-time (cleaner gap); save for next Type 1/3/5 fresh angle                       |
+| Why do some people obsess over politics?                                                          | https://www.quora.com/Why-do-some-people-obsess-over-politics                                                          | Topic-specific framing limits Enneagram structure; reads as political answer not character-structure answer                              |
+| Why do some people remain calm in crises but lose it over small things?                           | https://www.quora.com/Why-do-some-people-remain-calm-in-crises-but-lose-it-over-small-things                           | Same Enneagram axis as queued #1 (calm vs fall apart) — pick one stress-contrast question per session                                    |
+| Why do some people overshare information about themselves when meeting others for the first time? | https://www.quora.com/Why-do-some-people-overshare-information-about-themselves-when-meeting-others-for-the-first-time | Multi-type catch-all (Type 4 vulnerability bid / Type 7 enthusiasm / Type 2 connection-rush) — no clean primary engine                   |
+| Why do some people feel nostalgic for moments that never actually happened to them?               | https://www.quora.com/Why-do-some-people-feel-nostalgic-for-moments-that-never-actually-happened-to-them               | Pure Type 4 fantasy-memory — too narrow framing; would be third Type 4 question this session                                             |
 
 ---
 
 ## Search Coverage Log
 
-| Keyword                                                                                           | Results Scanned | Candidates Flagged |
-| ------------------------------------------------------------------------------------------------- | --------------- | ------------------ |
-| `"why do some people" know it all condescending intellectual arrogance`                           | 10              | 2                  |
-| `"why do some people" need so much alone time after socializing`                                  | 10              | 3                  |
-| `"why do some people" obsess over niche topics expert deeply`                                     | 10              | 1                  |
-| `"why do some people" replay memories ruminate dwell past`                                        | 10              | 2                  |
-| `"why do some people" change personality around different people groups`                          | 7               | 1 (overlap with prior session) |
-| `"why do some people" sad melancholy nostalgic feeling deeply`                                    | 4               | 2                  |
-| `"why do some people" rise to occasion crisis calm under pressure`                                | 10              | 4                  |
-| `"why do some people" overshare while others share nothing private`                               | 9               | 1                  |
-| `"why do some people" go along with everything no opinion preferences`                            | 10              | 2                  |
-| `"why do some people" obsessed with success workaholic achievement driven`                        | 10              | 1                  |
-| `"why do some people" hold grudges forever while others forgive`                                  | 10              | 2                  |
-| `"why do some people" care so much what others think image`                                       | 10              | 0 (overlap)        |
-| `"why do some people" become aggressive when challenged feel attacked`                            | 10              | 1                  |
-| `"why do some people" feel different alien outsider strange world`                                | 9               | 0 (overlap)        |
+| Keyword                                                                    | Results Scanned | Candidates Flagged             |
+| -------------------------------------------------------------------------- | --------------- | ------------------------------ |
+| `"why do some people" know it all condescending intellectual arrogance`    | 10              | 2                              |
+| `"why do some people" need so much alone time after socializing`           | 10              | 3                              |
+| `"why do some people" obsess over niche topics expert deeply`              | 10              | 1                              |
+| `"why do some people" replay memories ruminate dwell past`                 | 10              | 2                              |
+| `"why do some people" change personality around different people groups`   | 7               | 1 (overlap with prior session) |
+| `"why do some people" sad melancholy nostalgic feeling deeply`             | 4               | 2                              |
+| `"why do some people" rise to occasion crisis calm under pressure`         | 10              | 4                              |
+| `"why do some people" overshare while others share nothing private`        | 9               | 1                              |
+| `"why do some people" go along with everything no opinion preferences`     | 10              | 2                              |
+| `"why do some people" obsessed with success workaholic achievement driven` | 10              | 1                              |
+| `"why do some people" hold grudges forever while others forgive`           | 10              | 2                              |
+| `"why do some people" care so much what others think image`                | 10              | 0 (overlap)                    |
+| `"why do some people" become aggressive when challenged feel attacked`     | 10              | 1                              |
+| `"why do some people" feel different alien outsider strange world`         | 9               | 0 (overlap)                    |
 
 ---
 
 ## Type Coverage in Queue
 
-| Enneagram Type | Questions in Queue | Notes                                                                                                                                                   |
-| -------------- | ------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Type 1         | 0.5 (secondary in #4 grudges — moral-ledger angle)                                                                                                                                              |
-| Type 2         | 0.5 (tertiary in #5 agree-with-everything — relational accommodation)                                                                                                                           |
-| Type 3         | 0                  |                                                                                                                                                         |
-| Type 4         | 1 (+secondary)     | "relive past" primary; "grudges" secondary (slight as identity-wound)                                                                                   |
-| Type 5         | 1                  | "crave alone time" — closes AM-flagged Type 5 gap with cleanest possible entry                                                                          |
-| Type 6         | 0 (secondary in #1 stress / #4 grudges — counterphobic and loyalty-breach)                                                                                                                      |
-| Type 7         | 0 (secondary in #4 grudges — let-go pole)                                                                                                                                                       |
-| Type 8         | 0 (secondary in #1 stress — crisis as native environment)                                                                                                                                       |
-| Type 9         | 1 (+secondary)     | "agree with everything" primary; "stress fall apart / let-go" secondary in #1 and #4                                                                    |
+| Enneagram Type | Questions in Queue                                                         | Notes                                                                                |
+| -------------- | -------------------------------------------------------------------------- | ------------------------------------------------------------------------------------ |
+| Type 1         | 0.5 (secondary in #4 grudges — moral-ledger angle)                         |
+| Type 2         | 0.5 (tertiary in #5 agree-with-everything — relational accommodation)      |
+| Type 3         | 0                                                                          |                                                                                      |
+| Type 4         | 1 (+secondary)                                                             | "relive past" primary; "grudges" secondary (slight as identity-wound)                |
+| Type 5         | 1                                                                          | "crave alone time" — closes AM-flagged Type 5 gap with cleanest possible entry       |
+| Type 6         | 0 (secondary in #1 stress / #4 grudges — counterphobic and loyalty-breach) |
+| Type 7         | 0 (secondary in #4 grudges — let-go pole)                                  |
+| Type 8         | 0 (secondary in #1 stress — crisis as native environment)                  |
+| Type 9         | 1 (+secondary)                                                             | "agree with everything" primary; "stress fall apart / let-go" secondary in #1 and #4 |
 
 Net coverage map after this PM session (if all 5 drafted, layered on AM):
 

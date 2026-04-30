@@ -356,3 +356,55 @@ That binary — trusted ally or potential threat — is the signature of a Type 
 The man who builds operating systems for chaos is the one most afraid of it. Every framework is a fortress. Every alliance is a bunker. Every fight is a preemptive strike against a threat only he can see. And the five-year-old who left Cape Town is still running the calculations, still scanning the horizon, still asking the question that Type 6s never stop asking: _What if it all comes apart again?_
 
 > **Disclaimer:** This analysis is based on publicly available information and aims to explore David Sacks's personality through the Enneagram framework. It is not a definitive assessment but an invitation to consider the patterns that shape public figures.
+
+<!-- ============================================================
+FRESH-EYES ASSESSMENT — 2026-04-29 PASS 2 (Claude cold read)
+============================================================
+
+ONE-LINE VERDICT: One of the strongest typing arguments in the corpus — the RNC "order/order/order" hook is a falsifiable single-detail open, the 6-vs-5 distinction is genuinely sharp, and Zenefits/SVB give the type-call multiple stress tests.
+
+STRONGEST SECTION: "The Zenefits Affair: How a 6 Fights" — the dueling press releases, Conrad's "Coups are this man's specialty" reply 8 years later, Paul Graham's "most evil person in Silicon Valley" line, and Sacks's anti-Semitism counter-attack form the cleanest behavioral case study in the blog.
+WEAKEST SECTION: "The Boy from Cape Town" — leans heavily on speculative wiring ("a five-year-old doesn't understand geopolitics. But he understands disruption…") that the blog can't actually source. The Tennis Manager detail is gold but the surrounding paragraphs over-extrapolate.
+
+STRENGTHS (3-5 bullets, specific):
+- The hook is falsifiable and load-bearing: "He said it three times in one sentence. A man obsessed with achievement would have said winning. A man obsessed with power would have said strength." That's a real typing argument from one quote.
+- The explicit 6-vs-5 counter-typing section ("Type 5s do not retreat… Sacks sprints toward the threats") directly addresses the "Rain Man" misread, which is the obvious objection most readers will arrive with.
+- SVB section is the standout stress-mask-slip moment — the libertarian begging Powell/Yellen is a textbook Type 6 image-shift toward 3.
+- "Tennis Manager" yearbook detail and the Marie Antoinette $1.4M party (with the contradiction of demanding privacy then being un-private) are specific, original observations.
+- The Thiel parallel — "Thiel kept a parachute in his office after 9/11. Sacks keeps The Cadence." — is the kind of paired image only DJ would write.
+
+WEAKNESSES (3-5 bullets, specific — name lines, phrases, sections):
+- Counter-typing rule of three appears explicitly: "A Type 3 would shift politics for advancement. A Type 8 would shift for power. A Type 5 would stay on the sidelines and analyze. Sacks shifted because…" — exact Pass 1 trope.
+- "Frameworks aren't curiosity. They're fortifications." appears at least 3 times in slightly different forms ("frameworks as armor," "every system… is an attempt to impose predictability," "every framework is a fortress"). Motif overused.
+- "Rain Man" and "from the outside, [it] looks true" / "from the inside, it's something else entirely" is the exact Pass 1 contrast-pair tic.
+- The "five-year-old who left Cape Town is still running the calculations" closing IS the corpus-autopilot child-still-doing-what-child-did frame.
+- "Two boys who left a country that was coming apart. Two men who spent the next three decades building systems to prevent things from coming apart." — the parallel construction is on the nose.
+
+GAPS / MISSED OPPORTUNITIES (3-6 bullets — what a fan/critic would expect that's absent):
+- The actual record as White House AI/Crypto Czar is invoked but never assessed. Did he succeed? What did the policy look like? What do critics say? Pure title, zero substance.
+- The Trump-Musk DOGE feud is referenced once via Sacks's adjacent White House role but never examined — Sacks loyalty to both is arguably the central late-2025 test of his Type 6.
+- No engagement with the "Sacks-as-Russia-apologist" / Ukraine-skepticism critique that has dogged him since 2022, which is a serious public-pressure point on a counter-phobic 6.
+- The Diversity Myth book gets a half-apology paragraph but no engagement with what specifically he wrote — feels protective rather than diagnostic.
+- The All-In dynamic section uses "riff or riff" (likely a typo or duplicate word) and never asks why the show works as a 4-person dynamic — what does Sacks specifically extract from being the framework guy?
+- Late-2025/2026 specifics on his White House work, AI executive orders, crypto policy — the title keeps showing up but the actual record doesn't.
+
+PATTERN HITS (DJ tropes that worked here):
+- The single-detail typing hook ("order/order/order") is a Pass 1 trope used at full power here — falsifiable, specific, lands the typing argument.
+- The bolded micro-thesis "The man who builds operating systems for chaos is the one most afraid of it" earns its weight because the Zenefits + SVB sections preceded it.
+
+PATTERN MISSES (DJ tropes that felt formulaic, recycled, or autopilot here):
+- The Type 3/8/5 rule-of-three counter-typing.
+- "Threat-scanner, not knowledge-hoarder" / "Counter-phobic, not phobic" / "Loyalist, not Investigator" — bolded contrast-pair tic across the TL;DR and the typing section.
+- Closing "five-year-old who left Cape Town" image is the autopilot childhood-callback.
+
+CRITIC-ENGAGEMENT: Strong on Conrad and Graham — both quoted directly with their actual hostile language preserved. Weak on political critics; the SVB libertarian-hypocrisy criticism is named but reframed protectively as "he was scared," which softens the critic's actual point.
+
+CURRENCY (2024-2026 anchor): Partial — December 2024 White House appointment is referenced; nothing past that. No 2025-2026 specifics on what he's actually done in the role.
+
+PRIORITY FIXES (numbered, in order of impact — 3 max):
+1. Add a 2025-2026 White House beat: name specific policy moves, name 1-2 critics by name, show how the counter-phobic 6 operates with actual federal power (or doesn't). The role is invoked as a credential, not interrogated.
+2. Cut the closing paragraph or replace the "five-year-old who left Cape Town" image — it's the corpus-autopilot childhood-loop ending and undercuts the otherwise sharp typing argument.
+3. Trim the "fortifications" / "fortress" / "perimeter" motif by half — it's load-bearing once but appears 6+ times and reads as autopilot by the closing section.
+
+============================================================ -->
+

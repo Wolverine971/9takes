@@ -280,3 +280,53 @@ Length: piece grew from ~3500 to ~4150 words; net structural pass. Diagnosis sti
 
 -->
 
+<!-- ============================================================
+FRESH-EYES ASSESSMENT — 2026-04-29 (Claude cold read)
+============================================================
+
+ONE-LINE VERDICT: A patient, well-built Type 9 portrait that nails the diagnosis through accumulated evidence rather than dramatic turns — the Razzie-wagon-of-DVDs paired with the next-night Oscar self-deprecation is the structural insight that justifies the whole piece.
+
+STRONGEST SECTION: "Why Sandra Bullock's Oscar Speech Was an Apology" — the Saturday-Razzie-with-DVDs / Sunday-Oscar-where-she-asked-if-she'd-just-worn-them-down pairing is the single best Type 9 evidence move in the corpus, and "Same Type 9 reflex in two different costumes" lands without overexplaining.
+WEAKEST SECTION: "How a German Opera House Taught Sandra Bullock to Disappear" — the developmental brief is well-written but reads as 9-by-checklist ("you learn that adapting is the way you stay"); it's the section most prone to retroactive narrative-building rather than evidence.
+
+STRENGTHS:
+- "She let the recording speak" — the 911-tape-played-in-court / never-appeared-in-person detail is signature, falsifiable, and only DJ would have noticed it as a Type 9 tell
+- "Did I really earn this, or did I just wear you all down?" as the opening line of the Best Actress speech — the entire Type 9 thesis in one self-quoted question
+- The "I'm tired of hiding" closing grammar analysis ("She did not say I want to be heard. She said I am tired of hiding") is the most surgical close in the eight pieces — the diagnosis in syntax
+- The Type 6 counter-reading is engaged and resolved cleanly via the stress arrow — the diagnosis feels earned, not asserted
+- The Bryan Randall "stoic discretion" pull from the family statement is a real piece of evidence, not a vibe — it lets the family's own language do the diagnostic work
+- The cumulative-loss arc (Helga 2000, John 2018, Bryan 2023) gives the grief section a shape most celebrity profiles skip
+
+WEAKNESSES:
+- "She did not X. She did not Y. She did not Z." — the negation cadence is used 3+ times in the Jesse James section and again in the Bryan Randall section; pattern detectable
+- The "A Type 8 would have / A Type 3 would have / A Type 4 would have" type-comparison template is used twice (Jesse James + Bryan Randall) — the second instance is varied to red-carpet imagery (which is good) but it's still the same structural move
+- "She made herself unfindable when the world wanted a piece of her." / "She gets quiet. She gets small. She makes herself impossible to find." / "The instinct to make herself disappear" — the disappearance metaphor is the title, the hook, the diagnosis, three section closes, and the closing — over-lubricated
+- The "Crew members across decades have described her" sentence is exactly the kind of unanchored summary the piece's own internal review flagged — only Keanu's truffles is concrete; the rest leans on undated impressions
+- The disclaimer paragraph after the closing "I'm tired of hiding" beat slightly dilutes the line; the internal review caught this and partial-fixed it but it's still there
+
+GAPS / MISSED OPPORTUNITIES:
+- The Blind Side / Michael Oher post-2023 controversy (his lawsuit alleging the family financially exploited him) is entirely absent — the Oscar she won is from a movie that has since been publicly contested in ways that touch directly on the "she stayed out of the conflict" thesis
+- Nothing on the long-running Matthew McConaughey friendship — they've talked openly about briefly dating, then choosing friendship; that's a 9 anti-conflict pattern in romantic form and would be one beat
+- Louis and Laila as adopted children of color and Bullock's choice to keep them entirely off social media is mentioned in passing but not developed — it's a genuine Type 9 family-fortress beat
+- No engagement with Bird Box discourse beyond "it became a meme" — the piece flags this as the section that could implicitly carry the thesis but then states it explicitly
+- 2025-2026 dating life / current relationships entirely absent — for a piece anchored on "I'm tired of hiding" as the 2026 turn, the absence of any current-tense romantic or social re-emergence beat is a real gap
+- The Practical Magic 2 producing detail is good but undeveloped — what is she actually choosing to be visible about as producer? One concrete creative decision (a casting call, a script note, a public stand) would harden the "visible-as-producer" thesis
+
+PATTERN HITS (DJ tropes that worked here):
+- The TL;DR accordion is tight; "Stress shows up as control" is a real, evidenced behavior
+- "I'm tired of hiding" grammar-analysis closer is the strongest version of the corpus's "X is most afraid of / X's central question" closing structure
+- The Type-6 alternative-hypothesis pressure-test is the right move and is handled cleanly
+
+PATTERN MISSES (DJ tropes that felt formulaic):
+- "She did not X. She did not Y. She did not Z." negation triads — used multiple times across the Jesse James + Bryan Randall sections
+- The "What [Person] Did When [Trauma]" H2 framing ("What Sandra Bullock Did When Jesse James Broke Her in Public") is a recurring DJ structure across Sofia, Coolidge, Shakira — works, but recognizable
+- "It was character. It was also the same instinct that had her whispering in a closet four years later." — the "X is also Y" cadence is a corpus-wide tic, used in every blog
+- The closing pull-quote-as-thesis structure ("I'm tired of hiding" + grammar analysis) is the best version of the corpus device, but the device itself (close on a single quoted line + parse it) is now identifiable as a DJ signature
+
+PRIORITY FIXES:
+1. Engage the Michael Oher / Blind Side controversy. The Oscar she won is from a film whose central charity narrative is now publicly disputed; ducking it makes the entire Oscar section feel dated and weirdly insulated. One paragraph acknowledging "the conflict-avoidant 9 stayed silent through this too" would actually deepen the diagnosis.
+2. Trim "she made herself unfindable / she gets quiet / she makes herself disappear" — the disappearance metaphor is in the title, the hook, three section openings, and the close. Pick three placements; the piece is already long enough to bear the weight.
+3. Add a 2025-2026 specific beat for the "I'm tired of hiding" turn — what has she actually done since CinemaCon? Is she on Instagram now? Has she done a major sit-down? Without one current-tense action, the closing turn is rhetorical instead of evidenced.
+
+============================================================ -->
+

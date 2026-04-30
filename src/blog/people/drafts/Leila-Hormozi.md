@@ -301,3 +301,59 @@ Leila Hormozi is still in the middle of this story. She stepped down as CEO but 
 The question her story leaves you with isn't whether the math will work out. It's what happens to a person who can only rest by calling it strategy.
 
 > **Disclaimer:** This analysis of Leila Hormozi's Enneagram type is speculative, based on publicly available information, and may not reflect her actual personality type.
+
+<!-- ============================================================
+FRESH-EYES ASSESSMENT — 2026-04-29 PASS 4 (Claude cold read)
+============================================================
+
+ONE-LINE VERDICT: A precise, well-sourced Type 3 portrait that earns its read by letting the same woman say "assets" and "bridge" without forcing them to reconcile.
+
+QUALITY-CEILING TIER: TOP
+
+STRONGEST SECTION: "Why Leila Stayed When Alex Lost Everything" — the bridge moment is the literal pivot of the piece, and the analysis does the right thing by calling it 3→6 integration WITHOUT overclaiming. "She had to be her own bridge first" is a line that earns its place.
+WEAKEST SECTION: "How Leila Hormozi Met Alex Hormozi" — the 60-Bumble-dates-as-sales-funnel beat lands, but the section pads it with quotes that drift. "There's really no better time than now because I'm young" is filler.
+
+STRENGTHS (3-5 bullets, specific):
+- "Assets. Bridges. The same woman said both." Strong pivot. The pass-2 finding about letting subjects be partly indictable is honored — the cold quote isn't softened, the warm quote isn't softened, the tension isn't resolved.
+- "Her mother does not appear in Leila's public narrative again. Not in podcasts, not on social media, not in interviews… The omission is its own kind of answer." This is genuinely the kind of close reading the corpus often promises and rarely delivers.
+- "She reframed shame as a performance problem. Not a feeling to process. A bug in the software." Single sharpest type-diagnostic line in this batch.
+- The 5-Minute Rule section — "She doesn't trust spontaneous emotion. She trusts systems." — is an aha. It also avoids the corpus tic of fixing-the-subject; the analysis stays in observer mode.
+- "Even her surrender has a business case." The closer ("what happens to a person who can only rest by calling it strategy") is the kind of cut-to-black the corpus gets right when it doesn't add a CTA.
+
+WEAKNESSES (3-5 bullets, specific — name lines, phrases, sections):
+- "Humiliating. Effective." — three-beat single-syllable triplet, the corpus tic. Used cleanly here, but it's the same beat the corpus uses elsewhere for the same diagnostic function.
+- "Not butterflies. Not chemistry. Recognition." — same triplet construction back-to-back with "Humiliating. Effective." in adjacent sections. Once is character. Twice is a verbal tic.
+- The Type 8 / Type 1 counter-typing section is good but reads as "Counter-typing rule of three" lite — three cleanly-typed beats that follow the corpus's own template. Functional, not original.
+- "Bleeding feet, no complaints. That's not resilience…" wait, that's Charli D'Amelio. In Leila: "Six arrests in eighteen months… One night, police found her passed out on a stranger's deck…" The flat-list-of-falls-into-the-arc shape is recurring across the corpus.
+- "Most Threes hide that gap. Leila names it, then keeps performing anyway." → "Most Threes call it 'drive' and never question the source." The "most Threes / but Leila" construction repeats. Type-plural diagnostic crutch.
+
+GAPS / MISSED OPPORTUNITIES (3-6 bullets):
+- The lay-off-half-the-team beat is presented as Leila teaching from it. No quote from anyone who got laid off. The Acquisition.com workforce critique exists in the wild and the piece doesn't engage it.
+- The uncle's eight-year prison story is set up at the start as a parallel and never developed. The existing meta-comment flagged this exactly.
+- The mother's absence is named beautifully, but only in passing. That's the section the existing meta-comment said could be its own beat. Pass 4 confirms.
+- No named human critic engaged. The "Alex Hormozi's wife" framing is named as misrecognition; no one is quoted making that misrecognition.
+- The Acquisition.com financials ($50M, $200M+, 4,000+ locations, $46.2M sale) are unsourced. The piece otherwise has 15+ inline citations, so the gap stands out.
+- The 4 AM-grind ethos has been critiqued in the wild for years (Hormozi-content as productivity LARP). Engaging that critique would test the Type 3 frame and possibly strengthen it.
+
+PATTERN HITS (DJ tropes that worked here):
+- Number-becomes-person opener works in inverse: the cold "assets" quote opens, then the human emerges. Reverses the trope cleanly.
+- Self-narrative-as-case: "I have to make all of this worth something. My life has to be worth this pain." Quote IS the diagnosis, and the piece names that.
+
+PATTERN MISSES (DJ tropes that felt formulaic, recycled, or autopilot here):
+- "It is not X. It is Y." used: "That's not transaction. That's integration." / "That's not Eight behavior. That's a Three disintegrating…" / "Not casually. Strategically." / "Not butterflies. Not chemistry. Recognition." — at least four hits.
+- Three-beat single-syllable triplet ("Humiliating. Effective.") used twice in close range.
+- "Father modeled X. Mother modeled Y. Subject is the synthesis." template is structurally present: father (rebuilt from zero, presence, "command respect"), mother (alcoholism, suicide attempt), uncle (8-year prison → empire). The synthesis is implied.
+
+CRITIC-ENGAGEMENT: None. The piece is admiring throughout, even at its sharpest. The Type 3 frame holds because the subject has genuinely public ambivalence about it ("I was so concerned with being better all the time…") — but no external critic is named.
+
+CURRENCY (2026 anchor): Yes — January 2026 Fortune interview, January 2026 Threads CEO step-down, "What Rising Reveals" January 2026 blog. Strong currency.
+
+DEFENSE-COUNSEL CHECK: Mild. The "she catches it in one conversation" claim about Alex's dishonest partner reads as defense-by-pattern-recognition without external corroboration. Otherwise the piece holds Leila accountable to her own contradictions (5-minute rule, "self-indulgent shame," friend-audit recursion).
+
+PRIORITY FIXES (numbered, in order of impact — 3 max):
+1. Source the financials. $46.2M sale, $200M+ revenue, 4,000+ locations — at least one citation. The credibility delta is real because the rest of the piece is well-sourced.
+2. Develop the mother's absence as its own short beat (existing meta-comment is right). Pull the line out of "Childhood Trauma" and let it sit alone.
+3. Rotate the triplet construction. "Humiliating. Effective." and "Not butterflies. Not chemistry. Recognition." in adjacent sections is a verbal tic readers will register, even subliminally.
+
+============================================================ -->
+

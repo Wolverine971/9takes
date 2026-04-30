@@ -283,3 +283,54 @@ In his own internal memo to Apple employees announcing the transition, Ternus si
 _"I still plan to be very hands-on."_
 
 The man with the magnifying glass is still holding it. The screw is just bigger now.
+
+<!-- ============================================================
+FRESH-EYES ASSESSMENT — 2026-04-29 (Claude cold read)
+============================================================
+
+ONE-LINE VERDICT: The most timely and structurally disciplined of the nine — a genuinely useful Type 6 read on a person almost no one has profiled — but it leans too hard on a single anecdote (the screw grooves) and the AI / executive-team sections drift into business-press summary.
+
+STRONGEST SECTION: "The 25 grooves that explain John Ternus" — the close read of Ternus's own commencement speech, especially the observation that the story has no external payoff (he never tells us if the supplier re-machined them), is the kind of analytical move most profiles never reach. Best single insight in the piece.
+WEAKEST SECTION: "The operators around the engineer-CEO" — six bullet points of executive bios reads like a Bloomberg cap-table briefing. Necessary context but currently in the wrong register.
+
+STRENGTHS (3-5 bullets, specific):
+- The thesis (the man Apple promoted is the man who said no to its two biggest moonshots) is genuinely counterintuitive and the piece earns it with the Gurman quotes.
+- Virtual Research Systems → Vision Pro skepticism is a perfect Type 6 "past-as-active-data-source" pattern, and the piece sees it cleanly.
+- Refused-private-office-twice as a status signal in Apple culture is sharp and load-bearing.
+- Gurman's "risk-averse and decisive" paradox-resolved-as-Type-6 paragraph is the cleanest framework-application in any of the nine blogs.
+- Penn swimming "all-time letter winner = award for showing up" detail does real diagnostic work without overexplaining.
+
+WEAKNESSES (3-5 bullets, specific — name lines, phrases, sections):
+- The screw-groove anecdote appears in the lead, the "25 grooves" section title, the H2 itself, the diagnostic section, and the closing ("the screw is just bigger now"). Five mentions of one detail.
+- The pull-quote callouts are overused — "Ternus had already failed at VR in the 1990s" and "I was using a magnifying glass..." in the same section is one too many.
+- "The Type 6 ___" appears as analytical filler 9+ times. Same overuse pattern as the Tate and Bale blogs.
+- The "shipped" yes-list is well-curated but the Touch Bar / butterfly keyboard "two real misfires" beat is one sentence — for a piece this concerned with verification, this is the place to sit longer.
+- "Swimmer at the starting block" metaphor used twice (WWDC section and verification framing). Pick one.
+
+GAPS / MISSED OPPORTUNITIES (3-6 bullets — what a fan/critic would expect that's absent):
+- The legitimate critic question (Cameron Rogers' "has he made any hard decisions or solved any hard problems") is named but barely sat with. The piece would be stronger taking that critique seriously for a paragraph.
+- His relationship to Jony Ive's design sensibility — Ternus inherited the post-Ive era of Apple hardware. What does a Type 6 do with the design ghost?
+- The Apple Watch's health-hardware trajectory under his watch is barely engaged. Multiple sensors, FDA approvals, the AFib pivot — that's actual product evidence beyond AirPods-as-hearing-aid.
+- The DOJ antitrust case and the App Store regulatory pressure get a one-line mention. For a Type 6 CEO this is a defining inheritance.
+- No real engagement with the China question — Ternus has run hardware through years of Beijing-Cupertino tension, and the piece skips it.
+- His relationship to Jeff Williams and the COO role transition — for a piece this focused on succession, the Williams retirement is undersold.
+
+PATTERN HITS (DJ tropes that worked here):
+- The "Testimony Ledger" / "Heading Mix Ledger" / "Distribution Ledger" comments at the top show production discipline that's actually visible in the writing — the qualifying quotes are real and well-deployed.
+- TL;DR accordion bullets do compression work without restating the thesis.
+- "What is X's personality type?" required H2 doesn't drag because it leads with the screw-groove anchor.
+- The single-anecdote-as-thesis-carrier (the screw grooves) executed cleanly when it isn't repeated.
+
+PATTERN MISSES (DJ tropes that felt formulaic, recycled, or autopilot here):
+- "That is not [X]. That is [Y]" cadence fires 6+ times — the contrast-pair tic.
+- "Type 6 [verb]" / "6w5 [verb]" used as analytical vocabulary 10+ times.
+- The closing "[concrete object] is just bigger now" — clever once but the whole final line lands as a writerly bow.
+- "What the public sees / What [insiders] describe" contrast-panel is the corpus signature; here it works but it's a known move.
+
+PRIORITY FIXES (numbered, in order of impact — 3 max):
+1. Cut at least two of the screw-groove mentions. The detail is strong; the repetition makes it feel like the only evidence the piece has.
+2. Rewrite "The operators around the engineer-CEO" as 2-3 paragraphs of prose instead of a six-bullet exec list. Right now it reads like reporting embedded in an essay.
+3. Sit with Cameron Rogers' "has he made any hard decisions" critique for a real paragraph. The piece names the steward's-dilemma question but doesn't push on it.
+
+============================================================ -->
+

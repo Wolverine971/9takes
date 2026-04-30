@@ -316,3 +316,56 @@ Not achievement. Not status. Not more billions at the box office. Just engagemen
 She was seven when she stood on a sidewalk in Greenwich Village after a talent agent chose her brother. She went home and stared into a mirror until she could cry on command. More than three decades later, she's the highest-grossing actor on the planet, still working on the same project: feeling something real and not being afraid of it.
 
 > **Disclaimer:** This analysis is speculative based on publicly available information and may not reflect Scarlett Johansson's actual personality type.
+
+<!-- ============================================================
+FRESH-EYES ASSESSMENT — 2026-04-29 PASS 3 (Claude cold read)
+============================================================
+
+ONE-LINE VERDICT: A genuinely good Type 9 portrait whose strongest move — the Disney-vs-OpenAI distinction (institutional anger forgivable, personal violation immovable) — is the corpus's clearest single-blog finding about how anger differentiates by boundary type.
+
+STRONGEST SECTION: "Fighting Only When the Line Is Crossed" — the Disney/OpenAI compare is the rare type-analysis section that genuinely teaches something new about Type 9.
+WEAKEST SECTION: "Disappearing Into Relationships" — the "Type 9s in relationships tend to merge" generic opening is the corpus's type-plural diagnostic crutch in pure form, and the section pivots into Colin Jost too quickly to do the merging-with-Reynolds analysis it sets up.
+
+STRENGTHS (3-5 bullets, specific):
+- The 9:36 PM first-date detail is one of the strongest signature moments in the entire batch — it earns the typing more than any quote could.
+- The talent-agent-passed-her-over-for-her-brother origin scene is specific, narrative, and properly Type-9-fear-of-invisibility shaped.
+- "She's able to convey a lot without saying anything" used as a Type 9 gift is a genuine analytical move, not a stock celebrity compliment.
+- The Eleanor the Great / Dorothy Sloan thread closes a 30-year loop the way a Type 9 would actually close it (slowly, on her own terms, after the worth-asserting was no longer the issue).
+- The "I'm a New York Jew who talks with her hands" + Yad Vashem testimony beat is specific enough to feel earned, not pasted in.
+
+WEAKNESSES (3-5 bullets, specific — name lines, phrases, sections):
+- "She wasn't passive. Her calm is active." — contrast-pair tic, corpus signature.
+- "Direct in the work. Invisible in her personal life. That gap is the whole story." — single-sentence dramatic-paragraph stack into a bolded-thesis sentence (without the bolding). Three sentences doing the work of one.
+- "Type 9s don't rush their major goals." appears twice, as if it's a refrain. Type-plural diagnostic crutch.
+- The Rabbit Hole block is fine but the wing/subtype/connecting-lines section uses "the cleanest tell" / "the surface is calm. The boundary underneath is not soft." — both corpus tics in tight succession.
+- "The seven-year-old staring into the mirror. The same impulse, refined over thirty-five years." — child-still-doing-what-the-child-did closer template.
+
+GAPS / MISSED OPPORTUNITIES (3-6 bullets — what a fan/critic would expect that's absent):
+- No engagement with the Ghost in the Shell whitewashing controversy (2017) — that's the most public moral-criticism moment of her career and the piece skips it entirely.
+- Her 2018 stepping back from the Rub & Tug trans role after backlash is missing. That's a Type 9 boundary moment — first defended, then withdrew — and it's exactly the pattern the piece argues for, with one of her highest-profile examples.
+- No mention of Woody Allen / her continued public defense of him in 2018-2019 amid #MeToo — that's a Type 9 loyalty-over-tribe moment and it's a real piece of evidence, omitted.
+- The Marvel Black Widow body of work as actual creative output — what she did with the role over a decade — is collapsed into the Disney lawsuit beat.
+- Her divorce from Romain Dauriac is reduced to "three marriages" without examining the public custody fight, which was less Type-9-merge and more Type-9-immovable.
+- No mention of her singing career / the Tom Waits covers album, which is a tell about a Type 9 doing exactly the kind of low-pressure side-art that Nines protect.
+
+PATTERN HITS (DJ tropes that worked here):
+- The "shell" image is the rarest case in the corpus where the metaphor is justified — it's her own self-description ("crawled into a dark, cold shell"), not the writer's projection.
+
+PATTERN MISSES (DJ tropes that felt formulaic, recycled, or autopilot here):
+- "Quiet absorption. Internal processing. Wound into craft." — three-fragment incantation. Pass-1 tic.
+- "Disney was institutional. She forgave it. ... OpenAI was personal." Even though this is the strongest paragraph, it's structurally the contrast-pair pushed to maximum.
+- "The kid with jazz hands. The one who wanted everyone to look. And then adolescence hit." — single-sentence-dramatic-paragraph stack.
+- The closing line ("the same project: feeling something real and not being afraid of it") is the corpus's repeating-image-from-the-opener template.
+
+CRITIC-ENGAGEMENT: Mostly absent. Disney's response is quoted ("sad and distressing") but no broader Disney lawsuit critique — and the wider context of her industry-wide silence-on-MeToo or the Allen defense is entirely skipped, which is the only real critic-engagement vector available for her.
+
+CURRENCY (2024-2026 anchor): Yes — Eleanor the Great Cannes 2025, OpenAI Sky May 2024, Jurassic World Rebirth 2025, the 2026 skincare event quote. Properly current.
+
+DEFENSE-COUNSEL CHECK: Yes, soft. The Disney lawsuit is reframed as Type 9 boundary-violation rather than examined as a contract dispute that had legal merits independent of personality. The Allen public defense is the bigger absence.
+
+PRIORITY FIXES (numbered, in order of impact — 3 max):
+1. Engage either Ghost in the Shell or the Allen defense. The piece is built on "she fights only when the line is crossed" — but it skips the two most public moments where critics argued she didn't fight when she should have.
+2. Cut the second instance of "Type 9s don't rush their major goals." Once is enough.
+3. The closing line repeats the mirror-image. Trust the reader — let the Eleanor the Great section be the close, not the seven-year-old loop.
+
+============================================================ -->

@@ -304,3 +304,51 @@ CORRECTED
 
 Distribution + heading mix ledgers updated above to reflect new structure.
 -->
+
+<!-- ============================================================
+FRESH-EYES ASSESSMENT — 2026-04-29 (Claude cold read)
+============================================================
+
+ONE-LINE VERDICT: The strongest Type 6 read in the batch — the "phone call she keeps making" thesis is genuinely original and the thirteen-year-old-on-the-line frame holds across 2,000+ words without slipping into a gimmick.
+
+STRONGEST SECTION: "The phone call she keeps making" — the Gillespie "I don't know how to be that person" reveal lands the entire architecture. "The director can now only be pleasantly surprised" is the diagnostic kicker the rest of the piece has been earning the right to deliver.
+WEAKEST SECTION: "How Milly Alcock handles the Supergirl backlash" — competent but feels like SEO duty. Mixes Scorsese pivot, accent prep, and Vanity Fair quote into one section that wants to be three. The Twitter blockquote at the end of the section is awkwardly formatted and breaks the read.
+
+STRENGTHS:
+- "The thirteen-year-old who called her own agent is still on the line" — a reframe that recasts every interview Alcock has ever given. This is the piece's load-bearing line.
+- The Sapochnik don't-meet-D'Arcy beat is reframed brilliantly — "loyalty by following protocol, which is loyalty in its purest Six form" turns what could be a passive footnote into a Type 6 fingerprint.
+- "Three films about girls who had to cast themselves before anyone else would. Milly did not memorize Annie by accident. She was reading the instruction manual." — childhood-films reading is the kind of biographical interpretation that only works if the writer trusts the reader.
+- Counter-phobic vs phobic framing on Sixes ("She builds her own door at 13. She freezes at 22 when the door actually opens.") — clean Riso-Hudson application that earns its room.
+- The Sirens "second tower" hedge framing is a genuine Type 6 insight that reframes a casting choice as psychological strategy.
+
+WEAKNESSES:
+- "I'm just me" is repeated three times across the close even though the response log says it was trimmed. The "I'm just me" landing reads like the writer fell in love with the line.
+- The pull-quote / inner-thought tag ("Of course. They know. They finally figured it out. I told you.") is doing dramatic work the surrounding prose doesn't earn — the moment is small (a coach being assigned), and the inner-thought tag feels overwrought.
+- "She is not going to become that person. She is going to keep being the kid who picked up the phone..." — closing rhythm is overworked, three sentences saying the same thing in different cadences before the attic image lands.
+- Per the visible distribution ledger, type-theory paragraphs are tracked across the document — this is a tell that the writer is auditing their own formula. That meta-awareness is good for craft but the reader can feel the structure being engineered: every section ends with a 6-shaped diagnostic stinger.
+- "Six" appears as a noun (with capital S) so often it starts to read as branded. By the Supergirl section, "A Six does not face that exposure with bravado. A Six faces it by..." reads like a textbook callout.
+
+GAPS / MISSED OPPORTUNITIES:
+- The Australian-vs-American-accent transition is mentioned but never opened — Alcock has spent years training her voice. What did her dialect coach say? Are there leaked accent slips in early Supergirl footage? This is the most concrete pre-release wound and gets one paragraph.
+- No engagement with House of the Dragon fan grief at the recast — fans were genuinely devastated when Alcock left, and that mourning is part of why she's been "called back" by audiences. The piece treats the recast as her loss only.
+- Her relationship with social media — the sparse Instagram is named once, not interrogated. For a Six in 2026 dealing with a Supergirl rollout, the parasocial pressure is enormous and the blog never makes the reader feel it.
+- No Tim Minchin testimony — Upright was a two-season co-star relationship and Minchin is a prolific public talker. Not having him on record is a missed primary source.
+- The Type 6 stress arrow (to 3 — image-management, performance, achievement-drive) is never named. For a 25-year-old who keeps booking franchise leads while saying "I'm not very good at my job," the 6→3 collapse is a richer read than the counter-phobic/phobic frame alone.
+
+PATTERN HITS (DJ tropes that worked here):
+- The required "What is Milly Alcock's personality type?" H2 with subhead — works because the diagnostic section is short and the body has already been doing the diagnostic work.
+- TL;DR accordion — used here as a structural promise, not a recap.
+- Italicized embedded quote-as-character-voice ("_People like me._") — sparing and lands.
+
+PATTERN MISSES (DJ tropes that felt formulaic):
+- "A Type 3 would have... A Type 8 would have... Alcock did neither." — the same counter-typing structure used in Corenswet, JD Vance, Bert Kreischer, Bobby Lee, and Ilona Maher. Five of eight blogs use the exact same four-beat counter-typing construction. Corpus formula.
+- "That is the Six's whole architecture in one phone call. Concede the doubt. Name the limitation. Hand the authority figure..." — three-clause parallel construction at section landings is showing up in nearly every blog.
+- The closing-image flourish (attic, low ceilings, single window, film posters on the wall) — beautifully written but the writer is now using closing-image flourishes in every closing.
+- HEADING MIX LEDGER, DISTRIBUTION LEDGER, TESTIMONY LEDGER — the meta-tracking is useful internally but suggests the structure has become a managed system. The risk is the work starts feeling engineered.
+
+PRIORITY FIXES:
+1. Cut "I'm just me" from the third-to-last paragraph. The Gillespie call earns one occurrence and the closing line earns the second; the middle restatement is dilution.
+2. Compress the Supergirl backlash section by ~25%. The accent-coach paragraph and the Vanity Fair "weird ownership" blockquote want to be a separate beat; pick one and let the other go.
+3. Open the unsaid: the parasocial Type 6 cost. One paragraph naming what it's like for an anxiety-typed actress to spend 2026 walking into a Supergirl rollout while sober about being a Six. Right now the piece treats the structure as adequate; the structure is barely holding.
+
+============================================================ -->

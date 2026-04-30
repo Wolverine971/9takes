@@ -214,3 +214,57 @@ The Five's bargain was always this: you can understand the world or live in it f
 Now there are children in the house who don't care about the bargain.
 
 > **Disclaimer** This analysis of Malcolm Gladwell's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Malcolm Gladwell.
+
+<!-- ============================================================
+FRESH-EYES ASSESSMENT — 2026-04-29 PASS 3 (Claude cold read)
+============================================================
+
+ONE-LINE VERDICT: A precise, restrained Type-5 read that lets Gladwell's own contradictions do the heavy lifting — but the late-life-fatherhood landing is too tidy and the Sandra Bland section flinches at exactly the moment a Five-style writer should not.
+
+STRONGEST SECTION: "The Pushkin Collapse" — "Jacob gave me the fancy title of president but I'm not an employee and I'm never going to be involved in the day-to-day decision making" landed on 54 employees losing 17 jobs is the rare moment the piece shows the cost of Gladwell's distance instead of admiring it.
+WEAKEST SECTION: "Sandra Bland and the Limits of the Framework" — names the critique, names that he didn't dodge it, but never says whether the framework is actually adequate to her death. The piece punts to "depends on who you ask."
+
+STRENGTHS (3-5 bullets, specific):
+- "Igon Value Problem" / Pinker exchange is reported with both sides intact — rare for a profile that clearly admires the subject.
+- The "preemptive cut" framing for refusing golf and quitting running is the cleanest Five behavioral signature in the batch.
+- The 14th-Street police-stop opener earns the misperception thesis without making it racial-tourism.
+- "Comfort arranged around curiosity. Curiosity arranged around distance" is the corpus-level diagnostic line for Five avarice.
+- The mother-as-private-writer / "wrote the stories she would never tell in public" lineage to the son is well-sourced and resonant.
+
+WEAKNESSES (3-5 bullets, specific — name lines, phrases, sections):
+- The Sandra Bland section says "Whether that's analytical courage or analytical avoidance depends on who you ask — and whether you've ever been pulled over for growing out your hair" — that final clause is the writer flinching from a verdict by deflecting back to the opener's racial framing.
+- "Not cruelty. Conservation." — single-sentence dramatic-paragraph stack and the corpus tic.
+- "He's hunting for the lever, not collecting the facts." — same beat.
+- "He doesn't process pain. He produces it." (this is from Dwayne Johnson, but the same cadence appears here multiple times in compressed form).
+- The 10,000-Hour Meme section ends with "Both are correct — and the gap between them is characteristically Five" — paradox-as-resolution again.
+
+GAPS / MISSED OPPORTUNITIES (3-6 bullets — what a fan/critic would expect that's absent):
+- No engagement with the broader academic critique that Gladwell's framework (Outliers, Tipping Point) doesn't replicate — the replication-crisis-era reassessment is not in the piece.
+- The Joe Paterno / Jerry Sandusky / Penn State chapter from Talking to Strangers is one of the most-criticized sections of his career and doesn't get named.
+- David and Goliath's controversial framing of Northern Ireland conflict is unmentioned.
+- No engagement with his recent Substack / "I was wrong about" content and what he's said in 2024-2025 about his own track record.
+- The MasterClass and audiobook / Audible exclusivity era is missing — that's where Pushkin's bet actually was.
+- His Jamaican / Black-Loyalist family genealogy work (the family-history-as-reverse-engineering project) is unmentioned even though it's the cleanest example of the Five doing personal reckoning through research.
+
+PATTERN HITS (DJ tropes that worked here):
+- The bolded-quote-as-anchor approach works because the quotes are unusually well-chosen ("I zealously guard my cognitive time," "fur-lined rat hole to the next").
+- Bill-Gates / Robert-Greene cross-link as fellow Type-5 architecture is one of the rare counter-typing comparisons that adds rather than substitutes.
+
+PATTERN MISSES (DJ tropes that felt formulaic, recycled, or autopilot here):
+- "It's not a preference. It's a worldview." — contrast-pair "It is not X. It is Y."
+- "Not the absence of self — the fullness of it." (this is from the Hasan blog — same cadence appears here as "Not cruelty. Conservation.")
+- The Type-1 / Type-3 / Type-6 quick-eliminate paragraph is the rule-of-three counter-typing.
+- The "Now there are children in the house who don't care about the bargain" closer is the corpus's "but life kept happening" sentimental landing.
+
+CRITIC-ENGAGEMENT: Above-average for the corpus. Pinker is named and quoted. The "minor genius" / "sciencey lipstick" charges are stated without softening. But the Sandra Bland section is the test the piece partly fails — it acknowledges the critique without taking a position.
+
+CURRENCY (2024-2026 anchor): Weak. The Pushkin layoffs are 2023. Fatherhood and Hudson move are post-2020. There is no specific 2025-2026 anchor — no Revisionist History episode named from this year, no recent book, no current controversy. Feels frozen in 2023.
+
+DEFENSE-COUNSEL CHECK: Yes, soft. Pushkin's failure is reframed as "retreat to the role that requires the least personal expenditure. Not cruelty. Conservation. The same instinct that made him quit running at 15." The Type 5 reading is used to make the firing of 17 people read as a typed inevitability rather than a choice.
+
+PRIORITY FIXES (numbered, in order of impact — 3 max):
+1. The Sandra Bland section needs a verdict, not a deflection. Either say the framework is adequate or say it isn't — the current ending hides behind the reader's identity.
+2. Add a 2024-2026 anchor (Revisionist History recent run, the Audible deal renegotiation, his recent public comments about his own back catalog being wrong about specific things).
+3. Trim the contrast-pair single-sentence paragraphs — "Not cruelty. Conservation." and "Not a preference. A worldview" hit the same tic two paragraphs apart.
+
+============================================================ -->

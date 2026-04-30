@@ -374,3 +374,55 @@ Pete Davidson is still removing his tattoos. Thirty percent done. Another decade
 The man in the chair isn't erasing anymore. He's uncovering.
 
 > **Disclaimer** This analysis of Pete Davidson's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Pete.
+
+<!-- ============================================================
+FRESH-EYES ASSESSMENT — 2026-04-29 PASS 4 (Claude cold read)
+============================================================
+
+ONE-LINE VERDICT: Best of the batch alongside Shawn Ryan — sustained Type 9 architecture, primary-source-heavy (5+ long-form interviews quoted), invented vocabulary that actually sticks ("Furnace Beneath the Floorboards," "stranger in his own photos"), and lets Pete be partly indictable in the relationship-pattern section.
+QUALITY-CEILING TIER: TOP
+
+STRONGEST SECTION: "The Furnace Beneath the Floorboards" — the gut-triad anger reframe (cutting, head-banging, Volcano Room) recontextualizes 20 years of self-destruction. "None of it looks like anger. All of it is." earns the framework.
+WEAKEST SECTION: "The Relationship Pattern" — strong as analysis, but somewhat anchored to Pete's own self-diagnosis (BPD, "intimacy disorder"); could push past his framing to ask what the partners (Kate Beckinsale, Phoebe Dynevor, Chase Sui Wonders, Madelyn Cline, Elsie) might say.
+
+STRENGTHS (3-5 bullets, specific):
+- Tattoo removal opener ($200K, 30%, another decade) earns the entire erasure-vs-presence frame in four paragraphs.
+- Kanye text exchange ("In your wife's bed") gets used as 9w8 mechanism, not just gossip.
+- Volcano Room callback to recontextualize the cutting/head-banging is genuine structural craft.
+- Mother's "biggest fear" quote is the recovery turn that doesn't sentimentalize itself.
+- Counter-typing addresses Type 4 specifically and refutes it precisely ("4s intensify feelings to build identity. Pete numbs his to escape identity.").
+
+WEAKNESSES (3-5 bullets, specific):
+- "He was high when he met Lorne" is reported as a Pete quote without examining what that means about access at SNL.
+- "Pete made exactly two jokes about his father over a 15-year career" — accepts his self-count without verifying.
+- The Peacock/Pesci section is the growth-arrow climax but reads slightly press-kit ("first project Pete has been proud of") — could push back on the timing (project is currency, claim is unverifiable).
+- The pattern of dating women significantly more famous than him (Grande, Kim, Beckinsale) is described as merge but not examined as a status-mechanic — was there ever an offset he benefited from?
+- "Daily ketamine for four years" is a stunning detail used correctly, but the legal/medical context (was it prescribed? recreational?) is unclarified.
+
+GAPS / MISSED OPPORTUNITIES (3-6 bullets):
+- The Hannah Stocking "rude on a podcast" or other minor public-conduct beats are absent — the piece selects the sympathetic framings.
+- BPD diagnosis is treated as fact; the comorbidity / diagnostic-shift questions in mental health discourse aren't engaged.
+- His SNL "Where's the woman who left her baby in the trash" or other punching-down moments aren't catalogued.
+- Stanford tour cancellation (Ariana Grande Twitter aftermath after 2018 Manchester / Pete's Dan Crenshaw joke / "looks like a hit man" controversy) — he's had real critic moments and the piece omits them.
+- Father's actual record at FDNY beyond "200 saved" is undocumented in the piece; the heroism is narrative.
+
+PATTERN HITS:
+- Closing parallel-binary attempted in cleaner form: "The man in the chair isn't erasing anymore. He's uncovering." (echoes opening — earned, not formula).
+- Bolded mid-paragraph thesis fragments are present but restrained.
+- Single-sentence dramatic paragraphs stacked (the SNL "I'm a loser, man." sequences) — earned by Pete's own affect.
+
+PATTERN MISSES:
+- No three-beat triplet.
+- No "father modeled X / mother modeled Y" synthesis (mother gets Type 9 mirror role; father's modeling is necessarily unfinished, which the piece honors).
+- No defense-counsel reframing of substance use — "a 7-year-old can't direct fury at God or al-Qaeda" is structural cause, not exoneration.
+
+CRITIC-ENGAGEMENT: Engages Kanye West directly with full timeline. Engages Pete's own self-criticism heavily. Misses external named critics (Dan Crenshaw, etc.).
+CURRENCY: yes — late-2025 fatherhood (Scottie), 2025 Pesci show, 2024 wellness-center, ongoing tattoo removal.
+DEFENSE-COUNSEL CHECK: Minimal. The piece is unusual in actually letting Pete be partly indictable — the "manipulative conversational loops" passage is the most honest in the batch about a beloved subject's behavior with partners.
+
+PRIORITY FIXES (numbered, 3 max):
+1. Verify or hedge the "exactly two jokes about his father in 15 years" claim — it's load-bearing for the dignity argument.
+2. Add one named external critic Pete actually clashed with (Dan Crenshaw is the obvious one — public, mutual, well-documented). Letting Pete absorb his own critique is necessary but partial.
+3. Apply the Pesci-show framing as growth without claiming it's permanent. "First project he's been proud of" is currency-dependent; one beat of "or so he says now" would future-proof the piece.
+
+============================================================ -->

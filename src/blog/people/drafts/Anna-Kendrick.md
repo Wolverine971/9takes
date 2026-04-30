@@ -197,3 +197,55 @@ Forty years old this year. Tony nominee at twelve. Oscar nominee at twenty-four.
 Three decades of learning she could outrun almost anything by moving a little faster and being a little funnier.
 
 And then one morning, by her own account, she stopped — not to quit, just to let one thing be as heavy as it was, without the bit, without the reframe, without the hedged quote that lets her keep her footing. A Seven's trick is that the show can always go on. The growth is discovering that, sometimes, the braver move is to stand there while the silence lands.
+
+<!-- ============================================================
+FRESH-EYES ASSESSMENT — 2026-04-29 PASS 4 (Claude cold read)
+============================================================
+
+ONE-LINE VERDICT: A genuinely fresh Type 7 reading anchored by a specific opening anecdote (Clooney's invented insecurity → "she took it and ran") and a Wunmi Mosaku line ("You're the evidence") that carries real analytic weight; the abusive-relationship section is the strongest defense-counsel test in the batch and mostly passes.
+QUALITY-CEILING TIER: TOP
+
+STRONGEST SECTION: "The six-year relationship Anna Kendrick couldn't joke her way out of" — frames her staying as the reframe-machine working too well rather than as victimhood, names the specific cognitive trap ("maybe it's a phase, maybe he's going through something").
+WEAKEST SECTION: "How Maine raised a kid who talked her way out of everything" — the brother-as-first-audience setup is fine but generic; "putting on little shows for their parents" doesn't push beyond standard child-of-Maine framing.
+
+STRENGTHS (3-5 bullets, specific):
+- Opening Clooney scene is a single dramatized moment that does double duty as character thesis and Type-7 mechanism diagnosis.
+- The cup-scene self-criticism ("she can see herself rushing the back half of the phrase") is the kind of micro-detail that earns the stress-arrow-to-1 claim instead of asserting it.
+- "She told Dax Shepard it was easier to believe she was the crazy one than to believe her read of reality was correct" — a real quote doing real load-bearing work.
+- Pop-Tart wrappers under the bed as sp/7 evidence is non-obvious and specific.
+- Counter-typing both 6 and 2 in the rabbit hole gives mechanism reasons (Sixes pressure-test alliances; Twos organize around being needed) that aren't just label-trading.
+
+WEAKNESSES (3-5 bullets, specific):
+- "She did not name the partner — she has been publicly careful not to" — the analysis follows her lead and never asks whether the reader benefits from that omission or whether the analysis should test public reporting on the partner's identity.
+- Twilight-as-trauma joke is treated as a Type-7 reframe move; the section never asks whether this kind of "name the dark thing, flip it, keep moving" is actually corrosive when applied to a real ex-partner story too.
+- Aubrey Plaza name-drop is a hyperlink without payload.
+- Alex Edelman mentioned once at the very end as "a quiet new relationship... she has mostly kept off the internet" — no analytic engagement.
+- The "two therapists a week" detail recurs three times; would land harder used once.
+
+GAPS / MISSED OPPORTUNITIES (3-6 bullets):
+- Edgar Wright (Scott Pilgrim) and the sustained collaborator pattern she has — those long-running creative loyalties might be the 6-wing in a more concrete frame than "loyal to a fault."
+- Sexual harassment in early-career Hollywood: she's spoken obliquely about it and the piece doesn't go there.
+- Twilight as ensemble sociology — she's the cast member who consistently differentiated herself; that's worth a sentence beyond the trauma joke.
+- The memoir Scrappy Little Nobody is cited twice but never reviewed as a Type-7 artifact; what's NOT in it would be analytically useful.
+- A Simple Favor is mentioned twice but treated as throwaway; the dynamic with Blake Lively is referenced via cross-link without analysis.
+- Brittany Snow / Rebel Wilson / the Pitch Perfect cast — zero co-star quotes; Wunmi Mosaku is the only on-set voice.
+
+PATTERN HITS:
+- Single-sentence dramatic paragraphs stacked (final section: "Three decades of learning..." / "And then one morning..."). Mild instance.
+
+PATTERN MISSES:
+- Type-plural diagnostic crutch is present ("A Seven does not...", "Sevens do/don't...") but mostly handled with mechanism rather than label.
+- No "child still doing" closer.
+- No "Father modeled X. Mother modeled Y." setup — parents barely figure.
+
+CRITIC-ENGAGEMENT: Soft. Engages no named critic of her work or persona. The closest is the indirect cup-scene self-criticism, which is hers about herself.
+CURRENCY: yes — Woman of the Hour (Oct 2024), Armchair Expert 2023, A Simple Favor 2 (2025), Alex Edelman relationship.
+DEFENSE-COUNSEL CHECK: Mostly clean. The abusive-relationship section is the place this risk would have landed and it doesn't — the analysis is honest that her reframe machine kept her stuck, not that her Type 7 made her victimization noble. The one place defense-counsel logic creeps in: Twilight-as-trauma joke and the Pop-Tart bit are treated as charming Type-7 moves rather than as content that could read as tone-deaf depending on audience.
+
+PRIORITY FIXES (numbered, 3 max):
+1. Develop the Alex Edelman chapter into actual analysis (one paragraph) — currently the piece's quietest current-moment beat is the most hand-waved.
+2. Cut the threefold "two therapists a week" repetition to one mention; the line earns its weight once and dilutes by three.
+3. Engage at least one named co-star/collaborator on what working with her looks like — the piece is structurally Anna-on-Anna, with Wunmi Mosaku as the only outside voice.
+
+============================================================ -->
+

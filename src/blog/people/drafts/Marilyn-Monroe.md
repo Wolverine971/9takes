@@ -279,3 +279,54 @@ She could turn Marilyn Monroe on and off like a light switch. She could fill a r
 The persona was never the problem. The problem was that she built the most magnetic armor in history and then spent her whole life looking for someone she could take it off around. DiMaggio came closest — but only after the marriage was over, when the tests had stopped and all that was left was roses delivered to a crypt three times a week for twenty years. The loyalty she spent her life searching for arrived, finally, in a form she couldn't feel.
 
 > **Disclaimer:** This analysis of Marilyn Monroe's Enneagram type is speculative, based on publicly available information, and may not reflect Marilyn Monroe's actual personality type.
+
+<!-- ============================================================
+FRESH-EYES ASSESSMENT — 2026-04-29 PASS 4 (Claude cold read)
+============================================================
+
+ONE-LINE VERDICT: The cleanest 3-vs-6 alternate-type argument in the corpus, anchored by Monroe's own "Marilyn is a veil" quote, but the loyalty-test frame can flatten three very different relationships into one template, and contemporary-relevance to current revisionist Monroe scholarship is missed.
+QUALITY-CEILING TIER: TOP
+
+STRONGEST SECTION: "What is Marilyn Monroe's personality type?" — the Type 3 vs Type 6 argument, using Monroe's own veil/mirror quotes, is the corpus's exemplar of doing the alternate-type read with primary sources.
+WEAKEST SECTION: "The Voice That Came From Nowhere" — the stutter-becomes-trauma-response argument is striking but unsourced beyond claim ("the speech therapist taught her... the drama coach refined it") and rests on biographical inference more than documented evidence.
+
+STRENGTHS (3-5 bullets, specific):
+- Amy Greene "Do you want to see me become her?" hook is genuinely top-tier, falsifiable, and sets up the veil thesis cleanly.
+- Strasbergs section earns the "they passed the test" line via the inheritance fact + the John Strasberg Thunderbird detail.
+- Payne Whitney section — "I picked up a chair and slammed it through the glass" — uses Monroe's own letter as the load-bearing source.
+- Greenson section names the boundary-violations concretely instead of doctor-as-villain.
+- "The loyalty she spent her life searching for arrived, finally, in a form she couldn't feel" is a strong closer that earns its weight.
+
+WEAKNESSES (3-5 bullets, specific):
+- "She married the protector, then left him for intellectual freedom. She married the intellectual, then discovered..." — counter-typing rule of three / parallel-binary template stack.
+- The "Four Loyalty Tests" structure forces DiMaggio/Miller/Strasbergs/Greenson into the same pattern when their dynamics are quite different.
+- "Sixes are defined by their relationship with trust. They scan for threats. They test loyalty." — type-plural diagnostic crutch.
+- The intro claim "She tested everyone" is restated five times across the piece. Becomes refrain.
+- Miller's brutal "She was destroyed by many things and some of those things are you... glad that it is this lovely girl who you at last killed" quote is dropped without analysis — that is one of the most difficult things any close witness ever said about her, and it floats.
+
+GAPS / MISSED OPPORTUNITIES (3-6 bullets):
+- No engagement with Andrew Dominik's _Blonde_ (2022) and the recent revisionist debate about who owns Monroe's narrative now — major contemporary-relevance miss for a piece labeled 2023-2026.
+- The Charles Casillo, Anthony Summers, Lois Banner biographical schools are entirely absent. The piece quotes Monroe's diary but doesn't engage which biographer's framing it adopts.
+- The Kennedy material is completely absent. Defensible (the piece doesn't want to chase tabloid material), but a Six-loyalty-test analysis that omits her relationship with the most powerful family in America is structurally incomplete.
+- Her actual abortion history / fertility loss is unmentioned despite being central to the Miller marriage's collapse.
+- No engagement with the contemporary critique that Monroe-as-tragic-genius reading flattens her business agency — the production-company section gestures at it but doesn't make it the spine.
+- The MeToo-era reframing of how the studio system treated her sexually is not engaged.
+
+PATTERN HITS:
+- Type-plural diagnostic crutch ("Sixes are defined by", "A Type 3 builds an image and disappears behind it"), parallel-binary closing ("She could turn Marilyn Monroe on and off... and then she could walk down the same street invisible"), single-sentence dramatic paragraphs ("She left.", "She didn't complain. She started a company."), Rabbit-Hole accordion present (good).
+
+PATTERN MISSES:
+- "Father modeled X. Mother modeled Y." template AVOIDED (her father is genuinely absent from her story; her mother's mental illness is treated as inheritance fear, not template).
+- "Child still doing what the child did" — handled honestly.
+
+CRITIC-ENGAGEMENT: Engages institutional critics (the studio system, the medical system, the press) and several named historical figures (Wilder, Miller, both Strasbergs, DiMaggio's friend Brad Dexter). Critics OF Monroe's persona (e.g., the people who reduced her to dumb-blonde shtick) are engaged through her own quotes about being misread.
+CURRENCY (contemporary-relevance): NO. Despite a 2026 lastmod, the piece doesn't engage Blonde (2022), the JFK files release fights, the Marilyn-Monroe-NFT/AI-licensing battles, or the MeToo-era reframings of her studio years. For a historical figure piece labeled "currency = contemporary relevance," this is a real gap.
+DEFENSE-COUNSEL CHECK: Largely held. The piece does NOT redescribe her dependencies (alcohol, barbiturates, Greenson) as Type-6 virtues. But the loyalty-test frame slightly excuses what could be read as her own pattern of pulling people in past their professional limits — Greenson's boundary violations are framed as her testing him, not as his failure.
+
+PRIORITY FIXES (numbered, 3 max):
+1. Add a current-relevance pass: 2-3 sentences engaging Blonde, the JFK files, or the contemporary fight over Monroe's narrative. The lastmod is 2026; the piece reads like 2010.
+2. Sit with the Miller "you killed her" quote for a paragraph instead of dropping it. It's the most uncomfortable line in the source material and the piece flinches.
+3. Either trim the loyalty-test frame to the two relationships that genuinely fit it (DiMaggio, Greenson) or admit that the Strasbergs and Miller are different shapes — Strasbergs were chosen-family adoption, Miller was the failed mind-witness, and those are not the same test.
+
+============================================================ -->
+

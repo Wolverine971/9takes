@@ -332,3 +332,50 @@ Deliberately NOT changed:
 - Trauma-anchor paragraph in Heroin section kept as the pivot into the
   Seven explanation; the new Korean paragraph sits between them.
 -->
+
+<!-- ============================================================
+FRESH-EYES ASSESSMENT — 2026-04-29 (Claude cold read)
+============================================================
+
+ONE-LINE VERDICT: A psychologically honest Type 7 read that takes Bobby Lee seriously as a survivor instead of as a circus act — earns the read because the writer refuses to flinch when Bobby doesn't.
+
+STRONGEST SECTION: "How Bobby Lee Got Sober the First Time" — the CVS at 3 a.m. with the rehab worker who recognizes him is the best single beat in the piece. "The universe handing him a reason to stop running, and Bobby actually stopping" is the kind of line the rest of the blog earns by not over-explaining.
+WEAKEST SECTION: "What is Bobby Lee's Personality Type?" — the diagnostic section is the thinnest in the batch. Two short paragraphs and a therapist quote. Could be stronger.
+
+STRENGTHS:
+- The water bottle to the face cold open is brutal and specific. "His father had never hit him with a bottle. Bobby had simply done something his father might have done, and the only person available to punish him for inheriting his father's temper was Bobby himself." This is the essay's thesis in three sentences.
+- "After the first four, they don't even work" — Bobby's own line is doing the diagnostic work, and the writer trusts it. The Seven's tell, not stated, demonstrated.
+- The "false profit" / false prophet wordplay handled well — flagged as both malapropism and diagnosis without [sic]-ing it to death.
+- Khalyla "broke up and kept broadcasting" beat is the only place in the batch where the writer engages a public-figure relationship as a Type-shaped behavioral experiment, not a biographical detail.
+- The closing — "He smashed a water bottle into his own face for being too much like the man who hit him. Then he got on stage and made a million strangers laugh about it. The hitting is the cost. The laughter is the receipt." — is the cleanest landing in the batch.
+
+WEAKNESSES:
+- "The Seven runs from stillness" / "the inside of his own head is unsurvivable" / "stay one move ahead of pain" — three different formulations of the same Seven engine, three different sections. The writer's response log says these "hit different facets" but on a fresh read, they're the same beat.
+- "The microphone is the one room in his life where the pain has a job" appears, then "the microphone is the one place his brain has ever truly let him stop" appears two paragraphs later. Pick one.
+- "Bobby tells everyone. That is not the behavior of a man who has processed the abuse. That is the behavior of a Seven who has discovered..." — the negate-then-reframe structure ("not X. That is Y.") is a DJ tic and gets used three times in this blog.
+- The Korean-American paragraph is real but feels grafted in — the prose says "the Korean piece is its own thread" and then explicitly bookends what follows as a separate analysis. That self-conscious framing is a tell that the writer was responding to fresh-eyes feedback rather than weaving the angle in organically.
+- The Bad Friends/Santino paragraph names the dynamic but never quotes it. The writer says "watch the show" without giving the reader a single specific exchange. A single Santino reaction or Bobby line would prove the 8-wing thesis instead of asserting it.
+
+GAPS / MISSED OPPORTUNITIES:
+- His standup specials. Bobby has actual specials (Netflix's Dog Pounded, others). For a comedian whose stage work is the original art, no specific bit, opener, or closer is named.
+- The Margaret Cho / All-American Girl detail — Bobby has talked about how his TV breakthrough happened in the wake of the only other Korean-American sitcom to fail spectacularly. That historical context would deepen the immigrant-comedy isolation thread.
+- His sponsor / 12-step relationships — the piece names AA in passing but never names a sponsor or a specific 12-step framework Bobby attributes recovery to. Recovery is asserted, not narrated.
+- Korean-American shame culture and son-of-a-Korean-War-survivor specifics — the father's PTSD framing is implicit but never named. "Korean War survivor with a nervous system that had not been told the war was over" is a great line; the blog could push further.
+- The 7→1 stress arrow (harsh inner critic) is named in the type sections but the only specific manifestation is the water bottle. One more lived-recent example would harden it.
+
+PATTERN HITS (DJ tropes that worked here):
+- TL;DR accordion — efficient four-bullet type summary that doesn't preview the punchlines.
+- Therapist quote as thesis-statement device ("'You used the one defense mechanism that you had to survive, and you turned that into a living'") — earns the room.
+- Bookend (water bottle → "the laughter is the receipt") — closes the loop.
+
+PATTERN MISSES (DJ tropes that felt formulaic):
+- "A Six would have buried it. An Eight would have weaponized it. Bobby, a Seven..." — the four-Type counter-typing construction, identical structure to five other blogs in the batch.
+- "[X] is not [Y]. [X] is [Z]." — used three times. "The Seven is not the 'fun one'. The Seven is the person who learned..."
+- HEADING MIX LEDGER, DISTRIBUTION LEDGER, TESTIMONY LEDGER, RESPONSE LOG — meta-tracking infrastructure is now standard across the batch. Inside-baseball that doesn't render but signals the work has become heavily systematized.
+
+PRIORITY FIXES:
+1. Consolidate the "Seven runs from stillness" / "microphone is the only room" / "false profit fills the void" beats into one. The thesis is repeated four ways across three sections.
+2. Add one specific Bad Friends or stand-up bit. The blog argues Bobby's act demonstrates the 8-wing Seven and never quotes the act. Even thirty words from a specific routine would prove what the section currently asserts.
+3. Tighten the diagnostic section. Two paragraphs and a therapist quote is too thin given the body's evidence load. The "cure as confession" thesis belongs in the diagnostic section, not buried in TigerBelly.
+
+============================================================ -->

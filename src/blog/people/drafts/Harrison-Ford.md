@@ -417,3 +417,51 @@ This is a B+ that could be an A- by (a) adding a proper Indiana Jones beat, (b) 
 
 -->
 
+<!-- ============================================================
+FRESH-EYES ASSESSMENT — 2026-04-29 (Claude cold read)
+============================================================
+
+ONE-LINE VERDICT: A genuinely fine Type 9 portrait that gets the man right and earns the carpentry frame, but is now over-covered — the post-revision draft has so much in it that the central argument has to fight through a lot of biography.
+
+STRONGEST SECTION: "Indiana Jones and the art of playing the reluctant hero" — the "ordinary person in extraordinary circumstances" quote is the cleanest Type 9 casting brief in the corpus, and "I know" as Kershner-rehearsal-not-improvised is the kind of detail that elevates a piece.
+WEAKEST SECTION: "What Harrison Ford sounds like in growth" — the Mathison/Flockhart paragraph reads as a fix-it appended after the fresh-eyes review pointed it out, and the Shrinking material was strong on its own. The added marriage history feels like an editorial concession, not an organic beat.
+
+STRENGTHS:
+- The taxiway "schmuck" cold open is one of the strongest in the corpus — it's a true story, falsifiable, and the whole thesis lives inside it.
+- "I'm a guy who says, 'If the words don't fit my mouth, we've got to change the words.'" — quote stack in the diagnosis section is unusually well-curated; each line earns its slot.
+- The "Lawyer!" reading as 9→6 stress is genuinely sharp and original — most Type 9 reads default to integration; the disintegration arrow gets real evidence here.
+- "Peace is the default, and belonging to two things at once is how you keep the peace" — the half-Irish/half-Jewish paragraph contains the best single line of analysis in the piece.
+- The Blade Runner narration as passive non-compliance is a smart reuse of a familiar story under a Type 9 lens.
+
+WEAKNESSES:
+- Carpentry motif is still overworked despite the prior trim — "Hollywood's Reluctant Carpenter," "carpenter who built a star," "the building a house quote," "the metaphor he uses for his craft," "He's been building a house the whole time," "the house, it turns out, is him." The closer's payoff lands but the runway is too long.
+- "Below the pedestal" is a sharp phrase but the diagnosis section already established the same idea ("staying small keeps the peace") — and the koan paragraph ("empty mind / open heart") gives a third version of the same thought before the reader is 500 words in.
+- "Schmuck" is the lede + the section title — fine — but the "*just* get the plane down" inner-thought callback in the same section recycles the rhythm.
+- The "He closed a lot of doors between 1977 and, roughly, 2023" sentence is a great line that the next paragraph immediately walks back by opening up the Indy section. Either commit to the closure or don't punctuate it.
+- The piece is 4,200+ words and has 9 H2s. Even strong Type 9 readers will skim — and the diagnosis section + carpentry section are doing nearly the same work, so the reader hits the thesis twice before the first scene lands.
+
+GAPS / MISSED OPPORTUNITIES:
+- George Lucas is mentioned once parenthetically — but the Lucas/Ford "you can type this shit, George, but you sure as hell can't say it" story is the canonical Type 9 line in his career and would do real work in the diagnosis or Indy section.
+- No engagement with Ford's notorious on-set grumpiness with co-stars (Kate Capshaw, Anne Heche, Anthony Hopkins anecdotes) — a piece arguing he's a peacemaker should reckon with the working-actor reputation that he is not always pleasant.
+- The piece argues the 8-wing produces the gruff edge, but never gets specific about Ford as a craftsman of physical performance — the limp Han Solo gets in *Empire*, the stunt work in *Raiders*, the way he choreographs his own pratfalls. A 9w8 piece could mine the body more.
+- 1923 / Yellowstone-adjacent late career barely touched — Helen Mirren's quote is used but the show itself isn't engaged.
+- No mention of Ford's politics/silence — he's notoriously apolitical for an actor of his generation, which is itself a 9 trait worth a sentence.
+
+PATTERN HITS (DJ tropes that worked here):
+- "What is X's personality type?" required H2 doesn't read as duty-bound here because it's followed by genuine prose.
+- Quote stack pattern (four Ford lines in a row) actually works because the lines all triangulate the same point.
+- Single-image cold open + image-callback closer is the strongest deployment of this structure in the assigned eight.
+
+PATTERN MISSES (DJ tropes that felt formulaic, recycled, or autopilot here):
+- "X is the same X" cadence: "The reluctance is the same reluctance. The charm is the same charm. The *get me out of this scene* in his eyes is the same look..." — three repetitions in three sentences in the closing.
+- "He picked up X so he could disappear into Y" parallelism: carpentry/lumber, flying/weather, acting/sentences — three identical syntactic units in a row in the close.
+- "The X is the Y" verdict: "The carpentry is the architecture..." / "The metaphor is the architecture..." — formula recurs.
+- "He's not [textbook 9]. He's [specific 9]." — "Not the soft, sleepy 9 from the textbooks. He has an 8 wing, and it shows." Same formula appears in Keith Lee and Robert De Niro drafts.
+
+PRIORITY FIXES:
+1. Trim the carpentry motif one more pass — kill either "He's been building a house the whole time" header or the "the house, it turns out, is him" closer. They cancel each other.
+2. Cut the Mathison/Flockhart "private foundation" paragraph or fold it into one sentence — it currently reads as obligatory, and the Shrinking section was working without it.
+3. Engage one counter-evidence beat: either the on-set difficulty stories or the political silence. The piece is too friendly to its subject; a single grain of friction would harden the diagnosis.
+
+============================================================ -->
+

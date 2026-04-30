@@ -247,3 +247,57 @@ A people who know exactly where they're from.
 She felt everything too loudly as a child. So she found the one profession where feeling everything is the job description. And then she found the one person and the one landscape wild enough to hold everything she doesn't put on screen.
 
 > **Disclaimer:** This analysis of Saoirse Ronan's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Saoirse Ronan.
+
+<!-- ============================================================
+FRESH-EYES ASSESSMENT — 2026-04-29 PASS 3 (Claude cold read)
+============================================================
+
+ONE-LINE VERDICT: A tender, well-crafted Type 4 portrait that earns its read on the addiction-loved-one thread and the Graham Norton scene — but the subject's own privacy works against it: the piece is built mostly on press-tour quotes she has approved, which limits what it can actually claim.
+
+STRONGEST SECTION: "The Addiction Wound She Finally Faced" — the "monster in the corner" frame, the husband-handing-her-the-book detail, and the producing-as-confrontation read are the piece's intellectual peak.
+WEAKEST SECTION: "The Emotional Thread From Carlow to Orkney" — the through-line is real but the section just lists the displaced-character roles in order; tells the reader what they should feel rather than letting the films do it.
+
+STRENGTHS (3-5 bullets, specific):
+- The opening two paragraphs ("There is a woman who can make you feel homesickness for a country you've never visited" / "And then she goes home to rural Ireland, mops the floor, walks her terrier") are the corpus at its most controlled.
+- The Type 4 / Type 9 counter-typing ("A Nine disappears to avoid disruption. A Four disappears to protect what's sacred") is one of the cleanest counter-typing paragraphs in any 9takes blog.
+- The Greta Gerwig collaboration detail (the military jacket for Jo's writing scenes, the costume rotation, the dyed hair as joint decision) is sourced and earns its space.
+- The "crippling fear" with other directors — the admission that the Gerwig partnership is the exception, not the rule — does real psychological work.
+- The Graham Norton scene is the only public-political moment, and it's used carefully — not as advocacy receipts but as type-evidence.
+
+WEAKNESSES (3-5 bullets, specific — name lines, phrases, sections):
+- Sympathy-by-self-conception: the piece accepts her own framing of every life chapter — the migratory-identity quote from Gloria Steinem, the soulmate-mother frame, the curated privacy. Skeptical reads of any of it are absent.
+- Contrast-pair tic appears multiple times: "She doesn't build characters from the outside in" / "It isn't avoidance. It's curation" / "She isn't disappearing. She's drawing the border" / "The performances are generous. The life behind them belongs to her alone" — 5+ instances.
+- The closing image ("a person with too much feeling can finally set it down. Where the wind is so loud it drowns out the noise in your head") is corpus-cliché rural-as-sanctuary closing.
+- "The somewhere real is the point. The craft costs her something. It always has." — single-sentence dramatic paragraph stacked.
+- "Born to immigrants who left Ireland because they had to. She was raised in a rural parish where she didn't quite fit. She built a career playing women who are displaced" — opens with three parallel sentences; closing parallel-binary tic.
+
+GAPS / MISSED OPPORTUNITIES (3-6 bullets — what a fan/critic would expect that's absent):
+- Jack Lowden as a person — co-star, co-creative, the husband who handed her the book — gets one mention. A creative partnership less interesting than the Gerwig one but more central to her actual life.
+- The Wes Anderson collaborations (The French Dispatch, Asteroid City) and what working in his style says about her control-by-form preferences are absent.
+- Career picks the piece could have engaged: the Mary Queen of Scots reception, See How They Run, the Oscar-snub patterns. These are the actual data points fans argue about.
+- The "Four-with-Three-wing" / "Aristocrat" framing is asserted but the Three-wing evidence is thin. What in her behavior reads Three-wing rather than Five-wing or Two-wing?
+- No critic named — no Anthony Lane, no Justin Chang, no Dana Stevens. The film-criticism universe that has actually written most about her is invisible.
+- The childhood addiction wound — she still hasn't named who. Not naming is her right; not noting that the unnaming is itself part of the type signature is a missed read.
+
+PATTERN HITS (DJ tropes that worked here):
+- The opening two-paragraph "depth + disappearing" framing is the model 9takes hook — specific, evocative, thesis-crystallizing.
+- The Graham Norton moment as type-evidence (not advocacy receipts) is well-deployed.
+- The "If more actors experienced that, they'd never want to give it up" producing-quote close to the Year-She-Stopped-Playing-It-Safe is a clean section close that doesn't over-explain.
+
+PATTERN MISSES (DJ tropes that felt formulaic, recycled, or autopilot here):
+- "She decides what the world gets and what stays hers" / "The disappearing isn't avoidance. It's curation" — closing parallel-binary appearing at the close of multiple sections.
+- Type-plural diagnostic crutch is mostly avoided here, which is good — but "A Nine X / A Four Y" structure in the counter-typing graf is still a Type-pair tic.
+- The "rural Ireland as sanctuary" closing image is the cousin of the Yellow Springs / fortress-of-peace tic flagged in pass 2.
+
+CRITIC-ENGAGEMENT: None named. No film critic, no journalist, no interviewer beyond Graham Norton (who isn't critiquing her). This is partly a function of subject choice — Saoirse has very few prosecutorial critics — but the piece doesn't even engage the milder critique that her Oscar-bait career-picks read as Type 3-wing strategic.
+
+CURRENCY (2026 anchor): Mild. The September 2025 first child, the July 2024 Edinburgh wedding, and the 2024 Outrun release are the current beats — but most of the piece is built on the Lady Bird / Brooklyn / Little Women back-catalog. By 2026-04 standards this feels slightly stale.
+
+DEFENSE-COUNSEL CHECK: No major defense moves — this is one of the cleaner blogs in the batch on this dimension. The mild instance: framing the lifelong privacy as "deliberate, almost aggressive act of curation" rather than as the social anxiety / industry-trauma response it might also be. But it's not protecting her from a real failure.
+
+PRIORITY FIXES (numbered, in order of impact — 3 max):
+1. Engage one critical/journalistic voice on her career — not for hostility but to break the press-tour-quote monoculture. The piece reads almost entirely from her own mouth.
+2. Cut at least 3 of the contrast-pair "It's not X, it's Y" lines — they cluster heavily in the privacy and craft sections.
+3. Replace the "Carlow to Orkney" through-line section with one specific scene — the Brooklyn letter-reading, or filming The Outrun on Orkney with the seven lambs. Right now it's a list of role-titles when it could be a scene.
+
+============================================================ -->

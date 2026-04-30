@@ -278,3 +278,53 @@ Still open:
 - A named academic source or contemporary reviewer quote would still strengthen the faith and the Dare to Lead paragraphs if an editor pass wants to go source-verified. Currently leaning on synthesized summary of interviews.
 - Minor redundancy risk around "Ones can always tell you the date" / key-stat block (reference + anchor); acceptable but an editor could tighten further.
 -->
+
+<!-- ============================================================
+FRESH-EYES ASSESSMENT — 2026-04-29 PASS 4 (Claude cold read)
+============================================================
+
+ONE-LINE VERDICT: A genuinely affecting Type-1 portrait that resists self-help-author hagiography in places (sobriety, Heuertz, Spotify) but never lets Brown be partly indictable for the empire-of-vulnerability she built — the academic critics of her work go entirely unnamed.
+QUALITY-CEILING TIER: MIDDLE-TOP (sits at the threshold — defense-counsel framing pulls it down from a clean TOP)
+
+STRONGEST SECTION: "Why her kids got a different childhood" — the Glitter Center / carsickness / swim-meet sequence is the emotional peak and the one place where the Type 1 frame serves the story instead of stamping it.
+WEAKEST SECTION: "What Brené Brown actually teaches" — the book-by-book rundown plus "answer turned out to be: Fortune 500 boardrooms" lands without weighing whether the corporate empire is the ending the work deserved or the ending it was always headed toward.
+
+STRENGTHS (3-5 bullets, specific):
+- "The judge didn't die. It was put to better use." — single-line thesis of unusual durability.
+- The Diana / "It's neither good nor bad. It just is what it is." line is the honest center of the piece.
+- Heuertz + Spotify pairing is concrete and dated. Refuses to grandstand.
+- "Sobriety isn't a limitation. It's a superpower" deployed exactly once, not made into the engine.
+- Steve cameo (Houston pediatrician, married 1994) finally gives the connection-research a marriage to point at.
+
+WEAKNESSES (3-5 bullets, specific):
+- "Ones believe worthiness is earned... Ones can always tell you the date... Ones do this. Quietly, publicly, consistently." — type-plural crutch fires four-plus times.
+- "Perfectionism is the symptom. The actual engine is a moral one" — contrast-pair ("It is not X. It is Y.").
+- "The judge doesn't retire. The judge only changes the subject." — single-syllable triplet rhythm.
+- "It is not vanity. It is survival." — the same pattern, third deployment.
+- The "courtroom" metaphor is repeated five-plus times — courtroom, judge, verdict, on the record. By the closer it has lost edge.
+
+GAPS / MISSED OPPORTUNITIES (3-6 bullets):
+- ZERO engagement with academic critics. Brown's qualitative methodology has been criticized by quant-leaning social scientists; her TED-talk-to-empire trajectory has been critiqued by other shame researchers (e.g., Jessica Tracy's work on shame/guilt distinctions). None named.
+- No engagement with Houston School of Social Work colleagues' actual reception of her work.
+- Spotify section misses that her partial-pause was criticized from BOTH sides — left thought she should fully exit, right thought she was performative. The piece treats it as a clean ethics moment.
+- The Atlantic / NYT columnists who've written critiques of "vulnerability industrial complex" go unmentioned.
+- No examination of who she has and hasn't called out — whether her ethics-walk pattern is consistent across right- and left-coded violators.
+- The Trump-era / political-engagement question (her _Daring Greatly_ / Roosevelt frame) sits unaddressed despite obvious relevance.
+
+PATTERN HITS:
+- Type-plural diagnostic crutch (multiple), contrast-pair ("It is not X. It is Y."), bolded mid-paragraph thesis sentences ("She built the empire by documenting her own refusal to enter it"), single-sentence dramatic paragraphs, "Engaging institutional critics over named human ones" (most reliable autopilot — fires hard here: church, AA culture, perfectionism, "the inner judge" all engaged; named scholars who have critiqued her not engaged).
+
+PATTERN MISSES:
+- "Father modeled X. Mother modeled Y. Subject is the synthesis" template AVOIDED — the cowboy-hat/ACLU parents are presented as conflict, not synthesis-template.
+- "Child still doing what the child did" closer landed honestly via the Diana line.
+
+CRITIC-ENGAGEMENT: Weak. The piece literally cut its critics section ("was editorializing, and I didn't want to fabricate a named critic"). Engages institutional critics (Catholic-coded perfectionism, academic norms) but no living critic of Brown by name.
+CURRENCY: Yes — Spotify Jan 2022, Unlocking Us 2020, Heuertz 2020, but no 2024-26 update on what Brown is doing now.
+DEFENSE-COUNSEL CHECK: Yes. The Spotify-pause is treated as principled action without weighing the obvious argument that not-fully-leaving was a calibrated brand move. The "judge put to better use" framing redescribes the corporate-keynote circuit (Pixar, IBM, Air Force, Gates) as moral evolution rather than asking whether $50K-keynote vulnerability is structurally compromised.
+
+PRIORITY FIXES (numbered, 3 max):
+1. Name at least one academic critic of her methodology or conceptual framework. The piece's refusal to fabricate a critic is honest, but the alternative is research, not silence.
+2. The corporate-empire arc (Dare to Lead → Pixar/IBM/military) needs one indictable sentence. Either the work survives keynote-speaker compromise or the piece should say so.
+3. Trim the courtroom/judge metaphor — five-plus deployments by the close. One central use, two callbacks max.
+
+============================================================ -->

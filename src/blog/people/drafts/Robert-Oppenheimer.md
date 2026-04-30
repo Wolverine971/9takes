@@ -283,3 +283,57 @@ The article is strong on interior psychology and thin on timeline. A reader who 
 
 The Chomsky link near the end feels like a reach. "Some intellectuals who build their lives around meaning and encounter state power..." — that's doing a lot of work to justify an internal link. The closing paragraph is good; that sentence interrupts it.
 -->
+
+<!-- ============================================================
+FRESH-EYES ASSESSMENT — 2026-04-29 PASS 4 (Claude cold read)
+============================================================
+
+ONE-LINE VERDICT: A genuinely strong Type 4 portrait that uses the framework to explain something the standard Oppenheimer narrative cannot — the Truman collision as architectural rather than moral — but it largely sympathy-frames a man complicit in mass civilian death and never closes the contemporary-relevance loop the Nolan moment opens.
+QUALITY-CEILING TIER: TOP
+
+STRONGEST SECTION: "When the System Condemned His Character" — the 1954 hearing as identity annihilation is the moment the Type-4 lens does work no other reading does. The Toni Oppenheimer detail (suicide in 1977, FBI denying her clearance) is the kind of cost-of-1954 specific that elevates the section.
+WEAKEST SECTION: "Trinity and the Identity That Replaced Everything Else" — quotes Frank's "I guess it worked" usefully, but then explains the Gita verse with prose that paraphrases what the verse already says. The Vishnu/Arjuna gloss is correct but pads.
+
+STRENGTHS (3-5 bullets, specific):
+- The Truman / Oppenheimer architectural collision ("Truman made a decision. Oppenheimer became someone") is the cleanest Type-4-vs-Type-not-4 contrast in the corpus.
+- "The cold genius is a performance Oppenheimer learned to give. The Four underneath it never stopped longing" — earns its place by what comes after.
+- Hans Bethe quote ("a good host with his guests") is the rare use of a named scientific peer to do analytic work rather than generic awe.
+- The icehouse Catskills incident is vivid and specific (green paint, naked, locked overnight) and the analysis lets it sit.
+- "Frozen stars" / black holes / Snyder paper detail rescues the physics legacy from the standard bomb-only frame.
+
+WEAKNESSES (3-5 bullets, specific):
+- The Gita verse appears in the opening, the TL;DR, the typing block, and the Trinity section — the existing fresh-eyes-review comment flagged this, and the count is still four; only one passage actually unpacks it.
+- Hiroshima/Nagasaki civilian death is treated almost entirely as a thing that happened to Oppenheimer's identity. The Japanese civilians are structurally absent — they are the trigger for his Four-arc, not subjects of their own.
+- "Truman's framework... was genuinely unavailable to a Four" structurally excuses the limit of his moral processing as architectural.
+- "He committed with everything... he believed... what they were doing would end the war and save lives" — the historiographical debate on whether the bombs were necessary is sidestepped; the piece accepts his stated belief as load-bearing.
+- The Cambridge poisoned-apple incident is hedged ("entered the historical record... archives contain no corroborating document") in a way that protects the analysis from having to engage what would be a deeply non-flattering fact.
+
+GAPS / MISSED OPPORTUNITIES (3-6 bullets):
+- Kitty Oppenheimer is added in this draft (the existing comment flagged her absence) but functions mostly as confirmation of his depth; her own perspective is filtered through his attorney's framing.
+- Toni's suicide is the most devastating fact in the piece and gets a single paragraph; could anchor the article's contemporary stakes.
+- The Nolan film: existing comment correctly noted readers are arriving via the movie. Current draft engages it briefly ("This is the scene Christopher Nolan put at the center of his 2023 film") but doesn't ask whether the movie's framing of him as Greek tragedy is itself a Type-4 sympathy machine.
+- Klaus Fuchs / actual Soviet espionage at Los Alamos: zero mention. The 1954 hearing happened in a context where the FBI's paranoia was tracking real Soviet penetration — that complicates the "his character was condemned" framing.
+- The H-bomb development: the Teller falling-out is told as Teller-villain. Teller's own argument (that thermonuclear deterrence prevented superpower war) is not engaged.
+- The Lewis Strauss vendetta: structurally invisible. American Prometheus / Nolan's film both name him; this article does not.
+
+PATTERN HITS:
+- Type-plural diagnostic crutch ("Fours" as analytic substitute) — counted 9+ instances. "Fours under pressure often surprise people," "Fours when fully engaged," "Fours when something terrible happens to their identity" — heavy.
+- Bolded mid-paragraph thesis ("What the Type 4 lens explains that nothing else does:" / "The 4w5 wing").
+- Single-sentence dramatic paragraphs stacked: "He never found it. And he never stopped trying." / "He was fourteen." / "The suffering had to mean something. It had to."
+- Closing parallel-binary: "Not a villain. Not a hero. A Four — doing what Fours do."
+- "Engaging institutional critics over named humans" — the AEC, the security board, "the system" all engaged; Strauss not named.
+
+PATTERN MISSES:
+- No "child still doing" closer (the close lands on "still reaching" which is structurally similar but earned).
+
+CRITIC-ENGAGEMENT: Mid-tier. Engages Truman as moral foil with his actual quotes, engages Teller's "akin to shunning" framing, names Hans Bethe as character witness. Could go further on Strauss, Fuchs context, and the historians who argue the bomb's necessity is contested.
+CURRENCY: Partial. Names the 2022 DOE clearance vacatur as a contemporary marker. The 2023 Nolan film gets one sentence. The contemporary AI-as-Manhattan-Project parallel that powers half the pop-Oppenheimer discourse in 2024-2026 is structurally absent.
+DEFENSE-COUNSEL CHECK: Yes, structurally. The piece is sympathetic to Oppenheimer's interior life as the central fact about the bomb, which makes the bomb a thing that happened to his identity. "Truman called him a 'cry-baby scientist'... He was simply reading from a different architecture" — the architecture frame functionally pre-acquits him of the criticism Truman is making. The mass civilian death of Hiroshima/Nagasaki is treated as the wound he carried, not as a wound he caused.
+
+PRIORITY FIXES (numbered, 3 max):
+1. Cut at least 2 of the 4 "I am become Death" appearances; the Trinity unpacking is the only one that pays.
+2. Bring the contemporary stakes into the close — either AI-Manhattan-Project parallels or the 2022 DOE vacatur as the loop-closing moment. Right now the piece is a beautifully crafted historical portrait that doesn't tell the 2026 reader what the analysis lets them see.
+3. Engage the historiographical question on whether the bombs were militarily necessary for one paragraph; right now the article accepts his belief that they were as load-bearing without testing it. That's the deepest defense-counsel beat.
+
+============================================================ -->
+

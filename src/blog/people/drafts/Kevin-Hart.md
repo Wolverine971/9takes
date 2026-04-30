@@ -226,3 +226,56 @@ He's still getting up before dawn. Still booking the next tour. Still feeding th
 But he knows their names now. And the sound that changed him — after thirty years of sold-out arenas — was no sound at all.
 
 > **Disclaimer** This analysis of Kevin Hart's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Kevin Hart.
+
+<!-- ============================================================
+FRESH-EYES ASSESSMENT — 2026-04-29 PASS 3 (Claude cold read)
+============================================================
+
+ONE-LINE VERDICT: A strong, restrained Hart portrait whose two best moves — "Am I supposed to be crying?" as the whole thesis in one sentence, and the 4 AM gym / refusal-of-pain-meds as Type 7 stress-arrow-to-1 evidence — make this one of the better pieces in the batch despite Type 3 counter-typing absence the existing comment block already flagged.
+
+STRONGEST SECTION: "4 AM" — refusing pain medication because his father was a crack addict is the most precise piece of stress-arrow-to-1 evidence I've seen in the corpus. Moral absolutism made physical.
+WEAKEST SECTION: "What is Kevin Hart's Personality Type?" — the section opens with type boilerplate and never quite recovers; the Chappelle "if survival had a mascot" quote is the only Hart-specific content.
+
+STRENGTHS (3-5 bullets, specific):
+- The "Am I supposed to be crying?" mother's-deathbed quote is the highest-leverage single quote in this batch — a comedy professional who reads emotion for a living unable to identify his own grief.
+- The Nancy-collected-clippings detail ("The mother who taught him to keep moving made her death the ultimate reason to never stop") is the rare emotional twist that earns its placement.
+- Henry Witherspoon's death (Oct 2022) plus the Heaven/Hendrix/Kenzo/Kaori specificity grounds the fatherhood section in actual children, not abstraction.
+- The Eniko phone-during-breakfast moment ("everything's on Instagram") is concrete and properly disclosed — not laundered into Type 7 escape pattern as excuse.
+- "Monsters" cataloged by name (Control / Approval / Comparison / Do It All) is a rare case where the subject's own self-analysis gets used without being either fully accepted or dismissed.
+
+WEAKNESSES (3-5 bullets, specific — name lines, phrases, sections):
+- "Pain arrives. He turns it into material. His father's crack addiction became a set. His divorce became a special. His near-fatal car accident became the turning point." — single-sentence-dramatic-paragraph stack into laundry-list-as-evidence.
+- "The tears, then the pivot. The feeling, then the flight." — twin parallel-clause aphorism in tightest form.
+- "He named his monsters. Catalogued them in a book. Control. Approval. Comparison. Do It All." — fragment incantation, plus then-restated in the actual section. Same content twice.
+- "Every laugh was a transaction: pain in, connection out." — bolded-thesis-mid-paragraph in casual form.
+- The "Black-and-white rules. Moral absolutes." rhythm in the type-section is the corpus's rule-of-three negation tic.
+
+GAPS / MISSED OPPORTUNITIES (3-6 bullets — what a fan/critic would expect that's absent):
+- The 2019 Oscar hosting controversy (anti-LGBT tweets resurfacing, his withdrawal, the "I refuse to apologize" Joe Rogan moment) is entirely absent. That's the single most public Type-7-resistance-to-being-trapped-in-pain event of his life and the piece skips it.
+- No engagement with his actual stand-up content output post-2019. What he's done on stage in 2024-2025 is missing.
+- The Mo'Nique / Black female comedians critique of him is missing. Mo'Nique specifically said Hart's empire was built on excluding people like her — that's a real criticism with real moral weight, omitted.
+- The Plastic Cup Boyz, his crew of comedians he travels with — that's a Type 7 social-instinct-as-protective-bubble pattern that fits the typing perfectly and is ignored.
+- His film output (Jumanji, Central Intelligence, Ride Along) is collapsed under "the empire" without examining whether the films themselves did anything beyond brand-extension.
+- Dwayne Johnson is in his suggestions list but their actual partnership / the "DJ Pranks Kevin" content economy is not analyzed as Type-7-pleasure-architecture.
+
+PATTERN HITS (DJ tropes that worked here):
+- The cut-to-black closing image ("the sound that changed him... was no sound at all") is the corpus's strongest single-line landing that doesn't undo itself with an explainer.
+
+PATTERN MISSES (DJ tropes that felt formulaic, recycled, or autopilot here):
+- The opener's "feels then flight / tears then pivot" parallel-clause is the same shape as four other corpus blogs.
+- "He's still getting up before dawn. Still booking the next tour. Still feeding them." — three single-sentence dramatic paragraph fragments stacked. Pass-1 signature.
+- "Not success. Not ambition. _Survival._" rule-of-three negation, with italicized one-word-paragraph payoff.
+- The closing image (knows their names now, still feeding them) is the child-still-doing-what-the-child-did template, with the Type 7 wrinkle that he can name them now.
+
+CRITIC-ENGAGEMENT: Almost entirely absent. The 2019 Oscar withdrawal, the Mo'Nique critique, the criticism of his Apple+ doc and Netflix specials by Black critics — none surfaced. The piece treats Hart as a man who only ever fought himself.
+
+CURRENCY (2024-2026 anchor): Yes — March 2024 Mark Twain Prize, 2025 Eniko nine-year mark, 2022 Henry Witherspoon death. The Mark Twain ceremony is the temporal anchor and it lands.
+
+DEFENSE-COUNSEL CHECK: Yes. The cheating-on-Eniko section is the cleanest defense-counsel pass in the batch — "Under pressure, the man who fears pain seeks immediate pleasure" reframes the moral failure as Type 7 wiring. The line "It works until it doesn't. Until the person you love is crying at breakfast because your escape became her humiliation" is good, but the analysis surrounding it positions the cheating as type-determined behavior.
+
+PRIORITY FIXES (numbered, in order of impact — 3 max):
+1. The existing comment block already flagged the absent Type 3 counter-typing. Address it. The bigger absence, though, is the 2019 Oscar withdrawal — that's the missing pillar.
+2. Engage Mo'Nique's specific critique of him. A piece that names "his monsters" but skips his named adult critic is choosing the safer typing exercise.
+3. Trim the rhythmic openers. The "tears then pivot / feeling then flight" + "feel-flight / pain-pivot" doublet is doing two beats that should be one.
+
+============================================================ -->

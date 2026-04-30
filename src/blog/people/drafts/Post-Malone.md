@@ -276,3 +276,59 @@ The same man who tattooed his face because he couldn't stand to look at it becam
 ---
 
 > **Disclaimer:** This analysis of Post Malone's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Post Malone.
+
+<!-- ============================================================
+FRESH-EYES ASSESSMENT — 2026-04-29 PASS 3 (Claude cold read)
+============================================================
+
+ONE-LINE VERDICT: A psychologically thoughtful read of an artist most pieces flatten into "chill country-pop guy" — but the closer doesn't land where the body of the piece earned the right to land.
+
+STRONGEST SECTION: "The Floor" — the Twelve Carat Toothache fight with Republic Records and the "Euthanasia" lyric ("I should crack one open / To celebrate bein' clean") is the section where the typing actually works as analysis instead of as a frame.
+WEAKEST SECTION: "The Halftime Show" — it tries to be the closer, but it stuffs Thanksgiving + the Nirvana SNL anniversary + Frances Bean permission + Grammy stats + 2026 tour into one section and ends up feeling like a press kit.
+
+STRENGTHS (3-5 bullets, specific):
+- The "He'd merged so completely with everyone else's expectations that the person inside had gone quiet" line is the cleanest articulation of Nine self-forgetting in this batch.
+- The face-tattoos-as-cover reframe ("tattoos are paradoxical… they make him stand out while functioning as a place to hide") is original and grounded in his GQ quote.
+- The Hee Sung "Jamie" Park drunk-proposal-rejected story is a humanizing detail most profiles skip.
+- The Nirvana / Frances Bean permission story actually shows the type doing real work — asking before taking is Nine-coded.
+- "Numbing agent changed forms — from drowning sadness to managing stage fright" is precise and avoids the redemption-arc cliché.
+
+WEAKNESSES (3-5 bullets, specific — name lines, phrases, sections):
+- The cot-at-Texas-Stadium / halftime-at-AT&T frame is set up as the engine of the piece in the opener but the body never returns to it until the final section, which itself isn't really about the cot at all.
+- "It's a perfect full-circle story. Except the circle isn't really about success." — the immediate pivot away from the frame you just built is the corpus's "Both X and Y are true" tic in disguise.
+- "Anger as Love Language" / "The Anger Nobody Sees" — section title in the body uses "Anger as Love Language" but that exact phrase never gets developed; the closest is "Type 9 sits in the body triad of the Enneagram — the anger center" which is type-theory exposition, not insight.
+- The italicized "I'm not angry. I'm fine. I'm chill. I just need another beer and I'll be fine." is a manufactured inner-monologue that reads as a writer's invention rather than something Post would think.
+- The stat-card row ("55 lbs," "30,000 fans") feels Buzzfeed-y in a piece that's otherwise prose-driven.
+
+GAPS / MISSED OPPORTUNITIES (3-6 bullets — what a fan/critic would expect that's absent):
+- No engagement with the cultural-appropriation / "culture vulture" critique beyond the 2017 Poland quote — that lawsuit-of-public-opinion has followed him for almost a decade and the piece exits it within one section.
+- No engagement with the country pivot's reception inside Nashville — _F-1 Trillion_ was both embraced and skeptically eyed, and the piece doesn't surface a single skeptical voice.
+- The Stoney era and the Bud Light era barely register; the writing assumes the reader already knows the discography.
+- The opioid / Xanax era specifically gets glossed under "drinking" — but the 2018 plane scare and the heavy-pill years are part of the same numbing story and the piece picks alcohol because alcohol fits the Nine narrative cleaner.
+- No mention of Hailey Baldwin / Justin Bieber connection or the early-career proximity to the Bieber camp, which shaped his pop instincts and is genuinely under-discussed.
+- The custody dispute with Jamie ("navigated a custody dispute across two states, settled it privately") is a one-sentence brush-off where a Nine-locked-in-quiet-conflict beat could have lived.
+
+PATTERN HITS (DJ tropes that worked here):
+- Sub-quote tagging via source-cards is restrained here.
+- The Nine-merging-into-genre framework actually maps cleanly to the Ozzy/Nashville/Swae Lee discography rather than feeling shoehorned.
+
+PATTERN MISSES (DJ tropes that felt formulaic, recycled, or autopilot here):
+- "Most people see Post Malone and think: laid-back guy, genre-fluid, good vibes. But what looks like chill is something else entirely." — pure contrast-pair "It is not X. It is Y."
+- "Not strategy. Personality." — same tic in compressed form, same blog.
+- "Not bravado. Not rebellion. Cover." — three-beat negation, again.
+- "Not the absence of self — the fullness of it." — same structure four times in one blog.
+- The ending pivots on "the question now is whether…" which is the corpus's open-question closer that substitutes for landing on a scene.
+- The fortress/cocoon/armor metaphor lives here too: "armor works in one direction" / "covers a face he can't stand to look at."
+
+CRITIC-ENGAGEMENT: Soft. The "culture vulture" beat names Complex's headline and Hasan-style backlash but treats the controversy as a one-time eruption that "disappeared" — never engages whether the critique was correct.
+
+CURRENCY (2024-2026 anchor): Yes — November 2025 halftime show, _F-1 Trillion_ tour with Jelly Roll into 2025-2026, SNL 50 Nirvana reunion, Posty's Nashville opening. Strong currency.
+
+DEFENSE-COUNSEL CHECK: Mild. The label-fight section ("Republic Records allegedly delayed his fourth album, pressuring him to add more tracks") frames Post as victim of the system without sourcing the allegation past Dre London's Instagram. The Nine type then explains the silence as "drawing a line for once" — which lets him off the hook for the years he didn't.
+
+PRIORITY FIXES (numbered, in order of impact — 3 max):
+1. Cut three of the four contrast-pair negations. They pile up and start to read like the writer's signature instead of insight.
+2. Either pay off the cot/Texas Stadium frame at the close or open with a different image — right now the frame is set, abandoned, and never returned to with weight.
+3. Engage the culture-vulture critique for real — name a credible critic, summarize the strongest version of their argument, and then say what you actually think. The piece currently treats the controversy as a wound he had, not as a question that may still be live.
+
+============================================================ -->

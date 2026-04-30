@@ -362,3 +362,61 @@ The guitar at twelve. The characters at twenty-five. The paintings at sixty.
 He became famous by disappearing. The question is whether he's finally arriving — or whether the disappearing was always the point.
 
 > **Disclaimer:** This analysis of Johnny Depp's Enneagram type is speculative, based on publicly available information, and may not reflect his actual personality type.
+
+<!-- ============================================================
+FRESH-EYES ASSESSMENT — 2026-04-29 PASS 4 (Claude cold read)
+============================================================
+
+ONE-LINE VERDICT: Beautifully written, evidence-rich Type 4 portrait — and the most defense-counsel piece in the batch. The Heard trial gets reframed as Type 4 truth-telling and the actual evidentiary record (mutual abuse findings, the UK ruling, Heard's own injuries) is essentially absent.
+QUALITY-CEILING TIER: TOP for craft / MIDDLE for ethics
+
+STRONGEST SECTION: "The First Locked Door" — the guitar-as-sanctuary thesis carries from age 12 through Hollywood Vampires to Jeff Beck's deathbed. Sustained, specific, earned.
+WEAKEST SECTION: "I Knew I'd Have to Semi-Eviscerate Myself" — the Heard trial is presented through Depp's framing only. No mention of the 2020 UK ruling that found 12 of 14 alleged assaults occurred, no mention of Heard's $2M counterclaim being valid (defamation found mutually), no mention of the audio recordings of Depp himself.
+
+STRENGTHS (3-5 bullets, specific):
+- "Papa was out the window. I was Dad" hook is genuinely moving and structurally load-bearing.
+- "WINONA FOREVER" → "WINO FOREVER" interpretation as edited grief, not erased grief, is precise.
+- Burton's "He's more like Lon Chaney or Boris Karloff than Alan Ladd" quote is the structural axis.
+- "I am ashamed" courtroom moment is named and the analysis correctly identifies it as costly.
+- Counter-typing in Rabbit Hole addresses Type 7 ("My use of substances is to numb myself, not to party") and Type 9 directly.
+
+WEAKNESSES (3-5 bullets, specific):
+- The trial framing ("If I don't try to represent the truth...") is presented without the counter-evidence that complicated the verdict.
+- Heard's $2M counterclaim award (the jury found Depp's lawyer's statement defamatory toward HER) is omitted entirely.
+- The 2020 UK ruling — where a judge found Heard's allegations "substantially true" — is not mentioned.
+- The recorded audio of Depp himself screaming, the texts about wanting to drown her — used in court but not engaged here as anything but "ugly references" he was "ashamed" of.
+- "Whatever you think about the spectacle, that motivation is coherent" — this is the soft-attribution loophole that lets the piece avoid taking a position.
+
+GAPS / MISSED OPPORTUNITIES (3-6 bullets):
+- Lily-Rose Depp's public statements about the trial / her father are absent.
+- The City of Lies / Hollywood Vampires lawsuits and his other late-2010s litigation are absent.
+- The Vanessa Paradis testimony is treated as character-witness, not interrogated for what an ex-partner-with-shared-children might be motivated to say.
+- The Modigliani parallel ("loved too late") is gorgeous prose but elides that Depp is a 60-year-old man with multiple ongoing high-grossing comebacks — he is not, in fact, being loved too late.
+- The amber heard-as-rescue-merge framing ("see some sadness, you feel you can help that person") is the Type 4 pattern correctly named, but the relationship's mutual-harm record is missing.
+
+PATTERN HITS:
+- "Father modeled X / Mother modeled Y" synthesis present in the abuse section (mother's violence + father's absence = Depp's escape architecture).
+- Closing parallel-binary attempted with "finally arriving — or whether the disappearing was always the point."
+- Bolded thesis sentences are restrained.
+- Single-sentence dramatic paragraphs stacked at the open ("Most people hear that and shrug. Depp says it like it _hurt_.").
+
+PATTERN MISSES:
+- No three-beat triplet.
+- No "child still doing" closer (Modigliani painting eyes is a substitute and works).
+- No type-plural diagnostic crutch.
+- Counter-typing is rule-of-two (7 then 9) — restrained.
+
+CRITIC-ENGAGEMENT: Engages Maslin (positively) and the trial coverage abstractly. NO named critic of Depp's behavior is engaged. The IPV question is engaged only through Depp's own "I am ashamed" framing.
+CURRENCY: yes — Modi (2024 directing), Oct 2024 painting exhibition, 2025 Sunday Times.
+DEFENSE-COUNSEL CHECK: YES — most clearly in the batch. The Type 4 framework excuses or aestheticizes:
+  (a) The Heard trial is recast as Type 4 truth-telling rather than as a celebrity using a defamation suit to relitigate an abusive relationship after losing the UK case.
+  (b) "He doesn't deflect" when ugly texts read aloud — but he DID deflect on the audio recordings of himself, and that's not engaged.
+  (c) The "rescue merge" framing romanticizes both the Ryder and Heard relationships into Type 4 patterns rather than as discrete relationships with their own dynamics.
+  (d) The Modigliani "loved too late" frame frames Depp as the misunderstood artist rather than as a multi-millionaire with sustained career access.
+
+PRIORITY FIXES (numbered, 3 max):
+1. Mention the 2020 UK ruling. The Virginia trial is not the only judicial finding on this relationship. A defamation outcome and a fact-finding on abuse are different things; the piece treats them as if they're the same.
+2. Mention Heard's $2M counterclaim award. The jury found Depp's side ALSO defamed her. The piece's framing ("the jury awarded Depp $10.35M and Heard $2M on her counterclaim") technically does this in one clause, but doesn't unpack what it means.
+3. Engage the audio recordings (Depp's voice, his own screaming, the kitchen-cabinet incident). The piece quotes the texts he was "ashamed" of; it has space for the audio.
+
+============================================================ -->

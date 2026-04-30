@@ -237,3 +237,56 @@ The fun challenge. That's the Seven in four words. Making heaviness light is how
 "Be silly," he told the Penn State audience in his final piece of advice, "but do it like you really mean it."
 
 He means it. He has always meant it. The silliness was never a pose. It was the most serious thing he ever did.
+
+<!-- ============================================================
+FRESH-EYES ASSESSMENT — 2026-04-29 PASS 4 (Claude cold read)
+============================================================
+
+ONE-LINE VERDICT: Tight, well-observed Type 7 portrait built on one killer detail (Christmas TV scene) and one killer mechanism quote ("get some of the stuff about my dad in there so I can stop talking about it on stage") — undermined by encyclopedia-prose in the Holmes/Stuck section.
+QUALITY-CEILING TIER: TOP
+
+STRONGEST SECTION: "How Hearon Got Funny (And Why It Saved His Life)" + the father-material Type-7-mechanism section — "I knew that I wanted to get some of the stuff about my dad in there so I can stop talking about it on stage" is the rare quote that diagnoses itself.
+WEAKEST SECTION: "Everything I Do Is About Home" — the Holmes biographical paragraph reads like a Wikipedia stub (existing editor feedback flagged this; not fixed).
+
+STRENGTHS (3-5 bullets, specific):
+- "Desperate" interrogated as opening word reframes the entire career.
+- Christmas-TV-cried scene: child knew what gift cost mother. Real signature detail.
+- "Pain-to-material alchemy" / "emotional engineering" is invented vocabulary that earns its keep.
+- The Chicks → Natalie Maines self-possession template is sourced (Bustle) and structurally meaningful.
+- Counter-typing in Rabbit Hole addresses Type 2 with a strong rebuttal ("2s metabolize pain through relational attention, not by converting it into product and filing it away").
+
+WEAKNESSES (3-5 bullets, specific):
+- Holmes paragraph (still) reads like resume. Editor feedback flagged this; persists.
+- Suicidal ideation is referenced ("battling suicidal ideation during this period") without specific quote or context — a weight-bearing claim handled lightly.
+- Trash Mountain section conflates fictional plot with real biography in a way that could be tighter.
+- Father's death (2022) and the "much more fraught and complicated relationship" treated abstractly — what was the actual conflict?
+- Single-sentence dramatic paragraphs stacked ("And the answer starts in a town most people have never heard of." / "He chose funny.") — corpus tic.
+
+GAPS / MISSED OPPORTUNITIES (3-6 bullets):
+- The MrBeast call ("You're literally right" + checking on his mental health) is the best anecdote in the politics-of-fame section but gets one sentence.
+- KC Tenants organizing is named once; the actual content of his political position (housing, queer rights, conservative ridicule) deserves more — currently more aesthetic than substantive.
+- "Sixth most influential creator" Rolling Stone ranking implies a comparison set never named.
+- The Hulu Stuck pilot (2022 sale) — has it been picked up to series? The piece doesn't update.
+- "Came out as bisexual via Facebook, later as gay" — the timing of that double-coming-out is its own beat about closet/disclosure that goes unexamined.
+
+PATTERN HITS:
+- Closing parallel-binary, soft form: "The silliness was never a pose. It was the most serious thing he ever did."
+- Bolded mid-paragraph thesis sentences: present (TL;DR uses them) but restrained in body.
+- Single-sentence dramatic paragraphs stacked at the open and several scene transitions.
+
+PATTERN MISSES:
+- No three-beat single-syllable triplet.
+- No "child still doing" closer (close on the silliness IS adjacent — the kid who needed to make heaviness light, still doing it — but it's earned by detail, not formula).
+- No "father modeled X / mother modeled Y" synthesis (the women-of-Chillicothe paragraph approaches it one-sidedly — father is the absence, mothers/aunts/sisters/grandma the presence).
+- Counter-typing rule-of-three is rule-of-one (Type 2 only), which is restrained.
+
+CRITIC-ENGAGEMENT: MrBeast is engaged by name (and Caleb's response is the highlight). No other named human critic. KC Tenants and BLM are institutional alignments, not critics.
+CURRENCY: yes — Sept 2025 HBO special, 2025 Rolling Stone ranking, Feb 2024 So True launch, 2025 Devil Wears Prada 2.
+DEFENSE-COUNSEL CHECK: Minimal. The piece does what the Pass-3 standard wants: lets the subject be partly indictable (the "stop talking about it" mechanism is named as engineering, not just artistry).
+
+PRIORITY FIXES (numbered, 3 max):
+1. Rewrite the Holmes paragraph as narrative, per existing editor feedback. Ten days in KC, what they were eating, what the room felt like, the moment Stuck went from idea to pitch — anything but the resume version.
+2. Develop the MrBeast call beyond one sentence. That's the year's best anecdote about how a Type 7 handles fame-as-poison and it's underused.
+3. Push past abstract on the father — one specific example of the "fraught" relationship would let the "stop talking about it" mechanism do more work.
+
+============================================================ -->

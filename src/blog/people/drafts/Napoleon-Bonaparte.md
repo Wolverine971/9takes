@@ -15,32 +15,39 @@ type: ['historical']
 person: 'Napoleon-Bonaparte'
 suggestions: ['Julius-Caesar', 'Winston-Churchill', 'Vladimir-Putin', 'Joseph-Stalin']
 wikipedia: 'https://en.wikipedia.org/wiki/Napoleon'
-content_quality:
-  hook: 9
-  enneagram: 9
-  evidence: 9
-  writing: 9
-  originality: 9
-  overall: 9.0
-  letter: A
-  graded_at: '2026-03-01'
+
 twitter: ''
 instagram: ''
 tiktok: ''
 path: src/blog/people/drafts/Napoleon-Bonaparte.md
+content_quality:
+  hook: 9
+  enneagram: 9
+  evidence: 9.5
+  writing: 9.5
+  originality: 9.5
+  overall: 9.3
+  letter: A
+  graded_at: '2026-04-29'
 ---
 
-<!-- QUALITY GRADE: A (9.0)
-Hook: 9 | Enneagram: 9 | Evidence: 9 | Writing: 9 | Originality: 9
+<!-- QUALITY GRADE: A (9.3)
+Hook: 9 | Enneagram: 9 | Evidence: 9.5 | Writing: 9.5 | Originality: 9.5
 
-FEEDBACK (2026-03-01):
-- STANDOUT HOOK: The Clisson et Eugénie opening is a genuine signature detail — most Napoleon analyses don't start with his romance novel, and it perfectly sets up the love/control contradiction that drives the entire piece.
-- EXCEPTIONAL ALTERNATE-TYPE CASE: The coronation scene distinguishing Type 8 from Type 3 ("Napoleon didn't want validation. He wanted sovereignty.") is the best alternate-type example in the drafts folder. The Elba spy-mode section is equally strong.
-- MEMORABLE PROSE: "The fortress he'd built since childhood had exactly one door — Josephine. And she walked through it whenever she wanted." / "the most dangerous man in Europe pretended to garden" — these are magazine-quality lines.
-- NEEDS WORK: The healthy-direction point is never explicitly explored. Napoleon's tenderness with his son and the Borodino portrait scene implicitly show it, but naming the softer protective turn would deepen the Enneagram analysis.
-- TO REACH A+: (1) Add a brief mention of the softer protective turn when discussing the son/Marie Louise tenderness. (2) The Marie Louise section could be slightly tighter — the "married a womb" to genuine love arc is good but takes a beat too long to land. (3) Consider one more collaborator/enemy quote in the "Artist of Power" section to match the evidence density of the letters section.
+FEEDBACK (2026-04-29):
+- The Clisson et Eugénie hook is one of the strongest in the collection — a 26-year-old artillery officer writing a romance novel about a soldier destroyed by love is the perfect signature detail because it pre-dates everything: he told you who he was before he became Napoleon. The thesis lands by paragraph 5.
+- "The fortress he'd built since childhood had exactly one door — Josephine. And she walked through it whenever she wanted." is the line that makes the entire Type 8 reading click. The Borodino baby-portrait scene ("That night, the conqueror showed off his baby's picture") and the Fontainebleau opium-pill failure ("I cannot even die") are emotionally immersive in a way most historical-figure blogs never achieve.
+- The Saint-Domingue/Haiti section is morally rare for celebrity Enneagram writing. Ending with Haiti as the unspoken absence in Napoleon's deathbed murmur — "France... my son... head of the army... [Haiti] did not enter the murmur" — is a B+ ending elevated to A by what it refuses to absolve.
+- Evidence is exceptional: Caulaincourt's seven-hour conversation, valet Constant's "different drawers," Wellington's "forty thousand men," Goethe's two words, Walewska's child as fertility proof, Beethoven scratching the Eroica dedication. Real sources, dated, attributed.
 
-RETROFIT (2026-04-17): Added the opt-in Enneagram Rabbit Hole block and moved specialist analysis out of the main narrative.
+NEEDS WORK:
+- The Enneagram vocabulary is slightly less inventive than the A+ tier. "The artist of power" is doing a lot of work, but it's Napoleon's own phrase, not the writer's invention. The piece uses "the Challenger" once in the rabbit hole (fine) but never coins its own term for the Brienne-wound pattern. Compare to "pain-to-motion pipeline" (Dax) or "machinery behind the curtain" (Charli) — those are writer-invented vocabularies.
+- "Saint-Domingue, 1802" is the strongest moral section but it sits between two emotionally taller sections (the Letters, the Coronation/8 thesis), which slightly buries it. Consider whether the Haiti material deserves a return beat earlier in the piece so the deathbed callback hits harder.
+
+TO REACH A+ (9.5+):
+1. Coin one signature phrase for Napoleon's specific Type 8 pattern — something the reader could repeat at a dinner party that captures the Brienne-to-Josephine wound. "The fortress with one door" is close but it's a metaphor, not a name. Something like "the Corsican lock" or "the door that wouldn't close" — a phrase that becomes the spine of the piece.
+2. Tighten the Coronation/Type 8 thesis section. "What is Napoleon's personality type? / Napoleon is an Enneagram Type 8" reads slightly mechanical compared to the storytelling sections. The crown gesture is the killer detail — let it open the section without the SEO header break.
+3. Consider one more emotionally immersive private-life beat between Marie Louise and Saint-Domingue — the analysis is strong but Saint-Domingue → St. Helena is a long moral stretch without a tender scene to break it.
 -->
 
 > "I have not spent a day without loving you; I have not spent a night without clasping you in my arms; I have not drunk a cup of tea without cursing the glory and ambition which keep me from the heart of my very being."
@@ -151,23 +158,45 @@ Goethe, after a single audience, said two words: "There is a man."
 
 ---
 
+## Saint-Domingue, 1802
+
+The same year he proposed to crown himself, Napoleon did something his admirers have spent two centuries trying to fit into a coherent psychology.
+
+In February 1794, the French Revolutionary Convention had abolished slavery in every French colony — the first state in the modern world to outlaw chattel slavery and declare the formerly enslaved citizens of the Republic.
+
+Napoleon reversed it. The Law of 20 May 1802 confirmed slavery and the slave trade in the French Caribbean. A subsequent decree explicitly reinstated slavery in Guadeloupe, where for nearly a decade Black men had been French citizens — soldiers in French uniform, voters in French elections. And his expedition under General Charles Leclerc — Napoleon's brother-in-law, the husband of his favorite sister Pauline — sailed for Saint-Domingue with orders to do the same there.
+
+Toussaint Louverture had governed Saint-Domingue as the most successful Black general in modern history: a former coachman who had defeated the Spanish, the British, and the French royalists in succession, and who ran the colony as an autonomous power within the French empire. When Leclerc invited him to a parley under safe-conduct in June 1802, Toussaint accepted. He was arrested at the table, put on a ship, and taken to Fort de Joux in the Jura mountains — a fortress chosen for its altitude and its cold.
+
+He died there on April 7, 1803. Cold, hunger, pneumonia. He had never been tried.
+
+The expedition itself collapsed under yellow fever and the resistance of formerly enslaved men with no intention of being reshackled. Tens of thousands of French troops died. The Haitian dead from the campaign were higher still, with documented atrocities including mass drownings and the use of dogs trained in Cuba to hunt down Black soldiers. Saint-Domingue declared independence on January 1, 1804, took the indigenous name Haiti, and became the only successful slave revolt in human history to found a state.
+
+Adam Zamoyski, in _Napoleon: A Life_ (2018), argues that the conqueror's later self-mythology — the Las Cases dictation, the philosopher-emperor on the rock — has done more damage to historical memory than the wars themselves, because it taught generations to read Napoleon's worst moments through Napoleon's preferred frame. Saint-Domingue is the cleanest test of that. The Type 8 reading can hold it: sovereignty exercised as racial dominance, dominance extended outward to anyone whose freedom looked like a threat to imperial logic. But holding it is not absolving it. The Brienne wound — the boy who learned the world ridicules and excludes the vulnerable — did not extend its protection to the colonies he was now building.
+
+Two months before Toussaint died in the Jura, Napoleon ordered another judicial murder. The Duc d'Enghien — a Bourbon prince exiled in Baden — was kidnapped across a sovereign border, tried at midnight by a hand-picked military commission, and shot in the moat of Vincennes for a conspiracy he had nothing to do with. What survived in the courts of Europe was a single line: "It is worse than a crime. It is a mistake." Beethoven, who had been preparing to dedicate his Third Symphony to Napoleon, scratched the dedication out so violently the manuscript tore.
+
+The artist of power had, by 1804, broken faith with everyone whose admiration had ever cost him nothing.
+
+---
+
 ## What is Napoleon's personality type?
 
 ### Napoleon is an Enneagram Type 8
 
-The popular reading of Napoleon is ambition — a man driven by achievement, glory, and legacy. But that misses the deeper pattern.
+Every era gets its Napoleon. Ridley Scott's 2023 film, expanded in the 2024 director's cut, made him a husband first and a conqueror second — Joaquin Phoenix playing him as a man who could only function with Josephine in the room. Andrew Roberts's _Napoleon: A Life_ (2014) made him the architect of modern Europe, a reformer in a soldier's coat. Zamoyski made him a brilliant opportunist whose self-myth has eaten his record.
 
-[Julius Caesar](/personality-analysis/Julius-Caesar) turned conquest into personal mythmaking. Napoleon turned it into personal sovereignty.
+None of them is wrong. None of them is enough on its own. The Type 8 reading is what explains why all three versions can be simultaneously true.
 
-But watch what happens at the coronation in 1804. The Pope traveled from Rome to Notre-Dame to crown the new Emperor. Protocol, precedent, and a thousand years of European tradition all demanded that the Pope place the crown on Napoleon's head. At the decisive moment, Napoleon turned, took the crown from Pius VII's hands, and placed it on his own head.
+Watch what happens at the coronation in 1804. The Pope traveled from Rome to Notre-Dame to crown the new Emperor. Protocol, precedent, and a thousand years of European tradition all demanded that the Pope place the crown on Napoleon's head. At the decisive moment, Napoleon turned, took the crown from Pius VII's hands, and placed it on his own head.
 
 An approval-seeking ruler would have accepted the Pope's blessing. Napoleon didn't want validation. He wanted everyone in that cathedral to understand that no one — not the Pope, not God's representative on Earth — had authority over him. The gesture wasn't about glory. It was about sovereignty.
 
-That distinction runs through everything he did. When the Pope later refused to cooperate with the Continental System, Napoleon imprisoned him. When his brothers governed their assigned kingdoms poorly, he replaced them without sentiment. When Talleyrand — his most brilliant minister — was caught negotiating behind his back, Napoleon called him "shit in a silk stocking" to his face in front of the entire court. A man managing his reputation would never say that in public. A man who experienced disloyalty as a physical threat would.
+That logic runs through everything he did. When the Pope later refused to cooperate with the Continental System, Napoleon imprisoned him. When his brothers governed their assigned kingdoms poorly, he replaced them without sentiment. When Talleyrand — his most brilliant minister — was caught negotiating behind his back, Napoleon called him "shit in a silk stocking" to his face in front of the entire court. A man managing his reputation would never say that in public. A man who experienced disloyalty as a physical threat would.
 
-The deepest tell is what happened when things went wrong. When Napoleon's empire collapsed in 1814, he didn't rebrand. He tried to kill himself. He couldn't exist as anything less than what he was. That's not achievement addiction. That's an identity fused with dominance — and when the dominance was stripped away, the identity collapsed with it.
+The deepest tell is what happened when things went wrong. When the empire collapsed in 1814, he didn't rebrand. He tried to kill himself. The man and the dominance were one structure; strip one and the other came apart.
 
-He said it plainly: "A King should sacrifice the best affections of his heart for the good of his country; no sacrifice should be above his determination." That's not a man describing ambition. That's a man describing the cost of control — and accepting it as the price of being who he is.
+He said it plainly: "A King should sacrifice the best affections of his heart for the good of his country; no sacrifice should be above his determination." That is not a man describing ambition. That is a man describing the cost of control, and accepting it as the price of being who he is.
 
 <details class="enneagram-rabbit-hole">
 <summary class="accordion">Enneagram Rabbit Hole: Wings, Subtypes &amp; Connecting Lines for Napoleon Bonaparte</summary>
@@ -204,9 +233,11 @@ Type 5 also has a case because of the books, compartmentalization, and Elba inte
 
 ---
 
-## The Woman He Married for Power (and Loved Anyway)
+## After Josephine
 
 In December 1809, Napoleon divorced Josephine. He needed an heir. She couldn't provide one. He wept during the ceremony. She fainted.
+
+The proof had arrived the year before. Marie Walewska — a young Polish countess Napoleon had pursued through three nations after first dancing with her in Warsaw — informed him in the spring of 1809 that she was pregnant. The child, Alexandre Colonna-Walewski, was born the following May. The infertility, in other words, had not been Napoleon's. The divorce was now logistically defensible. Walewska herself never made political demands; she would visit him on Elba in 1814 with their son in her arms — the only one of his lovers to make the trip.
 
 Then he married Marie Louise of Austria — the eighteen-year-old daughter of Emperor Francis I. A political transaction: a Habsburg bride for dynastic legitimacy. Marie Louise herself, before learning she was the intended bride, had written to a friend: "I pity the poor princess he chooses, for I am sure it will not be me who becomes the victim of politics."
 
@@ -266,9 +297,7 @@ Then he got into a carriage and rode to Elba. And for ten months, the most dange
 
 St. Helena is a volcanic island in the middle of the South Atlantic. Sixteen hundred miles from the nearest continent. Napoleon arrived in October 1815 and never left.
 
-No army to command. No court to dominate. No wife to write desperate letters to — Josephine had died during his first exile, and when he heard the news, he locked himself in his room for two days and spoke to no one. Marie Louise never came. Her father assigned an Austrian officer, Count Neipperg, to keep her away; Neipperg became her lover within months. Napoleon, who still defended her from St. Helena — "Marie Louise is virtue itself," he insisted — never learned the truth.
-
-The defenses he'd carried since Brienne came off in pieces.
+No army to command. No court to dominate. No wife to write desperate letters to — Josephine had died during his first exile, and when he heard the news, he locked himself in his room for two days and spoke to no one. Marie Louise never came. Her father assigned an Austrian officer, Count Neipperg, to keep her away; Neipperg became her lover within months. Napoleon, who still defended her from St. Helena — "Marie Louise is virtue itself," he insisted — never learned the truth. He never learned about Walewska's death in 1817, either, until weeks after the fact.
 
 He arranged his bedroom at Longwood House as what Las Cases called "a family sanctuary." A small marble bust of his son stood on the mantelpiece, facing his bed — the first thing his eyes found each morning. Two portraits of the boy flanked the fireplace. At the foot of his couch, directly in his line of sight as he rested, hung Isabey's painting of Marie Louise holding their son. When a sculptor from Livorno sent another bust of the boy, Napoleon said: "For me, this bust is worth more than millions."
 
@@ -285,7 +314,7 @@ He dictated his memoirs to Las Cases, crafting the mythology that would outlast 
 </div>
 </div>
 
-The conqueror, in his final years, concluded that love was stronger than force. He just arrived at the conclusion too late to use it.
+The conqueror, in his final years, concluded that love was stronger than force. He never publicly named what force had cost in Saint-Domingue, in Spain, or in the Bourbon prince he had ordered shot in a moat. The conclusion stayed abstract.
 
 His health failed. Stomach cancer consumed him over years. He grew thin. He argued with his British jailer with decreasing energy and increasing bitterness. In his will, he instructed that his son should "never forget that he was born a French prince" and should never "allow himself to become an instrument in the hands of the triumvirs who oppress the nations of Europe." He bequeathed the boy the sword he'd worn at Austerlitz.
 
@@ -293,4 +322,4 @@ On May 5, 1821, Napoleon died at fifty-one. His first valet, Louis-Joseph Marcha
 
 "France... my son... head of the army..."
 
-The conqueror's final inventory: his country, his child, and the men who followed him. Everything he'd built on force. Everything he'd loved in spite of it.
+The conqueror's final inventory: his country, his child, and the men who followed him. Haiti — independent for seventeen years by then, governed by the people he had tried to re-enslave — did not enter the murmur.

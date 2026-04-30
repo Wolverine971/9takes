@@ -239,3 +239,66 @@ Betty Shabazz never remarried. She raised their six daughters alone, earned her 
 "He was a sensitive man, a very understanding person."
 
 > **Disclaimer:** This analysis of Malcolm X's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Malcolm X.
+
+<!-- ============================================================
+FRESH-EYES ASSESSMENT — 2026-04-29 PASS 4 (Claude cold read)
+============================================================
+
+ONE-LINE VERDICT: A genuinely strong Type 8 portrait that earns the "armor that could expand" thesis through the integration-after-Mecca arc — top-tier corpus work, with the FBI "high moral character" detail as the keystone.
+
+QUALITY-CEILING TIER: TOP — Malcolm cannot be redescribed as a Type 8 virtue because the case isn't about excusing failures; it's about reframing perceived rigidity as flexibility. The piece does the Type 8 protector-not-aggressor distinction without softening the early Nation rhetoric. Top of corpus alongside Stalin and Lily Allen.
+
+STRONGEST SECTION: "Why This Isn't a Type 5 Story" — the strongest counter-typing treatment in the corpus, because it doesn't just dismiss the Type 5 read, it explains exactly why the same prison-cell behavior reads differently under Type 8 stress arrows. "Type 5s study to understand. Malcolm studied to fight" is a clean structural distinction.
+
+WEAKEST SECTION: "The Man Behind the Armor" — the Betty "ton of bricks" exchange is the diagnostic centerpiece but the section ends with "Incomplete evolution. But real." which is exactly the corpus's autopilot closing-line tic. The view-of-women material gets glossed too fast — three years of evolution compressed into one paragraph.
+
+STRENGTHS:
+- The firebombed-house-into-six-days-later-assassination opening is one of the corpus's most causal hooks. It earns every later beat.
+- "His principles had no price. His positions did" is single-sentence-thesis at maximum efficiency.
+- The FBI "high moral character" detail is the corpus's best example of enemy's-involuntary-testimony — the prior reviewer flagged this correctly.
+- The Malcolm/Martin reframe ("not competing with the ally, but making the ally's position stronger by being the thing the opposition fears more") is genuinely original Type 8 protector logic.
+- The "armor expanded, didn't crack" Mecca-as-integration paragraph is the cleanest application of Enneagram integration arrows in the corpus.
+- Counter-typing Type 5 inside the typing section — most blogs duck this; this one engages it head-on.
+
+WEAKNESSES:
+- "Not despair. Not submission. Something that hardened into a vow" — three-beat single-syllable triplet, exact corpus tic.
+- "He didn't soften. He expanded." Contrast-pair "It is not X. It is Y." used four times (didn't soften/expanded; not personal power/protector; not rage/fuel; not dismissed/integrated).
+- "**That capacity — absorbing a challenge without experiencing it as a threat — is what separates functional Type 8s from destructive ones.**" — bolded mid-paragraph thesis sentence, the corpus tic explicitly.
+- "**The man everyone called rigid had just executed the most dramatic ideological pivot of the civil rights era.**" — same tic.
+- The British-writer "Books" exchange and the Betty quotes still aren't sourced — the prior reviewer flagged this and the gap remains. "Betty later said" with no citation undermines the evidence the rest of the piece earns.
+- Fifteen-hour reading days, prison-library claim — these are *Autobiography*-sourced but never attributed. Same gap.
+- "The man who was never rattled was rattled" — closing parallel-binary in the assassination section, autopilot.
+
+GAPS / MISSED OPPORTUNITIES:
+- Ossie Davis's eulogy ("our shining black prince") is the most famous private-Malcolm testimony in print and never appears.
+- Alex Haley's perspective from writing the Autobiography — Malcolm's revisions to the Nation chapters as the break with Elijah Muhammad happened — would deepen the "armor expanding" thesis with editorial evidence.
+- Manning Marable's *Malcolm X: A Life of Reinvention* (2011) reframed several of these stories with archival documentation. Not cited.
+- Malcolm's role in the 1962 Ronald Stokes shooting (LAPD killing of NOI member, Malcolm pushed for armed response, Elijah Muhammad pulled him back) is a load-bearing Type 8 protector moment that pre-figures the break and is missing.
+- The Cuba meeting with Castro (September 1960) — Malcolm hosting at the Hotel Theresa — would test the "Type 8 expanded protection" frame internationally before Mecca.
+- Foreign-policy Malcolm ("the chickens coming home to roost" on JFK, the Cold War third-world framing) is absent. The piece is U.S.-only.
+- The 2021 exoneration of Muhammad A. Aziz and Khalil Islam gets one line. The 2024 documentary *Stolen* and the FBI/NYPD complicity revelations would update the closing beat.
+
+PATTERN HITS:
+- Type 8 stress arrow to Type 5 (prison-cell intellectual fortress) and integration arrow to Type 2 (post-Mecca capacity for connection) — both arrows named structurally and earned by evidence.
+- Counter-typing Type 5 with stress-arrow logic is the corpus's cleanest counter-typing move.
+- Currency beat (2021 exoneration) is light but present.
+
+PATTERN MISSES:
+- Editor-feedback-not-applied: the top-of-file feedback block explicitly says "Source every quote — add (Autobiography, Ch. X) or (interview with X, date) to Betty quotes, the British writer exchange, and the FBI file." None of those citations were added. Pure process gap.
+- Triple front-loading: TL;DR ("The Powerlessness Vow"), opening hook ("the more interesting question is"), typing section ("The Architecture of a Type 8") all restate the Type 8 protector frame.
+- "Father modeled X. Mother modeled Y." template appears in compressed form (Earl as Garvey organizer / Louise as devout — though both were assertive, so it doesn't quite snap into the template).
+- "Maya Angelou, who was close to him, spoke of his 'incredible sense of humor.'" — sympathetic-witness quote with no source year, no interview, no book. Same gap.
+
+CRITIC-ENGAGEMENT: Mixed. The FBI is engaged as institutional critic and the "high moral character" file becomes the strongest evidence — that works. But no contemporary critic of Malcolm — Bayard Rustin, James Farmer, the NAACP/Roy Wilkins critique of Black nationalism — gets a sentence. The blog argues Malcolm was misunderstood as rigid; the people who actually called him rigid in the 1960s (and whose objections shaped the public record) are absent.
+
+CURRENCY (contemporary-relevance): Light. The 2021 exoneration is mentioned. The 2026 revisionist landscape — Spike Lee's renewed prominence, the Marable controversy, the Stolen documentary, present-tense Black Lives Matter framing of Malcolm vs MLK — none of it appears.
+
+DEFENSE-COUNSEL CHECK: Mostly clean. The early-Nation rhetoric ("the white man is the devil") is named, not buried. The "controlling husband" period is named, then the change is shown. The one soft spot is the "incomplete evolution. But real" hedge on women's-equality views — that line is doing defense work.
+
+PRIORITY FIXES:
+1. Apply the prior reviewer's feedback. Source the Betty quotes (Autobiography? *Growing Up X* by Ilyasah Shabazz?), source the FBI "high moral character" file (specific document number), source the British writer exchange. Two graded passes flagged this; the citations still aren't there.
+2. Add one named contemporary critic — Rustin, Farmer, or Wilkins — and engage their actual argument. The piece argues Malcolm was misread; it never lets a misreader speak.
+3. Cut one of the four contrast-pair "It is not X. It is Y." constructions. They land but the saturation is corpus-flagged.
+
+============================================================ -->
+

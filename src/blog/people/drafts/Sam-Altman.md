@@ -533,3 +533,50 @@ SMALL THINGS:
 
 OVERALL: This is an A-level draft. The writing is sharp, the sourcing is strong, and the central argument (SP Type 4, not Type 3) is genuinely persuasive. The main issue is length and repetition — you could cut 15-20% and the piece would hit harder. The political section is where the most fat lives. The shadow section needs a better landing. And the Worldcoin section either needs to earn its place or get folded in.
 -->
+
+<!-- ============================================================
+FRESH-EYES ASSESSMENT — 2026-04-29 (Claude cold read)
+============================================================
+
+ONE-LINE VERDICT: A genuinely surprising Type 4 case (the moody artist re-cast as the leader-by-going-first) that is at its sharpest in the John Burroughs speech and the firing/"shameful" beats — but it is the longest piece in the batch and a quarter of it is structural padding around the same identity-thread.
+
+STRONGEST SECTION: "The Speech That Proved Graham Right" — 17-year-old Altman editing the personal-story section three times and putting it back is the most diagnostic Type 4 detail in the corpus. The section earns the typing without ever stating it.
+WEAKEST SECTION: "World: Every Human Gets an Identity" — the editor's note flagged it; it reads like an obligation rather than an argument, and Worldcoin's controversy ("biometric database from the bodies of the poor") is the best material in the section but is given one sentence.
+
+STRENGTHS (3-5 bullets, specific):
+- Paul Graham's island quote as an opening framing device — and earned by Graham's own kitchen-smile recollection later — is structural craft.
+- "Reading your own eulogy while you're still alive" / "definitely the most painful professional experience of my life ... shameful" — the firing section is the Type 4 ID-test that lands.
+- The Musk feud handled as "hero AND bully" — Altman empathizing with his attacker — is the kind of nuance most personality profiles can't hold.
+- The "I can't change my personality" board-confrontation scene is the load-bearing identity moment and the analysis ("the personality isn't what I do. The personality is who I am") is sharp.
+- The "neurochemically hacked but I'm noticing it happening" detail at his son's birth is the Type 4's signature feel-it-and-narrate-it move and earns its placement.
+
+WEAKNESSES (3-5 bullets, specific — name lines, phrases, sections):
+- The "kid who was different" frame is named explicitly in 5+ different sections (St. Louis, coming out, YC, Worldcoin, politics). The editor's note flagged this and the redactions weren't made.
+- The Trump/NPC-trap section, the EU-lobbying paragraph, and "politically homeless" are three separate political beats that argue the same thing about identity-versus-tactics. Pick one or compress.
+- The "Enneagram Rabbit Hole" details accordion is a smart UX move but its presence flags that the article has unresolved typing arguments — when DJ has to opt-readers-into the deepest argument, it should make him ask whether the main piece is doing enough.
+- The shadow-side section is the article's hardest-hitting material (Helen Toner, "psychological abuse," paper cuts) but it ends abruptly without Altman's response or a structural payoff. The piece drops a serious accusation and walks away.
+- "The Michael Jordan of Listening (Who No One Fully Knows)" section title sets up positive expectation, then 60% of section is shadow-side allegations. Section editorially incoherent.
+
+GAPS / MISSED OPPORTUNITIES (3-6 bullets — what a fan/critic would expect that's absent):
+- Greg Brockman is completely absent. Co-pilot through the OpenAI journey, stayed during the firing, then left. That relationship is the missing emotional spine of the OpenAI arc.
+- His actual AGI vision is thin. The piece argues he's driven by meaning, not money — but what is the meaning? "Cure diseases" / "abundance" — needs at least one concrete paragraph about what he's actually building toward.
+- His brother Jack Altman (officiated his wedding, co-ran an investment fund with him) appears once and disappears. For a piece about identity and family, this is a missed pillar.
+- The Annie Altman accusations (his sister has publicly accused him of abuse) are not engaged at all. This is the single most consequential reputational issue facing him and the piece's silence is conspicuous.
+- The Microsoft/Satya Nadella relationship — the actual structural force behind Altman's reinstatement — is one sentence. That relationship deserves type-analysis.
+- No counter-typing work for Type 7 (visionary-optimist-restless-builder). The 4w3 case is made; the 7w8 alternative isn't even named.
+
+PATTERN HITS (DJ tropes that worked here):
+- The "Enneagram Rabbit Hole" opt-in details accordion is an actually-novel UX innovation. Lets the corpus-deep analysis live without burdening the casual reader.
+- The "The boy with the Macintosh. Still taking it apart. Still putting it back together." closing image works because the Macintosh is genuinely structural to the piece, not a tacked-on metaphor.
+
+PATTERN MISSES (DJ tropes that felt formulaic, recycled, or autopilot here):
+- The "kid who was different / built a world for himself / still doing it as an adult" closing template is the same as Snoop's Saint-Denis ending, Dyson's "still running," Tim Cook's "boy on the bike," and Jeff Bezos's "abandoned toddler ... grew into a man who dismantles industries." Five of nine.
+- The "X is the most Type-Y thing about him" framing appears across the batch (Snoop's marriage, here the $76K salary). It works individually; collectively it's a tic.
+- The "shame is the core emotion of the heart triad" type-textbook drop is the kind of move the Pichai/Snoop blogs avoid by weaving the type info into evidence.
+
+PRIORITY FIXES (numbered, in order of impact — 3 max):
+1. Cut 20% — most of it from the political section (NPC trap + EU lobbying + politically-homeless is three sections of the same point) and the shadow-side section's redundant restatements of "deep attentiveness as manipulation."
+2. Engage the Annie Altman accusations directly. Either incorporate them into the shadow section or note the absence intentionally. The current silence in a piece that names "psychological abuse" allegations from coworkers is conspicuous.
+3. Add 100 words on Greg Brockman. The piece's biggest missing relationship. The "he bonds deeply / the bond eventually breaks" pattern would add a third dimension to the Type 4 argument.
+
+============================================================ -->

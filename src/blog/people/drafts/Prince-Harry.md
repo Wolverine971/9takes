@@ -232,3 +232,54 @@ When Type 6 personalities mature, they integrate toward Type 9, the Peacemaker: 
 But notice how he's doing it: short meetings, maintaining the California base, keeping William at distance. He's not abandoning vigilance. He's learning to balance it with something that looks, cautiously, like openness.
 
 That's the work. Not resolution. Just the first signs that a twelve-year-old's survival strategy is being renegotiated, piece by piece, by the adult it made.
+
+<!-- ============================================================
+FRESH-EYES ASSESSMENT — 2026-04-29 PASS 2 (Claude cold read)
+============================================================
+
+ONE-LINE VERDICT: A current, well-evidenced Type 6 read whose strongest move is the William/Charles asymmetry and whose weakest is a thesis that contorts to keep Type 4 off the table — the piece names Type 4 once, dismisses it, and never returns to test it.
+
+STRONGEST SECTION: "The Critics Have a Point" — the YouGov polling, Archewell donation collapse, and the candid "the same vigilance that protects can calcify into something uglier" do the rare thing of actually engaging hostile evidence.
+WEAKEST SECTION: "Fatherhood: Breaking the Cycle" — leans on a single quote ("Once you become a parent yourself, everything changes") and a "consent" beat that's emotionally on-the-nose; doesn't earn its placement.
+
+STRENGTHS (specific):
+- January 2026 court testimony as cold-open is current and concrete — establishes the live tense immediately.
+- William/Harry asymmetry analysis ("not actually in the same position... William inherited a role that required him to embody continuity. Harry inherited a role that required him to disappear") is a genuinely original line of thinking that resists the "same trauma, different responses" cliché.
+- The "spare" title as self-aware framing rather than mere noun gets articulated well.
+- "Charles is shifting toward 'cautious ally.' William remains somewhere harder to categorize" — this is the framework actually doing work.
+- Specific 2025-2026 beats (BBC interview, December 2025 threat assessment, August 2025 Netflix transition) keep the piece in present tense.
+
+WEAKNESSES (specific):
+- The Type 4 counter is dispatched in a single paragraph at the top and never re-examined — yet Harry's "memoir to express identity," his sense of being unseen, and his 416-page emotional inventory all read as 4-coded. The thesis doesn't survive a serious test.
+- "But love and strategy aren't mutually exclusive" is the kind of fourth-wall hedge that pads the prose; cut it.
+- Repetition of "vigilance / threat-detection / scanning" — the Type 6 frame gets restated five or six times when twice would do.
+- "Same parents. Same loss. Same pressures — and yet not the same pressures, not really" — clever once, but the piece uses similar single-sentence-paragraph rhythm sections elsewhere; becoming a tic.
+- Closing image of the "twelve-year-old's survival strategy being renegotiated" is solid but adjacent to the corpus "child still doing what the child did" frame.
+
+GAPS / MISSED OPPORTUNITIES:
+- Vegas naked photos, Nazi-uniform incident, Afghanistan combat tour — almost no engagement with the pre-Meghan Harry and the persona he carried before the threat-detection narrative took over. A fan would notice.
+- _Spare_ contains specific score-settling against William (the dog-bowl fight, "Mummy's gone") that's mentioned, but the more controversial revelations (Taliban kill count, the frostbite passage) are absent.
+- The "Type 6 with what wing?" question is never answered — 6w5 vs. 6w7 would change the read meaningfully and Harry has 7 markers (Vegas, the playful side Coretta-style anecdotes are missing).
+- No engagement with the criticism that Harry's "fight for security" was also a fight to bring private armed protection that no other senior royal gets when stripped of duties — a specific argument the British press has made, not just "tabloid grievance."
+- The Diana parallel is mentioned but the Type 2 mother / Type 6 son interaction — what does an abandonment-driven Helper raise? — is a gift the piece doesn't open.
+- Meghan typed as Type 2 in passing; the relational dynamic of 6+2 is left on the table.
+
+PATTERN HITS:
+- Counter-typing handled in a paragraph rather than a rule-of-three template — better than recent corpus.
+- Current-tense beats are specific and dated, not vibes.
+
+PATTERN MISSES:
+- "It is not X. It is Y." appears 4+ times by my count ("This isn't celebrity grievances... it's a compulsion"; "It's not a logistics win. It's the government confirming..."; "He's not abandoning vigilance. He's learning..."; "Those aren't equivalent pressures"). Well over the corpus cap.
+- Bolded mini-thesis ("combating gaslighting and affirming reality") used in multiple places.
+- The H2 "Fighting the Force That Killed His Mother" is exactly the corpus's "What [person] is still [verb-ing]" frame.
+
+CRITIC-ENGAGEMENT: Yes — and unusually well in "The Critics Have a Point" section, naming Arthur Edwards and the Archewell financial numbers. But the engagement gets softened by "we don't know" and the framework retreats to explaining-the-mechanism rather than confronting whether he's hypocritical.
+
+CURRENCY: Yes, strong. January 2026 court appearance, Sept 2025 Charles meeting, Aug 2025 Netflix shift, Dec 2025 threat assessment. This piece is current.
+
+PRIORITY FIXES:
+1. Genuinely test the Type 4 reading. Don't dismiss it in paragraph 4 — return to it after the memoir/identity/feels-misunderstood evidence and explain why the operating system underneath those is still fear-based, not identity-based.
+2. Consolidate the "vigilance/threat-detection/scanning" repetitions — pick the two best instances and cut the rest.
+3. Add the pre-Meghan Harry (Vegas, Afghanistan, Nazi uniform) — the threat-detection thesis is incomplete without explaining the years he behaved like the opposite of vigilant.
+
+============================================================ -->

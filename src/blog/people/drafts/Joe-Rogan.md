@@ -462,3 +462,61 @@ Because he treats conversation like combat and assumes he can sort signal from n
 ---
 
 > **Disclaimer** This analysis of Joe Rogan's Enneagram type is speculative, based on publicly available information, and may not reflect Joe's actual personality type.
+
+<!-- ============================================================
+FRESH-EYES ASSESSMENT — 2026-04-29 PASS 4 (Claude cold read)
+============================================================
+
+ONE-LINE VERDICT: A genuinely strong, honest Type 8 portrait that does what most Joe Rogan profiles refuse to do — name the violence, name the blind spot, and let both stand without redemption arc.
+
+QUALITY-CEILING TIER: TOP
+
+STRONGEST SECTION: "The Violence I Carry" — opens with the King Kong / "Don't ever cry" scene at age five and threads it to the Lex Fridman admission ("I'm worried I inherited his violence like a recessive gene"). The analytical move ("a Type 8 who has stopped flinching from his own anger and started studying it") is the rarest move in the corpus.
+WEAKEST SECTION: "Why a Man With Social Anxiety Built the World's Biggest Podcast" — the section gets the psychedelics / sensory-deprivation beat right but feels like it lost editorial passes; "what he's running from, and toward" is filler.
+
+STRENGTHS (3-5 bullets, specific):
+- The Phil Hartman opener is masterful: scene-level immersion ("Five dinners. Five car rides. Five times between takes…"), the "leave her, get out, this isn't safe" reconstruction, and the "Joe canceled a week of gigs" close. Genuinely cinematic.
+- The Bourdain phone detail ("I have an old phone that I change my number all the time and I keep this number because I have text messages from him") is the signature unguarded moment. The analysis names it correctly: a man carrying a phone he'll never use because throwing it away would mean losing someone he couldn't save.
+- The AI-Walz-video blindspot section is the rarest critic-engagement move in the corpus: the piece names where Joe's gut failed him, names that the "AI Generated" label was visibly on screen, and names what Joe said ("I fell for it too, and do you know why I fell for it? Because I believe that he's capable of doing something that dumb"). The piece doesn't soften it.
+- The Rabbit Hole accordion is the gold standard for the corpus. The 8w7 vs 8w9 split, the sp/sx subtype with the format-of-the-podcast-as-sx-tell, the stress-asymmetry between 8→5 (paranoia/conspiracy) and 8→2 (Theo Von tearing-up moment) — all of this is done with confidence and texture.
+- "Politically homeless" April 2026 update integrated cleanly: less than 18 months from Trump endorsement to the cascade of breaks, presented as system-working-as-designed for an 8w7. The piece doesn't whitewash the endorsement.
+
+WEAKNESSES (3-5 bullets, specific — name lines, phrases, sections):
+- The COVID/ivermectin section centers Joe's win (Sanjay Gupta conceding, Don Lemon doubling down) and the analytical frame is "this wasn't about the medicine. It was about the frame." That's a very Joe-friendly read — the substantive question (was the COVID treatment claim defensible?) is bypassed in favor of the media-narrative question.
+- "Burn the Boats" critical reception (0% critics, 41% audience, "not a generationally gifted comedian") is named, then the analysis explains why it's "a legitimate form of comedy" anyway. Borderline defense-counsel — the piece reframes weakness as character.
+- Multiple bolded mid-paragraph thesis lines ("Don't ever cry." / "Control vs. connection." / "The strength that built the empire is the blind spot that threatens it.") — corpus tic stacked too thick.
+- The Trump endorsement section is bulleted (ICE, deportations, Renee Nicole Good, Canada, election fraud, Walz). Bullets are efficient but they read as a speed-run through eight political beats that each deserve a sentence of context.
+- Single-sentence dramatic paragraphs are stacked thick in the open ("Five dinners. Five car rides. Five times between takes…" / "He didn't soften it. He didn't stay in his lane."). Effective but the form is doing the work the prose should.
+
+GAPS / MISSED OPPORTUNITIES (3-6 bullets):
+- The Spotify/Neil Young episode is presented as a Joe-wins set piece. Young's actual argument (vaccine misinformation harms public health) is named only as the protest itself; the substantive question of whether JRE platforming Robert Malone / Peter McCullough / etc. caused harm doesn't get engaged. The piece names the controversy and routes around the substance.
+- Tim Dillon, Theo Von, Bert Kreischer, Joey Diaz — all mentioned. None quoted ABOUT Joe in a way that pushes back. Loyalty quotes only. No insider critic.
+- The Sandy Hook / Alex Jones friendship is named ("trips together, time outside the spotlight") and the analytical move is that Joe "challenged Jones on-air, pushed back on his wilder claims." This is the place where critic-engagement would deepen the analysis: name a specific Sandy Hook family or a specific Jones claim Joe DID NOT challenge.
+- The Hartman story doesn't include the full pattern: Joe was repeatedly counseling someone with a clear domestic-abuse warning sign. The lesson the piece draws ("opened my eyes up to the actual real dangers of bad relationships") is Joe's frame, not the piece's.
+- Eddie Bravo / flat-earth: presented as Joe-pushes-back-while-staying-friends. The actual epistemic question (does platforming Bravo's flat-earth claim harm Joe's audience's epistemics?) is bypassed.
+- The Comedy Mothership is presented as a pure positive ("creating institutions Joe controls"). Local Austin comedy scene critiques (the Mothership's gravitational effect on which voices get heard) are not engaged.
+
+PATTERN HITS (DJ tropes that worked here):
+- Self-narrative-as-case: "I'm not a respected source of information, even for me" IS the diagnosis. The piece earns it.
+- Sympathetic-partner-stock-figure subverted: Jessica Ditzel's Instagram bio ("Anonymity is underrated") becomes character beat without making her the redemption arc.
+- Rabbit Hole accordion. Best in the corpus.
+
+PATTERN MISSES (DJ tropes that felt formulaic, recycled, or autopilot here):
+- "It is not X. It is Y." used many times: "Not loud anger. Not tantrum anger. The steady, low-frequency hum…" / "That's not strength. That's compulsion." (wait, this is Krystal Ball — recurring across pieces) / "That's not flip-flopping. That's the system working as designed." / "He doesn't keep one revenue stream… He keeps four."
+- "Father modeled X. Mother modeled Y." template explicitly named in the piece itself: "Two fathers. Two blueprints."
+- Three-beat single-syllable triplet: "Newark, San Francisco, Florida. Constantly the new kid…"
+- Engaging-institutional-critics over named human ones: CNN, NBC, Variety, Rotten Tomatoes, Spotify, Golden Globes — all named. Named human critics: Neil Young (treated as foil), Sanjay Gupta (treated as conceder), Joni Mitchell (one mention). No critic gets to land a punch the piece engages.
+
+CRITIC-ENGAGEMENT: Weak-to-mixed. The AI-Walz blindspot section is genuine critic-engagement directed at Joe (and notable because the critic is ambient — the visible label on screen). Otherwise, the piece treats every external critique as either a Joe-wins moment or absorbs it into Type-8-is-like-this framing. Pass-3's reliable autopilot tic (institutional critics over named human ones) is fully visible.
+
+CURRENCY (2024-2026 anchor): Yes — April 2026 "politically homeless," February 2026 Walz/Minnesota fraud, January 2026 Golden Globes refusal, late-2025 Theo Von moment. Strongest currency in the batch.
+
+DEFENSE-COUNSEL CHECK: Yes, in two places. (1) The COVID/ivermectin section reframes the question from "was the claim defensible?" to "was the media narrative honest?" That's a redirection. (2) The Burn-the-Boats section reframes critical pans into "comedy works because of who he is, not because of the writing." Both are Type-8-virtue redescriptions of failures.
+
+PRIORITY FIXES (numbered, in order of impact — 3 max):
+1. Engage one substantive critic on the Spotify/Malone/COVID-platforming question. The piece's "this wasn't about the medicine, it was about the frame" line is the spot. Hold the medicine question for one paragraph.
+2. Pick one Alex Jones claim Joe DID NOT push back on. The "Joe challenges him" frame is asserted; show its limit.
+3. Trim bolded mid-paragraph thesis lines by half. The prose carries the diagnosis; the bolds are overprescribing.
+
+============================================================ -->
+

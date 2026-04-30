@@ -368,3 +368,57 @@ Easiest single upgrade: add a section between "overnight fame" and
 "protection" titled something like "Playing Pip: when a Nine has to
 push." That one addition would close about 60% of the gap.
 -->
+
+<!-- ============================================================
+FRESH-EYES ASSESSMENT — 2026-04-29 (Claude cold read)
+============================================================
+
+ONE-LINE VERDICT: A surprisingly sharp Type 9 read on a young actress most coverage flattens — the "she could not leave the dance studio until her friends quit" detail is structurally diagnostic in a way that earns the entire diagnosis.
+
+STRONGEST SECTION: "Where Emma Myers keeps her anger" — the driver's-seat-as-storage-closet observation paired with the kill-with-kindness-by-replying-to-old-bullies-on-Instagram pattern is the most original Type 9 anger-routing analysis in the eight blogs.
+WEAKEST SECTION: "Why Jenna Ortega wanted to protect Emma Myers" — the section is largely repetition of the "people want to protect her" frame already built in TL;DR and the diagnosis bullet; the two-paragraph dwell on the bubble-wrap quote (which the internal review flagged) is still long.
+
+STRENGTHS:
+- "She picked the Radiohead song about being nowhere... then caught herself" is a scene-set hook that earns the read
+- The 3/8/9 contrast in the audition section ("A 3 steps on a line to win... a 9 to make awkward go away") is the cleanest single-line Enneagram move in the corpus
+- Pip Fitz-Amobi as "legitimized vehicle" is a real Type 9 / 1-wing distinction that does not exist in standard 9 readings — momentum requires permission
+- The "find God during a really challenging time" → "did not become a narrative, became a routine" line is precise — a Nine marking a turning point with a shape, not a story
+- "She auditioned for Wednesday and got Enid" / "she said this feels much better" is the central Type 9 evidence move and is properly worked
+- The Jennifer Garner "How do you do this?" rather than "What should I do?" distinction is surgical
+
+WEAKNESSES:
+- The Radiohead "How to Disappear Completely" beat is in the epigraph, the hook, and the closer — the internal review flagged 3x, and the writer kept all three
+- "She is not actively trying to vanish. She also, sometimes, wants to vanish. Both things stay true at the same time." — the "both things are true at once" cadence is in the hook AND the closer, with similar phrasing
+- The 1-wing characterization is asserted ("ethical spine," "Christian upbringing, two lawyer parents, disciplined routines") but barely evidenced beyond the parents-are-lawyers detail
+- Overnight-fame section + Protection section + closing all rehearse the same arc (people want to shield her / she didn't notice fame / mom told her at Christmas) — three cycles of the same beat
+- "A 3 / An 8 / A 9" type-comparison templates appear twice (audition + 3-to-9 attention loop) — recognizable rhythm
+- Working notes flag major load-bearing claims sourced through podcast appearances — Squeeze, Variety, Seventeen — which is fine, but the entire diagnosis hangs on press-cycle quotes from a 22-year-old, and the piece never acknowledges that her self-narration may not have caught up to her actual psychology yet
+
+GAPS / MISSED OPPORTUNITIES:
+- AGGGTM season 2 (which exists as of April 2026, having been ordered) — what does season 2 of the show that requires Pip to push harder do to a Nine? Either it broke her differently or it didn't, and the piece doesn't say
+- Wednesday Season 2 reception (premiered August/September 2025) — for a piece dated April 2026, the post-S2 emotional state is the central currency and is reported only in a single "I feel like I've got the hang of passionate fanbases now" quote
+- Her Korean heritage gets one sentence then disappears — Korean-American Christian Nine in Atlanta is a specific cultural position; the piece teases it and drops it (internal review caught this; not addressed)
+- No discussion of her actual acting craft — how does an introvert generate Enid's physical extroversion? The body-of-work analysis is absent; the piece is psychology with no craft layer
+- Nothing on her dating life (which the internal review flagged as a fan expectation) — even a "she has not made it public" beat would close the loop
+- The "I found God during a really challenging time" line is the most emotionally loaded in the piece and gets a single paragraph treatment
+- No Type 4 counter-reading is engaged — a 19-year-old who chose "How to Disappear Completely" and reads emo-band lyrics could plausibly be a withdrawn 4 with strong 9 social presentation; the piece dismisses the comparison in one sentence
+- The sister relationships (Avery, Isabel, Olivia, named only at the end) — internal review flagged these as never developed; still are not
+
+PATTERN HITS (DJ tropes that worked here):
+- The driver's-seat as Nine-anger-storage-closet observation is original and earned
+- The audition-3/8/9-contrast is the cleanest type-comparison move in the corpus — sharp, specific, three sentences
+- The 1-wing-ethical-spine framing actually does work with the Pip section — for once the wing isn't a footnote
+
+PATTERN MISSES (DJ tropes that felt formulaic):
+- The TL;DR accordion is the longest and most bullet-heavy of the eight (six bullets) — starts to read like a checklist
+- "Both things stay true at the same time" / "Both at once" — the dialectical-truth cadence appears in the hook and the close, identical to Sorkin's "Both descriptions are true" closing
+- "[Person] is the kind of person who..." / "Something in her asks for it" — vague psychological assertion appears multiple times where evidence would do more
+- The closing inner-thought-style "She figured out years earlier than most people ever do how to..." rhetorical button is the same shape as Sofia's closing inner-thought — works, but recognizable
+
+PRIORITY FIXES:
+1. Cut Radiohead from one of three placements — keep the closer (it's the strongest), drop from the epigraph or the hook. The internal review flagged this; the writer ignored the flag.
+2. Add post-Wednesday-S2 specific beat. The piece is dated April 2026 but S2 premiered August 2025 — eight months of post-S2 fame trajectory and how the Type 9 coping pattern held (or didn't) is the most current-tense diagnostic data and is missing.
+3. Engage one substantive critic-side or counter-type pressure — either the Korean-American cultural code-switching dimension, the Type 4 alternative reading, or the "she's 22 and her self-narration is in the press cycle, not her psyche." Right now everything inside the piece reinforces the diagnosis with no genuine pressure.
+
+============================================================ -->
+

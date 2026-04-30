@@ -257,3 +257,55 @@ She'd once written "30k" on a card and taped it to her mirror — her ceiling, t
 "I hope that they remember how fun everything is," she said about her legacy. "I want people to remember me as someone super duper fun and try not to think about the bad things in life."
 
 The parties are just bigger now (festival stages, podcast studios, DJ booths at The Roxy) and the strangers number in the millions. But the instinct hasn't changed. She's still the girl walking into a room where she doesn't know anyone, making sure nobody else has to feel that way.
+
+<!-- ============================================================
+FRESH-EYES ASSESSMENT — 2026-04-29 PASS 4 (Claude cold read)
+============================================================
+
+ONE-LINE VERDICT: Patient, evidence-rich Type 2 portrait that keeps finding signature details (mirror card, Wembley principle, Persian-private layer); also a piece that lets her be partly indictable (the naivety, the "controlling" DJ admission).
+QUALITY-CEILING TIER: TOP
+
+STRONGEST SECTION: "The Persian Girl Behind the Brand" — Mercury-as-principle (not bloodline) is precise, and the public/private split is built from named artists (Arash, Kamran & Hooman) rather than vague "heritage."
+WEAKEST SECTION: "How She Built It, One Room at a Time" — the Paris Hilton anecdote is good but the section is too smooth; everyone's nice, doors keep opening, and the cost paragraph is deferred to "Too-Nice Problem."
+
+STRENGTHS (3-5 bullets, specific):
+- Walking-into-LA-parties-alone is a genuine portrait detail, not a press-kit quote.
+- The "I want to control the room" DJing quote inverts the brand and the analysis uses it correctly.
+- The 30k mirror card is a textbook signature detail.
+- Stalker DM-to-gift-basket escalation is reported once and not weaponized — restraint earns it.
+- WME signing in Feb 2026 is currency; the ambition section refuses to let "warmth" do all the work.
+
+WEAKNESSES (3-5 bullets, specific):
+- The Dropouts exit gets framed as "intimacy over reach" — possible, but not the only read; she may simply have been outvoted on hot takes she lost. The piece picks the kindest interpretation.
+- Jake Webber breakup is "peaceful with pizza" — that's her framing; was there cost the piece elides?
+- Ambition section lists IMG, Marc Jacobs, Playboy, WME, but doesn't ask whether the "Tara Yummy Mindset" tour merch business has any of the dark side every parasocial brand has.
+- Italicized phrases ("_quiet war_", "_Accepted_", "_Small._") are stacked — the prose tic of single-word italicized callouts appears 5+ times and starts to read as performance.
+- Three-word self-description analysis ("Fun, Crazy, Short") is good but the conclusion ("keeping the real self tucked safely behind the performance") is a Type 2 cliché.
+
+GAPS / MISSED OPPORTUNITIES (3-6 bullets):
+- The "Tara Yummy Mindset" being sold to teen girls who DON'T have her gifts deserves examination — what does she actually owe them?
+- Her party-girl content in 2020-2021 (during pandemic restrictions) goes unaddressed.
+- Maz Jobrani / Max Amini named as inspirations but their actual material isn't compared to hers — the throughline is asserted not shown.
+- The Iranian regime's treatment of women is a live political question for a public Iranian-American figure; her decision to stay quiet on it (or not) isn't examined.
+- "Hate comments were so mean" — but what were they? The piece doesn't sample, so the reader can't weigh.
+
+PATTERN HITS:
+- Closing parallel-binary, soft form: "The parties are just bigger now... But the instinct hasn't changed."
+- "Father modeled X / mother modeled Y" tic appears in lighter form (father's work ethic, mother's Persian music).
+
+PATTERN MISSES:
+- No three-beat triplet.
+- No bolded mid-paragraph thesis sentence cluster.
+- No "child still doing" closer (she IS still doing what the child did, but it's earned by detail).
+- The single-word italics tic is heavy but distinct from "single-sentence dramatic paragraphs stacked."
+
+CRITIC-ENGAGEMENT: Engages the "fake" high school accusers and the stalker case, but no named industry critic; the controversies section is largely reframed harm-to-her, not harm-by-her.
+CURRENCY: yes — Feb 2026 WME signing, August 2023 breakup, August 2024 Roxy shows, 2025 stalker situation surfaced.
+DEFENSE-COUNSEL CHECK: Light. The Dropouts framing is the closest to defense-counsel — naming "intimacy over reach" lets a possibly-pushed-out exit read as principled choice.
+
+PRIORITY FIXES (numbered, 3 max):
+1. Cap the italicized-single-word tic. Five-plus instances ("_Accepted_", "_Small._", etc.) drift from emphasis to mannerism.
+2. Either deepen or cut the Maz Jobrani/Max Amini comparison — name a specific bit of theirs that maps to one of hers.
+3. Test the Dropouts framing against the harder reading: was she protecting intimacy, or was the format protecting her from having to be interesting? One sentence acknowledging the harder read would sharpen the section.
+
+============================================================ -->

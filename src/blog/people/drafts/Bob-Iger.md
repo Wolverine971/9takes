@@ -272,6 +272,58 @@ Arthur Iger died in 2002, three years before his son became CEO of The Walt Disn
 
 He did not get to see any of it.
 
+<!-- ============================================================
+FRESH-EYES ASSESSMENT — 2026-04-29 (Claude cold read)
+============================================================
+
+ONE-LINE VERDICT: A clean Type 3 portrait organized around a real diagnostic insight ("the engine stopped running from Arthur decades ago; it now runs to maintain the self the achievements built") — but the piece is overlong at 9 H2s and the second-act room-misreads (DeSantis, SAG-AFTRA, Marvel) are summarized in a list-of-bruises section that flattens what should be the hardest material to write.
+
+STRONGEST SECTION: "How Bob Iger acquired a decade" — the Steve Jobs whiteboard scene + the orchard pancreatic-cancer revelation 30 minutes before the Pixar announcement is the most cinematic moment in any of the 8 blogs. The "I've got a crazy idea" reading as a calibrated 5-word opener engineered to make Jobs listen is the diagnosis-by-mechanism the format does best.
+WEAKEST SECTION: "The room Bob Iger stopped reading" — the section is structurally ambitious (four bruises: the governor / the picket line / the vault / the activist) but each gets briefed rather than scened, and the cumulative effect is "list of 2023-2024 setbacks" rather than the psychological argument the H2 promises.
+
+STRENGTHS:
+- The "Sanity is what you protect... Sanity is the word his father had formally not been granted" connection between Arthur's manic depression and Bob's 4:30am VersaClimber ritual is the spine of the blog and is genuinely earned.
+- "I did not in any way want that picture to become my life" + "I became more and more capable of controlling mine" — Iger's own paired sentences about Arthur do the diagnostic lifting; the blog correctly steps back and lets them.
+- The Roone Arledge / Sinatra-rebuilt-overnight scene is pure 3-formation: "an Achiever who grows up around an inconsistent father... learns to achieve at exactly the level their current audience rewards" — earned, specific, and the Cap Cities → ABC → Disney genealogy gives the claim time-depth.
+- "I've got a crazy idea" / "Well, it's not that crazy" — Jobs's reply is the moment the calibration thesis lands.
+- The Shanghai-as-greatest-accomplishment beat (over Pixar) is the rare insight a blog like this can offer that mainstream Iger coverage doesn't: 18 years of patience as the test the patient Achiever was actually trained for.
+- The Willow "you kind of owe it" line repeated as the frame a 30-year-married-3 will say yes to is sharp.
+
+WEAKNESSES:
+- 9 H2s + multiple H3s + multi-paragraph type-theory beats. The piece is at least 8500 words and several middle sections (Eisner #2, Acquired a Decade) do similar work.
+- "VersaClimber at 4:30" appears in opener, TL;DR, dedicated H2, and twice in the body. Five placements of one ritual.
+- "Nobody wants to follow Eeyore" runs as epigraph + TL;DR + body callback + structural-irony in "stopped reading the room" section. Four placements.
+- "A Type 3 [does/doesn't] X" formula appears 8+ times. Becomes incantatory in the same way Cardi-B's "Type 8s" did.
+- "If I am not the CEO, what am I?" rhetorical question is the piece's deepest psychological claim and is asserted twice without quite getting evidence beyond "he came back."
+- The 2023-2024 bruises section relies heavily on quotes (Drescher, Peltz, Iger himself) without spending time inside any single moment. Pick one, scene it.
+- "He came back for the Bob Iger Arthur's son had spent five decades becoming" is a strong line but the "Arthur" / "Arthur's son" formulation has been used 4+ times and is starting to sound like a tic.
+
+GAPS / MISSED OPPORTUNITIES:
+- Willow Bay is named via "you kind of owe it" but the actual Willow — second wife, dean of USC Annenberg, controlling owner of Angel City FC — gets no character work. For a 3w2 the wife who selected the prestige container of his retirement is diagnostic.
+- His first marriage to Susan Trees (1973-1994) is unmentioned. A 30-year-old earlier marriage that ended right before the Cap Cities → Disney leap is biographical material a Type 3 piece should at least nod to.
+- Scott Bakula / Robin Williams / specific Disney creatives' takes on Iger as a personality (rather than as a CEO) are absent. Kevin Feige is the only collaborator quote and it's a generic "reads every script" line.
+- The Chapek succession failure was not just "the wrong successor" — Iger reportedly worked actively against Chapek post-handoff. The blog telegraphs this with "I was disappointed in what I was seeing" but doesn't engage whether Iger was a bad mentor or whether the 3-fused-with-role made succession structurally impossible.
+- His role at Apple's board (resigned 2020) and his rumored 2025-2026 political ambitions: zero engagement. For a 3 obsessed with prestige containers, the political-future question is the live one.
+- The Marvel/Star Wars over-extension explanation gets one self-deprecating Iger quote ("Quantity, in our case, diluted quality") but the piece never asks whether the over-acquisition was itself a Type 3 self-overreach — chasing the next acquisition trophy because retirement was already chasing him.
+- Counter-read: Iger has been credibly accused (by Peltz, by board members, by labor) of being an empty corporate operator without creative vision. The blog acknowledges the bruises but never engages the simpler critique that he is exactly what people see — a calibrated calm man who doesn't have an interior to misread.
+
+PATTERN HITS:
+- Pull-quote ("I exercise really for three reasons. One is health. The second is vanity. And the third is sanity") is the right line to elevate — three-word triplet with one word that doesn't fit the pattern.
+- "Bob Iger's childhood: the shadow Arthur cast" H2 is one of the cleaner signature/search hybrids in the corpus.
+
+PATTERN MISSES:
+- Closing 3-line stack ("Steve Jobs, a few weeks before he died... Arthur Iger died in 2002... He did not get to see any of it.") is the same 3-stack-of-deaths construction as the close of multiple corpus blogs. Powerful once; tired by repetition.
+- "What [person] is [still] [verb-ing]" H2 ("What Bob Iger is still proving") matches Cardi-B's "What Cardi B is still figuring out" and Neil-Strauss's "The Self He's Still Rehearsing" — the still-verbing closer is now corpus-formula.
+- "[Person] [verb], [verb], [verb]" three-verb-tricolon sentence rhythm appears in TL;DR, body, and close.
+- "Read the room, identify the currency, offer exactly the opposite" / "Reading rooms" / "the room he stopped reading" — "room" as central metaphor is invoked 8+ times; in the same blog where every other section uses "room," it stops being figurative.
+
+PRIORITY FIXES:
+1. Compress "The room Bob Iger stopped reading" — pick one bruise (probably SAG-AFTRA — Drescher's quote and the per-day pay arithmetic are the most diagnostically useful) and scene it. Use the others as one-line callbacks rather than full sub-beats.
+2. Cut "VersaClimber at 4:30" to two placements (opener + dedicated H2) and let the rest carry by implication. The sanity-vs-Arthur line is the engine; over-deploying the ritual dilutes it.
+3. Engage the simpler counter-read for one paragraph: maybe Iger is exactly what he looks like — a calibrated operator without an interior. The blog's deepest claim ("the achievement engine switches fuel from running-from-Arthur to maintaining-the-self-achievement-built") is actually compatible with that reading and would be sharper if pressure-tested.
+
+============================================================ -->
+
 <!-- SOURCES CITED IN RESEARCH & DRAFT
 
 Primary (direct quotes from Iger used in blog):

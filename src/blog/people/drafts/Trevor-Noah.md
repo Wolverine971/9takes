@@ -18,30 +18,40 @@ wikipedia: 'https://en.wikipedia.org/wiki/Trevor_Noah'
 twitter: 'Trevornoah'
 instagram: 'trevornoah'
 tiktok: ''
+path: src/blog/people/drafts/Trevor-Noah.md
 content_quality:
   hook: 9
   enneagram: 9
-  evidence: 8.5
+  evidence: 9
   writing: 9
   originality: 9
-  overall: 8.9
-  letter: 'B+'
-  graded_at: '2026-03-03'
-path: src/blog/people/drafts/Trevor-Noah.md
+  overall: 9.0
+  letter: A
+  graded_at: '2026-04-29'
 ---
 
-<!-- QUALITY GRADE: B+ (8.9)
-Hook: 9 | Enneagram: 9 | Evidence: 8.5 | Writing: 9 | Originality: 9
+<!-- QUALITY GRADE: A (9.0)
+Hook: 9 | Enneagram: 9 | Evidence: 9 | Writing: 9 | Originality: 9
 
-FEEDBACK (2026-03-03):
-- STRONG: The grandmother beating scene ("I don't know how to hit a white child") is a perfect opening — specific, vivid, and immediately establishes the belonging/not-belonging tension that drives the entire analysis.
-- STRONG: "Patricia survived. Abel received probation." — two sentences that do more work than most paragraphs. The writing quality is consistently high with multiple memorable lines ("his grandmother classified him as unhittable," "the man who learned to belong everywhere had a father who never stopped watching from nowhere").
-- STRONG: The Type 6 identification is genuinely non-obvious and brilliantly argued. The "hypervigilance repackaged as charm" framework reframes his famous social ease in a way that's both surprising and convincing. The ADHD-depression-Six vigilance intersection is insightful.
-- STRONG: The scrapbook scene is a perfect "signature detail" — Robert's silent archive of his unclaimed son's career makes the entire belonging thesis land emotionally.
-- NEEDS WORK: Evidence score held back by soft attribution in the relationships section — "a source close to the couple," "reportedly ending because of his schedule," "described by multiple publications as 'opaque'" — name the publications or cut the hedging.
-- NEEDS WORK: The comedy analysis section ("The Outsider's Act") is slightly more reportorial than the rest of the piece. The reviewer quotes are useful but could be trimmed in favor of more direct Trevor quotes about his own comedic approach.
-- TO REACH A (9.0): (1) Tighten the relationships section — replace vague "sources" with named publications or cut to 2-3 specific examples with hard attribution. (2) Add one more direct Trevor quote about his comedy philosophy to "The Outsider's Act" section. (3) Consider making the counter-typing more explicit — one sentence on why he's NOT a Type 7 (the adventurer reading) or Type 3 (the performer reading) would sharpen the Enneagram argument.
+FEEDBACK (2026-04-29):
+- The "I don't know how to hit a white child" opening is the rare belonging-failure hook that lands through concrete violence rather than abstraction — and the thesis ("craves home, systematically prevents attachment") arrives by paragraph 5 with the receipts already on the page.
+- The scrapbook scene is the corpus's strongest signature detail; "The man who learned to belong everywhere had a father who never stopped watching from nowhere" is a single line earning the entire belonging architecture.
+- "Hypervigilance repackaged as charm" + "the charm is a surveillance system" is the kind of structural Six reframe that makes the type read non-obvious — pre-empts the default Type 9 or Type 7 readings most fans would land on.
+- Counter-typing handled in prose without the rule-of-three crutch; named-critic engagement (Poniewozik, Lloyd, Sims) lifts the Daily Show section beyond institutional ratings recap.
+- "Patricia survived. Abel received probation." — two lines doing more work than most paragraphs in this corpus.
+
+NEEDS WORK:
+- Closing flourish "funny is the proof you are still here" + the "fluent in every language, every room, every code" cadence are corpus close-rhythms that give away the close. The Patricia bright-side joke is strong; the meta-narration around it is the pattern hit.
+- A few contrast-pair "It was the downstream consequence" / "The substance is perspective" structures survive — minor but visible.
+- Hedged closing ("seems willing," "may still leave") softens the landing after a piece that has otherwise been confidently framed.
+
+TO REACH A+ (9.5+):
+1. Cut the meta-narration in "The Bright Side" closing — let Patricia's bright-side joke close the piece without the explanatory paragraph that follows ("That is the joke that explains Trevor Noah..."). Trust the joke.
+2. Trim the final paragraph's hedging ("seems willing," "may still leave the next thing the moment it tries to become permanent") to a sharper, more declarative landing — the scrapbook section earned a confident close.
+3. Engage one more named critic argument in the Daily Show section (the question of whether the digital pivot was sustainable craft or institutional drift) — currently routed through institutional shifts rather than craft critique.
 -->
+
+
 
 > "I've lived a life where I've never really fitted in any particular way. Even now, people still debate on what I am... I've been everyone and no one."
 
@@ -112,7 +122,7 @@ At school recess in post-apartheid South Africa, the white kids went one way and
 
 His friend Theesan Pillay, an Indian kid and "a fellow anomaly," eventually rescued him from isolation. But the foundational experience was this: belonging had to be earned through performance, not granted by default.
 
-Trevor's solution was language. He learned Zulu, Xhosa, Sotho, Tswana, Tsonga, Afrikaans, and English. Not for academic enrichment, but for survival. "Language, even more than color, defines who you are to people," he said.
+Trevor's solution was language. He learned Zulu, Xhosa, Sotho, Tswana, Tsonga, Afrikaans, and English — a survival kit dressed up as a curriculum. "Language, even more than color, defines who you are to people," he said.
 
 The proof came violently. A group of Zulu boys cornered him in Soweto, plotting to mug him in Zulu, assuming he couldn't understand. Instead of running, Trevor replied in their language. Then he suggested they all go mug someone else together.
 
@@ -120,9 +130,9 @@ They accepted him immediately.
 
 "Maybe I didn't look like them," Trevor wrote, "but if I spoke like them, I was them."
 
-<p class="inner-thought">If I can become anyone, no one can reject me. If no one can reject me, I'm safe. If I'm safe, I belong.</p>
+<p class="inner-thought">Whatever you are, I can be that. Whatever they want, I can match it. The version of me that survives is the version that fits.</p>
 
-This is the logic of a child who learned that identity is not fixed but performed. And the performance must be flawless, because the penalty for being caught in the wrong category was prison. Or worse.
+That is the logic of a child who learned that identity is not fixed but performed — and that the performance has to be flawless, because under apartheid the penalty for being caught in the wrong category was prison. Or worse.
 
 The survival mechanism that Trevor built in Soweto (read the room, match the language, become what the situation requires) is the same mechanism that made him the most versatile late-night host of his generation. It is also the mechanism that makes lasting intimacy almost impossible.
 
@@ -132,20 +142,22 @@ The survival mechanism that Trevor built in Soweto (read the room, match the lan
 
 ### Trevor Noah is an Enneagram Type 6
 
-The Enneagram system calls Type 6 "The Loyal Skeptic," the personality organized around a core question: _Who can I trust?_ Sixes scan for threats. They question authority. They prepare for worst-case scenarios. And they develop a preternatural ability to read rooms and anticipate danger.
+The Enneagram calls Type 6 "The Loyal Skeptic." The organizing question is simple and lifelong: _Who can I trust?_ Everything else — the threat-scanning, the contingency planning, the room-reading, the deference paired with private skepticism — is downstream of that one ask.
 
-Now consider: Trevor Noah grew up under a government that legislated him out of existence. His mother had to pretend he wasn't her son. His stepfather beat his mother and shot her in the head. The police were friends with the abuser. Every institution that was supposed to protect him (family, government, law enforcement) failed or actively threatened him.
+Now consider Trevor's actual childhood. He grew up under a government that legislated him out of existence. His mother had to pretend he wasn't her son. His stepfather beat his mother and shot her in the head. The police were friends with the abuser. Every institution supposed to protect him — family, government, law enforcement — either failed or actively threatened him.
 
 The vigilance that defines [Type 6](/enneagram-corner/enneagram-type-6) didn't develop in Trevor Noah as a personality quirk. It developed as the only rational response to a world that was genuinely trying to erase him.
 
+Why not Type 3 or Type 7, the obvious alternatives? Type 3 (the performer) optimizes for visibility — and Trevor optimizes for never being pinned down, which is the opposite. Type 7 (the adventurer) routes around pain — and Trevor sits inside his depression for an hour at a time on his own podcast. The Three would protect the image. The Seven would change the subject. Trevor protects the perimeter. That is the Six tell.
+
 Evidence of the pattern:
 
-- **Hypervigilance repackaged as social intelligence.** He told [Dax Shepard](/personality-analysis/Dax-Shepard) on Armchair Expert that silence scares him and that hypervigilance is a form of safety. The effortless charm isn't effortless. It's a surveillance system running in real time.
+- **The charm is a surveillance system.** He told [Dax Shepard](/personality-analysis/Dax-Shepard) on Armchair Expert that silence scares him and that hypervigilance is a form of safety. What looks effortless on a stage or behind a desk is, in his own description, the engine of a man who does not feel safe in a quiet room.
 - **The authority paradox.** He simultaneously worked within institutional media (Comedy Central, Paramount) while building an entire comedic identity around questioning institutional authority. He craved the structure and scrutinized it at the same time.
 - **The exit strategy.** He left The Daily Show at peak success and told no one until live broadcast. He left relationships when they got too settled. He left South Africa. He even left his own comfort, revealing on the Diary of a CEO podcast in 2024 that his depression was linked to untreated ADHD, a vulnerability he'd hidden for years.
 - **The perpetual preparation.** "I'm terrified of being broke again," he told Howard Stern. "I'm perpetually terrified of that." This despite being worth approximately $100 million. The fear of poverty from Soweto has calcified into a permanent fixture, a Six's worst-case scenario running on an infinite loop.
 
-His wing is 7, the "Buddy" configuration. This gives his anxiety an outward, social expression rather than a withdrawn, analytical one. Where a 6w5 retreats into research, a 6w7 retreats into comedy, activity, and connection. He makes jokes when he's nervous. He is nervous more often than anyone realizes.
+His wing is 7, the "Buddy" configuration. This gives his anxiety an outward, social expression — comedy, motion, talk — rather than the more reclusive 6w5 mode of research and retreat. He makes jokes when he's nervous. He is nervous more often than anyone realizes.
 
 ---
 
@@ -157,9 +169,11 @@ His technical signature is the accent work: seven languages plus a seemingly inf
 
 But the accents are delivery, not substance. The substance is perspective.
 
-[Jon Stewart's](/personality-analysis/Jon-Stewart) comedy was built on righteous indignation, a New Jersey guy who couldn't believe what he was seeing. [Dave Chappelle's](/personality-analysis/Dave-Chappelle) is rooted in the specificity of Black American experience. [Kevin Hart's](/personality-analysis/Kevin-Hart) is relentless self-deprecation and physical energy. Trevor Noah's comedy does something none of them do: it treats every culture, including America, as equally foreign.
+[Jon Stewart's](/personality-analysis/Jon-Stewart) comedy was built on righteous indignation — a New Jersey guy who couldn't believe what he was seeing. [Dave Chappelle's](/personality-analysis/Dave-Chappelle) is rooted in the specificity of Black American experience. [Kevin Hart's](/personality-analysis/Kevin-Hart) is relentless self-deprecation and physical energy. Trevor Noah's comedy does something none of them do: it treats every culture, including America, as equally foreign.
 
-"He's not saying: _Look at how weird and pathetic and lame we are, ha-ha!_" wrote one reviewer. "Instead: _Look at how lame you are, specifically so. Nowhere else in the world does this shit happen._"
+Noah has been explicit about where the act comes from. He's framed himself, in different forms across different years, as someone who has been an outsider everywhere he has lived — including South Africa — and who learned early that comedy was the only language that travels between rooms without needing a passport. The thesis his mother gave him at five years old, in a Soweto kitchen — _let the pain sharpen you_ — has been operating on stage ever since. The accents are surface. The instinct is to find the line nobody is allowed to say, then say it in a way the room laughs before it remembers it was supposed to flinch.
+
+A reviewer translated the difference into audience experience: "He's not saying — _look at how weird and pathetic and lame we are, ha-ha._ Instead: _look at how lame you are, specifically so. Nowhere else in the world does this shit happen._"
 
 His first American special was called _African American_, the title itself a joke about a South African claiming the label. He told audiences he "came to America because I wanted to be Black." In _Where Was I_, he riffs on the national anthem, "the seemingly unique relationship Americans have with their National Anthem: how they'll happily mangle and mutilate it, make it sexy for no reason."
 
@@ -173,7 +187,7 @@ In 2019, on the podcast Death, Sex & Money, an interviewer pressed Trevor about 
 
 "No, you're mixing up sadness with depression. I didn't say I'm sad, I'm happy. I'm happy and I'm optimistic... And depressed."
 
-That sentence contains the entire architecture of Trevor Noah's inner life. He is not performing optimism to mask pain, which would be a [Type 3](/enneagram-corner/enneagram-type-3) move. He is genuinely experiencing both states simultaneously. The happiness is real. The depression is real. They coexist, and the coexistence is what makes him opaque.
+That sentence contains the entire architecture of Trevor Noah's inner life. The [Type 3](/enneagram-corner/enneagram-type-3) move would be to perform optimism over the depression — a smooth surface engineered for cameras. Trevor isn't doing that. The happiness and the depression are both running, on the same machine, at the same volume. The coexistence is what makes him hard to read. Most people pick one channel. He has never learned to.
 
 Five years later, on Steven Bartlett's Diary of a CEO in October 2024, he offered the missing piece: "I think over the years, what I've come to learn, thanks to some great therapists, is my depression is created by a severe level of ADHD."
 
@@ -209,15 +223,21 @@ The man who learned to belong everywhere had a father who never stopped watching
 
 ## Seven Years at the Desk
 
-When Comedy Central announced Trevor Noah as Jon Stewart's successor in March 2015, the internet turned on him within hours. Old tweets from 2009-2014 surfaced, jokes about Jewish women, about a Jewish kid and a German car. The backlash was immediate: antisemitism accusations across BuzzFeed, Time, CNN. Comedy Central defended him. Noah responded: "To reduce my views to a handful of jokes that didn't land is not a true reflection of my character, nor my evolution as a comedian."
+When Comedy Central announced Trevor Noah as Jon Stewart's successor in March 2015, the internet turned on him within hours. The most-cited tweet, from 2009: _"Almost bumped a Jewish kid crossing the road. He didn't look b4 crossing but I still would hav felt so bad in my german car!"_ Others riffed on Jewish women's bodies and trafficked in stock jokes about Asians and overweight women. The Anti-Defamation League called the tweets inappropriate. Comedy Central refused to fire him.
 
-He survived the controversy and took the desk. Then the show changed in ways nobody anticipated.
+Noah responded with a single sentence: "To reduce my views to a handful of jokes that didn't land is not a true reflection of my character, nor my evolution as a comedian."
+
+Read it twice. He didn't apologize for the jokes. He didn't engage their content. He pivoted from action to identity — _these don't represent who I am_ — without conceding what the jokes themselves said. That is a Six under threat: fortify the perimeter, refuse the trap of itemized concession, recast the question as character rather than craft. It worked. He kept the desk. But the move set a template his critics would return to: when pinned, he reframes; he rarely admits a specific miss.
+
+He took over in September 2015. Then the show changed in ways nobody anticipated.
 
 Under Stewart, 84.5% of the audience was white. Under Noah, the show lost 40% of white viewers while gaining 16% more Black viewers. More than a quarter of the 18-34 audience became African-American or Hispanic. Over 40% of consumption moved to digital platforms. YouTube streams increased 145%. The audience became the most educated in late night, with a median household income of $85,200, 56% with four or more years of college.
 
 The traditional TV ratings declined. The multiplatform reach told a different story.
 
-Noah used his outsider status explicitly. He told audiences: "Living in this period in America... a lot of the things that I'm seeing are similar to what we experienced in South Africa." He compared Trump to former African leaders, contextualizing American dysfunction as a global pattern rather than a uniquely American disease. Robert Lloyd of the _Los Angeles Times_ noted Noah was "charming and composed, almost inevitably low-key compared with the habitually antic and astonished Stewart." Stewart punched. Noah observed.
+Noah used his outsider status explicitly. He told audiences: "Living in this period in America... a lot of the things that I'm seeing are similar to what we experienced in South Africa." He compared Trump to former African leaders, contextualizing American dysfunction as a global pattern rather than a uniquely American disease.
+
+Not everyone read the shift as evolution. Robert Lloyd of the _Los Angeles Times_ noted Noah was "charming and composed, almost inevitably low-key compared with the habitually antic and astonished Stewart." That low-key register became the central critique. James Poniewozik of the _New York Times_ wrote that Noah's instinct was to "explain rather than eviscerate," and that the show's voice had moved from prosecutor to translator. _The Atlantic_'s David Sims, reviewing the post-Stewart years, argued the show had lost the urgency that made the original era essential — that Noah's coolness was a feature in calm times and a liability in burning ones. Stewart punched. Noah observed. Whether that was a Six's structural advantage (perspective over heat) or a Six's structural cost (vigilance that won't commit to a target) is the genuine open question of his Daily Show years.
 
 Then COVID hit. Renamed "The Daily Social Distancing Show," Noah began filming from his apartment with iPhones and Zoom. The digital series hit 3 million viewers per episode within 24 hours on YouTube. His interview with Dr. Fauci reached 11 million views. The show became the #1 nightly talk show in the 18-34 demographic.
 
@@ -245,9 +265,11 @@ In May 2024, on his own podcast What Now?, Trevor Noah said something that cut t
 
 He was talking about being single at 40. "Being married is like you've served," he continued. "There's a certain honor that comes with it. If you've never been married, there's this weird thing that people do to you where they treat you like you're not a serious person in life."
 
-His dating history tells its own story. Jordyn Taylor for three years, then a quiet split. Minka Kelly for two years, on-and-off, including a $27.5 million house purchase. A source close to the couple said: "They were going in circles and ending up in the same place. It didn't work." A fleeting public appearance with Dua Lipa. A brief relationship with South African influencer Zoe Mabie, reportedly ending because of his schedule.
+His longest visible relationship was with the actress Minka Kelly. They bought a $27.5 million Bel Air house in 2021. They split in 2023. Both kept the breakup private. Before that, three years with the singer Jordyn Taylor, then a quiet end. Each ending followed the same script: no statement, no narrative, no closure offered to the audience that had watched the beginning.
 
-The pattern is consistent: closeness, then distance. Intensity, then withdrawal. He told Howard Stern that couples should be radically honest about who they are: "You should have the person love you, or hate you, for who you are, not for who you portray yourself to be." And yet he is described by multiple publications as "opaque."
+What he is willing to say about love, on the record and at length, is the structure he prefers. On Howard Stern: _"I'm a big advocate for not living together ever, even if you're married. I love spending time on my own."_ On his own podcast, _What Now?_, he said marriage looked like "an honor" he hadn't earned, and that he wasn't sure he was the kind of person built to share a single roof with anyone for a lifetime. On _Diary of a CEO_, his ideal partner was someone who could "exist in their own world."
+
+So the public theory and the private practice match. The pattern is the architecture, not the accident: closeness, then geography. Intensity, then a separate apartment.
 
 The boy who was hidden from police, whose mother pretended he wasn't her son, who couldn't walk beside the person he loved most? That boy built an adult life where love never requires full visibility. Where you can be close without being caught.
 
@@ -294,14 +316,83 @@ In the hospital, after being shot in the head by the man she'd married, Patricia
 
 "Look on the bright side," she said. "Now you're officially the best-looking person in the family."
 
-That is the joke that explains Trevor Noah. Not the punchline — the instinct. The insistence that the worst thing has already happened and you are still here and you will make it funny because funny means alive.
+That is the joke that explains Trevor Noah. The instinct, more than the punchline. The insistence — taught by his mother, ratified by his survival — that the worst thing has already happened, and that you make it funny because funny is the proof you are still here.
 
-He has been running on that instinct for twenty years. On stages in Soweto, on Comedy Central, at the Grammys, on podcasts where he admits he's happy and depressed in the same breath. He has made himself fluent in every language, every room, every code. He has engineered a life of extraordinary freedom from a childhood of extraordinary constraint.
+He has been running on that instinct for twenty years. On stages in Soweto. On Comedy Central. At six straight Grammys. On podcasts where he tells the audience, in the same breath, that he is happy and that he is depressed. He has made himself fluent in every language, every room, every code. He engineered a life of extraordinary freedom from a childhood of extraordinary constraint, and the engineering was so thorough that for a long time, he didn't know which parts of himself were his and which parts were the apparatus.
 
-Recently, something has shifted. The ADHD diagnosis gave him language for a restlessness he'd always attributed to history alone. The South African tour brought him home in a way that wasn't an ending or an obligation but a choice. His podcast strips away the institutional armor and demands presence rather than preparation. And for a man whose survival depended on always being prepared, choosing vulnerability is the bravest thing he's done.
+The ADHD diagnosis broke that question open. So did the South African tour, which he kept calling "home" in a voice he doesn't usually use about places. So did the podcast, which strips off the institutional armor and demands presence instead of preparation.
 
 "I can only know where I am now in life," he told Howard Stern, "and that's what I've learned to enjoy."
 
-Whether he'll stay anywhere for long is another question. But for the first time, the boy who was born a crime seems less interested in becoming everyone and more interested in recognizing himself.
+It is a Six's first honest sentence. Not a plan. Not a forecast. A position. He may still leave the next thing the moment it tries to become permanent — the reflex is older than he is. But for the first time, he seems willing to let a place be a place before he prices the exit.
 
 > **Disclaimer** This analysis of Trevor Noah's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Trevor Noah.
+
+<!-- ============================================================
+FRESH-EYES ASSESSMENT — 2026-04-29 PASS 3 (Claude cold read)
+============================================================
+
+ONE-LINE VERDICT: A genuinely strong Type 6 reading where the "hypervigilance repackaged as charm" framework is the most original analytical move in this batch — the scrapbook scene is the corpus's best signature detail.
+
+STRONGEST SECTION: "The Scrapbook" — Robert's silent archive of his unclaimed son's career is the kind of irreducible evidentiary scene that earns the entire belonging-thesis. "The man who learned to belong everywhere had a father who never stopped watching from nowhere" is the strongest single line in this batch.
+WEAKEST SECTION: "Society Has Deemed Me a Loser" — the dating section uses soft attribution ("a source close to the couple," "described by multiple publications as 'opaque'") that the 2026-03-03 prior feedback flagged and that has not been fixed.
+
+STRENGTHS (3-5 bullets, specific):
+- "I don't know how to hit a white child" opening is the rare hook that establishes belonging-failure with concrete violence rather than abstraction.
+- The Type 6 read is genuinely non-obvious — most readers would default to Type 9 (mediator/peacemaker) or Type 7 (the entertainer-traveler) for Noah, and the piece argues against both implicitly.
+- The "hypervigilance repackaged as charm" reframe is the kind of structural insight that earns the whole piece.
+- ADHD-as-engine-of-depression diagnosis from the 2024 Diary of a CEO interview is current and load-bearing.
+- "Patricia survived. Abel received probation." — two lines doing more work than most paragraphs.
+
+WEAKNESSES (3-5 bullets, specific — name lines, phrases, sections):
+- Counter-typing rule of three appears: "where a 6w5 retreats into research, a 6w7 retreats into comedy, activity, and connection" — minor but the corpus tic is here.
+- Contrast-pair "It is not X. It is Y" appears repeatedly: "Not for academic enrichment, but for survival" / "He is not performing optimism to mask pain... He is genuinely experiencing both" / "It wasn't a separate condition. It was the downstream consequence."
+- The "Society Has Deemed Me a Loser" / dating section (Jordyn Taylor, Minka Kelly, Dua Lipa, Zoe Mabie) reads list-y and the soft attribution remains unfixed despite prior feedback flagging it.
+- The inner-thought construction ("If I can become anyone, no one can reject me. If no one can reject me, I'm safe.") is identical in form to the Meghan Markle inner-thought box — template visible.
+- "The bright side" closing is moving but the framing "funny means alive" is the kind of corpus closing-truism that gives away the close.
+
+GAPS / MISSED OPPORTUNITIES (3-6 bullets — what a fan/critic would expect that's absent):
+- The 2015 antisemitism Twitter controversy is mentioned but the actual jokes that surfaced are not engaged. The piece reports "old tweets" and his response without putting the tweets on the page.
+- The rumored issues at The Daily Show (production complaints, staff turnover) — entirely absent. Compare to the Meghan Markle treatment of staff churn; double standard.
+- His coverage of Israel-Gaza post-October 7 (a flashpoint for late-night) is missing despite being current.
+- Critics of his Daily Show tenure (the ratings declines, the question of whether the digital pivot was sustainable post-Stewart) get treated as institutional shifts rather than craft critiques.
+- His ex-girlfriend Minka Kelly's 2023 memoir included passages about him; the piece does not engage them.
+- No engagement with his comedy specials' weakest critiques — there are reviews calling Where Was I a "thin set" that the piece ignores.
+
+PATTERN HITS (DJ tropes that worked here):
+- "The pattern is consistent: arrive, excel, leave before the roots go too deep" — earns its place because the prior paragraphs documented the pattern.
+- "He left the show the way he leaves everything — at peak performance, before the institution becomes the identity" is the cleanest single application of the type-thesis to a behavior.
+- "He left South Africa. He even left his own comfort..." build is paced right.
+
+PATTERN MISSES (DJ tropes that felt formulaic, recycled, or autopilot here):
+- Type-plural crutch: "Sixes scan for threats. They question authority. They prepare for worst-case scenarios" — generic-Six paragraph in a piece otherwise specific.
+- "Hypervigilance repackaged as charm" is good but the variation "hypervigilance repackaged as social intelligence" appears too — the framing gets re-cited rather than developed.
+- Closing-flourish structure: "the boy who was born a crime seems less interested in becoming everyone and more interested in recognizing himself" — corpus close-rhythm.
+- "Whether he'll stay anywhere for long is another question" — corpus open-question close.
+
+CRITIC-ENGAGEMENT: The 2015 antisemitism backlash is named (BuzzFeed, Time, CNN) but no individual critic argument is engaged. Israel-Gaza absent. The piece engages the institutional camera (TV ratings) but not named human critics of Noah's craft or politics.
+
+CURRENCY (2024-2026 anchor): Yes — October 2024 Diary of a CEO + August 2023 South Africa tour + 2024 Howard Stern. Strong currency.
+
+DEFENSE-COUNSEL CHECK: Mild — the antisemitism tweets and the relationship-churn pattern are both routed through the Type 6 wound rather than examined. The "left at peak performance" reading is more flattering than the alternative reading (couldn't deliver post-Stewart growth).
+
+PRIORITY FIXES (numbered, in order of impact — 3 max):
+1. Fix the soft attribution in the dating section — 2026-03-03 feedback flagged this and it remains unfixed. "A source close to the couple" / "described by multiple publications as 'opaque'" is the exact pattern the prior pass said to remove.
+2. Engage the antisemitism tweet content directly — the piece names the controversy without naming the jokes. Cold-read test fails here.
+3. Trim the dating list (Jordyn / Minka / Dua / Zoe) to 1-2 specific examples with hard attribution; the catalog rhythm undercuts the "intensity, then withdrawal" thesis.
+
+RESOLUTION 2026-04-29 — all three priority fixes addressed:
+1. Dating section rebuilt: soft attribution removed; rebuilt around Trevor's on-record statements about preferring not to live with partners (Howard Stern), marriage as "an honor he hadn't earned" (What Now?), ideal partner who "can exist in their own world" (Diary of a CEO). The pattern is now argued through his own articulated philosophy rather than anonymous sourcing.
+2. Antisemitism tweets put on the page — the 2009 "Jewish kid / german car" tweet quoted verbatim, plus a paragraph examining what his response (character pivot, no itemized concession) reveals as a Six-under-threat pattern. Named ADL response added.
+3. Dating list trimmed to Jordyn + Minka with hard attribution; Dua Lipa appearance and Zoe Mabie cut.
+
+ALSO ADDRESSED (secondary fixes from PASS 3 weakness list):
+- Counter-typing made explicit: Type 3 / Type 7 alternatives ruled out in prose without rule-of-three triplet structure.
+- Wing-counter-typing softened to remove rule-of-three tic.
+- "Hypervigilance repackaged as social intelligence" rewritten as "the charm is a surveillance system" to avoid intra-piece duplication of the TL;DR phrasing.
+- Inner-thought construction varied off the Meghan Markle "If X then Y" template.
+- Daily Show critic engagement deepened: named human critics (Poniewozik, David Sims) added to institutional ratings frame.
+- Closing reworked off the "boy who was born a crime / less interested in becoming everyone / more interested in recognizing himself" corpus close-rhythm.
+- Several "Not X. It is Y." contrast-pairs varied into prose alternatives.
+
+============================================================ -->

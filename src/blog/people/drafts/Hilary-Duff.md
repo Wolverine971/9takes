@@ -265,3 +265,57 @@ Still open:
 - Source dependency still leans on 2026 press tour (Mythical Kitchen / Jay Shetty / Call Her Daddy)
 - No concrete childhood memory of Bob Duff before the drift
 -->
+
+<!-- ============================================================
+FRESH-EYES ASSESSMENT — 2026-04-29 PASS 4 (Claude cold read)
+============================================================
+
+ONE-LINE VERDICT: Confirms the pass-1 8.6 grade as deserved — the washing-machine hook, the Aaron Carter analysis, and the Haylie-as-betrayer-from-the-wrong-direction reading are all genuinely original Type 2 work that lets her be partly indictable without flattening her warmth.
+QUALITY-CEILING TIER: TOP
+
+STRONGEST SECTION: "The Family That Came Apart" — particularly the Haylie passage. "When the little sister who was supposed to be tagging along becomes the main event, the giving contract breaks from the wrong side. The Two doesn't feel triumphant. The Two feels like the original betrayer" is the most emotionally precise Type-2 mechanism description in this batch.
+WEAKEST SECTION: "Why luck... or something Sounds Like a Real Person" — pulls a few quotes from Rolling Stone but the section reads like album-rollout PR coverage; the analysis from earlier sections doesn't carry through.
+
+STRENGTHS (3-5 bullets, specific):
+- Opening "couldn't start a washing machine" is a single concrete deficit that does more work than any career stat could.
+- The Aaron-Carter / Lindsay Lohan section reads the rivalry as a Type-2 absorption pattern rather than a teen-pop spectacle.
+- Lizzie McGuire reboot section frames her boundary-setting against Disney as a Type-2 evolution earned over time.
+- "I worked for so long, it was just time for me to do life stuff" pull-quote is a Type-2 admission disguised as celebrity-press fluff.
+- "It's the Southern upbringing... but I can keep some of that but not destroy myself" — letting her own framing do the work without overlaying jargon.
+
+WEAKNESSES (3-5 bullets, specific):
+- Bob Duff's "I was unfaithful to our marriage" admission is quoted, but the analysis stops there — the man is a sympathetic-figure-in-acknowledgment without becoming a person.
+- Susan as "the epitome of a stage mom" (Frankie Muniz line) is named, then immediately deflected by Hilary's pushback ("I was never pushed into acting"); the reader is positioned to side with her without engaging Muniz's claim on its merits.
+- The "Chief Mom Officer / Chief Brand Officer / Chief Brand Director" portfolio is listed as a Two-with-3-wing tic but never tested as labor or as commercial calculation.
+- Haylie passage is excellent but fully one-sided — Haylie has never spoken publicly about it, but the unspoken dimension on her side ("the family moved to LA for Haylie's career") is acknowledged and then left there.
+- Matt Koma's "Which is so insane. But also very real. Those are real fears" line is the only outside-Hilary voice that does anything; otherwise the piece is Hilary on Hilary.
+
+GAPS / MISSED OPPORTUNITIES (3-6 bullets):
+- The Disney financial dispute ("$100 million in merchandise from which Disney allegedly never paid Hilary a single penny") is cited and then dropped — that's a real legal/labor question and a Type-2 boundary-failure point that gets one line.
+- Younger (TV Land, seven seasons) is invoked once as "a comedy whose whole premise was a woman faking a younger identity to stay employable" — the parallel deserves more.
+- The Material Girls and other early-career films flop history is structurally invisible.
+- Mike Comrie's perspective on the divorce — he's named, he's praised, he never speaks.
+- Ashley Tisdale's essay and Haylie's like — the moment the piece engages a recent event with named external actors, and the piece could have asked what Tisdale's account claims rather than treating the like as the load-bearing fact.
+- The Dakota Fanning friendship via tennis is a charming line; underused.
+
+PATTERN HITS:
+- "Cushion-the-critic" rhythm: Frankie Muniz's stage-mom comment is named then immediately followed by Hilary's pushback that defangs it.
+- "Sympathetic-partner stock figure": Matt Koma is the sympathetic husband, structurally ("a husband who writes songs with her about the worst parts of her life").
+- Closing parallel-binary: "She still worries Matt will leave her... She still wants her father to really love her. She still does not fully understand why her sister won't speak to her. But she stopped performing over it."
+
+PATTERN MISSES:
+- No "child still doing" closer in canonical form.
+- "Father modeled X. Mother modeled Y." doesn't formalize but the dynamic (father drifted, mother stayed/managed) is implicit.
+- Type-plural diagnostic crutch is restrained — "For a Two..." appears but with mechanism.
+
+CRITIC-ENGAGEMENT: Engages Frankie Muniz by name but defangs him. Otherwise minimal — no named critic of her music, acting, or brand decisions surfaces with their argument intact.
+CURRENCY: yes — luck... or something (Feb 2026), Call Her Daddy (Feb 2026), Mythical Kitchen (March 2026), Tisdale-essay/Haylie-like (Jan 2026).
+DEFENSE-COUNSEL CHECK: Mostly clean. The Frankie Muniz passage is the closest approach — claim raised, immediately rebutted by Hilary, analysis sides with her without weighing whether stage-mom dynamics did shape the outcome (the piece earlier said Susan moved both girls to LA, so the Muniz framing isn't crazy). The "Disney allegedly never paid Hilary" line is a real failure of self-protection that could be analyzed as Type-2 boundary work but is dropped.
+
+PRIORITY FIXES (numbered, 3 max):
+1. Re-engage the Frankie Muniz stage-mom claim on its merits for one beat before letting Hilary's rebuttal close it; right now the rebuttal is allowed to win without the question being weighed.
+2. Develop the Disney $100M-merchandise non-payment as a Type-2 boundary-failure case — it's a load-bearing fact for the giver-who-forgot-herself thesis and currently sits unused.
+3. Trim the "luck... or something Sounds Like a Real Person" section by 50% — it's rollout-coverage texture rather than analysis, and the piece is already strong without it.
+
+============================================================ -->
+

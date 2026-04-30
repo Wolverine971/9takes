@@ -241,3 +241,53 @@ All six overdones addressed: epigraph cut; car-keys middle beat removed (motif n
 Structural note: Bachelorette cancellation stays chronological, but the lede already teases it ("America was about to fall in love… Then ABC saw…").
 -->
 
+<!-- ============================================================
+FRESH-EYES ASSESSMENT — 2026-04-29 (Claude cold read)
+============================================================
+
+ONE-LINE VERDICT: A sharp, news-current Type 7w8 read with one of the strongest cold opens in the corpus (the hotel-door / car-keys dissociation scene), and the rare Enneagram celebrity piece where the diagnosis genuinely changes how you understand the public story.
+
+STRONGEST SECTION: "The Barstool, the Plea, and Three Pregnancies in Ten Months" — the velocity argument ("the body finally registering a bill") is the cleanest Type 7 reading in any piece I've reviewed, and stacking the assault + pregnancies side-by-side gives the diagnosis real evidence weight.
+WEAKEST SECTION: "How Taylor Frankie Paul Turned a Scandal Into a Hulu Franchise" — the Mike Majlak / Theo Von / Brittany Broski lineup at the section close is a list of 9takes internal links that doesn't earn the comparison. None of those three did the same thing TFP did, and the parallel feels like SEO-driven cross-linking.
+
+STRENGTHS:
+- The hotel-door / car-keys dissociation cold open is genuinely original — most TFP coverage opens with the soft-swinging livestream, and starting with the dissociation flips the frame from "scandal queen" to "person whose body stopped keeping up."
+- The 7→1 stress arrow is delivered with real evidence — the Call Her Daddy "I had no tools at that time" quote is exactly what 7→1 disintegration sounds like.
+- "Confess, prosecute, confess again. The loop is the point." — the cleanest single line of analysis in the piece.
+- The 40-Days / hell-on-earth / Easter Sunday close is doing genuine work — using the Mormon ritual calendar to frame a deconversion announcement turns biographical chronology into thesis evidence.
+- "She isn't bad at keeping secrets. She can't survive them." (TL;DR) is the kind of line that does in 8 words what most Enneagram pieces do in 800.
+
+WEAKNESSES:
+- "Detonate" / "detonator" / "detonation" appears 4 times despite the prior trim noted in the revision comment. The persona_title is "MomTok's Restless Detonator" so it's load-bearing in branding — but in the body it's still doing too much.
+- The Bachelorette cancellation section ("Why ABC Canceled Taylor Frankie Paul's Bachelorette") narrates a procedural news beat (TMZ video, Disney statement, Dakota's protective order, supervised visitation, Hulu pause) without the thesis-pressure the rest of the piece delivers. The section title implies analysis; the section delivers chronology.
+- The Marie Claire Australia "chaos, candor, and charisma" quote is bolted into the Temple section but doesn't quite fit the paragraph's argument about pre-marital pressure.
+- "The hotel door and the car keys are the whole blog in one image" — the closer claims this but the image only appears in the lede; in a 2,500-word piece, a one-image-bookend structure asks the reader to remember 2,400 words back.
+- "The motion kept going after the body stopped" — close hits hard, but the piece never quite lands what "stopping" looks like for a 7. The April 23 IG/TikTok deactivation is the data point but the piece doesn't sit with what that deactivation costs a Type 7 whose engine is narration.
+- Demi Engemann gets included as the redemption-of-an-enemy beat ("the alternative is being alone with yourself") but Demi was the season-long antagonist who called her "disgusting" — that's a bigger reversal than one paragraph can carry without explanation.
+
+GAPS / MISSED OPPORTUNITIES:
+- The actual money — what TFP makes from SLOMW, what she lost when ABC pulled The Bachelorette, what her TikTok ad rates were before deactivation — would anchor the analysis in the velocity argument. The piece argues she monetized scandal but never specifies the amounts.
+- "Soft swinging" is defined inline but the 9takes-platform angle — what Mormonism specifically *forbids* and what soft swinging is *trying to negotiate around* — isn't explored. A reader who isn't Mormon-literate might miss why this particular violation broke a particular community.
+- The TFP / SLOMW cast pay structure (per Parade source in the bibliography) is missed — knowing what the rest of MomTok makes vs. what TFP makes would help the audience understand whether the rest of the cast is rooting for or against her.
+- The DA-declined-charges decision on the 2023 arrest is mentioned but not interrogated — why didn't they file? The piece argues TFP's confession-as-exit pattern but doesn't engage what happens when the legal system declines to provide the consequence she might subconsciously be seeking.
+- No engagement with how SLOMW frames TFP — is the show flattering? exploitative? Hulu's editorial choices about her are part of the persona-management story.
+- Type 7→5 growth arrow not named or evidenced. The piece nails 7→1 stress; the integration direction is absent, which makes the diagnosis feel one-sided.
+
+PATTERN HITS (DJ tropes that worked here):
+- TL;DR accordion bullets are tight and the "She isn't bad at keeping secrets. She can't survive them" bullet is genuinely a thesis statement.
+- Italicized inner-thought tag ("Of course I'm moving this fast. Slowing down is the part I can't survive.") works because it sits inside a section that earned it.
+- The required H2 ("What is Taylor Frankie Paul's personality type?") doesn't disrupt because it's followed by genuine analytical prose.
+
+PATTERN MISSES (DJ tropes that felt formulaic, recycled, or autopilot here):
+- The Mike Majlak / Theo Von / Brittany Broski cross-link list at the close of "Hulu Franchise" section is the same internal-link convention used in the Keith Lee piece (Jelly Roll) and elsewhere. Feels like SEO obligation.
+- "X isn't Y. It's Z." cadence: "She isn't bad at keeping secrets. She can't survive them" / "The iceberg was the private pain. The tip was what she chose to make public" / "It wasn't an accident. It was an escape route." — three uses inside the first 800 words.
+- Single-image bookend (lede image → close callback) — same convention used in Harrison Ford ("schmuck" → "schmuck closer") and Keith Lee (PAW Patrol → grandmother's cornbread).
+- Required search-intent H2s (4 of 8 H2s) read as deliberate — they work, but the cumulative effect makes the piece feel optimized.
+
+PRIORITY FIXES:
+1. Cut the Mike Majlak / Theo Von / Broski crosslink list from the Hulu Franchise section — the parallel doesn't hold and it reads as 9takes housekeeping.
+2. Tighten the Bachelorette cancellation section into thesis-driven analysis instead of chronology. The TMZ video / Disney statement / Dakota protective order are facts; the question the piece should answer is whether *the cancellation itself* is the 7→1 disintegration ABC actually saw.
+3. Cut one "detonate" usage — the title needs it, the lede needs it, the rest doesn't.
+
+============================================================ -->
+

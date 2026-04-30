@@ -340,3 +340,50 @@ The same dissatisfaction that drove him into that freezing coach house is the on
 "For vision, one might equally well read stubbornness. I am claiming nothing but the virtues of a mule."
 
 He has been making things and finding them insufficient for over fifty years. The son who taught himself to use the lathe. The washing machine he calls his "favorite failure." The electric car that cost half a billion pounds and never carried a passenger. The vacuum cleaner that took 14 years and now outsells everything that rejected it. Every one of them a small proof of a thesis that a nine-year-old orphan needed to be true: broken things can be fixed. And every one of them, once fixed, revealing the next thing that's wrong.
+
+<!-- ============================================================
+FRESH-EYES ASSESSMENT — 2026-04-29 (Claude cold read)
+============================================================
+
+ONE-LINE VERDICT: The strongest blog in this batch — the Holt Railway Station opener, the Deirdre kitchen-classroom detail, and the Brexit/Singapore hypocrisy contradiction are all load-bearing, and the piece earns its A grade because the typing is woven, not labeled.
+
+STRONGEST SECTION: "Deirdre Taught a Life Drawing Class in the Kitchen" — the partnership detail is the structurally critical material, the bailiff/kitchen image is unforgettable, and Deirdre's one-word description ("Stubborn") is the perfect punctuation.
+WEAKEST SECTION: "What is James Dyson's personality type?" — the only section where DJ does the type-theory drop instead of trusting the narrative. The Type 1/anger/inner-critic framing is correct but reads more textbook than the rest of the piece.
+
+STRENGTHS (3-5 bullets, specific):
+- The "Holt Railway Station, 1956 ... his father waved from the back door" cold open is the best opener in this batch — quiet, specific, restrained.
+- "I felt I was alone against the world" picked up later as "Independence isn't a political position for Dyson. It's an identity" is real structural callback craft.
+- Quote density is exceptional. Every section is anchored in his own words ("I am an amateur engineer," "There is no such thing as a quantum leap," "I had no plan B"), not paraphrase.
+- Anger as Type 1's primary engine — and naming it explicitly using Dyson's own words ("In order to fix it, you need a passionate anger about something that doesn't work well") — is the cleanest type-evidence move in any of the 9 blogs.
+- The Brexit/Singapore hypocrisy contradiction is engaged head-on rather than dodged ("he sued a newspaper for calling him one. He lost"). The piece doesn't soften him.
+
+WEAKNESSES (3-5 bullets, specific — name lines, phrases, sections):
+- "That's how I'm built" / "stubbornness doesn't explain the anger. And failure doesn't explain why he kept going" — these mic-drop lines work, but the piece has 4-5 of them in close succession in the typing section. Risks becoming a DJ rhythmic tic.
+- The bullet list ("Anger as the primary engine, not curiosity or ambition") in the typing section breaks the otherwise-narrative flow. Could be prose.
+- "What the public sees / What actually happened" contrast panel is contentually flat — the right side ("man in a freezing coach house") doesn't add new information that the prose hasn't already delivered.
+- "He's 78 and still running" appears in the TL;DR; "James Dyson is 78. He remains the chief engineer ..." appears later — only redundancy in an otherwise tight piece.
+- The "key-stat" callout box ("Age 32 / Forced out of his own company") is the kind of UI furniture that disrupts reading flow more than it adds.
+
+GAPS / MISSED OPPORTUNITIES (3-6 bullets — what a fan/critic would expect that's absent):
+- His son Jake is named once at the end — but the father-son dynamic, given that Dyson lost his own father at 9 and Jake now runs engineering, is the load-bearing succession question and it's barely touched.
+- The Jeremy Fry mentor relationship is set up beautifully ("father figure Dyson had lost") but never returns — what happened with Fry, and how Dyson grieved him, would have been a powerful Type 1 closure beat.
+- The 2002 UK manufacturing exit and 2019 Singapore HQ are mentioned in one paragraph; the size of that public betrayal of "British engineering" deserves more than a paragraph if the piece wants to land the hypocrite question.
+- Hand-dryer-in-public-restrooms is name-checked as a quote but the Airblade business — Dyson's most successful B2B product and a real "fix what's broken" exemplar — is invisible.
+- No engagement with the Dyson Institute graduates and what they say about the man — these are kids he hand-selected; their voices would be the strongest available.
+- His relationship with Tony Blair, then Brexit, then his lobbying-letters-to-government scandal in 2021 — the most contemporary live-fear beat — is absent.
+
+PATTERN HITS (DJ tropes that worked here):
+- The "permanent itch" framing as the closing concept ("the itch isn't a flaw. It's the whole engine.") works because the piece has earned it — every section has been about not being satisfied.
+- The "Why he can't stop" thesis as a question that the piece spends 3,000 words answering, rather than declaring upfront.
+
+PATTERN MISSES (DJ tropes that felt formulaic, recycled, or autopilot here):
+- The "Most people see X. The truth is Y." reframe ("The popular reading of James Dyson is 'stubborn inventor' ... But stubbornness doesn't explain the anger") is the same opening move as in the Jensen Huang typing section. Both work; together they're a tic.
+- "He cannot put the bike down" / "He's 78 and still running" / closing imagery of a child grown up still doing what a child started — this exact closing template appears in Snoop, Tim Cook, Sam Altman, AND Dyson. Four of the nine.
+- The "wife was the secret co-founder" beat is also in the Jensen Huang piece (Lori) and the Reed Hastings piece (Patty Quillin, sort of). Here it's earned and detailed; that's why it works.
+
+PRIORITY FIXES (numbered, in order of impact — 3 max):
+1. Cut the bullet list in the typing section. Convert to prose. The piece's voice is so strong that the bulleted "evidence" feels like a stitched-in genre concession.
+2. Add a Jake Dyson / succession beat — the orphan who built so nothing could be taken from him is now handing it to his son. That's a load-bearing arc the piece sets up and never lands.
+3. Engage the 2021 lobbying scandal (texts to Boris Johnson) for one paragraph — it's the cleanest live test of "moral conviction about how things should work" colliding with self-interest, and the piece's honesty would benefit.
+
+============================================================ -->

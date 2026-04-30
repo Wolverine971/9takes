@@ -345,3 +345,57 @@ Whether that shift happens remains to be seen.
 The drive that makes you build empires is the same drive that makes "enough" feel impossible.
 
 > **Disclaimer:** This analysis of Alex Hormozi's Enneagram type is speculative, based on publicly available information, and may not reflect his actual personality type.
+
+<!-- ============================================================
+FRESH-EYES ASSESSMENT — 2026-04-29 PASS 3 (Claude cold read)
+============================================================
+
+ONE-LINE VERDICT: A solid, well-evidenced Type 3 portrait that earns its read on the strength of the Tony Robbins confession and the Iranian-immigrant origin, but leans on the corpus's familiar 3 vocabulary instead of finding what's specifically Hormozi.
+
+STRONGEST SECTION: "The Tony Robbins Conversation: When a Type 3 Confronts His Shadow" — duty/devotion reframe is the piece's intellectual peak; sets up a real type-grade insight rather than recycled Achiever lore.
+WEAKEST SECTION: "How Type 3 Thinks: The Frameworks That Reveal His Mind" — Value Equation + Volume Negates Luck section reads like business-content reheated as psychology, doesn't earn its space.
+
+STRENGTHS (3-5 bullets, specific):
+- The "$50 million confession to Tony" sets the thesis with restraint instead of a stat-shock paragraph.
+- Iranian-American immigrant frame is sourced and load-bearing, not decorative; the "pursuing what my father would have liked me to do" quote pulls real psychological weight.
+- Trauma-comments controversy gets engaged honestly, naming the Type 3 shadow ("when you've built an identity on overcoming obstacles, other people's pain looks like a choice").
+- Frugality paragraph closes with a sharp contradiction ("the man who built an empire on '$100M' branding doesn't live like he has $100M") instead of resolving it.
+- Skool section reframes the move as "infrastructure for other people's businesses" — actually argues a growth thesis instead of just narrating.
+
+WEAKNESSES (3-5 bullets, specific — name lines, phrases, sections):
+- Counter-typing rule of three appears in "Why Type 3 and Not Type 8 or Type 1?" — Type 8s want X / Type 1s want Y / Alex wants Z. Pure tic.
+- Triple front-loading: TL;DR + bolded intro graf + "What is Alex Hormozi's Personality Type?" all restate the same Achiever thesis.
+- Contrast-pair tic appears multiple times: "It isn't willpower. It's subtraction." / "It's not about wanting more. It's about what stops when you stop." / "He's not giving away money. He's accumulating a different kind of proof." Cap should be 1.
+- "$100M Money Models Launch" reads like a press-release paragraph — three stat-shock blocks dropped consecutively without psychological lens.
+- Closing line ("the drive that makes you build empires is the same drive that makes 'enough' feel impossible") is the closing parallel-binary tic — a tidy formula instead of a scene.
+
+GAPS / MISSED OPPORTUNITIES (3-6 bullets — what a fan/critic would expect that's absent):
+- Leila gets a tribute paragraph but is treated as a stabilizing accessory; the actual intellectual partnership / the rumor she's the operator and he's the face goes untouched.
+- No engagement with the central critic argument that Hormozi is a guru selling the appearance of business success — that the brand is the product. The "oversimplification" graf gestures at it but defangs.
+- No look at the YouTube/X comment ecology around him — fan/skeptic dynamic is part of the phenomenon and absent.
+- The Acquisition.com portfolio is asserted at $250M but never named — what does he actually own? Reads vague.
+- No engagement with whether the "duty vs devotion" reframe actually changed anything. Does Tony's reframe stick, or does Alex go right back to grinding two days later?
+- Missing: a private-Alex moment. The whole piece is the public Hormozi. What's he like at dinner? With Leila off-camera?
+
+PATTERN HITS (DJ tropes that worked here):
+- The trauma-comments engagement — naming the type's blindspot rather than excusing it — is the corpus at its sharpest.
+- The Tony Robbins reframe section earns its didacticism because the source quote does heavy lifting.
+
+PATTERN MISSES (DJ tropes that felt formulaic, recycled, or autopilot here):
+- "Type 3s do X. Type 3s do Y. Type 3s do Z." appears throughout — type-plural diagnostic crutch on autopilot.
+- "Same core drive, opposite tactics" comparison to Taylor Swift is a corpus-cliché crosslink.
+- "Type 3 in its purest form" (used twice in the piece) is filler when an actual scene would do the work.
+- "Eight years from floor mats to nine figures" is a stat-shock paragraph standing alone for drama.
+
+CRITIC-ENGAGEMENT: Names institutional critics (the trauma backlash, the manipulative-sales-tactics critique, the oversimplification critique) but mostly summarizes them rather than naming a specific human voice — defangs by talking to "critics argued."
+
+CURRENCY (2024-2026 anchor): Yes — the August 2025 Guinness World Record book launch and the January 2025 Tony Robbins podcast both serve as current-tense anchors. This is one of the more current-feeling blogs in any batch.
+
+DEFENSE-COUNSEL CHECK: Mostly avoided — the trauma-comments section actually convicts, doesn't excuse. But the sales-tactics graf ("Type 3s at their worst justify means by results") and the closing on "duty vs devotion" both lean toward enneagram-as-explanation rather than enneagram-as-diagnosis.
+
+PRIORITY FIXES (numbered, in order of impact — 3 max):
+1. Cut the "Frameworks" H2 — the Value Equation and Volume Negates Luck don't earn their psychology framing. Compress into one paragraph if needed for SEO.
+2. Replace the "$100M Money Models Launch" stat-block section with a single scene from launch day or cut entirely; right now it stalls the second half.
+3. Find one private/off-camera Hormozi detail (Leila's perspective beyond the supportive-spouse frame, an inner-circle voice, a habit nobody else writes about) — the piece reads from public material the reader has already absorbed.
+
+============================================================ -->

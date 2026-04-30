@@ -247,3 +247,59 @@ That's what Matt Damon would put on a billboard if he could say one thing to the
 It takes extraordinary discipline to remain ordinary in a world designed to make you extraordinary. At fifty-five, he's still walking his kids to school. Still showing up for Ben. Still building water systems in countries most Americans can't find on a map. Still married to the bartender.
 
 The question Matt Damon has been answering his whole life isn't whether he's talented enough. It's whether he's good enough. And the answer is always the same: not yet. Keep going.
+
+<!-- ============================================================
+FRESH-EYES ASSESSMENT — 2026-04-29 PASS 3 (Claude cold read)
+============================================================
+
+ONE-LINE VERDICT: A craft-confident, well-sourced Type 1 portrait that works because the sourced quotes do the heaviest lifting — the writer's job is mostly framing, and the framing is mostly good.
+
+STRONGEST SECTION: "The Body as a Moral Instrument" — the specificity of the Courage Under Fire breakdown ("your heart didn't shrink"), the Bourne boxing detail, and the Fresh Air quote about "weird obsessive thing" form the most cohesive block. Type-1-as-discipline-not-ambition is correctly distinguished and earned.
+WEAKEST SECTION: "The Missteps That Reveal the Machinery" — three controversies bullet-listed and resolved with a single explanatory frame ("internal moral framework that he experiences as principled and fair, failing to recognize..."). Each deserved its own engagement; they get a unified absolution.
+
+STRENGTHS (3-5 bullets, specific):
+- The Hackman-as-reference detail (Hackman blinking on the cuts in The Conversation, per Murch) is the kind of craft specificity that earns reader trust.
+- The Water.org section is structurally sourced (Gary White, the "600 years" line, the Haitian girl's "I'm going to play" quote) and resists sentimentality.
+- "He's not saying he's afraid of failure. He's saying he's afraid of not committing hard enough." — useful close-reading that distinguishes the Type 1 wound from generic ambition.
+- The Affleck-friendship section avoids hagiography by quoting "I was there for all of it" and letting that flat statement stand.
+- "I fell in love with a civilian" + the engineer-describing-a-system framing of his privacy is a smart structural insight.
+
+WEAKNESSES (3-5 bullets, specific — name lines, phrases, sections):
+- "Not ambition. Not career strategy. Discipline." — opening contrast-pair tic flagged in pass 1.
+- "Hackman could sit so deeply in a character and be so moving even when he was doing very little." — paraphrased as quote without clear attribution boundaries; reads as Damon speaking but is constructed.
+- "The body is only the most visible part of the commitment." — single-sentence dramatic paragraph used as section transition, multiple times.
+- The "Missteps" section uses the phrase "Not cruelty. Not malice." — pass-2's contrast-pair-as-dismissal, here serving exactly the defense-counsel function.
+- The closing line ("not yet. Keep going.") is an authorial verdict putting words in the subject's mouth. Pass 1's closing-image-of-the-child-still-doing-what-the-child-did pattern.
+
+GAPS / MISSED OPPORTUNITIES (3-6 bullets — what a fan/critic would expect that's absent):
+- The Stillwater controversy (the family of the real-life inspiration, Amanda Knox, publicly objected) goes unmentioned. A fan-or-critic read on Damon as the principled-everyman should engage where his moral confidence has caused real harm to identifiable people.
+- The Project Greenlight Effie Brown moment is named but the Brown-side of the encounter is not quoted. The piece tells us Damon was wrong; it doesn't tell us what Brown said.
+- The "f-slur" paragraph is sanitized to a degree that elides what was actually said. A fan reads this and notices.
+- No engagement with whether his political quiet (he's been notably absent from large political moments while Affleck has been loud) is itself a Type 1 choice or an avoidance.
+- The Damon-Weinstein knowledge question (the 2017 reporting that he had heard about the Gwyneth Paltrow incident) is absent. The "principled missteps" section without this is incomplete.
+- No critic is named. The Effie Brown moment had named-person critics; the piece converts them into "the backlash."
+
+PATTERN HITS (DJ tropes that worked here):
+- The single-line opening hook ("In 1996, Matt Damon ate nothing but chicken breast for three months") is concrete and earns the reader's attention.
+- Childhood-wound origin: Cambridge communal house, Nancy Carlsson-Paige's rigorous parenting framework. Specific, sourced, structural.
+- The dream-after-funeral closing-of-Father section is the corpus's symbolic-image trope used well.
+
+PATTERN MISSES (DJ tropes that felt formulaic, recycled, or autopilot here):
+- "Not ambition. Discipline." — contrast-pair tic.
+- "This isn't ambition talking. Ambition wants results. This wants something deeper" — variant of the same tic.
+- "It takes extraordinary discipline to remain ordinary in a world designed to make you extraordinary." — closing parallel-binary, pass 2's flag.
+- "Not cruelty. Not malice. A blind spot..." — contrast-pair as dismissal.
+- "The work is never finished" / "the discipline is the identity" — the bolded mid-paragraph thesis sentence pattern in the TL;DR.
+
+CRITIC-ENGAGEMENT: Engages the Project Greenlight moment, the #MeToo "spectrum of behavior" comment, and the slur-clarification — but absorbs all three into a single explanatory model that ends with "the reformer reforms. Including himself." The pattern is named but no critic is given a voice. Specifically misses Effie Brown.
+
+CURRENCY (2026 anchor): Yes — 2026 Howard Stern interview reference, The Odyssey upcoming. Currency is fine.
+
+DEFENSE-COUNSEL CHECK: Yes. The Missteps section is the textbook example. Three real incidents, three Damon explanations, one unified Type-1 absolution. The Type 1 framework is used to redescribe an internal-moral-framework problem as a principled-but-blind-spot problem, which is gentler than the original critiques deserved. "The reformer reforms. Including himself." is the exit.
+
+PRIORITY FIXES (numbered, in order of impact — 3 max):
+1. Rebuild the Missteps section. Quote Effie Brown. Quote a critic of the "spectrum of behavior" comment. Let one of those critics not be wrong, even after the explanatory frame.
+2. Engage Stillwater. The Knox family's public objection is exactly the kind of "internal-framework moral failure" the piece names abstractly — it has a concrete instance and the piece skips it.
+3. Cut the closing "not yet. Keep going." Authorial ventriloquism. Let "Put your phone down for two hours a day" be the final image — it's already the better one.
+
+============================================================ -->

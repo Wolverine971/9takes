@@ -297,3 +297,57 @@ Kim Kardashian's story isn't about fame. It's about what happens when someone wh
 > "I think there comes a time in your life when you have to choose yourself. And once you find what that is, it doesn't mean you're choosing yourself in a selfish way. It's actually the opposite."
 
 Kim is still learning. And the fact that she says so, out loud, on camera, to millions of people.
+
+<!-- ============================================================
+FRESH-EYES ASSESSMENT — 2026-04-29 PASS 3 (Claude cold read)
+============================================================
+
+ONE-LINE VERDICT: One of the best-written portraits in the entire batch — the gap between what Kim shows and what Kim feels structures the whole piece, and the sourcing is exceptional — but the Type 3 frame is so sympathetic it shades into hagiography.
+
+STRONGEST SECTION: "When Control Met Chaos" — the Kanye material is the piece's emotional and intellectual center. The "five Lamborghinis appearing and disappearing as an agency story, not a car story" reframe is genuinely original.
+WEAKEST SECTION: "The Architecture of Calm" — the beige-office detail is great, but the section overstates the "engineered nervous system" argument and starts sounding like brand copy.
+
+STRENGTHS (3-5 bullets, specific):
+- North's two quotes ("Mom, chill. We get it. You don't have to keep pretending" and "Mom, I think you go upstairs and cry at night") are the killer signature details — devastating because they come from the kid.
+- The fire evacuation progression (shoes → designer stuff → leave everything → just me and my babies) is brilliant sourcing — a single detail does the work of 500 words.
+- "She cannot describe growth without making it sound like winning" is the kind of insight that lands harder than any TL;DR bullet.
+- "I beg them to go hang out" (with Kanye) is sourced restraint — flips the public narrative without hammering it.
+- The Roosevelt Room embarrassment → law career arc is the piece's spine and earns the close.
+
+WEAKNESSES (3-5 bullets, specific — name lines, phrases, sections):
+- Sympathy-by-self-conception is heavy here. Every Kim quote is taken at face value as "her honesty" — including her own framing of the Kanye divorce. Her version is the piece's version.
+- The sex tape gets one paragraph and never names Ray J or the actual mechanism (the Vivid Entertainment release, the contested-leak-vs-release narrative). "Was the accelerant" softens what was, by other accounts, a calculated launch.
+- Kris Jenner is treated as a complex partner-in-ambition; her business decisions never get the same skeptical treatment Kim's "honesty about wanting fame" gets.
+- The piece doesn't engage with the cultural critique that the Kardashians monetized Black culture, plastic-surgery norms, or the SKIMS-as-Kimono backlash beyond a single reframe paragraph.
+- "Engineered calm" / "engineered nervous system" / "engineering control" / "she has industrialized them" — the engineering metaphor is overused.
+
+GAPS / MISSED OPPORTUNITIES (3-6 bullets — what a fan/critic would expect that's absent):
+- The Kanye relationship is treated mostly through Kim's later interviews; no reckoning with the fact that she stayed for years, made it a brand, and only left publicly when the political turn became indefensible.
+- No engagement with the surrogacy / placenta / family-planning critiques that have shadowed her — these are what fans and critics both ask about.
+- Pete Davidson gets one paragraph as a feel-good detour; nothing about why she chose someone whose comedy public-persona was the polar opposite of her brand.
+- Criminal justice work is described but no actual case named — no Alice Marie Johnson, no specific death-row visit. This is the "doing the work" that gets the most credit and the thinnest detail.
+- No look at her relationship with Kris Humphries — the 72-day marriage that everyone associates with the brand-cynicism critique. It's just absent.
+- North's media presence (TikTok, the Kanye-stage moments) is conspicuously not addressed even when North is quoted devastatingly.
+
+PATTERN HITS (DJ tropes that worked here):
+- The signature-detail accumulation (North quotes, fire evacuation list, beige office, 20 minutes of car silence) is masterful — DJ at his best.
+- The Type-3 shame center as the engine, even though shame is never named, is cleanly demonstrated through behavior.
+
+PATTERN MISSES (DJ tropes that felt formulaic, recycled, or autopilot here):
+- "The minimalism isn't taste. It's scar tissue." → "This isn't a car story. It's an agency story." → "This isn't interior design. It's a nervous system strategy." → contrast-pair tic appears 5+ times. Way over the 1-per-blog cap.
+- "She didn't process the shame. She eliminated the conditions that caused it." — exact same X/Y rhythm.
+- The "Father modeled X. Mother modeled Y. Kim is the synthesis" structure is a corpus pattern that's getting predictable.
+- Top-of-file editor feedback (2026-02-19) explicitly flagged "Cut the last sentence" — last sentence was kept anyway. Process gap.
+
+CRITIC-ENGAGEMENT: Mostly ducks. Names "criticism" abstractly but doesn't engage Roxane Gay, Jia Tolentino, or any specific cultural critic who's written seriously about the Kardashian project. The 2009-era hate cycle is reframed as backdrop noise rather than argued with.
+
+CURRENCY (2026 anchor): Yes — the Roosevelt Room law career, the All's Fair Ryan Murphy collaboration, the Call Her Daddy / Angie Martinez / Jay Shetty interview cycle all feel current.
+
+DEFENSE-COUNSEL CHECK: Yes, partial. The "I beg them to go hang out" line and the "she has the evidence to win the public narrative and chooses not to" framing both convert the divorce into Kim's restraint as virtue. The Type 3 frame ("she fears being seen as a failure") explains away the public-narrative-management as type rather than strategy.
+
+PRIORITY FIXES (numbered, in order of impact — 3 max):
+1. Apply the editor feedback at the top of the file: name the shame center directly, address counter-typing (why not Type 9, given the calm?), and cut the over-explaining final sentence. None of these were applied since 2026-02-19.
+2. Cut at least 3 of the 5+ contrast-pair "It's not X, it's Y" lines — they pile up enough that the rhythm calls attention to itself.
+3. Add a single concrete critic-engagement paragraph — name one writer who's argued the Kardashian project is harmful and respond to the specific argument, not the vibe.
+
+============================================================ -->

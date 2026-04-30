@@ -273,3 +273,54 @@ Every joke that pushes boundaries, every platform he builds, every deal he walks
 Schulz hasn't just built a career. He's built a structure specifically engineered around his own psychology. The comedian who can't stand being trapped didn't fight the feeling — he made it architecturally impossible for anyone to put a ceiling on him. Direct distribution. Owned content. No network with veto power. When the Brooklyn Academy of Music dropped him after the Trump episode, he booked the Beacon Theatre. Bigger room, no apology.
 
 The 2025 Netflix special "LIFE" complicates this neatly. The material is about IVF, fatherhood, Emma. Softer material, not his comfort zone. Critics called the shift awkward. Schulz kept going anyway. A freedom addict who's genuinely maturing doesn't abandon the fight — he expands what he's willing to fight for.
+
+<!-- ============================================================
+FRESH-EYES ASSESSMENT — 2026-04-29 PASS 4 (Claude cold read)
+============================================================
+
+ONE-LINE VERDICT: Strong opening anecdote and clear Type 7w8 framework, but the Kendrick Lamar section is the piece's clearest defense-counsel failure — "attacked, so attack harder. Louder, this time" reads as approval, not analysis.
+QUALITY-CEILING TIER: MIDDLE
+
+STRONGEST SECTION: "The Psychology of Control" + insecurity passages — "you need insecurity, I'm grateful for it" is the rare quote that genuinely shows the type maturing.
+WEAKEST SECTION: "Controversies and Criticism" — names the events but redescribes Schulz's escalation as Type 7 freedom-defense rather than calling it what it is when an adult comedian repeatedly sexualizes a Black artist who criticized him.
+
+STRENGTHS (3-5 bullets, specific):
+- Infamous buyback opens with concrete financial stakes ($500K day one, 3x Amazon's offer).
+- Psychology degree at UCSB is a smart, underused detail — the analysis credits it correctly.
+- The Emma "clearance" rule is a specific, on-brand marriage detail.
+- BAM cancellation timeline (3 hours after Trump episode, Diane Max / Planned Parenthood board) is sourced.
+- Counter-typing addresses Type 8 and Type 3 directly in Rabbit Hole.
+
+WEAKNESSES (3-5 bullets, specific):
+- The Kendrick situation is treated as a freedom-versus-cancellation drama; the actual critique (Schulz's joke punched down on Black women, then he sexualized Kendrick when called out) gets folded into "attacked, so attack harder."
+- "Schulz Saves America anti-Asian content during the pandemic" gets one clause and moves on.
+- "Censorship is kind of good for comedy" is quoted approvingly but never interrogated — does the actual record bear it out, or is that self-serving rationalization?
+- Trump interview is described as a podcast booking; the fact that it functioned as election-eve media access for a candidate is unexamined.
+- Stock language: "Type 7 positive reframing, executed at the highest level" still survives in the TL;DR.
+
+GAPS / MISSED OPPORTUNITIES (3-6 bullets):
+- Akaash Singh's role as the Indian-American foil for Schulz's race material is unexamined — Akaash gives Schulz cover, and that's part of the operating system.
+- The Black audience question (Schulz performs to "diverse" crowds and his bits about Black women are central) deserves more than a Kendrick-clapback paragraph.
+- "Censorship creates power" is a coherent worldview to interrogate, not just to relay.
+- The "venues canceling him" frame elides that some venues simply chose not to host him — that's not the same thing as censorship.
+- No examination of whether the BAM cancellation actually was political or just liability-avoidance after the Trump booking — the piece adopts Schulz's framing.
+
+PATTERN HITS:
+- Engaging institutional critics (Amazon, BAM, Massey Hall, Netflix) over named human critics — the most reliable autopilot. Kendrick is the named exception, and the analysis still routes through institutions.
+- Counter-typing rule of three (Type 8 + Type 3 in Rabbit Hole) — capped at one usage.
+
+PATTERN MISSES:
+- No three-beat triplet.
+- No "child still doing" closer.
+- Father-mother synthesis is present but light (immigrant work ethic + journalistic storytelling) — not a full "synthesis" tic.
+
+CRITIC-ENGAGEMENT: Engages Amazon, BAM, Netflix critics by name, but the most pointed human critic (Kendrick) gets reframed as fuel rather than as someone who landed a real point.
+CURRENCY: yes — late-2024 Trump interview, BAM cancellation, 2025 LIFE special, Kendrick GNX.
+DEFENSE-COUNSEL CHECK: YES — most clearly in the Kendrick section. The line "attacked, so attack harder. Louder, this time" treats repeated sexualization of a critic as a Type 7 mechanism rather than as an adult choice with a moral weight. Also milder defense-counsel in framing every cancellation as autonomy-protection rather than letting any of them stick as legitimate critique.
+
+PRIORITY FIXES (numbered, 3 max):
+1. Rewrite the Kendrick section to let the critique land. It's possible to honor Schulz's freedom-architecture AND admit that "the only thing he could do is decide if it's consensual or not" was a creep beat from a 41-year-old comedian about a Black artist who'd named a real pattern.
+2. Stop letting "censorship" do load-bearing work without examining whether it's actually censorship or just venues exercising their own freedom. Both can be true; the piece picks one.
+3. Develop the alternate-type body section the existing editor feedback already flagged — the Rabbit Hole has Type 8 and Type 3 counters, but the body still doesn't engage them.
+
+============================================================ -->

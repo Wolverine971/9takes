@@ -395,3 +395,59 @@ The kid who repeated kindergarten because she was too anxious to function in a c
 That's not overcoming Type 6 tendencies. That's perfecting them.
 
 > **Disclaimer:** This analysis of Zendaya's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Zendaya.
+
+<!-- ============================================================
+FRESH-EYES ASSESSMENT — 2026-04-29 PASS 3 (Claude cold read)
+============================================================
+
+ONE-LINE VERDICT: A strong, structurally-confident piece that uses one good thesis (anxiety-as-operating-system) to walk through Zendaya's career and stays smart longer than most blog-length profiles, before getting tidy at the end.
+
+STRONGEST SECTION: "The Music Pivot: When a Type 6 Cuts Her Losses" — reframing platinum-and-walked-away as strategic withdrawal is the single most original argument in the piece, and it's sourced from her own quote about bad contracts.
+WEAKEST SECTION: "The Loyalty Patterns: 10+ Years With the Same Team" — short, generic, and reads like a filler chapter. "Same core team. Same family involvement. Same deliberate, long-term approach to everything." is anaphora doing the work of analysis.
+
+STRENGTHS (3-5 bullets, specific):
+- "The Disney-to-Dune Strategy" uses Miley/Selena as a real comparison with named outcomes, not as a strawman. Counter-typing done well.
+- Method-dressing-as-Type-6-armor is genuinely original — fashion as territory-control rather than self-expression.
+- The breadwinner section names a specific weight that most "Disney kid succeeds" profiles ignore. "The breadwinner doesn't get to fail casually" is a clean line.
+- "Hollywood's acceptable version of a Black girl" is allowed to stay as a self-quote and is engaged honestly without the writer claiming to have decoded it.
+- Tashi-Duncan-as-Type-6-mastermind is a real reading of Challengers that Letterboxd film bros don't get to.
+
+WEAKNESSES (3-5 bullets, specific — name lines, phrases, sections):
+- "That's not overcoming Type 6 tendencies. That's perfecting them." — closing line. Contrast-pair tic, and the editor-block at top correctly flagged it as the spot to cut. Still here.
+- Editor-comment block at lines 41-56 still in place with feedback unaddressed ("NEEDS WORK: At 371 lines, the piece is long. The Tom Holland section, while good, could lose 20% without sacrificing insight"). The Tom Holland section is unchanged.
+- Triple front-loading: cold-open paragraph + the "Quick Answer" callout + the bolded "What is Zendaya's Personality Type?" + the TL;DR all restate the same thesis in the first 90 lines.
+- "Type 6s don't get drunk on external validation." / "Type 6s don't leap without looking. They research. They prepare." — type-plural diagnostic crutch repeated as a Q&A device.
+- "Music artists are their brand. Their face is the product 24/7." — single-sentence dramatic paragraphs stacked.
+
+GAPS / MISSED OPPORTUNITIES (3-6 bullets — what a fan/critic would expect that's absent):
+- Tom Holland section never engages the obvious tension: the "predictability" the piece celebrates as Type-6 fit is exactly what fans worried would shrink her ambition. No critique allowed.
+- The Oscar snub for Dune Part Two and Challengers is mentioned but not interrogated. A fan would expect a real argument about whether the institutional rejection was fair.
+- Euphoria's behind-the-scenes tensions (Sam Levinson's reported issues, Barbie Ferreira's exit, the Dominic Fike fallout) are noted as a backdrop rather than examined. Zendaya's choice to stay attached to a project with mounting reputational risk is the most Type-6 puzzle in the piece, and it goes uninterrogated.
+- No critic is named. "Critics called Tashi a villain" is the abstract-they pattern.
+- The Spider-Man / John Mulaney "I'm pregnant" SNL joke and Spider-Man press leaks — minor, but representative of how the piece avoids any moment where her control slipped.
+- The Law Roach "retirement" of March 2023 (which she was reportedly involved in) is not mentioned, even though it's directly relevant to the "10+ Years With the Same Team" section.
+
+PATTERN HITS (DJ tropes that worked here):
+- Childhood-wound origin: held back in kindergarten for shyness. Concrete, sourced, returned to in the closing. Works.
+- "If Euphoria collapsed entirely, her career wouldn't. That's not pessimism. That's risk management." — contrast-pair deployed once, where it lands.
+- The Oakland-foundation framing avoids melodrama. The two-teacher household is treated as load-bearing, not a sad-violin moment.
+
+PATTERN MISSES (DJ tropes that felt formulaic, recycled, or autopilot here):
+- "She didn't fail at music. She calculated the cost... That's not quitting. That's strategic withdrawal." — pass 1's contrast-pair tic.
+- "She didn't crash because she never stopped calculating." — same.
+- "That's not perfectionism. That's Type 6 threat assessment." — same.
+- "It wasn't impulsive." — single-sentence dramatic paragraph.
+- "Notice the pattern: structured environments. Clear expectations. Time to prepare." — anaphoric list-as-rhetoric.
+
+CRITIC-ENGAGEMENT: None named. The piece engages institutional patterns (Disney churn, Oscar voters, the music industry's contract structure) but no individual critic of Zendaya is quoted or engaged.
+
+CURRENCY (2024-2026 anchor): Strong — Tom Holland engagement (2024), Euphoria S3 production start (Feb 2025), The Odyssey upcoming (2026), 2025 Oscar snub. Currency is excellent.
+
+DEFENSE-COUNSEL CHECK: Mild. "She didn't fail at music. She calculated the cost..." reframes a non-success as strategy. The "I'm a control freak" admission is treated entirely as growth-toward-Type-2; the piece never asks whether the strategic-withdrawal-from-everything posture has costs (insularity, brand fatigue, etc.).
+
+PRIORITY FIXES (numbered, in order of impact — 3 max):
+1. Cut the editor-block (lines 41-56) and execute its actual recommendation — drop the closing summary line ("That's not overcoming Type 6 tendencies. That's perfecting them.") and end on the Christopher Nolan / kindergarten callback paragraph.
+2. Trim the Tom Holland section by 20% as the editor block already prescribed. The current section repeats the "he's the extrovert / she's the introvert" framing three different ways.
+3. Engage the Euphoria-as-liability question. The piece spends two paragraphs on Euphoria delays as if they confirm her risk management, but never asks why she remains attached. That's the Type-6 question worth answering.
+
+============================================================ -->

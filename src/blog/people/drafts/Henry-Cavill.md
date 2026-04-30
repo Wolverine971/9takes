@@ -284,3 +284,55 @@ The thread connecting those moments is the same thread that runs through the bul
 Henry Cavill's whole life is a study in what it looks like when a Helper finally gets the call — and what it costs to be the kind of person who almost didn't answer it.
 
 > **Disclaimer** This analysis of Henry Cavill's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Henry.
+
+<!-- ============================================================
+FRESH-EYES ASSESSMENT — 2026-04-29 PASS 4 (Claude cold read)
+============================================================
+
+ONE-LINE VERDICT: One of the best hooks in the corpus carries a piece that's genuinely well-observed but a little too forgiving — a Type 2 portrait with no shadow.
+QUALITY-CEILING TIER: TOP (slightly compromised by no-shadow framing)
+
+STRONGEST SECTION: "The Boy Who Approached Russell Crowe and Then Waited Twelve Years to Mention It" — the silent reunion is a real signature detail, not a press-kit anecdote.
+WEAKEST SECTION: "The Witcher" — sources "Hollywood Reporter" and an unnamed writer's "ichiban" anecdote without a specific citation, and the departure is treated as Cavill protecting fans rather than as one of multiple plausible reads.
+
+STRENGTHS (3-5 bullets, specific):
+- WoW raid hook is genuinely surprising and earns the type frame in 4 paragraphs.
+- "Fat Cavill" → empathy reframe is sourced (Men's Health) and the analysis catches the rationalization correctly.
+- The mirror paradox ("Look at you, you fat fuck") is a real vulnerability moment, not stage-managed.
+- 300 lines of Warhammer dialogue is a textbook "the production-of-care is the analysis" detail.
+- Counter-typing addresses Type 6 and Type 9 in Rabbit Hole.
+
+WEAKNESSES (3-5 bullets, specific):
+- Witcher exit framed entirely on Cavill's side; Lauren Schmidt Hissrich and the writers' room get a one-line "didn't share that level of investment" hit and no quote of their own.
+- Bond/Twilight/Batman near-misses are recited as mythology without examining whether some of those castings made the right call.
+- "Pay me the money" quote is presented as healthy boundary-setting; could be self-serving.
+- Natalie Viscuso's role at Vertigo (his now-partner met him on a film her company produced) is mentioned but the power-dynamic question isn't.
+- "He told an interviewer" / "he admitted" attribution lapses (already flagged in existing editor notes, still present).
+
+GAPS / MISSED OPPORTUNITIES (3-6 bullets):
+- The Witcher set had reported behavioral complaints about Cavill's source-material insistence; the piece accepts only the noble-fan version.
+- The Superman Man-of-Steel-era #ReleaseTheSnyderCut campaign — Cavill's relationship with that fan-army discourse isn't examined.
+- His comments on dating and consent in 2016 (the GQ piece where he complained about "rape culture" framing) are entirely absent — that's a real critic-engagement test he's been left out of.
+- "300 lines" is asserted; sourcing on that specific number would strengthen.
+- No Iranian-American / British / Jersey identity specificity beyond "boarding school" — Stowe is a specific class signal that goes unexamined.
+
+PATTERN HITS:
+- Closing parallel-binary ("the kind of person who almost didn't answer it").
+- Engaging institutional critics (Twilight casting, Bond decision, Witcher writers) over named human ones — autopilot pattern.
+
+PATTERN MISSES:
+- No three-beat triplet.
+- No "child still doing" closer (chubby-kid-in-the-mirror is gestured but not closed on).
+- No bolded mid-paragraph thesis cluster.
+- No type-plural diagnostic crutch.
+
+CRITIC-ENGAGEMENT: Light. Witcher writers are critiqued without being named or quoted. The 2016 GQ rape-culture controversy is omitted entirely.
+CURRENCY: yes — Jan 2025 daughter, 2024 Father's Day announcement, Warhammer 40K production updates.
+DEFENSE-COUNSEL CHECK: YES — mild but present. The Witcher exit redescribes a public dispute as Helper protecting fans, the Bond/Twilight rejections become "path toward being needed elsewhere," and the 2016 GQ controversy is absent. The piece refuses to let him be even partially indictable.
+
+PRIORITY FIXES (numbered, 3 max):
+1. Address the 2016 GQ "rape culture" comments. He apologized; the piece omitting it is the autopilot. A one-paragraph "he said the wrong thing, retracted, and that's part of the Type 2 too-quick-to-please pattern" would let him be a person.
+2. Quote Lauren Schmidt Hissrich or one of the Witcher writers, even one line. "Sources told THR" is soft attribution by definition.
+3. Fix vague attributions ("an interviewer," "he admitted") with specific publication names — already in existing editor notes, still not applied.
+
+============================================================ -->

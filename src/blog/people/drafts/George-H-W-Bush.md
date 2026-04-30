@@ -317,3 +317,58 @@ George H.W. Bush spent his entire life building structures of trust. In institut
 The voters in 1992 decided they needed something else. They were probably right, for 1992. History decided differently. And in the end, the measure wasn't the 35-nation coalition or the diplomatic restraint or even the broken tax pledge. It was a son, unable to finish a sentence, in a cathedral full of the people his father had held together.
 
 > **Disclaimer:** This analysis of George H.W. Bush's Enneagram type is speculative, based on publicly available information, and may not reflect his actual personality type.
+
+<!-- ============================================================
+FRESH-EYES ASSESSMENT — 2026-04-29 PASS 3 (Claude cold read)
+============================================================
+
+ONE-LINE VERDICT: A competent Type 6 reading anchored by a great closing scene (the eulogy) but tonally too eulogistic — reads as a respectful obituary with typology applied, not a cold-eyed analysis.
+
+STRONGEST SECTION: "The Son Who Broke at the Podium" — the W. eulogy frame (the family at the center, not the presidency, not the polling) earns its place as the close and is the kind of structural payoff most personality-analysis blogs can't manage.
+WEAKEST SECTION: "The Iran-Contra Contradiction" — the prior 2026-02-18 feedback flagged this as psychologically thin; it remains a paragraph of "Type 6s rationalize through hierarchy of loyalties" assertion without engaging the actual record.
+
+STRENGTHS (3-5 bullets, specific):
+- The Dorothy Bush "How did the team do, dear?" is the load-bearing childhood detail and the piece earns its weight.
+- "Read My Lips" reframed as Type 6 dual-loyalty conflict (loyalty to word vs. loyalty to fiscal security) is genuinely insightful framing.
+- "He was the person others could count on when things fell apart" — the framing of healthy-Six-as-stabilizer earns its place.
+- The horseshoes / Queen Elizabeth silver set / Redskins ringer beat humanizes without slopping into cute.
+- Robin's leukemia + Barbara's "I crumbled completely" + the steady-husband role is a clean evidentiary line for the Type 6 read.
+
+WEAKNESSES (3-5 bullets, specific — name lines, phrases, sections):
+- American-political-tilt watch: this is a Republican president and the piece is genuinely warm, but the warmth runs to the edge of hagiography in the "Quiet Competence / End of the Cold War" section.
+- Defense-counsel on Iran-Contra: "Every one of those rationalizations is a Type 6 move" — typology is used to explain the rationalization rather than evaluate it.
+- The Walsh "completion of a cover-up" charge is named but not engaged on its merits.
+- Wikipedia-style H2s present: "Privilege with Purpose" / "The Lessons of Duty and Modesty" / "Father's Shadow and Model" — these are encyclopedia subheads, not analytical headers (the older-blog tic).
+- Stat-as-shock: "300% casualty rate" / "35 nations" floated without comparative framing.
+
+GAPS / MISSED OPPORTUNITIES (3-6 bullets — what a fan/critic would expect that's absent):
+- Anita Hill / Clarence Thomas confirmation 1991 — Bush nominated him; the role is unmentioned.
+- The 1988 Willie Horton / Lee Atwater campaign tactics — the most studied piece of GHWB politics, completely absent.
+- The CIA director years and the question of what he knew about Iran-Contra at that earlier point — under-engaged.
+- His role in the Reagan-era covert operations as VP — gone.
+- The post-presidency Saudi business connections and Carlyle Group — gone.
+- Late-life groping allegations (multiple women, 2017-2018) — completely absent. A piece about a public figure that omits this loses credibility on the cold-read test.
+
+PATTERN HITS (DJ tropes that worked here):
+- The contrast between his Gulf War restraint and his son's Iraq invasion is genuinely productive Type 6 framing and one of the better cross-blog connectors in the corpus.
+- The eulogy beat as the structural close, with the W.-cracking-up image, is the strongest closing scene in this batch.
+- The "wimp factor" reframed through Dorothy Bush's anti-boasting programming is non-obvious and earns its place.
+
+PATTERN MISSES (DJ tropes that felt formulaic, recycled, or autopilot here):
+- Type-plural crutch: "Type 6s don't experience loyalty as a single obligation" — generic-Six paragraph used to do work that specific evidence should do.
+- "Loyalty to his word clashed with loyalty to what he believed was best for the country" — clean contrast-pair, but the corpus tic.
+- "And and and" listing in the opening paragraph ("He was shot down... He built... He ran... He assembled...") — corpus rhythm.
+- "And in the end, the measure wasn't..." closing-rhythm tic.
+
+CRITIC-ENGAGEMENT: Walsh is named, Buchanan is named, but neither argument is engaged. No engagement with named historian-critics of the Gulf War coalition (e.g., the question of whether stopping at Baghdad enabled Iraq's continued suffering under sanctions).
+
+CURRENCY (2024-2026 anchor): None. The 2018 funeral is the most recent beat. For a deceased subject this is more defensible, but the piece could have anchored in how the Bush 41 legacy reads against the Trump-era GOP — the comparison is the natural frame and is missing.
+
+DEFENSE-COUNSEL CHECK: Yes — Iran-Contra reframed as Type 6 hierarchy of loyalties; the late-life groping allegations omitted entirely; the Willie Horton / Atwater 1988 campaign omitted entirely. Three substantive failures all routed around or out.
+
+PRIORITY FIXES (numbered, in order of impact — 3 max):
+1. Add the late-life groping allegations and engage them — their absence is a credibility hole on the cold-read test.
+2. Engage the 1988 Willie Horton / Atwater campaign — it's central to the political record and the Type 6 reading would actually have something to say about it (network-loyalty letting Atwater run cover).
+3. Trim the Wikipedia-style H2s ("Privilege with Purpose" / "Father's Shadow and Model") into analytical headers; older-blog tic.
+
+============================================================ -->

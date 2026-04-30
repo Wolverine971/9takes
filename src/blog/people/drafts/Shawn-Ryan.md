@@ -414,3 +414,57 @@ Shawn Ryan's greatest strength, his mind, saved his life and nearly destroyed it
 The [Enneagram Type 5](/enneagram-corner/enneagram-type-5) lens doesn't explain all of that. But it maps the territory far better than the "tough guy" narrative ever could.
 
 > **Disclaimer:** This analysis of Shawn Ryan's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Shawn Ryan.
+
+<!-- ============================================================
+FRESH-EYES ASSESSMENT — 2026-04-29 PASS 4 (Claude cold read)
+============================================================
+
+ONE-LINE VERDICT: Best piece in the batch — sustained Type 5 architecture, lets Shawn be partly indictable (Trump endorsement reckoning, "I don't think we're the good guys anymore"), and the addiction-as-intelligence-operation reframe is original.
+QUALITY-CEILING TIER: TOP
+
+STRONGEST SECTION: "When Data Overrides Loyalty" — the Trump reckoning ("Nothing I voted for happened") is the rare beat where the subject's own evidence-update is the analysis's evidence.
+WEAKEST SECTION: "Where Shawn Ryan Goes From Here" — slightly drifts into recap; the existing editor feedback already flagged this and the fix wasn't applied.
+
+STRENGTHS (3-5 bullets, specific):
+- Mid-sentence suicide-attempt mention then pivot to data — opening earns the type framework.
+- Reconstructing his own near-death from physical evidence is a genuinely novel signature detail.
+- "Even in ego death, the observer wanted to watch" — no mask during 5-MeO-DMT — perfectly chosen.
+- "He describes his father's emotion. Not his own." — the line that makes the entire compartmentalization thesis click.
+- Counter-typing section is honest about Type 8 (combat hunger) and Type 7 (Colombia) signals that don't fit cleanly.
+- The Trump-interview reckoning is the cleanest "subject is partly indictable" beat in the batch — the analysis lets the disillusionment land without redescribing it as growth.
+
+WEAKNESSES (3-5 bullets, specific):
+- Ibogaine "download" framing risks reifying psychedelic recovery as a permanent operating-system patch; one beat of skepticism would balance it.
+- UFO/spiritual-warfare critic engagement is one sentence ("supporters see fearlessness, detractors see recklessness") — both-sides-without-position.
+- "He chose careers built on observation and operating in the shadows" — slight romanticization of CIA Global Response Staff.
+- Crenshaw insider-trading allegation is reported as Shawn's claim with no independent assessment of the receipts.
+- Some single-sentence dramatic paragraphs stacked ("No pause. No lingering. Just data.") — this corpus tic is present but earned at the open.
+
+GAPS / MISSED OPPORTUNITIES (3-6 bullets):
+- The Vance interview specifically — what the prep was, what was softball vs. probing — would test the "evidence over loyalty" thesis at the moment of contact, not after.
+- The Christianity turn through Lee Strobel (a known apologetics author) deserves examination as confirmation-bias-as-investigation — the piece names the conversion but doesn't interrogate the methodology.
+- The "fentanyl supply chain mapping" is asserted as journalism; what's the citation/sourcing on the China-Mexico-US chain claim? The piece accepts it.
+- The Pete Scobell / Captain Phillips claim isn't sourced beyond Shawn's framing.
+- Katie's role is sketched but their podcast dynamic isn't examined — co-host as recovery-anchor is its own pattern.
+
+PATTERN HITS:
+- Single-sentence dramatic paragraphs stacked — present at the open and a couple of mid-points, but earned by the subject's own clipped affect.
+- Bolded mid-paragraph thesis sentences — "The mental switch" framing is bolded.
+- Counter-typing rule of three is structured (Type 8, Type 7, then back to 5) and works.
+
+PATTERN MISSES:
+- No "child still doing" closer.
+- No three-beat single-syllable triplet.
+- No defense-counsel reframing (the central virtue of the piece).
+- No Type-plural diagnostic crutch.
+
+CRITIC-ENGAGEMENT: Better than most — names Crenshaw, names UFO/spiritual-warfare critics, names "I don't think we're the good guys anymore" self-critique. The conspiracy-adjacent critique gets one balanced sentence; could push harder.
+CURRENCY: yes — late-2025 Crenshaw exchange, August 2024 Trump interview, late-2025 Trump disillusionment, post-2024 Khanna/Hunter Biden episodes.
+DEFENSE-COUNSEL CHECK: Minimal. The closest is romanticizing CIA paramilitary work as "observation" rather than as state violence — but Shawn himself names this in the moral-reckoning section, so the piece earns it.
+
+PRIORITY FIXES (numbered, 3 max):
+1. Tighten the closing per existing editor feedback — end on "the man who lost access to his emotions is trying to raise kids who never have to." Cut the podcast-stats recap.
+2. Add one beat of skepticism on the ibogaine "download" — the brain doesn't actually reclassify substances by fiat; relapse rates are real. Acknowledging this strengthens, not weakens, the recovery story.
+3. Engage the UFO / spiritual-warfare critique with more than a both-sides sentence. Name a specific episode and let the reader weigh.
+
+============================================================ -->

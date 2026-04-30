@@ -224,3 +224,51 @@ And somewhere in the corner of the soundstage, a man will find a slant of sunlig
 - Collider: David Corenswet in Pearl (projectionist role) — https://collider.com/david-corenswet-pearl/
 - Collider: Superman global box office over $600M — https://collider.com/james-gunn-superman-global-box-office-600-million/
 -->
+
+<!-- ============================================================
+FRESH-EYES ASSESSMENT — 2026-04-29 (Claude cold read)
+============================================================
+
+ONE-LINE VERDICT: This is the cleanest piece in the batch — a Type 5 read that uses the audition cold-open and the casting-room sunbeam as a perfect bookend. Earns its read at line level.
+
+STRONGEST SECTION: "Why Hollywood kept calling David Corenswet too intellectual" — Gunn's "pain in the ass" + the question-into-take pull-quote is the load-bearing testimony of the piece, and "with a Type 5, 'too much upstairs' isn't a mood you can ask him to dim — it's the machinery itself" is the kind of original line that justifies the blog.
+WEAKEST SECTION: "What it means that Superman is finally Jewish" — the existing in-file feedback already flagged this; thematically adjacent to the Type 5 spine and reads like a separate essay graft. The interfaith-officiants beat is the only thing earning its keep.
+
+STRENGTHS:
+- The slant-of-sunlight bookend is the cleanest structural device in the entire batch. "It is almost certainly the reason he got the part" is the perfect second beat.
+- "What is the minimum case for yes?" reframes Type 5 decision-making in a way that's both diagnostic and falsifiable. This is the line that sticks.
+- Counter-typing is rhythmic and efficient ("A Three would ask... A Seven would ask... A Four would ask... A Five asks what they'd still do if every reward collapsed to zero"). Lands the type for non-Enneagram readers without lecturing.
+- Choose Your Own Adventure grandfather + "if you feel like you're making all the right choices, that doesn't mean that you end up in an ending you like" is the rarest find of the batch — a primary-source single sentence that is the worldview.
+- "Slow burn" Julia Best Warner section is short, specific, and only-Corenswet — most blogs over-write the partner section; this one trusts the reader.
+
+WEAKNESSES:
+- The piece never lets the reader feel Type 5 fear. Five's driving emotion is depletion-anxiety and the blog presents only its results (relief, attentiveness, asking "can you prove that"). The existing feedback comment names this; it's still uncorrected. Without the fear underneath, Corenswet reads as an aesthetic, not a person.
+- "Sp/Sx Five" / instinctual variant never named even though the evidence is textbook (Philly suburb, refuses LA, "real life on a street the industry can't find"). Stress arrow to 7 and growth arrow to 8 also never named — both would deepen the read.
+- The Lois & Clark "two sides of the same coin" beat is one sentence; for a chemistry read that supposedly defined the casting, the section is thin.
+- "He plays attention. He grew up watching Reeve's old interviews..." — the piece states the thesis (Superman as attention not strength) twice in two paragraphs; the second restatement is bloat.
+- "The performance will still begin the same way. Someone else will be pacing the hallway..." — the closing pacing-hallway list is too symmetrical, almost rhetorically Sorkin-y. The bookend works without it.
+
+GAPS / MISSED OPPORTUNITIES:
+- No engagement with the actual Superman discourse — Cavill loyalists, the DCU reset narrative, the brand pressure to make this Superman work after years of failed attempts. A Five being handed a culturally fraught role at a culturally fraught moment is psychologically richer than the piece allows.
+- The Twisters / Pearl roles are name-checked but never opened up. One scene from Pearl (the projectionist's gentleness right before Mia Goth's pivot) would prove the "watching" thesis with image instead of summary.
+- Where is the cost of being a Five who chose a profession built on being looked at? The piece celebrates the contradiction without pressing it — does Corenswet talk about depletion after press tours, post-shoot recovery, the mismatch between training to study and being studied?
+- No mention of his Juilliard cohort, no other-actor testimony beyond Hoult/Brosnahan/Gunn. A classmate or director who saw him pre-fame would harden the "he was always this person" claim.
+- The Pennsylvania return is presented as serenity. A skeptic would ask: is it serenity, or is it a Five hedging against industry overwhelm? The piece dodges that read.
+
+PATTERN HITS (DJ tropes that worked here):
+- TL;DR accordion with five concise type-anchored bullets — efficient.
+- The bookend image (sunlight on the casting room floor) — the rare DJ device that earns its repetition.
+- Quote-led section openings ("'I'm happy to be wrong. I just want to be convinced.'") — let the subject set the frame.
+
+PATTERN MISSES (DJ tropes that felt formulaic):
+- "[X] is not [Y]. It is [Z]." appears repeatedly: "It is not simplicity born of a lack of thought. It is simplicity achieved by a lot of thought." This contrast-pair is a DJ tic across blogs and it's starting to read as an autopilot move.
+- Counter-typing list ("A Three would ask... A Seven would ask...") — works here, but appears in nearly every other blog in this batch in identical four-beat structure. Corpus formula.
+- "That is the Five's secret weapon — their real life is happening on a street the industry can't find." — the punctuation-em-dash-key-claim closer is the same rhythmic device used as the closing-paragraph kicker in five other blogs in the batch.
+
+PRIORITY FIXES:
+1. Add one beat where the reader feels Type 5 fear. Existing feedback names this and it's still the biggest unfilled gap. Frame the "can you prove that" call as fear-of-being-conned-when-you-relax-the-guard, not as cleverness. Or surface the depletion cost from the 4,500-cal/day prep — the Five whose machine must be fueled or it collapses.
+2. Trim the Jewish-Superman section by ~40%. Keep the interfaith-officiants line. Cut the Siegel/Shuster historical recap (it's well-known, generic, and not type-specific).
+3. Name the stress arrow (5→7 scattered/escapist) somewhere. Even one sentence — what does Corenswet look like when overwhelmed? — would balance the relentless calm of the read.
+
+============================================================ -->
+

@@ -200,6 +200,59 @@ The fifth vital sign is pain. Purdue Pharma invented the concept to sell more dr
 
 The Brainiac from Milford found the one thing his brain couldn't outthink. And it turned out to be the only thing worth knowing.
 
+<!-- ============================================================
+FRESH-EYES ASSESSMENT — 2026-04-29 PASS 3 (Claude cold read)
+============================================================
+
+ONE-LINE VERDICT: A strong Type 7 portrait whose central evidence (the Lana pros-and-cons list decoded as Seven escape architecture) is the best in the batch — and whose closing concession to stillness mostly resists the corpus's easy "he's healed now" template.
+
+STRONGEST SECTION: "The Relationships That Revealed the Pattern" — the pros/cons list ("dealbreakers that require deep and radical change") is the exact concrete artifact a Type 7 read needs, and the analysis lands.
+WEAKEST SECTION: "The Brainiac Who Became the Dealer" — does the corpus's wound-becomes-output-type setup at full speed before earning it. The "deck was stacked" closer of that section is also pass-1 fortress-energy.
+
+STRENGTHS (3-5 bullets, specific):
+- The opening keyboard-tears image is genuinely arresting and gets used as structural anchor without being over-deployed.
+- The "fifth vital sign" / Purdue Pharma backstory is the kind of systemic context that gives a personal Type 7 story actual weight rather than reading as just biography.
+- Naming three simultaneous addictions (OxyContin, heroin, crack/cocaine, plus dealing) and tying them to Seven branching is correct and specific.
+- The "started a taper TODAY" / specific milligrams detail earns the "wiring never shuts off, just found better coordinates" claim — rare match between evidence and analysis.
+- The piece keeps the editor-feedback comment blocks visible at the bottom, which is the corpus's most transparent self-review and has actually been applied to the body text.
+
+WEAKNESSES (3-5 bullets, specific — name lines, phrases, sections):
+- "The machine didn't change. The fuel did." / "Same hardware. Different direction." — twin parallel-clause aphorisms doing the same work twice in the piece.
+- "Day after day of witnessing horrors that I still haven't talked about to anyone." quote is followed by no actual depth — the piece gestures at darkness it then doesn't engage.
+- The bullet-list evidence section under "Mike Majlak is an Enneagram Type 7" is six bolded thesis sentences in a row. The exact pass-1 stack pattern.
+- "Read that list through the Enneagram lens" tells the reader the move the writer is about to make, which is the editor-feedback comment block's own complaint about meta-commentary in earlier drafts. Same problem here.
+- "Twice. The exact same escape, repeated." — single-sentence dramatic-paragraph stack tic.
+
+GAPS / MISSED OPPORTUNITIES (3-6 bullets — what a fan/critic would expect that's absent):
+- The editor-feedback block flags "the Logan Paul relationship gets surface treatment" — this is still true. Mike's actual operational role on Impaulsive vs. Logan's WWE/Prime trajectory is exactly the Seven-vs-Three contrast the piece could carry, and it doesn't.
+- No engagement with the Lana Rhoades public reaction — she went on Logan's enemy show after the breakup, weaponized the relationship publicly. The piece treats her pros/cons list as data without ever engaging her as a co-author of the public narrative.
+- His comedy / entertainment voice is mentioned ("genuinely funny in a way the written word can't fully capture") but never demonstrated with one actual quote that's funny.
+- Shatterproof and The Big Silence are name-dropped without any indication of the substance of his recovery advocacy.
+- No mention of Faze Banks, the original "vlog squad"-adjacent context, or how Mike's recovery message lands in a creator ecosystem that runs on substances.
+- The "OCD, intrusive thoughts since 13" beat is offered then dropped — what does Mike's actual treatment look like? The piece gestures at therapy without specificity.
+
+PATTERN HITS (DJ tropes that worked here):
+- The "engine/wiring/possibility machine" metaphor stack, while used multiple times, is at least varied (per the editor-pass note) — and the editor-pass discipline is visible in the body, which makes this the most self-edited piece in the batch.
+
+PATTERN MISSES (DJ tropes that felt formulaic, recycled, or autopilot here):
+- "It's a Seven trying to think their way out of feeling." — bolded-thesis-mid-paragraph tic.
+- "Same engine. Different fuel." / "Same hardware. Different direction." — repeated aphorism in two slightly different forms.
+- "Eight years. From 18 to 26. The entirety of what most people call their formative adult years" — single-sentence-dramatic-paragraph stack into rule-of-three negation ("college, first apartments, first real relationships, first careers").
+- The closer's "Brainiac from Milford" loops the opener — child-still-doing-what-the-child-did template, even though it lands soft.
+
+CRITIC-ENGAGEMENT: Mostly absent. No critic of the recovery-as-content economy named, even though Mike's whole brand sits inside that economy. Lana's perspective is quoted but not engaged as critique.
+
+CURRENCY (2024-2026 anchor): Yes — Impaulsive joining WWE/Fanatics 2025, "fifteen years clean" as of writing, Sara Maughan/post-Lana relationship arc, Sneako reference (via Sara Saffari blog cross-link). Reasonably current.
+
+DEFENSE-COUNSEL CHECK: Light. The Lana relationship handling is fairly even — Mike's "I bailed twice" is not Type-7-excused but actually called the same cycle. Better than most corpus blogs on this front.
+
+PRIORITY FIXES (numbered, in order of impact — 3 max):
+1. The Logan Paul co-host dynamic is the missing pillar. The editor-pass notes flagged it; the body still ducks it. Make the Logan-vs-Mike Type 7 contrast the piece's distinguishing analytical move.
+2. Cut one of the twin "machine/hardware/engine" aphorisms. Two near-identical formulations dilute each other.
+3. Demonstrate the comedy. Saying "he's funny in a way the written word can't capture" is the corpus's tell-don't-show tic. One actual funny line solves this.
+
+============================================================ -->
+
 <!--
 REVIEW NOTES — Fresh-eyes read-through (2026-04-06)
 

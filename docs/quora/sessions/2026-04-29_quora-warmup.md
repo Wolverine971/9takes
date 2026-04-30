@@ -16,17 +16,17 @@ Continue building the behavioral-question queue. Six questions queued from 2026-
 
 ### Coverage-map status entering this session (per question-log 2026-04-28)
 
-| Type   | Lifetime topics | Status               | Priority for this session                                            |
-| ------ | --------------- | -------------------- | -------------------------------------------------------------------- |
-| Type 1 | 13              | Most-covered         | Skip unless contrast Q                                               |
-| Type 2 | 9               | Mid                  | Open — advice-giving compulsion, helping-as-need                     |
-| Type 3 | 10              | Well-covered         | Open only if image/chameleon angle (fresh)                           |
-| Type 4 | 10              | Well-covered         | Skip unless rumination/melancholy angle (fresh)                      |
-| Type 5 | 9               | Mid                  | Open — withdrawal, social fatigue, intellectual hoarding             |
-| Type 6 | 11              | Well-covered         | Open if doubting-own-decisions / contingency-anxiety                 |
-| Type 7 | 6 (lightest)    | **Highest priority** | Open — distraction, starting-not-finishing, future-tripping          |
-| Type 8 | 10              | Mid                  | Open — anti-authority, "don't tell me what to do"                    |
-| Type 9 | 10              | Well-covered         | Open if numbing/narcotization or stress-shutdown angle               |
+| Type   | Lifetime topics | Status               | Priority for this session                                   |
+| ------ | --------------- | -------------------- | ----------------------------------------------------------- |
+| Type 1 | 13              | Most-covered         | Skip unless contrast Q                                      |
+| Type 2 | 9               | Mid                  | Open — advice-giving compulsion, helping-as-need            |
+| Type 3 | 10              | Well-covered         | Open only if image/chameleon angle (fresh)                  |
+| Type 4 | 10              | Well-covered         | Skip unless rumination/melancholy angle (fresh)             |
+| Type 5 | 9               | Mid                  | Open — withdrawal, social fatigue, intellectual hoarding    |
+| Type 6 | 11              | Well-covered         | Open if doubting-own-decisions / contingency-anxiety        |
+| Type 7 | 6 (lightest)    | **Highest priority** | Open — distraction, starting-not-finishing, future-tripping |
+| Type 8 | 10              | Mid                  | Open — anti-authority, "don't tell me what to do"           |
+| Type 9 | 10              | Well-covered         | Open if numbing/narcotization or stress-shutdown angle      |
 
 ### Anti-duplication checklist (already covered or queued)
 
@@ -61,14 +61,14 @@ People-pleasing, ghosting, control, never-apologize, victim mentality, codepende
 
 ## Priority Queue
 
-| #   | Question (truncated)                                                                  | Views     | Answers     | Gap | Blog Match | Score | URL                                                                                                              |
-| --- | ------------------------------------------------------------------------------------- | --------- | ----------- | --- | ---------- | ----- | ---------------------------------------------------------------------------------------------------------------- |
-| 1   | Why do some people shut down and others lash out when they are stressed?              | Est. 35K+ | Est. 50-110 | Yes | Yes ★      | 94    | https://www.quora.com/Why-do-some-people-shut-down-and-others-lash-out-when-they-are-stressed                    |
-| 2   | Why do some people hate authority while others thrive under it?                       | Est. 30K+ | Est. 40-90  | Yes | Yes ★      | 92    | https://www.quora.com/Why-do-some-people-hate-authority-while-others-thrive-under-it                             |
-| 3   | Why do some people keep starting projects but not complete them?                      | Est. 40K+ | Est. 50-120 | Yes | Yes ★      | 91    | https://www.quora.com/Why-do-some-people-keep-starting-projects-but-not-complete-them                            |
-| 4   | Why do some people experience excessive feelings of doubt?                            | Est. 15K+ | Est. 20-50  | Yes | Yes        | 88    | https://www.quora.com/Why-do-some-people-experience-excessive-feelings-of-doubt                                  |
-| 5   | Why do some people insist on providing 'advice,' when all I wanted was a little empathy? | Est. 25K+ | Est. 30-70  | Yes | Yes        | 85    | https://www.quora.com/Why-do-some-people-insist-on-providing-advice-when-all-I-wanted-was-a-little-empathy       |
-| 6   | Why do some people get distracted very easily and some don't?                         | Est. 20K+ | Est. 30-80  | Yes | Yes        | 85    | https://www.quora.com/Why-do-some-people-get-distracted-very-easily-and-some-don-t                               |
+| #   | Question (truncated)                                                                     | Views     | Answers     | Gap | Blog Match | Score | URL                                                                                                        |
+| --- | ---------------------------------------------------------------------------------------- | --------- | ----------- | --- | ---------- | ----- | ---------------------------------------------------------------------------------------------------------- |
+| 1   | Why do some people shut down and others lash out when they are stressed?                 | Est. 35K+ | Est. 50-110 | Yes | Yes ★      | 94    | https://www.quora.com/Why-do-some-people-shut-down-and-others-lash-out-when-they-are-stressed              |
+| 2   | Why do some people hate authority while others thrive under it?                          | Est. 30K+ | Est. 40-90  | Yes | Yes ★      | 92    | https://www.quora.com/Why-do-some-people-hate-authority-while-others-thrive-under-it                       |
+| 3   | Why do some people keep starting projects but not complete them?                         | Est. 40K+ | Est. 50-120 | Yes | Yes ★      | 91    | https://www.quora.com/Why-do-some-people-keep-starting-projects-but-not-complete-them                      |
+| 4   | Why do some people experience excessive feelings of doubt?                               | Est. 15K+ | Est. 20-50  | Yes | Yes        | 88    | https://www.quora.com/Why-do-some-people-experience-excessive-feelings-of-doubt                            |
+| 5   | Why do some people insist on providing 'advice,' when all I wanted was a little empathy? | Est. 25K+ | Est. 30-70  | Yes | Yes        | 85    | https://www.quora.com/Why-do-some-people-insist-on-providing-advice-when-all-I-wanted-was-a-little-empathy |
+| 6   | Why do some people get distracted very easily and some don't?                            | Est. 20K+ | Est. 30-80  | Yes | Yes        | 85    | https://www.quora.com/Why-do-some-people-get-distracted-very-easily-and-some-don-t                         |
 
 ★ = Highest-confidence blog match (direct or near-direct type page hit).
 
@@ -174,52 +174,52 @@ People-pleasing, ghosting, control, never-apologize, victim mentality, codepende
 
 ## Skipped Questions
 
-| Question (truncated)                                                                  | URL                                                                                                                                      | Reason                                                                                                                |
-| ------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------- |
-| Why do some people change in the presence of others?                                  | https://www.quora.com/Why-do-some-people-change-in-the-presence-of-others                                                                | Type 3 chameleon angle was tempting but Type 3 is well-covered (10 topics); pick when Type 3 needs fresh entry        |
-| Why do some people dwell so much over a situation instead of letting it go?           | https://www.quora.com/Why-do-some-people-dwell-so-much-over-a-situation-instead-of-letting-it-go-or-in-other-words-why-do-they-like-drama | Type 4 rumination angle but Type 4 already 10 topics; "drama" framing also nudges into NPD territory                  |
-| Why do many people feel more drained after socializing, even when they enjoy it?      | https://www.quora.com/Why-do-many-people-feel-more-drained-after-socializing-even-when-they-enjoy-it                                     | Partial overlap with already-queued 04-27 "very private" Type 5 question — same energy-economics angle                |
-| Why do some people feel things so heavy? (HSP)                                        | https://www.quora.com/Why-do-I-feel-things-so-heavy-...                                                                                  | Duplicate Enneagram angle with already-queued 04-27 "more emotional than others" — same Type 4/6/2 framing            |
-| Why do some people choose isolation as a way to deal with their mental issues?        | https://www.quora.com/Why-do-some-people-choose-isolation-as-a-way-to-deal-with-their-mental-issues-even-though-it-makes-things-worse-over-time | "mental issues" framing risks derail into clinical depression rather than Type 5 character-structure                  |
-| Why do some people feel the need to constantly keep busy?                             | https://www.quora.com/Why-do-some-people-feel-the-need-to-constantly-keep-busy-Why-so-few-can-just-sit-quietly-enjoy-the-silence-and-be-content-with-their-thoughts | Duplicate of 04-27 queued "fear-being-alone-with-thoughts" — same Type 7 stillness-avoidance angle                    |
-| Why do people forget to enjoy their life everyday and pass their life in autopilot?   | https://www.quora.com/Why-do-people-forget-to-enjoy-their-life-everyday-and-just-pass-their-life-in-autopilot-mode-most-of-the-time      | Type 9 narcotization angle — but framing is societal/philosophical, not individual-difference; weakens type-answer fit |
+| Question (truncated)                                                                | URL                                                                                                                                                                 | Reason                                                                                                                 |
+| ----------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------- |
+| Why do some people change in the presence of others?                                | https://www.quora.com/Why-do-some-people-change-in-the-presence-of-others                                                                                           | Type 3 chameleon angle was tempting but Type 3 is well-covered (10 topics); pick when Type 3 needs fresh entry         |
+| Why do some people dwell so much over a situation instead of letting it go?         | https://www.quora.com/Why-do-some-people-dwell-so-much-over-a-situation-instead-of-letting-it-go-or-in-other-words-why-do-they-like-drama                           | Type 4 rumination angle but Type 4 already 10 topics; "drama" framing also nudges into NPD territory                   |
+| Why do many people feel more drained after socializing, even when they enjoy it?    | https://www.quora.com/Why-do-many-people-feel-more-drained-after-socializing-even-when-they-enjoy-it                                                                | Partial overlap with already-queued 04-27 "very private" Type 5 question — same energy-economics angle                 |
+| Why do some people feel things so heavy? (HSP)                                      | https://www.quora.com/Why-do-I-feel-things-so-heavy-...                                                                                                             | Duplicate Enneagram angle with already-queued 04-27 "more emotional than others" — same Type 4/6/2 framing             |
+| Why do some people choose isolation as a way to deal with their mental issues?      | https://www.quora.com/Why-do-some-people-choose-isolation-as-a-way-to-deal-with-their-mental-issues-even-though-it-makes-things-worse-over-time                     | "mental issues" framing risks derail into clinical depression rather than Type 5 character-structure                   |
+| Why do some people feel the need to constantly keep busy?                           | https://www.quora.com/Why-do-some-people-feel-the-need-to-constantly-keep-busy-Why-so-few-can-just-sit-quietly-enjoy-the-silence-and-be-content-with-their-thoughts | Duplicate of 04-27 queued "fear-being-alone-with-thoughts" — same Type 7 stillness-avoidance angle                     |
+| Why do people forget to enjoy their life everyday and pass their life in autopilot? | https://www.quora.com/Why-do-people-forget-to-enjoy-their-life-everyday-and-just-pass-their-life-in-autopilot-mode-most-of-the-time                                 | Type 9 narcotization angle — but framing is societal/philosophical, not individual-difference; weakens type-answer fit |
 
 ---
 
 ## Search Coverage Log
 
-| Keyword                                                                                | Results Scanned | Candidates Flagged |
-| -------------------------------------------------------------------------------------- | --------------- | ------------------ |
-| `"why do some people" can't sit still distraction restless`                            | 10              | 3                  |
-| `"why do some people" always planning never doing future`                              | 10              | 2                  |
-| `"why do some people" hate being told what to do authority`                            | 10              | 4                  |
-| `"why do some people" withdraw social isolation introvert energy`                      | 2               | 2                  |
-| `"why do some people" give unsolicited advice always helping`                          | 8               | 3                  |
-| `"why do some people" can't make decisions doubt second-guess`                         | 10              | 3                  |
-| `"why do some people" zone out shut down numb avoid feelings`                          | 7               | 3                  |
-| `"why do some people" change personality around different groups chameleon`            | 5               | 1                  |
-| `"why do some people" feel everything intensely highly sensitive`                      | 10              | 1                  |
-| `"why do some people" attention seeking dramatic feelings`                             | 10              | 1                  |
-| `"why do some people" find it hard to be alone need company`                           | 10              | 0 (overlap)        |
-| `"why do some people" walk away conflict avoidance peace`                              | 10              | 0 (overlap)        |
-| `"why do some people" stuck rut autopilot disconnect from life`                        | 10              | 1                  |
-| `"why do some people" can't finish what they start abandon projects`                   | 7               | 1 (winner)         |
+| Keyword                                                                     | Results Scanned | Candidates Flagged |
+| --------------------------------------------------------------------------- | --------------- | ------------------ |
+| `"why do some people" can't sit still distraction restless`                 | 10              | 3                  |
+| `"why do some people" always planning never doing future`                   | 10              | 2                  |
+| `"why do some people" hate being told what to do authority`                 | 10              | 4                  |
+| `"why do some people" withdraw social isolation introvert energy`           | 2               | 2                  |
+| `"why do some people" give unsolicited advice always helping`               | 8               | 3                  |
+| `"why do some people" can't make decisions doubt second-guess`              | 10              | 3                  |
+| `"why do some people" zone out shut down numb avoid feelings`               | 7               | 3                  |
+| `"why do some people" change personality around different groups chameleon` | 5               | 1                  |
+| `"why do some people" feel everything intensely highly sensitive`           | 10              | 1                  |
+| `"why do some people" attention seeking dramatic feelings`                  | 10              | 1                  |
+| `"why do some people" find it hard to be alone need company`                | 10              | 0 (overlap)        |
+| `"why do some people" walk away conflict avoidance peace`                   | 10              | 0 (overlap)        |
+| `"why do some people" stuck rut autopilot disconnect from life`             | 10              | 1                  |
+| `"why do some people" can't finish what they start abandon projects`        | 7               | 1 (winner)         |
 
 ---
 
 ## Type Coverage in Queue
 
-| Enneagram Type | Questions in Queue | Notes                                                                                       |
-| -------------- | ------------------ | ------------------------------------------------------------------------------------------- |
-| Type 1         | 0 (skip — already 13 lifetime)                                                                                                  |
-| Type 2         | 1                  | "advice-instead-of-empathy" — fresh helping-as-need-to-be-needed angle                      |
-| Type 3         | 0 (skipped — already 10 lifetime)                                                                                               |
-| Type 4         | 0 (skipped — already 10 lifetime)                                                                                               |
-| Type 5         | 0.5 (secondary mention in #5 advice question — emotional-vocabulary deficit angle)                                              |
-| Type 6         | 1                  | "excessive doubt" — direct fear-engine entry                                                |
-| Type 7         | 2                  | "starting-projects" + "distractibility" — closes biggest gap (6 → 8 lifetime)               |
-| Type 8         | 1                  | "anti-authority" — closes core Type 8 signature missing from coverage                       |
-| Type 9         | 1                  | "shut down vs lash out" — Type 9 numbing pole of stress-response contrast                   |
+| Enneagram Type | Questions in Queue                                                                 | Notes                                                                         |
+| -------------- | ---------------------------------------------------------------------------------- | ----------------------------------------------------------------------------- |
+| Type 1         | 0 (skip — already 13 lifetime)                                                     |
+| Type 2         | 1                                                                                  | "advice-instead-of-empathy" — fresh helping-as-need-to-be-needed angle        |
+| Type 3         | 0 (skipped — already 10 lifetime)                                                  |
+| Type 4         | 0 (skipped — already 10 lifetime)                                                  |
+| Type 5         | 0.5 (secondary mention in #5 advice question — emotional-vocabulary deficit angle) |
+| Type 6         | 1                                                                                  | "excessive doubt" — direct fear-engine entry                                  |
+| Type 7         | 2                                                                                  | "starting-projects" + "distractibility" — closes biggest gap (6 → 8 lifetime) |
+| Type 8         | 1                                                                                  | "anti-authority" — closes core Type 8 signature missing from coverage         |
+| Type 9         | 1                                                                                  | "shut down vs lash out" — Type 9 numbing pole of stress-response contrast     |
 
 Net coverage map after this session (if all 6 drafted):
 

@@ -332,3 +332,54 @@ Bobbi Althoff isn't just a podcaster who interviews celebrities awkwardly. She's
 The girl who tried to end her life at 14 because she "hated who she was" found a way to build an empire on that very self. Not by hiding what was "wrong" with her. By making it the product.
 
 The next time you watch Bobbi sit in uncomfortable silence while a celebrity squirms, remember: you're not just seeing a bit. You're seeing someone who finally found a way to make the discomfort she's always felt into something valuable.
+
+<!-- ============================================================
+FRESH-EYES ASSESSMENT — 2026-04-29 PASS 4 (Claude cold read)
+============================================================
+
+ONE-LINE VERDICT: A genuinely strong alchemy thesis with rigorous sourcing, but the Drake-fallout reframe ("emotional weather projected outward") is the piece's defense-counsel softspot.
+QUALITY-CEILING TIER: TOP
+
+STRONGEST SECTION: "The Persona as Transformation" — "biggest insecurities without shame" carries the whole thesis and earns it.
+WEAKEST SECTION: "The Drake Partnership Redux" — drifts into PR-recap; reads like rehabilitation rather than analysis.
+
+STRENGTHS (3-5 bullets, specific):
+- Suicide-attempt-at-14 handled with gravity; not weaponized for sympathy.
+- Drake reconciliation is sourced with timeline (interview, deletion, separation date, 2025 quote) — no soft attribution.
+- Online-backlash section names the Ty Hawkins comments and the daughters worry — concrete stakes, not abstract.
+- Scarlett Johansson clip and Funny Marco tour cancellation get named as "real criticism" beats.
+- Counter-typing in Rabbit Hole (Type 5, Type 9) is genuine, not perfunctory.
+
+WEAKNESSES (3-5 bullets, specific):
+- The Drake projection reframe ("emotional weather projected outward") softens what was, by Drake's own quote, blame-shifting; the analysis names it but doesn't sit with how unfair that was to him.
+- Industry-plant section gives her response and stops; doesn't actually weigh the evidence (the rapid Drake booking IS unusual).
+- "Withdrawn specialist" and "alchemy" are good phrases but get repeated until they soften.
+- Funny Marco tour cancellation gets one paragraph; his side ("Bobbi's anxiety affecting performances") is reported but not interrogated.
+- Closing parallel-binary ("Not by hiding... By making it the product") is a corpus tic.
+
+GAPS / MISSED OPPORTUNITIES (3-6 bullets):
+- The Cory Althoff age gap (21 / 30) is named once and dropped; a Type 4's young-merge with an older partner is its own pattern worth a paragraph.
+- The "industry plant" question deserves real examination — what DOES explain Drake booking her at 200K subs? The piece punts.
+- Postpartum depression mentioned in TL;DR but barely developed in body.
+- No examination of the persona's collateral damage on guests (ScarJo, Marco) beyond "is it rude or comedic?" — the question of whether her art has costs to others is dodged.
+- The "Persian girl" comparison is missing — she's analyzed in cultural isolation despite being a public figure with cultural framing.
+
+PATTERN HITS:
+- Closing parallel-binary ("Not by hiding... By making it the product") — 1 of corpus tics, capped.
+
+PATTERN MISSES:
+- No "Father modeled X. Mother modeled Y." synthesis (parents' divorce/toxicity treated structurally, not symbolically).
+- No three-beat triplet.
+- No "child still doing" closer.
+- Counter-typing rule of three is structured (5 then 9) but feels earned, not perfunctory.
+
+CRITIC-ENGAGEMENT: Engages ScarJo viewers and Funny Marco directly but punts on the industry-plant critique by accepting Bobbi's denial without weighing the rapid-booking evidence.
+CURRENCY: yes — September 2025 Drake reconciliation, late-2025 Ty Hawkins comments, August 2024 divorce.
+DEFENSE-COUNSEL CHECK: Mild — the Drake fallout reframes blame-shifting as "Type 4 overwhelm," which is technically accurate but functions as exoneration. Drake's own framing ("you needed to get a little active on somebody") is more honest than the analysis allows.
+
+PRIORITY FIXES (numbered, 3 max):
+1. Rebalance the Drake reconciliation: keep the Type 4 mechanism, but name the moral cost of letting Drake "take the weight" for her marriage's collapse — that was unfair to a real person, not just "emotional weather."
+2. Actually examine the industry-plant claim. What's the strongest version of the case against her? Then refute or concede it.
+3. Tighten the close — the "alchemy" thesis has been said three times by the time we get there; let the Persona-as-Transformation section be the last word and cut the final two paragraphs.
+
+============================================================ -->

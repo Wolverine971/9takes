@@ -307,6 +307,62 @@ The most visible invisible woman in America told the world she was numb. Then sh
 
 <!-- Reviewer comments addressed: Travis Scott section added, Snapchat crash woven into 9w8, Caitlyn expanded in formation story, inner circle added, numb repetition reduced, mansion trimmed, lip filler duplicate removed, Pink Floyd nod added, "most visible invisible woman" used in body, business section tied tighter to thesis, 9w8 threaded through conclusion. -->
 
+<!-- ============================================================
+FRESH-EYES ASSESSMENT — 2026-04-29 PASS 2 (Claude cold read)
+============================================================
+
+ONE-LINE VERDICT: One of the corpus's most psychologically committed Type 9 portraits — the "most visible invisible woman" thesis is structurally load-bearing across 12 sections, and the lip-filler-loop / Astroworld-silence / Snapchat-tweet stack actually proves it; the cost is an A-grade blog that still ends with the corpus closing-cry tic.
+
+STRONGEST SECTION: "Why Kylie Jenner Disappears When Chaos Hits" — the seven-week Astroworld silence, hidden pregnancy, three skipped Golden Globes form a real evidentiary stack that proves the disappear-when-chaos-hits thesis without needing the typing framework. The "she withdraws entirely. The shutdown becomes total" lands because the receipts are stacked.
+WEAKEST SECTION: "How Kylie Jenner Built Kylie Cosmetics" — the business case ties to "consistency over reinvention" but it's the only section where the Type 9 frame feels grafted on. The Khy/Kylie Skin/Sprinter rundown is brand-fact-dump, not psychology.
+
+STRENGTHS (3-5 bullets, specific):
+- "She was 15 when a boy said her lips were too small to kiss. She's 28 now. The comment changed her face, launched an empire, defined beauty standards for a generation. And it still makes her cry." — the most devastating four-sentence run in the corpus.
+- The Caitlyn-transition / "the only thing I really bottled in" beat is Type 9 evidence with real biographical weight; it's not name-dropped, it's prosecuted.
+- The Jordyn Woods reconciliation reveal — "Type 9s struggle to hold onto anger" — is the rare moment where the framework illuminates a public event the average reader misread.
+- The 9w8 wing is threaded through (Snapchat $1.3B drop, breast-implant disclosure, "original baddie" Dazed quote) rather than stamped once and abandoned.
+- "Then she started crying" — the close-reading of the on-camera "I've never cried about this before" is allowed to land without adornment.
+
+WEAKNESSES (3-5 bullets, specific — name lines, phrases, sections):
+- "Most visible invisible woman" appears 4 times. Strong line, but it's been drilled. Once at the open and once at the close would suffice.
+- "Numb" / "comfortably numb" / "Pink Floyd line" — the song reference is clever but pulls focus; it announces the cleverness instead of trusting it.
+- "Type 9s" plural-construction is the diagnostic crutch ("Type 9s insulate through physical comfort" / "Type 9s struggle to hold onto anger" / "Type 9s can build enormous things") — five+ instances. After typing, trust the reader.
+- The Travis Scott section recovers strongly but opens with "She didn't ask him to enter her world. She dissolved into his" — corpus contrast-pair tic ("X is not Y. It is Z.").
+- "Underneath the empire built on disappearing is a woman still figuring out if it's safe to show up." — the closer is good, but the QUALITY GRADE comment block at the top already flagged this should be the cut-to-black, and the actual blog body does pause cleanly there. Fine, but earnest about its own ending.
+
+GAPS / MISSED OPPORTUNITIES (3-6 bullets — what a fan/critic would expect that's absent):
+- The body-image / weight-loss / Ozempic-era discourse around her appearance in 2024-2026 — entirely absent. The cried-about-criticism beat happens in a vacuum.
+- Tyga and the underage-relationship-allegations era — completely missing. Type 9 merging-with-the-nearest-person framework would be sharper if this was named.
+- Stormi's father / co-parenting public reality (Travis at family events, custody dynamics) — gets two sentences.
+- Her relationship to her sisters' specific scandals — the Kanye/Kim/Pete Davidson era, Khloe-Tristan-after-Tristan, Kendall-modeling-controversies — Kylie's silence-while-merged is the Type 9 frame and it's not deployed.
+- The "self-made billionaire" Forbes investigation gets a single sentence. The Hyland Hill / Coty-financials / falsified-tax-returns implications never get prosecuted.
+- 2024-2026 specifics: Khy fashion launch reception, Sprinter cocktail brand reception, the Saint Laurent runway debut, the actual Chalamet-relationship-public timeline — most are touched but skim-deep.
+
+PATTERN HITS (DJ tropes that worked here):
+- "Three consecutive Golden Globes, three red carpets skipped, three times she erased herself from the frame so someone else could fill it." — three-beat rhythm earns it because the receipts are real.
+- The 9w8-flash structure is genuinely useful — the wing isn't a sidebar, it's a recurring event.
+- "And it still makes her cry." closing-of-section autopilot frame works here because the wound is specific.
+
+PATTERN MISSES (DJ tropes that felt formulaic, recycled, or autopilot here):
+- Counter-typing rule of three: "Type 3s fight for their image / Type 4s lean into feeling different / Kylie consistently downplays herself" — full pass-1 corpus tic.
+- Triple front-loading: opening Globes scene + TL;DR + "What is Kylie Jenner's personality type" + "Why Type 9, Not Type 3 or 4" — four thesis-front-loads before page 2.
+- Bolded mini-thesis: **The Disappearing Act** / **The Character as Shield** / **The Merging Pattern** / **The 8 Wing** — corpus default.
+- "X is not Y. It is Z." pair: "This is not shyness. This is strategy." / "This is not luxury. This is a cocoon." / "Kylie didn't choose this pattern. It was the only available strategy." Multiple.
+- "What [person] is still [verb-ing]" closing-frame: "Underneath the empire built on disappearing is a woman still figuring out if it's safe to show up." — corpus closing-image autopilot.
+- Single-sentence dramatic paragraphs: "Then she went further:" / "She wasn't trying to hurt anyone." / "The 9 hides. The 8 wing, when it surfaces, hits hard." Many.
+- "It is the X" thesis: "The minimalism isn't taste. It's scar tissue" (in the comment block, but the prose mirrors it) / "The distance is the point." / "The comfort is the treatment. The empire is the cocoon writ large."
+
+CRITIC-ENGAGEMENT: Mostly absent. No named celebrity-feminism critic on the lip-filler influence on teen girls. No engaged critic on the Forbes "no longer a billionaire" investigation. The "criticized as insincere" Astroworld response gets passive-voice treatment.
+
+CURRENCY (2024-2026 anchor): Strong — January 2026 Globes, December 2025 _Marty Supreme_ premiere matching orange, June 2025 implant-spec disclosure, March 2025 "original baddie" Dazed, 2026 Critics Choice "thank you to my partner" speech. The currency anchor is excellent.
+
+PRIORITY FIXES (numbered, in order of impact — 3 max):
+1. Cut the counter-typing rule-of-three "Type 3s fight / Type 4s lean / Kylie downplays" paragraph. The 9w8 flashes already prove the case.
+2. Trim "most visible invisible woman" to two uses (open and close). The phrase is good but drilled.
+3. Add the Tyga / underage-rumor era as one paragraph in the merging-with-the-nearest section. Currently absent and it's the most damaging unaddressed beat.
+
+============================================================ -->
+
 <svelte:head>
 
 <script type="application/ld+json">

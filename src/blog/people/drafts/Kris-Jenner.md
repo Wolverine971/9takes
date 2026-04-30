@@ -301,3 +301,62 @@ She has done this for decades. She is not slowing down. At seventy, approaching 
 But she controls everything she can. And what she can control — her schedule, her family's brand, the terms of every deal, the narrative of every crisis — she controls with a discipline that started in a scheduling office with a box of brownies and never let up.
 
 She learned at seven that love leaves. She has spent every morning since making sure it can't.
+
+<!-- ============================================================
+FRESH-EYES ASSESSMENT — 2026-04-29 PASS 3 (Claude cold read)
+============================================================
+
+ONE-LINE VERDICT: The most genuinely uncomfortable piece in this batch — refuses to settle whether the empire is love or control, and is stronger for it; but the Type 3 read does some softening work the file doesn't quite reckon with.
+
+STRONGEST SECTION: "Nicole's Side of the Courtroom" — the only section in the file that catches Kris in a place where the management instinct could not work. Her own quote ("I've latched onto the legal side of stuff, rather than deal with the emotional side that just misses my girlfriend") is evidence she gave herself, and the file uses it without trying to soften it.
+WEAKEST SECTION: "What is Kris Jenner's Personality Type?" — the corpus's pattern of front-loading a bullet list weakens the strongest analysis the file has. The Stephen A. Smith "pimp" charge is delivered, then immediately cushioned by Kim's defense ("no one will fight harder for you than your own mother") — the critic gets one sentence, the apologist gets a quoted line.
+
+STRENGTHS (specific):
+- The brownies-to-scheduling-office-to-$100M-Hulu structural earn is the corpus's best example of "the method scaled but the instinct stayed." It's not just biography sequencing; it's argument.
+- "I think I fell into a situation where I thought that the grass was greener somewhere else. And I made a huge mistake." Letting Kris's own self-conviction open the file is sharp — most profiles open with the persona, this one opens with the regret.
+- The "you're doing amazing, sweetie" beat is treated as the thesis compressed to five words. The trademark detail is the kind of fact that does more work than analysis ever could.
+- The room-of-designer-dinnerware paragraph is genuinely original. Most Kardashian profiles miss the Hermès-and-portraiture detail because it's mundane; this file recognizes it as the empire's truest signature.
+- "She built an empire on emotional performance. But her own internal strategy was the opposite: bury the real feeling and replace it with something manageable." — earned, not asserted.
+- The Mason Disick beat (16, refuses cameras, moved to Scott's house) is the corpus's best "the next generation is voting" detail. It's specific and current.
+
+WEAKNESSES (specific):
+- The Type 3 frame does soft-focus work the file doesn't acknowledge. "Achievement equals love" is a clean theory; it's also the most generous possible reading of Kris's pattern. A Type 8 read or a narcissism read would be harder on the same evidence.
+- The Ray J allegations are presented in a both-sides mode ("alleges... has denied this under oath") that lets the file off the hook. For a piece arguing the mother and the manager are inseparable, the question of whether she selected her own daughter's sex tape footage for release is the central test. The file ducks it.
+- "Whether that exchange is exploitation or empowerment depends entirely on where you stand." This is the corpus's signature "both X and Y are true" paradox-as-resolution, and it's where the file hands its hardest question back to the reader.
+- The 4:30 AM ending ("She has spent every morning since making sure it can't") is a return to the opening's frame. It's elegant — it's also the loop closing on itself rather than the file landing somewhere new.
+- "The mother and the manager moved in together decades ago. They share everything now." — this is a metaphor doing the work that documentation should. The file has the receipts (the 10% cut, the Khloé "as my manager" line) and chooses prose-mode over them.
+- Caitlyn Jenner's transition is glossed: "they had been together for twenty-four years." Kris's reported initial reaction (the "passive-aggressive" line) is given but Caitlyn's side ("Everything she says is all made up") is quoted only via Kris's anger response. The trans context — and the question of how a Type 3 brand-builder navigated her spouse's identity revelation — is treated as a divorce, not a structural test.
+
+GAPS / MISSED OPPORTUNITIES:
+- Khloé's paternity question (the recurring tabloid story about whether Robert Kardashian was biologically her father, fueled by Kris's affairs from that era) is absent. For a file about "the affair was my biggest regret," that absence is loud.
+- The grandchildren as the next labor pool. The piece names Mason's exit but doesn't engage with North West's emerging public presence at 12, or whether the children of the next generation have consented to the brand.
+- Bruce Jenner pre-transition — the years Kris was reportedly steering Bruce's brand into oblivion — gets one paragraph. The corpus is missing a hard look at what Caitlyn has alleged about being managed into invisibility.
+- The Tristan Thompson cycle. Khloé's repeated reconciliations with Tristan despite documented infidelity — and Kris's role in keeping the family-brand intact through it — is the contemporary stress test of "I love these men."
+- No critic is named on the family's role in normalizing cosmetic surgery culture for Gen Z, despite that being the dominant cultural critique of the brand right now.
+- Absent: any engagement with Kanye West's public attacks on the family. For "we keep all the exes," Kanye is the documented exception.
+
+PATTERN HITS (DJ tropes that worked here):
+- The signature opening (regret quote rather than persona quote) is the hardest version of the trope and it works.
+- "She has done this for decades" + the 4:30 AM ritual is a sustained portrait of compulsion that doesn't slip into cliché.
+- The Rule-of-12 detail (Dr. Daniel Amen) is the kind of specific methodology fact that does more work than diagnosis.
+
+PATTERN MISSES (formulaic):
+- "She did monetize her children. She also fought ferociously for them. She built a system where her family's intimacy is the product..." — corpus paradox-as-resolution. The file argues both at once and lands neither.
+- "Love, quantified on a spreadsheet." — bolded mid-paragraph thesis sentence; DJ corpus tic.
+- "Kris Jenner alone in a room is not Kris Jenner. Kris Jenner in a room full of people she has made successful — that is her masterpiece." — single-sentence dramatic paragraph + parallel-binary closer to a section. This is the corpus's two most worn-out devices, stacked.
+- "Feel it. Name it. Then pop over and handle it." Three-beat rhythm as substitute for analysis.
+- TL;DR + bolded intro + "What is her type" bullet list = triple front-loading. Reader has been told the thesis four times before the body opens.
+
+CRITIC-ENGAGEMENT: Stephen A. Smith ("pimp"), Ray J (sex tape allegations), the unauthorized "Dirty Sexy Money" biographers — the file names critics. But it neutralizes them by following each accusation with a Kim or Kris defense. The structural pattern is name-then-defang. The harshest version of the case is delivered, then dissolved.
+
+CURRENCY (2024-2026 anchor): Yes. The 2024 hysterectomy, the 2025 Burnouts/Shetty interviews, Mason's 2025 move-out, the ongoing Ray J lawsuits "into 2026." Strong currency. Stronger than most files in the corpus.
+
+DEFENSE-COUNSEL CHECK: Yes, but earned. The Type 3 frame ("when feelings become too big, the performer checks out") provides a psychological explanation for the post-Nicole-murder coldness that could otherwise read as sociopathy. The file uses theory to make Kris legible, not to excuse her — the affair and the abandonment of Robert are not softened. Borderline pass.
+
+PRIORITY FIXES:
+1. Pick the Ray J allegation and either engage it head-on or explicitly decline to — the current "alleges/has denied this" mode is corpus formula. The file's hardest insight ("the mother and the manager moved in together") demands the test case.
+2. Cut the bullet-list "What is her personality type" section. The Stephen A. Smith "pimp" charge and Kim's defense both deserve to be in body prose where they can collide, not adjacent in a list.
+3. Replace the closing return-to-opening loop ("She learned at seven... has spent every morning since making sure it can't") with a current-tense beat — Mason's exit, or a North-West-on-camera scene from 2026. The 4:30 AM image is too pretty.
+
+============================================================ -->
+

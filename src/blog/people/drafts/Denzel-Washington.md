@@ -309,3 +309,60 @@ His name, he revealed on Jimmy Kimmel Live!, is actually pronounced DEN-zel, wit
 The question isn't whether he'll preach. He already has. Every role was a parable. Every film he directed was a lesson about protection. Every young actor he quietly championed was a sermon about what power owes to the powerless. The question is whether the man who couldn't cry at his own parents' funerals will find, in this last quarter, the vocabulary for the tenderness he's been protecting with all that strength.
 
 > **Disclaimer** This analysis of Denzel Washington's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Denzel Washington.
+
+<!-- ============================================================
+FRESH-EYES ASSESSMENT — 2026-04-29 PASS 3 (Claude cold read)
+============================================================
+
+ONE-LINE VERDICT: A reverent, tightly-built profile that reads more like a sermon for Denzel than an audit of him — earns its read on the prophecy-to-pulpit arc but never seriously stress-tests the theory that "every role was a parable."
+
+STRONGEST SECTION: "Two Bottles a Day, No More, No Less" — the precise, strange, calibrated detail (two bottles, never three, never one) is the only section in the file that actually argues with itself. The inner-thought block ("If I can control the amount, I'm not out of control") is the corpus's rare instance of inner monologue earning its keep instead of feeling planted.
+WEAKEST SECTION: "From St. Elsewhere to Glory" — the prior reviewer flagged this and was right. It reads like a Wikipedia career chronology dropped into a psychological profile. The Se7en confession is the only beat that pulls weight; the rest is filler.
+
+STRENGTHS (specific):
+- The Ruth Green prophecy → 70th-birthday baptism arc is a real structural earn. Most celebrity profiles don't have an opening that pays off as a closer; this one does, and the wallet detail keeps it from being a religious-platitude move.
+- The Pauletta-proposed-three-times beat with "I may give her reason to leave me, but I'll never leave her" is the strongest single quote in the file. It's allowed to be unsettling — the writer doesn't soften the implication of infidelity.
+- The mentorship-network catalog (Boseman, Hardwick, Butler, Powell, Jenkins) is the corpus's best example of "show, don't claim" generosity. Five named beneficiaries, each with a specific intervention, none of it self-published by Denzel.
+- The mother's "do good the right way" correction at 59 is rendered with restraint. Lennis is allowed to be the moral authority of the piece without becoming a saint figure.
+- The DEN-zel/den-ZEL pronunciation reveal as the closer is genuinely original. It's the rare ending that lands an insight rather than a metaphor.
+
+WEAKNESSES (specific):
+- The "every role was a parable... every film a sermon... every young actor a sermon" closing paragraph is sermon-mode itself. It reads like a writer who has fallen in love with his subject. Three "every" repetitions in three sentences is incantation.
+- The piece accepts Denzel's self-frame entirely. He says he never drank while preparing for a role; the file repeats it. He says he never cried for his father; the file repeats it. There is no skeptical voice anywhere — no critic, no co-star with a complaint, no journalist who has questioned the fortress.
+- "I never shed a tear for my father. There was no connection." This is asserted, then pivoted past. The corpus's "decency and presence are different things" reframe rescues the father wound from being a real disconnection — the piece backs away from sitting in the unresolved.
+- "Power as protection. Control as love. Strength as the only acceptable vocabulary for tenderness." This is a triple parallel-binary that substitutes cadence for diagnosis. It's the kind of sentence that feels written, not earned.
+- Spike Lee's "Trust" anecdote and Hawke's whisper are presented as testimony but the Hawke quote in particular has been flagged in source-checks before — the prior reviewer noted attribution gaps and they remain unaddressed.
+- The infidelity question is dodged. "I may give her reason to leave me" is quoted as poetry rather than what it strongly implies. A critic would want the file to either confirm/deny the publicly reported affairs from the early 90s or explicitly decline to.
+
+GAPS / MISSED OPPORTUNITIES:
+- Spike Lee's documented frustrations with Denzel during Malcolm X production. He's quoted only in adoration mode. A working-relationship friction would humanize him.
+- The Cannes 2018 incident where Denzel grabbed/yelled at a photographer is named ("shouted 'Stop!'") but never engaged. The Type 8 explosion is the through-line of the file — the one time it actually erupted in public is glossed.
+- The 2017 The Equalizer franchise as populist-protector fantasy. Prior review flagged this. It's a Denzel choice that complicates the "protector of the powerless" thesis (he's playing a vigilante killing low-life criminals — protection or punishment?).
+- John David's relationship to his father gets one quote. The "I'm always his son" line is rich, and the piece walks past it.
+- The 1999 Hurricane Carter portrayal and Carter's later complaints about Denzel's depiction. A critic-engagement opportunity that's missing entirely.
+- No engagement with the question of why Denzel has worked almost exclusively with white directors at the prestige level (Scott, Fuqua, Mangold, Lee being the exception). For the "Black Hollywood mentor" thesis, this is a productive tension.
+
+PATTERN HITS (DJ tropes that worked here):
+- The signature opening detail (Ruth Green's piece of paper) is structurally load-bearing, not decorative.
+- The "the two bottles" rhythm — single-detail paragraphs around a calibrated specific — is the trope working.
+
+PATTERN MISSES (formulaic):
+- The contrast-panel ("Father's Gift / Father's Wound") is gratis. The body text already does this work; the panel is a visual restating.
+- The single-sentence dramatic paragraph is overused: "Two bottles. Not three. Not one." / "He stopped drinking. He hasn't had a thimble's worth since." / "He found his in the men at the Boys & Girls Club." / "His son found his at home." The last pair especially is too pat — it tidies the cycle.
+- Triple front-loading of thesis: TL;DR + "preacher's son who chose a longer route" intro + "What is Denzel's Personality Type" section all restate the prophecy-to-pulpit arc.
+- "This isn't a filmography. It's a theological argument about power." Bolded mid-paragraph thesis sentence — DJ corpus tic.
+- "The retreat is always private. The comeback is always visible." — parallel-binary as resolution.
+
+CRITIC-ENGAGEMENT: No. Denzel has critics — particularly around his "young Black men need to look in the mirror" comments and the Hurricane Carter accuracy questions. None are named. The piece engages institutional Hollywood (Sidney Poitier mentorship) but no human-named critic.
+
+CURRENCY (2024-2026 anchor): Yes — the December 2024 baptism, the 2025 Othello run, Cannes Palme d'Or. This is the strongest currency anchoring in the batch. The "last quarter" framing is genuinely current.
+
+DEFENSE-COUNSEL CHECK: Borderline. The drinking is named and not excused. But the absent-fathering of his own children is treated as resolved by his being "a father who stayed" — Denzel's own reported infidelity (publicly reported, never confirmed) is sidestepped via a quoted line, and the type-8-as-protector frame does some defense work for the question of whether power-as-control is actually love. Not the worst case in the corpus, but the file lets him win his own argument.
+
+PRIORITY FIXES:
+1. Pick one critic — internal (Hurricane Carter) or external (the documented infidelity rumors, the photographer incident at Cannes) — and engage. The piece is too clean. Denzel's whole power signature is that the public sees only what he allows; the file replicates that, doesn't break it.
+2. Cut "From St. Elsewhere to Glory" or compress it to two sentences. Move the Se7en/clunkers confession into the personality-type section as evidence of the private-retreat-public-comeback pattern.
+3. Trim the closing "every role / every film / every young actor" parallel. Pick the strongest of the three and let it stand; the triple is sermon, not analysis.
+
+============================================================ -->
+

@@ -314,3 +314,56 @@ Anduril means "Flame of the West." In Tolkien, it was reforged from the shards o
 Palmer Luckey knows exactly why he chose that name.
 
 > **Disclaimer** This analysis of Palmer Luckey's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Palmer Luckey.
+
+<!-- ============================================================
+FRESH-EYES ASSESSMENT — 2026-04-29 PASS 2 (Claude cold read)
+============================================================
+
+ONE-LINE VERDICT: A nearly-A-grade piece carried by a genuinely arresting opener (the explosive VR headset he won't put on) and a sustained refusal to settle into either fanboy or critic register — but the typing argument leans heavily on Type 7 textbook drops where the source material would do better unforced.
+
+STRONGEST SECTION: "The Cage" — the Facebook firing reframed via "Not 'frustrating.' Not 'disappointing.' He said being a one-hit wonder would be 'so depressing'" is a textbook Type 7 close-read on a single word, with the Calacanis NPC speech as kicker.
+WEAKEST SECTION: "What is Palmer Luckey's Personality Type?" — the bullet-list of typing evidence ("Fear of being trapped / Reframing as survival / The scatter that sharpens / The grudge as shadow / The focused depth as growth") is the most autopilot section in the blog.
+
+STRENGTHS (3-5 bullets, specific):
+- The death-headset opener is a hall-of-fame hook for the corpus — it does typing, foreshadowing, and image work in three short paragraphs.
+- "He has never put it on." as standalone paragraph is the rare single-sentence emphasis that earns its drama.
+- "Sick in that way. He chose those words. Not 'dedicated.' Not 'hardened.' Sick." — a fresh close-read on Luckey's own self-description that lands.
+- The "world gun store" / 60 Minutes section quotes him at length on autonomous weapons rather than paraphrasing — this is the move the corpus often dodges and here it sharpens the discomfort.
+- The Tudor-costume Renaissance Faire / D&D wizard / nuclear silo museum cluster of details is original and revealing — it's biographical evidence other profiles skip.
+
+WEAKNESSES (3-5 bullets, specific — name lines, phrases, sections):
+- "Most people see [X]. But that misreads the engine entirely." — the Pass 1 "common-misread-then-correct" setup, repeated structurally in this typing section.
+- "The core emotion of the head center is fear, not joy" is a textbook Enneagram drop dressed as insight.
+- The bullet stack of evidence ("Fear of being trapped / Reframing as survival / The scatter that sharpens / The grudge as shadow / The focused depth as growth") is rote.
+- "He didn't decide to stop seeking approval. He discovered that approval and impact were mutually exclusive — and chose impact" — exact "It is not X. It is Y." contrast-pair tic.
+- The "Anduril means Flame of the West… Palmer Luckey knows exactly why he chose that name" closing is on the nose and underlines what the rest of the blog already showed.
+
+GAPS / MISSED OPPORTUNITIES (3-6 bullets — what a fan/critic would expect that's absent):
+- No engagement with named critics of autonomous weapons by name (Stuart Russell, Future of Life Institute, Mary Wareham of HRW) — the UN Sec-Gen quote is paraphrased but no specific human ethicist appears.
+- The Anduril-vs-Palantir / Anduril-vs-Lockheed competition dynamics are absent — that's the live business story.
+- No engagement with the Anduril border-surveillance / ICE contract critiques and the immigration-tech ethics conversation.
+- The Nicole Luckey marriage gets one warm-fuzzy paragraph; nothing about how a Type 7 sustains a relationship since age 17 — that's a real diagnostic angle missed.
+- The Meta reconciliation is flagged ("we've buried the hatchet") but not interrogated — what changed for Zuckerberg, what changed for Luckey?
+- No engagement with employees/former Anduril staff voices — the entire portrait is from Luckey's own quotes plus 1-2 friendly observers (Topher Andrew, Chris Dixon).
+
+PATTERN HITS (DJ tropes that worked here):
+- The single-detail-as-typing-thesis opener (the death headset) is the corpus's strongest move and it's at full power here.
+- "He was barefoot when he said this." / "He was wearing flip-flops." — the recurring shoe-detail callback is funny because it works as a real motif rather than an autopilot tic.
+
+PATTERN MISSES (DJ tropes that felt formulaic, recycled, or autopilot here):
+- The bullet-list typing-evidence stack (5 bullets, bolded labels).
+- "It is not X. It is Y." contrast-pair on approval/impact.
+- The closing Anduril-name-meaning resolution is the binary-resolution closer.
+- "Most people see X. But that misreads the engine entirely." setup phrase.
+
+CRITIC-ENGAGEMENT: Weak on the substantive autonomous-weapons ethics side — Luckey gets long unrebutted quotes; no specific critic is named to push back. Strong on the Calacanis grudge side, where Calacanis is named and Luckey's NPC speech is preserved.
+
+CURRENCY (2024-2026 anchor): Strong — June 2025 funding round at $30.5B, $60B 2026 talks, Erebor 2026 charter, Reindustrialize Summit telerobotics, January 2026 Optimus reference (via Luigi joke). Best currency in the batch.
+
+PRIORITY FIXES (numbered, in order of impact — 3 max):
+1. Replace the bullet-list of typing evidence with a single dense scene-based diagnostic paragraph — the rest of the blog's evidence is scene-based and the bullet section breaks the rhythm.
+2. Add one named ethicist or autonomous-weapons critic engaging Luckey's actual argument (not just the UN Sec-Gen abstraction) — the blog gives him long unrebutted speeches that read as ducked critic-pressure.
+3. Cut or rewrite the closing "Palmer Luckey knows exactly why he chose that name" line — it's the binary-resolution autopilot ending and the rest of the blog deserves a sharper landing.
+
+============================================================ -->
+

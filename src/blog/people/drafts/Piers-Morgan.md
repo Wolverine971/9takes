@@ -402,3 +402,53 @@ WHAT'S WORKING (keep, don't touch):
 ONE-LINE VERDICT:
 Strong psychological portrait that is missing Morgan's biggest recent scoop (Ronaldo), his main skill (combative interviewing), and his realest self (sports fandom) — and repeats the "performance" motif enough that a reader will notice.
 -->
+
+<!-- ============================================================
+FRESH-EYES ASSESSMENT — 2026-04-29 (Claude cold read, second-pass)
+============================================================
+
+ONE-LINE VERDICT: A genuinely compelling psychological portrait of a Type 3 — sharp on Meghan, GMB, and Clarkson — but the prior 2026-04-23 review was right about Ronaldo / interview craft / sports / Tate, and those gaps still aren't filled in the live draft.
+
+STRONGEST SECTION: "The Woman Who Stopped Calling" — the ghosted-by-someone-who-upgraded-to-royalty read of the Markle obsession is the best single Enneagram move in any of the nine blogs I reviewed. "She'd looked at what Piers Morgan could offer and decided Prince Harry was a better room to walk into" is brutal and exactly right.
+WEAKEST SECTION: "Morgan and Trump: A Mirror for Each Other" — restates the Type 3 framing the reader already absorbed. Two paragraphs of "two Type 3s recognizing each other" without a fresh anecdote. The piece's own internal review flagged this and it's still there.
+
+STRENGTHS (3-5 bullets, specific):
+- The "Don't You Know Who I Am?" book title reframed as wound-not-boast is the analytical move of the piece.
+- Three names by adulthood (O'Meara → Pughe-Morgan → Morgan) doing real diagnostic work as a Type 3 origin story — original and earned.
+- The Clarkson reconciliation paragraph is the most emotionally honest moment in the piece, and the observation that Morgan could be real because Clarkson was real first is the sharpest small insight.
+- GMB walkoff as disintegration-to-Nine is a textbook example of DJ's framework executed cleanly.
+- Truncated ratings collapse (2M to 270K) and "Deport Piers Morgan" petition give the CNN section ballast it would lack on vibes alone.
+
+WEAKNESSES (3-5 bullets, specific — name lines, phrases, sections):
+- "Performance" / "performing" / "the performance" appears 18+ times across the piece. The internal review flagged this; the second pass cut some but not enough. By "I Always Get Introduced" the reader's eye glazes.
+- The CNN section is genuinely thin — three years and a major career failure get four paragraphs while the Mirror section sprawls. A reader will feel the imbalance.
+- "Each chapter required him to become a completely different version of himself" / "Each persona was convincing. Each felt real" — the parallel construction tic that fires throughout.
+- "The kid who ___, ___, ___" three-beat construction appears 3+ times.
+- The closing question "Without the show, who is he?" is the kind of rhetorical bow that the rest of the piece is too smart to need.
+
+GAPS / MISSED OPPORTUNITIES (3-6 bullets — what a fan/critic would expect that's absent):
+- Cristiano Ronaldo interview (Nov 2022) is COMPLETELY absent. This is the Uncensored era's signature scoop and the piece spends a full section on the YouTube pivot without mentioning the content that proved the bet. Already flagged in the prior review and still missing.
+- Andrew Tate's Uncensored appearances are not mentioned. For a piece spending real estate on the Uncensored business model, the marquee guest is a glaring omission.
+- His combative interview style as a craft is barely engaged. He's been doing the "let the guest hang themselves while staying calm" routine for 25 years and it's a Type 3 strategy in itself.
+- Arsenal / cricket / sports — the one part of his life that doesn't seem calibrated to an audience is invisible. The piece asks "who is he without the show?" and skips the actual answer.
+- The Phone hacking / Leveson "utterly unpersuasive" is dropped into the Mirror section without space to breathe; for a piece this concerned with truth-telling, this needs its own beat.
+- BGT / AGT / Simon Cowell bridge — how does a fired British tabloid editor become Larry King's CNN replacement? The piece skips the actual mechanism.
+
+PATTERN HITS (DJ tropes that worked here):
+- TL;DR is short (3 bullets) and crisp, doesn't restate.
+- Childhood-name as wound is genuinely original framing for a DJ blog.
+- The "What is X's personality type" required H2 doesn't drag because the diagnostic logic is woven into actual incidents.
+
+PATTERN MISSES (DJ tropes that felt formulaic, recycled, or autopilot here):
+- "He could have been describing himself" used as a section punchline — a known DJ tic.
+- "The boy whose father died before he could know him" repeated 3 times (intro, "Don't You Know Who I Am?" graf, closing) — the prior review flagged this and the second pass didn't cut it.
+- "[The pattern by now should be familiar.]" / "[The logic is circular, and it never stops spinning.]" — meta-commentary tics that signal AI rhythm.
+- Five-personas-in-a-timeline-box AND in the intro paragraph — known duplicate flagged in prior review, still both present.
+
+PRIORITY FIXES (numbered, in order of impact — 3 max):
+1. Add the Ronaldo interview, ideally inside or replacing the Uncensored business-press-release paragraphs. This is the single biggest factual omission.
+2. Cut the CNN section's redundancies and add 2-3 sentences on the BGT/AGT/Cowell bridge — the reader has a real question about how he became an American TV figure that the piece doesn't answer.
+3. Trim the "performance" word count by half. The motif is the spine of the piece; keep 7-8 mentions, cut the rest. Substitute "calibrating," "reading the room," "adopting a posture" — the prior review suggested this exact substitution and it didn't happen.
+
+============================================================ -->
+

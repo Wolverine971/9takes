@@ -335,3 +335,55 @@ The difference is channel. Cocaine became comedy. Self-destruction became perfor
 When [Kevin Hart](/personality-analysis/Kevin-Hart) suffered a serious car accident in 2019, Jack visited him in the hospital. He came back with this: "He kept on saying that he was going to take this opportunity to breathe and slow down and appreciate his family."
 
 > **Disclaimer:** This analysis of Jack Black's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Jack Black.
+
+<!-- ============================================================
+FRESH-EYES ASSESSMENT — 2026-04-29 PASS 4 (Claude cold read)
+============================================================
+
+ONE-LINE VERDICT: Excellent stress/growth-arrows analysis (Kyle Gass, Bernie) wrapped around a filmography section that drifts into encyclopedia and dilutes the psychological argument.
+QUALITY-CEILING TIER: MIDDLE
+
+STRONGEST SECTION: "The Kyle Gass Incident" — best stress-arrow analysis in the batch. Kyle's "marriage" quote is structural evidence, not decoration.
+WEAKEST SECTION: "Major Accomplishments" — the Peaches / vocal-range / voice-acting empire / Jumanji material is filmography prose dressed up as analysis. The existing editor feedback flagged this; it wasn't cut.
+
+STRENGTHS (3-5 bullets, specific):
+- Judith Love Cohen Apollo 13 opener is genuinely surprising; "Oh, and somewhere in there, she had a baby" earns reader trust.
+- Howard's death from AIDS / cocaine at 15 / school counselor breakthrough — the dark arc is sourced and not sensationalized.
+- Shallow Hal "32 takes for the perfection of the craft" is a perfectly chosen Type 7 stress detail.
+- Bernie analysis (prison visits, "concentrate on not trying to concentrate" parallel) genuinely shows growth.
+- 15-year crush on Tanya Haden is an underused detail used correctly here.
+
+WEAKNESSES (3-5 bullets, specific):
+- Stock Enneagram language survives: "Classic Type 7 shadow territory," "textbook Type 7 stress behavior," "pure Type 5 territory" (existing feedback flagged this and it's still throughout).
+- "Cocaine became comedy" is a powerful line said once and never fully built into a vocabulary, despite editor feedback.
+- Kyle Gass joke about Trump assassination attempt — the analysis correctly names Jack's Type 1 stress response, but never asks whether Kyle's joke was actually that bad or whether the reaction was disproportionate. Both reads are available; only one is offered.
+- The Peaches/Jumanji/voice acting section is 40% too long and the existing editor said so — gold-plating.
+- "Anaconda" detail (Jack insisting on the straight-man swap) is good but buried inside the encyclopedia section.
+
+GAPS / MISSED OPPORTUNITIES (3-6 bullets):
+- The cocaine-at-15 admission deserves more interrogation — was this contemporaneous use, recovered memory, or stylized? The dating is fuzzy.
+- His 2024 Kamala Harris campaigning is currency that could illuminate the Type 1 stress pattern at scale.
+- The "Tenacious D was 'like a marriage'" framing from Kyle Gass invites a real examination of how Jack treats creative partners — does he do this elsewhere?
+- The "celebrity sickness after High Fidelity" is mentioned and dropped — what did that look like?
+- His son Sam's gaming channel — is the dad-and-son YouTube launch a Type 7 avoidance of presence or a real bonding mechanism? The piece doesn't pick.
+
+PATTERN HITS:
+- Type-plural diagnostic crutch ("Type 7s," "Sevens") used heavily despite editor flagging.
+- Bolded mid-paragraph thesis sentences clustered ("That psychology degree matters more than people realize" / "The 8-wing is what makes Tenacious D work" — appears in multiple sections).
+- Closing parallel-binary attempted: "Cocaine became comedy. Self-destruction became performance."
+
+PATTERN MISSES:
+- No "child still doing" closer (the Kevin Hart hospital quote is the close, which is better).
+- No three-beat single-syllable triplet.
+- Counter-typing rule of three is single (Type 3 only) — capped, not abused.
+
+CRITIC-ENGAGEMENT: Light. Roger Ebert is named for praise. No one is named criticizing Jack's work, his tour cancellation, his Kyle Gass treatment. The closest is "critics noticed a tension" — institutional, anonymous.
+CURRENCY: yes — July 2024 Kyle Gass cancellation, 2025 reconciliation/REO cover, 2025 Anaconda.
+DEFENSE-COUNSEL CHECK: Mild. The Kyle Gass cancellation is treated entirely as Type 1 moral clarity; never asks whether it was disproportionate or whether he abandoned a 30-year creative partner over a single bad joke during a high-emotion week. Kyle's own "I totally understood what he needed to protect" is read as forgiveness rather than possibly as quiet hurt.
+
+PRIORITY FIXES (numbered, 3 max):
+1. Cut the Major Accomplishments section by 40%, per existing editor feedback. Voice acting, Peaches, Jumanji can be 4 sentences total. The piece's strength is its psychology, not its IMDB.
+2. Replace stock Enneagram phrases ("classic Type 7 shadow territory," etc.) with Jack-specific vocabulary built on "cocaine became comedy" — already flagged, not done.
+3. Acknowledge the alternate read of the Kyle Gass cancellation (disproportion, partner abandonment) in one sentence so the moral-clarity read isn't the only one offered.
+
+============================================================ -->

@@ -244,3 +244,54 @@ He just found a way to keep moving that nobody calls dancing.
 ---
 
 <p><em>This is an informed psychological analysis based on publicly available interviews, performances, and reporting. Jeremy Allen White has not publicly confirmed his Enneagram type. Personality framing is a lens for understanding public figures, not a clinical diagnosis.</em></p>
+
+<!-- ============================================================
+FRESH-EYES ASSESSMENT — 2026-04-29 PASS 4 (Claude cold read)
+============================================================
+
+ONE-LINE VERDICT: A craft-forward Type 4 portrait whose dance-as-key thesis lands cleanly and gets used as actual analytic load, but whose private-life reticence (divorce, treatment, daughters) becomes the writer's reticence too — protecting him exactly where the analysis should press.
+QUALITY-CEILING TIER: TOP
+
+STRONGEST SECTION: "Why Jeremy Allen White keeps playing broken men" — Lip → Carmy → Kerry → Springsteen as a serial body-rebuild argument is the cleanest Type-4 case the piece makes, and "the role keeps finding him because the role is already inside him" is earned.
+WEAKEST SECTION: "The divorce he wouldn't discuss" — silence is repeatedly framed as Type-4 sacred-keeping; the section reads as the writer respecting his refusal rather than testing it.
+
+STRENGTHS (3-5 bullets, specific):
+- Specific physical-prep details (two weeks culinary school + six weeks at Pasjoli; 40 lbs muscle for Kerry; harmonica/guitar/movement for Springsteen) are concrete and earned.
+- "The dancer's discipline is the growth arrow showing up in the work" is a non-obvious link between bio and Enneagram.
+- "Type 4s confuse suffering with meaningful work. For Jeremy Allen White, the suffering is literal conditioning" — the analysis names a complication rather than glossing it.
+- Counter-typing 9 and 5 in the Rabbit Hole gives reasons (role selection, "am I who I am supposed to be?" vs "do I know enough?") rather than incantations.
+- The pull-quote "The role keeps finding him because the role is already inside him" is a real thesis sentence rather than a recap.
+
+WEAKNESSES (3-5 bullets, specific):
+- The reported treatment-program stint is mentioned twice and then folded entirely into "the silence is the work" — the piece treats it as a Type-4 virtue rather than a fact to engage.
+- Addison Timlin appears once by name and never as a person with a perspective; she is structurally the silence Jeremy keeps.
+- Rosalía section is thin — "two interior people building something private inside the most public arrangement" is closer to vibe than analysis.
+- Calvin Klein critique stays inside Jeremy's discomfort; never engages whether the campaign itself was a calculated career move he then performed grief about.
+- Repeated "Type 4s..." plural diagnostic crutch (5+ instances outside the rabbit hole).
+
+GAPS / MISSED OPPORTUNITIES (3-6 bullets):
+- Shameless co-stars (William H. Macy, Emmy Rossum) on what eleven seasons of Lip looked like up close: not a single co-star quote outside Storer + Moss-Bachrach.
+- The Iron Claw director Sean Durkin or wrestling-family consultants on the Kerry transformation — surface-only here.
+- The dance teachers / Professional Performing Arts School peers — a piece this committed to dance-as-key never quotes anyone from that world.
+- The substance use / sobriety arc is treated as a sacred unspoken; even one paragraph engaging public reporting on it would let the piece earn its respect for his silence.
+- Springsteen's own response to the cut (mentioned vaguely as "could not tell which voice was his own") is uncited.
+
+PATTERN HITS:
+- Type-plural diagnostic crutch: "Type 4s" as analytic substitute appears 8+ times.
+- "Engaging institutional critics over named humans" — silence and tabloid culture get critiqued; Addison Timlin and Rosalía and the daughters stay deliberately unnamed-as-people.
+
+PATTERN MISSES:
+- No "Father modeled X. Mother modeled Y." synthesis.
+- No "child still doing" closer in the canonical form, though the final lines ("The kid who trained in ballet never stopped / He just found a way to keep moving that nobody calls dancing") flirt with it.
+
+CRITIC-ENGAGEMENT: Soft. The piece engages cultural-machine critics (tabloids, paparazzi, the Calvin Klein gaze) but not named human critics or co-stars whose accounts could complicate the saintly-introvert read.
+CURRENCY: yes — Springsteen film (October 2025), Calvin Klein Jan 2024, Rosalía late-2024 photos.
+DEFENSE-COUNSEL CHECK: Yes, in two places. (1) Reported treatment-program stint and divorce are both reframed as "the silence is a Type 4's last line of defense for the things they consider sacred" — that's defense counsel for non-engagement. (2) Calvin Klein discomfort is read as Type-4 wound rather than as a contradiction (he keeps signing the campaigns).
+
+PRIORITY FIXES (numbered, 3 max):
+1. Stop redescribing his private-life silence as Type-4 sacred-keeping; engage at least the public-record parts of the divorce timeline and treatment reporting as facts the analysis has to hold, not as boundaries the analysis should respect.
+2. Cut at least 3-4 "Type 4s..." plural-diagnostic sentences and replace with named-trait analysis tied to his specific behavior; the piece already shows it understands him without needing the tribal labels.
+3. Bring in one Shameless-era or Bear-era named co-star or director with a perspective other than reverence (Storer + Moss-Bachrach are both currently used as character witnesses, not analysts).
+
+============================================================ -->
+

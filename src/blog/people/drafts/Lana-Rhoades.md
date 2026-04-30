@@ -331,3 +331,56 @@ Still rough:
 - The quote in the Three Scenes section (line 164) keeps its em-dash since it's a direct quote
 - Editorial HTML comments retain their em-dashes (unpublished)
 -->
+
+<!-- ============================================================
+FRESH-EYES ASSESSMENT — 2026-04-29 PASS 4 (Claude cold read)
+============================================================
+
+ONE-LINE VERDICT: A high-stakes controversy-heavy piece that mostly resists defense-counsel framing — the CryptoSis section was correctly added in revision and the Megan Thee Stallion segment is engaged honestly — but the "she pursued the industry / it was her dream at 14" honesty creates a structural tension the piece doesn't fully resolve.
+QUALITY-CEILING TIER: TOP
+
+STRONGEST SECTION: "A Dream That Was Already a Trap" — refuses the easy victim narrative ("she didn't stumble into it reluctantly. She pursued it") while still holding the trauma as real. That's the partly-indictable-subject quality the corpus needs more of.
+WEAKEST SECTION: "Reading the Room Wrong" — the Megan Thee Stallion podcast segment is described and the apology is named, but the framing ("the limits of the adaptation, not some deeper bigotry") functionally pre-acquits before the reader has finished the case.
+
+STRENGTHS (3-5 bullets, specific):
+- The opening McHenry, Illinois scene with The Girls Next Door as memorized blueprint is genuinely cinematic and earns its specificity.
+- "She pursued it. Within her first year, she won XBIZ's Best New Starlet" — the analysis pushes back on its own sympathy by holding the agency facts.
+- Detention as "one of the best things that happened to me" is the strongest analytic insight in the piece.
+- Majlak pros-and-cons list section is the best-reported beat — the actual phrasing ("sickly obsessed with social normalities") is allowed to do the analytic work.
+- CryptoSis section (added in revision) names the dollar amount, the Coffeezilla investigation, the floor-price drop, and her refusal to refund — without redescribing it as a Type-3 reinvention triumph.
+
+WEAKNESSES (3-5 bullets, specific):
+- "It's not exploitation alone. It's the story of someone who got exactly what she wanted and discovered that what she wanted was the wrong thing" — true to the agency frame, but the phrase "exploitation alone" implicitly minimizes how much exploitation was also part of it.
+- The "three to five scenes" passage uses her own framing without naming the specific scenes or the production companies, which protects the industry side of the story while exposing her trauma.
+- KD/Kevin Durant speculation is described in detail; the Bruce Brown Jr. and Blake Griffin alternates are named — but the section never asks whether running this passage is itself participating in the speculation it critiques.
+- Mark Speigler appears as bolded mid-paragraph thesis-by-name without analysis (he's "the most respected talent agent in adult entertainment" and that's it).
+- Sister with schizophrenia: vivid in the opening, then the family completely disappears as the existing fresh-eyes-review comment already flagged.
+
+GAPS / MISSED OPPORTUNITIES (3-6 bullets):
+- Mike Majlak's perspective from his own podcast appearances on the relationship is referenced but never quoted at length — he's a foil, not a character.
+- The CryptoSis section names ~$1.5M and 6,000 buyers but doesn't quote a single buyer or the development team she said she paid.
+- Logan Paul's role in setting up the Majlak relationship surfaces and never gets engaged as orchestration.
+- The 3 Girls 1 Kitchen co-host Olivia Davis on the Megan segment — she's the one who deliberately mispronounced the name. She remains a name without a perspective.
+- Industry advocacy: Lana's specific advocacy work is gestured at ("she became one of the first former adult stars to openly discuss industry-related PTSD") without citing organizations, hearings, or named peers (Mia Khalifa parallel is structural but absent).
+- Faith / family religious frame (Southern Baptist, preacher grandfather) is set up and never returned to.
+
+PATTERN HITS:
+- "Type 3 paradox / Type 3 adaptation / Type 3s do" — the existing fresh-eyes comment correctly flagged this and the second-pass notes claim 5 instances were rewritten; current state still has type-plural diagnostic crutch in the typing block but cleaner outside.
+- Single-sentence dramatic paragraphs stacked (intro: "Five years later..." / "And then she will spend..." / "That contradiction is not hypocrisy.") — load-bearing in this piece.
+- "Number-becomes-person opener" risk: the typing block uses "Type 3s do something more dangerous: they outrun it" but mostly the piece avoids leading with the number.
+
+PATTERN MISSES:
+- No "child still doing" closer — the close ("The most-watched woman in the world found out that being watched and being loved were never the same thing") is forward-looking, not nostalgic.
+- No "Father modeled X. Mother modeled Y." synthesis (father is structurally absent in the bio, mother is overworked-by-circumstance).
+
+CRITIC-ENGAGEMENT: Stronger than corpus average. Coffeezilla is named on CryptoSis. Megan Thee Stallion's audience reaction is named. The "Why is Willy Wonka gaslighting us?" critic line is given the floor. But the named critics tend to be cultural-moment voices, not industry-critical ones.
+CURRENCY: yes — post-2022 NFT story, 2023 podcast controversy, 2024-2025 motherhood era are live.
+DEFENSE-COUNSEL CHECK: Two close calls. (1) Megan Thee Stallion segment — described, then framed as "the limits of the adaptation, not some deeper bigotry." That's pre-acquittal, not analysis. (2) "Three to five scenes" trauma framing accepts her account without naming any side of the production companies or directors involved; the piece is on her side which is fine, but it shouldn't be invisible that it is. CryptoSis passage notably does NOT defense-counsel.
+
+PRIORITY FIXES (numbered, 3 max):
+1. Rewrite the Megan Thee Stallion section to let the bigotry-vs-adaptation question stay open one beat longer; "the limits of the adaptation, not some deeper bigotry" is exactly the cushion-the-critic move.
+2. Bring family back as adults — at least name what's been said about her relationship with her mother and sister now, even if the answer is "she stopped talking about them publicly after 2019." Right now the schizophrenic-household opener does the work and then disappears.
+3. Engage one named industry-side voice (a director, a producer, a former co-performer with a perspective) on the production-company side of the "three to five scenes" claim — the piece is structurally Lana-on-Lana and would gain credibility from one outside perspective.
+
+============================================================ -->
+

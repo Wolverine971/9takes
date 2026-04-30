@@ -302,3 +302,57 @@ The lives add up. Pop star. Comedian. Producer. Executive producer. Entrepreneur
 "I never want to feel like I've peaked," she said. "There's always room to grow, to learn, to be better."
 
 That's the Type 3 drive. But now it sounds less like anxiety and more like purpose.
+
+<!-- ============================================================
+FRESH-EYES ASSESSMENT — 2026-04-29 PASS 3 (Claude cold read)
+============================================================
+
+ONE-LINE VERDICT: A genuinely strong portrait — the Muppets-as-integration insight and the "performance creates the conditions for authenticity" paradox are corpus-best original moves — held back by a stat-shock opener and slight catalog-drift in the back half.
+
+STRONGEST SECTION: "The Muppets: Achievement Beyond the Resume" — the read that "a pure achiever would see a Muppets gig as a step down" is the kind of original argument that justifies the entire Enneagram framework here.
+WEAKEST SECTION: "The Off-Camera Sabrina" — fun-fact catalog (no TV / draws / knocks on wood / fire escape rats) reads listy after a strong setup; would land harder as scene than as bullets-as-prose.
+
+STRENGTHS (3-5 bullets, specific):
+- "Healthy Type 3 paradox: the performance creates the conditions for authenticity" is one of the best original insights in any of the 9takes Type 3 blogs.
+- The Muppets observation reframes what growth looks like for this type — actual psychological argument, not summary.
+- Producer/collaborator quotes (Bunetta, Antonoff, Allen, Joey King) carry real weight — every section has someone other than the subject testifying.
+- The basement studio detail — "a father building his daughter a purple recording studio because her obsession was something to invest in" — is exactly the kind of specific origin scene the corpus needs.
+- "If only she said what she was actually thinking" — the Vogue quote is the whole brand thesis in 13 words and the piece earns it.
+
+WEAKNESSES (3-5 bullets, specific — name lines, phrases, sections):
+- Top-of-file feedback (2026-04-06) explicitly flagged "Hook opens with achievement stats rather than a scene" — the first-line Beatles stat is still there. Process gap.
+- Contrast-pair tic appears throughout: "Sabrina runs the machine — she doesn't ride it." / "She isn't hiding behind a costume. She's amplifying." / "Don't defend. Produce." / "Performance isn't a costume. It's amplification." — 5+ instances.
+- Counter-typing rule of three implicitly absent — no engagement with why Sabrina isn't a Type 4 (the artistic identity, the "low point" sensitivity) or Type 7 (the humor, the wink).
+- "The look says Old Hollywood. The mouth says whatever it wants" / "One version for the world, another for herself" / "The format is rehearsed. The warmth inside it isn't" — closing parallel-binary appears at every section close.
+- "She metabolizes problems into brand moments faster than the news cycle can keep up" — line is great in the TL;DR, but the body of the piece doesn't actually prove it; the Church-video and Olivia-Rodrigo sections are thinner than the framing suggests.
+
+GAPS / MISSED OPPORTUNITIES (3-6 bullets — what a fan/critic would expect that's absent):
+- The "Espresso" / "Please Please Please" / "Manchild" / "Juno" sound itself — the actual artistic argument about her music — is barely engaged. The piece is about her control architecture, not about whether her songs are good.
+- Critics who've called her songs derivative or her sex-positive brand calculated never engaged. The "Ms Liz" Substack-style critic universe is invisible.
+- Family beyond the basement studio — siblings, mother's dance career details, the homeschool dynamic — gets one paragraph and stops.
+- The romantic life (Barry Keoghan in particular, given the breakup played out publicly) is mentioned only via single quote. Major recent emotional context skipped.
+- The Olivia Rodrigo "love triangle" is treated as a controversy she handled well, but the more interesting question — was the female-pop-star feud manufactured? Did she actively participate? — is dodged.
+- No engagement with Sabrina's height as a brand element vs. lived constraint — "5'1" got mentioned once and never again.
+
+PATTERN HITS (DJ tropes that worked here):
+- The "growth-as-integration" frame works here because the Muppets gig actually exemplifies it — not just asserted.
+- Producer/collaborator quote integration is the corpus at its best.
+
+PATTERN MISSES (DJ tropes that felt formulaic, recycled, or autopilot here):
+- Top-loading: TL;DR + bolded intro + "What is Sabrina Carpenter's Personality Type?" all restate the same Achiever thesis. Triple front-loading tic.
+- "For a Type 3, X is Y" / "Type 3s do X" — type-plural diagnostic crutch appears 8+ times. Heavy.
+- "The fans get the art. The person stays hers." — closing parallel-binary tic.
+- The Taylor Swift comparison ("modeled what fame should look like") is the corpus's go-to crosslink for any female pop figure and feels load-bearing in a way that papers over Sabrina's specifics.
+
+CRITIC-ENGAGEMENT: Mostly ducks. The White House attack is engaged head-on, which is the strongest critic-engagement moment. But the music critics, the cultural-critique writers, and the "Sabrina is industry-plant-with-Disney-pedigree" skeptics are all absent.
+
+CURRENCY (2026 anchor): Strong. The 2026 Grammys (six nominations, the snub, the airplane staircase performance), the February 2026 Muppets revival, the December 2025 White House attack, and the Coachella 2026 announcement all feel current.
+
+DEFENSE-COUNSEL CHECK: Yes, mild. The "I was at a really, really low point" admission gets reframed as "the healthy response is to dig back into the actual self" — which is sympathetic but doesn't engage what the actual low point was about. Sympathy-by-self-conception is here.
+
+PRIORITY FIXES (numbered, in order of impact — 3 max):
+1. Apply the unfinished 2026-04-06 editor note: rewrite the hook to open with the basement studio scene or "really, really low point" admission instead of the Beatles stat. The hook fix has been ignored for almost a month.
+2. Convert the "Off-Camera Sabrina" section from fun-fact catalog to one connected scene (the New York fire escape with the rats and Fleetwood Mac would do it).
+3. Add a counter-typing paragraph (why not Type 4? Why not Type 7?) — the piece presents the type as obvious when at least the 4 case has real evidence.
+
+============================================================ -->

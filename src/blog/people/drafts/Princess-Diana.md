@@ -309,3 +309,54 @@ She gave away what she most needed someone to give her.
 That's not less impressive. It's more human. And it's why the grief at her death felt so personal to so many people who had never shaken her hand — they sensed, correctly, that she was one of them.
 
 > **Disclaimer:** This analysis of Princess Diana's Enneagram type is speculative, based on publicly available information, and may not reflect her actual personality type.
+
+<!-- ============================================================
+FRESH-EYES ASSESSMENT — 2026-04-29 PASS 2 (Claude cold read)
+============================================================
+
+ONE-LINE VERDICT: A genuinely strong Type 2 portrait whose doorstep hook earns the read and whose "she gave away what she most needed someone to give her" line carries the whole piece — but the structure leans on a few tics the corpus is clearly developing.
+
+STRONGEST SECTION: "What the Enneagram Actually Explains" — finally uses the framework as a scalpel rather than a label, and "her wound and her gift were the same thing" is the genuine landing.
+WEAKEST SECTION: "Diana's Legacy" — re-states the thesis through Queen Elizabeth contrast and "billions mourned" mood music; doesn't add new evidence.
+
+STRENGTHS (specific):
+- The doorstep hook is a model opening — a single image compressing the entire psychology, with a real Charles Spencer quote underneath it.
+- Bulimia section's waist measurement (29 → 23.5) is the kind of specific physical data that makes a vibes-piece into evidence. "When you can't control whether someone loves you, you control your waist" earns its place.
+- Counter-typing is handled crisply (Type 4 inward vs. Type 2 outward) without the rule-of-three template.
+- Tony Blair "manipulator and extraordinarily captivating" pull does real work — names a critic and uses his ambivalence as evidence rather than disposing of him.
+- Resignation from 100 charities to 6 reframed as growth, not bitterness — fresh.
+
+WEAKNESSES (specific):
+- The H2 "Diana's Childhood: Where It Started" is bland template phrasing; Diana's section headers across the piece read more like Wikipedia subheads ("Major Accomplishments," "Drama and Controversies") than DJ-original.
+- "That detail matters because it breaks the saintly caricature" is meta-commentary that tells the reader what to feel — let the Raine-pushed-down-stairs do the work.
+- "Sally Bedell Smith characterized her as 'unpredictable, egocentric, and possessive.' Those aren't accusations that can be dismissed. They're accurate." — this trio of one-line dramatic-emphasis paragraphs is becoming a corpus tic.
+- "Type 2s give love forward to get love back" appears in slightly different phrasings ~3 times; the helping-as-deal frame is repeated past the point of necessity.
+- Closing "she was one of them" is well-earned but adjacent to the autopilot "child still doing what the child did" frame.
+
+GAPS / MISSED OPPORTUNITIES:
+- The Dodi Fayed relationship is entirely absent. A Type 2 falling for someone whose family was widely viewed as buying access to her is the kind of complication a fan/critic notices immediately.
+- Tina Brown, Andrew Morton, Sally Bedell Smith all get cited without engaging the actual Tina Brown thesis (Diana as media manipulator) or the Morton revelation that Diana orchestrated her own biography.
+- William and Harry barely appear except as crosslinks. The Type 2 mother — and what kind of mothering Type 2s actually do — is a giant missed beat given how much of Harry's blog is downstream of this.
+- The "calculated public appearances" / revenge dress / Bashir tipping is alluded to but never sat with — the manipulator side gets named, then defanged with "she had been denied long enough."
+- Diana's relationship with her own bulimia recovery in later years — what got her out — is gone.
+- Charles is essentially a wall to bounce off; never engaged as a person with his own grief or bind.
+
+PATTERN HITS:
+- The doorstep image is exactly the kind of front-loaded scene the corpus does well — and here it earns its weight rather than just signaling depth.
+- "Type N psychology says..." style bolt-on is mostly avoided; Type 2 mechanics get woven into Diana's specific scenes.
+
+PATTERN MISSES:
+- Multiple single-sentence dramatic paragraphs ("Brutal custody battle." / "She knew it." / "Dry. Controlled. Devastating.") — pass-1 tic confirmed.
+- Bolded micro-thesis sentences ("She held up her end of the deal her whole life") used multiple times mid-paragraph.
+- "It is not X. It is Y." appears twice ("This was not calculated PR. This was pure Type 2 instinct"; "That's not less impressive. It's more human") — at the corpus cap.
+
+CRITIC-ENGAGEMENT: Names Sally Bedell Smith, Tony Blair, Patrick Jephson — but their critiques (manipulative, egocentric, possessive) get acknowledged as accurate then absorbed into a sympathetic frame rather than genuinely tested. Defang more than engage.
+
+CURRENCY (contemporary-relevance): The 2021 Bashir investigation is the only contemporary beat. Nothing on how Diana reads in 2026 (post-Crown, post-Spencer-film, post-Meghan, post-Kate-cancer — all relevant Diana-frame moments). A real miss.
+
+PRIORITY FIXES:
+1. Add Dodi Fayed and the late-period relationship instinct — closes a gaping hole and tests the Type 2 thesis under different conditions.
+2. Engage Tina Brown / Morton's "Diana as orchestrator" thesis directly instead of letting it dissolve into "denied long enough."
+3. Cut at least one of the three "X is not Y" framings and tighten the Wikipedia-style H2s ("Major Accomplishments," "Drama and Controversies") into something with voice.
+
+============================================================ -->

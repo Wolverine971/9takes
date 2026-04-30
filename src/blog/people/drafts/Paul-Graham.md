@@ -365,3 +365,56 @@ He hasn't learned it completely. At 61, he's still writing checks and picking fi
 But the paintings have stopped. The startups have stopped. The exits have stopped. What remains is the writing, the family, and the five-hundred-year-old house. The mind that can't stop starting may have finally figured out what's worth finishing.
 
 > **Disclaimer:** This analysis of Paul Graham's Enneagram type is speculative, based on publicly available information, and may not reflect his actual personality type.
+
+<!-- ============================================================
+FRESH-EYES ASSESSMENT — 2026-04-29 PASS 2 (Claude cold read)
+============================================================
+
+ONE-LINE VERDICT: A genuinely original Type 7 read that uses Graham's own essays as primary evidence — the Florence painting years and the hang-gliding/cliff section are the kind of fresh-angle material that distinguishes this from every other PG profile.
+
+STRONGEST SECTION: "Jumping Before Feeling Ready" — the hang-gliding-but-still-afraid-of-airliners detail is the rare anecdote that does diagnostic work in one image. "Not the height. The helplessness." is a Pass 1-quality close-read.
+WEAKEST SECTION: "What Scared Him Into Fatherhood" — drifts into generic parenting philosophy, the "every pedestrian became someone's child" line is sentimental and unrelated to the Type 7 thesis, and the section ends limply.
+
+STRENGTHS (3-5 bullets, specific):
+- The Florence-on-$7-a-day section is original and load-bearing — most PG profiles skip the painting years entirely; here they're the linchpin of the typing.
+- "I can paint utter shit and still get recognition for it" is a fresh quote pull that actually does typing work — the verdict-craving instinct.
+- The Reddit/Stripe/Airbnb pattern paragraph ("They didn't pick winning ideas. They picked people who were slightly unhinged in the right way") is line-level original.
+- The Jessica section names the unspoken architecture of YC — the "Social Radar" / "x-ray vision for character" detail is concrete and respects her contribution.
+- Robert Morris's "make sure YC isn't the last cool thing you do" beat is the cleanest exit-pattern evidence in the blog.
+
+WEAKNESSES (3-5 bullets, specific — name lines, phrases, sections):
+- Bullet-list typing evidence ("Gave up TV at 13," "Quit his only real job," "Left a major exit feeling hollow," "Stepped down from YC," "Wrote 'Keep Your Identity Small'") is exactly the corpus pattern of bolded-bullet typing-evidence stacks.
+- "Compare this to a Type 5… or a Type 3… Graham doesn't withdraw or adapt. He leaves." — the corpus-standard rule-of-three counter-typing.
+- "His self-assessment is revealing" / "That last line is devastating in its honesty" / "That sentence is the hinge" — load-bearing meta-narration repeated three+ times.
+- "The mind that can't stop starting may have finally figured out what's worth finishing" closing is the corpus binary-resolution trope.
+- "The form hasn't changed since childhood. Just the sophistication of the disguise." — single-sentence dramatic-emphasis paragraphs.
+
+GAPS / MISSED OPPORTUNITIES (3-6 bullets — what a fan/critic would expect that's absent):
+- The 2024-2025 "delve" / "Origins of Wokeness" / "founder mode" essay controversies are mentioned but not engaged with — what specifically did critics say, and what does Graham's response pattern reveal? The blog reports the controversy but doesn't interrogate it.
+- No engagement with the substantive critique of YC under Altman (acceleration of cohort sizes, post-PG culture drift, the "YC is now a brand" criticism) — Graham himself has stayed quiet on this and the blog also stays quiet.
+- The Sacks/Zenefits open-letter incident (Graham accusing Sacks publicly) is referenced in the Sacks blog of this batch but absent here — that's a Type 7 confrontation moment that could anchor the "fight on his own terms" thesis.
+- Trevor Blackwell and Robert Morris are barely mentioned despite being co-founders — the friendship architecture beneath PG is a missed angle.
+- No substantive engagement with the Trump "crook" tweets / political evolution — Graham's late-career political voice is glossed in one line.
+- The actual financial structure / wealth scale (he sold Viaweb, then YC took partner-stakes from thousands of companies) — what does Graham's relationship to money look like for a Type 7? Untouched.
+
+PATTERN HITS (DJ tropes that worked here):
+- The single-detail typing hook ("I realize that sounds rather wimpy") is genuinely good — it's both falsifiable and surprising.
+- "He'll face any fear if he's in control. What paralyzes him is being a passenger." — the kind of one-line diagnosis the corpus aims for.
+
+PATTERN MISSES (DJ tropes that felt formulaic, recycled, or autopilot here):
+- TL;DR + bolded "Paul Graham is a Type 7" subhead + bullet stack of evidence = triple-front-load.
+- Counter-typing rule of three (vs. Type 5, vs. Type 3).
+- "The form hasn't changed since childhood" / "He's still walking his usual route" / "Still going" closing rhythm is the corpus child-still-doing-what-child-did trope.
+- Single-sentence emphasis paragraphs stacked at the end of sections ("He hasn't picked one up since." / "He wasn't apologizing.")
+
+CRITIC-ENGAGEMENT: Weak — the wokeness-essay controversy is reported as a thing that happened but no specific critic is named or quoted. Sacks, who PG attacked publicly, isn't named at all in the conflict role.
+
+CURRENCY (2024-2026 anchor): Yes — September 2025 X-photo deletion and the "Elon, time to turn things around" tweet is a current beat. But late 2025/2026 essay output ("Good Writing," "What to Do," "Origins of Wokeness") is named-but-not-engaged.
+
+PRIORITY FIXES (numbered, in order of impact — 3 max):
+1. Engage one named critic of "Origins of Wokeness" by name with their specific argument — currently the most controversial piece of his recent work is reported neutrally and the Type 7 read of "fight on my own terms" needs that test.
+2. Cut the bullet-list of typing evidence — fold it into prose. The bulleted format makes the evidence look like a checklist rather than a diagnosis.
+3. Replace the closing "still going" rhythm with a beat that doesn't echo the corpus child-still-doing-what-child-did trope — the blog's strongest moves are scene-based, so close on a scene.
+
+============================================================ -->
+

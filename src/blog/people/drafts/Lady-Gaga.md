@@ -253,3 +253,53 @@ Enneagram Fours transform pain into art. It's the pattern. It's what they do wit
 The question — the one she hasn't fully resolved, the one her career keeps circling — is whether the transformation heals the wound, or whether it just builds a more elaborate monument to it.
 
 Stefani. Sitting at the piano. Needing someone to be there.
+
+<!-- ============================================================
+FRESH-EYES ASSESSMENT — 2026-04-29 PASS 4 (Claude cold read)
+============================================================
+
+ONE-LINE VERDICT: An emotionally serious, well-sequenced 4w3 portrait that nails the costume-as-armor thesis but skips the ARTPOP/Bowie-comparison critic battle that would have made the indictment side real.
+QUALITY-CEILING TIER: TOP
+
+STRONGEST SECTION: "When the Art Got Rejected" — the ARTPOP paragraph is the one place she's allowed to have over-reached; the rejection registers as actual rejection.
+WEAKEST SECTION: "The Spectacle That Keeps Asking" — closes on a thesis-monument that flattens the previous specificity into mood.
+
+STRENGTHS (3-5 bullets, specific):
+- "The television didn't know she would become Lady Gaga. It just kept her company." — best single line in the piece; refuses metaphor inflation.
+- The Bradley Cooper makeup-removal scene is rendered as event, not symbol, before the analysis lands.
+- Joanne-named-after-aunt-who-died-at-19 is a specific biographical pin that the Type 4 frame doesn't have to invent.
+- Tony Bennett section earns "showing up... to make him smile" without performing grief.
+- Naming the body-keeping-score (fibromyalgia) without making it metaphysical-payoff-for-trauma.
+
+WEAKNESSES (3-5 bullets, specific):
+- "She wants to be seen. She is terrified of being seen." Contrast-pair "It is not X. It is Y." in cleaner clothing.
+- Three single-sentence dramatic paragraphs stacked at the close ("Stefani. Sitting at the piano. Needing someone to be there.") — the pattern the corpus has now overused.
+- "Each outfit a statement, each statement a force field" — counter-typing rule of three plus rhyme, slightly purple.
+- Body-kept-the-score TL;DR bullet front-loads the Bessel van der Kolk reference without crediting it; reads slick.
+- The "If I can be recognized as something extraordinary, the defectiveness goes away" italicized inner-monologue device is a Type-4 ventriloquism — claims to speak the subject's unconscious.
+
+GAPS / MISSED OPPORTUNITIES (3-6 bullets):
+- David Bowie comparison critique — the long-running press argument that Gaga's avant-garde costuming was derivative of Bowie/Madonna — is entirely absent. This is the most legitimate artistic indictment available and the piece avoids it.
+- Madonna feud / "Born This Way" / "Express Yourself" plagiarism debate — the named-human-critic moment that the corpus said is the most reliable autopilot tell. Madonna isn't mentioned once.
+- Kesha-Dr.-Luke moment / her testimony in support of Kesha — relevant to the rape-disclosure arc but never connected.
+- R. Kelly "Do What U Want" collaboration and her 2019 retraction — the rare moment she admitted artistic miscalculation publicly. Should anchor the "art got rejected" or "Cooper" pivot section.
+- "House of Gucci" performance critique — an actual critical-divisive moment in the post-Cooper era. The piece treats Cooper as an endpoint instead of a hinge.
+- "Joker: Folie à Deux" 2024 commercial failure — relevant ARTPOP-style indictment from the present; absent.
+
+PATTERN HITS:
+- Closing parallel-binary ("Just a girl. With a piano. And the loneliness that built an empire."). Three-beat single-syllable triplet ("Stefani. Sitting at the piano."). Single-sentence dramatic paragraphs stacked. Number-becomes-person opener (TL;DR sales figure into "but there was a nineteen-year-old"). Cushion-the-critic rhythm (ARTPOP rejection followed immediately by "for a 4w3, this is a particular kind of catastrophe" — sympathy-by-self-conception).
+
+PATTERN MISSES:
+- No type-plural crutch in body. No "father modeled / mother modeled" synthesis. No engaging-institutional-critics-over-named-humans tic — but only because the piece engages no critics at all.
+
+CRITIC-ENGAGEMENT: Effectively zero — no named critic, no named cultural rival (Madonna, Bowie estate, Kesha, R. Kelly survivors) gets airtime. The "loser" Facebook page is the only named opposition and it's framed as motivating fuel.
+CURRENCY: Partial — Bennett 2023 death is current, but no mention of "Folie à Deux" 2024 reception or her 2025 "Mayhem" album cycle. Reads like it was written in 2023.
+DEFENSE-COUNSEL CHECK: Yes — ARTPOP failure is reframed via Type-4 wound logic ("the realest self will always be the part that gets rejected") rather than allowed to be a real artistic miscalculation. The piece converts indictment into trauma-narrative.
+
+PRIORITY FIXES (numbered, 3 max):
+1. Add the Madonna/Bowie comparison critique by name; without it the costume-as-armor thesis isn't tested against its main counter-argument.
+2. Update currency: "Folie à Deux" reception and 2025 "Mayhem" cycle either confirm or complicate the Cooper-cracked-the-armor arc.
+3. Cut at least one of the stacked-single-sentence-paragraph closers; the corpus is now saturated with this pattern.
+
+============================================================ -->
+

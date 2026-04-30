@@ -313,3 +313,56 @@ He had spent his whole life making objects so beautiful they could speak for him
 The [man who succeeded him](/personality-analysis/Tim-Cook) at Apple would carry the standard forward. But he would never carry the wound. That was Jobs's alone.
 
 Whatever Steve Jobs saw in those final moments, it met his standards.
+
+<!-- ============================================================
+FRESH-EYES ASSESSMENT — 2026-04-29 PASS 2 (Claude cold read)
+============================================================
+
+ONE-LINE VERDICT: A psychologically rigorous Type 1 portrait that earns the read because it commits to the cruelty as much as the genius — but the closing image and the Lisa-deflection moments are softer than they should be.
+
+STRONGEST SECTION: "Why Steve Jobs Denied Lisa for Years" — the "He named a computer the Apple Lisa… The product got the acknowledgment the person was denied" reframe is the kind of psychologically precise sentence that justifies the whole Enneagram exercise. The "Lis? You smell like a toilet." quote is the most devastating thing in the blog and it's allowed to land without softening.
+WEAKEST SECTION: "Steve Jobs's Final Words and What They Revealed" — the "Whatever he saw, it met his standards" closer is too tidy. After 40+ years of harm, the "his standard met itself" frame reads like a victory lap for the Type 1 inner courtroom.
+
+STRENGTHS (3-5 bullets, specific):
+- "A child who was given away. A father who taught him that the back of the cabinet matters. These two facts produced Steve Jobs." — the cleanest two-sentence diagnostic compression in the corpus.
+- The Mediterranean restaurant / Jandali "great tipper" detail is the kind of unfakeable real-life irony fiction couldn't get away with.
+- The counter-typing against Type 3 is concrete behavioral evidence ("'We're back.'… A 3 would have seized it… Jobs rejected it because it wasn't true yet"). This is the rule-of-three pattern done well.
+- The Buddhist teacher's "He got to the aesthetic part of Zen, not the compassion part" — best-in-class quote, and it does diagnostic work the blog earned.
+- "He extracted from Buddhism precisely what a Type 1 would extract: the standard. Not the forgiveness." — single-sentence aphorism that actually earns its weight.
+
+WEAKNESSES (3-5 bullets, specific — name lines, phrases, sections):
+- "The popular perception of Gates as a cold..." — wait, wrong subject. But: "The popular perception of Jobs as a cold strategist isn't quite accurate" — soft pivot to humanize him just before Lisa section. Reads like preemptive defense.
+- "The carpenter's back" gets reused as motif (intro, childhood, TL;DR) — once is enough.
+- The pancreatic cancer section is the one place the blog has Jobs answer for himself, but it gets only ~250 words and Powell-Jobs / Ornish / the actual medical critique aren't allowed any heat.
+- Single-sentence dramatic paragraphs accumulate: "And yet." / "Binary. Absolute." / "And then there were the tears." / "A man who could not say _she's mine_..." Pattern tic.
+- "No middle ground. No 'pretty good.' No 'needs some work.' Binary. Absolute." — autopilot four-beat rhythm.
+
+GAPS / MISSED OPPORTUNITIES (3-6 bullets — what a fan/critic would expect that's absent):
+- Wozniak's actual relationship to Jobs gets one quote — the Atari/Breakout payment scam where Jobs cheated him out of thousands isn't mentioned. Foundational cruelty.
+- No Carmine Gallo / no Walter Mossberg / no concrete reckoning with the press's complicity in the mythology.
+- Stock options backdating scandal — entirely absent. Real legal/ethical exposure.
+- The dying-without-meeting-his-grandchildren / the cancer-denial public-health critique — Ornish gets one walk, the full medical critique (Barron Lerner, the AMA pieces) is missing.
+- Fortune's "King of Cool" / NeXT cube cult details that complicate the wilderness-redemption narrative.
+- Jonny Ive's post-Jobs interviews about the toll Jobs took on him — nothing.
+
+PATTERN HITS (DJ tropes that worked here):
+- The contrast-pair "It is not aesthetics. It was integrity at a molecular level." actually earns it — Jobs's behavior makes the binary land. (The cap of one-per-blog should be respected, though, and this blog uses it more than once.)
+- The Lisa-named-computer reframe is the kind of "the X is the Y" thesis construction that actually does work.
+- Mona Simpson's "luggage already strapped" closing is the rare emotional pull-quote that earns its dramatic weight.
+
+PATTERN MISSES (DJ tropes that felt formulaic, recycled, or autopilot here):
+- "X is not Y. It is Z." appears 4+ times: "This wasn't aesthetics. It was integrity..." / "This was not the cold strategist..." / "It wasn't manipulation. It was the overflow..." / "This was not the cold strategist of popular imagination."
+- Counter-typing rule of three: the "Why not Type 3" passage is good — but "A 3 would have seized it. Jobs rejected it. The distinction matters" is a compressed version of the corpus tic.
+- Closing dramatic-emphasis "Whatever Steve Jobs saw in those final moments, it met his standards" — corpus-autopilot final-image frame.
+- Triple front-loading: TL;DR + bolded thesis-paragraphs ("That gap…") + typing section.
+
+CRITIC-ENGAGEMENT: Partial. Lisa Brennan-Jobs's memoir is the engaged primary critic. But the corporate Jobs critics (Sculley, Carmine Gallo's debunkers, Wozniak's resentment, the Pixar early-team) are ducked. The Powell-Jobs family statement is allowed to defang Lisa's account without rebuttal.
+
+CURRENCY (2024-2026 anchor): Weak — there's a [Tim Cook] cross-link but no 2024-2026 beat (Cook's reign, the Vision Pro, the Jobs-era backlash among AI founders). Jobs died 2011; the blog could have anchored to the Acquired podcast Jobs episode or the 2025 _Make Something Wonderful_ book.
+
+PRIORITY FIXES (numbered, in order of impact — 3 max):
+1. Replace the closing line. "It met his standards" turns the Type 1 prosecution into the moral victory the rest of the blog refuses. End on something honest about the Lisa wound, not the man's self-approval.
+2. Add the Wozniak/Atari cheating beat. Cruelty toward strangers is one thing; cruelty toward the co-founder he allegedly cared about is another, and it's missing.
+3. Engage one named medical critic on the cancer-delay decision. "He had the surgery in July 2004. By then, the cancer had spread." — this is the only consequence sentence and it deserves a critic in the room.
+
+============================================================ -->

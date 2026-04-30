@@ -78,7 +78,7 @@ path: src/blog/people/drafts/George-W-Bush.md
 
 <p class="firstLetter">George W. Bush was seven years old when the ground disappeared. His parents picked him up from school, and the backseat was empty. His three-year-old sister Robin — diagnosed with leukemia months earlier, treated in secret at Memorial Sloan-Kettering while George played baseball in Midland, Texas — was gone. He would call those minutes "the starkest memory" of his childhood. "A sharp pain in the midst of an otherwise happy blur."</p>
 
-What happened next is the detail that cracks open everything about who George W. Bush became. He didn't retreat. He didn't act out. He stayed home. His mother Barbara, devastated, cried herself to sleep for weeks. George H.W. Bush went back to work. And seven-year-old George — the eldest, the loudmouth, the boy who always had to be where the action was — stayed by his mother's side. When a friend came by and asked him to play, he said he couldn't. He needed to play with his mom.
+What happened next is the detail that cracks open everything about who George W. Bush became. He stayed home. His mother Barbara, devastated, cried herself to sleep for weeks. George H.W. Bush went back to work. And seven-year-old George — the eldest, the loudmouth, the boy who always had to be where the action was — stayed by his mother's side. When a friend came by and asked him to play, he said he couldn't. He needed to play with his mom.
 
 Barbara Bush eventually overheard him say this and decided it was time to heal. But the pattern was already set: George W. Bush would spend the rest of his life being the one who shows up, who cheers the room, who makes the person next to him feel like everything is going to be fine — whether or not he believes it himself.
 
@@ -104,7 +104,7 @@ A childhood friend witnessed him "awaken screaming" with nightmares about the ex
 
 This became the template for his entire public life. At Phillips Academy in Andover, where his father had been a campus golden boy, George W. received a zero on his first written assignment for trying too hard with a thesaurus. He studied past curfew using the light that seeped under his door. But instead of trying to match his father's polished image, he went the other direction entirely. He became the head cheerleader. The fraternity president at Yale. The guy everyone wanted at the party but nobody expected in the boardroom.
 
-He once told a reporter, "Labels are for cans."
+He once told a reporter, "Labels are for cans." Five words of pure Type 6 image-management — better to keep the room from looking too closely at the wiring underneath than to carry the weight of any single category that could be raised against you later.
 
 Years later, a college classmate would describe the George W. Bush they knew: "personable," "outgoing," "funny." These were the same words his Midland childhood friends used. The same words White House staffers would use decades later. The performance never changed because it wasn't a performance. It was how he learned to survive a world that proved, when he was seven, that it could take everything without warning.
 
@@ -156,7 +156,7 @@ Here's the evidence:
 
 The people who dismiss Bush as intellectually incurious have it exactly backwards. Peter Marquez, his White House Director for Space Policy, said Bush was "extraordinarily intelligent" with "an incredible memory." When reviewing Marquez's briefing books, Bush hand-annotated them with comments and questions — and later recalled details the expert himself had forgotten. Communications director Kevin Sullivan put it bluntly: "He can sniff it out a mile away if you don't have the goods."
 
-The gap between this private reality and the public "Bushisms" caricature is the most telling evidence of all. Many Sixes deliberately manage their image downward. They'd rather be underestimated than carry the burden of being the authority everyone depends on. Bush built a political career on being the guy you'd want to have a beer with — while privately reading the Bible every morning and hand-annotating policy briefs until midnight.
+The gap between this private reality and the public "Bushisms" caricature is the most telling evidence of all. Bush deliberately managed his image downward. Better to be underestimated than to carry the burden of being the authority everyone leans on. He built a political career on being the guy you'd want to have a beer with, while privately reading the Bible every morning and hand-annotating policy briefs until midnight.
 
 ## In His Father's Shadow — and Out of It
 
@@ -180,6 +180,8 @@ Doug Wead, who wrote about presidential fathers and sons, described their relati
 
 At his father's funeral in December 2018, George W. broke down while delivering the eulogy. The man who'd held it together through 9/11, through the Iraq War, through historically low approval ratings — cracked open in public, finally, while talking about his dad. Before taking office, his father had given him an envelope containing a congratulatory letter and his own Navy aviation cufflinks. The symbolism was unmistakable: I was your age once. I went to war. Now it's your turn.
 
+Less than two years after that letter — *be your own person* — George W. won the most contested presidential election in modern American history. The Florida recount was halted by the U.S. Supreme Court in *Bush v. Gore*, a 5-4 decision that handed him the presidency by 537 votes. He took office with half the country convinced he hadn't earned it, and the other half watching him to see whether he'd act like a man who had. Eight months later, the towers came down, and the question of legitimacy was replaced overnight by the question of survival. He inherited the second by losing the argument over the first. For a Six who'd spent his life trying to step out from his father's shadow, the trade was both terrible and clarifying.
+
 ## "I Can Hear You"
 
 September 14, 2001. Three days after the attacks. Bush stood atop a crumpled fire truck at Ground Zero, a retired firefighter named Bob Beckwith beside him. Someone handed him a bullhorn. He started to speak. Workers on the far side of the rubble yelled, "We can't hear you!"
@@ -200,29 +202,57 @@ The public saw the bullhorn. The country needed the bullhorn. But the real story
 
 ## The Weight of the Decision
 
-The Iraq War remains the most divisive decision of Bush's presidency, and the most revealing window into how he processes fear.
+The Iraq War remains the most consequential decision of Bush's presidency, and the most revealing window into how he processes fear.
 
 "Facing clear evidence of peril, we cannot wait for the final proof — the smoking gun — that could come in the form of a mushroom cloud."
 
-That sentence is pure [counterphobic Six](/enneagram-corner/enneagram-types-in-stress): the worst-case scenario is so terrifying that inaction feels more dangerous than action. The logic tracks perfectly — if you've spent your whole life scanning for threats, and an intelligence apparatus built to find threats tells you the threat is real, you don't wait to see if it materializes.
+That sentence reads as pure [counterphobic Six](/enneagram-corner/enneagram-types-in-stress): the worst-case scenario so terrifying that inaction feels more dangerous than action. If you've spent your life scanning for threats, and an intelligence apparatus built to find threats tells you the threat is real, the logic tracks.
 
-"Letting a sworn enemy of America refuse to account for his weapons of mass destruction was a risk I could not afford to take."
+It is also the wrong frame for understanding the war.
 
-When the weapons weren't there, he described having "a sickening feeling." His biggest regret, he told ABC News, was "the intelligence failure in Iraq." But when pressed on whether he would have gone to war knowing what he knows now, he wouldn't answer. "That is a do-over that I can't do."
+The administration's Iraq policy did not follow 9/11. Paul Wolfowitz had been arguing for regime change since 1992. The Project for the New American Century, founded in 1997 with Donald Rumsfeld, Dick Cheney, Wolfowitz, and Scooter Libby on its roster, sent a 1998 letter to Bill Clinton calling for Saddam's removal as the goal of American foreign policy. By the morning of September 12, 2001 — twelve hours after the towers fell — counterterrorism chief Richard Clarke later testified that Bush pulled him aside and pressed him to find a Saddam connection. Donald Rumsfeld's notes from that day, taken by his aide Stephen Cambone, asked whether to "hit S.H." along with bin Laden: _"Go massive. Sweep it all up. Things related and not."_
 
-He acknowledged that the "Mission Accomplished" banner was "no question a mistake." He maintained the decision to remove Saddam was correct. He keeps a private tally of every fallen service member. He meets with grieving families away from cameras.
+The intelligence followed the policy. An Iraqi defector code-named Curveball, whose German handlers had explicitly warned American officials he was unreliable, became the central source on mobile biological weapons labs. Forged documents about Niger uranium made it into Bush's 2003 State of the Union as the "sixteen words." A separate Pentagon shop called the Office of Special Plans, run by Douglas Feith, packaged intelligence in ways CIA analysts later described as cherry-picked. Cheney made repeated personal trips to Langley that career analysts described as pressure visits.
+
+The Senate Intelligence Committee, in its 2008 bipartisan Phase II report, found that public statements by Bush administration officials on Iraq's weapons "were not substantiated by intelligence." Among the unanimous conclusions: that the President, Vice President, and other senior officials had overstated the certainty of Iraq's nuclear weapons claims.
+
+Frank Rich, in _The Greatest Story Ever Sold_, called it "the selling of a war" — and the type-theory frame, on its own, leaves the selling unaccounted for. Counterphobic processing describes the President's nervous system. It does not describe a decade of pre-existing policy fingerprints.
+
+When the weapons weren't there, Bush described having "a sickening feeling." His biggest regret, he told ABC News' Diane Sawyer, was "the intelligence failure in Iraq" — a phrasing that locates the failure outside the Oval Office. Pressed on whether he would have gone in knowing what he knows now, he wouldn't answer. "That is a do-over that I can't do."
+
+He acknowledged that the "Mission Accomplished" banner was "no question a mistake." He maintained the decision to remove Saddam was correct.
+
+The cost:
+
+Roughly 4,500 American service members killed in Iraq. Tens of thousands more wounded, many catastrophically. The Lancet's 2006 mortality study estimated 654,000 excess Iraqi deaths through mid-2006 alone, the great majority from violence; later peer-reviewed studies put the figure higher. Iraq Body Count, using a much stricter direct-violence methodology, has documented over 200,000 violent civilian deaths through the war's long tail. Whichever number you trust, the count runs in the hundreds of thousands.
+
+Bush keeps a private tally of every fallen American service member. He meets their families away from cameras. There is no equivalent tally for the Iraqis.
 
 "Did I feel grief as the person responsible for them being there?" he said. "Yeah, I felt it, because others were grieving. And when others grieved, I grieved with them."
 
-When asked if he experiences PTSD from the decisions he made, he answered immediately: "No. Not even close."
+Asked if he experiences PTSD from the decisions he made, he answered immediately: "No. Not even close."
 
 ---
 
-Then, in 2022, during a speech about Ukraine, he said this:
+In 2022, during a speech about Ukraine, he said this:
 
 "The decision of one man to launch a wholly unjustified and brutal invasion of Iraq — I mean, of Ukraine."
 
 He caught himself. The audience laughed nervously. He muttered: "Iraq too. Anyway..." and moved on.
+
+## The Pictures from the Cellblock
+
+In April 2004, _60 Minutes II_ broadcast the photographs from Abu Ghraib: hooded detainees on leashes, naked pyramids, a smiling soldier giving a thumbs-up beside a corpse. Bush told Al Hurra television he was "sorry for the humiliation suffered by the Iraqi prisoners and the humiliation suffered by their families." Eleven low-ranking soldiers were court-martialed. No senior official was charged.
+
+Behind the photographs were the memos.
+
+In August 2002, Jay Bybee and John Yoo at the Justice Department's Office of Legal Counsel produced what became known as the torture memos. They argued that an interrogation method only became torture if it produced pain "equivalent in intensity to the pain accompanying serious physical injury, such as organ failure, impairment of bodily function, or even death." That definition was used to authorize waterboarding, sleep deprivation, stress positions, and rectal feeding on CIA detainees held at unmarked black sites.
+
+In December 2014, the Senate Intelligence Committee released the executive summary of its years-long review of the program. Senator Dianne Feinstein, the committee's chair, summarized the findings: the program was "morally, legally and administratively misguided" and "far more brutal than people were led to believe." Khalid Sheikh Mohammed was waterboarded 183 times. Another detainee, Gul Rahman, died of hypothermia chained half-naked to a concrete floor at a CIA site nicknamed the Salt Pit.
+
+Bush, in his memoir, defended the decision to authorize "enhanced interrogation" on the grounds that the techniques produced intelligence that saved lives — a claim the Senate report contested in detail. He has not engaged the report directly since its release.
+
+The counterphobic instinct to charge at threats has a shadow. When the fear is deep enough and the threat large enough, the line you would not cross becomes a line you authorize someone else to cross while you choose not to look. Abu Ghraib is what the Type 6 mind looks like when fear runs the building.
 
 ## When There's No Enemy to Fight
 
@@ -234,7 +264,9 @@ Hurricane Katrina hit the Gulf Coast on August 29, 2005. Bush was at his Crawfor
 
 "That photo of me hovering over the damage suggested I was detached from the suffering on the ground," he wrote in _Decision Points_. "That was not how I felt. But once that impression was formed, I couldn't change it."
 
-On September 2, he stood at Mobile Regional Airport and said: "Brownie, you're doing a heck of a job." Brown — whose previous job had been running the International Arabian Horse Association — resigned ten days later. That same day, [Kanye West](/personality-analysis/Kanye) said on live television: "George Bush doesn't care about Black people."
+On September 2, he stood at Mobile Regional Airport and said: "Brownie, you're doing a heck of a job." Brown — whose previous job had been running the International Arabian Horse Association — resigned ten days later. He had been brought to FEMA by Joe Allbaugh, Bush's 2000 campaign manager, who'd been the first FEMA director of the administration before handing the agency to his old college friend. The "Brownie" moment wasn't a verbal slip in the wrong setting. It was a Six praising someone inside the loyalty network on the day the network's competence stopped being theoretical.
+
+That same day, [Kanye West](/personality-analysis/Kanye) said on live television: "George Bush doesn't care about Black people."
 
 Bush later told Matt Lauer it was the worst moment of his entire presidency. Not 9/11. Not Iraq. Being told he didn't care.
 
@@ -298,10 +330,67 @@ His twin daughters, Jenna and Barbara, were 19 when he entered the White House. 
 
 He was sitting next to Don Coyhis, a recovered alcoholic with 30 years of sobriety. Bush told him: "I'm eight years behind you."
 
-The man who divided the world into good and evil now paints portraits of the people caught in between.
+In January 2021, after rioters broke into the Capitol, Bush released a statement: "This is a sickening and heartbreaking sight. This is how election results are disputed in a banana republic — not our democratic republic." Eight months later, on the twentieth anniversary of 9/11, he stood at the Flight 93 memorial in Pennsylvania and called the violent extremists abroad and the violent extremists at home "children of the same foul spirit." He has not endorsed Donald Trump in three presidential cycles. He attended Joe Biden's inauguration. The Six who once divided the world into "with us or against us" has spent the years since watching loyalty redefined inside his own party — and choosing, quietly, the version that costs him most of the people he used to govern with.
 
-At some point the contradictions stop being contradictions and start being the same thing. The boy who stayed home to make his mother laugh is the same man who stood on the rubble with a bullhorn. The commander-in-chief who kept a private tally of the dead is the same retiree who paints their faces, one by one, in oil.
+The boy who stayed home to make his mother laugh became the man on the rubble with a bullhorn, then the painter in a Dallas studio working through portraits of soldiers he sent into a war that did not have to happen.
 
-He doesn't call it therapy. He calls it respect. But the paint-and-scrape, paint-and-scrape rhythm tells a different story — the story of a man still trying to get it right, still trying to see the people he couldn't protect, still staying in the room when everyone else has moved on.
+He has been asked if the painting is therapy. He rejected the word. The paint-and-scrape rhythm is closer to a roll call — a man still trying to see the people he could not protect, still staying in the room long after everyone else has moved on.
 
 > **Disclaimer** This analysis of George W. Bush's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of George W. Bush.
+
+<!-- ============================================================
+FRESH-EYES ASSESSMENT — 2026-04-29 PASS 3 (Claude cold read)
+============================================================
+
+ONE-LINE VERDICT: The "paint and scrape" closing scene is genuinely earned, but the piece routes the Iraq War decision through Type 6 counterphobic framing in a way that reads as deeply protective of a decision that killed hundreds of thousands.
+
+STRONGEST SECTION: "Paint and Scrape" — the post-presidency veterans-portraits arc is the right structural close because it actually puts the consequences of his decisions in front of him, painted one face at a time. The Sergeant Osborne quote ("I wish it was different") is doing more analytic work than most paragraphs.
+WEAKEST SECTION: "The Weight of the Decision" — Iraq is treated as a Type 6 counterphobic processing of fear (mushroom cloud quote, "couldn't afford the risk"). The actual deception of the country, the Cheney-Wolfowitz pre-9/11 Iraq agenda, and the post-invasion casualty count are absent from this section.
+
+STRENGTHS (3-5 bullets, specific):
+- Robin's death as the seven-year-old origin trauma (he stayed home / "needed to play with mom") is the cleanest childhood-as-architecture argument in the batch.
+- The Katrina-vs-Ground-Zero parallel (same man, same timeframe, opposite responses; "without an enemy, the counterphobic pattern stalls") is a structurally great paragraph.
+- The Cheney "wounded on the field of battle" / Libby pardon refusal is the genuine Type 6 growth-toward-autonomy moment and the piece reads it correctly.
+- "Some staffers called him 'extraordinarily intelligent'" reframe of the Bushisms caricature is the kind of expectation-violation that earns its place.
+- The Ukraine slip ("invasion of Iraq — I mean, of Ukraine") is exactly the right line to end that section without commentary; the moment speaks.
+
+WEAKNESSES (3-5 bullets, specific — name lines, phrases, sections):
+- Defense-counsel mode on Iraq: "if you've spent your whole life scanning for threats, and an intelligence apparatus built to find threats tells you the threat is real, you don't wait" — this absorbs the "the intelligence was bad, not the decision" framing without examining whether the intelligence was actually bad or politically shaped.
+- "His biggest regret... was 'the intelligence failure in Iraq'" is reproduced without contesting that it was an intelligence-shaping failure.
+- Counter-typing rule of three is missing (good), but contrast-pair "It is not X. It is Y" appears: "But the instinct wasn't recklessness. It was a mind that had been running worst-case scenarios" / "It's not the painting that unburdens my soul. It's the belief in the cause."
+- The "he doesn't call it therapy. He calls it respect" close is a paradox-as-resolution corpus tic.
+- Stat-as-shock: "34% approval rating" floated standalone.
+- "Labels are for cans" quote dropped without examination — that's a tell about Type 6 image-management and the piece doesn't use it.
+
+GAPS / MISSED OPPORTUNITIES (3-6 bullets — what a fan/critic would expect that's absent):
+- Abu Ghraib / torture authorization / Bybee memos — the legal architecture of detainee treatment is completely absent. This is the most damning omission.
+- WMD intelligence shaping: Cheney/Libby trips to CIA, the Niger uranium forgeries, the British dossier — gone.
+- Hurricane Katrina got a paragraph but the "Brownie" appointment as cronyism is treated as a personal mistake, not the pattern of FEMA appointments by ideology.
+- The 2000 election / Florida recount / Bush v. Gore — entirely absent. The piece treats his presidency as a thing he earned.
+- No named historian-critic. Frank Rich, Naomi Klein, anyone — gone.
+- The Iraqi civilian death toll (Lancet study estimates of 600K+) is not on the page. Hundreds of thousands of dead.
+
+PATTERN HITS (DJ tropes that worked here):
+- The opening Robin scene ("A sharp pain in the midst of an otherwise happy blur") is genuinely arresting.
+- "Some days are happy. Some days are not so happy. But every day is joyful" — earned because the surrounding paragraphs put weight on it.
+- The post-presidency arc (immigrant portraits + nuance + "with us or against us" reversal) is structurally sound.
+
+PATTERN MISSES (DJ tropes that felt formulaic, recycled, or autopilot here):
+- Triple front-loading: opening Robin scene + TL;DR + diagnostic section all repeat the counterphobic-Six thesis.
+- "He doesn't retreat. He doesn't act out. He stayed home." — three-beat negation rhythm is a corpus tic.
+- "Same man. Same timeframe. Opposite responses." — the corpus rhythm-of-three close-of-paragraph.
+- "The man who [X] is the same man who [Y]" closing-rhythm appears 3+ times: "The boy who stayed home... is the same man who stood on the rubble" / "The commander-in-chief who kept a private tally... is the same retiree who paints their faces" / "The man who divided the world... now sits in his studio painting."
+- Type-plural crutch in the diagnostic section: "Many Sixes deliberately manage their image downward."
+
+CRITIC-ENGAGEMENT: Names Kanye West's "doesn't care about Black people" and treats it as the worst moment of his presidency. Engages it through how it landed on Bush, not on whether it was correct. No named left-flank historian-critic on Iraq. Cheney's argument over Libby is engaged because it became personal; Cheney's argument for the war isn't.
+
+CURRENCY (2024-2026 anchor): The 2022 Ukraine slip is the most recent beat. No 2024-2026 anchor. The 2024 election cycle and the Liz Cheney / anti-Trump GOP positioning of W. is missing — would have been the natural current frame.
+
+DEFENSE-COUNSEL CHECK: Yes — substantially. (1) Iraq routed through Type 6 fear-processing rather than examined as a pre-meditated agenda. (2) Abu Ghraib absent. (3) 600K+ Iraqi dead absent. (4) WMD intelligence shaping absent. (5) Bush v. Gore absent. The piece's psychological generosity dramatically outweighs its accountability.
+
+PRIORITY FIXES (numbered, in order of impact — 3 max):
+1. Add the Iraqi civilian death toll and engage Abu Ghraib / torture — the omissions are not minor; they're the largest substantive gaps in any blog in this batch.
+2. Engage the WMD-as-pretext line of analysis (the pre-9/11 Iraq policy push from Cheney/Wolfowitz, Curveball, the Niger forgeries) — without it, the "counterphobic Six processing real fear" frame is doing PR work.
+3. Cut the "the man who X is the same man who Y" closing rhythm — appears 3+ times in the final two sections; corpus tic at full volume.
+
+============================================================ -->

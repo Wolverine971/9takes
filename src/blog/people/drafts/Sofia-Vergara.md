@@ -274,3 +274,52 @@ STRUCTURAL:
 - Griselda section reworked to lead with the brother/grief angle (Rafael's 1996 cartel murder). Operator thesis now lives primarily in Business Meeting section.
 
 -->
+
+<!-- ============================================================
+FRESH-EYES ASSESSMENT — 2026-04-29 (Claude cold read)
+============================================================
+
+ONE-LINE VERDICT: The strongest piece of the eight assigned — a fully realized "the ditz is the business plan" thesis where every section advances the argument and the closing inner-thought lands like a verdict.
+
+STRONGEST SECTION: "What Sofia Vergara Sounds Like in a Business Meeting" — the Latin World Entertainment 1994 detail (company before output) plus the percentages-not-flat-fees frame is the single most diagnostic Type 3 evidence in the piece, and Julie Bowen's "completely in herself" callback closes it perfectly.
+WEAKEST SECTION: "The Sentence Hidden Inside the Accent" — works as a closer but the recap paragraph ("She is the woman who watched what Hollywood wanted...") rehearses every previous section rather than landing one final new beat.
+
+STRENGTHS:
+- "She dyed her hair black to get work. Everyone mistook this for who she was." is a magazine-grade opening — three sentences, full thesis
+- The Loeb embryo lawsuit section is the move that makes this a portrait instead of a profile — six years on a Louisiana docket while pastel dresses on Modern Family is exactly the kind of contradiction that earns the diagnosis
+- The cancer-as-public/private split panel ("Public Sofia, 2000-2011 / Private Sofia, 2000-2011") is a structural device that does in 6 lines what most blogs do in 3 paragraphs
+- The Rafael/Griselda parallel is original — most Vergara coverage treats Griselda as a credibility grab; reframing it as a 28-year grief metabolism is fresh
+- "She didn't endorse brands. She co-founded lines with them." is the cleanest single line in the piece
+
+WEAKNESSES:
+- "The accent is the business plan" is in the dek, the hook, and the body — it's the title-of-the-blog level claim, but the third repetition tips into mantra
+- "The brand could not survive the leak" / "the brand had not flinched" / "the brand would not survive" — variants of "the brand" appear 6+ times; the abstraction is doing too much rhetorical lifting
+- The H2 "What Sofia Vergara Sounds Like in a Business Meeting" is search-coded but the section barely uses any actual business-meeting sounds — no negotiating quotes, no boardroom anecdotes; the headline overpromises
+- "Read that sentence twice" / "Read it against..." / "Read that quote against the murder of her brother" — the reader-direction tic appears 3+ times and starts to feel like the writer telling rather than trusting
+- The matriarch-coded warmth (3w2) framing is asserted in TL;DR but barely developed in the body — Julie Bowen quote is the only evidence
+
+GAPS / MISSED OPPORTUNITIES:
+- Almost nothing on the Joe Manganiello marriage substance — only the divorce framing. The 7-year marriage to a man who was the wrong "fit" for the brand could have been its own beat
+- No engagement with the Latin entertainment industry's reception of her — does she face critique from Latina actresses (Salma Hayek? America Ferrera?) for the stereotype trade-off? The piece engages white-American critics but ducks Latina-on-Latina commentary
+- The Edsel Ford son-in-law / second-marriage trajectory absent — readers wondering "will she partner again" would expect at least a line
+- Nothing on AGT post-2024 or her 2025-2026 work pipeline — feels frozen at Griselda/divorce era
+- No mention of her business stake in actual asset values — she is described as $180M but the structure (real estate? equity? Walmart-line revenue cut percentages?) is opaque
+- The dental-school-Plan-A detail is dropped in but never recurs — could have been the through-line for "she always had a fallback / structural mind"
+
+PATTERN HITS (DJ tropes that worked here):
+- The TL;DR accordion is the cleanest of the eight — each bullet is a behavior with evidence
+- The italicized embedded quote treatment ("Image is not something that happens TO a Three") works because the italicized lines are actually load-bearing
+- The contrast-panel HTML block (Public Sofia / Private Sofia) is a corpus device that earned its keep — should be ported to other blogs
+
+PATTERN MISSES (DJ tropes that felt formulaic):
+- "She is not Gloria Pritchett. She never was." — the "X is not Y. They never were." cadence is recognizable across multiple blogs and feels like autopilot
+- "The X is the business plan" / "The X is the Y" cadence is in the title, the dek, and inside the body — it's the marquee DJ-construction and starts to feel like a tic
+- The closing inner-thought tag (`<p class="inner-thought">They think I don't know what I'm doing. Good.</p>`) is a recurring corpus device — strong here, but worth varying
+
+PRIORITY FIXES:
+1. Cut one of the three "the accent is the business plan" / "the ditz is the business plan" repetitions — the title, the dek, and the body all carry it; pick two.
+2. Trim the final recap paragraph in "The Sentence Hidden Inside the Accent" — the seven "She is the woman who..." beats restate the entire piece. End on Manganiello + grandmother + inner-thought; let the body of the article be the recap.
+3. Add a 2025-2026 dated beat (current AGT season, post-Saliman dating life, business pipeline) — the piece feels complete but slightly frozen at Griselda peak.
+
+============================================================ -->
+

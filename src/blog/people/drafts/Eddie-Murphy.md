@@ -340,3 +340,56 @@ But here's what makes Murphy different from every cautionary tale he studied: he
 "I am the most comfortable I've ever been in my skin. I feel great and optimistic and totally comfortable being Eddie."
 
 He's 65 now. Ten kids. A new wife. More movies coming. And somewhere in that house, late at night, he still checks the gas. He's told us that much. What he does after — whether he catches himself, whether the old pull comes back, whether he laughs at it — that's his. The walls face outward for a reason.
+
+<!-- ============================================================
+FRESH-EYES ASSESSMENT — 2026-04-29 PASS 3 (Claude cold read)
+============================================================
+
+ONE-LINE VERDICT: A strong, mature Murphy portrait that earns its central paradox (explosion + stillness) through the gas-stove ritual — but it leans on the fortress metaphor so hard it eventually carries everything, including things that don't fit.
+
+STRONGEST SECTION: "Eddie Murphy's Information Quarantine" — specific, weird, true: no email, no internet, staff filters articles. This is the rare detail that is both behavioral evidence and brand-defining.
+WEAKEST SECTION: "The Couch Years and the Movies He Celebrates Anyway" — does the most type-as-defense-counsel work; reframes Norbit/Pluto Nash as alchemy ("turned his worst failures into family holidays") rather than examining whether the criticism was warranted.
+
+STRENGTHS (3-5 bullets, specific):
+- The 8-year-old gas-stove ritual disclosed in Being Eddie (2025) is the spine of the whole piece, properly callback-deployed three times without feeling overworked.
+- The Belushi/Williams cocaine refusal at 19 is sourced specifically and genuinely revealing — the piece resists making it a moral story.
+- The David Spade / 35-year SNL exile is treated with appropriate weight as behavior pattern, not as gossip.
+- "I've been doing him since I was two or three" about Charlie is one of the most affecting single quotes in the batch and is allowed to land without overworking.
+- Murphy's self-identification as "supersensitive artist" rather than comedian is a genuine reframe and opens up the whole information-quarantine section properly.
+
+WEAKNESSES (3-5 bullets, specific — name lines, phrases, sections):
+- "The walls face outward" closer is repeated three times in the piece. Diminishing returns. By the third use it's a tagline.
+- "Build a fortress" / "build the walls" / "fortress of silence" / "his fortress" — the fortress metaphor is the corpus's #1 overused image and this blog uses it five+ times.
+- "He chose escape. He chose laughter." — single-sentence dramatic-paragraph stack, plus the contrast-pair tic earlier ("explosion and stillness, performance and protection").
+- The "What is Eddie Murphy's personality type?" section opens with "The Enneagram Seven is driven by a core fear" boilerplate that does no Murphy-specific work.
+- The Dreamgirls/Norbit Oscar-loss section is a near-textbook defense-counsel move: the loss is reframed as the industry's failure ("even your best isn't enough") with Norbit's actual quality (9% RT) glossed.
+
+GAPS / MISSED OPPORTUNITIES (3-6 bullets — what a fan/critic would expect that's absent):
+- The Coming to America 2 / Beverly Hills Cop: Axel F (2024) reception — actually current Murphy work — is missing. Pluto Nash and Norbit get more analysis than his actual recent output.
+- The 1997 Atascadero Boulevard transgender-prostitute incident is entirely absent. For a piece arguing he "never crashed," this is the pre-couch-era event that complicates the narrative and a fan would notice the omission.
+- His relationship with Mel B / paternity dispute over Angel is glossed in "ten children, five partners." That's a meaningful moral weight a piece on Type 7 avoidance should engage.
+- Bowfinger, The Nutty Professor, The PJs — the genuine 90s creative output is collapsed under the "couch" frame. He wasn't only on the couch.
+- The "Black artists getting too famous" minefield framing is a real Murphy idea the piece quotes but never engages with — what specifically did happen to Black artists that he's pattern-matching against?
+- His relationship with Arsenio is mentioned twice without ever examining what Arsenio gives him that nobody else does.
+
+PATTERN HITS (DJ tropes that worked here):
+- The contrast panel (Public Eddie vs. Private Eddie) is structurally well-deployed because the rest of the piece earns the dichotomy with concrete evidence.
+
+PATTERN MISSES (DJ tropes that felt formulaic, recycled, or autopilot here):
+- Fortress/walls/architecture metaphor stack — pass-2 tic confirmed at peak frequency.
+- "He didn't just cope with his childhood. He reversed it." Contrast-pair, single-sentence-dramatic-paragraph, all in one.
+- "Pain became material. Tragedy became timing." — twin parallel-clause aphorism, classic corpus tic.
+- The closing image (still checking the gas) loops back to the opening image — corpus's "child still doing what the child did" template, undisguised.
+
+CRITIC-ENGAGEMENT: Mostly avoided. The Razzies are mentioned but the criticism is filtered through Murphy's own framing ("they gave me 'worst actor ever'"). No named critic engaged on Norbit, Pluto Nash, or the dramatic ambitions in Dreamgirls.
+
+CURRENCY (2024-2026 anchor): Partial. Being Eddie (2025) doc is the spine, "He's 65 now" lands the temporal beat, but the piece is more 2019–2021 (Marc Maron, comeback-trilogy era) than 2024–2026.
+
+DEFENSE-COUNSEL CHECK: Yes, soft. The 2000s output ("These s----y movies") is treated as industry-fault and "time to sit on the couch" rather than examining whether he was making bad choices. Type 7 avoidance becomes the explanation, not the question.
+
+PRIORITY FIXES (numbered, in order of impact — 3 max):
+1. Kill three of the five "walls"/"fortress" instances. Particularly the closer's "The walls face outward" should appear once, not three times.
+2. Engage the 1997 Atascadero incident or the paternity dispute with Mel B. Right now the piece narrates a Type 7 who never quite fails — and a fan reading this knows that's a curated story.
+3. Replace the Pluto Nash/Norbit section's reframing with one line that lets the criticism stand: those movies were bad, his judgment was off, the couch was earned.
+
+============================================================ -->

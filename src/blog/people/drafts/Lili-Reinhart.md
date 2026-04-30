@@ -257,3 +257,52 @@ Addressed from fresh-eyes review:
 - Cut marginal "mental health podcast" reference (she guests, doesn't host).
 - Updated TL;DR integration bullet to include Personal Day.
 -->
+
+<!-- ============================================================
+FRESH-EYES ASSESSMENT — 2026-04-29 PASS 4 (Claude cold read)
+============================================================
+
+ONE-LINE VERDICT: A genuinely affecting voice-vs-body thesis carried by specific moments (paper-bag, hotel-sob, Personal Day), but tilts dangerously close to defense-counsel framing on the "I don't think his intentions were bad" director scene.
+QUALITY-CEILING TIER: TOP
+
+STRONGEST SECTION: "The Brand She Built Out of Her Own Face" — the Personal Day section materializes the whole thesis in product form ("Wellness implies you were well to begin with") without restating it.
+WEAKEST SECTION: "The Season She Disappeared Inside Betty Cooper" — the director scene's Type-4 reframe ("a survivor's reflex to preserve a world she cannot afford to see as hostile") risks redescribing failure-to-name as virtue.
+
+STRENGTHS (3-5 bullets, specific):
+- Hotel-sob/White-House juxtaposition is a top-tier hook image; payoff through to closer.
+- "Wellness implies you were well to begin with" is the cleanest single line in the piece.
+- The grandmother/lineage beat is integrated, not name-dropped — connects medical-gaslighting to inheritable pattern.
+- Personal Day section refuses both "wellness brand" and "celebrity vanity" framings; lands a genuine new claim.
+- Cole Sprouse "Thread She Would Not Join" is the rare moment a Four blog grants the partner the dignity she chose for him.
+
+WEAKNESSES (3-5 bullets, specific):
+- "He didn't want me to look at the footage later..." is left fully intact as the analytical frame for the on-set comment. The piece narrates her rationalization without questioning it.
+- "Type Fours are shaped around a core wound..." plus "Fours metabolize them" plus "For a Four, feeling is not an interruption..." — the type-plural diagnostic crutch fires three times in the analysis section.
+- "She can describe pain with the precision of a surgeon" then a one-line paragraph "What she cannot do — what she has never been able to do — is live inside her own body without being at war with it" is the contrast-pair "It is not X. It is Y." pattern.
+- Closing parallel-binary: "your voice can go places your body cannot" is the dominant pass-3 pattern.
+- The Riverdale 6 / eating disorder section gives sympathetic context for every contributor (pandemic, weight, character, accumulated dysmorphia) without ever locating Reinhart's own agency in the dissociation arc.
+
+GAPS / MISSED OPPORTUNITIES (3-6 bullets):
+- The Kim Kardashian callout is treated as "Type 1 in integration" — but her record on calling out women specifically vs. men is uninterrogated.
+- No engagement with critics who find her advocacy performative or her body-positivity inconsistent (e.g., she still works the body-economy of acting/modeling).
+- Cole Sprouse breakup section names the violation of the crowd but skips Sprouse's "we did damage to each other" — what was her share?
+- Personal Day's commercial scale, sales, how it actually performs as a business goes unmentioned. We get thesis without ledger.
+- No mention of any backlash to her advocacy or speeches she has had to walk back.
+- The 7-season Riverdale paycheck arc — what did the show buy her, financially? — would let the piece be honest about the trade.
+
+PATTERN HITS:
+- Type-plural diagnostic crutch ("Type Fours are shaped...", "Fours metabolize them", "For a Four..."), contrast-pair, closing parallel-binary, "child still doing what the child did" closer (the seventh-grade-girl-becomes-CEO move), single-sentence dramatic paragraphs ("She got them to see it.").
+
+PATTERN MISSES:
+- No "Father modeled X. Mother modeled Y." template (parents handled correctly as believing-parent unit). No counter-typing rule of three.
+
+CRITIC-ENGAGEMENT: Engages institutional critics (Hollywood, doctors, the medical system) and one named human (Kim Kardashian) but engages no critic OF Reinhart herself.
+CURRENCY: Yes — endometriosis Dec 2025 diagnosis, Personal Day Oct 2024, Riverdale through-line all within recency window.
+DEFENSE-COUNSEL CHECK: Yes, light. The director scene reframes her not naming him as "survivor's reflex" (Type-4 virtue) rather than examining whether protecting his identity also protects others he might do this to. The piece partly indicts the industry but does not let Reinhart herself be partly indictable.
+
+PRIORITY FIXES (numbered, 3 max):
+1. Cut the "I don't think his intentions were bad" defense to one sentence; let it stand uncontextualized OR let the analysis name what the protection of an unnamed man costs other women on his sets.
+2. Trim the type-plural crutch — collapse the three "Fours metabolize / Fours need / For a Four" hits into one.
+3. Pressure-test the Kim K callout: did she ever name male peers who did equivalent damage at equivalent platforms, or did the integration-to-1 land specifically on a woman?
+
+============================================================ -->

@@ -343,3 +343,56 @@ She's been doing this since South Euclid Avenue. Since Fraser's uniform. Since t
 The fire was never the problem. The question was always where to aim it.
 
 > **Disclaimer:** This analysis of Michelle Obama's Enneagram type is speculative, based on publicly available information, and may not reflect her actual personality type.
+
+<!-- ============================================================
+FRESH-EYES ASSESSMENT — 2026-04-29 PASS 2 (Claude cold read)
+============================================================
+
+ONE-LINE VERDICT: A high-craft Type 1 portrait organized around one specific 2025 detail (the inauguration dress trick) that functions as both hook and thesis — earns the read, but flirts with pattern fatigue in the middle.
+
+STRONGEST SECTION: "The Man Who Never Complained" — Fraser Robinson III in his city worker uniform fighting MS in silence is the cleanest origin story in the batch. The line "She absorbed that operating system before she could name it" is the kind of sentence the rest of the piece earns its claims off.
+WEAKEST SECTION: "The Causes She Took Personally" — feels like a list of First Lady initiatives (Let's Move, Joining Forces, Reach Higher, Let Girls Learn) with thin connective tissue ("They were chosen because they offended her sense"); the section restates the moral-energy thesis without adding new evidence.
+
+STRENGTHS (3-5 bullets, specific):
+- The dress-trick hook is genuinely a 2025 anchor that lands a falsifiable thesis: a Type 1 has to physically remove the option of duty to choose herself.
+- "Less light" as the corrective phrasing — both as a quote-pull and as a section title — does heavy thesis work without overclaiming.
+- The Type 3 counter-argument is the strongest in the batch ("a Type 3 keeps the door open. A Type 1 closes it and welds it shut" applied to the Senate question) — actually engages the alternative typing.
+- The Sasha-as-cat passage is the rare moment where a parenting detail genuinely illuminates the parent's psychology rather than the child's.
+- "The fire was never the problem. The question was always where to aim it" is a clean closer that doesn't autopilot to the corpus default.
+
+WEAKNESSES (3-5 bullets, specific — name lines, phrases, sections):
+- The "It is not X. It is Y." contrast-pair is everywhere here too: "It's not grace. It's anger, converted"; "Not 'angrier' — that would confirm the stereotype. 'Less light'"; "She didn't go low. She just stopped going"; "It's not natural temperament. It's discipline"; "That's not composure. That's anger, aimed with surgical precision"; "These aren't small shifts." At least 7 instances, this is a clear DJ tic.
+- "Type 1 sits in the gut center" / "the anger center" / "the gut triad — the anger center" — the type-theory-as-textbook framing is repeated across three different sections.
+- The "Going high requires work" section ends with "She didn't go low. She just stopped going" — this is a bolded paragraph-end punch line that the prose could carry without the typographic underline.
+- The pandemic-knitting section is competent but follows the corpus formula exactly: stress-arrow narration → small-thing-she-controls-perfectly → "that's the Type 1 under stress." Three other blogs in this batch run the identical structure.
+- "The dress trick works both ways" closing pivot is structurally strong but the phrase "She's been doing this since" is the corpus autopilot — same move as "She always will be" (Putin) and "He always has" (Biden).
+
+GAPS / MISSED OPPORTUNITIES (3-6 bullets — what a fan/critic would expect that's absent):
+- No engagement with conservative critics — Michelle is one of the most polarizing figures on the right ("for the first time in my adult life I am proud of my country," 2016 election commentary, the campaigns-she-could-have-run-but-didn't). The blog defangs by ignoring.
+- "When they go low, we go high" gets a section but the post-2016 critique from the LEFT — that this strategy enabled Republican impunity — is never named.
+- The Becoming book tour and arena dates are mentioned but not interrogated — at what point does an "anti-celebrity" Type 1 become a celebrity? The contradiction is real and the blog flinches.
+- No mention of her IMO podcast critique of Black men's voting patterns in 2024 — a genuinely controversial 2024 moment that would test the "anger aimed precisely" thesis.
+- The "I'm probably less light than my white friends" framing is sharp but unexamined — does she have any sustained relationships with Black women friends she'd compare against, and would that change the read?
+- The Higher Ground production company / Netflix deal is the achievement-side of post-presidency that the Type 1 frame could illuminate (or contradict) and is invisible.
+
+PATTERN HITS (DJ tropes that worked here):
+- The "single specific 2025 anchor scene as falsifiable thesis" structure is the corpus best move and the dress trick is one of its cleanest deployments.
+
+PATTERN MISSES (DJ tropes that felt formulaic, recycled, or autopilot here):
+- "It is not X. It is Y." appears 7+ times — well over corpus cap of 1.
+- "Type N would [do A]. A Type N+M would [do B]. But [subject] does [C]" rule of three: appears explicitly in the Senate counter-typing ("A Type 3 keeps the door open. A Type 1 closes it") and implicitly in the type-theory framing throughout.
+- "She's been doing this since [origin scene]" is the corpus closer autopilot.
+
+CRITIC-ENGAGEMENT: Names no critic by name and engages no specific critique from either partisan side — the harshest external voice is the racist West Virginia mayor quote, which is so easy to defang that it functions as a strawman.
+
+CURRENCY (2026 anchor): Yes — explicitly references the January 2025 inauguration dress trick, November 2025 The Look book, November 2025 Brooklyn comments on Kamala. Strong currency.
+
+PARTISAN TILT: Sympathetic-progressive frame. Reads like an inside-the-tent portrait — admiring of the discipline, defensive about the anger, no genuine challenge from any side.
+
+PRIORITY FIXES (numbered, in order of impact — 3 max):
+1. Engage one specific conservative critique by name and one specific progressive critique by name (the "go-high enabled Republicans" argument writes itself) — partisan-friendliness is the biggest credibility gap.
+2. Cut "It is not X. It is Y." down to 1-2 instances; let the prose carry the contrasts.
+3. Replace "The Causes She Took Personally" list-section with one fully developed initiative (Let's Move backlash + Glenn Beck + the actual policy fight) so the section adds evidence instead of restating thesis.
+
+============================================================ -->
+

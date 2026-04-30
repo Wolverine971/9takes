@@ -369,3 +369,60 @@ Cleaned up:
 Still rough:
 - Nothing major. Draft reads production-ready after this pass.
 -->
+
+<!-- ============================================================
+FRESH-EYES ASSESSMENT — 2026-04-29 PASS 2 (Claude cold read)
+============================================================
+
+ONE-LINE VERDICT: A confident Type 2 portrait built on the strongest single childhood scene in the batch (golf club + sworn deposition + adopting the surname anyway), but the analysis softens in the back half and the impeachment / Lewinsky reckoning is conspicuously gentle.
+
+STRONGEST SECTION: "The Golf Club and the Sworn Deposition" — fourteen-year-old Bill threatening Roger with a golf club, then giving a sworn deposition at fifteen, then legally adopting the abuser's surname. The "boy who could see the violence clearly enough to testify against it, and still chose to carry the name" is the cleanest Type 2 architecture-of-protection passage in the corpus.
+WEAKEST SECTION: "What Clinton Couldn't Give Himself" — the post-presidency / Foundation / DNC speech / "Why Am I Telling You This?" podcast is a list of accomplishments looking for a thesis; the 2→4 growth-arrow gesture ("the movement is happening, slowly") is hedge-language.
+
+STRENGTHS (3-5 bullets, specific):
+- "Parallel lives, an external life that takes its natural course and an internal life where the secrets are hidden... It was dark down there" deployed as the 957-page-buried thesis is genuine archival research, not a famous quote.
+- The Roger Jr. cocaine sting + presidential pardon arc (added per second-pass notes) is the single most revealing Type 2 anecdote in the piece — family fixer authorizing the sting, weeping, then pardoning his brother on his last day. Earned its addition.
+- "He was performing the only version of love he'd ever known: the kind you earn by showing up for other people's pain" is a sentence that does Type 2 thesis work without textbook framing.
+- The 1992 town-hall debate (Bush watching watch / Clinton walking toward the woman) is the cleanest possible "Type 2 in his element" scene and is correctly used to anchor the "I feel your pain" passage.
+- The Bush 41 friendship section (the bed on Air Force One, "I just loved him") is structurally clever — a Type 2 finally receiving unconditional warmth and the emotional release that follows.
+
+WEAKNESSES (3-5 bullets, specific — name lines, phrases, sections):
+- "It is not X. It is Y." pattern: "He's already carrying someone else"; "It wasn't strategy. It was need"; "He wasn't thinking at all. He was feeling"; "Not guilt, which says... Shame, which says"; "It wasn't a contradiction. It's the Two's shadow"; "It looks like ideological flexibility. Through the Two lens, it was something more primal." 6+ instances.
+- The "Saturday-night Bill / Sunday-morning President Clinton" Dick Morris frame is set up early as a thesis device but never actually returns — the piece doesn't deliver on the promise of dramatizing the split.
+- "Twos suppress their own needs. They redirect every ounce of emotional energy outward..." — the textbook paragraph in the Lewinsky section is exactly the type-theory-as-textbook tic. The blog tells us what Twos do rather than dramatizing what Clinton did.
+- The closing line "sit quietly and believe that he is loved without earning it" is genuinely strong but paired with "There is no period in Bill Clinton's life where he is not taking care of someone" — the corpus "child still doing what the child did" autopilot.
+- Lewinsky herself appears in one sentence ("I feel terrible about the fact that Monica Lewinsky's life was defined by it"). Paula Jones, Juanita Broaddrick, Kathleen Willey, the credible-allegation pattern beyond consensual-affair-with-intern — completely absent. This is the single biggest critic-side pressure point and the blog ducks it.
+
+GAPS / MISSED OPPORTUNITIES (3-6 bullets — what a fan/critic would expect that's absent):
+- The post-#MeToo reread of Clinton — that the lens has shifted and the "consensual affair" framing is no longer the consensus framing — is invisible. This is the most important critical reframe of the past 8 years and the blog doesn't engage.
+- The Epstein connection — flight logs, "Lolita Express," 26 documented flights — is absent. For a 2026 publication date this is conspicuous.
+- Hillary's 2016 loss as Bill's responsibility (the "explainer-in-chief" who couldn't explain her) is the obvious Type 2 stress-test the blog skips.
+- Clinton's economic legacy — NAFTA, deregulation of derivatives (Glass-Steagall repeal), welfare reform's actual impact 30 years later — gets mentioned in passing but the LEFT critique that he engineered the conditions for inequality and 2008 is absent.
+- The 1994 crime bill and its racial impact — the most-discussed retrospective LEFT critique of Clinton — is invisible.
+- No engagement with the right's case against Clinton (Whitewater, Travelgate, FBI files) on its merits — even to dismiss.
+- The 2004 quadruple bypass / heart surgery moment (which the inline review notes flagged) was rejected and not added — but it would be the perfect Type 2 vulnerability scene.
+
+PATTERN HITS (DJ tropes that worked here):
+- Childhood-scene-as-architecture-of-the-adult (golf club / deposition / surname).
+- Single-original-line-per-section that earns its keep ("the only version of love he'd ever known").
+- Internal-DJ-comments visible in the file show genuine self-correction process — this is a strength of the file, not the published piece.
+
+PATTERN MISSES (DJ tropes that felt formulaic, recycled, or autopilot here):
+- "It is not X. It is Y." 6+ times.
+- Type-theory-as-textbook in the Lewinsky / shame paragraph.
+- "There is no period... where he is not taking care of someone" closer is the corpus autopilot.
+- Counter-typing rule of three missing here, but in the inline notes the writer rejected adding the 2→8 stress arrow which is itself a corpus tic — credit for that.
+
+CRITIC-ENGAGEMENT: Names Newt Gingrich (1995 shutdown adversary), Dick Morris (intra-circle), John Gartner (academic), Hillary's "gutsiest thing." Does NOT name #MeToo critics, Paula Jones / Broaddrick by name, Epstein, or any specific 2010s-2020s reassessment of Clinton.
+
+CURRENCY (2024-2026 anchor): Weak — the piece references the "Why Am I Telling You This?" podcast (2018-2019 era) and Hillary quotes from My Life era. No 2024-2026 anchor whatsoever beyond the post-presidency Foundation work. This is the lowest currency in the batch.
+
+PARTISAN TILT: Strongly sympathetic-Democratic / inside-the-tent. The piece reads like a 2004-era profile updated lightly; it doesn't grapple with the post-#MeToo reread that defines how a 2026 reader will encounter Clinton.
+
+PRIORITY FIXES (numbered, in order of impact — 3 max):
+1. Engage the post-#MeToo reread — name Paula Jones, Broaddrick, the credible-allegation pattern beyond Lewinsky, and the Epstein connection. Even if the piece defends the Type 2 frame, ducking these in 2026 reads as flinching.
+2. Add a 2024-2026 anchor — Hillary's reflections post-2016, Bill's appearances at 2024 DNC, the Trump-era reread of Clinton, ANYTHING current-tense. The piece reads as if frozen in 2010.
+3. Cut the textbook "Twos suppress their own needs..." paragraph in the Lewinsky section — let the prose carry the thesis. The narrative section that follows ("Quite simply, I gave in to my shame") doesn't need the Enneagram-textbook setup.
+
+============================================================ -->
+

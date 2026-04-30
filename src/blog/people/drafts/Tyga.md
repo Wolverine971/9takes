@@ -313,3 +313,53 @@ Trimmed:
 Structure:
 - Moved "Why a 4 Wing, Not a 2" out from between the evidence list and the name section — placed it after the father section so the name → father → wing flow lands cleanly.
 -->
+
+<!-- ============================================================
+FRESH-EYES ASSESSMENT — 2026-04-29 PASS 4 (Claude cold read)
+============================================================
+
+ONE-LINE VERDICT: The most courageous engagement in the batch on the duck-the-Kylie-controversy risk, anchored by a powerful "Tupac is dad" / Stevie-letter sequence, though the Type-3-as-pattern frame occasionally absorbs failures it should let stand.
+QUALITY-CEILING TIER: TOP
+
+STRONGEST SECTION: "October 2021: The Arrest" — disciplined, factual, refuses to redescribe Camaryn Swanson's black eye as a Type 3 image-management lesson. Rare in this corpus.
+WEAKEST SECTION: "Why Tyga Can't Stop Rebuilding Himself" — the OnlyFans/TooRaww/Myystar arc is fascinating but gets buried in "image as product → image as agency → image as marketplace" rhythm that performs the analysis instead of letting the facts carry it.
+
+STRENGTHS (3-5 bullets, specific):
+- "The thing the word 'predator' exists to describe" is the single most disciplined critic-engagement sentence in this batch. Names ages (17/25), the 14-year-old DM, the R. Kelly comparisons.
+- The Stevie letter / Tupac caption sequence is a genuine signature move — gives Stevenson a POV.
+- "The store came first" — small, declarative, earned.
+- Naming Pasionaye Nguyen's death + the 5-week silence as "the most truthful thing he has ever published" is a top-tier paragraph.
+- Disclosing the dropped Cash Money lawsuit as "won't open the books on his own fall" is a Type-3 reading that increases the indictment, not softens it.
+
+WEAKNESSES (3-5 bullets, specific):
+- "Tyga's stage name has two origin stories, and Threes always have two origin stories" — type-plural diagnostic crutch front-loaded as principle.
+- "Last Kings is not a brand. It is a monument..." is the contrast-pair "It is not X. It is Y." pattern.
+- "The flash is not what he is chasing. It is what he is _replacing_." — same pattern recurring.
+- "Not the Valley. Not Compton. Not Jamaica. Not Vietnam. Egypt." — counter-typing rule of three (here, four-of-five).
+- The Kylie section, though direct, ends on the predator framing then immediately pivots to "joint custody and no child support." The transition treats the predator paragraph as adjacent rather than load-bearing.
+
+GAPS / MISSED OPPORTUNITIES (3-6 bullets):
+- No reference to Tyga's anti-Black colorism critiques (the "lightskin" preference that's followed his career) — material for any Three image-management read.
+- His fashion/clothing line specifics (sales numbers, current state of Last Kings as a business) absent.
+- No engagement with critics WHO have written about him (the music press's "ringtone rapper" / boyfriend-rapper line is referenced but not credited or weighed).
+- Stevie's POV from the Uncuffed podcast is used; no engagement with whether Tyga did or didn't engage him after the public surfacing.
+- The "Dad's Letter" song lyrics aren't quoted — a missed primary source.
+- King Cairo's actual relationship with his father (per Chyna's interviews, custody filings) gets one paragraph; the helicopter-rides line is unsourced.
+
+PATTERN HITS:
+- Type-plural diagnostic crutch ("Threes always have two origin stories," "A Three will not narrate," "Threes don't want to be royalty"), contrast-pair ("not a brand / a monument"), counter-typing rule of three, single-sentence dramatic paragraphs, bolded mid-paragraph thesis ("achievement equals worth, and worth equals safety"), closing parallel-binary ("He did not need Tupac. He needed Stevie.").
+
+PATTERN MISSES:
+- "Father modeled X. Mother modeled Y." template handled honestly (mother as immigrant, father absent — not a synthesis).
+- Number-becomes-person opener avoided.
+
+CRITIC-ENGAGEMENT: Strong — names the predator framing directly, names Kanye's "got in early" comment as the "quiet horror" instead of letting it pass. Engages Drake-rivalry honestly. Doesn't engage music critics by name.
+CURRENCY: Yes — Pasionaye death Jan 2025, custody settlement 2023, Myystar 2021 arc all current.
+DEFENSE-COUNSEL CHECK: Mostly held. The Camaryn Swanson section is the model. But the OnlyFans → TooRaww → Myystar arc is reframed as "the impulse was identical to building a Sistine-ceilinged store" — a Type-3 pattern absorbing what could read as opportunism. The Tupac-as-Dad gesture is reframed as "Threes revise" — a sympathetic etiology where a sharper version would let the mother of his son and his actual father both have a vote.
+
+PRIORITY FIXES (numbered, 3 max):
+1. After the predator paragraph, add one sentence holding the line — don't pivot immediately to custody. The reader needs to feel the indictment land.
+2. Cut the "Threes always have two origin stories" type-plural crutch in the name section; let the two stories tell themselves.
+3. The Last Kings store / brand currency: name what the brand is doing in 2026, not 2014. Without it the empire-of-image read is dated.
+
+============================================================ -->

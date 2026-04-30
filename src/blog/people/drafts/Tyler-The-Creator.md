@@ -283,3 +283,67 @@ The kid who made fake album covers became the man who controls every visual, son
 "I try to tell all the... not even the kids, even people older than me... to just be themselves."
 
 Coming from Tyler, this isn't a platitude. It's hard-won knowledge from 12 schools, three chart-topping albums, and a lifetime of proving that the things that make you strange are the same things that make you irreplaceable.
+
+<!-- ============================================================
+FRESH-EYES ASSESSMENT — 2026-04-29 PASS 4 (Claude cold read)
+============================================================
+
+ONE-LINE VERDICT: A long, thorough, occasionally insightful Tyler-the-Creator portrait that confuses biography for analysis — strong on the Pharrell-as-surrogate-father thread and the Like-Him reframe, but the piece is 25% too long and treats every album drop like a Type 4 mile marker.
+
+QUALITY-CEILING TIER: MIDDLE — Tyler is partly indictable (the Theresa May ban, the Selena Gomez tweets, the Drake-booed-off-stage Camp Flog Gnaw incident) but the indictments arrive softened. The Drake incident is the closest to working — it's named as "uncomfortable" — but the blog gives Tyler the closing word ("mob mentality and cancel culture in real life") instead of pressuring it.
+
+STRONGEST SECTION: "The Pharrell Blueprint" — the surrogate-father-through-art frame is Type 4 theory doing actual diagnostic work, and the 800-word Instagram-letter-on-tenth-anniversary detail is a load-bearing private fact. "I'M NOW A YOUNG ENTREPRENEUR ALL BECAUSE I BELIEVED YOU WHEN YOU SAID I COULD BE" is the kind of quote that makes the type call.
+
+WEAKEST SECTION: "The Sexuality Question" — the chronological list of dated quotes feels like a Wikipedia rewrite rather than analysis. The "asking Tyler to declare himself gay or straight or bisexual is asking him to make himself legible" is a real Type 4 frame but it arrives buried under nine bullet-point years of receipts. Cut by half.
+
+STRENGTHS:
+- The 7-year-old fake-album-covers opener is causal — it's the founding fact of the whole creator psychology, not just colorful.
+- Pharrell-as-replacement-father (the "challenged him directly: Make something undeniable" inflection point) is a real fork in Tyler's career mapped accurately.
+- The "Like Him" reveal — the mother's confession that the absent-father story was wrong — is genuinely surprising and the blog earns it ("the absence he'd organized his psyche around turned out to be a misunderstanding").
+- The Drake-booed-off-stage detail is the closest the piece comes to letting Tyler take a hit ("A Type 4 paradox: build a world so distinctly yours that it starts telling you who you're allowed to invite in").
+- Tyler's "spider web" quote is genuinely deployed as a Type 4 integration tell, not just decorative.
+
+WEAKNESSES:
+- "Tyler made fake albums at 7... He'd never recorded a single note. Couldn't play any instruments." — three single-sentence paragraphs stacked, exact corpus tic.
+- "Type 4s don't make art. They ARE their art." — type-plural diagnostic crutch in caps, twice.
+- "He's hard to read because he's still writing himself" — closing image of the child still doing what the child did, exact match.
+- "The art isn't separate from psychological work. It IS the psychological work." Bolded/capped contrast-pair. Used four times across the piece (don't make/are; not separate/IS; novelty as survival; from shock to vulnerability).
+- "**The Father Wound**" subhead inside the typing section is the bolded-mid-section-thesis tic.
+- The album-by-album walkthrough turns into a release schedule. Cherry Bomb, Flower Boy, IGOR, Call Me If You Get Lost, Chromakopia, Don't Tap the Glass each get a paragraph, none of which sharpen the typing.
+- "He attended 12 different schools across 12 years" — number that gets repeated 3x without pressure on the consistency of the figure.
+
+GAPS / MISSED OPPORTUNITIES:
+- The Selena Gomez tweets get one defensive line ("inappropriate tweets he'd sent... referencing his apology"). What did he actually say? Why did the apology come decades later? The cushion-the-critic rhythm is exact.
+- Theresa May / UK ban: the blog calls it "racist" via Tyler's own framing without engaging the actual lyrics May cited. Some of those Bastard/Goblin lyrics are genuinely indefensible — rape fantasies, kidnapping, etc. The blog skips the content.
+- The Frank Ocean falling-out is named ("conspicuous") and dropped. Frank Ocean is the most important person in Tyler's career arc; one paragraph of unfollowing-on-Instagram is not enough.
+- Earl Sweatshirt was sent away as a minor — the "Free Earl" chants featured a minor whose mother had legitimate reasons. The blog narrates this from the Odd Future fan POV.
+- Tyler's actual production catalog (he produces every track himself, plays piano, directs videos as Wolf Haley) is buried. The Type 4 craft case is stronger than the personality case but underdeveloped.
+- No engagement with critics who argue the persona-shift from horrorcore to soft-Type-4 was a reputation-management move, not Type 4 growth.
+- His relationship with women in his lyrics — pre-2017 — is skipped. The "queerness apology" frame ducks the misogyny question.
+
+PATTERN HITS:
+- The 4w3 wing call (Aristocrat/Achiever) is correctly applied to Camp Flog Gnaw, Golf Wang, the festival ownership. The wing actually distinguishes him from a 4w5.
+- The stress-arrow toward Type 2 isn't explicitly named but the "I'm joy personified" / making-Austin-laugh — wait, wrong subject — Tyler's shift from confrontation to sincerity tracks integration toward Type 1. Not named directly.
+- Counter-typing the surface "hustle culture / Type 3 / Achiever" read is implicit in the Pharrell scene but never made explicit.
+
+PATTERN MISSES:
+- "The chaos started early." Single-sentence dramatic paragraph.
+- "If Tyler's father was the absence that shaped him, Pharrell Williams became the presence that filled part of the gap." Contrast-pair "It is not X. It is Y." dressed up as a topic sentence.
+- "For someone whose public identity is a full-time construction project, those hours matter." Closing-image-of-the-child move applied to morning routine.
+- Triple front-loading: TL;DR + intro + typing section all do "the wound that became his art."
+- "The Tyler of 2011 couldn't have made IGOR." Closing parallel-binary.
+- The Ayo Edebiri "Noid" video detail — woman waving gun at masked St. Chroma — is observed without analysis. Pure listing.
+
+CRITIC-ENGAGEMENT: Weak. Theresa May named (institutional critic, pass-3 flagged "engaging institutional critics over named human ones" tic). Drake-booing crowd named as "mob mentality" via Tyler's own framing. No music critic, no peer in hip-hop, no one who has questioned the Type 4 redemption arc gets a sentence.
+
+CURRENCY: Yes — Don't Tap the Glass (2025), Apple Music Artist of the Year for 2025, Marty Supreme casting. The 2026 beat is missing but the 2025 currency is dense.
+
+DEFENSE-COUNSEL CHECK: Yes, three places. (1) The Theresa May ban — UK government cites his lyrics, blog reframes as "ban became another wound to transform." Real failure → Type 4 virtue. (2) The Selena Gomez tweets — he addressed them on MANIFESTO; blog notes only that he addressed them, not what they were. (3) The Drake incident — Tyler called the crowd cancel-culture; the blog frames Tyler's distress sympathetically without asking whether the crowd had a point about Drake-as-surprise-headliner being a betrayal of the festival's curated taste.
+
+PRIORITY FIXES:
+1. Cut the album-walkthrough and the sexuality-chronology by half each. The piece is 25% too long; the deletions would land sharper.
+2. Make Theresa May's actual citations specific. Either the lyrics defend themselves as character work or they don't — running past the content is a duck.
+3. Name one music critic who has been hostile or skeptical of the Type 4 redemption arc. The piece operates entirely inside Tyler's chosen self-narrative.
+
+============================================================ -->
+

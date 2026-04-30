@@ -265,3 +265,56 @@ Every song she releases is doing the same trick, at higher volume. The doo-wop, 
 A Six. Doing what Sixes do. Making the world smaller until the small world feels safe. Making the song loud enough to sing herself back down. Making sure every person she loves is inside the wall before the fight-or-flight starts vibrating again.
 
 And it always starts vibrating again.
+
+<!-- ============================================================
+FRESH-EYES ASSESSMENT — 2026-04-29 PASS 4 (Claude cold read)
+============================================================
+
+ONE-LINE VERDICT: One of the cleanest Type 6 reads in the corpus — the "song-as-spell" reframe is genuinely original and the compound-as-architecture analysis lets the Enneagram explain something the standard pop-star bio cannot.
+QUALITY-CEILING TIER: TOP
+
+STRONGEST SECTION: "'All About That Bass' Was a Spell" — the read that the song is reassuring the writer, not the listener, is the freshest reframe in the batch. "She is not reassuring the listener. She is reassuring the writer" earns its place.
+WEAKEST SECTION: "What 'Takin' It Back' Was Actually Taking Back" — author-of-the-existing-feedback-comment correctly flagged this; the section states its thesis cleanly but its proof is thinner than its neighbors.
+
+STRENGTHS (3-5 bullets, specific):
+- The CBS backstage grounding-technique opening ("Lamp. Coffee cup. Mirror.") is sensory, specific, and embeds the Type-6 nervous system into the reader's body before the analysis begins.
+- "Sixes don't fake happiness. They manufacture it" is the kind of mechanism sentence that earns its label.
+- Mounjaro/GLP-1 section refuses defense-counsel logic — names the betrayal the fans felt, takes them seriously, and then explains without excusing ("It is her finally doing for her body what she had been trying to do from a microphone for a decade").
+- The "Dear Future Husband as partner-qualification questionnaire" reframe is non-obvious and earned by the father-daughter origin detail.
+- "She names the drug. She names the dose" — Citalopram dose at 20mg as Type-6 disclosure pattern is a small but load-bearing detail.
+
+WEAKNESSES (3-5 bullets, specific):
+- The Daryl Sabara section relies on Meghan's Cosmo quote and is structurally one-sided; he's a stock sympathetic-partner figure ("a practicing Baháʼí who doesn't drink, doesn't party, and tells her she's beautiful on command").
+- Only one Kevin Kadish quote ("You need to be the artist") — the existing feedback comment already flagged the absence of co-writer/producer testimony, and the gap remains.
+- "Workin' On It" podcast is referenced as the source for several claims but the dynamic of recording with both brothers is never reported on as a scene.
+- The NICU scene is told efficiently rather than experienced; the existing feedback comment's note ("strapped to the table, what she could see, what she couldn't reach") still applies.
+- "Compound" framing is excellent on first appearance; it gets restated 4-5 times in slightly different phrasings.
+
+GAPS / MISSED OPPORTUNITIES (3-6 bullets):
+- L.A. Reid as a power dynamic ("told her she didn't have a single") — surfaces once, never engaged as institutional pressure on a Type-6.
+- The Nashville songwriter-for-hire era at Big Yellow Dog: the existing feedback flagged this and the gap remains. Why those particular artists (Rascal Flatts, Hunter Hayes)?
+- Production credits — Trainor produces; that's genuinely unusual for a pop artist and gets one mention.
+- The "All About That Bass" body-politics critique is gestured at ("frames self-worth through male approval... feminist politics are confused") but never engaged in its sharpest form (Naomi Wolf-era critics were specific).
+- The 2014-2015 hemorrhage and tour cancellation as a fan/industry event — the section frames it inwardly; what did labels and tourmates say?
+- Riley's NICU stay: the piece says nurses "blamed her antidepressants" with no other answer. That's a real medical claim worth one sentence of context (it's not actually established that SSRIs cause NICU sleepiness in babies).
+
+PATTERN HITS:
+- Triple front-loading of thesis: opening paragraph "vibrating" → "image vs. authenticity" → "this is the story of what she did next" comes close but is structured enough to land.
+- Single-sentence dramatic paragraphs stacked (close: "And it always starts vibrating again." preceded by parallel "Making..." sentences). Justified by the closing rhythm.
+
+PATTERN MISSES:
+- No "child still doing" closer (the close lands on adult fear, not nostalgia).
+- Type-plural diagnostic crutch is mostly avoided — "Sixes" appears but with mechanism, not as substitute for analysis.
+- No "Father modeled X. Mother modeled Y." synthesis even though both parents are present — the piece is honest that mother is mostly in the choruses.
+
+CRITIC-ENGAGEMENT: Engages the Bass body-politics critique by name ("body-positive only by degrading thin women") and the Mounjaro fan backlash directly. Could go further but does meaningfully more than the corpus average.
+CURRENCY: yes — postpartum panic 2023, Workin' On It podcast running, Takin' It Back era 2022, Mounjaro 2024 disclosure.
+DEFENSE-COUNSEL CHECK: Mostly clean. The Mounjaro section is the place this risk would have landed and the piece passes. One borderline place: the Bass body-politics critique is engaged but then folded back into Type-6 spell logic, which can read as "she didn't mean it as politics so the politics critique misreads her." That's almost defense counsel; it just stops short.
+
+PRIORITY FIXES (numbered, 3 max):
+1. Source one named co-writer or producer (Kevin Kadish on the Bass session beyond the existing one quote, or a Workin' On It producer) — the existing feedback comment was right that this is the missing leg.
+2. Tighten "compound" framing to one or two appearances; the architecture metaphor lands once and gets repeated.
+3. Engage the Bass body-politics critique on its own terms for one more beat — the "boys like a little more booty to hold at night" line deserves more than a parenthetical, even within a Type-6 spell-reframe.
+
+============================================================ -->
+

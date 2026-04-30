@@ -208,3 +208,57 @@ Type tells you nothing about the highlight reel. It tells you everything about w
 <blockquote>
 <p>Note on sourcing: David Dobrik has never publicly confirmed his Enneagram type. This analysis is based on public interviews, documented behavior patterns, and the internal logic of the Enneagram framework. The Enneagram is a tool for self-understanding, not a definitive psychological label.</p>
 </blockquote>
+
+<!-- ============================================================
+FRESH-EYES ASSESSMENT — 2026-04-29 PASS 4 (Claude cold read)
+============================================================
+
+ONE-LINE VERDICT: A controversy-heavy creator profile that mostly resists defense-counsel framing — the Zeglaitis/François/Wittek section is held responsibly and "missed the mark is Type-7 language" is the analytic spine — but the framing of his apologies as inevitable Type-7 limitation does subtly excuse what was a chosen ethical pattern.
+QUALITY-CEILING TIER: TOP
+
+STRONGEST SECTION: "What Happened in 2021" + the inner-thought callout on Wittek ("Notice what Dobrik did there — he centered himself in the pain") — this is the moment the piece names the move he made and refuses to ennoble it.
+WEAKEST SECTION: "Three Years of Stillness" — frames the silence as ambiguous ("either evidence of serious internal work that he chose not to publicize, or evidence that the stillness was its own form of running") in a way that reads as politely declining to choose, when the available public record (Dispo collapse, no on-record apology to François, the lawsuit dragging on) tilts the answer.
+
+STRENGTHS (3-5 bullets, specific):
+- Opening structural insight ("he's almost never in the middle of the frame... He's at the edge") is a craft observation that does immediate analytic work.
+- The DACA-as-literal-Type-7-fear ("the country wasn't home — it was the walls") is genuinely fresh and uses the framework to explain something the standard creator-bio doesn't.
+- The Liza Koshy breakup video as "the exception that confirms the rule" — sharper than just calling it vulnerability theater; the piece recognizes that 45M views confirmed the format-grief loop.
+- "'Missed the mark' is Type 7 language. It's the reframe" — this is the analytic spine of the piece working as designed.
+- Dispo's $20M Series A + Spark Capital severance is included with specifics; many creator profiles would skip it.
+
+WEAKNESSES (3-5 bullets, specific):
+- The Zeglaitis incident is described as "raped by Vlog Squad member" once, then immediately pivots to "the more damning fact isn't what Zeglaitis did. It's that an editorial decision was made to publish footage." That pivot is doing real work but it also redirects accountability from the person who committed the assault to the editorial decision — which is technically the article's lane (it's about Dobrik) but reads as moving past the survivor very quickly.
+- The Hannah (the survivor) is never named or sourced even via her own public account through Business Insider — she's "a woman" twice and then absent.
+- Jeff Wittek's lawsuit settling for $10,000 against $10M claim is reported as fact without the dispute about terms expanded; it's a load-bearing data point and gets one sentence.
+- The 4:20 vlog runtime is a marijuana joke he confirmed and the piece doesn't engage that as part of the brand persona.
+- "Type 7" appears as plural-diagnostic crutch ("Sevens don't... / Sevens want... / For a Seven, a forced hiatus...") 6+ times in mechanism-substituting form.
+
+GAPS / MISSED OPPORTUNITIES (3-6 bullets):
+- The Vlog Squad attrition (which members stayed, which left, why) is the one place the piece could test the "machine that needed feeding" thesis with named individuals beyond Wittek and François.
+- Trisha Paytas, who married Jason Nash and has spoken extensively about Vlog Squad dynamics, isn't mentioned.
+- Natalie Mariduena (his closest collaborator and rumored partner) gets zero mention; she's a structural absence.
+- The Slovakia / DACA arc is opened well and then abandoned — the green-card 2021 timing right before/during the scandals is rich and gets a single line.
+- Doughbrik's pizza four-hour line at opening is mentioned but never used as analysis (a Type-7 in stress retreating to a tactile, low-stakes joy product is a reading the piece could make).
+- Kai Cenat as comparison (linked, named) is an interesting frame and never developed past the cross-link.
+
+PATTERN HITS:
+- Type-plural diagnostic crutch ("Sevens" as analytic substitute) — 6+ mechanism-light instances.
+- Bolded mid-paragraph thesis ("missed the mark") — load-bearing here, justified.
+- Closing parallel-binary risk: "Type tells you nothing about the highlight reel. It tells you everything about what happens between takes" — borderline corpus tic but earned.
+
+PATTERN MISSES:
+- No "child still doing" closer; close lands on what-happens-between-takes which is structurally similar but cleaner.
+- No "Father modeled X. Mother modeled Y." — parents barely figure beyond the Slovakia move.
+- Three-beat single-syllable triplet absent.
+
+CRITIC-ENGAGEMENT: Mid-tier. Engages Business Insider as institutional critic, names Seth François's specific public criticism ("Not calling me to sincerely apologize man to man... is equivalent to..."), and names Spark Capital's investor severance. Could go further with named survivors.
+CURRENCY: yes — January 2025 return, June 2025 settlement, MrBeast linkup, Kai Cenat reference all current.
+DEFENSE-COUNSEL CHECK: Borderline yes. The pivot from "raped by Zeglaitis" to "editorial decision to publish" is technically appropriate (this is a Dobrik analysis) but functionally moves past the assault very fast. The "Three Years of Stillness" framing as ambiguous is also defense-counsel-flavored — if the analysis won't choose, it lets him off. The "missed the mark = Type-7 language" naming partially balances this; the structural read still tilts toward explaining what was avoidable behavior as architectural Type-7 limitation.
+
+PRIORITY FIXES (numbered, 3 max):
+1. Restructure the Zeglaitis pivot so the survivor's account (publicly available via Business Insider) is given a sentence of its own before the piece moves to the editorial-decision frame; the move past her is currently too fast.
+2. Replace at least 3 of the "Sevens..." plural-diagnostic sentences with David-specific behavior; the framework is already established.
+3. Resolve the "Three Years of Stillness" ambiguity — name what's actually documented (no on-record apology to François, lawsuit dragging) and what's not, then let the reader weight it. Currently the section's neutrality protects him.
+
+============================================================ -->
+

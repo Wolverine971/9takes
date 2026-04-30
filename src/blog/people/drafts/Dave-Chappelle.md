@@ -18,6 +18,7 @@ wikipedia: 'https://en.wikipedia.org/wiki/Dave_Chappelle'
 twitter: 'davechappelle'
 instagram: 'davechappelle'
 tiktok:
+path: src/blog/people/drafts/Dave-Chappelle.md
 content_quality:
   hook: 9
   enneagram: 9
@@ -25,10 +26,21 @@ content_quality:
   writing: 9
   originality: 9
   overall: 9.0
-  letter: 'A'
-  graded_at: '2026-02-20'
-path: src/blog/people/drafts/Dave-Chappelle.md
+  letter: A
+  graded_at: '2026-04-29'
 ---
+
+<!-- QUALITY GRADE: A (9.0)
+Hook: 9 | Enneagram: 9 | Evidence: 9 | Writing: 9 | Originality: 9
+
+FEEDBACK (2026-04-29):
+- LION/LAMB THESIS DOES THE WORK: Mother's "be a lion so you can be the lamb you really are" quote isn't just a striking opener — it's the structural backbone the entire piece pivots on. "He built a fortress of peace on 65 acres and then kept walking outside it to set fires that followed him home" crystallizes the central tension by paragraph 5.
+- SIGNATURE DETAILS LAND: The cigarette frame (handed free at 14 on a D.C. sidewalk, still chain-smokes on stage at 51) opens and closes the piece — that's a real signature detail. The 8:46 = his own birth time connection to Floyd's death is the kind of original observation that earns the originality 9.
+- HANDLES THE SHADOW HONESTLY: Most Chappelle pieces either canonize him or burn him. This one holds both — the cornfield shows AND the housing-development opposition, the Daphne friendship AND the asymmetry critique ("the part the type frame can't rescue"). The line "Walking off a Comedy Central paycheck inconvenienced a multinational. Refusing to engage trans critics by name... leaves people who already had less power with even less of a voice" is the rare moment of type analysis admitting its own limits.
+- NEEDS WORK: The "What is Dave Chappelle's Personality Type?" subhead is the most generic moment in an otherwise distinctive piece. It interrupts narrative momentum to deliver an explainer that the prose has already established. Consider absorbing those three Type 9 bullets into the surrounding narrative rather than fencing them off in a typology box.
+- NEEDS WORK: The Daphne Dorman / The Closer section, while important and well-handled, is the longest non-narrative explainer in the piece. The argument is sharp but the pacing slows. Tightening 1-2 paragraphs (especially the Netflix walkout play-by-play) would help without losing the asymmetry argument.
+- TO REACH A+: (1) Restructure or rename the "What is Dave Chappelle's Personality Type?" section so the type frame stays narrative-driven rather than encyclopedia-style. (2) Trim the Netflix walkout procedural detail by ~30% — keep Pagels-Minor/Field/Sarandos but compress the play-by-play. (3) The "Whose Dream He Thinks He Is Living" section opens with date/setup ("In December 2023, Chappelle returned to..."); consider opening with the line that lands hardest first ("You have to be wise enough to know when you were living in your dream") and reverse-engineering the moment around it.
+-->
 
 > "Son, sometimes you have to be a lion so you can be the lamb you really are."
 
@@ -136,23 +148,21 @@ Thus, Africa.
 
 ### Dave Chappelle is an Enneagram Type 9
 
-The pattern that runs through every major decision in Chappelle's life is not impulsiveness. It's not rebellion. It's not even courage, though it looks like all three from the outside.
-
-It is the pattern of a man who absorbs and absorbs and absorbs — pressure, noise, other people's agendas, the wrong kind of laughter — until something inside him says _this doesn't feel right_. And then he acts. Suddenly. Non-negotiably. Without discussion.
+From the outside, the big decisions of Chappelle's life look like impulse, rebellion, or courage. From the inside, they look like none of those. They look like a man holding still while the room gets louder — pressure, noise, the wrong kind of laughter — until one detail finally breaks the seal. Then he leaves, and the leaving is not up for discussion.
 
 "I was in this very successful place, but the emotional content of it didn't feel like anything I imagined success should feel like. It just didn't feel right."
 
-That phrase — _it just didn't feel right_ — is the engine. Not a thought. Not an argument. A gut sensation that overrides everything.
+That phrase — _it just didn't feel right_ — is the engine. Once a Type 9's gut signal goes off, the part of them that argues no longer gets a vote.
 
 [Enneagram Type 9s](/enneagram-corner/enneagram-type-9) process the world through this instinctual register. Their core fear is fragmentation — being pulled apart by external forces until they lose contact with their own inner voice. Their deepest desire is peace, but not the passive kind. The kind where you can actually hear yourself think.
 
 The evidence isn't in any single dramatic moment. It's in the shape of his entire life:
 
-- **He never fights the fight that's in front of him.** He ran to Africa instead of confronting Comedy Central. He asked fans to boycott instead of suing ViacomCBS. He renamed a theater instead of arguing with students. He bought a town instead of negotiating with it. Every time, the indirect path. Every time, assertion without collision.
-- **His anger is real but buried.** The pixie sketch didn't make him angry in the moment. It made him uncomfortable. The discomfort accumulated silently for months until it erupted as a sudden, irreversible exit. This is the Type 9 anger pattern — not explosive confrontation but tectonic pressure that shifts the entire landscape when it finally moves.
-- **His environments have to feel right or he cannot function.** When the Sacramento audience started chanting catchphrases instead of listening, he walked off stage. When a fan used a phone during a 2023 show, he left. When _Chappelle's Show_ felt like a machine instead of a creative space, he vanished overnight. He reads energy the way other people read spreadsheets.
+- **He never fights the fight in front of him.** He went to Africa rather than walk into a meeting with Comedy Central. He asked fans to boycott rather than sue ViacomCBS. He renamed a theater rather than argue with the students. He bought half a town rather than negotiate with it. The path is always sideways.
+- **His anger is real, and it is buried.** The pixie sketch didn't make him angry in the moment. It made him uncomfortable. The discomfort accumulated silently for months until it became an exit. Type 9 rage rarely arrives as a confrontation; it arrives as a continent shifting overnight, the conversation already over by the time anyone notices it has started.
+- **His environments have to feel right or he cannot function.** When the Sacramento audience started chanting catchphrases instead of listening, he walked off stage. When a fan used a phone during a 2023 show, he left. When _Chappelle's Show_ felt like a machine instead of a creative space, he vanished overnight. He reads a room the way other people read a balance sheet.
 
-His mother saw it before anyone. A soft kid. Sensitive. Cried easy. She gave him the lion because she knew the lamb couldn't survive alone. But the lamb is still running the show.
+His mother saw it before anyone. A soft kid, sensitive, the boy who cried easy. She gave him the lion because she knew the lamb couldn't survive alone in the world she had to send him into.
 
 ## Refusing the Crazy Narrative
 
@@ -186,7 +196,9 @@ The cornfield shows brought in $9 million in revenue to Yellow Springs. <a href=
 
 When asked about the cost, Chappelle's response was pure gut: "What do I have money for? If I have to, I'll pay for it."
 
-This is what healthy integration looks like — the lamb and the lion working together. He didn't leave. He didn't withdraw. He built something. The 65-acre property became a sanctuary not just for him but for an entire community of artists who needed a place where the noise stopped.
+This is what healthy integration looks like for a Type 9 — not the absence of conflict, but the choice not to disappear from one. He didn't leave. He didn't withdraw. He built something. The 65-acre property became a sanctuary not just for him but for an entire community of artists who needed a place where the noise stopped.
+
+His wife of more than 20 years, Elaine Mendoza Erfe, has never given an interview, has no public social presence, and does not appear on his stages. She is Filipino-American, Muslim, and the parent on duty for Sulayman, Ibrahim, and Sanaa while their father is the most public man in town. The arrangement only works because she is not the lamb's complement; she's the part of his life that the lamb and the lion both agree not to drag onto camera. The most photographed man in Yellow Springs sleeps next to its most private resident.
 
 ## Why the Sanctuary Never Stays Peaceful
 
@@ -216,7 +228,7 @@ Then he went somewhere he had never gone publicly before.
 
 "He called for his mother. He called for his dead mother. I've only seen that once before in my life — my father, on his deathbed, called for his grandmother."
 
-His father died in 1998. Dave had never fully processed the grief — by his own admission, he threw himself into work instead of mourning. Twenty-two years later, watching a man die on camera and call for his dead mother, the grief came back. Not as sadness. As fury.
+His father died in 1998. Dave had never fully processed the grief — by his own admission, he threw himself into work instead of mourning. Twenty-two years later, watching a man die on camera and call for his dead mother, the grief came back, and it came back as fury rather than sadness.
 
 "Who are you talking to? What are you signifying — that you can kneel on a man's neck for eight minutes and 46 seconds and feel like you wouldn't get the wrath of God?"
 
@@ -230,25 +242,41 @@ This was the buried anger breaking through. Not as a joke. Not as satire. Not as
 
 ---
 
-## Doubling Down Instead of Explaining
+## Daphne Dorman, And What "I Said What I Said" Doesn't Cover
 
-The trans comedy controversy — _The Closer_, "team TERF," the Netflix employee walkout — has been covered exhaustively. What hasn't been examined is how Chappelle's response to it was pure Type 9.
+The trans-comedy controversy is the part of his career most often summarized and least often examined. The shorthand version: a Netflix special, a walkout, a four-word response.
 
-He didn't argue. He didn't debate. He didn't engage with the specific criticisms or walk them back.
+The longer version starts with a person.
 
-He said: **"I said what I said."**
+Daphne Dorman was a trans comedian from San Francisco. She opened for Chappelle at the Punch Line. He described her as a friend. He defended her on stage when audiences turned cold on her sets. In _Sticks & Stones_ (2019), he told a story about her — affectionate, jagged, ending with the disclosure that she had died by suicide a few weeks earlier, in October 2019. Her family released a statement thanking him for honoring her memory. Her sister Becky called him "a true friend" to Daphne.
 
-Four words. A wall. A man who has already left the conversation and is simply marking where he stood before disappearing.
+That fact is real. It is also not the whole story.
 
-When students at his own alma mater — Duke Ellington School of the Arts, the school he credits with saving his life — protested having a theater named after him, he didn't fight them. He renamed the theater himself. He called it the "Theater for Artistic Freedom and Expression." Then he gave a speech.
+In _The Closer_ (2021), Chappelle came back to the same material and went further. He aligned himself with [J.K. Rowling](/personality-analysis/J-K-Rowling): "I'm team TERF." He told the audience "gender is a fact." He used Daphne's friendship — and her family's defense of him after her death — as the argument that his jokes had not, in fact, harmed anyone.
+
+That last move is where his critics drew the line, and they had names.
+
+Jaclyn Moore, a trans showrunner who quit Netflix in protest, said the issue was not whether Chappelle had loved Daphne. It was that one friendship cannot stand in for a community. Terra Field, a Netflix engineer suspended after tweeting through the special, used the word _weaponized_ — a dead friend deployed as a shield against the living. Hannah Gadsby, in an open letter, named the line being crossed: a comedian's right to a joke is not the same as a community's right to safety, and conflating the two is a rhetorical trick that has costs.
+
+Daphne's family stood by Chappelle. The trans community, broadly, did not. Both of those things can be true at once. The bit in _The Closer_ wasn't only about Daphne; it was about whether trans people, as a category, had a legitimate claim on the conversation about jokes told at their expense. Chappelle's answer was no — and Daphne, who could no longer speak for herself, was offered as proof that the answer was earned.
+
+The Netflix walkout came in October 2021. It was organized by trans staff who had been told for weeks that the company would not pull the special, add a content warning, or engage. Two organizers, B. Pagels-Minor and Terra Field, were suspended or pushed out; Pagels-Minor was fired the same week, Netflix citing leaked confidential data. Co-CEO Ted Sarandos initially defended the special, then conceded he had "screwed up" how he handled employees. The special stayed up. By Netflix's own accounting, the walkout did not move Chappelle's position by an inch.
+
+His public response was four words.
+
+**"I said what I said."**
+
+It is possible to read those words as a Type 9 boundary — a man refusing to be summoned onto someone else's ground. It is also possible to read them exactly the way they sound: a comedian whose entire identity is built on naming the thing other people are too polite to name, deciding that the people asking him to listen are themselves the noise to be tuned out.
+
+Both readings are true. A serious account of him has to hold both, and not let the first one quietly absorb the second. The lamb's instinct to protect its own peace is identical here to the move it makes elsewhere — Africa, the cornfield, the Sacramento walk-off. What's different is who is on the receiving end. Walking off a Comedy Central paycheck inconvenienced a multinational. Refusing to engage trans critics by name, while quoting a dead trans friend's family as a defense, leaves people who already had less power with even less of a voice in the room. The asymmetry is the part the type frame can't rescue.
+
+When students at Duke Ellington School of the Arts — the school he credits with saving his life — protested a theater being named in his honor, he did the move he always does. He didn't fight them. He renamed the theater "Theater for Artistic Freedom and Expression," then gave a speech.
 
 "Rather than give this theater my name, I would like to give these students my message."
 
-The indirect path. Always the indirect path. Don't argue about the name. Change the name. Don't debate artistic freedom. Build a theater dedicated to it. Don't confront the students. Give them something better than what they thought they wanted.
-
 > "I am more than willing to give you an audience, but you will not summon me."
 
-This is not stubbornness. It is the Type 9 boundary — I will meet you, but only on ground where I can maintain my equilibrium. Come to me. Don't drag me to you.
+The indirect path is elegant when it's used against power. It is harder to call elegant when it's used against teenagers.
 
 ## What Happened When Dave Was Attacked on Stage
 
@@ -258,15 +286,13 @@ Chappelle was not injured. His immediate response was a joke — because the lio
 
 But the moment that actually mattered happened offstage. Chappelle's son embraced him and said: "Dad, I love you."
 
-That was what calmed him. Not the security. Not the crowd's support. Not the adrenaline of surviving. His son's arms.
-
-Tenderness and absurdity — the two poles of his personality. The lamb needs the embrace. The lion makes the joke. And both of them are real.
+That was what calmed him — not the security, not the crowd's support, not the adrenaline of surviving. His son's arms. Tenderness and absurdity sit closer together in him than in most people; the joke is what he says when he doesn't want anyone to see what the embrace is doing.
 
 ## Whose Dream He Thinks He Is Living
 
 In December 2023, Chappelle returned to the Lincoln Theatre in Washington, D.C. — the exact venue where he'd taped _Killin' Them Softly_ 24 years earlier. Back then, he'd had to hand out tickets on the street to fill the room. His father had just died. He was inconsolable. Norm Macdonald pulled him out of the grief by calling with an offer to meet Jim Carrey. "It was the first time I could remember, since my father died, being excited."
 
-Twenty-four years later, he was back in the same room. Six Grammys. Netflix fortune. The Firehouse comedy club. A town that is, for better and for worse, his.
+Twenty-four years later, he was back in the same room — six Grammys deep, the Netflix money long since converted into Ohio real estate, the Firehouse comedy club running, the town now his in a way that some of its longer residents would tell you is too much his.
 
 The special was called _The Dreamer_. And the line that landed hardest was the quietest:
 
@@ -280,7 +306,7 @@ Then the final words: "Please, have empathy for displaced people, whether they'r
 
 He later revealed at a San Francisco show that SNL producers had barred him from discussing Gaza or transgender people in the monologue. He worked Palestine in through a <a href="/personality-analysis/Jimmy-Carter">Jimmy Carter</a> tribute and the closing line anyway. In San Francisco, he dropped the mic with: "Give the Jews a break, free Palestine."
 
-The indirect path. Always the indirect path.
+The reaction split immediately. Pro-Palestinian commentators called the closing line the most consequential sentence spoken on a mainstream American stage that month. The Anti-Defamation League called the Palisades-Palestine pairing cheap. _The Forward_'s columnists landed in different places on the same op-ed page, some reading it as moral clarity, some as provocation dressed as humility. Chappelle did not respond to any of it. He had said what he said, and the rest of the conversation could happen without him in the room.
 
 ## The Conflict Still Unresolved
 
@@ -290,12 +316,12 @@ But he can't get out of being Dave Chappelle.
 
 He described comedy as "the reconciliation of paradox." His own life is the paradox he can't reconcile — a lamb who needs a lion, a man who builds sanctuaries and then detonates them, a person who craves invisibility and commands every room he enters, a private Muslim father of three who keeps ending up at the center of America's loudest arguments.
 
-His mother saw all of it before it started. She filled him with stories, taught him the griot's job, sent him into nightclubs at 14, and gave him the only instruction that ever mattered: be a lion so you can be the lamb you really are.
+His mother saw all of it before it started. She filled him with stories, taught him the griot's job, and sent him into nightclubs at 14 because the alternative was leaving him to figure out the world by himself. The instruction she gave him was supposed to be temporary cover — a costume the soft kid could put on until the world got safer for him. She did not anticipate that he would put it on at fourteen and still be wearing it at fifty-one.
 
-The question she couldn't answer — the question no one can — is what happens when the lion and the lamb want different things. When one of them wants to save the town and the other wants to own it. When one of them wants to tell the truth and the other wants to be left alone.
+The question she couldn't answer — the question no one can — is what happens when the protective version and the protected version want different things. When one of them wants to save the town and the other wants to own it. When one of them wants to tell the truth, and the other wants to be left alone, and both of them are using the same mouth to say so.
 
-He is 51 years old and he is getting funnier. Six Grammys, undefeated. The longest monologue in SNL history. A comedy club in a firehouse. A cornfield that became a cathedral. And still, every night, he steps on stage and lights a cigarette he's been smoking since he was 14 — the same age his mother started taking him to nightclubs, the same age he first learned that the worst thing that could happen wasn't actually that bad.
+He is 51 and he is getting funnier, which most comedians are not at 51. Every night he steps on stage and lights the same brand of cigarette he was handed for free as a 14-year-old on a D.C. sidewalk, and his hands look exactly like his hands looked at the Apollo before the booing started. He still flinches at the same places. He still drops his voice at the same beats. The boy who cried easy never went anywhere; he just got better camouflage, and the camouflage has had a long career.
 
-The lamb is still in there. You can see it when his son wraps his arms around him after a stranger tries to kill him on stage, and the lion disappears, and all that's left is a father saying nothing at all.
+You can see the soft kid most clearly in the moments where the lion is no longer useful. When his son wrapped his arms around him after a stranger tried to kill him on stage, and the comedian who needed an exit from the room finally found one that didn't require a plane ticket. He stopped performing for the only person in the building who wasn't an audience. The boy in the front row of his life is still his.
 
 > **Disclaimer** This analysis of Dave Chappelle's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Dave Chappelle.

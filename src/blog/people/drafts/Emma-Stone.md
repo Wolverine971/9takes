@@ -272,3 +272,52 @@ Every June, Emma Stone takes the online Jeopardy! contestant quiz. She has appli
 Two Academy Awards. Four films with the most demanding director in cinema. A production company. A drawing from age nine that she carries to talk shows. And every night, a quiz show on the television, a woman keeping score against herself, still trying to prove that the girl who left Arizona before she could finish school learned enough along the way.
 
 She'll apply again in June.
+
+<!-- ============================================================
+FRESH-EYES ASSESSMENT — 2026-04-29 (Claude cold read)
+============================================================
+
+ONE-LINE VERDICT: The most literary of the nine — beautifully written and emotionally precise — but its strength is also its problem: it reads like an essay about an actress, not an Enneagram analysis, and the Type 7 framework feels grafted onto a profile that would have worked without it.
+
+STRONGEST SECTION: "First Chair Flute" — the worst-flute-in-the-section-as-first-chair-because-she-followed-instructions detail does more diagnostic work in three sentences than the whole "What is Emma Stone's Personality Type?" section. This is the model.
+WEAKEST SECTION: "What is Emma Stone's Personality Type?" — the explicit Type 7 framing section is the dullest in the piece. Reads as a textbook break-in-and-resume.
+
+STRENGTHS (3-5 bullets, specific):
+- The opening hook (anxiety at seven → discovery of improv at eleven → "anxiety lives solely in the past or the future") is genuinely moving and earns the read immediately.
+- The Project Hollywood 2004 PowerPoint detail is gold — specific, surprising, makes the Type 7 thesis without naming it.
+- Hiatal hernia → screaming-hoarse-as-infant → vocal nodules → famous raspy voice is the kind of micro-biography most profiles miss entirely.
+- The Lily Gladstone "Infinity Stones" ring detail is a perfect Six-wing-loyalty payoff that lands without overexplaining.
+- "Acting didn't let her run from herself. It forced her into the only place her anxiety couldn't follow: the present tense" — the cleanest thesis sentence in the piece.
+
+WEAKNESSES (3-5 bullets, specific — name lines, phrases, sections):
+- Type 7 vocabulary almost never appears in the body. "Conversion mechanism" is mentioned but the type is barely referenced after the diagnostic section. Either commit to the framework or fold it deeper into the prose.
+- "The avatar / Emily" framing is good but it's described at three different angles (name change, raspy voice, "There's me. And there's me here") that read as the same point.
+- "Every reaction in my body is permitted" / "anxiety is excitement without breath" — the piece quotes her own meta-commentary as if it's analysis. She's doing the diagnostic work and we're paraphrasing her doing it.
+- Closing section about Jeopardy! is charming but the analytical payoff is light — "still trying to prove she learned enough" is a weaker close than the piece deserves.
+- The "Lanthimos partnership" section repeats the surrender-vs-control thesis it already established in "First Chair Flute." Two sections fighting over the same insight.
+
+GAPS / MISSED OPPORTUNITIES (3-6 bullets — what a fan/critic would expect that's absent):
+- No engagement with the "Cruella" / "Maniac" misfires or the Spider-Man franchise tension. The career is read only through the wins.
+- Andrew Garfield gets a paragraph that hand-waves the breakup. For a Type 7 wing-6 who values trust, the loss of a four-year relationship is structurally important and barely visible.
+- "Bugonia" (2025 Lanthimos) and "Kinds of Kindness" reception is missing — the most recent collaborations get the lightest treatment.
+- No Taylor Swift / Jennifer Lawrence dynamic exploration even though they're listed as evidence of the wing 6. What does a Seven look like inside those friendships?
+- The 2017 SAG/Time's Up advocacy and her early career #MeToo statements — for a piece this concerned with how she manages performance, her political voice is conspicuously absent.
+- Where does growth-to-Type-5 actually live? The piece names it ("focus, patronage, Fruit Tree") but never sits with what surrendering Seven-energy costs her.
+
+PATTERN HITS (DJ tropes that worked here):
+- The childhood-wound-as-adult-engine framing is the strongest version of this DJ trope I read across the nine.
+- TL;DR accordion is restrained and the bullets do work (the Emily/Emma split, envelope-and-Lanthimos pattern).
+- "She kept this drawing for twenty years" detail used as evidence rather than decoration.
+
+PATTERN MISSES (DJ tropes that felt formulaic, recycled, or autopilot here):
+- "She knew. [Period.]" / "It tracks. [Period.]" single-line punchlines fire 4+ times.
+- "[Italicized phrase] is not a metaphor. That's an architecture." — the "X is not Y. It's Z" cadence.
+- The "What is X's Personality Type?" forced H2 visibly underperforms here. The piece would be stronger if Type 7 were named once and woven in implicitly.
+
+PRIORITY FIXES (numbered, in order of impact — 3 max):
+1. Cut the explicit "What is Emma Stone's Personality Type?" section in half. Lead with First Chair Flute, fold the diagnostic work into existing sections. The piece is stronger when Type 7 is implied than when it's stated.
+2. Add a real engagement with a misfire (Cruella, Maniac, or the Spider-Man franchise tension) so the Type 7 reading isn't only validated by Oscar wins.
+3. Trim the "Avatar/Emily" repetition — pick the Venice "There's me. And there's me here" version and cut the other two restatements.
+
+============================================================ -->
+

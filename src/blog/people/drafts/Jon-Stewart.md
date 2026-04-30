@@ -293,3 +293,58 @@ The reframe reflex converts everything — pain into comedy, abandonment into ad
 He said that in 2015, the same year he left the show. Then he came back. He always comes back. The boy whose father left will never be the one who leaves.
 
 > **Disclaimer** This analysis of Jon Stewart's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Jon Stewart.
+
+<!-- ============================================================
+FRESH-EYES ASSESSMENT — 2026-04-29 PASS 3 (Claude cold read)
+============================================================
+
+ONE-LINE VERDICT: A Type-7 read of Stewart that earns its title-page promise ("the boy who became America's conscience") through real reporting (Wyatt Cenac, Larry Leibowitz at NYSE, the name change) — but the Cenac section is the only honest critic-engagement in the piece, and the corpus's American-political-tilt protects Stewart from harder questions about who else he closed ranks for.
+
+STRONGEST SECTION: "Where the Empathy Still Breaks Down" — Wyatt Cenac on Marc Maron's podcast, the office dogs shaking, the year of staying afterward, the eventual quitting. Cenac's "closes ranks the way cops do" is the corpus highlight reel.
+WEAKEST SECTION: "Falling in Love With Tracey" — sweet but reads like a press-kit sidebar; the crossword-puzzle-proposal anecdote does almost no work for the thesis.
+
+STRENGTHS (3-5 bullets, specific):
+- The "Jonathan Stuart Leibowitz" / name-change-at-21 / "I hate myself for a lot of reasons, but not because I'm Jewish" sequence is reporting-grade and integrates type-theory with biography seamlessly.
+- The Larry-Leibowitz-COO-of-NYSE / Jon-Stewart-anti-Wall-Street parallel ("Same wound, opposite conversions") is the cleanest sibling-divergence frame in the batch.
+- The Wyatt Cenac section names what the Stewart canon usually softens — and "the man whose father abandoned him built a fiercely loyal inner circle… any challenge from within that tribe triggered the same primal terror" is the sharpest psychological reading of Stewart in any profile I've read.
+- The "turd miners" metaphor as a thesis unlocker — "the machine that converts pain into pleasure eventually runs out of raw material that can be converted" — earns its place.
+- The "9/11 monologue → Statue of Liberty" reframe-reflex section connects the type theory to the most-cited Stewart artifact without flattening it.
+
+WEAKNESSES (3-5 bullets, specific — name lines, phrases, sections):
+- "It was a joke. It was not a joke." — the corpus's contrast-pair tic in its simplest form.
+- "He always comes back. The boy whose father left will never be the one who leaves." — the corpus's "child still doing what the child did" closing image.
+- "Still. Present tense. Complicated with a dead man." — single-sentence dramatic-paragraph stack.
+- The Crossfire / "Stop hurting America" moment is named as "Type 1 energy" — that's the type-as-character anthropomorphism the corpus overuses.
+- "Two brothers from the same broken home. One runs the machine. The other tries to dismantle it. Same wound, opposite conversions." — three single-sentence paragraphs in a row to land what one paragraph could carry.
+
+GAPS / MISSED OPPORTUNITIES (3-6 bullets — what a fan/critic would expect that's absent):
+- The Tucker Carlson Crossfire moment is named at the "Stop hurting America" beat but the actual "you're partisan hacks" framing is glossed; the Carlson archive is one of the most-rewatched Stewart artifacts and deserves more.
+- Stewart's Apple TV+ show ending (over the China and AI episodes Apple killed) is named as "the Apple TV+ show ending" with one line — that's a major Stewart-vs-corporate-power story that the type theory could engage.
+- His Wuhan-lab-leak segment (May 2021) and the way his Bill-Maher-style heterodoxy on COVID surprised his own audience is unmentioned.
+- The Madison Square Garden / "Rally to Restore Sanity and/or Fear" (2010) is missing — that's the largest physical manifestation of the Type-7-loyalty-tribe in his career.
+- His anti-Defamation-League back-and-forth with Abe Foxman over Olbermann is not engaged.
+- Trevor Noah's actual relationship to Stewart in 2024-2026 (it has cooled publicly) is not surfaced even though Noah is the framing voice in the opener.
+
+PATTERN HITS (DJ tropes that worked here):
+- The bolded-bullet evidence list inside the type-explainer is unusually good because each bullet ties to a specific, sourced quote.
+- The 7w6 wing call is argued in a single paragraph and the comparison to Robin Williams adds without substituting.
+
+PATTERN MISSES (DJ tropes that felt formulaic, recycled, or autopilot here):
+- "He always comes back. The boy whose father left will never be the one who leaves." — corpus's child-still-doing-what-the-child-did closer.
+- "Still vibrating too hot. Still needing an audience to keep the engine from turning inward." — bolded-mid-paragraph thesis cadence.
+- "It was a joke. It was not a joke." — contrast-pair.
+- The disclaimer template at the bottom — same as every other blog.
+- "He was describing other people. He was describing himself. He was describing the exact opposite of his father." — rule-of-three single-sentence paragraph stack.
+
+CRITIC-ENGAGEMENT: The Cenac section is one of the best in the corpus on this dimension. But the broader critique of Stewart — that he created the conditions for the Trump era by laundering political nihilism as comedy, that the entire "liberal Daily Show consensus" calcified into smug irrelevance — is not engaged. The Chappelle / Hinchcliffe / Rogan defenses are named as a pattern but never named as wrong.
+
+CURRENCY (2024-2026 anchor): Yes — March 2026 framing, Colbert cancellation (July 2025), 2024 election night quotes, signed-through-December-2026 contract. Strong currency.
+
+DEFENSE-COUNSEL CHECK: Yes — the Type 7 framework is used to explain (and partially excuse) the Cenac incident as "wound operating," the Chappelle/Rogan defenses as "loyalty as scar tissue," and the Crossfire moment as "stress-disintegration to Type 1." The framing tells the reader these are typed inevitabilities rather than choices.
+
+PRIORITY FIXES (numbered, in order of impact — 3 max):
+1. The Chappelle / Hinchcliffe / Rogan defenses paragraph is the most important one in the piece for the thesis but the writer never names whether the defenses were correct on the merits. The type theory explains the loyalty; the piece needs to say what the loyalty cost.
+2. Add the Apple TV+ ending as a separate beat — Stewart leaving Apple over the China and AI episode interference is the corpus's most underused 2024 anchor for the "vibrates too hot" thesis.
+3. Cut the Falling-in-Love-With-Tracey section by half. The crossword detail is sweet but it's structurally inert and dilutes the Cenac section that follows.
+
+============================================================ -->

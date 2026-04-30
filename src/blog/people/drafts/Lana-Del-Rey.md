@@ -274,3 +274,53 @@ Elizabeth Grant grew up feeling like a changeling. She invented someone named La
 Now she lives in Louisiana with an alligator tour guide.
 
 The ache, it turns out, didn't need to be resolved. It just needed somewhere to go.
+
+<!-- ============================================================
+FRESH-EYES ASSESSMENT — 2026-04-29 PASS 4 (Claude cold read)
+============================================================
+
+ONE-LINE VERDICT: A high-craft Type 4 portrait that mostly earns its sympathy but soft-pedals the 2020 racial backlash by housing critique inside the Four-wound diagnosis itself.
+QUALITY-CEILING TIER: TOP
+
+STRONGEST SECTION: "The Question for the Culture" — the only place the piece lets her be partly indictable, and it does so without hedging the artists she named.
+WEAKEST SECTION: "Norman Fucking Rockwell!: When She Stopped Performing" — pivots from analysis to album-review register; the Pitchfork-9.4 line reads like marketing.
+
+STRENGTHS (3-5 bullets, specific):
+- Alligator-tour-guide hook is genuinely original and pays off in the close — the structural bookend earns its keep.
+- The trailer-park-as-choice paragraph names the authenticity-debate honestly instead of redescribing it as Four-purity.
+- "Mariners Apartment Complex" reading (offering rather than asking) is a real critical observation, not biography.
+- Grandmother/niece grief section ("Don't Forget Me") avoids the elegy-cliche by tying preservation anxiety to the Four baseline.
+- Jeremy Dufrene framing is specific and grounded — no metaphor inflation.
+
+WEAKNESSES (3-5 bullets, specific):
+- "She has been doing this since she was three years old" — wait, that's the Rooney line. Lana's equivalent: "preoccupied with death from a very young age" gets repeated three ways. Triple front-loading of the mortality thesis.
+- "It is both their wound and their gift" — textbook contrast-pair tic.
+- "Was the longing the point? Or was it always just the path?" closing parallel-binary, then again at the actual close ("the wound was never the destination. It was the material.").
+- The 2020 incident gets one section, then is closed off with "Tunnel...sounds like someone who let something go" — soft attribution loophole that lets the music absolve the conflict.
+- "Her aesthetic...is not nostalgia in the usual sense. It's longing for the feeling of longing" — Enneagram-as-defense-counsel: a real critique (aestheticizing abuse, problematic-Americana imagery) gets reframed as Type-4 emotional precision.
+
+GAPS / MISSED OPPORTUNITIES (3-6 bullets):
+- The early-career "anti-feminist" critique (the "Is it cool to be the Mick Jagger of pop?" / NPR Ann Powers exchange / "I Wish I Was Dead" comments) is entirely absent. That is the longest-running named-critic engagement in her career and would have prevented Defense-Counsel drift.
+- "Cola" lyric and Harvey Weinstein controversy — never named, despite being the most direct example of art-vs.-aestheticization debate.
+- Father Rob Grant is mentioned for wealth but his 2023 album collaboration "Lost At Sea" goes unmentioned — relevant to the "Tunnel" period and her late-career collaborator instincts.
+- The 2017 hex-on-Trump moment — a rare political stance that complicates the "retreated poet" frame.
+- No engagement with critics by name (no Powers, no Pitchfork's Sasha Frere-Jones, no Jia Tolentino) until the Beyoncé-list section, which engages a generic "Twitter."
+- "Stove" is named but the country-album turn — and the obvious question of cultural-tourism critique that has followed her for 12 years — is unexamined.
+
+PATTERN HITS:
+- Counter-typing rule of three ("She has spoken about God and prayer...not as doctrine. As texture. As the thing underneath the grief that keeps holding."). Triple front-loading on the mortality wound. Closing parallel-binary ("not the destination. It was the material."). Single-sentence dramatic paragraphs stacked in the Louisiana section.
+
+PATTERN MISSES:
+- No "child still doing" closer. No type-plural diagnostic crutch (uses "Type Fours" sparingly and contextually). No "father modeled / mother modeled" synthesis structure — she's allowed to be self-made.
+
+CRITIC-ENGAGEMENT: One named-critic-by-implication section (the 2020 list) but the actual cultural critics who pressed her — Powers, Frere-Jones, Tolentino — never appear; engages "the internet" instead of named humans.
+CURRENCY: Yes — 2024 marriage, 2026 "Stove" album, Nashville sessions all current.
+DEFENSE-COUNSEL CHECK: Yes — the 2020 racial-double-standard episode is diagnosed as "the shadow side of the misunderstood-outsider coin" and then dissolved by the next album's release. The piece tells you it's the shadow side and then immediately resolves it via Tunnel; the critique is functionally consoled.
+
+PRIORITY FIXES (numbered, 3 max):
+1. Engage at least one named critic (Powers/Tolentino/Frere-Jones) on the aestheticization-of-abuse debate; it's the missing ballast.
+2. Trim the doubled mortality-thesis front-loading — pick one of the three statements and let the others land in evidence form.
+3. Don't let "Tunnel" function as moral resolution to the 2020 episode — say what changed in her thinking, not just in her sound.
+
+============================================================ -->
+

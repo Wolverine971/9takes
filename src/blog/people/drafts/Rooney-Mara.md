@@ -202,3 +202,53 @@ For a role she wanted to reprise. In a character who had nothing left to guard.
 > _This analysis is based on publicly available interviews, documented quotes, and behavioral evidence. Enneagram typing is interpretive, not diagnostic. Rooney Mara has self-identified as a Type 5._
 
 ---
+
+<!-- ============================================================
+FRESH-EYES ASSESSMENT — 2026-04-29 PASS 4 (Claude cold read)
+============================================================
+
+ONE-LINE VERDICT: One of the most disciplined Type 5 portraits the corpus has produced — the nipple-piercing detail does load-bearing structural work and the Kate Mara contrast is the rare sibling-comparison that earns its keep.
+QUALITY-CEILING TIER: TOP
+
+STRONGEST SECTION: "The Family She Was Born Into" — Kate Mara's same-household-opposite-strategy comparison is the cleanest demonstration in the batch that Rooney's guardedness is structural, not industry-taught.
+WEAKEST SECTION: "Why Rooney Mara Feels Everything She Tries to Hide" — closes with "She has been doing this since she was three years old. She kept the nipple piercing." which is a child-still-doing closer borrowed from elsewhere in the corpus.
+
+STRENGTHS (3-5 bullets, specific):
+- The nipple-piercing-kept-for-years lead is unforgettable AND functional — it's the thesis (conservation, not withholding) made physical.
+- Kate Mara contrast as evidence-control rather than prose flourish: "the clearest available evidence that Rooney's guardedness is not a Hollywood-taught habit" — actually argued, not asserted.
+- Pan / Tiger Lily whitewashing controversy named honestly without "but" softener — the fortress not protecting her is the point.
+- River Phoenix / son's name paragraph treats the gravity of carrying someone else's loss without turning it into Type-5 metaphor.
+- "She cannot perform in a vacuum of unknowing. Once the knowing is in place, something else takes over entirely." — best-articulated Type-5 working principle in the batch.
+
+WEAKNESSES (3-5 bullets, specific):
+- "She kept the nipple piercing." appears three times (lead, "What Understanding Everything Before You Act Looks Like in Practice," close). Triple front-loading of a single image — once is iconic, three times is overdetermined.
+- "She has been doing this since she was three years old." child-still-doing closer, exactly the corpus tic flagged in earlier passes.
+- "Born into spectacle, wired for solitude" — TL;DR contrast-pair "It is not X. It is Y."
+- "The fortress and the total surrender are the same psychology, operating in different contexts." — closing parallel-binary in TL;DR.
+- "You build walls not because you don't feel, but because you feel everything and the world has never learned to knock." — the most "9takes voice" line in the piece, slightly overcooked metaphor.
+
+GAPS / MISSED OPPORTUNITIES (3-6 bullets):
+- Joaquin Phoenix's well-documented past Enneagram type / temperament discussions never connect; their pairing is presented as serene without examining how two Fives (or 5+4) sustain a household.
+- Her Sundance/A24-pivot pattern (Una, Lion, Mary Magdalene, Women Talking) has a financial story — A24 / smaller-budget films enable Type-5 working conditions. Implied but never said.
+- The "Pan" controversy paragraph is excellent but stops short of the deeper question: did Rooney's research-everything ethos fail her there? She didn't research the cultural-representation context. That's a real Type-5 indictment available.
+- Cate Blanchett friendship/post-Carol mentorship is undeveloped — the Blanchett quote about her "fearlessness" is the only outside-actor voice and could anchor more.
+- No mention of her Don't Worry Darling-adjacent project Sandra Bullock collaboration or Women Talking Oscar campaign refusal — relevant to the "minimum exposure" thesis.
+- The 2024 Apple TV "Lady in the Lake" with Natalie Portman / her selectivity in 2024-2025 is unaddressed — currency gap.
+
+PATTERN HITS:
+- Single-sentence dramatic paragraphs ("She kept the nipple piercing." opening). Closing parallel-binary in multiple sections. Bolded mid-paragraph thesis sentences (TL;DR uses bolds heavily). Counter-typing rule of three ("not casual preparation, but total immersion up to the threshold of understanding"). Child-still-doing close.
+
+PATTERN MISSES:
+- No type-plural crutch (uses "Fives" carefully). No father-modeled/mother-modeled synthesis (refreshingly absent). No engaging-institutional-critics-over-named-humans — but only because critics aren't engaged.
+
+CRITIC-ENGAGEMENT: One named-critic-equivalent: the Pan whitewashing controversy is engaged on substance. That's already more than most of the batch.
+CURRENCY: Partial — current to 2024 (River Phoenix son detail) but no 2025-2026 project named; doesn't acknowledge how she has spent the post-Women-Talking years.
+DEFENSE-COUNSEL CHECK: Mostly clean. The Pan section is the rare moment a Type-N piece lets the subject be partly indictable — "the fortress had not protected her" is honest. The piece does not redescribe failures as Type-5 virtues, which is the corpus quality-ceiling test, and largely passes it.
+
+PRIORITY FIXES (numbered, 3 max):
+1. Cut one of the three "nipple piercing" repetitions — keep the lead and the close, lose the middle.
+2. Replace the "since she was three years old" close with something less corpus-typical; the rest of the piece earns a more specific landing.
+3. Add a 2025-2026 currency beat (recent project, recent role) so the conservation-as-economy thesis is shown still operating.
+
+============================================================ -->
+

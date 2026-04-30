@@ -294,3 +294,49 @@ All items from the reader review have been incorporated:
 - 9w8 archetype line softened: "the kind of figure Jelly Roll exemplifies" (no more Keanu/Chappelle assertions).
 -->
 
+<!-- ============================================================
+FRESH-EYES ASSESSMENT — 2026-04-29 (Claude cold read)
+============================================================
+
+ONE-LINE VERDICT: A genuinely strong character study that earns its read because the central image (PAW Patrol chair + prosthetic nose + family van) carries the Type 9 thesis without ever sounding like Enneagram exposition.
+
+STRONGEST SECTION: "What Keith Lee protects when he walks into a grandmother's restaurant" — the family-van paragraph + Puddery numbers + Amici Chicago closing turn the rating scale into a thesis about who gets to register, and the prosthetic-nose paragraph finally makes the Nine paradox visual instead of stated.
+WEAKEST SECTION: "Why Keith Lee's food reviews sound like apologies" — title overpromises a single mechanism, but the section detours through TikTok origin, MMA contract loss, weight-cutting trauma, and faith framing before the actual review-cadence reading lands. Too many beats fighting for the same paragraph.
+
+STRENGTHS:
+- The opening (PAW Patrol chair, 5'7", prosthetic nose, sister applying it) is the best single hook in the assigned eight — falsifiable, specific, surprising, and the image alone advances the thesis.
+- The "Killa got quiet" closing list works because it's earned: each item is a real scene the reader has watched arrive in the body.
+- Quote sourcing is unusually fresh — Kevin Lee's "All of a sudden I'm Keith's brother" is load-bearing and not the recycled quote every other Keith Lee profile uses.
+- The 9w8 frame avoids textbook drop-in by attaching it to a single anecdote (Atlanta death threats, $4,000 attempted tip) instead of explaining it abstractly.
+- The Bay Area shellfish hospitalization is the smartest structural choice in the draft — gives the 8 wing a counterweight scene so it doesn't read as one-note tough-guy energy.
+
+WEAKNESSES:
+- "Every review is a negotiation between 'don't be an asshole' and 'still be honest.'" appears twice almost verbatim (TL;DR bullet 4 + "Why Keith Lee's food reviews sound like apologies" closing). Once is the line; twice is the author hugging it.
+- The ten-neckties scene is genuinely arresting but the immediate type-theory gloss ("This is the Nine story in a single scene") undercuts it. Trust the reader for one paragraph before naming it.
+- "His presence doesn't register" / "who gets to feel seen" / "register in a country that mostly does not look" — three variants of the same phrase across the diagnosis section + family-van section. Pick one.
+- "The fight didn't stop. The fight just changed." appears in the lede AND closes the diagnosis section; the second use is filler.
+- The Detroit-childhood section ("a kid auditioning for attention he had no other way to earn") slides into therapy-speak in a piece that otherwise resists it.
+
+GAPS / MISSED OPPORTUNITIES:
+- The Atlanta backlash is covered as a 9w8 stand, but the legitimate critique of Keith Lee's review power (fragile small businesses crushed when his fans mob a place; the post-review burnout cited briefly via Amici) is barely engaged. A fan would expect the moral cost-of-influence question.
+- No mention of Ronni's own TikTok or her co-founder role inside Keith Lee Inc. — she's framed as "interface" but the business architecture (who owns what, who books, what happens if they split) is invisible.
+- 2025-2026 news beats are thin — Kardigan's birth is referenced but the recent Chicago/Block Club closing is the only fresh news beat. What's he doing now that the gold rush has cooled?
+- No real Type 9 stress-or-growth move identified beyond "he stayed in Atlanta." Where's the 9→6 stress beat? (The shellfish ER moment could carry it but isn't framed that way.)
+- The Cinnabon-rejection line is mentioned once but never returned to — a piece this anchored on "money he won't take" would benefit from one more concrete refusal beat to triangulate.
+
+PATTERN HITS (DJ tropes that worked here):
+- TL;DR accordion is genuinely teaser-pitched (not a summary) — bullet 4 ("Every review is a negotiation") is a real thesis line.
+- Single-image closer ("his voice thickens when a grandmother's cornbread scores a ten") lands because the image is from the body of the piece, not invented for the close.
+
+PATTERN MISSES (DJ tropes that felt formulaic, recycled, or autopilot here):
+- "X is not Y. X is Z." cadence ("It's not a shy guy. It's a Nine." / "That is not an entourage. That is a Nine rebuilding...") used three times in the first half. By the third use it's a tic.
+- "The X is the Y" formula ("The fight got smaller, quieter, and infinitely more specific" / "The buffer is also a partner" / "The Nine paradox, solved with latex") — three in close succession.
+- The "Pause there." authorial intrusion in the neckties section does the same work as inner-thought tags and feels stagey.
+
+PRIORITY FIXES:
+1. Cut one of the two "negotiation between 'don't be an asshole' and 'still be honest'" placements — keep the one that lands inside the review-cadence section, kill the TL;DR echo.
+2. Engage the moral cost of the Keith Lee effect once, plainly — the Amici closing line ("becoming more of a gimmick show than food") is the door; walk through it for one paragraph instead of parenthetical.
+3. Reframe the shellfish ER moment as the explicit 9-under-stress beat. It's already in the piece; just name what it is so the type architecture has both directions.
+
+============================================================ -->
+

@@ -226,3 +226,53 @@ The mature version adds an essential word: yourself.
 > **Disclaimer:** This analysis of Harry Styles' Enneagram type is speculative, based on publicly available information, and may not reflect his actual personality type.
 
 Curious about your own personality patterns? Explore our [questions](/questions) and discover your Enneagram type.
+
+<!-- ============================================================
+FRESH-EYES ASSESSMENT — 2026-04-29 PASS 4 (Claude cold read)
+============================================================
+
+ONE-LINE VERDICT: A genuinely warm, evidence-rich Type 2 piece whose biggest weakness is that it cannot bring itself to take seriously the queer-baiting and Don't Worry Darling indictments it gestures at.
+QUALITY-CEILING TIER: TOP
+
+STRONGEST SECTION: "Therapy: Opening Doors He Didn't Know Existed" — the "felt like relief that we hadn't failed" beat is the piece's best psychological observation and is allowed to be uncomfortable.
+WEAKEST SECTION: "The Costs of Being Everyone's Person" — names the controversies but uses Type-2-paralysis to soften the queer-baiting and Olivia Wilde charges into sympathy.
+
+STRENGTHS (3-5 bullets, specific):
+- "Since I've been 10—protect Mom at all costs" hook is operational, not decorative; it functions all the way to the close.
+- McKenzie Grace and Wembley Italian-fan moments are concrete; the "Lisa, she's gay!" detail is specific and load-bearing.
+- "Matilda" reading (permission rather than consolation) is real critical work.
+- Liam Payne section avoids hagiography — "you can't protect everyone" lands without claiming closure.
+- "Treat People With Kindness... yourself" close does the standard 9takes move without straining.
+
+WEAKNESSES (3-5 bullets, specific):
+- "Read that again." — a self-conscious editorial pivot in the therapy section that cheapens an otherwise strong observation.
+- "That silence is Type 2 paralysis. Confirming it isn't true feels cruel..." — Enneagram-as-defense-counsel: a real ethical question (queer-baiting profit) gets diagnosed away as Type-2 sensitivity to fans.
+- "Both readings can be true" — soft attribution loophole on the Grammy speech; refuses to land where the evidence points.
+- The Vogue dress framing ("first solo man in 128 years") is presented as identity-assertion without engaging the Candace-Owens-vs-Harry-Styles real public argument that followed.
+- Sympathetic-partner stock figure: Zoë Kravitz appears in one paragraph as "an equal" with no actual evidence that she is.
+
+GAPS / MISSED OPPORTUNITIES (3-6 bullets):
+- Queer-baiting accusations (Rolling Stone 2022 cover discourse, the "Lights Up" video debate) are not engaged on their substance — only as fan paralysis.
+- Don't Worry Darling press tour: spitgate, Florence Pugh's reported on-set conflict, the "my movie feels like a movie" interview — these are named only obliquely. The piece has the Type-2-can't-defend-himself theory and refuses to test it against the actual press-tour record.
+- Shania Twain duet at Coachella, his Eras-tour-adjacent Taylor reconciliation — relevant warmth-as-currency moments unused.
+- "Tasty" / "Watermelon Sugar" copyright lawsuit (Joshua Stone, 2022) — a rare moment of public defense Harry actually took. Belongs in the boundaries discussion.
+- His ownership stake in Pleasing (cosmetics line) — relevant to whether the "kindness" frame extends to commerce; never mentioned.
+- The "no pronouns in my songs" debate / how he writes ungendered lyrics — directly tied to both the queer-baiting accusation AND the Type-2 universal-lovability strategy.
+
+PATTERN HITS:
+- "Not joy. Not pride. Just absence of failure." — three-beat single-syllable triplet. Closing parallel-binary ("Treat People With Kindness... yourself"). Cushion-the-critic rhythm in every controversy paragraph (state the charge, then immediately offer a Type-2 reading that softens it). Engaging-institutional-critics-over-named-humans (Candace Owens never named).
+
+PATTERN MISSES:
+- No "child still doing" closer (the seven-year-old line is hook, not closer — good). No type-plural diagnostic crutch overused. No "father modeled / mother modeled" structure. The piece is structurally cleaner than corpus average.
+
+CRITIC-ENGAGEMENT: One named-human at most (Liam quoting Harry's sixth sense). Candace Owens, Florence Pugh, the queer-baiting essayists (Sarah Hagi, etc.) — none named. The defensiveness is Type-2-shaped which the piece notes without escaping.
+CURRENCY: Yes — Liam's October 2024 death, late-2025 "Forever, Forever" footage, March 2026 album, Kravitz dating are current.
+DEFENSE-COUNSEL CHECK: Yes — multiple. Larry Stylinson silence is reframed as Type-2 paralysis-to-protect-fans rather than commercial calculation. Grammy speech criticism is "both readings can be true." Don't Worry Darling chaos is "having intimacy analyzed by millions is its own kind of violation" — i.e., he is the one being violated, not Florence Pugh.
+
+PRIORITY FIXES (numbered, 3 max):
+1. Engage the queer-baiting argument on its substance once, by name. The piece can still defend him but it has to actually contend with the charge.
+2. Don't Worry Darling needs the Florence Pugh angle named — without it the section is one-sided sympathy.
+3. Cut "Read that again." and one of the cushion-the-critic transitions; trust the reader.
+
+============================================================ -->
+

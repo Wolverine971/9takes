@@ -276,3 +276,58 @@ The distance between those two moments is the whole story.
 ---
 
 > **Disclaimer:** This analysis of Dwayne Johnson's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Mr. Johnson.
+
+<!-- ============================================================
+FRESH-EYES ASSESSMENT — 2026-04-29 PASS 3 (Claude cold read)
+============================================================
+
+ONE-LINE VERDICT: A confident, scene-driven Type-3 read of Johnson that benefits from genuinely strong reporting (Snickers redemption, I-65 traffic, Christopher Nolan compliment) — but the Smashing Machine section is sold as the rupture-of-character moment when the writing itself reveals the rupture is the next character.
+
+STRONGEST SECTION: "The Boy on Interstate 65" — the 15-year-old pulling his mother out of oncoming traffic ("That moment didn't make him vulnerable. It made him the person who holds everyone else together") is the cleanest origin-wound articulation in the batch.
+WEAKEST SECTION: "Seven Bucks and the Art of Turning Shame Into a Brand" — repeats the CFL-cut beat already named earlier and exists mostly to set up the section title.
+
+STRENGTHS (3-5 bullets, specific):
+- The Snickers redemption opener is a perfect specimen of the "wound monetized as Instagram production" thesis it'll spend the rest of the piece arguing.
+- The Rocky Maivia death / Type-3-rebuilding-a-better-character read is the structural insight that anchors the rest.
+- The 2019 fight with Rocky over the unauthorized memoir foreword is a load-bearing reporting find — the falling-out a month before Rocky's death gives the father section real stakes.
+- "He doesn't process pain. He produces it." is the line the piece is built around and it earns the ending.
+- "Whether that represents genuine growth or just a more sophisticated performance of 'good dad' is the kind of question that makes Type 3s so hard to read, even for themselves" is the rare moment the writer doesn't defend the subject.
+
+WEAKNESSES (3-5 bullets, specific — name lines, phrases, sections):
+- "He doesn't hide shame. He packages it." — single-sentence dramatic-paragraph stack, repeated cadence.
+- "Restlessness. Not contentment. Not satisfaction." — same beat one section later.
+- "Comfort arranged around curiosity. Curiosity arranged around distance." (this exact construction appears in the Gladwell blog — verbatim cross-blog cadence pattern, possibly even inadvertent self-quotation.)
+- The "What is Dwayne Johnson's Personality Type?" section comes in section 3 of the piece after a long Maivia setup; placement is awkward and the section feels like a checklist after better organic typing has already happened.
+- The contrast-panel between "The Brand" and "The Person" intrudes after a section that has already done the contrast in prose.
+
+GAPS / MISSED OPPORTUNITIES (3-6 bullets — what a fan/critic would expect that's absent):
+- The Vin Diesel feud / Fast Saga walkout drama gets one parenthetical mention even though it's the cleanest example of Type-3 brand-feud-with-a-co-equal-Type-3.
+- The XFL bankruptcy / RedBird Capital sale and what that means for the "business empire" argument is unmentioned.
+- The 2024 Trump-meeting / political endorsement non-endorsement saga is not discussed even though the politics-running paragraph is in the piece.
+- Maui wildfire fund controversy (the criticism that he asked donors to give to a fund he co-founded while being a billionaire) is not in the piece.
+- Black Adam blame-Vin-Diesel reshoot reporting is named as "secret meetings, tequila, and a failed plan to pit Black Adam against Superman" but the actual reporting (Variety) isn't engaged with.
+- The Lauren Hashian relationship is named but never developed — it appears in two sentences total in a piece that has long passages on Dany Garcia.
+
+PATTERN HITS (DJ tropes that worked here):
+- The Snickers / Iron-Paradise / Seven-Bucks recurring object set is held across the piece.
+- The "Performance becoming a person" section title is paid off in the body.
+
+PATTERN MISSES (DJ tropes that felt formulaic, recycled, or autopilot here):
+- "He doesn't process pain. He produces it." — bolded-thesis-sentence corpus tic.
+- "Not curiosity. Distance. Not contentment. Restlessness." — multiple instances of contrast-pair cadence.
+- "The crash after failure. The shape-shifting. The origin story as brand." — rule-of-three bolded list inside the type-explainer.
+- "Same wound, opposite conversions" (this is from the Jon Stewart blog) — wait, no, the Stewart blog uses that phrasing too. Worth checking for cross-blog cadence echo.
+- The "He named his company after his lowest moment. He bought every Snickers bar in the store. He fed a stranger her own lunch. He pulled his mother from oncoming traffic at 15. He sobbed at Venice at 53." closer-as-list-of-beats is the corpus tic.
+
+CRITIC-ENGAGEMENT: Light. The Black Adam flop is named. The "Bro's only coming back cuz Black Adam flopped" tweet is quoted. But the deeper criticism (toxic-positivity brand, the Vin Diesel reshoot demands, the Maui controversy) is absent. No critic is named by name.
+
+CURRENCY (2024-2026 anchor): Yes — Smashing Machine Venice 2025, Golden Globe nomination, Christopher Nolan DGA event, the 2026 Hollywood Reporter quote. Strong currency.
+
+DEFENSE-COUNSEL CHECK: Yes, partly. The Vin Diesel return / Fast X is reframed as a Type-3 reinvention pattern rather than a paycheck. The "exorcised this damn chocolate demon" line is presented uncritically as growth rather than as another Instagram production that proves the thesis. The piece's own framework would suggest skepticism the writer doesn't quite reach for.
+
+PRIORITY FIXES (numbered, in order of impact — 3 max):
+1. Cut the contrast-panel after the chicken-salad anecdote — the prose around it does that work better.
+2. Either engage the Maui-fund controversy or make a deliberate choice to leave it out and say so. Right now it's structurally absent.
+3. The "He doesn't process pain. He produces it" line lands hard — but the piece restates the same construction in 4-5 places. Trim to twice.
+
+============================================================ -->

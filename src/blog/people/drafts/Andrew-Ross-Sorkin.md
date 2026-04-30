@@ -228,3 +228,51 @@ The under-the-covers phone is the same machinery as the 600-page book is the sam
 By 4 p.m., he is fried.
 
 By 4:25 the next morning, he is back under the covers, looking for what broke while he wasn't watching.
+
+<!-- ============================================================
+FRESH-EYES ASSESSMENT — 2026-04-29 (Claude cold read)
+============================================================
+
+ONE-LINE VERDICT: A genuinely strong Type 6 read that earns its length — the under-the-covers phone is a single concrete image that does most of the diagnostic work, and the piece almost never slips into textbook lecture.
+
+STRONGEST SECTION: "How Andrew Ross Sorkin makes Elon Musk and SBF stay in the chair" — the "depersonalize the accusation / it's not me, it's the document" frame is the most original Type 6 reading in the corpus, and the SBF-in-slippers + Musk-Yaccarino pair is sharper than what most journalism profiles have built.
+WEAKEST SECTION: "Why Andrew Ross Sorkin became a New York Times reporter at 16" — the coloboma paragraph and the "magically, they let me in" beat read as biographical filler; the section doesn't advance the thesis as hard as the others.
+
+STRENGTHS:
+- The "vigilance disguised as work ethic" framing of the 4:25 routine is concrete and falsifiable, not vibes
+- "Strikeouts are exposure. Rallies are information." is a sentence only DJ would write — earns its placement as the section button
+- The Taibbi/Starkman pairing is real critical pressure, and the article actually engages it instead of dodging
+- The "complacency = how the 6 experiences calm" closing reframe is a textbook-on-the-nose quote turned into a structural insight
+- 6w5 archive obsession ties the 1929 book to the 4:25 phone in one motion — the same machinery argument lands
+
+WEAKNESSES:
+- "Verification as identity" / "He checks. Then he checks again." motif is repeated 5+ times — diminishing returns by the closing block
+- The last three paragraphs all rephrase the same idea ("under-the-covers phone = 600-page book = printed letter") — pick one and trust it
+- "That's not strategic. That's a personality type." is exactly the AI-flavored declarative tic the audit should flag — it tells the reader what to feel
+- Three Type-N reference paragraphs use the same "A 3 would have... A 7 would have... A 5 would have..." comparison template — felt formulaic by the second appearance
+- The TL;DR accordion duplicates the diagnosis section beat-for-beat
+
+GAPS / MISSED OPPORTUNITIES:
+- No engagement with Sorkin's Billions executive-producer arc — a Type 6 financial journalist co-creating a Wall Street fantasy show is psychologically rich and absent
+- His relationship with his father (the Cahill antitrust partner) is mentioned once and never returned to — the institutional-loyalty thesis would deepen with one more father beat
+- Nothing on the DealBook Summit as architecture — the format itself (Sorkin staging adversarial conversations on a stage he controls) is the Type 6's coliseum
+- 2024-2026 era is light — what is he doing right now? Nvidia coverage, the AI bubble, Trump 2.0? The "complacency" thesis screams for a current event
+- No counter-quote from a guest or competitor — the piece is one-voice; one Hank Paulson or Dimon-on-Sorkin line would harden it
+- Stress arrow to Type 3 / growth to Type 9 not explored at all — the diagnosis is static
+
+PATTERN HITS (DJ tropes that worked here):
+- The TL;DR accordion is well-used — every bullet is a falsifiable behavior, not vibes
+- The "What X is most afraid of" closing structure works because the answer (complacency) is genuinely on-type and not forced
+
+PATTERN MISSES (DJ tropes that felt formulaic):
+- The "A Type 8 would have... A Type 7 would have..." contrast template is used 3+ times in the piece and is starting to read like a corpus tic
+- The "this is what 6w5 looks like in its purest form" / "this is the part of the X pattern that escapes people" framework-callout sentences pull the reader out of scene into lecture
+- Bolded thesis micro-headers inside the diagnosis section ("He named complacency...", "He confirms reporting...", "He has been at one institution...") are the same template as Sofia/Jared/Ice — mechanical when used identically across pieces
+
+PRIORITY FIXES:
+1. Trim the closing — three paragraphs all restate "the under-the-covers phone is the same machinery." Pick one. Cutting two would let "By 4 p.m. he is fried. By 4:25 the next morning, he is back" land cleanly.
+2. Replace one Type-comparison block ("A 3 would have brand-jumped. A 7 would have started a fund. A 5 would have stayed in the archives.") with a single fresh observation — three of these in one piece is too many.
+3. Add a 2025-2026 beat (AI bubble coverage, post-1929 reception, current podcast circuit) — without it, the "complacency thesis" thesis is generic instead of dated to right now.
+
+============================================================ -->
+

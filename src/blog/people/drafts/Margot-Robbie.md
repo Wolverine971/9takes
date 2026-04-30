@@ -200,3 +200,54 @@ What would change if the giving didn't have to cost you everything?
 If you like diving into personality, explore our <a href="/questions">questions</a> and go deeper with the Enneagram.
 
 > **Disclaimer:** This analysis of Margot Robbie's Enneagram type is speculative, based on publicly available information, and may not reflect her actual personality type.
+
+<!-- ============================================================
+FRESH-EYES ASSESSMENT — 2026-04-29 PASS 2 (Claude cold read)
+============================================================
+
+ONE-LINE VERDICT: One of the strongest pieces in this batch — the "Barbie doesn't have childhood trauma" hook is a genuine signature confession and the LuckyChap/architecture-as-control insight is a real psychological reading, not a polite profile.
+
+STRONGEST SECTION: "LuckyChap: The System She Built to Scale the Giving" — the "Generosity, at this scale, is also architecture. And architecture is also control" line and the Fennell quote land because the section actually demonstrates how Type 2 ambition uses systems differently than Type 3.
+WEAKEST SECTION: "The Audition: 30 Seconds to Read the Room" — relies entirely on a single anecdote and the reframe ("she didn't do what she wanted. She read what the room needed") slightly forces the Type 2 read; a Three could slap him too.
+
+STRENGTHS (3-5 bullets, specific):
+- The hook is the best in the batch — a billion-dollar actress confessing her acting method requires childhood trauma. That's the entire thesis, falsifiable, in three sentences.
+- The counter-typing section (Type 3 vs Type 2) is the cleanest in the corpus — "A Three builds a brand. Robbie built an ecosystem" is a real distinction, not a deflection.
+- The matching rings inscription "C + H, 1847-2026" is the kind of micro-detail that does diagnostic work other paragraphs can't.
+- The shadow section earns its place — "What if they realize I'm not actually needed?" reframes imposter syndrome through a Type 2 lens specifically, not generic anxiety.
+- Wuthering Heights as "facing the dark mirror" is a sophisticated forward-looking move — playing the destructive shadow of one's own type is a real Enneagram insight, not pop psychology.
+
+WEAKNESSES (3-5 bullets, specific — name lines, phrases, sections):
+- The audition slap reframe is the weakest typing-evidence paragraph; "she read what the room needed — surprise, not charm — and delivered it" is a stretch when the simpler read is risk tolerance.
+- "She wasn't socializing. She was binding the ensemble together..." — single-sentence dramatic emphasis showing up as an autopilot move.
+- The "Type 2 doesn't curdle into..." style claim in the Why-Type-2-fits bullets reads textbook-y compared to the rest of the piece.
+- The closing CTA after "What would change if the giving didn't have to cost you everything?" is the exact thing the prior reviewer flagged; it still dilutes the ending.
+- The ESPN ice-skating "weeping in the car" detail is used twice (counter-typing AND roles section) — once would do.
+
+GAPS / MISSED OPPORTUNITIES (3-6 bullets — what a fan/critic would expect that's absent):
+- Tom Ackerley — her husband, business partner, LuckyChap co-founder — is named once and never examined; the marriage-as-partnership angle is a Type 2 set-piece that's missed.
+- Her son (born 2024) gets one line ("keeps her marriage and her son out of the press"); for a piece about giving and motherhood-adjacent themes, the protected-private-life beat could be its own paragraph.
+- The Asia Argento / Will Smith Slap / Oscars 2022 era (when Robbie was deeply involved in producer politics) is absent — fans would expect at least passing engagement.
+- No critic engaged by name — _Saltburn_'s class-tourism criticism, _Barbie_'s "is this actually feminist" debate, the LuckyChap-as-monopoly read, all dodged.
+- The Type 2 stress arrow toward 8 (territoriality, control through dominance) and growth toward 4 (authentic emotion vs performed need) aren't explored.
+- 2024-2026 specific news beat is light — Wuthering Heights is forward-looking; nothing about her actual recent work cycle, public appearances, or the Babylon-era industry context.
+
+PATTERN HITS (DJ tropes that worked here):
+- The hook formula (specific scene → confession → diagnosis) is the corpus's strongest version of itself.
+- Counter-typing rule of three (Type 3, Type 7, Type 2 fits) is here and works because each rejection is specific and evidenced — exemplary use.
+
+PATTERN MISSES (DJ tropes that felt formulaic, recycled, or autopilot here):
+- "Generosity, at this scale, is also architecture. And architecture is also control" — beautiful line but the "X is the Y" thesis-construction tic.
+- "The gifts are the mortar. The relationships are the structure. And the giver is the load-bearing wall." — three-beat closing rhythm corpus pattern.
+- Triple front-loading: the "Barbie doesn't have childhood trauma" hook + TL;DR + typing section all restate the thesis before the body delivers evidence — could trim one.
+
+CRITIC-ENGAGEMENT: Light — Margot is treated almost reverently; the Saltburn/Barbie controversies and the "is LuckyChap actually changing the industry or rebranding her" critique never appear.
+
+CURRENCY (2024-2026 anchor): Yes — Wuthering Heights Feb 2026 release date, Variety March 2026 quote. Strong forward-looking close.
+
+PRIORITY FIXES (numbered, in order of impact — 3 max):
+1. Cut the CTA link after "cost you everything?" — the line is the close; the link weakens it. (Prior reviewer flagged this; still unfixed.)
+2. Engage one named critic — Saltburn class-tourism review or a Barbie-feminism critique — to test the giving-as-architecture thesis under pressure rather than just admiring it.
+3. Tighten the audition section — either find a different scene that demonstrates "reading the room over performing the want" or trim the Type-2-reframe paragraph to one sentence; the slap as Type-2 evidence is the thinnest claim in the piece.
+
+============================================================ -->

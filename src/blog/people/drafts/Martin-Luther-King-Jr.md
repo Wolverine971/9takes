@@ -397,3 +397,58 @@ The marble version never gets tired. Never chain-smokes in secret. Never tells J
 But the marble version also never threw a pillow.
 
 > **Disclaimer:** This analysis of Martin Luther King Jr.'s Enneagram type is speculative, based on publicly available information, and may not reflect his actual personality type.
+
+<!-- ============================================================
+FRESH-EYES ASSESSMENT — 2026-04-29 PASS 2 (Claude cold read)
+============================================================
+
+ONE-LINE VERDICT: The piece's central move — King as Type 8 not Type 1 — is the most genuinely contrarian-but-defensible argument in this batch, and the "marble version also never threw a pillow" close is one of the better closing lines I've read in the corpus.
+
+STRONGEST SECTION: "Isn't He Really a Type 1?" — the three-part counter-argument (anger, authority, trajectory) is the piece's most disciplined analytical work and is structured as actual debate rather than dispatched-in-a-paragraph.
+WEAKEST SECTION: "The Education of a Fighter" — the pool hustler / jitterbug paragraphs are warm and humanizing but the prior reviewer is right that they don't connect to the Type 8 thesis. They float.
+
+STRENGTHS (specific):
+- Hook is the father, not King — and the move ("These words weren't spoken by Martin Luther King Jr. himself. They came from his father") is a structural surprise that earns the read.
+- "had not adjusted" as a phrase tracked through the whole piece into "creative maladjustment" — that's actual through-line craft, not a bolt-on motif.
+- The 1968 Harris Poll number (75% national disapproval, 25 points worse than 1963) is the kind of currency-resistance fact that does heavy lifting against the sanitized legacy.
+- Ghaemi's "First-Rate Madness" framing (King's depression as the engine of "creative maladjustment") is the most genuinely original move — connects the personal to the philosophical without being cute.
+- "I could feel the anger rising" tracked across multiple scenes as physical-not-moral evidence is the right way to use Type 8's body-center claim.
+- The kitchen-table, bombed-porch, telegraph-office sequence builds without the "and then" feel of standard biography.
+
+WEAKNESSES (specific):
+- "But here's what the sanitized legacy hides" is the kind of meta-commentary the piece doesn't need — let the autopsy detail do the work.
+- "Sometimes the most powerful response isn't force. It's refusing to play on your enemy's terms." — single-sentence aphorism that reads as autopilot wisdom.
+- The bus-seat memory ("but every time I got on that bus I left my mind up on the front seat") is one of the great quotes here, but it's deployed in a section that immediately moralizes around it.
+- "This wasn't passive acceptance. This was controlled fury in a suit and tie" — the early thesis-paragraph triple ("Most people see... But watch... Listen...") is high-energy in a way that risks rally-pulpit cosplay.
+- Pool hustler / jitterbug paragraph reads like material from a different draft — three sentences linking it to Type 8 protector instinct ("meeting people where they are, extending his shield") would integrate it.
+
+GAPS / MISSED OPPORTUNITIES:
+- The plagiarism findings on King's dissertation — confirmed by Boston University in 1991 — are a real test of the Type 8 vs Type 3 reading and are entirely absent.
+- The womanizing / FBI-tape allegations are referenced via "FBI's War" but the substance (and David Garrow's 2019 reopening of those questions) gets defanged into "the system would use any weapon."
+- Bayard Rustin gets a single sentence for the gun-relinquishment moment, but the gay-Black-organizer-pushed-out story is a major test of King's Type 8 protector identity (did he protect Rustin?). Missing.
+- Malcolm X is mentioned only as a "suggestion" in YAML — no engagement with the actual Malcolm/MLK debate, which is exactly the contemporary-relevance beat a historical figure needs.
+- King's evolution on Vietnam took 3+ years; the piece skips from civil rights to Riverside Church without the wrestle.
+- Coretta Scott King's own work after his death (lifelong activism, opposition to Reagan, gay rights advocacy) is invisible — the "stronger than I was" line isn't followed up.
+- The post-Memphis sanitation strike — what King was actually fighting for at the end, an economic-justice fight that remains unfinished — gets a passing mention but no weight.
+
+PATTERN HITS:
+- Counter-typing handled as a real argument with three parts and a thesis line ("The Type 1 traits are the suit and tie. What's underneath is something rawer") — this is the corpus's best version of this move.
+- Closing avoids the "child still doing what the child did" frame; the marble/man contrast is original.
+- The contrast-panel component for "What the Public Saw / What Coretta Saw" is used effectively, not formulaically.
+
+PATTERN MISSES:
+- "It is not X. It is Y." appears 5+ times: "Not the bulldozer stereotype. The protector underneath it"; "Not moral disapproval. Physical force, redirected"; "This wasn't passive acceptance. This was controlled fury"; "It's not abstract moral reasoning. That's a protector who can't protect..."; "This is not a request. It's a demand." Well over the corpus cap.
+- Bolded micro-thesis sentences ("Anger as fuel" / "creative maladjustment" / "had not adjusted") used as in-line emphasis multiple times.
+- Single-sentence dramatic paragraphs are heavy ("He was fifteen." / "He survived. She recovered." / "He refused.").
+- Triple front-loading of thesis (TL;DR + intro grafs + What Was MLK's Type section) — corpus tic.
+
+CRITIC-ENGAGEMENT: Engages the Type 1 reading directly and well. Does NOT engage King's actual historical critics — Garrow on the FBI tapes, Cornel West on the sanitization, conservatives who weaponize "content of their character," or Black radicals who saw nonviolence as accommodation. Defangs more than confronts.
+
+CONTEMPORARY-RELEVANCE: Limited. The opening father-quote echo is good but the piece never asks how King reads in 2026 — Black Lives Matter context, the sanitization-on-Twitter argument, or the "King would have been at X protest" debates that recur every January. A miss for a historical figure.
+
+PRIORITY FIXES:
+1. Cut at least three of the "It is not X. It is Y." constructions — the piece relies on the same rhetorical shape as a load-bearing rhythm.
+2. Engage one real historical critic (Garrow on the FBI material, or Cornel West on the sanitization) — the Type 8 thesis gets stronger when it survives the "King wasn't a saint" arguments rather than dancing around them.
+3. Connect the pool hustler / jitterbug section to the thesis explicitly, or cut it — currently it humanizes but doesn't argue.
+
+============================================================ -->

@@ -314,6 +314,58 @@ And eventually, she'll see it reverse: the character departing, the man returnin
 
 > **Disclaimer:** This analysis of Cillian Murphy's Enneagram type is speculative, based on publicly available information, and may not reflect his actual personality type.
 
+<!-- ============================================================
+FRESH-EYES ASSESSMENT — 2026-04-29 PASS 4 (Claude cold read)
+============================================================
+
+ONE-LINE VERDICT: A craftsmanlike Type-5 read with two genuine signature moments (train-tears, "Remember, I'm an actor"), but the "hoard then release" thesis softens every potential indictment of his absence into family virtue, and the piece never once lets him be partly indictable.
+QUALITY-CEILING TIER: MIDDLE-TOP
+
+STRONGEST SECTION: "The Man on the Train" — Claire Keegan, hood up, tears that became Small Things Like These. The Five-inner-world breaking through and being put to work is the cleanest Enneagram-as-engine moment in the piece.
+WEAKEST SECTION: "How Cillian Murphy Disappears Into Roles" — Yvonne's "I'm getting Cillian back" line is presented as intimate window, but the full cost to his sons (named in passing as "described him as not being all there") gets a phrase, never a paragraph.
+
+STRENGTHS (3-5 bullets, specific):
+- Downey-antiquing hook into Blunt's "best actor / worst celebrity" is fast, specific, lands.
+- Keegan-on-train scene is the genuinely original moment.
+- "Remember, I'm an actor" / Steven Knight pivot is a single-deployment quote earning its place.
+- Catholic-guilt section quotes him saying "And I don't" without softening it. Rare.
+- Magdalene Laundries / "Where do the rest of us sit on that spectrum, between innocence and complicity?" is a high-quality engagement with an institutional critique.
+
+WEAKNESSES (3-5 bullets, specific):
+- "He withholds personality to reveal character. He withholds information to preserve his inner world. He withholds social energy to fuel creative intensity." — counter-typing rule of three.
+- "Hoard, then release. Prepare obsessively, then surrender completely." — three-beat triplet + contrast-pair.
+- "It's not just technique and experience. It's maturing as a human being..." then "Lose the weight. Learn the language. Cancel reality." — single-sentence dramatic paragraphs stacked.
+- "Fives don't hoard energy for nothing. They hoard it to _spend_ it." — type-plural diagnostic crutch as governing claim.
+- The 2024 Oscars paragraph reads like absolution: "That's not a man who can't connect. That's a man who _chooses_ when and how to connect" — contrast-pair softening the previous critique.
+
+GAPS / MISSED OPPORTUNITIES (3-6 bullets):
+- Yvonne McGuinness is treated as a quote-source ("I'm getting Cillian back") — never as a sculptor and artist with her own work, which she is. The piece flattens her into the wife-who-waits role.
+- His sons are mentioned twice, named never. What does it cost them to have a father who "isn't all there" for years at a time? Unasked.
+- Murphy's collaborator drop-out — actors he hasn't worked with twice, projects he turned down, the cost to other people of his "if I'm available" relationship with Nolan — unexplored.
+- The 28 Days Later raging-rage that Boyle described — Murphy's actual capacity for cruelty on set or in real life — gets one Roy-Keane joke and is never tested.
+- No engagement with critics of his roles (the boundary between "intense Type-5 immersion" and "method-actor self-indulgence" is unmarked).
+- The fortress-with-no-WiFi is presented as architecture; never as luxury — affordable only because his wife handles the family-facing infrastructure he refuses to.
+
+PATTERN HITS:
+- Type-plural diagnostic crutch ("Fives don't hoard energy", "Type 5s share a core fear"), counter-typing rule of three (multiple), contrast-pair, three-beat triplet, single-sentence dramatic paragraphs, "Engaging institutional critics over named human ones" (Catholic Church engaged, no critic of Murphy engaged), Rabbit-Hole accordion present (good), bolded mid-paragraph thesis ("Instinct is your most powerful tool. Nothing must be predetermined.").
+
+PATTERN MISSES:
+- "Father modeled / Mother modeled / synthesis" template avoided.
+- Number-becomes-person opener avoided.
+
+CRITIC-ENGAGEMENT: Engages the Catholic Church and the institutional Irish Magdalene Laundries — strong on institutional. Zero engagement with named critics of Murphy's work or persona. The "critics don't understand him" mode is implicit throughout.
+CURRENCY: Yes — Steve (2025), Small Things Like These (2024), Oscar 2024, Peaky Blinders movie all current.
+DEFENSE-COUNSEL CHECK: Yes, strong. The "I cancel reality for a while" admission is presented as confession then immediately reframed as "Five hoarding energy to spend it." Damon's "worst dinner companion" + Downey's "greatest sacrifice" are presented as costs he pays, not costs he externalizes onto castmates and family. The piece never asks: is the fortress generous or selfish? It assumes generous.
+
+PRIORITY FIXES (numbered, 3 max):
+1. Source the major quotes. The 2026-02-19 review flagged this and the 2026-04-03 lastmod still has zero publication attributions on the load-bearing quotes (Downey, Blunt, Knight, Nolan, Yvonne, Boyle).
+2. Let his sons' POV in for one sentence. "Not being all there" for years is a bigger cost than the piece admits.
+3. Cut at least two of the contrast-pair / triplet rhythms — by the closer they read like a tic, not analysis.
+
+============================================================ -->
+
+
+
 <svelte:head>
 
 <script type="application/ld+json">

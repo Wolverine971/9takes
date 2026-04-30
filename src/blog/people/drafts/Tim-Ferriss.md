@@ -312,3 +312,57 @@ The inner courtroom is still in session. But the defendant is learning, slowly, 
 He just hasn't figured out how to tell the critic to rest. And maybe that's the point. Maybe the most honest thing about Tim Ferriss is that the man who taught the world there's a right way to do everything is still searching for the right way to stop searching.
 
 > **Disclaimer:** This analysis of Tim Ferriss's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Tim Ferriss.
+
+<!-- ============================================================
+FRESH-EYES ASSESSMENT — 2026-04-29 PASS 4 (Claude cold read)
+============================================================
+
+ONE-LINE VERDICT: One of the corpus's strongest "let the subject be partly indictable" pieces — the inner-critic engine is real, and the analysis treats Ferriss's optimization both as gift and disease.
+
+QUALITY-CEILING TIER: TOP
+
+STRONGEST SECTION: "The Retreat That Cracked Tim Ferriss's Inner Courtroom" — the Spirit Rock fast-and-microdose disclosure, then "seventeen separate problems. One source." Genuine narrative discovery, and the section doesn't moralize the rule-violations.
+WEAKEST SECTION: "Tim Ferriss's Complicated Relationship with Money" — the existing meta-comment flagged this and it's still chronological more than emotional. The $150M loss disclosure is a held-back grenade that gets buried.
+
+STRENGTHS (3-5 bullets, specific):
+- "You can know everything about his morning routine and nothing about his heart. Because the morning routine has rules. The heart doesn't." Memorable, earns its place.
+- "Misbehave. Not 'fail.' Not 'underperform.' Misbehave." The word-choice analysis is the kind of close reading the corpus rarely commits to. Sharp.
+- The Brené Brown beat (Episode #409) is real critic-engagement: the analysis names her argument, doesn't paraphrase it into mush, and concedes Ferriss didn't concede.
+- The OCD disclosure → fear-setting reframe is a genuine aha: "His most famous productivity tool, fear-setting… is, functionally, a framework for managing his OCD."
+- The closing — "still searching for the right way to stop searching" — is one of the better cut-to-blacks in the corpus.
+
+WEAKNESSES (3-5 bullets, specific — name lines, phrases, sections):
+- The "what he can't see is the voice underneath" → "what's underneath" pattern repeats. The piece is fond of the iceberg metaphor.
+- Bolded mid-paragraph thesis lines ("Every Tim Ferriss book is a correction." / "Seventeen separate problems. One source." / "live correctly, or suffer the consequences of your own sloppiness.") are stacked too thick. By the fourth one, they read as autopilot.
+- The 4-Hour Body section ends with "doing everything right and having it not work" — a rhetorical swing that's true but a cliché in productivity-author profiles.
+- The "child still doing what the child did" closing image is here in full: "the child who couldn't fix his mother's sadness, the teenager who couldn't earn the respect of East Hampton's summer people, the Princeton senior who concluded…" Triplet plus inner-critic flourish.
+- The Naval Ravikant pushback is interesting evidence but the Brené Brown beat already covers the same ground; one of them could compress.
+
+GAPS / MISSED OPPORTUNITIES (3-6 bullets):
+- The Jacobin/Meagan Day critique is a single sentence ("take all the work… and outsource it to 'remote assistants' in the developing world"). The piece names the criticism, then the next sentence pivots to "But the book's deeper appeal was never about outsourcing." That's a duck. The labor critique is real and the corpus's promised critic-engagement should hold the position longer.
+- No quote from a named ex-collaborator, ex-employee, or ex-VA. Plenty of self-disclosure, no off-camera testimony. The graders' feedback flagged this and it remains true.
+- The psychedelic-philanthropy section is admiring without acknowledging that Compass and ATAI critics include people who'd push back on Ferriss's role too (Joanna Kempner, Hamilton Morris-style commentary on the legalize-vs-medicalize split). The naming of Compass and ATAI is good; engaging the full debate would be better.
+- Bipolar disorder is named once and then dropped. The "over fifty depressive episodes" claim sits next to the Stoicism section without the analysis asking whether Stoicism-as-coping is actually working for someone with bipolar disorder.
+- The disclosure of childhood sexual abuse is treated with care, but the analysis doesn't address the criticism (raised in the comments on Episode #464 itself) that ayahuasca-recovered memories are contested in trauma research. That's a place where rigor would strengthen, not weaken, the piece.
+
+PATTERN HITS (DJ tropes that worked here):
+- Self-narrative-as-case is cleanly executed: "I should be grateful" gets parsed as inner critic doing its work, not just Ferriss being humble.
+- The note-taking shelves, kanji poster, fridge-Aurelius beat is a strong piece of physical-environment-as-character.
+
+PATTERN MISSES (DJ tropes that felt formulaic, recycled, or autopilot here):
+- "It is not X. It is Y." used multiple times: "Not 'fail.' Not 'underperform.' Misbehave." / "Not validation. Value." (in xQc — recurring) / "Not casually. Fifty times." / "Not curiosity. Conviction." / "Not grief. Not helplessness. Self-prosecution."
+- Number-becomes-person opener echo: "He was twenty-one years old…" — softer version of the trope.
+
+CRITIC-ENGAGEMENT: Mixed. Brené Brown is engaged at full strength. Naval is engaged at half strength. Jacobin/labor critique is named and bypassed. The pattern: he engages critics whose disagreement is psychological/interpersonal, ducks critics whose disagreement is structural/political.
+
+CURRENCY (2026 anchor): Yes — March 2026 "Self-Help Trap" post, January 2026 Shawn Ryan show, October 2025 20VC, the TMS treatment in early 2026. Strong currency anchor.
+
+DEFENSE-COUNSEL CHECK: Light to moderate. The Lyme-via-keto narrative ("he designed a strict ketogenic protocol to starve them of glucose") is presented as reasoned biology when it's a contested clinical claim. The piece doesn't defense-counsel the inner critic, but it does occasionally let Ferriss's framing of his own science go unchecked.
+
+PRIORITY FIXES (numbered, in order of impact — 3 max):
+1. Hold the Jacobin/labor critique for a full paragraph instead of a sentence. Ferriss's career was built on a structural arrangement (someone always does the work) that the corpus claims to value naming. Engage it.
+2. Restructure the investing section as the existing meta-comment recommends — the $150M loss disclosure is the emotional payoff and it's buried under timeline.
+3. Trim the bolded mid-paragraph thesis sentences by half. The prose can carry the diagnosis; the bold is overprescribing.
+
+============================================================ -->
+

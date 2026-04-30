@@ -366,3 +366,57 @@ Still open:
 - The Rooster peg is now properly earned by its own section, but the contrast panel still name-checks Rooster early. An editor may want to decide whether the contrast panel mention is now redundant or whether it correctly primes the reader for the later section.
 - Line length: the piece is now substantially longer after the three new sections (Daily Show, Leaving The Office, Little Miss Sunshine, The Patient, Rooster). If an editor flags length, the easiest cuts are the "paradox that sits at the center" graf and the Michael Scott section's Greg Daniels quote paragraph, both of which are the closest to thesis restatement.
 -->
+
+<!-- ============================================================
+FRESH-EYES ASSESSMENT — 2026-04-29 PASS 3 (Claude cold read)
+============================================================
+
+ONE-LINE VERDICT: A genuinely lived-in profile that earns its read by accumulating concrete, specific scenes (tour bus, fife, Bennett Miller, the dog) rather than relying on type-theory shortcuts — easily one of the strongest in this batch.
+
+STRONGEST SECTION: "What Bennett Miller Noticed About Steve Carell on the Set of Foxcatcher" — Miller's "push it down and do something normal that nobody else does" + "He is a dam" lands the whole thesis in one paragraph that no other Carell profile has assembled this way.
+WEAKEST SECTION: "Why Nancy Walls Thought Steve Carell Hated Her" is delightful but the section meanders into Colbert's "beige against a tan wall" detour before getting to Nancy. The Colbert beat would land harder elsewhere.
+
+STRENGTHS (3-5 bullets, specific):
+- Tour bus opener does not waste a word — the physical "shrank into a little ball" is iconic and earned.
+- The "I love lamp" reframe as Nine-merge-with-nearest-object is the kind of insight that justifies the type lens existing at all.
+- Hockey goalie + fife + Catholic + name-change-from-Caroselli is a cumulative case, not a checklist — the texture does the typing for you.
+- The two-Nines-thinking-the-other-hated-them anecdote is unforgettable on first read.
+- The dog/Edwin closer earns its emotional weight without milking it; the lineage paragraph (parents now both gone) is load-bearing.
+
+WEAKNESSES (3-5 bullets, specific — name lines, phrases, sections):
+- The contrast-panel between "Public Steve Carell" and "Private Steve Carell" right after the tour-bus opener kills momentum — it's framework intrusion at the worst possible moment.
+- "A Type 3 would never say any of that. A Type 4 would never say any of that. A Type 8 would laugh at the idea of saying any of that" is the rule-of-three counter-typing tic the corpus overuses, and it feels especially mechanical here.
+- "A Three would defend the show to the death. An Eight would double down and dare the culture to cancel them. A Nine says…" — same tic, same blog. Twice.
+- "It curled up. It apologized for having waved in the first place." — single-sentence dramatic-paragraph stack in the opener; one of these would be plenty.
+- The "What is Steve Carell's personality type?" / "Steve Carell is an Enneagram Type 9" double-header inside an h2/h3 nesting feels SEO-machine-y when the surrounding prose is so unmechanical.
+
+GAPS / MISSED OPPORTUNITIES (3-6 bullets — what a fan/critic would expect that's absent):
+- The Big Short (2015) is still skipped — a Nine playing a man who saw the truth and was ignored is right in the thesis pocket.
+- Vice (2018) and Carell as Donald Rumsfeld is also missing; for a piece arguing "stillness becomes menace," that's a load-bearing role.
+- Despicable Me / Gru gets one passing mention as evidence of "becoming what the room needs" but the franchise is the reason a generation of kids know him — the Nine-as-cartoon-supervillain-melted-by-children deserves a beat.
+- No engagement with the "Office wouldn't fly today" comments getting blowback from Office fans — he gave the quote but the piece doesn't sit with what it cost him.
+- No mention of his post-Office shaky middle (Last Flag Flying, Welcome to Marwen reception). The dramatic pivot is presented as a clean line; it wasn't.
+
+PATTERN HITS (DJ tropes that worked here):
+- Bolded-mid-paragraph thesis sentence ("Carell was not acting the cringe. He was remembering it.") earns its weight because the surrounding paragraph builds to it.
+- Opening-anecdote-as-thesis works because the tour bus is a real story with a real punchline, not a manufactured frame.
+- Long-form section titles ("How a Quiet Kid in Acton, Massachusetts, Decided to Not Be Noticed") match the unhurried voice.
+
+PATTERN MISSES (DJ tropes that felt formulaic, recycled, or autopilot here):
+- The "A Type 3 would / 4 would / 8 would" rule-of-three counter-typing appears twice in this blog, the second time only a few sections after the first.
+- "It is not X. It is Y." contrast-pair is here in soft form ("It tells you that the wallpaper… became the painting everyone stopped to look at").
+- The contrast-panel intrusion in the type-explainer section is the corpus-wide framework-overlay habit at its most distracting.
+- The disclaimer template at the bottom is identical across blogs and reads like boilerplate the reader will skip.
+
+CRITIC-ENGAGEMENT: No real engagement with critics — there is essentially no "Carell criticized for X" beat anywhere in the piece. The "Office wouldn't fly today" line could have been the entry point but isn't pushed.
+
+CURRENCY (2024-2026 anchor): Yes — Rooster (March 2026) gets its own section, and the Good Hang podcast (2026) appears in the opener and again in the Rooster section. Currency is one of the blog's strengths.
+
+DEFENSE-COUNSEL CHECK: Light. The framing of leaving The Office quietly because "NBC simply never got around to making Carell a definitive offer" is the closest moment — it lets the Nine off the hook for not asserting himself by reframing the silence as the network's failure first.
+
+PRIORITY FIXES (numbered, in order of impact — 3 max):
+1. Cut one of the two rule-of-three counter-typing paragraphs ("A Three would / Eight would / Nine would" appears twice — pick the one tied to leaving The Office and lose the earlier one in the type-explainer section).
+2. Move or rework the contrast-panel after the tour-bus opener — it deflates the best opening in the batch. If the panel must stay, push it down to the type-explainer or cut it entirely (the prose already does this work).
+3. Add a 2-3 sentence beat on critic engagement — the "Office wouldn't fly today" controversy from Office superfans is the natural hook and the piece currently presents that quote as costless.
+
+============================================================ -->

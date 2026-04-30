@@ -244,3 +244,56 @@ An image manager would never say that out loud. A romantic outsider would likely
 ---
 
 > **Disclaimer:** This analysis of Timothée Chalamet's Enneagram type is speculative, based on publicly available information, and may not reflect his actual personality type.
+
+<!-- ============================================================
+FRESH-EYES ASSESSMENT — 2026-04-29 PASS 3 (Claude cold read)
+============================================================
+
+ONE-LINE VERDICT: A sharp Type 6 read built around one excellent contradiction (the man who needs protecting + the man who demands greatness) — and the corpus's best example of "anxiety charging at the thing it fears most" as a Six framing.
+
+STRONGEST SECTION: "The Authority Question" — the Cruise-vs-Nolan-vs-Safdie comparison turns generic obedience-vs-rebellion into a case-by-case Six evaluation pattern. Genuinely original analytical move.
+WEAKEST SECTION: "Timothée Chalamet's Childhood in Manhattan Plaza" — the Manhattan Plaza thread is interesting but the bolded mid-paragraph pull-quote ("This building truthfully made me scared of acting") is doing the corpus's signature "bolded thesis sentence" thing.
+
+STRENGTHS (3-5 bullets, specific):
+- The "needed to be protected" Villeneuve quote vs. "pursuit of greatness" SAG speech contradiction is the cleanest opening contradiction in the batch.
+- "Catastrophizing as craft" is a memorable formulation that earns its placement.
+- The Kylie timeline (April 2023 -> first carpet Jan 2024 -> couple debut May 2025 -> Kylie follows him on IG July 2025) is the kind of "trust built one verified step at a time" specificity that makes the typing feel real.
+- The six-figures-on-SNL detail with the deep-cut Dylan songs ("a pure image strategist would have done the crowd-pleasers") is exactly the kind of small-strange-moment that the type-6 case needs.
+- The 2025 Numero quote about fewer fears properly closes the trajectory — and the Villeneuve callback ("knew his limits and how to focus") earns its placement.
+
+WEAKNESSES (3-5 bullets, specific — name lines, phrases, sections):
+- The TL;DR + bolded intro paragraph + "Enneagram Type 6" subheader all restate the same thesis three times. Triple front-loading at full volume.
+- "Not ambition wearing anxiety as a costume, but anxiety that has learned to charge directly at the things it fears most" — contrast-pair tic, used as the central thesis line.
+- "Total submission to Safdie. Defiance of Nolan. Gospel-level following of Cruise." — counter-typing rule of three, classic corpus tic.
+- Multiple bolded mid-paragraph thesis sentences: "**This building truthfully made me scared of acting**" / "**I'll do anything you ask me to do.**" Both serve as the bolded-thesis-tic.
+- The "out of my depth or out of control" 2018 quote vs. 2025 "fewer fears" quote contrast is the corpus's standard before/after type-arc move; it's true here, but it's structurally identical to ten other corpus blogs.
+
+GAPS / MISSED OPPORTUNITIES (3-6 bullets — what a fan/critic would expect that's absent):
+- No engagement with the Armie Hammer / Call Me By Your Name reckoning that Chalamet entirely ducked publicly. A Type 6 piece should examine that silence.
+- The Wonka era is missing entirely — the choices, the press tour, the way it positioned him.
+- No mention of Saoirse Ronan, his most consistent professional partner, or what he does in a long-running collaboration vs. a new authority.
+- The piece references his rap stuff ("Lil Timmy Tim") as a humor footnote but never asks why a Six chose to have those tapes survive on YouTube.
+- The Daniel Day-Lewis comparison is invoked at the SAG speech without any pushback — DDL retired and Chalamet is closer to mid-career working actor pace. A critic-fan would notice that mismatch.
+- The Marty Supreme reception isn't quoted from any actual critic. The "top-level shit" backlash is sketched but no critic is named.
+
+PATTERN HITS (DJ tropes that worked here):
+- The "Loyalty as Architecture" / "Catastrophizing as Craft" coined-phrase moves both work because the pattern they describe is genuinely Six-shaped.
+
+PATTERN MISSES (DJ tropes that felt formulaic, recycled, or autopilot here):
+- Counter-typing rule of three twice: the Cruise/Nolan/Safdie line + the "Five years on Dylan. Seven years on ping pong." rhythmic stacking.
+- "The simplest version: Chalamet is not driven by certainty. He is driven by what happens when certainty is missing." — contrast-pair tic.
+- "Both directions run on the same engine: the terror of being misjudged." — engine metaphor, corpus's most overused image.
+- The closing "already scanning the horizon for the next thing that could go wrong" is the corpus's "child still doing what the child did" cut-to-black template.
+
+CRITIC-ENGAGEMENT: Engaged the criticism implicitly (Kanye comparisons "surfaced") but no named critic. The "misinterpreted in my quest" walkback is treated as Type 6 stress pattern without anyone on the other side of the argument quoted by name.
+
+CURRENCY (2024-2026 anchor): Yes — SAG 2025, Marty Supreme 2025 press tour, November 2025 breakup rumors, Dune 3 wrap, 2026 IMAX Nolan screening. Strong.
+
+DEFENSE-COUNSEL CHECK: Soft. The "top-level shit" / Kanye-comparison moment is reframed as Six stress oscillation rather than examined as actual self-aggrandizement. Type theory absorbs the misstep.
+
+PRIORITY FIXES (numbered, in order of impact — 3 max):
+1. Cut the triple-front-loaded thesis. The TL;DR is fine; the bolded intro paragraph repeats it; the "Enneagram Type 6" subhead repeats it again. Pick one.
+2. Engage the Armie Hammer silence or the Wonka choice — both are Six-shaped behavioral data the piece skips.
+3. Name one Marty-Supreme-press-tour critic and quote the actual argument. "Comparisons surfaced" is the corpus's most-ducked construction.
+
+============================================================ -->

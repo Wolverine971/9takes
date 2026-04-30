@@ -313,3 +313,58 @@ He told an interviewer early in his career: "Finding peace outside comedy is ess
 The question Tim's career poses isn't whether he's found peace. It's whether the alchemy itself is a kind of peace. Turning every wound into material, every disaster into a bit, every darkness into something a million pigs can laugh at together. Or whether it's a more sophisticated version of the same defense that kept a thirteen-year-old doing cocaine alone in the dark.
 
 > **Disclaimer:** This analysis of Tim Dillon's Enneagram type is speculative, based on publicly available information, and may not reflect his actual personality type.
+
+<!-- ============================================================
+FRESH-EYES ASSESSMENT — 2026-04-29 PASS 4 (Claude cold read)
+============================================================
+
+ONE-LINE VERDICT: A genuinely strong open and a genuinely strong close on a comedian who's hard to type, with a soft middle that lapses into career-summary mode.
+
+QUALITY-CEILING TIER: TOP (held back from "ceiling" by sourcing gaps and the Saudi/CNN beats not earning their critic-engagement promise)
+
+STRONGEST SECTION: The opener (Snuffleupagus → cocaine → toxic mortgages → egret nest) — every line is a stair-step and none of them is wasted. The egret detail is the one most other corpus pieces would have cut for being too weird; it's the best detail in the batch.
+WEAKEST SECTION: "Building the Empire" — career summary that the existing meta-comment already flagged. Specials list, Patreon numbers, "I'm 36 years old…" quote. Reads like a Wikipedia paragraph.
+
+STRENGTHS (3-5 bullets, specific):
+- "The mortgage broker who got foreclosed by his own mortgages" is the lived-experience detail that makes the entire "Fake Business" worldview click.
+- "A Type 7, the type defined by scattered energy, constant motion, and pain avoidance, chose a format that requires sitting alone, going deep on single topics… That's Type 5 behavior. And Type 5 is exactly where healthy Sevens integrate." Genuine 7→5 insight, drives the analysis instead of decorating it.
+- "King Pig: A Type 7 whose core passion is gluttony naming himself and his fans 'pigs' isn't branding. It's weaponized self-awareness." Sharp.
+- Closing line — "a more sophisticated version of the same defense that kept a thirteen-year-old doing cocaine alone in the dark" — cuts to black at peak insight. Best closer in this batch.
+- The 7w8 vs 7w6 split (vs Theo Von) is rare comparative type work that earns its place.
+
+WEAKNESSES (3-5 bullets, specific — name lines, phrases, sections):
+- ~10 direct quotes lack specific show/date attribution. The existing meta-comment flagged this and it's still true. ("My style has evolved greatly," "I liked cocaine because I would get it and do it by myself," "Long Island, in Tim's telling…")
+- "The Equal Opportunity Offender" subsection is the weakest paragraph — tells rather than shows. The "infuriates people on all political sides" line needs ONE concrete example of both sides claiming/rejecting him.
+- Triple front-loading at the open: the Snuffleupagus list, then the "voice" quote, then the "Tim Dillon doesn't tell jokes…" thesis paragraph all do the same job. The list alone could carry it.
+- "He commits to terrible positions so fully that they collapse under their own absurdity. Whether that's critique or complicity depends on whether you believe satire requires clear moral framing." This is the place where the analysis should pick a position and doesn't. The Hasidic-costume-and-Bari-Weiss reference is dropped without engagement.
+- "Fake Business" gets called Tim's "most iconic concept" but the section never quotes a specific Fake Business prank or shows the bit working. The analysis tells us it's iconic instead of demonstrating it.
+
+GAPS / MISSED OPPORTUNITIES (3-6 bullets):
+- The Whitney Webb appearances and the Alex Jones JRE #1555 reference are both name-checks that don't engage. Webb's Epstein work is contested in specific ways (overstated intelligence-service connections); the piece names her four appearances and moves on. That's exactly the autopilot the pass-3 finding warned about.
+- "Free Ghislaine" bit is referenced as "extended satirical defense… so iconic it spawned merchandise" — but the actual content of the satire is never shown. Either commit (this is satire that lands because of X) or cut.
+- The Riyadh fee was reportedly $375K. The piece treats this as a Type 7 compulsion ("most comedians would quietly take the money") without naming the comedians who DID take it. That comparative beat would carry the argument.
+- No named human critic. The closest: the Spectator quote ("one of the most awkward interviews observed") and CNN's Elle Reeve. Both are framed as Tim wins. There's no critic the piece sits with.
+- The schizophrenia-style-comedy framing ("the schizophrenic comedy style") tied back to the mother is a strong line, but the piece doesn't pause to ask whether using that as a stylistic descriptor risks the same thing comedians get critiqued for.
+
+PATTERN HITS (DJ tropes that worked here):
+- Self-narrative-as-case: "My talent comes from being a closeted gay cocaine addict" IS the diagnosis, and the piece doesn't apologize for it.
+- Single-sentence dramatic paragraphs work in the opening because each is a different decade and a different stage of the bit. Form earns content.
+
+PATTERN MISSES (DJ tropes that felt formulaic, recycled, or autopilot here):
+- "It is not X. It is Y." appears multiple times: "Tim Dillon doesn't tell jokes. He performs a psychological operation…" / "That isn't his natural Seven energy. That's the One emerging…" / "That's not a bit. That's compulsion." The "That's not X. That's Y." rhythm is the most-used construction in the piece.
+- "Type 7s under stress move toward the rigid, perfectionistic patterns of Type 1" — type-plural diagnostic crutch right before the specific reading. The plural feels glued on.
+- Engaging-institutional-critics: "the New York Times," "CNN," "the New York Post" all appear. Specific human critics: zero by name. Pass-3's reliable autopilot tic, hit cleanly.
+
+CRITIC-ENGAGEMENT: Weak. The piece treats every confrontation (Saudi Arabia, NYT, CNN, NY Post) as a Tim-wins set piece. No critic is named, none of their arguments are reconstructed, none gets a sentence that holds.
+
+CURRENCY (2024-2026 anchor): Yes — May 2025 CNN piece, August 2025 Saudi episode, January 2025 "I'm Your Mother" Netflix, "I'm 36" quote (currently 41). Some currency is rough — "I'm 36" reads off in 2026.
+
+DEFENSE-COUNSEL CHECK: Yes, mild. The Hasidic-costume / mocking-Bari-Weiss line is the spot. The piece names it, frames it as ambiguity, and routes the reader's discomfort into "depends on whether you believe satire requires clear moral framing." That's defense by trolley problem.
+
+PRIORITY FIXES (numbered, in order of impact — 3 max):
+1. Source the unattributed quotes. The existing meta-comment is right and Pass 4 confirms it. Specific show + date pushes Evidence to 9.
+2. Replace the "Equal Opportunity Offender" abstract framing with one specific incident where both left and right tried to claim or eject him. The Saudi beat alone doesn't do it.
+3. Pick a position on the Bari Weiss / Hasidic / Webb / Jones platforming pattern. "Whether that's critique or complicity depends on…" is the duck pass-3 warned against.
+
+============================================================ -->
+

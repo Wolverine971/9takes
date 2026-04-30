@@ -252,3 +252,53 @@ The Four problem is not that other people will reject you. The Four problem is t
 Jennifer Coolidge knows this. That is why she keeps telling her depressing stories. That is why the haunted house is still standing. That is why, when she walks off the stage with the trophy, the smile does not quite reach.
 
 She got the wave the second time. It was twenty years late. She is hoping, against everything she has ever been, that this time she has the guts to stay on.
+
+<!-- ============================================================
+FRESH-EYES ASSESSMENT — 2026-04-29 (Claude cold read)
+============================================================
+
+ONE-LINE VERDICT: The most emotionally specific piece of the eight — Coolidge as Tanya-as-Coolidge is the rare case where the actor-character collapse is the actual thesis, and the piece earns it.
+
+STRONGEST SECTION: "Why Jennifer Coolidge Built a Haunted House" — the New Orleans gothic 1867 mansion as self-portrait, bought weeks before Katrina, lived in for 20 years of restoration not modernization, is the cleanest single Type 4 evidence in the corpus and reads like nobody else has noticed it.
+WEAKEST SECTION: "How Jennifer Coolidge Talks Now" — the "convert the lost decade into a public service announcement" framing is a soft restatement of "she keeps telling her depressing stories"; the section adds little new evidence and could be folded into the closer.
+
+STRENGTHS:
+- "She lost the next twenty years" landed in paragraph 5 — the falsifiable, specific, surprising claim that earns the read
+- The bend-and-snap / Stifler's Mom / Thank-U-Next / Mike-White phone call sequence is genuinely well-told biography that does Type 4 work without being announced as Type 4 work
+- The 4w5 Bohemian read ("the room they can hear from another room") is one of the more original wing-distinction lines in the corpus
+- The Tanya-section reading ("Even being noticed turns out to be a betrayal") is the deepest single Type 4 insight in the eight blogs — the wound at the moment of being chosen
+- The friend-who-saved-her-career beat is earned because the piece named "she could not leave the dance studio until her friends quit" early — it's setup-and-payoff, not just one-off
+
+WEAKNESSES:
+- "Spent twenty years grieving a life she didn't have / Tanya whose entire arc was grieving a life she didn't have" — the parallel construction is the title of the blog and the body uses it 3+ times; once is the punchline, three times is overkill
+- The opening 6 paragraphs deliver the entire thesis ("she sabotaged twenty years of her career chasing an unattainable man, and that same longing built Tanya") — the rest of the piece lacks tension because the answer is already given
+- "She names the wound. She returns to it. She wants you to know about it." — the rhetorical Rule of Three is used 4 times in the piece (names/explains/keeps the wound; lives there / made friends with disappointment; etc.) — recognizable cadence
+- Working notes acknowledge load-bearing quotes ("obsessed with a man," Maron WTF) were not source-verified — the entire 20-year-derailment thesis hangs on quotes the writer admits he sourced via secondary reporting
+- "She is dating, sort of" / "I'm very, very immature" / "I think that has kept me from having children" — the "How Jennifer Coolidge Talks Now" section reads like padding before the closer
+
+GAPS / MISSED OPPORTUNITIES:
+- A Mighty Wind / Christopher Guest ensemble work (For Your Consideration, Mascots) is name-dropped but never explored — the Guest universe is where Coolidge developed her improvisational craft, and craft analysis is absent
+- No Reese Witherspoon or Christopher Guest co-star testimony beyond Mike White — the piece's working notes flag this as a known gap; it shows
+- The Two Broke Girls / Place to Call Home / The Watcher / Riverdale television work between American Pie and Tanya is entirely absent — the actual shape of the lost decade was constant supporting work, not silence
+- The romance section blames the unattainable man for the lost decade but never names a single one — even oblique reference ("the man she has spoken about as Mr. X") would harden the load-bearing claim
+- Nothing on the Mike White / Tanya season-2 death — the on-screen murder is the literal climax of her Type 4 arc; the piece hands it to a quote-T-shirt joke and moves on
+- White Lotus season 3 (2025) and post-Tanya pivot — what is she doing now that Tanya is dead? Coolidge in 2026 should have at least one current-tense beat
+- No engagement with the obvious counter: that the lost decade was Hollywood ageism for a 40-something character actress, not unattainable-man self-sabotage — the piece takes Coolidge's own explanation at face value when the structural explanation is at least as plausible
+
+PATTERN HITS (DJ tropes that worked here):
+- The "What She Still Cannot Quite Believe" closer with the Golden Globes mid-speech smile-drop is one of the better Type-4-specific endings in the corpus — concrete, observational, not asserted
+- The 4w5 Bohemian framing as a structural diagnosis (not just a wing footnote) does real work
+- TL;DR accordion bullets are tight and falsifiable
+
+PATTERN MISSES (DJ tropes that felt formulaic):
+- The required "What is X's personality type?" H2 followed by "X is an Enneagram Type Y" sub-header followed by a bulleted "evidence:" block is the corpus boilerplate — used identically across all eight blogs and is starting to feel mechanical
+- The "What she is not: a Type 7" pressure-test paragraph is a recurring DJ move — works as a critical pass but always has the same shape ("Sevens reframe pain into possibility. Sevens move on. Sevens do not...")
+- Single-word-punchline paragraphs ("That is a Four." / "Nothing landed." / "She lived there.") — used 4+ times here; same rhythm device appears in Sandra and Shakira
+
+PRIORITY FIXES:
+1. Trim the opening — paragraphs 1-6 give away the entire thesis (sabotage + Tanya parallel + 20 years grieving). Hold one of those reveals. The Tanya-as-Coolidge reading should land in the dedicated Tanya section, not the hook.
+2. Cut the "spent twenty years grieving a life she didn't have / Tanya whose entire arc was grieving a life she didn't have" parallel from the opening — let it land once, in "What Tanya Was Actually About," where the section can earn it.
+3. Add at least one current-era beat (post-Tanya 2024-2026 work, what does she choose now that the role is dead?) — the piece ends on "she's hoping she has the guts to stay on" but never tells us whether she has.
+
+============================================================ -->
+

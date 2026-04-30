@@ -300,4 +300,53 @@ Pre-existing citations in the article (unchanged) verified during revision:
 - https://www.out.com/movies/2016/8/17/robert-de-niro-me-my-gay-dad — Robert De Niro Sr.'s sexuality and journals.
 -->
 
+<!-- ============================================================
+FRESH-EYES ASSESSMENT — 2026-04-29 (Claude cold read)
+============================================================
+
+ONE-LINE VERDICT: The most ambitious of the assigned eight — when it lands ("He vacates Robert De Niro for a while, and Jake moves in") it's the best Enneagram-celebrity writing in the corpus, but the thesis is so beautifully built that the prose occasionally falls in love with itself.
+
+STRONGEST SECTION: "The Father's Studio Robert De Niro Keeps Exactly As It Was" — the preserved studio + HBO doc reading-his-father's-journals-out-loud is the single most original piece of analysis in any of the eight blogs. "He pays the rent for thirty-three years" is the line of the corpus.
+WEAKEST SECTION: "When Robert De Niro Finally Yells" — the Tony Awards / courtroom outburst section is correct but the 9→6 disintegration explanation is more textbook than the rest of the piece, and the parallel between Tony stage and courtroom is over-stated ("That shout in the courtroom is the Tony Awards shout with the cameras moved ten feet" — too clean).
+
+STRENGTHS:
+- "He does not serve the writing. He vacates his own space so the writing can move in" — best single Type 9 distinction in the entire corpus. Earned the pull-quote.
+- The Bobby Milk / hamster-in-the-pocket cold open is specific, falsifiable, and immediately advances the thesis without telling.
+- "The shy boy could not make his own voice reach his own father. He could only make John Wayne's voice reach him." — line of the piece. Doesn't strain.
+- Why-not-Type-5 sub-section is the cleanest type-discrimination beat in the corpus. The "A Five preserves. A Nine loans itself out" distinction is real analytical work.
+- "You talkin' to me?" as Springsteen-deflection-in-mirror reframed as Nine-talking-to-not-himself is genuinely original — most Type 9 reads of De Niro never get to that level of textual analysis.
+- Virginia Admiral as MoMA-collected painter pre-Pollock corrects the standard biography in a way that serves the thesis ("the loudest grief in the house is always somebody else's").
+
+WEAKNESSES:
+- "Vacate" / "empties" / "loans himself out" / "goes missing" / "stops being home to care" — the same metaphor with five variants in the first half. The line is so good in its first iteration that the others diminish it.
+- "Storage" metaphor: "Nines do not lack inner life. They just store it somewhere other than where the interviewer is looking" — appears once in the diagnosis, then echoed in the Comedy section ("the person they were loaned to") and again in the studio section.
+- The Comedy Years narcotization read is a strong move but "the Nine merged with whoever was willing to pay him to wear a speedo" is the kind of line that's clever enough to overshadow the analysis. The argument that *Dirty Grandpa* is the same mechanism as *Raging Bull* needs a beat of evidence; right now it's an assertion delivered with rhetorical flourish.
+- "The hamster in the pocket was not a phase. It was a strategy" — useful, but the hamster gets called back three times (lede, childhood section, "His own voice stays in the pocket where the hamster used to be"). Three is one too many.
+- The Bradley Cooper "fuel" quote is great but the section that frames it ("Most stars are a wall you bounce off. Robert De Niro is a door") is doing the work the quote already did.
+- Two consecutive paragraphs in "The Comedy Years" make the same Type-9-narcotization point with different metaphors (drug of choice / signal coming in). They could be one paragraph.
+
+GAPS / MISSED OPPORTUNITIES:
+- *Heat* diner scene is mentioned but not analyzed — Mann's no-rehearsal decision is set up beautifully and then the section pivots to "Pacino remembers, De Niro remembers the trucks." A piece this analytically confident should mine that scene more.
+- No engagement with the criticism that De Niro hasn't done a great performance since *The Irishman* (2019), or that his late-career political shouting has degraded his cultural authority. The piece treats the Trump-era outbursts as data; a fan would want the question of whether the *art* has suffered to be addressed.
+- Diahnne Abbott / Grace Hightower marriages are absent — a piece about a man who can't be himself in his own name should at least nod at the women whose names he was beside.
+- No mention of *The King of Comedy*'s Rupert Pupkin even though the piece argues De Niro plays men "fantasizing... into an empty basement." Pupkin is the perfect Type-9-as-narcotized-fan analog and the piece references him in the closing only.
+- The seven children — including the recently born Gia — get one sentence; "no judgment" as the two qualities he received least is a strong line but the children themselves are absent as Type 9 evidence.
+
+PATTERN HITS (DJ tropes that worked here):
+- TL;DR accordion has the best bullet of the corpus: "The Shy Boy Problem: He learned early that his own voice was not welcome." That bullet is doing real thesis work.
+- Sub-headers inside H2s ("The 8 Wing Explains the On-Screen Force," "Why Not Type 5?") work here because they're structuring genuine sub-arguments, not just breaking up text.
+- The single-image close (De Niro standing on his mark, looking at nothing, "and then he wasn't there anymore. Frank Sheeran was") earns its weight because the piece has built to it.
+
+PATTERN MISSES (DJ tropes that felt formulaic, recycled, or autopilot here):
+- "X is not Y. X is Z." — "The man himself is 5'9". On screen he reads like a six-foot enforcer. The voltage is not in the body." Same cadence appears in Keith Lee, Harrison Ford, Blake Lively. By the time you read three of these in a row it's a tic.
+- The diagnosis section's Type 9 paragraph drops type theory in textbook voice ("Type 9 personalities run on a quiet, load-bearing belief...") in a way that the rest of the piece carefully avoids. Same problem on Van Gogh.
+- "That is the [type] doing [thing]" formula — "That is the Type 9 compressed into a casting brief" (Harrison Ford), "That is what a Nine in integration looks like in real time" (here). Recurs across the corpus.
+
+PRIORITY FIXES:
+1. Trim the vacate/empty/loan/missing metaphor cluster to two strongest placements. The first iteration is the line of the corpus; the others water it down.
+2. Cut one of the two narcotization paragraphs in the Comedy Years section — the second one ("If the signal coming in is strong...") is restating the first.
+3. Address one critic-level counter-argument (late career decline OR political-shouting cultural cost) — the piece is so generous to its subject that a fan would feel it's protecting him.
+
+============================================================ -->
+
 

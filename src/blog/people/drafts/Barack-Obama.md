@@ -298,3 +298,59 @@ He is still walking the colonnade. Not the literal one — the White House is so
 Always composing.
 
 > **Disclaimer:** This analysis of Barack Obama's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Barack Obama.
+
+<!-- ============================================================
+FRESH-EYES ASSESSMENT — 2026-04-29 PASS 2 (Claude cold read)
+============================================================
+
+ONE-LINE VERDICT: A genuinely literary character study built around the "calm as armor" thesis — the strongest writing in this batch — but it reads as protective of Obama's record and ducks the meat of both his left-flank and right-flank critics.
+
+STRONGEST SECTION: "The Marriage Deficit" — the Michelle "deficit" framing is precise, doesn't melodramatize, and the "you can sit at the dinner table every night and still be in the Situation Room in your head" line is the kind of original writing the piece has more of than any other in the batch.
+WEAKEST SECTION: "What is Barack Obama's Personality Type?" — six bulleted "evidence" points read like a worksheet; theory-bolted-on rather than theory-emerging.
+
+STRENGTHS (3-5 bullets, specific):
+- Hook (15 games of spades during the bin Laden raid) is specific, falsifiable, surprising — earns the read in three paragraphs.
+- The Adichie pull ("a man watching himself watch himself") is the best critic-quote in the batch — let to land without defanging.
+- Lolo Soetoro's chicken-slaughter scene + boxing gloves is biographical detail most Obama profiles skip; does real diagnostic work.
+- "Trained myself. Not born this way. Trained." earns its drama because it's grounded in his own quoted words.
+- The cigarette-frown closer with Malia is the rare DJ closing image that lands without the "child still doing what the child did" trope.
+
+WEAKNESSES (3-5 bullets, specific — name lines, phrases, sections):
+- Two clear "It's not X. It's Y." constructions: "He wasn't performing composure. He was composure." and "The composure was never the absence of feeling. It was the evidence of how much feeling there was…" — the corpus tic, capped at 1.
+- "Always composing." as final two-word paragraph is the bolded-micro-thesis closing tic — earned but recognizable.
+- Multiple single-sentence dramatic paragraphs ("Trained myself. Not born this way. Trained.", "Curious. Not relieved, not frightened in retrospect. Curious." [Reagan-style — but here too], "Fearless. The Nine who…").
+- The TL;DR and the typing section's six bullets repeat the same evidence — front-loading thesis three times before the piece has earned it.
+- "Critics from both parties called it the defining failure of his foreign policy. Obama called it 'the right decision'…" → the critique is named but the piece immediately reframes it as Type 9 stress under Six. The Enneagram becomes the defense lawyer, not the diagnostician.
+
+GAPS / MISSED OPPORTUNITIES (3-6 bullets — what a fan/critic would expect that's absent):
+- Drone strikes / kill list / Anwar al-Awlaki's son — the single most damning left-flank critique, never mentioned. A "calm armor" thesis without this is incomplete.
+- Wall Street bailouts / no banker prosecutions — the central economic-progressive critique of his presidency, absent.
+- Snowden/NSA/whistleblower prosecutions — also absent.
+- Right-flank critique is essentially nonexistent: Benghazi, IRS, "you didn't build that," apology tour framing — none engaged.
+- 2024-2026 currency thin: the Medium essay is referenced once but his role in the 2024 election (Biden replacement pressure, Harris endorsement, post-Trump-victory posture) is not anchored.
+- The Israel/Gaza divide that defines his late-stage Democratic identity is missing.
+- Reggie Love's later book and the staff portraits of distance / coldness is alluded to but no specific named-aide critique is engaged.
+
+PATTERN HITS (DJ tropes that worked here):
+- Childhood-as-architecture (Indonesia, Lolo, Ann's empathy) is the corpus structural move done well — the two-poles-becoming-the-Type-9 framing is genuinely useful here.
+- The colonnade-walk-as-ritual detail is the kind of small physical specificity that sells the type.
+
+PATTERN MISSES (DJ tropes that felt formulaic, recycled, or autopilot here):
+- "It's not X. It's Y." construction (twice) — corpus autopilot.
+- Counter-typing rule of three appears in soft form: "Pure Nine might drift… One wing gave him a compass" + Type 6 stress + Type 3 growth — the textbook arrows-drop is recognizable.
+- TL;DR + bolded intro + typing section = thesis stated three times before evidence.
+- The "Always composing." closing micro-thesis is the corpus closing-cadence move.
+- "Composure was never the absence of feeling…" reverse-of-X-actually-Y construction.
+
+CRITIC-ENGAGEMENT: Names Adichie (literary critic) substantively — that's real. But never names a partisan critic from either side with their actual political objection. The Syria red-line is the only policy fight engaged, and the Enneagram does the defending.
+
+CURRENCY (2024-2026 anchor): Weak. One reference to a "January 2026 Medium essay" near the close, but no specifics on the 2024 Biden-replacement drama or 2025-2026 Trump-2 era posture. Closes on the colonnade metaphor, not a current beat.
+
+PARTISAN TILT: Sympathetic to Obama's frame. The piece accepts his "I take the long view" self-narration and the Type 9 explains-away of failures. A right-coded reader would recognize the Enneagram functioning as defense counsel.
+
+PRIORITY FIXES (numbered, in order of impact — 3 max):
+1. Add a section or substantial paragraph engaging drone strikes and the al-Awlaki strike specifically — this is the largest hole; "calm armor" without the body count is incomplete and a fair critic will spot it instantly.
+2. Update the post-presidency section with the actual 2024 Biden-replacement role — currency is the biggest practical gap and the material exists.
+3. Cut the second "It's not X. It's Y." construction and trim the typing-section bullets from six to three — let the biography do more of the diagnostic work.
+
+============================================================ -->

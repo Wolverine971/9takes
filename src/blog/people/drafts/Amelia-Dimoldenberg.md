@@ -254,3 +254,56 @@ Still open:
 
 Someone who actually watches her show will want to know: is the deadpan slipping? In the last year she's been visibly warmer on red carpets, less icy. Is the character evolving, or is she just getting tired of it? The piece treats the persona as stable. Worth at least a line acknowledging the drift.
 -->
+
+<!-- ============================================================
+FRESH-EYES ASSESSMENT — 2026-04-29 PASS 2 (Claude cold read)
+============================================================
+
+ONE-LINE VERDICT: One of the strongest celebrity profiles in the corpus — the Garfield-in-gold-LaQuan-Smith opening, the "she made refusal her charm" thesis, and the gendered-power-joke section all earn the read; the only real cost is the 32-paragraph length where 20 would have hit harder.
+
+STRONGEST SECTION: "The Gendered Power Joke Nobody Names" — the only section that names the show's actual mechanism, and the rare moment in this corpus where DJ identifies what audiences feel before they articulate it. The Hot Ones contrast ("Hot Ones asks male celebrities to perform pain. Chicken Shop Date asks them to perform attraction") is the sharpest comparative move in the piece.
+WEAKEST SECTION: "The Format, Exported: Oscars, BAFTAs..." — accumulates a list of greatest hits (Harlow, Mescal, Kaluuya, Theroux, Garfield) without picking one to depth-read. Reads like a research dump.
+
+STRENGTHS (3-5 bullets, specific):
+- Opening scene is genuinely cinematic — Garfield, the gold dress, the horoscope flip, "I only ever want to see you" — and it earns the rest of the piece. This is the corpus's best hook.
+- "She made refusal her charm. She made withholding her flirtation. She made deadpan a seduction strategy and aimed it at the most charismatic people alive." — the best three-sentence run in the blog.
+- The Marylebone/Harrow Road/Saint Martins triangle is specific class-and-image diagnosis, not vibes. "A daughter who then went to the school that teaches you to decode images professionally."
+- "Is the Deadpan Slipping?" engages a real shift fans would notice and resolves it as Type 3 iteration rather than ducking. Currency move.
+- The "private love life as last unoptimized corner" reframe is genuinely original — most pieces about her stop at "she's single."
+
+WEAKNESSES (3-5 bullets, specific — name lines, phrases, sections):
+- The piece is too long. By the "Titan Is Still Climbing" close it's already landed twice — the Drake-on-the-waitlist beat and the "ten years to become a titan" math both appear earlier and the closer just restates them.
+- "What's missing here…" / "the gendered power joke nobody names" / "the climb is not over" — three sections diagnose the same Type 3 scoreboard mechanism.
+- The 3w2 label gets stamped: "social subtype, most likely 3w2" / "social 3w2 collapsing two jobs" / "3w2 Achiever standing inside the machine" / "Achievement equals love. Average equals invisible." After the typing section the framework is over-explicit.
+- "She owns the tape" / "She booked for clips" / "she's curating a character in post" — three near-identical formulations of the edit-room control thesis in successive paragraphs.
+- "The titan line reads like a finish. Inside a 3, it is a starting gun." — closer overreaches into corpus-pattern aphorism after a much better line ("a nineteen-year-old in her Lambeth academy is writing down the third rule") already landed.
+
+GAPS / MISSED OPPORTUNITIES (3-6 bullets — what a fan/critic would expect that's absent):
+- The Drake interview never actually happened — what does it mean if the joke ages? The blog treats it as a victory; a critic would ask whether the unfulfilled tease is itself the bit.
+- No engagement with the "is this format OK with male guests of color" question — Kaluuya's "Camden... it's not you" is named but the racial dynamics of a white Jewish woman cutting Black male artists with deadpan from chicken-shop set-pieces is hovering and unaddressed.
+- The Aitch relationship "looked to most observers like a mutual PR moment" — that's the blog asserting cynicism without sourcing it. A critic would push back.
+- Where does Kai Cenat / Hot Mic / Subway Takes / female-led comparisons (Ziwe) sit? Sean Evans is the only named peer.
+- No mention of the show's COVID-era pause or pandemic-era pivots — the format-evolution narrative skips the empty-restaurant period.
+- Class critique: she is a Marylebone Jewish kid making a chicken-shop format. The piece raises this and then never asks whether anyone in the original grime audience read that as appropriative.
+
+PATTERN HITS (DJ tropes that worked here):
+- "The Look Is Part of the Joke" pays off the CSM/Vogue setup that earlier drafts left dangling — this is exactly the kind of structural return DJ does well.
+- The dad-and-mum joke-currency anecdote ("If you make a sibling laugh, you've hit the jackpot") is the unfakeable kind of detail that does diagnostic work.
+- "She runs the ice. The heat runs the friendships, the mentorship, and the team." — clean two-beat sentence that earns its rhythm.
+
+PATTERN MISSES (DJ tropes that felt formulaic, recycled, or autopilot here):
+- Counter-typing rule of three appears: "A Type 3 actress would play that as a set of distinct arcs… A Type 5 actress would… A Type 7 actress would…" wait, that's in the Maddie Phillips blog — but Amelia has its own version: "A 7w8 might bulldoze… Hoffman builds coalitions" and the wing-stamping refrain.
+- "It is the X" thesis construction: "It is the bargain." / "It IS the trade secret." / "It is the joke." / "That is the move." Single-sentence dramatic-emphasis paragraph appears 6+ times.
+- Bolded micro-thesis sentences mid-paragraph: "_It worked. So she kept it._"
+- Triple front-loading of thesis: opening Garfield scene + TL;DR + "What is her personality type" — the Type 3 frame is established three times before the actual analysis.
+
+CRITIC-ENGAGEMENT: Largely ducks. The blog names "the gendered power joke" but doesn't engage critics who'd say the format reproduces the leering gaze, or who'd flag the class/race optics. No named skeptic gets a counter-reading.
+
+CURRENCY (2024-2026 anchor): Yes — 2026 Oscars third year, October 2025 Passenger Princess, Dimz Inc Academy in Lambeth, AW25 Gentlewoman, 2025 TIME100 Titan, 2025 Adweek "evolving" quote. Currency is excellent.
+
+PRIORITY FIXES (numbered, in order of impact — 3 max):
+1. Cut 25-30% — kill duplicate framings of the "scoreboard inverts" beat, collapse the three thesis-front-loads into one strong opener, trust the reader after the typing section.
+2. Engage one named critic of the format — class, race, or "is the deadpan misogynist-coded" — instead of celebrating the mechanism uncritically.
+3. Replace the closer. "The titan line reads like a finish. Inside a 3, it is a starting gun." is on autopilot. End on the Lambeth nineteen-year-old or the Drake-still-on-the-waitlist beat — not on a dramatic-emphasis epigram.
+
+============================================================ -->

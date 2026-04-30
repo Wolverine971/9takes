@@ -268,3 +268,54 @@ A man who builds organizations designed to function without him, then leaves whe
 The stuttering boy who covered his walls with maps found his voice by understanding the machinery beneath human communication. He just never stopped wishing the machinery could run itself.
 
 > **Disclaimer:** This analysis of Jack Dorsey's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Jack Dorsey.
+
+<!-- ============================================================
+FRESH-EYES ASSESSMENT — 2026-04-29 PASS 2 (Claude cold read)
+============================================================
+
+ONE-LINE VERDICT: A solid Type 5 portrait of Dorsey that does its strongest work surfacing the ugly contradictions (the whisper campaign against Williams, the $68M concert vs 4,000 layoffs) and doesn't let the meditation aesthetic off the hook — but the typing leans on biography over psychology.
+
+STRONGEST SECTION: "117 Mosquito Bites in a Cave" — the Myanmar/Rohingya episode is where the piece earns its critical bite; the "Five's retreat can look like obliviousness when the world outside the meditation hall is on fire" reframe is genuinely sharp.
+WEAKEST SECTION: "The Two Jacks" — the three-phase aesthetic-evolution thesis (t-shirt phone number → Jobs cosplay → Rick Owens) is intellectually neat but the "each phase maps to a Five integrating: from isolation, through imitation, toward genuine self-expression" reads imposed rather than evidenced.
+
+STRENGTHS (3-5 bullets, specific):
+- The maps-on-the-wall opening is a strong visual hook and the "Most kids who love maps want to explore the world. Dorsey wanted to understand its operating system" reframe lands.
+- The Bilton "revenge-motivated whispering campaign" beat is the load-bearing anti-hagiography move — the piece doesn't soften "literally building a new company with one hand while scheming to retake the old one with the other."
+- The $68M concert / 4,000 layoff sequence with Naoko Takeda's testimony is the rare moment of human-cost specificity in a Type 5 read; "the abstraction always feels more real than the faces" is a real diagnostic line.
+- Bitcoin-as-protocol-utopia connection ("Bitcoin is the same thing he wanted Twitter to be — and failed to make it") is a unifying thesis that earns its place.
+- The "perfect meeting where he says nothing" closing image is genuinely memorable and lands as a Type 5 paradox.
+
+WEAKNESSES (3-5 bullets, specific — name lines, phrases, sections):
+- The Two Jacks transformation arc reads like a writer's three-act framework projected onto unrelated style choices; Steve-Jobs-cosplay is a real period but "wanted to perform competence" is interpretive.
+- "He didn't rage. He didn't sue. He went quiet — and then he went to work." — three-beat single-sentence rhythm is corpus autopilot.
+- The Myanmar section calls his response "the right thing to say, and woefully insufficient" — a contrast-pair tic that lands but is the third such pair in the piece.
+- The Bluesky departure ("Because Bluesky wasn't what I thought it would be") is treated as principled Type 5 retreat without examining whether moderation tools were actually a betrayal or just an inevitable feature.
+- "Then he funds Nostr — Notes and Other Stuff Transmitted by Relays. A protocol so decentralized..." — the tech-acronym expansion is awkward in-line and breaks the rhythm.
+
+GAPS / MISSED OPPORTUNITIES (3-6 bullets — what a fan/critic would expect that's absent):
+- His relationship with [Elon Musk](/personality-analysis/Elon-Musk) post-acquisition gets two sentences; the actual Twitter-to-X arc, his current view of Musk, and his vocal disagreements with the moderation regime are absent for a 2026 piece.
+- The Bluesky board exit + his subsequent public attacks on Bluesky (calling it a "honeypot" etc.) are missing — the most public Dorsey beat of 2024-2025.
+- His relationship with women / dating / wife/partner is never mentioned; for a Type 5 monastic-discipline portrait, the absent intimate-life is itself diagnostic and goes unexamined.
+- Square/Block's payday-lending criticism, Cash App's role in scams, and the financial-empowerment-vs-actual-harm critique never appear despite the "abstraction over faces" thesis being primed for them.
+- The Rohingya/Myanmar response is engaged but his role enabling Trump's Twitter account / 2020 election misinfo / Jan 6 ban-then-restore arc — a critic's central case — is absent.
+- 2026 currency: the Block layoffs Feb 2026 are anchored, but his current Bluesky feud and Nostr funding levels are sketched rather than dated.
+
+PATTERN HITS (DJ tropes that worked here):
+- The wound-origin opening (stuttering kid → "he learned to observe instead") earns its place because the dispatch-software-at-14 throughline pays it off.
+- The unflinching ugliness paragraphs (whisper campaign against Williams, $68M party) prove the piece isn't a fan letter — rare in this corpus.
+
+PATTERN MISSES (DJ tropes that felt formulaic, recycled, or autopilot here):
+- "It's not X. It's Y." contrast pair: "These aren't wellness trends... they're the logical extension..." / "Not because the person doesn't care. Because the abstraction always feels more real than the faces." / "It's not financial speculation — it's architectural beauty."
+- The "Y. Z." short-paragraph rhythm: "Not the man in the suit. Not the MIT researcher. Not the podcaster..." (rule of three negative).
+- Closing-H2 "The Perfect Meeting Where He Says Nothing" + the "He just never stopped wishing the machinery could run itself" wistful-tag close is corpus autopilot.
+
+CRITIC-ENGAGEMENT: Decent — names Andrew Stroehlein (Human Rights Watch), Progressive Voice Myanmar, the #JackIgnoresGenocide hashtag, Mizuho's Dan Dolev on the AI-layoffs framing, and a verified Block employee on Blind. Real critics, real arguments. One of the better critic-engagement scores in this batch.
+
+CURRENCY (2024-2026 anchor): Yes — Feb 2026 layoffs, Sept 2025 $68M event, May 2024 Bitcoin prediction. Anchored.
+
+PRIORITY FIXES (numbered, in order of impact — 3 max):
+1. Add a section or strong paragraph on the Bluesky exit + his subsequent public attacks on it — the natural climax of the protocol thesis is ducked, and 2024-2025 Dorsey is largely his Bluesky feud.
+2. Trim or rebuild the "Two Jacks" section — the three-phase aesthetic arc is the weakest link; either tie each phase to a specific Five-integration evidence beat or cut to a tighter "the persona kept changing while the engine didn't" paragraph.
+3. Engage the Cash App / payday lending / scam-vector critique — the abstraction-over-faces thesis is primed for it and skipping it leaves the Block section feeling selectively damning.
+
+============================================================ -->
