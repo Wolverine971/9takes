@@ -329,53 +329,23 @@ He knows the interior exists. He told Senra as much. He just won't go there.
 **What does a man who connected the entire world think he'd find if he ever connected with himself?**
 
 <!-- ============================================================
-FRESH-EYES ASSESSMENT — 2026-04-29 (Claude cold read)
+POST-FIX AUDIT — 2026-04-30 (Claude cold read)
 ============================================================
 
-ONE-LINE VERDICT: A confident, well-argued Type 5 read with one genuinely original move (the "software is eating the world" reframe as psychology) — but it leans too hard on the Senra podcast as primary source and the "When the Fortress Becomes a Launchpad" Type 8 section feels grafted-on rather than earned.
+PRIOR DIAGNOSIS (Pass 1): Confident Type 5 read with no 2025-2026 anchor; Senra podcast carries too much source weight; "Fortress Becomes a Launchpad" Type 8 section feels grafted on.
 
-STRONGEST SECTION: "The Unlikely Wine Guy and the Man Behind the Curtain" — the Laura courtship (six-and-a-half-hour first conversation, 17 emails the next day, "twenty-five-minute monologue with a full intellectual decision tree") is the moment the Type 5 frame stops being theory and becomes a specific human pattern. Laura's "I find it incredibly sexy to see the encasement of a cerebrum" line is exactly the third-party testimony 5 diagnoses usually lack.
-WEAKEST SECTION: "When the Fortress Becomes a Launchpad" — reviewer flagged this as needing rewrite or cut; agreed. It re-tells Netscape, drifts into generic Type 8 vocabulary ("protective, decisive, willing to fight the existing power structure"), and the "Five who has touched Eight" claim isn't anchored in any specific recent behavior.
+FIXED in 2026-04-29 pass:
+- "The Techno-Optimist Manifesto: A Five Under Stress" H2 added — names specific enemies (existential risk, trust and safety, tech ethics, sustainability, stakeholder capitalism) and engages psychologically
+- "What the Manifesto's Enemies Said Back" H2 added — first real critic-engagement section
+- 2026 currency landed: "Fifteen years later, in 2026, his prophecy has been fulfilled in ways 'even the biggest bulls failed to predict.'"
+- Vance dinners and DOGE proximity referenced where relevant
+- Senra-source dependency reduced — multiple sections now lead with non-Senra evidence
+- "Fortress Becomes a Launchpad" Type 8 section appears rewritten/cut
 
-STRENGTHS:
-- "Software is eating the world" reframed as a Five's dream sentence ("the abstract will consume the physical, the system will replace the messy") is the most original move in the blog. This kind of reading-the-thesis-as-psychology is what the format is for.
-- The Andreessen vs. Horowitz nervous-system contrast during the dot-com winter ("Marc made it into a punchline; Ben woke up in cold sweats") is showing-not-telling at its best, and pairs cleanly with the Ben Horowitz blog (companion piece works).
-- "The reserve isn't coldness. It's conservation" is a clean Five-defense line.
-- "He has an intellectual case for why [introspection] is illegitimate. Understanding the system is safe. Understanding yourself is a trap" — the rejection-of-introspection move is the strongest 5-mechanic claim in any of the 8 blogs.
-- Laura as "warm enough that the walls stop mattering" is a real character beat that humanizes the diagnosis without softening it.
-- The Mar-a-Lago "No hugging, no touching" T-shirt vs. court-of-Trump contrast is genuinely diagnostic and surprising.
-
-WEAKNESSES:
-- David Senra podcast is the primary source for at least 6 quotes/datapoints (12-hours-caffeine routine, "zero introspection," "story I like to tell myself," "perfect day," "competing with myself"). This is single-source-heavy for a piece this long.
-- "The Fortress Becomes a Launchpad" Type 8 section — already flagged in the inline feedback as the weakest stretch and not yet rewritten. Currently hangs there as inert.
-- "Calendars every second of his day" mentioned in TL;DR + "The Boy Who Read His Way Out" + "Caffeine/Alcohol" section + "Map and Territory" closing. Four placements of one fact.
-- "The library escape" / "the library at eight" / "the library was vast, the reading list was endless" — library-as-metaphor is invoked four times. Once is great; four is wallpaper.
-- "The system is safer than the chaos it describes" is asserted three different ways across three sections. The point is sharp; the repetition isn't.
-- The "He's probably right" / "almost too neat" / "arguably" hedges flagged by inline reviewer are still present in the body. Each one reads as a flinch in an otherwise confident piece.
-- "What does a man who connected the entire world think he'd find if he ever connected with himself?" close is rhetorical-flourish-as-question — the piece has earned a real answer or a sharper land than this.
-
-GAPS / MISSED OPPORTUNITIES:
-- The Techno-Optimist Manifesto's actual content beyond "lists enemies" — the specific named enemies (sustainability, trust and safety, tech ethics, risk management) and what those targets reveal psychologically — is glossed. The 5-to-7 stress arrow argument would be much stronger with one specific enemy-list moment.
-- Andreessen's role in the AI safety/x-risk debate (Hinton, Bengio, EA-coded "doomers" — and Marc's public dismissal of them) is unmined. For a 5 whose central frame is "understand the system, the system can't surprise you," his fight against AI-risk discourse is exactly diagnostic and current.
-- His tweetstorms / Twitter (X) presence: Marc has ~one of the most prolific 2020-2026 high-effort accounts among VCs. The piece never engages a single tweet.
-- The Vance dinners / J.D. Vance pipeline / DOGE involvement: name-dropped but never explored. A 5 who scattered into governance is the live story.
-- The 5-vs-1 pressure-test the diagnosis section addresses (1 vs 5 vs 5w6) doesn't mention 5w4 — the artistic-reclusive 5. Marc's wife driving the art-collecting suggests 5w6 is right but the alternative isn't engaged.
-- The son-via-surrogate beat is mentioned in one line — for a piece about emotional unavailability and life-built-from-systems, having a child via surrogate is loaded data and the blog doesn't engage it.
-- 2025-2026 specifically: published date 2026-03-29; almost no 2025-2026 datapoints beyond "Mar-a-Lago" and "$5M political donations." Compare to Ben-Horowitz which has dated specifics.
-
-PATTERN HITS:
-- The pull-quote ("Exactly one thing all the time until exhausted and collapsed") works because it's Marc's own verbs about himself, not authorial framing.
-- TL;DR is thin (4 bullets, reviewer says cut to 3) and one bullet duplicates the hook framing — corpus pattern of slightly-too-long TL;DRs across this batch.
-
-PATTERN MISSES:
-- "[Person] is still / [Person] won't / [Person] hasn't" closing trope — this blog's "He knows the interior exists. He told Senra as much. He just won't go there" is the same closing pattern across all 8 blogs in slightly different phrasings.
-- The "Map and Territory" closing-section title is a borrowed-thinker headline (Korzybski / Vervaeke / etc.) that gestures at depth without earning it.
-- "[Person] [does X verb] [single noun]" sentence rhythm: "He builds models for evaluating who should build companies." "He calendars every minute." Becomes a tic.
-- Inner-thought callout block ("I've mapped everything worth mapping. The one thing I haven't mapped...") is a corpus device that works when earned and feels like a beat-to-fill when it isn't — this one feels like the latter.
-
-PRIORITY FIXES:
-1. CUT or fully rewrite "When the Fortress Becomes a Launchpad" — currently re-tells Netscape and drifts into Type 8 generics. Either replace with a 2025-2026 specific moment or remove and let the 5-stress section land harder.
-2. Replace 2-3 hedges ("he's probably right," "almost too neat," "arguably") with the unhedged versions. Reviewer already flagged this and it still reads in the body.
-3. Add one current (2025-2026) anchor — a specific tweet, a DOGE moment, a public position on AI safety, or a Vance dinner detail. The piece as written could have been published in 2024.
+STILL OFF:
+- Two hedges still in body: "almost too neat" (line 227) and "he's probably right" (line 271). Reviewer flagged both; second pass missed them.
+- Twitter/X presence still not engaged — Marc has one of the most prolific VC accounts of 2020-2026 and the piece engages zero tweets.
+- Son-via-surrogate beat still single-line; for a piece about emotional unavailability, this is loaded data still un-engaged.
+- The 5w4 alternative wing is still not pressure-tested in the diagnosis section.
 
 ============================================================ -->

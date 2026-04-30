@@ -311,56 +311,21 @@ He hasn't really. The role has the title; the work is what he started in Chicago
 In Denver in March 2025, 34,000 people did. That was a larger crowd than either of his presidential campaigns ever drew, gathered to hear an 83-year-old deliver a speech he could have delivered in 1972 to ten people in a Burlington union hall. The audit hasn't moved. Some of the country finally got close enough to read it.
 
 <!-- ============================================================
-FRESH-EYES ASSESSMENT — 2026-04-29 PASS 2 (Claude cold read)
+POST-FIX AUDIT — 2026-04-30 (Claude cold read)
 ============================================================
 
-ONE-LINE VERDICT: A genuinely strong character study built around the "moral compass with no off switch" thesis — earns its read on the strength of biographical specificity (Brooklyn rent fights, Larry's tears at the convention, mittens, folk album), but reads as nearly hagiographic and lets Bernie's most damaging Type 1 failures off too easy.
+PRIOR DIAGNOSIS (Pass 2): Nearly hagiographic; ducks three-houses hypocrisy, Burlington College, Yaroslavl honeymoon, 2020 fold to Biden — the Type 1 blind spot of standards applied outward but not inward.
 
-STRONGEST SECTION: "The Brother Who Cried at the Convention" — the single best section in the piece; the parents-not-the-political-moment beat lands the entire thesis in one image without telling.
-WEAKEST SECTION: "What is Bernie Sanders' Personality Type?" — generic, textbook-y type drop ("Enneagram Type 1s are wired with…"), three-bullet "Here's the evidence" pattern; reads like the Enneagram was bolted on rather than woven in.
+FIXED in 2026-04-29 pass:
+- "Where the Compass Goes Quiet" H2 added — direct paragraph engagement of three homes (Burlington / Capitol Hill townhouse / 2016 lakefront cabin in North Hero, $575,000)
+- Jane Sanders / Burlington College FBI investigation engaged honestly: "the man who would call this exact pattern out in a corporate executive defended his wife as an unimpeachable victim of a partisan inquiry — which is human, and also revealing of where the moral engine quiets down"
+- 1985 Yaroslavl honeymoon + Cuba literacy praise as Burlington mayor on the page
+- TL;DR fifth bullet adds the friction: "the same perfectionism that points unsparingly at oligarchs goes quiet around three houses, Burlington College, the 1985 Yaroslavl honeymoon, and a 2020 fold to Biden"
+- "83 and Still Talking" current beat — Denver March 2025, 34K crowd
 
-STRENGTHS (3-5 bullets, specific):
-- Hook earns the read: "same speech for 40 years" → "It's a moral compass that doesn't have an off switch" is a real thesis with falsifiability built in.
-- The Howard Johnson's / Willis Wagons / $25 fine paragraph is concrete journalistic detail most Bernie profiles skip.
-- "The boy who lost his mother became the man who won't stop talking about healthcare. Not as a policy position. As a debt." — original, earned line.
-- The 8.5-hour Senate sermon section uses the loss/win paradox cleanly to advance thesis (the failure becomes the launch).
-- Including Barney Frank's 1991 "holier-than-thou" quote and the 2023 HELP Committee complaint is the rare moment where critic-side evidence is allowed actual weight.
-
-WEAKNESSES (3-5 bullets, specific — name lines, phrases, sections):
-- Closing rhetorical question "is the system going to break first, or is he?" is the corpus's autopilot escape hatch — feels written, not earned.
-- Three single-sentence dramatic-emphasis paragraphs ("Ten votes.", "She was forty-six. Bernie was eighteen.", "He kept talking anyway.") — the device is overused and starts feeling formulaic by the third instance.
-- "Sanders calls it 'the issues.'" is a great line but the contrast-pair tic underneath it ("They call it frustration. Concern. Urgency. Sanders calls it…") is recognizable corpus DNA.
-- The "Type 1s frequently mistake their own emotional needs for distractions from the work" is exactly the textbook-drop pattern — Type theory pasted on top of evidence rather than emerging from it.
-- Saying "He didn't become a politician. He became a man standing in a courtroom that only he can see…" is overwritten in a way the piece otherwise resists; the closing courtroom metaphor is workshop-y.
-
-GAPS / MISSED OPPORTUNITIES (3-6 bullets — what a fan/critic would expect that's absent):
-- Zero engagement with the "Bernie bro" toxicity / 2016 primary handling of Hillary Clinton supporters — a critic-side flashpoint that defines a generation's view of him.
-- 2020 endorsement of Biden and the speed of his fold gets no treatment — a crucial test of "can't compromise" thesis.
-- His three houses / wealth-vs-ideology criticism is missing entirely (Burlington College Jane Sanders FBI inquiry, the lakefront cabin) — fans will note this is the most-asked-about contradiction.
-- Stress (Type 7) and growth (Type 4) Enneagram movements are not named; only the 1w2 wing.
-- Cuban revolution / 1985 honeymoon in USSR / Castro praise — biographical facts a critic would expect addressed under a "moral compass" thesis.
-- Israel/Gaza 2024-2025 stance, his split with much of the Senate Democrats — the live current-tense beat that most defines late-Bernie is largely absent (one passing AOC tour reference).
-
-PATTERN HITS (DJ tropes that worked here):
-- The "Larry at the convention" closing-as-character-revelation works; specific scene over abstract claim is the corpus at its best.
-- Childhood-installed-thesis structure (Brooklyn apartment → 60-year mission) is on-brand and earns it here.
-
-PATTERN MISSES (DJ tropes that felt formulaic, recycled, or autopilot here):
-- The "It's not X. It's not Y. It's Z." construction appears twice ("Not idealism. Not socialism. Not even conviction…" and "Not as a policy position. As a debt.") — corpus tic.
-- "What looks like X is actually Y" framing repeated across multiple sections (TL;DR, mayoral win, kept talking).
-- Single-sentence dramatic paragraphs (3+ instances, see above).
-- Generic Type-1 textbook drop in the typing section.
-- Closing "is the system going to break first, or is he?" is the rhetorical-question escape hatch pass 1 already flagged.
-
-CRITIC-ENGAGEMENT: Names Barney Frank and a Senate aide on his abrasiveness, which is real engagement — but ducks the bigger right-wing critique (socialism's track record, three-houses hypocrisy) and the left-wing critique (folded for Biden, Israel softness). One-sided named criticism only.
-
-CURRENCY (2024-2026 anchor): Yes — June 2025 Joe Rogan interview and the Fighting Oligarchy tour with AOC drawing 261K, Denver 34K. Solid current beat near the close.
-
-PARTISAN TILT: Reads sympathetic to Bernie's left frame. The blog accepts his moral self-conception largely on its own terms; no equivalent willingness to let a conservative critic land a punch about socialism's empirical record or his exemption from his own anti-wealth standard.
-
-PRIORITY FIXES (numbered, in order of impact — 3 max):
-1. Add one substantial paragraph engaging the "three houses / Jane / Burlington College" hypocrisy critique — the single biggest credibility hole for non-fans. Type 1 perfectionism applied to others but not self is the actual blind spot.
-2. Cut the workshop-y final two paragraphs ("courtroom only he can see" / "is the system going to break first") and end on Larry at the convention or the Rogan "step over you" quote — both already in the piece and stronger.
-3. Trim single-sentence dramatic paragraphs to 1-2 max and rewrite the Type 1 typing section so theory emerges from the evidence rather than being labeled on top of it.
+STILL OFF:
+- "Bernie bro" 2016 primary handling of Hillary supporters — still not engaged. Pass-2 flag stands.
+- Israel/Gaza 2024-2025 stance and his split with much of the Senate Dems — only one passing AOC tour reference; the live current-tense critic-side beat is light.
+- Stress (Type 7) and growth (Type 4) arrows still not named; only 1w2 wing.
 
 ============================================================ -->

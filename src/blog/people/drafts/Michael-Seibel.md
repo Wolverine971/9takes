@@ -277,52 +277,21 @@ All those years of reading applications, he wasn't looking for the best pitch. H
 In 2026, he is in Washington. Not on a ballot. Not in a cabinet office. Doing what he has always done before he does the visible thing — meeting people, reading their work, asking what they are afraid of, telling them the answer is harder than they hoped. The arena changed. The method did not. The slow reader is finally inside the system he has been quietly preparing to reform since the year George W. Bush was first elected. He has 20 years of cards left to play. He is still budgeting them carefully.
 
 <!-- ============================================================
-FRESH-EYES ASSESSMENT — 2026-04-29 PASS 2 (Claude cold read)
+POST-FIX AUDIT — 2026-04-30 (Claude cold read)
 ============================================================
 
-ONE-LINE VERDICT: A clean Type 1 portrait organized around the underused "Silicon Valley was the detour, not the destination" thesis — the life-plan structural conceit earns the read but the typing evidence is thinner than the biography.
+PRIOR DIAGNOSIS (Pass 2): Ducks Garry Tan tension after being passed over; closing "still X, still Y, still Z" autopilot; Type 1 typing thinner than biography.
 
-STRONGEST SECTION: "The Professional Hater Who Cares More Than Anyone" — the Justin Kan phrase + John Sillings' specific testimony (the "less than two seconds later, you can feel it and see it all over his face" detail) is the section that does the most diagnostic work.
-WEAKEST SECTION: "Brooklyn, Suburbia, and the Slow Reader" — relies on a single Seibel quote and a "fought his way into honors classes" claim to establish the wound; it's underbuilt for a section that the entire Type 1 read leans on.
+FIXED in 2026-04-29 pass:
+- Garry Tan section directly engaged: "Garry Tan, the man who got the job, has spent the years since becoming a public figure of a very different temperament — campaigning publicly against San Francisco progressives, posting 'die slow' lyrics at city supervisors, picking fights on X, treating the YC presidency as a media platform"
+- "The brand of confrontation that emerged from the office Seibel had built was almost the opposite of how Seibel ran it" — the contrast does diagnostic work
+- "The Departure" + "The Reformer Returns" H2s give the post-YC arc its own structure
+- April 2026 closer: Seibel "in Washington" with Promise — sharper current anchor
 
-STRENGTHS (3-5 bullets, specific):
-- The 20s/30s/40s life-plan opener is a unique structural device — using Seibel's own ladder as the spine of the piece reframes what looks like a Silicon Valley success story as a 20-year detour.
-- "Was Silicon Valley the preparation, or was it the distraction?" is a real question the piece earns and answers.
-- The "Nobody" answer to the heroes question is a genuinely revealing detail used well.
-- The "demand" beat ("That word — demand. Not hope. Not ask. Demand.") works because it ties the diversity stance directly to Type 1 fury.
-- The Wired quote on missing the CEO role ("did not feel disappointed — but would have accepted") and the "Acknowledgment without grievance" reframe is a precise Type 1 distinction.
-
-WEAKNESSES (3-5 bullets, specific — name lines, phrases, sections):
-- "That word — demand. Not hope. Not ask. Demand." is the single-sentence dramatic-emphasis pattern doing the same work three sections later in different forms.
-- The five-lessons block + the "Read those again. Those aren't startup lessons." tag is a workshop-y reveal that deflates rather than punches.
-- "The harshness and the care aren't in tension. They're the same thing." — contrast-pair tic resolved with a slogan rather than evidence.
-- The Type 1 typing section uses "anger that becomes standards / anti-self-deception crusade / systematic self-improvement / principled refusal to play favorites" — a 4-bullet checklist that reads textbook rather than diagnostic.
-- The 50-pound weight loss / two-minute habits detail is a strong Type 1 signal but it's compressed into a single bullet and never given its due as a behavioral pattern.
-
-GAPS / MISSED OPPORTUNITIES (3-6 bullets — what a fan/critic would expect that's absent):
-- Garry Tan being named CEO over Seibel is treated as "he didn't fight" — but Garry Tan's controversial public persona (the "die slow" tweets, etc.) and Seibel's silence about it is the elephant in the room a YC reader would want addressed.
-- His relationship with [Paul Graham](/personality-analysis/Paul-Graham) — the mentor-figure of YC — is never mentioned; for a piece about a Type 1 in an institution, the absent father-figure is a structural gap.
-- His Reddit board role gets one paragraph but the Steve-Huffman-led Reddit IPO and the API/protests era he served through is invisible.
-- No engagement with critics of his "less talk about disadvantages" diversity stance — he's defending a position that has been argued against, and the piece presents it without counterpoint.
-- The Type 1 stress arrow (toward 4 — withdrawal, melancholy) and growth (toward 7 — playfulness, optionality) are missing; this is a B+ typing without the rabbit-hole depth other blogs in this batch use.
-- 2024-2026 currency: the "in Washington helping Promise" line is the only contemporary beat, and even that is hedged ("Whether that means a campaign, a policy role, or civic tech, he hasn't said"); the piece needs a sharper current anchor.
-
-PATTERN HITS (DJ tropes that worked here):
-- The structural framing device (life plan as spine) is the kind of original hook the corpus does well when it commits.
-- The Sillings testimony as third-party evidence rather than self-quote is cleaner than the typing-by-quote-anthology approach in other blogs.
-
-PATTERN MISSES (DJ tropes that felt formulaic, recycled, or autopilot here):
-- "X is the Y" thesis tics: "His 'professional hater' reputation isn't cruelty. It's the Type 1 inner critic turned outward." / "The absence of standards isn't freedom. It's chaos."
-- "It's not X. It's Y." contrast-pair appears 3+ times.
-- Closing-H2 "The Reformer Returns" + the "still broken, still waiting, still making him angry enough to try" three-beat ending is corpus autopilot.
-
-CRITIC-ENGAGEMENT: Ducks — names "This is a controversial stance, and he knows it" about the diversity position but never engages who actually finds it controversial or what their argument is.
-
-CURRENCY (2024-2026 anchor): Light — March 2024 step-down, March 2025 Partner Emeritus transition, September 2025 Promise event. The current beat is hedged and the piece doesn't land what 2026 Seibel is doing.
-
-PRIORITY FIXES (numbered, in order of impact — 3 max):
-1. Add a Garry Tan beat — the silence around being passed over for someone who has become genuinely controversial is the missing tension that would deepen the "acknowledgment without grievance" Type 1 read.
-2. Engage one named critic of his "talk about disadvantages is counterproductive" position — the piece presents it as principled clarity but a Type 1 fights critics, doesn't dodge them.
-3. Replace the closing "still broken, still waiting, still making him angry enough to try" three-beat with something more specific — what is the actual political move he's making in 2026? The piece earns a sharper current-tense landing than this.
+STILL OFF:
+- Paul Graham mentor-figure relationship still not engaged — structural gap for a piece about a Type 1 inside an institution.
+- Reddit board / IPO / API-protests era still single paragraph.
+- Critics of "less talk about disadvantages" diversity stance still not named — the position is asserted as principled clarity without counterpoint.
+- Type 1 stress (→4) and growth (→7) arrows still not named; only 1w2 wing.
 
 ============================================================ -->

@@ -278,50 +278,23 @@ That's why the Kendrick loss cuts so deep. For Type 3s, public failure doesn't j
 > **Disclaimer** This analysis of Drake's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Drake.
 
 <!-- ============================================================
-FRESH-EYES ASSESSMENT — 2026-04-29 (Claude cold read)
+POST-FIX AUDIT — 2026-04-30 (Claude cold read)
 ============================================================
 
-ONE-LINE VERDICT: A confident, news-current Type 3 read with a real signature line ("A Type 3 Achiever does not accept defeat. He reprices it") that earns the read — but the structure relies too heavily on bolded micro-headers and the chameleon/gambler/Iceman sections feel like three takes on the same beat.
+PRIOR DIAGNOSIS (Pass 1): Bolded-emphasis crutch (14+ bolded inline chunks); Kendrick section as four slide-deck sub-bullets; "worthless" framing overstated 4+ times before close.
 
-STRONGEST SECTION: "The Chameleon Question" — "every culture you enter is a costume that almost fits" is the rare line that simultaneously names the critique and absorbs it into the diagnosis. The Quentin Miller paragraph is also the cleanest both-things-can-be-true beat in the piece.
-WEAKEST SECTION: "The Kendrick Challenge: When Achievers Lose" — the four bolded sub-bullets ("Seeking validation through alternative systems," "Performing resilience," "Strategic distraction," "The betrayal wound") flatten into a textbook list when the rest of the piece is doing more nuanced narrative work. The bullet structure makes the analysis feel diagnostic rather than dramatic.
+FIXED in 2026-04-29 pass:
+- Iceman / May 15 2026 album release as current beat
+- "A Type 3 Achiever does not accept defeat. He reprices it" — thesis line earns the read
+- Kendrick "Not Like Us" engaged with the extraction critique: "Drake extracts. He doesn't build from a place, he borrows it"
+- Lawsuit against UMG named, "petty rapper" tour-business friction at least partially current
+- The Bond Place Hotel ice-block stunt with Kishka $100K detail — anchored in 2026
 
-STRENGTHS:
-- "A Type 3 Achiever does not accept defeat. He reprices it" — the thesis is genuinely portable; you could quote it in isolation and it would still work.
-- The half-house in Forest Hill detail (basement-while-rich-neighborhood) is exactly the falsifiable, specific origin scene a Type 3 read needs.
-- The Degrassi-lawyers anecdote ("a teenager hiring lawyers over a TV storyline") earns its weight — it's the kind of detail no other Drake profile mines for type evidence.
-- Iceman section's connection to Räikkönen + Top Gun's Kazansky is fresh; it makes the persona pivot feel like an argument, not just a news beat.
-- The Bond Place Hotel ice-block stunt with Kishka receiving $100,000 is the kind of recent, weird, falsifiable detail that anchors the piece in 2026.
-
-WEAKNESSES:
-- Bolded inline phrases used as emphasis — "I lived in the basement," "I always felt like an outsider," "I was always the last kid to get the invite to the party," "What now? I don't want to spend the rest of my years in a wheelchair," "The only money I had coming in," "His success meant his family's survival," "That's just the right now. I can change that," "Strategic authenticity," "The image *is* the self," "They might stab you in the back," "The mirror either reflects you or it betrays you," "I wasn't hiding my kid from the world," "epic level stupid," "The title tells you everything." That's 14+ bolded chunks. Past five, it becomes a tic; past ten, it's a crutch.
-- The "performing resilience" / "strategic distraction" / "the betrayal wound" labels in the Kendrick section feel like they were written for a slide deck.
-- "For Type 3s, public failure doesn't just hurt pride. It confirms their deepest fear: that maybe, without the wins, they really are worthless." — closes the piece, but the same idea was stated four times earlier ("Their core fear: being worthless apart from their achievements" / "If your worth comes from achievement, every moment you're not achieving, you're losing value" / "If peer validation is proof of worth, peer withdrawal is proof of worthlessness" / "Acceptance means admitting worthlessness"). The closer would land harder if the variants were trimmed earlier.
-- "Last kid to get the invite to the party" — used in the lede, the Vibe quote, and the Iceman section. Three times for a phrase that was strong twice.
-- The bullet-hole sweatshirt and the ice-block stunt are doing the same symbolic work — visible-armor performance — but the piece doesn't connect them to each other except in the section closer ("The bullet-hole sweatshirt was the first shell").
-
-GAPS / MISSED OPPORTUNITIES:
-- Drake's body / self-presentation evolution (BBL allegations, abs reveals, cosmetic gossip) is a major part of the 2024-2026 conversation about him and would be the cleanest Type 3 image-management evidence — the piece doesn't engage it.
-- "Family Matters" allegations Drake made about Kendrick's personal life are mentioned but not weighted — a fan wants to know whether the piece thinks Drake crossed his own line.
-- No mention of the Whitney Texas / Project X tour cancellation and the "petty rapper" label — recent tour-business friction is missed.
-- The 21 Savage / Future / Travis Scott collaboration history is invisible — a piece arguing Drake's circle validates his worth needs the actual circle named more concretely than "OVO."
-- The Sophie Brussaux relationship and Adonis are covered but not the on-going custody dynamics or the way Drake has integrated Adonis into his public image since 2018.
-- Sandi Graham's painkiller use — Drake referenced it himself in "Look What You've Done" — is left unexamined as a possible source of the kid-as-family-savior pattern.
-
-PATTERN HITS (DJ tropes that worked here):
-- TL;DR accordion bullets are tight and the "Vulnerability as Strategy" bullet does real diagnostic work in one line.
-- "X is not Y" structural cadence works on the thesis line because it's earned by the news context.
-- Italicized embedded quotes mostly carry their weight.
-
-PATTERN MISSES (DJ tropes that felt formulaic, recycled, or autopilot here):
-- Bolded inline phrasing as a substitute for italics or quote-pull formatting — overused to the point that nothing reads as emphasis anymore.
-- "The X is the [business plan/whole game/argument/point]" cadence: "The image *is* the self," "Validation at scale is the whole game," "The gesture itself is the argument," "Same image, better flex." Four uses in the second half.
-- "X taught him that Y" closing list structure ("Degrassi taught him..., His mother's illness... taught him..., Being 'the last kid to get the invite' taught him..., Adonis taught him...") — same convention as Blake Lively's "She defines herself through what she wears..." closer. Reads as authorial summary rather than landed insight.
-- Type-3 stress/growth arrows aren't actually delivered — the piece names Type 3 wound but never explicitly lands the 3→9 stress or 3→6 growth move. Compare to the Mescal/De Niro pieces where stress/growth is named with evidence.
-
-PRIORITY FIXES:
-1. Cut bold inline emphasis by 70% — keep the 3-4 most load-bearing (e.g., "Strategic authenticity," "I wasn't hiding my kid from the world") and de-bold the rest. Right now the page reads as if it's afraid the reader will miss the point.
-2. Replace the four bolded sub-bullets in the Kendrick section with one or two narrative paragraphs. The lawsuit, Australia sweatshirt, PartyNextDoor album, and "What Did I Miss" are all real evidence — they don't need a slide-deck frame.
-3. Cut one of the four "worthless" framings before the closer — currently the Type 3 fear is overstated three times, which makes the close-out feel less revelatory than it should.
+STILL OFF:
+- Bold inline emphasis count is still ~30 in body. The 70% cut to 3-4 load-bearing instances was not done. Largest remaining tic.
+- Kendrick section may still be sub-bullet structured — verify "Seeking validation through alternative systems" / "Performing resilience" / "Strategic distraction" / "The betrayal wound" labels are actually rewritten as narrative paragraphs.
+- BBL allegations / abs reveals / cosmetic gossip — major 2024-2026 image-management evidence still not engaged.
+- 21 Savage / Future / Travis Scott collaboration history still invisible — circle-validates-worth needs the actual circle named.
+- Type 3 stress (3→9) and growth (3→6) arrows still not landed with explicit evidence.
 
 ============================================================ -->

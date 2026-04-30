@@ -337,54 +337,23 @@ A teenage girl in Park Ridge once spent an evening crawling through the snow loo
 > **Disclaimer:** This analysis of Hillary Clinton's Enneagram type is speculative, based on publicly available information, and may not reflect her actual personality type.
 
 <!-- ============================================================
-FRESH-EYES ASSESSMENT — 2026-04-29 PASS 2 (Claude cold read)
+POST-FIX AUDIT — 2026-04-30 (Claude cold read)
 ============================================================
 
-ONE-LINE VERDICT: A long, evidence-dense Type 1 portrait that lands the central thesis (concession-speech-as-duty) but bloats badly in the back half — the piece is 25-30% longer than its argument requires.
+PRIOR DIAGNOSIS (Pass 2): Long Type 1 portrait that bloats badly; never engages the left-of-Hillary critique; Iraq vote, Goldman Sachs, DLC pragmatism all ducked.
 
-STRONGEST SECTION: "The Email Controversy" — the unsent WikiLeaks draft speech as window into the Type 1 inner critic vs. public admission tension is the most original analytical move in the piece.
-WEAKEST SECTION: "Why the Fire Never Really Stopped in 2025 and 2026" — the Epstein deposition section is recent but adds nothing to the psychological portrait; reads as a current-tense bolt-on for SEO/freshness.
+FIXED in 2026-04-29 pass:
+- "Where Her Critics Make Her Hardest to Defend" H2 added — Iraq War vote engaged with Sanders on the record ("Hillary Clinton voted for the war in Iraq. I led the opposition to it.")
+- Goldman Sachs $225K speeches + WikiLeaks "You need both a public and a private position" line on the page
+- 1994 Crime Bill / "superpredators" engaged with Ashley Williams BLM confrontation named
+- DLC triangulation pressed honestly: "not every shift tracks principle. Some of them track polling."
+- "That beat doesn't break the Type 1 read. But skipping it would." — refuses defense-counsel
+- "For Type 1s, X" textbook framing cut from 4+ instances to 1 in body
 
-STRENGTHS (specific):
-- The toothpaste-in-the-snow childhood detail is specific and visceral — exactly the kind of evidence the corpus does well.
-- "Goldwater Girl to Democrat" arc as Type 1 principles staying constant while party labels became irrelevant is a fresh framing of a familiar bio beat.
-- Ted Kennedy's CHIP credit ("wouldn't be in existence today if we didn't have Hillary pushing") is a strong attribution that resists the "Bill's wife" reduction.
-- Beijing 1995 section anchored by the Melanne Verveer detail (walking in circles in case the cameras were on) gives the speech texture beyond "women's rights are human rights."
-- "For Type 1s, success isn't measured in speeches. It's measured in statutes." is a memorable line.
-
-WEAKNESSES (specific):
-- The piece reuses the same Type 1 mechanism description (inner critic, principles, duty, moral compass) probably 8-10 times across sections; many H2s say the same thing about a different event.
-- "What Kamala Harris's 2024 Run Stirred Up" doesn't earn its keep — it's two quotes plus reaffirmation of the thesis. Cut entirely or fold into one paragraph elsewhere.
-- "Why Competence Made Her Harder to Love" is interesting but stays at the level of Rebecca Traister's question — never answered, just posed.
-- "Why January 6 Hit the Moral Core So Hard" relies on "When Type 1s perceive fundamental moral violations..." — exactly the textbook-bolt-on the corpus is supposed to avoid.
-- Heavy reliance on bolded pull-quotes (more than 30 throughout) — visual fatigue, and several are workmanlike not memorable.
-- The Bill marriage section quotes Hillary's "gutsiest thing I've ever done" answer but doesn't engage the substantive critique that staying was politically calculated; the analysis stays inside Hillary's frame.
-
-GAPS / MISSED OPPORTUNITIES:
-- No real engagement with the left-of-Hillary critique (Bernie 2016, the DLC pivot, Iraq War vote, Goldman Sachs speeches) — the strongest critic-side argument that her "principles" bend toward power. A Type 1 thesis has to confront this.
-- "What Happened" is referenced but the Comey letter / Russia / Wisconsin-Michigan-Pennsylvania campaign decisions — the analytical questions about whether her own Type 1 inflexibility cost her — are absent.
-- Chelsea is invisible. The mother-daughter dynamic is a missed beat for a Type 1 raised by a Type-1-coded father.
-- 2024 — what did Hillary do during the Biden-step-aside drama? The piece skips past 2023-2024 except to mention the Stanford appearance.
-- The Vince Foster / Whitewater era: the Type 1's relationship to scandal-as-existential-threat is barely touched.
-- No counter-typing seriously argued. Type 3 (achievement-driven) and Type 8 (Benghazi composure) both have surface cases, neither tested.
-
-PATTERN HITS:
-- Childhood scene specificity (toothpaste / report card dismissal) is exactly the corpus-strong move.
-- The concession speech framing earns the read.
-
-PATTERN MISSES:
-- "It is not X. It is Y." appears multiple times: "Not because she wanted to. Because she believed it was the right thing to do"; "It wasn't just political attack. It was a Type 1 expressing genuine alarm"; "She wasn't dismissing the deaths. She was dismissing what she saw as political gamesmanship." Above corpus cap.
-- "For Type 1s, X" textbook phrasing used 4+ times — the bolt-on tic.
-- Single-sentence dramatic paragraphs ("It failed spectacularly." / "She left the party for good." / "She never gave that speech.") — frequent.
-- The whole piece is structurally an example of triple front-loading (TL;DR + opening graf + "What Drives a Type 1" section all reasserting the same thesis).
-
-CRITIC-ENGAGEMENT: Names Trump, Sanders never engaged, no historian or journalist critic engaged seriously. Rebecca Traister gets quoted but as ally, not challenge. Tony Blair-style adversary witness is missing — closest is the "stiff/scripted" press characterization, which gets reframed as a feature.
-
-CURRENCY: Yes — Feb 2026 Epstein deposition, but it's tacked on and adds little. The 2024 election aftermath and Biden-step-aside era are missing.
-
-PRIORITY FIXES:
-1. Cut 25-30% — specifically the Kamala 2024 section, the Jan 6 section's textbook framing, and the Epstein deposition coda. The piece has its argument; it doesn't need three more endings.
-2. Engage the left-of-Hillary critique (Iraq vote, Goldman speeches, DLC pragmatism) — does the Type 1 thesis hold when "principles" can be argued to have shifted toward power?
-3. Cut at least 4 of the "For Type 1s, X" textbook framings; trust the evidence.
+STILL OFF:
+- Length unchanged at ~390 lines / 39KB. The 25-30% trim from the priority fixes never happened.
+- Chelsea still invisible. Mother-daughter Type-1-coded dynamic is a structural gap.
+- Counter-typing not seriously argued: Type 3 (achievement-driven) and Type 8 (Benghazi composure) both have surface cases, neither tested.
+- Vince Foster / Whitewater era still barely touched — Type 1 relationship to scandal-as-existential-threat unmined.
 
 ============================================================ -->

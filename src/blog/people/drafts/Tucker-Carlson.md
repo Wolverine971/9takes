@@ -387,57 +387,23 @@ Bitter hate is not skepticism. Skepticism is the public posture; bitter hate is 
 > **Disclaimer:** This analysis of Tucker Carlson's Enneagram type is speculative, based on publicly available information, and may not reflect his actual personality type.
 
 <!-- ============================================================
-FRESH-EYES ASSESSMENT — 2026-04-29 PASS 2 (Claude cold read)
+POST-FIX AUDIT — 2026-04-30 (Claude cold read)
 ============================================================
 
-ONE-LINE VERDICT: A psychologically curious portrait that does the rare thing of taking Tucker's mother-abandonment wound seriously as a diagnostic engine, but it consistently treats his most damaging behaviors (Dominion, Fuentes, Putin) as Type 6 features rather than failures, making the whole piece read as more sympathetic than the subject earns.
+PRIOR DIAGNOSIS (Pass 2): Treats Dominion lying, Fuentes platforming, Putin interview as Type 6 features rather than failures — Enneagram functioning as defense counsel.
 
-STRONGEST SECTION: "The Wound That Created America's Skeptic" — the mother-abandoned-at-six + one-dollar-inheritance + father-pushed-out-by-Bush-staff stack is genuinely architectural and earns the type call before the type call is made.
-WEAKEST SECTION: "The Dominion Contradiction" — the section names the contradiction and then defangs it with a Type 6 explanation ("doubt everything privately, protect your people publicly") that rationalizes lying to millions for ratings. This is the Enneagram functioning as defense counsel at its most costly.
+FIXED in 2026-04-29 pass:
+- Dominion contradiction H2 added; Type 6 frame "explains the split (doubt privately, protect the tribe publicly) but does not exonerate it"
+- Nick Fuentes section with named critics: Randy Fine ("most dangerous antisemite in America"), Ben Shapiro, ADL Mark Pitcavage, Heritage board resignation, Cruz/McConnell condemnations on the floor
+- January 6 / Capitol Tapes H2: "I hate him passionately" private text on the page, Capitol Police Chief Tom Manger "filled with offensive and misleading conclusions," Hayes/Goldberg resignations cited
+- "Patriot Purge" Fox Nation series engaged as a "false flag" recasting
+- "How Tucker Differs From Other Conservative Media Figures" rule-of-three list (Shapiro/Peterson/Trump/Rogan) cut
+- Closing "picks up the ax / rebuilding the studio" autopilot image cut
 
-STRENGTHS (3-5 bullets, specific):
-- Hook ("six-year-old boy watching his mother walk out the door. She never came back.") earns the read in seven words.
-- The Buckley-named-after-the-brother-who-shared-the-wound detail is original and does diagnostic work; "two boys, abandoned by their mother, raised by a single father, surrounded by dogs" is the kind of specificity the corpus rewards.
-- The Cruz-Iran-population exchange is the single best Tucker scene in the piece — it earns the "pattern recognition" Type 6 framing rather than just labeling it.
-- Tucker's Indiana University "I'm gonna have to kick your ass" threat over a Richard Carlson question is biographically specific and reveals the loyalty-fortress.
-- Crossfire / Jon Stewart as the "bow-tie pundit died here" rebirth scene is the corpus's best transformation-as-pivot moment in this batch.
-
-WEAKNESSES (3-5 bullets, specific — name lines, phrases, sections):
-- Five+ "It is not X. It is Y." constructions: "It's not a rhetorical trick. It's how his mind works." / "It's not random or inexplicable." / "It's not coincidence." / "Isolation isn't escape for a Type 6. It's security." / "That's not hypocrisy — it's the freedom to be a 6 who…" — by far the most over-deployed in this batch, way over the cap.
-- The TL;DR + bolded intro + typing section + counter-typing-rule-of-three (Why 6 Not 3) = thesis frontloaded four times before evidence.
-- "How Tucker Differs From Other Conservative Media Figures" is exactly the rule-of-three counter-typing tic ("Shapiro would do X / Peterson would do Y / Trump would do Z / Rogan would do W / But Tucker…"). This is the autopilot pattern at its purest.
-- "What questions would you be asking if you learned at six years old…" rhetorical-question close is the corpus escape hatch — assertion-as-question.
-- The closing "He just picks up the ax and starts rebuilding the studio" is the "child still doing what the child did" closing image pass 1 already flagged as autopilot — exactly that move.
-
-GAPS / MISSED OPPORTUNITIES (3-6 bullets — what a fan/critic would expect that's absent):
-- The Daria Dugina connection / Russia trip / who-paid-for-Putin-interview coverage — major reporting on Tucker's Russia ties absent.
-- January 6 / "patriot purge" / Tucker's role in mainstreaming election denial AND the Capitol-tour-with-Mike-Johnson footage release — this is his biggest single act of the Trump era and it's not engaged.
-- His firing from Fox: the actual emails/texts revealed in the discovery process (race-coded language, the "I hate them passionately" line) — fans say cynical, critics say revealed character; the piece skips it entirely.
-- The Buckley/Bunker Carlson racism scandal at The Daily Caller — directly relevant to the loyalty-and-character thesis, missing.
-- His 2024 RNC speech / explicit Trump endorsement after years of "I've got my views" framing — the piece treats him as more independent than the record now supports.
-- The "demon attack while sleeping" anecdote is included but treated with surprising credulity — no engagement with the fair reading that this is performative religious-right repositioning for a post-Fox audience.
-
-PATTERN HITS (DJ tropes that worked here):
-- Childhood-installs-thesis (mother leaves at 6 → distrust of institutions) is on-brand and earns it here biographically.
-- Counter-phobic Six framing does explain real evidence (Stewart, Putin, Fuentes) rather than just label it.
-- The "He'd walk away from $20M" institutional-betrayal pattern works as Type 6 evidence.
-
-PATTERN MISSES (DJ tropes that felt formulaic, recycled, or autopilot here):
-- "It is not X. It is Y." x5+ — by far the worst offender in the batch.
-- Counter-typing rule of three (Why 6 Not 3 + the "How Tucker Differs from Other Conservative Media Figures" Shapiro/Peterson/Trump/Rogan list).
-- TL;DR + typing-section + counter-typing = thesis frontloaded four times.
-- "He just picks up the ax and starts rebuilding the studio" closing = exactly the "child still doing what child did" autopilot image.
-- Generic textbook drops: "Type 6s are wired to detect inconsistencies", "Type 6s, for all their external skepticism, form bonds of absolute loyalty", "Type 6s often experience tension between their private doubts and their loyalty…" — Type theory bolted on rather than woven in.
-
-CRITIC-ENGAGEMENT: The Dominion section is named but resolved in Tucker's favor via a Type 6 explanation. Fuentes is named but the Type 6 frame ("the establishment is the real enemy") does the rationalizing. Putin interview is described as counter-phobic Six bravery rather than as a propaganda platform a critic would call it. The piece names left critiques but consistently dissolves them through Enneagram framing. Genuine right-coded readers will love this; left-coded readers will recognize the type theory functioning as defense.
-
-CURRENCY (2024-2026 anchor): Solid. October 2025 Fuentes interview, June 2025 Iran disagreement, 2025 Cruz exchange, March 2025 Richard Carlson death, January 2026-era TCN positioning. Among the more current-anchored pieces.
-
-PARTISAN TILT: Strongly tilted sympathetic to Tucker's frame. The piece treats his self-narration ("I just ask questions") as accurate rather than tested. The Dominion lying is rationalized. The Fuentes platforming is reframed as "free inquiry." The Russia framing is "counter-phobic bravery" rather than potential propaganda alignment. A reader who came in believing Tucker is a cynical performer will leave feeling the piece never seriously considered that hypothesis.
-
-PRIORITY FIXES (numbered, in order of impact — 3 max):
-1. Rebuild the Dominion section to engage the cynical-performer reading honestly — currently the type theory does the exonerating work and the piece pays a credibility cost. The texts said "bullshit" while he aired the claims; that's the strongest single piece of evidence for the cynical reading and it deserves a real engagement, not a Type 6 dissolution.
-2. Cut at least 3 of the 5+ "It is not X. It is Y." constructions and remove the "Shapiro would / Peterson would / Trump would / Rogan would / But Tucker…" list — that section is the corpus's worst autopilot tic in compressed form.
-3. Replace the "picks up the ax and starts rebuilding the studio" closing — this is the autopilot "child still doing what child did" image; the Indiana University "kick your ass" loyalty-fortress moment or the Buckley brother detail would close stronger.
+STILL OFF:
+- "It is not X. It is Y." constructions still present (audit needed; pass-2 flagged 5+).
+- The 2024 RNC speech / explicit Trump endorsement: light treatment.
+- The "demon attack while sleeping" anecdote: still there with surprising credulity, no engagement with performative-religious-right reading.
+- The Buckley/Bunker Carlson racism scandal at The Daily Caller: still absent.
 
 ============================================================ -->

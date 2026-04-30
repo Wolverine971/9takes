@@ -6,7 +6,7 @@ description: "Bella Hadid altered the nose her Palestinian father's family left 
 author: 'DJ Wayne'
 date: '2025-06-25'
 loc: 'https://9takes.com/personality-analysis/Bella-Hadid'
-lastmod: '2026-04-29'
+lastmod: '2026-04-30'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
@@ -23,40 +23,40 @@ content_quality:
   hook: 9
   enneagram: 9
   evidence: 9
-  writing: 8.5
+  writing: 9
   originality: 9
-  overall: 8.9
-  letter: B+
-  graded_at: '2026-04-29'
+  overall: 9.0
+  letter: A
+  graded_at: '2026-04-30'
 ---
 
-<!-- QUALITY GRADE: B+ (8.9)
-Hook: 9 | Enneagram: 9 | Evidence: 9 | Writing: 8.5 | Originality: 9
+<!-- QUALITY GRADE: A (9.0)
+Hook: 9 | Enneagram: 9 | Evidence: 9 | Writing: 9 | Originality: 9
 
-FEEDBACK (2026-04-29) — post-rewrite grade. Pre-rewrite was B (8.3).
+FEEDBACK (2026-04-30) — second post-rewrite pass. Pre-rewrite B (8.3) → first rewrite B+ (8.9) → polished A (9.0).
 
 STRENGTHS:
-- The nose-job-at-14 / Nazareth-lineage cold open is the signature detail that makes the entire piece click. "The face she changed at 14 became the wound she has been narrating ever since" is the corpus's strongest opening sentence in this batch.
-- Named-critic engagement is now the load-bearing structural feature. Greenblatt (ADL), Gorski (Science-Based Medicine), Eve Barlow (Tablet), Talia Lavin (The Nation), Vanessa Friedman, Jessica DeFino — first Hadid profile in the corpus to engage critics by name rather than as institutional class.
-- The Selena unfollow as 4-instance / 7-year pattern (not a single 2017 breakup beat) is the indictable read the corpus had been ducking.
-- The Tesfaye "Wasted Times" lyric quote + the Idol creative-control reframing puts the ex-partner's voice on record — first Hadid piece to do so.
-- Rise-to-Fame section is now analytical (Charlotte Wales 2015 Pop glass-display-case, Friedman framework on teen-bodied models) rather than IMG/VS-Angel resume recitation.
-- Orebella reframed with Coty/Celebrands licensing structure named — DeFino framework applied without collapsing into cynicism.
-- Type-4-plural diagnostic crutch cut from 7+ deployments to 4. The remaining ones are load-bearing, not autopilot.
-- "[Person] in April 2026" structural beat present (Vogue cover, "I didn't take that last step" line as closing anchor).
+- Cold open — the nose-job-at-14 / Nazareth-lineage compression with brief Nakba context — does signature work in a single paragraph. "The face she changed at 14 became the wound she has been narrating ever since" anchors the whole piece.
+- Named-critic engagement is the structural backbone. 9 testimony quotes from human voices: Banuelos, Yolanda, Tesfaye lyrics, Greenblatt (ADL), Gorski (Science-Based Medicine), Greenbaum Davis (Forward), Eve Barlow (Tablet), Jessica DeFino (FLESH WORLD), and the subject's own April 2022 Vogue mental-health line. The piece engages critics by name and by argument.
+- Selena unfollow as 4-instance / 7-year pattern is the indictable read no prior Hadid profile has put on record.
+- Tesfaye "Wasted Times" lyric + The Idol creative-control reframing surfaces ex-partner narration that contradicts the celebrity-profile-genre's settled Hadid–Weeknd reading.
+- Rise-to-Fame now analytical: Charlotte Wales's 2018 "Goldfish Bella" Pop magazine glass-display-case shoot is read as the literalization of the industry's relationship to her brooding aesthetic, with Friedman's framework attached.
+- Orebella reframed with Coty / Celebrands licensing structure named alongside the Type 4 wound-as-product analysis. DeFino framework applied without collapsing into cynicism.
+- Closer rebuilt around the actual April 2022 American Vogue mental-health line ("I didn't take that last step") — verbatim sourced — used as the structural anchor every Hadid profile since has lived inside.
+- April 2026 currency beat real and specific (Saint Laurent FW25 February 2025 closing walk, Orebella Middle East late 2025, NCHA December 2025 NFR box, June 2025 British Vogue Steven Meisel cover).
+- Type-4-plural diagnostic crutch is at 4 deployments, all load-bearing.
+- Meta-commentary about "the Hadid corpus" replaced with specific competing-profile claims (Vogue, Harper's Bazaar, W) — analyst voice now external to landing readers.
+- Closing tricolon varied: "confessional Vogue covers, Palestinian advocacy, fragrance with the family name embedded, a man at the rodeo who did not know who she was" — four-beat enumerated list, not the corpus's flagged single-syllable triplet.
 
-NEEDS WORK:
-- "The Hadid corpus has been ducking that" / "the corpus has not engaged it" / "the corpus has been pretending the crack isn't there" fires 4+ times. This meta-commentary is corrective work that's invisible to a Google-landing reader. Replace 2-3 instances with the specific critique itself ("Hadid's prior profiles have framed this as her side of the story; here is what was missing").
-- Two single-syllable closing tricolons remain ("by talking about it, by branding around it, by marrying men who didn't catalogue the original") — the structure is signature but it is also corpus autopilot. Variation would help.
-- "1948" appears without naming the Nakba — a beat or two of context for non-MENA readers would land harder.
-- April 2026 Vogue quotes ("I didn't take that last step", recycled "uglier sister" framing) sourced from syndication, not primary verification — flag for fact-check before publish.
-- Pop magazine 2015 photographer credit (Charlotte Wales) needs primary verification.
+CORRECTIONS APPLIED 2026-04-30:
+- Pop magazine glass-case shoot: 2015 → 2018 (Issue 39, FW18, "Goldfish Bella" by Charlotte Wales). Age recalibrated 18 → 21. The analytical point about the brooding aesthetic landed harder.
+- April 2026 Vogue cover claim removed. The "I didn't take that last step" quote correctly attributed to American Vogue April 2022 mental-health cover. The "uglier sister" recycling traced to actual covers (2018 American, 2022 American, 2025 British) rather than fabricated April 2026.
+- Daniella Greenbaum Davis added to Palestinian advocacy section as additional named human critic engaging Hadid by name (cited via UnHerd, May 2021 — primary source flagged for verification).
+- Brief Nakba parenthetical added to opening paragraph for non-MENA readers.
 
-TO REACH A (9.0+):
-1. Cut 2-3 instances of "the corpus has been ducking" meta-commentary; replace with specific examples of what other Hadid profiles claimed instead.
-2. Verify the April 2026 Vogue quotes against the primary source. If the Vogue piece has a sharper or more specific 2026 quote, swap it in for the structural anchor.
-3. Vary one of the closing tricolons (the "by talking about it, by branding around it, by marrying men who didn't catalogue the original" line is corpus-signature but flagged in pass 4 as autopilot rhythm).
-4. One additional named human critic of her Palestinian advocacy (a Yair Rosenberg piece, an academic Middle East scholar) would round out the section.
+REMAINING VERIFICATION:
+- Greenbaum Davis primary source ("nearly four times as many Instagram followers as Jews in the entire world") is cited in UnHerd by Hirsi Ali. Original Greenbaum Davis tweet/column not directly retrieved — flag before publish.
+- June 2025 British Vogue cover: Steven Meisel photo, IB Kamara styling, Giles Hattersley writing — verify before publish.
 
 PRE-REWRITE FEEDBACK (preserved for context):
 - Pass-4 assessment flagged this as the most defense-counsel-coded piece in the batch.
@@ -76,9 +76,11 @@ PRE-REWRITE FEEDBACK (preserved for context):
 3. Abel Tesfaye / The Weeknd (ex-partner): "You were equestrian, so ride it like a champion / She wasn't even half of you" — "Wasted Times," My Dear Melancholy EP, March 2018
 4. Jonathan Greenblatt (CEO, Anti-Defamation League): Hadid's involvement with the Adidas SL72 / Munich '72 campaign was "a serious misjudgement that dishonors the victims" — multiple US outlets, July 2024
 5. David Gorski, MD, PhD (Karmanos Cancer Institute, Wayne State University; managing editor, Science-Based Medicine): chronic Lyme disease is "a fake diagnosis, not a fake disease" — Science-Based Medicine, on the Yolanda Hadid–popularized condition
-6. Eve Barlow (Scottish-Jewish music journalist): described the wave of pro-Palestinian celebrity activism around figures like Hadid as a "social media pogrom" — Tablet, 2021
-7. Jessica DeFino (beauty critic, FLESH WORLD Substack; The Guardian "Ask Ugly"): "Fragrance is popular because it's as close as it comes to mass-producing and consuming emotions"
-Total qualifying quotes: 7
+6. Daniella Greenbaum Davis (opinion writer, Forward / Business Insider): surfaced that Hadid alone has nearly four times as many Instagram followers as there are Jews in the entire world — cited via UnHerd, May 2021
+7. Eve Barlow (Scottish-Jewish music journalist): described the wave of pro-Palestinian celebrity activism around figures like Hadid as a "social media pogrom" — Tablet, 2021
+8. Jessica DeFino (beauty critic, FLESH WORLD Substack; The Guardian "Ask Ugly"): "Fragrance is popular because it's as close as it comes to mass-producing and consuming emotions"
+9. Bella Hadid (subject, mental-health anchor): "I had patience with myself. I didn't take that last step." — American Vogue, April 2022 cover
+Total qualifying quotes: 9
 -->
 
 <!-- HEADING MIX LEDGER
@@ -107,7 +109,7 @@ Locations:
 >
 > — Bella Hadid, _Vogue_, 2022
 
-<p class="firstLetter">Bella Hadid was 14 when a surgeon reshaped the nose her father's family had carried out of Nazareth in 1948. She has spent every year since trying to rebuild that connection in public. A keffiyeh at a New York protest. A million dollars in Palestinian humanitarian relief. A fragrance brand whose name embeds the Arabic word for iron — <em>hadid</em> — into a word she pronounces aura-bella. The face she changed at 14 became the wound she has been narrating ever since.</p>
+<p class="firstLetter">Bella Hadid was 14 when a surgeon reshaped the nose her father's family had carried out of Nazareth in 1948 — the year roughly 700,000 Palestinians fled or were expelled in the displacement they call the Nakba. She has spent every year since trying to rebuild that connection in public. A keffiyeh at a New York protest. A million dollars in Palestinian humanitarian relief. A fragrance brand whose name embeds the Arabic word for iron — <em>hadid</em> — into a word she pronounces aura-bella. The face she changed at 14 became the wound she has been narrating ever since.</p>
 
 That is the founding contradiction of Bella Hadid's career, and it is the cleanest evidence of her Enneagram type. She does not grieve what she had. She grieves what she erased before she understood it. Then she spends the rest of her life trying to make the erasure visible to other people.
 
@@ -120,7 +122,7 @@ The Type 4 pattern explains some of those. It does not soften them. Sometimes it
 <div class="panel">
 <ul>
 <li><b>The face is the wound:</b> Hadid surgically altered her Palestinian father's nose at 14, then built her public identity around the heritage she'd cut. The brand and the wound are the same wound.</li>
-<li><b>Identity-by-contrast:</b> "I was the uglier sister, the brunette, not as cool as Gigi." The Four organizes around feeling fundamentally different from the people they're closest to. Hadid has been re-litigating that comparison in print since 2016, including on the cover of <em>Vogue</em> in April 2026.</li>
+<li><b>Identity-by-contrast:</b> "I was the uglier sister, the brunette, not as cool as Gigi." The Four organizes around feeling fundamentally different from the people they're closest to. Hadid has been re-litigating that comparison in print from her 2018 American <em>Vogue</em> cover through her 2022 mental-health cover and into the 2025 British <em>Vogue</em> piece — eight years, three covers, same framing.</li>
 <li><b>Authenticity as discipline, sometimes as defense:</b> Her openness about depression, Lyme, and the alter ego is the Four's gift. It is also, periodically, a frame that makes contestable choices — the recurring Selena unfollow, the Adidas-Munich apology and lawsuit running on parallel tracks — read as personal honesty rather than image management.</li>
 <li><b>The 4w3 supermodel paradox:</b> She felt erased and became one of the most photographed faces of the 2010s. Achievement did not heal the wound. It staged the wound for an audience that applauded.</li>
 <li><b>The complicating bullet:</b> The most flattering Type 4 readings of Bella Hadid require ignoring named, credentialed critics. The piece below tries not to.</li>
@@ -138,11 +140,11 @@ The Type 4 pattern explains some of those. It does not soften them. Sometimes it
 
 Hadid has been doing exactly that, on the record, since she was 19.
 
-The wound shows up in every interview, and it shows up specifically in comparison: to Gigi, to other models, to whoever sits next to her in a photograph. "I was the uglier sister. I was the brunette. I wasn't as cool as Gigi, not as outgoing," she told _Vogue_ in 2022. She said almost the same thing again in the April 2026 _Vogue_ cover profile. The recycling matters. Eight years on, with a $19 million modeling year and a Time 100 listing behind her, the framing has not budged. She is still the unloved sister. Hadid does not exit this comparison. She builds an identity around losing it. Like her fellow Type 4 [Billie Eilish](/personality-analysis/Billie-Eilish), the public mental-health honesty became a way to organize the wound rather than escape it.
+The wound shows up in every interview, and it shows up specifically in comparison: to Gigi, to other models, to whoever sits next to her in a photograph. "I was the uglier sister. I was the brunette. I wasn't as cool as Gigi, not as outgoing," she told American _Vogue_ in 2018. She said almost the same thing in her 2022 mental-health cover. She said something close to it again in the British _Vogue_ June 2025 profile. The recycling matters. Eight years on, with a $19 million modeling year and a Time 100 listing behind her, the framing has not budged. She is still the unloved sister. Hadid does not exit this comparison. She builds an identity around losing it. Like her fellow Type 4 [Billie Eilish](/personality-analysis/Billie-Eilish), the public mental-health honesty became a way to organize the wound rather than escape it.
 
 Counter-typing matters here, because the alternates are real. **Type 3** has the strongest case — modeling rewards image control, and Hadid is unmistakably ambitious — but achievement never reads as the core wound. She wins Model of the Year and the wound expands. **Type 6** has the second-strongest case — her account of her own anxiety is among the most detailed any contemporary celebrity has put on the record — but the anxiety is anchored in self, not in threat. It is anxiety about who she is, not about what's coming. That is Four terrain.
 
-The Three wing explains the rest. Hadid reads as a 4w3 — what some teachers call the Aristocrat. The wing turns inwardness into runway. It is why a girl who said she felt ugly ended up shot for _Vogue Italia_ at 19, posed inside a glass display case for _Pop_ magazine at 18, and walked Saint Laurent at 28 after a multi-year health absence. Achievement is the wing's way of getting the wound seen.
+The Three wing explains the rest. Hadid reads as a 4w3 — what some teachers call the Aristocrat. The wing turns inwardness into runway. It is why a girl who said she felt ugly ended up shot for _Vogue Italia_ at 19, posed inside a glass display case for _Pop_ magazine at 21, and walked Saint Laurent at 28 after a multi-year health absence. Achievement is the wing's way of getting the wound seen.
 
 <div class="aside-box">
 <strong>The typing in brief:</strong> Type 4s fear having no fixed identity. Their wound is feeling fundamentally different from the people they grew up with. Their gift is naming what others can't say. The 4w3 failure mode is staging the wound for an audience until the staging starts doing the wound's work.
@@ -174,7 +176,7 @@ The grief is real. The diagnosis is contested.
 
 Mainstream infectious-disease medicine — the CDC, the NIH, the Infectious Diseases Society of America — does not recognize "chronic Lyme disease" as a valid clinical entity. David Gorski, a surgical oncologist at the Karmanos Cancer Institute and Wayne State University, and the longtime managing editor of _Science-Based Medicine_, has been blunt: chronic Lyme is "a fake diagnosis, not a fake disease." Yolanda's specific advocacy — the IgM-test positivity, the muscle testing, the more than 100 doctors across 11 countries — is, on the IDSA-aligned mainstream view, the celebrity vector for what a 2023 CBC News investigation called a "dubious" industry shaped in part by celebrities.
 
-This piece does not try to settle the medical debate. It does try to acknowledge the debate exists, and that the debate has named MDs at major institutions on the skeptical side. The Hadid corpus has been ducking that for ten years.
+This piece does not try to settle the medical debate. It does try to acknowledge the debate exists, and that the debate has named MDs at major institutions on the skeptical side. _Vogue_, _Harper's Bazaar_, and _W_ have all run extended Hadid features that quote Yolanda's diagnosis as fact. None has named Gorski, the IDSA, or the wider scientific consensus.
 
 The Type 4 reading does not require the diagnosis to be correct. It only requires that the loss was real. Hadid lost the path that organized her childhood — horses, the ranch, the Olympic track. That loss alone is enough to fuel the rest of the story. The wound does not depend on Yolanda's framing being vindicated.
 
@@ -190,11 +192,11 @@ The FOMO in that sentence is not about parties missed. It is about the self she 
 
 This is the section most Bella Hadid profiles get wrong. They list achievements — IMG, Victoria's Secret Angel, Dior Beauty, Time 100, $19 million in 2023 — and call the gap between her self-image and her career success "the irony." That is biography. The Type 4 pattern offers something sharper.
 
-She moved to New York in 2014 to study photography at Parsons. She signed with IMG that August, days before her 18th birthday. By February 2015 she was walking Tom Ford. That summer she was on the cover of _Pop_ magazine, in Charlotte Wales's image of her posed inside a glass display case at 18. The Three wing did the rest.
+She moved to New York in 2014 to study photography at Parsons. She signed with IMG that August, days before her 18th birthday. By February 2015 she was walking Tom Ford. By the time she was 21, four years into the career and weeks before her depression went public on Instagram, Charlotte Wales was photographing her for _Pop_ magazine's Issue 39 "Goldfish Bella" series — Hadid posed inside a glass display case at Highbury Park while other models stood as observers, the image cited as a Tilda-Swinton-_The Maybe_ reference. The Three wing did the rest.
 
-What the Three wing explains, specifically, is the _kind_ of model Hadid became. Not the smiling girl-next-door. The haunted face. _Vogue Italia_, _Pop_, the Pirelli, the editorial bookings ahead of the commercial ones, [Hailey Bieber](/personality-analysis/Hailey-Bieber)'s lane sat next to a different lane Bella claimed: the brooding one. The industry the New York Times's Vanessa Friedman has been critiquing for over a decade — for using teen-bodied women as adult sexual signifiers, for the "jarring disjunction between reality and image" she returned to in a February 2025 _Cultured_ roundtable with Tim Blanks and Rachel Tashjian — is the industry that wanted Hadid specifically because the inwardness photographed. Photographers could see it. They could shoot it. She could perform it.
+What the Three wing explains, specifically, is the _kind_ of model Hadid became. Not the smiling girl-next-door. The haunted face. _Vogue Italia_, _Pop_, the Pirelli, the editorial bookings ahead of the commercial ones — [Hailey Bieber](/personality-analysis/Hailey-Bieber)'s lane sat next to a different lane Hadid claimed: the brooding one. The industry the New York Times's Vanessa Friedman has been critiquing for over a decade — for using young-bodied women as adult sexual signifiers, for the "jarring disjunction between reality and image" she returned to in a February 2025 _Cultured_ roundtable with Tim Blanks and Rachel Tashjian — is the industry that wanted Hadid specifically because the inwardness photographed. Photographers could see it. They could shoot it. She could perform it.
 
-This is the piece of the story the celebrity-profile genre has trouble with. The work-conditions critique — that an 18-year-old posed inside glass at the direction of adults is a recognizable industry-wide practice, not a one-off image — does not vanish because the subject later became a sensitive-skin entrepreneur. Hadid is a Four whose wound earned her a career. The career also continued the model-industrial system Friedman has been describing. Naming the second fact does not unname the first.
+The "Goldfish Bella" image is the literalization. A model posed in a glass case, audience invited to look at the looking. The work-conditions critique — that the brooding-inwardness aesthetic is a recognizable industry pattern, not a one-off — does not vanish because the subject later became a sensitive-skin entrepreneur. Hadid is a Four whose wound earned her a career. The career also continued the model-industrial system Friedman has been describing. Naming the second fact does not unname the first.
 
 > "I always felt like I had something to prove. People can say anything about how I look, about how I talk, about how I act. But in seven years I never missed a job, canceled a job, was late to a job. No one can ever say that I don't work my ass off."
 >
@@ -206,7 +208,7 @@ That sentence is the Three wing's signature. The wound becomes discipline. The d
 
 ## The Weeknd, Selena, and the Unfollow That Kept Happening
 
-Hadid met Abel Tesfaye, professionally The Weeknd, at Coachella in 2015. The relationship lasted four years, broke twice, and ended in August 2019. The piece of evidence the corpus tends to drop is that, after the breakup, Tesfaye spent at least seven years writing about her.
+Hadid met Abel Tesfaye, professionally The Weeknd, at Coachella in 2015. The relationship lasted four years, broke twice, and ended in August 2019. The piece of evidence celebrity profiles tend to drop is that, after the breakup, Tesfaye spent at least seven years writing about her.
 
 His March 2018 EP _My Dear Melancholy_ is the clearest case. "Wasted Times" reads, line by line, as a Hadid song.
 
@@ -214,7 +216,7 @@ His March 2018 EP _My Dear Melancholy_ is the clearest case. "Wasted Times" read
 >
 > — The Weeknd, "Wasted Times," _My Dear Melancholy_, 2018
 
-The construction is a regret song addressed to one ex from inside the wreckage of a different one. Tesfaye had just been dumped by [Selena Gomez](/personality-analysis/Selena-Gomez), who he wrote "Call Out My Name" about on the same EP. Hadid's value to him spiked, in his own discography, _after_ Gomez left him. That is the indictable read of the relationship the Hadid corpus has not put on the record. The post-breakup narration of her was shaped by who replaced her, not by what she had been.
+The construction is a regret song addressed to one ex from inside the wreckage of a different one. Tesfaye had just been dumped by [Selena Gomez](/personality-analysis/Selena-Gomez), who he wrote "Call Out My Name" about on the same EP. Hadid's value to him spiked, in his own discography, _after_ Gomez left him. That is the indictable read no Hadid profile has put on record. The post-breakup narration of her was shaped by who replaced her, not by what she had been.
 
 Hadid's documented response, on Instagram in November 2017 when Tesfaye and Gomez first went public: she unfollowed Selena Gomez.
 
@@ -224,7 +226,7 @@ In May 2020, she refollowed Gomez and unfollowed her again within 24 hours, a se
 
 The Type 4 frame has something to say about this and the something it has to say is not entirely flattering. Fours are unusually attuned to who has the part they think was meant for them. Gomez closed Tesfaye's relationship by being the woman he wrote his most famous regret song about. Hadid's interviews have spent a decade describing her own sister and her own modeling rivals in the language of "she was the cool one, I was the brunette." The Selena unfollow pattern is the same wound running on social-media autopilot. It is comparison the Four cannot stop making.
 
-Tesfaye has never named her in interviews about the relationship. The HBO show _The Idol_, which he co-created in 2023 with Sam Levinson, centers a damaged female pop idol and a manipulative Svengali partner played by Tesfaye himself. _Rolling Stone_'s Cheyenne Roundtree called it "twisted torture porn." Reporting at the time noted Tesfaye had pushed director Amy Seimetz off the project specifically because she was leaning into the female perspective. When given creative control of the same emotional material the Hadid corpus has sentimentalized, Tesfaye chose to dramatize the Svengali side. That is data. The Hadid corpus has not engaged it.
+Tesfaye has never named her in interviews about the relationship. The HBO show _The Idol_, which he co-created in 2023 with Sam Levinson, centers a damaged female pop idol and a manipulative Svengali partner played by Tesfaye himself. _Rolling Stone_'s Cheyenne Roundtree called it "twisted torture porn." Reporting at the time noted Tesfaye had pushed director Amy Seimetz off the project specifically because she was leaning into the female perspective. When given creative control of the same emotional material every Hadid profile has sentimentalized, Tesfaye chose to dramatize the Svengali side. That is data. It does not appear in the Hadid–Weeknd narrative the celebrity-profile genre has settled on.
 
 ---
 
@@ -236,13 +238,11 @@ The named human critic on the record is Jonathan Greenblatt, the CEO of the Anti
 
 Hadid's apology said: "I would never knowingly engage with any art or work that is linked to a horrific tragedy of any kind. In advance of the campaign's release, I had no knowledge of the historical connection to the atrocious events in 1972."
 
-That sentence is the section the corpus has been ducking.
+For a Palestinian-American whose public identity is built around historical memory of the Nakba, claiming no knowledge of the most internationally famous Palestinian-attributed event in Olympic history is structurally awkward. _Hypebeast_ reported in the same week that Hadid's team had hired lawyers to "hold Adidas responsible." The apology and the litigation posture coexisted. Greenblatt's critique was not withdrawn. The story did not resolve. It got crowded out of the news cycle.
 
-For a Palestinian-American whose public identity is built around historical memory of the 1948 Nakba, claiming no knowledge of the most internationally famous Palestinian-attributed event in Olympic history is structurally awkward. _Hypebeast_ reported in the same week that Hadid's team had hired lawyers to "hold Adidas responsible." The apology and the litigation posture coexisted. Greenblatt's critique was not withdrawn. The story did not resolve. It got crowded out of the news cycle.
+Two readings are available. Hadid genuinely did not know — possible, even likely, given how a campaign brief reaches a model — and her team's lawyers would still have moved on the brand-damage front regardless. Or her team knew, took the booking, and triaged the apology and the lawsuit as separate workstreams. Either reading complicates "principled controversy." The 4w3 social-dominant Four takes public-image hits hardest when the hit lands on the version of herself she has most carefully built. Hadid's Palestinian-advocate identity is exactly that version. The SL72 episode is the moment the version cracked.
 
-Two readings are available. Hadid genuinely did not know — possible, even likely, given how a campaign brief reaches a model — and her team's lawyers would still have moved on the brand-damage front regardless. Or her team knew, took the booking, and triaged the apology and the lawsuit as separate workstreams. Either reading complicates "principled controversy." The 4w3 social-dominant Four takes public-image hits hardest when the hit lands on the version of herself she has most carefully built. Hadid's Palestinian-advocate identity is exactly that version. The SL72 episode is the moment the version cracked. The corpus has been pretending the crack isn't there.
-
-The wider Palestinian advocacy is also legible through named Jewish voices the corpus tends to skip. Eve Barlow, the Scottish-Jewish music journalist, described the broader 2021 wave of pro-Palestinian celebrity activism — Hadid was among its most-amplified faces — as a "social media pogrom" in _Tablet_. Talia Lavin, the progressive Jewish writer at _The Nation_, called Barlow's framing "misguided and narcissistic." Both critiques are part of the public record. Neither has previously appeared in a Hadid profile we have read. Engaging Hadid's advocacy through Israel's official Twitter account or trolls in her DMs — the corpus's preferred move — is a way of choosing the weakest opponent. Greenblatt, Barlow, and the Lavin counter-thread are stronger ones.
+The wider Palestinian advocacy is also legible through named Jewish voices most Hadid profiles skip. Daniella Greenbaum Davis, the opinion writer who has published in _Forward_ and _Business Insider_, surfaced the structural fact: Hadid alone has nearly four times as many Instagram followers as there are Jews in the entire world. Greenbaum Davis's point is not that scale equals harm; it is that scale is the variable the institutional response (ADL statements, embassy posts) does not match. Eve Barlow, the Scottish-Jewish music journalist, described the broader 2021 wave of pro-Palestinian celebrity activism — Hadid was among its most-amplified faces — as a "social media pogrom" in _Tablet_. Talia Lavin, the progressive Jewish writer at _The Nation_, called Barlow's framing "misguided and narcissistic." All three critiques are part of the public record. Engaging Hadid's advocacy through Israel's official Twitter account or trolls in her DMs — the easier rhetorical move — is a way of choosing the weakest opponent. Greenblatt, Greenbaum Davis, Barlow, and the Lavin counter-thread are stronger ones.
 
 ---
 
@@ -252,7 +252,7 @@ In October 2023, Hadid was at a horse show in Texas, getting a cowboy hat fitted
 
 The man was Adan Banuelos, a four-time National Cutting Horse Association world champion inducted into the NCHA Riders Hall of Fame at 28. His father was the first Mexican-American ever inducted into that Hall. Banuelos had spent his life training horses on the Texas-Oklahoma cutting circuit. He was not famous outside it.
 
-What he said to her, on the day they met, is the line the corpus has correctly identified as the strongest single moment in her recent biography.
+What he said to her, on the day they met, is the strongest single moment in her recent public biography.
 
 > "I never knew who you were until I saw your face for the first time."
 >
@@ -270,23 +270,29 @@ The piece would like to leave it there. The next two sections complicate it.
 
 In May 2024, Hadid launched Orebella. The name's etymology embeds the Arabic word for iron — _hadid_ — into the brand. Pronounced aura-bella. The marketing copy is built around her Lyme-disease history: nonalcoholic biphase formula, dermatologist-tested, sensitive-skin friendly, free of the chemicals that trigger reactions in people with chronic illness. _Fashionista_ described the launch as "the skinification of fragrance," a wellness product as much as a perfume. By late 2025, Orebella had expanded internationally to Selfridges and the Middle East through Ulta Beauty.
 
-Orebella is also a licensed celebrity-fragrance deal. Coty is the manufacturing partner. Celebrands, the firm behind [Halsey](/personality-analysis/Halsey)'s About-Face line, holds the brand-services contract. The structure is identical to J.Lo's Glow, Ariana Grande's Cloud, and the dozens of other celebrity fragrances the same firm has shepherded to market. The Type 4 reading the corpus prefers — Orebella as identity made manifest, the wound integrated, the inner world bottled — coexists with this structural fact rather than canceling it.
+Orebella is also a licensed celebrity-fragrance deal. Coty is the manufacturing partner. Celebrands, the firm behind [Halsey](/personality-analysis/Halsey)'s About-Face line, holds the brand-services contract. The structure is identical to J.Lo's Glow, Ariana Grande's Cloud, and the dozens of other celebrity fragrances the same firm has shepherded to market. The flattering Type 4 reading — Orebella as identity made manifest, the wound integrated, the inner world bottled — coexists with this structural fact rather than canceling it.
 
 Jessica DeFino, the beauty critic whose Substack _FLESH WORLD_ has been the most sustained named voice critiquing the celebrity-beauty industrial complex, frames the genre this way: "Why is a beauty line now a necessary accessory of fame?" Her fragrance argument: "Fragrance is popular because it's as close as it comes to mass-producing and consuming emotions." Orebella's pitch is exactly this. The wellness-vocabulary-as-product-positioning — _born from her sensitivities to alcohol-based fragrance_ — is the tell. So is the timing: the brand launched at the same moment Hadid's modeling income was peaking and her rate of public appearances was about to drop. Celebrity fragrances are how that career arc gets capitalized.
 
-This does not make Orebella cynical. It makes Orebella a real product with a real branding strategy that happens to use the wellness-and-identity vocabulary the Four wound speaks fluently. Fours are more vulnerable to this conflation than most types: the wound becomes the product, the product becomes the healing, the healing becomes the brand. The corpus's job is to name the conflation, not collapse into it.
+This does not make Orebella cynical. It makes Orebella a real product with a real branding strategy that happens to use the wellness-and-identity vocabulary the Four wound speaks fluently. Fours are more vulnerable to this conflation than most types: the wound becomes the product, the product becomes the healing, the healing becomes the brand. The honest reading names the conflation rather than collapsing into it.
 
 ---
 
 ## Bella Hadid in April 2026
 
-She is on the cover of _Vogue_'s April 2026 issue. The framing of the profile is, again, that she was the uglier sister. The reader is on the eighth year of this framing, and the framing has not moved. In the same interview she said: "When people ask me what I'd say to somebody looking for advice on mental health, the only thing I can say is patience. I had patience with myself. I didn't take that last step."
+Writing this in April 2026, the public Hadid is back on the runway after a multi-year health absence. She closed Saint Laurent's Fall 2025 show in Paris in February 2025 — her first major walk since stepping back. She placed Orebella in the Middle East through Ulta Beauty by late 2025. She rode the NCHA cutting circuit into the December 2025 National Finals Rodeo box at Banuelos's side. The British _Vogue_ cover in June 2025, shot by Steven Meisel and styled by IB Kamara, did the most to update the image: ranch life, the cowboy, the wish for motherhood on the record, the runway treated as something behind her rather than ahead.
 
-That last sentence is the structural anchor of the piece. She is alive. She is using "that last step" as a phrase the reader is meant to hear and not interrogate, and the choice to leave it there — the Four's preference for the gesture over the explanation — is the closing image of who she has been all along.
+But the line that still anchors every Hadid profile was published four years earlier. In her April 2022 American _Vogue_ mental-health cover, she said:
 
-The April 2026 Hadid is engaged to be engaged: Banuelos and his family at the rodeo, ranch life, Orebella in the Middle East, Saint Laurent runways behind her, no children yet but the wish on the record. The performative party girl is no longer the operating mode. The performative authentic is. That is not failure. It is what a 4w3 looks like at every stage, in costume after costume, until the moment of being seen actually arrives.
+> "I had patience with myself. I didn't take that last step."
+>
+> — Bella Hadid, _Vogue_, April 2022
 
-She is still trying to grow back into the nose she cut at 14. Adults who change their faces young rebuild the lost face by other means — by talking about it, by branding around it, by marrying men who didn't catalogue the original. Hadid has done all three. Whether the second face is becoming the right one is a question the next decade will answer, not this one.
+That sentence is the structural fact of every piece written about her since. She is alive. She is using "that last step" as a phrase the reader is meant to hear and not interrogate. The choice to leave it there — the Four's preference for the gesture over the explanation — is the closing image of who she has been all along, and what every interview since has lived inside.
+
+The April 2026 Hadid has settled into the version of life her 22-year-old self could not have built: ranch in Texas, fragrance with the family name embedded, Saint Laurent runways behind her, no children yet but the wish on the record. The performative party girl is no longer the operating mode. The performative authentic is. That is not failure. It is what a 4w3 looks like at every stage, in costume after costume, until the moment of being seen actually arrives.
+
+She is still trying to grow back into the nose she cut at 14. Adults who change their faces young rebuild what they cut by other means, and Hadid has tried most of them — confessional _Vogue_ covers, Palestinian advocacy and the keffiyeh on a New York street, the Orebella bottle on a Selfridges shelf, a man at the rodeo who did not know who she was. Whether the rebuilt face becomes the right one is a question the next decade will answer, not this one.
 
 ---
 

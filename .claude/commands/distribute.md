@@ -71,6 +71,16 @@ If no blog is found, stop and tell the user.
 
 ### 1c. Extract Key Information from the Blog
 
+**Quick path: check the pre-researched tidbits file first.**
+
+A curated tidbits file lives at:
+
+```
+docs/instagram/post-ideas/2026-04-29_top-tier-people-tidbits.md
+```
+
+If the target person has a section there, those tidbits are already extracted, factually checked, and Instagram-ready. Use them as your hook reservoir for Tweet 1, the Reddit opener, and especially for the **Tidbits Lead-In Carousel** (see Section F). Still read the full blog for context, quotes, and the analytical layer — but don't re-research what's already pulled.
+
 Read the full blog and identify:
 
 - **The hook moment**: The most surprising, specific, vulnerable, or revealing anecdote (this becomes Tweet 1 and the Reddit opener)
@@ -278,19 +288,53 @@ If the person is too big to DM directly, list specific fan accounts to target:
 
 Generate a complete Instagram package with all of the following:
 
-1. **Carousel copy (4 slides)**
-2. **Caption** (120-220 words, natural tone, one direct quote, ends with link-in-bio CTA and discussion prompt)
-3. **Story prompts** (same-day share + poll + 24-hour follow-up)
-4. **Reel script** (30-60 sec: hook, body, close)
-5. **Tag list** (1-3 handles)
-6. **Posting timing**
+1. **Analytical Carousel** (4 slides, mid-funnel, personality-read framing)
+2. **Tidbits Lead-In Carousel** (7-12 slides, top-of-funnel, curiosity-bait — see format below)
+3. **Caption** (120-220 words for analytical; 60-140 words for tidbits — see formats below)
+4. **Story prompts** (same-day share + poll + 24-hour follow-up)
+5. **Reel script** (30-60 sec: hook, body, close)
+6. **Tag list** (1-3 handles)
+7. **Posting timing**
 
 Use this exact format:
 
 ```
 ## Instagram Assets
 
-### Carousel (4 Slides)
+### Tidbits Lead-In Carousel (7-12 Slides) — Top-of-Funnel
+
+> Use the pre-researched tidbits from `docs/instagram/post-ideas/2026-04-29_top-tier-people-tidbits.md` if the person is listed there. Otherwise extract 5-10 concrete, falsifiable, scroll-stopping tidbits directly from the blog (criteria: specific, surprising, self-contained, ~30 words max).
+
+**Slide 1 — Hook (Big Type + Face):**
+Pick one (rotate across posts):
+- "You don't know [Person]."
+- "[N] things you didn't know about [Person]."
+- "[Person] is way more interesting than you think."
+- Person-specific hook tied to the strongest tidbit.
+
+**Slide 2 — Setup (One Line):**
+"Here are [N] things you probably don't know about [Person]:"
+
+**Slides 3 to (N+2) — Tidbits:**
+One tidbit per slide. Big readable type. Pick 5-10. Lead with the strongest, save the second-strongest for last. Mix categories (purchase, decision, childhood, quote, relationship). Each tidbit reads as a standalone headline.
+
+**Final Slide — CTA:**
+"I wrote a full personality breakdown of [Person]. Link in bio." (or variant)
+
+### Tidbits Lead-In Caption (60-140 words)
+
+1. Re-state the hook in one line.
+2. Tease the 1-2 wildest tidbits.
+3. One forward line on what the blog covers.
+4. Forced-choice CTA tied to the tidbits ("Most surprising — [A] or [B]?").
+
+No personality-type analysis in the caption. No disclaimer (these are facts, not interpretations). Paragraphs max two lines on mobile.
+
+---
+
+### Analytical Carousel (4 Slides) — Mid-Funnel
+
+> Use after the tidbits post has hooked the audience. This is the personality-read layer.
 
 **Slide 1 — Hook (Photo Overlay):**
 [One-line hook that stops scrolling]
@@ -304,7 +348,7 @@ Use this exact format:
 **Slide 4 — CTA:**
 [Warm CTA pointing to full analysis]
 
-### Caption
+### Analytical Caption
 
 [120-220 word caption]
 

@@ -1,3 +1,4 @@
+-- supabase/migrations/20260430_harden_page_analytics_visit_rpc.sql
 -- Keep page-view collection reliable even when derived analytics maintenance fails.
 
 CREATE OR REPLACE FUNCTION public.upsert_page_analytics_visit(

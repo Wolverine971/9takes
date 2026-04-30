@@ -37,6 +37,18 @@ This command is **self-sufficient**. Operating principles, frameworks, hook patt
 
 Only read the root docs in the "Go Deeper" section at the end if you hit an edge case the inlined frameworks don't cover, or if you want background on where a rule came from.
 
+### Pre-researched tidbits file (use first if person is listed)
+
+A curated tidbits file lives at:
+
+```
+docs/instagram/post-ideas/2026-04-29_top-tier-people-tidbits.md
+```
+
+It contains 8-12 pre-extracted, factually-checked, scroll-stopping tidbits per person for the top-tier blogs identified in the corpus assessments (`docs/blog-automation/2026-04-29-*`). If the target person has a section in that file, **use it as your primary source for the Tidbits Lead-In Carousel** (see Step 4) and as a hook reservoir for the analytical carousel — it saves a full blog re-read. Always supplement with blog text for context, but don't re-research what's already extracted.
+
+If the person is NOT in the tidbits file, extract tidbits directly from the blog using the criteria in the tidbits file's header (concrete, falsifiable, surprising, self-contained, ~30 words max).
+
 ## Pre-Approved Operations
 
 - **Read**: All files in the project
@@ -279,7 +291,9 @@ Use this exact structure:
 
 ---
 
-## Carousel (6-8 Slides)
+## Carousel (6-8 Slides) — Analytical (Mid-Funnel)
+
+> Use this when the audience already knows the person and is ready for a personality read. For top-of-funnel curiosity (cold audience, "who is this person and why should I care?"), generate the **Tidbits Lead-In Carousel** below INSTEAD or IN ADDITION.
 
 **Slide 1 - Hook (Photo Overlay):**
 [One-line stop-scroll hook with concrete scene]
@@ -304,6 +318,59 @@ Use this exact structure:
 
 **Slide 8 - CTA:**
 [Forced-choice discussion prompt + link in bio]
+
+---
+
+## Tidbits Lead-In Carousel (7-12 Slides) — Top-of-Funnel (Curiosity Bait)
+
+> Purpose: drive blog reads by sharing surprising, concrete facts that make a stranger curious enough to click through. Lighter and more shareable than the analytical carousel — no falsifiability gates, no Enneagram framework on the slides themselves. The interpretation lives in the blog. **The job of these slides is to make someone go "wait, what?"**
+>
+> Source: pull tidbits from `docs/instagram/post-ideas/2026-04-29_top-tier-people-tidbits.md` (preferred) or extract from blog if person is not listed.
+
+**Slide 1 - Hook (Big Type + Face):**
+Pick ONE of these formats (rotate across posts):
+
+- "You don't know [Person]."
+- "[N] things you didn't know about [Person]."
+- "[Person] is way more interesting than you think."
+- "You think you know [Person]. You probably don't."
+- Person-specific hook tied to their most surprising tidbit ("Peter Thiel bought a parachute after 9/11.")
+
+**Slide 2 - Setup (One Line):**
+"Here are [N] things you probably don't know about [Person]:"
+
+**Slides 3 through (N+2) - Tidbits (One Per Slide, Big Readable Type):**
+Pick 5-10 tidbits from the source list. Selection rules:
+
+- Lead with the strongest (most "wait, what?" reaction).
+- Save the second-strongest for last so they're hooked at the end.
+- Mix categories: weird purchase, weird decision, weird childhood detail, weird quote, weird relationship.
+- Each tidbit must read as a standalone headline. If it requires setup, it's the wrong tidbit for this format.
+- Cut ruthlessly. Two short jaw-droppers > five medium ones.
+
+**Final Slide - CTA:**
+Pick ONE of these formats:
+
+- "I wrote a full personality breakdown of [Person]. Link in bio."
+- "Want to know what makes [Person] tick? Full Enneagram analysis — link in bio."
+- "Read the full read on [Person] at 9takes.com/personality-analysis/[slug]"
+
+---
+
+## Tidbits Lead-In Caption (60-140 words)
+
+Use this sequence:
+
+1. Re-state the hook in one sentence (no throat-clearing).
+2. Tease the 1-2 wildest tidbits that didn't make it onto the slides (or repeat the top one for emphasis).
+3. One forward-looking line on what the full blog covers ("there's a full read on why he does what he does — link in bio").
+4. Forced-choice CTA question that ties to the tidbits, not Enneagram theory ("Most surprising one — the [tidbit A] or the [tidbit B]?").
+
+Constraints:
+
+- Each paragraph max two lines on mobile.
+- No personality-type analysis in the caption — that's the blog's job. Keep it factual + curious.
+- No disclaimer needed (these are facts, not interpretations).
 
 ---
 

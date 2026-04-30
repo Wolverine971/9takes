@@ -6,7 +6,7 @@ description: "Why did Austin Butler's voice stay Elvis after filming ended? The 
 author: 'DJ Wayne'
 date: '2026-04-29'
 loc: 'https://9takes.com/personality-analysis/Austin-Butler'
-lastmod: '2026-04-29'
+lastmod: '2026-04-30'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
@@ -47,8 +47,10 @@ path: src/blog/people/drafts/Austin-Butler.md
 4. Tom Hanks (post-Elvis advice to Butler): "You have immersed yourself so deeply in Elvis that, for your mental health, it would be wise to go straight into something else." — Variety, 2023
 5. Jeff Nichols (on directing Butler in The Bikeriders): "Butler had the sense to underplay Benny... He's so charming. But he has an aura around him. When you have that aura combined with the work ethic and the talent, that guy's going to the moon." — Empire, 2024
 6. Olivia DeJonge (Elvis co-star, on Butler's process): "He's a really hard worker and I was very inspired by the way he tackled the subject matter." — Roger Ebert interview, 2022
+7. Darren Aronofsky (on directing Butler in Caught Stealing): "I often asked him to work a little less hard and to relax a little bit because I wanted a certain looseness." — Variety, 2025
+8. Vanessa Hudgens (on the 2020 split with Butler, She Pivots podcast, 2024): "It pushed me to the right person, which I'm so grateful for... My last breakup had really catapulted me into a very, very special place." — BuzzFeed News / HuffPost, 2024
 
-Total qualifying quotes: 6
+Total qualifying quotes: 8
 -->
 
 <!-- HEADING MIX LEDGER
@@ -63,9 +65,13 @@ H2 7: "The voice that didn't come back" — signature
 Search-intent + hybrid count: 5
 -->
 
-<!-- DISTRIBUTION LEDGER
-Type-theory paragraphs outside diagnosis section and Rabbit Hole: 3
-Locations: "How Austin Butler disappeared into Elvis" (one paragraph naming the 9 strategy), "The 4 a.m. ambulance" (one paragraph contrasting type responses to body-shutdown), "What Austin Butler does under pressure" (one paragraph naming the 9-to-6 stress disintegration)
+<!-- DISTRIBUTION LEDGER (updated 2026-04-30)
+Type-theory paragraphs outside diagnosis section and Rabbit Hole: 5
+Locations:
+- "How Austin Butler disappeared into Elvis" (one paragraph naming the 9 strategy taken to its endpoint)
+- "The 4 a.m. ambulance" (one paragraph naming auteur-director pattern as 9-merger evidence)
+- "What Austin Butler does under pressure" (3 paragraphs: 9-pure stress framing; Cox/Strong outward-vs-inward method-acting contrast; Aronofsky asking Butler to do less)
+- "The voice that didn't come back" (one paragraph naming 9-to-3 integration via Caught Stealing as growth move)
 -->
 
 > "I would have months where I wouldn't talk to anybody. And when I did, the only thing I was ever thinking about was Elvis." — Austin Butler, GQ, 2022
@@ -87,7 +93,7 @@ That is not the story of a man who lost himself in a role. That is the story of 
 <div class="panel">
 <ul>
 <li><b>Self-erasure as superpower:</b> Type 9s "go to sleep" to themselves and merge with whoever they're next to. Butler's career is the most expensive version of that pattern in cinema.</li>
-<li><b>Stress lives in the body:</b> 4 a.m. ambulance after Elvis. Temporary blindness on a flight to The Bikeriders. The body keeps the score his face refuses to show.</li>
+<li><b>Stress lives in the body:</b> 4 a.m. ambulance after Elvis. Temporary blindness on a flight to The Bikeriders. The body collects what his face refuses to show.</li>
 <li><b>Wing 1 perfectionism:</b> Memorized a four-hour play before rehearsals. Ran every Elvis interview tape until his mouth muscles changed shape. The 9 floats; the 1 disciplines.</li>
 <li><b>The polite child of divorce:</b> Walked home from school for lunch with mom, vanished between two houses on weekends. Kept the peace early. Got good at it.</li>
 <li><b>Privacy as preservation:</b> Three serious relationships, near-zero quotes about any of them. The merger that almost killed him during Elvis is the one he refuses to perform in love.</li>
@@ -103,11 +109,13 @@ That is not the story of a man who lost himself in a role. That is the story of 
 
 Butler is a 9 with a 1 wing. The 9 is what makes him the ideal vessel for a director's vision — agreeable, absorbent, capable of borrowing a voice so completely that his real one stops working. The 1 is what makes him obsessive about the work. He doesn't just merge. He rehearses the merger at six a.m., five days a week, for thirty-six months, until even his sleep is method.
 
+Not 8-wing. An 8 in the wing brings outward drive — confrontation, room-claiming, the willingness to push back on a director. Butler does none of that. The 1 in him organizes inward, into preparation and self-correction. It never crosses into anger. He prepares; he does not assert.
+
 The combination produces something unusual: an actor whose dedication looks heroic from the outside and feels like vanishing from the inside.
 
 There's a version of this story where Austin Butler is a Type 4 — the romantic, the artist, the man chasing a uniquely tortured identity. It doesn't fit. Fours collect themselves; Butler distributes himself. Fours suffer artfully into a self; Butler suffers his way out of one. He doesn't preserve a sacred personal aesthetic; he hands his face and his vocal cords to whichever director is next on the call sheet.
 
-The voice that won't come back isn't a 4's curated wound. It's a 9's quiet horror — the moment when "I can be whoever you need" becomes "I cannot remember who that was."
+The voice that won't come back is a 9's quiet horror — the moment when "I can be whoever you need" becomes "I cannot remember who that was."
 
 ## Austin Butler's childhood and the polite boy in two houses
 
@@ -117,7 +125,7 @@ He has described himself, repeatedly, as a child who could not order food at a r
 
 This is the move that every kid in two-house rotation eventually learns, and 9s learn it deepest. Austin learned to read the temperature of a room before he walked into it. He learned that being _easy_ was the price of being welcome. He got good at fading just enough to be liked in both houses.
 
-What Butler had on top of that — and this is the wing — was a private intensity nobody at school could see. A boy who could not order food in public was the same boy who, by twenty-three, would be administering his dying mother's IV at home and managing her feeding tubes alone. The introversion was not absence. It was concentration. The 9 vanishes outside; the 1 organizes inside.
+What Butler had on top of that — and this is the wing — was a private intensity nobody at school could see. A boy who could not order food in public was the same boy who, by twenty-three, would be administering his dying mother's IV at home and managing her feeding tubes alone. The 9 vanishes outside; the 1 organizes inside.
 
 Lori Butler died of duodenal cancer in September 2014, one month after Austin's twenty-third birthday. He has said, in the calm voice he uses for everything, that he briefly stopped believing acting was a noble profession. He had just spent the final months of her life in the role most 9s spend an entire life rehearsing — the person who absorbs someone else's pain so the room stays bearable. The role just got a little more permanent than he planned.
 
@@ -127,9 +135,13 @@ He kept acting anyway. The grief never stopped being in the work, but it stopped
 
 The audition is the part of this story that makes Type 9 visible in slow motion.
 
-When Butler first heard about the role, he was thirty and had spent more than a decade as a working but unspectacular actor — Disney Channel, Nickelodeon, Quentin Tarantino's _Once Upon a Time in Hollywood_ in a small role, a Broadway debut in _The Iceman Cometh_ where [Denzel Washington](/personality-analysis/Denzel-Washington) terrified him every night and quietly catalogued his work ethic. Butler taped himself singing "Love Me Tender." He watched it back, decided it sounded like an Elvis impersonator, and refused to send it.
+When Butler first heard about the role, he was thirty and had spent more than a decade as a working but unspectacular actor — Disney Channel, Nickelodeon, _The Carrie Diaries_, _The Shannara Chronicles_, a small part in Quentin Tarantino's _Once Upon a Time in Hollywood_, and a Broadway debut where [Denzel Washington](/personality-analysis/Denzel-Washington) terrified him every night and quietly catalogued his work ethic.
 
-Then he had a nightmare. In the dream, his mother was dying. He woke up, sat down at the piano in his bathrobe, and remembered that Elvis Presley had also lost his mother at twenty-three. Butler thought: _what if I sing "Unchained Melody" to my mom?_
+The Broadway role is the part most write-ups skim. He played Don Parritt in _The Iceman Cometh_ — a guilt-ridden young man who confesses to betraying his anarchist mother and then walks offstage to throw himself off a fire escape. Butler took the part in 2018, four years after his own mother's cancer death. Eight performances a week, he stood across from Washington and said the lines of a son whose silence had killed his mother. Then he went home. Whatever he was working out about Lori, he was working it out in public, in eight-show-a-week increments, before anyone knew his name.
+
+The audition for Elvis came the following year. Butler taped himself singing "Love Me Tender." He watched it back, decided it sounded like an Elvis impersonator, and refused to send it.
+
+Then he had a nightmare. Five years had passed since Lori's death. In the dream she was dying again. He woke up, sat down at the piano in his bathrobe, and remembered that Elvis Presley had also lost his mother at twenty-three. Butler thought: _what if I sing "Unchained Melody" to my mom?_
 
 He filmed himself doing it. He was in tears the entire time. He sent it.
 
@@ -161,47 +173,49 @@ Most actors would frame these as anecdotes about commitment. Butler frames them 
 
 The voice never came all the way back. He hired a dialect coach not to learn an accent but to subtract one. His own voice coach, Irene Bartlett, told the press that the change might be permanent. Butler himself, asked about it on a press tour, said the line that gives away the entire diagnosis: _It's hard for me to talk about. I can't really reflect on it too much. I don't know the difference._
 
-A 4 would have an essay about this. A 3 would have a brand statement. A 9 has the shrug — _I don't know the difference_ — and a body that quietly keeps the score.
+That sentence — _I don't know the difference_ — is the entire diagnosis. You could read it as publicist coaching. But he keeps saying it, year after year, in exactly the same tone, and a coached line gets refined. His doesn't. The line is just true. The merger went all the way down to where the words start.
 
-After the hospital, [Tom Hanks](/personality-analysis/Tom-Hanks) pulled him aside with advice no other actor on the project was qualified to give. _You have immersed yourself so deeply in Elvis that, for your mental health, it would be wise to go straight into something else._ The kindest possible warning. Hanks was not telling him to rest. He was telling him that for a person built like Butler, rest is the dangerous part — because rest is when the silence comes back, and the silence is what the merger was protecting him from.
+After the hospital, [Tom Hanks](/personality-analysis/Tom-Hanks) — widely read as a 9 himself — pulled him aside with advice no other actor on the project was qualified to give. _You have immersed yourself so deeply in Elvis that, for your mental health, it would be wise to go straight into something else._ The kindest possible warning. Hanks was not telling him to rest. He was telling him that for a person built like Butler, rest is the dangerous part. Rest is when the silence comes back. The silence is what the merger was protecting him from. Same-to-same.
 
 Butler took the advice. He went straight into _Masters of the Air_, and then _Dune: Part Two_, and then _The Bikeriders_, and then _Eddington_, and then _Caught Stealing_. The release valve for a man who almost dissolved into one role turned out to be more roles. Different shapes. Just don't stop shaping.
 
+The directors he keeps saying yes to share one trait. Luhrmann, Villeneuve, Nichols, Ari Aster, Darren Aronofsky — five auteurs in five years, every one of them a filmmaker with a fully-formed vision who needs an actor to step inside it. There is no franchise tentpole on the list. There is no "show up and be Austin Butler" job. He keeps choosing rooms with strong gravity. A 9 needs that pull.
+
+> "He's so charming. But he has an aura around him. When you have that aura combined with the work ethic and the talent, that guy's going to the moon." — Jeff Nichols, on directing Butler in _The Bikeriders_
+
 ## What Austin Butler does under pressure
 
-[Type 9s under stress disintegrate to Type 6](/enneagram-corner/enneagram-types-in-stress) — the anxious, reactive, body-driven version of themselves. The calm gets thin. The dread gets loud. Sleep becomes a problem the body solves with symptoms it does not have words for.
+9s in [stress](/enneagram-corner/enneagram-types-in-stress) don't fall apart the way 6s or 4s or 8s fall apart. Anxious people get loud. Romantic people get melodramatic. Angry people get sharp. A 9 just goes further to sleep. The body absorbs what the personality won't. The face stays calm; the system shuts down.
 
-Watch Butler's stress timeline and the pattern is almost too tidy. Three years of total merger. Day after Elvis wraps: ambulance, hospital, body shutting down. Year later: temporary blindness on a plane. Subsequent press tour: he cannot talk about his own voice without freezing. _It's hard for me to talk about._ The 9 voice for the 6 panic — _I don't know what's happening, I don't want to think about it, please ask me about something else._
+Watch Butler's timeline and the pattern is almost too tidy. Three years of total merger. Day after Elvis wraps: ambulance, hospital, body shutting down. A year later: temporary blindness on a plane. Subsequent press tour: he cannot talk about his own voice without freezing. _It's hard for me to talk about._ Not panic. Not anger. Just the system declining to file a report.
 
-The thing that snaps him out of it is the same thing that triggered it. Another role.
+This is the part of the method-acting argument the discourse keeps missing. When Brian Cox went after Jeremy Strong for staying in character on _Succession_, the complaint was that the merger created hostility on set — Strong's process pushed outward, and the room had to absorb it. Butler's process is the opposite. He pushes inward. The cost lands inside his own body, in private, in the form of symptoms a doctor cannot name. Method acting does not have one personality type. It has at least two. The 8-ish version makes the room pay; the 9-ish version makes the actor pay.
 
-This is the central paradox of Austin Butler's career: the work is his disorder _and_ his treatment. When he is _in_ a part, the 9's chronic question — _who am I, exactly?_ — gets answered by the script. He becomes Hank, the ex-baseball player from the Lower East Side. He becomes Feyd-Rautha, the bald and eyebrowless heir to a Harkonnen throne. He sleeps in his underwear on the _Caught Stealing_ set so the bartender's apartment will smell right when he walks in to film. He does not have to wonder who he is. The call sheet has already decided.
+Aronofsky figured this out before anyone else on the _Caught Stealing_ set. His biggest note to Butler, in his own words, was to stop. _I often asked him to work a little less hard and to relax a little bit._ A director asking an actor to do less is not a normal note. It is a direct read on the kind of merger Butler runs. The 9 will hand you the entire body if you let him. A good director takes only what the part needs.
+
+The thing that snaps Butler out of the post-role collapse is the same thing that triggered it. Another role.
+
+This is the central paradox of his career: the work is his disorder _and_ his treatment. When he is _in_ a part, the 9's chronic question — _who am I, exactly?_ — gets answered by the script. He becomes Hank, the ex-baseball player from the Lower East Side. He becomes Feyd-Rautha, the bald and eyebrowless heir to a Harkonnen throne. He gains thirty-five pounds, sleeps overnight in the bartender's apartment set in his underwear, eats Chinese food and dances alone before dawn so the room will be in his muscles when the crew arrives. He does not have to wonder who he is. The call sheet has already decided.
 
 When the call sheet ends, the body comes for him.
 
 ## Austin Butler's love life and the privacy of a borrowed self
 
-Three serious relationships in fifteen years. Vanessa Hudgens, dated nine years, ended in 2020 — a few months into the Elvis monastery. Olivia DeJonge, his Elvis co-star, briefly, never confirmed. Kaia Gerber, three years, ended in early 2025. None of them ever became a public storyline. _I don't think there's anything I want to share about that_, he told a journalist who asked about Gerber.
+The Hudgens breakup is the cleanest read in the file. Nine years together, including the years he was caregiving his dying mother. It ended in early 2020, a few months into the Elvis monastery. He has never publicly described what happened. She has. On the _She Pivots_ podcast in 2024, Vanessa Hudgens said the split "catapulted me into a very, very special place" and "pushed me to the right person, which I'm so grateful for." Two people lived through the same nine years. One built a public arc out of the ending. The other has not said a word.
 
-This is unusual for a leading man at his level of fame, and it is exactly what Type 9 looks like in love. The merger strategy that nearly killed him on the Elvis set is the same one intimacy quietly asks for, and Butler — a person whose deepest fear is losing himself to a stronger gravity — has learned to run it on lower power.
-
-The standard public-facing star plays love as performance. Butler treats love the way he treats his actual personality: keep it indoors, keep it quiet, do not let the public's idea of you decide what it is.
-
-The Hudgens breakup is the one that maps cleanest onto the timeline. Nine years, including the years he was caregiving his dying mother. The relationship ended, by every public account, because he was on one continent disappearing into Elvis and she was on another and the geometry was no longer survivable. A 9 in deep merger does not have spare merger to give. The role gets all of it.
-
-Whatever else the privacy is — taste, modeling family, real love — it is also a 9 doing the only protective thing they know how to do, which is to keep the inner room small enough that nobody else can take it from them.
+That asymmetry is the 9 in love. Hudgens performs the breakup; Butler keeps it indoors. The merger strategy that nearly killed him on the Elvis set is the same thing intimacy quietly asks for, and Butler — a person whose deepest fear is losing himself to a stronger gravity — has learned to run it on lower power. Three serious relationships in fifteen years; near-zero quotes about any of them. _I don't think there's anything I want to share about that_, he told one journalist asking about Kaia Gerber. The role gets all of it.
 
 ## The voice that didn't come back
 
 Watch a Butler interview from 2024 and the most striking thing is what is absent. There is no edge. There is no theory. There is no signature angle. He says he is grateful. He says it was a lot. He says he is doing better. He listens more than he talks. He laughs softly at the host's joke. The accent is no longer Memphis but it is no longer quite his either; it is somewhere south of who he was at eighteen, somewhere east of the man who walked off the Elvis set, a voice without a hometown.
 
-He has begun to look, in the most precise sense, like an actor. Not a movie star. Not a personality. An actor. A person whose face was built to receive other faces, whose voice was built to take on other voices, whose self was built — back when the dinner table was tense and the parents were splitting and a small boy was learning that being still made him welcome — to disappear politely into whatever the room required.
+Healthy 9s [grow toward Type 3](/enneagram-corner/enneagram-personal-growth) — focused, decisive, willing to be seen, capable of saying _I want this_ without dissolving into the wanting. _Caught Stealing_ is the first time Butler's career has shown what that looks like. The character is an ex-baseball player turned bartender; an ordinary New Yorker. No accent transformation. No dead icon to channel. Aronofsky's note was _relax_. Critics called the performance _easy, laid-back charm_ and used the word "stardom" without flinching. For an actor whose entire reputation was built on full-body merger, "playing a normal guy without disappearing" is the harder skill. It is also the growth move. The 9 is learning to occupy a room without becoming it.
 
-Most performers are running from something. Butler is running into things. Each one a place to put a 9 who otherwise has no place to be.
+He has begun to look, in the most precise sense, like an actor. Not a movie star. Not a personality. An actor. A person whose face was built to receive other faces, whose voice was built to take on other voices, whose self was built to disappear politely into whatever the room required. Each new role is a place to put a 9 who otherwise has no place to be.
 
-The voice that didn't come back is not a tragedy. It is the only honest thing about him. It is the proof that he was actually there, all three of those years, all the way down. He gave more than he had. The body charged him for it. He is still paying.
+The voice that didn't come back is not a tragedy. It is the proof that he was actually there, all three of those years, all the way down. He gave more than he had. The body charged him for it. He is still paying.
 
-A man cast in a moment of breakdown, at a piano, in a bathrobe, singing to his dead mother, never quite stopped sounding like that audition. That is the sound of someone finding out what he is for. That is also the sound of someone realizing he doesn't know how to come back.
+A man cast in a moment of breakdown, at a piano, in a bathrobe, singing to his dead mother, never quite stopped sounding like that audition.
 
 He is doing it anyway. One borrowed voice at a time.
 
@@ -259,3 +273,71 @@ PRIORITY FIXES (numbered, in order of impact — 3 max):
 3. Cut the closing parallel-binary ("That is the sound of... That is also the sound of...") — let "He is doing it anyway. One borrowed voice at a time." be the close, full stop.
 
 ============================================================ -->
+
+<!-- FRESH EYES REVIEW (2026-04-30)
+Biggest issues:
+- Dream-of-dying-mother chronology is fuzzy. Lori died in 2014; the audition tape was filmed ~2019. As written, a fresh reader can't tell why she suddenly resurfaced in a dream that year, and the piece relies on the reader making the leap to "Elvis lost his mother at 23 too." Name the five-year gap or thread the cause more deliberately — right now it reads like the dream and the death happened in close proximity.
+- Wing argument is asserted, not adjudicated. The piece declares 9w1 and only cashes out the 1 via "discipline." Obsessive prep can equally be 8-wing drive. One sentence ruling out 8 (e.g., the absence of confrontational push, the politeness as default, the discomfort with conflict) would close the loop.
+- No integration / health arc. The piece ends in resignation ("He is still paying / He is doing it anyway") with no read on what growth-to-3 would even look like for Butler. Without it, the diagnosis has no future tense — readers leave with a static portrait of pathology.
+- The 9-to-6 stress paragraph mis-fits its own evidence. Body shutdown, somatic collapse, "I don't know what happened" — these read as classic 9 somatization (going to sleep in the body), not 6 anxiety (scanning, doubt-loops, seeking reassurance). The 9-to-6 frame is invoked but the symptoms listed don't actually look 6. Either reframe the evidence as 6 (where's the dread, the second-guessing?) or drop the disintegration label and call it 9-pure overwhelm.
+
+What to expand:
+- Iceman Cometh is name-dropped but the role is buried. Butler's Broadway debut was Don Parritt — a young man who confesses to betraying his mother and walks offstage to commit suicide. For a 9 working through his own dead mother's grief, that role is loaded in a way the piece never names.
+- The directors he keeps saying yes to all share one trait: total auteur vision (Luhrmann, Villeneuve, Aronofsky, Ari Aster, Jeff Nichols). For a 9-merger thesis, that's the strongest evidence pattern in the piece and it's never gathered.
+- Jeff Nichols's "aura combined with work ethic" quote sits in the testimony ledger and never makes it into the body. It's the one third-party quote about post-Elvis Butler, and it would cleanly close the "release valve was more roles" beat.
+- Vanessa Hudgens's "so grateful for the split" public framing is part of the record. The piece presents her side as silent — she actually narrated the breakup as freedom.
+
+What to trim:
+- "Polite child of divorce" framing repeats across opener, childhood section, privacy section, and closer. Twice would land harder than four times.
+- The Disney Channel / Nickelodeon / Tarantino compression skips Carrie Diaries / Switched at Birth / Shannara Chronicles — a working actor's decade gets one line. Either name two of them so the "thirty and unspectacular" claim has weight, or cut the resume sentence entirely and trust the reader knows he was around.
+- "He sleeps in his underwear on the Caught Stealing set so the bartender's apartment will smell right" — vivid but unsourced in the testimony ledger; verify before keeping.
+
+Structural suggestions:
+- Move Tom Hanks's "rest is the dangerous part" reframe earlier — it's the smartest single beat in the piece, currently buried in the middle of the body section.
+- The privacy/love-life section adds the least and recycles the merger thesis. Either cut to two paragraphs or make Hudgens-as-mirror (her "grateful" public arc vs. his silence) the actual point.
+- Consider one paragraph naming Hanks-as-elder-9 explicitly. The mentor relationship is doing real thematic work in the piece without being labeled.
+
+What's already working:
+- "I don't know the difference" used as the diagnostic line is the cleverest single move in the piece — letting Butler's non-answer do the typing work is genuinely original.
+- The Feyd-Rautha "bald and eyebrowless heir to a Harkonnen throne" specificity keeps the merger thesis from going abstract.
+- "The role gets all of it" closing the Hudgens paragraph is exactly the right amount of words.
+- The 9w1 split sentence — "The 9 vanishes outside; the 1 organizes inside" — is the sharpest paragraph-sized typing read in the corpus right now.
+- The opening image (piano, bathrobe, Unchained Melody to dead mother) is a genuinely arresting hook that earns its placement.
+-->
+
+<!-- REVISION PASS — 2026-04-30 (addressing both fresh-eyes reviews above)
+
+Addressed (PASS 3):
+- Cut rule-of-three counter-typing ("A 4 would have an essay... A 3 would have a brand statement... A 9 has the shrug") — replaced with diagnostic + brief PR-strategy pushback ("You could read it as publicist coaching... a coached line gets refined. His doesn't.")
+- Cut "The body keeps the score his face refuses to show" / "keeps the score" formulation in voice section
+- Cut closing parallel-binary ("That is the sound of someone finding out... That is also the sound of someone realizing") — closer ends on "He is doing it anyway. One borrowed voice at a time."
+- Cut "It is the only honest thing about him" thesis sentence
+- Cut "Most performers are running from something. Butler is running into things." contrast pair
+- Cut one of the "It is not X. It is Y" pairs ("The introversion was not absence. It was concentration.") — kept the structurally-load-bearing ones
+- Cut the dinner-table-was-tense parenthetical (childhood-section repeat)
+- Engaged method-acting cultural critique via Cox/Strong/Aronofsky — new paragraph contrasting outward (8-ish) vs. inward (9-ish) merger costs
+
+Addressed (PASS 4):
+- Named the 5-year gap between Lori's death and the audition dream
+- Added 8-wing rule-out paragraph in diagnosis section
+- Added 9-to-3 integration arc using Caught Stealing as the growth evidence
+- Reframed stress section away from 9-to-6 disintegration mismatch — now reads as 9-pure somatic shutdown ("the system declining to file a report")
+- Expanded Iceman Cometh / Don Parritt — named the role, named the mother-betrayal-suicide arc, named the 4-year gap from Lori's death
+- Named the auteur-director pattern (Luhrmann / Villeneuve / Nichols / Aster / Aronofsky) as the strongest 9-merger evidence on the page
+- Pulled Jeff Nichols quote into body
+- Restructured love-life section around Hudgens-as-mirror — her public arc vs. his silence — cut to two paragraphs
+- Named two Disney-era shows (Carrie Diaries, Shannara Chronicles) so "thirty and unspectacular" claim has weight
+- Verified Caught Stealing underwear claim via Variety 2025 (sourced); added detail (35 lb gain, Chinese food, dancing)
+- Named Hanks-as-elder-9 explicitly via "widely read as a 9 himself" + "Same-to-same" tag
+
+Not addressed (judgment call):
+- Did not move Hanks "rest is the dangerous part" reframe earlier — current placement (after we've shown body collapse) earns the reversal; moving it would weaken the build
+- Did not cut "polite child of divorce" framing entirely — kept TL;DR mention + childhood section, cut closer parenthetical (down to twice from three)
+- Did not engage Olivia DeJonge by name in love-life section — Hudgens-as-mirror is the cleaner structural point; DeJonge as a third name would tabloid the paragraph again
+
+Updated:
+- lastmod 2026-04-30
+- TESTIMONY LEDGER: 6 → 8 quotes (Aronofsky "work less hard" + Hudgens "grateful")
+- DISTRIBUTION LEDGER below should be re-counted; type-theory paragraphs outside diagnosis grew to ~5 (added: 9-to-3 growth para, 9-pure stress reframe, Cox/Strong/Aronofsky method-acting critique, auteur-pattern para)
+-->
+

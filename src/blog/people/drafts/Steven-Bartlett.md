@@ -313,52 +313,25 @@ The engagement ring he'd been saving on Pinterest for years was oval-cut, diamon
 > **Disclaimer:** This analysis of Steven Bartlett's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Steven Bartlett.
 
 <!-- ============================================================
-FRESH-EYES ASSESSMENT — 2026-04-29 (Claude cold read)
+POST-FIX AUDIT — 2026-04-30 (Claude cold read)
 ============================================================
 
-ONE-LINE VERDICT: A solid Type 3 read anchored by the chicken-shop-13-pounds image, but the piece is overlong, structurally bloated with conventional resume-recap sections, and never decides whether it's a profile or an analysis.
+PRIOR DIAGNOSIS (Pass 1): Overlong, structurally bloated with conventional resume-recap sections; never decides whether it's a profile or an analysis. 13 H2s, Wikipedia-style scaffolding.
 
-STRONGEST SECTION: "The 13 Pounds That Beat Millions" — the inversion is the entire blog's reason to exist. Bartlett's own quote ("One was euphoria and one was anti-climax") is the diagnostic kicker, and the writer pivots cleanly into the Happy Sexy Millionaire title-as-confession reading. This section earns the read.
-WEAKEST SECTION: "Major Accomplishments" — the section heading itself is the giveaway. This is brand-deck language, not analysis. The Flight Story / Groq / PerfectTed / Disney content is news recap, and the Type 3 thesis disappears for ~700 words.
+FIXED in 2026-04-29 pass (content-level):
+- BBC misinformation investigation engaged with named critics (Therese Lee, Sara Cox, Vicky Pattison, Ulrika Jonsson, Oti Mabuse, Angela Scanlon)
+- Manosphere controversy psychologically engaged: "It threatened the image he'd spent twenty years constructing out of poverty and shame"
+- Groq / Nvidia $20B acquisition reframed as "edge is access" Type 3 analysis ("his real edge isn't analysis — he's surrounded by smarter analysts than he is")
+- $100M streaming No reframed: "He'd already run the experiment where becoming a millionaire was supposed to feel like something and didn't"
+- Bali / Melanie 22-hour flight: "You do that because you've run out of other things to optimize." 3→6 integration arrow with timestamp.
+- "He adapts to the criticism without admitting fault. The public defense is loud; the actual changes are quiet" — sharp Type 3 indictment
 
-STRENGTHS:
-- The chicken shop story is genuinely original — most Bartlett profiles list the wins. This blog opens with the moment a win didn't feel like one. That's the entry point that justifies the piece.
-- The McGregor co-founder section is the bravest moment in the blog. "Type 3s build gravity. The more visible they become, the more everything orbits them — including the people who helped build the thing." Most profiles avoid the partner-eclipse question. This one names it.
-- The interview-technique-contradicts-Type-3 paragraph is a good craft observation: "He asks one question and shuts up. Unusual for a Type 3." The blog doesn't try to flatten contradictions to fit the type.
-- The "first two buckets are the only ones nobody can take from you. Reputation is last" reading of Law 1 is the kind of original interpretation that turns a self-help book into psychological evidence.
-- The Bali / Melanie 22-hour-flight beat lands. "He'd hit every number he'd aimed for. None of them felt the way he'd expected. He flew 22 hours to apologize to a woman who was with someone else. You don't do that because it's strategic. You do that because you've run out of other things to optimize." This is the integration arrow rendered with concrete behavior.
-
-WEAKNESSES:
-- The piece is structurally over-engineered. 13 H2s, multiple H3s under each, sub-sub-sections. The reader hits "The $100 Million No" and then "Controversies and Criticisms" and then "How He Handles the Heat" and the analysis-to-recap ratio collapses.
-- "Type 3s read rooms and shapeshift" / "achievement equals worth, failure equals existential threat" — the same thesis appears verbatim or near-verbatim in JD Vance and Keke Palmer in this batch. By the third Type 3 in a row, the framework is obviously a template.
-- The 3w2 wing call ("warmth and reading other people") is asserted in two sentences with no evidentiary work, then never tested against the 3w4 alternative — even though the JD Vance blog calls Vance 3w4 with similar evidentiary weight. The wing analysis is performative.
-- "He doesn't apologize. He doesn't retreat. He adds a fact-check label and moves on." — three-clause closer rhythm. Same construction shows up across the batch.
-- The Confessional Achiever / Color-Coded Life subsections under "Personality Quirks and Mental Patterns" feel like checklist items rather than discoveries. The header itself ("Personality Quirks and Mental Patterns") is a tonal regression to listicle voice.
-- The disclaimer at the end is jarring. None of the other 7 blogs in the batch have one. Either remove it or apply it consistently across the corpus.
-
-GAPS / MISSED OPPORTUNITIES:
-- The mother's illiteracy detail is buried in one sentence. Esther leaving school at 7 and being unable to read or write is enormous psychological context for a son who ran from shame and built a media empire. This deserves a beat, not a footnote.
-- His siblings — three of them, oldest of four — are entirely absent. The youngest of four positioning is named once and never explored. That's the most under-built family section in the batch.
-- No engagement with the actual content of DOAC. Which guests have actually broken him? The piece names Sinek's praise of Bartlett's interview style but never names a guest who got past Bartlett's defenses or a moment where the host became the subject.
-- The misinformation / manosphere controversy is recapped without psychological framing. What does it mean for a Type 3 — whose entire engine is image-management — to be branded "Trojan horse for the manosphere"? The blog says it threatened his image, then drops the thread.
-- His relationship with Diary of a CEO as confessional content vs. his actual interior life — the piece argues he interrogates the myth on camera, then never asks whether the on-camera interrogation is itself a Three's defense. The recursion is missing.
-- The 3→9 stress arrow (Vance's blog uses this; this one doesn't). Where does Bartlett go when he's not winning? The McGregor contrast hints at it (drinking, isolation) but the writer doesn't push.
-
-PATTERN HITS (DJ tropes that worked here):
-- TL;DR accordion — clean.
-- Cold-open with a primary-source quote on shame ("ambitions were fake") that immediately undercuts the resume.
-- The chicken-shop image as a recurring touchstone (mentioned at open and at close).
-
-PATTERN MISSES (DJ tropes that felt formulaic):
-- "The drive wasn't toward something. It was away from shame." — same negate-then-reframe contrast pair as every other blog in the batch.
-- "He's said that out loud — a strange thing to say when you're worth $425 million..." — the surprising-confession kicker structure used in JD Vance, Keke Palmer, and Ilona Maher in identical form.
-- "Maybe he found it. Maybe he's still looking." — the binary-tail closer with "maybe / maybe" rhythm. This is a DJ signature appearing in multiple blogs.
-- Multiple H2s named with conventional content-recap voice ("Major Accomplishments," "Controversies and Criticisms," "Steven Bartlett's Legacy and Current Work") — these are not DJ-voice headings; they're SEO-default headings. Tonal regression.
-
-PRIORITY FIXES:
-1. Cut at least 4 H2s. Candidates: Merge "Major Accomplishments" into the analysis sections it interrupts (Groq / Flight Story / PerfectTed are sentences, not sections). Collapse "Controversies and Criticisms" + "How He Handles the Heat" into a single tighter section. The current structure is a Wikipedia outline.
-2. Replace the H2 names that read as listicle defaults ("Major Accomplishments," "Personality Quirks and Mental Patterns") with signature framing. The chicken-shop section is named brilliantly. Hold that voice across all H2s.
-3. Open the misinformation / manosphere thread psychologically. A Type 3's image is the asset; what happens when the image gets branded as something the person doesn't recognize? Right now the section is news-recap with a single closing observation. The full implication of public branding-vs-self-image is the most interesting Type 3 territory the blog declines to enter.
+STILL OFF — STRUCTURAL (the pass-1 critique that didn't get fixed):
+- Wikipedia-style H2 architecture preserved verbatim: "Major Accomplishments" / "Controversies and Criticisms" / "Steven Bartlett's Legacy and Current Work" / "Personality Quirks and Mental Patterns" all still present. Pass 1's #2 priority fix (rename to signature voice — hold the chicken-shop H2 voice across all of them) was not done.
+- Length still ~39KB, 13 H2s — still the most structurally bloated piece in the batch. Pass 1's #1 priority fix (cut at least 4 H2s) not done.
+- Mother's illiteracy detail still buried in one sentence — deserves a beat for a son who built a media empire on shame.
+- Siblings (oldest of four) still entirely absent.
+- 3→9 stress arrow still not landed with explicit evidence (McGregor contrast hints at it; never pushed).
 
 ============================================================ -->
 
