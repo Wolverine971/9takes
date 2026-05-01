@@ -2,14 +2,17 @@
 
 # Top-Tier People — Instagram Tidbits
 
-**Date:** 2026-04-29
-**Purpose:** Scroll-stopping facts pulled from the 27 top-tier personality blogs identified in the four corpus assessments (`docs/blog-automation/2026-04-29-*`). Each entry is a single-sentence, concrete, falsifiable detail intended for Instagram caption / carousel use.
+**Date:** 2026-04-29 (initial), 2026-04-30 (16 user-curated additions)
+**Purpose:** Scroll-stopping facts pulled from heavily-researched personality blogs. Each entry is a single-sentence, concrete, falsifiable detail intended for Instagram caption / carousel use.
 **Source:** Facts pulled directly from blog drafts in `src/blog/people/drafts/`. Those blogs are heavily researched but not infallible — sanity-check any fact you're about to publish, especially specific dollar figures, dates, and direct quotes.
-**Top-tier blogs by pass:**
+**Coverage by source:**
 
-- **Pass 1 (top 5):** Sofia Vergara, James Dyson, Peter Thiel, Andrew Ross Sorkin, Milly Alcock
-- **Pass 2 (top 10):** Mark Zuckerberg, Ryan Grim, Vladimir Putin, AOC, Donald Trump, Amelia Dimoldenberg, Joseph Stalin, Tyler Cowen, Kylie Jenner, Margot Robbie
-- **Pass 3 (top 11):** Charli XCX, Pedro Pascal, Steve Carell, Kai Cenat, Chappell Roan, Ben Affleck, IShowSpeed, John Lennon, Sabrina Carpenter, Anne Hathaway, Alex Cooper
+- **Pass 1 corpus assessment (top 5):** Sofia Vergara, James Dyson, Peter Thiel, Andrew Ross Sorkin, Milly Alcock
+- **Pass 2 corpus assessment (top 10):** Mark Zuckerberg, Ryan Grim, Vladimir Putin, AOC, Donald Trump, Amelia Dimoldenberg, Joseph Stalin, Tyler Cowen, Kylie Jenner, Margot Robbie
+- **Pass 3 corpus assessment (top 11):** Charli XCX, Pedro Pascal, Steve Carell, Kai Cenat, Chappell Roan, Ben Affleck, IShowSpeed, John Lennon, Sabrina Carpenter, Anne Hathaway, Alex Cooper
+- **User-curated additions (2026-04-30, 16):** Malcolm X, Lily Allen, Emma Chamberlain, Joe Rogan, Krystal Ball, xQc, Tim Ferriss, Leila Hormozi, Lana Del Rey, Lady Gaga, Harry Styles, Rooney Mara, Taylor Swift, Hilary Duff, Robert Greene, Robert Oppenheimer
+
+**Total: 43 people.**
 
 ---
 
@@ -353,3 +356,205 @@
 - She walked herself down the aisle at her April 2024 Riviera Maya wedding to Matt Kaplan; the entire wedding party ended the night swimming in the ocean in formal attire.
 - After her SiriusXM deal, she bought her parents a New England-style house in Los Angeles about 15 minutes from her own.
 - Her Unwell brand became the official partner of the National Women's Soccer League via a $3 million sponsorship — full circle for the D1 player whose coach refused to say her name.
+
+---
+
+# User-Curated Additions (Added 2026-04-30)
+
+## Malcolm X
+
+- Malcolm X copied every word in the dictionary by hand while in Norfolk Prison Colony, and reading 15 hours a day by the thin strip of light under his cell door permanently damaged his eyesight.
+- The FBI's surveillance file on Malcolm X concluded he was a man of "high moral character."
+- When a British writer asked Malcolm X about his alma mater, he answered: "Books."
+- At age four, Black Legion members on horses surrounded Malcolm's family home in Omaha and shattered the windows in the dark.
+- Malcolm X and Martin Luther King Jr. only met once — a single handshake at the U.S. Capitol on March 26, 1964.
+- Malcolm X's "The Ballot or the Bullet" speech repeats the title phrase exactly sixteen times.
+- His widow Betty Shabazz was pregnant with twins when she watched him get assassinated at the Audubon Ballroom — the twins were born after his death, making six daughters total.
+- Six hours after Molotov cocktails were thrown through his Queens home at 2:46 a.m., Malcolm held a press conference standing in the ruins — six days before he was killed.
+- Two of the three men convicted of Malcolm X's murder were exonerated in 2021 after evidence of prosecutorial misconduct surfaced.
+
+## Lily Allen
+
+- Lily Allen lost her US tour in 2009 because she truthfully told an immigration officer she had taken drugs — EMI pulled her American promo budget and her album stopped climbing.
+- As a child, Lily's mother sent a car to pick her up from school but the wrong child (also named Lily) was driven home — and it took hours for anyone to notice.
+- Lily Allen sold limited-edition seven-inch vinyl pressings of "LDN" for as much as £40 each in 2006 after building her audience on MySpace.
+- She turned down a role on Game of Thrones playing Theon Greyjoy's onscreen sister because the storyline involved incest with her actual brother Alfie.
+- Allen wrote her divorce album West End Girl in roughly two weeks, walking into the studio on Day One with eighteen song titles already prepared.
+- In 2014, while married to Sam Cooper, Allen hired female escorts on tour — and disclosed it in her 2018 memoir.
+- Lily Allen got sober in 2019 after contemplating heroin in an LA hotel room.
+- She lost her son George at six months gestation in 2010 with the cord wrapped around his neck.
+- Allen attended more than a dozen schools by her teens.
+
+## Emma Chamberlain
+
+- Emma Chamberlain went back and finished her high school diploma at age 23, after dropping out at 16 — while running a coffee company in 12,000+ retail doors and holding ambassador deals at Cartier and Lancôme.
+- She compared running Chamberlain Coffee to a hard marriage on her own podcast: "It's crying. It feels like a marriage."
+- Chamberlain Coffee raised close to $20 million across multiple rounds and opened its first café at Westfield Century City in January 2025.
+- For Halloween 2024, Emma and Peter McPoland wore matching Wallace-and-Gromit costumes — the niche British claymation reference, complete with the knit vest.
+- Her boyfriend of three and a half years, Tucker Pillsbury (Role Model), wrote an entire breakup album about her called Kansas Anymore — with tracks named "Frances" (her middle name) and "Oh, Gemini" (her astrological sign).
+- Her father Michael is an oil painter; her mother Sophia is a flight coordinator who worked at Microsoft.
+- Her father was the videographer for many of her early YouTube videos, and her mother handled administrative work at Chamberlain Coffee.
+- In November 2021, Emma titled a podcast episode "existential crisis" — and flew to Paris for Louis Vuitton the following week.
+- She announced on her November 2025 podcast that she needed to be single for a year.
+
+## Joe Rogan
+
+- Joe Rogan tried to persuade Phil Hartman to divorce his wife Brynn five separate times — Brynn shot Hartman in their bed in May 1998 while their kids slept down the hall.
+- Joe Rogan keeps an old phone he doesn't use just to preserve text messages and photos Anthony Bourdain sent him before Bourdain's 2018 suicide.
+- At age five, after a fight with his cousin over King Kong vs. Godzilla, Joe's father — a Newark cop — pulled him into a room and told him: "Don't ever cry."
+- Rogan won the US Open Taekwondo Championship at 19 as a lightweight and was Massachusetts full-contact state champion four consecutive years.
+- He bought a $14.4 million compound on Lake Austin after California's COVID lockdowns.
+- Rogan refused to submit his podcast for the Golden Globes' debut "Best Podcast" award in January 2026 because he wouldn't pay the $500 submission fee.
+- In 2024, Rogan renegotiated his Spotify deal up to $250 million — and gave up exclusivity to make the show available on Apple Podcasts, YouTube, and Amazon Music simultaneously.
+- Onnit's Alpha Brain sold out three times before the first manufacturer payment came due; Unilever later acquired Onnit for an estimated $250-400 million.
+- Rogan adopted his stepdaughter Kayja after her biological father, R&B singer Keven "Dino" Conner, died in a 2003 car accident.
+- His wife Jessica Ditzel's Instagram bio reads: "Anonymity is underrated."
+- Rogan won't stay away from his daughters longer than three days: "Three days f\*cks up my feelings."
+- In September 2025, Rogan insisted an AI-generated video of Tim Walz dancing in a "F\*\*k Trump" shirt was real — while the "AI Generated" label was visible at the top of the screen.
+
+## Krystal Ball
+
+- Krystal Ball's father Edward holds a Ph.D. in physics and wrote his dissertation on crystals — that's why he named her Krystal.
+- Her mother Rose Marie spent seven years as a nun before leaving religious life to marry, then became a teacher and school-board chairwoman.
+- Ball lost her 2010 Virginia congressional race by 29 points after conservative blogs published photos of her at a Christmas party six years earlier with her then-husband in a novelty reindeer costume.
+- A year before Hillary Clinton declared, Ball aired a monologue on MSNBC titled "Don't Run, Hillary" — and was told future Clinton commentary needed presidential approval from the network.
+- Ball received a Breaking Points contact-form email offering a six-figure sum to bring on a specific guest and discuss pre-selected topics about oil prices and Middle East energy.
+- She married Secular Talk host Kyle Kulinski in May 2023 — Marianne Williamson officiated.
+- Breaking Points hit #1 on the political podcast charts within a week of launching in May 2021 and reached roughly 1.7 million YouTube subscribers and a billion total views by early 2026.
+- When subscribers emailed demanding she echo their views back at them, Ball said on air: "All right, man. Then maybe you should cancel."
+- Ball grew up the youngest of three sisters on rural property in King George County, Virginia, with goats and fruit trees.
+- After Kamala Harris lost in November 2024, Ball led her vindication essay with "I got this election dead wrong" rather than "I told you so."
+
+## xQc
+
+- xQc sat down with lawyers in 2023 at age 27 and prepared a will, listing his relationship status as "single" while living with girlfriend Adept.
+- He took only 85 days off streaming from 2017 through early 2022, logging 24,500+ hours and averaging over 200 hours per month.
+- An armed man broke into his Texas house with a crowbar specifically looking for him, and police were swatted to his address nearly daily.
+- He lost $1.85 million gambling in a single month, then lost $700,000 betting on Kamala Harris in the 2024 presidential election.
+- He signed a two-year, non-exclusive Kick contract worth a reported $100 million ($70M guaranteed) — Guinness-certified as the largest individual streaming deal ever.
+- At IShowSpeed's London football tournament in March 2025, he collapsed after about 40 seconds of activity and told a streamer "my lungs taste like blood."
+- He was the #1 ranked Winston player in North America in Overwatch and had a $150,000 salary with Dallas Fuel before being released for homophobic and racist remarks.
+- His relationship with streamer Nyyxxii lasted 16 days.
+
+## Tim Ferriss
+
+- At Princeton in 1999, he reserved a book on suicide methods from Firestone Library, but a postcard about it was mailed to his parents' house because he'd forgotten to update his address.
+- He won a National Chinese Kickboxing Championship by dehydrating to lose 28 pounds in 18 hours and exploiting a rule awarding victory if a fighter fell off the platform three times.
+- He has a poster of all 1,945 jōyō kanji characters, bought in Japan when he was 15, that has hung on his wall for 30 years.
+- He invested $25,000 in Uber in 2009 when it was valued at $3.7 million; the stake eventually exceeded $100 million.
+- He outsourced his dating to virtual assistants who built his OkCupid profile — the winning photo was shirtless Tim holding a kitten.
+- He has read Seneca's Letters from a Stoic over 50 times and has an eight-foot stretch of shelves in his home holding nothing but full notebooks.
+- During a 10-day silent retreat at Spirit Rock, he fasted for 7 days total while secretly microdosing escalating amounts of psilocybin (300mg → 600mg → 900mg).
+- He once disclosed accidentally losing $150 million through a single investment mistake.
+- He underwent accelerated TMS at Acacia Clinics — sessions every hour, 10 hours a day, for one week — and afterward no longer met diagnostic criteria for OCD, anxiety, or depression.
+- His writing quota is "two crappy pages per day" — and his editor called him at 5 PM on May 2nd, 2007 to tell him he'd hit the bestseller list after 26 of 27 publishers had rejected his book.
+
+## Leila Hormozi
+
+- She was arrested six times in 18 months in college, all alcohol-related; one night police found her passed out on a stranger's deck.
+- At 15, she watched her mother attempt suicide in front of her, then went emotionally flat — feeling "nothing" — for four years.
+- She lost approximately 85 pounds in 18 months after her father's intervention, and her mother has not appeared in her public narrative since.
+- She went on roughly 60 Bumble dates, treating it like a sales funnel with a one-date-per-week goal — her first date with Alex Hormozi was at a frozen yogurt shop and lasted 4.5 hours.
+- When Alex went broke and told her to leave, she grabbed his chin and said: "I'd sleep with you under a bridge if it came to that."
+- She and Alex personally launched 33 gyms, slept in Extended Stay motels, ate at 7-Eleven, and had only $1,000 saved after 19 months.
+- Her uncle spent 8 years in an Iranian prison, escaped, then built a multi-billion dollar oil empire.
+- She built a "5-minute rule" using Albert Ellis and Stephen Hayes frameworks: feel the emotion fully for exactly 5 minutes, then dismiss it as "a mere sentence."
+- She publicly laid off half her team after a launch underperformed and published the accountability formula she used.
+
+## Lana Del Rey
+
+- In 2024, she married Jeremy Dufrene, an alligator tour guide from Louisiana who runs Arthur's Airboat Tours in Lafitte; she met him in 2019 by taking his swamp tour at a music festival.
+- She was drinking daily and alone by age 14 and was sent to Kent boarding school in Connecticut to get sober — her uncle, an admissions officer, secured her financial aid.
+- She used a $10,000 advance from 5 Points Records to move into Manhattan Mobile Home Park, a trailer park in North Bergen, New Jersey, despite her father's significant wealth from domain name speculation.
+- She majored in philosophy with an emphasis on metaphysics at Fordham University.
+- After her January 2012 SNL performance, NBC anchor Brian Williams called it "one of the worst outings in SNL history."
+- "Venice Bitch" runs 9 minutes and 14 seconds.
+- She brings a leather club chair into the recording studio and sometimes goes to the beach between takes to listen to mixes on her iPhone.
+- In 2021, both her grandmother Cynthia K Grant and her niece Phoenix Pickens-Grant died — losses that shaped her 2023 album.
+
+## Lady Gaga
+
+- At 19, she was raped by a music producer who later dropped her off pregnant on a street corner because she was "vomiting and sick."
+- At her all-girls Catholic school (Convent of the Sacred Heart), classmates wrote insults across her locker and called her "big nose" and "buckteeth."
+- Her former NYU classmates created a Facebook page titled "Stefani Germanotta, you will never be famous."
+- She was one of 20 people in the world admitted early to NYU's Tisch School of the Arts at 17.
+- She wore a raw-meat dress to the 2010 MTV VMAs and was "hatched" from an egg at the 2011 Grammys.
+- She kept the television on constantly in her teenage apartment so it would feel like someone was hanging out with her.
+- Her album Joanne was named after her aunt Joanne Stefani Germanotta, who died at 19 from lupus — the same age Gaga was during her own assault.
+- Bradley Cooper wiped her makeup off without asking when they first met in 2016, then told her: "I want no makeup on your face."
+- She made the jazz album Love for Sale (2021) with Tony Bennett after his Alzheimer's had significantly progressed.
+
+## Harry Styles
+
+- His parents divorced when he was seven, and he says: "Since I've been 10, it's kind of felt like — protect Mom at all costs."
+- His December 2020 Vogue cover made him the first solo man in the magazine's 128-year history to appear alone, wearing a ruffled dress.
+- Love On Tour grossed $617 million across 173 shows and 5 million tickets, becoming the fifth-highest grossing tour in history.
+- In Milwaukee in 2021, he read fan McKenzie Grace's sign and shouted "Lisa, she's gay!" to 17,000 people to help her come out to her mother in section 201.
+- A woman broke into his North London home in 2022 after he had already obtained a restraining order against her.
+- Christopher Nolan cast him in Dunkirk specifically because he had no prior dramatic associations.
+- He recorded "Sign of the Times" at a rented house in Jamaica with producer Jeff Bhasker after One Direction's hiatus.
+- At Liam Payne's funeral in Amersham in 2024, he reunited with Louis, Zayn, and Niall for the first time in years.
+- He ran marathons in Tokyo and Berlin during his 2023-2025 hiatus.
+
+## Rooney Mara
+
+- Rooney Mara kept a real nipple piercing for years after filming The Girl with the Dragon Tattoo because she hoped to reprise Lisbeth Salander and didn't want to re-pierce.
+- In a single day before shooting, she had her eyebrows bleached, hair chopped and dyed, and seven real piercings made — ears, brow, lip, and nipple.
+- Her great-grandfather founded the Pittsburgh Steelers and her other great-grandfather founded the New York Giants, making her family the only one in NFL history tied to two franchise founders.
+- Mara grew up attending mandatory Sunday games for both NFL teams, with 30 people at every Christmas.
+- Before playing a depressed character in Side Effects, she visited the psychiatric ward at Bellevue Hospital and studied online video diaries of people with the condition.
+- She and Joaquin Phoenix rescued a mother cow and her calf from a slaughterhouse — Liberty and Indigo now live at Farm Sanctuary.
+- They named their son River, after Joaquin's brother River Phoenix, who died of a drug overdose on Halloween night 1993 at age 23.
+- The Girl with the Dragon Tattoo shoot ran 150 days, and Mara accepted the role just five days before flying to Stockholm.
+
+## Taylor Swift
+
+- Taylor Swift sent her mother Andrea and brother Austin — not lawyers — to negotiate buying her original masters back from Shamrock Capital in 2025.
+- When the call came that the deal was done, Swift collapsed on her kitchen floor in Kansas City while Travis Kelce paused his video game to hold her.
+- She gave each of her roughly 50 Eras Tour truck drivers $100,000 with a handwritten thank-you note sealed with a wax stamp bearing her monogram.
+- Eras Tour crew received $197 million in total bonuses across every category of worker.
+- During the 2020 pandemic, Swift scrolled Tumblr at 2 a.m. and DMed individual fans like Holly Turner $3,000 via Venmo and Samantha Jacobson $3,000 via PayPal.
+- Federal Reserve Chairman Jerome Powell publicly stated Taylor Swift was having "a meaningful economic impact" on the U.S. economy.
+- After the Kim Kardashian "snake" attack, she returned with Reputation tour featuring a 63-foot inflatable cobra named "Karyn."
+- Her August 2025 New Heights podcast appearance set a Guinness World Record with 1.3 million concurrent viewers, and her engagement post got 14 million likes in its first hour.
+- Swift's track "thanK you aIMee" spelled "KIM" in capital letters as a callback to the decade-long feud.
+- Her private jet usage emits an estimated 8,000-10,000 tonnes of CO2 per year, and her legal team sent a cease-and-desist to a student tracking celebrity jets.
+
+## Hilary Duff
+
+- At eighteen, Hilary Duff couldn't start a washing machine, didn't know how to cook, and couldn't tell you what foods she liked.
+- Disney built a $100 million merchandise empire around Lizzie McGuire — and allegedly never paid Hilary a single penny from it.
+- At seventeen she ate only steamed vegetables and broiled chicken, and her hands cramped from malnutrition.
+- Aaron Carter publicly told CNBC he left her for Lindsay Lohan because he "got a little bored," kicking off the most famous teen rivalry of the 2000s.
+- Lindsay Lohan ended the feud years later by approaching Hilary at a club, asking "Are we good?" and taking a shot together.
+- Her father Bob Duff was sentenced to jail time during her parents' divorce for selling family assets without court approval.
+- Hilary and her sister Haylie haven't been photographed together since 2019, and Haylie publicly liked an Ashley Tisdale post captioned "LEAVE YOUR TOXIC FRIENDS BEHIND YOU IN 2026."
+- Once a year she has a "drag-out fight" with husband Matthew Koma — last time, she threw his phone into a Bougainvillea bush.
+- The most devastating lyric on her 2026 album: "I wish I could sleep on planes / And that my father would really love me."
+
+## Robert Greene
+
+- After Robert Greene's father died in 2004, his mother revealed his father had secretly wanted to be a journalist for the 40 years he sold cleaning supplies.
+- Greene held roughly 80 jobs by age 38 — construction in Greece, hotel reception in Paris, skip-tracing debtors in LA — and was having suicidal thoughts before he wrote The 48 Laws of Power.
+- For each book, he reads 300-400 complete works and produces 3,000-4,000 handwritten color-coded 4x6 index cards using a fountain pen.
+- For The 33 Strategies of War: blue cards = politics, yellow = war, green = arts, pink = strategy.
+- Ryan Holiday, his collaborator of nearly two decades, has never once seen Greene yell or get upset.
+- Greene's car has roughly 9,000 miles on it, and he meditates 35-40 minutes every morning in lotus position on black cushions.
+- An August 2018 stroke — triggered by a wasp sting in the neck while hiking Griffith Park — left the entire left side of his body dead.
+- During the stroke he hallucinated he had died and experienced "multiple competing selves," with one minute feeling like ten.
+- Years after the stroke, the man who wrote about power still can't make his own breakfast or wash dishes.
+- His partner is The Love Witch filmmaker Anna Biller, who spent seven years on that single film.
+
+## Robert Oppenheimer
+
+- The summer before Harvard, boys at a Catskills camp stripped 14-year-old Oppenheimer naked, painted his genitals and buttocks green, and locked him in an ice house overnight.
+- His childhood Manhattan apartment had nine Van Gogh paintings on the walls.
+- His mother had the barber come to the apartment so he wouldn't be exposed to germs.
+- At Cambridge, an incident involving a tainted apple left on his tutor Patrick Blackett's desk entered the historical record.
+- He named his New Mexico cabin Perro Caliente — Spanish for "Hot Dog."
+- Frank Oppenheimer recalled Robert's first words after the Trinity test were not Sanskrit but: "I guess it worked."
+- After Hiroshima, Oppenheimer was greeted by a foot-stomping crowd at the Los Alamos theater, clasped his hands over his head like a boxing champion, and said his only regret was the bomb wasn't ready in time to use against Germany.
+- After Oppenheimer told Truman "I have blood on my hands," Truman called him a "cry-baby scientist" and said he never wanted to see him again.
+- His daughter Toni was denied UN security clearance in 1969 because of who her father was; she killed herself in 1977 in the family beach house on St. John, leaving the property to the island — it's still called Oppenheimer Beach.
+- A 1939 paper with Hartland Snyder predicted black holes (he called them "frozen stars") 28 years before John Wheeler coined the term, and Einstein himself resisted the conclusion.
+- In 2022, 55 years after his death, the Department of Energy formally vacated the 1954 clearance revocation as a "flawed process."

@@ -1,3 +1,5 @@
+<!-- docs/instagram/post-ideas/2026-04-30_peter-thiel-lead-in-post.md -->
+
 # Peter Thiel — Tidbits Lead-In Post (Instagram)
 
 **Date:** 2026-04-30

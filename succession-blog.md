@@ -1,3 +1,5 @@
+<!-- succession-blog.md -->
+
 Ah — that is much more specific. You’re looking for **succession-pressure relationships**, not just “great partnerships.”
 
 The pattern is:
@@ -199,9 +201,9 @@ That is the exact tension you’re picking up.
 The most interesting ones to study right now are probably **Berkshire, LVMH, Samsung, JPMorgan, and TSMC** because they combine real succession mechanics with massive uncertainty in the external environment.
 
 [1]: https://www.reuters.com/world/china/warren-buffett-has-stepped-aside-berkshire-is-now-greg-abels-show-2026-04-30/?utm_source=chatgpt.com "Warren Buffett has stepped aside. Berkshire is now Greg Abel's show."
-[2]: https://www.lemonde.fr/en/economy/article/2026/04/24/bernard-arnault-seeks-to-defuse-speculation-over-his-succession-before-lvmh-shareholders_6752765_19.html?utm_source=chatgpt.com "Bernard Arnault defuses speculation over his succession at LVMH shareholders meeting"
-[3]: https://www.reuters.com/sustainability/boards-policy-regulation/lvmh-investors-demand-clarity-bernard-arnault-succession-plan-2026-01-26/?utm_source=chatgpt.com "LVMH investors demand clarity on Bernard Arnault ..."
-[4]: https://en.wikipedia.org/wiki/Succession_of_Rupert_Murdoch?utm_source=chatgpt.com "Succession of Rupert Murdoch"
-[5]: https://fortune.com/2025/05/19/jamie-dimon-succession-jpmorgan-chase-blackstone-blackrock-wall-street/?utm_source=chatgpt.com "Jamie Dimon plays down successor talk even as three ..."
-[6]: https://www.reuters.com/business/media-telecom/vogue-appoints-chloe-malle-succeed-anna-wintour-us-editorial-head-2025-09-02/?utm_source=chatgpt.com "Vogue appoints Chloe Malle to succeed Anna Wintour as US editorial head"
-[7]: https://www.koreaherald.com/article/10710167?utm_source=chatgpt.com "Samsung family to wrap up W12tr inheritance tax this month"
+[2]: https://www.lemonde.fr/en/economy/article/2026/04/24/bernard-arnault-seeks-to-defuse-speculation-over-his-succession-before-lvmh-shareholders_6752765_19.html?utm_source=chatgpt.com 'Bernard Arnault defuses speculation over his succession at LVMH shareholders meeting'
+[3]: https://www.reuters.com/sustainability/boards-policy-regulation/lvmh-investors-demand-clarity-bernard-arnault-succession-plan-2026-01-26/?utm_source=chatgpt.com 'LVMH investors demand clarity on Bernard Arnault ...'
+[4]: https://en.wikipedia.org/wiki/Succession_of_Rupert_Murdoch?utm_source=chatgpt.com 'Succession of Rupert Murdoch'
+[5]: https://fortune.com/2025/05/19/jamie-dimon-succession-jpmorgan-chase-blackstone-blackrock-wall-street/?utm_source=chatgpt.com 'Jamie Dimon plays down successor talk even as three ...'
+[6]: https://www.reuters.com/business/media-telecom/vogue-appoints-chloe-malle-succeed-anna-wintour-us-editorial-head-2025-09-02/?utm_source=chatgpt.com 'Vogue appoints Chloe Malle to succeed Anna Wintour as US editorial head'
+[7]: https://www.koreaherald.com/article/10710167?utm_source=chatgpt.com 'Samsung family to wrap up W12tr inheritance tax this month'

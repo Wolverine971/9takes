@@ -59,6 +59,33 @@
 	let contentAnalysis: ContentAnalysis | null = null;
 
 	/**
+	 * When the heading list exceeds maxEntries, progressively drop the deepest
+	 * level until it fits or only one level remains. Slice from the bottom only
+	 * as a last resort (e.g., a doc with 30+ H2s and nothing deeper).
+	 *
+	 * This avoids "stops mid-document" truncation on listicle-style posts where
+	 * dozens of H3s pad the count past the limit — we keep all H2 anchors
+	 * instead of arbitrarily cutting after the first N entries.
+	 */
+	function selectHeadingsByLevelTrim<T extends { level: number }>(
+		items: T[],
+		maxEntries: number
+	): T[] {
+		if (items.length <= maxEntries) return items;
+
+		const allowedLevels = [...new Set(items.map((h) => h.level))].sort((a, b) => a - b);
+
+		while (allowedLevels.length > 1) {
+			const candidate = items.filter((h) => allowedLevels.includes(h.level));
+			if (candidate.length <= maxEntries) return candidate;
+			allowedLevels.pop();
+		}
+
+		const final = items.filter((h) => allowedLevels.includes(h.level));
+		return final.length > maxEntries ? final.slice(0, maxEntries) : final;
+	}
+
+	/**
 	 * SSR-safe TOC generation from heading data (no DOM dependency).
 	 * Produces identical HTML structure to the client-side generateTableOfContents().
 	 */
@@ -69,12 +96,12 @@
 		const filtered = items.filter((h) => h.text.trim() !== title);
 		if (filtered.length < 2) return '';
 
-		// Determine structure: single-level or hierarchical
-		const levels = [...new Set(filtered.map((h) => h.level))].sort();
-		const isHierarchical = levels.length > 1;
+		// Trim by level (drop deepest first) before falling back to slicing
+		const limited = selectHeadingsByLevelTrim(filtered, maxTocEntries);
 
-		// Apply maxTocEntries limit
-		const limited = filtered.length > maxTocEntries ? filtered.slice(0, maxTocEntries) : filtered;
+		// Determine structure: single-level or hierarchical (after trimming)
+		const levels = [...new Set(limited.map((h) => h.level))].sort();
+		const isHierarchical = levels.length > 1;
 
 		// Build HTML
 		let html = '<ul class="toc-list">';
@@ -397,11 +424,28 @@
 				return { tocHtml: '', tocStructure: [] };
 			}
 
+			// Trim by level (drop deepest first) so listicle-style posts with
+			// many H3s don't get arbitrarily cut mid-document. IDs are already
+			// assigned to the real DOM nodes, so anchor links still work for
+			// headings that aren't shown in the TOC.
+			const trimmedMax =
+				analysis.contentType === 'faq' || analysis.contentType === 'types'
+					? maxTocEntries + 6
+					: maxTocEntries;
+			const trimmedHeadings = selectHeadingsByLevelTrim(
+				headings.map((h) => ({
+					element: h,
+					level: parseInt(h.tagName.charAt(1))
+				})),
+				trimmedMax
+			).map((h) => h.element);
+			headings = trimmedHeadings;
+
 			const list = document.createElement('ul');
 			list.className = 'toc-list';
 
 			// Build hierarchical structure based on content analysis
-			let tocStructure: TocItem[] = [];
+			const tocStructure: TocItem[] = [];
 			let parentStack: { item: TocItem; element: HTMLLIElement; level: number }[] = [];
 
 			headings.forEach((heading) => {
@@ -474,56 +518,6 @@
 					}
 				}
 			});
-
-			// Apply entry limits based on content type and maxTocEntries
-			const totalEntries = headings.length;
-			if (totalEntries > maxTocEntries) {
-				// For content types that benefit from more entries, be more generous
-				const adjustedMax =
-					analysis.contentType === 'faq' || analysis.contentType === 'types'
-						? maxTocEntries + 6
-						: maxTocEntries;
-
-				if (totalEntries > adjustedMax) {
-					// Truncate excess entries - remove from bottom of list
-					const excessCount = totalEntries - adjustedMax;
-					const listItems = list.querySelectorAll('.toc-item');
-					for (let i = listItems.length - excessCount; i < listItems.length; i++) {
-						listItems[i].remove();
-					}
-
-					// Also truncate the structure array to match
-					function truncateStructure(items: TocItem[], maxItems: number): TocItem[] {
-						if (items.length <= maxItems) return items;
-
-						let count = 0;
-						const result: TocItem[] = [];
-
-						for (const item of items) {
-							if (count >= maxItems) break;
-
-							const itemCopy = { ...item };
-							count++;
-
-							if (item.children) {
-								const remainingSlots = maxItems - count;
-								if (remainingSlots > 0) {
-									itemCopy.children = truncateStructure(item.children, remainingSlots);
-									count += itemCopy.children.length;
-								} else {
-									delete itemCopy.children;
-								}
-							}
-
-							result.push(itemCopy);
-						}
-
-						return result;
-					}
-
-					tocStructure = truncateStructure(tocStructure, adjustedMax);
-				}
-			}
 
 			return { tocHtml: list.outerHTML, tocStructure };
 		} catch (error) {

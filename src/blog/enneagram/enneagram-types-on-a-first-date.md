@@ -61,21 +61,6 @@ She was a Type 2, doing what Type 2s do: giving without asking for anything back
 
 Here's what each Enneagram type is _really_ thinking, feeling, and looking for on a first date.
 
-<div class="quick-nav">
-    <h4>Jump to your type:</h4>
-    <div class="type-buttons">
-        <a href="#type1" class="type-button">Type 1</a>
-        <a href="#type2" class="type-button">Type 2</a>
-        <a href="#type3" class="type-button">Type 3</a>
-        <a href="#type4" class="type-button">Type 4</a>
-        <a href="#type5" class="type-button">Type 5</a>
-        <a href="#type6" class="type-button">Type 6</a>
-        <a href="#type7" class="type-button">Type 7</a>
-        <a href="#type8" class="type-button">Type 8</a>
-        <a href="#type9" class="type-button">Type 9</a>
-    </div>
-</div>
-
 <section id="type1" class="type-section">
 
 ## Type 1: The Perfectionist - Planning the Perfect Date
@@ -921,41 +906,6 @@ Explore our deeper guides on [navigating early relationship stages](/enneagram-c
     
     ul {
       padding-left: 1.2rem;
-    }
-  }
-  
-  .quick-nav {
-    background: #f5f5f5;
-    padding: 1rem;
-    border-radius: 8px;
-    margin: 2rem 0;
-    text-align: center;
-    
-    h4 {
-      margin: 0 0 0.5rem 0;
-    }
-    
-    .type-buttons {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 0.5rem;
-      justify-content: center;
-      
-      .type-button {
-        background: white;
-        border: 1px solid #ddd;
-        padding: 0.4rem 0.8rem;
-        border-radius: 20px;
-        font-size: 0.9rem;
-        text-decoration: none;
-        color: #333;
-        transition: all 0.2s ease;
-        
-        &:hover {
-          background: #333;
-          color: white;
-        }
-      }
     }
   }
   

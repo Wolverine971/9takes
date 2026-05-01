@@ -74,8 +74,6 @@ Once you can see yours, you can rewrite the five minutes that keep costing you �
 
 The truth? **The men who do well in dating aren't the most attractive — they're the most self-aware.** And self-awareness isn't a vibe. It's a skill you can actually build.
 
-**Jump to your type:** [1](#type-1) · [2](#type-2) · [3](#type-3) · [4](#type-4) · [5](#type-5) · [6](#type-6) · [7](#type-7) · [8](#type-8) · [9](#type-9) · [How to read _her_ type](#how-to-read-her-type) · [Compatibility](#compatibility) · [Texting](#texting) · [Rejection](#rejection)
-
 > **Dating mostly on apps?** This guide's companion is built for that. The [Online Dating Companion Guide](/enneagram-corner/enneagram-online-dating-guide) covers profiles, photos, opening messages, and the first five minutes in person. Start here to understand your patterns. Read that to apply them to Hinge and Bumble.
 
 > **Don't know your type yet?** <a href="/enneagram-corner/beginners-guide-to-determining-your-enneagram-type">Take our comprehensive type test →</a>

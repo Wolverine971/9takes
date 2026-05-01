@@ -106,18 +106,6 @@ Your neurodivergence doesn't just sit next to your personality. It changes how y
 ]} />
 </div>
 
-## Jump to Your Type
-
-- [Type 1](#type-1)
-- [Type 2](#type-2)
-- [Type 3](#type-3)
-- [Type 4](#type-4)
-- [Type 5](#type-5)
-- [Type 6](#type-6)
-- [Type 7](#type-7)
-- [Type 8](#type-8)
-- [Type 9](#type-9)
-
 <span id="type-1"></span>
 
 ## Type 1: The Perfectionist + Neurodivergence

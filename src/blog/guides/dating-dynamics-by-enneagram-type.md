@@ -95,19 +95,6 @@ Through careful observation of how each Enneagram type dates, what attracts them
 - Pick one week from your 30-day plan and run it for seven days
 - Use the "Power Move" as a script for your next date or repair talk
 
-### Jump to Your Type
-
-- [Type 1: The Perfectionist](#type-1)
-- [Type 2: The Helper](#type-2)
-- [Type 3: The Achiever](#type-3)
-- [Type 4: The Individualist](#type-4)
-- [Type 5: The Investigator](#type-5)
-- [Type 6: The Loyalist](#type-6)
-- [Type 7: The Enthusiast](#type-7)
-- [Type 8: The Challenger](#type-8)
-- [Type 9: The Peacemaker](#type-9)
-- [30-Day Challenge (Any Type)](#30-day-challenge)
-
 <span id="type-1"></span>
 
 ## Type 1 - The Perfectionist: Breaking the Criticism Cycle

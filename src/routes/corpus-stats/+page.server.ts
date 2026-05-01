@@ -49,7 +49,7 @@ export const load: PageServerLoad = async () => {
 		'@type': 'ScholarlyArticle',
 		name: r.name,
 		url: r.url,
-		citation: r.citation
+		description: r.citation
 	}));
 
 	const comparisonCount = external.sources.length;

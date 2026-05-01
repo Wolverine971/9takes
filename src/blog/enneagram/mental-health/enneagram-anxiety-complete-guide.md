@@ -35,10 +35,6 @@ Type 1s are anxious about being wrong. Type 3s are anxious about failing in publ
 
 Your anxiety has a personality. And once you understand how YOUR type experiences it, you can stop fighting a faceless enemy.
 
-### Jump to Your Type
-
-[Type 1](#type-1) | [Type 2](#type-2) | [Type 3](#type-3) | [Type 4](#type-4) | [Type 5](#type-5) | [Type 6](#type-6) | [Type 7](#type-7) | [Type 8](#type-8) | [Type 9](#type-9)
-
 ## Quick Reference: Every Type's Anxiety Pattern
 
 | Type       | Anxiety Flavor        | Core Trigger     | Physical Tell             | First Move                               |
