@@ -4,12 +4,12 @@ meta_title: "Why Taylor Frankie Paul Keeps Detonating Her Own Life"
 persona_title: "MomTok's Restless Detonator"
 description: "Why does Taylor Frankie Paul keep blowing up her own life in public? An Enneagram Type 7w8 analysis of the MomTok star, the soft-swinging confession, and the Bachelorette cancellation."
 author: 'DJ Wayne'
-date: '2026-04-23'
+date: '2026-05-01'
 loc: 'https://9takes.com/personality-analysis/Taylor-Frankie-Paul'
-lastmod: '2026-04-23'
+lastmod: '2026-05-01'
 changefreq: 'monthly'
 priority: '0.6'
-published: false
+published: true
 enneagram: '7'
 type: ['tiktoker', 'influencer', 'celebrity']
 person: 'Taylor-Frankie-Paul'

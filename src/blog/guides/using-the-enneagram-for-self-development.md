@@ -83,19 +83,6 @@ The Enneagram is your ticket off — but only if you use it right. Most people d
 
 This guide is for the people who want the second thing: the part where the type stops being a label and becomes a tool. "I'm a Type 4, so I'm creative and moody" is where most readers stop. Below is what comes after.
 
-<div class="table-of-contents">
-  <h3>In This Article:</h3>
-  <ol>
-    <li><a href="#the-enneagram-not-just-another-personality-test">The Enneagram: Not Just Another Personality Test</a> - Why the Enneagram is different and how to move beyond static typing</li>
-    <li><a href="#relationship-revolution">How the Enneagram Helps You Stop Having the Same Fight Twice</a> - Breaking communication patterns between types</li>
-    <li><a href="#personalized-growth">Personalized Growth</a> - Your type's unique development path and strategies</li>
-    <li><a href="#professional-transformation">How Your Type Shows Up at Work — Before You Realize It</a> - Leveraging type awareness professionally</li>
-    <li><a href="#mindfulness-revolution">Why the Same Mindfulness Practice Fails Half the Enneagram Types</a> - Type-tailored approaches to presence</li>
-    <li><a href="#mental-health-integration">Mental Health Integration</a> - How the Enneagram complements emotional wellbeing</li>
-    <li><a href="#integration-in-action">Integration in Action</a> - Creating a holistic growth system beyond just the Enneagram</li>
-  </ol>
-</div>
-
 <section class="section-content">
 
 <h2 id="the-enneagram-not-just-another-personality-test" style="padding: 0; margin-top: 1em">The Enneagram: Not Just Another Personality Test</h2>
@@ -337,51 +324,3 @@ The Enneagram gets specific where most development systems stay vague. Not "impr
 What's one concrete step today? Notice a habitual pattern in real time. Try a mindfulness practice built for your type. Or read how someone with a completely different Enneagram type answers a question you're currently wrestling with.
 
 That last one — seeing the gap between your instinct and theirs — is often where the deepest insight lands.
-
-<style lang="scss">
-  .table-of-contents {
-    background-color: #f8f9fa;
-    border: 2px solid #e9ecef;
-    border-radius: 8px;
-    padding: 1.5rem;
-    margin: 2rem 0;
-    
-    h3 {
-      margin-top: 0;
-      margin-bottom: 1rem;
-      color: #495057;
-      font-size: 1.1rem;
-    }
-    
-    ol {
-      margin: 0;
-      padding-left: 1.5rem;
-      
-      li {
-        margin-bottom: 0.75rem;
-        line-height: 1.6;
-        
-        a {
-          color: #007bff;
-          text-decoration: none;
-          font-weight: 500;
-          
-          &:hover {
-            text-decoration: underline;
-            color: #0056b3;
-          }
-        }
-      }
-    }
-  }
-  
-  @media (max-width: 768px) {
-    .table-of-contents {
-      padding: 1rem;
-      
-      ol {
-        padding-left: 1.25rem;
-      }
-    }
-  }
-</style>

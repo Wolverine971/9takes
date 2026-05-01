@@ -1,0 +1,13 @@
+```text
+Published people blog.
+
+Person: taylor-frankie-paul
+Draft: src/blog/people/drafts/Taylor-Frankie-Paul.md
+Date/lastmod: 2026-05-01
+Supabase: published=true (row id 992)
+Images: full + thumbnail present
+Generated files: pnpm gen:all completed (famousTypes.ts updated, sitemap.xml includes URL)
+
+Blockers:
+- none
+```

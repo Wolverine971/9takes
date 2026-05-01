@@ -1,0 +1,69 @@
+[2026-05-01 02:01:25] [INFO] === Daily Blog Creator Run Started ===
+[2026-05-01 02:01:25] [INFO] Pre-flight: pause=false, found stale inProgress (the-weeknd, ~44h old)
+[2026-05-01 02:01:25] [INFO] STALE INPROGRESS CLEARED: the-weeknd after ~44 hours
+[2026-05-01 02:01:25] [INFO] Rate limit week reset: weekStartDate 2026-04-23 -> 2026-05-01, count 3 -> 0
+[2026-05-01 02:01:47] [INFO] SELECTED: hayao-miyazaki (Type 1, Priority: 84)
+[2026-05-01 02:01:47] [INFO] Reason: Beloved global figure, creative perfectionist, fills Type 1 gap, anime audience crossover
+[2026-05-01 02:01:47] [INFO] Executing blog_content_creator_people hayao-miyazaki...
+[2026-05-01 02:02:08] [INFO] Launched blog_content_creator_people for hayao-miyazaki (PID: 19667)
+Child claude process launched (PID 19667) and running detached. Following the cron pattern: parent exits now, next daily run will detect either the completed draft or stale inProgress.
+
+```
+=== DAILY BLOG CREATOR SUMMARY ===
+Date: 2026-05-01
+Status: LAUNCHED (running in background)
+Blog: Hayao Miyazaki (hayao-miyazaki)
+Type: 1 — Priority: 84
+PID: 19667
+Pre-flight cleanup:
+  • Cleared stale inProgress (the-weeknd, ~44h) → moved to skipped
+  • Reset rate limit week (2026-04-23 → 2026-05-01, count 3 → 0)
+Next Run: Tomorrow 2:00 AM (will reconcile draft result)
+===================================
+```
+## Draft created successfully
+
+**Location:** `/src/blog/people/drafts/Hayao-Miyazaki.md`
+**Preview:** Visit `/admin/drafts/Hayao-Miyazaki` to review
+
+**Type call:** Enneagram **Type 1w9** ("Animation's Tortured Idealist") — high confidence
+
+**Core tension:** *He believes the world is doomed, and he cannot stop drawing.*
+
+**Grade: A (9.0)**
+- Hook 9.0 · Enneagram 9.2 · Evidence 8.8 · Writing 9.2 · Originality 9.0
+- Above the 8.5 production threshold
+
+**Internal links added (3 total):**
+- Type 1 → `/enneagram-corner/enneagram-type-1`
+- Types in stress → `/enneagram-corner/enneagram-types-in-stress`
+- Type 4 → `/enneagram-corner/enneagram-type-4`
+
+**Key signature details:**
+- The "Have a seat" bench outside his studio (Type 1 intimacy paradox, captured as a contrast-panel)
+- The bus stop with Takahata in 1963 (his most emotionally raw public utterance)
+- The truck during the 1945 firebombing (the foundational political memory)
+- The AI scene reframed as a window into Type 1 cognition, not a tech opinion
+- The Goro reconciliation line — "It was made honestly. It was good." — reframed as the textbook Type 1 apology
+
+**Suggestions:** Steve-Jobs, J.K.-Rowling, Greta-Thunberg, Jordan-Peterson (all linked Type 1s)
+
+**Status:** `production_pretext.status = draft`. Human review required before running `blog_content_production_people`.
+
+### Options
+1. Make specific edits (tell me what to change)
+2. Regenerate specific sections
+3. Approve the draft — I'll mark `production_pretext.status = ready` and you can run `blog_content_production_people`
+4. Optional deeper pass: pull transcripts from *Kingdom of Dreams and Madness* / *Never-Ending Man* / "10 Years with Hayao Miyazaki" for even more direct quotes
+
+Sources used in research:
+- [Hayao Miyazaki - Wikipedia](https://en.wikipedia.org/wiki/Hayao_Miyazaki)
+- [The Kingdom of Dreams and Madness - Wikipedia](https://en.wikipedia.org/wiki/The_Kingdom_of_Dreams_and_Madness)
+- [Never-Ending Man: Hayao Miyazaki - Wikipedia](https://en.wikipedia.org/wiki/Never-Ending_Man:_Hayao_Miyazaki)
+- [Farewell speech for Isao Takahata by Hayao Miyazaki — Onegai Kaeru](https://www.onegai-kaeru.jp/2018/05/15/farewell-speech-for-isao-takahata-by-hayao-miyazaki-full-english-translation-on-15-may-2018/)
+- [Hayao Miyazaki Calls A.I. Animation 'An Insult To Life Itself' — IndieWire](https://www.indiewire.com/features/general/hayao-miyazaki-artificial-intelligence-animation-insult-to-life-studio-ghibli-1201757617/)
+- [What Caused the Rift Between Hayao Miyazaki and His Son? — CBR](https://www.cbr.com/ponyo-miyazaki-apology-to-son/)
+- [The Wind Rises - Wikipedia](https://en.wikipedia.org/wiki/The_Wind_Rises)
+- [Hayao Miyazaki's Red Roots — Jacobin](https://jacobin.com/2024/07/hayao-miyazakis-red-roots)
+- [The Boy and the Heron is an autobiographical reflection — The Conversation](https://theconversation.com/the-boy-and-the-heron-is-an-autobiographical-reflection-by-hayao-miyazaki-in-the-twilight-of-his-life-219117)
+- [Hayao Miyazaki, Union Man — Animation Obsessive](https://animationobsessive.substack.com/p/hayao-miyazaki-union-man)

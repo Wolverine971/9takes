@@ -1,24 +1,11 @@
 {
-	"lastUpdated": "2026-04-29T06:01:29Z",
+	"lastUpdated": "2026-05-01T06:01:38Z",
 	"stats": {
 		"totalUnpublished": 115,
 		"totalPublished": 266,
 		"completionRate": "69.8%"
 	},
 	"queue": [
-		{
-			"name": "hayao-miyazaki",
-			"displayName": "Hayao Miyazaki",
-			"type": 1,
-			"priority": 84,
-			"priorityReason": "Beloved global figure, creative perfectionist, fills Type 1 gap, anime audience crossover",
-			"estimatedTraffic": "high",
-			"searchVolume": "high",
-			"personaTitle": null,
-			"addedToQueue": "2026-04-03",
-			"retryCount": 0,
-			"strategicValue": "fills-type-1-gap"
-		},
 		{
 			"name": "volodymyr-zelensky",
 			"displayName": "Volodymyr Zelensky",
@@ -662,18 +649,18 @@
 		}
 	],
 	"inProgress": {
-		"name": "the-weeknd",
-		"displayName": "The Weeknd",
-		"type": 4,
-		"priority": 85,
-		"priorityReason": "Global pop star, Type 4, mysterious persona, After Hours era",
+		"name": "hayao-miyazaki",
+		"displayName": "Hayao Miyazaki",
+		"type": 1,
+		"priority": 84,
+		"priorityReason": "Beloved global figure, creative perfectionist, fills Type 1 gap, anime audience crossover",
 		"estimatedTraffic": "high",
 		"searchVolume": "high",
 		"personaTitle": null,
 		"addedToQueue": "2026-04-03",
 		"retryCount": 0,
-		"strategicValue": "contemporary-music-cluster",
-		"startedAt": "2026-04-29T06:01:29Z"
+		"strategicValue": "fills-type-1-gap",
+		"startedAt": "2026-05-01T06:01:38Z"
 	},
 	"skipped": [
 		{
@@ -750,6 +737,23 @@
 			"skippedAt": "2026-04-22T18:15:00Z",
 			"skipReason": "stale inProgress - draft exists",
 			"skipDetail": "Draft exists at src/blog/people/drafts/Brene-Brown.md (30KB, 5048 words, frontmatter published=false). NOTE: queue.type=2 but draft frontmatter enneagram=1 — verify before publish."
+		},
+		{
+			"name": "the-weeknd",
+			"displayName": "The Weeknd",
+			"type": 4,
+			"priority": 85,
+			"priorityReason": "Global pop star, Type 4, mysterious persona, After Hours era",
+			"estimatedTraffic": "high",
+			"searchVolume": "high",
+			"personaTitle": null,
+			"addedToQueue": "2026-04-03",
+			"retryCount": 0,
+			"strategicValue": "contemporary-music-cluster",
+			"startedAt": "2026-04-29T06:01:29Z",
+			"skippedAt": "2026-05-01T06:01:34Z",
+			"skipReason": "stale inProgress - timeout",
+			"skipDetail": "No draft created after ~44 hours"
 		}
 	],
 	"failed": [],

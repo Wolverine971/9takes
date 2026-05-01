@@ -141,22 +141,6 @@ path: src/blog/guides/definitive-guide-to-self-efficacy.md
 
 That work became foundational in psychology. "Self-efficacy" is the term he coined: not general self-confidence, but your belief that you can do this specific thing, right now. Two people with identical skills can have wildly different outcomes — one acts, the other doesn't. Self-efficacy is usually the gap. This guide shows you how to close it.
 
-## Contents
-
-- [Why Self-efficacy is Important](#why-important)
-- [What Exactly is Self-efficacy?](#what-is-self-efficacy)
-- [The Four Sources of Self-efficacy](#four-sources)
-- [Measuring Your Self-efficacy](#measuring-self-efficacy)
-- [Examples of Self-efficacy in Action](#examples-of-self-efficacy)
-- [How to Increase Self-efficacy](#how-to-improve)
-- [Self-efficacy and the Enneagram](#self-efficacy-enneagram)
-- [The Role of Environment in Self-efficacy](#role-of-environment)
-- [Self-efficacy in Key Life Domains](#key-domains)
-- [Self-efficacy and Other Psychological Constructs](#other-psychological-constructs)
-- [Common Myths and Misconceptions](#common-myths)
-- [Future Trends and Research in Self-Efficacy](#research)
-- [Taking Your Next Steps](#next-steps)
-
 <h2 id="why-important">Why Self-efficacy is Important</h2>
 
 Self-efficacy isn't a buzzword. It's the specific, measurable belief that you can handle what's in front of you. Think about it: have you ever watched someone tackle a seemingly impossible task while you hesitated to even start? That gap — same situation, different responses — usually comes down to self-efficacy.

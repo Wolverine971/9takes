@@ -338,7 +338,7 @@ export const famousTypes: { [index: number]: { name: string; link: boolean; hasI
 		{ name: 'ryan-reynolds', link: true, hasImage: true, lastmod: '2026-03-28', personaTitle: 'Hollywood\'s Armored Comedian', contentGrade: 9 },
 		{ name: 'saagar-enjeti', link: true, hasImage: true, lastmod: '2026-04-19', personaTitle: 'Media\'s Restless Crusader', contentGrade: 9 },
 		{ name: 'shaan-puri', link: true, hasImage: true, lastmod: '2026-04-03', personaTitle: 'The Restless Showman', contentGrade: 9.3 },
-		{ name: 'taylor-frankie-paul', link: false, hasImage: true, lastmod: '2026-04-23', personaTitle: 'MomTok\'s Restless Detonator', contentGrade: 9 },
+		{ name: 'taylor-frankie-paul', link: true, hasImage: true, lastmod: '2026-05-01', personaTitle: 'MomTok\'s Restless Detonator', contentGrade: 9 },
 		{ name: 'tfue', link: true, hasImage: true, lastmod: '2026-04-06', personaTitle: 'Gaming\'s Restless Fugitive', contentGrade: 8.6 },
 		{ name: 'theo-von', link: true, hasImage: true, lastmod: '2026-04-06', personaTitle: 'Comedy\'s Southern Mystic', contentGrade: 8.8 },
 		{ name: 'tim-dillon', link: true, hasImage: true, lastmod: '2026-04-06', personaTitle: 'Comedy\'s Panic Prophet', contentGrade: 8.8 },
