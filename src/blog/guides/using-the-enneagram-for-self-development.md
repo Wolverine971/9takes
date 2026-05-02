@@ -1,6 +1,6 @@
 ---
 title: 'How to Actually Use the Enneagram for Self-Development (Beyond the 10-Minute Test)'
-description: 'Most people take the test, feel seen for five minutes, then go back to the same patterns. Here''s how to actually use your type for growth — backed by a 2018 study showing structured Enneagram work measurably advances ego development.'
+description: "Most people take the test, feel seen for five minutes, then go back to the same patterns. Here's how to actually use your type for growth — backed by a 2018 study showing structured Enneagram work measurably advances ego development."
 author: 'DJ Wayne'
 date: '2024-09-14'
 loc: 'https://9takes.com/how-to-guides/using-the-enneagram-for-self-development'

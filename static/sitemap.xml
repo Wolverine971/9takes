@@ -3,7 +3,7 @@
   xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://9takes.com</loc>
-    <lastmod>2026-04-28</lastmod>
+    <lastmod>2026-05-01</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/about</loc>
@@ -11,7 +11,7 @@
   </url>
   <url>
     <loc>https://9takes.com/blog</loc>
-    <lastmod>2026-05-01</lastmod>
+    <lastmod>2026-05-02</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/book-session</loc>
@@ -895,7 +895,7 @@
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis</loc>
-    <lastmod>2026-05-01</lastmod>
+    <lastmod>2026-05-02</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/abraham-lincoln</loc>
@@ -1214,7 +1214,7 @@
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/categories</loc>
-    <lastmod>2026-05-01</lastmod>
+    <lastmod>2026-05-02</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/categories/authors-thinkers</loc>
@@ -1230,7 +1230,7 @@
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/categories/film-tv</loc>
-    <lastmod>2026-05-01</lastmod>
+    <lastmod>2026-05-02</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/categories/music</loc>
@@ -1361,6 +1361,13 @@
     <lastmod>2026-02-10</lastmod>
     <image:image>
       <image:loc>https://9takes.com/types/8s/Dave-Portnoy.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://9takes.com/personality-analysis/david-corenswet</loc>
+    <lastmod>2026-05-02</lastmod>
+    <image:image>
+      <image:loc>https://9takes.com/types/5s/David-Corenswet.webp</image:loc>
     </image:image>
   </url>
   <url>
@@ -2477,6 +2484,13 @@
     </image:image>
   </url>
   <url>
+    <loc>https://9takes.com/personality-analysis/paul-mescal</loc>
+    <lastmod>2026-05-02</lastmod>
+    <image:image>
+      <image:loc>https://9takes.com/types/4s/Paul-Mescal.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
     <loc>https://9takes.com/personality-analysis/paul-rudd</loc>
     <lastmod>2026-01-23</lastmod>
     <image:image>
@@ -3050,11 +3064,11 @@
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/type/4</loc>
-    <lastmod>2026-04-29</lastmod>
+    <lastmod>2026-05-02</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/type/5</loc>
-    <lastmod>2026-04-29</lastmod>
+    <lastmod>2026-05-02</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/type/6</loc>

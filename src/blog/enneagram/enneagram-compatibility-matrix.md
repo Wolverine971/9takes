@@ -20,17 +20,17 @@ quality_graded_at: '2026-02-22'
 quality_rewrite_priority: none
 quality_safety_gate: n/a
 about_things:
-- name: Enneagram
-  description: 'A personality typing system that describes patterns in how people interpret the world and manage their emotions'
-- name: 'Relationship Compatibility'
-  description: 'The degree to which two people are able to maintain a harmonious relationship'
+  - name: Enneagram
+    description: 'A personality typing system that describes patterns in how people interpret the world and manage their emotions'
+  - name: 'Relationship Compatibility'
+    description: 'The degree to which two people are able to maintain a harmonious relationship'
 mentions:
-- name: 'Type Compatibility'
-  description: 'How different Enneagram types interact in relationships'
-- name: 'Growth Edges'
-  description: 'Areas where relationship challenges promote personal development'
-- name: 'Core Wounds'
-  description: 'Childhood experiences that shape adult personality patterns'
+  - name: 'Type Compatibility'
+    description: 'How different Enneagram types interact in relationships'
+  - name: 'Growth Edges'
+    description: 'Areas where relationship challenges promote personal development'
+  - name: 'Core Wounds'
+    description: 'Childhood experiences that shape adult personality patterns'
 ---
 
 <!-- QUALITY_FEEDBACK_START

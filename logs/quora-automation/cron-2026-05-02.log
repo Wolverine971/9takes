@@ -1,0 +1,64 @@
+Session complete. Summary:
+
+```
+Quora warmup complete for 2026-05-02 (PM).
+
+Searches run: 50
+Questions evaluated: 7
+Questions queued: 3
+Questions skipped: 4
+
+Priority queue:
+1. "Why do some people have commitment issues?" — Est. 20K+ views, ~45 answers — Angle: Type 7 primary (FOMO/keep-options), 5/6/4/9 secondaries
+2. "Why do we like picking fights?" — Est. 15K+ views, ~53 answers — Angle: Type 8 primary (proactive-confrontation), 6/4/1 secondaries
+3. "Why do some people dislike people who help them?" — Est. 10K+ views, ~43 answers — Angle: Type 5 primary (economics/scarcity), 8/1/4 secondaries
+
+Type coverage: Types 1, 4, 5, 6, 7, 8, 9 — missing 2, 3 (Type 3 deliberately rested after last session's 2 direct entries; Type 2 fresh-angle gap remains open)
+Blog matches: 3 of 3 have a 9takes link candidate
+
+Question log: docs/quora/question-log.md
+Session doc: docs/quora/sessions/2026-05-02_quora-warmup-pm.md
+
+Next step: /quora-answer docs/quora/sessions/2026-05-02_quora-warmup-pm.md
+```
+
+```
+MODE: non-interactive
+SESSION: docs/quora/sessions/2026-05-02_quora-warmup-pm.md
+QUEUED: 3
+SKIPPED: 4
+LIMITATIONS: none (queue size 3 vs 5-7 target due to heavy de-dup discipline; quality over quantity per strategy)
+```
+
+Key wins this session: Type 5 detached-observer gap closed materially after 3 failed sessions (via behavioral-surface entry rather than clinical terminology); Type 7 fresh anti-decision surface (commitment-avoidance) and Type 8 fresh proactive-confrontation surface (picking-fights) both queued. AI-Assistant top-answer pattern continues to provide the cleanest possible Enneagram-gap setup.
+Quora warmup complete for 2026-05-02 (Night).
+
+```
+MODE: non-interactive
+SESSION: docs/quora/sessions/2026-05-02_quora-warmup-night.md
+QUEUED: 5
+SKIPPED: 9
+LIMITATIONS: none
+```
+
+**Searches run:** 24 (Phase A targeting Type 5/2/8/4 gap shapes)
+**Questions evaluated:** 14 (5 queued, 9 skipped)
+**Question log updated:** Yes
+
+**Priority queue:**
+1. "Why do people try to dominate others?" — 84 answers — Angle: Types 8, 1, 6, 3 (control-as-default-posture, third fresh Type 8 surface this week)
+2. "Why do some people have a tendency to abandon others?" — 191 answers — Angle: Types 5, 9, 4, 7 (withdrawal-output as colloquial face of detached-observer)
+3. "Why do some people keep their partners at an emotional distance and avoid feelings/future?" — ~30-60 ans — Angle: Types 5, 9, 6 (intimacy-economics in romance)
+4. "Why do some people constantly create unnecessary drama in their lives?" — ~50-80 ans — Angle: Types 4, 6, 8, 7 (drama-as-aliveness-evidence)
+5. "Why do some people give too much of themselves to friends/others?" — ~30-50 ans — Angle: Types 2, 9, 6 (self-erasure-via-giving — closes long-standing Type 2 fresh-angle gap)
+
+**Type coverage:** Types 2, 4, 5, 6, 8, 9 hit. Type 5 deepened to 3rd surface this week. Type 2 fresh angle closed partially. Type 8 now has multi-surface portfolio.
+
+**Blog matches:** 5 of 5 queued have a 9takes link candidate.
+
+**Key context:** PM session (which left only a stub session doc but did update the question log) already closed the long-standing Type 5 detached-observer gap and added Type 7/Type 8 fresh surfaces. Tonight builds on those closes by deepening Type 5 with two more behavioral surfaces and finally cracking the Type 2 fresh-angle gap that had been open since 04-29.
+
+**Question log:** docs/quora/question-log.md
+**Session doc:** docs/quora/sessions/2026-05-02_quora-warmup-night.md
+
+**Next step:** /quora-answer docs/quora/sessions/2026-05-02_quora-warmup-night.md

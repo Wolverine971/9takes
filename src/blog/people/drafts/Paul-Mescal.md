@@ -4,12 +4,12 @@ meta_title: "Paul Mescal's Hidden Fear: The Tears He Can't Turn Off"
 persona_title: "Cinema's Guarded Romantic"
 description: "Why does Paul Mescal delete Instagram while building a career on emotional nakedness? An Enneagram Type 4 analysis of cinema's most guarded romantic."
 author: 'DJ Wayne'
-date: '2026-04-23'
+date: '2026-05-02'
 loc: 'https://9takes.com/personality-analysis/Paul-Mescal'
-lastmod: '2026-04-23'
+lastmod: '2026-05-02'
 changefreq: 'monthly'
 priority: '0.6'
-published: false
+published: true
 enneagram: '4'
 type: ['movieStar', 'newMovieStar']
 person: 'Paul-Mescal'

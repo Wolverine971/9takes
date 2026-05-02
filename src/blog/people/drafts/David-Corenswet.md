@@ -4,12 +4,12 @@ meta_title: "Why David Corenswet's Superman Feels So Unusually Calm"
 persona_title: 'The Sunbeam Superman'
 description: "Why does David Corenswet's Superman feel so unusually calm? The Philly kid's Buddhist upbringing, lawyer parents, and Enneagram Type 5 mind in a cape."
 author: 'DJ Wayne'
-date: '2026-04-23'
+date: '2026-05-02'
 loc: 'https://9takes.com/personality-analysis/David-Corenswet'
-lastmod: '2026-04-23'
+lastmod: '2026-05-02'
 changefreq: 'monthly'
 priority: '0.6'
-published: false
+published: true
 enneagram: '5'
 type: ['movieStar']
 person: 'David-Corenswet'

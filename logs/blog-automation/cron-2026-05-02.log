@@ -1,0 +1,29 @@
+[2026-05-02 02:00:31] [INFO] Starting daily blog creator (--non-interactive)
+[2026-05-02 02:00:31] [INFO] override.json: pause=false, forceNext=null, rateLimit=0/5
+[2026-05-02 02:00:31] [INFO] inProgress: hayao-miyazaki, startedAt=2026-05-01T06:01:38Z, hoursElapsed=19
+[2026-05-02 02:00:31] [INFO] Draft exists at src/blog/people/drafts/hayao-miyazaki.md (33981 bytes) — awaiting human review per yesterday's log
+[2026-05-02 02:00:31] [WARN] inProgress not stale yet (19h < 24h threshold); per spec must STOP
+[2026-05-02 02:00:31] [INFO] BLOG IN PROGRESS: hayao-miyazaki - skipping today's run
+[2026-05-02 02:00:31] [INFO] Daily blog creator complete (skipped)
+BLOG IN PROGRESS: hayao-miyazaki - skipping today's run
+
+```
+=== DAILY BLOG CREATOR SUMMARY ===
+Date: 2026-05-02
+Status: SKIPPED (inProgress not stale)
+Blog: hayao-miyazaki
+Started: 2026-05-01T06:01:38Z (19h ago, threshold 24h)
+Draft: src/blog/people/drafts/hayao-miyazaki.md (33,981 bytes — exists, awaiting human review)
+Rate limit: 0/5 this week
+Next Run: Tomorrow 2:00 AM
+===================================
+```
+
+**Heads up — manual action recommended:**
+
+The hayao-miyazaki draft was successfully created in yesterday's run (it's a real 34KB blog with `production_pretext.status = draft`), but the queue's `inProgress` was never cleared because the workflow expects you to review before marking complete. Two options:
+
+1. **Approve and mark complete**: Review `src/blog/people/drafts/hayao-miyazaki.md`, then I can move it from `inProgress` → `completed` in the queue and increment `rateLimit.currentWeekCount`. That unblocks tomorrow's run instead of waiting another ~5 hours for the auto-stale clear.
+2. **Wait**: The 24h timeout will trigger tomorrow's run to auto-clear it as "stale" — but that would incorrectly mark a successful draft as failed/skipped.
+
+Option 1 is the cleaner fix. Want me to update the queue now?
