@@ -238,10 +238,6 @@
 					isPartOf: { '@id': websiteId },
 					publisher: { '@id': organizationId },
 					mainEntity: { '@id': primarySectionsId },
-					hasPart: [
-						{ '@id': enneagramTypesId },
-						...(featuredPeople.length ? [{ '@id': featuredAnalysisId }] : [])
-					],
 					about: [
 						{
 							'@type': 'Thing',

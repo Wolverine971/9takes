@@ -1,14 +1,14 @@
 ---
 title: 'How to Actually Use the Enneagram for Self-Development (Beyond the 10-Minute Test)'
-description: "Most people take the test, feel seen for five minutes, then go back to the same patterns. Here's how to actually use your type for growth — backed by a 2018 study showing structured Enneagram work measurably advances ego development."
+description: 'Most people take the test, feel seen for five minutes, then go back to the same patterns. Here''s how to actually use your type for growth — backed by a 2018 study showing structured Enneagram work measurably advances ego development.'
 author: 'DJ Wayne'
 date: '2024-09-14'
 loc: 'https://9takes.com/how-to-guides/using-the-enneagram-for-self-development'
 lastmod: '2026-04-16'
-changefreq: 'monthly'
+changefreq: monthly
 priority: '0.6'
 published: true
-pic: 'female-greek-statue-reading-about-self-development'
+pic: female-greek-statue-reading-about-self-development
 path: src/blog/guides/using-the-enneagram-for-self-development.md
 ---
 
@@ -20,62 +20,6 @@ get more niche-->
 <script>
     import MarqueeHorizontal from "$lib/components/atoms/MarqueeHorizontal.svelte";
 </script>
-
-<svelte:head>
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "HowTo",
-  "name": "How to Actually Use the Enneagram for Self-Development (Beyond the 10-Minute Test)",
-  "description": "Most people take the Enneagram test, feel seen for five minutes, then go back to the same patterns. Here's how to actually use your type for growth — backed by a 2018 study showing structured Enneagram work measurably advances ego development.",
-  "author": {
-    "@type": "Person",
-    "name": "DJ Wayne",
-    "sameAs": [
-      "https://www.instagram.com/djwayne3/",
-      "https://www.youtube.com/@djwayne3",
-      "https://www.linkedin.com/in/davidtwayne/",
-      "https://twitter.com/djwayne3"
-    ]
-  },
-  "publisher": {
-    "@type": "Organization",
-    "name": "9takes",
-    "logo": {
-      "@type": "ImageObject",
-      "url": "https://9takes.com/brand/aero.png"
-    },
-    "sameAs": [
-      "https://www.instagram.com/9takesdotcom/",
-      "https://twitter.com/9takesdotcom"
-    ]
-  },
-  "datePublished": "2024-09-14",
-  "dateModified": "2026-04-16",
-  "url": "https://9takes.com/how-to-guides/using-the-enneagram-for-self-development",
-  "image": {
-    "@type": "ImageObject",
-    "url": "https://9takes.com/blogs/female-greek-statue-reading-about-self-development.webp",
-    "width": 900,
-    "height": 900
-  },
-  "articleSection": "Self Development",
-  "keywords": ["Enneagram self-development", "personal growth", "personality development", "Enneagram transformation", "self-improvement"],
-  "wordCount": 4321,
-  "isPartOf": {
-    "@type": "Blog",
-    "name": "9takes Guides",
-    "url": "https://9takes.com/how-to-guides"
-  },
-  "mainEntityOfPage": {
-    "@type": "WebPage",
-    "@id": "https://9takes.com/how-to-guides/using-the-enneagram-for-self-development"
-  }
-}
-</script>
-
-</svelte:head>
 
 <p class="firstLetter">Same fight. Same avoidance. Same burnout cycle, fifth time this year. You're running on a wheel and you can feel it.</p>
 

@@ -10,6 +10,7 @@
 	}
 
 	let { data, slug, skipJsonLd = false }: Props = $props();
+	let shouldSkipJsonLd = $derived(skipJsonLd || data?.skip_jsonld === true);
 
 	// Use meta_title for SEO/social if available, otherwise fall back to title
 	let title = $derived(data?.meta_title || data?.title || '');
@@ -84,64 +85,117 @@
 		{ name: title, url: canonicalUrl }
 	]);
 
+	let aboutThings = $derived(
+		(data?.about_things ?? []).map((thing) => ({
+			'@type': 'Thing',
+			name: thing.name,
+			...(thing.description ? { description: thing.description } : {}),
+			...(thing.sameAs ? { sameAs: thing.sameAs } : {})
+		}))
+	);
+
+	let mentions = $derived(
+		(data?.mentions ?? []).map((mention) => ({
+			'@type': 'Thing',
+			name: mention.name,
+			...(mention.description ? { description: mention.description } : {})
+		}))
+	);
+
+	let articleCitations = $derived(
+		(data?.article_citations ?? []).map((citation) => ({
+			'@type': 'CreativeWork',
+			name: citation.name,
+			...(citation.author ? { author: citation.author } : {}),
+			...(citation.datePublished ? { datePublished: citation.datePublished } : {}),
+			...(citation.publisher ? { publisher: citation.publisher } : {}),
+			...(citation.url ? { url: citation.url } : {})
+		}))
+	);
+
+	let articleType = $derived(
+		data?.medical === true ? ['BlogPosting', 'MedicalWebPage'] : 'BlogPosting'
+	);
+
+	let blogPostingNode = $derived({
+		'@type': articleType,
+		'@id': `${canonicalUrl}#article`,
+		headline: title,
+		name: title,
+		url: canonicalUrl,
+		mainEntityOfPage: {
+			'@type': 'WebPage',
+			'@id': canonicalUrl
+		},
+		author: {
+			'@type': 'Person',
+			'@id': 'https://9takes.com/#person/dj-wayne',
+			name: 'DJ Wayne',
+			url: 'https://9takes.com/about',
+			jobTitle: 'Creator of 9takes',
+			image: 'https://9takes.com/brand/djface.webp',
+			knowsAbout: ['Enneagram', 'personality psychology', 'emotional intelligence'],
+			sameAs: [
+				'https://www.instagram.com/djwayne3/',
+				'https://www.linkedin.com/in/djwayne/',
+				'https://twitter.com/djwayne3'
+			]
+		},
+		description,
+		datePublished: data.date,
+		dateModified: data.lastmod || data.date,
+		image:
+			data?.picGroup?.length || data?.pic
+				? {
+						'@type': 'ImageObject',
+						url: shareImage,
+						width: data?.picGroup?.length ? 560 : 900,
+						height: data?.picGroup?.length ? 560 : 900
+					}
+				: shareImage,
+		publisher: {
+			'@type': 'Organization',
+			name: '9takes',
+			logo: {
+				'@type': 'ImageObject',
+				url: 'https://9takes.com/brand/aero.png'
+			},
+			sameAs: ['https://www.instagram.com/9takesdotcom/', 'https://twitter.com/9takesdotcom']
+		},
+		articleSection,
+		inLanguage: 'en-US',
+		keywords: tags,
+		isPartOf: {
+			'@type': 'Blog',
+			name: getBlogName(slug),
+			url: getBlogUrl(slug)
+		},
+		...(aboutThings.length ? { about: aboutThings } : {}),
+		...(mentions.length ? { mentions } : {}),
+		...(articleCitations.length ? { citation: articleCitations } : {}),
+		...(data?.medical && data?.disclaimer ? { disclaimer: data.disclaimer } : {})
+	});
+
+	let faqNode = $derived(
+		data?.faqs && data.faqs.length
+			? {
+					'@type': 'FAQPage',
+					'@id': `${canonicalUrl}#faq`,
+					mainEntity: data.faqs.map((faq) => ({
+						'@type': 'Question',
+						name: faq.question,
+						acceptedAnswer: { '@type': 'Answer', text: faq.answer }
+					}))
+				}
+			: null
+	);
+
 	let jsonldObj = $derived.by(() => ({
 		'@context': 'https://schema.org',
 		'@graph': [
-			{
-				'@type': 'BlogPosting',
-				'@id': `${canonicalUrl}#article`,
-				headline: title,
-				name: title,
-				url: canonicalUrl,
-				mainEntityOfPage: {
-					'@type': 'WebPage',
-					'@id': canonicalUrl
-				},
-				author: {
-					'@type': 'Person',
-					'@id': 'https://9takes.com/#person/dj-wayne',
-					name: 'DJ Wayne',
-					url: 'https://9takes.com/about',
-					jobTitle: 'Creator of 9takes',
-					image: 'https://9takes.com/brand/djface.webp',
-					knowsAbout: ['Enneagram', 'personality psychology', 'emotional intelligence'],
-					sameAs: [
-						'https://www.instagram.com/djwayne3/',
-						'https://www.linkedin.com/in/djwayne/',
-						'https://twitter.com/djwayne3'
-					]
-				},
-				description,
-				datePublished: data.date,
-				dateModified: data.lastmod || data.date,
-				image:
-					data?.picGroup?.length || data?.pic
-						? {
-								'@type': 'ImageObject',
-								url: shareImage,
-								width: data?.picGroup?.length ? 560 : 900,
-								height: data?.picGroup?.length ? 560 : 900
-							}
-						: shareImage,
-				publisher: {
-					'@type': 'Organization',
-					name: '9takes',
-					logo: {
-						'@type': 'ImageObject',
-						url: 'https://9takes.com/brand/aero.png'
-					},
-					sameAs: ['https://www.instagram.com/9takesdotcom/', 'https://twitter.com/9takesdotcom']
-				},
-				articleSection,
-				inLanguage: 'en-US',
-				keywords: tags,
-				isPartOf: {
-					'@type': 'Blog',
-					name: getBlogName(slug),
-					url: getBlogUrl(slug)
-				}
-			},
-			buildBreadcrumbSchemaForGraph(breadcrumbItems)
+			blogPostingNode,
+			buildBreadcrumbSchemaForGraph(breadcrumbItems),
+			...(faqNode ? [faqNode] : [])
 		]
 	}));
 
@@ -183,7 +237,7 @@
 	<meta property="article:section" content={articleSection} />
 	<meta property="article:tag" content={tags.join(', ')} />
 
-	{#if !skipJsonLd}
+	{#if !shouldSkipJsonLd}
 		{@html `<script type="application/ld+json">${jsonld}</script>`}
 	{/if}
 </svelte:head>

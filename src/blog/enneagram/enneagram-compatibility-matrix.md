@@ -5,20 +5,32 @@ author: 'DJ Wayne'
 date: '2025-08-24'
 loc: 'https://9takes.com/enneagram-corner/enneagram-compatibility-matrix'
 lastmod: '2026-01-16'
-changefreq: 'monthly'
+changefreq: monthly
 priority: '0.9'
 published: true
-type: ['relationships']
+type: [relationships]
 blog: true
-pic: 'greek_statues_in_a_circle_holding_hands'
+pic: greek_statues_in_a_circle_holding_hands
 pic_alt: 'Circular arrangement of nine greek statues with connecting threads showing compatibility patterns'
 midjourney_prompt: 'nine greek statues arranged in a perfect circle with golden and silver threads connecting them in intricate patterns representing compatibility, some threads glowing bright showing strong connections, others dimmer showing challenges, central mandala pattern of interweaving connections, romantic and platonic energy, warm golden hour lighting with ethereal glow, cyberpunk romantic aesthetic with soft pink and blue neon accents, Unreal Engine, Cinematic, Color Grading, portrait Photography, Shot on 50mm lense, Ultra-Wide Angle, Depth of Field, hyper-detailed, beautifully color-coded, insane details, intricate details, beautifully color graded, Editorial Photography, Photoshoot, Shot on 70mm lense, Depth of Field, DOF, Tilt Blur, Shutter Speed 1/1000, F/22, White Balance, 32k, Super-Resolution, Megapixel, ProPhoto RGB, VR, Halfrear Lighting, Backlight, Natural Lighting, Moody Lighting, Cinematic Lighting, Studio Lighting, Soft Lighting, Volumetric, Contre-Jour, Beautiful Lighting, Accent Lighting, Global Illumination, Screen Space Global Illumination, Ray Tracing Global Illumination, Optics, Scattering, Glowing, Shadows, Rough, Shimmering, Ray Tracing Reflections, Lumen Reflections, Screen Space Reflections, Diffraction Grading, Chromatic Aberration, GB Displacement, Scan Lines, Ray Traced, Ray Tracing Ambient Occlusion, Anti-Aliasing, FKAA, TXAA, RTX, SSAO, Shaders, OpenGL-Shaders, GLSL-Shaders, Post Processing, Post-Production, Cel Shading, Tone Mapping, CGI, VFX, SFX, insanely detailed and intricate, hypermaximalist, elegant, hyper realistic, super detailed'
 path: src/blog/enneagram/enneagram-compatibility-matrix.md
-quality_grade: 'B+'
+quality_grade: B+
 quality_score: 8.6
 quality_graded_at: '2026-02-22'
-quality_rewrite_priority: 'none'
-quality_safety_gate: 'n/a'
+quality_rewrite_priority: none
+quality_safety_gate: n/a
+about_things:
+- name: Enneagram
+  description: 'A personality typing system that describes patterns in how people interpret the world and manage their emotions'
+- name: 'Relationship Compatibility'
+  description: 'The degree to which two people are able to maintain a harmonious relationship'
+mentions:
+- name: 'Type Compatibility'
+  description: 'How different Enneagram types interact in relationships'
+- name: 'Growth Edges'
+  description: 'Areas where relationship challenges promote personal development'
+- name: 'Core Wounds'
+  description: 'Childhood experiences that shape adult personality patterns'
 ---
 
 <!-- QUALITY_FEEDBACK_START
@@ -686,131 +698,3 @@ Want to explore your specific type combination in more depth? Check out our deta
 - [Understanding Your Enneagram Type](/enneagram-corner/)
 
 The best relationship is not the one with no challenges. It is the one where both partners use those challenges as catalysts for growth.
-
-<svelte:head>
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@graph": [
-    {
-      "@type": "BlogPosting",
-      "@id": "https://9takes.com/enneagram-corner/enneagram-compatibility-matrix",
-      "url": "https://9takes.com/enneagram-corner/enneagram-compatibility-matrix",
-      "headline": "The Complete Enneagram Compatibility Matrix: All 81 Type Combinations Decoded",
-      "description": "Discover relationship compatibility for all 81 Enneagram pairings. Understand attraction patterns, conflict triggers, and growth potential for every type combination with practical relationship advice.",
-      "datePublished": "2025-08-24",
-      "dateModified": "2026-01-16",
-      "author": {
-        "@type": "Person",
-        "name": "DJ Wayne",
-        "sameAs": [
-          "https://www.instagram.com/djwayne3/",
-          "https://www.youtube.com/@djwayne3",
-          "https://www.linkedin.com/in/davidtwayne/",
-          "https://twitter.com/djwayne3"
-        ]
-      },
-      "publisher": {
-        "@type": "Organization",
-        "name": "9takes",
-        "logo": {
-          "@type": "ImageObject",
-          "url": "https://9takes.com/logo.png"
-        }
-      },
-      "mainEntityOfPage": {
-        "@type": "WebPage",
-        "@id": "https://9takes.com/enneagram-corner/enneagram-compatibility-matrix"
-      },
-      "image": {
-        "@type": "ImageObject",
-        "url": "https://9takes.com/enneagram-compatibility-matrix.png",
-        "width": 1200,
-        "height": 630
-      },
-      "keywords": [
-        "enneagram compatibility",
-        "enneagram relationship compatibility",
-        "enneagram compatibility chart",
-        "enneagram type compatibility",
-        "enneagram relationship types",
-        "enneagram couple combinations",
-        "enneagram marriage compatibility",
-        "enneagram dating guide",
-        "personality compatibility",
-        "relationship dynamics"
-      ],
-      "articleSection": "Enneagram Relationships",
-      "wordCount": 4500,
-      "about": [
-        {
-          "@type": "Thing",
-          "name": "Enneagram",
-          "description": "A personality typing system that describes patterns in how people interpret the world and manage their emotions"
-        },
-        {
-          "@type": "Thing",
-          "name": "Relationship Compatibility",
-          "description": "The degree to which two people are able to maintain a harmonious relationship"
-        }
-      ],
-      "mentions": [
-        {
-          "@type": "Concept",
-          "name": "Type Compatibility",
-          "description": "How different Enneagram types interact in relationships"
-        },
-        {
-          "@type": "Concept",
-          "name": "Growth Edges",
-          "description": "Areas where relationship challenges promote personal development"
-        },
-        {
-          "@type": "Concept",
-          "name": "Core Wounds",
-          "description": "Childhood experiences that shape adult personality patterns"
-        }
-      ],
-      "hasPart": [
-        {
-          "@type": "Table",
-          "name": "Quick Reference Compatibility Table",
-          "description": "Summary of most natural, growth-oriented, challenging, and transformative pairings for each type"
-        },
-        {
-          "@type": "FAQPage",
-          "mainEntity": [
-            {
-              "@type": "Question",
-              "name": "Can two people of the same Enneagram type have a successful relationship?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Absolutely. Same-type pairings offer deep understanding and shared worldview. The key is ensuring you don't enable each other's unhealthy patterns and actively support mutual growth beyond your type's comfort zone."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "Which Enneagram types should avoid dating each other?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "No types should categorically avoid each other. While some pairings face more surface-level challenges, these often create the most growth. The only real incompatibility is unwillingness to grow."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "Can Enneagram compatibility predict relationship success?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Not directly. The Enneagram reveals potential dynamics and challenges, but relationship success depends on how consciously both partners work with these patterns. Awareness plus action equals transformation."
-              }
-            }
-          ]
-        }
-      ]
-    }
-  ]
-}
-</script>
-
-</svelte:head>

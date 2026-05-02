@@ -5,14 +5,120 @@ author: 'DJ Wayne'
 date: '2026-02-20'
 loc: 'https://9takes.com/community/societal-ticking-time-bombs'
 lastmod: '2026-04-16'
-changefreq: 'monthly'
+changefreq: monthly
 priority: '0.7'
 published: true
-type: ['idea']
+type: [idea]
 blog: true
 previewHtml: 'SSRIs, gambling, and IQ decline — three ticking time bombs nobody is connecting.'
-pic: 'empty-room'
+pic: empty-room
 path: src/blog/community/societal-ticking-time-bombs.md
+article_citations:
+- name: 'Incidence of antidepressant discontinuation symptoms: a systematic review and meta-analysis'
+  author: 'Henssler, J. et al.'
+  datePublished: '2024'
+  publisher:
+    '@type': Organization
+    name: 'The Lancet Psychiatry'
+  url: 'https://www.thelancet.com/journals/lanpsy/article/PIIS2215-0366(24)00133-0/fulltext'
+- name: 'Maintenance or Discontinuation of Antidepressants in Primary Care'
+  author: 'Lewis, G. et al.'
+  datePublished: '2021'
+  publisher:
+    '@type': Organization
+    name: 'New England Journal of Medicine'
+  url: 'https://www.nejm.org/doi/full/10.1056/NEJMoa2106356'
+- name: 'The serotonin theory of depression: a systematic umbrella review of the evidence'
+  author: 'Moncrieff, J. et al.'
+  datePublished: '2022'
+  publisher:
+    '@type': Organization
+    name: 'Molecular Psychiatry'
+  url: 'https://www.nature.com/articles/s41380-022-01661-0'
+- name: 'Initial severity and antidepressant benefits: a meta-analysis of data submitted to the FDA'
+  author: 'Kirsch, I. et al.'
+  datePublished: '2008'
+  publisher:
+    '@type': Organization
+    name: 'PLoS Medicine'
+  url: 'https://journals.plos.org/plosmedicine/article?id=10.1371/journal.pmed.0050045'
+- name: 'Cognitive Behavior Therapy vs Control Conditions, Other Psychotherapies, Pharmacotherapies and Combined Treatment for Depression: A Comprehensive Meta-Analysis Including 409 Trials'
+  author: 'Cuijpers, P. et al.'
+  datePublished: '2023'
+  publisher:
+    '@type': Organization
+    name: 'World Psychiatry'
+  url: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC9840507/'
+- name: 'Cognitive therapy vs medications in the treatment of moderate to severe depression'
+  author: 'DeRubeis, R. et al.'
+  datePublished: '2005'
+  publisher:
+    '@type': Organization
+    name: 'Archives of General Psychiatry'
+  url: 'https://pubmed.ncbi.nlm.nih.gov/15809408/'
+- name: 'Flynn effect and its reversal are both environmentally caused'
+  author: 'Bratsberg, B. & Rogeberg, O.'
+  datePublished: '2018'
+  publisher:
+    '@type': Organization
+    name: PNAS
+  url: 'https://www.pnas.org/doi/10.1073/pnas.1718793115'
+- name: 'Stress signalling pathways that impair prefrontal cortex structure and function'
+  author: 'Arnsten, A.'
+  datePublished: '2009'
+  publisher:
+    '@type': Organization
+    name: 'Nature Reviews Neuroscience'
+  url: 'https://www.nature.com/articles/nrn2648'
+- name: 'Putting feelings into words: affect labeling disrupts amygdala activity in response to affective stimuli'
+  author: 'Lieberman, M. et al.'
+  datePublished: '2007'
+  publisher:
+    '@type': Organization
+    name: 'Psychological Science'
+  url: 'https://pubmed.ncbi.nlm.nih.gov/17576282/'
+- name: 'Perfectionism is increasing over time: A meta-analysis of birth cohort differences from 1989 to 2016'
+  author: 'Curran, T. & Hill, A.'
+  datePublished: '2019'
+  publisher:
+    '@type': Organization
+    name: 'Psychological Bulletin'
+  url: 'https://www.apa.org/pubs/journals/releases/bul-bul0000138.pdf'
+- name: 'Our Epidemic of Loneliness and Isolation'
+  author: 'U.S. Surgeon General'
+  datePublished: '2023'
+  publisher:
+    '@type': Organization
+    name: 'U.S. Department of Health and Human Services'
+  url: 'https://www.hhs.gov/sites/default/files/surgeon-general-social-connection-advisory.pdf'
+- name: 'The State of American Men 2025'
+  author: Equimundo
+  datePublished: '2025'
+  publisher:
+    '@type': Organization
+    name: Equimundo
+  url: 'https://www.equimundo.org/resources/state-of-american-men-2025/'
+- name: 'Antidepressant Use Among Adults: United States, 2023'
+  author: 'Centers for Disease Control and Prevention'
+  datePublished: '2024'
+  publisher:
+    '@type': Organization
+    name: 'CDC National Center for Health Statistics'
+  url: 'https://www.cdc.gov/nchs/products/databriefs/db528.htm'
+- name: 'Anatomy of an Epidemic: Magic Bullets, Psychiatric Drugs, and the Astonishing Rise of Mental Illness in America'
+  author: 'Whitaker, R.'
+  datePublished: '2010'
+  publisher:
+    '@type': Organization
+    name: Crown
+  url: 'https://power2u.org/wp-content/uploads/2017/01/AnatomyofanEpidemic-SummaryofFindings-Whitaker.pdf'
+faqs:
+- question: 'What percentage of psychiatrists receive payments from pharmaceutical companies?'
+  answer: '55.7% of practicing psychiatrists receive payments from pharmaceutical companies, totaling approximately $110.5 million over a two-year period according to Open Payments data analysis.'
+- question: 'How much of antidepressant response is due to placebo effect?'
+  answer: 'Research by Irving Kirsch found that approximately 82% of the antidepressant response can be duplicated by placebo, with only about a 1.8 point difference on the Hamilton Rating Scale for Depression.'
+- question: 'How does sports gambling legalization affect personal bankruptcy rates?'
+  answer: 'UCLA Anderson Review reports a 25-30% increase in personal bankruptcy filing likelihood after online sports gambling legalization, along with increases in delinquencies and collections.'
 ---
 
 <!--
@@ -26,203 +132,6 @@ wide cinematic shot of a dark modern apartment divided into three connected zone
 Image intent:
 Show that SSRIs, gambling, and cognitive overload are not separate stories; they are one modern loop of numbing, chasing, and mental depletion.
 -->
-
-<svelte:head>
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@graph": [
-    {
-      "@type": "BlogPosting",
-      "headline": "3 Societal Ticking Time Bombs Nobody Is Connecting",
-      "description": "SSRIs, gambling addiction, and collective IQ decline are quietly reshaping society. Here is why these three issues keep me up at night.",
-      "author": {
-        "@type": "Person",
-        "name": "DJ Wayne",
-        "sameAs": [
-          "https://www.instagram.com/djwayne3/",
-          "https://www.youtube.com/@djwayne3",
-          "https://www.linkedin.com/in/davidtwayne/",
-          "https://twitter.com/djwayne3"
-        ]
-      },
-      "publisher": {
-        "@type": "Organization",
-        "name": "9takes",
-        "logo": {
-          "@type": "ImageObject",
-          "url": "https://9takes.com/brand/aero.png"
-        },
-        "sameAs": [
-          "https://www.instagram.com/9takesdotcom/",
-          "https://twitter.com/9takesdotcom"
-        ]
-      },
-      "datePublished": "2026-02-20",
-      "dateModified": "2026-04-16",
-      "url": "https://9takes.com/community/societal-ticking-time-bombs",
-      "articleSection": "Community",
-      "inLanguage": "en-US",
-      "keywords": ["SSRIs", "gambling addiction", "IQ decline", "mental health", "psychiatry", "society", "brain rot"],
-      "isPartOf": {
-        "@type": "Blog",
-        "name": "9takes Community Blog",
-        "url": "https://9takes.com/community"
-      },
-      "mainEntityOfPage": {
-        "@type": "WebPage",
-        "@id": "https://9takes.com/community/societal-ticking-time-bombs"
-      },
-      "citation": [
-        {
-          "@type": "ScholarlyArticle",
-          "name": "Incidence of antidepressant discontinuation symptoms: a systematic review and meta-analysis",
-          "author": "Henssler, J. et al.",
-          "datePublished": "2024",
-          "publisher": { "@type": "Organization", "name": "The Lancet Psychiatry" },
-          "url": "https://www.thelancet.com/journals/lanpsy/article/PIIS2215-0366(24)00133-0/fulltext"
-        },
-        {
-          "@type": "ScholarlyArticle",
-          "name": "Maintenance or Discontinuation of Antidepressants in Primary Care",
-          "author": "Lewis, G. et al.",
-          "datePublished": "2021",
-          "publisher": { "@type": "Organization", "name": "New England Journal of Medicine" },
-          "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa2106356"
-        },
-        {
-          "@type": "ScholarlyArticle",
-          "name": "The serotonin theory of depression: a systematic umbrella review of the evidence",
-          "author": "Moncrieff, J. et al.",
-          "datePublished": "2022",
-          "publisher": { "@type": "Organization", "name": "Molecular Psychiatry" },
-          "url": "https://www.nature.com/articles/s41380-022-01661-0"
-        },
-        {
-          "@type": "ScholarlyArticle",
-          "name": "Initial severity and antidepressant benefits: a meta-analysis of data submitted to the FDA",
-          "author": "Kirsch, I. et al.",
-          "datePublished": "2008",
-          "publisher": { "@type": "Organization", "name": "PLoS Medicine" },
-          "url": "https://journals.plos.org/plosmedicine/article?id=10.1371/journal.pmed.0050045"
-        },
-        {
-          "@type": "ScholarlyArticle",
-          "name": "Cognitive Behavior Therapy vs Control Conditions, Other Psychotherapies, Pharmacotherapies and Combined Treatment for Depression: A Comprehensive Meta-Analysis Including 409 Trials",
-          "author": "Cuijpers, P. et al.",
-          "datePublished": "2023",
-          "publisher": { "@type": "Organization", "name": "World Psychiatry" },
-          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9840507/"
-        },
-        {
-          "@type": "ScholarlyArticle",
-          "name": "Cognitive therapy vs medications in the treatment of moderate to severe depression",
-          "author": "DeRubeis, R. et al.",
-          "datePublished": "2005",
-          "publisher": { "@type": "Organization", "name": "Archives of General Psychiatry" },
-          "url": "https://pubmed.ncbi.nlm.nih.gov/15809408/"
-        },
-        {
-          "@type": "ScholarlyArticle",
-          "name": "Flynn effect and its reversal are both environmentally caused",
-          "author": "Bratsberg, B. & Rogeberg, O.",
-          "datePublished": "2018",
-          "publisher": { "@type": "Organization", "name": "PNAS" },
-          "url": "https://www.pnas.org/doi/10.1073/pnas.1718793115"
-        },
-        {
-          "@type": "ScholarlyArticle",
-          "name": "Stress signalling pathways that impair prefrontal cortex structure and function",
-          "author": "Arnsten, A.",
-          "datePublished": "2009",
-          "publisher": { "@type": "Organization", "name": "Nature Reviews Neuroscience" },
-          "url": "https://www.nature.com/articles/nrn2648"
-        },
-        {
-          "@type": "ScholarlyArticle",
-          "name": "Putting feelings into words: affect labeling disrupts amygdala activity in response to affective stimuli",
-          "author": "Lieberman, M. et al.",
-          "datePublished": "2007",
-          "publisher": { "@type": "Organization", "name": "Psychological Science" },
-          "url": "https://pubmed.ncbi.nlm.nih.gov/17576282/"
-        },
-        {
-          "@type": "ScholarlyArticle",
-          "name": "Perfectionism is increasing over time: A meta-analysis of birth cohort differences from 1989 to 2016",
-          "author": "Curran, T. & Hill, A.",
-          "datePublished": "2019",
-          "publisher": { "@type": "Organization", "name": "Psychological Bulletin" },
-          "url": "https://www.apa.org/pubs/journals/releases/bul-bul0000138.pdf"
-        },
-        {
-          "@type": "Report",
-          "name": "Our Epidemic of Loneliness and Isolation",
-          "author": "U.S. Surgeon General",
-          "datePublished": "2023",
-          "publisher": { "@type": "Organization", "name": "U.S. Department of Health and Human Services" },
-          "url": "https://www.hhs.gov/sites/default/files/surgeon-general-social-connection-advisory.pdf"
-        },
-        {
-          "@type": "Report",
-          "name": "The State of American Men 2025",
-          "author": "Equimundo",
-          "datePublished": "2025",
-          "publisher": { "@type": "Organization", "name": "Equimundo" },
-          "url": "https://www.equimundo.org/resources/state-of-american-men-2025/"
-        },
-        {
-          "@type": "Report",
-          "name": "Antidepressant Use Among Adults: United States, 2023",
-          "author": "Centers for Disease Control and Prevention",
-          "datePublished": "2024",
-          "publisher": { "@type": "Organization", "name": "CDC National Center for Health Statistics" },
-          "url": "https://www.cdc.gov/nchs/products/databriefs/db528.htm"
-        },
-        {
-          "@type": "Book",
-          "name": "Anatomy of an Epidemic: Magic Bullets, Psychiatric Drugs, and the Astonishing Rise of Mental Illness in America",
-          "author": "Whitaker, R.",
-          "datePublished": "2010",
-          "publisher": { "@type": "Organization", "name": "Crown" },
-          "url": "https://power2u.org/wp-content/uploads/2017/01/AnatomyofanEpidemic-SummaryofFindings-Whitaker.pdf"
-        }
-      ]
-    },
-    {
-      "@type": "FAQPage",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "What percentage of psychiatrists receive payments from pharmaceutical companies?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "55.7% of practicing psychiatrists receive payments from pharmaceutical companies, totaling approximately $110.5 million over a two-year period according to Open Payments data analysis."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How much of antidepressant response is due to placebo effect?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Research by Irving Kirsch found that approximately 82% of the antidepressant response can be duplicated by placebo, with only about a 1.8 point difference on the Hamilton Rating Scale for Depression."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How does sports gambling legalization affect personal bankruptcy rates?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "UCLA Anderson Review reports a 25-30% increase in personal bankruptcy filing likelihood after online sports gambling legalization, along with increases in delinquencies and collections."
-          }
-        }
-      ]
-    }
-  ]
-}
-</script>
-
-</svelte:head>
 
 <script>
 	import InsightBox from '$lib/components/blog/callouts/InsightBox.svelte';

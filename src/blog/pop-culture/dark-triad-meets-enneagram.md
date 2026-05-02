@@ -49,6 +49,7 @@ This piece examines serial killers, corrupt politicians, cult leaders, and corpo
 <div class="blog-link" style="display: flex; justify-content: center; margin: 1rem 0;">
   <PopCard
       image={`/blogs/dark-triad-chalk-board.webp`}
+      altText="Chalkboard diagram of the Dark Triad: narcissism, Machiavellianism, and psychopathy"
       showIcon={false}
       subtext=""
       displayText=""
@@ -80,6 +81,7 @@ Crime scene investigator's desk with obsessively organized evidence files in per
 <div class="blog-link" style="display: flex; justify-content: center; margin: 1rem 0;">
   <PopCard
       image={`/blogs/mask_wall_investigation.webp`}
+      altText="Investigation board covered in masks, evoking a Type 1 perfectionist's obsessive case file"
       showIcon={false}
       subtext=""
       displayText=""
@@ -200,6 +202,7 @@ Artist's studio with disturbing self-portraits covering walls, canvas on easel s
 <div class="blog-link" style="display: flex; justify-content: center; margin: 1rem 0;">
   <PopCard
       image={`/blogs/disturbed_studio.webp`}
+      altText="Artist studio with disturbing self-portraits, evoking a Type 4 individualist's dark inner world"
       showIcon={false}
       subtext=""
       displayText=""

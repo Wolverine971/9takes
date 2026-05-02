@@ -356,6 +356,7 @@ The goal is understanding that improves connection, not leverage that improves y
 <div class="blog-link" style="display: flex; justify-content: center; margin: 1rem 0;">
   <PopCard
       image={`/blogs/greek_statue_looking_in_the_mirror.webp`}
+      altText="Greek statue gazing into a mirror, symbolizing self-reflection and turning psychoanalysis inward"
       showIcon={false}
       subtext=""
       displayText=""

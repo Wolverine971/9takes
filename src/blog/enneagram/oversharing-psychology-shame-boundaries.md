@@ -155,7 +155,7 @@ This isn't weakness. It's a survival pattern that made sense once. It just doesn
 <div style="display: flex; justify-content: center; margin: 2rem auto; max-width: 400px;">
     <a href="/enneagram-corner/enneagram-childhood-stereotypes" class="blog-link" style="width: 100%;">
       <PopCard
-          image={`/blogs/greek-statues-of-children-702x702.webp`}
+          image={`/blogs/greek-statue-parent-child.webp`}
           showIcon={false}
           subtext=""
           displayText="How Each Type's Childhood Shaped Them"

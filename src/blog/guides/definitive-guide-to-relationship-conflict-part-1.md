@@ -5,10 +5,10 @@ author: 'DJ Wayne'
 date: '2023-08-24'
 loc: 'https://9takes.com/how-to-guides/definitive-guide-to-relationship-conflict-part-1'
 lastmod: '2026-01-18'
-changefreq: 'monthly'
+changefreq: monthly
 priority: '0.6'
 published: true
-pic: 'greek-statue-having-a-disagreement'
+pic: greek-statue-having-a-disagreement
 meta_title: 'The Four Horsemen of Relationship Conflict (And Their Antidotes)'
 path: src/blog/guides/definitive-guide-to-relationship-conflict-part-1.md
 ---
@@ -20,62 +20,6 @@ internal and external conflict
 <script>
 	import PopCard from "$lib/components/atoms/PopCard.svelte";
 </script>
-
-<svelte:head>
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "HowTo",
-  "name": "The Definitive Guide to Relationship Conflict [Part 1]",
-  "description": "Learn what healthy conflict looks like, how to spot the Four Horsemen, and how to use their antidotes to repair and reconnect.",
-  "author": {
-    "@type": "Person",
-    "name": "DJ Wayne",
-    "sameAs": [
-      "https://www.instagram.com/djwayne3/",
-      "https://www.youtube.com/@djwayne3",
-      "https://www.linkedin.com/in/davidtwayne/",
-      "https://twitter.com/djwayne3"
-    ]
-  },
-  "publisher": {
-    "@type": "Organization",
-    "name": "9takes",
-    "logo": {
-      "@type": "ImageObject",
-      "url": "https://9takes.com/brand/aero.png"
-    },
-    "sameAs": [
-      "https://www.instagram.com/9takesdotcom/",
-      "https://twitter.com/9takesdotcom"
-    ]
-  },
-  "datePublished": "2023-08-24",
-  "dateModified": "2026-01-18",
-  "url": "https://9takes.com/how-to-guides/definitive-guide-to-relationship-conflict-part-1",
-  "image": {
-    "@type": "ImageObject",
-    "url": "https://9takes.com/blogs/greek-statue-having-a-disagreement.webp",
-    "width": 900,
-    "height": 900
-  },
-  "articleSection": "Relationship Advice",
-  "keywords": ["relationship conflict resolution", "Gottman four horsemen", "healthy conflict", "relationship communication", "conflict patterns"],
-  "wordCount": 3900,
-  "isPartOf": {
-    "@type": "Blog",
-    "name": "9takes Guides",
-    "url": "https://9takes.com/how-to-guides"
-  },
-  "mainEntityOfPage": {
-    "@type": "WebPage",
-    "@id": "https://9takes.com/how-to-guides/definitive-guide-to-relationship-conflict-part-1"
-  }
-}
-</script>
-
-</svelte:head>
 
 <p class="firstLetter">A good relationship isn't conflict-free. It's repair-rich. If you care about someone, you'll disagree, sometimes loudly, often about something that feels bigger than the surface issue.</p>
 

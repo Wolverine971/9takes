@@ -120,6 +120,25 @@ declare global {
 			anchor?: string;
 		}
 
+		interface BlogPostAboutThing {
+			name: string;
+			description?: string;
+			sameAs?: string;
+		}
+
+		interface BlogPostMention {
+			name: string;
+			description?: string;
+		}
+
+		interface BlogPostCitation {
+			name: string;
+			author?: string;
+			datePublished?: string;
+			publisher?: string | { '@type'?: string; name?: string };
+			url?: string;
+		}
+
 		interface BlogPost {
 			id?: number;
 			slug: string;
@@ -134,6 +153,12 @@ declare global {
 			changefreq: string;
 			priority: string;
 			published: boolean;
+			skip_jsonld?: boolean;
+			medical?: boolean;
+			disclaimer?: string;
+			about_things?: BlogPostAboutThing[];
+			mentions?: BlogPostMention[];
+			article_citations?: BlogPostCitation[];
 			enneagram?: string | number;
 			type?: string[] | string;
 			stage?: number;
