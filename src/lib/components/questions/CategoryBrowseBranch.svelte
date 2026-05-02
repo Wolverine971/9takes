@@ -51,15 +51,15 @@
 		{/if}
 	</section>
 {:else if hasChildren}
-	<article class="branch-card" class:nested-card={depth > 1}>
+	<article class="branch-card" class:branch-card--flat={depth > 1}>
 		<div class="branch-head">
-			<a href={getCategoryHref(category)} class="branch-link">
+			<a href={getCategoryHref(category)} class="branch-link" class:branch-link--flat={depth > 1}>
 				{category.category_name}
 			</a>
 			<span class="count-pill small">{formatQuestionCount(category.subtreeQuestionCount)}</span>
 		</div>
 
-		<div class="leaf-list">
+		<div class="leaf-list" class:leaf-list--flat={depth > 1}>
 			{#each category.children as child (child.id)}
 				<svelte:self category={child} depth={depth + 1} />
 			{/each}
@@ -156,8 +156,25 @@
 		line-height: 1.3;
 	}
 
-	.nested-card {
-		background: color-mix(in srgb, var(--bg-elevated) 86%, var(--bg-base));
+	.branch-card--flat {
+		padding: 0.35rem 0 0.25rem 0.85rem;
+		border: none;
+		border-left: 2px solid color-mix(in srgb, var(--accent) 22%, var(--border-color));
+		border-radius: 0;
+		background: transparent;
+		margin-top: 0.4rem;
+	}
+
+	.branch-link--flat {
+		font-size: 0.9rem;
+		font-weight: 600;
+		text-transform: uppercase;
+		letter-spacing: 0.06em;
+		color: var(--text-secondary);
+	}
+
+	.leaf-list--flat {
+		margin-top: 0.5rem;
 	}
 
 	.leaf-list {
@@ -182,6 +199,18 @@
 			border-color 0.18s ease,
 			box-shadow 0.18s ease,
 			color 0.18s ease;
+	}
+
+	.leaf-link span:first-child {
+		min-width: 0;
+		flex: 1 1 auto;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		white-space: nowrap;
+	}
+
+	.leaf-link .count-pill {
+		flex-shrink: 0;
 	}
 
 	.leaf-link:hover {
@@ -221,8 +250,7 @@
 		}
 
 		.root-head,
-		.branch-head,
-		.leaf-link {
+		.branch-head {
 			flex-direction: column;
 			align-items: flex-start;
 		}
@@ -231,16 +259,13 @@
 			gap: 0.65rem;
 		}
 
-		.count-pill {
+		.root-head .count-pill,
+		.branch-head .count-pill {
 			align-self: flex-start;
 		}
 
 		.leaf-link {
-			padding: 0.85rem;
-		}
-
-		.leaf-link span:first-child {
-			width: 100%;
+			padding: 0.7rem 0.85rem;
 		}
 	}
 </style>

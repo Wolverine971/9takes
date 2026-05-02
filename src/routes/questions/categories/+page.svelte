@@ -111,20 +111,17 @@
 				<a href="/questions/create" class="hero-link">Ask a question</a>
 			</div>
 
-			<div class="hero-stats" aria-label="Category totals">
-				<div class="stat-chip">
-					<strong>{totalVisibleCategories}</strong>
-					<span>visible categories</span>
-				</div>
-				<div class="stat-chip">
-					<strong>{totalVisibleRoots}</strong>
-					<span>topic groups</span>
-				</div>
-			</div>
+			<p class="hero-stats" aria-label="Category totals">
+				<strong>{totalVisibleCategories}</strong>
+				{totalVisibleCategories === 1 ? 'category' : 'categories'} across
+				<strong>{totalVisibleRoots}</strong>
+				{totalVisibleRoots === 1 ? 'topic group' : 'topic groups'}
+			</p>
 
 			<p class="tree-note">
-				Each count includes the live questions nested underneath that branch, so larger pills
-				usually mean a deeper library.
+				Each count includes every live question nested underneath that branch — bigger pills mean
+				more questions to dig into.
+				<a class="hero-link-inline" href="/questions">Or filter the questions feed →</a>
 			</p>
 		</header>
 
@@ -207,11 +204,28 @@
 	}
 
 	.hero-stats {
-		display: flex;
-		flex-wrap: wrap;
-		justify-content: center;
-		gap: 0.75rem;
-		margin-top: 1.25rem;
+		margin: 1.1rem auto 0;
+		max-width: 42rem;
+		font-size: 0.95rem;
+		line-height: 1.6;
+		color: var(--text-secondary);
+	}
+
+	.hero-stats strong {
+		color: var(--text-primary);
+		font-weight: 700;
+	}
+
+	.hero-link-inline {
+		display: inline-block;
+		margin-left: 0.4rem;
+		color: var(--primary);
+		font-weight: 600;
+		text-decoration: none;
+	}
+
+	.hero-link-inline:hover {
+		text-decoration: underline;
 	}
 
 	.hero-actions {
@@ -256,34 +270,6 @@
 		border-color: color-mix(in srgb, var(--primary) 72%, transparent);
 	}
 
-	.stat-chip {
-		display: inline-flex;
-		flex-direction: column;
-		align-items: center;
-		justify-content: center;
-		gap: 0.2rem;
-		flex: 1 1 10rem;
-		min-width: 10rem;
-		padding: 0.85rem 1rem;
-		border-radius: 1rem;
-		border: 1px solid color-mix(in srgb, var(--accent) 16%, var(--border-color));
-		background: color-mix(in srgb, var(--bg-surface) 88%, var(--bg-base));
-		box-shadow: var(--shadow-sm);
-	}
-
-	.stat-chip strong {
-		font-size: 1.45rem;
-		color: var(--text-primary);
-	}
-
-	.stat-chip span {
-		font-size: 0.78rem;
-		font-weight: 600;
-		letter-spacing: 0.04em;
-		text-transform: uppercase;
-		color: var(--text-secondary);
-	}
-
 	.root-stack {
 		display: grid;
 		gap: 1.25rem;
@@ -317,11 +303,6 @@
 			padding-top: 2rem;
 		}
 
-		.stat-chip {
-			min-width: 0;
-			flex-basis: calc(50% - 0.4rem);
-		}
-
 		.hero-link {
 			flex: 1 1 100%;
 		}
@@ -340,15 +321,6 @@
 
 		.hero {
 			margin-bottom: 1.5rem;
-		}
-
-		.hero-stats {
-			gap: 0.6rem;
-		}
-
-		.stat-chip {
-			padding: 0.8rem 0.9rem;
-			flex-basis: 100%;
 		}
 	}
 </style>

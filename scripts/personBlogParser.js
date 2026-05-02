@@ -701,6 +701,12 @@ export function cleanupContent(content) {
 	// Remove svelte:head tags and content
 	cleanedContent = cleanedContent.replace(/<svelte:head>[\s\S]*?<\/svelte:head>/g, '');
 
+	cleanedContent = cleanedContent.replace(
+		/(https:\/\/9takes\.com)?(\/personality-analysis\/)([A-Za-z0-9-]+)/g,
+		(match, origin = '', prefix, slug) =>
+			`${origin ?? ''}${prefix}${normalizePersonalitySlug(slug)}`
+	);
+
 	return cleanedContent;
 }
 

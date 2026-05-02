@@ -37,6 +37,9 @@
 	let childCategories: BrowseCategoryNode[] = [];
 	$: childCategories = (data?.childCategories ?? []) as BrowseCategoryNode[];
 	$: parents = (data?.parents ?? []) as ParentCategory[];
+	$: directCount = Number(data?.currentCategory?.directQuestionCount ?? 0);
+	$: subtreeCount = Number(data?.currentCategory?.subtreeQuestionCount ?? 0);
+	$: nestedCount = Math.max(subtreeCount - directCount, 0);
 	$: categoryName = data?.questionTag?.category_name || '';
 	$: categoryIntroHtml = data?.categoryIntroHtml || '';
 	$: categorySlug = data?.questionTag?.slug || buildQuestionCategorySlug(categoryName);
@@ -135,6 +138,21 @@
 			{categoryName}
 		</h1>
 
+		{#if subtreeCount > 0}
+			<p class="category-meta">
+				<span class="category-meta__count"
+					>{directCount}
+					{directCount === 1 ? 'question' : 'questions'} directly tagged</span
+				>
+				{#if nestedCount > 0}
+					<span class="category-meta__divider" aria-hidden="true">·</span>
+					<span class="category-meta__count"
+						>{nestedCount} more in {nestedCount === 1 ? 'a subcategory' : 'subcategories'}</span
+					>
+				{/if}
+			</p>
+		{/if}
+
 		{#if categoryIntroHtml}
 			<section class="category-intro" aria-label={`${categoryName} intro`}>
 				<div class="category-intro__copy" data-category-intro>
@@ -146,7 +164,7 @@
 		{#if childCategories.length}
 			<section class="mb-4 mt-3">
 				<h2 class="mb-3 text-base font-semibold text-[var(--text-primary)]">
-					Subcategories With Live Questions
+					Browse subcategories
 				</h2>
 				<div class="grid gap-3">
 					{#each childCategories as category (category.id)}
@@ -167,6 +185,25 @@
 </div>
 
 <style lang="scss">
+	.category-meta {
+		display: flex;
+		flex-wrap: wrap;
+		align-items: baseline;
+		gap: 0.4rem;
+		margin: 0.15rem 0.25rem 0.6rem;
+		font-size: 0.85rem;
+		color: var(--text-secondary);
+	}
+
+	.category-meta__count {
+		font-weight: 600;
+		color: var(--text-secondary);
+	}
+
+	.category-meta__divider {
+		color: var(--text-tertiary);
+	}
+
 	.category-intro {
 		margin: 0.9rem 0 1.2rem;
 		padding: 1rem 1.1rem;

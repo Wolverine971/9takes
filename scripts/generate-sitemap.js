@@ -832,9 +832,10 @@ async function getAllPosts() {
 	const posts = [];
 
 	for (const category of categories) {
-		const files = await glob(`src/blog/${category}/*.{md,svx,svelte.md}`, {
+		const files = await glob(`src/blog/${category}/**/*.{md,svx,svelte.md}`, {
 			cwd: path.join(__dirname, '..'),
-			absolute: true
+			absolute: true,
+			ignore: ['**/drafts/**']
 		});
 
 		for (const file of files) {

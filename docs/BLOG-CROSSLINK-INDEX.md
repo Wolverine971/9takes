@@ -1,8 +1,8 @@
 <!-- docs/BLOG-CROSSLINK-INDEX.md -->
 # Blog Cross-Link Index
 
-_Generated: 2026-05-01_
-_Total Posts Analyzed: 178 (Published: 155, Unpublished: 23)_
+_Generated: 2026-05-02_
+_Total Posts Analyzed: 180 (Published: 157, Unpublished: 23)_
 _Note: Individual type pages (enneagram-type-1 through 9) excluded from link counts_
 
 ---
@@ -11,13 +11,13 @@ _Note: Individual type pages (enneagram-type-1 through 9) excluded from link cou
 
 | Metric | Count |
 |--------|-------|
-| Total posts | 178 |
-| Published posts | 155 |
+| Total posts | 180 |
+| Published posts | 157 |
 | Unpublished posts | 23 |
 | Posts with 0 outgoing links | 29 |
-| Posts with 0 incoming links | 47 |
+| Posts with 0 incoming links | 48 |
 | Completely isolated (0 in, 0 out) | 29 |
-| Total internal cross-links | 925 |
+| Total internal cross-links | 931 |
 | Average outgoing links per post | 5.2 |
 
 ---
@@ -98,7 +98,7 @@ These posts don't link to any other content.
 
 ---
 
-## Priority 3: Posts with NO Incoming Links (47 posts)
+## Priority 3: Posts with NO Incoming Links (48 posts)
 
 These posts are "orphaned" - no other content links to them.
 
@@ -117,6 +117,7 @@ These posts are "orphaned" - no other content links to them.
 | Depp vs Heard: Why a Type 4 and a Type 3 Were Built to Destr... | `pop-culture/depp-vs-heard-enneagram-analysis.md` | 2 |
 | The Kardashian Family Enneagram: How Each Type Built a Billi... | `pop-culture/kardashian-family-enneagram-analysis.md` | 2 |
 | The Psychology of Epstein | `pop-culture/epstien-research/Jeffrey-Epstein-Psychology-Of-The-Web.md` | 1 |
+| Musk vs Altman: A Type 5 and a Type 4 Walked Into a Federal ... | `pop-culture/musk-vs-altman-trial-personality-dynamics.md` | 1 |
 | You Can | `pop-culture/succession-personality-trap.md` | 1 |
 | The Disruptors: Why Type 8s Break Industries and Type 5s Dec... | `pop-culture/tech-titans-disruptors.md` | 1 |
 | Tech Leadership by Personality Type: How Each Enneagram Type... | `pop-culture/tech-titans-leadership-styles.md` | 1 |
@@ -132,12 +133,12 @@ These posts are "orphaned" - no other content links to them.
 | Incoming | Outgoing | Post Title | Path |
 |----------|----------|------------|------|
 | 71 | 16 | How Each Type Falls Apart (Your Stress Breakdown Pattern) | `enneagram/enneagram-types-in-stress.md` |
-| 48 | 8 | Why Nobody Understands You (It | `enneagram/enneagram-communication-styles.md` |
+| 49 | 8 | Why Nobody Understands You (It | `enneagram/enneagram-communication-styles.md` |
 | 32 | 12 | The Party Test: What Your Social Style Reveals About Your Ty... | `enneagram/enneagram-types-at-party.md` |
-| 31 | 8 | Why They Ghosted You (Based on Their Enneagram Type) | `enneagram/enneagram-types-being-ghosted.md` |
+| 32 | 8 | Why They Ghosted You (Based on Their Enneagram Type) | `enneagram/enneagram-types-being-ghosted.md` |
 | 31 | 15 | How Each Enneagram Type Self-Sabotages Success (And How to S... | `enneagram/how-each-enneagram-type-self-sabotages-success.md` |
 | 30 | 9 | Find Your Enneagram Type in 10 Minutes (4 Simple Steps) | `enneagram/beginners-guide-to-determining-your-enneagram-type.md` |
-| 29 | 15 | Enneagram Types in Relationships: How Each Type Loves (And W... | `enneagram/enneagram-types-in-relationships.md` |
+| 30 | 15 | Enneagram Types in Relationships: How Each Type Loves (And W... | `enneagram/enneagram-types-in-relationships.md` |
 | 27 | 34 | What | `enneagram/enneagram-tldr.md` |
 | 26 | 6 | Your Type | `enneagram/enneagram-strengths-and-weaknesses.md` |
 | 24 | 12 | Red Flags You Are Dating Each Enneagram Type (And What to Do... | `enneagram/red-flags-dating-each-enneagram-type.md` |
@@ -166,7 +167,7 @@ These posts are "orphaned" - no other content links to them.
 | 18 | 23 | The Enneagram and Mental Illness: Understand Each Type | `enneagram/enneagram-and-mental-illness.md` |
 | 16 | 71 | How Each Type Falls Apart (Your Stress Breakdown Pattern) | `enneagram/enneagram-types-in-stress.md` |
 | 16 | 9 | Relationship Communication Guide: The Enneagram Key to Under... | `enneagram/relationship-communication-guide.md` |
-| 15 | 29 | Enneagram Types in Relationships: How Each Type Loves (And W... | `enneagram/enneagram-types-in-relationships.md` |
+| 15 | 30 | Enneagram Types in Relationships: How Each Type Loves (And W... | `enneagram/enneagram-types-in-relationships.md` |
 | 15 | 31 | How Each Enneagram Type Self-Sabotages Success (And How to S... | `enneagram/how-each-enneagram-type-self-sabotages-success.md` |
 | 13 | 9 | Enneagram and ADHD: Which Types Struggle Most (And Why) | `enneagram/enneagram-and-adhd-which-types-struggle-most.md` |
 | 13 | 16 | Why You Can | `enneagram/why-you-cant-stop-overthinking-enneagram.md` |
@@ -197,13 +198,13 @@ Sorted by total connections (incoming + outgoing).
 |-------|----|----|------------|------|
 | 87 | 71 | 16 | How Each Type Falls Apart (Your Stress Breakdown Pattern) | `enneagram/enneagram-types-in-stress.md` |
 | 61 | 27 | 34 | What | `enneagram/enneagram-tldr.md` |
-| 56 | 48 | 8 | Why Nobody Understands You (It | `enneagram/enneagram-communication-styles.md` |
+| 57 | 49 | 8 | Why Nobody Understands You (It | `enneagram/enneagram-communication-styles.md` |
 | 46 | 31 | 15 | How Each Enneagram Type Self-Sabotages Success (And How to S... | `enneagram/how-each-enneagram-type-self-sabotages-success.md` |
+| 45 | 30 | 15 | Enneagram Types in Relationships: How Each Type Loves (And W... | `enneagram/enneagram-types-in-relationships.md` |
 | 44 | 32 | 12 | The Party Test: What Your Social Style Reveals About Your Ty... | `enneagram/enneagram-types-at-party.md` |
-| 44 | 29 | 15 | Enneagram Types in Relationships: How Each Type Loves (And W... | `enneagram/enneagram-types-in-relationships.md` |
 | 41 | 23 | 18 | The Enneagram and Mental Illness: Understand Each Type | `enneagram/enneagram-and-mental-illness.md` |
+| 40 | 32 | 8 | Why They Ghosted You (Based on Their Enneagram Type) | `enneagram/enneagram-types-being-ghosted.md` |
 | 39 | 30 | 9 | Find Your Enneagram Type in 10 Minutes (4 Simple Steps) | `enneagram/beginners-guide-to-determining-your-enneagram-type.md` |
-| 39 | 31 | 8 | Why They Ghosted You (Based on Their Enneagram Type) | `enneagram/enneagram-types-being-ghosted.md` |
 | 36 | 24 | 12 | Red Flags You Are Dating Each Enneagram Type (And What to Do... | `enneagram/red-flags-dating-each-enneagram-type.md` |
 | 32 | 26 | 6 | Your Type | `enneagram/enneagram-strengths-and-weaknesses.md` |
 | 32 | 21 | 11 | How Each Enneagram Type Manipulates (And How to Spot It) | `enneagram/how-each-enneagram-type-manipulates.md` |
@@ -231,12 +232,12 @@ Sorted by total connections (incoming + outgoing).
 | 16 | 10 | 6 | Why You Don | `enneagram/enneagram-wings-complete-guide.md` |
 | 14 | 6 | 8 | Why MBTI Failed and What to Use Instead | `community/mbti-vs-enneagram.md` |
 | 14 | 9 | 5 | Attachment Styles and Enneagram Types: Why the Same Style Lo... | `enneagram/attachment-styles-and-enneagram-types.md` |
+| 14 | 5 | 9 | Enneagram Dating Guide for Men: Type-Specific Strategies Tha... | `enneagram/enneagram-dating-guide-for-men.md` |
 | 14 | 4 | 10 | Is the Enneagram Real? 27 Questions Everyone Asks (Finally A... | `enneagram/enneagram-faqs.md` |
 | 14 | 6 | 8 | Best Free Enneagram Test (2025): Which One Actually Works? | `enneagram/enneagram-test-comparison-2025.md` |
 | 14 | 4 | 10 | Dark Triad Meets Enneagram: How Each Type Goes Wrong | `pop-culture/dark-triad-meets-enneagram.md` |
 | 13 | 8 | 5 | 9 Childhood Stereotypes Based on the Enneagram | `enneagram/enneagram-childhood-stereotypes.md` |
 | 13 | 5 | 8 | What to Say to Each Enneagram Type (Scripts That Actually Wo... | `enneagram/enneagram-communication-tips.md` |
-| 13 | 4 | 9 | Enneagram Dating Guide for Men: Type-Specific Strategies Tha... | `enneagram/enneagram-dating-guide-for-men.md` |
 | 13 | 9 | 4 | Why You Don | `enneagram/enneagram-instinctual-subtypes.md` |
 | 13 | 7 | 6 | Enneagram Personal Growth: Why Type 3s Can | `enneagram/enneagram-personal-growth.md` |
 | 13 | 3 | 10 | Productivity Systems by Enneagram Type: Work With Your Perso... | `guides/productivity-systems-by-enneagram-type.md` |
@@ -257,6 +258,7 @@ Sorted by total connections (incoming + outgoing).
 | 10 | 7 | 3 | Tech Titans Through the Enneagram: A Series on the Personali... | `pop-culture/tech-titans-enneagram-analysis.md` |
 | 9 | 4 | 5 | Depression Patterns by Enneagram Type: How Your Personality ... | `enneagram/depression-patterns-by-enneagram-type.md` |
 | 9 | 4 | 5 | Enneagram Connecting Lines: The Hidden Dynamics of Growth an... | `enneagram/enneagram-connecting-lines.md` |
+| 9 | 3 | 6 | Enneagram Dating Guide for Women: Decode Your Perfect Match ... | `enneagram/enneagram-dating-guide-for-women.md` |
 | 9 | 3 | 6 | Enneagram Leadership Styles: Why Your Natural Approach Keeps... | `enneagram/enneagram-leadership.md` |
 | 9 | 0 | 9 | Enneagram Type 9: The Peacemaker - Finding Your Voice | `enneagram/enneagram-type-9.md` |
 | 9 | 5 | 4 | Enneagram vs Myers-Briggs: Which Actually Explains You Bette... | `enneagram/enneagram-vs-meyers-briggs.md` |
@@ -266,7 +268,6 @@ Sorted by total connections (incoming + outgoing).
 | 8 | 2 | 6 | 5 Reasons Reddit Can | `community/reddit-deep-connections-limitations.md` |
 | 8 | 2 | 6 | Enneagram Compatibility: Why Charts Lie and What Actually Pr... | `enneagram/enneagram-compatibility-guide.md` |
 | 8 | 6 | 2 | The Complete Enneagram Compatibility Matrix: All 81 Type Com... | `enneagram/enneagram-compatibility-matrix.md` |
-| 8 | 2 | 6 | Enneagram Dating Guide for Women: Decode Your Perfect Match ... | `enneagram/enneagram-dating-guide-for-women.md` |
 | 8 | 1 | 7 | Enneagram Parenting Styles: Why You Parent the Way You Do (A... | `enneagram/enneagram-parenting-styles.md` |
 | 8 | 3 | 5 | Enneagram at Work: What Each Type Needs, Fears, and Brings t... | `enneagram/enneagram-workplace-team-building.md` |
 | 8 | 2 | 6 | Read Anyone in 30 Seconds: The Enneagram Body Language Cheat... | `enneagram/first-impression-enneagram-playbook.md` |
@@ -294,11 +295,13 @@ Sorted by total connections (incoming + outgoing).
 | 7 | 2 | 5 | The Psychology of Jeffrey Epstein: Understanding the Dark He... | `pop-culture/epstein-psychology-part-1.md` |
 | 7 | 2 | 5 | What Women Actually Select For: Strength, Discipline, and th... | `pop-culture/masculinity-strength-and-the-enneagram.md` |
 | 6 | 1 | 5 | What Was The Inspiration For 9takes? | `community/inspiration-for-9takes.md` |
+| 6 | 1 | 5 | Online Dating, Decoded: A Companion Guide for Men and Women ... | `enneagram/enneagram-online-dating-guide.md` |
 | 6 | 1 | 5 | How to Throw a Party Everyone Actually Wants to Attend | `enneagram/enneagram-party-planner.md` |
 | 6 | 2 | 4 | The Voice in Your Head: Master Positive Self-Talk for Your E... | `enneagram/enneagram-positive-self-talk.md` |
 | 6 | 3 | 3 | Enneagram Team Dynamics: Which Type Combinations Click (and ... | `enneagram/enneagram-team-dynamics.md` |
 | 6 | 2 | 4 | The Enneagram | `enneagram/enneagram-vs-personality-frameworks-comparison.md` |
 | 6 | 3 | 3 | Dating Dynamics by Enneagram Type: 9 Patterns That Sabotage ... | `guides/dating-dynamics-by-enneagram-type.md` |
+| 6 | 3 | 3 | The AI Wars: Why Personality Types Determine Who Gets to Bui... | `pop-culture/tech-titans-ai-wars.md` |
 | 5 | 3 | 2 | The Consensus on Human Nature | `community/consensus-on-human-nature.md` |
 | 5 | 2 | 3 | Kant Said You | `community/kantian-filters-and-nine-perspectives.md` |
 | 5 | 0 | 5 | You Didn | `community/personality-frameworks-map-not-territory.md` |
@@ -313,7 +316,6 @@ Sorted by total connections (incoming + outgoing).
 | 5 | 1 | 4 | How to Read People: The 4-Step Guide to Understanding Anyone... | `guides/how-to-psychoanalyze-people.md` |
 | 5 | 2 | 3 | Influencer Enneagram Types: Why Type 3s Dominate Instagram | `pop-culture/influencer-enneagram-types-instagram.md` |
 | 5 | 4 | 1 | Podcast Bros: Inside the Movement That Replaced Mainstream M... | `pop-culture/podcast-bros-enneagram-analysis.md` |
-| 5 | 2 | 3 | The AI Wars: Why Personality Types Determine Who Gets to Bui... | `pop-culture/tech-titans-ai-wars.md` |
 | 5 | 4 | 1 | Founders vs Stewards: The Personality Types That Replace Tec... | `pop-culture/tech-titans-founders-vs-stewards.md` |
 | 5 | 2 | 3 | The Platform Emperors: How Personality Types Shape the Produ... | `pop-culture/tech-titans-platform-emperors.md` |
 | 4 | 2 | 2 | Memetic Comments: Why Your Online Opinions Aren | `community/memetic-comments.md` |
@@ -339,6 +341,7 @@ Sorted by total connections (incoming + outgoing).
 | 2 | 0 | 2 | The Kardashian Family Enneagram: How Each Type Built a Billi... | `pop-culture/kardashian-family-enneagram-analysis.md` |
 | 2 | 1 | 1 | Trump | `pop-culture/trump-type-8-vs-biden-type-2.md` |
 | 1 | 0 | 1 | The Psychology of Epstein | `pop-culture/epstien-research/Jeffrey-Epstein-Psychology-Of-The-Web.md` |
+| 1 | 0 | 1 | Musk vs Altman: A Type 5 and a Type 4 Walked Into a Federal ... | `pop-culture/musk-vs-altman-trial-personality-dynamics.md` |
 | 1 | 0 | 1 | You Can | `pop-culture/succession-personality-trap.md` |
 | 1 | 0 | 1 | The Disruptors: Why Type 8s Break Industries and Type 5s Dec... | `pop-culture/tech-titans-disruptors.md` |
 | 1 | 0 | 1 | Tech Leadership by Personality Type: How Each Enneagram Type... | `pop-culture/tech-titans-leadership-styles.md` |

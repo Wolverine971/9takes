@@ -112,6 +112,10 @@ export const load: PageServerLoad = async (event) => {
 	return {
 		parents,
 		childCategories: currentCategoryNode.children,
+		currentCategory: {
+			directQuestionCount: currentCategoryNode.directQuestionCount,
+			subtreeQuestionCount: currentCategoryNode.subtreeQuestionCount
+		},
 		categoryIntroDescription: buildQuestionCategoryIntroDescription(
 			questionTag.intro_markdown,
 			questionTag.intro_description

@@ -56,6 +56,15 @@ export const load: PageServerLoad = async (event) => {
 		throw error(404, `Person not found: ${requestedSlug}`);
 	}
 
+	if (!personData.published) {
+		const { data: adminProfile } = user?.id
+			? await supabase.from('profiles').select('admin').eq('id', user.id).maybeSingle()
+			: { data: null };
+		if (!adminProfile?.admin) {
+			throw error(404, `Person not found: ${requestedSlug}`);
+		}
+	}
+
 	const legacySlug = personData.person ?? requestedSlug;
 	const canonicalSlug = normalizePersonalitySlug(legacySlug);
 	const commentSlugCandidates = [...new Set([legacySlug, canonicalSlug].filter(Boolean))];

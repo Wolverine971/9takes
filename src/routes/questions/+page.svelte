@@ -392,8 +392,10 @@
 				<h2 class="text-sm font-semibold text-[var(--text-primary)] sm:text-base">
 					Browse by Category
 				</h2>
-				<span class="text-xs text-[var(--text-secondary)]"
-					>{displayedCategories.length} categories</span
+				<a
+					href="/questions/categories"
+					class="text-xs font-semibold text-[var(--primary)] hover:underline sm:text-sm"
+					>Browse the full tree →</a
 				>
 			</div>
 			<div
