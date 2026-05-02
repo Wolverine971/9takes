@@ -4,7 +4,12 @@
 	import { QuestionItem } from '$lib/components';
 	import CategoryBrowseBranch from '$lib/components/questions/CategoryBrowseBranch.svelte';
 	import SearchQuestion from '$lib/components/questions/SearchQuestion.svelte';
-	import { buildQuestionCategorySlug } from '$lib/utils/questionCategorySlug';
+	import Breadcrumbs from '$lib/components/blog/Breadcrumbs.svelte';
+	import {
+		buildQuestionCategoryPath,
+		buildQuestionCategorySlug
+	} from '$lib/utils/questionCategorySlug';
+	import type { BreadcrumbItem } from '$lib/utils/schema';
 
 	type BrowseCategoryNode = {
 		id: number;
@@ -18,12 +23,20 @@
 		children: BrowseCategoryNode[];
 	};
 
+	type ParentCategory = {
+		id: number;
+		category_name: string;
+		slug?: string | null;
+		level: number;
+	};
+
 	/** @type {import('./$types').PageData} */
 	export let data: any;
 
 	const shareImage = 'https://9takes.com/questions-default.webp';
 	let childCategories: BrowseCategoryNode[] = [];
 	$: childCategories = (data?.childCategories ?? []) as BrowseCategoryNode[];
+	$: parents = (data?.parents ?? []) as ParentCategory[];
 	$: categoryName = data?.questionTag?.category_name || '';
 	$: categoryIntroHtml = data?.categoryIntroHtml || '';
 	$: categorySlug = data?.questionTag?.slug || buildQuestionCategorySlug(categoryName);
@@ -37,6 +50,15 @@
 	$: canonicalUrl = categorySlug
 		? `https://9takes.com/questions/categories/${categorySlug}`
 		: 'https://9takes.com/questions/categories';
+	$: breadcrumbItems = [
+		{ name: 'Home', url: 'https://9takes.com' },
+		{ name: 'Questions', url: 'https://9takes.com/questions' },
+		{ name: 'Categories', url: 'https://9takes.com/questions/categories' },
+		...parents.map((parent) => ({
+			name: parent.category_name,
+			url: `https://9takes.com${buildQuestionCategoryPath(parent.slug || parent.category_name)}`
+		}))
+	] satisfies BreadcrumbItem[];
 </script>
 
 <svelte:head>
@@ -79,32 +101,12 @@
 			},
 			breadcrumb: {
 				'@type': 'BreadcrumbList',
-				itemListElement: [
-					{
-						'@type': 'ListItem',
-						position: 1,
-						name: 'Home',
-						item: 'https://9takes.com'
-					},
-					{
-						'@type': 'ListItem',
-						position: 2,
-						name: 'Questions',
-						item: 'https://9takes.com/questions'
-					},
-					{
-						'@type': 'ListItem',
-						position: 3,
-						name: 'Categories',
-						item: 'https://9takes.com/questions/categories'
-					},
-					{
-						'@type': 'ListItem',
-						position: 4,
-						name: categoryName,
-						item: canonicalUrl
-					}
-				]
+				itemListElement: breadcrumbItems.map((item, index) => ({
+					'@type': 'ListItem',
+					position: index + 1,
+					name: item.name,
+					item: item.url
+				}))
 			}
 		})}
 	</script>`}
@@ -119,6 +121,12 @@
 	/>
 
 	<div class="mx-auto max-w-5xl p-2">
+		{#if breadcrumbItems.length > 1}
+			<div class="px-1 pt-1">
+				<Breadcrumbs items={breadcrumbItems} />
+			</div>
+		{/if}
+
 		<h1
 			class="m-1 w-full rounded-md text-left text-xl font-semibold text-[var(--text-primary)]"
 			id="question-box"

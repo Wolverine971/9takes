@@ -8,8 +8,9 @@
 	import Interact from '$lib/components/molecules/Interact.svelte';
 	import QuestionContent from '$lib/components/questions/QuestionContent.svelte';
 	import SEOHead from '$lib/components/SEOHead.svelte';
+	import Breadcrumbs from '$lib/components/blog/Breadcrumbs.svelte';
 	import { buildQuestionCategoryPath } from '$lib/utils/questionCategorySlug';
-	import { buildBreadcrumbSchemaForGraph } from '$lib/utils/schema';
+	import { buildBreadcrumbSchemaForGraph, type BreadcrumbItem } from '$lib/utils/schema';
 	import type { PageData } from './$types';
 	import type { QuestionPageData, Comment, QuestionTag } from '$lib/types/questions';
 	import { PUBLIC_SUPABASE_URL } from '$env/static/public';
@@ -236,6 +237,40 @@
 			.filter(Boolean)
 	);
 	let categorySummary = $derived(categoryNames.length ? joinHumanList(categoryNames) : '');
+	let deepestCategory = $derived.by(() => {
+		const tags = (data.questionTags || []) as QuestionTag[];
+		let best: QuestionTag['question_categories'] | null = null;
+		for (const tag of tags) {
+			const candidate = tag?.question_categories;
+			if (!candidate?.category_name) continue;
+			const candidateLevel = Number(candidate.level ?? 0);
+			const bestLevel = Number(best?.level ?? -1);
+			if (candidateLevel > bestLevel) {
+				best = candidate;
+			}
+		}
+		return best;
+	});
+	let categoryBreadcrumbItems = $derived.by(() => {
+		const items: BreadcrumbItem[] = [
+			{ name: 'Home', url: 'https://9takes.com' },
+			{ name: 'Questions', url: 'https://9takes.com/questions' }
+		];
+		if (deepestCategory?.category_name) {
+			items.push({
+				name: 'Categories',
+				url: 'https://9takes.com/questions/categories'
+			});
+			items.push({
+				name: deepestCategory.category_name,
+				url: `https://9takes.com${buildQuestionCategoryPath(
+					deepestCategory.slug || deepestCategory.category_name
+				)}`
+			});
+		}
+		items.push({ name: formattedQuestionText, url });
+		return items;
+	});
 	let publicQuestionOverview = $derived.by(() => {
 		const parts = ['Compare perspectives on this question on 9takes.'];
 
@@ -404,11 +439,7 @@
 			},
 			{
 				'@id': `${url}#breadcrumb`,
-				...buildBreadcrumbSchemaForGraph([
-					{ name: 'Home', url: 'https://9takes.com' },
-					{ name: 'Questions', url: 'https://9takes.com/questions' },
-					{ name: formattedQuestionText, url }
-				])
+				...buildBreadcrumbSchemaForGraph(categoryBreadcrumbItems)
 			}
 		]
 	}));
@@ -549,6 +580,12 @@
 
 <div class="question-page-container mx-auto w-full max-w-6xl px-1 pb-12 sm:px-6 lg:px-8">
 	<article class="question-article">
+		{#if categoryBreadcrumbItems.length > 1}
+			<div class="question-breadcrumbs">
+				<Breadcrumbs items={categoryBreadcrumbItems} />
+			</div>
+		{/if}
+
 		<div class="question-section question-section-display">
 			<QuestionDisplay question={data.question} />
 		</div>
@@ -861,6 +898,10 @@
 	.question-article {
 		position: relative;
 		z-index: 1;
+	}
+
+	.question-breadcrumbs {
+		padding: 0.25rem 0.25rem 0.5rem;
 	}
 
 	.question-section {

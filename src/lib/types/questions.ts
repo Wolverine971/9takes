@@ -86,6 +86,8 @@ export interface QuestionCategory {
 	id: number;
 	category_name: string;
 	slug?: string | null;
+	parent_id?: number | null;
+	level?: number | null;
 }
 
 export interface QuestionTag {

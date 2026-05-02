@@ -282,3 +282,34 @@ Headings: "The Bus Stop in 1963" → "The Bus Stop That Built Studio Ghibli" (ad
 - Quote dedup: Verified — "insult to life itself" appears once (in the AI section), "rather quit than dishonest" appears as the opening epigraph + once in the type-diagnosis bullets (as proof of typing) — that's a borderline call but the second usage is functionally analytical, not a re-quote of an anecdote.
 - Ending: Cuts to black with the bench image. No CTA, no summary, no mirror question.
 -->
+
+<!-- FRESH EYES REVIEW (2026-05-01)
+Biggest issues:
+- The films barely appear. Spirited Away (his Oscar winner and most globally known work) is name-only. Princess Mononoke and Nausicaä — the explicitly environmentalist films a Type 1 reading should be feasting on — are skipped. Only The Wind Rises gets a real read. A reader who came in for Miyazaki gets a lot of Miyazaki's biography and almost nothing of his moral imagination on screen.
+- Toshio Suzuki is invisible. He's the third Ghibli pillar — the producer who managed Miyazaki's psyche for forty years and who personally pressured Goro into directing Tales from Earthsea (the trigger for the father-son rupture you describe). The Goro section reads as if Hayao reacted in a vacuum. Naming Suzuki as the catalyst sharpens the whole anecdote and gives you the missing relationship architecture: Takahata = the only peer who held the standard, Suzuki = the one who absorbed the cost of the standard for everyone else.
+
+What to expand:
+- Female protagonists: the draft offers one reading (the competent-enough child trying to bring mother back) and stops. The wider, more discussed angle — Miyazaki almost always makes girls the moral center, the ones who actually act rightly while adults compromise — is a clean Type 1 thesis (the world should be run by people who haven't yet learned to cut corners) and you're leaving it on the table.
+- The 9 wing claim. Asserted in the TL;DR and bullets but never paid off in the body. If the wing matters, show it landing in the films (the Totoro forest, the slow nature of Mononoke's opening, the silence of the Spirited Away bathhouse train sequence). Otherwise consider dropping it — right now it reads stapled on.
+- The Boy and the Heron. Invoked four times but never actually read. The detail you do have — the great-uncle character represents Takahata — is the emotional payoff of the whole piece and gets one line. Two or three sentences on what the film is about (boy loses mother, descends into a tower built by a great-uncle keeper of a dying world, decides whether to inherit it) makes the un-retirement feel like grief instead of habit.
+- His drawing-without-a-script process. You touch it ("I issue directives. I do not achieve it otherwise"), but the radical strangeness of it — a feature animator who refuses to commit to a story before he draws the images — is the most Type 1 production fact in the industry and deserves more than half a paragraph.
+
+What to trim:
+- The "world is doomed / end of times / insult to life itself" register repeats heavily — intro, TL;DR, type-1 bullets, AI section, retirement section. It's the thesis, but stating it five times flattens it. Pick three load-bearing placements and let the rest go.
+- "Five retirements / tried to quit" is restated in intro, TL;DR, and again as the heading + opening of the retirements section. The retirement section can open without recapping the count.
+- "He cannot stop drawing" appears in the intro, the type-1 closer, and gets echoed at the ending. Two of the three is enough.
+- "It is a clip about how Type Ones think" / "This is one of the most Type One details in modern cinema" / "Type Ones do this constantly." These are the moments where the piece tips from profile into Enneagram explainer. Trust the reader. Cut the framework-naming and let the observation stand.
+
+Structural suggestions:
+- Consider a short section between "Why Miyazaki Hates AI" and "The Son Who Learned His Father from Films" that does one or two films directly — e.g. "The films he could not stop himself from making" — using Mononoke and Spirited Away to show the moral imagination, not just the moral statements. Right now the AI scene is doing the work of standing in for his on-screen ethics, and it can't carry that alone.
+- The contradictions are sharpened beautifully in the intro ("The same man drew Totoro") but the middle of the piece resolves them too cleanly into "he is a Type One." The ending refuses to resolve (he would not come out — keep this), but the body could hold the tension longer. One concrete fix: when the bench/desk panel lands, don't immediately tell the reader "Type Ones do this constantly." Sit in the strangeness for one more beat first.
+- Studio Ghibli was sold to Nippon TV in 2023 — that absence is felt in the "What he is doing as you read this" section. Worth at least a sentence: the One who could not let go of the standard finally let go of the studio.
+
+What's already working:
+- The bench/desk contrast panel is the most original observation in the piece. Load-bearing. Keep.
+- The Wind Rises reframe of the father — "the pacifist son of the warplane-parts manufacturer" — is a structural move that earns its place.
+- Premature-responsibility framing of the sick mother ("everything you can do is not enough") is the cleanest Type 1 origin paragraph and should be left untouched.
+- "He throws away anything he doesn't like. He chain-smokes through the discarding. The wastebasket fills up. The film gets made anyway." This is the rhythm of the piece. Other paragraphs should aim to match it.
+- The Goro apology — "It was made honestly. It was good." — and the gloss after it is the tightest emotional landing in the draft.
+- Final bench callback. Don't touch it. The piece earns the right to end without resolution.
+-->
