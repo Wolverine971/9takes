@@ -44,13 +44,13 @@ Type-coverage gaps to target this session (priority order):
 
 ## Priority Queue
 
-| #   | Question (truncated)                                                                  | Views   | Answers   | Gap | Blog Match | Score | URL                                                                                                                                       |
-| --- | ------------------------------------------------------------------------------------- | ------- | --------- | --- | ---------- | ----- | ----------------------------------------------------------------------------------------------------------------------------------------- |
-| 1   | Why do people try to dominate others?                                                 | Est. 60K+ | 84 ans   | Yes | Yes (T8)   | 85    | https://www.quora.com/Why-do-people-try-to-dominate-others                                                                                |
-| 2   | Why do some people have a tendency to abandon others?                                 | Est. 80K+ | 191 ans  | Yes | Yes (T5/9) | 81    | https://www.quora.com/Why-do-some-people-have-a-tendency-to-abandon-others                                                                |
-| 3   | Why do some people keep their partners at an emotional distance and avoid feelings?   | Est. 25K+ | ~30-60 est | Yes | Yes (T5)   | 75    | https://www.quora.com/Why-do-some-people-keep-their-partners-at-an-emotional-distance-and-avoid-discussing-feelings-or-the-future         |
-| 4   | Why do some people constantly create unnecessary drama in their lives?                | Est. 40K+ | ~50-80 est | Yes | Yes (T4)   | 75    | https://www.quora.com/Why-do-some-people-constantly-create-unnecessary-drama-in-their-lives                                               |
-| 5   | Why do some people give too much of themselves to friends/others?                     | Est. 20K+ | ~30-50 est | Yes | Yes (T2)   | 73    | https://www.quora.com/Why-do-some-people-give-too-much-of-themselves-to-friends-others-time-resources-energy-etc                          |
+| #   | Question (truncated)                                                                | Views     | Answers    | Gap | Blog Match | Score | URL                                                                                                                               |
+| --- | ----------------------------------------------------------------------------------- | --------- | ---------- | --- | ---------- | ----- | --------------------------------------------------------------------------------------------------------------------------------- |
+| 1   | Why do people try to dominate others?                                               | Est. 60K+ | 84 ans     | Yes | Yes (T8)   | 85    | https://www.quora.com/Why-do-people-try-to-dominate-others                                                                        |
+| 2   | Why do some people have a tendency to abandon others?                               | Est. 80K+ | 191 ans    | Yes | Yes (T5/9) | 81    | https://www.quora.com/Why-do-some-people-have-a-tendency-to-abandon-others                                                        |
+| 3   | Why do some people keep their partners at an emotional distance and avoid feelings? | Est. 25K+ | ~30-60 est | Yes | Yes (T5)   | 75    | https://www.quora.com/Why-do-some-people-keep-their-partners-at-an-emotional-distance-and-avoid-discussing-feelings-or-the-future |
+| 4   | Why do some people constantly create unnecessary drama in their lives?              | Est. 40K+ | ~50-80 est | Yes | Yes (T4)   | 75    | https://www.quora.com/Why-do-some-people-constantly-create-unnecessary-drama-in-their-lives                                       |
+| 5   | Why do some people give too much of themselves to friends/others?                   | Est. 20K+ | ~30-50 est | Yes | Yes (T2)   | 73    | https://www.quora.com/Why-do-some-people-give-too-much-of-themselves-to-friends-others-time-resources-energy-etc                  |
 
 ---
 
@@ -130,72 +130,72 @@ Type-coverage gaps to target this session (priority order):
 
 ## Skipped Questions
 
-| Question (truncated) | URL | Reason |
-| -------------------- | --- | ------ |
-| Why do some people sabotage relationships and friendships? | https://www.quora.com/Why-do-some-people-sabotage-relationships-and-friendships | Only 6 answers — below 30+ threshold |
-| Why do some people who desperately want connection do everything they can to sabotage their relationship when things get serious? | https://www.quora.com/Why-do-some-people-who-desperately-want-connection-do-everything-they-can-to-sabotage-their-relationship-when-things-get-serious | Only 2 answers — below threshold; 5y-old top answer; Marz Corbeau attachment-theory framing |
-| Why do some people pick fights as a way to end relationships, and how can I avoid falling into that trap? | https://www.quora.com/Why-do-some-people-pick-fights-as-a-way-to-end-relationships-and-how-can-I-avoid-falling-into-that-trap | Top recommended answer is for related "Do narcissists pick fights?" — NPD-framed; original question shows weak engagement |
-| Why do some people lash out when confronted by someone else's vulnerability? | https://www.quora.com/Why-do-some-people-lash-out-when-confronted-by-someone-elses-vulnerability | Only 2 answers — below threshold; would have been ideal Type 8 vulnerability-avoidance angle but too low-traffic |
-| Why do some people feel emotionally "numb" instead of sad or angry? | https://www.quora.com/Why-do-some-people-feel-emotionally-numb-instead-of-sad-or-angry | Only 4 answers (visible "answers": 4); 7y-old top answer; too low-engagement despite good Enneagram angle (T5/9) |
-| Why do (some) old people always seem to pick fights? | https://www.quora.com/Why-do-some-old-people-always-seem-to-pick-fights | Only 8 answers; age-specific framing limits Enneagram structure; Bot top answer covers our angle decently |
-| Why do some people seem naturally calm and confident, while others constantly overthink everything? | https://www.quora.com/Why-do-some-people-seem-naturally-calm-and-confident-while-others-constantly-overthink-everything | Same axis as already-Queued 04-29 "calm in stress vs fall apart" — duplicate built-in-contrast structure |
-| What causes some people to have anger issues when they are frustrated, while others do not? | https://www.quora.com/What-causes-some-people-to-have-anger-issues-when-they-are-frustrated-while-others-do-not | Only 1 answer — far below threshold |
-| Why do some people attract drama? | https://www.quora.com/Why-do-some-people-attract-drama | Only 3 answers — below threshold; 39 related questions but direct engagement low |
+| Question (truncated)                                                                                                              | URL                                                                                                                                                    | Reason                                                                                                                    |
+| --------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------- |
+| Why do some people sabotage relationships and friendships?                                                                        | https://www.quora.com/Why-do-some-people-sabotage-relationships-and-friendships                                                                        | Only 6 answers — below 30+ threshold                                                                                      |
+| Why do some people who desperately want connection do everything they can to sabotage their relationship when things get serious? | https://www.quora.com/Why-do-some-people-who-desperately-want-connection-do-everything-they-can-to-sabotage-their-relationship-when-things-get-serious | Only 2 answers — below threshold; 5y-old top answer; Marz Corbeau attachment-theory framing                               |
+| Why do some people pick fights as a way to end relationships, and how can I avoid falling into that trap?                         | https://www.quora.com/Why-do-some-people-pick-fights-as-a-way-to-end-relationships-and-how-can-I-avoid-falling-into-that-trap                          | Top recommended answer is for related "Do narcissists pick fights?" — NPD-framed; original question shows weak engagement |
+| Why do some people lash out when confronted by someone else's vulnerability?                                                      | https://www.quora.com/Why-do-some-people-lash-out-when-confronted-by-someone-elses-vulnerability                                                       | Only 2 answers — below threshold; would have been ideal Type 8 vulnerability-avoidance angle but too low-traffic          |
+| Why do some people feel emotionally "numb" instead of sad or angry?                                                               | https://www.quora.com/Why-do-some-people-feel-emotionally-numb-instead-of-sad-or-angry                                                                 | Only 4 answers (visible "answers": 4); 7y-old top answer; too low-engagement despite good Enneagram angle (T5/9)          |
+| Why do (some) old people always seem to pick fights?                                                                              | https://www.quora.com/Why-do-some-old-people-always-seem-to-pick-fights                                                                                | Only 8 answers; age-specific framing limits Enneagram structure; Bot top answer covers our angle decently                 |
+| Why do some people seem naturally calm and confident, while others constantly overthink everything?                               | https://www.quora.com/Why-do-some-people-seem-naturally-calm-and-confident-while-others-constantly-overthink-everything                                | Same axis as already-Queued 04-29 "calm in stress vs fall apart" — duplicate built-in-contrast structure                  |
+| What causes some people to have anger issues when they are frustrated, while others do not?                                       | https://www.quora.com/What-causes-some-people-to-have-anger-issues-when-they-are-frustrated-while-others-do-not                                        | Only 1 answer — far below threshold                                                                                       |
+| Why do some people attract drama?                                                                                                 | https://www.quora.com/Why-do-some-people-attract-drama                                                                                                 | Only 3 answers — below threshold; 39 related questions but direct engagement low                                          |
 
 ---
 
 ## Search Coverage Log
 
-| Keyword                                                  | Results Scanned | Candidates Flagged |
-| -------------------------------------------------------- | --------------- | ------------------ |
-| "why do some people analyze their emotions instead of feel them" | 0 (no results) | 0 |
-| "why do some people prefer thinking to feeling"          | 10 (mostly off-topic) | 0 |
-| "why do some people pick fights"                         | 10              | 2 |
-| "why do some people refuse to show weakness"             | 0 (no results) | 0 |
-| "why do some people sabotage good relationships"         | 0 (no results) | 0 |
-| "why do some people sabotage their relationships"        | 9               | 2 |
-| "why do some people feel different from everyone else"   | 5 (mostly off-topic) | 0 |
-| "why do helpers become resentful"                        | 0 (no results) | 0 |
-| "why do some people give too much"                       | 10              | 1 |
-| "why do some people feel emotionally numb"               | 6               | 1 |
-| "why do some people become martyrs"                      | 1 (political)   | 0 |
-| "why do some people have a martyr complex"               | 0 (no results) | 0 |
-| "why do some people feel disconnected from their emotions" | 2 (off-topic) | 0 |
-| "why do some people fear intimacy"                       | 0 (no results) | 0 |
-| "why are some people so insecure"                        | 9 (mostly off-topic) | 0 |
-| "why do some people have to control everything"          | 9               | 1 |
-| "why do some people have a hard time being vulnerable"   | 0 (no results) | 0 |
-| "why are some people afraid of being vulnerable"         | 8 (mostly unanswered) | 0 |
-| "why do some people abandon others"                      | 9               | 1 |
-| "why are some people so jealous"                         | 9               | 0 |
-| "why do some people lash out"                            | 10              | 2 |
-| "why do some people have trouble letting others in"      | 3               | 0 |
-| "why do some people become too emotional"                | 10              | 0 |
-| "what causes people to have anger issues"                | 10              | 1 |
-| "why do some people attract drama"                       | 8               | 1 |
-| "why do some people have a strong need to be special"    | 1 (off-topic)   | 0 |
-| "why do some people overthink everything"                | 9               | 1 |
-| "why do some people constantly seek excitement"          | 2 (off-topic)   | 0 |
-| "why are some people attracted to intensity"             | 9               | 1 |
-| "why do some people keep their distance"                 | 10              | 1 |
-| "what kinds of people have trust issues"                 | 4 (mostly unanswered) | 0 |
-| "why do some people create drama in their lives"         | 5               | 1 |
+| Keyword                                                          | Results Scanned       | Candidates Flagged |
+| ---------------------------------------------------------------- | --------------------- | ------------------ |
+| "why do some people analyze their emotions instead of feel them" | 0 (no results)        | 0                  |
+| "why do some people prefer thinking to feeling"                  | 10 (mostly off-topic) | 0                  |
+| "why do some people pick fights"                                 | 10                    | 2                  |
+| "why do some people refuse to show weakness"                     | 0 (no results)        | 0                  |
+| "why do some people sabotage good relationships"                 | 0 (no results)        | 0                  |
+| "why do some people sabotage their relationships"                | 9                     | 2                  |
+| "why do some people feel different from everyone else"           | 5 (mostly off-topic)  | 0                  |
+| "why do helpers become resentful"                                | 0 (no results)        | 0                  |
+| "why do some people give too much"                               | 10                    | 1                  |
+| "why do some people feel emotionally numb"                       | 6                     | 1                  |
+| "why do some people become martyrs"                              | 1 (political)         | 0                  |
+| "why do some people have a martyr complex"                       | 0 (no results)        | 0                  |
+| "why do some people feel disconnected from their emotions"       | 2 (off-topic)         | 0                  |
+| "why do some people fear intimacy"                               | 0 (no results)        | 0                  |
+| "why are some people so insecure"                                | 9 (mostly off-topic)  | 0                  |
+| "why do some people have to control everything"                  | 9                     | 1                  |
+| "why do some people have a hard time being vulnerable"           | 0 (no results)        | 0                  |
+| "why are some people afraid of being vulnerable"                 | 8 (mostly unanswered) | 0                  |
+| "why do some people abandon others"                              | 9                     | 1                  |
+| "why are some people so jealous"                                 | 9                     | 0                  |
+| "why do some people lash out"                                    | 10                    | 2                  |
+| "why do some people have trouble letting others in"              | 3                     | 0                  |
+| "why do some people become too emotional"                        | 10                    | 0                  |
+| "what causes people to have anger issues"                        | 10                    | 1                  |
+| "why do some people attract drama"                               | 8                     | 1                  |
+| "why do some people have a strong need to be special"            | 1 (off-topic)         | 0                  |
+| "why do some people overthink everything"                        | 9                     | 1                  |
+| "why do some people constantly seek excitement"                  | 2 (off-topic)         | 0                  |
+| "why are some people attracted to intensity"                     | 9                     | 1                  |
+| "why do some people keep their distance"                         | 10                    | 1                  |
+| "what kinds of people have trust issues"                         | 4 (mostly unanswered) | 0                  |
+| "why do some people create drama in their lives"                 | 5                     | 1                  |
 
 ---
 
 ## Type Coverage in Queue
 
-| Enneagram Type | Questions in Queue | Notes                                              |
-| -------------- | ------------------ | -------------------------------------------------- |
-| Type 1         | 0                  |                                                    |
-| Type 2         | 1                  | "give too much of themselves" (self-erasure-as-giving — fresh angle distinct from give-but-not-receive) |
-| Type 3         | 0                  |                                                    |
-| Type 4         | 1.5                | "create drama" (primary), "abandon others" (push-away secondary) |
+| Enneagram Type | Questions in Queue | Notes                                                                                                                                                   |
+| -------------- | ------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Type 1         | 0                  |                                                                                                                                                         |
+| Type 2         | 1                  | "give too much of themselves" (self-erasure-as-giving — fresh angle distinct from give-but-not-receive)                                                 |
+| Type 3         | 0                  |                                                                                                                                                         |
+| Type 4         | 1.5                | "create drama" (primary), "abandon others" (push-away secondary)                                                                                        |
 | Type 5         | 2.5                | "abandon others" (depletion-withdrawal primary), "emotional distance" (intimacy-economics primary), "give too much" (self-erasure-via-giving secondary) |
-| Type 6         | 0.5                | "create drama" (worst-case-rehearsal secondary), "emotional distance" (commitment-fear secondary) |
-| Type 7         | 0.5                | "abandon others" (escape-when-heavy secondary), "create drama" (novelty-injection secondary) |
-| Type 8         | 1.5                | "dominate others" (control-as-default primary), "create drama" (low-stim detonation secondary) |
-| Type 9         | 1                  | "abandon others" (numbing/disappearing primary), "give too much" (self-erasure secondary), "emotional distance" (peace-keeping secondary) |
+| Type 6         | 0.5                | "create drama" (worst-case-rehearsal secondary), "emotional distance" (commitment-fear secondary)                                                       |
+| Type 7         | 0.5                | "abandon others" (escape-when-heavy secondary), "create drama" (novelty-injection secondary)                                                            |
+| Type 8         | 1.5                | "dominate others" (control-as-default primary), "create drama" (low-stim detonation secondary)                                                          |
+| Type 9         | 1                  | "abandon others" (numbing/disappearing primary), "give too much" (self-erasure secondary), "emotional distance" (peace-keeping secondary)               |
 
 ---
 

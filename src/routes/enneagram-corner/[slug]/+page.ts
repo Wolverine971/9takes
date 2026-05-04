@@ -34,6 +34,10 @@ export const load: PageLoad = async ({ params, data }) => {
 		}
 	}
 
+	if (match.path?.includes('/mental-health/')) {
+		throw redirect(301, `/enneagram-corner/mental-health/${params.slug}`);
+	}
+
 	const post = await match?.resolver?.();
 
 	// publishedPosts.sort((a, b) => (new Date(a.date) > new Date(b.date) ? -1 : 1));

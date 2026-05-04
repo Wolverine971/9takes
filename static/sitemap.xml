@@ -11,7 +11,7 @@
   </url>
   <url>
     <loc>https://9takes.com/blog</loc>
-    <lastmod>2026-05-02</lastmod>
+    <lastmod>2026-05-04</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/book-session</loc>
@@ -132,7 +132,7 @@
   </url>
   <url>
     <loc>https://9takes.com/corpus-stats</loc>
-    <lastmod>2026-05-01</lastmod>
+    <lastmod>2026-05-02</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/enneagram-corner</loc>
@@ -895,7 +895,7 @@
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis</loc>
-    <lastmod>2026-05-02</lastmod>
+    <lastmod>2026-05-04</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/abraham-lincoln</loc>
@@ -1171,6 +1171,13 @@
     </image:image>
   </url>
   <url>
+    <loc>https://9takes.com/personality-analysis/bobby-lee</loc>
+    <lastmod>2026-05-04</lastmod>
+    <image:image>
+      <image:loc>https://9takes.com/types/7s/Bobby-Lee.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
     <loc>https://9takes.com/personality-analysis/brad-pitt</loc>
     <lastmod>2026-01-18</lastmod>
     <image:image>
@@ -1214,7 +1221,7 @@
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/categories</loc>
-    <lastmod>2026-05-02</lastmod>
+    <lastmod>2026-05-04</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/categories/authors-thinkers</loc>
@@ -1222,19 +1229,19 @@
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/categories/comedy</loc>
-    <lastmod>2026-04-29</lastmod>
+    <lastmod>2026-05-04</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/categories/creator-media</loc>
-    <lastmod>2026-05-01</lastmod>
+    <lastmod>2026-05-04</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/categories/film-tv</loc>
-    <lastmod>2026-05-02</lastmod>
+    <lastmod>2026-05-03</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/categories/music</loc>
-    <lastmod>2026-04-28</lastmod>
+    <lastmod>2026-05-03</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/categories/politics-public</loc>
@@ -2806,6 +2813,13 @@
     </image:image>
   </url>
   <url>
+    <loc>https://9takes.com/personality-analysis/snoop-dogg</loc>
+    <lastmod>2026-05-03</lastmod>
+    <image:image>
+      <image:loc>https://9takes.com/types/9s/Snoop-Dogg.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
     <loc>https://9takes.com/personality-analysis/sofia-vergara</loc>
     <lastmod>2026-04-29</lastmod>
     <image:image>
@@ -3076,7 +3090,7 @@
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/type/7</loc>
-    <lastmod>2026-05-01</lastmod>
+    <lastmod>2026-05-04</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/type/8</loc>
@@ -3084,7 +3098,7 @@
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/type/9</loc>
-    <lastmod>2026-04-27</lastmod>
+    <lastmod>2026-05-03</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/vincent-van-gogh</loc>

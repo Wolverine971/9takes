@@ -1,0 +1,12 @@
+BLOG IN PROGRESS: volodymyr-zelensky - skipping today's run
+
+The blog `volodymyr-zelensky` was marked inProgress at 2026-05-03T06:01:47Z (only ~4 minutes ago). Another daily-blog-creator run is actively working on it. Per workflow rules, I'm exiting without changes since the inProgress blog is not stale (< 24 hours).
+
+```
+=== DAILY BLOG CREATOR SUMMARY ===
+Date: 2026-05-03
+Status: SKIPPED (concurrent run detected)
+Blog: volodymyr-zelensky (inProgress, 0h elapsed)
+Next Run: Tomorrow 2:00 AM
+===================================
+```

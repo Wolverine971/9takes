@@ -4,12 +4,12 @@ meta_title: 'Why Snoop Dogg Outlasted Everyone Around Him'
 persona_title: "Hip-Hop's Unmovable Peacemaker"
 description: 'How did Snoop Dogg outlast Death Row, a murder trial, and the coast war? By becoming harder to rattle, not harder to break. An Enneagram Type 9w8 read.'
 author: 'DJ Wayne'
-date: '2026-04-20'
+date: '2026-05-03'
 loc: 'https://9takes.com/personality-analysis/Snoop-Dogg'
-lastmod: '2026-04-20'
+lastmod: '2026-05-03'
 changefreq: 'monthly'
 priority: '0.6'
-published: false
+published: true
 enneagram: '9'
 type: ['musician', 'celebrity']
 person: 'Snoop-Dogg'

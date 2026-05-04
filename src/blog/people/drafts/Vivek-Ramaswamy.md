@@ -56,24 +56,23 @@ H2 1: "What is Vivek Ramaswamy's personality type?" — search-intent (required 
 H2 2: "How Cincinnati Engineered a Valedictorian" — hybrid (search "Vivek Ramaswamy childhood" + ownable verb)
 H2 3: "Why Vivek Ramaswamy Has Been Performing Since Harvard" — hybrid (search intent + ownable claim)
 H2 4: "Vivek Ramaswamy's Roivant Sciences and the $200-to-40-Cents Lesson" — hybrid (search "Roivant" + signature stat)
-H2 5: "The Skinny Guy With Obama's Line" — signature (only applies to Vivek)
-H2 6: "Why Vivek Ramaswamy Got Pushed Out of DOGE" — search-intent
-H2 7: "The Pattern Behind Every Vivek Ramaswamy Reinvention" — hybrid (search intent + ownable framing)
-Search-intent + hybrid count: 6
+H2 5: "Why Vivek Ramaswamy Started Strive Asset Management" — search-intent (added 2026-05-03)
+H2 6: "The Skinny Guy With Obama's Line" — signature (only applies to Vivek)
+H2 7: "Why Vivek Ramaswamy Got Pushed Out of DOGE" — search-intent
+H2 8: "The Pattern Behind Every Vivek Ramaswamy Reinvention" — hybrid (search intent + ownable framing)
+Search-intent + hybrid count: 7
 -->
 
 <!-- DISTRIBUTION LEDGER
-Type-theory paragraphs outside diagnosis section and Rabbit Hole: 3
-Locations: "How Cincinnati Engineered a Valedictorian" (one paragraph naming the Type 3 wound), "Vivek Ramaswamy's Roivant Sciences and the $200-to-40-Cents Lesson" (one paragraph on Three's image-as-product), "The Pattern Behind Every Vivek Ramaswamy Reinvention" (closing paragraph naming the type once more).
+Type-theory paragraphs outside diagnosis section and Rabbit Hole: 4
+Locations: "How Cincinnati Engineered a Valedictorian" (one paragraph naming the Type 3 wound), "Vivek Ramaswamy's Roivant Sciences and the $200-to-40-Cents Lesson" (one paragraph on Three's image-as-product), "Why Vivek Ramaswamy Started Strive Asset Management" (one paragraph naming the cleanest-Type-3-maneuver read), "The Pattern Behind Every Vivek Ramaswamy Reinvention" (closing paragraph naming the type once more).
 -->
 
 > "I create things. It's just what I've done."
 
 <p class="firstLetter">The line wasn't his. <em>"Skinny guy with a funny last name."</em> Barack Obama said it first, in 2004, at the Democratic National Convention that turned him into a future president. Nineteen years later, on a Republican debate stage in Milwaukee, Vivek Ramaswamy delivered it like he had just thought of it. The crowd loved it. Most of the press missed it. Chris Christie noticed and called him out on the spot.</p>
 
-The Wikipedia page lists what came before: valedictorian at St. Xavier in 2003, Harvard summa cum laude in biology, Yale Law School in 2013, partner at a hedge fund at twenty-eight, biotech CEO before thirty, Forbes 30 Under 30. The credentials are real. They were also already on the wall when he stepped to that microphone. The line he had to borrow.
-
-That gap — between the achievements that arrived early and the introduction he had to lift from someone else — is the through-line of his life. The boy who walked into every room as the most decorated kid there has spent two decades learning how to walk in as the underdog. The man who has been everything has the strangest difficulty being someone.
+Wikipedia lists what came before: valedictorian at St. Xavier in 2003, Harvard summa cum laude in biology, Yale Law in 2013, hedge-fund partner at twenty-eight, biotech CEO before thirty, Forbes 30 Under 30. The credentials are real. They were already on the wall when he stepped to the microphone. The line he had to borrow. The boy who walked into every room as the most decorated kid there has spent two decades learning how to walk in as the underdog. The man who has been everything has the strangest difficulty being someone.
 
 <details>
 <summary class="accordion">TL;DR: Why Vivek Ramaswamy is an Enneagram Type 3</summary>
@@ -112,13 +111,9 @@ The lesson a child learns inside that architecture is unspoken but precise: _the
 
 That conditioning produces a specific Type 3 phenotype. Not the chaos-fleeing, identity-improvising Three of [JD Vance](/personality-analysis/JD-Vance). The Three who never had to flee anything — and whose entire psychological apparatus was built to optimize the next test, the next grader, the next stage. <em>Achievement was the inheritance. The room is the lifelong project.</em>
 
-There is a strange detail tucked into Vivek's biography that captures the household. His mother Geetha — a practicing geriatric psychiatrist — would later serve on the four-person team that conducted a Phase 2 trial for intepirdine, the Alzheimer's drug that her son's biotech company had built itself around. The boundary between the son's company and the mother's professional credibility was so porous that her clinical involvement was a footnote rather than a scandal. Inside the family, the Achiever's project and the Brahmin household's professional capital had never really been separate.
-
 ## Why Vivek Ramaswamy Has Been Performing Since Harvard
 
-In 2006, his senior year at Harvard, Vivek told the Harvard Crimson that his rapper alter ego "Da Vek" had a go-to song: Eminem's _Lose Yourself_. He performed at student parties. He rapped about libertarian politics. The video resurfaced seventeen years later and went viral.
-
-What gets read as eccentric undergraduate kitsch is, on a closer look, the cleanest possible Type 3 artifact. A summa cum laude biology student. A nationally ranked junior tennis player. A pianist with formal training. He didn't need a third performance. He built one anyway. The character had a name. The character had a song. The song was called _Lose Yourself_, and it was about white-knuckle one-shot artistic ambition — written by a different performer, about a different life, delivered by a Harvard kid who had everything to lose and nothing to lose it like.
+By 2006, the summa cum laude biology student who played varsity tennis and competition piano had built himself a third performance: a Harvard rapper alter ego called "Da Vek" who closed dorm parties with Eminem's _Lose Yourself._ The Harvard Crimson covered it. The video resurfaced seventeen years later and went viral. It is the cleanest Type 3 artifact in the file — a man who did not need another credential constructing one anyway, in a song about white-knuckle one-shot artistic ambition, written by a different performer about a different life, performed by a kid who had everything to lose and nothing to lose it like.
 
 Vivek would do this trick again. In 2023, at the Iowa State Fair, the presidential candidate version of "Da Vek" rapped _Lose Yourself_ in front of fairgoers eating funnel cake. Eminem's lawyers sent a cease-and-desist within weeks. BMI told the campaign that any further performance of Eminem's catalog would be treated as material breach. Vivek's spokesperson, in retreat, said the team would "have to leave the rapping to the real Slim Shady."
 
@@ -134,7 +129,9 @@ Sonnenfeld's framing is the harshest possible reading and worth keeping for what
 
 ## Vivek Ramaswamy's Roivant Sciences and the $200-to-40-Cents Lesson
 
-In 2014, while he was still a partner at the hedge fund QVT, Ramaswamy paid GlaxoSmithKline $5 million for a discarded Alzheimer's drug compound called intepirdine. GSK had abandoned it. Four previous trials had failed. Vivek built a company called Axovant Sciences around the compound, made his mother a member of the Phase 2 trial team, and took the company public in June 2015 in what was at the time the largest biotech IPO in U.S. history. Axovant peaked at $2.6 billion in market cap. The stock briefly traded near $200.
+In 2014, while still a partner at the hedge fund QVT, Ramaswamy paid GlaxoSmithKline $5 million for a discarded Alzheimer's drug compound called intepirdine. GSK had abandoned it. Four previous trials had failed. Vivek built a company called Axovant Sciences around the compound and took it public in June 2015 in what was at the time the largest biotech IPO in U.S. history. Axovant peaked at $2.6 billion in market cap. The stock briefly traded near $200.
+
+One of the four people on the Phase 2 trial team was his mother. Geetha Ramaswamy — a practicing geriatric psychiatrist in Cincinnati — sat on the clinical team running the study her son's company had built itself around. The boundary between the son's IPO and the mother's professional credibility was porous enough that her clinical role was a footnote rather than a scandal. Inside the family, the Achiever's project and the Brahmin household's professional capital had never really been separate.
 
 In September 2017, the Phase 3 trial reported. Intepirdine missed its primary and secondary endpoints. Axovant lost roughly 70% of its value in a morning. The stock would eventually trade at 40 cents. Mom-and-pop investors who had bought the story were wiped out.
 
@@ -150,11 +147,21 @@ Sonnenfeld's framing again, in Fortune:
 
 The accusation is reductive but the timeline supports its outline. Vivek's umbrella holding company, Roivant Sciences, was structured to reap returns from spinning compounds into single-asset subsidiaries — Axovant for neurology, Myovant for women's health, Dermavant for skin, Urovant for urology. The naming convention was its own tell: each subsidiary an "-avant" of the parent, each one a vehicle for capital, each one delivered to public markets with the maximum possible promise and the minimum possible track record. Vivek's personal stake in Roivant was protected even as Axovant cratered. He himself, when pressed, called Axovant "the single greatest failure of my career," telling Forbes: _"I feel much more accountable and it hurts me to have disappointed others who took a bet on something I believed in."_
 
-The Type 3 read on the Axovant arc is not that Vivek deliberately defrauded retirees. It is that his entire model of business is the model his personality was built for: <em>build the package. Sell the package. Let the underlying product catch up — or not.</em> The image is the asset. The image is the asset. The image is the asset.
+The Type 3 read on the Axovant arc is not that Vivek deliberately defrauded retirees. It is that his entire model of business is the model his personality was built for: <em>build the package. Sell the package. Let the underlying product catch up — or not.</em> The image is the asset.
 
-This is the Three's most dangerous instinct, run at scale and with capital. [Other Threes](/personality-analysis/Drake) mistake the LinkedIn profile for the self. Ramaswamy mistakes the IPO prospectus for the company. The mechanism is the same; the consequences scale with the room. When the package fails publicly — as Axovant did — the Three's defense is to describe the failure as data, an _experiment that produced a clear result,_ a clean piece of intellectual property to be filed alongside the pitch deck for the next package.
+This is the Three's most dangerous instinct, run at scale and with capital. [Other Threes](/personality-analysis/Drake) mistake the LinkedIn profile for the self. Ramaswamy mistakes the IPO prospectus for the company. When the package fails publicly — as Axovant did — the Three's defense is to describe the failure as data, an _experiment that produced a clear result,_ a clean piece of intellectual property to be filed alongside the pitch deck for the next package.
 
 By 2023 Roivant had become a real, profitable, multi-billion-dollar company. The package, in some cases, had grown a product underneath it. Vivek had also moved on.
+
+## Why Vivek Ramaswamy Started Strive Asset Management
+
+Between the Roivant exit and the campaign launch, Ramaswamy did the two things that made the political Vivek possible. In August 2021 he published _Woke, Inc.: Inside Corporate America's Social Justice Scam._ It became a New York Times bestseller. The argument was that stakeholder capitalism — the idea that corporations should serve social and political causes alongside shareholders — was a power grab dressed up as virtue. CEOs were buying political influence they had not won at any ballot box. ESG was the cover story. The prize was leverage. The book did the diagnostic work. It also identified, with a Three's nose for unfilled rooms, a constituency that did not yet have an asset manager built for it.
+
+In May 2022, Ramaswamy and Anson Frericks — a former Anheuser-Busch sales president — launched Strive Asset Management. The pitch was the book turned into a financial product: passively manage retirement money for the Americans who did not want their proxy votes used to lobby Exxon for net-zero pledges. Strive raised about $20 million in its launch round. The investor sheet read like a JD Vance Rolodex because, in part, it was one. Peter Thiel's Founders Fund. Bill Ackman. Joe Lonsdale. Howard Lutnick. And Narya Capital — the venture firm of [JD Vance](/personality-analysis/JD-Vance), the Yale Law classmate Ramaswamy had spent law-school nights with at a New Haven bar that aired Cincinnati Bengals games for the few Ohio kids on campus.
+
+Vance and Ramaswamy graduated from Yale Law in the same 2013 class. They had nothing in common except Ohio and ambition. By 2022, Vance was running for Senate in Ohio with Thiel money behind him, and his venture fund was writing Ramaswamy an early check on Strive. Two Yale Law Threes — different wounds, similar engines — had figured out that the next room was the conservative donor class, and that the donor class would pay to be told what it already believed.
+
+Strive was the cleanest Type 3 maneuver of Ramaswamy's career. The room he had identified in _Woke, Inc._ was the room he was now selling a product into. The book seeded the audience. The fund collected the management fees. The fund's backers became a political coalition. In February 2023, nine months after launch, Ramaswamy stepped down as Strive's executive chairman to run for president. Frericks took over. The fund kept growing. The donor list kept being useful.
 
 ## The Skinny Guy With Obama's Line
 
@@ -172,19 +179,21 @@ The borrowed line is the single most diagnostically pure moment of the Ramaswamy
 
 A subtler example arrived two months later. In December 2023, Ramaswamy released what his campaign called "Vivek's 10 Commandments" — a list of declarative principles. The first commandment: _"God is real."_ A Type 3 running for the Republican nomination has discovered, by item one, that the room rewards proclamation more than precision. The Hindu who maintains that Jesus is _a_ son of God, in print, on a list of commandments, leads with the formulation an evangelical Iowa caucus-goer can recite without flinching. The optimization is not cynical in the way Sonnenfeld means. It is sincere in the way a Three's optimization is always sincere: _this is what the room needs. So this is what I think. Therefore this is what I have always thought._
 
-He dropped out of the race in January 2024 after the Iowa caucuses, endorsed Trump on the same evening, and was at Mar-a-Lago by spring helping shape the Trump campaign's youth and South Asian outreach. The pivot took less than ninety days. Apoorva — the wife who, in the Yale Law years, had described him as _"the most interesting person in the room"_ at the party where they met — was photographed alongside the Trumps at primary nights. The party where Apoorva first saw him was a graduate-school house party in 2010 or 2011. She introduced herself. He was, she has told interviewers, "not that interested" when she mentioned a competing Vivek she had met that night, and he walked away. They reconnected as neighbors. He has spent his adult life arranging to be in the rooms where someone walks up and tells him he is the most interesting person there.
+The campaign's contrarian register kept producing artifacts the press misread as recklessness. In May 2023, Ramaswamy proposed raising the voting age to 25 — with carve-outs for 18-to-24-year-olds who served six months in the military, worked as first responders, or passed the same naturalization civics test required of immigrants. _"We're not a direct democracy,"_ he posted on X. _"We are a constitutional republic."_ It was the cleanest 3w4 move of the campaign: take the position any Iowa caucus consultant would tell you to abandon, and frame it as the only intellectually honest reading of American civics. The 4 wing wrote the proposal. The 3 trusted the room would reward the conviction. The same instinct produced the September 2023 promise to abolish the FBI, the ATF, the Department of Education, the Nuclear Regulatory Commission, and the USDA's Food and Nutrition Service by executive order, and to end birthright citizenship for the children of undocumented immigrants on the grounds that the 14th Amendment was "legally contested." Sometimes that gamble pays. Often it doesn't.
+
+He dropped out on January 15, 2024, the night of the Iowa caucuses, and endorsed Trump on the same stage. The pivot needs receipts to land properly. In a Wall Street Journal op-ed days after January 6, 2021, Ramaswamy had called the Capitol riot "disgraceful." On January 12 of that year, he had tweeted, _"What Trump did last week was wrong. Downright abhorrent."_ In his 2022 book _Nation of Victims_, he had written: _"It was a dark day for democracy. The loser of the last election refused to concede the race, claimed the election was stolen, raised hundreds of millions of dollars from loyal supporters, and is considering running for executive office again... I'm referring, of course, to Donald Trump."_ In a viral September 2023 MSNBC interview, Mehdi Hasan asked him four times to specify what Trump had done that was abhorrent. Ramaswamy refused. By December 2023 he was calling January 6 _"an inside job."_ Five weeks later he endorsed the man he had once called the loser of the last election, and was at Mar-a-Lago by spring helping shape the Trump campaign's youth and South Asian outreach.
 
 ## Why Vivek Ramaswamy Got Pushed Out of DOGE
 
 In November 2024, Trump announced that Ramaswamy and Elon Musk would co-lead a new "Department of Government Efficiency" — a non-statutory advisory body that the press immediately christened DOGE. The acronym was Musk's joke, layered on top of his cryptocurrency. The mandate was to slash federal spending and headcount.
 
-Ramaswamy's role lasted seventy-one days. On December 26, in the middle of an H-1B visa fight inside the MAGA coalition, he posted to X:
+Ramaswamy's role lasted seventy-one days. On December 26, in the middle of a coalition-wide H-1B visa fight over how many foreign tech workers Trump's incoming administration would admit, he posted to X:
 
 > "Our American culture has venerated mediocrity over excellence for way too long (at least since the 90s and likely longer). A culture that celebrates the prom queen over the math olympiad champ, or the jock over the valedictorian, will not produce the best engineers."
 
 Then a list of 1990s sitcom characters as evidence of the rot — _Boy Meets World_'s Cory, _Saved by the Bell_'s Zack and Slater, _Family Matters_'s Stefan over Steve Urkel.
 
-The post broke the coalition's surface tension. Laura Loomer accused him of importing "Great Replacement." Nikki Haley posted a flat correction — _"There is nothing wrong with American workers or American culture."_ A pro-Trump podcaster, Brenden Dilley, captured the populist objection: _"I always love when these tech bros flat out tell you that they have zero understanding of American culture and then have the gall to tell you that YOU are the problem with America."_
+The H-1B fight was the visa fight on the surface. The fight underneath was about which kids belonged in the American room. An Indian immigrant's son arguing — to a populist coalition that had spent a decade insisting American workers came first — that American culture itself was the reason American kids couldn't compete with H-1B engineers, was the wrong messenger making the wrong case in the wrong week. Laura Loomer accused him of importing "Great Replacement." Nikki Haley posted a flat correction — _"There is nothing wrong with American workers or American culture."_ A pro-Trump podcaster, Brenden Dilley, captured the populist objection: _"I always love when these tech bros flat out tell you that they have zero understanding of American culture and then have the gall to tell you that YOU are the problem with America."_
 
 The substance of the post was a Type 3 self-portrait disguised as cultural criticism. Vivek Ramaswamy is the math olympiad champion the prom queen ignored. He is the valedictorian the jock outranked socially. He is Steve Urkel arguing that Steve Urkel was the right protagonist all along. The 90s sitcom map he drew was a map of the American room he had spent his childhood failing to read his way into — the popularity hierarchy that grades on something other than the SAT. He was making the cleanest case any Three ever makes: <em>the room misjudged me. The room must be wrong.</em>
 
@@ -200,10 +209,72 @@ There is a quieter detail about him that explains more than any one of the pivot
 
 Wikipedia is the closest thing we have, in the digital era, to a biographical mirror. For Vivek, when the mirror showed the wrong version, you edited the mirror. It didn't register as deception. It registered as housekeeping.
 
-Apoorva Tewari Ramaswamy — laryngologist at Ohio State, mother of his two sons, the woman who introduced herself first at a Yale party because he seemed the most interesting person in the room — has been the rare consistent figure in his adult life. The Three's tell, with marriages, is whether the spouse mirrors the performance back or sees through it. She is not a chorus. She is a surgeon. She watched him build the candidacies, run the rap performance at Iowa fairs, lose the presidency he never expected to win, lose the DOGE seat he hadn't expected to need to keep, and pivot, again, to a state governor's race in the state where his parents settled.
+Apoorva Tewari Ramaswamy — laryngologist at Ohio State, mother of his two sons — has been the rare consistent figure in his adult life. They met at a graduate-school house party in 2010 or 2011. She introduced herself first because, she has told interviewers, he seemed the most interesting person in the room. He was, by her own account, "not that interested" when she mentioned a competing Vivek she had met that night, and walked away. They reconnected later as neighbors. He has spent his adult life arranging to be in the rooms where someone walks up and tells him he is the most interesting person there. The Three's tell, with marriages, is whether the spouse mirrors the performance back or sees through it. She is not a chorus. She is a surgeon. She watched him build the candidacies, run the rap performance at Iowa fairs, lose the presidency he never expected to win, lose the DOGE seat he hadn't expected to need to keep, and pivot, again, to a state governor's race in the state where his parents settled.
 
 Inside the Three lens, the pivots aren't lies. They aren't even strategy in the cold way Sonnenfeld means. They are what happens when a self has been organized, since boyhood, around being legible to the room with the highest ceiling — and when the ceiling keeps moving. Most Threes' rooms are an office, a peer group, a marriage, a sport. Vivek's rooms are countries. He moves through them with the same instinct any Three brings to a job interview, a class, a first date — _read the grader, become the answer, walk out before the grader stops grading._
 
 The valedictorian who borrowed the underdog's introduction. The libertarian who ran inside the populist coalition. The Hindu who quoted Bible verses. The DOGE chief whose tweet reminded everyone he was an immigrant's kid. The man whose Wikipedia page told the story he wanted the next room to read. He has not run out of rooms yet.
 
 The thing he has never built is the version of himself that can stop optimizing for one.
+
+<!-- FRESH EYES REVIEW (2026-05-03)
+Biggest issues:
+- Strive Asset Management is the missing chapter. The draft jumps straight from Axovant (2017) to the 2024 campaign launch (2023). But Strive — the anti-ESG asset manager he co-founded in early 2022 with $20M from Peter Thiel, JD Vance, and Bill Ackman — is the actual hinge between the biotech Vivek and the political Vivek. It's where Woke, Inc. became a business model, where the JD Vance friendship became a financial relationship, and where he learned to monetize "the room" of conservative donors. Without it, the Roivant-to-Republican pivot looks like a personality flip rather than an engineered move into a new product market.
+- JD Vance is a listed cross-link suggestion and a Yale Law classmate, Bengals-bar friend, and Strive investor — and he goes completely unmentioned. The Sofia Nelson quote in the testimony ledger is correctly excluded as being about Vance, but the draft never even names that they were classmates. Given JD Vance got the VP slot Vivek arguably wanted, the silence is louder than the mention would be.
+- Woke, Inc. (2021) is referenced twice in passing but never opened. It was a NYT bestseller, the ideological scaffolding for Strive AND the campaign, and it's the moment a biotech CEO decided his next room was the conservative intellectual class. For a draft built on the "next room" thesis, the book that built the room is treated as a footnote.
+
+What to expand:
+- The 2024 → 2025 endorsement pivot. The draft says the pivot took "less than ninety days" but doesn't show what specifically he had said about Trump during the primary that he had to walk back. Without those receipts, the cleanness of the pivot is asserted, not proven.
+- The mediocrity tweet section is the strongest in the piece, but the H-1B framing is glossed. The post lit up because it was an Indian immigrant's kid telling MAGA voters their culture was the problem. That ethnic dimension is the actual third rail he stepped on, and naming it would sharpen the misread.
+- One concrete policy he ran on that signals 3w4 contrarianism (raise the voting age to 25, end birthright citizenship, eight federal agency abolitions). The draft asserts he wrote provocative things; one specific provocation would make it stick.
+
+What to trim:
+- "The image is the asset. The image is the asset. The image is the asset." — the rhetorical triple lands once. By the closing paragraphs the drumbeat of "the room / the grader / the next room" starts to feel like the writer landing the verdict instead of letting the reader arrive.
+- The opening has two consecutive grafs doing the same work — the Wikipedia-list paragraph and the "That gap" paragraph both stage the same contrast. One can go.
+- The Da Vek / Eminem material gets told twice (Harvard 2006, Iowa 2023). The Iowa Fair retelling is the better one; the Harvard origin can be compressed into a single sentence at the top of that section.
+
+Structural suggestions:
+- Consider a short "Strive and Woke, Inc." H2 between Roivant and the Skinny Guy section. This would handle the missing chapter AND give JD Vance a natural entry point as both classmate and Strive investor.
+- The Apoorva material currently appears in the "Skinny Guy" section AND the closing section, with the closing version doing most of the actual work. Consolidating to the closing paragraph would let the Skinny Guy section stay on its strongest material (the borrowed line, the 10 Commandments).
+- The mother-on-the-Phase-2-trial detail is currently buried at the end of "How Cincinnati Engineered a Valedictorian." It's actually a Roivant story masquerading as a childhood story. Moving it to the Roivant section would let it land harder as evidence of the family business model.
+
+What's already working:
+- The opening (borrowed Obama line + Christie catching it) is one of the best hooks I've seen on a 9takes draft. Don't touch it.
+- The 3w4-vs-3w2 distinction (Mitt Romney as the 3w2 counterfactual) is genuinely original and earns its keep.
+- Reframing the mediocrity tweet as a Type 3 self-portrait — Vivek as the Steve Urkel arguing Steve Urkel was the right protagonist — is the kind of read that justifies the whole piece.
+- The Sonnenfeld counter-reading ("not fraud — a Type 3 becomes each illusion sincerely") holds the contradiction without smoothing it. The piece picks a side on whether the pivots are lies, but it does so after letting the harshest reading breathe. That's the right move.
+- The Wikipedia-scrub-of-the-Soros-Fellowship detail is a perfect microcosm and lands without overexplanation.
+- Specificity of dates, dollar amounts, and quoted material throughout. The piece earns the right to its psychological reads because it does the factual work first.
+-->
+
+<!-- REVISIONS APPLIED 2026-05-03
+Addressed the Fresh Eyes Review above:
+
+Big issues (all addressed):
+- Added new H2 "Why Vivek Ramaswamy Started Strive Asset Management" between Roivant and Skinny Guy. Covers Woke, Inc. (Aug 2021, NYT bestseller, stakeholder-capitalism thesis), Strive launch (May 2022, ~$20M, Anson Frericks co-founder), full investor list (Thiel/Founders Fund, Ackman, Lonsdale, Lutnick, JD Vance via Narya Capital), Yale Law 2013 cohort, Bengals-bar friendship in New Haven, and Feb 2023 Vivek stepdown to run for president.
+- JD Vance now named explicitly with internal cross-link to /personality-analysis/JD-Vance.
+- Woke, Inc. opened with subtitle, NYT bestseller status, and one-line thesis instead of being name-dropped twice.
+
+Expansions (all added):
+- Endorsement pivot now has receipts: Jan 11, 2021 WSJ op-ed ("disgraceful"), Jan 12, 2021 X post ("downright abhorrent"), Sept 2022 Nation of Victims excerpt ("dark day for democracy ... loser of the last election ... I'm referring, of course, to Donald Trump"), Sept 2023 Mehdi Hasan MSNBC interview where Hasan asked four times what was abhorrent and Vivek refused to specify, Dec 2023 "inside job" framing, Jan 15, 2024 endorsement on Iowa caucus night. The vague "less than ninety days" was replaced with the more accurate "five weeks later" anchored to the December "inside job" claim, per research-analyst flag that the Hasan→endorsement timeline was actually ~131 days.
+- Mediocrity tweet now names the H-1B/ethnic dimension directly: "An Indian immigrant's son arguing — to a populist coalition that had spent a decade insisting American workers came first — that American culture itself was the reason American kids couldn't compete with H-1B engineers, was the wrong messenger making the wrong case in the wrong week."
+- Concrete contrarian-3w4 policy added in Skinny Guy section: voting age 25 (May 2023, with carve-outs and X-post quote), plus the Sept 2023 plan to abolish FBI/ATF/DOE/NRC/USDA-FNS by executive order and end birthright citizenship.
+
+Trims (all applied):
+- "Image is the asset" triple cut to a single beat.
+- Opening paragraphs 2 and 3 merged. Wikipedia credentials list now folded into the through-line graf.
+- Da Vek Harvard 2006 origin compressed from two paragraphs into one tighter graf, with Iowa Fair retelling kept as the headline scene.
+
+Structural moves (all applied):
+- Mother-on-Phase-2-trial detail moved from "How Cincinnati Engineered a Valedictorian" into the Roivant section as a standalone paragraph after the IPO graf.
+- Apoorva material removed from Skinny Guy section's closing graf and consolidated into the closing-section Apoorva paragraph (which now carries the meeting story plus the surgeon-not-chorus read).
+
+Caveats from research:
+- "Less than ninety days" pivot timing was inaccurate vs. the Hasan-Sept-2023 anchor (~131 days). Reframed using the December 2023 "inside job" anchor (~5 weeks). If a different anchor is preferred, swap accordingly.
+- The "Vance got the VP slot Vivek wanted" framing was kept implicit (Yale Law cohort + Vance later got VP) rather than asserted, since the research flagged it as interpretation rather than sourced fact.
+
+Ledgers updated:
+- HEADING MIX LEDGER: H2 count now 8; search-intent + hybrid count now 7.
+- DISTRIBUTION LEDGER: Type-theory paragraph count now 4 with Strive section noted.
+-->
+

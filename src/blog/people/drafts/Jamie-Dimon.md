@@ -6,7 +6,7 @@ description: "Jamie Dimon runs the safest balance sheet in banking and won't sto
 author: 'DJ Wayne'
 date: '2026-05-01'
 loc: 'https://9takes.com/personality-analysis/Jamie-Dimon'
-lastmod: '2026-05-01'
+lastmod: '2026-05-03'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
@@ -45,7 +45,8 @@ path: src/blog/people/drafts/Jamie-Dimon.md
 2. Hank Paulson (Treasury Secretary, weekend of March 16, 2008, on Dimon's proposed Bear Stearns offer of $4/share): "That sounds high to me. Why $4? Why not $1? The less you offer, the less it's going to look like a bailout." — recounted in multiple accounts of the Bear weekend including Paulson's "On the Brink" (2010) (named third party, direct quote, attribution, instructing Dimon)
 3. Sandy Weill (Dimon's mentor for 16 years, on having fired him in 1998): "I wish Jamie and I had been able to work out our issues and that it didn't have to end up in a break up, because it was a very good relationship." — CNBC, 2014 (named third party, direct quote, attribution, speaker reflecting on Dimon)
 4. Warren Buffett (long-time Dimon friend, on Dimon poaching Berkshire executive Todd Combs in late 2025): "If he's going anywhere, at least he's going to you." — recounted by Dimon, reported by Fortune, January 2026 (named third party, direct quote, attribution, speaker characterizing his trust in Dimon)
-Total qualifying quotes: 4
+5. Donald Trump (President-elect, Truth Social post about Dimon, November 14, 2024): "I respect Jamie Dimon, of JPMorgan Chase, greatly, but he will not be invited to be a part of the Trump Administration. I thank Jamie for his outstanding service to our Country!" — Bloomberg / Fox Business / The Hill, November 14, 2024 (named third party, direct quote, attribution, speaker publicly closing the Treasury door on Dimon)
+Total qualifying quotes: 5
 -->
 
 <!-- HEADING MIX LEDGER
@@ -55,14 +56,15 @@ H2 3: "The phone call that ended Jamie Dimon's first career" — hybrid
 H2 4: "Why Jamie Dimon bet half his net worth on a sinking bank" — hybrid
 H2 5: "What Jamie Dimon sounds like in a war room" — hybrid
 H2 6: "What Jamie Dimon sounds like when he loses" — hybrid
-H2 7: "Why Jamie Dimon can't stop warning about the storm" — search-intent
-H2 8: "The fortress is the wound" — signature
+H2 7: "The room Jamie Dimon won't enter" — signature
+H2 8: "Why Jamie Dimon can't stop warning about the storm" — search-intent
+H2 9: "The fortress is the wound" — signature
 Search-intent + hybrid count: 7
 -->
 
 <!-- DISTRIBUTION LEDGER
-Type-theory paragraphs outside diagnosis section and Rabbit Hole: 3
-Locations: (1) "Why Jamie Dimon bet half his net worth on a sinking bank" — paragraph mixing the Bank One bet with a Type 8 framing block ("This is a Type 8 move, but it is a specific 8 move..."). (2) "What Jamie Dimon sounds like in a war room" — paragraph ending with two consecutive type-theory sentences ("The 8 in stress does not generalize. He counts."). (3) "Why Jamie Dimon can't stop warning about the storm" — paragraph contrasting Type 8 vs Type 6 pre-emption pattern. All other type references are single bridging sentences inside narrative paragraphs.
+Type-theory paragraphs outside diagnosis section and final "fortress is the wound" kicker: 4
+Locations: (1) "Why Jamie Dimon bet half his net worth on a sinking bank" — paragraph mixing the Bank One bet with a Type 8 framing block ("This is a Type 8 move, but it is a specific 8 move..."). (2) "What Jamie Dimon sounds like in a war room" — paragraph ending with two consecutive type-theory sentences ("The 8 in stress does not generalize. He counts."). (3) "The room Jamie Dimon won't enter" — paragraph framing politics as the one role the 8 cannot accept ("The 8 will not take a job he can be voted out of."). (4) "Why Jamie Dimon can't stop warning about the storm" — paragraph contrasting Type 8 vs Type 6 pre-emption pattern. All other type references are single bridging sentences inside narrative paragraphs. The final "fortress is the wound" kicker uses type framing throughout because the entire section is a thesis pressure-test.
 -->
 
 > "I was totally surprised. I shouldn't have been. There were a lot of tell-tale signs, but I missed them at the time." — Jamie Dimon, on being fired by Sandy Weill, 1998
@@ -86,6 +88,7 @@ Dimon does not love power. He loves the absence of dependence. The fortress is w
 <li><b>The wound:</b> Sandy Weill fired him in 1998 after sixteen years. The fortress was built so no one ever again gets to make that call.</li>
 <li><b>Stress (8→5):</b> Under fire he goes technical and withdrawn — the London Whale tempest, the leaked town-hall tirade, the post-event apology that never quite sounds like one.</li>
 <li><b>Growth (8→2):</b> At his best the protector turns outward — "family first, country second, JPMorgan literally last."</li>
+<li><b>Where the fortress cracks:</b> The presidency he keeps walking up to and refusing to enter. The succession he has been "five years away" from for a decade. The 2020 racial-equity pledge he was, by 2025, openly canceling parts of. The 8 sets the price; the 8 also reprices.</li>
 </ul>
 </div>
 </details>
@@ -122,7 +125,7 @@ He met Sandy Weill at sixteen, when his father introduced them. Weill was a risi
 
 In 1998, on a weekend executive retreat after the merger that created Citigroup, Weill asked Dimon to resign. The accounts vary on the precipitating fight. The most credible is the simplest: Dimon had asked to be treated as an equal, and Weill could not.
 
-Dimon, then forty-two, came home and told his three daughters. They asked: _"Will we be homeless? Can I still go to college? Can I have your phone?"_
+Dimon, then forty-two, came home and told his three daughters. The youngest, age ten, asked, _"Daddy, do we have to sleep on the streets?"_ The middle one, age twelve, asked, _"Can I still go to college?"_ The oldest, age fourteen, asked: _"Great, since you don't need it, can I have your cell phone?"_ Later that evening she ran into a senior Citi executive at a function. He told her he worked for her father. She said: _"Not anymore you don't."_
 
 He has told the story many times since. It is, structurally, his founding myth. _"It impacted my net worth, not my self worth,"_ he said in 2020, and the line has the worn polish of something said often enough to feel less raw. The line that has not lost its edge is the earlier one, the one in the opening of this profile: _"I was totally surprised. I shouldn't have been. There were a lot of tell-tale signs, but I missed them at the time."_
 
@@ -149,7 +152,7 @@ His first day, he bought $60 million of Bank One stock. That was approximately h
 
 The standard reading is that this was a confidence signal to investors, a CEO putting his money where his mouth was. That reading is correct and incomplete. The stronger reading is that Dimon was making himself uncashable. The fortune that a Sandy Weill could not seize, he locked into a position that required him to fix the bank he had been hired to run. The skin in the game was thick enough that retreat became physically unprofitable.
 
-This is a Type 8 move, but it is a specific 8 move. It is not the swagger of dominance. It is the architecture of permanence. The 8 who has been pushed out once does not build a career anyone else can end. He builds a position so anchored that ending it would mean ending him. The chain stays.
+This is a Type 8 move, but it is a specific 8 move. It is not the swagger of dominance. It is the architecture of permanence. The 8 who has been pushed out once does not build a career anyone else can end.
 
 Bank One returned to profitability in two years. In 2004 it merged with JPMorgan Chase. Dimon became president and COO. By the end of 2005, he was CEO. By the start of the financial crisis, the seat was his.
 
@@ -164,7 +167,7 @@ He has said, repeatedly, that during the crisis he was in a war room _five times
 <p><strong>How Dimon describes the same crisis:</strong> "I was in a war room five times a day, every day, for a year, starting at 5 a.m. and finishing at 10 p.m."</p>
 </div>
 
-The Bear Stearns weekend — March 13 to 16, 2008 — is the artifact. Schwartz called him at the Greek restaurant. Tim Geithner urged him to help. Dimon's first instinct was containment, not heroism: _"Tim, look, we can't do it alone. Just do something to get them to the weekend. Then you'll have some time."_ When the Fed agreed to backstop $30 billion of Bear's worst assets, Dimon agreed to the deal.
+The Bear Stearns weekend that followed was the artifact. Tim Geithner urged him to help. Dimon's first instinct was containment, not heroism: _"Tim, look, we can't do it alone. Just do something to get them to the weekend. Then you'll have some time."_ When the Fed agreed to backstop $30 billion of Bear's worst assets, Dimon agreed to the deal.
 
 On Sunday afternoon, Treasury Secretary Hank Paulson called about the price. Dimon told him JPMorgan was considering $4 a share. Paulson's response, recounted across multiple accounts of the weekend, is one of the cleanest portraits of the moment ever published:
 
@@ -172,7 +175,9 @@ On Sunday afternoon, Treasury Secretary Hank Paulson called about the price. Dim
 
 The price went to $2. (It later rose to $10 after shareholder revolt; Dimon paid the higher price without re-litigating.) Inside that exchange is the whole 8 in the war room. Paulson is asking Dimon to go lower. Dimon does. There is no theater of negotiation, no display of mercy, no posturing about who sees the moment more clearly. There is the thing that needs to be done, and the doing of it, with the protector instinct re-routed into a deal.
 
-Six months later he bought Washington Mutual the same way. In 2023 he bought First Republic the same way. The pattern repeats itself across crises. When the system is at risk, he becomes the buyer of last resort, on his own terms, with the implied federal guarantee, and with no apparent moral conflict about being both the firefighter and the owner of the building.
+Six months later he bought Washington Mutual the same way. Fifteen years later, on May 1, 2023, he bought First Republic the same way. By then the mechanics had hardened into procedure. JPMorgan paid the FDIC $10.6 billion for $173 billion in loans, projected a $2.6 billion gain in year one, and left the FDIC's Deposit Insurance Fund with an estimated $13 billion bill. Dimon's announcement-call line was the cleanest distillation of the pattern he had been running for fifteen years: _"Our government invited us and others to step up, and we did."_ Two weeks later he told Bloomberg he was done buying failed banks. _"It's a lot of work."_
+
+When the system is at risk, he becomes the buyer of last resort, on his own terms, with the implied federal guarantee, and with no apparent moral conflict about being both the firefighter and the owner of the building.
 
 ## What Jamie Dimon sounds like when he loses
 
@@ -188,6 +193,22 @@ The same pattern repeats in a smaller key with the leaked February 2025 town-hal
 
 That is what an 8 sounds like when he loses. He does not soften. He does not retreat. He prices the cost of the loss and pays it.
 
+## The room Jamie Dimon won't enter
+
+On Wednesday, September 12, 2018, at a JPMorgan event in midtown Manhattan, Dimon went off-script. _"I think I could beat Trump,"_ he told a reporter, _"because I'm as tough as he is, I'm smarter than he is. And by the way this wealthy New Yorker actually earned his money. It wasn't a gift from Daddy."_ Within an hour, the same day, he walked it back: _"I should not have said it. I'm not running for president."_ The reason he gave is the line worth keeping: _"Proves I wouldn't make a good politician."_
+
+That sentence is a window into the only office he has ever flinched from.
+
+The door has opened, by my count, six times. In 2016 he told an interviewer he would _"love to be president"_ but called the campaign _"too hard and too late."_ In November 2016 Trump's transition team floated him for Treasury; he said he would _"consider"_ it. In 2018, the line above. In May 2023 Bill Ackman publicly called for him to run in 2024. In 2024 both Trump and Harris's inner circle had him on Treasury Secretary shortlists. On November 14, 2024, Trump posted on Truth Social: _"I respect Jamie Dimon, of JPMorgan Chase, greatly, but he will not be invited to be a part of the Trump Administration."_ The door closed for him that time.
+
+The cleanest explanation he has given is from a podcast in February 2025: _"Had I run and won, when I was walking into that White House I'd be waving goodbye to my family for four years."_ Read straight, it's a family-first decision. Through the type, it is the same gesture as the balance sheet, only inverted. The 8 will not take a job he can be voted out of. The presidency is the one position in American life where the chain still pulls, and the firing happens in public, and the protector is — by design — answerable.
+
+The contradiction the type frame has to earn: he has named the storm publicly for two decades. He is, by his own framing, the person best positioned to do something about it. And he has refused, six times, to seek the role that would let him.
+
+The 2025 posture sharpens the picture rather than softening it. In April 2025, after Trump's tariff rollout, Dimon's annual letter warned the policy would _"slow down growth"_ and feed inflation. In May he called the rollout _"too large, too big, too aggressive."_ By late July he was meeting Trump in the Oval Office alongside Treasury Secretary Scott Bessent and Commerce Secretary Howard Lutnick, and praising the policy as _"more carefully done."_ In January 2026 Trump sued Dimon personally over alleged "debanking" of conservative customers. JPMorgan responded the next month that the suit _"fraudulently"_ named him.
+
+The man who has spent thirty years making himself unfireable is now a defendant in a case where his name was added against his will. The 8 who will not be voted out is also the 8 who will not stop being sued. That is the cost of standing next to power without taking it.
+
 ## Why Jamie Dimon can't stop warning about the storm
 
 For nearly two decades, Jamie Dimon's annual letter to shareholders has been a parallel publication to the Bank's quarterly earnings — a document of equal length, broader scope, and substantially darker tone. It runs to fifty or sixty pages. It cycles through inflation, deficits, geopolitics, regulation, technology, and capital markets. And it is, almost without exception, alarmed.
@@ -196,20 +217,52 @@ Recent letters: persistent inflation. Ballooning government deficits. Geopolitic
 
 The casual reading is that Dimon is paranoid. The corrected reading is that he is pre-emptive, which is a Type 8 word and not a Type 6 one. Sixes loop in worst-case scenarios privately and act cautiously in public. Dimon names worst-case scenarios publicly and then makes the largest acquisitions in his industry. The warnings are not the opposite of the takeovers. The warnings are the takeovers' insurance policy. A man who has named the storm in advance has retroactive permission to be the one who buys the wreckage.
 
-The line that gives the engine away is in his testimony: _"A Bear Stearns bankruptcy could well have touched off a chain reaction at other major financial institutions. That would have shaken confidence in credit markets that already have been battered."_ He is talking about why he had to do the deal. He is also, structurally, talking about the only world he can stand. A world where the storm has been named and the buyer of the wreckage has been pre-positioned. The 8 who cannot abide dependency cannot abide being on the wrong side of the next collapse.
+The line that gives the engine away is in his testimony: _"A Bear Stearns bankruptcy could well have touched off a chain reaction at other major financial institutions. That would have shaken confidence in credit markets that already have been battered."_ He is talking about why he had to do the deal. He is also, structurally, talking about the only world he can stand. A world where the storm has been named and the buyer of the wreckage has been pre-positioned.
 
-This is also why his close friendship with Warren Buffett is so revealing. Buffett, the patron saint of patient capital, called Dimon when JPMorgan poached his lieutenant Todd Combs in late 2025: _"If he's going anywhere, at least he's going to you."_ The line is offered as a friendship anecdote. Read closely it is a frame for the whole career. Buffett does not fear Dimon. Buffett trusts Dimon's fortress more than his own succession plan.
+This is also why his close friendship with Warren Buffett is so revealing. Buffett, the patron saint of patient capital, called Dimon when JPMorgan poached his lieutenant Todd Combs in late 2025: _"If he's going anywhere, at least he's going to you."_ Read closely it is a frame for the whole career. Buffett trusts Dimon's bank more than his own succession plan. That is what twenty years of naming the storm has actually bought.
 
 ## The fortress is the wound
 
-In 2014 Dimon was diagnosed with throat cancer. He told his staff in a memo that the prognosis was excellent, the cancer was caught quickly, the treatment was eight weeks at Memorial Sloan Kettering. He returned to work. In 2020 he had emergency surgery for an aortic dissection. He returned to work.
+The new 270 Park Avenue tower opened on October 21, 2025 — sixty stories, 1,388 feet, two and a half million square feet of glass, the largest all-electric high-rise ever built in New York City. Foster + Partners designed it. Dimon spent more than a decade pushing it through. He tore down the previous 270 Park — sixty years old, the largest voluntary building demolition in the city's history — to build a taller one on the same lot. The headquarters that occupies the block now is, plainly, the artifact of the thesis. A balance sheet rendered in steel.
 
-He has talked, in the way 8s talk about mortality, about what it changed. _"Everyone knows they're going to die,"_ he said, _"but when they say it, all of a sudden it's like in your face."_ The shift afterward was small and real. He started saying _family first, country second, JPMorgan literally last_. This is a ranking only an 8 in growth can produce — a public order of priorities in which the thing he has spent forty years building is named as expendable.
+It is also the easiest part of the picture to read.
 
-His wife, Judy Kent, paid for drinks on their first date at Harvard Business School. On their fifteenth anniversary, the gift he gave her was a stock certificate worth a third of his net worth. Read that twice. The most romantic gesture this man could think of, fifteen years in, was a piece of a balance sheet. The stock certificate is the same object as the $60 million at Bank One. It is the same object as the fortress he built at JPMorgan. The 8 expresses love by giving the thing he has made unstealable.
+The harder parts are the rooms the building cannot enter — and the limits the type frame has to earn.
 
-The succession question hovers over everything he says now. He is sixty-eight. Daniel Pinto, his number two for a decade, retires at the end of 2026. Jennifer Piepszak has publicly removed herself from the CEO race. Marianne Lake and Mary Erdoes are the named contenders. Dimon keeps saying the moment is approaching. He keeps not naming the date.
+In 2014 Dimon was diagnosed with throat cancer. The prognosis was excellent, the treatment was eight weeks at Memorial Sloan Kettering, and he returned to work. In 2020 he had emergency surgery for an aortic dissection. He returned to work. _"Everyone knows they're going to die,"_ he said afterward, _"but when they say it, all of a sudden it's like in your face."_ He started saying _family first, country second, JPMorgan literally last_. The growth-arrow read says he turned outward — protector protecting more than the building.
 
-He once said the next CEO needed to be a _"pied piper."_ The word is not accidental. It is the word of a man who, as he prepares to leave, is naming what he is afraid the institution loses on the day he goes. The pied piper is what the warnings have been all along — the storyteller who walks out front, naming the storm, with the city walking behind.
+The pressure test is what he has actually done with the time since.
 
-Sandy Weill said, into his nineties, that losing Jamie Dimon was one of the great mistakes of his life. He never quite specified what he had broken. He didn't have to. The fortress on Park Avenue says it. A balance sheet large enough that no one ever again gets to be the boss who decides.
+**The room he keeps not leaving.** He has been telling shareholders he is "five years away" from retirement for nearly a decade. In May 2024, at investor day, he conceded: _"The timetable is not five years anymore."_ In January 2026 he was back to it — he wants to stay in the job _at least five more years._ Daniel Pinto, his number two for a decade, retires at the end of 2026. Jennifer Piepszak has removed herself from contention. Marianne Lake and Mary Erdoes are the named candidates. Dimon keeps describing the ideal successor as a _"pied piper."_ The word is the tell. A pied piper is what an 8 fears the institution loses on the day he goes. The frame organized around a man who refuses to be removable contains a quieter paradox: the inability to leave is itself a form of unremovable. Growth-arrow to 2, with another five years on the clock.
+
+**The room he keeps repricing.** On Friday, June 5, 2020, in a Chase branch in Mt. Kisco, New York — his first employee outing after the aortic dissection — Dimon knelt with five staff in front of the bank vault. The photo went up that night. Four months later JPMorgan pledged $30 billion to close America's racial wealth gap: $14 billion in affordable housing, $8 billion in Black and Latino mortgages, the rest broken into specifics. Five years later, in the same leaked Columbus, Ohio town hall whose remote-work tirade made the headlines, Dimon said: _"I was never a firm believer in bias training."_ On the racial-equity programs themselves: _"I saw how we were spending money on some of this stupid sh-t, and it really pissed me off… I'm just gonna cancel them."_ A month later JPMorgan rebranded DEI as DOI — Diversity, Opportunity, Inclusion. The 'e' had been dropped.
+
+Both gestures came from the same place: this is mine to set the price on. That is a coherent 8 reading of the choreography. It is also, depending on where you are sitting, the precise reason the 2020 gesture rang hollow at the time. The program was the boss's, never the bank's, and the boss can take it back. The protector who funds the program when the country is on fire is also the protector who cancels it when the country is angry the program exists. Both moves run the same direction: down, from him.
+
+**The room he can't fortify.** His wife, Judy Kent, paid for drinks on their first date at Harvard Business School. On their fifteenth anniversary, the gift he gave her was a stock certificate worth a third of his net worth. Read that twice. The most romantic gesture this man could think of was a piece of a balance sheet. The 8 expresses love by giving the thing he has made unstealable.
+
+Twenty-six years after his three daughters asked him whether they would be homeless, they are thirty-four, thirty-six, and thirty-eight, and there are seven grandchildren. Asked by Bloomberg's Emily Chang in 2024 for parenting advice in three words, Dimon said: _"Just love them."_ Asked what the job had cost him, he was specific: _"You didn't see me in black tie and red carpets."_ A binary life.
+
+Asked, in the same interview, what running JPMorgan actually felt like at sixty-eight, the man who has spent forty years making himself unfireable said the line that should be the kicker on every reading of him: _"just riding the bronco and hanging on for dear life."_
+
+That is the inside of the building on Park Avenue. A balance sheet large enough that no one ever again gets to be the boss who decides — and a man who, with seven grandchildren and the largest commercial bank in the country, cannot get off the horse.
+
+<!-- REVISION LOG 2026-05-03
+Addressed all FRESH EYES REVIEW items from prior pass:
+- ADDED: New H2 "The room Jamie Dimon won't enter" (politics) — 2018 Trump line + same-day retraction, 2024 Treasury shortlists, Trump's Nov 14 2024 Truth Social post (now Testimony Ledger #5), Feb 2025 podcast on family, 2025 tariff arc, 2026 debanking lawsuit.
+- ADDED: BLM-2020 kneel + $30B pledge → 2025 town-hall DEI cancel + DOI rebrand contradiction in the closer (held, not smoothed).
+- ADDED: First Republic 2023 paragraph in the war room section with deal mechanics ($10.6B to FDIC, $173B in loans, $13B DIF cost) and the "Our government invited us" quote.
+- ADDED: 270 Park Avenue (Oct 21, 2025 grand opening, Foster + Partners, 60 stories, largest all-electric tower in NYC) opening the closer as the literal artifact.
+- ADDED: Succession "five years" trail (May 2024 "not five years anymore" → Jan 2026 "at least five more years") and the unresolved-contradiction frame on growth.
+- ADDED: Daughters-as-adults beat from 2024 Emily Chang interview ("Just love them," "You didn't see me in black tie," "riding the bronco and hanging on for dear life") closing the 1998 "homeless?" loop.
+- TRIMMED: Bear-Stearns Greek-restaurant recap from the war room opening.
+- TRIMMED: The "He builds a position so anchored that ending it would mean ending him. The chain stays." restatement in Bank One section.
+- TRIMMED: "The 8 who cannot abide dependency cannot abide being on the wrong side of the next collapse." restatement in storm warnings.
+- TRIMMED: "Buffett does not fear Dimon" sentence; replaced one "fortress" use with "bank" in storm warnings.
+- TRIMMED: Sandy Weill regret quote duplicate from old closer.
+- ADDED: TL;DR bullet "Where the fortress cracks" so the closer pays off the bar.
+- TESTIMONY LEDGER raised to 5 (added Trump Nov 14 2024).
+- HEADING MIX LEDGER updated to 9 H2s; search-intent + hybrid count remains 7.
+- DISTRIBUTION LEDGER updated to 4 type-theory paragraphs outside diagnosis + signature kicker.
+-->
+

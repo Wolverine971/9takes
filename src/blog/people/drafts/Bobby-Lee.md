@@ -4,12 +4,12 @@ meta_title: 'Why Bobby Lee Tells Strangers His Worst Stories For a Living'
 persona_title: "Comedy's Confessional Live Wire"
 description: "Bobby Lee built a career out of saying what nobody else would say. His Type 7 wiring explains why every confession sounds like a cure he hasn't finished."
 author: 'DJ Wayne'
-date: '2026-04-23'
+date: '2026-05-04'
 loc: 'https://9takes.com/personality-analysis/Bobby-Lee'
-lastmod: '2026-04-23'
+lastmod: '2026-05-04'
 changefreq: 'monthly'
 priority: '0.6'
-published: false
+published: true
 enneagram: 7
 type: ['comedian', 'creator']
 person: 'Bobby-Lee'

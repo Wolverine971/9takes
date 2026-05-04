@@ -1,0 +1,13 @@
+The David Goggins blog is already graded as of today (2026-05-03):
+
+**Current Grade: B+ (8.8)**
+- Hook: 9 | Enneagram: 9 | Evidence: 8 | Writing: 9 | Originality: 9
+
+Per the grading workflow, when a file already has `content_quality` in frontmatter in single mode, I should ask before re-grading.
+
+Also worth flagging: I tried to read `docs/blog-grading-rubric.md` and it doesn't exist — that's the canonical rubric the command references. The grade was likely written by a prior agent using the inlined rubric in the command itself.
+
+Would you like me to:
+1. **Re-grade fresh** (ignoring the existing scores, applying the inline rubric)
+2. **Audit the existing grade** (sanity-check whether 8.8/B+ holds up — my read is the existing scores look defensible but evidence at 8 may be slightly generous given that several quotes lack inline source links)
+3. **Skip** (already done)

@@ -31,6 +31,7 @@ QUALITY_FEEDBACK_END -->
 <script>
   import TypeQuotes from "$lib/components/blog/callouts/TypeQuotes.svelte";
   import QuickAnswer from "$lib/components/blog/callouts/QuickAnswer.svelte";
+  import EnneagramTypingFlow from "$lib/components/blog/callouts/EnneagramTypingFlow.svelte";
   import MarqueeHorizontal from "$lib/components/atoms/MarqueeHorizontal.svelte";
 </script>
 
@@ -39,10 +40,6 @@ Skip the 200-question tests. Find your type in 4 steps: (1) Identify your core e
 </QuickAnswer>
 
 **Read time**: 10 minutes | **Key insight**: Your type is found through motivation, not behavior
-
-<div style="overflow: hidden;">
-<MarqueeHorizontal displayList={[{name: 'self-sabotage patterns 🔄', link: '/enneagram-corner/how-each-enneagram-type-self-sabotages-success'}, {name: 'ADHD & personality 🧠', link: '/enneagram-corner/enneagram-and-adhd-which-types-struggle-most'}, {name: 'overthinking patterns 💭', link: '/enneagram-corner/why-you-cant-stop-overthinking-enneagram'}, {name: 'in stress 😰', link: '/enneagram-corner/enneagram-types-in-stress'}, {name: 'mental health risks 🏥', link: '/enneagram-corner/enneagram-and-mental-illness'} ]} />
-</div>
 
 <p class="firstLetter">You've taken the personality quiz. Got your four letters. Maybe even discovered your color or animal type.</p>
 
@@ -215,6 +212,10 @@ quotes={[
 
 ---
 
+<EnneagramTypingFlow />
+
+---
+
 ## Step 4: Meet Your Type (The "That's Me!" Moment)
 
 Now for the moment of recognition.
@@ -382,6 +383,12 @@ Each type has **predictable patterns** when thriving or struggling. These "[conn
 | **Type 9**    | Decisive like a 3               | Anxious like a 6                |
 
 **The revealing question:** How do you act when everything's falling apart?
+
+---
+
+<div style="overflow: hidden;">
+<MarqueeHorizontal displayList={[{name: 'self-sabotage patterns 🔄', link: '/enneagram-corner/how-each-enneagram-type-self-sabotages-success'}, {name: 'ADHD & personality 🧠', link: '/enneagram-corner/enneagram-and-adhd-which-types-struggle-most'}, {name: 'overthinking patterns 💭', link: '/enneagram-corner/why-you-cant-stop-overthinking-enneagram'}, {name: 'in stress 😰', link: '/enneagram-corner/enneagram-types-in-stress'}, {name: 'mental health risks 🏥', link: '/enneagram-corner/enneagram-and-mental-illness'} ]} />
+</div>
 
 ---
 

@@ -1,37 +1,11 @@
 {
-	"lastUpdated": "2026-05-01T06:01:38Z",
+	"lastUpdated": "2026-05-03T06:19:00Z",
 	"stats": {
 		"totalUnpublished": 115,
 		"totalPublished": 266,
 		"completionRate": "69.8%"
 	},
 	"queue": [
-		{
-			"name": "volodymyr-zelensky",
-			"displayName": "Volodymyr Zelensky",
-			"type": 6,
-			"priority": 83,
-			"priorityReason": "Ukrainian president, wartime leader, Type 6, high current interest",
-			"estimatedTraffic": "high",
-			"searchVolume": "high",
-			"personaTitle": null,
-			"addedToQueue": "2026-04-03",
-			"retryCount": 0,
-			"strategicValue": "world-leader-cluster"
-		},
-		{
-			"name": "david-goggins",
-			"displayName": "David Goggins",
-			"type": 6,
-			"priority": 82,
-			"priorityReason": "Motivational icon, Can't Hurt Me, Type 6 counterphobic, huge podcast audience",
-			"estimatedTraffic": "high",
-			"searchVolume": "high",
-			"personaTitle": null,
-			"addedToQueue": "2026-04-03",
-			"retryCount": 0,
-			"strategicValue": "motivational-cluster"
-		},
 		{
 			"name": "marie-curie",
 			"displayName": "Marie Curie",
@@ -503,6 +477,33 @@
 	],
 	"completed": [
 		{
+			"name": "david-goggins",
+			"displayName": "David Goggins",
+			"type": 6,
+			"priority": 82,
+			"priorityReason": "Motivational icon, Can't Hurt Me, Type 6 counterphobic, huge podcast audience",
+			"estimatedTraffic": "high",
+			"searchVolume": "high",
+			"personaTitle": "Fear's Most Loyal Soldier",
+			"addedToQueue": "2026-04-03",
+			"retryCount": 0,
+			"strategicValue": "motivational-cluster",
+			"startedAt": "2026-05-03T06:07:54Z",
+			"completedAt": "2026-05-03T06:19:00Z",
+			"contentGrade": 8.8,
+			"letterGrade": "B+",
+			"duration": 10,
+			"needsReview": false,
+			"coreTension": "The toughest man alive is also the most fearful man alive — and he refuses to ever stop being either.",
+			"contentRubric": {
+				"hook": 9.0,
+				"enneagram": 9.0,
+				"evidence": 8.0,
+				"writing": 9.0,
+				"originality": 9.0
+			}
+		},
+		{
 			"name": "jennifer-coolidge",
 			"displayName": "Jennifer Coolidge",
 			"type": 4,
@@ -648,20 +649,7 @@
 			"needsReview": false
 		}
 	],
-	"inProgress": {
-		"name": "hayao-miyazaki",
-		"displayName": "Hayao Miyazaki",
-		"type": 1,
-		"priority": 84,
-		"priorityReason": "Beloved global figure, creative perfectionist, fills Type 1 gap, anime audience crossover",
-		"estimatedTraffic": "high",
-		"searchVolume": "high",
-		"personaTitle": null,
-		"addedToQueue": "2026-04-03",
-		"retryCount": 0,
-		"strategicValue": "fills-type-1-gap",
-		"startedAt": "2026-05-01T06:01:38Z"
-	},
+	"inProgress": null,
 	"skipped": [
 		{
 			"name": "lionel-messi",
@@ -754,6 +742,23 @@
 			"skippedAt": "2026-05-01T06:01:34Z",
 			"skipReason": "stale inProgress - timeout",
 			"skipDetail": "No draft created after ~44 hours"
+		},
+		{
+			"name": "hayao-miyazaki",
+			"displayName": "Hayao Miyazaki",
+			"type": 1,
+			"priority": 84,
+			"priorityReason": "Beloved global figure, creative perfectionist, fills Type 1 gap, anime audience crossover",
+			"estimatedTraffic": "high",
+			"searchVolume": "high",
+			"personaTitle": null,
+			"addedToQueue": "2026-04-03",
+			"retryCount": 0,
+			"strategicValue": "fills-type-1-gap",
+			"startedAt": "2026-05-01T06:01:38Z",
+			"skippedAt": "2026-05-03T06:01:47Z",
+			"skipReason": "stale inProgress - draft exists",
+			"skipDetail": "Draft exists at src/blog/people/drafts/Hayao-Miyazaki.md (33KB, frontmatter published=false). ~50h after startedAt 2026-05-01T06:01:38Z."
 		}
 	],
 	"failed": [],

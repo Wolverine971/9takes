@@ -48,8 +48,10 @@ path: src/blog/people/drafts/Bernard-Arnault.md
 3. Hélène Mercier-Arnault (wife): "His hands were trembling, he was dying of fear, but he was determined to get to the end." — Wall Street Journal (recounting Arnault's first courtship dinner)
 4. Hélène Mercier-Arnault (wife): "the only one allowed to perform, which makes us laugh a lot!" — Elle interview (on the household rule that no one else plays the Nocturnes)
 5. Sidney Toledano (former president, LVMH Fashion Group): "Like John (Galliano) at Dior, Marc was a risk Mr. Arnault took." — quoted on the hiring of Marc Jacobs
-Total qualifying quotes: 5
-Additional named-third-party narration (not direct quote, not counted toward gate but noted): Antoine Arnault (Bloomberg, 2024) describes father's April 2024 Berluti memo referencing a 12-year-old store concept.
+6. Sidney Toledano (CEO, Christian Dior, 2011): "I unequivocally condemn the statements made by John Galliano which are in total contradiction to the longstanding core values of Christian Dior." — Dior firing announcement, March 2011
+7. John Galliano: "I love Hitler" / "people like you would be dead, your mothers, your forefathers would all be gassed" — La Perle café video, February 2011 (sourced via The Sun / NPR / France 24 reporting)
+Total qualifying quotes: 7
+Additional named-third-party narration (not direct quote, not counted toward gate but noted): Antoine Arnault (Bloomberg, 2024) describes father's April 2024 Berluti memo referencing a 12-year-old store concept; Libération's September 10, 2012 cover headline "Casse-toi, riche con!" used as institutional, not personal, source.
 -->
 
 <!-- HEADING MIX LEDGER
@@ -59,18 +61,21 @@ H2 3: "How Bernard Arnault bought Dior for one franc" — search-intent (How pat
 H2 4: "The 1989 takeover that ended a friendship" — hybrid (specific event + ownable framing)
 H2 5: "Why Bernard Arnault wanted Hermès" — search-intent (Why pattern + person + topic)
 H2 6: "The Saturday-morning Pope of Fashion" — signature (ownable persona reference)
-H2 7: "Family lunches as performance reviews" — hybrid (specific behavior + topic of succession)
-H2 8: "A different kind of wolf" — signature (closing)
-Search-intent + hybrid count: 6
+H2 7: "When the talent stops winning" — hybrid (signature framing + topic of designer turnover)
+H2 8: "Family lunches as performance reviews" — hybrid (specific behavior + topic of succession)
+H2 9: "A different kind of wolf" — signature (closing)
+Search-intent + hybrid count: 7
 -->
 
 <!-- DISTRIBUTION LEDGER
-Type-theory paragraphs outside diagnosis section and Rabbit Hole: 3
+Type-theory paragraphs outside diagnosis section and Rabbit Hole: 4
 Locations:
-1. "How Bernard Arnault bought Dior for one franc" — closing paragraph naming the Type 8 vs Type 3 reframe of the Terminator story
-2. "Why Bernard Arnault wanted Hermès" — closing paragraph on the Type 3 inability to tolerate an unwon #1
-3. "Family lunches as performance reviews" — paragraph on Type 3 parenting and durability problem
+1. "Why Bernard Arnault wanted Hermès" — closing paragraph on the Type 3 inability to tolerate an unwon #1
+2. "Why Bernard Arnault wanted Hermès" — Tiffany/Bulgari paragraph closing with "The Type 3 does not outgrow the engine"
+3. "When the talent stops winning" — closing line on the Achiever's loyalty being to the scoreboard
+4. "Family lunches as performance reviews" — paragraph on Type 3 parenting and durability problem
 Single bridging sentences (not counted): one in "Saturday-morning Pope of Fashion," one opening the lunches section, one in "1989 takeover."
+The original 5/1/2026 ledger listed a Type-theory paragraph at the close of the Boussac section ("A Type 8 protects territory. A Type 3 polishes a winner."). That paragraph was rewritten on 5/3 to drop the explicit Type 8/3 contrast (duplicated the diagnosis); the rewrite preserves the reframe but no longer names types.
 -->
 
 > "I always liked being number one. I did not succeed at the piano, I did not succeed at tennis. I consider that success is to arrive at a point where all my teams, the group is the number one in the world." — Bernard Arnault, Financial Times
@@ -92,7 +97,7 @@ Rivals call him "the wolf in cashmere." French papers call him "the Terminator,"
 <div class="panel">
 <ul>
 <li><b>"I always liked being number one":</b> Arnault has stated his motivation more plainly than almost any other Type 3 in public life. The mission is not power. It is ranking.</li>
-<li><b>The piano-then-Dior pivot:</b> Failed at piano, failed at tennis, redirected to luxury — a textbook Type 3 move when one arena rejects them.</li>
+<li><b>Hermès as the asterisk he can't put down:</b> A man motivated by power doesn't need to buy the one independent luxury house — he already owns more than anyone else. Type 3s can't tolerate a #1 they haven't won, so he raided it, lost, and immediately bought Bulgari and Tiffany instead.</li>
 <li><b>4-wing aesthetic depth:</b> Inherited his mother's love of Dior and classical music. Refinement is the texture, not the goal.</li>
 <li><b>Image control as identity:</b> "If you control your distribution, you control your image." Brand obsession scaled to civilizational level.</li>
 <li><b>Cold-father pattern:</b> Marc Jacobs described feeling "like this little boy trying to please a father." Type 3 parents grade where Type 2 parents nurture.</li>
@@ -113,9 +118,9 @@ Arnault is the colder version. He does not perform. He builds, he ranks, he buys
 
 When Time Magazine profiled him at the height of the 1997 Paris fashion season, the reporter found him "waiting quietly in the shadows" at the Dior show, watching designer John Galliano absorb the applause. *"Galliano gets the attention,"* Arnault said. *"I have all the fun."* Most write-ups treated the line as charming modesty. It is not. It is a Type 3 telling you, on the record, where the scoreboard actually is. Galliano gets the visible win. Arnault gets the metric that counts: ownership, ranking, control of the empire that owns Galliano. The applause is for the designer. The number-one slot is for him.
 
-His 4 wing shows up in the texture. He plays Chopin. He inherited his mother's love of Dior. He chose luxury, not real estate or technology, as the field where he would fight for #1. Without the 4 wing, an Arnault would build airports or oil. With it, he builds the most beautiful empire he can find, and then makes sure it is the largest one in the world.
+His 4 wing shows up in the texture. He plays Chopin. He inherited his mother's love of Dior. He chose luxury, not real estate or technology, as the field where he would fight for #1. And in October 2014, he opened the Fondation Louis Vuitton in the Bois de Boulogne — a Frank Gehry building shaped like inflated sails, projected at €100 million and reportedly costing close to eight times that — bearing the name of his most profitable brand and standing within walking distance of the Louvre. A Type 3 with a 4 wing does not collect art quietly. He hires the world's most famous architect, builds the most photographed contemporary museum in Paris, and puts the brand on the door.
 
-The "wolf in cashmere" framing tempts people toward Type 8. Eight is the type of dominance, territory, and unflinching command. The takeovers fit. The 9,000 fired workers fit. The Hermès raid fits. But Type 8s are usually content to be sovereigns of their own kingdom — they care about not being controlled, not about being publicly ranked. Arnault tracks his net worth against [Elon Musk's](/personality-analysis/Elon-Musk) and Bezos's by the day. He has held the world's-richest title and lost it and reclaimed it and lost it again, and each swap is reported as if he is keeping score. Type 8s do not keep score. Type 3s do.
+The "wolf in cashmere" framing tempts people toward Type 8. Eight is the type of dominance, territory, and unflinching command. The takeovers fit. The 9,000 fired workers fit. The Hermès raid fits. The way he ousted the man who hired him at LVMH fits. Read the timeline cold and the case for Type 8 is not weak — it is the obvious read, and most journalists make it. But Type 8s are usually content to be sovereigns of their own kingdom — they care about not being controlled, not about being publicly ranked. Arnault tracks his net worth against [Elon Musk's](/personality-analysis/Elon-Musk) and Bezos's by the day. He has held the world's-richest title and lost it and reclaimed it and lost it again, and each swap is reported as if he is keeping score. Type 8s do not keep score. Type 3s do.
 
 ## A childhood between an engineer and a pianist
 
@@ -123,9 +128,13 @@ Bernard Jean Étienne Arnault was born in 1949 in Roubaix, an industrial textile
 
 The first was his father, Jean Léon Arnault, an École Centrale Paris engineer who ran a civil engineering and construction company called Ferret-Savinel. The men in the family did mathematics and concrete. Bernard would later study math and engineering at École Polytechnique, France's most elite scientific school, and graduate in 1971.
 
+He went to work for his father immediately. Three years in, at 27, he convinced Jean Léon to liquidate the industrial construction arm — the part of the business the family had built across two generations — for 40 million francs, and to pivot the whole operation into real estate. By 1978 Bernard was president. The father had handed his son a construction company; the son had quietly converted it into a launchpad.
+
 The second engine was his mother, Marie-Josèphe Savinel — a pianist, by some accounts a *concert-level* pianist, who had what one childhood biographer described as a *"fascination,"* even an *"obsession,"* with Christian Dior. There was a piano in the house. There was Dior in the house. There was a son taking lessons in one and absorbing the other.
 
 Most children of obsessed mothers either rebel against the obsession or become it. Arnault did the third thing. He bought it.
+
+Both inheritances follow the same pattern. The father gave Bernard the keys to the family company and watched his life's industry get auctioned off so the keys could be used for something the son ranked higher. The mother gave Bernard the obsession with Dior and watched her son go acquire the entire house. Both gifts were accepted. Both were repurposed.
 
 By 35, he would own Dior. By 40, he would control LVMH. By 70, he would be the richest man on earth. And every Saturday, in his late seventies, he would still be sending bullet-pointed emails about store counters.
 
@@ -145,7 +154,7 @@ In 1984 — Arnault was 35, a year older than Steve Jobs when he was kicked out 
 
 What he did next is what made the nicknames stick. He laid off **9,000 workers** in the first two years. He sold off nearly every textile and manufacturing asset Boussac owned. He kept Dior and the Le Bon Marché department store — and nothing else. By 1987 the slimmed-down company was generating $112 million in earnings on $1.9 billion in revenue. The press called him "The Terminator." The unions called him worse. He was now the owner of the brand his mother had been obsessed with, and he was, on paper, a successful French industrialist before he had turned 40.
 
-This is where the Type 3 reframe matters most. The "Terminator" story reads like Type 8 ruthlessness — bring in the predator, watch him cut. But Arnault was not in the business of dominating workers. He was in the business of building **the most prestigious asset he could find**, on a balance sheet he owned, before anyone else in his generation could get there. The firings were not the point. The Dior brand surviving the firings — and emerging more profitable, more concentrated, more visibly his — was the point. A Type 8 protects territory. A Type 3 polishes a winner.
+The "Terminator" story reads ruthlessness as the headline. It misses where the headline lives. Arnault was not in the business of dominating workers — he was in the business of acquiring **the most prestigious asset he could find**, on a balance sheet he owned, before anyone else in his generation could get there. The firings were housekeeping. The Dior brand surviving them — and emerging more profitable, more concentrated, more visibly his — was the prize on the wall.
 
 ## The 1989 takeover that ended a friendship
 
@@ -179,6 +188,10 @@ He had lost.
 
 It is the only loss of consequence in Bernard Arnault's adult business life, and it is structurally important to understanding him. A man motivated by power does not need to buy the one independent house. He already owns more than anyone. A man motivated by Type 3 ranking has to keep going. There is a #1 luxury group, and Hermès is not in it, and that is the kind of asterisk a Type 3 cannot put down.
 
+So he kept buying. Bulgari joined LVMH in 2011 for $5.2 billion. Tiffany joined in January 2021 for $15.8 billion — the largest luxury acquisition ever recorded — but only after Arnault tried to walk away from the original $16.2 billion price during COVID, citing a letter from the French foreign minister urging him to defer the closing past January 6, 2021. Tiffany sued in Delaware. Within weeks the parties renegotiated the price down by about $430 million, and the deal closed. The Boussac playbook from 1984, the Racamier squeeze from 1989, and the Tiffany squeeze from 2020 are the same instrument played at different volumes. The Type 3 does not outgrow the engine. He scales it.
+
+The image-control logic that drove all of it had only ever lost twice — at Hermès, and a year later, when it ran into something else it could not buy. In September 2012, Arnault applied for Belgian nationality on the eve of François Hollande's 75% wealth tax on incomes above one million euros. *Libération* ran a front page showing him smiling with a red suitcase, headlined *"Casse-toi, riche con!"* — *Get lost, you rich idiot* — a play on Nicolas Sarkozy's old insult to a hostile voter. Arnault sued for libel and insisted the application had nothing to do with taxes. By April 2013 he had withdrawn the application. By that September he dropped the lawsuit. The richest man in France could buy almost any house in the country. He could not buy the front page of the country's left.
+
 ## The Saturday-morning Pope of Fashion
 
 Bernard Arnault is in his late seventies. LVMH owns roughly 75 luxury brands. He has been the world's richest man on multiple Bloomberg index closes. By any reasonable measure, the work is done.
@@ -198,6 +211,18 @@ Sidney Toledano, the former president of LVMH Fashion Group, framed both Gallian
 A risk. Not a relationship. Not a partnership. A bet on the scoreboard.
 
 Bernard Arnault does not have employees, in the way most people understand the word. He has talent he is grading. He pats the pig on the back. He sends emails about counters. He says "that'll do."
+
+## When the talent stops winning
+
+In March 2011, John Galliano — the British designer Arnault had personally hired in 1996 and made head of Dior — was filmed at La Perle, a café in Paris's historic Jewish quarter, telling other patrons *"I love Hitler"* and that *"people like you would be dead, your mothers, your forefathers would all be gassed."* The video was on the front page of *The Sun* within 48 hours.
+
+Within 72 hours, Dior had fired him. Sidney Toledano made the announcement personally: *"I unequivocally condemn the statements made by John Galliano which are in total contradiction to the longstanding core values of Christian Dior."* Arnault, who had once compared Galliano's creativity to Christian Dior's own, did not intervene. The brand outranked the designer on a clock measured in hours.
+
+Two and a half years later, in October 2013, Marc Jacobs left Louis Vuitton after sixteen years as creative director — the same Marc Jacobs who had described himself as the pig in *Babe* finally getting his "that'll do." Jacobs was not fired. He was, in the polite phrasing of the press release, departing to focus on his own brand ahead of a planned IPO. Within weeks he was replaced by Nicolas Ghesquière, formerly of Balenciaga. The Vuitton machine did not lose a season.
+
+Galliano committed an offense the brand could not survive, and the brand was put before the man on a clock measured in hours. Jacobs, after a long and successful run, was succeeded the way an aging quarterback is succeeded — no farewell tour, just a roster move. The pat-on-the-back father is also, on the day the math turns, the firer.
+
+The Achiever's loyalty is not to the talent. It is to the scoreboard the talent puts points on.
 
 ## Family lunches as performance reviews
 
@@ -223,10 +248,25 @@ When his wife told the Wall Street Journal about their first dinner together, sh
 
 He was terrified. He was completing the assignment.
 
-That is who buys Dior at 35 with someone else's money. Who ousts the man who hired him. Who sneaks up on Hermès through a loophole. Who sends emails about a Berluti counter at 75. Who plays Chopin in the only house in the world where no one else is allowed to. Who turns his five children into a tournament because he cannot, in any version of his future self, let the empire stop being #1.
+He would later marry that pianist. Hélène Mercier-Arnault is Juilliard-trained, has played Carnegie Hall, and is one of perhaps a few hundred people on earth qualified to perform the Nocturnes professionally. In her own home, she does not play them. She tells the story to *Elle* as a household joke, with a laugh, because naming it as a rule would make it a rule. So it stays a joke. The cost of that arrangement is held inside her laugh.
 
-He was never the wolf. The wolf is what the world saw because the world has no Type 3 word for him. Underneath the cashmere is something both quieter and more relentless. Trembling hands. A scoreboard updated by the second. A boy from Roubaix who took piano from his mother and Dior from her too, and who decided, somewhere in his twenties, that being second-best at any one thing meant being second-best at everything.
+That is who Bernard Arnault is. Not the wolf — the world has no Type 3 word for him, so the world reached for the closest predator. What is actually under the cashmere is quieter and more relentless. A scoreboard updated by the second. A boy from Roubaix who took piano from his mother and Dior from her too, and who decided, somewhere in his twenties, that being second-best at any one thing meant being second-best at everything.
 
 He never would be. He still won't be.
 
 The Nocturnes are his.
+
+<!-- FRESH EYES REVIEW (2026-05-03) — addressed in 5/3 revision pass
+Items addressed:
+- Fondation Louis Vuitton: added to 4-wing paragraph in diagnosis section
+- Belgian-citizenship scandal: added as paragraph at close of Hermès section
+- Father payoff: added at top of childhood section + closing paragraph on both inheritances repurposed
+- Galliano firing + Marc Jacobs exit: new H2 "When the talent stops winning" between Pope of Fashion and Family Lunches
+- Tiffany/Bulgari pattern persistence: added to Hermès section closing
+- Wife's contradiction: expanded in closer with Carnegie Hall context, "cost held inside her laugh"
+- TL;DR bullet swap: piano-then-Dior bullet → Hermès-as-asterisk insight
+- Duplicate Type 8 vs Type 3 reframe: removed from Boussac closing (kept in diagnosis)
+- Closer list of 5+ items: trimmed; Hélène contradiction is the single closing image
+- Type 8 steel-man: expanded slightly in diagnosis (added Racamier line + "the obvious read most journalists make")
+-->
+

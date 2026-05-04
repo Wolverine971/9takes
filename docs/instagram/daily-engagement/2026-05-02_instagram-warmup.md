@@ -19,13 +19,13 @@ This is the **third consecutive day** the @9takesdotcom session has been logged 
 
 All 5 candidates from the Apr 28 queue are now ~5 days old. They were aged out by Apr 30 and remain so. Do not re-draft these specific posts.
 
-| Apr 28 Queued Post                      | Account                | Age Today (May 2 AM) | Status              |
-| --------------------------------------- | ---------------------- | -------------------- | ------------------- |
-| DXp9qlyDq_E (attention-control Collab)  | @vvanedwards           | ~5d                  | Aged out — closed   |
-| DXo6f1ym47n (Types as Vegetables)       | @enneagrampaths        | ~5d                  | Aged out — closed   |
-| DXpjBOQGZc0 (know to deeply love)       | @mindfulmft            | ~5d                  | Aged out — closed   |
-| DXpoWOAEobv (fill-in template)          | @thesecurerelationship | ~5d                  | Aged out — closed   |
-| DXnJlcfgaNr (horror-movies cringe Reel) | @enneagramashton       | ~5d                  | Aged out — closed   |
+| Apr 28 Queued Post                      | Account                | Age Today (May 2 AM) | Status            |
+| --------------------------------------- | ---------------------- | -------------------- | ----------------- |
+| DXp9qlyDq_E (attention-control Collab)  | @vvanedwards           | ~5d                  | Aged out — closed |
+| DXo6f1ym47n (Types as Vegetables)       | @enneagrampaths        | ~5d                  | Aged out — closed |
+| DXpjBOQGZc0 (know to deeply love)       | @mindfulmft            | ~5d                  | Aged out — closed |
+| DXpoWOAEobv (fill-in template)          | @thesecurerelationship | ~5d                  | Aged out — closed |
+| DXnJlcfgaNr (horror-movies cringe Reel) | @enneagramashton       | ~5d                  | Aged out — closed |
 
 ### Open relationship signals (still warm despite the gap)
 
@@ -130,7 +130,7 @@ None this scan. Same reasoning as Apr 30: every Apr 28 candidate has aged out wi
 ## Strategy Observations
 
 - **Three consecutive blocked days, same root cause.** Apr 29, Apr 30, and May 2 all halted at the same login picker. The 9takesdotcom session cookie has not been revived in any of them. The bottleneck is operational, not strategic: the workflow cannot run a single scan until the user logs in manually one time.
-- **Single point of failure is now well-documented.** The blocker is repeatable enough that `/instagram-warmup` should probably do a session-health pre-check as Phase 0a — confirm the top-bar handle matches @9takesdotcom before doing anything else, and surface the blocker as the *first* line of output rather than burying it under a half-built warmup doc. That pattern is captured here as the recommended next-day fix.
+- **Single point of failure is now well-documented.** The blocker is repeatable enough that `/instagram-warmup` should probably do a session-health pre-check as Phase 0a — confirm the top-bar handle matches @9takesdotcom before doing anything else, and surface the blocker as the _first_ line of output rather than burying it under a half-built warmup doc. That pattern is captured here as the recommended next-day fix.
 - **Relationship momentum is still intact, but the freshness window is tightening.** The Jackie Apr 22 like, Melissa Apr 20 like, and `jillypie_hazeleyes` Apr 21 like are all 10–14 days old now. Those are still warm signals, but each additional blocked day moves them further from "active" toward "warm but cold-starting." First scan after restoration should prioritize a fresh post on each of those three accounts (Jackie Brewster, Melissa Kircher, Vienna Pharaon) to convert warm signals back into active engagement before they go fully dormant.
 - **No new strategic information was gained today** — there is nothing new to add to engagement targets, peer-growth strategy, or account profiles from a blocked session. Documenting the block precisely is the only honest output of this scan.
 

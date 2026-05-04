@@ -1,0 +1,45 @@
+[2026-05-03 02:02:00] [INFO] Daily blog creator started
+[2026-05-03 02:02:00] [INFO] Override: pause=false
+[2026-05-03 02:02:00] [INFO] Stale inProgress detected: hayao-miyazaki started 2026-05-01T06:01:38Z (~50h ago)
+[2026-05-03 02:02:00] [INFO] hayao-miyazaki draft exists (33KB) — moved to skipped (stale inProgress - draft exists)
+[2026-05-03 02:02:00] [INFO] Rate limit: 0/5 this week (weekStartDate 2026-05-01)
+[2026-05-03 02:02:00] [INFO] SELECTED: volodymyr-zelensky (Type 6, Priority 83) — Ukrainian president, wartime leader
+[2026-05-03 02:02:00] [INFO] Updated inProgress to volodymyr-zelensky
+[2026-05-03 02:07:52] [INFO] Daily blog creator started
+[2026-05-03 02:07:52] [INFO] Override: pause=false, inProgress=null, rate=0/5
+[2026-05-03 02:07:52] [INFO] SELECTED: david-goggins (Type 6, Priority 82)
+Draft complete. Saved to `/src/blog/people/drafts/David-Goggins.md`.
+
+**Type call:** Counter-phobic Enneagram Type 6 (likely 6w5). The blog argues this against the dominant internet read of Type 8 — Goggins's whole architecture (Accountability Mirror, Cookie Jar, "callus your mind," *Never Finished*) is fear-management protocol, not power assertion.
+
+**Core tension:** *The toughest man alive is also the most fearful man alive — and he refuses to ever stop being either.*
+
+**Structural backbone:** The March 2026 reenlistment in Air Force pararescue at age 51 (with an age waiver) — a return to the exact program he quit at 19. Used as both the hook and the closer.
+
+**Internal links added (4):**
+- `Jocko Willink` → `/personality-analysis/Jocko-Willink` (Type 8 contrast in same domain)
+- `Type 3` (stress arrow) → `/enneagram-corner/enneagram-types-in-stress`
+- `Type 6 Loyalist` → `/enneagram-corner/enneagram-type-6`
+- `counter-phobic Six's signature self-sabotage` → `/enneagram-corner/how-each-enneagram-type-self-sabotages-success`
+
+**Furniture used:** opening blockquote, `firstLetter` intro, `<details>` TL;DR, `<div class="pull-quote">` for haunted/future quote, `<div class="key-stat-row">` for pull-up + heart numbers.
+
+**Grade:** 8.8 / B+ (Hook 9 · Enneagram 9 · Evidence 8 · Writing 9 · Originality 9). Above the 8.5 publication handoff threshold.
+
+**Status:** `production_pretext.status: draft` — human review required before promoting to `ready` and handing off to `blog_content_production_people`.
+
+Sources used in research:
+- [Stars and Stripes — Goggins reenlists at 51](https://www.stripes.com/branches/air_force/2026-03-17/david-goggins-reenlists-air-force-51-21095492.html)
+- [SOFREP — Air Force Special Warfare Pipeline](https://sofrep.com/news/david-goggins-re-enlists-at-51-re-enters-air-force-special-warfare-pipeline/)
+- [Navy "Toughest Man Alive" profile](https://allhands.navy.mil/Stories/Display-Story/Article/1840612/the-toughest-man-alive/)
+- [Shortform — Goggins childhood breakdown](https://www.shortform.com/blog/david-goggins-childhood/)
+- [Wikipedia — David Goggins](https://en.wikipedia.org/wiki/David_Goggins)
+- [Joe Rogan #1080 transcript](https://singjupost.com/transcript-of-david-goggins-on-joe-rogan-podcast-1080/)
+- [Huberman Lab — Building Inner Strength](https://www.hubermanlab.com/episode/david-goggins-how-to-build-immense-inner-strength)
+- [Lewis Howes — School of Greatness episode](https://lewishowes.com/podcast/master-your-mind-and-defy-the-odds-with-david-goggins/)
+
+Want me to refine any sections, push for `ready` status, or hand off to `blog_content_production_people`?
+[2026-05-03 02:19:09] [SUCCESS] david-goggins draft created (22KB)
+[2026-05-03 02:19:09] [SUCCESS] Grade: 8.8/B+ (Hook 9 | Enneagram 9 | Evidence 8 | Writing 9 | Originality 9)
+[2026-05-03 02:19:09] [INFO] Queue updated: inProgress cleared, completed += david-goggins, rate=1/5
+[2026-05-03 02:19:09] [INFO] Daily blog creator complete

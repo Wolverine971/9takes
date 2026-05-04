@@ -1,0 +1,28 @@
+```
+=== DAILY BLOG CREATOR SUMMARY ===
+Date: 2026-05-03
+Status: SUCCESS
+Blog: David Goggins (Type 6) — "Fear's Most Loyal Soldier"
+Grade: 8.8 / B+ (Hook 9 · Enneagram 9 · Evidence 8 · Writing 9 · Originality 9)
+Duration: ~10 min
+Draft: src/blog/people/drafts/David-Goggins.md (22KB)
+Rate limit: 1/5 this week
+Next in queue: marie-curie (Type 5, Priority 81)
+===================================
+```
+
+📚 **9takes Daily Blog Creator** — 2026-05-03
+
+✅ **SUCCESS**
+
+- **Blog**: David Goggins
+- **Type**: 6 (Counter-phobic, likely 6w5)
+- **Grade**: 8.8 / B+
+- **Persona Title**: Fear's Most Loyal Soldier
+- **Core Tension**: The toughest man alive is also the most fearful man alive — and he refuses to ever stop being either.
+- **Structural Backbone**: March 2026 reenlistment in Air Force pararescue at age 51
+- **File**: `src/blog/people/drafts/David-Goggins.md`
+
+**Notable**: Blog argues against the dominant internet read of Type 8, framing Goggins's whole architecture (Accountability Mirror, Cookie Jar, *Never Finished*) as fear-management protocol rather than power assertion. Status: `draft` — human review required before promotion to `ready`.
+
+A wakeup is still scheduled at 02:34 as a leftover safety net. It will re-trigger `/daily-blog-creator` and exit immediately on the rate-limit check (1/5 → still allowed) — actually, it could pick up Marie Curie. If you don't want a second blog created today, manually pause via override.json. Otherwise it'll just queue the next one.
