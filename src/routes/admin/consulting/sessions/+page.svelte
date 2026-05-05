@@ -196,7 +196,7 @@
 	}
 
 	.subtitle {
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 		margin: 0;
 		font-size: 0.875rem;
 	}
@@ -211,8 +211,8 @@
 	.stat-btn {
 		flex: 1;
 		padding: 0.75rem;
-		background: var(--bg-surface);
-		border: 1px solid var(--bg-elevated);
+		background: var(--stone-warm);
+		border: 1px solid var(--stone-warm);
 		border-radius: 12px;
 		cursor: pointer;
 		text-align: center;
@@ -220,24 +220,24 @@
 	}
 
 	.stat-btn:hover {
-		border-color: var(--primary);
+		border-color: var(--lamp-glow);
 	}
 
 	.stat-btn.active {
 		background: rgba(99, 102, 241, 0.1);
-		border-color: var(--primary);
+		border-color: var(--lamp-glow);
 	}
 
 	.stat-num {
 		display: block;
 		font-size: 1.25rem;
 		font-weight: 700;
-		color: var(--text-primary);
+		color: var(--ink-bright);
 	}
 
 	.stat-label {
 		font-size: 0.75rem;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 	}
 
 	/* Filters */
@@ -255,15 +255,15 @@
 
 	.filter-group label {
 		font-size: 0.8rem;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 	}
 
 	.filter-group select {
 		padding: 0.5rem 0.75rem;
-		border: 1px solid var(--bg-elevated);
+		border: 1px solid var(--stone-warm);
 		border-radius: 12px;
 		font-size: 0.875rem;
-		background: var(--bg-surface);
+		background: var(--stone-warm);
 	}
 
 	/* Sessions List */
@@ -278,8 +278,8 @@
 		align-items: center;
 		gap: 1.5rem;
 		padding: 1rem;
-		background: var(--bg-surface);
-		border: 1px solid var(--bg-elevated);
+		background: var(--stone-warm);
+		border: 1px solid var(--stone-warm);
 		border-radius: 12px;
 	}
 
@@ -297,16 +297,16 @@
 		display: block;
 		font-weight: 600;
 		font-size: 0.875rem;
-		color: var(--text-primary);
+		color: var(--ink-bright);
 	}
 
 	.session-date.highlight {
-		color: var(--primary);
+		color: var(--lamp-glow);
 	}
 
 	.session-time {
 		font-size: 0.8rem;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 	}
 
 	.session-main {
@@ -322,12 +322,12 @@
 
 	.client-name {
 		font-weight: 500;
-		color: var(--text-primary);
+		color: var(--ink-bright);
 		text-decoration: none;
 	}
 
 	.client-name:hover {
-		color: var(--primary);
+		color: var(--lamp-glow);
 	}
 
 	.type-badge {
@@ -368,12 +368,12 @@
 	.session-type {
 		font-size: 0.8rem;
 		text-transform: capitalize;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 	}
 
 	.session-duration {
 		font-size: 0.75rem;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 	}
 
 	.session-status {
@@ -394,14 +394,14 @@
 	.empty-state {
 		text-align: center;
 		padding: 3rem;
-		background: var(--bg-surface);
-		border: 1px solid var(--bg-elevated);
+		background: var(--stone-warm);
+		border: 1px solid var(--stone-warm);
 		border-radius: 12px;
 	}
 
 	.empty-state p {
 		margin: 0 0 1rem;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 	}
 
 	/* Buttons */
@@ -424,14 +424,14 @@
 	}
 
 	.btn-primary {
-		background: var(--primary);
+		background: var(--lamp-glow);
 		color: white;
 	}
 
 	.btn-secondary {
-		background: var(--bg-deep);
-		border: 1px solid var(--bg-elevated);
-		color: var(--text-primary);
+		background: var(--night-deep);
+		border: 1px solid var(--stone-warm);
+		color: var(--ink-bright);
 	}
 
 	.btn[aria-disabled='true'] {

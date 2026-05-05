@@ -76,14 +76,14 @@
 	.root-card {
 		padding: 1.15rem;
 		border-radius: 1.25rem;
-		border: 1px solid color-mix(in srgb, var(--accent) 18%, var(--border-color));
+		border: 1px solid color-mix(in srgb, var(--lamp-glow) 18%, var(--stone-edge));
 		background:
 			linear-gradient(
 				180deg,
 				color-mix(in srgb, var(--accent-soft) 34%, transparent) 0%,
 				transparent 44%
 			),
-			color-mix(in srgb, var(--bg-surface) 92%, var(--bg-deep));
+			color-mix(in srgb, var(--stone-warm) 92%, var(--night-deep));
 		box-shadow: var(--shadow-sm);
 	}
 
@@ -98,7 +98,7 @@
 	.root-head {
 		margin-bottom: 1rem;
 		padding-bottom: 0.85rem;
-		border-bottom: 1px solid color-mix(in srgb, var(--accent) 16%, var(--border-color));
+		border-bottom: 1px solid color-mix(in srgb, var(--lamp-glow) 16%, var(--stone-edge));
 	}
 
 	.root-copy,
@@ -112,7 +112,7 @@
 		font-weight: 700;
 		letter-spacing: 0.12em;
 		text-transform: uppercase;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 	}
 
 	h2 {
@@ -129,13 +129,13 @@
 
 	.root-link,
 	.branch-link {
-		color: var(--text-primary);
+		color: var(--ink-bright);
 	}
 
 	.root-link:hover,
 	.branch-link:hover,
 	.leaf-link:hover {
-		color: var(--primary);
+		color: var(--lamp-glow);
 	}
 
 	.branch-grid {
@@ -146,8 +146,8 @@
 	.branch-card {
 		padding: 0.95rem;
 		border-radius: 1rem;
-		border: 1px solid color-mix(in srgb, var(--accent) 14%, var(--border-color));
-		background: color-mix(in srgb, var(--bg-surface) 90%, var(--bg-base));
+		border: 1px solid color-mix(in srgb, var(--lamp-glow) 14%, var(--stone-edge));
+		background: color-mix(in srgb, var(--stone-warm) 90%, var(--night-deep));
 	}
 
 	.branch-link {
@@ -159,7 +159,7 @@
 	.branch-card--flat {
 		padding: 0.35rem 0 0.25rem 0.85rem;
 		border: none;
-		border-left: 2px solid color-mix(in srgb, var(--accent) 22%, var(--border-color));
+		border-left: 2px solid color-mix(in srgb, var(--lamp-glow) 22%, var(--stone-edge));
 		border-radius: 0;
 		background: transparent;
 		margin-top: 0.4rem;
@@ -170,7 +170,7 @@
 		font-weight: 600;
 		text-transform: uppercase;
 		letter-spacing: 0.06em;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 	}
 
 	.leaf-list--flat {
@@ -190,9 +190,9 @@
 		gap: 0.75rem;
 		padding: 0.8rem 0.9rem;
 		border-radius: 0.9rem;
-		border: 1px solid color-mix(in srgb, var(--accent) 12%, var(--border-color));
-		background: color-mix(in srgb, var(--bg-elevated) 84%, var(--bg-base));
-		color: var(--text-primary);
+		border: 1px solid color-mix(in srgb, var(--lamp-glow) 12%, var(--stone-edge));
+		background: color-mix(in srgb, var(--stone-warm) 84%, var(--night-deep));
+		color: var(--ink-bright);
 		font-weight: 600;
 		transition:
 			transform 0.18s ease,
@@ -215,7 +215,7 @@
 
 	.leaf-link:hover {
 		transform: translateY(-1px);
-		border-color: color-mix(in srgb, var(--primary) 48%, var(--border-color));
+		border-color: color-mix(in srgb, var(--lamp-glow) 48%, var(--stone-edge));
 		box-shadow: var(--shadow-sm);
 	}
 
@@ -225,8 +225,8 @@
 		justify-content: center;
 		padding: 0.4rem 0.7rem;
 		border-radius: 999px;
-		background: color-mix(in srgb, var(--primary) 14%, var(--bg-base));
-		color: var(--text-secondary);
+		background: color-mix(in srgb, var(--lamp-glow) 14%, var(--night-deep));
+		color: var(--ink-mid);
 		font-size: 0.75rem;
 		font-weight: 700;
 		white-space: nowrap;

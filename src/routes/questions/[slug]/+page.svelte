@@ -1,4 +1,18 @@
 <!-- src/routes/questions/[slug]/+page.svelte -->
+<!--
+  /questions/[slug] — Streetlamp Symposium V5.
+  Phase 5 page #4 of docs/design/2026-05-04-rollout-plan.md.
+
+  Restyle, don't rewrite: this page imports specialized components
+  (QuestionDisplay, Interact, QuestionContent) that handle the give-first
+  comment mechanic. We add V5 layout chrome — an "open case" header,
+  V5 §NN sections, restyled scoped CSS — but keep all business logic,
+  optimistic state, form actions, SEO/structured data, and the imported
+  components untouched.
+
+  Bridge tokens (--lamp-*, --night-*, --stone-*, --ink-*, --data-*) ship
+  globally in src/scss/index.scss.
+-->
 <script lang="ts">
 	import { invalidateAll } from '$app/navigation';
 	import { deserialize } from '$app/forms';
@@ -9,6 +23,7 @@
 	import QuestionContent from '$lib/components/questions/QuestionContent.svelte';
 	import SEOHead from '$lib/components/SEOHead.svelte';
 	import Breadcrumbs from '$lib/components/blog/Breadcrumbs.svelte';
+	import { Button, SectionKicker } from '$lib/components/atoms';
 	import { buildQuestionCategoryPath } from '$lib/utils/questionCategorySlug';
 	import { buildBreadcrumbSchemaForGraph, type BreadcrumbItem } from '$lib/utils/schema';
 	import type { PageData } from './$types';
@@ -237,6 +252,9 @@
 			.filter(Boolean)
 	);
 	let categorySummary = $derived(categoryNames.length ? joinHumanList(categoryNames) : '');
+	let categoryMetaUpper = $derived(
+		categoryNames.length ? categoryNames.map((name: string) => name.toUpperCase()).join(' · ') : ''
+	);
 	let deepestCategory = $derived.by(() => {
 		const tags = (data.questionTags || []) as QuestionTag[];
 		let best: QuestionTag['question_categories'] | null = null;
@@ -293,6 +311,14 @@
 	});
 	let title = $derived(buildSeoTitle(formattedQuestionText));
 
+	// V5 case-file derivations
+	let dossierNum = $derived(fileNumber(data.question?.id ?? data.question?.url ?? ''));
+	let postedDate = $derived(formatPostedDate(data.question?.created_at));
+	let openCaseLabel = $derived(
+		categoryMetaUpper ? `OPEN CASE · ${categoryMetaUpper}` : 'OPEN CASE'
+	);
+	let totalTakes = $derived(Math.max(data.comment_count || 0, mergedComments.length));
+
 	function normalizeText(value?: string | null): string {
 		return String(value ?? '')
 			.replace(/\s+/g, ' ')
@@ -327,6 +353,25 @@
 			return `${questionText}${suffix}`;
 		}
 		return `${questionText.slice(0, maxLength - suffix.length - 1).trimEnd()}…${suffix}`;
+	}
+
+	// V5 dossier helpers — deterministic 4-digit case number per question.
+	function fileNumber(seed: number | string): string {
+		const s = String(seed ?? '');
+		let h = 0;
+		for (let i = 0; i < s.length; i++) {
+			h = (h * 31 + s.charCodeAt(i)) | 0;
+		}
+		return String(Math.abs(h) % 10000).padStart(4, '0');
+	}
+
+	function formatPostedDate(value: string | null | undefined): string {
+		if (!value) return '';
+		const literal = String(value).match(/^(\d{4})-(\d{2})-(\d{2})/);
+		if (literal) return `${literal[1]}-${literal[2]}-${literal[3]}`;
+		const parsed = new Date(value);
+		if (Number.isNaN(parsed.getTime())) return '';
+		return parsed.toISOString().slice(0, 10);
 	}
 
 	function buildSeoDescription(
@@ -578,57 +623,81 @@
 	jsonLd={questionStructuredData}
 />
 
-<div class="question-page-container mx-auto w-full max-w-6xl px-1 pb-12 sm:px-6 lg:px-8">
-	<article class="question-article">
-		{#if categoryBreadcrumbItems.length > 1}
-			<div class="question-breadcrumbs">
-				<Breadcrumbs items={categoryBreadcrumbItems} />
-			</div>
-		{/if}
+<article class="question-page">
+	<!-- =====================================================================
+	  §01 OPEN CASE — V5 case-file header (the brand moment)
+	  Wraps the existing <QuestionDisplay> so it sits below the kicker + meta.
+	  ===================================================================== -->
+	<section class="open-case" aria-labelledby="open-case-question">
+		<div class="open-case-stripe" aria-hidden="true"></div>
+		<div class="open-case-pool" aria-hidden="true"></div>
 
-		<div class="question-section question-section-display">
-			<QuestionDisplay question={data.question} />
+		<div class="open-case-inner">
+			{#if categoryBreadcrumbItems.length > 1}
+				<div class="open-case-breadcrumbs">
+					<Breadcrumbs items={categoryBreadcrumbItems} />
+				</div>
+			{/if}
+
+			<div class="open-case-kicker">
+				<SectionKicker num={dossierNum} label={openCaseLabel} />
+			</div>
+
+			{#if categoryMetaUpper}
+				<p class="open-case-category mono">CATEGORY: {categoryMetaUpper}</p>
+			{/if}
+
+			<div id="open-case-question" class="open-case-display">
+				<QuestionDisplay question={data.question} />
+			</div>
+
+			<div class="open-case-coords mono">
+				{#if postedDate}POSTED: {postedDate}{/if}
+				{#if postedDate}<span class="open-case-coord-sep">·</span>{/if}
+				{totalTakes}
+				{totalTakes === 1 ? 'TAKE' : 'TAKES'} SO FAR
+				<span class="open-case-coord-sep">·</span>
+				GIVE-FIRST LOCKED
+			</div>
+
+			{#if questionContext}
+				<aside class="open-case-context">
+					<p class="mono open-case-context__label">USER-ADDED CONTEXT</p>
+					<p class="open-case-context__body">{questionContext}</p>
+				</aside>
+			{/if}
+
+			<p class="open-case-overview">{publicQuestionOverview}</p>
+
+			<div class="open-case-stats" aria-label="Question summary">
+				<div class="open-case-stat">
+					<span class="open-case-stat__value">{data.comment_count || 0}</span>
+					<span class="mono open-case-stat__label">
+						{data.comment_count === 1 ? 'PERSPECTIVE' : 'PERSPECTIVES'}
+					</span>
+				</div>
+				<div class="open-case-stat">
+					<span class="open-case-stat__value">{categoryNames.length}</span>
+					<span class="mono open-case-stat__label">
+						{categoryNames.length === 1 ? 'CATEGORY' : 'CATEGORIES'}
+					</span>
+				</div>
+				<div class="open-case-stat">
+					<span class="open-case-stat__value">{data.aiComments?.length || 0}</span>
+					<span class="mono open-case-stat__label">PREVIEW TAKES</span>
+				</div>
+			</div>
 		</div>
+	</section>
 
-		<section
-			class="question-section question-overview-panel"
-			aria-labelledby="question-overview-heading"
-		>
-			<div class="question-overview-copy">
-				<p class="question-overview-kicker">Open forum question</p>
-				<h2 id="question-overview-heading" class="question-overview-title">
-					What this discussion explores
-				</h2>
-				<p class="question-overview-lead">{publicQuestionOverview}</p>
-				{#if questionContext}
-					<div class="question-overview-context">
-						<h3 class="question-overview-context__title">User-added context</h3>
-						<p class="question-overview-context__body">{questionContext}</p>
-					</div>
-				{/if}
+	<!-- =====================================================================
+	  §02 GIVE YOUR TAKE — Interact (the give-first comment input)
+	  ===================================================================== -->
+	<section class="give-take">
+		<div class="give-take-inner">
+			<div class="give-take-kicker">
+				<SectionKicker num="02" label="GIVE YOUR TAKE" />
 			</div>
-
-			<div class="question-overview-stats" aria-label="Question summary">
-				<div class="question-overview-stat">
-					<span class="question-overview-stat__value">{data.comment_count || 0}</span>
-					<span class="question-overview-stat__label">
-						{data.comment_count === 1 ? 'Perspective' : 'Perspectives'}
-					</span>
-				</div>
-				<div class="question-overview-stat">
-					<span class="question-overview-stat__value">{categoryNames.length}</span>
-					<span class="question-overview-stat__label">
-						{categoryNames.length === 1 ? 'Category' : 'Categories'}
-					</span>
-				</div>
-				<div class="question-overview-stat">
-					<span class="question-overview-stat__value">{data.aiComments?.length || 0}</span>
-					<span class="question-overview-stat__label">Preview Takes</span>
-				</div>
-			</div>
-		</section>
-
-		<div class="question-section question-section-interact">
 			<Interact
 				data={dataForChild}
 				questionId={data.question.id}
@@ -638,15 +707,41 @@
 				{qrCodeUrl}
 			/>
 		</div>
+	</section>
 
-		{#if (data.questionTags && data.questionTags.length > 0) || data.canEditTags}
-			<section class="question-section question-tags-panel">
-				<div class="question-tags-head">
-					<div class="question-tags-title">Question Categories</div>
+	<!-- =====================================================================
+	  §03 THE FLOOR — discussion thread (QuestionContent renders comments)
+	  ===================================================================== -->
+	{#if dataForChild}
+		<section class="the-floor">
+			<div class="the-floor-inner">
+				<div class="the-floor-kicker">
+					<SectionKicker num="03" label="THE FLOOR" />
+				</div>
+				<QuestionContent
+					data={dataForChild}
+					user={data?.user}
+					oncommentAdded={() => addComment()}
+				/>
+			</div>
+		</section>
+	{/if}
+
+	<!-- =====================================================================
+	  §04 MANAGE CASE — owner-only category editor + tag pills (always visible
+	  if there are tags so external readers can see + click them)
+	  ===================================================================== -->
+	{#if (data.questionTags && data.questionTags.length > 0) || data.canEditTags}
+		<section class="manage-case">
+			<div class="manage-case-inner">
+				<div class="manage-case-head">
+					<div class="manage-case-kicker">
+						<SectionKicker num="04" label={data.canEditTags ? 'MANAGE CASE' : 'CASE TAGS'} />
+					</div>
 					{#if data.canEditTags}
-						<button
-							type="button"
-							class="question-inline-button"
+						<Button
+							variant="ghost"
+							size="sm"
 							onclick={() => {
 								categoryEditorOpen = !categoryEditorOpen;
 								if (!categoryEditorOpen) {
@@ -655,18 +750,18 @@
 							}}
 						>
 							{categoryEditorOpen ? 'Close Editor' : 'Edit Categories'}
-						</button>
+						</Button>
 					{/if}
 				</div>
 
 				{#if data.questionTags && data.questionTags.length > 0}
-					<div class="flex flex-wrap gap-2">
+					<div class="manage-case-tags">
 						{#each data.questionTags as tag}
 							<a
 								href={buildQuestionCategoryPath(
 									tag.question_categories.slug || tag.question_categories.category_name
 								)}
-								class="question-tag-pill"
+								class="manage-case-tag-pill"
 								rel="tag"
 							>
 								{tag.question_categories.category_name}
@@ -674,477 +769,719 @@
 						{/each}
 					</div>
 				{:else}
-					<p class="text-sm text-[var(--text-secondary)]">No categories assigned yet.</p>
+					<p class="manage-case-empty">No categories assigned yet.</p>
 				{/if}
 
 				{#if data.canEditTags && categoryEditorOpen}
 					<div class="category-editor">
-						<div class="space-y-4">
-							<div>
-								<p
-									class="mb-2 text-xs font-semibold uppercase tracking-wide text-[var(--text-secondary)]"
-								>
-									Step 1: Choose top-level parent
-								</p>
-								<div class="flex flex-wrap gap-2">
-									{#each rootCategories as category}
+						<div class="category-editor-step">
+							<p class="mono category-editor-step__label">STEP 1: TOP-LEVEL PARENT</p>
+							<div class="chip-row">
+								{#each rootCategories as category}
+									<button
+										type="button"
+										onclick={() => selectRootCategory(category.id)}
+										class="cat-chip"
+										class:cat-chip--active={selectedRootCategoryId === category.id}
+									>
+										{category.category_name}
+									</button>
+								{/each}
+							</div>
+						</div>
+
+						<div class="category-editor-step">
+							<p class="mono category-editor-step__label">STEP 2: SECOND-LEVEL PARENT</p>
+							{#if parentCategories.length}
+								<div class="chip-row">
+									{#each parentCategories as category}
 										<button
 											type="button"
-											onclick={() => selectRootCategory(category.id)}
-											class="rounded-full border px-3 py-1.5 text-xs font-medium transition-colors {selectedRootCategoryId ===
-											category.id
-												? 'border-[var(--primary)] bg-[var(--primary-subtle)] text-[var(--primary-light)]'
-												: 'bg-[var(--bg-deep)]/60 border-[var(--bg-elevated)] text-[var(--text-secondary)]'}"
+											onclick={() => selectParentCategory(category.id)}
+											class="cat-chip"
+											class:cat-chip--active={selectedParentCategoryId === category.id}
 										>
 											{category.category_name}
 										</button>
 									{/each}
 								</div>
-							</div>
-
-							<div>
-								<p
-									class="mb-2 text-xs font-semibold uppercase tracking-wide text-[var(--text-secondary)]"
-								>
-									Step 2: Choose second-level parent
-								</p>
-								{#if parentCategories.length}
-									<div class="flex flex-wrap gap-2">
-										{#each parentCategories as category}
-											<button
-												type="button"
-												onclick={() => selectParentCategory(category.id)}
-												class="rounded-full border px-3 py-1.5 text-xs font-medium transition-colors {selectedParentCategoryId ===
-												category.id
-													? 'border-[var(--primary)] bg-[var(--primary-subtle)] text-[var(--primary-light)]'
-													: 'bg-[var(--bg-deep)]/60 border-[var(--bg-elevated)] text-[var(--text-secondary)]'}"
-											>
-												{category.category_name}
-											</button>
-										{/each}
-									</div>
-								{:else}
-									<p class="text-xs text-[var(--text-secondary)]">
-										No level 2 categories under this top-level parent.
-									</p>
-								{/if}
-							</div>
-
-							<div>
-								<div class="mb-2 flex items-center justify-between gap-3">
-									<p
-										class="text-xs font-semibold uppercase tracking-wide text-[var(--text-secondary)]"
-									>
-										Step 3: Pick leaf categories
-									</p>
-									<p class="text-xs text-[var(--text-tertiary)]">
-										{selectedTagIds.length}/{maxCategoriesPerQuestion} selected
-									</p>
-								</div>
-
-								{#if leafCategories.length}
-									<div class="grid gap-2 sm:grid-cols-2">
-										{#each leafCategories as category}
-											<button
-												type="button"
-												onclick={() => toggleLeafCategory(category.id)}
-												class="flex items-center justify-between rounded-md border px-3 py-2 text-left text-sm transition-colors {selectedTagIds.includes(
-													category.id
-												)
-													? 'border-[var(--primary)] bg-[var(--primary-subtle)] text-[var(--primary-lightest)]'
-													: 'bg-[var(--bg-deep)]/60 border-[var(--bg-elevated)] text-[var(--text-secondary)]'}"
-											>
-												<span>{category.category_name}</span>
-												<span class="text-xs">
-													{selectedTagIds.includes(category.id) ? 'Selected' : 'Select'}
-												</span>
-											</button>
-										{/each}
-									</div>
-								{:else}
-									<p class="text-xs text-[var(--text-secondary)]">
-										No leaf categories available under this parent yet.
-									</p>
-								{/if}
-							</div>
-
-							<div>
-								<p
-									class="mb-2 text-xs font-semibold uppercase tracking-wide text-[var(--text-secondary)]"
-								>
-									Selected Categories
-								</p>
-								{#if selectedLeafCategories.length}
-									<div class="flex flex-wrap gap-2">
-										{#each selectedLeafCategories as category}
-											<button
-												type="button"
-												onclick={() => toggleLeafCategory(category.id)}
-												class="rounded-full border border-[var(--primary-subtle)] bg-[var(--primary-subtle)] px-3 py-1 text-xs text-[var(--primary-light)]"
-												title="Remove category"
-											>
-												{category.category_name} ×
-											</button>
-										{/each}
-									</div>
-								{:else}
-									<p class="text-xs text-[var(--text-secondary)]">No categories selected yet.</p>
-								{/if}
-							</div>
-
-							<div class="category-editor-creator">
-								<p
-									class="text-xs font-semibold uppercase tracking-wide text-[var(--text-secondary)]"
-								>
-									Create New Leaf Category
-								</p>
-								<p class="mt-1 text-xs text-[var(--text-tertiary)]">
-									New categories are created as level 3 leaves under
-									{selectedParentCategoryName || 'a selected level 2 parent'}.
-								</p>
-								<div class="mt-2 flex flex-col gap-2 sm:flex-row">
-									<input
-										type="text"
-										bind:value={newLeafCategoryName}
-										maxlength="60"
-										placeholder="e.g. Career transitions"
-										class="bg-[var(--bg-base)]/80 w-full rounded-md border border-[var(--bg-elevated)] px-3 py-2 text-sm text-[var(--text-primary)] placeholder-[var(--text-muted)] focus:border-[var(--primary)] focus:outline-none"
-									/>
-									<button
-										type="button"
-										onclick={createLeafCategory}
-										disabled={creatingLeafCategory ||
-											!selectedParentCategoryId ||
-											!newLeafCategoryName.trim()}
-										class="rounded-md border border-[var(--primary-subtle)] bg-[var(--primary-subtle)] px-3 py-2 text-sm font-medium text-[var(--primary-light)] disabled:cursor-not-allowed disabled:opacity-60"
-									>
-										{creatingLeafCategory ? 'Creating...' : 'Create Leaf'}
-									</button>
-								</div>
-							</div>
-
-							{#if categoryEditorError}
-								<p class="text-sm text-rose-400">{categoryEditorError}</p>
+							{:else}
+								<p class="manage-case-empty">No level 2 categories under this top-level parent.</p>
 							{/if}
-							{#if categoryEditorSuccess}
-								<p class="text-sm text-emerald-400">{categoryEditorSuccess}</p>
-							{/if}
+						</div>
 
-							<div class="flex flex-wrap justify-end gap-2">
-								<button
-									type="button"
-									onclick={() => {
-										resetCategoryEditor();
-										categoryEditorOpen = false;
-									}}
-									class="bg-[var(--bg-deep)]/60 rounded-md border border-[var(--bg-elevated)] px-3 py-2 text-sm text-[var(--text-secondary)]"
-								>
-									Cancel
-								</button>
-								<button
-									type="button"
-									onclick={saveQuestionCategories}
-									disabled={categoryEditorSaving}
-									class="rounded-md border border-[var(--primary-subtle)] bg-[var(--primary-subtle)] px-4 py-2 text-sm font-semibold text-[var(--primary-lightest)] disabled:cursor-not-allowed disabled:opacity-60"
-								>
-									{categoryEditorSaving ? 'Saving...' : 'Save Categories'}
-								</button>
+						<div class="category-editor-step">
+							<div class="category-editor-step__head">
+								<p class="mono category-editor-step__label">STEP 3: LEAF CATEGORIES</p>
+								<p class="mono category-editor-step__count">
+									{selectedTagIds.length}/{maxCategoriesPerQuestion} SELECTED
+								</p>
 							</div>
+
+							{#if leafCategories.length}
+								<div class="leaf-grid">
+									{#each leafCategories as category}
+										<button
+											type="button"
+											onclick={() => toggleLeafCategory(category.id)}
+											class="leaf-tile"
+											class:leaf-tile--active={selectedTagIds.includes(category.id)}
+										>
+											<span class="leaf-tile__name">{category.category_name}</span>
+											<span class="mono leaf-tile__state">
+												{selectedTagIds.includes(category.id) ? 'SELECTED' : 'SELECT'}
+											</span>
+										</button>
+									{/each}
+								</div>
+							{:else}
+								<p class="manage-case-empty">No leaf categories available under this parent yet.</p>
+							{/if}
+						</div>
+
+						<div class="category-editor-step">
+							<p class="mono category-editor-step__label">SELECTED CATEGORIES</p>
+							{#if selectedLeafCategories.length}
+								<div class="chip-row">
+									{#each selectedLeafCategories as category}
+										<button
+											type="button"
+											onclick={() => toggleLeafCategory(category.id)}
+											class="cat-chip cat-chip--selected"
+											title="Remove category"
+										>
+											{category.category_name} ×
+										</button>
+									{/each}
+								</div>
+							{:else}
+								<p class="manage-case-empty">No categories selected yet.</p>
+							{/if}
+						</div>
+
+						<div class="category-editor-creator">
+							<p class="mono category-editor-step__label">CREATE NEW LEAF CATEGORY</p>
+							<p class="category-editor-creator__hint">
+								New categories are created as level 3 leaves under
+								{selectedParentCategoryName || 'a selected level 2 parent'}.
+							</p>
+							<div class="category-editor-creator__row">
+								<input
+									type="text"
+									bind:value={newLeafCategoryName}
+									maxlength="60"
+									placeholder="e.g. Career transitions"
+									class="case-input"
+								/>
+								<Button
+									variant="secondary"
+									size="md"
+									onclick={createLeafCategory}
+									disabled={creatingLeafCategory ||
+										!selectedParentCategoryId ||
+										!newLeafCategoryName.trim()}
+								>
+									{creatingLeafCategory ? 'Creating…' : 'Create Leaf'}
+								</Button>
+							</div>
+						</div>
+
+						{#if categoryEditorError}
+							<p class="category-editor-msg category-editor-msg--error" role="alert">
+								{categoryEditorError}
+							</p>
+						{/if}
+						{#if categoryEditorSuccess}
+							<p class="category-editor-msg category-editor-msg--success" role="status">
+								{categoryEditorSuccess}
+							</p>
+						{/if}
+
+						<div class="category-editor-actions">
+							<Button
+								variant="secondary"
+								size="md"
+								onclick={() => {
+									resetCategoryEditor();
+									categoryEditorOpen = false;
+								}}
+							>
+								Cancel
+							</Button>
+							<Button
+								variant="primary"
+								size="md"
+								onclick={saveQuestionCategories}
+								loading={categoryEditorSaving}
+								disabled={categoryEditorSaving}
+							>
+								{categoryEditorSaving ? 'Saving…' : 'Save Categories'}
+							</Button>
 						</div>
 					</div>
 				{/if}
-			</section>
-		{/if}
-
-		{#if dataForChild}
-			<div class="question-section question-section-content">
-				<QuestionContent
-					data={dataForChild}
-					user={data?.user}
-					oncommentAdded={() => addComment()}
-				/>
 			</div>
-		{/if}
-	</article>
-</div>
+		</section>
+	{/if}
+</article>
 
-<style>
-	.question-page-container {
-		--question-panel-bg: color-mix(in srgb, var(--bg-surface) 92%, transparent);
-		--question-panel-border: color-mix(in srgb, var(--primary) 18%, var(--border-color));
+<style lang="scss">
+	/* =========================================================
+	  /questions/[slug] — Streetlamp Symposium V5.
+	  Bridge tokens (--lamp-*, --night-*, --stone-*, --ink-*, --data-*)
+	  ship globally from src/scss/index.scss.
+	  Restyle pass: layout chrome only. Imported components
+	  (QuestionDisplay, Interact, QuestionContent) keep their own styles.
+	  ========================================================= */
+	.question-page {
+		display: block;
+		background: var(--night-deep);
+		color: var(--ink-bright);
+		font-family: var(--font-display);
+		min-height: 100vh;
 		position: relative;
-		overflow-x: hidden;
-		padding-top: 0.9rem;
 	}
 
-	.question-page-container::before {
-		content: '';
-		position: absolute;
-		top: -2rem;
-		left: -1rem;
-		right: -1rem;
-		height: 8rem;
-		background: linear-gradient(
-			180deg,
-			transparent 0%,
-			color-mix(in srgb, var(--primary-subtle) 55%, transparent) 34%,
-			transparent 100%
-		);
-		pointer-events: none;
-		z-index: 0;
-		filter: blur(18px);
-	}
-
-	.question-article {
-		position: relative;
-		z-index: 1;
-	}
-
-	.question-breadcrumbs {
-		padding: 0.25rem 0.25rem 0.5rem;
-	}
-
-	.question-section {
-		margin-bottom: 0.95rem;
-	}
-
-	.question-section-display :global(.question-display-card) {
-		border-radius: 1.25rem;
-		border-color: var(--question-panel-border);
-		background:
-			linear-gradient(
-				180deg,
-				color-mix(in srgb, var(--primary-subtle) 28%, transparent) 0%,
-				transparent 44%
-			),
-			var(--question-panel-bg);
-		box-shadow: var(--shadow-sm);
-		padding: 1.5rem clamp(1rem, 2.4vw, 2rem);
-	}
-
-	.question-section-display :global(.question-display-card::before) {
-		background: radial-gradient(
-			ellipse at 50% 0%,
-			color-mix(in srgb, var(--primary) 12%, transparent) 0%,
-			transparent 62%
-		);
-	}
-
-	.question-section-display :global(.question-display-card h1) {
-		letter-spacing: -0.025em;
-		text-wrap: balance;
-	}
-
-	.question-section-interact {
-		margin-bottom: 1rem;
-	}
-
-	.question-overview-panel {
-		display: grid;
-		gap: 1rem;
-		padding: 1rem;
-		border: 1px solid var(--question-panel-border);
-		border-radius: 1.1rem;
-		background:
-			linear-gradient(
-				180deg,
-				color-mix(in srgb, var(--primary-subtle) 24%, transparent) 0%,
-				transparent 100%
-			),
-			var(--question-panel-bg);
-		box-shadow: var(--shadow-sm);
-	}
-
-	.question-overview-kicker {
-		margin: 0 0 0.3rem;
-		font-size: 0.76rem;
-		font-weight: 700;
-		letter-spacing: 0.1em;
-		text-transform: uppercase;
-		color: var(--primary);
-	}
-
-	.question-overview-title {
-		margin: 0;
-		font-size: clamp(1.1rem, 1.6vw, 1.35rem);
-		font-weight: 700;
-		color: var(--text-primary);
-	}
-
-	.question-overview-lead {
-		margin: 0.7rem 0 0;
-		font-size: 0.98rem;
-		line-height: 1.7;
-		color: var(--text-secondary);
-	}
-
-	.question-overview-context {
-		margin-top: 0.95rem;
-		padding: 0.9rem 1rem;
-		border: 1px solid color-mix(in srgb, var(--primary) 16%, var(--border-color));
-		border-radius: 1rem;
-		background: color-mix(in srgb, var(--bg-surface) 86%, transparent);
-	}
-
-	.question-overview-context__title {
-		margin: 0 0 0.35rem;
-		font-size: 0.8rem;
-		font-weight: 700;
+	/* ---------- shared utilities ---------- */
+	.question-page :global(.mono),
+	.question-page .mono {
+		font-family: var(--font-mono);
+		font-size: 12px;
+		font-weight: 500;
 		letter-spacing: 0.08em;
 		text-transform: uppercase;
-		color: var(--text-secondary);
+		color: var(--ink-dim);
 	}
 
-	.question-overview-context__body {
+	/* =========================================================
+	  §01 OPEN CASE — V5 case-file header (the brand moment)
+	  ========================================================= */
+	.open-case {
+		position: relative;
+		padding: 96px 48px 72px;
+		background: var(--night-deep);
+		overflow: hidden;
+		border-top: 3px solid var(--lamp-glow);
+
+		@media (max-width: 768px) {
+			padding: 64px 20px 48px;
+		}
+	}
+
+	.open-case-stripe {
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		height: 3px;
+		background: var(--lamp-glow);
+		z-index: 2;
+	}
+
+	.open-case-pool {
+		position: absolute;
+		inset: 0;
+		pointer-events: none;
+		background: radial-gradient(
+			ellipse 70% 55% at 50% 0%,
+			rgba(245, 158, 11, 0.12) 0%,
+			rgba(245, 158, 11, 0.04) 35%,
+			transparent 65%
+		);
+		z-index: 0;
+	}
+
+	:global(:root.light) .question-page .open-case-pool {
+		background: radial-gradient(
+			ellipse 70% 55% at 50% 0%,
+			rgba(180, 83, 9, 0.08) 0%,
+			rgba(180, 83, 9, 0.02) 40%,
+			transparent 70%
+		);
+	}
+
+	.open-case-inner {
+		position: relative;
+		z-index: 1;
+		max-width: 880px;
+		margin: 0 auto;
+		display: flex;
+		flex-direction: column;
+		gap: 16px;
+	}
+
+	.open-case-breadcrumbs {
+		margin-bottom: 4px;
+	}
+
+	.open-case-kicker {
+		margin-bottom: 4px;
+	}
+
+	.open-case-category {
+		color: var(--data-teal);
 		margin: 0;
-		font-size: 0.95rem;
-		line-height: 1.65;
-		color: var(--text-primary);
+		word-break: break-word;
 	}
 
-	.question-overview-stats {
+	.open-case-display {
+		margin: 4px 0 4px;
+	}
+
+	.open-case-display :global(.question-display-card) {
+		background: var(--stone-warm);
+		border: 1px solid var(--stone-edge);
+		border-radius: 16px;
+		padding: 32px clamp(20px, 3vw, 40px);
+		box-shadow: none;
+		backdrop-filter: none;
+	}
+
+	.open-case-display :global(.question-display-card::before) {
+		display: none;
+	}
+
+	.open-case-display :global(.question-display-card h1) {
+		font-family: var(--font-display);
+		font-weight: 800;
+		letter-spacing: -0.03em;
+		color: var(--ink-bright);
+		text-wrap: balance;
+		line-height: 1.08;
+	}
+
+	.open-case-coords {
+		display: flex;
+		flex-wrap: wrap;
+		align-items: center;
+		gap: 8px;
+		color: var(--ink-dim);
+		margin: 0;
+	}
+
+	.open-case-coord-sep {
+		opacity: 0.6;
+	}
+
+	.open-case-context {
+		margin: 8px 0 0;
+		padding: 16px 20px;
+		border: 1px solid var(--stone-edge);
+		border-left: 3px solid var(--data-teal);
+		border-radius: 10px;
+		background: var(--stone-warm);
+	}
+
+	.open-case-context__label {
+		margin: 0 0 6px;
+		color: var(--data-teal);
+	}
+
+	.open-case-context__body {
+		margin: 0;
+		font-family: var(--font-display);
+		font-size: 16px;
+		line-height: 1.6;
+		color: var(--ink-bright);
+	}
+
+	.open-case-overview {
+		margin: 4px 0 8px;
+		font-family: var(--font-display);
+		font-size: 16px;
+		line-height: 1.55;
+		color: var(--ink-mid);
+		max-width: 720px;
+	}
+
+	.open-case-stats {
 		display: grid;
 		grid-template-columns: repeat(3, minmax(0, 1fr));
-		gap: 0.75rem;
+		gap: 12px;
+		margin-top: 8px;
+
+		@media (max-width: 540px) {
+			grid-template-columns: 1fr;
+		}
 	}
 
-	.question-overview-stat {
+	.open-case-stat {
 		display: flex;
 		flex-direction: column;
 		align-items: flex-start;
 		justify-content: center;
-		padding: 0.9rem 1rem;
-		border: 1px solid color-mix(in srgb, var(--primary) 16%, var(--border-color));
-		border-radius: 1rem;
-		background: color-mix(in srgb, var(--bg-surface) 88%, transparent);
+		gap: 6px;
+		padding: 16px 18px;
+		border: 1px solid var(--stone-edge);
+		border-radius: 10px;
+		background: var(--stone-warm);
 	}
 
-	.question-overview-stat__value {
-		font-size: 1.4rem;
+	.open-case-stat__value {
+		font-family: var(--font-display);
 		font-weight: 700;
+		font-size: 24px;
 		line-height: 1;
-		color: var(--text-primary);
+		color: var(--ink-bright);
 	}
 
-	.question-overview-stat__label {
-		margin-top: 0.35rem;
-		font-size: 0.78rem;
-		font-weight: 600;
-		letter-spacing: 0.06em;
-		text-transform: uppercase;
-		color: var(--text-secondary);
+	.open-case-stat__label {
+		color: var(--ink-dim);
 	}
 
-	.question-tags-panel {
-		padding: 0.95rem;
-		border: 1px solid var(--question-panel-border);
-		border-radius: 1.1rem;
-		background: var(--question-panel-bg);
-		box-shadow: var(--shadow-sm);
-		backdrop-filter: blur(12px);
+	/* =========================================================
+	  §02 GIVE YOUR TAKE — Interact wrapper
+	  ========================================================= */
+	.give-take {
+		position: relative;
+		padding: 64px 48px;
+		background: var(--night-mid);
+		border-top: 1px solid var(--stone-edge);
+
+		@media (max-width: 768px) {
+			padding: 48px 20px;
+		}
 	}
 
-	.question-tags-head {
+	.give-take-inner {
+		max-width: 880px;
+		margin: 0 auto;
+	}
+
+	.give-take-kicker {
+		margin-bottom: 24px;
+	}
+
+	/* =========================================================
+	  §03 THE FLOOR — discussion (QuestionContent)
+	  ========================================================= */
+	.the-floor {
+		position: relative;
+		padding: 64px 48px 96px;
+		background: var(--night-deep);
+		border-top: 1px solid var(--stone-edge);
+
+		@media (max-width: 768px) {
+			padding: 48px 20px 64px;
+		}
+	}
+
+	.the-floor-inner {
+		max-width: 880px;
+		margin: 0 auto;
+	}
+
+	.the-floor-kicker {
+		margin-bottom: 24px;
+	}
+
+	/* =========================================================
+	  §04 MANAGE CASE — owner-only category editor
+	  ========================================================= */
+	.manage-case {
+		position: relative;
+		padding: 64px 48px 96px;
+		background: var(--night-mid);
+		border-top: 1px solid var(--stone-edge);
+
+		@media (max-width: 768px) {
+			padding: 48px 20px 64px;
+		}
+	}
+
+	.manage-case-inner {
+		max-width: 880px;
+		margin: 0 auto;
+		display: flex;
+		flex-direction: column;
+		gap: 20px;
+	}
+
+	.manage-case-head {
 		display: flex;
 		flex-wrap: wrap;
 		align-items: center;
 		justify-content: space-between;
-		gap: 0.75rem;
-		margin-bottom: 0.8rem;
-		padding-bottom: 0.8rem;
-		border-bottom: 1px solid var(--question-panel-border);
+		gap: 12px;
+		padding-bottom: 16px;
+		border-bottom: 1px solid var(--stone-edge);
 	}
 
-	.question-tags-title {
-		font-size: 0.82rem;
-		font-weight: 700;
-		letter-spacing: 0.09em;
-		text-transform: uppercase;
-		color: var(--text-secondary);
+	.manage-case-kicker {
+		display: flex;
 	}
 
-	.question-inline-button {
+	.manage-case-tags {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 8px;
+	}
+
+	.manage-case-tag-pill {
 		display: inline-flex;
 		align-items: center;
-		justify-content: center;
-		padding: 0.55rem 0.85rem;
-		border-radius: 0.85rem;
-		border: 1px solid var(--question-panel-border);
-		background: color-mix(in srgb, var(--bg-deep) 68%, transparent);
-		color: var(--primary);
-		font-size: 0.8rem;
-		font-weight: 700;
-		transition:
-			border-color 0.2s ease,
-			color 0.2s ease,
-			box-shadow 0.2s ease;
-	}
-
-	.question-inline-button:hover {
-		border-color: color-mix(in srgb, var(--primary) 28%, var(--border-color));
-		color: var(--primary-light);
-		box-shadow: var(--shadow-sm);
-	}
-
-	.question-tag-pill {
-		display: inline-flex;
-		align-items: center;
-		padding: 0.55rem 0.85rem;
-		border-radius: 0.85rem;
-		border: 1px solid var(--question-panel-border);
-		background: color-mix(in srgb, var(--bg-surface) 90%, transparent);
-		color: var(--text-secondary);
-		font-size: 0.9rem;
-		font-weight: 600;
+		padding: 8px 14px;
+		border: 1px solid var(--stone-edge);
+		border-radius: 10px;
+		background: var(--stone-warm);
+		color: var(--ink-bright);
+		font-family: var(--font-display);
+		font-size: 14px;
+		font-weight: 500;
 		text-decoration: none;
 		transition:
-			border-color 0.2s ease,
-			color 0.2s ease,
-			box-shadow 0.2s ease;
+			border-color 0.18s ease,
+			color 0.18s ease,
+			background 0.18s ease;
+
+		&:hover {
+			border-color: var(--lamp-glow);
+			color: var(--lamp-glow);
+			background: var(--stone-mid);
+		}
 	}
 
-	.question-tag-pill:hover {
-		border-color: color-mix(in srgb, var(--primary) 28%, var(--border-color));
-		color: var(--primary);
-		box-shadow: var(--shadow-sm);
+	.manage-case-empty {
+		font-family: var(--font-display);
+		font-size: 14px;
+		line-height: 1.5;
+		color: var(--ink-mid);
+		margin: 0;
 	}
 
+	/* ---------- category editor inner ---------- */
 	.category-editor {
-		padding-top: 1rem;
-		border-top: 1px solid var(--question-panel-border);
+		display: flex;
+		flex-direction: column;
+		gap: 20px;
+		padding: 24px;
+		border: 1px solid var(--stone-edge);
+		border-radius: 16px;
+		background: var(--stone-warm);
+
+		@media (max-width: 540px) {
+			padding: 18px;
+		}
+	}
+
+	.category-editor-step {
+		display: flex;
+		flex-direction: column;
+		gap: 10px;
+	}
+
+	.category-editor-step__head {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		gap: 12px;
+	}
+
+	.category-editor-step__label {
+		margin: 0;
+		color: var(--lamp-glow);
+	}
+
+	.category-editor-step__count {
+		margin: 0;
+		color: var(--data-teal);
+	}
+
+	.chip-row {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 8px;
+	}
+
+	.cat-chip {
+		appearance: none;
+		font-family: var(--font-mono);
+		font-size: 12px;
+		font-weight: 500;
+		letter-spacing: 0.04em;
+		text-transform: uppercase;
+		padding: 8px 14px;
+		border: 1px solid var(--stone-edge);
+		border-radius: 10px;
+		background: var(--night-mid);
+		color: var(--ink-mid);
+		cursor: pointer;
+		transition:
+			border-color 0.18s ease,
+			color 0.18s ease,
+			background 0.18s ease;
+
+		&:hover {
+			border-color: var(--ink-dim);
+			color: var(--ink-bright);
+			background: var(--stone-mid);
+		}
+	}
+
+	.cat-chip--active {
+		border-color: var(--lamp-glow);
+		color: var(--lamp-glow);
+		background: var(--stone-warm);
+	}
+
+	.cat-chip--selected {
+		border-color: var(--data-teal);
+		color: var(--data-teal);
+		background: var(--stone-warm);
+	}
+
+	.leaf-grid {
+		display: grid;
+		grid-template-columns: repeat(2, minmax(0, 1fr));
+		gap: 8px;
+
+		@media (max-width: 540px) {
+			grid-template-columns: 1fr;
+		}
+	}
+
+	.leaf-tile {
+		appearance: none;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		gap: 12px;
+		padding: 12px 14px;
+		border: 1px solid var(--stone-edge);
+		border-radius: 10px;
+		background: var(--night-mid);
+		color: var(--ink-bright);
+		text-align: left;
+		font-family: var(--font-display);
+		font-size: 14px;
+		cursor: pointer;
+		transition:
+			border-color 0.18s ease,
+			background 0.18s ease;
+
+		&:hover {
+			border-color: var(--ink-dim);
+			background: var(--stone-mid);
+		}
+	}
+
+	.leaf-tile--active {
+		border-color: var(--lamp-glow);
+		background: var(--stone-warm);
+	}
+
+	.leaf-tile__name {
+		font-weight: 500;
+	}
+
+	.leaf-tile__state {
+		color: var(--ink-dim);
+	}
+
+	.leaf-tile--active .leaf-tile__state {
+		color: var(--lamp-glow);
 	}
 
 	.category-editor-creator {
-		padding: 0.95rem;
-		border-radius: 1rem;
-		border: 1px solid var(--question-panel-border);
-		background: color-mix(in srgb, var(--bg-deep) 62%, transparent);
+		display: flex;
+		flex-direction: column;
+		gap: 10px;
+		padding: 18px;
+		border: 1px solid var(--stone-edge);
+		border-radius: 10px;
+		background: var(--night-mid);
 	}
 
-	@media (max-width: 640px) {
-		.question-page-container {
-			padding-top: 0.7rem;
+	.category-editor-creator__hint {
+		font-family: var(--font-display);
+		font-size: 13px;
+		line-height: 1.5;
+		color: var(--ink-mid);
+		margin: 0;
+	}
+
+	.category-editor-creator__row {
+		display: flex;
+		flex-direction: row;
+		gap: 8px;
+
+		@media (max-width: 540px) {
+			flex-direction: column;
+			align-items: stretch;
+		}
+	}
+
+	.case-input {
+		flex: 1;
+		appearance: none;
+		font-family: var(--font-display);
+		font-size: 14px;
+		padding: 10px 14px;
+		border: 1px solid var(--stone-edge);
+		border-radius: 10px;
+		background: var(--night-deep);
+		color: var(--ink-bright);
+		transition:
+			border-color 0.18s ease,
+			box-shadow 0.18s ease;
+
+		&::placeholder {
+			color: var(--ink-dim);
 		}
 
-		.question-section {
-			margin-bottom: 0.8rem;
+		&:focus {
+			outline: none;
+			border-color: var(--lamp-glow);
+			box-shadow: 0 0 0 2px rgba(245, 158, 11, 0.18);
+		}
+	}
+
+	:global(:root.light) .question-page .case-input:focus {
+		box-shadow: 0 0 0 2px rgba(180, 83, 9, 0.18);
+	}
+
+	.category-editor-msg {
+		font-family: var(--font-display);
+		font-size: 14px;
+		line-height: 1.5;
+		margin: 0;
+	}
+
+	.category-editor-msg--error {
+		color: var(--error);
+	}
+
+	.category-editor-msg--success {
+		color: var(--success);
+	}
+
+	.category-editor-actions {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: flex-end;
+		gap: 8px;
+		padding-top: 8px;
+		border-top: 1px solid var(--stone-edge);
+	}
+
+	/* =========================================================
+	  Mobile-specific tightening
+	  ========================================================= */
+	@media (max-width: 480px) {
+		.open-case {
+			padding: 56px 16px 40px;
 		}
 
-		.question-section-display :global(.question-display-card) {
-			padding: 1.25rem 0.95rem;
-			border-radius: 1.05rem;
+		.give-take,
+		.the-floor,
+		.manage-case {
+			padding-left: 16px;
+			padding-right: 16px;
 		}
 
-		.question-tags-panel {
-			padding: 0.85rem;
-		}
-
-		.question-overview-panel {
-			padding: 0.9rem;
-		}
-
-		.question-overview-stats {
-			grid-template-columns: 1fr;
+		.open-case-display :global(.question-display-card) {
+			padding: 24px 18px;
+			border-radius: 12px;
 		}
 	}
 </style>

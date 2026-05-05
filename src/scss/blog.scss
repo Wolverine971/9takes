@@ -7,7 +7,7 @@
 
 .blog {
 	/* Link styling for blog content - Warm Tech theme */
-	--blog-link-color: var(--primary-lighter);
+	--blog-link-color: var(--lamp-glow);
 	--blog-link-hover-color: var(--primary-lightest);
 
 	a:not(.toc-link):not([class*='text-']):not([class*='bg-']):not([class*='border-']) {
@@ -29,7 +29,7 @@
 	> h4 {
 		margin-top: 1.2rem;
 		padding-top: 1.2rem;
-		color: var(--text-primary);
+		color: var(--ink-bright);
 	}
 
 	> h3 {
@@ -44,7 +44,7 @@
 }
 
 :root.light .blog {
-	--blog-link-color: var(--primary-darker);
+	--blog-link-color: var(--lamp-glow);
 	--blog-link-hover-color: var(--accent-dark);
 }
 
@@ -52,23 +52,23 @@
 blockquote {
 	margin: 1.5em 0;
 	padding: 1em 1.5em;
-	border-left: 4px solid var(--primary);
-	background-color: var(--bg-surface);
+	border-left: 4px solid var(--lamp-glow);
+	background-color: var(--stone-warm);
 	font-style: italic;
-	color: var(--text-secondary);
+	color: var(--ink-mid);
 	border-radius: 0 8px 8px 0;
 
 	p {
 		margin: 0;
 		line-height: 1.6;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 	}
 
 	cite {
 		display: block;
 		margin-top: 1em;
 		font-size: 0.9em;
-		color: var(--text-tertiary);
+		color: var(--ink-dim);
 		font-style: normal;
 
 		&::before {
@@ -79,7 +79,7 @@ blockquote {
 
 /* Decorative first letter */
 .firstLetter::first-letter {
-	color: var(--primary-lighter);
+	color: var(--lamp-glow);
 	font-size: 1.5rem;
 	font-weight: 700;
 }
@@ -99,7 +99,7 @@ blockquote {
 	border-radius: 12px;
 	border: 1px solid var(--glass-border);
 	overflow: hidden;
-	background: var(--bg-base);
+	background: var(--night-deep);
 
 	iframe {
 		position: absolute;
@@ -114,10 +114,10 @@ blockquote {
 /* Blog layout container */
 @include tablet-up {
 	.blog {
-		background-color: var(--bg-deep);
+		background-color: var(--night-deep);
 		border-radius: 1rem;
 		box-shadow: 0 4px 24px rgba(0, 0, 0, 0.3);
-		border: 1px solid color-mix(in srgb, var(--text-tertiary) 15%, transparent);
+		border: 1px solid color-mix(in srgb, var(--ink-dim) 15%, transparent);
 		margin-top: 0 !important;
 		padding: 2rem !important;
 		padding-top: 1rem !important;
@@ -197,11 +197,11 @@ blockquote {
 	font-style: italic;
 	padding: 15px 20px;
 	background-color: var(--primary-subtle);
-	border-left: 4px solid var(--primary);
+	border-left: 4px solid var(--lamp-glow);
 	border-radius: 0 8px 8px 0;
 	margin: 20px 0;
 	font-size: 1.05em;
-	color: var(--text-secondary);
+	color: var(--ink-mid);
 }
 
 /* Disclaimer/warning box */
@@ -212,7 +212,7 @@ blockquote {
 	border-left: 4px solid var(--warning);
 	border-radius: 0 8px 8px 0;
 	font-size: 0.9rem;
-	color: var(--text-secondary);
+	color: var(--ink-mid);
 
 	p {
 		margin: 0 0 0.5rem 0;
@@ -245,9 +245,9 @@ blockquote {
 	font-weight: 500;
 	font-style: italic;
 	line-height: 1.5;
-	color: var(--text-primary);
-	border-top: 2px solid var(--primary);
-	border-bottom: 2px solid var(--primary);
+	color: var(--ink-bright);
+	border-top: 2px solid var(--lamp-glow);
+	border-bottom: 2px solid var(--lamp-glow);
 	background: linear-gradient(135deg, rgba(45, 212, 191, 0.06) 0%, transparent 100%);
 
 	&::before {
@@ -258,9 +258,9 @@ blockquote {
 		transform: translateX(-50%);
 		font-size: 3rem;
 		font-style: normal;
-		color: var(--primary);
+		color: var(--lamp-glow);
 		line-height: 1;
-		background: var(--bg-deep);
+		background: var(--night-deep);
 		padding: 0 0.5rem;
 	}
 
@@ -270,7 +270,7 @@ blockquote {
 		font-size: 0.85rem;
 		font-weight: 400;
 		font-style: normal;
-		color: var(--text-tertiary);
+		color: var(--ink-dim);
 
 		&::before {
 			content: '— ';
@@ -286,13 +286,13 @@ blockquote {
 	margin: 2rem 0;
 	padding: 1.25rem 1.5rem;
 	border-radius: 10px;
-	background: linear-gradient(135deg, var(--bg-surface) 0%, var(--bg-deep) 100%);
+	background: linear-gradient(135deg, var(--stone-warm) 0%, var(--night-deep) 100%);
 	border: 1px solid rgba(45, 212, 191, 0.2);
 
 	&__number {
 		font-size: 2.5rem;
 		font-weight: 800;
-		color: var(--primary-lighter);
+		color: var(--lamp-glow);
 		line-height: 1;
 		white-space: nowrap;
 		flex-shrink: 0;
@@ -301,7 +301,7 @@ blockquote {
 	&__label {
 		font-size: 0.95rem;
 		line-height: 1.5;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 	}
 }
 
@@ -326,10 +326,10 @@ blockquote {
 	margin: 2rem 0;
 	padding: 1.25rem 1.5rem 1.25rem 3.5rem;
 	border-radius: 10px;
-	background: linear-gradient(135deg, var(--bg-surface) 0%, var(--bg-deep) 100%);
-	border: 1px solid color-mix(in srgb, var(--text-tertiary) 20%, transparent);
+	background: linear-gradient(135deg, var(--stone-warm) 0%, var(--night-deep) 100%);
+	border: 1px solid color-mix(in srgb, var(--ink-dim) 20%, transparent);
 	font-style: italic;
-	color: var(--text-secondary);
+	color: var(--ink-mid);
 	line-height: 1.7;
 
 	&::before {
@@ -343,7 +343,7 @@ blockquote {
 
 	p {
 		margin: 0;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 
 		& + p {
 			margin-top: 0.75rem;
@@ -355,7 +355,7 @@ blockquote {
 		margin-top: 0.75rem;
 		font-size: 0.85rem;
 		font-style: normal;
-		color: var(--text-tertiary);
+		color: var(--ink-dim);
 	}
 }
 
@@ -374,7 +374,7 @@ blockquote {
 		top: 0.5rem;
 		bottom: 0.5rem;
 		width: 2px;
-		background: linear-gradient(180deg, var(--primary) 0%, var(--primary-subtle) 100%);
+		background: linear-gradient(180deg, var(--lamp-glow) 0%, var(--primary-subtle) 100%);
 	}
 
 	&__item,
@@ -394,8 +394,8 @@ blockquote {
 			width: 10px;
 			height: 10px;
 			border-radius: 50%;
-			background: var(--primary);
-			border: 2px solid var(--bg-deep);
+			background: var(--lamp-glow);
+			border: 2px solid var(--night-deep);
 			box-shadow: 0 0 0 2px var(--primary-subtle);
 		}
 
@@ -404,7 +404,7 @@ blockquote {
 			width: 12px;
 			height: 12px;
 			left: 1.0625rem;
-			background: var(--primary-lighter);
+			background: var(--lamp-glow);
 			box-shadow: 0 0 8px var(--primary-glow);
 		}
 	}
@@ -413,12 +413,12 @@ blockquote {
 	.timeline-item {
 		font-size: 0.95rem;
 		line-height: 1.5;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 		display: block;
 
 		strong {
 			font-weight: 700;
-			color: var(--primary-lighter);
+			color: var(--lamp-glow);
 			margin-right: 0.25rem;
 		}
 	}
@@ -426,7 +426,7 @@ blockquote {
 	&__year {
 		font-weight: 700;
 		font-size: 0.9rem;
-		color: var(--primary-lighter);
+		color: var(--lamp-glow);
 		white-space: nowrap;
 		flex-shrink: 0;
 		min-width: 2.5rem;
@@ -435,7 +435,7 @@ blockquote {
 	&__event {
 		font-size: 0.95rem;
 		line-height: 1.5;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 	}
 }
 
@@ -447,19 +447,19 @@ blockquote {
 	margin: 2rem 0;
 	border-radius: 10px;
 	overflow: hidden;
-	border: 1px solid color-mix(in srgb, var(--text-tertiary) 20%, transparent);
+	border: 1px solid color-mix(in srgb, var(--ink-dim) 20%, transparent);
 
 	&__side {
 		padding: 1.25rem;
 		line-height: 1.6;
 
 		&--left {
-			background: linear-gradient(135deg, var(--bg-surface) 0%, var(--bg-deep) 100%);
-			border-right: 1px solid color-mix(in srgb, var(--text-tertiary) 20%, transparent);
+			background: linear-gradient(135deg, var(--stone-warm) 0%, var(--night-deep) 100%);
+			border-right: 1px solid color-mix(in srgb, var(--ink-dim) 20%, transparent);
 		}
 
 		&--right {
-			background: linear-gradient(135deg, rgba(45, 212, 191, 0.08) 0%, var(--bg-deep) 100%);
+			background: linear-gradient(135deg, rgba(45, 212, 191, 0.08) 0%, var(--night-deep) 100%);
 		}
 	}
 
@@ -475,19 +475,19 @@ blockquote {
 	}
 
 	&__side--left &__label {
-		color: var(--text-tertiary);
-		border-color: color-mix(in srgb, var(--text-tertiary) 30%, transparent);
+		color: var(--ink-dim);
+		border-color: color-mix(in srgb, var(--ink-dim) 30%, transparent);
 	}
 
 	&__side--right &__label {
-		color: var(--primary-lighter);
+		color: var(--lamp-glow);
 		border-color: var(--primary-subtle);
 	}
 
 	p {
 		margin: 0 0 0.5rem;
 		font-size: 0.95rem;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 
 		&:last-child {
 			margin-bottom: 0;
@@ -503,8 +503,8 @@ blockquote {
 	margin: 1.5rem 0;
 	padding: 1rem 1.25rem;
 	border-radius: 10px;
-	background: var(--bg-surface);
-	border: 1px solid color-mix(in srgb, var(--text-tertiary) 20%, transparent);
+	background: var(--stone-warm);
+	border: 1px solid color-mix(in srgb, var(--ink-dim) 20%, transparent);
 	text-decoration: none;
 	transition:
 		border-color 0.2s ease,
@@ -530,20 +530,20 @@ blockquote {
 	&__title {
 		font-size: 0.95rem;
 		font-weight: 600;
-		color: var(--text-primary);
+		color: var(--ink-bright);
 		margin: 0 0 0.25rem;
 		line-height: 1.4;
 	}
 
 	&__meta {
 		font-size: 0.8rem;
-		color: var(--text-tertiary);
+		color: var(--ink-dim);
 		margin: 0;
 	}
 
 	&__note {
 		font-size: 0.85rem;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 		margin: 0.5rem 0 0;
 		line-height: 1.5;
 		font-style: italic;
@@ -564,7 +564,7 @@ blockquote {
 		padding: 0.625rem 1rem;
 		border-radius: 8px;
 		background: rgba(255, 255, 255, 0.02);
-		border-left: 3px solid var(--bg-elevated);
+		border-left: 3px solid var(--stone-warm);
 	}
 
 	&__speaker {
@@ -572,7 +572,7 @@ blockquote {
 		font-weight: 700;
 		text-transform: uppercase;
 		letter-spacing: 0.03em;
-		color: var(--primary-lighter);
+		color: var(--lamp-glow);
 		white-space: nowrap;
 		flex-shrink: 0;
 		min-width: 5rem;
@@ -581,7 +581,7 @@ blockquote {
 	&__text {
 		font-size: 0.95rem;
 		line-height: 1.6;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 	}
 
 	/* Alternate speaker gets a different accent */
@@ -596,7 +596,7 @@ blockquote {
 	&__context {
 		font-size: 0.8rem;
 		font-style: italic;
-		color: var(--text-tertiary);
+		color: var(--ink-dim);
 		padding: 0.25rem 1rem;
 		text-align: center;
 	}
@@ -608,11 +608,11 @@ blockquote {
 	margin: 2rem 0;
 	padding: 1rem 1.25rem 1rem 3.25rem;
 	border-radius: 10px;
-	background: var(--bg-surface);
-	border: 1px solid color-mix(in srgb, var(--text-tertiary) 15%, transparent);
+	background: var(--stone-warm);
+	border: 1px solid color-mix(in srgb, var(--ink-dim) 15%, transparent);
 	font-size: 0.9rem;
 	line-height: 1.65;
-	color: var(--text-secondary);
+	color: var(--ink-mid);
 
 	&::before {
 		content: '\2139\FE0F';
@@ -624,7 +624,7 @@ blockquote {
 
 	&__title {
 		font-weight: 700;
-		color: var(--text-primary);
+		color: var(--ink-bright);
 		font-size: 0.85rem;
 		text-transform: uppercase;
 		letter-spacing: 0.03em;
@@ -650,16 +650,16 @@ blockquote {
 	border-radius: 12px;
 	background: linear-gradient(
 		180deg,
-		color-mix(in srgb, var(--primary) 6%, var(--bg-surface)) 0%,
-		var(--bg-surface) 100%
+		color-mix(in srgb, var(--lamp-glow) 6%, var(--stone-warm)) 0%,
+		var(--stone-warm) 100%
 	);
-	border: 1px solid color-mix(in srgb, var(--primary) 25%, transparent);
+	border: 1px solid color-mix(in srgb, var(--lamp-glow) 25%, transparent);
 	padding: 0;
 	overflow: hidden;
 	transition: border-color 0.2s ease;
 
 	&:hover {
-		border-color: color-mix(in srgb, var(--primary) 40%, transparent);
+		border-color: color-mix(in srgb, var(--lamp-glow) 40%, transparent);
 	}
 
 	/* Override the default .accordion summary chrome */
@@ -667,7 +667,7 @@ blockquote {
 		padding: 1rem 1.25rem 1rem 3rem;
 		font-size: 1rem;
 		font-weight: 600;
-		color: var(--text-primary);
+		color: var(--ink-bright);
 		background: transparent;
 		position: relative;
 		list-style: none;
@@ -692,14 +692,14 @@ blockquote {
 			top: 50%;
 			transform: translateY(-50%);
 			font-size: 1.4rem;
-			color: var(--primary-light);
+			color: var(--lamp-glow);
 			transition: transform 0.2s ease;
 			line-height: 1;
 		}
 
 		&:hover {
-			background: color-mix(in srgb, var(--primary) 8%, transparent);
-			color: var(--primary-light);
+			background: color-mix(in srgb, var(--lamp-glow) 8%, transparent);
+			color: var(--lamp-glow);
 		}
 	}
 
@@ -712,12 +712,12 @@ blockquote {
 	> .panel > .rabbit-hole__intro {
 		display: block;
 		font-size: 0.85rem;
-		color: var(--text-tertiary);
+		color: var(--ink-dim);
 		font-style: italic;
 		margin: 0 0 1rem;
 		padding: 0.5rem 0.75rem;
-		background: color-mix(in srgb, var(--text-tertiary) 8%, transparent);
-		border-left: 2px solid color-mix(in srgb, var(--primary) 30%, transparent);
+		background: color-mix(in srgb, var(--ink-dim) 8%, transparent);
+		border-left: 2px solid color-mix(in srgb, var(--lamp-glow) 30%, transparent);
 		border-radius: 4px;
 	}
 
@@ -729,10 +729,10 @@ blockquote {
 		h3 {
 			font-size: 1.05rem;
 			font-weight: 700;
-			color: var(--text-primary);
+			color: var(--ink-bright);
 			margin: 1.5rem 0 0.5rem;
 			padding-bottom: 0.35rem;
-			border-bottom: 1px solid color-mix(in srgb, var(--primary) 18%, transparent);
+			border-bottom: 1px solid color-mix(in srgb, var(--lamp-glow) 18%, transparent);
 
 			&:first-of-type {
 				margin-top: 0.25rem;
@@ -741,16 +741,16 @@ blockquote {
 
 		p {
 			margin: 0 0 0.85rem;
-			color: var(--text-secondary);
+			color: var(--ink-mid);
 		}
 
 		a {
-			color: var(--primary-light);
+			color: var(--lamp-glow);
 			text-decoration: underline;
 			text-underline-offset: 2px;
 
 			&:hover {
-				color: var(--primary);
+				color: var(--lamp-glow);
 			}
 		}
 	}
@@ -837,7 +837,7 @@ blockquote {
 
 			&--left {
 				border-right: none;
-				border-bottom: 1px solid color-mix(in srgb, var(--text-tertiary) 20%, transparent);
+				border-bottom: 1px solid color-mix(in srgb, var(--ink-dim) 20%, transparent);
 			}
 		}
 	}
@@ -946,8 +946,8 @@ blockquote {
 
 	/* Enhanced code blocks */
 	pre {
-		background-color: var(--bg-base);
-		border: 1px solid color-mix(in srgb, var(--text-tertiary) 30%, transparent);
+		background-color: var(--night-deep);
+		border: 1px solid color-mix(in srgb, var(--ink-dim) 30%, transparent);
 		border-radius: 8px;
 		padding: 1rem;
 		margin: 1.5rem 0;
@@ -957,8 +957,8 @@ blockquote {
 
 	/* Inline code styling */
 	code {
-		background-color: var(--bg-elevated);
-		color: var(--primary-lighter);
+		background-color: var(--stone-warm);
+		color: var(--lamp-glow);
 		padding: 0.2rem 0.4rem;
 		border-radius: 4px;
 		font-size: 0.9em;
@@ -972,16 +972,16 @@ blockquote {
 
 		th,
 		td {
-			border: 1px solid color-mix(in srgb, var(--text-tertiary) 30%, transparent);
+			border: 1px solid color-mix(in srgb, var(--ink-dim) 30%, transparent);
 			padding: 0.75rem;
 			text-align: left;
-			color: var(--text-secondary);
+			color: var(--ink-mid);
 		}
 
 		th {
-			background-color: var(--bg-surface);
+			background-color: var(--stone-warm);
 			font-weight: 600;
-			color: var(--text-primary);
+			color: var(--ink-bright);
 		}
 
 		tr:nth-child(even) {

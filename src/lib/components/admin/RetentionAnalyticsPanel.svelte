@@ -313,11 +313,11 @@
 
 	function getHeatStyle(pct: number, mature: boolean): string {
 		if (!mature) {
-			return 'background: color-mix(in srgb, var(--bg-surface) 82%, var(--bg-deep)); border-color: color-mix(in srgb, var(--bg-elevated) 86%, transparent);';
+			return 'background: color-mix(in srgb, var(--stone-warm) 82%, var(--night-deep)); border-color: color-mix(in srgb, var(--stone-warm) 86%, transparent);';
 		}
 
 		const intensity = Math.max(16, Math.min(78, 16 + pct * 0.85));
-		return `background: color-mix(in srgb, var(--primary) ${intensity}%, var(--bg-deep)); border-color: color-mix(in srgb, var(--primary) ${Math.max(26, intensity - 10)}%, transparent);`;
+		return `background: color-mix(in srgb, var(--lamp-glow) ${intensity}%, var(--night-deep)); border-color: color-mix(in srgb, var(--lamp-glow) ${Math.max(26, intensity - 10)}%, transparent);`;
 	}
 
 	function getSignedDelta(value: number, suffix = ''): string {
@@ -1077,8 +1077,8 @@
 <style>
 	.filter-card,
 	.panel-card {
-		background: var(--bg-surface);
-		border: 1px solid var(--bg-elevated);
+		background: var(--stone-warm);
+		border: 1px solid var(--stone-warm);
 		border-radius: 12px;
 		padding: 14px;
 	}
@@ -1100,16 +1100,16 @@
 
 	.field span {
 		font-size: 0.8rem;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 	}
 
 	.field input,
 	.field select {
-		background: var(--bg-deep);
-		border: 1px solid var(--bg-elevated);
+		background: var(--night-deep);
+		border: 1px solid var(--stone-warm);
 		border-radius: 8px;
 		padding: 8px 10px;
-		color: var(--text-primary);
+		color: var(--ink-bright);
 	}
 
 	.field select:disabled {
@@ -1124,7 +1124,7 @@
 	}
 
 	.btn {
-		border: 1px solid var(--bg-elevated);
+		border: 1px solid var(--stone-warm);
 		border-radius: 8px;
 		padding: 8px 12px;
 		font-weight: 600;
@@ -1139,20 +1139,20 @@
 	}
 
 	.btn-primary {
-		background: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%);
+		background: linear-gradient(135deg, var(--lamp-glow) 0%, var(--lamp-glow) 100%);
 		color: #fff;
-		border-color: var(--primary);
+		border-color: var(--lamp-glow);
 	}
 
 	.btn-secondary {
-		background: var(--bg-deep);
-		color: var(--text-primary);
+		background: var(--night-deep);
+		color: var(--ink-bright);
 	}
 
 	.cohort-note {
 		margin: 10px 0 0;
 		font-size: 0.82rem;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 		line-height: 1.45;
 	}
 
@@ -1163,8 +1163,8 @@
 	}
 
 	.summary-card {
-		background: var(--bg-surface);
-		border: 1px solid var(--bg-elevated);
+		background: var(--stone-warm);
+		border: 1px solid var(--stone-warm);
 		border-radius: 12px;
 		padding: 14px;
 		display: flex;
@@ -1173,29 +1173,29 @@
 	}
 
 	.summary-card.tone-positive {
-		border-color: color-mix(in srgb, #22c55e 40%, var(--bg-elevated));
+		border-color: color-mix(in srgb, #22c55e 40%, var(--stone-warm));
 	}
 
 	.summary-card.tone-negative {
-		border-color: color-mix(in srgb, #f97316 48%, var(--bg-elevated));
+		border-color: color-mix(in srgb, #f97316 48%, var(--stone-warm));
 	}
 
 	.summary-label {
 		font-size: 0.78rem;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 		text-transform: uppercase;
 		letter-spacing: 0.04em;
 	}
 
 	.summary-value {
 		font-size: 1.1rem;
-		color: var(--text-primary);
+		color: var(--ink-bright);
 	}
 
 	.summary-note,
 	.summary-delta {
 		font-size: 0.8rem;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 		line-height: 1.4;
 	}
 
@@ -1219,13 +1219,13 @@
 	.panel-header p {
 		margin: 4px 0 0;
 		font-size: 0.84rem;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 		line-height: 1.45;
 	}
 
 	.table-wrapper {
 		overflow-x: auto;
-		border: 1px solid var(--bg-elevated);
+		border: 1px solid var(--stone-warm);
 		border-radius: 8px;
 	}
 
@@ -1238,14 +1238,14 @@
 	.data-table th,
 	.data-table td {
 		padding: 10px 10px;
-		border-bottom: 1px solid var(--bg-elevated);
+		border-bottom: 1px solid var(--stone-warm);
 		text-align: left;
 		vertical-align: middle;
 	}
 
 	.data-table th {
-		background: var(--bg-deep);
-		color: var(--text-secondary);
+		background: var(--night-deep);
+		color: var(--ink-mid);
 		font-size: 0.75rem;
 		text-transform: uppercase;
 		letter-spacing: 0.04em;
@@ -1259,12 +1259,12 @@
 
 	.empty {
 		text-align: center;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 		padding: 18px 12px;
 	}
 
 	.selected-row {
-		background: color-mix(in srgb, var(--primary) 7%, transparent);
+		background: color-mix(in srgb, var(--lamp-glow) 7%, transparent);
 	}
 
 	.surface-cell {
@@ -1307,7 +1307,7 @@
 	.drilldown-banner p {
 		margin: 6px 0 0;
 		font-size: 0.84rem;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 		line-height: 1.45;
 	}
 
@@ -1319,18 +1319,18 @@
 	}
 
 	.segment-pill {
-		background: color-mix(in srgb, var(--primary) 22%, var(--bg-deep));
-		color: var(--text-primary);
+		background: color-mix(in srgb, var(--lamp-glow) 22%, var(--night-deep));
+		color: var(--ink-bright);
 	}
 
 	.segment-pill-secondary {
-		background: color-mix(in srgb, #7dd3fc 20%, var(--bg-deep));
+		background: color-mix(in srgb, #7dd3fc 20%, var(--night-deep));
 	}
 
 	.table-action {
-		background: var(--bg-deep);
-		color: var(--text-primary);
-		border: 1px solid var(--bg-elevated);
+		background: var(--night-deep);
+		color: var(--ink-bright);
+		border: 1px solid var(--stone-warm);
 		border-radius: 999px;
 		padding: 6px 10px;
 		font-size: 0.76rem;
@@ -1339,8 +1339,8 @@
 	}
 
 	.table-action.is-selected {
-		background: color-mix(in srgb, var(--primary) 16%, var(--bg-deep));
-		border-color: color-mix(in srgb, var(--primary) 36%, var(--bg-elevated));
+		background: color-mix(in srgb, var(--lamp-glow) 16%, var(--night-deep));
+		border-color: color-mix(in srgb, var(--lamp-glow) 36%, var(--stone-warm));
 	}
 
 	.week-cell {
@@ -1356,7 +1356,7 @@
 
 	.week-cell span {
 		font-size: 0.75rem;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 	}
 
 	.metric-cell {
@@ -1371,18 +1371,18 @@
 
 	.metric-cell strong {
 		font-size: 0.84rem;
-		color: var(--text-primary);
+		color: var(--ink-bright);
 	}
 
 	.metric-cell span {
 		font-size: 0.72rem;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 		line-height: 1.35;
 	}
 
 	.metric-cell.is-muted strong,
 	.metric-cell.is-muted span {
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 	}
 
 	.acquisition-panel {
@@ -1399,9 +1399,9 @@
 	.acquisition-summary-card,
 	.acquisition-chart-card,
 	.acquisition-legend-card {
-		border: 1px solid var(--bg-elevated);
+		border: 1px solid var(--stone-warm);
 		border-radius: 10px;
-		background: color-mix(in srgb, var(--bg-surface) 72%, var(--bg-deep));
+		background: color-mix(in srgb, var(--stone-warm) 72%, var(--night-deep));
 	}
 
 	.acquisition-summary-card {
@@ -1415,17 +1415,17 @@
 		font-size: 0.72rem;
 		text-transform: uppercase;
 		letter-spacing: 0.04em;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 	}
 
 	.acquisition-summary-value {
 		font-size: 1rem;
-		color: var(--text-primary);
+		color: var(--ink-bright);
 	}
 
 	.acquisition-summary-note {
 		font-size: 0.76rem;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 		line-height: 1.35;
 	}
 
@@ -1445,7 +1445,7 @@
 		gap: 12px;
 		margin-bottom: 10px;
 		font-size: 0.77rem;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 	}
 
 	.acquisition-weeks {
@@ -1468,12 +1468,12 @@
 
 	.acquisition-week-label {
 		font-size: 0.84rem;
-		color: var(--text-primary);
+		color: var(--ink-bright);
 	}
 
 	.acquisition-week-note {
 		font-size: 0.74rem;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 	}
 
 	.acquisition-week-bar {
@@ -1482,8 +1482,8 @@
 		display: flex;
 		overflow: hidden;
 		border-radius: 999px;
-		border: 1px solid color-mix(in srgb, var(--bg-elevated) 80%, transparent);
-		background: color-mix(in srgb, var(--bg-deep) 92%, black 8%);
+		border: 1px solid color-mix(in srgb, var(--stone-warm) 80%, transparent);
+		background: color-mix(in srgb, var(--night-deep) 92%, black 8%);
 	}
 
 	.acquisition-segment {
@@ -1529,12 +1529,12 @@
 		gap: 2px;
 		min-width: 56px;
 		font-size: 0.75rem;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 	}
 
 	.acquisition-week-total strong {
 		font-size: 0.88rem;
-		color: var(--text-primary);
+		color: var(--ink-bright);
 	}
 
 	.acquisition-legend-header {
@@ -1552,7 +1552,7 @@
 
 	.acquisition-legend-header span {
 		font-size: 0.77rem;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 	}
 
 	.acquisition-source-list {
@@ -1565,7 +1565,7 @@
 		grid-template-columns: minmax(0, 1fr) auto;
 		gap: 6px 12px;
 		padding: 10px 0 0;
-		border-top: 1px solid color-mix(in srgb, var(--bg-elevated) 75%, transparent);
+		border-top: 1px solid color-mix(in srgb, var(--stone-warm) 75%, transparent);
 		background: transparent;
 		text-align: left;
 		width: 100%;
@@ -1581,7 +1581,7 @@
 	}
 
 	.acquisition-source-row.is-selected {
-		background: color-mix(in srgb, var(--primary) 6%, transparent);
+		background: color-mix(in srgb, var(--lamp-glow) 6%, transparent);
 		border-radius: 8px;
 		padding-left: 8px;
 		padding-right: 8px;
@@ -1612,12 +1612,12 @@
 
 	.acquisition-source-copy strong {
 		font-size: 0.84rem;
-		color: var(--text-primary);
+		color: var(--ink-bright);
 	}
 
 	.acquisition-source-copy span {
 		font-size: 0.75rem;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 	}
 
 	.acquisition-source-metrics {
@@ -1626,13 +1626,13 @@
 		align-items: flex-end;
 		gap: 2px;
 		font-size: 0.76rem;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 		white-space: nowrap;
 	}
 
 	.acquisition-source-metrics strong {
 		font-size: 0.84rem;
-		color: var(--text-primary);
+		color: var(--ink-bright);
 	}
 
 	.acquisition-source-track {
@@ -1640,7 +1640,7 @@
 		height: 6px;
 		overflow: hidden;
 		border-radius: 999px;
-		background: color-mix(in srgb, var(--bg-deep) 92%, black 8%);
+		background: color-mix(in srgb, var(--night-deep) 92%, black 8%);
 	}
 
 	.acquisition-source-fill {
@@ -1656,10 +1656,10 @@
 
 	.empty-panel {
 		padding: 14px;
-		border: 1px dashed var(--bg-elevated);
+		border: 1px dashed var(--stone-warm);
 		border-radius: 10px;
 		text-align: center;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 		font-size: 0.9rem;
 	}
 

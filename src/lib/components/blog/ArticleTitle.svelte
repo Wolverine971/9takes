@@ -30,7 +30,7 @@
 <style>
 	h1 {
 		text-wrap: balance;
-		color: var(--text-primary);
+		color: var(--ink-bright);
 	}
 	h2 {
 		margin: 0;
@@ -40,15 +40,15 @@
 		margin: 0;
 		font-size: 1.8rem;
 		font-weight: bolder;
-		color: var(--text-primary);
+		color: var(--ink-bright);
 	}
 	.heading a {
-		color: var(--accent-light);
+		color: var(--lamp-glow);
 		text-decoration: none;
 		transition: color 0.2s ease;
 	}
 	.heading a:hover {
-		color: var(--primary-lightest);
+		color: var(--lamp-glow);
 	}
 	.large {
 		margin-top: calc(var(--spacing-unit) * 1);

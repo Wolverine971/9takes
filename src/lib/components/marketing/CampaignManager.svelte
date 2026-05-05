@@ -1057,7 +1057,7 @@
 		display: flex;
 		gap: 0;
 		margin-bottom: 1.5rem;
-		border-bottom: 2px solid var(--bg-elevated);
+		border-bottom: 2px solid var(--stone-warm);
 	}
 
 	.tab-btn {
@@ -1067,7 +1067,7 @@
 		padding: 0.75rem 1.25rem;
 		font-size: 0.875rem;
 		font-weight: 500;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 		background: none;
 		border: none;
 		border-bottom: 2px solid transparent;
@@ -1077,12 +1077,12 @@
 	}
 
 	.tab-btn:hover {
-		color: var(--text-primary);
+		color: var(--ink-bright);
 	}
 
 	.tab-btn.active {
-		color: var(--primary);
-		border-bottom-color: var(--primary);
+		color: var(--lamp-glow);
+		border-bottom-color: var(--lamp-glow);
 	}
 
 	.tab-count {
@@ -1094,8 +1094,8 @@
 		font-size: 0.6875rem;
 		font-weight: 600;
 		border-radius: 9999px;
-		background: var(--bg-elevated);
-		color: var(--text-secondary);
+		background: var(--stone-warm);
+		color: var(--ink-mid);
 	}
 
 	/* List Toolbar */
@@ -1117,10 +1117,10 @@
 	.filter-select {
 		padding: 0.375rem 2rem 0.375rem 0.75rem;
 		font-size: 0.8125rem;
-		border: 1px solid var(--bg-elevated);
+		border: 1px solid var(--stone-warm);
 		border-radius: 8px;
-		background: var(--bg-deep);
-		color: var(--text-primary);
+		background: var(--night-deep);
+		color: var(--ink-bright);
 		appearance: none;
 		background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 24 24' fill='none' stroke='%2364748b' stroke-width='2'%3E%3Cpath d='m6 9 6 6 6-6'/%3E%3C/svg%3E");
 		background-repeat: no-repeat;
@@ -1137,23 +1137,23 @@
 		left: 0.625rem;
 		top: 50%;
 		transform: translateY(-50%);
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 		pointer-events: none;
 	}
 
 	.search-input {
 		padding: 0.375rem 0.75rem 0.375rem 2rem;
 		font-size: 0.8125rem;
-		border: 1px solid var(--bg-elevated);
+		border: 1px solid var(--stone-warm);
 		border-radius: 8px;
-		background: var(--bg-deep);
-		color: var(--text-primary);
+		background: var(--night-deep);
+		color: var(--ink-bright);
 		width: 200px;
 	}
 
 	.search-input:focus {
 		outline: none;
-		border-color: var(--primary);
+		border-color: var(--lamp-glow);
 	}
 
 	/* Campaign Grid */
@@ -1164,8 +1164,8 @@
 	}
 
 	.campaign-card {
-		background: var(--bg-surface);
-		border: 1px solid var(--bg-elevated);
+		background: var(--stone-warm);
+		border: 1px solid var(--stone-warm);
 		border-radius: 12px;
 		overflow: hidden;
 		transition: box-shadow 0.15s ease;
@@ -1195,7 +1195,7 @@
 		margin: 0;
 		font-size: 1.125rem;
 		font-weight: 700;
-		color: var(--text-primary);
+		color: var(--ink-bright);
 	}
 
 	.card-description {
@@ -1205,7 +1205,7 @@
 	.card-description p {
 		margin: 0;
 		font-size: 0.875rem;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 	}
 
 	.no-description {
@@ -1216,7 +1216,7 @@
 	.card-dates {
 		font-size: 0.875rem;
 		font-weight: 500;
-		color: var(--text-primary);
+		color: var(--ink-bright);
 		margin-bottom: 0.5rem;
 	}
 
@@ -1232,7 +1232,7 @@
 		display: block;
 		font-size: 0.6875rem;
 		font-weight: 500;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 		margin-bottom: 0.25rem;
 	}
 
@@ -1247,8 +1247,8 @@
 		padding: 0.125rem 0.5rem;
 		font-size: 0.75rem;
 		border-radius: 9999px;
-		background: var(--bg-elevated);
-		color: var(--text-primary);
+		background: var(--stone-warm);
+		color: var(--ink-bright);
 	}
 
 	.card-hashtags {
@@ -1257,7 +1257,7 @@
 
 	.hashtags-value {
 		font-size: 0.875rem;
-		color: var(--primary);
+		color: var(--lamp-glow);
 	}
 
 	.card-actions {
@@ -1303,8 +1303,8 @@
 	}
 
 	.badge-gray {
-		background: var(--bg-elevated);
-		color: var(--text-secondary);
+		background: var(--stone-warm);
+		color: var(--ink-mid);
 	}
 
 	/* Buttons */
@@ -1332,7 +1332,7 @@
 	}
 
 	.btn-primary {
-		background: var(--primary);
+		background: var(--lamp-glow);
 		color: white;
 	}
 
@@ -1347,12 +1347,12 @@
 	}
 
 	.btn-secondary {
-		background: var(--bg-elevated);
-		color: var(--text-primary);
+		background: var(--stone-warm);
+		color: var(--ink-bright);
 	}
 
 	.btn-secondary:hover {
-		background: var(--bg-highlight);
+		background: var(--stone-warm);
 	}
 
 	.btn-danger {
@@ -1400,7 +1400,7 @@
 		margin: 0;
 		font-size: 1rem;
 		font-weight: 700;
-		color: var(--text-primary);
+		color: var(--ink-bright);
 	}
 
 	/* Fields */
@@ -1414,23 +1414,23 @@
 	.field-label {
 		font-size: 0.8125rem;
 		font-weight: 500;
-		color: var(--text-primary);
+		color: var(--ink-bright);
 	}
 
 	.field-input {
 		width: 100%;
 		padding: 0.5rem 0.75rem;
 		font-size: 0.875rem;
-		border: 1px solid var(--bg-elevated);
+		border: 1px solid var(--stone-warm);
 		border-radius: 8px;
-		background: var(--bg-deep);
-		color: var(--text-primary);
+		background: var(--night-deep);
+		color: var(--ink-bright);
 		transition: border-color 0.15s ease;
 	}
 
 	.field-input:focus {
 		outline: none;
-		border-color: var(--primary);
+		border-color: var(--lamp-glow);
 	}
 
 	.field-textarea {
@@ -1477,9 +1477,9 @@
 		padding: 0.625rem 0.75rem;
 		font-size: 0.8125rem;
 		font-weight: 500;
-		color: var(--text-primary);
-		background: var(--bg-elevated);
-		border: 1px solid var(--bg-elevated);
+		color: var(--ink-bright);
+		background: var(--stone-warm);
+		border: 1px solid var(--stone-warm);
 		border-radius: 8px;
 		cursor: pointer;
 		width: 100%;
@@ -1500,14 +1500,14 @@
 		flex-direction: column;
 		gap: 0.75rem;
 		padding: 0.75rem;
-		background: var(--bg-deep);
+		background: var(--night-deep);
 		border-radius: 8px;
 	}
 
 	/* Create Panel */
 	.create-panel {
-		background: var(--bg-surface);
-		border: 1px solid var(--bg-elevated);
+		background: var(--stone-warm);
+		border: 1px solid var(--stone-warm);
 		border-radius: 12px;
 		padding: 1.5rem;
 		max-width: 56rem;
@@ -1518,9 +1518,9 @@
 		margin: 0 0 1.5rem 0;
 		font-size: 1.25rem;
 		font-weight: 700;
-		color: var(--text-primary);
+		color: var(--ink-bright);
 		padding-bottom: 1rem;
-		border-bottom: 1px solid var(--bg-elevated);
+		border-bottom: 1px solid var(--stone-warm);
 	}
 
 	.template-section {
@@ -1531,7 +1531,7 @@
 		margin: 0 0 0.75rem 0;
 		font-size: 0.875rem;
 		font-weight: 500;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 	}
 
 	.template-grid {
@@ -1546,15 +1546,15 @@
 		gap: 0.75rem;
 		padding: 0.75rem;
 		text-align: left;
-		background: var(--bg-deep);
-		border: 1px solid var(--bg-elevated);
+		background: var(--night-deep);
+		border: 1px solid var(--stone-warm);
 		border-radius: 8px;
 		cursor: pointer;
 		transition: all 0.15s ease;
 	}
 
 	.template-btn:hover {
-		border-color: var(--primary);
+		border-color: var(--lamp-glow);
 	}
 
 	.template-icon {
@@ -1577,12 +1577,12 @@
 	.template-name {
 		font-size: 0.8125rem;
 		font-weight: 600;
-		color: var(--text-primary);
+		color: var(--ink-bright);
 	}
 
 	.template-desc {
 		font-size: 0.6875rem;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 	}
 
 	.create-form {
@@ -1602,8 +1602,8 @@
 	.empty-state {
 		padding: 3rem 2rem;
 		text-align: center;
-		color: var(--text-secondary);
-		border: 1px dashed var(--bg-elevated);
+		color: var(--ink-mid);
+		border: 1px dashed var(--stone-warm);
 		border-radius: 12px;
 	}
 

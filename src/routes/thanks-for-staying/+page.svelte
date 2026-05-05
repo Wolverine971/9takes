@@ -15,13 +15,13 @@
 	.confirmation {
 		width: min(100% - 2rem, 34rem);
 		margin: 8rem auto;
-		color: var(--text-primary);
+		color: var(--ink-bright);
 	}
 
 	.brand {
 		display: inline-block;
 		margin-bottom: 2rem;
-		color: var(--text-primary);
+		color: var(--ink-bright);
 		font-weight: 700;
 		text-decoration: none;
 	}
@@ -34,7 +34,7 @@
 
 	p {
 		margin: 0 0 1.5rem;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 		font-size: 1.05rem;
 		line-height: 1.6;
 	}
@@ -46,8 +46,8 @@
 		min-height: 2.75rem;
 		padding: 0 1rem;
 		border-radius: 0.375rem;
-		background: var(--text-primary);
-		color: var(--bg-base);
+		background: var(--ink-bright);
+		color: var(--night-deep);
 		font-weight: 650;
 		text-decoration: none;
 	}

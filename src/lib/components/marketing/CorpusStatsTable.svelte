@@ -91,7 +91,7 @@
 	.corpus-table th,
 	.corpus-table td {
 		padding: 0.55rem 0.75rem;
-		border-bottom: 1px solid var(--border-color);
+		border-bottom: 1px solid var(--stone-edge);
 		text-align: left;
 		vertical-align: baseline;
 	}

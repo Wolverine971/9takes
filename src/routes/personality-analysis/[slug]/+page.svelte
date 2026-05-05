@@ -1,4 +1,21 @@
 <!-- src/routes/personality-analysis/[slug]/+page.svelte -->
+<!--
+  /personality-analysis/[slug] — Streetlamp Symposium V5.
+  Phase 5 page #2 of docs/design/2026-05-04-rollout-plan.md.
+
+  Restyle, don't rewrite: long-form blog page wrapped in a V5 case-file
+  header. All imported blog components (ArticleTitle, ArticleSubTitle,
+  PeopleBlogPageHead, TableOfContents, PeopleSuggestionsSideBar,
+  RelatedPosts, AuthorBio, BlogPurpose, QuickAnswer, BookSessionCTA, PopCard)
+  are preserved — only the layout chrome and scoped styles migrate.
+
+  Stays in Svelte 4 syntax (`export let`, `$:`) because the contentStore /
+  onMount / mount / afterUpdate / $page wiring would ripple if converted to
+  runes. Runes migration belongs in a follow-up sub-pass.
+
+  Bridge tokens (--lamp-*, --night-*, --stone-*, --ink-*, --data-*,
+  --type-N-color) ship globally in src/scss/index.scss.
+-->
 <script lang="ts">
 	import { onMount, tick, afterUpdate } from 'svelte';
 	import { mount, unmount } from 'svelte';
@@ -10,6 +27,8 @@
 		buildPersonalityImagePath,
 		formatPersonalityDisplayName
 	} from '$lib/utils/personalityAnalysis';
+	import { ENNEAGRAM_TYPE_COLORS } from '$lib/constants/enneagramColors';
+	import { SectionKicker } from '$lib/components/atoms';
 
 	// Only import critical components for initial render
 	import PeopleBlogPageHead from '$lib/components/blog/PeopleBlogPageHead.svelte';
@@ -24,6 +43,7 @@
 
 	import BlogPurpose from '$lib/components/blog/BlogPurpose.svelte';
 	import QuickAnswer from '$lib/components/blog/callouts/QuickAnswer.svelte';
+	import BookSessionCTA from '$lib/components/blog/callouts/BookSessionCTA.svelte';
 	import AuthorBio from '$lib/components/blog/AuthorBio.svelte';
 
 	export let data: PageData;
@@ -148,6 +168,63 @@
 		postMeta.person || postMeta.slug
 	);
 
+	// ------------------------------------------------------------------
+	// V5 case-file header — derived data lines.
+	// blogs_famous_people does NOT carry core_fear / core_desire /
+	// stress_line / growth_line columns, so the dossier core line is
+	// built from type metadata (name + title) instead. If those columns
+	// are added in the future, this is the place to wire them in.
+	// ------------------------------------------------------------------
+	$: typeNum = toEnneagramNumber(postMeta.enneagram);
+	$: typeMeta = typeNum ? ENNEAGRAM_TYPE_COLORS[typeNum] : null;
+	$: typeName = typeMeta?.name ?? '';
+	$: typeNameUpper = typeName ? typeName.toUpperCase() : '';
+	$: personaTitle = toStringValue(postMeta.persona_title).trim();
+	$: personaUpper = personaTitle ? personaTitle.toUpperCase() : typeNameUpper;
+	$: thumbImagePath = buildPersonalityImagePath(
+		postMeta.enneagram,
+		postMeta.person || postMeta.slug,
+		'thumbnail'
+	);
+
+	// Deterministic 4-digit dossier number — predictable per-slug so the
+	// catalog feels real. Same person → same №.
+	function fileNumber(seed: string): string {
+		let h = 0;
+		for (let i = 0; i < seed.length; i++) {
+			h = (h * 31 + seed.charCodeAt(i)) | 0;
+		}
+		return String(Math.abs(h) % 10000).padStart(4, '0');
+	}
+
+	$: dossierNum = fileNumber(postMeta.slug || postMeta.person || '');
+
+	// Format readable last-observed date for the mono coordinate line.
+	function formatObservedDate(value: string | null | undefined): string {
+		if (!value) return '';
+		const literal = value.match(/^(\d{4})-(\d{2})-(\d{2})/);
+		if (literal) return `${literal[1]}-${literal[2]}-${literal[3]}`;
+		const parsed = new Date(value);
+		if (Number.isNaN(parsed.getTime())) return '';
+		return parsed.toISOString().slice(0, 10);
+	}
+
+	function formatTimeRequired(value: string | null | undefined): string {
+		if (!value) return '';
+		const m = String(value).match(/^PT(\d+)M$/i);
+		if (m) return `${m[1]} MIN READ`;
+		return String(value).toUpperCase();
+	}
+
+	function formatWordCount(value: number | null | undefined): string {
+		if (typeof value !== 'number' || !Number.isFinite(value) || value <= 0) return '';
+		return `${value.toLocaleString()} WORDS`;
+	}
+
+	$: observedDate = formatObservedDate(postMeta.lastmod || postMeta.date);
+	$: wordCountLabel = formatWordCount(postMeta.word_count);
+	$: timeRequiredLabel = formatTimeRequired(postMeta.time_required);
+
 	// Table of Contents support
 	const contentStore = writable('');
 	let contentObserver: MutationObserver | null = null;
@@ -162,9 +239,6 @@
 	let BlogInteract: typeof import('$lib/components/blog/BlogInteract.svelte').default | undefined;
 	let SuggestFamousPerson:
 		| typeof import('$lib/components/molecules/SuggestFamousPerson.svelte').default
-		| undefined;
-	let EnneagramCTASidebar:
-		| typeof import('$lib/components/blog/EnneagramCTASidebar.svelte').default
 		| undefined;
 
 	// Set up lazy loading for components
@@ -312,13 +386,6 @@
 			{ rootMargin: '200px' }
 		); // Load when element is 200px from viewport
 
-		// Load sidebar components (lower priority but still above the fold)
-		Promise.all([import('$lib/components/blog/EnneagramCTASidebar.svelte')]).then(
-			([enneagramModule]) => {
-				EnneagramCTASidebar = enneagramModule.default;
-			}
-		);
-
 		// Load SuggestFamousPerson component (lowest priority)
 		if (!data?.user) {
 			import('$lib/components/molecules/SuggestFamousPerson.svelte').then((module) => {
@@ -381,39 +448,129 @@
 	});
 </script>
 
-<article class="blog">
-	<div class="article-header">
-		{#key post.slug}
-			<PeopleBlogPageHead data={postMeta} />
-			<ArticleTitle title={postMeta.title} structuredData={false} />
-			<ArticleSubTitle metaData={postMeta} structuredData={false} />
-		{/key}
-	</div>
+<!-- SEO head — pure metadata, must run early. -->
+{#key post.slug}
+	<PeopleBlogPageHead data={postMeta} />
+{/key}
 
-	<div class="featured-image">
-		<PopCard
-			image={postImagePath}
-			showIcon={false}
-			enneagramType={toEnneagramNumber(postMeta.enneagram)}
-			displayText={postDisplayName}
-			priority={true}
-			scramble={false}
-			aspectRatio="1/1"
-			subtext={toStringValue(post.persona_title)}
-		/>
-	</div>
-	<TableOfContents
-		{contentStore}
-		headings={data.headings}
-		sidePosition="right"
-		renderMode="accordion-only"
-	/>
+<article
+	class="dossier-page"
+	style="--type-stripe: {typeNum ? `var(--type-${typeNum}-color)` : 'var(--lamp-glow)'};"
+>
+	<!-- =====================================================================
+	  §01 CASE FILE — V5 dossier header (the brand moment)
+	  ===================================================================== -->
+	<section class="case-file" aria-labelledby="case-file-name">
+		<div class="case-file-stripe" aria-hidden="true"></div>
+		<div class="case-file-pool" aria-hidden="true"></div>
 
-	<div class="article-body">
-		{@html post.content}
-	</div>
+		<div class="case-file-inner">
+			<div class="case-file-text">
+				<div class="case-file-kicker">
+					<SectionKicker
+						num={dossierNum}
+						label={`TYPE ${typeNum ?? '—'} · ${personaUpper || 'CASE FILE'}`}
+					/>
+				</div>
 
-	<AuthorBio />
+				{#key post.slug}
+					<h1 id="case-file-name" class="case-file-name">{postDisplayName}</h1>
+				{/key}
+
+				{#if personaTitle || typeName}
+					<p class="case-file-persona mono">
+						{#if personaTitle}
+							THE {personaTitle.toUpperCase()}
+						{:else if typeName}
+							{typeName.toUpperCase()}
+						{/if}
+						<span class="case-file-persona-sep">·</span>
+						<span class="case-file-persona-num">STUDY №.{dossierNum}</span>
+					</p>
+				{/if}
+
+				{#if postMeta.description}
+					<p class="case-file-subhead">
+						{postMeta.description}
+					</p>
+				{/if}
+
+				<div class="case-file-coords mono">
+					{#if observedDate}LAST OBSERVED: {observedDate}{/if}
+					{#if observedDate && (wordCountLabel || timeRequiredLabel)}<span
+							class="case-file-coord-sep">·</span
+						>{/if}
+					{#if wordCountLabel}{wordCountLabel}{/if}
+					{#if wordCountLabel && timeRequiredLabel}<span class="case-file-coord-sep">·</span>{/if}
+					{#if timeRequiredLabel}{timeRequiredLabel}{/if}
+				</div>
+
+				<!-- Preserved: legacy ArticleTitle + ArticleSubTitle still render
+				     for structured data + author/date attribution; visually demoted
+				     into a quiet meta-row at the bottom of the case-file header. -->
+				<div class="legacy-article-meta">
+					{#key post.slug}
+						<ArticleTitle title={postMeta.title} structuredData={false} />
+						<ArticleSubTitle metaData={postMeta} structuredData={false} />
+					{/key}
+				</div>
+			</div>
+
+			<aside class="case-file-portrait" aria-hidden="true">
+				<div class="portrait-frame">
+					{#if postImagePath}
+						<img
+							src={postImagePath}
+							alt=""
+							class="portrait-image"
+							loading="eager"
+							fetchpriority="high"
+							decoding="async"
+						/>
+					{:else}
+						<div class="portrait-stub">
+							<span class="mono">[PORTRAIT]</span>
+						</div>
+					{/if}
+					<div class="portrait-vignette"></div>
+					<div class="portrait-corner portrait-corner--tl" aria-hidden="true"></div>
+					<div class="portrait-corner portrait-corner--tr" aria-hidden="true"></div>
+					<div class="portrait-corner portrait-corner--bl" aria-hidden="true"></div>
+					<div class="portrait-corner portrait-corner--br" aria-hidden="true"></div>
+					<div class="portrait-mono">
+						<span class="mono">9TAKES · CASE FILE №.{dossierNum}</span>
+					</div>
+				</div>
+			</aside>
+		</div>
+	</section>
+
+	<!-- =====================================================================
+	  §02 BREAKDOWN — long-form analysis body.
+	  Portrait lives in the case-file header above; this section is prose-first.
+	  ===================================================================== -->
+	<section class="breakdown">
+		<div class="breakdown-inner">
+			<div class="breakdown-kicker">
+				<SectionKicker num="02" label="BREAKDOWN" />
+			</div>
+
+			<TableOfContents
+				{contentStore}
+				headings={data.headings}
+				sidePosition="right"
+				renderMode="accordion-only"
+			/>
+
+			<div class="article-body">
+				{@html post.content}
+			</div>
+
+			<BookSessionCTA slug={post.slug} />
+
+			<AuthorBio />
+		</div>
+	</section>
 </article>
 
 <TableOfContents
@@ -426,55 +583,61 @@
 <div class="sidebar-container">
 	{#key post.slug}
 		{#if postSuggestions.length}
-			<PeopleSuggestionsSideBar links={postSuggestions}>
-				{#if !data?.user && EnneagramCTASidebar}
-					<EnneagramCTASidebar variant="embedded" />
-				{/if}
-			</PeopleSuggestionsSideBar>
-		{:else if !data?.user && EnneagramCTASidebar}
-			<EnneagramCTASidebar sidePosition="left" />
+			<PeopleSuggestionsSideBar links={postSuggestions} />
 		{/if}
 	{/key}
 </div>
 
-<!-- Comments section - lazy loaded -->
-<div id="comments-section">
-	<h3 title="additional comments">What would you add?</h3>
-
-	{#if BlogComments && BlogInteract}
-		<div>
-			<BlogComments
-				slug={post.slug}
-				{comments}
-				user={data?.user}
-				parentType={'personality-analysis'}
-				{userHasAnswered}
-			/>
-			<BlogInteract
-				data={data as any}
-				parentType={'personality-analysis'}
-				on:commentAdded={({ detail }) => commentAdded(detail)}
-				user={data?.user}
-			/>
+<!-- =====================================================================
+  §03 DISCUSSION — comments section (lazy loaded)
+  ===================================================================== -->
+<section id="comments-section" class="discussion">
+	<div class="discussion-inner">
+		<div class="discussion-kicker">
+			<SectionKicker num="03" label="DISCUSSION" />
 		</div>
-	{:else if commentsVisible}
-		<div class="loading-placeholder">
-			<div class="loading-spinner"></div>
+		<h3 class="discussion-title" title="additional comments">What would you add?</h3>
+
+		{#if BlogComments && BlogInteract}
+			<div class="discussion-body">
+				<BlogComments
+					slug={post.slug}
+					{comments}
+					user={data?.user}
+					parentType={'personality-analysis'}
+					{userHasAnswered}
+				/>
+				<BlogInteract
+					data={data as any}
+					parentType={'personality-analysis'}
+					on:commentAdded={({ detail }) => commentAdded(detail)}
+					user={data?.user}
+				/>
+			</div>
+		{:else if commentsVisible}
+			<div class="loading-placeholder">
+				<div class="loading-spinner"></div>
+			</div>
+		{/if}
+	</div>
+</section>
+
+<!-- =====================================================================
+  §04 RELATED CASE FILES — lazy loaded after main content
+  ===================================================================== -->
+<section id="related-content" class="related">
+	<div class="related-inner">
+		<div class="related-kicker">
+			<SectionKicker num="04" label="RELATED CASE FILES" />
 		</div>
-	{/if}
-</div>
-
-<hr class="section-divider" />
-
-<!-- Related posts - lazy loaded after main content -->
-<section id="related-content">
-	{#key post.slug}
-		<RelatedPosts
-			slug={data.slug}
-			{postTypes}
-			enneagramType={postMeta.enneagram?.toString() || null}
-		/>
-	{/key}
+		{#key post.slug}
+			<RelatedPosts
+				slug={data.slug}
+				{postTypes}
+				enneagramType={postMeta.enneagram?.toString() || null}
+			/>
+		{/key}
+	</div>
 </section>
 
 <div class="join">
@@ -486,72 +649,420 @@
 </div>
 
 <style lang="scss">
-	.blog {
+	/* =========================================================
+	  /personality-analysis/[slug] — Streetlamp Symposium dossier.
+	  Bridge tokens (--lamp-*, --night-*, --stone-*, --ink-*, --data-*,
+	  --pool-rgb, --pool-deep-rgb, --type-N-color) ship globally in
+	  src/scss/index.scss. Local-only overrides scoped to .dossier-page.
+	  ========================================================= */
+	.dossier-page {
+		--type-stripe: var(--lamp-glow);
+		--pool-alpha-strong: 0.22;
+		--pool-alpha-mid: 0.14;
+		--pool-alpha-soft: 0.06;
+		--statue-blend: screen;
+
 		position: relative;
-		contain: layout; /* Improves paint performance */
+		contain: layout;
+		margin: 0 auto;
+		background: var(--night-deep);
+		color: var(--ink-bright);
+		font-family: var(--font-display);
+
+		:global(:root.light) & {
+			--pool-alpha-strong: 0.12;
+			--pool-alpha-mid: 0.06;
+			--pool-alpha-soft: 0.03;
+			--statue-blend: normal;
+		}
+	}
+
+	/* ---------- shared utilities ---------- */
+	.dossier-page :global(.mono),
+	.discussion :global(.mono),
+	.related :global(.mono) {
+		font-family: var(--font-mono);
+		font-size: 12px;
+		font-weight: 500;
+		letter-spacing: 0.08em;
+		text-transform: uppercase;
+		color: var(--ink-dim);
+	}
+
+	/* =========================================================
+	  §01 CASE FILE HEADER — the visible brand moment
+	  ========================================================= */
+	.case-file {
+		position: relative;
+		padding: 96px 48px 72px;
+		background: var(--night-deep);
+		overflow: hidden;
+		border-top: 3px solid var(--type-stripe);
+
+		@media (max-width: 768px) {
+			padding: 56px 20px 48px;
+		}
+	}
+
+	.case-file-stripe {
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		height: 3px;
+		background: var(--type-stripe);
+		z-index: 2;
+	}
+
+	.case-file-pool {
+		position: absolute;
+		inset: 0;
+		pointer-events: none;
+		background:
+			radial-gradient(
+				ellipse 60% 55% at 18% 8%,
+				rgba(var(--pool-rgb), var(--pool-alpha-strong)) 0%,
+				rgba(var(--pool-rgb), var(--pool-alpha-soft)) 30%,
+				transparent 60%
+			),
+			radial-gradient(
+				ellipse 90% 70% at 22% 12%,
+				rgba(var(--pool-deep-rgb), var(--pool-alpha-mid)) 0%,
+				transparent 55%
+			);
+		z-index: 0;
+	}
+
+	.case-file-inner {
+		position: relative;
+		z-index: 1;
+		max-width: 1280px;
+		margin: 0 auto;
+		display: grid;
+		grid-template-columns: 1.25fr 0.75fr;
+		gap: 48px;
+		align-items: center;
+
+		@media (max-width: 968px) {
+			grid-template-columns: 1fr;
+			gap: 28px;
+		}
+	}
+
+	.case-file-text {
+		max-width: 720px;
+		display: flex;
+		flex-direction: column;
+		gap: 16px;
+	}
+
+	.case-file-kicker {
+		margin-bottom: 4px;
+	}
+
+	.case-file-name {
+		font-family: var(--font-display);
+		font-weight: 800;
+		font-size: clamp(40px, 7vw, 72px);
+		line-height: 1.02;
+		letter-spacing: -0.04em;
+		color: var(--ink-bright);
+		margin: 0;
+		text-wrap: balance;
+	}
+
+	.case-file-persona {
+		color: var(--data-teal);
+		display: flex;
+		flex-wrap: wrap;
+		align-items: center;
+		gap: 8px;
+		margin: 0;
+
+		.case-file-persona-sep {
+			color: var(--ink-dim);
+		}
+
+		.case-file-persona-num {
+			color: var(--ink-dim);
+		}
+	}
+
+	.case-file-subhead {
+		font-family: var(--font-display);
+		font-size: 18px;
+		line-height: 1.6;
+		color: var(--ink-mid);
+		font-weight: 400;
+		max-width: 640px;
+		margin: 0;
+
+		@media (max-width: 540px) {
+			font-size: 16px;
+		}
+	}
+
+	.case-file-coords {
+		display: flex;
+		flex-wrap: wrap;
+		align-items: center;
+		gap: 8px;
+		color: var(--ink-dim);
+		font-size: 11.5px;
+
+		.case-file-coord-sep {
+			opacity: 0.65;
+		}
+	}
+
+	/* Legacy ArticleTitle / ArticleSubTitle — kept rendered for the SEO /
+	   structured-data attribution they carry. Visually demoted to a quiet
+	   meta row beneath the case-file head. */
+	.legacy-article-meta {
+		margin-top: 12px;
+		padding-top: 14px;
+		border-top: 1px dashed var(--stone-edge);
+		display: flex;
+		flex-direction: column;
+		gap: 6px;
+
+		:global(.heading) {
+			/* The original h1 is suppressed visually — the case-file h1 carries
+			   the visible brand moment. The element still emits for structured
+			   data parsers. */
+			position: absolute;
+			width: 1px;
+			height: 1px;
+			padding: 0;
+			margin: -1px;
+			overflow: hidden;
+			clip: rect(0, 0, 0, 0);
+			white-space: nowrap;
+			border: 0;
+		}
+
+		:global(.article-meta) {
+			margin: 0;
+			color: var(--ink-dim);
+			font-size: 13px;
+		}
+
+		:global(.article-meta a) {
+			color: var(--lamp-glow);
+		}
+
+		:global(.article-meta a:hover) {
+			color: var(--lamp-light);
+			text-decoration: underline;
+		}
+
+		:global(.article-meta .separator) {
+			color: var(--ink-dim);
+			opacity: 0.5;
+		}
+
+		:global(.article-meta .date) {
+			color: var(--ink-dim);
+		}
+
+		:global(.article-meta .date.updated) {
+			color: var(--data-teal);
+		}
+	}
+
+	/* ---------- portrait (right column) ---------- */
+	.case-file-portrait {
+		position: relative;
+
+		@media (max-width: 968px) {
+			max-width: 360px;
+			margin: 0 auto;
+		}
+	}
+
+	.portrait-frame {
+		position: relative;
+		aspect-ratio: 4 / 5;
+		max-height: 480px;
+		margin-left: auto;
+		overflow: hidden;
+		border-radius: 10px;
+		background: var(--night-mid);
+		border: 1px solid var(--stone-edge);
+	}
+
+	.portrait-image {
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+		object-position: center 25%;
+		filter: contrast(1.15) brightness(0.96) saturate(0.85);
+		mix-blend-mode: var(--statue-blend);
+	}
+
+	:global(:root.light) .dossier-page .portrait-image {
+		filter: contrast(1.05) brightness(1) saturate(0.95);
+	}
+
+	.portrait-stub {
+		width: 100%;
+		height: 100%;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		background: var(--stone-mid);
+		background-image: repeating-linear-gradient(
+			45deg,
+			transparent 0,
+			transparent 14px,
+			rgba(var(--pool-rgb), 0.04) 14px,
+			rgba(var(--pool-rgb), 0.04) 15px
+		);
+	}
+
+	.portrait-vignette {
+		position: absolute;
+		inset: 0;
+		pointer-events: none;
+		background:
+			radial-gradient(ellipse at 25% 25%, rgba(var(--pool-rgb), 0.18) 0%, transparent 55%),
+			linear-gradient(135deg, transparent 40%, rgba(10, 8, 7, 0.55) 100%),
+			linear-gradient(180deg, transparent 65%, rgba(10, 8, 7, 0.75) 100%);
+	}
+
+	:global(:root.light) .dossier-page .portrait-vignette {
+		background:
+			radial-gradient(ellipse at 25% 25%, rgba(var(--pool-rgb), 0.06) 0%, transparent 60%),
+			linear-gradient(135deg, transparent 60%, rgba(180, 83, 9, 0.05) 100%);
+	}
+
+	.portrait-corner {
+		position: absolute;
+		width: 14px;
+		height: 14px;
+		border-color: var(--lamp-glow);
+		border-style: solid;
+		border-width: 0;
+		z-index: 2;
+
+		&--tl {
+			top: 8px;
+			left: 8px;
+			border-top-width: 1px;
+			border-left-width: 1px;
+		}
+		&--tr {
+			top: 8px;
+			right: 8px;
+			border-top-width: 1px;
+			border-right-width: 1px;
+		}
+		&--bl {
+			bottom: 8px;
+			left: 8px;
+			border-bottom-width: 1px;
+			border-left-width: 1px;
+		}
+		&--br {
+			bottom: 8px;
+			right: 8px;
+			border-bottom-width: 1px;
+			border-right-width: 1px;
+		}
+	}
+
+	.portrait-mono {
+		position: absolute;
+		left: 14px;
+		bottom: 14px;
+		z-index: 2;
+		color: var(--ink-mid);
+
+		.mono {
+			color: var(--ink-mid);
+			font-size: 10.5px;
+		}
+	}
+
+	/* =========================================================
+	  §02 BREAKDOWN — long-form body
+	  ========================================================= */
+	.breakdown {
+		padding: 64px 48px 96px;
+		background: var(--night-deep);
+		border-top: 1px solid var(--stone-edge);
+
+		@media (max-width: 768px) {
+			padding: 48px 20px 64px;
+		}
+	}
+
+	.breakdown-inner {
+		max-width: 880px;
 		margin: 0 auto;
 	}
 
-	.article-header {
-		margin-bottom: 2rem;
-	}
+	.breakdown-kicker {
+		text-align: center;
+		margin-bottom: 32px;
 
-	.featured-image {
-		display: flex;
-		justify-content: center;
-		align-items: center;
-		margin: 1rem auto;
-		width: 100%;
-
-		:global(.image-card-base) {
-			margin: 0 auto;
+		:global(.kicker) {
+			color: var(--lamp-glow);
 		}
 	}
 
 	.article-body {
 		margin-bottom: 2rem;
+		font-family: var(--font-display);
+		font-size: 18px;
 		line-height: 1.7;
-		color: var(--text-secondary);
+		color: var(--ink-bright);
 
 		/* Header styles for injected content */
 		:global(h2) {
-			font-size: 1.75rem;
-			font-weight: 600;
-			color: var(--text-primary);
-			margin-top: 2rem;
+			font-family: var(--font-display);
+			font-size: clamp(24px, 3vw, 32px);
+			font-weight: 700;
+			letter-spacing: -0.02em;
+			color: var(--ink-bright);
+			margin-top: 2.5rem;
 			margin-bottom: 1rem;
 			padding-top: 1rem;
-			line-height: 1.3;
+			line-height: 1.18;
 		}
 
 		:global(h3) {
-			font-size: 1.35rem;
-			font-weight: 600;
-			color: var(--text-primary);
-			margin-top: 1.5rem;
+			font-family: var(--font-display);
+			font-size: clamp(20px, 2.4vw, 24px);
+			font-weight: 700;
+			letter-spacing: -0.015em;
+			color: var(--ink-bright);
+			margin-top: 1.75rem;
 			margin-bottom: 0.75rem;
-			line-height: 1.35;
+			line-height: 1.25;
 		}
 
 		:global(h4) {
-			font-size: 1.15rem;
-			font-weight: 600;
-			color: var(--text-primary);
-			margin-top: 1.25rem;
+			font-family: var(--font-display);
+			font-size: 18px;
+			font-weight: 700;
+			letter-spacing: -0.01em;
+			color: var(--ink-bright);
+			margin-top: 1.5rem;
 			margin-bottom: 0.5rem;
-			line-height: 1.4;
+			line-height: 1.3;
 		}
 
 		:global(p) {
-			margin-bottom: 1.2rem;
-			color: var(--text-secondary);
+			margin-bottom: 1.4rem;
+			color: var(--ink-bright);
 		}
 
 		:global(ul),
 		:global(ol) {
-			margin: 1rem 0;
+			margin: 1rem 0 1.4rem;
 			padding-left: 1.5rem;
-			color: var(--text-secondary);
+			color: var(--ink-bright);
 		}
 
 		:global(li) {
@@ -560,55 +1071,75 @@
 		}
 
 		:global(a) {
-			color: var(--accent-light);
+			color: var(--lamp-glow);
 			text-decoration: none;
-			transition: color 0.2s ease;
+			transition: color 0.18s ease;
+			border-bottom: 1px solid transparent;
 
 			&:hover {
-				color: var(--primary-lightest);
-				text-decoration: underline;
+				color: var(--lamp-light);
+				border-bottom-color: currentColor;
 			}
 		}
 
 		:global(blockquote) {
-			margin: 1.5rem 0;
-			padding: 1rem 1.5rem;
-			border-left: 4px solid var(--primary-dark);
-			background-color: var(--bg-surface);
+			margin: 1.75rem 0;
+			padding: 0.75rem 1.25rem 0.75rem 1.5rem;
+			border-left: 3px solid var(--lamp-glow);
+			background: var(--stone-warm);
+			color: var(--ink-bright);
 			font-style: italic;
-			color: var(--text-secondary);
 			border-radius: 0 8px 8px 0;
 		}
 
 		:global(blockquote p) {
 			margin-bottom: 0;
-			color: var(--text-secondary);
+			color: var(--ink-bright);
 		}
 
 		:global(strong) {
-			font-weight: 600;
-			color: var(--text-primary);
+			font-weight: 700;
+			color: var(--ink-bright);
+		}
+
+		:global(em) {
+			color: var(--ink-bright);
 		}
 
 		:global(code) {
-			background-color: var(--bg-elevated);
-			color: var(--accent-light);
-			padding: 0.2rem 0.4rem;
+			background: var(--stone-warm);
+			color: var(--data-teal);
+			padding: 0.15rem 0.4rem;
 			border-radius: 4px;
-			font-size: 0.9em;
+			font-size: 0.92em;
+			font-family: var(--font-mono);
+			border: 1px solid var(--stone-edge);
 		}
 
 		:global(pre) {
-			background-color: var(--bg-base);
-			border: 1px solid var(--border-color);
-			border-radius: 8px;
+			background: var(--night-mid);
+			border: 1px solid var(--stone-edge);
+			border-radius: 10px;
 			padding: 1rem;
 			overflow-x: auto;
 
 			:global(code) {
 				background: none;
+				border: none;
 				padding: 0;
 			}
+		}
+
+		:global(hr) {
+			border: 0;
+			border-top: 1px solid var(--stone-edge);
+			margin: 2.5rem 0;
+		}
+
+		:global(img) {
+			max-width: 100%;
+			height: auto;
+			border-radius: 10px;
 		}
 	}
 
@@ -617,45 +1148,78 @@
 		display: contents; /* Pass through to let component handle positioning */
 	}
 
-	.section-divider {
-		margin: 5rem 0;
-		border: 0;
-		border-top: 1px solid color-mix(in srgb, var(--text-tertiary) 30%, transparent);
-	}
-
 	.join {
-		margin-top: 2rem;
-	}
+		max-width: 880px;
+		margin: 2rem auto 0;
+		padding: 0 48px 64px;
 
-	#comments-section {
-		h3 {
-			color: var(--text-primary);
-			font-size: 1.5rem;
-			font-weight: 600;
-			margin-bottom: 1.5rem;
+		@media (max-width: 768px) {
+			padding: 0 20px 48px;
 		}
 	}
 
+	/* =========================================================
+	  §03 DISCUSSION — comments section
+	  ========================================================= */
+	.discussion {
+		padding: 96px 48px;
+		background: var(--night-mid);
+		border-top: 1px solid var(--stone-edge);
+
+		@media (max-width: 768px) {
+			padding: 64px 20px;
+		}
+	}
+
+	.discussion-inner {
+		max-width: 880px;
+		margin: 0 auto;
+	}
+
+	.discussion-kicker {
+		text-align: center;
+		margin-bottom: 16px;
+
+		:global(.kicker) {
+			color: var(--lamp-glow);
+		}
+	}
+
+	.discussion-title {
+		font-family: var(--font-display);
+		font-size: clamp(28px, 4vw, 40px);
+		font-weight: 700;
+		letter-spacing: -0.02em;
+		color: var(--ink-bright);
+		text-align: center;
+		margin: 0 0 32px;
+		line-height: 1.1;
+	}
+
+	.discussion-body {
+		display: flex;
+		flex-direction: column;
+		gap: 24px;
+	}
+
 	.loading-placeholder {
-		@extend .card-base !optional;
 		height: 100px;
 		margin: 1rem 0;
 		display: flex;
 		justify-content: center;
 		align-items: center;
-		background-color: var(--bg-surface);
-		border: 1px solid var(--border-color);
-		border-radius: 8px;
+		background: var(--stone-warm);
+		border: 1px solid var(--stone-edge);
+		border-radius: 10px;
 	}
 
 	.loading-spinner {
 		width: 30px;
 		height: 30px;
-		border: 3px solid var(--bg-elevated);
-		border-top: 3px solid var(--primary-dark);
+		border: 3px solid var(--stone-mid);
+		border-top: 3px solid var(--lamp-glow);
 		border-radius: 50%;
 		animation: spin 1s linear infinite;
-		box-shadow: 0 0 15px rgba(45, 212, 191, 0.3);
 	}
 
 	@keyframes spin {
@@ -667,64 +1231,95 @@
 		}
 	}
 
-	/* Mobile-specific styles */
+	@media (prefers-reduced-motion: reduce) {
+		.loading-spinner {
+			animation: none;
+		}
+	}
+
+	/* =========================================================
+	  §04 RELATED CASE FILES
+	  ========================================================= */
+	.related {
+		padding: 96px 48px;
+		background: var(--night-deep);
+		border-top: 1px solid var(--stone-edge);
+
+		@media (max-width: 768px) {
+			padding: 64px 20px;
+		}
+	}
+
+	.related-inner {
+		max-width: 1280px;
+		margin: 0 auto;
+	}
+
+	.related-kicker {
+		text-align: center;
+		margin-bottom: 32px;
+
+		:global(.kicker) {
+			color: var(--lamp-glow);
+		}
+	}
+
+	/* =========================================================
+	  Mobile-specific tightening
+	  ========================================================= */
 	@include mobile {
-		.blog {
-			padding: 1rem;
+		.case-file {
+			padding: 48px 16px 40px;
 		}
 
-		.article-header {
-			margin-bottom: 1rem;
+		.case-file-name {
+			font-size: clamp(32px, 9vw, 44px);
 		}
 
-		.featured-image {
-			margin: 0.5rem 0;
+		.breakdown {
+			padding: 40px 16px 56px;
 		}
 
 		.article-body {
-			margin-bottom: 1rem;
+			font-size: 17px;
 			overflow-wrap: break-word;
 			word-wrap: break-word;
 
-			/* Mobile header sizes */
 			:global(h2) {
-				font-size: 1.4rem;
-				margin-top: 1.5rem;
+				font-size: 22px;
+				margin-top: 1.75rem;
 				margin-bottom: 0.75rem;
 				padding-top: 0.75rem;
 			}
 
 			:global(h3) {
-				font-size: 1.15rem;
-				margin-top: 1.25rem;
+				font-size: 19px;
+				margin-top: 1.4rem;
 				margin-bottom: 0.5rem;
 			}
 
 			:global(h4) {
-				font-size: 1.05rem;
-				margin-top: 1rem;
+				font-size: 17px;
+				margin-top: 1.2rem;
 				margin-bottom: 0.4rem;
 			}
 
 			:global(p) {
-				font-size: 0.95rem;
-				margin-bottom: 1rem;
+				font-size: 17px;
+				margin-bottom: 1.2rem;
 			}
 
-			/* Ensure all images are responsive */
 			:global(img) {
 				max-width: 100%;
 				height: auto;
 				display: block;
 			}
 
-			/* Make embedded content responsive */
 			:global(iframe),
 			:global(video) {
 				max-width: 100%;
 			}
 
-			/* Ensure code blocks don't overflow */
 			:global(pre),
 			:global(code) {
 				overflow-x: auto;
@@ -732,16 +1327,18 @@
 			}
 		}
 
-		.section-divider {
-			margin: 2rem 0;
+		.discussion,
+		.related {
+			padding: 56px 16px;
 		}
 
 		.join {
 			margin-top: 1rem;
+			padding: 0 16px 40px;
 		}
 	}
 
-	/* Tablet-specific adjustments */
+	/* Tablet */
 	@include tablet {
 		.article-body {
 			:global(img) {

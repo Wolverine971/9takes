@@ -177,7 +177,7 @@
 		text-align: center;
 		margin-bottom: 2rem;
 		font-size: 2rem;
-		color: var(--text-primary);
+		color: var(--ink-bright);
 	}
 
 	.suggestions-grid {
@@ -214,7 +214,7 @@
 		overflow: hidden;
 		border-radius: 12px;
 		box-shadow: 0 0 15px rgba(0, 0, 0, 0.12);
-		border: 1px solid color-mix(in srgb, var(--text-tertiary) 20%, transparent);
+		border: 1px solid color-mix(in srgb, var(--ink-dim) 20%, transparent);
 		transition:
 			transform 0.3s ease,
 			box-shadow 0.3s ease,
@@ -223,7 +223,7 @@
 		&:hover {
 			transform: translateY(-5px);
 			box-shadow: 0 0 25px var(--primary-glow);
-			border-color: var(--primary);
+			border-color: var(--lamp-glow);
 
 			.grid-img {
 				filter: brightness(0.9);
@@ -233,7 +233,7 @@
 				opacity: 1;
 				background: linear-gradient(
 					to top,
-					color-mix(in srgb, var(--primary) 90%, transparent),
+					color-mix(in srgb, var(--lamp-glow) 90%, transparent),
 					rgba(0, 0, 0, 0.7)
 				);
 			}
@@ -285,14 +285,14 @@
 	.lazy-loading {
 		text-align: center;
 		padding: 2rem;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 	}
 
 	.loading-spinner {
 		width: 30px;
 		height: 30px;
-		border: 3px solid var(--bg-elevated);
-		border-top: 3px solid var(--primary-dark);
+		border: 3px solid var(--stone-warm);
+		border-top: 3px solid var(--lamp-glow);
 		border-radius: 50%;
 		margin: 0 auto 1rem;
 		animation: spin 1s linear infinite;

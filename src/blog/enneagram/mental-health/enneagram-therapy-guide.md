@@ -72,15 +72,6 @@ These are commonly observed patterns that many therapists and clients report. Un
 
 **Head Types (5, 6, 7):** You may intellectualize if given the opportunity. Modalities that include embodiment or experiential elements can complement cognitive approaches.
 
-<div class="scroll-fade">
-<MarqueeHorizontal displayList={[
-  { name: "Enneagram Crisis Management Guide", link: "/enneagram-corner/mental-health/enneagram-crisis-management-guide" },
-  { name: "Enneagram Medication Guide", link: "/enneagram-corner/mental-health/enneagram-medication-mental-health" },
-  { name: "Enneagram Trauma Response Guide", link: "/enneagram-corner/mental-health/enneagram-trauma-response-guide" },
-  { name: "Understanding Mental Health Science", link: "/enneagram-corner/mental-health/enneagram-science-mental-health" }
-]} />
-</div>
-
 ## Therapy Modalities Worth Understanding
 
 _Your therapist is the best person to recommend a specific modality for your situation. This overview can help you have a more informed conversation about what might resonate._
@@ -215,6 +206,15 @@ Need someone who appreciates depth without fetishizing your pain. If they are to
 **The real work:** Your suffering is not your identity. Therapy teaches you to feel without bleeding out.
 
 **Quick Win:** Try one "basic" coping strategy without dismissing it first. Give it 7 days.
+
+<div class="scroll-fade">
+<MarqueeHorizontal displayList={[
+  { name: "Enneagram Crisis Management Guide", link: "/enneagram-corner/mental-health/enneagram-crisis-management-guide" },
+  { name: "Enneagram Medication Guide", link: "/enneagram-corner/mental-health/enneagram-medication-mental-health" },
+  { name: "Enneagram Trauma Response Guide", link: "/enneagram-corner/mental-health/enneagram-trauma-response-guide" },
+  { name: "Understanding Mental Health Science", link: "/enneagram-corner/mental-health/enneagram-science-mental-health" }
+]} />
+</div>
 
 ## Type 5: The Investigator
 

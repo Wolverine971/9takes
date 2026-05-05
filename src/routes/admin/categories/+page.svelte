@@ -511,8 +511,8 @@
 	.controls-card,
 	.table-card,
 	.stat-card {
-		border: 1px solid var(--bg-elevated);
-		background: var(--bg-surface);
+		border: 1px solid var(--stone-warm);
+		background: var(--stone-warm);
 		border-radius: 18px;
 	}
 
@@ -531,20 +531,20 @@
 		font-weight: 700;
 		letter-spacing: 0.12em;
 		text-transform: uppercase;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 	}
 
 	.page-title {
 		margin: 0;
 		font-size: clamp(1.8rem, 3vw, 2.4rem);
 		line-height: 1.05;
-		color: var(--text-primary);
+		color: var(--ink-bright);
 	}
 
 	.page-subtitle {
 		max-width: 52rem;
 		margin: 0.7rem 0 0;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 		line-height: 1.6;
 	}
 
@@ -558,7 +558,7 @@
 	.secondary-link,
 	.admin-link,
 	.table-link {
-		color: var(--primary);
+		color: var(--lamp-glow);
 		text-decoration: none;
 		font-weight: 600;
 	}
@@ -586,12 +586,12 @@
 	}
 
 	.stat-card.eligible {
-		border-color: color-mix(in srgb, var(--primary) 28%, var(--bg-elevated));
-		background: color-mix(in srgb, var(--primary) 8%, var(--bg-surface));
+		border-color: color-mix(in srgb, var(--lamp-glow) 28%, var(--stone-warm));
+		background: color-mix(in srgb, var(--lamp-glow) 8%, var(--stone-warm));
 	}
 
 	.stat-card.muted {
-		background: color-mix(in srgb, var(--bg-base) 72%, var(--bg-surface));
+		background: color-mix(in srgb, var(--night-deep) 72%, var(--stone-warm));
 	}
 
 	.stat-label {
@@ -599,17 +599,17 @@
 		font-weight: 700;
 		letter-spacing: 0.08em;
 		text-transform: uppercase;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 	}
 
 	.stat-value {
 		font-size: 2rem;
 		line-height: 1;
-		color: var(--text-primary);
+		color: var(--ink-bright);
 	}
 
 	.stat-note {
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 		line-height: 1.5;
 	}
 
@@ -631,13 +631,13 @@
 	.table-head h2 {
 		margin: 0;
 		font-size: 1.15rem;
-		color: var(--text-primary);
+		color: var(--ink-bright);
 	}
 
 	.controls-head p,
 	.table-head p {
 		margin: 0.35rem 0 0;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 		line-height: 1.5;
 	}
 
@@ -654,8 +654,8 @@
 	}
 
 	.threshold-badge {
-		background: color-mix(in srgb, var(--primary) 12%, var(--bg-base));
-		color: var(--text-primary);
+		background: color-mix(in srgb, var(--lamp-glow) 12%, var(--night-deep));
+		color: var(--ink-bright);
 	}
 
 	.controls-row,
@@ -670,7 +670,7 @@
 	.batch-row {
 		margin-top: 1rem;
 		padding-top: 1rem;
-		border-top: 1px solid color-mix(in srgb, var(--bg-elevated) 72%, transparent);
+		border-top: 1px solid color-mix(in srgb, var(--stone-warm) 72%, transparent);
 	}
 
 	.search-field,
@@ -687,16 +687,16 @@
 	.batch-field span {
 		font-size: 0.82rem;
 		font-weight: 600;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 	}
 
 	.search-field input,
 	.batch-field input {
 		padding: 0.85rem 0.95rem;
 		border-radius: 12px;
-		border: 1px solid var(--bg-elevated);
-		background: var(--bg-deep);
-		color: var(--text-primary);
+		border: 1px solid var(--stone-warm);
+		background: var(--night-deep);
+		color: var(--ink-bright);
 	}
 
 	.batch-field input {
@@ -713,7 +713,7 @@
 	}
 
 	.queue-summary span {
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 		font-size: 0.9rem;
 	}
 
@@ -722,27 +722,27 @@
 	.table-btn {
 		padding: 0.72rem 1rem;
 		border-radius: 999px;
-		border: 1px solid var(--bg-elevated);
-		background: var(--bg-deep);
-		color: var(--text-secondary);
+		border: 1px solid var(--stone-warm);
+		background: var(--night-deep);
+		color: var(--ink-mid);
 		font-weight: 600;
 		cursor: pointer;
 	}
 
 	.filter-pill.active {
-		border-color: color-mix(in srgb, var(--primary) 48%, var(--bg-elevated));
-		background: color-mix(in srgb, var(--primary) 14%, var(--bg-base));
-		color: var(--text-primary);
+		border-color: color-mix(in srgb, var(--lamp-glow) 48%, var(--stone-warm));
+		background: color-mix(in srgb, var(--lamp-glow) 14%, var(--night-deep));
+		color: var(--ink-bright);
 	}
 
 	.batch-btn,
 	.table-btn {
-		color: var(--text-primary);
+		color: var(--ink-bright);
 	}
 
 	.batch-btn--secondary,
 	.table-btn--secondary {
-		background: var(--bg-surface);
+		background: var(--stone-warm);
 	}
 
 	.filter-pill:disabled,
@@ -764,7 +764,7 @@
 	th,
 	td {
 		padding: 0.95rem 0.75rem;
-		border-top: 1px solid color-mix(in srgb, var(--bg-elevated) 72%, transparent);
+		border-top: 1px solid color-mix(in srgb, var(--stone-warm) 72%, transparent);
 		vertical-align: top;
 		text-align: left;
 	}
@@ -775,7 +775,7 @@
 		font-weight: 700;
 		letter-spacing: 0.08em;
 		text-transform: uppercase;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 	}
 
 	.category-cell {
@@ -784,49 +784,49 @@
 	}
 
 	.category-cell strong {
-		color: var(--text-primary);
+		color: var(--ink-bright);
 	}
 
 	.category-cell span,
 	.path-text {
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 		line-height: 1.5;
 	}
 
 	.numeric-cell {
 		font-variant-numeric: tabular-nums;
-		color: var(--text-primary);
+		color: var(--ink-bright);
 	}
 
 	.status-pill {
-		background: color-mix(in srgb, var(--bg-base) 82%, var(--bg-deep));
-		color: var(--text-secondary);
+		background: color-mix(in srgb, var(--night-deep) 82%, var(--night-deep));
+		color: var(--ink-mid);
 	}
 
 	.status-pill--completed,
 	.status-pill--eligible {
-		background: color-mix(in srgb, var(--primary) 14%, var(--bg-base));
-		color: var(--text-primary);
+		background: color-mix(in srgb, var(--lamp-glow) 14%, var(--night-deep));
+		color: var(--ink-bright);
 	}
 
 	.status-pill--stale {
-		background: color-mix(in srgb, #d97706 14%, var(--bg-base));
-		color: color-mix(in srgb, #d97706 78%, var(--text-primary));
+		background: color-mix(in srgb, #d97706 14%, var(--night-deep));
+		color: color-mix(in srgb, #d97706 78%, var(--ink-bright));
 	}
 
 	.status-pill--failed {
-		background: color-mix(in srgb, #dc2626 12%, var(--bg-base));
-		color: color-mix(in srgb, #dc2626 76%, var(--text-primary));
+		background: color-mix(in srgb, #dc2626 12%, var(--night-deep));
+		color: color-mix(in srgb, #dc2626 76%, var(--ink-bright));
 	}
 
 	.status-pill--processing {
-		background: color-mix(in srgb, #2563eb 12%, var(--bg-base));
-		color: color-mix(in srgb, #2563eb 78%, var(--text-primary));
+		background: color-mix(in srgb, #2563eb 12%, var(--night-deep));
+		color: color-mix(in srgb, #2563eb 78%, var(--ink-bright));
 	}
 
 	.status-pill--muted {
-		background: color-mix(in srgb, var(--bg-base) 82%, var(--bg-deep));
-		color: var(--text-secondary);
+		background: color-mix(in srgb, var(--night-deep) 82%, var(--night-deep));
+		color: var(--ink-mid);
 	}
 
 	.empty-state {
@@ -836,12 +836,12 @@
 
 	.empty-state h3 {
 		margin: 0;
-		color: var(--text-primary);
+		color: var(--ink-bright);
 	}
 
 	.empty-state p {
 		margin: 0.5rem 0 0;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 	}
 
 	@media (max-width: 720px) {

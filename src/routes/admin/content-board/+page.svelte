@@ -906,7 +906,7 @@
 		align-items: flex-start;
 		margin-bottom: 24px;
 		padding-bottom: 20px;
-		border-bottom: 1px solid var(--bg-elevated);
+		border-bottom: 1px solid var(--stone-warm);
 
 		@media (max-width: 768px) {
 			margin-bottom: 16px;
@@ -923,9 +923,9 @@
 	.page-title {
 		font-size: 1.5rem;
 		font-weight: 700;
-		color: var(--text-primary);
+		color: var(--ink-bright);
 		margin: 0;
-		background: linear-gradient(135deg, var(--primary-light), var(--accent));
+		background: linear-gradient(135deg, var(--lamp-glow), var(--lamp-glow));
 		-webkit-background-clip: text;
 		-webkit-text-fill-color: transparent;
 		background-clip: text;
@@ -937,7 +937,7 @@
 
 	.page-subtitle {
 		font-size: 0.8125rem;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 		margin: 0;
 
 		@media (max-width: 768px) {
@@ -971,9 +971,9 @@
 		padding: 10px 16px;
 		font-size: 0.875rem;
 		font-weight: 500;
-		background: var(--bg-surface);
-		color: var(--text-secondary);
-		border: 1px solid var(--bg-elevated);
+		background: var(--stone-warm);
+		color: var(--ink-mid);
+		border: 1px solid var(--stone-warm);
 		border-radius: 8px;
 		cursor: pointer;
 		transition: all 0.2s ease;
@@ -990,15 +990,15 @@
 	}
 
 	.type-btn:hover {
-		border-color: var(--primary);
+		border-color: var(--lamp-glow);
 		background: var(--primary-subtle);
-		color: var(--text-primary);
+		color: var(--ink-bright);
 	}
 
 	.type-btn.active {
-		background: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%);
+		background: linear-gradient(135deg, var(--lamp-glow) 0%, var(--lamp-glow) 100%);
 		color: white;
-		border-color: var(--primary);
+		border-color: var(--lamp-glow);
 		box-shadow: var(--glow-sm);
 	}
 
@@ -1006,8 +1006,8 @@
 		padding: 2px 8px;
 		font-size: 0.75rem;
 		font-weight: 600;
-		background: var(--bg-elevated);
-		color: var(--text-secondary);
+		background: var(--stone-warm);
+		color: var(--ink-mid);
 		border-radius: 12px;
 
 		@media (max-width: 768px) {
@@ -1023,8 +1023,8 @@
 
 	/* Controls Panel */
 	.controls-panel {
-		background: var(--bg-surface);
-		border: 1px solid var(--bg-elevated);
+		background: var(--stone-warm);
+		border: 1px solid var(--stone-warm);
 		border-radius: 12px;
 		padding: 16px;
 		margin-bottom: 16px;
@@ -1061,7 +1061,7 @@
 		left: 12px;
 		width: 18px;
 		height: 18px;
-		color: var(--text-muted);
+		color: var(--ink-dim);
 		pointer-events: none;
 	}
 
@@ -1070,19 +1070,19 @@
 		min-width: 0;
 		padding: 12px 40px 12px 40px;
 		font-size: 16px;
-		background: var(--bg-elevated);
-		color: var(--text-primary);
-		border: 1px solid var(--bg-highlight);
+		background: var(--stone-warm);
+		color: var(--ink-bright);
+		border: 1px solid var(--stone-warm);
 		border-radius: 10px;
 		transition: all 0.2s ease;
 
 		&::placeholder {
-			color: var(--text-muted);
+			color: var(--ink-dim);
 		}
 
 		&:focus {
 			outline: none;
-			border-color: var(--primary);
+			border-color: var(--lamp-glow);
 			box-shadow: var(--glow-sm);
 		}
 	}
@@ -1096,10 +1096,10 @@
 		width: 28px;
 		height: 28px;
 		padding: 0;
-		background: var(--bg-highlight);
+		background: var(--stone-warm);
 		border: none;
 		border-radius: 50%;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 		cursor: pointer;
 	}
 
@@ -1112,17 +1112,17 @@
 		width: 48px;
 		height: 48px;
 		padding: 0;
-		background: var(--bg-elevated);
-		border: 1px solid var(--bg-highlight);
+		background: var(--stone-warm);
+		border: 1px solid var(--stone-warm);
 		border-radius: 10px;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 		cursor: pointer;
 		transition: all 0.2s ease;
 
 		&.active {
 			background: var(--primary-subtle);
-			border-color: var(--primary);
-			color: var(--primary-light);
+			border-color: var(--lamp-glow);
+			color: var(--lamp-glow);
 		}
 	}
 
@@ -1132,7 +1132,7 @@
 		right: 8px;
 		width: 8px;
 		height: 8px;
-		background: var(--primary);
+		background: var(--lamp-glow);
 		border-radius: 50%;
 	}
 
@@ -1141,7 +1141,7 @@
 		@media (max-width: 768px) {
 			display: none;
 			padding-top: 12px;
-			border-top: 1px solid var(--bg-elevated);
+			border-top: 1px solid var(--stone-warm);
 			margin-top: 12px;
 
 			&.show {
@@ -1165,7 +1165,7 @@
 	.mobile-view-label {
 		font-size: 13px;
 		font-weight: 500;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 		white-space: nowrap;
 	}
 
@@ -1185,9 +1185,9 @@
 		flex: 1;
 		padding: 10px 12px;
 		font-size: 14px;
-		background: var(--bg-elevated);
-		color: var(--text-primary);
-		border: 1px solid var(--bg-highlight);
+		background: var(--stone-warm);
+		color: var(--ink-bright);
+		border: 1px solid var(--stone-warm);
 		border-radius: 8px;
 	}
 
@@ -1198,9 +1198,9 @@
 		width: 44px;
 		height: 44px;
 		font-size: 18px;
-		background: var(--bg-elevated);
-		color: var(--text-primary);
-		border: 1px solid var(--bg-highlight);
+		background: var(--stone-warm);
+		color: var(--ink-bright);
+		border: 1px solid var(--stone-warm);
 		border-radius: 8px;
 		cursor: pointer;
 	}
@@ -1212,9 +1212,9 @@
 		margin-top: 12px;
 		font-size: 14px;
 		font-weight: 500;
-		color: var(--primary-light);
+		color: var(--lamp-glow);
 		background: var(--primary-subtle);
-		border: 1px solid var(--primary);
+		border: 1px solid var(--lamp-glow);
 		border-radius: 8px;
 		cursor: pointer;
 
@@ -1244,20 +1244,20 @@
 		width: 100%;
 		padding: 10px 14px;
 		font-size: 0.875rem;
-		background: var(--bg-elevated);
-		color: var(--text-primary);
-		border: 1px solid var(--bg-highlight);
+		background: var(--stone-warm);
+		color: var(--ink-bright);
+		border: 1px solid var(--stone-warm);
 		border-radius: 8px;
 		transition: all 0.2s ease;
 	}
 
 	.search-input::placeholder {
-		color: var(--text-muted);
+		color: var(--ink-dim);
 	}
 
 	.search-input:focus {
 		outline: none;
-		border-color: var(--primary);
+		border-color: var(--lamp-glow);
 		box-shadow: var(--glow-sm);
 	}
 
@@ -1271,9 +1271,9 @@
 	.select-input {
 		padding: 10px 14px;
 		font-size: 0.875rem;
-		background: var(--bg-elevated);
-		color: var(--text-primary);
-		border: 1px solid var(--bg-highlight);
+		background: var(--stone-warm);
+		color: var(--ink-bright);
+		border: 1px solid var(--stone-warm);
 		border-radius: 8px;
 		cursor: pointer;
 		transition: all 0.2s ease;
@@ -1281,23 +1281,23 @@
 
 	.select-input:focus {
 		outline: none;
-		border-color: var(--primary);
+		border-color: var(--lamp-glow);
 		box-shadow: var(--glow-sm);
 	}
 
 	.sort-btn {
 		padding: 10px 14px;
 		font-size: 0.875rem;
-		background: var(--bg-elevated);
-		color: var(--text-primary);
-		border: 1px solid var(--bg-highlight);
+		background: var(--stone-warm);
+		color: var(--ink-bright);
+		border: 1px solid var(--stone-warm);
 		border-radius: 8px;
 		cursor: pointer;
 		transition: all 0.2s ease;
 	}
 
 	.sort-btn:hover {
-		border-color: var(--primary);
+		border-color: var(--lamp-glow);
 		background: var(--primary-subtle);
 	}
 
@@ -1305,7 +1305,7 @@
 		display: flex;
 		overflow: hidden;
 		border-radius: 8px;
-		border: 1px solid var(--bg-highlight);
+		border: 1px solid var(--stone-warm);
 
 		@media (max-width: 768px) {
 			flex: 1;
@@ -1314,8 +1314,8 @@
 
 	.view-btn {
 		padding: 10px 12px;
-		background: var(--bg-elevated);
-		color: var(--text-secondary);
+		background: var(--stone-warm);
+		color: var(--ink-mid);
 		border: none;
 		cursor: pointer;
 		transition: all 0.2s ease;
@@ -1328,12 +1328,12 @@
 	}
 
 	.view-btn:hover {
-		background: var(--bg-highlight);
-		color: var(--text-primary);
+		background: var(--stone-warm);
+		color: var(--ink-bright);
 	}
 
 	.view-btn.active {
-		background: var(--primary);
+		background: var(--lamp-glow);
 		color: white;
 	}
 
@@ -1345,7 +1345,7 @@
 	.clear-filters-btn {
 		padding: 10px 14px;
 		font-size: 0.875rem;
-		color: var(--primary-light);
+		color: var(--lamp-glow);
 		background: transparent;
 		border: none;
 		cursor: pointer;
@@ -1353,7 +1353,7 @@
 	}
 
 	.clear-filters-btn:hover {
-		color: var(--accent);
+		color: var(--lamp-glow);
 		text-shadow: var(--glow-sm);
 	}
 
@@ -1365,7 +1365,7 @@
 		gap: 12px;
 		margin-top: 16px;
 		padding-top: 16px;
-		border-top: 1px solid var(--bg-elevated);
+		border-top: 1px solid var(--stone-warm);
 
 		@media (max-width: 768px) {
 			margin-top: 12px;
@@ -1391,7 +1391,7 @@
 	.filter-label {
 		font-size: 0.75rem;
 		font-weight: 500;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 
 		@media (max-width: 768px) {
 			font-size: 12px;
@@ -1401,9 +1401,9 @@
 	.filter-select {
 		padding: 6px 10px;
 		font-size: 0.8125rem;
-		background: var(--bg-elevated);
-		color: var(--text-primary);
-		border: 1px solid var(--bg-highlight);
+		background: var(--stone-warm);
+		color: var(--ink-bright);
+		border: 1px solid var(--stone-warm);
 		border-radius: 6px;
 		cursor: pointer;
 
@@ -1416,7 +1416,7 @@
 
 	.filter-select:focus {
 		outline: none;
-		border-color: var(--primary);
+		border-color: var(--lamp-glow);
 	}
 
 	.checkbox-label {
@@ -1424,13 +1424,13 @@
 		align-items: center;
 		gap: 6px;
 		font-size: 0.8125rem;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 		cursor: pointer;
 
 		@media (max-width: 768px) {
 			padding: 12px;
-			background: var(--bg-elevated);
-			border: 1px solid var(--bg-highlight);
+			background: var(--stone-warm);
+			border: 1px solid var(--stone-warm);
 			border-radius: 8px;
 			font-size: 14px;
 			gap: 10px;
@@ -1440,7 +1440,7 @@
 	.checkbox-input {
 		width: 16px;
 		height: 16px;
-		accent-color: var(--primary);
+		accent-color: var(--lamp-glow);
 
 		@media (max-width: 768px) {
 			width: 20px;
@@ -1451,7 +1451,7 @@
 	.results-summary {
 		margin-top: 12px;
 		font-size: 0.75rem;
-		color: var(--text-muted);
+		color: var(--ink-dim);
 
 		@media (max-width: 768px) {
 			text-align: center;
@@ -1495,8 +1495,8 @@
 		max-height: calc(100vh - 280px);
 		display: flex;
 		flex-direction: column;
-		background: var(--bg-surface);
-		border: 1px solid var(--bg-elevated);
+		background: var(--stone-warm);
+		border: 1px solid var(--stone-warm);
 		border-radius: 10px;
 		border-top-width: 3px;
 		transition: all 0.2s ease;
@@ -1514,25 +1514,25 @@
 
 	/* Stage Colors */
 	.stage-not-written {
-		border-top-color: var(--text-muted);
+		border-top-color: var(--ink-dim);
 	}
 	.stage-prioritized {
 		border-top-color: #f59e0b;
 	}
 	.stage-written {
-		border-top-color: var(--secondary);
+		border-top-color: var(--data-teal);
 	}
 	.stage-proofread {
 		border-top-color: #6366f1;
 	}
 	.stage-sent-review {
-		border-top-color: var(--primary);
+		border-top-color: var(--lamp-glow);
 	}
 	.stage-reviewed {
 		border-top-color: #ec4899;
 	}
 	.stage-socialized {
-		border-top-color: var(--accent);
+		border-top-color: var(--lamp-glow);
 	}
 	.stage-growing {
 		border-top-color: var(--success);
@@ -1551,7 +1551,7 @@
 		gap: 4px;
 		padding: 8px 10px;
 		background: inherit;
-		border-bottom: 1px solid var(--bg-elevated);
+		border-bottom: 1px solid var(--stone-warm);
 
 		@media (max-width: 768px) {
 			padding: 12px;
@@ -1561,7 +1561,7 @@
 	.column-title {
 		font-size: 0.6875rem;
 		font-weight: 600;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 		margin: 0;
 		white-space: nowrap;
 		overflow: hidden;
@@ -1577,8 +1577,8 @@
 		padding: 2px 6px;
 		font-size: 0.625rem;
 		font-weight: 600;
-		background: var(--bg-elevated);
-		color: var(--text-muted);
+		background: var(--stone-warm);
+		color: var(--ink-dim);
 		border-radius: 10px;
 
 		@media (max-width: 768px) {
@@ -1595,7 +1595,7 @@
 		flex-direction: column;
 		gap: 6px;
 		scrollbar-width: thin;
-		scrollbar-color: var(--primary) transparent;
+		scrollbar-color: var(--lamp-glow) transparent;
 
 		@media (max-width: 768px) {
 			padding: 10px;
@@ -1612,7 +1612,7 @@
 	}
 
 	.kanban-cards::-webkit-scrollbar-thumb {
-		background-color: var(--primary);
+		background-color: var(--lamp-glow);
 		border-radius: 3px;
 	}
 
@@ -1621,21 +1621,21 @@
 		align-items: center;
 		justify-content: center;
 		padding: 16px;
-		border: 1px dashed var(--bg-highlight);
+		border: 1px dashed var(--stone-warm);
 		border-radius: 8px;
-		background: var(--bg-elevated);
+		background: var(--stone-warm);
 	}
 
 	.empty-column p {
 		font-size: 0.625rem;
-		color: var(--text-muted);
+		color: var(--ink-dim);
 		margin: 0;
 	}
 
 	/* List View Table */
 	.table-card {
-		background: var(--bg-surface);
-		border: 1px solid var(--bg-elevated);
+		background: var(--stone-warm);
+		border: 1px solid var(--stone-warm);
 		border-radius: 12px;
 		overflow: hidden;
 
@@ -1667,7 +1667,7 @@
 	.data-table thead {
 		position: sticky;
 		top: 0;
-		background: var(--bg-deep);
+		background: var(--night-deep);
 		z-index: 1;
 
 		@media (max-width: 768px) {
@@ -1679,18 +1679,18 @@
 		padding: 12px 16px;
 		text-align: left;
 		font-weight: 600;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 		font-size: 0.6875rem;
 		text-transform: uppercase;
 		letter-spacing: 0.5px;
-		border-bottom: 1px solid var(--bg-elevated);
+		border-bottom: 1px solid var(--stone-warm);
 		white-space: nowrap;
 	}
 
 	.data-table td {
 		padding: 12px 16px;
-		border-bottom: 1px solid var(--bg-elevated);
-		color: var(--text-primary);
+		border-bottom: 1px solid var(--stone-warm);
+		color: var(--ink-bright);
 
 		@media (max-width: 768px) {
 			padding: 14px 12px;
@@ -1706,7 +1706,7 @@
 			flex-wrap: wrap;
 			align-items: center;
 			padding: 12px;
-			border-bottom: 1px solid var(--bg-elevated);
+			border-bottom: 1px solid var(--stone-warm);
 
 			td {
 				border: none;
@@ -1725,7 +1725,7 @@
 	}
 
 	.table-row:hover {
-		background: var(--bg-elevated);
+		background: var(--stone-warm);
 	}
 
 	.table-row:active {
@@ -1744,7 +1744,7 @@
 
 	.title-text {
 		font-weight: 500;
-		color: var(--text-primary);
+		color: var(--ink-bright);
 		white-space: nowrap;
 		overflow: hidden;
 		text-overflow: ellipsis;
@@ -1758,7 +1758,7 @@
 
 	.subtitle-text {
 		font-size: 0.75rem;
-		color: var(--text-muted);
+		color: var(--ink-dim);
 		margin-top: 2px;
 
 		@media (max-width: 768px) {
@@ -1772,8 +1772,8 @@
 		padding: 4px 10px;
 		font-size: 0.75rem;
 		font-weight: 500;
-		background: var(--bg-elevated);
-		color: var(--text-secondary);
+		background: var(--stone-warm);
+		color: var(--ink-mid);
 		border-radius: 12px;
 	}
 
@@ -1793,7 +1793,7 @@
 	}
 
 	.date-cell {
-		color: var(--text-muted);
+		color: var(--ink-dim);
 		font-size: 0.75rem;
 	}
 
@@ -1808,7 +1808,7 @@
 		gap: 4px;
 		font-size: 0.75rem;
 		font-weight: 500;
-		color: var(--primary-light);
+		color: var(--lamp-glow);
 		text-decoration: none;
 		transition: all 0.15s ease;
 
@@ -1816,13 +1816,13 @@
 			padding: 10px 14px;
 			font-size: 13px;
 			background: var(--primary-subtle);
-			border: 1px solid var(--primary);
+			border: 1px solid var(--lamp-glow);
 			border-radius: 6px;
 		}
 	}
 
 	.view-link:hover {
-		color: var(--accent);
+		color: var(--lamp-glow);
 		text-shadow: var(--glow-sm);
 	}
 
@@ -1838,7 +1838,7 @@
 	.edit-btn {
 		font-size: 0.75rem;
 		font-weight: 500;
-		color: var(--primary-light);
+		color: var(--lamp-glow);
 		background: transparent;
 		border: none;
 		cursor: pointer;
@@ -1847,14 +1847,14 @@
 		@media (max-width: 768px) {
 			padding: 10px 14px;
 			font-size: 13px;
-			background: var(--bg-elevated);
-			border: 1px solid var(--bg-highlight);
+			background: var(--stone-warm);
+			border: 1px solid var(--stone-warm);
 			border-radius: 6px;
 		}
 	}
 
 	.edit-btn:hover {
-		color: var(--accent);
+		color: var(--lamp-glow);
 		text-shadow: var(--glow-sm);
 	}
 
@@ -1960,7 +1960,7 @@
 	/* Drag over styles */
 	:global(.drag-over) {
 		background-color: var(--primary-subtle) !important;
-		box-shadow: inset 0 0 0 2px var(--primary);
+		box-shadow: inset 0 0 0 2px var(--lamp-glow);
 	}
 
 	:global(.dragging) {

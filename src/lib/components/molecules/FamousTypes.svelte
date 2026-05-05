@@ -8,7 +8,7 @@
 	} from '$lib/utils/personalityAnalysis';
 </script>
 
-<ul>
+<ul class="famous-types">
 	{#each famousTypes[type] as person}
 		<li>
 			{#if person.link}
@@ -16,8 +16,36 @@
 					{formatPersonalityDisplayName(person.name)}
 				</a>
 			{:else}
-				<p style="margin: 0;">{formatPersonalityDisplayName(person.name)}</p>
+				<span>{formatPersonalityDisplayName(person.name)}</span>
 			{/if}
 		</li>
 	{/each}
 </ul>
+
+<style>
+	.famous-types {
+		list-style: none;
+		padding: 0;
+		margin: 0;
+		columns: 14rem auto;
+		column-gap: 1.5rem;
+	}
+
+	.famous-types li {
+		break-inside: avoid;
+		padding: 0.15rem 0;
+		line-height: 1.4;
+	}
+
+	@media (min-width: 48rem) {
+		.famous-types {
+			column-count: 2;
+		}
+	}
+
+	@media (min-width: 72rem) {
+		.famous-types {
+			column-count: 3;
+		}
+	}
+</style>

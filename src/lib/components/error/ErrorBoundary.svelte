@@ -75,7 +75,7 @@
 	{:else}
 		<div class="flex min-h-[500px] items-center justify-center p-4">
 			<div
-				class="w-full max-w-md rounded-xl border border-[var(--border-color)] bg-[var(--bg-surface)] p-8 shadow-[var(--shadow-xl)]"
+				class="w-full max-w-md rounded-xl border border-[var(--stone-edge)] bg-[var(--stone-warm)] p-8 shadow-[var(--shadow-xl)]"
 			>
 				<div class="flex flex-col items-center text-center">
 					<!-- Error Icon -->
@@ -98,23 +98,23 @@
 					</div>
 
 					<!-- Error Title -->
-					<h2 class="mb-2 text-2xl font-bold text-[var(--text-primary)]">
+					<h2 class="mb-2 text-2xl font-bold text-[var(--ink-bright)]">
 						Oops! Something went wrong
 					</h2>
 
 					<!-- Error Message -->
-					<p class="mb-6 text-[var(--text-secondary)]">{errorMessage}</p>
+					<p class="mb-6 text-[var(--ink-mid)]">{errorMessage}</p>
 
 					<!-- Action Buttons -->
 					<div class="flex w-full flex-col gap-3 sm:flex-row sm:justify-center">
 						<button
-							class="rounded-md bg-[var(--primary-dark)] px-6 py-2.5 font-semibold text-[var(--text-on-primary)] shadow-[var(--glow-sm)] transition-all hover:bg-[var(--primary)] hover:shadow-[var(--glow-md)]"
+							class="rounded-md bg-[var(--lamp-glow)] px-6 py-2.5 font-semibold text-[var(--text-on-primary)] shadow-[var(--glow-sm)] transition-all hover:bg-[var(--lamp-glow)] hover:shadow-[var(--glow-md)]"
 							on:click={retry}
 						>
 							Try Again
 						</button>
 						<button
-							class="rounded-md border border-[var(--border-color)] bg-[var(--bg-deep)] px-6 py-2.5 font-semibold text-[var(--text-secondary)] transition-all hover:border-[var(--primary-subtle)] hover:bg-[var(--bg-elevated)] hover:text-[var(--text-primary)]"
+							class="rounded-md border border-[var(--stone-edge)] bg-[var(--night-deep)] px-6 py-2.5 font-semibold text-[var(--ink-mid)] transition-all hover:border-[var(--primary-subtle)] hover:bg-[var(--stone-warm)] hover:text-[var(--ink-bright)]"
 							on:click={() => (window.location.href = '/')}
 						>
 							Go Home
@@ -125,12 +125,12 @@
 					{#if import.meta.env.DEV && errorStack}
 						<details class="mt-6 w-full">
 							<summary
-								class="cursor-pointer text-sm font-medium text-[var(--text-tertiary)] hover:text-[var(--text-secondary)]"
+								class="cursor-pointer text-sm font-medium text-[var(--ink-dim)] hover:text-[var(--ink-mid)]"
 							>
 								Error details (development only)
 							</summary>
 							<div
-								class="mt-3 rounded-xl border border-[var(--border-color)] bg-[var(--bg-deep)] p-4"
+								class="mt-3 rounded-xl border border-[var(--stone-edge)] bg-[var(--night-deep)] p-4"
 							>
 								<pre class="overflow-x-auto text-left text-xs text-red-400">{errorStack}</pre>
 							</div>

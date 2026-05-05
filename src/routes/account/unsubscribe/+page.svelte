@@ -5,7 +5,7 @@
 	import { deserialize } from '$app/forms';
 	import { notifications } from '$lib/components/molecules/notifications';
 
-	export let data: PageData;
+	let { data }: { data: PageData } = $props();
 
 	const formattedSignups: any[] = data?.signups?.length
 		? data?.signups?.map((s) => {
@@ -17,7 +17,7 @@
 			})
 		: [];
 
-	let email: string = '';
+	let email = $state('');
 	const createCypher = async () => {
 		let body = new FormData();
 		body.append('email', email.trim());
@@ -89,12 +89,12 @@
 
 	<div class="row">
 		<input type="text" bind:value={email} style="margin-bottom: auto" />
-		<button type="button" class="btn btn-primary" on:click={createCypher}
+		<button type="button" class="btn btn-primary" onclick={createCypher}
 			>Create unsubscribe link</button
 		>
 	</div>
 	<div class="row">
-		<button type="button" class="btn btn-primary" on:click={refreshAllCyphersForAll}
+		<button type="button" class="btn btn-primary" onclick={refreshAllCyphersForAll}
 			>Refresh all cyphers</button
 		>
 	</div>

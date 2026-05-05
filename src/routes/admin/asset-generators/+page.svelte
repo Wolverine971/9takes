@@ -47,7 +47,7 @@
 	.hero {
 		padding: 1.25rem;
 		border-radius: 0.75rem;
-		border: 1px solid var(--bg-elevated);
+		border: 1px solid var(--stone-warm);
 		background: linear-gradient(130deg, rgba(15, 23, 42, 0.92), rgba(30, 41, 59, 0.86));
 	}
 
@@ -58,7 +58,7 @@
 
 	.hero p {
 		margin: 0.5rem 0 0;
-		color: var(--text-muted);
+		color: var(--ink-dim);
 	}
 
 	.grid {
@@ -73,8 +73,8 @@
 		gap: 0.6rem;
 		padding: 1rem;
 		border-radius: 0.7rem;
-		border: 1px solid var(--bg-elevated);
-		background: var(--bg-deep);
+		border: 1px solid var(--stone-warm);
+		background: var(--night-deep);
 		text-decoration: none;
 		color: inherit;
 		transition:
@@ -84,7 +84,7 @@
 
 	.card:hover {
 		transform: translateY(-1px);
-		border-color: color-mix(in srgb, var(--nebula-primary) 50%, var(--bg-elevated));
+		border-color: color-mix(in srgb, var(--nebula-primary) 50%, var(--stone-warm));
 	}
 
 	.card h2 {
@@ -94,7 +94,7 @@
 
 	.card p {
 		margin: 0;
-		color: var(--text-muted);
+		color: var(--ink-dim);
 		line-height: 1.35;
 		font-size: 0.92rem;
 	}

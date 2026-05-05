@@ -131,7 +131,7 @@
 		{/if}
 
 		<h1
-			class="m-1 w-full rounded-md text-left text-xl font-semibold text-[var(--text-primary)]"
+			class="m-1 w-full rounded-md text-left text-xl font-semibold text-[var(--ink-bright)]"
 			id="question-box"
 			itemprop="name"
 		>
@@ -163,7 +163,7 @@
 
 		{#if childCategories.length}
 			<section class="mb-4 mt-3">
-				<h2 class="mb-3 text-base font-semibold text-[var(--text-primary)]">
+				<h2 class="mb-3 text-base font-semibold text-[var(--ink-bright)]">
 					Browse subcategories
 				</h2>
 				<div class="grid gap-3">
@@ -192,35 +192,35 @@
 		gap: 0.4rem;
 		margin: 0.15rem 0.25rem 0.6rem;
 		font-size: 0.85rem;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 	}
 
 	.category-meta__count {
 		font-weight: 600;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 	}
 
 	.category-meta__divider {
-		color: var(--text-tertiary);
+		color: var(--ink-dim);
 	}
 
 	.category-intro {
 		margin: 0.9rem 0 1.2rem;
 		padding: 1rem 1.1rem;
 		border-radius: 1rem;
-		border: 1px solid color-mix(in srgb, var(--primary) 16%, var(--bg-elevated));
+		border: 1px solid color-mix(in srgb, var(--lamp-glow) 16%, var(--stone-warm));
 		background:
 			linear-gradient(
 				180deg,
-				color-mix(in srgb, var(--primary) 7%, transparent) 0%,
+				color-mix(in srgb, var(--lamp-glow) 7%, transparent) 0%,
 				transparent 100%
 			),
-			color-mix(in srgb, var(--bg-surface) 90%, var(--bg-base));
+			color-mix(in srgb, var(--stone-warm) 90%, var(--night-deep));
 	}
 
 	:global([data-category-intro] p) {
 		margin: 0 0 0.85rem;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 		line-height: 1.75;
 	}
 
@@ -232,7 +232,7 @@
 	:global([data-category-intro] ol) {
 		margin: 0 0 0.85rem;
 		padding-left: 1.2rem;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 	}
 
 	:global([data-category-intro] li) {
@@ -241,11 +241,11 @@
 	}
 
 	:global([data-category-intro] a) {
-		color: var(--primary);
+		color: var(--lamp-glow);
 		text-decoration: underline;
 	}
 
 	:global([data-category-intro] strong) {
-		color: var(--text-primary);
+		color: var(--ink-bright);
 	}
 </style>

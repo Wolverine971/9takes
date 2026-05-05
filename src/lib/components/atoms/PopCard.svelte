@@ -444,14 +444,14 @@
 		&__label {
 			font-size: clamp(0.6rem, 1.8vw, 0.7rem);
 			letter-spacing: 0.15em;
-			color: var(--accent);
+			color: var(--lamp-glow);
 			text-transform: uppercase;
 		}
 
 		&__type-badge {
 			font-size: clamp(0.6rem, 1.8vw, 0.7rem);
 			letter-spacing: 0.1em;
-			color: var(--accent-light);
+			color: var(--lamp-glow);
 			border: 1px solid rgba(45, 212, 191, 0.5);
 			padding: 0.15rem 0.5rem;
 			font-weight: 700;
@@ -479,7 +479,7 @@
 			&--highlight {
 				margin-top: 0.25rem;
 				.spec-hud__key {
-					color: var(--accent-light);
+					color: var(--lamp-glow);
 				}
 				.spec-hud__val {
 					font-style: italic;
@@ -491,7 +491,7 @@
 		&__key {
 			font-size: clamp(0.55rem, 1.6vw, 0.65rem);
 			letter-spacing: 0.1em;
-			color: var(--accent);
+			color: var(--lamp-glow);
 			white-space: nowrap;
 			flex-shrink: 0;
 			padding-top: 0.1rem;

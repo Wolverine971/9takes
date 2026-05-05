@@ -750,14 +750,6 @@ It's crucial to acknowledge the legitimate criticisms of Enneagram research whil
 - Focus on patterns not labels
 - Integrate with established methods
 
-<div class="scroll-fade">
-<MarqueeHorizontal displayList={[
-  { name: "Enneagram Crisis Management Guide", link: "/enneagram-corner/mental-health/enneagram-crisis-management-guide" },
-  { name: "Enneagram Addiction Recovery Guide", link: "/enneagram-corner/mental-health/enneagram-addiction-recovery-guide" },
-  { name: "Enneagram Parenting & Mental Health", link: "/enneagram-corner/mental-health/enneagram-parenting-mental-health" },
-  { name: "Enneagram Workplace Mental Health", link: "/enneagram-corner/mental-health/enneagram-workplace-mental-health" }
-]} />
-</div>
 
 ## Future Research Directions
 

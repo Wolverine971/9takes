@@ -1,0 +1,16 @@
+```text
+Published people blog.
+
+Person: bobby-lee
+Draft: src/blog/people/drafts/Bobby-Lee.md
+Date/lastmod: 2026-05-04
+Supabase: published=true (row id=981)
+Images: full + thumbnail present (static/types/7s/Bobby-Lee.webp, s-Bobby-Lee.webp)
+Generated files: pnpm gen:all completed
+  - Draft frontmatter: published: true, date/lastmod 2026-05-04
+  - famousTypes.ts: bobby-lee → link: true, hasImage: true, lastmod 2026-05-04, grade 8.8
+  - sitemap.xml: includes /personality-analysis/bobby-lee
+
+Blockers:
+- none
+```

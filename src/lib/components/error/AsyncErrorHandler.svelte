@@ -166,7 +166,7 @@
 		padding-top: 0.75rem;
 		border-top: 1px solid rgba(239, 68, 68, 0.2);
 		font-size: 0.8125rem;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 	}
 
 	@media (max-width: 768px) {

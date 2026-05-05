@@ -125,8 +125,8 @@
 		position: sticky;
 		top: var(--site-header-height);
 		z-index: 40;
-		background: var(--bg-deep);
-		border-bottom: 1px solid var(--bg-elevated);
+		background: var(--night-deep);
+		border-bottom: 1px solid var(--stone-warm);
 		padding: 12px 16px;
 		align-items: center;
 		justify-content: space-between;
@@ -137,7 +137,7 @@
 	.current-page {
 		font-weight: 600;
 		font-size: 1rem;
-		color: var(--text-primary);
+		color: var(--ink-bright);
 		flex: 1;
 		min-width: 0;
 		overflow: hidden;
@@ -160,7 +160,7 @@
 	}
 
 	.menu-toggle:hover {
-		background: var(--bg-elevated);
+		background: var(--stone-warm);
 	}
 
 	.hamburger {
@@ -177,7 +177,7 @@
 		display: block;
 		width: 100%;
 		height: 2px;
-		background: var(--text-primary);
+		background: var(--ink-bright);
 		border-radius: 1px;
 		transition: all 0.3s ease;
 		position: absolute;
@@ -210,8 +210,8 @@
 
 	/* Admin Navigation Bar */
 	.admin-nav {
-		background-color: var(--bg-deep);
-		border-bottom: 1px solid var(--bg-elevated);
+		background-color: var(--night-deep);
+		border-bottom: 1px solid var(--stone-warm);
 		position: sticky;
 		top: var(--site-header-height);
 		z-index: 30;
@@ -235,7 +235,7 @@
 		align-items: center;
 		gap: 6px;
 		padding: 8px 14px;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 		text-decoration: none;
 		font-weight: 500;
 		font-size: 0.8125rem;
@@ -257,15 +257,15 @@
 	}
 
 	.nav-link:hover {
-		background-color: var(--bg-elevated);
-		color: var(--text-primary);
-		border-color: var(--bg-highlight);
+		background-color: var(--stone-warm);
+		color: var(--ink-bright);
+		border-color: var(--stone-warm);
 	}
 
 	.nav-link.active {
-		background: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%);
+		background: linear-gradient(135deg, var(--lamp-glow) 0%, var(--lamp-glow) 100%);
 		color: white;
-		border-color: var(--primary);
+		border-color: var(--lamp-glow);
 		box-shadow: var(--glow-sm);
 	}
 
@@ -299,14 +299,14 @@
 		justify-content: center;
 		min-height: 100vh;
 		padding: 16px;
-		background-color: var(--bg-base);
+		background-color: var(--night-deep);
 	}
 
 	.error-container {
 		text-align: center;
 		padding: 40px 32px;
-		background-color: var(--bg-surface);
-		border: 1px solid var(--bg-elevated);
+		background-color: var(--stone-warm);
+		border: 1px solid var(--stone-warm);
 		border-radius: 16px;
 		box-shadow: var(--shadow-xl);
 		max-width: 400px;
@@ -320,7 +320,7 @@
 	}
 
 	.error-container p {
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 		margin-bottom: 24px;
 	}
 
@@ -332,12 +332,12 @@
 	:global(.page-header h1) {
 		font-size: 1.5rem;
 		margin: 0 0 6px 0;
-		color: var(--text-primary);
+		color: var(--ink-bright);
 		font-weight: 700;
 	}
 
 	:global(.page-header .subtitle) {
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 		margin: 0;
 		font-size: 0.875rem;
 	}
@@ -374,7 +374,7 @@
 			transform: translateX(-100%);
 			transition: transform 0.3s ease;
 			border-bottom: none;
-			border-right: 1px solid var(--bg-elevated);
+			border-right: 1px solid var(--stone-warm);
 			box-shadow: 4px 0 24px rgba(0, 0, 0, 0.4);
 			overflow-y: auto;
 		}

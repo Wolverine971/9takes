@@ -100,14 +100,7 @@ Watch for these red flags, in yourself or others:
 
 ⚠️ **Warning Sign:** If you're reading this list and thinking "that's me right now," stop reading and call 988.
 
-<div class="scroll-fade">
-<MarqueeHorizontal displayList={[
-  { name: "Enneagram Addiction Recovery Guide", link: "/enneagram-corner/mental-health/enneagram-addiction-recovery-guide" },
-  { name: "Enneagram Therapy Guide", link: "/enneagram-corner/mental-health/enneagram-therapy-guide" },
-  { name: "Enneagram Trauma Response Guide", link: "/enneagram-corner/mental-health/enneagram-trauma-response-guide" },
-  { name: "Enneagram Workplace Mental Health", link: "/enneagram-corner/mental-health/enneagram-workplace-mental-health" }
-]} />
-</div>
+
 
 ## Type 1: The Perfectionist in Crisis
 
@@ -437,6 +430,16 @@ Type 3 crises are often triggered by [workplace failures or burnout](/enneagram-
 - "Rest is productive"
 - "Failure is human"
 - "You are enough"
+
+
+<div class="scroll-fade">
+<MarqueeHorizontal displayList={[
+  { name: "Enneagram Addiction Recovery Guide", link: "/enneagram-corner/mental-health/enneagram-addiction-recovery-guide" },
+  { name: "Enneagram Therapy Guide", link: "/enneagram-corner/mental-health/enneagram-therapy-guide" },
+  { name: "Enneagram Trauma Response Guide", link: "/enneagram-corner/mental-health/enneagram-trauma-response-guide" },
+  { name: "Enneagram Workplace Mental Health", link: "/enneagram-corner/mental-health/enneagram-workplace-mental-health" }
+]} />
+</div>
 
 ## Type 4: The Individualist in Crisis
 
@@ -1130,15 +1133,6 @@ When a Type 9 fully breaks, they experience something closer to dissolution than
    - Support contacts
    - Comfort items
    - Professional resources
-
-<div class="scroll-fade">
-<MarqueeHorizontal displayList={[
-  { name: "Enneagram Medication Guide", link: "/enneagram-corner/mental-health/enneagram-medication-mental-health" },
-  { name: "Enneagram Parenting & Mental Health", link: "/enneagram-corner/mental-health/enneagram-parenting-mental-health" },
-  { name: "Understanding Mental Health Science", link: "/enneagram-corner/mental-health/enneagram-science-mental-health" },
-  { name: "Enneagram Neurodivergence Guide", link: "/enneagram-corner/mental-health/enneagram-neurodivergence-guide" }
-]} />
-</div>
 
 3. **Practice When Calm**
    - Regular skill building

@@ -313,25 +313,25 @@
 		font-size: clamp(1.3rem, 2.4vw, 1.65rem);
 		font-weight: 700;
 		margin: 0 0 0.75rem;
-		color: var(--text-primary);
+		color: var(--ink-bright);
 	}
 	h3 {
 		font-family: var(--font-display);
 		font-size: 1.1rem;
 		font-weight: 700;
 		margin: 0 0 0.5rem;
-		color: var(--text-primary);
+		color: var(--ink-bright);
 	}
 	h4 {
 		font-family: var(--font-display);
 		font-size: 1rem;
 		font-weight: 700;
 		margin: 0.25rem 0 0.5rem;
-		color: var(--text-primary);
+		color: var(--ink-bright);
 	}
 	p {
 		line-height: 1.55;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 		margin: 0 0 0.75rem;
 		max-width: 720px;
 	}
@@ -339,7 +339,7 @@
 		margin: 0 0 1.25rem;
 	}
 	p.lede-sub {
-		color: var(--text-mist, var(--text-secondary));
+		color: var(--text-mist, var(--ink-mid));
 		font-size: 0.95rem;
 		margin: 0 0 1rem;
 	}
@@ -347,15 +347,15 @@
 	/* ===== Caveat box ===== */
 	.caveat-box {
 		border: 1px solid rgba(45, 212, 191, 0.25);
-		border-left: 3px solid var(--shadow-flame, var(--primary));
-		background: var(--bg-surface);
+		border-left: 3px solid var(--shadow-flame, var(--lamp-glow));
+		background: var(--stone-warm);
 		border-radius: 10px;
 		padding: 1rem 1.15rem 0.75rem;
 		margin: 0 0 1.75rem;
 	}
 	.caveat-box h3 {
 		margin-bottom: 0.35rem;
-		color: var(--shadow-flame, var(--primary));
+		color: var(--shadow-flame, var(--lamp-glow));
 		font-size: 0.95rem;
 		letter-spacing: 0.01em;
 	}
@@ -363,12 +363,12 @@
 		margin-bottom: 0.65rem;
 	}
 	.caveat-box p.sub {
-		color: var(--text-mist, var(--text-secondary));
+		color: var(--text-mist, var(--ink-mid));
 		font-size: 0.85rem;
 		margin-bottom: 0;
 	}
 	.caveat-box a {
-		color: var(--shadow-flame, var(--primary));
+		color: var(--shadow-flame, var(--lamp-glow));
 	}
 
 	/* ===== Table ===== */
@@ -395,7 +395,7 @@
 	.comparison-table th,
 	.comparison-table td {
 		padding: 0.55rem 0.75rem;
-		border-bottom: 1px solid var(--border-color);
+		border-bottom: 1px solid var(--stone-edge);
 		text-align: left;
 		vertical-align: baseline;
 	}
@@ -410,7 +410,7 @@
 	.comparison-table tbody th {
 		font-weight: 700;
 		font-variant-numeric: tabular-nums;
-		color: var(--shadow-flame, var(--primary));
+		color: var(--shadow-flame, var(--lamp-glow));
 	}
 	.comparison-table .num {
 		text-align: right;
@@ -418,7 +418,7 @@
 	}
 	.comparison-table td.corpus {
 		font-weight: 700;
-		color: var(--text-primary);
+		color: var(--ink-bright);
 	}
 	.col-sub {
 		display: block;
@@ -430,7 +430,7 @@
 		font-weight: 400;
 	}
 	.comparison-table td.pos {
-		color: var(--shadow-flame, var(--primary));
+		color: var(--shadow-flame, var(--lamp-glow));
 		font-weight: 600;
 	}
 	.comparison-table td.neg {
@@ -456,9 +456,9 @@
 	}
 	.interpretation {
 		padding: 0.85rem 1rem;
-		border: 1px solid var(--border-color);
+		border: 1px solid var(--stone-edge);
 		border-radius: 10px;
-		background: var(--bg-surface);
+		background: var(--stone-warm);
 		margin-bottom: 0.6rem;
 	}
 	.interpretation-head {
@@ -481,7 +481,7 @@
 		font-variant-numeric: tabular-nums;
 	}
 	.interpretation-delta.pos {
-		color: var(--shadow-flame, var(--primary));
+		color: var(--shadow-flame, var(--lamp-glow));
 	}
 	.interpretation-delta.neg {
 		color: var(--text-mist);
@@ -493,10 +493,10 @@
 
 	/* ===== Conflict note ===== */
 	.conflict-note {
-		border: 1px dashed var(--border-color);
+		border: 1px dashed var(--stone-edge);
 		border-radius: 10px;
 		padding: 0.9rem 1rem;
-		background: var(--bg-deep);
+		background: var(--night-deep);
 		margin: 0 0 2rem;
 	}
 	.conflict-note h3 {
@@ -518,7 +518,7 @@
 	}
 	.source-list li {
 		padding: 0.65rem 0;
-		border-bottom: 1px solid var(--border-color);
+		border-bottom: 1px solid var(--stone-edge);
 	}
 	.source-list li:last-child {
 		border-bottom: 0;
@@ -526,10 +526,10 @@
 	.source-name {
 		font-weight: 700;
 		font-size: 0.98rem;
-		color: var(--text-primary);
+		color: var(--ink-bright);
 	}
 	.source-name a {
-		color: var(--shadow-flame, var(--primary));
+		color: var(--shadow-flame, var(--lamp-glow));
 		text-decoration: none;
 	}
 	.source-name a:hover {
@@ -550,7 +550,7 @@
 	.partial-tag {
 		display: inline-block;
 		padding: 0 0.35rem;
-		border: 1px solid var(--border-color);
+		border: 1px solid var(--stone-edge);
 		border-radius: 3px;
 		font-family: var(--font-mono);
 		font-size: 0.7rem;
@@ -564,7 +564,7 @@
 	.source-contribution {
 		font-size: 0.9rem;
 		line-height: 1.5;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 		margin-top: 0.2rem;
 	}
 	.source-notes,

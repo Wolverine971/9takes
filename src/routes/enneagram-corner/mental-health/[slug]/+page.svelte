@@ -187,7 +187,7 @@
 
 		p {
 			margin: 0;
-			color: var(--text-primary);
+			color: var(--ink-bright);
 			line-height: 1.6;
 		}
 
@@ -215,7 +215,7 @@
 			text-align: center;
 			margin-bottom: 2rem;
 			font-size: 2rem;
-			color: var(--text-primary);
+			color: var(--ink-bright);
 		}
 
 		.resources-grid {
@@ -241,13 +241,13 @@
 
 				h3 {
 					margin-bottom: 0.5rem;
-					color: var(--text-primary);
+					color: var(--ink-bright);
 					font-size: 1.25rem;
 				}
 
 				p {
 					margin-bottom: 1rem;
-					color: var(--text-secondary);
+					color: var(--ink-mid);
 					line-height: 1.5;
 				}
 

@@ -441,7 +441,7 @@
 	/* 9takes Warm Tech Theme Typography */
 	h2 {
 		font-size: 1.8rem;
-		color: var(--text-primary);
+		color: var(--ink-bright);
 		margin-top: 2rem;
 		margin-bottom: 1rem;
 		font-weight: 600;
@@ -465,7 +465,7 @@
 		line-height: 1.6;
 
 		strong {
-			color: var(--accent-light);
+			color: var(--lamp-glow);
 			font-weight: 600;
 		}
 	}

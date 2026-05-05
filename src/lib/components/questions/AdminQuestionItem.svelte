@@ -642,12 +642,12 @@
 	.question-detail-modal {
 		overflow: hidden;
 		width: 100%;
-		border: 1px solid color-mix(in srgb, var(--primary) 12%, var(--border-color));
+		border: 1px solid color-mix(in srgb, var(--lamp-glow) 12%, var(--stone-edge));
 		border-radius: 24px;
 		background: linear-gradient(
 			180deg,
-			var(--bg-surface) 0%,
-			color-mix(in srgb, var(--bg-surface) 82%, var(--bg-deep)) 100%
+			var(--stone-warm) 0%,
+			color-mix(in srgb, var(--stone-warm) 82%, var(--night-deep)) 100%
 		);
 		box-shadow: var(--shadow-md);
 	}
@@ -659,11 +659,11 @@
 		justify-content: space-between;
 		gap: 16px;
 		padding: 28px 72px 24px 28px;
-		border-bottom: 1px solid color-mix(in srgb, var(--primary) 10%, var(--border-color));
+		border-bottom: 1px solid color-mix(in srgb, var(--lamp-glow) 10%, var(--stone-edge));
 		background: linear-gradient(
 			140deg,
-			color-mix(in srgb, var(--primary) 10%, var(--bg-surface)) 0%,
-			var(--bg-deep) 100%
+			color-mix(in srgb, var(--lamp-glow) 10%, var(--stone-warm)) 0%,
+			var(--night-deep) 100%
 		);
 	}
 
@@ -678,14 +678,14 @@
 		font-weight: 700;
 		letter-spacing: 0.08em;
 		text-transform: uppercase;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 	}
 
 	.question-detail-modal__title {
 		margin: 10px 0 0;
 		font-size: clamp(1.3rem, 1.8vw, 1.85rem);
 		line-height: 1.35;
-		color: var(--text-primary);
+		color: var(--ink-bright);
 		word-break: break-word;
 	}
 
@@ -694,7 +694,7 @@
 		max-width: 58ch;
 		font-size: 0.92rem;
 		line-height: 1.6;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 	}
 
 	.question-detail-modal__status-list {
@@ -753,12 +753,12 @@
 		gap: 18px;
 		min-width: 0;
 		padding: 20px;
-		border: 1px solid var(--border-color);
+		border: 1px solid var(--stone-edge);
 		border-radius: 18px;
 		background: linear-gradient(
 			180deg,
-			color-mix(in srgb, var(--bg-deep) 88%, black) 0%,
-			var(--bg-deep) 100%
+			color-mix(in srgb, var(--night-deep) 88%, black) 0%,
+			var(--night-deep) 100%
 		);
 	}
 
@@ -774,22 +774,22 @@
 	.question-detail-modal__empty-card {
 		margin: 0;
 		padding: 16px;
-		border: 1px solid color-mix(in srgb, var(--primary) 8%, var(--border-color));
+		border: 1px solid color-mix(in srgb, var(--lamp-glow) 8%, var(--stone-edge));
 		border-radius: 16px;
-		background: color-mix(in srgb, var(--bg-surface) 78%, var(--bg-deep));
-		color: var(--text-primary);
+		background: color-mix(in srgb, var(--stone-warm) 78%, var(--night-deep));
+		color: var(--ink-bright);
 		line-height: 1.65;
 		word-break: break-word;
 	}
 
 	.question-detail-modal__text-block--muted,
 	.question-detail-modal__empty-card {
-		color: color-mix(in srgb, var(--text-secondary) 88%, white 12%);
+		color: color-mix(in srgb, var(--ink-mid) 88%, white 12%);
 	}
 
 	.question-detail-modal__text-block--accent {
-		border-color: color-mix(in srgb, var(--primary) 20%, var(--border-color));
-		background: color-mix(in srgb, var(--primary) 8%, var(--bg-surface));
+		border-color: color-mix(in srgb, var(--lamp-glow) 20%, var(--stone-edge));
+		background: color-mix(in srgb, var(--lamp-glow) 8%, var(--stone-warm));
 	}
 
 	.question-detail-modal__textarea {
@@ -801,8 +801,8 @@
 
 	.question-detail-modal__textarea:focus {
 		outline: none;
-		border-color: color-mix(in srgb, var(--primary) 60%, var(--border-color));
-		box-shadow: 0 0 0 3px color-mix(in srgb, var(--primary) 18%, transparent);
+		border-color: color-mix(in srgb, var(--lamp-glow) 60%, var(--stone-edge));
+		box-shadow: 0 0 0 3px color-mix(in srgb, var(--lamp-glow) 18%, transparent);
 	}
 
 	.question-detail-modal__toggle-grid {
@@ -818,10 +818,10 @@
 		gap: 10px;
 		min-height: 48px;
 		padding: 12px 14px;
-		border: 1px solid var(--border-color);
+		border: 1px solid var(--stone-edge);
 		border-radius: 14px;
-		background: color-mix(in srgb, var(--bg-surface) 74%, var(--bg-deep));
-		color: var(--text-secondary);
+		background: color-mix(in srgb, var(--stone-warm) 74%, var(--night-deep));
+		color: var(--ink-mid);
 		font-size: 0.85rem;
 		font-weight: 650;
 		cursor: pointer;
@@ -832,8 +832,8 @@
 	}
 
 	.question-detail-modal__toggle:hover {
-		border-color: color-mix(in srgb, var(--primary) 30%, var(--border-color));
-		color: var(--text-primary);
+		border-color: color-mix(in srgb, var(--lamp-glow) 30%, var(--stone-edge));
+		color: var(--ink-bright);
 	}
 
 	.question-detail-modal__toggle--warning {
@@ -872,8 +872,8 @@
 	}
 
 	.question-detail-modal__chip--selected {
-		background: color-mix(in srgb, var(--primary) 12%, transparent);
-		color: color-mix(in srgb, var(--primary) 82%, white);
+		background: color-mix(in srgb, var(--lamp-glow) 12%, transparent);
+		color: color-mix(in srgb, var(--lamp-glow) 82%, white);
 	}
 
 	.question-detail-modal__chip-remove {
@@ -906,10 +906,10 @@
 
 	.question-detail-modal__tag-action {
 		padding: 8px 12px;
-		border: 1px dashed color-mix(in srgb, var(--primary) 20%, var(--border-color));
+		border: 1px dashed color-mix(in srgb, var(--lamp-glow) 20%, var(--stone-edge));
 		border-radius: 999px;
 		background: transparent;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 		font-size: 0.78rem;
 		font-weight: 650;
 		cursor: pointer;
@@ -920,13 +920,13 @@
 	}
 
 	.question-detail-modal__tag-action:hover {
-		border-color: color-mix(in srgb, var(--primary) 50%, var(--border-color));
-		background: color-mix(in srgb, var(--primary) 10%, transparent);
-		color: color-mix(in srgb, var(--primary) 82%, white);
+		border-color: color-mix(in srgb, var(--lamp-glow) 50%, var(--stone-edge));
+		background: color-mix(in srgb, var(--lamp-glow) 10%, transparent);
+		color: color-mix(in srgb, var(--lamp-glow) 82%, white);
 	}
 
 	.question-detail-modal__empty {
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 		font-size: 0.84rem;
 		line-height: 1.5;
 	}
@@ -941,14 +941,14 @@
 		flex-direction: column;
 		gap: 8px;
 		padding: 14px 16px;
-		border: 1px solid color-mix(in srgb, var(--primary) 8%, var(--border-color));
+		border: 1px solid color-mix(in srgb, var(--lamp-glow) 8%, var(--stone-edge));
 		border-radius: 16px;
-		background: color-mix(in srgb, var(--bg-surface) 70%, var(--bg-deep));
+		background: color-mix(in srgb, var(--stone-warm) 70%, var(--night-deep));
 	}
 
 	.question-detail-modal__summary-value {
 		font-size: 0.95rem;
-		color: var(--text-primary);
+		color: var(--ink-bright);
 	}
 
 	.question-detail-modal__summary-value--inline {
@@ -969,7 +969,7 @@
 
 	.question-detail-modal__author-email,
 	.question-detail-modal__author-meta {
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 		font-size: 0.82rem;
 		line-height: 1.4;
 		word-break: break-word;
@@ -996,7 +996,7 @@
 		flex: 1 1 280px;
 		font-size: 0.86rem;
 		line-height: 1.55;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 	}
 
 	.question-detail-modal__actions {
@@ -1013,15 +1013,15 @@
 		gap: 10px;
 		width: 100%;
 		padding: 12px 14px;
-		border: 1px solid color-mix(in srgb, var(--primary) 16%, var(--border-color));
+		border: 1px solid color-mix(in srgb, var(--lamp-glow) 16%, var(--stone-edge));
 		border-radius: 16px;
-		background: color-mix(in srgb, var(--primary) 8%, var(--bg-surface));
+		background: color-mix(in srgb, var(--lamp-glow) 8%, var(--stone-warm));
 	}
 
 	.question-detail-modal__confirm-text {
 		font-size: 0.88rem;
 		font-weight: 650;
-		color: var(--text-primary);
+		color: var(--ink-bright);
 	}
 
 	.question-detail-modal__confirm-actions {
@@ -1068,21 +1068,21 @@
 	}
 
 	.question-detail-modal__button--primary {
-		background: var(--primary);
+		background: var(--lamp-glow);
 		color: white;
 	}
 
 	.question-detail-modal__button--secondary,
 	.question-detail-modal__button--outline {
-		border-color: var(--border-color);
-		background: color-mix(in srgb, var(--bg-surface) 76%, var(--bg-deep));
-		color: var(--text-primary);
+		border-color: var(--stone-edge);
+		background: color-mix(in srgb, var(--stone-warm) 76%, var(--night-deep));
+		color: var(--ink-bright);
 	}
 
 	.question-detail-modal__button--secondary:hover:not(:disabled),
 	.question-detail-modal__button--outline:hover:not(:disabled) {
-		border-color: color-mix(in srgb, var(--primary) 35%, var(--border-color));
-		color: color-mix(in srgb, var(--primary) 82%, white);
+		border-color: color-mix(in srgb, var(--lamp-glow) 35%, var(--stone-edge));
+		color: color-mix(in srgb, var(--lamp-glow) 82%, white);
 	}
 
 	@media (max-width: 920px) {

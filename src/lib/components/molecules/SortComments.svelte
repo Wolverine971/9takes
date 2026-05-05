@@ -5,7 +5,7 @@
 	import { deserialize } from '$app/forms';
 	import SlidersIcon from '$lib/components/icons/slidersIcon.svelte';
 	import { notifications } from '$lib/components/molecules/notifications';
-	import Modal2, { getModal } from '$lib/components/atoms/Modal2.svelte';
+	import Modal, { getModal } from '$lib/components/atoms/Modal.svelte';
 	import type { Comment as CommentType, QuestionPageData } from '$lib/types/questions';
 
 	interface Props {
@@ -199,7 +199,7 @@
 {/if}
 
 <!-- Filter Modal -->
-<Modal2 id="sorter" maxWidth="420px">
+<Modal id="sorter" maxWidth="420px">
 	<div class="filter-modal" in:fly={{ y: -20, duration: 300, easing: cubicOut }}>
 		<!-- Header -->
 		<div class="filter-modal__header">
@@ -368,7 +368,7 @@
 			<p class="filter-modal__hint">Answer the question first to filter comments</p>
 		{/if}
 	</div>
-</Modal2>
+</Modal>
 
 <style lang="scss">
 	/* Filter Button Styles */
@@ -383,16 +383,16 @@
 		font-weight: 500;
 		transition: all 0.2s ease;
 		position: relative;
-		color: var(--primary);
+		color: var(--lamp-glow);
 
 		&:hover {
-			background: color-mix(in srgb, var(--primary) 15%, transparent);
+			background: color-mix(in srgb, var(--lamp-glow) 15%, transparent);
 			border-color: var(--primary-glow);
 			box-shadow: 0 0 20px var(--primary-subtle);
 		}
 
 		&:focus-visible {
-			outline: 2px solid var(--accent-light);
+			outline: 2px solid var(--lamp-glow);
 			outline-offset: 2px;
 		}
 	}
@@ -410,12 +410,12 @@
 
 	.filter-btn__icon {
 		display: flex;
-		color: var(--accent-light);
+		color: var(--lamp-glow);
 	}
 
 	.filter-btn__text,
 	.filter-btn__label {
-		color: var(--primary);
+		color: var(--lamp-glow);
 		font-weight: 500;
 	}
 
@@ -426,7 +426,7 @@
 		min-width: 1.375rem;
 		height: 1.375rem;
 		padding: 0 0.375rem;
-		background: linear-gradient(135deg, var(--accent-light), var(--primary-dark));
+		background: linear-gradient(135deg, var(--lamp-glow), var(--lamp-glow));
 		color: var(--text-on-primary);
 		font-size: 0.75rem;
 		font-weight: 600;
@@ -440,16 +440,16 @@
 		right: -0.125rem;
 		width: 0.625rem;
 		height: 0.625rem;
-		background: linear-gradient(135deg, var(--accent-light), var(--primary-dark));
+		background: linear-gradient(135deg, var(--lamp-glow), var(--lamp-glow));
 		border-radius: 9999px;
-		border: 2px solid var(--bg-surface);
+		border: 2px solid var(--stone-warm);
 		box-shadow: 0 0 8px var(--primary-glow);
 	}
 
 	/* Modal Styles - Dark Purple Theme */
 	.filter-modal {
 		width: 100%;
-		background: var(--bg-deep);
+		background: var(--night-deep);
 		border-radius: 1rem;
 		border: 1px solid var(--primary-subtle);
 		box-shadow:
@@ -464,7 +464,7 @@
 		justify-content: space-between;
 		padding: 1.125rem 1.25rem;
 		border-bottom: 1px solid var(--primary-subtle);
-		background: linear-gradient(to bottom, var(--bg-surface), var(--bg-deep));
+		background: linear-gradient(to bottom, var(--stone-warm), var(--night-deep));
 	}
 
 	.filter-modal__title-group {
@@ -479,7 +479,7 @@
 		justify-content: center;
 		width: 2.25rem;
 		height: 2.25rem;
-		background: linear-gradient(135deg, var(--primary-dark), var(--accent-dark));
+		background: linear-gradient(135deg, var(--lamp-glow), var(--lamp-glow));
 		color: var(--text-on-primary);
 		border-radius: 0.625rem;
 		box-shadow: 0 4px 12px var(--primary-glow);
@@ -489,7 +489,7 @@
 		margin: 0;
 		font-size: 1.125rem;
 		font-weight: 600;
-		color: var(--text-primary);
+		color: var(--ink-bright);
 		letter-spacing: -0.01em;
 	}
 
@@ -502,13 +502,13 @@
 		background: transparent;
 		border: none;
 		border-radius: 0.5rem;
-		color: var(--text-tertiary);
+		color: var(--ink-dim);
 		cursor: pointer;
 		transition: all 0.15s ease;
 
 		&:hover {
 			background: var(--primary-subtle);
-			color: var(--accent-light);
+			color: var(--lamp-glow);
 		}
 	}
 
@@ -532,7 +532,7 @@
 		margin: 0;
 		font-size: 0.75rem;
 		font-weight: 600;
-		color: var(--accent-light);
+		color: var(--lamp-glow);
 		text-transform: uppercase;
 		letter-spacing: 0.05em;
 	}
@@ -544,7 +544,7 @@
 	}
 
 	.divider {
-		color: var(--text-muted);
+		color: var(--ink-dim);
 	}
 
 	.text-btn {
@@ -553,14 +553,14 @@
 		padding: 0.25rem 0.625rem;
 		font-size: 0.8125rem;
 		font-weight: 500;
-		color: var(--primary);
+		color: var(--lamp-glow);
 		cursor: pointer;
 		border-radius: 0.375rem;
 		transition: all 0.15s ease;
 
 		&:hover {
 			background: var(--primary-subtle);
-			color: var(--primary-dark);
+			color: var(--lamp-glow);
 		}
 	}
 
@@ -586,15 +586,15 @@
 		align-items: center;
 		justify-content: center;
 		aspect-ratio: 1;
-		background: var(--bg-surface);
-		border: 2px solid var(--bg-highlight);
+		background: var(--stone-warm);
+		border: 2px solid var(--stone-warm);
 		border-radius: 0.75rem;
 		cursor: pointer;
 		transition: all 0.2s ease;
 
 		&:hover {
 			border-color: var(--type-color);
-			background: color-mix(in srgb, var(--type-color) 12%, var(--bg-surface));
+			background: color-mix(in srgb, var(--type-color) 12%, var(--stone-warm));
 			transform: scale(1.05);
 		}
 
@@ -620,7 +620,7 @@
 	.type-chip__number {
 		font-size: 1.125rem;
 		font-weight: 700;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 		transition: color 0.2s ease;
 	}
 
@@ -649,11 +649,11 @@
 
 	.type-count__number {
 		font-weight: 700;
-		color: var(--accent-light);
+		color: var(--lamp-glow);
 	}
 
 	.type-count__text {
-		color: var(--text-tertiary);
+		color: var(--ink-dim);
 	}
 
 	/* Sort Options */
@@ -673,8 +673,8 @@
 		align-items: center;
 		gap: 0.5rem;
 		padding: 0.875rem 0.625rem;
-		background: var(--bg-surface);
-		border: 2px solid var(--bg-highlight);
+		background: var(--stone-warm);
+		border: 2px solid var(--stone-warm);
 		border-radius: 0.75rem;
 		cursor: pointer;
 		transition: all 0.2s ease;
@@ -691,7 +691,7 @@
 		}
 
 		&:focus-visible {
-			outline: 2px solid var(--accent-light);
+			outline: 2px solid var(--lamp-glow);
 			outline-offset: 2px;
 		}
 	}
@@ -699,32 +699,32 @@
 	.sort-option--selected {
 		background: linear-gradient(
 			135deg,
-			color-mix(in srgb, var(--primary) 25%, transparent),
+			color-mix(in srgb, var(--lamp-glow) 25%, transparent),
 			var(--accent-subtle)
 		);
-		border-color: var(--primary-dark);
+		border-color: var(--lamp-glow);
 		box-shadow:
 			0 0 20px var(--primary-subtle),
 			inset 0 1px 0 rgba(255, 255, 255, 0.05);
 
 		.sort-option__icon {
-			color: var(--accent-light);
+			color: var(--lamp-glow);
 		}
 
 		.sort-option__label {
-			color: var(--primary);
+			color: var(--lamp-glow);
 		}
 	}
 
 	.sort-option__icon {
-		color: var(--text-tertiary);
+		color: var(--ink-dim);
 		transition: color 0.2s ease;
 	}
 
 	.sort-option__label {
 		font-size: 0.8125rem;
 		font-weight: 500;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 		transition: color 0.2s ease;
 	}
 
@@ -734,7 +734,7 @@
 		gap: 0.75rem;
 		padding: 1rem 1.25rem;
 		border-top: 1px solid var(--primary-subtle);
-		background: var(--bg-deep);
+		background: var(--night-deep);
 	}
 
 	.action-btn {
@@ -758,18 +758,18 @@
 
 	.action-btn--secondary {
 		background: transparent;
-		border: 1px solid var(--bg-elevated);
-		color: var(--text-secondary);
+		border: 1px solid var(--stone-warm);
+		color: var(--ink-mid);
 
 		&:hover:not(:disabled) {
 			background: var(--primary-subtle);
 			border-color: var(--primary-subtle);
-			color: var(--primary);
+			color: var(--lamp-glow);
 		}
 	}
 
 	.action-btn--primary {
-		background: linear-gradient(135deg, var(--primary-dark), var(--accent-dark));
+		background: linear-gradient(135deg, var(--lamp-glow), var(--lamp-glow));
 		border: none;
 		color: var(--text-on-primary);
 		box-shadow:

@@ -404,7 +404,7 @@
 		left: 0.75rem;
 		top: 50%;
 		transform: translateY(-50%);
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 		pointer-events: none;
 	}
 
@@ -412,25 +412,25 @@
 		width: 100%;
 		padding: 0.5rem 0.75rem 0.5rem 2.25rem;
 		font-size: 0.8125rem;
-		border: 1px solid var(--bg-elevated);
+		border: 1px solid var(--stone-warm);
 		border-radius: 8px;
-		background: var(--bg-deep);
-		color: var(--text-primary);
+		background: var(--night-deep);
+		color: var(--ink-bright);
 		transition: border-color 0.15s ease;
 	}
 
 	.search-input:focus {
 		outline: none;
-		border-color: var(--primary);
+		border-color: var(--lamp-glow);
 	}
 
 	.filter-select {
 		padding: 0.5rem 2rem 0.5rem 0.75rem;
 		font-size: 0.8125rem;
-		border: 1px solid var(--bg-elevated);
+		border: 1px solid var(--stone-warm);
 		border-radius: 8px;
-		background: var(--bg-deep);
-		color: var(--text-primary);
+		background: var(--night-deep);
+		color: var(--ink-bright);
 		cursor: pointer;
 		appearance: none;
 		background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 24 24' fill='none' stroke='%2364748b' stroke-width='2'%3E%3Cpath d='m6 9 6 6 6-6'/%3E%3C/svg%3E");
@@ -440,7 +440,7 @@
 
 	.filter-select:focus {
 		outline: none;
-		border-color: var(--primary);
+		border-color: var(--lamp-glow);
 	}
 
 	.clear-filters-btn {
@@ -450,9 +450,9 @@
 		padding: 0.5rem 0.75rem;
 		font-size: 0.75rem;
 		font-weight: 500;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 		background: transparent;
-		border: 1px dashed var(--bg-elevated);
+		border: 1px dashed var(--stone-warm);
 		border-radius: 8px;
 		cursor: pointer;
 		transition: all 0.15s ease;
@@ -478,7 +478,7 @@
 	}
 
 	.btn-primary {
-		background: var(--primary);
+		background: var(--lamp-glow);
 		color: white;
 	}
 
@@ -488,18 +488,18 @@
 	}
 
 	.btn-secondary {
-		background: var(--bg-elevated);
-		color: var(--text-primary);
+		background: var(--stone-warm);
+		color: var(--ink-bright);
 	}
 
 	.btn-secondary:hover {
-		background: var(--bg-highlight);
+		background: var(--stone-warm);
 	}
 
 	/* Create Form */
 	.create-form-wrapper {
-		background: var(--bg-surface);
-		border: 1px solid var(--bg-elevated);
+		background: var(--stone-warm);
+		border: 1px solid var(--stone-warm);
 		border-radius: 12px;
 		margin-bottom: 1.25rem;
 		overflow: hidden;
@@ -507,15 +507,15 @@
 
 	.create-form-header {
 		padding: 1rem 1.25rem;
-		background: var(--bg-deep);
-		border-bottom: 1px solid var(--bg-elevated);
+		background: var(--night-deep);
+		border-bottom: 1px solid var(--stone-warm);
 	}
 
 	.create-form-header h3 {
 		margin: 0;
 		font-size: 0.9375rem;
 		font-weight: 600;
-		color: var(--text-primary);
+		color: var(--ink-bright);
 	}
 
 	/* Results Info */
@@ -525,11 +525,11 @@
 
 	.results-count {
 		font-size: 0.8125rem;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 	}
 
 	.filtered-label {
-		color: var(--primary);
+		color: var(--lamp-glow);
 	}
 
 	/* Content Grid */
@@ -543,8 +543,8 @@
 		position: relative;
 		display: flex;
 		flex-direction: column;
-		background: var(--bg-surface);
-		border: 1px solid var(--bg-elevated);
+		background: var(--stone-warm);
+		border: 1px solid var(--stone-warm);
 		border-radius: 12px;
 		overflow: hidden;
 		cursor: pointer;
@@ -554,7 +554,7 @@
 	}
 
 	.content-card:hover {
-		border-color: var(--primary);
+		border-color: var(--lamp-glow);
 		box-shadow: var(--glow-sm);
 		transform: translateY(-2px);
 	}
@@ -582,7 +582,7 @@
 		font-weight: 600;
 		text-transform: uppercase;
 		letter-spacing: 0.05em;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 	}
 
 	.status-badge {
@@ -615,14 +615,14 @@
 	}
 
 	.status-default {
-		background: var(--bg-elevated);
-		color: var(--text-secondary);
+		background: var(--stone-warm);
+		color: var(--ink-mid);
 	}
 
 	.content-preview {
 		margin: 0;
 		font-size: 0.875rem;
-		color: var(--text-primary);
+		color: var(--ink-bright);
 		line-height: 1.5;
 		display: -webkit-box;
 		-webkit-line-clamp: 3;
@@ -645,12 +645,12 @@
 	.date-label {
 		font-size: 0.8125rem;
 		font-weight: 600;
-		color: var(--text-primary);
+		color: var(--ink-bright);
 	}
 
 	.time-label {
 		font-size: 0.6875rem;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 	}
 
 	.campaign-tag {
@@ -663,11 +663,11 @@
 
 	.hashtags {
 		font-size: 0.75rem;
-		color: var(--primary);
+		color: var(--lamp-glow);
 	}
 
 	.more-hashtags {
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 	}
 
 	/* Empty State */
@@ -681,7 +681,7 @@
 	}
 
 	.empty-icon {
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 		margin-bottom: 1rem;
 	}
 
@@ -689,13 +689,13 @@
 		margin: 0 0 0.5rem 0;
 		font-size: 1.125rem;
 		font-weight: 600;
-		color: var(--text-primary);
+		color: var(--ink-bright);
 	}
 
 	.empty-state p {
 		margin: 0 0 1rem 0;
 		font-size: 0.875rem;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 	}
 
 	/* Responsive */

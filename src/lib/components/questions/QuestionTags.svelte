@@ -20,7 +20,7 @@
 			<MasterCommentIcon
 				iconStyle={'margin-left: .5rem'}
 				height={'1.5rem'}
-				fill={questionData.comment_count ? 'var(--primary)' : ''}
+				fill={questionData.comment_count ? 'var(--lamp-glow)' : ''}
 				type={questionData.comment_count ? 'multiple' : 'empty'}
 			/>
 		</span>

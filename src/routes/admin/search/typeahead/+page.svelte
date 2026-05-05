@@ -308,21 +308,21 @@
 		font-size: 0.8rem;
 		font-weight: 500;
 		text-decoration: none;
-		color: var(--text-secondary);
-		border: 1px solid var(--bg-elevated);
+		color: var(--ink-mid);
+		border: 1px solid var(--stone-warm);
 		border-radius: 8px;
-		background: var(--bg-surface);
+		background: var(--stone-warm);
 		transition: all 0.15s ease;
 
 		&:hover {
-			color: var(--primary);
-			border-color: var(--primary);
+			color: var(--lamp-glow);
+			border-color: var(--lamp-glow);
 		}
 
 		&.active {
-			background: var(--primary);
+			background: var(--lamp-glow);
 			color: white;
-			border-color: var(--primary);
+			border-color: var(--lamp-glow);
 		}
 	}
 
@@ -333,13 +333,13 @@
 		h1 {
 			font-size: 2rem;
 			font-weight: 700;
-			color: var(--text-primary);
+			color: var(--ink-bright);
 			margin-bottom: 0.5rem;
 		}
 	}
 
 	.subtitle {
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 		font-size: 0.9rem;
 	}
 
@@ -352,13 +352,13 @@
 		align-items: center;
 		gap: 0.75rem;
 		padding: 0.875rem 1rem;
-		background: var(--bg-surface);
-		border: 2px solid var(--bg-elevated);
+		background: var(--stone-warm);
+		border: 2px solid var(--stone-warm);
 		border-radius: 12px;
 		transition: all 0.15s ease;
 
 		&:focus-within {
-			border-color: var(--primary);
+			border-color: var(--lamp-glow);
 			box-shadow: var(--glow-sm);
 		}
 	}
@@ -366,7 +366,7 @@
 	.search-icon {
 		width: 22px;
 		height: 22px;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 		flex-shrink: 0;
 	}
 
@@ -375,19 +375,19 @@
 		border: none;
 		outline: none;
 		font-size: 1rem;
-		color: var(--text-primary);
+		color: var(--ink-bright);
 		background: transparent;
 
 		&::placeholder {
-			color: var(--text-secondary);
+			color: var(--ink-mid);
 		}
 	}
 
 	.spinner {
 		width: 20px;
 		height: 20px;
-		border: 2px solid var(--bg-elevated);
-		border-top-color: var(--primary);
+		border: 2px solid var(--stone-warm);
+		border-top-color: var(--lamp-glow);
 		border-radius: 50%;
 		animation: spin 0.6s linear infinite;
 	}
@@ -406,15 +406,15 @@
 		height: 24px;
 		padding: 0;
 		border: none;
-		background: var(--bg-elevated);
+		background: var(--stone-warm);
 		border-radius: 50%;
 		cursor: pointer;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 		transition: all 0.15s ease;
 
 		&:hover {
-			background: var(--bg-deep);
-			color: var(--text-primary);
+			background: var(--night-deep);
+			color: var(--ink-bright);
 		}
 
 		svg {
@@ -428,8 +428,8 @@
 		top: calc(100% + 8px);
 		left: 0;
 		right: 0;
-		background: var(--bg-surface);
-		border: 1px solid var(--bg-elevated);
+		background: var(--stone-warm);
+		border: 1px solid var(--stone-warm);
 		border-radius: 12px;
 		box-shadow: var(--glow-md);
 		max-height: 480px;
@@ -447,7 +447,7 @@
 		background: transparent;
 		text-align: left;
 		cursor: pointer;
-		border-bottom: 1px solid var(--bg-deep);
+		border-bottom: 1px solid var(--night-deep);
 		transition: background-color 0.1s ease;
 		font-family: inherit;
 		color: inherit;
@@ -458,15 +458,15 @@
 
 		&:hover,
 		&.selected {
-			background: var(--bg-deep);
+			background: var(--night-deep);
 		}
 
 		&.selected {
-			background: var(--bg-elevated);
+			background: var(--stone-warm);
 		}
 
 		&.navigating {
-			background: var(--bg-elevated);
+			background: var(--stone-warm);
 			pointer-events: none;
 		}
 
@@ -506,7 +506,7 @@
 	.result-title {
 		font-weight: 600;
 		font-size: 0.95rem;
-		color: var(--text-primary);
+		color: var(--ink-bright);
 		margin-bottom: 0.25rem;
 		white-space: nowrap;
 		overflow: hidden;
@@ -515,7 +515,7 @@
 
 	.result-headline {
 		font-size: 0.8rem;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 		line-height: 1.5;
 		margin-bottom: 0.375rem;
 		display: -webkit-box;
@@ -525,7 +525,7 @@
 
 		:global(mark) {
 			background: rgba(245, 158, 11, 0.3);
-			color: var(--text-primary);
+			color: var(--ink-bright);
 			padding: 0 2px;
 			border-radius: 2px;
 			font-weight: 500;
@@ -533,7 +533,7 @@
 
 		:global(strong) {
 			font-weight: 600;
-			color: var(--text-primary);
+			color: var(--ink-bright);
 		}
 
 		:global(em) {
@@ -541,7 +541,7 @@
 		}
 
 		:global(code) {
-			background: var(--bg-elevated);
+			background: var(--stone-warm);
 			padding: 0.125rem 0.25rem;
 			border-radius: 3px;
 			font-family: var(--font-mono);
@@ -549,7 +549,7 @@
 		}
 
 		:global(.md-link) {
-			color: var(--primary);
+			color: var(--lamp-glow);
 			text-decoration: underline;
 		}
 	}
@@ -574,14 +574,14 @@
 
 	.category-label {
 		background: rgba(139, 92, 246, 0.1);
-		color: var(--accent);
+		color: var(--lamp-glow);
 	}
 
 	.result-arrow {
 		display: flex;
 		align-items: center;
 		padding-top: 2px;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 
 		svg {
 			width: 20px;
@@ -591,21 +591,21 @@
 
 	.result-item:hover .result-arrow,
 	.result-item.selected .result-arrow {
-		color: var(--primary);
+		color: var(--lamp-glow);
 	}
 
 	.nav-spinner {
 		width: 20px;
 		height: 20px;
-		border: 2px solid var(--bg-elevated);
-		border-top-color: var(--primary);
+		border: 2px solid var(--stone-warm);
+		border-top-color: var(--lamp-glow);
 		border-radius: 50%;
 		animation: spin 0.6s linear infinite;
 	}
 
 	.loading-text {
 		font-size: 0.7rem;
-		color: var(--primary);
+		color: var(--lamp-glow);
 		font-weight: 500;
 		animation: pulse 1s ease-in-out infinite;
 	}
@@ -623,14 +623,14 @@
 	.no-results {
 		padding: 1.5rem;
 		text-align: center;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 		font-size: 0.875rem;
 	}
 
 	.hints {
 		margin-top: 1.25rem;
 		text-align: center;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 		font-size: 0.8rem;
 
 		kbd {
@@ -638,11 +638,11 @@
 			padding: 0.125rem 0.375rem;
 			font-size: 0.7rem;
 			font-family: inherit;
-			background: var(--bg-elevated);
-			border: 1px solid var(--bg-deep);
+			background: var(--stone-warm);
+			border: 1px solid var(--night-deep);
 			border-radius: 4px;
 			margin: 0 0.125rem;
-			color: var(--text-primary);
+			color: var(--ink-bright);
 		}
 	}
 
@@ -651,16 +651,16 @@
 	}
 
 	.results-dropdown::-webkit-scrollbar-track {
-		background: var(--bg-deep);
+		background: var(--night-deep);
 		border-radius: 0 12px 12px 0;
 	}
 
 	.results-dropdown::-webkit-scrollbar-thumb {
-		background: var(--bg-elevated);
+		background: var(--stone-warm);
 		border-radius: 4px;
 
 		&:hover {
-			background: var(--text-secondary);
+			background: var(--ink-mid);
 		}
 	}
 </style>

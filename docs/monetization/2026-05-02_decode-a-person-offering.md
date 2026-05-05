@@ -7,6 +7,48 @@
 
 ---
 
+## Update 2026-05-03: Pivot to 1:1 Coaching Sessions
+
+After re-reading the v1 brainstorm, the direction shifted. Instead of building a new async written-dossier product, the upsell is a **1:1 coaching session**, leveraging the existing `/book-session` infrastructure.
+
+**Why this is sharper:**
+
+- The product already exists — no new build required
+- Plays to DJ's real energy: he genuinely enjoys the live conversation and diving into people's psychology
+- Higher revenue per hour than async writing
+- The async written dossier idea demotes to v2 — either a cheaper self-serve alternative or a post-session artifact
+
+### The session framing: combo, not either-or
+
+The offer is **not** "decode yourself OR decode someone else." It's **both, woven together**. Sessions naturally drift between self-understanding and decoding the people in your life — and that's the point. A reader can't really decode their boss without also seeing their own reactions in the mix. The CTA must reflect this combo framing, not force a pick.
+
+### Draft CTA copy
+
+> **Want to take this further?**
+>
+> Book a 1:1 session with me. We can dig into yourself, into someone in your life who's hard to figure out, or both — they usually weave together. The same depth you just read, applied to the people you actually deal with (including you).
+>
+> I love this kind of conversation. Let's have it.
+>
+> **[Book a session →]**
+
+### Language to avoid
+
+- **"Counseling"** — clinical/licensure baggage. Use "coaching" or just "session"
+- Generic CTAs like "schedule a consultation" — forgettable, no specific promise. The promise is _decoding_ (self + someone else), not generic advice
+
+### Open questions for this pivot
+
+1. **`/book-session` current state**: Live with pricing, or still waitlist-only? The CTA button text depends on this ("Book now" vs. "Join the waitlist")
+2. **Session length**: 30, 60, or 90 minutes?
+3. **Pricing**: $150 / $250 / $400+? Premium-first principle still applies — set the bar high to protect the brand
+4. **Single session vs. package**: One-off "decode session" matches the blog-reader funnel best (lower friction). Packages can come later for repeat customers
+5. **CTA placement on the blog**: End-of-blog is safe. Inline (mid-blog, after a strong moment) likely converts better. Worth A/B testing
+6. **Async dossier — keep or drop?** Probably keep as v2: a lower-friction option for people who won't get on a call. Could also be a deliverable sent _after_ the session as a written artifact
+7. **What's the session deliverable?** Just the conversation, or also a follow-up summary email / written notes? The artifact increases perceived value
+
+---
+
 ## The Starting Problem
 
 DJ puts heavy effort into long-form personality dossiers (especially `personality-analysis/` celebrity blogs). The free content is the front door — that should stay free. The question is: **what's the right paid upsell to attach to it?**
@@ -137,7 +179,17 @@ Position as **"understand them, not manipulate them."** Otherwise it attracts th
 
 ---
 
-## Provisional Recommendation Summary
+## Provisional Recommendation Summary (updated 2026-05-03)
+
+- **Flagship paid product:** 1:1 coaching session via existing `/book-session` infrastructure
+- **Session framing:** Combo — decode yourself, someone in your life, or both (woven together, not either-or)
+- **CTA promise:** "Same depth as the blog you just read, applied to the people you actually deal with (including you)"
+- **Language:** "Coaching" or "session," not "counseling"
+- **Funnel:** Free celebrity dossiers prove the craft → CTA on those blogs → book a 1:1 decode session
+- **V2 (later):** Async written "decode-a-person" dossier as lower-friction alternative or post-session artifact; pair dynamics / "what's next" predictions as $5–9 add-ons
+- **Avoid:** Subscriptions, clinical "counseling" framing, generic "schedule a consultation" CTAs, underpricing
+
+### Original v1 recommendation (superseded, kept for reference)
 
 - **Flagship paid product:** Decode-a-person, hand-written by DJ, ~$199, 3–7 day turnaround
 - **Lead with one relationship type** (likely partner)

@@ -85,7 +85,7 @@
 		text-align: center;
 		font-size: 1.5rem;
 		margin-bottom: 1rem;
-		color: var(--text-primary);
+		color: var(--ink-bright);
 	}
 
 	.blog-grid-container {
@@ -105,10 +105,10 @@
 		display: block;
 		height: 100%;
 		min-height: 200px;
-		background-color: var(--bg-surface);
+		background-color: var(--stone-warm);
 		background-size: cover;
 		background-position: center;
-		border: 1px solid color-mix(in srgb, var(--text-tertiary) 30%, transparent);
+		border: 1px solid color-mix(in srgb, var(--ink-dim) 30%, transparent);
 		border-radius: 12px;
 		overflow: hidden;
 		text-decoration: none;
@@ -116,7 +116,7 @@
 
 		&:hover,
 		&:focus {
-			border-color: var(--primary);
+			border-color: var(--lamp-glow);
 			box-shadow: 0 0 25px var(--primary-glow);
 			outline: none;
 			transform: translateY(-3px);
@@ -126,7 +126,7 @@
 	.blog-content {
 		height: 100%;
 		padding: 1rem;
-		background: linear-gradient(135deg, var(--bg-surface) 0%, var(--bg-deep) 100%);
+		background: linear-gradient(135deg, var(--stone-warm) 0%, var(--night-deep) 100%);
 		transition: background 0.3s ease;
 
 		&.has-image {
@@ -142,7 +142,7 @@
 	.blog-title {
 		font-size: 1.2rem;
 		margin-bottom: 0.5rem;
-		color: var(--text-primary);
+		color: var(--ink-bright);
 
 		.has-image & {
 			color: var(--text-on-image);
@@ -151,7 +151,7 @@
 
 	.blog-description {
 		font-size: 0.9rem;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 
 		.has-image & {
 			color: var(--text-on-image-muted);

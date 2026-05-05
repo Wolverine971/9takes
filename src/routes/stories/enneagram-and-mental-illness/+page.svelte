@@ -121,7 +121,7 @@
 			}
 
 			amp-story {
-				font-family: 'Space Grotesk', sans-serif;
+				font-family: 'Inter Variable', 'Inter', system-ui, sans-serif;
 				color: var(--white);
 			}
 
@@ -206,20 +206,20 @@
 				content: '•';
 				position: absolute;
 				left: 0.3em;
-				color: var(--primary-light);
+				color: var(--lamp-glow);
 			}
 
 			/* Type-specific colors - using 9takes palette */
 			.type1-color {
-				background: linear-gradient(135deg, var(--primary), var(--primary-dark));
+				background: linear-gradient(135deg, var(--lamp-glow), var(--lamp-glow));
 			}
 
 			.type2-color {
-				background: linear-gradient(135deg, var(--accent), var(--accent-dark));
+				background: linear-gradient(135deg, var(--lamp-glow), var(--lamp-glow));
 			}
 
 			.type3-color {
-				background: linear-gradient(135deg, var(--primary-light), var(--primary));
+				background: linear-gradient(135deg, var(--lamp-glow), var(--lamp-glow));
 			}
 
 			.type4-color {
@@ -231,7 +231,7 @@
 			}
 
 			.type6-color {
-				background: linear-gradient(135deg, var(--accent-dark), var(--primary-dark));
+				background: linear-gradient(135deg, var(--lamp-glow), var(--lamp-glow));
 			}
 
 			.type7-color {
@@ -239,7 +239,7 @@
 			}
 
 			.type8-color {
-				background: linear-gradient(135deg, #e84393, var(--primary));
+				background: linear-gradient(135deg, #e84393, var(--lamp-glow));
 			}
 
 			.type9-color {
@@ -247,17 +247,17 @@
 			}
 
 			.brand-gradient {
-				background: linear-gradient(135deg, var(--primary-dark), var(--accent));
+				background: linear-gradient(135deg, var(--lamp-glow), var(--lamp-glow));
 			}
 
 			/* Improved styling for bookend */
 			amp-story-bookend {
-				font-family: 'Space Grotesk', sans-serif;
+				font-family: 'Inter Variable', 'Inter', system-ui, sans-serif;
 			}
 
 			/* Buttons and interactive elements */
 			.cta-button {
-				background-color: var(--primary);
+				background-color: var(--lamp-glow);
 				color: var(--white);
 				border-radius: var(--border-radius);
 				padding: 0.75em 1.5em;

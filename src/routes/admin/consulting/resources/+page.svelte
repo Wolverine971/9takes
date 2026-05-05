@@ -389,16 +389,16 @@
 
 <style lang="scss">
 	.resources-page {
-		--resource-accent: var(--primary);
-		--resource-accent-strong: color-mix(in srgb, var(--primary) 26%, var(--bg-elevated));
-		--resource-accent-soft: color-mix(in srgb, var(--primary) 12%, transparent);
-		--resource-surface: color-mix(in srgb, var(--bg-surface) 94%, var(--bg-deep));
-		--resource-surface-muted: color-mix(in srgb, var(--bg-surface) 84%, var(--bg-deep));
-		--resource-hero-top: color-mix(in srgb, var(--bg-surface) 92%, var(--bg-deep));
-		--resource-hero-bottom: color-mix(in srgb, var(--bg-surface) 78%, var(--bg-deep));
-		--resource-border: color-mix(in srgb, var(--primary) 12%, var(--bg-elevated));
-		--resource-border-strong: color-mix(in srgb, var(--primary) 22%, var(--bg-elevated));
-		--resource-shadow: 0 22px 44px color-mix(in srgb, var(--bg-deep) 16%, transparent);
+		--resource-accent: var(--lamp-glow);
+		--resource-accent-strong: color-mix(in srgb, var(--lamp-glow) 26%, var(--stone-warm));
+		--resource-accent-soft: color-mix(in srgb, var(--lamp-glow) 12%, transparent);
+		--resource-surface: color-mix(in srgb, var(--stone-warm) 94%, var(--night-deep));
+		--resource-surface-muted: color-mix(in srgb, var(--stone-warm) 84%, var(--night-deep));
+		--resource-hero-top: color-mix(in srgb, var(--stone-warm) 92%, var(--night-deep));
+		--resource-hero-bottom: color-mix(in srgb, var(--stone-warm) 78%, var(--night-deep));
+		--resource-border: color-mix(in srgb, var(--lamp-glow) 12%, var(--stone-warm));
+		--resource-border-strong: color-mix(in srgb, var(--lamp-glow) 22%, var(--stone-warm));
+		--resource-shadow: 0 22px 44px color-mix(in srgb, var(--night-deep) 16%, transparent);
 		--resource-warning: var(--warning, #f59e0b);
 		display: flex;
 		flex-direction: column;
@@ -451,7 +451,7 @@
 	.hero-text,
 	.hero-note {
 		margin: 0.55rem 0 0;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 		max-width: 42rem;
 	}
 
@@ -476,14 +476,14 @@
 
 	.hero-cta {
 		border: none;
-		background: linear-gradient(135deg, var(--primary), var(--primary-dark));
+		background: linear-gradient(135deg, var(--lamp-glow), var(--lamp-glow));
 		color: white;
 		padding: 0.82rem 1.15rem;
 		text-decoration: none;
 
 		&:hover {
 			transform: translateY(-1px);
-			box-shadow: 0 12px 24px color-mix(in srgb, var(--primary) 24%, transparent);
+			box-shadow: 0 12px 24px color-mix(in srgb, var(--lamp-glow) 24%, transparent);
 		}
 	}
 
@@ -504,7 +504,7 @@
 		}
 
 		span:last-child {
-			color: var(--text-secondary);
+			color: var(--ink-mid);
 			font-size: 0.86rem;
 		}
 	}
@@ -518,7 +518,7 @@
 		border: 1px solid var(--resource-border);
 		border-radius: 14px;
 		background: var(--resource-surface-muted);
-		color: var(--text-primary);
+		color: var(--ink-bright);
 		padding: 0.95rem 1rem;
 		font: inherit;
 	}
@@ -526,7 +526,7 @@
 	.search-shell input:focus {
 		outline: none;
 		border-color: var(--resource-border-strong);
-		box-shadow: 0 0 0 0.18rem color-mix(in srgb, var(--primary) 14%, transparent);
+		box-shadow: 0 0 0 0.18rem color-mix(in srgb, var(--lamp-glow) 14%, transparent);
 	}
 
 	.toolbar-row {
@@ -547,19 +547,19 @@
 	.filter-pill {
 		border: 1px solid var(--resource-border);
 		background: var(--resource-surface-muted);
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 		padding: 0.62rem 0.88rem;
 		cursor: pointer;
 
 		&:hover {
 			transform: translateY(-1px);
-			color: var(--text-primary);
+			color: var(--ink-bright);
 		}
 
 		&.active {
 			border-color: var(--resource-border-strong);
 			background: var(--resource-accent-soft);
-			color: var(--text-primary);
+			color: var(--ink-bright);
 		}
 	}
 
@@ -595,7 +595,7 @@
 
 		p {
 			margin: 0;
-			color: var(--text-secondary);
+			color: var(--ink-mid);
 			font-size: 0.9rem;
 		}
 	}
@@ -665,7 +665,7 @@
 	.blog-link span,
 	.recent-item span {
 		margin: 0;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 	}
 
 	.priority-card p,
@@ -681,22 +681,22 @@
 		gap: 0.35rem;
 		padding: 0.32rem 0.6rem;
 		border-radius: 999px;
-		background: color-mix(in srgb, var(--bg-surface) 82%, var(--bg-deep));
-		color: var(--text-secondary);
+		background: color-mix(in srgb, var(--stone-warm) 82%, var(--night-deep));
+		color: var(--ink-mid);
 		font-size: 0.78rem;
 		font-weight: 600;
 	}
 
 	.mini-badge--pinned {
 		background: color-mix(in srgb, var(--resource-warning) 14%, transparent);
-		color: color-mix(in srgb, var(--resource-warning) 72%, var(--text-primary));
+		color: color-mix(in srgb, var(--resource-warning) 72%, var(--ink-bright));
 	}
 
 	.mini-meta,
 	.resource-row__meta span,
 	.resource-row code,
 	.recent-item small {
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 		font-size: 0.8rem;
 	}
 
@@ -751,7 +751,7 @@
 
 		p {
 			margin: 0;
-			color: var(--text-secondary);
+			color: var(--ink-mid);
 		}
 	}
 

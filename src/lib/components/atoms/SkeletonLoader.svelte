@@ -45,7 +45,7 @@
 	}
 
 	.skeleton {
-		background-color: var(--skeleton-bg, var(--bg-elevated));
+		background-color: var(--skeleton-bg, var(--stone-warm));
 		position: relative;
 		overflow: hidden;
 

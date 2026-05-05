@@ -425,8 +425,8 @@
 		left: 24px;
 		right: 24px;
 		bottom: 24px;
-		background: var(--bg-surface);
-		border: 1px solid var(--bg-elevated);
+		background: var(--stone-warm);
+		border: 1px solid var(--stone-warm);
 		border-radius: 12px;
 		box-shadow:
 			0 25px 50px -12px rgba(0, 0, 0, 0.5),
@@ -452,8 +452,8 @@
 		align-items: center;
 		justify-content: space-between;
 		padding: 12px 16px;
-		border-bottom: 1px solid var(--bg-elevated);
-		background: var(--bg-deep);
+		border-bottom: 1px solid var(--stone-warm);
+		background: var(--night-deep);
 		flex-shrink: 0;
 
 		@media (max-width: 768px) {
@@ -483,14 +483,14 @@
 		border: none;
 		background: none;
 		border-radius: 8px;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 		cursor: pointer;
 		transition: all 0.15s ease;
 		flex-shrink: 0;
 
 		&:hover {
-			background: var(--bg-elevated);
-			color: var(--text-primary);
+			background: var(--stone-warm);
+			color: var(--ink-bright);
 		}
 
 		@media (max-width: 768px) {
@@ -502,7 +502,7 @@
 	.modal-title {
 		font-size: 16px;
 		font-weight: 600;
-		color: var(--text-primary);
+		color: var(--ink-bright);
 		margin: 0;
 		white-space: nowrap;
 		overflow: hidden;
@@ -572,24 +572,24 @@
 	}
 
 	.btn-primary {
-		background: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%);
+		background: linear-gradient(135deg, var(--lamp-glow) 0%, var(--lamp-glow) 100%);
 		color: white;
-		border: 1px solid var(--primary);
+		border: 1px solid var(--lamp-glow);
 		box-shadow: var(--glow-sm);
 
 		&:hover:not(:disabled) {
-			background: linear-gradient(135deg, var(--primary-light) 0%, var(--primary) 100%);
+			background: linear-gradient(135deg, var(--lamp-glow) 0%, var(--lamp-glow) 100%);
 			box-shadow: var(--glow-md);
 		}
 	}
 
 	.btn-secondary {
-		background: var(--bg-elevated);
-		color: var(--text-primary);
-		border: 1px solid var(--bg-highlight);
+		background: var(--stone-warm);
+		color: var(--ink-bright);
+		border: 1px solid var(--stone-warm);
 
 		&:hover:not(:disabled) {
-			background: var(--bg-highlight);
+			background: var(--stone-warm);
 			border-color: var(--primary-glow);
 		}
 
@@ -617,8 +617,8 @@
 
 	.mobile-tabs {
 		display: none;
-		border-bottom: 1px solid var(--bg-elevated);
-		background: var(--bg-surface);
+		border-bottom: 1px solid var(--stone-warm);
+		background: var(--stone-warm);
 
 		@media (max-width: 768px) {
 			display: flex;
@@ -632,16 +632,16 @@
 		background: none;
 		font-size: 15px;
 		font-weight: 500;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 		cursor: pointer;
 		border-bottom: 3px solid transparent;
 		transition: all 0.15s ease;
 		min-height: 48px;
 
 		&.active {
-			color: var(--primary-light);
-			border-bottom-color: var(--primary);
-			background: var(--bg-elevated);
+			color: var(--lamp-glow);
+			border-bottom-color: var(--lamp-glow);
+			background: var(--stone-warm);
 		}
 	}
 
@@ -651,7 +651,7 @@
 		width: 100%;
 		overflow: hidden;
 		min-height: 0;
-		background: var(--bg-deep);
+		background: var(--night-deep);
 
 		@media (max-width: 768px) {
 			flex-direction: column;
@@ -666,7 +666,7 @@
 		align-items: center;
 		justify-content: center;
 		gap: 12px;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 		font-size: 14px;
 	}
 
@@ -692,7 +692,7 @@
 		width: 360px;
 		min-height: 0;
 		overflow: hidden;
-		border-left: 1px solid var(--bg-elevated);
+		border-left: 1px solid var(--stone-warm);
 
 		@media (max-width: 1200px) {
 			flex: 0 0 320px;
@@ -723,8 +723,8 @@
 	}
 
 	.warning-dialog {
-		background: var(--bg-surface);
-		border: 1px solid var(--bg-elevated);
+		background: var(--stone-warm);
+		border: 1px solid var(--stone-warm);
 		border-radius: 12px;
 		padding: 24px;
 		max-width: 400px;
@@ -737,13 +737,13 @@
 	.warning-title {
 		font-size: 18px;
 		font-weight: 600;
-		color: var(--text-primary);
+		color: var(--ink-bright);
 		margin: 0 0 8px;
 	}
 
 	.warning-message {
 		font-size: 14px;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 		margin: 0 0 20px;
 	}
 

@@ -46,7 +46,7 @@
 		align-items: center;
 		margin-bottom: 1.25rem;
 		padding-bottom: 0.75rem;
-		border-bottom: 1px solid color-mix(in srgb, var(--text-tertiary) 15%, transparent);
+		border-bottom: 1px solid color-mix(in srgb, var(--ink-dim) 15%, transparent);
 		gap: 1rem;
 	}
 
@@ -66,21 +66,21 @@
 		background: var(--primary-subtle);
 		border-radius: 0.5rem;
 		border: 1px solid var(--primary-subtle);
-		color: var(--accent-light);
+		color: var(--lamp-glow);
 		font-weight: 700;
 	}
 
 	.section-title-group h2 {
 		font-size: 1.25rem;
 		font-weight: 600;
-		color: var(--text-primary);
+		color: var(--ink-bright);
 		margin: 0;
 		line-height: 1.3;
 	}
 
 	.section-subtitle {
 		font-size: 0.8125rem;
-		color: var(--text-tertiary);
+		color: var(--ink-dim);
 		margin: 0.125rem 0 0;
 	}
 
@@ -91,8 +91,8 @@
 	}
 
 	.faq-item {
-		background: var(--bg-deep);
-		border: 1px solid color-mix(in srgb, var(--text-tertiary) 15%, transparent);
+		background: var(--night-deep);
+		border: 1px solid color-mix(in srgb, var(--ink-dim) 15%, transparent);
 		border-radius: 0.75rem;
 		overflow: hidden;
 		transition: all 0.2s ease;
@@ -105,7 +105,7 @@
 			border-color: var(--primary-glow);
 
 			.faq-question {
-				border-bottom: 1px solid color-mix(in srgb, var(--text-tertiary) 15%, transparent);
+				border-bottom: 1px solid color-mix(in srgb, var(--ink-dim) 15%, transparent);
 			}
 
 			.toggle-icon::after {
@@ -129,14 +129,14 @@
 		}
 
 		&:hover {
-			background: color-mix(in srgb, var(--primary) 5%, transparent);
+			background: color-mix(in srgb, var(--lamp-glow) 5%, transparent);
 		}
 	}
 
 	.question-text {
 		font-size: 0.9375rem;
 		font-weight: 600;
-		color: var(--text-primary);
+		color: var(--ink-bright);
 		line-height: 1.4;
 	}
 
@@ -152,8 +152,8 @@
 			content: '';
 			width: 0.5rem;
 			height: 0.5rem;
-			border-right: 2px solid var(--text-tertiary);
-			border-bottom: 2px solid var(--text-tertiary);
+			border-right: 2px solid var(--ink-dim);
+			border-bottom: 2px solid var(--ink-dim);
 			transform: rotate(45deg);
 			transition: transform 0.2s ease;
 		}
@@ -161,11 +161,11 @@
 
 	.faq-answer {
 		padding: 1rem 1.25rem 1.25rem;
-		background: var(--bg-surface);
+		background: var(--stone-warm);
 
 		p {
 			font-size: 0.9375rem;
-			color: var(--text-secondary);
+			color: var(--ink-mid);
 			line-height: 1.7;
 			margin: 0;
 		}

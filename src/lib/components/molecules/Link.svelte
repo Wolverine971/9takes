@@ -94,7 +94,7 @@
 			background-color: rgba(0, 0, 0, 0.7);
 			padding: 1rem;
 			border-radius: 5px;
-			color: var(--accent);
+			color: var(--lamp-glow);
 		}
 
 		.meta-content {
@@ -124,8 +124,8 @@
 	.loader {
 		width: 24px;
 		height: 24px;
-		border: 2px solid var(--bg-elevated);
-		border-left-color: var(--primary);
+		border: 2px solid var(--stone-warm);
+		border-left-color: var(--lamp-glow);
 		border-radius: 50%;
 		animation: spin 1s linear infinite;
 	}

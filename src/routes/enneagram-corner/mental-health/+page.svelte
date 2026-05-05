@@ -359,11 +359,11 @@
 <style lang="scss">
 	/* 9takes Warm Tech Theme - Mental Health Hub */
 	.page-wrapper {
-		--surface-card: color-mix(in srgb, var(--bg-surface) 92%, var(--bg-base));
-		--surface-card-strong: color-mix(in srgb, var(--bg-surface) 86%, var(--bg-deep));
-		--accent-border: color-mix(in srgb, var(--accent) 18%, var(--border-color));
+		--surface-card: color-mix(in srgb, var(--stone-warm) 92%, var(--night-deep));
+		--surface-card-strong: color-mix(in srgb, var(--stone-warm) 86%, var(--night-deep));
+		--accent-border: color-mix(in srgb, var(--lamp-glow) 18%, var(--stone-edge));
 		min-height: 100vh;
-		background: linear-gradient(180deg, var(--bg-base) 0%, var(--bg-deep) 100%);
+		background: linear-gradient(180deg, var(--night-deep) 0%, var(--night-deep) 100%);
 	}
 
 	/* Hero Section */
@@ -398,7 +398,7 @@
 		margin: 0;
 		letter-spacing: -0.02em;
 		position: relative;
-		background: linear-gradient(135deg, var(--text-primary) 0%, var(--primary) 100%);
+		background: linear-gradient(135deg, var(--ink-bright) 0%, var(--lamp-glow) 100%);
 		-webkit-background-clip: text;
 		-webkit-text-fill-color: transparent;
 		background-clip: text;
@@ -408,8 +408,8 @@
 	.quick-nav {
 		background: linear-gradient(
 			180deg,
-			color-mix(in srgb, var(--bg-surface) 96%, var(--bg-base)) 0%,
-			color-mix(in srgb, var(--bg-surface) 88%, var(--bg-base)) 100%
+			color-mix(in srgb, var(--stone-warm) 96%, var(--night-deep)) 0%,
+			color-mix(in srgb, var(--stone-warm) 88%, var(--night-deep)) 100%
 		);
 		backdrop-filter: blur(12px);
 		border-bottom: 1px solid var(--accent-border);
@@ -438,11 +438,11 @@
 		align-items: center;
 		gap: 0.5rem;
 		padding: 0.5rem 1rem;
-		background: color-mix(in srgb, var(--bg-surface) 92%, var(--bg-base));
+		background: color-mix(in srgb, var(--stone-warm) 92%, var(--night-deep));
 		border-radius: 0.5rem;
 		font-size: 0.8125rem;
 		font-weight: 500;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 		white-space: nowrap;
 		transition: all 0.2s ease;
 		text-decoration: none;
@@ -450,8 +450,8 @@
 
 		&:hover {
 			background: color-mix(in srgb, var(--primary-subtle) 62%, transparent);
-			color: var(--primary);
-			border-color: color-mix(in srgb, var(--primary) 28%, transparent);
+			color: var(--lamp-glow);
+			border-color: color-mix(in srgb, var(--lamp-glow) 28%, transparent);
 			transform: translateY(-1px);
 		}
 	}
@@ -514,7 +514,7 @@
 		align-items: center;
 		margin-bottom: 1.25rem;
 		padding-bottom: 0.75rem;
-		border-bottom: 1px solid var(--border-color);
+		border-bottom: 1px solid var(--stone-edge);
 		gap: 1rem;
 	}
 
@@ -533,20 +533,20 @@
 		justify-content: center;
 		background: color-mix(in srgb, var(--primary-subtle) 56%, transparent);
 		border-radius: 0.5rem;
-		border: 1px solid color-mix(in srgb, var(--primary) 18%, transparent);
+		border: 1px solid color-mix(in srgb, var(--lamp-glow) 18%, transparent);
 	}
 
 	.section-title-group h2 {
 		font-size: 1.25rem;
 		font-weight: 600;
-		color: var(--text-primary);
+		color: var(--ink-bright);
 		margin: 0;
 		line-height: 1.3;
 	}
 
 	.section-subtitle {
 		font-size: 0.8125rem;
-		color: var(--text-tertiary);
+		color: var(--ink-dim);
 		margin: 0.125rem 0 0;
 	}
 
@@ -567,20 +567,20 @@
 
 		&:hover {
 			transform: translateY(-2px);
-			border-color: color-mix(in srgb, var(--primary) 28%, transparent);
+			border-color: color-mix(in srgb, var(--lamp-glow) 28%, transparent);
 			box-shadow: var(--shadow-lg);
 		}
 
 		h3 {
 			font-size: 0.95rem;
 			font-weight: 600;
-			color: var(--text-primary);
+			color: var(--ink-bright);
 			margin: 0 0 0.5rem;
 		}
 
 		p {
 			font-size: 0.8rem;
-			color: var(--text-secondary);
+			color: var(--ink-mid);
 			margin: 0;
 			line-height: 1.5;
 		}
@@ -594,13 +594,13 @@
 	.category-title {
 		font-size: 1.1rem;
 		font-weight: 600;
-		color: var(--text-primary);
+		color: var(--ink-bright);
 		margin: 0 0 0.25rem;
 	}
 
 	.category-desc {
 		font-size: 0.8rem;
-		color: var(--text-tertiary);
+		color: var(--ink-dim);
 		margin: 0 0 1rem;
 	}
 
@@ -637,17 +637,17 @@
 
 		&:hover {
 			transform: translateY(-3px);
-			border-color: color-mix(in srgb, var(--primary) 28%, transparent);
+			border-color: color-mix(in srgb, var(--lamp-glow) 28%, transparent);
 			box-shadow:
 				var(--shadow-lg),
-				0 0 0 1px color-mix(in srgb, var(--primary) 14%, transparent);
+				0 0 0 1px color-mix(in srgb, var(--lamp-glow) 14%, transparent);
 
 			&::before {
 				opacity: 1;
 			}
 
 			.card-content h4 {
-				color: var(--primary);
+				color: var(--lamp-glow);
 			}
 		}
 	}
@@ -667,8 +667,8 @@
 			),
 			linear-gradient(
 				135deg,
-				color-mix(in srgb, var(--bg-surface) 96%, var(--bg-base)) 0%,
-				color-mix(in srgb, var(--bg-surface) 88%, var(--bg-deep)) 100%
+				color-mix(in srgb, var(--stone-warm) 96%, var(--night-deep)) 0%,
+				color-mix(in srgb, var(--stone-warm) 88%, var(--night-deep)) 100%
 			);
 	}
 
@@ -681,7 +681,7 @@
 			font-weight: 600;
 			line-height: 1.4;
 			margin: 0;
-			color: var(--text-primary);
+			color: var(--ink-bright);
 			transition: color 0.2s ease;
 			display: -webkit-box;
 			-webkit-line-clamp: 2;
@@ -693,7 +693,7 @@
 		p {
 			font-size: 0.75rem;
 			line-height: 1.5;
-			color: var(--text-secondary);
+			color: var(--ink-mid);
 			margin: 0.375rem 0 0;
 			display: -webkit-box;
 			-webkit-line-clamp: 2;
@@ -730,7 +730,7 @@
 		h3 {
 			font-size: 1.1rem;
 			font-weight: 600;
-			color: var(--text-primary);
+			color: var(--ink-bright);
 			margin: 0;
 		}
 	}
@@ -741,7 +741,7 @@
 		justify-content: center;
 		width: 2rem;
 		height: 2rem;
-		background: linear-gradient(135deg, var(--primary-dark) 0%, var(--primary) 100%);
+		background: linear-gradient(135deg, var(--lamp-glow) 0%, var(--lamp-glow) 100%);
 		color: var(--text-on-primary);
 		border-radius: 8px;
 		font-weight: 700;
@@ -759,7 +759,7 @@
 		h4 {
 			font-size: 0.9rem;
 			font-weight: 600;
-			color: var(--text-primary);
+			color: var(--ink-bright);
 			margin: 0 0 0.75rem;
 		}
 
@@ -771,7 +771,7 @@
 
 		li {
 			font-size: 0.85rem;
-			color: var(--text-secondary);
+			color: var(--ink-mid);
 			margin-bottom: 0.5rem;
 			line-height: 1.4;
 		}
@@ -779,11 +779,11 @@
 
 	/* CTA Section */
 	.cta-section {
-		background: linear-gradient(135deg, var(--bg-surface) 0%, var(--bg-deep) 100%);
+		background: linear-gradient(135deg, var(--stone-warm) 0%, var(--night-deep) 100%);
 		border-radius: 1rem;
 		padding: 2.5rem 2rem;
 		text-align: center;
-		color: var(--text-primary);
+		color: var(--ink-bright);
 		border: 1px solid var(--accent-border);
 		position: relative;
 		overflow: hidden;
@@ -815,12 +815,12 @@
 			font-size: 1.5rem;
 			font-weight: 600;
 			margin: 0 0 0.75rem;
-			color: var(--text-primary);
+			color: var(--ink-bright);
 		}
 
 		p {
 			font-size: 0.9375rem;
-			color: var(--text-secondary);
+			color: var(--ink-mid);
 			line-height: 1.6;
 			margin: 0 0 1.5rem;
 		}

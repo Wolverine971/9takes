@@ -1,5 +1,7 @@
 <!-- docs/design/solo-leveling-scss-migration-plan.md -->
 
+> ⚠️ **ARCHIVED 2026-05-04** — Solo Leveling aesthetic retired. The current SCSS migration plan is Phase 2 of `docs/design/2026-05-04-rollout-plan.md` (V5 token bridge + Inter font swap + glow cleanup).
+
 # Solo Leveling SCSS Migration Plan
 
 This document tracks the systematic migration of 9takes from the current purple-light theme to the Solo Leveling dark aesthetic.

@@ -44,7 +44,7 @@ export interface AcquisitionMixChartData {
 const OTHER_GROUP_KEY = '__other_group__';
 const MAX_VISIBLE_SOURCES = 8;
 const ACQUISITION_COLORS = [
-	'var(--primary)',
+	'var(--lamp-glow)',
 	'#7dd3fc',
 	'#fbbf24',
 	'#fdba74',

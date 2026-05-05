@@ -102,9 +102,9 @@
 		gap: 0.5rem;
 		margin-top: 1rem;
 		padding: 0.8rem 1.2rem;
-		border: 1px solid color-mix(in srgb, var(--primary) 24%, transparent);
+		border: 1px solid color-mix(in srgb, var(--lamp-glow) 24%, transparent);
 		border-radius: 0.9rem;
-		background: linear-gradient(135deg, var(--primary-dark) 0%, var(--primary) 100%);
+		background: linear-gradient(135deg, var(--lamp-glow) 0%, var(--lamp-glow) 100%);
 		color: var(--text-on-primary);
 		font-weight: 600;
 		transition:
@@ -126,10 +126,10 @@
 	.links-empty-state {
 		margin-bottom: 1rem;
 		padding: 1.1rem;
-		border: 1px dashed color-mix(in srgb, var(--primary) 18%, var(--border-color));
+		border: 1px dashed color-mix(in srgb, var(--lamp-glow) 18%, var(--stone-edge));
 		border-radius: 1rem;
 		background: color-mix(in srgb, var(--primary-subtle) 36%, transparent);
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 		font-size: 0.95rem;
 		font-weight: 600;
 		text-align: center;

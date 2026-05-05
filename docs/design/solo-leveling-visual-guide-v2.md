@@ -1,5 +1,7 @@
 <!-- docs/design/solo-leveling-visual-guide-v2.md -->
 
+> ⚠️ **ARCHIVED 2026-05-04** — Solo Leveling aesthetic retired. The locked visual identity is Streetlamp Symposium in `docs/design-system.md`.
+
 # Solo Leveling Inspired Visual Brand
 
 > **Purpose:** A visual brand system inspired by the aesthetic of Solo Leveling (나 혼자만 레벨업). For use on a separate project.

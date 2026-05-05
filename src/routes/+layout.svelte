@@ -1,10 +1,11 @@
 <!-- src/routes/+layout.svelte -->
 <script lang="ts">
-	import '@fontsource/space-grotesk/400.css';
-	import '@fontsource/space-grotesk/500.css';
-	import '@fontsource/space-grotesk/700.css';
-	import '@fontsource/rajdhani/500.css';
-	import '@fontsource/rajdhani/700.css';
+	// Phase 2 (2026-05-04): swapped to Inter Variable + JetBrains Mono per
+	// design-system.md §6. Space Grotesk + Rajdhani imports removed; the
+	// @fontsource/* packages are still in package.json (used by email
+	// templates / poster generator until Phase 6) but no longer loaded
+	// globally.
+	import '@fontsource-variable/inter';
 	import '@fontsource/jetbrains-mono/400.css';
 	import '@fontsource/jetbrains-mono/500.css';
 	import '../app.scss';
@@ -621,8 +622,8 @@
 		margin: 0;
 		box-sizing: border-box;
 		padding: 0;
-		background-color: var(--bg-base);
-		color: var(--text-primary);
+		background-color: var(--night-deep);
+		color: var(--ink-bright);
 		-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 		touch-action: manipulation;
 	}
@@ -643,7 +644,7 @@
 
 	.app-wrapper {
 		min-height: 100vh;
-		background: linear-gradient(180deg, var(--bg-base) 0%, var(--bg-deep) 50%, var(--bg-base) 100%);
+		background: linear-gradient(180deg, var(--night-deep) 0%, var(--night-deep) 50%, var(--night-deep) 100%);
 		overflow-x: hidden;
 	}
 

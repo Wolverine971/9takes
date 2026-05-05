@@ -5,7 +5,7 @@
 	import { deserialize } from '$app/forms';
 	import { notifications } from '$lib/components/molecules/notifications';
 
-	export let data: PageData;
+	let { data }: { data: PageData } = $props();
 
 	const confirmUnsubscribe = async () => {
 		if (!data.userSignup?.email) {
@@ -34,10 +34,10 @@
 			<p>Are you sure you want to unsubscribe?</p>
 
 			<div class="row" style="gap: 2rem;">
-				<button class="btn btn-secondary" type="button" on:click={() => goto(`/questions`, {})}>
+				<button class="btn btn-secondary" type="button" onclick={() => goto(`/questions`, {})}>
 					No
 				</button>
-				<button class="btn btn-primary" type="button" on:click={confirmUnsubscribe}> Yes </button>
+				<button class="btn btn-primary" type="button" onclick={confirmUnsubscribe}> Yes </button>
 			</div>
 		</div>
 	{/if}

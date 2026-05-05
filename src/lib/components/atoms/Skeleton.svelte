@@ -21,7 +21,7 @@
 
 <style>
 	.skeleton {
-		background-color: color-mix(in srgb, var(--bg-elevated) 82%, var(--bg-surface));
+		background-color: color-mix(in srgb, var(--stone-warm) 82%, var(--stone-warm));
 		position: relative;
 		overflow: hidden;
 	}
@@ -45,10 +45,10 @@
 		transform: translateX(-100%);
 		background-image: linear-gradient(
 			90deg,
-			color-mix(in srgb, var(--primary) 0%, transparent) 0,
-			color-mix(in srgb, var(--primary) 8%, transparent) 20%,
-			color-mix(in srgb, var(--primary) 16%, transparent) 60%,
-			color-mix(in srgb, var(--primary) 0%, transparent)
+			color-mix(in srgb, var(--lamp-glow) 0%, transparent) 0,
+			color-mix(in srgb, var(--lamp-glow) 8%, transparent) 20%,
+			color-mix(in srgb, var(--lamp-glow) 16%, transparent) 60%,
+			color-mix(in srgb, var(--lamp-glow) 0%, transparent)
 		);
 		animation: wave 1.5s linear infinite;
 	}

@@ -1,6 +1,6 @@
 <!-- src/routes/admin/+page.svelte -->
 <script lang="ts">
-	import Modal2, { getModal } from '$lib/components/atoms/Modal2.svelte';
+	import Modal, { getModal } from '$lib/components/atoms/Modal.svelte';
 	import { notifications } from '$lib/components/molecules/notifications';
 	import LineChart from '$lib/components/charts/LineChart.svelte';
 	import EnneagramBarChart from '$lib/components/charts/EnneagramBarChart.svelte';
@@ -575,7 +575,7 @@
 	</section>
 </div>
 
-<Modal2 id="confirmReindex">
+<Modal id="confirmReindex">
 	<div class="modal-content">
 		<div class="modal-icon">🔄</div>
 		<h2 class="modal-title">Reindex Elasticsearch</h2>
@@ -615,7 +615,7 @@
 			</button>
 		</div>
 	</div>
-</Modal2>
+</Modal>
 
 <style>
 	.admin-dashboard {
@@ -638,10 +638,10 @@
 	.panel {
 		background: linear-gradient(
 			180deg,
-			color-mix(in srgb, var(--bg-surface) 94%, white 6%),
-			var(--bg-surface)
+			color-mix(in srgb, var(--stone-warm) 94%, white 6%),
+			var(--stone-warm)
 		);
-		border: 1px solid var(--bg-elevated);
+		border: 1px solid var(--stone-warm);
 		border-radius: 16px;
 		box-shadow: var(--shadow-md);
 		min-width: 0;
@@ -654,8 +654,8 @@
 		gap: 16px;
 		padding: 14px 18px;
 		border-radius: 14px;
-		border: 1px solid var(--bg-elevated);
-		background: color-mix(in srgb, var(--bg-surface) 94%, transparent);
+		border: 1px solid var(--stone-warm);
+		background: color-mix(in srgb, var(--stone-warm) 94%, transparent);
 	}
 
 	.hero-copy {
@@ -674,9 +674,9 @@
 		font-weight: 700;
 		text-transform: uppercase;
 		letter-spacing: 0.06em;
-		border: 1px solid color-mix(in srgb, var(--bg-elevated) 86%, transparent);
-		background: color-mix(in srgb, var(--bg-deep) 90%, transparent);
-		color: var(--text-secondary);
+		border: 1px solid color-mix(in srgb, var(--stone-warm) 86%, transparent);
+		background: color-mix(in srgb, var(--night-deep) 90%, transparent);
+		color: var(--ink-mid);
 	}
 
 	.hero-mode[data-tone='success'] {
@@ -707,14 +707,14 @@
 		font-weight: 700;
 		letter-spacing: 0.12em;
 		text-transform: uppercase;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 	}
 
 	.page-title,
 	.section-title,
 	.card-title {
 		margin: 0;
-		color: var(--text-primary);
+		color: var(--ink-bright);
 	}
 
 	.page-title {
@@ -725,7 +725,7 @@
 
 	.section-description {
 		margin: 0;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 		line-height: 1.55;
 	}
 
@@ -748,7 +748,7 @@
 	.section-link,
 	.inline-link,
 	.detail-link {
-		color: var(--primary-light);
+		color: var(--lamp-glow);
 		text-decoration: none;
 		font-weight: 600;
 		transition:
@@ -759,7 +759,7 @@
 	.section-link:hover,
 	.inline-link:hover,
 	.detail-link:hover {
-		color: var(--accent-light);
+		color: var(--lamp-glow);
 	}
 
 	.dashboard-section {
@@ -774,9 +774,9 @@
 		gap: 8px;
 		padding: 8px 12px;
 		border-radius: 10px;
-		border: 1px solid var(--bg-elevated);
-		background: color-mix(in srgb, var(--bg-deep) 88%, var(--bg-surface));
-		color: var(--text-primary);
+		border: 1px solid var(--stone-warm);
+		background: color-mix(in srgb, var(--night-deep) 88%, var(--stone-warm));
+		color: var(--ink-bright);
 		font-size: 0.88rem;
 		cursor: pointer;
 		transition:
@@ -785,11 +785,11 @@
 	}
 
 	.action-btn:hover:not(:disabled) {
-		border-color: color-mix(in srgb, var(--primary) 45%, var(--bg-elevated));
+		border-color: color-mix(in srgb, var(--lamp-glow) 45%, var(--stone-warm));
 	}
 
 	.action-btn.active {
-		border-color: color-mix(in srgb, var(--success) 55%, var(--bg-elevated));
+		border-color: color-mix(in srgb, var(--success) 55%, var(--stone-warm));
 	}
 
 	.action-btn:disabled {
@@ -804,7 +804,7 @@
 
 	.action-label {
 		font-weight: 600;
-		color: var(--text-primary);
+		color: var(--ink-bright);
 	}
 
 	.action-state {
@@ -814,8 +814,8 @@
 		font-weight: 700;
 		text-transform: uppercase;
 		letter-spacing: 0.04em;
-		background: color-mix(in srgb, var(--bg-elevated) 85%, transparent);
-		color: var(--text-secondary);
+		background: color-mix(in srgb, var(--stone-warm) 85%, transparent);
+		color: var(--ink-mid);
 	}
 
 	.action-btn.active .action-state {
@@ -877,8 +877,8 @@
 		justify-content: space-between;
 		gap: 12px;
 		padding: 24px 24px 18px;
-		border-bottom: 1px solid var(--bg-elevated);
-		background: color-mix(in srgb, var(--bg-deep) 82%, var(--bg-surface));
+		border-bottom: 1px solid var(--stone-warm);
+		background: color-mix(in srgb, var(--night-deep) 82%, var(--stone-warm));
 	}
 
 	.list-card-meta {
@@ -906,8 +906,8 @@
 	}
 
 	.count-pill {
-		background: color-mix(in srgb, var(--primary) 16%, transparent);
-		color: var(--primary-light);
+		background: color-mix(in srgb, var(--lamp-glow) 16%, transparent);
+		color: var(--lamp-glow);
 	}
 
 	.detail-list,
@@ -924,7 +924,7 @@
 		justify-content: space-between;
 		gap: 16px;
 		padding: 18px 24px;
-		border-top: 1px solid var(--bg-elevated);
+		border-top: 1px solid var(--stone-warm);
 	}
 
 	.detail-item:first-child,
@@ -934,7 +934,7 @@
 
 	.detail-item:hover,
 	.question-item:hover {
-		background: color-mix(in srgb, var(--bg-deep) 84%, var(--bg-surface));
+		background: color-mix(in srgb, var(--night-deep) 84%, var(--stone-warm));
 	}
 
 	.detail-main,
@@ -963,7 +963,7 @@
 	}
 
 	.detail-text {
-		color: var(--text-primary);
+		color: var(--ink-bright);
 		font-weight: 600;
 	}
 
@@ -971,13 +971,13 @@
 		margin: 0;
 		font-size: 0.82rem;
 		line-height: 1.5;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 	}
 
 	.detail-date,
 	.meta-text {
 		font-size: 0.76rem;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 		white-space: nowrap;
 	}
 
@@ -995,8 +995,8 @@
 	}
 
 	.type-badge.pending {
-		background: var(--bg-elevated);
-		color: var(--text-secondary);
+		background: var(--stone-warm);
+		color: var(--ink-mid);
 	}
 
 	.type-badge.type-1 {
@@ -1049,8 +1049,8 @@
 	}
 
 	.meta-pill.neutral {
-		background: color-mix(in srgb, var(--bg-elevated) 90%, transparent);
-		color: var(--text-secondary);
+		background: color-mix(in srgb, var(--stone-warm) 90%, transparent);
+		color: var(--ink-mid);
 	}
 
 	.question-feed {
@@ -1065,7 +1065,7 @@
 		margin: 0;
 		font-size: 1rem;
 		line-height: 1.45;
-		color: var(--text-primary);
+		color: var(--ink-bright);
 	}
 
 	.question-footer {
@@ -1080,7 +1080,7 @@
 	.empty-state {
 		margin: 0;
 		padding: 28px 24px;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 		font-size: 0.9rem;
 		line-height: 1.5;
 	}
@@ -1099,13 +1099,13 @@
 		margin: 0 0 16px;
 		font-size: 1.25rem;
 		font-weight: 700;
-		color: var(--text-primary);
+		color: var(--ink-bright);
 		text-align: center;
 	}
 
 	.modal-text {
 		margin: 0 0 16px;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 		font-size: 0.9rem;
 		line-height: 1.55;
 		text-align: center;
@@ -1114,21 +1114,21 @@
 	.modal-details {
 		margin: 0 0 16px;
 		padding: 16px;
-		background: var(--bg-elevated);
+		background: var(--stone-warm);
 		border-radius: 12px;
-		border: 1px solid var(--bg-highlight);
+		border: 1px solid var(--stone-warm);
 	}
 
 	.modal-details p {
 		margin: 0 0 10px;
 		font-weight: 600;
-		color: var(--text-primary);
+		color: var(--ink-bright);
 	}
 
 	.modal-details ul {
 		margin: 0;
 		padding-left: 20px;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 		font-size: 0.84rem;
 		line-height: 1.55;
 	}
@@ -1169,20 +1169,20 @@
 	}
 
 	.btn-secondary {
-		background: var(--bg-surface);
-		color: var(--text-primary);
-		border: 1px solid var(--bg-elevated);
+		background: var(--stone-warm);
+		color: var(--ink-bright);
+		border: 1px solid var(--stone-warm);
 	}
 
 	.btn-secondary:hover:not(:disabled) {
-		background: var(--bg-elevated);
-		border-color: var(--bg-highlight);
+		background: var(--stone-warm);
+		border-color: var(--stone-warm);
 	}
 
 	.btn-primary {
-		background: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%);
+		background: linear-gradient(135deg, var(--lamp-glow) 0%, var(--lamp-glow) 100%);
 		color: white;
-		border: 1px solid var(--primary);
+		border: 1px solid var(--lamp-glow);
 		box-shadow: var(--glow-sm);
 	}
 

@@ -1,4 +1,10 @@
 <!-- src/routes/enneagram-corner/[slug]/+page.svelte -->
+<!--
+  src/routes/enneagram-corner/[slug]/+page.svelte
+  Phase 5 #6 of docs/design/2026-05-04-rollout-plan.md — blog reading layout.
+  Mechanical pass: Svelte 5 runes + V5 tokens. Visual redesign is follow-up work.
+  Spec: docs/design-system.md §4–§6.
+-->
 <script lang="ts">
 	import { onMount } from 'svelte';
 	import { writable } from 'svelte/store';
@@ -16,9 +22,9 @@
 	import EmailSignup from '$lib/components/molecules/Email-Signup.svelte';
 	import AuthorBio from '$lib/components/blog/AuthorBio.svelte';
 
-	export let data: PageData;
+	let { data }: { data: PageData } = $props();
 	type C = Component;
-	$: component = data.component as unknown as C;
+	let Article = $derived(data.component as unknown as C);
 
 	const contentStore = writable('');
 
@@ -52,21 +58,23 @@
 	});
 
 	// Watch for slug changes and reinitialize observer
-	$: if (data?.slug) {
-		// Reset content store when slug changes
-		contentStore.set('');
+	$effect(() => {
+		if (data?.slug) {
+			// Reset content store when slug changes
+			contentStore.set('');
 
-		// Clean up existing observer
-		if (observer) {
-			observer.disconnect();
-			observer = null;
+			// Clean up existing observer
+			if (observer) {
+				observer.disconnect();
+				observer = null;
+			}
+
+			// Set up new observer after a short delay to ensure DOM is updated
+			setTimeout(() => {
+				findObserver();
+			}, 100);
 		}
-
-		// Set up new observer after a short delay to ensure DOM is updated
-		setTimeout(() => {
-			findObserver();
-		}, 100);
-	}
+	});
 
 	const findObserver = () => {
 		if (!browser) return;
@@ -129,7 +137,7 @@
 	<TableOfContents {contentStore} headings={data.frontmatter.headings} />
 
 	<div class="article-body" itemprop="articleBody">
-		<svelte:component this={component} />
+		<Article />
 	</div>
 
 	<AuthorBio author={data.frontmatter.author} />
@@ -159,13 +167,13 @@
 	.article-body {
 		margin-bottom: 2rem;
 		line-height: 1.7;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 
 		/* Header styles for injected content */
 		:global(h2) {
 			font-size: 1.75rem;
 			font-weight: 600;
-			color: var(--text-primary);
+			color: var(--ink-bright);
 			margin-top: 2rem;
 			margin-bottom: 1rem;
 			padding-top: 1rem;
@@ -175,7 +183,7 @@
 		:global(h3) {
 			font-size: 1.35rem;
 			font-weight: 600;
-			color: var(--text-primary);
+			color: var(--ink-bright);
 			margin-top: 1.5rem;
 			margin-bottom: 0.75rem;
 			line-height: 1.35;
@@ -184,7 +192,7 @@
 		:global(h4) {
 			font-size: 1.15rem;
 			font-weight: 600;
-			color: var(--text-primary);
+			color: var(--ink-bright);
 			margin-top: 1.25rem;
 			margin-bottom: 0.5rem;
 			line-height: 1.4;
@@ -217,10 +225,10 @@
 		:global(blockquote) {
 			margin: 1.5rem 0;
 			padding: 1rem 1.5rem;
-			border-left: 4px solid var(--primary-dark);
-			background-color: var(--bg-surface);
+			border-left: 4px solid var(--lamp-glow);
+			background-color: var(--stone-warm);
 			font-style: italic;
-			color: var(--text-secondary);
+			color: var(--ink-mid);
 			border-radius: 0 8px 8px 0;
 		}
 
@@ -238,16 +246,16 @@
 		}
 
 		:global(code) {
-			background-color: var(--bg-elevated);
-			color: var(--accent-light);
+			background-color: var(--stone-warm);
+			color: var(--data-teal);
 			padding: 0.2rem 0.4rem;
 			border-radius: 4px;
 			font-size: 0.9em;
 		}
 
 		:global(pre) {
-			background-color: var(--bg-base);
-			border: 1px solid var(--border-color);
+			background-color: var(--night-deep);
+			border: 1px solid var(--stone-edge);
 			border-radius: 8px;
 			padding: 1rem;
 			overflow-x: auto;
@@ -262,7 +270,7 @@
 	.section-divider {
 		margin: 5rem 0;
 		border: 0;
-		border-top: 1px solid color-mix(in srgb, var(--text-tertiary) 30%, transparent);
+		border-top: 1px solid var(--stone-edge);
 	}
 
 	.join {

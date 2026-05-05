@@ -153,8 +153,8 @@
 			),
 			linear-gradient(
 				180deg,
-				color-mix(in srgb, var(--bg-deep) 88%, var(--bg-base)) 0%,
-				var(--bg-base) 100%
+				color-mix(in srgb, var(--night-deep) 88%, var(--night-deep)) 0%,
+				var(--night-deep) 100%
 			);
 	}
 
@@ -175,7 +175,7 @@
 		font-weight: 700;
 		letter-spacing: 0.12em;
 		text-transform: uppercase;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 	}
 
 	h1,
@@ -186,7 +186,7 @@
 
 	h1,
 	h2 {
-		color: var(--text-primary);
+		color: var(--ink-bright);
 		line-height: 1.15;
 	}
 
@@ -200,7 +200,7 @@
 		margin: 0.95rem auto 0;
 		font-size: 1rem;
 		line-height: 1.7;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 	}
 
 	.hero-stats {
@@ -208,18 +208,18 @@
 		max-width: 42rem;
 		font-size: 0.95rem;
 		line-height: 1.6;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 	}
 
 	.hero-stats strong {
-		color: var(--text-primary);
+		color: var(--ink-bright);
 		font-weight: 700;
 	}
 
 	.hero-link-inline {
 		display: inline-block;
 		margin-left: 0.4rem;
-		color: var(--primary);
+		color: var(--lamp-glow);
 		font-weight: 600;
 		text-decoration: none;
 	}
@@ -242,9 +242,9 @@
 		justify-content: center;
 		padding: 0.8rem 1.05rem;
 		border-radius: 999px;
-		border: 1px solid color-mix(in srgb, var(--accent) 18%, var(--border-color));
-		background: color-mix(in srgb, var(--bg-surface) 84%, var(--bg-base));
-		color: var(--text-primary);
+		border: 1px solid color-mix(in srgb, var(--lamp-glow) 18%, var(--stone-edge));
+		background: color-mix(in srgb, var(--stone-warm) 84%, var(--night-deep));
+		color: var(--ink-bright);
 		font-weight: 700;
 		text-decoration: none;
 		box-shadow: var(--shadow-sm);
@@ -256,18 +256,18 @@
 
 	.hero-link:hover {
 		transform: translateY(-1px);
-		border-color: color-mix(in srgb, var(--primary) 34%, var(--border-color));
+		border-color: color-mix(in srgb, var(--lamp-glow) 34%, var(--stone-edge));
 		box-shadow: var(--shadow-md);
 	}
 
 	.hero-link-primary {
 		background: linear-gradient(
 			135deg,
-			color-mix(in srgb, var(--primary) 78%, white 22%),
-			color-mix(in srgb, var(--primary-dark) 88%, black 12%)
+			color-mix(in srgb, var(--lamp-glow) 78%, white 22%),
+			color-mix(in srgb, var(--lamp-glow) 88%, black 12%)
 		);
 		color: white;
-		border-color: color-mix(in srgb, var(--primary) 72%, transparent);
+		border-color: color-mix(in srgb, var(--lamp-glow) 72%, transparent);
 	}
 
 	.root-stack {
@@ -280,21 +280,21 @@
 		margin: 1rem auto 0;
 		font-size: 0.94rem;
 		line-height: 1.6;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 	}
 
 	.empty-state {
 		padding: 1.4rem;
 		border-radius: 1.2rem;
-		border: 1px solid color-mix(in srgb, var(--accent) 14%, var(--border-color));
-		background: color-mix(in srgb, var(--bg-surface) 90%, var(--bg-base));
+		border: 1px solid color-mix(in srgb, var(--lamp-glow) 14%, var(--stone-edge));
+		background: color-mix(in srgb, var(--stone-warm) 90%, var(--night-deep));
 		text-align: center;
 		box-shadow: var(--shadow-sm);
 	}
 
 	.empty-state p {
 		margin-top: 0.65rem;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 		line-height: 1.6;
 	}
 

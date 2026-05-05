@@ -13,44 +13,41 @@
 ==============================================*/
 :root {
 	/* ========================================
-	   BACKGROUND COLORS
-	   Warm stone charcoal
+	   LEGACY BRIDGE ALIASES (Phase 7c — 2026-05-05)
+	   Phase 7b migration is complete: no svelte/scss/svg/ts file
+	   in src/ references these names directly anymore. They remain
+	   only because internal derived tokens below (--neutral-*,
+	   --lightest-gray, --card-background, etc.) reference them.
+	   These now alias V5 tokens defined further down in this block,
+	   making V5 the single source of truth.
 	   ======================================== */
-	--bg-base: #0c0a09;
-	--bg-deep: #1c1917;
-	--bg-surface: #292524;
-	--bg-elevated: #44403c;
-	--bg-highlight: #57534e;
+	--bg-base: var(--night-deep);
+	--bg-deep: var(--night-deep);
+	--bg-surface: var(--stone-warm);
+	--bg-elevated: var(--stone-warm);
+	--bg-highlight: var(--stone-warm);
 
-	/* ========================================
-	   PRIMARY — Teal
-	   ======================================== */
-	--primary: #2dd4bf;
-	--primary-light: #5eead4;
-	--primary-lighter: #99f6e4;
-	--primary-lightest: #ccfbf1;
-	--primary-dark: #14b8a6;
-	--primary-darker: #0d9488;
-	--primary-glow: rgba(45, 212, 191, 0.4);
-	--primary-subtle: rgba(45, 212, 191, 0.12);
+	--primary: var(--lamp-glow);
+	--primary-light: var(--lamp-glow);
+	--primary-lighter: var(--lamp-glow);
+	--primary-lightest: var(--lamp-glow);
+	--primary-dark: var(--lamp-glow);
+	--primary-darker: var(--lamp-glow);
+	--primary-glow: var(--lamp-glow-rgba);
+	--primary-subtle: var(--lamp-soft);
 
-	/* ========================================
-	   SECONDARY — Rose
-	   ======================================== */
+	/* Secondary — kept as standalone rose accent, no V5 equivalent. */
 	--secondary: #fb7185;
 	--secondary-light: #fda4af;
 	--secondary-dark: #f43f5e;
 	--secondary-glow: rgba(251, 113, 133, 0.4);
 	--secondary-subtle: rgba(251, 113, 133, 0.12);
 
-	/* ========================================
-	   ACCENT — Purple
-	   ======================================== */
-	--accent: #a78bfa;
-	--accent-light: #c4b5fd;
-	--accent-dark: #7c3aed;
-	--accent-glow: rgba(167, 139, 250, 0.4);
-	--accent-subtle: rgba(167, 139, 250, 0.12);
+	--accent: var(--lamp-glow);
+	--accent-light: var(--lamp-glow);
+	--accent-dark: var(--lamp-glow);
+	--accent-glow: var(--lamp-glow-rgba);
+	--accent-subtle: var(--lamp-soft);
 
 	/* Legacy aliases — used by some components */
 	--accent-rgb: 45, 212, 191;
@@ -102,12 +99,12 @@
 	--info-text: var(--accent-light);
 
 	/* ========================================
-	   TEXT COLORS
+	   TEXT COLORS — legacy bridge aliases to V5 ink scale
 	   ======================================== */
-	--text-primary: #fafaf9;
-	--text-secondary: #a8a29e;
-	--text-tertiary: #78716c;
-	--text-muted: #57534e;
+	--text-primary: var(--ink-bright);
+	--text-secondary: var(--ink-mid);
+	--text-tertiary: var(--ink-dim);
+	--text-muted: var(--ink-dim);
 	--text-on-primary: #0c0a09;
 	--text-on-dark: #fafaf9;
 	--text-on-secondary: #ffffff;
@@ -158,13 +155,10 @@
 	--shadow-xl: 0 24px 48px rgba(0, 0, 0, 0.25);
 	--shadow-color: rgba(0, 0, 0, 0.2);
 
-	/* Glow Effects */
+	/* Glow Effects — locked 2026-05-04 (cut from 6 → 2 per design-system.md §5).
+	   --glow-lg, --glow-secondary, --glow-accent, --glow-subtle removed. */
 	--glow-sm: 0 0 10px var(--primary-glow);
 	--glow-md: 0 0 20px var(--primary-glow);
-	--glow-lg: 0 0 40px var(--primary-glow);
-	--glow-secondary: 0 0 20px var(--secondary-glow);
-	--glow-accent: 0 0 20px var(--accent-glow);
-	--glow-subtle: 0 0 30px rgba(45, 212, 191, 0.2);
 
 	/* ========================================
 	   LAYOUT
@@ -184,9 +178,11 @@
 	/* ========================================
 	   TYPOGRAPHY
 	   ======================================== */
-	--font-family: 'Space Grotesk', sans-serif;
-	--font-display: 'Rajdhani', sans-serif;
-	--font-mono: 'JetBrains Mono', monospace;
+	/* Phase 2 (2026-05-04): Inter Variable + JetBrains Mono. Locked in design-system.md §6.
+	   Space Grotesk + Rajdhani retired. The variable Inter file covers all weights from one file. */
+	--font-family: 'Inter Variable', 'Inter', system-ui, sans-serif;
+	--font-display: 'Inter Variable', 'Inter', system-ui, sans-serif;
+	--font-mono: 'JetBrains Mono', ui-monospace, monospace;
 
 	/* Font sizes */
 	--font-size-xs: 0.75rem;
@@ -247,43 +243,88 @@
 	--neutral-text: var(--text-secondary);
 	--neutral-divider: var(--bg-elevated);
 	--muted-text: var(--text-tertiary);
+
+	/* ========================================
+	   V5 STREETLAMP SYMPOSIUM TOKENS (BRIDGE)
+	   Locked 2026-05-04 in docs/design-system.md §4–§6.
+	   These coexist with the legacy --bg-, --text-, --primary- tokens
+	   above during the bridge migration. Pages get migrated one at a time.
+	   Legacy tokens are removed in Phase 7 of the rollout plan
+	   (docs/design/2026-05-04-rollout-plan.md).
+	   ======================================== */
+
+	/* Surfaces — deep-night stone */
+	--night-deep: #0a0807;
+	--night-mid: #16110d;
+	--stone-warm: #241d17;
+	--stone-mid: #3a302a;
+	--stone-edge: #5c4f47;
+
+	/* Sodium-amber primary illumination */
+	--lamp-glow: #f59e0b;
+	--lamp-deep: #b45309;
+	--lamp-light: #fbbf24;
+	--lamp-soft: rgba(245, 158, 11, 0.14);
+	--lamp-glow-rgba: rgba(245, 158, 11, 0.4);
+
+	/* Marble — for high-light moments (statue, parchment) */
+	--marble-pure: #faf8f4;
+	--marble-warm: #ede6da;
+	--marble-shadow: #a8a095;
+
+	/* Data accent — tech-spec dossier mode */
+	--data-teal: #0d9488;
+	--data-cyan: #5eead4;
+	--data-teal-rgba: rgba(13, 148, 136, 0.18);
+
+	/* Ink — semantic text */
+	--ink-bright: #faf8f4;
+	--ink-mid: #a8a095;
+	--ink-dim: #5c4f47;
+	--ink-muted: #3a302a;
+
+	/* Pool / glow rgb triples for radial gradients */
+	--pool-rgb: 245, 158, 11;
+	--pool-deep-rgb: 180, 83, 9;
 }
 
 /*==============================================
   LIGHT MODE OVERRIDES
 ==============================================*/
 :root.light {
-	--bg-base: #fafaf9;
-	--bg-deep: #f5f5f4;
-	--bg-surface: #ffffff;
-	--bg-elevated: #e7e5e4;
-	--bg-highlight: #d6d3d1;
+	/* Legacy bridge aliases — V5 light tokens are defined below. */
+	--bg-base: var(--night-deep);
+	--bg-deep: var(--night-deep);
+	--bg-surface: var(--stone-warm);
+	--bg-elevated: var(--stone-warm);
+	--bg-highlight: var(--stone-warm);
 
-	--primary: #0d9488;
-	--primary-light: #14b8a6;
-	--primary-lighter: #2dd4bf;
-	--primary-lightest: #5eead4;
-	--primary-dark: #0f766e;
-	--primary-darker: #115e59;
-	--primary-glow: rgba(13, 148, 136, 0.25);
-	--primary-subtle: rgba(13, 148, 136, 0.08);
+	--primary: var(--lamp-glow);
+	--primary-light: var(--lamp-glow);
+	--primary-lighter: var(--lamp-glow);
+	--primary-lightest: var(--lamp-glow);
+	--primary-dark: var(--lamp-glow);
+	--primary-darker: var(--lamp-glow);
+	--primary-glow: var(--lamp-glow-rgba);
+	--primary-subtle: var(--lamp-soft);
 
+	/* Secondary — standalone rose accent. */
 	--secondary: #e11d48;
 	--secondary-light: #f43f5e;
 	--secondary-dark: #be123c;
 	--secondary-glow: rgba(225, 29, 72, 0.25);
 	--secondary-subtle: rgba(225, 29, 72, 0.08);
 
-	--accent: #7c3aed;
-	--accent-light: #8b5cf6;
-	--accent-dark: #6d28d9;
-	--accent-glow: rgba(124, 58, 237, 0.2);
-	--accent-subtle: rgba(124, 58, 237, 0.06);
+	--accent: var(--lamp-glow);
+	--accent-light: var(--lamp-glow);
+	--accent-dark: var(--lamp-glow);
+	--accent-glow: var(--lamp-glow-rgba);
+	--accent-subtle: var(--lamp-soft);
 
-	--text-primary: #1c1917;
-	--text-secondary: #57534e;
-	--text-tertiary: #78716c;
-	--text-muted: #a8a29e;
+	--text-primary: var(--ink-bright);
+	--text-secondary: var(--ink-mid);
+	--text-tertiary: var(--ink-dim);
+	--text-muted: var(--ink-dim);
 	--text-on-primary: #ffffff;
 	--text-on-dark: #fafaf9;
 	--text-on-image: #fafaf9;
@@ -309,7 +350,7 @@
 
 	--glow-sm: 0 1px 4px var(--primary-glow);
 	--glow-md: 0 2px 8px var(--primary-glow);
-	--glow-lg: 0 4px 16px var(--primary-glow);
+	/* --glow-lg removed 2026-05-04 — see design-system.md §5. */
 
 	--glass-color: rgba(255, 255, 255, 0.85);
 	--glass-border: rgba(13, 148, 136, 0.12);
@@ -322,6 +363,39 @@
 	--pillar-heart: #a855f7;
 
 	color-scheme: light;
+
+	/* ========================================
+	   V5 STREETLAMP SYMPOSIUM TOKENS — LIGHT MODE (BRIDGE)
+	   See dark-mode block above for context.
+	   ======================================== */
+
+	--night-deep: #faf8f4;
+	--night-mid: #f2ebdd;
+	--stone-warm: #ffffff;
+	--stone-mid: #f5f0e8;
+	--stone-edge: #d6ccb8;
+
+	--lamp-glow: #b45309;
+	--lamp-deep: #92400e;
+	--lamp-light: #d97706;
+	--lamp-soft: rgba(180, 83, 9, 0.1);
+	--lamp-glow-rgba: rgba(217, 119, 6, 0.18);
+
+	--marble-pure: #ffffff;
+	--marble-warm: #faf8f4;
+	--marble-shadow: #8b7e6e;
+
+	--data-teal: #0f766e;
+	--data-cyan: #14b8a6;
+	--data-teal-rgba: rgba(15, 118, 110, 0.14);
+
+	--ink-bright: #1c1917;
+	--ink-mid: #44403c;
+	--ink-dim: #78716c;
+	--ink-muted: #a8a29e;
+
+	--pool-rgb: 217, 119, 6;
+	--pool-deep-rgb: 180, 83, 9;
 }
 
 /*==============================================
@@ -343,8 +417,8 @@ body {
 	font-family: var(--font-family);
 	font-size: 16px;
 	line-height: 1.6;
-	background-color: var(--bg-base);
-	color: var(--text-primary);
+	background-color: var(--night-deep);
+	color: var(--ink-bright);
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 }

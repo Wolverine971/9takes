@@ -132,14 +132,14 @@
 		background: no-repeat;
 		border-radius: var(--base-border-radius);
 		border: var(--classic-border);
-		background-color: var(--bg-surface);
+		background-color: var(--stone-warm);
 		box-shadow: var(--shadow-sm);
 	}
 
 	.mobile-card {
 		border-radius: var(--base-border-radius);
 		border: var(--classic-border);
-		background-color: var(--bg-surface);
+		background-color: var(--stone-warm);
 
 		.subnav-content {
 			border-radius: var(--base-border-radius);
@@ -147,7 +147,7 @@
 		}
 	}
 	.arrow {
-		fill: var(--primary);
+		fill: var(--lamp-glow);
 	}
 	.navbar-blogs {
 		overflow: hidden;
@@ -164,7 +164,7 @@
 	.navbar-blogs a {
 		float: left;
 		font-size: 16px;
-		color: var(--primary);
+		color: var(--lamp-glow);
 		text-align: center;
 		padding: 14px 16px;
 		// text-decoration: none;
@@ -182,7 +182,7 @@
 		font-size: 16px;
 		border: none;
 		outline: none;
-		color: var(--primary);
+		color: var(--lamp-glow);
 		padding: 14px 16px;
 		background-color: inherit;
 		font-family: inherit;
@@ -193,14 +193,14 @@
 	}
 
 	.main-subNavBtn-mobile {
-		background-color: var(--bg-surface);
+		background-color: var(--stone-warm);
 		border: none;
 		border-radius: var(--base-border-radius);
 	}
 
 	.navbar-blogs a:hover,
 	.subnav:hover .subNavBtn {
-		background-color: var(--accent);
+		background-color: var(--lamp-glow);
 		color: var(--text-on-dark);
 		z-index: 1234;
 	}
@@ -208,7 +208,7 @@
 	.subnav-content {
 		display: none;
 		position: absolute;
-		background-color: var(--bg-surface);
+		background-color: var(--stone-warm);
 		border: var(--classic-border);
 		box-shadow: var(--shadow-md);
 		flex-direction: column;
@@ -218,13 +218,13 @@
 
 	.subnav-content a {
 		float: left;
-		color: var(--primary);
+		color: var(--lamp-glow);
 		z-index: 1234;
 	}
 
 	.subnav-content a:hover {
-		background-color: var(--bg-elevated);
-		color: var(--text-primary);
+		background-color: var(--stone-warm);
+		color: var(--ink-bright);
 		z-index: 1234;
 	}
 
@@ -244,12 +244,12 @@
 		align-items: center;
 		outline: none;
 		box-sizing: border-box;
-		color: var(--primary);
+		color: var(--lamp-glow);
 
 		z-index: 1234;
 		// float: left;
 		font-size: 16px;
-		color: var(--primary);
+		color: var(--lamp-glow);
 		text-align: center;
 		padding: 14px 16px;
 		// text-decoration: none;
@@ -258,7 +258,7 @@
 
 	.navbar-blogs a:hover,
 	.main-subnav:hover .main-subNavBtn {
-		background-color: var(--accent);
+		background-color: var(--lamp-glow);
 		color: var(--text-on-dark);
 		z-index: 1234;
 	}
@@ -266,7 +266,7 @@
 	.main-subnav-content {
 		display: none;
 		position: absolute;
-		background-color: var(--bg-surface);
+		background-color: var(--stone-warm);
 		border: var(--classic-border);
 		box-shadow: var(--shadow-md);
 		flex-direction: column;
@@ -275,13 +275,13 @@
 
 	.main-subnav-content a {
 		float: left;
-		color: var(--primary);
+		color: var(--lamp-glow);
 		z-index: 1234;
 	}
 
 	.main-subnav-content a:hover {
-		background-color: var(--bg-elevated);
-		color: var(--text-primary);
+		background-color: var(--stone-warm);
+		color: var(--ink-bright);
 		z-index: 1234;
 	}
 

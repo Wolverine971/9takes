@@ -1,4 +1,9 @@
 <!-- src/routes/book-session/+page.svelte -->
+<!--
+  src/routes/book-session/+page.svelte
+  Phase 5 #7 of docs/design/2026-05-04-rollout-plan.md — coaching waitlist landing.
+  Streetlamp Symposium V5: warm-stone surface, sodium-amber primary, Inter.
+-->
 <script lang="ts">
 	import { onMount } from 'svelte';
 	import { browser } from '$app/environment';
@@ -7,18 +12,17 @@
 	import { PUBLIC_RECAPTCHA_SITE_KEY } from '$env/static/public';
 	import type { PageData } from './$types';
 
-	export let data: PageData;
-	export let form;
+	let { data, form }: { data: PageData; form: any } = $props();
 
-	let submitted = form?.success || data.alreadySignedUp || false;
-	let existingSignup = data.alreadySignedUp && !form?.success;
-	let loading = false;
-	let recaptchaTheme: 'light' | 'dark' = 'dark';
-	let formLoadTime = 0;
+	let loading = $state(false);
+	let recaptchaTheme = $state<'light' | 'dark'>('dark');
+	let formLoadTime = $state(0);
+	let existingSignup = $derived(!!data.alreadySignedUp && !form?.success);
+	let submitted = $derived(!!form?.success || existingSignup);
 
-	const title = 'Enneagram Coaching Waitlist | 1-on-1 Pattern Recognition | 9takes';
+	const title = 'Decode Yourself & The People In Your Life | 1-on-1 Coaching Waitlist | 9takes';
 	const metaDescription =
-		'Join the 1-on-1 Enneagram coaching waitlist. Bring a relationship problem, work dynamic, or blind spot and get first access when sessions open.';
+		'Join the 1-on-1 coaching waitlist. Decode yourself, the people in your life, or both — get first access when sessions open.';
 	const keywords =
 		'enneagram coaching waitlist, personality coaching, relationship patterns, work dynamics, enneagram feedback';
 	const domain = 'https://9takes.com';
@@ -210,15 +214,14 @@
 		return () => observer.disconnect();
 	});
 
-	$: existingSignup = data.alreadySignedUp && !form?.success;
-	$: submitted = form?.success || existingSignup;
-
-	$: if (form?.success) {
-		loading = false;
-	} else if (form && !form.success) {
-		loading = false;
-		resetRecaptcha();
-	}
+	$effect(() => {
+		if (form?.success) {
+			loading = false;
+		} else if (form && !form.success) {
+			loading = false;
+			resetRecaptcha();
+		}
+	});
 </script>
 
 <SEOHead
@@ -255,12 +258,13 @@
 				<div class="hero-intro">
 					<div class="section-eyebrow">1-on-1 coaching waitlist</div>
 					<h1 id="book-session-title" class="hero-title">
-						Join the waitlist for <span class="nowrap">1-on-1</span> Enneagram coaching.
+						Decode yourself & the people in your life.
+						<span class="nowrap">1-on-1</span> coaching waitlist.
 					</h1>
 					<p class="hero-lede">
-						Bring a relationship problem, work dynamic, or blind spot you keep circling. I will use
-						the same pattern-recognition lens behind 200+ published 9takes pieces to help you see
-						what you are missing and what to do next.
+						Bring a relationship problem, work dynamic, blind spot, or someone in your life you
+						can't decode. I will use the same pattern-recognition lens behind 200+ published 9takes
+						pieces to help you see what you are missing and what to do next.
 					</p>
 					<div class="hero-badge-row" aria-label="Waitlist details">
 						{#each heroBadges as badge}
@@ -648,10 +652,10 @@
 		background:
 			radial-gradient(
 				circle at top left,
-				color-mix(in srgb, var(--primary) 10%, transparent) 0%,
+				color-mix(in srgb, var(--lamp-glow) 10%, transparent) 0%,
 				transparent 42%
 			),
-			linear-gradient(180deg, var(--bg-base) 0%, var(--bg-deep) 100%);
+			linear-gradient(180deg, var(--night-deep) 0%, var(--night-deep) 100%);
 		overflow: hidden;
 	}
 
@@ -661,12 +665,12 @@
 		background:
 			radial-gradient(
 				circle at 80% 6%,
-				color-mix(in srgb, var(--primary) 12%, transparent) 0%,
+				color-mix(in srgb, var(--lamp-glow) 12%, transparent) 0%,
 				transparent 24%
 			),
 			radial-gradient(
 				circle at 8% 55%,
-				color-mix(in srgb, var(--accent-light) 6%, transparent) 0%,
+				color-mix(in srgb, var(--data-teal) 6%, transparent) 0%,
 				transparent 30%
 			);
 		pointer-events: none;
@@ -703,9 +707,9 @@
 	.process-section,
 	.faq-section,
 	.final-cta {
-		border: 1px solid color-mix(in srgb, var(--text-tertiary) 12%, transparent);
+		border: 1px solid color-mix(in srgb, var(--ink-dim) 12%, transparent);
 		border-radius: 1.25rem;
-		background: color-mix(in srgb, var(--bg-surface) 88%, transparent);
+		background: color-mix(in srgb, var(--stone-warm) 88%, transparent);
 		box-shadow: var(--shadow-lg);
 		backdrop-filter: blur(14px);
 	}
@@ -716,7 +720,7 @@
 		font-weight: 700;
 		letter-spacing: 0.14em;
 		text-transform: uppercase;
-		color: var(--primary);
+		color: var(--lamp-glow);
 	}
 
 	/* ── Hero ── */
@@ -736,18 +740,18 @@
 		max-width: 100%;
 		min-width: 0;
 		padding: clamp(1.5rem, 3vw, 2.5rem);
-		border: 1px solid color-mix(in srgb, var(--text-tertiary) 12%, transparent);
+		border: 1px solid color-mix(in srgb, var(--ink-dim) 12%, transparent);
 		border-radius: 1.75rem;
 		background:
 			radial-gradient(
 				circle at top left,
-				color-mix(in srgb, var(--primary) 10%, transparent) 0%,
+				color-mix(in srgb, var(--lamp-glow) 10%, transparent) 0%,
 				transparent 34%
 			),
 			linear-gradient(
 				135deg,
-				color-mix(in srgb, var(--bg-surface) 92%, transparent) 0%,
-				color-mix(in srgb, var(--bg-elevated) 86%, transparent) 100%
+				color-mix(in srgb, var(--stone-warm) 92%, transparent) 0%,
+				color-mix(in srgb, var(--stone-warm) 86%, transparent) 100%
 			);
 		box-shadow: var(--shadow-lg);
 	}
@@ -758,7 +762,7 @@
 		line-height: 1.12;
 		font-weight: 800;
 		letter-spacing: -0.025em;
-		color: var(--text-primary);
+		color: var(--ink-bright);
 	}
 
 	.nowrap {
@@ -769,7 +773,7 @@
 		margin: 0;
 		font-size: 1.1rem;
 		line-height: 1.75;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 	}
 
 	.hero-badge-row {
@@ -783,9 +787,9 @@
 		align-items: center;
 		padding: 0.42rem 0.78rem;
 		border-radius: 999px;
-		border: 1px solid color-mix(in srgb, var(--primary) 18%, var(--border-color));
-		background: color-mix(in srgb, var(--bg-elevated) 84%, transparent);
-		color: var(--text-secondary);
+		border: 1px solid color-mix(in srgb, var(--lamp-glow) 18%, var(--stone-edge));
+		background: color-mix(in srgb, var(--stone-warm) 84%, transparent);
+		color: var(--ink-mid);
 		font-size: 0.78rem;
 		font-weight: 700;
 		letter-spacing: 0.01em;
@@ -817,11 +821,11 @@
 	}
 
 	.hero-truth {
-		border: 1px solid color-mix(in srgb, var(--primary) 18%, transparent);
+		border: 1px solid color-mix(in srgb, var(--lamp-glow) 18%, transparent);
 		background: linear-gradient(
 			135deg,
-			color-mix(in srgb, var(--primary) 8%, transparent) 0%,
-			color-mix(in srgb, var(--bg-surface) 96%, transparent) 100%
+			color-mix(in srgb, var(--lamp-glow) 8%, transparent) 0%,
+			color-mix(in srgb, var(--stone-warm) 96%, transparent) 100%
 		);
 	}
 
@@ -831,20 +835,20 @@
 		font-weight: 700;
 		letter-spacing: 0.12em;
 		text-transform: uppercase;
-		color: var(--primary);
+		color: var(--lamp-glow);
 	}
 
 	.hero-truth p,
 	.hero-mini-proof {
 		margin: 0;
 		line-height: 1.7;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 	}
 
 	.hero-list {
 		border-radius: 1rem;
-		border: 1px solid color-mix(in srgb, var(--text-tertiary) 10%, transparent);
-		background: color-mix(in srgb, var(--bg-elevated) 42%, transparent);
+		border: 1px solid color-mix(in srgb, var(--ink-dim) 10%, transparent);
+		background: color-mix(in srgb, var(--stone-warm) 42%, transparent);
 		padding: 1.35rem 1.4rem;
 	}
 
@@ -852,7 +856,7 @@
 		margin-bottom: 1rem;
 		font-size: 1.05rem;
 		font-weight: 700;
-		color: var(--text-primary);
+		color: var(--ink-bright);
 	}
 
 	.hero-list ul {
@@ -867,7 +871,7 @@
 		position: relative;
 		padding-left: 1.5rem;
 		line-height: 1.65;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 	}
 
 	.hero-list li::before {
@@ -878,31 +882,31 @@
 		width: 0.45rem;
 		height: 0.45rem;
 		border-radius: 999px;
-		background: var(--primary);
-		box-shadow: 0 0 0 0.25rem color-mix(in srgb, var(--primary) 14%, transparent);
+		background: var(--lamp-glow);
+		box-shadow: 0 0 0 0.25rem color-mix(in srgb, var(--lamp-glow) 14%, transparent);
 	}
 
 	.hero-mini-proof {
-		border: 1px solid color-mix(in srgb, var(--text-tertiary) 12%, transparent);
-		background: color-mix(in srgb, var(--bg-elevated) 50%, transparent);
+		border: 1px solid color-mix(in srgb, var(--ink-dim) 12%, transparent);
+		background: color-mix(in srgb, var(--stone-warm) 50%, transparent);
 	}
 
 	.hero-mini-proof span {
 		display: block;
 		margin-bottom: 0.4rem;
 		font-weight: 700;
-		color: var(--text-primary);
+		color: var(--ink-bright);
 	}
 
 	.hero-context-card {
 		display: grid;
 		gap: 1rem;
 		border-radius: 1rem;
-		border: 1px solid color-mix(in srgb, var(--text-tertiary) 10%, transparent);
+		border: 1px solid color-mix(in srgb, var(--ink-dim) 10%, transparent);
 		background: linear-gradient(
 			145deg,
-			color-mix(in srgb, var(--primary) 6%, transparent) 0%,
-			color-mix(in srgb, var(--bg-surface) 96%, transparent) 100%
+			color-mix(in srgb, var(--lamp-glow) 6%, transparent) 0%,
+			color-mix(in srgb, var(--stone-warm) 96%, transparent) 100%
 		);
 		padding: 1.35rem 1.4rem;
 	}
@@ -912,13 +916,13 @@
 		font-weight: 800;
 		letter-spacing: 0.14em;
 		text-transform: uppercase;
-		color: var(--primary);
+		color: var(--lamp-glow);
 	}
 
 	.hero-context-card p {
 		margin: 0;
 		line-height: 1.65;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 	}
 
 	.hero-chip-row {
@@ -931,12 +935,12 @@
 		display: inline-flex;
 		align-items: center;
 		border-radius: 999px;
-		border: 1px solid color-mix(in srgb, var(--primary) 14%, transparent);
-		background: color-mix(in srgb, var(--bg-base) 58%, transparent);
+		border: 1px solid color-mix(in srgb, var(--lamp-glow) 14%, transparent);
+		background: color-mix(in srgb, var(--night-deep) 58%, transparent);
 		padding: 0.5rem 0.8rem;
 		font-size: 0.84rem;
 		font-weight: 600;
-		color: var(--text-primary);
+		color: var(--ink-bright);
 	}
 
 	/* ── Waitlist panel ── */
@@ -949,8 +953,8 @@
 		align-self: start;
 		background: linear-gradient(
 			180deg,
-			color-mix(in srgb, var(--bg-surface) 96%, transparent) 0%,
-			color-mix(in srgb, var(--bg-elevated) 88%, transparent) 100%
+			color-mix(in srgb, var(--stone-warm) 96%, transparent) 0%,
+			color-mix(in srgb, var(--stone-warm) 88%, transparent) 100%
 		);
 	}
 
@@ -960,7 +964,7 @@
 		font-weight: 700;
 		letter-spacing: 0.14em;
 		text-transform: uppercase;
-		color: var(--primary);
+		color: var(--lamp-glow);
 	}
 
 	.waitlist-panel h2 {
@@ -968,13 +972,13 @@
 		font-size: 1.5rem;
 		line-height: 1.2;
 		font-weight: 800;
-		color: var(--text-primary);
+		color: var(--ink-bright);
 	}
 
 	.panel-copy {
 		margin: 0 0 1.75rem;
 		line-height: 1.65;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 	}
 
 	.waitlist-form {
@@ -996,29 +1000,29 @@
 	.field-group label {
 		font-size: 0.9rem;
 		font-weight: 600;
-		color: var(--text-primary);
+		color: var(--ink-bright);
 	}
 
 	.form-input {
 		width: 100%;
 		border-radius: 0.75rem;
-		border: 1px solid color-mix(in srgb, var(--text-tertiary) 18%, transparent);
-		background: color-mix(in srgb, var(--bg-elevated) 55%, transparent);
+		border: 1px solid color-mix(in srgb, var(--ink-dim) 18%, transparent);
+		background: color-mix(in srgb, var(--stone-warm) 55%, transparent);
 		padding: 0.8rem 1rem;
 		font-size: 16px;
-		color: var(--text-primary);
+		color: var(--ink-bright);
 		transition:
 			border-color 0.2s ease,
 			box-shadow 0.2s ease;
 	}
 
 	.form-input::placeholder {
-		color: var(--text-tertiary);
+		color: var(--ink-dim);
 	}
 
 	.form-input:focus {
-		border-color: color-mix(in srgb, var(--primary) 65%, white);
-		box-shadow: 0 0 0 0.2rem color-mix(in srgb, var(--primary) 14%, transparent);
+		border-color: color-mix(in srgb, var(--lamp-glow) 65%, white);
+		box-shadow: 0 0 0 0.2rem color-mix(in srgb, var(--lamp-glow) 14%, transparent);
 		outline: none;
 	}
 
@@ -1028,8 +1032,8 @@
 	}
 
 	.form-input option {
-		background: var(--bg-surface);
-		color: var(--text-primary);
+		background: var(--stone-warm);
+		color: var(--ink-bright);
 	}
 
 	.form-textarea {
@@ -1041,7 +1045,7 @@
 		margin: 0;
 		font-size: 0.8rem;
 		line-height: 1.5;
-		color: var(--text-tertiary);
+		color: var(--ink-dim);
 	}
 
 	.form-error {
@@ -1059,7 +1063,7 @@
 		gap: 0.5rem 1.25rem;
 		padding-top: 0.25rem;
 		font-size: 0.8rem;
-		color: var(--text-tertiary);
+		color: var(--ink-dim);
 	}
 
 	/* ── Success ── */
@@ -1080,14 +1084,14 @@
 		margin: 0;
 		font-size: 1.6rem;
 		text-align: center;
-		color: var(--text-primary);
+		color: var(--ink-bright);
 	}
 
 	.success-panel p {
 		margin: 0;
 		text-align: center;
 		line-height: 1.65;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 	}
 
 	.success-actions {
@@ -1103,11 +1107,11 @@
 		min-height: 3.35rem;
 		padding: 0.82rem 1.4rem;
 		border-radius: 999px;
-		border: 1px solid color-mix(in srgb, var(--primary) 18%, transparent);
-		background: color-mix(in srgb, var(--bg-elevated) 76%, transparent);
+		border: 1px solid color-mix(in srgb, var(--lamp-glow) 18%, transparent);
+		background: color-mix(in srgb, var(--stone-warm) 76%, transparent);
 		box-shadow: inset 0 1px 0 color-mix(in srgb, white 18%, transparent);
 		font-weight: 700;
-		color: var(--primary);
+		color: var(--lamp-glow);
 		text-decoration: none;
 		white-space: nowrap;
 		transition:
@@ -1120,9 +1124,9 @@
 
 	.text-link:hover {
 		transform: translateY(-1px);
-		color: color-mix(in srgb, var(--primary) 78%, white);
-		border-color: color-mix(in srgb, var(--primary) 32%, transparent);
-		background: color-mix(in srgb, var(--primary) 8%, var(--bg-elevated));
+		color: color-mix(in srgb, var(--lamp-glow) 78%, white);
+		border-color: color-mix(in srgb, var(--lamp-glow) 32%, transparent);
+		background: color-mix(in srgb, var(--lamp-glow) 8%, var(--stone-warm));
 		box-shadow: var(--shadow-md);
 	}
 
@@ -1148,7 +1152,7 @@
 		line-height: 1.18;
 		font-weight: 800;
 		letter-spacing: -0.02em;
-		color: var(--text-primary);
+		color: var(--ink-bright);
 	}
 
 	.signal-strip p,
@@ -1158,7 +1162,7 @@
 	.final-copy p {
 		margin: 0;
 		line-height: 1.7;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 	}
 
 	.proof-copy p + p {
@@ -1186,8 +1190,8 @@
 		display: grid;
 		gap: 0.25rem;
 		border-radius: 0.875rem;
-		border: 1px solid color-mix(in srgb, var(--text-tertiary) 12%, transparent);
-		background: color-mix(in srgb, var(--bg-elevated) 50%, transparent);
+		border: 1px solid color-mix(in srgb, var(--ink-dim) 12%, transparent);
+		background: color-mix(in srgb, var(--stone-warm) 50%, transparent);
 		padding: 1.125rem 1.25rem;
 		text-decoration: none;
 		transition:
@@ -1198,18 +1202,18 @@
 
 	.signal-link span {
 		font-weight: 700;
-		color: var(--text-primary);
+		color: var(--ink-bright);
 	}
 
 	.signal-link small {
 		font-size: 0.88rem;
 		line-height: 1.5;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 	}
 
 	.signal-link:hover {
 		transform: translateY(-1px);
-		border-color: color-mix(in srgb, var(--primary) 28%, transparent);
+		border-color: color-mix(in srgb, var(--lamp-glow) 28%, transparent);
 		box-shadow: var(--shadow-md);
 	}
 
@@ -1238,11 +1242,11 @@
 		align-content: start;
 		min-width: 0;
 		border-radius: 1rem;
-		border: 1px solid color-mix(in srgb, var(--text-tertiary) 10%, transparent);
+		border: 1px solid color-mix(in srgb, var(--ink-dim) 10%, transparent);
 		background: linear-gradient(
 			135deg,
-			color-mix(in srgb, var(--primary) 7%, transparent) 0%,
-			color-mix(in srgb, var(--bg-surface) 96%, transparent) 100%
+			color-mix(in srgb, var(--lamp-glow) 7%, transparent) 0%,
+			color-mix(in srgb, var(--stone-warm) 96%, transparent) 100%
 		);
 		padding: 1.75rem;
 	}
@@ -1263,8 +1267,8 @@
 		width: 100%;
 		max-width: 10rem;
 		border-radius: 0.875rem;
-		border: 1px solid color-mix(in srgb, var(--primary) 14%, transparent);
-		background: color-mix(in srgb, var(--bg-elevated) 70%, transparent);
+		border: 1px solid color-mix(in srgb, var(--lamp-glow) 14%, transparent);
+		background: color-mix(in srgb, var(--stone-warm) 70%, transparent);
 		box-shadow: var(--shadow-md);
 		object-fit: cover;
 	}
@@ -1274,7 +1278,7 @@
 		font-weight: 700;
 		letter-spacing: 0.1em;
 		text-transform: uppercase;
-		color: var(--primary);
+		color: var(--lamp-glow);
 	}
 
 	.founder-role,
@@ -1286,13 +1290,13 @@
 	.founder-role {
 		font-size: 1rem;
 		font-weight: 700;
-		color: var(--text-primary);
+		color: var(--ink-bright);
 	}
 
 	.founder-summary {
 		font-size: 0.94rem;
 		line-height: 1.6;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 	}
 
 	.founder-body {
@@ -1310,8 +1314,8 @@
 	.stat-card,
 	.content-card {
 		border-radius: 1rem;
-		border: 1px solid color-mix(in srgb, var(--text-tertiary) 10%, transparent);
-		background: color-mix(in srgb, var(--bg-elevated) 48%, transparent);
+		border: 1px solid color-mix(in srgb, var(--ink-dim) 10%, transparent);
+		background: color-mix(in srgb, var(--stone-warm) 48%, transparent);
 		padding: 1.5rem;
 		transition:
 			transform 0.15s ease,
@@ -1322,7 +1326,7 @@
 	.stat-card:hover,
 	.content-card:hover {
 		transform: translateY(-2px);
-		border-color: color-mix(in srgb, var(--primary) 22%, transparent);
+		border-color: color-mix(in srgb, var(--lamp-glow) 22%, transparent);
 		box-shadow: var(--shadow-md);
 	}
 
@@ -1331,14 +1335,14 @@
 		font-size: 2.5rem;
 		font-weight: 800;
 		line-height: 1;
-		color: var(--text-primary);
+		color: var(--ink-bright);
 	}
 
 	.stat-label {
 		margin-bottom: 0.5rem;
 		font-size: 0.92rem;
 		font-weight: 700;
-		color: var(--primary);
+		color: var(--lamp-glow);
 	}
 
 	.stat-card p,
@@ -1346,7 +1350,7 @@
 		margin: 0;
 		font-size: 0.92rem;
 		line-height: 1.65;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 	}
 
 	.section-heading {
@@ -1366,8 +1370,8 @@
 	.focus-grid .content-card:nth-child(2n) {
 		background: linear-gradient(
 			145deg,
-			color-mix(in srgb, var(--primary) 4%, transparent) 0%,
-			color-mix(in srgb, var(--bg-elevated) 52%, transparent) 100%
+			color-mix(in srgb, var(--lamp-glow) 4%, transparent) 0%,
+			color-mix(in srgb, var(--stone-warm) 52%, transparent) 100%
 		);
 	}
 
@@ -1376,7 +1380,7 @@
 		font-size: 1.08rem;
 		line-height: 1.3;
 		font-weight: 700;
-		color: var(--text-primary);
+		color: var(--ink-bright);
 	}
 
 	.numbered-card,
@@ -1391,7 +1395,7 @@
 		font-weight: 800;
 		letter-spacing: 0.14em;
 		text-transform: uppercase;
-		color: var(--primary);
+		color: var(--lamp-glow);
 		opacity: 0.75;
 	}
 
@@ -1408,10 +1412,10 @@
 		background:
 			radial-gradient(
 				circle at top right,
-				color-mix(in srgb, var(--primary) 10%, transparent) 0%,
+				color-mix(in srgb, var(--lamp-glow) 10%, transparent) 0%,
 				transparent 40%
 			),
-			color-mix(in srgb, var(--bg-surface) 88%, transparent);
+			color-mix(in srgb, var(--stone-warm) 88%, transparent);
 	}
 
 	.final-actions {
@@ -1648,7 +1652,7 @@
 	}
 
 	:global(*:focus-visible) {
-		outline: 2px solid var(--primary-dark);
+		outline: 2px solid var(--lamp-glow);
 		outline-offset: 2px;
 	}
 </style>

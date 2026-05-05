@@ -118,10 +118,10 @@
 <style lang="scss">
 	.sidebar {
 		/* Card base styles - Solo Leveling dark theme */
-		background-color: var(--bg-deep);
+		background-color: var(--night-deep);
 		border-radius: 12px;
 		box-shadow: 0 0 20px rgba(45, 212, 191, 0.15);
-		border: 1px solid color-mix(in srgb, var(--text-tertiary) 30%, transparent);
+		border: 1px solid color-mix(in srgb, var(--ink-dim) 30%, transparent);
 
 		position: fixed;
 		top: 50%;
@@ -165,7 +165,7 @@
 	.sidebar-extra {
 		margin-top: 0.9rem;
 		padding-top: 0.9rem;
-		border-top: 1px solid color-mix(in srgb, var(--text-tertiary) 30%, transparent);
+		border-top: 1px solid color-mix(in srgb, var(--ink-dim) 30%, transparent);
 	}
 
 	.sidebar-extra:empty {
@@ -177,8 +177,8 @@
 		padding: 0 0 0.35rem 0;
 		font-size: 1rem;
 		font-weight: 600;
-		color: var(--text-primary);
-		border-bottom: 1px solid color-mix(in srgb, var(--text-tertiary) 30%, transparent);
+		color: var(--ink-bright);
+		border-bottom: 1px solid color-mix(in srgb, var(--ink-dim) 30%, transparent);
 	}
 
 	.sidebar-list {
@@ -212,14 +212,14 @@
 		box-sizing: border-box;
 		font-size: 0.875rem;
 		line-height: 1.4;
-		color: var(--accent-light);
+		color: var(--lamp-glow);
 		text-decoration: none;
 		border-radius: 4px;
 		transition: all 0.2s ease;
 		text-transform: capitalize;
 
 		&:hover {
-			color: var(--primary-lightest);
+			color: var(--lamp-glow);
 			background-color: rgba(45, 212, 191, 0.15);
 			text-decoration: none;
 		}

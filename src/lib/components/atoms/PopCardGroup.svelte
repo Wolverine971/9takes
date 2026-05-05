@@ -81,7 +81,7 @@
 		overflow: hidden;
 		border: 2px solid var(--primary, #2d1b69);
 		border-radius: var(--border-radius, 0.75rem);
-		background: linear-gradient(135deg, var(--bg-base), var(--bg-deep));
+		background: linear-gradient(135deg, var(--night-deep), var(--night-deep));
 	}
 
 	.pop-group__people {
@@ -161,8 +161,8 @@
 		font-family: 'SF Mono', 'Fira Code', 'Consolas', monospace;
 		font-size: clamp(0.5rem, 1.5vw, 0.65rem);
 		letter-spacing: 0.1em;
-		color: var(--accent-light);
-		text-shadow: 0 0 6px var(--primary-glow);
+		color: var(--lamp-glow);
+		// Phase 2 (2026-05-04): brand-glow text-shadow removed per design-system.md §5.
 	}
 
 	// Responsive

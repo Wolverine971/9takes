@@ -282,7 +282,7 @@
 		inset: 0;
 		display: flex;
 		flex-direction: column;
-		background: var(--bg-deep);
+		background: var(--night-deep);
 		z-index: 100;
 	}
 
@@ -291,8 +291,8 @@
 		align-items: center;
 		justify-content: space-between;
 		padding: 16px 24px;
-		border-bottom: 1px solid var(--bg-elevated);
-		background: var(--bg-surface);
+		border-bottom: 1px solid var(--stone-warm);
+		background: var(--stone-warm);
 		flex-shrink: 0;
 		position: sticky;
 		top: 0;
@@ -322,18 +322,18 @@
 		justify-content: center;
 		width: 42px;
 		height: 42px;
-		border: 1px solid var(--bg-highlight);
-		background: var(--bg-elevated);
+		border: 1px solid var(--stone-warm);
+		background: var(--stone-warm);
 		border-radius: 10px;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 		cursor: pointer;
 		transition: all 0.2s ease;
 		flex-shrink: 0;
 
 		&:hover {
 			background: var(--primary-subtle);
-			border-color: var(--primary);
-			color: var(--primary-light);
+			border-color: var(--lamp-glow);
+			color: var(--lamp-glow);
 			box-shadow: var(--glow-sm);
 		}
 
@@ -354,7 +354,7 @@
 		gap: 8px;
 		font-size: 20px;
 		font-weight: 600;
-		color: var(--text-primary);
+		color: var(--ink-bright);
 		margin: 0;
 		white-space: nowrap;
 		overflow: hidden;
@@ -371,7 +371,7 @@
 		align-items: center;
 		gap: 6px;
 		font-size: 13px;
-		color: var(--text-muted);
+		color: var(--ink-dim);
 		margin-top: 4px;
 
 		@media (max-width: 768px) {
@@ -442,13 +442,13 @@
 	}
 
 	.btn-primary {
-		background: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%);
+		background: linear-gradient(135deg, var(--lamp-glow) 0%, var(--lamp-glow) 100%);
 		color: white;
-		border: 1px solid var(--primary);
+		border: 1px solid var(--lamp-glow);
 		box-shadow: var(--glow-sm);
 
 		&:hover:not(:disabled) {
-			background: linear-gradient(135deg, var(--primary-light) 0%, var(--primary) 100%);
+			background: linear-gradient(135deg, var(--lamp-glow) 0%, var(--lamp-glow) 100%);
 			box-shadow: var(--glow-md);
 			transform: translateY(-1px);
 		}
@@ -459,12 +459,12 @@
 	}
 
 	.btn-secondary {
-		background: var(--bg-elevated);
-		color: var(--text-primary);
-		border: 1px solid var(--bg-highlight);
+		background: var(--stone-warm);
+		color: var(--ink-bright);
+		border: 1px solid var(--stone-warm);
 
 		&:hover:not(:disabled) {
-			background: var(--bg-highlight);
+			background: var(--stone-warm);
 			border-color: var(--primary-glow);
 			box-shadow: var(--glow-sm);
 		}
@@ -483,8 +483,8 @@
 
 	.mobile-tabs {
 		display: none;
-		border-bottom: 1px solid var(--bg-elevated);
-		background: var(--bg-surface);
+		border-bottom: 1px solid var(--stone-warm);
+		background: var(--stone-warm);
 
 		@media (max-width: 768px) {
 			display: flex;
@@ -498,21 +498,21 @@
 		background: none;
 		font-size: 15px;
 		font-weight: 600;
-		color: var(--text-muted);
+		color: var(--ink-dim);
 		cursor: pointer;
 		border-bottom: 3px solid transparent;
 		transition: all 0.2s ease;
 		min-height: 50px;
 
 		&:hover {
-			color: var(--text-secondary);
-			background: var(--bg-elevated);
+			color: var(--ink-mid);
+			background: var(--stone-warm);
 		}
 
 		&.active {
-			color: var(--primary-light);
-			border-bottom-color: var(--primary);
-			background: var(--bg-elevated);
+			color: var(--lamp-glow);
+			border-bottom-color: var(--lamp-glow);
+			background: var(--stone-warm);
 		}
 	}
 
@@ -553,8 +553,8 @@
 		width: 380px;
 		min-height: 0;
 		overflow: hidden;
-		border-left: 1px solid var(--bg-elevated);
-		background: var(--bg-surface);
+		border-left: 1px solid var(--stone-warm);
+		background: var(--stone-warm);
 
 		@media (max-width: 1200px) {
 			flex: 0 0 340px;
@@ -586,8 +586,8 @@
 	}
 
 	.warning-dialog {
-		background: var(--bg-surface);
-		border: 1px solid var(--bg-highlight);
+		background: var(--stone-warm);
+		border: 1px solid var(--stone-warm);
 		border-radius: 16px;
 		padding: 28px;
 		max-width: 420px;
@@ -600,13 +600,13 @@
 	.warning-title {
 		font-size: 20px;
 		font-weight: 600;
-		color: var(--text-primary);
+		color: var(--ink-bright);
 		margin: 0 0 12px;
 	}
 
 	.warning-message {
 		font-size: 15px;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 		margin: 0 0 24px;
 		line-height: 1.5;
 	}

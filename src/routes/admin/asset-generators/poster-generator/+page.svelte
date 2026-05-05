@@ -82,7 +82,7 @@
 	// Style settings
 	let activeBackground = $state('greek_pantheon');
 	let overlayOpacity = $state(60);
-	let overlayColor = $state('var(--bg-surface)');
+	let overlayColor = $state('var(--stone-warm)');
 	let questionFontSize = $state<PosterQuestionFontSize>('auto');
 	let questionColor = $state('text-white');
 	let showLogo = $state(true);
@@ -527,7 +527,7 @@
 								class="color-btn"
 								class:active={questionColor === 'text-primary-200'}
 								onclick={() => (questionColor = 'text-primary-200')}
-								style="background: var(--accent-light);"
+								style="background: var(--lamp-glow);"
 								aria-label="Purple text"
 							></button>
 						</div>
@@ -760,7 +760,7 @@
 		h1 {
 			font-size: 1.5rem;
 			font-weight: 700;
-			background: linear-gradient(135deg, var(--primary-light), var(--accent));
+			background: linear-gradient(135deg, var(--lamp-glow), var(--lamp-glow));
 			-webkit-background-clip: text;
 			-webkit-text-fill-color: transparent;
 			background-clip: text;
@@ -769,7 +769,7 @@
 
 		p {
 			font-size: 0.875rem;
-			color: var(--text-secondary);
+			color: var(--ink-mid);
 			margin: 0.25rem 0 0;
 		}
 	}
@@ -802,13 +802,13 @@
 	}
 
 	.btn-primary {
-		background: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%);
+		background: linear-gradient(135deg, var(--lamp-glow) 0%, var(--lamp-glow) 100%);
 		color: var(--text-on-primary);
-		border: 1px solid var(--primary);
+		border: 1px solid var(--lamp-glow);
 		box-shadow: var(--glow-sm);
 
 		&:hover:not(:disabled) {
-			background: linear-gradient(135deg, var(--primary-light) 0%, var(--primary) 100%);
+			background: linear-gradient(135deg, var(--lamp-glow) 0%, var(--lamp-glow) 100%);
 			box-shadow: var(--glow-md);
 			transform: translateY(-1px);
 		}
@@ -816,8 +816,8 @@
 
 	.btn-secondary {
 		background: transparent;
-		color: var(--primary-light);
-		border: 1px solid var(--primary);
+		color: var(--lamp-glow);
+		border: 1px solid var(--lamp-glow);
 
 		&:hover:not(:disabled) {
 			background: var(--primary-subtle);
@@ -827,7 +827,7 @@
 
 	.btn-ghost {
 		background: transparent;
-		color: var(--primary-light);
+		color: var(--lamp-glow);
 		padding: 0.5rem;
 
 		&:hover {
@@ -851,16 +851,16 @@
 	}
 
 	.controls-panel {
-		background: var(--bg-surface);
+		background: var(--stone-warm);
 		border-radius: 0.75rem;
-		border: 1px solid var(--bg-elevated);
+		border: 1px solid var(--stone-warm);
 		box-shadow: var(--shadow-md);
 		overflow: hidden;
 	}
 
 	.tabs {
 		display: flex;
-		border-bottom: 1px solid var(--bg-highlight);
+		border-bottom: 1px solid var(--stone-warm);
 		overflow-x: auto;
 	}
 
@@ -873,7 +873,7 @@
 		padding: 0.875rem 0.5rem;
 		font-size: 0.8125rem;
 		font-weight: 500;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 		background: none;
 		border: none;
 		cursor: pointer;
@@ -882,13 +882,13 @@
 		white-space: nowrap;
 
 		&:hover {
-			color: var(--text-primary);
-			background: var(--bg-elevated);
+			color: var(--ink-bright);
+			background: var(--stone-warm);
 		}
 
 		&.active {
-			color: var(--primary-light);
-			border-bottom-color: var(--primary);
+			color: var(--lamp-glow);
+			border-bottom-color: var(--lamp-glow);
 			box-shadow: 0 0 10px var(--primary-glow);
 		}
 
@@ -913,41 +913,41 @@
 		display: block;
 		font-size: 0.8125rem;
 		font-weight: 600;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 		margin-bottom: 0.5rem;
 	}
 
 	.hint {
 		font-size: 0.75rem;
-		color: var(--text-tertiary);
+		color: var(--ink-dim);
 		margin: 0;
 	}
 
 	.field-note {
 		margin: 0.5rem 0 0;
 		font-size: 0.75rem;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 	}
 
 	.input {
 		width: 100%;
 		padding: 0.625rem 0.75rem;
-		border: 1px solid var(--bg-highlight);
+		border: 1px solid var(--stone-warm);
 		border-radius: 0.5rem;
 		font-size: 0.875rem;
-		color: var(--text-primary);
-		background: var(--bg-elevated);
+		color: var(--ink-bright);
+		background: var(--stone-warm);
 		transition:
 			border-color 0.2s,
 			box-shadow 0.2s;
 
 		&::placeholder {
-			color: var(--text-muted);
+			color: var(--ink-dim);
 		}
 
 		&:focus {
 			outline: none;
-			border-color: var(--primary);
+			border-color: var(--lamp-glow);
 			box-shadow: var(--glow-sm);
 		}
 	}
@@ -961,7 +961,7 @@
 		margin-top: 0.75rem;
 		max-height: 200px;
 		overflow-y: auto;
-		border: 1px solid var(--bg-highlight);
+		border: 1px solid var(--stone-warm);
 		border-radius: 0.5rem;
 	}
 
@@ -970,10 +970,10 @@
 		padding: 0.625rem 0.75rem;
 		text-align: left;
 		font-size: 0.8125rem;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 		background: none;
 		border: none;
-		border-bottom: 1px solid var(--bg-highlight);
+		border-bottom: 1px solid var(--stone-warm);
 		cursor: pointer;
 		transition: background 0.15s;
 
@@ -982,7 +982,7 @@
 		}
 
 		&:hover {
-			background: var(--bg-elevated);
+			background: var(--stone-warm);
 		}
 	}
 
@@ -1006,7 +1006,7 @@
 		}
 
 		&.active {
-			border-color: var(--primary);
+			border-color: var(--lamp-glow);
 		}
 	}
 
@@ -1016,12 +1016,12 @@
 		gap: 0.625rem;
 		cursor: pointer;
 		font-size: 0.875rem;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 
 		input[type='checkbox'] {
 			width: 1rem;
 			height: 1rem;
-			accent-color: var(--primary);
+			accent-color: var(--lamp-glow);
 		}
 	}
 
@@ -1036,19 +1036,19 @@
 		flex-direction: column;
 		align-items: center;
 		padding: 0.5rem;
-		border: 2px solid var(--bg-highlight);
+		border: 2px solid var(--stone-warm);
 		border-radius: 0.5rem;
-		background: var(--bg-elevated);
+		background: var(--stone-warm);
 		cursor: pointer;
 		transition: all 0.2s;
 
 		&:hover {
-			border-color: var(--primary-lighter);
+			border-color: var(--lamp-glow);
 			box-shadow: var(--glow-sm);
 		}
 
 		&.active {
-			border-color: var(--primary);
+			border-color: var(--lamp-glow);
 			background: var(--primary-subtle);
 			box-shadow: var(--glow-sm);
 		}
@@ -1063,7 +1063,7 @@
 		span {
 			margin-top: 0.375rem;
 			font-size: 0.6875rem;
-			color: var(--text-tertiary);
+			color: var(--ink-dim);
 		}
 	}
 
@@ -1071,7 +1071,7 @@
 		width: 100%;
 		height: 0.375rem;
 		border-radius: 0.25rem;
-		background: var(--bg-highlight);
+		background: var(--stone-warm);
 		appearance: none;
 		cursor: pointer;
 
@@ -1080,7 +1080,7 @@
 			width: 1rem;
 			height: 1rem;
 			border-radius: 50%;
-			background: var(--primary);
+			background: var(--lamp-glow);
 			cursor: pointer;
 		}
 	}
@@ -1094,14 +1094,14 @@
 	.color-picker {
 		width: 3rem;
 		height: 2rem;
-		border: 1px solid var(--bg-highlight);
+		border: 1px solid var(--stone-warm);
 		border-radius: 0.375rem;
 		cursor: pointer;
 	}
 
 	.color-value {
 		font-size: 0.8125rem;
-		color: var(--text-tertiary);
+		color: var(--ink-dim);
 		font-family: monospace;
 	}
 
@@ -1117,15 +1117,15 @@
 		align-items: center;
 		gap: 0.875rem;
 		padding: 1rem;
-		border: 1px solid var(--bg-elevated);
+		border: 1px solid var(--stone-warm);
 		border-radius: 0.625rem;
-		background: var(--bg-surface);
+		background: var(--stone-warm);
 		cursor: pointer;
 		text-align: left;
 		transition: all 0.2s;
 
 		&:hover:not(:disabled) {
-			border-color: var(--primary);
+			border-color: var(--lamp-glow);
 			background: var(--primary-subtle);
 			box-shadow: var(--glow-sm);
 			transform: translateY(-2px);
@@ -1137,7 +1137,7 @@
 		}
 
 		svg {
-			color: var(--primary-light);
+			color: var(--lamp-glow);
 			flex-shrink: 0;
 		}
 	}
@@ -1145,24 +1145,24 @@
 	.export-btn-title {
 		font-size: 0.875rem;
 		font-weight: 600;
-		color: var(--text-primary);
+		color: var(--ink-bright);
 		display: block;
 	}
 
 	.export-btn-desc {
 		font-size: 0.75rem;
-		color: var(--text-tertiary);
+		color: var(--ink-dim);
 	}
 
 	.tips {
 		padding: 1rem;
-		background: var(--bg-elevated);
+		background: var(--stone-warm);
 		border-radius: 0.5rem;
 
 		h4 {
 			font-size: 0.8125rem;
 			font-weight: 600;
-			color: var(--text-secondary);
+			color: var(--ink-mid);
 			margin: 0 0 0.5rem;
 		}
 
@@ -1173,15 +1173,15 @@
 
 		li {
 			font-size: 0.75rem;
-			color: var(--text-tertiary);
+			color: var(--ink-dim);
 			margin-bottom: 0.25rem;
 		}
 	}
 
 	.preview-panel {
-		background: var(--bg-surface);
+		background: var(--stone-warm);
 		border-radius: 0.75rem;
-		border: 1px solid var(--bg-elevated);
+		border: 1px solid var(--stone-warm);
 		box-shadow: var(--shadow-md);
 		padding: 1rem;
 	}
@@ -1196,7 +1196,7 @@
 	.preview-label {
 		font-size: 0.875rem;
 		font-weight: 600;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 	}
 
 	.format-badge {
@@ -1204,7 +1204,7 @@
 		padding: 0.25rem 0.625rem;
 		background: rgba(45, 212, 191, 0.15);
 		border: 1px solid rgba(45, 212, 191, 0.3);
-		color: var(--primary-lighter);
+		color: var(--lamp-glow);
 		border-radius: 1rem;
 	}
 
@@ -1212,7 +1212,7 @@
 		display: flex;
 		justify-content: center;
 		align-items: center;
-		background: var(--bg-base);
+		background: var(--night-deep);
 		border-radius: 0.5rem;
 		padding: 1.5rem;
 		min-height: 300px;
@@ -1310,7 +1310,7 @@
 	.qr-label {
 		font-size: 0.6875rem;
 		font-weight: 600;
-		color: var(--primary);
+		color: var(--lamp-glow);
 		margin-bottom: 0.375rem;
 	}
 

@@ -150,7 +150,7 @@
 			<div class="space-y-4 py-4">
 				{#each Array(3) as _, i}
 					<div
-						class="bg-[var(--bg-surface)]/50 rounded-xl p-5 backdrop-blur-sm"
+						class="bg-[var(--stone-warm)]/50 rounded-xl p-5 backdrop-blur-sm"
 						in:fade={{ duration: 300, delay: i * 50 }}
 					>
 						<div class="flex gap-4">
@@ -171,12 +171,12 @@
 				{#if loading && !initialLoading}
 					<div class="flex justify-center py-6">
 						<div
-							class="bg-[var(--bg-surface)]/80 flex items-center gap-3 rounded-full border border-[var(--bg-elevated)] px-4 py-2 shadow-sm backdrop-blur-sm"
+							class="bg-[var(--stone-warm)]/80 flex items-center gap-3 rounded-full border border-[var(--stone-warm)] px-4 py-2 shadow-sm backdrop-blur-sm"
 						>
 							<div
-								class="border-[var(--primary)]/30 h-4 w-4 animate-spin rounded-full border-2 border-t-[var(--primary)]"
+								class="border-[var(--lamp-glow)]/30 h-4 w-4 animate-spin rounded-full border-2 border-t-[var(--lamp-glow)]"
 							></div>
-							<span class="text-sm font-medium text-[var(--text-secondary)]">Loading more...</span>
+							<span class="text-sm font-medium text-[var(--ink-mid)]">Loading more...</span>
 						</div>
 					</div>
 				{/if}
@@ -185,10 +185,10 @@
 	{:else if userHasAnswered && !comments.length}
 		<div class="flex flex-col items-center justify-center py-12">
 			<div
-				class="mb-4 flex h-14 w-14 items-center justify-center rounded-xl bg-[var(--bg-elevated)]"
+				class="mb-4 flex h-14 w-14 items-center justify-center rounded-xl bg-[var(--stone-warm)]"
 			>
 				<svg
-					class="h-7 w-7 text-[var(--text-secondary)]"
+					class="h-7 w-7 text-[var(--ink-mid)]"
 					fill="none"
 					stroke="currentColor"
 					viewBox="0 0 24 24"
@@ -201,8 +201,8 @@
 					/>
 				</svg>
 			</div>
-			<p class="text-center text-lg font-medium text-[var(--text-primary)]">No comments yet</p>
-			<p class="mt-1 text-center text-sm text-[var(--text-secondary)]">
+			<p class="text-center text-lg font-medium text-[var(--ink-bright)]">No comments yet</p>
+			<p class="mt-1 text-center text-sm text-[var(--ink-mid)]">
 				Be the first to share your thoughts
 			</p>
 		</div>

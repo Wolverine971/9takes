@@ -158,8 +158,8 @@
 		z-index: 10;
 		margin-top: 4rem;
 		width: 100%;
-		border-top: 1px solid var(--border-color);
-		background: var(--bg-deep);
+		border-top: 1px solid var(--stone-edge);
+		background: var(--night-deep);
 	}
 
 	.footer-container {
@@ -195,13 +195,13 @@
 	.brand-name {
 		font-size: 1.25rem;
 		font-weight: 700;
-		color: var(--text-primary);
+		color: var(--ink-bright);
 	}
 
 	.brand-description {
 		font-size: 0.875rem;
 		line-height: 1.6;
-		color: var(--text-tertiary);
+		color: var(--ink-dim);
 		margin-bottom: 1.5rem;
 	}
 
@@ -216,8 +216,8 @@
 		justify-content: center;
 		width: 2.5rem;
 		height: 2.5rem;
-		background: var(--bg-surface);
-		border: 1px solid var(--border-color);
+		background: var(--stone-warm);
+		border: 1px solid var(--stone-edge);
 		border-radius: 0.5rem;
 		transition: all 0.2s ease;
 
@@ -229,7 +229,7 @@
 
 		&:hover {
 			background: var(--primary-subtle);
-			border-color: var(--primary);
+			border-color: var(--lamp-glow);
 			transform: translateY(-2px);
 			box-shadow: 0 0 15px var(--primary-glow);
 
@@ -256,7 +256,7 @@
 			font-weight: 600;
 			text-transform: uppercase;
 			letter-spacing: 0.1em;
-			color: var(--text-secondary);
+			color: var(--ink-mid);
 			margin-bottom: 1rem;
 		}
 
@@ -284,13 +284,13 @@
 			min-height: 2.75rem;
 			padding: 0.5rem 0;
 			font-size: 0.875rem;
-			color: var(--text-tertiary);
+			color: var(--ink-dim);
 			text-decoration: none;
 			transition: color 0.2s ease;
 
 			&:hover,
 			&.active {
-				color: var(--primary-lighter);
+				color: var(--lamp-glow);
 			}
 
 			&::after {
@@ -302,7 +302,7 @@
 	.connect-section {
 		p {
 			font-size: 0.8125rem;
-			color: var(--text-tertiary);
+			color: var(--ink-dim);
 			line-height: 1.5;
 			margin-bottom: 1rem;
 		}
@@ -321,7 +321,7 @@
 		gap: 0.25rem;
 		font-size: 0.875rem;
 		font-weight: 500;
-		color: var(--primary);
+		color: var(--lamp-glow);
 		text-decoration: none;
 		transition: color 0.2s ease;
 
@@ -331,7 +331,7 @@
 		}
 
 		&:hover {
-			color: var(--primary-lighter);
+			color: var(--lamp-glow);
 		}
 
 		&::after {
@@ -343,12 +343,12 @@
 	.footer-bottom {
 		margin-top: 2.5rem;
 		padding-top: 1.5rem;
-		border-top: 1px solid var(--border-color);
+		border-top: 1px solid var(--stone-edge);
 		text-align: center;
 
 		p {
 			font-size: 0.8125rem;
-			color: var(--text-muted);
+			color: var(--ink-dim);
 			margin: 0;
 		}
 	}
@@ -504,7 +504,7 @@
 
 	/* Focus states */
 	a:focus-visible {
-		outline: 2px solid var(--primary-lighter);
+		outline: 2px solid var(--lamp-glow);
 		outline-offset: 2px;
 	}
 </style>

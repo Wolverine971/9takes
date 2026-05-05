@@ -46,7 +46,13 @@ type-2-empty-amphora
     import InsightBox from "$lib/components/blog/callouts/InsightBox.svelte";
     import VisualMetaphor from "$lib/components/blog/callouts/VisualMetaphor.svelte";
     import QuickAnswer from "$lib/components/blog/callouts/QuickAnswer.svelte";
+    import EnneagramTypeDossier from "$lib/components/blog/EnneagramTypeDossier.svelte";
+    import { enneagramTypeProfiles } from "$lib/data/enneagramTypeProfiles";
+
+    const dossier = enneagramTypeProfiles[2];
 </script>
+
+<EnneagramTypeDossier {...dossier} />
 
 <QuickAnswer question="Why can't Type 2s say no?">
 Type 2s learned in childhood that love is earned through giving. They absorbed the message that having needs makes them a burden while meeting others' needs earns connection. Saying no triggers a deep fear that they'll be unlovable without their usefulness. They can't see their own needs clearly: they have sophisticated radar for others but are genuinely blind to their own signals. It's not selflessness; it's a survival strategy for securing love.
@@ -277,6 +283,24 @@ All that suppressed need has to go somewhere. For many Twos, it goes into the bo
 **Emotional numbness**. Eventually, the body protects itself by shutting down feeling altogether. You go through the motions of helping but don't feel the warmth anymore. This is a red flag, not a character flaw.
 
 Read more about <a href="/enneagram-corner/enneagram-stress-number">other types under stress</a>
+
+</section>
+
+<section class="section-content">
+
+## How 2s Handle Conflict: The Positive Outlook Approach
+
+Type 2s belong to the **Positive Outlook** Harmonic group (alongside 7s and 9s) — the types who default to reframing, redirecting, or minimizing problems instead of facing them head-on.
+
+A roommate is going through a rough month. The Two cooks meals, drops off little gifts, sends check-in texts, picks up extra chores. Three weeks in, the Two crashes — exhausted, resentful, blindsided that the roommate hasn't asked how _they're_ doing. Asked what they actually needed, the Two struggles to answer.
+
+That's the Positive Outlook move: stay focused on the positive (their goodness, their helpfulness, the relationship), repress the negative (their own exhaustion, resentment, unmet needs). The Two genuinely believes they're being selfless. The body keeps a much more accurate ledger.
+
+**The blind spot**: Calling denial of one's own needs "selflessness." The repressed need doesn't disappear — it returns as resentment, burnout, or a sudden Eight-line outburst that surprises everyone, especially the Two.
+
+**The shift**: Ask yourself once a day: "What would I want right now if I weren't being good?" Write the answer down. The first one is usually surprising — and it's the one your nervous system has been trying to tell you all week.
+
+For the full framework, see [The Enneagram Harmonic Approaches](/enneagram-corner/enneagram-harmonic-approaches).
 
 </section>
 

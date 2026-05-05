@@ -2771,11 +2771,11 @@
 	}
 
 	.analytics-tab {
-		border: 1px solid var(--bg-elevated);
+		border: 1px solid var(--stone-warm);
 		border-radius: 999px;
 		padding: 8px 14px;
-		background: var(--bg-surface);
-		color: var(--text-secondary);
+		background: var(--stone-warm);
+		color: var(--ink-mid);
 		font-weight: 600;
 		cursor: pointer;
 	}
@@ -2790,12 +2790,12 @@
 		margin: 0;
 		font-size: 1.6rem;
 		font-weight: 700;
-		color: var(--text-primary);
+		color: var(--ink-bright);
 	}
 
 	.page-subtitle {
 		margin: 6px 0 0;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 	}
 
 	.filter-card,
@@ -2803,8 +2803,8 @@
 	.table-card,
 	.insight-card,
 	.list-card {
-		background: var(--bg-surface);
-		border: 1px solid var(--bg-elevated);
+		background: var(--stone-warm);
+		border: 1px solid var(--stone-warm);
 		border-radius: 12px;
 		padding: 14px;
 	}
@@ -2827,16 +2827,16 @@
 
 	.field span {
 		font-size: 0.8rem;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 	}
 
 	.field input,
 	.field select {
-		background: var(--bg-deep);
-		border: 1px solid var(--bg-elevated);
+		background: var(--night-deep);
+		border: 1px solid var(--stone-warm);
 		border-radius: 8px;
 		padding: 8px 10px;
-		color: var(--text-primary);
+		color: var(--ink-bright);
 	}
 
 	.filter-actions {
@@ -2846,7 +2846,7 @@
 	}
 
 	.btn {
-		border: 1px solid var(--bg-elevated);
+		border: 1px solid var(--stone-warm);
 		border-radius: 8px;
 		padding: 8px 12px;
 		font-weight: 600;
@@ -2859,14 +2859,14 @@
 	}
 
 	.btn-primary {
-		background: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%);
+		background: linear-gradient(135deg, var(--lamp-glow) 0%, var(--lamp-glow) 100%);
 		color: #fff;
-		border-color: var(--primary);
+		border-color: var(--lamp-glow);
 	}
 
 	.btn-secondary {
-		background: var(--bg-deep);
-		color: var(--text-primary);
+		background: var(--night-deep);
+		color: var(--ink-bright);
 	}
 
 	.metrics-grid {
@@ -2896,14 +2896,14 @@
 
 	.insight-header p {
 		margin: 4px 0 0;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 		font-size: 0.85rem;
 	}
 
 	.trend-hint {
 		margin: 6px 0 0;
 		font-size: 0.76rem;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 		opacity: 0.85;
 	}
 
@@ -2918,10 +2918,10 @@
 
 	.empty-panel {
 		padding: 14px;
-		border: 1px dashed var(--bg-elevated);
+		border: 1px dashed var(--stone-warm);
 		border-radius: 10px;
 		text-align: center;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 		font-size: 0.9rem;
 	}
 
@@ -2951,9 +2951,9 @@
 		grid-template-columns: auto 1fr auto;
 		gap: 8px;
 		align-items: center;
-		background: var(--bg-deep);
-		border: 1px solid var(--bg-elevated);
-		color: var(--text-primary);
+		background: var(--night-deep);
+		border: 1px solid var(--stone-warm);
+		color: var(--ink-bright);
 		padding: 9px 10px;
 		border-radius: 9px;
 		cursor: pointer;
@@ -2961,7 +2961,7 @@
 	}
 
 	.path-pill:hover {
-		border-color: var(--bg-highlight);
+		border-color: var(--stone-warm);
 	}
 
 	.path-pill.active {
@@ -2972,7 +2972,7 @@
 	.path-rank {
 		font-size: 0.75rem;
 		font-weight: 700;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 	}
 
 	.path-text {
@@ -2984,15 +2984,15 @@
 
 	.path-visits {
 		font-size: 0.74rem;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 		white-space: nowrap;
 	}
 
 	.trend-panel {
-		border: 1px solid var(--bg-elevated);
+		border: 1px solid var(--stone-warm);
 		border-radius: 10px;
 		padding: 8px;
-		background: var(--bg-deep);
+		background: var(--night-deep);
 	}
 
 	.trend-meta {
@@ -3000,7 +3000,7 @@
 		align-items: center;
 		gap: 10px;
 		font-size: 0.78rem;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 		padding: 6px 10px 8px;
 		flex-wrap: wrap;
 	}
@@ -3027,7 +3027,7 @@
 	.list-header p {
 		margin: 0;
 		font-size: 0.75rem;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 		white-space: nowrap;
 	}
 
@@ -3042,12 +3042,12 @@
 
 	.rank-item-button {
 		width: 100%;
-		border: 1px solid var(--bg-elevated);
-		background: var(--bg-deep);
+		border: 1px solid var(--stone-warm);
+		background: var(--night-deep);
 		color: inherit;
 		text-align: left;
 		cursor: pointer;
-		background: var(--bg-deep);
+		background: var(--night-deep);
 		border-radius: 9px;
 		padding: 9px;
 		display: flex;
@@ -3056,7 +3056,7 @@
 	}
 
 	.rank-item-button:hover {
-		border-color: var(--bg-highlight);
+		border-color: var(--stone-warm);
 	}
 
 	.rank-item-button.active {
@@ -3079,14 +3079,14 @@
 		height: 24px;
 		border-radius: 999px;
 		background: rgba(148, 163, 184, 0.2);
-		color: var(--text-primary);
+		color: var(--ink-bright);
 		font-size: 0.75rem;
 		font-weight: 700;
 	}
 
 	.rank-path {
 		font-size: 0.8rem;
-		color: var(--text-primary);
+		color: var(--ink-bright);
 		overflow: hidden;
 		text-overflow: ellipsis;
 		white-space: nowrap;
@@ -3094,7 +3094,7 @@
 
 	.rank-value {
 		font-size: 0.74rem;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 		white-space: nowrap;
 	}
 
@@ -3124,7 +3124,7 @@
 
 	.rank-meta {
 		font-size: 0.73rem;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 	}
 
 	.timing-overview,
@@ -3136,8 +3136,8 @@
 	}
 
 	.timing-stat {
-		border: 1px solid var(--bg-elevated);
-		background: var(--bg-deep);
+		border: 1px solid var(--stone-warm);
+		background: var(--night-deep);
 		border-radius: 8px;
 		padding: 10px;
 		display: flex;
@@ -3149,13 +3149,13 @@
 	.timing-stat span,
 	.release-detail-grid span {
 		font-size: 0.74rem;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 	}
 
 	.timing-stat strong,
 	.release-detail-grid strong {
 		font-size: 1rem;
-		color: var(--text-primary);
+		color: var(--ink-bright);
 		overflow: hidden;
 		text-overflow: ellipsis;
 		white-space: nowrap;
@@ -3163,7 +3163,7 @@
 
 	.heatmap-wrapper {
 		overflow-x: auto;
-		border: 1px solid var(--bg-elevated);
+		border: 1px solid var(--stone-warm);
 		border-radius: 8px;
 	}
 
@@ -3182,8 +3182,8 @@
 	}
 
 	.heatmap-table th {
-		background: var(--bg-deep);
-		color: var(--text-secondary);
+		background: var(--night-deep);
+		color: var(--ink-mid);
 		font-weight: 700;
 	}
 
@@ -3206,8 +3206,8 @@
 	}
 
 	.timing-top-item {
-		border: 1px solid var(--bg-elevated);
-		background: var(--bg-deep);
+		border: 1px solid var(--stone-warm);
+		background: var(--night-deep);
 		border-radius: 8px;
 		padding: 9px;
 		display: grid;
@@ -3216,11 +3216,11 @@
 
 	.timing-top-item span,
 	.timing-top-item small {
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 	}
 
 	.timing-top-item strong {
-		color: var(--text-primary);
+		color: var(--ink-bright);
 	}
 
 	.release-performance-card {
@@ -3239,9 +3239,9 @@
 	}
 
 	.release-range-panel {
-		border: 1px solid var(--bg-elevated);
+		border: 1px solid var(--stone-warm);
 		border-radius: 8px;
-		background: var(--bg-deep);
+		background: var(--night-deep);
 		padding: 10px;
 		display: grid;
 		grid-template-columns: minmax(0, 1fr) auto;
@@ -3265,9 +3265,9 @@
 	}
 
 	.range-preset {
-		border: 1px solid var(--bg-elevated);
-		background: var(--bg-surface);
-		color: var(--text-primary);
+		border: 1px solid var(--stone-warm);
+		background: var(--stone-warm);
+		color: var(--ink-bright);
 		border-radius: 8px;
 		padding: 8px 10px;
 		cursor: pointer;
@@ -3307,9 +3307,9 @@
 	}
 
 	.summary-filter {
-		border: 1px solid var(--bg-elevated);
-		background: var(--bg-deep);
-		color: var(--text-primary);
+		border: 1px solid var(--stone-warm);
+		background: var(--night-deep);
+		color: var(--ink-bright);
 		border-radius: 8px;
 		padding: 8px 9px;
 		display: flex;
@@ -3322,7 +3322,7 @@
 
 	.summary-filter span {
 		font-size: 0.72rem;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 		overflow: hidden;
 		text-overflow: ellipsis;
 		white-space: nowrap;
@@ -3330,11 +3330,11 @@
 
 	.summary-filter strong {
 		font-size: 0.95rem;
-		color: var(--text-primary);
+		color: var(--ink-bright);
 	}
 
 	.summary-filter:hover {
-		border-color: var(--bg-highlight);
+		border-color: var(--stone-warm);
 	}
 
 	.summary-filter.active {
@@ -3353,9 +3353,9 @@
 	}
 
 	.release-sort-controls {
-		border: 1px solid var(--bg-elevated);
+		border: 1px solid var(--stone-warm);
 		border-radius: 8px;
-		background: var(--bg-deep);
+		background: var(--night-deep);
 		padding: 8px;
 		display: flex;
 		align-items: end;
@@ -3370,14 +3370,14 @@
 
 	.release-sort-controls label span {
 		font-size: 0.72rem;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 	}
 
 	.release-sort-controls select {
-		border: 1px solid var(--bg-elevated);
+		border: 1px solid var(--stone-warm);
 		border-radius: 8px;
-		background: var(--bg-surface);
-		color: var(--text-primary);
+		background: var(--stone-warm);
+		color: var(--ink-bright);
 		padding: 8px;
 	}
 
@@ -3389,9 +3389,9 @@
 	}
 
 	.release-signal-panel {
-		border: 1px solid var(--bg-elevated);
+		border: 1px solid var(--stone-warm);
 		border-radius: 8px;
-		background: var(--bg-deep);
+		background: var(--night-deep);
 		padding: 9px;
 		display: grid;
 		gap: 7px;
@@ -3416,18 +3416,18 @@
 
 	.signal-header span {
 		font-size: 0.78rem;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 		font-weight: 700;
 	}
 
 	.signal-header strong {
-		color: var(--text-primary);
+		color: var(--ink-bright);
 	}
 
 	.release-signal-panel button {
 		border: none;
 		background: transparent;
-		color: var(--text-primary);
+		color: var(--ink-bright);
 		padding: 0;
 		cursor: pointer;
 		text-align: left;
@@ -3447,12 +3447,12 @@
 
 	.release-signal-panel button strong {
 		font-size: 0.78rem;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 	}
 
 	.release-signal-panel p {
 		margin: 0;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 		font-size: 0.78rem;
 	}
 
@@ -3462,7 +3462,7 @@
 		justify-content: space-between;
 		gap: 10px;
 		margin-bottom: 8px;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 		font-size: 0.78rem;
 		flex-wrap: wrap;
 	}
@@ -3528,7 +3528,7 @@
 	.release-table td small {
 		display: block;
 		margin-top: 3px;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 		font-size: 0.7rem;
 	}
 
@@ -3538,7 +3538,7 @@
 
 	.release-path {
 		margin-top: 4px;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 		font-size: 0.72rem;
 		line-height: 1.35;
 		overflow-wrap: break-word;
@@ -3582,7 +3582,7 @@
 
 	.band-neutral {
 		background: rgba(148, 163, 184, 0.18);
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 	}
 
 	.release-growth-panel {
@@ -3608,7 +3608,7 @@
 
 	.release-detail-header p {
 		margin: 4px 0 0;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 		font-size: 0.8rem;
 	}
 
@@ -3620,7 +3620,7 @@
 	}
 
 	.release-detail-grid div {
-		border: 1px solid var(--bg-elevated);
+		border: 1px solid var(--stone-warm);
 		border-radius: 8px;
 		padding: 8px;
 		display: grid;
@@ -3629,7 +3629,7 @@
 
 	.release-events-section {
 		margin-top: 14px;
-		border-top: 1px solid var(--bg-elevated);
+		border-top: 1px solid var(--stone-warm);
 		padding-top: 12px;
 	}
 
@@ -3648,7 +3648,7 @@
 
 	.release-events-header p {
 		margin: 3px 0 0;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 		font-size: 0.76rem;
 	}
 
@@ -3668,17 +3668,17 @@
 
 	.release-event-form label span {
 		font-size: 0.72rem;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 	}
 
 	.release-event-form select,
 	.release-event-form input {
 		width: 100%;
 		min-width: 0;
-		border: 1px solid var(--bg-elevated);
+		border: 1px solid var(--stone-warm);
 		border-radius: 8px;
-		background: var(--bg-deep);
-		color: var(--text-primary);
+		background: var(--night-deep);
+		color: var(--ink-bright);
 		padding: 8px;
 		font-size: 0.8rem;
 	}
@@ -3689,7 +3689,7 @@
 	}
 
 	.release-event-item {
-		border: 1px solid var(--bg-elevated);
+		border: 1px solid var(--stone-warm);
 		border-radius: 8px;
 		padding: 9px;
 		display: grid;
@@ -3699,13 +3699,13 @@
 	}
 
 	.release-event-item strong {
-		color: var(--text-primary);
+		color: var(--ink-bright);
 	}
 
 	.release-event-item span,
 	.release-event-item small {
 		display: block;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 		font-size: 0.74rem;
 	}
 
@@ -3738,7 +3738,7 @@
 	.table-window-summary {
 		margin: 4px 0 0;
 		font-size: 0.78rem;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 	}
 
 	.table-header-controls {
@@ -3756,9 +3756,9 @@
 	}
 
 	.window-tab {
-		border: 1px solid var(--bg-elevated);
-		background: var(--bg-deep);
-		color: var(--text-secondary);
+		border: 1px solid var(--stone-warm);
+		background: var(--night-deep);
+		color: var(--ink-mid);
 		font-size: 0.74rem;
 		font-weight: 600;
 		border-radius: 999px;
@@ -3767,8 +3767,8 @@
 	}
 
 	.window-tab:hover {
-		border-color: var(--bg-highlight);
-		color: var(--text-primary);
+		border-color: var(--stone-warm);
+		color: var(--ink-bright);
 	}
 
 	.window-tab.active {
@@ -3787,13 +3787,13 @@
 		flex-wrap: wrap;
 		justify-content: flex-end;
 		gap: 10px;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 		font-size: 0.85rem;
 	}
 
 	.table-wrapper {
 		overflow-x: auto;
-		border: 1px solid var(--bg-elevated);
+		border: 1px solid var(--stone-warm);
 		border-radius: 8px;
 	}
 
@@ -3854,14 +3854,14 @@
 	.data-table th,
 	.data-table td {
 		padding: 10px 10px;
-		border-bottom: 1px solid var(--bg-elevated);
+		border-bottom: 1px solid var(--stone-warm);
 		text-align: left;
 		vertical-align: top;
 	}
 
 	.data-table th {
-		background: var(--bg-deep);
-		color: var(--text-secondary);
+		background: var(--night-deep);
+		color: var(--ink-mid);
 		font-size: 0.75rem;
 		text-transform: uppercase;
 		letter-spacing: 0.04em;
@@ -3890,7 +3890,7 @@
 	}
 
 	.sort-button.active {
-		color: var(--text-primary);
+		color: var(--ink-bright);
 	}
 
 	.sort-indicator {
@@ -3909,7 +3909,7 @@
 	.table-page-link,
 	.table-page-text {
 		display: block;
-		color: var(--text-primary);
+		color: var(--ink-bright);
 		font-size: 0.84rem;
 		line-height: 1.3;
 		max-width: 100%;
@@ -3927,10 +3927,10 @@
 	}
 
 	.table-trend-button {
-		border: 1px solid var(--bg-elevated);
+		border: 1px solid var(--stone-warm);
 		border-radius: 999px;
 		background: rgba(148, 163, 184, 0.1);
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 		font-size: 0.7rem;
 		font-weight: 700;
 		line-height: 1;
@@ -3961,7 +3961,7 @@
 		border: none;
 		padding: 0;
 		margin: 0;
-		color: var(--text-primary);
+		color: var(--ink-bright);
 		font-size: 0.84rem;
 		line-height: 1.25;
 		cursor: pointer;
@@ -4000,7 +4000,7 @@
 
 	.empty {
 		text-align: center !important;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 	}
 
 	.pagination {
@@ -4172,9 +4172,9 @@
 		}
 
 		.data-table tr {
-			border: 1px solid var(--bg-elevated);
+			border: 1px solid var(--stone-warm);
 			border-radius: 12px;
-			background: color-mix(in srgb, var(--bg-surface) 94%, var(--bg-base));
+			background: color-mix(in srgb, var(--stone-warm) 94%, var(--night-deep));
 			padding: 0.95rem;
 		}
 
@@ -4201,7 +4201,7 @@
 			font-weight: 700;
 			letter-spacing: 0.08em;
 			text-transform: uppercase;
-			color: var(--text-secondary);
+			color: var(--ink-mid);
 		}
 
 		.data-table td.empty {

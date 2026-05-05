@@ -19,7 +19,8 @@ export interface PosterQuestionTextLayoutOptions {
 	showQrCode: boolean;
 }
 
-export const POSTER_QUESTION_FONT_FAMILY = '"Space Grotesk", "Helvetica Neue", sans-serif';
+export const POSTER_QUESTION_FONT_FAMILY =
+	'"Inter Variable", "Inter", "Helvetica Neue", sans-serif';
 export const POSTER_QUESTION_LINE_HEIGHT = 1.25;
 export const POSTER_QUESTION_AUTO_FONT_SIZES = [
 	128, 120, 112, 104, 96, 88, 80, 72, 64, 56, 48, 44, 40, 36, 32, 28

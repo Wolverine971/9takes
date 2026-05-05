@@ -261,7 +261,7 @@
 		}
 
 		&:focus {
-			outline: 2px solid var(--primary);
+			outline: 2px solid var(--lamp-glow);
 			outline-offset: 2px;
 		}
 	}
@@ -280,7 +280,7 @@
 	.line {
 		width: 100%;
 		height: 2px;
-		background-color: var(--text-primary);
+		background-color: var(--ink-bright);
 		border-radius: 2px;
 		transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 		transform-origin: center;
@@ -332,13 +332,13 @@
 		align-items: center;
 		justify-content: space-between;
 		padding: 1.5rem 1.25rem 1rem;
-		border-bottom: 1px solid var(--border-color);
+		border-bottom: 1px solid var(--stone-edge);
 	}
 
 	.nav-title {
 		font-size: 1.25rem;
 		font-weight: 600;
-		color: var(--text-primary);
+		color: var(--ink-bright);
 		margin: 0;
 	}
 
@@ -347,17 +347,17 @@
 		border: none;
 		cursor: pointer;
 		padding: 8px;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 		border-radius: 6px;
 		transition: all 0.2s ease;
 
 		&:hover {
 			background-color: var(--light-gray);
-			color: var(--text-primary);
+			color: var(--ink-bright);
 		}
 
 		&:focus {
-			outline: 2px solid var(--primary);
+			outline: 2px solid var(--lamp-glow);
 			outline-offset: 2px;
 		}
 	}
@@ -385,7 +385,7 @@
 	.nav-link {
 		display: block;
 		padding: 0.875rem 1.25rem;
-		color: var(--text-primary);
+		color: var(--ink-bright);
 		text-decoration: none;
 		font-size: 1.125rem;
 		font-weight: 500;
@@ -394,18 +394,18 @@
 
 		&:hover {
 			background-color: var(--light-gray);
-			color: var(--primary);
+			color: var(--lamp-glow);
 		}
 
 		&.active {
 			background-color: var(--primary-subtle);
-			color: var(--primary);
-			border-left-color: var(--primary);
+			color: var(--lamp-glow);
+			border-left-color: var(--lamp-glow);
 			font-weight: 600;
 		}
 
 		&:focus {
-			outline: 2px solid var(--primary);
+			outline: 2px solid var(--lamp-glow);
 			outline-offset: -2px;
 		}
 	}
@@ -423,7 +423,7 @@
 		align-items: center;
 		justify-content: space-between;
 		padding: 0.875rem 1.25rem;
-		color: var(--text-primary);
+		color: var(--ink-bright);
 		font-size: 1.125rem;
 		font-weight: 500;
 		cursor: pointer;
@@ -432,18 +432,18 @@
 
 		&:hover {
 			background-color: var(--light-gray);
-			color: var(--primary);
+			color: var(--lamp-glow);
 		}
 
 		&:focus {
-			outline: 2px solid var(--primary);
+			outline: 2px solid var(--lamp-glow);
 			outline-offset: -2px;
 		}
 	}
 
 	.dropdown-arrow {
 		transition: transform 0.3s ease;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 
 		&.rotated {
 			transform: rotate(180deg);
@@ -455,7 +455,7 @@
 		margin: 0;
 		padding: 0;
 		background-color: var(--lightest-gray);
-		border-top: 1px solid var(--border-color);
+		border-top: 1px solid var(--stone-edge);
 	}
 
 	.submenu-item {
@@ -466,7 +466,7 @@
 	.submenu-link {
 		display: block;
 		padding: 0.75rem 1.25rem 0.75rem 2.5rem;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 		text-decoration: none;
 		font-size: 1rem;
 		font-weight: 400;
@@ -475,18 +475,18 @@
 
 		&:hover {
 			background-color: var(--light-gray);
-			color: var(--primary);
+			color: var(--lamp-glow);
 		}
 
 		&.active {
 			background-color: var(--primary-subtle);
-			color: var(--primary);
-			border-left-color: var(--primary);
+			color: var(--lamp-glow);
+			border-left-color: var(--lamp-glow);
 			font-weight: 500;
 		}
 
 		&:focus {
-			outline: 2px solid var(--primary);
+			outline: 2px solid var(--lamp-glow);
 			outline-offset: -2px;
 		}
 	}
@@ -494,7 +494,7 @@
 	/* Action Buttons */
 	.nav-actions {
 		padding: 1rem 1.25rem;
-		border-top: 1px solid var(--border-color);
+		border-top: 1px solid var(--stone-edge);
 		display: flex;
 		flex-direction: column;
 		gap: 0.75rem;
@@ -504,25 +504,25 @@
 		display: block;
 		width: 100%;
 		padding: 0.875rem 1.25rem;
-		background-color: var(--bg-elevated);
-		color: var(--text-primary);
+		background-color: var(--stone-warm);
+		color: var(--ink-bright);
 		text-align: center;
 		text-decoration: none;
-		border: 1px solid color-mix(in srgb, var(--accent) 22%, var(--border-color));
+		border: 1px solid color-mix(in srgb, var(--lamp-glow) 22%, var(--stone-edge));
 		border-radius: 8px;
 		font-weight: 600;
 		font-size: 1rem;
 		transition: all 0.2s ease;
 
 		&:hover {
-			background-color: color-mix(in srgb, var(--accent) 10%, var(--bg-elevated));
-			border-color: color-mix(in srgb, var(--accent) 40%, var(--border-color));
+			background-color: color-mix(in srgb, var(--lamp-glow) 10%, var(--stone-warm));
+			border-color: color-mix(in srgb, var(--lamp-glow) 40%, var(--stone-edge));
 		}
 
 		&.active {
-			background-color: color-mix(in srgb, var(--accent) 12%, var(--bg-elevated));
-			border-color: color-mix(in srgb, var(--accent) 48%, var(--border-color));
-			color: var(--accent);
+			background-color: color-mix(in srgb, var(--lamp-glow) 12%, var(--stone-warm));
+			border-color: color-mix(in srgb, var(--lamp-glow) 48%, var(--stone-edge));
+			color: var(--lamp-glow);
 		}
 	}
 
@@ -530,7 +530,7 @@
 		display: block;
 		width: 100%;
 		padding: 0.875rem 1.25rem;
-		background-color: var(--primary);
+		background-color: var(--lamp-glow);
 		color: var(--text-on-primary);
 		text-align: center;
 		text-decoration: none;
@@ -540,12 +540,12 @@
 		transition: all 0.2s ease;
 
 		&:hover {
-			background-color: var(--primary-dark);
+			background-color: var(--lamp-glow);
 			transform: translateY(-1px);
 		}
 
 		&:focus {
-			outline: 2px solid var(--primary);
+			outline: 2px solid var(--lamp-glow);
 			outline-offset: 2px;
 		}
 	}

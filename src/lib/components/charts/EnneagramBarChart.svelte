@@ -105,7 +105,7 @@
 		margin: 0;
 		font-size: 1rem;
 		font-weight: 600;
-		color: var(--text-primary, #1e293b);
+		color: var(--ink-bright, #1e293b);
 	}
 
 	.compact .chart-title {
@@ -120,7 +120,7 @@
 	}
 
 	.total-users {
-		color: var(--text-secondary, var(--text-tertiary));
+		color: var(--ink-mid, var(--ink-dim));
 	}
 
 	.top-type {
@@ -197,13 +197,13 @@
 
 	.type-name {
 		font-size: 0.8rem;
-		color: var(--text-secondary, var(--text-tertiary));
+		color: var(--ink-mid, var(--ink-dim));
 		white-space: nowrap;
 	}
 
 	.bar-track {
 		height: 24px;
-		background: var(--hover-background, var(--text-primary));
+		background: var(--hover-background, var(--ink-bright));
 		border-radius: 6px;
 		overflow: hidden;
 		position: relative;
@@ -247,7 +247,7 @@
 	.count {
 		font-size: 0.875rem;
 		font-weight: 600;
-		color: var(--text-primary, #1e293b);
+		color: var(--ink-bright, #1e293b);
 	}
 
 	.compact .count {
@@ -256,7 +256,7 @@
 
 	.percentage {
 		font-size: 0.7rem;
-		color: var(--text-secondary, var(--text-tertiary));
+		color: var(--ink-mid, var(--ink-dim));
 	}
 
 	.compact .percentage {

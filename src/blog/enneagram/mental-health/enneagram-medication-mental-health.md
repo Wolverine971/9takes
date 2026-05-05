@@ -847,15 +847,6 @@ Medication works best as part of a bigger picture:
 
 Therapy alongside medication (not instead of). Lifestyle basics that actually matter: sleep, movement, nutrition. Social support from people who get it. Spiritual or meaning-making practices if that fits you. Regular reassessment because what you need changes.
 
-<div class="scroll-fade">
-<MarqueeHorizontal displayList={[
-  { name: "Enneagram Trauma Response Guide", link: "/enneagram-corner/mental-health/enneagram-trauma-response-guide" },
-  { name: "Enneagram Neurodivergence Guide", link: "/enneagram-corner/mental-health/enneagram-neurodivergence-guide" },
-  { name: "Enneagram Parenting & Mental Health", link: "/enneagram-corner/mental-health/enneagram-parenting-mental-health" },
-  { name: "Enneagram Workplace Mental Health", link: "/enneagram-corner/mental-health/enneagram-workplace-mental-health" }
-]} />
-</div>
-
 ## The Bottom Line
 
 Medication is complicated. It's not a magic fix. It's also not the scary thing your brain might be making it out to be.

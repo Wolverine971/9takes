@@ -240,6 +240,10 @@ Together? This person reframes difficult feelings as interesting problems to sol
 
 A Type 1's inner critic runs nonstop. Libra rising softens the delivery — this person doesn't lecture, they diplomatically suggest improvements. The tension: Libra wants to be liked, but the Type 1 can't let standards slide. The result is someone who corrects you so gracefully you barely notice.
 
+<div style="overflow: hidden;">
+<MarqueeHorizontal displayList={[{name: 'at a party 🎉', link: '/enneagram-corner/enneagram-types-at-party'}, {name: 'in stress 😰', link: '/enneagram-corner/enneagram-types-in-stress'}, {name: 'religion? 🙏', link: '/enneagram-corner/enneagram-and-religion'}, {name: 'strengths 💪 and weaknesses', link: '/enneagram-corner/enneagram-strengths-and-weaknesses'}, {name: 'communication styles 🙊', link: '/enneagram-corner/enneagram-communication-styles'} ]} />
+</div>
+
 ## Enneagram Wings and Planetary Aspects
 
 Your Enneagram wing works like a planetary aspect in your birth chart. Both add nuance to your core pattern.
@@ -335,10 +339,6 @@ The question isn't "which system is right?" It's "what do these patterns reveal 
 That's the only test that matters.
 
 **Small experiment:** Pull up your birth chart and identify your Sun sign's ruling planet. Then look at the Enneagram type associated with that planet in the chart above. Even if it's not your core type, notice how that energy shows up in your life. You might discover a pattern you've been living but never named.
-
-<div style="overflow: hidden;">
-<MarqueeHorizontal displayList={[{name: 'at a party 🎉', link: '/enneagram-corner/enneagram-types-at-party'}, {name: 'in stress 😰', link: '/enneagram-corner/enneagram-types-in-stress'}, {name: 'religion? 🙏', link: '/enneagram-corner/enneagram-and-religion'}, {name: 'strengths 💪 and weaknesses', link: '/enneagram-corner/enneagram-strengths-and-weaknesses'}, {name: 'communication styles 🙊', link: '/enneagram-corner/enneagram-communication-styles'} ]} />
-</div>
 
 <svelte:head>
 

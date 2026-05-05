@@ -1,21 +1,25 @@
 <!-- src/routes/intake/[token]/+page.svelte -->
-<!-- Client-facing intake form for personality coaching -->
+<!--
+  src/routes/intake/[token]/+page.svelte
+  Phase 5 #9 of docs/design/2026-05-04-rollout-plan.md — token-gated intake form.
+  Streetlamp Symposium V5: warm-stone surface, sodium-amber primary, Inter.
+  Client-facing intake form for personality coaching.
+-->
 <script lang="ts">
 	import { enhance } from '$app/forms';
 	import { onMount } from 'svelte';
 	import type { PageData, ActionData } from './$types';
 
-	export let data: PageData;
-	export let form: ActionData;
+	let { data, form }: { data: PageData; form: ActionData } = $props();
 
-	let currentSection = 1;
-	let isSubmitting = false;
-	let showSuccess = form?.success || false;
+	let currentSection = $state(1);
+	let isSubmitting = $state(false);
+	let showSuccess = $state(form?.success || false);
 
 	const totalSections = 7;
 
 	// Timezone detection (client-side only)
-	let detectedTimezone = '';
+	let detectedTimezone = $state('');
 	onMount(() => {
 		if (typeof Intl !== 'undefined') {
 			detectedTimezone = Intl.DateTimeFormat().resolvedOptions().timeZone;
@@ -517,13 +521,13 @@
 			<!-- Navigation -->
 			<div class="form-navigation">
 				{#if currentSection > 1}
-					<button type="button" class="btn btn-secondary" on:click={prevSection}> Previous </button>
+					<button type="button" class="btn btn-secondary" onclick={prevSection}> Previous </button>
 				{:else}
 					<div></div>
 				{/if}
 
 				{#if currentSection < totalSections}
-					<button type="button" class="btn btn-primary" on:click={nextSection}> Next </button>
+					<button type="button" class="btn btn-primary" onclick={nextSection}> Next </button>
 				{/if}
 			</div>
 		</form>
@@ -531,16 +535,17 @@
 </div>
 
 <style>
+	/* Streetlamp Symposium — Coaching intake form. */
 	:global(body) {
-		background: linear-gradient(180deg, var(--bg-base) 0%, var(--bg-deep) 100%);
-		color: var(--text-primary);
+		background: var(--night-deep);
+		color: var(--ink-bright);
 	}
 
 	.intake-container {
 		max-width: 640px;
 		margin: 0 auto;
 		padding: 2rem 1rem;
-		color: var(--text-primary);
+		color: var(--ink-bright);
 	}
 
 	/* Header */
@@ -556,7 +561,7 @@
 	.logo a {
 		font-size: 1.25rem;
 		font-weight: 700;
-		color: var(--primary);
+		color: var(--lamp-glow);
 		text-decoration: none;
 	}
 
@@ -564,11 +569,11 @@
 		font-size: 1.5rem;
 		font-weight: 600;
 		margin: 0 0 0.75rem;
-		color: var(--text-primary);
+		color: var(--ink-bright);
 	}
 
 	.greeting {
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 		font-size: 0.95rem;
 		line-height: 1.5;
 		margin: 0;
@@ -581,14 +586,14 @@
 
 	.progress-bar {
 		height: 6px;
-		background: var(--bg-elevated);
+		background: var(--stone-warm);
 		border-radius: 3px;
 		overflow: hidden;
 	}
 
 	.progress-fill {
 		height: 100%;
-		background: linear-gradient(90deg, var(--primary), var(--accent));
+		background: var(--lamp-glow);
 		transition: width 0.3s ease;
 	}
 
@@ -596,13 +601,13 @@
 		display: block;
 		text-align: center;
 		font-size: 0.75rem;
-		color: var(--text-tertiary);
+		color: var(--ink-dim);
 		margin-top: 0.5rem;
 	}
 
 	/* Error Banner */
 	.error-banner {
-		background: var(--error-light);
+		background: color-mix(in srgb, var(--error) 12%, transparent);
 		border: 1px solid color-mix(in srgb, var(--error) 30%, transparent);
 		color: var(--error);
 		padding: 0.75rem 1rem;
@@ -614,8 +619,8 @@
 	/* Form Sections */
 	.form-section {
 		display: none;
-		background: var(--bg-surface);
-		border: 1px solid color-mix(in srgb, var(--primary) 10%, var(--border-color));
+		background: var(--stone-warm);
+		border: 1px solid var(--stone-edge);
 		border-radius: 12px;
 		box-shadow: var(--shadow-md);
 		padding: 1.5rem;
@@ -630,11 +635,11 @@
 		font-size: 1.25rem;
 		font-weight: 600;
 		margin: 0 0 0.5rem;
-		color: var(--text-primary);
+		color: var(--ink-bright);
 	}
 
 	.section-intro {
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 		font-size: 0.9rem;
 		margin: 0 0 1.5rem;
 	}
@@ -649,7 +654,7 @@
 		display: block;
 		font-size: 0.875rem;
 		font-weight: 500;
-		color: var(--text-primary);
+		color: var(--ink-bright);
 		margin-bottom: 0.5rem;
 	}
 
@@ -658,7 +663,7 @@
 	.form-group textarea {
 		width: 100%;
 		padding: 0.75rem;
-		border: 1px solid var(--border-color);
+		border: 1px solid var(--stone-edge);
 		border-radius: 8px;
 		font-size: 16px;
 		font-family: inherit;
@@ -666,28 +671,28 @@
 			border-color 0.2s ease,
 			box-shadow 0.2s ease,
 			background-color 0.2s ease;
-		background: var(--bg-deep);
-		color: var(--text-primary);
-		caret-color: var(--accent);
+		background: var(--night-deep);
+		color: var(--ink-bright);
+		caret-color: var(--lamp-glow);
 	}
 
 	.form-group input:focus,
 	.form-group select:focus,
 	.form-group textarea:focus {
 		outline: none;
-		border-color: color-mix(in srgb, var(--accent) 55%, var(--border-color));
-		box-shadow: 0 0 0 3px color-mix(in srgb, var(--accent) 14%, transparent);
-		background: var(--bg-surface);
+		border-color: var(--lamp-glow);
+		box-shadow: var(--glow-sm);
+		background: var(--stone-warm);
 	}
 
 	.form-group input::placeholder,
 	.form-group textarea::placeholder {
-		color: var(--text-tertiary);
+		color: var(--ink-dim);
 	}
 
 	.form-group select option {
-		background: var(--bg-surface);
-		color: var(--text-primary);
+		background: var(--stone-warm);
+		color: var(--ink-bright);
 	}
 
 	.form-group textarea {
@@ -698,7 +703,7 @@
 	.field-hint {
 		display: block;
 		font-size: 0.75rem;
-		color: var(--text-tertiary);
+		color: var(--ink-dim);
 		margin-top: 0.375rem;
 	}
 
@@ -715,34 +720,34 @@
 		align-items: flex-start;
 		gap: 0.5rem;
 		padding: 0.75rem;
-		border: 1px solid color-mix(in srgb, var(--text-tertiary) 20%, transparent);
+		border: 1px solid var(--stone-edge);
 		border-radius: 8px;
 		cursor: pointer;
 		transition: all 0.2s;
-		background: color-mix(in srgb, var(--bg-surface) 92%, transparent);
+		background: var(--night-deep);
 	}
 
 	.radio-option:hover {
-		border-color: color-mix(in srgb, var(--accent) 24%, var(--border-color));
-		background: color-mix(in srgb, var(--accent) 7%, var(--bg-surface));
+		border-color: var(--lamp-glow);
+		background: color-mix(in srgb, var(--lamp-glow) 7%, var(--stone-warm));
 	}
 
 	.radio-option input[type='radio'] {
 		width: auto;
 		margin-top: 0.125rem;
-		accent-color: var(--accent);
+		accent-color: var(--lamp-glow);
 	}
 
 	.radio-label {
 		font-weight: 500;
-		color: var(--text-primary);
+		color: var(--ink-bright);
 		flex: 1;
 	}
 
 	.radio-description {
 		width: 100%;
 		font-size: 0.8rem;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 		margin-left: 1.5rem;
 	}
 
@@ -772,33 +777,33 @@
 	}
 
 	.btn-primary {
-		background: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%);
-		color: var(--text-on-primary);
+		background: var(--lamp-glow);
+		color: var(--night-deep);
 	}
 
 	.btn-primary:hover {
-		background: linear-gradient(135deg, var(--primary-dark) 0%, var(--primary-darker) 100%);
+		background: color-mix(in srgb, var(--lamp-glow) 88%, var(--ink-bright));
 		box-shadow: var(--glow-sm);
 		transform: translateY(-1px);
 	}
 
 	.btn-primary:disabled {
-		background: color-mix(in srgb, var(--primary) 45%, var(--bg-highlight));
-		color: color-mix(in srgb, var(--text-on-primary) 70%, var(--text-secondary));
+		background: color-mix(in srgb, var(--lamp-glow) 45%, var(--stone-warm));
+		color: var(--ink-mid);
 		cursor: not-allowed;
 		box-shadow: none;
 		transform: none;
 	}
 
 	.btn-secondary {
-		background: var(--bg-surface);
-		border-color: var(--border-color);
-		color: var(--text-secondary);
+		background: var(--stone-warm);
+		border-color: var(--stone-edge);
+		color: var(--ink-mid);
 	}
 
 	.btn-secondary:hover {
-		background: var(--bg-elevated);
-		color: var(--text-primary);
+		background: var(--night-deep);
+		color: var(--ink-bright);
 	}
 
 	.btn-large {
@@ -810,28 +815,28 @@
 	.submit-section {
 		margin-top: 1.5rem;
 		padding-top: 1.5rem;
-		border-top: 1px solid color-mix(in srgb, var(--text-tertiary) 20%, transparent);
+		border-top: 1px solid var(--stone-edge);
 		text-align: center;
 	}
 
 	.privacy-note {
 		font-size: 0.8rem;
-		color: var(--text-tertiary);
+		color: var(--ink-dim);
 		margin-bottom: 1rem;
 	}
 
 	/* Completion Screen */
 	.completion-screen {
 		text-align: center;
-		background: var(--bg-surface);
-		border: 1px solid color-mix(in srgb, var(--primary) 10%, var(--border-color));
+		background: var(--stone-warm);
+		border: 1px solid var(--stone-edge);
 		border-radius: 12px;
 		box-shadow: var(--shadow-md);
 		padding: 3rem 2rem;
 	}
 
 	.completion-icon {
-		color: var(--success);
+		color: var(--data-teal);
 		margin-bottom: 1.5rem;
 	}
 
@@ -839,23 +844,23 @@
 		font-size: 1.75rem;
 		font-weight: 600;
 		margin: 0 0 1rem;
-		color: var(--text-primary);
+		color: var(--ink-bright);
 	}
 
 	.completion-message {
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 		font-size: 1rem;
 		line-height: 1.6;
 		margin: 0 0 1.5rem;
 	}
 
 	.completion-next {
-		background: var(--bg-deep);
-		border: 1px solid var(--border-color);
+		background: var(--night-deep);
+		border: 1px solid var(--stone-edge);
 		padding: 1rem;
 		border-radius: 8px;
 		font-size: 0.9rem;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 		margin-bottom: 2rem;
 	}
 

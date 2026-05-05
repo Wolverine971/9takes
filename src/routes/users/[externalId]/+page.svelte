@@ -224,29 +224,29 @@
 
 <style lang="scss">
 	.page {
-		--profile-card-bg: color-mix(in srgb, var(--bg-surface) 88%, var(--bg-base));
-		--profile-card-border: color-mix(in srgb, var(--primary) 12%, var(--bg-elevated));
+		--profile-card-bg: color-mix(in srgb, var(--stone-warm) 88%, var(--night-deep));
+		--profile-card-border: color-mix(in srgb, var(--lamp-glow) 12%, var(--stone-warm));
 		--profile-card-shadow: 0 24px 48px color-mix(in srgb, var(--shadow-color) 24%, transparent);
-		--profile-stat-bg: color-mix(in srgb, var(--bg-surface) 76%, var(--bg-deep));
-		--profile-stat-border: color-mix(in srgb, var(--text-tertiary) 18%, transparent);
-		--profile-chip-bg: color-mix(in srgb, var(--primary) 12%, transparent);
-		--profile-chip-border: color-mix(in srgb, var(--primary) 22%, transparent);
-		--profile-chip-text: color-mix(in srgb, var(--primary-dark) 70%, var(--text-primary));
-		--profile-list-bg: color-mix(in srgb, var(--bg-deep) 72%, var(--bg-surface));
-		--profile-list-border: color-mix(in srgb, var(--text-tertiary) 16%, transparent);
-		--profile-list-hover-bg: color-mix(in srgb, var(--primary) 10%, var(--bg-surface));
-		--profile-list-hover-border: color-mix(in srgb, var(--primary) 24%, var(--bg-elevated));
+		--profile-stat-bg: color-mix(in srgb, var(--stone-warm) 76%, var(--night-deep));
+		--profile-stat-border: color-mix(in srgb, var(--ink-dim) 18%, transparent);
+		--profile-chip-bg: color-mix(in srgb, var(--lamp-glow) 12%, transparent);
+		--profile-chip-border: color-mix(in srgb, var(--lamp-glow) 22%, transparent);
+		--profile-chip-text: color-mix(in srgb, var(--lamp-glow) 70%, var(--ink-bright));
+		--profile-list-bg: color-mix(in srgb, var(--night-deep) 72%, var(--stone-warm));
+		--profile-list-border: color-mix(in srgb, var(--ink-dim) 16%, transparent);
+		--profile-list-hover-bg: color-mix(in srgb, var(--lamp-glow) 10%, var(--stone-warm));
+		--profile-list-hover-border: color-mix(in srgb, var(--lamp-glow) 24%, var(--stone-warm));
 		min-height: 100vh;
 		padding: 1.5rem 1rem 3rem;
 		background:
 			radial-gradient(
 				circle at top center,
-				color-mix(in srgb, var(--primary) 14%, transparent) 0%,
+				color-mix(in srgb, var(--lamp-glow) 14%, transparent) 0%,
 				transparent 42%
 			),
 			linear-gradient(
 				180deg,
-				color-mix(in srgb, var(--bg-surface) 32%, transparent) 0%,
+				color-mix(in srgb, var(--stone-warm) 32%, transparent) 0%,
 				transparent 100%
 			);
 	}
@@ -275,15 +275,15 @@
 		background:
 			linear-gradient(
 				135deg,
-				color-mix(in srgb, var(--primary) 16%, transparent) 0%,
+				color-mix(in srgb, var(--lamp-glow) 16%, transparent) 0%,
 				transparent 58%
 			),
 			linear-gradient(
 				180deg,
-				color-mix(in srgb, var(--bg-surface) 92%, var(--bg-base)) 0%,
+				color-mix(in srgb, var(--stone-warm) 92%, var(--night-deep)) 0%,
 				var(--profile-card-bg) 100%
 			);
-		border-color: color-mix(in srgb, var(--primary) 22%, var(--bg-elevated));
+		border-color: color-mix(in srgb, var(--lamp-glow) 22%, var(--stone-warm));
 	}
 
 	.header-content {
@@ -295,8 +295,8 @@
 	.avatar {
 		width: 3.5rem;
 		height: 3.5rem;
-		background: linear-gradient(135deg, var(--primary-dark) 0%, var(--accent-dark) 100%);
-		border: 1px solid color-mix(in srgb, var(--bg-surface) 65%, transparent);
+		background: linear-gradient(135deg, var(--lamp-glow) 0%, var(--lamp-glow) 100%);
+		border: 1px solid color-mix(in srgb, var(--stone-warm) 65%, transparent);
 		border-radius: 0.75rem;
 		box-shadow: 0 18px 36px color-mix(in srgb, var(--primary-glow) 45%, transparent);
 		display: flex;
@@ -318,7 +318,7 @@
 		h1 {
 			font-size: 1.25rem;
 			font-weight: 600;
-			color: var(--text-primary);
+			color: var(--ink-bright);
 			margin: 0 0 0.25rem;
 			line-height: 1.2;
 		}
@@ -350,20 +350,20 @@
 		display: flex;
 		flex-direction: column;
 		gap: 0.125rem;
-		box-shadow: inset 0 1px 0 color-mix(in srgb, var(--bg-surface) 45%, transparent);
+		box-shadow: inset 0 1px 0 color-mix(in srgb, var(--stone-warm) 45%, transparent);
 		backdrop-filter: blur(10px);
 	}
 
 	.stat-value {
 		font-size: 1rem;
 		font-weight: 600;
-		color: var(--text-primary);
+		color: var(--ink-bright);
 		line-height: 1.3;
 	}
 
 	.stat-label {
 		font-size: 0.6875rem;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 		text-transform: uppercase;
 		letter-spacing: 0.08em;
 	}
@@ -374,7 +374,7 @@
 		h2 {
 			font-size: 1rem;
 			font-weight: 600;
-			color: var(--text-primary);
+			color: var(--ink-bright);
 			margin: 0 0 0.125rem;
 		}
 	}
@@ -387,7 +387,7 @@
 
 	.card-subtitle {
 		font-size: 0.75rem;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 		margin: 0;
 	}
 
@@ -404,12 +404,12 @@
 	.empty-state {
 		text-align: center;
 		padding: 1.5rem 1rem;
-		border: 1px dashed color-mix(in srgb, var(--text-tertiary) 22%, transparent);
+		border: 1px dashed color-mix(in srgb, var(--ink-dim) 22%, transparent);
 		border-radius: 0.875rem;
-		background: color-mix(in srgb, var(--bg-deep) 46%, var(--bg-surface));
+		background: color-mix(in srgb, var(--night-deep) 46%, var(--stone-warm));
 
 		p {
-			color: var(--text-secondary);
+			color: var(--ink-mid);
 			margin: 0.5rem 0 0.25rem;
 			font-size: 0.875rem;
 			font-weight: 500;
@@ -418,7 +418,7 @@
 		.empty-hint {
 			display: block;
 			font-size: 0.75rem;
-			color: var(--text-tertiary);
+			color: var(--ink-dim);
 		}
 	}
 
@@ -426,7 +426,7 @@
 		width: 2.5rem;
 		height: 2.5rem;
 		margin: 0 auto;
-		color: var(--text-tertiary);
+		color: var(--ink-dim);
 
 		svg {
 			width: 100%;
@@ -444,7 +444,7 @@
 		max-height: 400px;
 		overflow-y: auto;
 		scrollbar-width: thin;
-		scrollbar-color: color-mix(in srgb, var(--primary) 40%, transparent) transparent;
+		scrollbar-color: color-mix(in srgb, var(--lamp-glow) 40%, transparent) transparent;
 
 		&::-webkit-scrollbar {
 			width: 4px;
@@ -471,7 +471,7 @@
 		border-radius: 0.5rem;
 		color: inherit;
 		text-decoration: none;
-		box-shadow: inset 0 1px 0 color-mix(in srgb, var(--bg-surface) 42%, transparent);
+		box-shadow: inset 0 1px 0 color-mix(in srgb, var(--stone-warm) 42%, transparent);
 		transition:
 			background-color 0.15s ease,
 			border-color 0.15s ease,
@@ -484,7 +484,7 @@
 			border-color: var(--profile-list-hover-border);
 			transform: translateY(-1px);
 			box-shadow:
-				inset 0 1px 0 color-mix(in srgb, var(--bg-surface) 52%, transparent),
+				inset 0 1px 0 color-mix(in srgb, var(--stone-warm) 52%, transparent),
 				0 14px 24px color-mix(in srgb, var(--shadow-color) 14%, transparent);
 			outline: none;
 
@@ -501,7 +501,7 @@
 	}
 
 	.item-question {
-		color: var(--text-primary);
+		color: var(--ink-bright);
 		font-size: 0.8125rem;
 		font-weight: 500;
 		line-height: 1.4;
@@ -509,7 +509,7 @@
 	}
 
 	.item-answer {
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 		font-size: 0.75rem;
 		line-height: 1.4;
 		margin: 0.25rem 0 0;
@@ -523,7 +523,7 @@
 	.chevron {
 		width: 1rem;
 		height: 1rem;
-		color: var(--primary);
+		color: var(--lamp-glow);
 		opacity: 0.55;
 		flex-shrink: 0;
 		transition: all 0.15s ease;

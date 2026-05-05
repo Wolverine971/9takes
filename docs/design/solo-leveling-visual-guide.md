@@ -1,5 +1,7 @@
 <!-- docs/design/solo-leveling-visual-guide.md -->
 
+> ⚠️ **ARCHIVED 2026-05-04** — Solo Leveling aesthetic retired. The locked visual identity is Streetlamp Symposium in `docs/design-system.md`.
+
 # 9takes — Solo Leveling Visual Style Guide
 
 _Updated: January 2026_

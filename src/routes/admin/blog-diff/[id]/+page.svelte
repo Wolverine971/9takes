@@ -304,9 +304,9 @@
 		padding: 6px 12px;
 		margin-bottom: 12px;
 		background: transparent;
-		border: 1px solid var(--bg-elevated);
+		border: 1px solid var(--stone-warm);
 		border-radius: 8px;
-		color: var(--primary);
+		color: var(--lamp-glow);
 		font-size: 0.8rem;
 		font-weight: 500;
 		cursor: pointer;
@@ -314,8 +314,8 @@
 	}
 
 	.back-btn:hover {
-		border-color: var(--primary);
-		background: var(--bg-elevated);
+		border-color: var(--lamp-glow);
+		background: var(--stone-warm);
 	}
 
 	.blog-meta {
@@ -325,20 +325,20 @@
 	.blog-title {
 		font-size: 1rem;
 		font-weight: 500;
-		color: var(--text-primary);
+		color: var(--ink-bright);
 		margin: 0 0 2px;
 	}
 
 	.blog-person {
 		font-size: 0.8rem;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 		margin: 0;
 	}
 
 	/* Section Card */
 	.section-card {
-		background: var(--bg-surface);
-		border: 1px solid var(--bg-elevated);
+		background: var(--stone-warm);
+		border: 1px solid var(--stone-warm);
 		border-radius: 12px;
 		padding: 20px;
 		margin-bottom: 16px;
@@ -347,7 +347,7 @@
 	.card-title {
 		font-size: 0.95rem;
 		font-weight: 600;
-		color: var(--text-primary);
+		color: var(--ink-bright);
 		margin: 0 0 16px;
 	}
 
@@ -367,16 +367,16 @@
 	.field-label {
 		font-size: 0.8rem;
 		font-weight: 600;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 	}
 
 	.field-select {
 		width: 100%;
 		padding: 9px 12px;
-		border: 1px solid var(--bg-elevated);
+		border: 1px solid var(--stone-warm);
 		border-radius: 8px;
-		background: var(--bg-deep);
-		color: var(--text-primary);
+		background: var(--night-deep);
+		color: var(--ink-bright);
 		font-size: 0.8rem;
 		font-family: inherit;
 		cursor: pointer;
@@ -385,15 +385,15 @@
 
 	.field-select:focus {
 		outline: none;
-		border-color: var(--primary);
+		border-color: var(--lamp-glow);
 		box-shadow: 0 0 0 3px rgba(139, 92, 246, 0.15);
 	}
 
 	/* Summary Banner */
 	.summary-banner {
 		padding: 14px 16px;
-		background: var(--bg-elevated);
-		border: 1px solid var(--bg-highlight);
+		background: var(--stone-warm);
+		border: 1px solid var(--stone-warm);
 		border-radius: 12px;
 		margin-bottom: 16px;
 	}
@@ -401,13 +401,13 @@
 	.summary-title {
 		font-size: 0.85rem;
 		font-weight: 600;
-		color: var(--text-primary);
+		color: var(--ink-bright);
 		margin: 0 0 4px;
 	}
 
 	.summary-text {
 		font-size: 0.8rem;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 		margin: 0;
 	}
 
@@ -426,7 +426,7 @@
 	.tab-bar {
 		display: flex;
 		gap: 2px;
-		border-bottom: 1px solid var(--bg-elevated);
+		border-bottom: 1px solid var(--stone-warm);
 		margin-bottom: 16px;
 	}
 
@@ -435,7 +435,7 @@
 		background: transparent;
 		border: none;
 		border-bottom: 2px solid transparent;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 		font-size: 0.8rem;
 		font-weight: 500;
 		cursor: pointer;
@@ -444,26 +444,26 @@
 	}
 
 	.tab-btn:hover {
-		color: var(--text-primary);
+		color: var(--ink-bright);
 	}
 
 	.tab-btn.active {
-		color: var(--primary);
-		border-bottom-color: var(--primary);
+		color: var(--lamp-glow);
+		border-bottom-color: var(--lamp-glow);
 	}
 
 	/* Content Card */
 	.content-card {
-		background: var(--bg-surface);
-		border: 1px solid var(--bg-elevated);
+		background: var(--stone-warm);
+		border: 1px solid var(--stone-warm);
 		border-radius: 12px;
 		overflow: hidden;
 	}
 
 	.content-header {
 		padding: 14px 16px;
-		border-bottom: 1px solid var(--bg-elevated);
-		background: var(--bg-deep);
+		border-bottom: 1px solid var(--stone-warm);
+		background: var(--night-deep);
 	}
 
 	.content-header.info {
@@ -475,7 +475,7 @@
 	}
 
 	.content-header.preview {
-		background: var(--bg-deep);
+		background: var(--night-deep);
 	}
 
 	.preview-header-row {
@@ -490,13 +490,13 @@
 	.content-header-title {
 		font-size: 0.85rem;
 		font-weight: 600;
-		color: var(--text-primary);
+		color: var(--ink-bright);
 		margin: 0;
 	}
 
 	.content-header-hint {
 		font-size: 0.75rem;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 		margin: 4px 0 0;
 	}
 
@@ -510,8 +510,8 @@
 	}
 
 	.source-badge.info {
-		background: var(--bg-elevated);
-		color: var(--text-secondary);
+		background: var(--stone-warm);
+		color: var(--ink-mid);
 	}
 
 	.source-badge.warning {
@@ -534,7 +534,7 @@
 		white-space: pre-wrap;
 		font-family: var(--font-mono, monospace);
 		font-size: 0.8rem;
-		color: var(--text-primary);
+		color: var(--ink-bright);
 		line-height: 1.6;
 		margin: 0;
 	}
@@ -543,36 +543,36 @@
 	.empty-state {
 		padding: 48px 24px;
 		text-align: center;
-		border: 2px dashed var(--bg-elevated);
+		border: 2px dashed var(--stone-warm);
 		border-radius: 12px;
-		background: var(--bg-deep);
+		background: var(--night-deep);
 	}
 
 	.empty-icon {
 		width: 48px;
 		height: 48px;
 		margin: 0 auto 12px;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 		opacity: 0.5;
 	}
 
 	.empty-title {
 		font-size: 1rem;
 		font-weight: 600;
-		color: var(--text-primary);
+		color: var(--ink-bright);
 		margin: 0 0 4px;
 	}
 
 	.empty-hint {
 		font-size: 0.85rem;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 		margin: 0;
 	}
 
 	/* Legend */
 	.legend-card {
-		background: var(--bg-surface);
-		border: 1px solid var(--bg-elevated);
+		background: var(--stone-warm);
+		border: 1px solid var(--stone-warm);
 		border-radius: 12px;
 		padding: 16px;
 		margin-top: 16px;
@@ -581,7 +581,7 @@
 	.legend-title {
 		font-size: 0.85rem;
 		font-weight: 600;
-		color: var(--text-primary);
+		color: var(--ink-bright);
 		margin: 0 0 10px;
 	}
 
@@ -596,7 +596,7 @@
 		align-items: center;
 		gap: 8px;
 		font-size: 0.8rem;
-		color: var(--text-primary);
+		color: var(--ink-bright);
 	}
 
 	.legend-swatch {
@@ -621,15 +621,15 @@
 	}
 
 	.legend-swatch.unchanged {
-		background: var(--bg-elevated);
-		border-left: 3px solid var(--bg-highlight);
+		background: var(--stone-warm);
+		border-left: 3px solid var(--stone-warm);
 	}
 
 	/* Blog Preview - content-specific styles */
 	.blog-preview {
 		font-family: var(--font-family);
 		line-height: 1.8;
-		color: var(--text-primary);
+		color: var(--ink-bright);
 
 		:global(h1),
 		:global(h2),
@@ -641,7 +641,7 @@
 			line-height: 1.3;
 			margin-top: 2rem;
 			margin-bottom: 1rem;
-			color: var(--text-primary);
+			color: var(--ink-bright);
 		}
 
 		:global(h1) {
@@ -662,7 +662,7 @@
 		}
 
 		:global(a) {
-			color: var(--primary);
+			color: var(--lamp-glow);
 			text-decoration: underline;
 			&:hover {
 				opacity: 0.8;
@@ -680,12 +680,12 @@
 		}
 
 		:global(blockquote) {
-			border-left: 4px solid var(--primary);
+			border-left: 4px solid var(--lamp-glow);
 			padding: 1rem;
 			margin: 1.5rem 0;
 			font-style: italic;
-			color: var(--text-secondary);
-			background: var(--bg-elevated);
+			color: var(--ink-mid);
+			background: var(--stone-warm);
 			border-radius: 0 8px 8px 0;
 		}
 
@@ -699,7 +699,7 @@
 		:global(pre),
 		:global(code) {
 			font-family: var(--font-mono, monospace);
-			background: var(--bg-deep);
+			background: var(--night-deep);
 			border-radius: 4px;
 		}
 
@@ -720,7 +720,7 @@
 
 		:global(hr) {
 			border: none;
-			border-top: 1px solid var(--bg-elevated);
+			border-top: 1px solid var(--stone-warm);
 			margin: 2rem 0;
 		}
 
@@ -731,18 +731,18 @@
 
 			:global(th),
 			:global(td) {
-				border: 1px solid var(--bg-elevated);
+				border: 1px solid var(--stone-warm);
 				padding: 0.75rem;
 				text-align: left;
 			}
 
 			:global(th) {
-				background: var(--bg-deep);
+				background: var(--night-deep);
 				font-weight: 600;
 			}
 
 			:global(tr:nth-child(even)) {
-				background: var(--bg-deep);
+				background: var(--night-deep);
 			}
 		}
 
@@ -774,8 +774,8 @@
 		right: 0;
 		z-index: 10;
 		padding: 2px 8px;
-		background: var(--bg-elevated);
-		color: var(--text-secondary);
+		background: var(--stone-warm);
+		color: var(--ink-mid);
 		border-radius: 12px;
 		font-size: 0.6rem;
 		font-weight: 600;
@@ -784,15 +784,15 @@
 	.blog-purpose-placeholder {
 		margin: 1.5rem 0;
 		padding: 16px;
-		border: 2px dashed var(--bg-elevated);
+		border: 2px dashed var(--stone-warm);
 		border-radius: 12px;
-		background: var(--bg-deep);
+		background: var(--night-deep);
 		text-align: center;
 
 		p {
 			margin: 0;
 			font-size: 0.8rem;
-			color: var(--text-secondary);
+			color: var(--ink-mid);
 		}
 	}
 

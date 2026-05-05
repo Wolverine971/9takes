@@ -134,12 +134,12 @@
 	.header-content h1 {
 		font-size: 1.75rem;
 		font-weight: 700;
-		color: var(--text-primary);
+		color: var(--ink-bright);
 		margin: 0 0 0.5rem 0;
 	}
 
 	.subtitle {
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 		font-size: 0.9rem;
 		margin: 0;
 	}
@@ -154,8 +154,8 @@
 		flex-direction: column;
 		align-items: center;
 		padding: 0.625rem 1rem;
-		background: var(--bg-surface);
-		border: 1px solid var(--bg-elevated);
+		background: var(--stone-warm);
+		border: 1px solid var(--stone-warm);
 		border-radius: 12px;
 		min-width: 90px;
 	}
@@ -163,20 +163,20 @@
 	.stat-value {
 		font-size: 1.375rem;
 		font-weight: 700;
-		color: var(--primary);
+		color: var(--lamp-glow);
 	}
 
 	.stat-label {
 		font-size: 0.65rem;
 		font-weight: 500;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 		text-transform: uppercase;
 		letter-spacing: 0.04em;
 	}
 
 	.section-card {
-		background: var(--bg-surface);
-		border: 1px solid var(--bg-elevated);
+		background: var(--stone-warm);
+		border: 1px solid var(--stone-warm);
 		border-radius: 12px;
 		padding: 1.25rem;
 		margin-bottom: 1.25rem;
@@ -193,7 +193,7 @@
 		h2 {
 			font-size: 1.1rem;
 			font-weight: 600;
-			color: var(--text-primary);
+			color: var(--ink-bright);
 			margin: 0;
 		}
 	}
@@ -210,16 +210,16 @@
 		align-items: center;
 		gap: 0.375rem;
 		font-size: 0.8rem;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 
 		input {
 			width: 56px;
 			padding: 0.3rem 0.4rem;
-			border: 1px solid var(--bg-elevated);
+			border: 1px solid var(--stone-warm);
 			border-radius: 6px;
 			font-size: 0.8rem;
-			background: var(--bg-deep);
-			color: var(--text-primary);
+			background: var(--night-deep);
+			color: var(--ink-bright);
 		}
 	}
 
@@ -234,7 +234,7 @@
 	}
 
 	.btn-primary {
-		background: var(--primary);
+		background: var(--lamp-glow);
 		color: white;
 
 		&:hover {
@@ -243,11 +243,11 @@
 	}
 
 	.btn-secondary {
-		background: var(--bg-elevated);
-		color: var(--text-primary);
+		background: var(--stone-warm);
+		color: var(--ink-bright);
 
 		&:hover {
-			background: var(--bg-deep);
+			background: var(--night-deep);
 		}
 	}
 
@@ -256,7 +256,7 @@
 		font-size: 0.7rem;
 		font-weight: 500;
 		background: rgba(139, 92, 246, 0.1);
-		color: var(--primary);
+		color: var(--lamp-glow);
 		border-radius: 20px;
 	}
 
@@ -265,14 +265,14 @@
 		flex-direction: column;
 		align-items: center;
 		padding: 2.5rem;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 	}
 
 	.spinner {
 		width: 32px;
 		height: 32px;
-		border: 3px solid var(--bg-elevated);
-		border-top-color: var(--primary);
+		border: 3px solid var(--stone-warm);
+		border-top-color: var(--lamp-glow);
 		border-radius: 50%;
 		animation: spin 0.7s linear infinite;
 		margin-bottom: 0.75rem;
@@ -291,15 +291,15 @@
 	}
 
 	.qr-card {
-		background: var(--bg-deep);
-		border: 1px solid var(--bg-elevated);
+		background: var(--night-deep);
+		border: 1px solid var(--stone-warm);
 		border-radius: 12px;
 		padding: 0.875rem;
 		text-align: center;
 		transition: all 0.15s ease;
 
 		&:hover {
-			border-color: var(--primary);
+			border-color: var(--lamp-glow);
 			box-shadow: var(--glow-sm);
 		}
 
@@ -321,13 +321,13 @@
 	.qr-id {
 		font-size: 0.65rem;
 		font-family: monospace;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 	}
 
 	.brand {
 		font-size: 0.7rem;
 		font-weight: 600;
-		color: var(--primary);
+		color: var(--lamp-glow);
 	}
 
 	/* Print view for cutting */
@@ -339,7 +339,7 @@
 
 	.print-item {
 		position: relative;
-		border: 1px dashed var(--bg-elevated);
+		border: 1px dashed var(--stone-warm);
 		padding: 4px;
 		text-align: center;
 
@@ -354,7 +354,7 @@
 		display: block;
 		font-size: 0.6rem;
 		font-weight: 700;
-		color: var(--text-primary);
+		color: var(--ink-bright);
 		margin-top: 2px;
 	}
 

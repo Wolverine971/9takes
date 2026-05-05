@@ -148,15 +148,15 @@
 	.search-input {
 		width: 100%;
 		padding: 0.75rem 1rem;
-		border: 1px solid var(--bg-elevated, var(--bg-elevated));
+		border: 1px solid var(--stone-warm, var(--stone-warm));
 		border-radius: var(--border-radius, 0.5rem);
 		font-size: 1rem;
-		background-color: var(--bg-surface, var(--bg-surface));
-		color: var(--text-primary, var(--text-primary));
+		background-color: var(--stone-warm, var(--stone-warm));
+		color: var(--ink-bright, var(--ink-bright));
 
 		&:focus {
 			outline: none;
-			border-color: var(--primary, var(--primary-dark));
+			border-color: var(--lamp-glow, var(--lamp-glow));
 			box-shadow: 0 0 0 2px rgba(45, 212, 191, 0.2);
 		}
 	}
@@ -171,8 +171,8 @@
 		display: inline-block;
 		width: 1rem;
 		height: 1rem;
-		border: 2px solid var(--bg-elevated, var(--bg-elevated));
-		border-top-color: var(--primary, var(--primary-dark));
+		border: 2px solid var(--stone-warm, var(--stone-warm));
+		border-top-color: var(--lamp-glow, var(--lamp-glow));
 		border-radius: 50%;
 		animation: spin 1s linear infinite;
 	}
@@ -187,11 +187,11 @@
 		background: none;
 		border: none;
 		cursor: pointer;
-		color: var(--text-tertiary, var(--text-tertiary));
+		color: var(--ink-dim);
 		font-size: 1.25rem;
 
 		&:hover {
-			color: var(--text-primary, var(--text-primary));
+			color: var(--ink-bright, var(--ink-bright));
 		}
 	}
 
@@ -203,8 +203,8 @@
 		right: 0;
 		max-height: 300px;
 		overflow-y: auto;
-		background: var(--bg-surface, var(--bg-surface));
-		border: 1px solid var(--bg-elevated, var(--bg-elevated));
+		background: var(--stone-warm, var(--stone-warm));
+		border: 1px solid var(--stone-warm, var(--stone-warm));
 		border-radius: var(--border-radius, 0.5rem);
 		margin-top: 0.25rem;
 		box-shadow:
@@ -225,22 +225,22 @@
 		border: none;
 		text-align: left;
 		cursor: pointer;
-		color: var(--text-primary, var(--text-primary));
+		color: var(--ink-bright, var(--ink-bright));
 
 		&:hover {
-			background-color: var(--bg-elevated, var(--bg-elevated));
+			background-color: var(--stone-warm, var(--stone-warm));
 		}
 	}
 
 	.result-item.active .result-button {
-		background-color: var(--bg-elevated, var(--bg-elevated));
+		background-color: var(--stone-warm, var(--stone-warm));
 	}
 
 	.no-results {
 		padding: 0.75rem 1rem;
-		color: var(--text-tertiary, var(--text-tertiary));
-		background: var(--bg-surface, var(--bg-surface));
-		border: 1px solid var(--bg-elevated, var(--bg-elevated));
+		color: var(--ink-dim);
+		background: var(--stone-warm, var(--stone-warm));
+		border: 1px solid var(--stone-warm, var(--stone-warm));
 		border-radius: var(--border-radius, 0.5rem);
 		margin-top: 0.25rem;
 		box-shadow:

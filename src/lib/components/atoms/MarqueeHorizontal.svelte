@@ -127,9 +127,9 @@
 	.marquee-container {
 		width: 100%;
 		overflow: hidden;
-		background: linear-gradient(135deg, var(--bg-surface) 0%, var(--bg-deep) 100%);
-		border-top: 1px solid color-mix(in srgb, var(--text-tertiary) 20%, transparent);
-		border-bottom: 1px solid color-mix(in srgb, var(--text-tertiary) 20%, transparent);
+		background: linear-gradient(135deg, var(--stone-warm) 0%, var(--night-deep) 100%);
+		border-top: 1px solid color-mix(in srgb, var(--ink-dim) 20%, transparent);
+		border-bottom: 1px solid color-mix(in srgb, var(--ink-dim) 20%, transparent);
 		position: relative;
 	}
 
@@ -146,12 +146,12 @@
 
 	.marquee-container::before {
 		left: 0;
-		background: linear-gradient(to right, var(--bg-surface), transparent);
+		background: linear-gradient(to right, var(--stone-warm), transparent);
 	}
 
 	.marquee-container::after {
 		right: 0;
-		background: linear-gradient(to left, var(--bg-deep), transparent);
+		background: linear-gradient(to left, var(--night-deep), transparent);
 	}
 
 	.marquee {
@@ -193,9 +193,9 @@
 		position: relative;
 
 		&:hover {
-			color: var(--accent-light);
+			color: var(--lamp-glow);
 			transform: scale(1.1);
-			text-shadow: 0 0 20px rgba(45, 212, 191, 0.5);
+			/* Phase 2 (2026-05-04): teal text-shadow removed per design-system.md §5. */
 		}
 
 		/* Separator between items */
@@ -203,7 +203,7 @@
 			content: '•';
 			display: inline-block !important;
 			margin-left: 2rem;
-			color: var(--text-muted);
+			color: var(--ink-dim);
 			font-size: 0.75rem;
 		}
 	}

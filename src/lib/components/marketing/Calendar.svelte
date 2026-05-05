@@ -221,9 +221,9 @@
 	}
 
 	function getCampaignColor(campaignId: string | null | undefined) {
-		if (!campaignId) return 'var(--bg-elevated)';
+		if (!campaignId) return 'var(--stone-warm)';
 		const campaign = campaigns.find((c) => c.id === campaignId);
-		return campaign?.color || 'var(--bg-elevated)';
+		return campaign?.color || 'var(--stone-warm)';
 	}
 
 	function getStatusClass(status: string | undefined): string {
@@ -653,15 +653,15 @@
 		width: 32px;
 		height: 32px;
 		border-radius: 8px;
-		border: 1px solid var(--bg-elevated);
-		background: var(--bg-surface);
-		color: var(--text-primary);
+		border: 1px solid var(--stone-warm);
+		background: var(--stone-warm);
+		color: var(--ink-bright);
 		cursor: pointer;
 		transition: all 0.15s ease;
 	}
 
 	.nav-btn:hover {
-		background: var(--bg-elevated);
+		background: var(--stone-warm);
 	}
 
 	.nav-loading {
@@ -671,7 +671,7 @@
 	.period-label {
 		font-size: 1.125rem;
 		font-weight: 700;
-		color: var(--text-primary);
+		color: var(--ink-bright);
 	}
 
 	.filter-controls {
@@ -683,10 +683,10 @@
 	.filter-select {
 		padding: 0.375rem 2rem 0.375rem 0.75rem;
 		font-size: 0.8125rem;
-		border: 1px solid var(--bg-elevated);
+		border: 1px solid var(--stone-warm);
 		border-radius: 8px;
-		background: var(--bg-deep);
-		color: var(--text-primary);
+		background: var(--night-deep);
+		color: var(--ink-bright);
 		appearance: none;
 		background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 24 24' fill='none' stroke='%2364748b' stroke-width='2'%3E%3Cpath d='m6 9 6 6 6-6'/%3E%3C/svg%3E");
 		background-repeat: no-repeat;
@@ -704,7 +704,7 @@
 		left: 0.625rem;
 		top: 50%;
 		transform: translateY(-50%);
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 		pointer-events: none;
 	}
 
@@ -712,15 +712,15 @@
 		width: 100%;
 		padding: 0.375rem 0.75rem 0.375rem 2rem;
 		font-size: 0.8125rem;
-		border: 1px solid var(--bg-elevated);
+		border: 1px solid var(--stone-warm);
 		border-radius: 8px;
-		background: var(--bg-deep);
-		color: var(--text-primary);
+		background: var(--night-deep);
+		color: var(--ink-bright);
 	}
 
 	.search-input:focus {
 		outline: none;
-		border-color: var(--primary);
+		border-color: var(--lamp-glow);
 	}
 
 	/* Buttons */
@@ -748,13 +748,13 @@
 	}
 
 	.btn-secondary {
-		background: var(--bg-elevated);
-		color: var(--text-primary);
+		background: var(--stone-warm);
+		color: var(--ink-bright);
 		font-weight: 600;
 	}
 
 	.btn-secondary:hover {
-		background: var(--bg-highlight);
+		background: var(--stone-warm);
 	}
 
 	/* Spinner */
@@ -762,8 +762,8 @@
 		display: inline-block;
 		width: 16px;
 		height: 16px;
-		border: 2px solid var(--bg-elevated);
-		border-top-color: var(--primary);
+		border: 2px solid var(--stone-warm);
+		border-top-color: var(--lamp-glow);
 		border-radius: 50%;
 		animation: spin 0.6s linear infinite;
 	}
@@ -791,7 +791,7 @@
 		text-align: center;
 		font-size: 0.8125rem;
 		font-weight: 700;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 	}
 
 	.day-cell {
@@ -799,9 +799,9 @@
 		min-height: 8rem;
 		overflow: hidden;
 		border-radius: 8px;
-		border: 1px solid var(--bg-elevated);
+		border: 1px solid var(--stone-warm);
 		padding: 0.5rem;
-		background: var(--bg-surface);
+		background: var(--stone-warm);
 		transition: all 0.2s ease;
 	}
 
@@ -810,7 +810,7 @@
 	}
 
 	.day-cell.is-active:hover {
-		border-color: var(--primary);
+		border-color: var(--lamp-glow);
 	}
 
 	.day-cell.is-today {
@@ -819,13 +819,13 @@
 	}
 
 	.day-cell.is-empty {
-		background: var(--bg-deep);
+		background: var(--night-deep);
 	}
 
 	.day-number {
 		font-size: 0.8125rem;
 		font-weight: 600;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 		margin-bottom: 0.25rem;
 	}
 
@@ -878,7 +878,7 @@
 		padding: 0.25rem 0;
 		text-align: center;
 		font-size: 0.75rem;
-		color: var(--primary);
+		color: var(--lamp-glow);
 		background: none;
 		border: none;
 		cursor: pointer;
@@ -911,7 +911,7 @@
 	.week-day-label {
 		font-size: 0.875rem;
 		font-weight: 700;
-		color: var(--text-primary);
+		color: var(--ink-bright);
 	}
 
 	.today-label {
@@ -938,8 +938,8 @@
 		gap: 0.5rem;
 		padding: 0.5rem;
 		border-radius: 8px;
-		border: 1px solid var(--bg-elevated);
-		background: var(--bg-surface);
+		border: 1px solid var(--stone-warm);
+		background: var(--stone-warm);
 	}
 
 	.week-item {
@@ -965,13 +965,13 @@
 		align-items: center;
 		flex-shrink: 0;
 		padding-right: 0.75rem;
-		border-right: 1px solid var(--bg-elevated);
+		border-right: 1px solid var(--stone-warm);
 	}
 
 	.time-bold {
 		font-size: 0.875rem;
 		font-weight: 700;
-		color: var(--text-primary);
+		color: var(--ink-bright);
 	}
 
 	.week-item-content {
@@ -979,12 +979,12 @@
 		display: flex;
 		flex-direction: column;
 		font-size: 0.875rem;
-		color: var(--text-primary);
+		color: var(--ink-bright);
 	}
 
 	.week-item-hashtags {
 		font-size: 0.75rem;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 		margin-top: 0.25rem;
 	}
 
@@ -1022,8 +1022,8 @@
 	}
 
 	.status-draft {
-		background: var(--bg-elevated);
-		color: var(--text-secondary);
+		background: var(--stone-warm);
+		color: var(--ink-mid);
 	}
 
 	.campaign-pill {
@@ -1038,10 +1038,10 @@
 		padding: 1rem;
 		text-align: center;
 		font-size: 0.875rem;
-		color: var(--text-secondary);
-		border: 1px dashed var(--bg-elevated);
+		color: var(--ink-mid);
+		border: 1px dashed var(--stone-warm);
 		border-radius: 8px;
-		background: var(--bg-deep);
+		background: var(--night-deep);
 	}
 
 	/* Modals */
@@ -1057,8 +1057,8 @@
 	}
 
 	.modal-dialog {
-		background: var(--bg-surface);
-		border: 1px solid var(--bg-elevated);
+		background: var(--stone-warm);
+		border: 1px solid var(--stone-warm);
 		border-radius: 12px;
 		padding: 1.5rem;
 		width: 90%;
@@ -1078,7 +1078,7 @@
 		margin: 0 0 1rem 0;
 		font-size: 1.25rem;
 		font-weight: 700;
-		color: var(--text-primary);
+		color: var(--ink-bright);
 	}
 
 	.all-content-list {
@@ -1121,12 +1121,12 @@
 		flex-grow: 1;
 		display: flex;
 		flex-direction: column;
-		color: var(--text-primary);
+		color: var(--ink-bright);
 	}
 
 	.hashtags-text {
 		font-size: 0.75rem;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 		margin-top: 0.25rem;
 	}
 

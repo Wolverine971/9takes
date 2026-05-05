@@ -368,7 +368,7 @@
 	}
 
 	.accordion {
-		border: 1px solid var(--bg-elevated);
+		border: 1px solid var(--stone-warm);
 		border-radius: 12px;
 		overflow: hidden;
 	}
@@ -379,9 +379,9 @@
 		justify-content: space-between;
 		align-items: center;
 		padding: 0.75rem 1rem;
-		background: var(--bg-surface);
+		background: var(--stone-warm);
 		border: none;
-		color: var(--text-primary);
+		color: var(--ink-bright);
 		font-size: 0.875rem;
 		font-weight: 500;
 		cursor: pointer;
@@ -389,7 +389,7 @@
 	}
 
 	.accordion-header:hover {
-		background: var(--bg-elevated);
+		background: var(--stone-warm);
 	}
 
 	.accordion-chevron {
@@ -402,8 +402,8 @@
 
 	.accordion-content {
 		padding: 1rem;
-		border-top: 1px solid var(--bg-elevated);
-		background: var(--bg-deep);
+		border-top: 1px solid var(--stone-warm);
+		background: var(--night-deep);
 	}
 
 	.form-grid {
@@ -427,23 +427,23 @@
 	.field-label {
 		font-size: 0.8125rem;
 		font-weight: 500;
-		color: var(--text-primary);
+		color: var(--ink-bright);
 	}
 
 	.field-input {
 		width: 100%;
 		padding: 0.5rem 0.75rem;
 		font-size: 0.875rem;
-		border: 1px solid var(--bg-elevated);
+		border: 1px solid var(--stone-warm);
 		border-radius: 8px;
-		background: var(--bg-deep);
-		color: var(--text-primary);
+		background: var(--night-deep);
+		color: var(--ink-bright);
 		transition: border-color 0.15s ease;
 	}
 
 	.field-input:focus {
 		outline: none;
-		border-color: var(--primary);
+		border-color: var(--lamp-glow);
 	}
 
 	.field-textarea {
@@ -485,7 +485,7 @@
 		position: relative;
 		width: 36px;
 		height: 20px;
-		background: var(--bg-elevated);
+		background: var(--stone-warm);
 		border-radius: 10px;
 		transition: background 0.2s ease;
 	}
@@ -503,7 +503,7 @@
 	}
 
 	.toggle-input:checked + .toggle-switch {
-		background: var(--primary);
+		background: var(--lamp-glow);
 	}
 
 	.toggle-input:checked + .toggle-switch::after {
@@ -512,7 +512,7 @@
 
 	.toggle-text {
 		font-size: 0.8125rem;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 	}
 
 	.thread-block {
@@ -522,7 +522,7 @@
 
 	.thread-footer {
 		font-size: 0.75rem;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 		display: flex;
 		align-items: center;
 		gap: 0.75rem;
@@ -536,7 +536,7 @@
 	.delete-link {
 		background: none;
 		border: none;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 		cursor: pointer;
 		font-size: 0.75rem;
 		padding: 0;
@@ -563,7 +563,7 @@
 	}
 
 	.btn-primary {
-		background: var(--primary);
+		background: var(--lamp-glow);
 		color: white;
 	}
 
@@ -573,12 +573,12 @@
 	}
 
 	.btn-secondary {
-		background: var(--bg-elevated);
-		color: var(--text-primary);
+		background: var(--stone-warm);
+		color: var(--ink-bright);
 	}
 
 	.btn-secondary:hover {
-		background: var(--bg-highlight);
+		background: var(--stone-warm);
 	}
 
 	.btn-danger {
@@ -602,8 +602,8 @@
 	}
 
 	.modal-dialog {
-		background: var(--bg-surface);
-		border: 1px solid var(--bg-elevated);
+		background: var(--stone-warm);
+		border: 1px solid var(--stone-warm);
 		border-radius: 12px;
 		padding: 1.5rem;
 		max-width: 400px;
@@ -615,7 +615,7 @@
 		margin: 0 0 1.25rem 0;
 		font-size: 1rem;
 		font-weight: 500;
-		color: var(--text-primary);
+		color: var(--ink-bright);
 	}
 
 	.modal-actions {

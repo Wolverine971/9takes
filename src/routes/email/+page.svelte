@@ -3,8 +3,8 @@
 	import { joinEmail, joinEmail2, signupEmail, forgotPass, emailTemplate } from '../../emails';
 	import { notifications } from '$lib/components/molecules/notifications';
 	import { onMount } from 'svelte';
-	import Modal from '$lib/components/atoms/Modal2.svelte';
-	import { getModal } from '$lib/components/atoms/Modal2.svelte';
+	import Modal from '$lib/components/atoms/Modal.svelte';
+	import { getModal } from '$lib/components/atoms/Modal.svelte';
 
 	// Email form states
 	let templateEmail: string = '';

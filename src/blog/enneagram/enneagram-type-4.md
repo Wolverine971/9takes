@@ -44,7 +44,13 @@ type-4-missing-piece
     import MarqueeHorizontal from "$lib/components/atoms/MarqueeHorizontal.svelte";
     import PopCard from "$lib/components/atoms/PopCard.svelte";
     import QuickAnswer from "$lib/components/blog/callouts/QuickAnswer.svelte";
+    import EnneagramTypeDossier from "$lib/components/blog/EnneagramTypeDossier.svelte";
+    import { enneagramTypeProfiles } from "$lib/data/enneagramTypeProfiles";
+
+    const dossier = enneagramTypeProfiles[4];
 </script>
+
+<EnneagramTypeDossier {...dossier} />
 
 <QuickAnswer question="Why do Type 4s feel so different from everyone?">
 Because you perceive dimensions of feeling that others genuinely cannot see. You experience the ache of existence itself. While others seem to move through life with an effortless script, you feel the weight of every moment, the beauty in every loss, the meaning beneath every surface. This isn't pathology. This is perception.
@@ -191,6 +197,24 @@ The cruelest part is how much you hate yourself for it. You can see exactly what
 **Distinguish feeling from fact.** "I feel completely alone" is real. "I am completely alone" may not be true. Both can exist. The feeling doesn't require the fact to validate it.
 
 Read more about <a href="/enneagram-corner/enneagram-stress-number">other types under stress</a>
+
+</section>
+
+<section class="section-content">
+
+## How 4s Handle Conflict: The Reactive Approach
+
+Type 4s belong to the **Reactive** Harmonic group (alongside 6s and 8s) — the types whose nervous systems decide that a problem isn't real until somebody emotional is in the room with it.
+
+A partner forgets the three-month anniversary. By the time the Four brings it up, it's not about the anniversary anymore — it's a referendum on whether they're actually loved, whether anyone has ever truly seen them, whether the relationship was always quietly a lie. The reaction is real. The size of it is the giveaway.
+
+That's the Reactive move: identity and emotion are fused, so a small slight escalates into a story about the self. The Four isn't being dramatic for attention. They're trying to get the realness of the wound to register — for themselves first, and then for the other person, who they need to mirror that intensity back as proof of love.
+
+**The blind spot**: Confusing intensity with depth. The deeper the Four loops into the feeling, the further they get from what actually happened. Each rumination cycle adds weight to a moment that was already small.
+
+**The shift**: Distinguish processing from rumination. If each loop is making it heavier instead of lighter, you're not processing — you're amplifying. Move the body. Get out of the inner narrator and into a real conversation with a real person.
+
+For the full framework, see [The Enneagram Harmonic Approaches](/enneagram-corner/enneagram-harmonic-approaches).
 
 </section>
 

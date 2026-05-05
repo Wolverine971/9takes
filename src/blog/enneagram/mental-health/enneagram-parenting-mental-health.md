@@ -92,14 +92,6 @@ _This table reflects common observations parents report — not diagnostic crite
 
 **Trust your instinct.** If your child's struggles have moved from the "Typical" column to "May Become Concerning," that gut feeling matters. You don't need to wait for a crisis to reach out to a professional.
 
-<div class="scroll-fade">
-<MarqueeHorizontal displayList={[
-  { name: "Enneagram Crisis Management Guide", link: "/enneagram-corner/mental-health/enneagram-crisis-management-guide" },
-  { name: "Enneagram Therapy Guide", link: "/enneagram-corner/mental-health/enneagram-therapy-guide" },
-  { name: "Enneagram Trauma Response Guide", link: "/enneagram-corner/mental-health/enneagram-trauma-response-guide" },
-  { name: "Enneagram Neurodivergence Guide", link: "/enneagram-corner/mental-health/enneagram-neurodivergence-guide" }
-]} />
-</div>
 
 ## Type 1 Patterns: The Little Perfectionist
 

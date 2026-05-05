@@ -94,18 +94,18 @@
 		align-items: center;
 	}
 	.author a {
-		color: var(--accent-light);
+		color: var(--lamp-glow);
 		text-decoration: none;
 		transition: color 0.2s ease;
 	}
 	.author a:hover {
-		color: var(--primary-lightest);
+		color: var(--lamp-glow);
 	}
 	.separator {
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 	}
 	.date {
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 	}
 	.date.updated {
 		color: #22c55e;

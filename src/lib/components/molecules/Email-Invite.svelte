@@ -55,7 +55,7 @@
 			class:form-send={true}
 			class={email.length ? 'regular' : 'disabled'}
 			>Invite
-			<Envelope height={'1rem'} fill={'var(--accent)'} />
+			<Envelope height={'1rem'} fill={'var(--lamp-glow)'} />
 		</button>
 	</form>
 	{#if error}
@@ -90,7 +90,7 @@
 		border-radius: var(--base-border-radius);
 		border: none;
 		cursor: pointer;
-		color: var(--primary);
+		color: var(--lamp-glow);
 		border: 1px solid;
 		width: 200px;
 		display: flex;
@@ -128,17 +128,17 @@
 	}
 	::placeholder {
 		/* Chrome, Firefox, Opera, Safari 10.1+ */
-		color: var(--primary);
+		color: var(--lamp-glow);
 		opacity: 1; /* Firefox */
 	}
 
 	:-ms-input-placeholder {
 		/* Internet Explorer 10-11 */
-		color: var(--primary);
+		color: var(--lamp-glow);
 	}
 
 	::-ms-input-placeholder {
 		/* Microsoft Edge */
-		color: var(--primary);
+		color: var(--lamp-glow);
 	}
 </style>

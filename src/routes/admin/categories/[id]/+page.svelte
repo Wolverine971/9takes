@@ -369,8 +369,8 @@
 	.editor-card,
 	.sidebar-card,
 	.preview-card {
-		border: 1px solid var(--bg-elevated);
-		background: var(--bg-surface);
+		border: 1px solid var(--stone-warm);
+		background: var(--stone-warm);
 		border-radius: 18px;
 	}
 
@@ -403,15 +403,15 @@
 	.back-btn,
 	.secondary-btn,
 	.secondary-link {
-		border: 1px solid var(--bg-elevated);
-		background: var(--bg-deep);
-		color: var(--text-primary);
+		border: 1px solid var(--stone-warm);
+		background: var(--night-deep);
+		color: var(--ink-bright);
 	}
 
 	.primary-btn {
-		border: 1px solid color-mix(in srgb, var(--primary) 55%, var(--bg-elevated));
-		background: color-mix(in srgb, var(--primary) 14%, var(--bg-base));
-		color: var(--text-primary);
+		border: 1px solid color-mix(in srgb, var(--lamp-glow) 55%, var(--stone-warm));
+		background: color-mix(in srgb, var(--lamp-glow) 14%, var(--night-deep));
+		color: var(--ink-bright);
 	}
 
 	.back-btn:disabled,
@@ -427,20 +427,20 @@
 		font-weight: 700;
 		letter-spacing: 0.1em;
 		text-transform: uppercase;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 	}
 
 	h1,
 	h2 {
 		margin: 0;
-		color: var(--text-primary);
+		color: var(--ink-bright);
 	}
 
 	.page-path,
 	.card-head p,
 	.empty-note {
 		margin: 0.4rem 0 0;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 		line-height: 1.5;
 	}
 
@@ -491,16 +491,16 @@
 
 	.description-field label {
 		font-weight: 600;
-		color: var(--text-primary);
+		color: var(--ink-bright);
 	}
 
 	.description-field textarea {
 		width: 100%;
 		padding: 0.9rem;
 		border-radius: 12px;
-		border: 1px solid var(--bg-elevated);
-		background: var(--bg-deep);
-		color: var(--text-primary);
+		border: 1px solid var(--stone-warm);
+		background: var(--night-deep);
+		color: var(--ink-bright);
 		resize: vertical;
 	}
 
@@ -525,7 +525,7 @@
 	.run-list {
 		margin: 0.8rem 0 0;
 		padding-left: 1.1rem;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 	}
 
 	.pill-list {
@@ -539,9 +539,9 @@
 	.pill-list li {
 		padding: 0.45rem 0.7rem;
 		border-radius: 999px;
-		background: var(--bg-deep);
-		border: 1px solid var(--bg-elevated);
-		color: var(--text-primary);
+		background: var(--night-deep);
+		border: 1px solid var(--stone-warm);
+		color: var(--ink-bright);
 	}
 
 	.run-list li {
@@ -551,7 +551,7 @@
 	}
 
 	.intro-preview {
-		color: var(--text-primary);
+		color: var(--ink-bright);
 		line-height: 1.7;
 	}
 
@@ -566,7 +566,7 @@
 	}
 
 	:global([data-preview] a) {
-		color: var(--primary);
+		color: var(--lamp-glow);
 	}
 
 	@media (max-width: 980px) {

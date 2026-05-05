@@ -1,120 +1,27 @@
 <!-- src/routes/questions/+page.svelte -->
+<!--
+  /questions index — Streetlamp Symposium V5.
+  Visual ground truth: /, /design-preview/v5
+  Spec: docs/design/2026-05-04-streetlamp-symposium-v5.md.
+  Tokens (--lamp-*, --night-*, --stone-*, --ink-*, --data-*, --pool-rgb,
+  --pool-deep-rgb) live globally in src/scss/index.scss.
+-->
 <script lang="ts">
-	import { fade, fly } from 'svelte/transition';
-	import { goto, invalidateAll } from '$app/navigation';
-	import { page } from '$app/stores';
+	import { onMount, untrack } from 'svelte';
 	import { browser } from '$app/environment';
-	import { enhance, deserialize } from '$app/forms';
-	import { onMount, onDestroy } from 'svelte';
-	import QuestionItem from '$lib/components/questions/QuestionItem.svelte';
-	import SearchQuestion from '$lib/components/questions/SearchQuestion.svelte';
-	import QuestionItemSkeleton from '$lib/components/questions/QuestionItemSkeleton.svelte';
-	import ErrorBoundary from '$lib/components/error/ErrorBoundary.svelte';
-	import AsyncErrorHandler from '$lib/components/error/AsyncErrorHandler.svelte';
-	import Spinner from '$lib/components/atoms/Spinner.svelte';
+	import { deserialize } from '$app/forms';
+	import { Button, SectionKicker } from '$lib/components/atoms';
 	import SEOHead from '$lib/components/SEOHead.svelte';
-	import {
-		buildQuestionCategoryPath,
-		buildQuestionCategorySlug
-	} from '$lib/utils/questionCategorySlug';
+	import SearchQuestion from '$lib/components/questions/SearchQuestion.svelte';
 	import { buildBreadcrumbSchemaForGraph, buildFAQSchemaForGraph } from '$lib/utils/schema';
+	import { goto } from '$app/navigation';
 	import type { PageData } from './$types';
-	import type { QuestionWithTag, QuestionCategory } from '$lib/types/questions';
 
-	export let data: PageData;
+	let { data }: { data: PageData } = $props();
 
-	// State management
-	let loading = false;
-	let loadingMore = false;
-	let isNavigating = false; // Prevents reactive URL handler from interfering during programmatic navigation
-	let selectedCategory: number | null = (() => {
-		if (data.selectedCategory === null || data.selectedCategory === undefined) return null;
-		const parsed = Number(data.selectedCategory);
-		return Number.isFinite(parsed) ? parsed : null;
-	})();
-	let allQuestions = [...(data.questionsAndTags || [])];
-	let currentPage = data.currentPage || 1;
-	let hasMore = data.hasMore;
-	let observer: IntersectionObserver | null = null;
-	let loadMoreTrigger: HTMLElement;
-	let errorMessage = '';
-
-	// Memoized calculations
-	$: categories = processQuestionsAndTags(allQuestions);
-	$: filteredQuestions = selectedCategory
-		? allQuestions.filter((q) => q.tag_id === selectedCategory)
-		: allQuestions;
-	$: displayedCategories = data.subcategoryTags || [];
-
-	// Animation settings
-	const transitionEnabled =
-		browser && !window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-	const duration = transitionEnabled ? 300 : 0;
-
-	function processQuestionsAndTags(
-		questions: QuestionWithTag[]
-	): Record<string, QuestionWithTag[]> {
-		if (!questions || questions.length === 0) return {};
-
-		const grouped: Record<string, QuestionWithTag[]> = {};
-		const seen = new Set<number>();
-
-		for (const question of questions) {
-			if (!seen.has(question.id)) {
-				seen.add(question.id);
-				const key = question.tag_name || 'Uncategorized';
-				if (!grouped[key]) grouped[key] = [];
-				grouped[key].push(question);
-			}
-		}
-
-		return grouped;
-	}
-
-	async function loadMore() {
-		if (loadingMore || !hasMore) return;
-
-		loadingMore = true;
-		errorMessage = '';
-
-		try {
-			const formData = new FormData();
-			formData.append('page', String(currentPage + 1));
-			if (selectedCategory) {
-				formData.append('categoryId', String(selectedCategory));
-			}
-
-			const response = await fetch('?/loadMore', {
-				method: 'POST',
-				body: formData
-			});
-
-			// Properly deserialize SvelteKit action response
-			const text = await response.text();
-			const result = deserialize(text);
-
-			if (result.type === 'success' && result.data) {
-				const responseData = result.data as {
-					questions: typeof allQuestions;
-					page: number;
-					hasMore: boolean;
-				};
-				allQuestions = [...allQuestions, ...(responseData.questions || [])];
-				currentPage = responseData.page;
-				hasMore = responseData.hasMore;
-			}
-		} catch (error) {
-			console.error('Error loading more questions:', error);
-			errorMessage = 'Failed to load more questions. Please try again.';
-		} finally {
-			loadingMore = false;
-		}
-	}
-
-	function getCategoryHref(category: Pick<QuestionCategory, 'category_name' | 'slug'>): string {
-		return buildQuestionCategoryPath(category.slug || category.category_name);
-	}
-
+	// ------------------------------------------------------------------
+	// SEO + structured-data — preserved verbatim from the previous page.
+	// ------------------------------------------------------------------
 	const questionsFaqs = [
 		{
 			question: 'How can I ask questions anonymously on 9takes?',
@@ -165,142 +72,115 @@
 		]
 	};
 
-	// Helper to find category by slug
-	function findCategoryBySlug(slug: string): QuestionCategory | undefined {
-		return displayedCategories.find(
-			(c: QuestionCategory) =>
-				(c.slug || buildQuestionCategorySlug(c.category_name)) === buildQuestionCategorySlug(slug)
-		);
-	}
+	// ------------------------------------------------------------------
+	// Local pagination state (Svelte 5 runes).
+	// ------------------------------------------------------------------
+	let questionsList = $state(untrack(() => [...(data.questionsAndTags ?? [])]));
+	let currentPage = $state(untrack(() => data.currentPage ?? 1));
+	let hasMore = $state(untrack(() => Boolean(data.hasMore)));
+	let loadingMore = $state(false);
+	let loadMoreError = $state('');
 
-	async function filterByCategory(
-		categoryId: number | null,
-		categorySlug: string | null = null,
-		updateUrl = true
-	) {
-		if (categoryId !== null && updateUrl && browser && categorySlug) {
-			await goto(buildQuestionCategoryPath(categorySlug), { noScroll: true });
-			return;
-		}
+	let loadMoreTrigger: HTMLElement | undefined = $state(undefined);
+	let observer: IntersectionObserver | null = null;
 
-		if (selectedCategory === categoryId) return;
-
-		loading = true;
-		selectedCategory = categoryId;
-		currentPage = 1;
-		errorMessage = '';
-
-		// Prevent reactive statement from interfering during programmatic navigation
-		if (updateUrl) {
-			isNavigating = true;
-		}
+	async function loadMore() {
+		if (loadingMore || !hasMore) return;
+		loadingMore = true;
+		loadMoreError = '';
 
 		try {
-			if (categoryId === null) {
-				// Reset to all questions - update URL and reload data
-				if (updateUrl && browser) {
-					const url = new URL($page.url);
-					url.searchParams.delete('category');
-					await goto(url.toString(), { replaceState: true, invalidateAll: true });
-				} else {
-					await invalidateAll();
-				}
-				// Restore original data
-				allQuestions = [...(data.questionsAndTags || [])];
-				hasMore = data.hasMore;
+			const formData = new FormData();
+			formData.append('page', String(currentPage + 1));
+
+			const response = await fetch('?/loadMore', {
+				method: 'POST',
+				body: formData
+			});
+
+			const text = await response.text();
+			const result = deserialize(text);
+
+			if (result.type === 'success' && result.data) {
+				const responseData = result.data as {
+					questions: typeof questionsList;
+					page: number;
+					hasMore: boolean;
+				};
+				questionsList = [...questionsList, ...(responseData.questions ?? [])];
+				currentPage = responseData.page;
+				hasMore = Boolean(responseData.hasMore);
 			} else {
-				// Update URL to reflect category selection (use slug for readable URLs)
-				if (updateUrl && browser && categorySlug) {
-					const url = new URL($page.url);
-					url.searchParams.set('category', categorySlug);
-					await goto(url.toString(), { replaceState: true, noScroll: true });
-				}
-
-				// Filter by category
-				const formData = new FormData();
-				formData.append('categoryId', String(categoryId));
-
-				const response = await fetch('?/filterByCategory', {
-					method: 'POST',
-					body: formData
-				});
-
-				// Properly deserialize SvelteKit action response
-				const text = await response.text();
-				const result = deserialize(text);
-
-				if (result.type === 'success' && result.data) {
-					allQuestions = (result.data as { questions: typeof allQuestions }).questions || [];
-					hasMore = false; // Filtered results don't paginate
-				} else if (result.type === 'failure') {
-					throw new Error('Failed to filter questions');
-				}
+				loadMoreError = 'Failed to load more questions.';
 			}
-		} catch (error) {
-			console.error('Error filtering questions:', error);
-			errorMessage = 'Failed to filter questions. Please try again.';
+		} catch (err) {
+			console.error('Error loading more questions:', err);
+			loadMoreError = 'Failed to load more questions. Please try again.';
 		} finally {
-			loading = false;
-			isNavigating = false;
+			loadingMore = false;
 		}
 	}
 
+	// Infinite scroll trigger — observe the load-more sentinel.
+	onMount(() => {
+		if (!browser) return;
+		if (!hasMore || !loadMoreTrigger) return;
+
+		observer = new IntersectionObserver(
+			(entries) => {
+				if (entries[0].isIntersecting && !loadingMore && hasMore) {
+					void loadMore();
+				}
+			},
+			{ threshold: 0.1, rootMargin: '160px' }
+		);
+		observer.observe(loadMoreTrigger);
+
+		return () => {
+			observer?.disconnect();
+			observer = null;
+		};
+	});
+
+	// ------------------------------------------------------------------
+	// Helpers.
+	// ------------------------------------------------------------------
+	function fileNumber(id: number): string {
+		return String((id * 17 + 25) % 10000).padStart(4, '0');
+	}
+
+	function relativeTime(iso: string | undefined | null): string {
+		if (!iso) return 'POSTED RECENTLY';
+		const ts = new Date(iso).getTime();
+		if (!Number.isFinite(ts)) return 'POSTED RECENTLY';
+		const diff = Date.now() - ts;
+		const minutes = Math.floor(diff / 60000);
+		if (minutes < 1) return 'POSTED JUST NOW';
+		if (minutes < 60) return `POSTED ${minutes}M AGO`;
+		const hours = Math.floor(minutes / 60);
+		if (hours < 24) return `POSTED ${hours}H AGO`;
+		const days = Math.floor(hours / 24);
+		if (days < 30) return `POSTED ${days}D AGO`;
+		return `POSTED ${new Date(iso)
+			.toLocaleDateString('en-US', { month: 'short', day: 'numeric' })
+			.toUpperCase()}`;
+	}
+
+	function categoryHref(cat: { slug?: string | null; id: number }): string {
+		const slug = cat.slug ?? String(cat.id);
+		return `/questions/categories/${slug}`;
+	}
+
+	// Search component dispatches createQuestion + questionSelected events.
 	function goToCreateQuestionPage(detail: string) {
 		if (!data?.user?.id) {
-			goto('/register', { invalidateAll: true });
+			void goto('/register', { invalidateAll: true });
 			return;
 		}
 		const url = detail
 			? `/questions/create/?question=${encodeURIComponent(detail)}`
 			: '/questions/create/';
-		goto(url, { invalidateAll: true });
-	}
-
-	// Set up infinite scroll
-	onMount(() => {
-		if (browser && hasMore) {
-			observer = new IntersectionObserver(
-				(entries) => {
-					if (entries[0].isIntersecting && !loadingMore && hasMore) {
-						loadMore();
-					}
-				},
-				{ threshold: 0.1, rootMargin: '100px' }
-			);
-
-			if (loadMoreTrigger) {
-				observer.observe(loadMoreTrigger);
-			}
-		}
-	});
-
-	onDestroy(() => {
-		if (observer) {
-			observer.disconnect();
-		}
-	});
-
-	// Handle URL changes (e.g., browser back/forward) - only for external navigation
-	$: if (browser && !isNavigating) {
-		const catParam = $page.url.searchParams.get('category');
-		if (catParam) {
-			const numeric = Number(catParam);
-			if (Number.isFinite(numeric)) {
-				if (numeric !== selectedCategory) {
-					filterByCategory(numeric, null, false);
-				}
-			} else {
-				// Try to find category by slug (name-based URL)
-				const category = findCategoryBySlug(catParam);
-				if (category && category.id !== selectedCategory) {
-					filterByCategory(category.id, category.slug || category.category_name, false);
-				}
-			}
-		} else if (selectedCategory !== null && !loading) {
-			// URL has no category param but we have a selection - reset
-			// Only reset if we're not currently loading (to avoid race conditions)
-			filterByCategory(null, null, false);
-		}
+		void goto(url, { invalidateAll: true });
 	}
 </script>
 
@@ -322,269 +202,782 @@
 	]}
 />
 
-<ErrorBoundary onError={(error) => console.error('Questions page error:', error)}>
-	<div
-		class="questions-page-container bg-[var(--bg-deep)]/70 mx-auto max-w-6xl overflow-x-hidden rounded-xl border border-[var(--primary-subtle)] p-2 shadow-[var(--shadow-md)] backdrop-blur-md sm:overflow-visible sm:p-4"
-		in:fade={{ duration }}
-	>
-		<!-- Header Section -->
-		<header class="mb-6 px-2 text-center sm:mb-8 sm:px-4">
-			{#if data?.user?.id}
-				<h1
-					class="mb-3 break-words text-xl font-bold text-[var(--text-primary)] sm:mb-4 sm:text-2xl"
-					in:fly={{ y: -20, duration, delay: 150 }}
-				>
-					Explore your psychology and those around you
-				</h1>
-			{:else}
-				<h1
-					class="mb-3 break-words text-xl font-bold text-[var(--text-primary)] sm:mb-4 sm:text-2xl"
-					in:fly={{ y: -20, duration, delay: 150 }}
-				>
-					Explore your psychology and those around you
-				</h1>
+<div class="questions-index">
+	<!-- =====================================================================
+	  §01 OBSERVATION — hero
+	  ===================================================================== -->
+	<section class="hero">
+		<div class="grain" aria-hidden="true"></div>
+		<div class="hero-pool" aria-hidden="true"></div>
 
-				<div class="mt-4 sm:mt-6" in:fly={{ y: 20, duration, delay: 300 }}>
-					<p
-						class="mx-auto mb-4 max-w-4xl text-sm leading-relaxed text-[var(--text-secondary)] sm:mb-6 sm:text-base"
-					>
-						Welcome to 9takes, where you can ask personal questions anonymously and receive answers
-						from diverse perspectives. Our unique platform allows you to explore life's questions
-						through the lens of personality types, ensuring a rich and varied discussion.
-					</p>
-					<div class="flex justify-center gap-6 sm:gap-8 md:gap-12">
-						<div class="flex flex-col items-center gap-0.5 sm:gap-1">
-							<strong class="text-lg text-[var(--primary)] sm:text-xl md:text-2xl"
-								>{data.totalQuestions || 0}</strong
-							>
-							<span class="text-xs text-[var(--text-secondary)] sm:text-sm">questions asked</span>
-						</div>
-						<div class="flex flex-col items-center gap-0.5 sm:gap-1">
-							<strong class="text-lg text-[var(--primary)] sm:text-xl md:text-2xl"
-								>{data.totalAnswers || 0}</strong
-							>
-							<span class="text-xs text-[var(--text-secondary)] sm:text-sm">answers shared</span>
-						</div>
+		<div class="hero-inner">
+			<div class="hero-text">
+				<div class="hero-eyebrow">
+					<SectionKicker num="01" label="OBSERVATION" />
+				</div>
+
+				<h1 class="display-xl">Drop a situation. Get nine reads.</h1>
+
+				<p class="mono hero-coords">
+					LAT 37.9755° N · LONG 23.7348° E · ATHENS · {data.totalQuestions ?? 0} OPEN
+				</p>
+
+				<p class="hero-subhead">
+					Real situations from real people. Each one read by all 9 personality types &mdash;
+					anonymously, locked-in, before anyone sees anyone else&rsquo;s take.
+				</p>
+				<p class="hero-subhead hero-subhead--meta">
+					{data.totalQuestions ?? 0} open questions. {data.totalAnswers ?? 0} unbiased takes gathered.
+					Pick one. Drop yours first.
+				</p>
+
+				<div class="hero-ctas">
+					{#if data.canAskQuestion}
+						<Button size="lg" variant="primary" href="/questions/create">Drop a question →</Button>
+					{/if}
+					<Button size="lg" variant="ghost" href="#open-floor">Browse open questions ↓</Button>
+				</div>
+			</div>
+
+			<div class="hero-statue" aria-hidden="true">
+				<div class="statue-frame">
+					<img
+						src="/philosopher-gathering.webp"
+						alt=""
+						class="statue"
+						loading="eager"
+						decoding="async"
+					/>
+					<div class="statue-vignette"></div>
+					<div class="statue-mono">
+						<span class="mono">9TAKES · OPEN FLOOR · DROP YOURS FIRST</span>
 					</div>
 				</div>
-			{/if}
+			</div>
+		</div>
+	</section>
+
+	<!-- =====================================================================
+	  §02 BROWSE BY CATEGORY — chip nav + search
+	  ===================================================================== -->
+	<section id="categories" class="categories">
+		<header class="section-header">
+			<SectionKicker class="section-tag" num="02" label="BROWSE BY CATEGORY" />
+			<h2 class="display-md">Browse by category.</h2>
+			<p class="section-sub">
+				Pick the lane you&rsquo;re circling — or scan everything that&rsquo;s open right now.
+			</p>
 		</header>
 
-		<!-- Search Section -->
-		<div class="relative z-20 mb-6 px-2 sm:mb-8 sm:px-0" in:fly={{ y: 20, duration, delay: 450 }}>
+		<div class="search-wrap">
 			<SearchQuestion
 				{data}
 				on:createQuestion={({ detail }) => goToCreateQuestionPage(detail)}
 				on:questionSelected={({ detail }) => {
 					if (detail?.url) {
-						goto(`/questions/${detail.url}`);
+						void goto(`/questions/${detail.url}`);
 					}
 				}}
 			/>
 		</div>
 
-		<!-- Categories Section -->
-		<section
-			class="from-[var(--bg-surface)]/70 to-[var(--bg-deep)]/60 mx-2 mb-4 rounded-xl border border-[var(--primary-subtle)] bg-gradient-to-b p-3 shadow-[var(--shadow-sm)] backdrop-blur-sm sm:mx-0 sm:mb-6 sm:p-4"
-			in:fly={{ y: 20, duration, delay: 600 }}
-		>
-			<div class="mb-2 flex items-center justify-between sm:mb-3">
-				<h2 class="text-sm font-semibold text-[var(--text-primary)] sm:text-base">
-					Browse by Category
-				</h2>
-				<a
-					href="/questions/categories"
-					class="text-xs font-semibold text-[var(--primary)] hover:underline sm:text-sm"
-					>Browse the full tree →</a
-				>
+		<div class="category-chips" role="navigation" aria-label="Question categories">
+			<a href="/questions" class="category-chip category-chip--active">ALL</a>
+			{#each data.subcategoryTags ?? [] as cat (cat.id)}
+				<a href={categoryHref(cat)} class="category-chip">
+					{cat.category_name.toUpperCase()}
+				</a>
+			{/each}
+			<a href="/questions/categories" class="category-chip category-chip--more"> FULL TREE → </a>
+		</div>
+	</section>
+
+	<!-- =====================================================================
+	  §03 OPEN FLOOR — question list (real data)
+	  ===================================================================== -->
+	<section id="open-floor" class="open-floor">
+		<div class="open-floor-pool" aria-hidden="true"></div>
+
+		<header class="open-floor-header">
+			<SectionKicker class="section-tag" num="03" label="OPEN FLOOR" />
+			<h2 class="display-md">The floor is open.</h2>
+			<p class="mono open-floor-kicker">
+				OPEN · {data.totalQuestions ?? 0} QUESTIONS · {data.totalAnswers ?? 0} TAKES GATHERED
+			</p>
+			<p class="open-floor-sub">
+				Each question is read by all 9 personality types. Drop your take to unlock the room.
+			</p>
+		</header>
+
+		{#if questionsList.length === 0}
+			<div class="empty-state">
+				<p class="mono empty-state-label">NO OPEN QUESTIONS</p>
+				<p class="empty-state-body">The floor is quiet. Be the first to drop a situation.</p>
+				{#if data.canAskQuestion}
+					<Button size="md" variant="primary" href="/questions/create">Drop a question →</Button>
+				{/if}
 			</div>
-			<div
-				class="sm:max-h-30 scrollbar-thin scrollbar-track-transparent scrollbar-thumb-[var(--bg-highlight)] scrollbar-thumb-rounded flex max-h-32 flex-wrap gap-1 overflow-y-auto overflow-x-hidden p-0.5 sm:gap-1.5 sm:p-1"
-			>
-				<button
-					class="bg-[var(--bg-surface)]/60 flex-shrink-0 whitespace-nowrap rounded-full border border-[var(--primary-subtle)] px-2.5 py-1 text-xs font-medium text-[var(--text-primary)] backdrop-blur-sm transition-all duration-150 hover:border-[var(--primary)] hover:bg-[var(--primary-subtle)] hover:shadow-[var(--glow-sm)] disabled:cursor-not-allowed disabled:opacity-60 sm:px-3.5 sm:py-1.5 sm:text-sm"
-					class:!bg-[var(--primary-dark)]={selectedCategory === null}
-					class:!text-white={selectedCategory === null}
-					class:!border-[var(--primary-dark)]={selectedCategory === null}
-					class:!shadow-[var(--glow-sm)]={selectedCategory === null}
-					on:click={() => filterByCategory(null, null)}
-					disabled={loading}
-				>
-					All Questions
-				</button>
-				{#each displayedCategories as category (category.id)}
-					<a
-						href={getCategoryHref(category)}
-						class="bg-[var(--bg-surface)]/60 flex-shrink-0 whitespace-nowrap rounded-full border border-[var(--primary-subtle)] px-2.5 py-1 text-xs font-medium text-[var(--text-primary)] backdrop-blur-sm transition-all duration-150 hover:border-[var(--primary)] hover:bg-[var(--primary-subtle)] hover:shadow-[var(--glow-sm)] disabled:cursor-not-allowed disabled:opacity-60 sm:px-3.5 sm:py-1.5 sm:text-sm"
-						class:!bg-[var(--primary-dark)]={selectedCategory === category.id}
-						class:!text-white={selectedCategory === category.id}
-						class:!border-[var(--primary-dark)]={selectedCategory === category.id}
-						class:!shadow-[var(--glow-sm)]={selectedCategory === category.id}
-					>
-						{category.category_name}
-					</a>
-				{/each}
-			</div>
-		</section>
-
-		<!-- Error Handler -->
-		<AsyncErrorHandler
-			error={errorMessage}
-			{loading}
-			on:retry={() => {
-				errorMessage = '';
-				if (selectedCategory) {
-					filterByCategory(selectedCategory);
-				} else {
-					invalidateAll();
-				}
-			}}
-			on:dismiss={() => (errorMessage = '')}
-		/>
-
-		<!-- Questions List -->
-		<section
-			class="min-h-75 bg-[var(--bg-surface)]/60 mx-2 rounded-xl border border-[var(--primary-subtle)] p-3 backdrop-blur-sm sm:mx-0 sm:p-5"
-			in:fly={{ y: 20, duration, delay: 750 }}
-		>
-			{#if loading}
-				<!-- Loading skeletons -->
-				<div class="flex flex-col gap-2">
-					{#each Array(5) as _, i}
-						<QuestionItemSkeleton />
-					{/each}
-				</div>
-			{:else if selectedCategory}
-				<!-- Filtered view -->
-				<div class="flex flex-col gap-1.5">
-					<!-- Back button and category header -->
-					<div class="mb-2 flex items-center gap-3 border-b border-[var(--primary-subtle)] pb-2">
-						<button
-							on:click={() => filterByCategory(null, null)}
-							class="bg-[var(--bg-deep)]/60 flex items-center gap-1.5 rounded-md border border-[var(--primary-subtle)] px-3 py-1.5 text-sm font-medium text-[var(--text-secondary)] backdrop-blur-sm transition-all hover:border-[var(--primary)] hover:bg-[var(--primary-subtle)] hover:text-[var(--primary)]"
-							aria-label="Back to all questions"
-						>
-							<svg
-								xmlns="http://www.w3.org/2000/svg"
-								class="h-4 w-4"
-								fill="none"
-								viewBox="0 0 24 24"
-								stroke="currentColor"
-								stroke-width="2"
-							>
-								<path stroke-linecap="round" stroke-linejoin="round" d="M15 19l-7-7 7-7" />
-							</svg>
-							All Questions
-						</button>
-						<h3 class="text-sm font-semibold text-[var(--text-primary)] sm:text-base">
-							{displayedCategories.find((c) => c.id === selectedCategory)?.category_name ||
-								'Category'}
-						</h3>
-						<span class="ml-auto text-xs text-[var(--text-muted)]">
-							{filteredQuestions.length} question{filteredQuestions.length !== 1 ? 's' : ''}
-						</span>
-					</div>
-					{#if filteredQuestions.length === 0}
-						<p class="py-8 text-center text-[var(--text-secondary)]">
-							No questions found in this category.
-						</p>
-					{:else}
-						{#each filteredQuestions as questionData (questionData.id)}
-							<QuestionItem {questionData} on:questionRemoved={() => invalidateAll()} />
-						{/each}
-					{/if}
-				</div>
-			{:else}
-				<!-- Grouped by category view -->
-				{#each Object.entries(categories) as [categoryName, questions]}
-					<div class="mb-6 last:mb-0">
-						<h3
-							class="scroll-mt-4 border-b border-[var(--primary-subtle)] pb-1 text-sm font-semibold text-[var(--text-primary)] sm:text-base"
-							id={categoryName.replace(/\s+/g, '-')}
-						>
-							{categoryName}
-						</h3>
-						<div class="flex flex-col gap-1.5">
-							{#each questions as questionData (questionData.id)}
-								<QuestionItem {questionData} on:questionRemoved={() => invalidateAll()} />
-							{/each}
+		{:else}
+			<ul class="question-list">
+				{#each questionsList as q (q.id)}
+					<li class="question-card">
+						<div class="question-card-top">
+							<span class="mono question-card-num">№ {fileNumber(q.id)}</span>
+							{#if q.tag_name}
+								<span class="mono question-card-cat">· {q.tag_name.toUpperCase()}</span>
+							{/if}
+							<span class="mono question-card-takes">
+								{q.comment_count ?? 0} TAKE{(q.comment_count ?? 0) === 1 ? '' : 'S'}
+							</span>
 						</div>
-					</div>
-				{/each}
-			{/if}
 
-			<!-- Load more trigger -->
-			{#if hasMore && !selectedCategory}
-				<div
-					bind:this={loadMoreTrigger}
-					class="mt-4 flex h-20 items-center justify-center"
-					class:loading={loadingMore}
-				>
-					{#if loadingMore}
-						<div class="flex justify-center py-8">
-							<Spinner size="md" color="primary">Loading more questions...</Spinner>
+						<a href={`/questions/${q.url}`} class="question-card-text">
+							{q.question_formatted ?? q.question}
+						</a>
+
+						<div class="question-card-bot">
+							<span class="mono question-card-time">{relativeTime(q.created_at)}</span>
+							<Button variant="ghost" size="sm" href={`/questions/${q.url}`}>
+								Drop your take →
+							</Button>
 						</div>
-					{/if}
-				</div>
-			{/if}
-		</section>
-
-		<!-- How It Works Section (for non-users) -->
-		{#if !data?.user?.id}
-			<section
-				class="bg-[var(--bg-surface)]/60 mx-2 mt-6 rounded-xl border border-[var(--primary-subtle)] p-4 shadow-[var(--shadow-sm)] backdrop-blur-sm sm:mx-0 sm:mt-8 sm:p-6"
-				in:fly={{ y: 20, duration, delay: 900 }}
-			>
-				<h2 class="mb-3 text-lg font-semibold text-[var(--text-primary)] sm:mb-4 sm:text-xl">
-					How It Works
-				</h2>
-				<ol
-					class="mb-4 ml-4 space-y-1.5 text-sm text-[var(--text-secondary)] sm:mb-6 sm:ml-6 sm:space-y-2 sm:text-base"
-				>
-					<li>Anonymously answer questions to see other answers</li>
-					<li>
-						<strong class="text-[var(--text-primary)]"
-							>Sign up to ask your questions anonymously</strong
-						>
 					</li>
-					<li>Receive answers from diverse perspectives</li>
-					<li>Sort comments by personality type and learn yours</li>
-				</ol>
-				<button
-					class="w-full rounded-md bg-[var(--primary-dark)] px-4 py-3 text-base font-semibold text-[var(--text-on-primary)] shadow-[var(--glow-sm)] transition-all duration-300 hover:-translate-y-0.5 hover:bg-[var(--primary)] hover:shadow-[var(--glow-md)] focus:outline-none focus:ring-2 focus:ring-[var(--primary)] focus:ring-offset-2 focus:ring-offset-transparent sm:px-6 sm:py-4 sm:text-lg"
-					on:click={() => goToCreateQuestionPage('')}
-					aria-label="Ask your question now"
-				>
-					Ask Your Question Now
-				</button>
-			</section>
+				{/each}
+			</ul>
 		{/if}
-	</div>
-</ErrorBoundary>
 
-<style>
-	.questions-page-container {
+		{#if loadMoreError}
+			<p class="mono load-more-error" role="alert">{loadMoreError}</p>
+		{/if}
+
+		{#if hasMore}
+			<div class="load-more-row" bind:this={loadMoreTrigger}>
+				<Button size="lg" variant="secondary" loading={loadingMore} onclick={() => void loadMore()}>
+					{loadingMore ? 'Loading…' : 'Load more questions →'}
+				</Button>
+			</div>
+		{/if}
+	</section>
+
+	<!-- =====================================================================
+	  §04 — quiet sign-up nudge for unauthenticated visitors only
+	  ===================================================================== -->
+	{#if !data?.user?.id}
+		<section class="signup-nudge">
+			<div class="signup-inner">
+				<SectionKicker class="section-tag" num="04" label="HOW IT WORKS" />
+				<h2 class="display-md">Give first. Then see how the room reads it.</h2>
+				<ol class="signup-steps">
+					<li>
+						<span class="mono signup-step-num">01</span>
+						<span class="signup-step-body">
+							Pick an open question and drop your honest take, anonymously.
+						</span>
+					</li>
+					<li>
+						<span class="mono signup-step-num">02</span>
+						<span class="signup-step-body">
+							Unlock how all 9 personality types read the same situation.
+						</span>
+					</li>
+					<li>
+						<span class="mono signup-step-num">03</span>
+						<span class="signup-step-body">
+							Sort comments by type. Notice the patterns you&rsquo;ve been missing.
+						</span>
+					</li>
+				</ol>
+				<div class="signup-cta-row">
+					<Button size="lg" variant="primary" href="/register">Sign up to ask anonymously →</Button>
+				</div>
+			</div>
+		</section>
+	{/if}
+</div>
+
+<style lang="scss">
+	/* =========================================================
+	  /questions — V5 production layout.
+	  Bridge tokens (--lamp-*, --night-*, --stone-*, --ink-*, --data-*,
+	  --pool-rgb, --pool-deep-rgb) ship globally from src/scss/index.scss.
+	  Page-only knobs are declared on .questions-index here.
+	  ========================================================= */
+	.questions-index {
+		--pool-alpha-strong: 0.28;
+		--pool-alpha-mid: 0.18;
+		--pool-alpha-soft: 0.08;
+		--statue-blend: screen;
+		--grain-opacity: 0.05;
+
+		background: var(--night-deep);
+		color: var(--ink-bright);
+		font-family: var(--font-display);
+		min-height: 100vh;
 		position: relative;
+		overflow: hidden;
+		scroll-behavior: smooth;
+
+		@media (prefers-reduced-motion: reduce) {
+			scroll-behavior: auto;
+		}
+
+		:global(:root.light) & {
+			--pool-alpha-strong: 0.14;
+			--pool-alpha-mid: 0.08;
+			--pool-alpha-soft: 0.04;
+			--statue-blend: normal;
+			--grain-opacity: 0.025;
+		}
 	}
 
-	/* Gradient transition zone: ethereal particle space fades into content */
-	.questions-page-container::before {
-		content: '';
+	/* ---------- shared utilities ---------- */
+	.questions-index :global(.mono) {
+		font-family: var(--font-mono);
+		font-size: 12px;
+		font-weight: 500;
+		letter-spacing: 0.08em;
+		text-transform: uppercase;
+		color: var(--ink-dim);
+	}
+
+	.display-xl {
+		font-family: var(--font-display);
+		font-weight: 800;
+		font-size: clamp(40px, 7.4vw, 72px);
+		line-height: 1.02;
+		letter-spacing: -0.04em;
+		color: var(--ink-bright);
+		margin: 0;
+	}
+
+	.display-md {
+		font-family: var(--font-display);
+		font-weight: 700;
+		font-size: clamp(28px, 4vw, 40px);
+		line-height: 1.1;
+		letter-spacing: -0.02em;
+		color: var(--ink-bright);
+		margin: 0;
+	}
+
+	.questions-index :global(.section-tag) {
+		display: inline-block;
+		margin-bottom: 16px;
+		color: var(--lamp-glow);
+	}
+
+	.questions-index :global(p),
+	.questions-index :global(h1),
+	.questions-index :global(h2),
+	.questions-index :global(h3) {
+		margin: 0;
+	}
+
+	.questions-index :global(ul),
+	.questions-index :global(ol) {
+		list-style: none;
+		padding: 0;
+		margin: 0;
+	}
+
+	.questions-index :global(a) {
+		color: inherit;
+		text-decoration: none;
+	}
+
+	.section-header {
+		max-width: 820px;
+		margin: 0 auto 36px;
+		text-align: center;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		gap: 12px;
+	}
+
+	.section-sub {
+		font-family: var(--font-display);
+		font-size: 16px;
+		line-height: 1.55;
+		color: var(--ink-mid);
+		max-width: 580px;
+	}
+
+	/* ---------- subtle paper grain ---------- */
+	.grain {
 		position: absolute;
-		top: -4rem;
-		left: -2rem;
-		right: -2rem;
-		height: 12rem;
-		background: linear-gradient(
-			180deg,
-			transparent 0%,
-			var(--primary-subtle) 30%,
-			var(--bg-deep) 70%,
-			transparent 100%
-		);
+		inset: 0;
 		pointer-events: none;
+		opacity: var(--grain-opacity);
+		mix-blend-mode: overlay;
+		z-index: 1;
+		background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='240' height='240'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='2' stitchTiles='stitch'/><feColorMatrix values='0 0 0 0 0.95 0 0 0 0 0.85 0 0 0 0 0.6 0 0 0 0.7 0'/></filter><rect width='100%' height='100%' filter='url(%23n)'/></svg>");
+	}
+
+	/* =========================================================
+	  §01 HERO
+	  ========================================================= */
+	.hero {
+		position: relative;
+		padding: 96px 48px 72px;
+		background: var(--night-deep);
+		overflow: hidden;
+
+		@media (max-width: 768px) {
+			padding: 64px 20px 56px;
+		}
+	}
+
+	.hero-pool {
+		position: absolute;
+		inset: 0;
+		pointer-events: none;
+		background:
+			radial-gradient(
+				ellipse 60% 55% at 18% 8%,
+				rgba(var(--pool-rgb), var(--pool-alpha-strong)) 0%,
+				rgba(var(--pool-rgb), var(--pool-alpha-soft)) 30%,
+				transparent 60%
+			),
+			radial-gradient(
+				ellipse 90% 70% at 22% 12%,
+				rgba(var(--pool-deep-rgb), var(--pool-alpha-mid)) 0%,
+				transparent 55%
+			);
 		z-index: 0;
-		filter: blur(20px);
-		border-radius: inherit;
+	}
+
+	.hero-inner {
+		position: relative;
+		z-index: 2;
+		max-width: 1280px;
+		margin: 0 auto;
+		display: grid;
+		grid-template-columns: 1.15fr 0.85fr;
+		gap: 56px;
+		align-items: center;
+
+		@media (max-width: 968px) {
+			grid-template-columns: 1fr;
+			gap: 24px;
+		}
+	}
+
+	.hero-text {
+		max-width: 680px;
+	}
+
+	.hero-eyebrow {
+		margin-bottom: 22px;
+	}
+
+	.hero-coords {
+		color: var(--ink-dim);
+		margin: 18px 0 24px;
+	}
+
+	.hero-subhead {
+		font-family: var(--font-display);
+		font-size: 18px;
+		line-height: 1.55;
+		color: var(--ink-mid);
+		max-width: 600px;
+		font-weight: 400;
+		margin-bottom: 12px;
+
+		@media (max-width: 540px) {
+			font-size: 16px;
+		}
+	}
+
+	.hero-subhead--meta {
+		color: var(--ink-dim);
+		font-size: 16px;
+		margin-bottom: 28px;
+
+		@media (max-width: 540px) {
+			font-size: 14px;
+		}
+	}
+
+	.hero-ctas {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 14px;
+		margin-top: 8px;
+	}
+
+	.hero-statue {
+		position: relative;
+
+		@media (max-width: 968px) {
+			display: none;
+		}
+	}
+
+	.statue-frame {
+		position: relative;
+		aspect-ratio: 4 / 5;
+		max-height: 460px;
+		margin-left: auto;
+		overflow: hidden;
+	}
+
+	.statue {
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+		object-position: center 30%;
+		filter: contrast(1.18) brightness(1.04) saturate(0.88);
+		mix-blend-mode: var(--statue-blend);
+	}
+
+	:global(:root.light) .questions-index .statue {
+		filter: contrast(1.05) brightness(1) saturate(1);
+	}
+
+	.statue-vignette {
+		position: absolute;
+		inset: 0;
+		pointer-events: none;
+		background:
+			radial-gradient(ellipse at 25% 25%, rgba(var(--pool-rgb), 0.22) 0%, transparent 55%),
+			linear-gradient(135deg, transparent 35%, rgba(10, 8, 7, 0.65) 100%),
+			linear-gradient(180deg, transparent 60%, rgba(10, 8, 7, 0.85) 100%);
+	}
+
+	:global(:root.light) .questions-index .statue-vignette {
+		background:
+			radial-gradient(ellipse at 25% 25%, rgba(var(--pool-rgb), 0.08) 0%, transparent 55%),
+			linear-gradient(135deg, transparent 60%, rgba(180, 83, 9, 0.06) 100%);
+	}
+
+	.statue-mono {
+		position: absolute;
+		left: 12px;
+		bottom: 12px;
+		color: var(--ink-mid);
+
+		.mono {
+			color: var(--ink-mid);
+		}
+	}
+
+	/* =========================================================
+	  §02 CATEGORIES
+	  ========================================================= */
+	.categories {
+		position: relative;
+		padding: 96px 48px;
+		background: var(--night-mid);
+		border-top: 1px solid var(--stone-edge);
+
+		@media (max-width: 768px) {
+			padding: 64px 20px;
+		}
+	}
+
+	.search-wrap {
+		max-width: 720px;
+		margin: 0 auto 28px;
+		position: relative;
+		z-index: 5;
+	}
+
+	.category-chips {
+		max-width: 1100px;
+		margin: 0 auto;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		gap: 10px;
+	}
+
+	.category-chip {
+		font-family: var(--font-mono);
+		font-size: 12px;
+		letter-spacing: 0.06em;
+		padding: 8px 14px;
+		border: 1px solid var(--stone-edge);
+		border-radius: 10px;
+		color: var(--ink-mid);
+		text-decoration: none;
+		text-transform: uppercase;
+		background: transparent;
+		transition:
+			background 0.18s ease,
+			border-color 0.18s ease,
+			color 0.18s ease;
+
+		&:hover {
+			background: var(--stone-warm);
+			border-color: var(--ink-dim);
+			color: var(--ink-bright);
+		}
+	}
+
+	.category-chip--active {
+		background: var(--stone-warm);
+		border-color: var(--lamp-glow);
+		color: var(--lamp-glow);
+	}
+
+	.category-chip--more {
+		color: var(--lamp-glow);
+		border-color: var(--lamp-glow);
+
+		&:hover {
+			background: var(--lamp-soft);
+			color: var(--lamp-glow);
+			border-color: var(--lamp-glow);
+		}
+	}
+
+	/* =========================================================
+	  §03 OPEN FLOOR
+	  ========================================================= */
+	.open-floor {
+		position: relative;
+		padding: 96px 48px;
+		background: var(--night-deep);
+		border-top: 1px solid var(--stone-edge);
+		overflow: hidden;
+		scroll-margin-top: 72px;
+
+		@media (max-width: 768px) {
+			padding: 64px 20px;
+		}
+	}
+
+	.open-floor-pool {
+		position: absolute;
+		inset: 0;
+		pointer-events: none;
+		background: radial-gradient(
+			ellipse 80% 60% at 50% 0%,
+			rgba(var(--pool-rgb), var(--pool-alpha-mid)) 0%,
+			transparent 55%
+		);
+	}
+
+	.open-floor-header {
+		position: relative;
+		z-index: 1;
+		max-width: 820px;
+		margin: 0 auto 48px;
+		text-align: center;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		gap: 12px;
+	}
+
+	.open-floor-kicker {
+		color: var(--ink-dim);
+	}
+
+	.open-floor-sub {
+		font-family: var(--font-display);
+		font-size: 16px;
+		line-height: 1.55;
+		color: var(--ink-mid);
+		max-width: 580px;
+	}
+
+	.question-list {
+		position: relative;
+		z-index: 1;
+		max-width: 880px;
+		margin: 0 auto;
+		display: flex;
+		flex-direction: column;
+		gap: 16px;
+	}
+
+	.question-card {
+		background: var(--stone-warm);
+		border: 1px solid var(--stone-edge);
+		border-radius: 16px;
+		padding: 24px 26px;
+		display: flex;
+		flex-direction: column;
+		gap: 12px;
+		transition:
+			border-color 0.18s ease,
+			background 0.18s ease,
+			transform 0.18s ease;
+
+		&:hover {
+			border-color: var(--ink-dim);
+			background: var(--stone-mid);
+			transform: translateY(-1px);
+		}
+
+		@media (max-width: 540px) {
+			padding: 20px 18px;
+			border-radius: 12px;
+		}
+	}
+
+	.question-card-top {
+		display: flex;
+		align-items: center;
+		gap: 8px;
+		font-size: 11px;
+		letter-spacing: 0.08em;
+		color: var(--ink-dim);
+		flex-wrap: wrap;
+	}
+
+	.question-card-num {
+		color: var(--lamp-glow);
+	}
+
+	.question-card-cat {
+		color: var(--ink-mid);
+	}
+
+	.question-card-takes {
+		margin-left: auto;
+		color: var(--data-teal);
+	}
+
+	.question-card-text {
+		display: block;
+		font-family: var(--font-display);
+		font-weight: 600;
+		font-size: 18px;
+		line-height: 1.4;
+		color: var(--ink-bright);
+		text-decoration: none;
+		letter-spacing: -0.01em;
+		transition: color 0.18s ease;
+
+		&:hover {
+			color: var(--lamp-glow);
+		}
+
+		@media (max-width: 540px) {
+			font-size: 16px;
+		}
+	}
+
+	.question-card-bot {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		gap: 12px;
+		margin-top: 4px;
+		flex-wrap: wrap;
+	}
+
+	.question-card-time {
+		font-size: 11px;
+		color: var(--ink-dim);
+	}
+
+	.empty-state {
+		max-width: 560px;
+		margin: 0 auto;
+		padding: 48px 32px;
+		text-align: center;
+		border: 1px dashed var(--stone-edge);
+		border-radius: 16px;
+		background: var(--stone-warm);
+		display: flex;
+		flex-direction: column;
+		gap: 12px;
+		align-items: center;
+	}
+
+	.empty-state-label {
+		color: var(--lamp-glow);
+	}
+
+	.empty-state-body {
+		font-family: var(--font-display);
+		font-size: 16px;
+		line-height: 1.5;
+		color: var(--ink-mid);
+		margin-bottom: 8px;
+	}
+
+	.load-more-row {
+		position: relative;
+		z-index: 1;
+		max-width: 880px;
+		margin: 36px auto 0;
+		display: flex;
+		justify-content: center;
+	}
+
+	.load-more-error {
+		max-width: 880px;
+		margin: 24px auto 0;
+		text-align: center;
+		color: var(--ink-dim);
+	}
+
+	/* =========================================================
+	  §04 SIGNUP NUDGE
+	  ========================================================= */
+	.signup-nudge {
+		position: relative;
+		padding: 96px 48px;
+		background: var(--night-mid);
+		border-top: 1px solid var(--stone-edge);
+
+		@media (max-width: 768px) {
+			padding: 64px 20px;
+		}
+	}
+
+	.signup-inner {
+		max-width: 720px;
+		margin: 0 auto;
+		text-align: center;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		gap: 18px;
+	}
+
+	.signup-steps {
+		max-width: 560px;
+		display: flex;
+		flex-direction: column;
+		gap: 14px;
+		margin-top: 12px;
+		text-align: left;
+	}
+
+	.signup-steps li {
+		display: grid;
+		grid-template-columns: 36px 1fr;
+		gap: 14px;
+		align-items: baseline;
+		padding: 14px 16px;
+		background: var(--stone-warm);
+		border: 1px solid var(--stone-edge);
+		border-left: 3px solid var(--lamp-glow);
+		border-radius: 8px;
+	}
+
+	.signup-step-num {
+		color: var(--lamp-glow);
+		font-size: 13px;
+	}
+
+	.signup-step-body {
+		font-family: var(--font-display);
+		font-size: 16px;
+		line-height: 1.5;
+		color: var(--ink-bright);
+	}
+
+	.signup-cta-row {
+		margin-top: 12px;
+		display: flex;
+		justify-content: center;
 	}
 </style>

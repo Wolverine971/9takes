@@ -45,7 +45,13 @@ type-1-inner-courtroom
     import PopCard from "$lib/components/atoms/PopCard.svelte";
     import InsightBox from "$lib/components/blog/callouts/InsightBox.svelte";
     import QuickAnswer from "$lib/components/blog/callouts/QuickAnswer.svelte";
+    import EnneagramTypeDossier from "$lib/components/blog/EnneagramTypeDossier.svelte";
+    import { enneagramTypeProfiles } from "$lib/data/enneagramTypeProfiles";
+
+    const dossier = enneagramTypeProfiles[1];
 </script>
+
+<EnneagramTypeDossier {...dossier} />
 
 <QuickAnswer question="Why do Type 1s constantly criticize everything?">
 Type 1s live in an internal courtroom where they prosecute themselves against impossible standards. This harsh inner critic developed from childhood experiences of criticism or premature responsibility, creating a core belief that they're fundamentally flawed. They criticize others because their internal standards leak outward: the same harsh voice judging them judges everything around them. It's not pickiness. It's moral survival.
@@ -208,6 +214,24 @@ The pattern: standards become impossible. Self-criticism intensifies. The emotio
 This isn't weakness. It's system overload. When perfection-through-control fails, Ones experience the very thing their system was built to prevent: feeling overwhelmed, misunderstood, out of control.
 
 Read more about <a href="/enneagram-corner/enneagram-stress-number">other types under stress</a>
+
+</section>
+
+<section class="section-content">
+
+## How 1s Handle Conflict: The Competency Approach
+
+Type 1s belong to the **Competency** Harmonic group (alongside 3s and 5s) — the types who try to solve problems objectively and unemotionally.
+
+The team launches a product with a typo on the homepage. Everyone celebrates. The One can't. They draft a Slack message about quality control, soften it twice, send it, and then lie awake replaying the typo. To the team, the One can't enjoy a win. To the One, nobody else cares enough.
+
+That's the Competency move: emotion gets set aside so the framework can stay clean. The One isn't pretending not to feel — they genuinely think they're being fair and unbiased by leaving the feelings out.
+
+**The blind spot**: Confusing suppression with objectivity. "I'm being rational" usually translates to "I've cut off something I don't want to feel — usually anger or disappointment." The "objective" critique is rarely as neutral as it sounds.
+
+**The shift**: Name the feeling before naming the rule. "I'm frustrated and I think there's a quality issue here" lands very differently than "There's a quality issue here." Both for accuracy, and for the other person's ability to actually hear you.
+
+For the full framework, see [The Enneagram Harmonic Approaches](/enneagram-corner/enneagram-harmonic-approaches).
 
 </section>
 

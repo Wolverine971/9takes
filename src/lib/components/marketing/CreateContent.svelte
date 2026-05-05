@@ -184,23 +184,23 @@
 	.field-label {
 		font-size: 0.8125rem;
 		font-weight: 500;
-		color: var(--text-primary);
+		color: var(--ink-bright);
 	}
 
 	.field-input {
 		width: 100%;
 		padding: 0.5rem 0.75rem;
 		font-size: 0.875rem;
-		border: 1px solid var(--bg-elevated);
+		border: 1px solid var(--stone-warm);
 		border-radius: 8px;
-		background: var(--bg-deep);
-		color: var(--text-primary);
+		background: var(--night-deep);
+		color: var(--ink-bright);
 		transition: border-color 0.15s ease;
 	}
 
 	.field-input:focus {
 		outline: none;
-		border-color: var(--primary);
+		border-color: var(--lamp-glow);
 		box-shadow: 0 0 0 2px rgba(var(--primary-rgb, 99, 102, 241), 0.15);
 	}
 
@@ -226,7 +226,7 @@
 	}
 
 	.btn-primary {
-		background: var(--primary);
+		background: var(--lamp-glow);
 		color: white;
 	}
 
@@ -236,12 +236,12 @@
 	}
 
 	.btn-secondary {
-		background: var(--bg-elevated);
-		color: var(--text-primary);
+		background: var(--stone-warm);
+		color: var(--ink-bright);
 	}
 
 	.btn-secondary:hover {
-		background: var(--bg-highlight);
+		background: var(--stone-warm);
 	}
 
 	@media (max-width: 768px) {

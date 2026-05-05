@@ -1,4 +1,9 @@
 <!-- src/routes/how-to-guides/[slug]/+page.svelte -->
+<!--
+  src/routes/how-to-guides/[slug]/+page.svelte
+  Phase 5 #6 of docs/design/2026-05-04-rollout-plan.md — blog reading layout.
+  Mechanical pass: Svelte 5 runes + V5 tokens. Visual redesign is follow-up work.
+-->
 <script lang="ts">
 	import PopCard from '$lib/components/atoms/PopCard.svelte';
 
@@ -17,10 +22,11 @@
 	import EmailSignup from '$lib/components/molecules/Email-Signup.svelte';
 	import { buildHowToSchema } from '$lib/utils/schema';
 	import AuthorBio from '$lib/components/blog/AuthorBio.svelte';
-	export let data: PageData;
+
+	let { data }: { data: PageData } = $props();
 
 	// Build HowTo schema if steps are defined in frontmatter
-	$: howToSchema =
+	let howToSchema = $derived(
 		data?.frontmatter?.howToSteps && data.frontmatter.howToSteps.length > 0
 			? JSON.stringify(
 					buildHowToSchema({
@@ -37,9 +43,10 @@
 						totalTime: data.frontmatter.totalTime
 					})
 				)
-			: null;
+			: null
+	);
 	type C = Component;
-	$: component = data.component as unknown as C;
+	let Article = $derived(data.component as unknown as C);
 
 	const contentStore = writable('');
 	let observer: MutationObserver | null = null;
@@ -57,21 +64,23 @@
 	});
 
 	// Watch for slug changes and reinitialize observer
-	$: if (data?.slug) {
-		// Reset content store when slug changes
-		contentStore.set('');
+	$effect(() => {
+		if (data?.slug) {
+			// Reset content store when slug changes
+			contentStore.set('');
 
-		// Clean up existing observer
-		if (observer) {
-			observer.disconnect();
-			observer = null;
+			// Clean up existing observer
+			if (observer) {
+				observer.disconnect();
+				observer = null;
+			}
+
+			// Set up new observer after a short delay to ensure DOM is updated
+			setTimeout(() => {
+				findObserver();
+			}, 100);
 		}
-
-		// Set up new observer after a short delay to ensure DOM is updated
-		setTimeout(() => {
-			findObserver();
-		}, 100);
-	}
+	});
 
 	const findObserver = () => {
 		if (!browser) return;
@@ -131,7 +140,7 @@
 
 	<TableOfContents {contentStore} headings={data.frontmatter.headings} />
 
-	<svelte:component this={component} />
+	<Article />
 
 	<AuthorBio author={data.frontmatter.author} />
 </article>
@@ -147,16 +156,16 @@
 </div>
 
 <style lang="scss">
-	/* 9takes Warm Tech Theme - How-To Guide Article */
+	/* Streetlamp Symposium — How-To Guide reading layout. */
 	:global(.blog) {
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 	}
 
 	.join {
 		margin-top: 2rem;
 		padding: 2rem;
-		background: linear-gradient(135deg, var(--bg-surface) 0%, var(--bg-deep) 100%);
+		background: var(--stone-warm);
 		border-radius: 1rem;
-		border: 1px solid rgba(45, 212, 191, 0.2);
+		border: 1px solid var(--stone-edge);
 	}
 </style>

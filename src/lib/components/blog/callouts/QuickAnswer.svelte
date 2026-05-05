@@ -70,9 +70,9 @@
 		border-radius: 12px;
 		background: linear-gradient(
 			135deg,
-			var(--bg-surface) 0%,
-			var(--bg-deep) 50%,
-			var(--bg-base) 100%
+			var(--stone-warm) 0%,
+			var(--night-deep) 50%,
+			var(--night-deep) 100%
 		);
 		border: 1px solid rgba(45, 212, 191, 0.25);
 		box-shadow:
@@ -87,27 +87,27 @@
 			top: 0;
 			bottom: 0;
 			width: 4px;
-			background: linear-gradient(180deg, var(--primary) 0%, var(--primary-lighter) 100%);
+			background: linear-gradient(180deg, var(--lamp-glow) 0%, var(--lamp-glow) 100%);
 			border-radius: 12px 0 0 12px;
 		}
 
 		&--subtle {
-			background: linear-gradient(135deg, var(--bg-deep) 0%, var(--bg-base) 100%);
-			border-color: color-mix(in srgb, var(--text-tertiary) 20%, transparent);
+			background: linear-gradient(135deg, var(--night-deep) 0%, var(--night-deep) 100%);
+			border-color: color-mix(in srgb, var(--ink-dim) 20%, transparent);
 			box-shadow:
 				0 2px 12px rgba(0, 0, 0, 0.25),
 				0 1px 3px rgba(0, 0, 0, 0.15);
 
 			&::before {
-				background: linear-gradient(180deg, var(--text-tertiary) 0%, var(--text-secondary) 100%);
+				background: linear-gradient(180deg, var(--ink-dim) 0%, var(--ink-mid) 100%);
 			}
 
 			.quick-answer__label {
-				color: var(--text-secondary);
+				color: var(--ink-mid);
 			}
 
 			.quick-answer__icon {
-				color: var(--text-tertiary);
+				color: var(--ink-dim);
 			}
 		}
 	}
@@ -122,7 +122,7 @@
 	.quick-answer__icon {
 		width: 20px;
 		height: 20px;
-		color: var(--primary-lighter);
+		color: var(--lamp-glow);
 		flex-shrink: 0;
 	}
 
@@ -131,13 +131,13 @@
 		font-weight: 700;
 		text-transform: uppercase;
 		letter-spacing: 0.05em;
-		color: var(--primary-lighter);
+		color: var(--lamp-glow);
 	}
 
 	.quick-answer__question {
 		font-size: 1.1rem;
 		font-weight: 600;
-		color: var(--text-primary);
+		color: var(--ink-bright);
 		margin: 0 0 0.75rem;
 		line-height: 1.4;
 	}
@@ -145,19 +145,19 @@
 	.quick-answer__content {
 		font-size: 1rem;
 		line-height: 1.7;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 
 		// Style any bold text within the content
 		:global(strong),
 		:global(b) {
-			color: var(--text-primary);
+			color: var(--ink-bright);
 			font-weight: 600;
 		}
 
 		// Handle paragraphs inside
 		:global(p) {
 			margin: 0;
-			color: var(--text-secondary);
+			color: var(--ink-mid);
 
 			& + :global(p) {
 				margin-top: 0.75rem;
@@ -175,10 +175,10 @@
 
 		// Links
 		:global(a) {
-			color: var(--primary-lighter);
+			color: var(--lamp-glow);
 
 			&:hover {
-				color: var(--primary-lightest);
+				color: var(--lamp-glow);
 			}
 		}
 	}

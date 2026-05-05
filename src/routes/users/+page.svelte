@@ -1,7 +1,7 @@
 <!-- src/routes/users/+page.svelte -->
 <script lang="ts">
 	import type { PageData } from './$types';
-	import Modal2, { getModal } from '$lib/components/atoms/Modal2.svelte';
+	import Modal, { getModal } from '$lib/components/atoms/Modal.svelte';
 	import { convertDateToReadable } from '../../utils/conversions';
 
 	export let data: PageData;
@@ -121,7 +121,7 @@
 	{/if}
 </div>
 
-<Modal2 id="user-modal2">
+<Modal id="user-modal2">
 	<div>
 		<h1>Edit {active?.email}</h1>
 		<h2>{active?.first_name} {active?.last_name}</h2>
@@ -142,7 +142,7 @@
 			Save
 		</button>
 	</div>
-</Modal2>
+</Modal>
 
 <style lang="scss">
 	td {

@@ -102,16 +102,16 @@
 		height: 2.75rem;
 		padding: 0;
 		background: transparent;
-		border: 1px solid var(--bg-elevated);
+		border: 1px solid var(--stone-warm);
 		border-radius: 6px;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 		cursor: pointer;
 		transition: all 0.2s ease;
 	}
 
 	.theme-toggle:hover {
-		color: var(--primary);
-		border-color: var(--primary);
+		color: var(--lamp-glow);
+		border-color: var(--lamp-glow);
 		background: var(--primary-subtle);
 	}
 </style>

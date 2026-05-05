@@ -34,23 +34,23 @@ Once everything below is `✅ LOCKED`, the next edit to brand should happen here
 
 Detailed audit lives in `docs/design/2026-05-01-design-system-gap-analysis.md`. Summary table:
 
-| Area                | What's in the code today                                                                                                                       | Lock status                          |
-| ------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------ |
-| Brand mood          | Drifted — code says "warm-tech teal," docs say three different things                                                                          | ❌ Contested                         |
-| Brand voice         | Locked in `brand-positioning.md` + `brand-style-guide-v2.md`                                                                                   | ✅ Locked                            |
-| Color palette       | Teal primary, rose secondary, purple accent, warm-stone neutrals (Tailwind + CSS vars match)                                                   | 🟡 De-facto                          |
-| Surface tokens      | `--bg-base/-deep/-surface/-elevated/-highlight` exist for both modes                                                                           | 🟡 De-facto                          |
-| Light mode          | Full `:root.light` overrides + `ThemeToggle.svelte` shipped (Tier 2)                                                                           | ✅ Shipped                           |
-| Typography          | Rajdhani (display) + Space Grotesk (body) + JetBrains Mono (mono). BRAND-KIT.md still says Noticia Text. No documented type scale.             | ❌ Contested                         |
-| Spacing             | Tailwind `xs/sm/md/lg/xl/2xl/3xl` tokens exist; arbitrary values still common                                                                  | 🟡 Partial                           |
-| Radius              | `sm 4px / md 10px / xl 16px / full` — Kole's recipe, **lint-enforced** (`pnpm lint:radius`)                                                    | ✅ LOCKED 2026-04-27                 |
-| Shadow              | Soft, neutral, Kole's recipe (`rgba(0,0,0, 0.15–0.25)`, 2× blur) in dark mode; softer in light mode. CSS-var driven.                           | ✅ LOCKED 2026-04-27                 |
-| Motion              | `--transition-base`, `--transition-glow`, `--animation-speed`. No documented duration scale. No `prefers-reduced-motion` global rule.          | ❌ Open                              |
-| Glows               | 6 glow tokens (`--glow-sm/-md/-lg/-secondary/-accent/-subtle` + Tailwind `glow-teal/-rose`). Used heavily on text, icons, buttons.             | ❌ Effect-addiction (per Kole audit) |
-| Components          | `.btn-primary/.btn-secondary/.btn-outline/.btn-ghost` and `.card-base/-hover/-interactive` exist, but routes redefine locally. No shared atom. | ❌ Sprawl                            |
-| Icons               | 27 hand-rolled SVGs in `src/lib/components/icons/`. Stroke widths vary (1.5/1.8/2/4). No library.                                              | ❌ Open                              |
-| Imagery             | Logo (`aero.webp`), hero statues, philosopher photos, DJ portraits — solid asset library, well organized in `static/brand/`                    | ✅ Locked                            |
-| `/styleguide` route | **Does not exist.** No visible source of truth for tokens.                                                                                     | ❌ Missing                           |
+| Area                | What's in the code today                                                                                                                                                     | Lock status          |
+| ------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------- |
+| Brand mood          | Streetlamp Symposium — warm-tech baseline + tech-spec dossier variant for `/personality-analysis/*`                                                                          | ✅ LOCKED 2026-05-04 |
+| Brand voice         | Locked in `brand-positioning.md` + `brand-style-guide-v2.md`                                                                                                                 | ✅ Locked            |
+| Color palette       | V5: sodium-amber primary (`--lamp-glow`), warm-stone surfaces (`--night-*`, `--stone-*`), teal data accent (`--data-teal`). Bridge tokens coexist with legacy until Phase 7. | ✅ LOCKED 2026-05-04 |
+| Surface tokens      | `--bg-base/-deep/-surface/-elevated/-highlight` exist for both modes                                                                                                         | 🟡 De-facto          |
+| Light mode          | Full `:root.light` overrides + `ThemeToggle.svelte` shipped (Tier 2)                                                                                                         | ✅ Shipped           |
+| Typography          | Inter (variable, all weights) + JetBrains Mono. Rajdhani / Space Grotesk / Noticia Text retired in Phase 2.                                                                  | ✅ LOCKED 2026-05-04 |
+| Spacing             | Tailwind `xs/sm/md/lg/xl/2xl/3xl` tokens exist; arbitrary values still common                                                                                                | 🟡 Partial           |
+| Radius              | `sm 4px / md 10px / xl 16px / full` — Kole's recipe, **lint-enforced** (`pnpm lint:radius`)                                                                                  | ✅ LOCKED 2026-04-27 |
+| Shadow              | Soft, neutral, Kole's recipe (`rgba(0,0,0, 0.15–0.25)`, 2× blur) in dark mode; softer in light mode. CSS-var driven.                                                         | ✅ LOCKED 2026-04-27 |
+| Motion              | `--transition-base`, `--transition-glow`, `--animation-speed`. No documented duration scale. No `prefers-reduced-motion` global rule.                                        | ❌ Open              |
+| Glows               | 6 glow tokens to be cut to 2 (`--glow-sm`, `--glow-md`) in Phase 2. Tailwind `glow-teal`/`-rose` deleted entirely.                                                           | ✅ LOCKED 2026-05-04 |
+| Components          | `.btn-primary/.btn-secondary/.btn-outline/.btn-ghost` and `.card-base/-hover/-interactive` exist, but routes redefine locally. No shared atom.                               | ❌ Sprawl            |
+| Icons               | 27 hand-rolled SVGs in `src/lib/components/icons/`. Stroke widths vary (1.5/1.8/2/4). No library.                                                                            | ❌ Open              |
+| Imagery             | Logo (`aero.webp`), hero statues, philosopher photos, DJ portraits — solid asset library, well organized in `static/brand/`                                                  | ✅ Locked            |
+| `/styleguide` route | **Does not exist.** No visible source of truth for tokens.                                                                                                                   | ❌ Missing           |
 
 **Verdict:** Strong token foundation, partial component canonicalization, no styleguide page, brand mood undeclared. **Biggest gap: there is no single document that says "here is what 9takes looks like" that matches the code.** This doc fixes that.
 
@@ -69,18 +69,18 @@ Detailed audit lives in `docs/design/2026-05-01-design-system-gap-analysis.md`. 
 
 Same order as the walkthrough template — brand mood **first**, because every later decision is anchored to it.
 
-| #   | Section             | Status            | Notes                                                             |
-| --- | ------------------- | ----------------- | ----------------------------------------------------------------- |
-| 4   | Brand foundations   | ❌ Decisions open | Voice locked, mood contested                                      |
-| 5   | Color               | 🟡 De-facto       | Code already converged on teal/rose/purple — needs ratification   |
-| 6   | Typography          | ❌ Decisions open | Code says Rajdhani+Space Grotesk; brand-kit doc says Noticia Text |
-| 7   | Spacing             | 🟡 De-facto       | Token set exists; subset commitment open                          |
-| 8   | Radius              | ✅ Locked         | `sm/md/xl/full`, lint-enforced                                    |
-| 9   | Shadow              | ✅ Locked         | Kole's recipe, theme-aware                                        |
-| 10  | Motion              | ❌ Open           | No documented scale yet                                           |
-| 11  | Token wiring        | 🟡 Partial        | CSS vars + Tailwind both exist; need single source of truth       |
-| 12  | `/styleguide` route | ❌ Missing        | Build after sections 4–6 lock                                     |
-| 13  | Component refactor  | 🟡 Partial        | Modal/radius/shadows done; Button/Icon atoms still missing        |
+| #   | Section             | Status               | Notes                                                       |
+| --- | ------------------- | -------------------- | ----------------------------------------------------------- |
+| 4   | Brand foundations   | ✅ LOCKED 2026-05-04 | Streetlamp Symposium — warm-tech baseline + dossier variant |
+| 5   | Color               | ✅ LOCKED 2026-05-04 | V5 token set; bridge migration via rollout plan             |
+| 6   | Typography          | ✅ LOCKED 2026-05-04 | Inter + JetBrains Mono only; Rajdhani/Space Grotesk retired |
+| 7   | Spacing             | 🟡 De-facto          | Token set exists; subset commitment open                    |
+| 8   | Radius              | ✅ Locked            | `sm/md/xl/full`, lint-enforced                              |
+| 9   | Shadow              | ✅ Locked            | Kole's recipe, theme-aware                                  |
+| 10  | Motion              | ❌ Open              | No documented scale yet                                     |
+| 11  | Token wiring        | 🟡 Partial           | CSS vars + Tailwind both exist; need single source of truth |
+| 12  | `/styleguide` route | ❌ Missing           | Build after sections 4–6 lock                               |
+| 13  | Component refactor  | 🟡 Partial           | Modal/radius/shadows done; Button/Icon atoms still missing  |
 
 ---
 
@@ -99,20 +99,41 @@ Voice is **locked** in `docs/brand/brand-positioning.md` and `docs/brand/brand-s
 | **Voice (4 traits)** | Tactically Direct · Socially Savvy · Respectfully Provocative · Pattern-Recognition Focused                                                                   |
 | **What we are NOT**  | ❌ Academic/theoretical · ❌ New-Age mystical · ❌ Generic SaaS minimalist · ❌ Corporate · ❌ Preachy                                                        |
 
-### Decisions to make
+### ✅ LOCKED 2026-05-04 — Streetlamp Symposium
 
-- [ ] **Visual mood — pick one of three** (this is the load-bearing call):
-  - **Option A — "Warm Tech Spec"** _(my recommendation)_ — psychologist's leather-bound office meets a modern data dashboard. Warm stone neutrals, teal as primary illumination, rose for emotion accents, gold for premium moments. Light + dark co-equal. **Why:** matches voice ("understanding beats judgment"), matches the audience's preferences (tactical, grounded, not gamer-coded), and matches what's actually shipping in the code today. Closest references: Notion light mode, Headspace, Linear surface elevation, Stripe gradient accents.
-  - **Option B — "Solo Leveling Awakening"** — gaming-coded dark void, purple shadow energy, blue system UI, glow effects, gamification metaphor (XP, ranks, shadow extraction). Dark-only. **Why pick this:** the metaphor is genuinely strong, and the audience overlaps with gaming/anime culture. Closest references: Solo Leveling UI, Persona series menus, Cyberpunk 2077 HUDs.
-  - **Option C — "Field-Manual Psychology"** — almanac/textbook energy. Serif type (Noticia Text or similar), kraft/parchment neutrals, 1px borders not shadows, charts and diagrams over decoration. **Why pick this:** maps directly to "ancient wisdom 2,500 years old," reads as authoritative, hardest to confuse with any competitor. Closest references: NYT Cooking, Atlas Obscura editorial, Field Notes notebooks.
+**Two-mode brand:**
 
-  My pick: **A.** Reasoning: the code already pays this cost; voice traits ("respectful," "pattern recognition," "results-driven") read warmer than Option B's combat metaphor; serious adults who want EQ tools (the actual audience, even if entry is gamer-coded) trust warm-clean over gaming-dark. Option B can survive as a **viral skin** (poster generator, social cards, certain landing pages) without owning the whole product.
+- **Primary mode (Streetlamp Symposium)** — warm-tech, dark stone with sodium-amber illumination. Greek-statue + tech-spec contrast as the cultural anchor. Used everywhere except where the dossier variant takes over.
+- **Tech-spec dossier variant** — same tokens, denser layout (mono labels, coordinate annotations, stat panels, case-file framing). Used on `/personality-analysis/*` pages.
 
-- [ ] **Visual vocabulary** — concrete repeating elements. Recommendation if Option A locks: subtle warm grain/paper texture, 1px stone-color borders (not shadows for static UI), warm-tinted teal glow reserved for hero CTAs only, tabular data + chart blocks as first-class citizens, Greek-statue / philosopher imagery as decorative anchor.
+**Visual references** (the ones we channel):
 
-### Final values
+- Pirate Wires editorial voice ("we know things others don't")
+- Caravaggio + Hopper warm-pool-against-shadow lighting
+- Persona 5 confidant cards (data-warm, not data-cold)
+- Greek philosopher statues lit from one side (already in `static/`)
+- Late-night intimate-gathering energy — the streetlamp meetup
 
-_(filled in once locked)_
+**Visual vocabulary** (concrete recurring elements):
+
+- Pools of warm light against deep stone (chiaroscuro composition)
+- Greek statue imagery as illuminated subject, not decorative texture
+- Mono labels as section markers (`§NN · LABEL`) and dossier annotations
+- 1px stone-edge borders as the elevation workhorse — shadows reserved for floating UI
+- Sodium-amber primary glow — never neon, never gradient-drenched
+- Negative space treated as deep night, not empty white
+
+**What we are visually NOT** (final):
+
+- ❌ Generic SaaS template (Notion/Linear/Stripe wholesale aesthetic)
+- ❌ Wellness-app softness (Headspace, Calm)
+- ❌ Solo Leveling wholesale (gaming UI, particle effects, XP bars on the homepage)
+- ❌ Mystical / Illuminati cosplay (no eye-in-pyramid, no sacred geometry, no Tarot)
+- ❌ MBTI / 16personalities cartoon-coded UI
+- ❌ Red-pill / "The Game" bro aesthetic
+- ❌ Corporate-cold SaaS (Salesforce, Hubspot)
+
+**Canonical visual reference:** `/design-preview/v5`. Production migrates in Phase 4 of `docs/design/2026-05-04-rollout-plan.md`.
 
 ---
 
@@ -174,56 +195,99 @@ CSS variables defined in `src/scss/index.scss` for both `:root` (dark) and `:roo
 | 8    | Challenger    | `#DC2626` |
 | 9    | Peacemaker    | `#34D399` |
 
-### Decisions to make
+### ✅ LOCKED 2026-05-04 — V5 token set
 
-- [ ] **Ratify the de-facto palette as locked** (yes/no — rejecting it means picking a new one and rewriting the Tailwind config).
-- [ ] **Cut the glow effect bloat.** Today there are 6 glow tokens + 2 Tailwind glow utilities. Recommendation: keep only `--glow-sm` and `--glow-md` (primary-tinted) for _interactive_ moments. Delete `--glow-lg`, `--glow-secondary`, `--glow-accent`, `--glow-subtle`, `glow-teal`, `glow-rose`. (See gap-analysis §2.)
-- [ ] **Lock the rule:** _no raw `gray-*`, `slate-*`, `zinc-*`, `blue-*`, `green-*`, `red-*` Tailwind classes in `src/`._ Use semantic tokens or brand tokens only. Add an ESLint rule.
+The Streetlamp Symposium palette replaces the de-facto teal-primary palette as the brand identity. During the **bridge migration** (per `docs/design/2026-05-04-rollout-plan.md`), V5 tokens coexist with the legacy `--bg-*` / `--text-*` / `--primary-*` set in `src/scss/index.scss`. Legacy tokens get removed in the final cleanup phase.
 
-### Critical rule (proposed)
+#### V5 brand palette (canonical)
 
-> **No raw Tailwind grayscale or color-name classes in `src/`.** Always `text-primary-*`, `bg-secondary-*`, `border-neutral-*`, or surface tokens (`bg-[var(--bg-surface)]`). Code review enforces; ESLint to follow.
+| Role            | Token           | Dark      | Light     | Use                                              |
+| --------------- | --------------- | --------- | --------- | ------------------------------------------------ |
+| **Primary**     | `--lamp-glow`   | `#F59E0B` | `#B45309` | Sodium-amber illumination — CTAs, brand moments  |
+|                 | `--lamp-deep`   | `#B45309` | `#92400E` | Hover, pressed                                   |
+|                 | `--lamp-light`  | `#FBBF24` | `#D97706` | Highlights                                       |
+| **Data accent** | `--data-teal`   | `#0D9488` | `#0F766E` | Tech-spec annotations, dossier mode, stat panels |
+|                 | `--data-cyan`   | `#5EEAD4` | `#14B8A6` | Active data points                               |
+| **Surfaces**    | `--night-deep`  | `#0a0807` | `#FAF8F4` | Page background                                  |
+|                 | `--night-mid`   | `#16110d` | `#F2EBDD` | Secondary surface                                |
+|                 | `--stone-warm`  | `#241D17` | `#FFFFFF` | Cards, content containers                        |
+|                 | `--stone-mid`   | `#3a302a` | `#F5F0E8` | Elevated, hover                                  |
+|                 | `--stone-edge`  | `#5C4F47` | `#D6CCB8` | 1px hairline borders                             |
+| **Marble**      | `--marble-pure` | `#FAF8F4` | `#FFFFFF` | Statue lit faces, pure-light moments             |
+| **Ink**         | `--ink-bright`  | `#FAF8F4` | `#1C1917` | Primary text                                     |
+|                 | `--ink-mid`     | `#A8A095` | `#44403C` | Body                                             |
+|                 | `--ink-dim`     | `#5C4F47` | `#78716C` | Captions, mono labels                            |
+|                 | `--ink-muted`   | `#3A302A` | `#A8A29E` | Disabled, placeholders                           |
+
+**Why amber instead of teal:** the Streetlamp Symposium mood requires a sodium-vapor warm-light primary. Teal is too cool to read as illumination. Teal survives as **`--data-teal`** — the secondary "system / data" accent for tech-spec dossier moments.
+
+**Enneagram type colors** (data-only, unchanged from production global SCSS):
+
+| Type | Hex       | Type | Hex       | Type | Hex       |
+| ---- | --------- | ---- | --------- | ---- | --------- |
+| 1    | `#6366F1` | 4    | `#A855F7` | 7    | `#FBBF24` |
+| 2    | `#F472B6` | 5    | `#0EA5E9` | 8    | `#DC2626` |
+| 3    | `#F59E0B` | 6    | `#22C55E` | 9    | `#34D399` |
+
+#### Semantic palette (unchanged)
+
+| Role    | Token       | Hex       |
+| ------- | ----------- | --------- |
+| Success | `--success` | `#10B981` |
+| Warning | `--warning` | `#F59E0B` |
+| Error   | `--error`   | `#EF4444` |
+
+### Glow tokens — ✅ LOCKED 2026-05-04 (Phase 2 cleanup)
+
+Cut from 6 to 2:
+
+- **Keep:** `--glow-sm` (10px @ low alpha), `--glow-md` (20px @ low alpha) — for hover/focus on interactive elements only
+- **Delete in Phase 2:** `--glow-lg`, `--glow-secondary`, `--glow-accent`, `--glow-subtle`, plus Tailwind `glow-teal` and `glow-rose` utilities
+
+### Critical rule (locked)
+
+> **No raw Tailwind grayscale or color-name classes in `src/`.** Always use semantic tokens (`var(--ink-bright)`, `bg-[var(--stone-warm)]`) or brand tokens. Code review enforces; ESLint rule to follow in Phase 3.
 
 ---
 
 ## 6. Typography
 
-### Decisions to make
+### ✅ LOCKED 2026-05-04 — Inter + JetBrains Mono
 
-- [ ] **Pick the type system.** Three options:
-  - **Option A — Keep current (Rajdhani + Space Grotesk + JetBrains Mono).** What ships today. Rajdhani is angular/gaming-coded; Space Grotesk is modern-clean. **Pros:** zero migration. **Cons:** Rajdhani argues for Option B brand mood, doesn't match Warm Tech.
-  - **Option B — Inter + Inter Display + JetBrains Mono.** Single-family, variable-weight, infinitely versatile. **Pros:** the safest, most legible, least opinionated; fits any of the three brand moods. **Cons:** says nothing about 9takes; competitors all use Inter.
-  - **Option C — Fraunces (display) + Inter (body) + JetBrains Mono.** Editorial serif headline + clean sans body. **Pros:** matches "ancient wisdom modernized" voice; reads like a magazine. **Cons:** larger font payload; serif headlines can read precious.
+**Type system:** Inter (variable, weights 400–800) + JetBrains Mono. **No serif. No third sans-serif.**
 
-  My pick: **C — Fraunces + Inter + JetBrains Mono** _if Option A brand mood (Warm Tech) locks_. The serif headline carries the "scholarly but not academic" voice; Inter does heavy-lifting on body without competing. If Option B brand mood (Solo Leveling) locks, keep current Rajdhani+Space Grotesk. If Option C brand mood (Field Manual) locks, Fraunces becomes mandatory.
+| Family             | Use                                                                            | Loaded via                                                        |
+| ------------------ | ------------------------------------------------------------------------------ | ----------------------------------------------------------------- |
+| **Inter**          | Display, headlines, body — every size from 12px to 80px                        | `@fontsource-variable/inter` (Phase 2 swap from Google Fonts CDN) |
+| **JetBrains Mono** | Section kickers (`§NN · LABEL`), dossier annotations, stat values, coordinates | Already loaded globally                                           |
 
-- [ ] **Lock the type scale.** Currently undocumented and inconsistent (SCSS body styles set `h1: 2.5rem` desktop, Tailwind typography plugin sets `h1: 2.25rem`, mobile h1 is `1.75rem` — not modular).
+**Drop in Phase 2:** Rajdhani, Space Grotesk. (Noticia Text files in `static/fonts/` are already unreferenced — delete in Phase 7.) Inter at weight 800 with -0.04em letter-spacing handles the gravitas role Rajdhani used to do.
 
-  Recommended scale (modular ratio 1.250, hand-tuned at the top end):
+### Type scale (V5 lock)
 
-  ```
-  text-xs   12px / 1.4  / 400
-  text-sm   14px / 1.45 / 400
-  text-base 16px / 1.55 / 400
-  text-lg   18px / 1.5  / 400
-  text-xl   20px / 1.4  / 600
-  text-2xl  24px / 1.3  / 600
-  text-3xl  30px / 1.2  / 700  (h2)
-  text-4xl  38px / 1.15 / 700  (h1 mobile)
-  text-5xl  48px / 1.1  / 700  (h1 desktop)
-  ```
+```
+display-xl   72px  Inter  800  -0.04em letter-spacing  hero tagline
+display-lg   56px  Inter  800  -0.03em                 large section headers
+display-md   40px  Inter  700  -0.02em                 standard section headers
+display-sm   28px  Inter  700  -0.015em                small section headers
+body-lg      18px  Inter  400  1.55 line-height        reading body
+body         16px  Inter  400  1.55                    default body
+body-sm      14px  Inter  400  1.50                    small body
+mono         12px  JetBrains 500  0.08em UPPERCASE     dossier-style labels
+mono-lg      14px  JetBrains 500  0.06em UPPERCASE     prominent annotations
+```
 
-- [ ] **Hosting decision.** Move all fonts to `@fontsource-variable/*` packages (self-hosted, GDPR-clean, perf wins). Today fonts are loaded via custom `@font-face` rules + the Noticia Text files in `static/fonts/` are still on disk but unreferenced.
+### Color rules (locked)
 
-### Color rules (proposed)
-
-| Element   | Color                                                                 |
-| --------- | --------------------------------------------------------------------- |
-| `h1`      | `var(--primary)` — the brand moment, once per page                    |
-| `h2`–`h4` | `var(--text-primary)`                                                 |
-| Body      | `var(--text-primary)`                                                 |
-| Caption   | `var(--text-secondary)`                                               |
-| Links     | `var(--primary)` light / `var(--primary-light)` dark, hover underline |
+| Element             | Color                                               |
+| ------------------- | --------------------------------------------------- |
+| `h1` / display-xl   | `var(--lamp-glow)` once per page (the brand moment) |
+| `h2`–`h4`           | `var(--ink-bright)`                                 |
+| Body                | `var(--ink-bright)`                                 |
+| Caption / metadata  | `var(--ink-mid)`                                    |
+| Mono section kicker | `var(--lamp-glow)`                                  |
+| Mono footnote       | `var(--ink-dim)`                                    |
+| Links               | `var(--lamp-glow)` with hover underline             |
 
 ---
 
@@ -379,7 +443,9 @@ Things deferred — capture here so they're not lost.
 
 ## 14. Change log
 
-| Date       | Change                                                                                                                     |
-| ---------- | -------------------------------------------------------------------------------------------------------------------------- |
-| 2026-04-27 | Radius scale locked + lint-enforced (`pnpm lint:radius`); shadows softened to Kole's recipe; modals consolidated.          |
-| 2026-05-01 | Document created. Audit + gap-analysis complete. Brand mood, typography, spacing, motion sections opened for ratification. |
+| Date       | Change                                                                                                                                                                                                                                                                       |
+| ---------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 2026-04-27 | Radius scale locked + lint-enforced (`pnpm lint:radius`); shadows softened to Kole's recipe; modals consolidated.                                                                                                                                                            |
+| 2026-05-01 | Document created. Audit + gap-analysis complete. Brand mood, typography, spacing, motion sections opened for ratification.                                                                                                                                                   |
+| 2026-05-04 | §4 Brand mood locked (Streetlamp Symposium). §5 Color locked (V5 token set). §6 Typography locked (Inter + JetBrains Mono). Glow tokens locked (cut to 2). Rollout plan created at `docs/design/2026-05-04-rollout-plan.md`. Lock candidate prototype: `/design-preview/v5`. |
+| 2026-05-05 | **Migration complete (Phases 1–7).** All page categories, asset generators, admin surface, and 47 components migrated to V5 tokens + Svelte 5 runes. Bridge demolition: legacy SCSS tokens redirected as one-line aliases to V5; V5 is now single source of truth for color values. `body` styles use V5 directly. `/design-preview/v2\|v3\|v4` deleted. `@fontsource/rajdhani` + `@fontsource/space-grotesk` removed. **0 legacy core token refs in `src/` code.** Tracker: `docs/design/migration-progress.md`. |

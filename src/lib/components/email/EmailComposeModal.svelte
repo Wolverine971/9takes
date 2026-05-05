@@ -532,7 +532,7 @@
 	.compose-header h2 {
 		margin: 0;
 		font-size: 1.125rem;
-		color: var(--text-primary, #1f2937);
+		color: var(--ink-bright, #1f2937);
 	}
 
 	.close-btn {
@@ -540,7 +540,7 @@
 		border: none;
 		font-size: 1.5rem;
 		cursor: pointer;
-		color: var(--text-secondary, #6b7280);
+		color: var(--ink-mid, #6b7280);
 		line-height: 1;
 		padding: 0;
 		width: 2rem;
@@ -553,7 +553,7 @@
 	}
 
 	.close-btn:hover {
-		color: var(--text-primary, #1f2937);
+		color: var(--ink-bright, #1f2937);
 		background: var(--hover-background, #f3f4f6);
 	}
 
@@ -582,13 +582,13 @@
 		margin-bottom: 0.5rem;
 		font-weight: 500;
 		font-size: 0.875rem;
-		color: var(--text-primary, #1f2937);
+		color: var(--ink-bright, #1f2937);
 	}
 
 	.field-hint {
 		margin: 0.5rem 0 0;
 		font-size: 0.75rem;
-		color: var(--text-secondary, #6b7280);
+		color: var(--ink-mid, #6b7280);
 	}
 
 	.form-input,
@@ -600,7 +600,7 @@
 		font-size: 16px;
 		background: var(--background, #ffffff);
 		font-family: inherit;
-		color: var(--text-primary, #1f2937);
+		color: var(--ink-bright, #1f2937);
 	}
 
 	.form-textarea {
@@ -612,7 +612,7 @@
 	.form-input:focus,
 	.form-textarea:focus {
 		outline: none;
-		border-color: var(--primary, #6c5ce7);
+		border-color: var(--lamp-glow, #6c5ce7);
 		box-shadow: 0 0 0 3px rgba(108, 92, 231, 0.1);
 	}
 
@@ -629,13 +629,13 @@
 		padding: 0.25rem 0.5rem;
 		border-radius: 4px;
 		font-size: 0.75rem;
-		color: var(--text-primary, #1f2937);
+		color: var(--ink-bright, #1f2937);
 	}
 
 	.recipient-chip.more {
-		background: var(--primary, #6c5ce7);
+		background: var(--lamp-glow, #6c5ce7);
 		color: white;
-		border-color: var(--primary, #6c5ce7);
+		border-color: var(--lamp-glow, #6c5ce7);
 	}
 
 	/* Content Header */
@@ -675,7 +675,7 @@
 
 	.context-info p {
 		margin: 0.25rem 0;
-		color: var(--text-primary, #1f2937);
+		color: var(--ink-bright, #1f2937);
 	}
 
 	/* Buttons */
@@ -695,7 +695,7 @@
 	}
 
 	.btn-primary {
-		background: var(--primary, #6c5ce7);
+		background: var(--lamp-glow, #6c5ce7);
 		color: white;
 	}
 
@@ -706,7 +706,7 @@
 	.btn-secondary {
 		background: var(--background, #ffffff);
 		border: 1px solid var(--border-color, #e5e7eb);
-		color: var(--text-primary, #1f2937);
+		color: var(--ink-bright, #1f2937);
 	}
 
 	.btn-secondary:hover:not(:disabled) {

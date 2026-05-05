@@ -44,7 +44,13 @@ type-7-possibility-crossroads
     import MarqueeHorizontal from "$lib/components/atoms/MarqueeHorizontal.svelte";
     import PopCard from "$lib/components/atoms/PopCard.svelte";
     import QuickAnswer from "$lib/components/blog/callouts/QuickAnswer.svelte";
+    import EnneagramTypeDossier from "$lib/components/blog/EnneagramTypeDossier.svelte";
+    import { enneagramTypeProfiles } from "$lib/data/enneagramTypeProfiles";
+
+    const dossier = enneagramTypeProfiles[7];
 </script>
+
+<EnneagramTypeDossier {...dossier} />
 
 <QuickAnswer question="What makes Type 7s tick?">
 Your mind is a possibility engine. While others see one option, you see a dozen alternatives branching out in every direction. That's not a bug, it's your superpower. You learned early that you could transform disappointment into opportunity, boredom into adventure, and limitation into creative fuel. The flip side? Stillness can feel like a trap because your brain is wired to keep moving toward the next horizon. Understanding this wiring lets you harness it intentionally rather than letting it run you. The goal isn't to slow down and become someone else. It's to choose when to sprint and when to savor.
@@ -209,6 +215,24 @@ You're in this stress spiral when you notice:
 The exit isn't more control. It's actually simpler: let yourself feel whatever you've been trying to outrun. The feeling won't destroy you. It might even have something useful to tell you.
 
 Read more about <a href="/enneagram-corner/enneagram-stress-number">other types under stress</a>
+
+</section>
+
+<section class="section-content">
+
+## How 7s Handle Conflict: The Positive Outlook Approach
+
+Type 7s belong to the **Positive Outlook** Harmonic group (alongside 2s and 9s) — the types who default to reframing, distracting, or minimizing problems to keep themselves and the room feeling good.
+
+A startup loses its biggest client. By that evening the Seven has pivoted to a new vertical, sketched three pitch decks, and convinced themselves this is actually the best thing that could have happened. They aren't lying — they really believe it. They also haven't let the loss land long enough to learn anything from it.
+
+That's the Positive Outlook move (Seven-flavored): the quick mind outruns the painful feeling. Sevens are in flight from a threatening internal world — grief, sadness, disappointment — by sprinting through the external one. They discard things and people without regret because _moving on hurts less than staying_. The pivot looks like resilience. It's often flight wearing resilience as a costume.
+
+**The blind spot**: Reframe-as-escape. The Seven mistakes their pivoting speed for adaptability. The actual signal is that the bad feeling never got metabolized — it just got outrun, which means it'll be there waiting the next time you slow down.
+
+**The shift**: Stay in the room with the bad feeling for one more minute than is comfortable. Set a literal timer. The emotion you've been outrunning is usually shorter, smaller, and more useful than your imagination warned you. The pivot will still be there afterward.
+
+For the full framework, see [The Enneagram Harmonic Approaches](/enneagram-corner/enneagram-harmonic-approaches).
 
 </section>
 

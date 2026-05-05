@@ -103,7 +103,7 @@
 		class="btn btn-primary flex"
 		type="button"
 		style="{comment?.length > 1
-			? 'color: var(--accent); border: 1px solid var(--accent);'
+			? 'color: var(--lamp-glow); border: 1px solid var(--lamp-glow);'
 			: ''} display: flex;"
 		title="You only YOLO once"
 		on:click={createComment}
@@ -114,7 +114,7 @@
 			<RightIcon
 				iconStyle={'margin-left: .5rem; padding: 0 0.25rem;'}
 				height={'1.5rem'}
-				fill={'var(--accent)'}
+				fill={'var(--lamp-glow)'}
 			/>
 		{/if}
 	</button>
@@ -136,30 +136,30 @@
 		width: 100%;
 		min-height: 100px;
 		resize: vertical;
-		background-color: var(--bg-elevated);
-		border: 1px solid color-mix(in srgb, var(--text-tertiary) 30%, transparent) !important;
-		color: var(--text-primary);
-		caret-color: var(--accent);
+		background-color: var(--stone-warm);
+		border: 1px solid color-mix(in srgb, var(--ink-dim) 30%, transparent) !important;
+		color: var(--ink-bright);
+		caret-color: var(--lamp-glow);
 		transition:
 			background-color 0.2s ease,
 			border-color 0.2s ease,
 			box-shadow 0.2s ease;
 
 		&::placeholder {
-			color: var(--text-tertiary);
+			color: var(--ink-dim);
 		}
 
 		&:hover {
-			border-color: color-mix(in srgb, var(--accent) 25%, var(--bg-highlight));
+			border-color: color-mix(in srgb, var(--lamp-glow) 25%, var(--stone-warm));
 		}
 
 		&:focus {
 			outline: none !important;
-			background-color: var(--bg-surface);
-			border-color: color-mix(in srgb, var(--accent) 60%, var(--bg-highlight));
+			background-color: var(--stone-warm);
+			border-color: color-mix(in srgb, var(--lamp-glow) 60%, var(--stone-warm));
 			box-shadow:
-				0 0 0 3px color-mix(in srgb, var(--accent) 14%, transparent),
-				0 0 18px color-mix(in srgb, var(--accent) 20%, transparent);
+				0 0 0 3px color-mix(in srgb, var(--lamp-glow) 14%, transparent),
+				0 0 18px color-mix(in srgb, var(--lamp-glow) 20%, transparent);
 		}
 	}
 </style>

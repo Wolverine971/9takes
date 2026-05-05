@@ -6,7 +6,7 @@
 	import { QuestionItem } from '$lib/components/molecules';
 	import { notifications } from '$lib/components/molecules/notifications';
 	import LinkMap from '$lib/components/molecules/LinkMap.svelte';
-	import Modal2, { getModal } from '$lib/components/atoms/Modal2.svelte';
+	import Modal, { getModal } from '$lib/components/atoms/Modal.svelte';
 	import QuestionSearch from '$lib/components/molecules/QuestionSearch.svelte'; // Adjust path as needed
 
 	// ADMIN only page
@@ -326,7 +326,7 @@
 	</main>
 </div>
 
-<Modal2 id="edit-link">
+<Modal id="edit-link">
 	<div class="modal-content">
 		<h2>Change Question</h2>
 
@@ -369,7 +369,7 @@
 			</button>
 		</div>
 	</div>
-</Modal2>
+</Modal>
 
 <style lang="scss">
 	.container {

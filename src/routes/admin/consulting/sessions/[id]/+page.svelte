@@ -627,13 +627,13 @@
 	.back-link,
 	.client-link {
 		font-size: 0.8rem;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 		text-decoration: none;
 	}
 
 	.back-link:hover,
 	.client-link:hover {
-		color: var(--primary);
+		color: var(--lamp-glow);
 	}
 
 	.header-main {
@@ -657,16 +657,16 @@
 
 	.session-datetime {
 		font-weight: 500;
-		color: var(--text-primary);
+		color: var(--ink-bright);
 	}
 
 	.session-type {
 		text-transform: capitalize;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 	}
 
 	.session-duration {
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 		font-size: 0.875rem;
 	}
 
@@ -694,8 +694,8 @@
 
 	/* Section Cards */
 	.section-card {
-		background: var(--bg-surface);
-		border: 1px solid var(--bg-elevated);
+		background: var(--stone-warm);
+		border: 1px solid var(--stone-warm);
 		border-radius: 12px;
 		padding: 1rem;
 		margin-bottom: 1rem;
@@ -726,7 +726,7 @@
 
 	.prep-progress {
 		font-size: 0.75rem;
-		color: var(--primary);
+		color: var(--lamp-glow);
 		font-weight: 500;
 	}
 
@@ -741,14 +741,14 @@
 		align-items: center;
 		gap: 0.75rem;
 		padding: 0.5rem;
-		background: var(--bg-surface);
+		background: var(--stone-warm);
 		border-radius: 6px;
 		cursor: pointer;
 		transition: all 0.2s;
 	}
 
 	.prep-item:hover {
-		background: var(--bg-deep);
+		background: var(--night-deep);
 	}
 
 	.prep-item.checked {
@@ -757,7 +757,7 @@
 
 	.prep-item.checked .prep-label {
 		text-decoration: line-through;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 	}
 
 	.prep-item input[type='checkbox'] {
@@ -779,19 +779,19 @@
 
 	.context-item {
 		padding: 0.5rem;
-		background: var(--bg-deep);
+		background: var(--night-deep);
 		border-radius: 6px;
 	}
 
 	.context-item.highlight {
 		background: rgba(99, 102, 241, 0.1);
-		border-left: 3px solid var(--primary);
+		border-left: 3px solid var(--lamp-glow);
 	}
 
 	.context-label {
 		font-size: 0.7rem;
 		text-transform: uppercase;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 		letter-spacing: 0.5px;
 		display: block;
 		margin-bottom: 0.25rem;
@@ -812,9 +812,9 @@
 
 	.prev-session-item {
 		padding: 0.75rem;
-		background: var(--bg-deep);
+		background: var(--night-deep);
 		border-radius: 6px;
-		border-left: 3px solid var(--bg-elevated);
+		border-left: 3px solid var(--stone-warm);
 	}
 
 	.prev-session-header {
@@ -830,7 +830,7 @@
 
 	.prev-session-type {
 		font-size: 0.75rem;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 		text-transform: capitalize;
 	}
 
@@ -842,7 +842,7 @@
 
 	.prev-session-next {
 		font-size: 0.8rem;
-		color: var(--primary);
+		color: var(--lamp-glow);
 		margin-bottom: 0.5rem;
 	}
 
@@ -854,7 +854,7 @@
 
 	.mini-note {
 		font-size: 0.75rem;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 	}
 
 	.mini-note-type {
@@ -865,18 +865,18 @@
 
 	/* Notes Section */
 	.notes-section {
-		border: 2px solid var(--primary);
+		border: 2px solid var(--lamp-glow);
 	}
 
 	.note-count {
 		font-size: 0.75rem;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 	}
 
 	.quick-note-form {
 		margin-bottom: 1rem;
 		padding-bottom: 1rem;
-		border-bottom: 1px solid var(--bg-elevated);
+		border-bottom: 1px solid var(--stone-warm);
 	}
 
 	.note-type-selector {
@@ -891,8 +891,8 @@
 		align-items: center;
 		gap: 0.25rem;
 		padding: 0.25rem 0.5rem;
-		background: var(--bg-deep);
-		border: 1px solid var(--bg-elevated);
+		background: var(--night-deep);
+		border: 1px solid var(--stone-warm);
 		border-radius: 4px;
 		cursor: pointer;
 		font-size: 0.75rem;
@@ -904,9 +904,9 @@
 	}
 
 	.note-type-option.selected {
-		background: var(--primary);
+		background: var(--lamp-glow);
 		color: white;
-		border-color: var(--primary);
+		border-color: var(--lamp-glow);
 	}
 
 	.note-type-icon {
@@ -917,7 +917,7 @@
 	.note-content-input {
 		width: 100%;
 		padding: 0.5rem 0.75rem;
-		border: 1px solid var(--bg-elevated);
+		border: 1px solid var(--stone-warm);
 		border-radius: 12px;
 		font-size: 0.875rem;
 		font-family: inherit;
@@ -937,9 +937,9 @@
 
 	.note-item {
 		padding: 0.75rem;
-		background: var(--bg-deep);
+		background: var(--night-deep);
 		border-radius: 6px;
-		border-left: 3px solid var(--bg-elevated);
+		border-left: 3px solid var(--stone-warm);
 	}
 
 	.note-observation {
@@ -970,13 +970,13 @@
 	.note-type-badge {
 		font-size: 0.65rem;
 		text-transform: uppercase;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 		font-weight: 500;
 	}
 
 	.note-time {
 		font-size: 0.65rem;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 	}
 
 	.note-title {
@@ -993,7 +993,7 @@
 
 	.empty-notes {
 		text-align: center;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 		font-size: 0.875rem;
 		padding: 1rem;
 	}
@@ -1006,7 +1006,7 @@
 
 	.type-name {
 		font-size: 0.75rem;
-		color: var(--primary);
+		color: var(--lamp-glow);
 	}
 
 	.type-core {
@@ -1056,7 +1056,7 @@
 	.watch-for h4 {
 		font-size: 0.75rem;
 		margin: 0 0 0.375rem;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 	}
 
 	.type-patterns ul,
@@ -1121,8 +1121,8 @@
 		width: 100%;
 		text-align: left;
 		padding: 0.625rem;
-		background: var(--bg-deep);
-		border: 1px solid var(--bg-elevated);
+		background: var(--night-deep);
+		border: 1px solid var(--stone-warm);
 		border-radius: 6px;
 		cursor: pointer;
 		transition: all 0.2s;
@@ -1130,20 +1130,20 @@
 
 	.question-item:hover {
 		background: rgba(99, 102, 241, 0.1);
-		border-color: var(--primary);
+		border-color: var(--lamp-glow);
 	}
 
 	.question-text {
 		display: block;
 		font-size: 0.8rem;
 		line-height: 1.4;
-		color: var(--text-primary);
+		color: var(--ink-bright);
 	}
 
 	.copy-hint {
 		display: block;
 		font-size: 0.65rem;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 		margin-top: 0.25rem;
 	}
 
@@ -1187,7 +1187,7 @@
 
 	.quick-link {
 		font-size: 0.8rem;
-		color: var(--primary);
+		color: var(--lamp-glow);
 		text-decoration: none;
 		padding: 0.375rem;
 		border-radius: 4px;
@@ -1199,11 +1199,11 @@
 
 	.empty-type {
 		font-size: 0.875rem;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 	}
 
 	.empty-type a {
-		color: var(--primary);
+		color: var(--lamp-glow);
 	}
 
 	/* Buttons */
@@ -1227,7 +1227,7 @@
 	}
 
 	.btn-primary {
-		background: var(--primary);
+		background: var(--lamp-glow);
 		color: white;
 	}
 
@@ -1237,9 +1237,9 @@
 	}
 
 	.btn-secondary {
-		background: var(--bg-deep);
-		border: 1px solid var(--bg-elevated);
-		color: var(--text-primary);
+		background: var(--night-deep);
+		border: 1px solid var(--stone-warm);
+		color: var(--ink-bright);
 	}
 
 	/* Modal */
@@ -1258,7 +1258,7 @@
 	}
 
 	.modal {
-		background: var(--bg-surface);
+		background: var(--stone-warm);
 		border-radius: 12px;
 		width: 100%;
 		max-width: 550px;
@@ -1271,7 +1271,7 @@
 		justify-content: space-between;
 		align-items: center;
 		padding: 1rem;
-		border-bottom: 1px solid var(--bg-elevated);
+		border-bottom: 1px solid var(--stone-warm);
 	}
 
 	.modal-header h2 {
@@ -1284,7 +1284,7 @@
 		border: none;
 		font-size: 1.5rem;
 		cursor: pointer;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 	}
 
 	.modal-body {
@@ -1296,7 +1296,7 @@
 		justify-content: flex-end;
 		gap: 0.5rem;
 		padding: 1rem;
-		border-top: 1px solid var(--bg-elevated);
+		border-top: 1px solid var(--stone-warm);
 	}
 
 	.form-group {
@@ -1313,7 +1313,7 @@
 	.form-group textarea {
 		width: 100%;
 		padding: 0.5rem 0.75rem;
-		border: 1px solid var(--bg-elevated);
+		border: 1px solid var(--stone-warm);
 		border-radius: 12px;
 		font-size: 0.875rem;
 		font-family: inherit;

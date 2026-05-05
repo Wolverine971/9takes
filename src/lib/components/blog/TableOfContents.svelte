@@ -751,14 +751,14 @@
 
 <style lang="scss">
 	.toc-sidebar {
-		--toc-link-color: var(--primary-lighter);
-		--toc-link-hover-color: var(--primary-lightest);
+		--toc-link-color: var(--lamp-glow);
+		--toc-link-hover-color: var(--lamp-glow);
 
 		/* Card base styles - Solo Leveling dark theme */
-		background-color: var(--bg-deep);
+		background-color: var(--night-deep);
 		border-radius: 12px;
 		box-shadow: 0 0 20px var(--primary-subtle);
-		border: 1px solid color-mix(in srgb, var(--text-tertiary) 30%, transparent);
+		border: 1px solid color-mix(in srgb, var(--ink-dim) 30%, transparent);
 
 		position: fixed;
 		top: 50%;
@@ -786,7 +786,7 @@
 			border-radius: 3px;
 
 			&:hover {
-				background-color: var(--primary);
+				background-color: var(--lamp-glow);
 			}
 		}
 
@@ -802,8 +802,8 @@
 		font-size: 1rem;
 		font-weight: 600;
 		line-height: 1.4;
-		color: var(--text-primary);
-		border-bottom: 1px solid color-mix(in srgb, var(--text-tertiary) 30%, transparent);
+		color: var(--ink-bright);
+		border-bottom: 1px solid color-mix(in srgb, var(--ink-dim) 30%, transparent);
 	}
 
 	.toc-nav-wrapper {
@@ -811,14 +811,14 @@
 	}
 
 	.toc-accordion {
-		--toc-link-color: var(--primary-lighter);
-		--toc-link-hover-color: var(--primary-lightest);
+		--toc-link-color: var(--lamp-glow);
+		--toc-link-hover-color: var(--lamp-glow);
 
 		/* Card base styles - Solo Leveling dark theme */
-		background-color: var(--bg-deep);
+		background-color: var(--night-deep);
 		border-radius: 12px;
 		box-shadow: 0 0 15px var(--primary-subtle);
-		border: 1px solid color-mix(in srgb, var(--text-tertiary) 30%, transparent);
+		border: 1px solid color-mix(in srgb, var(--ink-dim) 30%, transparent);
 
 		margin: 1rem 0;
 		overflow: hidden;
@@ -832,10 +832,10 @@
 		display: flex;
 		align-items: center;
 		outline: none;
-		color: var(--text-primary);
-		background-color: var(--bg-surface);
+		color: var(--ink-bright);
+		background-color: var(--stone-warm);
 		transition: all 0.2s ease;
-		border-bottom: 1px solid color-mix(in srgb, var(--text-tertiary) 30%, transparent);
+		border-bottom: 1px solid color-mix(in srgb, var(--ink-dim) 30%, transparent);
 
 		&::-webkit-details-marker {
 			display: none;
@@ -847,11 +847,11 @@
 			margin-right: 0.5rem;
 			font-size: 0.75rem;
 			transition: all 0.2s ease;
-			color: var(--primary);
+			color: var(--lamp-glow);
 		}
 
 		&:hover {
-			color: var(--primary-lighter);
+			color: var(--lamp-glow);
 			background-color: var(--primary-subtle);
 		}
 	}
@@ -863,7 +863,7 @@
 
 	.toc-accordion-content {
 		padding: 0.625rem 1rem;
-		background-color: var(--bg-deep);
+		background-color: var(--night-deep);
 	}
 
 	/* Global styles for ToC elements */
@@ -956,7 +956,7 @@
 
 		&:hover {
 			color: var(--toc-link-hover-color);
-			background-color: color-mix(in srgb, var(--primary) 15%, transparent);
+			background-color: color-mix(in srgb, var(--lamp-glow) 15%, transparent);
 			text-decoration: none;
 		}
 
@@ -969,14 +969,14 @@
 
 	:global(.toc-link.active) {
 		font-weight: 600;
-		color: var(--text-primary);
+		color: var(--ink-bright);
 		background-color: var(--primary-subtle);
 	}
 
 	:global(:root.light) .toc-sidebar,
 	:global(:root.light) .toc-accordion {
-		--toc-link-color: var(--primary-darker);
-		--toc-link-hover-color: var(--accent-dark);
+		--toc-link-color: var(--lamp-glow);
+		--toc-link-hover-color: var(--lamp-glow);
 	}
 
 	/* Responsive adjustments - hide sidebar on screens smaller than breakpoint */

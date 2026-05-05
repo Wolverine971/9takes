@@ -44,7 +44,13 @@ type-9-finding-your-voice
     import MarqueeHorizontal from "$lib/components/atoms/MarqueeHorizontal.svelte";
     import PopCard from "$lib/components/atoms/PopCard.svelte";
     import QuickAnswer from "$lib/components/blog/callouts/QuickAnswer.svelte";
+    import EnneagramTypeDossier from "$lib/components/blog/EnneagramTypeDossier.svelte";
+    import { enneagramTypeProfiles } from "$lib/data/enneagramTypeProfiles";
+
+    const dossier = enneagramTypeProfiles[9];
 </script>
+
+<EnneagramTypeDossier {...dossier} />
 
 <QuickAnswer question="Why do Type 9s sometimes feel invisible?">
 If you're a Nine, you probably learned early that keeping the peace meant setting yourself aside. It made sense at the time. When you stayed calm and agreeable, things felt easier for everyone. Over time, this became second nature. You got good at reading what others needed, at smoothing things over, at creating space where everyone else could be comfortable.
@@ -187,6 +193,24 @@ This isn't a character flaw. It's a signal. Your system is telling you something
 Recognizing this pattern gives you a choice. You can address what's actually going on instead of white-knuckling through it.
 
 Read more about <a href="/enneagram-corner/enneagram-stress-number">how different types experience stress</a>
+
+</section>
+
+<section class="section-content">
+
+## How 9s Handle Conflict: The Positive Outlook Approach
+
+Type 9s belong to the **Positive Outlook** Harmonic group (alongside 2s and 7s) — the types who default to reframing, redirecting, or minimizing problems to keep the surface peaceful.
+
+A spouse asks where the Nine wants to go for dinner. The Nine says "wherever's fine." The spouse picks. The Nine is quietly disappointed but doesn't say so — saying so would create friction, and friction is the thing the Nine's whole system is organized to avoid. A month later, it surfaces as a slow simmer about never being prioritized. The spouse is blindsided. They thought everything was fine.
+
+That's the Positive Outlook move (Nine-flavored): the Nine strengthens their attachment to the status quo as a defense against conflict. The problem will resolve itself; why bother. They accommodate others by quietly losing contact with their own preferences, then can't access those preferences even when directly asked.
+
+**The blind spot**: Numbness mislabeled as peace. The accommodation that keeps the surface smooth is building a quiet resentment underneath. The Nine confuses "I don't have a strong opinion" with "I haven't let myself feel one." Those are different conditions.
+
+**The shift**: Name a preference, even a small one. "I want Thai." "I'd rather walk." "I disagree." The small ones build the muscle for the big ones. And every preference voiced is an act of presence — the opposite of self-forgetting.
+
+For the full framework, see [The Enneagram Harmonic Approaches](/enneagram-corner/enneagram-harmonic-approaches).
 
 </section>
 

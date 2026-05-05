@@ -601,8 +601,8 @@
 	}
 
 	.modal-dialog {
-		background: var(--bg-surface);
-		border: 1px solid var(--bg-elevated);
+		background: var(--stone-warm);
+		border: 1px solid var(--stone-warm);
 		border-radius: 12px;
 		max-width: 900px;
 		width: 100%;
@@ -616,7 +616,7 @@
 		align-items: center;
 		padding: 1rem 1.25rem;
 		border-bottom: 3px solid;
-		background: var(--bg-deep);
+		background: var(--night-deep);
 	}
 
 	.header-left {
@@ -644,7 +644,7 @@
 	.platform-name {
 		font-weight: 600;
 		font-size: 1rem;
-		color: var(--text-primary);
+		color: var(--ink-bright);
 		text-transform: capitalize;
 	}
 
@@ -678,8 +678,8 @@
 	}
 
 	.status-default {
-		background: var(--bg-elevated);
-		color: var(--text-secondary);
+		background: var(--stone-warm);
+		color: var(--ink-mid);
 	}
 
 	.header-actions {
@@ -695,16 +695,16 @@
 		width: 36px;
 		height: 36px;
 		border-radius: 8px;
-		border: 1px solid var(--bg-elevated);
-		background: var(--bg-surface);
-		color: var(--text-secondary);
+		border: 1px solid var(--stone-warm);
+		background: var(--stone-warm);
+		color: var(--ink-mid);
 		cursor: pointer;
 		transition: all 0.15s ease;
 	}
 
 	.icon-btn:hover {
-		color: var(--primary);
-		border-color: var(--primary);
+		color: var(--lamp-glow);
+		border-color: var(--lamp-glow);
 	}
 
 	.modal-body {
@@ -731,7 +731,7 @@
 	}
 
 	.btn-primary {
-		background: var(--primary);
+		background: var(--lamp-glow);
 		color: white;
 	}
 
@@ -745,12 +745,12 @@
 	}
 
 	.btn-secondary {
-		background: var(--bg-elevated);
-		color: var(--text-primary);
+		background: var(--stone-warm);
+		color: var(--ink-bright);
 	}
 
 	.btn-secondary:hover {
-		background: var(--bg-highlight);
+		background: var(--stone-warm);
 	}
 
 	/* Spinner */
@@ -782,8 +782,8 @@
 		align-items: center;
 		gap: 1rem;
 		padding: 1rem;
-		background: var(--bg-deep);
-		border: 1px solid var(--bg-elevated);
+		background: var(--night-deep);
+		border: 1px solid var(--stone-warm);
 		border-radius: 12px;
 	}
 
@@ -793,7 +793,7 @@
 		justify-content: center;
 		width: 44px;
 		height: 44px;
-		background: var(--primary);
+		background: var(--lamp-glow);
 		color: white;
 		border-radius: 8px;
 	}
@@ -806,12 +806,12 @@
 	.schedule-date {
 		font-weight: 600;
 		font-size: 1rem;
-		color: var(--text-primary);
+		color: var(--ink-bright);
 	}
 
 	.schedule-time {
 		font-size: 0.875rem;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 	}
 
 	.campaign-badge {
@@ -825,8 +825,8 @@
 
 	.content-preview-section {
 		padding: 1rem;
-		background: var(--bg-deep);
-		border: 1px solid var(--bg-elevated);
+		background: var(--night-deep);
+		border: 1px solid var(--stone-warm);
 		border-radius: 12px;
 	}
 
@@ -834,7 +834,7 @@
 		margin: 0 0 0.75rem 0;
 		font-size: 0.8125rem;
 		font-weight: 600;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 		text-transform: uppercase;
 		letter-spacing: 0.05em;
 	}
@@ -842,7 +842,7 @@
 	.content-text {
 		font-size: 1rem;
 		line-height: 1.6;
-		color: var(--text-primary);
+		color: var(--ink-bright);
 	}
 
 	.content-text p {
@@ -855,9 +855,9 @@
 		padding: 1rem;
 		padding-left: 2.5rem;
 		margin-bottom: 0.75rem;
-		background: var(--bg-surface);
+		background: var(--stone-warm);
 		border-radius: 8px;
-		border-left: 3px solid var(--primary);
+		border-left: 3px solid var(--lamp-glow);
 	}
 
 	.thread-number {
@@ -869,7 +869,7 @@
 		display: flex;
 		align-items: center;
 		justify-content: center;
-		background: var(--primary);
+		background: var(--lamp-glow);
 		color: white;
 		border-radius: 50%;
 		font-size: 0.6875rem;
@@ -881,7 +881,7 @@
 		right: 0.75rem;
 		bottom: 0.5rem;
 		font-size: 0.6875rem;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 	}
 
 	.metadata-grid {
@@ -892,7 +892,7 @@
 
 	.metadata-item {
 		padding: 0.75rem 1rem;
-		background: var(--bg-deep);
+		background: var(--night-deep);
 		border-radius: 8px;
 	}
 
@@ -900,7 +900,7 @@
 		display: block;
 		font-size: 0.6875rem;
 		font-weight: 600;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 		text-transform: uppercase;
 		letter-spacing: 0.05em;
 		margin-bottom: 0.375rem;
@@ -908,7 +908,7 @@
 
 	.metadata-value {
 		font-size: 0.875rem;
-		color: var(--text-primary);
+		color: var(--ink-bright);
 	}
 
 	.hashtags-list {
@@ -921,7 +921,7 @@
 		padding: 0.125rem 0.5rem;
 		font-size: 0.75rem;
 		background: rgba(99, 102, 241, 0.1);
-		color: var(--primary);
+		color: var(--lamp-glow);
 		border-radius: 4px;
 	}
 
@@ -943,7 +943,7 @@
 		flex-direction: column;
 		gap: 0.875rem;
 		padding: 1rem;
-		background: var(--bg-deep);
+		background: var(--night-deep);
 		border-radius: 12px;
 	}
 
@@ -956,7 +956,7 @@
 	.edit-label span {
 		font-size: 0.8125rem;
 		font-weight: 500;
-		color: var(--text-primary);
+		color: var(--ink-bright);
 	}
 
 	.edit-main {
@@ -974,23 +974,23 @@
 	.content-title {
 		font-size: 0.9375rem;
 		font-weight: 600;
-		color: var(--text-primary);
+		color: var(--ink-bright);
 	}
 
 	.field-input {
 		width: 100%;
 		padding: 0.5rem 0.75rem;
 		font-size: 0.875rem;
-		border: 1px solid var(--bg-elevated);
+		border: 1px solid var(--stone-warm);
 		border-radius: 8px;
-		background: var(--bg-deep);
-		color: var(--text-primary);
+		background: var(--night-deep);
+		color: var(--ink-bright);
 		transition: border-color 0.15s ease;
 	}
 
 	.field-input:focus {
 		outline: none;
-		border-color: var(--primary);
+		border-color: var(--lamp-glow);
 	}
 
 	.field-textarea {
@@ -1023,7 +1023,7 @@
 		position: relative;
 		width: 36px;
 		height: 20px;
-		background: var(--bg-elevated);
+		background: var(--stone-warm);
 		border-radius: 10px;
 		transition: background 0.2s ease;
 	}
@@ -1041,7 +1041,7 @@
 	}
 
 	.toggle-input:checked + .toggle-switch {
-		background: var(--primary);
+		background: var(--lamp-glow);
 	}
 
 	.toggle-input:checked + .toggle-switch::after {
@@ -1050,7 +1050,7 @@
 
 	.toggle-text {
 		font-size: 0.8125rem;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 	}
 
 	/* Thread Editor */
@@ -1062,8 +1062,8 @@
 
 	.thread-edit-block {
 		padding: 0.75rem;
-		background: var(--bg-deep);
-		border: 1px solid var(--bg-elevated);
+		background: var(--night-deep);
+		border: 1px solid var(--stone-warm);
 		border-radius: 8px;
 	}
 
@@ -1077,7 +1077,7 @@
 	.thread-label {
 		font-size: 0.75rem;
 		font-weight: 600;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 	}
 
 	.remove-thread-btn {
@@ -1088,7 +1088,7 @@
 		height: 24px;
 		background: transparent;
 		border: none;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 		cursor: pointer;
 		border-radius: 4px;
 		transition: all 0.15s ease;
@@ -1102,7 +1102,7 @@
 	.thread-char-count {
 		text-align: right;
 		font-size: 0.6875rem;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 		margin-top: 0.25rem;
 	}
 
@@ -1120,9 +1120,9 @@
 		padding: 0.75rem;
 		font-size: 0.875rem;
 		font-weight: 500;
-		color: var(--primary);
+		color: var(--lamp-glow);
 		background: transparent;
-		border: 1px dashed var(--bg-elevated);
+		border: 1px dashed var(--stone-warm);
 		border-radius: 8px;
 		cursor: pointer;
 		transition: all 0.15s ease;
@@ -1130,7 +1130,7 @@
 
 	.add-thread-btn:hover {
 		background: rgba(99, 102, 241, 0.05);
-		border-color: var(--primary);
+		border-color: var(--lamp-glow);
 	}
 
 	/* Responsive */

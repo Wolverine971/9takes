@@ -53,9 +53,6 @@ The **Truity Enneagram Test** (free, ~10 min) is a solid free option with over 1
 | **Truity**            | Free | 10 min | ⭐⭐⭐⭐   | Quick & accurate |
 | **Eclectic Energies** | Free | 15 min | ⭐⭐⭐     | Second opinion   |
 
-<div style="overflow: hidden;">
-<MarqueeHorizontal displayList={[{name: 'self-sabotage patterns 🔄', link: '/enneagram-corner/how-each-enneagram-type-self-sabotages-success'}, {name: 'overthinking by type 🧠', link: '/enneagram-corner/why-you-cant-stop-overthinking-enneagram'}, {name: 'ADHD & Enneagram 🧩', link: '/enneagram-corner/enneagram-and-adhd-which-types-struggle-most'}, {name: 'types in relationships 💑', link: '/enneagram-corner/enneagram-types-in-relationships'}, {name: 'mental health guide 🧠', link: '/enneagram-corner/enneagram-and-mental-illness'} ]} />
-</div>
 
 <p class="firstLetter">You're about to spend 20-40 minutes of your life taking a personality test. It better be the right one.</p>
 
@@ -221,6 +218,10 @@ The iEQ9 is the test corporate L&D departments use, and it shows. It's the most 
 **When to Splurge:** If you're using this for career development or team building, it's worth the investment.
 
 ---
+
+<div style="overflow: hidden;">
+<MarqueeHorizontal displayList={[{name: 'self-sabotage patterns 🔄', link: '/enneagram-corner/how-each-enneagram-type-self-sabotages-success'}, {name: 'overthinking by type 🧠', link: '/enneagram-corner/why-you-cant-stop-overthinking-enneagram'}, {name: 'ADHD & Enneagram 🧩', link: '/enneagram-corner/enneagram-and-adhd-which-types-struggle-most'}, {name: 'types in relationships 💑', link: '/enneagram-corner/enneagram-types-in-relationships'}, {name: 'mental health guide 🧠', link: '/enneagram-corner/enneagram-and-mental-illness'} ]} />
+</div>
 
 ### 5. **Crystal Knows Free Test**
 

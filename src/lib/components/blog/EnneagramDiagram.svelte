@@ -352,17 +352,17 @@
 	   CSS VARIABLES
 	   ========================================== */
 	.diagram-wrapper {
-		--void-shadow: var(--bg-base);
-		--void-umbra: var(--bg-deep);
-		--text-pale: var(--text-primary);
-		--text-mist: var(--text-secondary);
-		--text-faded: var(--text-muted);
-		--primary: var(--primary-dark);
-		--shadow-flame: var(--accent);
-		--shadow-ethereal: var(--accent-light);
+		--void-shadow: var(--night-deep);
+		--void-umbra: var(--night-deep);
+		--text-pale: var(--ink-bright);
+		--text-mist: var(--ink-mid);
+		--text-faded: var(--ink-dim);
+		--primary: var(--lamp-glow);
+		--shadow-flame: var(--lamp-glow);
+		--shadow-ethereal: var(--lamp-glow);
 		--secondary: var(--secondary);
 		--system-hologram: var(--secondary-light);
-		--font-display: 'Rajdhani', system-ui, sans-serif;
+		--font-display: 'Inter Variable', 'Inter', system-ui, sans-serif;
 		--font-mono: 'JetBrains Mono', ui-monospace, monospace;
 	}
 
@@ -406,7 +406,7 @@
 		inset: -10%;
 		background: radial-gradient(
 			circle at 50% 50%,
-			color-mix(in srgb, var(--primary) 12%, transparent) 0%,
+			color-mix(in srgb, var(--lamp-glow) 12%, transparent) 0%,
 			rgba(251, 113, 133, 0.06) 40%,
 			transparent 65%
 		);
@@ -444,7 +444,7 @@
 
 	.inner-glow {
 		fill: none;
-		stroke: color-mix(in srgb, var(--primary) 15%, transparent);
+		stroke: color-mix(in srgb, var(--lamp-glow) 15%, transparent);
 		stroke-width: 0.8;
 		filter: url(#glowPurple);
 	}
@@ -453,7 +453,7 @@
 	   CONNECTION LINES
 	   ========================================== */
 	.connection-triangle {
-		stroke: var(--primary);
+		stroke: var(--lamp-glow);
 		stroke-width: 0.35;
 		stroke-opacity: 0.4;
 		transition: all 0.3s ease;
@@ -491,7 +491,7 @@
 		display: flex;
 		align-items: center;
 		justify-content: center;
-		background: linear-gradient(135deg, var(--accent-dark) 0%, var(--primary) 100%);
+		background: linear-gradient(135deg, var(--lamp-glow) 0%, var(--lamp-glow) 100%);
 		border-radius: 50%;
 		box-shadow: 0 0 20px var(--primary-glow);
 		z-index: 5;
@@ -532,7 +532,7 @@
 		justify-content: center;
 		width: 2.25rem;
 		height: 2.25rem;
-		background: var(--bg-base);
+		background: var(--night-deep);
 		border: 2px solid var(--node-color);
 		border-radius: 50%;
 		text-decoration: none;
@@ -652,7 +652,7 @@
 		left: 50%;
 		top: 50%;
 		transform: translate(-50%, -50%);
-		background: linear-gradient(180deg, var(--bg-base) 0%, var(--bg-deep) 100%);
+		background: linear-gradient(180deg, var(--night-deep) 0%, var(--night-deep) 100%);
 		border: 1px solid var(--primary-glow);
 		border-radius: 12px;
 		padding: 1rem;
@@ -677,7 +677,7 @@
 		justify-content: center;
 		width: 2rem;
 		height: 2rem;
-		background: var(--bg-base);
+		background: var(--night-deep);
 		border: 2px solid var(--badge-color);
 		border-radius: 50%;
 		flex-shrink: 0;

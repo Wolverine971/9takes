@@ -185,7 +185,7 @@
 									<div class="question-state question-state-locked">
 										<div class="state-icon state-icon-locked">
 											<svg
-												class="h-8 w-8 text-[var(--primary)]"
+												class="h-8 w-8 text-[var(--lamp-glow)]"
 												fill="none"
 												stroke="currentColor"
 												viewBox="0 0 24 24"
@@ -248,7 +248,7 @@
 									<div class="question-state question-state-empty">
 										<div class="state-icon state-icon-muted">
 											<svg
-												class="h-7 w-7 text-[var(--text-secondary)]"
+												class="h-7 w-7 text-[var(--ink-mid)]"
 												fill="none"
 												stroke="currentColor"
 												viewBox="0 0 24 24"
@@ -268,7 +268,7 @@
 								<div class="question-state question-state-locked">
 									<div class="state-icon state-icon-locked">
 										<svg
-											class="h-8 w-8 text-[var(--primary)]"
+											class="h-8 w-8 text-[var(--lamp-glow)]"
 											fill="none"
 											stroke="currentColor"
 											viewBox="0 0 24 24"
@@ -289,7 +289,7 @@
 								<div class="question-state question-state-empty">
 									<div class="state-icon state-icon-muted">
 										<svg
-											class="h-7 w-7 text-[var(--text-secondary)]"
+											class="h-7 w-7 text-[var(--ink-mid)]"
 											fill="none"
 											stroke="currentColor"
 											viewBox="0 0 24 24"
@@ -308,7 +308,7 @@
 								<div class="question-state question-state-locked">
 									<div class="state-icon state-icon-locked">
 										<svg
-											class="h-8 w-8 text-[var(--primary)]"
+											class="h-8 w-8 text-[var(--lamp-glow)]"
 											fill="none"
 											stroke="currentColor"
 											viewBox="0 0 24 24"
@@ -343,7 +343,7 @@
 	.question-content-shell {
 		position: relative;
 		overflow: hidden;
-		border: 1px solid color-mix(in srgb, var(--primary) 18%, var(--border-color));
+		border: 1px solid color-mix(in srgb, var(--lamp-glow) 18%, var(--stone-edge));
 		border-radius: 1.35rem;
 		background:
 			linear-gradient(
@@ -351,7 +351,7 @@
 				color-mix(in srgb, var(--primary-subtle) 36%, transparent) 0%,
 				transparent 18%
 			),
-			color-mix(in srgb, var(--bg-surface) 96%, transparent);
+			color-mix(in srgb, var(--stone-warm) 96%, transparent);
 		box-shadow: var(--shadow-md);
 		backdrop-filter: blur(14px);
 	}
@@ -362,7 +362,7 @@
 		inset: 0;
 		background: radial-gradient(
 			circle at top center,
-			color-mix(in srgb, var(--primary) 10%, transparent) 0%,
+			color-mix(in srgb, var(--lamp-glow) 10%, transparent) 0%,
 			transparent 42%
 		);
 		pointer-events: none;
@@ -374,8 +374,8 @@
 		display: flex;
 		overflow-x: auto;
 		padding: 0.45rem;
-		border-bottom: 1px solid color-mix(in srgb, var(--primary) 16%, var(--border-color));
-		background: color-mix(in srgb, var(--bg-deep) 78%, transparent);
+		border-bottom: 1px solid color-mix(in srgb, var(--lamp-glow) 16%, var(--stone-edge));
+		background: color-mix(in srgb, var(--night-deep) 78%, transparent);
 		backdrop-filter: blur(14px);
 	}
 
@@ -387,7 +387,7 @@
 		border: 0;
 		border-radius: 0.95rem;
 		background: transparent;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 		font-size: 0.9rem;
 		font-weight: 600;
 		white-space: nowrap;
@@ -398,15 +398,15 @@
 	}
 
 	.question-tab:hover {
-		color: var(--text-primary);
+		color: var(--ink-bright);
 		background: color-mix(in srgb, var(--primary-subtle) 32%, transparent);
 	}
 
 	.question-tab.is-active {
-		color: var(--text-primary);
+		color: var(--ink-bright);
 		background: color-mix(in srgb, var(--primary-subtle) 52%, transparent);
 		box-shadow:
-			inset 0 -2px 0 var(--primary),
+			inset 0 -2px 0 var(--lamp-glow),
 			var(--shadow-sm);
 	}
 
@@ -414,7 +414,7 @@
 		position: relative;
 		z-index: 1;
 		min-height: 22rem;
-		background: color-mix(in srgb, var(--bg-surface) 82%, transparent);
+		background: color-mix(in srgb, var(--stone-warm) 82%, transparent);
 	}
 
 	.question-content-section {
@@ -441,7 +441,7 @@
 
 	.public-perspective-preview {
 		padding: 1rem;
-		border: 1px solid color-mix(in srgb, var(--primary) 18%, var(--border-color));
+		border: 1px solid color-mix(in srgb, var(--lamp-glow) 18%, var(--stone-edge));
 		border-radius: 1.15rem;
 		background:
 			linear-gradient(
@@ -449,7 +449,7 @@
 				color-mix(in srgb, var(--primary-subtle) 32%, transparent) 0%,
 				transparent 100%
 			),
-			color-mix(in srgb, var(--bg-surface) 94%, transparent);
+			color-mix(in srgb, var(--stone-warm) 94%, transparent);
 		box-shadow: var(--shadow-sm);
 	}
 
@@ -461,14 +461,14 @@
 		margin: 0 0 0.25rem;
 		font-size: 1rem;
 		font-weight: 700;
-		color: var(--text-primary);
+		color: var(--ink-bright);
 	}
 
 	.public-perspective-preview__copy {
 		margin: 0;
 		font-size: 0.92rem;
 		line-height: 1.6;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 	}
 
 	.public-perspective-preview__grid {
@@ -478,9 +478,9 @@
 
 	.public-perspective-card {
 		padding: 0.95rem 1rem;
-		border: 1px solid color-mix(in srgb, var(--primary) 16%, var(--border-color));
+		border: 1px solid color-mix(in srgb, var(--lamp-glow) 16%, var(--stone-edge));
 		border-radius: 1rem;
-		background: color-mix(in srgb, var(--bg-surface) 88%, transparent);
+		background: color-mix(in srgb, var(--stone-warm) 88%, transparent);
 	}
 
 	.public-perspective-card__eyebrow {
@@ -489,14 +489,14 @@
 		font-weight: 700;
 		letter-spacing: 0.08em;
 		text-transform: uppercase;
-		color: var(--primary);
+		color: var(--lamp-glow);
 	}
 
 	.public-perspective-card__body {
 		margin: 0;
 		font-size: 0.95rem;
 		line-height: 1.65;
-		color: var(--text-primary);
+		color: var(--ink-bright);
 	}
 
 	.question-state {
@@ -513,20 +513,20 @@
 	}
 
 	.question-state-locked {
-		border: 1px solid color-mix(in srgb, var(--primary) 22%, transparent);
+		border: 1px solid color-mix(in srgb, var(--lamp-glow) 22%, transparent);
 		background:
 			linear-gradient(
 				180deg,
 				color-mix(in srgb, var(--primary-subtle) 54%, transparent) 0%,
 				transparent 100%
 			),
-			color-mix(in srgb, var(--bg-surface) 90%, transparent);
+			color-mix(in srgb, var(--stone-warm) 90%, transparent);
 		box-shadow: var(--shadow-sm);
 	}
 
 	.question-state-empty {
-		border: 1px dashed color-mix(in srgb, var(--text-tertiary) 35%, transparent);
-		background: color-mix(in srgb, var(--bg-surface) 76%, transparent);
+		border: 1px dashed color-mix(in srgb, var(--ink-dim) 35%, transparent);
+		background: color-mix(in srgb, var(--stone-warm) 76%, transparent);
 	}
 
 	.state-icon {
@@ -547,7 +547,7 @@
 		width: 3.4rem;
 		height: 3.4rem;
 		margin-bottom: 0.55rem;
-		background: color-mix(in srgb, var(--bg-elevated) 68%, transparent);
+		background: color-mix(in srgb, var(--stone-warm) 68%, transparent);
 	}
 
 	.state-title {
@@ -555,18 +555,18 @@
 		font-size: 1.12rem;
 		font-weight: 600;
 		line-height: 1.35;
-		color: var(--text-primary);
+		color: var(--ink-bright);
 	}
 
 	.state-title-muted {
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 	}
 
 	.state-copy {
 		margin: 0.15rem 0 0;
 		font-size: 0.92rem;
 		line-height: 1.6;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 	}
 
 	/* Hide scrollbar but allow scrolling */

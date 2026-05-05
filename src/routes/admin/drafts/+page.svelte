@@ -116,13 +116,13 @@
 		h1 {
 			font-size: 1.75rem;
 			font-weight: 700;
-			color: var(--text-primary);
+			color: var(--ink-bright);
 			margin-bottom: 0.5rem;
 		}
 
 		.header-subtitle {
 			font-size: 0.9rem;
-			color: var(--text-secondary);
+			color: var(--ink-mid);
 			margin-bottom: 1rem;
 		}
 
@@ -135,16 +135,16 @@
 				flex-direction: column;
 				align-items: center;
 				padding: 0.75rem 1.25rem;
-				background: var(--bg-surface);
-				border: 1px solid var(--bg-elevated);
+				background: var(--stone-warm);
+				border: 1px solid var(--stone-warm);
 				border-radius: 12px;
 				min-width: 100px;
-				color: var(--text-secondary);
+				color: var(--ink-mid);
 
 				strong {
 					font-size: 1.5rem;
 					font-weight: 700;
-					color: var(--primary);
+					color: var(--lamp-glow);
 				}
 			}
 		}
@@ -153,18 +153,18 @@
 	.empty-state {
 		text-align: center;
 		padding: 3rem 1.5rem;
-		background: var(--bg-surface);
+		background: var(--stone-warm);
 		border-radius: 12px;
-		border: 1px solid var(--bg-elevated);
+		border: 1px solid var(--stone-warm);
 
 		h2 {
-			color: var(--text-primary);
+			color: var(--ink-bright);
 			margin-bottom: 0.5rem;
 			font-size: 1.25rem;
 		}
 
 		p {
-			color: var(--text-secondary);
+			color: var(--ink-mid);
 			font-size: 0.9rem;
 		}
 	}
@@ -176,16 +176,16 @@
 	}
 
 	.draft-card {
-		background: var(--bg-surface);
+		background: var(--stone-warm);
 		border-radius: 12px;
-		border: 1px solid var(--bg-elevated);
+		border: 1px solid var(--stone-warm);
 		overflow: hidden;
 		transition: all 0.15s ease;
 
 		&:hover {
 			transform: translateY(-1px);
 			box-shadow: var(--glow-sm);
-			border-color: var(--primary);
+			border-color: var(--lamp-glow);
 		}
 	}
 
@@ -213,7 +213,7 @@
 		h3 {
 			font-size: 1.05rem;
 			font-weight: 600;
-			color: var(--text-primary);
+			color: var(--ink-bright);
 			margin: 0 0 0.625rem 0;
 			line-height: 1.4;
 		}
@@ -225,7 +225,7 @@
 			flex-wrap: wrap;
 
 			.person-name {
-				background: var(--primary);
+				background: var(--lamp-glow);
 				color: white;
 				padding: 0.2rem 0.625rem;
 				border-radius: 20px;
@@ -235,7 +235,7 @@
 
 			.enneagram-badge {
 				background: rgba(139, 92, 246, 0.1);
-				color: var(--primary);
+				color: var(--lamp-glow);
 				padding: 0.2rem 0.625rem;
 				border-radius: 20px;
 				font-size: 0.7rem;
@@ -245,7 +245,7 @@
 	}
 
 	.draft-description {
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 		line-height: 1.6;
 		margin: 0 0 0.75rem 0;
 		flex: 1;
@@ -264,18 +264,18 @@
 		flex-wrap: wrap;
 		gap: 0.75rem;
 		padding-top: 0.75rem;
-		border-top: 1px solid var(--bg-elevated);
+		border-top: 1px solid var(--stone-warm);
 
 		.draft-dates {
 			display: flex;
 			flex-direction: column;
 			gap: 0.2rem;
 			font-size: 0.7rem;
-			color: var(--text-secondary);
+			color: var(--ink-mid);
 
 			.last-modified {
 				font-weight: 600;
-				color: var(--text-primary);
+				color: var(--ink-bright);
 			}
 		}
 
@@ -283,7 +283,7 @@
 			.view-draft {
 				display: flex;
 				align-items: center;
-				color: var(--primary);
+				color: var(--lamp-glow);
 				font-weight: 600;
 				font-size: 0.8rem;
 				transition: opacity 0.15s ease;

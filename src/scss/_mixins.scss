@@ -7,48 +7,29 @@
   GLOW EFFECT MIXINS
 ==============================================*/
 
-// Primary glow effect
+// Primary glow effect (locked 2026-05-04: cut to sm + md only).
+// 'lg' parameter kept for backward-compat — falls through to md.
 @mixin glow-primary($intensity: 'md') {
 	@if $intensity == 'sm' {
 		box-shadow: var(--glow-sm);
-	} @else if $intensity == 'md' {
+	} @else {
 		box-shadow: var(--glow-md);
-	} @else if $intensity == 'lg' {
-		box-shadow: var(--glow-lg);
 	}
 }
 
-// Secondary glow effect
+// Secondary / accent glow mixins retired 2026-05-04 (per design-system.md §5).
+// Aliases below keep legacy callers working — they all route to glow-primary.
 @mixin glow-secondary($intensity: 'md') {
-	@if $intensity == 'sm' {
-		box-shadow: 0 0 10px var(--secondary-glow);
-	} @else if $intensity == 'md' {
-		box-shadow: 0 0 20px var(--secondary-glow);
-	} @else if $intensity == 'lg' {
-		box-shadow: 0 0 40px var(--secondary-glow);
-	}
+	@include glow-primary($intensity);
 }
 
-// Accent glow effect
 @mixin glow-accent($intensity: 'md') {
-	@if $intensity == 'sm' {
-		box-shadow: 0 0 10px var(--accent-glow);
-	} @else if $intensity == 'md' {
-		box-shadow: 0 0 20px var(--accent-glow);
-	} @else if $intensity == 'lg' {
-		box-shadow: 0 0 40px var(--accent-glow);
-	}
+	@include glow-primary($intensity);
 }
 
-// Text glow effect
+// Text glow — single brand glow only (primary-amber).
 @mixin text-glow($color: 'primary') {
-	@if $color == 'primary' {
-		text-shadow: 0 0 20px var(--primary-glow);
-	} @else if $color == 'secondary' {
-		text-shadow: 0 0 20px var(--secondary-glow);
-	} @else if $color == 'accent' {
-		text-shadow: 0 0 20px var(--accent-glow);
-	}
+	text-shadow: 0 0 20px var(--primary-glow);
 }
 
 // Card with glow on hover
@@ -65,7 +46,7 @@
 // Focus glow ring
 @mixin focus-glow {
 	&:focus-visible {
-		outline: 2px solid var(--primary);
+		outline: 2px solid var(--lamp-glow);
 		outline-offset: 2px;
 		box-shadow: var(--glow-sm);
 	}
@@ -73,26 +54,26 @@
 
 // Dark card base styles
 @mixin dark-card {
-	background-color: var(--bg-surface);
-	border: 1px solid color-mix(in srgb, var(--text-tertiary) 30%, transparent);
+	background-color: var(--stone-warm);
+	border: 1px solid color-mix(in srgb, var(--ink-dim) 30%, transparent);
 	border-radius: 12px;
 	box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
 }
 
 // Dark input base styles
 @mixin dark-input {
-	background-color: var(--bg-elevated);
-	border: 1px solid color-mix(in srgb, var(--text-tertiary) 30%, transparent);
+	background-color: var(--stone-warm);
+	border: 1px solid color-mix(in srgb, var(--ink-dim) 30%, transparent);
 	border-radius: 8px;
-	color: var(--text-primary);
+	color: var(--ink-bright);
 
 	&::placeholder {
-		color: var(--text-tertiary);
+		color: var(--ink-dim);
 	}
 
 	&:focus {
 		outline: none;
-		border-color: var(--primary);
+		border-color: var(--lamp-glow);
 		box-shadow: var(--glow-sm);
 	}
 }

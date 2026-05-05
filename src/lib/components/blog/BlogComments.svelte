@@ -43,7 +43,7 @@
 
 	.comment-info {
 		padding: 0.75rem 1rem;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 		font-style: italic;
 		font-size: 0.9rem;
 	}

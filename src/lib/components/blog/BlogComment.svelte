@@ -104,8 +104,8 @@
 
 <style lang="scss">
 	.comment-card {
-		background-color: var(--bg-surface);
-		border: 1px solid color-mix(in srgb, var(--text-tertiary) 20%, transparent);
+		background-color: var(--stone-warm);
+		border: 1px solid color-mix(in srgb, var(--ink-dim) 20%, transparent);
 		border-radius: 12px;
 		padding: 0.5rem;
 
@@ -135,7 +135,7 @@
 		align-items: center;
 		gap: 0.25rem;
 		font-size: 0.8rem;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 		padding: 0.25rem 1rem;
 	}
 
@@ -160,7 +160,7 @@
 		justify-content: center;
 		min-width: 90px;
 		height: 36px;
-		background: linear-gradient(145deg, var(--primary), var(--primary-dark));
+		background: linear-gradient(145deg, var(--lamp-glow), var(--lamp-glow));
 		color: #ffffff;
 		font-weight: 600;
 		font-size: 0.875rem;
@@ -193,7 +193,7 @@
 	.comment-text {
 		display: block;
 		line-height: 1.5;
-		color: var(--text-primary);
+		color: var(--ink-bright);
 		white-space: pre-line;
 	}
 
@@ -201,7 +201,7 @@
 		width: 80%;
 		margin: 0.5rem auto;
 		border: none;
-		border-top: 1px solid color-mix(in srgb, var(--text-tertiary) 20%, transparent);
+		border-top: 1px solid color-mix(in srgb, var(--ink-dim) 20%, transparent);
 	}
 
 	.nested-comments {
@@ -223,9 +223,9 @@
 		gap: 0.5rem;
 		width: 100%;
 		padding: 0.75rem;
-		background: var(--bg-elevated);
+		background: var(--stone-warm);
 		border: none;
-		border-top: 1px solid color-mix(in srgb, var(--text-tertiary) 20%, transparent);
+		border-top: 1px solid color-mix(in srgb, var(--ink-dim) 20%, transparent);
 		color: var(--neutral-700);
 		font-size: 0.9rem;
 		cursor: pointer;
@@ -234,13 +234,13 @@
 
 		&:hover {
 			background: rgba(45, 212, 191, 0.15);
-			color: var(--text-primary);
+			color: var(--ink-bright);
 		}
 
 		:global(.icon) {
 			width: 1.25rem;
 			height: 1.25rem;
-			fill: var(--text-secondary);
+			fill: var(--ink-mid);
 		}
 	}
 
@@ -249,7 +249,7 @@
 		height: 1.25rem;
 		border: 3px solid rgba(45, 212, 191, 0.3);
 		border-radius: 50%;
-		border-top: 3px solid var(--primary);
+		border-top: 3px solid var(--lamp-glow);
 		animation: spin 0.8s linear infinite;
 	}
 

@@ -344,7 +344,7 @@
 	}
 
 	.subtitle {
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 		margin: 0;
 		font-size: 0.875rem;
 	}
@@ -365,7 +365,7 @@
 	.search-box input {
 		width: 100%;
 		padding: 0.5rem 0.75rem;
-		border: 1px solid var(--bg-elevated);
+		border: 1px solid var(--stone-warm);
 		border-radius: 12px;
 		font-size: 0.875rem;
 	}
@@ -378,21 +378,21 @@
 
 	.filter-group label {
 		font-size: 0.8rem;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 	}
 
 	.filter-group select {
 		padding: 0.5rem 0.75rem;
-		border: 1px solid var(--bg-elevated);
+		border: 1px solid var(--stone-warm);
 		border-radius: 12px;
 		font-size: 0.875rem;
-		background: var(--bg-surface);
+		background: var(--stone-warm);
 	}
 
 	/* Table */
 	.clients-table-wrapper {
-		background: var(--bg-surface);
-		border: 1px solid var(--bg-elevated);
+		background: var(--stone-warm);
+		border: 1px solid var(--stone-warm);
 		border-radius: 12px;
 		overflow-x: auto;
 	}
@@ -407,20 +407,20 @@
 		text-align: left;
 		padding: 0.75rem;
 		font-weight: 600;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 		font-size: 0.75rem;
 		text-transform: uppercase;
-		border-bottom: 1px solid var(--bg-elevated);
-		background: var(--bg-deep);
+		border-bottom: 1px solid var(--stone-warm);
+		background: var(--night-deep);
 	}
 
 	.clients-table td {
 		padding: 0.75rem;
-		border-bottom: 1px solid var(--bg-elevated);
+		border-bottom: 1px solid var(--stone-warm);
 	}
 
 	.clients-table tbody tr:hover {
-		background: var(--bg-deep);
+		background: var(--night-deep);
 	}
 
 	.client-cell {
@@ -430,7 +430,7 @@
 	.client-name {
 		display: block;
 		font-weight: 500;
-		color: var(--primary);
+		color: var(--lamp-glow);
 		text-decoration: none;
 	}
 
@@ -440,7 +440,7 @@
 
 	.client-email {
 		font-size: 0.75rem;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 	}
 
 	.type-badge {
@@ -499,7 +499,7 @@
 	}
 
 	.unknown {
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 		font-size: 0.8rem;
 	}
 
@@ -509,7 +509,7 @@
 
 	.date-cell {
 		font-size: 0.8rem;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 		white-space: nowrap;
 	}
 
@@ -518,7 +518,7 @@
 	}
 
 	.action-link {
-		color: var(--primary);
+		color: var(--lamp-glow);
 		text-decoration: none;
 		font-size: 0.8rem;
 		margin-right: 0.75rem;
@@ -532,7 +532,7 @@
 	.empty-state {
 		text-align: center;
 		padding: 3rem;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 	}
 
 	.empty-state p {
@@ -555,7 +555,7 @@
 	}
 
 	.modal {
-		background: var(--bg-surface);
+		background: var(--stone-warm);
 		border-radius: 12px;
 		width: 100%;
 		max-width: 500px;
@@ -568,7 +568,7 @@
 		justify-content: space-between;
 		align-items: center;
 		padding: 1rem 1.5rem;
-		border-bottom: 1px solid var(--bg-elevated);
+		border-bottom: 1px solid var(--stone-warm);
 	}
 
 	.modal-header h2 {
@@ -581,7 +581,7 @@
 		border: none;
 		font-size: 1.5rem;
 		cursor: pointer;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 		line-height: 1;
 	}
 
@@ -611,7 +611,7 @@
 	.form-group select,
 	.form-group textarea {
 		padding: 0.5rem 0.75rem;
-		border: 1px solid var(--bg-elevated);
+		border: 1px solid var(--stone-warm);
 		border-radius: 12px;
 		font-size: 0.875rem;
 		font-family: inherit;
@@ -626,7 +626,7 @@
 		justify-content: flex-end;
 		gap: 0.75rem;
 		padding: 1rem 1.5rem;
-		border-top: 1px solid var(--bg-elevated);
+		border-top: 1px solid var(--stone-warm);
 	}
 
 	/* Buttons */
@@ -644,14 +644,14 @@
 	}
 
 	.btn-primary {
-		background: var(--primary);
+		background: var(--lamp-glow);
 		color: white;
 	}
 
 	.btn-secondary {
-		background: var(--bg-deep);
-		border: 1px solid var(--bg-elevated);
-		color: var(--text-primary);
+		background: var(--night-deep);
+		border: 1px solid var(--stone-warm);
+		color: var(--ink-bright);
 	}
 
 	.btn:disabled {

@@ -45,7 +45,13 @@ type-3-mask-and-laurel
     import PopCard from "$lib/components/atoms/PopCard.svelte";
     import VisualMetaphor from "$lib/components/blog/callouts/VisualMetaphor.svelte";
     import QuickAnswer from "$lib/components/blog/callouts/QuickAnswer.svelte";
+    import EnneagramTypeDossier from "$lib/components/blog/EnneagramTypeDossier.svelte";
+    import { enneagramTypeProfiles } from "$lib/data/enneagramTypeProfiles";
+
+    const dossier = enneagramTypeProfiles[3];
 </script>
+
+<EnneagramTypeDossier {...dossier} />
 
 <QuickAnswer question="Why does success feel like a prison for Type 3s?">
 You learned early that achievement equals love. Your worth fused with your accomplishments, and now each win satisfies a little less than the last. You need bigger achievements to feel the same validation. You can't stop because stopping feels like disappearing. This isn't ambition. It's survival. Behind every goal you chase sits a question you rarely ask: "If I stop performing, will anyone love who I actually am?"
@@ -236,6 +242,24 @@ The person who never stopped moving suddenly can't start. Endless energy becomes
 This isn't laziness. It's system failure. When the achievement machine breaks down, you don't know how to exist without it. A shark that must keep moving to breathe. Forced to stop, you feel like you're drowning.
 
 Read more about <a href="/enneagram-corner/enneagram-stress-number">other types under stress</a>
+
+</section>
+
+<section class="section-content">
+
+## How 3s Handle Conflict: The Competency Approach
+
+Type 3s belong to the **Competency** Harmonic group (alongside 1s and 5s) — the types who default to setting feelings aside and working the problem.
+
+A Three's parent is dying. The Three handles the hospice arrangements, the insurance calls, the family travel logistics with brutal efficiency. Friends call them "amazing" and "such a rock." Three weeks after the funeral, on a regular Tuesday, the Three falls apart in the parking lot of a grocery store with no idea why. The grief got deferred during the crisis. It found a worse moment to land.
+
+That's the Competency move: emotion is unproductive in the middle of a problem, so emotion gets filed for later. The Three isn't faking the calm. They're genuinely operating from "what's the next move." The cost is that "later" can become "years from now" — and the feelings come back demanding interest.
+
+**The blind spot**: Treating emotion as inefficiency. The feeling isn't slowing the system down — it's the data the system was built to respond to. Suppress it long enough and you stop knowing what you actually want, only what you're winning.
+
+**The shift**: Pause before solving. Ask yourself: "If I weren't trying to win this — what would I actually feel about it?" The honest answer is the one worth following.
+
+For the full framework, see [The Enneagram Harmonic Approaches](/enneagram-corner/enneagram-harmonic-approaches).
 
 </section>
 

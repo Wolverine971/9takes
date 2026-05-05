@@ -7,7 +7,7 @@
 	import BellIcon from '$lib/components/icons/bellIcon.svelte';
 	import MasterCommentIcon from '$lib/components/icons/masterCommentIcon.svelte';
 	import RightIcon from '$lib/components/icons/rightIcon.svelte';
-	import Modal2, { getModal } from '$lib/components/atoms/Modal2.svelte';
+	import Modal, { getModal } from '$lib/components/atoms/Modal.svelte';
 	import type {
 		User,
 		Comment as CommentType,
@@ -380,7 +380,7 @@
 			<div class="composer-body">
 				{#if parentType === 'question' && comment.length === 0}
 					<p class="depth-prompt">
-						<span class="font-medium text-[var(--primary)]">Dig deeper:</span>
+						<span class="font-medium text-[var(--lamp-glow)]">Dig deeper:</span>
 						{depthPrompts[currentPromptIndex]}
 					</p>
 				{/if}
@@ -393,7 +393,7 @@
 						placeholder={parentType === 'question'
 							? 'Say something real. Share what happened, give an example, or explain why you see it that way.\n\nThe best comments are honest and specific.'
 							: 'Write your reply...'}
-						class="composer-textarea bg-[var(--bg-deep)]/80 w-full resize-none overflow-y-auto rounded-md border border-[var(--bg-elevated)] px-3 py-2 text-sm leading-relaxed text-[var(--text-primary)] focus:border-[var(--primary)] focus:outline-none focus:ring-1 focus:ring-[var(--primary)]"
+						class="composer-textarea bg-[var(--night-deep)]/80 w-full resize-none overflow-y-auto rounded-md border border-[var(--stone-warm)] px-3 py-2 text-sm leading-relaxed text-[var(--ink-bright)] focus:border-[var(--lamp-glow)] focus:outline-none focus:ring-1 focus:ring-[var(--lamp-glow)]"
 						bind:value={comment}
 						id="comment-box"
 						rows="4"
@@ -422,7 +422,7 @@
 				{/if}
 			</div>
 			<div class="composer-footer">
-				<span class="text-xs text-[var(--text-muted)]">
+				<span class="text-xs text-[var(--ink-dim)]">
 					{#if parentType === 'question' && comment.length > 0 && comment.length < SHORT_ANSWER_THRESHOLD}
 						<span class="text-amber-500/80"
 							>{comment.length} chars. Keep going and add some detail.</span
@@ -470,18 +470,18 @@
 </div>
 
 <!-- QR Code Modal -->
-<Modal2 id="qr-modal">
+<Modal id="qr-modal">
 	<div class="mx-auto flex max-w-sm flex-col items-center py-2 text-center">
-		<h2 class="mb-1 text-xl font-semibold text-[var(--text-primary)]">Share This Question</h2>
-		<p class="mb-5 text-sm text-[var(--text-secondary)]">Scan the QR code to share with others</p>
+		<h2 class="mb-1 text-xl font-semibold text-[var(--ink-bright)]">Share This Question</h2>
+		<p class="mb-5 text-sm text-[var(--ink-mid)]">Scan the QR code to share with others</p>
 
-		<div class="mb-5 rounded-xl border border-[var(--primary-subtle)] bg-[var(--bg-deep)] p-4">
+		<div class="mb-5 rounded-xl border border-[var(--primary-subtle)] bg-[var(--night-deep)] p-4">
 			<img src={qrCodeUrl} alt="Share question QR code" class="h-[180px] w-[180px]" />
 		</div>
 
-		<p class="text-xs text-[var(--text-muted)]">Share and explore different perspectives</p>
+		<p class="text-xs text-[var(--ink-dim)]">Share and explore different perspectives</p>
 	</div>
-</Modal2>
+</Modal>
 
 <style>
 	.interact-shell {
@@ -492,7 +492,7 @@
 
 	.interaction-toolbar {
 		padding: 0.8rem;
-		border: 1px solid color-mix(in srgb, var(--primary) 16%, var(--border-color));
+		border: 1px solid color-mix(in srgb, var(--lamp-glow) 16%, var(--stone-edge));
 		border-radius: 1rem;
 		background:
 			linear-gradient(
@@ -500,7 +500,7 @@
 				color-mix(in srgb, var(--primary-subtle) 32%, transparent) 0%,
 				transparent 100%
 			),
-			color-mix(in srgb, var(--bg-surface) 92%, transparent);
+			color-mix(in srgb, var(--stone-warm) 92%, transparent);
 		box-shadow: var(--shadow-sm);
 		backdrop-filter: blur(12px);
 	}
@@ -512,7 +512,7 @@
 		gap: 0.5rem;
 		padding: 0.7rem 1rem;
 		border-radius: 0.9rem;
-		border: 1px solid color-mix(in srgb, var(--primary) 14%, var(--border-color));
+		border: 1px solid color-mix(in srgb, var(--lamp-glow) 14%, var(--stone-edge));
 		font-size: 0.92rem;
 		font-weight: 600;
 		transition:
@@ -534,38 +534,38 @@
 	}
 
 	.interaction-button-primary {
-		border-color: color-mix(in srgb, var(--primary) 26%, transparent);
-		background: linear-gradient(135deg, var(--primary-dark) 0%, var(--primary) 100%);
+		border-color: color-mix(in srgb, var(--lamp-glow) 26%, transparent);
+		background: linear-gradient(135deg, var(--lamp-glow) 0%, var(--lamp-glow) 100%);
 		color: var(--text-on-primary);
 		box-shadow: var(--glow-sm);
 	}
 
 	.interaction-button-primary:hover:not(:disabled) {
-		background: linear-gradient(135deg, var(--primary-darker) 0%, var(--primary-dark) 100%);
+		background: linear-gradient(135deg, var(--lamp-glow) 0%, var(--lamp-glow) 100%);
 		box-shadow: var(--glow-md);
 	}
 
 	.interaction-button-secondary {
-		background: color-mix(in srgb, var(--bg-surface) 92%, transparent);
-		color: var(--text-secondary);
+		background: color-mix(in srgb, var(--stone-warm) 92%, transparent);
+		color: var(--ink-mid);
 	}
 
 	.interaction-button-secondary:hover:not(:disabled),
 	.interaction-button-muted:hover:not(:disabled) {
-		border-color: color-mix(in srgb, var(--primary) 22%, var(--border-color));
-		color: var(--primary);
+		border-color: color-mix(in srgb, var(--lamp-glow) 22%, var(--stone-edge));
+		color: var(--lamp-glow);
 		background: color-mix(in srgb, var(--primary-subtle) 50%, transparent);
 	}
 
 	.interaction-button-active {
-		border-color: color-mix(in srgb, var(--primary) 30%, transparent);
+		border-color: color-mix(in srgb, var(--lamp-glow) 30%, transparent);
 		background: var(--primary-subtle);
-		color: var(--primary);
+		color: var(--lamp-glow);
 	}
 
 	.interaction-button-muted {
-		background: color-mix(in srgb, var(--bg-surface) 92%, transparent);
-		color: var(--text-secondary);
+		background: color-mix(in srgb, var(--stone-warm) 92%, transparent);
+		color: var(--ink-mid);
 	}
 
 	.interaction-button-submit {
@@ -573,7 +573,7 @@
 	}
 
 	.composer-surface {
-		border: 1px solid color-mix(in srgb, var(--primary) 18%, var(--border-color));
+		border: 1px solid color-mix(in srgb, var(--lamp-glow) 18%, var(--stone-edge));
 		border-radius: 1.15rem;
 		background:
 			linear-gradient(
@@ -581,7 +581,7 @@
 				color-mix(in srgb, var(--primary-subtle) 36%, transparent) 0%,
 				transparent 30%
 			),
-			color-mix(in srgb, var(--bg-surface) 94%, transparent);
+			color-mix(in srgb, var(--stone-warm) 94%, transparent);
 		box-shadow: var(--shadow-sm);
 		backdrop-filter: blur(14px);
 	}
@@ -593,10 +593,10 @@
 	.depth-prompt {
 		margin: 0 0 0.75rem;
 		padding: 0.6rem 0.8rem;
-		border: 1px solid color-mix(in srgb, var(--primary) 18%, transparent);
+		border: 1px solid color-mix(in srgb, var(--lamp-glow) 18%, transparent);
 		border-radius: 0.85rem;
 		background: color-mix(in srgb, var(--primary-subtle) 42%, transparent);
-		color: color-mix(in srgb, var(--primary) 72%, var(--text-secondary));
+		color: color-mix(in srgb, var(--lamp-glow) 72%, var(--ink-mid));
 		font-size: 0.78rem;
 		line-height: 1.5;
 	}
@@ -607,9 +607,9 @@
 		justify-content: space-between;
 		gap: 0.75rem;
 		padding: 0.9rem 1rem;
-		border-top: 1px solid color-mix(in srgb, var(--primary) 16%, var(--border-color));
+		border-top: 1px solid color-mix(in srgb, var(--lamp-glow) 16%, var(--stone-edge));
 		border-radius: 0 0 1.15rem 1.15rem;
-		background: color-mix(in srgb, var(--bg-deep) 74%, transparent);
+		background: color-mix(in srgb, var(--night-deep) 74%, transparent);
 	}
 
 	/* Custom textarea auto-grow grid technique - complex layout that doesn't translate well to utilities */
@@ -635,7 +635,7 @@
 	}
 
 	.composer-textarea::placeholder {
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 		opacity: 1;
 	}
 

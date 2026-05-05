@@ -49,9 +49,9 @@
 		border-radius: 12px;
 		background: linear-gradient(
 			135deg,
-			var(--bg-surface) 0%,
-			var(--bg-deep) 50%,
-			var(--bg-base) 100%
+			var(--stone-warm) 0%,
+			var(--night-deep) 50%,
+			var(--night-deep) 100%
 		);
 		border: 1px solid rgba(45, 212, 191, 0.2);
 		box-shadow:
@@ -66,7 +66,7 @@
 			top: 0;
 			bottom: 0;
 			width: 4px;
-			background: linear-gradient(180deg, var(--primary) 0%, var(--primary-dark) 100%);
+			background: linear-gradient(180deg, var(--lamp-glow) 0%, var(--lamp-glow) 100%);
 			border-radius: 12px 0 0 12px;
 		}
 	}
@@ -77,7 +77,7 @@
 		right: 16px;
 		width: 28px;
 		height: 28px;
-		background: linear-gradient(135deg, var(--bg-surface) 0%, var(--bg-deep) 100%);
+		background: linear-gradient(135deg, var(--stone-warm) 0%, var(--night-deep) 100%);
 		border: 1px solid rgba(45, 212, 191, 0.3);
 		border-radius: 50%;
 		display: flex;
@@ -87,14 +87,14 @@
 		svg {
 			width: 16px;
 			height: 16px;
-			color: var(--primary);
+			color: var(--lamp-glow);
 		}
 	}
 
 	.visual-metaphor__title {
 		font-size: 1rem;
 		font-weight: 700;
-		color: var(--primary);
+		color: var(--lamp-glow);
 		margin: 0 0 0.75rem;
 		line-height: 1.4;
 	}
@@ -102,17 +102,17 @@
 	.visual-metaphor__content {
 		font-size: 0.9rem;
 		line-height: 1.7;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 
 		:global(strong),
 		:global(b) {
-			color: var(--text-primary);
+			color: var(--ink-bright);
 			font-weight: 600;
 		}
 
 		:global(p) {
 			margin: 0;
-			color: var(--text-secondary);
+			color: var(--ink-mid);
 
 			& + :global(p) {
 				margin-top: 0.75rem;
@@ -120,16 +120,16 @@
 		}
 
 		:global(a) {
-			color: var(--accent-light);
+			color: var(--lamp-glow);
 
 			&:hover {
-				color: var(--primary-lightest);
+				color: var(--lamp-glow);
 			}
 		}
 
 		:global(em),
 		:global(i) {
-			color: var(--text-secondary);
+			color: var(--ink-mid);
 			font-style: italic;
 		}
 	}

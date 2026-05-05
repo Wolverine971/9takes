@@ -45,7 +45,13 @@ type-6-search-for-solid-ground
     import PopCard from "$lib/components/atoms/PopCard.svelte";
     import Checklist from "$lib/components/blog/callouts/Checklist.svelte";
     import QuickAnswer from "$lib/components/blog/callouts/QuickAnswer.svelte";
+    import EnneagramTypeDossier from "$lib/components/blog/EnneagramTypeDossier.svelte";
+    import { enneagramTypeProfiles } from "$lib/data/enneagramTypeProfiles";
+
+    const dossier = enneagramTypeProfiles[6];
 </script>
+
+<EnneagramTypeDossier {...dossier} />
 
 <QuickAnswer question="Why can't Type 6s stop worrying?">
 Because your mind learned something the hard way: the ground can shift without warning. Trust got broken. Authority proved unreliable. Safety disappeared when you weren't watching. Your anxiety isn't irrational. It's pattern recognition from experience. You run every scenario through constant calculation because once, you didn't see danger coming and it cost you. The "what if" spiral isn't neurosis. It's survival-level vigilance from someone who learned that not being prepared has consequences.
@@ -154,6 +160,24 @@ Achievement becomes self-sufficiency. Image becomes armor. The loyal team player
 The cruel irony: this strategy disconnects you from the relationships you need to feel secure. You push away support in a desperate attempt to prove you don't need it.
 
 Read more about <a href="/enneagram-corner/enneagram-stress-number">other types under stress</a>
+
+</section>
+
+<section class="section-content">
+
+## How 6s Handle Conflict: The Reactive Approach
+
+Type 6s belong to the **Reactive** Harmonic group (alongside 4s and 8s) — the types who get emotionally intense under stress and need others to mirror that intensity back.
+
+A manager schedules a 1:1 with the subject line "quick chat." By 11pm the Six has played out three resignation scenarios, drafted a defensive email, texted two trusted friends to "talk something through," and lost the ability to fall asleep. The manager wanted to discuss vacation coverage.
+
+That's the Reactive move (Six-flavored): the anxiety leaks out as long rants, hysterical loops, and worst-case spirals. Sixes broadcast the fear because broadcasting it is how the fear gets to feel real and shared. They want others to take the threat as seriously as they do — and a calm response from someone they trusted often _increases_ the anxiety because it reads as "you're not seeing what I'm seeing."
+
+**The blind spot**: Anxiety needs witnesses to feel real. The Six thinks they're processing the threat by talking it through. Often they're amplifying it — recruiting others into the fear loop, which spreads it without resolving it.
+
+**The shift**: Validate the feeling internally before broadcasting it externally. Ask: "What's the smallest piece of evidence I'd need before treating this as urgent?" Most of the time, you don't have that evidence yet — and the urgency was supplied by the imagination, not the facts.
+
+For the full framework, see [The Enneagram Harmonic Approaches](/enneagram-corner/enneagram-harmonic-approaches).
 
 </section>
 

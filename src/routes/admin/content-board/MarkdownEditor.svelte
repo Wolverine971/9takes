@@ -112,25 +112,25 @@
 		height: 100%;
 		min-height: 0;
 		align-items: stretch;
-		background: var(--bg-deep);
+		background: var(--night-deep);
 		border-radius: 8px;
 		overflow: hidden;
 		font-family: 'JetBrains Mono', 'Fira Code', 'SF Mono', Consolas, monospace;
 
 		&.readonly {
-			background: var(--bg-elevated);
+			background: var(--stone-warm);
 
 			.line-numbers {
-				background: var(--bg-deep);
-				color: var(--text-muted);
+				background: var(--night-deep);
+				color: var(--ink-dim);
 			}
 
 			.editor-textarea {
-				background: var(--bg-elevated);
-				color: var(--text-secondary);
+				background: var(--stone-warm);
+				color: var(--ink-mid);
 
 				&::placeholder {
-					color: var(--text-muted);
+					color: var(--ink-dim);
 				}
 			}
 		}
@@ -145,8 +145,8 @@
 		width: 48px;
 		padding: var(--editor-padding-y) 8px var(--editor-padding-y) 0;
 		box-sizing: border-box;
-		background: var(--bg-base);
-		color: var(--text-muted);
+		background: var(--night-deep);
+		color: var(--ink-dim);
 		text-align: right;
 		font-size: var(--editor-font-size);
 		line-height: var(--editor-line-height);
@@ -171,8 +171,8 @@
 		height: auto;
 		box-sizing: border-box;
 		padding: var(--editor-padding-y) var(--editor-padding-x);
-		background: var(--bg-deep);
-		color: var(--text-primary);
+		background: var(--night-deep);
+		color: var(--ink-bright);
 		border: none;
 		outline: none;
 		resize: none;
@@ -187,7 +187,7 @@
 		tab-size: 2;
 
 		&::placeholder {
-			color: var(--text-muted);
+			color: var(--ink-dim);
 		}
 
 		&:focus {
@@ -205,7 +205,7 @@
 	/* Scrollbar styling */
 	.editor-textarea {
 		scrollbar-width: thin;
-		scrollbar-color: var(--primary) var(--bg-deep);
+		scrollbar-color: var(--lamp-glow) var(--night-deep);
 
 		&::-webkit-scrollbar {
 			width: 8px;
@@ -213,15 +213,15 @@
 		}
 
 		&::-webkit-scrollbar-track {
-			background: var(--bg-deep);
+			background: var(--night-deep);
 		}
 
 		&::-webkit-scrollbar-thumb {
-			background: var(--primary);
+			background: var(--lamp-glow);
 			border-radius: 4px;
 
 			&:hover {
-				background: var(--primary-light);
+				background: var(--lamp-glow);
 			}
 		}
 	}

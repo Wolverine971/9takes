@@ -2,8 +2,8 @@
 <script lang="ts">
 	import { browser } from '$app/environment';
 	import QRCode from 'qrcode';
-	import Modal from '$lib/components/atoms/Modal2.svelte';
-	import { getModal } from '$lib/components/atoms/Modal2.svelte';
+	import Modal from '$lib/components/atoms/Modal.svelte';
+	import { getModal } from '$lib/components/atoms/Modal.svelte';
 	import Rubix from '$lib/components/icons/rubix.svelte';
 	import Scribble from '$lib/components/atoms/scribble.svelte';
 	import {
@@ -766,17 +766,17 @@
 		padding: 1.75rem;
 		margin-bottom: 1.5rem;
 		border-radius: 1.5rem;
-		border: 1px solid color-mix(in srgb, var(--text-tertiary) 22%, transparent);
+		border: 1px solid color-mix(in srgb, var(--ink-dim) 22%, transparent);
 		background:
 			radial-gradient(
 				circle at top left,
-				color-mix(in srgb, var(--primary) 24%, transparent),
+				color-mix(in srgb, var(--lamp-glow) 24%, transparent),
 				transparent 42%
 			),
 			linear-gradient(
 				145deg,
-				color-mix(in srgb, var(--bg-surface) 90%, white 10%),
-				var(--bg-surface)
+				color-mix(in srgb, var(--stone-warm) 90%, white 10%),
+				var(--stone-warm)
 			);
 		box-shadow: 0 20px 60px
 			color-mix(in srgb, var(--shadow-color, rgba(15, 23, 42, 0.2)) 60%, transparent);
@@ -790,7 +790,7 @@
 		font-weight: 700;
 		letter-spacing: 0.12em;
 		text-transform: uppercase;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 	}
 
 	.page-hero h1,
@@ -802,7 +802,7 @@
 	.lede {
 		max-width: 62ch;
 		margin: 0.75rem 0 0;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 		line-height: 1.6;
 	}
 
@@ -829,11 +829,11 @@
 	.panel,
 	.preview-shell {
 		border-radius: 1.25rem;
-		border: 1px solid color-mix(in srgb, var(--text-tertiary) 20%, transparent);
+		border: 1px solid color-mix(in srgb, var(--ink-dim) 20%, transparent);
 		background: linear-gradient(
 			180deg,
-			color-mix(in srgb, var(--bg-surface) 92%, white 8%),
-			color-mix(in srgb, var(--bg-surface) 98%, transparent)
+			color-mix(in srgb, var(--stone-warm) 92%, white 8%),
+			color-mix(in srgb, var(--stone-warm) 98%, transparent)
 		);
 		box-shadow: 0 18px 45px
 			color-mix(in srgb, var(--shadow-color, rgba(15, 23, 42, 0.18)) 55%, transparent);
@@ -861,7 +861,7 @@
 
 	.field span {
 		font-weight: 600;
-		color: var(--text-primary);
+		color: var(--ink-bright);
 	}
 
 	.field textarea,
@@ -874,9 +874,9 @@
 	.field input[type='text'] {
 		padding: 0.85rem 0.95rem;
 		border-radius: 0.95rem;
-		border: 1px solid color-mix(in srgb, var(--text-tertiary) 22%, transparent);
-		background: color-mix(in srgb, var(--bg-base) 85%, white 15%);
-		color: var(--text-primary);
+		border: 1px solid color-mix(in srgb, var(--ink-dim) 22%, transparent);
+		background: color-mix(in srgb, var(--night-deep) 85%, white 15%);
+		color: var(--ink-bright);
 		font: inherit;
 		transition:
 			border-color 0.2s ease,
@@ -892,18 +892,18 @@
 	.field textarea:focus,
 	.field input[type='text']:focus {
 		outline: none;
-		border-color: color-mix(in srgb, var(--primary) 65%, transparent);
-		box-shadow: 0 0 0 3px color-mix(in srgb, var(--primary) 18%, transparent);
+		border-color: color-mix(in srgb, var(--lamp-glow) 65%, transparent);
+		box-shadow: 0 0 0 3px color-mix(in srgb, var(--lamp-glow) 18%, transparent);
 		transform: translateY(-1px);
 	}
 
 	.field input[type='range'] {
-		accent-color: var(--primary);
+		accent-color: var(--lamp-glow);
 	}
 
 	.field-note {
 		margin: 0;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 		line-height: 1.55;
 	}
 
@@ -918,8 +918,8 @@
 		gap: 1rem;
 		padding: 0.9rem 1rem;
 		border-radius: 1rem;
-		border: 1px solid color-mix(in srgb, var(--text-tertiary) 18%, transparent);
-		background: color-mix(in srgb, var(--bg-base) 90%, white 10%);
+		border: 1px solid color-mix(in srgb, var(--ink-dim) 18%, transparent);
+		background: color-mix(in srgb, var(--night-deep) 90%, white 10%);
 	}
 
 	.toggle-row__copy {
@@ -930,18 +930,18 @@
 
 	.toggle-row__copy strong {
 		font-size: 0.95rem;
-		color: var(--text-primary);
+		color: var(--ink-bright);
 	}
 
 	.toggle-row__copy small {
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 		line-height: 1.45;
 	}
 
 	.toggle-row input[type='checkbox'] {
 		width: 1.15rem;
 		height: 1.15rem;
-		accent-color: var(--primary);
+		accent-color: var(--lamp-glow);
 		flex-shrink: 0;
 	}
 
@@ -977,9 +977,9 @@
 	}
 
 	.upload-button {
-		background: color-mix(in srgb, var(--bg-elevated) 82%, white 18%);
-		color: var(--text-primary);
-		border: 1px solid color-mix(in srgb, var(--text-tertiary) 18%, transparent);
+		background: color-mix(in srgb, var(--stone-warm) 82%, white 18%);
+		color: var(--ink-bright);
+		border: 1px solid color-mix(in srgb, var(--ink-dim) 18%, transparent);
 	}
 
 	.upload-button:hover,
@@ -990,11 +990,11 @@
 	.btn-primary {
 		background: linear-gradient(
 			135deg,
-			color-mix(in srgb, var(--primary) 78%, white 22%),
-			color-mix(in srgb, var(--primary-dark) 88%, black 12%)
+			color-mix(in srgb, var(--lamp-glow) 78%, white 22%),
+			color-mix(in srgb, var(--lamp-glow) 88%, black 12%)
 		);
 		color: var(--text-on-primary, #ffffff);
-		box-shadow: 0 14px 28px color-mix(in srgb, var(--primary) 26%, transparent);
+		box-shadow: 0 14px 28px color-mix(in srgb, var(--lamp-glow) 26%, transparent);
 	}
 
 	.btn-secondary {
@@ -1008,15 +1008,15 @@
 	}
 
 	.btn-tertiary {
-		background: color-mix(in srgb, var(--bg-elevated) 78%, white 22%);
-		color: var(--text-primary);
-		border: 1px solid color-mix(in srgb, var(--text-tertiary) 18%, transparent);
+		background: color-mix(in srgb, var(--stone-warm) 78%, white 22%);
+		color: var(--ink-bright);
+		border: 1px solid color-mix(in srgb, var(--ink-dim) 18%, transparent);
 	}
 
 	.text-button {
 		padding: 0;
 		background: none;
-		color: var(--primary);
+		color: var(--lamp-glow);
 		font-weight: 700;
 	}
 
@@ -1028,12 +1028,12 @@
 		font-size: 0.8rem;
 		font-weight: 700;
 		color: var(--text-on-primary, #ffffff);
-		background: color-mix(in srgb, var(--primary) 72%, black 8%);
+		background: color-mix(in srgb, var(--lamp-glow) 72%, black 8%);
 	}
 
 	.status-pill--subtle {
-		background: color-mix(in srgb, var(--bg-elevated) 82%, white 18%);
-		color: var(--text-secondary);
+		background: color-mix(in srgb, var(--stone-warm) 82%, white 18%);
+		color: var(--ink-mid);
 	}
 
 	.background-grid {
@@ -1048,9 +1048,9 @@
 		flex-direction: column;
 		gap: 0.75rem;
 		padding: 0.7rem;
-		border: 1px solid color-mix(in srgb, var(--text-tertiary) 18%, transparent);
+		border: 1px solid color-mix(in srgb, var(--ink-dim) 18%, transparent);
 		border-radius: 1rem;
-		background: color-mix(in srgb, var(--bg-base) 88%, white 12%);
+		background: color-mix(in srgb, var(--night-deep) 88%, white 12%);
 		cursor: pointer;
 		text-align: left;
 		transition:
@@ -1061,12 +1061,12 @@
 
 	.background-option:hover {
 		transform: translateY(-1px);
-		border-color: color-mix(in srgb, var(--primary) 42%, transparent);
+		border-color: color-mix(in srgb, var(--lamp-glow) 42%, transparent);
 	}
 
 	.background-option.is-selected {
-		border-color: color-mix(in srgb, var(--primary) 58%, transparent);
-		box-shadow: 0 0 0 2px color-mix(in srgb, var(--primary) 18%, transparent);
+		border-color: color-mix(in srgb, var(--lamp-glow) 58%, transparent);
+		box-shadow: 0 0 0 2px color-mix(in srgb, var(--lamp-glow) 18%, transparent);
 	}
 
 	.background-option__swatch {
@@ -1086,11 +1086,11 @@
 
 	.background-option__copy strong {
 		font-size: 0.95rem;
-		color: var(--text-primary);
+		color: var(--ink-bright);
 	}
 
 	.background-option__copy small {
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 		line-height: 1.45;
 	}
 
@@ -1117,8 +1117,8 @@
 		border-radius: 999px;
 		font-size: 0.82rem;
 		font-weight: 600;
-		color: var(--text-secondary);
-		background: color-mix(in srgb, var(--bg-elevated) 82%, white 18%);
+		color: var(--ink-mid);
+		background: color-mix(in srgb, var(--stone-warm) 82%, white 18%);
 	}
 
 	.poster-card {
@@ -1221,7 +1221,7 @@
 		height: 0.24rem;
 		margin: 0.85rem auto 0;
 		border-radius: 999px;
-		background: var(--primary);
+		background: var(--lamp-glow);
 	}
 
 	.poster-card__footer {
@@ -1312,7 +1312,7 @@
 		margin: 0;
 		font-size: 1.5rem;
 		font-weight: 600;
-		color: var(--text-primary);
+		color: var(--ink-bright);
 		line-height: 1.2;
 	}
 
@@ -1326,7 +1326,7 @@
 
 	.modal-preview__toolbar p {
 		margin: 0;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 	}
 
 	.modal-preview__poster {

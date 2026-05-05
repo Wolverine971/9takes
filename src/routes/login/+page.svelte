@@ -1,4 +1,10 @@
 <!-- src/routes/login/+page.svelte -->
+<!--
+  src/routes/login/+page.svelte
+  Phase 5 #8 of docs/design/2026-05-04-rollout-plan.md — auth pages.
+  Streetlamp Symposium V5: warm-stone surface, sodium-amber primary, Inter.
+  Spec: docs/design-system.md §4–§6.
+-->
 <script lang="ts">
 	import { applyAction, enhance } from '$app/forms';
 	import { browser } from '$app/environment';
@@ -16,14 +22,14 @@
 	} from '$lib/utils/recaptchaClient';
 	import type { PageData } from './$types';
 
-	export let data: PageData;
+	let { data }: { data: PageData } = $props();
 
-	let loading = false;
-	let email = '';
-	let password = '';
-	let captchaRequired = data.captchaRequired ?? false;
-	let recaptchaTheme: 'light' | 'dark' = 'dark';
-	let captchaContainer: HTMLDivElement | null = null;
+	let loading = $state(false);
+	let email = $state('');
+	let password = $state('');
+	let captchaRequired = $state(data.captchaRequired ?? false);
+	let recaptchaTheme = $state<'light' | 'dark'>('dark');
+	let captchaContainer = $state<HTMLDivElement | null>(null);
 	let captchaWidgetId: number | null = null;
 
 	function syncRecaptchaTheme() {
@@ -74,9 +80,11 @@
 		return () => observer.disconnect();
 	});
 
-	$: if (captchaRequired && captchaContainer) {
-		void mountRecaptcha();
-	}
+	$effect(() => {
+		if (captchaRequired && captchaContainer) {
+			void mountRecaptcha();
+		}
+	});
 
 	const handleSubmit: SubmitFunction = () => {
 		loading = true;
@@ -157,19 +165,13 @@
 </div>
 
 <style lang="scss">
-	/* 9takes Warm Tech Theme */
+	/* Streetlamp Symposium — Login form. */
 	.container {
 		max-width: 400px;
 		margin: 3rem auto;
 		padding: 2rem;
-		background:
-			linear-gradient(
-				180deg,
-				color-mix(in srgb, var(--accent-soft) 28%, transparent) 0%,
-				transparent 42%
-			),
-			color-mix(in srgb, var(--bg-surface) 94%, var(--bg-base));
-		border: 1px solid color-mix(in srgb, var(--accent) 16%, var(--border-color));
+		background: var(--stone-warm);
+		border: 1px solid var(--stone-edge);
 		border-radius: 1rem;
 		box-shadow: var(--shadow-lg);
 		min-height: auto;
@@ -180,23 +182,23 @@
 		margin-bottom: 2rem;
 		font-size: 1.8rem;
 		font-weight: bold;
-		color: var(--text-primary);
+		color: var(--ink-bright);
 
 		.active {
-			color: var(--primary);
-			border-bottom: 2px solid var(--primary);
+			color: var(--lamp-glow);
+			border-bottom: 2px solid var(--lamp-glow);
 			padding-bottom: 4px;
 		}
 
 		.inactive {
-			color: var(--text-secondary);
+			color: var(--ink-mid);
 			text-decoration: none;
 			opacity: 0.7;
 			transition: all 0.3s ease;
 
 			&:hover {
 				opacity: 1;
-				color: var(--primary);
+				color: var(--lamp-glow);
 			}
 		}
 	}
@@ -216,27 +218,27 @@
 	label {
 		font-weight: 600;
 		font-size: 0.9rem;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 	}
 
 	input {
 		padding: 0.75rem;
-		background-color: color-mix(in srgb, var(--bg-surface) 90%, var(--bg-base));
-		border: 1px solid color-mix(in srgb, var(--accent) 14%, var(--border-color));
+		background-color: var(--night-deep);
+		border: 1px solid var(--stone-edge);
 		border-radius: 0.9rem;
 		font-size: 1rem;
-		color: var(--text-primary);
+		color: var(--ink-bright);
 		transition: all 0.3s ease;
 
 		&::placeholder {
-			color: var(--text-tertiary);
+			color: var(--ink-dim);
 		}
 
 		&:focus {
 			outline: none;
-			border-color: var(--primary);
+			border-color: var(--lamp-glow);
 			box-shadow: var(--glow-sm);
-			background: var(--bg-surface);
+			background: var(--stone-warm);
 		}
 	}
 
@@ -245,13 +247,13 @@
 		margin-top: 1.5rem;
 
 		a {
-			color: var(--primary);
+			color: var(--lamp-glow);
 			text-decoration: none;
 			font-size: 0.9rem;
 			transition: all 0.3s ease;
 
 			&:hover {
-				color: var(--text-primary);
+				color: var(--ink-bright);
 				text-decoration: underline;
 			}
 		}

@@ -47,10 +47,10 @@
 {#if navSteps.length}
 	<div class="xs:px-1 mx-auto w-full max-w-4xl px-2">
 		<div
-			class="flex min-h-12 items-center border-b border-[var(--border-color)] transition-transform hover:-translate-x-0.5 hover:bg-[var(--primary-subtle)] active:-translate-x-1"
+			class="flex min-h-12 items-center border-b border-[var(--stone-edge)] transition-transform hover:-translate-x-0.5 hover:bg-[var(--primary-subtle)] active:-translate-x-1"
 		>
 			<button
-				class="mr-1 flex min-h-11 min-w-11 cursor-pointer items-center justify-center rounded-md border-0 bg-transparent p-2 text-[var(--text-secondary)] transition-colors duration-200 hover:text-[var(--primary)]"
+				class="mr-1 flex min-h-11 min-w-11 cursor-pointer items-center justify-center rounded-md border-0 bg-transparent p-2 text-[var(--ink-mid)] transition-colors duration-200 hover:text-[var(--lamp-glow)]"
 				on:click={goBack}
 				aria-label="Go back"
 			>
@@ -73,7 +73,7 @@
 			{#if previousPage}
 				<a
 					href={previousPage.url}
-					class="flex min-h-11 max-w-[calc(100%-50px)] items-center overflow-hidden text-ellipsis whitespace-nowrap rounded-md px-2 py-2 capitalize text-[var(--text-secondary)] no-underline transition-colors duration-200 hover:text-[var(--primary)]"
+					class="flex min-h-11 max-w-[calc(100%-50px)] items-center overflow-hidden text-ellipsis whitespace-nowrap rounded-md px-2 py-2 capitalize text-[var(--ink-mid)] no-underline transition-colors duration-200 hover:text-[var(--lamp-glow)]"
 				>
 					{previousPage.name}
 				</a>

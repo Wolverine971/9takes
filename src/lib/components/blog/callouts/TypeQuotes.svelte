@@ -98,9 +98,9 @@
 		border-radius: 12px;
 		background: linear-gradient(
 			135deg,
-			var(--bg-surface) 0%,
-			var(--bg-deep) 50%,
-			var(--bg-base) 100%
+			var(--stone-warm) 0%,
+			var(--night-deep) 50%,
+			var(--night-deep) 100%
 		);
 		border: 1px solid rgba(45, 212, 191, 0.2);
 		box-shadow:
@@ -108,8 +108,8 @@
 			0 0 0 1px rgba(45, 212, 191, 0.1);
 
 		&--subtle {
-			background: linear-gradient(135deg, var(--bg-deep) 0%, var(--bg-base) 100%);
-			border-color: color-mix(in srgb, var(--text-tertiary) 20%, transparent);
+			background: linear-gradient(135deg, var(--night-deep) 0%, var(--night-deep) 100%);
+			border-color: color-mix(in srgb, var(--ink-dim) 20%, transparent);
 			box-shadow:
 				0 2px 12px rgba(0, 0, 0, 0.25),
 				0 1px 3px rgba(0, 0, 0, 0.15);
@@ -126,7 +126,7 @@
 	.type-quotes__title {
 		font-size: 1rem;
 		font-weight: 700;
-		color: var(--text-primary);
+		color: var(--ink-bright);
 		margin: 0 0 1rem;
 		padding-bottom: 0.75rem;
 		border-bottom: 1px solid rgba(45, 212, 191, 0.2);
@@ -178,14 +178,14 @@
 	.type-quote__text {
 		font-size: 1rem;
 		font-weight: 500;
-		color: var(--text-primary);
+		color: var(--ink-bright);
 		font-style: italic;
 		line-height: 1.5;
 	}
 
 	.type-quote__note {
 		font-size: 0.875rem;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 		font-style: normal;
 		margin-left: 0.25rem;
 	}
@@ -194,7 +194,7 @@
 		margin-top: 1rem;
 		font-size: 0.9rem;
 		line-height: 1.6;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 	}
 
 	// Mobile adjustments

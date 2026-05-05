@@ -236,9 +236,9 @@
 		width: 15rem;
 		transform: translateY(-50%);
 		padding: 1rem;
-		border: 1px solid color-mix(in srgb, var(--primary) 16%, var(--border-color));
+		border: 1px solid color-mix(in srgb, var(--lamp-glow) 16%, var(--stone-edge));
 		border-radius: 0.5rem;
-		background: color-mix(in srgb, var(--bg-surface) 94%, var(--bg-base));
+		background: color-mix(in srgb, var(--stone-warm) 94%, var(--night-deep));
 		box-shadow: var(--shadow-md);
 		backdrop-filter: blur(12px);
 	}
@@ -269,14 +269,14 @@
 		font-weight: 700;
 		line-height: 1.3;
 		letter-spacing: 0;
-		color: var(--text-primary);
+		color: var(--ink-bright);
 	}
 
 	.sidebar-copy {
 		margin: 0 0 0.9rem;
 		font-size: 0.85rem;
 		line-height: 1.5;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 	}
 
 	.sidebar-success,
@@ -289,10 +289,10 @@
 
 	.sidebar-success {
 		padding: 0.7rem 0.75rem;
-		border: 1px solid color-mix(in srgb, var(--primary) 18%, var(--border-color));
+		border: 1px solid color-mix(in srgb, var(--lamp-glow) 18%, var(--stone-edge));
 		border-radius: 0.5rem;
-		background: color-mix(in srgb, var(--primary) 8%, transparent);
-		color: var(--text-primary);
+		background: color-mix(in srgb, var(--lamp-glow) 8%, transparent);
+		color: var(--ink-bright);
 	}
 
 	.sidebar-error {
@@ -310,10 +310,10 @@
 		width: 100%;
 		min-height: 2.55rem;
 		padding: 0.7rem 0.75rem;
-		border: 1px solid color-mix(in srgb, var(--primary) 16%, var(--border-color));
+		border: 1px solid color-mix(in srgb, var(--lamp-glow) 16%, var(--stone-edge));
 		border-radius: 0.5rem;
-		background: color-mix(in srgb, var(--bg-surface) 90%, var(--bg-base));
-		color: var(--text-primary);
+		background: color-mix(in srgb, var(--stone-warm) 90%, var(--night-deep));
+		color: var(--ink-bright);
 		font-size: 0.9rem;
 		line-height: 1.2;
 		transition:
@@ -323,18 +323,18 @@
 	}
 
 	.sidebar-input::placeholder {
-		color: var(--text-tertiary);
+		color: var(--ink-dim);
 	}
 
 	.sidebar-input:hover {
-		border-color: color-mix(in srgb, var(--primary) 28%, var(--border-color));
+		border-color: color-mix(in srgb, var(--lamp-glow) 28%, var(--stone-edge));
 	}
 
 	.sidebar-input:focus {
 		outline: none;
-		border-color: var(--primary);
+		border-color: var(--lamp-glow);
 		box-shadow: var(--glow-sm);
-		background: var(--bg-surface);
+		background: var(--stone-warm);
 	}
 
 	.sidebar-input[aria-invalid='true'] {
@@ -351,7 +351,7 @@
 		padding: 0.75rem 0.85rem;
 		border: 1px solid transparent;
 		border-radius: 0.5rem;
-		background: linear-gradient(135deg, var(--primary-dark) 0%, var(--primary) 100%);
+		background: linear-gradient(135deg, var(--lamp-glow) 0%, var(--lamp-glow) 100%);
 		color: var(--text-on-primary);
 		font-size: 0.9rem;
 		font-weight: 700;
@@ -372,7 +372,7 @@
 	}
 
 	.sidebar-button:focus-visible {
-		outline: 2px solid color-mix(in srgb, var(--primary) 70%, white);
+		outline: 2px solid color-mix(in srgb, var(--lamp-glow) 70%, white);
 		outline-offset: 2px;
 	}
 

@@ -334,17 +334,17 @@
 
 <style lang="scss">
 	.about-page {
-		--about-surface: color-mix(in srgb, var(--bg-surface) 82%, var(--bg-base));
-		--about-surface-strong: color-mix(in srgb, var(--bg-surface) 92%, var(--bg-deep));
-		--about-border: color-mix(in srgb, var(--primary) 18%, var(--border-color));
-		--about-border-strong: color-mix(in srgb, var(--primary) 38%, var(--border-color));
-		--about-rose-border: color-mix(in srgb, var(--secondary) 28%, var(--border-color));
+		--about-surface: color-mix(in srgb, var(--stone-warm) 82%, var(--night-deep));
+		--about-surface-strong: color-mix(in srgb, var(--stone-warm) 92%, var(--night-deep));
+		--about-border: color-mix(in srgb, var(--lamp-glow) 18%, var(--stone-edge));
+		--about-border-strong: color-mix(in srgb, var(--lamp-glow) 38%, var(--stone-edge));
+		--about-rose-border: color-mix(in srgb, var(--secondary) 28%, var(--stone-edge));
 		--about-shadow: 0 14px 30px color-mix(in srgb, var(--shadow-color) 42%, transparent);
 
 		max-width: 1120px;
 		margin: 0 auto;
 		padding: 4rem 1rem 4.5rem;
-		color: var(--text-primary);
+		color: var(--ink-bright);
 	}
 
 	.about-page,
@@ -359,7 +359,7 @@
 	.about-page a,
 	.about-page button {
 		&:focus-visible {
-			outline: 2px solid var(--primary);
+			outline: 2px solid var(--lamp-glow);
 			outline-offset: 3px;
 		}
 	}
@@ -373,23 +373,23 @@
 		font-family: var(--font-mono);
 		font-size: 0.72rem;
 		font-weight: 700;
-		color: var(--primary);
+		color: var(--lamp-glow);
 		text-transform: uppercase;
 	}
 
 	.section-badge {
 		padding: 0.35rem 0.75rem;
 		background: var(--primary-subtle);
-		border: 1px solid color-mix(in srgb, var(--primary) 18%, transparent);
+		border: 1px solid color-mix(in srgb, var(--lamp-glow) 18%, transparent);
 		border-radius: 4px;
 	}
 
 	.badge-dot {
 		width: 5px;
 		height: 5px;
-		background: var(--primary);
+		background: var(--lamp-glow);
 		border-radius: 50%;
-		box-shadow: 0 0 8px var(--primary);
+		box-shadow: 0 0 8px var(--lamp-glow);
 	}
 
 	.section-title {
@@ -398,7 +398,7 @@
 		font-size: 2.15rem;
 		font-weight: 700;
 		line-height: 1.15;
-		color: var(--text-primary);
+		color: var(--ink-bright);
 	}
 
 	.hero {
@@ -415,7 +415,7 @@
 		font-size: 3.35rem;
 		font-weight: 700;
 		line-height: 1.06;
-		color: var(--text-primary);
+		color: var(--ink-bright);
 		text-wrap: balance;
 	}
 
@@ -424,7 +424,7 @@
 		margin: 0 auto;
 		font-size: 1.08rem;
 		line-height: 1.7;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 		text-wrap: pretty;
 	}
 
@@ -470,16 +470,16 @@
 
 	.btn-primary,
 	.contact-btn {
-		border: 1px solid color-mix(in srgb, var(--primary) 24%, transparent);
-		background: linear-gradient(135deg, var(--primary-dark) 0%, var(--primary) 100%);
+		border: 1px solid color-mix(in srgb, var(--lamp-glow) 24%, transparent);
+		background: linear-gradient(135deg, var(--lamp-glow) 0%, var(--lamp-glow) 100%);
 		color: var(--text-on-primary);
-		box-shadow: 0 10px 24px color-mix(in srgb, var(--primary) 16%, transparent);
+		box-shadow: 0 10px 24px color-mix(in srgb, var(--lamp-glow) 16%, transparent);
 	}
 
 	.btn-secondary {
-		border: 1px solid color-mix(in srgb, var(--text-tertiary) 25%, transparent);
-		background: color-mix(in srgb, var(--bg-deep) 86%, transparent);
-		color: var(--text-secondary);
+		border: 1px solid color-mix(in srgb, var(--ink-dim) 25%, transparent);
+		background: color-mix(in srgb, var(--night-deep) 86%, transparent);
+		color: var(--ink-mid);
 	}
 
 	.btn-primary:hover,
@@ -490,14 +490,14 @@
 
 	.btn-primary:hover,
 	.contact-btn:hover {
-		background: linear-gradient(135deg, var(--primary) 0%, var(--primary-light) 100%);
-		box-shadow: 0 14px 30px color-mix(in srgb, var(--primary) 22%, transparent);
+		background: linear-gradient(135deg, var(--lamp-glow) 0%, var(--lamp-glow) 100%);
+		box-shadow: 0 14px 30px color-mix(in srgb, var(--lamp-glow) 22%, transparent);
 	}
 
 	.btn-secondary:hover {
-		border-color: color-mix(in srgb, var(--primary) 38%, transparent);
+		border-color: color-mix(in srgb, var(--lamp-glow) 38%, transparent);
 		background: var(--primary-subtle);
-		color: var(--primary);
+		color: var(--lamp-glow);
 	}
 
 	.opening-grid {
@@ -527,14 +527,14 @@
 			font-size: 1.55rem;
 			font-weight: 700;
 			line-height: 1.2;
-			color: var(--text-primary);
+			color: var(--ink-bright);
 		}
 
 		p {
 			margin: 0;
 			font-size: 1rem;
 			line-height: 1.65;
-			color: var(--text-secondary);
+			color: var(--ink-mid);
 		}
 	}
 
@@ -544,7 +544,7 @@
 
 	.panel-emphasis {
 		margin-top: 1rem !important;
-		color: color-mix(in srgb, var(--secondary) 72%, var(--text-primary)) !important;
+		color: color-mix(in srgb, var(--secondary) 72%, var(--ink-bright)) !important;
 		font-weight: 700;
 	}
 
@@ -568,10 +568,10 @@
 			justify-content: center;
 			width: 2rem;
 			height: 2rem;
-			background: color-mix(in srgb, var(--primary) 18%, var(--bg-deep));
-			border: 1px solid color-mix(in srgb, var(--primary) 36%, transparent);
+			background: color-mix(in srgb, var(--lamp-glow) 18%, var(--night-deep));
+			border: 1px solid color-mix(in srgb, var(--lamp-glow) 36%, transparent);
 			border-radius: 8px;
-			color: var(--primary);
+			color: var(--lamp-glow);
 			font-family: var(--font-mono);
 			font-size: 0.85rem;
 			font-weight: 700;
@@ -595,15 +595,15 @@
 	}
 
 	.example-response {
-		--type-color: var(--primary);
+		--type-color: var(--lamp-glow);
 		padding: 1.25rem;
-		border-color: color-mix(in srgb, var(--type-color) 32%, var(--border-color));
+		border-color: color-mix(in srgb, var(--type-color) 32%, var(--stone-edge));
 
 		p {
 			margin: 0;
 			font-size: 0.94rem;
 			line-height: 1.6;
-			color: var(--text-secondary);
+			color: var(--ink-mid);
 		}
 	}
 
@@ -644,7 +644,7 @@
 	.center-label {
 		font-family: var(--font-mono);
 		font-size: 0.72rem;
-		color: var(--text-tertiary);
+		color: var(--ink-dim);
 		text-transform: uppercase;
 	}
 
@@ -653,7 +653,7 @@
 
 		p {
 			margin: 0;
-			color: var(--text-secondary);
+			color: var(--ink-mid);
 		}
 	}
 
@@ -661,7 +661,7 @@
 	.explainer-link a,
 	.coaching-hint a,
 	.email-info a {
-		color: var(--primary);
+		color: var(--lamp-glow);
 		font-weight: 700;
 		text-decoration: none;
 	}
@@ -670,7 +670,7 @@
 	.explainer-link a:hover,
 	.coaching-hint a:hover,
 	.email-info a:hover {
-		color: var(--primary-light);
+		color: var(--lamp-glow);
 		text-decoration: underline;
 	}
 
@@ -693,7 +693,7 @@
 			margin: 0;
 			font-size: 1rem;
 			line-height: 1.7;
-			color: var(--text-secondary);
+			color: var(--ink-mid);
 		}
 	}
 
@@ -710,14 +710,14 @@
 			width: 100%;
 			aspect-ratio: 4 / 5;
 			object-fit: cover;
-			background: var(--bg-deep);
+			background: var(--night-deep);
 		}
 
 		span {
 			padding: 0.75rem;
 			font-family: var(--font-mono);
 			font-size: 0.78rem;
-			color: var(--text-secondary);
+			color: var(--ink-mid);
 			text-align: center;
 		}
 	}
@@ -733,10 +733,10 @@
 		gap: 0.5rem;
 		min-height: 2.65rem;
 		padding: 0.65rem 1rem;
-		background: color-mix(in srgb, var(--bg-surface) 76%, transparent);
-		border: 1px solid color-mix(in srgb, var(--primary) 16%, var(--border-color));
+		background: color-mix(in srgb, var(--stone-warm) 76%, transparent);
+		border: 1px solid color-mix(in srgb, var(--lamp-glow) 16%, var(--stone-edge));
 		border-radius: 8px;
-		color: var(--text-primary);
+		color: var(--ink-bright);
 		font-size: 0.9rem;
 		font-weight: 700;
 		text-decoration: none;
@@ -759,7 +759,7 @@
 
 	.social-btn:hover {
 		transform: translateY(-2px);
-		border-color: color-mix(in srgb, var(--primary) 38%, var(--border-color));
+		border-color: color-mix(in srgb, var(--lamp-glow) 38%, var(--stone-edge));
 		background: var(--primary-subtle);
 	}
 
@@ -772,10 +772,10 @@
 		margin: 0 auto 1.5rem;
 		font-size: 1rem;
 		line-height: 1.7;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 
 		strong {
-			color: var(--primary);
+			color: var(--lamp-glow);
 		}
 	}
 
@@ -787,22 +787,22 @@
 	}
 
 	.center-panel {
-		--center-color: var(--primary);
+		--center-color: var(--lamp-glow);
 		padding: 1.25rem;
-		border-color: color-mix(in srgb, var(--center-color) 28%, var(--border-color));
+		border-color: color-mix(in srgb, var(--center-color) 28%, var(--stone-edge));
 
 		h3 {
 			margin: 0.45rem 0 0.45rem;
 			font-family: var(--font-display);
 			font-size: 1.15rem;
-			color: var(--text-primary);
+			color: var(--ink-bright);
 		}
 
 		p {
 			margin: 0;
 			font-size: 0.92rem;
 			line-height: 1.55;
-			color: var(--text-secondary);
+			color: var(--ink-mid);
 		}
 	}
 
@@ -828,7 +828,7 @@
 	.explainer-link {
 		max-width: 720px;
 		margin: 1.25rem auto 0;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 		line-height: 1.6;
 	}
 
@@ -849,7 +849,7 @@
 			max-width: 560px;
 			font-size: 1rem;
 			line-height: 1.7;
-			color: var(--text-secondary);
+			color: var(--ink-mid);
 		}
 	}
 
@@ -871,12 +871,12 @@
 			margin: 0 0 0.45rem;
 			font-family: var(--font-display);
 			font-size: 1.25rem;
-			color: var(--text-primary);
+			color: var(--ink-bright);
 		}
 
 		p {
 			margin: 0 0 1rem;
-			color: var(--text-secondary);
+			color: var(--ink-mid);
 			line-height: 1.55;
 		}
 	}
@@ -890,7 +890,7 @@
 		margin: 1.1rem auto 0;
 		font-size: 0.9rem;
 		line-height: 1.55;
-		color: var(--text-tertiary);
+		color: var(--ink-dim);
 	}
 
 	.contact-section {
@@ -903,12 +903,12 @@
 			margin: 0 0 0.4rem;
 			font-family: var(--font-display);
 			font-size: 1.5rem;
-			color: var(--text-primary);
+			color: var(--ink-bright);
 		}
 
 		> p {
 			margin: 0 0 1.25rem;
-			color: var(--text-secondary);
+			color: var(--ink-mid);
 		}
 	}
 

@@ -1,0 +1,140 @@
+<!-- src/lib/components/atoms/Modal.svelte -->
+<script context="module" lang="ts">
+	import { browser } from '$app/environment';
+	const modals: Record<string, { open: Function; close: Function }> = {};
+	let openModalCount = 0;
+
+	export function getModal(id = '') {
+		return modals[id];
+	}
+</script>
+
+<script lang="ts">
+	import { onDestroy } from 'svelte';
+	import { portal } from '../../../utils/portal';
+
+	let topDiv: HTMLDivElement;
+	let visible = false;
+	let prevOnTop: HTMLDivElement | null = null;
+	let closeCallback: ((arg: any) => void) | null = null;
+
+	export let navTop = false;
+	export let name = 'modal';
+	export let id = '';
+	export let disableClose = false;
+	export let maxWidth: string | null = null;
+	export let fullMobile = false;
+
+	let onTop: HTMLDivElement | null = null;
+
+	function keyPress(ev: KeyboardEvent) {
+		if (ev.key === 'Escape' && onTop === topDiv && !disableClose) close(ev);
+	}
+
+	function closeIfAllowed(retVal: any) {
+		if (disableClose) return;
+		close(retVal);
+	}
+
+	function open(callback?: (arg: any) => void) {
+		if (visible) return;
+		closeCallback = callback || null;
+		prevOnTop = onTop;
+		onTop = topDiv;
+		if (browser) {
+			openModalCount += 1;
+			window.addEventListener('keydown', keyPress);
+			document.body.style.overflow = 'hidden';
+		}
+		visible = true;
+		document.body.appendChild(topDiv);
+	}
+
+	function close(retVal: any) {
+		if (!visible) return;
+		if (browser) {
+			openModalCount = Math.max(0, openModalCount - 1);
+			window.removeEventListener('keydown', keyPress);
+			onTop = prevOnTop;
+			if (openModalCount === 0) document.body.style.overflow = '';
+		}
+		visible = false;
+		if (closeCallback) closeCallback(retVal);
+	}
+
+	modals[id] = { open, close };
+
+	onDestroy(() => {
+		delete modals[id];
+		if (browser) {
+			window.removeEventListener('keydown', keyPress);
+			if (visible) {
+				openModalCount = Math.max(0, openModalCount - 1);
+			}
+			if (openModalCount === 0) {
+				document.body.style.overflow = '';
+			}
+		}
+	});
+</script>
+
+<div
+	class="fixed inset-0 z-[23425343] flex items-center justify-center bg-black/70 backdrop-blur-sm transition-all duration-300 {visible
+		? 'opacity-100'
+		: 'invisible opacity-0'}"
+	bind:this={topDiv}
+	use:portal
+	role="dialog"
+	aria-modal="true"
+	aria-labelledby={name}
+	tabindex="-1"
+	on:click|self={closeIfAllowed}
+	on:keydown={keyPress}
+>
+	<!-- Modal content container -->
+	<div
+		class="modal-container relative max-h-[90vh] w-[95%] max-w-[calc(100vw-20px)] transform overflow-hidden rounded-xl border border-[var(--stone-edge)] bg-[var(--stone-warm)] shadow-[var(--shadow-xl)] transition-all duration-300 sm:w-auto {visible
+			? 'scale-100 opacity-100'
+			: 'scale-95 opacity-0'}"
+		class:full-mobile={fullMobile}
+		style={maxWidth ? `max-width: min(${maxWidth}, calc(100vw - 20px))` : ''}
+	>
+		{#if !navTop}
+			<button
+				on:click={closeIfAllowed}
+				aria-label="Close dialog"
+				class="absolute right-3 top-3 flex h-11 w-11 cursor-pointer items-center justify-center rounded-full bg-[var(--night-deep)] p-0 transition-all duration-200 hover:rotate-90 hover:bg-[var(--primary-subtle)]"
+			>
+				<svg
+					width="16"
+					height="16"
+					viewBox="0 0 24 24"
+					fill="none"
+					stroke="currentColor"
+					stroke-width="2"
+					stroke-linecap="round"
+					stroke-linejoin="round"
+					class="text-[var(--ink-mid)]"
+				>
+					<line x1="18" y1="6" x2="6" y2="18"></line>
+					<line x1="6" y1="6" x2="18" y2="18"></line>
+				</svg>
+			</button>
+		{/if}
+		<div class="max-h-[85vh] overflow-y-auto p-6 sm:p-8">
+			<slot />
+		</div>
+	</div>
+</div>
+
+<style>
+	@media (max-width: 640px) {
+		:global(.modal-container.full-mobile) {
+			width: 100vw;
+			max-width: 100vw;
+			max-height: 100vh;
+			border-radius: 0;
+			border: none;
+		}
+	}
+</style>

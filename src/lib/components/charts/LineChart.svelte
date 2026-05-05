@@ -8,7 +8,7 @@
 	export let xLabel: string = '';
 	export let yLabel: string = '';
 	export let height: number = 300;
-	export let color: string = 'var(--primary)';
+	export let color: string = 'var(--lamp-glow)';
 	export let showPoints: boolean = true;
 	export let showGrid: boolean = true;
 	export let showSummary: boolean = true;
@@ -55,7 +55,7 @@
 			.style('opacity', 0)
 			.style('position', 'absolute')
 			.style('background', 'var(--glass-color)')
-			.style('color', 'var(--text-primary)')
+			.style('color', 'var(--ink-bright)')
 			.style('border', '1px solid var(--glass-border)')
 			.style('border-radius', '8px')
 			.style('padding', '10px 14px')
@@ -193,7 +193,7 @@
 				.attr('x2', width)
 				.attr('y1', (d) => yScale(d))
 				.attr('y2', (d) => yScale(d))
-				.attr('stroke', 'var(--border-color)')
+				.attr('stroke', 'var(--stone-edge)')
 				.attr('stroke-width', 1)
 				.attr('opacity', 0.4)
 				.attr('stroke-dasharray', '4,4');
@@ -260,7 +260,7 @@
 			.call(xAxis)
 			.selectAll('text')
 			.style('font-size', '11px')
-			.style('fill', 'var(--text-secondary, var(--text-tertiary))');
+			.style('fill', 'var(--ink-mid, var(--ink-dim))');
 
 		// Add Y axis
 		const yAxis = d3.axisLeft(yScale).ticks(5).tickFormat(d3.format('.0s'));
@@ -269,11 +269,11 @@
 			.call(yAxis)
 			.selectAll('text')
 			.style('font-size', '11px')
-			.style('fill', 'var(--text-secondary, var(--text-tertiary))');
+			.style('fill', 'var(--ink-mid, var(--ink-dim))');
 
 		// Style axis lines
-		g.selectAll('.x-axis path, .y-axis path').style('stroke', 'var(--border-color)');
-		g.selectAll('.x-axis line, .y-axis line').style('stroke', 'var(--border-color)');
+		g.selectAll('.x-axis path, .y-axis path').style('stroke', 'var(--stone-edge)');
+		g.selectAll('.x-axis line, .y-axis line').style('stroke', 'var(--stone-edge)');
 
 		// Add axis labels
 		if (xLabel) {
@@ -282,7 +282,7 @@
 				.attr('transform', `translate(${width / 2}, ${chartHeight + margin.bottom - 5})`)
 				.style('text-anchor', 'middle')
 				.style('font-size', '11px')
-				.style('fill', 'var(--text-secondary, var(--text-tertiary))')
+				.style('fill', 'var(--ink-mid, var(--ink-dim))')
 				.text(xLabel);
 		}
 
@@ -295,7 +295,7 @@
 				.attr('dy', '1em')
 				.style('text-anchor', 'middle')
 				.style('font-size', '11px')
-				.style('fill', 'var(--text-secondary, var(--text-tertiary))')
+				.style('fill', 'var(--ink-mid, var(--ink-dim))')
 				.text(yLabel);
 		}
 
@@ -388,7 +388,7 @@
 				tooltip
 					.html(
 						`<div style="font-weight: 600; margin-bottom: 4px; color: ${color}">${d.y.toLocaleString()}</div>
-					 <div style="font-size: 11px; color: var(--text-secondary)">${dateStr}</div>`
+					 <div style="font-size: 11px; color: var(--ink-mid)">${dateStr}</div>`
 					)
 					.style('left', event.pageX + 15 + 'px')
 					.style('top', event.pageY - 10 + 'px')
@@ -490,7 +490,7 @@
 		margin: 0;
 		font-size: 1rem;
 		font-weight: 600;
-		color: var(--text-primary, #1e293b);
+		color: var(--ink-bright, #1e293b);
 	}
 
 	.trend-badge {
@@ -524,7 +524,7 @@
 	}
 
 	.trend-label {
-		color: var(--text-secondary, var(--text-tertiary));
+		color: var(--ink-mid, var(--ink-dim));
 		font-weight: 400;
 	}
 
@@ -543,19 +543,19 @@
 	}
 
 	.summary-stat.highlight .summary-value {
-		color: var(--accent-color, var(--primary));
+		color: var(--accent-color, var(--lamp-glow));
 	}
 
 	.summary-value {
 		font-size: 1.125rem;
 		font-weight: 700;
-		color: var(--text-primary);
+		color: var(--ink-bright);
 		line-height: 1.2;
 	}
 
 	.summary-label {
 		font-size: 0.7rem;
-		color: var(--text-secondary, var(--text-tertiary));
+		color: var(--ink-mid, var(--ink-dim));
 		text-transform: uppercase;
 		letter-spacing: 0.5px;
 	}

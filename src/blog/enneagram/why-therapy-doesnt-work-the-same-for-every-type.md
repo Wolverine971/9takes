@@ -67,15 +67,6 @@ If you're someone who processes through analytical thinking, you can become an e
 
 **Meta-analyses on psychotherapy outcomes — including Cuijpers et al. (2014) and Wampold & Imel's comprehensive review in _The Great Psychotherapy Debate_ — put the response rate for talk therapy at roughly 40-60%.** That means many people benefit, but many don't. And those who don't aren't necessarily failing because they're resistant or unmotivated. The approach may simply not match how they're built.
 
-<div style="overflow: hidden;">
-<MarqueeHorizontal displayList={[
-{name: 'Enneagram & Mental Illness', link: '/enneagram-corner/enneagram-and-mental-illness'},
-{name: 'Therapy Guide by Type', link: '/enneagram-corner/mental-health/enneagram-therapy-guide'},
-{name: 'How Each Type Self-Sabotages', link: '/enneagram-corner/how-each-enneagram-type-self-sabotages-success'},
-{name: 'Stress Numbers', link: '/enneagram-corner/enneagram-stress-number'}
-]} />
-</div>
-
 ## The Three Emotional Operating Systems
 
 The Enneagram reveals something most therapists don't talk about: humans run on three distinct emotional operating systems. Each processes feelings through a different center — and each requires a different therapeutic approach.

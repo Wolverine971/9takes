@@ -194,10 +194,10 @@
 	.compact-card {
 		display: flex;
 		align-items: stretch;
-		background: var(--bg-elevated);
+		background: var(--stone-warm);
 		border-radius: 6px;
 		box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
-		border: 1px solid var(--bg-highlight);
+		border: 1px solid var(--stone-warm);
 		cursor: pointer;
 		transition: all 0.15s ease;
 		overflow: hidden;
@@ -208,7 +208,7 @@
 		}
 
 		&:focus-visible {
-			outline: 2px solid var(--primary);
+			outline: 2px solid var(--lamp-glow);
 			outline-offset: 2px;
 		}
 
@@ -226,7 +226,7 @@
 
 			&:active {
 				background: var(--primary-subtle);
-				border-color: var(--primary);
+				border-color: var(--lamp-glow);
 			}
 		}
 	}
@@ -237,8 +237,8 @@
 		justify-content: center;
 		width: 16px;
 		flex-shrink: 0;
-		background: var(--bg-deep);
-		color: var(--text-muted);
+		background: var(--night-deep);
+		color: var(--ink-dim);
 		cursor: grab;
 		opacity: 0;
 		transition: opacity 0.15s ease;
@@ -249,7 +249,7 @@
 
 		&:active {
 			cursor: grabbing;
-			color: var(--text-secondary);
+			color: var(--ink-mid);
 		}
 
 		@media (max-width: 768px) {
@@ -294,7 +294,7 @@
 		flex: 1;
 		font-size: 11px;
 		font-weight: 600;
-		color: var(--text-primary);
+		color: var(--ink-bright);
 		white-space: nowrap;
 		overflow: hidden;
 		text-overflow: ellipsis;
@@ -307,13 +307,13 @@
 
 	.external-link {
 		flex-shrink: 0;
-		color: var(--text-muted);
+		color: var(--ink-dim);
 		padding: 2px;
 		border-radius: 3px;
 		transition: all 0.15s ease;
 
 		&:hover {
-			color: var(--primary-light);
+			color: var(--lamp-glow);
 			background: var(--primary-subtle);
 		}
 
@@ -347,8 +347,8 @@
 		font-size: 9px;
 		font-weight: 600;
 		line-height: 1.4;
-		background: var(--bg-highlight);
-		color: var(--text-secondary);
+		background: var(--stone-warm);
+		color: var(--ink-mid);
 
 		@media (max-width: 768px) {
 			padding: 3px 8px;
@@ -372,7 +372,7 @@
 	}
 	.enneagram-badge.type-4 {
 		background: rgba(139, 92, 246, 0.2);
-		color: var(--accent-light);
+		color: var(--lamp-glow);
 	}
 	.enneagram-badge.type-5 {
 		background: rgba(167, 139, 250, 0.2);
@@ -402,8 +402,8 @@
 		border-radius: 3px;
 		font-size: 9px;
 		font-weight: 500;
-		background: var(--bg-highlight);
-		color: var(--text-secondary);
+		background: var(--stone-warm);
+		color: var(--ink-mid);
 		line-height: 1.4;
 
 		@media (max-width: 768px) {
@@ -418,8 +418,8 @@
 		align-items: center;
 		gap: 6px;
 		font-size: 9px;
-		color: var(--text-muted);
-		border-top: 1px solid var(--bg-highlight);
+		color: var(--ink-dim);
+		border-top: 1px solid var(--stone-warm);
 		padding-top: 4px;
 		margin-top: 2px;
 

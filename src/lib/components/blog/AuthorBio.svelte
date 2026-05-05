@@ -81,7 +81,7 @@
 		gap: 1rem;
 		padding: 1.25rem;
 		margin: 2rem 0;
-		background-color: var(--bg-surface, var(--bg-surface));
+		background-color: var(--stone-warm);
 		border: 1px solid var(--primary-subtle);
 		border-radius: 12px;
 		max-width: 48rem;
@@ -150,12 +150,12 @@
 		line-height: 1.3;
 
 		a {
-			color: var(--text-primary);
+			color: var(--ink-bright);
 			text-decoration: none;
 			transition: color 0.2s ease;
 
 			&:hover {
-				color: var(--primary-lightest, var(--accent-light));
+				color: var(--primary-lightest, var(--lamp-glow));
 			}
 
 			/* Override blog link arrow */
@@ -168,7 +168,7 @@
 
 	.author-role {
 		font-size: 0.8125rem;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 		white-space: nowrap;
 	}
 
@@ -176,7 +176,7 @@
 		margin: 0.375rem 0 0.5rem;
 		font-size: 0.875rem;
 		line-height: 1.55;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 	}
 
 	.author-links {
@@ -192,13 +192,13 @@
 		width: 32px;
 		height: 32px;
 		border-radius: 8px;
-		color: var(--text-secondary);
-		background: color-mix(in srgb, var(--text-tertiary) 10%, transparent);
+		color: var(--ink-mid);
+		background: color-mix(in srgb, var(--ink-dim) 10%, transparent);
 		transition: all 0.2s ease;
 		text-decoration: none;
 
 		&:hover {
-			color: var(--text-primary);
+			color: var(--ink-bright);
 			background: var(--primary-subtle);
 		}
 

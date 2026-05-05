@@ -1,5 +1,7 @@
 <!-- docs/brand/BRAND-KIT.md -->
 
+> ⚠️ **ARCHIVED 2026-05-04** — Historical reference only. The locked design system is in `docs/design-system.md` (Streetlamp Symposium · sodium-amber primary · Inter typography). Content below contradicts the current spec; preserved for context. Migration phases live in `docs/design/2026-05-04-rollout-plan.md`.
+
 # 9takes Brand Kit
 
 Complete brand assets for Canva and design tools.

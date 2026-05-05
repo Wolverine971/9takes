@@ -20,7 +20,7 @@
 	/* 9takes Warm Tech Theme - Subtopic Page */
 	.page-wrapper {
 		min-height: 100vh;
-		background: linear-gradient(180deg, var(--bg-base) 0%, var(--bg-deep) 100%);
+		background: linear-gradient(180deg, var(--night-deep) 0%, var(--night-deep) 100%);
 		padding-bottom: 4rem;
 	}
 

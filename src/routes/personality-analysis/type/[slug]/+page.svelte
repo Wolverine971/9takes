@@ -194,7 +194,7 @@
 	/* 9takes Warm Tech Theme - Type Page */
 	.page-wrapper {
 		min-height: 100vh;
-		background: linear-gradient(180deg, var(--bg-base) 0%, var(--bg-deep) 100%);
+		background: linear-gradient(180deg, var(--night-deep) 0%, var(--night-deep) 100%);
 	}
 
 	/* Hero Section */
@@ -224,7 +224,7 @@
 		justify-content: center;
 		width: 4rem;
 		height: 4rem;
-		background: linear-gradient(135deg, var(--primary-dark) 0%, var(--accent-dark) 100%);
+		background: linear-gradient(135deg, var(--lamp-glow) 0%, var(--lamp-glow) 100%);
 		border-radius: 1rem;
 		margin-bottom: 1rem;
 		box-shadow: 0 0 30px rgba(45, 212, 191, 0.4);
@@ -243,7 +243,7 @@
 	.type-num {
 		font-size: 2rem;
 		font-weight: 700;
-		color: var(--text-primary);
+		color: var(--ink-bright);
 		text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 	}
 
@@ -254,7 +254,7 @@
 		margin: 0 0 0.5rem;
 		letter-spacing: -0.02em;
 		position: relative;
-		background: linear-gradient(135deg, var(--text-primary) 0%, var(--accent-light) 100%);
+		background: linear-gradient(135deg, var(--ink-bright) 0%, var(--lamp-glow) 100%);
 		-webkit-background-clip: text;
 		-webkit-text-fill-color: transparent;
 		background-clip: text;
@@ -262,7 +262,7 @@
 
 	.tagline {
 		font-size: 1rem;
-		color: var(--text-tertiary);
+		color: var(--ink-dim);
 		margin: 0;
 		font-weight: 500;
 	}
@@ -281,7 +281,7 @@
 		justify-content: space-between;
 		margin-bottom: 1.5rem;
 		padding-bottom: 0.75rem;
-		border-bottom: 1px solid var(--border-color);
+		border-bottom: 1px solid var(--stone-edge);
 		flex-wrap: wrap;
 		gap: 0.75rem;
 	}
@@ -289,18 +289,18 @@
 	h2 {
 		font-size: 1.5rem;
 		font-weight: 600;
-		color: var(--text-primary);
+		color: var(--ink-bright);
 		margin: 0;
 	}
 
 	.people-count {
 		font-size: 0.875rem;
-		color: var(--primary);
+		color: var(--lamp-glow);
 		font-weight: 500;
 		padding: 0.375rem 0.75rem;
 		background: var(--primary-subtle);
 		border-radius: 2rem;
-		border: 1px solid color-mix(in srgb, var(--primary) 24%, transparent);
+		border: 1px solid color-mix(in srgb, var(--lamp-glow) 24%, transparent);
 	}
 
 	.famous-people {
@@ -317,8 +317,8 @@
 		position: relative;
 		border-radius: 0.75rem;
 		overflow: hidden;
-		background: var(--bg-surface);
-		border: 1px solid var(--border-color);
+		background: var(--stone-warm);
+		border: 1px solid var(--stone-edge);
 		transition: all 0.25s ease;
 		text-decoration: none;
 		box-shadow: var(--shadow-sm);
@@ -398,10 +398,10 @@
 		text-align: center;
 		margin-top: 3rem;
 		padding: 2.5rem 2rem;
-		background: linear-gradient(135deg, var(--bg-surface) 0%, var(--bg-deep) 100%);
+		background: linear-gradient(135deg, var(--stone-warm) 0%, var(--night-deep) 100%);
 		border-radius: 1rem;
 		border: 1px solid rgba(45, 212, 191, 0.2);
-		color: var(--text-primary);
+		color: var(--ink-bright);
 		position: relative;
 		overflow: hidden;
 
@@ -421,7 +421,7 @@
 	.more-info {
 		font-style: italic;
 		margin-bottom: 1.5rem;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 		font-size: 0.9375rem;
 		position: relative;
 	}

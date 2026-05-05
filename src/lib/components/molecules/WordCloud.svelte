@@ -53,7 +53,7 @@
 			.words(layoutWords)
 			.padding(0)
 			.rotate(() => 0) // Always return 0 to keep words horizontal
-			.font('Space Grotesk')
+			.font('Inter')
 			.fontSize((word) => Math.sqrt(word.size) * 5)
 			.on('end', draw);
 
@@ -84,7 +84,7 @@
 		d3Module
 			.select(svg)
 			.attr('viewBox', [0, 0, width, height])
-			.attr('font-family', 'Space Grotesk')
+			.attr('font-family', 'Inter Variable, Inter, sans-serif')
 			.attr('text-anchor', 'middle')
 			.selectAll('g')
 			.data([null])

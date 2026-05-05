@@ -59,12 +59,12 @@ All 5 candidates from the Apr 28 queue are now ~6 days old and remain aged out. 
 
 These signals were warm anchors on May 2 and are still intact, but the freshness window has tightened by another day. They are no longer "active" — they are "warm but cold-starting." First scan after restoration must convert them back to active before another week of silence pushes them dormant.
 
-| Signal                                                              | Age (May 3) | State                |
-| ------------------------------------------------------------------- | ----------- | -------------------- |
-| @enneagramwithjb (Jackie Brewster) liked Apr 19/20 reply on Apr 22  | ~11d        | Warm, cold-starting  |
-| @enneagrampaths (Melissa Kircher) liked Apr 13 Carl reply on Apr 20 | ~13d        | Warm, cold-starting  |
-| @mindfulmft commenter `jillypie_hazeleyes` liked Apr 19 reply Apr 21 | ~12d        | Community recognition, cooling |
-| @vvanedwards March 19 "cover-up strategy" comment with Apr 27 wave  | ~6d since fresh-wave | Anchor-quality, still ours |
+| Signal                                                               | Age (May 3)          | State                          |
+| -------------------------------------------------------------------- | -------------------- | ------------------------------ |
+| @enneagramwithjb (Jackie Brewster) liked Apr 19/20 reply on Apr 22   | ~11d                 | Warm, cold-starting            |
+| @enneagrampaths (Melissa Kircher) liked Apr 13 Carl reply on Apr 20  | ~13d                 | Warm, cold-starting            |
+| @mindfulmft commenter `jillypie_hazeleyes` liked Apr 19 reply Apr 21 | ~12d                 | Community recognition, cooling |
+| @vvanedwards March 19 "cover-up strategy" comment with Apr 27 wave   | ~6d since fresh-wave | Anchor-quality, still ours     |
 
 ---
 

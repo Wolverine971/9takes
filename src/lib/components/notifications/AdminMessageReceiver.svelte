@@ -186,16 +186,16 @@
 		justify-content: center;
 		width: 2.5rem;
 		height: 2.5rem;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 	}
 
 	.notification-bell:hover {
-		background-color: color-mix(in srgb, var(--primary) 15%, transparent);
-		color: var(--accent-light);
+		background-color: color-mix(in srgb, var(--lamp-glow) 15%, transparent);
+		color: var(--lamp-glow);
 	}
 
 	.notification-bell:focus {
-		outline: 2px solid var(--accent-light);
+		outline: 2px solid var(--lamp-glow);
 		outline-offset: 2px;
 	}
 
@@ -208,7 +208,7 @@
 	}
 
 	.notification-bell.has-messages {
-		color: var(--accent-light);
+		color: var(--lamp-glow);
 		animation: shake 0.5s ease-in-out;
 	}
 
@@ -227,7 +227,7 @@
 		align-items: center;
 		justify-content: center;
 		font-weight: 700;
-		border: 2px solid var(--bg-surface);
+		border: 2px solid var(--stone-warm);
 		box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
 		z-index: 10;
 	}
@@ -238,7 +238,7 @@
 		right: -0.5rem;
 		width: 340px;
 		max-height: 450px;
-		background: var(--bg-deep);
+		background: var(--night-deep);
 		border: 1px solid var(--primary-subtle);
 		border-radius: 0.75rem;
 		box-shadow:
@@ -266,7 +266,7 @@
 		align-items: center;
 		background: linear-gradient(
 			180deg,
-			color-mix(in srgb, var(--primary) 8%, transparent) 0%,
+			color-mix(in srgb, var(--lamp-glow) 8%, transparent) 0%,
 			transparent 100%
 		);
 	}
@@ -275,7 +275,7 @@
 		margin: 0;
 		font-size: 0.9375rem;
 		font-weight: 600;
-		color: var(--text-primary);
+		color: var(--ink-bright);
 		letter-spacing: -0.01em;
 	}
 
@@ -285,7 +285,7 @@
 		border-radius: 0.375rem;
 		font-size: 1.25rem;
 		cursor: pointer;
-		color: var(--text-tertiary);
+		color: var(--ink-dim);
 		width: 1.75rem;
 		height: 1.75rem;
 		display: flex;
@@ -296,8 +296,8 @@
 	}
 
 	.close-btn:hover {
-		background: color-mix(in srgb, var(--primary) 15%, transparent);
-		color: var(--text-primary);
+		background: color-mix(in srgb, var(--lamp-glow) 15%, transparent);
+		color: var(--ink-bright);
 	}
 
 	.close-btn:active {
@@ -325,13 +325,13 @@
 	}
 
 	.notification-content::-webkit-scrollbar-thumb:hover {
-		background-color: var(--primary);
+		background-color: var(--lamp-glow);
 	}
 
 	.no-messages {
 		padding: 2.5rem 1.25rem;
 		text-align: center;
-		color: var(--text-tertiary);
+		color: var(--ink-dim);
 		font-size: 0.875rem;
 		line-height: 1.5;
 	}
@@ -344,7 +344,7 @@
 		padding: 0.875rem 1rem;
 		margin: 0.25rem 0;
 		border-radius: 0.5rem;
-		background: color-mix(in srgb, var(--primary) 5%, transparent);
+		background: color-mix(in srgb, var(--lamp-glow) 5%, transparent);
 		border: 1px solid transparent;
 		transition: all 0.15s ease;
 		position: relative;
@@ -371,7 +371,7 @@
 		transform: translateY(-50%);
 		height: 50%;
 		width: 2px;
-		background: var(--primary-dark);
+		background: var(--lamp-glow);
 		border-radius: 0 2px 2px 0;
 		opacity: 0;
 		transition: opacity 0.15s ease;
@@ -392,7 +392,7 @@
 	.message-type {
 		font-size: 0.75rem;
 		font-weight: 600;
-		color: var(--accent-light);
+		color: var(--lamp-glow);
 		display: flex;
 		align-items: center;
 		gap: 0.25rem;
@@ -400,7 +400,7 @@
 
 	.message-time {
 		font-size: 0.6875rem;
-		color: var(--text-tertiary);
+		color: var(--ink-dim);
 		white-space: nowrap;
 	}
 
@@ -416,7 +416,7 @@
 		border-top: 1px solid var(--primary-subtle);
 		display: flex;
 		gap: 0.5rem;
-		background: var(--bg-surface);
+		background: var(--stone-warm);
 	}
 
 	.clear-btn,
@@ -438,7 +438,7 @@
 	}
 
 	.permission-btn {
-		background: linear-gradient(135deg, var(--primary-dark) 0%, var(--accent-dark) 100%);
+		background: linear-gradient(135deg, var(--lamp-glow) 0%, var(--lamp-glow) 100%);
 		color: var(--text-on-primary);
 		border-color: transparent;
 	}
@@ -449,7 +449,7 @@
 	}
 
 	.permission-btn:hover {
-		background: linear-gradient(135deg, var(--accent) 0%, var(--primary-dark) 100%);
+		background: linear-gradient(135deg, var(--lamp-glow) 0%, var(--lamp-glow) 100%);
 		box-shadow: 0 0 15px var(--primary-glow);
 	}
 

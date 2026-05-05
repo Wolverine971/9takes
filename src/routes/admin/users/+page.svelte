@@ -1,7 +1,7 @@
 <!-- src/routes/admin/users/+page.svelte -->
 <script lang="ts">
 	import type { PageData } from './$types';
-	import Modal2, { getModal } from '$lib/components/atoms/Modal2.svelte';
+	import Modal, { getModal } from '$lib/components/atoms/Modal.svelte';
 	import { deserialize } from '$app/forms';
 	import { notifications } from '$lib/components/molecules/notifications';
 	import { convertDateToReadable } from '../../../utils/conversions';
@@ -418,7 +418,7 @@
 											{@const profileType = Number(profile.enneagram)}
 											<span
 												class="type-badge"
-												style="background: {typeColors[profileType] || 'var(--text-tertiary)'}"
+												style="background: {typeColors[profileType] || 'var(--ink-dim)'}"
 											>
 												{profile.enneagram}
 											</span>
@@ -506,7 +506,7 @@
 	{/if}
 </div>
 
-<Modal2 id="user-details-modal" maxWidth="840px">
+<Modal id="user-details-modal" maxWidth="840px">
 	<div class="modal-content detail-modal-content">
 		<h2 class="modal-title">User Details</h2>
 
@@ -516,8 +516,7 @@
 					{#if detailProfile.enneagram}
 						<span
 							class="avatar-type"
-							style="background: {typeColors[Number(detailProfile.enneagram)] ||
-								'var(--text-tertiary)'}"
+							style="background: {typeColors[Number(detailProfile.enneagram)] || 'var(--ink-dim)'}"
 						>
 							{detailProfile.enneagram}
 						</span>
@@ -697,9 +696,9 @@
 			</section>
 		{/if}
 	</div>
-</Modal2>
+</Modal>
 
-<Modal2 id="user-modal">
+<Modal id="user-modal">
 	<div class="modal-content">
 		<h2 class="modal-title">Edit User</h2>
 		<div class="modal-user-info">
@@ -707,7 +706,7 @@
 				{#if active?.enneagram}
 					<span
 						class="avatar-type"
-						style="background: {typeColors[Number(active.enneagram)] || 'var(--text-tertiary)'}"
+						style="background: {typeColors[Number(active.enneagram)] || 'var(--ink-dim)'}"
 					>
 						{active.enneagram}
 					</span>
@@ -742,7 +741,7 @@
 			</button>
 		</div>
 	</div>
-</Modal2>
+</Modal>
 
 <style>
 	.admin-users {
@@ -753,13 +752,13 @@
 	.page-header {
 		margin-bottom: 20px;
 		padding-bottom: 12px;
-		border-bottom: 1px solid var(--bg-elevated);
+		border-bottom: 1px solid var(--stone-warm);
 	}
 
 	.page-title {
 		font-size: 1.375rem;
 		font-weight: 700;
-		color: var(--text-primary);
+		color: var(--ink-bright);
 		margin: 0;
 	}
 
@@ -780,8 +779,8 @@
 	}
 
 	.distribution-card {
-		background: var(--bg-surface);
-		border: 1px solid var(--bg-elevated);
+		background: var(--stone-warm);
+		border: 1px solid var(--stone-warm);
 		border-radius: 10px;
 		overflow: hidden;
 	}
@@ -792,16 +791,16 @@
 	}
 
 	.table-card {
-		background: var(--bg-surface);
-		border: 1px solid var(--bg-elevated);
+		background: var(--stone-warm);
+		border: 1px solid var(--stone-warm);
 		border-radius: 10px;
 		overflow: hidden;
 	}
 
 	.table-header {
 		padding: 12px 16px;
-		border-bottom: 1px solid var(--bg-elevated);
-		background: var(--bg-deep);
+		border-bottom: 1px solid var(--stone-warm);
+		background: var(--night-deep);
 		display: flex;
 		justify-content: space-between;
 		align-items: center;
@@ -816,7 +815,7 @@
 		margin: 0;
 		font-size: 0.8125rem;
 		font-weight: 600;
-		color: var(--text-primary);
+		color: var(--ink-bright);
 	}
 
 	.title-icon {
@@ -825,7 +824,7 @@
 
 	.count-badge {
 		padding: 2px 8px;
-		background: var(--primary);
+		background: var(--lamp-glow);
 		color: white;
 		border-radius: 10px;
 		font-size: 0.6875rem;
@@ -840,26 +839,26 @@
 
 	.search-input {
 		padding: 8px 12px;
-		border: 1px solid var(--bg-elevated);
+		border: 1px solid var(--stone-warm);
 		border-radius: 6px;
 		font-size: 0.75rem;
 		min-width: 160px;
-		background: var(--bg-surface);
-		color: var(--text-primary);
+		background: var(--stone-warm);
+		color: var(--ink-bright);
 	}
 
 	.search-input:focus {
 		outline: none;
-		border-color: var(--primary);
+		border-color: var(--lamp-glow);
 	}
 
 	.filter-select {
 		padding: 8px 12px;
-		border: 1px solid var(--bg-elevated);
+		border: 1px solid var(--stone-warm);
 		border-radius: 6px;
 		font-size: 0.75rem;
-		background: var(--bg-surface);
-		color: var(--text-primary);
+		background: var(--stone-warm);
+		color: var(--ink-bright);
 		cursor: pointer;
 	}
 
@@ -879,7 +878,7 @@
 	.data-table thead {
 		position: sticky;
 		top: 0;
-		background: var(--bg-surface);
+		background: var(--stone-warm);
 		z-index: 1;
 	}
 
@@ -887,11 +886,11 @@
 		padding: 10px 12px;
 		text-align: left;
 		font-weight: 600;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 		font-size: 0.625rem;
 		text-transform: uppercase;
 		letter-spacing: 0.5px;
-		border-bottom: 1px solid var(--bg-elevated);
+		border-bottom: 1px solid var(--stone-warm);
 		white-space: nowrap;
 	}
 
@@ -901,28 +900,28 @@
 	}
 
 	.data-table th.sortable:hover {
-		color: var(--primary);
+		color: var(--lamp-glow);
 	}
 
 	.sort-icon {
 		margin-left: 4px;
-		color: var(--primary);
+		color: var(--lamp-glow);
 	}
 
 	.data-table td {
 		padding: 10px 12px;
-		border-bottom: 1px solid var(--bg-elevated);
-		color: var(--text-primary);
+		border-bottom: 1px solid var(--stone-warm);
+		color: var(--ink-bright);
 	}
 
 	.data-table tbody tr:hover {
-		background: var(--bg-deep);
+		background: var(--night-deep);
 	}
 
 	.date-cell {
 		white-space: nowrap;
 		font-size: 0.6875rem;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 	}
 
 	.name-cell {
@@ -933,12 +932,12 @@
 	}
 
 	.email-link {
-		color: var(--text-primary);
+		color: var(--ink-bright);
 		text-decoration: none;
 	}
 
 	.email-link:hover {
-		color: var(--primary);
+		color: var(--lamp-glow);
 	}
 
 	.type-badge {
@@ -954,7 +953,7 @@
 	}
 
 	.empty-badge {
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 	}
 
 	.admin-badge {
@@ -968,8 +967,8 @@
 
 	.user-badge {
 		padding: 2px 6px;
-		background: var(--bg-deep);
-		color: var(--text-secondary);
+		background: var(--night-deep);
+		color: var(--ink-mid);
 		border-radius: 10px;
 		font-size: 0.625rem;
 		font-weight: 500;
@@ -984,9 +983,9 @@
 	.edit-btn,
 	.details-btn {
 		padding: 4px 10px;
-		background: var(--bg-surface);
-		color: var(--primary);
-		border: 1px solid var(--primary);
+		background: var(--stone-warm);
+		color: var(--lamp-glow);
+		border: 1px solid var(--lamp-glow);
 		border-radius: 5px;
 		font-size: 0.6875rem;
 		font-weight: 500;
@@ -995,15 +994,15 @@
 	}
 
 	.details-btn {
-		color: var(--text-primary);
-		border-color: var(--bg-elevated);
+		color: var(--ink-bright);
+		border-color: var(--stone-warm);
 	}
 
 	.edit-btn:hover,
 	.details-btn:hover {
-		background: var(--primary);
+		background: var(--lamp-glow);
 		color: white;
-		border-color: var(--primary);
+		border-color: var(--lamp-glow);
 	}
 
 	/* Modal Styles */
@@ -1019,7 +1018,7 @@
 		margin: 0 0 16px 0;
 		font-size: 1.125rem;
 		font-weight: 600;
-		color: var(--text-primary);
+		color: var(--ink-bright);
 	}
 
 	.modal-user-info {
@@ -1027,7 +1026,7 @@
 		align-items: center;
 		gap: 12px;
 		padding: 12px;
-		background: var(--bg-deep);
+		background: var(--night-deep);
 		border-radius: 8px;
 		margin-bottom: 16px;
 	}
@@ -1061,8 +1060,8 @@
 		border-radius: 8px;
 		font-size: 1.125rem;
 		font-weight: 700;
-		background: var(--bg-elevated);
-		color: var(--text-secondary);
+		background: var(--stone-warm);
+		color: var(--ink-mid);
 	}
 
 	.user-details {
@@ -1072,7 +1071,7 @@
 	.user-email {
 		font-size: 0.8125rem;
 		font-weight: 600;
-		color: var(--text-primary);
+		color: var(--ink-bright);
 		margin: 0 0 4px 0;
 		overflow: hidden;
 		text-overflow: ellipsis;
@@ -1081,7 +1080,7 @@
 
 	.user-name {
 		font-size: 0.75rem;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 		margin: 0;
 	}
 
@@ -1089,10 +1088,10 @@
 	.error-state,
 	.detail-empty {
 		padding: 14px;
-		background: var(--bg-deep);
-		border: 1px solid var(--bg-elevated);
+		background: var(--night-deep);
+		border: 1px solid var(--stone-warm);
 		border-radius: 8px;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 		font-size: 0.8125rem;
 	}
 
@@ -1111,8 +1110,8 @@
 
 	.activity-stat {
 		padding: 12px;
-		background: var(--bg-deep);
-		border: 1px solid var(--bg-elevated);
+		background: var(--night-deep);
+		border: 1px solid var(--stone-warm);
 		border-radius: 8px;
 		min-width: 0;
 	}
@@ -1121,7 +1120,7 @@
 		display: block;
 		font-size: 1rem;
 		font-weight: 700;
-		color: var(--text-primary);
+		color: var(--ink-bright);
 		overflow-wrap: anywhere;
 	}
 
@@ -1132,13 +1131,13 @@
 		font-weight: 600;
 		text-transform: uppercase;
 		letter-spacing: 0.04em;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 	}
 
 	.detail-section {
 		padding-top: 16px;
 		margin-top: 16px;
-		border-top: 1px solid var(--bg-elevated);
+		border-top: 1px solid var(--stone-warm);
 	}
 
 	.detail-section h3,
@@ -1146,7 +1145,7 @@
 		margin: 0;
 		font-size: 0.875rem;
 		font-weight: 700;
-		color: var(--text-primary);
+		color: var(--ink-bright);
 	}
 
 	.detail-section-header {
@@ -1158,7 +1157,7 @@
 	}
 
 	.detail-section-header span {
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 		font-size: 0.75rem;
 	}
 
@@ -1172,29 +1171,29 @@
 	.detail-grid div {
 		min-width: 0;
 		padding: 10px;
-		background: var(--bg-deep);
-		border: 1px solid var(--bg-elevated);
+		background: var(--night-deep);
+		border: 1px solid var(--stone-warm);
 		border-radius: 8px;
 	}
 
 	.detail-grid dt {
 		font-size: 0.6875rem;
 		font-weight: 700;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 		text-transform: uppercase;
 		letter-spacing: 0.04em;
 	}
 
 	.detail-grid dd {
 		margin: 4px 0 0;
-		color: var(--text-primary);
+		color: var(--ink-bright);
 		font-size: 0.8125rem;
 		overflow-wrap: anywhere;
 	}
 
 	.detail-link,
 	.activity-title {
-		color: var(--primary);
+		color: var(--lamp-glow);
 		text-decoration: none;
 	}
 
@@ -1213,8 +1212,8 @@
 
 	.activity-list li {
 		padding: 12px;
-		background: var(--bg-deep);
-		border: 1px solid var(--bg-elevated);
+		background: var(--night-deep);
+		border: 1px solid var(--stone-warm);
 		border-radius: 8px;
 	}
 
@@ -1228,7 +1227,7 @@
 
 	.activity-body {
 		margin: 8px 0 0;
-		color: var(--text-primary);
+		color: var(--ink-bright);
 		font-size: 0.8125rem;
 		line-height: 1.45;
 		overflow-wrap: anywhere;
@@ -1239,7 +1238,7 @@
 		flex-wrap: wrap;
 		gap: 8px;
 		margin-top: 8px;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 		font-size: 0.6875rem;
 	}
 
@@ -1256,24 +1255,24 @@
 		display: block;
 		margin-bottom: 6px;
 		font-weight: 500;
-		color: var(--text-primary);
+		color: var(--ink-bright);
 		font-size: 0.8125rem;
 	}
 
 	.form-select {
 		width: 100%;
 		padding: 10px 12px;
-		border: 1px solid var(--bg-elevated);
+		border: 1px solid var(--stone-warm);
 		border-radius: 6px;
-		background: var(--bg-surface);
-		color: var(--text-primary);
+		background: var(--stone-warm);
+		color: var(--ink-bright);
 		font-size: 0.8125rem;
 		cursor: pointer;
 	}
 
 	.form-select:focus {
 		outline: none;
-		border-color: var(--primary);
+		border-color: var(--lamp-glow);
 	}
 
 	.modal-actions {
@@ -1292,17 +1291,17 @@
 	}
 
 	.btn-secondary {
-		background: var(--bg-surface);
-		color: var(--text-primary);
-		border: 1px solid var(--bg-elevated);
+		background: var(--stone-warm);
+		color: var(--ink-bright);
+		border: 1px solid var(--stone-warm);
 	}
 
 	.btn-secondary:hover {
-		background: var(--bg-deep);
+		background: var(--night-deep);
 	}
 
 	.btn-primary {
-		background: var(--primary);
+		background: var(--lamp-glow);
 		color: white;
 		border: none;
 	}
@@ -1399,9 +1398,9 @@
 		}
 
 		.data-table tr {
-			border: 1px solid var(--bg-elevated);
+			border: 1px solid var(--stone-warm);
 			border-radius: 10px;
-			background: color-mix(in srgb, var(--bg-deep) 68%, var(--bg-surface));
+			background: color-mix(in srgb, var(--night-deep) 68%, var(--stone-warm));
 			padding: 0.85rem;
 		}
 
@@ -1424,7 +1423,7 @@
 			font-weight: 700;
 			letter-spacing: 0.08em;
 			text-transform: uppercase;
-			color: var(--text-secondary);
+			color: var(--ink-mid);
 		}
 
 		.data-table td[data-label='Actions'] {

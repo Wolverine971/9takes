@@ -2,7 +2,7 @@
 <script lang="ts">
 	import type { PageData } from './$types';
 	import AdminQuestionItem from '$lib/components/questions/AdminQuestionItem.svelte';
-	import Modal2, { getModal } from '$lib/components/atoms/Modal2.svelte';
+	import Modal, { getModal } from '$lib/components/atoms/Modal.svelte';
 	import { convertDateToReadable } from '../../../utils/conversions';
 	import StatCard from '$lib/components/charts/StatCard.svelte';
 
@@ -401,7 +401,7 @@
 	</section>
 </div>
 
-<Modal2 id="question-details-modal" maxWidth="1080px">
+<Modal id="question-details-modal" maxWidth="1080px">
 	{#if selectedQuestion}
 		<AdminQuestionItem
 			questionData={selectedQuestion}
@@ -409,7 +409,7 @@
 			onQuestionUpdated={updateQuestion}
 		/>
 	{/if}
-</Modal2>
+</Modal>
 
 <style>
 	.admin-questions {
@@ -427,13 +427,13 @@
 		align-items: flex-start;
 		gap: 20px;
 		padding: 24px;
-		border: 1px solid color-mix(in srgb, var(--primary) 14%, var(--border-color));
+		border: 1px solid color-mix(in srgb, var(--lamp-glow) 14%, var(--stone-edge));
 		border-radius: 24px;
 		background: linear-gradient(
 			145deg,
-			color-mix(in srgb, var(--primary) 9%, var(--bg-surface)) 0%,
-			var(--bg-surface) 54%,
-			var(--bg-deep) 100%
+			color-mix(in srgb, var(--lamp-glow) 9%, var(--stone-warm)) 0%,
+			var(--stone-warm) 54%,
+			var(--night-deep) 100%
 		);
 		box-shadow: var(--shadow-md);
 	}
@@ -449,7 +449,7 @@
 		margin-bottom: 12px;
 		border-radius: 999px;
 		background: var(--primary-subtle);
-		color: var(--primary);
+		color: var(--lamp-glow);
 		font-size: 0.72rem;
 		font-weight: 700;
 		letter-spacing: 0.08em;
@@ -460,7 +460,7 @@
 		margin: 0;
 		font-size: clamp(1.65rem, 2vw, 2.25rem);
 		font-weight: 750;
-		color: var(--text-primary);
+		color: var(--ink-bright);
 	}
 
 	.page-subtitle {
@@ -468,7 +468,7 @@
 		max-width: 62ch;
 		font-size: 0.95rem;
 		line-height: 1.6;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 	}
 
 	.header-actions {
@@ -485,7 +485,7 @@
 		gap: 4px;
 		min-width: 110px;
 		padding: 12px 14px;
-		border: 1px solid var(--border-color);
+		border: 1px solid var(--stone-edge);
 		border-radius: 16px;
 		background: rgba(0, 0, 0, 0.12);
 	}
@@ -495,13 +495,13 @@
 		font-weight: 600;
 		letter-spacing: 0.05em;
 		text-transform: uppercase;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 	}
 
 	.header-pill-value {
 		font-size: 1.35rem;
 		line-height: 1;
-		color: var(--text-primary);
+		color: var(--ink-bright);
 	}
 
 	.hierarchy-btn {
@@ -510,8 +510,8 @@
 		justify-content: center;
 		padding: 10px 16px;
 		border-radius: 12px;
-		border: 1px solid color-mix(in srgb, var(--primary) 30%, transparent);
-		background: var(--primary);
+		border: 1px solid color-mix(in srgb, var(--lamp-glow) 30%, transparent);
+		background: var(--lamp-glow);
 		color: white;
 		text-decoration: none;
 		font-size: 0.85rem;
@@ -536,12 +536,12 @@
 
 	.questions-card {
 		overflow: hidden;
-		border: 1px solid var(--border-color);
+		border: 1px solid var(--stone-edge);
 		border-radius: 24px;
 		background: linear-gradient(
 			180deg,
-			var(--bg-surface) 0%,
-			color-mix(in srgb, var(--bg-surface) 78%, var(--bg-deep)) 100%
+			var(--stone-warm) 0%,
+			color-mix(in srgb, var(--stone-warm) 78%, var(--night-deep)) 100%
 		);
 		box-shadow: var(--shadow-md);
 	}
@@ -551,11 +551,11 @@
 		flex-direction: column;
 		gap: 18px;
 		padding: 24px;
-		border-bottom: 1px solid color-mix(in srgb, var(--primary) 10%, var(--border-color));
+		border-bottom: 1px solid color-mix(in srgb, var(--lamp-glow) 10%, var(--stone-edge));
 		background: linear-gradient(
 			180deg,
-			color-mix(in srgb, var(--primary) 6%, var(--bg-deep)) 0%,
-			var(--bg-deep) 100%
+			color-mix(in srgb, var(--lamp-glow) 6%, var(--night-deep)) 0%,
+			var(--night-deep) 100%
 		);
 	}
 
@@ -570,7 +570,7 @@
 		margin: 0;
 		font-size: 1.15rem;
 		font-weight: 700;
-		color: var(--text-primary);
+		color: var(--ink-bright);
 	}
 
 	.card-subtitle {
@@ -578,7 +578,7 @@
 		max-width: 60ch;
 		font-size: 0.88rem;
 		line-height: 1.55;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 	}
 
 	.count-badge {
@@ -588,7 +588,7 @@
 		padding: 8px 12px;
 		border-radius: 999px;
 		background: var(--primary-subtle);
-		color: var(--primary);
+		color: var(--lamp-glow);
 		font-size: 0.78rem;
 		font-weight: 700;
 		white-space: nowrap;
@@ -616,7 +616,7 @@
 		font-weight: 700;
 		letter-spacing: 0.06em;
 		text-transform: uppercase;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 	}
 
 	.search-input,
@@ -624,10 +624,10 @@
 		width: 100%;
 		height: 44px;
 		padding: 0 14px;
-		border: 1px solid var(--border-color);
+		border: 1px solid var(--stone-edge);
 		border-radius: 12px;
-		background: color-mix(in srgb, var(--bg-surface) 82%, var(--bg-deep));
-		color: var(--text-primary);
+		background: color-mix(in srgb, var(--stone-warm) 82%, var(--night-deep));
+		color: var(--ink-bright);
 		font-size: 0.9rem;
 		transition:
 			border-color 0.2s ease,
@@ -636,15 +636,15 @@
 	}
 
 	.search-input::placeholder {
-		color: color-mix(in srgb, var(--text-secondary) 88%, transparent);
+		color: color-mix(in srgb, var(--ink-mid) 88%, transparent);
 	}
 
 	.search-input:focus,
 	.filter-select:focus {
 		outline: none;
-		border-color: color-mix(in srgb, var(--primary) 70%, var(--border-color));
-		box-shadow: 0 0 0 3px color-mix(in srgb, var(--primary) 18%, transparent);
-		background: var(--bg-surface);
+		border-color: color-mix(in srgb, var(--lamp-glow) 70%, var(--stone-edge));
+		box-shadow: 0 0 0 3px color-mix(in srgb, var(--lamp-glow) 18%, transparent);
+		background: var(--stone-warm);
 	}
 
 	.filter-select {
@@ -663,7 +663,7 @@
 		font-weight: 700;
 		letter-spacing: 0.06em;
 		text-transform: uppercase;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 	}
 
 	.sort-tabs {
@@ -674,10 +674,10 @@
 
 	.sort-tab {
 		padding: 8px 14px;
-		border: 1px solid var(--border-color);
+		border: 1px solid var(--stone-edge);
 		border-radius: 999px;
-		background: color-mix(in srgb, var(--bg-surface) 78%, var(--bg-deep));
-		color: var(--text-secondary);
+		background: color-mix(in srgb, var(--stone-warm) 78%, var(--night-deep));
+		color: var(--ink-mid);
 		font-size: 0.8rem;
 		font-weight: 650;
 		cursor: pointer;
@@ -690,14 +690,14 @@
 
 	.sort-tab:hover {
 		transform: translateY(-1px);
-		border-color: color-mix(in srgb, var(--primary) 45%, var(--border-color));
-		color: var(--text-primary);
+		border-color: color-mix(in srgb, var(--lamp-glow) 45%, var(--stone-edge));
+		color: var(--ink-bright);
 	}
 
 	.sort-tab.active {
-		border-color: color-mix(in srgb, var(--primary) 35%, transparent);
+		border-color: color-mix(in srgb, var(--lamp-glow) 35%, transparent);
 		background: var(--primary-subtle);
-		color: var(--primary);
+		color: var(--lamp-glow);
 	}
 
 	.questions-list {
@@ -712,12 +712,12 @@
 		gap: 18px;
 		align-items: start;
 		padding: 18px;
-		border: 1px solid var(--border-color);
+		border: 1px solid var(--stone-edge);
 		border-radius: 20px;
 		background: linear-gradient(
 			180deg,
-			color-mix(in srgb, var(--bg-surface) 86%, var(--bg-deep)) 0%,
-			var(--bg-deep) 100%
+			color-mix(in srgb, var(--stone-warm) 86%, var(--night-deep)) 0%,
+			var(--night-deep) 100%
 		);
 		transition:
 			transform 0.2s ease,
@@ -727,17 +727,17 @@
 
 	.question-item:hover {
 		transform: translateY(-2px);
-		border-color: color-mix(in srgb, var(--primary) 18%, var(--border-color));
+		border-color: color-mix(in srgb, var(--lamp-glow) 18%, var(--stone-edge));
 		box-shadow: var(--shadow-sm);
 	}
 
 	.question-item.flagged {
-		border-color: color-mix(in srgb, #f59e0b 45%, var(--border-color));
+		border-color: color-mix(in srgb, #f59e0b 45%, var(--stone-edge));
 		box-shadow: inset 3px 0 0 rgba(245, 158, 11, 0.7);
 	}
 
 	.question-item.removed {
-		border-color: color-mix(in srgb, #ef4444 45%, var(--border-color));
+		border-color: color-mix(in srgb, #ef4444 45%, var(--stone-edge));
 		box-shadow: inset 3px 0 0 rgba(239, 68, 68, 0.72);
 	}
 
@@ -761,7 +761,7 @@
 		font-size: 1rem;
 		line-height: 1.55;
 		font-weight: 650;
-		color: var(--text-primary);
+		color: var(--ink-bright);
 		word-break: break-word;
 	}
 
@@ -824,10 +824,10 @@
 		display: inline-flex;
 		align-items: center;
 		padding: 6px 10px;
-		border: 1px solid color-mix(in srgb, var(--primary) 22%, transparent);
+		border: 1px solid color-mix(in srgb, var(--lamp-glow) 22%, transparent);
 		border-radius: 999px;
-		background: color-mix(in srgb, var(--primary) 9%, transparent);
-		color: color-mix(in srgb, var(--primary) 82%, white);
+		background: color-mix(in srgb, var(--lamp-glow) 9%, transparent);
+		color: color-mix(in srgb, var(--lamp-glow) 82%, white);
 		font-size: 0.72rem;
 		font-weight: 650;
 	}
@@ -845,7 +845,7 @@
 		padding: 7px 10px;
 		border-radius: 999px;
 		background: rgba(255, 255, 255, 0.03);
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 		font-size: 0.78rem;
 		font-weight: 550;
 	}
@@ -891,19 +891,19 @@
 	}
 
 	.action-btn.view {
-		border: 1px solid var(--border-color);
+		border: 1px solid var(--stone-edge);
 		background: rgba(255, 255, 255, 0.04);
-		color: var(--text-primary);
+		color: var(--ink-bright);
 	}
 
 	.action-btn.view:hover {
-		border-color: color-mix(in srgb, var(--primary) 40%, var(--border-color));
-		color: var(--primary);
+		border-color: color-mix(in srgb, var(--lamp-glow) 40%, var(--stone-edge));
+		color: var(--lamp-glow);
 	}
 
 	.action-btn.details {
 		border: 1px solid transparent;
-		background: var(--primary);
+		background: var(--lamp-glow);
 		color: white;
 	}
 
@@ -919,12 +919,12 @@
 	.empty-state h3 {
 		margin: 0 0 8px;
 		font-size: 1.05rem;
-		color: var(--text-primary);
+		color: var(--ink-bright);
 	}
 
 	.empty-state p {
 		margin: 0;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 	}
 
 	@media (max-width: 900px) {

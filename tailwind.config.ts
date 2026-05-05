@@ -1,8 +1,9 @@
 // tailwind.config.ts
 import type { Config } from 'tailwindcss';
 
-const fontSans = ['"Space Grotesk"', 'system-ui', 'sans-serif'];
-const fontDisplay = ['"Rajdhani"', 'system-ui', 'sans-serif'];
+// Phase 2 (2026-05-04): Inter Variable handles every size + weight. Locked in design-system.md §6.
+const fontSans = ['"Inter Variable"', '"Inter"', 'system-ui', 'sans-serif'];
+const fontDisplay = ['"Inter Variable"', '"Inter"', 'system-ui', 'sans-serif'];
 const fontMono = ['"JetBrains Mono"', 'ui-monospace', 'monospace'];
 
 export default {
@@ -110,9 +111,8 @@ export default {
 				sm: 'var(--shadow-sm)',
 				md: 'var(--shadow-md)',
 				lg: 'var(--shadow-lg)',
-				xl: 'var(--shadow-xl)',
-				'glow-teal': '0 0 20px rgba(45, 212, 191, 0.3)',
-				'glow-rose': '0 0 20px rgba(251, 113, 133, 0.3)'
+				xl: 'var(--shadow-xl)'
+				// glow-teal / glow-rose removed 2026-05-04 — see design-system.md §5.
 			},
 			borderRadius: {
 				// Standardized radius scale. Kole's recipe: 10px for small components.

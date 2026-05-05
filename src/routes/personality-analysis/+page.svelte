@@ -1,49 +1,99 @@
 <!-- src/routes/personality-analysis/+page.svelte -->
+<!--
+  /personality-analysis index — Streetlamp Symposium V5.
+  Phase 5 page #1 of docs/design/2026-05-04-rollout-plan.md.
+
+  Visual ground truth: src/routes/+page.svelte (production homepage, Phase 4).
+  Spec: docs/design-system.md §4–§6, /design-preview/v5.
+
+  Server load (untouched): returns { people, featured, recentlyUpdated, totalPeople }.
+  V5 tokens (--lamp-*, --night-*, --stone-*, --ink-*, --data-*, --pool-*, --type-N-color)
+  live in src/scss/index.scss bridge blocks; this file references them via var(--…).
+-->
 <script lang="ts">
 	import type { PageData } from './$types';
 	import SEOHead from '$lib/components/SEOHead.svelte';
-	import ArrowRightIcon from '$lib/components/icons/arrowRightIcon.svelte';
+	import { Button, SectionKicker } from '$lib/components/atoms';
 	import EmailSignup from '$lib/components/molecules/Email-Signup.svelte';
 	import {
 		buildPersonalityAnalysisPath,
 		buildPersonalityImagePath,
 		formatPersonalityDisplayName
 	} from '$lib/utils/personalityAnalysis';
-	import {
-		PRIMARY_PERSONALITY_CATEGORY_SLUGS,
-		getPersonalityCategoryBySlug
-	} from '$lib/personalityCategories';
 
 	let { data }: { data: PageData } = $props();
 
-	function getRecencyLabel(lastmod: string | null): string | null {
-		if (!lastmod) return null;
+	// ------------------------------------------------------------------
+	// Type metadata — names + the V5 §03 primer "what they see first" reads.
+	// Kept in sync with the production homepage primer table.
+	// ------------------------------------------------------------------
+	type TypeMeta = { num: number; name: string; read: string; tagline: string };
+	const typeData: TypeMeta[] = [
+		{
+			num: 1,
+			name: 'Perfectionist',
+			read: "what's broken",
+			tagline: 'Principled, purposeful, self-controlled'
+		},
+		{
+			num: 2,
+			name: 'Helper',
+			read: 'what people need',
+			tagline: 'Generous, demonstrative, people-pleasing'
+		},
+		{
+			num: 3,
+			name: 'Achiever',
+			read: 'what wins',
+			tagline: 'Adaptable, excelling, driven'
+		},
+		{
+			num: 4,
+			name: 'Individualist',
+			read: "what's missing",
+			tagline: 'Expressive, dramatic, self-absorbed'
+		},
+		{
+			num: 5,
+			name: 'Investigator',
+			read: 'the system underneath',
+			tagline: 'Perceptive, innovative, secretive'
+		},
+		{
+			num: 6,
+			name: 'Loyalist',
+			read: 'the threat',
+			tagline: 'Engaging, responsible, anxious'
+		},
+		{
+			num: 7,
+			name: 'Enthusiast',
+			read: "what's next",
+			tagline: 'Spontaneous, versatile, scattered'
+		},
+		{
+			num: 8,
+			name: 'Challenger',
+			read: 'the power dynamic',
+			tagline: 'Self-confident, decisive, confrontational'
+		},
+		{
+			num: 9,
+			name: 'Peacemaker',
+			read: 'the harmony',
+			tagline: 'Receptive, reassuring, complacent'
+		}
+	];
 
-		const days = Math.floor((Date.now() - new Date(lastmod).getTime()) / 86400000);
-		if (days <= 3) return 'New';
-		if (days <= 7) return 'This week';
-		if (days <= 30) return 'This month';
-		return null;
-	}
-
-	const typeNames: Record<number, { name: string; tagline: string }> = {
-		1: { name: 'The Perfectionist', tagline: 'Principled, purposeful, self-controlled' },
-		2: { name: 'The Helper', tagline: 'Generous, demonstrative, people-pleasing' },
-		3: { name: 'The Achiever', tagline: 'Adaptable, excelling, driven' },
-		4: { name: 'The Individualist', tagline: 'Expressive, dramatic, self-absorbed' },
-		5: { name: 'The Investigator', tagline: 'Perceptive, innovative, secretive' },
-		6: { name: 'The Loyalist', tagline: 'Engaging, responsible, anxious' },
-		7: { name: 'The Enthusiast', tagline: 'Spontaneous, versatile, scattered' },
-		8: { name: 'The Challenger', tagline: 'Self-confident, decisive, confrontational' },
-		9: { name: 'The Peacemaker', tagline: 'Receptive, reassuring, complacent' }
-	};
-
-	const primaryCategories = PRIMARY_PERSONALITY_CATEGORY_SLUGS.map((slug) =>
-		getPersonalityCategoryBySlug(slug)
-	).filter((category): category is NonNullable<typeof category> => Boolean(category));
+	const typeNameByNum: Record<number, string> = Object.fromEntries(
+		typeData.map((t) => [t.num, `The ${t.name}`])
+	);
 
 	const totalPeople = $derived(data.totalPeople);
 
+	// ------------------------------------------------------------------
+	// SEO + structured data — preserved verbatim from the legacy file.
+	// ------------------------------------------------------------------
 	const structuredData = $derived({
 		'@context': 'https://schema.org',
 		'@graph': [
@@ -91,19 +141,43 @@
 					itemListElement: Array.from({ length: 9 }, (_, i) => ({
 						'@type': 'ListItem',
 						position: i + 1,
-						name: `Enneagram Type ${i + 1} (${typeNames[i + 1].name}) Personalities`,
+						name: `Enneagram Type ${i + 1} (${typeNameByNum[i + 1]}) Personalities`,
 						url: `https://9takes.com/personality-analysis/type/${i + 1}`,
-						description: typeNames[i + 1].tagline
+						description: typeData[i].tagline
 					}))
 				}
 			}
 		]
 	});
-</script>
 
-<svelte:head>
-	{@html `<script type="application/ld+json">${JSON.stringify(structuredData)}</script>`}
-</svelte:head>
+	// ------------------------------------------------------------------
+	// Helpers — file numbers + recency labels for the case-file cards.
+	// ------------------------------------------------------------------
+	function fileNumber(seed: string, index: number): string {
+		// Deterministic 4-digit dossier number — predictable per-card so the
+		// catalog feels real, not randomized. Slug-seeded so same person ⇒ same №.
+		let h = 0;
+		for (let i = 0; i < seed.length; i++) {
+			h = (h * 31 + seed.charCodeAt(i)) | 0;
+		}
+		return String((Math.abs(h) + index * 17 + 25) % 10000).padStart(4, '0');
+	}
+
+	function getRecencyLabel(lastmod: string | null, date: string | null): string | null {
+		const ref = lastmod ?? date;
+		if (!ref) return null;
+		const days = Math.floor((Date.now() - new Date(ref).getTime()) / 86400000);
+		if (days <= 3) return 'NEW';
+		if (days <= 7) return 'THIS WEEK';
+		if (days <= 30) return 'THIS MONTH';
+		return null;
+	}
+
+	// Filter people for a given type (data.people is already top-5-per-type).
+	function peopleForType(typeNum: number) {
+		return data.people.filter((p) => p.enneagram && parseInt(p.enneagram) === typeNum);
+	}
+</script>
 
 <SEOHead
 	title="Famous People Personality Analysis | Enneagram Character Studies | 9takes"
@@ -111,1116 +185,839 @@
 	canonical="https://9takes.com/personality-analysis"
 	twitterCardType="summary_large_image"
 	ogImage="https://9takes.com/personality-analysis-card.webp"
+	jsonLd={structuredData}
 	author="9takes"
 />
 
-<div class="page-wrapper">
-	<header class="index-hero">
-		<div class="index-badge">Personality Analysis</div>
-		<h1>See public figures through the patterns that drive them.</h1>
-		<p class="index-hero-copy">
-			Browse Enneagram analyses of celebrities, founders, artists, athletes, and public figures by
-			type or category.
-		</p>
-		<div class="index-hero-actions">
-			<a href="/personality-analysis/categories" class="index-action primary">
-				Browse Categories
-			</a>
-			<a href="#type-1" class="index-action">Jump to Enneagram Types</a>
-		</div>
-		<div class="index-tag-row" aria-label="Category Navigation">
-			{#each primaryCategories as category}
-				<a href="/personality-analysis/categories/{category.slug}" class="index-tag">
-					<span>{category.shortLabel}</span>
-				</a>
-			{/each}
-		</div>
-	</header>
+<div class="library-index">
+	<!-- =====================================================================
+	  §01 OBSERVATION — hero + statue + tagline + subtext
+	  ===================================================================== -->
+	<section class="hero">
+		<div class="grain" aria-hidden="true"></div>
+		<div class="hero-pool" aria-hidden="true"></div>
 
-	<nav class="index-link-band" aria-label="Type Navigation">
-		<div class="index-link-scroll">
-			{#each Array.from({ length: 9 }, (_, i) => i + 1) as typeNum}
-				<a href="#type-{typeNum}" class="index-link-pill">
-					<span class="index-link-code">{typeNum}</span>
-					<span>{typeNames[typeNum].name.replace('The ', '')}</span>
-				</a>
-			{/each}
-		</div>
-	</nav>
+		<div class="hero-inner">
+			<div class="hero-text">
+				<div class="hero-eyebrow">
+					<SectionKicker num="01" label="OBSERVATION" />
+				</div>
 
-	<main class="main-content">
-		<!-- Featured Section -->
-		{#if data.featured.length > 0}
-			<section class="featured-section">
-				<div class="section-header featured-header">
-					<div class="type-badge featured-badge-icon">
-						<span class="type-num">F</span>
-					</div>
-					<div class="section-info">
-						<h2>Featured</h2>
-						<p class="type-tagline">Most recently updated analyses</p>
+				<h1 class="display-xl">See public figures through the patterns that drive them.</h1>
+
+				<div class="scale-marker" aria-hidden="true">
+					<span class="tick"></span>
+					<span class="tick"></span>
+					<span class="tick"></span>
+					<span class="tick"></span>
+					<span class="tick"></span>
+					<span class="tick tick--major"></span>
+					<span class="tick"></span>
+					<span class="tick"></span>
+					<span class="tick"></span>
+					<span class="tick"></span>
+					<span class="tick"></span>
+				</div>
+
+				<p class="mono coords">
+					LAT 37.9755° N · LONG 23.7348° E · ATHENS · {totalPeople}+ READS
+				</p>
+
+				<p class="hero-subhead hero-subhead-line-1">
+					We read public figures through the Enneagram &mdash; the framework that maps 9 emotional
+					patterns driving behavior.
+				</p>
+				<p class="hero-subhead hero-subhead-line-2">
+					Each breakdown goes beyond surface biography. We map their core fear, core desire, stress
+					line, growth line &mdash; and the moments where those patterns showed up.
+				</p>
+			</div>
+
+			<div class="hero-subject" aria-hidden="true">
+				<div class="subject-frame">
+					<img src="/greek_pantheon.webp" alt="" class="statue" loading="eager" decoding="async" />
+					<div class="subject-vignette"></div>
+					<div class="subject-mono">
+						<span class="mono">9TAKES · CASE FILES · ENNEAGRAM READS</span>
 					</div>
 				</div>
-				<div class="featured-grid">
-					{#each data.featured as person (person.slug)}
-						{@const label = getRecencyLabel(person.lastmod || person.date)}
-						<a
-							href={buildPersonalityAnalysisPath(person.slug)}
-							class="featured-person-card"
-							aria-label="Read analysis of {formatPersonalityDisplayName(person.slug)}"
-						>
-							<div class="featured-person-image">
+			</div>
+		</div>
+	</section>
+
+	<!-- =====================================================================
+	  §02 FEATURED — two large case-file cards
+	  ===================================================================== -->
+	{#if data.featured.length > 0}
+		<section class="featured">
+			<header class="section-head">
+				<SectionKicker class="section-tag" num="02" label="FEATURED" />
+				<h2 class="display-md">Featured.</h2>
+				<p class="section-sub">Most recently updated. Worth your full attention.</p>
+			</header>
+
+			<div class="featured-grid">
+				{#each data.featured as person, i (person.slug)}
+					{@const typeNum = parseInt(person.enneagram ?? '0')}
+					{@const typeMeta = typeData[typeNum - 1]}
+					{@const displayName = formatPersonalityDisplayName(person.slug)}
+					{@const label = getRecencyLabel(person.lastmod, person.date)}
+					<a
+						href={buildPersonalityAnalysisPath(person.slug)}
+						class="case-card case-card--featured"
+						style="--type-stripe: var(--type-{typeNum}-color);"
+						aria-label="Read analysis of {displayName}"
+					>
+						<div class="case-image-wrap case-image-wrap--featured">
+							{#if person.enneagram && person.slug}
 								<img
 									src={buildPersonalityImagePath(person.enneagram, person.slug)}
-									alt={formatPersonalityDisplayName(person.slug)}
-									loading="eager"
-									width="400"
-									height="533"
+									alt={displayName}
+									class="case-image"
+									loading={i < 2 ? 'eager' : 'lazy'}
+									fetchpriority={i < 2 ? 'high' : 'low'}
+									width="640"
+									height="480"
+									decoding="async"
 								/>
-							</div>
-							<div class="featured-person-overlay"></div>
-							<div class="featured-person-info">
-								<span class="featured-label">Featured</span>
-								{#if label}
-									<span class="recency-badge" class:new={label === 'New'}>{label}</span>
-								{/if}
-								<span class="featured-person-name">{formatPersonalityDisplayName(person.slug)}</span
-								>
-								<span class="featured-person-type">
-									Type {person.enneagram}: {person.enneagram
-										? typeNames[parseInt(person.enneagram)]?.name || ''
-										: ''}
-								</span>
-							</div>
-						</a>
-					{/each}
-				</div>
-			</section>
-		{/if}
+							{:else}
+								<div class="case-image-stub" aria-hidden="true">
+									<span class="mono">[PORTRAIT]</span>
+								</div>
+							{/if}
+						</div>
+						<div class="case-card-body">
+							<span class="mono case-id">
+								№ {fileNumber(person.slug, i)} · TYPE {typeNum} · {typeMeta?.name?.toUpperCase() ??
+									'TYPE'}
+							</span>
+							<h3 class="case-name case-name--featured">{displayName}</h3>
+							<p class="case-subtitle">
+								The {typeMeta?.name ?? ''} &mdash; leads with {typeMeta?.read ?? ''}.
+							</p>
+							{#if label}
+								<span class="mono case-recency">{label}</span>
+							{/if}
+						</div>
+					</a>
+				{/each}
+			</div>
+		</section>
+	{/if}
 
-		<!-- Recently Updated Section -->
-		{#if data.recentlyUpdated.length > 0}
-			<section class="recent-section">
-				<div class="section-header recent-header">
-					<div class="type-badge recent-badge-icon">
-						<span class="type-num">R</span>
-					</div>
-					<div class="section-info">
-						<h2>Recently Updated</h2>
-						<p class="type-tagline">Fresh insights and revisions</p>
-					</div>
-				</div>
-				<div class="recent-people-grid">
-					{#each data.recentlyUpdated as person (person.slug)}
-						{@const label = getRecencyLabel(person.lastmod || person.date)}
-						<a
-							href={buildPersonalityAnalysisPath(person.slug)}
-							class="recent-person-card"
-							aria-label="Read analysis of {formatPersonalityDisplayName(person.slug)}"
-						>
-							<div class="recent-person-image">
+	<!-- =====================================================================
+	  §03 RECENTLY UPDATED — 4 case-file cards
+	  ===================================================================== -->
+	{#if data.recentlyUpdated.length > 0}
+		<section class="recent">
+			<header class="section-head">
+				<SectionKicker class="section-tag" num="03" label="RECENTLY UPDATED" />
+				<h2 class="display-md">Recently updated.</h2>
+				<p class="section-sub">Fresh insights, latest revisions.</p>
+			</header>
+
+			<div class="case-grid case-grid--four">
+				{#each data.recentlyUpdated as person, i (person.slug)}
+					{@const typeNum = parseInt(person.enneagram ?? '0')}
+					{@const typeMeta = typeData[typeNum - 1]}
+					{@const displayName = formatPersonalityDisplayName(person.slug)}
+					{@const label = getRecencyLabel(person.lastmod, person.date)}
+					<a
+						href={buildPersonalityAnalysisPath(person.slug)}
+						class="case-card"
+						style="--type-stripe: var(--type-{typeNum}-color);"
+						aria-label="Read analysis of {displayName}"
+					>
+						<div class="case-image-wrap">
+							{#if person.enneagram && person.slug}
 								<img
 									src={buildPersonalityImagePath(person.enneagram, person.slug, 'thumbnail')}
-									alt={formatPersonalityDisplayName(person.slug)}
-									loading="lazy"
-									width="200"
-									height="200"
+									alt={displayName}
+									class="case-image"
+									loading={i < 4 ? 'eager' : 'lazy'}
+									width="320"
+									height="240"
+									decoding="async"
 								/>
-							</div>
-							<div class="recent-person-overlay"></div>
-							<div class="recent-person-info">
-								{#if label}
-									<span class="recency-badge" class:new={label === 'New'}>{label}</span>
-								{/if}
-								<span class="recent-person-name">{formatPersonalityDisplayName(person.slug)}</span>
-								<span class="recent-person-type">
-									Type {person.enneagram}
-								</span>
-							</div>
-						</a>
-					{/each}
-				</div>
-			</section>
-		{/if}
+							{:else}
+								<div class="case-image-stub" aria-hidden="true">
+									<span class="mono">[PORTRAIT]</span>
+								</div>
+							{/if}
+						</div>
+						<div class="case-card-body">
+							<span class="mono case-id">
+								№ {fileNumber(person.slug, i)} · TYPE {typeNum}
+							</span>
+							<h3 class="case-name">{displayName}</h3>
+							<p class="case-subtitle">
+								The {typeMeta?.name ?? ''}.
+							</p>
+							{#if label}
+								<span class="mono case-recency">{label}</span>
+							{/if}
+						</div>
+					</a>
+				{/each}
+			</div>
+		</section>
+	{/if}
 
-		<!-- Type Sections -->
-		{#each Array.from({ length: 9 }, (_, i) => i + 1) as typeNum}
-			{@const typePeople = data.people.filter(
-				(p) => p.enneagram && parseInt(p.enneagram) === typeNum
-			)}
+	<!-- =====================================================================
+	  §04 BY TYPE — 9 sub-sections, one per Enneagram type
+	  ===================================================================== -->
+	<section class="by-type">
+		<header class="section-head">
+			<SectionKicker class="section-tag" num="04" label="BY TYPE" />
+			<h2 class="display-md">By type.</h2>
+			<p class="section-sub">
+				Each type leads with a different emotional read of the same situation.
+			</p>
+		</header>
+
+		{#each typeData as t}
+			{@const typePeople = peopleForType(t.num)}
 			{#if typePeople.length > 0}
-				<section class="type-section" id="type-{typeNum}">
-					<div class="section-header">
-						<div class="type-badge">
-							<span class="type-num">{typeNum}</span>
-						</div>
-						<div class="section-info">
-							<h2>Type {typeNum}: {typeNames[typeNum].name}</h2>
-							<p class="type-tagline">{typeNames[typeNum].tagline}</p>
-						</div>
-					</div>
+				<div class="type-block" id="type-{t.num}" style="--type-stripe: var(--type-{t.num}-color);">
+					<header class="type-block-head">
+						<SectionKicker
+							num={String(t.num).padStart(2, '0')}
+							label={`TYPE ${t.num} · THE ${t.name.toUpperCase()}`}
+							class="type-block-kicker"
+						/>
+						<h3 class="display-sm">Type {t.num} &middot; The {t.name}.</h3>
+						<p class="type-block-sub">
+							Leads with <em>{t.read}</em>. {t.tagline}.
+						</p>
+					</header>
 
-					<div class="people-grid">
-						{#each typePeople.slice(0, 5) as person}
+					<div class="case-grid case-grid--four">
+						{#each typePeople.slice(0, 5) as person, i (person.slug)}
+							{@const displayName = formatPersonalityDisplayName(person.slug)}
+							{@const label = getRecencyLabel(person.lastmod, person.date)}
 							<a
 								href={buildPersonalityAnalysisPath(person.slug)}
-								class="person-card"
-								aria-label="Read analysis of {formatPersonalityDisplayName(person.slug)}"
+								class="case-card"
+								style="--type-stripe: var(--type-{t.num}-color);"
+								aria-label="Read analysis of {displayName}"
 							>
-								<div class="person-image">
-									<img
-										src={buildPersonalityImagePath(person.enneagram, person.slug, 'thumbnail')}
-										alt={formatPersonalityDisplayName(person.slug)}
-										loading="lazy"
-										width="200"
-										height="200"
-									/>
+								<div class="case-image-wrap">
+									{#if person.enneagram && person.slug}
+										<img
+											src={buildPersonalityImagePath(person.enneagram, person.slug, 'thumbnail')}
+											alt={displayName}
+											class="case-image"
+											loading="lazy"
+											width="320"
+											height="240"
+											decoding="async"
+										/>
+									{:else}
+										<div class="case-image-stub" aria-hidden="true">
+											<span class="mono">[PORTRAIT]</span>
+										</div>
+									{/if}
 								</div>
-								<div class="person-info">
-									<span class="person-name">{formatPersonalityDisplayName(person.slug)}</span>
+								<div class="case-card-body">
+									<span class="mono case-id">
+										№ {fileNumber(person.slug, i)} · TYPE {t.num}
+									</span>
+									<h3 class="case-name">{displayName}</h3>
+									<p class="case-subtitle">The {t.name}.</p>
+									{#if label}
+										<span class="mono case-recency">{label}</span>
+									{/if}
 								</div>
 							</a>
 						{/each}
-						<a
-							href="/personality-analysis/type/{typeNum}"
-							class="person-card view-all-card"
-							aria-label="View all Enneagram Type {typeNum} personalities"
-						>
-							<div class="view-all-content">
-								<span class="view-all-text">View all Type {typeNum}s</span>
-								<ArrowRightIcon iconStyle={''} height={'1.25rem'} fill={'currentColor'} />
-							</div>
-						</a>
 					</div>
-				</section>
+
+					<div class="type-block-cta">
+						<Button size="sm" variant="ghost" href={`/personality-analysis/type/${t.num}`}>
+							View all Type {t.num} reads →
+						</Button>
+					</div>
+				</div>
 			{/if}
 		{/each}
+	</section>
 
-		<!-- Email Signup -->
-		{#if !data?.user}
-			<section class="signup-section">
-				<EmailSignup />
-			</section>
-		{/if}
-	</main>
+	<!-- =====================================================================
+	  §05 EMAIL SIGNUP — quiet V5-styled wrapper around the existing form
+	  (preserves the wired /email?/submit action)
+	  ===================================================================== -->
+	{#if !data?.user}
+		<section class="signup">
+			<div class="signup-inner">
+				<SectionKicker class="section-tag" num="05" label="STAY IN THE LIBRARY" />
+				<h2 class="display-md">New reads, in your inbox.</h2>
+				<p class="section-sub">
+					Fresh personality breakdowns, community questions, and ideas worth stealing &mdash; sent
+					when there&rsquo;s something worth reading.
+				</p>
+				<div class="signup-form">
+					<EmailSignup />
+				</div>
+			</div>
+		</section>
+	{/if}
 </div>
 
 <style lang="scss">
-	/* 9takes Warm Tech Theme - Personality Analysis */
-	.page-wrapper {
+	/* =========================================================
+	  /personality-analysis — Streetlamp Symposium index page.
+	  Bridge tokens (--lamp-*, --night-*, --stone-*, --ink-*, --data-*,
+	  --pool-rgb, --pool-deep-rgb, --type-N-color) ship globally in
+	  src/scss/index.scss. Local-only overrides scoped to .library-index.
+	  ========================================================= */
+	.library-index {
+		--pool-alpha-strong: 0.28;
+		--pool-alpha-mid: 0.18;
+		--pool-alpha-soft: 0.08;
+		--statue-blend: screen;
+		--grain-opacity: 0.05;
+
+		background: var(--night-deep);
+		color: var(--ink-bright);
+		font-family: var(--font-display);
 		min-height: 100vh;
-		background: linear-gradient(180deg, var(--bg-base) 0%, var(--bg-deep) 100%);
-		--type-chip-bg: linear-gradient(
-			180deg,
-			color-mix(in srgb, var(--bg-surface) 94%, white 6%) 0%,
-			color-mix(in srgb, var(--bg-surface) 84%, var(--bg-base) 16%) 100%
-		);
-		--type-chip-border: color-mix(in srgb, var(--primary-dark) 24%, var(--border-color));
-		--type-chip-border-strong: color-mix(in srgb, var(--primary) 34%, var(--glass-border));
-		--type-chip-text: var(--primary-dark);
-		--type-chip-highlight: color-mix(in srgb, var(--primary-lightest) 18%, transparent);
-		--type-chip-shadow: color-mix(in srgb, var(--primary) 18%, transparent);
-		--type-chip-shadow-strong: color-mix(in srgb, var(--primary) 28%, transparent);
-	}
-
-	/* Hero Section */
-	.hero {
-		max-width: 1200px;
-		margin: 0 auto;
-		padding: 2.5rem 1.5rem 1.5rem;
-		text-align: center;
 		position: relative;
-	}
+		overflow: hidden;
 
-	.hero::before {
-		content: '';
-		position: absolute;
-		top: 0;
-		left: 50%;
-		transform: translateX(-50%);
-		width: 400px;
-		height: 200px;
-		background: radial-gradient(ellipse, rgba(45, 212, 191, 0.12) 0%, transparent 70%);
-		pointer-events: none;
-	}
-
-	.hero h1 {
-		font-size: 2rem;
-		font-weight: 700;
-		line-height: 1.2;
-		margin: 0;
-		letter-spacing: 0;
-		position: relative;
-		background: linear-gradient(135deg, var(--text-primary) 0%, var(--accent-light) 100%);
-		-webkit-background-clip: text;
-		-webkit-text-fill-color: transparent;
-		background-clip: text;
-	}
-
-	.hero-copy {
-		max-width: 640px;
-		margin: 0.85rem auto 0;
-		color: var(--text-secondary);
-		font-size: 0.98rem;
-		line-height: 1.7;
-	}
-
-	.hero-actions {
-		display: flex;
-		align-items: center;
-		justify-content: center;
-		flex-wrap: wrap;
-		gap: 0.75rem;
-		margin-top: 1.1rem;
-	}
-
-	.hero-link {
-		display: inline-flex;
-		align-items: center;
-		justify-content: center;
-		padding: 0.65rem 1rem;
-		border-radius: 8px;
-		border: 1px solid var(--glass-border);
-		background: var(--glass-color);
-		color: var(--text-secondary);
-		font-size: 0.85rem;
-		font-weight: 600;
-		text-decoration: none;
-		transition:
-			transform 0.2s ease,
-			border-color 0.2s ease,
-			color 0.2s ease;
-
-		&:hover {
-			transform: translateY(-1px);
-			color: var(--text-primary);
-			border-color: rgba(45, 212, 191, 0.45);
+		:global(:root.light) & {
+			--pool-alpha-strong: 0.14;
+			--pool-alpha-mid: 0.08;
+			--pool-alpha-soft: 0.04;
+			--statue-blend: normal;
+			--grain-opacity: 0.025;
 		}
 	}
 
-	.hero-link-primary {
-		background: linear-gradient(135deg, rgba(45, 212, 191, 0.24) 0%, var(--accent-subtle) 100%);
-		color: var(--accent-light);
-	}
-
-	.category-pills {
-		display: flex;
-		flex-wrap: wrap;
-		justify-content: center;
-		gap: 0.5rem;
-		margin-top: 1rem;
-	}
-
-	.category-pill {
-		display: inline-flex;
-		align-items: center;
-		padding: 0.45rem 0.75rem;
-		border-radius: 8px;
-		border: 1px solid var(--glass-border);
-		background: var(--glass-color);
-		color: var(--text-secondary);
-		font-size: 0.78rem;
-		text-decoration: none;
-		transition: all 0.2s ease;
-
-		&:hover {
-			color: var(--accent-light);
-			border-color: rgba(45, 212, 191, 0.3);
-			background: rgba(45, 212, 191, 0.08);
-		}
-	}
-
-	/* Quick Navigation */
-	.quick-nav {
-		background: var(--glass-color);
-		backdrop-filter: blur(12px);
-		border-bottom: 1px solid var(--glass-border);
-		padding: 0.75rem 0;
-		margin-bottom: 1rem;
-	}
-
-	.nav-scroll {
-		max-width: 1200px;
-		margin: 0 auto;
-		display: flex;
-		gap: 0.5rem;
-		overflow-x: auto;
-		padding: 0.5rem 1.5rem;
-		scrollbar-width: none;
-		justify-content: center;
-		flex-wrap: wrap;
-
-		&::-webkit-scrollbar {
-			display: none;
-		}
-
-		@media (max-width: 640px) {
-			flex-wrap: nowrap;
-			justify-content: flex-start;
-			mask-image: linear-gradient(
-				to right,
-				transparent,
-				black 1.5rem,
-				black calc(100% - 1.5rem),
-				transparent
-			);
-			-webkit-mask-image: linear-gradient(
-				to right,
-				transparent,
-				black 1.5rem,
-				black calc(100% - 1.5rem),
-				transparent
-			);
-		}
-	}
-
-	.nav-pill {
-		display: flex;
-		align-items: center;
-		gap: 0.5rem;
-		padding: 0.5rem 1rem;
-		background: var(--glass-color);
-		border-radius: 0.5rem;
-		font-size: 0.8125rem;
+	/* ---------- shared utilities ---------- */
+	.library-index :global(.mono) {
+		font-family: var(--font-mono);
+		font-size: 12px;
 		font-weight: 500;
-		color: var(--text-secondary);
-		white-space: nowrap;
-		transition: all 0.2s ease;
+		letter-spacing: 0.08em;
+		text-transform: uppercase;
+		color: var(--ink-dim);
+	}
+
+	.display-xl {
+		font-family: var(--font-display);
+		font-weight: 800;
+		font-size: clamp(36px, 6.4vw, 64px);
+		line-height: 1.04;
+		letter-spacing: -0.04em;
+		color: var(--ink-bright);
+		margin: 0;
+	}
+
+	.display-md {
+		font-family: var(--font-display);
+		font-weight: 700;
+		font-size: clamp(28px, 4vw, 40px);
+		line-height: 1.1;
+		letter-spacing: -0.02em;
+		color: var(--ink-bright);
+		margin: 0;
+	}
+
+	.display-sm {
+		font-family: var(--font-display);
+		font-weight: 700;
+		font-size: clamp(22px, 2.6vw, 28px);
+		line-height: 1.18;
+		letter-spacing: -0.015em;
+		color: var(--ink-bright);
+		margin: 0;
+	}
+
+	.library-index :global(.section-tag) {
+		display: inline-block;
+		margin-bottom: 14px;
+		color: var(--lamp-glow);
+	}
+
+	.library-index :global(p),
+	.library-index :global(h1),
+	.library-index :global(h2),
+	.library-index :global(h3) {
+		margin: 0;
+	}
+
+	.library-index :global(a) {
+		color: inherit;
 		text-decoration: none;
-		border: 1px solid var(--glass-border);
-		flex-shrink: 0;
+	}
 
-		&:hover {
-			background: color-mix(in srgb, var(--primary) 12%, var(--glass-color));
-			color: var(--text-primary);
-			border-color: var(--type-chip-border-strong);
-			transform: translateY(-1px);
+	.section-head {
+		max-width: 820px;
+		margin: 0 auto 40px;
+		text-align: center;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		gap: 12px;
+	}
 
-			.type-number {
-				background: color-mix(in srgb, var(--primary) 18%, var(--bg-surface));
-				border-color: var(--type-chip-border-strong);
-				box-shadow:
-					0 10px 18px var(--type-chip-shadow-strong),
-					inset 0 1px 0 var(--type-chip-highlight);
+	.section-sub {
+		font-family: var(--font-display);
+		font-size: 17px;
+		line-height: 1.55;
+		color: var(--ink-mid);
+		max-width: 640px;
+	}
+
+	/* ---------- subtle paper grain (hero only) ---------- */
+	.grain {
+		position: absolute;
+		inset: 0;
+		pointer-events: none;
+		opacity: var(--grain-opacity);
+		mix-blend-mode: overlay;
+		z-index: 1;
+		background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='240' height='240'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='2' stitchTiles='stitch'/><feColorMatrix values='0 0 0 0 0.95 0 0 0 0 0.85 0 0 0 0 0.6 0 0 0 0.7 0'/></filter><rect width='100%' height='100%' filter='url(%23n)'/></svg>");
+	}
+
+	/* =========================================================
+	  §01 HERO
+	  ========================================================= */
+	.hero {
+		position: relative;
+		padding: 96px 48px 72px;
+		background: var(--night-deep);
+		overflow: hidden;
+
+		@media (max-width: 768px) {
+			padding: 64px 20px 56px;
+		}
+	}
+
+	.hero-pool {
+		position: absolute;
+		inset: 0;
+		pointer-events: none;
+		background:
+			radial-gradient(
+				ellipse 60% 55% at 18% 8%,
+				rgba(var(--pool-rgb), var(--pool-alpha-strong)) 0%,
+				rgba(var(--pool-rgb), var(--pool-alpha-soft)) 30%,
+				transparent 60%
+			),
+			radial-gradient(
+				ellipse 90% 70% at 22% 12%,
+				rgba(var(--pool-deep-rgb), var(--pool-alpha-mid)) 0%,
+				transparent 55%
+			);
+		z-index: 0;
+	}
+
+	.hero-inner {
+		position: relative;
+		z-index: 2;
+		max-width: 1280px;
+		margin: 0 auto;
+		display: grid;
+		grid-template-columns: 1.15fr 0.85fr;
+		gap: 56px;
+		align-items: center;
+
+		@media (max-width: 968px) {
+			grid-template-columns: 1fr;
+			gap: 24px;
+		}
+	}
+
+	.hero-text {
+		max-width: 720px;
+	}
+
+	.hero-eyebrow {
+		margin-bottom: 22px;
+	}
+
+	.scale-marker {
+		display: flex;
+		align-items: flex-end;
+		gap: 6px;
+		height: 18px;
+		margin: 24px 0 14px;
+		opacity: 0.7;
+
+		.tick {
+			width: 1px;
+			height: 8px;
+			background: var(--stone-edge);
+
+			&--major {
+				height: 16px;
+				background: var(--lamp-glow);
+				width: 1.5px;
 			}
 		}
+	}
 
-		&:active {
-			transform: scale(0.98);
+	.coords {
+		color: var(--ink-dim);
+		margin-bottom: 28px;
+	}
+
+	.hero-subhead {
+		font-family: var(--font-display);
+		font-size: 18px;
+		line-height: 1.55;
+		color: var(--ink-mid);
+		max-width: 640px;
+		font-weight: 400;
+
+		@media (max-width: 540px) {
+			font-size: 16px;
 		}
 	}
 
-	.type-number {
-		display: flex;
-		align-items: center;
-		justify-content: center;
-		width: 1.5rem;
-		height: 1.5rem;
-		background: color-mix(in srgb, var(--primary) 12%, var(--bg-surface));
-		color: var(--type-chip-text);
-		border: 1px solid var(--type-chip-border);
-		border-radius: 0.45rem;
-		font-size: 0.75rem;
-		font-weight: 700;
-		box-shadow: inset 0 1px 0 var(--type-chip-highlight);
-		transition: all 0.2s ease;
+	.hero-subhead-line-1 {
+		margin-bottom: 10px;
 	}
 
-	.type-name {
-		letter-spacing: 0;
+	.hero-subject {
+		position: relative;
+
+		@media (max-width: 968px) {
+			display: none;
+		}
 	}
 
-	/* Main Content */
-	.main-content {
-		max-width: 1200px;
+	.subject-frame {
+		position: relative;
+		aspect-ratio: 4 / 5;
+		max-height: 460px;
+		margin-left: auto;
+		overflow: hidden;
+	}
+
+	.statue {
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+		object-position: center 30%;
+		filter: contrast(1.18) brightness(1.04) saturate(0.88);
+		mix-blend-mode: var(--statue-blend);
+	}
+
+	:global(:root.light) .library-index .statue {
+		filter: contrast(1.05) brightness(1) saturate(1);
+	}
+
+	.subject-vignette {
+		position: absolute;
+		inset: 0;
+		pointer-events: none;
+		background:
+			radial-gradient(ellipse at 25% 25%, rgba(var(--pool-rgb), 0.22) 0%, transparent 55%),
+			linear-gradient(135deg, transparent 35%, rgba(10, 8, 7, 0.65) 100%),
+			linear-gradient(180deg, transparent 60%, rgba(10, 8, 7, 0.85) 100%);
+	}
+
+	:global(:root.light) .library-index .subject-vignette {
+		background:
+			radial-gradient(ellipse at 25% 25%, rgba(var(--pool-rgb), 0.08) 0%, transparent 55%),
+			linear-gradient(135deg, transparent 60%, rgba(180, 83, 9, 0.06) 100%);
+	}
+
+	.subject-mono {
+		position: absolute;
+		left: 12px;
+		bottom: 12px;
+		color: var(--ink-mid);
+
+		.mono {
+			color: var(--ink-mid);
+		}
+	}
+
+	/* =========================================================
+	  Section blocks — alternating night-deep / night-mid rhythm
+	  ========================================================= */
+	.featured,
+	.by-type,
+	.signup {
+		padding: 96px 48px;
+		background: var(--night-deep);
+		border-top: 1px solid var(--stone-edge);
+
+		@media (max-width: 768px) {
+			padding: 64px 20px;
+		}
+	}
+
+	.recent {
+		padding: 96px 48px;
+		background: var(--night-mid);
+		border-top: 1px solid var(--stone-edge);
+
+		@media (max-width: 768px) {
+			padding: 64px 20px;
+		}
+	}
+
+	/* =========================================================
+	  Case-file card grid (shared between §02, §03, §04)
+	  ========================================================= */
+	.case-grid {
+		max-width: 1280px;
 		margin: 0 auto;
-		padding: 1.5rem 1.5rem 4rem;
+		display: grid;
+		gap: 22px;
 	}
 
-	/* Type Sections */
-	.type-section {
-		margin-bottom: 3.5rem;
-		scroll-margin-top: 80px;
+	.case-grid--four {
+		grid-template-columns: repeat(4, 1fr);
+
+		@media (max-width: 1024px) {
+			grid-template-columns: repeat(2, 1fr);
+		}
+
+		@media (max-width: 480px) {
+			grid-template-columns: 1fr;
+		}
 	}
 
-	.section-header {
+	.case-card {
+		--type-stripe: var(--lamp-glow);
+		background: var(--stone-warm);
+		border: 1px solid var(--stone-edge);
+		border-radius: 16px;
+		overflow: hidden;
 		display: flex;
-		align-items: center;
-		gap: 1rem;
-		margin-bottom: 1.25rem;
-		padding-bottom: 0.75rem;
-		border-bottom: 1px solid var(--border-color);
-		flex-wrap: wrap;
+		flex-direction: column;
+		transition:
+			background 0.2s ease,
+			border-color 0.2s ease,
+			transform 0.2s ease;
+
+		&:hover {
+			background: var(--stone-mid);
+			border-color: var(--type-stripe);
+			transform: translateY(-2px);
+		}
 	}
 
-	.type-badge {
+	.case-image-wrap {
+		position: relative;
+		border-bottom: 1px solid var(--stone-edge);
+		border-top: 3px solid var(--type-stripe);
+	}
+
+	.case-image {
+		display: block;
+		width: 100%;
+		aspect-ratio: 4 / 3;
+		object-fit: cover;
+		object-position: center 25%;
+		filter: contrast(1.05) brightness(0.96) saturate(0.92);
+	}
+
+	:global(:root.light) .library-index .case-image {
+		filter: contrast(1.02) brightness(1) saturate(0.96);
+	}
+
+	.case-image-stub {
+		aspect-ratio: 4 / 3;
+		background: var(--stone-mid);
+		background-image: repeating-linear-gradient(
+			45deg,
+			transparent 0,
+			transparent 14px,
+			rgba(var(--pool-rgb), 0.04) 14px,
+			rgba(var(--pool-rgb), 0.04) 15px
+		);
 		display: flex;
 		align-items: center;
 		justify-content: center;
-		width: 2.75rem;
-		height: 2.75rem;
-		background: var(--type-chip-bg);
-		border: 1px solid var(--type-chip-border-strong);
-		border-radius: 8px;
-		flex-shrink: 0;
-		box-shadow:
-			0 12px 24px var(--type-chip-shadow),
-			inset 0 1px 0 var(--type-chip-highlight);
+
+		.mono {
+			color: var(--ink-dim);
+			font-size: 11px;
+		}
+	}
+
+	.case-card-body {
+		padding: 18px 20px 22px;
+		display: flex;
+		flex-direction: column;
+		gap: 8px;
+		flex: 1;
+	}
+
+	.case-id {
+		color: var(--type-stripe);
+		font-size: 10.5px;
+	}
+
+	.case-name {
+		font-family: var(--font-display);
+		font-weight: 700;
+		font-size: 22px;
+		line-height: 1.18;
+		color: var(--ink-bright);
+		letter-spacing: -0.02em;
+	}
+
+	.case-subtitle {
+		font-family: var(--font-display);
+		font-size: 14px;
+		line-height: 1.5;
+		color: var(--ink-mid);
+	}
+
+	.case-recency {
+		color: var(--lamp-glow);
+		font-size: 10.5px;
+		margin-top: 4px;
+	}
+
+	/* =========================================================
+	  §02 FEATURED — bigger cards, side-by-side
+	  ========================================================= */
+	.featured-grid {
+		max-width: 1280px;
+		margin: 0 auto;
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		gap: 28px;
+
+		@media (max-width: 768px) {
+			grid-template-columns: 1fr;
+			gap: 22px;
+		}
+	}
+
+	.case-card--featured {
+		.case-image-wrap--featured .case-image {
+			aspect-ratio: 16 / 11;
+
+			@media (max-width: 540px) {
+				aspect-ratio: 4 / 3;
+			}
+		}
+	}
+
+	.case-name--featured {
+		font-size: clamp(26px, 2.6vw, 32px);
+		line-height: 1.12;
+	}
+
+	/* =========================================================
+	  §04 BY TYPE — per-type sub-blocks
+	  ========================================================= */
+	.by-type {
+		.section-head {
+			margin-bottom: 56px;
+		}
+	}
+
+	.type-block {
+		--type-stripe: var(--lamp-glow);
+		max-width: 1280px;
+		margin: 0 auto 72px;
+		scroll-margin-top: 72px;
+
+		&:last-child {
+			margin-bottom: 0;
+		}
+
+		@media (max-width: 768px) {
+			margin-bottom: 56px;
+		}
+	}
+
+	.type-block-head {
+		max-width: 720px;
+		margin: 0 auto 28px;
+		text-align: center;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		gap: 10px;
+		padding-bottom: 18px;
+		border-bottom: 1px solid var(--stone-edge);
 		position: relative;
 
 		&::after {
 			content: '';
 			position: absolute;
-			inset: 0.3rem;
-			border-radius: 0.45rem;
-			border: 1px solid color-mix(in srgb, var(--primary) 10%, transparent);
-			pointer-events: none;
-		}
-	}
-
-	.type-num {
-		font-size: 1.375rem;
-		font-weight: 700;
-		color: var(--type-chip-text);
-	}
-
-	.section-info {
-		flex: 1;
-		min-width: 200px;
-
-		h2 {
-			font-size: 1.25rem;
-			font-weight: 600;
-			color: var(--text-primary);
-			margin: 0;
-			line-height: 1.3;
-		}
-	}
-
-	.type-tagline {
-		font-size: 0.8125rem;
-		color: var(--text-tertiary);
-		margin: 0.125rem 0 0;
-	}
-
-	/* People Grid */
-	.people-grid {
-		display: grid;
-		grid-template-columns: repeat(6, 1fr);
-		gap: 1rem;
-	}
-
-	/* Person Cards */
-	.person-card {
-		position: relative;
-		aspect-ratio: 1;
-		border-radius: 8px;
-		overflow: hidden;
-		background: var(--bg-surface);
-		text-decoration: none;
-		transition: all 0.25s ease;
-		border: 1px solid var(--border-color);
-		box-shadow: var(--shadow-sm);
-		padding: 0.45rem;
-
-		&::before {
-			content: '';
-			position: absolute;
-			inset: 0.45rem;
-			border-radius: 8px;
-			background: linear-gradient(135deg, rgba(45, 212, 191, 0.08) 0%, transparent 50%);
-			opacity: 0;
-			transition: opacity 0.25s ease;
-			z-index: 1;
-		}
-
-		&:hover {
-			transform: translateY(-4px);
-			border-color: rgba(45, 212, 191, 0.35);
-			box-shadow:
-				var(--shadow-lg),
-				0 0 0 1px rgba(45, 212, 191, 0.1);
-
-			&::before {
-				opacity: 1;
-			}
-
-			.person-image img {
-				transform: scale(1.08);
-			}
-
-			.person-info {
-				background: linear-gradient(to top, rgba(12, 10, 9, 0.98) 0%, rgba(12, 10, 9, 0.82) 100%);
-			}
-
-			.person-name {
-				color: #fff;
-			}
-		}
-	}
-
-	.person-image {
-		position: absolute;
-		inset: 0.45rem;
-		border-radius: 8px;
-		overflow: hidden;
-
-		img {
-			width: 100%;
-			height: 100%;
-			object-fit: cover;
-			transition: transform 0.4s ease;
-		}
-	}
-
-	.person-info {
-		position: absolute;
-		bottom: 0.45rem;
-		left: 0.45rem;
-		right: 0.45rem;
-		padding: 0.75rem;
-		border-radius: 0 0 0.6rem 0.6rem;
-		background: linear-gradient(to top, rgba(12, 10, 9, 0.96) 0%, rgba(12, 10, 9, 0.68) 100%);
-		backdrop-filter: blur(10px);
-		transition: background 0.3s ease;
-		z-index: 2;
-	}
-
-	.person-name {
-		display: block;
-		font-size: 0.8125rem;
-		font-weight: 600;
-		color: #fff;
-		text-align: center;
-		text-transform: capitalize;
-		line-height: 1.3;
-		transition: color 0.2s ease;
-		display: -webkit-box;
-		-webkit-line-clamp: 2;
-		line-clamp: 2;
-		-webkit-box-orient: vertical;
-		overflow: hidden;
-	}
-
-	/* View All Card */
-	.view-all-card {
-		background: linear-gradient(
-			180deg,
-			color-mix(in srgb, var(--primary-subtle) 72%, transparent) 0%,
-			color-mix(in srgb, var(--bg-surface) 96%, var(--bg-deep)) 100%
-		);
-		border: 1px solid color-mix(in srgb, var(--primary) 22%, var(--border-color));
-
-		&::before {
-			display: none;
-		}
-
-		&:hover {
-			background: linear-gradient(
-				180deg,
-				color-mix(in srgb, var(--primary) 16%, transparent) 0%,
-				var(--bg-surface) 100%
-			);
-			border-color: rgba(45, 212, 191, 0.5);
-			box-shadow:
-				var(--shadow-lg),
-				0 0 30px rgba(45, 212, 191, 0.15);
-
-			.view-all-content {
-				color: var(--primary);
-			}
-		}
-	}
-
-	.view-all-content {
-		position: absolute;
-		inset: 0;
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		justify-content: center;
-		gap: 0.5rem;
-		color: var(--primary);
-		transition: color 0.25s ease;
-	}
-
-	.view-all-text {
-		font-size: 0.875rem;
-		font-weight: 600;
-		letter-spacing: 0;
-	}
-
-	/* Featured Section */
-	.featured-section {
-		margin-bottom: 3rem;
-	}
-
-	.featured-header,
-	.recent-header {
-		flex-direction: row;
-		align-items: center;
-	}
-
-	.featured-badge-icon,
-	.recent-badge-icon {
-		background: linear-gradient(135deg, rgba(45, 212, 191, 0.2) 0%, var(--accent-subtle) 100%);
-		box-shadow: none;
-
-		.type-num {
-			font-size: 1.25rem;
-			text-shadow: none;
-		}
-	}
-
-	.featured-grid {
-		display: grid;
-		grid-template-columns: repeat(2, 1fr);
-		gap: 1.25rem;
-	}
-
-	.featured-person-card {
-		position: relative;
-		aspect-ratio: 3 / 4;
-		border-radius: 8px;
-		overflow: hidden;
-		background: var(--bg-surface);
-		text-decoration: none;
-		transition: all 0.25s ease;
-		border: 1px solid color-mix(in srgb, var(--primary) 20%, var(--border-color));
-		box-shadow: var(--shadow-sm);
-		padding: 0.55rem;
-
-		&:hover {
-			transform: translateY(-4px);
-			border-color: rgba(45, 212, 191, 0.5);
-			box-shadow:
-				var(--shadow-lg),
-				0 0 0 1px rgba(45, 212, 191, 0.15);
-
-			.featured-person-image img {
-				transform: scale(1.05);
-			}
-
-			.featured-person-name {
-				color: #fff;
-			}
-		}
-	}
-
-	.featured-person-image {
-		position: absolute;
-		inset: 0.55rem;
-		border-radius: 8px;
-		overflow: hidden;
-
-		img {
-			width: 100%;
-			height: 100%;
-			object-fit: cover;
-			transition: transform 0.4s ease;
-		}
-	}
-
-	.featured-person-overlay {
-		position: absolute;
-		inset: 0.55rem;
-		border-radius: 8px;
-		background: linear-gradient(
-			to top,
-			rgba(12, 10, 9, 0.97) 0%,
-			rgba(12, 10, 9, 0.58) 50%,
-			rgba(12, 10, 9, 0.14) 100%
-		);
-	}
-
-	.featured-person-info {
-		position: absolute;
-		bottom: 0.55rem;
-		left: 0.55rem;
-		right: 0.55rem;
-		padding: 1.5rem;
-		z-index: 2;
-		display: flex;
-		flex-direction: column;
-		gap: 0.25rem;
-	}
-
-	.featured-label {
-		display: inline-block;
-		width: fit-content;
-		padding: 0.2rem 0.5rem;
-		background: rgba(255, 255, 255, 0.12);
-		border: 1px solid rgba(255, 255, 255, 0.18);
-		color: #fff;
-		font-size: 0.625rem;
-		font-weight: 600;
-		text-transform: uppercase;
-		letter-spacing: 0.05em;
-		border-radius: 0.25rem;
-		margin-bottom: 0.25rem;
-	}
-
-	.featured-person-name {
-		font-size: 1.375rem;
-		font-weight: 700;
-		color: #fff;
-		text-transform: capitalize;
-		transition: color 0.2s ease;
-		line-height: 1.3;
-	}
-
-	.featured-person-type {
-		font-size: 0.8125rem;
-		color: rgba(255, 255, 255, 0.82);
-		font-weight: 500;
-	}
-
-	.recency-badge {
-		display: inline-block;
-		width: fit-content;
-		padding: 0.125rem 0.5rem;
-		background: rgba(255, 255, 255, 0.12);
-		border: 1px solid rgba(255, 255, 255, 0.18);
-		color: rgba(255, 255, 255, 0.92);
-		font-size: 0.625rem;
-		font-weight: 600;
-		text-transform: uppercase;
-		letter-spacing: 0.05em;
-		border-radius: 0.25rem;
-
-		&.new {
-			background: color-mix(in srgb, var(--primary) 28%, transparent);
-			color: #fff;
-		}
-	}
-
-	/* Recently Updated Section */
-	.recent-section {
-		margin-bottom: 3rem;
-	}
-
-	.recent-people-grid {
-		display: grid;
-		grid-template-columns: repeat(4, 1fr);
-		gap: 1rem;
-	}
-
-	.recent-person-card {
-		position: relative;
-		aspect-ratio: 3 / 4;
-		border-radius: 8px;
-		overflow: hidden;
-		background: var(--bg-surface);
-		text-decoration: none;
-		transition: all 0.25s ease;
-		border: 1px solid var(--border-color);
-		box-shadow: var(--shadow-sm);
-		padding: 0.45rem;
-
-		&:hover {
-			transform: translateY(-3px);
-			border-color: rgba(45, 212, 191, 0.35);
-			box-shadow:
-				var(--shadow-lg),
-				0 0 0 1px rgba(45, 212, 191, 0.1);
-
-			.recent-person-image img {
-				transform: scale(1.05);
-			}
-
-			.recent-person-name {
-				color: #fff;
-			}
-		}
-	}
-
-	.recent-person-image {
-		position: absolute;
-		inset: 0.45rem;
-		border-radius: 8px;
-		overflow: hidden;
-
-		img {
-			width: 100%;
-			height: 100%;
-			object-fit: cover;
-			transition: transform 0.4s ease;
-		}
-	}
-
-	.recent-person-overlay {
-		position: absolute;
-		inset: 0.45rem;
-		border-radius: 8px;
-		background: linear-gradient(
-			to top,
-			rgba(12, 10, 9, 0.96) 0%,
-			rgba(12, 10, 9, 0.62) 50%,
-			rgba(12, 10, 9, 0.16) 100%
-		);
-	}
-
-	.recent-person-info {
-		position: absolute;
-		bottom: 0.45rem;
-		left: 0.45rem;
-		right: 0.45rem;
-		padding: 0.75rem;
-		z-index: 2;
-		display: flex;
-		flex-direction: column;
-		gap: 0.125rem;
-	}
-
-	.recent-person-name {
-		font-size: 0.9375rem;
-		font-weight: 600;
-		color: #fff;
-		text-transform: capitalize;
-		transition: color 0.2s ease;
-		line-height: 1.3;
-	}
-
-	.recent-person-type {
-		font-size: 0.6875rem;
-		color: rgba(255, 255, 255, 0.82);
-		font-weight: 500;
-	}
-
-	/* Signup Section */
-	.signup-section {
-		margin-top: 3rem;
-		padding: 2rem;
-		background: linear-gradient(135deg, var(--bg-surface) 0%, var(--bg-deep) 100%);
-		border-radius: 8px;
-		border: 1px solid rgba(45, 212, 191, 0.2);
-		position: relative;
-		overflow: hidden;
-
-		&::before {
-			content: '';
-			position: absolute;
-			top: -50%;
 			left: 50%;
+			bottom: -1px;
+			width: 80px;
+			height: 2px;
+			background: var(--type-stripe);
 			transform: translateX(-50%);
-			width: 300px;
-			height: 150px;
-			background: radial-gradient(ellipse, rgba(45, 212, 191, 0.08) 0%, transparent 70%);
-			pointer-events: none;
+			border-radius: 1px;
 		}
 	}
 
-	/* Responsive */
-	@media (max-width: 1024px) {
-		.people-grid {
-			grid-template-columns: repeat(4, 1fr);
-		}
+	.library-index :global(.type-block-kicker) {
+		color: var(--type-stripe);
+	}
 
-		.recent-people-grid {
-			grid-template-columns: repeat(2, 1fr);
+	.type-block-sub {
+		font-family: var(--font-display);
+		font-size: 15px;
+		line-height: 1.55;
+		color: var(--ink-mid);
+		max-width: 580px;
+
+		em {
+			color: var(--ink-bright);
+			font-style: italic;
+			font-weight: 500;
 		}
 	}
 
-	@media (max-width: 768px) {
-		.featured-grid {
-			grid-template-columns: 1fr;
-		}
+	.type-block-cta {
+		margin-top: 28px;
+		display: flex;
+		justify-content: center;
+	}
 
-		.featured-person-card {
-			aspect-ratio: 4 / 3;
-		}
+	/* =========================================================
+	  §05 SIGNUP — quiet wrapper around <EmailSignup>
+	  ========================================================= */
+	.signup-inner {
+		max-width: 720px;
+		margin: 0 auto;
+		text-align: center;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		gap: 16px;
+	}
 
-		.people-grid {
-			grid-template-columns: repeat(3, 1fr);
-		}
+	.signup-form {
+		width: 100%;
+		max-width: 560px;
+		margin-top: 16px;
+		padding: 24px;
+		background: var(--stone-warm);
+		border: 1px solid var(--stone-edge);
+		border-radius: 16px;
 
-		.section-header {
-			flex-direction: column;
-			align-items: flex-start;
-		}
-
-		.featured-header,
-		.recent-header {
-			flex-direction: row;
-			align-items: center;
+		@media (max-width: 540px) {
+			padding: 18px;
 		}
 	}
 
-	@media (max-width: 640px) {
-		.featured-section,
-		.recent-section {
-			margin-bottom: 2rem;
+	/* =========================================================
+	  Mobile tightening
+	  ========================================================= */
+	@media (max-width: 540px) {
+		.case-card-body {
+			padding: 14px 16px 18px;
 		}
 
-		.featured-person-info {
-			padding: 1rem;
-		}
-
-		.featured-person-name {
-			font-size: 1.125rem;
-		}
-
-		.recent-people-grid {
-			grid-template-columns: repeat(2, 1fr);
-			gap: 0.625rem;
-		}
-
-		.recent-person-card {
-			border-radius: 0.5rem;
-		}
-
-		.recent-person-name {
-			font-size: 0.75rem;
-		}
-
-		.recent-person-info {
-			padding: 0.5rem;
-		}
-
-		.hero {
-			padding: 1.5rem 1rem 1rem;
-		}
-
-		.hero h1 {
-			font-size: 1.5rem;
-		}
-
-		.hero-copy {
-			font-size: 0.9rem;
-		}
-
-		.hero-actions {
-			gap: 0.5rem;
-		}
-
-		.hero-link,
-		.category-pill {
-			padding: 0.5rem 0.75rem;
-			font-size: 0.75rem;
-		}
-
-		.quick-nav {
-			padding: 0.5rem 0;
-		}
-
-		.nav-scroll {
-			padding: 0.375rem 1rem;
-			gap: 0.375rem;
-		}
-
-		.nav-pill {
-			padding: 0.4rem 0.75rem;
-			font-size: 0.75rem;
-			gap: 0.375rem;
-			border-radius: 0.375rem;
-		}
-
-		.type-number {
-			width: 1.25rem;
-			height: 1.25rem;
-			font-size: 0.65rem;
-		}
-
-		.type-name {
-			display: none;
-		}
-
-		.main-content {
-			padding: 1rem 1rem 2.5rem;
-		}
-
-		.type-section {
-			margin-bottom: 2.5rem;
-			scroll-margin-top: 70px;
-		}
-
-		.section-header {
-			gap: 0.75rem;
-			margin-bottom: 1rem;
-			padding-bottom: 0.5rem;
-		}
-
-		.type-badge {
-			width: 2.25rem;
-			height: 2.25rem;
-			border-radius: 0.5rem;
-		}
-
-		.type-num {
-			font-size: 1.125rem;
-		}
-
-		.section-info h2 {
-			font-size: 1.0625rem;
-		}
-
-		.type-tagline {
-			font-size: 0.75rem;
-		}
-
-		.people-grid {
-			grid-template-columns: repeat(3, 1fr);
-			gap: 0.625rem;
-		}
-
-		.person-card {
-			border-radius: 0.5rem;
-		}
-
-		.person-name {
-			font-size: 0.6875rem;
-		}
-
-		.person-info {
-			padding: 0.5rem;
-		}
-
-		.view-all-text {
-			font-size: 0.75rem;
-		}
-
-		.signup-section {
-			padding: 1.5rem 1.25rem;
-			border-radius: 8px;
-			margin-top: 2rem;
-		}
-	}
-
-	@media (max-width: 380px) {
-		.hero h1 {
-			font-size: 1.25rem;
-		}
-
-		.nav-scroll {
-			padding: 0.25rem 0.75rem;
-		}
-
-		.nav-pill {
-			padding: 0.35rem 0.625rem;
-			gap: 0;
-		}
-
-		.type-number {
-			width: 1.375rem;
-			height: 1.375rem;
-			font-size: 0.7rem;
-		}
-
-		.people-grid {
-			grid-template-columns: repeat(2, 1fr);
-			gap: 0.5rem;
-		}
-
-		.person-name {
-			font-size: 0.625rem;
-		}
-
-		.person-info {
-			padding: 0.375rem;
-		}
-
-		.view-all-text {
-			font-size: 0.6875rem;
+		.case-name {
+			font-size: 19px;
 		}
 	}
 </style>

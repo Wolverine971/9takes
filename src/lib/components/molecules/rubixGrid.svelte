@@ -134,7 +134,7 @@
 		overflow: hidden;
 		position: relative;
 		z-index: 10;
-		color: var(--primary-light);
+		color: var(--lamp-glow);
 		width: 100%;
 		height: 100%;
 	}

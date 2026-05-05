@@ -307,7 +307,7 @@
 					</div>
 				</fieldset>
 
-				<p class="type-note" style={`--type-accent: ${selectedType?.color || 'var(--primary)'}`}>
+				<p class="type-note" style={`--type-accent: ${selectedType?.color || 'var(--lamp-glow)'}`}>
 					{#if selectedType}
 						<strong>{`Type ${selectedType.num} / ${selectedType.name}`}</strong>
 						<span>{selectedType.descriptor}</span>
@@ -385,8 +385,8 @@
 		padding: 1.1rem 1rem 3rem;
 		background: linear-gradient(
 			180deg,
-			color-mix(in srgb, var(--bg-deep) 88%, black) 0%,
-			var(--bg-base) 100%
+			color-mix(in srgb, var(--night-deep) 88%, black) 0%,
+			var(--night-deep) 100%
 		);
 	}
 
@@ -399,12 +399,12 @@
 		background-image:
 			linear-gradient(
 				to right,
-				color-mix(in srgb, var(--text-tertiary) 18%, transparent) 1px,
+				color-mix(in srgb, var(--ink-dim) 18%, transparent) 1px,
 				transparent 1px
 			),
 			linear-gradient(
 				to bottom,
-				color-mix(in srgb, var(--text-tertiary) 18%, transparent) 1px,
+				color-mix(in srgb, var(--ink-dim) 18%, transparent) 1px,
 				transparent 1px
 			);
 		background-size: 32px 32px;
@@ -421,9 +421,9 @@
 	.header-panel,
 	.panel {
 		position: relative;
-		border: 1px solid color-mix(in srgb, var(--text-tertiary) 16%, transparent);
+		border: 1px solid color-mix(in srgb, var(--ink-dim) 16%, transparent);
 		border-radius: 0.95rem;
-		background: color-mix(in srgb, var(--bg-surface) 96%, transparent);
+		background: color-mix(in srgb, var(--stone-warm) 96%, transparent);
 		box-shadow: 0 16px 36px rgba(12, 10, 9, 0.16);
 	}
 
@@ -456,7 +456,7 @@
 	.kicker,
 	.section-label {
 		margin: 0;
-		color: color-mix(in srgb, var(--primary) 70%, var(--text-tertiary));
+		color: color-mix(in srgb, var(--lamp-glow) 70%, var(--ink-dim));
 	}
 
 	.section-label {
@@ -468,12 +468,12 @@
 		font-family: var(--font-display);
 		font-size: clamp(1.4rem, 3vw, 1.9rem);
 		line-height: 1;
-		color: var(--text-primary);
+		color: var(--ink-bright);
 	}
 
 	.row-index,
 	.row-action {
-		color: var(--text-tertiary);
+		color: var(--ink-dim);
 	}
 
 	.watchlist-meta {
@@ -488,9 +488,9 @@
 		align-items: center;
 		padding: 0.45rem 0.7rem;
 		border-radius: 999px;
-		border: 1px solid color-mix(in srgb, var(--text-tertiary) 16%, transparent);
-		background: color-mix(in srgb, var(--bg-deep) 92%, transparent);
-		color: var(--text-primary);
+		border: 1px solid color-mix(in srgb, var(--ink-dim) 16%, transparent);
+		background: color-mix(in srgb, var(--night-deep) 92%, transparent);
+		color: var(--ink-bright);
 		font-size: 0.8rem;
 		font-weight: 600;
 		line-height: 1;
@@ -524,9 +524,9 @@
 	}
 
 	.action-link {
-		border: 1px solid color-mix(in srgb, var(--primary) 24%, transparent);
-		background: color-mix(in srgb, var(--primary) 10%, var(--bg-deep));
-		color: var(--text-primary);
+		border: 1px solid color-mix(in srgb, var(--lamp-glow) 24%, transparent);
+		background: color-mix(in srgb, var(--lamp-glow) 10%, var(--night-deep));
+		color: var(--ink-bright);
 	}
 
 	.action-link:hover,
@@ -535,8 +535,8 @@
 	}
 
 	.action-link-primary {
-		background: linear-gradient(135deg, var(--primary-dark) 0%, var(--primary) 100%);
-		border-color: var(--primary);
+		background: linear-gradient(135deg, var(--lamp-glow) 0%, var(--lamp-glow) 100%);
+		border-color: var(--lamp-glow);
 		color: var(--text-on-primary);
 	}
 
@@ -558,7 +558,7 @@
 		gap: 0.85rem;
 		margin-bottom: 0.9rem;
 		padding-bottom: 0.85rem;
-		border-bottom: 1px solid color-mix(in srgb, var(--text-tertiary) 12%, transparent);
+		border-bottom: 1px solid color-mix(in srgb, var(--ink-dim) 12%, transparent);
 	}
 
 	.panel-head h2 {
@@ -566,12 +566,12 @@
 		font-family: var(--font-display);
 		font-size: 1.3rem;
 		line-height: 1;
-		color: var(--text-primary);
+		color: var(--ink-bright);
 	}
 
 	.section-copy {
 		margin: 0.3rem 0 0;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 		font-size: 0.9rem;
 		line-height: 1.45;
 	}
@@ -583,8 +583,8 @@
 		padding: 0.35rem 0.7rem;
 		border-radius: 999px;
 		border: 1px solid color-mix(in srgb, var(--success) 24%, transparent);
-		background: color-mix(in srgb, var(--success) 10%, var(--bg-deep));
-		color: var(--text-primary);
+		background: color-mix(in srgb, var(--success) 10%, var(--night-deep));
+		color: var(--ink-bright);
 		font-size: 0.78rem;
 		font-weight: 600;
 		white-space: nowrap;
@@ -592,7 +592,7 @@
 
 	.state-pill.pending {
 		border-color: color-mix(in srgb, var(--warning) 28%, transparent);
-		background: color-mix(in srgb, var(--warning) 12%, var(--bg-deep));
+		background: color-mix(in srgb, var(--warning) 12%, var(--night-deep));
 	}
 
 	.field-grid {
@@ -611,16 +611,16 @@
 		font-weight: 600;
 		letter-spacing: 0.04em;
 		text-transform: uppercase;
-		color: var(--text-primary);
+		color: var(--ink-bright);
 	}
 
 	.field input {
 		width: 100%;
 		padding: 0.75rem 0.85rem;
 		border-radius: 0.7rem;
-		border: 1px solid color-mix(in srgb, var(--text-tertiary) 16%, transparent);
-		background: color-mix(in srgb, var(--bg-deep) 92%, transparent);
-		color: var(--text-primary);
+		border: 1px solid color-mix(in srgb, var(--ink-dim) 16%, transparent);
+		background: color-mix(in srgb, var(--night-deep) 92%, transparent);
+		color: var(--ink-bright);
 		font-size: 16px;
 		transition:
 			border-color 0.18s ease,
@@ -628,12 +628,12 @@
 	}
 
 	.field input::placeholder {
-		color: var(--text-muted);
+		color: var(--ink-dim);
 	}
 
 	.field input:focus {
 		outline: none;
-		border-color: color-mix(in srgb, var(--primary) 40%, transparent);
+		border-color: color-mix(in srgb, var(--lamp-glow) 40%, transparent);
 		box-shadow: 0 0 0 4px rgba(45, 212, 191, 0.12);
 	}
 
@@ -654,7 +654,7 @@
 		font-family: var(--font-display);
 		font-size: 1.15rem;
 		font-weight: 700;
-		color: var(--text-primary);
+		color: var(--ink-bright);
 	}
 
 	.type-grid {
@@ -670,9 +670,9 @@
 		gap: 0.6rem;
 		align-items: center;
 		padding: 0.7rem 0.8rem;
-		border: 1px solid color-mix(in srgb, var(--type-accent) 18%, var(--text-tertiary));
+		border: 1px solid color-mix(in srgb, var(--type-accent) 18%, var(--ink-dim));
 		border-radius: 0.75rem;
-		background: color-mix(in srgb, var(--bg-deep) 92%, transparent);
+		background: color-mix(in srgb, var(--night-deep) 92%, transparent);
 		color: inherit;
 		text-align: left;
 		cursor: pointer;
@@ -689,7 +689,7 @@
 
 	.type-card.selected {
 		border-color: color-mix(in srgb, var(--type-accent) 56%, transparent);
-		background: color-mix(in srgb, var(--type-accent) 12%, var(--bg-deep));
+		background: color-mix(in srgb, var(--type-accent) 12%, var(--night-deep));
 		box-shadow: inset 0 0 0 1px color-mix(in srgb, var(--type-accent) 22%, transparent);
 	}
 
@@ -701,8 +701,8 @@
 		align-items: center;
 		justify-content: center;
 		border-radius: 0.625rem;
-		background: color-mix(in srgb, var(--type-accent) 18%, var(--bg-base));
-		color: var(--text-primary);
+		background: color-mix(in srgb, var(--type-accent) 18%, var(--night-deep));
+		color: var(--ink-bright);
 		font-family: var(--font-mono);
 		font-size: 0.82rem;
 		font-weight: 700;
@@ -715,7 +715,7 @@
 	}
 
 	.type-body strong {
-		color: var(--text-primary);
+		color: var(--ink-bright);
 		font-size: 0.9rem;
 		line-height: 1.25;
 	}
@@ -726,15 +726,15 @@
 		margin: 0.8rem 0 0;
 		padding: 0.8rem 0.9rem;
 		border-radius: 0.75rem;
-		border: 1px solid color-mix(in srgb, var(--type-accent, var(--primary)) 18%, transparent);
-		background: color-mix(in srgb, var(--type-accent, var(--primary)) 8%, var(--bg-deep));
-		color: var(--text-secondary);
+		border: 1px solid color-mix(in srgb, var(--type-accent, var(--lamp-glow)) 18%, transparent);
+		background: color-mix(in srgb, var(--type-accent, var(--lamp-glow)) 8%, var(--night-deep));
+		color: var(--ink-mid);
 		font-size: 0.88rem;
 		line-height: 1.4;
 	}
 
 	.type-note strong {
-		color: var(--text-primary);
+		color: var(--ink-bright);
 		font-family: var(--font-mono);
 		font-size: 0.95rem;
 	}
@@ -747,12 +747,12 @@
 		flex-wrap: wrap;
 		margin-top: 0.9rem;
 		padding-top: 0.9rem;
-		border-top: 1px solid color-mix(in srgb, var(--text-tertiary) 12%, transparent);
+		border-top: 1px solid color-mix(in srgb, var(--ink-dim) 12%, transparent);
 	}
 
 	.action-note {
 		margin: 0;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 		font-size: 0.88rem;
 	}
 
@@ -765,34 +765,34 @@
 	}
 
 	.subscription-row {
-		border: 1px solid color-mix(in srgb, var(--text-tertiary) 14%, transparent);
+		border: 1px solid color-mix(in srgb, var(--ink-dim) 14%, transparent);
 		border-radius: 0.8rem;
-		background: color-mix(in srgb, var(--bg-deep) 92%, transparent);
+		background: color-mix(in srgb, var(--night-deep) 92%, transparent);
 	}
 
 	.text-link {
-		border: 1px solid color-mix(in srgb, var(--text-tertiary) 16%, transparent);
-		background: color-mix(in srgb, var(--bg-deep) 90%, transparent);
-		color: var(--text-primary);
+		border: 1px solid color-mix(in srgb, var(--ink-dim) 16%, transparent);
+		background: color-mix(in srgb, var(--night-deep) 90%, transparent);
+		color: var(--ink-bright);
 	}
 
 	.empty-block {
 		display: grid;
 		gap: 0.5rem;
 		padding: 0.9rem;
-		border: 1px dashed color-mix(in srgb, var(--text-tertiary) 22%, transparent);
+		border: 1px dashed color-mix(in srgb, var(--ink-dim) 22%, transparent);
 		border-radius: 0.8rem;
-		background: color-mix(in srgb, var(--bg-deep) 92%, transparent);
+		background: color-mix(in srgb, var(--night-deep) 92%, transparent);
 	}
 
 	.empty-block strong {
-		color: var(--text-primary);
+		color: var(--ink-bright);
 		font-family: var(--font-mono);
 	}
 
 	.empty-block p {
 		margin: 0;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 		line-height: 1.5;
 	}
 
@@ -812,12 +812,12 @@
 
 	.subscription-row:hover {
 		transform: translateY(-1px);
-		border-color: color-mix(in srgb, var(--primary) 32%, transparent);
-		background: color-mix(in srgb, var(--primary) 9%, var(--bg-deep));
+		border-color: color-mix(in srgb, var(--lamp-glow) 32%, transparent);
+		background: color-mix(in srgb, var(--lamp-glow) 9%, var(--night-deep));
 	}
 
 	.row-text {
-		color: var(--text-primary);
+		color: var(--ink-bright);
 		font-size: 0.92rem;
 		line-height: 1.45;
 	}

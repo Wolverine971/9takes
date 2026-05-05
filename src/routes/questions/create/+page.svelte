@@ -4,7 +4,7 @@
 	import { page } from '$app/stores';
 	import { goto } from '$app/navigation';
 	import { deserialize } from '$app/forms';
-	import Modal2, { getModal } from '$lib/components/atoms/Modal2.svelte';
+	import Modal, { getModal } from '$lib/components/atoms/Modal.svelte';
 	import RightIcon from '$lib/components/icons/rightIcon.svelte';
 	import { notifications } from '$lib/components/molecules/notifications';
 	import { fade, fly } from 'svelte/transition';
@@ -285,32 +285,32 @@
 
 <div class="mx-auto max-w-3xl px-4 py-10 sm:px-6 lg:px-0" in:fade={{ duration: 300 }}>
 	<h1
-		class="text-center text-3xl font-semibold text-[var(--primary)] sm:text-4xl"
+		class="text-center text-3xl font-semibold text-[var(--lamp-glow)] sm:text-4xl"
 		in:fly={{ y: -20, duration: 300, delay: 150 }}
 	>
 		Spark a Conversation
 	</h1>
 	<p
-		class="mt-2 text-center text-base text-[var(--text-secondary)] sm:text-lg"
+		class="mt-2 text-center text-base text-[var(--ink-mid)] sm:text-lg"
 		in:fly={{ y: -20, duration: 300, delay: 200 }}
 	>
 		Your question could lead to fascinating insights. What would you like to explore today?
 	</p>
 	<div
-		class="mt-6 rounded-xl border border-[var(--bg-elevated)] bg-[var(--bg-surface)] p-5 shadow-[var(--shadow-md)] transition hover:border-[var(--primary-subtle)] hover:shadow-[var(--glow-sm)] sm:p-8"
+		class="mt-6 rounded-xl border border-[var(--stone-warm)] bg-[var(--stone-warm)] p-5 shadow-[var(--shadow-md)] transition hover:border-[var(--primary-subtle)] hover:shadow-[var(--glow-sm)] sm:p-8"
 		in:fly={{ y: 20, duration: 300, delay: 300 }}
 	>
 		<textarea
 			rows="4"
 			name="question"
 			placeholder="What's on your mind? Ask a thought-provoking question that invites diverse perspectives..."
-			class="noticia-text-regular w-full rounded-md border-2 border-[var(--bg-elevated)] bg-[var(--bg-elevated)] p-4 text-lg text-[var(--text-primary)] placeholder-[var(--text-muted)] shadow-sm transition focus:border-[var(--primary)] focus:outline-none focus:ring-2 focus:ring-[var(--primary-subtle)]"
+			class="noticia-text-regular w-full rounded-md border-2 border-[var(--stone-warm)] bg-[var(--stone-warm)] p-4 text-lg text-[var(--ink-bright)] placeholder-[var(--ink-dim)] shadow-sm transition focus:border-[var(--lamp-glow)] focus:outline-none focus:ring-2 focus:ring-[var(--primary-subtle)]"
 			bind:value={question}
 			oninput={handleInput}
 			maxlength={MAX_CHAR_COUNT}
 		></textarea>
 		<div
-			class={`text-right text-sm ${questionCharCount > MAX_CHAR_COUNT || (questionCharCount > 0 && questionCharCount < MIN_CHAR_COUNT) ? 'text-red-400' : 'text-[var(--text-muted)]'}`}
+			class={`text-right text-sm ${questionCharCount > MAX_CHAR_COUNT || (questionCharCount > 0 && questionCharCount < MIN_CHAR_COUNT) ? 'text-red-400' : 'text-[var(--ink-dim)]'}`}
 		>
 			{questionCharCount}/{MAX_CHAR_COUNT} characters
 			{#if questionCharCount > 0 && questionCharCount < MIN_CHAR_COUNT}
@@ -320,11 +320,11 @@
 		<div class="mt-5">
 			<label
 				for="question-context"
-				class="mb-2 block text-sm font-semibold uppercase tracking-[0.16em] text-[var(--text-secondary)]"
+				class="mb-2 block text-sm font-semibold uppercase tracking-[0.16em] text-[var(--ink-mid)]"
 			>
 				Optional context
 			</label>
-			<p class="mb-3 text-sm text-[var(--text-secondary)]">
+			<p class="mb-3 text-sm text-[var(--ink-mid)]">
 				Add a little backstory if it will help people understand the situation behind your question.
 			</p>
 			<textarea
@@ -332,17 +332,17 @@
 				rows="3"
 				name="context"
 				placeholder="Optional: share the situation, what prompted the question, or any relevant background..."
-				class="w-full rounded-md border border-[var(--bg-elevated)] bg-[var(--bg-elevated)] p-4 text-base text-[var(--text-primary)] placeholder-[var(--text-muted)] shadow-sm transition focus:border-[var(--primary)] focus:outline-none focus:ring-2 focus:ring-[var(--primary-subtle)]"
+				class="w-full rounded-md border border-[var(--stone-warm)] bg-[var(--stone-warm)] p-4 text-base text-[var(--ink-bright)] placeholder-[var(--ink-dim)] shadow-sm transition focus:border-[var(--lamp-glow)] focus:outline-none focus:ring-2 focus:ring-[var(--primary-subtle)]"
 				bind:value={context}
 				oninput={handleInput}
 				maxlength={MAX_CONTEXT_CHAR_COUNT}
 			></textarea>
-			<div class="mt-2 text-right text-sm text-[var(--text-muted)]">
+			<div class="mt-2 text-right text-sm text-[var(--ink-dim)]">
 				{contextCharCount}/{MAX_CONTEXT_CHAR_COUNT} characters
 			</div>
 		</div>
 		<button
-			class="mt-5 inline-flex w-full items-center justify-center rounded-md bg-gradient-to-r from-[var(--primary-dark)] to-[var(--primary-darker)] px-5 py-3 text-base font-semibold text-[var(--text-on-primary)] shadow-[var(--glow-sm)] transition hover:from-[var(--primary)] hover:to-[var(--primary-dark)] hover:shadow-[var(--glow-md)] disabled:cursor-not-allowed disabled:opacity-60"
+			class="mt-5 inline-flex w-full items-center justify-center rounded-md bg-[var(--lamp-glow)] px-5 py-3 text-base font-semibold text-[var(--text-on-primary)] transition-colors hover:bg-[var(--lamp-glow)] disabled:cursor-not-allowed disabled:opacity-60"
 			disabled={!isQuestionValid}
 			onclick={getUrl}
 			type="button"
@@ -351,36 +351,36 @@
 		</button>
 	</div>
 	<p
-		class="mt-6 text-center text-base italic text-[var(--text-secondary)]"
+		class="mt-6 text-center text-base italic text-[var(--ink-mid)]"
 		in:fly={{ y: 20, duration: 300, delay: 400 }}
 	>
 		Great questions lead to great conversations. Your unique perspective matters!
 	</p>
 </div>
 
-<Modal2 id="question-create" name="create question" navTop={loading} disableClose={loading}>
+<Modal id="question-create" name="create question" navTop={loading} disableClose={loading}>
 	<div
-		class="relative w-full max-w-2xl rounded-xl border border-[var(--bg-elevated)] bg-[var(--bg-deep)] p-6 text-[var(--text-primary)] shadow-[var(--shadow-lg)] sm:p-8"
+		class="relative w-full max-w-2xl rounded-xl border border-[var(--stone-warm)] bg-[var(--night-deep)] p-6 text-[var(--ink-bright)] shadow-[var(--shadow-lg)] sm:p-8"
 		in:fade={{ duration: 300 }}
 		aria-busy={loading}
 	>
 		{#if loading}
 			<div
-				class="bg-[var(--bg-deep)]/95 absolute inset-0 z-20 flex flex-col items-center justify-center rounded-xl px-6 text-center"
+				class="bg-[var(--night-deep)]/95 absolute inset-0 z-20 flex flex-col items-center justify-center rounded-xl px-6 text-center"
 				in:fade={{ duration: 150 }}
 			>
 				<div class="loader"></div>
-				<h3 class="mt-5 text-xl font-semibold text-[var(--primary)]">
+				<h3 class="mt-5 text-xl font-semibold text-[var(--lamp-glow)]">
 					{createProgressStage === 'redirecting' ? 'Question Created' : 'Creating Question'}
 				</h3>
-				<p class="mt-2 max-w-sm text-sm text-[var(--text-secondary)]">{createProgressMessage}</p>
+				<p class="mt-2 max-w-sm text-sm text-[var(--ink-mid)]">{createProgressMessage}</p>
 			</div>
 		{/if}
 
 		<div class={loading ? 'pointer-events-none select-none opacity-40' : ''}>
-			<h2 class="mt-0 text-2xl font-semibold text-[var(--primary)]">Create Question</h2>
+			<h2 class="mt-0 text-2xl font-semibold text-[var(--lamp-glow)]">Create Question</h2>
 
-			<div class="mt-4 rounded-xl border border-[var(--primary-subtle)] bg-[var(--bg-surface)] p-4">
+			<div class="mt-4 rounded-xl border border-[var(--primary-subtle)] bg-[var(--stone-warm)] p-4">
 				<div
 					class="mx-auto h-[168px] w-[320px] overflow-hidden rounded-xl sm:h-[209px] sm:w-[400px] md:h-[251px] md:w-[480px]"
 				>
@@ -390,7 +390,7 @@
 				</div>
 			</div>
 			<button
-				class="mt-5 inline-flex w-full items-center justify-center rounded-md bg-gradient-to-r from-[var(--primary-dark)] to-[var(--primary-darker)] px-5 py-3 text-base font-semibold text-[var(--text-on-primary)] shadow-[var(--glow-sm)] transition hover:from-[var(--primary)] hover:to-[var(--primary-dark)] hover:shadow-[var(--glow-md)] disabled:cursor-not-allowed disabled:opacity-70"
+				class="mt-5 inline-flex w-full items-center justify-center rounded-md bg-[var(--lamp-glow)] px-5 py-3 text-base font-semibold text-[var(--text-on-primary)] transition-colors hover:bg-[var(--lamp-glow)] disabled:cursor-not-allowed disabled:opacity-70"
 				onclick={createQuestion}
 				disabled={loading}
 			>
@@ -399,7 +399,7 @@
 			</button>
 		</div>
 	</div>
-</Modal2>
+</Modal>
 
 <div class="pointer-events-none fixed -left-[200vw] top-0" aria-hidden="true">
 	<QuestionSocialCardTemplate

@@ -367,8 +367,8 @@
 		gap: 12px;
 		padding: 14px 16px;
 		margin-bottom: 20px;
-		background: var(--bg-elevated);
-		border: 1px solid var(--bg-highlight);
+		background: var(--stone-warm);
+		border: 1px solid var(--stone-warm);
 		border-radius: 12px;
 	}
 
@@ -379,7 +379,7 @@
 		width: 24px;
 		height: 24px;
 		border-radius: 50%;
-		background: var(--primary);
+		background: var(--lamp-glow);
 		color: white;
 		font-size: 0.75rem;
 		font-weight: 700;
@@ -389,7 +389,7 @@
 	.info-content p {
 		margin: 0 0 6px;
 		font-size: 0.85rem;
-		color: var(--text-primary);
+		color: var(--ink-bright);
 	}
 
 	.info-content ul {
@@ -400,14 +400,14 @@
 
 	.info-content li {
 		font-size: 0.8rem;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 		padding: 2px 0;
 	}
 
 	/* Section Card */
 	.section-card {
-		background: var(--bg-surface);
-		border: 1px solid var(--bg-elevated);
+		background: var(--stone-warm);
+		border: 1px solid var(--stone-warm);
 		border-radius: 12px;
 		padding: 20px;
 		margin-bottom: 20px;
@@ -416,13 +416,13 @@
 	.section-title {
 		font-size: 1.1rem;
 		font-weight: 600;
-		color: var(--text-primary);
+		color: var(--ink-bright);
 		margin: 0 0 4px;
 	}
 
 	.section-description {
 		font-size: 0.8rem;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 		margin: 0 0 20px;
 	}
 
@@ -442,7 +442,7 @@
 	.panel-title {
 		font-size: 0.95rem;
 		font-weight: 600;
-		color: var(--text-primary);
+		color: var(--ink-bright);
 		margin: 0 0 16px;
 	}
 
@@ -452,13 +452,13 @@
 		gap: 8px;
 		font-size: 0.85rem;
 		font-weight: 600;
-		color: var(--text-primary);
+		color: var(--ink-bright);
 		margin: 0 0 10px;
 	}
 
 	.panel-description {
 		font-size: 0.8rem;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 		margin: 0 0 12px;
 	}
 
@@ -471,23 +471,23 @@
 		display: block;
 		font-size: 0.8rem;
 		font-weight: 600;
-		color: var(--text-primary);
+		color: var(--ink-bright);
 		margin-bottom: 6px;
 	}
 
 	.field-hint {
 		font-weight: 400;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 		font-size: 0.75rem;
 	}
 
 	.field-input {
 		width: 100%;
 		padding: 9px 12px;
-		border: 1px solid var(--bg-elevated);
+		border: 1px solid var(--stone-warm);
 		border-radius: 8px;
-		background: var(--bg-deep);
-		color: var(--text-primary);
+		background: var(--night-deep);
+		color: var(--ink-bright);
 		font-size: 0.85rem;
 		font-family: inherit;
 		transition: border-color 0.15s ease;
@@ -496,12 +496,12 @@
 
 	.field-input:focus {
 		outline: none;
-		border-color: var(--primary);
+		border-color: var(--lamp-glow);
 		box-shadow: 0 0 0 3px rgba(139, 92, 246, 0.15);
 	}
 
 	.field-input::placeholder {
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 		opacity: 0.6;
 	}
 
@@ -526,7 +526,7 @@
 	}
 
 	.btn-primary {
-		background: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%);
+		background: linear-gradient(135deg, var(--lamp-glow) 0%, var(--lamp-glow) 100%);
 		color: white;
 		box-shadow: var(--glow-sm);
 	}
@@ -546,16 +546,16 @@
 	.message-list {
 		max-height: 400px;
 		overflow-y: auto;
-		background: var(--bg-deep);
-		border: 1px solid var(--bg-elevated);
+		background: var(--night-deep);
+		border: 1px solid var(--stone-warm);
 		border-radius: 10px;
 		padding: 12px;
 	}
 
 	.message-item {
 		padding: 10px 12px;
-		background: var(--bg-surface);
-		border: 1px solid var(--bg-elevated);
+		background: var(--stone-warm);
+		border: 1px solid var(--stone-warm);
 		border-radius: 8px;
 		margin-bottom: 8px;
 		transition: border-color 0.15s ease;
@@ -566,7 +566,7 @@
 	}
 
 	.message-item:hover {
-		border-color: var(--bg-highlight);
+		border-color: var(--stone-warm);
 	}
 
 	.message-header {
@@ -579,23 +579,23 @@
 	.message-from {
 		font-size: 0.75rem;
 		font-weight: 600;
-		color: var(--primary);
+		color: var(--lamp-glow);
 	}
 
 	.message-to {
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 		font-weight: 400;
 	}
 
 	.message-time {
 		font-size: 0.7rem;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 	}
 
 	.message-content {
 		margin: 0;
 		font-size: 0.85rem;
-		color: var(--text-primary);
+		color: var(--ink-bright);
 		line-height: 1.4;
 	}
 
@@ -606,8 +606,8 @@
 
 	.count-badge {
 		padding: 1px 8px;
-		background: var(--bg-elevated);
-		color: var(--text-secondary);
+		background: var(--stone-warm);
+		color: var(--ink-mid);
 		border-radius: 12px;
 		font-size: 0.7rem;
 		font-weight: 600;
@@ -621,8 +621,8 @@
 	.user-list {
 		max-height: 200px;
 		overflow-y: auto;
-		background: var(--bg-deep);
-		border: 1px solid var(--bg-elevated);
+		background: var(--night-deep);
+		border: 1px solid var(--stone-warm);
 		border-radius: 10px;
 		padding: 6px;
 	}
@@ -643,7 +643,7 @@
 	}
 
 	.user-item:hover {
-		background: var(--bg-surface);
+		background: var(--stone-warm);
 	}
 
 	.user-info {
@@ -655,7 +655,7 @@
 	.user-email {
 		font-size: 0.8rem;
 		font-weight: 500;
-		color: var(--text-primary);
+		color: var(--ink-bright);
 		overflow: hidden;
 		text-overflow: ellipsis;
 		white-space: nowrap;
@@ -663,7 +663,7 @@
 
 	.user-id {
 		font-size: 0.7rem;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 	}
 
 	.user-status {
@@ -674,7 +674,7 @@
 
 	.select-hint {
 		font-size: 0.7rem;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 	}
 
 	.online-dot {
@@ -698,7 +698,7 @@
 	/* Empty States */
 	.empty-text {
 		font-size: 0.85rem;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 		text-align: center;
 		padding: 16px 0;
 		margin: 0;
@@ -711,7 +711,7 @@
 
 	.empty-hint {
 		font-size: 0.75rem;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 		opacity: 0.7;
 		margin: 4px 0 0;
 	}

@@ -69,12 +69,12 @@
 	.header-content h1 {
 		font-size: 1.75rem;
 		font-weight: 700;
-		color: var(--text-primary);
+		color: var(--ink-bright);
 		margin: 0 0 0.5rem 0;
 	}
 
 	.subtitle {
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 		font-size: 0.9rem;
 		margin: 0;
 	}
@@ -89,8 +89,8 @@
 		flex-direction: column;
 		align-items: center;
 		padding: 0.625rem 1rem;
-		background: var(--bg-surface);
-		border: 1px solid var(--bg-elevated);
+		background: var(--stone-warm);
+		border: 1px solid var(--stone-warm);
 		border-radius: 12px;
 		min-width: 90px;
 	}
@@ -98,20 +98,20 @@
 	.stat-value {
 		font-size: 1.375rem;
 		font-weight: 700;
-		color: var(--primary);
+		color: var(--lamp-glow);
 	}
 
 	.stat-label {
 		font-size: 0.65rem;
 		font-weight: 500;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 		text-transform: uppercase;
 		letter-spacing: 0.04em;
 	}
 
 	.hierarchy-container {
-		background: var(--bg-surface);
-		border: 1px solid var(--bg-elevated);
+		background: var(--stone-warm);
+		border: 1px solid var(--stone-warm);
 		border-radius: 12px;
 		overflow: hidden;
 	}
@@ -133,12 +133,12 @@
 	.empty-state h3 {
 		font-size: 1.1rem;
 		font-weight: 600;
-		color: var(--text-primary);
+		color: var(--ink-bright);
 		margin: 0 0 0.375rem 0;
 	}
 
 	.empty-state p {
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 		margin: 0;
 		font-size: 0.875rem;
 	}

@@ -336,11 +336,11 @@
 		font-size: 1.75rem;
 		font-weight: 700;
 		margin-bottom: 0.5rem;
-		color: var(--text-primary);
+		color: var(--ink-bright);
 	}
 
 	.subtitle {
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 		margin-bottom: 1.5rem;
 	}
 
@@ -354,15 +354,15 @@
 		flex: 1;
 		padding: 0.625rem 0.875rem;
 		font-size: 0.95rem;
-		border: 1px solid var(--bg-elevated);
+		border: 1px solid var(--stone-warm);
 		border-radius: 8px;
-		background: var(--bg-surface);
-		color: var(--text-primary);
+		background: var(--stone-warm);
+		color: var(--ink-bright);
 		transition: border-color 0.15s ease;
 
 		&:focus {
 			outline: none;
-			border-color: var(--primary);
+			border-color: var(--lamp-glow);
 		}
 	}
 
@@ -370,7 +370,7 @@
 		padding: 0.625rem 1.25rem;
 		font-size: 0.875rem;
 		font-weight: 600;
-		background: var(--primary);
+		background: var(--lamp-glow);
 		color: white;
 		border: none;
 		border-radius: 8px;
@@ -394,8 +394,8 @@
 		align-items: flex-end;
 		margin-bottom: 1.5rem;
 		padding: 0.875rem;
-		background: var(--bg-deep);
-		border: 1px solid var(--bg-elevated);
+		background: var(--night-deep);
+		border: 1px solid var(--stone-warm);
 		border-radius: 8px;
 	}
 
@@ -407,16 +407,16 @@
 		label {
 			font-size: 0.8rem;
 			font-weight: 500;
-			color: var(--text-secondary);
+			color: var(--ink-mid);
 		}
 
 		select {
 			padding: 0.4rem 0.625rem;
 			font-size: 0.8rem;
-			border: 1px solid var(--bg-elevated);
+			border: 1px solid var(--stone-warm);
 			border-radius: 6px;
-			background: var(--bg-surface);
-			color: var(--text-primary);
+			background: var(--stone-warm);
+			color: var(--ink-bright);
 			min-width: 150px;
 		}
 	}
@@ -451,14 +451,14 @@
 		flex-direction: column;
 		align-items: center;
 		padding: 3rem;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 	}
 
 	.spinner {
 		width: 32px;
 		height: 32px;
-		border: 3px solid var(--bg-elevated);
-		border-top-color: var(--primary);
+		border: 3px solid var(--stone-warm);
+		border-top-color: var(--lamp-glow);
 		border-radius: 50%;
 		animation: spin 0.7s linear infinite;
 	}
@@ -471,7 +471,7 @@
 
 	.results-header h2 {
 		font-size: 1.1rem;
-		color: var(--text-primary);
+		color: var(--ink-bright);
 		margin-bottom: 1.25rem;
 	}
 
@@ -484,15 +484,15 @@
 	.result-card {
 		display: block;
 		padding: 1.25rem;
-		background: var(--bg-surface);
-		border: 1px solid var(--bg-elevated);
+		background: var(--stone-warm);
+		border: 1px solid var(--stone-warm);
 		border-radius: 12px;
 		text-decoration: none;
 		color: inherit;
 		transition: all 0.15s ease;
 
 		&:hover {
-			border-color: var(--primary);
+			border-color: var(--lamp-glow);
 			box-shadow: var(--glow-sm);
 			transform: translateY(-1px);
 		}
@@ -534,14 +534,14 @@
 	.result-title {
 		font-size: 1rem;
 		font-weight: 600;
-		color: var(--text-primary);
+		color: var(--ink-bright);
 		margin-bottom: 0.375rem;
 		line-height: 1.4;
 	}
 
 	.result-description {
 		font-size: 0.8rem;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 		line-height: 1.5;
 		margin-bottom: 0.75rem;
 	}
@@ -560,7 +560,7 @@
 
 		&.category {
 			background: rgba(139, 92, 246, 0.1);
-			color: var(--accent);
+			color: var(--lamp-glow);
 		}
 
 		&.type {
@@ -573,13 +573,13 @@
 		display: flex;
 		justify-content: space-between;
 		font-size: 0.7rem;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 	}
 
 	.empty-state {
 		text-align: center;
 		padding: 3rem 1.5rem;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 
 		.hint {
 			font-size: 0.8rem;
@@ -599,21 +599,21 @@
 		font-size: 0.8rem;
 		font-weight: 500;
 		text-decoration: none;
-		color: var(--text-secondary);
-		border: 1px solid var(--bg-elevated);
+		color: var(--ink-mid);
+		border: 1px solid var(--stone-warm);
 		border-radius: 8px;
-		background: var(--bg-surface);
+		background: var(--stone-warm);
 		transition: all 0.15s ease;
 
 		&:hover {
-			color: var(--primary);
-			border-color: var(--primary);
+			color: var(--lamp-glow);
+			border-color: var(--lamp-glow);
 		}
 
 		&.active {
-			background: var(--primary);
+			background: var(--lamp-glow);
 			color: white;
-			border-color: var(--primary);
+			border-color: var(--lamp-glow);
 		}
 	}
 

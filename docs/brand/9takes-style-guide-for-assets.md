@@ -1,5 +1,7 @@
 <!-- docs/brand/9takes-style-guide-for-assets.md -->
 
+> ⚠️ **ARCHIVED 2026-05-04** — Historical reference only. The locked design system is in `docs/design-system.md` (Streetlamp Symposium · sodium-amber primary · Inter typography). Asset-generation tools migrate to V5 styles in Phase 6 of `docs/design/2026-05-04-rollout-plan.md`.
+
 # 9takes Complete Style Guide for Image Asset Creation
 
 _Use this document when creating Instagram carousels, social graphics, thumbnails, or any visual assets for 9takes._

@@ -110,7 +110,7 @@
 
 	.brand {
 		margin: 0;
-		font-family: 'Space Grotesk', 'Helvetica Neue', sans-serif;
+		font-family: 'Inter Variable', 'Inter', 'Helvetica Neue', sans-serif;
 		font-size: 26px;
 		font-weight: 700;
 		letter-spacing: 0.04em;
@@ -140,7 +140,7 @@
 
 	.url {
 		margin: 0;
-		font-family: 'Space Grotesk', 'Helvetica Neue', sans-serif;
+		font-family: 'Inter Variable', 'Inter', 'Helvetica Neue', sans-serif;
 		font-size: 24px;
 		font-weight: 600;
 		letter-spacing: 0.01em;

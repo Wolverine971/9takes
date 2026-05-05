@@ -90,21 +90,21 @@
 <style>
 	.waitlist-section {
 		text-align: center;
-		border: 1px solid color-mix(in srgb, var(--text-tertiary) 30%, transparent);
+		border: 1px solid color-mix(in srgb, var(--ink-dim) 30%, transparent);
 		padding: 2rem;
 		border-radius: 12px;
-		background: linear-gradient(135deg, var(--bg-surface) 0%, var(--bg-base) 100%);
+		background: linear-gradient(135deg, var(--stone-warm) 0%, var(--night-deep) 100%);
 		box-shadow: 0 0 20px rgba(45, 212, 191, 0.1);
 	}
 	.waitlist-section h2 {
 		margin-top: 0;
 		margin-bottom: 0.5rem;
-		color: var(--text-primary);
+		color: var(--ink-bright);
 	}
 	.waitlist-section p {
 		margin-top: 0;
 		margin-bottom: 1.25rem;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 	}
 	.waitlist-form {
 		display: flex;
@@ -118,13 +118,13 @@
 		margin-bottom: 10px;
 		padding: 10px;
 		border-radius: 8px;
-		border: 1px solid color-mix(in srgb, var(--text-tertiary) 30%, transparent);
-		background-color: var(--bg-elevated);
-		color: var(--text-primary);
+		border: 1px solid color-mix(in srgb, var(--ink-dim) 30%, transparent);
+		background-color: var(--stone-warm);
+		color: var(--ink-bright);
 	}
 	.waitlist-form input:focus {
 		outline: none;
-		border-color: var(--primary-dark);
+		border-color: var(--lamp-glow);
 		box-shadow: 0 0 10px rgba(45, 212, 191, 0.3);
 	}
 	.waitlist-form button {
@@ -133,8 +133,8 @@
 		border: none;
 		cursor: pointer;
 		color: white;
-		background-color: var(--primary-dark);
-		border: 1px solid var(--primary-dark);
+		background-color: var(--lamp-glow);
+		border: 1px solid var(--lamp-glow);
 		width: 155px;
 		font-weight: 600;
 		transition: all 0.2s ease;
@@ -146,12 +146,12 @@
 		box-shadow: none;
 	}
 	.waitlist-form button:hover {
-		background-color: var(--accent-dark);
+		background-color: var(--lamp-glow);
 		box-shadow: 0 0 25px rgba(45, 212, 191, 0.4);
 		transform: translateY(-2px);
 	}
 	.waitlist-form button:disabled:hover {
-		background-color: var(--primary-dark);
+		background-color: var(--lamp-glow);
 		box-shadow: none;
 		transform: none;
 	}
@@ -189,15 +189,15 @@
 		}
 	}
 	::placeholder {
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 		opacity: 1;
 	}
 
 	:-ms-input-placeholder {
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 	}
 
 	::-ms-input-placeholder {
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 	}
 </style>

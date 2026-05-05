@@ -1,24 +1,11 @@
 {
-	"lastUpdated": "2026-05-03T06:19:00Z",
+	"lastUpdated": "2026-05-04T06:12:00Z",
 	"stats": {
 		"totalUnpublished": 115,
 		"totalPublished": 266,
 		"completionRate": "69.8%"
 	},
 	"queue": [
-		{
-			"name": "marie-curie",
-			"displayName": "Marie Curie",
-			"type": 5,
-			"priority": 81,
-			"priorityReason": "Fills Type 5 gap, historical women gap, evergreen search, science audience",
-			"estimatedTraffic": "high",
-			"searchVolume": "high",
-			"personaTitle": null,
-			"addedToQueue": "2026-04-03",
-			"retryCount": 0,
-			"strategicValue": "fills-type-5-gap"
-		},
 		{
 			"name": "whitney-wolfe-herd",
 			"displayName": "Whitney Wolfe Herd",
@@ -161,19 +148,6 @@
 			"addedToQueue": "2026-04-10",
 			"retryCount": 0,
 			"strategicValue": "hollywood-rising-star-cluster"
-		},
-		{
-			"name": "anna-wintour",
-			"displayName": "Anna Wintour",
-			"type": 1,
-			"priority": 68,
-			"priorityReason": "Fashion power broker, iconic public persona, and strong perfectionist analysis potential",
-			"estimatedTraffic": "high",
-			"searchVolume": "high",
-			"personaTitle": null,
-			"addedToQueue": "2026-04-10",
-			"retryCount": 0,
-			"strategicValue": "fashion-power-cluster"
 		},
 		{
 			"name": "andrew-garfield",
@@ -384,19 +358,6 @@
 			"strategicValue": "alt-pop-eccentric-cluster"
 		},
 		{
-			"name": "teyana-taylor",
-			"displayName": "Teyana Taylor",
-			"type": 8,
-			"priority": 50,
-			"priorityReason": "Multi-hyphenate singer-dancer-actor with One of Them Days momentum, fierce creative autonomy, and a strong Type 8 performer analysis angle",
-			"estimatedTraffic": "high",
-			"searchVolume": "high",
-			"personaTitle": null,
-			"addedToQueue": "2026-04-18",
-			"retryCount": 0,
-			"strategicValue": "contemporary-music-cluster"
-		},
-		{
 			"name": "julia-fox",
 			"displayName": "Julia Fox",
 			"type": 4,
@@ -476,6 +437,33 @@
 		}
 	],
 	"completed": [
+		{
+			"name": "marie-curie",
+			"displayName": "Marie Curie",
+			"type": 5,
+			"priority": 81,
+			"priorityReason": "Fills Type 5 gap, historical women gap, evergreen search, science audience",
+			"estimatedTraffic": "high",
+			"searchVolume": "high",
+			"personaTitle": "Science's Patient Excavator",
+			"addedToQueue": "2026-04-03",
+			"retryCount": 0,
+			"strategicValue": "fills-type-5-gap",
+			"startedAt": "2026-05-04T06:00:52Z",
+			"completedAt": "2026-05-04T06:12:00Z",
+			"contentGrade": 8.9,
+			"letterGrade": "B+",
+			"duration": 11,
+			"needsReview": false,
+			"coreTension": "The mind that decided not to fear couldn't fear what was killing the body — knowledge as the elemental fortress that quietly absorbed her.",
+			"contentRubric": {
+				"hook": 9.0,
+				"enneagram": 9.0,
+				"evidence": 8.5,
+				"writing": 9.0,
+				"originality": 9.0
+			}
+		},
 		{
 			"name": "david-goggins",
 			"displayName": "David Goggins",
@@ -651,6 +639,38 @@
 	],
 	"inProgress": null,
 	"skipped": [
+		{
+			"name": "anna-wintour",
+			"displayName": "Anna Wintour",
+			"type": 1,
+			"priority": 68,
+			"priorityReason": "Fashion power broker, iconic public persona, and strong perfectionist analysis potential",
+			"estimatedTraffic": "high",
+			"searchVolume": "high",
+			"personaTitle": null,
+			"addedToQueue": "2026-04-10",
+			"retryCount": 0,
+			"strategicValue": "fashion-power-cluster",
+			"skippedAt": "2026-05-04T06:00:52Z",
+			"skipReason": "draft already exists",
+			"skipDetail": "Draft exists at src/blog/people/drafts/Anna-Wintour.md (28KB, modified 2026-05-03)"
+		},
+		{
+			"name": "teyana-taylor",
+			"displayName": "Teyana Taylor",
+			"type": 8,
+			"priority": 50,
+			"priorityReason": "Multi-hyphenate singer-dancer-actor with One of Them Days momentum, fierce creative autonomy, and a strong Type 8 performer analysis angle",
+			"estimatedTraffic": "high",
+			"searchVolume": "high",
+			"personaTitle": null,
+			"addedToQueue": "2026-04-18",
+			"retryCount": 0,
+			"strategicValue": "contemporary-music-cluster",
+			"skippedAt": "2026-05-04T06:00:52Z",
+			"skipReason": "draft already exists",
+			"skipDetail": "Draft exists at src/blog/people/drafts/Teyana-Taylor.md (25KB, modified 2026-04-30)"
+		},
 		{
 			"name": "lionel-messi",
 			"displayName": "Lionel Messi",

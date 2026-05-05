@@ -47,11 +47,11 @@
 		font-size: 2rem;
 		font-weight: 400;
 		margin: 1rem;
-		color: var(--accent) !important;
+		color: var(--lamp-glow) !important;
 		display: flex;
 		text-shadow:
-			-1px -1px 0 var(--primary),
-			1px -1px 0 var(--primary),
+			-1px -1px 0 var(--lamp-glow),
+			1px -1px 0 var(--lamp-glow),
 			-1px 1px 0 #000,
 			1px 1px 0 #000;
 	}

@@ -1,0 +1,51 @@
+[2026-05-04 02:03:01] [INFO] Starting daily blog creator (non-interactive)
+[2026-05-04 02:03:01] [INFO] Override checks: pause=false, forceNext=null
+[2026-05-04 02:03:01] [INFO] Rate limit: 1/5 this week (weekStartDate 2026-05-01)
+[2026-05-04 02:03:01] [INFO] SKIPPED: anna-wintour - draft exists at src/blog/people/drafts/Anna-Wintour.md
+[2026-05-04 02:03:01] [INFO] SKIPPED: teyana-taylor - draft exists at src/blog/people/drafts/Teyana-Taylor.md
+[2026-05-04 02:03:01] [INFO] SELECTED: marie-curie (Type 5, Priority: 81)
+[2026-05-04 02:03:01] [INFO] Reason: Fills Type 5 gap, historical women gap, evergreen search, science audience
+[2026-05-04 02:03:01] [INFO] Executing blog_content_creator_people for marie-curie...
+[2026-05-04 02:12:26] [INFO] Draft created at src/blog/people/drafts/Marie-Curie.md
+[2026-05-04 02:12:26] [INFO] Word count: 5921
+[2026-05-04 02:12:26] [INFO] Internal links added: 4
+[2026-05-04 02:12:26] [SUCCESS] Grade: 8.9 (B+) - hook:9.0 enneagram:9.0 evidence:8.5 writing:9.0 originality:9.0
+[2026-05-04 02:13:02] [INFO] Queue updated - marie-curie moved to completed
+[2026-05-04 02:13:02] [INFO] Rate limit incremented to 2/5
+[2026-05-04 02:13:02] [SUCCESS] Daily blog creator complete
+Daily blog creator workflow complete. Summary below.
+
+```
+=== DAILY BLOG CREATOR SUMMARY ===
+Date: 2026-05-04
+Status: SUCCESS
+Mode: non-interactive
+
+Selected: Marie Curie (Type 5, Priority 81)
+Reason: Fills Type 5 gap, historical women gap, evergreen search, science audience
+
+Skipped during pre-flight (drafts already exist):
+  - Anna Wintour → /src/blog/people/drafts/Anna-Wintour.md
+  - Teyana Taylor → /src/blog/people/drafts/Teyana-Taylor.md
+
+Draft: /src/blog/people/drafts/Marie-Curie.md (35.6 KB, 5,921 words)
+Persona: "Science's Patient Excavator"
+Core tension: Mastery vs. self-protection — the mind that decided not to fear couldn't fear what was killing the body.
+Internal links: 4 (Type 8, Type 5 relationship guide, depression patterns, head-type overthinking)
+
+Grade: 8.9 (B+) — at publication handoff threshold
+  Hook: 9.0   Enneagram: 9.0   Evidence: 8.5   Writing: 9.0   Originality: 9.0
+
+Status: production_pretext = draft (human review required before /blog_content_production_people)
+Limitations: No primary podcast/YouTube transcripts — historical figure (1867-1934). Sourcing relied on her autobiographical notes, AIP/Nobel archives, Ève Curie's biography, and Wikipedia/contemporary sources.
+
+Queue state: 33 queued, 14 completed, 13 skipped, 0 failed
+Rate limit: 2/5 this week (week starting 2026-05-01)
+Next blog in queue: Whitney Wolfe Herd (Type 2, Priority 79)
+===================================
+```
+
+Notes for human review before promoting `production_pretext` to `ready`:
+- Verify the typing call (5w6, sp-dom). I leaned heavily on the fortress-mind / scarcity-economy patterns and her growth move to 8 (1911 Nobel defiance + petites Curies).
+- Spot-check direct quotes (especially "joy was to go into our workroom" and the Stockholm letter) against AIP/Wikiquote before publish.
+- Working notes left in an HTML comment at the top of the draft for transparency.

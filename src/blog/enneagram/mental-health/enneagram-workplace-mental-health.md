@@ -75,15 +75,6 @@ Every type has a workplace kryptonite—the specific condition that breaks them.
 - Type 6: Can't trust the leadership
 - Type 7: Trapped in monotony
 
-<div class="scroll-fade">
-<MarqueeHorizontal displayList={[
-  { name: "Enneagram Addiction Recovery Guide", link: "/enneagram-corner/mental-health/enneagram-addiction-recovery-guide" },
-  { name: "Enneagram Crisis Management Guide", link: "/enneagram-corner/mental-health/enneagram-crisis-management-guide" },
-  { name: "Enneagram Therapy Guide", link: "/enneagram-corner/mental-health/enneagram-therapy-guide" },
-  { name: "Enneagram Trauma Response Guide", link: "/enneagram-corner/mental-health/enneagram-trauma-response-guide" }
-]} />
-</div>
-
 ## Type 1: The Perfectionist's Burnout
 
 **Bottom Line**: You're killing yourself trying to fix a broken system. Stop.

@@ -92,8 +92,8 @@
 		justify-content: space-between;
 		gap: 10px;
 		padding: 14px 16px;
-		background: var(--bg-surface);
-		border: 1px solid var(--bg-elevated);
+		background: var(--stone-warm);
+		border: 1px solid var(--stone-warm);
 		border-radius: 10px;
 		transition: all 0.2s ease;
 		text-decoration: none;
@@ -101,11 +101,11 @@
 	}
 
 	.stat-card:hover {
-		border-color: var(--bg-highlight);
+		border-color: var(--stone-warm);
 	}
 
 	.stat-card.clickable:hover {
-		border-color: var(--primary);
+		border-color: var(--lamp-glow);
 		box-shadow: var(--glow-sm);
 		transform: translateY(-2px);
 	}
@@ -117,12 +117,12 @@
 	}
 
 	.stat-primary:hover {
-		border-color: var(--primary);
+		border-color: var(--lamp-glow);
 		box-shadow: var(--glow-sm);
 	}
 
 	.stat-primary .stat-value {
-		color: var(--primary-light);
+		color: var(--lamp-glow);
 	}
 
 	.stat-success {
@@ -186,7 +186,7 @@
 	.stat-label {
 		font-size: 0.6875rem;
 		font-weight: 600;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 		text-transform: uppercase;
 		letter-spacing: 0.3px;
 		white-space: nowrap;
@@ -204,7 +204,7 @@
 	.stat-value {
 		font-size: 1.5rem;
 		font-weight: 700;
-		color: var(--text-primary);
+		color: var(--ink-bright);
 		line-height: 1.1;
 		opacity: 0;
 		transform: translateY(4px);
@@ -242,7 +242,7 @@
 
 	.stat-sub {
 		font-size: 0.6875rem;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 		white-space: nowrap;
 		overflow: hidden;
 		text-overflow: ellipsis;
@@ -261,14 +261,15 @@
 
 	.sparkline-line {
 		fill: none;
-		stroke: var(--primary-light);
+		stroke: var(--lamp-glow);
 		stroke-width: 2;
 		stroke-linecap: round;
 		stroke-linejoin: round;
 		stroke-dasharray: 200;
 		stroke-dashoffset: 200;
 		transition: stroke-dashoffset 0s;
-		filter: drop-shadow(0 0 3px var(--primary-glow));
+		/* Phase 2 (2026-05-04): drop-shadow on sparkline removed per Kole audit §8 +
+		   design-system.md §5. Charts read as data first, decoration second. */
 	}
 
 	.sparkline-line.animate {
@@ -278,17 +279,14 @@
 
 	.stat-success .sparkline-line {
 		stroke: var(--success-text);
-		filter: drop-shadow(0 0 3px rgba(16, 185, 129, 0.5));
 	}
 
 	.stat-warning .sparkline-line {
 		stroke: var(--warning);
-		filter: drop-shadow(0 0 3px rgba(245, 158, 11, 0.5));
 	}
 
 	.stat-danger .sparkline-line {
 		stroke: #f87171;
-		filter: drop-shadow(0 0 3px rgba(239, 68, 68, 0.5));
 	}
 
 	/* Tablet */

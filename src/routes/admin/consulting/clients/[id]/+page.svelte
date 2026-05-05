@@ -820,14 +820,14 @@
 
 	.back-link {
 		font-size: 0.8rem;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 		text-decoration: none;
 		margin-bottom: 0.25rem;
 		display: inline-block;
 	}
 
 	.back-link:hover {
-		color: var(--primary);
+		color: var(--lamp-glow);
 	}
 
 	.page-header h1 {
@@ -836,7 +836,7 @@
 	}
 
 	.client-email {
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 		margin: 0.25rem 0 0;
 		font-size: 0.875rem;
 	}
@@ -849,8 +849,8 @@
 
 	/* Section Cards */
 	.section-card {
-		background: var(--bg-surface);
-		border: 1px solid var(--bg-elevated);
+		background: var(--stone-warm);
+		border: 1px solid var(--stone-warm);
 		border-radius: 12px;
 		padding: 1rem;
 		margin-bottom: 1rem;
@@ -886,7 +886,7 @@
 	.subsection-title {
 		font-size: 0.75rem;
 		text-transform: uppercase;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 		margin: 1rem 0 0.5rem;
 		letter-spacing: 0.5px;
 	}
@@ -913,7 +913,7 @@
 	.info-label {
 		font-size: 0.7rem;
 		text-transform: uppercase;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 		letter-spacing: 0.5px;
 	}
 
@@ -1001,7 +1001,7 @@
 	}
 
 	.unknown {
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 		font-size: 0.875rem;
 	}
 
@@ -1040,19 +1040,19 @@
 
 	.intake-date {
 		font-size: 0.75rem;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 	}
 
 	.intake-link-section {
 		margin-top: 0.75rem;
 		padding: 0.75rem;
-		background: var(--bg-deep);
+		background: var(--night-deep);
 		border-radius: 6px;
 	}
 
 	.intake-link-label {
 		font-size: 0.75rem;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 		margin: 0 0 0.5rem;
 	}
 
@@ -1065,8 +1065,8 @@
 	.intake-link {
 		flex: 1;
 		padding: 0.375rem 0.5rem;
-		background: var(--bg-deep);
-		border: 1px solid var(--bg-elevated);
+		background: var(--night-deep);
+		border: 1px solid var(--stone-warm);
 		border-radius: 4px;
 		font-size: 0.75rem;
 		overflow: hidden;
@@ -1084,7 +1084,7 @@
 		font-size: 0.75rem;
 		font-weight: 600;
 		margin: 0 0 0.25rem;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 	}
 
 	.response-item p {
@@ -1104,7 +1104,7 @@
 		align-items: center;
 		gap: 1rem;
 		padding: 0.5rem;
-		background: var(--bg-deep);
+		background: var(--night-deep);
 		border-radius: 6px;
 	}
 
@@ -1125,7 +1125,7 @@
 
 	.session-time {
 		font-size: 0.7rem;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 	}
 
 	.session-info {
@@ -1143,7 +1143,7 @@
 
 	.session-duration {
 		font-size: 0.7rem;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 	}
 
 	.session-status {
@@ -1154,7 +1154,7 @@
 
 	.session-link {
 		font-size: 0.75rem;
-		color: var(--primary);
+		color: var(--lamp-glow);
 		text-decoration: none;
 	}
 
@@ -1167,9 +1167,9 @@
 
 	.note-item {
 		padding: 0.75rem;
-		background: var(--bg-deep);
+		background: var(--night-deep);
 		border-radius: 6px;
-		border-left: 3px solid var(--bg-elevated);
+		border-left: 3px solid var(--stone-warm);
 	}
 
 	.note-observation {
@@ -1201,13 +1201,13 @@
 	.note-type {
 		font-size: 0.65rem;
 		text-transform: uppercase;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 		letter-spacing: 0.5px;
 	}
 
 	.note-date {
 		font-size: 0.65rem;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 	}
 
 	.note-title {
@@ -1234,10 +1234,10 @@
 		width: 100%;
 		padding: 0.5rem;
 		text-align: center;
-		background: var(--bg-deep);
-		border: 1px solid var(--bg-elevated);
+		background: var(--night-deep);
+		border: 1px solid var(--stone-warm);
 		border-radius: 6px;
-		color: var(--text-primary);
+		color: var(--ink-bright);
 		text-decoration: none;
 		font-size: 0.8rem;
 		cursor: pointer;
@@ -1245,13 +1245,13 @@
 
 	.action-btn:hover {
 		background: rgba(99, 102, 241, 0.1);
-		border-color: var(--primary);
+		border-color: var(--lamp-glow);
 	}
 
 	.action-btn.email-btn {
-		background: var(--primary);
+		background: var(--lamp-glow);
 		color: white;
-		border-color: var(--primary);
+		border-color: var(--lamp-glow);
 	}
 
 	.action-btn.email-btn:hover {
@@ -1284,7 +1284,7 @@
 
 	.ref-link {
 		font-size: 0.8rem;
-		color: var(--primary);
+		color: var(--lamp-glow);
 		text-decoration: none;
 	}
 
@@ -1299,12 +1299,12 @@
 	}
 
 	.origin-goal {
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 		font-style: italic;
 	}
 
 	.empty-note {
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 		font-size: 0.875rem;
 		text-align: center;
 		padding: 1rem;
@@ -1326,7 +1326,7 @@
 	.form-group select,
 	.form-group textarea {
 		padding: 0.5rem 0.75rem;
-		border: 1px solid var(--bg-elevated);
+		border: 1px solid var(--stone-warm);
 		border-radius: 12px;
 		font-size: 0.875rem;
 		font-family: inherit;
@@ -1335,7 +1335,7 @@
 	.form-footer {
 		margin-top: 1rem;
 		padding-top: 1rem;
-		border-top: 1px solid var(--bg-elevated);
+		border-top: 1px solid var(--stone-warm);
 	}
 
 	.form-row {
@@ -1364,14 +1364,14 @@
 	}
 
 	.btn-primary {
-		background: var(--primary);
+		background: var(--lamp-glow);
 		color: white;
 	}
 
 	.btn-secondary {
-		background: var(--bg-deep);
-		border: 1px solid var(--bg-elevated);
-		color: var(--text-primary);
+		background: var(--night-deep);
+		border: 1px solid var(--stone-warm);
+		color: var(--ink-bright);
 	}
 
 	.btn-danger {
@@ -1395,7 +1395,7 @@
 	}
 
 	.modal {
-		background: var(--bg-surface);
+		background: var(--stone-warm);
 		border-radius: 12px;
 		width: 100%;
 		max-width: 450px;
@@ -1406,7 +1406,7 @@
 		justify-content: space-between;
 		align-items: center;
 		padding: 1rem;
-		border-bottom: 1px solid var(--bg-elevated);
+		border-bottom: 1px solid var(--stone-warm);
 	}
 
 	.modal-header h2 {
@@ -1419,7 +1419,7 @@
 		border: none;
 		font-size: 1.25rem;
 		cursor: pointer;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 	}
 
 	.modal-body {
@@ -1434,7 +1434,7 @@
 		justify-content: flex-end;
 		gap: 0.5rem;
 		padding: 1rem;
-		border-top: 1px solid var(--bg-elevated);
+		border-top: 1px solid var(--stone-warm);
 	}
 
 	@media (max-width: 768px) {

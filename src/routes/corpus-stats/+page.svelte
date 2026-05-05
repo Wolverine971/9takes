@@ -319,8 +319,8 @@
 
 <style>
 	.corpus-page {
-		background: var(--bg-base);
-		color: var(--text-primary);
+		background: var(--night-deep);
+		color: var(--ink-bright);
 		min-height: 100vh;
 		padding: 3rem 0 5rem;
 	}
@@ -334,7 +334,7 @@
 	.page-hero {
 		text-align: left;
 		padding-bottom: 2.5rem;
-		border-bottom: 1px solid var(--border-color);
+		border-bottom: 1px solid var(--stone-edge);
 		margin-bottom: 2.5rem;
 	}
 
@@ -350,14 +350,14 @@
 		font-family: var(--font-mono);
 		font-size: 0.7rem;
 		letter-spacing: 0.1em;
-		color: var(--shadow-flame, var(--primary));
+		color: var(--shadow-flame, var(--lamp-glow));
 	}
 	.badge-dot {
 		width: 5px;
 		height: 5px;
 		border-radius: 50%;
-		background: var(--shadow-flame, var(--primary));
-		box-shadow: 0 0 8px var(--primary);
+		background: var(--shadow-flame, var(--lamp-glow));
+		box-shadow: 0 0 8px var(--lamp-glow);
 	}
 
 	h1 {
@@ -367,25 +367,25 @@
 		line-height: 1.15;
 		letter-spacing: -0.015em;
 		margin: 0 0 0.85rem;
-		color: var(--text-primary);
+		color: var(--ink-bright);
 		text-wrap: balance;
 	}
 
 	.hero-lede {
 		font-size: 1.05rem;
 		line-height: 1.6;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 		max-width: 680px;
 		margin: 0 0 0.75rem;
 	}
 
 	.hero-meta {
 		font-size: 0.9rem;
-		color: var(--text-muted);
+		color: var(--ink-dim);
 		margin: 0;
 	}
 	.hero-meta a {
-		color: var(--shadow-flame, var(--primary));
+		color: var(--shadow-flame, var(--lamp-glow));
 	}
 
 	.page-section {
@@ -396,16 +396,16 @@
 		font-size: clamp(1.3rem, 2.4vw, 1.65rem);
 		font-weight: 700;
 		margin: 0 0 0.75rem;
-		color: var(--text-primary);
+		color: var(--ink-bright);
 	}
 	.page-section p.lede {
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 		line-height: 1.6;
 		margin: 0 0 1rem;
 		max-width: 720px;
 	}
 	.page-section .note {
-		color: var(--text-muted);
+		color: var(--ink-dim);
 		font-size: 0.9rem;
 		margin-top: 0.75rem;
 	}
@@ -420,9 +420,9 @@
 	}
 	.tldr-list li {
 		padding: 1rem 1.15rem;
-		background: linear-gradient(180deg, var(--bg-surface) 0%, var(--bg-deep) 100%);
+		background: linear-gradient(180deg, var(--stone-warm) 0%, var(--night-deep) 100%);
 		border: 1px solid rgba(45, 212, 191, 0.18);
-		border-left: 3px solid var(--shadow-flame, var(--primary));
+		border-left: 3px solid var(--shadow-flame, var(--lamp-glow));
 		border-radius: 10px;
 		line-height: 1.55;
 	}
@@ -435,23 +435,23 @@
 	}
 	.total-tile {
 		padding: 1.25rem 1rem;
-		border: 1px solid var(--border-color);
+		border: 1px solid var(--stone-edge);
 		border-radius: 10px;
-		background: var(--bg-surface);
+		background: var(--stone-warm);
 	}
 	.total-tile.accent {
 		border-color: rgba(45, 212, 191, 0.35);
 		background: linear-gradient(
 			180deg,
-			color-mix(in srgb, var(--primary) 4%, var(--bg-surface)) 0%,
-			var(--bg-deep) 100%
+			color-mix(in srgb, var(--lamp-glow) 4%, var(--stone-warm)) 0%,
+			var(--night-deep) 100%
 		);
 	}
 	.total-value {
 		font-family: var(--font-display);
 		font-size: 2rem;
 		font-weight: 700;
-		color: var(--shadow-flame, var(--primary));
+		color: var(--shadow-flame, var(--lamp-glow));
 		line-height: 1;
 	}
 	.total-label {
@@ -460,15 +460,15 @@
 		font-size: 0.75rem;
 		letter-spacing: 0.06em;
 		text-transform: uppercase;
-		color: var(--text-mist, var(--text-secondary));
+		color: var(--text-mist, var(--ink-mid));
 	}
 
 	/* ===== Domain details ===== */
 	.domain-block {
-		border: 1px solid var(--border-color);
+		border: 1px solid var(--stone-edge);
 		border-radius: 10px;
 		margin-bottom: 0.75rem;
-		background: var(--bg-surface);
+		background: var(--stone-warm);
 	}
 	.domain-block summary {
 		cursor: pointer;
@@ -488,21 +488,21 @@
 		font-size: 1.05rem;
 	}
 	.domain-name a {
-		color: var(--shadow-flame, var(--primary));
+		color: var(--shadow-flame, var(--lamp-glow));
 		text-decoration: none;
 	}
 	.domain-name a:hover {
 		text-decoration: underline;
 	}
 	.domain-meta {
-		color: var(--text-mist, var(--text-secondary));
+		color: var(--text-mist, var(--ink-mid));
 		font-size: 0.9rem;
 	}
 	.domain-block[open] {
 		padding-bottom: 1rem;
 	}
 	.domain-block[open] summary {
-		border-bottom: 1px solid var(--border-color);
+		border-bottom: 1px solid var(--stone-edge);
 		margin-bottom: 0.75rem;
 	}
 	.domain-block :global(.corpus-table) {
@@ -513,7 +513,7 @@
 		margin: 0.25rem 1.15rem 0.5rem;
 		font-size: 0.95rem;
 		line-height: 1.5;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 	}
 
 	/* ===== Per-type list ===== */
@@ -527,21 +527,21 @@
 		flex-wrap: wrap;
 		gap: 0.5rem 1rem;
 		padding: 0.6rem 0;
-		border-bottom: 1px solid var(--border-color);
+		border-bottom: 1px solid var(--stone-edge);
 	}
 	.per-type-label {
 		font-weight: 700;
 		min-width: 12rem;
-		color: var(--shadow-flame, var(--primary));
+		color: var(--shadow-flame, var(--lamp-glow));
 	}
 	.per-type-total {
 		font-family: var(--font-mono);
 		font-size: 0.82rem;
-		color: var(--text-mist, var(--text-secondary));
+		color: var(--text-mist, var(--ink-mid));
 		min-width: 4rem;
 	}
 	.per-type-domains {
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 		flex: 1 1 18rem;
 	}
 
@@ -553,14 +553,14 @@
 	}
 	.kv-list li {
 		padding: 0.45rem 0;
-		border-bottom: 1px solid var(--border-color);
+		border-bottom: 1px solid var(--stone-edge);
 		line-height: 1.5;
 	}
 	.kv-list code,
 	.page-section code {
 		font-family: var(--font-mono);
 		font-size: 0.88em;
-		background: var(--bg-deep);
+		background: var(--night-deep);
 		padding: 0.08em 0.35em;
 		border-radius: 4px;
 	}
@@ -569,9 +569,9 @@
 	.claims blockquote {
 		margin: 0 0 0.85rem;
 		padding: 0.85rem 1.1rem;
-		border-left: 3px solid var(--shadow-flame, var(--primary));
-		background: var(--bg-surface);
-		color: var(--text-primary);
+		border-left: 3px solid var(--shadow-flame, var(--lamp-glow));
+		background: var(--stone-warm);
+		color: var(--ink-bright);
 		border-radius: 0 8px 8px 0;
 		line-height: 1.55;
 		font-size: 0.98rem;
@@ -585,12 +585,12 @@
 		border-radius: 8px;
 		font-family: var(--font-mono);
 		font-size: 0.9rem;
-		color: var(--shadow-flame, var(--primary));
+		color: var(--shadow-flame, var(--lamp-glow));
 		text-decoration: none;
-		background: var(--bg-surface);
+		background: var(--stone-warm);
 	}
 	.download-link:hover {
-		background: color-mix(in srgb, var(--primary) 8%, var(--bg-surface));
+		background: color-mix(in srgb, var(--lamp-glow) 8%, var(--stone-warm));
 	}
 
 	@media (max-width: 640px) {

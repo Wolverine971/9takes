@@ -450,17 +450,17 @@
 
 <style lang="scss">
 	.resource-editor-page {
-		--resource-accent: var(--primary);
-		--resource-accent-strong: color-mix(in srgb, var(--primary) 28%, var(--bg-elevated));
-		--resource-accent-soft: color-mix(in srgb, var(--primary) 12%, transparent);
-		--resource-surface-border: color-mix(in srgb, var(--primary) 12%, var(--bg-elevated));
-		--resource-surface-border-strong: color-mix(in srgb, var(--primary) 22%, var(--bg-elevated));
-		--resource-surface: color-mix(in srgb, var(--bg-surface) 94%, var(--bg-deep));
-		--resource-surface-muted: color-mix(in srgb, var(--bg-surface) 84%, var(--bg-deep));
-		--resource-surface-deep: color-mix(in srgb, var(--bg-deep) 66%, var(--bg-surface));
-		--resource-hero-top: color-mix(in srgb, var(--bg-surface) 92%, var(--bg-deep));
-		--resource-hero-bottom: color-mix(in srgb, var(--bg-surface) 76%, var(--bg-deep));
-		--resource-shadow: 0 20px 40px color-mix(in srgb, var(--bg-deep) 20%, transparent);
+		--resource-accent: var(--lamp-glow);
+		--resource-accent-strong: color-mix(in srgb, var(--lamp-glow) 28%, var(--stone-warm));
+		--resource-accent-soft: color-mix(in srgb, var(--lamp-glow) 12%, transparent);
+		--resource-surface-border: color-mix(in srgb, var(--lamp-glow) 12%, var(--stone-warm));
+		--resource-surface-border-strong: color-mix(in srgb, var(--lamp-glow) 22%, var(--stone-warm));
+		--resource-surface: color-mix(in srgb, var(--stone-warm) 94%, var(--night-deep));
+		--resource-surface-muted: color-mix(in srgb, var(--stone-warm) 84%, var(--night-deep));
+		--resource-surface-deep: color-mix(in srgb, var(--night-deep) 66%, var(--stone-warm));
+		--resource-hero-top: color-mix(in srgb, var(--stone-warm) 92%, var(--night-deep));
+		--resource-hero-bottom: color-mix(in srgb, var(--stone-warm) 76%, var(--night-deep));
+		--resource-shadow: 0 20px 40px color-mix(in srgb, var(--night-deep) 20%, transparent);
 		--resource-warning: var(--warning, #f59e0b);
 		display: flex;
 		flex-direction: column;
@@ -496,7 +496,7 @@
 	.back-btn {
 		border: 1px solid var(--resource-surface-border);
 		background: var(--resource-surface-muted);
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 		border-radius: 999px;
 		padding: 0.65rem 0.9rem;
 		cursor: pointer;
@@ -505,7 +505,7 @@
 			color 0.2s ease;
 
 		&:hover {
-			color: var(--text-primary);
+			color: var(--ink-bright);
 			border-color: var(--resource-surface-border-strong);
 		}
 	}
@@ -530,7 +530,7 @@
 
 	.page-subtitle {
 		margin: 0.45rem 0 0;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 		max-width: 42rem;
 	}
 
@@ -569,7 +569,7 @@
 	.ghost-btn {
 		border: 1px solid var(--resource-surface-border);
 		background: var(--resource-surface-muted);
-		color: var(--text-primary);
+		color: var(--ink-bright);
 		padding: 0.72rem 1rem;
 		text-decoration: none;
 		cursor: pointer;
@@ -582,14 +582,14 @@
 
 	.primary-btn {
 		border: none;
-		background: linear-gradient(135deg, var(--primary), var(--primary-dark));
+		background: linear-gradient(135deg, var(--lamp-glow), var(--lamp-glow));
 		color: white;
 		padding: 0.78rem 1.1rem;
 		cursor: pointer;
 
 		&:hover:not(:disabled) {
 			transform: translateY(-1px);
-			box-shadow: 0 12px 24px color-mix(in srgb, var(--primary) 24%, transparent);
+			box-shadow: 0 12px 24px color-mix(in srgb, var(--lamp-glow) 24%, transparent);
 		}
 	}
 
@@ -627,7 +627,7 @@
 		}
 
 		span:last-child {
-			color: var(--text-secondary);
+			color: var(--ink-mid);
 			font-size: 0.86rem;
 		}
 	}
@@ -649,14 +649,14 @@
 		flex: 1;
 		border: 1px solid var(--resource-surface-border);
 		background: var(--resource-surface);
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 		padding: 0.72rem 0.95rem;
 		cursor: pointer;
 
 		&.active {
 			border-color: var(--resource-surface-border-strong);
 			background: var(--resource-accent-soft);
-			color: var(--text-primary);
+			color: var(--ink-bright);
 		}
 	}
 
@@ -692,7 +692,7 @@
 
 		p {
 			margin: 0;
-			color: var(--text-secondary);
+			color: var(--ink-mid);
 			font-size: 0.92rem;
 		}
 	}
@@ -712,7 +712,7 @@
 		span {
 			font-size: 0.82rem;
 			font-weight: 600;
-			color: var(--text-secondary);
+			color: var(--ink-mid);
 		}
 	}
 
@@ -727,7 +727,7 @@
 		border: 1px solid var(--resource-surface-border);
 		border-radius: 12px;
 		background: var(--resource-surface-muted);
-		color: var(--text-primary);
+		color: var(--ink-bright);
 		padding: 0.85rem 0.95rem;
 		font: inherit;
 	}
@@ -742,7 +742,7 @@
 	select:focus {
 		outline: none;
 		border-color: var(--resource-surface-border-strong);
-		box-shadow: 0 0 0 0.18rem color-mix(in srgb, var(--primary) 14%, transparent);
+		box-shadow: 0 0 0 0.18rem color-mix(in srgb, var(--lamp-glow) 14%, transparent);
 	}
 
 	.slug-row {
@@ -797,14 +797,14 @@
 		span {
 			margin-top: 0.25rem;
 			font-size: 0.85rem;
-			color: var(--text-secondary);
+			color: var(--ink-mid);
 		}
 	}
 
 	.note-list {
 		margin: 0;
 		padding-left: 1rem;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 
 		li + li {
 			margin-top: 0.55rem;
@@ -846,7 +846,7 @@
 
 		span,
 		small {
-			color: var(--text-secondary);
+			color: var(--ink-mid);
 			font-size: 0.82rem;
 			margin-top: 0.25rem;
 		}
@@ -862,7 +862,7 @@
 		padding: 0.45rem 0.7rem;
 		border-radius: 999px;
 		background: color-mix(in srgb, var(--resource-warning) 14%, transparent);
-		color: color-mix(in srgb, var(--resource-warning) 72%, var(--text-primary));
+		color: color-mix(in srgb, var(--resource-warning) 72%, var(--ink-bright));
 		font-size: 0.78rem;
 		font-weight: 600;
 	}
@@ -870,7 +870,7 @@
 	.resource-preview {
 		padding: 1.5rem;
 		border-radius: 16px;
-		background: color-mix(in srgb, var(--bg-surface) 76%, var(--bg-deep));
+		background: color-mix(in srgb, var(--stone-warm) 76%, var(--night-deep));
 		border: 1px solid var(--resource-surface-border);
 		line-height: 1.75;
 
@@ -919,7 +919,7 @@
 			padding: 0.95rem 1rem;
 			border-left: 3px solid var(--resource-accent);
 			background: color-mix(in srgb, var(--resource-accent) 10%, transparent);
-			color: var(--text-secondary);
+			color: var(--ink-mid);
 		}
 
 		:global(pre),
@@ -928,13 +928,13 @@
 		}
 
 		:global(code) {
-			background: color-mix(in srgb, var(--bg-deep) 72%, var(--bg-surface));
+			background: color-mix(in srgb, var(--night-deep) 72%, var(--stone-warm));
 			padding: 0.14rem 0.34rem;
 			border-radius: 6px;
 		}
 
 		:global(pre) {
-			background: color-mix(in srgb, var(--bg-deep) 82%, var(--bg-surface));
+			background: color-mix(in srgb, var(--night-deep) 82%, var(--stone-warm));
 			padding: 1rem;
 			border-radius: 12px;
 			overflow-x: auto;
@@ -970,7 +970,7 @@
 
 	.empty-note {
 		margin: 0;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 	}
 
 	@media (max-width: 1100px) {

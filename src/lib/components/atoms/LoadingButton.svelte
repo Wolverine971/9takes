@@ -92,43 +92,42 @@
 		transition: all 0.2s ease;
 
 		&--primary {
-			background: linear-gradient(135deg, var(--primary-dark) 0%, var(--primary-darker) 100%);
+			// Phase 2 (2026-05-04): solid bg, no resting glow. Locked per design-system.md §5.
+			background: var(--lamp-glow);
 			color: var(--text-on-primary);
-			box-shadow: var(--glow-sm);
 
 			&:hover:not(:disabled) {
-				background: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%);
-				box-shadow: var(--glow-md);
+				background: var(--lamp-glow);
 			}
 		}
 
 		&--secondary {
-			border: 1px solid color-mix(in srgb, var(--text-tertiary) 25%, transparent);
-			background: color-mix(in srgb, var(--bg-deep) 88%, transparent);
-			color: var(--text-secondary);
+			border: 1px solid color-mix(in srgb, var(--ink-dim) 25%, transparent);
+			background: color-mix(in srgb, var(--night-deep) 88%, transparent);
+			color: var(--ink-mid);
 
 			&:hover:not(:disabled) {
-				border-color: color-mix(in srgb, var(--primary) 35%, transparent);
+				border-color: color-mix(in srgb, var(--lamp-glow) 35%, transparent);
 				background: var(--primary-subtle);
-				color: var(--primary);
+				color: var(--lamp-glow);
 			}
 		}
 
 		&--danger {
-			background: linear-gradient(135deg, var(--error) 0%, var(--error-700) 100%);
+			background: var(--error);
 			color: var(--white);
 
 			&:hover:not(:disabled) {
-				filter: brightness(1.05);
+				background: var(--error-700);
 			}
 		}
 
 		&--success {
-			background: linear-gradient(135deg, var(--success) 0%, var(--success-text) 100%);
+			background: var(--success);
 			color: var(--white);
 
 			&:hover:not(:disabled) {
-				filter: brightness(1.05);
+				background: var(--success-text);
 			}
 		}
 

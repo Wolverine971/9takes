@@ -83,15 +83,6 @@ Find your center. The drug changes. The function doesn't.
 
 Most people have multiple addictions across these categories. Your secondary addictions often mask the primary escape pattern.
 
-<div class="scroll-fade">
-<MarqueeHorizontal displayList={[
-  { name: "Enneagram Crisis Management Guide", link: "/enneagram-corner/mental-health/enneagram-crisis-management-guide" },
-  { name: "Enneagram Therapy Guide", link: "/enneagram-corner/mental-health/enneagram-therapy-guide" },
-  { name: "Enneagram Trauma Response Guide", link: "/enneagram-corner/mental-health/enneagram-trauma-response-guide" },
-  { name: "Enneagram and Mental Health Science", link: "/enneagram-corner/mental-health/enneagram-science-mental-health" },
-  { name: "Enneagram Workplace Mental Health", link: "/enneagram-corner/mental-health/enneagram-workplace-mental-health" }
-]} />
-</div>
 
 ## Type 1: The Perfectionist's Addictions
 

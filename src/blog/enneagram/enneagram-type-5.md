@@ -44,7 +44,13 @@ type-5-fortress-mind
     import MarqueeHorizontal from "$lib/components/atoms/MarqueeHorizontal.svelte";
     import PopCard from "$lib/components/atoms/PopCard.svelte";
     import QuickAnswer from "$lib/components/blog/callouts/QuickAnswer.svelte";
+    import EnneagramTypeDossier from "$lib/components/blog/EnneagramTypeDossier.svelte";
+    import { enneagramTypeProfiles } from "$lib/data/enneagramTypeProfiles";
+
+    const dossier = enneagramTypeProfiles[5];
 </script>
+
+<EnneagramTypeDossier {...dossier} />
 
 <QuickAnswer question="Why do Type 5s withdraw from everyone?">
 Every interaction costs energy from a limited account. Fives retreat not because they're antisocial but because they learned early that the world takes more than it gives. Withdrawal isn't avoidance—it's resource management.
@@ -181,6 +187,24 @@ _What's happening is disintegration._
 When their primary defense (withdrawal and analysis) fails, Fives swing to its opposite: escape through expansion rather than contraction. The person who usually thinks before speaking cannot stop talking. The one who carefully conserves energy frantically pursues multiple activities. Without their usual structure, this expansion becomes chaos. Then they collapse and must withdraw completely to recover.
 
 Read more about <a href="/enneagram-corner/enneagram-stress-number">other types under stress</a>
+
+</section>
+
+<section class="section-content">
+
+## How 5s Handle Conflict: The Competency Approach
+
+Type 5s belong to the **Competency** Harmonic group (alongside 1s and 3s) — the types who detach from emotion and try to work the problem like a system.
+
+A company hits a crisis. The team is in fire-drill mode — Slack pinging every two minutes, all-hands calls, executives demanding a path forward by end of day. The Five disappears into research for four days and emerges with a brilliant 12-page analysis. The team has already shipped a fix. They needed a _direction_ by Tuesday, not a paper by Friday.
+
+That's the Competency move (Five-flavored): withdraw, think, return with a solution. The Five genuinely believes they're being most helpful by going deep alone. They are not refusing to engage — they are engaging, in the only way that feels safe and rigorous to them. The problem is that real-time problems often need real-time presence, not perfected output.
+
+**The blind spot**: Mistaking withdrawal for thoroughness. The Five thinks they're being careful; the team experiences abandonment. The "I'll come back when I have something solid" reflex protects the Five's competence at the cost of the team's progress.
+
+**The shift**: Re-enter before the solution is fully baked. Bring the half-built thing. Real-time collaboration is a skill, not a betrayal of depth — and your half-built ideas are usually better than the team's fully-formed ones.
+
+For the full framework, see [The Enneagram Harmonic Approaches](/enneagram-corner/enneagram-harmonic-approaches).
 
 </section>
 

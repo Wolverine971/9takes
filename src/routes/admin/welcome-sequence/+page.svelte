@@ -580,7 +580,7 @@
 	.empty-state {
 		text-align: center;
 		padding: 60px 20px;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 	}
 
 	.status-bar {
@@ -597,8 +597,8 @@
 		font-size: 0.75rem;
 		font-weight: 600;
 		text-transform: uppercase;
-		background: var(--bg-elevated);
-		color: var(--text-secondary);
+		background: var(--stone-warm);
+		color: var(--ink-mid);
 	}
 
 	.status-badge.active {
@@ -608,11 +608,11 @@
 
 	.meta {
 		font-size: 0.8125rem;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 	}
 
 	.link {
-		color: var(--primary);
+		color: var(--lamp-glow);
 		text-decoration: none;
 	}
 
@@ -628,7 +628,7 @@
 		font-size: 1.125rem;
 		font-weight: 600;
 		margin: 0 0 16px 0;
-		color: var(--text-primary);
+		color: var(--ink-bright);
 	}
 
 	.test-panel {
@@ -636,14 +636,14 @@
 		grid-template-columns: minmax(0, 0.9fr) minmax(320px, 1.1fr);
 		gap: 20px;
 		padding: 16px;
-		border: 1px solid var(--bg-elevated);
+		border: 1px solid var(--stone-warm);
 		border-radius: 8px;
-		background: var(--bg-surface);
+		background: var(--stone-warm);
 	}
 
 	.panel-copy p {
 		margin: 0;
-		color: var(--text-primary);
+		color: var(--ink-bright);
 		font-size: 0.875rem;
 		line-height: 1.5;
 	}
@@ -654,7 +654,7 @@
 
 	.info-note {
 		margin: 0 0 12px 0;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 		font-size: 0.8125rem;
 		line-height: 1.5;
 	}
@@ -667,7 +667,7 @@
 	.test-form label {
 		display: grid;
 		gap: 6px;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 		font-size: 0.75rem;
 		font-weight: 600;
 	}
@@ -676,18 +676,18 @@
 	.test-form select {
 		width: 100%;
 		min-height: 38px;
-		border: 1px solid var(--bg-elevated);
+		border: 1px solid var(--stone-warm);
 		border-radius: 6px;
-		background: var(--bg-base);
-		color: var(--text-primary);
+		background: var(--night-deep);
+		color: var(--ink-bright);
 		font-size: 0.875rem;
 		padding: 8px 10px;
 	}
 
 	.test-form input:focus,
 	.test-form select:focus {
-		outline: 2px solid color-mix(in srgb, var(--primary) 40%, transparent);
-		border-color: var(--primary);
+		outline: 2px solid color-mix(in srgb, var(--lamp-glow) 40%, transparent);
+		border-color: var(--lamp-glow);
 	}
 
 	.button-row {
@@ -697,9 +697,9 @@
 	}
 
 	.button-row button {
-		border: 1px solid var(--primary);
+		border: 1px solid var(--lamp-glow);
 		border-radius: 6px;
-		background: var(--primary);
+		background: var(--lamp-glow);
 		color: white;
 		padding: 8px 14px;
 		font-size: 0.8125rem;
@@ -718,7 +718,7 @@
 
 	.button-row .secondary-button {
 		background: transparent;
-		color: var(--primary);
+		color: var(--lamp-glow);
 	}
 
 	/* Funnel */
@@ -736,7 +736,7 @@
 
 	.funnel-bar {
 		height: 32px;
-		background: linear-gradient(90deg, var(--primary) 0%, var(--primary-dark, #1a6b5a) 100%);
+		background: linear-gradient(90deg, var(--lamp-glow) 0%, var(--primary-dark, #1a6b5a) 100%);
 		border-radius: 6px;
 		display: flex;
 		align-items: center;
@@ -753,12 +753,12 @@
 
 	.funnel-label {
 		font-size: 0.8125rem;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 		white-space: nowrap;
 	}
 
 	.funnel-pct {
-		color: var(--text-tertiary, var(--text-secondary));
+		color: var(--ink-mid);
 		font-size: 0.75rem;
 		margin-left: 4px;
 	}
@@ -772,7 +772,7 @@
 
 	.stat {
 		font-size: 0.8125rem;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 	}
 
 	.stat-value {
@@ -788,15 +788,15 @@
 	}
 
 	.summary-tile {
-		border: 1px solid var(--bg-elevated);
+		border: 1px solid var(--stone-warm);
 		border-radius: 8px;
-		background: var(--bg-surface);
+		background: var(--stone-warm);
 		padding: 12px;
 	}
 
 	.summary-value {
 		display: block;
-		color: var(--text-primary);
+		color: var(--ink-bright);
 		font-size: 1.25rem;
 		font-weight: 700;
 		line-height: 1;
@@ -805,7 +805,7 @@
 	.summary-label {
 		display: block;
 		margin-top: 4px;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 		font-size: 0.75rem;
 	}
 
@@ -820,7 +820,7 @@
 		max-width: 360px;
 		overflow: hidden;
 		text-overflow: ellipsis;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 		font-size: 0.75rem;
 		margin-top: 2px;
 	}
@@ -833,8 +833,8 @@
 	.copy-source {
 		display: inline-block;
 		border-radius: 6px;
-		background: var(--bg-elevated);
-		color: var(--text-secondary);
+		background: var(--stone-warm);
+		color: var(--ink-mid);
 		font-size: 0.6875rem;
 		font-weight: 600;
 		padding: 3px 8px;
@@ -849,8 +849,8 @@
 	}
 
 	.step-card {
-		background: var(--bg-surface);
-		border: 1px solid var(--bg-elevated);
+		background: var(--stone-warm);
+		border: 1px solid var(--stone-warm);
 		border-radius: 8px;
 		padding: 16px;
 	}
@@ -866,13 +866,13 @@
 		font-size: 0.75rem;
 		font-weight: 600;
 		text-transform: uppercase;
-		color: var(--primary);
+		color: var(--lamp-glow);
 	}
 
 	.step-delay {
 		font-size: 0.75rem;
-		color: var(--text-secondary);
-		background: var(--bg-elevated);
+		color: var(--ink-mid);
+		background: var(--stone-warm);
 		padding: 2px 8px;
 		border-radius: 8px;
 	}
@@ -892,13 +892,13 @@
 		font-size: 0.875rem;
 		font-weight: 600;
 		margin: 0 0 6px 0;
-		color: var(--text-primary);
+		color: var(--ink-bright);
 		line-height: 1.4;
 	}
 
 	.step-preheader {
 		margin: 0 0 12px 0;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 		font-size: 0.75rem;
 		line-height: 1.4;
 	}
@@ -918,20 +918,20 @@
 	.metric-value {
 		font-size: 1.25rem;
 		font-weight: 700;
-		color: var(--text-primary);
+		color: var(--ink-bright);
 		line-height: 1;
 	}
 
 	.metric-label {
 		font-size: 0.6875rem;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 		margin-top: 2px;
 	}
 
 	.toggle-content {
 		background: none;
-		border: 1px solid var(--bg-elevated);
-		color: var(--primary);
+		border: 1px solid var(--stone-warm);
+		color: var(--lamp-glow);
 		padding: 6px 12px;
 		border-radius: 6px;
 		font-size: 0.75rem;
@@ -940,13 +940,13 @@
 	}
 
 	.toggle-content:hover {
-		background: var(--bg-elevated);
+		background: var(--stone-warm);
 	}
 
 	.email-preview-shell {
 		margin-top: 12px;
-		background: var(--bg-base);
-		border: 1px solid var(--bg-elevated);
+		background: var(--night-deep);
+		border: 1px solid var(--stone-warm);
 		border-radius: 8px;
 		overflow: hidden;
 	}
@@ -975,9 +975,9 @@
 		max-height: calc(100vh - 32px);
 		display: flex;
 		flex-direction: column;
-		border: 1px solid var(--bg-elevated);
+		border: 1px solid var(--stone-warm);
 		border-radius: 8px;
-		background: var(--bg-base);
+		background: var(--night-deep);
 		box-shadow: 0 24px 80px rgba(0, 0, 0, 0.35);
 		overflow: hidden;
 	}
@@ -988,8 +988,8 @@
 		justify-content: space-between;
 		gap: 16px;
 		padding: 18px 20px 14px;
-		border-bottom: 1px solid var(--bg-elevated);
-		background: var(--bg-surface);
+		border-bottom: 1px solid var(--stone-warm);
+		background: var(--stone-warm);
 	}
 
 	.email-modal-title-group {
@@ -998,7 +998,7 @@
 
 	.email-modal-title-group h2 {
 		margin: 4px 0 0;
-		color: var(--text-primary);
+		color: var(--ink-bright);
 		font-size: 1rem;
 		line-height: 1.35;
 		overflow-wrap: anywhere;
@@ -1006,7 +1006,7 @@
 
 	.email-modal-title-group p {
 		margin: 6px 0 0;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 		font-size: 0.8125rem;
 		line-height: 1.45;
 		overflow-wrap: anywhere;
@@ -1014,10 +1014,10 @@
 
 	.modal-close-button {
 		flex: 0 0 auto;
-		border: 1px solid var(--bg-elevated);
+		border: 1px solid var(--stone-warm);
 		border-radius: 6px;
-		background: var(--bg-base);
-		color: var(--text-primary);
+		background: var(--night-deep);
+		color: var(--ink-bright);
 		font-size: 0.8125rem;
 		font-weight: 600;
 		padding: 7px 12px;
@@ -1025,7 +1025,7 @@
 	}
 
 	.modal-close-button:hover {
-		background: var(--bg-elevated);
+		background: var(--stone-warm);
 	}
 
 	.email-modal-meta {
@@ -1033,14 +1033,14 @@
 		gap: 10px;
 		flex-wrap: wrap;
 		padding: 10px 20px;
-		border-bottom: 1px solid var(--bg-elevated);
-		background: var(--bg-base);
+		border-bottom: 1px solid var(--stone-warm);
+		background: var(--night-deep);
 	}
 
 	.email-modal-meta span {
 		border-radius: 6px;
-		background: var(--bg-elevated);
-		color: var(--text-secondary);
+		background: var(--stone-warm);
+		color: var(--ink-mid);
 		font-size: 0.75rem;
 		font-weight: 600;
 		padding: 4px 8px;
@@ -1063,7 +1063,7 @@
 	/* Enrollments Table */
 	.table-wrapper {
 		overflow-x: auto;
-		border: 1px solid var(--bg-elevated);
+		border: 1px solid var(--stone-warm);
 		border-radius: 8px;
 	}
 
@@ -1074,11 +1074,11 @@
 	}
 
 	.enrollments-table th {
-		background: var(--bg-elevated);
+		background: var(--stone-warm);
 		padding: 10px 12px;
 		text-align: left;
 		font-weight: 600;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 		font-size: 0.75rem;
 		text-transform: uppercase;
 		letter-spacing: 0;
@@ -1087,13 +1087,13 @@
 
 	.enrollments-table td {
 		padding: 10px 12px;
-		border-top: 1px solid var(--bg-elevated);
-		color: var(--text-primary);
+		border-top: 1px solid var(--stone-warm);
+		color: var(--ink-bright);
 		white-space: nowrap;
 	}
 
 	.enrollments-table tr:hover td {
-		background: var(--bg-surface);
+		background: var(--stone-warm);
 	}
 
 	.email-cell {
@@ -1113,11 +1113,11 @@
 
 	.exit-reason {
 		font-size: 0.6875rem;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 	}
 
 	.no-data {
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 		font-style: italic;
 	}
 
@@ -1140,29 +1140,29 @@
 	}
 
 	.badge-unknown {
-		background: var(--bg-elevated);
-		color: var(--text-secondary);
+		background: var(--stone-warm);
+		color: var(--ink-mid);
 	}
 
 	.show-all-btn {
 		display: block;
 		margin: 12px auto 0;
 		padding: 8px 20px;
-		background: var(--bg-elevated);
-		border: 1px solid var(--bg-highlight, var(--bg-elevated));
+		background: var(--stone-warm);
+		border: 1px solid var(--stone-warm);
 		border-radius: 8px;
-		color: var(--text-primary);
+		color: var(--ink-bright);
 		font-size: 0.8125rem;
 		cursor: pointer;
 	}
 
 	.show-all-btn:hover {
-		background: var(--bg-surface);
+		background: var(--stone-warm);
 	}
 
 	.empty-note {
 		text-align: center;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 		padding: 24px;
 		font-size: 0.875rem;
 	}
@@ -1209,9 +1209,9 @@
 		}
 
 		.enrollments-table tr {
-			border: 1px solid var(--bg-elevated);
+			border: 1px solid var(--stone-warm);
 			border-radius: 8px;
-			background: color-mix(in srgb, var(--bg-surface) 92%, var(--bg-base));
+			background: color-mix(in srgb, var(--stone-warm) 92%, var(--night-deep));
 			padding: 0.95rem;
 		}
 
@@ -1235,7 +1235,7 @@
 			font-weight: 700;
 			letter-spacing: 0;
 			text-transform: uppercase;
-			color: var(--text-secondary);
+			color: var(--ink-mid);
 		}
 
 		.email-cell {

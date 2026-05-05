@@ -41,20 +41,20 @@
 
 {#if browser && data?.aiComments?.length && parentType === 'question' && data?.flags?.userHasAnswered && showAiComments}
 	<section class="mb-4 p-1" aria-label="Enneagram personality type perspectives">
-		<h3 class="m-2 text-center text-sm font-medium text-[var(--text-secondary)]">
+		<h3 class="m-2 text-center text-sm font-medium text-[var(--ink-mid)]">
 			Enneagram Takes (stereotypes)
 		</h3>
 
 		<div
 			bind:this={carouselRef}
-			class="focus:ring-[var(--primary)]/50 relative flex items-center justify-center overflow-hidden rounded-md border border-[var(--bg-elevated)] bg-[var(--bg-surface)] focus:outline-none focus:ring-2"
+			class="focus:ring-[var(--lamp-glow)]/50 relative flex items-center justify-center overflow-hidden rounded-md border border-[var(--stone-warm)] bg-[var(--stone-warm)] focus:outline-none focus:ring-2"
 			role="region"
 			aria-live="polite"
 			aria-roledescription="carousel"
 			aria-label="Enneagram personality type perspectives carousel"
 		>
 			<button
-				class="z-10 ml-1 flex h-11 w-11 shrink-0 cursor-pointer items-center justify-center rounded-full border-none bg-[var(--bg-elevated)] text-[var(--primary)] transition-all duration-200 hover:bg-[var(--primary-subtle)] hover:text-[var(--primary-light)]"
+				class="z-10 ml-1 flex h-11 w-11 shrink-0 cursor-pointer items-center justify-center rounded-full border-none bg-[var(--stone-warm)] text-[var(--lamp-glow)] transition-all duration-200 hover:bg-[var(--primary-subtle)] hover:text-[var(--lamp-glow)]"
 				on:click={moveLeft}
 				aria-label="Previous perspective"
 				title="Previous perspective"
@@ -80,11 +80,11 @@
 						>
 							<div class="flex items-center gap-3" in:fade={{ duration: 200, delay: 50 }}>
 								<span
-									class="shrink-0 rounded-md bg-[var(--primary-subtle)] px-2 py-1 text-xs font-semibold text-[var(--primary)]"
+									class="shrink-0 rounded-md bg-[var(--primary-subtle)] px-2 py-1 text-xs font-semibold text-[var(--lamp-glow)]"
 								>
 									Type {comment.enneagram_type}
 								</span>
-								<p class="m-0 line-clamp-2 text-sm italic text-[var(--text-secondary)]">
+								<p class="m-0 line-clamp-2 text-sm italic text-[var(--ink-mid)]">
 									{comment.comment}
 								</p>
 							</div>
@@ -94,7 +94,7 @@
 			</div>
 
 			<button
-				class="z-10 mr-1 flex h-7 w-7 shrink-0 cursor-pointer items-center justify-center rounded-full border-none bg-[var(--bg-elevated)] text-[var(--primary)] transition-all duration-200 hover:bg-[var(--primary-subtle)] hover:text-[var(--primary-light)]"
+				class="z-10 mr-1 flex h-7 w-7 shrink-0 cursor-pointer items-center justify-center rounded-full border-none bg-[var(--stone-warm)] text-[var(--lamp-glow)] transition-all duration-200 hover:bg-[var(--primary-subtle)] hover:text-[var(--lamp-glow)]"
 				on:click={moveRight}
 				aria-label="Next perspective"
 				title="Next perspective"
@@ -108,8 +108,8 @@
 				<button
 					class="h-1.5 w-1.5 cursor-pointer rounded-full border-none p-0 transition-all duration-200 {active ===
 					index
-						? 'bg-[var(--primary)]'
-						: 'bg-[var(--bg-elevated)] hover:bg-[var(--bg-highlight)]'}"
+						? 'bg-[var(--lamp-glow)]'
+						: 'bg-[var(--stone-warm)] hover:bg-[var(--stone-warm)]'}"
 					on:click={() => {
 						direction = index > active ? 'right' : 'left';
 						active = index;

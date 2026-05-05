@@ -18,11 +18,11 @@
 	// Solo Leveling dark theme accent colors for each tone
 	const toneConfig: Record<Tone, { accent: string; glow: string }> = {
 		success: { accent: '#22c55e', glow: 'rgba(34, 197, 94, 0.15)' },
-		info: { accent: 'var(--primary-dark)', glow: 'rgba(45, 212, 191, 0.15)' },
+		info: { accent: 'var(--lamp-glow)', glow: 'rgba(45, 212, 191, 0.15)' },
 		warning: { accent: '#f59e0b', glow: 'rgba(245, 158, 11, 0.15)' },
 		neutral: {
-			accent: 'var(--text-tertiary)',
-			glow: 'color-mix(in srgb, var(--text-tertiary) 15%, transparent)'
+			accent: 'var(--ink-dim)',
+			glow: 'color-mix(in srgb, var(--ink-dim) 15%, transparent)'
 		}
 	};
 
@@ -54,11 +54,11 @@
 		border-radius: 10px;
 		background: linear-gradient(
 			135deg,
-			var(--bg-surface) 0%,
-			var(--bg-deep) 50%,
-			var(--bg-base) 100%
+			var(--stone-warm) 0%,
+			var(--night-deep) 50%,
+			var(--night-deep) 100%
 		);
-		border: 1px solid color-mix(in srgb, var(--text-tertiary) 20%, transparent);
+		border: 1px solid color-mix(in srgb, var(--ink-dim) 20%, transparent);
 		box-shadow:
 			0 4px 16px rgba(0, 0, 0, 0.25),
 			0 0 0 1px var(--glow-color);
@@ -76,7 +76,7 @@
 		}
 
 		&--neutral {
-			border-color: color-mix(in srgb, var(--text-tertiary) 20%, transparent);
+			border-color: color-mix(in srgb, var(--ink-dim) 20%, transparent);
 		}
 	}
 
@@ -101,17 +101,17 @@
 	.insight-box__content {
 		font-size: 0.9rem;
 		line-height: 1.65;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 
 		:global(strong),
 		:global(b) {
-			color: var(--text-primary);
+			color: var(--ink-bright);
 			font-weight: 600;
 		}
 
 		:global(p) {
 			margin: 0;
-			color: var(--text-secondary);
+			color: var(--ink-mid);
 
 			& + :global(p) {
 				margin-top: 0.5rem;
@@ -119,10 +119,10 @@
 		}
 
 		:global(a) {
-			color: var(--primary-lighter);
+			color: var(--lamp-glow);
 
 			&:hover {
-				color: var(--primary-lightest);
+				color: var(--lamp-glow);
 			}
 		}
 
@@ -130,7 +130,7 @@
 		:global(ol) {
 			margin: 0.5rem 0;
 			padding-left: 1.25rem;
-			color: var(--text-secondary);
+			color: var(--ink-mid);
 		}
 
 		:global(li) {

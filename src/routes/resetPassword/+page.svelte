@@ -1,4 +1,9 @@
 <!-- src/routes/resetPassword/+page.svelte -->
+<!--
+  src/routes/resetPassword/+page.svelte
+  Phase 5 #8 of docs/design/2026-05-04-rollout-plan.md — auth pages.
+  Streetlamp Symposium V5: warm-stone surface, sodium-amber primary, Inter.
+-->
 <script lang="ts">
 	import { applyAction, enhance } from '$app/forms';
 	import { goto } from '$app/navigation';
@@ -6,29 +11,32 @@
 	import type { ActionData } from './$types';
 	import LoadingButton from '$lib/components/atoms/LoadingButton.svelte';
 
-	export let form: ActionData;
+	let { form }: { form: ActionData } = $props();
 
-	let password = '';
-	let confirmPassword = '';
-	let loading = false;
-	let passwordsMatch = true;
-	let showSuccessMessage = false;
+	let password = $state('');
+	let confirmPassword = $state('');
+	let loading = $state(false);
+	let showSuccessMessage = $state(false);
 
 	const ogImage = 'https://9takes.com/greek_pantheon.png';
 
 	// Handle password validation
-	$: passwordsMatch = !confirmPassword || password === confirmPassword;
-	$: isValidPassword = password.length >= 6;
-	$: canSubmit = password && confirmPassword && passwordsMatch && isValidPassword && !loading;
+	let passwordsMatch = $derived(!confirmPassword || password === confirmPassword);
+	let isValidPassword = $derived(password.length >= 6);
+	let canSubmit = $derived(
+		!!password && !!confirmPassword && passwordsMatch && isValidPassword && !loading
+	);
 
 	// Handle redirecting to login after successful password reset
-	$: if (form?.success && !showSuccessMessage) {
-		showSuccessMessage = true;
-		// Redirect to login after 3 seconds
-		setTimeout(() => {
-			goto('/login');
-		}, 3000);
-	}
+	$effect(() => {
+		if (form?.success && !showSuccessMessage) {
+			showSuccessMessage = true;
+			// Redirect to login after 3 seconds
+			setTimeout(() => {
+				goto('/login');
+			}, 3000);
+		}
+	});
 
 	// Check if we have the hash fragment in the URL
 	onMount(() => {
@@ -134,19 +142,13 @@
 </div>
 
 <style lang="scss">
-	/* 9takes Warm Tech Theme */
+	/* Streetlamp Symposium — Reset Password form. */
 	.auth-container {
 		max-width: 400px;
 		margin: 2rem auto;
 		padding: 2rem;
-		background:
-			linear-gradient(
-				180deg,
-				color-mix(in srgb, var(--accent-soft) 28%, transparent) 0%,
-				transparent 42%
-			),
-			color-mix(in srgb, var(--bg-surface) 94%, var(--bg-base));
-		border: 1px solid color-mix(in srgb, var(--accent) 16%, var(--border-color));
+		background: var(--stone-warm);
+		border: 1px solid var(--stone-edge);
 		border-radius: 1rem;
 		box-shadow: var(--shadow-lg);
 	}
@@ -156,7 +158,7 @@
 		margin-bottom: 2rem;
 		font-size: 1.5rem;
 		font-weight: bold;
-		color: var(--text-primary);
+		color: var(--ink-bright);
 	}
 
 	.auth-form {
@@ -174,37 +176,37 @@
 	.form-label {
 		font-weight: 600;
 		font-size: 0.9rem;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 	}
 
 	.form-input {
 		padding: 0.75rem;
-		background-color: color-mix(in srgb, var(--bg-surface) 90%, var(--bg-base));
-		border: 1px solid color-mix(in srgb, var(--accent) 14%, var(--border-color));
+		background-color: var(--night-deep);
+		border: 1px solid var(--stone-edge);
 		border-radius: 0.9rem;
 		font-size: 1rem;
-		color: var(--text-primary);
+		color: var(--ink-bright);
 		transition: all 0.3s ease;
 
 		&::placeholder {
-			color: var(--text-tertiary);
+			color: var(--ink-dim);
 		}
 
 		&:focus {
 			outline: none;
-			border-color: var(--primary);
+			border-color: var(--lamp-glow);
 			box-shadow: var(--glow-sm);
-			background: var(--bg-surface);
+			background: var(--stone-warm);
 		}
 	}
 
 	.success-message {
 		padding: 1rem;
 		margin-bottom: 1rem;
-		background-color: color-mix(in srgb, var(--success-light) 88%, var(--bg-surface));
-		border: 1px solid color-mix(in srgb, var(--success-border) 72%, transparent);
+		background-color: color-mix(in srgb, var(--data-teal) 10%, var(--stone-warm));
+		border: 1px solid color-mix(in srgb, var(--data-teal) 35%, transparent);
 		border-radius: 0.9rem;
-		color: var(--success-text);
+		color: var(--ink-bright);
 		text-align: center;
 
 		p {
@@ -232,13 +234,13 @@
 		margin-top: 1rem;
 
 		a {
-			color: var(--primary);
+			color: var(--lamp-glow);
 			text-decoration: none;
 			font-size: 0.9rem;
 			transition: all 0.3s ease;
 
 			&:hover {
-				color: var(--text-primary);
+				color: var(--ink-bright);
 				text-decoration: underline;
 			}
 		}

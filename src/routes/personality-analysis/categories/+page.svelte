@@ -338,10 +338,10 @@
 
 <style lang="scss">
 	.page-shell {
-		--surface-card: color-mix(in srgb, var(--bg-surface) 92%, var(--bg-deep));
-		--surface-card-strong: color-mix(in srgb, var(--bg-surface) 86%, var(--bg-deep));
-		--card-border: color-mix(in srgb, var(--accent) 20%, var(--border-color));
-		--card-border-hover: color-mix(in srgb, var(--accent) 55%, transparent);
+		--surface-card: color-mix(in srgb, var(--stone-warm) 92%, var(--night-deep));
+		--surface-card-strong: color-mix(in srgb, var(--stone-warm) 86%, var(--night-deep));
+		--card-border: color-mix(in srgb, var(--lamp-glow) 20%, var(--stone-edge));
+		--card-border-hover: color-mix(in srgb, var(--lamp-glow) 55%, transparent);
 		min-height: 100vh;
 		background:
 			radial-gradient(
@@ -351,8 +351,8 @@
 			),
 			linear-gradient(
 				180deg,
-				color-mix(in srgb, var(--bg-deep) 88%, var(--bg-base)) 0%,
-				var(--bg-base) 100%
+				color-mix(in srgb, var(--night-deep) 88%, var(--night-deep)) 0%,
+				var(--night-deep) 100%
 			);
 	}
 
@@ -371,14 +371,14 @@
 		letter-spacing: 0.14em;
 		font-size: 0.7rem;
 		font-weight: 700;
-		color: var(--text-tertiary);
+		color: var(--ink-dim);
 		margin: 0;
 	}
 
 	h1,
 	h2,
 	h3 {
-		color: var(--text-primary);
+		color: var(--ink-bright);
 		margin: 0;
 	}
 
@@ -392,7 +392,7 @@
 	.lede {
 		max-width: 680px;
 		margin: 1.25rem auto 0;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 		font-size: 1.05rem;
 		line-height: 1.65;
 	}
@@ -407,37 +407,37 @@
 		padding: 0.6rem 1.1rem;
 		border-radius: 999px;
 		background: var(--surface-card);
-		border: 1px solid var(--border-color);
+		border: 1px solid var(--stone-edge);
 	}
 
 	.stat {
 		font-size: 0.9rem;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 
 		strong {
-			color: var(--text-primary);
+			color: var(--ink-bright);
 			font-weight: 700;
 			margin-right: 0.3rem;
 		}
 	}
 
 	.stat-divider {
-		color: var(--text-muted);
+		color: var(--ink-dim);
 	}
 
 	.hero-back {
 		font-size: 0.85rem;
-		color: var(--primary);
+		color: var(--lamp-glow);
 		text-decoration: none;
 		padding-left: 0.85rem;
 		margin-left: 0.1rem;
-		border-left: 1px solid var(--border-color);
+		border-left: 1px solid var(--stone-edge);
 		display: inline-flex;
 		align-items: center;
 		gap: 0.3rem;
 
 		&:hover {
-			color: var(--primary-light);
+			color: var(--lamp-glow);
 		}
 	}
 
@@ -459,8 +459,8 @@
 		padding: 0.5rem 0.85rem 0.5rem 0.75rem;
 		border-radius: 999px;
 		background: var(--surface-card);
-		border: 1px solid var(--border-color);
-		color: var(--text-secondary);
+		border: 1px solid var(--stone-edge);
+		color: var(--ink-mid);
 		text-decoration: none;
 		font-size: 0.85rem;
 		transition:
@@ -470,7 +470,7 @@
 			transform 0.18s ease;
 
 		&:hover {
-			color: var(--text-primary);
+			color: var(--ink-bright);
 			transform: translateY(-1px);
 			border-color: color-mix(in srgb, var(--jump-accent) 55%, transparent);
 			background: color-mix(in srgb, var(--jump-accent) 10%, var(--surface-card));
@@ -493,10 +493,10 @@
 	.jump-count {
 		font-size: 0.72rem;
 		font-weight: 700;
-		color: var(--text-tertiary);
+		color: var(--ink-dim);
 		padding: 0.1rem 0.45rem;
 		border-radius: 999px;
-		background: var(--bg-base);
+		background: var(--night-deep);
 	}
 
 	/* ============ Content ============ */
@@ -514,7 +514,7 @@
 	.section-head {
 		margin-bottom: 1.5rem;
 		padding-bottom: 1rem;
-		border-bottom: 1px solid var(--border-color);
+		border-bottom: 1px solid var(--stone-edge);
 
 		h2 {
 			font-size: 1.6rem;
@@ -523,7 +523,7 @@
 
 		p {
 			margin: 0.3rem 0 0;
-			color: var(--text-secondary);
+			color: var(--ink-mid);
 			font-size: 0.95rem;
 			line-height: 1.5;
 			max-width: 54ch;
@@ -560,7 +560,7 @@
 			border-color: var(--card-border-hover);
 			box-shadow:
 				var(--shadow-lg),
-				0 12px 28px -15px color-mix(in srgb, var(--accent) 55%, transparent);
+				0 12px 28px -15px color-mix(in srgb, var(--lamp-glow) 55%, transparent);
 		}
 	}
 
@@ -570,8 +570,8 @@
 		height: 4px;
 		background: linear-gradient(
 			90deg,
-			var(--accent) 0%,
-			color-mix(in srgb, var(--accent) 55%, transparent) 100%
+			var(--lamp-glow) 0%,
+			color-mix(in srgb, var(--lamp-glow) 55%, transparent) 100%
 		);
 	}
 
@@ -588,7 +588,7 @@
 	}
 
 	.card-label {
-		color: color-mix(in srgb, var(--accent) 80%, var(--text-secondary));
+		color: color-mix(in srgb, var(--lamp-glow) 80%, var(--ink-mid));
 	}
 
 	.category-card h3 {
@@ -602,9 +602,9 @@
 		min-width: 2.25rem;
 		padding: 0.3rem 0.6rem;
 		border-radius: 999px;
-		background: color-mix(in srgb, var(--accent-soft) 75%, var(--bg-base));
-		border: 1px solid color-mix(in srgb, var(--accent) 30%, transparent);
-		color: var(--text-primary);
+		background: color-mix(in srgb, var(--accent-soft) 75%, var(--night-deep));
+		border: 1px solid color-mix(in srgb, var(--lamp-glow) 30%, transparent);
+		color: var(--ink-bright);
 		text-align: center;
 		font-size: 0.8rem;
 		font-weight: 700;
@@ -612,7 +612,7 @@
 
 	.summary {
 		margin: 0;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 		font-size: 0.92rem;
 		line-height: 1.55;
 	}
@@ -636,33 +636,33 @@
 	.chip {
 		padding: 0.3rem 0.6rem;
 		border-radius: 0.5rem;
-		background: color-mix(in srgb, var(--bg-base) 55%, transparent);
-		border: 1px solid var(--border-color);
-		color: var(--text-primary);
+		background: color-mix(in srgb, var(--night-deep) 55%, transparent);
+		border: 1px solid var(--stone-edge);
+		color: var(--ink-bright);
 		font-size: 0.75rem;
 		line-height: 1.3;
 	}
 
 	.chip.muted {
-		color: var(--text-tertiary);
+		color: var(--ink-dim);
 	}
 
 	.featured-names {
 		margin: 0;
-		color: var(--text-primary);
+		color: var(--ink-bright);
 		font-size: 0.88rem;
 		line-height: 1.5;
 	}
 
 	.featured-names .bullet {
 		margin: 0 0.4rem;
-		color: var(--text-muted);
+		color: var(--ink-dim);
 	}
 
 	.card-footer {
 		margin-top: auto;
 		padding-top: 0.85rem;
-		border-top: 1px solid color-mix(in srgb, var(--border-color) 65%, transparent);
+		border-top: 1px solid color-mix(in srgb, var(--stone-edge) 65%, transparent);
 		display: flex;
 		align-items: center;
 		justify-content: space-between;
@@ -673,7 +673,7 @@
 		display: inline-flex;
 		align-items: center;
 		gap: 0.35rem;
-		color: var(--accent);
+		color: var(--lamp-glow);
 		font-size: 0.88rem;
 		font-weight: 600;
 		white-space: nowrap;
@@ -685,7 +685,7 @@
 
 	.updated {
 		font-size: 0.68rem;
-		color: var(--text-muted);
+		color: var(--ink-dim);
 		letter-spacing: 0.06em;
 	}
 
@@ -699,7 +699,7 @@
 		align-items: center;
 		justify-content: space-between;
 		background: var(--surface-card);
-		border: 1px solid var(--border-color);
+		border: 1px solid var(--stone-edge);
 		border-radius: 1rem;
 
 		.alt-copy {
@@ -713,7 +713,7 @@
 
 		p {
 			margin: 0;
-			color: var(--text-secondary);
+			color: var(--ink-mid);
 			font-size: 0.92rem;
 			line-height: 1.5;
 		}
@@ -725,7 +725,7 @@
 		gap: 0.5rem;
 		padding: 0.7rem 1.25rem;
 		border-radius: 999px;
-		background: var(--primary);
+		background: var(--lamp-glow);
 		color: var(--text-on-primary);
 		text-decoration: none;
 		font-weight: 600;
@@ -737,7 +737,7 @@
 
 		&:hover {
 			transform: translateY(-1px);
-			background: var(--primary-dark);
+			background: var(--lamp-glow);
 		}
 	}
 

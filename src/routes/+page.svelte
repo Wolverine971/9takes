@@ -1,11 +1,17 @@
 <!-- src/routes/+page.svelte -->
-<!-- Home: "Do you know about the Enneagram?" decision-fork landing page. -->
+<!--
+  Production homepage — Streetlamp Symposium V5.
+  Phase 4 of docs/design/2026-05-04-rollout-plan.md.
+
+  Visual ground truth: /design-preview/v5  (kept alive 2 weeks for rollback).
+  Spec: docs/design/2026-05-04-streetlamp-symposium-v5.md.
+  Locked tokens (warm stone surfaces, sodium-amber primary, Inter + JetBrains Mono)
+  live in src/scss/index.scss bridge blocks; this file references them via var(--…).
+-->
 <script lang="ts">
-	import { onMount, tick } from 'svelte';
-	import { fly } from 'svelte/transition';
 	import { browser } from '$app/environment';
 	import SEOHead from '$lib/components/SEOHead.svelte';
-	import CorpusStatsPanel from '$lib/components/marketing/CorpusStatsPanel.svelte';
+	import { Button, SectionKicker } from '$lib/components/atoms';
 	import {
 		buildPersonalityAnalysisPath,
 		buildPersonalityAnalysisUrl,
@@ -13,141 +19,14 @@
 		buildPersonalityImageUrl,
 		formatPersonalityDisplayName
 	} from '$lib/utils/personalityAnalysis';
-	import type { PageData } from './$types';
 	import { ENNEAGRAM_TYPE_COLORS } from '$lib/constants/enneagramColors';
+	import type { PageData } from './$types';
 
 	let { data }: { data: PageData } = $props();
-	let observer: IntersectionObserver | null = null;
-	// Funnel sections after the fork: give-first, qotd, blogs, famous, corpus-stats, coaching, final
-	let sectionsVisible = $state(Array(7).fill(browser ? false : true));
 
-	// Emotional stance phrases per type
-	const stancePhrases: Record<number, string> = {
-		1: 'internalizes anger',
-		2: 'represses shame',
-		3: 'compensates for shame',
-		4: 'identifies with shame',
-		5: 'withdraws from fear',
-		6: 'engages with fear',
-		7: 'reframes fear',
-		8: 'expresses anger',
-		9: 'suppresses anger'
-	};
-
-	const shadowTypes: Record<
-		number,
-		{ name: string; title: string; color: string; stancePhrase: string }
-	> = Object.fromEntries(
-		Object.entries(ENNEAGRAM_TYPE_COLORS).map(([k, v]) => [
-			Number(k),
-			{ name: v.name, title: v.title, color: v.color, stancePhrase: stancePhrases[Number(k)] }
-		])
-	);
-
-	const typeGuideSummaries: Record<number, string> = {
-		1: 'Principled, improvement-driven, and sensitive to what feels wrong.',
-		2: 'Warm, relational, and highly attuned to what other people need.',
-		3: 'Adaptive, ambitious, and focused on momentum, image, and results.',
-		4: 'Emotionally intense, identity-driven, and tuned to what feels missing.',
-		5: 'Private, analytical, and protective of time, energy, and competence.',
-		6: 'Security-minded, skeptical, and quick to scan for risk and trust.',
-		7: 'Future-oriented, energetic, and always looking for freedom and options.',
-		8: 'Direct, forceful, and instinctively protective of autonomy and strength.',
-		9: 'Steady, receptive, and skilled at reducing tension and conflict.'
-	};
-
-	const typeGuideLinks = Array.from({ length: 9 }, (_, index) => {
-		const type = index + 1;
-		const typeInfo = shadowTypes[type];
-
-		return {
-			type,
-			href: `/enneagram-corner/enneagram-type-${type}`,
-			name: typeInfo.name,
-			title: typeInfo.title,
-			color: typeInfo.color,
-			stancePhrase: typeInfo.stancePhrase,
-			summary: typeGuideSummaries[type]
-		};
-	});
-
-	// "No" path — three quick reads to get someone up to speed on the Enneagram
-	const noPathBlogs = [
-		{
-			url: '/enneagram-corner/beginners-guide-to-determining-your-enneagram-type',
-			title: "Beginner's Guide",
-			subtitle: 'Find your type, step by step.'
-		},
-		{
-			url: '/enneagram-corner/enneagram-tldr',
-			title: 'Enneagram TL;DR',
-			subtitle: 'Five-minute crash course.'
-		},
-		{
-			url: '/enneagram-corner/enneagram-test-comparison-2025',
-			title: 'Which Test Should You Take?',
-			subtitle: 'We compared the popular ones.'
-		}
-	];
-
-	const demoReplyTypes = [
-		{
-			type: 4,
-			hint: 'Looks for the emotional thing nobody is saying.'
-		},
-		{
-			type: 6,
-			hint: 'Checks what is trustworthy, risky, or unstable.'
-		},
-		{
-			type: 8,
-			hint: 'Reads power, control, and what needs direct action.'
-		}
-	];
-
-	// Blog category cards — each is a whole library, not a single post.
-	const blogCategories = [
-		{
-			label: 'The Takes of 9takes',
-			href: '/community',
-			icon: 'bubbles' as const,
-			desc: 'Essays on how minds change, why groupthink wins online, and what 9takes is trying to fix.',
-			peeks: [
-				'How minds actually change — and how they don\u2019t',
-				'Why Reddit can\u2019t give you real answers',
-				'MBTI vs. Enneagram: what holds up',
-				'The philosophy behind "9 ways to see it"'
-			],
-			count: '20+ essays'
-		},
-		{
-			label: 'Enneagram Corner',
-			href: '/enneagram-corner',
-			icon: 'nonagon' as const,
-			desc: 'The biggest section. Type-by-type breakdowns and the full system in plain English.',
-			peeks: [
-				'Each type, up close (all 9)',
-				'Dating, compatibility, attachment styles',
-				'Anxiety, depression, and ADHD by type',
-				'The criticisms, the history, the honest take'
-			],
-			count: '80+ deep-dives'
-		},
-		{
-			label: 'How-to Guides',
-			href: '/how-to-guides',
-			icon: 'checklist' as const,
-			desc: 'Tactical playbooks for the moments where personality theory has to meet real life.',
-			peeks: [
-				'Relationship conflict, start to finish',
-				'How to actually read people',
-				'Productivity systems tuned to your type',
-				'The emotions crash course school skipped'
-			],
-			count: '15+ playbooks'
-		}
-	];
-
+	// ------------------------------------------------------------------
+	// SEO + structured-data — preserved verbatim from the previous homepage.
+	// ------------------------------------------------------------------
 	const siteUrl = 'https://9takes.com';
 	const organizationId = `${siteUrl}/#organization`;
 	const websiteId = `${siteUrl}/#website`;
@@ -199,13 +78,36 @@
 		}
 	];
 
-	// SEO / structured data
+	const typeGuideSummaries: Record<number, string> = {
+		1: 'Principled, improvement-driven, and sensitive to what feels wrong.',
+		2: 'Warm, relational, and highly attuned to what other people need.',
+		3: 'Adaptive, ambitious, and focused on momentum, image, and results.',
+		4: 'Emotionally intense, identity-driven, and tuned to what feels missing.',
+		5: 'Private, analytical, and protective of time, energy, and competence.',
+		6: 'Security-minded, skeptical, and quick to scan for risk and trust.',
+		7: 'Future-oriented, energetic, and always looking for freedom and options.',
+		8: 'Direct, forceful, and instinctively protective of autonomy and strength.',
+		9: 'Steady, receptive, and skilled at reducing tension and conflict.'
+	};
+
+	const typeGuideLinks = Array.from({ length: 9 }, (_, index) => {
+		const type = index + 1;
+		const info = ENNEAGRAM_TYPE_COLORS[type];
+		return {
+			type,
+			href: `/enneagram-corner/enneagram-type-${type}`,
+			name: info.name,
+			title: info.title,
+			color: info.color,
+			summary: typeGuideSummaries[type]
+		};
+	});
+
 	const homepageStructuredData = $derived.by(() => {
 		const featuredPeople = data.typeRepresentatives.map((person, index) => {
 			const displayName = formatPersonalityDisplayName(person.name);
 			const fallbackUrl = `${siteUrl}/enneagram-corner/enneagram-type-${person.type}`;
 			const analysisUrl = person.hasLink ? buildPersonalityAnalysisUrl(person.name) : fallbackUrl;
-
 			return {
 				'@type': 'ListItem',
 				position: index + 1,
@@ -249,8 +151,8 @@
 						{ '@type': 'Thing', name: 'Personality analysis' }
 					],
 					significantLink: [
-						...primaryResources.map((resource) => resource.url),
-						...typeGuideLinks.map((typeGuide) => `${siteUrl}${typeGuide.href}`)
+						...primaryResources.map((r) => r.url),
+						...typeGuideLinks.map((t) => `${siteUrl}${t.href}`)
 					],
 					primaryImageOfPage: {
 						'@type': 'ImageObject',
@@ -284,15 +186,15 @@
 					name: 'Enneagram type guides',
 					numberOfItems: typeGuideLinks.length,
 					itemListOrder: 'https://schema.org/ItemListOrderAscending',
-					itemListElement: typeGuideLinks.map((typeGuide, index) => ({
+					itemListElement: typeGuideLinks.map((t, index) => ({
 						'@type': 'ListItem',
 						position: index + 1,
 						item: {
 							'@type': 'WebPage',
-							'@id': `${siteUrl}${typeGuide.href}`,
-							name: `Enneagram Type ${typeGuide.type}: ${typeGuide.name}`,
-							url: `${siteUrl}${typeGuide.href}`,
-							description: typeGuide.summary
+							'@id': `${siteUrl}${t.href}`,
+							name: `Enneagram Type ${t.type}: ${t.name}`,
+							url: `${siteUrl}${t.href}`,
+							description: t.summary
 						}
 					}))
 				},
@@ -312,48 +214,120 @@
 		};
 	});
 
-	function getTransition() {
-		return { y: 30, duration: 500, delay: 100 };
-	}
+	// ------------------------------------------------------------------
+	// V5 §03 — 9-in-9-lines primer (each type leads with a different read).
+	// ------------------------------------------------------------------
+	type NineType = { num: number; name: string; read: string };
+	const nineTypes: NineType[] = [
+		{ num: 1, name: 'THE PERFECTIONIST', read: "what's broken" },
+		{ num: 2, name: 'THE HELPER', read: 'what people need' },
+		{ num: 3, name: 'THE ACHIEVER', read: 'what wins' },
+		{ num: 4, name: 'THE INDIVIDUALIST', read: "what's missing" },
+		{ num: 5, name: 'THE INVESTIGATOR', read: 'the system underneath' },
+		{ num: 6, name: 'THE LOYALIST', read: 'the threat' },
+		{ num: 7, name: 'THE ENTHUSIAST', read: "what's next" },
+		{ num: 8, name: 'THE CHALLENGER', read: 'the power dynamic' },
+		{ num: 9, name: 'THE PEACEMAKER', read: 'the harmony' }
+	];
 
-	function setupIntersectionObserver() {
-		if (!browser || typeof IntersectionObserver === 'undefined') {
-			sectionsVisible = Array(7).fill(true);
-			return;
+	// ------------------------------------------------------------------
+	// V5 §05 — locked Type-take teasers shown on the open-question section.
+	// Production wires real data for the question itself; the 3 teasers stay
+	// locked per the give-first promise.
+	// ------------------------------------------------------------------
+	type LockedTake = { type: number; typeName: string; hint: string };
+	const lockedTakes: LockedTake[] = [
+		{
+			type: 4,
+			typeName: 'The Individualist',
+			hint: "They think I'm dramatic. I'm trying to feel something real..."
+		},
+		{
+			type: 6,
+			typeName: 'The Loyalist',
+			hint: "They think I'm anxious. I'm scanning for the threat they missed..."
+		},
+		{
+			type: 8,
+			typeName: 'The Challenger',
+			hint: "They think I'm angry. I'm refusing to fold for fake politeness..."
 		}
+	];
 
-		observer = new IntersectionObserver(
-			(entries) => {
-				entries.forEach((entry) => {
-					if (entry.isIntersecting) {
-						const index = parseInt(entry.target.getAttribute('data-section-index') || '0');
-						if (!isNaN(index) && index >= 0 && index < sectionsVisible.length) {
-							sectionsVisible[index] = true;
-						}
-					}
-				});
-			},
-			{ threshold: 0.1, rootMargin: '50px 0px' }
-		);
+	// ------------------------------------------------------------------
+	// V5 §07 — corpus stats. Static numbers (mostly aspirational + lineage),
+	// matching the spec exactly.
+	// ------------------------------------------------------------------
+	type StatBlock = { label: string; value: string; annotation: string };
+	const corpusStats: StatBlock[] = [
+		{ label: 'PERSONALITY BREAKDOWNS', value: '1,247+', annotation: 'growing' },
+		{ label: 'EMOTIONAL FRAMES', value: '9', annotation: 'exact' },
+		{ label: 'LINEAGE', value: '2,500 yr', annotation: 'plato → now' },
+		{ label: 'COMMENTS GATHERED', value: '47,000+', annotation: 'unbiased' }
+	];
 
-		setTimeout(() => {
-			const sections = document.querySelectorAll('.section-observer');
-			sections.forEach((section, idx) => {
-				section.setAttribute('data-section-index', idx.toString());
-				observer?.observe(section);
-			});
-		}, 100);
+	// ------------------------------------------------------------------
+	// V5 §05 — time-dynamic open-question kicker.
+	// SSR renders a neutral default; the client-only $effect below swaps in
+	// the per-visitor local-time variant. Slight mismatch is invisible.
+	// ------------------------------------------------------------------
+	type TimeWindow = { title: string; kicker: string };
+
+	function getTimeWindow(): TimeWindow {
+		const hour = new Date().getHours();
+		if (hour >= 5 && hour < 12) {
+			return { title: "This morning's open question", kicker: 'MORNING' };
+		} else if (hour >= 12 && hour < 17) {
+			return { title: "This afternoon's open question", kicker: 'AFTERNOON' };
+		} else if (hour >= 17 && hour < 22) {
+			return { title: "This evening's open question", kicker: 'EVENING' };
+		}
+		return { title: 'Still open at midnight', kicker: 'LATE' };
 	}
 
-	onMount(() => {
-		tick().then(() => {
-			setupIntersectionObserver();
-		});
+	function getDateLabel(): string {
+		const months = [
+			'JAN',
+			'FEB',
+			'MAR',
+			'APR',
+			'MAY',
+			'JUN',
+			'JUL',
+			'AUG',
+			'SEP',
+			'OCT',
+			'NOV',
+			'DEC'
+		];
+		const d = new Date();
+		const day = String(d.getDate()).padStart(2, '0');
+		return `${months[d.getMonth()]} ${day}`;
+	}
 
-		return () => {
-			observer?.disconnect();
-		};
+	let timeWindow = $state<TimeWindow>({ title: "Today's open question", kicker: 'TODAY' });
+	let dateLabel = $state<string>('');
+
+	$effect(() => {
+		if (!browser) return;
+		timeWindow = getTimeWindow();
+		dateLabel = getDateLabel();
 	});
+
+	// ------------------------------------------------------------------
+	// Helpers used by the §06 Library cards (real data).
+	// ------------------------------------------------------------------
+	function fileNumber(index: number): string {
+		// 0042-style file number — predictable per-card so cards feel cataloged
+		// rather than randomized. Not stored anywhere; purely visual.
+		return String(((index + 1) * 17 + 25) % 1000).padStart(4, '0');
+	}
+
+	function personLink(person: { name: string; type: number; hasLink: boolean }): string {
+		return person.hasLink
+			? buildPersonalityAnalysisPath(person.name)
+			: `/enneagram-corner/enneagram-type-${person.type}`;
+	}
 </script>
 
 <SEOHead
@@ -379,2263 +353,1810 @@
 	]}
 />
 
-<div class="sl-page">
-	<div class="bg-void"></div>
-	<div class="bg-ambient"></div>
-	<div class="bg-grid"></div>
+<div class="home">
+	<!-- =====================================================================
+	  §01 OBSERVATION — tagline + statue + give-first subtext
+	  ===================================================================== -->
+	<section class="anatomy">
+		<div class="grain" aria-hidden="true"></div>
+		<div class="anatomy-pool" aria-hidden="true"></div>
 
-	<main class="content">
-		<section class="hero-section" in:fly={getTransition()}>
-			<div class="hero-copy">
-				<div class="section-badge accent">
-					<span class="badge-dot"></span>
-					<span>START HERE</span>
+		<div class="anatomy-inner">
+			<div class="anatomy-top">
+				<div class="anatomy-text">
+					<div class="anatomy-eyebrow">
+						<SectionKicker num="01" label="OBSERVATION" />
+					</div>
+
+					<h1 class="display-xl">See the emotions behind every take.</h1>
+
+					<div class="scale-marker" aria-hidden="true">
+						<span class="tick"></span>
+						<span class="tick"></span>
+						<span class="tick"></span>
+						<span class="tick"></span>
+						<span class="tick"></span>
+						<span class="tick tick--major"></span>
+						<span class="tick"></span>
+						<span class="tick"></span>
+						<span class="tick"></span>
+						<span class="tick"></span>
+						<span class="tick"></span>
+					</div>
+
+					<p class="mono coords">LAT 37.9755° N · LONG 23.7348° E · 2,500 YR</p>
+
+					<p class="hero-subhead hero-subhead-line-1">
+						One situation. 9 emotional reads &mdash; one per personality type.
+					</p>
+					<p class="hero-subhead hero-subhead-line-2">
+						Drop yours first &mdash; anonymously, before you see anyone else&rsquo;s.
+					</p>
 				</div>
-				<h1 class="page-title">Do you know your Enneagram type?</h1>
-				<p class="page-lede">
-					9takes turns one situation into nine emotional lenses. Give your take first, then see how
-					every type reads the same question.
-				</p>
 
-				<div class="hero-actions">
-					<a
-						href={data.questionOfTheDay?.url
-							? `/questions/${data.questionOfTheDay.url}`
-							: '/questions'}
-						class="btn-shadow lg"
-					>
-						<span>Give Today's Take</span>
-					</a>
-					<a
-						href="/enneagram-corner/beginners-guide-to-determining-your-enneagram-type"
-						class="btn-system"
-					>
-						I'm New to This
-					</a>
+				<div class="anatomy-subject" aria-hidden="true">
+					<div class="subject-frame">
+						<img
+							src="/greek_distorted_statue_face.png"
+							alt=""
+							class="statue"
+							loading="eager"
+							decoding="async"
+						/>
+						<div class="subject-vignette"></div>
+						<div class="subject-mono">
+							<span class="mono">9TAKES · ONE SUBJECT · NINE READS</span>
+						</div>
+					</div>
 				</div>
 			</div>
 
-			<div class="hero-decision" aria-label="Choose where to start">
-				<article class="decision-panel decision-no">
-					<span class="branch-label no-label">I'M NEW</span>
-					<h2 class="branch-title">
-						Tired of personality tests that describe you but never help you change anything?
-					</h2>
-					<p class="branch-intro">
-						Start here. These three reads explain the system without making it weird — then show you
-						what to actually do with it.
-					</p>
-					<ol class="branch-links">
-						{#each noPathBlogs as blog}
-							<li>
-								<a href={blog.url} class="branch-link">
-									<span class="branch-link-title">{blog.title}</span>
-									<span class="branch-link-sub">{blog.subtitle}</span>
-								</a>
-							</li>
-						{/each}
-					</ol>
-				</article>
+			<div class="anatomy-divider" aria-hidden="true"></div>
 
-				<article class="decision-panel decision-yes">
-					<span class="branch-label yes-label">I KNOW MY TYPE</span>
-					<h2 class="branch-title">
-						Ready to see how the other 8 types actually read the same situation you would?
-					</h2>
-					<p class="branch-tagline">
-						<em>Reddit — but every comment is tagged with the writer's Enneagram type.</em>
-					</p>
+			<!-- §02 — two-column NO | YES path split (with locked teasers in YES) -->
+			<div class="path-split" aria-label="Do you know the Enneagram?">
+				<div class="path-split-kicker">
+					<SectionKicker
+						size="md"
+						num="02"
+						label="DO YOU KNOW THE ENNEAGRAM?"
+						class="region-label"
+					/>
+				</div>
 
-					<div class="demo-preview" aria-label="Preview of the 9takes answer-first mechanic">
-						<div class="demo-topline">
-							<span>Today's question</span>
-							<span>{data.questionOfTheDay?.comment_count || 0} responses</span>
-						</div>
-						<h3 class="demo-question">
-							{data.questionOfTheDay?.question_formatted ??
-								'What is something people misunderstand about you?'}
-						</h3>
+				<div class="path-split-grid">
+					<!-- LEFT — NO panel: send curious newcomers to the primer below -->
+					<div class="path-panel path-panel--no">
+						<SectionKicker num="02A" label="NO" tone="lamp" class="path-label path-label--no" />
+						<p class="path-body">
+							Never heard of it. That&rsquo;s most people. The Enneagram is a 2,500-year-old
+							framework that maps 9 ways emotions drive behavior. Once you see the patterns, you
+							can&rsquo;t unsee them.
+						</p>
+						<a href="#primer" class="path-cta path-cta--no">
+							<span class="mono path-cta-arrow" aria-hidden="true">&rarr;</span>
+							<span class="path-cta-label">Start with the 9 in 9 lines</span>
+							<span class="mono path-cta-arrow" aria-hidden="true">&darr;</span>
+						</a>
+					</div>
 
-						<div class="demo-compose">
-							<span class="demo-user">You</span>
-							<span>Write your take before the room can shape it.</span>
-						</div>
+					<!-- RIGHT — YES panel: drop a take + locked teasers preserve give-first -->
+					<div class="path-panel path-panel--yes">
+						<SectionKicker num="02B" label="YES" tone="data" class="path-label path-label--yes" />
+						<p class="path-body">
+							You know the rabbit hole. 9takes uses it to break down real situations &mdash; yours,
+							others&rsquo;, public figures&rsquo;. The give-first mechanic keeps every comment
+							honest.
+						</p>
 
-						<div class="demo-replies">
-							{#each demoReplyTypes as reply}
-								<div class="demo-reply" style="--type-color: {shadowTypes[reply.type].color}">
-									<div class="demo-reply-head">
-										<span>Type {reply.type}</span>
-										<span>Locked</span>
+						<div
+							class="locked-preview"
+							aria-label="Three locked takes — drop yours to unlock the room"
+						>
+							{#each lockedTakes as t}
+								<div class="locked-take" style="--type-stripe: var(--type-{t.type}-color);">
+									<div class="locked-take-head">
+										<span class="mono">TYPE {t.type} · {t.typeName.toUpperCase()}</span>
+										<span class="mono locked-take-status">LOCKED</span>
 									</div>
-									<p>{reply.hint}</p>
+									<p class="locked-take-hint">{t.hint}</p>
 								</div>
 							{/each}
 						</div>
-					</div>
 
-					<div class="decision-actions">
-						<a
-							href={data.questionOfTheDay?.url
-								? `/questions/${data.questionOfTheDay.url}`
-								: '/questions'}
-							class="btn-shadow"
-						>
-							<span>Give Your Take</span>
+						<a href="#open-question" class="path-cta path-cta--yes">
+							<span class="mono path-cta-arrow" aria-hidden="true">&rarr;</span>
+							<span class="path-cta-label">Drop today&rsquo;s take</span>
+							<span class="mono path-cta-arrow" aria-hidden="true">&rarr;</span>
 						</a>
-						<a href="/questions" class="btn-system">Browse Questions</a>
 					</div>
-				</article>
+				</div>
 			</div>
+		</div>
+	</section>
 
-			<nav class="resource-pills" aria-label="Explore the main sections of 9takes">
-				<span class="resource-kicker">Explore</span>
-				{#each primaryResources as resource}
-					<a href={resource.path} class="resource-pill" title={resource.description}>
-						{resource.name}
+	<!-- =====================================================================
+	  §03 — THE 9 IN 9 LINES (primer table, anchor target #primer)
+	  ===================================================================== -->
+	<section id="primer" class="primer">
+		<header class="primer-header">
+			<SectionKicker class="section-tag" num="03" label="THE 9 IN 9 LINES" />
+			<h2 class="display-md">The 9 in 9 lines.</h2>
+			<p class="primer-sub">
+				Each type leads with a different emotional read of the same situation.
+			</p>
+		</header>
+
+		<div class="primer-table-wrap">
+			<div
+				class="primer-table"
+				role="table"
+				aria-label="Nine personality types and what each leads with"
+			>
+				<div class="primer-row primer-row--head" role="row">
+					<span class="primer-col-num mono" role="columnheader">№</span>
+					<span class="primer-col-type mono" role="columnheader">TYPE</span>
+					<span class="primer-col-read mono" role="columnheader">WHAT THEY SEE FIRST</span>
+				</div>
+
+				{#each nineTypes as t}
+					<a
+						href={`/enneagram-corner/enneagram-type-${t.num}`}
+						class="primer-row"
+						role="row"
+						style="--type-stripe: var(--type-{t.num}-color);"
+					>
+						<span class="primer-col-num mono" role="cell">{String(t.num).padStart(2, '0')}</span>
+						<span class="primer-col-type" role="cell">{t.name}</span>
+						<span class="primer-col-read" role="cell">{t.read}</span>
 					</a>
 				{/each}
-			</nav>
-		</section>
-
-		<!-- ========== GIVE-FIRST MECHANIC ========== -->
-		<div class="section-observer">
-			{#if sectionsVisible[0] || !browser}
-				<section class="section funnel-section" in:fly={getTransition()}>
-					<header class="section-header">
-						<div class="section-badge accent">
-							<span class="badge-dot"></span>
-							<span>HOW IT WORKS</span>
-						</div>
-						<h2 class="section-title">Give first. Then see the rest.</h2>
-						<p class="section-desc">
-							Every other comment section rewards the loudest voice in the room. Ours does the
-							opposite — it captures your honest reaction <em>before</em> the crowd has a chance to shape
-							it.
-						</p>
-					</header>
-
-					<div class="give-first-row">
-						<div class="give-step">
-							<span class="step-num">1</span>
-							<h3>Answer before you see anything</h3>
-							<p>
-								You write your take first. No scrolling past other comments, no anchoring to the
-								loudest voice, no quietly copying whoever posted first.
-							</p>
-						</div>
-
-						<div class="give-step">
-							<span class="step-num">2</span>
-							<h3>Then see how each type answered</h3>
-							<p>
-								Every response is tagged with the commenter's Enneagram type. When a Type 8 lands
-								somewhere a Type 4 never would, you see <em>why</em> — not just <em>what</em>.
-							</p>
-						</div>
-
-						<div class="give-step give-step-why">
-							<span class="step-num">3</span>
-							<h3>What you get: answers you can actually trust</h3>
-							<p>
-								Most comment sections just echo whoever posted first. Ours don't — so we end up with
-								a library of honest reactions from real people. The kind of data you won't find
-								anywhere else online.
-							</p>
-						</div>
-					</div>
-				</section>
-			{/if}
-		</div>
-
-		<!-- ========== QUESTION OF THE DAY ========== -->
-		<div class="section-observer">
-			{#if sectionsVisible[1] || !browser}
-				<section class="section funnel-section" in:fly={getTransition()}>
-					<header class="section-header">
-						<div class="section-badge accent">
-							<span class="badge-dot"></span>
-							<span>BUILDING THE BASE</span>
-						</div>
-						<h2 class="section-title">Slowly, novel answer by novel answer</h2>
-						<p class="section-desc">
-							We're growing a base of unbiased takes from real people across all nine types. Here's
-							today's question.
-						</p>
-					</header>
-
-					{#if data.questionOfTheDay}
-						<div class="qotd-wrap">
-							<a href={`/questions/${data.questionOfTheDay.url}`} class="quest-card">
-								<div class="quest-header">
-									<div class="quest-badge">
-										<span class="quest-icon">!</span>
-										<span class="quest-label">TODAY'S QUESTION</span>
-									</div>
-									<div class="quest-responses">
-										<span class="response-count">{data.questionOfTheDay.comment_count || 0}</span>
-										<span class="response-label">responses</span>
-									</div>
-								</div>
-
-								<h3 class="quest-title">{data.questionOfTheDay.question_formatted}</h3>
-
-								<div class="quest-cta">
-									<span class="cta-text">Give Your Take</span>
-									<span class="cta-arrow">→</span>
-								</div>
-							</a>
-						</div>
-					{/if}
-				</section>
-			{/if}
-		</div>
-
-		<!-- ========== BLOGS ON THE ENNEAGRAM ========== -->
-		<div class="section-observer">
-			{#if sectionsVisible[2] || !browser}
-				<section class="section funnel-section" in:fly={getTransition()}>
-					<header class="section-header">
-						<div class="section-badge accent">
-							<span class="badge-dot"></span>
-							<span>DIG DEEPER</span>
-						</div>
-						<h2 class="section-title">We write a lot about the Enneagram</h2>
-						<p class="section-desc">
-							Type breakdowns, relationship dynamics, growth paths, communication patterns — all in
-							plain English.
-						</p>
-					</header>
-
-					<div class="blogs-grid">
-						{#each blogCategories as cat}
-							<a href={cat.href} class="blog-card">
-								<div class="blog-card-icon" aria-hidden="true">
-									{#if cat.icon === 'bubbles'}
-										<svg
-											viewBox="0 0 48 48"
-											fill="none"
-											stroke="currentColor"
-											stroke-width="2"
-											stroke-linecap="round"
-											stroke-linejoin="round"
-										>
-											<path
-												d="M8 12a4 4 0 0 1 4-4h24a4 4 0 0 1 4 4v16a4 4 0 0 1-4 4H22l-8 6v-6h-2a4 4 0 0 1-4-4z"
-											/>
-											<circle cx="18" cy="20" r="1.6" fill="currentColor" stroke="none" />
-											<circle cx="24" cy="20" r="1.6" fill="currentColor" stroke="none" />
-											<circle cx="30" cy="20" r="1.6" fill="currentColor" stroke="none" />
-										</svg>
-									{:else if cat.icon === 'nonagon'}
-										<svg
-											viewBox="0 0 48 48"
-											fill="none"
-											stroke="currentColor"
-											stroke-width="2"
-											stroke-linecap="round"
-											stroke-linejoin="round"
-										>
-											<circle cx="24" cy="24" r="18" />
-											<circle cx="24" cy="24" r="10" opacity="0.55" />
-											<circle cx="24" cy="6" r="1.8" fill="currentColor" stroke="none" />
-											<circle cx="36" cy="10" r="1.8" fill="currentColor" stroke="none" />
-											<circle cx="42" cy="21" r="1.8" fill="currentColor" stroke="none" />
-											<circle cx="40" cy="33" r="1.8" fill="currentColor" stroke="none" />
-											<circle cx="30" cy="41" r="1.8" fill="currentColor" stroke="none" />
-											<circle cx="18" cy="41" r="1.8" fill="currentColor" stroke="none" />
-											<circle cx="8" cy="33" r="1.8" fill="currentColor" stroke="none" />
-											<circle cx="6" cy="21" r="1.8" fill="currentColor" stroke="none" />
-											<circle cx="12" cy="10" r="1.8" fill="currentColor" stroke="none" />
-										</svg>
-									{:else if cat.icon === 'checklist'}
-										<svg
-											viewBox="0 0 48 48"
-											fill="none"
-											stroke="currentColor"
-											stroke-width="2"
-											stroke-linecap="round"
-											stroke-linejoin="round"
-										>
-											<rect x="9" y="6" width="30" height="36" rx="3" />
-											<path d="M15 16l3 3 6-6" />
-											<path d="M26 17h8" />
-											<path d="M15 28l3 3 6-6" />
-											<path d="M26 29h8" />
-											<path d="M15 37h14" />
-										</svg>
-									{/if}
-								</div>
-
-								<h3 class="blog-card-title">{cat.label}</h3>
-								<p class="blog-card-desc">{cat.desc}</p>
-
-								<ul class="blog-card-peek">
-									{#each cat.peeks as peek}
-										<li>{peek}</li>
-									{/each}
-								</ul>
-
-								<div class="blog-card-footer">
-									<span class="blog-card-count">{cat.count}</span>
-									<span class="blog-card-cta">Browse →</span>
-								</div>
-							</a>
-						{/each}
-					</div>
-
-					<div class="type-guide-block">
-						<div class="type-guide-header">
-							<h3 class="type-guide-heading">Jump straight to your Enneagram type.</h3>
-							<p class="type-guide-copy">
-								Each guide breaks down the core motivation, blind spots, relationships, and growth
-								path for one of the nine personality types.
-							</p>
-						</div>
-
-						<div class="type-guide-grid">
-							{#each typeGuideLinks as typeGuide}
-								<a
-									href={typeGuide.href}
-									class="type-guide-card"
-									style="--type-color: {typeGuide.color}"
-									aria-label={`Read the Enneagram Type ${typeGuide.type} guide for ${typeGuide.name}`}
-								>
-									<span class="type-guide-eyebrow">Type {typeGuide.type}</span>
-									<h4 class="type-guide-title">{typeGuide.name}</h4>
-									<p class="type-guide-summary">{typeGuide.summary}</p>
-									<span class="type-guide-meta">
-										{typeGuide.title} · {typeGuide.stancePhrase}
-									</span>
-								</a>
-							{/each}
-						</div>
-					</div>
-				</section>
-			{/if}
-		</div>
-
-		<!-- ========== FAMOUS PEOPLE GRID ========== -->
-		<div class="section-observer">
-			{#if sectionsVisible[3] || !browser}
-				<section class="section types-section funnel-section" in:fly={getTransition()}>
-					<header class="section-header">
-						<div class="section-badge accent">
-							<span class="badge-dot"></span>
-							<span>SEE IT IN ACTION</span>
-						</div>
-						<h2 class="section-title">We analyze famous people on purpose</h2>
-						<p class="section-desc">
-							Reading real people is the fastest way to understand yourself — and everyone around
-							you.
-						</p>
-					</header>
-
-					<div class="types-grid">
-						{#each data.typeRepresentatives as person, i}
-							{@const typeNum = person.type}
-							{@const typeInfo = shadowTypes[typeNum]}
-							<a
-								href={person.hasLink
-									? buildPersonalityAnalysisPath(person.name)
-									: `/enneagram-corner/enneagram-type-${typeNum}`}
-								class="type-card"
-								style="--type-color: {typeInfo.color}"
-							>
-								<div class="card-bg"></div>
-								<div class="card-content">
-									<div class="type-number">{typeNum}</div>
-
-									<div class="avatar-wrap">
-										{#if person.hasImage}
-											<img
-												src={buildPersonalityImagePath(typeNum, person.name, 'thumbnail')}
-												alt={formatPersonalityDisplayName(person.name)}
-												class="avatar"
-												loading={i < 3 ? 'eager' : 'lazy'}
-												fetchpriority={i < 3 ? 'high' : 'low'}
-												width="160"
-												height="160"
-												decoding="async"
-											/>
-										{:else}
-											<div class="avatar-placeholder">
-												<span>{typeNum}</span>
-											</div>
-										{/if}
-									</div>
-
-									<div class="type-info">
-										{#if person.personaTitle}
-											<span class="type-title">{person.personaTitle}</span>
-										{/if}
-										<span class="type-name">{typeInfo.name} - {typeInfo.stancePhrase}</span>
-									</div>
-
-									<div class="type-meta">
-										<span class="meta-value">{formatPersonalityDisplayName(person.name)}</span>
-									</div>
-								</div>
-							</a>
-						{/each}
-					</div>
-
-					<div class="section-ctas">
-						<a href="/personality-analysis" class="btn-shadow">
-							<span>Browse All Famous Types</span>
-						</a>
-					</div>
-				</section>
-			{/if}
-		</div>
-
-		<!-- ========== CORPUS STATS ========== -->
-		<div class="section-observer">
-			{#if sectionsVisible[4] || !browser}
-				<div in:fly={getTransition()}>
-					<CorpusStatsPanel />
-				</div>
-			{/if}
-		</div>
-
-		<!-- ========== COACHING ========== -->
-		<div class="section-observer">
-			{#if sectionsVisible[5] || !browser}
-				<section class="section" in:fly={getTransition()}>
-					<div class="coaching-card">
-						<div class="coaching-glow"></div>
-						<div class="coaching-content">
-							<div class="coaching-badge">
-								<span class="badge-icon">★</span>
-								<span>1-ON-1 SESSIONS</span>
-							</div>
-
-							<h2 class="coaching-title">Ready to Go Deeper?</h2>
-
-							<p class="coaching-desc">
-								Apply Enneagram insights directly to your situation. Personalized coaching for
-								relationships, career decisions, or personal growth.
-							</p>
-
-							<ul class="coaching-features">
-								<li>
-									<span class="feature-check">✓</span>
-									<span>Identify your type with precision</span>
-								</li>
-								<li>
-									<span class="feature-check">✓</span>
-									<span>Map your triggers and growth edges</span>
-								</li>
-								<li>
-									<span class="feature-check">✓</span>
-									<span>Decode specific relationships or conflicts</span>
-								</li>
-							</ul>
-
-							<a href="/book-session" class="btn-shadow lg">
-								<span>Join the Waitlist</span>
-							</a>
-
-							<p class="coaching-note">Join the waitlist for personalized Enneagram coaching</p>
-						</div>
-					</div>
-				</section>
-			{/if}
-		</div>
-
-		<!-- ========== FINAL CTA ========== -->
-		{#if !data?.user}
-			<div class="section-observer">
-				{#if sectionsVisible[6] || !browser}
-					<section class="final-section" in:fly={getTransition()}>
-						<div class="final-glow"></div>
-						<div class="final-inner">
-							<div class="final-badge">
-								<span class="badge-pulse"></span>
-								<span>START HERE</span>
-							</div>
-
-							<h2 class="final-title">
-								See. Act. <span class="text-glow">Connect.</span>
-							</h2>
-
-							<p class="final-desc">See what you're missing. Know what to do. Feel understood.</p>
-
-							<div class="final-actions">
-								<a href="/questions" class="btn-shadow lg">
-									<span>Answer Today's Question</span>
-								</a>
-								<a href="/register" class="btn-system">Create Free Account</a>
-							</div>
-						</div>
-					</section>
-				{/if}
 			</div>
-		{/if}
-	</main>
+		</div>
+	</section>
+
+	<!-- =====================================================================
+	  §04 — THE FLOW (connected SVG flow chart)
+	  ===================================================================== -->
+	<section class="flow">
+		<div class="flow-pool" aria-hidden="true"></div>
+
+		<header class="flow-header">
+			<SectionKicker class="section-tag" num="04" label="THE FLOW" />
+			<h2 class="display-md">How a situation becomes 9 reads.</h2>
+			<p class="flow-sub">One moment in. Give-first lock. 9 typed reads out. Then the pattern.</p>
+		</header>
+
+		<div class="flow-diagram" aria-label="9takes mechanism flow chart">
+			<svg
+				viewBox="0 0 800 980"
+				xmlns="http://www.w3.org/2000/svg"
+				class="flow-svg"
+				role="img"
+				aria-label="Flow chart: situation to give-first lock to 9 reads to pattern"
+				preserveAspectRatio="xMidYMid meet"
+			>
+				<defs>
+					<marker
+						id="home-flow-arrowhead"
+						markerWidth="10"
+						markerHeight="10"
+						refX="9"
+						refY="5"
+						orient="auto"
+						markerUnits="strokeWidth"
+					>
+						<path d="M0,0 L0,10 L10,5 z" fill="var(--lamp-glow)" />
+					</marker>
+				</defs>
+
+				<!-- NODE 1 — YOUR SITUATION -->
+				<g aria-label="Your situation">
+					<rect
+						x="270"
+						y="20"
+						width="260"
+						height="100"
+						rx="8"
+						ry="8"
+						fill="var(--stone-warm)"
+						stroke="var(--stone-edge)"
+						stroke-width="1"
+					/>
+					<text x="400" y="52" text-anchor="middle" class="flow-label" fill="var(--lamp-glow)"
+						>YOUR SITUATION</text
+					>
+					<text x="400" y="80" text-anchor="middle" class="flow-body" fill="var(--ink-bright)"
+						>a real moment</text
+					>
+					<text x="400" y="100" text-anchor="middle" class="flow-body" fill="var(--ink-bright)"
+						>from your life</text
+					>
+				</g>
+
+				<line
+					x1="400"
+					y1="120"
+					x2="400"
+					y2="170"
+					stroke="var(--lamp-glow)"
+					stroke-width="2"
+					marker-end="url(#home-flow-arrowhead)"
+				/>
+
+				<!-- NODE 2 — GIVE-FIRST LOCK -->
+				<g aria-label="Give-first lock">
+					<rect
+						x="250"
+						y="180"
+						width="300"
+						height="120"
+						rx="8"
+						ry="8"
+						fill="var(--stone-warm)"
+						stroke="var(--stone-edge)"
+						stroke-width="1"
+					/>
+					<text x="400" y="212" text-anchor="middle" class="flow-label" fill="var(--lamp-glow)"
+						>GIVE-FIRST LOCK</text
+					>
+					<text x="400" y="240" text-anchor="middle" class="flow-body" fill="var(--ink-bright)"
+						>your honest take,</text
+					>
+					<text x="400" y="260" text-anchor="middle" class="flow-body" fill="var(--ink-bright)"
+						>written before</text
+					>
+					<text x="400" y="280" text-anchor="middle" class="flow-body" fill="var(--ink-bright)"
+						>the room shapes it</text
+					>
+				</g>
+
+				<line
+					x1="400"
+					y1="300"
+					x2="400"
+					y2="350"
+					stroke="var(--lamp-glow)"
+					stroke-width="2"
+					marker-end="url(#home-flow-arrowhead)"
+				/>
+
+				<!-- NODE 3 — 9 READS UNLOCK -->
+				<g aria-label="Nine reads unlock">
+					<rect
+						x="290"
+						y="360"
+						width="220"
+						height="68"
+						rx="8"
+						ry="8"
+						fill="var(--stone-warm)"
+						stroke="var(--stone-edge)"
+						stroke-width="1"
+					/>
+					<text x="400" y="392" text-anchor="middle" class="flow-label" fill="var(--lamp-glow)"
+						>9 READS UNLOCK</text
+					>
+					<text
+						x="400"
+						y="412"
+						text-anchor="middle"
+						class="flow-body flow-body--mid"
+						fill="var(--ink-mid)">fan-out by type</text
+					>
+				</g>
+
+				<line
+					x1="400"
+					y1="428"
+					x2="135"
+					y2="510"
+					stroke="var(--lamp-glow)"
+					stroke-width="2"
+					marker-end="url(#home-flow-arrowhead)"
+				/>
+				<line
+					x1="400"
+					y1="428"
+					x2="400"
+					y2="510"
+					stroke="var(--lamp-glow)"
+					stroke-width="2"
+					marker-end="url(#home-flow-arrowhead)"
+				/>
+				<line
+					x1="400"
+					y1="428"
+					x2="665"
+					y2="510"
+					stroke="var(--lamp-glow)"
+					stroke-width="2"
+					marker-end="url(#home-flow-arrowhead)"
+				/>
+
+				<!-- T1 SAMPLE READ -->
+				<g aria-label="Type 1 read">
+					<rect
+						x="40"
+						y="520"
+						width="190"
+						height="120"
+						rx="8"
+						ry="8"
+						fill="var(--stone-warm)"
+						stroke="var(--stone-edge)"
+						stroke-width="1"
+					/>
+					<rect x="40" y="520" width="190" height="4" fill="var(--type-1-color)" />
+					<text x="135" y="552" text-anchor="middle" class="flow-label" fill="var(--lamp-glow)"
+						>T1 · THE PERFECTIONIST</text
+					>
+					<text
+						x="135"
+						y="582"
+						text-anchor="middle"
+						class="flow-body flow-body--italic"
+						fill="var(--ink-bright)">leads with</text
+					>
+					<text
+						x="135"
+						y="610"
+						text-anchor="middle"
+						class="flow-body flow-body--strong"
+						fill="var(--ink-bright)">&ldquo;what&rsquo;s broken&rdquo;</text
+					>
+				</g>
+
+				<!-- T5 SAMPLE READ -->
+				<g aria-label="Type 5 read">
+					<rect
+						x="305"
+						y="520"
+						width="190"
+						height="120"
+						rx="8"
+						ry="8"
+						fill="var(--stone-warm)"
+						stroke="var(--stone-edge)"
+						stroke-width="1"
+					/>
+					<rect x="305" y="520" width="190" height="4" fill="var(--type-5-color)" />
+					<text x="400" y="552" text-anchor="middle" class="flow-label" fill="var(--lamp-glow)"
+						>T5 · THE INVESTIGATOR</text
+					>
+					<text
+						x="400"
+						y="582"
+						text-anchor="middle"
+						class="flow-body flow-body--italic"
+						fill="var(--ink-bright)">leads with</text
+					>
+					<text
+						x="400"
+						y="610"
+						text-anchor="middle"
+						class="flow-body flow-body--strong"
+						fill="var(--ink-bright)">&ldquo;the system underneath&rdquo;</text
+					>
+				</g>
+
+				<!-- T9 SAMPLE READ -->
+				<g aria-label="Type 9 read">
+					<rect
+						x="570"
+						y="520"
+						width="190"
+						height="120"
+						rx="8"
+						ry="8"
+						fill="var(--stone-warm)"
+						stroke="var(--stone-edge)"
+						stroke-width="1"
+					/>
+					<rect x="570" y="520" width="190" height="4" fill="var(--type-9-color)" />
+					<text x="665" y="552" text-anchor="middle" class="flow-label" fill="var(--lamp-glow)"
+						>T9 · THE PEACEMAKER</text
+					>
+					<text
+						x="665"
+						y="582"
+						text-anchor="middle"
+						class="flow-body flow-body--italic"
+						fill="var(--ink-bright)">leads with</text
+					>
+					<text
+						x="665"
+						y="610"
+						text-anchor="middle"
+						class="flow-body flow-body--strong"
+						fill="var(--ink-bright)">&ldquo;the harmony&rdquo;</text
+					>
+				</g>
+
+				<text x="400" y="675" text-anchor="middle" class="flow-annotation" fill="var(--ink-dim)"
+					>... 6 MORE TYPED READS (T2, T3, T4, T6, T7, T8) ...</text
+				>
+
+				<line
+					x1="135"
+					y1="700"
+					x2="395"
+					y2="780"
+					stroke="var(--lamp-glow)"
+					stroke-width="2"
+					marker-end="url(#home-flow-arrowhead)"
+				/>
+				<line
+					x1="400"
+					y1="700"
+					x2="400"
+					y2="780"
+					stroke="var(--lamp-glow)"
+					stroke-width="2"
+					marker-end="url(#home-flow-arrowhead)"
+				/>
+				<line
+					x1="665"
+					y1="700"
+					x2="405"
+					y2="780"
+					stroke="var(--lamp-glow)"
+					stroke-width="2"
+					marker-end="url(#home-flow-arrowhead)"
+				/>
+
+				<!-- FINAL — THE PATTERN -->
+				<g aria-label="The pattern">
+					<rect
+						x="220"
+						y="790"
+						width="360"
+						height="160"
+						rx="8"
+						ry="8"
+						fill="var(--stone-warm)"
+						stroke="var(--lamp-glow)"
+						stroke-width="2"
+					/>
+					<text x="400" y="824" text-anchor="middle" class="flow-label" fill="var(--lamp-glow)"
+						>THE PATTERN</text
+					>
+					<text x="400" y="858" text-anchor="middle" class="flow-body" fill="var(--ink-bright)"
+						>you see what each type</text
+					>
+					<text x="400" y="880" text-anchor="middle" class="flow-body" fill="var(--ink-bright)"
+						>leads with &mdash; and what</text
+					>
+					<text x="400" y="902" text-anchor="middle" class="flow-body" fill="var(--ink-bright)"
+						>you&rsquo;ve been missing</text
+					>
+					<text x="400" y="932" text-anchor="middle" class="flow-annotation" fill="var(--ink-dim)"
+						>&mdash; OUTPUT &mdash;</text
+					>
+				</g>
+			</svg>
+		</div>
+	</section>
+
+	<!-- =====================================================================
+	  §05 — THE FLOOR IS OPEN (real questionOfTheDay, anchor #open-question)
+	  ===================================================================== -->
+	<section id="open-question" class="open-floor">
+		<div class="open-floor-pool" aria-hidden="true"></div>
+		<header class="open-floor-header">
+			<SectionKicker class="section-tag" num="05" label="THE FLOOR IS OPEN" />
+			<h2 class="display-md">{timeWindow.title}.</h2>
+			<p class="mono open-floor-kicker">
+				OPEN · {timeWindow.kicker}{dateLabel ? ` · ${dateLabel}` : ''} · {data.questionOfTheDay
+					?.comment_count ?? 0} RESPONSES
+			</p>
+			<blockquote class="open-floor-question">
+				&ldquo;{data.questionOfTheDay?.question_formatted ??
+					'What is something people misunderstand about you?'}&rdquo;
+			</blockquote>
+		</header>
+
+		<ul class="open-floor-takes">
+			{#each lockedTakes as t}
+				<li class="take-card" style="--type-stripe: var(--type-{t.type}-color);">
+					<div class="take-card-top">
+						<span class="mono take-card-label">
+							TYPE {t.type} · {t.typeName.toUpperCase()} · LOCKED
+						</span>
+					</div>
+					<p class="take-body">{t.hint}</p>
+					<div class="take-meta">
+						<span class="mono">DROP YOURS TO UNLOCK</span>
+					</div>
+				</li>
+			{/each}
+		</ul>
+
+		<div class="open-floor-cta-row">
+			<Button
+				size="lg"
+				variant="primary"
+				href={data.questionOfTheDay?.url ? `/questions/${data.questionOfTheDay.url}` : '/questions'}
+			>
+				Drop your take →
+			</Button>
+			<p class="mono open-floor-footnote">the platform locks responses until you give yours</p>
+		</div>
+	</section>
+
+	<!-- =====================================================================
+	  §06 — THE LIBRARY (famous-people dossier grid; real data)
+	  ===================================================================== -->
+	<section class="library">
+		<header class="library-header">
+			<SectionKicker class="section-tag" num="06" label="CASE FILES" />
+			<h2 class="display-md">The Library.</h2>
+			<p class="library-sub">
+				Personality breakdowns of public figures, fictional characters, athletes, and founders. Read
+				at the depth you&rsquo;d expect from a real psychologist, not a clickbait listicle.
+			</p>
+			<p class="mono library-kicker">THE LIBRARY · 1,247+ BREAKDOWNS · 9 TYPES · GROWING</p>
+		</header>
+
+		<div class="library-grid">
+			{#each data.typeRepresentatives as person, i}
+				{@const typeNum = person.type}
+				{@const info = ENNEAGRAM_TYPE_COLORS[typeNum]}
+				{@const displayName = formatPersonalityDisplayName(person.name)}
+				{@const personaTitle = person.personaTitle?.trim() || info.name}
+				<a
+					href={personLink(person)}
+					class="library-card"
+					style="--type-stripe: var(--type-{typeNum}-color);"
+				>
+					<div class="library-image-wrap">
+						{#if person.hasImage}
+							<img
+								src={buildPersonalityImagePath(typeNum, person.name, 'thumbnail')}
+								alt={displayName}
+								class="library-image"
+								loading={i < 3 ? 'eager' : 'lazy'}
+								fetchpriority={i < 3 ? 'high' : 'low'}
+								width="320"
+								height="240"
+								decoding="async"
+							/>
+						{:else}
+							<div class="library-image-stub" aria-hidden="true">
+								<span class="mono">[PORTRAIT]</span>
+							</div>
+						{/if}
+					</div>
+					<div class="library-card-body">
+						<span class="mono library-id">
+							№ {fileNumber(i)} · TYPE {typeNum} · {personaTitle.toUpperCase()}
+						</span>
+						<h3 class="library-name">{displayName}</h3>
+						<p class="library-subtitle">{info.name} &mdash; {info.title}.</p>
+					</div>
+				</a>
+			{/each}
+		</div>
+
+		<div class="library-cta-row">
+			<Button size="lg" variant="ghost" href="/personality-analysis">
+				Browse all breakdowns →
+			</Button>
+		</div>
+	</section>
+
+	<!-- =====================================================================
+	  §07 — BY THE NUMBERS (4 stat blocks)
+	  ===================================================================== -->
+	<section class="compiled">
+		<div class="compiled-pool" aria-hidden="true"></div>
+		<header class="compiled-header">
+			<SectionKicker class="section-tag" num="07" label="CORPUS" />
+			<h2 class="display-md">By the numbers.</h2>
+		</header>
+
+		<div class="compiled-grid">
+			{#each corpusStats as s}
+				<div class="compiled-stat">
+					<span class="mono compiled-stat-label">{s.label}</span>
+					<span class="compiled-stat-value">{s.value}</span>
+					<span class="mono compiled-stat-annotation">— {s.annotation} —</span>
+				</div>
+			{/each}
+		</div>
+	</section>
+
+	<!-- =====================================================================
+	  §08 — COACHING (production-only quiet CTA; not in V5 prototype)
+	  ===================================================================== -->
+	<section class="coaching">
+		<div class="coaching-inner">
+			<SectionKicker class="section-tag" num="08" label="COACHING" />
+			<h2 class="display-md">Want to take it deeper?</h2>
+			<p class="coaching-sub">
+				Direct application. Personalized EQ work. 1-on-1 sessions with DJ &mdash; for relationships,
+				career decisions, or the patterns you can&rsquo;t name yet.
+			</p>
+			<div class="coaching-cta-row">
+				<Button size="lg" variant="primary" href="/book-session">Book a session</Button>
+			</div>
+		</div>
+	</section>
+
+	<!-- =====================================================================
+	  Footer is rendered by +layout.svelte — no inline footer here.
+	  ===================================================================== -->
 </div>
 
-<style>
-	/* ==========================================
-	   HOMEPAGE-SHADE VARIABLES
-	   ========================================== */
-	.sl-page {
-		--void-shadow: var(--bg-base);
-		--void-umbra: var(--bg-deep);
-		--void-penumbra: var(--bg-surface);
-		--card-surface-top: color-mix(in srgb, var(--bg-surface) 78%, var(--bg-base));
-		--card-surface-bottom: color-mix(in srgb, var(--bg-deep) 88%, var(--bg-surface));
-		--card-surface-raised: color-mix(in srgb, var(--bg-surface) 90%, var(--bg-deep));
-		--card-highlight: inset 0 1px 0 color-mix(in srgb, var(--bg-surface) 78%, transparent);
-		--card-shadow-soft: 0 12px 28px color-mix(in srgb, var(--shadow-color) 72%, transparent);
-		--card-shadow-strong: 0 16px 36px color-mix(in srgb, var(--shadow-color) 80%, transparent);
-		--card-border-accent: color-mix(in srgb, var(--primary) 24%, var(--border-color));
-		--card-border-accent-strong: color-mix(in srgb, var(--primary) 42%, var(--border-color));
+<style lang="scss">
+	/* =========================================================
+	  Streetlamp Symposium — production homepage.
+	  Brand tokens (--lamp-*, --night-*, --stone-*, --ink-*, --data-*,
+	  --pool-rgb, --pool-deep-rgb, --type-N-color) are bridge tokens
+	  shipped globally in src/scss/index.scss. The few preview-only
+	  tokens (--cta-text, --pool-alpha-*, --statue-blend, --grain-opacity,
+	  --lamp-glow-rgba, --data-cyan, --marble-*) are declared on .home
+	  here so they only apply to this page until Phase 7 cleanup.
+	  ========================================================= */
+	.home {
+		--cta-text: var(--night-deep);
+		--pool-alpha-strong: 0.28;
+		--pool-alpha-mid: 0.18;
+		--pool-alpha-soft: 0.08;
+		--statue-blend: screen;
+		--grain-opacity: 0.05;
 
-		--text-pale: var(--text-primary);
-		--text-mist: var(--text-secondary);
-		--text-faded: var(--text-muted);
-
-		--shadow-flame: var(--primary);
-		--shadow-ethereal: var(--primary-light);
-		--shadow-deep: var(--primary-dark);
-
-		--system-hologram: var(--secondary);
-		--system-stream: var(--secondary-light);
-		--system-deep: var(--secondary-dark);
-
-		--status-gold: var(--secondary);
-		--status-gold-bright: var(--secondary-light);
-
-		--ease-out: cubic-bezier(0.4, 0, 0.2, 1);
-
-		/* Fork-specific tree variables */
-		--col-gap: 2rem;
-		--no-width: calc((100% - var(--col-gap)) / 3);
-		--no-center: calc(var(--no-width) / 2);
-		--yes-start: calc(var(--no-width) + var(--col-gap));
-		--yes-width: calc((100% - var(--col-gap)) * 2 / 3);
-		--yes-center: calc(var(--yes-start) + var(--yes-width) / 2);
-
-		--line-color: rgba(45, 212, 191, 0.55);
-		--line-glow: rgba(45, 212, 191, 0.35);
-	}
-
-	.sl-page {
-		position: relative;
+		background: var(--night-deep);
+		color: var(--ink-bright);
+		font-family: var(--font-display);
 		min-height: 100vh;
-		background: var(--bg-base);
-		color: var(--text-pale);
-		font-family: var(--font-family);
-		overflow-x: hidden;
-	}
-
-	.content {
 		position: relative;
-		z-index: 10;
-		max-width: 1120px;
-		margin: 0 auto;
-		padding: 0 1rem;
+		overflow: hidden;
+		scroll-behavior: smooth;
+
+		@media (prefers-reduced-motion: reduce) {
+			scroll-behavior: auto;
+		}
+
+		/* Light-mode adjustments — global :root.light flips brand tokens for us;
+		   here we only soften pool intensity + statue blend. */
+		:global(:root.light) & {
+			--pool-alpha-strong: 0.14;
+			--pool-alpha-mid: 0.08;
+			--pool-alpha-soft: 0.04;
+			--statue-blend: normal;
+			--grain-opacity: 0.025;
+			--cta-text: #faf8f4;
+		}
 	}
 
-	/* Background layers */
-	.bg-void {
-		position: fixed;
+	/* ---------- shared utilities ---------- */
+	.home :global(.mono) {
+		font-family: var(--font-mono);
+		font-size: 12px;
+		font-weight: 500;
+		letter-spacing: 0.08em;
+		text-transform: uppercase;
+		color: var(--ink-dim);
+	}
+
+	.display-xl {
+		font-family: var(--font-display);
+		font-weight: 800;
+		font-size: clamp(40px, 7.4vw, 72px);
+		line-height: 1.02;
+		letter-spacing: -0.04em;
+		color: var(--ink-bright);
+		margin: 0;
+	}
+
+	.display-md {
+		font-family: var(--font-display);
+		font-weight: 700;
+		font-size: clamp(28px, 4vw, 40px);
+		line-height: 1.1;
+		letter-spacing: -0.02em;
+		color: var(--ink-bright);
+		margin: 0;
+	}
+
+	.home :global(.section-tag) {
+		display: inline-block;
+		margin-bottom: 16px;
+		color: var(--lamp-glow);
+	}
+
+	.home :global(p),
+	.home :global(h1),
+	.home :global(h2),
+	.home :global(h3) {
+		margin: 0;
+	}
+
+	.home :global(ul),
+	.home :global(ol) {
+		list-style: none;
+		padding: 0;
+		margin: 0;
+	}
+
+	.home :global(a) {
+		color: inherit;
+		text-decoration: none;
+	}
+
+	.home :global(blockquote) {
+		margin: 0;
+	}
+
+	/* ---------- subtle paper grain ---------- */
+	.grain {
+		position: absolute;
 		inset: 0;
-		background: var(--bg-base);
+		pointer-events: none;
+		opacity: var(--grain-opacity);
+		mix-blend-mode: overlay;
+		z-index: 1;
+		background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='240' height='240'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='2' stitchTiles='stitch'/><feColorMatrix values='0 0 0 0 0.95 0 0 0 0 0.85 0 0 0 0 0.6 0 0 0 0.7 0'/></filter><rect width='100%' height='100%' filter='url(%23n)'/></svg>");
+	}
+
+	/* =========================================================
+	  §01 + §02 — anatomy
+	  ========================================================= */
+	.anatomy {
+		position: relative;
+		padding: 96px 48px 72px;
+		background: var(--night-deep);
+		overflow: hidden;
+
+		@media (max-width: 768px) {
+			padding: 64px 20px 56px;
+		}
+	}
+
+	.anatomy-pool {
+		position: absolute;
+		inset: 0;
+		pointer-events: none;
+		background:
+			radial-gradient(
+				ellipse 60% 55% at 18% 8%,
+				rgba(var(--pool-rgb), var(--pool-alpha-strong)) 0%,
+				rgba(var(--pool-rgb), var(--pool-alpha-soft)) 30%,
+				transparent 60%
+			),
+			radial-gradient(
+				ellipse 90% 70% at 22% 12%,
+				rgba(var(--pool-deep-rgb), var(--pool-alpha-mid)) 0%,
+				transparent 55%
+			);
 		z-index: 0;
 	}
-	.bg-ambient {
-		position: fixed;
-		inset: 0;
-		background:
-			radial-gradient(ellipse at 25% 0%, rgba(45, 212, 191, 0.1) 0%, transparent 50%),
-			radial-gradient(ellipse at 75% 100%, rgba(251, 113, 133, 0.08) 0%, transparent 50%);
-		z-index: 1;
-		pointer-events: none;
-	}
-	.bg-grid {
-		position: fixed;
-		inset: 0;
-		background-image:
-			linear-gradient(rgba(45, 212, 191, 0.02) 1px, transparent 1px),
-			linear-gradient(90deg, rgba(45, 212, 191, 0.02) 1px, transparent 1px);
-		background-size: 60px 60px;
+
+	.anatomy-inner {
+		position: relative;
 		z-index: 2;
-		pointer-events: none;
-	}
-
-	.text-glow {
-		color: var(--shadow-flame);
-		text-shadow: 0 0 20px rgba(167, 139, 250, 0.5);
-	}
-
-	/* ==========================================
-	   HERO DECISION
-	   ========================================== */
-	.hero-section {
-		padding: 4rem 0 2.75rem;
-	}
-
-	.hero-copy {
-		max-width: 820px;
-		margin: 0 auto 2rem;
-		text-align: center;
-	}
-
-	.page-title {
-		font-family: var(--font-display);
-		font-size: 3.35rem;
-		font-weight: 700;
-		line-height: 1.08;
-		letter-spacing: 0;
-		color: var(--text-pale);
-		max-width: 780px;
-		margin: 0 auto 0.85rem;
-		text-wrap: balance;
-	}
-
-	.page-lede {
-		max-width: 660px;
+		max-width: 1280px;
 		margin: 0 auto;
-		font-size: 1.08rem;
-		line-height: 1.7;
-		color: var(--text-mist);
-		text-wrap: pretty;
-	}
-
-	.hero-actions,
-	.decision-actions {
-		display: flex;
-		flex-wrap: wrap;
-		align-items: center;
-		justify-content: center;
-		gap: 0.75rem;
-	}
-
-	.hero-actions {
-		margin-top: 1.35rem;
-	}
-
-	.hero-decision {
-		display: grid;
-		grid-template-columns: minmax(250px, 0.82fr) minmax(0, 1.5fr);
-		gap: 1rem;
-		align-items: stretch;
-	}
-
-	.decision-panel {
-		position: relative;
 		display: flex;
 		flex-direction: column;
-		text-align: left;
-		padding: 1.35rem;
-		background: linear-gradient(
-			180deg,
-			var(--card-surface-top) 0%,
-			var(--card-surface-bottom) 100%
-		);
-		border: 1px solid var(--card-border-accent);
-		border-radius: 8px;
-		box-shadow: 0 12px 24px color-mix(in srgb, var(--shadow-color) 48%, transparent);
+		gap: 28px;
 	}
 
-	.decision-no {
-		border-color: color-mix(in srgb, var(--secondary) 26%, var(--border-color));
-	}
-
-	.decision-yes {
-		border-color: color-mix(in srgb, var(--primary) 42%, var(--border-color));
-		background:
-			linear-gradient(
-				180deg,
-				color-mix(in srgb, var(--primary) 6%, var(--card-surface-top)) 0%,
-				var(--card-surface-bottom) 100%
-			),
-			var(--card-surface-bottom);
-		box-shadow:
-			0 16px 32px color-mix(in srgb, var(--shadow-color) 56%, transparent),
-			0 0 30px color-mix(in srgb, var(--primary) 12%, transparent);
-	}
-
-	.branch-label {
-		display: inline-block;
-		font-family: var(--font-mono);
-		font-size: 0.7rem;
-		font-weight: 700;
-		letter-spacing: 0.15em;
-		padding: 0.3rem 0.65rem;
-		border-radius: 4px;
-		margin-bottom: 0.85rem;
-	}
-
-	.no-label {
-		background: rgba(251, 113, 133, 0.12);
-		color: var(--system-hologram);
-		border: 1px solid rgba(251, 113, 133, 0.28);
-	}
-
-	.yes-label {
-		background: rgba(45, 212, 191, 0.12);
-		color: var(--shadow-flame);
-		border: 1px solid rgba(45, 212, 191, 0.32);
-	}
-
-	.branch-title {
-		font-family: var(--font-display);
-		font-size: 1.45rem;
-		font-weight: 700;
-		color: var(--text-pale);
-		margin: 0 0 0.65rem;
-		line-height: 1.25;
-	}
-
-	.decision-yes .branch-title {
-		font-size: 1.8rem;
-		line-height: 1.15;
-	}
-
-	.branch-intro,
-	.branch-tagline,
-	.branch-body {
-		color: var(--text-mist);
-		line-height: 1.6;
-		margin: 0 0 1rem;
-	}
-
-	.branch-tagline em {
-		color: var(--shadow-ethereal);
-		font-style: italic;
-	}
-
-	.branch-links {
-		list-style: none;
-		padding: 0;
-		margin: 1rem 0 0;
-		display: flex;
-		flex-direction: column;
-		gap: 0.6rem;
-	}
-
-	.branch-link {
-		display: block;
-		padding: 0.85rem 1rem;
-		border-radius: 8px;
-		background: color-mix(in srgb, var(--bg-deep) 70%, transparent);
-		border: 1px solid color-mix(in srgb, var(--secondary) 20%, var(--border-color));
-		text-decoration: none;
-		transition: all 200ms var(--ease-out);
-	}
-
-	.branch-link:hover {
-		border-color: rgba(251, 113, 133, 0.45);
-		background: color-mix(in srgb, var(--bg-deep) 60%, transparent);
-		transform: translateX(2px);
-		box-shadow: 0 0 20px rgba(251, 113, 133, 0.12);
-	}
-
-	.branch-link-title {
-		display: block;
-		font-family: var(--font-display);
-		font-size: 0.95rem;
-		font-weight: 600;
-		color: var(--text-pale);
-	}
-
-	.branch-link-sub {
-		display: block;
-		font-size: 0.8rem;
-		color: var(--text-faded);
-		margin-top: 0.15rem;
-	}
-
-	.demo-preview {
-		margin: 0.25rem 0 1.25rem;
-		padding: 1rem;
-		background: color-mix(in srgb, var(--bg-deep) 72%, transparent);
-		border: 1px solid color-mix(in srgb, var(--primary) 20%, var(--border-color));
-		border-radius: 8px;
-	}
-
-	.demo-topline {
-		display: flex;
-		justify-content: space-between;
-		align-items: center;
-		gap: 0.75rem;
-		font-family: var(--font-mono);
-		font-size: 0.72rem;
-		line-height: 1.4;
-		letter-spacing: 0.05em;
-		text-transform: uppercase;
-		color: var(--shadow-flame);
-	}
-
-	.demo-question {
-		font-family: var(--font-display);
-		font-size: 1.35rem;
-		line-height: 1.25;
-		color: var(--text-pale);
-		margin: 0.65rem 0 0.9rem;
-	}
-
-	.demo-compose {
-		display: flex;
-		align-items: center;
-		gap: 0.65rem;
-		padding: 0.75rem;
-		border: 1px dashed color-mix(in srgb, var(--primary) 32%, var(--border-color));
-		border-radius: 8px;
-		color: var(--text-mist);
-		font-size: 0.9rem;
-	}
-
-	.demo-user {
-		display: inline-flex;
-		align-items: center;
-		justify-content: center;
-		width: 2rem;
-		height: 2rem;
-		border-radius: 50%;
-		background: var(--primary);
-		color: var(--text-on-primary);
-		font-family: var(--font-mono);
-		font-size: 0.72rem;
-		font-weight: 700;
-		flex-shrink: 0;
-	}
-
-	.demo-replies {
+	.anatomy-top {
 		display: grid;
-		grid-template-columns: repeat(3, 1fr);
-		gap: 0.55rem;
-		margin-top: 0.75rem;
+		grid-template-columns: 1.15fr 0.85fr;
+		gap: 56px;
+		align-items: center;
+
+		@media (max-width: 968px) {
+			grid-template-columns: 1fr;
+			gap: 24px;
+		}
 	}
 
-	.demo-reply {
-		min-width: 0;
-		padding: 0.7rem;
-		border: 1px solid color-mix(in srgb, var(--type-color) 30%, var(--border-color));
-		border-radius: 8px;
-		background: color-mix(in srgb, var(--type-color) 6%, transparent);
+	.anatomy-text {
+		max-width: 680px;
 	}
 
-	.demo-reply-head {
+	.anatomy-eyebrow {
+		margin-bottom: 22px;
+	}
+
+	.scale-marker {
 		display: flex;
-		justify-content: space-between;
-		gap: 0.5rem;
-		font-family: var(--font-mono);
-		font-size: 0.68rem;
-		font-weight: 700;
-		letter-spacing: 0.04em;
-		color: var(--type-color);
-		text-transform: uppercase;
+		align-items: flex-end;
+		gap: 6px;
+		height: 18px;
+		margin: 24px 0 14px;
+		opacity: 0.7;
+
+		.tick {
+			width: 1px;
+			height: 8px;
+			background: var(--stone-edge);
+
+			&--major {
+				height: 16px;
+				background: var(--lamp-glow);
+				width: 1.5px;
+			}
+		}
 	}
 
-	.demo-reply p {
-		margin: 0.45rem 0 0;
-		font-size: 0.78rem;
-		line-height: 1.4;
-		color: var(--text-mist);
+	.coords {
+		color: var(--ink-dim);
+		margin-bottom: 28px;
 	}
 
-	.resource-pills {
-		display: flex;
-		flex-wrap: wrap;
-		align-items: center;
-		justify-content: center;
-		gap: 0.55rem;
-		margin-top: 1.25rem;
-		color: var(--text-faded);
-	}
-
-	.resource-kicker,
-	.resource-pill {
-		font-family: var(--font-mono);
-		font-size: 0.76rem;
-		letter-spacing: 0.04em;
-		text-transform: uppercase;
-	}
-
-	.resource-pill {
-		display: inline-flex;
-		align-items: center;
-		min-height: 2.15rem;
-		padding: 0.45rem 0.75rem;
-		border: 1px solid color-mix(in srgb, var(--primary) 18%, var(--border-color));
-		border-radius: 8px;
-		background: color-mix(in srgb, var(--bg-surface) 72%, transparent);
-		color: var(--text-mist);
-		text-decoration: none;
-		transition:
-			color 180ms var(--ease-out),
-			border-color 180ms var(--ease-out),
-			background 180ms var(--ease-out),
-			transform 180ms var(--ease-out);
-	}
-
-	.resource-pill:hover {
-		color: var(--primary-light);
-		border-color: color-mix(in srgb, var(--primary) 38%, var(--border-color));
-		background: var(--primary-subtle);
-		transform: translateY(-1px);
-	}
-
-	/* ==========================================
-	   FUNNEL SECTIONS (post-fork)
-	   ========================================== */
-	.section {
-		padding: 3rem 0;
-	}
-
-	.section-header {
-		text-align: center;
-		margin-bottom: 2rem;
-	}
-
-	.section-header em {
-		color: var(--shadow-ethereal);
-		font-style: italic;
-	}
-
-	.section-badge {
-		display: inline-flex;
-		align-items: center;
-		gap: 0.5rem;
-		padding: 0.35rem 0.75rem;
-		background: rgba(251, 113, 133, 0.08);
-		border: 1px solid rgba(251, 113, 133, 0.15);
-		border-radius: 4px;
-		margin-bottom: 1rem;
-		font-family: var(--font-mono);
-		font-size: 0.7rem;
-		letter-spacing: 0.1em;
-		color: var(--system-hologram);
-	}
-
-	.section-badge.accent {
-		background: rgba(45, 212, 191, 0.08);
-		border-color: rgba(45, 212, 191, 0.15);
-		color: var(--shadow-flame);
-	}
-
-	.section-badge.accent .badge-dot {
-		background: var(--shadow-flame);
-		box-shadow: 0 0 8px var(--primary);
-	}
-
-	.badge-dot {
-		width: 5px;
-		height: 5px;
-		background: var(--system-hologram);
-		border-radius: 50%;
-		box-shadow: 0 0 8px var(--secondary);
-	}
-
-	.section-title {
+	.hero-subhead {
 		font-family: var(--font-display);
-		font-size: 2.1rem;
-		font-weight: 700;
-		color: var(--text-pale);
-		margin-bottom: 0.5rem;
-	}
-
-	.section-desc {
-		font-size: 1rem;
-		color: var(--text-mist);
-		max-width: 580px;
-		margin: 0 auto;
-		line-height: 1.6;
-	}
-
-	/* ----- Give-first row ----- */
-	.give-first-row {
-		display: grid;
-		grid-template-columns: repeat(3, 1fr);
-		gap: 1.25rem;
-		align-items: stretch;
-		max-width: 1000px;
-		margin: 0 auto;
-	}
-
-	@media (min-width: 961px) {
-		.hero-decision {
-			position: relative;
-			padding-top: 1.75rem;
-		}
-
-		.hero-decision::before {
-			content: '';
-			position: absolute;
-			top: 0;
-			left: 50%;
-			transform: translateX(-50%);
-			width: 2px;
-			height: 0.95rem;
-			background: linear-gradient(180deg, var(--line-color), rgba(45, 212, 191, 0.2));
-			box-shadow: 0 0 12px var(--line-glow);
-			border-radius: 1px;
-		}
-
-		.hero-decision::after {
-			content: '';
-			position: absolute;
-			top: 0.95rem;
-			left: 18%;
-			right: 18%;
-			height: 2px;
-			background: linear-gradient(
-				90deg,
-				transparent 0%,
-				var(--line-color) 10%,
-				var(--line-color) 90%,
-				transparent 100%
-			);
-			box-shadow: 0 0 12px var(--line-glow);
-			border-radius: 1px;
-		}
-
-		.decision-panel::before {
-			content: '';
-			position: absolute;
-			top: -0.95rem;
-			left: 50%;
-			transform: translateX(-50%);
-			width: 2px;
-			height: 0.95rem;
-			background: linear-gradient(180deg, var(--line-color), rgba(45, 212, 191, 0.15));
-			box-shadow: 0 0 10px var(--line-glow);
-			border-radius: 1px;
-		}
-
-		.give-step + .give-step::before {
-			content: '';
-			position: absolute;
-			top: 2.65rem;
-			left: -1.25rem;
-			width: 1.25rem;
-			height: 2px;
-			background: linear-gradient(90deg, rgba(45, 212, 191, 0.18) 0%, var(--line-color) 100%);
-			box-shadow: 0 0 10px rgba(45, 212, 191, 0.18);
-			border-radius: 1px;
-		}
-	}
-
-	.give-step {
-		position: relative;
-		display: flex;
-		flex-direction: column;
-		padding: 1.75rem 1.5rem;
-		background: linear-gradient(180deg, var(--void-shadow) 0%, var(--void-umbra) 100%);
-		border: 1px solid rgba(45, 212, 191, 0.18);
-		border-radius: 8px;
-		text-align: left;
-	}
-
-	.give-step-why {
-		border-color: rgba(45, 212, 191, 0.35);
-		background: linear-gradient(
-			180deg,
-			color-mix(in srgb, var(--primary) 6%, var(--void-shadow)) 0%,
-			var(--void-umbra) 100%
-		);
-		box-shadow:
-			0 0 30px rgba(45, 212, 191, 0.08),
-			inset 0 1px 0 rgba(45, 212, 191, 0.1);
-	}
-
-	.step-num {
-		display: inline-flex;
-		align-items: center;
-		justify-content: center;
-		width: 1.85rem;
-		height: 1.85rem;
-		background: color-mix(in srgb, var(--primary) 18%, var(--bg-deep));
-		border: 1px solid rgba(45, 212, 191, 0.4);
-		color: var(--shadow-flame);
-		border-radius: 6px;
-		font-family: var(--font-mono);
-		font-weight: 700;
-		font-size: 0.9rem;
-		margin-bottom: 0.85rem;
-	}
-
-	.give-step h3 {
-		font-family: var(--font-display);
-		font-size: 1.1rem;
-		line-height: 1.3;
-		color: var(--text-pale);
-		margin: 0 0 0.55rem;
-	}
-
-	.give-step p {
-		margin: 0;
-		font-size: 0.92rem;
-		color: var(--text-mist);
+		font-size: 18px;
 		line-height: 1.55;
+		color: var(--ink-mid);
+		max-width: 600px;
+		font-weight: 400;
+
+		@media (max-width: 540px) {
+			font-size: 16px;
+		}
 	}
 
-	.give-step p em {
-		color: var(--shadow-ethereal);
+	.hero-subhead-line-1 {
+		margin-bottom: 10px;
+	}
+
+	.anatomy-subject {
+		position: relative;
+
+		@media (max-width: 968px) {
+			display: none;
+		}
+	}
+
+	.subject-frame {
+		position: relative;
+		aspect-ratio: 4 / 5;
+		max-height: 460px;
+		margin-left: auto;
+		overflow: hidden;
+	}
+
+	.statue {
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+		object-position: center 30%;
+		filter: contrast(1.18) brightness(1.04) saturate(0.88);
+		mix-blend-mode: var(--statue-blend);
+	}
+
+	:global(:root.light) .home .statue {
+		filter: contrast(1.05) brightness(1) saturate(1);
+	}
+
+	.subject-vignette {
+		position: absolute;
+		inset: 0;
+		pointer-events: none;
+		background:
+			radial-gradient(ellipse at 25% 25%, rgba(var(--pool-rgb), 0.22) 0%, transparent 55%),
+			linear-gradient(135deg, transparent 35%, rgba(10, 8, 7, 0.65) 100%),
+			linear-gradient(180deg, transparent 60%, rgba(10, 8, 7, 0.85) 100%);
+	}
+
+	:global(:root.light) .home .subject-vignette {
+		background:
+			radial-gradient(ellipse at 25% 25%, rgba(var(--pool-rgb), 0.08) 0%, transparent 55%),
+			linear-gradient(135deg, transparent 60%, rgba(180, 83, 9, 0.06) 100%);
+	}
+
+	.subject-mono {
+		position: absolute;
+		left: 12px;
+		bottom: 12px;
+		color: var(--ink-mid);
+
+		.mono {
+			color: var(--ink-mid);
+		}
+	}
+
+	.anatomy-divider {
+		height: 1px;
+		background: linear-gradient(
+			90deg,
+			transparent 0%,
+			var(--stone-edge) 12%,
+			var(--stone-edge) 88%,
+			transparent 100%
+		);
+		opacity: 0.65;
+	}
+
+	/* ---------- §02 PATH SPLIT (NO | YES) ---------- */
+	.path-split {
+		display: flex;
+		flex-direction: column;
+		gap: 18px;
+	}
+
+	.path-split-kicker {
+		display: flex;
+		flex-direction: column;
+		gap: 10px;
+	}
+
+	.home :global(.region-label) {
+		color: var(--lamp-glow);
+	}
+
+	.path-split-grid {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		gap: 24px;
+		position: relative;
+		margin-top: 28px;
+
+		@media (max-width: 768px) {
+			grid-template-columns: 1fr;
+			gap: 16px;
+			margin-top: 0;
+		}
+
+		@media (min-width: 769px) {
+			&::before {
+				content: '';
+				position: absolute;
+				top: -28px;
+				left: 50%;
+				transform: translateX(-50%);
+				width: 2px;
+				height: 14px;
+				background: linear-gradient(180deg, transparent, var(--lamp-glow));
+				border-radius: 1px;
+				box-shadow: 0 0 12px rgba(245, 158, 11, 0.4);
+			}
+
+			&::after {
+				content: '';
+				position: absolute;
+				top: -14px;
+				left: 22%;
+				right: 22%;
+				height: 2px;
+				background: linear-gradient(
+					90deg,
+					transparent 0%,
+					var(--lamp-glow) 12%,
+					var(--lamp-glow) 88%,
+					transparent 100%
+				);
+				border-radius: 1px;
+				box-shadow: 0 0 12px rgba(245, 158, 11, 0.4);
+			}
+		}
+	}
+
+	/* labeled diagram regions, NOT cards: 1px stone-edge, no fill, no shadow */
+	.path-panel {
+		background: transparent;
+		border: 1px solid var(--stone-edge);
+		border-radius: 10px;
+		padding: 26px 26px;
+		display: flex;
+		flex-direction: column;
+		gap: 0;
+		box-shadow: none;
+		transition: border-color 0.18s ease;
+		position: relative;
+
+		&:hover {
+			border-color: var(--ink-dim);
+		}
+
+		@media (min-width: 769px) {
+			&::before {
+				content: '';
+				position: absolute;
+				top: -14px;
+				left: 50%;
+				transform: translateX(-50%);
+				width: 2px;
+				height: 14px;
+				background: linear-gradient(180deg, var(--lamp-glow), transparent);
+				border-radius: 1px;
+				box-shadow: 0 0 10px rgba(245, 158, 11, 0.4);
+			}
+		}
+
+		@media (max-width: 480px) {
+			padding: 22px 20px;
+		}
+	}
+
+	.home :global(.path-label) {
+		font-size: 12px;
+		letter-spacing: 0.08em;
+	}
+
+	.home :global(.path-label--no) {
+		color: var(--lamp-glow);
+	}
+
+	.home :global(.path-label--yes) {
+		color: var(--data-teal);
+	}
+
+	.path-body {
+		font-family: var(--font-display);
+		font-weight: 500;
+		font-size: 18px;
+		line-height: 1.5;
+		color: var(--ink-bright);
+		margin-top: 12px;
+		margin-bottom: 16px;
+
+		@media (max-width: 540px) {
+			font-size: 16px;
+		}
+	}
+
+	.path-cta {
+		display: inline-flex;
+		align-items: baseline;
+		gap: 10px;
+		font-family: var(--font-display);
+		font-size: 16px;
+		font-weight: 500;
+		line-height: 1.4;
+		border-bottom: 1px solid transparent;
+		padding-bottom: 1px;
+		align-self: flex-start;
+		transition:
+			border-color 0.18s ease,
+			color 0.18s ease;
+
+		.path-cta-arrow {
+			font-family: var(--font-mono);
+			font-size: 16px;
+			line-height: 1;
+		}
+
+		.path-cta-label {
+			font-family: var(--font-display);
+		}
+
+		&:hover {
+			border-bottom-color: currentColor;
+		}
+	}
+
+	.path-cta--no {
+		color: var(--lamp-glow);
+
+		&:hover {
+			color: var(--lamp-deep);
+		}
+	}
+
+	.path-cta--yes {
+		color: var(--data-teal);
+
+		&:hover {
+			opacity: 0.78;
+		}
+	}
+
+	/* ---------- locked-take preview inside YES panel ---------- */
+	.locked-preview {
+		display: flex;
+		flex-direction: column;
+		gap: 8px;
+		margin-bottom: 18px;
+		padding: 14px;
+		border: 1px dashed var(--stone-edge);
+		border-radius: 8px;
+		background: rgba(0, 0, 0, 0);
+	}
+
+	.locked-take {
+		--type-stripe: var(--lamp-glow);
+		display: flex;
+		flex-direction: column;
+		gap: 4px;
+		padding: 10px 12px 12px;
+		border-left: 2px solid var(--type-stripe);
+		background: var(--stone-warm);
+		border-radius: 4px;
+	}
+
+	.locked-take-head {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		gap: 12px;
+	}
+
+	.locked-take-head .mono {
+		color: var(--type-stripe);
+		font-size: 10.5px;
+	}
+
+	.locked-take-status {
+		color: var(--ink-dim) !important;
+	}
+
+	.locked-take-hint {
+		font-family: var(--font-display);
+		font-size: 13.5px;
+		line-height: 1.45;
+		color: var(--ink-mid);
 		font-style: italic;
 	}
 
-	/* ----- Question of the Day card ----- */
-	.qotd-wrap {
-		display: flex;
-		justify-content: center;
+	/* =========================================================
+	  §03 PRIMER — THE 9 IN 9 LINES
+	  ========================================================= */
+	.primer {
+		padding: 96px 48px;
+		background: var(--night-deep);
+		border-top: 1px solid var(--stone-edge);
+		scroll-margin-top: 72px;
+
+		@media (max-width: 768px) {
+			padding: 64px 20px;
+		}
 	}
 
-	.quest-card {
+	.primer-header {
+		max-width: 820px;
+		margin: 0 auto 36px;
+		text-align: center;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		gap: 12px;
+	}
+
+	.primer-sub {
+		font-family: var(--font-display);
+		font-size: 16px;
+		line-height: 1.55;
+		color: var(--ink-mid);
+		max-width: 580px;
+	}
+
+	.primer-table-wrap {
+		max-width: 980px;
+		margin: 0 auto;
+		border: 1px solid var(--stone-edge);
+		border-radius: 8px;
+		overflow: hidden;
+		background: var(--stone-warm);
+	}
+
+	.primer-table {
 		display: block;
 		width: 100%;
-		max-width: 600px;
-		padding: 1.5rem;
-		background: linear-gradient(180deg, var(--void-shadow) 0%, var(--void-umbra) 100%);
-		border: 1px solid rgba(45, 212, 191, 0.2);
-		border-radius: 8px;
-		text-decoration: none;
-		box-shadow:
-			0 0 40px rgba(45, 212, 191, 0.1),
-			inset 0 1px 0 rgba(45, 212, 191, 0.1);
-		transition: all 300ms var(--ease-out);
 	}
 
-	.quest-card:hover {
-		border-color: rgba(45, 212, 191, 0.4);
-		box-shadow:
-			0 0 60px rgba(45, 212, 191, 0.2),
-			inset 0 1px 0 rgba(45, 212, 191, 0.15);
-		transform: translateY(-4px);
-	}
-
-	.quest-header {
-		display: flex;
-		justify-content: space-between;
-		align-items: center;
-		margin-bottom: 1rem;
-	}
-
-	.quest-badge {
-		display: flex;
-		align-items: center;
-		gap: 0.5rem;
-	}
-
-	.quest-icon {
-		display: flex;
-		align-items: center;
-		justify-content: center;
-		width: 1.5rem;
-		height: 1.5rem;
-		background: color-mix(in srgb, var(--primary-subtle) 70%, var(--bg-deep));
-		border: 1px solid color-mix(in srgb, var(--primary) 24%, transparent);
-		color: var(--shadow-flame);
-		border-radius: 4px;
-		font-weight: 700;
-		font-size: 0.9rem;
-	}
-
-	.quest-label {
-		font-family: var(--font-mono);
-		font-size: 0.7rem;
-		font-weight: 600;
-		color: var(--shadow-flame);
-		letter-spacing: 0.08em;
-	}
-
-	.quest-responses {
-		display: flex;
-		align-items: baseline;
-		gap: 0.3rem;
-		font-family: var(--font-mono);
-		font-size: 0.75rem;
-		color: var(--text-mist);
-	}
-
-	.response-count {
-		color: var(--system-hologram);
-		font-weight: 600;
-	}
-
-	.quest-title {
-		font-family: var(--font-display);
-		font-size: 1.35rem;
-		font-weight: 600;
-		color: var(--text-pale);
-		line-height: 1.35;
-		margin: 0 0 1rem;
-		text-align: left;
-	}
-
-	.quest-cta {
-		display: flex;
-		align-items: center;
-		justify-content: center;
-		gap: 0.5rem;
-		padding: 0.75rem;
-		border: 1px solid color-mix(in srgb, var(--primary) 24%, transparent);
-		background: linear-gradient(135deg, var(--primary-dark) 0%, var(--primary) 100%);
-		border-radius: 8px;
-		font-family: var(--font-display);
-		font-size: 0.95rem;
-		font-weight: 600;
-		color: var(--text-on-primary);
-		transition:
-			transform 200ms ease,
-			box-shadow 200ms ease,
-			background 200ms ease;
-	}
-
-	.cta-arrow {
-		transition: transform 200ms ease;
-	}
-
-	.quest-card:hover .quest-cta {
-		background: linear-gradient(135deg, var(--primary) 0%, var(--primary-light) 100%);
-	}
-
-	.quest-card:hover .cta-arrow {
-		transform: translateX(4px);
-	}
-
-	/* ----- Blogs grid ----- */
-	.blogs-grid {
+	.primer-row {
+		--type-stripe: var(--lamp-glow);
 		display: grid;
-		grid-template-columns: 1fr;
-		gap: 1rem;
-	}
+		grid-template-columns: 80px 1.4fr 1.6fr;
+		align-items: center;
+		gap: 16px;
+		padding: 16px 22px 16px 19px;
+		border-bottom: 1px solid var(--stone-edge);
+		border-left: 3px solid var(--type-stripe);
+		transition: background 0.18s ease;
 
-	@media (min-width: 720px) {
-		.blogs-grid {
-			grid-template-columns: repeat(3, 1fr);
+		&:last-child {
+			border-bottom: none;
+		}
+
+		&:hover {
+			background: var(--lamp-soft);
+		}
+
+		@media (max-width: 640px) {
+			grid-template-columns: 56px 1.2fr 1.4fr;
+			gap: 12px;
+			padding: 14px 14px 14px 11px;
+		}
+
+		@media (max-width: 480px) {
+			grid-template-columns: 44px 1.1fr 1.2fr;
+			gap: 10px;
+			padding: 12px 10px 12px 7px;
 		}
 	}
 
-	.blog-card {
-		position: relative;
-		display: flex;
-		flex-direction: column;
-		gap: 0.75rem;
-		padding: 1.75rem 1.5rem;
-		background: linear-gradient(180deg, var(--void-shadow) 0%, var(--void-umbra) 100%);
-		border: 1px solid rgba(45, 212, 191, 0.18);
-		border-radius: 8px;
-		text-decoration: none;
-		overflow: hidden;
-		transition: all 240ms var(--ease-out);
+	.primer-row--head {
+		border-left-color: var(--stone-edge);
+		background: var(--night-mid);
+
+		&:hover {
+			background: var(--night-mid);
+		}
 	}
 
-	.blog-card::before {
-		content: '';
+	.primer-col-num {
+		font-family: var(--font-mono);
+		font-size: 14px;
+		color: var(--ink-dim);
+		letter-spacing: 0.06em;
+
+		.primer-row--head & {
+			color: var(--ink-mid);
+			font-size: 11px;
+		}
+	}
+
+	.primer-col-type {
+		font-family: var(--font-display);
+		font-weight: 600;
+		font-size: 16px;
+		line-height: 1.3;
+		color: var(--ink-bright);
+		text-transform: uppercase;
+		letter-spacing: 0.04em;
+
+		.primer-row--head & {
+			font-family: var(--font-mono);
+			font-size: 11px;
+			font-weight: 500;
+			color: var(--ink-mid);
+			letter-spacing: 0.08em;
+		}
+
+		@media (max-width: 480px) {
+			font-size: 14px;
+			letter-spacing: 0.02em;
+		}
+	}
+
+	.primer-col-read {
+		font-family: var(--font-display);
+		font-size: 16px;
+		line-height: 1.4;
+		color: var(--ink-mid);
+		font-style: italic;
+		font-weight: 400;
+
+		.primer-row--head & {
+			font-family: var(--font-mono);
+			font-size: 11px;
+			font-weight: 500;
+			font-style: normal;
+			color: var(--ink-mid);
+			letter-spacing: 0.08em;
+		}
+
+		@media (max-width: 480px) {
+			font-size: 14px;
+		}
+	}
+
+	/* =========================================================
+	  §04 FLOW
+	  ========================================================= */
+	.flow {
+		position: relative;
+		padding: 96px 48px;
+		background: var(--night-mid);
+		overflow: hidden;
+		border-top: 1px solid var(--stone-edge);
+
+		@media (max-width: 768px) {
+			padding: 64px 20px;
+		}
+	}
+
+	.flow-pool {
 		position: absolute;
 		inset: 0;
-		background: radial-gradient(circle at 50% 0%, rgba(45, 212, 191, 0.1) 0%, transparent 55%);
-		opacity: 0;
-		transition: opacity 240ms ease;
 		pointer-events: none;
-	}
-
-	.blog-card:hover {
-		border-color: rgba(45, 212, 191, 0.42);
-		transform: translateY(-4px);
-		box-shadow: 0 0 40px rgba(45, 212, 191, 0.14);
-	}
-
-	.blog-card:hover::before {
-		opacity: 1;
-	}
-
-	.blog-card-icon {
-		display: flex;
-		align-items: center;
-		justify-content: center;
-		width: 3.25rem;
-		height: 3.25rem;
-		background: color-mix(in srgb, var(--primary) 10%, var(--bg-deep));
-		border: 1px solid rgba(45, 212, 191, 0.3);
-		border-radius: 8px;
-		color: var(--shadow-flame);
-		margin-bottom: 0.25rem;
-		box-shadow: inset 0 0 16px rgba(45, 212, 191, 0.12);
-	}
-
-	.blog-card-icon svg {
-		width: 1.9rem;
-		height: 1.9rem;
-	}
-
-	.blog-card:hover .blog-card-icon {
-		border-color: rgba(45, 212, 191, 0.55);
-		box-shadow: inset 0 0 16px rgba(45, 212, 191, 0.2);
-	}
-
-	.blog-card-title {
-		font-family: var(--font-display);
-		font-size: 1.2rem;
-		color: var(--text-pale);
-		margin: 0;
-		line-height: 1.25;
-	}
-
-	.blog-card-desc {
-		font-size: 0.9rem;
-		color: var(--text-mist);
-		margin: 0;
-		line-height: 1.5;
-	}
-
-	.blog-card-peek {
-		list-style: none;
-		padding: 0.75rem 0 0;
-		margin: 0.25rem 0 0;
-		border-top: 1px dashed rgba(45, 212, 191, 0.18);
-		display: flex;
-		flex-direction: column;
-		gap: 0.45rem;
-	}
-
-	.blog-card-peek li {
-		position: relative;
-		padding-left: 1.1rem;
-		font-size: 0.82rem;
-		color: var(--text-mist);
-		line-height: 1.45;
-	}
-
-	.blog-card-peek li::before {
-		content: '›';
-		position: absolute;
-		left: 0;
-		top: -1px;
-		color: var(--shadow-flame);
-		font-weight: 700;
-		font-size: 0.95rem;
-	}
-
-	.blog-card-footer {
-		display: flex;
-		flex-wrap: wrap;
-		align-items: center;
-		justify-content: space-between;
-		gap: 0.5rem 0.75rem;
-		margin-top: auto;
-		padding-top: 0.85rem;
-	}
-
-	.blog-card-count {
-		font-family: var(--font-mono);
-		font-size: 0.72rem;
-		padding: 0.25rem 0.5rem;
-		background: rgba(45, 212, 191, 0.08);
-		border: 1px solid rgba(45, 212, 191, 0.2);
-		border-radius: 4px;
-		color: var(--shadow-ethereal);
-		letter-spacing: 0.04em;
-		white-space: nowrap;
-	}
-
-	.blog-card-cta {
-		font-family: var(--font-mono);
-		font-size: 0.78rem;
-		color: var(--shadow-flame);
-		letter-spacing: 0.05em;
-		white-space: nowrap;
-	}
-
-	.type-guide-block {
-		margin-top: 2.5rem;
-		padding: 1.5rem;
-		background: linear-gradient(
-			180deg,
-			var(--card-surface-top) 0%,
-			var(--card-surface-bottom) 100%
+		background: radial-gradient(
+			ellipse 70% 55% at 50% 30%,
+			rgba(var(--pool-rgb), var(--pool-alpha-mid)) 0%,
+			transparent 55%
 		);
-		border: 1px solid var(--card-border-accent);
-		border-radius: 8px;
-		box-shadow:
-			var(--card-shadow-soft),
-			0 0 36px color-mix(in srgb, var(--primary) 10%, transparent),
-			var(--card-highlight);
 	}
 
-	.type-guide-header {
-		max-width: 720px;
-		margin-bottom: 1.5rem;
-	}
-
-	.type-guide-heading {
-		font-family: var(--font-display);
-		font-size: 1.6rem;
-		line-height: 1.2;
-		color: var(--text-pale);
-		margin: 0 0 0.55rem;
-	}
-
-	.type-guide-copy {
-		margin: 0;
-		font-size: 0.95rem;
-		line-height: 1.65;
-		color: var(--text-mist);
-	}
-
-	.type-guide-grid {
-		display: grid;
-		grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
-		gap: 0.85rem;
-	}
-
-	.type-guide-card {
+	.flow-header {
+		position: relative;
+		z-index: 1;
+		max-width: 820px;
+		margin: 0 auto 48px;
+		text-align: center;
 		display: flex;
 		flex-direction: column;
-		gap: 0.45rem;
-		min-height: 100%;
-		padding: 1rem;
-		background: var(--card-surface-raised);
-		border: 1px solid color-mix(in srgb, var(--type-color) 30%, var(--border-color));
-		border-radius: 8px;
-		text-decoration: none;
-		box-shadow: 0 10px 20px color-mix(in srgb, var(--shadow-color) 42%, transparent);
-		transition:
-			transform 220ms var(--ease-out),
-			border-color 220ms var(--ease-out),
-			box-shadow 220ms var(--ease-out);
+		align-items: center;
+		gap: 12px;
 	}
 
-	.type-guide-card:hover {
-		transform: translateY(-3px);
-		border-color: color-mix(in srgb, var(--type-color) 65%, var(--border-color));
-		box-shadow:
-			0 14px 28px color-mix(in srgb, var(--shadow-color) 52%, transparent),
-			0 0 24px color-mix(in srgb, var(--type-color) 20%, transparent);
+	.flow-sub {
+		font-family: var(--font-display);
+		font-size: 16px;
+		line-height: 1.55;
+		color: var(--ink-mid);
+		max-width: 580px;
 	}
 
-	.type-guide-eyebrow {
+	.flow-diagram {
+		position: relative;
+		z-index: 1;
+		max-width: 880px;
+		margin: 0 auto;
+		padding: 8px;
+	}
+
+	.flow-svg {
+		display: block;
+		width: 100%;
+		height: auto;
+		max-width: 100%;
+	}
+
+	.flow-svg :global(.flow-label) {
 		font-family: var(--font-mono);
-		font-size: 0.72rem;
+		font-size: 12px;
+		font-weight: 500;
 		letter-spacing: 0.08em;
 		text-transform: uppercase;
-		color: var(--type-color);
 	}
 
-	.type-guide-title {
+	.flow-svg :global(.flow-body) {
 		font-family: var(--font-display);
-		font-size: 1rem;
-		line-height: 1.25;
-		color: var(--text-pale);
-		margin: 0;
+		font-size: 14px;
+		font-weight: 400;
 	}
 
-	.type-guide-summary {
-		margin: 0;
-		font-size: 0.85rem;
-		line-height: 1.55;
-		color: var(--text-mist);
+	.flow-svg :global(.flow-body--mid) {
+		font-style: italic;
 	}
 
-	.type-guide-meta {
-		margin-top: auto;
-		padding-top: 0.35rem;
+	.flow-svg :global(.flow-body--italic) {
+		font-style: italic;
+		font-size: 13px;
+	}
+
+	.flow-svg :global(.flow-body--strong) {
+		font-weight: 600;
+		font-size: 14px;
+	}
+
+	.flow-svg :global(.flow-annotation) {
 		font-family: var(--font-mono);
-		font-size: 0.72rem;
-		line-height: 1.5;
-		color: color-mix(in srgb, var(--type-color) 75%, white 20%);
+		font-size: 10.5px;
+		font-weight: 500;
+		letter-spacing: 0.1em;
+		text-transform: uppercase;
 	}
 
-	/* ==========================================
-	   FAMOUS PEOPLE GRID
-	   ========================================== */
-	.types-section {
-		background: linear-gradient(
-			180deg,
-			var(--void-umbra) 0%,
-			var(--void-shadow) 50%,
-			var(--void-umbra) 100%
-		);
-		border-radius: 8px;
-		margin: 1rem 0;
-		padding: 3rem 1rem;
-	}
-
-	@media (min-width: 640px) {
-		.types-section {
-			padding: 4rem 2rem;
-		}
-	}
-
-	.section-ctas {
-		display: flex;
-		flex-direction: column;
-		gap: 1rem;
-		justify-content: center;
-		align-items: center;
-		margin-top: 2.5rem;
-	}
-
-	@media (min-width: 480px) {
-		.section-ctas {
-			flex-direction: row;
-			gap: 1.25rem;
-		}
-	}
-
-	.types-grid {
-		display: grid;
-		grid-template-columns: repeat(3, 1fr);
-		gap: 0.75rem;
-	}
-
-	@media (min-width: 640px) {
-		.types-grid {
-			gap: 1rem;
-		}
-	}
-
-	.type-card {
-		--type-color: var(--primary);
+	/* =========================================================
+	  §05 OPEN FLOOR
+	  ========================================================= */
+	.open-floor {
 		position: relative;
-		display: block;
-		background: linear-gradient(180deg, var(--void-shadow) 0%, var(--void-umbra) 100%);
-		border: 1px solid color-mix(in srgb, var(--type-color) 15%, transparent);
-		border-radius: 8px;
-		padding: 1rem;
-		text-decoration: none;
+		padding: 96px 48px;
+		background: var(--night-deep);
 		overflow: hidden;
-		transition: all 250ms var(--ease-out);
+		border-top: 1px solid var(--stone-edge);
+		scroll-margin-top: 72px;
+
+		@media (max-width: 768px) {
+			padding: 64px 20px;
+		}
 	}
 
-	.type-card:hover {
-		border-color: color-mix(in srgb, var(--type-color) 40%, transparent);
-		box-shadow: 0 0 30px color-mix(in srgb, var(--type-color) 20%, transparent);
-		transform: translateY(-4px);
-	}
-
-	.card-bg {
+	.open-floor-pool {
 		position: absolute;
 		inset: 0;
+		pointer-events: none;
 		background: radial-gradient(
-			circle at 50% 0%,
-			color-mix(in srgb, var(--type-color) 10%, transparent) 0%,
+			ellipse 80% 60% at 50% 0%,
+			rgba(var(--pool-rgb), var(--pool-alpha-mid)) 0%,
+			transparent 55%
+		);
+	}
+
+	.open-floor-header {
+		position: relative;
+		z-index: 1;
+		max-width: 820px;
+		margin: 0 auto 56px;
+		text-align: center;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		gap: 12px;
+	}
+
+	.open-floor-kicker {
+		color: var(--ink-dim);
+	}
+
+	.open-floor-question {
+		font-family: var(--font-display);
+		font-style: italic;
+		font-weight: 500;
+		font-size: clamp(24px, 3.4vw, 36px);
+		line-height: 1.25;
+		color: var(--ink-bright);
+		padding: 16px 0 16px 24px;
+		margin-top: 12px;
+		border-left: 3px solid var(--lamp-glow);
+		text-align: left;
+		max-width: 720px;
+		letter-spacing: -0.015em;
+	}
+
+	.open-floor-takes {
+		position: relative;
+		z-index: 1;
+		max-width: 880px;
+		margin: 0 auto;
+		display: flex;
+		flex-direction: column;
+		gap: 18px;
+	}
+
+	.take-card {
+		--type-stripe: var(--lamp-glow);
+		background: var(--stone-warm);
+		border: 1px solid var(--stone-edge);
+		border-left: 3px solid var(--type-stripe);
+		border-radius: 8px;
+		padding: 22px 26px;
+		display: flex;
+		flex-direction: column;
+		gap: 14px;
+		transition:
+			border-color 0.2s ease,
+			transform 0.2s ease;
+
+		&:hover {
+			border-color: var(--type-stripe);
+		}
+
+		@media (max-width: 540px) {
+			padding: 18px 20px;
+		}
+	}
+
+	.take-card-top {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		gap: 12px;
+	}
+
+	.take-card-label {
+		color: var(--type-stripe);
+	}
+
+	.take-body {
+		font-family: var(--font-display);
+		font-size: 17px;
+		line-height: 1.55;
+		color: var(--ink-bright);
+		font-style: italic;
+	}
+
+	.take-meta {
+		display: flex;
+		align-items: center;
+		gap: 10px;
+		flex-wrap: wrap;
+		padding-top: 8px;
+		border-top: 1px dashed var(--stone-mid);
+
+		.mono {
+			color: var(--ink-dim);
+		}
+	}
+
+	.open-floor-cta-row {
+		position: relative;
+		z-index: 1;
+		max-width: 880px;
+		margin: 40px auto 0;
+		display: flex;
+		flex-direction: column;
+		gap: 14px;
+		align-items: center;
+		text-align: center;
+	}
+
+	.open-floor-footnote {
+		color: var(--ink-dim);
+		text-transform: none;
+		letter-spacing: 0.04em;
+		font-size: 11.5px;
+	}
+
+	/* =========================================================
+	  §06 LIBRARY
+	  ========================================================= */
+	.library {
+		padding: 96px 48px;
+		background: var(--night-deep);
+		border-top: 1px solid var(--stone-edge);
+
+		@media (max-width: 768px) {
+			padding: 64px 20px;
+		}
+	}
+
+	.library-header {
+		max-width: 820px;
+		margin: 0 auto 48px;
+		text-align: center;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		gap: 12px;
+	}
+
+	.library-sub {
+		font-family: var(--font-display);
+		font-size: 17px;
+		line-height: 1.55;
+		color: var(--ink-mid);
+		max-width: 720px;
+	}
+
+	.library-kicker {
+		color: var(--ink-dim);
+		margin-top: 4px;
+	}
+
+	.library-grid {
+		max-width: 1280px;
+		margin: 0 auto;
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+		gap: 22px;
+
+		@media (max-width: 968px) {
+			grid-template-columns: repeat(2, 1fr);
+		}
+
+		@media (max-width: 640px) {
+			grid-template-columns: 1fr;
+		}
+	}
+
+	.library-card {
+		--type-stripe: var(--lamp-glow);
+		background: var(--stone-warm);
+		border: 1px solid var(--stone-edge);
+		border-radius: 16px;
+		overflow: hidden;
+		display: flex;
+		flex-direction: column;
+		transition:
+			background 0.2s ease,
+			border-color 0.2s ease,
+			transform 0.2s ease;
+
+		&:hover {
+			background: var(--stone-mid);
+			border-color: var(--type-stripe);
+			transform: translateY(-2px);
+		}
+	}
+
+	.library-image-wrap {
+		position: relative;
+		border-bottom: 1px solid var(--stone-edge);
+		border-top: 3px solid var(--type-stripe);
+	}
+
+	.library-image {
+		display: block;
+		width: 100%;
+		aspect-ratio: 4 / 3;
+		object-fit: cover;
+		object-position: center 25%;
+		filter: contrast(1.05) brightness(0.96) saturate(0.92);
+	}
+
+	:global(:root.light) .home .library-image {
+		filter: contrast(1.02) brightness(1) saturate(0.96);
+	}
+
+	.library-image-stub {
+		aspect-ratio: 4 / 3;
+		background: var(--stone-mid);
+		background-image: repeating-linear-gradient(
+			45deg,
+			transparent 0,
+			transparent 14px,
+			rgba(var(--pool-rgb), 0.04) 14px,
+			rgba(var(--pool-rgb), 0.04) 15px
+		);
+		display: flex;
+		align-items: center;
+		justify-content: center;
+
+		.mono {
+			color: var(--ink-dim);
+			font-size: 11px;
+		}
+	}
+
+	.library-card-body {
+		padding: 18px 20px 22px;
+		display: flex;
+		flex-direction: column;
+		gap: 8px;
+		flex: 1;
+	}
+
+	.library-id {
+		color: var(--type-stripe);
+		font-size: 10.5px;
+	}
+
+	.library-name {
+		font-family: var(--font-display);
+		font-weight: 700;
+		font-size: 24px;
+		line-height: 1.15;
+		color: var(--ink-bright);
+		letter-spacing: -0.02em;
+	}
+
+	.library-subtitle {
+		font-family: var(--font-display);
+		font-size: 14px;
+		line-height: 1.5;
+		color: var(--ink-mid);
+	}
+
+	.library-cta-row {
+		max-width: 1280px;
+		margin: 40px auto 0;
+		text-align: center;
+		display: flex;
+		justify-content: center;
+	}
+
+	/* =========================================================
+	  §07 BY THE NUMBERS
+	  ========================================================= */
+	.compiled {
+		position: relative;
+		padding: 96px 48px;
+		background: var(--night-mid);
+		overflow: hidden;
+		border-top: 1px solid var(--stone-edge);
+
+		@media (max-width: 768px) {
+			padding: 64px 20px;
+		}
+	}
+
+	.compiled-pool {
+		position: absolute;
+		inset: 0;
+		pointer-events: none;
+		background: radial-gradient(
+			ellipse 80% 60% at 50% 50%,
+			rgba(var(--pool-rgb), var(--pool-alpha-mid)) 0%,
 			transparent 60%
 		);
-		opacity: 0;
-		transition: opacity 250ms ease;
 	}
 
-	.type-card:hover .card-bg {
-		opacity: 1;
-	}
-
-	.card-content {
+	.compiled-header {
 		position: relative;
+		z-index: 1;
+		max-width: 820px;
+		margin: 0 auto 48px;
+		text-align: center;
 		display: flex;
 		flex-direction: column;
 		align-items: center;
-		text-align: center;
+		gap: 8px;
 	}
 
-	.type-number {
-		position: absolute;
-		top: -0.5rem;
-		left: -0.5rem;
-		width: 1.5rem;
-		height: 1.5rem;
+	.compiled-grid {
+		position: relative;
+		z-index: 1;
+		max-width: 1180px;
+		margin: 0 auto;
+		display: grid;
+		grid-template-columns: repeat(4, 1fr);
+		gap: 18px;
+
+		@media (max-width: 968px) {
+			grid-template-columns: repeat(2, 1fr);
+		}
+
+		@media (max-width: 540px) {
+			grid-template-columns: 1fr;
+		}
+	}
+
+	.compiled-stat {
+		background: var(--stone-warm);
+		border: 1px solid var(--stone-edge);
+		border-radius: 16px;
+		padding: 24px;
 		display: flex;
-		align-items: center;
-		justify-content: center;
-		background: color-mix(in srgb, var(--type-color) 15%, var(--bg-base));
-		border: 1px solid color-mix(in srgb, var(--type-color) 40%, transparent);
-		border-radius: 4px;
-		font-family: var(--font-mono);
-		font-size: 0.75rem;
-		font-weight: 700;
-		color: var(--type-color);
-	}
-
-	.avatar-wrap {
-		margin: 0.5rem 0;
-	}
-
-	.avatar {
-		width: 4rem;
-		height: 4rem;
-		object-fit: cover;
-		border-radius: 50%;
-		border: 2px solid var(--type-color);
-		box-shadow: 0 0 15px color-mix(in srgb, var(--type-color) 35%, transparent);
-	}
-
-	@media (min-width: 640px) {
-		.avatar {
-			width: 5rem;
-			height: 5rem;
-		}
-	}
-
-	.avatar-placeholder {
-		width: 4rem;
-		height: 4rem;
-		display: flex;
-		align-items: center;
-		justify-content: center;
-		background: var(--void-penumbra);
-		border-radius: 50%;
-		border: 2px solid var(--type-color);
-		font-family: var(--font-display);
-		font-size: 1.5rem;
-		font-weight: 700;
-		color: var(--type-color);
-	}
-
-	@media (min-width: 640px) {
-		.avatar-placeholder {
-			width: 5rem;
-			height: 5rem;
-		}
-	}
-
-	.type-info {
-		margin-top: 0.5rem;
-	}
-
-	.type-title {
-		display: none;
-		font-family: var(--font-mono);
-		font-size: 0.6rem;
-		font-weight: 600;
-		color: var(--type-color);
-		letter-spacing: 0.04em;
-		margin-bottom: 0.15rem;
-	}
-
-	@media (min-width: 640px) {
-		.type-title {
-			display: block;
-		}
-	}
-
-	.type-name {
-		display: none;
-		font-size: 0.75rem;
-		color: var(--text-pale);
-	}
-
-	@media (min-width: 640px) {
-		.type-name {
-			display: block;
-			font-size: 0.85rem;
-		}
-	}
-
-	.type-meta {
-		margin-top: 0.5rem;
-		font-family: var(--font-mono);
-		font-size: 0.7rem;
-	}
-
-	@media (min-width: 640px) {
-		.type-meta {
-			display: block;
-			font-size: 0.6rem;
-		}
-	}
-
-	.meta-value {
-		color: var(--type-color);
-		font-weight: 600;
-	}
-
-	/* ==========================================
-	   BUTTONS
-	   ========================================== */
-	.btn-shadow {
-		position: relative;
-		display: inline-flex;
-		align-items: center;
-		justify-content: center;
-		padding: 0.875rem 1.75rem;
-		border: 1px solid color-mix(in srgb, var(--primary) 24%, transparent);
-		border-radius: 8px;
-		background: linear-gradient(135deg, var(--primary-dark) 0%, var(--primary) 100%);
-		font-family: var(--font-display);
-		font-size: 1rem;
-		font-weight: 600;
-		color: var(--text-on-primary);
-		text-decoration: none;
-		cursor: pointer;
-		overflow: hidden;
-		transition: all 250ms var(--ease-out);
-	}
-
-	.btn-shadow:hover {
-		background: linear-gradient(135deg, var(--primary) 0%, var(--primary-light) 100%);
-		transform: translateY(-2px);
-	}
-
-	.btn-shadow.lg {
-		padding: 1rem 2rem;
-		font-size: 1.05rem;
-	}
-
-	.btn-system {
-		display: inline-flex;
-		align-items: center;
-		justify-content: center;
-		padding: 0.875rem 1.75rem;
-		background: color-mix(in srgb, var(--bg-deep) 88%, transparent);
-		border: 1px solid color-mix(in srgb, var(--text-tertiary) 25%, transparent);
-		border-radius: 8px;
-		font-family: var(--font-display);
-		font-size: 1rem;
-		font-weight: 600;
-		color: var(--text-secondary);
-		text-decoration: none;
-		cursor: pointer;
-		transition: all 250ms var(--ease-out);
-	}
-
-	.btn-system:hover {
-		border-color: color-mix(in srgb, var(--primary) 35%, transparent);
-		background: var(--primary-subtle);
-		color: var(--primary);
-		transform: translateY(-2px);
-	}
-
-	.btn-shadow:focus-visible,
-	.btn-system:focus-visible,
-	.quest-card:focus-visible {
-		outline: 2px solid var(--primary);
-		outline-offset: 3px;
-	}
-
-	/* ==========================================
-	   COACHING
-	   ========================================== */
-	.coaching-card {
-		position: relative;
-		background: linear-gradient(180deg, var(--void-shadow) 0%, var(--void-umbra) 100%);
-		border: 1px solid rgba(245, 158, 11, 0.2);
-		border-radius: 8px;
-		overflow: hidden;
-	}
-
-	.coaching-glow {
-		position: absolute;
-		top: -50%;
-		left: 50%;
-		transform: translateX(-50%);
-		width: 120%;
-		height: 100%;
-		background: radial-gradient(ellipse at center, rgba(245, 158, 11, 0.1) 0%, transparent 60%);
-		pointer-events: none;
-	}
-
-	.coaching-content {
-		position: relative;
-		padding: 2.5rem 1.5rem;
-		text-align: center;
-	}
-
-	@media (min-width: 640px) {
-		.coaching-content {
-			padding: 3.5rem 2rem;
-		}
-	}
-
-	.coaching-badge {
-		display: inline-flex;
-		align-items: center;
-		gap: 0.5rem;
-		padding: 0.35rem 0.75rem;
-		background: rgba(245, 158, 11, 0.1);
-		border: 1px solid rgba(245, 158, 11, 0.2);
-		border-radius: 4px;
-		margin-bottom: 1rem;
-		font-family: var(--font-mono);
-		font-size: 0.7rem;
-		letter-spacing: 0.1em;
-		color: var(--status-gold-bright);
-	}
-
-	.badge-icon {
-		font-size: 0.8rem;
-	}
-
-	.coaching-title {
-		font-family: var(--font-display);
-		font-size: 1.85rem;
-		font-weight: 700;
-		color: var(--text-pale);
-		margin-bottom: 0.75rem;
-	}
-
-	.coaching-desc {
-		font-size: 1rem;
-		color: var(--text-mist);
-		max-width: 500px;
-		margin: 0 auto 1.5rem;
-		line-height: 1.6;
-	}
-
-	.coaching-features {
-		list-style: none;
-		padding: 0;
-		margin: 0 auto 1.5rem;
-		max-width: 350px;
+		flex-direction: column;
+		gap: 12px;
 		text-align: left;
-	}
+		transition:
+			border-color 0.2s ease,
+			background 0.2s ease;
 
-	.coaching-features li {
-		display: flex;
-		align-items: center;
-		gap: 0.75rem;
-		padding: 0.5rem 0;
-		font-size: 0.9rem;
-		color: var(--text-mist);
-	}
-
-	.feature-check {
-		color: var(--status-gold-bright);
-		font-weight: 700;
-	}
-
-	.coaching-note {
-		margin-top: 1rem;
-		font-size: 0.8rem;
-		color: var(--text-faded);
-	}
-
-	/* ==========================================
-	   FINAL CTA
-	   ========================================== */
-	.final-section {
-		position: relative;
-		margin: 2rem 0 4rem;
-		border-radius: 8px;
-		background: linear-gradient(
-			135deg,
-			rgba(45, 212, 191, 0.12) 0%,
-			rgba(251, 113, 133, 0.12) 50%,
-			var(--void-umbra) 100%
-		);
-		border: 1px solid rgba(45, 212, 191, 0.25);
-		overflow: hidden;
-	}
-
-	.final-glow {
-		position: absolute;
-		top: -40%;
-		left: 50%;
-		transform: translateX(-50%);
-		width: 140%;
-		height: 100%;
-		background: radial-gradient(ellipse at center, rgba(45, 212, 191, 0.15) 0%, transparent 60%);
-		pointer-events: none;
-	}
-
-	.final-inner {
-		position: relative;
-		padding: 3rem 1.5rem;
-		text-align: center;
-	}
-
-	@media (min-width: 640px) {
-		.final-inner {
-			padding: 4rem 2rem;
+		&:hover {
+			border-color: var(--lamp-glow);
 		}
 	}
 
-	.final-badge {
-		display: inline-flex;
-		align-items: center;
-		gap: 0.5rem;
-		padding: 0.35rem 0.75rem;
-		background: rgba(45, 212, 191, 0.1);
-		border: 1px solid rgba(45, 212, 191, 0.2);
-		border-radius: 4px;
-		margin-bottom: 1rem;
-		font-family: var(--font-mono);
-		font-size: 0.7rem;
-		letter-spacing: 0.1em;
-		color: var(--shadow-flame);
+	.compiled-stat-label {
+		color: var(--ink-dim);
+		font-size: 11px;
 	}
 
-	.badge-pulse {
-		width: 6px;
-		height: 6px;
-		background: var(--shadow-flame);
-		border-radius: 50%;
-		animation: pulse-dot 1.5s ease-in-out infinite;
-	}
-
-	@keyframes pulse-dot {
-		0%,
-		100% {
-			opacity: 1;
-		}
-		50% {
-			opacity: 0.4;
-		}
-	}
-
-	.final-title {
+	.compiled-stat-value {
 		font-family: var(--font-display);
-		font-size: 2.25rem;
-		font-weight: 700;
-		color: var(--text-pale);
-		margin-bottom: 0.5rem;
+		font-weight: 800;
+		font-size: clamp(36px, 4.5vw, 56px);
+		line-height: 1;
+		color: var(--ink-bright);
+		letter-spacing: -0.03em;
+		font-feature-settings: 'tnum';
 	}
 
-	.final-desc {
-		font-size: 1rem;
-		color: var(--text-mist);
-		margin-bottom: 1.5rem;
+	.compiled-stat-annotation {
+		color: var(--lamp-glow);
+		font-size: 10.5px;
+		text-transform: lowercase;
+		letter-spacing: 0.08em;
 	}
 
-	.final-actions {
+	/* =========================================================
+	  §08 COACHING (production-only quiet CTA)
+	  ========================================================= */
+	.coaching {
+		position: relative;
+		padding: 96px 48px;
+		background: var(--night-deep);
+		border-top: 1px solid var(--stone-edge);
+
+		@media (max-width: 768px) {
+			padding: 64px 20px;
+		}
+	}
+
+	.coaching-inner {
+		max-width: 720px;
+		margin: 0 auto;
+		text-align: center;
 		display: flex;
 		flex-direction: column;
-		gap: 1rem;
-		justify-content: center;
 		align-items: center;
+		gap: 16px;
 	}
 
-	@media (min-width: 480px) {
-		.final-actions {
-			flex-direction: row;
-		}
+	.coaching-sub {
+		font-family: var(--font-display);
+		font-size: 17px;
+		line-height: 1.55;
+		color: var(--ink-mid);
+		max-width: 580px;
 	}
 
-	@media (max-width: 960px) and (min-width: 721px) {
-		.page-title {
-			font-size: 2.75rem;
-		}
-
-		.hero-decision {
-			grid-template-columns: 1fr;
-			padding-top: 0;
-		}
-
-		.give-first-row {
-			grid-template-columns: 1fr 1fr;
-		}
-
-		.give-step-why {
-			grid-column: 1 / -1;
-		}
-	}
-
-	/* ==========================================
-	   MOBILE OVERRIDES — the rest of the page
-	   ========================================== */
-	@media (max-width: 767px) {
-		.content {
-			padding: 0 1rem;
-		}
-
-		.hero-section {
-			padding: 2.7rem 0 2rem;
-		}
-
-		.hero-copy {
-			margin-bottom: 1.25rem;
-		}
-
-		.page-title {
-			font-size: 2.25rem;
-			line-height: 1.12;
-		}
-
-		.page-lede {
-			font-size: 0.97rem;
-			line-height: 1.6;
-		}
-
-		.hero-decision {
-			grid-template-columns: 1fr;
-			gap: 0.85rem;
-			padding-top: 0;
-		}
-
-		.decision-panel {
-			padding: 1.15rem;
-		}
-
-		.decision-yes {
-			order: 1;
-		}
-
-		.decision-no {
-			order: 2;
-		}
-
-		.decision-yes .branch-title {
-			font-size: 1.55rem;
-		}
-
-		.demo-replies {
-			grid-template-columns: 1fr;
-		}
-
-		.hero-actions .btn-shadow,
-		.hero-actions .btn-system,
-		.decision-actions .btn-shadow,
-		.decision-actions .btn-system {
-			width: 100%;
-		}
-
-		.section {
-			padding: 2.25rem 0;
-		}
-
-		.section-header {
-			margin-bottom: 1.5rem;
-			padding: 0 0.25rem;
-		}
-
-		.section-title {
-			font-size: 1.65rem;
-			line-height: 1.2;
-			letter-spacing: 0;
-		}
-
-		.section-desc {
-			font-size: 0.95rem;
-			line-height: 1.55;
-		}
-
-		/* ----- Give-first: vertical timeline ----- */
-		.give-first-row {
-			position: relative;
-			grid-template-columns: 1fr;
-			gap: 0;
-			padding-left: 2.25rem;
-		}
-
-		.give-first-row::before {
-			content: '';
-			position: absolute;
-			left: 1rem;
-			top: 1.1rem;
-			bottom: 1.1rem;
-			width: 2px;
-			background: linear-gradient(180deg, rgba(45, 212, 191, 0.55), rgba(45, 212, 191, 0.15));
-			box-shadow: 0 0 10px rgba(45, 212, 191, 0.25);
-			border-radius: 1px;
-		}
-
-		.give-step {
-			padding: 1.15rem 1.2rem 1.2rem;
-			margin-bottom: 0.85rem;
-			border-radius: 8px;
-		}
-
-		.give-step:last-child {
-			margin-bottom: 0;
-		}
-
-		.give-step .step-num {
-			position: absolute;
-			left: -2.25rem;
-			top: 0.9rem;
-			width: 2rem;
-			height: 2rem;
-			border-radius: 50%;
-			background: color-mix(in srgb, var(--primary) 22%, var(--bg-deep));
-			border: 2px solid var(--shadow-flame);
-			color: var(--text-pale);
-			font-size: 0.95rem;
-			box-shadow:
-				0 0 0 4px var(--bg-base),
-				0 0 14px rgba(45, 212, 191, 0.45);
-		}
-
-		.give-step h3 {
-			font-size: 1rem;
-			margin-bottom: 0.4rem;
-		}
-
-		.give-step p {
-			font-size: 0.88rem;
-			line-height: 1.5;
-		}
-
-		/* ----- Question of the day card ----- */
-		.quest-card {
-			padding: 1.25rem;
-			border-radius: 8px;
-		}
-
-		.quest-header {
-			flex-wrap: wrap;
-			gap: 0.5rem;
-			margin-bottom: 0.85rem;
-		}
-
-		.quest-title {
-			font-size: 1.15rem;
-			line-height: 1.35;
-			margin-bottom: 1rem;
-		}
-
-		.quest-cta {
-			padding: 0.9rem;
-			font-size: 1rem;
-		}
-
-		/* ----- Blog category cards ----- */
-		.blogs-grid {
-			gap: 0.85rem;
-		}
-
-		.blog-card {
-			padding: 1.3rem 1.25rem 1.4rem;
-			gap: 0.65rem;
-		}
-
-		.blog-card-icon {
-			width: 2.75rem;
-			height: 2.75rem;
-			border-radius: 8px;
-		}
-
-		.blog-card-icon svg {
-			width: 1.55rem;
-			height: 1.55rem;
-		}
-
-		.blog-card-title {
-			font-size: 1.1rem;
-		}
-
-		.blog-card-desc {
-			font-size: 0.88rem;
-			line-height: 1.5;
-		}
-
-		.blog-card-peek li {
-			font-size: 0.8rem;
-		}
-
-		.type-guide-block {
-			margin-top: 1.5rem;
-			padding: 1.15rem;
-			border-radius: 8px;
-		}
-
-		.type-guide-grid {
-			grid-template-columns: 1fr;
-		}
-
-		.type-guide-card {
-			padding: 0.95rem;
-		}
-
-		/* ----- Famous people grid ----- */
-		.types-section {
-			padding: 2.5rem 1rem;
-			border-radius: 8px;
-			margin: 0.5rem 0;
-		}
-
-		.types-grid {
-			gap: 0.55rem;
-		}
-
-		.type-card {
-			padding: 0.85rem 0.6rem 0.9rem;
-			border-radius: 8px;
-		}
-
-		.type-card .avatar,
-		.type-card .avatar-placeholder {
-			width: 3.5rem;
-			height: 3.5rem;
-		}
-
-		.type-card .type-number {
-			top: -0.35rem;
-			left: -0.35rem;
-			width: 1.3rem;
-			height: 1.3rem;
-			font-size: 0.65rem;
-		}
-
-		.type-meta {
-			font-size: 0.68rem;
-			line-height: 1.25;
-			margin-top: 0.35rem;
-		}
-
-		.meta-value {
-			display: block;
-			word-break: break-word;
-		}
-
-		/* ----- Coaching ----- */
-		.coaching-card {
-			border-radius: 8px;
-		}
-
-		.coaching-content {
-			padding: 2rem 1.25rem 2.25rem;
-		}
-
-		.coaching-title {
-			font-size: 1.55rem;
-			line-height: 1.2;
-		}
-
-		.coaching-desc {
-			font-size: 0.95rem;
-		}
-
-		.coaching-features li {
-			font-size: 0.88rem;
-		}
-
-		/* ----- Final CTA ----- */
-		.final-section {
-			margin: 1rem 0 2.5rem;
-			border-radius: 8px;
-		}
-
-		.final-inner {
-			padding: 2.25rem 1.25rem 2.5rem;
-		}
-
-		.final-title {
-			font-size: 1.85rem;
-			line-height: 1.15;
-		}
-
-		.final-desc {
-			font-size: 0.95rem;
-		}
-
-		.final-actions {
-			gap: 0.75rem;
-			width: 100%;
-		}
-
-		.final-actions .btn-shadow,
-		.final-actions .btn-system {
-			width: 100%;
-		}
-
-		/* Make big CTA buttons full-width on mobile for easier tapping */
-		.section-ctas .btn-shadow {
-			width: 100%;
-			max-width: 320px;
-		}
-	}
-
-	/* Reduced motion */
-	@media (prefers-reduced-motion: reduce) {
-		*,
-		*::before,
-		*::after {
-			animation-duration: 0.001ms !important;
-			transition-duration: 0.001ms !important;
-		}
+	.coaching-cta-row {
+		margin-top: 8px;
+		display: flex;
+		justify-content: center;
 	}
 </style>

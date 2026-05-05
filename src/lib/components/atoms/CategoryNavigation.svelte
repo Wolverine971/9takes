@@ -163,7 +163,7 @@
 		display: flex;
 		align-items: center;
 		height: 2.5rem;
-		border-bottom: 1px solid color-mix(in srgb, var(--text-tertiary) 30%, transparent);
+		border-bottom: 1px solid color-mix(in srgb, var(--ink-dim) 30%, transparent);
 		width: 100%;
 
 		&.scrollable {
@@ -184,7 +184,7 @@
 	.category-item {
 		display: flex;
 		align-items: center;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 		text-decoration: none;
 		padding: 0.25rem 0.5rem;
 		border-radius: 4px;
@@ -195,17 +195,17 @@
 
 		&:hover {
 			background-color: rgba(45, 212, 191, 0.1);
-			color: var(--accent-light);
+			color: var(--lamp-glow);
 		}
 
 		&.current {
 			font-weight: 500;
-			color: var(--text-primary);
+			color: var(--ink-bright);
 		}
 	}
 
 	.category-ellipsis {
-		color: var(--text-tertiary);
+		color: var(--ink-dim);
 		opacity: 0.8;
 		padding: 0 0.25rem;
 	}
@@ -213,7 +213,7 @@
 	.separator {
 		display: flex;
 		align-items: center;
-		color: var(--text-tertiary);
+		color: var(--ink-dim);
 		opacity: 0.6;
 		margin: 0 0.125rem;
 	}

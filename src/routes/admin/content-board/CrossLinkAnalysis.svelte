@@ -347,7 +347,7 @@
 	.analysis-title {
 		font-size: 11px;
 		font-weight: 600;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 		text-transform: uppercase;
 		letter-spacing: 0.05em;
 	}
@@ -359,14 +359,14 @@
 		width: 24px;
 		height: 24px;
 		background: transparent;
-		border: 1px solid var(--bg-highlight);
+		border: 1px solid var(--stone-warm);
 		border-radius: 4px;
 		cursor: pointer;
-		color: var(--text-muted);
+		color: var(--ink-dim);
 		transition: all 0.15s ease;
 
 		&:hover:not(:disabled) {
-			color: var(--primary-light);
+			color: var(--lamp-glow);
 			border-color: var(--primary-glow);
 		}
 
@@ -405,7 +405,7 @@
 		gap: 8px;
 		padding: 16px;
 		font-size: 12px;
-		color: var(--text-muted);
+		color: var(--ink-dim);
 		text-align: center;
 	}
 
@@ -416,7 +416,7 @@
 		.spinner {
 			width: 24px;
 			height: 24px;
-			color: var(--primary-light);
+			color: var(--lamp-glow);
 		}
 	}
 
@@ -441,11 +441,11 @@
 
 	.retry-btn {
 		padding: 4px 12px;
-		background: var(--bg-elevated);
-		border: 1px solid var(--bg-highlight);
+		background: var(--stone-warm);
+		border: 1px solid var(--stone-warm);
 		border-radius: 4px;
 		font-size: 11px;
-		color: var(--text-primary);
+		color: var(--ink-bright);
 		cursor: pointer;
 
 		&:hover {
@@ -465,9 +465,9 @@
 		flex-direction: column;
 		align-items: center;
 		padding: 8px 4px;
-		background: var(--bg-elevated);
+		background: var(--stone-warm);
 		border-radius: 6px;
-		border: 1px solid var(--bg-highlight);
+		border: 1px solid var(--stone-warm);
 
 		&.warning .stat-value {
 			color: var(--warning);
@@ -488,19 +488,19 @@
 	.stat-value {
 		font-size: 18px;
 		font-weight: 600;
-		color: var(--text-primary);
+		color: var(--ink-bright);
 		line-height: 1;
 	}
 
 	.stat-label {
 		font-size: 9px;
-		color: var(--text-muted);
+		color: var(--ink-dim);
 		text-transform: uppercase;
 		margin-top: 2px;
 	}
 
 	.subsection {
-		border: 1px solid var(--bg-highlight);
+		border: 1px solid var(--stone-warm);
 		border-radius: 6px;
 		margin-bottom: 8px;
 		overflow: hidden;
@@ -524,7 +524,7 @@
 		transition: background 0.15s ease;
 
 		&:hover {
-			background: var(--bg-elevated);
+			background: var(--stone-warm);
 		}
 	}
 
@@ -534,7 +534,7 @@
 		justify-content: center;
 		width: 20px;
 		height: 20px;
-		color: var(--text-muted);
+		color: var(--ink-dim);
 
 		&.highlight {
 			color: var(--warning);
@@ -554,25 +554,25 @@
 		flex: 1;
 		font-size: 12px;
 		font-weight: 500;
-		color: var(--text-primary);
+		color: var(--ink-bright);
 	}
 
 	.badge {
 		padding: 2px 6px;
-		background: var(--bg-elevated);
+		background: var(--stone-warm);
 		border-radius: 10px;
 		font-size: 10px;
 		font-weight: 600;
-		color: var(--text-muted);
+		color: var(--ink-dim);
 
 		&.empty {
 			background: transparent;
-			color: var(--text-muted);
+			color: var(--ink-dim);
 		}
 
 		&.highlight {
 			background: var(--warning);
-			color: var(--bg-surface);
+			color: var(--stone-warm);
 		}
 
 		&.warning {
@@ -584,7 +584,7 @@
 	.chevron {
 		width: 14px;
 		height: 14px;
-		color: var(--text-muted);
+		color: var(--ink-dim);
 		transition: transform 0.15s ease;
 
 		&.expanded {
@@ -598,7 +598,7 @@
 
 	.hint {
 		font-size: 11px;
-		color: var(--text-muted);
+		color: var(--ink-dim);
 		margin-bottom: 8px;
 
 		&.warning {
@@ -608,7 +608,7 @@
 
 	.empty-list {
 		font-size: 11px;
-		color: var(--text-muted);
+		color: var(--ink-dim);
 		font-style: italic;
 		padding: 4px 0;
 
@@ -630,7 +630,7 @@
 		gap: 6px;
 		padding: 4px 0;
 		font-size: 11px;
-		border-bottom: 1px solid var(--bg-elevated);
+		border-bottom: 1px solid var(--stone-warm);
 
 		&:last-child {
 			border-bottom: none;
@@ -647,24 +647,24 @@
 
 	.link-name {
 		flex: 1;
-		color: var(--primary-light);
+		color: var(--lamp-glow);
 		text-decoration: none;
 		overflow: hidden;
 		text-overflow: ellipsis;
 		white-space: nowrap;
 
 		&:hover {
-			color: var(--accent);
+			color: var(--lamp-glow);
 			text-shadow: var(--glow-sm);
 		}
 	}
 
 	.mention-count {
 		padding: 1px 4px;
-		background: var(--bg-elevated);
+		background: var(--stone-warm);
 		border-radius: 4px;
 		font-size: 9px;
-		color: var(--text-muted);
+		color: var(--ink-dim);
 
 		&.excessive {
 			background: var(--error);
@@ -674,7 +674,7 @@
 
 	.type-badge {
 		padding: 1px 4px;
-		background: var(--primary);
+		background: var(--lamp-glow);
 		border-radius: 4px;
 		font-size: 9px;
 		color: white;
@@ -698,7 +698,7 @@
 	.more-items {
 		padding: 4px 0;
 		font-size: 10px;
-		color: var(--text-muted);
+		color: var(--ink-dim);
 		font-style: italic;
 	}
 
@@ -721,7 +721,7 @@
 		width: 16px;
 		height: 16px;
 		background: var(--warning);
-		color: var(--bg-surface);
+		color: var(--stone-warm);
 		border-radius: 50%;
 		font-size: 10px;
 		font-weight: bold;

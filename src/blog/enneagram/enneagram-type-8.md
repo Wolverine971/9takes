@@ -44,7 +44,13 @@ type-8-cracked-armor
     import MarqueeHorizontal from "$lib/components/atoms/MarqueeHorizontal.svelte";
     import PopCard from "$lib/components/atoms/PopCard.svelte";
     import QuickAnswer from "$lib/components/blog/callouts/QuickAnswer.svelte";
+    import EnneagramTypeDossier from "$lib/components/blog/EnneagramTypeDossier.svelte";
+    import { enneagramTypeProfiles } from "$lib/data/enneagramTypeProfiles";
+
+    const dossier = enneagramTypeProfiles[8];
 </script>
+
+<EnneagramTypeDossier {...dossier} />
 
 <QuickAnswer question="Why do Type 8s push everyone away?">
 You learned early that vulnerability gets you hurt. So you built armor. Not because you wanted to, but because you had to. Control isn't a preference. It's survival strategy. Letting people close means risking betrayal. Showing softness invites exploitation. You push people away before they can push you first. The kid who needed protection became the adult who trusts no one completely. Behind all that intensity? The part of you that knows closeness requires lowering defenses you can't afford to lower.
@@ -280,6 +286,24 @@ When you find yourself isolating and hoarding information, ask: _What happened?_
 The answer isn't to push harder or build higher walls. Name the specific threat and address it directly. Your 8 instincts work. They just need accurate targeting.
 
 Read more about <a href="/enneagram-corner/enneagram-stress-number">other types under stress</a>
+
+</section>
+
+<section class="section-content">
+
+## How 8s Handle Conflict: The Reactive Approach
+
+Type 8s belong to the **Reactive** Harmonic group (alongside 4s and 6s) — the types whose nervous systems decide that a problem isn't real until somebody emotional is in the room with it.
+
+A contractor misses a deadline. The Eight calls — voice level rising within ninety seconds, _stop making excuses, just tell me when it'll be done._ The Eight feels more themselves in conflict than out of it. Confrontation isn't unpleasant; it's _clarifying._ The volume isn't anger management failure — it's the Eight cranking up the realness of the moment until it matches their internal pitch.
+
+That's the Reactive move (Eight-flavored): no filter on impulses or emotional reactions, because filtering them would mean depending on someone else's interpretation of the situation. Eights want the realness of conflict because conflict is the place they feel most alive and most themselves. They keep the guard up. They minimize visible dependence. They want others to react with strength so they know who they're dealing with.
+
+**The blind spot**: Volume mistaken for honesty. The Eight thinks they're just "telling it like it is." What others hear is overwhelming force, which makes those others either fold (and lie) or fight (and escalate). Either way, the Eight stops getting the truth they were trying to get.
+
+**The shift**: Lower the volume on purpose — strength can whisper. Try asking the question instead of stating the verdict. Watch what happens to the other person's truthfulness when they're not bracing for impact.
+
+For the full framework, see [The Enneagram Harmonic Approaches](/enneagram-corner/enneagram-harmonic-approaches).
 
 </section>
 

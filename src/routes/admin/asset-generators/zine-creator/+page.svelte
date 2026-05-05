@@ -1224,7 +1224,7 @@
 		flex-direction: column;
 		gap: 1rem;
 		padding: 1rem;
-		color: var(--text-primary);
+		color: var(--ink-bright);
 	}
 
 	.header {
@@ -1233,8 +1233,8 @@
 		align-items: flex-start;
 		gap: 1rem;
 		padding: 1rem;
-		background: var(--bg-deep);
-		border: 1px solid var(--bg-elevated);
+		background: var(--night-deep);
+		border: 1px solid var(--stone-warm);
 		border-radius: 0.75rem;
 	}
 
@@ -1245,7 +1245,7 @@
 
 	.header p {
 		margin: 0.35rem 0 0;
-		color: var(--text-muted);
+		color: var(--ink-dim);
 	}
 
 	.header-actions {
@@ -1263,8 +1263,8 @@
 	.controls-panel {
 		display: flex;
 		flex-direction: column;
-		background: var(--bg-deep);
-		border: 1px solid var(--bg-elevated);
+		background: var(--night-deep);
+		border: 1px solid var(--stone-warm);
 		border-radius: 0.75rem;
 		overflow: hidden;
 	}
@@ -1274,23 +1274,23 @@
 		grid-template-columns: repeat(4, 1fr);
 		gap: 0.3rem;
 		padding: 0.65rem;
-		background: var(--bg-elevated);
+		background: var(--stone-warm);
 	}
 
 	.tab {
 		padding: 0.6rem 0.5rem;
 		background: transparent;
-		border: 1px solid var(--bg-highlight);
+		border: 1px solid var(--stone-warm);
 		border-radius: 0.5rem;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 		font-weight: 600;
 		cursor: pointer;
 	}
 
 	.tab.active {
 		background: color-mix(in srgb, var(--nebula-primary) 22%, transparent);
-		border-color: color-mix(in srgb, var(--nebula-primary) 55%, var(--bg-highlight));
-		color: var(--text-primary);
+		border-color: color-mix(in srgb, var(--nebula-primary) 55%, var(--stone-warm));
+		color: var(--ink-bright);
 	}
 
 	.tab-content {
@@ -1306,9 +1306,9 @@
 		flex-direction: column;
 		gap: 0.45rem;
 		padding: 0.65rem;
-		border: 1px solid var(--bg-elevated);
+		border: 1px solid var(--stone-warm);
 		border-radius: 0.6rem;
-		background: color-mix(in srgb, var(--bg-deep) 88%, black);
+		background: color-mix(in srgb, var(--night-deep) 88%, black);
 	}
 
 	.label {
@@ -1331,9 +1331,9 @@
 		width: 100%;
 		padding: 0.55rem 0.65rem;
 		border-radius: 0.45rem;
-		border: 1px solid var(--bg-highlight);
-		background: var(--bg-deep);
-		color: var(--text-primary);
+		border: 1px solid var(--stone-warm);
+		background: var(--night-deep);
+		color: var(--ink-bright);
 		font: inherit;
 	}
 
@@ -1345,7 +1345,7 @@
 	.hint {
 		margin: 0;
 		font-size: 0.82rem;
-		color: var(--text-muted);
+		color: var(--ink-dim);
 	}
 
 	.notice,
@@ -1374,9 +1374,9 @@
 		text-align: left;
 		padding: 0.5rem;
 		border-radius: 0.45rem;
-		border: 1px solid var(--bg-highlight);
-		background: var(--bg-deep);
-		color: var(--text-primary);
+		border: 1px solid var(--stone-warm);
+		background: var(--night-deep);
+		color: var(--ink-bright);
 		cursor: pointer;
 	}
 
@@ -1388,7 +1388,7 @@
 
 	.picker-meta {
 		font-size: 0.72rem;
-		color: var(--text-muted);
+		color: var(--ink-dim);
 		margin-top: 0.2rem;
 	}
 
@@ -1406,7 +1406,7 @@
 		gap: 0.5rem;
 		padding: 0.45rem;
 		border-radius: 0.45rem;
-		border: 1px solid var(--bg-highlight);
+		border: 1px solid var(--stone-warm);
 		align-items: center;
 		cursor: grab;
 		transition:
@@ -1416,7 +1416,7 @@
 
 	.section-item.dragging {
 		opacity: 0.65;
-		border-color: color-mix(in srgb, var(--nebula-primary) 60%, var(--bg-highlight));
+		border-color: color-mix(in srgb, var(--nebula-primary) 60%, var(--stone-warm));
 		background: color-mix(in srgb, var(--nebula-primary) 12%, transparent);
 	}
 
@@ -1471,9 +1471,9 @@
 	.export-btn {
 		padding: 0.65rem;
 		border-radius: 0.5rem;
-		border: 1px solid var(--bg-highlight);
-		background: var(--bg-deep);
-		color: var(--text-primary);
+		border: 1px solid var(--stone-warm);
+		background: var(--night-deep);
+		color: var(--ink-bright);
 		cursor: pointer;
 		font-weight: 600;
 	}
@@ -1482,7 +1482,7 @@
 		display: flex;
 		flex-direction: column;
 		background: linear-gradient(150deg, #0f172a, #101a2c 50%, #141e31);
-		border: 1px solid var(--bg-elevated);
+		border: 1px solid var(--stone-warm);
 		border-radius: 0.75rem;
 		overflow: hidden;
 	}
@@ -1492,7 +1492,7 @@
 		justify-content: space-between;
 		align-items: center;
 		padding: 0.75rem;
-		border-bottom: 1px solid var(--bg-elevated);
+		border-bottom: 1px solid var(--stone-warm);
 		background: rgba(2, 6, 23, 0.65);
 	}
 
@@ -1510,7 +1510,7 @@
 		justify-content: center;
 		height: 100%;
 		min-height: 520px;
-		color: var(--text-muted);
+		color: var(--ink-dim);
 	}
 
 	.preview-canvas {
@@ -1527,7 +1527,7 @@
 		display: flex;
 		gap: 0.35rem;
 		padding: 0.7rem;
-		border-top: 1px solid var(--bg-elevated);
+		border-top: 1px solid var(--stone-warm);
 		overflow-x: auto;
 		background: rgba(2, 6, 23, 0.55);
 	}
@@ -1536,9 +1536,9 @@
 		min-width: 34px;
 		height: 30px;
 		border-radius: 0.4rem;
-		border: 1px solid var(--bg-highlight);
-		background: var(--bg-deep);
-		color: var(--text-secondary);
+		border: 1px solid var(--stone-warm);
+		background: var(--night-deep);
+		color: var(--ink-mid);
 		cursor: pointer;
 		font-size: 0.76rem;
 		font-weight: 600;
@@ -1546,7 +1546,7 @@
 
 	.thumb.active {
 		background: color-mix(in srgb, var(--nebula-primary) 24%, transparent);
-		color: var(--text-primary);
+		color: var(--ink-bright);
 	}
 
 	.zine-page-preview {
@@ -1567,7 +1567,7 @@
 		margin: 0;
 		line-height: 1.16;
 		font-family: var(--heading-font);
-		color: var(--primary);
+		color: var(--lamp-glow);
 		max-width: 100%;
 		overflow-wrap: anywhere;
 		word-break: break-word;
@@ -1675,10 +1675,10 @@
 		width: fit-content;
 		padding: 0.04in 0.1in;
 		border-radius: 999px;
-		background: color-mix(in srgb, var(--accent) 18%, #ffffff);
+		background: color-mix(in srgb, var(--lamp-glow) 18%, #ffffff);
 		font-size: 0.11in;
 		font-weight: 700;
-		color: var(--primary);
+		color: var(--lamp-glow);
 	}
 
 	.back-body {
@@ -1723,13 +1723,13 @@
 	}
 
 	.btn {
-		border: 1px solid var(--bg-highlight);
+		border: 1px solid var(--stone-warm);
 		padding: 0.58rem 0.75rem;
 		border-radius: 0.5rem;
 		font-weight: 700;
 		cursor: pointer;
-		background: var(--bg-deep);
-		color: var(--text-primary);
+		background: var(--night-deep);
+		color: var(--ink-bright);
 	}
 
 	.btn-primary {
@@ -1739,14 +1739,14 @@
 	}
 
 	.btn-secondary {
-		background: color-mix(in srgb, var(--bg-deep) 80%, #020617);
+		background: color-mix(in srgb, var(--night-deep) 80%, #020617);
 	}
 
 	.btn-ghost,
 	.mini-btn {
-		border: 1px solid var(--bg-highlight);
+		border: 1px solid var(--stone-warm);
 		background: transparent;
-		color: var(--text-secondary);
+		color: var(--ink-mid);
 		padding: 0.35rem 0.55rem;
 		border-radius: 0.42rem;
 		font-size: 0.76rem;

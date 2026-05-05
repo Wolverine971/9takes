@@ -81,9 +81,9 @@
 		position: relative;
 		background: linear-gradient(
 			135deg,
-			var(--primary-dark) 0%,
-			var(--primary-darker) 50%,
-			var(--primary-darker) 100%
+			var(--lamp-glow) 0%,
+			var(--lamp-glow) 50%,
+			var(--lamp-glow) 100%
 		);
 		padding: 1.25rem;
 		overflow: hidden;
@@ -204,7 +204,7 @@
 	}
 
 	.explorer-section {
-		background: linear-gradient(135deg, var(--bg-surface) 0%, var(--bg-deep) 100%);
+		background: linear-gradient(135deg, var(--stone-warm) 0%, var(--night-deep) 100%);
 		padding: 1.25rem 1rem 1rem;
 
 		@media (min-width: 768px) {
@@ -218,7 +218,7 @@
 		}
 
 		h3 {
-			color: var(--text-primary);
+			color: var(--ink-bright);
 			font-size: 1rem;
 			font-weight: 600;
 			text-align: center;

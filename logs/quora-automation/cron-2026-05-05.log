@@ -1,0 +1,29 @@
+```
+Quora warmup complete for 2026-05-05.
+
+Searches run: 7
+Questions evaluated: 7
+Questions queued: 5
+Questions skipped: 2
+
+Priority queue:
+1. "Why do some people give others unsolicited advice?" — Est. 30K+ views, 56+ answers — Angle: Types 1, 2, 3 (closes long-open Type 2 helping-as-control fresh angle)
+2. "Why do some people take everything personal from rejection to criticism?" — Est. 25K+ views, 39+ answers — Angle: Types 4, 6, 3 (Type 4 identity-fusion-with-feedback fresh entry)
+3. "Why are people so quick to judge each other?" — Est. 50K+ views, 100+ related — Angle: Types 1, 6, 4 (Type 1 judgment-as-moral-ordering fresh angle)
+4. "Why do some people overshare information about themselves when meeting others for the first time?" — Est. 25K+ views, 56+ answers — Angle: Types 4, 7, 2 (three-engine breakdown)
+5. "Why is establishing healthy boundaries such a painful process?" — Est. 20K+ views, 42+ answers — Angle: Types 9, 2, 6 (Type 9 fusion-rupture as differentiator; partial gap)
+
+Type coverage: Types 1, 2, 4 each get a primary fresh angle; Types 3, 6, 7, 9 secondary fills; Types 5 and 8 not in queue this round (both well-covered lifetime)
+Blog matches: 5 of 5 have a 9takes link candidate
+
+Question log: docs/quora/question-log.md
+Session doc: docs/quora/sessions/2026-05-05_quora-warmup-pm.md
+
+MODE: non-interactive
+SESSION: docs/quora/sessions/2026-05-05_quora-warmup-pm.md
+QUEUED: 5
+SKIPPED: 2
+LIMITATIONS: none (browser stale-state recovered once on `Why-people-give-unsolicited-advice` URL via fresh-nav to canonical variant)
+```
+
+Next step: `/quora-answer docs/quora/sessions/2026-05-05_quora-warmup-pm.md`
