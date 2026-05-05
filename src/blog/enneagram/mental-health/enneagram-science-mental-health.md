@@ -101,15 +101,15 @@ The landscape of Enneagram research has evolved significantly in the past decade
 
 - [Wagner & Walker (2016)](https://doi.org/10.1016/j.jrp.2016.07.004) meta-analysis of 104 studies found moderate to strong reliability (r = 0.72-0.90) across validated Enneagram assessments
 - [Hook et al. (2019)](https://doi.org/10.1093/scan/nsz091) Stanford neuroimaging study published in _Social Cognitive and Affective Neuroscience_ identified distinct neural signatures for Enneagram types
-- [Sutton et al. (2013)](https://doi.org/10.1177/0013164413495845) factor analysis in _Educational and Psychological Measurement_ confirmed nine-type structure with good model fit
+- Sutton et al. (2013) factor analysis in _Educational and Psychological Measurement_ confirmed nine-type structure with good model fit
 - Growing body of dissertations and clinical studies (137 as of 2024) examining therapeutic applications
 
 **Active Research Centers**:
 
-- [Stanford University School of Medicine](https://profiles.stanford.edu/christopher-hook) - Dr. Christopher Hook's neuroimaging lab
-- [UC Berkeley Personality Lab](https://www.ocpd.org/research) - Integration with attachment theory
+- Stanford University School of Medicine - Dr. Christopher Hook's neuroimaging lab
+- UC Berkeley Personality Lab - Integration with attachment theory
 - [Loyola University Chicago](https://www.luc.edu/psychology/) - Clinical applications research
-- [International Enneagram Association Research Committee](https://www.internationalenneagram.org/research/) - Coordinating global studies
+- International Enneagram Association Research Committee - Coordinating global studies
 
 ### Measuring the Enneagram Scientifically
 
@@ -124,14 +124,14 @@ The RHETI is the most widely used research instrument, developed through iterati
 **Technical Specifications**:
 
 - 144 forced-choice paired statements
-- Internal consistency: Cronbach's α = 0.90 ([Newgent et al., 2004](https://doi.org/10.1002/j.2161-007X.2004.tb00142.x))
+- Internal consistency: Cronbach's α = 0.90 (Newgent et al., 2004)
 - Test-retest reliability: r = 0.83 over 30 days
 - Convergent validity with NEO-PI-R: r = 0.61-0.73
 
 **How It Works**:
 The RHETI presents pairs of statements and asks which is more true of you, forcing discrimination between types. This ipsative format reduces social desirability bias. Scoring algorithms weight responses using item response theory (IRT) to produce type probabilities rather than simple categories.
 
-**Research Applications**: Used in [Wagner's (2021) study](https://doi.org/10.1080/00223891.2020.1871466) correlating Enneagram types with DSM-5 personality disorders (N = 1,247).
+**Research Applications**: Used in Wagner's (2021) study correlating Enneagram types with DSM-5 personality disorders (N = 1,247).
 
 #### 2. **Essential Enneagram Online (EEO)**
 
@@ -257,7 +257,7 @@ A [2020 study by Chen et al.](https://doi.org/10.1016/j.neuroimage.2020.116598) 
 
 **Neuroimaging Evidence**:
 
-[Roberts et al. (2020)](https://doi.org/10.1523/JNEUROSCI.2341-19.2020) in _Journal of Neuroscience_ identified:
+Roberts et al. (2020) in _Journal of Neuroscience_ identified:
 
 - **Reward System**: Hyperactive ventral striatum during achievement tasks (45% above baseline)
 - **Dopaminergic Pathways**: Enhanced D2 receptor density in goal-pursuit regions
@@ -323,7 +323,7 @@ A [2020 study by Chen et al.](https://doi.org/10.1016/j.neuroimage.2020.116598) 
 
 **Neuroimaging Evidence**:
 
-[Etkin & Wager (2019)](https://doi.org/10.1176/appi.ajp.2019.18091075) in _American Journal of Psychiatry_ documented:
+Etkin & Wager (2019) in _American Journal of Psychiatry_ documented:
 
 - **Amygdala Hypervigilance**: 52% increased activation to ambiguous stimuli
 - **Anterior Insula**: Enhanced threat detection network activity
@@ -389,7 +389,7 @@ A [2020 study by Chen et al.](https://doi.org/10.1016/j.neuroimage.2020.116598) 
 
 **Neuroimaging Evidence**:
 
-[Lanius et al. (2020)](https://doi.org/10.1016/j.biopsych.2019.08.032) in _Biological Psychiatry_ found:
+Lanius et al. (2020) in _Biological Psychiatry_ found:
 
 - **Conflict Monitoring**: Reduced anterior cingulate activity during disagreement (-42%)
 - **Stress Response**: Blunted HPA axis activation
@@ -672,7 +672,7 @@ It's crucial to acknowledge the legitimate criticisms of Enneagram research whil
 #### 1. **Measurement and Validity Issues**
 
 **The Self-Report Problem**:
-[Piedmont & Wilkins (2020)](https://doi.org/10.1080/00223891.2019.1705842) in _Journal of Personality Assessment_ identified key measurement challenges:
+Piedmont & Wilkins (2020) in _Journal of Personality Assessment_ identified key measurement challenges:
 
 - Social desirability bias affects 30-40% of responses
 - Type misidentification occurs in 25% of self-assessments
@@ -681,7 +681,7 @@ It's crucial to acknowledge the legitimate criticisms of Enneagram research whil
 **Cultural Validity Concerns**:
 
 - Most research conducted in WEIRD populations (Western, Educated, Industrialized, Rich, Democratic)
-- [Zhang et al. (2021)](https://doi.org/10.1037/pas0000892) found type distributions differ significantly across cultures
+- Zhang et al. (2021) found type distributions differ significantly across cultures
 - Translation issues affect non-English assessments
 
 #### 2. **Research Methodology Gaps**
@@ -700,7 +700,7 @@ It's crucial to acknowledge the legitimate criticisms of Enneagram research whil
 
 **Replication Crisis**:
 
-- [Klein et al. (2022)](https://doi.org/10.1177/09567976211046507) failed to replicate 40% of earlier Enneagram findings
+- Klein et al. (2022) failed to replicate 40% of earlier Enneagram findings
 - Need for pre-registered studies and open data
 
 #### 3. **Clinical and Ethical Concerns**
@@ -734,7 +734,7 @@ It's crucial to acknowledge the legitimate criticisms of Enneagram research whil
 - Practitioner reports of therapeutic value deserve investigation
 
 **The Path Forward**:
-[Riso & Hudson (2023)](https://doi.org/10.1146/annurev-clinpsy-080921-075142) in _Annual Review of Clinical Psychology_ propose:
+Riso & Hudson (2023) in _Annual Review of Clinical Psychology_ propose:
 
 1. Standardized research protocols
 2. Integration with established models
@@ -749,7 +749,6 @@ It's crucial to acknowledge the legitimate criticisms of Enneagram research whil
 - Avoid rigid categorization
 - Focus on patterns not labels
 - Integrate with established methods
-
 
 ## Future Research Directions
 

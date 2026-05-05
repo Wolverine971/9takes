@@ -163,9 +163,7 @@
 
 		{#if childCategories.length}
 			<section class="mb-4 mt-3">
-				<h2 class="mb-3 text-base font-semibold text-[var(--ink-bright)]">
-					Browse subcategories
-				</h2>
+				<h2 class="mb-3 text-base font-semibold text-[var(--ink-bright)]">Browse subcategories</h2>
 				<div class="grid gap-3">
 					{#each childCategories as category (category.id)}
 						<CategoryBrowseBranch {category} depth={1} />

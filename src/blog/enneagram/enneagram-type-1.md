@@ -1,5 +1,5 @@
 ---
-title: 'Enneagram Type 1: The Perfectionist - Inside the Inner Courtroom'
+title: 'Enneagram Type 1: Perfectionist - The Inner Courtroom'
 meta_title: "Why You Can't Stop Criticizing Everything (Type 1 Perfectionism)"
 description: "Can't shake the feeling that nothing (including you) is ever good enough? That's Type 1. Learn why you can't stop criticizing, where the inner judge came from, and how to finally silence it."
 author: 'DJ Wayne'
@@ -11,7 +11,7 @@ priority: '0.6'
 published: true
 type: ['nine-types']
 blog: true
-pic: ''
+pic: 'enneagram-type-1-dossier'
 path: src/blog/enneagram/enneagram-type-1.md
 quality_grade: 'B+'
 quality_score: 8.8
@@ -45,13 +45,8 @@ type-1-inner-courtroom
     import PopCard from "$lib/components/atoms/PopCard.svelte";
     import InsightBox from "$lib/components/blog/callouts/InsightBox.svelte";
     import QuickAnswer from "$lib/components/blog/callouts/QuickAnswer.svelte";
-    import EnneagramTypeDossier from "$lib/components/blog/EnneagramTypeDossier.svelte";
-    import { enneagramTypeProfiles } from "$lib/data/enneagramTypeProfiles";
 
-    const dossier = enneagramTypeProfiles[1];
 </script>
-
-<EnneagramTypeDossier {...dossier} />
 
 <QuickAnswer question="Why do Type 1s constantly criticize everything?">
 Type 1s live in an internal courtroom where they prosecute themselves against impossible standards. This harsh inner critic developed from childhood experiences of criticism or premature responsibility, creating a core belief that they're fundamentally flawed. They criticize others because their internal standards leak outward: the same harsh voice judging them judges everything around them. It's not pickiness. It's moral survival.

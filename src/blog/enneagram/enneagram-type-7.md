@@ -1,5 +1,5 @@
 ---
-title: 'Enneagram Type 7: The Enthusiast - The Possibility Engine'
+title: 'Enneagram Type 7: Enthusiast - The Possibility Engine'
 meta_title: "Why You Can't Stop Chasing the Next Thing (Type 7 Restlessness)"
 description: "Can't stop planning the next adventure before finishing this one? That's Type 7. Learn why stillness feels threatening, why you chase possibilities endlessly, and how to find depth in the present."
 author: 'DJ Wayne'
@@ -11,7 +11,7 @@ priority: '0.6'
 published: true
 type: ['nine-types']
 blog: true
-pic: ''
+pic: 'enneagram-type-7-dossier'
 path: src/blog/enneagram/enneagram-type-7.md
 quality_grade: 'B+'
 quality_score: 8.8
@@ -44,13 +44,8 @@ type-7-possibility-crossroads
     import MarqueeHorizontal from "$lib/components/atoms/MarqueeHorizontal.svelte";
     import PopCard from "$lib/components/atoms/PopCard.svelte";
     import QuickAnswer from "$lib/components/blog/callouts/QuickAnswer.svelte";
-    import EnneagramTypeDossier from "$lib/components/blog/EnneagramTypeDossier.svelte";
-    import { enneagramTypeProfiles } from "$lib/data/enneagramTypeProfiles";
 
-    const dossier = enneagramTypeProfiles[7];
 </script>
-
-<EnneagramTypeDossier {...dossier} />
 
 <QuickAnswer question="What makes Type 7s tick?">
 Your mind is a possibility engine. While others see one option, you see a dozen alternatives branching out in every direction. That's not a bug, it's your superpower. You learned early that you could transform disappointment into opportunity, boredom into adventure, and limitation into creative fuel. The flip side? Stillness can feel like a trap because your brain is wired to keep moving toward the next horizon. Understanding this wiring lets you harness it intentionally rather than letting it run you. The goal isn't to slow down and become someone else. It's to choose when to sprint and when to savor.

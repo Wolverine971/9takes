@@ -1,5 +1,6 @@
 // src/routes/+page.server.ts
 import type { PageServerLoad } from './$types';
+import corpusStats from '$lib/data/corpus-stats.json';
 
 export interface FamousPerson {
 	name: string;
@@ -7,6 +8,13 @@ export interface FamousPerson {
 	hasImage: boolean;
 	hasLink: boolean;
 	personaTitle: string | null;
+}
+
+export interface HomepageCorpusStats {
+	published: number;
+	inDraft: number;
+	publishedLast30Days: number;
+	avgNewPerMonth: number;
 }
 
 interface TopQuestion {
@@ -80,9 +88,17 @@ export const load: PageServerLoad = async ({ locals }) => {
 		}
 	}
 
+	const homepageCorpusStats: HomepageCorpusStats = {
+		published: corpusStats.totals.published,
+		inDraft: corpusStats.totals.unpublished_drafts,
+		publishedLast30Days: corpusStats.pipeline.published_last_30_days,
+		avgNewPerMonth: corpusStats.pipeline.avg_new_per_month
+	};
+
 	return {
 		user: session?.user ?? null,
 		typeRepresentatives,
-		questionOfTheDay
+		questionOfTheDay,
+		corpusStats: homepageCorpusStats
 	};
 };

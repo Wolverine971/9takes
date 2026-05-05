@@ -1,5 +1,5 @@
 ---
-title: 'Enneagram Type 9: The Peacemaker - Finding Your Voice'
+title: 'Enneagram Type 9: Peacemaker - Finding Your Voice'
 meta_title: "You're Not Lazy, You're Protecting Your Peace (Type 9 Explained)"
 description: "Feel like you disappear to keep everyone comfortable? You're not alone. Explore how Type 9s navigate the world, why harmony matters so deeply, and how to honor your own voice too."
 author: 'DJ Wayne'
@@ -11,7 +11,7 @@ priority: '0.6'
 published: true
 type: ['nine-types']
 blog: true
-pic: ''
+pic: 'enneagram-type-9-dossier'
 path: src/blog/enneagram/enneagram-type-9.md
 quality_grade: 'B+'
 quality_score: 8.9
@@ -44,13 +44,8 @@ type-9-finding-your-voice
     import MarqueeHorizontal from "$lib/components/atoms/MarqueeHorizontal.svelte";
     import PopCard from "$lib/components/atoms/PopCard.svelte";
     import QuickAnswer from "$lib/components/blog/callouts/QuickAnswer.svelte";
-    import EnneagramTypeDossier from "$lib/components/blog/EnneagramTypeDossier.svelte";
-    import { enneagramTypeProfiles } from "$lib/data/enneagramTypeProfiles";
 
-    const dossier = enneagramTypeProfiles[9];
 </script>
-
-<EnneagramTypeDossier {...dossier} />
 
 <QuickAnswer question="Why do Type 9s sometimes feel invisible?">
 If you're a Nine, you probably learned early that keeping the peace meant setting yourself aside. It made sense at the time. When you stayed calm and agreeable, things felt easier for everyone. Over time, this became second nature. You got good at reading what others needed, at smoothing things over, at creating space where everyone else could be comfortable.

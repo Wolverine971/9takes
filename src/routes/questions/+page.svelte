@@ -75,7 +75,18 @@
 	// ------------------------------------------------------------------
 	// Local pagination state (Svelte 5 runes).
 	// ------------------------------------------------------------------
-	let questionsList = $state(untrack(() => [...(data.questionsAndTags ?? [])]));
+	function dedupeById<T extends { id: number | string }>(items: T[]): T[] {
+		const seen = new Set<T['id']>();
+		const out: T[] = [];
+		for (const item of items) {
+			if (seen.has(item.id)) continue;
+			seen.add(item.id);
+			out.push(item);
+		}
+		return out;
+	}
+
+	let questionsList = $state(untrack(() => dedupeById([...(data.questionsAndTags ?? [])])));
 	let currentPage = $state(untrack(() => data.currentPage ?? 1));
 	let hasMore = $state(untrack(() => Boolean(data.hasMore)));
 	let loadingMore = $state(false);
@@ -107,7 +118,7 @@
 					page: number;
 					hasMore: boolean;
 				};
-				questionsList = [...questionsList, ...(responseData.questions ?? [])];
+				questionsList = dedupeById([...questionsList, ...(responseData.questions ?? [])]);
 				currentPage = responseData.page;
 				hasMore = Boolean(responseData.hasMore);
 			} else {
@@ -217,10 +228,6 @@
 				</div>
 
 				<h1 class="display-xl">Drop a situation. Get nine reads.</h1>
-
-				<p class="mono hero-coords">
-					LAT 37.9755° N · LONG 23.7348° E · ATHENS · {data.totalQuestions ?? 0} OPEN
-				</p>
 
 				<p class="hero-subhead">
 					Real situations from real people. Each one read by all 9 personality types &mdash;
@@ -569,11 +576,6 @@
 
 	.hero-eyebrow {
 		margin-bottom: 22px;
-	}
-
-	.hero-coords {
-		color: var(--ink-dim);
-		margin: 18px 0 24px;
 	}
 
 	.hero-subhead {

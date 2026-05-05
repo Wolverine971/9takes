@@ -503,7 +503,7 @@ For additional insights on personal growth that can enhance your conflict resolu
 - <a class="external-link" target="_blank" rel="noopener" href="https://www.gottman.com/blog/4-conflict-styles-that-hurt-your-relationship/">4 Conflict Styles That Hurt Your Relationship</a>
 - <a class="external-link" target="_blank" rel="noopener" href="https://www.tonyrobbins.com/ultimate-relationship-guide/resolve-conflict-save-relationship/">How to Resolve Conflict and Save Your Relationship</a>
 - <a class="external-link" target="_blank" rel="noopener" href="https://www.gottman.com/blog/managing-vs-resolving-conflict-relationships/">Managing vs. Resolving Conflict in Relationships: Blueprints for Success</a>
-- <a class="external-link" target="_blank" rel="noopener" href="https://www.washingtonpost.com/wellness/2024/05/30/relationships-conflict-management-settle-strategies/">Science-based tips to manage conflicts in relationships</a>
+- <a class="external-link" target="_blank" rel="noopener" href="https://www.psychologicalscience.org/news/these-science-based-tips-can-help-you-manage-conflicts-in-relationships.html">Science-based tips to manage conflicts in relationships</a>
 - <a class="external-link" target="_blank" rel="noopener" href="https://link.springer.com/article/10.1007/s12671-020-01449-9">Mindfulness and Romantic Relationship Outcomes: the Mediating Role of Conflict Resolution Styles and Closeness</a>
 - <a class="external-link" target="_blank" rel="noopener" href="https://www.helpguide.org/relationships/communication/conflict-resolution-skills">Conflict Resolution Skills</a>
 

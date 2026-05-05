@@ -132,13 +132,17 @@
 		}));
 </script>
 
-<section class="comparison-section page-section">
-	<h2>Comparison to Published Enneagram Distributions</h2>
+<section
+	class="comparison-section page-section"
+	aria-labelledby="comparison-heading"
+	id="comparison"
+>
+	<h2 id="comparison-heading">Comparison to Published Enneagram Distributions</h2>
 
 	<p class="lede">
-		Our 293-profile corpus, put next to the two largest public Enneagram datasets that actually
-		publish numbers. The point is not to crown a "correct" distribution — it's to make our sample
-		bias legible.
+		Our {corpusTotal}-profile corpus, put next to the two largest public Enneagram datasets that
+		actually publish numbers. The point is not to crown a "correct" distribution — it's to make our
+		sample bias legible.
 	</p>
 
 	<!-- ========== HONEST-SAMPLE CAVEAT ========== -->
@@ -218,8 +222,8 @@
 	</p>
 
 	<!-- ========== DIVERGENCE INTERPRETATIONS ========== -->
-	<div class="interpretations">
-		<h3>Where the 9takes corpus diverges, and why</h3>
+	<div class="interpretations" id="comparison-divergence">
+		<h3 id="comparison-divergence-heading">Where the 9takes corpus diverges, and why</h3>
 		<p class="lede-sub">
 			Types ordered by absolute delta against
 			{primarySource.short_name}. Entries below are written, not generated — each one is a working
@@ -256,8 +260,8 @@
 	</aside>
 
 	<!-- ========== SOURCES ========== -->
-	<div class="sources">
-		<h3>Public Data Sources</h3>
+	<div class="sources" id="comparison-sources">
+		<h3 id="comparison-sources-heading">Public Data Sources</h3>
 		<ul class="source-list">
 			{#each external.sources as src (src.id)}
 				<li>
@@ -279,7 +283,7 @@
 			{/each}
 		</ul>
 
-		<h3>Academic Context</h3>
+		<h3 id="comparison-academic-heading">Academic Context</h3>
 		<p class="lede-sub">
 			None of the peer-reviewed Enneagram research below publishes a per-type population
 			distribution. They're listed here as the validity backbone — proof the Enneagram has been

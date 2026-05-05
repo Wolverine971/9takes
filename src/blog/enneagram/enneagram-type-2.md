@@ -1,5 +1,5 @@
 ---
-title: 'Enneagram Type 2: The Helper - The Hidden Cost of Giving'
+title: 'Enneagram Type 2: Helper - The Hidden Cost of Giving'
 meta_title: "Why You Can't Say No (Type 2 People-Pleasing Exhaustion)"
 description: "Feel guilty every time you prioritize yourself? That's Type 2. Learn why you can't say no, why helping feels mandatory, and how to stop giving until you're empty."
 author: 'DJ Wayne'
@@ -11,7 +11,7 @@ priority: '0.6'
 published: true
 type: ['nine-types']
 blog: true
-pic: ''
+pic: 'enneagram-type-2-dossier'
 path: src/blog/enneagram/enneagram-type-2.md
 quality_grade: 'B+'
 quality_score: 8.9
@@ -46,13 +46,8 @@ type-2-empty-amphora
     import InsightBox from "$lib/components/blog/callouts/InsightBox.svelte";
     import VisualMetaphor from "$lib/components/blog/callouts/VisualMetaphor.svelte";
     import QuickAnswer from "$lib/components/blog/callouts/QuickAnswer.svelte";
-    import EnneagramTypeDossier from "$lib/components/blog/EnneagramTypeDossier.svelte";
-    import { enneagramTypeProfiles } from "$lib/data/enneagramTypeProfiles";
 
-    const dossier = enneagramTypeProfiles[2];
 </script>
-
-<EnneagramTypeDossier {...dossier} />
 
 <QuickAnswer question="Why can't Type 2s say no?">
 Type 2s learned in childhood that love is earned through giving. They absorbed the message that having needs makes them a burden while meeting others' needs earns connection. Saying no triggers a deep fear that they'll be unlovable without their usefulness. They can't see their own needs clearly: they have sophisticated radar for others but are genuinely blind to their own signals. It's not selflessness; it's a survival strategy for securing love.

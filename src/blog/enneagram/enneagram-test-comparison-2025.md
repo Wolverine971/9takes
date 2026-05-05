@@ -53,7 +53,6 @@ The **Truity Enneagram Test** (free, ~10 min) is a solid free option with over 1
 | **Truity**            | Free | 10 min | ⭐⭐⭐⭐   | Quick & accurate |
 | **Eclectic Energies** | Free | 15 min | ⭐⭐⭐     | Second opinion   |
 
-
 <p class="firstLetter">You're about to spend 20-40 minutes of your life taking a personality test. It better be the right one.</p>
 
 Here's the reality most review sites won't tell you: **most Enneagram tests online are complete garbage.**

@@ -100,8 +100,6 @@ Watch for these red flags, in yourself or others:
 
 ⚠️ **Warning Sign:** If you're reading this list and thinking "that's me right now," stop reading and call 988.
 
-
-
 ## Type 1: The Perfectionist in Crisis
 
 ### What Triggers Crisis for Type 1s
@@ -430,7 +428,6 @@ Type 3 crises are often triggered by [workplace failures or burnout](/enneagram-
 - "Rest is productive"
 - "Failure is human"
 - "You are enough"
-
 
 <div class="scroll-fade">
 <MarqueeHorizontal displayList={[

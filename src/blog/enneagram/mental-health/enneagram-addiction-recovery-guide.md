@@ -83,7 +83,6 @@ Find your center. The drug changes. The function doesn't.
 
 Most people have multiple addictions across these categories. Your secondary addictions often mask the primary escape pattern.
 
-
 ## Type 1: The Perfectionist's Addictions
 
 The Type 1 doesn't look like an addict. They look like the most disciplined person in the room. That's the problem.

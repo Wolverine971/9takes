@@ -2,10 +2,12 @@
 <script lang="ts">
 	import type { PageData } from './$types';
 	import SEOHead from '$lib/components/SEOHead.svelte';
+	import { SectionKicker } from '$lib/components/atoms';
 	import ArrowRightIcon from '$lib/components/icons/arrowRightIcon.svelte';
 	import {
 		buildPersonalityAnalysisPath,
-		buildPersonalityImagePath
+		buildPersonalityImagePath,
+		buildPersonalityImageUrl
 	} from '$lib/utils/personalityAnalysis';
 	import { formatPersonalityRawType, formatPersonName } from '$lib/personalityCategories';
 
@@ -64,11 +66,23 @@
 			: []
 	);
 
+	const faqItems = $derived([...data.category.seoFaqs, ...statFaqs]);
+
+	const ogImageUrl = $derived(
+		data.category.ogImage ?? 'https://9takes.com/twitter-card-9takes.webp'
+	);
+
+	const ORG_ID = 'https://9takes.com/#organization';
+	const WEBSITE_ID = 'https://9takes.com/#website';
+	const PERSONALITY_ANALYSIS_ID = 'https://9takes.com/personality-analysis#collection';
+	const CATEGORIES_INDEX_ID = 'https://9takes.com/personality-analysis/categories#collection';
+
 	const structuredData = $derived.by(() => ({
 		'@context': 'https://schema.org',
 		'@graph': [
 			{
 				'@type': 'BreadcrumbList',
+				'@id': `${canonicalUrl}#breadcrumbs`,
 				itemListElement: [
 					{
 						'@type': 'ListItem',
@@ -91,7 +105,8 @@
 					{
 						'@type': 'ListItem',
 						position: 4,
-						name: data.category.label
+						name: data.category.label,
+						item: canonicalUrl
 					}
 				]
 			},
@@ -102,12 +117,20 @@
 				description: seoDescription,
 				url: canonicalUrl,
 				inLanguage: 'en-US',
+				image: {
+					'@type': 'ImageObject',
+					url: ogImageUrl,
+					width: 1200,
+					height: 628
+				},
+				...(data.earliestPublish ? { datePublished: data.earliestPublish } : {}),
 				...(data.latestUpdate ? { dateModified: data.latestUpdate } : {}),
 				keywords: seoKeywords,
-				isPartOf: {
-					'@type': 'CollectionPage',
-					name: 'Personality Analysis Categories',
-					url: 'https://9takes.com/personality-analysis/categories'
+				isPartOf: { '@id': CATEGORIES_INDEX_ID },
+				breadcrumb: { '@id': `${canonicalUrl}#breadcrumbs` },
+				speakable: {
+					'@type': 'SpeakableSpecification',
+					cssSelector: ['h1', '.lede', '.corpus-insight-claim']
 				},
 				about: [
 					{
@@ -142,52 +165,78 @@
 									}
 								}
 							],
-							isBasedOn: {
-								'@type': 'Dataset',
-								'@id': 'https://9takes.com/corpus-stats#dataset',
-								name: '9takes Enneagram Personality Type Distribution Corpus',
-								url: corpusStats.datasetUrl
-							},
+							isBasedOn: { '@id': 'https://9takes.com/corpus-stats#dataset' },
 							subjectOf: {
 								'@id': `${canonicalUrl}#corpus-slice`
 							}
 						}
 					: {}),
-				publisher: {
-					'@type': 'Organization',
-					name: '9takes',
-					url: 'https://9takes.com',
-					logo: {
-						'@type': 'ImageObject',
-						url: 'https://9takes.com/brand/aero.png'
-					}
-				},
+				publisher: { '@id': ORG_ID },
 				mainEntity: {
 					'@type': 'ItemList',
 					'@id': `${canonicalUrl}#people`,
 					numberOfItems: data.people.length,
 					itemListOrder: 'https://schema.org/ItemListUnordered',
-					itemListElement: data.people.map((person, index) => ({
-						'@type': 'ListItem',
-						position: index + 1,
-						name: person.name,
-						url: `https://9takes.com${buildPersonalityAnalysisPath(person.slug)}`,
-						...(person.personaTitle || person.description
-							? { description: person.personaTitle ?? person.description }
-							: {})
-					}))
+					itemListElement: data.people.map((person, index) => {
+						const personUrl = `https://9takes.com${buildPersonalityAnalysisPath(person.slug)}`;
+						const personImage = buildPersonalityImageUrl(person.enneagram, person.slug);
+						const personDescription = person.personaTitle ?? person.description ?? null;
+
+						return {
+							'@type': 'ListItem',
+							position: index + 1,
+							url: personUrl,
+							item: {
+								'@type': 'Person',
+								'@id': personUrl,
+								name: person.name,
+								url: personUrl,
+								...(personImage ? { image: personImage } : {}),
+								...(personDescription ? { description: personDescription } : {}),
+								...(person.enneagram
+									? {
+											additionalProperty: {
+												'@type': 'PropertyValue',
+												name: 'Enneagram Type',
+												value: String(person.enneagram)
+											}
+										}
+									: {})
+							}
+						};
+					})
 				},
 				hasPart: data.groups.map((group) => ({
 					'@type': 'WebPageElement',
+					'@id': `${canonicalUrl}#${group.slug}`,
 					name: group.label,
 					description: group.description,
-					url: `${canonicalUrl}#${group.slug}`
+					url: `${canonicalUrl}#${group.slug}`,
+					cssSelector: `#${group.slug}`
 				}))
+			},
+			{
+				'@type': 'CollectionPage',
+				'@id': CATEGORIES_INDEX_ID,
+				name: 'Personality Analysis Categories',
+				url: 'https://9takes.com/personality-analysis/categories',
+				inLanguage: 'en-US',
+				isPartOf: { '@id': PERSONALITY_ANALYSIS_ID }
+			},
+			{
+				'@type': 'CollectionPage',
+				'@id': PERSONALITY_ANALYSIS_ID,
+				name: 'Personality Analysis',
+				url: 'https://9takes.com/personality-analysis',
+				inLanguage: 'en-US',
+				isPartOf: { '@id': WEBSITE_ID }
 			},
 			{
 				'@type': 'FAQPage',
 				'@id': `${canonicalUrl}#faq`,
-				mainEntity: [...data.category.seoFaqs, ...statFaqs].map((faq) => ({
+				inLanguage: 'en-US',
+				isPartOf: { '@id': canonicalUrl },
+				mainEntity: faqItems.map((faq) => ({
 					'@type': 'Question',
 					name: faq.question,
 					acceptedAnswer: {
@@ -204,18 +253,14 @@
 							name: `Enneagram type distribution among ${corpusStats.domainLabel} (9takes corpus slice)`,
 							description: corpusStats.headlineClaim,
 							url: corpusStats.datasetUrl,
-							isBasedOn: 'https://9takes.com/corpus-stats#dataset',
+							isBasedOn: { '@id': 'https://9takes.com/corpus-stats#dataset' },
 							dateModified: corpusStats.generatedAt,
 							variableMeasured: [
 								'enneagram_type_share',
 								'over_representation_vs_baseline',
 								'domain_total'
 							],
-							creator: {
-								'@type': 'Organization',
-								name: '9takes',
-								url: 'https://9takes.com'
-							},
+							creator: { '@id': ORG_ID },
 							distribution: [
 								{
 									'@type': 'DataDownload',
@@ -235,7 +280,7 @@
 	description={seoDescription}
 	canonical={canonicalUrl}
 	twitterCardType="summary_large_image"
-	ogImage="https://9takes.com/personality-analysis-card.webp"
+	ogImage={ogImageUrl}
 	author="9takes"
 	twitterImageAlt={`${data.category.label} personality analysis on 9takes`}
 	jsonLd={structuredData}
@@ -260,16 +305,37 @@
 
 		<div class="hero-grid">
 			<div class="hero-copy">
-				<p class="eyebrow">Personality Analysis Category</p>
+				<SectionKicker class="hero-kicker" label="PERSONALITY ANALYSIS · CATEGORY" />
 				<h1>{data.category.label}</h1>
 				<p class="lede">{data.category.intro}</p>
+
+				{#if data.category.seoIntro}
+					<p class="seo-intro">{data.category.seoIntro}</p>
+				{/if}
+
+				{#if data.earliestPublish || data.latestUpdate}
+					<p class="meta-line" aria-label="Publication metadata">
+						{#if data.earliestPublish}
+							<span>
+								Published
+								<time datetime={data.earliestPublish}>{formatDate(data.earliestPublish)}</time>
+							</span>
+						{/if}
+						{#if data.earliestPublish && data.latestUpdate}
+							<span class="meta-sep" aria-hidden="true">·</span>
+						{/if}
+						{#if data.latestUpdate}
+							<span>
+								Last updated
+								<time datetime={data.latestUpdate}>{formatDate(data.latestUpdate)}</time>
+							</span>
+						{/if}
+					</p>
+				{/if}
 
 				<div class="stats-row">
 					<span>{data.people.length} published analyses</span>
 					<span>{data.distribution.length} Enneagram types represented</span>
-					{#if formatDate(data.latestUpdate)}
-						<span>Updated {formatDate(data.latestUpdate)}</span>
-					{/if}
 				</div>
 
 				{#if corpusStats}
@@ -309,7 +375,7 @@
 			</div>
 
 			<div class="distribution-card">
-				<p class="eyebrow">Type Spread</p>
+				<SectionKicker tone="data" class="hero-kicker" label="TYPE SPREAD" />
 				<h2>Where this category clusters</h2>
 				{#if data.distribution.length > 0}
 					<div class="distribution-grid">
@@ -330,8 +396,8 @@
 			<div class="cluster-nav">
 				<div class="cluster-nav-head">
 					<div>
-						<p class="section-kicker">Subcategories</p>
-						<h2>Jump to a Section</h2>
+						<SectionKicker class="section-tag" num="01" label="SUBCATEGORIES" />
+						<h3 class="cluster-nav-title">Jump to a Section</h3>
 					</div>
 					<p class="cluster-nav-copy">{data.category.groupingDescription}</p>
 				</div>
@@ -353,7 +419,7 @@
 			<section class="section">
 				<div class="section-head">
 					<div>
-						<p class="section-kicker">Featured</p>
+						<SectionKicker class="section-tag" num="02" label="FEATURED" />
 						<h2>Best Entry Points</h2>
 					</div>
 					<p class="section-copy">Start with the strongest or freshest reads in this category.</p>
@@ -386,7 +452,11 @@
 		<section class="section">
 			<div class="section-head">
 				<div>
-					<p class="section-kicker">{data.groups.length > 0 ? 'Subcategories' : 'Library'}</p>
+					<SectionKicker
+						class="section-tag"
+						num="03"
+						label={data.groups.length > 0 ? 'SUBCATEGORIES' : 'LIBRARY'}
+					/>
 					<h2>
 						{data.groups.length > 0
 							? `${data.category.label} Subcategories`
@@ -409,7 +479,11 @@
 							<section class="group-card" id={group.slug}>
 								<div class="group-head">
 									<div>
-										<p class="section-kicker">{group.people.length} profiles</p>
+										<SectionKicker
+											tone="dim"
+											class="section-tag"
+											label={`${group.people.length} PROFILES`}
+										/>
 										<h3>{group.label}</h3>
 									</div>
 									<p class="group-copy">{group.description}</p>
@@ -473,11 +547,37 @@
 			{/if}
 		</section>
 
+		{#if faqItems.length > 0}
+			<section class="section faq-section" id="faq" aria-labelledby="faq-heading">
+				<div class="section-head">
+					<div>
+						<SectionKicker class="section-tag" num="04" label="QUESTIONS" />
+						<h2 id="faq-heading">{data.category.label} — FAQ</h2>
+					</div>
+					<p class="section-copy">
+						Quick answers about how this category is built and what the data shows.
+					</p>
+				</div>
+
+				<div class="faq-list">
+					{#each faqItems as faq, index (faq.question)}
+						<details class="faq-item" open={index === 0}>
+							<summary>
+								<span class="faq-question">{faq.question}</span>
+								<span class="faq-toggle" aria-hidden="true">+</span>
+							</summary>
+							<p class="faq-answer">{faq.answer}</p>
+						</details>
+					{/each}
+				</div>
+			</section>
+		{/if}
+
 		{#if data.relatedCategories.length > 0}
 			<section class="section">
 				<div class="section-head">
 					<div>
-						<p class="section-kicker">Adjacent</p>
+						<SectionKicker class="section-tag" num="05" label="ADJACENT" />
 						<h2>Explore Nearby Categories</h2>
 					</div>
 					<p class="section-copy">
@@ -571,14 +671,11 @@
 		align-items: start;
 	}
 
-	.eyebrow,
-	.section-kicker {
-		text-transform: uppercase;
-		letter-spacing: 0.12em;
-		font-size: 0.7rem;
-		font-weight: 700;
-		color: var(--ink-mid);
-		margin: 0 0 0.35rem;
+	/* SectionKicker scoped overrides — give kickers room before headings. */
+	:global(.hero-kicker),
+	:global(.section-tag) {
+		display: block;
+		margin-bottom: 0.45rem;
 	}
 
 	h1,
@@ -649,11 +746,12 @@
 	}
 
 	.corpus-insight-eyebrow {
+		font-family: var(--font-mono);
 		text-transform: uppercase;
-		letter-spacing: 0.12em;
-		font-size: 0.68rem;
-		font-weight: 700;
-		color: var(--ink-mid);
+		letter-spacing: 0.08em;
+		font-size: 12px;
+		font-weight: 500;
+		color: var(--data-teal);
 		margin: 0 0 0.35rem;
 	}
 
@@ -723,6 +821,11 @@
 		justify-content: space-between;
 		gap: 1rem;
 		margin-bottom: 0.9rem;
+	}
+
+	.cluster-nav-title {
+		font-size: 1.25rem;
+		letter-spacing: -0.01em;
 	}
 
 	.cluster-nav-copy {
@@ -1017,6 +1120,90 @@
 			color: var(--ink-bright);
 			font-size: 0.78rem;
 			font-weight: 700;
+		}
+	}
+
+	.seo-intro {
+		margin-top: 0.85rem;
+		max-width: 760px;
+		color: var(--ink-mid);
+		line-height: 1.65;
+		font-size: 0.95rem;
+	}
+
+	.meta-line {
+		margin-top: 0.85rem;
+		display: flex;
+		flex-wrap: wrap;
+		align-items: center;
+		gap: 0.4rem 0.55rem;
+		color: var(--ink-mid);
+		font-size: 0.85rem;
+		line-height: 1.4;
+
+		time {
+			color: var(--ink-bright);
+			font-weight: 600;
+		}
+	}
+
+	.meta-sep {
+		color: var(--ink-mid);
+		opacity: 0.6;
+	}
+
+	.faq-list {
+		display: grid;
+		gap: 0.65rem;
+	}
+
+	.faq-item {
+		border-radius: 1rem;
+		border: 1px solid var(--accent-border);
+		background: var(--surface-card-strong);
+		padding: 0.85rem 1.1rem;
+		box-shadow: var(--shadow-sm);
+
+		summary {
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+			gap: 1rem;
+			cursor: pointer;
+			list-style: none;
+			color: var(--ink-bright);
+			font-weight: 600;
+			line-height: 1.4;
+
+			&::-webkit-details-marker {
+				display: none;
+			}
+		}
+
+		.faq-toggle {
+			display: inline-flex;
+			align-items: center;
+			justify-content: center;
+			width: 1.6rem;
+			height: 1.6rem;
+			border-radius: 999px;
+			background: var(--surface-card);
+			border: 1px solid var(--accent-border);
+			color: var(--ink-bright);
+			font-size: 1rem;
+			font-weight: 600;
+			transition: transform 0.2s ease;
+		}
+
+		&[open] .faq-toggle {
+			transform: rotate(45deg);
+		}
+
+		.faq-answer {
+			margin-top: 0.65rem;
+			color: var(--ink-mid);
+			line-height: 1.65;
+			font-size: 0.95rem;
 		}
 	}
 

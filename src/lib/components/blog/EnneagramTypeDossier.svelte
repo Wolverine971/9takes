@@ -21,12 +21,14 @@
 		harmonic = 'Reactive' as Harmonic,
 		stressLine = null as MovementLine | null,
 		growthLine = null as MovementLine | null,
+		akaArchetypes = null as [string, string] | null,
 		stats = [] as DossierStat[],
 		imageSrc = '/greek_pantheon.webp',
 		imageAlt = '',
 		specimenLine = 'SPECIMEN · BUST · MARBLE · GREECE · UNDATED',
 		ctaHref = '#full-breakdown',
 		ctaLabel = 'Read the full breakdown',
+		showCta = false,
 		lastObserved = ''
 	}: {
 		number?: string;
@@ -41,14 +43,23 @@
 		harmonic?: Harmonic;
 		stressLine?: MovementLine | null;
 		growthLine?: MovementLine | null;
+		akaArchetypes?: [string, string] | null;
 		stats?: DossierStat[];
 		imageSrc?: string;
 		imageAlt?: string;
 		specimenLine?: string;
 		ctaHref?: string;
 		ctaLabel?: string;
+		showCta?: boolean;
 		lastObserved?: string;
 	} = $props();
+
+	const specimenAttributes = $derived(
+		specimenLine
+			.split('·')
+			.map((s) => s.trim())
+			.filter(Boolean)
+	);
 
 	const triadKey = $derived(coreEmotion.toLowerCase());
 
@@ -72,13 +83,8 @@
 <section class="type-dossier">
 	<article class="dossier-card">
 		<div class="dossier-card-top">
-			<span class="mono dossier-id">№ {number} · TYPE {type} · {archetype.toUpperCase()}</span>
-			{#if lastObserved}
-				<span class="mono dossier-status">
-					<span class="status-dot" aria-hidden="true"></span>
-					STATUS: ACTIVE · LAST OBSERVED: {lastObserved}
-				</span>
-			{/if}
+			<span class="mono dossier-id">TYPE {type} · {archetype.toUpperCase()}</span>
+			<span class="mono dossier-triad-tag triad-tag--{triadKey}">{triadName} TRIAD</span>
 		</div>
 
 		<div class="dossier-body">
@@ -96,8 +102,14 @@
 					<div class="corner corner--tr" aria-hidden="true"></div>
 					<div class="corner corner--bl" aria-hidden="true"></div>
 					<div class="corner corner--br" aria-hidden="true"></div>
+					{#if specimenAttributes.length}
+						<ul class="specimen-attributes" aria-label="Specimen attributes">
+							{#each specimenAttributes as attr, i}
+								<li class="mono specimen-attr" style="--i: {i}">{attr}</li>
+							{/each}
+						</ul>
+					{/if}
 				</div>
-				<p class="mono subject-meta">{specimenLine}</p>
 
 				<dl class="dossier-classifications" aria-label="Classifications">
 					<div class="classification-row">
@@ -112,17 +124,25 @@
 			</div>
 
 			<div class="dossier-content">
-				<header class="dossier-header">
-					<h3 class="dossier-title">{title}</h3>
-					<p class="mono dossier-triad-strip triad-strip--{triadKey}">
-						{triadName} TRIAD · {intelligence} · {coreEmotion}
+				{#if akaArchetypes}
+					<p class="dossier-aka">
+						<span class="mono dossier-aka-label">AKA</span>
+						<span class="dossier-aka-value">
+							&ldquo;{akaArchetypes[0]}&rdquo;
+							<span class="dossier-aka-or">or</span>
+							&ldquo;{akaArchetypes[1]}&rdquo;
+						</span>
 					</p>
-				</header>
+				{/if}
 				<p class="mono dossier-core">
 					<span class="dossier-core-label">CORE FEAR</span>
 					<span class="dossier-core-value">{coreFear}</span>
 					<span class="dossier-core-label">CORE DESIRE</span>
 					<span class="dossier-core-value">{coreDesire}</span>
+					<span class="dossier-core-label">INTELLIGENCE</span>
+					<span class="dossier-core-value">{intelligence}</span>
+					<span class="dossier-core-label">CORE EMOTION</span>
+					<span class="dossier-core-value triad-value triad--{triadKey}">{coreEmotion}</span>
 				</p>
 
 				{#if stats.length}
@@ -156,7 +176,7 @@
 					</div>
 				{/if}
 
-				{#if ctaHref && ctaLabel}
+				{#if showCta && ctaHref && ctaLabel}
 					<div class="dossier-cta-row">
 						<a class="dossier-link" href={ctaHref}>
 							{ctaLabel}
@@ -230,18 +250,20 @@
 		color: var(--lamp-glow);
 	}
 
-	.dossier-status {
-		display: inline-flex;
-		align-items: center;
-		gap: 8px;
+	.dossier-triad-tag {
 		color: var(--ink-mid);
+		font-weight: 600;
 
-		.status-dot {
-			width: 7px;
-			height: 7px;
-			border-radius: 50%;
-			background: var(--data-cyan);
-			box-shadow: 0 0 8px rgba(94, 234, 212, 0.6);
+		&.triad-tag--anger {
+			color: var(--lamp-light);
+		}
+
+		&.triad-tag--fear {
+			color: var(--data-cyan);
+		}
+
+		&.triad-tag--shame {
+			color: #f0abfc;
 		}
 	}
 
@@ -328,33 +350,59 @@
 		}
 	}
 
-	.subject-meta {
-		color: var(--ink-mid);
+	.specimen-attributes {
+		position: absolute;
+		inset: 14px;
 		margin: 0;
-		line-height: 1.55;
+		padding: 0;
+		list-style: none;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		pointer-events: none;
+		z-index: 2;
+
+		@media (max-width: 480px) {
+			inset: 10px;
+		}
+	}
+
+	.specimen-attr {
+		font-size: 10px;
+		font-weight: 600;
+		letter-spacing: 0.2em;
+		color: var(--ink-bright);
+		text-shadow:
+			0 1px 4px rgba(10, 8, 7, 0.9),
+			0 0 12px rgba(10, 8, 7, 0.6);
+		padding-left: calc(var(--i, 0) * 6%);
+		opacity: 0.95;
+
+		&::before {
+			content: '·';
+			margin-right: 6px;
+			color: var(--lamp-glow);
+			text-shadow: 0 0 6px rgba(var(--pool-rgb), 0.8);
+		}
 	}
 
 	.dossier-classifications {
-		margin: 4px 0 0;
-		padding: 6px 14px;
+		margin: auto 0 0;
+		padding: 14px 16px;
 		background: var(--night-mid);
 		border: 1px solid var(--stone-mid);
 		border-radius: 6px;
 		display: flex;
 		flex-direction: column;
+		gap: 10px;
 	}
 
 	.classification-row {
 		display: grid;
 		grid-template-columns: minmax(0, 1fr) auto;
-		align-items: baseline;
+		align-items: center;
 		gap: 12px;
-		padding: 10px 0;
-		border-bottom: 1px dashed var(--stone-mid);
-
-		&:last-child {
-			border-bottom: none;
-		}
+		min-height: 26px;
 	}
 
 	.classification-row dt {
@@ -398,39 +446,34 @@
 		min-width: 0;
 	}
 
-	.dossier-header {
+	.dossier-aka {
 		display: flex;
-		flex-direction: column;
-		gap: 6px;
+		align-items: baseline;
+		flex-wrap: wrap;
+		gap: 10px 14px;
+		margin: 0;
+		padding-bottom: 8px;
 	}
 
-	.dossier-title {
-		font-family: var(--font-display);
-		font-weight: 700;
-		font-size: clamp(28px, 4vw, 40px);
-		line-height: 1.05;
-		letter-spacing: -0.02em;
-		color: var(--ink-bright);
-		margin: 0;
-	}
-
-	.dossier-triad-strip {
-		margin: 0;
+	.dossier-aka-label {
+		color: var(--ink-dim);
 		font-size: 11px;
-		letter-spacing: 0.12em;
-		color: var(--ink-mid);
 	}
 
-	.dossier-triad-strip.triad-strip--anger {
-		color: var(--lamp-light);
+	.dossier-aka-value {
+		font-family: var(--font-display);
+		font-size: clamp(18px, 2.2vw, 22px);
+		font-weight: 600;
+		line-height: 1.25;
+		letter-spacing: -0.01em;
+		color: var(--ink-bright);
 	}
 
-	.dossier-triad-strip.triad-strip--fear {
-		color: var(--data-cyan);
-	}
-
-	.dossier-triad-strip.triad-strip--shame {
-		color: #f0abfc;
+	.dossier-aka-or {
+		color: var(--ink-dim);
+		font-weight: 400;
+		font-style: italic;
+		margin: 0 2px;
 	}
 
 	.dossier-core {
@@ -518,10 +561,11 @@
 	}
 
 	.dossier-movement {
-		display: grid;
-		grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-		gap: 10px 18px;
+		display: flex;
+		flex-direction: column;
+		gap: 10px;
 		padding: 14px 16px;
+		margin-top: auto;
 		background: var(--night-mid);
 		border: 1px solid var(--stone-mid);
 		border-radius: 6px;
@@ -652,6 +696,13 @@
 			background:
 				radial-gradient(ellipse at 30% 25%, rgba(var(--pool-rgb), 0.06) 0%, transparent 60%),
 				linear-gradient(135deg, transparent 60%, rgba(180, 83, 9, 0.05) 100%);
+		}
+
+		.specimen-attr {
+			color: #faf8f4;
+			text-shadow:
+				0 1px 3px rgba(28, 25, 23, 0.85),
+				0 0 10px rgba(28, 25, 23, 0.6);
 		}
 
 		.status-dot {

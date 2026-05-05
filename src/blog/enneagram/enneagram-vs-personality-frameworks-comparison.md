@@ -52,7 +52,7 @@ The Enneagram is not unstudied. [Hook et al. (2021)](https://pubmed.ncbi.nlm.nih
 
 **75% classification accuracy.** [Brown & Bartram (2005)](https://www.researchgate.net/publication/253435630_Relationships_between_OPQ_and_Enneagram_Types) found that Enneagram types could be predicted from Big Five personality profiles with approximately 75% accuracy, where random chance would produce 11%. The nine types showed Big Five profiles exactly matching theoretical predictions: Type 8 most extraverted, Type 5 most introverted, Type 1 highest conscientiousness. If the types were meaningless, this wouldn't happen.
 
-**Strong psychometrics from newer instruments.** The iEQ9, tested on [5,910 participants](https://www.integrative9.com/media/articles/35/testing-the-ieq9-reliability-and-validity), showed all nine scales above the 0.70 reliability threshold — the standard for psychological instruments. Both exploratory and IRT factor analyses yielded nine-factor solutions mapping to the predicted types. This doesn't mean the Enneagram is fully validated, but it means a well-built instrument can measure the nine types reliably.
+**Strong psychometrics from newer instruments.** The iEQ9, tested on 5,910 participants, showed all nine scales above the 0.70 reliability threshold — the standard for psychological instruments. Both exploratory and IRT factor analyses yielded nine-factor solutions mapping to the predicted types. This doesn't mean the Enneagram is fully validated, but it means a well-built instrument can measure the nine types reliably.
 
 **Solid test-retest reliability.** The RHETI (the most widely used Enneagram test) averages [82.1% test-retest reliability](https://www.researchgate.net/publication/289724121_The_Riso-Hudson_Enneagram_Type_Indicator_Estimates_of_Reliability_and_Validity) across types, with 87% correlation between test results and self-reported type.
 
@@ -185,7 +185,7 @@ This integration is both the Enneagram's greatest strength and its greatest vuln
 
 **Against the Big Five, it's not close.** ~50,000 peer-reviewed studies vs. ~137. The Big Five was empirically derived from data; the Enneagram was theoretically created from a framework. The Big Five predicts job performance, health, relationships, and lifespan. The Enneagram doesn't predict anything measurable (yet). On pure scientific standing, the Big Five is the gold standard, and the Enneagram is a developing hypothesis.
 
-**Reliability is respectable but not elite.** Big Five instruments hit alpha values of 0.86-0.92. The best Enneagram instrument (iEQ9) hits [0.73-0.84](https://www.integrative9.com/media/articles/35/testing-the-ieq9-reliability-and-validity). That clears the 0.70 threshold, but the gap matters.
+**Reliability is respectable but not elite.** Big Five instruments hit alpha values of 0.86-0.92. The best Enneagram instrument (iEQ9) hits 0.73-0.84. That clears the 0.70 threshold, but the gap matters.
 
 **The MBTI comparison cuts both ways.** Enneagram advocates love pointing out that MBTI has worse psychometrics: [35% get a different type on retest](https://pubmed.ncbi.nlm.nih.gov/33332604/), and [ClearerThinking.org](https://www.clearerthinking.org/post/how-accurate-are-popular-personality-test-frameworks-at-predicting-life-outcomes-a-detailed-investi) found it adds zero predictive power beyond the Big Five. That's all true. But "better than MBTI" is a low bar. Academic psychologists already consider MBTI questionable, and beating it doesn't earn you scientific credibility.
 

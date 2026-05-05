@@ -30,11 +30,16 @@ export const load: PageServerLoad = async ({ locals }) => {
 
 	// Store objects of unique types
 	const uniqueObjects: PersonPost[] = [];
+	const typeCounts: Record<string, number> = {};
 
 	// Iterate through unique types
 	uniqueTypes.forEach((enneagram) => {
 		// Find objects with current type
 		const objectsWithType = posts.filter((obj) => obj.enneagram === enneagram);
+
+		if (enneagram) {
+			typeCounts[enneagram] = objectsWithType.length;
+		}
 
 		// Sort objects by date_created
 		objectsWithType.sort(
@@ -42,8 +47,8 @@ export const load: PageServerLoad = async ({ locals }) => {
 				new Date(b.lastmod ?? b.date ?? 0).getTime() - new Date(a.lastmod ?? a.date ?? 0).getTime()
 		);
 
-		// Push first 3 objects to uniqueObjects
-		uniqueObjects.push(...objectsWithType.slice(0, 5));
+		// Push first 6 objects (two clean rows of 3) to uniqueObjects
+		uniqueObjects.push(...objectsWithType.slice(0, 6));
 	});
 
 	const sortedByLastmod = [...posts].sort(
@@ -52,9 +57,15 @@ export const load: PageServerLoad = async ({ locals }) => {
 	);
 	const featured = sortedByLastmod.slice(0, 2);
 	const featuredSlugs = new Set(featured.map((p) => p.slug));
-	const recentlyUpdated = sortedByLastmod.filter((p) => !featuredSlugs.has(p.slug)).slice(0, 4);
+	const recentlyUpdated = sortedByLastmod.filter((p) => !featuredSlugs.has(p.slug)).slice(0, 6);
 
-	return { people: uniqueObjects, featured, recentlyUpdated, totalPeople: posts.length };
+	return {
+		people: uniqueObjects,
+		featured,
+		recentlyUpdated,
+		totalPeople: posts.length,
+		typeCounts
+	};
 };
 
 export const actions: Actions = {

@@ -1,14 +1,14 @@
 <!-- src/lib/components/blog/EnneagramCategoryIntro.svelte -->
 <script lang="ts">
-	import BlogPageHead from './BlogPageHead.svelte';
 	import FAQSection from './FAQSection.svelte';
 	import type { FAQItem } from '$lib/types/faq';
-	import { buildFAQSchema } from '$lib/utils/schema';
 
-	export let subsection: string;
-	export let blogs: any;
+	interface Props {
+		subsection: string;
+		blogs: App.BlogPost[];
+	}
 
-	const slug = `enneagram-corner/subtopic/${subsection}`;
+	let { subsection, blogs }: Props = $props();
 
 	// Section metadata for consistent SEO and display
 	const sectionMeta: Record<
@@ -18,7 +18,6 @@
 			seoTitle: string;
 			description: string;
 			pic: string;
-			lastmod: string;
 		}
 	> = {
 		overview: {
@@ -26,56 +25,49 @@
 			seoTitle: 'Master the Enneagram: The Complete Psychology Framework | 9takes',
 			description:
 				'Discover why millions use the Enneagram to decode human behavior. From childhood wounds to adult patterns, master the system that transforms self-understanding.',
-			pic: '',
-			lastmod: '2025-08-15'
+			pic: 'nine-greek-statues-having-a-conversation-with-their-wings'
 		},
 		'nine-types': {
 			title: '9 Types of Human Nature (And How to Read Each One)',
 			seoTitle: 'The 9 Enneagram Types Explained: Core Fears, Desires & Patterns | 9takes',
 			description:
 				'Each type operates on a different emotional frequency. Learn the core fears, desires, and blind spots driving behavior, yours and everyone around you.',
-			pic: 's-greek-statues-working-in-teams',
-			lastmod: '2025-08-15'
+			pic: 'greek-statues-working-in-teams'
 		},
 		development: {
 			title: 'Know Your Pattern. Break Your Pattern.',
 			seoTitle: 'Enneagram Personal Development: Growth Strategies by Type | 9takes',
 			description:
 				'Your type runs the show until you see it. Discover type-specific growth paths, blind spots to watch, and the exact practices that create lasting change.',
-			pic: 'Self-awareness-and-Self-understanding',
-			lastmod: '2025-08-15'
+			pic: 'Self-awareness-and-Self-understanding'
 		},
 		relationships: {
 			title: 'Why They Do That (A Relationship Decoder)',
 			seoTitle: 'Enneagram Relationship Guide: Communication, Conflict & Connection | 9takes',
 			description:
 				'Stop taking it personally. Their reactions reflect their type, not you. Learn to read relationship dynamics and communicate in ways that actually land.',
-			pic: 'greek-statues-having-an-intimate-conversation',
-			lastmod: '2025-08-15'
+			pic: 'greek-statues-having-an-intimate-conversation'
 		},
 		workplace: {
 			title: 'Read the Room, Run the Room',
 			seoTitle: 'Enneagram at Work: Leadership, Teams & Communication Styles | 9takes',
 			description:
 				'Every office runs on type dynamics. Learn to spot types in meetings, decode what motivates your team, and navigate workplace politics with precision.',
-			pic: 'greek-statues-disagreeing',
-			lastmod: '2025-08-15'
+			pic: 'greek-statues-disagreeing'
 		},
 		resources: {
 			title: 'Curated Enneagram Resources (We Vetted Everything)',
 			seoTitle: 'Essential Enneagram Resources: Tools, Tests & Training | 9takes',
 			description:
 				'Skip the noise. Access vetted Enneagram tests, books, tools, and training programs. Curated for serious students of personality psychology.',
-			pic: 'greek-dude-reading-book',
-			lastmod: '2025-08-15'
+			pic: 'greek-dude-reading-book'
 		},
 		situational: {
 			title: 'The Types in the Wild: Real Situations, Real Behaviors',
 			seoTitle: 'Real-World Type Behaviors: How Each Type Actually Shows Up | 9takes',
 			description:
 				'See the types in action. From first dates to job interviews, from parties to crises, understand exactly how each type behaves when it counts.',
-			pic: 'greek-statue-flex',
-			lastmod: '2025-08-15'
+			pic: 'greek-statue-flex'
 		}
 	};
 
@@ -370,10 +362,100 @@
 		]
 	};
 
-	$: meta = sectionMeta[subsection] || sectionMeta.overview;
-	$: links = relatedLinks[subsection] || relatedLinks.overview;
-	$: faqs = sectionFAQs[subsection] || sectionFAQs.overview;
-	$: faqSchema = JSON.stringify(buildFAQSchema(faqs));
+	let meta = $derived(sectionMeta[subsection] || sectionMeta.overview);
+	let links = $derived(relatedLinks[subsection] || relatedLinks.overview);
+	let faqs = $derived(sectionFAQs[subsection] || sectionFAQs.overview);
+
+	const canonicalUrl = $derived(`https://9takes.com/enneagram-corner/subtopic/${subsection}`);
+	const shareImage = $derived(
+		meta.pic ? `https://9takes.com/blogs/${meta.pic}.webp` : 'https://9takes.com/brand/aero.png'
+	);
+	const shareImageAlt = $derived(meta.pic ? meta.pic.split('-').join(' ') : meta.title);
+
+	// Pull the freshest lastmod from child blogs so freshness signal is real, not hardcoded.
+	const dateModified = $derived.by(() => {
+		const candidates = (blogs || [])
+			.map((b) => b.lastmod || b.date)
+			.filter((d): d is string => Boolean(d));
+		if (!candidates.length) return new Date().toISOString().slice(0, 10);
+		return candidates.sort().reverse()[0];
+	});
+
+	const breadcrumbItems = $derived([
+		{ name: 'Home', url: 'https://9takes.com/' },
+		{ name: 'Enneagram Corner', url: 'https://9takes.com/enneagram-corner' },
+		{ name: meta.title, url: canonicalUrl }
+	]);
+
+	const jsonldGraph = $derived([
+		{
+			'@type': 'CollectionPage',
+			'@id': `${canonicalUrl}#webpage`,
+			url: canonicalUrl,
+			name: meta.seoTitle,
+			headline: meta.title,
+			description: meta.description,
+			inLanguage: 'en-US',
+			dateModified,
+			isPartOf: {
+				'@type': 'Blog',
+				name: '9takes Enneagram Corner',
+				url: 'https://9takes.com/enneagram-corner'
+			},
+			about: {
+				'@type': 'Thing',
+				name: 'Enneagram',
+				sameAs: 'https://en.wikipedia.org/wiki/Enneagram_of_Personality'
+			},
+			publisher: {
+				'@type': 'Organization',
+				name: '9takes',
+				logo: {
+					'@type': 'ImageObject',
+					url: 'https://9takes.com/brand/aero.png'
+				},
+				sameAs: ['https://www.instagram.com/9takesdotcom/', 'https://twitter.com/9takesdotcom']
+			},
+			image: {
+				'@type': 'ImageObject',
+				url: shareImage
+			},
+			mainEntity: {
+				'@type': 'ItemList',
+				numberOfItems: blogs?.length ?? 0,
+				itemListElement: (blogs ?? []).map((b, i) => ({
+					'@type': 'ListItem',
+					position: i + 1,
+					url: `https://9takes.com/enneagram-corner/${b.slug}`,
+					name: b.title,
+					...(b.description ? { description: b.description } : {})
+				}))
+			}
+		},
+		{
+			'@type': 'BreadcrumbList',
+			'@id': `${canonicalUrl}#breadcrumb`,
+			itemListElement: breadcrumbItems.map((item, i) => ({
+				'@type': 'ListItem',
+				position: i + 1,
+				name: item.name,
+				item: item.url
+			}))
+		},
+		{
+			'@type': 'FAQPage',
+			'@id': `${canonicalUrl}#faq`,
+			mainEntity: faqs.map((faq) => ({
+				'@type': 'Question',
+				name: faq.question,
+				acceptedAnswer: { '@type': 'Answer', text: faq.answer }
+			}))
+		}
+	]);
+
+	const jsonld = $derived(
+		JSON.stringify({ '@context': 'https://schema.org', '@graph': jsonldGraph })
+	);
 
 	function formatBlogSlug(title: string) {
 		return title.toLowerCase().replace(/[^a-zA-Z0-9]/g, '');
@@ -381,29 +463,51 @@
 </script>
 
 <svelte:head>
-	{@html `<script type="application/ld+json">${faqSchema}</script>`}
+	<title>{meta.seoTitle}</title>
+	<link rel="canonical" href={canonicalUrl} />
+	<link rel="alternate" href={canonicalUrl} hreflang="en-US" />
+	<link rel="alternate" href={canonicalUrl} hreflang="x-default" />
+	<meta name="description" content={meta.description} />
+	<meta
+		name="robots"
+		content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+	/>
+	<meta name="author" content="DJ Wayne" />
+
+	<meta property="og:site_name" content="9takes" />
+	<meta property="og:title" content={meta.title} />
+	<meta property="og:description" content={meta.description} />
+	<meta property="og:type" content="website" />
+	<meta property="og:url" content={canonicalUrl} />
+	<meta property="og:image" content={shareImage} />
+	<meta property="og:image:alt" content={shareImageAlt} />
+	<meta property="og:locale" content="en_US" />
+
+	<meta name="twitter:site" content="@9takesdotcom" />
+	<meta name="twitter:creator" content="@djwayne3" />
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:title" content={meta.title} />
+	<meta name="twitter:description" content={meta.description} />
+	<meta name="twitter:url" content={canonicalUrl} />
+	<meta name="twitter:image" content={shareImage} />
+	<meta name="twitter:image:alt" content={shareImageAlt} />
+
+	{@html `<script type="application/ld+json">${jsonld}</script>`}
 </svelte:head>
 
-<BlogPageHead
-	data={{
-		title: meta.seoTitle,
-		description: meta.description,
-		slug: slug,
-		author: 'DJ Wayne',
-		date: '2024-05-09',
-		loc: `https://9takes.com/enneagram-corner/subtopic/${subsection}`,
-		lastmod: meta.lastmod,
-		changefreq: 'monthly',
-		priority: '0.7',
-		published: true,
-		blog: true,
-		pic: meta.pic
-	}}
-	{slug}
-/>
+<nav class="breadcrumbs" aria-label="Breadcrumb">
+	<ol>
+		<li><a href="/">Home</a></li>
+		<li aria-hidden="true">/</li>
+		<li><a href="/enneagram-corner">Enneagram Corner</a></li>
+		<li aria-hidden="true">/</li>
+		<li aria-current="page">{meta.title}</li>
+	</ol>
+</nav>
 
 <header class="hero">
 	<h1>{meta.title}</h1>
+	<p class="hero-tagline">{meta.description}</p>
 </header>
 
 <main class="main-content">
@@ -431,11 +535,14 @@
 						href="/enneagram-corner/{eBlog.slug}"
 						class="blog-card"
 						class:has-image={eBlog.pic}
+						aria-label={eBlog.title}
 						data-tag={`h-blog-${formatBlogSlug(eBlog.title)}`}
 					>
 						{#if eBlog.pic}
 							<div
 								class="card-image"
+								role="img"
+								aria-label={eBlog.pic.split('-').join(' ')}
 								style={`background-image: url(/blogs/s-${eBlog.pic}.webp);`}
 							></div>
 						{/if}
@@ -489,11 +596,14 @@
 						href="/enneagram-corner/{eBlog.slug}"
 						class="blog-card"
 						class:has-image={eBlog.pic}
+						aria-label={eBlog.title}
 						data-tag={`h-blog-${formatBlogSlug(eBlog.title)}`}
 					>
 						{#if eBlog.pic}
 							<div
 								class="card-image"
+								role="img"
+								aria-label={eBlog.pic.split('-').join(' ')}
 								style={`background-image: url(/blogs/s-${eBlog.pic}.webp);`}
 							></div>
 						{/if}
@@ -545,11 +655,14 @@
 						href="/enneagram-corner/{eBlog.slug}"
 						class="blog-card"
 						class:has-image={eBlog.pic}
+						aria-label={eBlog.title}
 						data-tag={`h-blog-${formatBlogSlug(eBlog.title)}`}
 					>
 						{#if eBlog.pic}
 							<div
 								class="card-image"
+								role="img"
+								aria-label={eBlog.pic.split('-').join(' ')}
 								style={`background-image: url(/blogs/s-${eBlog.pic}.webp);`}
 							></div>
 						{/if}
@@ -603,11 +716,14 @@
 						href="/enneagram-corner/{eBlog.slug}"
 						class="blog-card"
 						class:has-image={eBlog.pic}
+						aria-label={eBlog.title}
 						data-tag={`h-blog-${formatBlogSlug(eBlog.title)}`}
 					>
 						{#if eBlog.pic}
 							<div
 								class="card-image"
+								role="img"
+								aria-label={eBlog.pic.split('-').join(' ')}
 								style={`background-image: url(/blogs/s-${eBlog.pic}.webp);`}
 							></div>
 						{/if}
@@ -661,11 +777,14 @@
 						href="/enneagram-corner/{eBlog.slug}"
 						class="blog-card"
 						class:has-image={eBlog.pic}
+						aria-label={eBlog.title}
 						data-tag={`h-blog-${formatBlogSlug(eBlog.title)}`}
 					>
 						{#if eBlog.pic}
 							<div
 								class="card-image"
+								role="img"
+								aria-label={eBlog.pic.split('-').join(' ')}
 								style={`background-image: url(/blogs/s-${eBlog.pic}.webp);`}
 							></div>
 						{/if}
@@ -714,11 +833,14 @@
 						href="/enneagram-corner/{eBlog.slug}"
 						class="blog-card"
 						class:has-image={eBlog.pic}
+						aria-label={eBlog.title}
 						data-tag={`h-blog-${formatBlogSlug(eBlog.title)}`}
 					>
 						{#if eBlog.pic}
 							<div
 								class="card-image"
+								role="img"
+								aria-label={eBlog.pic.split('-').join(' ')}
 								style={`background-image: url(/blogs/s-${eBlog.pic}.webp);`}
 							></div>
 						{/if}
@@ -768,11 +890,14 @@
 						href="/enneagram-corner/{eBlog.slug}"
 						class="blog-card"
 						class:has-image={eBlog.pic}
+						aria-label={eBlog.title}
 						data-tag={`h-blog-${formatBlogSlug(eBlog.title)}`}
 					>
 						{#if eBlog.pic}
 							<div
 								class="card-image"
+								role="img"
+								aria-label={eBlog.pic.split('-').join(' ')}
 								style={`background-image: url(/blogs/s-${eBlog.pic}.webp);`}
 							></div>
 						{/if}
@@ -821,6 +946,53 @@
 <style lang="scss">
 	/* 9takes Warm Tech Theme */
 
+	/* Breadcrumbs */
+	.breadcrumbs {
+		max-width: 1200px;
+		margin: 0 auto;
+		padding: 1.25rem 1.5rem 0;
+
+		ol {
+			display: flex;
+			flex-wrap: wrap;
+			gap: 0.5rem;
+			align-items: center;
+			list-style: none;
+			margin: 0;
+			padding: 0;
+			font-size: 0.8125rem;
+			color: var(--ink-dim);
+		}
+
+		li {
+			display: inline-flex;
+			align-items: center;
+		}
+
+		li[aria-hidden='true'] {
+			color: var(--ink-dim);
+			opacity: 0.5;
+		}
+
+		li[aria-current='page'] {
+			color: var(--ink-mid);
+			max-width: 60ch;
+			overflow: hidden;
+			text-overflow: ellipsis;
+			white-space: nowrap;
+		}
+
+		a {
+			color: var(--ink-dim);
+			text-decoration: none;
+			transition: color 0.2s ease;
+
+			&:hover {
+				color: var(--lamp-glow);
+			}
+		}
+	}
+
 	/* Hero Section */
 	.hero {
 		max-width: 1200px;
@@ -857,6 +1029,14 @@
 		-webkit-background-clip: text;
 		-webkit-text-fill-color: transparent;
 		background-clip: text;
+	}
+
+	.hero-tagline {
+		max-width: 720px;
+		margin: 1rem auto 0;
+		font-size: 1rem;
+		line-height: 1.6;
+		color: var(--ink-mid);
 	}
 
 	/* Main Content */
@@ -1172,6 +1352,23 @@
 	}
 
 	@media (max-width: 640px) {
+		.breadcrumbs {
+			padding: 1rem 1rem 0;
+
+			ol {
+				font-size: 0.75rem;
+			}
+
+			li[aria-current='page'] {
+				max-width: 24ch;
+			}
+		}
+
+		.hero-tagline {
+			font-size: 0.9375rem;
+			padding: 0 0.5rem;
+		}
+
 		.hero {
 			padding: 1.5rem 1rem 1rem;
 		}

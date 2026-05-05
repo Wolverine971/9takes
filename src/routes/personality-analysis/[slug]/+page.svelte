@@ -469,7 +469,7 @@
 				<div class="case-file-kicker">
 					<SectionKicker
 						num={dossierNum}
-						label={`TYPE ${typeNum ?? '—'} · ${personaUpper || 'CASE FILE'}`}
+						label={`TYPE ${typeNum ?? '—'} · ${typeNameUpper || 'CASE FILE'}`}
 					/>
 				</div>
 
@@ -477,33 +477,19 @@
 					<h1 id="case-file-name" class="case-file-name">{postDisplayName}</h1>
 				{/key}
 
-				{#if personaTitle || typeName}
-					<p class="case-file-persona mono">
-						{#if personaTitle}
-							THE {personaTitle.toUpperCase()}
-						{:else if typeName}
-							{typeName.toUpperCase()}
-						{/if}
-						<span class="case-file-persona-sep">·</span>
-						<span class="case-file-persona-num">STUDY №.{dossierNum}</span>
-					</p>
-				{/if}
-
 				{#if postMeta.description}
 					<p class="case-file-subhead">
 						{postMeta.description}
 					</p>
 				{/if}
 
-				<div class="case-file-coords mono">
-					{#if observedDate}LAST OBSERVED: {observedDate}{/if}
-					{#if observedDate && (wordCountLabel || timeRequiredLabel)}<span
-							class="case-file-coord-sep">·</span
-						>{/if}
-					{#if wordCountLabel}{wordCountLabel}{/if}
-					{#if wordCountLabel && timeRequiredLabel}<span class="case-file-coord-sep">·</span>{/if}
-					{#if timeRequiredLabel}{timeRequiredLabel}{/if}
-				</div>
+				{#if wordCountLabel || timeRequiredLabel}
+					<div class="case-file-coords mono">
+						{#if wordCountLabel}{wordCountLabel}{/if}
+						{#if wordCountLabel && timeRequiredLabel}<span class="case-file-coord-sep">·</span>{/if}
+						{#if timeRequiredLabel}{timeRequiredLabel}{/if}
+					</div>
+				{/if}
 
 				<!-- Preserved: legacy ArticleTitle + ArticleSubTitle still render
 				     for structured data + author/date attribution; visually demoted
@@ -538,7 +524,17 @@
 					<div class="portrait-corner portrait-corner--bl" aria-hidden="true"></div>
 					<div class="portrait-corner portrait-corner--br" aria-hidden="true"></div>
 					<div class="portrait-mono">
-						<span class="mono">9TAKES · CASE FILE №.{dossierNum}</span>
+						<!-- <span class="mono">9TAKES · CASE FILE №.{dossierNum}</span> -->
+
+						{#if personaTitle || typeName}
+							<span class="mono">
+								{#if personaTitle}
+									{personaTitle.toUpperCase()}
+								{:else if typeName}
+									{typeName.toUpperCase()}
+								{/if}
+							</span>
+						{/if}
 					</div>
 				</div>
 			</aside>
@@ -551,10 +547,6 @@
 	  ===================================================================== -->
 	<section class="breakdown">
 		<div class="breakdown-inner">
-			<div class="breakdown-kicker">
-				<SectionKicker num="02" label="BREAKDOWN" />
-			</div>
-
 			<TableOfContents
 				{contentStore}
 				headings={data.headings}
@@ -771,23 +763,6 @@
 		text-wrap: balance;
 	}
 
-	.case-file-persona {
-		color: var(--data-teal);
-		display: flex;
-		flex-wrap: wrap;
-		align-items: center;
-		gap: 8px;
-		margin: 0;
-
-		.case-file-persona-sep {
-			color: var(--ink-dim);
-		}
-
-		.case-file-persona-num {
-			color: var(--ink-dim);
-		}
-	}
-
 	.case-file-subhead {
 		font-family: var(--font-display);
 		font-size: 18px;
@@ -1000,15 +975,6 @@
 	.breakdown-inner {
 		max-width: 880px;
 		margin: 0 auto;
-	}
-
-	.breakdown-kicker {
-		text-align: center;
-		margin-bottom: 32px;
-
-		:global(.kicker) {
-			color: var(--lamp-glow);
-		}
 	}
 
 	.article-body {

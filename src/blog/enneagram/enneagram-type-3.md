@@ -1,5 +1,5 @@
 ---
-title: 'Enneagram Type 3: The Achiever - When Success Becomes Identity'
+title: 'Enneagram Type 3: Achiever - Success Becomes Identity'
 meta_title: 'When Success Becomes Your Prison (Type 3 Achievement Addiction)'
 description: "Can't stop achieving even when you're exhausted? That's Type 3. Learn why success feels like a trap, why you can't slow down, and what you're really running from."
 author: 'DJ Wayne'
@@ -11,7 +11,7 @@ priority: '0.7'
 published: true
 type: ['nine-types']
 blog: true
-pic: ''
+pic: 'enneagram-type-3-dossier'
 path: src/blog/enneagram/enneagram-type-3.md
 quality_grade: 'B+'
 quality_score: 8.8
@@ -45,13 +45,8 @@ type-3-mask-and-laurel
     import PopCard from "$lib/components/atoms/PopCard.svelte";
     import VisualMetaphor from "$lib/components/blog/callouts/VisualMetaphor.svelte";
     import QuickAnswer from "$lib/components/blog/callouts/QuickAnswer.svelte";
-    import EnneagramTypeDossier from "$lib/components/blog/EnneagramTypeDossier.svelte";
-    import { enneagramTypeProfiles } from "$lib/data/enneagramTypeProfiles";
 
-    const dossier = enneagramTypeProfiles[3];
 </script>
-
-<EnneagramTypeDossier {...dossier} />
 
 <QuickAnswer question="Why does success feel like a prison for Type 3s?">
 You learned early that achievement equals love. Your worth fused with your accomplishments, and now each win satisfies a little less than the last. You need bigger achievements to feel the same validation. You can't stop because stopping feels like disappearing. This isn't ambition. It's survival. Behind every goal you chase sits a question you rarely ask: "If I stop performing, will anyone love who I actually am?"

@@ -14,6 +14,8 @@
 		ogImageWidth?: number;
 		ogImageHeight?: number;
 		twitterImage?: string;
+		twitterImageWidth?: number;
+		twitterImageHeight?: number;
 		twitterCardType?: 'summary' | 'summary_large_image';
 		twitterCreator?: string;
 		ogType?: string;
@@ -34,6 +36,8 @@
 		ogImageWidth = 1200,
 		ogImageHeight = 628,
 		twitterImage: providedTwitterImage,
+		twitterImageWidth: providedTwitterImageWidth,
+		twitterImageHeight: providedTwitterImageHeight,
 		twitterCardType = 'summary_large_image',
 		twitterCreator = '@djwayne3',
 		ogType = 'website',
@@ -48,6 +52,8 @@
 
 	const TITLE_SUFFIX = ' - 9takes';
 	let twitterImage = $derived(providedTwitterImage ?? ogImage);
+	let twitterImageWidth = $derived(providedTwitterImageWidth ?? ogImageWidth);
+	let twitterImageHeight = $derived(providedTwitterImageHeight ?? ogImageHeight);
 	let computedTwitterImageAlt = $derived(
 		twitterImageAlt || (title ? `9takes - ${title.replace(TITLE_SUFFIX, '')}` : '9takes')
 	);
@@ -91,6 +97,8 @@
 	<meta name="twitter:title" content={title} />
 	<meta name="twitter:description" content={description} />
 	<meta name="twitter:image" content={twitterImage} />
+	<meta name="twitter:image:width" content={String(twitterImageWidth)} />
+	<meta name="twitter:image:height" content={String(twitterImageHeight)} />
 	<meta name="twitter:image:alt" content={computedTwitterImageAlt} />
 
 	<!-- Additional Meta Tags -->

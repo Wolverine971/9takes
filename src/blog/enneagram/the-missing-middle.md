@@ -130,7 +130,7 @@ The Medicalization Trap
 When the only framework that validates your experience is clinical, you start seeing yourself through a clinical lens. And that lens comes with costs.
 </p>
 <p>
-A <a href="https://investor.lifestance.com/news-releases/news-release-details/lifestance-survey-finds-nearly-one-third-americans-use-social/" class="font-semibold text-primary-700 dark:text-primary-400 underline" target="_blank" rel="noopener">2025 survey</a> found that 50% of Gen Z has self-diagnosed a mental health condition based on social media content. That's not 50% being reckless — that's 50% searching for a framework and only finding clinical ones.
+A <a href="https://lifestance.com/insight/social-media-mental-health-impact-statistics-2025/" class="font-semibold text-primary-700 dark:text-primary-400 underline" target="_blank" rel="noopener">2025 survey</a> found that 50% of Gen Z has self-diagnosed a mental health condition based on social media content. That's not 50% being reckless — that's 50% searching for a framework and only finding clinical ones.
 </p>
 <p>
 Here's what happens when you adopt a clinical label that doesn't actually fit:

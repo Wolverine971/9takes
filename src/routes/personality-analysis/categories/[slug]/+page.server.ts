@@ -3,6 +3,7 @@ import { error } from '@sveltejs/kit';
 import type { PageServerLoad } from './$types';
 import { getPersonalityCategoryBySlug } from '$lib/personalityCategories';
 import {
+	getEarliestCategoryDate,
 	getEnneagramDistribution,
 	getLatestCategoryDate,
 	getPersonalityCategoryGroups,
@@ -38,6 +39,7 @@ export const load: PageServerLoad = async ({ locals, params }) => {
 	);
 	const featured = people.slice(0, 4);
 	const latestUpdate = getLatestCategoryDate(people);
+	const earliestPublish = getEarliestCategoryDate(people);
 	const distribution = getEnneagramDistribution(people);
 	const groups = getPersonalityCategoryGroups(category.slug, people);
 	const corpusStats = getPersonalityCategoryStats(category.slug);
@@ -61,6 +63,7 @@ export const load: PageServerLoad = async ({ locals, params }) => {
 		featured,
 		distribution,
 		latestUpdate,
+		earliestPublish,
 		relatedCategories,
 		corpusStats
 	};

@@ -76,14 +76,6 @@
 	// ------------------------------------------------------------------
 	// Helpers — mirror /enneagram-corner for visual consistency.
 	// ------------------------------------------------------------------
-	function fileNumber(seed: string, index: number): string {
-		let h = 0;
-		for (let i = 0; i < seed.length; i++) {
-			h = (h * 31 + seed.charCodeAt(i)) | 0;
-		}
-		return String((Math.abs(h) + index * 17 + 25) % 10000).padStart(4, '0');
-	}
-
 	function getRecencyLabel(lastmod: string | null, date: string | null): string | null {
 		const ref = lastmod ?? date;
 		if (!ref) return null;
@@ -176,10 +168,6 @@
 					<span class="tick"></span>
 				</div>
 
-				<p class="mono coords">
-					LAT 37.9755° N · LONG 23.7348° E · ATHENS · {publishedCount} GUIDES
-				</p>
-
 				<p class="hero-subhead hero-subhead-line-1">
 					Step-by-step playbooks for using the Enneagram in real situations &mdash; conflict,
 					dating, work, family.
@@ -245,9 +233,7 @@
 							{/if}
 						</div>
 						<div class="case-card-body">
-							<span class="mono case-id">
-								№ {fileNumber(post.slug, i)} · {topic}
-							</span>
+							<span class="mono case-id">{topic}</span>
 							<h3 class="case-name case-name--featured">{post.title}</h3>
 							{#if post.description}
 								<p class="case-subtitle case-subtitle--featured">{post.description}</p>
@@ -301,9 +287,7 @@
 							{/if}
 						</div>
 						<div class="case-card-body">
-							<span class="mono case-id">
-								№ {fileNumber(post.slug, i)} · {topic}
-							</span>
+							<span class="mono case-id">{topic}</span>
 							<h3 class="case-name">{post.title}</h3>
 							{#if post.description}
 								<p class="case-subtitle">{post.description}</p>
@@ -369,9 +353,7 @@
 								{/if}
 							</div>
 							<div class="case-card-body">
-								<span class="mono case-id">
-									№ {fileNumber(post.slug, i)} · GUIDE
-								</span>
+								<span class="mono case-id">GUIDE</span>
 								<h3 class="case-name">{post.title}</h3>
 								{#if post.description}
 									<p class="case-subtitle">{post.description}</p>
@@ -607,11 +589,6 @@
 		}
 	}
 
-	.coords {
-		color: var(--ink-dim);
-		margin-bottom: 28px;
-	}
-
 	.hero-subhead {
 		font-family: var(--font-display);
 		font-size: 18px;
@@ -734,15 +711,7 @@
 	}
 
 	.case-grid--four {
-		grid-template-columns: repeat(4, 1fr);
-
-		@media (max-width: 1024px) {
-			grid-template-columns: repeat(2, 1fr);
-		}
-
-		@media (max-width: 480px) {
-			grid-template-columns: 1fr;
-		}
+		grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
 	}
 
 	.case-card {

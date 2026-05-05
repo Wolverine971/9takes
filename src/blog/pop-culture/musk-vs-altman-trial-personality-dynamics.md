@@ -12,7 +12,7 @@ published: true
 type: ['situational']
 blog: true
 previewHtml: ''
-pic: 'musk-vs-altman-trial-composite'
+pic: 'musk-vs-altman-trial-personality-dynamics-composite'
 picGroup:
   - image: '/types/5s/Elon-Musk.webp'
     text: 'Elon Musk'

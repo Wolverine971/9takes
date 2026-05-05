@@ -36,7 +36,7 @@ path: src/blog/pop-culture/ghislaine-maxwell-psychology.md
 
 <p class="firstLetter">That line explains more about Ghislaine Maxwell than any court document. A child begging to be seen. A girl who learned before she could fully speak that she had to fight for the attention of the people who were supposed to protect her.</p>
 
-Fifty years later, a jury convicted that same woman on five counts of sex trafficking. Prosecutors called her "the enabler-in-chief" and stated Jeffrey Epstein "could not have committed these crimes without her." She was sentenced to 20 years. ([DOJ](https://www.justice.gov/opa/pr/ghislaine-maxwell-sentenced-20-years-prison))
+Fifty years later, a jury convicted that same woman on five counts of sex trafficking. Prosecutors called her "the enabler-in-chief" and stated Jeffrey Epstein "could not have committed these crimes without her." She was sentenced to 20 years. ([sentencing memo](https://www.courthousenews.com/wp-content/uploads/2022/06/maxwell-government-sentencing-memo.pdf); [SDNY case page](https://www.justice.gov/usao-sdny/united-states-v-ghislaine-maxwell))
 
 How does a child desperate to be noticed become a woman who trafficked teenagers?
 
@@ -125,7 +125,7 @@ The article you are reading deliberately does not make a claim about sexual abus
 
 Here is where Maxwell's story diverges from a standard case of childhood trauma producing an adult enabler. The Maxwell family didn't just operate in the world of money and media. They operated in the world of **intelligence**.
 
-Robert Maxwell's funeral on November 10, 1991, told the story. He was buried on Jerusalem's Mount of Olives in a ceremony that the Washington Post called "befitting a national hero." Attendees included Israeli Prime Minister Yitzhak Shamir, President Chaim Herzog, and — critically — **six serving and former heads of Israeli intelligence**. Shimon Peres eulogized him: "He has done more for Israel than can be said here today." ([Washington Post, 1991](https://www.washingtonpost.com/archive/politics/1991/11/11/israel-gives-maxwell-farewell-fit-for-hero/1773995a-0eac-4a3e-abed-1d3254cc0baa/))
+Robert Maxwell's funeral on November 10, 1991, told the story. He was buried on Jerusalem's Mount of Olives in a ceremony attended by Israeli Prime Minister Yitzhak Shamir, President Chaim Herzog, and numerous Israeli intelligence figures. Shamir eulogized him: "He has done more for Israel than can today be said." ([Times of Israel](https://www.timesofisrael.com/the-maxwells-scandal-conspiracy-and-more-than-a-few-days-in-court/))
 
 "More than can be said." At a funeral.
 
@@ -190,7 +190,7 @@ Journalist Vicky Ward, who first met Maxwell at a party in 1997, observed she ha
 
 This is the Type 6 pattern in real-time: a woman who had lost her entire identity structure rebuilding it by embedding herself in a new power system. She didn't start a business. She didn't pursue a career. She made herself **the indispensable social connector** between Epstein's money and the world of influence he wanted to access. Her value was _relational_ — she was the person who introduced everyone to everyone else, who managed the logistics, who opened the doors. **Without an authority figure to orbit, she had no center. With one, she was formidable.**
 
-When she arrived at Epstein's Palm Beach mansion, his house manager testified, she "right away took over" and declared herself "the lady of the house." She was with Epstein "95 percent of the time." ([UPI](https://www.upi.com/Top_News/US/2021/12/06/jeffrey-epstein-assistant-testifies-ghislaine-maxwell-trial/6731638815960/))
+When she arrived at Epstein's Palm Beach mansion, his house manager testified, she "right away took over" and declared herself "the lady of the house." She was with Epstein "95 percent of the time." ([ABC News](https://abcnews.go.com/US/epsteins-house-manager-testifies-calls-ghislaine-maxwell-lady/story?id=81526949); [CNN](https://amp.cnn.com/cnn/2021/12/02/us/ghislaine-maxwell-trial-thursday))
 
 ## The Fixer: Why She Participated
 
@@ -204,7 +204,7 @@ And she didn't just facilitate. She hunted.
 
 ### The Victim Testimonies
 
-Virginia Giuffre, recruited at age 16: "The training started immediately... A lot of this training came from Ghislaine herself." ([ABC News](https://www.abc.net.au/news/2019-08-27/virginia-roberts-giuffre-jeffrey-epstein-abc/11452488))
+Virginia Giuffre, recruited at age 16: "The training started immediately... A lot of this training came from Ghislaine herself." ([ABC News](https://www.abc.net.au/news/2019-11-23/who-is-ghislaine-maxwell-jeffrey-epstein-prince-andrew/11726144))
 
 Annie Farmer, recruited at 16: Maxwell "pulled down the sheet and exposed my breasts" during what was supposed to be a massage.
 
@@ -238,7 +238,7 @@ Trial testimony established that Maxwell was not merely orchestrating from a dis
 
 ## The 18,000 Emails: What Loyalty Looked Like
 
-In September 2025, Bloomberg obtained and analyzed 18,000+ emails from Epstein's personal Yahoo account spanning 20 years, and the correspondence revealed the actual texture of their relationship. ([Bloomberg](https://www.bloomberg.com/features/2025-jeffrey-epstein-emails-ghislaine-maxwell/))
+In September 2025, Bloomberg obtained and analyzed 18,000+ emails from Epstein's personal Yahoo account spanning 20 years, and the correspondence revealed the actual texture of their relationship. ([Bloomberg Law](https://news.bloomberglaw.com/bloomberg-government-news/takeaways-from-jeffrey-epstein-and-ghislaine-maxwells-emails))
 
 Maxwell claimed at trial that she had distanced herself from Epstein after 2008. The emails show approximately **203 messages in just the first six months of 2008 alone** — the year of his conviction. Bloomberg described the correspondence as veering between "domineering, cloying, comfortable and obsessive" — typo-ridden and chillingly casual about serious crimes.
 
@@ -270,7 +270,7 @@ Maxwell's behavior during the trial was itself a psychological exhibit. She sket
 
 But the performance eroded. In the first week, reporters noted her high spirits and defiance. By the second week, the energy was draining as victim after victim testified. During closing arguments, she was seen wiping her eyes. And when the verdict came — guilty on five of six counts — **the mask collapsed**. She stood stoic and rigid, no visible reaction. She did not hug her lawyers, _breaking the daily ritual for the first and only time_. The persona she had maintained for weeks simply stopped functioning. For the counterphobic 6, the moment when the performance can no longer hold is the moment the fear underneath becomes visible.
 
-On June 28, 2022, she was sentenced to 20 years. ([DOJ](https://www.justice.gov/opa/pr/ghislaine-maxwell-sentenced-20-years-prison))
+On June 28, 2022, she was sentenced to 20 years. ([PBS/AP](https://www.pbs.org/newshour/politics/ghislaine-maxwell-sentenced-to-20-years-in-prison); [SDNY case page](https://www.justice.gov/usao-sdny/united-states-v-ghislaine-maxwell))
 
 Her defense at sentencing was revealing — and so was what was missing from it.
 

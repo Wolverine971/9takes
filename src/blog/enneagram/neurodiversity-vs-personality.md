@@ -24,7 +24,7 @@ path: src/blog/enneagram/neurodiversity-vs-personality.md
 	<!-- Opening -->
 	<div class="prose prose-lg mb-8 max-w-none">
 		<p class="text-xl leading-relaxed">
-			Something strange is happening. A <a href="https://investor.lifestance.com/news-releases/news-release-details/lifestance-survey-finds-nearly-one-third-americans-use-social/" class="font-semibold text-primary-700 dark:text-primary-400 underline" target="_blank" rel="noopener">2025 survey of over 1,100 U.S. adults</a> found that half of Gen Z respondents had self-diagnosed a mental health condition based on social media content. Millions are scrolling TikTok, watching a 60-second video about ADHD or autism, and "discovering" they've been neurodivergent all along. The impulse makes sense — everyone wants to understand why they feel different, why they struggle, why they don't fit the mold. But the mass self-diagnosis trend is pointing people toward labels when what they actually need is <em>understanding</em>.
+			Something strange is happening. A <a href="https://lifestance.com/insight/social-media-mental-health-impact-statistics-2025/" class="font-semibold text-primary-700 dark:text-primary-400 underline" target="_blank" rel="noopener">2025 survey of over 1,100 U.S. adults</a> found that half of Gen Z respondents had self-diagnosed a mental health condition based on social media content. Millions are scrolling TikTok, watching a 60-second video about ADHD or autism, and "discovering" they've been neurodivergent all along. The impulse makes sense — everyone wants to understand why they feel different, why they struggle, why they don't fit the mold. But the mass self-diagnosis trend is pointing people toward labels when what they actually need is <em>understanding</em>.
 		</p>
 	</div>
 	<!-- Section 1 -->
@@ -447,7 +447,7 @@ numbers would transform it from opinion to authority:
   - LifeStance Health / Researchscape survey (April 2025, 1,110 U.S. adults):
     "29% of Americans have self-diagnosed mental health conditions based on
     social media content. Among Gen Z, that number is 50%."
-    Source: https://investor.lifestance.com/news-releases/news-release-details/lifestance-survey-finds-nearly-one-third-americans-use-social/
+    Source: https://lifestance.com/insight/social-media-mental-health-impact-statistics-2025/
 
   - Yeung et al. (2022), Canadian Journal of Psychiatry:
     "52% of ADHD-related TikTok videos contain misinformation. Only 3% of

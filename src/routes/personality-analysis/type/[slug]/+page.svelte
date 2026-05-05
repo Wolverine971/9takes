@@ -8,21 +8,103 @@
 	import {
 		buildPersonalityAnalysisPath,
 		buildPersonalityImagePath,
+		buildPersonalityImageUrl,
 		formatPersonalityDisplayName
 	} from '$lib/utils/personalityAnalysis';
 
-	export let data: PageData;
+	let { data }: { data: PageData } = $props();
 
-	const enneagramTypes: Record<string, { name: string; tagline: string }> = {
-		'1': { name: 'The Perfectionist', tagline: 'Principled, purposeful, self-controlled' },
-		'2': { name: 'The Helper', tagline: 'Generous, demonstrative, people-pleasing' },
-		'3': { name: 'The Achiever', tagline: 'Adaptable, excelling, driven' },
-		'4': { name: 'The Individualist', tagline: 'Expressive, dramatic, self-absorbed' },
-		'5': { name: 'The Investigator', tagline: 'Perceptive, innovative, secretive' },
-		'6': { name: 'The Loyalist', tagline: 'Engaging, responsible, anxious' },
-		'7': { name: 'The Enthusiast', tagline: 'Spontaneous, versatile, scattered' },
-		'8': { name: 'The Challenger', tagline: 'Self-confident, decisive, confrontational' },
-		'9': { name: 'The Peacemaker', tagline: 'Receptive, reassuring, complacent' }
+	type EnneagramTypeMeta = {
+		name: string;
+		tagline: string;
+		archetype: string;
+		coreFear: string;
+		coreDesire: string;
+		summary: string;
+	};
+
+	const enneagramTypes: Record<string, EnneagramTypeMeta> = {
+		'1': {
+			name: 'The Perfectionist',
+			tagline: 'Principled, purposeful, self-controlled',
+			archetype: 'The Reformer',
+			coreFear: 'being corrupt, defective, or wrong',
+			coreDesire: 'integrity, goodness, and improvement',
+			summary:
+				'Type 1s carry an internal compass that points toward how things should be. Principled, ethical, and relentless about doing things right.'
+		},
+		'2': {
+			name: 'The Helper',
+			tagline: 'Generous, demonstrative, people-pleasing',
+			archetype: 'The Caregiver',
+			coreFear: 'being unloved or unwanted',
+			coreDesire: 'to be loved and appreciated',
+			summary:
+				'Type 2s read what people need before they say it. Warm, generous, and tuned to the emotional weather of the room.'
+		},
+		'3': {
+			name: 'The Achiever',
+			tagline: 'Adaptable, excelling, driven',
+			archetype: 'The Performer',
+			coreFear: 'being worthless or without value',
+			coreDesire: 'to feel valuable and admired',
+			summary:
+				'Type 3s read the room, adapt their image, and execute. Goal-oriented, polished, and wired for achievement and recognition.'
+		},
+		'4': {
+			name: 'The Individualist',
+			tagline: 'Expressive, dramatic, self-absorbed',
+			archetype: 'The Romantic',
+			coreFear: 'having no identity or significance',
+			coreDesire: 'to find themselves and their meaning',
+			summary:
+				'Type 4s feel things at a depth most people avoid. Creative, introspective, and committed to authenticity over fitting in.'
+		},
+		'5': {
+			name: 'The Investigator',
+			tagline: 'Perceptive, innovative, secretive',
+			archetype: 'The Observer',
+			coreFear: 'being helpless, useless, or incapable',
+			coreDesire: 'to be capable and competent',
+			summary:
+				'Type 5s disappear into ideas and emerge with frameworks. Curious, analytical, and protective of their time and energy.'
+		},
+		'6': {
+			name: 'The Loyalist',
+			tagline: 'Engaging, responsible, anxious',
+			archetype: 'The Skeptic',
+			coreFear: 'being without support or guidance',
+			coreDesire: 'security and trustworthy support',
+			summary:
+				'Type 6s scan for what could go wrong and prepare for it. Loyal, vigilant, and the people you want with you in a crisis.'
+		},
+		'7': {
+			name: 'The Enthusiast',
+			tagline: 'Spontaneous, versatile, scattered',
+			archetype: 'The Adventurer',
+			coreFear: 'being trapped in pain or deprivation',
+			coreDesire: 'to be satisfied and stimulated',
+			summary:
+				'Type 7s chase the next idea, trip, or possibility. Optimistic, energetic, and allergic to anything that feels like a cage.'
+		},
+		'8': {
+			name: 'The Challenger',
+			tagline: 'Self-confident, decisive, confrontational',
+			archetype: 'The Protector',
+			coreFear: 'being controlled or harmed by others',
+			coreDesire: 'to protect themselves and stay in control',
+			summary:
+				'Type 8s take up space and protect their people. Direct, decisive, and unwilling to be controlled by anyone.'
+		},
+		'9': {
+			name: 'The Peacemaker',
+			tagline: 'Receptive, reassuring, complacent',
+			archetype: 'The Mediator',
+			coreFear: 'loss of connection and fragmentation',
+			coreDesire: 'inner stability and peace of mind',
+			summary:
+				'Type 9s see every side and resist anything that disrupts the peace. Calm, accepting, and quietly stubborn about harmony.'
+		}
 	};
 
 	function getLatestDate(people: PageData['people']): string | null {
@@ -43,85 +125,211 @@
 		return latestDate;
 	}
 
-	$: typeInfo = enneagramTypes[data.slug] || { name: '', tagline: '' };
+	const FALLBACK_TYPE_META: EnneagramTypeMeta = {
+		name: '',
+		tagline: '',
+		archetype: '',
+		coreFear: '',
+		coreDesire: '',
+		summary: ''
+	};
 
-	$: seoTitle = `Famous Enneagram Type ${data.slug}s: ${typeInfo.name} | 9takes`;
-	$: seoDescription = `${data.people.length} famous Enneagram Type ${data.slug} (${typeInfo.name}) personalities analyzed. ${typeInfo.tagline}. See how this type shows up in celebrities, leaders, and creators.`;
-	$: canonicalUrl = `https://9takes.com/personality-analysis/type/${data.slug}`;
+	const SIBLING_TYPES = ['1', '2', '3', '4', '5', '6', '7', '8', '9'];
 
-	$: latestDate = getLatestDate(data.people);
+	let typeInfo = $derived(enneagramTypes[data.slug] ?? FALLBACK_TYPE_META);
+	let peopleCount = $derived(data.people.length);
+	let typeUrl = $derived(`https://9takes.com/personality-analysis/type/${data.slug}`);
+	let pageId = $derived(`${typeUrl}#webpage`);
+	let collectionId = $derived(`${typeUrl}#collection`);
+	let articleId = $derived(`${typeUrl}#article`);
+	let breadcrumbId = $derived(`${typeUrl}#breadcrumb`);
+	let faqId = $derived(`${typeUrl}#faq`);
 
-	$: structuredData = {
-		'@context': 'https://schema.org',
-		'@graph': [
+	let seoTitle = $derived(
+		`${peopleCount} Famous Enneagram Type ${data.slug}s — ${typeInfo.name} (Examples & Analyses)`
+	);
+	let seoDescription = $derived(
+		`${peopleCount} famous Enneagram Type ${data.slug} (${typeInfo.name}) personalities, decoded. ${typeInfo.tagline}. See how Type ${data.slug} shows up in celebrities, leaders, and creators.`
+	);
+
+	let latestDate = $derived(getLatestDate(data.people));
+
+	let leadPerson = $derived(data.people.find((person) => person.enneagram && person.slug));
+	let leadOgImage = $derived(
+		leadPerson ? buildPersonalityImageUrl(leadPerson.enneagram, leadPerson.slug, 'full') : ''
+	);
+	let ogImage = $derived(leadOgImage || 'https://9takes.com/personality-analysis-card.webp');
+
+	let breadcrumbSchema = $derived({
+		'@type': 'BreadcrumbList',
+		'@id': breadcrumbId,
+		itemListElement: [
 			{
-				'@type': 'BreadcrumbList',
-				itemListElement: [
-					{
-						'@type': 'ListItem',
-						position: 1,
-						name: 'Home',
-						item: 'https://9takes.com'
-					},
-					{
-						'@type': 'ListItem',
-						position: 2,
-						name: 'Personality Analysis',
-						item: 'https://9takes.com/personality-analysis'
-					},
-					{
-						'@type': 'ListItem',
-						position: 3,
-						name: `Type ${data.slug}: ${typeInfo.name}`
-					}
-				]
+				'@type': 'ListItem',
+				position: 1,
+				name: 'Home',
+				item: 'https://9takes.com'
 			},
 			{
-				'@type': 'CollectionPage',
-				name: `Enneagram Type ${data.slug} (${typeInfo.name}) Famous People`,
-				description: seoDescription,
-				url: canonicalUrl,
-				inLanguage: 'en-US',
-				...(latestDate ? { dateModified: latestDate } : {}),
-				isPartOf: {
-					'@type': 'CollectionPage',
-					name: 'Famous Personality Analysis',
-					url: 'https://9takes.com/personality-analysis'
-				},
-				about: [
-					{
-						'@type': 'Thing',
-						name: 'Enneagram of Personality',
-						sameAs: 'https://en.wikipedia.org/wiki/Enneagram_of_Personality'
-					},
-					{
-						'@type': 'Thing',
-						name: `Enneagram Type ${data.slug}: ${typeInfo.name}`
-					}
-				],
-				publisher: {
-					'@type': 'Organization',
-					name: '9takes',
-					url: 'https://9takes.com',
-					logo: {
-						'@type': 'ImageObject',
-						url: 'https://9takes.com/brand/aero.png'
-					}
-				},
-				mainEntity: {
-					'@type': 'ItemList',
-					numberOfItems: data.people.length,
-					itemListOrder: 'https://schema.org/ItemListUnordered',
-					itemListElement: data.people.map((person: any, index: number) => ({
-						'@type': 'ListItem',
-						position: index + 1,
-						name: formatPersonalityDisplayName(person.slug),
-						url: `https://9takes.com${buildPersonalityAnalysisPath(person.slug)}`
-					}))
+				'@type': 'ListItem',
+				position: 2,
+				name: 'Personality Analysis',
+				item: 'https://9takes.com/personality-analysis'
+			},
+			{
+				'@type': 'ListItem',
+				position: 3,
+				name: `Type ${data.slug}: ${typeInfo.name}`,
+				item: typeUrl
+			}
+		]
+	});
+
+	let webPageSchema = $derived({
+		'@type': 'CollectionPage',
+		'@id': pageId,
+		url: typeUrl,
+		name: `Famous Enneagram Type ${data.slug} (${typeInfo.name}) Personalities`,
+		description: seoDescription,
+		inLanguage: 'en-US',
+		isPartOf: { '@id': 'https://9takes.com/#website' },
+		breadcrumb: { '@id': breadcrumbId },
+		mainEntity: { '@id': collectionId },
+		...(latestDate ? { dateModified: latestDate } : {}),
+		about: [
+			{
+				'@type': 'Thing',
+				name: 'Enneagram of Personality',
+				sameAs: 'https://en.wikipedia.org/wiki/Enneagram_of_Personality'
+			},
+			{
+				'@type': 'Thing',
+				name: `Enneagram Type ${data.slug}: ${typeInfo.name}`
+			}
+		],
+		publisher: {
+			'@type': 'Organization',
+			name: '9takes',
+			url: 'https://9takes.com',
+			logo: {
+				'@type': 'ImageObject',
+				url: 'https://9takes.com/brand/aero.png'
+			}
+		}
+	});
+
+	let itemListSchema = $derived({
+		'@type': 'ItemList',
+		'@id': collectionId,
+		name: `Famous Enneagram Type ${data.slug} Personalities`,
+		numberOfItems: peopleCount,
+		itemListOrder: 'https://schema.org/ItemListOrderDescending',
+		itemListElement: data.people.map((person, index) => {
+			const displayName = formatPersonalityDisplayName(person.slug);
+			const personUrl = `https://9takes.com${buildPersonalityAnalysisPath(person.slug)}`;
+			const imageUrl = person.enneagram
+				? buildPersonalityImageUrl(person.enneagram, person.slug, 'full')
+				: '';
+			return {
+				'@type': 'ListItem',
+				position: index + 1,
+				url: personUrl,
+				item: {
+					'@type': 'Person',
+					'@id': `${personUrl}#person`,
+					name: displayName,
+					url: personUrl,
+					...(imageUrl ? { image: imageUrl } : {}),
+					additionalType: `https://9takes.com/personality-analysis/type/${data.slug}`,
+					description: `Enneagram Type ${data.slug} (${typeInfo.name}) personality analysis of ${displayName} on 9takes.`
+				}
+			};
+		})
+	});
+
+	let articleSchema = $derived({
+		'@type': 'Article',
+		'@id': articleId,
+		headline: `Enneagram Type ${data.slug}: ${typeInfo.name} — Worldview, Wings, and Famous Examples`,
+		description: typeInfo.summary,
+		mainEntityOfPage: { '@id': pageId },
+		isPartOf: { '@id': pageId },
+		inLanguage: 'en-US',
+		about: {
+			'@type': 'Thing',
+			name: `Enneagram Type ${data.slug}: ${typeInfo.name}`
+		},
+		author: {
+			'@type': 'Organization',
+			name: '9takes',
+			url: 'https://9takes.com'
+		},
+		publisher: {
+			'@type': 'Organization',
+			name: '9takes',
+			url: 'https://9takes.com',
+			logo: {
+				'@type': 'ImageObject',
+				url: 'https://9takes.com/brand/aero.png'
+			}
+		},
+		...(latestDate ? { dateModified: latestDate } : {})
+	});
+
+	let faqSchema = $derived({
+		'@type': 'FAQPage',
+		'@id': faqId,
+		mainEntity: [
+			{
+				'@type': 'Question',
+				name: `What does Enneagram Type ${data.slug} (${typeInfo.name}) mean?`,
+				acceptedAnswer: {
+					'@type': 'Answer',
+					text: `Enneagram Type ${data.slug}, also known as ${typeInfo.archetype} or ${typeInfo.name}, is defined by ${typeInfo.tagline.toLowerCase()}. ${typeInfo.summary}`
+				}
+			},
+			{
+				'@type': 'Question',
+				name: `What is the core fear of Enneagram Type ${data.slug}?`,
+				acceptedAnswer: {
+					'@type': 'Answer',
+					text: `Type ${data.slug}s are driven by a core fear of ${typeInfo.coreFear}, which shapes their motivations, decisions, and relationships.`
+				}
+			},
+			{
+				'@type': 'Question',
+				name: `What does Enneagram Type ${data.slug} want most?`,
+				acceptedAnswer: {
+					'@type': 'Answer',
+					text: `The core desire of Type ${data.slug} (${typeInfo.name}) is ${typeInfo.coreDesire}. Most of their behavior can be traced back to pursuing this.`
+				}
+			},
+			{
+				'@type': 'Question',
+				name: `Who are some famous Enneagram Type ${data.slug}s?`,
+				acceptedAnswer: {
+					'@type': 'Answer',
+					text:
+						peopleCount > 0
+							? `Famous Enneagram Type ${data.slug} examples include ${data.people
+									.slice(0, 8)
+									.map((p) => formatPersonalityDisplayName(p.slug))
+									.filter(Boolean)
+									.join(
+										', '
+									)}. 9takes profiles ${peopleCount} Type ${data.slug} personalities in total.`
+							: `9takes is actively building its library of famous Type ${data.slug} (${typeInfo.name}) personalities.`
 				}
 			}
 		]
-	};
+	});
+
+	let structuredData = $derived({
+		'@context': 'https://schema.org',
+		'@graph': [breadcrumbSchema, webPageSchema, articleSchema, itemListSchema, faqSchema]
+	});
+
+	let canonicalUrl = $derived(typeUrl);
 </script>
 
 <svelte:head>
@@ -133,26 +341,46 @@
 	description={seoDescription}
 	canonical={canonicalUrl}
 	twitterCardType="summary_large_image"
-	ogImage="https://9takes.com/personality-analysis-card.webp"
+	{ogImage}
+	twitterImageAlt={`Famous Enneagram Type ${data.slug} — ${typeInfo.name}`}
 	author="9takes"
+	ogType="website"
+	additionalMeta={[
+		...(latestDate ? [{ property: 'article:modified_time', content: latestDate }] : []),
+		{
+			name: 'keywords',
+			content: `enneagram type ${data.slug}, famous type ${data.slug}, ${typeInfo.name.toLowerCase()}, ${typeInfo.archetype.toLowerCase()}, enneagram celebrities, personality types`
+		}
+	]}
 />
 
 <div class="page-wrapper">
+	<nav class="breadcrumbs" aria-label="Breadcrumb">
+		<ol>
+			<li><a href="/">Home</a></li>
+			<li><a href="/personality-analysis">Personality Analysis</a></li>
+			<li aria-current="page">Type {data.slug}: {typeInfo.name}</li>
+		</ol>
+	</nav>
+
 	<header class="hero">
 		<div class="type-badge">
 			<span class="type-num">{data.slug}</span>
 		</div>
-		<h1>Type {data.slug}: {typeInfo.name}</h1>
+		<h1>Famous Enneagram Type {data.slug}s — {typeInfo.name}</h1>
 		<p class="tagline">{typeInfo.tagline}</p>
+		{#if typeInfo.summary}
+			<p class="hero-summary">{typeInfo.summary}</p>
+		{/if}
 	</header>
 
 	<article class="enneagram-type-page">
 		<EnneagramTypeIntro type={data.slug} />
 
-		<section class="famous-people">
+		<section class="famous-people" aria-labelledby="famous-heading">
 			<div class="section-header">
-				<h2>Famous Type {data.slug}s</h2>
-				<span class="people-count">{data.people.length} personalities</span>
+				<h2 id="famous-heading">Famous Type {data.slug}s — {typeInfo.name} Examples</h2>
+				<span class="people-count">{peopleCount} personalities</span>
 			</div>
 			<div class="people-grid-container">
 				{#each data.people as person}
@@ -162,7 +390,7 @@
 								loading="lazy"
 								class="grid-img"
 								src={buildPersonalityImagePath(person.enneagram, person.slug, 'thumbnail')}
-								alt={`${formatPersonalityDisplayName(person.slug)} - Enneagram Type ${data.slug}`}
+								alt={`${formatPersonalityDisplayName(person.slug)} — Enneagram Type ${data.slug} (${typeInfo.name})`}
 								width="218"
 								height="218"
 							/>
@@ -179,8 +407,30 @@
 
 		<EnneagramTypeBottom type={data.slug} />
 
+		<nav class="sibling-types" aria-label="Other Enneagram types">
+			<h2>Explore the Other Enneagram Types</h2>
+			<ul>
+				{#each SIBLING_TYPES as siblingSlug}
+					{@const meta = enneagramTypes[siblingSlug]}
+					{#if siblingSlug === data.slug}
+						<li class="current" aria-current="page">
+							<span class="sibling-num">{siblingSlug}</span>
+							<span class="sibling-name">{meta.name}</span>
+						</li>
+					{:else}
+						<li>
+							<a href={`/personality-analysis/type/${siblingSlug}`}>
+								<span class="sibling-num">{siblingSlug}</span>
+								<span class="sibling-name">{meta.name}</span>
+							</a>
+						</li>
+					{/if}
+				{/each}
+			</ul>
+		</nav>
+
 		<footer>
-			<p class="more-info">More information coming soon about Enneagram Type {data.slug}!</p>
+			<p class="more-info">More analyses of Enneagram Type {data.slug} coming soon.</p>
 			{#if !data?.user}
 				<div class="email-signup">
 					<EmailSignup />
@@ -197,11 +447,56 @@
 		background: linear-gradient(180deg, var(--night-deep) 0%, var(--night-deep) 100%);
 	}
 
+	/* Breadcrumbs */
+	.breadcrumbs {
+		max-width: 1200px;
+		margin: 0 auto;
+		padding: 1rem 1.5rem 0;
+		font-size: 0.8125rem;
+		color: var(--ink-dim);
+
+		ol {
+			list-style: none;
+			display: flex;
+			flex-wrap: wrap;
+			gap: 0.25rem;
+			padding: 0;
+			margin: 0;
+		}
+
+		li {
+			display: inline-flex;
+			align-items: center;
+
+			&:not(:last-child)::after {
+				content: '/';
+				margin: 0 0.5rem;
+				color: var(--ink-dim);
+				opacity: 0.6;
+			}
+
+			&[aria-current='page'] {
+				color: var(--lamp-glow);
+				font-weight: 500;
+			}
+		}
+
+		a {
+			color: var(--ink-dim);
+			text-decoration: none;
+			transition: color 0.2s ease;
+
+			&:hover {
+				color: var(--lamp-glow);
+			}
+		}
+	}
+
 	/* Hero Section */
 	.hero {
 		max-width: 1200px;
 		margin: 0 auto;
-		padding: 2.5rem 1.5rem 2rem;
+		padding: 1.5rem 1.5rem 2rem;
 		text-align: center;
 		position: relative;
 	}
@@ -265,6 +560,14 @@
 		color: var(--ink-dim);
 		margin: 0;
 		font-weight: 500;
+	}
+
+	.hero-summary {
+		max-width: 640px;
+		margin: 1rem auto 0;
+		font-size: 0.9375rem;
+		line-height: 1.55;
+		color: var(--ink-mid);
 	}
 
 	/* Main Content */
@@ -394,6 +697,82 @@
 		}
 	}
 
+	/* Sibling type navigation */
+	.sibling-types {
+		margin: 3rem 0 2rem;
+		padding: 1.5rem;
+		background: var(--stone-warm);
+		border: 1px solid var(--stone-edge);
+		border-radius: 1rem;
+
+		h2 {
+			font-size: 1.125rem;
+			margin-bottom: 1rem;
+			color: var(--ink-bright);
+		}
+
+		ul {
+			list-style: none;
+			padding: 0;
+			margin: 0;
+			display: grid;
+			grid-template-columns: repeat(3, 1fr);
+			gap: 0.5rem;
+		}
+
+		li {
+			display: flex;
+
+			a,
+			&.current {
+				display: flex;
+				align-items: center;
+				gap: 0.625rem;
+				padding: 0.625rem 0.75rem;
+				border-radius: 0.5rem;
+				width: 100%;
+				border: 1px solid var(--stone-edge);
+				background: var(--night-deep);
+				text-decoration: none;
+				color: var(--ink-mid);
+				font-size: 0.875rem;
+				transition: all 0.2s ease;
+			}
+
+			a:hover {
+				border-color: rgba(45, 212, 191, 0.4);
+				color: var(--ink-bright);
+			}
+
+			&.current {
+				background: linear-gradient(135deg, rgba(45, 212, 191, 0.18), rgba(167, 139, 250, 0.12));
+				border-color: rgba(45, 212, 191, 0.5);
+				color: var(--ink-bright);
+				font-weight: 600;
+			}
+		}
+
+		.sibling-num {
+			display: inline-flex;
+			width: 1.5rem;
+			height: 1.5rem;
+			align-items: center;
+			justify-content: center;
+			background: var(--lamp-glow);
+			color: var(--ink-bright);
+			border-radius: 0.375rem;
+			font-weight: 700;
+			font-size: 0.75rem;
+			flex-shrink: 0;
+		}
+
+		.sibling-name {
+			white-space: nowrap;
+			overflow: hidden;
+			text-overflow: ellipsis;
+		}
+	}
+
 	footer {
 		text-align: center;
 		margin-top: 3rem;
@@ -435,7 +814,7 @@
 	/* Responsive */
 	@media (max-width: 768px) {
 		.hero {
-			padding: 1.5rem 1rem 1.5rem;
+			padding: 1.25rem 1rem 1.5rem;
 		}
 
 		.type-badge {
@@ -452,6 +831,10 @@
 		}
 
 		.tagline {
+			font-size: 0.875rem;
+		}
+
+		.hero-summary {
 			font-size: 0.875rem;
 		}
 
@@ -476,7 +859,7 @@
 
 	@media (max-width: 480px) {
 		.hero {
-			padding: 1.25rem 1rem 1.25rem;
+			padding: 1rem 1rem 1.25rem;
 		}
 
 		.type-badge {

@@ -644,7 +644,12 @@
 
 	.app-wrapper {
 		min-height: 100vh;
-		background: linear-gradient(180deg, var(--night-deep) 0%, var(--night-deep) 50%, var(--night-deep) 100%);
+		background: linear-gradient(
+			180deg,
+			var(--night-deep) 0%,
+			var(--night-deep) 50%,
+			var(--night-deep) 100%
+		);
 		overflow-x: hidden;
 	}
 

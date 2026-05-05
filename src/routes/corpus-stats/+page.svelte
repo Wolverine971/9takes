@@ -1,7 +1,8 @@
 <!-- src/routes/corpus-stats/+page.svelte -->
 <!-- Full dataset view of the 9takes corpus stats. Structured so Google + -->
-<!-- LLMs can cite specific claims. Tables are flat; per-domain breakdowns -->
-<!-- live inside <details> so the page scans cleanly without hiding content. -->
+<!-- LLMs can cite specific claims. Tables are flat; the highest-traffic     -->
+<!-- domain breakdowns are open by default so the most-cited content is     -->
+<!-- visible without interaction.                                            -->
 <script lang="ts">
 	import SEOHead from '$lib/components/SEOHead.svelte';
 	import CorpusStatsTable from '$lib/components/marketing/CorpusStatsTable.svelte';
@@ -49,6 +50,7 @@
 	};
 
 	const stats = $derived(data.stats as unknown as Stats);
+	const seo = $derived(data.seo);
 
 	const TYPE_NAMES: Record<number, string> = {
 		1: 'Type 1 (Reformer)',
@@ -75,30 +77,52 @@
 		}
 	};
 
-	const headline = $derived(
-		`The 9takes Corpus: Enneagram Type Distribution Across ${stats.totals.published} Public Figures`
-	);
-	const description = $derived(
-		`Type distribution, over- and under-representation by profession, and publishing pipeline across ${stats.totals.published} published profiles on 9takes. Regenerated on every deploy.`
-	);
+	// Domain blocks sorted largest-first so the highest-leverage content is
+	// at the top of the section. We auto-open the top 3 so AI/Search ingest
+	// the most-cited domain breakdowns without relying on <details> expansion.
+	const sortedDomains = $derived(Object.values(stats.domains).sort((a, b) => b.total - a.total));
+	const OPEN_TOP_N = 3;
 </script>
 
 <SEOHead
-	title="9takes Corpus Stats"
-	{description}
+	title={seo.title}
+	description={seo.description}
 	canonical="https://9takes.com/corpus-stats"
+	ogType="article"
 	jsonLd={data.jsonLd}
+	additionalMeta={[
+		{ property: 'article:published_time', content: seo.datePublished },
+		{ property: 'article:modified_time', content: seo.generatedAt },
+		{ property: 'article:section', content: 'Data' },
+		{ property: 'article:tag', content: 'Enneagram' },
+		{ property: 'article:tag', content: 'Personality Type Distribution' },
+		{ property: 'article:tag', content: 'Public Figures' },
+		{
+			name: 'news_keywords',
+			content: 'Enneagram, personality data, public figures, type distribution'
+		}
+	]}
 />
+
+<svelte:head>
+	<!-- Machine-discoverability: explicit alternate JSON representation. -->
+	<link
+		rel="alternate"
+		type="application/json"
+		href="/corpus-stats.json"
+		title="9takes Corpus Stats — raw dataset"
+	/>
+</svelte:head>
 
 <div class="corpus-page">
 	<article class="content">
 		<!-- ========== HERO ========== -->
-		<header class="page-hero">
+		<header class="page-hero" id="top">
 			<div class="hero-badge">
 				<span class="badge-dot"></span>
 				<span>PUBLIC DATASET</span>
 			</div>
-			<h1>{headline}</h1>
+			<h1>{seo.headline}</h1>
 			<p class="hero-lede">
 				This is what {stats.totals.published} profiles actually show. Every number on this page is computed
 				from the 9takes celebrity database and regenerated on every deploy.
@@ -109,10 +133,10 @@
 			</p>
 		</header>
 
-		<!-- ========== TL;DR ========== -->
-		<section class="page-section">
-			<h2>TL;DR</h2>
-			<ul class="tldr-list">
+		<!-- ========== KEY FINDINGS (was TL;DR) ========== -->
+		<section class="page-section" aria-labelledby="key-findings-heading">
+			<h2 id="key-findings-heading">Key Findings</h2>
+			<ul class="tldr-list" id="key-findings">
 				{#each stats.citable_claims.slice(0, 3) as claim}
 					<li>{claim}</li>
 				{/each}
@@ -120,8 +144,8 @@
 		</section>
 
 		<!-- ========== CORPUS TOTALS ========== -->
-		<section class="page-section">
-			<h2>Corpus Totals</h2>
+		<section class="page-section" aria-labelledby="totals-heading">
+			<h2 id="totals-heading">Corpus Totals</h2>
 			<div class="totals-row">
 				<div class="total-tile accent">
 					<div class="total-value">{stats.totals.published}</div>
@@ -139,11 +163,16 @@
 		</section>
 
 		<!-- ========== ENNEAGRAM DISTRIBUTION ========== -->
-		<section class="page-section">
-			<h2>Enneagram Type Distribution</h2>
+		<section
+			class="page-section"
+			aria-labelledby="distribution-heading"
+			id="enneagram-distribution"
+		>
+			<h2 id="distribution-heading">Enneagram Type Distribution</h2>
 			<p class="lede">
 				How the corpus-wide baseline is split across the nine types. Type 3 (Achiever) leads at
-				{pct(stats.enneagram_distribution.shares['3'])}%.
+				{pct(stats.enneagram_distribution.shares['3'])}%. Each type has its own deep-dive at the
+				<a href="/enneagram-corner">Enneagram Corner</a>.
 			</p>
 			<CorpusStatsTable
 				counts={stats.enneagram_distribution.counts}
@@ -153,16 +182,18 @@
 		</section>
 
 		<!-- ========== DOMAINS ========== -->
-		<section class="page-section">
-			<h2>Type Distribution by Domain</h2>
+		<section class="page-section" aria-labelledby="domains-heading" id="domains">
+			<h2 id="domains-heading">Type Distribution by Domain</h2>
 			<p class="lede">
 				Each domain with at least {stats.min_domain_size} profiled figures gets its own 9-row breakdown.
 				"Δ vs baseline" is the percentage-point difference between the domain's type share and the corpus-wide
 				share above. Positive means over-represented relative to 9takes itself, not vs. the general population.
+				Browse all domains at
+				<a href="/personality-analysis/categories">/personality-analysis/categories</a>.
 			</p>
 
-			{#each Object.values(stats.domains) as domain (domain.slug)}
-				<details class="domain-block">
+			{#each sortedDomains as domain, i (domain.slug)}
+				<details class="domain-block" open={i < OPEN_TOP_N} id="domain-{domain.slug}">
 					<summary>
 						<span class="domain-name">
 							<a href={domain.url}>{domain.label}</a>
@@ -200,16 +231,19 @@
 		</section>
 
 		<!-- ========== PER-TYPE TOP DOMAINS ========== -->
-		<section class="page-section">
-			<h2>Most Common Domains per Enneagram Type</h2>
+		<section class="page-section" aria-labelledby="per-type-heading" id="per-type-domains">
+			<h2 id="per-type-heading">Most Common Domains per Enneagram Type</h2>
 			<p class="lede">
 				For each type we profile, which domains dominate? The top three are listed by profile count
-				within that type, linked to the full category page.
+				within that type, linked to the full category page. The type name itself links to its
+				dedicated profile gallery.
 			</p>
 			<ul class="per-type-list">
 				{#each Object.entries(stats.per_type_domains) as [type, entry] (type)}
 					<li>
-						<span class="per-type-label">{TYPE_NAMES[Number(type)]}</span>
+						<span class="per-type-label">
+							<a href="/personality-analysis/type/{type}">{TYPE_NAMES[Number(type)]}</a>
+						</span>
 						<span class="per-type-total">n={entry.total}</span>
 						<span class="per-type-domains">
 							{#if entry.top_domains.length === 0}
@@ -227,13 +261,13 @@
 			</ul>
 		</section>
 
-		<!-- ========== COMPARISON TO PUBLIC DATA ========== -->
+		<!-- ========== COMPARISON TO PUBLIC DATA (component owns its own #comparison id) ========== -->
 		<CorpusStatsComparisonSection />
 
 		<!-- ========== PIPELINE ========== -->
 		{#if stats.pipeline}
-			<section class="page-section">
-				<h2>Pipeline</h2>
+			<section class="page-section" aria-labelledby="pipeline-heading" id="pipeline">
+				<h2 id="pipeline-heading">Pipeline</h2>
 				<p class="lede">
 					Proof the corpus is active, not frozen. Drafts in review + monthly shipping cadence show
 					new profiles are arriving on a regular beat.
@@ -260,8 +294,8 @@
 		{/if}
 
 		<!-- ========== METHODOLOGY ========== -->
-		<section class="page-section">
-			<h2>Methodology</h2>
+		<section class="page-section" aria-labelledby="methodology-heading" id="methodology">
+			<h2 id="methodology-heading">Methodology</h2>
 			<ul class="kv-list">
 				<li>
 					<strong>Source:</strong> The 9takes public-figure corpus — one row per profiled person.
@@ -286,12 +320,20 @@
 					<strong>Multi-domain figures:</strong> A person tagged as both a musician and an activist is
 					counted in both domains.
 				</li>
+				<li>
+					<strong>Related reading:</strong>
+					<a href="/enneagram-corner/enneagram-test-comparison-2025"
+						>which Enneagram tests actually work</a
+					>,
+					<a href="/enneagram-corner">Enneagram Corner</a>,
+					<a href="/personality-analysis">Personality Analysis hub</a>.
+				</li>
 			</ul>
 		</section>
 
 		<!-- ========== CITABLE CLAIMS ========== -->
-		<section class="page-section">
-			<h2>Ready-to-Cite Claims</h2>
+		<section class="page-section" aria-labelledby="claims-heading" id="citable-claims">
+			<h2 id="claims-heading">Ready-to-Cite Claims</h2>
 			<p class="lede">
 				These are pre-computed sentences safe to quote verbatim. Cite the generation date and a link
 				to this page.
@@ -303,9 +345,28 @@
 			</div>
 		</section>
 
+		<!-- ========== FAQ ========== -->
+		<section class="page-section" aria-labelledby="faq-heading" id="faq">
+			<h2 id="faq-heading">Frequently Asked Questions</h2>
+			<p class="lede">
+				The questions people (and language models) ask most about the 9takes corpus. Each answer is
+				bound to live data and regenerated on deploy.
+			</p>
+			<div class="faq-list">
+				{#each seo.faqs as faq, i (i)}
+					<details class="faq-item" open={i < 3}>
+						<summary>
+							<h3>{faq.q}</h3>
+						</summary>
+						<p>{faq.a}</p>
+					</details>
+				{/each}
+			</div>
+		</section>
+
 		<!-- ========== DOWNLOAD ========== -->
-		<section class="page-section">
-			<h2>Raw Dataset</h2>
+		<section class="page-section" aria-labelledby="download-heading" id="download">
+			<h2 id="download-heading">Raw Dataset</h2>
 			<p class="lede">
 				Want the underlying numbers? Download the raw JSON. Structured for schema.org
 				<code>Dataset</code> consumers and LLM ingestion.
@@ -410,7 +471,7 @@
 		margin-top: 0.75rem;
 	}
 
-	/* ===== TL;DR ===== */
+	/* ===== Key Findings ===== */
 	.tldr-list {
 		list-style: none;
 		padding: 0;
@@ -534,6 +595,13 @@
 		min-width: 12rem;
 		color: var(--shadow-flame, var(--lamp-glow));
 	}
+	.per-type-label a {
+		color: inherit;
+		text-decoration: none;
+	}
+	.per-type-label a:hover {
+		text-decoration: underline;
+	}
 	.per-type-total {
 		font-family: var(--font-mono);
 		font-size: 0.82rem;
@@ -575,6 +643,45 @@
 		border-radius: 0 8px 8px 0;
 		line-height: 1.55;
 		font-size: 0.98rem;
+	}
+
+	/* ===== FAQ ===== */
+	.faq-list {
+		display: grid;
+		gap: 0.6rem;
+	}
+	.faq-item {
+		border: 1px solid var(--stone-edge);
+		border-radius: 10px;
+		background: var(--stone-warm);
+		padding: 0.25rem 0;
+	}
+	.faq-item summary {
+		cursor: pointer;
+		padding: 0.85rem 1.15rem;
+		list-style: none;
+	}
+	.faq-item summary::-webkit-details-marker {
+		display: none;
+	}
+	.faq-item summary h3 {
+		display: inline;
+		margin: 0;
+		font-family: var(--font-display);
+		font-size: 1rem;
+		font-weight: 700;
+		color: var(--ink-bright);
+		line-height: 1.4;
+	}
+	.faq-item[open] summary {
+		border-bottom: 1px solid var(--stone-edge);
+		margin-bottom: 0.5rem;
+	}
+	.faq-item p {
+		margin: 0 1.15rem 0.85rem;
+		line-height: 1.55;
+		color: var(--ink-mid);
+		font-size: 0.95rem;
 	}
 
 	/* ===== Download ===== */

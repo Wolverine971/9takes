@@ -11,6 +11,8 @@
   in src/scss/index.scss bridge blocks; this file references them via var(--…).
 -->
 <script lang="ts">
+	import { onMount } from 'svelte';
+	import { browser } from '$app/environment';
 	import type { PageData } from './$types';
 	import type { FAQItem } from '$lib/types/faq';
 	import SEOHead from '$lib/components/SEOHead.svelte';
@@ -18,6 +20,41 @@
 	import { Button, SectionKicker } from '$lib/components/atoms';
 
 	let { data }: { data: PageData } = $props();
+
+	// ------------------------------------------------------------------
+	// Theme-aware pic swap. Each enneagram-type-N-dossier image ships in
+	// dark + light variants. Track the actual applied theme on <html> so
+	// the right variant renders on this index page reactively when the
+	// user toggles the theme toggle.
+	// ------------------------------------------------------------------
+	let effectiveTheme = $state<'light' | 'dark'>('dark');
+
+	onMount(() => {
+		const root = document.documentElement;
+		const sync = () => {
+			const dataTheme = root.dataset.theme;
+			if (dataTheme === 'light' || dataTheme === 'dark') {
+				effectiveTheme = dataTheme;
+			} else {
+				effectiveTheme = root.classList.contains('light') ? 'light' : 'dark';
+			}
+		};
+		sync();
+		const obs = new MutationObserver(sync);
+		obs.observe(root, { attributes: true, attributeFilter: ['class', 'data-theme'] });
+		return () => obs.disconnect();
+	});
+
+	// Pics with a paired light variant on disk. Only enneagram-type-N-dossier
+	// slugs (1–9) have `${slug}-light.webp`; everything else falls through.
+	const HAS_LIGHT_VARIANT = /^enneagram-type-[1-9]-dossier$/;
+
+	function picUrl(pic: string | null | undefined, small = false): string {
+		if (!pic) return '';
+		const suffix = effectiveTheme === 'light' && HAS_LIGHT_VARIANT.test(pic) ? '-light' : '';
+		const prefix = small ? 's-' : '';
+		return `/blogs/${prefix}${pic}${suffix}.webp`;
+	}
 
 	// ------------------------------------------------------------------
 	// FAQ — preserved verbatim from the legacy file (drives <FAQSection> +
@@ -148,16 +185,6 @@
 	// ------------------------------------------------------------------
 	// Helpers — mirror personality-analysis index for visual consistency.
 	// ------------------------------------------------------------------
-	function fileNumber(seed: string, index: number): string {
-		// Deterministic 4-digit dossier number — predictable per-card so the
-		// catalog feels real, not randomized. Slug-seeded so same post ⇒ same №.
-		let h = 0;
-		for (let i = 0; i < seed.length; i++) {
-			h = (h * 31 + seed.charCodeAt(i)) | 0;
-		}
-		return String((Math.abs(h) + index * 17 + 25) % 10000).padStart(4, '0');
-	}
-
 	function getRecencyLabel(lastmod: string | null, date: string | null): string | null {
 		const ref = lastmod ?? date;
 		if (!ref) return null;
@@ -181,165 +208,166 @@
 	function topicSuffix(i: number): string {
 		return String.fromCharCode(97 + (i % 26));
 	}
+
+	// ------------------------------------------------------------------
+	// SEO / JSON-LD
+	// ------------------------------------------------------------------
+	const SITE_URL = 'https://9takes.com';
+	const PAGE_URL = `${SITE_URL}/enneagram-corner`;
+	const PAGE_ID = `${PAGE_URL}#collection`;
+	const ORG_ID = `${SITE_URL}/#organization`;
+	const WEBSITE_ID = `${SITE_URL}/#website`;
+	const OG_IMAGE_URL = `${SITE_URL}/enneagram-corner-card.webp`;
+	const OG_IMAGE_WIDTH = 1200;
+	const OG_IMAGE_HEIGHT = 628;
+
+	// SEO copy — single source of truth (mirrored to <SEOHead> below).
+	const SEO_TITLE = 'Enneagram Personality Guide: Complete Psychology System | 9takes';
+	const SEO_DESCRIPTION =
+		'Decode the Enneagram. Find your type among 9 patterns, understand core motivations, and transform how you read every situation.';
+
+	function topicUrl(topic: TopicMeta): string {
+		// Prefer the dedicated subtopic page when one exists; fall back to a
+		// hash anchor only when nothing better is available. Nine-types is the
+		// edge case — its dedicated page is /enneagram-corner/subtopic/nine-types.
+		if (topic.viewAllHref) return `${SITE_URL}${topic.viewAllHref}`;
+		if (topic.type === 'nine-types') return `${SITE_URL}/enneagram-corner/subtopic/nine-types`;
+		return `${PAGE_URL}#${topic.id}`;
+	}
+
+	function absoluteImageUrl(pic: string | null | undefined): string | null {
+		if (!pic) return null;
+		// JSON-LD images stay theme-agnostic; always serve the dark-default variant.
+		return `${SITE_URL}/blogs/${pic}.webp`;
+	}
+
+	const faqJsonLd = $derived({
+		'@type': 'FAQPage',
+		'@id': `${PAGE_URL}#faq`,
+		inLanguage: 'en-US',
+		mainEntity: enneagramFAQs.map((faq) => ({
+			'@type': 'Question',
+			name: faq.question,
+			acceptedAnswer: { '@type': 'Answer', text: faq.answer }
+		}))
+	});
+
+	const breadcrumbJsonLd = $derived({
+		'@type': 'BreadcrumbList',
+		'@id': `${PAGE_URL}#breadcrumbs`,
+		itemListElement: [
+			{ '@type': 'ListItem', position: 1, name: 'Home', item: `${SITE_URL}/` },
+			{ '@type': 'ListItem', position: 2, name: 'Enneagram Corner', item: PAGE_URL }
+		]
+	});
+
+	const topicsItemList = $derived({
+		'@type': 'ItemList',
+		'@id': `${PAGE_URL}#topics`,
+		name: 'Enneagram Corner topics',
+		numberOfItems: topics.length,
+		itemListElement: topics.map((topic, i) => ({
+			'@type': 'ListItem',
+			position: i + 1,
+			url: topicUrl(topic),
+			item: {
+				'@type': 'CollectionPage',
+				'@id': topicUrl(topic),
+				name: topic.title,
+				description: topic.descriptor,
+				url: topicUrl(topic)
+			}
+		}))
+	});
+
+	// Featured + recently-updated posts surfaced as BlogPosting nodes so the
+	// hub's primary content is structured-data eligible (not just topic links).
+	const featuredArticles = $derived([...data.featured, ...data.recentlyUpdated]);
+	const articleNodes = $derived(
+		featuredArticles.map((post) => {
+			const url = `${SITE_URL}/enneagram-corner/${post.slug}`;
+			const image = absoluteImageUrl(post.pic);
+			const node: Record<string, unknown> = {
+				'@type': 'BlogPosting',
+				'@id': url,
+				headline: post.title,
+				description: post.description,
+				url,
+				mainEntityOfPage: url,
+				inLanguage: 'en-US',
+				isPartOf: { '@id': PAGE_ID },
+				author: { '@id': ORG_ID },
+				publisher: { '@id': ORG_ID }
+			};
+			if (post.date) node.datePublished = post.date;
+			const updated = post.lastmod ?? post.date;
+			if (updated) node.dateModified = updated;
+			if (image) node.image = image;
+			return node;
+		})
+	);
+
+	const collectionPageJsonLd = $derived({
+		'@type': 'CollectionPage',
+		'@id': PAGE_ID,
+		name: 'Enneagram Corner: Your Guide to Personal Growth',
+		headline: 'The Enneagram, decoded.',
+		description: SEO_DESCRIPTION,
+		url: PAGE_URL,
+		inLanguage: 'en-US',
+		isPartOf: { '@id': WEBSITE_ID },
+		about: {
+			'@type': 'Thing',
+			name: 'Enneagram personality system',
+			description:
+				'A personality framework describing nine interconnected types defined by core fears, desires, and motivations.'
+		},
+		author: { '@id': ORG_ID },
+		publisher: { '@id': ORG_ID },
+		image: {
+			'@type': 'ImageObject',
+			url: OG_IMAGE_URL,
+			width: OG_IMAGE_WIDTH,
+			height: OG_IMAGE_HEIGHT
+		},
+		mainEntity: { '@id': `${PAGE_URL}#topics` },
+		hasPart: articleNodes.map((node) => ({ '@id': node['@id'] })),
+		// Cross-link to sibling pillar hubs so crawlers see the related-entity graph.
+		relatedLink: [
+			`${SITE_URL}/personality-analysis`,
+			`${SITE_URL}/enneagram-test`,
+			`${SITE_URL}/questions`
+		],
+		speakable: {
+			'@type': 'SpeakableSpecification',
+			cssSelector: ['h1', '.hero-subhead-line-1']
+		},
+		...(data.earliestPublish ? { datePublished: data.earliestPublish } : {}),
+		...(data.latestUpdate ? { dateModified: data.latestUpdate } : {})
+	});
+
+	const jsonLdGraph = $derived({
+		'@context': 'https://schema.org',
+		'@graph': [breadcrumbJsonLd, collectionPageJsonLd, topicsItemList, ...articleNodes, faqJsonLd]
+	});
+
+	// Visible "Last updated" line — formatted versions of the aggregate dates.
+	const lastUpdatedLabel = $derived(data.latestUpdate ? formatDate(data.latestUpdate) : '');
+	const earliestPublishLabel = $derived(
+		data.earliestPublish ? formatDate(data.earliestPublish) : ''
+	);
 </script>
 
-<svelte:head>
-	<script type="application/ld+json">
-		{
-			"@context": "https://schema.org",
-			"@graph": [
-				{
-					"@type": "CollectionPage",
-					"mainEntity": {
-						"@type": "ItemList",
-						"itemListElement": [
-							{
-								"@type": "ListItem",
-								"position": 1,
-								"name": "The Nine Enneagram Types",
-								"description": "Detailed information about each of the nine Enneagram personality types",
-								"url": "https://9takes.com/enneagram-corner#nine-types"
-							},
-							{
-								"@type": "ListItem",
-								"position": 2,
-								"name": "Understanding the Enneagram",
-								"description": "Explore the basics and fundamentals of the Enneagram system",
-								"url": "https://9takes.com/enneagram-corner#understanding"
-							},
-							{
-								"@type": "ListItem",
-								"position": 3,
-								"name": "Personal Development",
-								"description": "Learn how to apply Enneagram insights for personal growth",
-								"url": "https://9takes.com/enneagram-corner#personal-development"
-							},
-							{
-								"@type": "ListItem",
-								"position": 4,
-								"name": "Relationships",
-								"description": "Understand how Enneagram types interact in relationships",
-								"url": "https://9takes.com/enneagram-corner#relationships"
-							},
-							{
-								"@type": "ListItem",
-								"position": 5,
-								"name": "Mental Health",
-								"description": "Type-specific mental health resources and healing strategies",
-								"url": "https://9takes.com/enneagram-corner#mental-health"
-							},
-							{
-								"@type": "ListItem",
-								"position": 6,
-								"name": "Career & Workplace",
-								"description": "Enneagram insights for professional development",
-								"url": "https://9takes.com/enneagram-corner#workplace"
-							},
-							{
-								"@type": "ListItem",
-								"position": 7,
-								"name": "Types in Real Life",
-								"description": "How Enneagram types respond in various situations",
-								"url": "https://9takes.com/enneagram-corner#situations"
-							},
-							{
-								"@type": "ListItem",
-								"position": 8,
-								"name": "Resources",
-								"description": "Curated Enneagram books, tools, and resources",
-								"url": "https://9takes.com/enneagram-corner#resources"
-							}
-						]
-					},
-					"name": "Enneagram Corner: Your Guide to Personal Growth",
-					"description": "Master the Enneagram personality system. Explore the nine types, personal development, relationships, and more.",
-					"url": "https://9takes.com/enneagram-corner",
-					"author": {
-						"@type": "Organization",
-						"name": "9takes",
-						"url": "https://9takes.com"
-					}
-				},
-				{
-					"@type": "FAQPage",
-					"mainEntity": [
-						{
-							"@type": "Question",
-							"name": "What is the Enneagram personality system?",
-							"acceptedAnswer": {
-								"@type": "Answer",
-								"text": "The Enneagram is a personality framework describing 9 interconnected types, each driven by distinct core fears, desires, and motivations. Unlike behavioral tests, it reveals WHY you act the way you do, not just what you do. Each type has predictable patterns of thinking, feeling, and responding to stress."
-							}
-						},
-						{
-							"@type": "Question",
-							"name": "How do I find my Enneagram type?",
-							"acceptedAnswer": {
-								"@type": "Answer",
-								"text": "Start by reading descriptions of all 9 types and notice which core fear resonates most deeply. Focus on motivation, not behavior. Many people mistype initially because they identify with healthy traits of other types. Consider taking a validated assessment and exploring how you respond under stress."
-							}
-						},
-						{
-							"@type": "Question",
-							"name": "How is the Enneagram different from MBTI?",
-							"acceptedAnswer": {
-								"@type": "Answer",
-								"text": "MBTI categorizes how you process information and make decisions (cognitive functions). The Enneagram maps your core emotional drivers and unconscious patterns. MBTI describes what you do; Enneagram explains why. Many find the Enneagram more useful for personal growth and understanding relationship dynamics."
-							}
-						},
-						{
-							"@type": "Question",
-							"name": "Can my Enneagram type change over time?",
-							"acceptedAnswer": {
-								"@type": "Answer",
-								"text": "Your core type remains constant throughout life, as it forms in childhood. However, you can grow within your type, accessing healthier behaviors and integrating traits from other types. Growth means expanding beyond your automatic patterns, not becoming a different type."
-							}
-						},
-						{
-							"@type": "Question",
-							"name": "What are Enneagram wings?",
-							"acceptedAnswer": {
-								"@type": "Answer",
-								"text": "Wings are the two types adjacent to your core type on the Enneagram circle. Most people lean toward one wing more than the other, which adds flavor to their personality. For example, a Type 9 might have a stronger 8 wing (9w8) or 1 wing (9w1), each creating distinct subtypes."
-							}
-						},
-						{
-							"@type": "Question",
-							"name": "Is the Enneagram scientifically validated?",
-							"acceptedAnswer": {
-								"@type": "Answer",
-								"text": "Research on the Enneagram is growing but limited compared to other personality systems. Studies show reasonable reliability and validity for typing. Its value lies in practical application: understanding motivations, improving relationships, and guiding personal development rather than statistical prediction."
-							}
-						},
-						{
-							"@type": "Question",
-							"name": "How can the Enneagram improve my relationships?",
-							"acceptedAnswer": {
-								"@type": "Answer",
-								"text": "The Enneagram reveals why people react differently to the same situation. Understanding your partner's type helps you stop taking their behavior personally and communicate in ways that actually land. It transforms 'they're being difficult' into 'they need something different than I do.'"
-							}
-						}
-					]
-				}
-			]
-		}
-	</script>
-</svelte:head>
-
 <SEOHead
-	title="Enneagram Personality Guide: Complete Psychology System | 9takes"
-	description="Master the Enneagram personality system. Discover your type among 9 distinct patterns, understand core motivations, break limiting patterns, and transform relationships."
-	canonical="https://9takes.com/enneagram-corner"
+	title={SEO_TITLE}
+	description={SEO_DESCRIPTION}
+	canonical={PAGE_URL}
 	twitterCardType="summary_large_image"
-	ogImage="https://9takes.com/enneagram-corner-card.webp"
-	additionalMeta={[
-		{
-			name: 'keywords',
-			content:
-				'enneagram, personality types, enneagram test, personality psychology, 9 types, self-improvement, personal growth'
-		},
-		{ name: 'author', content: '9takes' }
-	]}
+	ogImage={OG_IMAGE_URL}
+	ogImageWidth={OG_IMAGE_WIDTH}
+	ogImageHeight={OG_IMAGE_HEIGHT}
+	jsonLd={jsonLdGraph}
+	author="9takes"
 />
 
 <div class="library-index">
@@ -372,10 +400,6 @@
 					<span class="tick"></span>
 				</div>
 
-				<p class="mono coords">
-					LAT 37.9755° N · LONG 23.7348° E · ATHENS · {publishedCount} READS
-				</p>
-
 				<p class="hero-subhead hero-subhead-line-1">
 					9 emotional types. Each one leads with a different read of the same situation.
 					Here&rsquo;s what each one sees first &mdash; and what every type misses.
@@ -384,6 +408,20 @@
 					{publishedCount} reads. Decoded the way a real psychologist would &mdash; centers, wings, stress
 					lines, growth lines, and the moments those patterns show up.
 				</p>
+
+				{#if data.latestUpdate || data.earliestPublish}
+					<p class="hero-meta mono">
+						{#if data.earliestPublish}
+							Published <time datetime={data.earliestPublish}>{earliestPublishLabel}</time>
+						{/if}
+						{#if data.earliestPublish && data.latestUpdate}
+							·
+						{/if}
+						{#if data.latestUpdate}
+							Last updated <time datetime={data.latestUpdate}>{lastUpdatedLabel}</time>
+						{/if}
+					</p>
+				{/if}
 
 				<div class="hero-actions">
 					<Button size="md" variant="primary" href="/enneagram-corner/subtopic/nine-types">
@@ -439,7 +477,7 @@
 						<div class="case-image-wrap case-image-wrap--featured">
 							{#if post.pic}
 								<img
-									src={`/blogs/${post.pic}.webp`}
+									src={picUrl(post.pic)}
 									alt={post.title}
 									class="case-image"
 									loading={i < 2 ? 'eager' : 'lazy'}
@@ -455,9 +493,7 @@
 							{/if}
 						</div>
 						<div class="case-card-body">
-							<span class="mono case-id">
-								№ {fileNumber(post.slug, i)} · {topic}
-							</span>
+							<span class="mono case-id">{topic}</span>
 							<h3 class="case-name case-name--featured">{post.title}</h3>
 							{#if post.description}
 								<p class="case-subtitle case-subtitle--featured">{post.description}</p>
@@ -499,7 +535,7 @@
 						<div class="case-image-wrap">
 							{#if post.pic}
 								<img
-									src={`/blogs/s-${post.pic}.webp`}
+									src={picUrl(post.pic, true)}
 									alt={post.title}
 									class="case-image"
 									loading={i < 4 ? 'eager' : 'lazy'}
@@ -514,9 +550,7 @@
 							{/if}
 						</div>
 						<div class="case-card-body">
-							<span class="mono case-id">
-								№ {fileNumber(post.slug, i)} · {topic}
-							</span>
+							<span class="mono case-id">{topic}</span>
 							<h3 class="case-name">{post.title}</h3>
 							{#if post.description}
 								<p class="case-subtitle">{post.description}</p>
@@ -542,7 +576,13 @@
 		</header>
 
 		{#each topics as topic, ti}
-			{@const topicPosts = blogsByType.get(topic.type) ?? []}
+			{@const topicPosts =
+				topic.type === 'nine-types'
+					? [...(blogsByType.get(topic.type) ?? [])].sort((a, b) => a.slug.localeCompare(b.slug))
+					: (blogsByType.get(topic.type) ?? [])}
+			{@const topicLimit = topic.type === 'nine-types' ? 9 : 6}
+			{@const topicTotal = data.topicCounts?.[topic.type] ?? topicPosts.length}
+			{@const remaining = Math.max(0, topicTotal - topicLimit)}
 			{#if topicPosts.length > 0}
 				<div class="topic-block" id={topic.id}>
 					<header class="topic-block-head">
@@ -556,8 +596,8 @@
 						<p class="topic-block-sub">{topic.descriptor}</p>
 					</header>
 
-					<div class="case-grid case-grid--four">
-						{#each topicPosts.slice(0, 5) as post, i (post.slug)}
+					<div class="case-grid case-grid--three">
+						{#each topicPosts.slice(0, topicLimit) as post, i (post.slug)}
 							{@const label = getRecencyLabel(post.lastmod, post.date)}
 							<a
 								href="/enneagram-corner/{post.slug}"
@@ -567,7 +607,7 @@
 								<div class="case-image-wrap">
 									{#if post.pic}
 										<img
-											src={`/blogs/s-${post.pic}.webp`}
+											src={picUrl(post.pic, true)}
 											alt={post.title}
 											class="case-image"
 											loading="lazy"
@@ -582,11 +622,8 @@
 									{/if}
 								</div>
 								<div class="case-card-body">
-									<span class="mono case-id">
-										№ {fileNumber(post.slug, i)} · {topic.title.toUpperCase()}
-									</span>
 									<h3 class="case-name">{post.title}</h3>
-									{#if post.description}
+									{#if post.description && topic.type !== 'nine-types'}
 										<p class="case-subtitle">{post.description}</p>
 									{/if}
 									{#if label}
@@ -599,8 +636,13 @@
 
 					{#if topic.viewAllHref}
 						<div class="topic-block-cta">
-							<Button size="sm" variant="ghost" href={topic.viewAllHref}>
-								View all {topic.title} reads &rarr;
+							<Button size="md" variant="secondary" href={topic.viewAllHref}>
+								View all {topicTotal > 0 ? `${topicTotal} ` : ''}{topic.title} reads
+								{#if remaining > 0}
+									<span class="cta-extra">&middot; {remaining} more &rarr;</span>
+								{:else}
+									<span class="cta-extra">&rarr;</span>
+								{/if}
 							</Button>
 						</div>
 					{/if}
@@ -719,6 +761,7 @@
 	.library-index :global(h2),
 	.library-index :global(h3) {
 		margin: 0;
+		padding: 0;
 	}
 
 	.library-index :global(a) {
@@ -833,11 +876,6 @@
 		}
 	}
 
-	.coords {
-		color: var(--ink-dim);
-		margin-bottom: 28px;
-	}
-
 	.hero-subhead {
 		font-family: var(--font-display);
 		font-size: 18px;
@@ -853,6 +891,21 @@
 
 	.hero-subhead-line-1 {
 		margin-bottom: 10px;
+	}
+
+	.hero-meta {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 6px;
+		align-items: center;
+		margin-top: 14px;
+		color: var(--ink-dim);
+		font-size: 11.5px;
+		letter-spacing: 0.08em;
+
+		time {
+			color: var(--ink-mid);
+		}
 	}
 
 	.hero-actions {
@@ -963,9 +1016,13 @@
 	}
 
 	.case-grid--four {
-		grid-template-columns: repeat(4, 1fr);
+		grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+	}
 
-		@media (max-width: 1024px) {
+	.case-grid--three {
+		grid-template-columns: repeat(3, 1fr);
+
+		@media (max-width: 768px) {
 			grid-template-columns: repeat(2, 1fr);
 		}
 
@@ -1196,9 +1253,46 @@
 	}
 
 	.topic-block-cta {
-		margin-top: 28px;
+		margin-top: 36px;
 		display: flex;
 		justify-content: center;
+
+		:global(.btn) {
+			border-color: var(--data-teal);
+			color: var(--ink-bright);
+			padding-inline: 28px;
+			font-size: 15px;
+			font-weight: 600;
+			letter-spacing: -0.005em;
+			box-shadow: 0 0 0 0 transparent;
+			transition:
+				background 0.18s ease,
+				border-color 0.18s ease,
+				color 0.18s ease,
+				box-shadow 0.18s ease,
+				transform 0.18s ease;
+		}
+
+		:global(.btn:hover) {
+			background: var(--stone-mid);
+			border-color: var(--data-teal);
+			color: var(--ink-bright);
+			box-shadow: 0 0 0 4px rgba(var(--pool-rgb), 0.12);
+			transform: translateY(-1px);
+		}
+
+		.cta-extra {
+			margin-left: 6px;
+			color: var(--data-teal);
+			font-weight: 600;
+		}
+
+		@media (max-width: 540px) {
+			:global(.btn) {
+				width: 100%;
+				justify-content: center;
+			}
+		}
 	}
 
 	/* =========================================================

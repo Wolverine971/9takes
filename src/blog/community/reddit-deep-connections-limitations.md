@@ -131,7 +131,7 @@ path: src/blog/community/reddit-deep-connections-limitations.md
 
 <p class="firstLetter">You've scrolled r/relationship_advice at 2 AM looking for connection. You found 47 comments telling someone to "lawyer up" and a bot.</p>
 
-Reddit has communities for everything. Over 100,000 active subreddits, [57 million daily active users](https://www.redditinc.com/blog/reddit-recap-2023) (as of Reddit's 2023 year-end report), endless threads on every topic imaginable. But deep connection? That's the one thing it can't deliver.
+Reddit has communities for everything. Over 100,000 active subreddits, 57 million daily active users (as of Reddit's 2023 year-end report), endless threads on every topic imaginable. But deep connection? That's the one thing it can't deliver.
 
 Here's why. And it's not Reddit's fault. It's by design.
 

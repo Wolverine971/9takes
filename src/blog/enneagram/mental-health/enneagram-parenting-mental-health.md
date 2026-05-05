@@ -92,7 +92,6 @@ _This table reflects common observations parents report — not diagnostic crite
 
 **Trust your instinct.** If your child's struggles have moved from the "Typical" column to "May Become Concerning," that gut feeling matters. You don't need to wait for a crisis to reach out to a professional.
 
-
 ## Type 1 Patterns: The Little Perfectionist
 
 _"Mommy, I'm so stupid! I colored outside the lines!"_

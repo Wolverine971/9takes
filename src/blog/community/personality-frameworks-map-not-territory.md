@@ -11,7 +11,7 @@ published: true
 type: ['opinion']
 blog: true
 previewHtml: 'Stop arguing over the map. Update the math. The type is not you — and that distinction changes everything.'
-pic: ''
+pic: 'greek-statue-in-an-open-cage-typing-on-a-computer'
 path: src/blog/community/personality-frameworks-map-not-territory.md
 ---
 

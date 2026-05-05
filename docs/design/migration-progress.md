@@ -11,28 +11,30 @@
 
 ## At a glance — DONE 🎉
 
-| Phase | Title                                             | Status                                       |
-| ----- | ------------------------------------------------- | -------------------------------------------- |
-| 1     | Lock spec, kill drift                             | ✅ done (2026-05-04)                         |
-| 2     | Inter swap + glow cleanup                         | ✅ done (2026-05-05)                         |
-| 3     | `/styleguide` route + canonical atoms             | ✅ done (2026-05-05)                         |
-| 4     | Production homepage migration                     | ✅ done (DJ smoke-tested live)               |
-| 5     | Top-traffic pages — mechanical migration          | ✅ done (2026-05-05)                         |
-| 6     | Asset generators (user + admin)                   | ✅ done (2026-05-05)                         |
-| 7a    | Token cleanup — user-visible components           | ✅ done (2026-05-05)                         |
-| 7b    | Token cleanup — full sweep across src/            | ✅ done (2026-05-05) — 0 legacy refs in code |
-| 7c    | Bridge demolition + preview cleanup               | ✅ done (2026-05-05)                         |
+| Phase | Title                                    | Status                                       |
+| ----- | ---------------------------------------- | -------------------------------------------- |
+| 1     | Lock spec, kill drift                    | ✅ done (2026-05-04)                         |
+| 2     | Inter swap + glow cleanup                | ✅ done (2026-05-05)                         |
+| 3     | `/styleguide` route + canonical atoms    | ✅ done (2026-05-05)                         |
+| 4     | Production homepage migration            | ✅ done (DJ smoke-tested live)               |
+| 5     | Top-traffic pages — mechanical migration | ✅ done (2026-05-05)                         |
+| 6     | Asset generators (user + admin)          | ✅ done (2026-05-05)                         |
+| 7a    | Token cleanup — user-visible components  | ✅ done (2026-05-05)                         |
+| 7b    | Token cleanup — full sweep across src/   | ✅ done (2026-05-05) — 0 legacy refs in code |
+| 7c    | Bridge demolition + preview cleanup      | ✅ done (2026-05-05)                         |
 
 ---
 
 ## Final state (2026-05-05)
 
 ### Code
+
 - **0 legacy** `var(--bg-*)` / `var(--text-*)` / `var(--primary*)` / `var(--accent*)` / `var(--border-color)` references in any `.svelte`, `.scss`, `.svg`, or `.ts` file in `src/`.
 - `svelte-check` → **0 errors**, 156 warnings (all pre-existing CSS selector warnings).
 - 47 svelte files type-checked (down from 50 after deleting `/design-preview/v2|v3|v4`).
 
 ### SCSS bridge demolition (Phase 7c)
+
 - Legacy token NAMES still exist in `src/scss/index.scss` as **one-line aliases** to V5 tokens:
   - `--bg-base: var(--night-deep);`
   - `--text-primary: var(--ink-bright);`
@@ -45,6 +47,7 @@
 - Both dark + light theme blocks updated.
 
 ### Preview route cleanup
+
 - Deleted `/design-preview/v2/` (~2,398 lines)
 - Deleted `/design-preview/v3/` (~2,575 lines)
 - Deleted `/design-preview/v4/` (~2,880 lines)
@@ -52,6 +55,7 @@
 - `/design-preview/v5/` retained for rollback window.
 
 ### Nav + search files (DJ-verified)
+
 All clean and visually consistent under V5:
 
 - `Header.svelte` — top nav bar
@@ -62,6 +66,7 @@ All clean and visually consistent under V5:
 - `SearchQuestion.svelte` — full search UI
 
 ### Packages
+
 - `@fontsource/rajdhani` removed
 - `@fontsource/space-grotesk` removed
 - Inter Variable + JetBrains Mono are the only loaded font families
@@ -82,25 +87,32 @@ All clean and visually consistent under V5:
 
 ---
 
-## What's open (non-blocking polish)
-
-These are deliberate skip items, not migration debt:
+## What's open
 
 - **Phase 5 #6 visual redesign** — "Greek imagery as section anchors" reading layout is a separate design exploration. Mechanical migration done; design spec needed before implementation.
-- **ESLint plugin for `.svelte` files** — current ESLint config ignores `**/*.svelte`. Adding `eslint-plugin-svelte` would enable lint rules to ban raw Tailwind grays/colors going forward. Future tooling task.
-- **Atom font-weight** — atoms (`Button`, `EmptyState`, `ErrorState`) use `font-weight: 600`; styleguide spec uses 700. Pick one.
-- **`<EmptyState>` / `<ErrorState>` styleguide examples** — `/styleguide` intentionally inlines spec markup. Add live atom comparison rows or leave inline.
-- **Markdown drafts under `src/blog/`** — some unpublished drafts contain inline `var(--primary)` HTML. Content, not design.
+
+## Closed in 2026-05-05 final pass
+
+- ✅ **`<EmptyState>` / `<ErrorState>` styleguide examples** — added side-by-side spec + live-atom comparison in `/styleguide §11`. Both atoms render alongside the inline visual spec so the canonical rendering is visible.
+- ✅ **`/personality-analysis/categories/[slug]` styled for V5** — verified the page already used V5 tokens correctly. Upgraded inline `.section-kicker` and `.eyebrow` markup to use the canonical `<SectionKicker>` atom (matching sibling pages `/personality-analysis/+page.svelte` and `/personality-analysis/[slug]/+page.svelte`). Sections now have proper `§NN · LABEL` JetBrains Mono kickers (§01 SUBCATEGORIES, §02 FEATURED, §03 LIBRARY, §04 ADJACENT). `tone="data"` (teal) on the Type Spread kicker, `tone="dim"` on group-card profile counts. `corpus-insight-eyebrow` switched to mono + `--data-teal`.
+
+## Closed in 2026-05-05 polish pass
+
+- ✅ **ESLint plugin for `.svelte` files** — `eslint-plugin-svelte` + `svelte-eslint-parser` installed and configured. `pnpm lint` now lints `.svelte` files. Recommended-config noise rules silenced (existing legacy code triggers them but they're not migration-blockers).
+- ✅ **Tailwind ban rule active** — custom `no-restricted-syntax` rule blocks raw `bg-gray-500`, `text-blue-700`, etc. across 15 banned color roots × 11 shades × 14 utility prefixes. New code introducing these fails lint. 10 pre-existing files grandfathered with explicit override (listed in `eslint.config.js`).
+- ✅ **Atom font-weight resolved** — `EmptyState` + `ErrorState` bumped to `font-weight: 700` to match the styleguide `sg-state-title` spec. `Button` stays at 600 since the styleguide `sg-btn` spec is also 600 (no mismatch).
+- ✅ **Markdown drafts swept** — `src/blog/community/drafts/introducing-9takes-original.md` migrated to V5 tokens. `src/blog/` now has 0 legacy `var(--primary)` references.
+- ✅ **Files with svelte-eslint-parser limitations** — 11 files with `<script>` tags inside `{@html template literals}` (JSON-LD) added to ignore list. Lint still works on the rest of the codebase.
 
 ---
 
 ## Audit log
 
-| Date       | Audit notes                                                                                                                                                                                                                                                                                                                              |
-| ---------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 2026-05-05 | Initial creation. Phase 5 8/13 routes already migrated.                                                                                                                                                                                                                                                                                  |
-| 2026-05-05 | Phase 5 mechanical complete. Phase 6 done. Packages removed.                                                                                                                                                                                                                                                                             |
-| 2026-05-05 | Phase 7a high-traffic components swept. 2,409 → 1,967.                                                                                                                                                                                                                                                                                   |
-| 2026-05-05 | Phase 7b major sweep across admin surfaces. 1,492 → 489.                                                                                                                                                                                                                                                                                 |
-| 2026-05-05 | Phase 7b complete. Sed sweep cleaned long tail. Nav + search files verified. 2,409 → 0 legacy refs in src/ code.                                                                                                                                                                                                                         |
+| Date       | Audit notes                                                                                                                                                                                                                                           |
+| ---------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 2026-05-05 | Initial creation. Phase 5 8/13 routes already migrated.                                                                                                                                                                                               |
+| 2026-05-05 | Phase 5 mechanical complete. Phase 6 done. Packages removed.                                                                                                                                                                                          |
+| 2026-05-05 | Phase 7a high-traffic components swept. 2,409 → 1,967.                                                                                                                                                                                                |
+| 2026-05-05 | Phase 7b major sweep across admin surfaces. 1,492 → 489.                                                                                                                                                                                              |
+| 2026-05-05 | Phase 7b complete. Sed sweep cleaned long tail. Nav + search files verified. 2,409 → 0 legacy refs in src/ code.                                                                                                                                      |
 | 2026-05-05 | **Phase 7c complete.** Legacy SCSS tokens redirected to V5 aliases (V5 is now single source of truth). Body styles use V5 directly. `/design-preview/v2\|v3\|v4` deleted (~7,853 lines). svelte-check: 0 errors, 47 files. **Migration is complete.** |

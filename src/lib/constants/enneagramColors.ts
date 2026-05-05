@@ -10,22 +10,20 @@
 export interface EnneagramTypeColor {
 	/** Primary display color (works on both light and dark backgrounds) */
 	color: string;
-	/** Name of the Enneagram type */
+	/** Classic archetypal name of the Enneagram type */
 	name: string;
-	/** Short title / archetype label */
-	title: string;
 }
 
 export const ENNEAGRAM_TYPE_COLORS: Record<number, EnneagramTypeColor> = {
-	1: { color: '#6366F1', name: 'The Perfectionist', title: 'Knight of Order' },
-	2: { color: '#F472B6', name: 'The Helper', title: 'Heart Guardian' },
-	3: { color: '#F59E0B', name: 'The Achiever', title: 'Victory Blade' },
-	4: { color: '#A855F7', name: 'The Individualist', title: 'Soul Weaver' },
-	5: { color: '#0EA5E9', name: 'The Investigator', title: 'Mind Phantom' },
-	6: { color: '#22C55E', name: 'The Loyalist', title: 'Iron Guard' },
-	7: { color: '#FBBF24', name: 'The Enthusiast', title: 'Storm Rider' },
-	8: { color: '#DC2626', name: 'The Challenger', title: 'War Commander' },
-	9: { color: '#34D399', name: 'The Peacemaker', title: 'Harmony Sage' }
+	1: { color: '#6366F1', name: 'The Perfectionist' },
+	2: { color: '#F472B6', name: 'The Helper' },
+	3: { color: '#F59E0B', name: 'The Achiever' },
+	4: { color: '#A855F7', name: 'The Individualist' },
+	5: { color: '#0EA5E9', name: 'The Investigator' },
+	6: { color: '#22C55E', name: 'The Loyalist' },
+	7: { color: '#FBBF24', name: 'The Enthusiast' },
+	8: { color: '#DC2626', name: 'The Challenger' },
+	9: { color: '#34D399', name: 'The Peacemaker' }
 };
 
 /** Quick lookup: type number → hex color string */

@@ -1,5 +1,5 @@
 ---
-title: 'Enneagram Type 5: The Observer - Inside the Fortress Mind'
+title: 'Enneagram Type 5: Observer - Inside the Fortress Mind'
 meta_title: 'Why You Withdraw From Everyone (Type 5 Isolation Patterns)'
 description: "Feel drained by people and crave constant alone time? That's Type 5. Learn why social interaction feels depleting, why you need to withdraw to recharge, and what you're really protecting."
 author: 'DJ Wayne'
@@ -11,7 +11,7 @@ priority: '0.6'
 published: true
 type: ['nine-types']
 blog: true
-pic: ''
+pic: 'enneagram-type-5-dossier'
 path: src/blog/enneagram/enneagram-type-5.md
 quality_grade: 'B+'
 quality_score: 8.9
@@ -44,13 +44,8 @@ type-5-fortress-mind
     import MarqueeHorizontal from "$lib/components/atoms/MarqueeHorizontal.svelte";
     import PopCard from "$lib/components/atoms/PopCard.svelte";
     import QuickAnswer from "$lib/components/blog/callouts/QuickAnswer.svelte";
-    import EnneagramTypeDossier from "$lib/components/blog/EnneagramTypeDossier.svelte";
-    import { enneagramTypeProfiles } from "$lib/data/enneagramTypeProfiles";
 
-    const dossier = enneagramTypeProfiles[5];
 </script>
-
-<EnneagramTypeDossier {...dossier} />
 
 <QuickAnswer question="Why do Type 5s withdraw from everyone?">
 Every interaction costs energy from a limited account. Fives retreat not because they're antisocial but because they learned early that the world takes more than it gives. Withdrawal isn't avoidance—it's resource management.

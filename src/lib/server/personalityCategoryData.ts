@@ -147,6 +147,24 @@ export function getLatestCategoryDate(people: PersonalityCategoryPerson[]): stri
 	);
 }
 
+export function getEarliestCategoryDate(people: PersonalityCategoryPerson[]): string | null {
+	let earliest: string | null = null;
+	let earliestTimestamp = Number.POSITIVE_INFINITY;
+
+	for (const person of people) {
+		const candidate = person.date ?? person.lastmod;
+		if (!candidate) continue;
+
+		const timestamp = new Date(candidate).getTime();
+		if (!Number.isFinite(timestamp) || timestamp >= earliestTimestamp) continue;
+
+		earliest = candidate;
+		earliestTimestamp = timestamp;
+	}
+
+	return earliest;
+}
+
 export function getEnneagramDistribution(
 	people: PersonalityCategoryPerson[]
 ): EnneagramDistributionItem[] {

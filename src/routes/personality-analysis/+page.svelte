@@ -90,6 +90,7 @@
 	);
 
 	const totalPeople = $derived(data.totalPeople);
+	const typeCounts = $derived(data.typeCounts ?? {});
 
 	// ------------------------------------------------------------------
 	// SEO + structured data — preserved verbatim from the legacy file.
@@ -151,17 +152,8 @@
 	});
 
 	// ------------------------------------------------------------------
-	// Helpers — file numbers + recency labels for the case-file cards.
+	// Helpers — recency labels for the case-file cards.
 	// ------------------------------------------------------------------
-	function fileNumber(seed: string, index: number): string {
-		// Deterministic 4-digit dossier number — predictable per-card so the
-		// catalog feels real, not randomized. Slug-seeded so same person ⇒ same №.
-		let h = 0;
-		for (let i = 0; i < seed.length; i++) {
-			h = (h * 31 + seed.charCodeAt(i)) | 0;
-		}
-		return String((Math.abs(h) + index * 17 + 25) % 10000).padStart(4, '0');
-	}
 
 	function getRecencyLabel(lastmod: string | null, date: string | null): string | null {
 		const ref = lastmod ?? date;
@@ -218,10 +210,6 @@
 					<span class="tick"></span>
 					<span class="tick"></span>
 				</div>
-
-				<p class="mono coords">
-					LAT 37.9755° N · LONG 23.7348° E · ATHENS · {totalPeople}+ READS
-				</p>
 
 				<p class="hero-subhead hero-subhead-line-1">
 					We read public figures through the Enneagram &mdash; the framework that maps 9 emotional
@@ -288,8 +276,7 @@
 						</div>
 						<div class="case-card-body">
 							<span class="mono case-id">
-								№ {fileNumber(person.slug, i)} · TYPE {typeNum} · {typeMeta?.name?.toUpperCase() ??
-									'TYPE'}
+								TYPE {typeNum} · {typeMeta?.name?.toUpperCase() ?? 'TYPE'}
 							</span>
 							<h3 class="case-name case-name--featured">{displayName}</h3>
 							<p class="case-subtitle">
@@ -346,9 +333,7 @@
 							{/if}
 						</div>
 						<div class="case-card-body">
-							<span class="mono case-id">
-								№ {fileNumber(person.slug, i)} · TYPE {typeNum}
-							</span>
+							<span class="mono case-id">TYPE {typeNum}</span>
 							<h3 class="case-name">{displayName}</h3>
 							<p class="case-subtitle">
 								The {typeMeta?.name ?? ''}.
@@ -378,6 +363,8 @@
 		{#each typeData as t}
 			{@const typePeople = peopleForType(t.num)}
 			{#if typePeople.length > 0}
+				{@const totalForType = typeCounts[String(t.num)] ?? 0}
+				{@const remaining = Math.max(0, totalForType - typePeople.slice(0, 6).length)}
 				<div class="type-block" id="type-{t.num}" style="--type-stripe: var(--type-{t.num}-color);">
 					<header class="type-block-head">
 						<SectionKicker
@@ -392,7 +379,7 @@
 					</header>
 
 					<div class="case-grid case-grid--four">
-						{#each typePeople.slice(0, 5) as person, i (person.slug)}
+						{#each typePeople.slice(0, 6) as person, i (person.slug)}
 							{@const displayName = formatPersonalityDisplayName(person.slug)}
 							{@const label = getRecencyLabel(person.lastmod, person.date)}
 							<a
@@ -419,9 +406,7 @@
 									{/if}
 								</div>
 								<div class="case-card-body">
-									<span class="mono case-id">
-										№ {fileNumber(person.slug, i)} · TYPE {t.num}
-									</span>
+									<span class="mono case-id">TYPE {t.num}</span>
 									<h3 class="case-name">{displayName}</h3>
 									<p class="case-subtitle">The {t.name}.</p>
 									{#if label}
@@ -433,8 +418,15 @@
 					</div>
 
 					<div class="type-block-cta">
-						<Button size="sm" variant="ghost" href={`/personality-analysis/type/${t.num}`}>
-							View all Type {t.num} reads →
+						<Button size="md" variant="secondary" href={`/personality-analysis/type/${t.num}`}>
+							{#if totalForType > 0}
+								View all {totalForType} Type {t.num} reads
+								{#if remaining > 0}<span class="cta-extra">· {remaining} more →</span>{:else}<span
+										class="cta-extra">→</span
+									>{/if}
+							{:else}
+								View all Type {t.num} reads →
+							{/if}
 						</Button>
 					</div>
 				</div>
@@ -658,11 +650,6 @@
 		}
 	}
 
-	.coords {
-		color: var(--ink-dim);
-		margin-bottom: 28px;
-	}
-
 	.hero-subhead {
 		font-family: var(--font-display);
 		font-size: 18px;
@@ -772,13 +759,13 @@
 	}
 
 	.case-grid--four {
-		grid-template-columns: repeat(4, 1fr);
+		grid-template-columns: repeat(3, 1fr);
 
-		@media (max-width: 1024px) {
+		@media (max-width: 968px) {
 			grid-template-columns: repeat(2, 1fr);
 		}
 
-		@media (max-width: 480px) {
+		@media (max-width: 540px) {
 			grid-template-columns: 1fr;
 		}
 	}
@@ -976,9 +963,46 @@
 	}
 
 	.type-block-cta {
-		margin-top: 28px;
+		margin-top: 36px;
 		display: flex;
 		justify-content: center;
+
+		:global(.btn) {
+			border-color: var(--type-stripe);
+			color: var(--ink-bright);
+			padding-inline: 28px;
+			font-size: 15px;
+			font-weight: 600;
+			letter-spacing: -0.005em;
+			box-shadow: 0 0 0 0 transparent;
+			transition:
+				background 0.18s ease,
+				border-color 0.18s ease,
+				color 0.18s ease,
+				box-shadow 0.18s ease,
+				transform 0.18s ease;
+		}
+
+		:global(.btn:hover) {
+			background: var(--stone-mid);
+			border-color: var(--type-stripe);
+			color: var(--ink-bright);
+			box-shadow: 0 0 0 4px rgba(var(--pool-rgb), 0.12);
+			transform: translateY(-1px);
+		}
+
+		.cta-extra {
+			margin-left: 8px;
+			color: var(--type-stripe);
+			font-weight: 600;
+		}
+
+		@media (max-width: 540px) {
+			:global(.btn) {
+				width: 100%;
+				justify-content: center;
+			}
+		}
 	}
 
 	/* =========================================================

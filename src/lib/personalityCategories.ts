@@ -23,7 +23,19 @@ export interface PersonalityCategoryDefinition {
 	seoTitle: string;
 	seoDescription: string;
 	seoKeywords: string[];
+	/**
+	 * 100–150 word paragraph rendered visibly under the hero lede.
+	 * Should organically include 2–3 seoKeywords and read like value-dense
+	 * editorial copy, not a meta description rephrase.
+	 */
+	seoIntro: string;
 	seoFaqs: Array<{ question: string; answer: string }>;
+	/**
+	 * Optional absolute URL to a per-category OG/Twitter card.
+	 * Falls back to the brand-wide social card when omitted.
+	 * Should be a 1200×628 image hosted under https://9takes.com/.
+	 */
+	ogImage?: string;
 	accent: string;
 	accentSoft: string;
 	rawTypes: string[];
@@ -51,6 +63,8 @@ export const PERSONALITY_CATEGORY_DEFINITIONS: PersonalityCategoryDefinition[] =
 			'movie star enneagram',
 			'film and television enneagram'
 		],
+		seoIntro:
+			'Film and TV personality analysis on 9takes maps how actors, celebrities, and rising stars actually behave under image pressure — not how their PR teams describe them. Movie star Enneagram types make image management, romantic projection, reinvention, and the gap between public myth and private self unusually easy to read. By comparing actor Enneagram types side by side — screen icons against breakout performers, A-list celebrities against TV crossovers — you can see which patterns repeat and why some careers stall while others compound. Each profile is built from interviews, public behavior, and consistent emotional signals across years of footage. Use this category as a lens, not a label: the goal is sharper pattern recognition, not box-checking a personality.',
 		seoFaqs: [
 			{
 				question: 'What is included in the Film & TV category?',
@@ -94,6 +108,8 @@ export const PERSONALITY_CATEGORY_DEFINITIONS: PersonalityCategoryDefinition[] =
 			'podcaster enneagram',
 			'internet personalities enneagram'
 		],
+		seoIntro:
+			'Creator personality analysis is where Enneagram patterns become visible in real time. YouTubers, podcasters, streamers, and influencer personality types live inside constant audience feedback, so the trade-offs between authenticity and persona, ambition and burnout, intimacy and parasociality show up faster than in any other domain. The internet personalities Enneagram lens is useful precisely because the work itself is identity work — every upload reinforces or contradicts a public self. This category compares podcaster Enneagram patterns alongside commentary creators, business and self-improvement personalities, viral entertainers, and lifestyle brand builders. Read across lanes to see which traits scale on platform pressure, which collapse under it, and which Enneagram types shift their tone the moment the camera turns on.',
 		seoFaqs: [
 			{
 				question: 'What kinds of creators are included here?',
@@ -137,6 +153,8 @@ export const PERSONALITY_CATEGORY_DEFINITIONS: PersonalityCategoryDefinition[] =
 			'pop star enneagram',
 			'artist personality analysis'
 		],
+		seoIntro:
+			'Musician personality types reveal where authenticity, persona, and ambition collide. Pop star Enneagram analysis on this page covers singers, rappers, alternative voices, and singer-songwriters whose public identity is inseparable from their music. Comparing rapper personality analysis next to indie songwriters and crossover artists makes the tension between commercial scale and creative obsession visible — and often shows why two artists with identical résumés have completely different relationships with fame. Each musician Enneagram profile is built around recurring patterns in lyrics, interviews, performance choices, and public conflict, not single moments. Use this category to ask why a given artist sounds like themselves, where the persona ends and the person begins, and which Enneagram types cope by writing.',
 		seoFaqs: [
 			{
 				question: 'What kinds of artists are in the music category?',
@@ -180,6 +198,8 @@ export const PERSONALITY_CATEGORY_DEFINITIONS: PersonalityCategoryDefinition[] =
 			'activist enneagram types',
 			'public figures personality types'
 		],
+		seoIntro:
+			'Political personality analysis exposes how conviction, fear, charisma, and duty actually behave under stakes. Politician personality types in this category include presidents, campaign politicians, activists, royals, and historical leaders — all settings where personality has to operate in public, on the record, with consequences. Political Enneagram comparisons make power style legible: which leaders run on conviction, which on grievance, which on duty, and which on optimism. The activist Enneagram lens is especially useful when the work is movement-building rather than office-holding, because moral clarity and strategic patience pull in different directions. Use this page to compare leader personality analysis across eras, ideologies, and institutions, and see which Enneagram patterns repeat — even across centuries.',
 		seoFaqs: [
 			{
 				question: 'Who appears in the Politics & Public Figures category?',
@@ -222,6 +242,8 @@ export const PERSONALITY_CATEGORY_DEFINITIONS: PersonalityCategoryDefinition[] =
 			'investor enneagram',
 			'business leader personality types'
 		],
+		seoIntro:
+			'Founder personality types reveal how leverage, control, and long-term strategy actually operate. The tech CEO Enneagram lens on this page covers public-company chiefs, frontier builders in AI and defense, operators, investors, and tech-media interpreters — high-agency people whose psychology gets compounded by capital, distribution, and time. Comparing startup founder personality analysis side by side with public-company operators makes one thing obvious: the same trait that builds a company can wreck the next stage of it. Investor Enneagram profiles add the capital-allocator angle — pattern matching, conviction, contrarianism, and risk tolerance — so you can see how money and operating styles map differently. Read this category for business leader personality types whose decisions ripple far beyond the org chart.',
 		seoFaqs: [
 			{
 				question: 'What people are included in Tech, Founders & Business?',
@@ -264,6 +286,8 @@ export const PERSONALITY_CATEGORY_DEFINITIONS: PersonalityCategoryDefinition[] =
 			'satire host enneagram',
 			'sketch comedian personality'
 		],
+		seoIntro:
+			'Comedian personality types are a working laboratory for the Enneagram, because the coping style is the act. Stand-up comedian Enneagram analysis on this page includes headliners, sketch and TV comics, satire hosts, and internet-native comedians — performers whose insecurities, aggressions, status games, and honesty mechanisms are built into the material. Compare comedy personality analysis across lanes and the patterns get sharper: which comics use shame as fuel, which use absurdity as armor, which weaponize charm, and which use the stage as the only safe room they have. Each satire host Enneagram profile and sketch comedian personality breakdown is grounded in repeated behavior across specials, interviews, and persona shifts, not single jokes — because the long arc is where the type shows up.',
 		seoFaqs: [
 			{
 				question: 'What kinds of comedians are included on this page?',
@@ -306,6 +330,8 @@ export const PERSONALITY_CATEGORY_DEFINITIONS: PersonalityCategoryDefinition[] =
 			'thinker enneagram types',
 			'author enneagram analysis'
 		],
+		seoIntro:
+			'Author personality types reveal a different shape of psychology than fame-based profiles, because the work happens in private and the output is structure. Writer Enneagram analysis here covers novelists, essayists, strategy and psychology writers, and public interpreters — people whose careers are built around frameworks, ideas, and narrative control rather than spectacle. Psychologist personality analysis shows how internal models become public-facing tools, while thinker Enneagram types make explanatory style and intellectual obsession easy to compare across disciplines. Read this category to see how different personalities build worlds in language: which authors compress, which expand, which moralize, which categorize, and which use writing to manage their own type. The author Enneagram analysis on each profile traces patterns across decades of work.',
 		seoFaqs: [
 			{
 				question: 'Who appears in Authors & Thinkers?',

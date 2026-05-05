@@ -43,6 +43,7 @@ export type EnneagramTypeProfile = {
 	harmonic: Harmonic;
 	stressLine: MovementLine;
 	growthLine: MovementLine;
+	akaArchetypes: [string, string];
 	stats: DossierStat[];
 	specimenLine: string;
 	ctaHref: string;
@@ -78,8 +79,10 @@ export const enneagramTypeProfiles: Record<number, EnneagramTypeProfile> = {
 		harmonic: 'Competency',
 		stressLine: { type: 4, archetype: 'The Individualist' },
 		growthLine: { type: 7, archetype: 'The Enthusiast' },
+		akaArchetypes: ['The Idealist', 'The Advocate'],
 		stats: buildStats([78, 65, 95, 65, 35]),
-		specimenLine: 'ORDER · INTEGRITY · DISCIPLINE · TRUTH',
+		specimenLine:
+			'ORDER · INTEGRITY · DISCIPLINE · TRUTH · STANDARDS · IMPROVEMENT · JUSTICE · PRECISION · PRINCIPLE',
 		ctaHref: '#the-internal-courtroom',
 		ctaLabel: CTA_LABEL,
 		lastObserved: LAST_OBSERVED
@@ -97,8 +100,10 @@ export const enneagramTypeProfiles: Record<number, EnneagramTypeProfile> = {
 		harmonic: 'Positive Outlook',
 		stressLine: { type: 8, archetype: 'The Challenger' },
 		growthLine: { type: 4, archetype: 'The Individualist' },
+		akaArchetypes: ['The Servant', 'The Host'],
 		stats: buildStats([35, 95, 45, 65, 50]),
-		specimenLine: 'CONNECTION · LOVE · WARMTH · SERVICE',
+		specimenLine:
+			'LOVE · CONNECTION · SERVICE · WARMTH · GENEROSITY · COMPASSION · DEVOTION · EMPATHY · NURTURE',
 		ctaHref: '#the-one-way-mirror',
 		ctaLabel: CTA_LABEL,
 		lastObserved: LAST_OBSERVED
@@ -116,8 +121,10 @@ export const enneagramTypeProfiles: Record<number, EnneagramTypeProfile> = {
 		harmonic: 'Competency',
 		stressLine: { type: 9, archetype: 'The Peacemaker' },
 		growthLine: { type: 6, archetype: 'The Loyalist' },
+		akaArchetypes: ['The Charmer', 'The Professional'],
 		stats: buildStats([75, 80, 70, 45, 60]),
-		specimenLine: 'ACHIEVEMENT · DRIVE · IMAGE · SUCCESS',
+		specimenLine:
+			'ACHIEVEMENT · DRIVE · SUCCESS · AMBITION · EXCELLENCE · RECOGNITION · IMAGE · PERFORMANCE · CHARISMA',
 		ctaHref: '#the-shape-shifting-self',
 		ctaLabel: CTA_LABEL,
 		lastObserved: LAST_OBSERVED
@@ -135,8 +142,10 @@ export const enneagramTypeProfiles: Record<number, EnneagramTypeProfile> = {
 		harmonic: 'Reactive',
 		stressLine: { type: 2, archetype: 'The Helper' },
 		growthLine: { type: 1, archetype: 'The Reformer' },
+		akaArchetypes: ['The Aristocrat', 'The Bohemian'],
 		stats: buildStats([65, 25, 25, 90, 80]),
-		specimenLine: 'AUTHENTICITY · DEPTH · BEAUTY · IDENTITY',
+		specimenLine:
+			'AUTHENTICITY · DEPTH · IDENTITY · BEAUTY · EXPRESSION · UNIQUENESS · MEANING · LONGING · NUANCE',
 		ctaHref: '#the-missing-piece',
 		ctaLabel: CTA_LABEL,
 		lastObserved: LAST_OBSERVED
@@ -154,8 +163,10 @@ export const enneagramTypeProfiles: Record<number, EnneagramTypeProfile> = {
 		harmonic: 'Competency',
 		stressLine: { type: 7, archetype: 'The Enthusiast' },
 		growthLine: { type: 8, archetype: 'The Challenger' },
+		akaArchetypes: ['The Iconoclast', 'The Problem Solver'],
 		stats: buildStats([50, 15, 60, 40, 90]),
-		specimenLine: 'KNOWLEDGE · MASTERY · INSIGHT · PRIVACY',
+		specimenLine:
+			'KNOWLEDGE · MASTERY · INSIGHT · PRIVACY · INDEPENDENCE · OBSERVATION · ANALYSIS · DETACHMENT · COMPETENCE',
 		ctaHref: '#the-fortress-mind',
 		ctaLabel: CTA_LABEL,
 		lastObserved: LAST_OBSERVED
@@ -173,8 +184,10 @@ export const enneagramTypeProfiles: Record<number, EnneagramTypeProfile> = {
 		harmonic: 'Reactive',
 		stressLine: { type: 3, archetype: 'The Achiever' },
 		growthLine: { type: 9, archetype: 'The Peacemaker' },
+		akaArchetypes: ['The Defender', 'The Buddy'],
 		stats: buildStats([50, 70, 90, 85, 40]),
-		specimenLine: 'LOYALTY · SECURITY · TRUST · VIGILANCE',
+		specimenLine:
+			'LOYALTY · SECURITY · TRUST · VIGILANCE · COMMITMENT · PREPARATION · DUTY · COURAGE · FORESIGHT',
 		ctaHref: '#the-trust-equation',
 		ctaLabel: CTA_LABEL,
 		lastObserved: LAST_OBSERVED
@@ -192,8 +205,10 @@ export const enneagramTypeProfiles: Record<number, EnneagramTypeProfile> = {
 		harmonic: 'Positive Outlook',
 		stressLine: { type: 1, archetype: 'The Reformer' },
 		growthLine: { type: 5, archetype: 'The Investigator' },
+		akaArchetypes: ['The Entertainer', 'The Realist'],
 		stats: buildStats([70, 75, 20, 55, 95]),
-		specimenLine: 'FREEDOM · POSSIBILITY · ADVENTURE · JOY',
+		specimenLine:
+			'FREEDOM · POSSIBILITY · ADVENTURE · JOY · VARIETY · OPTIMISM · EXPLORATION · SPONTANEITY · NOVELTY',
 		ctaHref: '#how-your-possibility-engine-works',
 		ctaLabel: CTA_LABEL,
 		lastObserved: LAST_OBSERVED
@@ -211,8 +226,10 @@ export const enneagramTypeProfiles: Record<number, EnneagramTypeProfile> = {
 		harmonic: 'Reactive',
 		stressLine: { type: 5, archetype: 'The Investigator' },
 		growthLine: { type: 2, archetype: 'The Helper' },
+		akaArchetypes: ['The Maverick', 'The Bear'],
 		stats: buildStats([100, 85, 45, 75, 55]),
-		specimenLine: 'POWER · STRENGTH · AUTONOMY · JUSTICE',
+		specimenLine:
+			'POWER · STRENGTH · AUTONOMY · JUSTICE · CONTROL · PROTECTION · DECISIVENESS · COMMAND · INTENSITY',
 		ctaHref: '#the-wound-that-creates-the-warrior',
 		ctaLabel: CTA_LABEL,
 		lastObserved: LAST_OBSERVED
@@ -230,8 +247,10 @@ export const enneagramTypeProfiles: Record<number, EnneagramTypeProfile> = {
 		harmonic: 'Positive Outlook',
 		stressLine: { type: 6, archetype: 'The Loyalist' },
 		growthLine: { type: 3, archetype: 'The Achiever' },
+		akaArchetypes: ['The Referee', 'The Dreamer'],
 		stats: buildStats([25, 40, 35, 25, 50]),
-		specimenLine: 'PEACE · HARMONY · STABILITY · UNITY',
+		specimenLine:
+			'PEACE · HARMONY · STABILITY · UNITY · ACCEPTANCE · PATIENCE · INCLUSION · MEDIATION · EASE',
 		ctaHref: '#how-nines-navigate-the-world',
 		ctaLabel: CTA_LABEL,
 		lastObserved: LAST_OBSERVED

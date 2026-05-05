@@ -100,7 +100,7 @@ If you're looking to dive deeper into the world of the Enneagram, these books of
 
 - <a  target="_blank" rel="noopener" href="https://www.amazon.com/Bringing-Out-Best-Yourself-Work/dp/0071439609">Bringing Out the Best in Yourself at Work</a> by Ginger Lapid-Bogda: The definitive guide for applying the Enneagram in professional settings. Lapid-Bogda draws on decades of organizational consulting to show how each type can leverage their strengths and manage blind spots at work.
 
-- <a  target="_blank" rel="noopener" href="https://www.amazon.com/Types-Leadership-Mastering-Enneagram-Type/dp/1612834337">The 9 Types of Leadership: Mastering the Art of People in the 21st Century Workplace</a> by Beatrice Chestnut: Explores how each Enneagram type shows up in leadership, with strategies for growth. Essential reading for managers and executives.
+- The 9 Types of Leadership: Mastering the Art of People in the 21st Century Workplace by Beatrice Chestnut: Explores how each Enneagram type shows up in leadership, with strategies for growth. Essential reading for managers and executives.
 
 - <a  target="_blank" rel="noopener" href="https://www.amazon.com/Speaking-Numbers-Enneagram-Teachers-Communicators/dp/0830841660">Speaking by the Numbers</a> by Sean Palmer: Enneagram wisdom for teachers, pastors, and communicators. It shows how understanding type transforms how you connect with audiences.
 
@@ -194,7 +194,7 @@ Video learners, this section is for you. YouTube has become one of the best ways
 
 - <a  target="_blank" rel="noopener" href="https://www.youtube.com/@AbbeyHowe">Abbey Howe</a>: Lively, accessible explorations of the Enneagram that work for both beginners and experienced enthusiasts. Her energy makes complex topics feel approachable.
 
-- <a  target="_blank" rel="noopener" href="https://www.youtube.com/@jessicadenisedickson80">Jessica Denise Dickson</a>: Enneagram coach focused on inclusivity and personal growth. Her content resonates with a broad audience and brings diverse perspectives to the Enneagram community.
+- Jessica Denise Dickson: Enneagram coach focused on inclusivity and personal growth. Her content resonates with a broad audience and brings diverse perspectives to the Enneagram community.
 
 ### What to Watch First
 
@@ -222,29 +222,29 @@ For those who prefer listening to learning, these podcasts offer engaging conver
 
 ### Highly Recommended New Additions
 
-- <a  target="_blank"  href="https://podcasts.apple.com/us/podcast/enneagram-2-0/id1494930629">Enneagram 2.0 with Beatrice Chestnut and Uranio Paes</a>: Join two of the top Enneagram teachers globally as they share new insights on this ancient personal development system. Episodes are often over an hour long and packed with information.
+- Enneagram 2.0 with Beatrice Chestnut and Uranio Paes: Join two of the top Enneagram teachers globally as they share new insights on this ancient personal development system. Episodes are often over an hour long and packed with information.
 
-- <a  target="_blank"  href="https://podcasts.apple.com/us/podcast/do-it-for-the-gram/id1470825708">Do It For The Gram with Milton Stewart</a>: A podcast for those who want to take personal growth and professional development to the next level using the Enneagram.
+- Do It For The Gram with Milton Stewart: A podcast for those who want to take personal growth and professional development to the next level using the Enneagram.
 
 - <a  target="_blank"  href="https://podcasts.apple.com/us/podcast/simply-wholehearted/id1216920050">Simply Wholehearted with Amy Wicks</a>: With 400+ episodes, Amy focuses on helping mothers find clarity, flourish in faith, and thrive everywhere using the Enneagram. She's a Certified Enneagram Coach and Working Genius Facilitator.
 
 - <a  target="_blank"  href="https://podcasts.apple.com/us/podcast/beyond-your-number/id1691530997">Beyond Your Number</a> (formerly EnneagramU): A conversational podcast where Damon and Kelly explore real-life growth through personality, from relationships to team dynamics.
 
-- <a  target="_blank"  href="https://podcasts.apple.com/us/podcast/millenneagram/id1397269650">Millenneagram with Hannah Paasch</a>: Enneagram affirmations and insights for a new generation, described as trauma-informed Enneagram teaching with irreverent humor.
+- Millenneagram with Hannah Paasch: Enneagram affirmations and insights for a new generation, described as trauma-informed Enneagram teaching with irreverent humor.
 
 ### Specialized & Niche Podcasts
 
-- <a  target="_blank"  href="https://www.enneagrammba.com/podcast">Enneagram at Work Podcast with Sarah Wallace</a>: Focuses on applying Enneagram insights in professional settings, exploring [leadership styles](/enneagram-corner/enneagram-leadership), [team dynamics](/enneagram-corner/enneagram-team-dynamics), and [career development](/enneagram-corner/enneagram-types-and-career-choices).
+- Enneagram at Work Podcast with Sarah Wallace: Focuses on applying Enneagram insights in professional settings, exploring [leadership styles](/enneagram-corner/enneagram-leadership), [team dynamics](/enneagram-corner/enneagram-team-dynamics), and [career development](/enneagram-corner/enneagram-types-and-career-choices).
 
 - <a  target="_blank"  href="https://podcasts.apple.com/us/podcast/enneagram-in-real-life/id1515412569">Enneagram In Real Life with Steph Barron Hall</a>: Goes beyond theory to dive into practical understanding, featuring guests of different types sharing the ins and outs of living life as their type.
 
-- <a  target="_blank"  href="https://www.theartofgrowth.org/blog/enneagrampodcasts">Enneagram Panels (The Art of Growth)</a>: Features real panel interviews with people of each type. One of the best ways to hear each type describe their own inner world in their own words.
+- Enneagram Panels (The Art of Growth): Features real panel interviews with people of each type. One of the best ways to hear each type describe their own inner world in their own words.
 
 - <a  target="_blank"  href="https://podcasts.apple.com/us/podcast/dr-tom-lahue-enneagram/id1606020695">Dr. Tom LaHue Enneagram Podcast</a>: Clinical psychologist Dr. LaHue brings the same depth from his YouTube channel into long-form audio, covering levels of health, [stress patterns](/enneagram-corner/enneagram-types-in-stress), and growth paths.
 
 ### Additional Quality Podcasts
 
-- <a  target="_blank"  href="https://www.enneagramforidiots.com/">Enneagram for Idiots by Tara and Marissa</a>: A banter podcast that approaches the Enneagram with humor and accessibility, making complex concepts entertaining and relatable. They learn alongside their audience rather than lecturing.
+- <a  target="_blank"  href="https://www.podchaser.com/podcasts/enneagram-for-idiots-613368">Enneagram for Idiots by Tara and Marissa</a>: A banter podcast that approaches the Enneagram with humor and accessibility, making complex concepts entertaining and relatable. They learn alongside their audience rather than lecturing.
 
 - <a  target="_blank"  href="https://podcasts.apple.com/us/podcast/fit-enneagram/id1515178985">Fit Enneagram with Hallie Ringhand</a>: Developed to help you understand how your health and fitness behaviors are influenced by your Enneagram number, covering stress eating patterns, exercise habits, and sleep by type.
 
@@ -423,9 +423,9 @@ For those who prefer listening to learning, these podcasts offer engaging conver
 <a  target="_blank" rel="noopener" href="https://www.instagram.com/jessicaddickson/">
     <img loading="lazy" src={instagram} alt="Jessica Denise Dickson Instagram" title="Jessica Denise Dickson Instagram" width="40" height="40" class="icon" />
 </a>
-<a  target="_blank" rel="noopener" href="https://www.youtube.com/@jessicadenisedickson80">
+
     <img loading="lazy" src={youtube} alt="Jessica Denise Dickson Youtube Channel" title="Jessica Denise Dickson Youtube Channel" width="40" height="40" class="icon" />
-</a>
+
 </p>
 </div>
 

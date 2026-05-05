@@ -104,7 +104,7 @@ Your challenge isn't doing more. It's knowing when something is good enough.
 
 **What to integrate:** Speed experimentation and iterative improvement. Playfulness in brainstorming. The willingness to be wrong quickly rather than right slowly.
 
-Research by [Dr. Thomas Curran at LSE](https://www.lse.ac.uk/News/News-Assets/PDFs/2019/Perfectionism-is-increasing-and-that-is-not-good-news.pdf) shows perfectionism has increased 33% since 1989, correlating directly with decreased productivity and increased burnout. Your standards are a feature AND a bug.
+Research by Dr. Thomas Curran at LSE shows perfectionism has increased 33% since 1989, correlating directly with decreased productivity and increased burnout. Your standards are a feature AND a bug.
 
 ## Type 2: The Service System
 
@@ -390,7 +390,7 @@ Traditional productivity systems tell you to focus on one thing. For you, that's
 
 **What to integrate:** Completion satisfaction. Depth over breadth. The willingness to sit with discomfort long enough to gain wisdom from it.
 
-The [Zeigarnik Effect research](https://www.psychologytoday.com/us/blog/give-and-take/201503/why-unfinished-tasks-are-so-distracting) shows that unfinished tasks consume mental energy. You have dozens of open loops running in the background. Each completion frees up cognitive resources you didn't know you were spending.
+The Zeigarnik Effect research shows that unfinished tasks consume mental energy. You have dozens of open loops running in the background. Each completion frees up cognitive resources you didn't know you were spending.
 
 Related: <a href="/enneagram-corner/enneagram-positive-self-talk">Positive Self-Talk by Enneagram Type</a>
 

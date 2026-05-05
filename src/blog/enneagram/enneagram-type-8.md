@@ -1,5 +1,5 @@
 ---
-title: 'Enneagram Type 8: The Challenger'
+title: 'Enneagram Type 8: Challenger - Behind the Armor'
 meta_title: 'Why You Push Everyone Away (Type 8 Control Issues)'
 description: "Can't let people close because vulnerability feels dangerous? That's Type 8. Learn why you need control, why softness feels like weakness, and what your armor is protecting."
 author: 'DJ Wayne'
@@ -11,7 +11,7 @@ priority: '0.6'
 published: true
 type: ['nine-types']
 blog: true
-pic: ''
+pic: 'enneagram-type-8-dossier'
 path: src/blog/enneagram/enneagram-type-8.md
 quality_grade: 'B+'
 quality_score: 8.6
@@ -44,13 +44,8 @@ type-8-cracked-armor
     import MarqueeHorizontal from "$lib/components/atoms/MarqueeHorizontal.svelte";
     import PopCard from "$lib/components/atoms/PopCard.svelte";
     import QuickAnswer from "$lib/components/blog/callouts/QuickAnswer.svelte";
-    import EnneagramTypeDossier from "$lib/components/blog/EnneagramTypeDossier.svelte";
-    import { enneagramTypeProfiles } from "$lib/data/enneagramTypeProfiles";
 
-    const dossier = enneagramTypeProfiles[8];
 </script>
-
-<EnneagramTypeDossier {...dossier} />
 
 <QuickAnswer question="Why do Type 8s push everyone away?">
 You learned early that vulnerability gets you hurt. So you built armor. Not because you wanted to, but because you had to. Control isn't a preference. It's survival strategy. Letting people close means risking betrayal. Showing softness invites exploitation. You push people away before they can push you first. The kid who needed protection became the adult who trusts no one completely. Behind all that intensity? The part of you that knows closeness requires lowering defenses you can't afford to lower.

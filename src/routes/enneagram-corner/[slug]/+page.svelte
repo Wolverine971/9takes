@@ -11,7 +11,8 @@
 	import { browser } from '$app/environment';
 	import TableOfContents from '$lib/components/blog/TableOfContents.svelte';
 	import PopCard from '$lib/components/atoms/PopCard.svelte';
-	import Carousel from '$lib/components/molecules/Carousel.svelte';
+	import EnneagramTypeDossier from '$lib/components/blog/EnneagramTypeDossier.svelte';
+	import { enneagramTypeProfiles } from '$lib/data/enneagramTypeProfiles';
 	import type { PageData } from './$types';
 	import type { Component } from 'svelte';
 	import BlogPageHead from '$lib/components/blog/BlogPageHead.svelte';
@@ -28,20 +29,12 @@
 
 	const contentStore = writable('');
 
-	const carouselDisplayUrls = [
-		'enneagram-type-1',
-		'enneagram-type-2',
-		'enneagram-type-3',
-		'enneagram-type-4',
-		'enneagram-type-5',
-		'enneagram-type-6',
-		'enneagram-type-7',
-		'enneagram-type-8',
-		'enneagram-type-9'
-	];
-
-	const enneagram = data?.slug.split('-');
-	const type = enneagram[enneagram.length - 1];
+	// Detect enneagram type pages (enneagram-type-1 … enneagram-type-9). When
+	// matched, the dossier card renders in place of the standard featured PopCard.
+	const enneagramTypeMatch = $derived(/^enneagram-type-([1-9])$/.exec(data?.slug ?? ''));
+	const dossierProfile = $derived(
+		enneagramTypeMatch ? enneagramTypeProfiles[parseInt(enneagramTypeMatch[1], 10)] : null
+	);
 
 	let observer: MutationObserver | null = null;
 
@@ -112,7 +105,11 @@
 		<meta itemprop="description" content={data.frontmatter.description} />
 	</div>
 
-	{#if data?.frontmatter?.pic}
+	{#if dossierProfile}
+		<div class="featured-dossier">
+			<EnneagramTypeDossier {...dossierProfile} />
+		</div>
+	{:else if data?.frontmatter?.pic}
 		<div
 			class="featured-image"
 			itemprop="image"
@@ -129,9 +126,6 @@
 				aspectRatio="1/1"
 			/>
 		</div>
-	{/if}
-	{#if carouselDisplayUrls.includes(data?.slug)}
-		<Carousel type={parseInt(type)} gridDisplay={true} />
 	{/if}
 
 	<TableOfContents {contentStore} headings={data.frontmatter.headings} />
@@ -162,6 +156,10 @@
 		display: flex;
 		justify-content: center;
 		margin: 1rem 0;
+	}
+
+	.featured-dossier {
+		margin: 1rem 0 2rem;
 	}
 
 	.article-body {

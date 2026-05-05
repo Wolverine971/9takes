@@ -1,5 +1,5 @@
 ---
-title: 'Enneagram Type 6: The Loyalist - The Search for Solid Ground'
+title: 'Enneagram Type 6: Loyalist - Search for Solid Ground'
 meta_title: "Why You Can't Stop Worrying (Type 6 Anxiety Patterns)"
 description: "Can't quiet the 'what if' spiral even when everything's fine? That's Type 6. Learn why your mind catastrophizes, why trust feels impossible, and how to stop worst-case thinking."
 author: 'DJ Wayne'
@@ -11,7 +11,7 @@ priority: '0.6'
 published: true
 type: ['nine-types']
 blog: true
-pic: ''
+pic: 'enneagram-type-6-dossier'
 path: src/blog/enneagram/enneagram-type-6.md
 quality_grade: 'A'
 quality_score: 9
@@ -45,13 +45,8 @@ type-6-search-for-solid-ground
     import PopCard from "$lib/components/atoms/PopCard.svelte";
     import Checklist from "$lib/components/blog/callouts/Checklist.svelte";
     import QuickAnswer from "$lib/components/blog/callouts/QuickAnswer.svelte";
-    import EnneagramTypeDossier from "$lib/components/blog/EnneagramTypeDossier.svelte";
-    import { enneagramTypeProfiles } from "$lib/data/enneagramTypeProfiles";
 
-    const dossier = enneagramTypeProfiles[6];
 </script>
-
-<EnneagramTypeDossier {...dossier} />
 
 <QuickAnswer question="Why can't Type 6s stop worrying?">
 Because your mind learned something the hard way: the ground can shift without warning. Trust got broken. Authority proved unreliable. Safety disappeared when you weren't watching. Your anxiety isn't irrational. It's pattern recognition from experience. You run every scenario through constant calculation because once, you didn't see danger coming and it cost you. The "what if" spiral isn't neurosis. It's survival-level vigilance from someone who learned that not being prepared has consequences.

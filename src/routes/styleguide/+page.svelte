@@ -16,6 +16,7 @@
 -->
 <script lang="ts">
 	import { onMount } from 'svelte';
+	import { Button, EmptyState, ErrorState } from '$lib/components/atoms';
 
 	// ---------------------------------------------------------------------------
 	// Theme state — separate from production. Honors prefers-color-scheme on
@@ -883,45 +884,70 @@
 
 				<!-- ----- Empty state ----- -->
 				<h3 class="sg-h3">Empty state</h3>
-				<div class="sg-state sg-state--empty">
-					<svg
-						class="sg-state-icon"
-						viewBox="0 0 48 48"
-						fill="none"
-						stroke="currentColor"
-						stroke-width="1.5"
-						stroke-linecap="round"
-						stroke-linejoin="round"
-						aria-hidden="true"
-					>
-						<circle cx="20" cy="20" r="11" />
-						<line x1="29" y1="29" x2="40" y2="40" />
-					</svg>
-					<h4 class="sg-state-title">No results found</h4>
-					<p class="sg-state-body">Try a different search term.</p>
-					<button type="button" class="sg-btn sg-btn--primary sg-btn--sm">Clear filters</button>
+				<p class="sg-section-lede">
+					Visual spec on the left, live <code>&lt;EmptyState&gt;</code> atom on the right. Pages should
+					use the atom; spec stays for reference.
+				</p>
+				<div class="sg-state-pair">
+					<div class="sg-state sg-state--empty">
+						<svg
+							class="sg-state-icon"
+							viewBox="0 0 48 48"
+							fill="none"
+							stroke="currentColor"
+							stroke-width="1.5"
+							stroke-linecap="round"
+							stroke-linejoin="round"
+							aria-hidden="true"
+						>
+							<circle cx="20" cy="20" r="11" />
+							<line x1="29" y1="29" x2="40" y2="40" />
+						</svg>
+						<h4 class="sg-state-title">No results found</h4>
+						<p class="sg-state-body">Try a different search term.</p>
+						<button type="button" class="sg-btn sg-btn--primary sg-btn--sm">Clear filters</button>
+					</div>
+					<div class="sg-state-live">
+						<EmptyState title="No results found" body="Try a different search term.">
+							{#snippet cta()}
+								<Button variant="primary" size="sm">Clear filters</Button>
+							{/snippet}
+						</EmptyState>
+					</div>
 				</div>
 
 				<!-- ----- Error state ----- -->
 				<h3 class="sg-h3">Error state</h3>
-				<div class="sg-state sg-state--error">
-					<svg
-						class="sg-state-icon sg-state-icon--error"
-						viewBox="0 0 48 48"
-						fill="none"
-						stroke="currentColor"
-						stroke-width="1.5"
-						stroke-linecap="round"
-						stroke-linejoin="round"
-						aria-hidden="true"
-					>
-						<circle cx="24" cy="24" r="18" />
-						<line x1="24" y1="14" x2="24" y2="26" />
-						<line x1="24" y1="32" x2="24" y2="34" />
-					</svg>
-					<h4 class="sg-state-title sg-state-title--error">Something went wrong</h4>
-					<p class="sg-state-body">We couldn&rsquo;t load this section.</p>
-					<button type="button" class="sg-btn sg-btn--danger sg-btn--sm">Retry</button>
+				<p class="sg-section-lede">
+					Visual spec on the left, live <code>&lt;ErrorState&gt;</code> atom on the right.
+				</p>
+				<div class="sg-state-pair">
+					<div class="sg-state sg-state--error">
+						<svg
+							class="sg-state-icon sg-state-icon--error"
+							viewBox="0 0 48 48"
+							fill="none"
+							stroke="currentColor"
+							stroke-width="1.5"
+							stroke-linecap="round"
+							stroke-linejoin="round"
+							aria-hidden="true"
+						>
+							<circle cx="24" cy="24" r="18" />
+							<line x1="24" y1="14" x2="24" y2="26" />
+							<line x1="24" y1="32" x2="24" y2="34" />
+						</svg>
+						<h4 class="sg-state-title sg-state-title--error">Something went wrong</h4>
+						<p class="sg-state-body">We couldn&rsquo;t load this section.</p>
+						<button type="button" class="sg-btn sg-btn--danger sg-btn--sm">Retry</button>
+					</div>
+					<div class="sg-state-live">
+						<ErrorState title="Something went wrong" body="We couldn’t load this section.">
+							{#snippet cta()}
+								<Button variant="danger" size="sm">Retry</Button>
+							{/snippet}
+						</ErrorState>
+					</div>
 				</div>
 
 				<!-- ----- Section kicker ----- -->
@@ -2271,6 +2297,27 @@
 	}
 
 	/* ----- §11 empty / error state ----- */
+	.sg-state-pair {
+		display: grid;
+		grid-template-columns: repeat(2, minmax(0, 1fr));
+		gap: 16px;
+		margin-top: 8px;
+
+		@media (max-width: 720px) {
+			grid-template-columns: 1fr;
+		}
+	}
+
+	.sg-state-live {
+		border: 1px dashed var(--stone-edge);
+		border-radius: 1rem;
+		background: var(--stone-warm);
+		padding: 8px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+
 	.sg-state {
 		display: flex;
 		flex-direction: column;

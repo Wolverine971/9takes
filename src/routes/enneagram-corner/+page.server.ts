@@ -48,23 +48,29 @@ export const load: PageServerLoad = async () => {
 
 	// Store objects of unique types
 	const uniqueObjects: EnneagramIndexPost[] = [];
+	// Total post count per topic (used by the page to render
+	// "View all N reads · M more →" CTAs).
+	const topicCounts: Record<string, number> = {};
 
 	// Iterate through unique types
 	uniqueTypes.forEach((type) => {
+		if (!type) return;
 		if (type === 'nine-types') {
 			const objectsWithType = publishedPosts.filter((obj) => obj?.type?.[0] === 'nine-types');
+			topicCounts[type] = objectsWithType.length;
 			uniqueObjects.push(...objectsWithType);
 			return;
 		}
 
 		// Find objects with current type
 		const objectsWithType = publishedPosts.filter((obj) => obj?.type?.[0] === type);
+		topicCounts[type] = objectsWithType.length;
 
 		// Sort objects by date_created
 		objectsWithType.sort((a, b) => new Date(b.lastmod).getTime() - new Date(a.lastmod).getTime());
 
-		// Push first 5 objects to uniqueObjects
-		uniqueObjects.push(...objectsWithType.slice(0, 5));
+		// Push first 6 objects (fills 2 full rows in the 3-col topic grid)
+		uniqueObjects.push(...objectsWithType.slice(0, 6));
 	});
 
 	const sortedByLastmod = [...publishedPosts].sort(
@@ -74,5 +80,36 @@ export const load: PageServerLoad = async () => {
 	const featuredSlugs = new Set(featured.map((p) => p.slug));
 	const recentlyUpdated = sortedByLastmod.filter((p) => !featuredSlugs.has(p.slug)).slice(0, 4);
 
-	return { enneagramBlogs: uniqueObjects, featured, recentlyUpdated };
+	// Earliest publish + latest update across the whole hub — feeds visible
+	// "Last updated" surface and `datePublished`/`dateModified` in JSON-LD.
+	let earliestPublish: string | null = null;
+	let latestUpdate: string | null = null;
+	for (const post of publishedPosts) {
+		if (post.date) {
+			const t = new Date(post.date).getTime();
+			if (
+				!Number.isNaN(t) &&
+				(earliestPublish === null || t < new Date(earliestPublish).getTime())
+			) {
+				earliestPublish = post.date;
+			}
+		}
+		const updated = post.lastmod ?? post.date;
+		if (updated) {
+			const t = new Date(updated).getTime();
+			if (!Number.isNaN(t) && (latestUpdate === null || t > new Date(latestUpdate).getTime())) {
+				latestUpdate = updated;
+			}
+		}
+	}
+
+	return {
+		enneagramBlogs: uniqueObjects,
+		featured,
+		recentlyUpdated,
+		topicCounts,
+		earliestPublish,
+		latestUpdate,
+		totalPublished: publishedPosts.length
+	};
 };

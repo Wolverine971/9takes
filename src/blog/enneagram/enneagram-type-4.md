@@ -1,5 +1,5 @@
 ---
-title: 'Enneagram Type 4: The Individualist - The Search for the Missing Piece'
+title: 'Enneagram Type 4: Individualist - The Missing Piece'
 meta_title: 'Why You Feel Different From Everyone Else (The Missing Piece)'
 description: "You feel things others don't. You notice absences they never see. This isn't a flaw. This is the territory of Type 4, where depth is currency and authenticity is survival."
 author: 'DJ Wayne'
@@ -11,7 +11,7 @@ priority: '0.6'
 published: true
 type: ['nine-types']
 blog: true
-pic: ''
+pic: 'enneagram-type-4-dossier'
 path: src/blog/enneagram/enneagram-type-4.md
 quality_grade: 'B+'
 quality_score: 8.6
@@ -44,13 +44,8 @@ type-4-missing-piece
     import MarqueeHorizontal from "$lib/components/atoms/MarqueeHorizontal.svelte";
     import PopCard from "$lib/components/atoms/PopCard.svelte";
     import QuickAnswer from "$lib/components/blog/callouts/QuickAnswer.svelte";
-    import EnneagramTypeDossier from "$lib/components/blog/EnneagramTypeDossier.svelte";
-    import { enneagramTypeProfiles } from "$lib/data/enneagramTypeProfiles";
 
-    const dossier = enneagramTypeProfiles[4];
 </script>
-
-<EnneagramTypeDossier {...dossier} />
 
 <QuickAnswer question="Why do Type 4s feel so different from everyone?">
 Because you perceive dimensions of feeling that others genuinely cannot see. You experience the ache of existence itself. While others seem to move through life with an effortless script, you feel the weight of every moment, the beauty in every loss, the meaning beneath every surface. This isn't pathology. This is perception.
