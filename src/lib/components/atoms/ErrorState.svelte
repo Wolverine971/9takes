@@ -91,7 +91,7 @@
 	.error-state-title {
 		font-family: 'Inter Variable', 'Inter', system-ui, sans-serif;
 		font-size: 18px;
-		font-weight: 600;
+		font-weight: 700;
 		color: var(--error, #ef4444);
 		margin: 0;
 		line-height: 1.3;

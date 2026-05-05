@@ -55,6 +55,7 @@
 		"autoprefixer": "^10.4.20",
 		"eslint": "^8.57.1",
 		"eslint-config-prettier": "^8.10.0",
+		"eslint-plugin-svelte": "^3.17.1",
 		"fast-glob": "^3.3.3",
 		"flowbite": "^2.5.1",
 		"jsdom": "^29.0.0",

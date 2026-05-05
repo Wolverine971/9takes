@@ -92,7 +92,7 @@
 	.empty-state-title {
 		font-family: 'Inter Variable', 'Inter', system-ui, sans-serif;
 		font-size: 18px;
-		font-weight: 600;
+		font-weight: 700;
 		color: var(--ink-bright);
 		margin: 0;
 		line-height: 1.3;

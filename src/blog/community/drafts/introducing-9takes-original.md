@@ -59,7 +59,7 @@ The creator of 9takes has observed the progression of social media and identifie
     			</section>
 
 
-    			<section class="wave-sections" style="border: 1px solid var(--primary);">
+    			<section class="wave-sections" style="border: 1px solid var(--lamp-glow);">
     				<h4 style="margin-top: 0;">🎭 New wave ❓</h4>
 
     				<p>
@@ -143,7 +143,7 @@ These questions highlight the essence of 9takes: a platform that thrives on the 
 
 ## Back to what makes 9takes different
 
-9takes is leveraging <span style="color: var(--primary)">personality theory</span> to create an a different community.
+9takes is leveraging <span style="color: var(--lamp-glow)">personality theory</span> to create an a different community.
 
 <ul class="plain-list">
 <li>
@@ -156,7 +156,7 @@ These questions highlight the essence of 9takes: a platform that thrives on the 
 </span>You can only see comments once you comment.</span>
 <ul>
 <li>
-<span style="color: var(--primary)">Honest and unbiased feedback</span> comes when people cannot see what everyone else is saying.
+<span style="color: var(--lamp-glow)">Honest and unbiased feedback</span> comes when people cannot see what everyone else is saying.
 </li>
 </ul>
 </li>
@@ -170,7 +170,7 @@ These questions highlight the essence of 9takes: a platform that thrives on the 
 </span>You can sort the comments by personality type.</span>
 <ul>
 <li>
-<span style="color: var(--primary)">Insightful comments</span> come out when people are compared to others with the same personality type. You have to consider what patterns you are falling into.
+<span style="color: var(--lamp-glow)">Insightful comments</span> come out when people are compared to others with the same personality type. You have to consider what patterns you are falling into.
 </li>
 </ul>
 </li>
@@ -185,7 +185,7 @@ These questions highlight the essence of 9takes: a platform that thrives on the 
 </span>
 <ul>
 <li>
-<span style="color: var(--primary)">Engage</span>
+<span style="color: var(--lamp-glow)">Engage</span>
 with and reveal what you want via direct messages to whom you wish to. People can see your answers, but they do not know anything else.
 </li>
 </ul>
