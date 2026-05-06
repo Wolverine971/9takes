@@ -93,6 +93,31 @@ function getEffectiveManagedSequenceContent(
 	return getManagedSequenceContent(sequenceKey, stepNumber);
 }
 
+const REACTIVATION_PLACEHOLDER_BODY = 'Code-managed reactivation content';
+const REACTIVATION_PLACEHOLDER_SUBJECT_PATTERN = /^Reactivation step \d+$/i;
+
+export function getReactivationTemplateOverrideState(
+	row: Pick<SequenceSendRow, 'sequence_key' | 'subject' | 'html_content' | 'plain_text'>
+) {
+	if (!isReactivationSequenceKey(row.sequence_key)) {
+		return {
+			subject: false,
+			htmlContent: false,
+			plainText: false
+		};
+	}
+
+	const subject = row.subject.trim();
+	const htmlContent = row.html_content.trim();
+	const plainText = row.plain_text?.trim() ?? '';
+
+	return {
+		subject: Boolean(subject) && !REACTIVATION_PLACEHOLDER_SUBJECT_PATTERN.test(subject),
+		htmlContent: Boolean(htmlContent) && !htmlContent.includes(REACTIVATION_PLACEHOLDER_BODY),
+		plainText: Boolean(plainText) && !plainText.includes(REACTIVATION_PLACEHOLDER_BODY)
+	};
+}
+
 function parseDate(value: string | null | undefined): Date | null {
 	if (!value) {
 		return null;
@@ -131,6 +156,8 @@ function monthsBetween(startDate: Date, endDate: Date): number {
 
 export function prepareSequenceSend(row: SequenceSendRow) {
 	const managedContent = getEffectiveManagedSequenceContent(row.sequence_key, row.step_number);
+	const isReactivation = isReactivationSequenceKey(row.sequence_key);
+	const reactivationOverrides = getReactivationTemplateOverrideState(row);
 	const firstName = row.recipient_name?.trim() || 'there';
 	const trimmedRecipientName = row.recipient_name?.trim() || undefined;
 	const trimmedEnneagram = row.enneagram?.trim() || undefined;
@@ -149,9 +176,21 @@ export function prepareSequenceSend(row: SequenceSendRow) {
 		re_permission_yes_url: `${BASE_URL}/api/email/re-permission/yes/${TRACKING_ID_PLACEHOLDER}`,
 		re_permission_no_url: `${BASE_URL}/api/email/re-permission/no/${TRACKING_ID_PLACEHOLDER}`
 	};
-	const subjectTemplate = managedContent?.subject ?? row.subject;
-	const htmlTemplate = managedContent?.htmlContent ?? row.html_content;
-	const plainTextTemplate = getPlainTextTemplate(managedContent, row.plain_text);
+	const subjectTemplate =
+		isReactivation && reactivationOverrides.subject
+			? row.subject
+			: (managedContent?.subject ?? row.subject);
+	const htmlTemplate =
+		isReactivation && reactivationOverrides.htmlContent
+			? row.html_content
+			: (managedContent?.htmlContent ?? row.html_content);
+	const plainTextTemplate = getPlainTextTemplate(
+		managedContent,
+		row.plain_text,
+		isReactivation,
+		reactivationOverrides.htmlContent,
+		reactivationOverrides.plainText
+	);
 
 	return {
 		recipient: {
@@ -175,7 +214,20 @@ export function prepareSequenceSend(row: SequenceSendRow) {
 
 function getPlainTextTemplate(
 	managedContent: WelcomeSequenceContent | ReactivationSequenceContent | null,
-	dbPlainText: string | null
+	dbPlainText: string | null,
+	isReactivation = false,
+	hasReactivationHtmlOverride = false,
+	hasReactivationPlainTextOverride = false
 ) {
+	if (isReactivation) {
+		if (hasReactivationPlainTextOverride) {
+			return dbPlainText ?? undefined;
+		}
+
+		if (hasReactivationHtmlOverride) {
+			return undefined;
+		}
+	}
+
 	return managedContent?.plainText ?? dbPlainText ?? undefined;
 }

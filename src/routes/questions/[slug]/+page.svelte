@@ -240,6 +240,7 @@
 	let formattedQuestionText = $derived(
 		normalizeText(data.question.question_formatted || data.question.question)
 	);
+	let url = $derived(`https://9takes.com/questions/${data.question.url}`);
 	let hasUserProvidedContext = $derived(hasUserProvidedQuestionContext(data.question.data));
 	let questionContext = $derived(
 		hasUserProvidedContext
@@ -312,11 +313,7 @@
 	let title = $derived(buildSeoTitle(formattedQuestionText));
 
 	// V5 case-file derivations
-	let dossierNum = $derived(fileNumber(data.question?.id ?? data.question?.url ?? ''));
 	let postedDate = $derived(formatPostedDate(data.question?.created_at));
-	let openCaseLabel = $derived(
-		categoryMetaUpper ? `OPEN CASE · ${categoryMetaUpper}` : 'OPEN CASE'
-	);
 	let totalTakes = $derived(Math.max(data.comment_count || 0, mergedComments.length));
 
 	function normalizeText(value?: string | null): string {
@@ -353,16 +350,6 @@
 			return `${questionText}${suffix}`;
 		}
 		return `${questionText.slice(0, maxLength - suffix.length - 1).trimEnd()}…${suffix}`;
-	}
-
-	// V5 dossier helpers — deterministic 4-digit case number per question.
-	function fileNumber(seed: number | string): string {
-		const s = String(seed ?? '');
-		let h = 0;
-		for (let i = 0; i < s.length; i++) {
-			h = (h * 31 + s.charCodeAt(i)) | 0;
-		}
-		return String(Math.abs(h) % 10000).padStart(4, '0');
 	}
 
 	function formatPostedDate(value: string | null | undefined): string {
@@ -442,7 +429,6 @@
 			data.comment_count || 0
 		)
 	);
-	let url = $derived(`https://9takes.com/questions/${data.question.url}`);
 	let imgUrl = $derived.by(() => {
 		if (
 			data.question?.img_url &&
@@ -640,11 +626,27 @@
 			{/if}
 
 			<div class="open-case-kicker">
-				<SectionKicker num={dossierNum} label={openCaseLabel} />
+				<SectionKicker num="01" label="OPEN CASE" />
 			</div>
 
-			{#if categoryMetaUpper}
-				<p class="open-case-category mono">CATEGORY: {categoryMetaUpper}</p>
+			{#if data.questionTags && data.questionTags.length > 0}
+				<div class="open-case-category mono">
+					<span class="open-case-category__label">CATEGORY:</span>
+					{#each data.questionTags as tag, i (tag.tag_id ?? i)}
+						<a
+							href={buildQuestionCategoryPath(
+								tag.question_categories.slug || tag.question_categories.category_name
+							)}
+							class="open-case-category__link"
+							rel="tag"
+						>
+							{tag.question_categories.category_name.toUpperCase()}
+						</a>{#if i < data.questionTags.length - 1}<span
+								class="open-case-category__sep"
+								aria-hidden="true">·</span
+							>{/if}
+					{/each}
+				</div>
 			{/if}
 
 			<div id="open-case-question" class="open-case-display">
@@ -1019,9 +1021,36 @@
 	}
 
 	.open-case-category {
+		display: flex;
+		flex-wrap: wrap;
+		align-items: center;
+		gap: 6px;
 		color: var(--data-teal);
 		margin: 0;
 		word-break: break-word;
+	}
+
+	.open-case-category__label {
+		color: var(--ink-dim);
+	}
+
+	.open-case-category__link {
+		color: var(--data-teal);
+		text-decoration: none;
+		border-bottom: 1px solid transparent;
+		transition:
+			color 0.15s ease,
+			border-color 0.15s ease;
+
+		&:hover {
+			color: var(--lamp-glow);
+			border-bottom-color: var(--lamp-glow);
+		}
+	}
+
+	.open-case-category__sep {
+		color: var(--ink-dim);
+		opacity: 0.6;
 	}
 
 	.open-case-display {

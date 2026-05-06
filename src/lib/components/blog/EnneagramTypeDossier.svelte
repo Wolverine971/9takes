@@ -375,7 +375,7 @@
 		text-shadow:
 			0 1px 4px rgba(10, 8, 7, 0.9),
 			0 0 12px rgba(10, 8, 7, 0.6);
-		padding-left: calc(var(--i, 0) * 6%);
+		padding-left: calc(var(--i, 0) * 8%);
 		opacity: 0.95;
 
 		&::before {

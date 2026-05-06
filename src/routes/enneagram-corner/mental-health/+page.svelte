@@ -8,7 +8,34 @@
 
 	export let data: PageData;
 
-	const hubDescription = `Explore the intersection of Enneagram personality types and mental health. Our comprehensive guides help you understand how each type experiences anxiety, depression, trauma, and other mental health challenges, with tailored strategies for healing and growth.`;
+	const hubDescription = `Each Enneagram type breaks differently. Type 7s mask depression with motion. Type 8s with anger. Type 9s with shutdown. These guides decode how anxiety, depression, trauma, and burnout actually show up by type — and what tends to help.`;
+
+	const heroLede = `Anxiety, depression, burnout, addiction — they don't show up the same way in everyone. Type 7s outrun depression. Type 8s convert it to anger. Type 9s vanish into it. Knowing the type tells you what you're actually looking at, and what's likely to help.`;
+
+	const benefitCards = [
+		{
+			title: 'Different types break differently',
+			body: 'Type 1 burns out as moral failure. Type 4 falls into identity collapse. Type 6 spirals into anxiety. Same diagnosis, different lived experience.'
+		},
+		{
+			title: 'Symptoms get hidden by personality',
+			body: "Type 7 covers depression with plans. Type 8 with control. Type 9 by going quiet. If you don't know the type, you miss it — including in yourself."
+		},
+		{
+			title: 'What helps is type-specific',
+			body: "Type 5s need a framework before they'll engage. Type 2s need permission to receive care. Type 8s need to be the agent of their own recovery. Same therapy, different doors in."
+		},
+		{
+			title: "You can see it coming",
+			body: "Each type has a predictable path into stress and a predictable path out. Knowing yours means catching the slide weeks before it hits the wall."
+		}
+	];
+
+	const sectionSubs = {
+		why: 'What changes when you read mental health through type.',
+		guides: 'Deep dives by topic — written for actual humans, not symptom checklists.',
+		byType: 'Where each type tends to break, and what tends to put it back together.'
+	};
 
 	const navItems = [
 		{ id: 'why', title: 'Why It Matters', icon: '💡' },
@@ -67,78 +94,110 @@
 	const typeData = [
 		{
 			vulnerabilities: [
-				'Anxiety disorders',
-				'Obsessive-compulsive tendencies',
-				'Perfectionism-related depression'
+				'The inner critic that mutates into clinical anxiety',
+				'Compulsions disguised as "high standards"',
+				'Burnout that reads to them as moral failure'
 			],
 			strengths: [
-				'Strong commitment to recovery',
-				'Systematic approach to healing',
-				'High integrity in treatment'
-			]
-		},
-		{
-			vulnerabilities: ['Codependency', 'Boundary issues', 'Caregiver burnout'],
-			strengths: [
-				'Natural support network building',
-				'Emotional intelligence',
-				'Helping others aids own healing'
+				'Will follow a treatment plan to the letter',
+				'Self-monitoring is already a daily habit',
+				'Treats recovery like the work it deserves to be'
 			]
 		},
 		{
 			vulnerabilities: [
-				'Workaholism and burnout',
-				'Identity-based depression',
-				'Stress-related health issues'
+				'Codependency wearing a halo',
+				'Boundaries that collapse before resentment surfaces',
+				'Caregiver burnout that hits all at once'
 			],
-			strengths: ['Goal-oriented recovery', 'Resilience and adaptability', 'Success-driven healing']
-		},
-		{
-			vulnerabilities: ['Major depression', 'Emotional dysregulation', 'Identity disturbances'],
 			strengths: [
-				'Deep self-awareness',
-				'Creative expression for healing',
-				'Authenticity in recovery'
-			]
-		},
-		{
-			vulnerabilities: ['Social anxiety', 'Avoidant patterns', 'Dissociation'],
-			strengths: [
-				'Research-based approach',
-				'Self-sufficiency in healing',
-				'Intellectual understanding aids recovery'
-			]
-		},
-		{
-			vulnerabilities: ['Generalized anxiety disorder', 'Phobias', 'Hypervigilance'],
-			strengths: [
-				'Loyalty to support systems',
-				'Thorough treatment planning',
-				'Community-oriented recovery'
-			]
-		},
-		{
-			vulnerabilities: ['ADHD-like symptoms', 'Addiction vulnerabilities', 'Masked depression'],
-			strengths: [
-				'Optimistic recovery outlook',
-				'Multiple healing modalities',
-				'Enthusiasm for growth'
+				'A real support network, already built',
+				'Emotional fluency most types are still learning',
+				'Helping others is genuinely metabolizing for them'
 			]
 		},
 		{
 			vulnerabilities: [
-				'Anger management issues',
-				'Vulnerability avoidance',
-				'Stress-related illness'
+				'Workaholism that the culture keeps applauding',
+				'Depression that hits when the achievements stop landing',
+				'The body sending the bill the mind refused to read'
 			],
-			strengths: ['Strong determination', 'Leadership in recovery', 'Protective of healing space']
+			strengths: [
+				'Will set and hit recovery goals like any other goal',
+				'Adapts faster than most when something stops working',
+				'Already built for sustained, structured effort'
+			]
 		},
 		{
-			vulnerabilities: ['Clinical depression', 'Dissociative tendencies', 'Chronic fatigue'],
+			vulnerabilities: [
+				'Major depressive episodes triggered by identity rupture',
+				'Emotion intensity that spills into dysregulation',
+				'A shifting sense of self that can feel terrifying inside'
+			],
 			strengths: [
-				'Holistic healing approach',
-				'Natural mediator in groups',
-				'Steady, sustainable recovery'
+				'Self-awareness that most therapists envy',
+				'Creative expression as a real route through pain',
+				'Refuses to perform recovery — only the real thing counts'
+			]
+		},
+		{
+			vulnerabilities: [
+				'Social anxiety mistaken for "just an introvert"',
+				'Avoidance that quietly shrinks the life',
+				'Dissociation as the default exit door'
+			],
+			strengths: [
+				'Will research their condition cold',
+				'Self-sufficient in a way that survives bad therapists',
+				'Understanding the mechanism is half their healing'
+			]
+		},
+		{
+			vulnerabilities: [
+				'Generalized anxiety humming under everything',
+				'Catastrophizing that feels like prudence',
+				'Hypervigilance the body never gets to put down'
+			],
+			strengths: [
+				'Loyal to the support system once it earns trust',
+				'Will plan treatment thoroughly and stick to it',
+				'Does best with a community, not in isolation'
+			]
+		},
+		{
+			vulnerabilities: [
+				'ADHD-like overload from constant tab-switching',
+				'Addiction risk hiding inside "having fun"',
+				'Depression masked by motion until it stops them cold'
+			],
+			strengths: [
+				'Genuine optimism — the kind that survives setbacks',
+				'Will try multiple modalities until one clicks',
+				'Reframes growth as adventure, which keeps them in it'
+			]
+		},
+		{
+			vulnerabilities: [
+				'Rage as the only emotion that feels safe to feel',
+				'Vulnerability avoided until it bursts the seam',
+				'Stress that lands in the body — heart, gut, blood pressure'
+			],
+			strengths: [
+				'Unstoppable once they decide to do the work',
+				'Leads their own recovery — doesn\'t outsource it',
+				'Will defend the healing space from anyone who threatens it'
+			]
+		},
+		{
+			vulnerabilities: [
+				'Clinical depression hiding behind "I\'m fine"',
+				'Dissociation that reads to others as calm',
+				'Chronic fatigue that nobody sees because nobody\'s told'
+			],
+			strengths: [
+				'Holistic approach — nothing single-modality survives them',
+				'Natural mediator who can hold both sides of an inner conflict',
+				'Steady pace that finishes long after the dramatic types quit'
 			]
 		}
 	];
@@ -191,7 +250,8 @@
 <div class="page-wrapper">
 	<!-- Hero Section -->
 	<header class="hero">
-		<h1>Enneagram & Mental Health</h1>
+		<h1>Mental health, decoded by type.</h1>
+		<p class="hero-lede">{heroLede}</p>
 	</header>
 
 	<!-- Quick Navigation -->
@@ -229,28 +289,18 @@
 					<span class="section-icon">💡</span>
 					<div>
 						<h2>Why Personality Type Matters</h2>
-						<p class="section-subtitle">Personalized approaches to mental wellness</p>
+						<p class="section-subtitle">{sectionSubs.why}</p>
 					</div>
 				</div>
 			</div>
 
 			<div class="benefits-grid">
-				<div class="benefit-card">
-					<h3>Personalized Understanding</h3>
-					<p>Each type has unique mental health vulnerabilities and strengths.</p>
-				</div>
-				<div class="benefit-card">
-					<h3>Targeted Strategies</h3>
-					<p>Find coping strategies tailored to your personality.</p>
-				</div>
-				<div class="benefit-card">
-					<h3>Earlier Recognition</h3>
-					<p>Recognize warning signs before they escalate.</p>
-				</div>
-				<div class="benefit-card">
-					<h3>Better Outcomes</h3>
-					<p>Type-aware therapy leads to more effective treatment.</p>
-				</div>
+				{#each benefitCards as card}
+					<div class="benefit-card">
+						<h3>{card.title}</h3>
+						<p>{card.body}</p>
+					</div>
+				{/each}
 			</div>
 		</section>
 
@@ -261,7 +311,7 @@
 					<span class="section-icon">📚</span>
 					<div>
 						<h2>Mental Health Guides</h2>
-						<p class="section-subtitle">Comprehensive resources by topic</p>
+						<p class="section-subtitle">{sectionSubs.guides}</p>
 					</div>
 				</div>
 			</div>
@@ -302,7 +352,7 @@
 					<span class="section-icon">🔢</span>
 					<div>
 						<h2>Resources by Type</h2>
-						<p class="section-subtitle">Find guidance specific to your personality</p>
+						<p class="section-subtitle">{sectionSubs.byType}</p>
 					</div>
 				</div>
 			</div>
@@ -316,7 +366,7 @@
 					</div>
 					<div class="type-content">
 						<div class="type-column">
-							<h4>Common Vulnerabilities</h4>
+							<h4>How they tend to break</h4>
 							<ul>
 								{#each typeData[i].vulnerabilities as item}
 									<li>{item}</li>
@@ -324,7 +374,7 @@
 							</ul>
 						</div>
 						<div class="type-column">
-							<h4>Healing Strengths</h4>
+							<h4>What they bring to recovery</h4>
 							<ul>
 								{#each typeData[i].strengths as item}
 									<li>{item}</li>
@@ -342,14 +392,17 @@
 		<!-- CTA Section -->
 		<section class="cta-section">
 			<div class="cta-content">
-				<h2>Start your mental health journey</h2>
-				<p>Understanding your type is the first step toward personalized care.</p>
+				<h2>Match the work to the wiring.</h2>
+				<p>
+					Generic mental health advice doesn't account for how your type breaks. These guides do.
+					Pick the angle that fits your pattern.
+				</p>
 				<div class="cta-buttons">
 					<a
 						href="/enneagram-corner/mental-health/enneagram-anxiety-complete-guide"
-						class="btn-hub-primary">Read Anxiety Guide</a
+						class="btn-hub-primary">Read the Anxiety Guide</a
 					>
-					<a href="/questions" class="btn-hub-secondary">Discover Your Type</a>
+					<a href="/questions" class="btn-hub-secondary">Find Your Type</a>
 				</div>
 			</div>
 		</section>
@@ -402,6 +455,21 @@
 		-webkit-background-clip: text;
 		-webkit-text-fill-color: transparent;
 		background-clip: text;
+	}
+
+	.hero-lede {
+		max-width: 56ch;
+		margin: 1rem auto 0;
+		font-size: 1.05rem;
+		line-height: 1.65;
+		color: var(--ink-mid);
+		position: relative;
+	}
+
+	@media (max-width: 640px) {
+		.hero-lede {
+			font-size: 0.95rem;
+		}
 	}
 
 	/* Quick Navigation */

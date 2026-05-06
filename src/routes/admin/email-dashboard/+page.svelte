@@ -734,6 +734,10 @@
 						{welcomeSequence.sequence.status}
 					</p>
 				</div>
+				<div class="sequence-panel-actions">
+					<a href="/admin/welcome-sequence">Open welcome flow</a>
+					<a href="/admin/reactivation-sequence">Open reactivation flow</a>
+				</div>
 			</div>
 
 			<div class="sequence-stats">
@@ -1574,6 +1578,25 @@
 		margin: 0.25rem 0 0;
 		color: var(--ink-mid);
 		font-size: 0.875rem;
+	}
+
+	.sequence-panel-actions {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 0.5rem;
+	}
+
+	.sequence-panel-actions a {
+		display: inline-flex;
+		align-items: center;
+		min-height: 2rem;
+		padding: 0 0.75rem;
+		border: 1px solid var(--lamp-glow);
+		border-radius: 6px;
+		color: var(--lamp-glow);
+		font-size: 0.8rem;
+		font-weight: 700;
+		text-decoration: none;
 	}
 
 	.sequence-stats {

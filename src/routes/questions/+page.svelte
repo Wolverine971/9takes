@@ -156,10 +156,6 @@
 	// ------------------------------------------------------------------
 	// Helpers.
 	// ------------------------------------------------------------------
-	function fileNumber(id: number): string {
-		return String((id * 17 + 25) % 10000).padStart(4, '0');
-	}
-
 	function relativeTime(iso: string | undefined | null): string {
 		if (!iso) return 'POSTED RECENTLY';
 		const ts = new Date(iso).getTime();
@@ -327,27 +323,23 @@
 		{:else}
 			<ul class="question-list">
 				{#each questionsList as q (q.id)}
-					<li class="question-card">
-						<div class="question-card-top">
-							<span class="mono question-card-num">№ {fileNumber(q.id)}</span>
-							{#if q.tag_name}
-								<span class="mono question-card-cat">· {q.tag_name.toUpperCase()}</span>
-							{/if}
-							<span class="mono question-card-takes">
-								{q.comment_count ?? 0} TAKE{(q.comment_count ?? 0) === 1 ? '' : 'S'}
+					<li class="question-row">
+						<a href={`/questions/${q.url}`} class="question-row-link">
+							<span class="question-row-text">
+								{q.question_formatted ?? q.question}
 							</span>
-						</div>
-
-						<a href={`/questions/${q.url}`} class="question-card-text">
-							{q.question_formatted ?? q.question}
+							<span class="mono question-row-meta">
+								{#if q.tag_name}
+									<span class="question-row-cat">{q.tag_name.toUpperCase()}</span>
+									<span class="question-row-sep" aria-hidden="true">·</span>
+								{/if}
+								<span class="question-row-takes">
+									{q.comment_count ?? 0} TAKE{(q.comment_count ?? 0) === 1 ? '' : 'S'}
+								</span>
+								<span class="question-row-sep" aria-hidden="true">·</span>
+								<span class="question-row-time">{relativeTime(q.created_at)}</span>
+							</span>
 						</a>
-
-						<div class="question-card-bot">
-							<span class="mono question-card-time">{relativeTime(q.created_at)}</span>
-							<Button variant="ghost" size="sm" href={`/questions/${q.url}`}>
-								Drop your take →
-							</Button>
-						</div>
 					</li>
 				{/each}
 			</ul>
@@ -793,89 +785,73 @@
 		margin: 0 auto;
 		display: flex;
 		flex-direction: column;
-		gap: 16px;
+		gap: 0;
+		border-top: 1px solid var(--stone-edge);
 	}
 
-	.question-card {
-		background: var(--stone-warm);
-		border: 1px solid var(--stone-edge);
-		border-radius: 16px;
-		padding: 24px 26px;
+	.question-row {
+		border-bottom: 1px solid var(--stone-edge);
+		transition: background 0.15s ease;
+
+		&:hover {
+			background: var(--stone-warm);
+		}
+	}
+
+	.question-row-link {
 		display: flex;
 		flex-direction: column;
-		gap: 12px;
-		transition:
-			border-color 0.18s ease,
-			background 0.18s ease,
-			transform 0.18s ease;
-
-		&:hover {
-			border-color: var(--ink-dim);
-			background: var(--stone-mid);
-			transform: translateY(-1px);
-		}
-
-		@media (max-width: 540px) {
-			padding: 20px 18px;
-			border-radius: 12px;
-		}
-	}
-
-	.question-card-top {
-		display: flex;
-		align-items: center;
-		gap: 8px;
-		font-size: 11px;
-		letter-spacing: 0.08em;
-		color: var(--ink-dim);
-		flex-wrap: wrap;
-	}
-
-	.question-card-num {
-		color: var(--lamp-glow);
-	}
-
-	.question-card-cat {
-		color: var(--ink-mid);
-	}
-
-	.question-card-takes {
-		margin-left: auto;
-		color: var(--data-teal);
-	}
-
-	.question-card-text {
-		display: block;
-		font-family: var(--font-display);
-		font-weight: 600;
-		font-size: 18px;
-		line-height: 1.4;
-		color: var(--ink-bright);
+		gap: 4px;
+		padding: 12px 14px;
 		text-decoration: none;
-		letter-spacing: -0.01em;
-		transition: color 0.18s ease;
+		color: inherit;
 
-		&:hover {
+		&:hover .question-row-text {
 			color: var(--lamp-glow);
 		}
 
 		@media (max-width: 540px) {
-			font-size: 16px;
+			padding: 10px 10px;
 		}
 	}
 
-	.question-card-bot {
+	.question-row-text {
+		font-family: var(--font-display);
+		font-weight: 500;
+		font-size: 16px;
+		line-height: 1.35;
+		color: var(--ink-bright);
+		letter-spacing: -0.005em;
+		transition: color 0.15s ease;
+
+		@media (max-width: 540px) {
+			font-size: 15px;
+		}
+	}
+
+	.question-row-meta {
 		display: flex;
-		justify-content: space-between;
 		align-items: center;
-		gap: 12px;
-		margin-top: 4px;
+		gap: 6px;
+		font-size: 11px;
+		color: var(--ink-dim);
 		flex-wrap: wrap;
 	}
 
-	.question-card-time {
-		font-size: 11px;
+	.question-row-cat {
+		color: var(--ink-mid);
+	}
+
+	.question-row-takes {
+		color: var(--data-teal);
+	}
+
+	.question-row-time {
 		color: var(--ink-dim);
+	}
+
+	.question-row-sep {
+		opacity: 0.5;
 	}
 
 	.empty-state {

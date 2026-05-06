@@ -523,7 +523,7 @@
 				how to finally break free.
 			</p>
 			<p class="insight-callout">
-				Master this framework, and you'll read people before they finish their first sentence.
+				Once you can read it, you can't unread it — in others or in yourself.
 			</p>
 		</section>
 
@@ -914,15 +914,16 @@
 		</section>
 
 		<section id="conclusion" class="action-section">
-			<h2>Become a Human Behavior Expert</h2>
+			<h2>Read the Room You're Already In</h2>
 			<p>
-				Picture walking into any room and immediately reading everyone's motivations, fears, and
-				likely behaviors. <strong>This isn't mind reading. It's pattern recognition.</strong>
+				Knowing the types lets you stop guessing why people do what they do. <strong
+					>It isn't mind reading. It's pattern recognition.</strong
+				>
 			</p>
 			<p>
-				These situational guides train you to spot types in action, predict their responses, and
-				adapt your approach accordingly. Dating, managing, selling, negotiating. These are your
-				field guides to human behavior.
+				These situational guides train the eye for context: dating, managing, selling, negotiating,
+				or just trying to understand a coworker who confuses you. Field guides for the rooms you're
+				already standing in.
 			</p>
 		</section>
 	{/if}

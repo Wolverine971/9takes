@@ -65,14 +65,16 @@ describe('prepareSequenceSend', () => {
 				sequence_key: 'reactivation_dormant',
 				step_number: 1,
 				recipient_created_at: '2025-02-10T12:00:00.000Z',
-				subject: 'Old DB subject',
-				html_content: '<p>Old DB body</p>',
-				plain_text: 'Old DB text'
+				subject: 'Reactivation step 1',
+				html_content:
+					'<p>Code-managed reactivation content. See src/lib/email/reactivation-sequence-content.ts.</p>',
+				plain_text:
+					'Code-managed reactivation content. See src/lib/email/reactivation-sequence-content.ts.'
 			})
 		);
 
 		expect(prepared.subject).toBe(
-			'You signed up for 9takes in February 2025. Quick re-introduction.'
+			'Alice, you signed up for 9takes in February 2025. Quick re-introduction.'
 		);
 		expect(prepared.htmlContent).toContain(
 			'https://9takes.com/enneagram-corner/enneagram-and-mental-illness'
@@ -80,13 +82,48 @@ describe('prepareSequenceSend', () => {
 		expect(prepared.htmlContent).not.toContain('Old DB body');
 	});
 
+	it('uses edited database copy for reactivation sequences when present', () => {
+		const prepared = prepareSequenceSend(
+			makeSequenceRow({
+				sequence_key: 'reactivation_dormant',
+				step_number: 2,
+				subject: 'Custom subject for {{first_name}}',
+				html_content: '<p>Custom body for {{first_name}}</p>',
+				plain_text: 'Custom plain text for {{first_name}}'
+			})
+		);
+
+		expect(prepared.subject).toBe('Custom subject for Alice');
+		expect(prepared.htmlContent).toContain('<p>Custom body for Alice</p>');
+		expect(prepared.htmlContent).not.toContain("9takes wasn't a product idea");
+		expect(prepared.plainText).toBe('Custom plain text for Alice');
+	});
+
+	it('falls back to generated plain text when reactivation html is edited without plain text', () => {
+		const prepared = prepareSequenceSend(
+			makeSequenceRow({
+				sequence_key: 'reactivation_dormant',
+				step_number: 2,
+				subject: 'Custom subject',
+				html_content: '<p>Custom html only</p>',
+				plain_text: null
+			})
+		);
+
+		expect(prepared.htmlContent).toContain('Custom html only');
+		expect(prepared.plainText).toBeUndefined();
+	});
+
 	it('renders re-permission links with the send-time tracking placeholder', () => {
 		const prepared = prepareSequenceSend(
 			makeSequenceRow({
 				sequence_key: 'reactivation_dormant',
 				step_number: 4,
-				html_content: '<p>Old DB body</p>',
-				plain_text: 'Old DB text'
+				subject: 'Reactivation step 4',
+				html_content:
+					'<p>Code-managed reactivation content. See src/lib/email/reactivation-sequence-content.ts.</p>',
+				plain_text:
+					'Code-managed reactivation content. See src/lib/email/reactivation-sequence-content.ts.'
 			})
 		);
 
