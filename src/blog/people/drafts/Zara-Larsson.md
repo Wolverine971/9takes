@@ -4,12 +4,12 @@ meta_title: "Why Zara Larsson Keeps Sabotaging Her Own Success (It's Not What Yo
 persona_title: "Pop's Unfiltered Achiever"
 description: 'Inside the contradiction driving Zara Larsson: she wants to be number one more than anything but refuses to perform a version of herself that gets her there.'
 author: 'DJ Wayne'
-date: '2026-04-03'
+date: '2026-05-06'
 loc: 'https://9takes.com/personality-analysis/Zara-Larsson'
-lastmod: '2026-04-03'
+lastmod: '2026-05-06'
 changefreq: 'monthly'
 priority: '0.6'
-published: false
+published: true
 enneagram: 3
 type: ['musician']
 person: 'Zara-Larsson'

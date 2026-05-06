@@ -4,12 +4,12 @@ meta_title: "Inside Meghan Trainor's Mind: The Panic Behind the Pop"
 persona_title: "Pop's Bubblegum Sentinel"
 description: 'Meghan Trainor wrote body-positive anthems while hiding panic disorder, then built a family compound to keep the fight-or-flight response at bay.'
 author: 'DJ Wayne'
-date: '2026-04-16'
+date: '2026-05-06'
 loc: 'https://9takes.com/personality-analysis/Meghan-Trainor'
-lastmod: '2026-04-16'
+lastmod: '2026-05-06'
 changefreq: 'monthly'
 priority: '0.6'
-published: false
+published: true
 enneagram: '6'
 type: ['musician', 'celebrity']
 person: 'Meghan-Trainor'

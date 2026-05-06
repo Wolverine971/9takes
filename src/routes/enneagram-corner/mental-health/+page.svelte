@@ -26,8 +26,8 @@
 			body: "Type 5s need a framework before they'll engage. Type 2s need permission to receive care. Type 8s need to be the agent of their own recovery. Same therapy, different doors in."
 		},
 		{
-			title: "You can see it coming",
-			body: "Each type has a predictable path into stress and a predictable path out. Knowing yours means catching the slide weeks before it hits the wall."
+			title: 'You can see it coming',
+			body: 'Each type has a predictable path into stress and a predictable path out. Knowing yours means catching the slide weeks before it hits the wall.'
 		}
 	];
 
@@ -184,7 +184,7 @@
 			],
 			strengths: [
 				'Unstoppable once they decide to do the work',
-				'Leads their own recovery — doesn\'t outsource it',
+				"Leads their own recovery — doesn't outsource it",
 				'Will defend the healing space from anyone who threatens it'
 			]
 		},
@@ -192,7 +192,7 @@
 			vulnerabilities: [
 				'Clinical depression hiding behind "I\'m fine"',
 				'Dissociation that reads to others as calm',
-				'Chronic fatigue that nobody sees because nobody\'s told'
+				"Chronic fatigue that nobody sees because nobody's told"
 			],
 			strengths: [
 				'Holistic approach — nothing single-modality survives them',

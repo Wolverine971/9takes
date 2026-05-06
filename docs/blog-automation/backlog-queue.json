@@ -1,24 +1,11 @@
 {
-	"lastUpdated": "2026-05-04T06:12:00Z",
+	"lastUpdated": "2026-05-06T06:01:43Z",
 	"stats": {
 		"totalUnpublished": 115,
 		"totalPublished": 266,
 		"completionRate": "69.8%"
 	},
 	"queue": [
-		{
-			"name": "whitney-wolfe-herd",
-			"displayName": "Whitney Wolfe Herd",
-			"type": 2,
-			"priority": 79,
-			"priorityReason": "Bumble founder, fills Type 2 + female tech founder gap, entrepreneurship audience",
-			"estimatedTraffic": "medium",
-			"searchVolume": "medium",
-			"personaTitle": null,
-			"addedToQueue": "2026-04-03",
-			"retryCount": 0,
-			"strategicValue": "fills-type-2-gap"
-		},
 		{
 			"name": "martha-stewart",
 			"displayName": "Martha Stewart",
@@ -637,7 +624,20 @@
 			"needsReview": false
 		}
 	],
-	"inProgress": null,
+	"inProgress": {
+		"name": "whitney-wolfe-herd",
+		"displayName": "Whitney Wolfe Herd",
+		"type": 2,
+		"priority": 79,
+		"priorityReason": "Bumble founder, fills Type 2 + female tech founder gap, entrepreneurship audience",
+		"estimatedTraffic": "medium",
+		"searchVolume": "medium",
+		"personaTitle": null,
+		"addedToQueue": "2026-04-03",
+		"retryCount": 0,
+		"strategicValue": "fills-type-2-gap",
+		"startedAt": "2026-05-06T06:01:43Z"
+	},
 	"skipped": [
 		{
 			"name": "anna-wintour",

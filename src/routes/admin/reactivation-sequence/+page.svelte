@@ -482,7 +482,7 @@
 		width: min(100% - 2rem, 1500px);
 		margin: 0 auto;
 		padding: 2rem 0 4rem;
-		color: var(--ink-bright, #f8fafc);
+		color: var(--ink-bright);
 	}
 
 	.page-header,
@@ -507,7 +507,7 @@
 
 	.eyebrow {
 		margin: 0 0 0.25rem;
-		color: var(--lamp-glow, #facc15);
+		color: var(--lamp-glow);
 		font-size: 0.75rem;
 		font-weight: 700;
 		text-transform: uppercase;
@@ -541,27 +541,27 @@
 	.inline-warning,
 	.save-scope,
 	.preview-meta span {
-		color: var(--ink-mid, #94a3b8);
+		color: var(--ink-mid);
 		line-height: 1.5;
 	}
 
 	.header-actions a,
 	.text-button {
-		color: var(--lamp-glow, #facc15);
+		color: var(--lamp-glow);
 		text-decoration: none;
 	}
 
 	.header-actions a {
 		padding: 0.55rem 0.75rem;
-		border: 1px solid rgba(148, 163, 184, 0.28);
+		border: 1px solid var(--stone-warm);
 		border-radius: 0.375rem;
 	}
 
 	.notice,
 	.section,
 	.status-tile {
-		border: 1px solid rgba(148, 163, 184, 0.22);
-		background: rgba(15, 23, 42, 0.72);
+		border: 1px solid var(--stone-warm);
+		background: var(--stone-warm);
 	}
 
 	.notice,
@@ -572,7 +572,7 @@
 	}
 
 	.notice.danger {
-		border-color: rgba(239, 68, 68, 0.5);
+		border-color: var(--error);
 	}
 
 	.status-grid {
@@ -597,7 +597,7 @@
 
 	.status-tile span {
 		font-size: 0.85rem;
-		color: var(--ink-mid, #94a3b8);
+		color: var(--ink-mid);
 	}
 
 	.status-dot {
@@ -628,7 +628,7 @@
 	}
 
 	label span {
-		color: var(--ink-mid, #94a3b8);
+		color: var(--ink-mid);
 		font-size: 0.82rem;
 		font-weight: 650;
 	}
@@ -637,10 +637,10 @@
 	select,
 	textarea {
 		width: 100%;
-		border: 1px solid rgba(148, 163, 184, 0.28);
+		border: 1px solid var(--stone-warm);
 		border-radius: 0.375rem;
-		background: rgba(2, 6, 23, 0.58);
-		color: var(--ink-bright, #f8fafc);
+		background: var(--night-deep);
+		color: var(--ink-bright);
 		font: inherit;
 	}
 
@@ -662,8 +662,8 @@
 		padding: 0 0.9rem;
 		border: 0;
 		border-radius: 0.375rem;
-		background: var(--ink-bright, #f8fafc);
-		color: var(--night-deep, #020617);
+		background: var(--lamp-glow);
+		color: var(--text-on-primary);
 		font-weight: 700;
 		cursor: pointer;
 	}
@@ -708,14 +708,14 @@
 		display: grid;
 		gap: 0.25rem;
 		padding: 0.85rem;
-		border: 1px solid rgba(148, 163, 184, 0.18);
+		border: 1px solid var(--stone-warm);
 		border-radius: 0.375rem;
-		background: rgba(2, 6, 23, 0.38);
+		background: var(--night-deep);
 	}
 
 	.schedule-item span,
 	.schedule-item small {
-		color: var(--ink-mid, #94a3b8);
+		color: var(--ink-mid);
 	}
 
 	.schedule-item small {
@@ -744,20 +744,20 @@
 		height: auto;
 		min-height: 3.4rem;
 		padding: 0.7rem;
-		border: 1px solid rgba(148, 163, 184, 0.2);
-		background: rgba(2, 6, 23, 0.38);
-		color: var(--ink-bright, #f8fafc);
+		border: 1px solid var(--stone-warm);
+		background: var(--night-deep);
+		color: var(--ink-bright);
 		text-align: left;
 	}
 
 	.step-nav button.active {
-		border-color: var(--lamp-glow, #facc15);
+		border-color: var(--lamp-glow);
 	}
 
 	.step-nav small,
 	.subject-cell small {
 		display: block;
-		color: var(--ink-mid, #94a3b8);
+		color: var(--ink-mid);
 	}
 
 	.editor-heading {
@@ -768,7 +768,7 @@
 
 	.editor-heading p span {
 		display: block;
-		color: var(--ink-mid, #94a3b8);
+		color: var(--ink-mid);
 	}
 
 	.preview-panel {
@@ -782,15 +782,15 @@
 		display: grid;
 		gap: 0.2rem;
 		padding: 0.8rem;
-		border: 1px solid rgba(148, 163, 184, 0.18);
+		border: 1px solid var(--stone-warm);
 		border-radius: 0.375rem;
-		background: rgba(2, 6, 23, 0.38);
+		background: var(--night-deep);
 	}
 
 	iframe {
 		width: 100%;
 		min-height: 46rem;
-		border: 1px solid rgba(148, 163, 184, 0.22);
+		border: 1px solid var(--stone-warm);
 		border-radius: 0.375rem;
 		background: #ffffff;
 	}
@@ -808,13 +808,13 @@
 	th,
 	td {
 		padding: 0.75rem;
-		border-bottom: 1px solid rgba(148, 163, 184, 0.16);
+		border-bottom: 1px solid var(--stone-warm);
 		text-align: left;
 		vertical-align: top;
 	}
 
 	th {
-		color: var(--ink-mid, #94a3b8);
+		color: var(--ink-mid);
 		font-size: 0.75rem;
 		text-transform: uppercase;
 	}
@@ -831,13 +831,13 @@
 		display: inline-flex;
 		padding: 0.2rem 0.45rem;
 		border-radius: 999px;
-		background: rgba(20, 184, 166, 0.16);
-		color: #5eead4;
+		background: var(--data-teal-rgba);
+		color: var(--data-teal);
 		font-size: 0.8rem;
 	}
 
 	.due {
-		color: #facc15;
+		color: var(--lamp-glow);
 		font-weight: 700;
 	}
 

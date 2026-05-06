@@ -1,0 +1,15 @@
+```text
+Published people blog.
+
+Person: bernard-arnault
+Draft: src/blog/people/drafts/Bernard-Arnault.md
+Date/lastmod: 2026-05-06
+Supabase: published=true (row id=1013)
+Images: full + thumbnail present (static/types/3s/Bernard-Arnault.webp, s-Bernard-Arnault.webp)
+Generated files: pnpm gen:all completed
+  - famousTypes.ts: bernard-arnault entry now link=true, hasImage=true, lastmod=2026-05-06, contentGrade=9.3
+  - sitemap.xml: includes /personality-analysis/bernard-arnault
+
+Blockers:
+- none
+```

@@ -4,12 +4,12 @@ meta_title: "Why Ilona Maher Refuses to Tone It Down (And Never Has)"
 persona_title: "Rugby's Unapologetic Bodyguard"
 description: "Ilona Maher reads as pure swagger. The truth is more interesting: a Type 8 who built a fortress big enough that other women could move in."
 author: 'DJ Wayne'
-date: '2026-04-23'
+date: '2026-05-06'
 loc: 'https://9takes.com/personality-analysis/Ilona-Maher'
-lastmod: '2026-04-23'
+lastmod: '2026-05-06'
 changefreq: 'monthly'
 priority: '0.6'
-published: false
+published: true
 enneagram: '8'
 type: ['celebrity', 'influencer']
 person: 'Ilona-Maher'

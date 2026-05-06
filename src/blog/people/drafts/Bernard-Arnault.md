@@ -4,12 +4,12 @@ meta_title: 'Why Bernard Arnault Cannot Stop Being Number One'
 persona_title: 'The Achiever in Cashmere'
 description: 'Bernard Arnault is called the "wolf in cashmere." But the wolf is the wrong metaphor. Inside the LVMH founder, an Enneagram Type 3 needs only #1.'
 author: 'DJ Wayne'
-date: '2026-05-01'
+date: '2026-05-06'
 loc: 'https://9takes.com/personality-analysis/Bernard-Arnault'
-lastmod: '2026-05-01'
+lastmod: '2026-05-06'
 changefreq: 'monthly'
 priority: '0.6'
-published: false
+published: true
 enneagram: '3'
 type: ['entrepreneur']
 person: 'Bernard-Arnault'
