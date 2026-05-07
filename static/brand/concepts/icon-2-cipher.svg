@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256" role="img" aria-label="9takes — decoder cipher wheel">
+  <title>9takes — Decoder Cipher</title>
+  <desc>Cipher wheel with nine fixed positions and a rotating dial. The amber wedge marks the active reading. “Crack the code” of any personality.</desc>
+
+  <defs>
+    <radialGradient id="cp-bg" cx="38%" cy="32%" r="80%">
+      <stop offset="0%"  stop-color="#3a302a"/>
+      <stop offset="70%" stop-color="#241D17"/>
+      <stop offset="100%" stop-color="#0a0807"/>
+    </radialGradient>
+
+    <linearGradient id="cp-active" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%"  stop-color="#FBBF24"/>
+      <stop offset="100%" stop-color="#B45309"/>
+    </linearGradient>
+
+    <radialGradient id="cp-pivot" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FBBF24"/>
+      <stop offset="100%" stop-color="#B45309"/>
+    </radialGradient>
+
+    <!-- One outer tick: short radial line at θ=0° from R=98 to R=118 -->
+    <g id="cp-tick">
+      <line x1="128" y1="30" x2="128" y2="10"
+            stroke="#A8A095" stroke-width="3" stroke-linecap="round"/>
+    </g>
+
+    <!-- One inner segment line at θ=20° (offset from outer ticks) from R=22 to R=78 -->
+    <g id="cp-seg">
+      <line x1="135.5" y1="107.3" x2="154.7" y2="54.7"
+            stroke="#5C4F47" stroke-width="1.5" stroke-linecap="round"/>
+    </g>
+  </defs>
+
+  <!-- Body -->
+  <circle cx="128" cy="128" r="120" fill="url(#cp-bg)"/>
+  <circle cx="128" cy="128" r="120" fill="none" stroke="#5C4F47" stroke-width="3"/>
+
+  <!-- Outer fixed ring -->
+  <circle cx="128" cy="128" r="98" fill="none" stroke="#5C4F47" stroke-width="1.5"/>
+
+  <!-- 9 outer ticks at 0°, 40°, 80°, … -->
+  <g>
+    <use href="#cp-tick" transform="rotate(0 128 128)"/>
+    <use href="#cp-tick" transform="rotate(40 128 128)"/>
+    <use href="#cp-tick" transform="rotate(80 128 128)"/>
+    <use href="#cp-tick" transform="rotate(120 128 128)"/>
+    <use href="#cp-tick" transform="rotate(160 128 128)"/>
+    <use href="#cp-tick" transform="rotate(200 128 128)"/>
+    <use href="#cp-tick" transform="rotate(240 128 128)"/>
+    <use href="#cp-tick" transform="rotate(280 128 128)"/>
+    <use href="#cp-tick" transform="rotate(320 128 128)"/>
+  </g>
+
+  <!-- Inner rotating dial circle -->
+  <circle cx="128" cy="128" r="82" fill="#16110d" stroke="#5C4F47" stroke-width="1.5"/>
+
+  <!-- Active wedge (the “current decryption”) — between -20° and +20° on dial, R=22→78 -->
+  <path
+    d="M 128,128 L 101.3,54.7 A 78,78 0 0,1 154.7,54.7 Z"
+    fill="url(#cp-active)"
+    opacity="0.95"/>
+
+  <!-- 9 dial segment lines at θ=20°, 60°, 100°, … -->
+  <g>
+    <use href="#cp-seg" transform="rotate(0 128 128)"/>
+    <use href="#cp-seg" transform="rotate(40 128 128)"/>
+    <use href="#cp-seg" transform="rotate(80 128 128)"/>
+    <use href="#cp-seg" transform="rotate(120 128 128)"/>
+    <use href="#cp-seg" transform="rotate(160 128 128)"/>
+    <use href="#cp-seg" transform="rotate(200 128 128)"/>
+    <use href="#cp-seg" transform="rotate(240 128 128)"/>
+    <use href="#cp-seg" transform="rotate(280 128 128)"/>
+    <use href="#cp-seg" transform="rotate(320 128 128)"/>
+  </g>
+
+  <!-- Inner hub ring -->
+  <circle cx="128" cy="128" r="22" fill="#241D17" stroke="#5C4F47" stroke-width="1.5"/>
+
+  <!-- Center indicator: amber pointer triangle pointing up -->
+  <path d="M 128,108 L 121,124 L 135,124 Z" fill="#FBBF24"/>
+  <circle cx="128" cy="128" r="4" fill="url(#cp-pivot)"/>
+</svg>

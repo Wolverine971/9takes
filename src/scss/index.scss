@@ -1026,19 +1026,6 @@ body::-webkit-scrollbar-thumb,
 	}
 }
 
-@include tablet-up {
-	.question-area-box,
-	.about-area-box,
-	.background-area-box-tint {
-		background-color: var(--card-background);
-		border-radius: var(--border-radius-lg);
-		box-shadow: var(--shadow-md);
-		margin-top: 0 !important;
-		padding: 2rem !important;
-		padding-top: 0 !important;
-	}
-}
-
 @include tablet {
 	h1 {
 		font-size: 2rem;
@@ -1104,10 +1091,6 @@ body::-webkit-scrollbar-thumb,
 	.section-content {
 		margin: 0.5rem;
 		padding: 0.5rem;
-	}
-
-	.glass-area {
-		padding: 1rem;
 	}
 
 	.interact-text-container {

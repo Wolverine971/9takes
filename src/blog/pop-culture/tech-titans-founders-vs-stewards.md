@@ -5,7 +5,7 @@ description: 'Apple replaced a Type 1 with a Type 1. Microsoft replaced a Type 5
 author: 'DJ Wayne'
 date: '2026-03-21'
 loc: 'https://9takes.com/pop-culture/tech-titans-founders-vs-stewards'
-lastmod: '2026-03-28'
+lastmod: '2026-05-07'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
@@ -52,12 +52,12 @@ Four successions. Four personality patterns. One framework that explains why som
 
 ## The Succession Map
 
-| Company   | Founder Type                                            | Successor Type                                                | What Changed                                   | What Stayed              |
-| --------- | ------------------------------------------------------- | ------------------------------------------------------------- | ---------------------------------------------- | ------------------------ |
-| Apple     | [Steve Jobs](/personality-analysis/steve-jobs) (Type 1) | [Tim Cook](/personality-analysis/tim-cook) (Type 1)           | Volcanic intensity → Measured discipline       | Uncompromising standards |
-| Microsoft | [Bill Gates](/personality-analysis/bill-gates) (Type 5) | [Satya Nadella](/personality-analysis/satya-nadella) (Type 5) | Knowledge hoarding → Empathetic systems        | Intellectual rigor       |
-| Amazon    | [Jeff Bezos](/personality-analysis/jeff-bezos) (Type 8) | Andy Jassy (Type 3)                                           | Confrontational dominance → Adaptive execution | Competitive intensity    |
-| Google    | Page & Brin (Type 5s)                                   | [Sundar Pichai](/personality-analysis/sundar-pichai) (Type 9) | Experimental ambition → Diplomatic stability   | Engineering culture      |
+| Company   | Founder Type                                                                                     | Successor Type                                                | What Changed                                   | What Stayed              |
+| --------- | ------------------------------------------------------------------------------------------------ | ------------------------------------------------------------- | ---------------------------------------------- | ------------------------ |
+| Apple     | [Steve Jobs](/personality-analysis/steve-jobs) (Type 1)                                          | [Tim Cook](/personality-analysis/tim-cook) (Type 1)           | Volcanic intensity → Measured discipline       | Uncompromising standards |
+| Microsoft | [Bill Gates](/personality-analysis/bill-gates) (Type 5)                                          | [Satya Nadella](/personality-analysis/satya-nadella) (Type 5) | Knowledge hoarding → Empathetic systems        | Intellectual rigor       |
+| Amazon    | [Jeff Bezos](/personality-analysis/jeff-bezos) (Type 8)                                          | Andy Jassy (Type 3)                                           | Confrontational dominance → Adaptive execution | Competitive intensity    |
+| Google    | [Page](/personality-analysis/larry-page) (5w6) & [Brin](/personality-analysis/sergey-brin) (5w7) | [Sundar Pichai](/personality-analysis/sundar-pichai) (Type 9) | Experimental ambition → Diplomatic stability   | Engineering culture      |
 
 Here's the thesis: **companies don't replace founders with the best available leader. They replace founders with the personality type that compensates for the founder's biggest weakness.** Jobs' volatility gets replaced by Cook's discipline. Gates' emotional detachment gets replaced by Nadella's studied empathy. Bezos' confrontational dominance gets replaced by Jassy's execution focus. Google's scattered ambition gets replaced by Pichai's consensus.
 
@@ -201,17 +201,7 @@ The founders' scattered ambition was Google's greatest strength and its greatest
 
 The cost: Google no longer feels like the future. Apple's 1→1 succession preserved the company's soul. Google's founders→9 succession changed it. Apple is still about uncompromising standards. Google is no longer about moonshots. It's about maintaining what already works—and hoping that's enough.
 
-<!-- COMBO-BLOG-CROSSLINK
-TODO (round-2 author): Replace this comment with a live callout linking to the Google deep-dive combo blog once it ships.
-Planned slug: /pop-culture/google-leadership-evolution
-Planning brief: docs/seo/google-leadership-evolution-blog-brief-2026-05-07.md
-The combo blog covers what this section can't: the wing asymmetry between Page (5w6) and Brin (5w7), what Google culture felt like internally in each era (TGIF, "Don't Be Evil" funeral, layoff-by-email), and the founder return arc (Brin at Google daily since 2023, Page back from Fiji, the I/O 2025 AGI declaration).
-Suggested replacement copy:
-
 > **Going deeper:** The Google story has a third act this section doesn't fit. Page (5w6) and Brin (5w7) didn't stay retired. When ChatGPT shipped, the founders came back — and Google became the only Big Tech company where that happened. Read the full personality breakdown of all three eras → [Google's Three Personality Eras](/pop-culture/google-leadership-evolution).
-
-Also when the combo blog ships, update the succession table on line ~60 of this file: change `Page & Brin (Type 5s)` to `Page (5w6) & Brin (5w7)` for sharper accuracy.
--->
 
 ## The Counter-Example: When a Different Type Is the Right Call
 

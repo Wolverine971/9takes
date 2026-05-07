@@ -70,6 +70,11 @@ Fresh-eyes review at the bottom of this file has been addressed. Resolution summ
 - ADDED: Ariane fatherhood paragraph (closing section); Les Halles + 20-year working-chef era + Nancy Putkoski (heroin/kitchen section); New Yorker cold-submission story as a new H2 between heroin section and Kissinger section; Beirut 2006 episode beat + Mexican-cooks/Under-the-Volcano dignity-of-line-cooks register inside Kissinger section; Hugo Clément paparazzi-photos humiliation context for the final weeks; "why people grieved him" beat near the close; one-sentence acknowledgment of his self-deprecation/humility register.
 - TRIMMED: ~40% of running/stillness restatements; oyster references reduced from ~5 to 2 (origin + close callback); duplicate Type-4 disqualification removed from heroin section (kept once in diagnosis); cold-stairwells quote reduced to lede + diagnosis section only (third reference removed); literary-flourish stack reduced from 3 to 1 ("metronome the depression couldn't catch" kept; "future was a more habitable country" and "stillness winning by ambush" cut).
 - INTENTIONALLY NOT ADDED: A separate paragraph on his prose voice — folded into one sentence in the New Yorker section instead, to avoid bloating word count further.
+
+SECOND PASS (2026-05-07):
+- ADDED: Putkoski divorce beat — separated 2004 around A Cook's Tour, finalized 2005. Original review item #8 had asked for "Seven outruns the woman who saw him before the substrate change" and the first pass put her in the kitchen-era paragraph but stopped before the leaving. Now the leaving is on the page, with the actual mechanism (the show pulled him onto the road; she had wanted to travel once a year).
+- FIXED: Internal contradiction in the New Yorker section. H2 said "Gladys sent his manuscript"; body said he "cold-submitted." Reconciled to the documented version: Gladys handed it to a former NYT colleague who walked it to Remnick, who bought it within a day. Adjusted "submitting unsolicited prose to The New Yorker" → "writing magazine-grade prose between brasserie services" so the audacity beat survives without contradicting the H2.
+- VERIFIED: Tom Vitale's "five Emmys" claim — confirmed via published bio. No change.
 -->
 
 > "I should have died in my 20s. I became successful in my 40s. I became a dad in my 50s." — Anthony Bourdain, _Esquire_
@@ -144,11 +149,13 @@ He spent twenty years inside line-cook and executive-chef jobs most readers of _
 
 The woman who watched it pause was Nancy Putkoski. He'd dated her since high school in Leonia. They married in 1985, in the middle of the heroin years, and stayed married through the Lower East Side, through the cleanup, through the entire two-decade kitchen run. She is the woman who knew the version of Bourdain who only existed inside the brigade. Television never met him.
 
+They separated in 2004, the year _A Cook's Tour_ — his first travel show — pulled him onto the road for two years straight. The divorce closed in 2005. Putkoski had wanted, by her own description, to travel once a year. He had begun a job that paid him to be gone two hundred and fifty days of it. The Seven outran the woman who had only ever known the version that needed the brigade.
+
 ## Why Bourdain's mother sent his manuscript to The New Yorker
 
-In 1999, Gladys Bourdain — by that point a senior editor at _The New York Times_ — suggested that her son try writing about what kitchens were actually like, for an outside magazine. He cold-submitted an essay called _"Don't Eat Before Reading This"_ to _The New Yorker_. David Remnick read it the day it landed and accepted it the same day.
+In 1999, Gladys Bourdain — by that point a senior editor at _The New York Times_ — suggested that her son try writing about what kitchens were actually like, for an outside magazine. He wrote it between dinner shifts at Les Halles. Gladys handed the manuscript — an essay called _"Don't Eat Before Reading This"_ — to a former colleague who walked it across to David Remnick at _The New Yorker_. Remnick bought it within a day.
 
-That sequence is a 7w8 sentence. The audacity of submitting unsolicited prose to _The New Yorker_ from the line at Les Halles. The bet on his own voice with no fallback plan. The fact that the editor of one of the most edited magazines in the English-speaking world treated the manuscript as something he could not put down. _Kitchen Confidential_ followed in 2000, when Bourdain was forty-four. By then he had been a working chef for twenty-eight years.
+That sequence is a 7w8 sentence. The audacity of writing magazine-grade prose between brasserie services with no fallback plan. The bet that his own voice could carry. The fact that the editor of one of the most edited magazines in the English-speaking world treated the manuscript as something he could not put down. _Kitchen Confidential_ followed in 2000, when Bourdain was forty-four. By then he had been a working chef for twenty-eight years.
 
 Half of why people loved him was the prose. He wrote like a punk-rock kid who had read his Hemingway and his Orwell and meant both — short sentences, profanity used as a load-bearing tool, contempt for celebrity chefs who didn't actually cook. He spent the next eighteen years of fame writing his own narration in longhand, on yellow legal pads, in hotel rooms. He never let a producer write him.
 
@@ -226,4 +233,164 @@ At nine years old, he ate an oyster and decided that everything was somewhere el
 He spent fifty years proving it.
 
 Then, on a Friday in June, he stopped.
+
+<!--
+======================================================================
+FRESH-EYES REVIEW — original feedback from DJ (preserved for audit)
+STATUS: ADDRESSED 2026-05-07. See REVIEW RESOLUTION block at top of file
+for a point-by-point summary. The list below is the original review.
+======================================================================
+
+WHAT I MISSED / WANT MORE OF
+----------------------------
+
+1. ARIANE. His daughter. This is the biggest hole. You quote him saying
+   "I became a dad in my 50s" in the opening epigraph and then never
+   come back to her. For a guy whose whole pattern is "can't sit still,"
+   the fact that he had a kid at 50 and (per Ottavia, per Roadrunner)
+   tried to be present for her is *the* counter-evidence the type
+   reading has to address. Did fatherhood slow him? Did he fail at it?
+   Did it intensify the guilt that made the depression land harder at
+   the end? A reader who knows him is waiting for this and it never
+   arrives. Even one section, or one strong paragraph in the final
+   "stopped moving" section, would close it.
+   [ADDRESSED — paragraph in "stopped moving" section]
+
+2. LES HALLES + 28 YEARS IN KITCHENS. You skip from heroin in his 20s
+   straight to Kitchen Confidential at 44. But Bourdain spent two
+   decades as a working executive chef — Supper Club, Sullivan's,
+   Coco Pazzo Teatro, Les Halles — *before* anyone knew his name.
+   That's the period where the Type 7 wiring met an actual craft and
+   a brigade. The kitchen is where he learned the discipline that the
+   Seven typically lacks. Right now the article reads like: heroin →
+   poof → famous writer. Missing the middle makes the recovery feel
+   too clean.
+   [ADDRESSED — heroin/kitchen section now spends real time on the 20-year
+   brigade era and the discipline argument]
+
+3. THE NEW YORKER COLD-SUBMISSION STORY. "Don't Eat Before Reading
+   This" — he literally faxed/cold-submitted to The New Yorker after
+   his mom (an NYT editor!) suggested he try writing one. They
+   published it. That became Kitchen Confidential. This is *peak*
+   7w8 — the audacity, the I'll-just-try-it impulse, the bet on his
+   own voice. It's a better origin-of-the-second-life beat than the
+   "he just changed substrates" abstraction.
+   [ADDRESSED — new H2 "Why Bourdain's mother sent his manuscript to
+   The New Yorker"]
+
+4. WHAT HE ACTUALLY DID FOR FOOD AND COOKS. The dignity-of-line-cooks
+   thing — his "Under the Volcano" piece about Mexican cooks holding
+   up American restaurants, his constant naming of dishwashers and
+   prep cooks by name on his show, his refusal to film "fancy
+   restaurants in fancy cities." That's where the 8-wing's
+   underdog-loyalty actually lived for him daily, not just in the
+   Kissinger feud. Right now the moral compass reads as anti-power
+   when it was actually pro-worker.
+   [ADDRESSED — Kissinger section now has the pro-worker / Under the
+   Volcano paragraph]
+
+5. HIS WRITING. He was Hemingway-influenced, Orwell-obsessed, a punk
+   rock kid who read Céline. His prose is half of why people loved
+   him. The article describes his life but barely lets the reader
+   feel the voice that made him a phenomenon. One paragraph on the
+   writing itself would help.
+   [PARTIALLY ADDRESSED — folded into the New Yorker section as one
+   paragraph; did not give it its own H2 to keep word count in check]
+
+6. THE BEIRUT EPISODE (2006). You name-check it but the Beirut shoot
+   is the moment that broke his TV career open from "food show" into
+   "the show." War literally erupted while filming; the episode aired
+   as a kind of accidental documentary. Bourdain himself said it
+   changed what he thought the show was for. Worth a real beat.
+   [ADDRESSED — full paragraph in Kissinger section explaining the
+   pivot from No Reservations to Parts Unknown]
+
+7. HIS SELF-DEPRECATION / HUMILITY. The public swagger you describe is
+   only half of him. The other half — and everyone who actually met
+   him says this — was a guy who was startled by his fame, dismissive
+   of his talent, and routinely uncomfortable being the center of the
+   frame. Without that, the portrait skews 8-wing-heavy and misses the
+   register that made viewers trust him.
+   [ADDRESSED — counterweight paragraph after the contrast panel in
+   Kissinger section]
+
+8. NANCY PUTKOSKI (first wife). She was with him through the heroin
+   years and the kitchen years. He left her right around the
+   Kitchen Confidential explosion. That's "Seven outruns the woman
+   who saw him before the substrate change" — exactly the mechanism
+   you're already arguing. Free evidence on the table.
+   [ADDRESSED — paragraph in heroin/kitchen section]
+
+9. WHY PEOPLE GRIEVED HIM SO HARD. The piece doesn't really sit with
+   why his death hit the way it did. He'd become a kind of moral
+   imagination for a lot of people — the guy who modeled how to
+   travel, eat, listen, and be curious without being a tourist or a
+   colonizer. A reader closes the article and the death lands as
+   "a Seven ran out of road" but doesn't land as "we lost the person
+   who showed us how to pay attention."
+   [ADDRESSED — penultimate paragraph in closing section]
+
+10. ASIA ARGENTO + METOO COMPLEXITY. You mention "defending her in
+    tabloid fights." The actual context — Bourdain went all-in as a
+    MeToo ally through her, then her own settlement story emerged
+    after his death, then the relationship had cracked publicly in
+    his final weeks via the Hugo Clément paparazzi photos — is part
+    of why those last weeks broke. Right now the final section reads
+    "the depression caught up." It was also a very specific
+    humiliation in a very public theater for a man with an 8 wing's
+    pride.
+    [ADDRESSED — Hugo Clément paragraph added; the post-death Jimmy
+    Bennett settlement story was intentionally left out because it
+    happened *after* June 8 and didn't shape his decision]
+
+WHAT FEELS OVERDONE / DUPLICATED
+--------------------------------
+
+1. THE "RUNNING / MOVING / STILLNESS" METAPHOR. By my count it's
+   hammered ~15 times. "He had been moving since he was nine" appears
+   nearly verbatim three times. "Outrunning" / "couldn't sit still" /
+   "the running engine" / "the stillness winning by ambush." It's a
+   strong frame but it's load-bearing too many times in a row. Trim
+   half and the remaining half hits harder.
+   [ADDRESSED — "He had been moving since he was nine" now appears
+   only in the lede; "stillness winning by ambush" cut; running/moving
+   restatements reduced overall]
+
+2. THE OYSTER. Beautiful scene, used 4–5 times. Once as origin, once
+   as callback in the close = perfect. The middle references can go.
+   [ADDRESSED — origin + close only]
+
+3. "SUBSTRATE" / "WHAT HE WAS RUNNING ON." Same metaphor stated and
+   then re-stated. Pick one phrasing and stick.
+   [ADDRESSED — "substrate" is now the single phrasing; the "running
+   on" formulation appears once as a bridge]
+
+4. TYPE-4 DISQUALIFICATION. Done in the diagnosis section and again
+   in the heroin section. One pass is enough; the second one stalls
+   momentum.
+   [ADDRESSED — kept in diagnosis section; folded into the
+   four-types-in-one-line beat there; removed from heroin section]
+
+5. THE COLD-STAIRWELLS QUOTE. Used in the lede, then as the
+   evidentiary linchpin in the diagnosis section, then alluded to
+   again. Two appearances max.
+   [ADDRESSED — lede + diagnosis only; heroin-section allusion removed]
+
+6. SOME OF THE LITERARY FLOURISHES STACK UP. "the future was a more
+   habitable country than the present," "the schedule a metronome
+   the depression couldn't catch," "the stillness winning by
+   ambush." Any one of these is great. Three in one piece starts
+   sounding like a creative-writing reflex rather than a verdict.
+   [ADDRESSED — kept the metronome line; cut the other two]
+
+STRUCTURE NOTE
+--------------
+The piece tells one thesis very well: Seven runs, Seven runs out of
+road. Because the thesis is single-track, the missing material above
+(daughter, kitchens, writing, why he mattered) doesn't feel like
+"more topics" — it feels like the human evidence the thesis needs to
+land. Right now a reader who loved Bourdain might close this and
+think: "the analysis is sharp but it's not quite *him*."
+======================================================================
+-->
 

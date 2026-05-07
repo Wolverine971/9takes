@@ -6,7 +6,21 @@
 **Account:** @9takesdotcom
 **Source Warmup:** docs/instagram/daily-engagement/2026-04-23_instagram-warmup-pm.md
 **Source Mode:** Structured queue (v5 workflow — Post Diagnosis + mode mix)
-**Status:** DRAFTS READY
+**Status:** **SKIPPED — AGED OUT (closed 2026-05-07)**
+
+> **Disposition (set 2026-05-07 PM):** All 5 drafts in this file are retired without posting. The 10-day silence (Apr 28 → May 7, caused by Chrome bridge offline + wrong-account active) carried every target post past its useful engagement window:
+>
+> | Draft                                 | Post                                          | Today's Age | Verdict                |
+> | ------------------------------------- | --------------------------------------------- | ----------- | ---------------------- |
+> | 1. @enneagramwithjb DXehACGjj35       | Hornevian triads                              | ~14d        | Aged out — do not post |
+> | 2. @mindfulmft DXc3repDdAN            | Decision to end relationship                  | ~14d        | Aged out — do not post |
+> | 3. @thesecurerelationship DXcua-jjmP1 | Blaming vs Owning                             | ~14d        | Aged out — do not post |
+> | 4. @enneagrampaths DXb4upElHlQ        | "In Our Own Words" + 2 cmt-level + 2 likes    | ~14d        | Aged out — do not post |
+> | 5. @enneagrampaths DWzFwmGFB2m        | Longings thread revive (was already optional) | ~31d        | Aged out — do not post |
+>
+> The phrasings are preserved below for archival reference only. **Do not recycle the exact phrasings on a different post** — every line was reserved against the specific Apr 23 target. Voice can echo (cost-of-success, inside-correctness, observable-tell), but the literal sentences are off-limits.
+>
+> Recovery is being handled in `docs/instagram/daily-engagement/2026-05-07_instagram-warmup-pm.md` against fresh post entries on each affected account.
 
 ---
 

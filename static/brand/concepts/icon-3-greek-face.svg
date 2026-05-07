@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256" role="img" aria-label="9takes — Greek statue profile with glowing eye">
+  <title>9takes — Streetlamp Symposium</title>
+  <desc>Classical Greek statue profile carved from warm stone. A sodium-amber light bleeds from a single eye and from hairline cracks. The brand mood made literal.</desc>
+
+  <defs>
+    <radialGradient id="gf-stone" cx="35%" cy="30%" r="85%">
+      <stop offset="0%"  stop-color="#3a302a"/>
+      <stop offset="50%" stop-color="#241D17"/>
+      <stop offset="100%" stop-color="#0a0807"/>
+    </radialGradient>
+
+    <radialGradient id="gf-marble" cx="50%" cy="50%" r="50%">
+      <stop offset="0%"  stop-color="#FAF8F4" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#FAF8F4" stop-opacity="0"/>
+    </radialGradient>
+
+    <radialGradient id="gf-eye" cx="50%" cy="50%" r="50%">
+      <stop offset="0%"  stop-color="#FBBF24"/>
+      <stop offset="50%" stop-color="#F59E0B"/>
+      <stop offset="100%" stop-color="#B45309" stop-opacity="0"/>
+    </radialGradient>
+
+    <filter id="gf-glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="2.5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background plate -->
+  <rect x="0" y="0" width="256" height="256" rx="40" fill="url(#gf-stone)"/>
+
+  <!-- Soft top-left rim light (the streetlamp falling on stone) -->
+  <ellipse cx="80" cy="60" rx="120" ry="100" fill="url(#gf-marble)"/>
+
+  <!-- Greek profile silhouette, facing right.
+       Carved from one path. Reads as a face at small sizes. -->
+  <path
+    d="M 78,224
+       C 64,210 60,170 62,130
+       C 60,90 70,52 100,40
+       C 130,30 158,38 174,62
+       C 184,80 184,98 182,108
+       L 196,124
+       L 208,138
+       L 200,144
+       L 184,144
+       L 184,150
+       L 192,158
+       L 184,164
+       L 188,178
+       L 178,184
+       L 188,200
+       L 174,212
+       L 174,224
+       Z"
+    fill="#241D17"
+    stroke="#5C4F47"
+    stroke-width="2"
+    stroke-linejoin="round"/>
+
+  <!-- Hairline cracks across the cheek and forehead (amber, glowing) -->
+  <g stroke="#F59E0B" stroke-width="1.2" stroke-linecap="round" fill="none" filter="url(#gf-glow)" opacity="0.85">
+    <path d="M 110,60 L 132,84"/>
+    <path d="M 132,84 L 124,108"/>
+    <path d="M 132,84 L 152,98"/>
+    <path d="M 96,150 L 130,170"/>
+    <path d="M 130,170 L 148,176"/>
+    <path d="M 130,170 L 138,196"/>
+  </g>
+
+  <!-- The single eye — sodium-amber illumination -->
+  <circle cx="158" cy="108" r="14" fill="url(#gf-eye)"/>
+  <circle cx="158" cy="108" r="5"  fill="#FBBF24"/>
+  <circle cx="158" cy="108" r="2"  fill="#FEF3C7"/>
+
+  <!-- Subtle brow shadow above eye -->
+  <path d="M 144,98 Q 158,92 172,100"
+        fill="none" stroke="#0a0807" stroke-width="2" stroke-linecap="round" opacity="0.6"/>
+
+  <!-- Pool of warm light at the base (the streetlamp reference) -->
+  <ellipse cx="128" cy="240" rx="90" ry="8" fill="#F59E0B" opacity="0.18"/>
+</svg>

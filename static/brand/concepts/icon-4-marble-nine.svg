@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256" role="img" aria-label="9takes — cracked marble 9">
+  <title>9takes — Cracked Marble 9</title>
+  <desc>The numeral nine carved from warm stone with sodium-amber light bleeding through hairline cracks. A direct evolution of the wordmark into a mark.</desc>
+
+  <defs>
+    <radialGradient id="m9-bg" cx="38%" cy="32%" r="80%">
+      <stop offset="0%"  stop-color="#3a302a"/>
+      <stop offset="60%" stop-color="#241D17"/>
+      <stop offset="100%" stop-color="#0a0807"/>
+    </radialGradient>
+
+    <linearGradient id="m9-stone" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%"  stop-color="#5C4F47"/>
+      <stop offset="40%" stop-color="#3a302a"/>
+      <stop offset="100%" stop-color="#241D17"/>
+    </linearGradient>
+
+    <radialGradient id="m9-crack" cx="50%" cy="50%" r="50%">
+      <stop offset="0%"  stop-color="#FBBF24"/>
+      <stop offset="60%" stop-color="#F59E0B"/>
+      <stop offset="100%" stop-color="#B45309" stop-opacity="0"/>
+    </radialGradient>
+
+    <filter id="m9-glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <!-- Hand-rolled outline of "9" so the SVG isn't font-dependent.
+         Outer head (CCW) + tail; inner counter (CW for even-odd hole). -->
+    <path id="m9-shape"
+          d="M 128,32
+             C 92,32 64,60 64,98
+             C 64,134 90,160 124,160
+             C 138,160 150,156 158,150
+             L 158,158
+             C 156,182 142,202 116,212
+             L 96,220
+             L 102,224
+             L 188,224
+             C 200,194 208,154 208,108
+             C 208,60 174,32 128,32 Z
+
+             M 128,72
+             C 110,72 96,86 96,104
+             C 96,122 110,134 128,134
+             C 146,134 162,122 162,104
+             C 162,86 146,72 128,72 Z"
+          fill-rule="evenodd"/>
+  </defs>
+
+  <!-- Plate -->
+  <rect x="0" y="0" width="256" height="256" rx="40" fill="url(#m9-bg)"/>
+
+  <!-- Subtle warm pool from upper-left -->
+  <ellipse cx="80" cy="64" rx="120" ry="90" fill="#F59E0B" opacity="0.06"/>
+
+  <!-- Stone "9" -->
+  <use href="#m9-shape" fill="url(#m9-stone)" stroke="#5C4F47" stroke-width="2" stroke-linejoin="round"/>
+
+  <!-- Cracks: only visible inside the "9" via clipPath -->
+  <clipPath id="m9-clip">
+    <use href="#m9-shape"/>
+  </clipPath>
+
+  <g clip-path="url(#m9-clip)">
+    <!-- Soft amber under-glow inside the cracks -->
+    <g filter="url(#m9-glow)" opacity="0.95">
+      <!-- Major diagonal crack across the head -->
+      <path d="M 76,72 Q 110,90 128,108 Q 152,126 176,140"
+            fill="none" stroke="#FBBF24" stroke-width="2.2" stroke-linecap="round"/>
+      <!-- Branch cracks off the main -->
+      <path d="M 110,90 L 122,68"
+            fill="none" stroke="#F59E0B" stroke-width="1.4" stroke-linecap="round"/>
+      <path d="M 128,108 L 144,96"
+            fill="none" stroke="#F59E0B" stroke-width="1.4" stroke-linecap="round"/>
+      <path d="M 152,126 L 168,114"
+            fill="none" stroke="#F59E0B" stroke-width="1.4" stroke-linecap="round"/>
+
+      <!-- Tail crack continuing into the descender -->
+      <path d="M 176,140 Q 174,176 158,200 Q 138,218 116,224"
+            fill="none" stroke="#F59E0B" stroke-width="1.6" stroke-linecap="round"/>
+      <path d="M 158,200 L 170,212"
+            fill="none" stroke="#F59E0B" stroke-width="1.2" stroke-linecap="round"/>
+    </g>
+
+    <!-- Pinpoint glow nodes where cracks intersect -->
+    <circle cx="110" cy="90"  r="3" fill="url(#m9-crack)"/>
+    <circle cx="128" cy="108" r="3.5" fill="url(#m9-crack)"/>
+    <circle cx="152" cy="126" r="3" fill="url(#m9-crack)"/>
+    <circle cx="176" cy="140" r="3.5" fill="url(#m9-crack)"/>
+    <circle cx="158" cy="200" r="3" fill="url(#m9-crack)"/>
+  </g>
+
+  <!-- Pool of warm light at the base -->
+  <ellipse cx="128" cy="240" rx="90" ry="6" fill="#F59E0B" opacity="0.2"/>
+</svg>

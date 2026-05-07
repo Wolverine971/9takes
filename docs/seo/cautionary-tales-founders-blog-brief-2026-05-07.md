@@ -44,12 +44,12 @@ path: docs/seo/cautionary-tales-founders-blog-brief-2026-05-07.md
 
 ### 1. All three personality-analysis drafts shipped on 2026-05-07.
 
-| Founder | Working hypothesis (round 1) | Confirmed in draft | Persona title from draft | Grade |
-|---|---|---|---|---|
-| Adam Neumann | 7w8 | **✅ 7w8 ("the Realist")** | _Capital's Barefoot Prophet_ | A (9.0) |
-| Elizabeth Holmes | 3w4 | **✅ 3w2 ("the charmer")** — wing changed | _Silicon Valley's Empty Costume_ | B+ (8.9) |
-| Sam Bankman-Fried | 5w6 | **✅ 5w6, sexual/social subtype stack** | _Crypto's Disembodied Calculator_ | A (9.4) |
-| Sam Altman | 4 (per existing drafts) | unchanged | (use existing) | n/a |
+| Founder           | Working hypothesis (round 1) | Confirmed in draft                        | Persona title from draft          | Grade    |
+| ----------------- | ---------------------------- | ----------------------------------------- | --------------------------------- | -------- |
+| Adam Neumann      | 7w8                          | **✅ 7w8 ("the Realist")**                | _Capital's Barefoot Prophet_      | A (9.0)  |
+| Elizabeth Holmes  | 3w4                          | **✅ 3w2 ("the charmer")** — wing changed | _Silicon Valley's Empty Costume_  | B+ (8.9) |
+| Sam Bankman-Fried | 5w6                          | **✅ 5w6, sexual/social subtype stack**   | _Crypto's Disembodied Calculator_ | A (9.4)  |
+| Sam Altman        | 4 (per existing drafts)      | unchanged                                 | (use existing)                    | n/a      |
 
 ### 2. The wing change for Holmes matters — the comparison set shifts.
 
@@ -63,12 +63,12 @@ The round-1 brief paired Holmes with Jensen Huang as "same Type 3, different sub
 
 This is the biggest insight the drafts surfaced. Each cautionary founder's **disintegration arrow** _is_ the specific shape of their downfall:
 
-| Founder | Type | Disintegration arrow | What it looks like in the wild |
-|---|---|---|---|
-| Neumann | 7w8 | **7 → 1** | Manic visionary turns rigid, critical, lecturing. Yelling at staff. Micromanaging. _The 7 who suddenly sounds like the 1 telling everyone they're doing it wrong._ Direct from the draft. |
-| Holmes | 3w2 | **3 → 9** | The self disengages under accountability. **The single most documented expression: 600+ "I don't know" answers in deposition.** That is a 3 stress-arrowing to 9 in real time, on the record. |
-| SBF | 5w6 | **5 → 7** | The math fails, the 5 cannot retreat further into analysis, so it disintegrates outward into manic 7 chaos: late-stage chaotic acquisitions, Naming Rights Era (Crypto.com Arena, Tom Brady, MLB umpire patches), the Twitter-DM media tour during a federal investigation. |
-| Altman | 4 | **4 → 2** _(implicit)_ | Identity-merging with the audience whose validation he needs in the moment. The "unburdened by truth" pattern is the 4 disintegrating to a manipulative 2 — _producing the version of himself the room needs._ Already in the musk-vs-altman blog. |
+| Founder | Type | Disintegration arrow   | What it looks like in the wild                                                                                                                                                                                                                                              |
+| ------- | ---- | ---------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Neumann | 7w8  | **7 → 1**              | Manic visionary turns rigid, critical, lecturing. Yelling at staff. Micromanaging. _The 7 who suddenly sounds like the 1 telling everyone they're doing it wrong._ Direct from the draft.                                                                                   |
+| Holmes  | 3w2  | **3 → 9**              | The self disengages under accountability. **The single most documented expression: 600+ "I don't know" answers in deposition.** That is a 3 stress-arrowing to 9 in real time, on the record.                                                                               |
+| SBF     | 5w6  | **5 → 7**              | The math fails, the 5 cannot retreat further into analysis, so it disintegrates outward into manic 7 chaos: late-stage chaotic acquisitions, Naming Rights Era (Crypto.com Arena, Tom Brady, MLB umpire patches), the Twitter-DM media tour during a federal investigation. |
+| Altman  | 4    | **4 → 2** _(implicit)_ | Identity-merging with the audience whose validation he needs in the moment. The "unburdened by truth" pattern is the 4 disintegrating to a manipulative 2 — _producing the version of himself the room needs._ Already in the musk-vs-altman blog.                          |
 
 **The blog should make this its own section** (proposed insertion: between Frame 3 and Frame 4, just before the "Why the Sentences Differ" interstitial — or _replacing_ that interstitial entirely with this richer frame). Headline candidate: **"The Stress Arrow Is the Failure Shape."**
 
@@ -77,6 +77,7 @@ This is the biggest insight the drafts surfaced. Each cautionary founder's **dis
 The round-1 brief listed "evidence beats" generically. The drafts produced specific, sourced beats that are far stronger. Use these as the anchor for each frame:
 
 **Adam Neumann (Frame 1) — leading anchors:**
+
 - **Age 10, $150 to mom:** "I earned $300 from my paper route. This is my share of the rent." (Avivit Neumann-Orbach, mother, via CTech / Calcalist 2020.) The boy who couldn't stand to owe his mother $50 grew up to lose other people's billions and reframe it as a learning experience. _This is the lede the draft already wrote — the round-2 blog can cite it directly._
 - **13 homes by age 22.** The 7's core wound made physical: home was a thing that ended without warning.
 - **$4.4 billion in 12 minutes.** The Masayoshi Son office tour, 2016. Closes the loop on "how does someone fund a real-estate sublease company at $47B" — they don't. They fund a 7 in a 12-minute charm offensive.
@@ -84,6 +85,7 @@ The round-1 brief listed "evidence beats" generically. The drafts produced speci
 - **Bruce Dunlevie (Benchmark partner) on his bet:** "an indefinable feeling that you couldn't quite put your finger on." Direct quote of Type 6 investor intoxication by Type 7 founder energy. **This is the empirical receipt for the brief's "6s fund 7s" thesis.**
 
 **Elizabeth Holmes (Frame 2) — leading anchors:**
+
 - **Age 9 letter to her father:** "What I really want out of life is to discover something new, something that mankind didn't know was possible to do." _The draft's lede observes: she did not say a what, a field, a person, a problem. The shape was the point. The personality is already on the page._ Best possible Frame 2 opener.
 - **The desk quote.** Channing Robertson (Stanford, her thesis advisor): "You start to realize, you are looking in the eyes of another Bill Gates, or Steve Jobs." Holmes kept this quote on her desk _before the company had a working device._ A 3w2 collecting validation from a borrowed authority figure.
 - **Kissinger's framing:** "ethereal" / "like a member of a monastic order." Mattis: "a revolutionary in the truest sense." Auletta: the board talked about her "as if she were Beethoven."
@@ -91,6 +93,7 @@ The round-1 brief listed "evidence beats" generically. The drafts produced speci
 - **John Carreyrou's clinical observation:** "the way she trained her big blue eyes on you without blinking made you feel like the center of the world." That's a 3w2 in interpersonal mode.
 
 **Sam Bankman-Fried (Frame 3) — leading anchors:**
+
 - **The League of Legends Sequoia pitch.** September 2022. He plays a video game through the entire $200M pitch. The Sequoia partners describe it as "one of those your-hair-is-blown-back type of meetings." Sixty days later, FTX is bankrupt and $8B is missing. _Best possible Frame 3 opener._
 - **The Kelsey Piper DM, post-collapse.** SBF describes ethics — _his entire public framework_ — as "this dumb game we woke westerners play." Asked if his regulatory positioning was "just PR," he says: "Yeah, just PR." This is not a 5 who lost his way. **This is the 5 admitting the framework was a costume.** Update the round-1 brief's "EA was the medium not the cause" to **"EA was the costume — not the medium, not the cause."**
 - **Caroline Ellison testimony, October 2023:** "Sam directed me to commit these crimes." Direct quote on the record. And separately: "He said at one point he thought there was a 5% chance he would become president." The 5w6 expected-value brain applied to its own life trajectory.

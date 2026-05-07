@@ -78,7 +78,7 @@ Pichai's Type 9 walked into that and stewarded it. The founders' return is the 5
 - "10x not 10%" — Type 5 systems-thinking pushed to existential extreme.
 - Founded Loon, Waymo, Calico (mission: solve death) — moonshots that explore _what's possible_, not what's profitable.
 - Owns at least **five private islands**. Lives mostly in Fiji. When the Fijian government accidentally reported he'd donated COVID medical supplies, the article got retracted at his office's request.
-- **GUS / Zee.Aero:** Page personally spent $100M+ on a flying-car factory in Hollister where employees called him "The Guy Upstairs." NDAs didn't name him. Bloomberg unmasked him in 2016. *That is a 5w6 leadership style — invisible authorship from one floor above.*
+- **GUS / Zee.Aero:** Page personally spent $100M+ on a flying-car factory in Hollister where employees called him "The Guy Upstairs." NDAs didn't name him. Bloomberg unmasked him in 2016. _That is a 5w6 leadership style — invisible authorship from one floor above._
 - Brother Carl Page Jr. sold eGroups to Yahoo for $413M in 2000. The household was already information-shaped.
 - "Spent his time instigating others to think bigger" — 5s lead through ideas, not presence.
 
@@ -92,14 +92,14 @@ Pichai's Type 9 walked into that and stewarded it. The founders' return is the 5
 - **Throws pebbles at police cars.** Did it as a six-year-old. Said he wanted to do it again at 17 when he revisited the USSR in 1990. The 5w7's relationship to authority is "I'd rather know what happens than respect the rule."
 - Stanford bicker buddy with Page. Both said the meeting felt obnoxious. Each is the only person who could have built Google with the other.
 - **Walks on his hands in meetings.** Rollerblades to the office. Trapeze artist at Burning Man. Once interviewed candidates dressed as a cow. The 7 wing is real — but it's the chassis, not the engine.
-- **Genome scan, 2008:** Alpha-tested then-girlfriend Anne Wojcicki's 23andMe scanner on himself, found his LRRK2 mutation, calculated his Parkinson's risk at up to 8-in-10. *He requested the result.* The 5 core: would I rather know, even when knowing hurts? Yes, every time.
+- **Genome scan, 2008:** Alpha-tested then-girlfriend Anne Wojcicki's 23andMe scanner on himself, found his LRRK2 mutation, calculated his Parkinson's risk at up to 8-in-10. _He requested the result._ The 5 core: would I rather know, even when knowing hurts? Yes, every time.
 - Hires by asking what you can teach him in five minutes — the same move he runs everywhere.
 - **Retired in 2019 → "spiraling" within three years.** Said he was "kind of not being sharp." Then ChatGPT shipped November 2022 and within months he was at Google offices "pretty much every day."
 - Eric Schmidt: "He comes back and he's spent $1.5 million. Such disorder from a founder. Of course, that $1.5 million that he spent became a $10 billion business."
-- Stress disintegrates toward 7: two divorces, two affair scandals, a rotation of moonshot obsessions. *A Type 5 without a question to chase is a Type 5 collapsing.*
+- Stress disintegrates toward 7: two divorces, two affair scandals, a rotation of moonshot obsessions. _A Type 5 without a question to chase is a Type 5 collapsing._
 - Father Mikhail on raising him: "I always left him freedom of choice... As a child, he asked a lot of questions and listened to my explanations — sometimes for an entire hour."
 
-**Personality fingerprint:** The 5w7 whose whole life is one question repeated at every scale: *would I rather know?* Every time, yes. Page is the architect. Brin is the engine that won't stop running. AI gave him a question worth coming back for.
+**Personality fingerprint:** The 5w7 whose whole life is one question repeated at every scale: _would I rather know?_ Every time, yes. Page is the architect. Brin is the engine that won't stop running. AI gave him a question worth coming back for.
 
 ## Sundar Pichai — Confirmed: Type 9 (per existing draft)
 

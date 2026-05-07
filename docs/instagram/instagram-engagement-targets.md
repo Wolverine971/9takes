@@ -2,11 +2,26 @@
 
 # Instagram Engagement Targets — @9takesdotcom
 
-_Last Updated: 2026-04-06_
+_Last Updated: 2026-05-07 (PM — silence-period snapshot appended; @nicolascole77 added to Tier 4 Discovery)_
 _Purpose: Living document tracking accounts to engage with, organized by tier and category._
 _Updated by: `/instagram-warmup` scans and reviewed alongside `/instagram-reply` account history._
 
 **RULE:** The tier tables below are append-only for account discovery. Do not delete, reorder, or overwrite existing account rows in those tables. Relationship history and evolving account intel live in `docs/instagram/account-profiles/<handle>.md`, which are expected to be updated over time.
+
+---
+
+## Outbound Activity Snapshots (append-only)
+
+### 2026-04-28 → 2026-05-07 — 10-day silence period
+
+- **Window:** 2026-04-28 (final unblocked scan + Apr 28 queue posted) → 2026-05-07 PM (recovery warmup ran cleanly).
+- **Cause:** Two stacked browser failures across 7 consecutive blocked scans:
+  - Apr 29 → May 3: `instagram_session_logged_out` (no IG cookie).
+  - May 4 / May 6: `instagram_wrong_account_active` (@dj_pew_pew was the live IG session; one-account-per-Chrome-profile constraint kept knocking @9takesdotcom out).
+  - May 7 AM: `chrome_extension_not_connected` (the Claude ↔ Chrome bridge itself was offline).
+- **Cost:** All 5 Apr 28 queued posts (DXp9qlyDq*E, DXo6f1ym47n, DXpjBOQGZc0, DXpoWOAEobv, DXnJlcfgaNr) aged out unposted. 3 warm relationship signals (Melissa 17d, Vienna 16d, Jackie 15d) cooled but recoverable. Vanessa cover-up Anchor was untouched and \_gained* algorithmic momentum during the silence (~95+ likes by May 7).
+- **Resolved:** Recovery warmup `2026-05-07_instagram-warmup-pm.md` confirmed bridge online + @9takesdotcom active in nav and queued 5 fresh-post recoveries (Jackie DYCjXJGDj5Z, Nicolas Cole DM signal, Melissa DYAI3KGm-od, Vienna DX_4F6zjrXy, Vanessa DYDWMN_SB3a).
+- **Discovery during silence:** New peer-tier outreach signal from @nicolascole77 (Nicolas Cole, 93.8K, verified writer) — replied to a 9takes Miyazaki comment + sent DM. Profile created: `docs/instagram/account-profiles/nicolascole77.md`. Added to Tier 4 Discovery this snapshot, suggested for promotion to Tier 2 (Adjacent Partner) after a second touchpoint.
 
 ---
 
@@ -166,13 +181,17 @@ The workflow is:
 
 _Accounts found during warmup scans. Review weekly and promote to higher tiers if consistently valuable._
 
-| Account                  | Followers | Theme                                     | Content Type                      | Discovered | Suggested Tier  | Why                                                                |
-| ------------------------ | --------- | ----------------------------------------- | --------------------------------- | ---------- | --------------- | ------------------------------------------------------------------ |
-| @cathartic_word          | ~18K      | Enneagram + poetry, journaling prompts    | Poetry graphics, writing prompts  | 2026-03-15 | Tier 1          | Prompt-based approach = 9takes Q&A format                          |
-| @enneagram_relationships | ~5K       | Certified coach; romantic type dynamics   | Educational relationship graphics | 2026-03-15 | Tier 1          | Small = accessible for collaboration                               |
-| @dear.kristin            | ~4K       | MBTI comedy sketches, "Type Trends" polls | Reels, Stories polls              | 2026-03-15 | Tier 3          | "Type Trends" experiments = 9takes' "one question, 9 perspectives" |
-| @theenneagraminbusiness  | ~2K       | Enneagram for organizations, leadership   | Business educational              | 2026-03-15 | Tier 1          | Underserved niche — opportunity gap for 9takes                     |
-| @enneagramseattle        | Unknown   | Enneagram community/education             | Unknown                           | 2026-04-06 | Tier 1 / Tier 4 | Suggested in IG sidebar; followed by 8ish_andiknowit. Needs review |
+| Account                  | Followers | Theme                                     | Content Type                      | Discovered | Suggested Tier            | Why                                                                                                                                                                                                          |
+| ------------------------ | --------- | ----------------------------------------- | --------------------------------- | ---------- | ------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| @cathartic_word          | ~18K      | Enneagram + poetry, journaling prompts    | Poetry graphics, writing prompts  | 2026-03-15 | Tier 1                    | Prompt-based approach = 9takes Q&A format                                                                                                                                                                    |
+| @enneagram_relationships | ~5K       | Certified coach; romantic type dynamics   | Educational relationship graphics | 2026-03-15 | Tier 1                    | Small = accessible for collaboration                                                                                                                                                                         |
+| @dear.kristin            | ~4K       | MBTI comedy sketches, "Type Trends" polls | Reels, Stories polls              | 2026-03-15 | Tier 3                    | "Type Trends" experiments = 9takes' "one question, 9 perspectives"                                                                                                                                           |
+| @theenneagraminbusiness  | ~2K       | Enneagram for organizations, leadership   | Business educational              | 2026-03-15 | Tier 1                    | Underserved niche — opportunity gap for 9takes                                                                                                                                                               |
+| @enneagramseattle        | Unknown   | Enneagram community/education             | Unknown                           | 2026-04-06 | Tier 1 / Tier 4           | Suggested in IG sidebar; followed by 8ish_andiknowit. Needs review                                                                                                                                           |
+| @nicolascole77           | 93.8K     | Writing / ghostwriting craft              | Multi-slide carousels + reels     | 2026-05-07 | Tier 2 (Adjacent Partner) | Verified, 216 following (highly selective). Replied to a 9takes Miyazaki comment + sent DM May 7 PM. First peer-tier writer/coach outreach signal. Profile: docs/instagram/account-profiles/nicolascole77.md |
+| @priyamsharma.therapy    | Unknown   | Therapy-adjacent                          | Unknown                           | 2026-05-07 | Tier 4 → review           | Liked an Apr 09 9takes comment on /p/DWsE7cVFHOD/. Surfaced in May 7 PM warmup notifications scan. Defer profile until second touchpoint.                                                                    |
+| @melrmbt                 | Unknown   | Unknown                                   | Unknown                           | 2026-05-07 | Tier 4 → review           | Liked an Apr 18 9takes self-compassion comment on /p/DWTx98kgFBj/. Surfaced May 7 PM. Defer profile until second touchpoint.                                                                                 |
+| @larkspur_harukasekai    | Unknown   | Unknown                                   | Unknown                           | 2026-05-07 | Tier 4 → review           | Liked an Apr 15 9takes defense-mechanisms comment on /p/DWyvBN5Dis2/. Surfaced May 7 PM. Defer profile until second touchpoint.                                                                              |
 
 ---
 

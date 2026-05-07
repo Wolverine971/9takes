@@ -1,0 +1,342 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>9takes — Icon Concepts</title>
+    <style>
+      :root {
+        --night-deep: #0a0807;
+        --night-mid: #16110d;
+        --stone-warm: #241d17;
+        --stone-mid: #3a302a;
+        --stone-edge: #5c4f47;
+        --ink-bright: #faf8f4;
+        --ink-mid: #a8a095;
+        --ink-dim: #5c4f47;
+        --lamp-glow: #f59e0b;
+        --marble-pure: #faf8f4;
+        --marble-light: #f2ebdd;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        font-family:
+          'Inter',
+          system-ui,
+          -apple-system,
+          sans-serif;
+        background: var(--night-deep);
+        color: var(--ink-bright);
+        line-height: 1.5;
+      }
+
+      header {
+        padding: 32px 48px;
+        border-bottom: 1px solid var(--stone-edge);
+      }
+      header h1 {
+        margin: 0 0 4px;
+        font-size: 28px;
+        font-weight: 800;
+        letter-spacing: -0.02em;
+      }
+      header p {
+        margin: 0;
+        color: var(--ink-mid);
+        font-size: 14px;
+      }
+      .kicker {
+        font-family: 'JetBrains Mono', ui-monospace, monospace;
+        font-size: 11px;
+        text-transform: uppercase;
+        letter-spacing: 0.08em;
+        color: var(--lamp-glow);
+        margin-bottom: 8px;
+      }
+
+      .concept {
+        padding: 48px;
+        border-bottom: 1px solid var(--stone-edge);
+      }
+      .concept h2 {
+        font-size: 22px;
+        font-weight: 700;
+        letter-spacing: -0.01em;
+        margin: 0 0 4px;
+      }
+      .concept .desc {
+        margin: 0 0 32px;
+        color: var(--ink-mid);
+        max-width: 60ch;
+        font-size: 14px;
+      }
+
+      .panels {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 24px;
+      }
+      .panel {
+        border-radius: 16px;
+        padding: 32px;
+        border: 1px solid var(--stone-edge);
+      }
+      .panel.dark {
+        background: var(--stone-warm);
+      }
+      .panel.light {
+        background: var(--marble-pure);
+        color: var(--stone-warm);
+      }
+      .panel-label {
+        font-family: 'JetBrains Mono', ui-monospace, monospace;
+        font-size: 10px;
+        text-transform: uppercase;
+        letter-spacing: 0.1em;
+        color: var(--ink-dim);
+        margin-bottom: 24px;
+      }
+      .panel.dark .panel-label {
+        color: var(--ink-mid);
+      }
+
+      .sizes {
+        display: flex;
+        align-items: flex-end;
+        gap: 32px;
+        flex-wrap: wrap;
+      }
+      .size {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 8px;
+      }
+      .size img {
+        display: block;
+        image-rendering: -webkit-optimize-contrast;
+      }
+      .size .px {
+        font-family: 'JetBrains Mono', ui-monospace, monospace;
+        font-size: 10px;
+        color: var(--ink-dim);
+      }
+      .panel.dark .size .px {
+        color: var(--ink-mid);
+      }
+
+      .strip {
+        display: flex;
+        align-items: center;
+        gap: 16px;
+        margin-top: 24px;
+        padding: 16px;
+        border-radius: 10px;
+        background: rgba(0, 0, 0, 0.18);
+      }
+      .panel.light .strip {
+        background: rgba(36, 29, 23, 0.05);
+      }
+      .strip img {
+        display: block;
+      }
+      .strip .label {
+        font-size: 13px;
+        color: var(--ink-mid);
+      }
+      .panel.light .strip .label {
+        color: var(--ink-dim);
+      }
+
+      footer {
+        padding: 32px 48px;
+        color: var(--ink-mid);
+        font-size: 13px;
+      }
+      footer code {
+        font-family: 'JetBrains Mono', ui-monospace, monospace;
+        font-size: 12px;
+        background: var(--stone-warm);
+        padding: 2px 6px;
+        border-radius: 4px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <div class="kicker">§ ICON CONCEPTS · 2026-05-07 · STREETLAMP SYMPOSIUM</div>
+      <h1>9takes — four marks for review</h1>
+      <p>Each concept rendered at 16, 24, 32, 64, 128, 256 px on warm-stone (dark mode) and marble (light mode).</p>
+    </header>
+
+    <section class="concept">
+      <div class="kicker">§ 01 · PRECISION INSTRUMENT</div>
+      <h2>Concept 1 — 9-Blade Aperture</h2>
+      <p class="desc">
+        Camera iris with exactly nine blades. Sodium-amber light pours through the central opening. Encodes the Enneagram as geometry, not as a label. Reads as “controlled seeing” — a tool, not a logo.
+      </p>
+      <div class="panels">
+        <div class="panel dark">
+          <div class="panel-label">Dark mode · stone-warm surface</div>
+          <div class="sizes">
+            <div class="size"><img src="icon-1-aperture.svg" width="16" height="16" alt="" /><span class="px">16</span></div>
+            <div class="size"><img src="icon-1-aperture.svg" width="24" height="24" alt="" /><span class="px">24</span></div>
+            <div class="size"><img src="icon-1-aperture.svg" width="32" height="32" alt="" /><span class="px">32</span></div>
+            <div class="size"><img src="icon-1-aperture.svg" width="64" height="64" alt="" /><span class="px">64</span></div>
+            <div class="size"><img src="icon-1-aperture.svg" width="128" height="128" alt="" /><span class="px">128</span></div>
+            <div class="size"><img src="icon-1-aperture.svg" width="256" height="256" alt="" /><span class="px">256</span></div>
+          </div>
+          <div class="strip">
+            <img src="icon-1-aperture.svg" width="32" height="32" alt="" />
+            <span class="label">9takes — see the emotions behind every take</span>
+          </div>
+        </div>
+        <div class="panel light">
+          <div class="panel-label">Light mode · marble surface</div>
+          <div class="sizes">
+            <div class="size"><img src="icon-1-aperture.svg" width="16" height="16" alt="" /><span class="px">16</span></div>
+            <div class="size"><img src="icon-1-aperture.svg" width="24" height="24" alt="" /><span class="px">24</span></div>
+            <div class="size"><img src="icon-1-aperture.svg" width="32" height="32" alt="" /><span class="px">32</span></div>
+            <div class="size"><img src="icon-1-aperture.svg" width="64" height="64" alt="" /><span class="px">64</span></div>
+            <div class="size"><img src="icon-1-aperture.svg" width="128" height="128" alt="" /><span class="px">128</span></div>
+            <div class="size"><img src="icon-1-aperture.svg" width="256" height="256" alt="" /><span class="px">256</span></div>
+          </div>
+          <div class="strip">
+            <img src="icon-1-aperture.svg" width="32" height="32" alt="" />
+            <span class="label">9takes — see the emotions behind every take</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="concept">
+      <div class="kicker">§ 02 · SYSTEM / CIPHER</div>
+      <h2>Concept 2 — Decoder Cipher Wheel</h2>
+      <p class="desc">
+        Outer fixed ring with nine ticks; inner rotating dial with one amber-locked segment. The mechanism of “cracking the code” of a personality. Strong for the tech-spec dossier variant on <code>/personality-analysis/*</code>.
+      </p>
+      <div class="panels">
+        <div class="panel dark">
+          <div class="panel-label">Dark mode</div>
+          <div class="sizes">
+            <div class="size"><img src="icon-2-cipher.svg" width="16" height="16" alt="" /><span class="px">16</span></div>
+            <div class="size"><img src="icon-2-cipher.svg" width="24" height="24" alt="" /><span class="px">24</span></div>
+            <div class="size"><img src="icon-2-cipher.svg" width="32" height="32" alt="" /><span class="px">32</span></div>
+            <div class="size"><img src="icon-2-cipher.svg" width="64" height="64" alt="" /><span class="px">64</span></div>
+            <div class="size"><img src="icon-2-cipher.svg" width="128" height="128" alt="" /><span class="px">128</span></div>
+            <div class="size"><img src="icon-2-cipher.svg" width="256" height="256" alt="" /><span class="px">256</span></div>
+          </div>
+          <div class="strip">
+            <img src="icon-2-cipher.svg" width="32" height="32" alt="" />
+            <span class="label">9takes — decode every take</span>
+          </div>
+        </div>
+        <div class="panel light">
+          <div class="panel-label">Light mode</div>
+          <div class="sizes">
+            <div class="size"><img src="icon-2-cipher.svg" width="16" height="16" alt="" /><span class="px">16</span></div>
+            <div class="size"><img src="icon-2-cipher.svg" width="24" height="24" alt="" /><span class="px">24</span></div>
+            <div class="size"><img src="icon-2-cipher.svg" width="32" height="32" alt="" /><span class="px">32</span></div>
+            <div class="size"><img src="icon-2-cipher.svg" width="64" height="64" alt="" /><span class="px">64</span></div>
+            <div class="size"><img src="icon-2-cipher.svg" width="128" height="128" alt="" /><span class="px">128</span></div>
+            <div class="size"><img src="icon-2-cipher.svg" width="256" height="256" alt="" /><span class="px">256</span></div>
+          </div>
+          <div class="strip">
+            <img src="icon-2-cipher.svg" width="32" height="32" alt="" />
+            <span class="label">9takes — decode every take</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="concept">
+      <div class="kicker">§ 03 · BRAND MOOD MADE LITERAL</div>
+      <h2>Concept 3 — Greek Profile · Streetlamp Symposium</h2>
+      <p class="desc">
+        Classical statue carved from warm stone, lit from one side, with sodium-amber light leaking from the eye and from hairline cracks. The locked brand mood as a face. More emotional than geometric.
+      </p>
+      <div class="panels">
+        <div class="panel dark">
+          <div class="panel-label">Dark mode</div>
+          <div class="sizes">
+            <div class="size"><img src="icon-3-greek-face.svg" width="16" height="16" alt="" /><span class="px">16</span></div>
+            <div class="size"><img src="icon-3-greek-face.svg" width="24" height="24" alt="" /><span class="px">24</span></div>
+            <div class="size"><img src="icon-3-greek-face.svg" width="32" height="32" alt="" /><span class="px">32</span></div>
+            <div class="size"><img src="icon-3-greek-face.svg" width="64" height="64" alt="" /><span class="px">64</span></div>
+            <div class="size"><img src="icon-3-greek-face.svg" width="128" height="128" alt="" /><span class="px">128</span></div>
+            <div class="size"><img src="icon-3-greek-face.svg" width="256" height="256" alt="" /><span class="px">256</span></div>
+          </div>
+          <div class="strip">
+            <img src="icon-3-greek-face.svg" width="32" height="32" alt="" />
+            <span class="label">9takes — see the emotions behind every take</span>
+          </div>
+        </div>
+        <div class="panel light">
+          <div class="panel-label">Light mode</div>
+          <div class="sizes">
+            <div class="size"><img src="icon-3-greek-face.svg" width="16" height="16" alt="" /><span class="px">16</span></div>
+            <div class="size"><img src="icon-3-greek-face.svg" width="24" height="24" alt="" /><span class="px">24</span></div>
+            <div class="size"><img src="icon-3-greek-face.svg" width="32" height="32" alt="" /><span class="px">32</span></div>
+            <div class="size"><img src="icon-3-greek-face.svg" width="64" height="64" alt="" /><span class="px">64</span></div>
+            <div class="size"><img src="icon-3-greek-face.svg" width="128" height="128" alt="" /><span class="px">128</span></div>
+            <div class="size"><img src="icon-3-greek-face.svg" width="256" height="256" alt="" /><span class="px">256</span></div>
+          </div>
+          <div class="strip">
+            <img src="icon-3-greek-face.svg" width="32" height="32" alt="" />
+            <span class="label">9takes — see the emotions behind every take</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="concept">
+      <div class="kicker">§ 04 · WORDMARK INTO MARK</div>
+      <h2>Concept 4 — Cracked Marble “9”</h2>
+      <p class="desc">
+        The numeral nine carved from warm stone with sodium-amber light bleeding through the cracks. The most direct path from wordmark to mark — instantly readable as the brand even at 16 px.
+      </p>
+      <div class="panels">
+        <div class="panel dark">
+          <div class="panel-label">Dark mode</div>
+          <div class="sizes">
+            <div class="size"><img src="icon-4-marble-nine.svg" width="16" height="16" alt="" /><span class="px">16</span></div>
+            <div class="size"><img src="icon-4-marble-nine.svg" width="24" height="24" alt="" /><span class="px">24</span></div>
+            <div class="size"><img src="icon-4-marble-nine.svg" width="32" height="32" alt="" /><span class="px">32</span></div>
+            <div class="size"><img src="icon-4-marble-nine.svg" width="64" height="64" alt="" /><span class="px">64</span></div>
+            <div class="size"><img src="icon-4-marble-nine.svg" width="128" height="128" alt="" /><span class="px">128</span></div>
+            <div class="size"><img src="icon-4-marble-nine.svg" width="256" height="256" alt="" /><span class="px">256</span></div>
+          </div>
+          <div class="strip">
+            <img src="icon-4-marble-nine.svg" width="32" height="32" alt="" />
+            <span class="label">9takes — see the emotions behind every take</span>
+          </div>
+        </div>
+        <div class="panel light">
+          <div class="panel-label">Light mode</div>
+          <div class="sizes">
+            <div class="size"><img src="icon-4-marble-nine.svg" width="16" height="16" alt="" /><span class="px">16</span></div>
+            <div class="size"><img src="icon-4-marble-nine.svg" width="24" height="24" alt="" /><span class="px">24</span></div>
+            <div class="size"><img src="icon-4-marble-nine.svg" width="32" height="32" alt="" /><span class="px">32</span></div>
+            <div class="size"><img src="icon-4-marble-nine.svg" width="64" height="64" alt="" /><span class="px">64</span></div>
+            <div class="size"><img src="icon-4-marble-nine.svg" width="128" height="128" alt="" /><span class="px">128</span></div>
+            <div class="size"><img src="icon-4-marble-nine.svg" width="256" height="256" alt="" /><span class="px">256</span></div>
+          </div>
+          <div class="strip">
+            <img src="icon-4-marble-nine.svg" width="32" height="32" alt="" />
+            <span class="label">9takes — see the emotions behind every take</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      Files live in <code>static/brand/concepts/</code>. Open this preview at <code>file:///Users/djwayne/9takes/static/brand/concepts/preview.html</code> or run <code>pnpm dev</code> and visit <code>http://localhost:5173/brand/concepts/preview.html</code>.
+    </footer>
+  </body>
+</html>

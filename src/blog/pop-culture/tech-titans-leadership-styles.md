@@ -50,12 +50,6 @@ The same personality types keep showing up. And they lead in predictably differe
 
 This isn't a coincidence. It's the Enneagram. And the types that DON'T show up in tech leadership tell you just as much as the ones that do.
 
-## Questions This Blog Will Answer
-
-- **Why is Silicon Valley dominated by 5s?** The most common tech CEO type is the one most likely to retreat from human interaction. What does it mean that the people building the future are the ones most detached from human emotion?
-- **Which personality types are missing from tech leadership—and what does that cost?** No Type 2s. No Type 7s. The helpers and the enthusiasts are nearly invisible. The consequences show up in every product you use.
-- **Can you predict a company's culture from its CEO's Enneagram type?** Apple's perfectionism (1). Meta's data-obsession (5). Amazon's intensity (8). Google's diplomacy (9). The CEO's type becomes the company's operating system.
-
 ## The Tech Leadership Type Map
 
 | Type   | Leaders                                                                                                                                                                                                                              | Leadership Style          | Strength                 | Blind Spot               |
@@ -94,7 +88,7 @@ Apple under Cook feels more responsible but less magical. That's the difference 
 
 Jobs famously refused to acknowledge market realities. He killed products arbitrarily based on aesthetic judgments. He refused to put a stylus on the iPhone—"God gave us ten styluses"—and Apple eventually shipped the Apple Pencil after his death because the market demanded it.
 
-Cook's Apple has a subtler version of the same problem. The need to make everything perfect before shipping creates bottlenecks. Apple Intelligence launched behind Google and OpenAI's AI features. The Apple Car project burned through $10 billion over a decade before being canceled entirely. A 1's rigidity doesn't always look like stubbornness—sometimes it looks like paralysis. The unwillingness to ship anything imperfect means nothing ships at all.
+Cook's Apple has a subtler version of the same problem. The need to make everything perfect before shipping creates bottlenecks. Apple Intelligence launched behind Google and OpenAI's AI features—partly because the privacy-first, on-device architecture a 1 demands genuinely is harder to build, and partly because a 1 won't ship a half-version while the harder one cooks. The Apple Car project burned through $10 billion over a decade before being canceled entirely. A 1's rigidity doesn't always look like stubbornness—sometimes it looks like paralysis. The unwillingness to ship anything imperfect means nothing ships at all.
 
 ## Type 3 Leaders: The Achievement Machines
 
@@ -112,13 +106,13 @@ That pattern—reading the market, becoming what it demands, executing at speed�
 
 Huang sells GPUs to everyone—OpenAI, Anthropic, Google, Meta. A Type 8 would pick a side and dominate it. A Type 5 would analyze which side is right. A Type 3 ensures they're essential to EVERY side. He's the arms dealer of the AI wars, and that's not neutrality. That's 3 optimization. You don't pick winners when you can be the thing every winner needs.
 
-His management style reflects the same logic. Huang has 60+ direct reports and holds no one-on-one meetings. Instead, he reads roughly 100 "top of mind" emails every morning from anyone in the company—what he calls "stochastically sampling the system." No hierarchy filters the information. No single person gets privileged access. It's efficiency as leadership philosophy: a 3 who eliminates every structural barrier between himself and achievement.
-
-And then there's the tattoo. Years ago, at a company meeting, employees were asked what they'd do if Nvidia stock hit $100. Some said they'd shave their heads. Huang said he'd get a tattoo. When the stock hit $100, he followed through—the Nvidia logo, permanently inked on his arm. "I cried like a baby," he told Fortune. "My kids were like, 'Dad, you've gotta control yourself.'" That's a 3 performing commitment so publicly it becomes the story itself.
+His management style reflects the same logic. Huang has 60+ direct reports and holds no one-on-one meetings. Instead, he reads roughly 100 "top of mind" emails every morning from anyone in the company—what he calls "stochastically sampling the system." No hierarchy filters the information. No single person gets privileged access. It's efficiency as leadership philosophy: a 3 who eliminates every structural barrier between himself and achievement. And when the Nvidia stock hit $100, he made good on a years-old promise to employees and got the company logo tattooed on his arm. A 3 performs commitment publicly enough that the gesture itself becomes the story.
 
 Compare Huang's product-3 approach with [Chamath Palihapitiya's](/personality-analysis/chamath-palihapitiya) capital-3. Both are relentlessly achievement-driven, but their arenas differ. Huang executes through engineering and supply chain dominance. Chamath executes through deals, narrative, and public positioning. On the All-In Podcast, Chamath performs expertise across every domain—finance, politics, health, AI—with the confidence of someone who has mastered each one. That's a 3's core skill: projecting competence so convincingly that the audience can't tell the difference between mastery and performance.
 
 The 3 also appears as a successor type. Andy Jassy at Amazon is a quieter 3—achievement-oriented, operationally relentless, but adapted to the specific challenge of running someone else's empire. Where Huang builds his own narrative, Jassy executes within Bezos's framework. Same type, different stage.
+
+And then there's the 3 who admits the cost. [Brian Chesky](/personality-analysis/Brian-Chesky) at Airbnb has called the company's $100 billion IPO "one of the saddest periods of my life." A Huang would never say that out loud. A Chamath certainly wouldn't. Chesky is the 3 who lets the loneliness of the achievement engine show—same drive, opposite confession. The same type that builds Nvidia's victory-lap keynotes also builds the rare CEO interview where success is described as a kind of grief.
 
 ### The 3's Blind Spot: Image Over Substance
 
@@ -127,6 +121,8 @@ The 3 also appears as a successor type. Andy Jassy at Amazon is a quieter 3—ac
 Nvidia's stock story is as much about narrative as technology. Huang's GTC keynotes are spectacles—the leather jacket, the demos, the "this changes everything" framing. The technology is real. But the presentation is pure 3: package the achievement so compellingly that the audience confuses the packaging for the product. When Nvidia's stock dropped 17% in January 2025 after the DeepSeek announcement—a Chinese AI lab training competitive models on fewer GPUs—the market briefly saw through the narrative. The stock recovered. But the dip revealed something: a 3's success story is always partly story.
 
 The contrast with 5s clarifies this. A 5-led company feels like a thesis—built from first principles regardless of market reaction. A 3-led company feels like a rocket strapped to market demand. Nvidia doesn't have a philosophical position on AI. It has a market position. And for a Type 3, that's the only position that matters.
+
+And when the 3's image-management gets uncoupled from real achievement entirely, you get [Elizabeth Holmes](/personality-analysis/Elizabeth-Holmes). The deepened voice, the black turtleneck, the unblinking stare—a Type 3 cosplaying Steve Jobs while the actual technology never worked. Theranos is what happens when the costume keeps performing after the substance has run out. The same 3 wiring that makes Huang's keynotes electric makes Holmes's deposition footage chilling. The difference between them isn't type. It's whether the achievement under the image is real.
 
 ## Type 4 Leaders: The Vision-Casters
 
@@ -139,6 +135,16 @@ Listen to how [Sam Altman](/personality-analysis/sam-altman) talks about AI. Not
 That's not marketing. That's how a Type 4 genuinely experiences their work. Everything is weighted with historic significance. Every decision carries existential gravity. For a 4, building AGI isn't a business. It's an identity.
 
 Altman doesn't manage through systems like a 5. He doesn't intimidate like an 8. He doesn't build consensus like a 9. He manages through _story_. And the story is always the same: we are doing the most important thing anyone has ever done, and you get to be part of it.
+
+> **Happening now:** Altman is currently in [federal court in Oakland defending OpenAI against Elon Musk](/pop-culture/musk-vs-altman-trial-personality-dynamics), and the case is being decided on vibes—which is to say, on a Type 5 vs Type 4 personality collision in front of a jury. The trial is the cleanest live test of everything in this section.
+
+### "But Isn't Altman a 3?"
+
+The most common pushback on this typing is that Altman looks like a 3—Loopt, the YC presidency, OpenAI, the relentless networking, the ladder-climbing. Watch what he optimizes for, though, and the 4 wiring is the only one that fits.
+
+A 3 wants to be the most _successful_ person in the room and self-promotes to make sure you know it. Altman wants to be the most _unique_ person in the room—the one whose mind sees what others can't—and he almost never self-brags. He's Oppenheimer, not Jobs: in love with the gravitas of the work, the weight of the moment, the melancholy of being the one who has to do this. A 3 doesn't enjoy the melancholy. A 4 lives there.
+
+The "Altman lies" complaints don't read as 3-style strategic image management either. They read as a 4 under stress collapsing into 2—shape-shifting to whoever's in the room, appeasing them in the moment, then failing to follow up on the promises made to do it. That's not a strategy. That's a 4 trying to make every person feel chosen and losing track of the trail of commitments behind him. The full case is in the [Sam Altman Type 4 analysis](/personality-analysis/sam-altman).
 
 ### The 4's Superpower: Making People Feel the Weight
 
@@ -166,7 +172,7 @@ This rarity matters. When a 4 leads a technology company, the company develops a
 
 ### Musk, Zuckerberg, Nadella, Gates, Dorsey
 
-Five of the sixteen tech leaders profiled here are Type 5s—and that's before counting adjacent figures like Dario Amodei, who left OpenAI to quietly build Anthropic without a press cycle (more on him in the Type 4 section). The most withdrawn, cerebral type on the Enneagram dominates an industry that shapes how billions of humans connect, shop, and communicate.
+Five of the leaders profiled here are Type 5s—the largest single-type cluster in this analysis, and that's before counting [Larry Page](/personality-analysis/Larry-Page) and [Sergey Brin](/personality-analysis/Sergey-Brin) (both 5s, the founders Pichai inherited Google from) or Dario Amodei, who left OpenAI to quietly build Anthropic without a press cycle. The most withdrawn, cerebral type on the Enneagram dominates an industry that shapes how billions of humans connect, shop, and communicate.
 
 This isn't coincidence. The industry was BUILT by people whose core drive is understanding and mastering systems. The entire culture of Silicon Valley reflects 5 values: intellectual rigor, systems-thinking, emotional detachment, first-principles reasoning. If you're a 5, tech is the one industry where your personality type IS the culture.
 
@@ -174,9 +180,9 @@ But not all 5s lead the same way. The variation within this single type is more 
 
 ### Five 5s, Five Leadership Styles
 
-#### Musk: The Expansive 5
+#### Musk: The Conqueror 5
 
-**[Musk](/personality-analysis/elon-musk)** treats every industry as a system to decode. Automotive is a battery problem. Aerospace is a reusability problem. Social media is an algorithm problem. Leads through impossible demands and first-principles obsession. Sleeps on factory floors not because he has to—because a 5 who's mastering a system can't stop until the system yields. Musk is the 5 who integrates toward 8—gaining assertiveness, confrontation, and a willingness to use force. This is why people keep mistyping him as an 8.
+**[Musk](/personality-analysis/elon-musk)** treats every industry as a system to decode. Automotive is a battery problem. Aerospace is a reusability problem. Social media is an algorithm problem. Leads through impossible demands and first-principles obsession. Sleeps on factory floors not because he has to—because a 5 who's mastering a system can't stop until the system yields. Musk is the 5 who integrates toward 8—gaining assertiveness, confrontation, and a willingness to use force. This is why people keep mistyping him as an 8. And right now he's testing that 8-energy in court: [his lawsuit against Sam Altman](/pop-culture/musk-vs-altman-trial-personality-dynamics) is a Type 5's first-principles fury at a Type 4 he believes rewrote the founding story to write him out of it.
 
 #### Zuckerberg: The Systematic 5
 
@@ -184,7 +190,7 @@ But not all 5s lead the same way. The variation within this single type is more 
 
 #### Nadella: The Integrated 5
 
-**[Nadella](/personality-analysis/satya-nadella)** is the exception that proves the rule. Nadella's son was born with severe cerebral palsy. In interviews, Nadella describes this as the experience that taught him empathy—not as a feeling, but as a framework. He studied it. He read about it. He made it systematic. That's the most 5 thing imaginable: encountering an emotional reality you can't solve with analysis, and then building an intellectual structure around it anyway. His book is called "Hit Refresh"—a 5 updating their mental model. Microsoft's cultural transformation under Nadella is a 5 who learned to value what 5s typically dismiss. He's the proof that 5s CAN lead with emotional intelligence. But he had to consciously LEARN it, not feel it naturally.
+**[Nadella](/personality-analysis/satya-nadella)** is the exception that proves the rule. Nadella's son was born with severe cerebral palsy. In interviews, Nadella describes this as the experience that taught him empathy—not as a feeling, but as a framework. He studied it. He read about it. He made it systematic. Encountering an emotional reality you cannot solve with analysis, and then building an intellectual structure around it anyway, is what a 5 does when they refuse to look away. His book is called "Hit Refresh"—a 5 updating their mental model. Microsoft's cultural transformation under Nadella is a 5 who learned to value what 5s typically dismiss. He's the proof that 5s CAN lead with emotional intelligence. But he had to consciously LEARN it, not feel it naturally.
 
 #### Gates: The Philanthropic 5
 
@@ -203,6 +209,8 @@ This is why 5s build empires. A 5's willingness to subordinate everything—rela
 ### The 5's Blind Spot: Emotional Detachment
 
 When Zuckerberg testified before Congress and couldn't fake empathy, that wasn't a communications failure. When Musk's management style drove away half of Twitter's workforce, that wasn't a miscalculation. When Dorsey left his own company to meditate, that wasn't irresponsibility. These are all the same blind spot: 5s treat human emotion as noise in the signal. The alternative—engaging with the messiness of human emotion on its own terms—is the one thing their type resists most. And the consequences of that resistance show up not just in their management, but in the products they build and the types of leaders they exclude from the industry entirely.
+
+The collapse case is [Sam Bankman-Fried](/personality-analysis/Sam-Bankman-Fried). Same wiring as Zuckerberg's congressional testimony, same "ethics is a system to model from the outside" detachment—but with no Microsoft-grade adult supervision and no actual product underneath. SBF's private "ethics is a dumb game we play" admission is what 5 detachment sounds like when there's nothing left to hold it in check. The same cerebral remove that lets Gates rebuild a global health portfolio from first principles lets a different 5 treat a customer-funds reserve as an interesting accounting variable. The wiring is neutral. The structure around the 5 decides what the wiring builds.
 
 ## Type 6 Leaders: The Contrarian Threat-Detectors
 
@@ -230,7 +238,7 @@ Both Thiel and Sacks are counterphobic 6s—they run TOWARD threats rather than 
 
 But the motivation is different. An 8 confronts to _control_. A 6 confronts to _neutralize_. Watch Thiel at a conference. He doesn't dominate the room like Bezos does—radiating force, making people feel his presence. Thiel sharpens the argument, identifies the weakness in the consensus view, and drives a wedge into it. That's not dominance. That's threat neutralization dressed up as intellectual combat.
 
-Sacks on the All-In Podcast does the same thing. His role is consistently the contrarian questioner—not agreeing with the group, poking at assumptions, asking "but what if everyone is wrong about this?" While [Chamath](/personality-analysis/chamath-palihapitiya) (3) performs certainty and Friedberg (5) builds frameworks, Sacks tests every claim for hidden threats. That's his 6 doing exactly what it's built to do.
+Sacks on the All-In Podcast does the same thing. His role is consistently the contrarian questioner—not agreeing with the group, poking at assumptions, asking "but what if everyone is wrong about this?" While [Chamath](/personality-analysis/chamath-palihapitiya) (3) performs certainty and David Friedberg, the show's resident systems thinker, builds frameworks (5), Sacks tests every claim for hidden threats. That's his 6 doing exactly what it's built to do.
 
 ## Type 8 Leaders: The Dominators
 
@@ -286,9 +294,7 @@ A colleague once offered the most Type 9 compliment imaginable: "I would challen
 
 ### The 9's Superpower: Absorbing Conflict
 
-Google's internal culture wars—political clashes, AI ethics controversies, the firing of Timnit Gebru, mass layoff backlash, antitrust litigation—would have destroyed a company under a volatile leader. Pichai absorbed all of it. 9s don't fight storms. They weather them.
-
-Pichai took over the most complex technology company in the world—a dozen ambitious projects pulling in different directions, internal politics rivaling a small nation, regulators in every major government sharpening their knives—and kept it running without blowing anything up. That's not boring leadership. That's Type 9 mastery: holding contradictions together through sheer diplomatic presence.
+Google's internal culture wars—political clashes, AI ethics controversies, the firing of Timnit Gebru, mass layoff backlash, antitrust litigation—would have destroyed a company under a volatile leader. Pichai absorbed all of it. 9s don't fight storms. They weather them, holding contradictions together through sheer diplomatic presence.
 
 His path to CEO reveals the type. He didn't build a moonshot. He built Chrome—and the way he built it tells you everything. When CEO Eric Schmidt explicitly blocked a Google browser, and the founders went around Schmidt to build it anyway, Pichai sat in the middle. Not at the top making enemies. Not at the bottom following orders. In the operational center, managing development, building consensus across teams, and navigating internal politics without creating casualties. That's what 9s do. They make things work without anyone fully noticing how.
 
@@ -304,9 +310,9 @@ Compare this to how Bezos or Gates in his prime would have responded to a direct
 
 ### Why Boards Love 9s as Successors
 
-After a visionary founder—an 8 who dominates, a 1 who demands perfection, a 5 who experiments chaotically—boards want stability. A 9 provides exactly that: steady, non-threatening, process-oriented leadership that won't scare investors or alienate employees.
+After a visionary founder—an 8 who dominates, a 1 who demands perfection, a 5 who experiments chaotically (see [Larry Page](/personality-analysis/Larry-Page) and [Sergey Brin](/personality-analysis/Sergey-Brin), the two 5s Pichai inherited Google from)—boards want stability. A 9 provides exactly that: steady, non-threatening, process-oriented leadership that won't scare investors or alienate employees.
 
-But the trade-off is real. Google under its founders was a playground for genius-level ambition—self-driving cars, internet-delivering balloons, smart contact lenses, life extension. Google under Pichai is organized, diplomatic, and safe. The personality transition from founder to operator is also a transition from ambition to maintenance.
+But the trade-off is real. Google under Page and Brin was a playground for genius-level ambition—self-driving cars, internet-delivering balloons, smart contact lenses, life extension. Two 5s indulging every system worth understanding. Google under Pichai is organized, diplomatic, and safe. The personality transition from founder to operator is also a transition from ambition to maintenance.
 
 The question every 9-led company eventually faces: is stability enough? Or does the world eventually demand the kind of aggressive, type-driven conviction that a 9 is constitutionally incapable of providing?
 
@@ -322,15 +328,17 @@ Step back and the pattern is stark.
 
 ### The Types That Are Missing
 
-Now look at what's absent. No Type 2s. No Type 7s. Almost no Type 9s as founders.
+Now look at what's absent. No Type 2s. Almost no Type 9s as founders. And only one Type 7—who is also the cleanest cautionary tale in the industry.
 
-The helpers, the enthusiasts, and the peacemakers are nearly invisible in tech leadership. The industry systematically excludes the types most oriented toward human connection (2) and joy (7). Tech companies select for 5s and 3s in their hiring—"culture fit" is really "personality type fit"—which means the leadership pipeline is already type-filtered before anyone reaches the C-suite.
+The helpers, the enthusiasts, and the peacemakers are nearly invisible in tech leadership. The industry systematically excludes the types most oriented toward human connection (2) and the type most oriented toward joy and reframing (7). Tech companies select for 5s and 3s in their hiring—"culture fit" is really "personality type fit"—which means the leadership pipeline is already type-filtered before anyone reaches the C-suite.
 
-Consider what's lost. A Type 2 tech CEO would build products around how people _feel_, not just what they _do_. Whitney Wolfe Herd at Bumble came closest—she designed a product where women make the first move, explicitly prioritizing emotional safety over engagement metrics. She talked openly about postpartum depression while preparing an IPO. She led with the question 5s never ask: "How does this make people feel?" That's not a soft question. It's the question that might have prevented Facebook's mental health crisis, Instagram's body image epidemic, and every algorithmic feed optimized for outrage over wellbeing.
+Consider what's lost. A Type 2 tech CEO would build products around how people _feel_, not just what they _do_—leading with the question 5s never ask: "How does this make people feel?" That's not a soft question. It's the question that might have prevented Facebook's mental health crisis, Instagram's body image epidemic, and every algorithmic feed optimized for outrage over wellbeing. The closest the industry has produced is Microsoft under Nadella, a 5 who had to consciously _learn_ to ask the 2's question after his son was born with cerebral palsy. There's no native-2 founder in big tech to compare him to. The empathy in the products has to be retrofitted, every time, by someone whose type doesn't generate it on its own.
 
-A Type 7 tech CEO would chase breadth and joy over depth and dominance. Richard Branson's Virgin empire is the closest parallel—airlines, space, telecom, music, all driven by an enthusiast's conviction that business should be _fun_. A 7-led tech company wouldn't optimize for time-on-screen. It would optimize for delight. The products would be less addictive and more liberating. The culture would burn out fewer people. The company would probably be less valuable by Wall Street's metrics—and more valuable by every metric Wall Street doesn't measure.
+The Type 7 chair has been tested—once, at scale—and the result is instructive. [Adam Neumann](/personality-analysis/Adam-Neumann) ran WeWork as a 7w8 with a real-estate sublease business that he reframed as the "elevation of the world's consciousness." A 7 chases breadth, novelty, and reframing the way a 5 chases depth, and the WeWork story is what happens when the reframing engine has no 5 or 1 governor on it: a $47B valuation, ritualized partying, founder loans against shares, and a public-market detonation. The lesson Silicon Valley took from Neumann isn't "we should hire more 7s." It's "this is why we don't." Branson's Virgin empire shows the upside the industry forfeits—a 7 leading toward delight rather than addiction—but Branson never had to manage the kind of scale where a 7's blind spots compound the way Neumann's did.
 
-The personality monoculture is **self-reinforcing**. 5s hire people who think like 5s. 8s hire people who can handle 8s. The types who would ask "but how does this affect people's emotional wellbeing?" _never make it past the interview stage_—because in a 5's culture, that question doesn't register as serious. Facebook treats friendship as data. Twitter was a town square with no moderator. Every 5-built platform struggles with **addiction, toxicity, and misinformation**—because these are human problems, and the types best equipped to solve them were never in the room.
+The piece you may have noticed missing here is women. The first version of this article had exactly one—Whitney Wolfe Herd—and she was used as a hypothetical for a Type 2 she isn't. ([Wolfe Herd is actually a 3](/personality-analysis/Whitney-Wolfe-Herd), in the same family as Huang and Chesky, with a different output: a dating app explicitly designed around emotional safety while she was openly discussing postpartum depression in the middle of an IPO road show.) The honest answer is that the women in tech leadership cluster on the operator tier rather than the founder tier—Sheryl Sandberg next to Zuckerberg, Susan Wojcicki running YouTube, Safra Catz at Oracle, Ruth Porat at Alphabet—and the types that get filtered through to the No. 2 chair are not the same types that get through to founder. That's its own piece. But the absence of women at the founder tier is also part of why this article reads the way it does: the type filter and the gender filter are running at the same time, and Wolfe Herd, Lisa Su at AMD, and the next generation of founders are the data we'll have to write the sequel from.
+
+The personality monoculture is **self-reinforcing**. 5s hire people who think like 5s. 8s hire people who can handle 8s. The types who would ask "but how does this affect people's emotional wellbeing?" _never make it past the interview stage_—because in a 5's culture, that question doesn't register as serious. Facebook treats friendship as data. Twitter was a town square with no moderator. The 5-built attention platforms—Meta, X, the algorithmic feeds—keep producing the same cluster of human problems (addiction, toxicity, misinformation) because those are exactly the problems a 5's worldview cannot natively see. Microsoft under Nadella is the partial counter-example: a 5-led company that doesn't run an attention engine and doesn't generate the same pathologies. It's not the type that's the problem. It's the type running unchecked at the layer where it shapes how a billion people feel.
 
 The result: the future is being built by the personality types least naturally oriented toward the humans who will live in it. Understanding these types isn't gossip. It's the operating manual for why the future keeps looking the way it does.
 
@@ -340,64 +348,52 @@ The result: the future is being built by the personality types least naturally o
 
 ## Rabbit Holes Worth Exploring
 
+- **Happening Now — Musk vs Altman in court**: A Type 5 and a Type 4 are [in federal court in Oakland](/pop-culture/musk-vs-altman-trial-personality-dynamics) fighting over the original mission of OpenAI, and the trial is being decided on vibes—which is to say, on which founder's performance of "I was the noble one" lands with a jury. Live test of everything in the Type 4 and Type 5 sections above.
 - **The Spouse Test**: Do tech CEOs' partners reveal type dynamics? Priscilla Chan (Zuckerberg), Lauren Sanchez (Bezos), Grimes (Musk). 5s often partner with emotionally expressive types. 8s often partner with high-status types. The partner reveals what the CEO can't express.
 - **Board Composition by Type**: If CEOs are 5s and 8s, what types sit on their boards? The 1s and 6s on OpenAI's board clashed with the 4 CEO. Is every board drama a personality type collision?
-- **The Founder-CEO Transition Problem**: Twitter replaced a 5 (Dorsey) with a series of non-founders, then sold to another 5 (Musk). Apple replaced a 1 with a 1. Microsoft replaced a 5 with a 5. Google replaced founders with a 9. Which transition pattern works best?
+- **The Founder-CEO Transition Problem**: Twitter replaced a 5 (Dorsey) with a series of non-founders, then sold to another 5 (Musk). Apple replaced a 1 with a 1. Microsoft replaced a 5 with a 5. Google replaced two 5s ([Page](/personality-analysis/Larry-Page) and [Brin](/personality-analysis/Sergey-Brin)) with a 9 ([Pichai](/personality-analysis/sundar-pichai)). Which transition pattern works best?
 - **Type and Product Design Philosophy**: Can you predict a product's design language from the CEO's type? Apple's perfectionism (1). Meta's data-centrism (5). Amazon's ruthless efficiency (8). Google's soft edges (9). The CEO's psychology becomes the user experience.
+- **The Cautionary-Tale Type Map**: Theranos ([Holmes, 3](/personality-analysis/Elizabeth-Holmes)) was image-management without the achievement. WeWork ([Neumann, 7w8](/personality-analysis/Adam-Neumann)) was reframing without the underlying business. FTX ([SBF, 5](/personality-analysis/Sam-Bankman-Fried)) was systems-modeling with the ethics turned off. Each collapse expresses a different type's blind spot at full volume.
 
 <!--
-READER REVIEW NOTES (post-publish, internal — strip before promo)
-================================================================
+EDIT LOG — 2026-05-07 (internal, strip before promo)
+====================================================
 
-OVERALL: Strong piece. The thesis (that the missing types tell you as much as the present ones) is the best part and earns the length. The Type 5 multi-portrait and the Bezos/Kalanick/Hastings "same type, different integration" framing are the strongest sections. Below is what would tighten it.
+THIS PASS: integrated all newly-published companion pieces and resolved most of the prior review punch list.
 
-WHAT'S MISSING / WHERE TO EXPAND
---------------------------------
-1. WOMEN ARE ALMOST ENTIRELY ABSENT. Whitney Wolfe Herd shows up only as a hypothetical "what we lost" in the closer — and that's awkward because she's a real, current CEO. Sheryl Sandberg sitting next to Zuckerberg for a decade is the obvious operator-to-founder pairing the piece never makes. Susan Wojcicki, Marissa Mayer, Safra Catz (Oracle), Lisa Su (AMD — and Jensen Huang's cousin, which is its own story), Reshma Saujani, Jennifer Doudna-adjacent biotech leaders. At minimum, name 2–3 women in the body, not just the postscript. Right now a reader can fairly say "this is sixteen men and one woman as a counterfactual."
+DONE THIS PASS
+--------------
+- Cut redundant "Questions This Blog Will Answer" section (overlapped with QuickAnswer + table)
+- Type 1 blind spot: acknowledged that Apple's privacy-first on-device architecture is itself part of why Apple Intelligence shipped late — not pure 1-rigidity
+- Type 3: added Brian Chesky as the "3 who admits the cost" counter to Huang/Jassy ($100B IPO as "one of the saddest periods of my life")
+- Type 3 blind spot: added Elizabeth Holmes / Theranos as "image-management uncoupled from real achievement"
+- Type 4: added "But Isn't Altman a 3?" defense subsection (Oppenheimer-not-Jobs, melancholy/gravitas, 4→2 stress appeasement explains the "lying" complaints)
+- Type 4: added "Happening now" callout linking Musk vs Altman trial post
+- Type 5 intro: dropped the "sixteen" miscount and the unfulfilled Amodei tease; pulled in Page/Brin links to strengthen the 5-cluster claim
+- Musk subsection: added trial callout (5's first-principles fury at a 4 he believes rewrote the founding story)
+- Renamed "The Expansive 5" → "The Conqueror 5" (Expansive was the fuzzy subhead)
+- Nadella section: cut "the most 5 thing imaginable" tic
+- Type 5 blind spot: added SBF as the collapse case; reframed "every 5-built platform" claim around attention-engine 5s only, with Microsoft as the explicit counter-example
+- Sacks section: contextualized the Friedberg parenthetical for non-All-In listeners
+- Pichai section: trimmed the "9s absorb storms / hold contradictions" repetition (was three near-restatements)
+- Pichai successor section: linked Page & Brin as the two 5s Pichai inherited Google from, which makes the 9-as-successor argument hit harder
+- "Types That Are Missing" — major rewrite:
+    * Fixed Whitney Wolfe Herd contradiction (she's a 3, not the Type 2 hypothetical the original used her for) and linked her piece
+    * Added Adam Neumann / WeWork as the rare-7-actually-tested case (reframes the 7-absent claim as "this is why the industry filters them out, here's the lesson it already learned")
+    * Addressed the women-absent issue head-on with the "operator tier" framing (Sandberg/Wojcicki/Catz/Porat) plus an honest "this is its own piece" beat — preserves Wolfe Herd and Lisa Su as the data for the sequel
+- Rabbit Holes:
+    * Promoted Musk vs Altman trial to top of list as "Happening Now"
+    * Added Page/Brin links to the Founder-CEO Transition entry
+    * Added new "Cautionary-Tale Type Map" entry (Holmes/Neumann/SBF) as the closing payoff
 
-2. THE GOOGLE FOUNDERS GAP. You spend a long Pichai section but never type Page or Brin — and the whole Pichai analysis depends on what kind of founder he succeeded. A sentence or two on Page (often read as 5w4) and Brin would close that loop and make the "9s as successors" point hit harder.
+DEFERRED (genuine call to leave for another pass)
+-------------------------------------------------
+- Non-US-tier-1 founders (Jack Ma, Pony Ma, Son, Collisons, Ek) — needs its own follow-up post; this article is already long
+- "5s vs 8s mistyping" callout (Musk subsection) and "Counterphobic 6s look like 8s" subsection still do similar work in adjacent sections — minor, kept separate because the mechanisms are actually different (5→8 integration vs. counterphobic-6 confrontation) and consolidating loses signal
+- Spouse Test still lives in Rabbit Holes — kept there because the Musk-Altman trial entry now does the "live, clickable" job at the top of that list, and the Spouse Test deserves its own post rather than a buried subsection here
+- Length: piece is now slightly longer (~4,000 words). Spinning off the Type 5 mega-section as its own post is still on the table for a v3 pass
 
-3. NO ONE FROM OUTSIDE THE US TIER-1. Jensen Huang (Taiwanese-American) and Pichai (Indian) get cultural-context-free treatment. A short note on whether the type pattern holds globally — Jack Ma, Pony Ma, Masayoshi Son, the Collisons (Irish), Daniel Ek — would answer the unspoken "is this a Silicon Valley artifact?" question that any thoughtful reader will have.
-
-4. SAM ALTMAN AS A 4 IS THE MOST CONTESTED CALL IN THE PIECE and you don't defend it. Lots of readers will type him as a 3 (relentless networker, image-management, Loopt → YC → OpenAI ladder-climbing) or even a 7. One paragraph acknowledging the dispute and explaining why "vision-casting + dramatic exile narrative + significance-seeking" outweighs the 3 evidence would inoculate the piece. Right now it reads as asserted, not argued.
-
-5. THE "SPOUSE TEST" RABBIT HOLE IS BURIED. That's the most clickable hook in the entire article and you put it in a bullet list at the end. Either promote it to a short section or save it as the next post in the series and tease it harder.
-
-6. THE 7-IS-MISSING ARGUMENT NEEDS ONE MORE EXAMPLE. Branson is the only data point and he's not even in tech. Someone like Brian Chesky (Airbnb) or even Tony Hsieh (Zappos, RIP) would make the case stronger. Otherwise the claim "7s are missing" is doing work the evidence isn't supporting.
-
-7. NO CAUTIONARY-TALE FOUNDER. Adam Neumann, Elizabeth Holmes, SBF — at least one belongs here. The piece has no fallen-founder analysis, which makes the typing feel like "successful people are the right type for what they did," i.e., survivor-biased. A short "and here's what the same type looks like when it fails catastrophically" beat would harden the framework.
-
-WHAT'S OVERDONE OR DUPLICATED
------------------------------
-1. THE QUICKANSWER + THE TABLE + THE "QUESTIONS THIS BLOG WILL ANSWER" SECTION ARE THREE VERSIONS OF THE SAME THING. Pick two. The "Questions This Blog Will Answer" section is the weakest of the three — it reads as SEO scaffolding and the body never directly returns to those exact questions.
-
-2. DARIO AMODEI IS DOUBLE-TEASED AND SINGLE-DELIVERED. You promise "more on him in the Type 4 section" up in the Type 5 intro, then he gets one comparison line in the Altman section. Either give him a real paragraph or cut the forward-reference.
-
-3. "5s BUILD ADDICTIVE / TOXIC PRODUCTS" is made three times: in the Zuckerberg subsection, in the Type 5 blind-spot summary, and again in "Types That Are Missing." Consolidate to one strong statement. (Also: Microsoft is 5-led and isn't an addiction-engine company — the claim "every 5-built platform struggles with addiction" is overstated and a sharp reader will catch it.)
-
-4. "5s VS 8s — WHY MUSK GETS MISTYPED" and "COUNTERPHOBIC 6s LOOK LIKE 8s" are doing similar work in adjacent sections. They could share a short callout box instead of two separate digressions.
-
-5. PICHAI'S SECTION RESTATES "9s ABSORB CONFLICT / HOLD CONTRADICTIONS / BOARDS LOVE THEM" three times in slightly different language. Trim one.
-
-6. THE HUANG TATTOO STORY IS FUN BUT IT'S A LONG TANGENT in a section that already has the Denny's origin, the NV1 near-death pivot, and the GTC keynote critique. Pick the two strongest beats; the tattoo can go to a footnote or get cut.
-
-ACCURACY / CONSISTENCY NITS
----------------------------
-1. "Five of the sixteen tech leaders profiled here" — I counted 17 named leaders (Jobs, Cook, Huang, Jassy, Chamath, Altman, Musk, Zuck, Nadella, Gates, Dorsey, Thiel, Sacks, Bezos, Hastings, Kalanick, Pichai). Recount and fix the number, or change to "of the leaders profiled."
-
-2. Friedberg gets a parenthetical "(5)" in the Sacks section with zero context. Anyone who doesn't listen to All-In will be confused. Either introduce him or cut the parenthetical.
-
-3. "Apple Intelligence launched behind Google and OpenAI's AI features" is true but the framing pins it on Cook's 1-rigidity. The competing read is that Apple's privacy-first architecture (also a 1 trait!) made on-device AI genuinely harder. A half-sentence acknowledging that would be more honest.
-
-4. Kalanick "lasted 8 years" — he was ousted June 2017, Uber was founded March 2009, so closer to 8 years but worth fact-checking against your other sources. Bezos "27 years as CEO" checks out (1994–2021).
-
-STRUCTURAL THOUGHTS
--------------------
-- The piece is ~3,500 words and reads long. The Type 5 mega-section could spin off as its own post ("Why Silicon Valley is Built by Type 5s — and What That Costs Us") with this article linking to it. That also lets the missing-types argument breathe.
-- The "Pattern" section at the end is the real payoff and is currently competing with the "Rabbit Holes" list for the closing slot. Consider ending on the missing-types argument and moving Rabbit Holes above it as a "want to go deeper" interstitial.
-- Subheads inside Type 5 ("The Expansive 5", "The Systematic 5", "The Integrated 5", "The Philanthropic 5", "The Withdrawn 5") are clever but a couple feel forced — "Philanthropic 5" works, "Expansive 5" for Musk is fuzzy. Worth a pass.
-
-ONE LINE THAT SHOULDN'T SURVIVE EDITING
----------------------------------------
-"That's the most 5 thing imaginable" — used about Nadella. The piece does this kind of "that's so [type]" tic a few times. Once is fine; three times reads as a tell.
+KNOWN OPEN ITEM
+---------------
+- The "operator tier" women framing in "Types That Are Missing" name-drops Sandberg/Wojcicki/Catz/Porat without typing them. That's deliberate — the honest claim is "we don't have those analyses written yet." When those personality-analysis pieces ship, come back and link them in.
 -->
