@@ -62,8 +62,8 @@ Search-intent + hybrid count: 5
 -->
 
 <!-- DISTRIBUTION LEDGER
-Type-theory paragraphs outside diagnosis section and Rabbit Hole: 4
-Locations: "The Stanford Dinner Table That Wrote His Defense" (1 paragraph naming 5's core fear and defense before pivoting to SBF's bored-childhood quote); "The Mind That Watched Itself Calculate" (1 paragraph framing 5's relationship to head triad / body / feeling); "The Effective Altruism Costume" (1 paragraph linking 5's observer-of-own-values to the framework swap, contrasted with 3 and 8); "Why FTX Imploded Twice — Once on Paper, Once in DMs" (1 paragraph naming the 5→7 stress arrow before pivoting to FTX's chaotic late-stage acquisitions)
+Type-theory paragraphs outside diagnosis section and Rabbit Hole: 5
+Locations: "The Stanford Dinner Table That Wrote His Defense" (1 paragraph naming 5's core fear and defense before pivoting to SBF's bored-childhood quote; 1 paragraph linking the chemistry/mental-load combination back to the 5's defense pattern); "The Mind That Watched Itself Calculate" (1 paragraph framing 5's relationship to head triad / body / feeling); "The Effective Altruism Costume" (1 paragraph linking 5's observer-of-own-values to the framework swap, contrasted with 3 and 8); "Why FTX Imploded Twice — Once on Paper, Once in DMs" (1 paragraph naming the 5→7 stress arrow before pivoting to FTX's chaotic late-stage acquisitions)
 -->
 
 > "Man, all the dumb shit I said." — Sam Bankman-Fried, in a Twitter DM to Vox's Kelsey Piper, days after his $32 billion empire collapsed.
@@ -155,7 +155,7 @@ This is the Type 5 in unmediated form. The 5 is in the head triad, and head type
 
 Caroline Ellison, his Alameda CEO and on-and-off girlfriend, testified that "for any major decisions, I would always run them by Sam, and I would always defer to Sam if he thought that we should do something." She also testified that he told her, at one point, that "there was a 5% chance he would become president." Not a fantasy. An expected-value claim. He had run the math.
 
-The same observer position appears in the *Bloomberg* feature where he announced he would give away nearly all of his fortune. It appears in his interviews on FOMO and risk. It appears in his blog posts about earning to give. He did not experience these positions; he held them, the way a Stanford philosophy seminar holds positions, while continuing to watch from outside.
+The same posture appears across the record: the *Bloomberg* feature announcing he would give away nearly all of his fortune, the interviews on FOMO and risk, the blog posts about earning to give. He did not experience these positions. He held them, the way a Stanford philosophy seminar holds positions.
 
 > "He doesn't have a vision in any meaningful sense — that is, he wasn't seeing some end point and working backwards. He was just looking at all the numbers and looking at probabilities." — *Going Infinite*, summarizing one of Bankman-Fried's senior staffers, October 2023
 
@@ -230,6 +230,42 @@ FRESH-EYES READER REVIEW — 2026-05-07
 Read straight through as someone who knows SBF from headlines but
 not the inside-baseball. Posting as someone who'd want to share
 this with a friend and is thinking about what the friend will ask.
+
+REVIEW RESOLUTION — addressed 2026-05-07 (same day):
+  Missing/expanded:
+    1. Mechanics of fraud → added paragraph after lede ($8B line) explaining
+       FTX-as-exchange / Alameda-as-hedge-fund / hidden line of credit
+       ($1B → $65B numbers moved up from implosion section).
+    2. Alameda Research → named in mechanics paragraph as the why.
+    3. Polycule / Bahamas penthouse → integrated into 6-wing paragraph;
+       Albany address, 10 roommates, romantic configurations called out.
+    4. Adderall → added a paragraph at end of Stanford section naming
+       Adderall (10mg 3-4x/day for ADHD) and Emsam patch (selegiline,
+       MAOI for depression), framed as chemistry running on top of wiring.
+    5. "Earn to give" → added MacAskill / MIT junior-year recruitment
+       at top of EA section as the alibi-for-getting-rich doctrine.
+    6. Political donations → committed: "second-largest Democratic donor
+       of the 2022 cycle"; brother Gabe's pandemic-prep PAC noted.
+    7. 119-cent repayment → added in closing as setup for "still doing
+       the math" beat.
+    8. Lewis controversy → added parenthetical at the *Going Infinite*
+       quote calibrating that transcripts ≠ Lewis's read.
+    9. Counter-typings → added paragraph in diagnosis covering Type 8
+       (Madoff), Type 3 (Holmes), and the sociopathy frame.
+    10. Reader takeaway → added two-sentence Type 5 warning sign before
+        the cold close.
+  Trimmed:
+    - "Beyond Blame" no longer fully restated in close; close lands cold.
+    - 5w6 "fortified inner circle" + EA "tiny philosophical sect" merged
+      into the new polycule paragraph (single point, single host).
+    - "While continuing to watch from outside" cut from the Bloomberg/FOMO
+      observer-position run.
+    - Wang $1B/$65B numbers consolidated to lede; implosion section now
+      keeps just the testimony quote.
+  Not changed:
+    - "Mind That Watched Itself Calculate" + "Couldn't Stop Talking After
+      the Crash" headers left as-is; the Adderall paragraph now bridges
+      them so the middle reads less repetitive without restructuring.
 ============================================================
 
 WHAT'S MISSING / SHOULD BE EXPANDED

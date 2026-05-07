@@ -42,11 +42,10 @@ path: src/blog/people/drafts/Brian-Chesky.md
 ---
 
 <!-- TESTIMONY LEDGER
-1. Joe Gebbia (RISD co-founder, ~2004 graduation): "Brian, I think one day we're going to start a company together." — recounted in multiple Airbnb origin retellings (Lenny's Podcast, Sequoia "Crucible Moments")
-2. Chip Conley (Airbnb's "Modern Elder," former Head of Global Hospitality): "What struck me most about Brian was not his product genius, but his willingness to be a student — of leadership, of culture, of himself." — Modern Elder Academy, "What I Learned From Airbnb's Brian Chesky," ~2024
-3. Barack Obama (mentor, on what to do about isolation at the top): "You're connected to your roots, and your roots are the relationships in your past. You should have like 15 friends and you should be really close to them." — recounted by Chesky on Diary of a CEO and Fortune, 2025
-4. Paul Graham (Y Combinator founder, on the talk that birthed his "Founder Mode" essay): "The theme of Brian's talk was that the conventional wisdom about how to run larger companies is mistaken." — paulgraham.com/foundermode.html, September 2024
-Total qualifying quotes: 4
+1. Chip Conley (Airbnb's "Modern Elder," former Head of Global Hospitality): "What struck me most about Brian was not his product genius, but his willingness to be a student — of leadership, of culture, of himself." — Modern Elder Academy, "What I Learned From Airbnb's Brian Chesky," ~2024
+2. Barack Obama (mentor, on what to do about isolation at the top): "You're connected to your roots, and your roots are the relationships in your past. You should have like 15 friends and you should be really close to them." — recounted by Chesky on Diary of a CEO and Fortune, 2025
+3. Paul Graham (Y Combinator founder, on the talk that birthed his "Founder Mode" essay): "The theme of Brian's talk was that the conventional wisdom about how to run larger companies is mistaken." — paulgraham.com/foundermode.html, September 2024
+Total qualifying quotes: 3
 -->
 
 <!-- HEADING MIX LEDGER
@@ -54,20 +53,23 @@ H2 1: "What is Brian Chesky's personality type?" — search-intent (required)
 H2 2: "The Niskayuna kid who couldn't stop redesigning things" — hybrid (search-intent: childhood query + signature: poorly designed toys)
 H2 3: "Brian Chesky's four lives before age 25" — hybrid (search-intent name + signature: four lives)
 H2 4: "The cereal pivot that almost wasn't a company" — signature
-H2 5: "How Brian Chesky redesigned a layoff" — hybrid (search-intent "how X" + signature)
-H2 6: "Why $100B was the loneliest year of his life" — hybrid (search-intent "why" + signature)
-H2 7: "Founder Mode is a Type 3's last redesign" — hybrid (Founder Mode is a real query + signature framing)
-H2 8: "The one thing Brian Chesky cannot redesign" — hybrid (names person + signature framing)
-Search-intent + hybrid count: 7
+H2 5: "The 11-star check-in (and the call to Jony Ive)" — hybrid (search-intent: "11-star experience" framework query + signature)
+H2 6: "How Brian Chesky rewrote a Silicon Valley layoff" — hybrid (search-intent "how X" + signature)
+H2 7: "The crises that wouldn't take a redesign" — signature
+H2 8: "Why $100B was the loneliest year of his life" — hybrid (search-intent "why" + signature)
+H2 9: "Founder Mode is a Type 3's last redesign" — hybrid (Founder Mode is a real query + signature framing)
+H2 10: "The one thing Brian Chesky cannot redesign" — hybrid (names person + signature framing)
+Search-intent + hybrid count: 8
 -->
 
 <!-- DISTRIBUTION LEDGER
-Type-theory paragraphs outside diagnosis section and Rabbit Hole (none present): 3
+Type-theory paragraphs outside diagnosis section and Rabbit Hole (none present): 4
 Locations:
-- "How Brian Chesky redesigned a layoff" — 1 paragraph: "The 4 wing pulled the work toward beauty. The 3 core insisted it actually function." (2 type-framed sentences applied to Chesky's specific layoff design)
+- "The 11-star check-in (and the call to Jony Ive)" — 1 paragraph: "Most teams aim for what is buildable... A 3w4 stretches the target until the audience has to imagine something it has never seen." (general → Chesky-specific, 2 consecutive type-framed sentences)
+- "How Brian Chesky rewrote a Silicon Valley layoff" — 1 paragraph: "The 4 wing pulled the work toward beauty. The 3 core insisted it actually function." (2 type-framed sentences applied to Chesky's specific layoff design)
 - "Why $100B was the loneliest year of his life" — 1 paragraph: the eight-word Type 3 wound paragraph (general → Chesky-specific, 2 consecutive type-framed sentences)
 - "Founder Mode is a Type 3's last redesign" — 1 paragraph: the "student of himself" paragraph closing on what Threes who become self-students actually do (3 type-theory sentences)
-All other body paragraphs use single-sentence type bridges (e.g., "A Three's drawing is never finished...", "Founder Mode is what a Three does once...") embedded in Chesky-specific narrative.
+All other body paragraphs use single-sentence type bridges (e.g., "A Three's drawing is never finished...", "Founder Mode is what a Three does once...", "Threes are at their most evasive when the work is going well...") embedded in Chesky-specific narrative.
 -->
 
 > "Life is so much more than just climbing a ladder, and getting to the top, and realizing you're not much higher than you ever were before."
@@ -83,10 +85,10 @@ He was alone in front of a Zoom screen. There was no bell to ring. He later call
 <summary class="accordion">TL;DR: Why Brian Chesky is an Enneagram Type 3</summary>
 <div class="panel">
 <ul>
-<li><b>Type:</b> Enneagram 3w4 — the Achiever shaped by an artist's eye for what should exist but doesn't yet.</li>
+<li><b>Type:</b> Enneagram 3w4 — the Achiever wired with an artist's eye for what should exist but doesn't yet.</li>
 <li><b>Driving question:</b> How do you become someone worth choosing?</li>
-<li><b>Method:</b> Treat the body, the identity, the brand, and the company as the same redesign problem.</li>
-<li><b>Stress signature:</b> Doubles down on work until the loneliness becomes a problem big enough to redesign too — then writes a letter to a former president for help.</li>
+<li><b>Method:</b> Sculpt the body, the identity, the brand, and the company against the same imagined audience.</li>
+<li><b>Stress signature:</b> Doubles down on the work until the loneliness becomes a problem big enough to attack too — then writes a former president and asks for homework.</li>
 <li><b>Confidence:</b> High. The bodybuilder-to-designer-to-CEO arc and the IPO-loneliness admission both sit cleanly inside Type 3.</li>
 </ul>
 </div>
@@ -238,67 +240,24 @@ The <a href="/enneagram-corner/enneagram-type-3">Type 3 redesign reflex</a> buil
 
 He has fifteen friends now. He goes to night school with a former president. He sleeps in strangers' houses, where he is — for the first time in his career — not the architect, just a guest.
 
-<!-- FRESH-EYES READER REVIEW (reader who already follows Chesky / tech founder coverage)
+<!-- FRESH-EYES REVIEW APPLIED 2026-05-07
+Addressed:
+- Nathan Blecharczyk added to cereal section as third cofounder
+- Jony Ive expanded: brief mention in diagnosis + new H2 weaving the LoveFrom 2020 partnership with the 11-star framework
+- 11-star experience framework added as new H2 (between cereal and layoff)
+- 2024-2025 relaunch / Experiences / Services / "everything app" added inside Founder Mode section as live evidence
+- Trust/safety crises addressed in new H2 "The crises that wouldn't take a redesign" (2016 discrimination study + 2019 Orinda)
+- Personal life acknowledged with one line in IPO section (Elissa Patel, ~5-year relationship through 2022)
+- Obama "night school" expanded: weekly hour-long calls, assignments, "self-driving car" warning
+- Bodybuilding section expanded with RISD/protein contradiction
+- Founder Mode section now explicitly compares to Jobs's 1997 Apple return
 
-OVERALL: This is a strong piece. The Type 3 thesis lands. The Niskayuna → bodybuilder → IPO loneliness arc is genuinely well-built and the closing is one of the better endings of any of these. Below is what I noticed missing, what I'd cut, and where I'd push deeper.
-
-==============================
-WHAT'S MISSING / SHOULD BE ADDED
-==============================
-
-1. **Nathan Blecharczyk is invisible.** This is the biggest gap for any reader who actually knows Airbnb. There were THREE cofounders, not two. Nathan is the technical one — the engineer who made the platform real after Brian and Joe drew it. Reading this article you'd think Airbnb was a designer duo. Even one sentence acknowledging Nathan would fix it. Right now Joe Gebbia gets the RISD prophecy quote and Nathan gets nothing — it reads like an oversight, not an editorial choice.
-
-2. **Jony Ive is name-dropped, then dropped.** A 3w4 with an aesthetic obsession who became actual personal friends with Jony Ive — and later hired him to lead Airbnb's 2024 redesign — is a HUGE Type 3 / 4 wing data point. The piece mentions Ive once in passing ("Jony Ive as a personal friend") and never returns. This is the closest thing Chesky has to "I found my Steve Jobs" and the article should make a meal of it. The fact that Chesky persuaded Ive's LoveFrom into a deep, multi-year Airbnb collaboration is not a footnote — it's the visible proof of the redesign reflex finally collaborating with its hero.
-
-3. **The "11-star experience" thought experiment.** If you've heard one Chesky-as-product-designer story, it's the 11-star framework: he asks his team to design the impossible, then walk it back to feasible. This is THE Chesky framework that gets quoted in every product management essay. Its absence is conspicuous. It's also a perfect Type 3 / 4 wing artifact — overshoot the audience's expectations, then design backwards.
-
-4. **The 2024 Airbnb relaunch / Experiences / Services pivot.** Chesky is in the middle of arguably his second-biggest bet: relaunching Airbnb beyond rentals into Experiences and Services. For a 2026-dated article, not mentioning this feels stale. It's also the most current evidence that the redesign reflex is still firing — and gives the "Founder Mode" section something live to point to.
-
-5. **The dark side of the platform.** A reader who knows Chesky knows about the trust/safety crises — party houses, the 2019 Halloween shooting, discrimination on the platform (the 2016 race-on-Airbnb research that forced major policy changes), and the regulatory wars in NYC, Barcelona, etc. The article presents him as a designer who solves design problems beautifully. But part of being Chesky is that the platform has hosted real harm and he's had to respond to crises he didn't design for. Even one paragraph acknowledging this would prevent the piece from feeling sanitized — and it would actually STRENGTHEN the Type 3 read (Threes' wound shows up most when the optics break).
-
-6. **His personal/romantic life — or the absence of one in public.** Chesky is famously private about dating. For a piece whose emotional climax is "I was alone on Zoom at the IPO" and "mistaking adulation for love," the question of whether he has a partner is the elephant in the room. You don't need to dig — but a single line acknowledging that the loneliness isn't just executive isolation, it's a man in his 40s who has not, publicly, built a romantic life, would land the wound much harder. Right now the article tiptoes around it.
-
-7. **The book / "night school" curriculum.** You mention he's turning in homework to Obama. Readers will want to know: is he writing a book? Is there a public curriculum? What does "night school" actually look like? This is a setup with no payoff.
-
-==============================
-WHAT'S OVERDONE / DUPLICATE / CAN BE TRIMMED
-==============================
-
-1. **The word "redesign" is doing too much work.** I counted it being used as a verb/noun in nearly every section. By the third H2 it stops feeling like a motif and starts feeling like a tic. Suggest: keep it as the spine, but vary the language in 30–40% of the uses (rebuild, reshape, re-author, reset, sculpt, prototype). The closing line "Belonging cannot be designed" lands harder if the word hasn't already been used 18 times.
-
-2. **The Santa / poorly designed toys story is told twice.** Once in the opening graf, once in "The Niskayuna kid…" section. Pick one. The opening version is stronger; the section can reference it without re-telling.
-
-3. **"Mistaking adulation for love" appears twice.** Once in the Type 3 diagnosis section, once in the IPO loneliness section. The phrase is too good to use twice — it dilutes. Save it for the IPO scene where it actually pays off emotionally.
-
-4. **The "lived multiple lives" framing appears three times.** Opening graf, diagnosis section ("Chesky has, by his own count, lived multiple lives…"), and section 3 ("four lives before age 25"). The full quote in section 3 is the right place for it. The earlier two can be tightened or removed.
-
-5. **The Type 3 explainers stack up.** The diagnosis section, the bodybuilder section, the layoff section, and the IPO section all have a "this is what Type 3s do" beat. Some of those could trust the reader more. By the time we get to "the eight-word Type 3 wound," we've been told what Type 3 is many times.
-
-6. **The cereal section has an unnecessary epilogue.** The Joe Gebbia "we're going to start a company together" pull-quote feels grafted on after the cereal story already concluded. It probably belongs earlier (in the diagnosis or as part of the origin) — right now it's an awkward second ending to that section.
-
-==============================
-WHAT TO EXPAND
-==============================
-
-1. **The bodybuilding section** is the most underrated detail in the article and you sell it well — but I'd push it further. What did his RISD friends think? Did he diet? Did he see a contradiction between bodybuilding (literal sculpting for an audience) and industrial design (sculpting objects for users)? This is a place where 100 more words would buy a lot.
-
-2. **The Founder Mode section** could explicitly contrast Chesky with the founder he most resembles in this stance — which is Jobs in his second Apple era. Right now Jobs is mentioned once as "the ideal mentor" and never returns. The Founder Mode essay is essentially Chesky-as-Jobs-2.0; saying so would close the loop.
-
-3. **The Obama relationship** is genuinely fascinating and you only give it a paragraph. The detail that they have a weekly standing call deserves more weight. What does a 3w4 actually DO with Obama as a mentor? This is the most original mentorship arc of any current tech CEO.
-
-==============================
-SMALL THINGS
-==============================
-
-- "He drew obsessively — copies of paintings, redesigns of shoes, redesigns of toys." — three uses of the word "redesign" inside a single sentence. Vary one.
-- The TL;DR's "Confidence: High" line is good but the rest of the bullets could be punchier. The "How do you become someone worth choosing?" line is the best in the TL;DR; consider building the others around that energy.
-- The closing image (sleeps in strangers' houses) is excellent. Don't touch it.
-
-==============================
-ONE-LINE GUT REACTION
-==============================
-
-If a reader who follows Chesky finishes this piece, they'll feel like they read something insightful — but they'll also notice you didn't talk about Nathan, Jony Ive, the 11-star framework, or the platform's harder edges. Add even brief mentions of those four and this jumps from "very good Type 3 piece" to "the definitive Chesky personality read."
-
+Trimmed:
+- Duplicate Santa toys story removed from Niskayuna section (opening version retained)
+- "Mistaking adulation for love" reduced to single appearance in IPO section
+- "Lived multiple lives" repetition reduced; full quote retained in section 3 only
+- Cereal-section Joe Gebbia "company together" epilogue removed
+- "Redesign" usage varied with rebuild, rework, reshape, prototype; layoff H2 changed to "rewrote"
+- Type 3 explainer stacking reduced; diagnosis section trimmed to defer the wound payoff to the IPO scene
 -->
 

@@ -64,9 +64,11 @@
 
 ## Open Loops
 
-- **NEW (Apr 28): DXpjBOQGZc0 "know to deeply love" carousel** — 15h, 1,879 likes, ~10+ comments. **TOP priority today.** Limerence / meaning-making-machine angle. Level 0. https://www.instagram.com/p/DXpjBOQGZc0/
+- **NEW (May 7 PM, recovery target): DX_4F6zjrXy "you can know better and still need to re-enter a lesson again"** — 1d, 1.1K likes, 21 comments, 50 reposts. Stage-clip reel. First comment from `awomanreclaimed` already lands in 9takes territory (mixed-mode flag — like the awomanreclaimed comment, then optional Level-0 top-level reply). Voiced in `2026-05-07_instagram-warmup-pm.md`. Mode: post (mixed flag). Level 0.
+- **Silence note (Apr 28 → May 7):** No outbound engagement on Vienna for 10 calendar days due to browser bridge offline + wrong-account active. Apr 28 DXpjBOQGZc0 "know to deeply love" target aged out unposted. Recovery resumed 2026-05-07 PM with fresh top-level entry on DX_4F6zjrXy, voiced as a clean new beat (no callback to "I'm unhappy here" thread, no recycling of reserved phrasings).
+- **AGED OUT (Apr 28): DXpjBOQGZc0 "know to deeply love" carousel** — was top priority Apr 28; now ~10d. Retired without posting.
 - **RETIRED (Apr 25 PM): Apr 23 DXc3repDdAN initiator-grief draft** — too aged.
-- Apr 19 "I'm unhappy here" engagement base established (jillypie_hazeleyes like Apr 21).
+- Apr 19 "I'm unhappy here" engagement base established (jillypie_hazeleyes like Apr 21). `jillypie_hazeleyes` did not reappear in any thread during the silence window — no new community-recognition signal yet.
 - Apr 7 compassion/accountability post aged out (>3 weeks).
 
 ## Next Best Angles

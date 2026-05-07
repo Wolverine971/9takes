@@ -235,8 +235,7 @@ He had a fortress at his center that nothing the 20th century could throw at him
 
 Sources: Nelson Mandela, _Long Walk to Freedom_ (1994); Mandela's "I Am Prepared to Die" speech, Rivonia Trial, April 20, 1964; PBS Frontline, "The Long Walk of Nelson Mandela" (interviews with Desmond Tutu and Walter Sisulu, 1999); Christo Brand interview, _Lonely Planet_; The Conversation, _"How Mandela stayed fit: from his 'matchbox' Soweto home to a prison cell"_; News24, _"Nelson Mandela, Francois Pienaar, the 1995 World Cup and a plastic shopping bag,"_ June 24, 2020; Mandela's televised address on the assassination of Chris Hani, April 13, 1993; SAHO ("The death of Oliver Tambo"); statement on separation from Winnie Mandela, April 13, 1992; divorce proceedings, March 1996; BBC and Reuters reporting on Makgatho Mandela's death and Mandela's HIV/AIDS press conference, January 6, 2005; Reuters and BBC reporting on Mandela's marriage to Graça Machel, July 18, 1998.
 
-<!--
-====================================================================
+<!-- ====================================================================
 PRIOR FRESH-READER REVIEW (addressed in 2026-05-06 revision)
 ====================================================================
 Status of original points (numbered as in the letter below):
@@ -430,4 +429,3 @@ same nail too many times.
 
 ====================================================================
 -->
-

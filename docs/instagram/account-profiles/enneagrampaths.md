@@ -80,10 +80,12 @@
 
 ## Open Loops
 
-- **NEW (Apr 28): DXo6f1ym47n "Types as Vegetables" 4-redemption** — 21h, 1,648 likes, 1 visible comment. **TOP priority today.** Playful Level 2 carousel with sharp lines per type. Mode: post.
+- **NEW (May 7 PM, recovery target): DYAI3KGm-od "ENNEAPOEMS for Past Present Future Embodiment"** — 1d old, 163 likes, 12 comments, 4-slide carousel of 3 original poems for past/present/future bodies (gendered for women). Voiced in `2026-05-07_instagram-warmup-pm.md`. Mode: post (mixed flag). Level 0-1.
+- **Silence note (Apr 28 → May 7):** No outbound engagement on Melissa for 10 calendar days due to browser bridge offline + wrong-account active. Apr 28 DXo6f1ym47n "Types as Vegetables" target aged out unposted. Recovery resumed 2026-05-07 PM with fresh post entry on DYAI3KGm-od, voiced as a clean new beat (no callback to pre-silence threads).
+- **AGED OUT (Apr 28): DXo6f1ym47n "Types as Vegetables" 4-redemption** — was top priority Apr 28; now ~10d. Retired without posting.
 - **RETIRED (Apr 25 PM): DXb4upElHlQ "In Our Own Words"** — all Apr 23 PM drafts (post-level + comment-level + planned likes) retired as too aged.
 - **Carl thread (DWwWUEAlFwQ): RESOLVED.**
-- **Longings thread (DWzFwmGFB2m):** Now 22d unanswered. Retire.
+- **Longings thread (DWzFwmGFB2m):** Retired (now 31d unanswered).
 - **Expansion-vs-contraction post (DXJqt8SFE8c):** Retired (>2 weeks aged).
 
 ## Next Best Angles

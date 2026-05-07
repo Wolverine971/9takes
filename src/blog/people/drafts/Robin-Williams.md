@@ -255,8 +255,7 @@ He could not keep any of it for himself.
 
 The toy soldiers are still in storage somewhere. Romans here. Napoleonics there. Civil War in another room. Each one with a voice. Each one with a backstory. An audience of thousands, and not one of them ever asked the boy who made them up how he was doing.
 
-<!--
-=========================================================
+<!-- =========================================================
 FRESH-EYES REVIEW — REV 2 LOG, 2026-05-06
 =========================================================
 
@@ -288,4 +287,3 @@ DELIBERATELY NOT ADDRESSED
 - "Engine that finally broke" purple phrase remains in meta description for SEO/social.
 =========================================================
 -->
-

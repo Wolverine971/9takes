@@ -17,7 +17,7 @@ _Note: Individual type pages (enneagram-type-1 through 9) excluded from link cou
 | Posts with 0 outgoing links | 29 |
 | Posts with 0 incoming links | 50 |
 | Completely isolated (0 in, 0 out) | 29 |
-| Total internal cross-links | 935 |
+| Total internal cross-links | 936 |
 | Average outgoing links per post | 5.1 |
 
 ---
@@ -305,6 +305,7 @@ Sorted by total connections (incoming + outgoing).
 | 6 | 2 | 4 | The Enneagram | `enneagram/enneagram-vs-personality-frameworks-comparison.md` |
 | 6 | 3 | 3 | Dating Dynamics by Enneagram Type: 9 Patterns That Sabotage ... | `guides/dating-dynamics-by-enneagram-type.md` |
 | 6 | 3 | 3 | The AI Wars: Why Personality Types Determine Who Gets to Bui... | `pop-culture/tech-titans-ai-wars.md` |
+| 6 | 4 | 2 | Founders vs Stewards: The Personality Types That Replace Tec... | `pop-culture/tech-titans-founders-vs-stewards.md` |
 | 5 | 3 | 2 | The Consensus on Human Nature | `community/consensus-on-human-nature.md` |
 | 5 | 2 | 3 | Kant Said You | `community/kantian-filters-and-nine-perspectives.md` |
 | 5 | 0 | 5 | You Didn | `community/personality-frameworks-map-not-territory.md` |
@@ -319,7 +320,6 @@ Sorted by total connections (incoming + outgoing).
 | 5 | 1 | 4 | How to Read People: The 4-Step Guide to Understanding Anyone... | `guides/how-to-psychoanalyze-people.md` |
 | 5 | 2 | 3 | Influencer Enneagram Types: Why Type 3s Dominate Instagram | `pop-culture/influencer-enneagram-types-instagram.md` |
 | 5 | 4 | 1 | Podcast Bros: Inside the Movement That Replaced Mainstream M... | `pop-culture/podcast-bros-enneagram-analysis.md` |
-| 5 | 4 | 1 | Founders vs Stewards: The Personality Types That Replace Tec... | `pop-culture/tech-titans-founders-vs-stewards.md` |
 | 5 | 2 | 3 | The Platform Emperors: How Personality Types Shape the Produ... | `pop-culture/tech-titans-platform-emperors.md` |
 | 4 | 2 | 2 | Memetic Comments: Why Your Online Opinions Aren | `community/memetic-comments.md` |
 | 4 | 2 | 2 | Why the Greek vibe? | `community/why-the-greek-vibe.md` |

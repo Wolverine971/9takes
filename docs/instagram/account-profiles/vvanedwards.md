@@ -56,8 +56,10 @@
 
 ## Open Loops
 
-- **Today (priority):** DXp9qlyDq_E attention-control Collab — 11h, 143 likes, ~4 comments. Strongest fresh post for capitalizing on the cover-up comment momentum. Level 0.
-- **Notification signal active:** Cover-up strategy comment (DWFmfi5Dv1k) is now a 44-like top comment — keep an eye on whether Vanessa surfaces it / engages back (currently no direct response, but her audience is voting it up organically).
+- **NEW (May 7 PM, recovery target): DYDWMN_SB3a "WHY 4-7PM ARE SO CRITICAL" parenting reel** — 1h old, 376 likes, 11 comments, 3 reposts. Vanessa pivoting from people-skills to parenting/family hours. Voiced in `2026-05-07_instagram-warmup-pm.md`. Mode: post. Level 0. Angle: 4-7pm = regulation math, not parenting failure; multi-wiring frame _without_ recycling the reserved cover-up phrasing.
+- **🔥 Cover-up comment now ~95+ likes (and climbing).** May 7 notifications surfaced "who\_\_is_adil, maytrixed, and 51 others liked your comment" on DWFmfi5Dv1k. Combined with the prior 44 likes = comment is now well over 90+ and being algorithmically re-discovered. Top-comment slot is locked in. Vanessa herself has not engaged directly; her audience is doing the work.
+- **Silence note (Apr 28 → May 7):** No outbound engagement on Vanessa for 10 calendar days due to browser bridge offline + wrong-account active. Apr 28 DXp9qlyDq*E attention-control Collab target aged out unposted. The cover-up comment ANCHOR was untouched and \_gained* algorithmic momentum during the silence (~95+ likes by May 7) — relationship value increased despite the outbound silence. Recovery resumed 2026-05-07 PM with fresh entry on DYDWMN_SB3a.
+- **AGED OUT (Apr 28): DXp9qlyDq_E attention-control Collab** — was top priority Apr 28; now ~10d. Retired without posting.
 
 ## Next Best Angles
 

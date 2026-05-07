@@ -72,12 +72,14 @@
 
 ## Open Loops
 
-- **NEW (Apr 23 PM): DXehACGjj35 Hornevian-triad post** — 2h old, first-comment slot wide open, Level 2 peer reply. Top priority today.
-- **RESOLVED (Apr 22): "Your pattern is not wrong" loop CLOSED** — Jackie liked our @9takesdotcom reply 19h ago. Comment was posted but exact phrasing differed from the revised 3 options ("the pattern made perfect sense for the version of you that built it..."). Not retire; keep as a durable relationship signal.
-- **CARRYOVER (Apr 19 → Apr 20): "Your pattern is not wrong, but it is not neutral" post** — now 46h old, 199 likes, still only 1 comment (from Facebook). First-comment slot is no longer the asset — but 1 comment on a 96.7K account at 46h means the depth angle is still uncontested. 3 options drafted in 2026-04-19_instagram-replies.md — Drafted - Pending Posting. Aging rapidly; post today or retire. https://www.instagram.com/enneagramwithjb/p/DXRv5jtDm3F/
-- Body signals / override post (Apr 13) — aged out; don't reply
-- Defense mechanisms comment status from Apr 6 PM still unknown
-- Avoid: "autopilot," "catching the pattern," "mid-fire" — all used recently
+- **NEW (May 7 PM, recovery target — TOP PRIORITY): DYCjXJGDj5Z "How Each Enneagram Type Learned to Be Loved"** — 8h old, 238 likes, **1 comment**, 12-slide per-type carousel. First-comment slot effectively open on a 96.7K Enneagram coach's most-aligned post of the year. Voiced in `2026-05-07_instagram-warmup-pm.md`. Mode: post. Level 2. Use Jackie's word _loosen_; angle = cost-of-success of each type's love-strategy.
+- **Silence note (Apr 28 → May 7):** No outbound engagement on Jackie for 10 calendar days due to browser bridge offline + wrong-account active. Jackie posted at least 9 new pieces during the silence window (DYCjXJGDj5Z is the freshest). Recovery resumed 2026-05-07 PM with fresh entry on DYCjXJGDj5Z, voiced as a clean new beat (no recycling of "the pattern made perfect sense for the version of you that built it" — reserved Apr 20).
+- **AGED OUT (Apr 23 PM): DXehACGjj35 Hornevian-triad post** — Apr 23 PM drafts retired in `2026-04-23_instagram-replies-pm.md` (closed 2026-05-07).
+- **RESOLVED (Apr 22): "Your pattern is not wrong" loop CLOSED** — Jackie liked our @9takesdotcom reply Apr 22. Comment was posted with phrasing "the pattern made perfect sense for the version of you that built it…" — keep as durable relationship signal; reserved against future recycling.
+- **AGED OUT (Apr 19 → Apr 20): "Your pattern is not wrong, but it is not neutral" carryover** — Apr 19 → 20 drafts never posted (the Apr 22 like covered the relationship intent); retired.
+- Body signals / override post (Apr 13) — aged out; don't reply.
+- Defense mechanisms comment from Apr 6 PM was confirmed posted (per Apr 15 larkspur_harukasekai like notification). Status now resolved.
+- Avoid: "autopilot," "catching the pattern," "mid-fire" — all used recently.
 
 ## Next Best Angles
 

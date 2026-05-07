@@ -82,6 +82,8 @@ She is nine years old. She is writing the sentence anyone could write to be admi
 
 Twenty-five years later, in 2018, the SEC charged her with defrauding investors out of more than $700 million. A federal jury convicted her in 2022. She is currently serving a sentence in a federal prison camp in Bryan, Texas — current Bureau of Prisons projected release: late 2032, recently reduced for credit. She has filed for clemency from President Trump. She has begun warning the public, from prison, about an imminent AI-driven privacy apocalypse.
 
+The fraud was a device named Edison, after Thomas Alva. She had founded the company, Theranos, at 19, having dropped out of Stanford the year before. The pitch was that Edison could run hundreds of laboratory tests from a single finger-prick of blood, from inside a Walgreens pharmacy or a soldier's field kit. By 2014, _Forbes_ had named her the youngest self-made female billionaire on Earth at $4.5 billion. The device did not work. Real patients, processed through the Walgreens Wellness Centers, got back real wrong results — false HIV positives, false cancer markers, a woman wrongly told she might be miscarrying.
+
 The Theranos story is a story of fraud. The Elizabeth Holmes story is a story of what happens when a Type 3 builds an entire human being out of borrowed parts.
 
 <details>
@@ -143,7 +145,13 @@ Henry Kissinger, profiling her for _Time_ in 2015, called her "like a member of 
 
 A 30-year-old chemical engineering dropout was being compared, in interviews, to Beethoven, Einstein, Bill Gates, Steve Jobs, and a monastic order, for a product that did not yet exist.
 
-This is what the 3w2 does at peak deployment. The wing-2 instinct is not about service — it is about getting close to people whose recognition is worth something, and getting them to confer it. Holmes did not assemble the board to govern her company. She assembled them to be the social proof that Theranos was real. They did not need to understand the device. They needed to be photographed near it.
+Half of how this happened is structural. Her father, Christian Holmes IV, had been a vice president at Enron through its collapse. Her mother had been a Congressional committee staffer. Her great-great-great-grandfather was Charles Louis Fleischmann, the yeast and distillery magnate whose name still sits on supermarket shelves. The rolodex a 19-year-old founder could call into was not a normal rolodex. The room she charmed was the room she was born inside.
+
+The other half is the 3w2 wing at peak deployment. The wing-2 instinct is not about service — it is about getting close to people whose recognition is worth something, and getting them to confer it. Holmes did not assemble the board to govern her company. She assembled them to be the social proof that Theranos was real. They did not need to understand the device. They needed to be photographed near it, and to defend it when it was attacked.
+
+Which they did. George Shultz's grandson Tyler worked briefly at Theranos in 2013, saw the device fail internal validation, and took his concerns first up the chain and then to John Carreyrou. Theranos's lawyers — Boies Schiller Flexner — surveilled Tyler and threatened him with litigation that nearly bankrupted his family. When Tyler told his grandfather what was happening, George Shultz did not believe him. He believed Holmes. The 90-year-old former Secretary of State was, at that point, more loyal to the founder he had compared to Beethoven than to the grandchild he had raised.
+
+That single fact tells you what the board was for.
 
 ## What Elizabeth Holmes did with her uncle's death
 
@@ -165,11 +173,15 @@ The relevant question is not who hurt whom. The relevant question is what kind o
 
 The texts read in court, where the two of them addressed each other as "tiger" and "tigress," were not the language of a normal couple. They were the language of two people coaching each other through a role.
 
+The role had costs to the people working under it. Sunny ran the lab day-to-day, and employees described him as menacing and mercurial; scientists left or were pushed out; in 2013, the company's chief scientist, Ian Gibbons, took his own life the night before he was scheduled to be deposed in a patent dispute.
+
 ## What Elizabeth Holmes sounded like under questioning
 
 In the SEC deposition before the criminal case, Elizabeth Holmes answered questions for multiple days. She was asked, in detail, about emails she had sent, statements she had made, claims she had reviewed. According to ABC News and Carreyrou's reporting, she said the phrase "I don't know" more than 600 times.
 
-Six hundred. Across a person who had, in TED talks and on _Charlie Rose_ and on the cover of every business magazine in print, demonstrated total command of every detail of her own product.
+Six hundred. Asked about emails she had sent under her own name, she did not recall sending them. Asked about studies she had presented to Walgreens executives, she did not recall what she had said. Asked about language Theranos used in its own press releases — language she had spoken aloud onstage — she did not know.
+
+Across a person who had, in TED talks and on _Charlie Rose_ and on the cover of every business magazine in print, demonstrated total command of every detail of her own product.
 
 [Type 3 disintegrates to Type 9](/enneagram-corner/enneagram-types-in-stress). Under sustained pressure, the achievement engine doesn't fight harder — it goes quiet, disengages, drifts, refuses to be anywhere identifiable. Type 9 in stress is not nervous; it is absent. The same woman who could speak for an hour about a single drop of blood, who could lock eyes with Henry Kissinger and not blink, could, in deposition, become a person to whom nothing had ever been said and from whom nothing had ever been sent.
 
@@ -179,11 +191,13 @@ This is the most under-noticed part of the Holmes story. The fraud is not what i
 
 In May 2023, the _New York Times_ ran a Sunday profile by Amy Chozick. The headline was, almost mercifully, accurate. _Liz Holmes Wants You to Forget About Elizabeth._
 
-Holmes — now Liz — wore a beige crewneck. She walked on the beach with her dog. She fed her two children croissants and berries. She volunteered for a rape crisis hotline. She spoke softly. She had a husband, William "Billy" Evans, an heir to a hospitality fortune. She took the kids to the San Diego Zoo. She was, the profile suggested, a different person now.
+By 2023, the Elizabeth she was asking the public to forget had become a pop-culture archetype. Alex Gibney's HBO documentary, _The Inventor: Out for Blood in Silicon Valley_, had aired in 2019. Hulu's series _The Dropout_, with Amanda Seyfried doing the voice, had won an Emmy in 2022. Carreyrou's _Bad Blood_ had been on every airport shelf for five years. Forgetting Elizabeth was a project that required scale.
+
+Holmes — now Liz — wore a beige crewneck. She walked on the beach with her dog. She fed her two children croissants and berries. (The first, William, had been born in July 2021, weeks before jury selection in her criminal trial. The second, Invicta, had been born in February 2023, three months before Holmes was due to report to prison, after a delay request that prosecutors read as strategic.) She volunteered for a rape crisis hotline. She spoke softly. She had a husband, William "Billy" Evans, an heir to a hospitality fortune. She took the kids to the San Diego Zoo. She was, the profile suggested, a different person now.
 
 She was not. She was the same person, now performing motherhood with the totality previously reserved for unicorn-startup CEO. The 3w2 helper wing, which had been routed through "build a global health revolution" in the 2010s, was being routed through "rape crisis volunteer and devoted mom" in the 2020s. The voice had dropped its baritone. The wardrobe had dropped its black. The role had changed. The actor had not.
 
-This is what the Achiever does when an identity collapses. There is no return to a backstage self, because there is no backstage self. There is only the next role, and the next role's costume, and the next role's lighting cue. Within months of the conviction the new role was already in production. The _Times_ profile was its trailer.
+This is what the Achiever does when an identity collapses. Within months of the conviction the new role was already in production. The _Times_ profile was its trailer.
 
 ## What Elizabeth Holmes does in prison
 
@@ -196,7 +210,7 @@ In federal prison camp at Bryan, Texas, Elizabeth Holmes works as a reentry cler
 
 Sit with that for a moment.
 
-The woman whose entire adult life was an exercise in inflating a resume — who borrowed a voice, a wardrobe, a mentor, a board, a founding myth, and a comparison to Einstein from a man who had not yet been her advisor — is now, for less than a third of a dollar an hour, polishing other people's resumes.
+The woman whose entire adult life was an exercise in inflating a resume — who borrowed a voice, a wardrobe, a mentor, a board, a founding myth, and a comparison to Einstein from a man who had not yet been her advisor — is now polishing other people's resumes.
 
 She has, recently, begun posting from prison about an impending AI-driven data exposure event that will, she says, leak medical records and social media histories. She is urging the public to delete their digital footprints. The rhetoric is familiar: a private vision, a coming crisis, a savior's warning, an audience to be saved.
 
@@ -218,8 +232,7 @@ She is still working.
 
 _Note: This is an unaffiliated personality analysis. Enneagram type assessments are interpretive and based on publicly available material — interviews, court testimony, journalism, and the subject's own statements. Confidence in the Type 3 reading: high. Wing call (3w2 over 3w4): moderate to high._
 
-<!--
-================================================================================
+<!-- ================================================================================
 FRESH-EYES REVIEW (reader who knows the Holmes story well)
 ================================================================================
 
@@ -345,4 +358,3 @@ woman who left wreckage." A reader who does know the story will
 feel the omissions as a soft thumb on the scale.
 ================================================================================
 -->
-
