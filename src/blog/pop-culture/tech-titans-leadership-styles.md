@@ -5,10 +5,10 @@ description: 'Type 1s set impossible standards. Type 5s hoard information. Type 
 author: 'DJ Wayne'
 date: '2026-03-21'
 loc: 'https://9takes.com/pop-culture/tech-titans-leadership-styles'
-lastmod: '2026-03-21'
+lastmod: '2026-05-07'
 changefreq: 'monthly'
 priority: '0.6'
-published: false
+published: true
 type: ['situational']
 blog: true
 previewHtml: ''
@@ -344,3 +344,60 @@ The result: the future is being built by the personality types least naturally o
 - **Board Composition by Type**: If CEOs are 5s and 8s, what types sit on their boards? The 1s and 6s on OpenAI's board clashed with the 4 CEO. Is every board drama a personality type collision?
 - **The Founder-CEO Transition Problem**: Twitter replaced a 5 (Dorsey) with a series of non-founders, then sold to another 5 (Musk). Apple replaced a 1 with a 1. Microsoft replaced a 5 with a 5. Google replaced founders with a 9. Which transition pattern works best?
 - **Type and Product Design Philosophy**: Can you predict a product's design language from the CEO's type? Apple's perfectionism (1). Meta's data-centrism (5). Amazon's ruthless efficiency (8). Google's soft edges (9). The CEO's psychology becomes the user experience.
+
+<!--
+READER REVIEW NOTES (post-publish, internal — strip before promo)
+================================================================
+
+OVERALL: Strong piece. The thesis (that the missing types tell you as much as the present ones) is the best part and earns the length. The Type 5 multi-portrait and the Bezos/Kalanick/Hastings "same type, different integration" framing are the strongest sections. Below is what would tighten it.
+
+WHAT'S MISSING / WHERE TO EXPAND
+--------------------------------
+1. WOMEN ARE ALMOST ENTIRELY ABSENT. Whitney Wolfe Herd shows up only as a hypothetical "what we lost" in the closer — and that's awkward because she's a real, current CEO. Sheryl Sandberg sitting next to Zuckerberg for a decade is the obvious operator-to-founder pairing the piece never makes. Susan Wojcicki, Marissa Mayer, Safra Catz (Oracle), Lisa Su (AMD — and Jensen Huang's cousin, which is its own story), Reshma Saujani, Jennifer Doudna-adjacent biotech leaders. At minimum, name 2–3 women in the body, not just the postscript. Right now a reader can fairly say "this is sixteen men and one woman as a counterfactual."
+
+2. THE GOOGLE FOUNDERS GAP. You spend a long Pichai section but never type Page or Brin — and the whole Pichai analysis depends on what kind of founder he succeeded. A sentence or two on Page (often read as 5w4) and Brin would close that loop and make the "9s as successors" point hit harder.
+
+3. NO ONE FROM OUTSIDE THE US TIER-1. Jensen Huang (Taiwanese-American) and Pichai (Indian) get cultural-context-free treatment. A short note on whether the type pattern holds globally — Jack Ma, Pony Ma, Masayoshi Son, the Collisons (Irish), Daniel Ek — would answer the unspoken "is this a Silicon Valley artifact?" question that any thoughtful reader will have.
+
+4. SAM ALTMAN AS A 4 IS THE MOST CONTESTED CALL IN THE PIECE and you don't defend it. Lots of readers will type him as a 3 (relentless networker, image-management, Loopt → YC → OpenAI ladder-climbing) or even a 7. One paragraph acknowledging the dispute and explaining why "vision-casting + dramatic exile narrative + significance-seeking" outweighs the 3 evidence would inoculate the piece. Right now it reads as asserted, not argued.
+
+5. THE "SPOUSE TEST" RABBIT HOLE IS BURIED. That's the most clickable hook in the entire article and you put it in a bullet list at the end. Either promote it to a short section or save it as the next post in the series and tease it harder.
+
+6. THE 7-IS-MISSING ARGUMENT NEEDS ONE MORE EXAMPLE. Branson is the only data point and he's not even in tech. Someone like Brian Chesky (Airbnb) or even Tony Hsieh (Zappos, RIP) would make the case stronger. Otherwise the claim "7s are missing" is doing work the evidence isn't supporting.
+
+7. NO CAUTIONARY-TALE FOUNDER. Adam Neumann, Elizabeth Holmes, SBF — at least one belongs here. The piece has no fallen-founder analysis, which makes the typing feel like "successful people are the right type for what they did," i.e., survivor-biased. A short "and here's what the same type looks like when it fails catastrophically" beat would harden the framework.
+
+WHAT'S OVERDONE OR DUPLICATED
+-----------------------------
+1. THE QUICKANSWER + THE TABLE + THE "QUESTIONS THIS BLOG WILL ANSWER" SECTION ARE THREE VERSIONS OF THE SAME THING. Pick two. The "Questions This Blog Will Answer" section is the weakest of the three — it reads as SEO scaffolding and the body never directly returns to those exact questions.
+
+2. DARIO AMODEI IS DOUBLE-TEASED AND SINGLE-DELIVERED. You promise "more on him in the Type 4 section" up in the Type 5 intro, then he gets one comparison line in the Altman section. Either give him a real paragraph or cut the forward-reference.
+
+3. "5s BUILD ADDICTIVE / TOXIC PRODUCTS" is made three times: in the Zuckerberg subsection, in the Type 5 blind-spot summary, and again in "Types That Are Missing." Consolidate to one strong statement. (Also: Microsoft is 5-led and isn't an addiction-engine company — the claim "every 5-built platform struggles with addiction" is overstated and a sharp reader will catch it.)
+
+4. "5s VS 8s — WHY MUSK GETS MISTYPED" and "COUNTERPHOBIC 6s LOOK LIKE 8s" are doing similar work in adjacent sections. They could share a short callout box instead of two separate digressions.
+
+5. PICHAI'S SECTION RESTATES "9s ABSORB CONFLICT / HOLD CONTRADICTIONS / BOARDS LOVE THEM" three times in slightly different language. Trim one.
+
+6. THE HUANG TATTOO STORY IS FUN BUT IT'S A LONG TANGENT in a section that already has the Denny's origin, the NV1 near-death pivot, and the GTC keynote critique. Pick the two strongest beats; the tattoo can go to a footnote or get cut.
+
+ACCURACY / CONSISTENCY NITS
+---------------------------
+1. "Five of the sixteen tech leaders profiled here" — I counted 17 named leaders (Jobs, Cook, Huang, Jassy, Chamath, Altman, Musk, Zuck, Nadella, Gates, Dorsey, Thiel, Sacks, Bezos, Hastings, Kalanick, Pichai). Recount and fix the number, or change to "of the leaders profiled."
+
+2. Friedberg gets a parenthetical "(5)" in the Sacks section with zero context. Anyone who doesn't listen to All-In will be confused. Either introduce him or cut the parenthetical.
+
+3. "Apple Intelligence launched behind Google and OpenAI's AI features" is true but the framing pins it on Cook's 1-rigidity. The competing read is that Apple's privacy-first architecture (also a 1 trait!) made on-device AI genuinely harder. A half-sentence acknowledging that would be more honest.
+
+4. Kalanick "lasted 8 years" — he was ousted June 2017, Uber was founded March 2009, so closer to 8 years but worth fact-checking against your other sources. Bezos "27 years as CEO" checks out (1994–2021).
+
+STRUCTURAL THOUGHTS
+-------------------
+- The piece is ~3,500 words and reads long. The Type 5 mega-section could spin off as its own post ("Why Silicon Valley is Built by Type 5s — and What That Costs Us") with this article linking to it. That also lets the missing-types argument breathe.
+- The "Pattern" section at the end is the real payoff and is currently competing with the "Rabbit Holes" list for the closing slot. Consider ending on the missing-types argument and moving Rabbit Holes above it as a "want to go deeper" interstitial.
+- Subheads inside Type 5 ("The Expansive 5", "The Systematic 5", "The Integrated 5", "The Philanthropic 5", "The Withdrawn 5") are clever but a couple feel forced — "Philanthropic 5" works, "Expansive 5" for Musk is fuzzy. Worth a pass.
+
+ONE LINE THAT SHOULDN'T SURVIVE EDITING
+---------------------------------------
+"That's the most 5 thing imaginable" — used about Nadella. The piece does this kind of "that's so [type]" tic a few times. Once is fine; three times reads as a tell.
+-->

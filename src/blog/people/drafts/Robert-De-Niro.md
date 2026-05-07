@@ -3,12 +3,12 @@ title: 'Robert De Niro: An In-Depth Enneagram Type 9 Analysis'
 meta_title: "Inside Robert De Niro's Silence: Why He Disappears Into Roles"
 description: 'Robert De Niro barely talks in interviews but plays the loudest men in cinema. Enneagram Type 9 explains the silence, the method, and the late-life anger.'
 author: 'DJ Wayne'
-date: '2026-04-24'
+date: '2026-05-07'
 loc: 'https://9takes.com/personality-analysis/Robert-De-Niro'
-lastmod: '2026-04-24'
+lastmod: '2026-05-07'
 changefreq: 'monthly'
 priority: '0.6'
-published: false
+published: true
 enneagram: 9
 type: ['movieStar']
 person: 'Robert-De-Niro'

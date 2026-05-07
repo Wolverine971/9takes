@@ -1,4 +1,10 @@
 <!-- src/lib/components/questions/CategoryBrowseBranch.svelte -->
+<!--
+  Streetlamp Symposium V5 — library shelf.
+  Visual ground truth: /questions, /questions/categories.
+  Tokens (--lamp-*, --night-*, --stone-*, --ink-*, --data-*) live globally
+  in src/scss/index.scss.
+-->
 <script lang="ts">
 	import { buildQuestionCategoryPath } from '$lib/utils/questionCategorySlug';
 
@@ -22,25 +28,21 @@
 	function getCategoryHref(category: Pick<BrowseCategoryNode, 'slug' | 'category_name'>): string {
 		return buildQuestionCategoryPath(category.slug || category.category_name);
 	}
-
-	function formatQuestionCount(count: number): string {
-		return `${count} question${count === 1 ? '' : 's'}`;
-	}
 </script>
 
 {#if depth === 0}
-	<section class="root-card">
-		<div class="root-head">
-			<div class="root-copy">
-				<p class="root-kicker">Topic Group</p>
-				<h2>
-					<a href={getCategoryHref(category)} class="root-link">
-						{category.category_name}
-					</a>
-				</h2>
-			</div>
-			<span class="count-pill">{formatQuestionCount(category.subtreeQuestionCount)}</span>
-		</div>
+	<section class="shelf">
+		<header class="shelf-head">
+			<span class="shelf-kicker mono">
+				SHELF · {category.subtreeQuestionCount}
+				{category.subtreeQuestionCount === 1 ? 'QUESTION' : 'QUESTIONS'}
+			</span>
+			<h2 class="shelf-title">
+				<a href={getCategoryHref(category)} class="shelf-link">
+					{category.category_name}
+				</a>
+			</h2>
+		</header>
 
 		{#if hasChildren}
 			<div class="branch-grid">
@@ -51,221 +53,212 @@
 		{/if}
 	</section>
 {:else if hasChildren}
-	<article class="branch-card" class:branch-card--flat={depth > 1}>
-		<div class="branch-head">
-			<a href={getCategoryHref(category)} class="branch-link" class:branch-link--flat={depth > 1}>
-				{category.category_name}
-			</a>
-			<span class="count-pill small">{formatQuestionCount(category.subtreeQuestionCount)}</span>
-		</div>
-
-		<div class="leaf-list" class:leaf-list--flat={depth > 1}>
+	<div class="branch" class:branch--deep={depth > 1}>
+		<a href={getCategoryHref(category)} class="branch-head">
+			<span class="branch-name">{category.category_name}</span>
+			<span class="branch-count mono">{category.subtreeQuestionCount}</span>
+		</a>
+		<div class="leaf-list">
 			{#each category.children as child (child.id)}
 				<svelte:self category={child} depth={depth + 1} />
 			{/each}
 		</div>
-	</article>
+	</div>
 {:else}
 	<a href={getCategoryHref(category)} class="leaf-link">
-		<span>{category.category_name}</span>
-		<span class="count-pill small">{formatQuestionCount(category.subtreeQuestionCount)}</span>
+		<span class="leaf-name">{category.category_name}</span>
+		<span class="leaf-count mono">{category.subtreeQuestionCount}</span>
 	</a>
 {/if}
 
 <style lang="scss">
-	.root-card {
-		padding: 1.15rem;
-		border-radius: 1.25rem;
-		border: 1px solid color-mix(in srgb, var(--lamp-glow) 18%, var(--stone-edge));
-		background:
-			linear-gradient(
-				180deg,
-				color-mix(in srgb, var(--accent-soft) 34%, transparent) 0%,
-				transparent 44%
-			),
-			color-mix(in srgb, var(--stone-warm) 92%, var(--night-deep));
-		box-shadow: var(--shadow-sm);
-	}
-
-	.root-head,
-	.branch-head {
-		display: flex;
-		align-items: flex-start;
-		justify-content: space-between;
-		gap: 0.8rem;
-	}
-
-	.root-head {
-		margin-bottom: 1rem;
-		padding-bottom: 0.85rem;
-		border-bottom: 1px solid color-mix(in srgb, var(--lamp-glow) 16%, var(--stone-edge));
-	}
-
-	.root-copy,
-	.branch-head {
-		min-width: 0;
-	}
-
-	.root-kicker {
-		margin: 0 0 0.35rem;
-		font-size: 0.72rem;
-		font-weight: 700;
-		letter-spacing: 0.12em;
+	.mono {
+		font-family: var(--font-mono);
+		font-weight: 500;
+		letter-spacing: 0.08em;
 		text-transform: uppercase;
-		color: var(--ink-mid);
 	}
 
-	h2 {
-		margin: 0;
-		font-size: clamp(1.25rem, 2vw, 1.65rem);
+	/* =========================================================
+	  Shelf — depth 0 root
+	  ========================================================= */
+	.shelf {
+		padding: 24px 0 28px;
+		border-top: 1px solid var(--stone-edge);
+
+		&:first-child {
+			border-top: none;
+			padding-top: 0;
+		}
+	}
+
+	.shelf-head {
+		display: flex;
+		flex-direction: column;
+		gap: 6px;
+		margin-bottom: 18px;
+	}
+
+	.shelf-kicker {
+		font-size: 11px;
+		color: var(--ink-dim);
+	}
+
+	.shelf-title {
+		font-family: var(--font-display);
+		font-weight: 700;
+		font-size: clamp(22px, 2.6vw, 28px);
 		line-height: 1.15;
+		letter-spacing: -0.02em;
+		margin: 0;
 	}
 
-	.root-link,
-	.branch-link,
-	.leaf-link {
-		text-decoration: none;
-	}
-
-	.root-link,
-	.branch-link {
+	.shelf-link {
 		color: var(--ink-bright);
-	}
+		text-decoration: none;
+		transition: color 0.15s ease;
 
-	.root-link:hover,
-	.branch-link:hover,
-	.leaf-link:hover {
-		color: var(--lamp-glow);
+		&:hover {
+			color: var(--lamp-glow);
+		}
 	}
 
 	.branch-grid {
 		display: grid;
-		gap: 0.9rem;
-	}
+		gap: 0 32px;
+		grid-template-columns: 1fr;
 
-	.branch-card {
-		padding: 0.95rem;
-		border-radius: 1rem;
-		border: 1px solid color-mix(in srgb, var(--lamp-glow) 14%, var(--stone-edge));
-		background: color-mix(in srgb, var(--stone-warm) 90%, var(--night-deep));
-	}
-
-	.branch-link {
-		font-size: 1rem;
-		font-weight: 700;
-		line-height: 1.3;
-	}
-
-	.branch-card--flat {
-		padding: 0.35rem 0 0.25rem 0.85rem;
-		border: none;
-		border-left: 2px solid color-mix(in srgb, var(--lamp-glow) 22%, var(--stone-edge));
-		border-radius: 0;
-		background: transparent;
-		margin-top: 0.4rem;
-	}
-
-	.branch-link--flat {
-		font-size: 0.9rem;
-		font-weight: 600;
-		text-transform: uppercase;
-		letter-spacing: 0.06em;
-		color: var(--ink-mid);
-	}
-
-	.leaf-list--flat {
-		margin-top: 0.5rem;
-	}
-
-	.leaf-list {
-		display: grid;
-		gap: 0.6rem;
-		margin-top: 0.85rem;
-	}
-
-	.leaf-link {
-		display: flex;
-		align-items: center;
-		justify-content: space-between;
-		gap: 0.75rem;
-		padding: 0.8rem 0.9rem;
-		border-radius: 0.9rem;
-		border: 1px solid color-mix(in srgb, var(--lamp-glow) 12%, var(--stone-edge));
-		background: color-mix(in srgb, var(--stone-warm) 84%, var(--night-deep));
-		color: var(--ink-bright);
-		font-weight: 600;
-		transition:
-			transform 0.18s ease,
-			border-color 0.18s ease,
-			box-shadow 0.18s ease,
-			color 0.18s ease;
-	}
-
-	.leaf-link span:first-child {
-		min-width: 0;
-		flex: 1 1 auto;
-		overflow: hidden;
-		text-overflow: ellipsis;
-		white-space: nowrap;
-	}
-
-	.leaf-link .count-pill {
-		flex-shrink: 0;
-	}
-
-	.leaf-link:hover {
-		transform: translateY(-1px);
-		border-color: color-mix(in srgb, var(--lamp-glow) 48%, var(--stone-edge));
-		box-shadow: var(--shadow-sm);
-	}
-
-	.count-pill {
-		display: inline-flex;
-		align-items: center;
-		justify-content: center;
-		padding: 0.4rem 0.7rem;
-		border-radius: 999px;
-		background: color-mix(in srgb, var(--lamp-glow) 14%, var(--night-deep));
-		color: var(--ink-mid);
-		font-size: 0.75rem;
-		font-weight: 700;
-		white-space: nowrap;
-	}
-
-	.count-pill.small {
-		padding: 0.28rem 0.55rem;
-		font-size: 0.7rem;
-	}
-
-	@media (min-width: 720px) {
-		.branch-grid {
+		@media (min-width: 720px) {
 			grid-template-columns: repeat(2, minmax(0, 1fr));
 		}
 	}
 
-	@media (max-width: 639px) {
-		.root-card,
-		.branch-card {
-			padding: 1rem;
+	/* =========================================================
+	  Branch — depth 1+ with children
+	  ========================================================= */
+	.branch {
+		min-width: 0;
+		padding-top: 4px;
+	}
+
+	.branch-head {
+		display: flex;
+		align-items: baseline;
+		justify-content: space-between;
+		gap: 10px;
+		padding: 8px 0;
+		text-decoration: none;
+		color: inherit;
+		border-bottom: 1px solid var(--stone-edge);
+		transition: border-color 0.15s ease;
+
+		&:hover {
+			border-bottom-color: var(--lamp-glow);
+
+			.branch-name {
+				color: var(--lamp-glow);
+			}
+		}
+	}
+
+	.branch-name {
+		font-family: var(--font-display);
+		font-weight: 600;
+		font-size: 15px;
+		line-height: 1.3;
+		color: var(--ink-bright);
+		min-width: 0;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		white-space: nowrap;
+		transition: color 0.15s ease;
+	}
+
+	.branch-count {
+		font-size: 11px;
+		color: var(--data-teal);
+		font-variant-numeric: tabular-nums;
+		flex-shrink: 0;
+	}
+
+	.branch--deep .branch-head {
+		border-bottom: none;
+		padding: 4px 0 2px;
+	}
+
+	.branch--deep .branch-name {
+		font-size: 12px;
+		font-weight: 500;
+		font-family: var(--font-mono);
+		text-transform: uppercase;
+		letter-spacing: 0.06em;
+		color: var(--ink-dim);
+	}
+
+	.branch--deep .branch-count {
+		color: var(--ink-dim);
+	}
+
+	.leaf-list {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.branch--deep .leaf-list {
+		border-left: 1px solid var(--stone-edge);
+		margin-left: 4px;
+		padding-left: 10px;
+	}
+
+	/* =========================================================
+	  Leaf — terminal link
+	  ========================================================= */
+	.leaf-link {
+		display: flex;
+		align-items: baseline;
+		justify-content: space-between;
+		gap: 10px;
+		padding: 7px 0;
+		text-decoration: none;
+		color: inherit;
+		border-top: 1px dotted transparent;
+		border-bottom: 1px dotted color-mix(in srgb, var(--stone-edge) 60%, transparent);
+		transition:
+			color 0.15s ease,
+			border-color 0.15s ease;
+
+		&:last-child {
+			border-bottom-color: transparent;
 		}
 
-		.root-head,
-		.branch-head {
-			flex-direction: column;
-			align-items: flex-start;
-		}
+		&:hover {
+			.leaf-name {
+				color: var(--lamp-glow);
+			}
 
-		.root-head {
-			gap: 0.65rem;
+			.leaf-count {
+				color: var(--lamp-glow);
+			}
 		}
+	}
 
-		.root-head .count-pill,
-		.branch-head .count-pill {
-			align-self: flex-start;
-		}
+	.leaf-name {
+		font-family: var(--font-display);
+		font-size: 14px;
+		line-height: 1.4;
+		color: var(--ink-mid);
+		min-width: 0;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		white-space: nowrap;
+		transition: color 0.15s ease;
+	}
 
-		.leaf-link {
-			padding: 0.7rem 0.85rem;
-		}
+	.leaf-count {
+		font-size: 11px;
+		color: var(--ink-dim);
+		font-variant-numeric: tabular-nums;
+		flex-shrink: 0;
+		transition: color 0.15s ease;
 	}
 </style>

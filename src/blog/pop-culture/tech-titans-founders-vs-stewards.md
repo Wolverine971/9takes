@@ -201,6 +201,18 @@ The founders' scattered ambition was Google's greatest strength and its greatest
 
 The cost: Google no longer feels like the future. Apple's 1→1 succession preserved the company's soul. Google's founders→9 succession changed it. Apple is still about uncompromising standards. Google is no longer about moonshots. It's about maintaining what already works—and hoping that's enough.
 
+<!-- COMBO-BLOG-CROSSLINK
+TODO (round-2 author): Replace this comment with a live callout linking to the Google deep-dive combo blog once it ships.
+Planned slug: /pop-culture/google-leadership-evolution
+Planning brief: docs/seo/google-leadership-evolution-blog-brief-2026-05-07.md
+The combo blog covers what this section can't: the wing asymmetry between Page (5w6) and Brin (5w7), what Google culture felt like internally in each era (TGIF, "Don't Be Evil" funeral, layoff-by-email), and the founder return arc (Brin at Google daily since 2023, Page back from Fiji, the I/O 2025 AGI declaration).
+Suggested replacement copy:
+
+> **Going deeper:** The Google story has a third act this section doesn't fit. Page (5w6) and Brin (5w7) didn't stay retired. When ChatGPT shipped, the founders came back — and Google became the only Big Tech company where that happened. Read the full personality breakdown of all three eras → [Google's Three Personality Eras](/pop-culture/google-leadership-evolution).
+
+Also when the combo blog ships, update the succession table on line ~60 of this file: change `Page & Brin (Type 5s)` to `Page (5w6) & Brin (5w7)` for sharper accuracy.
+-->
+
 ## The Counter-Example: When a Different Type Is the Right Call
 
 The four stories above might suggest that same-type succession is always best. It isn't.

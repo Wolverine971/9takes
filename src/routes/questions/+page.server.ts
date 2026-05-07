@@ -5,10 +5,12 @@ import {
 	buildQuestionCategorySlug
 } from '$lib/utils/questionCategorySlug';
 import {
+	buildQuestionCategoryPathRows,
 	buildVisibleQuestionCategoryTree,
 	listQuestionCategoriesWithDirectQuestions,
 	type QuestionCategoryRow,
-	type QuestionCategoryTagRow
+	type QuestionCategoryTagRow,
+	type QuestionCategoryTreeNode
 } from '$lib/server/questionCategoryTree';
 import { searchQuestionsTypeahead } from '$lib/server/questionSearch';
 import { z } from 'zod';
@@ -22,6 +24,25 @@ import { replaceQuestionTags } from '../../utils/server/openai';
 const QUESTIONS_PER_PAGE = 20;
 
 type ActiveQuestionRow = { id: number };
+type QuestionCategoryPathCrumb = {
+	id: number;
+	category_name: string;
+	slug?: string | null;
+	level: number;
+};
+type QuestionCategoryPath = {
+	id: number;
+	category_name: string;
+	slug?: string | null;
+	path: QuestionCategoryPathCrumb[];
+	display_path: QuestionCategoryPathCrumb[];
+	path_label: string;
+};
+type QuestionCategoryContext = {
+	categoryTree: QuestionCategoryTreeNode[];
+	categoryTags: QuestionCategoryTagRow[];
+	categoryPathById: Map<number, QuestionCategoryPath>;
+};
 
 // Type for the RPC response
 interface QuestionsPageData {
@@ -104,47 +125,12 @@ export const load: PageServerLoad = async (event) => {
 			}
 		}
 
-		const modernBrowseCategoriesPromise =
+		const categoryContextPromise =
 			demo_time === true
-				? Promise.resolve<QuestionsPageData['categories'] | null>(null)
-				: Promise.all([
-						supabase
-							.from('question_categories')
-							.select('id, category_name, slug, parent_id, level')
-							.order('id', { ascending: true }),
-						supabase.from('question_category_tags').select('question_id, tag_id'),
-						supabase.from('questions').select('id').eq('removed', false)
-					]).then(([categoriesResult, categoryTagsResult, activeQuestionsResult]) => {
-						if (categoriesResult.error || categoryTagsResult.error || activeQuestionsResult.error) {
-							console.log({
-								categoriesError: categoriesResult.error,
-								categoryTagsError: categoryTagsResult.error,
-								activeQuestionsError: activeQuestionsResult.error
-							});
-							return null;
-						}
+				? Promise.resolve<QuestionCategoryContext | null>(null)
+				: loadQuestionCategoryContext(supabase, 'questions', { includeTree: true });
 
-						const activeQuestionIds = new Set(
-							(activeQuestionsResult.data as ActiveQuestionRow[] | null)?.map(
-								(question) => question.id
-							) ?? []
-						);
-						const categoryTree = buildVisibleQuestionCategoryTree(
-							(categoriesResult.data as QuestionCategoryRow[] | null) ?? [],
-							(categoryTagsResult.data as QuestionCategoryTagRow[] | null) ?? [],
-							activeQuestionIds
-						);
-
-						return listQuestionCategoriesWithDirectQuestions(categoryTree)
-							.map((category) => ({
-								id: category.id,
-								category_name: category.category_name,
-								slug: category.slug ?? null
-							}))
-							.sort((a, b) => a.category_name.localeCompare(b.category_name));
-					});
-
-		const [pageDataResult, modernBrowseCategories] = await Promise.all([
+		const [pageDataResult, categoryContext] = await Promise.all([
 			// Use optimized RPC function that combines all queries
 			// eslint-disable-next-line @typescript-eslint/no-explicit-any
 			(supabase.rpc as any)('get_questions_page_data', {
@@ -153,7 +139,7 @@ export const load: PageServerLoad = async (event) => {
 				p_offset: (page - 1) * QUESTIONS_PER_PAGE,
 				p_category_id: undefined
 			}),
-			modernBrowseCategoriesPromise
+			categoryContextPromise
 		]);
 
 		const { data: rawPageData, error: pageDataError } = pageDataResult;
@@ -166,16 +152,24 @@ export const load: PageServerLoad = async (event) => {
 		}
 
 		const pageData = rawPageData as QuestionsPageData | null;
-		const visibleBrowseCategories = modernBrowseCategories ?? pageData?.categories ?? [];
+		const visibleBrowseCategories = categoryContext?.categoryTree.length
+			? listQuestionCategoriesWithDirectQuestions(categoryContext.categoryTree).map((category) => ({
+					id: category.id,
+					category_name: category.category_name,
+					slug: category.slug ?? null
+				}))
+			: (pageData?.categories ?? []);
+		const questions = demo_time
+			? mapDemoValues(pageData?.questions || [])
+			: decorateQuestionsWithCategoryPaths(pageData?.questions || [], categoryContext);
 
 		// Process the data
 		const processedData = {
 			user: session?.user,
 			canAskQuestion: pageData?.canAskQuestion || false,
+			categoryTree: categoryContext?.categoryTree ?? [],
 			subcategoryTags: visibleBrowseCategories,
-			questionsAndTags: demo_time
-				? mapDemoValues(pageData?.questions || [])
-				: pageData?.questions || [],
+			questionsAndTags: questions,
 			totalQuestions: pageData?.totalQuestions || 0,
 			totalAnswers: pageData?.totalAnswers || 0,
 			currentPage: page,
@@ -251,9 +245,17 @@ export const actions: Actions = {
 			}
 
 			const pageData = rawPageData as QuestionsPageData | null;
+			const questions = demo_time
+				? mapDemoValues(pageData?.questions || [])
+				: decorateQuestionsWithCategoryPaths(
+						pageData?.questions || [],
+						await loadQuestionCategoryContext(supabase, 'questions', {
+							questionIds: (pageData?.questions || []).map((question) => question.id)
+						})
+					);
 
 			return {
-				questions: demo_time ? mapDemoValues(pageData?.questions || []) : pageData?.questions || [],
+				questions,
 				hasMore: (pageData?.questions || []).length === QUESTIONS_PER_PAGE,
 				page
 			};
@@ -438,3 +440,165 @@ export const actions: Actions = {
 		}
 	}
 };
+
+async function loadQuestionCategoryContext(
+	supabase: App.Locals['supabase'],
+	questionTable: 'questions',
+	options: { includeTree?: boolean; questionIds?: number[] } = {}
+): Promise<QuestionCategoryContext | null> {
+	const questionIds =
+		options.questionIds?.filter((questionId) => Number.isFinite(questionId)) ?? null;
+	const categoryTagsPromise =
+		questionIds && questionIds.length === 0
+			? Promise.resolve({ data: [], error: null })
+			: questionIds
+				? supabase
+						.from('question_category_tags')
+						.select('question_id, tag_id')
+						.in('question_id', questionIds)
+				: supabase.from('question_category_tags').select('question_id, tag_id');
+
+	const activeQuestionsPromise = options.includeTree
+		? supabase.from(questionTable).select('id').eq('removed', false)
+		: Promise.resolve({ data: [], error: null });
+
+	const [categoriesResult, categoryTagsResult, activeQuestionsResult] = await Promise.all([
+		supabase
+			.from('question_categories')
+			.select('id, category_name, slug, parent_id, level')
+			.order('id', { ascending: true }),
+		categoryTagsPromise,
+		activeQuestionsPromise
+	]);
+
+	if (categoriesResult.error || categoryTagsResult.error || activeQuestionsResult.error) {
+		console.log({
+			categoriesError: categoriesResult.error,
+			categoryTagsError: categoryTagsResult.error,
+			activeQuestionsError: activeQuestionsResult.error
+		});
+		return null;
+	}
+
+	const categories = (categoriesResult.data as QuestionCategoryRow[] | null) ?? [];
+	const categoryTags = (categoryTagsResult.data as QuestionCategoryTagRow[] | null) ?? [];
+	const activeQuestionIds = new Set(
+		(activeQuestionsResult.data as ActiveQuestionRow[] | null)?.map((question) => question.id) ?? []
+	);
+
+	return {
+		categoryTree: options.includeTree
+			? buildVisibleQuestionCategoryTree(categories, categoryTags, activeQuestionIds)
+			: [],
+		categoryTags,
+		categoryPathById: buildCategoryPathLookup(categories)
+	};
+}
+
+function buildCategoryPathLookup(
+	categories: QuestionCategoryRow[]
+): Map<number, QuestionCategoryPath> {
+	const categoryPathById = new Map<number, QuestionCategoryPath>();
+
+	for (const category of categories) {
+		const path = buildQuestionCategoryPathRows(categories, category.id).map((pathCategory) => ({
+			id: pathCategory.id,
+			category_name: pathCategory.category_name,
+			slug: pathCategory.slug ?? null,
+			level: pathCategory.level ?? 0
+		}));
+		const displayPath = path.length > 2 ? path.slice(1) : path;
+
+		categoryPathById.set(category.id, {
+			id: category.id,
+			category_name: category.category_name,
+			slug: category.slug ?? null,
+			path,
+			display_path: displayPath,
+			path_label: path.map((pathCategory) => pathCategory.category_name).join(' / ')
+		});
+	}
+
+	return categoryPathById;
+}
+
+function decorateQuestionsWithCategoryPaths<T extends QuestionsPageData['questions'][number]>(
+	questions: T[],
+	categoryContext: QuestionCategoryContext | null
+): Array<T & { category_paths: QuestionCategoryPath[] }> {
+	const tagRowsByQuestionId = new Map<number, QuestionCategoryTagRow[]>();
+
+	for (const tagRow of categoryContext?.categoryTags ?? []) {
+		const currentRows = tagRowsByQuestionId.get(tagRow.question_id) ?? [];
+		currentRows.push(tagRow);
+		tagRowsByQuestionId.set(tagRow.question_id, currentRows);
+	}
+
+	return questions.map((question) => {
+		const categoryPaths = (tagRowsByQuestionId.get(question.id) ?? [])
+			.map((tagRow) => categoryContext?.categoryPathById.get(tagRow.tag_id))
+			.filter((path): path is QuestionCategoryPath => Boolean(path));
+
+		if (!categoryPaths.length && question.tag_id && question.tag_name) {
+			const fallbackPath = categoryContext?.categoryPathById.get(question.tag_id);
+			if (fallbackPath) {
+				categoryPaths.push(fallbackPath);
+			}
+		}
+
+		if (!categoryPaths.length && question.tag_name) {
+			categoryPaths.push(buildLegacyQuestionCategoryPath(question));
+		}
+
+		const deepestCategoryPaths = keepDeepestQuestionCategoryPaths(categoryPaths);
+
+		return {
+			...question,
+			tag_id: deepestCategoryPaths[0]?.id ?? question.tag_id,
+			tag_name: deepestCategoryPaths[0]?.category_name ?? question.tag_name,
+			category_paths: deepestCategoryPaths
+		};
+	});
+}
+
+function buildLegacyQuestionCategoryPath(
+	question: QuestionsPageData['questions'][number]
+): QuestionCategoryPath {
+	const id = question.tag_id ?? 0;
+	const crumb = {
+		id,
+		category_name: question.tag_name ?? '',
+		slug: null,
+		level: 0
+	};
+
+	return {
+		id,
+		category_name: question.tag_name ?? '',
+		slug: null,
+		path: [crumb],
+		display_path: [crumb],
+		path_label: question.tag_name ?? ''
+	};
+}
+
+function keepDeepestQuestionCategoryPaths(paths: QuestionCategoryPath[]): QuestionCategoryPath[] {
+	const uniquePaths = Array.from(new Map(paths.map((path) => [path.id, path])).values());
+
+	return uniquePaths
+		.filter(
+			(candidatePath) =>
+				!uniquePaths.some(
+					(otherPath) =>
+						otherPath.id !== candidatePath.id &&
+						otherPath.path.some((pathCategory) => pathCategory.id === candidatePath.id)
+				)
+		)
+		.sort((a, b) => {
+			if (a.path.length !== b.path.length) {
+				return b.path.length - a.path.length;
+			}
+
+			return a.path_label.localeCompare(b.path_label);
+		});
+}

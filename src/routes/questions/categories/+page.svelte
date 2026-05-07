@@ -1,6 +1,13 @@
 <!-- src/routes/questions/categories/+page.svelte -->
+<!--
+  /questions/categories — Streetlamp Symposium V5 library shelf.
+  Visual ground truth: /questions, /design-preview/v5.
+  Tokens (--lamp-*, --night-*, --stone-*, --ink-*, --data-*, --pool-rgb)
+  live globally in src/scss/index.scss.
+-->
 <script lang="ts">
 	import CategoryBrowseBranch from '$lib/components/questions/CategoryBrowseBranch.svelte';
+	import { Button, SectionKicker } from '$lib/components/atoms';
 	import type { PageData } from './$types';
 
 	type BrowseCategoryNode = {
@@ -96,231 +103,271 @@
 	</script>
 </svelte:head>
 
-<div class="page-shell">
-	<div class="page-inner">
-		<header class="hero">
-			<p class="eyebrow">Question Library</p>
-			<h1>Categories With Live Questions</h1>
-			<p class="lede">
-				This tree only shows branches that currently lead to real questions. Empty categories are
-				hidden so the browse view stays tight and useful.
-			</p>
+<div class="categories-page">
+	<!-- =====================================================================
+	  §01 LIBRARY — hero
+	  ===================================================================== -->
+	<section class="hero">
+		<div class="grain" aria-hidden="true"></div>
+		<div class="hero-pool" aria-hidden="true"></div>
 
-			<div class="hero-actions">
-				<a href="/questions" class="hero-link hero-link-primary">Browse all questions</a>
-				<a href="/questions/create" class="hero-link">Ask a question</a>
+		<div class="hero-inner">
+			<SectionKicker class="section-tag" num="01" label="LIBRARY" />
+			<h1 class="display-xl">The question library.</h1>
+			<p class="hero-sub">
+				Every live category, sorted by shelf. Empty branches stay closed &mdash; what you see has
+				questions waiting underneath.
+			</p>
+			<p class="mono hero-meta">
+				OPEN · {totalVisibleCategories}
+				{totalVisibleCategories === 1 ? 'CATEGORY' : 'CATEGORIES'} · {totalVisibleRoots}
+				{totalVisibleRoots === 1 ? 'SHELF' : 'SHELVES'}
+			</p>
+			<div class="hero-ctas">
+				<Button size="md" variant="primary" href="/questions">Browse open questions →</Button>
+				<Button size="md" variant="ghost" href="/questions/create">Ask a question</Button>
 			</div>
+		</div>
+	</section>
 
-			<p class="hero-stats" aria-label="Category totals">
-				<strong>{totalVisibleCategories}</strong>
-				{totalVisibleCategories === 1 ? 'category' : 'categories'} across
-				<strong>{totalVisibleRoots}</strong>
-				{totalVisibleRoots === 1 ? 'topic group' : 'topic groups'}
-			</p>
-
-			<p class="tree-note">
-				Each count includes every live question nested underneath that branch — bigger pills mean
-				more questions to dig into.
-				<a class="hero-link-inline" href="/questions">Or filter the questions feed →</a>
+	<!-- =====================================================================
+	  §02 SHELVES — recursive category tree
+	  ===================================================================== -->
+	<section class="shelves">
+		<header class="shelves-header">
+			<SectionKicker class="section-tag" num="02" label="THE STACKS" />
+			<h2 class="display-md">Browse by shelf.</h2>
+			<p class="shelves-sub">
+				Counts include every live question nested underneath. Drill in until you find the question
+				you're circling.
 			</p>
 		</header>
 
-		{#if categoryTree.length === 0}
-			<section class="empty-state">
-				<h2>No categories with live questions yet.</h2>
-				<p>
-					Once questions are tagged into the new category tree, they will appear here automatically.
-				</p>
-			</section>
-		{:else}
-			<div class="root-stack">
-				{#each categoryTree as rootCategory (rootCategory.id)}
-					<CategoryBrowseBranch category={rootCategory} />
-				{/each}
-			</div>
-		{/if}
-	</div>
+		<div class="shelves-body">
+			{#if categoryTree.length === 0}
+				<div class="empty-state">
+					<p class="mono empty-state-label">SHELVES · EMPTY</p>
+					<p class="empty-state-body">
+						Once questions are tagged into the new category tree, they will appear here
+						automatically.
+					</p>
+				</div>
+			{:else}
+				<div class="shelf-stack">
+					{#each categoryTree as rootCategory (rootCategory.id)}
+						<CategoryBrowseBranch category={rootCategory} />
+					{/each}
+				</div>
+			{/if}
+		</div>
+	</section>
 </div>
 
 <style lang="scss">
-	.page-shell {
+	/* =========================================================
+	  /questions/categories — V5 library layout.
+	  Bridge tokens ship globally from src/scss/index.scss.
+	  ========================================================= */
+	.categories-page {
+		--pool-alpha-strong: 0.22;
+		--pool-alpha-mid: 0.14;
+		--pool-alpha-soft: 0.06;
+		--grain-opacity: 0.05;
+
+		background: var(--night-deep);
+		color: var(--ink-bright);
+		font-family: var(--font-display);
 		min-height: 100vh;
-		background:
-			radial-gradient(
-				circle at top,
-				color-mix(in srgb, var(--accent-soft) 48%, transparent) 0%,
-				transparent 36%
-			),
-			linear-gradient(
-				180deg,
-				color-mix(in srgb, var(--night-deep) 88%, var(--night-deep)) 0%,
-				var(--night-deep) 100%
-			);
+		position: relative;
+		overflow: hidden;
+
+		:global(:root.light) & {
+			--pool-alpha-strong: 0.12;
+			--pool-alpha-mid: 0.06;
+			--pool-alpha-soft: 0.03;
+			--grain-opacity: 0.025;
+		}
 	}
 
-	.page-inner {
-		max-width: 1100px;
-		margin: 0 auto;
-		padding: 2.5rem 1rem 4rem;
-	}
-
-	.hero {
-		margin-bottom: 2rem;
-		text-align: center;
-	}
-
-	.eyebrow {
-		margin: 0 0 0.35rem;
-		font-size: 0.72rem;
-		font-weight: 700;
-		letter-spacing: 0.12em;
+	/* ---------- shared utilities ---------- */
+	.categories-page :global(.mono) {
+		font-family: var(--font-mono);
+		font-size: 12px;
+		font-weight: 500;
+		letter-spacing: 0.08em;
 		text-transform: uppercase;
-		color: var(--ink-mid);
+		color: var(--ink-dim);
 	}
 
-	h1,
-	h2,
-	p {
+	.categories-page :global(.section-tag) {
+		display: inline-block;
+		margin-bottom: 14px;
+		color: var(--lamp-glow);
+	}
+
+	.display-xl {
+		font-family: var(--font-display);
+		font-weight: 800;
+		font-size: clamp(36px, 5.4vw, 56px);
+		line-height: 1.05;
+		letter-spacing: -0.035em;
+		color: var(--ink-bright);
 		margin: 0;
 	}
 
-	h1,
-	h2 {
-		color: var(--ink-bright);
-		line-height: 1.15;
-	}
-
-	h1 {
-		font-size: clamp(2rem, 4vw, 3.1rem);
-		letter-spacing: -0.03em;
-	}
-
-	.lede {
-		max-width: 760px;
-		margin: 0.95rem auto 0;
-		font-size: 1rem;
-		line-height: 1.7;
-		color: var(--ink-mid);
-	}
-
-	.hero-stats {
-		margin: 1.1rem auto 0;
-		max-width: 42rem;
-		font-size: 0.95rem;
-		line-height: 1.6;
-		color: var(--ink-mid);
-	}
-
-	.hero-stats strong {
-		color: var(--ink-bright);
+	.display-md {
+		font-family: var(--font-display);
 		font-weight: 700;
+		font-size: clamp(24px, 3vw, 32px);
+		line-height: 1.15;
+		letter-spacing: -0.02em;
+		color: var(--ink-bright);
+		margin: 0;
 	}
 
-	.hero-link-inline {
-		display: inline-block;
-		margin-left: 0.4rem;
-		color: var(--lamp-glow);
-		font-weight: 600;
-		text-decoration: none;
+	/* ---------- subtle paper grain ---------- */
+	.grain {
+		position: absolute;
+		inset: 0;
+		pointer-events: none;
+		opacity: var(--grain-opacity);
+		mix-blend-mode: overlay;
+		z-index: 1;
+		background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='240' height='240'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='2' stitchTiles='stitch'/><feColorMatrix values='0 0 0 0 0.95 0 0 0 0 0.85 0 0 0 0 0.6 0 0 0 0.7 0'/></filter><rect width='100%' height='100%' filter='url(%23n)'/></svg>");
 	}
 
-	.hero-link-inline:hover {
-		text-decoration: underline;
+	/* =========================================================
+	  §01 HERO
+	  ========================================================= */
+	.hero {
+		position: relative;
+		padding: 72px 48px 56px;
+		background: var(--night-deep);
+		overflow: hidden;
+
+		@media (max-width: 768px) {
+			padding: 48px 20px 40px;
+		}
 	}
 
-	.hero-actions {
+	.hero-pool {
+		position: absolute;
+		inset: 0;
+		pointer-events: none;
+		background: radial-gradient(
+			ellipse 50% 50% at 12% 12%,
+			rgba(var(--pool-rgb), var(--pool-alpha-strong)) 0%,
+			rgba(var(--pool-rgb), var(--pool-alpha-soft)) 32%,
+			transparent 60%
+		);
+		z-index: 0;
+	}
+
+	.hero-inner {
+		position: relative;
+		z-index: 2;
+		max-width: 880px;
+		margin: 0 auto;
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+		gap: 14px;
+	}
+
+	.hero-sub {
+		font-family: var(--font-display);
+		font-size: 17px;
+		line-height: 1.55;
+		color: var(--ink-mid);
+		max-width: 640px;
+		margin: 0;
+
+		@media (max-width: 540px) {
+			font-size: 15px;
+		}
+	}
+
+	.hero-meta {
+		color: var(--ink-dim);
+		margin: 0;
+	}
+
+	.hero-ctas {
 		display: flex;
 		flex-wrap: wrap;
-		justify-content: center;
-		gap: 0.75rem;
-		margin-top: 1.25rem;
+		gap: 12px;
+		margin-top: 6px;
 	}
 
-	.hero-link {
-		display: inline-flex;
-		align-items: center;
-		justify-content: center;
-		padding: 0.8rem 1.05rem;
-		border-radius: 999px;
-		border: 1px solid color-mix(in srgb, var(--lamp-glow) 18%, var(--stone-edge));
-		background: color-mix(in srgb, var(--stone-warm) 84%, var(--night-deep));
-		color: var(--ink-bright);
-		font-weight: 700;
-		text-decoration: none;
-		box-shadow: var(--shadow-sm);
-		transition:
-			transform 0.18s ease,
-			border-color 0.18s ease,
-			box-shadow 0.18s ease;
+	/* =========================================================
+	  §02 SHELVES
+	  ========================================================= */
+	.shelves {
+		position: relative;
+		padding: 64px 48px 96px;
+		background: var(--night-mid);
+		border-top: 1px solid var(--stone-edge);
+
+		@media (max-width: 768px) {
+			padding: 48px 20px 72px;
+		}
 	}
 
-	.hero-link:hover {
-		transform: translateY(-1px);
-		border-color: color-mix(in srgb, var(--lamp-glow) 34%, var(--stone-edge));
-		box-shadow: var(--shadow-md);
+	.shelves-header {
+		max-width: 880px;
+		margin: 0 auto 32px;
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+		gap: 10px;
 	}
 
-	.hero-link-primary {
-		background: linear-gradient(
-			135deg,
-			color-mix(in srgb, var(--lamp-glow) 78%, white 22%),
-			color-mix(in srgb, var(--lamp-glow) 88%, black 12%)
-		);
-		color: white;
-		border-color: color-mix(in srgb, var(--lamp-glow) 72%, transparent);
-	}
-
-	.root-stack {
-		display: grid;
-		gap: 1.25rem;
-	}
-
-	.tree-note {
-		max-width: 42rem;
-		margin: 1rem auto 0;
-		font-size: 0.94rem;
-		line-height: 1.6;
+	.shelves-sub {
+		font-family: var(--font-display);
+		font-size: 15px;
+		line-height: 1.55;
 		color: var(--ink-mid);
+		max-width: 580px;
+		margin: 0;
 	}
 
+	.shelves-body {
+		max-width: 880px;
+		margin: 0 auto;
+	}
+
+	.shelf-stack {
+		display: flex;
+		flex-direction: column;
+	}
+
+	/* =========================================================
+	  Empty state
+	  ========================================================= */
 	.empty-state {
-		padding: 1.4rem;
-		border-radius: 1.2rem;
-		border: 1px solid color-mix(in srgb, var(--lamp-glow) 14%, var(--stone-edge));
-		background: color-mix(in srgb, var(--stone-warm) 90%, var(--night-deep));
+		max-width: 560px;
+		margin: 0 auto;
+		padding: 40px 28px;
 		text-align: center;
-		box-shadow: var(--shadow-sm);
+		border: 1px dashed var(--stone-edge);
+		border-radius: 12px;
+		background: var(--stone-warm);
+		display: flex;
+		flex-direction: column;
+		gap: 10px;
+		align-items: center;
 	}
 
-	.empty-state p {
-		margin-top: 0.65rem;
+	.empty-state-label {
+		color: var(--lamp-glow);
+		margin: 0;
+	}
+
+	.empty-state-body {
+		font-family: var(--font-display);
+		font-size: 15px;
+		line-height: 1.5;
 		color: var(--ink-mid);
-		line-height: 1.6;
-	}
-
-	@media (max-width: 720px) {
-		.page-inner {
-			padding-top: 2rem;
-		}
-
-		.hero-link {
-			flex: 1 1 100%;
-		}
-
-		.tree-note {
-			font-size: 0.9rem;
-		}
-	}
-
-	@media (max-width: 480px) {
-		.page-inner {
-			padding-left: 0.85rem;
-			padding-right: 0.85rem;
-			padding-bottom: 3rem;
-		}
-
-		.hero {
-			margin-bottom: 1.5rem;
-		}
+		margin: 0;
 	}
 </style>

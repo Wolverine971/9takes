@@ -2,16 +2,13 @@
 <script lang="ts">
 	import { createEventDispatcher } from 'svelte';
 	import { deserialize } from '$app/forms';
-	import { fade, slide } from 'svelte/transition';
+	import { slide } from 'svelte/transition';
 	import { getOrCreateVisitorId } from '$lib/analytics/visitorIdentity';
 	import { notifications } from '$lib/components/molecules/notifications';
-	import Card from '$lib/components/atoms/card.svelte';
 	import Comments from '$lib/components/molecules/Comments.svelte';
 	import Modal, { getModal } from '$lib/components/atoms/Modal.svelte';
 	import Popover from '$lib/components/atoms/Popover.svelte';
-	import DownIcon from '$lib/components/icons/downIcon.svelte';
 	import MasterCommentIcon from '$lib/components/icons/masterCommentIcon.svelte';
-	import RightIcon from '$lib/components/icons/rightIcon.svelte';
 	import ThumbsUpIcon from '$lib/components/icons/thumbsUpIcon.svelte';
 	import SettingsIcon from '$lib/components/icons/settingsIcon.svelte';
 	import type {
@@ -20,7 +17,6 @@
 		CommentLike,
 		QuestionPageData
 	} from '$lib/types/questions';
-	import { viewportWidth } from '$lib/stores/viewport';
 
 	const dispatch = createEventDispatcher<{
 		commentAdded: CommentType;
@@ -40,15 +36,12 @@
 	// Cached visitor id for replies
 	let cachedFingerprint: string | null = null;
 
-	// Use shared viewport store
-	$: innerWidth = $viewportWidth;
 	let newcomment = '';
 	let commenting = false;
 	let anonymousComment = false;
 	let commentEdit = '';
 	let flaggingReasonDescription = '';
 	let flaggingReasonId = '';
-	let isHovered = false;
 	let isExpanded = false;
 	let flagError = '';
 	let showReplies = false;
@@ -377,7 +370,7 @@
 
 {#if _commentComment}
 	<div
-		class="group relative rounded-xl border border-[var(--stone-warm)] bg-[var(--stone-warm)] transition-all duration-200 hover:border-[var(--primary-subtle)] hover:shadow-[var(--glow-sm)]"
+		class="group relative rounded-xl border border-[var(--stone-edge)] bg-[var(--stone-warm)] transition-all duration-200 hover:border-[var(--lamp-soft)] hover:shadow-[var(--glow-sm)]"
 	>
 		<div class="flex flex-col">
 			<div class="flex w-full flex-col">
@@ -389,14 +382,14 @@
 							{#if _commentComment?.profiles?.enneagram && _commentComment?.profiles?.external_id}
 								<a
 									title="View profile"
-									class="inline-flex h-8 items-center justify-center rounded-md bg-primary-600 px-3 text-xs font-semibold text-white transition-all duration-200 hover:bg-primary-700"
+									class="inline-flex h-7 items-center justify-center rounded-md bg-[var(--lamp-glow)] px-2.5 text-xs font-semibold text-white transition-colors duration-200 hover:bg-[var(--lamp-deep)]"
 									href={`/users/${_commentComment.profiles.external_id}`}
 								>
-									Type {_commentComment?.profiles?.enneagram || 'Rando'}
+									Type {_commentComment?.profiles?.enneagram}
 								</a>
 							{:else}
 								<span
-									class="inline-flex h-8 items-center justify-center rounded-md bg-[var(--stone-warm)] px-3 text-xs font-medium text-[var(--ink-mid)]"
+									class="inline-flex h-7 items-center justify-center rounded-md border border-[var(--stone-edge)] bg-[var(--stone-mid)] px-2.5 text-xs font-medium text-[var(--ink-mid)]"
 								>
 									Anonymous
 								</span>
@@ -404,15 +397,12 @@
 
 							<!-- Timestamp -->
 							<span class="flex items-center gap-1.5 text-xs text-[var(--ink-dim)]">
-								{#if _commentComment.modified_at}
-									<span
-										class="inline-flex h-3.5 w-3.5 items-center justify-center rounded-sm bg-[var(--primary-subtle)] text-[9px] font-bold text-[var(--lamp-glow)]"
-										title="Modified">M</span
-									>
-								{/if}
 								<time itemprop="dateCreated" datetime={createdOrModifiedAt}>
 									{createdOrModifiedAt}
 								</time>
+								{#if _commentComment.modified_at}
+									<span class="italic text-[var(--ink-dim)]" title="Edited">· edited</span>
+								{/if}
 							</span>
 						</div>
 					</div>
@@ -431,7 +421,7 @@
 						{#if shouldTruncate && !isExpanded}
 							<button
 								type="button"
-								class="mt-1 text-sm font-medium text-[var(--lamp-glow)] transition-all duration-200 hover:text-[var(--lamp-glow)]"
+								class="mt-1 text-sm font-medium text-[var(--lamp-glow)] transition-colors duration-200 hover:text-[var(--lamp-light)]"
 								on:click={toggleExpandText}
 							>
 								Read more
@@ -451,11 +441,11 @@
 								? `Unlike this comment (${likes.length} likes)`
 								: `Like this comment${likes.length > 0 ? ` (${likes.length} likes)` : ''}`}
 							aria-pressed={likes.some((e) => e.user_id === user?.id)}
-							class="flex min-h-11 items-center gap-1.5 rounded-md px-3 py-2 text-sm transition-all duration-200 {likes.some(
+							class="flex min-h-11 items-center gap-1.5 rounded-md px-3 py-2 text-sm transition-colors duration-200 {likes.some(
 								(e) => e.user_id === user?.id
 							)
-								? 'bg-[var(--primary-subtle)] text-[var(--lamp-glow)]'
-								: 'text-[var(--ink-mid)] hover:bg-[var(--stone-warm)]'}"
+								? 'bg-[var(--lamp-soft)] text-[var(--lamp-glow)]'
+								: 'text-[var(--ink-mid)] hover:bg-[var(--stone-mid)] hover:text-[var(--ink-bright)]'}"
 							on:click={toggleLike}
 						>
 							<ThumbsUpIcon className="w-3.5 h-3.5" />
@@ -472,7 +462,7 @@
 							title="Reply to this comment"
 							aria-label={commenting ? 'Hide reply form' : 'Reply to this comment'}
 							aria-expanded={commenting}
-							class="flex min-h-11 items-center gap-1.5 rounded-md px-3 py-2 text-sm text-[var(--ink-mid)] transition-all duration-200 hover:bg-[var(--stone-warm)]"
+							class="flex min-h-11 items-center gap-1.5 rounded-md px-3 py-2 text-sm text-[var(--ink-mid)] transition-colors duration-200 hover:bg-[var(--stone-mid)] hover:text-[var(--ink-bright)]"
 							on:click={() => (commenting = !commenting)}
 						>
 							<MasterCommentIcon
@@ -486,7 +476,7 @@
 							<Popover position="bottom-right">
 								<svelte:fragment slot="icon">
 									<div
-										class="flex h-11 w-11 items-center justify-center rounded-md transition-colors duration-200 hover:bg-[var(--stone-warm)]"
+										class="flex h-11 w-11 items-center justify-center rounded-md transition-colors duration-200 hover:bg-[var(--stone-mid)]"
 									>
 										<SettingsIcon className="w-4 h-4 text-[var(--ink-dim)]" />
 									</div>
@@ -497,7 +487,7 @@
 										{#if user?.id === _commentComment.author_id}
 											<button
 												type="button"
-												class="w-full rounded-md px-3 py-2 text-left text-sm text-[var(--ink-mid)] transition-colors duration-200 hover:bg-[var(--primary-subtle)] hover:text-[var(--ink-bright)]"
+												class="w-full rounded-md px-3 py-2 text-left text-sm text-[var(--ink-mid)] transition-colors duration-200 hover:bg-[var(--lamp-soft)] hover:text-[var(--ink-bright)]"
 												on:click={() => getModal(`edit-modal-${_commentComment.id}`).open()}
 											>
 												Edit Comment
@@ -523,20 +513,20 @@
 		<!-- Reply form -->
 		{#if commenting}
 			<div
-				class="border-t border-[var(--stone-warm)] bg-[var(--night-deep)] p-4 sm:p-3"
+				class="border-t border-[var(--stone-edge)] bg-[var(--night-deep)] p-3"
 				transition:slide={{ duration: 300 }}
 			>
 				<div class="mb-3">
 					<textarea
 						placeholder="Share your perspective — what's your experience with this? The more detail, the better the conversation."
-						class="w-full resize-y rounded-md border border-[var(--stone-warm)] bg-[var(--stone-warm)] p-3 text-base text-[var(--ink-bright)] placeholder-[var(--ink-dim)] focus:border-[var(--lamp-glow)] focus:outline-none focus:ring-2 focus:ring-[var(--primary-subtle)]"
+						class="w-full resize-y rounded-md border border-[var(--stone-edge)] bg-[var(--stone-warm)] p-3 text-base text-[var(--ink-bright)] placeholder-[var(--ink-dim)] focus:border-[var(--lamp-glow)] focus:outline-none focus:ring-2 focus:ring-[var(--lamp-soft)]"
 						bind:value={newcomment}
 						rows="3"
 					></textarea>
 				</div>
-				<div class="flex justify-end gap-2 sm:flex-row">
+				<div class="flex justify-end gap-2">
 					<button
-						class="rounded-md border border-[var(--stone-warm)] bg-transparent px-4 py-2 text-sm font-medium text-[var(--ink-mid)] transition-all duration-200 hover:bg-[var(--stone-warm)] hover:text-[var(--ink-bright)] active:scale-[0.98] sm:px-3 sm:py-1.5"
+						class="rounded-md border border-[var(--stone-edge)] bg-transparent px-3 py-1.5 text-sm font-medium text-[var(--ink-mid)] transition-colors duration-200 hover:bg-[var(--stone-mid)] hover:text-[var(--ink-bright)] active:scale-[0.98]"
 						type="button"
 						on:click={() => {
 							commenting = false;
@@ -546,7 +536,7 @@
 						Cancel
 					</button>
 					<button
-						class="flex items-center justify-center gap-2 rounded-md bg-[var(--lamp-glow)] px-4 py-2 text-sm font-medium text-white transition-colors duration-200 hover:bg-[var(--lamp-glow)] active:scale-[0.98] disabled:cursor-not-allowed disabled:opacity-40 sm:px-3 sm:py-1.5"
+						class="flex items-center justify-center gap-2 rounded-md bg-[var(--lamp-glow)] px-3 py-1.5 text-sm font-semibold text-white transition-colors duration-200 hover:bg-[var(--lamp-deep)] active:scale-[0.98] disabled:cursor-not-allowed disabled:opacity-40"
 						type="button"
 						on:click={createReply}
 						disabled={loading || !newcomment?.trim()}
@@ -565,11 +555,11 @@
 
 		<!-- Replies toggle and nested comments -->
 		{#if _commentComment.comment_count > 0}
-			<div class="border-t border-[var(--stone-warm)]">
+			<div class="border-t border-[var(--stone-edge)]">
 				<!-- Reply thread toggle -->
 				<button
 					type="button"
-					class="group/toggle hover:bg-[var(--stone-warm)]/50 flex w-full items-center gap-2 px-3 py-2 text-left transition-colors duration-200"
+					class="group/toggle flex w-full items-center gap-2 px-3 py-2 text-left transition-colors duration-200 hover:bg-[var(--stone-mid)]"
 					on:click={toggleReplies}
 					disabled={loadingComments}
 					aria-expanded={showReplies}
@@ -579,11 +569,11 @@
 					<div class="flex h-5 w-5 items-center justify-center">
 						{#if loadingComments}
 							<div
-								class="h-3.5 w-3.5 animate-spin rounded-full border-2 border-[var(--primary-subtle)] border-t-[var(--lamp-glow)]"
+								class="h-3.5 w-3.5 animate-spin rounded-full border-2 border-[var(--lamp-soft)] border-t-[var(--lamp-glow)]"
 							></div>
 						{:else}
 							<svg
-								class="h-4 w-4 text-[var(--ink-dim)] transition-transform duration-200 group-hover/toggle:text-[var(--lamp-glow)] {showReplies
+								class="h-4 w-4 text-[var(--ink-dim)] transition-all duration-200 group-hover/toggle:text-[var(--lamp-glow)] {showReplies
 									? 'rotate-90'
 									: ''}"
 								fill="none"
@@ -607,22 +597,17 @@
 						{_commentComment.comment_count}
 						{_commentComment.comment_count === 1 ? 'reply' : 'replies'}
 					</span>
-
-					<!-- Visual indicator of nested content -->
-					{#if !showReplies && _commentComment?.comments?.length}
-						<span class="text-xs text-[var(--ink-dim)]">(loaded)</span>
-					{/if}
 				</button>
 
 				<!-- Nested comments container -->
 				{#if showReplies && _commentComment?.comments?.length}
 					<div
-						class="relative ml-3 border-l-2 border-[var(--primary-subtle)] pl-4 pt-1 sm:ml-2 sm:pl-3"
+						class="relative ml-3 border-l-2 border-[var(--lamp-soft)] pb-2 pl-4 pt-2 sm:ml-2 sm:pl-3"
 						transition:slide={{ duration: 200 }}
 					>
 						<!-- Thread connector dot -->
 						<div
-							class="absolute -left-[5px] top-0 h-2 w-2 rounded-full bg-[var(--lamp-glow)]"
+							class="absolute -left-[5px] top-0 h-2 w-2 rounded-full bg-[var(--lamp-glow)] shadow-[var(--glow-sm)]"
 						></div>
 
 						<Comments
@@ -661,28 +646,28 @@
 				id="edit-comment-{_commentComment?.id}"
 				rows="6"
 				bind:value={commentEdit}
-				class="w-full resize-y rounded-md border border-[var(--stone-warm)] bg-[var(--stone-warm)] p-4 text-base leading-relaxed text-[var(--ink-bright)] placeholder-[var(--ink-dim)] transition-all duration-200 focus:border-[var(--lamp-glow)] focus:outline-none focus:ring-2 focus:ring-[var(--primary-subtle)]"
+				class="w-full resize-y rounded-md border border-[var(--stone-edge)] bg-[var(--stone-warm)] p-4 text-base leading-relaxed text-[var(--ink-bright)] placeholder-[var(--ink-dim)] transition-colors duration-200 focus:border-[var(--lamp-glow)] focus:outline-none focus:ring-2 focus:ring-[var(--lamp-soft)]"
 				placeholder="Edit your comment..."
 			></textarea>
 		</div>
 
 		<div class="flex flex-col-reverse gap-3 sm:flex-row sm:justify-end">
 			<button
-				class="w-full cursor-pointer rounded-md border border-[var(--stone-warm)] bg-transparent px-6 py-3 text-base font-medium text-[var(--ink-mid)] transition-all duration-200 hover:bg-[var(--stone-warm)] hover:text-[var(--ink-bright)] sm:w-auto"
+				class="w-full cursor-pointer rounded-md border border-[var(--stone-edge)] bg-transparent px-6 py-3 text-base font-medium text-[var(--ink-mid)] transition-colors duration-200 hover:bg-[var(--stone-mid)] hover:text-[var(--ink-bright)] sm:w-auto"
 				type="button"
 				on:click={() => getModal(`edit-modal-${_commentComment?.id}`).close()}
 			>
 				Cancel
 			</button>
 			<button
-				class="flex w-full cursor-pointer items-center justify-center gap-2 rounded-md border-none bg-[var(--lamp-glow)] px-6 py-3 text-base font-medium text-white transition-colors duration-200 hover:bg-[var(--lamp-glow)] active:scale-[0.98] disabled:cursor-not-allowed disabled:opacity-50 sm:w-auto"
+				class="flex w-full cursor-pointer items-center justify-center gap-2 rounded-md border-none bg-[var(--lamp-glow)] px-6 py-3 text-base font-semibold text-white transition-colors duration-200 hover:bg-[var(--lamp-deep)] active:scale-[0.98] disabled:cursor-not-allowed disabled:opacity-50 sm:w-auto"
 				type="button"
 				on:click={saveEdit}
 				disabled={loading || !commentEdit.trim()}
 			>
 				{#if loading}
 					<div
-						class="border-[var(--lamp-glow)]/30 h-5 w-5 animate-spin rounded-full border-2 border-t-white"
+						class="h-5 w-5 animate-spin rounded-full border-2 border-white/30 border-t-white"
 					></div>
 				{:else}
 					Save Changes
@@ -749,10 +734,10 @@
 							aria-describedby={flagError && !flaggingReasonId
 								? `flag-reason-error-${_commentComment?.id}`
 								: undefined}
-							class="w-full cursor-pointer rounded-md border bg-[var(--stone-warm)] p-4 text-base text-[var(--ink-bright)] transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-[var(--primary-subtle)] {flagError &&
+							class="w-full cursor-pointer rounded-md border bg-[var(--stone-warm)] p-4 text-base text-[var(--ink-bright)] transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-[var(--lamp-soft)] {flagError &&
 							!flaggingReasonId
 								? 'border-red-500'
-								: 'border-[var(--stone-warm)] focus:border-[var(--lamp-glow)]'}"
+								: 'border-[var(--stone-edge)] focus:border-[var(--lamp-glow)]'}"
 						>
 							<option value="" disabled selected>Select a reason...</option>
 							{#each flagReasons as reason}
@@ -802,7 +787,7 @@
 						id={`flag-description-${_commentComment?.id}`}
 						rows="4"
 						bind:value={flaggingReasonDescription}
-						class="w-full resize-y rounded-md border border-[var(--stone-warm)] bg-[var(--stone-warm)] p-4 text-base leading-relaxed text-[var(--ink-bright)] placeholder-[var(--ink-dim)] transition-all duration-200 focus:border-[var(--lamp-glow)] focus:outline-none focus:ring-2 focus:ring-[var(--primary-subtle)]"
+						class="w-full resize-y rounded-md border border-[var(--stone-edge)] bg-[var(--stone-warm)] p-4 text-base leading-relaxed text-[var(--ink-bright)] placeholder-[var(--ink-dim)] transition-colors duration-200 focus:border-[var(--lamp-glow)] focus:outline-none focus:ring-2 focus:ring-[var(--lamp-soft)]"
 						placeholder="Provide any additional context that might help us review this comment..."
 					></textarea>
 				</div>
@@ -810,7 +795,7 @@
 
 			<div class="flex flex-col-reverse gap-3 sm:flex-row sm:justify-end">
 				<button
-					class="w-full cursor-pointer rounded-md border border-[var(--stone-warm)] bg-transparent px-6 py-3 text-base font-medium text-[var(--ink-mid)] transition-all duration-200 hover:bg-[var(--stone-warm)] hover:text-[var(--ink-bright)] sm:w-auto"
+					class="w-full cursor-pointer rounded-md border border-[var(--stone-edge)] bg-transparent px-6 py-3 text-base font-medium text-[var(--ink-mid)] transition-colors duration-200 hover:bg-[var(--stone-mid)] hover:text-[var(--ink-bright)] sm:w-auto"
 					type="button"
 					on:click={closeFlagModal}
 				>

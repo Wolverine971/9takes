@@ -430,7 +430,8 @@ export const tagQuestions = async (supabase: SupabaseClient<Database>) => {
 
 		const { data: tags, error: tagsError } = await supabase
 			.from('question_categories')
-			.select('id, category_name');
+			.select('id, category_name')
+			.eq('level', 3);
 		if (tagsError || questionsError) {
 			logger.warn('Failed to load tags or questions for tagging', {
 				tagsError,

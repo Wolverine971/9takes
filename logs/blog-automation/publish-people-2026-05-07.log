@@ -1,0 +1,15 @@
+```text
+Published people blog.
+
+Person: robert-de-niro
+Draft: src/blog/people/drafts/Robert-De-Niro.md
+Date/lastmod: 2026-05-07
+Supabase: published=true (id=1000)
+Images: full + thumbnail present (static/types/9s/Robert-De-Niro.webp, s-Robert-De-Niro.webp)
+Generated files: pnpm gen:all completed
+  - famousTypes.ts: link=true, hasImage=true, lastmod=2026-05-07, contentGrade=9.3
+  - sitemap.xml: includes /personality-analysis/robert-de-niro
+
+Blockers:
+- none
+```

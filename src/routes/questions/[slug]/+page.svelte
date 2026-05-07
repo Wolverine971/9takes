@@ -252,10 +252,6 @@
 			.map((tag: QuestionTag) => normalizeText(tag?.question_categories?.category_name))
 			.filter(Boolean)
 	);
-	let categorySummary = $derived(categoryNames.length ? joinHumanList(categoryNames) : '');
-	let categoryMetaUpper = $derived(
-		categoryNames.length ? categoryNames.map((name: string) => name.toUpperCase()).join(' · ') : ''
-	);
 	let deepestCategory = $derived.by(() => {
 		const tags = (data.questionTags || []) as QuestionTag[];
 		let best: QuestionTag['question_categories'] | null = null;
@@ -270,6 +266,8 @@
 		}
 		return best;
 	});
+	// Full breadcrumb chain (Home → Questions → … → Question) is kept for
+	// JSON-LD / structured data so SEO stays intact.
 	let categoryBreadcrumbItems = $derived.by(() => {
 		const items: BreadcrumbItem[] = [
 			{ name: 'Home', url: 'https://9takes.com' },
@@ -290,25 +288,19 @@
 		items.push({ name: formattedQuestionText, url });
 		return items;
 	});
-	let publicQuestionOverview = $derived.by(() => {
-		const parts = ['Compare perspectives on this question on 9takes.'];
-
-		if (data.comment_count > 0) {
-			parts.push(
-				`${data.comment_count} ${data.comment_count === 1 ? 'perspective has' : 'perspectives have'} already been shared.`
-			);
-		} else {
-			parts.push('Be the first to add a perspective.');
+	// Trimmed chain shown to readers — drops the redundant "Home" entry and the
+	// trailing question title (the question card sits right below the crumbs).
+	let displayBreadcrumbItems = $derived.by(() => {
+		const items: BreadcrumbItem[] = [{ name: 'Questions', url: 'https://9takes.com/questions' }];
+		if (deepestCategory?.category_name) {
+			items.push({
+				name: deepestCategory.category_name,
+				url: `https://9takes.com${buildQuestionCategoryPath(
+					deepestCategory.slug || deepestCategory.category_name
+				)}`
+			});
 		}
-
-		if (categorySummary) {
-			parts.push(`This discussion is grouped under ${categorySummary}.`);
-		}
-
-		parts.push(
-			'Add your own take to unlock the full community discussion and compare how different Enneagram types respond.'
-		);
-		return parts.join(' ');
+		return items;
 	});
 	let title = $derived(buildSeoTitle(formattedQuestionText));
 
@@ -611,23 +603,19 @@
 
 <article class="question-page">
 	<!-- =====================================================================
-	  §01 OPEN CASE — V5 case-file header (the brand moment)
-	  Wraps the existing <QuestionDisplay> so it sits below the kicker + meta.
+	  Question hero + thread — one continuous flow.
+	  Question card → Comment/Subscribe/Share toolbar (Interact) → meta line →
+	  optional user-added context → discussion thread (QuestionContent).
 	  ===================================================================== -->
 	<section class="open-case" aria-labelledby="open-case-question">
-		<div class="open-case-stripe" aria-hidden="true"></div>
 		<div class="open-case-pool" aria-hidden="true"></div>
 
 		<div class="open-case-inner">
-			{#if categoryBreadcrumbItems.length > 1}
+			{#if displayBreadcrumbItems.length}
 				<div class="open-case-breadcrumbs">
-					<Breadcrumbs items={categoryBreadcrumbItems} />
+					<Breadcrumbs items={displayBreadcrumbItems} />
 				</div>
 			{/if}
-
-			<div class="open-case-kicker">
-				<SectionKicker num="01" label="OPEN CASE" />
-			</div>
 
 			{#if data.questionTags && data.questionTags.length > 0}
 				<div class="open-case-category mono">
@@ -653,6 +641,17 @@
 				<QuestionDisplay question={data.question} />
 			</div>
 
+			<div class="open-case-interact">
+				<Interact
+					data={dataForChild}
+					questionId={data.question.id}
+					parentType={'question'}
+					oncommentAdded={addComment}
+					user={data?.user}
+					{qrCodeUrl}
+				/>
+			</div>
+
 			<div class="open-case-coords mono">
 				{#if postedDate}POSTED: {postedDate}{/if}
 				{#if postedDate}<span class="open-case-coord-sep">·</span>{/if}
@@ -669,78 +668,24 @@
 				</aside>
 			{/if}
 
-			<p class="open-case-overview">{publicQuestionOverview}</p>
-
-			<div class="open-case-stats" aria-label="Question summary">
-				<div class="open-case-stat">
-					<span class="open-case-stat__value">{data.comment_count || 0}</span>
-					<span class="mono open-case-stat__label">
-						{data.comment_count === 1 ? 'PERSPECTIVE' : 'PERSPECTIVES'}
-					</span>
+			{#if dataForChild}
+				<div class="open-case-floor">
+					<QuestionContent
+						data={dataForChild}
+						user={data?.user}
+						oncommentAdded={() => addComment()}
+					/>
 				</div>
-				<div class="open-case-stat">
-					<span class="open-case-stat__value">{categoryNames.length}</span>
-					<span class="mono open-case-stat__label">
-						{categoryNames.length === 1 ? 'CATEGORY' : 'CATEGORIES'}
-					</span>
-				</div>
-				<div class="open-case-stat">
-					<span class="open-case-stat__value">{data.aiComments?.length || 0}</span>
-					<span class="mono open-case-stat__label">PREVIEW TAKES</span>
-				</div>
-			</div>
-		</div>
-	</section>
+			{/if}
 
-	<!-- =====================================================================
-	  §02 GIVE YOUR TAKE — Interact (the give-first comment input)
-	  ===================================================================== -->
-	<section class="give-take">
-		<div class="give-take-inner">
-			<div class="give-take-kicker">
-				<SectionKicker num="02" label="GIVE YOUR TAKE" />
-			</div>
-			<Interact
-				data={dataForChild}
-				questionId={data.question.id}
-				parentType={'question'}
-				oncommentAdded={addComment}
-				user={data?.user}
-				{qrCodeUrl}
-			/>
-		</div>
-	</section>
-
-	<!-- =====================================================================
-	  §03 THE FLOOR — discussion thread (QuestionContent renders comments)
-	  ===================================================================== -->
-	{#if dataForChild}
-		<section class="the-floor">
-			<div class="the-floor-inner">
-				<div class="the-floor-kicker">
-					<SectionKicker num="03" label="THE FLOOR" />
-				</div>
-				<QuestionContent
-					data={dataForChild}
-					user={data?.user}
-					oncommentAdded={() => addComment()}
-				/>
-			</div>
-		</section>
-	{/if}
-
-	<!-- =====================================================================
-	  §04 MANAGE CASE — owner-only category editor + tag pills (always visible
-	  if there are tags so external readers can see + click them)
-	  ===================================================================== -->
-	{#if (data.questionTags && data.questionTags.length > 0) || data.canEditTags}
-		<section class="manage-case">
-			<div class="manage-case-inner">
-				<div class="manage-case-head">
-					<div class="manage-case-kicker">
-						<SectionKicker num="04" label={data.canEditTags ? 'MANAGE CASE' : 'CASE TAGS'} />
-					</div>
-					{#if data.canEditTags}
+			<!-- ===================================================================
+			  Author-only category management. Non-authors already see the
+			  categories at the top of the page, so we don't repeat them here.
+			  =================================================================== -->
+			{#if data.canEditTags}
+				<aside class="open-case-categories" aria-label="Manage categories">
+					<header class="open-case-categories__head">
+						<SectionKicker label="CATEGORIES" />
 						<Button
 							variant="ghost"
 							size="sm"
@@ -751,180 +696,184 @@
 								}
 							}}
 						>
-							{categoryEditorOpen ? 'Close Editor' : 'Edit Categories'}
+							{categoryEditorOpen ? 'Close editor' : 'Edit categories'}
 						</Button>
-					{/if}
-				</div>
+					</header>
 
-				{#if data.questionTags && data.questionTags.length > 0}
-					<div class="manage-case-tags">
-						{#each data.questionTags as tag}
-							<a
-								href={buildQuestionCategoryPath(
-									tag.question_categories.slug || tag.question_categories.category_name
-								)}
-								class="manage-case-tag-pill"
-								rel="tag"
-							>
-								{tag.question_categories.category_name}
-							</a>
-						{/each}
-					</div>
-				{:else}
-					<p class="manage-case-empty">No categories assigned yet.</p>
-				{/if}
-
-				{#if data.canEditTags && categoryEditorOpen}
-					<div class="category-editor">
-						<div class="category-editor-step">
-							<p class="mono category-editor-step__label">STEP 1: TOP-LEVEL PARENT</p>
-							<div class="chip-row">
-								{#each rootCategories as category}
-									<button
-										type="button"
-										onclick={() => selectRootCategory(category.id)}
-										class="cat-chip"
-										class:cat-chip--active={selectedRootCategoryId === category.id}
-									>
-										{category.category_name}
-									</button>
-								{/each}
-							</div>
+					{#if data.questionTags && data.questionTags.length > 0}
+						<div class="open-case-categories__pills">
+							{#each data.questionTags as tag}
+								<a
+									href={buildQuestionCategoryPath(
+										tag.question_categories.slug || tag.question_categories.category_name
+									)}
+									class="open-case-categories__pill"
+									rel="tag"
+								>
+									{tag.question_categories.category_name}
+								</a>
+							{/each}
 						</div>
+					{:else}
+						<p class="open-case-categories__empty">No categories assigned yet.</p>
+					{/if}
 
-						<div class="category-editor-step">
-							<p class="mono category-editor-step__label">STEP 2: SECOND-LEVEL PARENT</p>
-							{#if parentCategories.length}
+					{#if categoryEditorOpen}
+						<div class="category-editor">
+							<div class="category-editor-step">
+								<p class="mono category-editor-step__label">STEP 1: TOP-LEVEL PARENT</p>
 								<div class="chip-row">
-									{#each parentCategories as category}
+									{#each rootCategories as category}
 										<button
 											type="button"
-											onclick={() => selectParentCategory(category.id)}
+											onclick={() => selectRootCategory(category.id)}
 											class="cat-chip"
-											class:cat-chip--active={selectedParentCategoryId === category.id}
+											class:cat-chip--active={selectedRootCategoryId === category.id}
 										>
 											{category.category_name}
 										</button>
 									{/each}
 								</div>
-							{:else}
-								<p class="manage-case-empty">No level 2 categories under this top-level parent.</p>
-							{/if}
-						</div>
-
-						<div class="category-editor-step">
-							<div class="category-editor-step__head">
-								<p class="mono category-editor-step__label">STEP 3: LEAF CATEGORIES</p>
-								<p class="mono category-editor-step__count">
-									{selectedTagIds.length}/{maxCategoriesPerQuestion} SELECTED
-								</p>
 							</div>
 
-							{#if leafCategories.length}
-								<div class="leaf-grid">
-									{#each leafCategories as category}
-										<button
-											type="button"
-											onclick={() => toggleLeafCategory(category.id)}
-											class="leaf-tile"
-											class:leaf-tile--active={selectedTagIds.includes(category.id)}
-										>
-											<span class="leaf-tile__name">{category.category_name}</span>
-											<span class="mono leaf-tile__state">
-												{selectedTagIds.includes(category.id) ? 'SELECTED' : 'SELECT'}
-											</span>
-										</button>
-									{/each}
-								</div>
-							{:else}
-								<p class="manage-case-empty">No leaf categories available under this parent yet.</p>
-							{/if}
-						</div>
+							<div class="category-editor-step">
+								<p class="mono category-editor-step__label">STEP 2: SECOND-LEVEL PARENT</p>
+								{#if parentCategories.length}
+									<div class="chip-row">
+										{#each parentCategories as category}
+											<button
+												type="button"
+												onclick={() => selectParentCategory(category.id)}
+												class="cat-chip"
+												class:cat-chip--active={selectedParentCategoryId === category.id}
+											>
+												{category.category_name}
+											</button>
+										{/each}
+									</div>
+								{:else}
+									<p class="category-editor-empty">
+										No level 2 categories under this top-level parent.
+									</p>
+								{/if}
+							</div>
 
-						<div class="category-editor-step">
-							<p class="mono category-editor-step__label">SELECTED CATEGORIES</p>
-							{#if selectedLeafCategories.length}
-								<div class="chip-row">
-									{#each selectedLeafCategories as category}
-										<button
-											type="button"
-											onclick={() => toggleLeafCategory(category.id)}
-											class="cat-chip cat-chip--selected"
-											title="Remove category"
-										>
-											{category.category_name} ×
-										</button>
-									{/each}
+							<div class="category-editor-step">
+								<div class="category-editor-step__head">
+									<p class="mono category-editor-step__label">STEP 3: LEAF CATEGORIES</p>
+									<p class="mono category-editor-step__count">
+										{selectedTagIds.length}/{maxCategoriesPerQuestion} SELECTED
+									</p>
 								</div>
-							{:else}
-								<p class="manage-case-empty">No categories selected yet.</p>
-							{/if}
-						</div>
 
-						<div class="category-editor-creator">
-							<p class="mono category-editor-step__label">CREATE NEW LEAF CATEGORY</p>
-							<p class="category-editor-creator__hint">
-								New categories are created as level 3 leaves under
-								{selectedParentCategoryName || 'a selected level 2 parent'}.
-							</p>
-							<div class="category-editor-creator__row">
-								<input
-									type="text"
-									bind:value={newLeafCategoryName}
-									maxlength="60"
-									placeholder="e.g. Career transitions"
-									class="case-input"
-								/>
+								{#if leafCategories.length}
+									<div class="leaf-grid">
+										{#each leafCategories as category}
+											<button
+												type="button"
+												onclick={() => toggleLeafCategory(category.id)}
+												class="leaf-tile"
+												class:leaf-tile--active={selectedTagIds.includes(category.id)}
+											>
+												<span class="leaf-tile__name">{category.category_name}</span>
+												<span class="mono leaf-tile__state">
+													{selectedTagIds.includes(category.id) ? 'SELECTED' : 'SELECT'}
+												</span>
+											</button>
+										{/each}
+									</div>
+								{:else}
+									<p class="category-editor-empty">
+										No leaf categories available under this parent yet.
+									</p>
+								{/if}
+							</div>
+
+							<div class="category-editor-step">
+								<p class="mono category-editor-step__label">SELECTED CATEGORIES</p>
+								{#if selectedLeafCategories.length}
+									<div class="chip-row">
+										{#each selectedLeafCategories as category}
+											<button
+												type="button"
+												onclick={() => toggleLeafCategory(category.id)}
+												class="cat-chip cat-chip--selected"
+												title="Remove category"
+											>
+												{category.category_name} ×
+											</button>
+										{/each}
+									</div>
+								{:else}
+									<p class="category-editor-empty">No categories selected yet.</p>
+								{/if}
+							</div>
+
+							<div class="category-editor-creator">
+								<p class="mono category-editor-step__label">CREATE NEW LEAF CATEGORY</p>
+								<p class="category-editor-creator__hint">
+									New categories are created as level 3 leaves under
+									{selectedParentCategoryName || 'a selected level 2 parent'}.
+								</p>
+								<div class="category-editor-creator__row">
+									<input
+										type="text"
+										bind:value={newLeafCategoryName}
+										maxlength="60"
+										placeholder="e.g. Career transitions"
+										class="case-input"
+									/>
+									<Button
+										variant="secondary"
+										size="md"
+										onclick={createLeafCategory}
+										disabled={creatingLeafCategory ||
+											!selectedParentCategoryId ||
+											!newLeafCategoryName.trim()}
+									>
+										{creatingLeafCategory ? 'Creating…' : 'Create Leaf'}
+									</Button>
+								</div>
+							</div>
+
+							{#if categoryEditorError}
+								<p class="category-editor-msg category-editor-msg--error" role="alert">
+									{categoryEditorError}
+								</p>
+							{/if}
+							{#if categoryEditorSuccess}
+								<p class="category-editor-msg category-editor-msg--success" role="status">
+									{categoryEditorSuccess}
+								</p>
+							{/if}
+
+							<div class="category-editor-actions">
 								<Button
 									variant="secondary"
 									size="md"
-									onclick={createLeafCategory}
-									disabled={creatingLeafCategory ||
-										!selectedParentCategoryId ||
-										!newLeafCategoryName.trim()}
+									onclick={() => {
+										resetCategoryEditor();
+										categoryEditorOpen = false;
+									}}
 								>
-									{creatingLeafCategory ? 'Creating…' : 'Create Leaf'}
+									Cancel
+								</Button>
+								<Button
+									variant="primary"
+									size="md"
+									onclick={saveQuestionCategories}
+									loading={categoryEditorSaving}
+									disabled={categoryEditorSaving}
+								>
+									{categoryEditorSaving ? 'Saving…' : 'Save Categories'}
 								</Button>
 							</div>
 						</div>
-
-						{#if categoryEditorError}
-							<p class="category-editor-msg category-editor-msg--error" role="alert">
-								{categoryEditorError}
-							</p>
-						{/if}
-						{#if categoryEditorSuccess}
-							<p class="category-editor-msg category-editor-msg--success" role="status">
-								{categoryEditorSuccess}
-							</p>
-						{/if}
-
-						<div class="category-editor-actions">
-							<Button
-								variant="secondary"
-								size="md"
-								onclick={() => {
-									resetCategoryEditor();
-									categoryEditorOpen = false;
-								}}
-							>
-								Cancel
-							</Button>
-							<Button
-								variant="primary"
-								size="md"
-								onclick={saveQuestionCategories}
-								loading={categoryEditorSaving}
-								disabled={categoryEditorSaving}
-							>
-								{categoryEditorSaving ? 'Saving…' : 'Save Categories'}
-							</Button>
-						</div>
-					</div>
-				{/if}
-			</div>
-		</section>
-	{/if}
+					{/if}
+				</aside>
+			{/if}
+		</div>
+	</section>
 </article>
 
 <style lang="scss">
@@ -956,28 +905,18 @@
 	}
 
 	/* =========================================================
-	  §01 OPEN CASE — V5 case-file header (the brand moment)
+	  Question hero + thread — one continuous flow.
 	  ========================================================= */
 	.open-case {
 		position: relative;
-		padding: 96px 48px 72px;
+		padding: 32px 48px 72px;
 		background: var(--night-deep);
 		overflow: hidden;
 		border-top: 3px solid var(--lamp-glow);
 
 		@media (max-width: 768px) {
-			padding: 64px 20px 48px;
+			padding: 20px 20px 48px;
 		}
-	}
-
-	.open-case-stripe {
-		position: absolute;
-		top: 0;
-		left: 0;
-		right: 0;
-		height: 3px;
-		background: var(--lamp-glow);
-		z-index: 2;
 	}
 
 	.open-case-pool {
@@ -1009,15 +948,25 @@
 		margin: 0 auto;
 		display: flex;
 		flex-direction: column;
-		gap: 16px;
+		gap: 12px;
 	}
 
 	.open-case-breadcrumbs {
-		margin-bottom: 4px;
+		margin-bottom: 0;
+
+		:global(.breadcrumbs) {
+			margin-bottom: 0;
+		}
 	}
 
-	.open-case-kicker {
-		margin-bottom: 4px;
+	.open-case-interact {
+		margin: 4px 0 4px;
+	}
+
+	.open-case-floor {
+		margin-top: 16px;
+		padding-top: 24px;
+		border-top: 1px solid var(--stone-edge);
 	}
 
 	.open-case-category {
@@ -1114,148 +1063,46 @@
 		color: var(--ink-bright);
 	}
 
-	.open-case-overview {
-		margin: 4px 0 8px;
-		font-family: var(--font-display);
-		font-size: 16px;
-		line-height: 1.55;
-		color: var(--ink-mid);
-		max-width: 720px;
-	}
-
-	.open-case-stats {
-		display: grid;
-		grid-template-columns: repeat(3, minmax(0, 1fr));
-		gap: 12px;
-		margin-top: 8px;
-
-		@media (max-width: 540px) {
-			grid-template-columns: 1fr;
-		}
-	}
-
-	.open-case-stat {
+	/* =========================================================
+	  Author-only category management — sits inside the open-case
+	  flow so it shares the same background and feels like a tail
+	  of the article rather than a fresh section.
+	  ========================================================= */
+	.open-case-categories {
 		display: flex;
 		flex-direction: column;
-		align-items: flex-start;
-		justify-content: center;
-		gap: 6px;
-		padding: 16px 18px;
+		gap: 16px;
+		margin-top: 24px;
+		padding: 20px;
 		border: 1px solid var(--stone-edge);
-		border-radius: 10px;
+		border-radius: 12px;
 		background: var(--stone-warm);
 	}
 
-	.open-case-stat__value {
-		font-family: var(--font-display);
-		font-weight: 700;
-		font-size: 24px;
-		line-height: 1;
-		color: var(--ink-bright);
-	}
-
-	.open-case-stat__label {
-		color: var(--ink-dim);
-	}
-
-	/* =========================================================
-	  §02 GIVE YOUR TAKE — Interact wrapper
-	  ========================================================= */
-	.give-take {
-		position: relative;
-		padding: 64px 48px;
-		background: var(--night-mid);
-		border-top: 1px solid var(--stone-edge);
-
-		@media (max-width: 768px) {
-			padding: 48px 20px;
-		}
-	}
-
-	.give-take-inner {
-		max-width: 880px;
-		margin: 0 auto;
-	}
-
-	.give-take-kicker {
-		margin-bottom: 24px;
-	}
-
-	/* =========================================================
-	  §03 THE FLOOR — discussion (QuestionContent)
-	  ========================================================= */
-	.the-floor {
-		position: relative;
-		padding: 64px 48px 96px;
-		background: var(--night-deep);
-		border-top: 1px solid var(--stone-edge);
-
-		@media (max-width: 768px) {
-			padding: 48px 20px 64px;
-		}
-	}
-
-	.the-floor-inner {
-		max-width: 880px;
-		margin: 0 auto;
-	}
-
-	.the-floor-kicker {
-		margin-bottom: 24px;
-	}
-
-	/* =========================================================
-	  §04 MANAGE CASE — owner-only category editor
-	  ========================================================= */
-	.manage-case {
-		position: relative;
-		padding: 64px 48px 96px;
-		background: var(--night-mid);
-		border-top: 1px solid var(--stone-edge);
-
-		@media (max-width: 768px) {
-			padding: 48px 20px 64px;
-		}
-	}
-
-	.manage-case-inner {
-		max-width: 880px;
-		margin: 0 auto;
-		display: flex;
-		flex-direction: column;
-		gap: 20px;
-	}
-
-	.manage-case-head {
+	.open-case-categories__head {
 		display: flex;
 		flex-wrap: wrap;
 		align-items: center;
 		justify-content: space-between;
 		gap: 12px;
-		padding-bottom: 16px;
-		border-bottom: 1px solid var(--stone-edge);
 	}
 
-	.manage-case-kicker {
-		display: flex;
-	}
-
-	.manage-case-tags {
+	.open-case-categories__pills {
 		display: flex;
 		flex-wrap: wrap;
-		gap: 8px;
+		gap: 6px;
 	}
 
-	.manage-case-tag-pill {
+	.open-case-categories__pill {
 		display: inline-flex;
 		align-items: center;
-		padding: 8px 14px;
+		padding: 6px 12px;
 		border: 1px solid var(--stone-edge);
-		border-radius: 10px;
-		background: var(--stone-warm);
+		border-radius: 999px;
+		background: var(--night-mid);
 		color: var(--ink-bright);
 		font-family: var(--font-display);
-		font-size: 14px;
+		font-size: 13px;
 		font-weight: 500;
 		text-decoration: none;
 		transition:
@@ -1266,11 +1113,10 @@
 		&:hover {
 			border-color: var(--lamp-glow);
 			color: var(--lamp-glow);
-			background: var(--stone-mid);
 		}
 	}
 
-	.manage-case-empty {
+	.open-case-categories__empty {
 		font-family: var(--font-display);
 		font-size: 14px;
 		line-height: 1.5;
@@ -1297,6 +1143,14 @@
 		display: flex;
 		flex-direction: column;
 		gap: 10px;
+	}
+
+	.category-editor-empty {
+		font-family: var(--font-display);
+		font-size: 14px;
+		line-height: 1.5;
+		color: var(--ink-mid);
+		margin: 0;
 	}
 
 	.category-editor-step__head {
@@ -1498,14 +1352,11 @@
 	  ========================================================= */
 	@media (max-width: 480px) {
 		.open-case {
-			padding: 56px 16px 40px;
+			padding: 16px 16px 40px;
 		}
 
-		.give-take,
-		.the-floor,
-		.manage-case {
-			padding-left: 16px;
-			padding-right: 16px;
+		.open-case-categories {
+			padding: 16px;
 		}
 
 		.open-case-display :global(.question-display-card) {

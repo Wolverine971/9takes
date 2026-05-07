@@ -382,8 +382,14 @@
 		isSignupPage = pathname === '/signup';
 		isCategoryPage = pathname.includes('/categories');
 		isAdminPage = pathname.startsWith('/admin');
+		// Question detail pages render their own breadcrumbs, so we skip the
+		// duplicate top-level back arrow there.
+		const isQuestionSlugPage =
+			/^\/questions\/[^/]+$/.test(pathname) &&
+			pathname !== '/questions/create' &&
+			pathname !== '/questions/categories';
 		shouldShowMaxWidth = !MAX_WIDTH_PAGES.includes(pathname) && !isAdminPage;
-		showBackButton = !isHomePage && !isCategoryPage && !isAdminPage;
+		showBackButton = !isHomePage && !isCategoryPage && !isAdminPage && !isQuestionSlugPage;
 	}
 
 	// Defer analytics loading to after page is interactive

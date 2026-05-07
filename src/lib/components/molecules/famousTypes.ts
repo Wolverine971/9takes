@@ -453,7 +453,7 @@ export const famousTypes: { [index: number]: { name: string; link: boolean; hasI
 		{ name: 'post-malone', link: true, hasImage: true, lastmod: '2026-02-20', personaTitle: 'Music\'s Tattooed Ghost', contentGrade: 8.6 },
 		{ name: 'queen-elizabeth-ii', link: true, hasImage: true, lastmod: '2025-04-08', personaTitle: 'The Steady Crown', contentGrade: null },
 		{ name: 'rachel-mcadams', link: true, hasImage: true, lastmod: '2026-04-12', personaTitle: 'Hollywood\'s Deliberate Ghost', contentGrade: 8.9 },
-		{ name: 'robert-de-niro', link: false, hasImage: true, lastmod: '2026-04-24', personaTitle: 'Cinema\'s Quiet Volcano', contentGrade: 9.3 },
+		{ name: 'robert-de-niro', link: true, hasImage: true, lastmod: '2026-05-07', personaTitle: 'Cinema\'s Quiet Volcano', contentGrade: 9.3 },
 		{ name: 'ronald-reagan', link: true, hasImage: true, lastmod: '2026-03-04', personaTitle: 'America\'s Smiling Sphinx', contentGrade: 7 },
 		{ name: 'ryan-gosling', link: true, hasImage: true, lastmod: '2026-04-03', personaTitle: 'Hollywood\'s Gentle Vanishing Man', contentGrade: 9 },
 		{ name: 'scarlett-johansson', link: true, hasImage: true, lastmod: '2026-02-23', personaTitle: 'Hollywood\'s Billion-Dollar Introvert', contentGrade: 9 },

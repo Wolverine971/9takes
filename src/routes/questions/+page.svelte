@@ -19,6 +19,34 @@
 
 	let { data }: { data: PageData } = $props();
 
+	type QuestionCategoryPathCrumb = {
+		id: number;
+		category_name: string;
+		slug?: string | null;
+		level: number;
+	};
+
+	type QuestionCategoryPath = {
+		id: number;
+		category_name: string;
+		slug?: string | null;
+		path: QuestionCategoryPathCrumb[];
+		display_path: QuestionCategoryPathCrumb[];
+		path_label: string;
+	};
+
+	type QuestionRow = {
+		id: number;
+		url: string;
+		question: string;
+		question_formatted?: string;
+		comment_count: number;
+		created_at: string;
+		tag_id?: number;
+		tag_name?: string;
+		category_paths?: QuestionCategoryPath[];
+	};
+
 	// ------------------------------------------------------------------
 	// SEO + structured-data — preserved verbatim from the previous page.
 	// ------------------------------------------------------------------
@@ -86,7 +114,9 @@
 		return out;
 	}
 
-	let questionsList = $state(untrack(() => dedupeById([...(data.questionsAndTags ?? [])])));
+	let questionsList = $state<QuestionRow[]>(
+		untrack(() => dedupeById([...(data.questionsAndTags ?? [])] as QuestionRow[]))
+	);
 	let currentPage = $state(untrack(() => data.currentPage ?? 1));
 	let hasMore = $state(untrack(() => Boolean(data.hasMore)));
 	let loadingMore = $state(false);
@@ -176,6 +206,12 @@
 	function categoryHref(cat: { slug?: string | null; id: number }): string {
 		const slug = cat.slug ?? String(cat.id);
 		return `/questions/categories/${slug}`;
+	}
+
+	function questionCategoryDisplayPath(
+		categoryPath: QuestionCategoryPath
+	): QuestionCategoryPathCrumb[] {
+		return categoryPath.display_path?.length ? categoryPath.display_path : categoryPath.path;
 	}
 
 	// Search component dispatches createQuestion + questionSelected events.
@@ -329,7 +365,35 @@
 								{q.question_formatted ?? q.question}
 							</span>
 							<span class="mono question-row-meta">
-								{#if q.tag_name}
+								{#if q.category_paths?.length}
+									<span class="question-row-cats">
+										{#each q.category_paths.slice(0, 1) as categoryPath (`${categoryPath.id}-${categoryPath.path_label}`)}
+											<span class="question-row-cat-path">
+												{#each questionCategoryDisplayPath(categoryPath) as pathCategory, index (`${categoryPath.id}-${pathCategory.id}`)}
+													<span
+														class="question-row-cat-part"
+														class:question-row-cat-part--leaf={index ===
+															questionCategoryDisplayPath(categoryPath).length - 1}
+													>
+														{pathCategory.category_name}
+													</span>
+													{#if index < questionCategoryDisplayPath(categoryPath).length - 1}
+														<span class="question-row-cat-divider" aria-hidden="true">/</span>
+													{/if}
+												{/each}
+											</span>
+										{/each}
+										{#if q.category_paths.length > 1}
+											<span
+												class="question-row-cat-more"
+												aria-label={`${q.category_paths.length - 1} more categories`}
+											>
+												+{q.category_paths.length - 1}
+											</span>
+										{/if}
+									</span>
+									<span class="question-row-sep" aria-hidden="true">·</span>
+								{:else if q.tag_name}
 									<span class="question-row-cat">{q.tag_name.toUpperCase()}</span>
 									<span class="question-row-sep" aria-hidden="true">·</span>
 								{/if}
@@ -840,6 +904,47 @@
 
 	.question-row-cat {
 		color: var(--ink-mid);
+	}
+
+	.question-row-cats,
+	.question-row-cat-path {
+		display: inline-flex;
+		align-items: center;
+		gap: 4px;
+		min-width: 0;
+	}
+
+	.question-row-cats {
+		flex-wrap: wrap;
+		max-width: 100%;
+	}
+
+	.question-row-cat-path {
+		max-width: min(100%, 58rem);
+		color: var(--ink-dim);
+		text-transform: uppercase;
+	}
+
+	.question-row-cat-part {
+		min-width: 0;
+		max-width: 28ch;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		white-space: nowrap;
+		color: var(--ink-dim);
+	}
+
+	.question-row-cat-part--leaf {
+		color: var(--ink-mid);
+	}
+
+	.question-row-cat-divider {
+		color: var(--ink-dim);
+		opacity: 0.55;
+	}
+
+	.question-row-cat-more {
+		color: var(--data-teal);
 	}
 
 	.question-row-takes {

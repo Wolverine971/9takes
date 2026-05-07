@@ -5,7 +5,6 @@
 	import { fade } from 'svelte/transition';
 	import Comment from './Comment.svelte';
 	import SkeletonLoader from '../atoms/SkeletonLoader.svelte';
-	import Spinner from '../atoms/Spinner.svelte';
 	import { debounce } from '../../utils/debounce';
 	import type { User, Comment as CommentType, QuestionPageData } from '$lib/types/questions';
 
@@ -150,7 +149,7 @@
 			<div class="space-y-4 py-4">
 				{#each Array(3) as _, i}
 					<div
-						class="bg-[var(--stone-warm)]/50 rounded-xl p-5 backdrop-blur-sm"
+						class="rounded-xl border border-[var(--stone-edge)] bg-[var(--stone-warm)] p-5"
 						in:fade={{ duration: 300, delay: i * 50 }}
 					>
 						<div class="flex gap-4">
@@ -171,12 +170,12 @@
 				{#if loading && !initialLoading}
 					<div class="flex justify-center py-6">
 						<div
-							class="bg-[var(--stone-warm)]/80 flex items-center gap-3 rounded-full border border-[var(--stone-warm)] px-4 py-2 shadow-sm backdrop-blur-sm"
+							class="flex items-center gap-3 rounded-full border border-[var(--stone-edge)] bg-[var(--stone-warm)] px-4 py-2 shadow-sm"
 						>
 							<div
-								class="border-[var(--lamp-glow)]/30 h-4 w-4 animate-spin rounded-full border-2 border-t-[var(--lamp-glow)]"
+								class="h-4 w-4 animate-spin rounded-full border-2 border-[var(--lamp-soft)] border-t-[var(--lamp-glow)]"
 							></div>
-							<span class="text-sm font-medium text-[var(--ink-mid)]">Loading more...</span>
+							<span class="text-sm font-medium text-[var(--ink-mid)]">Loading more…</span>
 						</div>
 					</div>
 				{/if}
@@ -185,7 +184,7 @@
 	{:else if userHasAnswered && !comments.length}
 		<div class="flex flex-col items-center justify-center py-12">
 			<div
-				class="mb-4 flex h-14 w-14 items-center justify-center rounded-xl bg-[var(--stone-warm)]"
+				class="mb-4 flex h-14 w-14 items-center justify-center rounded-xl border border-[var(--stone-edge)] bg-[var(--stone-warm)]"
 			>
 				<svg
 					class="h-7 w-7 text-[var(--ink-mid)]"
@@ -208,19 +207,3 @@
 		</div>
 	{/if}
 {/key}
-
-<style>
-	@keyframes shimmer {
-		0% {
-			background-position: -200% 0;
-		}
-		100% {
-			background-position: 200% 0;
-		}
-	}
-	:global(.skeleton) {
-		/* Use Tailwind color tokens instead of hardcoded hex values */
-		--skeleton-bg: theme('colors.gray.100');
-		--skeleton-bg-dark: theme('colors.gray.700');
-	}
-</style>
