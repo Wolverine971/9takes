@@ -6,29 +6,50 @@ description: "How Doechii's Type 7 psychology explains the constant reinvention,
 author: 'DJ Wayne'
 date: '2025-03-25'
 loc: 'https://9takes.com/personality-analysis/Doechii'
-lastmod: '2026-03-03'
+lastmod: '2026-05-06'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 7
 type: ['musician']
 person: 'Doechii'
-suggestions: ['Doja-Cat', 'Chappell-Roan', 'Kendrick-Lamar', 'Brittany-Broski']
+suggestions: ['Lady-Gaga', 'Doja-Cat', 'Chappell-Roan', 'Kendrick-Lamar']
 wikipedia: 'https://en.wikipedia.org/wiki/Doechii'
 twitter: 'doechii'
 instagram: 'doechii'
 tiktok: '@doechii'
+path: src/blog/people/drafts/Doechii.md
 content_quality:
   hook: 9
   enneagram: 9
-  evidence: 8.5
+  evidence: 9
   writing: 9
   originality: 9
-  overall: 8.9
-  letter: 'B+'
-  graded_at: '2026-03-03'
-path: src/blog/people/drafts/Doechii.md
+  overall: 9.0
+  letter: A
+  graded_at: '2026-05-06'
 ---
+
+<!-- QUALITY GRADE: A (9.0)
+Hook: 9 | Enneagram: 9 | Evidence: 9 | Writing: 9 | Originality: 9
+
+FEEDBACK (2026-05-06):
+- SIGNATURE DETAIL LANDS: The "I am Doechii" diary entry at age 11, threaded against the February 2026 Instagram bio edit ("lesbian") and the new house, is the through-line that makes the whole analysis click. "She doesn't simply become. She writes herself into becoming." is the line of the piece — and the closing paragraph (diary "still open") earns its emotional weight without sentimentality.
+- HOOK IS SHARP: Face tape on the red carpet → "show what you're supposed to hide" → immediate inversion with the hidden girlfriend. Thesis (shows everything / hides everything) lands by paragraph 5. The "A straight man" Hot Ones beat is an excellent specific detail.
+- ENNEAGRAM EXPLAINS, DOESN'T DECORATE: The reframe reflex, one-hour rule, and "introvert confession" map cleanly to Type 7. Treating sobriety as 7-integration toward depth (rather than just a recovery story) is a non-obvious read. No type-vs-type insider baseball.
+- EVIDENCE DENSITY IS A: Stylist quote, Moosa Tiffith, Rolling Stone, Billboard, 032c, The Breakfast Club, Hot Ones Versus, BET speech, Grammy speech — quotes function as structural material, not decoration. Specific dates (March 2025, February 2026) anchor the piece.
+
+NEEDS WORK (small things — this blog is already publishable):
+- MILD HEDGE in the father section: "The truth is probably both things at once." This sentence is the only hedge that softens an otherwise confident voice. Cut it or make the claim.
+- "Six Days a Week in That Church" section is strong, but "She was already learning the skill that would define her career: holding multiple selves at once." reads slightly explainer-ish — the section's anecdotes already deliver this; the line could be cut for compression.
+- The Grammy/Met Gala/Nike paragraph in "The Year the World Caught Up" piles accolades — consider tightening the list so the BET Trump callout (the section's strongest beat) doesn't get lost in the avalanche.
+
+TO REACH A+ (9.5+):
+- (1) Cut the two soft sentences flagged above so the prose moves at one speed throughout.
+- (2) Find ONE more "magazine line" in either the sobriety section ("Denial Is a River") or the "Confidence as Construction" section — something as memorable as "She writes herself into becoming." The contrast panel is doing real work but the surrounding prose is more conventional than the rest of the piece.
+- (3) The Lauryn Hill quote ("the same feeling I want some other Black little girl to have") is buried under accolades — consider moving it to land closer to the closing or making it the section's emotional pivot.
+-->
+
 
 > "She likes exposing something that's meant to be hidden. She just thinks outside the box, and she likes being vulnerable, and she likes showing things that you're not meant to show."
 >

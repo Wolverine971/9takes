@@ -13,7 +13,7 @@ published: false
 enneagram: 4
 type: ['musician']
 person: 'Lady-Gaga'
-suggestions: ['Taylor-Swift', 'Billie-Eilish', 'John-Mayer', 'Lana-Del-Rey']
+suggestions: ['Doechii', 'Taylor-Swift', 'Billie-Eilish', 'Lana-Del-Rey']
 wikipedia: 'https://en.wikipedia.org/wiki/Lady_Gaga'
 twitter: 'ladygaga'
 instagram: 'ladygaga'
@@ -302,4 +302,3 @@ PRIORITY FIXES (numbered, 3 max):
 3. Cut at least one of the stacked-single-sentence-paragraph closers; the corpus is now saturated with this pattern.
 
 ============================================================ -->
-
