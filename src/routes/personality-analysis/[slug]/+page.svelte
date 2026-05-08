@@ -574,8 +574,11 @@
 <!-- Sidebar components - positioned absolutely -->
 <div class="sidebar-container">
 	{#key post.slug}
-		{#if postSuggestions.length}
-			<PeopleSuggestionsSideBar links={postSuggestions} />
+		{#if postSuggestions.length || (data.bridgeLinks?.length ?? 0)}
+			<PeopleSuggestionsSideBar
+				links={postSuggestions}
+				bridgeLinks={data.bridgeLinks ?? []}
+			/>
 		{/if}
 	{/key}
 </div>

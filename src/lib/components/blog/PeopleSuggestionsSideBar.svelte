@@ -11,6 +11,14 @@
 	export let links: string[] = [];
 	export let title: string = 'More Personalities';
 
+	/**
+	 * Bridge links — internal-linking authority routes from a personality
+	 * profile back into the main graph (type pillar, category, corpus stats,
+	 * /enneagram-test). Rendered below the suggestions list and only shown
+	 * when at least one link is present. Bucket 3, internal linking.
+	 */
+	export let bridgeLinks: { label: string; href: string }[] = [];
+
 	// Configuration options with defaults
 	export let showAtScrollY: number = 1200;
 	export let hideBeforeBottom: number = 1500;
@@ -108,6 +116,25 @@
 					</li>
 				{/each}
 			</ul>
+			{#if bridgeLinks.length}
+				<div class="sidebar-bridges" aria-label="Explore the framework">
+					<h4 class="sidebar-subtitle">Explore the Framework</h4>
+					<ul class="sidebar-list">
+						{#each bridgeLinks as bridge}
+							<li class="sidebar-item">
+								<a
+									href={bridge.href}
+									class="sidebar-link"
+									data-bridge="true"
+									data-track="profile-sidebar-bridge"
+								>
+									{bridge.label}
+								</a>
+							</li>
+						{/each}
+					</ul>
+				</div>
+			{/if}
 			<div class="sidebar-extra">
 				<slot />
 			</div>
@@ -162,6 +189,12 @@
 		padding: 0.5rem;
 	}
 
+	.sidebar-bridges {
+		margin-top: 0.9rem;
+		padding-top: 0.9rem;
+		border-top: 1px solid color-mix(in srgb, var(--ink-dim) 30%, transparent);
+	}
+
 	.sidebar-extra {
 		margin-top: 0.9rem;
 		padding-top: 0.9rem;
@@ -179,6 +212,23 @@
 		font-weight: 600;
 		color: var(--ink-bright);
 		border-bottom: 1px solid color-mix(in srgb, var(--ink-dim) 30%, transparent);
+	}
+
+	.sidebar-subtitle {
+		margin: 0 0 0.4rem 0;
+		font-size: 0.78rem;
+		font-weight: 600;
+		text-transform: uppercase;
+		letter-spacing: 0.06em;
+		color: var(--ink-dim);
+	}
+
+	.sidebar-link[data-bridge='true'] {
+		color: var(--ink-bright);
+
+		&:hover {
+			color: var(--lamp-glow);
+		}
 	}
 
 	.sidebar-list {

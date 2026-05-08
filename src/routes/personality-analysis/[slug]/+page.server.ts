@@ -14,6 +14,11 @@ import {
 	buildPersonalityAnalysisUrl,
 	normalizePersonalitySlug
 } from '$lib/utils/personalityAnalysis';
+import {
+	getPersonalityCategorySlugs,
+	getPersonalityCategoryBySlug,
+	normalizePeopleTypes
+} from '$lib/personalityCategories';
 
 type FamousPersonRow = Database['public']['Tables']['blogs_famous_people']['Row'];
 type BlogCommentRow = Database['public']['Tables']['blog_comments']['Row'];
@@ -104,6 +109,10 @@ export const load: PageServerLoad = async (event) => {
 	const wordCount = countRenderableWords(content);
 	const publishedAt = personData.published_at ?? personData.date ?? personData.created_at;
 	const modifiedAt = personData.lastmod ?? publishedAt;
+	const bridgeLinks = buildPersonalityBridgeLinks({
+		enneagram: personData.enneagram,
+		types: personData.type
+	});
 
 	return {
 		user: session?.user ? { id: session?.user?.id, email: session?.user?.email } : null, // Pass user info to components
@@ -131,7 +140,8 @@ export const load: PageServerLoad = async (event) => {
 		canonicalSlug,
 		placeholders,
 		headings,
-		comments
+		comments,
+		bridgeLinks
 	};
 };
 
@@ -150,6 +160,75 @@ function countRenderableWords(content: string): number {
 
 function buildTimeRequired(wordCount: number): string {
 	return `PT${Math.max(1, Math.ceil(wordCount / 200))}M`;
+}
+
+const TYPE_PILLAR_LABELS: Record<number, string> = {
+	1: 'Type 1 — The Perfectionist',
+	2: 'Type 2 — The Helper',
+	3: 'Type 3 — The Achiever',
+	4: 'Type 4 — The Individualist',
+	5: 'Type 5 — The Investigator',
+	6: 'Type 6 — The Loyalist',
+	7: 'Type 7 — The Enthusiast',
+	8: 'Type 8 — The Challenger',
+	9: 'Type 9 — The Peacemaker'
+};
+
+/**
+ * Build bridge links for the profile sidebar. Bridges a profile back into
+ * the broader 9takes graph: type pillar, category page, corpus-stats anchor,
+ * and /enneagram-test. Bucket 3, internal linking and graph bridging.
+ */
+function buildPersonalityBridgeLinks({
+	enneagram,
+	types
+}: {
+	enneagram: unknown;
+	types: unknown;
+}): { label: string; href: string }[] {
+	const links: { label: string; href: string }[] = [];
+
+	const enneagramNum = (() => {
+		if (typeof enneagram === 'number' && Number.isFinite(enneagram)) return enneagram;
+		if (typeof enneagram === 'string' && enneagram.trim() !== '') {
+			const parsed = Number.parseInt(enneagram, 10);
+			return Number.isFinite(parsed) ? parsed : null;
+		}
+		return null;
+	})();
+
+	if (enneagramNum && enneagramNum >= 1 && enneagramNum <= 9) {
+		links.push({
+			label: TYPE_PILLAR_LABELS[enneagramNum] ?? `Type ${enneagramNum} pillar`,
+			href: `/enneagram-corner/enneagram-type-${enneagramNum}`
+		});
+	}
+
+	const normalizedTypes = normalizePeopleTypes(types);
+	const categorySlugs = getPersonalityCategorySlugs(normalizedTypes);
+	const primaryCategorySlug = categorySlugs[0];
+
+	if (primaryCategorySlug) {
+		const category = getPersonalityCategoryBySlug(primaryCategorySlug);
+		if (category) {
+			links.push({
+				label: `${category.shortLabel} category`,
+				href: `/personality-analysis/categories/${category.slug}`
+			});
+		}
+	}
+
+	links.push({
+		label: 'Corpus stats',
+		href: '/corpus-stats'
+	});
+
+	links.push({
+		label: 'Take the Enneagram test',
+		href: '/enneagram-test'
+	});
+
+	return links;
 }
 
 export const actions: Actions = {
