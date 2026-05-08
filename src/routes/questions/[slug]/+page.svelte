@@ -335,13 +335,17 @@
 	}
 
 	function buildSeoTitle(questionText: string): string {
+		// Long-tail SEO: preserve the full question wording so the exact-match
+		// search query lands in <title>. We only truncate at a hard ceiling to
+		// avoid pathologically long titles. Browser tab / SERP rendering will
+		// still ellipsize visually, but the full phrase is in the markup.
 		const suffix = ' | 9takes';
-		const maxLength = 60;
+		const HARD_TITLE_CEILING = 200;
 		if (!questionText) return `Questions${suffix}`;
-		if (questionText.length + suffix.length <= maxLength) {
+		if (questionText.length + suffix.length <= HARD_TITLE_CEILING) {
 			return `${questionText}${suffix}`;
 		}
-		return `${questionText.slice(0, maxLength - suffix.length - 1).trimEnd()}…${suffix}`;
+		return `${questionText.slice(0, HARD_TITLE_CEILING - suffix.length - 1).trimEnd()}…${suffix}`;
 	}
 
 	function formatPostedDate(value: string | null | undefined): string {
@@ -437,9 +441,71 @@
 	let twitterImageAlt = $derived(
 		`Question on 9takes: ${data.question?.question_formatted || data.question?.question || 'Share your perspective'}`
 	);
+	// =====================================================================
+	// Structured data
+	// We emit DiscussionForumPosting (rather than WebPage) for the question
+	// itself. 9takes is an anonymous opinion forum, not a public Q&A site —
+	// `DiscussionForumPosting` matches Google's guidance for forum-style
+	// pages where the post (question + context) is publicly visible.
+	//
+	// IMPORTANT — give-first guarantee:
+	// We deliberately do NOT include nested `comment` items in the schema.
+	// Real community comments are gated behind the give-first mechanic, and
+	// the public AI preview is a "Sample perspectives" pattern preview,
+	// NOT user discussion. Per Google's discussion-forum docs, schema
+	// markup must reflect content that's visible on the page, and per the
+	// 2026-04-07 audit guardrail: never put answer markup around gated
+	// comments and never use AI-only summaries as a substitute for visible
+	// public discussion.
+	//
+	// `commentCount` advertises forum activity without exposing private
+	// content; users still have to participate to see the thread.
+	// =====================================================================
+	let datePublished = $derived(toIsoDate(data.question?.created_at));
+	let dateModified = $derived(toIsoDate(data.question?.updated_at) || datePublished);
+	let postBodyText = $derived(
+		questionContext ? `${formattedQuestionText}\n\n${questionContext}` : formattedQuestionText
+	);
+
+	function toIsoDate(value: string | null | undefined): string {
+		if (!value) return '';
+		const parsed = new Date(value);
+		if (Number.isNaN(parsed.getTime())) return '';
+		return parsed.toISOString();
+	}
+
+	let discussionPostingNode = $derived.by(() => {
+		const node: Record<string, unknown> = {
+			'@type': 'DiscussionForumPosting',
+			'@id': `${url}#post`,
+			headline: formattedQuestionText,
+			name: formattedQuestionText,
+			text: postBodyText,
+			url,
+			mainEntityOfPage: { '@id': `${url}#webpage` },
+			inLanguage: 'en-US',
+			isPartOf: {
+				'@type': 'WebSite',
+				name: '9takes',
+				url: 'https://9takes.com'
+			},
+			author: {
+				'@type': 'Person',
+				name: 'Anonymous 9takes member'
+			},
+			image: imgUrl,
+			commentCount: Math.max(data.comment_count || 0, 0)
+		};
+		if (datePublished) node.datePublished = datePublished;
+		if (dateModified) node.dateModified = dateModified;
+		if (categoryNames.length) node.keywords = categoryNames.join(', ');
+		return node;
+	});
+
 	let questionStructuredData = $derived.by(() => ({
 		'@context': 'https://schema.org',
 		'@graph': [
+			discussionPostingNode,
 			{
 				'@type': 'WebPage',
 				'@id': `${url}#webpage`,
@@ -458,7 +524,8 @@
 				primaryImageOfPage: {
 					'@type': 'ImageObject',
 					url: imgUrl
-				}
+				},
+				mainEntity: { '@id': `${url}#post` }
 			},
 			{
 				'@id': `${url}#breadcrumb`,
