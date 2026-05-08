@@ -79,7 +79,7 @@ Sam had read Dale Carnegie's _How to Win Friends and Influence People_ in sixth 
 
 After college, Sam moved to San Francisco to start an internet company. He shipped Sid via Delta cargo. The airline accidentally routed the dog to Miami first.
 
-He co-founded Bunk, a roommate-matching app ("Tinder for roommates"), and sold it to Apartment List for $15,000. Then he cold-emailed Brian Chesky at Airbnb with unsolicited advice on improving their website. Got an interview. Got an offer.
+He co-founded Bunk, a roommate-matching app ("Tinder for roommates"), and sold it to Apartment List for $15,000. Then he cold-emailed [Brian Chesky](/personality-analysis/brian-chesky) at Airbnb with unsolicited advice on improving their website. Got an interview. Got an offer.
 
 And then the background check.
 

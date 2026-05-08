@@ -173,7 +173,7 @@ Nixon believed he was above the law. His Machiavellianism justified any means fo
 
 ### Elizabeth Holmes: Fake It Till Someone Dies
 
-**Elizabeth Holmes** ran Theranos for years knowing the blood testing technology didn't work:
+**[Elizabeth Holmes](/personality-analysis/elizabeth-holmes)** ran Theranos for years knowing the blood testing technology didn't work:
 
 - Created elaborate fake demonstrations for investors
 - Maintained a "Steve Jobs" persona (the black turtlenecks, the lowered voice)

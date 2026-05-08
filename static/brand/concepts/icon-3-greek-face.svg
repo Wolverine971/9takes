@@ -1,85 +1,162 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256" role="img" aria-label="9takes — Greek statue profile with glowing eye">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256" role="img" aria-label="9takes — Greek statue profile">
   <title>9takes — Streetlamp Symposium</title>
-  <desc>Classical Greek statue profile carved from warm stone. A sodium-amber light bleeds from a single eye and from hairline cracks. The brand mood made literal.</desc>
+  <desc>Classical Greek statue profile carved from warm marble. Lit from upper-left like a streetlamp pool. Sodium-amber light bleeds from the eye and hairline cracks. The locked brand mood made into a face.</desc>
 
   <defs>
-    <radialGradient id="gf-stone" cx="35%" cy="30%" r="85%">
+    <!-- Plate background — warm-stone night with a top-left light pool -->
+    <radialGradient id="gf-plate" cx="32%" cy="22%" r="90%">
       <stop offset="0%"  stop-color="#3a302a"/>
-      <stop offset="50%" stop-color="#241D17"/>
+      <stop offset="35%" stop-color="#241D17"/>
       <stop offset="100%" stop-color="#0a0807"/>
     </radialGradient>
 
-    <radialGradient id="gf-marble" cx="50%" cy="50%" r="50%">
-      <stop offset="0%"  stop-color="#FAF8F4" stop-opacity="0.18"/>
-      <stop offset="100%" stop-color="#FAF8F4" stop-opacity="0"/>
+    <!-- Marble stone gradient — lit from upper-left.
+         Highlight where the streetlamp falls, deep shadow on the right side. -->
+    <linearGradient id="gf-marble" x1="0.1" y1="0.1" x2="0.95" y2="0.95">
+      <stop offset="0%"  stop-color="#e8d8c0"/>
+      <stop offset="18%" stop-color="#c9b393"/>
+      <stop offset="45%" stop-color="#7d6a5b"/>
+      <stop offset="72%" stop-color="#3a302a"/>
+      <stop offset="100%" stop-color="#16110d"/>
+    </linearGradient>
+
+    <!-- Warmer glow on the lit side (sodium-amber rim) -->
+    <linearGradient id="gf-rim" x1="0.05" y1="0.1" x2="0.6" y2="0.5">
+      <stop offset="0%"  stop-color="#F59E0B" stop-opacity="0.22"/>
+      <stop offset="60%" stop-color="#F59E0B" stop-opacity="0"/>
+    </linearGradient>
+
+    <!-- Top-left streetlamp pool (lights the air around the statue) -->
+    <radialGradient id="gf-pool" cx="22%" cy="18%" r="60%">
+      <stop offset="0%"  stop-color="#F59E0B" stop-opacity="0.28"/>
+      <stop offset="40%" stop-color="#B45309" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#0a0807" stop-opacity="0"/>
     </radialGradient>
 
-    <radialGradient id="gf-eye" cx="50%" cy="50%" r="50%">
-      <stop offset="0%"  stop-color="#FBBF24"/>
-      <stop offset="50%" stop-color="#F59E0B"/>
-      <stop offset="100%" stop-color="#B45309" stop-opacity="0"/>
+    <!-- Eye glow -->
+    <radialGradient id="gf-eye" cx="45%" cy="45%" r="55%">
+      <stop offset="0%"  stop-color="#FFFBEB"/>
+      <stop offset="22%" stop-color="#FBBF24"/>
+      <stop offset="55%" stop-color="#F59E0B"/>
+      <stop offset="100%" stop-color="#7c2d12" stop-opacity="0"/>
     </radialGradient>
 
+    <!-- Floor pool of warm light -->
+    <radialGradient id="gf-floor" cx="50%" cy="50%" r="50%">
+      <stop offset="0%"  stop-color="#F59E0B" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#F59E0B" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Crack glow -->
     <filter id="gf-glow" x="-50%" y="-50%" width="200%" height="200%">
-      <feGaussianBlur in="SourceGraphic" stdDeviation="2.5" result="blur"/>
+      <feGaussianBlur stdDeviation="1.4" result="b"/>
       <feMerge>
-        <feMergeNode in="blur"/>
+        <feMergeNode in="b"/>
         <feMergeNode in="SourceGraphic"/>
       </feMerge>
     </filter>
+
+    <filter id="gf-amber-bloom" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="3.2"/>
+    </filter>
+
+    <!-- Classical Greek profile, facing right.
+         Drawn with smooth cubic Beziers. Iconic features:
+           · voluminous swept-back hair
+           · high forehead
+           · "Greek nose" — near-straight line from forehead to nose tip
+           · cupid's-bow upper lip, defined lower lip
+           · strong forward chin
+           · angular jaw -->
+    <path id="gf-profile"
+          d="M 78,52
+             C 64,44 60,32 78,28
+             C 110,18 152,22 178,42
+             C 200,60 208,86 200,108
+             C 196,118 190,124 186,128
+             C 188,132 184,134 180,134
+             L 196,148
+             C 206,156 212,164 206,170
+             C 200,174 192,170 184,170
+             C 182,174 180,178 184,180
+             C 188,182 188,186 184,188
+             L 184,194
+             C 192,194 196,200 192,204
+             C 188,206 184,206 182,208
+             L 180,214
+             C 188,214 192,222 188,228
+             L 184,234
+             C 180,238 184,242 188,246
+             L 184,252
+             L 130,252
+             C 110,250 92,242 84,228
+             C 78,218 76,202 76,186
+             C 70,178 64,166 64,150
+             C 60,140 60,128 64,118
+             C 60,108 60,96 64,86
+             C 62,74 66,62 78,52 Z"/>
   </defs>
 
-  <!-- Background plate -->
-  <rect x="0" y="0" width="256" height="256" rx="40" fill="url(#gf-stone)"/>
+  <!-- Plate -->
+  <rect x="0" y="0" width="256" height="256" rx="36" fill="url(#gf-plate)"/>
 
-  <!-- Soft top-left rim light (the streetlamp falling on stone) -->
-  <ellipse cx="80" cy="60" rx="120" ry="100" fill="url(#gf-marble)"/>
+  <!-- Streetlamp pool falling on the scene from upper-left -->
+  <rect x="0" y="0" width="256" height="256" rx="36" fill="url(#gf-pool)"/>
 
-  <!-- Greek profile silhouette, facing right.
-       Carved from one path. Reads as a face at small sizes. -->
-  <path
-    d="M 78,224
-       C 64,210 60,170 62,130
-       C 60,90 70,52 100,40
-       C 130,30 158,38 174,62
-       C 184,80 184,98 182,108
-       L 196,124
-       L 208,138
-       L 200,144
-       L 184,144
-       L 184,150
-       L 192,158
-       L 184,164
-       L 188,178
-       L 178,184
-       L 188,200
-       L 174,212
-       L 174,224
-       Z"
-    fill="#241D17"
-    stroke="#5C4F47"
-    stroke-width="2"
-    stroke-linejoin="round"/>
+  <!-- Statue silhouette: marble-shaded body -->
+  <use href="#gf-profile" fill="url(#gf-marble)"/>
 
-  <!-- Hairline cracks across the cheek and forehead (amber, glowing) -->
-  <g stroke="#F59E0B" stroke-width="1.2" stroke-linecap="round" fill="none" filter="url(#gf-glow)" opacity="0.85">
-    <path d="M 110,60 L 132,84"/>
-    <path d="M 132,84 L 124,108"/>
-    <path d="M 132,84 L 152,98"/>
-    <path d="M 96,150 L 130,170"/>
-    <path d="M 130,170 L 148,176"/>
-    <path d="M 130,170 L 138,196"/>
+  <!-- Lit-side amber rim wash -->
+  <use href="#gf-profile" fill="url(#gf-rim)" pointer-events="none"/>
+
+  <!-- Crisp dark outline -->
+  <use href="#gf-profile" fill="none" stroke="#0a0807" stroke-width="1.5" stroke-linejoin="round"/>
+
+  <!-- Subtle marble veining inside the statue -->
+  <clipPath id="gf-clip"><use href="#gf-profile"/></clipPath>
+  <g clip-path="url(#gf-clip)" stroke="#5C4F47" stroke-width="0.6" fill="none" opacity="0.45">
+    <path d="M 90,80 C 110,90 140,82 170,98"/>
+    <path d="M 80,140 C 110,148 150,142 180,156"/>
+    <path d="M 100,200 C 130,206 160,202 178,212"/>
+    <path d="M 96,40 C 120,52 150,46 168,58"/>
   </g>
 
-  <!-- The single eye — sodium-amber illumination -->
-  <circle cx="158" cy="108" r="14" fill="url(#gf-eye)"/>
-  <circle cx="158" cy="108" r="5"  fill="#FBBF24"/>
-  <circle cx="158" cy="108" r="2"  fill="#FEF3C7"/>
+  <!-- Brow shadow — reads as the eye socket lid above the eye -->
+  <g clip-path="url(#gf-clip)">
+    <path d="M 152,108 Q 168,100 184,108"
+          fill="none" stroke="#0a0807" stroke-width="3.2" stroke-linecap="round" opacity="0.55"/>
+  </g>
 
-  <!-- Subtle brow shadow above eye -->
-  <path d="M 144,98 Q 158,92 172,100"
-        fill="none" stroke="#0a0807" stroke-width="2" stroke-linecap="round" opacity="0.6"/>
+  <!-- Hairline cracks across the cheek and forehead — amber glowing -->
+  <g clip-path="url(#gf-clip)">
+    <g filter="url(#gf-glow)" stroke-linecap="round" fill="none">
+      <!-- Cheek crack -->
+      <path d="M 116,148 Q 138,158 162,164" stroke="#F59E0B" stroke-width="1.6"/>
+      <path d="M 138,158 L 132,176" stroke="#F59E0B" stroke-width="1"/>
+      <path d="M 138,158 L 154,172" stroke="#F59E0B" stroke-width="0.9"/>
+      <!-- Forehead crack -->
+      <path d="M 102,72 Q 130,80 156,86" stroke="#F59E0B" stroke-width="1.4"/>
+      <path d="M 130,80 L 122,98" stroke="#F59E0B" stroke-width="0.9"/>
+      <!-- Jaw crack -->
+      <path d="M 128,212 Q 146,218 168,222" stroke="#F59E0B" stroke-width="1.2"/>
+    </g>
+    <!-- Pinpoint glow at crack intersections -->
+    <circle cx="138" cy="158" r="2.4" fill="#FBBF24" opacity="0.95"/>
+    <circle cx="130" cy="80" r="2" fill="#FBBF24" opacity="0.95"/>
+  </g>
 
-  <!-- Pool of warm light at the base (the streetlamp reference) -->
-  <ellipse cx="128" cy="240" rx="90" ry="8" fill="#F59E0B" opacity="0.18"/>
+  <!-- The illuminated eye — sodium-amber sun -->
+  <g filter="url(#gf-amber-bloom)" opacity="0.55">
+    <circle cx="170" cy="118" r="14" fill="#F59E0B"/>
+  </g>
+  <circle cx="170" cy="118" r="9" fill="url(#gf-eye)"/>
+  <circle cx="170" cy="118" r="4.5" fill="#FBBF24"/>
+  <circle cx="170" cy="118" r="2" fill="#FFFBEB"/>
+
+  <!-- Lower eyelid line below the eye for definition -->
+  <path d="M 162,124 Q 170,128 178,124"
+        fill="none" stroke="#0a0807" stroke-width="1.4" stroke-linecap="round" opacity="0.7"/>
+
+  <!-- Floor pool of warm light at base -->
+  <ellipse cx="128" cy="244" rx="110" ry="9" fill="url(#gf-floor)"/>
 </svg>

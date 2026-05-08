@@ -1,100 +1,174 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256" role="img" aria-label="9takes — cracked marble 9">
-  <title>9takes — Cracked Marble 9</title>
-  <desc>The numeral nine carved from warm stone with sodium-amber light bleeding through hairline cracks. A direct evolution of the wordmark into a mark.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256" role="img" aria-label="9takes — engraved marble nine">
+  <title>9takes — Engraved Marble 9</title>
+  <desc>The numeral nine engraved into a warm marble plaque. Sodium-amber light pools in the carved indentation. A craftsman's stamp.</desc>
 
   <defs>
-    <radialGradient id="m9-bg" cx="38%" cy="32%" r="80%">
-      <stop offset="0%"  stop-color="#3a302a"/>
-      <stop offset="60%" stop-color="#241D17"/>
-      <stop offset="100%" stop-color="#0a0807"/>
-    </radialGradient>
-
-    <linearGradient id="m9-stone" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%"  stop-color="#5C4F47"/>
-      <stop offset="40%" stop-color="#3a302a"/>
+    <!-- Marble surface — lit from upper-left -->
+    <linearGradient id="m9-surface" x1="0.05" y1="0.05" x2="0.95" y2="0.95">
+      <stop offset="0%"  stop-color="#f3e6d0"/>
+      <stop offset="22%" stop-color="#d9c2a1"/>
+      <stop offset="50%" stop-color="#9a8167"/>
+      <stop offset="78%" stop-color="#5C4F47"/>
       <stop offset="100%" stop-color="#241D17"/>
     </linearGradient>
 
-    <radialGradient id="m9-crack" cx="50%" cy="50%" r="50%">
-      <stop offset="0%"  stop-color="#FBBF24"/>
-      <stop offset="60%" stop-color="#F59E0B"/>
-      <stop offset="100%" stop-color="#B45309" stop-opacity="0"/>
+    <!-- Soft amber rim wash on the lit side -->
+    <linearGradient id="m9-rim-wash" x1="0.05" y1="0.05" x2="0.65" y2="0.55">
+      <stop offset="0%"  stop-color="#F59E0B" stop-opacity="0.18"/>
+      <stop offset="60%" stop-color="#F59E0B" stop-opacity="0"/>
+    </linearGradient>
+
+    <!-- Engraved interior of the "9" — deep shadow with a warm pool of amber light at the bottom of the indentation -->
+    <linearGradient id="m9-carve" x1="0.5" y1="0" x2="0.5" y2="1">
+      <stop offset="0%"  stop-color="#0a0807"/>
+      <stop offset="35%" stop-color="#1a1410"/>
+      <stop offset="70%" stop-color="#3a302a"/>
+      <stop offset="100%" stop-color="#5C4F47"/>
+    </linearGradient>
+
+    <!-- Amber pool deep inside the engraving (catches sodium light) -->
+    <radialGradient id="m9-amber-pool" cx="50%" cy="62%" r="55%">
+      <stop offset="0%"  stop-color="#FBBF24" stop-opacity="0.55"/>
+      <stop offset="40%" stop-color="#F59E0B" stop-opacity="0.28"/>
+      <stop offset="100%" stop-color="#7c2d12" stop-opacity="0"/>
     </radialGradient>
 
-    <filter id="m9-glow" x="-50%" y="-50%" width="200%" height="200%">
-      <feGaussianBlur in="SourceGraphic" stdDeviation="3" result="blur"/>
-      <feMerge>
-        <feMergeNode in="blur"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
+    <!-- Inner-edge highlight on the carved rim (where the chisel caught the light) -->
+    <linearGradient id="m9-edge-light" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%"  stop-color="#FFFBEB" stop-opacity="0.85"/>
+      <stop offset="50%" stop-color="#FBBF24" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#FFFBEB" stop-opacity="0"/>
+    </linearGradient>
+
+    <!-- Top-left corner glaze for the plaque -->
+    <radialGradient id="m9-plaque-glaze" cx="22%" cy="18%" r="65%">
+      <stop offset="0%"  stop-color="#FFFBEB" stop-opacity="0.35"/>
+      <stop offset="60%" stop-color="#FFFBEB" stop-opacity="0.04"/>
+      <stop offset="100%" stop-color="#FFFBEB" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Subtle vignette -->
+    <radialGradient id="m9-vignette" cx="50%" cy="50%" r="65%">
+      <stop offset="60%" stop-color="#000" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#000" stop-opacity="0.45"/>
+    </radialGradient>
+
+    <filter id="m9-amber-bloom" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="4"/>
     </filter>
 
-    <!-- Hand-rolled outline of "9" so the SVG isn't font-dependent.
-         Outer head (CCW) + tail; inner counter (CW for even-odd hole). -->
+    <filter id="m9-inner-shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="b"/>
+      <feOffset dx="2" dy="3" result="o"/>
+      <feComposite in="o" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadow"/>
+      <feComposite in="shadow" in2="SourceAlpha" operator="in"/>
+    </filter>
+
+    <!-- Hand-rolled "9" path. Outer body + inner counter (even-odd hole). -->
     <path id="m9-shape"
+          d="M 128,28
+             C 88,28  58,58  58,98
+             C 58,134 86,162 124,162
+             C 138,162 152,158 162,150
+             L 162,158
+             C 158,184 142,202 116,210
+             L 96,216
+             C 96,222 100,228 110,228
+             L 188,228
+             C 198,200 206,162 208,116
+             C 210,68 178,28 128,28 Z
+
+             M 128,68
+             C 108,68 92,84 92,104
+             C 92,124 108,138 128,138
+             C 148,138 168,124 168,104
+             C 168,84 148,68 128,68 Z"
+          fill-rule="evenodd"/>
+
+    <!-- Slightly smaller version for the inset highlight -->
+    <path id="m9-shape-inset"
           d="M 128,32
-             C 92,32 64,60 64,98
-             C 64,134 90,160 124,160
-             C 138,160 150,156 158,150
-             L 158,158
-             C 156,182 142,202 116,212
-             L 96,220
-             L 102,224
-             L 188,224
-             C 200,194 208,154 208,108
-             C 208,60 174,32 128,32 Z
+             C 90,32 62,62 62,98
+             C 62,132 88,158 124,158
+             C 138,158 150,154 160,148
+             L 160,158
+             C 156,182 140,200 114,206
+             L 96,212
+             C 96,218 100,224 110,224
+             L 184,224
+             C 194,198 202,160 204,116
+             C 206,70 174,32 128,32 Z
 
              M 128,72
              C 110,72 96,86 96,104
              C 96,122 110,134 128,134
-             C 146,134 162,122 162,104
-             C 162,86 146,72 128,72 Z"
+             C 146,134 164,122 164,104
+             C 164,86 146,72 128,72 Z"
           fill-rule="evenodd"/>
   </defs>
 
-  <!-- Plate -->
-  <rect x="0" y="0" width="256" height="256" rx="40" fill="url(#m9-bg)"/>
+  <!-- Marble plaque background -->
+  <rect x="0" y="0" width="256" height="256" rx="36" fill="url(#m9-surface)"/>
 
-  <!-- Subtle warm pool from upper-left -->
-  <ellipse cx="80" cy="64" rx="120" ry="90" fill="#F59E0B" opacity="0.06"/>
+  <!-- Warm rim wash over the lit side of the plaque -->
+  <rect x="0" y="0" width="256" height="256" rx="36" fill="url(#m9-rim-wash)"/>
 
-  <!-- Stone "9" -->
-  <use href="#m9-shape" fill="url(#m9-stone)" stroke="#5C4F47" stroke-width="2" stroke-linejoin="round"/>
-
-  <!-- Cracks: only visible inside the "9" via clipPath -->
-  <clipPath id="m9-clip">
-    <use href="#m9-shape"/>
-  </clipPath>
-
-  <g clip-path="url(#m9-clip)">
-    <!-- Soft amber under-glow inside the cracks -->
-    <g filter="url(#m9-glow)" opacity="0.95">
-      <!-- Major diagonal crack across the head -->
-      <path d="M 76,72 Q 110,90 128,108 Q 152,126 176,140"
-            fill="none" stroke="#FBBF24" stroke-width="2.2" stroke-linecap="round"/>
-      <!-- Branch cracks off the main -->
-      <path d="M 110,90 L 122,68"
-            fill="none" stroke="#F59E0B" stroke-width="1.4" stroke-linecap="round"/>
-      <path d="M 128,108 L 144,96"
-            fill="none" stroke="#F59E0B" stroke-width="1.4" stroke-linecap="round"/>
-      <path d="M 152,126 L 168,114"
-            fill="none" stroke="#F59E0B" stroke-width="1.4" stroke-linecap="round"/>
-
-      <!-- Tail crack continuing into the descender -->
-      <path d="M 176,140 Q 174,176 158,200 Q 138,218 116,224"
-            fill="none" stroke="#F59E0B" stroke-width="1.6" stroke-linecap="round"/>
-      <path d="M 158,200 L 170,212"
-            fill="none" stroke="#F59E0B" stroke-width="1.2" stroke-linecap="round"/>
-    </g>
-
-    <!-- Pinpoint glow nodes where cracks intersect -->
-    <circle cx="110" cy="90"  r="3" fill="url(#m9-crack)"/>
-    <circle cx="128" cy="108" r="3.5" fill="url(#m9-crack)"/>
-    <circle cx="152" cy="126" r="3" fill="url(#m9-crack)"/>
-    <circle cx="176" cy="140" r="3.5" fill="url(#m9-crack)"/>
-    <circle cx="158" cy="200" r="3" fill="url(#m9-crack)"/>
+  <!-- Subtle marble veining on the surface -->
+  <g stroke="#7d6a5b" stroke-width="0.8" fill="none" opacity="0.35">
+    <path d="M 16,40 C 70,32 130,52 240,28"/>
+    <path d="M 8,128 C 80,140 160,118 248,138"/>
+    <path d="M 16,200 C 90,212 160,194 248,210"/>
+  </g>
+  <g stroke="#5C4F47" stroke-width="0.5" fill="none" opacity="0.45">
+    <path d="M 30,72 C 110,84 170,68 232,90"/>
+    <path d="M 24,170 C 100,178 170,160 240,182"/>
   </g>
 
-  <!-- Pool of warm light at the base -->
-  <ellipse cx="128" cy="240" rx="90" ry="6" fill="#F59E0B" opacity="0.2"/>
+  <!-- Engraved indentation: cast shadow from the carved rim, then the carved well -->
+
+  <!-- Outer cast shadow around carved edge (suggests depth) -->
+  <use href="#m9-shape" fill="#0a0807" opacity="0.85" transform="translate(2 3)" filter="url(#m9-amber-bloom)"/>
+
+  <!-- The carved well — recessed dark interior -->
+  <use href="#m9-shape" fill="url(#m9-carve)"/>
+
+  <!-- Amber light pooling at the bottom of the carving -->
+  <clipPath id="m9-clip"><use href="#m9-shape"/></clipPath>
+  <g clip-path="url(#m9-clip)">
+    <rect x="0" y="0" width="256" height="256" fill="url(#m9-amber-pool)"/>
+
+    <!-- Inner cast shadow at the top edge of the carving (chisel-deep effect) -->
+    <use href="#m9-shape" fill="#0a0807" opacity="0.75" transform="translate(0 -3)" filter="url(#m9-amber-bloom)" style="mix-blend-mode: multiply"/>
+
+    <!-- Faint light bounce from amber pool back onto the inside walls -->
+    <ellipse cx="128" cy="200" rx="80" ry="40" fill="#F59E0B" opacity="0.18" filter="url(#m9-amber-bloom)"/>
+    <ellipse cx="128" cy="190" rx="40" ry="14" fill="#FBBF24" opacity="0.45" filter="url(#m9-amber-bloom)"/>
+
+    <!-- Tiny bright amber gem deep in the well, like a sodium-vapor element -->
+    <circle cx="128" cy="190" r="6" fill="#FBBF24" filter="url(#m9-amber-bloom)" opacity="0.9"/>
+    <circle cx="128" cy="190" r="3" fill="#FFFBEB"/>
+  </g>
+
+  <!-- Crisp inner-edge highlight where the chisel caught the upper-left light -->
+  <use href="#m9-shape" fill="none" stroke="url(#m9-edge-light)" stroke-width="1.4" stroke-linejoin="round"/>
+  <use href="#m9-shape-inset" fill="none" stroke="#FFFBEB" stroke-width="0.6" stroke-linejoin="round" opacity="0.4"/>
+
+  <!-- Hairline crack on the marble surface (around but not through the engraving) -->
+  <g fill="none" stroke="#5C4F47" stroke-width="0.7" stroke-linecap="round" opacity="0.6">
+    <path d="M 220,40 Q 232,80 230,108"/>
+    <path d="M 230,108 L 244,128"/>
+    <path d="M 16,228 Q 36,224 56,236"/>
+  </g>
+
+  <!-- Plaque corner glaze -->
+  <rect x="0" y="0" width="256" height="256" rx="36" fill="url(#m9-plaque-glaze)" pointer-events="none"/>
+
+  <!-- Soft vignette toward edges -->
+  <rect x="0" y="0" width="256" height="256" rx="36" fill="url(#m9-vignette)" pointer-events="none"/>
+
+  <!-- Tiny mono kicker (hint at the tech-spec dossier feel) -->
+  <text x="128" y="248" text-anchor="middle"
+        font-family="JetBrains Mono, ui-monospace, monospace"
+        font-size="6.5" fill="#5C4F47" letter-spacing="2.5"
+        opacity="0.85">§ 9TAKES</text>
 </svg>

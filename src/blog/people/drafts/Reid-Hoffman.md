@@ -212,7 +212,7 @@ Worth pausing on what LinkedIn became, because Hoffman rarely engages it in publ
 
 After LinkedIn proved the model, Hoffman did something unusual for a tech CEO. Instead of just running his company, he tried to articulate _why_ it had worked, and then generalize that logic into a theory anyone could use.
 
-In Fall 2015, he co-taught Stanford's CS183C with Chris Yeh, John Lilly, and Allen Blue. Every two weeks, the course covered a different stage of company growth, from "household" to "village" to "nation," with guests like Eric Schmidt, Reed Hastings, Brian Chesky, and Patrick Collison offering case studies. They recorded every session and released them publicly.
+In Fall 2015, he co-taught Stanford's CS183C with Chris Yeh, John Lilly, and Allen Blue. Every two weeks, the course covered a different stage of company growth, from "household" to "village" to "nation," with guests like Eric Schmidt, Reed Hastings, [Brian Chesky](/personality-analysis/brian-chesky), and Patrick Collison offering case studies. They recorded every session and released them publicly.
 
 The concept that emerged, "blitzscaling," was deceptively simple: in winner-take-all markets, prioritize speed over efficiency. The military metaphor was intentional. Where traditional armies advanced slowly, securing supply lines and retreat paths, blitzkrieg pushed speed and surprise at the risk of running out of provisions. Hoffman saw the same tradeoff in tech.
 

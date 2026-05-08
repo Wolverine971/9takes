@@ -8,7 +8,7 @@ loc: 'https://9takes.com/pop-culture/tech-titans-disruptors'
 lastmod: '2026-03-21'
 changefreq: 'monthly'
 priority: '0.6'
-published: false
+published: true
 type: ['situational']
 blog: true
 previewHtml: ''
@@ -115,7 +115,7 @@ That means 8s and 5s. And they disrupt in fundamentally different ways.
 
 ## Rabbit Holes Worth Exploring
 
-- **The WeWork Saga**: Adam Neumann as a Type 3 (or 7?) attempting disruption. Disruption without an 8's force or a 5's analytical rigor—just narrative and charm. Why did it fail?
+- **The WeWork Saga**: [Adam Neumann](/personality-analysis/adam-neumann) as a Type 3 attempting disruption. Disruption without an 8's force or a 5's analytical rigor—just narrative and charm. Why did it fail?
 - **Jensen Huang as Non-Disruptor Disruptor**: Nvidia didn't disrupt GPUs. It EVOLVED them until they became essential for AI. Is there a Type 3 version of disruption—not breaking an industry but repositioning within it until you're indispensable?
 - **The Second-Time Founder Pattern**: Musk after PayPal. Dorsey after Twitter (Block). Kalanick after Uber (ghost kitchens). Does the type determine what you build the second time?
 - **Disruption Fatigue**: At what point does a disruptor's type become a liability? Musk's 5 served him in automotive and aerospace but arguably failed in social media. Do types have disruption limits?

@@ -22,21 +22,21 @@ Write a single pop-culture blog post for `9takes.com/pop-culture/fallen-founders
 
 **The four-character cast (all types confirmed via shipped 9takes drafts):**
 
-| # | Founder | Type | Persona | Outcome | Why they belong |
-|---|---|---|---|---|---|
-| 1 | Adam Neumann | **7w8** ("the Realist") | _Capital's Barefoot Prophet_ | No criminal charges. $1.7B exit + $2.5B new company (Flow). | The 7 who slithered out — same type as Branson, no integration brake. |
-| 2 | Elizabeth Holmes | **3w2** ("the charmer") | _Silicon Valley's Empty Costume_ | 11.25 years at FPC Bryan, TX. | The 3w2 who built the founder before the product — patron-collection over substance. |
-| 3 | Sam Bankman-Fried | **5w6** (sx/so stack) | _Crypto's Disembodied Calculator_ | 25 years federal + $11B forfeiture. | The 5 who calculated his way into prison — utilitarian arithmetic substituted for ethics. |
-| 4 | Sam Altman | **4** | (existing — already typed) | Still aloft. The live experiment. | The 4 with all three structural ingredients. Saved by GPT actually working + Microsoft entanglement + employee revolt. |
+| #   | Founder           | Type                    | Persona                           | Outcome                                                     | Why they belong                                                                                                        |
+| --- | ----------------- | ----------------------- | --------------------------------- | ----------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------- |
+| 1   | Adam Neumann      | **7w8** ("the Realist") | _Capital's Barefoot Prophet_      | No criminal charges. $1.7B exit + $2.5B new company (Flow). | The 7 who slithered out — same type as Branson, no integration brake.                                                  |
+| 2   | Elizabeth Holmes  | **3w2** ("the charmer") | _Silicon Valley's Empty Costume_  | 11.25 years at FPC Bryan, TX.                               | The 3w2 who built the founder before the product — patron-collection over substance.                                   |
+| 3   | Sam Bankman-Fried | **5w6** (sx/so stack)   | _Crypto's Disembodied Calculator_ | 25 years federal + $11B forfeiture.                         | The 5 who calculated his way into prison — utilitarian arithmetic substituted for ethics.                              |
+| 4   | Sam Altman        | **4**                   | (existing — already typed)        | Still aloft. The live experiment.                           | The 4 with all three structural ingredients. Saved by GPT actually working + Microsoft entanglement + employee revolt. |
 
 **The structural insight that organizes the blog:** _Each cautionary founder's disintegration arrow IS the specific shape of their downfall._ Map it explicitly:
 
-| Founder | Stress arrow | What it looks like in the wild |
-|---|---|---|
-| Neumann | 7 → 1 | Manic visionary turns rigid. Yelling at staff, micromanaging, lecturing. The 7 who suddenly sounds like a 1 telling everyone they're doing it wrong. |
-| Holmes | 3 → 9 | The self disengages under accountability. **600+ "I don't know" answers in deposition.** That's the arrow on the public record. |
-| SBF | 5 → 7 | Math fails, the 5 cannot retreat further into analysis, so it explodes outward into manic 7 chaos: late-stage chaotic acquisitions, Naming Rights Era, the post-collapse media tour during a federal investigation. |
-| Altman | 4 → 2 | Identity-merging with whichever audience he needs in the moment. "Producing the version of himself the room needs." Already covered in the existing musk-vs-altman blog. |
+| Founder | Stress arrow | What it looks like in the wild                                                                                                                                                                                      |
+| ------- | ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Neumann | 7 → 1        | Manic visionary turns rigid. Yelling at staff, micromanaging, lecturing. The 7 who suddenly sounds like a 1 telling everyone they're doing it wrong.                                                                |
+| Holmes  | 3 → 9        | The self disengages under accountability. **600+ "I don't know" answers in deposition.** That's the arrow on the public record.                                                                                     |
+| SBF     | 5 → 7        | Math fails, the 5 cannot retreat further into analysis, so it explodes outward into manic 7 chaos: late-stage chaotic acquisitions, Naming Rights Era, the post-collapse media tour during a federal investigation. |
+| Altman  | 4 → 2        | Identity-merging with whichever audience he needs in the moment. "Producing the version of himself the room needs." Already covered in the existing musk-vs-altman blog.                                            |
 
 ---
 
@@ -67,15 +67,15 @@ Do not read the upstream brief (`docs/seo/cautionary-tales-founders-blog-brief-2
 ```yaml
 ---
 title: "The Fallen Founders: What Holmes, Neumann, and Bankman-Fried Reveal About Tech's Personality Blind Spot"
-meta_title: "Holmes, Neumann, SBF: The Personality Types Behind Tech Fraud"
+meta_title: 'Holmes, Neumann, SBF: The Personality Types Behind Tech Fraud'
 description: "Same types that built Apple and Amazon built Theranos and FTX. Holmes (3w2), Neumann (7w8), SBF (5w6) — and Sam Altman (4) is the live experiment. Here's the cautionary-tale pattern tech keeps missing."
 author: 'DJ Wayne'
-date: '2026-05-XX'  # set on publish
+date: '2026-05-XX' # set on publish
 loc: 'https://9takes.com/pop-culture/fallen-founders-enneagram-analysis'
 lastmod: '2026-05-XX'
 changefreq: 'monthly'
 priority: '0.6'
-published: false  # flip to true when DJ approves
+published: false # flip to true when DJ approves
 type: ['situational']
 blog: true
 previewHtml: ''
@@ -101,9 +101,9 @@ After the frontmatter, open with the standard pop-culture script block (match `t
 
 ```svelte
 <script>
-	import PopCard from "$lib/components/atoms/PopCard.svelte";
-	import QuickAnswer from "$lib/components/blog/callouts/QuickAnswer.svelte";
-	import InsightBox from "$lib/components/blog/callouts/InsightBox.svelte";
+	import PopCard from '$lib/components/atoms/PopCard.svelte';
+	import QuickAnswer from '$lib/components/blog/callouts/QuickAnswer.svelte';
+	import InsightBox from '$lib/components/blog/callouts/InsightBox.svelte';
 </script>
 ```
 
@@ -116,8 +116,20 @@ These are anchored. Drop them in, edit lightly for cadence if needed, but keep t
 ## QuickAnswer (drop in immediately after the script block)
 
 ```svelte
-<QuickAnswer question="What do Adam Neumann, Elizabeth Holmes, and Sam Bankman-Fried have in common psychologically?">
-They are three different Enneagram types running the same dynamic: a founder personality without an integration mechanism. Neumann is a Type 7w8 — the empire-builder enthusiast who, like Richard Branson, can't stop expanding; he walked free because 7s always have the next room cued up. Holmes is a Type 3w2 — the achievement engine with the helper wing, who collected Henry Kissinger and James Mattis as patrons before the blood-test device worked; she went to prison because the gap between her image and her product was 100%. SBF is a Type 5w6 — the systems-mastery rationalist who, like Bill Gates or Mark Zuckerberg, builds from first principles; he got 25 years because juries hate cold rationalists who explain their fraud with arithmetic. Sam Altman is a Type 4 in the same structural position right now — and the only thing keeping him from this list is that GPT actually works. Fraud isn't a personality type. Fraud is what happens when any type runs without a check.
+<QuickAnswer
+	question="What do Adam Neumann, Elizabeth Holmes, and Sam Bankman-Fried have in common psychologically?"
+>
+	They are three different Enneagram types running the same dynamic: a founder personality without
+	an integration mechanism. Neumann is a Type 7w8 — the empire-builder enthusiast who, like Richard
+	Branson, can't stop expanding; he walked free because 7s always have the next room cued up. Holmes
+	is a Type 3w2 — the achievement engine with the helper wing, who collected Henry Kissinger and
+	James Mattis as patrons before the blood-test device worked; she went to prison because the gap
+	between her image and her product was 100%. SBF is a Type 5w6 — the systems-mastery rationalist
+	who, like Bill Gates or Mark Zuckerberg, builds from first principles; he got 25 years because
+	juries hate cold rationalists who explain their fraud with arithmetic. Sam Altman is a Type 4 in
+	the same structural position right now — and the only thing keeping him from this list is that GPT
+	actually works. Fraud isn't a personality type. Fraud is what happens when any type runs without a
+	check.
 </QuickAnswer>
 ```
 
@@ -149,12 +161,12 @@ Use the pre-written hook above. End the section with the line: _"This isn't a st
 
 The table is the visual anchor. Put it here, not at the end.
 
-| Founder | Type | Company peak | Fraud type | Criminal status | Today |
-|---|---|---|---|---|---|
-| Adam Neumann | 7w8 | WeWork — $47B | Self-dealing, governance fraud | **No criminal charges, ever** | Flow ($2.5B valuation, a16z-backed) |
-| Elizabeth Holmes | 3w2 | Theranos — $9B | Investor + patient fraud | Convicted 2022 | FPC Bryan, TX. Release ~late 2032 |
-| Sam Bankman-Fried | 5w6 | FTX — $32B | Customer fund misappropriation | Convicted 2023 | Federal custody. Release 2049 |
-| Sam Altman | 4 | OpenAI — $300B+ | _(none charged — see §6)_ | None | CEO, OpenAI |
+| Founder           | Type | Company peak    | Fraud type                     | Criminal status               | Today                               |
+| ----------------- | ---- | --------------- | ------------------------------ | ----------------------------- | ----------------------------------- |
+| Adam Neumann      | 7w8  | WeWork — $47B   | Self-dealing, governance fraud | **No criminal charges, ever** | Flow ($2.5B valuation, a16z-backed) |
+| Elizabeth Holmes  | 3w2  | Theranos — $9B  | Investor + patient fraud       | Convicted 2022                | FPC Bryan, TX. Release ~late 2032   |
+| Sam Bankman-Fried | 5w6  | FTX — $32B      | Customer fund misappropriation | Convicted 2023                | Federal custody. Release 2049       |
+| Sam Altman        | 4    | OpenAI — $300B+ | _(none charged — see §6)_      | None                          | CEO, OpenAI                         |
 
 After the table, write ~150 words: the standard read is that this is a story about lawyers, jurisdictions, and which kind of fraud is easier to prosecute. The cleaner read is that it's a story about three different personality types running the same broken founder loop — and a fourth founder still standing. End with the thesis line:
 
@@ -277,7 +289,16 @@ Match the format used at the bottom of `tech-titans-leadership-styles.md`:
 
 ```html
 <div style="text-align: center; margin: 2rem 0;">
-<p><i>This post is part of the Tech Titans Through the Enneagram series. See also <a href="/pop-culture/tech-titans-leadership-styles">Tech Leadership by Personality Type</a>, <a href="/pop-culture/dark-triad-meets-enneagram">Dark Triad Meets Enneagram</a>, and <a href="/pop-culture/musk-vs-altman-trial-personality-dynamics">Musk vs Altman: A Type 5 and a Type 4 Walked Into a Federal Courtroom</a>.</i></p>
+	<p>
+		<i
+			>This post is part of the Tech Titans Through the Enneagram series. See also
+			<a href="/pop-culture/tech-titans-leadership-styles">Tech Leadership by Personality Type</a>,
+			<a href="/pop-culture/dark-triad-meets-enneagram">Dark Triad Meets Enneagram</a>, and
+			<a href="/pop-culture/musk-vs-altman-trial-personality-dynamics"
+				>Musk vs Altman: A Type 5 and a Type 4 Walked Into a Federal Courtroom</a
+			>.</i
+		>
+	</p>
 </div>
 ```
 
@@ -288,6 +309,7 @@ Match the format used at the bottom of `tech-titans-leadership-styles.md`:
 Use these inline as natural link anchors. Lowercase slugs match the existing pattern.
 
 **Personality-analysis pages (publish before this blog ships so links resolve):**
+
 - `/personality-analysis/adam-neumann`
 - `/personality-analysis/elizabeth-holmes`
 - `/personality-analysis/sam-bankman-fried`
@@ -299,11 +321,13 @@ Use these inline as natural link anchors. Lowercase slugs match the existing pat
 - `/personality-analysis/peter-thiel` _(Type 6 — relevant to "why VCs fund 7s and 4s")_
 
 **Pop-culture sister blogs:**
+
 - `/pop-culture/tech-titans-leadership-styles`
 - `/pop-culture/musk-vs-altman-trial-personality-dynamics`
 - `/pop-culture/dark-triad-meets-enneagram`
 
 **Enneagram corner anchors (use sparingly, once each):**
+
 - `/enneagram-corner/enneagram-type-7` (in §3)
 - `/enneagram-corner/enneagram-type-3` (in §4)
 - `/enneagram-corner/enneagram-type-5` (in §5)
@@ -316,6 +340,7 @@ Use these inline as natural link anchors. Lowercase slugs match the existing pat
 The brand voice is **tactically direct, respectfully provocative, pattern-recognition focused.** This blog earns sharpness because the targets (Neumann, Holmes, SBF) committed real, large-scale, sentenced harm. Altman has not earned sharpness — he's a structural-pattern observation, not a target. Keep that asymmetry visible in the writing.
 
 **Do:**
+
 - Write like you talk. Read every sentence aloud. If it sounds like an essay, rewrite it.
 - Verbs over adjectives: _decode, navigate, map, read, unlock, resolve._
 - Em dashes for sharp insights. Minimal parentheses.
@@ -324,6 +349,7 @@ The brand voice is **tactically direct, respectfully provocative, pattern-recogn
 - Lean on second person where natural. _"You already know how the story ends. You just don't know which prison sentence yet."_
 
 **Don't:**
+
 - No "In conclusion." No "Let's dive in." No "It's important to note." No "Imagine if." No "Picture this."
 - Don't moralize about fraud being bad. The reader doesn't need to be told.
 - Don't gender-essentialize Holmes. The pattern is type-coded, not gender-coded.

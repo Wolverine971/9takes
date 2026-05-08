@@ -90,6 +90,7 @@ export const famousTypes: { [index: number]: { name: string; link: boolean; hasI
 		{ name: 'drake', link: true, hasImage: true, lastmod: '2026-04-23', personaTitle: 'The Achiever Who Made Vulnerability Win', contentGrade: 9 },
 		{ name: 'dua-lipa', link: true, hasImage: true, lastmod: '2026-04-15', personaTitle: 'Pop\'s Relentless Rule-Maker', contentGrade: 8.7 },
 		{ name: 'dwayne-johnson', link: true, hasImage: true, lastmod: '2026-03-28', personaTitle: 'Hollywood\'s Armored Shapeshifter', contentGrade: 8.9 },
+		{ name: 'elizabeth-holmes', link: false, hasImage: true, lastmod: '2026-05-07', personaTitle: 'Silicon Valley\'s Empty Costume', contentGrade: 8.9 },
 		{ name: 'gary-vee', link: true, hasImage: true, lastmod: '2026-04-23', personaTitle: 'The Hustle King', contentGrade: 9 },
 		{ name: 'gavin-newsom', link: true, hasImage: true, lastmod: '2026-03-28', personaTitle: 'California\'s Polished Shapeshifter', contentGrade: 8.8 },
 		{ name: 'gigi-hadid', link: true, hasImage: true, lastmod: '2026-03-29', personaTitle: 'Fashion\'s Effortless Performer', contentGrade: 8.7 },

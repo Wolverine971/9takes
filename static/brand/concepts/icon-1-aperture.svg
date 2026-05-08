@@ -1,42 +1,114 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256" role="img" aria-label="9takes — 9-blade aperture">
   <title>9takes — 9-Blade Aperture</title>
-  <desc>Precision optical instrument. Nine iris blades pivot around a sodium-amber opening. Each blade encodes one Enneagram type. Reads as “controlled seeing.”</desc>
+  <desc>Precision optical instrument. Nine overlapping iris blades pivot around a sodium-amber sun. The Enneagram as a tool for controlled seeing.</desc>
 
   <defs>
-    <radialGradient id="ap-glow" cx="50%" cy="50%" r="50%">
-      <stop offset="0%"  stop-color="#FBBF24"/>
-      <stop offset="38%" stop-color="#F59E0B"/>
-      <stop offset="80%" stop-color="#B45309" stop-opacity="0.45"/>
-      <stop offset="100%" stop-color="#241D17" stop-opacity="0"/>
-    </radialGradient>
-
-    <radialGradient id="ap-lens" cx="38%" cy="32%" r="78%">
-      <stop offset="0%"  stop-color="#3a302a"/>
-      <stop offset="65%" stop-color="#241D17"/>
+    <!-- Outer brass housing — top-left highlight, bottom-right shadow -->
+    <radialGradient id="ap-housing" cx="32%" cy="28%" r="85%">
+      <stop offset="0%"  stop-color="#a89483"/>
+      <stop offset="20%" stop-color="#7d6a5b"/>
+      <stop offset="55%" stop-color="#3a302a"/>
       <stop offset="100%" stop-color="#0a0807"/>
     </radialGradient>
 
-    <!-- Single visible blade region. Bounded by:
-         - outer arc P_0(θ=0°) → P_1(θ=40°) at R=98
-         - leading edge from P_1 inward to T_1 at inner ring
-         - inner arc T_1(60°) → T_0(20°) at R=28 (counter-clockwise, 40°)
-         - leading edge from T_0 back to P_0 -->
-    <g id="ap-blade">
+    <!-- Inner bezel — the dark recess where the iris sits -->
+    <radialGradient id="ap-bezel" cx="50%" cy="50%" r="50%">
+      <stop offset="0%"  stop-color="#1a1410"/>
+      <stop offset="80%" stop-color="#0a0807"/>
+      <stop offset="100%" stop-color="#000"/>
+    </radialGradient>
+
+    <!-- Iris blade gradient — leading edge catches amber light, trailing edge shadow -->
+    <linearGradient id="ap-blade-fill" x1="0" y1="0" x2="1" y2="0.6">
+      <stop offset="0%"  stop-color="#0a0807"/>
+      <stop offset="55%" stop-color="#241D17"/>
+      <stop offset="92%" stop-color="#5C4F47"/>
+      <stop offset="100%" stop-color="#8a7563"/>
+    </linearGradient>
+
+    <!-- Sodium-amber sun — multi-stop bloom -->
+    <radialGradient id="ap-sun" cx="50%" cy="50%" r="50%">
+      <stop offset="0%"  stop-color="#FFFBEB"/>
+      <stop offset="14%" stop-color="#FEF3C7"/>
+      <stop offset="32%" stop-color="#FBBF24"/>
+      <stop offset="58%" stop-color="#F59E0B"/>
+      <stop offset="82%" stop-color="#B45309"/>
+      <stop offset="100%" stop-color="#7c2d12" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Concave reflection on the amber core -->
+    <radialGradient id="ap-reflection" cx="40%" cy="32%" r="40%">
+      <stop offset="0%"  stop-color="#FFFFFF" stop-opacity="0.95"/>
+      <stop offset="60%" stop-color="#FFFFFF" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Top-left rim glaze on outer housing -->
+    <radialGradient id="ap-rim-glaze" cx="35%" cy="22%" r="55%">
+      <stop offset="0%"  stop-color="#d4c4b4" stop-opacity="0.55"/>
+      <stop offset="55%" stop-color="#d4c4b4" stop-opacity="0.05"/>
+      <stop offset="100%" stop-color="#d4c4b4" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Soft amber light bleed through blade gaps -->
+    <radialGradient id="ap-bleed" cx="50%" cy="50%" r="50%">
+      <stop offset="0%"  stop-color="#F59E0B" stop-opacity="0.35"/>
+      <stop offset="60%" stop-color="#B45309" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#000" stop-opacity="0"/>
+    </radialGradient>
+
+    <filter id="ap-bloom" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3" result="b1"/>
+      <feMerge>
+        <feMergeNode in="b1"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <filter id="ap-soft" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="6"/>
+    </filter>
+
+    <!-- A single iris blade. Drawn in world coords with pivot at top (128,28).
+         Leading edge sweeps clockwise to a tip near the center.
+         Trailing edge bows back to pivot, slightly inboard.
+         When 9 are stacked rotationally each one covers part of the previous,
+         producing the classic overlapping-leaves iris pattern. -->
+    <symbol id="ap-blade" overflow="visible">
       <path
-        d="M 128,30 A 98,98 0 0,1 191.0,52.9 L 152.2,114.0 A 28,28 0 0,0 137.6,101.7 Z"
-        fill="#3a302a"
-        stroke="#5C4F47"
-        stroke-width="1.5"
+        d="M 128,28
+           C 184,40 198,96 152,118
+           Q 142,121 138,128
+           Q 132,124 128,118
+           C 119,82 116,44 128,28 Z"
+        fill="url(#ap-blade-fill)"
+        stroke="#0a0807"
+        stroke-width="0.9"
         stroke-linejoin="round"/>
-    </g>
+      <!-- Subtle leading-edge highlight (catches amber from center) -->
+      <path
+        d="M 130,30 C 178,44 192,94 150,116"
+        fill="none"
+        stroke="#a89483"
+        stroke-width="0.7"
+        stroke-linecap="round"
+        opacity="0.55"/>
+    </symbol>
   </defs>
 
-  <!-- Lens housing -->
-  <circle cx="128" cy="128" r="120" fill="url(#ap-lens)"/>
-  <circle cx="128" cy="128" r="120" fill="none" stroke="#5C4F47" stroke-width="3"/>
-  <circle cx="128" cy="128" r="115" fill="none" stroke="#0a0807" stroke-width="1" opacity="0.7"/>
+  <!-- Outer housing -->
+  <circle cx="128" cy="128" r="124" fill="url(#ap-housing)"/>
+  <circle cx="128" cy="128" r="124" fill="none" stroke="#0a0807" stroke-width="2"/>
+  <circle cx="128" cy="128" r="118" fill="none" stroke="#1a1410" stroke-width="1.5"/>
+  <circle cx="128" cy="128" r="115" fill="none" stroke="#5C4F47" stroke-width="0.6" opacity="0.5"/>
 
-  <!-- 9 rotated blade regions -->
+  <!-- Inner bezel recess -->
+  <circle cx="128" cy="128" r="112" fill="url(#ap-bezel)"/>
+
+  <!-- Soft amber bleed behind the blades -->
+  <circle cx="128" cy="128" r="92" fill="url(#ap-bleed)" filter="url(#ap-soft)"/>
+
+  <!-- 9 iris blades, stacked rotationally (each covers the previous on its trailing side) -->
   <g>
     <use href="#ap-blade" transform="rotate(0 128 128)"/>
     <use href="#ap-blade" transform="rotate(40 128 128)"/>
@@ -49,8 +121,15 @@
     <use href="#ap-blade" transform="rotate(320 128 128)"/>
   </g>
 
-  <!-- Central iris opening: amber sodium-vapor glow -->
-  <circle cx="128" cy="128" r="40" fill="url(#ap-glow)"/>
-  <circle cx="128" cy="128" r="20" fill="#FBBF24"/>
-  <circle cx="128" cy="128" r="14" fill="#FEF3C7" opacity="0.6"/>
+  <!-- Center sun — sodium-amber bloom -->
+  <g filter="url(#ap-bloom)">
+    <circle cx="128" cy="128" r="34" fill="url(#ap-sun)"/>
+  </g>
+  <circle cx="128" cy="128" r="18" fill="#FBBF24"/>
+  <circle cx="128" cy="128" r="11" fill="#FEF9C3"/>
+  <circle cx="128" cy="128" r="5" fill="#FFFFFF"/>
+  <circle cx="124" cy="124" r="9" fill="url(#ap-reflection)"/>
+
+  <!-- Top-left rim glaze -->
+  <circle cx="128" cy="128" r="124" fill="url(#ap-rim-glaze)" pointer-events="none"/>
 </svg>

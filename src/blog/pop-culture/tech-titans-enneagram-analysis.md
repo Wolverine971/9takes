@@ -1,11 +1,11 @@
 ---
 title: 'Tech Titans Through the Enneagram: A Series on the Personality Types Shaping the Future'
 meta_title: 'Tech CEO Enneagram Types - Complete Analysis Series'
-description: "19 tech titans. 7 Enneagram types. One series mapping the personality patterns behind Silicon Valley's most consequential decisions. From the AI wars to the PayPal Mafia to why your favorite platform feels the way it does."
+description: "A series mapping the personality patterns behind Silicon Valley's most consequential decisions. From the AI wars to Google succession, fallen founders, and why your favorite platform feels the way it does."
 author: 'DJ Wayne'
 date: '2026-03-04'
 loc: 'https://9takes.com/pop-culture/tech-titans-enneagram-analysis'
-lastmod: '2026-03-21'
+lastmod: '2026-05-07'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
@@ -41,12 +41,12 @@ path: src/blog/pop-culture/tech-titans-enneagram-analysis.md
 </script>
 
 <QuickAnswer question="What Enneagram types run the tech industry?">
-Type 5s dominate (Musk, Zuckerberg, Nadella, Gates, Dorsey, Amodei)—the systems thinkers who treat every problem as something to decode. Type 8s disrupt (Bezos, Kalanick, Hastings)—the challengers who see industries as territory to conquer. Type 6s fund and advise (Thiel, Sacks)—the contrarians who see threats others miss. Type 1s set standards (Jobs, Cook). Type 3s execute (Huang). Type 4s cast vision (Altman). Type 9s maintain (Pichai). The future is being built by a very specific set of personality types—and the types that are missing explain a lot about why tech keeps failing at human problems.
+Type 5s dominate (Musk, Zuckerberg, Nadella, Gates, Dorsey, Page, Brin, SBF)—the systems thinkers who treat every problem as something to decode. Type 8s disrupt (Bezos, Kalanick, Hastings)—the challengers who see industries as territory to conquer. Type 6s fund and advise (Thiel, Sacks)—the contrarians who see threats others miss. Type 1s set standards (Jobs, Cook). Type 3s execute and perform (Huang, Chesky, Holmes, Neumann). Type 4s cast vision (Altman). Type 9s maintain (Pichai). The future is being built by a very specific set of personality types—and the types that are missing explain a lot about why tech keeps failing at human problems.
 </QuickAnswer>
 
 <p class="firstLetter">The tech industry isn't shaped by ideas. It's shaped by the personality types of the people who have the power to execute them.</p>
 
-Nineteen tech leaders. Seven Enneagram types. Every major decision—which AI gets built, which platform gets funded, which industry gets disrupted—is filtered through the psychological wiring of a small group of people whose personality patterns are surprisingly predictable.
+The major tech leaders, founders, and cautionary cases keep clustering around the same few Enneagram patterns. Every major decision—which AI gets built, which platform gets funded, which industry gets disrupted—is filtered through the psychological wiring of a small group of people whose personality patterns are surprisingly predictable.
 
 This series maps those patterns. Not as gossip. As intelligence.
 
@@ -56,20 +56,26 @@ This series maps those patterns. Not as gossip. As intelligence.
 | ------------------------------------------------------------------ | ---------------------- | ----------------------- | --------------------------------- |
 | [Steve Jobs](/personality-analysis/steve-jobs)                     | Type 1 - Reformer      | Apple (founder)         | Moral perfectionism               |
 | [Tim Cook](/personality-analysis/tim-cook)                         | Type 1 - Reformer      | Apple (successor)       | Principled operations             |
-| Jensen Huang                                                       | Type 3 - Achiever      | Nvidia                  | Achievement through adaptation    |
+| [Jensen Huang](/personality-analysis/jensen-huang)                 | Type 3 - Achiever      | Nvidia                  | Achievement through adaptation    |
+| [Brian Chesky](/personality-analysis/brian-chesky)                 | Type 3 - Achiever      | Airbnb                  | Achievement through hospitality   |
 | [Chamath Palihapitiya](/personality-analysis/chamath-palihapitiya) | Type 3 - Achiever      | Social Capital          | Achievement through capital       |
+| [Elizabeth Holmes](/personality-analysis/elizabeth-holmes)         | Type 3 - Achiever      | Theranos                | Image without substance           |
+| [Adam Neumann](/personality-analysis/adam-neumann)                 | Type 3 - Achiever      | WeWork                  | Founder-as-product performance    |
 | [Sam Altman](/personality-analysis/sam-altman)                     | Type 4 - Individualist | OpenAI                  | Unique significance               |
 | [Elon Musk](/personality-analysis/elon-musk)                       | Type 5 - Investigator  | Tesla, SpaceX, xAI, X   | System mastery across all domains |
 | [Mark Zuckerberg](/personality-analysis/mark-zuckerberg)           | Type 5 - Investigator  | Meta                    | Connection as engineering         |
 | [Satya Nadella](/personality-analysis/satya-nadella)               | Type 5 - Investigator  | Microsoft               | Empathetic systems                |
 | [Bill Gates](/personality-analysis/bill-gates)                     | Type 5 - Investigator  | Microsoft (founder)     | Knowledge as power                |
+| [Larry Page](/personality-analysis/larry-page)                     | Type 5 - Investigator  | Google                  | Fortress-like invention           |
+| [Sergey Brin](/personality-analysis/sergey-brin)                   | Type 5 - Investigator  | Google                  | Restless technical play           |
+| [Sam Bankman-Fried](/personality-analysis/sam-bankman-fried)       | Type 5 - Investigator  | FTX                     | Systems without ethics            |
 | [Jack Dorsey](/personality-analysis/jack-dorsey)                   | Type 5 - Investigator  | Twitter, Block          | Minimalist systems                |
-| Dario Amodei                                                       | Type 5 - Investigator  | Anthropic               | Rigorous safety                   |
+| [Dario Amodei](/personality-analysis/dario-amodei)                 | Type 5 - Investigator  | Anthropic               | Rigorous safety                   |
 | [Peter Thiel](/personality-analysis/peter-thiel)                   | Type 6 - Loyalist      | Palantir, Founders Fund | Contrarian threat detection       |
 | [David Sacks](/personality-analysis/david-sacks)                   | Type 6 - Loyalist      | Craft Ventures          | Loyalty networks                  |
 | [Jeff Bezos](/personality-analysis/jeff-bezos)                     | Type 8 - Challenger    | Amazon                  | Dominance through logistics       |
 | [Reed Hastings](/personality-analysis/reed-hastings)               | Type 8 - Challenger    | Netflix                 | Confrontational disruption        |
-| Travis Kalanick                                                    | Type 8 - Challenger    | Uber                    | Unrestrained aggression           |
+| [Travis Kalanick](/personality-analysis/travis-kalanick)           | Type 8 - Challenger    | Uber                    | Unrestrained aggression           |
 | [Sundar Pichai](/personality-analysis/sundar-pichai)               | Type 9 - Peacemaker    | Google                  | Consensus diplomacy               |
 
 ## The Series
@@ -104,17 +110,31 @@ Two 6s and a 5 walked into a startup. Then they split up and conquered separate 
 
 Three 8s and a 5 who destroyed entire industries. The 8s did it through force. The 5 did it through first principles. One of them got ousted. The personality type doesn't just explain WHO disrupts—it explains who survives the disruption they create.
 
-### 6. Tech Leadership by Personality Type: How Each Enneagram Type Runs a Company (Coming soon)
+### 6. [Tech Leadership by Personality Type: How Each Enneagram Type Runs a Company](/pop-culture/tech-titans-leadership-styles)
 
 **Cast**: All tech titans, grouped by Enneagram type
 
 The definitive comparison. How Type 1s lead (uncompromising standards), how Type 5s lead (systems and detachment), how Type 8s lead (confrontation and force), and why the types missing from tech leadership (2s, 7s) explain why the industry keeps building powerful products that fail at being humane.
 
+### 7. [Google's Three Personality Eras: Why the Founders Had to Come Back](/pop-culture/google-leadership-evolution)
+
+**Cast**: [Larry Page](/personality-analysis/larry-page) (5w6) + [Sergey Brin](/personality-analysis/sergey-brin) (5w7) + [Sundar Pichai](/personality-analysis/sundar-pichai) (9)
+
+Google is the only Big Tech company where the retired founders had to return for an existential AI threat. Page built the fortress, Brin kept the trapeze in the building, and Pichai stabilized the machine until a 9's harmony-first instinct ran into ChatGPT-level urgency.
+
+### 8. [The Fallen Founders: What Holmes, Neumann, and Bankman-Fried Reveal About Tech's Personality Blind Spot](/pop-culture/fallen-founders-enneagram-analysis)
+
+**Cast**: [Elizabeth Holmes](/personality-analysis/elizabeth-holmes) (3w2) + [Adam Neumann](/personality-analysis/adam-neumann) (3w2) + [Sam Bankman-Fried](/personality-analysis/sam-bankman-fried) (5w6) + [Sam Altman](/personality-analysis/sam-altman) (4)
+
+Fraud is not a personality type. It is what happens when a founder's type runs without an integration check. Holmes, Neumann, and SBF are the named cautionary cases; Altman is the live experiment.
+
 ## The Pattern Nobody's Talking About
 
-Here's what emerges when you map all 17 leaders:
+Here's what emerges when you map the expanded set:
 
-**Type 5s run everything.** Six of the seventeen leaders are 5s. The most withdrawn, cerebral type on the Enneagram dominates an industry that shapes how billions of humans connect, shop, and communicate. The people building the future are the people most detached from the present.
+**Type 5s run the cognitive layer.** Musk, Zuckerberg, Nadella, Gates, Page, Brin, Dorsey, SBF, and Amodei all treat the world as a system to decode. The most withdrawn, cerebral type on the Enneagram dominates an industry that shapes how billions of humans connect, shop, and communicate. The people building the future are often the people most detached from the present.
+
+**Type 3s sell the future into existence.** Huang, Chesky, Holmes, and Neumann all show the achievement engine at different levels of integration. With a real product, the 3 makes a market believe. Without one, the 3 makes the costume keep performing after the substance runs out.
 
 **Type 8s disrupt everything.** The three biggest industry disruptions (retail, entertainment, transportation) were all led by 8s. When you need to break something, you need a type that doesn't flinch.
 

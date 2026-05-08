@@ -184,7 +184,7 @@ The frame works because it is half-true and half-construction. He is genuinely a
 
 This is where the [3w4 fingerprint](/enneagram-corner/enneagram-wings-complete-guide) is sharpest. The 4 wing supplies the mystique — _I am not the politician you expected, I am something more interesting and harder to read._ The 3 supplies the marketing engine. The "manufactured deal flow" framework he describes — _everything is manufactured because you put yourself in positions to receive things_ — is a recursion. He is manufacturing the man who manufactures. The reverse vacuum he built is sucking opportunities into a brand he assembled out of his own losses.
 
-The reverse vacuum compounds because the work he gives away is real. Years after he had quietly helped Brian Chesky negotiate during Airbnb's earliest days, Chesky messaged him out of nowhere: _"Jared, you were so helpful when I was starting."_ The man who has built three years of post-White House messaging around being underestimated has a parallel reputation among founders he has quietly helped — a reputation he never advertises, because the not-advertising is the brand.
+The reverse vacuum compounds because the work he gives away is real. Years after he had quietly helped [Brian Chesky](/personality-analysis/brian-chesky) negotiate during Airbnb's earliest days, Chesky messaged him out of nowhere: _"Jared, you were so helpful when I was starting."_ The man who has built three years of post-White House messaging around being underestimated has a parallel reputation among founders he has quietly helped — a reputation he never advertises, because the not-advertising is the brand.
 
 Affinity Partners' fee structure tells you what 3-with-a-4-wing pattern looks like at scale. The Saudi Public Investment Fund pays 1.25% per year on $2 billion committed. By April 2026, [Affinity reported $6.16 billion in assets](https://oversightdemocrats.house.gov/imo/media/doc/2026-03-19garciawydenlettertoaffinitypartnersrekushnerfundraisingfinal.pdf), with $1.2 billion of that raised in 2025 alone. Senate Democrats opened ethics investigations. Kushner pre-empted the conflict-of-interest narrative on _Invest Like the Best_ by extending the fund to 2029 and explicitly stating he would not return to government.
 
@@ -257,4 +257,3 @@ PRIORITY FIXES:
 3. Add Ivanka or post-October 7 Middle East — the piece feels weirdly sealed off from his actual current public life. One dated 2024-2026 beat (Affinity expansion, Charlie as Ambassador, Gaza response, return-to-government rumors) would tether the diagnosis to right now.
 
 ============================================================ -->
-

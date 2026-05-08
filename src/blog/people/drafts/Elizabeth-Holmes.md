@@ -1,7 +1,7 @@
 ---
 title: 'Elizabeth Holmes: An In-Depth Enneagram Type 3 Analysis'
 meta_title: "The Real Reason Elizabeth Holmes Couldn't Stop Performing"
-persona_title: 'Silicon Valley\'s Empty Costume'
+persona_title: "Silicon Valley's Empty Costume"
 description: "Why is there nothing left of Elizabeth Holmes when the costume comes off? A Type 3 reading of the Theranos founder, from age-9 letter to prison rebrand."
 author: 'DJ Wayne'
 date: '2026-05-07'
@@ -9,7 +9,7 @@ loc: 'https://9takes.com/personality-analysis/Elizabeth-Holmes'
 lastmod: '2026-05-07'
 changefreq: 'monthly'
 priority: '0.6'
-published: false
+published: true
 enneagram: '3'
 type: ['entrepreneur', 'techie']
 person: 'Elizabeth-Holmes'
@@ -143,7 +143,7 @@ By 2014 the Theranos board read like a Cold War reunion. George Shultz, former S
 
 Henry Kissinger, profiling her for _Time_ in 2015, called her "like a member of a monastic order." Mattis called her "a revolutionary in the truest sense." Robertson, her former advisor, said mentoring her had been like "teaching Einstein." Ken Auletta, who interviewed several of them for a documentary, summarized the board's attitude bluntly: they spoke about her "as if she were Beethoven."
 
-A 30-year-old chemical engineering dropout was being compared, in interviews, to Beethoven, Einstein, Bill Gates, Steve Jobs, and a monastic order, for a product that did not yet exist.
+A 30-year-old chemical engineering dropout was being compared, in interviews, to Beethoven, Einstein, [Bill Gates](/personality-analysis/bill-gates), Steve Jobs, and a monastic order, for a product that did not yet exist.
 
 Half of how this happened is structural. Her father, Christian Holmes IV, had been a vice president at Enron through its collapse. Her mother had been a Congressional committee staffer. Her great-great-great-grandfather was Charles Louis Fleischmann, the yeast and distillery magnate whose name still sits on supermarket shelves. The rolodex a 19-year-old founder could call into was not a normal rolodex. The room she charmed was the room she was born inside.
 

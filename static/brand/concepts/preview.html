@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>9takes — Icon Concepts</title>
+    <title>9takes — Icon Concepts (v2)</title>
     <style>
       :root {
         --night-deep: #0a0807;
@@ -19,167 +19,88 @@
         --marble-light: #f2ebdd;
       }
 
-      * {
-        box-sizing: border-box;
-      }
-
+      * { box-sizing: border-box; }
       body {
         margin: 0;
-        font-family:
-          'Inter',
-          system-ui,
-          -apple-system,
-          sans-serif;
+        font-family: 'Inter', system-ui, -apple-system, sans-serif;
         background: var(--night-deep);
         color: var(--ink-bright);
         line-height: 1.5;
       }
 
-      header {
-        padding: 32px 48px;
-        border-bottom: 1px solid var(--stone-edge);
-      }
-      header h1 {
-        margin: 0 0 4px;
-        font-size: 28px;
-        font-weight: 800;
-        letter-spacing: -0.02em;
-      }
-      header p {
-        margin: 0;
-        color: var(--ink-mid);
-        font-size: 14px;
-      }
+      header { padding: 32px 48px; border-bottom: 1px solid var(--stone-edge); }
+      header h1 { margin: 0 0 4px; font-size: 28px; font-weight: 800; letter-spacing: -0.02em; }
+      header p { margin: 0; color: var(--ink-mid); font-size: 14px; }
       .kicker {
         font-family: 'JetBrains Mono', ui-monospace, monospace;
-        font-size: 11px;
-        text-transform: uppercase;
-        letter-spacing: 0.08em;
-        color: var(--lamp-glow);
-        margin-bottom: 8px;
+        font-size: 11px; text-transform: uppercase; letter-spacing: 0.08em;
+        color: var(--lamp-glow); margin-bottom: 8px;
       }
+      .badge {
+        display: inline-block; margin-left: 8px; padding: 2px 8px;
+        border-radius: 4px; font-family: 'JetBrains Mono', ui-monospace, monospace;
+        font-size: 9px; letter-spacing: 0.06em; text-transform: uppercase;
+      }
+      .badge.approved { background: #14532d; color: #86efac; }
+      .badge.new { background: #7c2d12; color: #fbbf24; }
 
-      .concept {
-        padding: 48px;
-        border-bottom: 1px solid var(--stone-edge);
-      }
-      .concept h2 {
-        font-size: 22px;
-        font-weight: 700;
-        letter-spacing: -0.01em;
-        margin: 0 0 4px;
-      }
-      .concept .desc {
-        margin: 0 0 32px;
-        color: var(--ink-mid);
-        max-width: 60ch;
-        font-size: 14px;
-      }
+      .concept { padding: 48px; border-bottom: 1px solid var(--stone-edge); }
+      .concept h2 { font-size: 22px; font-weight: 700; letter-spacing: -0.01em; margin: 0 0 4px; display: flex; align-items: center; }
+      .concept .desc { margin: 0 0 32px; color: var(--ink-mid); max-width: 60ch; font-size: 14px; }
 
-      .panels {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        gap: 24px;
-      }
-      .panel {
-        border-radius: 16px;
-        padding: 32px;
-        border: 1px solid var(--stone-edge);
-      }
-      .panel.dark {
-        background: var(--stone-warm);
-      }
-      .panel.light {
-        background: var(--marble-pure);
-        color: var(--stone-warm);
-      }
+      .panels { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; }
+      .panel { border-radius: 16px; padding: 32px; border: 1px solid var(--stone-edge); }
+      .panel.dark { background: var(--stone-warm); }
+      .panel.light { background: var(--marble-pure); color: var(--stone-warm); }
       .panel-label {
         font-family: 'JetBrains Mono', ui-monospace, monospace;
-        font-size: 10px;
-        text-transform: uppercase;
-        letter-spacing: 0.1em;
-        color: var(--ink-dim);
-        margin-bottom: 24px;
+        font-size: 10px; text-transform: uppercase; letter-spacing: 0.1em;
+        color: var(--ink-dim); margin-bottom: 24px;
       }
-      .panel.dark .panel-label {
-        color: var(--ink-mid);
-      }
+      .panel.dark .panel-label { color: var(--ink-mid); }
 
-      .sizes {
-        display: flex;
-        align-items: flex-end;
-        gap: 32px;
-        flex-wrap: wrap;
-      }
-      .size {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 8px;
-      }
-      .size img {
-        display: block;
-        image-rendering: -webkit-optimize-contrast;
-      }
+      .sizes { display: flex; align-items: flex-end; gap: 32px; flex-wrap: wrap; }
+      .size { display: flex; flex-direction: column; align-items: center; gap: 8px; }
+      .size img { display: block; image-rendering: -webkit-optimize-contrast; }
       .size .px {
         font-family: 'JetBrains Mono', ui-monospace, monospace;
-        font-size: 10px;
-        color: var(--ink-dim);
+        font-size: 10px; color: var(--ink-dim);
       }
-      .panel.dark .size .px {
-        color: var(--ink-mid);
-      }
+      .panel.dark .size .px { color: var(--ink-mid); }
 
       .strip {
-        display: flex;
-        align-items: center;
-        gap: 16px;
-        margin-top: 24px;
-        padding: 16px;
-        border-radius: 10px;
-        background: rgba(0, 0, 0, 0.18);
+        display: flex; align-items: center; gap: 16px; margin-top: 24px;
+        padding: 16px; border-radius: 10px; background: rgba(0, 0, 0, 0.18);
       }
-      .panel.light .strip {
-        background: rgba(36, 29, 23, 0.05);
-      }
-      .strip img {
-        display: block;
-      }
-      .strip .label {
-        font-size: 13px;
-        color: var(--ink-mid);
-      }
-      .panel.light .strip .label {
-        color: var(--ink-dim);
-      }
+      .panel.light .strip { background: rgba(36, 29, 23, 0.05); }
+      .strip img { display: block; }
+      .strip .label { font-size: 13px; color: var(--ink-mid); }
+      .panel.light .strip .label { color: var(--ink-dim); }
 
-      footer {
-        padding: 32px 48px;
-        color: var(--ink-mid);
-        font-size: 13px;
-      }
+      .variant-row { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; margin-top: 24px; }
+
+      footer { padding: 32px 48px; color: var(--ink-mid); font-size: 13px; }
       footer code {
         font-family: 'JetBrains Mono', ui-monospace, monospace;
-        font-size: 12px;
-        background: var(--stone-warm);
-        padding: 2px 6px;
-        border-radius: 4px;
+        font-size: 12px; background: var(--stone-warm);
+        padding: 2px 6px; border-radius: 4px;
       }
     </style>
   </head>
 
   <body>
     <header>
-      <div class="kicker">§ ICON CONCEPTS · 2026-05-07 · STREETLAMP SYMPOSIUM</div>
-      <h1>9takes — four marks for review</h1>
-      <p>Each concept rendered at 16, 24, 32, 64, 128, 256 px on warm-stone (dark mode) and marble (light mode).</p>
+      <div class="kicker">§ ICON CONCEPTS V2 · 2026-05-07 · STREETLAMP SYMPOSIUM</div>
+      <h1>9takes — refined marks for review</h1>
+      <p>Aperture and cipher polished. Greek face rebuilt from real photo source. Marble 9 redone as an engraved-coin stamp.</p>
     </header>
 
+    <!-- =============== CONCEPT 1 — APERTURE =============== -->
     <section class="concept">
       <div class="kicker">§ 01 · PRECISION INSTRUMENT</div>
-      <h2>Concept 1 — 9-Blade Aperture</h2>
+      <h2>Concept 1 — 9-Blade Aperture <span class="badge approved">DJ APPROVED</span></h2>
       <p class="desc">
-        Camera iris with exactly nine blades. Sodium-amber light pours through the central opening. Encodes the Enneagram as geometry, not as a label. Reads as “controlled seeing” — a tool, not a logo.
+        Real iris geometry — nine overlapping curved leaf blades, brass housing with rim glaze, sodium-amber sun with bloom and concave reflection. Reads as a precision instrument.
       </p>
       <div class="panels">
         <div class="panel dark">
@@ -215,11 +136,12 @@
       </div>
     </section>
 
+    <!-- =============== CONCEPT 2 — CIPHER =============== -->
     <section class="concept">
       <div class="kicker">§ 02 · SYSTEM / CIPHER</div>
-      <h2>Concept 2 — Decoder Cipher Wheel</h2>
+      <h2>Concept 2 — Decoder Cipher Wheel <span class="badge approved">DJ APPROVED</span></h2>
       <p class="desc">
-        Outer fixed ring with nine ticks; inner rotating dial with one amber-locked segment. The mechanism of “cracking the code” of a personality. Strong for the tech-spec dossier variant on <code>/personality-analysis/*</code>.
+        Brass cipher wheel with engraved tick marks, brass studs as type indicators, bronze inner dial, luminous amber active wedge with bright leading edge. Reads as an instrument you operate.
       </p>
       <div class="panels">
         <div class="panel dark">
@@ -255,51 +177,61 @@
       </div>
     </section>
 
+    <!-- =============== CONCEPT 3 — GREEK FACE (PHOTO) =============== -->
     <section class="concept">
       <div class="kicker">§ 03 · BRAND MOOD MADE LITERAL</div>
-      <h2>Concept 3 — Greek Profile · Streetlamp Symposium</h2>
+      <h2>Concept 3 — Greek Statue (photographic) <span class="badge new">REBUILT FROM SOURCE PHOTO</span></h2>
       <p class="desc">
-        Classical statue carved from warm stone, lit from one side, with sodium-amber light leaking from the eye and from hairline cracks. The locked brand mood as a face. More emotional than geometric.
+        Built from <code style="font-family:'JetBrains Mono',monospace;color:var(--ink-bright);font-size:12px">static/greek_distorted_statue_face.png</code>
+        and <code style="font-family:'JetBrains Mono',monospace;color:var(--ink-bright);font-size:12px">static/blogs/greek-dude-reading-book.png</code>.
+        Duotone'd into the Streetlamp Symposium palette (warm-stone shadows → sodium-amber highlights), vignetted to brand night, rounded icon corners. The locked brand mood, photographic.
       </p>
-      <div class="panels">
+
+      <div class="variant-row">
         <div class="panel dark">
-          <div class="panel-label">Dark mode</div>
+          <div class="panel-label">Variant A · close-up face (best for icon)</div>
           <div class="sizes">
-            <div class="size"><img src="icon-3-greek-face.svg" width="16" height="16" alt="" /><span class="px">16</span></div>
-            <div class="size"><img src="icon-3-greek-face.svg" width="24" height="24" alt="" /><span class="px">24</span></div>
-            <div class="size"><img src="icon-3-greek-face.svg" width="32" height="32" alt="" /><span class="px">32</span></div>
-            <div class="size"><img src="icon-3-greek-face.svg" width="64" height="64" alt="" /><span class="px">64</span></div>
-            <div class="size"><img src="icon-3-greek-face.svg" width="128" height="128" alt="" /><span class="px">128</span></div>
-            <div class="size"><img src="icon-3-greek-face.svg" width="256" height="256" alt="" /><span class="px">256</span></div>
+            <div class="size"><img src="icon-3a-greek-face-32.png" width="32" alt="" /><span class="px">32</span></div>
+            <div class="size"><img src="icon-3a-greek-face-64.png" width="64" alt="" /><span class="px">64</span></div>
+            <div class="size"><img src="icon-3a-greek-face-128.png" width="128" alt="" /><span class="px">128</span></div>
+            <div class="size"><img src="icon-3a-greek-face-256.png" width="256" alt="" /><span class="px">256</span></div>
           </div>
           <div class="strip">
-            <img src="icon-3-greek-face.svg" width="32" height="32" alt="" />
+            <img src="icon-3a-greek-face-32.png" width="32" alt="" />
             <span class="label">9takes — see the emotions behind every take</span>
           </div>
         </div>
-        <div class="panel light">
-          <div class="panel-label">Light mode</div>
+
+        <div class="panel dark">
+          <div class="panel-label">Variant B · reader (better for OG / hero / banner)</div>
           <div class="sizes">
-            <div class="size"><img src="icon-3-greek-face.svg" width="16" height="16" alt="" /><span class="px">16</span></div>
-            <div class="size"><img src="icon-3-greek-face.svg" width="24" height="24" alt="" /><span class="px">24</span></div>
-            <div class="size"><img src="icon-3-greek-face.svg" width="32" height="32" alt="" /><span class="px">32</span></div>
-            <div class="size"><img src="icon-3-greek-face.svg" width="64" height="64" alt="" /><span class="px">64</span></div>
-            <div class="size"><img src="icon-3-greek-face.svg" width="128" height="128" alt="" /><span class="px">128</span></div>
-            <div class="size"><img src="icon-3-greek-face.svg" width="256" height="256" alt="" /><span class="px">256</span></div>
+            <div class="size"><img src="icon-3b-greek-reader-32.png" width="32" alt="" /><span class="px">32</span></div>
+            <div class="size"><img src="icon-3b-greek-reader-64.png" width="64" alt="" /><span class="px">64</span></div>
+            <div class="size"><img src="icon-3b-greek-reader-128.png" width="128" alt="" /><span class="px">128</span></div>
+            <div class="size"><img src="icon-3b-greek-reader-256.png" width="256" alt="" /><span class="px">256</span></div>
           </div>
           <div class="strip">
-            <img src="icon-3-greek-face.svg" width="32" height="32" alt="" />
+            <img src="icon-3b-greek-reader-32.png" width="32" alt="" />
             <span class="label">9takes — see the emotions behind every take</span>
           </div>
         </div>
       </div>
+
+      <div style="margin-top: 24px;">
+        <div class="panel dark" style="text-align:center; padding: 24px;">
+          <div class="panel-label" style="margin-bottom: 16px;">Hero scale (512px)</div>
+          <img src="icon-3a-greek-face-512.png" width="320" style="margin-right: 16px;" alt="" />
+          <img src="icon-3b-greek-reader-512.png" width="320" alt="" />
+        </div>
+      </div>
     </section>
 
+    <!-- =============== CONCEPT 4 — ENGRAVED MARBLE 9 =============== -->
     <section class="concept">
-      <div class="kicker">§ 04 · WORDMARK INTO MARK</div>
-      <h2>Concept 4 — Cracked Marble “9”</h2>
+      <div class="kicker">§ 04 · WORDMARK INTO STAMP</div>
+      <h2>Concept 4 — Engraved Marble 9 <span class="badge new">REDONE · COIN APPROACH</span></h2>
       <p class="desc">
-        The numeral nine carved from warm stone with sodium-amber light bleeding through the cracks. The most direct path from wordmark to mark — instantly readable as the brand even at 16 px.
+        The "9" is now <em>carved into</em> a warm marble plaque. Sodium-amber light pools at the bottom of the engraving — a sodium-vapor element deep in the well. Subtle veining, chisel-edge highlight, plaque corner glaze. Reads as a craftsman's stamp or a Greek/Roman coin. Fits the dimensional brass+marble language of concepts 1 and 2.
       </p>
       <div class="panels">
         <div class="panel dark">
@@ -336,7 +268,8 @@
     </section>
 
     <footer>
-      Files live in <code>static/brand/concepts/</code>. Open this preview at <code>file:///Users/djwayne/9takes/static/brand/concepts/preview.html</code> or run <code>pnpm dev</code> and visit <code>http://localhost:5173/brand/concepts/preview.html</code>.
+      Files in <code>static/brand/concepts/</code>. Aperture &amp; cipher are SVG. Greek face is PNG (1024 / 512 / 256 / 128 / 64 / 32). Engraved 9 is SVG.<br/>
+      Greek processing pipeline: <code>_make_greek.py</code> (duotone palette + vignette + rounded corners). Re-runnable.
     </footer>
   </body>
 </html>

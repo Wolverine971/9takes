@@ -154,7 +154,7 @@ That is the Chesky reflex in miniature. When the thing in front of you is not wo
 
 ## The 11-star check-in (and the call to Jony Ive)
 
-A few years in, Chesky started running a thought experiment with his team. A 5-star check-in is the host opens the door. A 6-star is they offer you wine. A 7-star is the fridge has your favorite snack. A 10-star is Elon Musk meets you at the airport in a SpaceX rocket. The "11-star experience," as he later called it on _Masters of Scale_, is intentionally absurd. The point, he has said many times, is that you build something memorable by designing the version that cannot exist and walking it back to feasible.
+A few years in, Chesky started running a thought experiment with his team. A 5-star check-in is the host opens the door. A 6-star is they offer you wine. A 7-star is the fridge has your favorite snack. A 10-star is [Elon Musk](/personality-analysis/elon-musk) meets you at the airport in a SpaceX rocket. The "11-star experience," as he later called it on _Masters of Scale_, is intentionally absurd. The point, he has said many times, is that you build something memorable by designing the version that cannot exist and walking it back to feasible.
 
 Most teams aim for what is buildable and try to make it good. Chesky aims for what cannot exist and tries to make it real. A pure Three optimizes a known target. A 3w4 stretches the target until the audience has to imagine something it has never seen.
 
@@ -260,4 +260,3 @@ Trimmed:
 - "Redesign" usage varied with rebuild, rework, reshape, prototype; layoff H2 changed to "rewrote"
 - Type 3 explainer stacking reduced; diagnosis section trimmed to defer the wound payoff to the IPO scene
 -->
-
