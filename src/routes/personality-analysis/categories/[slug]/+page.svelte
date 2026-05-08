@@ -268,6 +268,30 @@
 									contentUrl: 'https://9takes.com/corpus-stats.json'
 								}
 							]
+						},
+						{
+							'@type': 'Quotation',
+							'@id': `${canonicalUrl}#corpus-quotation-overrep`,
+							text: corpusStats.headlineClaim,
+							about: {
+								'@type': 'Thing',
+								name: `Enneagram type distribution among ${corpusStats.domainLabel}`
+							},
+							isBasedOn: { '@id': `${canonicalUrl}#corpus-slice` },
+							creator: { '@id': ORG_ID },
+							citation: `${corpusStats.datasetUrl}#domain-${data.category.slug}`
+						},
+						{
+							'@type': 'Quotation',
+							'@id': `${canonicalUrl}#corpus-quotation-freshness`,
+							text: corpusStats.freshnessClaim,
+							about: {
+								'@type': 'Thing',
+								name: '9takes corpus freshness'
+							},
+							isBasedOn: { '@id': `${canonicalUrl}#corpus-slice` },
+							creator: { '@id': ORG_ID },
+							citation: `${corpusStats.datasetUrl}#methodology`
 						}
 					]
 				: [])
