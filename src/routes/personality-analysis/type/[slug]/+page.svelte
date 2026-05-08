@@ -5,6 +5,7 @@
 	import EnneagramTypeIntro from '$lib/components/blog/EnneagramTypeIntro.svelte';
 	import EmailSignup from '$lib/components/molecules/Email-Signup.svelte';
 	import EnneagramTypeBottom from '$lib/components/blog/EnneagramTypeBottom.svelte';
+	import CorpusStatCallout from '$lib/components/blog/callouts/CorpusStatCallout.svelte';
 	import {
 		buildPersonalityAnalysisPath,
 		buildPersonalityImagePath,
@@ -276,6 +277,34 @@
 		...(latestDate ? { dateModified: latestDate } : {})
 	});
 
+	let corpusInsight = $derived(data.corpusInsight);
+
+	let corpusFaqs = $derived(
+		corpusInsight
+			? [
+					{
+						'@type': 'Question',
+						name: `In which domain is Enneagram Type ${data.slug} (${typeInfo.name}) most over-represented on 9takes?`,
+						acceptedAnswer: {
+							'@type': 'Answer',
+							text:
+								corpusInsight.variant === 'domain-overrep'
+									? `${corpusInsight.claim} See the full breakdown at https://9takes.com${corpusInsight.corpusAnchorUrl}.`
+									: `${corpusInsight.claim} Full corpus stats: https://9takes.com${corpusInsight.corpusAnchorUrl}.`
+						}
+					},
+					{
+						'@type': 'Question',
+						name: `How rare is Enneagram Type ${data.slug} (${typeInfo.name}) in the 9takes corpus?`,
+						acceptedAnswer: {
+							'@type': 'Answer',
+							text: `9takes profiles ${peopleCount} Type ${data.slug} (${typeInfo.name}) personalities out of ${corpusInsight.corpusPublished} published profiles. The dominant lane for this type is ${corpusInsight.domainLabel}. Browse the full Type ${data.slug} gallery at https://9takes.com/personality-analysis/type/${data.slug}.`
+						}
+					}
+				]
+			: []
+	);
+
 	let faqSchema = $derived({
 		'@type': 'FAQPage',
 		'@id': faqId,
@@ -320,7 +349,8 @@
 									)}. 9takes profiles ${peopleCount} Type ${data.slug} personalities in total.`
 							: `9takes is actively building its library of famous Type ${data.slug} (${typeInfo.name}) personalities.`
 				}
-			}
+			},
+			...corpusFaqs
 		]
 	});
 
@@ -377,6 +407,20 @@
 	<article class="enneagram-type-page">
 		<EnneagramTypeIntro type={data.slug} />
 
+		{#if corpusInsight}
+			<CorpusStatCallout
+				claim={corpusInsight.claim}
+				eyebrow={`9takes Corpus Stat — Type ${data.slug}`}
+				domainLabel={corpusInsight.domainLabel}
+				domainUrl={corpusInsight.domainUrl}
+				corpusAnchorUrl={corpusInsight.corpusAnchorUrl}
+				domainTotal={corpusInsight.domainTotal}
+				sharePct={corpusInsight.sharePct}
+				deltaPpFormatted={corpusInsight.deltaPpFormatted}
+				generatedAt={corpusInsight.generatedAt}
+			/>
+		{/if}
+
 		<section class="famous-people" aria-labelledby="famous-heading">
 			<div class="section-header">
 				<h2 id="famous-heading">Famous Type {data.slug}s — {typeInfo.name} Examples</h2>
@@ -431,6 +475,18 @@
 
 		<footer>
 			<p class="more-info">More analyses of Enneagram Type {data.slug} coming soon.</p>
+			{#if corpusInsight}
+				<p class="corpus-links">
+					Want the raw numbers? See the
+					<a href="/corpus-stats#enneagram-distribution"
+						>full type distribution across {corpusInsight.corpusPublished} profiles</a
+					>
+					or the
+					<a href="/corpus-stats#per-type-domains"
+						>per-type domain breakdown for Type {data.slug}</a
+					>.
+				</p>
+			{/if}
 			{#if !data?.user}
 				<div class="email-signup">
 					<EmailSignup />
@@ -803,6 +859,24 @@
 		color: var(--ink-mid);
 		font-size: 0.9375rem;
 		position: relative;
+	}
+
+	.corpus-links {
+		margin: 0 auto 1.5rem;
+		max-width: 640px;
+		font-size: 0.875rem;
+		color: var(--ink-mid);
+		line-height: 1.6;
+		position: relative;
+
+		a {
+			color: var(--lamp-glow);
+			text-decoration: none;
+
+			&:hover {
+				text-decoration: underline;
+			}
+		}
 	}
 
 	.email-signup {

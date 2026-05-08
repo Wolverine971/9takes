@@ -77,11 +77,11 @@
 	});
 </script>
 
-{#if emitJsonLd}
-	<svelte:head>
+<svelte:head>
+	{#if emitJsonLd}
 		{@html `<script type="application/ld+json">${JSON.stringify(quotationSchema)}</script>`}
-	</svelte:head>
-{/if}
+	{/if}
+</svelte:head>
 
 <aside
 	class="corpus-stat-callout"

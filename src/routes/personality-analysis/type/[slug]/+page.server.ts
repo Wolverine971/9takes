@@ -5,6 +5,7 @@ import type { PageServerLoad } from './$types';
 import { error } from '@sveltejs/kit';
 import type { Database } from '../../../../../database.types';
 import { normalizePersonalitySlug } from '$lib/utils/personalityAnalysis';
+import { getTypeCorpusInsight, type TypeCorpusInsight } from '$lib/server/typeCorpusStats';
 
 type FamousPersonRow = Database['public']['Tables']['blogs_famous_people']['Row'];
 type PersonPost = Pick<FamousPersonRow, 'person' | 'enneagram' | 'title' | 'date' | 'lastmod'> & {
@@ -14,7 +15,7 @@ type PersonPost = Pick<FamousPersonRow, 'person' | 'enneagram' | 'title' | 'date
 export const load: PageServerLoad = async ({
 	params,
 	locals
-}): Promise<{ people: App.BlogPost[]; slug: string }> => {
+}): Promise<{ people: App.BlogPost[]; slug: string; corpusInsight: TypeCorpusInsight | null }> => {
 	const supabase = locals.supabase;
 	const slug = params.slug;
 
@@ -41,7 +42,9 @@ export const load: PageServerLoad = async ({
 		new Date(a.date ?? a.lastmod ?? 0) > new Date(b.date ?? b.lastmod ?? 0) ? -1 : 1
 	);
 
-	return { people: publishedPosts as unknown as App.BlogPost[], slug };
+	const corpusInsight = getTypeCorpusInsight(slug);
+
+	return { people: publishedPosts as unknown as App.BlogPost[], slug, corpusInsight };
 };
 
 export const actions: Actions = {
