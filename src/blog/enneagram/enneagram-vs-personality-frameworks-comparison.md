@@ -1,6 +1,6 @@
 ---
 title: "The Enneagram's Place in Personality Science: An Honest Audit"
-description: "104 studies. 75% classification accuracy. Real evidence of psychological maturation, plus the gaps. Where the Enneagram actually stands in the science."
+description: '104 studies. 75% classification accuracy. Real evidence of psychological maturation, plus the gaps. Where the Enneagram actually stands in the science.'
 author: 'DJ Wayne'
 date: '2026-02-22'
 loc: 'https://9takes.com/enneagram-corner/enneagram-vs-personality-frameworks-comparison'

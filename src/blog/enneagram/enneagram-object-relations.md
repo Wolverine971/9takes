@@ -1,6 +1,6 @@
 ---
 title: 'Attachment, Frustration, Rejection: Object Relations by Type'
-description: "Your earliest relationships shape every later one. The Enneagram sorts the 9 types into 3 patterns — Attachment, Frustration, Rejection. Find yours and loosen its grip."
+description: 'Your earliest relationships shape every later one. The Enneagram sorts the 9 types into 3 patterns — Attachment, Frustration, Rejection. Find yours and loosen its grip.'
 author: 'DJ Wayne'
 date: '2026-05-04'
 loc: 'https://9takes.com/enneagram-corner/enneagram-object-relations'

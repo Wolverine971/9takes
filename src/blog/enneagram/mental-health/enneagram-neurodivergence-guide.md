@@ -12,7 +12,7 @@ type: ['mental-health']
 blog: true
 previewHtml: ''
 pic: 'greek-statue-playing-with-toys'
-meta_title: "ADHD, Autism, and Your Enneagram: Why Generic Advice Fails"
+meta_title: 'ADHD, Autism, and Your Enneagram: Why Generic Advice Fails'
 path: src/blog/enneagram/mental-health/enneagram-neurodivergence-guide.md
 quality_grade: 'D'
 quality_score: 6.9

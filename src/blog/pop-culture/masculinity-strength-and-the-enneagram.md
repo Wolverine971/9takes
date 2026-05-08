@@ -1,6 +1,6 @@
 ---
 title: 'What Women Select For: Strength, Discipline, and Masculinity'
-description: "Blackpill says looks. Pickup says game. Both are wrong. What the biology, psychology, and Enneagram reveal about real masculine strength."
+description: 'Blackpill says looks. Pickup says game. Both are wrong. What the biology, psychology, and Enneagram reveal about real masculine strength.'
 author: 'DJ Wayne'
 date: '2026-03-23'
 loc: 'https://9takes.com/pop-culture/masculinity-strength-and-the-enneagram'
