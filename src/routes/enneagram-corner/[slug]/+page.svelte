@@ -22,6 +22,7 @@
 	import SuggestionsBlog from '$lib/components/blog/SuggestionsBlog.svelte';
 	import EmailSignup from '$lib/components/molecules/Email-Signup.svelte';
 	import AuthorBio from '$lib/components/blog/AuthorBio.svelte';
+	import TestYourTypeCTA from '$lib/components/blog/TestYourTypeCTA.svelte';
 
 	let { data }: { data: PageData } = $props();
 	type C = Component;
@@ -136,6 +137,11 @@
 
 	<AuthorBio author={data.frontmatter.author} />
 </article>
+
+<TestYourTypeCTA
+	secondaryHref="/corpus-stats"
+	secondaryLabel="See the corpus stats"
+/>
 
 <hr class="section-divider" />
 
