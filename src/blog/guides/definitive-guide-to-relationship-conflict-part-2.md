@@ -31,8 +31,8 @@ internal and external conflict
   "@graph": [
     {
       "@type": "HowTo",
-      "name": "Why Your Arguments Keep Repeating (And the Exercises That Actually Fix Them) [Part 2]",
-      "description": "Part 2 of navigating relationship conflict. Learn how to break repeating fights, avoid common pitfalls, and practice exercises that make repair easier.",
+      "name": "Conflict Resolution Exercises for Couples",
+      "description": "Eight practiced exercises for resolving relationship conflict — structured conversation, mirroring, soft startups, repair attempts, time-outs, written letters, appreciation exchange, and third-party mediation.",
       "author": {
         "@type": "Person",
         "name": "DJ Wayne",
@@ -52,7 +52,8 @@ internal and external conflict
         }
       },
       "datePublished": "2023-08-24",
-      "dateModified": "2026-01-18",
+      "dateModified": "2026-05-08",
+      "totalTime": "PT45M",
       "url": "https://9takes.com/how-to-guides/definitive-guide-to-relationship-conflict-part-2",
       "image": {
         "@type": "ImageObject",
@@ -64,7 +65,65 @@ internal and external conflict
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://9takes.com/how-to-guides/definitive-guide-to-relationship-conflict-part-2"
-      }
+      },
+      "step": [
+        {
+          "@type": "HowToStep",
+          "position": 1,
+          "name": "The Structured Conversation",
+          "text": "Set a 30-45 minute time limit. One partner speaks while the other listens without interrupting, then switch. Validate before responding (\"I understand you feel… and that makes sense because…\"). Stay on one issue. A passed object can mark whose turn it is.",
+          "url": "https://9takes.com/how-to-guides/definitive-guide-to-relationship-conflict-part-2#the-structured-conversation"
+        },
+        {
+          "@type": "HowToStep",
+          "position": 2,
+          "name": "Mirroring Exercise",
+          "text": "Partner A expresses thoughts or feelings about an issue. Partner B mirrors back: \"What I hear you saying is…\" then \"Did I get that right?\" Partner A confirms or clarifies. Switch roles. Only after both feel understood do you move to problem-solving.",
+          "url": "https://9takes.com/how-to-guides/definitive-guide-to-relationship-conflict-part-2#mirroring-exercise"
+        },
+        {
+          "@type": "HowToStep",
+          "position": 3,
+          "name": "The Soft Startup",
+          "text": "Open with \"I\" not \"You.\" Describe behavior, don't judge character. Be clear about what you need. Offer a possible solution. Find one positive note to acknowledge. Practice writing soft startups before high-stakes conversations until the format becomes natural.",
+          "url": "https://9takes.com/how-to-guides/definitive-guide-to-relationship-conflict-part-2#the-soft-startup"
+        },
+        {
+          "@type": "HowToStep",
+          "position": 4,
+          "name": "Safe Words and Time-Outs",
+          "text": "Choose a word or phrase either partner can use to pause when flooded (e.g. \"red light,\" \"pause button\"). Agree in advance the break will last 20-30 minutes. The person calling for the time-out is responsible for returning at the agreed time. Self-soothe during the pause; don't keep replaying the conflict. Re-enter with a soft startup.",
+          "url": "https://9takes.com/how-to-guides/definitive-guide-to-relationship-conflict-part-2#safe-words-and-time-outs"
+        },
+        {
+          "@type": "HowToStep",
+          "position": 5,
+          "name": "Repair Attempts (The Reset Button)",
+          "text": "Pick 3-5 phrases you both agree to treat as a reset, not a trap (\"Can we start over?\" \"I'm on your side.\" \"I care more about us than being right.\"). When one person uses a repair phrase, the other acknowledges it (\"Okay. I'm here.\"). Then return to one issue and one ask.",
+          "url": "https://9takes.com/how-to-guides/definitive-guide-to-relationship-conflict-part-2#repair-attempts-the-reset-button"
+        },
+        {
+          "@type": "HowToStep",
+          "position": 6,
+          "name": "Write It Down",
+          "text": "Each partner writes a letter using \"I\" statements, including what you need and any proposed solutions. Exchange letters and read silently without immediate discussion. Take time to process. Discuss using the other techniques once both have read. Especially helpful when one partner dominates verbal discussions.",
+          "url": "https://9takes.com/how-to-guides/definitive-guide-to-relationship-conflict-part-2#write-it-down"
+        },
+        {
+          "@type": "HowToStep",
+          "position": 7,
+          "name": "The Appreciation Exchange",
+          "text": "Each partner shares three current, specific appreciations (\"I appreciate how you made coffee for me this morning,\" not \"I appreciate that you're nice\"). The receiver simply says \"thank you\" without deflecting. Practice regularly, not just during conflict. Couples maintaining a 5:1 positive-to-negative ratio are significantly more likely to stay together (Gottman).",
+          "url": "https://9takes.com/how-to-guides/definitive-guide-to-relationship-conflict-part-2#the-appreciation-exchange"
+        },
+        {
+          "@type": "HowToStep",
+          "position": 8,
+          "name": "Third-Party Mediation",
+          "text": "Agree on a third party you both trust (therapist, counselor, religious leader). Establish ground rules. Each partner shares their perspective without interruption. The mediator helps surface common ground. Leave with an action plan that includes specific steps and follow-up.",
+          "url": "https://9takes.com/how-to-guides/definitive-guide-to-relationship-conflict-part-2#third-party-mediation"
+        }
+      ]
     },
     {
       "@type": "FAQPage",

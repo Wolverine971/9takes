@@ -1,14 +1,14 @@
 ---
 title: 'The Office Enneagram Types: Why Dunder Mifflin Was a Personality Disaster Built to Last'
 meta_title: 'The Office Enneagram Types: Michael, Jim, Pam, Dwight, Angela & More'
-description: "Michael Scott as a Type 2 explains everything. Dwight as a Type 6 explains the rest. Why The Office worked: nine personality types, one paper company, zero self-awareness."
+description: 'Michael Scott as a Type 2 explains everything. Dwight as a Type 6 explains the rest. Why The Office worked: nine personality types, one paper company, zero self-awareness.'
 author: 'DJ Wayne'
 date: '2026-05-07'
 loc: 'https://9takes.com/pop-culture/the-office-enneagram-types'
 lastmod: '2026-05-07'
 changefreq: 'monthly'
 priority: '0.6'
-published: true
+published: false
 type: ['situational']
 blog: true
 previewHtml: ''
@@ -134,24 +134,24 @@ Here's what's actually happening when Michael does The Dundies. When Dwight buys
 
 ## The Office Personality Map
 
-| Character          | Type              | Wing | What Their Type Looks Like at Work                                    |
-| ------------------ | ----------------- | ---- | --------------------------------------------------------------------- |
-| Michael Scott      | 2 — Helper        | 2w7  | Runs the branch as a love operation. Cannot tolerate being disliked.  |
-| Dwight Schrute     | 6 — Loyalist      | 6w5  | Loyal to authority, suspicious of everyone else, prepared for war.    |
-| Jim Halpert        | 9 — Peacemaker    | 9w8  | Coasts on charm, deflects with pranks, finally pushes when cornered.  |
-| Pam Beesly         | 9 — Peacemaker    | 9w1  | Quiet idealism, art she won't show, the strongest spine in the room.  |
-| Angela Martin      | 1 — Reformer      | 1w9  | Moral judgment as control. Cats as substitute for permitted desire.   |
-| Stanley Hudson     | 5 — Investigator  | 5w4  | Withdrawal as protest. Pretzel Day as the only joy he'll publicly own. |
-| Kelly Kapoor       | 7 — Enthusiast    | 7w8  | Drama is fuel. Reframes every breakup as the next adventure.          |
-| Andy Bernard       | 3 — Achiever      | 3w2  | Cornell, a cappella, anger management — all images chasing approval.  |
-| Kevin Malone       | 9 — Peacemaker    | 9w8  | Sweet, drifting, occasionally wise, mostly thinking about chili.      |
-| Phyllis Lapin      | 2 — Helper        | 2w1  | Quiet helper energy with a steel core when crossed.                   |
-| Oscar Martinez     | 5 — Investigator  | 5w6  | Knowledge as identity. Corrects everyone, including the audience.     |
-| Meredith Palmer    | 7 — Enthusiast    | 7w8  | Type 7 stress-line into self-destruction. The unwell version.         |
-| Toby Flenderson    | 9 — Peacemaker    | 9w4  | The disappearing man. HR as the loneliest job in Scranton.            |
-| Creed Bratton      | Unclassifiable    | —    | Possibly not a person.                                                |
-| Ryan Howard        | 3 — Achiever      | 3w4  | Image obsession with a Four-shaped emptiness underneath.              |
-| Erin Hannon        | 9 — Peacemaker    | 9w1  | Eager-to-please foster-care wiring. Profoundly conflict-avoidant.     |
+| Character       | Type             | Wing | What Their Type Looks Like at Work                                     |
+| --------------- | ---------------- | ---- | ---------------------------------------------------------------------- |
+| Michael Scott   | 2 — Helper       | 2w7  | Runs the branch as a love operation. Cannot tolerate being disliked.   |
+| Dwight Schrute  | 6 — Loyalist     | 6w5  | Loyal to authority, suspicious of everyone else, prepared for war.     |
+| Jim Halpert     | 9 — Peacemaker   | 9w8  | Coasts on charm, deflects with pranks, finally pushes when cornered.   |
+| Pam Beesly      | 9 — Peacemaker   | 9w1  | Quiet idealism, art she won't show, the strongest spine in the room.   |
+| Angela Martin   | 1 — Reformer     | 1w9  | Moral judgment as control. Cats as substitute for permitted desire.    |
+| Stanley Hudson  | 5 — Investigator | 5w4  | Withdrawal as protest. Pretzel Day as the only joy he'll publicly own. |
+| Kelly Kapoor    | 7 — Enthusiast   | 7w8  | Drama is fuel. Reframes every breakup as the next adventure.           |
+| Andy Bernard    | 3 — Achiever     | 3w2  | Cornell, a cappella, anger management — all images chasing approval.   |
+| Kevin Malone    | 9 — Peacemaker   | 9w8  | Sweet, drifting, occasionally wise, mostly thinking about chili.       |
+| Phyllis Lapin   | 2 — Helper       | 2w1  | Quiet helper energy with a steel core when crossed.                    |
+| Oscar Martinez  | 5 — Investigator | 5w6  | Knowledge as identity. Corrects everyone, including the audience.      |
+| Meredith Palmer | 7 — Enthusiast   | 7w8  | Type 7 stress-line into self-destruction. The unwell version.          |
+| Toby Flenderson | 9 — Peacemaker   | 9w4  | The disappearing man. HR as the loneliest job in Scranton.             |
+| Creed Bratton   | Unclassifiable   | —    | Possibly not a person.                                                 |
+| Ryan Howard     | 3 — Achiever     | 3w4  | Image obsession with a Four-shaped emptiness underneath.               |
+| Erin Hannon     | 9 — Peacemaker   | 9w1  | Eager-to-please foster-care wiring. Profoundly conflict-avoidant.      |
 
 This is the lineup. Now the autopsy.
 

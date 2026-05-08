@@ -141,7 +141,7 @@ path: src/blog/guides/definitive-guide-to-self-efficacy.md
 
 That work became foundational in psychology. "Self-efficacy" is the term he coined: not general self-confidence, but your belief that you can do this specific thing, right now. Two people with identical skills can have wildly different outcomes — one acts, the other doesn't. Self-efficacy is usually the gap. This guide shows you how to close it.
 
-> Pattern from our [325 published personality profiles](/personality-analysis): in our [Tech, Founders & Business](/personality-analysis/categories/tech-business) category (n=55), Type 3 (Achiever) is over-represented at 29.1% — +8.78 percentage points above baseline. The people who *act* on their ideas (rather than perfect them in private) cluster heavily in one Enneagram type. Self-efficacy is not a personality trait — it is a learnable belief that any type can build. The 30-day plan below shows how.
+> Pattern from our [325 published personality profiles](/personality-analysis): in our [Tech, Founders & Business](/personality-analysis/categories/tech-business) category (n=55), Type 3 (Achiever) is over-represented at 29.1% — +8.78 percentage points above baseline. The people who _act_ on their ideas (rather than perfect them in private) cluster heavily in one Enneagram type. Self-efficacy is not a personality trait — it is a learnable belief that any type can build. The 30-day plan below shows how.
 
 <h2 id="why-important">Why Self-efficacy is Important</h2>
 

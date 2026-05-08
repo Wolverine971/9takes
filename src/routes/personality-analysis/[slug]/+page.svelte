@@ -575,10 +575,7 @@
 <div class="sidebar-container">
 	{#key post.slug}
 		{#if postSuggestions.length || (data.bridgeLinks?.length ?? 0)}
-			<PeopleSuggestionsSideBar
-				links={postSuggestions}
-				bridgeLinks={data.bridgeLinks ?? []}
-			/>
+			<PeopleSuggestionsSideBar links={postSuggestions} bridgeLinks={data.bridgeLinks ?? []} />
 		{/if}
 	{/key}
 </div>

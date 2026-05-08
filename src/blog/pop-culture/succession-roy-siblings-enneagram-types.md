@@ -1,14 +1,14 @@
 ---
 title: 'Succession Enneagram: Why Logan Roy Bred Four Different Personality Disasters'
 meta_title: 'Succession Enneagram Types: Logan, Kendall, Shiv, Roman, Connor, Tom'
-description: "Logan Roy is a Type 8. Each of his children is a different malformed response to that. Why Kendall is a broken Three, Shiv is an Eight in denial, Roman is a Seven hiding from himself, and Connor is a Nine who built a fantasy state."
+description: 'Logan Roy is a Type 8. Each of his children is a different malformed response to that. Why Kendall is a broken Three, Shiv is an Eight in denial, Roman is a Seven hiding from himself, and Connor is a Nine who built a fantasy state.'
 author: 'DJ Wayne'
 date: '2026-05-07'
 loc: 'https://9takes.com/pop-culture/succession-roy-siblings-enneagram-types'
 lastmod: '2026-05-07'
 changefreq: 'monthly'
 priority: '0.6'
-published: true
+published: false
 type: ['situational']
 blog: true
 previewHtml: ''
@@ -133,20 +133,20 @@ Once you read each Roy child as a specific [Enneagram](/enneagram-corner/enneagr
 
 ## The Roy Family Personality Map
 
-| Character        | Type             | Wing | What Their Wiring Does on Screen                                     |
-| ---------------- | ---------------- | ---- | -------------------------------------------------------------------- |
-| Logan Roy        | 8 — Challenger    | 8w9  | Dominance as oxygen. Children as test subjects. No tenderness.       |
-| Kendall Roy      | 3 — Achiever      | 3w4  | Performs heir-apparency. Bleeds when the audience leaves the room.   |
-| Shiv Roy         | 8 — Challenger    | 8w7  | Inherited Logan's wiring. Spent decades trying to brand it as 3.     |
-| Roman Roy        | 7 — Enthusiast    | 7w8  | Humor as deflection. Sex as defense. Pain as the unfaceable subject. |
-| Connor Roy       | 9 — Peacemaker    | 9w1  | Built a fantasy state to survive being raised by Logan.              |
-| Tom Wambsgans    | 3 — Achiever      | 3w2  | Climber. Trauma-bonds to Greg. Marries up. Survives by sycophancy.   |
-| Greg Hirsch      | 6 — Loyalist      | 6w7  | Shifts allegiance to whoever feels safest in the room right now.    |
-| Gerri Kellman    | 5 — Investigator  | 5w6  | Runs the actual operation. Reads everyone. Reveals nothing.          |
-| Willa Ferreyra   | 4 — Individualist | 4w3  | Artist who marries the cage. Knows it. Hates it. Stays.              |
-| Stewy Hosseini   | 7 — Enthusiast    | 7w8  | Charm and capital. Friend to everyone, loyal to no one but Stewy.   |
-| Naomi Pierce     | 4 — Individualist | 4w5  | The Pierce that mirrors Kendall. Same wound, different family.       |
-| Marcia Roy       | 5 — Investigator  | 5w4  | Watches everything. Says nothing she doesn't choose. Wins quietly.   |
+| Character      | Type              | Wing | What Their Wiring Does on Screen                                     |
+| -------------- | ----------------- | ---- | -------------------------------------------------------------------- |
+| Logan Roy      | 8 — Challenger    | 8w9  | Dominance as oxygen. Children as test subjects. No tenderness.       |
+| Kendall Roy    | 3 — Achiever      | 3w4  | Performs heir-apparency. Bleeds when the audience leaves the room.   |
+| Shiv Roy       | 8 — Challenger    | 8w7  | Inherited Logan's wiring. Spent decades trying to brand it as 3.     |
+| Roman Roy      | 7 — Enthusiast    | 7w8  | Humor as deflection. Sex as defense. Pain as the unfaceable subject. |
+| Connor Roy     | 9 — Peacemaker    | 9w1  | Built a fantasy state to survive being raised by Logan.              |
+| Tom Wambsgans  | 3 — Achiever      | 3w2  | Climber. Trauma-bonds to Greg. Marries up. Survives by sycophancy.   |
+| Greg Hirsch    | 6 — Loyalist      | 6w7  | Shifts allegiance to whoever feels safest in the room right now.     |
+| Gerri Kellman  | 5 — Investigator  | 5w6  | Runs the actual operation. Reads everyone. Reveals nothing.          |
+| Willa Ferreyra | 4 — Individualist | 4w3  | Artist who marries the cage. Knows it. Hates it. Stays.              |
+| Stewy Hosseini | 7 — Enthusiast    | 7w8  | Charm and capital. Friend to everyone, loyal to no one but Stewy.    |
+| Naomi Pierce   | 4 — Individualist | 4w5  | The Pierce that mirrors Kendall. Same wound, different family.       |
+| Marcia Roy     | 5 — Investigator  | 5w4  | Watches everything. Says nothing she doesn't choose. Wins quietly.   |
 
 This is the cast list. The thesis is what they make of each other.
 

@@ -16,7 +16,7 @@ path: src/blog/guides/ultimate-guide-to-active-listening.md
 totalTime: 'P30D'
 howToSteps:
   - name: 'Week 1 — Awareness: Know Your Pattern'
-    text: 'Identify your Enneagram type''s specific listening block (the Corrector''s Curse, the Helper''s Hijack, the Achiever''s Acceleration, etc.). Track how often it appears daily — no judgment, just observation. Success metric: you catch yourself in the pattern five times a day.'
+    text: "Identify your Enneagram type's specific listening block (the Corrector's Curse, the Helper's Hijack, the Achiever's Acceleration, etc.). Track how often it appears daily — no judgment, just observation. Success metric: you catch yourself in the pattern five times a day."
   - name: 'Week 2 — Interruption: Break the Pattern'
     text: 'Practice your type''s 5-second challenge — hold silence for five full seconds after they finish speaking. Use one tactical fix daily. Notice the discomfort; it means it''s working. Success metric: someone says "you seem different."'
   - name: 'Week 3 — Integration: New Habits'

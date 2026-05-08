@@ -24,9 +24,7 @@
 	// the matching personality-analysis category. Falls back to no-render
 	// when the slug isn't mapped (e.g., an unpublished file rendered in dev).
 	const bridges = $derived(getPopCultureBridges(data?.slug ?? ''));
-	const bridgeCategory = $derived(
-		bridges ? getPersonalityCategoryBySlug(bridges.category) : null
-	);
+	const bridgeCategory = $derived(bridges ? getPersonalityCategoryBySlug(bridges.category) : null);
 	const TYPE_PILLAR_LABELS: Record<number, string> = {
 		1: 'Type 1 — Perfectionist',
 		2: 'Type 2 — Helper',
@@ -177,20 +175,14 @@
 					</a>
 				{/if}
 				{#if bridgeCategory}
-					<a
-						href={`/personality-analysis/categories/${bridgeCategory.slug}`}
-						class="related-card"
-					>
+					<a href={`/personality-analysis/categories/${bridgeCategory.slug}`} class="related-card">
 						<span class="card-icon">◯</span>
 						<h3>{bridgeCategory.label} profiles</h3>
 						<p>Real-people personality breakdowns inside this same category.</p>
 						<span class="card-link">Browse profiles →</span>
 					</a>
 				{/if}
-				<a
-					href={`/corpus-stats#domain-${bridges.corpusAnchor}`}
-					class="related-card"
-				>
+				<a href={`/corpus-stats#domain-${bridges.corpusAnchor}`} class="related-card">
 					<span class="card-icon">▦</span>
 					<h3>Corpus stats — {bridgeCategory?.shortLabel ?? bridges.corpusAnchor}</h3>
 					<p>The actual type distribution in this domain across the 9takes corpus.</p>

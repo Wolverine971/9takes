@@ -32,7 +32,7 @@ path: src/blog/pop-culture/google-leadership-evolution.md
 </script>
 
 <QuickAnswer question="How did Google change under Larry Page and Sergey Brin vs Sundar Pichai?">
-Larry Page (Enneagram 5w6) and Sergey Brin (5w7) built Google as a fortress wrapped around a trapeze — same Type 5 engine, opposite wings. Page's 6 wing built the secrecy infrastructure (private flying-car factories, five private islands, Calico's mission to solve death). Brin's 7 wing kept the place weird (Rollerblades, handstands, Burning Man, cow-costume interviews). Together they made a company too complex for any single vision. So in 2015 the board picked Sundar Pichai (Type 9) to stabilize it through consensus. He did — TGIF got scaled back, "Don't Be Evil" quietly dropped, mass hiring, and the 12,000 layoff by email. Then ChatGPT hit in November 2022 and a 9's harmony-first instinct couldn't generate urgency under existential threat. By February 2023 Brin had requested code access. Page came in from Fiji. Both founders sat in emergency meetings with their own successor. Google is the only Big Tech company where the founders had to return — and the personality reason why is the entire story.
+Larry Page (Enneagram 5w6) and Sergey Brin (5w7) built Google as a fortress wrapped around a trapeze: same Type 5 hunger to understand, opposite wings. In 2015 the board picked Sundar Pichai (Type 9), the calmest man in the room, to stabilize the sprawl. Then ChatGPT shipped in November 2022, and a 9's harmony-first instinct couldn't generate urgency under existential threat. By February 2023, Brin had requested code access. Page came in from Fiji. Google is the only Big Tech where the founders had to return — and the personality logic is the entire story.
 </QuickAnswer>
 
 <p class="firstLetter">In February 2023, three months after ChatGPT launched, a retired co-founder of Google requested access to the company's code. He hadn't worked there in four years. He'd been drinking espresso, studying physics, riding around on a yacht. His name was on the door, but his fingerprints weren't on the product anymore. Then <a href="/personality-analysis/sergey-brin">Sergey Brin</a> came back. <a href="/personality-analysis/larry-page">Larry Page</a> came in from Fiji. <a href="/personality-analysis/sundar-pichai">Sundar Pichai</a> — the man both founders had personally chosen to run their company — sat in the same emergency meetings.</p>
@@ -43,19 +43,13 @@ The reason why is a personality story.
 
 ## Why Google is the only Big Tech where the founders had to come back
 
-Every other Big Tech founder transition stuck. Tim Cook took Apple. Satya Nadella took Microsoft. Andy Jassy took Amazon. None of them needed the original founder to come back when the world changed. The successor either was the founder's psychological twin or carried enough of the founder's intensity that the company never had to renegotiate what it was.
+Tim Cook, Satya Nadella, Andy Jassy. None of them needed the founder back when the world changed. Each successor was the founder's psychological twin — or close enough that the company never had to renegotiate what it was at the core. Google's succession was different from the start. The difference was personality, not strategy.
 
-Google's succession was different from the start — and the difference was personality, not strategy.
-
-Page (5w6) and Brin (5w7) built the company on Type 5 founder energy: analytical, exploratory, contrarian, scattered. The 6 wing in Page built the secrecy infrastructure — shell companies, private islands, dual-class voting stock that made shareholder votes mostly decorative. The 7 wing in Brin kept the place weird — handstands in meetings, an airship company, a wife whose genome database told him he might develop Parkinson's. Same hunger to know the world. Opposite postures toward it.
+Page (5w6) and Brin (5w7) built the company on Type 5 founder energy: analytical, exploratory, contrarian, scattered. The 6 wing in Page built the secrecy infrastructure — shell companies, private islands, dual-class voting stock that made shareholder votes mostly decorative. The 7 wing in Brin kept the place weird — handstands in meetings, an airship company, a wife whose genome database told him he might develop Parkinson's.
 
 By 2015, the company was too complex for two 5s to hold in their heads. The board didn't pick another visionary. They picked the calmest man in the room: Sundar Pichai, an Enneagram Type 9, the Peacemaker. The opposite of the founders by design.
 
-He stabilized Google for seven years. Then OpenAI shipped ChatGPT, and the same harmony-seeking instinct that had won Pichai every internal fight inside Google became the wrong tool for a fight Google was losing in public.
-
-The 5s came back. Not as titles. As engineers.
-
-This is the story of how that happened — and what the personality logic actually says about Google's next decade.
+He stabilized Google for seven years. Then OpenAI shipped ChatGPT, and the same harmony-seeking instinct that had won Pichai every internal fight inside Google became the wrong tool for a fight Google was losing in public. This is the story of how that happened — and what the personality logic actually says about Google's next decade.
 
 ## The three minds that ran Google
 
@@ -79,11 +73,11 @@ That's the partnership pattern of a 5w6: pick one alliance, deep, and trust nobo
 
 > "Larry is shy, thoughtful, sensitive, and thinks linearly. Sergey is loud, distraught, and insightful. The two are so different."
 
-Same head-center hunger. Opposite wings.
+Same head-center hunger — both 5s cope by understanding the world before stepping into it. Opposite wings.
 
 **Page is a [Type 5](/enneagram-corner/enneagram-type-5) with a [6 wing](/enneagram-corner/enneagram-wings-complete-guide).** The 6 wing is the head-center wing that worries forward, allies carefully, and hedges against worst cases. In Page that shows up as infrastructure. He spent more than $100 million on a flying-car factory called Zee.Aero in Hollister, California, where employees called him "GUS" — The Guy Upstairs — because the company pretended he had nothing to do with it. Filings traced the funding to a shell. Engineers signed NDAs that didn't name him. Bloomberg unmasked him in 2016 (the [full GUS / Zee.Aero story](/personality-analysis/larry-page) is in the Page analysis). He owns at least five private islands. When his vocal cords failed in 1999, he didn't go public — he funded research at the Voice Health Institute and let his CFO read his founder's letter for him at the next earnings call. The 5w6 response to vulnerability is to study it into submission, not announce it.
 
-**Brin is a Type 5 with a 7 wing.** The 7 wing is the iconoclast. In Brin that shows up as motion. He Rollerblades to meetings. He walks the hallway on his hands "for fun." He once interviewed a candidate dressed as a cow. He runs the most rococo private camps at Burning Man. In 2008, he alpha-tested 23andMe — the genome-scanning company his then-wife Anne Wojcicki had co-founded — found a single-letter mutation in his LRRK2 gene that raised his Parkinson's risk to as high as eight-in-ten, and posted it on the internet. (The [full LRRK2 pretzel](/personality-analysis/sergey-brin) is in the Brin analysis.) When he was a six-year-old boy in Moscow, he threw pebbles at a police car because it was the only confrontation available to him. The 5w7 chassis is built to find out what happens — even when knowing hurts.
+**Brin is a Type 5 with a 7 wing.** The 7 wing is the iconoclast. In Brin that shows up as motion. He Rollerblades to meetings. He walks the hallway on his hands "for fun." He once interviewed a candidate dressed as a cow. He runs the most rococo private camps at Burning Man. In 2008, he alpha-tested 23andMe — the genome-scanning company his then-wife Anne Wojcicki had co-founded — found a mutation in his LRRK2 gene (a Parkinson's risk allele) that put his lifetime risk as high as eight-in-ten, and posted it on the internet. (The [full story](/personality-analysis/sergey-brin) is in the Brin analysis.) When he was a six-year-old boy in Moscow, he threw pebbles at a police car because it was the only confrontation available to him. The 5w7 chassis is built to find out what happens — even when knowing hurts.
 
 Two wings. One engine.
 
@@ -113,7 +107,7 @@ Brin's contribution to the founder lab was the disorder. Eric Schmidt, telling t
 
 That's the 5w7 chassis at work. Schmidt had given Brin a $1 million budget. Brin came back a million and a half over and a generational ad business in his hand. The lesson Schmidt seems to have taken from it was that the disorder wasn't the bug. It was, occasionally, the entire point.
 
-The founder lab also produced the company's most-quoted three words: "Don't Be Evil." It got told later as Silicon Valley sloganeering. In Brin's mouth it was specific autobiography — a Soviet-Jewish refugee whose father was barred from physics for being Jewish, whose family watched a state lie about everything, refusing to build a system that did the same. He was the one inside the building who would not let Google keep operating censored search in mainland China after the 2009 Aurora hack. He flew home from holiday and would not let it go. In March 2010, Google rerouted google.cn to its Hong Kong servers. Schmidt and Page came along. Brin was driving.
+The founder lab also produced the company's most-quoted three words: "Don't Be Evil." It got told later as Silicon Valley sloganeering. In Brin's mouth it was specific autobiography — a Soviet-Jewish refugee whose father was barred from physics for being Jewish, whose family watched a state lie about everything, refusing to build a system that did the same. He was the one inside the building who would not let Google keep operating censored search in mainland China after the 2009 Aurora hack — the Chinese state-backed cyberattack that breached the Gmail accounts of human-rights activists. He flew home from holiday and would not let it go. In March 2010, Google rerouted google.cn to its Hong Kong servers. Schmidt and Page came along. Brin was driving.
 
 The acquisitions in this era looked patient because they were. YouTube in 2006. Android in 2005, when Andy Rubin was pitching a small Linux-based phone OS and Page cut him off mid-monetization-pitch with _don't worry about that, just build the best possible phone._ DoubleClick in 2007. Page and Brin as long-bet thinkers, willing to lose money for years on bets nobody else believed in.
 
@@ -122,6 +116,14 @@ By 2011, Schmidt's farewell tweet was a single line: _"Day-to-day adult supervis
 The shadow showed up almost immediately. Page hated meetings as CEO. He was reportedly so obsessive about page-load latency that engineers — even ones who admired him — sometimes asked to be moved off his teams. Glass was killed. Motorola was sold. The 5's preference for understanding the problem so completely that the answer is inevitable does not scale to a hundred-thousand-person company with a cafeteria the size of an airport.
 
 By 2015, the company was too complex for two 5s to hold in their heads. Scattered ambition was both the strength and the liability. They had built more than they could manage.
+
+## The Schmidt control variable: why a 5-to-5 bridge worked the first time
+
+Eric Schmidt didn't get pushed onto Page and Brin. They picked him. After meeting roughly fifteen candidates the board lined up in 2001, the founders settled on the only one who recognized what he was looking at — a Berkeley CS PhD with the patience to read the room before answering. Page later said the moment he knew Schmidt was right was that Schmidt was the only candidate who actually came to Burning Man with them. That's a 5 reading another 5.
+
+Schmidt is, by every available signal, also a head-center type — most readably a 5w6 himself. Engineering pedigree, statesman composure, exquisite at letting other smart people get to the answer first. For ten years, Google ran on head-center continuity: two founders (5w6 + 5w7) governed by a third 5. Different roles, same triad. The bridge worked because the type didn't change.
+
+That's the Schmidt control variable. The Pichai handoff inverted it. Pichai is a [Type 9](/enneagram-corner/enneagram-type-9) — gut center, not head center. When the triad changed, the company kept its engineering culture but lost its native operating system. The founders' eventual return had a structural reason that the press never quite named: the successor's wiring couldn't generate the kind of center of gravity Google had run on for seventeen years.
 
 ## Why Page and Brin picked the calmest man in the room
 
@@ -149,6 +151,10 @@ The founders weren't replacing themselves with someone better. They were replaci
 
 ## What changed when the 9 took over
 
+Before the shadows, the wins. For the first half of his tenure, Pichai did exactly what the board had hired him to do. Google Cloud went from a distant third to a credible enterprise contender under Thomas Kurian. Pixel and Pixel Buds quietly became real product lines. Google Photos, Google Assistant, and Google Pay shipped without a launch fight. YouTube doubled, then doubled again. Android transitioned from project to platform to the world's most-installed operating system. Annual revenue went from roughly $75 billion in 2015 to $182 billion in 2020 to over $300 billion by 2023. The 9's risk aversion was running on a hand of aces, and for seven years, the patience paid out. The internal critique — _Pichai is too cautious_ — was true and was also working.
+
+The shadows started showing up in the same period, in the way 9 shadows always do: by removing things rather than adding them.
+
 Most employees can't point to the moment TGIF died. That's the most Type 9 thing about how Google's culture changed under Pichai.
 
 The all-hands didn't get canceled in a meeting. It got smaller. Then less frequent. Then questions started getting pre-screened. Then the questions got vetted in advance. Then the meeting became monthly instead of weekly. Then it stopped. The founders would have had a fight about it. Pichai had a redaction.
@@ -168,9 +174,11 @@ The company did not slow down on hiring. By 2022, Google had roughly 190,000 emp
 
 Then, in January 2023, came the signature 9 shadow moment: Google laid off 12,000 employees by email. Accounts frozen overnight. Devices locked. No knowledge transfers. No goodbyes. Pichai later admitted: _"Clearly it's not the right way to do it. I think it's something we could have done differently for sure."_
 
+The pressure leading up to it complicates the read. In November 2022, Christopher Hohn — head of activist hedge fund TCI Fund Management — sent Pichai a public letter demanding Google cut headcount and "aggressive action" on costs. Wall Street ate it. The 12,000 layoff that followed was not invented inside Pichai's office. The shape of it was. A more confrontational CEO would have negotiated the cut down, or staged the conversations, or absorbed the political hit of saying no to the activist. The 9 took the cleanest path through the path of least resistance — outsourced the conflict to inboxes — and ended up generating the worst HR moment of Google's history.
+
 The man whose career was built on the move toward people — the one who walked to the girls' hostel at IIT Kharagpur and asked any passerby to fetch his future wife rather than make a system work better for himself — sent 12,000 people the worst news of their professional lives by inbox.
 
-That's not callousness. That's the Type 9's failure mode. The harmony-seeker created maximum disharmony by choosing the path that required the least direct confrontation.
+That's the Type 9's failure mode in operating form. The harmony-seeker, pressured from outside, created maximum disharmony inside by choosing the path that required the least direct confrontation.
 
 The legal pressure compounded all of it. The Department of Justice's antitrust suit, filed in 2020, ground forward across Pichai's tenure. In August 2024, Judge Amit Mehta ruled: _"Google is a monopolist, and it has acted as one to maintain its monopoly."_ Google had paid roughly $26 billion in 2021 alone to be the default search engine on devices. The composure held under oath. The rulings did not.
 
@@ -186,11 +194,13 @@ They also had a Type 9 CEO. Risk aversion at the top. Consensus needs at the org
 
 In December 2022, Pichai declared "Code Red." (Later he denied the framing — itself a 9 move; harmony even in retrospect.) The company that had quietly led the AI research field for a decade was suddenly a company chasing a competitor that was using its own paper.
 
-In February 2023, Bard launched. Google's answer to ChatGPT contained a factual error in the demo. The market took $100 billion off Alphabet's market cap in a day.
+In February 2023, Bard launched. Google's promotional GIF asked the chatbot what to tell a nine-year-old about discoveries from the James Webb Space Telescope. Bard answered that JWST had taken "the very first pictures of a planet outside of our own solar system." It hadn't. The European Southern Observatory's Very Large Telescope had — in 2004. Astronomers caught it on Twitter within hours. The next trading day, the market took $100 billion off Alphabet's market cap.
+
+The 9 went quiet through the bleed. There was no rallying memo. No press tour. No anger directed inward at the team that signed off on an unverified demo for the most important product launch in the company's last decade. The composure held. The market did not.
 
 In the same month, the most-retired co-founder of Google requested access to the company's code.
 
-Sergey Brin had been, in his own words, _spiraling._ Three years into retirement, he was 47 years old, the third-richest person in the world, married to a woman 22 years younger than him, and reading physics in cafés that hadn't existed during COVID. The question-asking room he had spent his life walking into unannounced no longer had anyone in it asking the question he wanted to answer. Then ChatGPT shipped, and he watched OpenAI eat Google's lunch in the field Google had been quietly leading for a decade.
+Sergey Brin had been, in his own words, _spiraling._ Three years into retirement, he was 49, one of the wealthiest people on Earth, recently divorced for the second time, and reading physics in cafés that hadn't existed during COVID. The question-asking room he had spent his life walking into unannounced no longer had anyone in it asking the question he wanted to answer. Then ChatGPT shipped, and he watched OpenAI eat Google's lunch in the field Google had been quietly leading for a decade.
 
 > "I was kind of spiraling… kind of not being sharp."
 
@@ -198,7 +208,9 @@ By that summer, Brin was showing up at Google offices on Tuesdays and Thursdays.
 
 Larry Page came in from Fiji. He didn't take press. He didn't keynote. He returned to active involvement in Gemini development the way he had built Zee.Aero — quietly, through the system, on a floor most employees didn't visit. The fortress mind reactivated.
 
-In April 2023, Pichai consolidated. Google Brain merged with DeepMind into a single entity, Google DeepMind, under Demis Hassabis. That's what 9s do under existential pressure: eliminate friction, integrate factions, make the org chart match the urgency. It was the cleanest organizational decision of his tenure, and it was made because two founders had returned to a company that no longer had a clear chain of command for AI.
+In April 2023, Pichai consolidated. Google Brain merged with DeepMind into a single entity, Google DeepMind, under Demis Hassabis. That's what 9s do under existential pressure: eliminate friction, integrate factions, make the org chart match the urgency. It was the cleanest organizational decision of his tenure.
+
+The merger had a name attached to it. Demis Hassabis — child chess prodigy, neuroscience PhD, DeepMind co-founder, the man whose teams built AlphaGo and AlphaFold — became the technical center of Google's AI bet. If the founders came back, they came back FOR him. Hassabis is a head-center type himself, a Type 5 by every public signal: the kind of patient, deep-research mind Page had spent two decades acquiring and Brin had spent his retirement reading about. Putting Hassabis in charge of all Google AI was the most 5-coded decision a 9 could make. It restored a head-center anchor at the technical center of the company at exactly the moment the founders were re-anchoring the cultural one. Three 5s working on the same product. The original engine, restarted, in three voices instead of two.
 
 Then came May 2025.
 
@@ -208,7 +220,9 @@ At Google I/O — the company's annual developer conference — Brin made a surp
 
 That is a 5w7 sentence. The iconoclast moves. Show up unannounced, declare the future, leave. There is no version of Sundar Pichai that makes that same sentence in that same room. He is structurally incapable of it. Not because he doesn't believe AGI is coming, but because a 9 does not build authority by declaring things; a 9 builds authority by absorbing them. Brin's gift was always that he could say the thing nobody else in the building was willing to commit to in public.
 
-By December 2025, Brin was telling Stanford students that retiring "would have been a big mistake." By 2026, Time's most-influential-companies list had named Alphabet specifically because of how Pichai had pushed Gemini to the front of the AI race — a credit that, fairly read, belonged jointly to Pichai and to the two founders who had unretired to make the front possible.
+There was a 9-shaped hedge running underneath the founder return, too. Across 2023 and 2024, Google poured roughly $3 billion into Anthropic — the safety-first OpenAI spinoff — with up to $2 billion more committed. That is the kind of bet a Type 5 founder rarely makes (don't fund the rival; eat the rival) and a Type 9 makes by default (keep the field allied, distribute the risk, never commit to a single sword). The founders were betting Gemini would win. The 9 was making sure Google wouldn't lose if it didn't.
+
+By early 2026, Gemini had clawed back. The latest models were trading benchmark wins with OpenAI and Anthropic. Enterprise AI revenue was growing faster at Google Cloud than anywhere else in the field. Brin had told Stanford students in December 2025 that retiring "would have been a big mistake." Time's most-influential-companies list named Alphabet specifically because of how Pichai had pushed Gemini to the front of the AI race — a credit that, fairly read, belonged jointly to Pichai, Brin, Page, and Hassabis. The 9 brought the fight back to the parity line. The 5s were the engine that got it there.
 
 The personality logic crystallizes here.
 
@@ -245,8 +259,6 @@ Predicting any one of those is fluff content. The honest answer is: nobody knows
 
 What this story is actually evidence of is something quieter and more useful. _Personality types don't scale linearly through every phase of a company's life._ The type that wins one decade is the type that loses the next. Apple's [Type 1](/personality-analysis/steve-jobs) intensity was right for inventing the iPhone _and_ right for institutionalizing it. Microsoft's [Type 5](/personality-analysis/bill-gates) systems mind was right for owning the desktop _and_ right for owning the cloud. Google is the only Big Tech where the type that won one decade was the wrong type for the next — and the only fix the company has been able to find, so far, is the two original types, walking back through the door they once walked out of.
 
-Google is the only Big Tech where the founders had to come back. The reason is that personality types don't scale linearly through every phase of a company's life — and the type that wins one decade is the type that loses the next.
-
 ## Continue reading
 
 - [Founders vs Stewards: The Personality Types That Replace Tech Visionaries](/pop-culture/tech-titans-founders-vs-stewards) — the broader frame Apple, Microsoft, Amazon, and Google all sit inside.
@@ -254,140 +266,3 @@ Google is the only Big Tech where the founders had to come back. The reason is t
 - [Larry Page: The Man Who Indexed the World and Disappeared](/personality-analysis/larry-page) — the full GUS / Zee.Aero / Fiji story.
 - [Sergey Brin: An In-Depth Enneagram Type 5w7 Analysis](/personality-analysis/sergey-brin) — the LRRK2 alpha-test, the China exit, the spiraling retirement.
 - [Sundar Pichai: The Quiet Force Behind Google's Empire](/personality-analysis/sundar-pichai) — the silence-as-management-tool deep cut.
-
-
-
-<!--
-
-# READER COMMENT — fresh-eyes review (2026-05-07)
-
-Read the whole thing straight through. Below is what landed, what
-slipped, and what felt repeated. Honest pass, not a polish pass.
-
-WHAT I LOVED (keep it)
-
-- "Fortress wrapped around a trapeze" is the keeper image. Stays in
-  my head. The whole 5w6/5w7 contrast is the strongest section.
-- The Schmidt quote about Brin's $1.5M overspend → $10B AdSense
-  business. That's the kind of detail that makes the personality
-  argument feel real instead of theoretical.
-- The "5w6 response to vulnerability is to study it into submission,
-  not announce it" — that line actually taught me something.
-- The closing comparison table (Apple/Microsoft/Amazon/Google) is
-  where the thesis finally clicks. I'd consider moving it earlier
-  or signaling it harder up top so readers know that's the payoff.
-
-WHAT I MISSED / WANTED MORE OF
-
-1. Eric Schmidt is a ghost in this story. He gets quoted three times
-   but his decade (2001–2011) is treated like a gap year. If the
-   thesis is "personality continuity matters," Schmidt is exactly
-   the case study — an outsider type who held the seat between two
-   founder eras. What was his type? Why did HIS bridge work where
-   Pichai's couldn't? This feels like a missing pillar.
-
-2. Demis Hassabis gets one mention. He's now arguably the third
-   leg of the Gemini stool with Brin and Pichai. If the founders
-   came back, Hassabis is the one they came back FOR. A paragraph
-   on him would close a real gap.
-
-3. The 12,000 layoff feels morally narrated but not mechanically.
-   TCI Fund Management's activist letter explicitly pushed Pichai
-   to cut headcount and pay. That changes the read — was it pure
-   9 shadow, or a 9 caving to outside pressure? The current frame
-   is cleaner if you blame personality alone, but it's not the
-   full story and a sharp reader will notice.
-
-4. The Bard demo $100B market-cap drop gets one sentence. That's
-   a brutal, specific moment that deserves a paragraph. What was
-   the actual error? (It was about the JWST telescope.) What did
-   Pichai do that day? That's the scene where the 9 is most
-   exposed — use it.
-
-5. Pichai's pre-Google life is a black hole. IIT Kharagpur, Stanford,
-   McKinsey, Applied Materials. The article mentions his walk to
-   the girls' hostel as a romantic anecdote but doesn't connect it
-   to how a Type 9 forms. A 9 doesn't show up at 41 fully baked.
-
-6. "Married to a woman 22 years younger" — readers will Google this.
-   Either name her (Nicole Shanahan? someone else?) or cut it.
-   Also: double-check Brin's age math. He was born Aug 1973. In
-   Feb 2023 he was 49, not 47. "Three years into retirement, he
-   was 47" reads off — retirement was Dec 2019, so age 47 would
-   be late 2020, not the ChatGPT moment. Tighten.
-
-7. The Anthropic angle is missing. Google has invested billions in
-   Anthropic — that's a hedge a 9-led org would make and a
-   founder-led org probably wouldn't. It's a personality data point
-   hiding in plain sight.
-
-8. Gemini's actual 2026 standing. Brin declares AGI on stage in
-   May 2025, and then... how is Gemini doing? Reader wants the
-   scoreboard, not just the speech.
-
-WHAT FELT OVERDONE / DUPLICATE (trim candidates)
-
-1. "The 5s came back. Not as titles. As engineers." appears twice
-   (line 56 and line 219). Pick one. The second one is more earned;
-   I'd cut the first.
-
-2. The closing has the same thesis stated three times in a row
-   (lines 246, 247, 248). "Personality types don't scale linearly"
-   shows up twice in the last six lines. One clean landing instead
-   of three.
-
-3. The intro re-hooks the "founders came back" framing too many
-   times before the body starts. Lines 38, 40, 42, 44, 46, and
-   the section header at 44 all do the same job. Compress to one
-   strong setup.
-
-4. The QuickAnswer up top is so complete it's basically the article
-   in miniature. If a reader reads it, they may not feel the need
-   to read on. Consider trimming to the hook + question, leaving
-   the payoff for the body.
-
-5. TGIF dying and "Don't Be Evil" being relocated are structurally
-   the same beat — "the 9 lowered the temperature by editing
-   instead of announcing." They could merge into one tighter
-   passage.
-
-6. The "same X, opposite Y" rhythm is great but appears 4–5 times
-   in the Page/Brin section. ("Same head-center hunger. Opposite
-   wings." / "Same hunger to know the world. Opposite postures
-   toward it." / "Two wings. One engine." / "Same engine, opposite
-   wings.") Pick the two strongest, retire the rest.
-
-JARGON CHECK (for the casual reader)
-
-- "head-center wing," "triad," "5w6," "5w7" — there are links, but
-  for a pop-culture reader the density in the Page/Brin section
-  is heavy. One plain-English aside ("Type 5s are head-center —
-  they cope by understanding") would carry a lot of readers.
-- "Aurora hack" is dropped without context. One half-sentence
-  ("the 2009 cyberattack from China that exposed activist Gmail
-  accounts") would help.
-- "LRRK2 pretzel" is cute but only lands if you've read the Brin
-  blog. Either name what LRRK2 is in line, or cut the metaphor.
-- "Aaron to Larry's Moses" — half your readers won't catch the
-  reference. Worth keeping if you trust the audience, worth
-  glossing if you don't.
-
-ONE STRUCTURAL THOUGHT
-The piece argues that Pichai didn't fail — he succeeded at the
-2015 problem and that success became the wrong fit for 2022.
-That's a generous and interesting read. But the article spends
-much more time on Pichai's shadow (TGIF, Don't Be Evil, layoffs,
-Maven, Dragonfly, Damore, walkouts) than on the seven years of
-quiet wins that justified the choice. If the thesis is "the 9 was
-right for the moment," show that moment longer. Otherwise the
-balance reads as: founders heroic, Pichai problematic, founders
-return as cavalry. That's a thinner story than the one you set up.
-
-NET
-This is already a strong piece. The thesis is real, the imagery
-sticks, and the comparison frame is what makes it travel. The
-biggest single lift would be giving Schmidt and Hassabis their
-due, tightening the closing, and adding one paragraph showing
-Pichai's quiet wins so the founder-return doesn't read as rescue.
-==============================================================
--->

@@ -138,10 +138,7 @@
 	<AuthorBio author={data.frontmatter.author} />
 </article>
 
-<TestYourTypeCTA
-	secondaryHref="/corpus-stats"
-	secondaryLabel="See the corpus stats"
-/>
+<TestYourTypeCTA secondaryHref="/corpus-stats" secondaryLabel="See the corpus stats" />
 
 <hr class="section-divider" />
 
