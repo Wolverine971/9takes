@@ -10,12 +10,16 @@
 	import { buildSocialImageUrl } from '$lib/utils/socialImage';
 	import { buildPersonPageJsonLd } from '$lib/utils/personJsonLd';
 	import { buildPersonIdentifiers, buildPersonSameAsUrls } from '$lib/utils/schema';
+	import { capDescriptionForSnippet, capTitleForSnippet } from '$lib/utils/seoBudget';
 
 	let { data }: { data: App.BlogPost } = $props();
 
 	let title = $derived(data?.meta_title || data?.title || '');
 	let description = $derived(data?.description || '');
 	let formattedTitle = $derived(title ? `${title}` : '9takes');
+	// SERP-budgeted variants — only constrain the snippet-facing tags.
+	let serpTitle = $derived(capTitleForSnippet(formattedTitle));
+	let serpDescription = $derived(capDescriptionForSnippet(description || title));
 	const robotsContent =
 		'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1';
 	let publishedAt = $derived(data?.date || '');
@@ -109,11 +113,11 @@
 </script>
 
 <svelte:head>
-	<title>{formattedTitle}</title>
+	<title>{serpTitle}</title>
 	<link rel="canonical" href={canonicalUrl} />
 	<link rel="alternate" href={canonicalUrl} hreflang="en-US" />
 	<link rel="alternate" href={canonicalUrl} hreflang="x-default" />
-	<meta name="description" content={description || title} />
+	<meta name="description" content={serpDescription} />
 	<meta name="robots" content={robotsContent} />
 	<meta name="author" content="DJ Wayne" />
 

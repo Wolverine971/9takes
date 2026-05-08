@@ -2,6 +2,7 @@
 <script lang="ts">
 	import { buildSocialImageUrl } from '$lib/utils/socialImage';
 	import { buildBreadcrumbSchemaForGraph } from '$lib/utils/schema';
+	import { capDescriptionForSnippet, capTitleForSnippet } from '$lib/utils/seoBudget';
 
 	interface Props {
 		data: App.BlogPost;
@@ -16,6 +17,10 @@
 	let title = $derived(data?.meta_title || data?.title || '');
 	let description = $derived(data?.description || '');
 	let formattedTitle = $derived(title ? `${title}` : '9takes');
+	// SERP-budgeted variants — Google snippet caps. Author-facing fields above
+	// stay full length so OG/JSON-LD nodes still see the editorial title/desc.
+	let serpTitle = $derived(capTitleForSnippet(formattedTitle));
+	let serpDescription = $derived(capDescriptionForSnippet(description || title));
 	const defaultShareImage = 'https://9takes.com/brand/aero.png';
 	let shareImage = $derived(
 		data?.picGroup?.length
@@ -203,11 +208,11 @@
 </script>
 
 <svelte:head>
-	<title>{formattedTitle}</title>
+	<title>{serpTitle}</title>
 	<link rel="canonical" href={canonicalUrl} />
 	<link rel="alternate" href={canonicalUrl} hreflang="en-US" />
 	<link rel="alternate" href={canonicalUrl} hreflang="x-default" />
-	<meta name="description" content={description || title} />
+	<meta name="description" content={serpDescription} />
 	<meta name="robots" content={robotsContent} />
 	<meta name="author" content="DJ Wayne" />
 
