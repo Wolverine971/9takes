@@ -1,0 +1,8 @@
+[2026-05-08 02:01:38] [INFO] Starting daily blog creator (--non-interactive)
+[2026-05-08 02:01:38] [INFO] override.json: pause=false, forceNext=null
+[2026-05-08 02:01:38] [WARN] Stale inProgress detected: whitney-wolfe-herd (43h old)
+[2026-05-08 02:01:38] [INFO] Whitney draft file exists - moved from inProgress to completed (needsReview=true) instead of skipped
+[2026-05-08 02:01:38] [INFO] Rate limit week reset: weekStartDate 2026-05-01 → 2026-05-08, count 2 → 0
+[2026-05-08 02:01:38] [INFO] SELECTED: gal-gadot (Type 3, Priority: 85)
+[2026-05-08 02:01:38] [INFO] Reason: Ranker/Instagram beauty-list spike, Wonder Woman recognition, Type 3 image-performance angle
+[2026-05-08 02:01:38] [INFO] Executing /blog_content_creator_people gal-gadot...

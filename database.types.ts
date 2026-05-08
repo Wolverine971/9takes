@@ -4612,6 +4612,17 @@ export type Database = {
           persona_title: string
         }[]
       }
+      get_related_blogs_for_question: {
+        Args: { limit_count?: number; question_id_input: number }
+        Returns: {
+          description: string
+          relevance: number
+          slug: string
+          source: string
+          title: string
+          url: string
+        }[]
+      }
       get_suppressed_emails: {
         Args: { p_emails: string[] }
         Returns: {

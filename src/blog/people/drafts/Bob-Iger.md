@@ -78,7 +78,7 @@ Locations:
 
 He says it is for health. He says it is for vanity. Those are the easy reasons. The one worth pausing on is the third.
 
-*Sanity* is not a word a healthy man uses for his morning workout. Sanity is what you protect. Sanity is what you worry about losing. Sanity is the word his father had formally not been granted.
+*Sanity* isn't a word a healthy man uses for his morning workout. Sanity is what you protect, what you worry about losing. It's the word his father had formally not been granted.
 
 Arthur Iger was a World War II Navy veteran who spent his career cycling through advertising jobs and, along the way, received a diagnosis of manic depression. His son would later describe him with startling precision: a man with "severe mood swings" who "did not present himself consistently to us as a family," whose anger came "very fast and often" and "was not particularly pretty to look at." Arthur Iger, his son wrote, saw his own life as a failure.
 
@@ -92,7 +92,7 @@ It was not being Arthur.
 <summary class="accordion">TL;DR: Why Bob Iger is an Enneagram Type 3</summary>
 <div class="panel">
 <ul>
-<li><b>The formation:</b> A father with bipolar disorder and a quiet sense of failure gave young Bob the Type 3 template — achieve or become him.</li>
+<li><b>The formation:</b> A father with bipolar disorder and a quiet sense of failure gave young Bob the Type 3 template: achieve or become him.</li>
 <li><b>The apprenticeship:</b> Ten years as Eisner's underestimated #2. The patient Achiever strategy: don't argue the room's read of you. Outlast it.</li>
 <li><b>The 4:30 AM ritual:</b> VersaClimber, darkened room, TV muted, no phone. "Health, vanity, sanity." The third word is the tell.</li>
 <li><b>The 3w2 warmth:</b> Reads every Marvel script. Walks in the orchard with a dying Steve Jobs. Helper wing on an Achiever engine.</li>
@@ -106,17 +106,17 @@ It was not being Arthur.
 
 ### Bob Iger is an Enneagram Type 3
 
-Bob Iger is a **Type 3, the Achiever** — specifically a 3w2 with a social-dominant instinct. The type whose self-worth fuses with what they accomplish. The type that learned early that performance equals love and average equals invisible.
+Bob Iger is a **Type 3, the Achiever**, specifically a 3w2 with a social-dominant instinct. The type whose self-worth fuses with what they accomplish. The type that learned early that performance equals love and average equals invisible.
 
 Three things make the call clean.
 
-First, the origin. Type 3 formation usually requires a parent who could not model steady achievement — so the child learns to achieve *for* the family. Arthur Iger, cycling through jobs, carrying his private sense of failure. Bob watching. Bob making the quiet vow.
+First, the origin. Type 3 formation usually requires a parent who couldn't model steady achievement, so the child learns to achieve *for* the family. Arthur Iger, cycling through jobs, carrying his private sense of failure. Bob watching. Bob making the quiet vow.
 
-Second, the calibration. When Iger decided to buy Pixar in 2005, he did not open the negotiation with a pitch deck. He called [Steve Jobs](/personality-analysis/Steve-Jobs) and said, *"I've got a crazy idea."* Five words, engineered. That is the exact opener most likely to make Steve Jobs — who distrusted pitch-men and loved whiteboards — stop what he was doing and listen. A Type 3 does not walk into a room hoping to be read. They have already read it.
+Second, the calibration. When Iger decided to buy Pixar in 2005, he didn't open the negotiation with a pitch deck. He called [Steve Jobs](/personality-analysis/Steve-Jobs) and said, *"I've got a crazy idea."* Five words, engineered. It's the exact opener most likely to make Steve Jobs (who distrusted pitch-men and loved whiteboards) stop what he was doing and listen. A Type 3 doesn't walk into a room hoping to be read. They've already read it.
 
-Third, the patience. Before he became CEO, Iger spent a decade as Michael Eisner's #2 — repeatedly passed over, openly underestimated, privately described by Eisner as lacking "stature." He never argued. Type 3s do not argue a room's read of them. They wait until the room has no one else to look at. In March 2005, after Eisner's empire had cracked in public, the Disney board named Iger CEO unanimously.
+Third, the patience. Before he became CEO, Iger spent a decade as Michael Eisner's #2: repeatedly passed over, openly underestimated, privately described by Eisner as lacking "stature." He never argued. Type 3s don't argue a room's read of them. They wait until the room has no one else to look at. In March 2005, after Eisner's empire had cracked in public, the Disney board named Iger CEO unanimously.
 
-The [3w2 wing](/enneagram-corner/enneagram-wings-complete-guide) is the warm one — the helper wing. It is why Kevin Feige told Variety in 2016 that Iger was the CEO who found time to "read every script and have notes on every script" at Marvel. It is why he and Jobs became actual friends rather than business partners. The so-dominant instinct is the prestige instinct — thinking in institutions, scale, legacy. A social Type 3 does not settle for running a studio. A social Type 3 acquires Pixar, Marvel, Lucasfilm, Fox, and — in what he called "retirement" — pays $250 million for a controlling stake in the Angel City soccer franchise.
+The [3w2 wing](/enneagram-corner/enneagram-wings-complete-guide) is the warm one, the helper wing. It's why Kevin Feige told Variety in 2016 that Iger was the CEO who found time to "read every script and have notes on every script" at Marvel. It's why he and Jobs became actual friends rather than business partners. The social-dominant instinct is the prestige instinct: thinking in institutions, scale, legacy. A social Type 3 doesn't settle for running a studio. A social Type 3 acquires Pixar, Marvel, Lucasfilm, Fox, and, in what he called "retirement," pays $250 million for a controlling stake in the Angel City soccer franchise.
 
 ## Bob Iger's childhood: the shadow Arthur cast
 
@@ -124,7 +124,7 @@ Oceanside, Long Island, in the nineteen-fifties and sixties. A working-class com
 
 Arthur is a Navy veteran of the Second World War. He is also, by his own son's on-record description to Tim Ferriss, a man whose moods swung hard enough that the family could not count on which version of him was home. The anger came "very fast and often." It was "not particularly pretty to look at." Eventually he is diagnosed with manic depression. He cycles through advertising jobs. He never reaches what he believed he was capable of. His son watches, and notices.
 
-A Type 3 is often made by exactly this kind of childhood. Not a neglectful parent — an inconsistent one. A parent whose approval was conditional on which mood was in the house that day. The child adapts. The child learns to read the room before the door closes. The child learns that achievement is the single variable they can control, and pours themselves into controlling it.
+A Type 3 is often made by exactly this kind of childhood. Not a neglectful parent but an inconsistent one. A parent whose approval was conditional on which mood was in the house that day. The child adapts. The child learns to read the room before the door closes. The child learns that achievement is the single variable they can control, and pours themselves into controlling it.
 
 By the time Bob is sixteen, he is working late shifts at a local news station. By twenty-two, he is forecasting weather on an Ithaca TV station in five months of upstate New York winter. By twenty-three, he is at ABC on $150 a week. He quotes Theodore Roosevelt on podcasts: *"Fails while daring greatly, so that his place shall never be with those cold and timid souls."* It is a very Type 3 sentence. It does not promise *tries*. It promises the specific alternative to the father who did not try big enough.
 
@@ -142,13 +142,13 @@ Health and vanity are generic. Every executive claims both. *Sanity* is the word
 
 What does Iger say he is protecting? *"I need quiet time. I need alone time. I need time to be still with my thoughts."* Elsewhere in the same interview, he describes watching his father's rage and saying to himself: *"I did not in any way want that picture to become my life."* The sentence he uses to describe his inheritance from Arthur is short: *"I became more and more capable of controlling mine."*
 
-Rest, for a Type 3 fused to their output, cannot be passive. It has to be engineered — scheduled, ritualized, measured, surveilled. Iger's morning is not peace; it is the scaffolding for peace. The darkened room is the only forty-five minutes of the day that is not a performance.
+Rest, for a Type 3 fused to their output, can't be passive. It has to be engineered: scheduled, ritualized, measured, surveilled. Iger's morning isn't peace; it's the scaffolding for peace. The darkened room is the only forty-five minutes of the day that isn't a performance.
 
 The VersaClimber is also, almost too neatly, a metaphor. Nobody watches you climb it. You are alone, in the dark, going up.
 
 ## Ten years as Eisner's #2
 
-Before he became the calm Iger everyone would eventually describe — before the VersaClimber and the ten leadership principles and the bestselling memoir — he was Roone Arledge's studio supervisor, watching a program get torn apart the night before it aired.
+Before he became the calm Iger everyone would eventually describe, before the VersaClimber and the ten leadership principles and the bestselling memoir, he was Roone Arledge's studio supervisor, watching a program get torn apart the night before it aired.
 
 Arledge ran ABC Sports. A Frank Sinatra television special had been rehearsed, produced, and was ready to go. Arledge looked at it, said it was not good enough, and kept the team up all night rebuilding the show from scratch. In *The Ride of a Lifetime*, Iger gives the idea a name:
 
@@ -156,11 +156,11 @@ Arledge ran ABC Sports. A Frank Sinatra television special had been rehearsed, p
 
 He called it **"the relentless pursuit of perfection."**
 
-Here is the Type 3 point the memoirs underplay. An Achiever who grows up around an inconsistent father does not just learn to achieve. They learn to achieve at *exactly* the level their current audience rewards. The young Iger watched an older, successful man destroy a competent piece of work because competent was not high enough. He did not flinch. He absorbed the standard. Arledge's bar became Iger's bar. The Achiever's gift is reading whose approval is worth organizing a life around — and then organizing the life.
+Here is the Type 3 point the memoirs underplay. An Achiever who grows up around an inconsistent father doesn't just learn to achieve. They learn to achieve at *exactly* the level their current audience rewards. The young Iger watched an older, successful man destroy a competent piece of work because competent wasn't high enough. He didn't flinch. He absorbed the standard. Arledge's bar became Iger's bar. The Achiever's gift is reading whose approval is worth organizing a life around, and then organizing the life.
 
-Cap Cities bought ABC in 1986. Disney bought Cap Cities in 1996. Iger, by then running the ABC Group, arrived inside a Disney run by Michael Eisner — a Type 8 Challenger whose empire-building was starting to rot from the inside.
+Cap Cities bought ABC in 1986. Disney bought Cap Cities in 1996. Iger, by then running the ABC Group, arrived inside a Disney run by Michael Eisner, a Type 8 Challenger whose empire-building was starting to rot from the inside.
 
-Frank Wells, Eisner's president and organizational ballast, died in a helicopter crash in 1994. Without Wells, Eisner grew more controlling and less decisive. Animation cratered. The "Strategic Planning" group — a buffer of MBAs between Eisner and creative units — became a bottleneck everyone inside Disney quietly hated. Iger, promoted to Disney COO in January 2000, watched the company lose its hit-making muscle and did not leak a word.
+Frank Wells, Eisner's president and organizational ballast, died in a helicopter crash in 1994. Without Wells, Eisner grew more controlling and less decisive. Animation cratered. The "Strategic Planning" group, a buffer of MBAs between Eisner and creative units, became a bottleneck everyone inside Disney quietly hated. Iger, promoted to Disney COO in January 2000, watched the company lose its hit-making muscle and didn't leak a word.
 
 Then the revolt started.
 
@@ -170,7 +170,7 @@ A Type 3 in that moment has a choice. Position. Leak. Move.
 
 Iger did none of it. When the board opened succession meetings, he recused himself from all eleven of them. Years later, on Tim Ferriss, he summarized the decade in one sentence: *"There was a conventional wisdom that I would not get the job or that I was the wrong person for the job. But I never gave into that."*
 
-Did not fight it. Did not argue it. Outlasted it. That is the patient version of the Achiever strategy — when the room is reading you wrong, do not correct the room. Make the room need you.
+He didn't fight it or argue it. He outlasted it. That's the patient version of the Achiever strategy: when the room is reading you wrong, don't correct the room. Make the room need you.
 
 On March 13, 2005, the Disney board named Iger CEO unanimously. Eisner told the press: *"I would not have agreed to leave if it hadn't been Bob."* Privately, according to board communications later reported by *The Hollywood Reporter*, Eisner had told directors that Iger "lacked stature." Iger never made that sentence a fight.
 
@@ -188,43 +188,43 @@ The whiteboard scene from *The Ride of a Lifetime* is the one that matters. Jobs
 
 > "A few solid pros are more powerful than dozens of cons."
 
-Iger, in the memoir: *"I hoped that my honesty would ultimately serve me better than any 'shrewd' pretense."* That is a very particular kind of honesty. Read the room, identify the currency (Jobs despised corporate pretense), and offer exactly the opposite — because the opposite is what wins. The Achiever's sincerity is strategic. The enthusiasm is real. The decision to lead with it is calibrated.
+Iger, in the memoir: *"I hoped that my honesty would ultimately serve me better than any 'shrewd' pretense."* That's a very particular kind of honesty. Read the room, identify the currency (Jobs despised corporate pretense), and offer exactly the opposite, because the opposite is what wins. The Achiever's sincerity is strategic. The enthusiasm is real. The decision to lead with it is calibrated.
 
 On January 24, 2006, in Emeryville, California, they announced the deal. Thirty minutes before the cameras, Steve pulled Bob aside and took a walk. They sat on a bench in the Pixar orchard. Steve told Bob his pancreatic cancer had returned, that he had told no one outside his wife and doctor, and that Bob was about to become his largest shareholder and board member. *You can back out.* Iger kept the secret and signed the deal.
 
-The decade that followed made Disney the biggest entertainment company on earth. **Marvel in 2009** — a second-tier comics business Iger bought over the internal resistance of then-chairman Ike Perlmutter. (Iger would later fire Perlmutter. Perlmutter would later bankroll Nelson Peltz's proxy fight against him. Type 8s do not forget.) **Lucasfilm in 2012** — closed with George Lucas in a single, trust-heavy handshake meeting. **Fox in 2019** — outbid Comcast's Brian Roberts, the same man who had tried to swallow Disney fifteen years earlier.
+The decade that followed made Disney the biggest entertainment company on earth. **Marvel in 2009**, a second-tier comics business Iger bought over the internal resistance of then-chairman Ike Perlmutter. (Iger would later fire Perlmutter. Perlmutter would later bankroll Nelson Peltz's proxy fight against him. Type 8s don't forget.) **Lucasfilm in 2012**, closed with George Lucas in a single, trust-heavy handshake meeting. **Fox in 2019**, which outbid Comcast's Brian Roberts, the same man who had tried to swallow Disney fifteen years earlier.
 
 And then Shanghai.
 
-The Shanghai Disneyland negotiation started in 1998 and closed in 2016. **Eighteen years.** Iger worked every phase of it personally — Beijing, Shanghai, the central government, the municipal government, the state partners, the ground. The resort opened June 16, 2016 on $5.5 billion of joint Disney-Chinese capital. Iger, at the opening ceremony: *"A triumph of imagination and innovation, and a testament to the strong partnership between Disney and China."*
+The Shanghai Disneyland negotiation started in 1998 and closed in 2016. **Eighteen years.** Iger worked every phase of it personally: Beijing, Shanghai, the central government, the municipal government, the state partners, the ground. The resort opened June 16, 2016 on $5.5 billion of joint Disney-Chinese capital. Iger, at the opening ceremony: *"A triumph of imagination and innovation, and a testament to the strong partnership between Disney and China."*
 
 He has called Shanghai, not Pixar, **"the greatest accomplishment of my career."**
 
-Pixar gets the movie treatment because Steve Jobs is in it. Shanghai gets called the greatest because of what the inside of it took: eighteen years of reading rooms where the currency was not American enthusiasm but Chinese patience — exactly the test the patient Achiever had been training for since he was a kid watching Roone Arledge rebuild a Sinatra special at 2 a.m.
+Pixar gets the movie treatment because Steve Jobs is in it. Shanghai gets called the greatest because of what the inside of it took: eighteen years of reading rooms where the currency wasn't American enthusiasm but Chinese patience. Exactly the test the patient Achiever had been training for since he was a kid watching Roone Arledge rebuild a Sinatra special at 2 a.m.
 
 ## Why Bob Iger couldn't stay retired
 
 The official story is straightforward. Iger's handpicked successor, Bob Chapek, had alienated employees over Florida's "Don't Say Gay" bill, announced losses of $1.5 billion in the streaming quarter, and spooked Wall Street with a brutal earnings report. The board panicked. They called Iger. He said yes.
 
-The call came at his home. He turned to Willow Bay — his wife of almost thirty years, now dean of USC Annenberg — and, according to his DealBook retelling, she said:
+The call came at his home. He turned to Willow Bay, his wife of almost thirty years and now dean of USC Annenberg, and, according to his DealBook retelling, she said:
 
 > "You ran the company for over 15 years, you were at the company for almost 50 years. You kind of owe it to the company."
 
 *You kind of owe it to the company.* The same frame he would repeat to Andrew Ross Sorkin a year later. The frame a woman married to a Type 3 for three decades would know is the frame he would say yes to.
 
-Type 3s have a specific relationship with succession. Their identity is fused with the role. The role is not something they do; it is something they *are*. Step down, and a Type 3 has to answer the question a life of performance was built to avoid: *if I am not the CEO, what am I?* For an Achiever whose childhood vow was "don't be the father who failed," the question is not academic. It is existential.
+Type 3s have a specific relationship with succession. Their identity is fused with the role. The role isn't something they do; it's something they *are*. Step down, and a Type 3 has to answer the question a life of performance was built to avoid: *if I am not the CEO, what am I?* For an Achiever whose childhood vow was "don't be the father who failed," the question isn't academic. It's existential.
 
 At DealBook 2023, Iger gave a sentence closer to confession than he usually allows: *"I was disappointed in what I was seeing, both during the transition period and while I was out."* Translation: he watched his empire drift in his absence, and the watching was not bearable.
 
-Then came the bill. On February 8, 2023 — ten weeks after returning — Iger announced Disney would eliminate **7,000 jobs** and cut **$5.5 billion** in costs. The reorg dismantled the DMED structure he had personally approved on his way out. The internal memo: *"The difficult reality of many colleagues and friends leaving Disney is not something we take lightly."*
+Then came the bill. On February 8, 2023, ten weeks after returning, Iger announced Disney would eliminate **7,000 jobs** and cut **$5.5 billion** in costs. The reorg dismantled the DMED structure he had personally approved on his way out. The internal memo: *"The difficult reality of many colleagues and friends leaving Disney is not something we take lightly."*
 
-The romantic version of the return got printed: the board called, the wife said yes, duty demanded it. The actual version is that a seventy-two-year-old Achiever came back to the company he loved and, ten weeks in, had to gut it. That is the cost of *you owe it*.
+The romantic version of the return got printed: the board called, the wife said yes, duty demanded it. The actual version is that a seventy-two-year-old Achiever came back to the company he loved and, ten weeks in, had to gut it. That's the cost of *you owe it*.
 
 A Type 3 will pay that cost. The self that cannot be anything other than CEO will do the thing an unfused CEO would delegate or decline. The suit stays on. The memo gets sent. The VersaClimber still runs at 4:30.
 
 ## The room Bob Iger stopped reading
 
-The epigraph at the top of this piece — *"Nobody wants to follow Eeyore"* — is Iger's own sentence, from his Tim Ferriss interview. It is a Type 3 leadership credo. Performed optimism as duty. The world is watching; the leader's job is to never look bruised.
+The epigraph at the top of this piece, *"Nobody wants to follow Eeyore,"* is Iger's own sentence, from his Tim Ferriss interview. It's a Type 3 leadership credo. Performed optimism as duty. The world is watching; the leader's job is to never look bruised.
 
 For forty-five years, Iger had been the man who could read any room and choose the right registration. ABC executives. Steve Jobs. George Lucas. Chinese officials. Pixar animators. The room always seemed to pick up what he set down.
 
@@ -236,29 +236,29 @@ The second act did not go like that.
 
 For the man whose brand is *nobody wants to follow Eeyore*, it was the most public room-misread of his career. He had read a room of executives at Sun Valley and forgotten there was a second room watching on television.
 
-**The vault.** The reckoning reached his own IP. On CNBC in November 2023, Iger conceded the thing Marvel watchers had been whispering since *Quantumania* and *The Marvels*: *"Quantity, in our case, diluted quality. Marvel has suffered greatly from that."* On Star Wars, he had already absorbed a similar loss: *"I have said publicly that I think we made and released too many films over a short period of time... I made the timing decision, and as I look back, the mistake I made — I take the blame — was a little too much, too fast."* Pixar — the studio whose acquisition had defined his first CEO decade — sent three original films straight to Disney+ during COVID, bombed with *Lightyear* and *Elemental*, and was rescued from real trouble only by *Inside Out 2*, a sequel to a sequel. Iger in *Deadline*, 2024: Disney is *"swinging back a bit to lean on sequels"* because known IP costs less to market. The acquirer's trophy case had caught up with the operator's ledger.
+**The vault.** The reckoning reached his own IP. On CNBC in November 2023, Iger conceded the thing Marvel watchers had been whispering since *Quantumania* and *The Marvels*: *"Quantity, in our case, diluted quality. Marvel has suffered greatly from that."* On Star Wars, he had already absorbed a similar loss: *"I have said publicly that I think we made and released too many films over a short period of time... I made the timing decision, and as I look back, the mistake I made — I take the blame — was a little too much, too fast."* Pixar, the studio whose acquisition had defined his first CEO decade, sent three original films straight to Disney+ during COVID, bombed with *Lightyear* and *Elemental*, and was rescued from real trouble only by *Inside Out 2*, a sequel to a sequel. Iger in *Deadline*, 2024: Disney is *"swinging back a bit to lean on sequels"* because known IP costs less to market. The acquirer's trophy case had caught up with the operator's ledger.
 
 **The activist.** In early 2024, Nelson Peltz launched a proxy fight for two Disney board seats, bankrolled in part by Ike Perlmutter, the former Marvel chairman Iger had fired. Peltz's 133-page memo argued Disney had lost its creative edge. Peltz lost 94 to 31. But his parting line to *Fortune* was the diagnosis the 2005 Iger would have taken as a note: *"I hope Bob can keep his promises. If they don't, you'll see me again, Jim."*
 
-Iger's Tim Ferriss line on negotiation — *"I don't approach negotiations with the need to win, I approach with a desire to close a deal"* — usually reads as maturity. In 2023 and 2024, it read as something a little thinner. He was still closing. He just was not reading the rooms anymore.
+Iger's Tim Ferriss line on negotiation, *"I don't approach negotiations with the need to win, I approach with a desire to close a deal,"* usually reads as maturity. In 2023 and 2024, it read as something a little thinner. He was still closing. He just wasn't reading the rooms anymore.
 
 ## What Bob Iger is still proving
 
 The Type 3 diagnosis is airtight for young Iger. The kid in Oceanside running from the father who was cycling through ad jobs. The Achiever becoming what Arthur could not.
 
-It is less airtight at seventy-five.
+It's less airtight at seventy-five.
 
-At a certain point, the father stops being the engine. The engine becomes the self a lifetime of achievement has produced — the calm Iger, the finisher, the memoirist, the owner of the *Aquarius*, the man whose board still could not find a successor without him.
+At a certain point, the father stops being the engine. The engine becomes the self a lifetime of achievement has produced: the calm Iger, the finisher, the memoirist, the owner of the *Aquarius*, the man whose board still couldn't find a successor without him.
 
-That is the Type 3 trap the second half of his career illustrates. You spend thirty years becoming someone. Then that someone needs to keep being that someone. The achievement engine does not stop when the formation reason dissolves. It switches fuel.
+That's the Type 3 trap the second half of his career illustrates. You spend thirty years becoming someone. Then that someone needs to keep being that someone. The achievement engine doesn't stop when the formation reason dissolves. It switches fuel.
 
-Watch what he did after his 2020 retirement. He did not garden. He bought a superyacht and, with Willow, paid $250 million for a controlling stake in **Angel City FC**, the most-valuable franchise in the NWSL. Willow took the controlling chair and the NWSL board seat; Iger took the quieter co-owner role. A Type 3 does not own. A Type 3 runs. His Tim Ferriss line — *"I approach with a desire to close a deal"* — is the confession. You do not close deals in retirement unless the closing is the self.
+Watch what he did after his 2020 retirement. He didn't garden. He bought a superyacht and, with Willow, paid $250 million for a controlling stake in **Angel City FC**, the most-valuable franchise in the NWSL. Willow took the controlling chair and the NWSL board seat; Iger took the quieter co-owner role. A Type 3 doesn't own. A Type 3 runs. His Tim Ferriss line, *"I approach with a desire to close a deal,"* is the confession. You don't close deals in retirement unless the closing is the self.
 
-This is the harder version of the "he came back because he couldn't stand being offstage" sentence. The board needed him. *And* the man needed the board. A Type 3 does not separate those.
+This is the harder version of the "he came back because he couldn't stand being offstage" sentence. The board needed him. *And* the man needed the board. A Type 3 doesn't separate those.
 
-Of the 48 tech, founder, and business figures in the [9takes corpus](/corpus-stats), Type 3 Achievers are the largest cohort — 27.1%, seven points above baseline. There is a reason so many of the people who build the biggest institutions are running from something specific. There is a second reason, less discussed, that more of them stay than leave. Once the institution is the mirror your identity formed around, letting go of the institution is letting go of the identity.
+Of the 48 tech, founder, and business figures in the [9takes corpus](/corpus-stats), Type 3 Achievers are the largest cohort at 27.1%, seven points above baseline. There's a reason so many of the people who build the biggest institutions are running from something specific. There's a second reason, less discussed, that more of them stay than leave. Once the institution is the mirror your identity formed around, letting go of the institution is letting go of the identity.
 
-Bob Iger did not come back in 2022 for Arthur. Arthur had been dead twenty years. He came back for the Bob Iger Arthur's son had spent five decades becoming.
+Bob Iger didn't come back in 2022 for Arthur. Arthur had been dead twenty years. He came back for the Bob Iger Arthur's son had spent five decades becoming.
 
 ## The 52-year ride
 

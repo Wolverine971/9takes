@@ -79,7 +79,7 @@ No Enneagram Rabbit Hole present in this draft (managed by separate flow).
 
 <p class="firstLetter">Gracie Abrams's dad directed <em>Star Wars: The Force Awakens</em>. He made <em>Lost</em>. He produced <em>Cloverfield</em>. He owns the Bad Robot lot in Santa Monica. The first thing his daughter wanted famous strangers not to know was who he was.</p>
 
-She started writing songs at eight. She started journaling in third grade — and "fell in love with the secrecy of journaling," she told _Dazed_. When she signed to Interscope at twenty, she vomited before shows. Her debut EP _Minor_ came out July 14, 2020, recorded in her childhood bedroom in Pacific Palisades during pandemic Zoom shows.
+She started writing songs at eight. She started journaling in third grade and "fell in love with the secrecy of journaling," she told _Dazed_. When she signed to Interscope at twenty, she vomited before shows. Her debut EP _Minor_ came out July 14, 2020, recorded in her childhood bedroom in Pacific Palisades during pandemic Zoom shows.
 
 Five years later she sold out two nights at Madison Square Garden, July 28 and 29, 2025.
 
@@ -91,8 +91,8 @@ A pop star who built her career inside her own house and then, when she finally 
 <summary class="accordion">TL;DR: Why Gracie Abrams is an Enneagram Type 4</summary>
 <div class="panel">
 <ul>
-<li><b>Type:</b> Enneagram 4w5 — the Individualist with the Investigator's reclusive inward pull.</li>
-<li><b>Driving question:</b> How do I make this — my interior, my mood, this exact heartbreak — mine, and not anyone else's?</li>
+<li><b>Type:</b> Enneagram 4w5, the Individualist with the Investigator's reclusive inward pull.</li>
+<li><b>Driving question:</b> How do I make this (my interior, my mood, this exact heartbreak) mine, and not anyone else's?</li>
 <li><b>Public contradiction:</b> The most-watched childhood in pop entertainment. The most-hidden interior life.</li>
 <li><b>Tell:</b> Born into a household with one of the loudest creative legacies in entertainment, her instinct was to whisper.</li>
 <li><b>Method:</b> A locked journal. A bedroom door. A song so specific no one else could write it.</li>
@@ -106,7 +106,7 @@ A pop star who built her career inside her own house and then, when she finally 
 
 Most people read Gracie Abrams as a sad-girl indie singer-songwriter. The shape is right. The motor is wrong.
 
-The motor is the Type 4 fear of being a copy. Not unloved. Not ordinary. <em>Derivative</em>. To inherit a spotlight is, for a Four, to fail at the only test that matters — did you make this yourself, with your own interior, in your own room? The career is the answer.
+The motor is the Type 4 fear of being a copy. Not unloved, not ordinary. <em>Derivative</em>. To inherit a spotlight is, for a Four, to fail at the only test that matters: did you make this yourself, with your own interior, in your own room? The career is the answer.
 
 The 5 wing is in the rest of the evidence. The introversion she names herself: <a href="/enneagram-corner/enneagram-types-in-stress">"I'm super shy"</a>, "I have very few friends because I'm not the most social person ever," "I've been an introverted person my whole life." The Barnard enrollment in international relations, the leave of absence she keeps refusing to call a dropout. The bedroom as "the safest space I've ever found in my life." The journal as a private system, ten minutes a day, since she was eight.
 
@@ -122,13 +122,13 @@ Most kids of mega-celebrities lean in. They cite the dad in the first interview.
 
 Gracie's instinct ran the other way.
 
-The Type 4's deepest fear is not being ordinary. It is being derivative — being seen as a person whose interior arrived secondhand, whose work could be predicted from the household. To inherit the spotlight is to fail before you start. The whole point of being a Four is the conviction that <em>this — what I feel, what I am — could only have come from me.</em>
+The Type 4's deepest fear isn't being ordinary. It's being derivative: being seen as a person whose interior arrived secondhand, whose work could be predicted from the household. To inherit the spotlight is to fail before you start. The whole point of being a Four is the conviction that <em>this, what I feel, what I am, could only have come from me.</em>
 
 She did one thing about it. She built a private system.
 
-The journal started in third grade. The songs started at eight. She wrote on the drums in the family garage — "banging on the drums about losing my journal and how devastating that felt." She told _Apple Music_ that "minor," the song she wrote at seventeen, was the first time she felt she wasn't trying to emulate someone else's sound. Not Joni Mitchell. Not Phoebe Bridgers, both of whom she loved. Nobody she had inherited.
+The journal started in third grade. The songs started at eight. She wrote on the drums in the family garage, "banging on the drums about losing my journal and how devastating that felt." She told _Apple Music_ that "minor," the song she wrote at seventeen, was the first time she felt she wasn't trying to emulate someone else's sound. Not Joni Mitchell, not Phoebe Bridgers, both of whom she loved. Nobody she had inherited.
 
-Then in December 2022, _New York_ magazine put her on the "Year of the Nepo Baby" cover anyway — sorted into the "on the come-up" tier of celebrity children whose careers might or might not be their own. The exact wound the type fears most is the one that arrived in print.
+Then in December 2022, _New York_ magazine put her on the "Year of the Nepo Baby" cover anyway, sorted into the "on the come-up" tier of celebrity children whose careers might or might not be their own. The exact wound the type fears most is the one that arrived in print.
 
 > "Obviously we can't control where we are born into, and there are a million visible and even more invisible advantages to having family members who are in any entertainment industry. I know how hard I work, and I know how separate I've kept [my parents] from every conversation about anything career-wise."
 > — Gracie Abrams, _Rolling Stone_, 2023
@@ -141,16 +141,16 @@ Stage fright was not a press anecdote. It was the structural problem of her care
 
 She has called it "real anxiety, like hard-core" on CBC's _Q_. She avoided performing "at all costs." When she signed to Interscope she became panicked at the prospect of having to eventually go onstage. The contract demanded the one thing her psychology refused: making the most private material public, in front of strangers, with eye contact, on a stage.
 
-Fours are most themselves alone — and performance asks the Four to be most herself in front of twenty thousand people without dropping the thread.
+Fours are most themselves alone, and performance asks the Four to be most herself in front of twenty thousand people without dropping the thread.
 
-She got around the problem the only way a Type 4 with a 5 wing can: she let the work travel without her. "I miss you, I'm sorry" — the bedroom song recorded on a laptop — became a viral TikTok sound across the lockdown years. The audience built itself while she stayed inside. By the time anyone needed her on a stage, the songs had already done the leaving.
+She got around the problem the only way a Type 4 with a 5 wing can: she let the work travel without her. "I miss you, I'm sorry," the bedroom song recorded on a laptop, became a viral TikTok sound across the lockdown years. The audience built itself while she stayed inside. By the time anyone needed her on a stage, the songs had already done the leaving.
 
-Then the touring slots came in a row, and they came from the women everyone was already watching. <a href="/personality-analysis/Olivia-Rodrigo">Olivia Rodrigo</a> brought her on the Sour Tour in 2022. Taylor Swift cast her on the Eras Tour in 2023. Olivia again on GUTS in 2024. Three of the biggest pop tours in succession, all chosen by Gen Z's most-watched women — for the artist who couldn't keep food down before her own shows.
+Then the touring slots came in a row, and they came from the women everyone was already watching. <a href="/personality-analysis/Olivia-Rodrigo">Olivia Rodrigo</a> brought her on the Sour Tour in 2022. Taylor Swift cast her on the Eras Tour in 2023. Olivia again on GUTS in 2024. Three of the biggest pop tours in succession, all chosen by Gen Z's most-watched women, for the artist who couldn't keep food down before her own shows.
 
 > "Being in Taylor's orbit for the summer completely altered every single thing for me."
 > — Gracie Abrams, _NME_
 
-Type 4's growth arrow points to Type 1: discipline, structure, the calm of someone who knows the work is enough. Watching <a href="/personality-analysis/Taylor-Swift">Taylor Swift</a> — a Three's three-and-a-half-hour set, four times a week, with no flinch — for a summer is a particular kind of training the inside of a Four cannot give itself. The Four borrows the muscle from someone whose machinery already runs, and over a season builds her own.
+Type 4's growth arrow points to Type 1: discipline, structure, the calm of someone who knows the work is enough. Watching <a href="/personality-analysis/Taylor-Swift">Taylor Swift</a> run a Three's three-and-a-half-hour set, four times a week, with no flinch, for a summer, is a particular kind of training the inside of a Four cannot give itself. The Four borrows the muscle from someone whose machinery already runs, and over a season builds her own.
 
 Two years later, at Madison Square Garden, she said the sentence Fours never expect to mean.
 
@@ -160,14 +160,14 @@ That last clause is pure Four. Not the spotlight. The contact.
 
 ## The Madison Square Garden stage was her childhood bedroom
 
-July 28, 2025. Madison Square Garden, sold out. The set was a replica of her childhood bedroom in Pacific Palisades — the same room where she had recorded the _Minor_ EP five years earlier on a laptop, with a microphone propped on a dresser, during pandemic Zoom shows.
+July 28, 2025. Madison Square Garden, sold out. The set was a replica of her childhood bedroom in Pacific Palisades, the same room where she had recorded the _Minor_ EP five years earlier on a laptop, with a microphone propped on a dresser, during pandemic Zoom shows.
 
 > "MSG night 1 what the hell."
 > — Gracie Abrams, Instagram, July 28, 2025
 
 The reproduction is the analysis. A Four sells out arenas by refusing to leave the room.
 
-She told the crowd, "This is beyond every single dream I've ever had — I can't even tell you." She has said versions of that sentence at almost every major venue. The doubling — _every single dream I've ever had_, _I can't even tell you_ — is the Four's verbal tic of insisting on the inside, even when the outside has just bought every seat in Madison Square Garden.
+She told the crowd, "This is beyond every single dream I've ever had — I can't even tell you." She has said versions of that sentence at almost every major venue. The doubling, _every single dream I've ever had_, _I can't even tell you_, is the Four's verbal tic of insisting on the inside, even when the outside has just bought every seat in Madison Square Garden.
 
 Twenty thousand people watching her perform from inside the bedroom she had originally written the songs to <em>stay in</em>.
 
@@ -175,7 +175,7 @@ Twenty thousand people watching her perform from inside the bedroom she had orig
 
 The reading from inside her life is unusually consistent. Two collaborators have been there for almost everything. They describe her in the same way without coordinating.
 
-Audrey Hobert has been Gracie's best friend since fifth grade — she was eleven, Gracie was ten, they met at a fifth-grade graduation. Hobert co-wrote multiple tracks on _The Secret of Us_, including "Risk" and the eight-week UK number-one "That's So True." For eighteen months they shared a house in Los Angeles.
+Audrey Hobert has been Gracie's best friend since fifth grade. She was eleven, Gracie was ten, they met at a fifth-grade graduation. Hobert co-wrote multiple tracks on _The Secret of Us_, including "Risk" and the eight-week UK number-one "That's So True." For eighteen months they shared a house in Los Angeles.
 
 > "[Gracie is] very smart, very funny, she is a sensitive soul and incredibly thoughtful. She's a dreamer, sharp as a tack and an artist."
 > — Audrey Hobert, _Dazed_, 2024
@@ -183,7 +183,7 @@ Audrey Hobert has been Gracie's best friend since fifth grade — she was eleven
 > "I've fully discovered songwriting because I was writing with her... I love that girl. I owe her my life in many ways."
 > — Audrey Hobert, _Nylon_ / _Audacy_, 2025
 
-Aaron Dessner — The National, _folklore_, _evermore_, every Gracie album since 2021 — described their first session at his Long Pond studio in upstate New York with the same shorthand most of his serious collaborators use about him.
+Aaron Dessner (The National, _folklore_, _evermore_, every Gracie album since 2021) described their first session at his Long Pond studio in upstate New York with the same shorthand most of his serious collaborators use about him.
 
 > "We hit it off."
 > — Aaron Dessner, _Billboard_, 2024
@@ -193,14 +193,14 @@ Then a sentence that is more revealing.
 > "I get to live vicariously through Gracie, which is really nice."
 > — Aaron Dessner, _Billboard_, 2024
 
-Two witnesses. Same observation, different vocabulary. The thing she does that the algorithm cannot fake is detail — the specific verb at the specific moment.
+Two witnesses. Same observation, different vocabulary. The thing she does that the algorithm cannot fake is detail: the specific verb at the specific moment.
 
 > "I love when a song is so specific that there's not much room for interpretation."
 > — Gracie Abrams, _Interview Magazine_, in conversation with Olivia Rodrigo
 
-That sentence is the analysis of the work. Most pop is built on universality — write the breakup that fits any breakup. Olivia said in the same conversation that Gracie's lyrics are "vividly specific," and that the specificity is what makes them gripping.
+That sentence is the analysis of the work. Most pop is built on universality: write the breakup that fits any breakup. Olivia said in the same conversation that Gracie's lyrics are "vividly specific," and that the specificity is what makes them gripping.
 
-<div class="pull-quote">Specificity is how a Four refuses inheritance. By claiming a moment so granular nobody else has ever had it — including her famous father.</div>
+<div class="pull-quote">Specificity is how a Four refuses inheritance. By claiming a moment so granular nobody else has ever had it, including her famous father.</div>
 
 ## Why Gracie Abrams keeps writing the same sentence
 
@@ -208,16 +208,16 @@ Look across her catalog and a sentence keeps repeating.
 
 - _"I miss you, I'm sorry."_ — _Minor_, 2020
 - _"I love you, I'm sorry."_ — _The Secret of Us_, 2024
-- _"I told you things"_ — _The Secret of Us_ deluxe, 2024 — a song explicitly about regretting having opened up
+- _"I told you things"_ — _The Secret of Us_ deluxe, 2024, a song explicitly about regretting having opened up
 
 Three songs in five years built around the same emotional shape: a confession followed by a flinch. _I told you. I shouldn't have. Take it back._
 
-This is the Four's recursive loop. The Four says the unsayable, and then immediately apologizes for having said it. The honesty is the wound. The intimacy itself is the thing that cannot be lived with — not because she didn't mean it, but because once it is said it is no longer hers alone. The privacy of the feeling has just been transferred.
+This is the Four's recursive loop. The Four says the unsayable, and then immediately apologizes for having said it. The honesty is the wound. The intimacy itself is the thing that cannot be lived with, not because she didn't mean it, but because once it is said it is no longer hers alone. The privacy of the feeling has just been transferred.
 
 > "There's something so special and underrated about screaming about what embarrasses you instead of getting quiet."
 > — Gracie Abrams, _Dazed_
 
-She has called her relationship to her own imagination "a torture device." Her biggest song to date — "That's So True," released November 2024 from the deluxe edition of _The Secret of Us_, peaked at #6 on the Billboard Hot 100 (her first US top ten) and spent eight weeks at #1 in the UK — ends with the line _"Wait, I think I hate her, I'm not that evolved."_
+She has called her relationship to her own imagination "a torture device." Her biggest song to date, "That's So True" (released November 2024 from the deluxe edition of _The Secret of Us_), peaked at #6 on the Billboard Hot 100 (her first US top ten) and spent eight weeks at #1 in the UK. It ends with the line _"Wait, I think I hate her, I'm not that evolved."_
 
 The Four tells you everything, and then narrates the part of herself she's not ready to forgive.
 
@@ -225,7 +225,7 @@ The Four tells you everything, and then narrates the part of herself she's not r
 
 In the songs, she tells you everything. In life, she chose a partner who tells reporters nothing.
 
-She has been seeing Paul Mescal since June 2024 — first photographed together in London, made Instagram-official with a Glastonbury carousel in July 2025, red-carpet debut at the BAFTAs.
+She has been seeing Paul Mescal since June 2024, first photographed together in London, made Instagram-official with a Glastonbury carousel in July 2025, red-carpet debut at the BAFTAs.
 
 This is what Mescal said about the relationship in _Rolling Stone_ in September 2025, asked directly:
 
@@ -233,9 +233,9 @@ This is what Mescal said about the relationship in _Rolling Stone_ in September 
 
 Five hesitations. One finished sentence. The verb is _protect._
 
-The Type 4 most afraid of an inherited interior fell in love with the _Aftersun_ and _Normal People_ lead — an actor whose entire screen career is built on how much language you can withhold and still be understood. Two artists who run on what's left unsaid. Neither willing to give the inside away to a stranger with a recorder.
+The Type 4 most afraid of an inherited interior fell in love with the _Aftersun_ and _Normal People_ lead, an actor whose entire screen career is built on how much language you can withhold and still be understood. Two artists who run on what's left unsaid. Neither willing to give the inside away to a stranger with a recorder.
 
-A Four does not pick partners. A Four picks rooms. The relationship is another door.
+A Four doesn't pick partners. A Four picks rooms. The relationship is another door.
 
 ---
 
@@ -244,7 +244,7 @@ A Four does not pick partners. A Four picks rooms. The relationship is another d
 > "I'm just a very romantic person, unfortunately."
 > — Gracie Abrams, _Office Magazine_
 
-She was afraid for strangers to know her dad worked in entertainment. So she took the most private thing she had — her own interior — and made it the only entertainment she could own.
+She was afraid for strangers to know her dad worked in entertainment. So she took the most private thing she had, her own interior, and made it the only entertainment she could own.
 
 She didn't hide.
 

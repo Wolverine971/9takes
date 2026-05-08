@@ -77,12 +77,12 @@ She was nineteen when _Wednesday_ landed. Ten million Instagram followers arrive
 <summary class="accordion">TL;DR: Why Emma Myers is an Enneagram Type 9</summary>
 <div class="panel">
 <ul>
-<li><b>Merges where she lands:</b> Auditioned for Wednesday, got Enid, made it her own — the casting dictated, she adapted.</li>
+<li><b>Merges where she lands:</b> Auditioned for Wednesday, got Enid, made it her own. The casting dictated, she adapted.</li>
 <li><b>Withdraws instead of fighting:</b> "Felt sick every time I posted." Turned off tagged photos, restricted DMs. Retreat, not vigilance.</li>
 <li><b>Keeps her anger in the car:</b> "I'm a very loud driver — I yell a lot when I'm driving." The rage has a private address and stays there.</li>
 <li><b>Needed the group to move first:</b> Four years of competitive-dance bullying, and she couldn't quit until her friends quit too.</li>
 <li><b>Invites protection:</b> Jenna Ortega and Taylor Lautner's wife both say in public that they want to shield her. Something in her asks for it.</li>
-<li><b>Finds her engine only when the cause is legitimized:</b> Took on Pip Fitz-Amobi — a relentless teen investigator — with two weeks of accent prep. "When I get into something, that is my whole personality for a very long time." A Nine runs hot when the mission is structured for her.</li>
+<li><b>Finds her engine only when the cause is legitimized:</b> Took on Pip Fitz-Amobi (a relentless teen investigator) with two weeks of accent prep. "When I get into something, that is my whole personality for a very long time." A Nine runs hot when the mission is structured for her.</li>
 </ul>
 </div>
 </details>
@@ -91,11 +91,11 @@ She was nineteen when _Wednesday_ landed. Ten million Instagram followers arrive
 
 ### Emma Myers is an Enneagram Type 9
 
-<a href="/enneagram-corner/enneagram-type-9">Type 9 — the Peacemaker</a> fears separation and loss of connection. The core strategy is to keep the inner and outer world in harmony by merging with the people, routines, and roles around them. The cost: a quiet forgetting of their own urgency. The benefit: a steadying presence other people lean into. Emma's 1 wing gives the quiet an ethical spine — Christian upbringing, two lawyer parents, disciplined routines, a sense that the thing she is doing should be done right.
+<a href="/enneagram-corner/enneagram-type-9">Type 9, the Peacemaker</a>, fears separation and loss of connection. The core strategy is to keep the inner and outer world in harmony by merging with the people, routines, and roles around them. The cost: a quiet forgetting of their own urgency. The benefit: a steadying presence other people lean into. Emma's 1 wing gives the quiet an ethical spine: Christian upbringing, two lawyer parents, disciplined routines, a sense that the thing she is doing should be done right.
 
 What makes Emma clearly a Nine rather than a withdrawn 4 or an anxious 6 is her relationship to the undetermined. "The undetermined future is a crazy thing for me, but it's almost comforting not having anything planned out," she told Variety in 2025. A 6 finds that sentence terrifying. A 4 finds it empty. A 9 finds it peaceful. She can stand in an open field and feel held by the sky.
 
-The type also explains a line that doesn't otherwise make sense. When Seventeen asked her in 2025 whether fame had changed her, she said: "I don't really feel any different than I used to though. I'm still pretty me." That is not humility. That is 9 self-continuity — the sense that the self is steady regardless of what spins around it. [Blake Lively](/personality-analysis/Blake-Lively) could not say that sentence. [Taylor Swift](/personality-analysis/Taylor-Swift) could not say that sentence. Emma says it and means it.
+The type also explains a line that doesn't otherwise make sense. When Seventeen asked her in 2025 whether fame had changed her, she said: "I don't really feel any different than I used to though. I'm still pretty me." That isn't humility. It's 9 self-continuity: the sense that the self is steady regardless of what spins around it. [Blake Lively](/personality-analysis/Blake-Lively) could not say that sentence. [Taylor Swift](/personality-analysis/Taylor-Swift) could not say that sentence. Emma says it and means it.
 
 ---
 
@@ -103,7 +103,7 @@ The type also explains a line that doesn't otherwise make sense. When Seventeen 
 
 She was the second of four sisters in an Orlando homeschool cooperative run on Christian values and two lawyer parents. Her mother is Korean, born in Busan, where Emma's grandparents lived for eight years after her Greek engineer grandfather moved there following the Korean War. Emma grew up bilingual in Korean, and she eats her mother's Korean cooking the way most American kids eat cereal.
 
-None of that translated into community. Homeschool didn't give her one. The structure she latched onto was a competitive dance studio outside the co-op — four years, roughly two hundred girls, a handful of boys, and a bullying problem she has only recently talked about in public.
+None of that translated into community. Homeschool didn't give her one. The structure she latched onto was a competitive dance studio outside the co-op: four years, roughly two hundred girls, a handful of boys, and a bullying problem she has only recently talked about in public.
 
 "The bullying that was experienced there was not fun," she told Taylor Lautner on _The Squeeze_ podcast in 2023. "Me and my friends — kids are mean. Mean for no reason. You like something that they don't like, they'll make it known."
 
@@ -111,11 +111,11 @@ For most of those four years, she wanted to leave. She didn't. The explanation f
 
 > "I wanted to so badly, but my friends were there, and it's just kind of like, once you've gotten a routine in for that long... I think I just needed that push, thankfully, because all my friends quit with me."
 
-She could not leave the thing hurting her until the other people in it left first. Read that sentence twice. A 9 will absorb a significant amount of pain before breaking the consensus of the group. Movement requires permission — ideally from the group itself.
+She couldn't leave the thing hurting her until the other people in it left first. Read that sentence twice. A 9 will absorb a significant amount of pain before breaking the consensus of the group. Movement requires permission, ideally from the group itself.
 
-When her friends quit, she could quit. When her dad's job moved to Atlanta at 16, the whole family moved and she moved with them — she is still housed with them now. When casting sent her the Enid breakdown instead of the Wednesday one, she said "this feels much better" and went with Enid. The direction of her life has consistently been chosen for her by circumstance, and she has consistently responded by making the received option feel chosen. That is not passive. It is the agency of the person who trusts that what is given is what is meant.
+When her friends quit, she could quit. When her dad's job moved to Atlanta at 16, the whole family moved and she moved with them; she's still housed with them now. When casting sent her the Enid breakdown instead of the Wednesday one, she said "this feels much better" and went with Enid. The direction of her life has consistently been chosen for her by circumstance, and she has consistently responded by making the received option feel chosen. That isn't passive. It's the agency of the person who trusts that what is given is what is meant.
 
-Her private anchor during the dance years was music nobody at the studio understood. Twenty One Pilots. Panic! at the Disco. Fall Out Boy. Emo as refuge. "I was kind of an outsider because I was into things more than the normal kid would be," she said in a 2022 interview. "And I got bullied for it." She has since described her younger self, in Seventeen, as a homeschooled emo kid in Atlanta with what she calls an "attitude problem" — a one-line self-diagnosis that tells you how the dance-studio years felt from the inside.
+Her private anchor during the dance years was music nobody at the studio understood. Twenty One Pilots. Panic! at the Disco. Fall Out Boy. Emo as refuge. "I was kind of an outsider because I was into things more than the normal kid would be," she said in a 2022 interview. "And I got bullied for it." She has since described her younger self, in Seventeen, as a homeschooled emo kid in Atlanta with what she calls an "attitude problem," a one-line self-diagnosis that tells you how the dance-studio years felt from the inside.
 
 ---
 
@@ -135,7 +135,7 @@ A week later she booked the role. Not Wednesday. Enid.
 
 "What's funny is that I auditioned for Wednesday at first," she told Taylor Lautner. "This is not gonna go well, I can't pull it off. Didn't pull it off. But they came back and were like, oh, you might be good for Enid. Let's give it a shot. My team got sent the Enid breakdown, and from that point on I was like, okay, this feels much better."
 
-Read what she actually described. She tried for the dark, intense, slow-speaking role she identifies with. She tried, knew she wasn't pulling it off, accepted the redirection immediately, and in the instant of switching decided "this feels much better." No ego grief. No negotiation. No sulk. A casting director reoriented her toward the opposite personality and she leaned in — and then built the performance that became the internet's favorite character of 2022.
+Read what she actually described. She tried for the dark, intense, slow-speaking role she identifies with. She tried, knew she wasn't pulling it off, accepted the redirection immediately, and in the instant of switching decided "this feels much better." No ego grief. No negotiation. No sulk. A casting director reoriented her toward the opposite personality and she leaned in, and then built the performance that became the internet's favorite character of 2022.
 
 People at Comic-Con wouldn't accept her self-description afterward. "I had a lot of people come up to me being like, you say you're not like Enid but you _are_ Enid," she said. "But I think that's just my outward personality when I'm trying to socialize with people. I'm not much of an extrovert. Don't really wear a lot of colors. I think she's more personable and can communicate better with others than I can."
 
@@ -153,13 +153,13 @@ The question on _The Squeeze_ was: "If you were arrested with no explanation, wh
 
 The host blinked. It did not match the girl sitting across from her. Emma kept going: "I don't like road rage — I just like have a lot to say. I have a lot to say. I probably would have caused an argument over a parking spot or something."
 
-This is Nine anger doing what Nine anger does — finding the one place where it cannot hurt anyone. Alone in the car, windows up, no audience, no consequence. She monologues. She yells. She imagines the confrontation. She drives away before it becomes real. "I drive away before it gets too serious," she said. "I haven't got to the punching part yet."
+This is Nine anger doing what Nine anger does: finding the one place where it cannot hurt anyone. Alone in the car, windows up, no audience, no consequence. She monologues. She yells. She imagines the confrontation. She drives away before it becomes real. "I drive away before it gets too serious," she said. "I haven't got to the punching part yet."
 
 The dance-studio bullying never got a direct response either. "The way to get back at those people," she said on _The Squeeze_, "is by freaking killing them with kindness. Absolutely destroying them with kindness." That is her phrase, her emphasis, her strategy. The bullies who ignored her for years now message her on Instagram. She does not block them. She does not ignore them. She replies — politely enough to humiliate anyone paying attention. "My work and everything speaks for itself," she said. "And on top of that, I'm just gonna make you feel stupid by treating you so well."
 
 Read the logic. Refusing their kindness would be conflict. Confronting them would be conflict. Staying silent would be conflict. The only route left is to be so pleasant to the people who hurt her that the moral weight of the old injury quietly transfers to them. Strangers' DMs are restricted. Old acquaintances with her number get the kindness treatment. Nothing loud ever happens.
 
-The rage gets its outlet later, in the car, at a parking spot, at no one. That's Nine anger in its pure form — real, significant, and routed so thoroughly around other people that most of her fans have no idea it exists.
+The rage gets its outlet later, in the car, at a parking spot, at no one. That's Nine anger in its pure form: real, significant, and routed so thoroughly around other people that most of her fans have no idea it exists.
 
 ---
 
@@ -171,13 +171,13 @@ She went from 900 Instagram followers to 5 million in three days, and somewhere 
 
 The response to overwhelm is the pattern. She did not double down on the feed to regain control. She did not build a media strategy. She turned off her tagged photos. She restricted DMs. She asked her sisters to stop sending her screenshots of what people were saying on Twitter. "It just gets overwhelming sometimes," she said. "Even if it's nothing, harmless — just pictures of me. It's a lot to have so many people talking about you and you not even knowing that they're talking about you."
 
-Then the sentence that nearly every Nine in a performance career eventually hits: "I didn't notice that I was putting value in [the attention], but when you would go through a quiet time and it wouldn't be there, and you would stop being recognized as much, the paparazzi didn't care as much about you — I started to get sad." Then the self-correction, arriving immediately after: "I was definitely not valuing the right things in life." That two-beat loop — crave attention, feel bad about craving it — is the 3-to-9 move under pressure. A 3 would chase the attention harder. A 9 catches herself caring and turns it down.
+Then the sentence that nearly every Nine in a performance career eventually hits: "I didn't notice that I was putting value in [the attention], but when you would go through a quiet time and it wouldn't be there, and you would stop being recognized as much, the paparazzi didn't care as much about you — I started to get sad." Then the self-correction, arriving immediately after: "I was definitely not valuing the right things in life." That two-beat loop (crave attention, feel bad about craving it) is the 3-to-9 move under pressure. A 3 would chase the attention harder. A 9 catches herself caring and turns it down.
 
 She has dealt with it by asking people she trusts how they dealt with it. [Jennifer Garner](/personality-analysis/Jennifer-Garner), who plays her onscreen mother in _Family Switch_, has become one of the people she leans on. Her response to Garner in an early interview tells you everything: "She reminds me of my actual mom, so it works out for the best." Garner collapsed into the mother slot immediately.
 
 "I regularly ask her, 'How do you do this? How do you deal with this?'" Emma said in 2025. Not _what should I do_. _How do you do this_. The Nine is asking the elder how it feels to carry the thing. She is looking for a body to model the endurance from, not a playbook.
 
-Her own body offered the same answer it always does. Faith. Family. Routine. "I grew up in a Christian household, but it wasn't something I concerned myself with too much until a few years ago, when I found God during a really challenging time in my life," she told Seventeen. "Now, my faith is what drives me and reminds me of who I am." She does not name the challenging time. She lets "a few years ago" do the work of a date. A Nine will often do this — mark a turning point with a shape, not a story. Whatever it was, it did not become a narrative. It became a routine.
+Her own body offered the same answer it always does. Faith. Family. Routine. "I grew up in a Christian household, but it wasn't something I concerned myself with too much until a few years ago, when I found God during a really challenging time in my life," she told Seventeen. "Now, my faith is what drives me and reminds me of who I am." She doesn't name the challenging time. She lets "a few years ago" do the work of a date. A Nine will often do this: mark a turning point with a shape, not a story. Whatever it was, it didn't become a narrative. It became a routine.
 
 By the time _Wednesday_'s second season shot in 2024 and premiered in 2025, she was describing the old reaction in the past tense. "I feel like I've got the hang of passionate fanbases now," she told NME. "So it won't be as crazy this time for me." And to Variety: "I think as an introvert, if you work in this job, you have to learn to — not necessarily put up a front — but to be an extrovert when you need to be." That is a Nine learning to mobilize on a schedule. Dial up for the press window, dial down in the coffee shop in Marietta, Georgia, where the Variety reporter actually met her. Nothing in the core changed. The calibration did.
 
@@ -189,7 +189,7 @@ She has also, quietly, closed the door on dating questions without making a show
 
 A fair reader objection to this whole article would be: if Emma Myers is really a withdrawn Nine, how do you explain Pip?
 
-Her second-biggest role is not Enid. In August 2024 Netflix released _A Good Girl's Guide to Murder_, and Emma carried every scene as Pip Fitz-Amobi — a British teenager who refuses to accept the official story of a local girl's death, interrogates suspects, breaks rules, and cannot be talked down. Pip is confrontational in a way Enid structurally can't be. For a large slice of Emma's fanbase, Pip is the role.
+Her second-biggest role isn't Enid. In August 2024 Netflix released _A Good Girl's Guide to Murder_, and Emma carried every scene as Pip Fitz-Amobi: a British teenager who refuses to accept the official story of a local girl's death, interrogates suspects, breaks rules, and cannot be talked down. Pip is confrontational in a way Enid structurally can't be. For a large slice of Emma's fanbase, Pip is the role.
 
 In press, Emma said something that cuts against the tidy "merges-with-what-she-gets" frame:
 
@@ -199,13 +199,13 @@ And this, to Teen Vogue the same year: "I don't understand people who are sort o
 
 Those are not the sentences of a vague, easily-led Nine. They are the sentences of someone with a private engine.
 
-The type handles this cleanly. A 9 does not lack momentum — a 9 requires that momentum be legitimized. Legitimized by the group, by a role, by a structured duty. Pip is a legitimized vehicle. Justice for a missing girl. A script that tells the actor where to push and who to push at. The 1 wing, already ethical, already wanting the thing done right, shows up strongly here — Pip's moral clarity is exactly the kind of cause a 9w1 will expend herself on. What looks like passivity in most Nines is actually a built-in demand that the effort be consensual, structured, and earned. Pip meets all three conditions. So the engine turns on.
+The type handles this cleanly. A 9 doesn't lack momentum; a 9 requires that momentum be legitimized. Legitimized by the group, by a role, by a structured duty. Pip is a legitimized vehicle. Justice for a missing girl. A script that tells the actor where to push and who to push at. The 1 wing, already ethical, already wanting the thing done right, shows up strongly here. Pip's moral clarity is exactly the kind of cause a 9w1 will expend herself on. What looks like passivity in most Nines is actually a built-in demand that the effort be consensual, structured, and earned. Pip meets all three conditions. So the engine turns on.
 
 Emma took the role with two weeks to learn a British accent. She said yes on a timeline she would normally say no to. "Most people assume that it's easy to play a character that's like you," she told Collider, "but it's actually way harder — and I wanted that challenge." And to The Glass Magazine: "The most complex roles, I'd say, are the ones that are closest to you, which is why I find Pip the most complex character. Getting her right, doing her justice and making it authentic is harder." Enid was easy because Enid was a costume. Pip was hard because Pip was close to the part of Emma that, once it latches, can't unlatch.
 
 The doggedness is real. The 9 structure is also real. The 9 is the place where she rests. The 1 wing is the place where she decides a thing has to be finished. And the character of Pip, built by someone else and handed to her with a start date, gave her a permission slip to be that doggedly herself.
 
-You can watch the same mechanism in a smaller key on _A Minecraft Movie_ in April 2025, where she played Natalie — the older-sister caretaker of the group, "not necessarily the voice of reason, but the most serious one," as she put it to Variety. The director, Jared Hess, told IMDb she played Minecraft on a Nintendo Switch between takes to stay in the world. That is not acting technique. That is a Nine merging with the thing she is supposed to be inside, the same way she merged with Enid's warmth and Pip's investigation. The container changes. The mechanism doesn't.
+You can watch the same mechanism in a smaller key on _A Minecraft Movie_ in April 2025, where she played Natalie, the older-sister caretaker of the group, "not necessarily the voice of reason, but the most serious one," as she put it to Variety. The director, Jared Hess, told IMDb she played Minecraft on a Nintendo Switch between takes to stay in the world. That isn't acting technique. That's a Nine merging with the thing she's supposed to be inside, the same way she merged with Enid's warmth and Pip's investigation. The container changes. The mechanism doesn't.
 
 ---
 
@@ -219,9 +219,9 @@ That is not a standard co-star relationship. That is someone watching someone el
 
 Tay Lautner, two minutes after meeting Emma at a comic convention, told _The Squeeze_ audience she wanted to "wrap her in bubble wrap" and keep her from anything negative. That is a lot to say about a person you have known for two minutes. People keep saying it anyway.
 
-The reason the protective instinct crystallizes around her is specific. Emma responds to the world with a kind of undefended attention. She is not performing vulnerability — she is simply not carrying the usual armor most people her age bring to public interactions. When she jokes that "my body will be buried somewhere" if she leaks _Wednesday_ spoilers, she is joking, but the joke keys the part of the listener that wants to stand between her and the world that buried bodies come from.
+The reason the protective instinct crystallizes around her is specific. Emma responds to the world with a kind of undefended attention. She isn't performing vulnerability; she's simply not carrying the usual armor most people her age bring to public interactions. When she jokes that "my body will be buried somewhere" if she leaks _Wednesday_ spoilers, she is joking, but the joke keys the part of the listener that wants to stand between her and the world that buried bodies come from.
 
-The absence of edge in her presence invites protection from people who do carry edges. Next to her stillness, other people's movement registers as capability — so they feel useful, and they stay close.
+The absence of edge in her presence invites protection from people who do carry edges. Next to her stillness, other people's movement registers as capability, so they feel useful, and they stay close.
 
 ---
 
@@ -231,13 +231,13 @@ She picks the Radiohead song, then immediately corrects: "Not at all. Completely
 
 Both of those statements are true. She does not actively want to vanish. She also, sometimes, wants to vanish. The correction is the performance. The choice was the signal.
 
-What she has built in response is not a big external identity. It is a ring of quiet infrastructure. Her family moved with her to Atlanta. Her three sisters — Avery, older; Isabel and Olivia, younger — are close enough that she compared the four of them to the _Little Women_ sisters in a 2025 Seventeen cover interview. Her mother calls her back to why she is doing what she is doing. Jenna sings to her in the morning. Jennifer Garner takes her calls. Tay Lautner wants to bubble-wrap her. And her car is a soundproof box where the anger goes to run its laps.
+What she has built in response isn't a big external identity. It's a ring of quiet infrastructure. Her family moved with her to Atlanta. Her three sisters (Avery, older; Isabel and Olivia, younger) are close enough that she compared the four of them to the _Little Women_ sisters in a 2025 Seventeen cover interview. Her mother calls her back to why she's doing what she's doing. Jenna sings to her in the morning. Jennifer Garner takes her calls. Tay Lautner wants to bubble-wrap her. And her car is a soundproof box where the anger goes to run its laps.
 
 Inside that ring, she plays a werewolf who never shuts up. She plays a detective who will not drop it. She plays an older sister in Minecraft who has to be the serious one. The roles all take the engine of someone who can commit, and give it a structured place to go.
 
 Outside it, she reads with instrumental Spotify playlists and tells you, if you ask, that the most misunderstood thing about her is that people think she is like Enid.
 
-They are not wrong. They are missing the cost. The sunshine you see her broadcast is being generated by someone who would rather disappear — not completely, but not never. She figured out years earlier than most people ever do how to stand in the blast zone of a hundred million viewers and still be the girl whose mom has to tell her how famous she is.
+They aren't wrong. They're missing the cost. The sunshine you see her broadcast is being generated by someone who would rather disappear, not completely, but not never. She figured out years earlier than most people ever do how to stand in the blast zone of a hundred million viewers and still be the girl whose mom has to tell her how famous she is.
 
 <!--
 FRESH-EYES READER REVIEW (acting as a fan who follows her work)

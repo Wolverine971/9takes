@@ -11,7 +11,7 @@
   </url>
   <url>
     <loc>https://9takes.com/blog</loc>
-    <lastmod>2026-05-07</lastmod>
+    <lastmod>2026-05-08</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/book-session</loc>
@@ -135,7 +135,7 @@
   </url>
   <url>
     <loc>https://9takes.com/corpus-stats</loc>
-    <lastmod>2026-05-07</lastmod>
+    <lastmod>2026-05-08</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/enneagram-corner</loc>
@@ -949,7 +949,7 @@
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis</loc>
-    <lastmod>2026-05-07</lastmod>
+    <lastmod>2026-05-08</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/abraham-lincoln</loc>
@@ -1117,6 +1117,13 @@
     <lastmod>2026-02-18</lastmod>
     <image:image>
       <image:loc>https://9takes.com/types/7s/Ashby.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://9takes.com/personality-analysis/asmongold</loc>
+    <lastmod>2026-05-08</lastmod>
+    <image:image>
+      <image:loc>https://9takes.com/types/5s/Asmongold.webp</image:loc>
     </image:image>
   </url>
   <url>
@@ -1296,7 +1303,7 @@
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/categories</loc>
-    <lastmod>2026-05-07</lastmod>
+    <lastmod>2026-05-08</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/categories/authors-thinkers</loc>
@@ -1308,7 +1315,7 @@
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/categories/creator-media</loc>
-    <lastmod>2026-05-07</lastmod>
+    <lastmod>2026-05-08</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/categories/film-tv</loc>
@@ -3199,7 +3206,7 @@
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/type/5</loc>
-    <lastmod>2026-05-07</lastmod>
+    <lastmod>2026-05-08</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/type/6</loc>
@@ -3415,13 +3422,6 @@
     </image:image>
   </url>
   <url>
-    <loc>https://9takes.com/pop-culture/succession-roy-siblings-enneagram-types</loc>
-    <lastmod>2026-05-07</lastmod>
-    <image:image>
-      <image:loc>https://9takes.com/blogs/succession-roy-siblings-enneagram-types-composite.webp</image:loc>
-    </image:image>
-  </url>
-  <url>
     <loc>https://9takes.com/pop-culture/tech-titans-ai-wars</loc>
     <lastmod>2026-03-28</lastmod>
     <image:image>
@@ -3461,13 +3461,6 @@
     <lastmod>2026-04-07</lastmod>
     <image:image>
       <image:loc>https://9takes.com/blogs/tech-titans-platform-emperors-composite.webp</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://9takes.com/pop-culture/the-office-enneagram-types</loc>
-    <lastmod>2026-05-07</lastmod>
-    <image:image>
-      <image:loc>https://9takes.com/blogs/the-office-enneagram-types-composite.webp</image:loc>
     </image:image>
   </url>
   <url>

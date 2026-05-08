@@ -80,7 +80,7 @@ Locations:
 
 He was the most recognizable face in American cinema. He was not playing a character.
 
-That is the whole problem of Harrison Ford, compressed into a single radio transmission. The star who became a shorthand for swaggering confidence — Han Solo, Indiana Jones, Jack Ryan, Rick Deckard — has spent sixty years quietly insisting he's a tradesman. A working guy. A schmuck. Someone who showed up, did the job, and would rather not be looked at while he did it.
+That is the whole problem of Harrison Ford, compressed into a single radio transmission. The star who became a shorthand for swaggering confidence (Han Solo, Indiana Jones, Jack Ryan, Rick Deckard) has spent sixty years quietly insisting he's a tradesman. A working guy. Someone who showed up, did the job, and would rather not be looked at while he did it.
 
 Everyone else saw Hollywood royalty. He kept trying to go back to the workshop.
 
@@ -90,7 +90,7 @@ Everyone else saw Hollywood royalty. He kept trying to go back to the workshop.
 <ul>
 <li><b>Core motivation:</b> Maintain inner peace by merging with the work. The work is the shelter.</li>
 <li><b>Central contradiction:</b> The most magnetic leading man of his generation also spent sixty years refusing to be the center of his own story.</li>
-<li><b>Signature pattern:</b> When performance gets loud, retreat to something physical — carpentry, flying, rescuing hikers.</li>
+<li><b>Signature pattern:</b> When performance gets loud, retreat to something physical: carpentry, flying, rescuing hikers.</li>
 <li><b>Under stress (9→6):</b> Quiet non-compliance. The "Lawyer!" reply. A voiceover read badly on purpose.</li>
 <li><b>In growth (9→3):</b> At 83, the camera finally catches him looking like a person.</li>
 <li><b>The 8 wing:</b> Laconic, not sedated. Will absolutely tell you the line doesn't fit his mouth.</li>
@@ -102,9 +102,9 @@ Everyone else saw Hollywood royalty. He kept trying to go back to the workshop.
 
 ### Harrison Ford is an Enneagram Type 9
 
-Type 9s manage their inner world by refusing to occupy too much of it. They merge — with a task, a partner, a room, a mood. The core fear is that taking up space will blow something apart. Staying small keeps the peace.
+Type 9s manage their inner world by refusing to occupy too much of it. They merge with a task, a partner, a room, a mood. The core fear is that taking up space will blow something apart. Staying small keeps the peace.
 
-Ford's version of this is not the soft, sleepy 9 from the textbooks. He has an 8 wing, and it shows. He is laconic, not sedated. Gruff, not anxious. He will tell George Lucas the dialogue is unspeakable and refuse to say it. He will land a small plane on a golf course, break his pelvis, walk out of the hospital, and buy another plane.
+Ford's version of this isn't the soft, sleepy 9 from the textbooks. He has an 8 wing, and it shows. He's laconic but not sedated, gruff but not anxious. He will tell George Lucas the dialogue is unspeakable and refuse to say it. He will land a small plane on a golf course, break his pelvis, walk out of the hospital, and buy another plane.
 
 But listen to how he describes himself, consistently, across six decades:
 
@@ -118,7 +118,7 @@ But listen to how he describes himself, consistently, across six decades:
 
 That last one is a 9 koan. An empty mind is a mind that isn't asserting anything. It's how he approaches a scene, an interview, a takeoff. He wants the space to fill him, not the other way around.
 
-Read our [Type 9 profile](/enneagram-corner/enneagram-type-9) — the Peacemaker — if you want the full architecture. Ford is the version where the peacemaker has hands. A carpenter, specifically.
+Read our [Type 9 profile](/enneagram-corner/enneagram-type-9), the Peacemaker, for the full architecture. Ford is the version where the peacemaker has hands. A carpenter, specifically.
 
 ## Growing up half-Irish, half-Jewish, fully neither
 
@@ -128,7 +128,7 @@ Asked what the household's faith was, Ford has answered, "Democrat." Asked what 
 
 That sentence is a very 9 sentence. It does not pick a side. It assigns the two halves to two different domains so neither half has to dominate the other, and then moves on. Peace is the default, and belonging to two things at once is how you keep the peace.
 
-He was shy. He was bullied at school. He's described himself as a kid who didn't do well in groups and preferred building model airplanes alone in his bedroom — a solitary craft, small, repeatable, quiet. When he got to Ripon College in Wisconsin, he fell into a depression and took a drama class to fulfill a requirement. He found, to his surprise, that performing as someone else was easier than being himself in a room. That pattern — _being someone else is less effortful than being myself_ — is the foundation his entire career is built on.
+He was shy. He was bullied at school. He's described himself as a kid who didn't do well in groups and preferred building model airplanes alone in his bedroom (a solitary craft, small, repeatable, quiet). When he got to Ripon College in Wisconsin, he fell into a depression and took a drama class to fulfill a requirement. He found, to his surprise, that performing as someone else was easier than being himself in a room. That pattern, _being someone else is less effortful than being myself_, is the foundation his entire career is built on.
 
 Carpentry was the other half of the same formation. It was the part of his life where he didn't have to be anyone at all.
 
@@ -142,7 +142,7 @@ Roos liked the bed. He also liked the quiet guy who built it. He brought Ford in
 
 This is how Han Solo happened. A man with his hands full of sawdust walked into an audition for a space cowboy.
 
-It would be a better story if Ford dropped the hammer the moment the fame arrived. He didn't. He kept the workshop. He still has one. When acting got strange, he went back to the shop. When the Carpenter's Union called him a scab during the Star Wars years — because he was technically building cabinets without a card — he laughed and paid his dues.
+It would be a better story if Ford dropped the hammer the moment the fame arrived. He didn't. He kept the workshop. He still has one. When acting got strange, he went back to the shop. When the Carpenter's Union called him a scab during the Star Wars years (he was technically building cabinets without a card) he laughed and paid his dues.
 
 Carpentry is the shape Ford trusts. You plan it, cut it, assemble it, sand it. Someone moves in. You did not write a monologue about what the cabinet means to you. You built a cabinet. The cabinet either fits the wall or it doesn't.
 
@@ -154,7 +154,7 @@ He is 83, the most famous actor of his generation, and the metaphor he uses for 
 
 </div>
 
-The carpentry is not a charming backstory. It is the architecture of how he thinks about work, fame, and himself. It is the whole thing.
+The carpentry isn't a charming backstory. It's the architecture of how he thinks about work, fame, and himself.
 
 ## Why Harrison Ford doesn't like giving interviews
 
@@ -168,7 +168,7 @@ He has been asked about this for half a century. His answers have barely changed
 
 Ford is polite with most interviewers. He is brusque with the ones he decides are wasting his time. In both cases, he is defending the same perimeter. He does not believe there is a more intimate version of himself than the one already on screen, and he does not believe that what he owes the audience extends past the movie.
 
-This is a very Type 9 position. It sounds cranky. It's actually an identity strategy. If the public character _is_ the self — if Han Solo, Rick Deckard, Indiana Jones, John Book, and Dr. Paul Rhoades have done the talking for sixty years — then the man walking into the green room doesn't have to say anything new.
+This is a very Type 9 position. It sounds cranky. It's actually an identity strategy. If the public character _is_ the self, if Han Solo, Rick Deckard, Indiana Jones, John Book, and Dr. Paul Rhoades have done the talking for sixty years, then the man walking into the green room doesn't have to say anything new.
 
 Helen Mirren, who worked with him on *1923*, put it generously in 2023: _"Now he's balanced, wise, kind and loving and has found human vulnerability."_ The word _now_ is doing a lot of work in that sentence.
 
@@ -184,7 +184,7 @@ It is, if you read it twice, one of the kindest sentences in her book. It is als
 
 The first marriage ended in 1979. When Fisher warned him, decades later, that she was about to publish the affair in a memoir, he raised one finger and said, "Lawyer!"
 
-That single word is the whole Type 9 defense: humor to soften, deflection to protect, a full stop instead of a conversation. In [9 under stress](/enneagram-corner/enneagram-types-in-stress), the type pulls toward the anxious loops of Type 6 — suspicion, contingency planning, a kind of legal crouch. Ford does not catastrophize. He just closes the door.
+That single word is the whole Type 9 defense: humor to soften, deflection to protect, a full stop instead of a conversation. In [9 under stress](/enneagram-corner/enneagram-types-in-stress), the type pulls toward the anxious loops of Type 6: suspicion, contingency planning, a kind of legal crouch. Ford doesn't catastrophize. He just closes the door.
 
 He closed a lot of doors between 1977 and, roughly, 2023.
 
@@ -192,7 +192,7 @@ He closed a lot of doors between 1977 and, roughly, 2023.
 
 Ford has carried two franchises. He has been open about which one he prefers.
 
-Asked to compare Han Solo and Indiana Jones, Ford dismissed the space pirate: _"[Han Solo] got a good heart, but I think he's certainly a much less interesting character than Indiana Jones."_ Indy has conflicting emotions. Han has a blaster. For a 9, the interior character is the one worth coming back to.
+Asked to compare Han Solo and Indiana Jones, Ford dismissed the space pirate: _"[Han Solo] got a good heart, but I think he's certainly a much less interesting character than Indiana Jones."_ Indy has conflicting emotions. Han has a blaster. For a 9, the interior character is the one worth returning to.
 
 Between the Star Wars films and *Dial of Destiny*, Ford did his best work in a single American archetype: the reluctant hero. John Book in *Witness* (1985), which earned him his only Oscar nomination. Dr. Richard Kimble in *The Fugitive* (1993). Jack Ryan in *Patriot Games* and *Clear and Present Danger*. President James Marshall in *Air Force One*. Rusty Sabich in *Presumed Innocent*. In every case: a decent professional who did not want any of this and has to act anyway.
 
@@ -202,23 +202,23 @@ Ford has described his casting philosophy almost exactly, without reaching for t
 
 That is the Type 9 compressed into a casting brief. The 9 doesn't seek the center; the center finds him, and he does the next right thing despite it.
 
-Even the voice fits. Critics call it the laconic school — half-swallowed, almost bored, never selling a line harder than the line can bear. The most famous example was a rehearsal accident. When Leia tells Han _I love you_ in *The Empire Strikes Back*, the script said _I love you too._ Ford hated it. He ran takes until director Irvin Kershner told him to stop thinking and go. What came out was _I know._ The line is iconic because it refuses to do the work the script asked of it.
+Even the voice fits. Critics call it the laconic school: half-swallowed, almost bored, never selling a line harder than the line can bear. The most famous example was a rehearsal accident. When Leia tells Han _I love you_ in *The Empire Strikes Back*, the script said _I love you too._ Ford hated it. He ran takes until director Irvin Kershner told him to stop thinking and go. What came out was _I know._ The line is iconic because it refuses to do the work the script asked of it.
 
-That refusal runs the other way, too. When Ridley Scott pushed Ford into recording the voiceover for *Blade Runner*, Ford did not argue. He read it — badly, on purpose. Scott, decades later: _"Harrison didn't enjoy doing it, so I think he was psychologically resistant to it, so it never really landed. Harrison is perfectly capable of doing it with his great voice."_ That is a 9 under stress doing what a 9 under stress does: not a confrontation, not an outright no, just quiet non-compliance with a task he resents.
+That refusal runs the other way, too. When Ridley Scott pushed Ford into recording the voiceover for *Blade Runner*, Ford didn't argue. He read it badly, on purpose. Scott, decades later: _"Harrison didn't enjoy doing it, so I think he was psychologically resistant to it, so it never really landed. Harrison is perfectly capable of doing it with his great voice."_ That's a 9 under stress doing what a 9 under stress does: not a confrontation, not an outright no, just quiet non-compliance with a task he resents.
 
 By the time Ford came back to Indy at 80 for *Dial of Destiny* (2023), the role had finally grown into his actual body. At Cannes, after a five-minute standing ovation, the most guarded movie star of his generation started crying. _"They say when you're about to die, you see your life flash before your eyes,"_ he told the room. _"And I just saw my life flash before my eyes."_
 
 ## The schmuck who kept flying
 
-Harrison Ford has been in six aircraft incidents across thirty years. He has walked away from all of them — one on a stretcher, with a broken pelvis, a broken ankle, and a head laceration. That was 2015. The Ryan ST3KR he was flying over Venice lost its carburetor's main metering jet, ran lean, and quit at altitude. He aimed for Penmar Golf Course, which is not a runway. It is a set of fairways between low houses. He made it. Golfers pulled him out of the wreckage. One of them happened to be a spine surgeon.
+Harrison Ford has been in six aircraft incidents across thirty years. He has walked away from all of them, one on a stretcher with a broken pelvis, a broken ankle, and a head laceration. That was 2015. The Ryan ST3KR he was flying over Venice lost its carburetor's main metering jet, ran lean, and quit at altitude. He aimed for Penmar Golf Course, which is not a runway but a set of fairways between low houses. He made it. Golfers pulled him out of the wreckage. One of them happened to be a spine surgeon.
 
 He bought another plane.
 
-This is where the [8 wing](/enneagram-corner/enneagram-wings-complete-guide) becomes unmissable. A pure 9 does not necessarily seek out single-engine aerobatic aircraft for meditation. Ford does. Flying is not a thrill for him; it is the opposite. It is a place where the task is sufficiently demanding that the self gets quiet. An engine failure at 3,000 feet is not an occasion for self-reflection. It is a carburetor problem.
+This is where the [8 wing](/enneagram-corner/enneagram-wings-complete-guide) becomes unmissable. A pure 9 doesn't necessarily seek out single-engine aerobatic aircraft for meditation. Ford does. Flying isn't a thrill for him; it's the opposite. It's a place where the task is sufficiently demanding that the self gets quiet. An engine failure at 3,000 feet isn't an occasion for self-reflection. It's a carburetor problem.
 
-What most people don't know is that he uses the helicopter for more than recreation. Ford has been a volunteer search-and-rescue pilot for Teton County, Wyoming — on call, unpaid, when a hiker goes missing in the backcountry. In July 2000 he extracted a 20-year-old woman named Sarah George off Table Mountain, altitude-sick and dehydrated. She threw up inside his helicopter. _"I can't believe I barfed in Harrison Ford's helicopter,"_ she said afterward. Ford's version of the story does not mention that she was famous for a day. It mentions that she was okay. He has also served on the board of Conservation International since 1991, and in 2019 gave the United Nations roughly the plainest line anyone has ever given a climate summit: _"We've been talking about saving the Amazon for 30 years, and we're still talking about it."_
+What most people don't know is that he uses the helicopter for more than recreation. Ford has been a volunteer search-and-rescue pilot for Teton County, Wyoming, on call, unpaid, whenever a hiker goes missing in the backcountry. In July 2000 he extracted a 20-year-old woman named Sarah George off Table Mountain, altitude-sick and dehydrated. She threw up inside his helicopter. _"I can't believe I barfed in Harrison Ford's helicopter,"_ she said afterward. Ford's version of the story doesn't mention that she was famous for a day. It mentions that she was okay. He has also served on the board of Conservation International since 1991, and in 2019 gave the United Nations roughly the plainest line anyone has ever given a climate summit: _"We've been talking about saving the Amazon for 30 years, and we're still talking about it."_
 
-This is the 9-with-8-wing doing unglamorous, unbranded service. Rescue the hiker. Say the obvious sentence to the UN. Don't talk about it afterward. It is a 9's preferred altitude, which is _below the pedestal_. On a pedestal, people look at you. Off it, they look past you — and you can get on with the work.
+This is the 9-with-8-wing doing unglamorous, unbranded service. Rescue the hiker. Say the obvious sentence to the UN. Don't talk about it afterward. It's a 9's preferred altitude, which is _below the pedestal_. On a pedestal, people look at you. Off it, they look past you, and you can get on with the work.
 
 <p class="inner-thought">Just get the plane down. Just make the cabinet fit the wall. Just say the line. Anything more than that is noise.</p>
 
@@ -226,19 +226,19 @@ This is the 9-with-8-wing doing unglamorous, unbranded service. Rescue the hiker
 
 In 2023, Harrison Ford did something he has never done before. He played a therapist.
 
-The show is *Shrinking* on Apple TV+. The character is Dr. Paul Rhoades, a senior clinician with Parkinson's disease. Paul is blunt, dryly funny, and — this is the part that isn't Harrison — willing to say how he feels about people out loud. He tells a younger therapist he loves him. He cries. He is afraid.
+The show is *Shrinking* on Apple TV+. The character is Dr. Paul Rhoades, a senior clinician with Parkinson's disease. Paul is blunt, dryly funny, and (this is the part that isn't Harrison) willing to say how he feels about people out loud. He tells a younger therapist he loves him. He cries. He is afraid.
 
 Ford, during press for the show, said: _"I had never done anything like this before, and it was like suddenly recognizing what I've always wanted acting to be."_
 
 In 59 years of work, he had never been Emmy-nominated. In 2024, for *Shrinking*, he finally was.
 
-What is happening here, in Enneagram terms, is the 9's growth arrow to [Type 3](/enneagram-corner/enneagram-type-3). The move is not becoming ambitious. Ford was never unambitious. The move is showing up as a specific, asserting, visible self — letting the audience see him rather than the character. Bill Lawrence, the show's co-creator, said of him at the table read: _"His lust for life is still so high, I found it inspiring."_ Jason Segel described Ford's first day: _"He was vulnerable from the start. He said, 'You guys have more experience with comedy; I'm here to learn.'"_
+What is happening here, in Enneagram terms, is the 9's growth arrow to [Type 3](/enneagram-corner/enneagram-type-3). The move isn't becoming ambitious. Ford was never unambitious. The move is showing up as a specific, asserting, visible self, letting the audience see him rather than the character. Bill Lawrence, the show's co-creator, said of him at the table read: _"His lust for life is still so high, I found it inspiring."_ Jason Segel described Ford's first day: _"He was vulnerable from the start. He said, 'You guys have more experience with comedy; I'm here to learn.'"_
 
 Here is what I want you to notice. Ford did not, at 80, decide to write a memoir. He did not go on a podcast to "open up." He did not do a documentary about his life. When Jimmy Kimmel asked if *Shrinking* had made him consider therapy, his answer was: _"I'm not anti-therapy for anybody — except for myself."_
 
 He is still declining to be interviewed about his interior. He just started letting a camera see a character who has one.
 
-What the performance is _not_ is sudden. Ford has been married to Calista Flockhart since 2010 — they've been together since 2002, raising her son Liam, whom Ford later adopted. Before Flockhart, he was married for 17 years to Melissa Mathison, the screenwriter of *E.T.* and *Kundun*, who had two children with him before the marriage ended in 2004. Mathison died in 2015. Of his current marriage he has said, with a straightforwardness he never uses about himself: _"She's brought a child back into my home. It's a wonderful opportunity to be part of a child's growing up, which is always an endless springtime."_ None of this is in his interviews because he does not talk about it. But it is the private foundation underneath the public bloom. The husband, the father of four, the stepfather-turned-father — that man has been there for decades. *Shrinking* just lets the camera inside the same house.
+What the performance is _not_ is sudden. Ford has been married to Calista Flockhart since 2010 (they've been together since 2002, raising her son Liam, whom Ford later adopted). Before Flockhart, he was married for 17 years to Melissa Mathison, the screenwriter of *E.T.* and *Kundun*, who had two children with him before the marriage ended in 2004. Mathison died in 2015. Of his current marriage he has said, with a straightforwardness he never uses about himself: _"She's brought a child back into my home. It's a wonderful opportunity to be part of a child's growing up, which is always an endless springtime."_ None of this shows up in his interviews because he doesn't talk about it. But it's the private foundation underneath the public bloom. The husband, the father of four, the stepfather-turned-father has been there for decades. *Shrinking* just lets the camera inside the same house.
 
 The late bloom, for a 9, is not the bloom you expect. It doesn't look like revelation. It looks like this: the man finally agrees to build a house where the rooms have windows.
 
@@ -248,11 +248,11 @@ James Mangold, who directed *Indiana Jones and the Dial of Destiny* in 2023, sai
 
 "Harrison is not unlike Indy in the sense he's carrying with him the scars of all the films."
 
-Mangold meant it about the character. It is more true about the man. Every Ford performance is cumulative. The reluctance is the same reluctance. The charm is the same charm. The _get me out of this scene_ in his eyes is the same look you can find in a 1977 still from Mos Eisley and a 2024 still from *Shrinking*.
+Mangold meant it about the character. It's more true about the man. Every Ford performance is cumulative. The same reluctance, the same charm, the same _get me out of this scene_ in his eyes runs from a 1977 still in Mos Eisley to a 2024 still in *Shrinking*.
 
-What you see in a Harrison Ford performance is a man who decided, very young, that the work was safer than the self. So he built a career in which he could disappear into other people's sentences. He picked up carpentry so he could disappear into lumber when the sentences dried up. He picked up flying so he could disappear into weather when the ground got loud. And at 83, grudgingly, he finally lets a camera catch him looking at another actor like he loves him.
+What you see in a Harrison Ford performance is a man who decided, very young, that the work was safer than the self. So he built a career where he could disappear into other people's sentences. Carpentry let him disappear into lumber when the sentences dried up. Flying let him disappear into weather when the ground got loud. And at 83, grudgingly, he finally lets a camera catch him looking at another actor like he loves him.
 
-He has been hired to build a house. He has been building it since 1965 — and the house, it turns out, is him.
+He has been hired to build a house. He has been building it since 1965, and the house, it turns out, is him.
 
 <!-- SOURCES (research used for this draft)
 

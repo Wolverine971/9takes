@@ -110,16 +110,16 @@ She told her therapist about it. The therapist called it dissociation. Taylor ha
 
 This is the woman America was about to fall in love with on _The Bachelorette_.
 
-Then ABC saw a 2023 video of her attacking her ex-boyfriend with a metal barstool while one of her children was in the room — and she wasn't.
+Then ABC saw a 2023 video of her attacking her ex-boyfriend with a metal barstool while one of her children was in the room, and she wasn't.
 
 <details>
 <summary class="accordion">TL;DR: Why Taylor Frankie Paul is an Enneagram Type 7w8</summary>
 <div class="panel">
 <ul>
-<li><b>Core type:</b> Type 7, the Enthusiast — wired to keep moving, stay ahead of feelings, and outrun pain with novelty.</li>
-<li><b>Wing:</b> 7w8, the Challenger wing. When motion isn't enough, the 8 comes out — confrontation, barstools, "tell them everything first."</li>
+<li><b>Core type:</b> Type 7, the Enthusiast: wired to keep moving, stay ahead of feelings, and outrun pain with novelty.</li>
+<li><b>Wing:</b> 7w8, the Challenger wing. When motion isn't enough, the 8 comes out: confrontation, barstools, "tell them everything first."</li>
 <li><b>Signature pattern:</b> Detonation as escape. A pure 7 spins pain into a charming anecdote. Taylor detonates it on TikTok Live.</li>
-<li><b>Stress arrow:</b> Integration to Type 1 under stress — self-punishing ("I had no tools"), rigid, critical of the self she just outran.</li>
+<li><b>Stress arrow:</b> Disintegration to Type 1 under stress: self-punishing ("I had no tools"), rigid, critical of the self she just outran.</li>
 <li><b>What the Enneagram explains:</b> Why she keeps creating the scandal and then narrating it. She isn't bad at keeping secrets. She can't survive them.</li>
 </ul>
 </div>
@@ -129,23 +129,23 @@ Then ABC saw a 2023 video of her attacking her ex-boyfriend with a metal barstoo
 
 ### Taylor Frankie Paul is an Enneagram Type 7w8
 
-[Type 7s](/enneagram-corner/enneagram-type-7) are the Enthusiasts. They keep options open. They stay ahead of feelings. They move before pain can catch them. Most celebrity Sevens channel this through comedy, content, or constant reinvention — Kevin Hart, Doja Cat, [Alex Cooper](/personality-analysis/alex-cooper), [Brittany Broski](/personality-analysis/brittany-broski). Taylor Frankie Paul channels it through confession.
+[Type 7s](/enneagram-corner/enneagram-type-7) are the Enthusiasts. They keep options open. They stay ahead of feelings. They move before pain can catch them. Most celebrity Sevens channel this through comedy, content, or constant reinvention: Kevin Hart, Doja Cat, [Alex Cooper](/personality-analysis/alex-cooper), [Brittany Broski](/personality-analysis/brittany-broski). Taylor Frankie Paul channels it through confession.
 
-When the pressure builds, she doesn't run from the story. She tells it. Loudly. On livestream. In a voice that sometimes shakes and sometimes doesn't. The confession itself becomes the exit.
+When the pressure builds, she doesn't run from the story. She tells it, loudly, on livestream, in a voice that sometimes shakes and sometimes doesn't. The confession itself becomes the exit.
 
-The 8-wing sharpens the edge. A pure Seven would spin the mess into a charming anecdote. Taylor detonates. The May 2022 livestream. The Viall Files candor about the emotional affair. The arrest footage. The barstool. When a Seven can't keep moving, the 8 wing doesn't get quieter — it gets physical.
+The 8-wing sharpens the edge. A pure Seven would spin the mess into a charming anecdote. Taylor detonates. The May 2022 livestream. The Viall Files candor about the emotional affair. The arrest footage. The barstool. When a Seven can't keep moving, the 8 wing doesn't get quieter; it gets physical.
 
 ---
 
 ## The TikTok Live That Ended a Marriage, a Friend Group, and a Faith
 
-In May 2022, Taylor Frankie Paul logged onto TikTok Live and told her followers that the "MomTok" influencer group — a tight circle of Mormon mothers who had built audiences together in Utah — had been "soft swinging." Her definition, delivered on-camera: "When you do other things but you don't go all the way." Husbands were present. The agreement was that nobody crossed the line.
+In May 2022, Taylor Frankie Paul logged onto TikTok Live and told her followers that the "MomTok" influencer group, a tight circle of Mormon mothers who had built audiences together in Utah, had been "soft swinging." Her definition, delivered on-camera: "When you do other things but you don't go all the way." Husbands were present. The agreement was that nobody crossed the line.
 
-The core swap, as she described it, paired Taylor and her husband Tate Paul with another MomTok couple, Miranda and Chase McWhorter. Tate wasn't a blindsided bystander — he had agreed to the rules. What Taylor admitted on the livestream was that she had broken them. She had gone further, privately, with one of the men. She didn't name him. Reporting has long pointed to Chase.
+The core swap, as she described it, paired Taylor and her husband Tate Paul with another MomTok couple, Miranda and Chase McWhorter. Tate wasn't a blindsided bystander; he had agreed to the rules. What Taylor admitted on the livestream was that she had broken them. She had gone further, privately, with one of the men. She didn't name him. Reporting has long pointed to Chase.
 
-She blew up her marriage, her friend group, and her community's image of itself. In real time. At her peak.
+She blew up her marriage, her friend group, and her community's image of itself, in real time, at her peak.
 
-This is the Seven pattern sharpened to a point. A Type 7 under pressure doesn't sit with the hot feeling. The Seven _moves_. And when there is nowhere physical left to move — when the wound is your own marriage, your own best friends, your own religion — the only movement left is to expose it. To put it in the air. To make the secret someone else's problem to react to.
+This is the Seven pattern sharpened to a point. A Type 7 under pressure doesn't sit with the hot feeling. The Seven _moves_. And when there is nowhere physical left to move, when the wound is your own marriage, your own best friends, your own religion, the only movement left is to expose it. To put it in the air. To make the secret someone else's problem to react to.
 
 Taylor would later tell Nick Viall on _The Viall Files_ that "the divorce is not like, all because of this huge blow-up. It was more 'cause I feel like we had a lot of other issues, and then this was the tip of the iceberg." The iceberg was the private pain. The tip was what she chose to make public.
 
@@ -155,33 +155,33 @@ Her follower count quadrupled in days. Within a year, the scandal had a Hulu pro
 
 ## Why Taylor Frankie Paul Got Married in the Mormon Temple
 
-Taylor was raised Mormon in Pueblo, Colorado. She moved to Utah at 16 with her mother Liann and her stepfather Jeremy. She describes herself as a "wild child" — a phrase she returns to often, always a little fondly, like a detail about someone else.
+Taylor was raised Mormon in Pueblo, Colorado. She moved to Utah at 16 with her mother Liann and her stepfather Jeremy. She describes herself as a "wild child," a phrase she returns to often, always a little fondly, like a detail about someone else.
 
-She married Tate Paul in the Mormon temple in November 2017, already pregnant with their daughter Indy (born August 2017). A son, Ocean, arrived in June 2020. On podcasts she has described the timing of the wedding as the product of pressure — from her mother, from the Church, from a community that treated premarital sex as a problem with exactly one solution.
+She married Tate Paul in the Mormon temple in November 2017, already pregnant with their daughter Indy (born August 2017). A son, Ocean, arrived in June 2020. On podcasts she has described the timing of the wedding as the product of pressure: from her mother, from the Church, from a community that treated premarital sex as a problem with exactly one solution.
 
-She got married. She had a baby. She had another. She moved into a Utah subdivision. She had done the thing you do. The restlessness, the part of her that had been called "wild," didn't go anywhere. It just ran out of places to put itself.
+She got married, had a baby, had another, and moved into a Utah subdivision. She had done the thing you do. The restlessness, the part of her that had been called "wild," didn't go anywhere. It just ran out of places to put itself.
 
-When she started a TikTok account in 2020, inviting other Mormon moms to dance and cut to trends with her, the thing everyone noticed first was how much energy she had. Viewers noticed something else, too — what _Marie Claire_ would later call "chaos, candor, and charisma," a brazen on-camera voice that could turn a Sunday into a scene. She had a lot of energy because she had been storing it.
+When she started a TikTok account in 2020, inviting other Mormon moms to dance and cut to trends with her, the thing everyone noticed first was how much energy she had. Viewers noticed something else, too: what _Marie Claire_ would later call "chaos, candor, and charisma," a brazen on-camera voice that could turn a Sunday into a scene. She had a lot of energy because she had been storing it.
 
 ## How Taylor Frankie Paul Turned a Scandal Into a Hulu Franchise
 
 Most celebrities who get caught in a public scandal spend years trying to out-run it. Taylor Frankie Paul monetized hers in under two.
 
-MomTok, the group she had built, became the template for _The Secret Lives of Mormon Wives_, which premiered on Hulu in September 2024. The opening episode of season one reconstructs her 2023 arrest. The show became one of Hulu's most talked-about reality debuts of the year. By season three, Taylor was its central figure and, along with the rest of the main cast, had been elevated to executive producer for season four. By 2025, she had been named the lead of _The Bachelorette_ — the first woman ever picked for that role who hadn't come through the franchise, with compensation _The Hollywood Reporter_ put in the low-to-mid six figures.
+MomTok, the group she had built, became the template for _The Secret Lives of Mormon Wives_, which premiered on Hulu in September 2024. The opening episode of season one reconstructs her 2023 arrest. The show became one of Hulu's most talked-about reality debuts of the year. By season three, Taylor was its central figure and, along with the rest of the main cast, had been elevated to executive producer for season four. By 2025, she had been named the lead of _The Bachelorette_, the first woman ever picked for that role who hadn't come through the franchise, with compensation _The Hollywood Reporter_ put in the low-to-mid six figures.
 
 Nick Viall, the former Bachelor-turned-podcaster who floated her name to ABC, described her as "everything that makes a great Bachelorette… smart, articulate, beautiful, vulnerable, and honest." Her closest on-show ally, Whitney Leavitt, told Entertainment Tonight: "She's gonna crush it." The word that kept coming back in network conversations was _story_. She had one. It was ready.
 
-That is the Seven playbook — not recover from the rupture, move into it. [Mike Majlak](/personality-analysis/mike-majlak) did it with opioid addiction. [Theo Von](/personality-analysis/theo-von) did it with cocaine. Brittany Broski did it with getting fired. Taylor did it with the most publicly detonated marriage in Mormon internet history, and she did it without ever leaving Utah.
+That is the Seven playbook: don't recover from the rupture, move into it. Taylor did it with the most publicly detonated marriage in Mormon internet history, and she did it without ever leaving Utah.
 
 ## The Barstool, the Plea, and Three Pregnancies in Ten Months
 
-The most revealing Taylor Frankie Paul moments are not the public ones. They are the small, specific ones where the engine shows through.
+The most revealing Taylor Frankie Paul moments aren't the public ones. They're the small, specific ones where the engine shows through.
 
-**The barstool.** In February 2023, during a fight with her then-boyfriend Dakota Mortensen, she threw metal barstools and a wooden playset at him. One of her children, from her marriage to Tate, was in the room. The child got hit. She pleaded guilty to felony aggravated assault in August 2023 — a plea held in abeyance for three years, contingent on a substance-abuse evaluation, a domestic-violence evaluation, and clean behavior. The 8-wing, visible. The restraint channel, gone.
+**The barstool.** In February 2023, during a fight with her then-boyfriend Dakota Mortensen, she threw metal barstools and a wooden playset at him. One of her children, from her marriage to Tate, was in the room. The child got hit. She pleaded guilty to felony aggravated assault in August 2023, a plea held in abeyance for three years, contingent on a substance-abuse evaluation, a domestic-violence evaluation, and clean behavior. The 8-wing, visible. The restraint channel, gone.
 
-**Three pregnancies in ten months.** Her therapist told her, after a round of psychological testing, that her hormones were "probably going crazy" — an ectopic, a chemical loss, and the successful pregnancy with Dakota that became her son Ever True, all inside about ten months. Ever was born March 19, 2024. The therapist also flagged bipolar symptoms in her results. Taylor's own comment on the testing: "Bipolar activates in the 20s, and this year probably activated mine."
+**Three pregnancies in ten months.** Her therapist told her, after a round of psychological testing, that her hormones were "probably going crazy": an ectopic, a chemical loss, and the successful pregnancy with Dakota that became her son Ever True, all inside about ten months. Ever was born March 19, 2024. The therapist also flagged bipolar symptoms in her results. Taylor's own comment on the testing: "Bipolar activates in the 20s, and this year probably activated mine."
 
-Lay these two moments next to each other — the arrest and the pregnancies, ten months apart — and the pattern stops being about scandal or virality. It's about velocity. A Seven running out of ways to move, and the body finally registering a bill.
+Lay these two moments next to each other (the arrest and the pregnancies, ten months apart) and the pattern stops being about scandal or virality. It's about velocity. A Seven running out of ways to move, and the body finally registering a bill.
 
 <p class="inner-thought">Of course I'm moving this fast. Slowing down is the part I can't survive.</p>
 
@@ -191,27 +191,27 @@ On _Call Her Daddy_ in September 2025, host Alex Cooper played the 2023 arrest f
 
 She started crying. "In that moment that we see on screen, I see a lot of pain," she said. "And I didn't have any tools at that time, so I was, like, very lost."
 
-That is the Seven disintegrating to Type 1 — the moralizing, self-punishing, perfectionist line. A healthy Seven is curious and buoyant. A stressed Seven becomes a harsh internal judge. The movement stops, the stimulation stops, and the voice that gets loud is the one that says: _you failed the assignment._ "No tools." "Very lost." "I wanna say this was even worse than my 2022" — the TikTok confession she posted in December 2024, calling that year the worst of her life, _worse than_ the year she detonated her own marriage.
+That's the Seven disintegrating to Type 1: the moralizing, self-punishing, perfectionist line. A healthy Seven is curious and buoyant. A stressed Seven becomes a harsh internal judge. The movement stops, the stimulation stops, and the voice that gets loud is the one that says: _you failed the assignment._ "No tools." "Very lost." "I wanna say this was even worse than my 2022" was the TikTok confession she posted in December 2024, calling that year the worst of her life, _worse than_ the year she blew up her own marriage.
 
 The 7→1 arrow is why her public reflections land the way they do. When she stops moving, she doesn't soften. She prosecutes herself. The same impulse that made her go live on TikTok at one in the morning to confess in May 2022 is the impulse that will not let her leave the story alone in 2025. Confess, prosecute, confess again. The loop is the point.
 
 ## Why ABC Canceled Taylor Frankie Paul's Bachelorette
 
-On March 19, 2026 — two days before her season was scheduled to premiere — TMZ published a clean, unedited version of the 2023 arrest video. The barstool. The child in the room. The adult behavior plainly visible, without the softening that a pleasantly-lit reality show edit can provide.
+On March 19, 2026, two days before her season was scheduled to premiere, TMZ published a clean, unedited version of the 2023 arrest video. The barstool. The child in the room. The adult behavior plainly visible, without the softening that a pleasantly-lit reality show edit can provide.
 
 ABC scrapped the season that day. The premiere event was canceled. "In light of the newly released video just surfaced today," Disney's statement read, "we have made the decision to not move forward with the new season of _The Bachelorette_ at this time, and our focus is on supporting the family."
 
-Nick Viall, the person who had argued hardest for her inside the network — "It was literally my idea three months ago. I gave them the idea" — changed his tone on his podcast after the cancellation: "very sad… very dark… a terrible situation for everyone involved."
+Nick Viall, the person who had argued hardest for her inside the network ("It was literally my idea three months ago. I gave them the idea"), changed his tone on his podcast after the cancellation: "very sad… very dark… a terrible situation for everyone involved."
 
-The same day the video dropped, Dakota Mortensen — now the father of her youngest son, Ever True — filed for a protective order, alleging that Taylor had choked and struck him during a separate incident in late February 2026. A Utah court granted him temporary sole custody of Ever through April 30. Her ex-husband Tate Paul, the groom from the 2017 temple wedding and father of Indy and Ocean, re-shared a clip titled _"Taylor Frankie Paul downplaying her 2023 arrest for 1 minute 31 seconds."_ By early April, the court had put supervised visitation in place for Indy and Ocean as well. The Salt Lake County DA, reviewing the leaked footage, declined to file new charges tied to the 2023 incident.
+The same day the video dropped, Dakota Mortensen, now the father of her youngest son, Ever True, filed for a protective order, alleging that Taylor had choked and struck him during a separate incident in late February 2026. A Utah court granted him temporary sole custody of Ever through April 30. Her ex-husband Tate Paul, the groom from the 2017 temple wedding and father of Indy and Ocean, re-shared a clip titled _"Taylor Frankie Paul downplaying her 2023 arrest for 1 minute 31 seconds."_ By early April, the court had put supervised visitation in place for Indy and Ocean as well. The Salt Lake County DA, reviewing the leaked footage, declined to file new charges tied to the 2023 incident.
 
-On the Hulu side, production on _Secret Lives of Mormon Wives_ paused. When it resumed in April 2026, Taylor was reportedly not on the call sheet — though she disputed that in an Instagram comment on April 22: _"Interesting, that's not the call I got."_
+On the Hulu side, production on _Secret Lives of Mormon Wives_ paused. When it resumed in April 2026, Taylor was reportedly not on the call sheet, though she disputed that in an Instagram comment on April 22: _"Interesting, that's not the call I got."_
 
 The reinvention was only as durable as the attention holding it up. On March 19, the same camera that had built the chapter read it differently, and the escape route closed. As of this writing, it has not reopened.
 
 ## The 40 Days She Called Hell on Earth
 
-On Easter Sunday 2026 — seventeen days after ABC pulled her season — Taylor posted an Instagram caption that began: _"The last 40 days felt like hell on earth. Through every panic attack I prayed for strength as I could feel my body breaking down and out from the distress of it all."_ The same caption, a few lines later, told her followers something else: _"Born and raised Mormon (lds) and I'll always have love and respect towards it,"_ adding that _"it's time to detach myself from it"_ — while keeping her belief in "Christ, God, the bible, the divine."
+On Easter Sunday 2026, seventeen days after ABC pulled her season, Taylor posted an Instagram caption that began: _"The last 40 days felt like hell on earth. Through every panic attack I prayed for strength as I could feel my body breaking down and out from the distress of it all."_ The same caption, a few lines later, told her followers something else: _"Born and raised Mormon (lds) and I'll always have love and respect towards it,"_ adding that _"it's time to detach myself from it,"_ while keeping her belief in "Christ, God, the bible, the divine."
 
 Forty days. She was raised Mormon. She knows what the number means.
 
@@ -219,7 +219,7 @@ She was 31. She had left the container she was placed in at 21.
 
 She has been detaching, out loud, for four years. The TikTok live. The Viall Files cry. The Call Her Daddy cry. The "hell on earth" post. Each one a little more stripped-down than the last.
 
-Demi Engemann, her season-long antagonist on _Secret Lives of Mormon Wives_ — the castmate who spent a full season calling Taylor "disgusting" on camera — was one of the people Taylor later thanked by name: _"You and Jessi, I'll never forget, didn't leave my side at my lowest."_ The Seven has a gift for this — converting enemies into witnesses — because the alternative is being alone with yourself, and alone with yourself is the place she has been driving away from since she was 16.
+Demi Engemann, her season-long antagonist on _Secret Lives of Mormon Wives_ (the castmate who spent a full season calling Taylor "disgusting" on camera) was one of the people Taylor later thanked by name: _"You and Jessi, I'll never forget, didn't leave my side at my lowest."_ The Seven has a gift for converting enemies into witnesses, because the alternative is being alone with yourself, and alone with yourself is the place she has been driving away from since she was 16.
 
 On April 23, 2026, she deactivated Instagram and TikTok. The exact platforms her career was built on. A source told _People_ she was taking a mental-health break. The woman whose engine had always been narration had, finally, stopped narrating.
 

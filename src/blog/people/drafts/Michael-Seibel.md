@@ -59,10 +59,10 @@ citations:
   - 'https://www.michaelseibel.com/'
 faqs:
   - question: "What is Michael Seibel's personality type?"
-    answer: 'Michael Seibel is an Enneagram Type 1 with a 2 wing — The Advocate. His anger channeled into standards, his obsession with founder honesty, his systematic self-improvement, and his principled push to fund underrepresented founders all point to the Reformer archetype operating at the level of institutions.'
+    answer: 'Michael Seibel is an Enneagram Type 1 with a 2 wing, The Advocate. His anger channeled into standards, his obsession with founder honesty, his systematic self-improvement, and his principled push to fund underrepresented founders all point to the Reformer archetype operating at the level of institutions.'
     anchor: 'what-is-michael-seibels-personality-type'
   - question: 'How did Michael Seibel go from Brooklyn to the suburbs?'
-    answer: 'Born in 1982 in Brooklyn to young working parents, Seibel was a slow reader who adjusted late to suburban New Jersey. Placed in the regular academic track, he fought his way into honors classes and outperformed students tracked ahead of him — the first appearance of the underdog-to-reformer pattern.'
+    answer: 'Born in 1982 in Brooklyn to young working parents, Seibel was a slow reader who adjusted late to suburban New Jersey. Placed in the regular academic track, he fought his way into honors classes and outperformed students tracked ahead of him. It was the first appearance of the underdog-to-reformer pattern.'
     anchor: 'brooklyn-suburbia-and-the-slow-reader'
   - question: 'How did Michael Seibel get from Yale to Justin.tv?'
     answer: "Seibel majored in political science at Yale, joined the Black Student Alliance, and met future cofounder Justin Kan. After graduating in 2005 he worked as finance director on Kweisi Mfume's U.S. Senate campaign; when Mfume lost the primary, Seibel joined Kan and Emmett Shear driving cross-country to build Justin.tv."
@@ -184,7 +184,7 @@ The evidence for Type 1 runs deeper than the career arc.
 
 Ones carry anger as their core emotion. Not explosive rage, but a constant low-grade frustration that things are not the way they should be. Watch how Seibel describes founders who succeed: "The beautiful thing about founders is their ability to lie to themselves, and the number one thing they lie about is whether they have product-market fit. The great founders, limit the amount they lie." That formulation, *limit the amount they lie*, is the inner critic of a Type 1 talking. The honest accounting is the work; the comfort is the temptation.
 
-The clearest behavioral evidence is the weight loss. In his late thirties, Seibel was overweight. Justin Kan, who had lost weight first, told him about a method built on two-minute habits — start so small that the action is impossible to skip. Two minutes of stretching. Two minutes of walking. The discipline is in the never-not-doing-it, not in the quantity. Seibel adopted the method. He lost 50 pounds in under a year and kept it off.
+The clearest behavioral evidence is the weight loss. In his late thirties, Seibel was overweight. Justin Kan, who had lost weight first, told him about a method built on two-minute habits: start so small that the action is impossible to skip. Two minutes of stretching. Two minutes of walking. The discipline is in the never-not-doing-it, not in the quantity. Seibel adopted the method. He lost 50 pounds in under a year and kept it off.
 
 There is no triumphant origin story to that anecdote. He didn't post a transformation video. He identified a problem, found a system someone he trusted had already validated, and executed it without drama until the problem was gone. That same algorithm (*find the broken thing, install the system, run the system patiently until the brokenness has been replaced*) is what he applied to Justin.tv's product, to YC's selection process, to his own career arc.
 
@@ -200,17 +200,17 @@ When Seibel became YC's first Black partner, the startup ecosystem looked nothin
 
 "A lot of the talk about the disadvantages of being an underrepresented minority in the startup world is counterproductive," he said. "What I don't see it doing is inspiring people to achieve more. What I see it doing is scaring people into not trying."
 
-That position has drawn fire from the explicit-naming-the-barriers tradition of anti-racist work. The Ibram Kendi argument — that race-neutrality is itself a structural choice that preserves existing inequity — would call Seibel's framing a colorblind dodge that lets the institution off the hook for the harder work of dismantling its filters. Backstage Capital's Arlan Hamilton has spent a career making the opposite case Seibel makes: that overstating the barriers is what activates the funders, not what scares the founders.
+That position has drawn fire from the explicit-naming-the-barriers tradition of anti-racist work. The Ibram Kendi argument, that race-neutrality is itself a structural choice that preserves existing inequity, would call Seibel's framing a colorblind dodge that lets the institution off the hook for the harder work of dismantling its filters. Backstage Capital's Arlan Hamilton has spent a career making the opposite case Seibel makes: that overstating the barriers is what activates the funders, not what scares the founders.
 
 Seibel has not engaged either critique directly. His answer is operational rather than discursive. He reviewed over 17,000 applications. He conducted more than 3,100 interviews. He did 6,500 office hours with 1,745 companies across 21 batches. The YC companies he worked with are worth a combined $192 billion.
 
 "You change the stats by funding people."
 
-The Type 1 reading: he treats the rhetorical war as a distraction from the actual production function. Whether you describe the barrier as systemic or psychological, the throughput needed to change the demographic profile of who gets funded is the same — read more applications, run more interviews, ask the questions that surface the underdog who got tracked into the regular classes. The argument is about how to talk. The work is about how to count.
+The Type 1 reading: he treats the rhetorical war as a distraction from the actual production function. Whether you describe the barrier as systemic or psychological, the throughput needed to change the demographic profile of who gets funded is the same. Read more applications, run more interviews, ask the questions that surface the underdog who got tracked into the regular classes. The argument is about how to talk. The work is about how to count.
 
 "The number one reason why people don't apply to YC is because they don't think they can get in," he said. "Do I think things have changed a lot since I started in this world in 2006? No. But this world in 2006 gave someone who looks like me a chance, and I think it can give everyone a chance, too, if you actually demand it."
 
-That word — demand. Not hope. Not ask. Demand.
+Note the word he chose. Demand. Not hope, not ask.
 
 In June 2020, when Alexis Ohanian stepped down from Reddit's board and urged the company to name a Black replacement, Reddit chose Seibel. He became the first Black board member in Reddit's history. He served through the company's 2023 API blow-up, the moderator strike, and the 2024 IPO, a board tenure that overlapped the most operationally chaotic stretch in Reddit's history. He has spoken almost nothing about it publicly. The board work, like everything else, was something he did, not something he narrated.
 
@@ -228,7 +228,7 @@ In 2025, Seibel posted what reads less like startup advice and more like the dia
 
 And a bonus: "Your reputation is not what people say to your face — it's what people say behind your back."
 
-Three of the five are about lying. Two are warnings about the way success deforms a person's relationship with the truth. None of them mentions a product, a market, a fundraising round, or a metric. They are political lessons disguised as startup lessons — written by a man whose original plan was always to use them in politics.
+Three of the five are about lying. Two are warnings about the way success deforms a person's relationship with the truth. None of them mentions a product, a market, a fundraising round, or a metric. They are political lessons disguised as startup lessons, written by a man whose original plan was always to use them in politics.
 
 When asked who his heroes are, Seibel gave what he called "a bad answer."
 
@@ -262,19 +262,19 @@ Back in 2017, when an interviewer asked directly about running for office, Seibe
 
 ## The Reformer Returns
 
-The accomplishment that defines Michael Seibel in the public record — co-founding a billion-dollar company, running the world's most prestigious startup accelerator — was never the destination. The 22-year-old who wrote the plan was clear about that. Twitch and YC were the apprenticeship. The job they trained him for is the one he is now, finally, walking into.
+The accomplishment that defines Michael Seibel in the public record (co-founding a billion-dollar company, running the world's most prestigious startup accelerator) was never the destination. The 22-year-old who wrote the plan was clear about that. Twitch and YC were the apprenticeship. The job they trained him for is the one he is now, finally, walking into.
 
 "There is a certain type of person who only works at their peak capacity when there is no predictable path to follow, the odds of success are low, and they have to take personal responsibility for failure," he wrote about founders. He was describing himself, on his way out the door.
 
 He also wrote this, in an essay about career planning: "It takes time to be good at each role. If it takes 5-10 years to truly get good at something and you spend 10 years discovering what you want to get good at, it's going to take a long time for you to feel like a highly skilled productive person."
 
-He never spent the 10 years discovering. He knew at 22. He spent the 20 years becoming the person capable of doing what the 22-year-old had only imagined — a slow reader from Brooklyn who out-tested the honors track, got kicked out of Yale and came back, ran a Senate campaign that lost in the primary, built a company worth nearly a billion dollars, and then sat in the same chair for 12 years telling thousands of strangers the truth nobody else was willing to.
+He never spent the 10 years discovering. He knew at 22. He spent the 20 years becoming the person capable of doing what the 22-year-old had only imagined: a slow reader from Brooklyn who out-tested the honors track, got kicked out of Yale and came back, ran a Senate campaign that lost in the primary, built a company worth nearly a billion dollars, and then sat in the same chair for 12 years telling thousands of strangers the truth nobody else was willing to.
 
 "When those people just emailed me a question, I would just answer," he said about the early Airbnb founders. "Don't raise the stakes of a new relationship. Just ask for help."
 
 All those years of reading applications, he wasn't looking for the best pitch. He was looking for the most honest one. The most honest pitch he ever read was the one he wrote himself at 22.
 
-In 2026, he is in Washington. Not on a ballot. Not in a cabinet office. Doing what he has always done before he does the visible thing — meeting people, reading their work, asking what they are afraid of, telling them the answer is harder than they hoped. The arena changed. The method did not. The slow reader is finally inside the system he has been quietly preparing to reform since the year George W. Bush was first elected. He has 20 years of cards left to play. He is still budgeting them carefully.
+In 2026, he is in Washington. Not on a ballot, not in a cabinet office. He's doing what he has always done before the visible thing: meeting people, reading their work, asking what they are afraid of, telling them the answer is harder than they hoped. The arena changed; the method didn't. The slow reader is finally inside the system he has been quietly preparing to reform since the year George W. Bush was first elected, and he has 20 years of cards left to play. He is still budgeting them carefully.
 
 <!-- ============================================================
 POST-FIX AUDIT — 2026-04-30 (Claude cold read)

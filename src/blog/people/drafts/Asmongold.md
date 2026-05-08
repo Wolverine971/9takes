@@ -4,9 +4,9 @@ meta_title: 'Why Asmongold Lived Like an Animal for 13 Years'
 persona_title: "Streaming's Feral Recluse"
 description: 'Asmongold lived like an animal for 13 years while becoming one of the biggest voices on Twitch. Inside the Type 5 psychology behind the contradiction.'
 author: 'DJ Wayne'
-date: '2026-05-06'
+date: '2026-05-08'
 loc: 'https://9takes.com/personality-analysis/Asmongold'
-lastmod: '2026-05-06'
+lastmod: '2026-05-08'
 changefreq: 'monthly'
 priority: '0.6'
 published: true

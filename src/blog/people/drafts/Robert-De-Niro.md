@@ -75,7 +75,7 @@ Note: original constraint was ≤1 non-diagnosis type-theory paragraph. Expanded
 > "Yeah, part of me is shy, I guess."
 > — Robert De Niro, CBS News
 
-<p class="firstLetter">In the first grade, in Little Italy, Robert De Niro carried a hamster in his coat pocket. It lived there most days because the boy who would grow up to play Travis Bickle, Vito Corleone, and Jake LaMotta could not yet speak to the children in his own classroom. The street kids called him Bobby Milk — so pale they named him after what he lacked.</p>
+<p class="firstLetter">In the first grade, in Little Italy, Robert De Niro carried a hamster in his coat pocket. It lived there most days because the boy who would grow up to play Travis Bickle, Vito Corleone, and Jake LaMotta could not yet speak to the children in his own classroom. The street kids called him Bobby Milk, so pale they named him after what he lacked.</p>
 
 Fifty years later he would own a drawer full of yellow legal pads and three-ring binders with every word of every character annotated in his own handwriting. And he would still struggle to give a single quotable answer to a journalist. GQ published profiles in 1991 and 2006 titled, respectively, _"15 Mumbling Minutes With Robert De Niro"_ and _"And Now, 972 Words From Robert De Niro."_
 
@@ -89,8 +89,8 @@ That is not a flaw. That is the whole engine. And once you see the shape of it, 
 <ul>
 <li><b>The Shy Boy Problem:</b> He learned early that his own voice was not welcome. He also learned that imitating John Wayne for his father made him seen. The adult career is that childhood strategy at scale.</li>
 <li><b>Self-Forgetting as Craft:</b> Method acting, for most actors, is a technique. For De Niro, it is a Type 9 operating system. He does not play Jake LaMotta. He vacates Robert De Niro for a while, and Jake moves in.</li>
-<li><b>The 8 Wing, Sheathed:</b> Nines with an 8 wing carry a low, buried force — and most of De Niro's best characters are men who finally, catastrophically, stop absorbing. The rage on screen is his. It is just never his in his own name.</li>
-<li><b>The Late-Life Yell:</b> When he finally started shouting at Donald Trump in 2016 and 2018, it was not a new personality. It was a Nine who had been pushed past the point where vanishing works anymore.</li>
+<li><b>The 8 Wing, Sheathed:</b> Nines with an 8 wing carry a low, buried force, and most of De Niro's best characters are men who finally, catastrophically, stop absorbing. The rage on screen is his. It is just never his in his own name.</li>
+<li><b>The Late-Life Yell:</b> When he finally started shouting at Donald Trump in 2016 and 2018, it wasn't a new personality. It was a Nine who had been pushed past the point where vanishing works anymore.</li>
 </ul>
 </div>
 </details>
@@ -99,49 +99,49 @@ That is not a flaw. That is the whole engine. And once you see the shape of it, 
 
 ### Robert De Niro is an Enneagram Type 9 (The Peacemaker)
 
-[Type 9](/enneagram-corner/enneagram-type-9) personalities run on a quiet, load-bearing belief: my presence is less of a problem if I take up less space. At their best, Nines are the calmest, steadiest, most genuinely receptive people in the room — the ones everyone else instinctively trusts. Under strain, they fall asleep to themselves. They narcotize into routines, into other people's agendas, into anything that lets them stop being the one who has to say what they want.
+[Type 9](/enneagram-corner/enneagram-type-9) personalities run on a quiet, load-bearing belief: my presence is less of a problem if I take up less space. At their best, Nines are the calmest, steadiest, most genuinely receptive people in the room, the ones everyone else instinctively trusts. Under strain, they fall asleep to themselves. They narcotize into routines, into other people's agendas, into anything that lets them stop being the one who has to say what they want.
 
 De Niro is a textbook public Nine. The mumble. The short answers. The refusal to play the publicity game. The decades-long creative marriage with Martin Scorsese and Joe Pesci. The laid-back body language that made Piers Morgan call him "the hardest star to interview." ([The List](https://www.thelist.com/))
 
 But Nines do not lack inner life. They just store it somewhere other than where the interviewer is looking.
 
-For most people, method acting is a technique: build a character through research, mimicry, preparation. For De Niro, the research _is_ the process of disappearing. He does not study Jake LaMotta the way a [Type 5](/enneagram-corner/enneagram-type-5) studies a subject — from a protected distance, for mastery. A Five preserves. A Nine loans itself out.
+For most people, method acting is a technique: build a character through research, mimicry, preparation. For De Niro, the research _is_ the process of disappearing. He doesn't study Jake LaMotta the way a [Type 5](/enneagram-corner/enneagram-type-5) studies a subject, from a protected distance, for mastery. A Five preserves. A Nine loans itself out.
 
 #### The 8 Wing Explains the On-Screen Force
 
-A Nine with a [Type 8](/enneagram-corner/enneagram-type-8) wing carries a buried physical force that almost never comes out in his own name. It does not disappear. It shows up through the thing the Nine is currently merged with. De Niro's best roles are almost all men who have absorbed too much and finally stop absorbing — LaMotta in the ring, Bickle with the mirror, Jimmy Conway at the payphone in _Goodfellas_, young Vito Corleone on the stairs. The 8 wing is not the character he plays. It is the voltage he loans them. The man himself is 5'9". On screen he reads like a six-foot enforcer. The voltage is not in the body.
+A Nine with a [Type 8](/enneagram-corner/enneagram-type-8) wing carries a buried physical force that almost never comes out in his own name. It doesn't disappear. It shows up through the thing the Nine is currently merged with. De Niro's best roles are almost all men who have absorbed too much and finally stop absorbing: LaMotta in the ring, Bickle with the mirror, Jimmy Conway at the payphone in _Goodfellas_, young Vito Corleone on the stairs. The 8 wing isn't the character he plays. It's the voltage he loans them. The man himself is 5'9". On screen he reads like a six-foot enforcer. The voltage isn't in the body.
 
 #### Why Not Type 5?
 
-Every De Niro typing debate eventually lands on Type 5 — because of the research, the privacy, the thousands of pages of annotated scripts. But look at what the research is _for_. A Five researches to protect and expand an inner world. De Niro researches to empty himself into a character. The notebooks are scaffolding for vanishing, not a library of a private self.
+Every De Niro typing debate eventually lands on Type 5, because of the research, the privacy, the thousands of pages of annotated scripts. But look at what the research is _for_. A Five researches to protect and expand an inner world. De Niro researches to empty himself into a character. The notebooks are scaffolding for vanishing, not a library of a private self.
 
 ## Bobby Milk: The Boy Who Learned to Disappear Sideways
 
-Robert De Niro was born in Manhattan on August 17, 1943, the only child of two abstract expressionist painters, Robert De Niro Sr. and Virginia Admiral — both students of Hans Hofmann in Provincetown. ([Wikipedia](https://en.wikipedia.org/wiki/Robert_De_Niro)) The couple lived in a Greenwich Village loft among Anaïs Nin, Henry Miller, Tennessee Williams. The boy was born into a room full of artists who had already decided what mattered.
+Robert De Niro was born in Manhattan on August 17, 1943, the only child of two abstract expressionist painters, Robert De Niro Sr. and Virginia Admiral, both students of Hans Hofmann in Provincetown. ([Wikipedia](https://en.wikipedia.org/wiki/Robert_De_Niro)) The couple lived in a Greenwich Village loft among Anaïs Nin, Henry Miller, Tennessee Williams. The boy was born into a room full of artists who had already decided what mattered.
 
-They split when he was two. His father had told his mother he was gay. In 1943, in that household, that was not an event anyone had language for.
+They split when he was two. His father had told his mother he was gay. In 1943, in that household, that wasn't an event anyone had language for.
 
-Virginia Admiral was not a footnote. Peggy Guggenheim collected her work. In 1942 she sold a painting to the Museum of Modern Art — two years before Jackson Pollock made his first sale to the same museum. ([Wikipedia](https://en.wikipedia.org/wiki/Virginia_Admiral)) After the split she raised De Niro mostly alone in the Village and Little Italy, running a typing service out of the apartment to pay rent while she painted. The mystique of the father — the gay man with the studio and the journals — has always overshadowed the mother who was actually in the room. Which is, on some level, the first thing a Nine learns: the loudest grief in the house is always somebody else's.
+Virginia Admiral wasn't a footnote. Peggy Guggenheim collected her work. In 1942 she sold a painting to the Museum of Modern Art, two years before Jackson Pollock made his first sale to the same museum. ([Wikipedia](https://en.wikipedia.org/wiki/Virginia_Admiral)) After the split she raised De Niro mostly alone in the Village and Little Italy, running a typing service out of the apartment to pay rent while she painted. The mystique of the father (the gay man with the studio and the journals) has always overshadowed the mother who was actually in the room. Which is, on some level, the first thing a Nine learns: the loudest grief in the house is always somebody else's.
 
-Little De Niro's father lived nearby. They went to the movies together, and afterward the boy imitated the leading men of the day — John Wayne, especially — for his father. ([Britannica](https://www.britannica.com/biography/Robert-De-Niro)) This is the detail the biographies tend to glide past. The shy boy could not make his own voice reach his own father. He could only make John Wayne's voice reach him.
+Little De Niro's father lived nearby. They went to the movies together, and afterward the boy imitated the leading men of the day, especially John Wayne, for his father. ([Britannica](https://www.britannica.com/biography/Robert-De-Niro)) This is the detail the biographies tend to glide past. The shy boy couldn't make his own voice reach his own father. He could only make John Wayne's voice reach him.
 
-That is how a Nine solves the problem of being seen. Not by standing up. By standing in.
+That's how a Nine solves the problem of being seen. Not by standing up, but by standing in.
 
-At school he was quiet to the point of being invisible. The hamster in the pocket was not a phase. It was a strategy — a living warm thing that did not require speech. He was being pulled in two directions by silence: the inherited, inherited-further silence of a family that did not get to say what it was, and the refusal to use his own voice when a borrowed one worked so much better.
+At school he was quiet to the point of being invisible. The hamster in the pocket wasn't a phase. It was a strategy, a living warm thing that didn't require speech. He was being pulled in two directions by silence: the inherited, inherited-further silence of a family that didn't get to say what it was, and the refusal to use his own voice when a borrowed one worked so much better.
 
 There is a thread here that runs straight through the next eighty years. The shy kid who imitates John Wayne for his father keeps imitating. The boy who can only be heard through someone else's voice grows up to be paid for it, very, very well. His own voice stays in the pocket where the hamster used to be.
 
 ## Why Robert De Niro Disappears Into Every Role
 
-For _Taxi Driver_, De Niro got a real New York City taxi license and drove 12-hour shifts for a month. He lost 35 pounds. In the downtime between fares, he listened to tape recordings of Arthur Bremer's diaries — Bremer being the man who shot George Wallace in 1972. ([Open Culture](https://www.openculture.com/))
+For _Taxi Driver_, De Niro got a real New York City taxi license and drove 12-hour shifts for a month. He lost 35 pounds. In the downtime between fares, he listened to tape recordings of Arthur Bremer's diaries (Bremer being the man who shot George Wallace in 1972). ([Open Culture](https://www.openculture.com/))
 
-For _Raging Bull_, he trained with Jake LaMotta for a year, fought three legitimate amateur bouts in Brooklyn — winning two — and then, when filming shifted to the older, heavier LaMotta, gained 60 pounds by eating his way through Italy and France. ([Far Out Magazine](https://faroutmagazine.co.uk/)) LaMotta himself mentored him. The whole Raging Bull transformation took about six years of his life.
+For _Raging Bull_, he trained with Jake LaMotta for a year, fought three legitimate amateur bouts in Brooklyn (winning two), and then, when filming shifted to the older, heavier LaMotta, gained 60 pounds by eating his way through Italy and France. ([Far Out Magazine](https://faroutmagazine.co.uk/)) LaMotta himself mentored him. The whole Raging Bull transformation took about six years of his life.
 
 For _The Untouchables_, he had a tailor reproduce Al Capone's exact underwear.
 
-For _The Godfather Part II_, he learned Sicilian dialects to play the young Vito Corleone. Almost the entire performance is in a language he did not previously speak. He won the Oscar for Best Supporting Actor for it in 1975 — the third-youngest winner in the category at that point. Six years later he won Best Actor for _Raging Bull_, playing a man destroyed by not knowing what to do with his own rage. ([Wikipedia](https://en.wikipedia.org/wiki/List_of_awards_and_nominations_received_by_Robert_De_Niro)) Two Oscars for two men who could not speak — one in any of De Niro's own languages, the other in any language at all. That is what America gave him its highest acting honor for: the art of going missing.
+For _The Godfather Part II_, he learned Sicilian dialects to play the young Vito Corleone. Almost the entire performance is in a language he didn't previously speak. He won the Oscar for Best Supporting Actor for it in 1975, the third-youngest winner in the category at that point. Six years later he won Best Actor for _Raging Bull_, playing a man destroyed by not knowing what to do with his own rage. ([Wikipedia](https://en.wikipedia.org/wiki/List_of_awards_and_nominations_received_by_Robert_De_Niro)) Two Oscars for two men who couldn't speak: one in any of De Niro's own languages, the other in any language at all. That's what America gave him its highest acting honor for: the art of going missing.
 
-These are the famous stories. What they share, underneath the spectacle, is the same mechanism the six-year-old with the hamster was already running — not studying a character from the outside, but emptying the inside until, when the director calls "action," the person in the frame is no longer Robert De Niro at all.
+These are the famous stories. What they share, underneath the spectacle, is the same mechanism the six-year-old with the hamster was already running. Not studying a character from the outside, but emptying the inside until, when the director calls "action," the person in the frame is no longer Robert De Niro at all.
 
 > "I always look at everything. The important thing is to think it all out. Sometimes I write down my ideas. The main thing is to put in the time — even if it's boring."
 > — Robert De Niro
@@ -154,7 +154,7 @@ He does not serve the writing. He vacates his own space so the writing can move 
 
 ### The Line That Was Not in the Script
 
-The most quoted line of his career was never on the page. Paul Schrader's _Taxi Driver_ script read, in full, for that scene: "Travis plays like a cowboy, pulls out his gun, talks to himself." ([Hollywood Reporter](https://www.hollywoodreporter.com/)) De Niro walked up to the mirror, remembered a moment at a Bruce Springsteen concert earlier that year — Springsteen deflecting a crowd chanting his name with "You talkin' to me?" — and improvised the scene that landed at number ten on the American Film Institute's all-time list of movie quotes.
+The most quoted line of his career was never on the page. Paul Schrader's _Taxi Driver_ script read, in full, for that scene: "Travis plays like a cowboy, pulls out his gun, talks to himself." ([Hollywood Reporter](https://www.hollywoodreporter.com/)) De Niro walked up to the mirror, remembered a moment at a Bruce Springsteen concert earlier that year (Springsteen deflecting a crowd chanting his name with "You talkin' to me?"), and improvised the scene that landed at number ten on the American Film Institute's all-time list of movie quotes.
 
 Read what that scene actually is. A lonely man finding his voice by pretending somebody else is in the room. A Nine cannot talk to himself. He can only talk to a reflection he has labeled _not me_. Bickle looks in the mirror and becomes a character who looks in the mirror and becomes a character. That infinite loop is the De Niro engine, captured in one take.
 
@@ -166,13 +166,13 @@ Two legends, one room, six minutes of film history. Pacino remembers what they s
 
 ## The Comedy Years, or What a Nine Does When He Falls Asleep on Purpose
 
-In 1999 he made _Analyze This_. In 2000 he made _Meet the Parents_, which became the highest-grossing live-action comedy of the year and launched a three-film Focker franchise that crossed $1.2 billion worldwide. ([Screen Rant](https://screenrant.com/robert-de-niro-meet-the-parents-genre-switch/)) Then: _Analyze That_, _Meet the Fockers_, _Little Fockers_, _New Year's Eve_, _Dirty Grandpa_, _The War with Grandpa_, _The Intern_. For a casual viewer under 40, this is the De Niro they actually know — the glowering father-in-law, the cranky grandpa, the lovable goon. Not LaMotta. Not Travis Bickle.
+In 1999 he made _Analyze This_. In 2000 he made _Meet the Parents_, which became the highest-grossing live-action comedy of the year and launched a three-film Focker franchise that crossed $1.2 billion worldwide. ([Screen Rant](https://screenrant.com/robert-de-niro-meet-the-parents-genre-switch/)) Then: _Analyze That_, _Meet the Fockers_, _Little Fockers_, _New Year's Eve_, _Dirty Grandpa_, _The War with Grandpa_, _The Intern_. For a casual viewer under 40, this is the De Niro they actually know: the glowering father-in-law, the cranky grandpa, the lovable goon. Not LaMotta, not Travis Bickle.
 
-The critics call it decline. The Enneagram calls it by a more useful word: _narcotization_. The Nine's drug of choice is not heroin. It is agreeableness. The Nine who cannot fight for what he wants will let the next call sheet arrive and merge with whatever is on it — the way he has merged with everything since first grade.
+The critics call it decline. The Enneagram calls it by a more useful word: _narcotization_. The Nine's drug of choice isn't heroin. It's agreeableness. The Nine who can't fight for what he wants will let the next call sheet arrive and merge with whatever is on it, the way he has merged with everything since first grade.
 
-_Dirty Grandpa_ is not the opposite of _Raging Bull_. It is the same mechanism on a worse script. LaMotta is a Nine merged with a great character. Dirty Grandpa is a Nine merged with whoever was willing to pay him to wear a speedo. The hands doing the work are identical. The person they were loaned to is not.
+_Dirty Grandpa_ isn't the opposite of _Raging Bull_. It's the same mechanism on a worse script. LaMotta is a Nine merged with a great character. Dirty Grandpa is a Nine merged with whoever was willing to pay him to wear a speedo. The hands doing the work are identical. The person they were loaned to is not.
 
-That is the shadow of every Nine career. If the signal coming in is strong, a Nine produces the performance of a lifetime. If the signal is weak, the Nine still produces — and nobody in the room knows the difference except the Nine, who has stopped being home to care.
+That's the shadow of every Nine career. If the signal coming in is strong, a Nine produces the performance of a lifetime. If the signal is weak, the Nine still produces, and nobody in the room knows the difference except the Nine, who has stopped being home to care.
 
 ## The Father's Studio Robert De Niro Keeps Exactly As It Was
 
@@ -197,11 +197,11 @@ The studio is the same move, in physical space. A room nobody can live in anymor
 
 In 2001, after the towers fell, lower Manhattan emptied out. Restaurants closed. The air smelled wrong for months. A lot of people who lived and worked downtown left and did not come back right away.
 
-De Niro and his producing partner Jane Rosenthal — who had spent the 90s building Tribeca Productions with him — decided that the thing the neighborhood needed was a film festival.
+De Niro and his producing partner Jane Rosenthal, who had spent the 90s building Tribeca Productions with him, decided that the thing the neighborhood needed was a film festival.
 
 They launched the Tribeca Film Festival in May 2002, seven months after the attacks. The first year drew roughly 150,000 attendees to an area most of the city had written off for that season. ([911 Memorial](https://www.911memorial.org/)) By 2009, Rosenthal, De Niro, and their co-founder Craig Hatkoff were on Barron's list of the world's top 25 philanthropists at number 14, specifically for the work of regenerating Tribeca. The festival has since generated over $1 billion in economic impact for New York City.
 
-That is what a Nine in integration looks like in real time — the quiet man finally building the room instead of letting the room decide for him. Not for image. For the people who need the room. The man who will not do his own press tour quietly turned one of the most wounded ZIP codes in America into a working cultural economy.
+That's what a Nine in integration looks like in real time: the quiet man finally building the room instead of letting the room decide for him. Not for image, but for the people who need the room. The man who won't do his own press tour quietly turned one of the most wounded ZIP codes in America into a working cultural economy.
 
 He did it in the same way he does everything. No speeches. No manifesto. Just: we will build a festival, and you will come downtown, and you will spend money in restaurants that are still trying to stay open, and in a few years nobody will remember that this block was on fire.
 
@@ -211,7 +211,7 @@ $1B+ in cumulative economic impact on New York City, generated by a film festiva
 
 ### The Empire Named After Someone Else
 
-The pattern predates the festival. In 1988, De Niro ate at a small Japanese restaurant in Beverly Hills, tasted Nobu Matsuhisa's cooking, and then spent four years convincing the chef to open a branch in New York. The first Nobu opened in Tribeca in 1994. ([CNN Business](https://www.cnn.com/2018/09/28/business/robert-de-niro-nobu)) Today there are roughly 60 Nobu restaurants and 45 Nobu hotels across six continents — a global luxury brand most Americans do not associate with him at all.
+The pattern predates the festival. In 1988, De Niro ate at a small Japanese restaurant in Beverly Hills, tasted Nobu Matsuhisa's cooking, and then spent four years convincing the chef to open a branch in New York. The first Nobu opened in Tribeca in 1994. ([CNN Business](https://www.cnn.com/2018/09/28/business/robert-de-niro-nobu)) Today there are roughly 60 Nobu restaurants and 45 Nobu hotels across six continents, a global luxury brand most Americans don't associate with him at all.
 
 That is the point. Matsuhisa is the star chef. De Niro is the silent partner who made sure somebody else's name stayed on the door. Paul Newman started a food company and put his own face on every label to donate the profits. De Niro built a hospitality empire his own fans cannot identify as his. One said what he was doing. The other made it possible and went back to bed.
 
@@ -223,9 +223,9 @@ The Radio City Music Hall audience gave him a standing ovation. The broadcast bl
 
 This is the moment most people think of as out of character. It was not.
 
-Under [extreme stress](/enneagram-corner/enneagram-types-in-stress), a Nine does not turn into a Type 8. The Nine collapses inward toward the anxious, reactive, defensively aggressive end of Type 6 — the version that cannot trust the ground under its own feet. The anger is not calm. It is rattled. It is a man swearing on live television because the normal channels have failed him and the threat has not gone away. Read the Trump-era De Niro that way and the pattern becomes legible: the Tony outburst, the op-eds, the public letters, the Saturday Night Live cold opens, the interviews he walked out of mid-sentence. This is a Nine who has stopped being able to go quiet.
+Under [extreme stress](/enneagram-corner/enneagram-types-in-stress), a Nine doesn't turn into a Type 8. The Nine collapses inward toward the anxious, reactive, defensively aggressive end of Type 6: the version that can't trust the ground under its own feet. The anger isn't calm. It's rattled. It's a man swearing on live television because the normal channels have failed him and the threat has not gone away. Read the Trump-era De Niro that way and the pattern becomes legible: the Tony outburst, the op-eds, the public letters, the Saturday Night Live cold opens, the interviews he walked out of mid-sentence. This is a Nine who has stopped being able to go quiet.
 
-You can hear the difference if you know the signal. On screen, Jake LaMotta's violence is low and controlled — the 8 wing channeled through a character. Tony De Niro's violence is high and shaky — a man in disintegration with no character to loan it to.
+You can hear the difference if you know the signal. On screen, Jake LaMotta's violence is low and controlled, the 8 wing channeled through a character. Tony De Niro's violence is high and shaky, a man in disintegration with no character to loan it to.
 
 It is the same man. One version has a script.
 
@@ -243,7 +243,7 @@ De Niro Sr. was a gay man in an era that did not let him be one. He left his wif
 
 De Niro spent his career playing men who could not speak their own sorrow. Rupert Pupkin in _The King of Comedy_, fantasizing a talk-show appearance into an empty basement. Jimmy Conway at the payphone in _Goodfellas_, already weighing who has to die next. Noodles at the end of _Once Upon a Time in America_, smiling into an opium haze because being awake would cost too much. Frank Sheeran in _The Irishman_, choosing his own coffin. Every one of those men is grief wearing a body.
 
-In July 2023, De Niro's grandson Leandro — Drena De Niro's son, a working young actor, 19 years old — was found dead in a New York apartment of an overdose on fentanyl-laced pills. ([Rolling Stone](https://www.rollingstone.com/)) He had not known the pills were laced. Five men were indicted in 2025 for distributing them. Drena, in her grief, blamed the internet culture that had been grooming teenagers to take counterfeit Xanax like candy.
+In July 2023, De Niro's grandson Leandro (Drena De Niro's son, a working young actor, 19 years old) was found dead in a New York apartment of an overdose on fentanyl-laced pills. ([Rolling Stone](https://www.rollingstone.com/)) He hadn't known the pills were laced. Five men were indicted in 2025 for distributing them. Drena, in her grief, blamed the internet culture that had been grooming teenagers to take counterfeit Xanax like candy.
 
 De Niro's public statement was four sentences. "I'm deeply distressed by the passing of my beloved grandson Leo. We're greatly appreciative of the condolences from everyone. We ask that we please be given privacy to grieve our loss of Leo."
 

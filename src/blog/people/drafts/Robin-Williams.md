@@ -71,11 +71,11 @@ Locations: "Why Robin Williams Called the Stage 'The One Salvation'", "How Cocai
 
 > "Do I perform sometimes in a manic style? Yes. Am I manic all the time? No. Do I get sad? Oh yeah. Does it hit me hard? Oh yeah." — Robin Williams, NPR's *Fresh Air*, 2006
 
-<p class="firstLetter">On the third floor of a thirty-room mansion in Bloomfield Hills, Michigan, a chubby only child arranged thousands of toy soldiers by historical era. Romans here. Napoleonics there. Civil War in another room. He gave each one a voice. He wrote them backstories. He staged elaborate dialogues between them — a Roman centurion negotiating with a Confederate general, a Hessian arguing with a redcoat. He was, by all reports, very lonely. His parents were rarely home. The maid raised him.</p>
+<p class="firstLetter">On the third floor of a thirty-room mansion in Bloomfield Hills, Michigan, a chubby only child arranged thousands of toy soldiers by historical era. Romans here. Napoleonics there. Civil War in another room. He gave each one a voice. He wrote them backstories. He staged elaborate dialogues between them: a Roman centurion negotiating with a Confederate general, a Hessian arguing with a redcoat. He was, by all reports, very lonely. His parents were rarely home. The maid raised him.</p>
 
 This is where Robin Williams learned to perform. Not on a stage. On a carpet, alone, voicing both sides of every conversation so the room wouldn't be quiet.
 
-Most accounts of Robin Williams treat his manic, channel-surfing brilliance as a force of nature — a comic gift dropped from the sky into a Pasadena nursery. That framing flatters everyone. It makes the genius mysterious and the ending tragic in a way that doesn't require any explanation.
+Most accounts of Robin Williams treat his manic, channel-surfing brilliance as a force of nature, a comic gift dropped from the sky into a Pasadena nursery. That framing flatters everyone. It makes the genius mysterious and the ending tragic in a way that doesn't require any explanation.
 
 The Enneagram makes it less mysterious and more devastating.
 
@@ -83,9 +83,9 @@ The Enneagram makes it less mysterious and more devastating.
 <summary class="accordion">TL;DR: Why Robin Williams Was an Enneagram Type 7</summary>
 <div class="panel">
 <ul>
-<li><b>Type 7w8 — the Possibility Engine wired for escape.</b> Williams converted pain into motion, motion into joy, joy into a weapon that disarmed every room he entered.</li>
+<li><b>Type 7w8, the Possibility Engine wired for escape.</b> Williams converted pain into motion, motion into joy, joy into a weapon that disarmed every room he entered.</li>
 <li><b>The third-floor childhood was the prototype.</b> A lonely only child with thousands of toy soldiers learned that voices could fill a silent house.</li>
-<li><b>Stage was "the one salvation."</b> His own words to Marc Maron — the language of an addict, applied to performance.</li>
+<li><b>Stage was "the one salvation."</b> His own words to Marc Maron, the language of an addict, applied to performance.</li>
 <li><b>Cocaine slowed him down.</b> What slows most people up was Williams asking his own brain for an off-switch he couldn't find.</li>
 <li><b>Lewy body dementia broke the engine.</b> When the instrument that had absorbed every wound stopped working, there was nowhere left to put the pain.</li>
 </ul>
@@ -96,21 +96,21 @@ The Enneagram makes it less mysterious and more devastating.
 
 ### Robin Williams is an Enneagram Type 7
 
-Williams is a Type 7w8 — the [Enthusiast](/enneagram-corner/enneagram-type-7) with an 8 wing — going to Type 1 in stress and Type 5 in growth. Read straight, that sounds like a personality-quiz tag. Read carefully, it explains almost everything about his life.
+Williams is a Type 7w8, the [Enthusiast](/enneagram-corner/enneagram-type-7) with an 8 wing, going to Type 1 in stress and Type 5 in growth. Read straight, that sounds like a personality-quiz tag. Read carefully, it explains almost everything about his life.
 
-Type 7's core wound is captured in one sentence by every serious Enneagram writer: 7s come to believe that pain, once entered, will swallow them. So they keep moving. Options open, future bright, mood up, room laughing. The strategy isn't shallow — it's load-bearing. A 7 keeps the room laughing because if the room stops laughing, the 7 has to feel what's underneath.
+Type 7's core wound is captured in one sentence by every serious Enneagram writer: 7s come to believe that pain, once entered, will swallow them. So they keep moving. Options open, future bright, mood up, room laughing. The strategy isn't shallow; it's load-bearing. A 7 keeps the room laughing because if the room stops laughing, the 7 has to feel what's underneath.
 
-The 8 wing is what separates Williams from the more anxious, scattered 7w6 (Jim Carrey territory, arguably). The 8 brings command. Williams didn't ask the room's permission to take it over. He took it. He confronted hecklers. He raised his voice. He pushed the energy to a place where retreat wasn't possible — for him or for you.
+The 8 wing is what separates Williams from the more anxious, scattered 7w6 (Jim Carrey territory, arguably). The 8 brings command. Williams didn't ask the room's permission to take it over. He took it. He confronted hecklers. He raised his voice. He pushed the energy to a place where retreat wasn't possible, for him or for you.
 
 The aha moment: when you read Williams's life through a Type 7 lens, the manic genius and the man who took his own life at 63 are not two different people. They are the same engine, run forward and then run out.
 
 ## The Third Floor Where Robin Williams Built His First Audience
 
-Robin McLaurin Williams was born in Chicago in 1951 to Robert Williams, a senior Ford Motor Company executive, and Laurie McLaurin, a former model from Mississippi. The household had money and almost no proximity. His father was on the road. His mother was — as Williams would later put it, half-laughing — "Auntie Mame on speed." She drifted in, performed for him, drifted out.
+Robin McLaurin Williams was born in Chicago in 1951 to Robert Williams, a senior Ford Motor Company executive, and Laurie McLaurin, a former model from Mississippi. The household had money and almost no proximity. His father was on the road. His mother was, as Williams would later put it, half-laughing, "Auntie Mame on speed." She drifted in, performed for him, drifted out.
 
-He was an only child in a thirty-room house. He moved schools — six in eight years, by some counts. He made one new friend at a time and lost that friend when his father got transferred again.
+He was an only child in a thirty-room house. He moved schools (six in eight years, by some counts). He made one new friend at a time and lost that friend when his father got transferred again.
 
-The toy soldiers were the solution. He played both sides of every battle — the only audience and every character on the stage. As a childhood adaptation, it is almost diagnostically perfect: a 7 finding a way to keep the room loud when no one is in the room.
+The toy soldiers were the solution. He played both sides of every battle: the only audience and every character on the stage. As a childhood adaptation, it's almost diagnostically perfect. A 7 finding a way to keep the room loud when no one is in the room.
 
 His first reliable laugh was his mother's. She came home, he tried a bit, she laughed, she stayed a beat longer in the doorway. He learned the trade in that doorway. Make her laugh. Hold her there. Don't let her leave.
 
@@ -128,27 +128,27 @@ Read it again, slowly. Salvation is a word with weight. It is not what most perf
 
 A few minutes later, on the same conversation, he tried to explain why he drank: "I think it's trying to fill the hole. It's fear, and you're kind of going, *what am I doing in my career?*"
 
-The stage was not a job. It was the specific architecture under which Robin Williams could exist. A 7 will tell you the future is always brighter; Williams told the truth — the future was a hole, and the only thing that filled it for ninety minutes was a microphone.
+The stage wasn't a job. It was the specific architecture under which Robin Williams could exist. A 7 will tell you the future is always brighter; Williams told the truth. The future was a hole, and the only thing that filled it for ninety minutes was a microphone.
 
-The Type 7 escape pattern is well documented: [no next thing fixes it](/enneagram-corner/why-the-next-thing-wont-fix-it-type-7), but the search for the next thing keeps you out of the present moment. Williams had the most lucrative version of this pattern available to a human — a culture-wide audience that paid him to keep moving. Everyone benefited. Especially the audience. Especially him, briefly, every night, until the lights came up.
+The Type 7 escape pattern is well documented: [no next thing fixes it](/enneagram-corner/why-the-next-thing-wont-fix-it-type-7), but the search for the next thing keeps you out of the present moment. Williams had the most lucrative version of this pattern available to a human, a culture-wide audience that paid him to keep moving. Everyone benefited. Especially the audience. Especially him, briefly, every night, until the lights came up.
 
 ## What the Engine Looked Like When It Worked
 
-By 1978 Williams was Mork from Ork. The shooting scripts for *Mork & Mindy* are part of the show's legend now — entire pages would be left blank with a stage direction that read, in some form, *Robin goes off here*. The writers stopped trying to keep up. Garry Marshall would shoot the rehearsal as the take because Williams never did the same bit twice. The toy-soldier kid was now improvising in front of forty million Americans on Thursday nights.
+By 1978 Williams was Mork from Ork. The shooting scripts for *Mork & Mindy* are part of the show's legend now: entire pages would be left blank with a stage direction that read, in some form, *Robin goes off here*. The writers stopped trying to keep up. Garry Marshall would shoot the rehearsal as the take because Williams never did the same bit twice. The toy-soldier kid was now improvising in front of forty million Americans on Thursday nights.
 
-Hollywood adjusted around him. The directors who got the most out of him stopped trying to control the take and started recording everything. The clearest case is *Aladdin* (1992). Disney's animators recorded sixteen hours of Williams's takes for the Genie and animated to whatever he gave them — the character a generation grew up with was, more or less, transcribed from a man alone in a vocal booth. Williams took $75,000 for the role, a fraction of his rate, on the explicit condition that his voice not be used to sell merchandise. Disney sold the merchandise anyway. Williams refused to work with the studio for almost three years until a new chairman publicly apologized. The 7 will give you the world; the 8 wing will keep score on what you do with it.
+Hollywood adjusted around him. The directors who got the most out of him stopped trying to control the take and started recording everything. The clearest case is *Aladdin* (1992). Disney's animators recorded sixteen hours of Williams's takes for the Genie and animated to whatever he gave them. The character a generation grew up with was, more or less, transcribed from a man alone in a vocal booth. Williams took $75,000 for the role, a fraction of his rate, on the explicit condition that his voice not be used to sell merchandise. Disney sold the merchandise anyway. Williams refused to work with the studio for almost three years until a new chairman publicly apologized. The 7 will give you the world; the 8 wing will keep score on what you do with it.
 
 Then there was the dramatic turn nobody had bet on. *Good Morning, Vietnam* in 1987. *Dead Poets Society* in 1989. *Awakenings*, *The Fisher King*, *Mrs. Doubtfire*, *The Birdcage*. By 1997 he was on a Boston park bench across from Matt Damon, playing a therapist named Sean Maguire — a widower asked to look at a younger man and say, over and over, *it's not your fault*. *Good Will Hunting* won Williams the Academy Award for Best Supporting Actor at the 70th ceremony in March 1998. He thanked the Ford-executive father who, when Williams told him he wanted to be an actor, had told him to keep welding as a backup plan.
 
 The Type 7's fear, in the clinical writing, is being trapped in pain. The 7's gift, when it integrates toward Type 5, is the willingness to enter a quiet room with another person and stay there. *Good Will Hunting* is a movie about being asked to do exactly that. Williams could play that scene because he had been rehearsing it on a third-floor carpet since he was eight.
 
-Five years later, in 2002, he played Sy Parrish in *One Hour Photo* — a flat, surveillance-eyed photo-counter clerk with a fixation he can't name. A 7 going to Type 1 in stress is rigid, controlled, quietly menacing. Williams could play that man because, in the parts of his life nobody filmed, he knew him.
+Five years later, in 2002, he played Sy Parrish in *One Hour Photo*: a flat, surveillance-eyed photo-counter clerk with a fixation he can't name. A 7 going to Type 1 in stress is rigid, controlled, quietly menacing. Williams could play that man because, in the parts of his life nobody filmed, he knew him.
 
 ## How Cocaine Slowed Robin Williams Down
 
 Most cocaine stories follow a script. The user gets faster, sleeps less, talks more, crashes harder. Williams's story is interesting because he kept saying it slowed him down.
 
-This sounds like a joke. It isn't. He was already operating at the metabolic ceiling of a Type 7 with an 8 wing — a brain that, by his own description, juggled seven channels simultaneously. Cocaine, for him, narrowed that to one. "Cocaine for me was a place to hide," he told biographer Dave Itzkoff. "Most people get hyper on coke. It slowed me down."
+This sounds like a joke. It isn't. He was already operating at the metabolic ceiling of a Type 7 with an 8 wing: a brain that, by his own description, juggled seven channels simultaneously. Cocaine, for him, narrowed that to one. "Cocaine for me was a place to hide," he told biographer Dave Itzkoff. "Most people get hyper on coke. It slowed me down."
 
 He was using a stimulant as a sedative because he couldn't find stillness on his own.
 
@@ -156,7 +156,7 @@ Then John Belushi died. March 5, 1982. Williams had been at the Chateau Marmont 
 
 > "The Belushi tragedy was frightening. His death scared a whole group of show-business people. It caused a big exodus from drugs. And for me, there was the baby coming. I knew I couldn't be a father and live that sort of life." — Robin Williams, *People*, 1988
 
-He stayed sober for roughly twenty years. In 2003, on location in Alaska shooting a film called *The Big White*, he started drinking again. He told Maron the relapse was almost casual — a bottle of Jack Daniels at a small store, the mental shrug, *I deserve it*. The slide back was fast.
+He stayed sober for roughly twenty years. In 2003, on location in Alaska shooting a film called *The Big White*, he started drinking again. He told Maron the relapse was almost casual: a bottle of Jack Daniels at a small store, the mental shrug, *I deserve it*. The slide back was fast.
 
 The narrative most people remember about Williams's addiction stops there. The Type 7 reading goes one layer down. Substances were never the problem and never the solution. They were a delivery mechanism for the only real medicine: a state in which the inside was as quiet as the outside looked from the audience.
 
@@ -180,7 +180,7 @@ Billy Crystal has the line that may be the single most quoted private detail abo
 
 > "The phone would ring and I'd look at it and see the 415-area code. I knew it was him. I knew it was going to be something really good." — Billy Crystal, *Come Inside My Mind*, 2018
 
-That is what the people closest to him describe. Not manic. Not bottomless. Specific, attentive, calls-you-from-415, knows what you're working on, loves you. The "site-specific extrovert" Williams himself described — capable of becoming the most extroverted person in the room when the room needed him to be, and quiet, soft, and inward when it didn't.
+That's what the people closest to him describe. Not manic, not bottomless. Specific, attentive, calls-you-from-415, knows what you're working on, loves you. The "site-specific extrovert" Williams himself described: capable of becoming the most extroverted person in the room when the room needed him to be, and quiet, soft, and inward when it didn't.
 
 <div class="contrast-panel">
 <strong>Public Robin:</strong> Manic. Riffing. Voices cycling at three per minute. Confronts hecklers. Sweats through the shirt.<br><br>
@@ -193,7 +193,7 @@ The Type 7 mask is famously efficient at hiding melancholy under motion. William
 
 Between 2002 and 2013, Robin Williams went on six USO tours. He performed in Iraq, Afghanistan, and eleven other countries. The USO's official records put the total audience at roughly 90,000 service members. He didn't bring a film crew. He didn't issue a press release. He showed up.
 
-The most-circulated clip is from Camp Arifjan, Kuwait, December 2007. Williams is mid-set, mid-bit, doing something inappropriate at an aggressive volume. The bugle sounds for *Retreat* — the daily lowering of the flag at sundown. Every soldier in the audience stands up at once and turns away from him to face the flag. Williams stops. He takes a step back. He waits. He says, very quietly, *All right. We can wait.*
+The most-circulated clip is from Camp Arifjan, Kuwait, December 2007. Williams is mid-set, mid-bit, doing something inappropriate at an aggressive volume. The bugle sounds for *Retreat*, the daily lowering of the flag at sundown. Every soldier in the audience stands up at once and turns away from him to face the flag. Williams stops. He takes a step back. He waits. He says, very quietly, *All right. We can wait.*
 
 Then, when the bugle finishes and the soldiers turn back around, he picks up the bit exactly where he left it.
 
@@ -201,7 +201,7 @@ The whole moment is maybe forty seconds long. It is one of the most revealing pi
 
 Williams did this work for more than a decade. Quietly. Repeatedly. In active war zones. He was not a war-zone person. He was a man who believed that the people sitting in front of him deserved his complete attention, and the people in front of him in 2007 were teenagers a long way from home.
 
-The USO tours were not the only thing he did off-camera. Starting in 1986, Williams ran *Comic Relief* with Billy Crystal and Whoopi Goldberg — a series of HBO benefits across two decades that raised tens of millions of dollars for homelessness in America. He almost never brought it up on talk shows. The pattern is the same one his soldiers saw in Kuwait: take the room, give what you came to give, leave the credit on the table.
+The USO tours weren't the only thing he did off-camera. Starting in 1986, Williams ran *Comic Relief* with Billy Crystal and Whoopi Goldberg, a series of HBO benefits across two decades that raised tens of millions of dollars for homelessness in America. He almost never brought it up on talk shows. The pattern is the same one his soldiers saw in Kuwait: take the room, give what you came to give, leave the credit on the table.
 
 If you remove the Enneagram from this section entirely, it still tells you who he was.
 
@@ -231,9 +231,9 @@ His son Zak, now a mental-health advocate, described what he watched in the mont
 
 > "It was very uncomfortable. What he was going through didn't match one to one with many Parkinson's patients'. He felt frustrated." — Zak Williams, *The Genius Life* podcast, 2021
 
-His daughter Zelda — named for the Nintendo princess he had been playing on the family's NES since 1987, a detail his fans clocked immediately — left social media after his death and has rationed her public mourning ever since.
+His daughter Zelda, named for the Nintendo princess he had been playing on the family's NES since 1987 (a detail his fans clocked immediately), left social media after his death and has rationed her public mourning ever since.
 
-The Type 7 reading is brutal here, and it is also accurate. The lifetime strategy was motion. The instrument of motion was an exquisitely calibrated brain — fast, associative, capable of holding seven possibilities at once and choosing the funniest one in real time. Lewy body dementia takes that brain apart, slowly, while leaving the person inside it conscious enough to notice it happening.
+The Type 7 reading is brutal here, and it is also accurate. The lifetime strategy was motion. The instrument of motion was an exquisitely calibrated brain: fast, associative, capable of holding seven possibilities at once and choosing the funniest one in real time. Lewy body dementia takes that brain apart, slowly, while leaving the person inside it conscious enough to notice it happening.
 
 When motion stopped working, the 7 had no other strategy.
 

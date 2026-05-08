@@ -1,24 +1,11 @@
 {
-	"lastUpdated": "2026-05-06T17:26:07Z",
+	"lastUpdated": "2026-05-08T06:01:26Z",
 	"stats": {
 		"totalUnpublished": 125,
 		"totalPublished": 266,
 		"completionRate": "68.0%"
 	},
 	"queue": [
-		{
-			"name": "gal-gadot",
-			"displayName": "Gal Gadot",
-			"type": 3,
-			"priority": 85,
-			"priorityReason": "Ranker/Instagram beauty-list spike, Wonder Woman recognition, and a polished global-star Type 3 image-performance angle",
-			"estimatedTraffic": "very-high",
-			"searchVolume": "very-high",
-			"personaTitle": null,
-			"addedToQueue": "2026-05-06",
-			"retryCount": 0,
-			"strategicValue": "viral-beauty-list-hollywood-cluster"
-		},
 		{
 			"name": "ana-de-armas",
 			"displayName": "Ana de Armas",
@@ -752,21 +739,40 @@
 			"letterGrade": "B",
 			"duration": 60,
 			"needsReview": false
+		},
+		{
+			"name": "whitney-wolfe-herd",
+			"displayName": "Whitney Wolfe Herd",
+			"type": 2,
+			"priority": 79,
+			"priorityReason": "Bumble founder, fills Type 2 + female tech founder gap, entrepreneurship audience",
+			"estimatedTraffic": "medium",
+			"searchVolume": "medium",
+			"personaTitle": null,
+			"addedToQueue": "2026-04-03",
+			"retryCount": 0,
+			"strategicValue": "fills-type-2-gap",
+			"startedAt": "2026-05-06T06:01:43Z",
+			"completedAt": "2026-05-08T06:01:26Z",
+			"contentGrade": null,
+			"duration": null,
+			"needsReview": true,
+			"reviewReason": "Auto-recovered from stale inProgress; draft was created but never marked complete. Verify grade manually."
 		}
 	],
 	"inProgress": {
-		"name": "whitney-wolfe-herd",
-		"displayName": "Whitney Wolfe Herd",
-		"type": 2,
-		"priority": 79,
-		"priorityReason": "Bumble founder, fills Type 2 + female tech founder gap, entrepreneurship audience",
-		"estimatedTraffic": "medium",
-		"searchVolume": "medium",
+		"name": "gal-gadot",
+		"displayName": "Gal Gadot",
+		"type": 3,
+		"priority": 85,
+		"priorityReason": "Ranker/Instagram beauty-list spike, Wonder Woman recognition, and a polished global-star Type 3 image-performance angle",
+		"estimatedTraffic": "very-high",
+		"searchVolume": "very-high",
 		"personaTitle": null,
-		"addedToQueue": "2026-04-03",
+		"addedToQueue": "2026-05-06",
 		"retryCount": 0,
-		"strategicValue": "fills-type-2-gap",
-		"startedAt": "2026-05-06T06:01:43Z"
+		"strategicValue": "viral-beauty-list-hollywood-cluster",
+		"startedAt": "2026-05-08T06:01:26Z"
 	},
 	"skipped": [
 		{

@@ -1,0 +1,14 @@
+Published people blog.
+
+Person: asmongold
+Draft: src/blog/people/drafts/Asmongold.md
+Date/lastmod: 2026-05-08
+Supabase: published=true (id=972)
+Images: full + thumbnail present (`static/types/5s/Asmongold.webp`, `s-Asmongold.webp`)
+Generated files: pnpm gen:all completed
+
+- `famousTypes.ts`: `link: true`, `hasImage: true`, `lastmod: 2026-05-08`
+- `static/sitemap.xml` includes `https://9takes.com/personality-analysis/asmongold`
+
+Blockers:
+- none
