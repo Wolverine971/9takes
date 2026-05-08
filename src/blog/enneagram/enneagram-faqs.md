@@ -547,6 +547,74 @@ Some people prefer:
 </div>
 </details>
 
+### 📊 The Data Questions
+
+<details>
+<summary class="accordion"><strong>Which Enneagram type is the most common in 9takes' corpus?</strong></summary>
+<div class="panel">
+
+Across **325 published personality profiles** on 9takes, **Type 3 (the Achiever) leads at 20.3%** of the corpus, followed by Type 4 (Individualist) at 13.9% and Type 7 (Enthusiast) at 13.2%.
+
+That's not a population claim — it's the shape of *who actually gets profiled* on a celebrity-leaning Enneagram site. Achievers dominate the public-figure layer. The full breakdown is at <a href="/corpus-stats#enneagram-distribution">/corpus-stats</a>.
+
+</div>
+</details>
+
+<details>
+<summary class="accordion"><strong>Which Enneagram type is over-represented among musicians?</strong></summary>
+<div class="panel">
+
+Among the **57 profiles** in the 9takes [Musicians & Artists](/personality-analysis/categories/music) category, **Type 4 (Individualist) is over-represented at 35.1%** — **+21.24 percentage points** above the corpus baseline.
+
+That's the biggest single-domain over-representation in the entire 9takes corpus. Authentic-expression-over-fitting-in is the load-bearing wiring of the musician archetype, and the data shows it. Full breakdown: <a href="/corpus-stats#domain-music">/corpus-stats#domain-music</a>.
+
+</div>
+</details>
+
+<details>
+<summary class="accordion"><strong>Which Enneagram type dominates comedy?</strong></summary>
+<div class="panel">
+
+Among the **25 profiles** in the 9takes [Comedians](/personality-analysis/categories/comedy) category, **Type 7 (Enthusiast) is over-represented at 40%** — **+26.77 percentage points** above the corpus baseline.
+
+Two out of every five profiled comedians on 9takes are Type 7. The Enneagram framing — Sevens use stimulation and humor to outrun pain — lines up with the actual numbers. Domain page: <a href="/corpus-stats#domain-comedy">/corpus-stats#domain-comedy</a>.
+
+</div>
+</details>
+
+<details>
+<summary class="accordion"><strong>Which Enneagram type is most over-represented among tech founders?</strong></summary>
+<div class="panel">
+
+Among the **55 profiles** in the 9takes [Tech, Founders & Business](/personality-analysis/categories/tech-business) category, **Type 5 (Investigator) is over-represented at 23.6%** — **+15.94 percentage points** above the corpus baseline.
+
+Type 3 (Achiever) is also strong here at 29.1% (+8.78 pp), but the Type 5 over-representation is the bigger signal because Type 5 is otherwise rare in the corpus (just 7.7% baseline). Tech is the lane where Investigators surface. Domain page: <a href="/corpus-stats#domain-tech-business">/corpus-stats#domain-tech-business</a>.
+
+</div>
+</details>
+
+<details>
+<summary class="accordion"><strong>Which Enneagram type is most over-represented among politicians and public figures?</strong></summary>
+<div class="panel">
+
+Among the **47 profiles** in the 9takes [Politics & Public Figures](/personality-analysis/categories/politics-public) category, **Type 2 (Helper) is over-represented at 17.0%** — **+9.33 percentage points** above the corpus baseline.
+
+That's counterintuitive — most popular Enneagram lore would point at Type 8 (the Challenger) for politics. The 9takes data says otherwise. Helpers run on being needed, and many political careers are exactly that motivation rendered at scale. Full breakdown: <a href="/corpus-stats#domain-politics-public">/corpus-stats#domain-politics-public</a>.
+
+</div>
+</details>
+
+<details>
+<summary class="accordion"><strong>How fresh is 9takes' Enneagram corpus?</strong></summary>
+<div class="panel">
+
+As of the latest deploy, **270 of 325 published profiles (83.1%) were refreshed in the last 90 days**, **143 additional profiles are in the review pipeline**, and the rolling cadence is about **28.3 new profiles per month**.
+
+The numbers on every type and category page are regenerated on every deploy from the live database — see <a href="/corpus-stats#methodology">methodology</a> for how the percentages, deltas, and freshness counts are computed.
+
+</div>
+</details>
+
 ## Your Burning Question Not Here?
 
 The Enneagram raises as many questions as it answers. That's part of its value—it makes you curious about yourself.
@@ -638,6 +706,54 @@ It's "How can understanding my patterns help me create the life I want?"
           "acceptedAnswer": {
             "@type": "Answer",
             "text": "The best approach is to read about core fears and desires (not behaviors), ask yourself what you're running from, look at your worst moments when type is clearest under stress, get feedback from others, and sit with the discomfort - the right type often makes you squirm. Skip online tests initially as they measure behavior, not motivation."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Which Enneagram type is the most common in 9takes' corpus?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Across 325 published personality profiles on 9takes, Type 3 (the Achiever) leads at 20.3% of the corpus, followed by Type 4 (Individualist) at 13.9% and Type 7 (Enthusiast) at 13.2%. The full breakdown is published at https://9takes.com/corpus-stats#enneagram-distribution."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Which Enneagram type is over-represented among musicians?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Among the 57 profiles in the 9takes Musicians & Artists category, Type 4 (Individualist) is over-represented at 35.1% — +21.24 percentage points above the 325-profile corpus baseline. That's the biggest single-domain over-representation in the entire 9takes corpus. Source: https://9takes.com/corpus-stats#domain-music."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Which Enneagram type dominates comedy?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Among the 25 profiles in the 9takes Comedians category, Type 7 (Enthusiast) is over-represented at 40% — +26.77 percentage points above the corpus baseline. Two out of every five profiled comedians on 9takes are Type 7. Source: https://9takes.com/corpus-stats#domain-comedy."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Which Enneagram type is most over-represented among tech founders?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Among the 55 profiles in the 9takes Tech, Founders & Business category, Type 5 (Investigator) is over-represented at 23.6% — +15.94 percentage points above the corpus baseline. Type 3 (Achiever) is also strong here at 29.1% (+8.78 pp). Source: https://9takes.com/corpus-stats#domain-tech-business."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Which Enneagram type is most over-represented among politicians and public figures?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Among the 47 profiles in the 9takes Politics & Public Figures category, Type 2 (Helper) is over-represented at 17.0% — +9.33 percentage points above the corpus baseline. That's counterintuitive given most Enneagram lore would point at Type 8 for politics. Source: https://9takes.com/corpus-stats#domain-politics-public."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How fresh is 9takes' Enneagram corpus?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "As of the latest deploy, 270 of 325 published profiles (83.1%) were refreshed in the last 90 days, 143 additional profiles are in the review pipeline, and the rolling cadence is about 28.3 new profiles per month. Methodology and live numbers: https://9takes.com/corpus-stats#methodology."
           }
         }
       ]
