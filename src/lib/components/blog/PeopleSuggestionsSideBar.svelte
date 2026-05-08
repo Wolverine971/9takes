@@ -98,6 +98,26 @@
 	});
 </script>
 
+{#if bridgeLinks.length}
+	<nav class="bridge-links-static" aria-label="Explore this personality framework">
+		<h3 class="bridge-links-title">Explore the framework</h3>
+		<ul class="bridge-links-list">
+			{#each bridgeLinks as bridge}
+				<li class="bridge-links-item">
+					<a
+						href={bridge.href}
+						class="bridge-links-link"
+						data-bridge="true"
+						data-track="profile-inline-bridge"
+					>
+						{bridge.label}
+					</a>
+				</li>
+			{/each}
+		</ul>
+	</nav>
+{/if}
+
 {#if visible && showOnCurrentWidth && sidebarPosition}
 	<aside
 		class="sidebar"
@@ -143,6 +163,59 @@
 {/if}
 
 <style lang="scss">
+	.bridge-links-static {
+		max-width: 880px;
+		margin: 0 auto 2rem;
+		padding: 1rem 0;
+		border-top: 1px solid var(--stone-edge);
+		border-bottom: 1px solid var(--stone-edge);
+	}
+
+	.bridge-links-title {
+		margin: 0 0 0.65rem;
+		font-size: 0.78rem;
+		font-weight: 600;
+		line-height: 1.2;
+		text-transform: uppercase;
+		letter-spacing: 0.06em;
+		color: var(--ink-dim);
+	}
+
+	.bridge-links-list {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 0.5rem;
+		list-style: none;
+		margin: 0;
+		padding: 0;
+	}
+
+	.bridge-links-item {
+		margin: 0;
+		padding: 0;
+	}
+
+	.bridge-links-link {
+		display: inline-flex;
+		align-items: center;
+		padding: 0.15rem 0;
+		border-bottom: 1px solid color-mix(in srgb, var(--lamp-glow) 45%, transparent);
+		color: var(--lamp-glow);
+		font-size: 0.9rem;
+		line-height: 1.25;
+		text-decoration: none;
+
+		&:hover {
+			border-bottom-color: var(--ink-bright);
+			color: var(--ink-bright);
+			text-decoration: none;
+		}
+
+		&::after {
+			content: none;
+		}
+	}
+
 	.sidebar {
 		/* Card base styles - Solo Leveling dark theme */
 		background-color: var(--night-deep);
