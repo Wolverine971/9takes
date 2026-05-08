@@ -234,12 +234,9 @@ He spent fifty years proving it.
 
 Then, on a Friday in June, he stopped.
 
-<!--
-======================================================================
-FRESH-EYES REVIEW — original feedback from DJ (preserved for audit)
+<!-- FRESH-EYES REVIEW — original feedback from DJ (preserved for audit)
 STATUS: ADDRESSED 2026-05-07. See REVIEW RESOLUTION block at top of file
 for a point-by-point summary. The list below is the original review.
-======================================================================
 
 WHAT I MISSED / WANT MORE OF
 ----------------------------
@@ -390,7 +387,5 @@ road. Because the thesis is single-track, the missing material above
 (daughter, kitchens, writing, why he mattered) doesn't feel like
 "more topics" — it feels like the human evidence the thesis needs to
 land. Right now a reader who loved Bourdain might close this and
-think: "the analysis is sharp but it's not quite *him*."
-======================================================================
--->
+think: "the analysis is sharp but it's not quite *him*." -->
 
