@@ -166,6 +166,8 @@ Here's what the Gottman Institute's decades of research reveals: how you communi
 
 The Enneagram adds a crucial layer. It maps the deeper emotional patterns driving your partner's behavior, the stuff they might not even be conscious of. When you combine Gottman's communication science with Enneagram personality insights, you get a framework for actually reading your partner instead of just reacting to them.
 
+> Across our [325 published personality profiles](/personality-analysis), Enneagram types are not evenly distributed — Type 3 (Achiever) tops the corpus at 20.3%, while Type 1 (Reformer) is rarest at 6.8%. Translation: when you and your partner clash, you are almost never running the same internal script. These five conversations are designed to make those scripts visible to each other before they sink the relationship.
+
 These five conversations separate couples who thrive from couples who slowly drift apart.
 
 ## I. Map Your Emotional Landscapes

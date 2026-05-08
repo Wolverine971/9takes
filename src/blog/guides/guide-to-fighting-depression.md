@@ -147,6 +147,8 @@ path: src/blog/guides/guide-to-fighting-depression.md
 Depression follows predictable patterns shaped by your personality — and the same advice that helps one type can make things worse for another. The key: identify your type's specific depression loop (trigger → overwhelm → paralysis → self-criticism → isolation) and interrupt it with actions matched to how *you* get stuck, not how someone else does.
 </QuickAnswer>
 
+> Pattern from our [325 published personality profiles](/personality-analysis): Type distribution is not flat. Type 3 (Achiever) leads the corpus at 20.3%, while Type 4 (Individualist) — the type most studied for depression vulnerability — is the second-largest at 13.9%. Different types get stuck in depression differently, which is why generic advice fails so consistently. The interventions below are mapped to the loop your personality runs, not the average.
+
 <div class="info-banner">
   <div class="info-banner__icon">
     <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20">

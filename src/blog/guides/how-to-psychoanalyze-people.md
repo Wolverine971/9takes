@@ -44,6 +44,8 @@ That frustration became an obsession. Why do people do what they do? What drives
 
 After years of studying this question, I found an answer. This guide uses the **[Enneagram personality system](/enneagram-corner/enneagram-tldr)**, a framework that maps 9 distinct psychological patterns, to decode what truly drives people. Forget surface-level "body language tricks." We're going deeper: the core fears and desires that shape someone's every decision.
 
+> Across our [325 published personality profiles](/personality-analysis), the 9 Enneagram types are not evenly distributed in any domain we cover. In our [Tech, Founders & Business](/personality-analysis/categories/tech-business) corpus (n=55), Type 5 (Investigator) clusters at 23.6% (+15.94 pp). In [Comedians](/personality-analysis/categories/comedy) (n=25), Type 7 (Enthusiast) hits 40.0% (+26.77 pp). Real people cluster predictably by what they fear and what they want — that is exactly what the four questions below are designed to surface.
+
 Here's what you'll get: A 4-step framework for reading anyone. Practical techniques for gathering the information you need. And what to do when you get it wrong (because you will).
 
 <article class="section-content">
