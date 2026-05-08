@@ -482,8 +482,7 @@
 						>full type distribution across {corpusInsight.corpusPublished} profiles</a
 					>
 					or the
-					<a href="/corpus-stats#per-type-domains"
-						>per-type domain breakdown for Type {data.slug}</a
+					<a href="/corpus-stats#per-type-domains">per-type domain breakdown for Type {data.slug}</a
 					>.
 				</p>
 			{/if}

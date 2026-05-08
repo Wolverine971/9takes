@@ -555,7 +555,7 @@ Some people prefer:
 
 Across **325 published personality profiles** on 9takes, **Type 3 (the Achiever) leads at 20.3%** of the corpus, followed by Type 4 (Individualist) at 13.9% and Type 7 (Enthusiast) at 13.2%.
 
-That's not a population claim — it's the shape of *who actually gets profiled* on a celebrity-leaning Enneagram site. Achievers dominate the public-figure layer. The full breakdown is at <a href="/corpus-stats#enneagram-distribution">/corpus-stats</a>.
+That's not a population claim — it's the shape of _who actually gets profiled_ on a celebrity-leaning Enneagram site. Achievers dominate the public-figure layer. The full breakdown is at <a href="/corpus-stats#enneagram-distribution">/corpus-stats</a>.
 
 </div>
 </details>
