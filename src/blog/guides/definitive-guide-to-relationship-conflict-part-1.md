@@ -4,13 +4,29 @@ description: 'Learn what healthy conflict looks like, how to spot the Four Horse
 author: 'DJ Wayne'
 date: '2023-08-24'
 loc: 'https://9takes.com/how-to-guides/definitive-guide-to-relationship-conflict-part-1'
-lastmod: '2026-01-18'
+lastmod: '2026-05-07'
 changefreq: monthly
 priority: '0.6'
 published: true
 pic: greek-statue-having-a-disagreement
 meta_title: 'The Four Horsemen of Relationship Conflict (And Their Antidotes)'
 path: src/blog/guides/definitive-guide-to-relationship-conflict-part-1.md
+totalTime: 'PT45M'
+howToSteps:
+  - name: 'Check your intent before you open your mouth'
+    text: 'Before diving in, clarify whether you are trying to connect and solve a problem or trying to prove a point. Ask: What am I really upset about? What need of mine isn''t being met? What am I contributing? What outcome do I want? Am I in the right state to discuss this?'
+  - name: 'Avoid HALT — don''t start fights when hungry, angry, lonely, or tired'
+    text: 'Gottman research finds discussions started in heightened emotion are 96% likely to end negatively. Schedule the conversation, choose a neutral environment without distractions, and set a 30–45 minute time limit to prevent emotional exhaustion.'
+  - name: 'Open with a soft startup, not a landmine'
+    text: 'Replace blame with curiosity. Use scripts like "I''ve noticed [specific situation] and I''d like to talk about how we can address it" or "There''s something I''m feeling [emotion] about. Is now a good time?"'
+  - name: 'Ask better questions than "why did you do that?"'
+    text: 'Validate emotions first ("I can see this is frustrating"), ask open-ended questions, reflect back what you hear, and explore the underlying concern rather than the surface complaint.'
+  - name: 'Name the shared goal out loud'
+    text: 'Identify the values or goals you both hold (family stability, mutual respect, financial security). Frame solutions around mutual benefit, look for partial agreements, and use shared priorities as the foundation for resolution.'
+  - name: 'Match the approach to the type of fight'
+    text: 'Money, chores, in-laws, and intimacy each need different tactics. Share money histories before budgeting. Divide chores by preference and skill. Set boundaries with extended family as a unified team. Discuss intimacy in a non-bedroom setting.'
+  - name: 'Follow through — agreement isn''t the end'
+    text: 'Define who will do what, when, and how. Start with manageable changes, schedule check-ins, celebrate progress, and adjust if the initial solution isn''t working. Implementation, not agreement, is what makes conflict resolution stick.'
 ---
 
 <!-- conflict styles in relationships
@@ -24,6 +40,8 @@ internal and external conflict
 <p class="firstLetter">A good relationship isn't conflict-free. It's repair-rich. If you care about someone, you'll disagree, sometimes loudly, often about something that feels bigger than the surface issue.</p>
 
 The question isn't whether you'll fight. It's whether your fights end with repair or with distance.
+
+> Across our 325 published [personality profiles](/personality-analysis), each Enneagram type reaches for a different "first move" under stress — the Type 1 criticizes with moral authority, the Type 9 stonewalls until the fight disappears. Same conflict, nine different scripts. Knowing which script you default to is half the repair.
 
 > Safety note: This guide assumes a relationship that is fundamentally safe. If arguments include threats, intimidation, coercive control, or violence, prioritize safety and professional support.
 
