@@ -224,7 +224,7 @@
 
 	<meta name="twitter:site" content="@9takesdotcom" />
 	<meta name="twitter:description" content={description || title} />
-	<meta name="twitter:card" content="summary" />
+	<meta name="twitter:card" content="summary_large_image" />
 	<meta name="twitter:creator" content="@djwayne3" />
 	<meta name="twitter:title" content={title} />
 	<meta name="twitter:url" content={canonicalUrl} />
