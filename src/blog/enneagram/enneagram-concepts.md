@@ -1,5 +1,5 @@
 ---
-title: "Enneagram Concepts: The Personality Box You Didn't Know You Were Living In"
+title: "Enneagram Concepts: The Personality Box You're Living In"
 description: "Nine types. Nine automatic patterns that feel like 'just who I am' — until you see they're optional. Here are the core Enneagram concepts (types, wings, instincts, connecting lines) explained without the mystic fog."
 author: 'DJ Wayne'
 date: '2024-08-10'

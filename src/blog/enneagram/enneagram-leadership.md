@@ -1,5 +1,5 @@
 ---
-title: 'Enneagram Leadership Styles: Why Your Natural Approach Keeps Backfiring'
+title: 'Enneagram Leadership: Why Your Approach Keeps Backfiring'
 description: 'Each Enneagram type has a leadership superpower that becomes their fatal flaw when overused. Find your blind spot and the specific fix that works for your type.'
 author: 'DJ Wayne'
 date: '2025-09-14'

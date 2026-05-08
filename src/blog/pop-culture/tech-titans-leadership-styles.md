@@ -1,6 +1,6 @@
 ---
 title: 'Tech Leadership by Personality Type: How Each Enneagram Type Runs a Company'
-meta_title: 'Tech CEO Enneagram Types Compared - Leadership Styles of Silicon Valley'
+meta_title: 'Tech CEO Enneagram Types: Silicon Valley Leadership Styles'
 description: 'Type 1s set impossible standards. Type 5s hoard information. Type 8s rule through intimidation. Type 9s build consensus nobody asked for. Every tech leadership style is a personality type on display.'
 author: 'DJ Wayne'
 date: '2026-03-21'

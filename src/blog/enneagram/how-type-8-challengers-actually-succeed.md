@@ -1,6 +1,6 @@
 ---
 title: "How Type 8 Challengers Actually Succeed (It's Not What You Think)"
-meta_title: "Why Grinding Harder Won't Make You Successful (Type 8's Real Path to Power)"
+meta_title: "Why Grinding Harder Won't Make You Successful (Type 8 Path)"
 description: 'Every famous Type 8 grinded. None of them broke through by grinding alone. The 6 patterns that actually produced their breakthroughs, from Bezos to MLK to Rihanna.'
 author: 'DJ Wayne'
 date: '2026-02-08'

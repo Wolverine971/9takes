@@ -1,5 +1,5 @@
 ---
-title: 'How to Read People: The 4-Step Guide to Understanding Anyone (Including Yourself)'
+title: 'How to Read People: The 4-Step Guide to Understanding Anyone'
 description: 'Learn to decode what truly drives people through practical psychological observation techniques. Understand motivations, fears, and patterns that shape behavior.'
 author: 'DJ Wayne'
 date: '2025-09-08'

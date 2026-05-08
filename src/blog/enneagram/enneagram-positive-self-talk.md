@@ -1,5 +1,5 @@
 ---
-title: 'The Voice in Your Head: Master Positive Self-Talk for Your Enneagram Type'
+title: 'The Voice in Your Head: Self-Talk by Enneagram Type'
 description: "Decode your inner critic's patterns and transform negative self-talk into type-specific affirmations that actually work. Practical scripts for each Enneagram type."
 author: 'DJ Wayne'
 date: '2025-08-28'

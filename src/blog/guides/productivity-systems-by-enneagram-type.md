@@ -1,5 +1,5 @@
 ---
-title: 'Productivity Systems by Enneagram Type: Work With Your Personality, Not Against It'
+title: 'Productivity Systems by Enneagram Type'
 description: "Discover the perfect productivity system for your Enneagram type. Stop forcing methods that don't fit and start working with your natural patterns."
 author: 'DJ Wayne'
 date: '2025-09-14'

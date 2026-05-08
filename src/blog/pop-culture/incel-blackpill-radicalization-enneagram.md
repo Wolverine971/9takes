@@ -1,5 +1,5 @@
 ---
-title: 'The Blackpill Pipeline: How Shame, Rejection, and Anger Radicalize Young Men'
+title: 'The Blackpill Pipeline: How Shame Radicalizes Young Men'
 description: "Inside the psychology of incel radicalization through the Enneagram lens. Why the blackpill ideology spreads, what emotional patterns drive it, and what it reveals about modern masculinity's crisis."
 author: 'DJ Wayne'
 date: '2026-02-05'

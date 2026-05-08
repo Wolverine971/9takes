@@ -1,6 +1,6 @@
 ---
-title: 'The 90-Day Personality Maxing Blueprint: Transform Your Mind Like You Train Your Body'
-description: 'A practical 90-day system to max your personality through perspective-taking, the Enneagram, and expert protocols from Brené Brown, Andrew Huberman, and Carl Jung. Physical exercise builds physical strength. Perspective-taking builds mental strength.'
+title: 'The 90-Day Personality Maxing Blueprint'
+description: 'A 90-day system for maxing your personality — perspective-taking, the Enneagram, and protocols from Brené Brown, Andrew Huberman, and Carl Jung.'
 author: 'DJ Wayne'
 date: '2025-09-02'
 loc: 'https://9takes.com/enneagram-corner/90-day-personality-maxing-blueprint'

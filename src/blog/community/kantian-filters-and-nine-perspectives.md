@@ -1,5 +1,5 @@
 ---
-title: "Kant Said You're Only Seeing a Filtered Reality. The Enneagram Shows You the Other 8 Filters."
+title: "Kant Said Reality Is Filtered. The Enneagram Shows the Other 8 Filters."
 description: 'A viral lecture on evil, power, and philosophy accidentally made the best case for why perspective-taking matters more than ever.'
 author: 'DJ Wayne'
 date: '2026-03-04'

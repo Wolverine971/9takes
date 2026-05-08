@@ -1,5 +1,5 @@
 ---
-title: 'Personality Maxing: Looksmaxxing for the Part People Actually Experience'
+title: 'Personality Maxing: Looksmaxxing for What People Experience'
 description: "Looksmaxxing optimizes what people see for three seconds. Personality maxing optimizes what they experience every day. Here's the playbook: map your pattern, name your superpower and shadow with the Enneagram, then turn that self-knowledge into real charisma."
 author: 'DJ Wayne'
 date: '2025-05-22'

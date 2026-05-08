@@ -1,6 +1,6 @@
 ---
 title: 'Enneagram Types in Relationships: How Each Type Loves (And Why It Goes Wrong)'
-meta_title: 'Enneagram Types in Relationships: Complete Guide to Love Patterns & Compatibility'
+meta_title: 'Enneagram Types in Relationships: Love & Compatibility Guide'
 description: 'How each Enneagram type behaves in relationships — love patterns, compatibility, conflict styles, and what to say to each type. The guide that actually helps your relationship.'
 author: 'DJ Wayne'
 date: '2023-03-10'

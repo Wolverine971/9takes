@@ -1,5 +1,5 @@
 ---
-title: 'The 9 Coworker Types: How Each Enneagram Acts as a Boss, Peer, and Report'
+title: 'The 9 Coworker Types: Each Enneagram as Boss, Peer, Report'
 description: "Every team has nine ways of working — and nine ways of falling apart. Here's what each Enneagram type brings, what to never do with them, and the feedback that actually lands."
 author: 'DJ Wayne'
 date: '2023-03-26'

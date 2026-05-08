@@ -1,6 +1,6 @@
 ---
 title: 'The Podcaster Personality Map: Why Every Host Gravitates to Their Exact Niche'
-meta_title: 'Joe Rogan, Alex Cooper, Lex Fridman, Huberman & More: Enneagram Types Behind Podcasting'
+meta_title: 'Joe Rogan, Alex Cooper, Lex Fridman & More: Enneagram Types'
 description: 'Type 8s interrogate. Type 5s excavate. Type 7s vibe. A personality map of 13 top podcasters reveals why your favorite host talks about what they talk about—and what that says about you.'
 author: 'DJ Wayne'
 date: '2026-04-07'

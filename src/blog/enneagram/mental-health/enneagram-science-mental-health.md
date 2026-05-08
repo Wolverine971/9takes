@@ -1,5 +1,5 @@
 ---
-title: 'Is the Enneagram Scientifically Valid? (What the Research Actually Says)'
+title: 'Is the Enneagram Scientifically Valid? The Research'
 description: "Skeptical about the Enneagram? Here's what peer-reviewed research, neuroscience studies, and clinical evidence actually say about its validity—the good, the bad, and the limitations."
 author: 'DJ Wayne'
 date: '2025-08-25'

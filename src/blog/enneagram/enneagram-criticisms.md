@@ -1,5 +1,5 @@
 ---
-title: 'The Enneagram Under Fire: Addressing Common Criticisms & Misconceptions'
+title: 'The Enneagram Under Fire: Common Criticisms Addressed'
 description: 'Discover thoughtful responses to the top criticisms of the Enneagram personality system - from scientific validity concerns to stereotyping fears and beyond.'
 author: 'DJ Wayne'
 date: '2023-02-10'

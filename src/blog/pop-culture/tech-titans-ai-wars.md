@@ -1,6 +1,6 @@
 ---
 title: 'The AI Wars: Why Personality Types Determine Who Gets to Build God'
-meta_title: 'Sam Altman vs Dario Amodei vs Elon Musk Enneagram Types - AI Leadership Compared'
+meta_title: 'Sam Altman vs Dario Amodei vs Elon Musk Enneagram Types'
 description: "A Type 4 who needs to be the one. A Type 5 who needs to contain it. Another Type 5 who needs to own it. A third Type 5 who needs to be the platform. The AI race isn't about technology—it's about four men's psychological wiring."
 author: 'DJ Wayne'
 date: '2026-03-21'

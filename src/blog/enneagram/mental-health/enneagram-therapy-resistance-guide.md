@@ -1,5 +1,5 @@
 ---
-title: 'How Each Enneagram Type Resists Therapy (What Your Therapist Actually Sees)'
+title: 'How Each Enneagram Type Resists Therapy'
 description: 'Your therapist can see your defense patterns playing out in real time. Here is how each Enneagram type gets stuck, resists, and accidentally sabotages their own healing.'
 author: 'DJ Wayne'
 date: '2026-03-28'

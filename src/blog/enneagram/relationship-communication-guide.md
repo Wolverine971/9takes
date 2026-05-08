@@ -1,5 +1,5 @@
 ---
-title: 'Relationship Communication Guide: The Enneagram Key to Understanding Your Partner'
+title: 'Relationship Communication Guide: The Enneagram Key'
 description: 'Learn how each Enneagram type communicates in relationships and discover practical strategies for deeper connection and fewer misunderstandings'
 author: 'DJ Wayne'
 date: '2024-09-28'

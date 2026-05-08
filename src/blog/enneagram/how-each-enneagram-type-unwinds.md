@@ -1,5 +1,5 @@
 ---
-title: 'How Each Enneagram Type Unwinds: Decode Your Perfect Stress-Relief Formula'
+title: 'How Each Enneagram Type Unwinds: Your Stress-Relief Formula'
 description: "Stop fake relaxation. Decode your Enneagram type's exact unwinding formula with tactical strategies that actually recharge your specific personality."
 author: 'DJ Wayne'
 date: '2023-12-08'

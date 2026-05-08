@@ -1,5 +1,5 @@
 ---
-title: 'Enneagram Compatibility: Why Charts Lie and What Actually Predicts Success'
+title: 'Enneagram Compatibility: Why Charts Lie'
 description: 'Forget best/worst match lists. Research on 457 couples reveals what actually predicts relationship success—and it has nothing to do with type compatibility percentages.'
 author: 'DJ Wayne'
 date: '2026-01-06'

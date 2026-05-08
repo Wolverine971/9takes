@@ -1,5 +1,5 @@
 ---
-title: 'Who Built the Enneagram? The Mystics, Psychiatrists, and Philosophers Behind the System'
+title: 'Who Built the Enneagram? Mystics, Psychiatrists, Philosophers'
 description: 'The Enneagram has no single creator. Trace its lineage from Sufi mystics to Chilean psychiatrists and discover why each tradition matters for how you use it today.'
 author: 'DJ Wayne'
 date: '2023-03-02'

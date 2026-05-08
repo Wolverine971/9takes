@@ -1,5 +1,5 @@
 ---
-title: "How All 9 Enneagram Types Flex: Revealing Each Type's Secret Need for Recognition"
+title: "How All 9 Enneagram Types Flex (And What They Need)"
 description: 'Discover the unique ways each Enneagram type shows off their strengths and craves recognition in everyday interactions'
 author: 'DJ Wayne'
 date: '2023-08-09'

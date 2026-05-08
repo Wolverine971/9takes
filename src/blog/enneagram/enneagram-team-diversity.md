@@ -1,5 +1,5 @@
 ---
-title: 'Why Your Team Keeps Having the Same Ideas (And How the Enneagram Fixes It)'
+title: 'Why Your Team Keeps Having the Same Ideas (Enneagram Fix)'
 description: 'Stop hiring people you click with. Build teams that actually think differently using the Enneagram triads.'
 author: 'DJ Wayne'
 date: '2024-08-11'

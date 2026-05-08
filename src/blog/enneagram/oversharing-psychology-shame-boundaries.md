@@ -1,5 +1,5 @@
 ---
-title: 'Why People Overshare: The Psychology of Shame, Boundaries, and Safe Spaces'
+title: 'Why People Overshare: Shame, Boundaries, and Safe Spaces'
 description: "When someone overshares, they're processing shame out loud. When you label it 'oversharing,' you're drawing a boundary. Here's what's really happening on both sides."
 author: 'DJ Wayne'
 date: '2025-12-09'

@@ -1,5 +1,5 @@
 ---
-title: 'Enneagram at Work: What Each Type Needs, Fears, and Brings to Your Team'
+title: 'Enneagram at Work: What Each Type Needs, Fears, Brings'
 description: 'The behaviors that frustrate you at work follow predictable patterns. Here are all 9 Enneagram types mapped to their workplace triggers, blind spots, and exactly what they need from a leader.'
 author: 'DJ Wayne'
 date: '2023-03-27'

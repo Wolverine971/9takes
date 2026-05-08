@@ -1,6 +1,6 @@
 ---
-title: 'Enneagram Parenting Styles: Why You Parent the Way You Do (And What Your Kids Need You to Know)'
-description: "Your parenting struggles aren't random—they're rooted in your Enneagram type. Discover your parenting superpowers, triggers, and blind spots, plus practical tools to break the cycle."
+title: 'Enneagram Parenting Styles: Why You Parent the Way You Do'
+description: "Your parenting struggles aren't random — they're rooted in your Enneagram type. Decode your superpowers, triggers, and blind spots, type by type."
 author: 'DJ Wayne'
 date: '2026-01-06'
 loc: 'https://9takes.com/enneagram-corner/enneagram-parenting-styles'

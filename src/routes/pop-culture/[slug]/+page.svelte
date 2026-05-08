@@ -13,9 +13,31 @@
 	import ArticleSubTitle from '$lib/components/blog/ArticleSubTitle.svelte';
 	import SuggestionsBlog from '$lib/components/blog/SuggestionsBlog.svelte';
 	import EmailSignup from '$lib/components/molecules/Email-Signup.svelte';
+	import TestYourTypeCTA from '$lib/components/blog/TestYourTypeCTA.svelte';
+	import { getPopCultureBridges } from '$lib/data/popCultureBridges';
+	import { getPersonalityCategoryBySlug } from '$lib/personalityCategories';
 	let { data }: { data: PageData } = $props();
 	type C = Component;
 	let Article = $derived(data.component as unknown as C);
+
+	// Bucket 3 — internal-linking bridges to type pillars, corpus stats, and
+	// the matching personality-analysis category. Falls back to no-render
+	// when the slug isn't mapped (e.g., an unpublished file rendered in dev).
+	const bridges = $derived(getPopCultureBridges(data?.slug ?? ''));
+	const bridgeCategory = $derived(
+		bridges ? getPersonalityCategoryBySlug(bridges.category) : null
+	);
+	const TYPE_PILLAR_LABELS: Record<number, string> = {
+		1: 'Type 1 — Perfectionist',
+		2: 'Type 2 — Helper',
+		3: 'Type 3 — Achiever',
+		4: 'Type 4 — Individualist',
+		5: 'Type 5 — Investigator',
+		6: 'Type 6 — Loyalist',
+		7: 'Type 7 — Enthusiast',
+		8: 'Type 8 — Challenger',
+		9: 'Type 9 — Peacemaker'
+	};
 
 	const contentStore = writable('');
 
@@ -136,21 +158,63 @@
 		<p class="related-eyebrow">Keep Reading</p>
 		<h2>Explore More Pop Culture Psychology</h2>
 		<div class="related-grid">
-			<a href="/pop-culture#dark-psychology" class="related-card">
-				<span class="card-icon">🎭</span>
-				<h3>Dark Psychology</h3>
-				<p>Explore the shadow side of personality through famous cases.</p>
-				<span class="card-link">View Articles →</span>
-			</a>
-			<a href="/pop-culture#celebrity-analysis" class="related-card">
-				<span class="card-icon">⭐</span>
-				<h3>Celebrity Analysis</h3>
-				<p>Deep dives into the personalities of public figures.</p>
-				<span class="card-link">View Articles →</span>
-			</a>
+			{#if bridges}
+				<a href={`/enneagram-corner/enneagram-type-${bridges.type}`} class="related-card">
+					<span class="card-icon">○</span>
+					<h3>{TYPE_PILLAR_LABELS[bridges.type]}</h3>
+					<p>The pillar profile for the type at the center of this analysis.</p>
+					<span class="card-link">Read the type pillar →</span>
+				</a>
+				{#if bridges.secondaryType}
+					<a
+						href={`/enneagram-corner/enneagram-type-${bridges.secondaryType}`}
+						class="related-card"
+					>
+						<span class="card-icon">◐</span>
+						<h3>{TYPE_PILLAR_LABELS[bridges.secondaryType]}</h3>
+						<p>The other type driving this dynamic — read it side-by-side.</p>
+						<span class="card-link">Read the type pillar →</span>
+					</a>
+				{/if}
+				{#if bridgeCategory}
+					<a
+						href={`/personality-analysis/categories/${bridgeCategory.slug}`}
+						class="related-card"
+					>
+						<span class="card-icon">◯</span>
+						<h3>{bridgeCategory.label} profiles</h3>
+						<p>Real-people personality breakdowns inside this same category.</p>
+						<span class="card-link">Browse profiles →</span>
+					</a>
+				{/if}
+				<a
+					href={`/corpus-stats#domain-${bridges.corpusAnchor}`}
+					class="related-card"
+				>
+					<span class="card-icon">▦</span>
+					<h3>Corpus stats — {bridgeCategory?.shortLabel ?? bridges.corpusAnchor}</h3>
+					<p>The actual type distribution in this domain across the 9takes corpus.</p>
+					<span class="card-link">See the data →</span>
+				</a>
+			{:else}
+				<a href="/pop-culture#dark-psychology" class="related-card">
+					<span class="card-icon">🎭</span>
+					<h3>Dark Psychology</h3>
+					<p>Explore the shadow side of personality through famous cases.</p>
+					<span class="card-link">View Articles →</span>
+				</a>
+				<a href="/pop-culture#celebrity-analysis" class="related-card">
+					<span class="card-icon">⭐</span>
+					<h3>Celebrity Analysis</h3>
+					<p>Deep dives into the personalities of public figures.</p>
+					<span class="card-link">View Articles →</span>
+				</a>
+			{/if}
 		</div>
 	</section>
 </article>
+
+<TestYourTypeCTA />
 
 <hr class="section-divider" />
 

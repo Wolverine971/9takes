@@ -1,10 +1,10 @@
 ---
-title: 'The Counterintuitive Guide to Active Listening: Why Your Personality Type Sabotages Conversations (And How to Fix It)'
-description: "Most people think they're good listeners. They're wrong. Here's the personality-based system that transforms how you connect, backed by neuroscience and Enneagram insights."
+title: 'Active Listening Guide: Why Your Personality Type Sabotages It'
+description: "Most people think they're good listeners. They're wrong. Here's the Enneagram-based system that fixes how you actually hear people."
 author: 'DJ Wayne'
 date: '2025-09-14'
 loc: 'https://9takes.com/how-to-guides/ultimate-guide-to-active-listening'
-lastmod: '2026-01-17'
+lastmod: '2026-05-07'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
@@ -13,6 +13,16 @@ blog: true
 previewHtml: "Discover why each Enneagram type fails at listening in predictable ways, plus the exact techniques to overcome your type's blind spots and build deeper connections."
 pic: 'greek-statues-having-an-intense-conversation'
 path: src/blog/guides/ultimate-guide-to-active-listening.md
+totalTime: 'P30D'
+howToSteps:
+  - name: 'Week 1 — Awareness: Know Your Pattern'
+    text: 'Identify your Enneagram type''s specific listening block (the Corrector''s Curse, the Helper''s Hijack, the Achiever''s Acceleration, etc.). Track how often it appears daily — no judgment, just observation. Success metric: you catch yourself in the pattern five times a day.'
+  - name: 'Week 2 — Interruption: Break the Pattern'
+    text: 'Practice your type''s 5-second challenge — hold silence for five full seconds after they finish speaking. Use one tactical fix daily. Notice the discomfort; it means it''s working. Success metric: someone says "you seem different."'
+  - name: 'Week 3 — Integration: New Habits'
+    text: 'Combine multiple techniques across conversations. Practice with difficult people, not just easy ones. Track unexpected outcomes. Success metric: you learn something surprising about someone you already know well.'
+  - name: 'Week 4 — Mastery: Make It Automatic'
+    text: 'Techniques become natural. Energy shifts from effort to curiosity. Relationships noticeably improve. Success metric: someone thanks you for really listening.'
 ---
 
 <!--
@@ -40,6 +50,8 @@ professional listening skills
 Hold five seconds of silence after someone finishes, and people often deliver the line they were about to swallow. In practice, that five-second pause unlocks the real story they came to tell.
 
 Through the Enneagram lens, listening gets even clearer. Each type has a predictable listening kryptonite that sabotages conversations. The same tendency that powers your professional strengths often trips you up here.
+
+> Pattern from our [325 personality profiles](/personality-analysis): in our [Tech, Founders & Business](/personality-analysis/categories/tech-business) category (n=55), Type 5 (Investigator) is over-represented at 23.6% — +15.94 percentage points above the corpus baseline. The same trait that makes Investigators brilliant operators (deep information filtering) is what makes them notoriously hard to talk to. Listening blocks track to type, and the highest-leverage fix is type-specific.
 
 This guide breaks down the neuroscience, the nine listening patterns, and the tactical fixes that actually work. If you want the broader model for why listening is the engine of persuasion, start with [how minds actually change](/community/how-minds-change-on-9takes).
 

@@ -1,5 +1,5 @@
 ---
-title: 'Astrology vs. the Enneagram: Your Zodiac Tells You When, Your Type Tells You Why'
+title: 'Astrology vs. the Enneagram: When vs. Why'
 description: "Your Scorpio intensity and your Type 8 drive aren't the same thing — but they aren't unrelated either. Astrology maps what influences you. The Enneagram maps why you respond. Here's the complete chart pairing all 9 types to signs, planets, and houses."
 author: 'DJ Wayne'
 date: '2024-08-23'

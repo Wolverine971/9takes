@@ -1,6 +1,6 @@
 ---
 title: "Breaking Points: How a Type 1 and a Type 7 Built Media's Most Unlikely Partnership"
-meta_title: 'Krystal Ball & Saagar Enjeti Enneagram Types: Breaking Points Psychology'
+meta_title: 'Krystal Ball & Saagar Enjeti: Breaking Points Psychology'
 description: 'A left populist and a right populist built one of the biggest independent political news shows in America. Their Enneagram types reveal why this partnership works when nothing else in media does.'
 author: 'DJ Wayne'
 date: '2026-03-22'

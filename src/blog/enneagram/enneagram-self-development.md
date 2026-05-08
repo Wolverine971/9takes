@@ -1,6 +1,6 @@
 ---
-title: 'Enneagram Self-Development: What I Got Wrong as a Type 8 (And the Map That Works)'
-description: "I overtrained until my body broke. I joined the Marines because 'pain is weakness leaving the body' felt like home. Then I learned: personality isn't something to overcome — it's a system you decode before you can rewire it. Here's the type-by-type self-development map I wish I'd had."
+title: 'Enneagram Self-Development: What I Got Wrong as a Type 8'
+description: "I overtrained until my body broke. Joined the Marines because 'pain is weakness leaving the body' felt like home. Personality isn't to overcome — it's to decode."
 author: 'DJ Wayne'
 date: '2023-03-26'
 loc: 'https://9takes.com/enneagram-corner/enneagram-self-development'

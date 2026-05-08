@@ -1,5 +1,5 @@
 ---
-title: 'The Stress Paradox: Why Your Emotional Patterns Outlast Every Situation'
+title: 'The Stress Paradox: Why Emotional Patterns Outlast Situations'
 description: 'Your stress triggers change. Your emotional reactions rarely do. Learn why your responses follow predictable patterns and how to break the cycle.'
 author: 'DJ Wayne'
 date: '2024-09-14'

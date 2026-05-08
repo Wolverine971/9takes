@@ -1,5 +1,5 @@
 ---
-title: 'Crisis Management by Enneagram Type: Your Emergency Mental Health Toolkit'
+title: 'Crisis Management by Enneagram Type: A Mental Health Toolkit'
 description: 'Learn immediate interventions for each Enneagram type in crisis, including suicide prevention strategies, emergency coping tools, and how to help others.'
 author: 'DJ Wayne'
 date: '2025-08-25'

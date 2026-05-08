@@ -1,5 +1,5 @@
 ---
-title: 'Online Dating, Decoded: A Companion Guide for Men and Women Who Want Real Connection'
+title: 'Online Dating, Decoded: A Guide for Real Connection'
 description: "Online dating is two completely different games for men and women. Here's what each side needs to know — including what she's actually thinking when she looks at your profile."
 author: 'DJ Wayne'
 date: '2026-04-07'

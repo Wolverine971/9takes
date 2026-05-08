@@ -1,5 +1,5 @@
 ---
-title: '9 Toxic Personality Traits: The Hidden Dark Side of Each Enneagram Type'
+title: '9 Toxic Personality Traits: The Dark Side of Each Type'
 description: 'Discover the shadow aspects hiding in each personality type, why they emerge, and how to deal with them in yourself and others.'
 author: 'DJ Wayne'
 date: '2024-07-12'

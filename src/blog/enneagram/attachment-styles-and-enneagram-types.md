@@ -1,5 +1,5 @@
 ---
-title: 'Attachment Styles and Enneagram Types: Why the Same Style Looks Different'
+title: 'Attachment Styles and Enneagram Types: A Map'
 description: 'Discover how Enneagram types shape attachment styles. Learn why two anxiously attached people act differently and get type-specific strategies for earning secure attachment.'
 author: 'DJ Wayne'
 date: '2025-08-29'

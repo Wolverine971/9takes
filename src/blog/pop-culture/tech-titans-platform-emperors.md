@@ -1,6 +1,6 @@
 ---
 title: 'The Platform Emperors: How Personality Types Shape the Products Billions Use'
-meta_title: 'Zuckerberg, Bezos, Dorsey & Musk Enneagram Types - Platform Builders Compared'
+meta_title: 'Zuckerberg, Bezos, Dorsey & Musk: Platform Builder Types'
 description: 'A Type 5 engineered friendship. A Type 8 conquered commerce. Another Type 5 built the town square then walked away. Then a third Type 5 bought it and tried to re-engineer human discourse like a rocket. Why the platforms you use every day feel the way they do.'
 author: 'DJ Wayne'
 date: '2026-04-07'

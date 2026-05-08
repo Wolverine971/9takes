@@ -1,6 +1,6 @@
 ---
-title: "When 'I'm Fine' Isn't: How to Read Your Child's Mental Health by Their Personality Pattern"
-description: "The withdrawn child might be processing — or spiraling. The 'perfect' child might be thriving — or one failure away from crisis. Same behavior, different meaning. Here is how each Enneagram-style pattern shapes children's mental health, and the warning signs that matter."
+title: "When 'I'm Fine' Isn't: Reading Your Child's Mental Health by Type"
+description: "The withdrawn child might be processing — or spiraling. The 'perfect' child might be one failure from crisis. Same behavior, different meaning, by Enneagram pattern."
 author: 'DJ Wayne'
 date: '2025-08-25'
 loc: 'https://9takes.com/enneagram-corner/mental-health/enneagram-parenting-mental-health'

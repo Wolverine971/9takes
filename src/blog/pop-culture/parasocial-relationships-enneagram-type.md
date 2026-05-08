@@ -1,6 +1,6 @@
 ---
 title: 'Parasocial Relationships: Why Each Enneagram Type Forms Them'
-meta_title: 'Parasocial Relationships by Enneagram Type: Why You Feel Like You Know Celebrities'
+meta_title: 'Parasocial Relationships: Why You Feel You Know Celebrities'
 description: "Why do you feel emotionally connected to someone who doesn't know you exist? Your Enneagram type explains your parasocial relationship patterns with celebrities and influencers."
 author: 'DJ Wayne'
 date: '2026-02-02'

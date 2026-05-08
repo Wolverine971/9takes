@@ -1,6 +1,6 @@
 ---
 title: 'Podcast Bros: Inside the Movement That Replaced Mainstream Media'
-meta_title: 'Podcast Bros Enneagram Analysis: The Psychology Behind Rogan, Lex, Ferriss & Huberman'
+meta_title: 'Podcast Bros: Enneagram of Rogan, Lex, Ferriss & Huberman'
 description: 'Why do millions of men trust podcasters more than therapists, professors, or priests? The Enneagram explains which host fills which psychological void—and why the movement resonates so deeply.'
 author: 'DJ Wayne'
 date: '2026-03-04'

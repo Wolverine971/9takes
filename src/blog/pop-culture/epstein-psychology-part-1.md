@@ -1,6 +1,6 @@
 ---
 title: 'The Psychology of Jeffrey Epstein: Understanding the Dark Helper (Part 1)'
-meta_title: 'Jeffrey Epstein Psychology Explained: The Dark Helper Pattern (Part 1 of 2)'
+meta_title: 'Jeffrey Epstein: The Dark Helper Pattern (Part 1 of 2)'
 description: "A psychological analysis of Jeffrey Epstein through the Enneagram lens. How a Type 2's need to be needed became a weapon of manipulation and control."
 author: 'DJ Wayne'
 date: '2026-02-05'

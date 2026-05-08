@@ -1,5 +1,5 @@
 ---
-title: 'How Each Enneagram Type Survives Trauma: Fight, Flight, Freeze, or Fawn'
+title: 'How Each Enneagram Type Survives Trauma'
 description: 'Type 8s fight. Type 7s flee. Type 9s freeze. Type 2s fawn. Your personality often formed around the wound — here is how each Enneagram type tends to survive trauma, where it lives in the body, and the healing approaches that fit your pattern.'
 author: 'DJ Wayne'
 date: '2025-09-09'

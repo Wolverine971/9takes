@@ -1,6 +1,6 @@
 ---
 title: 'Founders vs Stewards: The Personality Types That Replace Tech Visionaries'
-meta_title: 'Jobs vs Cook, Gates vs Nadella, Bezos vs Jassy - Enneagram Succession Analysis'
+meta_title: 'Jobs vs Cook, Gates vs Nadella: Enneagram Succession'
 description: 'Apple replaced a Type 1 with a Type 1. Microsoft replaced a Type 5 with a Type 5. Amazon replaced an 8 with a 3. Google replaced founders with a Type 9. The successor reveals what the company actually needs.'
 author: 'DJ Wayne'
 date: '2026-03-21'

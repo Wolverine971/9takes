@@ -1,5 +1,5 @@
 ---
-title: 'Enneagram Team Dynamics: Which Type Combinations Click (and Which Implode)'
+title: 'Enneagram Team Dynamics: Which Pairs Click, Which Implode'
 description: 'Some Enneagram pairs amplify each other. Others quietly destroy projects. Here are the high-synergy combinations to build teams around — and the volatile pairings that need conscious management before they blow up.'
 author: 'DJ Wayne'
 date: '2023-04-01'

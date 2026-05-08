@@ -1,6 +1,6 @@
 ---
-title: "Why You're Burning Out at Work (Your Enneagram Type Reveals the Hidden Cause)"
-description: "Type 1s burn out fixing broken systems nobody cares about. Type 2s burn out as everyone's unpaid therapist. Type 5s burn out in open offices running meetings-about-meetings. Find your type's specific burnout formula — and the workplace conditions that quietly break you."
+title: "Why You're Burning Out at Work (Your Enneagram Type Reveals It)"
+description: "Type 1s burn out fixing broken systems. Type 2s burn out as everyone's unpaid therapist. Type 5s burn out in open offices. Each type's exact burnout formula."
 author: 'DJ Wayne'
 date: '2025-08-25'
 loc: 'https://9takes.com/enneagram-corner/mental-health/enneagram-workplace-mental-health'
@@ -12,7 +12,7 @@ type: ['mental-health']
 blog: true
 previewHtml: ''
 pic: 'greek-statue-on-laptop-stressed'
-meta_title: "Why You're Burning Out at Work (Your Personality Type Reveals the Hidden Cause)"
+meta_title: "Why You're Burning Out at Work (Your Personality Type Reveals It)"
 path: src/blog/enneagram/mental-health/enneagram-workplace-mental-health.md
 quality_grade: 'D'
 quality_score: 6.9

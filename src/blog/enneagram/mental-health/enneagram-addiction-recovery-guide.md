@@ -1,6 +1,6 @@
 ---
-title: 'Enneagram and Addiction: Why Type 1s Work Themselves to Death and Type 7s Stack Substances'
-description: "The Type 1 attorney billing 80-hour weeks isn't dedicated. The Type 7 life of the party isn't fun-loving. The Type 9 who can't stop eating isn't undisciplined. Each Enneagram type tends to run from a different pain — and that's why generic recovery programs miss most of them."
+title: 'Enneagram and Addiction: Why Each Type Self-Medicates Differently'
+description: "The Type 1 billing 80-hour weeks isn't dedicated. The Type 7 life of the party isn't fun. Each type runs from a different pain — and generic recovery misses most of them."
 author: 'DJ Wayne'
 date: '2025-09-01'
 loc: 'https://9takes.com/enneagram-corner/mental-health/enneagram-addiction-recovery-guide'

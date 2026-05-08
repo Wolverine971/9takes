@@ -1,6 +1,6 @@
 ---
 title: 'How Epstein Trapped the Powerful and the Vulnerable (Part 2)'
-meta_title: 'How Epstein Lured Billionaires and Victims: The Two Playbooks (Part 2 of 2)'
+meta_title: 'Epstein Lured Billionaires & Victims: Two Playbooks (Part 2)'
 description: 'Epstein ran two playbooks: one for elites seeking access and secrecy, one for vulnerable teens seeking stability. Both ended the same way. The escalation trap explained.'
 author: 'DJ Wayne'
 date: '2026-02-05'

@@ -1,6 +1,6 @@
 ---
-title: 'What Women Actually Select For: Strength, Discipline, and the Masculinity No One Teaches'
-description: "The blackpill says looks are everything. Pickup culture says game is everything. Both are wrong. Here's what the biology, psychology, and Enneagram reveal about what genuine masculine strength actually looks like."
+title: 'What Women Select For: Strength, Discipline, and Masculinity'
+description: "Blackpill says looks. Pickup says game. Both are wrong. What the biology, psychology, and Enneagram reveal about real masculine strength."
 author: 'DJ Wayne'
 date: '2026-03-23'
 loc: 'https://9takes.com/pop-culture/masculinity-strength-and-the-enneagram'
