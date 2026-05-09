@@ -10,6 +10,10 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 type: ['situational']
+popCulture:
+  category: politics-power
+  subcategory: presidents
+  series: presidents
 blog: true
 previewHtml: ''
 pic: 'trump-type-8-vs-biden-type-2-composite'

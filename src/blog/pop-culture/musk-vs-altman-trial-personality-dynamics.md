@@ -10,6 +10,10 @@ changefreq: 'weekly'
 priority: '0.7'
 published: true
 type: ['situational']
+popCulture:
+  category: tech-business
+  subcategory: ai-power
+  series: ai-wars
 blog: true
 previewHtml: ''
 pic: 'musk-vs-altman-trial-personality-dynamics-composite'

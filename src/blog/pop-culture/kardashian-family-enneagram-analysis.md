@@ -10,6 +10,10 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 type: ['situational']
+popCulture:
+  category: celebrity-dynasties
+  subcategory: famous-families
+  series: kardashians
 blog: true
 previewHtml: ''
 pic: 'kardashian-family-enneagram-analysis-composite'

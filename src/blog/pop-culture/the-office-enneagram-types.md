@@ -10,6 +10,10 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 type: ['situational']
+popCulture:
+  category: entertainment-media
+  subcategory: fictional-worlds
+  series: workplace-sitcoms
 blog: true
 previewHtml: ''
 pic: 'the-office-enneagram-types-composite'

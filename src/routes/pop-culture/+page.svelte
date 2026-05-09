@@ -6,12 +6,13 @@
   Template: src/routes/enneagram-corner/+page.svelte (already migrated).
   Spec: docs/design-system.md §4–§6, /design-preview/v5.
 
-  Server load (untouched): returns { popCultureBlogs, featured, recentlyUpdated }.
+  Server load returns { popCultureBlogs, featured, recentlyUpdated, categoryGroups }.
   V5 tokens (--lamp-*, --night-*, --stone-*, --ink-*, --data-*, --pool-*) live
   in src/scss/index.scss bridge blocks; this file references them via var(--…).
 
-  Note: nearly every pop-culture post has type[0] = 'situational', so we drop
-  topic-grouping for this index and present a single "All Analyses" sub-section.
+  Pop-culture posts are organized by the `popCulture` frontmatter object:
+  category -> subcategory -> optional series. The index groups by that taxonomy
+  because `type[0]` is intentionally generic across this section.
 -->
 <script lang="ts">
 	import type { PageData } from './$types';
@@ -19,19 +20,29 @@
 	import { Button, SectionKicker } from '$lib/components/atoms';
 
 	let { data }: { data: PageData } = $props();
-
-	// ------------------------------------------------------------------
-	// Remaining posts after featured + recently-updated are excluded.
-	// ------------------------------------------------------------------
-	const remainingBlogs = $derived.by(() => {
-		const excluded = new Set([
-			...data.featured.map((p) => p.slug),
-			...data.recentlyUpdated.map((p) => p.slug)
-		]);
-		return data.popCultureBlogs.filter((b) => !excluded.has(b.slug));
-	});
+	type PopCultureIndexPost = PageData['popCultureBlogs'][number];
 
 	const publishedCount = $derived(data.popCultureBlogs.length);
+	const MIN_POSTS_PER_VISIBLE_SUBCATEGORY = 3;
+	const MIN_VISIBLE_SUBCATEGORIES = 4;
+
+	const categoryLabels = $derived.by(() => {
+		const labels = new Map<string, string>();
+		for (const group of data.categoryGroups) {
+			labels.set(group.category.slug, group.category.title);
+		}
+		return labels;
+	});
+
+	const subcategoryLabels = $derived.by(() => {
+		const labels = new Map<string, string>();
+		for (const group of data.categoryGroups) {
+			for (const subcategoryGroup of group.subcategories) {
+				labels.set(subcategoryGroup.subcategory.slug, subcategoryGroup.subcategory.title);
+			}
+		}
+		return labels;
+	});
 
 	// ------------------------------------------------------------------
 	// Helpers — mirror /enneagram-corner for visual consistency.
@@ -53,6 +64,28 @@
 		return d
 			.toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: '2-digit' })
 			.toUpperCase();
+	}
+
+	function getTopicLabel(post: PopCultureIndexPost): string {
+		const subcategory = post.popCulture?.subcategory;
+		const category = post.popCulture?.category;
+
+		if (subcategory && subcategoryLabels.has(subcategory))
+			return subcategoryLabels.get(subcategory)!;
+		if (category && categoryLabels.has(category)) return categoryLabels.get(category)!;
+		return 'POP CULTURE';
+	}
+
+	function topicSuffix(i: number): string {
+		return String.fromCharCode(97 + (i % 26));
+	}
+
+	function shouldSplitSubcategories(group: PageData['categoryGroups'][number]): boolean {
+		return (
+			group.subcategories.filter(
+				(subcategoryGroup) => subcategoryGroup.posts.length >= MIN_POSTS_PER_VISIBLE_SUBCATEGORY
+			).length >= MIN_VISIBLE_SUBCATEGORIES
+		);
 	}
 </script>
 
@@ -184,10 +217,7 @@
 
 			<div class="featured-grid" class:featured-grid--single={data.featured.length === 1}>
 				{#each data.featured as post, i (post.slug)}
-					{@const topic = (post.type?.[0] ?? 'POP CULTURE')
-						.toString()
-						.replace(/-/g, ' ')
-						.toUpperCase()}
+					{@const topic = getTopicLabel(post).toUpperCase()}
 					{@const label = getRecencyLabel(post.lastmod, post.date)}
 					<a
 						href="/pop-culture/{post.slug}"
@@ -246,10 +276,7 @@
 
 			<div class="case-grid case-grid--four">
 				{#each data.recentlyUpdated as post, i (post.slug)}
-					{@const topic = (post.type?.[0] ?? 'POP CULTURE')
-						.toString()
-						.replace(/-/g, ' ')
-						.toUpperCase()}
+					{@const topic = getTopicLabel(post).toUpperCase()}
 					{@const label = getRecencyLabel(post.lastmod, post.date)}
 					<a href="/pop-culture/{post.slug}" class="case-card" aria-label="Read {post.title}">
 						<div class="case-image-wrap">
@@ -286,71 +313,138 @@
 	{/if}
 
 	<!-- =====================================================================
-	  §04 ALL ANALYSES — remaining posts as case-file cards.
-	  Pop-culture posts are uniformly tagged `situational`, so we present them
-	  as a single sub-block ("04a · ALL ANALYSES") rather than splitting by topic.
+	  §04 BY TOPIC — category/subcategory groups from frontmatter
 	  ===================================================================== -->
-	{#if remainingBlogs.length > 0}
+	{#if data.categoryGroups.length > 0}
 		<section class="by-topic" id="all-analyses">
 			<header class="section-head">
-				<SectionKicker class="section-tag" num="04" label="THE LIBRARY" />
-				<h2 class="display-md">All analyses.</h2>
-				<p class="section-sub">Deep dives into the personalities behind public stories.</p>
+				<SectionKicker class="section-tag" num="04" label="BY TOPIC" />
+				<h2 class="display-md">By topic.</h2>
+				<p class="section-sub">Choose a cluster and read the pieces that belong together.</p>
 			</header>
 
-			<div class="topic-block">
-				<header class="topic-block-head">
-					<SectionKicker
-						tone="data"
-						num="04a"
-						label="TOPIC · ALL ANALYSES"
-						class="topic-block-kicker"
-					/>
-					<h3 class="display-sm">All reads.</h3>
-					<p class="topic-block-sub">
-						Celebrities, criminals, characters, and cultural moments &mdash; through the 9 emotional
-						patterns.
-					</p>
-				</header>
+			{#each data.categoryGroups as group, gi (group.category.slug)}
+				<div class="topic-block" id={group.category.slug}>
+					<header class="topic-block-head">
+						<SectionKicker
+							tone="data"
+							num={`04${topicSuffix(gi)}`}
+							label={`CATEGORY · ${group.category.title.toUpperCase()}`}
+							class="topic-block-kicker"
+						/>
+						<h3 class="display-sm">{group.category.title}.</h3>
+						<p class="topic-block-sub">{group.category.descriptor}</p>
+					</header>
 
-				<div class="case-grid case-grid--four">
-					{#each remainingBlogs as post, i (post.slug)}
-						{@const label = getRecencyLabel(post.lastmod, post.date)}
-						<a href="/pop-culture/{post.slug}" class="case-card" aria-label="Read {post.title}">
-							<div class="case-image-wrap">
-								{#if post.pic}
-									<img
-										src={`/blogs/s-${post.pic}.webp`}
-										alt={post.title}
-										class="case-image"
-										loading="lazy"
-										width="320"
-										height="240"
-										decoding="async"
-									/>
-								{:else}
-									<div class="case-image-stub" aria-hidden="true">
-										<span class="mono">[ANALYSIS]</span>
+					{#if shouldSplitSubcategories(group)}
+						{#each group.subcategories as subcategoryGroup (subcategoryGroup.subcategory.slug)}
+							<div class="subcategory-block" id={subcategoryGroup.subcategory.slug}>
+								<header class="subcategory-head">
+									<div>
+										<p class="mono subcategory-label">SUBCATEGORY</p>
+										<h4>{subcategoryGroup.subcategory.title}</h4>
+										<p>{subcategoryGroup.subcategory.descriptor}</p>
 									</div>
-								{/if}
+									<span class="mono subcategory-count">
+										{subcategoryGroup.posts.length}
+										{subcategoryGroup.posts.length === 1 ? 'READ' : 'READS'}
+									</span>
+								</header>
+
+								<div class="case-grid case-grid--four">
+									{#each subcategoryGroup.posts as post (post.slug)}
+										{@const label = getRecencyLabel(post.lastmod, post.date)}
+										<a
+											href="/pop-culture/{post.slug}"
+											class="case-card"
+											aria-label="Read {post.title}"
+										>
+											<div class="case-image-wrap">
+												{#if post.pic}
+													<img
+														src={`/blogs/s-${post.pic}.webp`}
+														alt={post.title}
+														class="case-image"
+														loading="lazy"
+														width="320"
+														height="240"
+														decoding="async"
+													/>
+												{:else}
+													<div class="case-image-stub" aria-hidden="true">
+														<span class="mono">[ANALYSIS]</span>
+													</div>
+												{/if}
+											</div>
+											<div class="case-card-body">
+												<span class="mono case-id">{group.category.title.toUpperCase()}</span>
+												<h3 class="case-name">{post.title}</h3>
+												{#if post.description}
+													<p class="case-subtitle">{post.description}</p>
+												{/if}
+												<div class="case-meta">
+													{#if post.date}
+														<span class="mono case-date">{formatDate(post.date)}</span>
+													{/if}
+													{#if label}
+														<span class="mono case-recency">{label}</span>
+													{/if}
+												</div>
+											</div>
+										</a>
+									{/each}
+								</div>
 							</div>
-							<div class="case-card-body">
-								<span class="mono case-id">POP CULTURE</span>
-								<h3 class="case-name">{post.title}</h3>
-								{#if post.description}
-									<p class="case-subtitle">{post.description}</p>
-								{/if}
-								{#if post.date}
-									<span class="mono case-date">{formatDate(post.date)}</span>
-								{/if}
-								{#if label}
-									<span class="mono case-recency">{label}</span>
-								{/if}
+						{/each}
+					{:else}
+						<div class="cluster-block">
+							<div class="case-grid case-grid--four">
+								{#each group.posts as post (post.slug)}
+									{@const label = getRecencyLabel(post.lastmod, post.date)}
+									<a
+										href="/pop-culture/{post.slug}"
+										class="case-card"
+										aria-label="Read {post.title}"
+									>
+										<div class="case-image-wrap">
+											{#if post.pic}
+												<img
+													src={`/blogs/s-${post.pic}.webp`}
+													alt={post.title}
+													class="case-image"
+													loading="lazy"
+													width="320"
+													height="240"
+													decoding="async"
+												/>
+											{:else}
+												<div class="case-image-stub" aria-hidden="true">
+													<span class="mono">[ANALYSIS]</span>
+												</div>
+											{/if}
+										</div>
+										<div class="case-card-body">
+											<span class="mono case-id">{group.category.title.toUpperCase()}</span>
+											<h3 class="case-name">{post.title}</h3>
+											{#if post.description}
+												<p class="case-subtitle">{post.description}</p>
+											{/if}
+											<div class="case-meta">
+												{#if post.date}
+													<span class="mono case-date">{formatDate(post.date)}</span>
+												{/if}
+												{#if label}
+													<span class="mono case-recency">{label}</span>
+												{/if}
+											</div>
+										</div>
+									</a>
+								{/each}
 							</div>
-						</a>
-					{/each}
+						</div>
+					{/if}
 				</div>
-			</div>
+			{/each}
 		</section>
 	{/if}
 
@@ -853,7 +947,7 @@
 	}
 
 	/* =========================================================
-	  §04 BY TOPIC — single sub-block
+	  §04 BY TOPIC — category + subcategory blocks
 	  ========================================================= */
 	.by-topic {
 		.section-head {
@@ -910,6 +1004,64 @@
 		line-height: 1.55;
 		color: var(--ink-mid);
 		max-width: 580px;
+	}
+
+	.subcategory-block {
+		max-width: 1280px;
+		margin: 0 auto 44px;
+		scroll-margin-top: 84px;
+
+		&:last-child {
+			margin-bottom: 0;
+		}
+	}
+
+	.subcategory-head {
+		display: flex;
+		justify-content: space-between;
+		align-items: flex-start;
+		gap: 24px;
+		margin-bottom: 18px;
+		padding: 18px 0 14px;
+		border-bottom: 1px solid var(--stone-edge);
+
+		h4 {
+			font-family: var(--font-display);
+			font-size: 22px;
+			line-height: 1.2;
+			color: var(--ink-bright);
+			margin: 0 0 6px;
+			letter-spacing: 0;
+		}
+
+		p:not(.mono) {
+			font-family: var(--font-display);
+			font-size: 14px;
+			line-height: 1.5;
+			color: var(--ink-mid);
+			margin: 0;
+			max-width: 620px;
+		}
+
+		@media (max-width: 640px) {
+			flex-direction: column;
+			gap: 10px;
+
+			h4 {
+				font-size: 20px;
+			}
+		}
+	}
+
+	.subcategory-label {
+		color: var(--data-teal);
+		margin-bottom: 8px;
+	}
+
+	.subcategory-count {
+		color: var(--lamp-glow);
+		white-space: nowrap;
+		padding-top: 2px;
 	}
 
 	/* =========================================================

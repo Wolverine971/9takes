@@ -10,6 +10,10 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 type: ['situational']
+popCulture:
+  category: internet-culture
+  subcategory: digital-intimacy
+  series: creator-economy
 blog: true
 previewHtml: ''
 pic: ''

@@ -10,6 +10,10 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 type: ['situational']
+popCulture:
+  category: internet-culture
+  subcategory: creator-economy
+  series: creator-conflict
 blog: true
 previewHtml: ''
 pic: 'alex-cooper-alix-earle-beef-enneagram-analysis-composite'

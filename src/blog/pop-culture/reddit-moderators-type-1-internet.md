@@ -10,6 +10,10 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 type: ['situational']
+popCulture:
+  category: internet-culture
+  subcategory: platform-power
+  series: platform-conflict
 blog: true
 previewHtml: ''
 pic: 'reddit-mod-psychology'

@@ -10,6 +10,10 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 type: ['situational']
+popCulture:
+  category: politics-power
+  subcategory: world-leaders
+  series: global-power
 blog: true
 previewHtml: ''
 pic: 'world-leaders-enneagram-personality-dynamics-composite'

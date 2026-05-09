@@ -10,6 +10,10 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 type: ['situational']
+popCulture:
+  category: tech-business
+  subcategory: founder-failure
+  series: fallen-founders
 blog: true
 previewHtml: ''
 pic: 'fallen-founders-enneagram-analysis-composite'

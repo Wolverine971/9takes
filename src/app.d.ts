@@ -139,6 +139,12 @@ declare global {
 			url?: string;
 		}
 
+		interface PopCultureTaxonomy {
+			category: string;
+			subcategory?: string;
+			series?: string;
+		}
+
 		interface BlogPost {
 			id?: number;
 			slug: string;
@@ -161,6 +167,7 @@ declare global {
 			article_citations?: BlogPostCitation[];
 			enneagram?: string | number;
 			type?: string[] | string;
+			popCulture?: PopCultureTaxonomy;
 			stage?: number;
 			stageName?: string;
 			tags?: string[];

@@ -10,6 +10,10 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 type: ['situational']
+popCulture:
+  category: politics-power
+  subcategory: political-media
+  series: independent-media
 blog: true
 previewHtml: ''
 pic: 'breaking-points-enneagram-analysis-composite'

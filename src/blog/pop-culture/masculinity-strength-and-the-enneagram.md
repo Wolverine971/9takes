@@ -9,9 +9,13 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 type: ['situational']
+popCulture:
+  category: internet-culture
+  subcategory: masculinity-internet
+  series: men-online
 blog: true
 previewHtml: ''
-pic: 'shattered-mirror-dark'
+pic: 'male_and_female_greek_statues'
 path: src/blog/pop-culture/masculinity-strength-and-the-enneagram.md
 ---
 

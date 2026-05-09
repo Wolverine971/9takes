@@ -10,6 +10,10 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 type: ['situational']
+popCulture:
+  category: entertainment-media
+  subcategory: comedy
+  series: comedy-personality
 blog: true
 previewHtml: ''
 pic: 'comedy-kings-enneagram-analysis-composite'

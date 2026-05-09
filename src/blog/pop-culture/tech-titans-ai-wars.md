@@ -10,6 +10,10 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 type: ['situational']
+popCulture:
+  category: tech-business
+  subcategory: ai-power
+  series: tech-titans
 blog: true
 previewHtml: ''
 pic: 'tech-titans-ai-wars-composite'

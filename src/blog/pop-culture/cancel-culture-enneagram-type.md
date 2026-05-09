@@ -10,6 +10,10 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 type: ['situational']
+popCulture:
+  category: internet-culture
+  subcategory: platform-conflict
+  series: online-status
 blog: true
 previewHtml: ''
 pic: ''

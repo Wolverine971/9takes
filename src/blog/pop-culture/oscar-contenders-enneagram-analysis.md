@@ -10,6 +10,10 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 type: ['situational']
+popCulture:
+  category: entertainment-media
+  subcategory: awards-season
+  series: hollywood-fame
 blog: true
 previewHtml: ''
 pic: 'oscar-contenders-enneagram-analysis-composite'

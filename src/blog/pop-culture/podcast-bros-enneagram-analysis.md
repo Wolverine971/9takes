@@ -10,6 +10,10 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 type: ['situational']
+popCulture:
+  category: internet-culture
+  subcategory: podcasting-media
+  series: podcasting
 blog: true
 previewHtml: ''
 pic: 'podcast-bros-enneagram-analysis-composite'

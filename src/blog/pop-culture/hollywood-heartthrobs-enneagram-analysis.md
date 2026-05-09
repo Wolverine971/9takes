@@ -10,6 +10,10 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 type: ['situational']
+popCulture:
+  category: entertainment-media
+  subcategory: hollywood-fame
+  series: hollywood-fame
 blog: true
 previewHtml: ''
 pic: 'hollywood-heartthrobs-enneagram-analysis-composite'

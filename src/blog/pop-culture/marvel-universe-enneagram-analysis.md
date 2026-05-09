@@ -10,6 +10,10 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 type: ['situational']
+popCulture:
+  category: entertainment-media
+  subcategory: fictional-worlds
+  series: marvel
 blog: true
 previewHtml: ''
 pic: 'marvel-universe-enneagram-analysis-composite'

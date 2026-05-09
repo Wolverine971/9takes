@@ -10,6 +10,10 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 type: ['situational']
+popCulture:
+  category: music-fame
+  subcategory: pop-stars
+  series: pop-stars
 blog: true
 previewHtml: ''
 pic: 'pop-queens-enneagram-analysis-composite'

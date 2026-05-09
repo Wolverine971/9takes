@@ -10,6 +10,10 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 type: ['situational']
+popCulture:
+  category: tech-business
+  subcategory: paypal-mafia
+  series: tech-titans
 blog: true
 previewHtml: ''
 pic: 'tech-titans-paypal-mafia-composite'

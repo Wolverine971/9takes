@@ -10,6 +10,10 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 type: ['situational']
+popCulture:
+  category: politics-power
+  subcategory: political-groups
+  series: political-coalitions
 blog: true
 previewHtml: ''
 pic: ''

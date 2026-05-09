@@ -10,6 +10,10 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 type: ['situational']
+popCulture:
+  category: dark-psychology
+  subcategory: epstein-network
+  series: epstein
 blog: true
 previewHtml: ''
 pic: 'Jeffrey-Epstein'

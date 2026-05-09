@@ -10,6 +10,10 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 type: ['situational']
+popCulture:
+  category: tech-business
+  subcategory: tech-titans
+  series: tech-titans
 blog: true
 previewHtml: ''
 pic: 'tech-titans-enneagram-analysis-composite'

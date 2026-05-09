@@ -10,6 +10,10 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 type: ['situational']
+popCulture:
+  category: internet-culture
+  subcategory: platform-conflict
+  series: platform-conflict
 blog: true
 previewHtml: ''
 pic: 'twitter-toxic-psychology'

@@ -10,6 +10,10 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 type: ['situational']
+popCulture:
+  category: tech-business
+  subcategory: leadership-styles
+  series: tech-titans
 blog: true
 previewHtml: ''
 pic: 'tech-titans-leadership-styles-composite'

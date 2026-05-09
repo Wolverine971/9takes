@@ -10,6 +10,10 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 type: ['situational']
+popCulture:
+  category: tech-business
+  subcategory: venture-media
+  series: all-in
 blog: true
 previewHtml: ''
 pic: 'silicon-valley-power-players-enneagram-analysis-composite'

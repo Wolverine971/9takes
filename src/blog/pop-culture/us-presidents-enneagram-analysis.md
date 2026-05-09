@@ -10,6 +10,10 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 type: ['situational']
+popCulture:
+  category: politics-power
+  subcategory: presidents
+  series: presidents
 blog: true
 previewHtml: ''
 pic: 'us-presidents-enneagram-analysis-composite'

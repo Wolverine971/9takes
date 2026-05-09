@@ -10,6 +10,10 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 type: ['situational']
+popCulture:
+  category: internet-culture
+  subcategory: creator-economy
+  series: streaming-creators
 blog: true
 previewHtml: ''
 pic: 'streaming-royalty-enneagram-analysis-composite'

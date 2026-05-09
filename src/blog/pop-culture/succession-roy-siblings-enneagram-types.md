@@ -10,6 +10,10 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 type: ['situational']
+popCulture:
+  category: entertainment-media
+  subcategory: fictional-worlds
+  series: succession
 blog: true
 previewHtml: ''
 pic: 'succession-roy-siblings-enneagram-types-composite'

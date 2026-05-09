@@ -10,6 +10,10 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 type: ['situational']
+popCulture:
+  category: celebrity-dynasties
+  subcategory: royal-family
+  series: royals
 blog: true
 previewHtml: ''
 pic: 'royal-family-enneagram-analysis-composite'

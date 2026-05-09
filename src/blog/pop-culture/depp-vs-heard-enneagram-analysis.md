@@ -10,6 +10,10 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 type: ['situational']
+popCulture:
+  category: entertainment-media
+  subcategory: celebrity-conflict
+  series: public-trials
 blog: true
 previewHtml: ''
 pic: 'depp-vs-heard-enneagram-analysis-composite'

@@ -9,6 +9,10 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 type: ['situational']
+popCulture:
+  category: dark-psychology
+  subcategory: shadow-types
+  series: dark-triad
 blog: true
 previewHtml: ''
 pic: 'cracked_mask_wall'

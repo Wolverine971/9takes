@@ -10,6 +10,10 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 type: ['situational']
+popCulture:
+  category: internet-culture
+  subcategory: parasociality
+  series: fandom-psychology
 blog: true
 previewHtml: ''
 pic: 'parasocial-relationships-psychology'

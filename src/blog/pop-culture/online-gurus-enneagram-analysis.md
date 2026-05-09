@@ -10,6 +10,10 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 type: ['situational']
+popCulture:
+  category: internet-culture
+  subcategory: creator-economy
+  series: online-gurus
 blog: true
 previewHtml: ''
 pic: 'online-gurus-enneagram-analysis-composite'

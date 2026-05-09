@@ -20,6 +20,12 @@ declare namespace App {
 
 	type MdsvexResolver = () => Promise<MdsvexFile>;
 
+	interface PopCultureTaxonomy {
+		category: string;
+		subcategory?: string;
+		series?: string;
+	}
+
 	interface BlogPost {
 		slug: string;
 		title: string;
@@ -32,6 +38,7 @@ declare namespace App {
 		priority: string;
 		published: boolean;
 		type?: string[];
+		popCulture?: PopCultureTaxonomy;
 		blog?: boolean;
 		previewHtml?: string;
 		pic?: string;
