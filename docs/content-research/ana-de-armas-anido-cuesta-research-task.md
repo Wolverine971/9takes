@@ -1,4 +1,5 @@
 <!-- docs/content-research/ana-de-armas-anido-cuesta-research-task.md -->
+
 # Research Task: Ana de Armas × Manuel Anido Cuesta — Verification & Context Deep Dive
 
 **Requested by:** DJ Wayne (9takes)

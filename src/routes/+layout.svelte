@@ -25,6 +25,7 @@
 	} from '$lib/analytics/pageAnalytics';
 	import { extractPageViewAttribution } from '$lib/analytics/attribution';
 	import { getOrCreateVisitorId } from '$lib/analytics/visitorIdentity';
+	import { loadPostHog, setUserIdentity } from '$lib/analytics/posthog';
 	import { webVitals } from '$lib/vitals';
 	import { preparePageTransition } from '$lib/page-transition';
 
@@ -421,6 +422,10 @@
 					analyticsId: VERCEL_ANALYTICS_ID
 				});
 			}
+
+			// PostHog: dynamic-imported so it stays out of the initial bundle.
+			// Pageviews are auto-tracked via history-API hooks (defaults: '2026-01-30').
+			void loadPostHog();
 		};
 
 		// Defer analytics to after main content is interactive
@@ -496,6 +501,25 @@
 	// Update page values when page changes
 	$: if (browser && $page) {
 		updatePageDerivedValues();
+	}
+
+	// Sync PostHog identity with auth state. Calls made before PostHog
+	// finishes loading are queued by the wrapper and applied on init.
+	$: if (browser) {
+		const u = data?.user as
+			| { id?: string | null; email?: string | null; enneagram?: number | null; admin?: boolean }
+			| null
+			| undefined;
+		if (u?.id) {
+			setUserIdentity({
+				id: u.id,
+				email: u.email ?? null,
+				enneagram: u.enneagram ?? null,
+				admin: u.admin ?? false
+			});
+		} else {
+			setUserIdentity(null);
+		}
 	}
 
 	$: parents = data?.parents ? ([...data.parents].slice(0, -1) as CategoryStep[]) : [];

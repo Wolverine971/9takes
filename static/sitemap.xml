@@ -3,7 +3,7 @@
   xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://9takes.com</loc>
-    <lastmod>2026-05-05</lastmod>
+    <lastmod>2026-05-09</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/about</loc>
@@ -135,7 +135,7 @@
   </url>
   <url>
     <loc>https://9takes.com/corpus-stats</loc>
-    <lastmod>2026-05-08</lastmod>
+    <lastmod>2026-05-09</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/enneagram-corner</loc>
@@ -818,7 +818,7 @@
   </url>
   <url>
     <loc>https://9takes.com/enneagram-corner/subtopic/situational</loc>
-    <lastmod>2026-05-07</lastmod>
+    <lastmod>2026-05-09</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/enneagram-corner/subtopic/workplace</loc>
@@ -3310,7 +3310,7 @@
   </url>
   <url>
     <loc>https://9takes.com/pop-culture</loc>
-    <lastmod>2026-05-08</lastmod>
+    <lastmod>2026-05-09</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/pop-culture/breaking-points-enneagram-analysis</loc>
@@ -3363,7 +3363,7 @@
   </url>
   <url>
     <loc>https://9takes.com/pop-culture/google-leadership-evolution</loc>
-    <lastmod>2026-05-07</lastmod>
+    <lastmod>2026-05-09</lastmod>
     <image:image>
       <image:loc>https://9takes.com/blogs/google-leadership-evolution-composite.webp</image:loc>
     </image:image>

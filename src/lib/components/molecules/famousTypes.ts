@@ -221,6 +221,7 @@ export const famousTypes: { [index: number]: FamousTypePerson[] } = {
 		{ name: 'zayn-malik', link: true, hasImage: true, lastmod: '2025-12-09', personaTitle: 'Pop\'s Mysterious Recluse', contentGrade: null, types: ['musician'] },
 		{ name: 'zoe-kravitz', link: true, hasImage: true, lastmod: '2026-03-24', personaTitle: 'Hollywood\'s Beautiful Decoy', contentGrade: 8.8, types: ['movieStar'] },
 		{ name: 'adam-driver', link: false, hasImage: false, lastmod: '2025-06-25', personaTitle: null, contentGrade: null, types: ['movieStar'] },
+		{ name: 'ana-de-armas', link: false, hasImage: false, lastmod: '2026-05-09', personaTitle: 'Hollywood\'s Beautiful Stranger', contentGrade: 9, types: ['movieStar'] },
 		{ name: 'colleen-hoover', link: false, hasImage: false, lastmod: '2025-06-25', personaTitle: null, contentGrade: null, types: ['author'] },
 		{ name: 'edgar-allan-poe', link: false, hasImage: false, lastmod: '2026-03-28', personaTitle: 'Literature\'s Cartographer of Loss', contentGrade: 8.7, types: ['historical'] },
 		{ name: 'frank-ocean', link: false, hasImage: false, lastmod: '2025-06-25', personaTitle: null, contentGrade: null, types: ['musician'] },

@@ -332,6 +332,9 @@ PUBLIC_RECAPTCHA_SITE_KEY=
 PUBLIC_MAPBOX_TOKEN=
 PUBLIC_GOOGLE=                         # GA measurement ID
 PUBLIC_ENABLE_DEV_INHOUSE_ANALYTICS=   # "true" to enable analytics in dev
+PUBLIC_POSTHOG_KEY=                    # PostHog project token (phc_*)
+PUBLIC_POSTHOG_HOST=                   # PostHog ingest host (default https://us.i.posthog.com)
+PUBLIC_POSTHOG_ENABLE_IN_DEV=          # "true" to load PostHog in dev (default false)
 ```
 
 Private (server-only, `$env/static/private`):
