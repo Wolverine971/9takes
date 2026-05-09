@@ -1,24 +1,11 @@
 {
-	"lastUpdated": "2026-05-08T06:01:26Z",
+	"lastUpdated": "2026-05-09T16:48:00Z",
 	"stats": {
 		"totalUnpublished": 125,
 		"totalPublished": 266,
 		"completionRate": "68.0%"
 	},
 	"queue": [
-		{
-			"name": "ana-de-armas",
-			"displayName": "Ana de Armas",
-			"type": 3,
-			"priority": 84,
-			"priorityReason": "Ranker/Instagram beauty-list spike, Bond and Blonde recognition, and a clear Type 3 reinvention-through-performance angle",
-			"estimatedTraffic": "very-high",
-			"searchVolume": "very-high",
-			"personaTitle": null,
-			"addedToQueue": "2026-05-06",
-			"retryCount": 0,
-			"strategicValue": "viral-beauty-list-hollywood-cluster"
-		},
 		{
 			"name": "halle-berry",
 			"displayName": "Halle Berry",
@@ -758,22 +745,47 @@
 			"duration": null,
 			"needsReview": true,
 			"reviewReason": "Auto-recovered from stale inProgress; draft was created but never marked complete. Verify grade manually."
+		},
+		{
+			"name": "gal-gadot",
+			"displayName": "Gal Gadot",
+			"type": 3,
+			"priority": 85,
+			"priorityReason": "Ranker/Instagram beauty-list spike, Wonder Woman recognition, and a polished global-star Type 3 image-performance angle",
+			"estimatedTraffic": "very-high",
+			"searchVolume": "very-high",
+			"personaTitle": null,
+			"addedToQueue": "2026-05-06",
+			"retryCount": 0,
+			"strategicValue": "viral-beauty-list-hollywood-cluster",
+			"startedAt": "2026-05-08T06:01:26Z",
+			"completedAt": "2026-05-09T16:23:48Z",
+			"contentGrade": null,
+			"needsReview": true,
+			"completionNote": "stale-cleared - draft Gal-Gadot.md (28,236 bytes) was created during cron run but queue update failed; needs manual grade + review"
+		},
+		{
+			"name": "ana-de-armas",
+			"displayName": "Ana de Armas",
+			"type": 3,
+			"priority": 84,
+			"priorityReason": "Ranker/Instagram beauty-list spike, Bond and Blonde recognition, and a clear Type 3 reinvention-through-performance angle",
+			"estimatedTraffic": "very-high",
+			"searchVolume": "very-high",
+			"personaTitle": null,
+			"addedToQueue": "2026-05-06",
+			"retryCount": 0,
+			"strategicValue": "viral-beauty-list-hollywood-cluster",
+			"startedAt": "2026-05-09T16:23:48Z",
+			"completedAt": "2026-05-09T16:48:00Z",
+			"contentGrade": 9.0,
+			"gradeLetter": "A",
+			"durationMinutes": 24,
+			"needsReview": false,
+			"completionNote": "Grade 9.0/A from /grade_blog. Notes: light sourcing inline tags + small repetition cleanup could push to 9.5+ (non-blocking)."
 		}
 	],
-	"inProgress": {
-		"name": "gal-gadot",
-		"displayName": "Gal Gadot",
-		"type": 3,
-		"priority": 85,
-		"priorityReason": "Ranker/Instagram beauty-list spike, Wonder Woman recognition, and a polished global-star Type 3 image-performance angle",
-		"estimatedTraffic": "very-high",
-		"searchVolume": "very-high",
-		"personaTitle": null,
-		"addedToQueue": "2026-05-06",
-		"retryCount": 0,
-		"strategicValue": "viral-beauty-list-hollywood-cluster",
-		"startedAt": "2026-05-08T06:01:26Z"
-	},
+	"inProgress": null,
 	"skipped": [
 		{
 			"name": "anna-wintour",

@@ -990,6 +990,169 @@ blockquote {
 	}
 }
 
+/* Blog content sections
+ * Supports raw HTML in Markdown:
+ * <section class="section-content">...</section>
+ */
+.blog,
+.dossier-page .article-body,
+.pop-culture-article .article-content {
+	.section-content {
+		position: relative;
+		margin: 1.75rem 0 !important;
+		padding: 1.25rem !important;
+		border: 1px solid color-mix(in srgb, var(--ink-dim) 38%, transparent);
+		border-radius: 6px;
+		background: color-mix(in srgb, var(--night-mid) 46%, var(--stone-warm));
+		color: var(--ink-bright);
+		overflow: hidden;
+		transition:
+			border-color 0.18s ease,
+			background 0.18s ease;
+
+		&:hover {
+			border-color: color-mix(in srgb, var(--ink-mid) 34%, var(--stone-edge));
+		}
+
+		> :first-child {
+			margin-top: 0 !important;
+			padding-top: 0 !important;
+		}
+
+		> :last-child {
+			margin-bottom: 0 !important;
+		}
+
+		> * + * {
+			margin-top: 0.95rem;
+		}
+
+		> h2,
+		> h3,
+		> h4 {
+			color: var(--ink-bright);
+			font-family: var(--font-display);
+			font-weight: 700;
+			line-height: 1.22;
+			margin-bottom: 0.65rem !important;
+			padding-top: 0 !important;
+		}
+
+		> h2 {
+			font-size: 1.35rem;
+			padding-bottom: 0.6rem;
+			border-bottom: 1px solid color-mix(in srgb, var(--ink-dim) 34%, transparent);
+		}
+
+		> h3 {
+			font-size: 1.15rem;
+		}
+
+		> h4 {
+			font-size: 1.05rem;
+			color: var(--ink-mid);
+		}
+
+		> h2:not(:first-child) {
+			margin-top: 1.6rem !important;
+		}
+
+		> h3:not(:first-child) {
+			margin-top: 1.35rem !important;
+		}
+
+		> h4:not(:first-child) {
+			margin-top: 1.1rem !important;
+		}
+
+		> p,
+		> ul,
+		> ol,
+		> blockquote,
+		> figure,
+		> table,
+		> pre,
+		> details {
+			margin-bottom: 0;
+		}
+
+		> p {
+			color: var(--ink-bright);
+			line-height: 1.7;
+		}
+
+		> ul,
+		> ol {
+			padding-left: 1.35rem;
+			color: var(--ink-bright);
+
+			li {
+				margin-bottom: 0;
+				line-height: 1.65;
+
+				& + li {
+					margin-top: 0.35rem;
+				}
+			}
+		}
+
+		> blockquote {
+			margin-right: 0;
+			margin-left: 0;
+			background: color-mix(in srgb, var(--night-deep) 34%, var(--stone-warm));
+			border-left-color: color-mix(in srgb, var(--ink-dim) 45%, transparent);
+		}
+
+		> figure {
+			margin-right: 0;
+			margin-left: 0;
+
+			figcaption {
+				margin-top: 0.5rem;
+				color: var(--ink-dim);
+				font-size: 0.875rem;
+				line-height: 1.45;
+			}
+		}
+
+		> img,
+		> figure img {
+			display: block;
+			max-width: 100%;
+			height: auto;
+			border-radius: 8px;
+		}
+
+		> table {
+			margin-top: 1.1rem;
+			margin-right: 0;
+			margin-left: 0;
+		}
+
+		> details {
+			padding: 0.85rem 1rem;
+			border: 1px solid color-mix(in srgb, var(--ink-dim) 22%, transparent);
+			border-radius: 8px;
+			background: color-mix(in srgb, var(--night-deep) 36%, transparent);
+
+			summary {
+				cursor: pointer;
+				color: var(--ink-bright);
+				font-weight: 650;
+			}
+
+			> *:not(summary) {
+				margin-top: 0.8rem;
+			}
+		}
+
+		.section-content {
+			margin: 1.25rem 0 !important;
+			background: color-mix(in srgb, var(--night-deep) 34%, var(--stone-warm));
+		}
+	}
+}
+
 /* Mobile optimizations for blog content */
 @include mobile {
 	.blog {
@@ -1047,6 +1210,43 @@ blockquote {
 			}
 		}
 	}
+
+	.blog,
+	.dossier-page .article-body,
+	.pop-culture-article .article-content {
+		.section-content {
+			margin: 1.5rem -0.25rem !important;
+			padding: 1rem !important;
+			border-radius: 8px;
+
+			> * + * {
+				margin-top: 0.8rem;
+			}
+
+			> h2 {
+				font-size: 1.25rem;
+			}
+
+			> h3 {
+				font-size: 1.1rem;
+			}
+
+			> h4 {
+				font-size: 1rem;
+			}
+
+			> h2:not(:first-child),
+			> h3:not(:first-child),
+			> h4:not(:first-child) {
+				margin-top: 1rem !important;
+			}
+
+			> ul,
+			> ol {
+				padding-left: 1.2rem;
+			}
+		}
+	}
 }
 
 /* Extra small mobile optimizations */
@@ -1079,6 +1279,15 @@ blockquote {
 		table {
 			width: 100%;
 			margin-left: 0;
+		}
+	}
+
+	.blog,
+	.dossier-page .article-body,
+	.pop-culture-article .article-content {
+		.section-content {
+			margin: 1.25rem 0 !important;
+			padding: 0.875rem !important;
 		}
 	}
 }

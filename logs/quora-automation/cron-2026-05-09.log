@@ -1,0 +1,26 @@
+Quora warmup complete for 2026-05-09.
+
+```
+MODE: non-interactive
+SESSION: docs/quora/sessions/2026-05-09_quora-warmup.md
+QUEUED: 2
+SKIPPED: 5
+LIMITATIONS: none
+```
+
+Searches run: 13
+Questions evaluated: 5 deep-evals + 7 surface-flagged
+Questions queued: 2
+Questions skipped: 5
+
+Priority queue:
+1. "Why do some people always have an answer for everything like they know it all?" — ~49 answers — Angle: Type 5 (knowledge-as-armor PRIMARY, closes long-open fresh angle), 1, 3, 8 — Score 90
+2. "Why are we afraid to succeed in life?" — ~86 answers — Angle: Type 9 (success-disrupts-narcotization PRIMARY, fresh distinct from prior Type 9 entries), 4, 6, 7 — Score 75
+
+Type coverage in queue: Types 1, 3, 4, 5, 6, 7, 8, 9 — only Type 2 absent
+Blog matches: 2 of 2 have a 9takes link candidate (enneagram-type-5, enneagram-type-9)
+
+Question log: docs/quora/question-log.md
+Session doc: docs/quora/sessions/2026-05-09_quora-warmup.md
+
+Next step: /quora-answer docs/quora/sessions/2026-05-09_quora-warmup.md

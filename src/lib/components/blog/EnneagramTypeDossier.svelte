@@ -505,59 +505,89 @@
 	.stats {
 		display: flex;
 		flex-direction: column;
-		gap: 12px;
-		padding: 4px 0;
+		gap: 10px;
+		padding: 4px 0 2px;
 	}
 
 	.stat-row {
 		display: grid;
-		grid-template-columns: 132px 1fr 50px;
+		grid-template-columns: 132px 1fr 44px;
 		align-items: center;
-		gap: 16px;
+		gap: 14px;
 
 		@media (max-width: 480px) {
-			grid-template-columns: 110px 1fr 44px;
+			grid-template-columns: 104px 1fr 38px;
 			gap: 10px;
 		}
 	}
 
 	.stat-label {
 		color: var(--ink-dim);
+		font-size: 11px;
 	}
 
 	.stat-track {
-		height: 10px;
+		position: relative;
+		height: 7px;
 		background: var(--night-mid);
 		border: 1px solid var(--stone-mid);
-		position: relative;
+		border-radius: 1px;
 		overflow: hidden;
-		border-radius: 2px;
+	}
+
+	/* Quartile gridlines (25 / 50 / 75) — render above the fill at low opacity
+	   so the bar reads like an instrument gauge instead of a UI progress bar. */
+	.stat-track::after {
+		content: '';
+		position: absolute;
+		inset: 0;
+		pointer-events: none;
+		background-image: linear-gradient(
+			90deg,
+			transparent calc(25% - 1px),
+			var(--ink-dim) calc(25% - 1px),
+			var(--ink-dim) 25%,
+			transparent 25%,
+			transparent calc(50% - 1px),
+			var(--ink-dim) calc(50% - 1px),
+			var(--ink-dim) 50%,
+			transparent 50%,
+			transparent calc(75% - 1px),
+			var(--ink-dim) calc(75% - 1px),
+			var(--ink-dim) 75%,
+			transparent 75%
+		);
+		opacity: 0.45;
 	}
 
 	.stat-fill {
+		position: relative;
 		height: 100%;
 		background: linear-gradient(
 			90deg,
 			var(--lamp-deep) 0%,
-			var(--lamp-glow) 60%,
+			var(--lamp-glow) 55%,
 			var(--lamp-light) 100%
 		);
-		box-shadow: 0 0 8px rgba(245, 158, 11, 0.35);
-		background-image:
-			linear-gradient(90deg, var(--lamp-deep) 0%, var(--lamp-glow) 60%, var(--lamp-light) 100%),
-			repeating-linear-gradient(
-				90deg,
-				transparent 0,
-				transparent 9px,
-				rgba(10, 8, 7, 0.55) 9px,
-				rgba(10, 8, 7, 0.55) 10px
-			);
-		background-blend-mode: multiply;
+		box-shadow: 0 0 4px rgba(245, 158, 11, 0.28);
+	}
+
+	/* Bright leading edge — like the needle of a calibrated meter. */
+	.stat-fill::after {
+		content: '';
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		right: 0;
+		width: 1.5px;
+		background: var(--lamp-light);
+		box-shadow: 0 0 4px rgba(251, 191, 36, 0.65);
 	}
 
 	.stat-value {
 		color: var(--lamp-glow);
 		text-align: right;
+		font-size: 11px;
 	}
 
 	.dossier-movement {
@@ -718,17 +748,16 @@
 			background: #f5f0e8;
 		}
 
+		.stat-track::after {
+			opacity: 0.5;
+		}
+
 		.stat-fill {
-			box-shadow: 0 0 6px rgba(217, 119, 6, 0.25);
-			background-image:
-				linear-gradient(90deg, var(--lamp-deep) 0%, var(--lamp-glow) 60%, var(--lamp-light) 100%),
-				repeating-linear-gradient(
-					90deg,
-					transparent 0,
-					transparent 9px,
-					rgba(255, 255, 255, 0.45) 9px,
-					rgba(255, 255, 255, 0.45) 10px
-				);
+			box-shadow: 0 0 4px rgba(217, 119, 6, 0.22);
+		}
+
+		.stat-fill::after {
+			box-shadow: 0 0 4px rgba(180, 83, 9, 0.55);
 		}
 
 		.dossier-movement {

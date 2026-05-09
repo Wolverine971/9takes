@@ -4,12 +4,12 @@ meta_title: "Why John McAfee Couldn't Stop Running"
 persona_title: "Cybersecurity's Doomed Escape Artist"
 description: "He built antivirus software, a yoga retreat, and a Belize compound — then ran from each one. The Enneagram Type 7 pattern that drove John McAfee's life."
 author: 'DJ Wayne'
-date: '2026-05-07'
+date: '2026-05-09'
 loc: 'https://9takes.com/personality-analysis/John-McAfee'
-lastmod: '2026-05-07'
+lastmod: '2026-05-09'
 changefreq: 'monthly'
 priority: '0.6'
-published: false
+published: true
 enneagram: '7'
 type: ['techie', 'entrepreneur']
 person: 'John-McAfee'

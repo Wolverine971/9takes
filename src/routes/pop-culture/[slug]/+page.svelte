@@ -389,14 +389,6 @@
 				padding: 0;
 			}
 		}
-
-		:global(.section-content) {
-			background: var(--stone-warm);
-			border-radius: 12px;
-			padding: 2rem;
-			margin: 2rem 0;
-			border: 1px solid rgba(45, 212, 191, 0.2);
-		}
 	}
 
 	.related-content {

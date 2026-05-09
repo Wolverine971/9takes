@@ -850,8 +850,10 @@
 		position: relative;
 
 		@media (max-width: 968px) {
+			width: min(100%, 360px);
 			max-width: 360px;
 			margin: 0 auto;
+			justify-self: center;
 		}
 	}
 
@@ -873,6 +875,19 @@
 		object-position: center 25%;
 		filter: contrast(1.15) brightness(0.96) saturate(0.85);
 		mix-blend-mode: var(--statue-blend);
+	}
+
+	@media (max-width: 968px) {
+		.portrait-frame {
+			width: 100%;
+			aspect-ratio: 1 / 1;
+			max-height: none;
+			margin-inline: auto;
+		}
+
+		.portrait-image {
+			object-position: center;
+		}
 	}
 
 	:global(:root.light) .dossier-page .portrait-image {
@@ -1240,6 +1255,11 @@
 
 		.case-file-name {
 			font-size: clamp(32px, 9vw, 44px);
+		}
+
+		.case-file-portrait {
+			width: min(100%, 320px);
+			max-width: 320px;
 		}
 
 		.breakdown {

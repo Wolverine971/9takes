@@ -374,7 +374,7 @@
 							can&rsquo;t unsee them.
 						</p>
 						<a href="#primer" class="path-cta path-cta--no">
-							<span class="mono path-cta-arrow" aria-hidden="true">&rarr;</span>
+							<span class="mono path-cta-kicker">New here</span>
 							<span class="path-cta-label">Start with the 9 in 9 lines</span>
 							<span class="mono path-cta-arrow" aria-hidden="true">&darr;</span>
 						</a>
@@ -389,7 +389,7 @@
 							honest.
 						</p>
 						<a href="#open-question" class="path-cta path-cta--yes">
-							<span class="mono path-cta-arrow" aria-hidden="true">&rarr;</span>
+							<span class="mono path-cta-kicker">Ready</span>
 							<span class="path-cta-label">Drop today&rsquo;s take</span>
 							<span class="mono path-cta-arrow" aria-hidden="true">&rarr;</span>
 						</a>
@@ -1679,32 +1679,67 @@
 	}
 
 	.path-cta {
-		display: inline-flex;
-		align-items: baseline;
-		gap: 10px;
+		display: grid;
+		grid-template-columns: auto minmax(0, 1fr) auto;
+		align-items: center;
+		gap: 12px;
+		width: 100%;
+		margin-top: auto;
+		padding: 14px 0 0;
 		font-family: var(--font-body);
 		font-size: 16px;
 		font-weight: 500;
-		line-height: 1.4;
-		border-bottom: 1px solid transparent;
-		padding-bottom: 1px;
-		align-self: flex-start;
+		line-height: 1.25;
+		border-top: 1px solid var(--stone-edge);
 		transition:
 			border-color 0.18s ease,
 			color 0.18s ease;
 
+		.path-cta-kicker {
+			font-size: 10px;
+			line-height: 1;
+			color: var(--ink-dim);
+			white-space: nowrap;
+		}
+
 		.path-cta-arrow {
+			display: inline-flex;
+			align-items: center;
+			justify-content: center;
+			width: 28px;
+			height: 28px;
 			font-family: var(--font-mono);
 			font-size: 16px;
 			line-height: 1;
+			border: 1px solid currentColor;
+			border-radius: 999px;
+			background: rgba(245, 158, 11, 0.07);
+			transition:
+				background 0.18s ease,
+				transform 0.18s ease;
 		}
 
 		.path-cta-label {
 			font-family: var(--font-body);
+			overflow-wrap: anywhere;
 		}
 
 		&:hover {
-			border-bottom-color: currentColor;
+			border-top-color: currentColor;
+		}
+
+		&:hover .path-cta-arrow {
+			background: var(--lamp-soft);
+			transform: translateY(1px);
+		}
+
+		@media (max-width: 480px) {
+			grid-template-columns: minmax(0, 1fr) auto;
+			gap: 10px;
+
+			.path-cta-kicker {
+				grid-column: 1 / -1;
+			}
 		}
 	}
 
@@ -1727,6 +1762,15 @@
 
 		&:hover {
 			color: var(--data-cyan);
+		}
+
+		.path-cta-arrow {
+			background: rgba(13, 148, 136, 0.08);
+		}
+
+		&:hover .path-cta-arrow {
+			background: var(--data-teal-rgba);
+			transform: translateX(1px);
 		}
 	}
 
