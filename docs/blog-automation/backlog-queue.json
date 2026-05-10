@@ -1,24 +1,11 @@
 {
-	"lastUpdated": "2026-05-09T16:48:00Z",
+	"lastUpdated": "2026-05-10T06:18:00Z",
 	"stats": {
 		"totalUnpublished": 125,
 		"totalPublished": 266,
 		"completionRate": "68.0%"
 	},
 	"queue": [
-		{
-			"name": "halle-berry",
-			"displayName": "Halle Berry",
-			"type": 8,
-			"priority": 83,
-			"priorityReason": "Ranker/Instagram beauty-list spike, Oscar-winning barrier-breaker, and a strong Type 8 resilience-and-power analysis angle",
-			"estimatedTraffic": "very-high",
-			"searchVolume": "very-high",
-			"personaTitle": null,
-			"addedToQueue": "2026-05-06",
-			"retryCount": 0,
-			"strategicValue": "viral-beauty-list-hollywood-cluster"
-		},
 		{
 			"name": "salma-hayek",
 			"displayName": "Salma Hayek",
@@ -783,6 +770,24 @@
 			"durationMinutes": 24,
 			"needsReview": false,
 			"completionNote": "Grade 9.0/A from /grade_blog. Notes: light sourcing inline tags + small repetition cleanup could push to 9.5+ (non-blocking)."
+		},
+		{
+			"name": "halle-berry",
+			"displayName": "Halle Berry",
+			"type": 3,
+			"queuedType": 8,
+			"priority": 83,
+			"completedAt": "2026-05-10T06:18:00Z",
+			"startedAt": "2026-05-10T06:01:01Z",
+			"contentGrade": 9.1,
+			"creatorSelfGrade": 9.0,
+			"letter": "A",
+			"duration": 17,
+			"draftPath": "src/blog/people/drafts/halle-berry.md",
+			"draftSize": 36397,
+			"needsReview": false,
+			"notes": "Type override: queue had 8, draft uses 3 based on creator analysis. Independent grader confirms 9.1/A.",
+			"strategicValue": "viral-beauty-list-hollywood-cluster"
 		}
 	],
 	"inProgress": null,

@@ -1,0 +1,17 @@
+```text
+Published people blog.
+
+Person: naomi-osaka
+Draft: src/blog/people/drafts/Naomi-Osaka.md
+Date/lastmod: 2026-05-10
+Supabase: published=true (id=1041)
+Images: full + thumbnail present (static/types/9s/Naomi-Osaka.webp + s-Naomi-Osaka.webp)
+Content grade: 9.16 (4215 words)
+Generated files: pnpm gen:all completed
+  - famousTypes.ts: naomi-osaka now link:true, lastmod 2026-05-10
+  - sitemap.xml: /personality-analysis/naomi-osaka added with image
+  - draft frontmatter: published:true, date/lastmod 2026-05-10
+
+Blockers:
+- none
+```

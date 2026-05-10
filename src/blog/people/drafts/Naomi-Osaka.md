@@ -4,12 +4,12 @@ meta_title: 'Why Naomi Osaka Apologized for Winning the US Open'
 persona_title: "Tennis's Apologetic Champion"
 description: 'Naomi Osaka apologized to the crowd for beating Serena. Inside the Type 9 mind that became tennis''s quietest champion and loudest mental-health voice.'
 author: 'DJ Wayne'
-date: '2026-05-07'
+date: '2026-05-10'
 loc: 'https://9takes.com/personality-analysis/Naomi-Osaka'
-lastmod: '2026-05-07'
+lastmod: '2026-05-10'
 changefreq: 'monthly'
 priority: '0.6'
-published: false
+published: true
 enneagram: '9'
 type: ['celebrity']
 person: 'Naomi-Osaka'

@@ -1,0 +1,80 @@
+Draft saved at `/src/blog/people/drafts/Halle-Berry.md`.
+
+**Type call:** Enneagram 3w4, Sexual subtype ("The Professional"). Confidence: high.
+
+**Core tension:** Achievement vs. surrender — the woman who turned beauty into a survival strategy keeps reaching the moment where the performance is supposed to stop, and keeps converting it into a new performance.
+
+**Internal links added (5 total, all first-mention):**
+- Type 3w4 → `/enneagram-corner/enneagram-type-3`
+- Childhood wound → `/enneagram-corner/enneagram-childhood-stereotypes`
+- Sexual Three attachment → `/enneagram-corner/attachment-styles-and-enneagram-types`
+- Stress arrow → `/enneagram-corner/enneagram-types-in-stress`
+- Jennifer Lopez (parallel Type 3 reinventor) → `/personality-analysis/Jennifer-Lopez`
+
+**Quality Grade:**
+```json
+{
+  "hook": 9.2,
+  "enneagram": 9.4,
+  "evidence": 8.6,
+  "writing": 9.0,
+  "originality": 9.0,
+  "overall": 9.0,
+  "letter": "A",
+  "graded_at": "2026-05-10"
+}
+```
+
+Above the 8.5 publication threshold. Strongest dimensions: the Enneagram integration (the "vessel" reading of the Oscar speech as Type 3 deflection is a fresh take) and the originality pass (small moments — the "only father I've ever known" Vincent Cirrincione line, mom's "no" at the homeless shelter, two broken ribs from Shevchenko, the perimenopause-misdiagnosed-as-herpes pivot — all carry the analysis without leaning on labels).
+
+**Lightest dimension:** Evidence (8.6). Most quotes are Halle's own; could be lifted by adding 1-2 inline source citations (Cannes Lions 2017, *Armchair Expert* 2024) and any direct co-star/collaborator testimony in a future pass.
+
+**Sources used in research:**
+- [Halle Berry — Wikipedia](https://en.wikipedia.org/wiki/Halle_Berry)
+- [Halle Berry on Armchair Expert with Dax Shepard](https://armchairexpertpod.com/pods/halle-berry)
+- [The Second Coming of Halle Berry — What Now? with Trevor Noah](https://open.spotify.com/episode/3I9s8rspb0EMtDiiymlkf4)
+- [Halle Berry on The Drew Barrymore Show](https://open.spotify.com/episode/0xcDuNXcd0na7c1Jb8FstW)
+- [The Age of Halle Berry — Marie Claire 2024](https://www.marieclaire.com/celebrity/halle-berry-interview-2024/)
+- [Oscars Past: 2002 — LAist](https://laist.com/news/arts-and-entertainment/remembering-that-magical-night-when-halle-berry-took-home-the-oscar-and-the-heartbreaking-aftermath)
+- [Halle Berry on her Oscar — Hollywood Reporter](https://www.hollywoodreporter.com/news/general-news/halle-berry-only-black-best-actress-oscar-winner-1236176249/)
+- [Halle Berry's Catwoman Razzie speech — Rolling Stone](https://www.rollingstone.com/tv-movies/tv-movie-news/halle-berry-catwoman-razzie-speech-1251865/)
+- [Halle Berry's homeless shelter story — Refinery29](https://www.refinery29.com/en-us/2017/08/167436/halle-berry-homeless-shelter-nyc)
+- [Halle Berry & Eric Benét — best life](https://bestlifeonline.com/halle-berry-breakdown-eric-benet-cheating/)
+- [Bruised — Wikipedia](https://en.wikipedia.org/wiki/Bruised_(film))
+
+**Status:** `production_pretext.status: draft` — awaiting your review.
+
+**Options:**
+1. Make specific edits (tell me what to change)
+2. Regenerate specific sections
+3. After review and approval, mark `production_pretext` as `ready` and run `/blog_content_production_people`
+4. Continue editing later
+[2026-05-10 02:19:39] [INFO] Draft created: 36397 bytes, 331 lines
+[2026-05-10 02:19:39] [INFO] Creator self-grade: 9.0/A
+[2026-05-10 02:19:39] [INFO] Independent grade: 9.1/A (above 8.5 threshold)
+[2026-05-10 02:19:39] [INFO] Type override note: queue=8, draft=3 (creator analytical decision)
+[2026-05-10 02:19:39] [SUCCESS] Halle Berry blog completed - Grade 9.1/A
+[2026-05-10 02:19:39] [INFO] Rate limit now 2/5 this week
+[2026-05-10 02:19:39] [INFO] Daily blog creator complete
+All steps complete. Skipping auto-production: the draft's `production_pretext.ready_for_production: false` indicates the creator wants human review, and override.json has no explicit auto-production flag enabled.
+
+```
+=== DAILY BLOG CREATOR SUMMARY ===
+Date: 2026-05-10
+Status: SUCCESS
+Blog: Halle Berry
+Grade: 9.1/A (creator self-grade: 9.0)
+Duration: 17 min
+File: src/blog/people/drafts/halle-berry.md (36 KB, 331 lines)
+Type override: queue=8 → draft=3 (creator analytical decision)
+Rate limit: 2/5 this week
+Next in queue: Salma Hayek (Type 8, Priority 82)
+Auto-production: skipped (draft flagged for review)
+Next Run: Tomorrow 2:00 AM
+===================================
+```
+
+**Notes:**
+- Independent grader confirmed publication-ready (above 8.5 threshold)
+- Lightest dimension is Evidence (8.6) — could lift to A+ by adding co-star/collaborator quotes
+- Draft uses Enneagram Type 3 framing (queue had it as Type 8); recorded as `queuedType: 8, type: 3` in the completed entry for tracking

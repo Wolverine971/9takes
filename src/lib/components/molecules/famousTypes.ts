@@ -461,7 +461,7 @@ export const famousTypes: { [index: number]: FamousTypePerson[] } = {
 		{ name: 'lionel-messi', link: true, hasImage: true, lastmod: '2026-04-14', personaTitle: 'Football\'s Quiet Volcano', contentGrade: 9, types: ['celebrity'] },
 		{ name: 'matthew-mcconaughey', link: true, hasImage: true, lastmod: '2026-02-19', personaTitle: 'Hollywood\'s Wide-Awake Philosopher', contentGrade: 8.7, types: ['movieStar'] },
 		{ name: 'mikey-madison', link: true, hasImage: true, lastmod: '2026-04-03', personaTitle: 'The Shy Girl\'s Vanishing Act', contentGrade: 9.2, types: ['newMovieStar'] },
-		{ name: 'naomi-osaka', link: false, hasImage: true, lastmod: '2026-05-07', personaTitle: 'Tennis\'s Apologetic Champion', contentGrade: 9.16, types: ['celebrity'] },
+		{ name: 'naomi-osaka', link: true, hasImage: true, lastmod: '2026-05-10', personaTitle: 'Tennis\'s Apologetic Champion', contentGrade: 9.16, types: ['celebrity'] },
 		{ name: 'paul-rudd', link: true, hasImage: true, lastmod: '2026-01-23', personaTitle: 'Hollywood\'s Perpetual Nice Guy', contentGrade: 7.8, types: ['movieStar'] },
 		{ name: 'pete-davidson', link: true, hasImage: true, lastmod: '2026-02-10', personaTitle: 'Comedy\'s Lovable Mess', contentGrade: 9, types: ['celebrity', 'comedian'] },
 		{ name: 'post-malone', link: true, hasImage: true, lastmod: '2026-02-20', personaTitle: 'Music\'s Tattooed Ghost', contentGrade: 8.6, types: ['musician'] },

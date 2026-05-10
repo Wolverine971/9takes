@@ -11,7 +11,7 @@
   </url>
   <url>
     <loc>https://9takes.com/blog</loc>
-    <lastmod>2026-05-09</lastmod>
+    <lastmod>2026-05-10</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/book-session</loc>
@@ -949,7 +949,7 @@
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis</loc>
-    <lastmod>2026-05-09</lastmod>
+    <lastmod>2026-05-10</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/abraham-lincoln</loc>
@@ -1303,7 +1303,7 @@
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/categories</loc>
-    <lastmod>2026-05-09</lastmod>
+    <lastmod>2026-05-10</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/categories/authors-thinkers</loc>
@@ -1319,7 +1319,7 @@
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/categories/film-tv</loc>
-    <lastmod>2026-05-07</lastmod>
+    <lastmod>2026-05-10</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/categories/music</loc>
@@ -2510,6 +2510,13 @@
     </image:image>
   </url>
   <url>
+    <loc>https://9takes.com/personality-analysis/naomi-osaka</loc>
+    <lastmod>2026-05-10</lastmod>
+    <image:image>
+      <image:loc>https://9takes.com/types/9s/Naomi-Osaka.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
     <loc>https://9takes.com/personality-analysis/napoleon-bonaparte</loc>
     <lastmod>2026-03-10</lastmod>
     <image:image>
@@ -3229,7 +3236,7 @@
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/type/9</loc>
-    <lastmod>2026-05-07</lastmod>
+    <lastmod>2026-05-10</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/vincent-van-gogh</loc>
