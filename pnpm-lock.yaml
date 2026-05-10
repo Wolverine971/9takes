@@ -71,6 +71,9 @@ importers:
       lucide-svelte:
         specifier: ^1.0.1
         version: 1.0.1(svelte@5.46.1)
+      marked:
+        specifier: ^16.2.0
+        version: 16.2.0
       mermaid:
         specifier: ^11.2.1
         version: 11.10.1

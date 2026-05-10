@@ -923,7 +923,8 @@
 	:global(:root.light) .dossier-page .portrait-vignette {
 		background:
 			radial-gradient(ellipse at 25% 25%, rgba(var(--pool-rgb), 0.06) 0%, transparent 60%),
-			linear-gradient(135deg, transparent 60%, rgba(180, 83, 9, 0.05) 100%);
+			linear-gradient(135deg, transparent 60%, rgba(180, 83, 9, 0.05) 100%),
+			linear-gradient(180deg, transparent 58%, rgba(10, 8, 7, 0.68) 100%);
 	}
 
 	.portrait-corner {
@@ -964,14 +965,31 @@
 	.portrait-mono {
 		position: absolute;
 		left: 14px;
+		right: 14px;
 		bottom: 14px;
 		z-index: 2;
-		color: var(--ink-mid);
+		display: flex;
+		align-items: center;
+		min-height: 34px;
+		padding: 7px 10px;
+		background: linear-gradient(90deg, rgba(10, 8, 7, 0.86), rgba(10, 8, 7, 0.68));
+		border: 1px solid color-mix(in srgb, var(--lamp-glow) 46%, rgba(250, 248, 244, 0.18));
+		box-shadow: 0 10px 24px rgba(10, 8, 7, 0.34);
+		color: #faf8f4;
+		backdrop-filter: blur(5px);
 
 		.mono {
-			color: var(--ink-mid);
+			color: #faf8f4;
 			font-size: 10.5px;
+			line-height: 1.35;
+			overflow-wrap: anywhere;
+			text-shadow: 0 1px 2px rgba(10, 8, 7, 0.72);
 		}
+	}
+
+	:global(:root.light) .dossier-page .portrait-mono {
+		background: linear-gradient(90deg, rgba(10, 8, 7, 0.9), rgba(10, 8, 7, 0.72));
+		border-color: color-mix(in srgb, var(--lamp-glow) 58%, rgba(250, 248, 244, 0.2));
 	}
 
 	/* =========================================================
