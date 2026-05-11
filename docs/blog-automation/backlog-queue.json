@@ -1,24 +1,11 @@
 {
-	"lastUpdated": "2026-05-10T06:18:00Z",
+	"lastUpdated": "2026-05-11T06:14:50Z",
 	"stats": {
 		"totalUnpublished": 125,
 		"totalPublished": 266,
 		"completionRate": "68.0%"
 	},
 	"queue": [
-		{
-			"name": "salma-hayek",
-			"displayName": "Salma Hayek",
-			"type": 8,
-			"priority": 82,
-			"priorityReason": "Ranker/Instagram beauty-list spike, Hollywood trailblazer and producer-activist, with a forceful Type 8 autonomy angle",
-			"estimatedTraffic": "high",
-			"searchVolume": "high",
-			"personaTitle": null,
-			"addedToQueue": "2026-05-06",
-			"retryCount": 0,
-			"strategicValue": "viral-beauty-list-hollywood-cluster"
-		},
 		{
 			"name": "mila-kunis",
 			"displayName": "Mila Kunis",
@@ -788,6 +775,25 @@
 			"needsReview": false,
 			"notes": "Type override: queue had 8, draft uses 3 based on creator analysis. Independent grader confirms 9.1/A.",
 			"strategicValue": "viral-beauty-list-hollywood-cluster"
+		},
+		{
+			"name": "salma-hayek",
+			"displayName": "Salma Hayek",
+			"type": 8,
+			"priority": 82,
+			"priorityReason": "Ranker/Instagram beauty-list spike, Hollywood trailblazer and producer-activist, with a forceful Type 8 autonomy angle",
+			"estimatedTraffic": "high",
+			"searchVolume": "high",
+			"personaTitle": null,
+			"addedToQueue": "2026-05-06",
+			"retryCount": 0,
+			"strategicValue": "viral-beauty-list-hollywood-cluster",
+			"startedAt": "2026-05-11T06:00:53Z",
+			"completedAt": "2026-05-11T06:14:50Z",
+			"contentGrade": 8.8,
+			"contentGradeLetter": "A",
+			"duration": 13,
+			"draftPath": "src/blog/people/drafts/Salma-Hayek.md"
 		}
 	],
 	"inProgress": null,

@@ -4,12 +4,12 @@ meta_title: "Why Einstein Couldn't Love the People He Lived With"
 persona_title: 'The Single-Harness Genius'
 description: "Why did Einstein write his wife a list of marital demands while preaching peace to humanity? An Enneagram Type 5 analysis of physics' loneliest mind."
 author: 'DJ Wayne'
-date: '2026-05-06'
+date: '2026-05-11'
 loc: 'https://9takes.com/personality-analysis/Albert-Einstein'
-lastmod: '2026-05-06'
+lastmod: '2026-05-11'
 changefreq: 'monthly'
 priority: '0.6'
-published: false
+published: true
 enneagram: '5'
 type: ['historical']
 person: 'Albert-Einstein'

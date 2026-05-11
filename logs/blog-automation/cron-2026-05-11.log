@@ -1,0 +1,67 @@
+[2026-05-11 02:00:57] [INFO] SELECTED: salma-hayek (Type 8, Priority: 82) - viral-beauty-list-hollywood-cluster
+Draft complete. Here's the summary.
+
+## Draft Created Successfully
+
+**Location:** `/src/blog/people/drafts/Salma-Hayek.md`
+**Preview:** Visit `/admin/drafts/Salma-Hayek` to review
+
+### Type & Core Tension
+- **Enneagram Type 8w7** (Challenger with Enthusiast wing, likely 2 fix in tritype)
+- **Core tension:** "The world keeps trying to read her as a body. She keeps showing up as the producer." — beauty/charm vs. iron/fight
+- **Aha moment:** Why she waited 15 years to publish the Weinstein essay — Eights wait for the moment when telling the truth will rearrange the room
+- **Signature thread:** The boarding-school clock prank → the lifelong pattern of asymmetric, patient power moves → ending callback
+
+### Internal links added (4 total)
+- [Enneagram Type 8](/enneagram-corner/enneagram-type-8) — intro
+- [Frida Kahlo](/personality-analysis/frida-kahlo) — Frida section
+- [Jennifer Lopez](/personality-analysis/Jennifer-Lopez) — Frida section
+- [How Type 8 Challengers Actually Succeed](/enneagram-corner/how-type-8-challengers-actually-succeed) — final section
+
+### Quality Grade
+```json
+{
+  "hook": 9,
+  "enneagram": 9,
+  "evidence": 8,
+  "writing": 9,
+  "originality": 9,
+  "overall": 8.8,
+  "letter": "A",
+  "graded_at": "2026-05-11"
+}
+```
+
+**Above the 8.5 publication threshold.** Single noted gap: no direct co-star/director quote (e.g., Julie Taymor on Hayek's grit during Frida) — none surfaced in available sources.
+
+### Options
+1. Make specific edits (tell me what to change)
+2. Regenerate specific sections
+3. After review and approval, I'll mark `production_pretext` as `ready` and you can run `blog_content_production_people`
+4. Continue editing later
+
+**Sources used in research:**
+- [Salma Hayek - Wikipedia](https://en.wikipedia.org/wiki/Salma_Hayek)
+- [Salma Hayek Pinault Runs the Show | Marie Claire (2025)](https://www.marieclaire.com/culture/salma-hayek-interview-2025/)
+- [Salma Hayek's NYT op-ed on Weinstein (W Magazine summary)](https://www.wmagazine.com/story/salma-hayek-harvey-weinstein-essay)
+- [Extended transcript: Salma Hayek Pinault - CBS News](https://www.cbsnews.com/news/extended-transcript-salma-hayek-pinault/)
+- [Salma Hayek on Hot Ones (Hola)](https://www.hola.com/us/celebrities/20211105306234/salma-hayek-hot-ones-spicy-wing-challenge/)
+- [Power Women Breakfast: How Hayek got kicked out of Catholic school - TheWrap](https://www.thewrap.com/power-women-breakfast-salma-hayek-on-how-she-got-kicked-out-of-catholic-school-video/)
+- [François-Henri Pinault - Wikipedia](https://en.wikipedia.org/wiki/Fran%C3%A7ois-Henri_Pinault)
+- [Salma Hayek's near-fatal COVID battle - Variety](https://variety.com/2021/film/features/salma-hayek-eternals-house-of-gucci-hitmans-wifes-bodyguard-1234975898/)
+[2026-05-11 02:14:57] [SUCCESS] Blog completed - Salma Hayek, Grade 8.8/10 (A), Duration 13 min
+[2026-05-11 02:14:57] [INFO] Next blog in queue: Mila Kunis
+```
+=== DAILY BLOG CREATOR SUMMARY ===
+Date: 2026-05-11
+Status: SUCCESS
+Blog: Salma Hayek (Type 8w7)
+Grade: 8.8/10 (A) — above 8.5 publication threshold
+Duration: 13 min
+Draft: src/blog/people/drafts/Salma-Hayek.md
+Rate limit: 3/5 this week
+Next in queue: Mila Kunis (Type 6, Priority 81)
+===================================
+```
+
+Salma Hayek draft is ready for review at `/admin/drafts/Salma-Hayek`. The creator workflow's own grading pass scored it 8.8 (A) with one noted gap: no direct co-star/director quote surfaced in sources. Queue and rate limit updated; no Telegram notification was sent (no script configured in this workflow run).

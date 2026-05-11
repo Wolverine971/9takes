@@ -2,7 +2,7 @@
 
 # Instagram Engagement Targets — @9takesdotcom
 
-_Last Updated: 2026-05-07 (PM — silence-period snapshot appended; @nicolascole77 added to Tier 4 Discovery)_
+_Last Updated: 2026-05-11 (silence-period-2 snapshot appended; no tier-table changes)_
 _Purpose: Living document tracking accounts to engage with, organized by tier and category._
 _Updated by: `/instagram-warmup` scans and reviewed alongside `/instagram-reply` account history._
 
@@ -11,6 +11,15 @@ _Updated by: `/instagram-warmup` scans and reviewed alongside `/instagram-reply`
 ---
 
 ## Outbound Activity Snapshots (append-only)
+
+### 2026-05-09 → 2026-05-11 — Second Chrome-profile block (ongoing)
+
+- **Window:** 2026-05-08 (last in-progress warmup — never finalized) → 2026-05-11 (this scan, blocked at Phase 2).
+- **Cause:** `instagram_wrong_chrome_profile`. The Chrome profile driving the IG session has `build.os` / `djwayne3` / `dj_pew_pew` linked, but **not** `@9takesdotcom`. The Switch accounts modal does not list it as a switchable option at all.
+- **Cost so far:** The May 7 PM recovery drafts (5 items: enneagramwithjb DYCjXJGDj5Z, nicolascole77 DYCxrzGDUvE, enneagrampaths DYAI3KGm-od, mindfulmft DX_4F6zjrXy, vvanedwards DYDWMN_SB3a) are 4 days stale and likely cannot be posted as-drafted without re-check. nicolascole77 DM thread is still DJ-action.
+- **Pattern note:** Second Chrome-profile block in two weeks. The previous block was Apr 29 → May 6 driven by `instagram_wrong_account_active`. Different exact symptom, same root cause: the bridge's Chrome profile is not pinned to `@9takesdotcom`.
+- **Resolution required (DJ):** Either sign `@9takesdotcom` into this Chrome profile so it appears in Switch accounts, or rewire the Claude ↔ Chrome bridge to the Chrome profile where `@9takesdotcom` is already the live IG session. Treat as a setup-level fix, not a per-scan retry.
+- **Discovery during silence:** None — scan did not run.
 
 ### 2026-04-28 → 2026-05-07 — 10-day silence period
 
