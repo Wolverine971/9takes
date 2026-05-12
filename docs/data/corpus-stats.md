@@ -3,7 +3,7 @@
 
 # 9takes Corpus Stats
 
-_Generated: 2026-05-12T19:43:47.409Z_
+_Generated: 2026-05-12T21:24:49.111Z_
 
 Verifiable numbers from the `blogs_famous_people` database. Blog writers and LLM-citation-optimized content MUST pull from this file — no hand-waved statistics, no fabricated percentages.
 
@@ -175,7 +175,7 @@ Only domains with ≥ 10 profiled figures are shown. "Δ pp" = percentage points
 ## Pipeline
 
 - **In the draft / review pipeline:** 146
-- **Published in the last 30 days:** 33
+- **Published in the last 30 days:** 31
 - **Published in the last 90 days:** 85
 - **Average new profiles per month (trailing 90d):** 28.3
 

@@ -82,6 +82,8 @@ export const getPosts = async (): Promise<App.BlogPost[]> => {
 			date: row.date ?? row.created_at,
 			loc: row.loc ?? '',
 			lastmod: row.lastmod ?? row.created_at,
+			rssDate: buildRFC822Date(row.date ?? row.created_at ?? undefined),
+			rssUpdateDate: buildRFC822Date(row.lastmod ?? row.date ?? row.created_at ?? undefined),
 			changefreq: row.changefreq ?? 'weekly',
 			priority: row.priority ?? '0.6',
 			published: row.published ?? false,

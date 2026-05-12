@@ -81,7 +81,7 @@ export const actions: Actions = {
 					ip,
 					fingerprint
 				})
-				.select();
+				.select('id, blog_link, blog_type, comment, created_at, author_id');
 
 			if (insertedCommentError) {
 				console.log(insertedCommentError);
