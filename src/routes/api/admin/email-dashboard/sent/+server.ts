@@ -73,7 +73,10 @@ export const GET: RequestHandler = async ({ url, locals }) => {
 		// Build query for emails
 		let query = supabase
 			.from('email_sends')
-			.select('*', { count: 'exact' })
+			.select(
+				'id, campaign_id, recipient_email, recipient_name, recipient_source, recipient_source_id, subject, tracking_id, status, opened_at, open_count, clicked_at, click_count, unsubscribed_at, bounced_at, sent_at, sent_by, created_at, error_message, retry_count',
+				{ count: 'exact' }
+			)
 			.order('sent_at', { ascending: false, nullsFirst: false })
 			.order('created_at', { ascending: false })
 			.range(offset, offset + limit - 1);

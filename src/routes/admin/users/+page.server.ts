@@ -97,7 +97,7 @@ export const load: PageServerLoad = async (event) => {
 	}
 	const { data: signups, error: signupsError } = await supabase
 		.from('signups')
-		.select('*')
+		.select('id, email, name, created_at')
 		.order('created_at', { ascending: false });
 
 	if (signupsError) {

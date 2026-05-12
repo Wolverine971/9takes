@@ -15,7 +15,6 @@ interface BlogRow {
 	date: string | null;
 	description: string | null;
 	meta_title: string | null;
-	pic: string | null;
 	twitter: string | null;
 	instagram: string | null;
 	tiktok: string | null;
@@ -127,10 +126,12 @@ export const GET: RequestHandler = async ({ locals }) => {
 	}
 
 	try {
-		// Fetch all blogs with all fields for analytics
+		// Fetch only fields needed for content health analytics.
 		const { data: blogs, error: fetchError } = await supabase
 			.from('blogs_famous_people')
-			.select('*')
+			.select(
+				'id, person, title, enneagram, suggestions, published, content, lastmod, date, description, meta_title, twitter, instagram, tiktok, wikipedia, category'
+			)
 			.order('person');
 
 		if (fetchError) {
@@ -186,7 +187,7 @@ export const GET: RequestHandler = async ({ locals }) => {
 			const titleLength = blog.title?.length || 0;
 			const descriptionLength = blog.description?.length || 0;
 			const metaTitleLength = blog.meta_title?.length || 0;
-			const hasImage = !!(blog.pic && blog.pic !== '');
+			const hasImage = false;
 			const hasTwitter = !!(blog.twitter && blog.twitter !== '');
 			const hasInstagram = !!(blog.instagram && blog.instagram !== '');
 			const hasTiktok = !!(blog.tiktok && blog.tiktok !== '');

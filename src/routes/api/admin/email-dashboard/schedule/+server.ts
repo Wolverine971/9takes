@@ -81,7 +81,9 @@ export const POST: RequestHandler = async ({ request, locals }) => {
 				created_by: session.user.id,
 				status: 'pending'
 			} as any)
-			.select()
+			.select(
+				'id, draft_id, subject, recipients, campaign_id, scheduled_for, status, processed_at, emails_sent, emails_failed, created_by, created_at'
+			)
 			.single();
 
 		if (insertError) {
@@ -128,7 +130,9 @@ export const GET: RequestHandler = async ({ url, locals }) => {
 	try {
 		let query = supabase
 			.from('scheduled_emails')
-			.select('*')
+			.select(
+				'id, draft_id, subject, recipients, campaign_id, scheduled_for, status, processed_at, emails_sent, emails_failed, created_by, created_at'
+			)
 			.order('scheduled_for', { ascending: true });
 
 		if (status) {

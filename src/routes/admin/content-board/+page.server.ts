@@ -102,11 +102,15 @@ export const load: PageServerLoad = async (
 	// Execute all promises in parallel
 	const [enneagramContent, communityContent, guidesContent, peopleContent, peopleBlogPosts] =
 		await Promise.all([
-			supabase.from(`content_enneagram`).select('*'),
-			supabase.from(`content_community`).select('*'),
-			supabase.from(`content_guides`).select('*'),
-			supabase.from(`content_people`).select('*'),
-			supabase.from('blogs_famous_people').select('*')
+			supabase.from(`content_enneagram`).select('loc, stageName'),
+			supabase.from(`content_community`).select('loc, stageName'),
+			supabase.from(`content_guides`).select('loc, stageName'),
+			supabase.from(`content_people`).select('loc, stageName'),
+			supabase
+				.from('blogs_famous_people')
+				.select(
+					'id, person, title, description, author, date, loc, lastmod, published, type, enneagram, category, twitter, instagram, tiktok'
+				)
 		]);
 
 	// Handle errors
@@ -223,7 +227,7 @@ export const actions: Actions = {
 			const stageName = body.stageName as string;
 
 			const { data: existingRecord, error: existingRecordError } = await contentClient
-				.select('*')
+				.select('id')
 				.eq('loc', loc);
 
 			if (existingRecordError) {
@@ -244,7 +248,7 @@ export const actions: Actions = {
 						stageName
 					})
 					.eq('loc', loc)
-					.select();
+					.select('id, title, description, author, date, loc, lastmod, published, type, stageName');
 				if (recordError) {
 					console.log(recordError);
 				}
@@ -263,7 +267,7 @@ export const actions: Actions = {
 						type,
 						stageName
 					})
-					.select();
+					.select('id, title, description, author, date, loc, lastmod, published, type, stageName');
 				if (recordError) {
 					console.log(recordError);
 				}

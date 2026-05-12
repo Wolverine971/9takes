@@ -8,12 +8,27 @@ import { checkDemoTime } from '../../utils/api';
 
 type CommentRow = Database['public']['Tables']['comments']['Row'];
 type ProfileRow = Database['public']['Tables']['profiles']['Row'];
+type PublicCommentRow = Pick<
+	CommentRow,
+	| 'id'
+	| 'comment'
+	| 'author_id'
+	| 'parent_id'
+	| 'parent_type'
+	| 'comment_count'
+	| 'created_at'
+	| 'modified_at'
+	| 'like_count'
+>;
 
-interface CommentWithProfile extends CommentRow {
+interface CommentWithProfile extends PublicCommentRow {
 	profiles?: Pick<ProfileRow, 'external_id' | 'enneagram'> | null;
 	profiles_demo?: Pick<ProfileRow, 'external_id' | 'enneagram'> | null;
 	comments?: CommentWithProfile[];
 }
+
+const PUBLIC_COMMENT_FIELDS =
+	'id, comment, author_id, parent_id, parent_type, comment_count, created_at, modified_at, like_count';
 
 // Validation schemas
 const getCommentsSchema = z.object({
@@ -70,11 +85,7 @@ export const GET = withApiLogging(async ({ url, locals, cookies }) => {
 		const { data: questionComments, error: questionCommentsError } = (await supabase
 			.from(demo_time === true ? 'comments_demo' : 'comments')
 			.select(
-				`
-					*
-					, ${demo_time === true ? 'profiles_demo' : 'profiles'} ( external_id, enneagram)
-				`,
-				{ count: 'exact' }
+				`${PUBLIC_COMMENT_FIELDS}, ${demo_time === true ? 'profiles_demo' : 'profiles'} ( external_id, enneagram)`
 			)
 			.eq('parent_id', parentId)
 			.eq('parent_type', parentType)
@@ -106,11 +117,7 @@ export const GET = withApiLogging(async ({ url, locals, cookies }) => {
 				const { data: commentComments, error: commentError } = (await supabase
 					.from(demo_time === true ? 'comments_demo' : 'comments')
 					.select(
-						`
-							*
-							, ${demo_time === true ? 'profiles_demo' : 'profiles'} ( external_id, enneagram)
-						`,
-						{ count: 'exact' }
+						`${PUBLIC_COMMENT_FIELDS}, ${demo_time === true ? 'profiles_demo' : 'profiles'} ( external_id, enneagram)`
 					)
 					.in('parent_id', questionCommentIds)
 					.eq('parent_type', parentType)

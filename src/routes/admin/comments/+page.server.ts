@@ -101,7 +101,7 @@ async function updateCommentCounts(
 		// Get comment count for the parent
 		const { count: commentCount, error: countError } = await supabase
 			.from(table)
-			.select('*', { count: 'exact', head: false })
+			.select('id', { count: 'exact', head: true })
 			.eq('parent_id', commentData.parent_id)
 			.eq('parent_type', commentData.parent_type)
 			.eq('removed', false);
@@ -328,7 +328,7 @@ export const actions: Actions = {
 				// 3. Get the comment data for updating counts
 				const { data: comment, error: commentError } = await locals.supabase
 					.from(commentsTable)
-					.select('*')
+					.select('parent_id, parent_type')
 					.eq('id', commentId)
 					.single();
 
@@ -399,7 +399,7 @@ export const actions: Actions = {
 				// 3. Get the comment data for updating counts
 				const { data: comment, error: commentError } = await locals.supabase
 					.from(commentsTable)
-					.select('*')
+					.select('parent_id, parent_type')
 					.eq('id', commentId)
 					.single();
 

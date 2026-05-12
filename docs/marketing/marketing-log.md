@@ -10,15 +10,14 @@ Maintained by the `marketing-pm` agent + DJ. Cross-link to `docs/growth/growth-l
 
 ## Active workstreams
 
-### 2026-05-11 — Pop-culture publish queue (BOTTLENECK, unchanged since 2026-05-09 brief)
+### 2026-05-11 — Pop-culture publish queue (BOTTLENECK; unblocker shipped today)
 
-- 17 real drafts sitting `published: false` in `src/blog/pop-culture/`
-- 5 of those date to Dec 2025 / Jan 2026 (4–10 months stale)
-- 11 date to Feb–Mar 2026
-- 1 went live since the brief: confirm `succession-roy-siblings-enneagram-types.md` + `the-office-enneagram-types.md` frontmatter actually says `published: true` (sitemap suggested yes on May 9; disk needs verification)
-- SEO scaffolding (corpus-stat callouts, type-pillar wiring, JSON-LD) shipped before this queue did — each post published now gets full amplification benefit
-- **Next:** decide A (triage table → top 3–5) or B (just-ship the Dec 2025 cohort)
-- **Owner:** DJ (manual; no automation for pop-culture)
+- Current state on disk: **26 published, 19 unpublished** (snapshot from `grep ^published: src/blog/pop-culture/*.md`)
+- The 2026-05-09 brief said 17 stuck drafts; the kardashian draft has since been flipped to `published: true` with `date: 2026-05-09`. Disk drift between brief and reality.
+- **2026-05-11 unblocker:** `/blog_content_publish_pop_culture` command now exists. Validates draft + flips frontmatter + regenerates sitemap + syncs Supabase FTS in one shot.
+- SEO scaffolding (corpus-stat callouts, type-pillar wiring, JSON-LD) is already in place — each post published now gets full amplification benefit
+- **Next:** DJ can now `/blog_content_publish_pop_culture` against the 5 stale Dec 2025 / Jan 2026 drafts, one per session. Distribution packets follow (6 still queued in `docs/distribution-assets/`).
+- **Owner:** DJ runs the command per draft; the command does the work.
 
 ### 2026-05-11 — People blog pipeline (HEALTHY, automated)
 
@@ -46,6 +45,39 @@ Maintained by the `marketing-pm` agent + DJ. Cross-link to `docs/growth/growth-l
 - Pure execution work. No writing required.
 - **Next:** DJ picks 2–3 to fire, runs them through the respective channel commands.
 
+### 2026-05-11 — Long-Form Network email drafts (12, ready-to-send)
+
+- File: `docs/outreach/2026-05-11_long-form-network-emails.md`.
+- All 12 cluster emails drafted with signature specifics pulled from each piece's FEEDBACK comments (the curated golden lines). Williamson first per DJ.
+- Each opener references a concrete moment from the actual published piece — shoulder-bag (Williamson), Tony Robbins confession (Hormozi), 13 pounds in the chicken shop (Bartlett), King Kong/Godzilla age-5 scene (Rogan), "You're morally obligated to do remarkable things" (Peterson), 7-Eleven opening (Fridman), etc.
+- **Typing correction caught:** Tim Ferriss earlier guessed 5w4 (wrong). Actual piece types him Type 1 ("Self-Help's Relentless Reformer"). Email opener rewritten around the suicide disclosure / forgotten address change. Cluster doc DM also patched.
+- **Bartlett step:** Disk still `published: false`; grade now 8.8. Email is drafted but won't deliver value until `/blog_content_publish_people Steven-Bartlett` is run.
+- **CAN-SPAM mitigation:** Each email closes with "If you'd rather not hear from me again on this, just reply 'no thanks' and I'll stop." Cheap insurance now that cluster send count > 5.
+- **Owner:** DJ verifies each URL renders before sending; pulls subject line + fires email.
+
+### 2026-05-11 — Long-Form Network cluster campaign (DRAFTED, awaiting review)
+
+- File: `docs/outreach/2026-05-11_long-form-network-cluster.md`.
+- Editorial frame: "The Long-Form Network" — 9takes positions as the publication seriously analyzing the 12 people running the most consequential long-form interview shows of this era.
+- Cluster: Chris Williamson, Joe Rogan, Jordan Peterson, Alex Hormozi, Lex Fridman, Shawn Ryan, Theo Von, Tim Ferriss, Andrew Huberman, Ali Abdaal, Andrew Schulz, Steven Bartlett.
+- Strategy: Network-proof private outreach (Strategy A). No public moment yet.
+- Sequencing: 3 weeks. Week 1 = engagement-likely (Hormozi, Williamson, Abdaal). Week 2 = connectors (Huberman, Ferriss, Bartlett, Theo). Week 3 = heavyweights (Peterson, Fridman, Rogan, Shawn Ryan, Schulz).
+- Adjacent-link rotation designed so no two recipients see the same trio.
+- Steven Bartlett special case: not live (grade 8.0 < 8.5 publish gate). Kept as recipient, no own-profile link. Future: upgrade his draft to A-grade, then publish + re-fold.
+- Voice: every send leads with a sharp specific from their piece, names 2–3 other cluster members as proof, ends with fairness ask.
+- **Open before-send:** typing verification (Pre-send check on every draft), Hormozi vs Williamson as first send, public-moment decision (deferred 2 weeks), sender identity for Peterson email.
+
+### 2026-05-11 — Chris Williamson outreach campaign (DRAFTED, awaiting review)
+
+- 10-recipient campaign drafted at `docs/outreach/2026-05-11_chris-williamson-campaign.md`.
+- Strategy grounded in `docs/planning/personality-analysis-outreach-positioning-2026-05-11.md` + `personality-analysis-outreach-workflow-2026-05-06.md`.
+- Channel mix: X DM for subject + podcasters/creators (Chris, Bartlett, Bilyeu, Hormozi, Abdaal); email for commentators (Clouse, Kocak, Peterson); Reddit posts for communities (r/Enneagram, r/DecodingTheGurus).
+- Voice: distribution-packet-grade specifics (shoulder-bag, Love Island Coriolis, 2025 mold/Lyme) leading every opener. Fairness frame baked in per positioning doc.
+- Default adjacent links: Alex Hormozi + Robert Greene (both verified live).
+- CAN-SPAM decision: skipped (1:1 relationship pitches, not commercial broadcast).
+- **Open before-send:** sender email identity, Peterson vs swap, Draft A vs B for the subject DM, Ali Abdaal URL verification, sequencing (same day vs staggered).
+- **Owner:** DJ approves draft + sends; campaign doc has reply-handling cheat sheet + tracking columns.
+
 ### 2026-05-09 — SEO infrastructure push (LANDED, may now be quieter)
 
 - May 5–9 commits added: corpus-stat citations across 9 type pages, FAQ JSON-LD, HowTo schema on guides, Quotation JSON-LD on 7 personality-analysis categories, bridge-links sidebar, /enneagram-test CTA below enneagram-corner posts, pop-culture → type-pillar wiring
@@ -56,11 +88,8 @@ Maintained by the `marketing-pm` agent + DJ. Cross-link to `docs/growth/growth-l
 
 ## Blocked / waiting
 
-### 2026-05-11 — Pop-culture publish command
-- Open question: does a `/blog_content_publish_people` equivalent exist for pop-culture, or is publishing manual (flip `published: true` + run indexer)?
-- Blocks: just-ship-it batch on the pop-culture queue.
-
 ### 2026-05-11 — Daily brief cadence
+
 - Only 2 briefs total exist: `2026-04-17_pickup-brief.md`, `2026-05-09_marketing-status.md` (gap of ~3 weeks).
 - Decision needed: restart cadence (daily? weekly?) or formalize retirement.
 
@@ -68,7 +97,21 @@ Maintained by the `marketing-pm` agent + DJ. Cross-link to `docs/growth/growth-l
 
 ## Decisions
 
-*(none yet — DJ has not committed to A vs B on the pop-culture queue or to a brief cadence)*
+### 2026-05-11 — Created `/blog_content_publish_pop_culture` slash command
+
+- Resolves the blocker flagged in the 2026-05-09 brief.
+- Implementation: command-only, no new script. Mirrors `/blog_content_publish_people` workflow but adapted for MDsvex file-based pop-culture pipeline (no Supabase row, just frontmatter flip + sitemap regen + index-blogs).
+- Date behavior: bumps `date` and `lastmod` to today on publish (matches the people command convention; SEO freshness benefit for stale drafts).
+- Gates: frontmatter completeness, body ≥ 1000 words, ≥ 5 `##` sections, no placeholder markers, `picGroup` image files exist on disk, `loc` slug matches filename.
+- File: `.claude/commands/blog_content_publish_pop_culture.md`.
+- Next: unblocks just-ship-it batch on the 5 stale Dec 2025 / Jan 2026 drafts.
+
+### 2026-05-11 — Created `marketing-pm` agent
+
+- Full operator scope (can edit drafts, flip flags) with explicit per-action confirmation gates.
+- Append-only log model (this file) + dated briefs in `docs/daily-briefs/`.
+- Scans all four surfaces: blog pipelines, distribution + social, SEO + growth, outreach + email + funnel.
+- File: `.claude/agents/marketing-pm.md`.
 
 ---
 
@@ -84,6 +127,7 @@ Maintained by the `marketing-pm` agent + DJ. Cross-link to `docs/growth/growth-l
 Cross-link only. Detail lives in `docs/growth/growth-log.md`.
 
 ### 2026-04-08 — Full-stack growth audit (`growth-analyst-2`)
+
 - Three concrete bugs identified: (1) `EnneagramCTASidebar` commented out + console.log handler, (2) stale "join the waitlist" copy in blog footers, (3) split visitor identity between `anon-*` and FingerprintJS `visitorId`.
 - See `docs/growth/growth-log.md` "Experiment Log" for full hypothesis + metric plan.
 

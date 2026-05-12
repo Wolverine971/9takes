@@ -23,6 +23,10 @@ import {
 type FamousPersonRow = Database['public']['Tables']['blogs_famous_people']['Row'];
 type BlogCommentRow = Database['public']['Tables']['blog_comments']['Row'];
 type ServerSupabaseClient = SupabaseClient<Database>;
+type PublicBlogCommentRow = Pick<
+	BlogCommentRow,
+	'id' | 'blog_link' | 'blog_type' | 'comment' | 'created_at' | 'author_id'
+>;
 
 export const load: PageServerLoad = async (event) => {
 	const setHeaders = event.setHeaders;
@@ -52,7 +56,9 @@ export const load: PageServerLoad = async (event) => {
 
 	const { data: personDataRaw } = await supabase
 		.from('blogs_famous_people')
-		.select('*')
+		.select(
+			'id, author, birth_date, birth_place, category, changefreq, citations, content, created_at, date, description, enneagram, faqs, first_published_at, imdb_id, instagram, keywords, knows_about, lastmod, loc, meta_title, nationality, occupation, person, persona_title, priority, published, published_at, same_as, suggestions, tags, tiktok, title, twitter, type, wikidata_qid, wikipedia'
+		)
 		.eq('person', canonicalSlugParam)
 		.maybeSingle();
 	const personData = personDataRaw as FamousPersonRow | null;
@@ -91,13 +97,13 @@ export const load: PageServerLoad = async (event) => {
 	const { data: hasCommented } = await queryPromise;
 	const userHasAnswered = !!hasCommented;
 
-	let comments: BlogCommentRow[] = [];
+	let comments: PublicBlogCommentRow[] = [];
 
 	// Only fetch comments if user has answered
 	if (userHasAnswered) {
 		const { data: blogComments } = await supabase
 			.from('blog_comments')
-			.select('*')
+			.select('id, blog_link, blog_type, comment, created_at, author_id')
 			.in('blog_link', commentSlugCandidates)
 			.order('created_at', { ascending: false })
 			.limit(100);

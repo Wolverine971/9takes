@@ -42,11 +42,17 @@ export const load: PageServerLoad = async (event) => {
 			p_offset: 0
 		}),
 		// Get drafts
-		supabase.from('email_drafts').select('*').order('updated_at', { ascending: false }).limit(10),
+		supabase
+			.from('email_drafts')
+			.select('id, subject, recipients, scheduled_for, created_by, created_at, updated_at')
+			.order('updated_at', { ascending: false })
+			.limit(10),
 		// Get pending scheduled emails
 		supabase
 			.from('scheduled_emails')
-			.select('*')
+			.select(
+				'id, draft_id, subject, recipients, campaign_id, scheduled_for, status, processed_at, emails_sent, emails_failed, created_by, created_at'
+			)
 			.eq('status', 'pending')
 			.order('scheduled_for', { ascending: true })
 			.limit(10),
@@ -57,7 +63,10 @@ export const load: PageServerLoad = async (event) => {
 			p_to_date: undefined
 		}),
 		// Get cron status (from view created by migration)
-		supabase.from('email_cron_status').select('*').single(),
+		supabase
+			.from('email_cron_status')
+			.select('api_endpoint, enabled, health_status, last_run_at, last_run_status, updated_at')
+			.single(),
 		getWelcomeSequenceOverview(supabase)
 	]);
 

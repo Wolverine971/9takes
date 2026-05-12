@@ -25,6 +25,8 @@ const RATE_LIMIT_WINDOW_SECONDS = 60;
 // Pagination defaults
 const DEFAULT_COMMENTS_LIMIT = 10;
 const DEFAULT_LINKS_LIMIT = 10;
+const PUBLIC_COMMENT_FIELDS =
+	'id, comment, author_id, parent_id, parent_type, comment_count, created_at, modified_at, like_count';
 
 // Request timeout for external fetches (ms)
 const EXTERNAL_FETCH_TIMEOUT = 5000;
@@ -552,7 +554,7 @@ async function handleCommentCreation(
 		// eslint-disable-next-line @typescript-eslint/no-explicit-any
 		const { data: record, error: addCommentError } = await (supabase.from('comments_demo') as any)
 			.insert(commentData)
-			.select()
+			.select(PUBLIC_COMMENT_FIELDS)
 			.single();
 
 		if (addCommentError) {
@@ -586,7 +588,7 @@ async function addLike(parent_id: string, user_id: string) {
 	// eslint-disable-next-line @typescript-eslint/no-explicit-any
 	const { data: record, error: addLikeError } = await (supabase.from('comment_like') as any)
 		.insert({ comment_id: parseInt(parent_id), user_id })
-		.select()
+		.select('id, comment_id, user_id')
 		.single();
 
 	if (addLikeError) {
@@ -622,7 +624,7 @@ async function addSubscription(parent_id: string, user_id: string, demo_time: bo
 		supabase.from(demo_time ? 'subscriptions_demo' : 'subscriptions') as any
 	)
 		.insert({ question_id: parseInt(parent_id), user_id })
-		.select()
+		.select('id, question_id, user_id')
 		.single();
 
 	if (addSubscriptionError) {
@@ -807,7 +809,7 @@ async function getQuestion(slug: string, demo_time: boolean) {
 	const subscriptions = demo_time ? 'subscriptions_demo' : 'subscriptions';
 	// eslint-disable-next-line @typescript-eslint/no-explicit-any
 	const query = (supabase.from(table) as any).select(
-		`*, ${subscriptions} (id, question_id, user_id)`
+		`id, question, question_formatted, url, context, data, author_id, created_at, updated_at, comment_count, es_id, img_url, ${subscriptions} (id, question_id, user_id)`
 	);
 
 	const { data, error: findQuestionError } = await (Number.isInteger(parseInt(slug))
@@ -837,7 +839,7 @@ async function checkUserAnswered(
 async function getQuestionTags(questionId: number) {
 	const { data, error } = await supabase
 		.from('question_category_tags')
-		.select(`*, question_categories(*)`, { count: 'exact' })
+		.select('question_id, tag_id, question_categories(id, category_name, slug, parent_id, level)')
 		.eq('question_id', questionId);
 
 	if (error) {
@@ -849,7 +851,7 @@ async function getQuestionTags(questionId: number) {
 async function getCommentCount(questionId: number, demo_time: boolean) {
 	const { count } = await supabase
 		.from(demo_time ? 'comments_demo' : 'comments')
-		.select('*', { count: 'exact' })
+		.select('id', { count: 'exact', head: true })
 		.eq('parent_type', 'question')
 		.eq('parent_id', questionId)
 		.eq('removed', false);
@@ -863,9 +865,12 @@ async function getComments(questionId: number, demo_time: boolean, removed: bool
 
 	const { data, count, error } = await supabase
 		.from(table)
-		.select(`*, ${profiles} (external_id, enneagram), ${commentLike} (id, comment_id, user_id)`, {
-			count: 'exact'
-		})
+		.select(
+			`${PUBLIC_COMMENT_FIELDS}, ${profiles} (external_id, enneagram), ${commentLike} (id, comment_id, user_id)`,
+			{
+				count: 'exact'
+			}
+		)
 		.eq('parent_id', questionId)
 		.eq('parent_type', 'question')
 		.eq('removed', removed)
@@ -902,7 +907,9 @@ async function getSortableComments(questionId: number, demo_time: boolean) {
 
 	const { data, error: commentsError } = await supabase
 		.from(table)
-		.select(`*, ${profiles} (external_id, enneagram), ${commentLike} (id, comment_id, user_id)`)
+		.select(
+			`${PUBLIC_COMMENT_FIELDS}, ${profiles} (external_id, enneagram), ${commentLike} (id, comment_id, user_id)`
+		)
 		.eq('parent_id', questionId)
 		.eq('parent_type', 'question')
 		.eq('removed', false);
@@ -965,7 +972,10 @@ function sortCommentsBy(comments: any[], sortBy: 'newest' | 'oldest' | 'likes') 
 async function getQuestionLinks(questionId: number) {
 	const { data, count, error } = await supabase
 		.from('links')
-		.select(`*`, { count: 'exact' })
+		.select(
+			'id, url, domain_id, question_id, meta_title, meta_description, meta_image, clicks, created_at, updated_at',
+			{ count: 'exact' }
+		)
 		.eq('question_id', questionId)
 		.limit(DEFAULT_LINKS_LIMIT);
 
@@ -976,7 +986,7 @@ async function getQuestionLinks(questionId: number) {
 }
 
 async function getFlagReasons() {
-	const { data, error } = await supabase.from('flag_reasons').select(`*`);
+	const { data, error } = await supabase.from('flag_reasons').select('id, reason');
 	if (error) {
 		console.log('No links for question', error);
 	}
@@ -986,7 +996,7 @@ async function getFlagReasons() {
 async function getAIComments(questionId: number) {
 	const { data, error } = await supabase
 		.from('comments_ai')
-		.select('*')
+		.select('id, question_id, enneagram_type, comment, created_at')
 		.eq('question_id', questionId);
 
 	if (error) {

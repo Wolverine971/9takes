@@ -418,7 +418,9 @@ export const actions: Actions = {
 			});
 		}
 
-		const { data: signups, error: signupsError } = await dbLocal.from('signups').select('*');
+		const { data: signups, error: signupsError } = await dbLocal
+			.from('signups')
+			.select('id, email, name');
 
 		if (signupsError) {
 			throw error(404, {

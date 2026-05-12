@@ -2473,106 +2473,6 @@
 					</div>
 
 					<div class="release-layout">
-						<div
-							class="table-wrapper release-table-wrapper"
-							role="region"
-							aria-label="Release performance"
-						>
-							<table class="data-table release-table">
-								<thead>
-									<tr>
-										{#each releaseTableColumns as column}
-											<th class:num={column.numeric} aria-sort={getReleaseAriaSort(column.key)}>
-												<button
-													type="button"
-													class="sort-button"
-													class:num={column.numeric}
-													class:active={releaseSortBy === column.key}
-													onclick={() => handleReleaseSort(column.key)}
-												>
-													<span>{column.label}</span>
-													<span class="sort-indicator">{getReleaseSortIndicator(column.key)}</span>
-												</button>
-											</th>
-										{/each}
-									</tr>
-								</thead>
-								<tbody>
-									{#if releaseVisibleRows.length === 0}
-										<tr>
-											<td colspan="8" class="empty">No releases match this performance filter.</td>
-										</tr>
-									{:else}
-										{#each releaseVisibleRows as row}
-											{@const releaseHref = getPageHref(row.path)}
-											<tr class:active-row={selectedReleaseSlug === row.slug}>
-												<td data-label="Release">
-													<div class="release-title-row">
-														<button
-															type="button"
-															class="table-path-button"
-															class:active={selectedReleaseSlug === row.slug}
-															title={row.title || row.slug}
-															onclick={() => void selectRelease(row.slug)}
-														>
-															{row.title || row.slug}
-														</button>
-													</div>
-													{#if releaseHref}
-														<a
-															class="release-path release-path-link"
-															href={releaseHref}
-															title={row.path}
-														>
-															{row.path}
-														</a>
-													{:else}
-														<div class="release-path" title={row.path}>{row.path}</div>
-													{/if}
-												</td>
-												<td data-label="Published">{formatDateTime(row.published_at)}</td>
-												<td data-label="First view"
-													>{formatMinutesToFirstView(row.minutes_to_first_view)}</td
-												>
-												<td class="num" data-label="24h">
-													{row.views_24h.toLocaleString()}
-													<small>{row.unique_24h.toLocaleString()} unique</small>
-													{#if row.views_24h_percentile !== null}
-														<small>{formatPercentile(row.views_24h_percentile)}</small>
-													{/if}
-												</td>
-												<td class="num" data-label="7d">
-													{row.views_7d.toLocaleString()}
-													{#if row.views_7d_percentile !== null}
-														<small>{formatPercentile(row.views_7d_percentile)}</small>
-													{/if}
-												</td>
-												<td class="num" data-label="30d">
-													{row.views_30d.toLocaleString()}
-													{#if row.views_30d_percentile !== null}
-														<small>{formatPercentile(row.views_30d_percentile)}</small>
-													{/if}
-												</td>
-												<td class="num" data-label="Score">
-													{formatBenchmarkScore(row.benchmark_score)}
-													<small>{formatBenchmarkBasis(row.benchmark_basis)}</small>
-													{#if row.benchmark_sample_size > 0}
-														<small>n={row.benchmark_sample_size.toLocaleString()}</small>
-													{/if}
-												</td>
-												<td data-label="Band">
-													<span class={`band-pill ${getBandClass(row.performance_band)}`}>
-														{formatPerformanceBand(row.performance_band)}
-													</span>
-													<small>{formatReleaseStage(row.release_stage)}</small>
-												</td>
-											</tr>
-										{/each}
-									{/if}
-								</tbody>
-							</table>
-						</div>
-
 						<div class="trend-panel release-growth-panel">
 							{#if selectedRelease}
 								<div class="release-detail-header">
@@ -2593,7 +2493,7 @@
 										data={releaseGrowthChartData}
 										title="Cumulative Views After Publish"
 										xLabel="Days Since Publish"
-										height={240}
+										height={280}
 										color="#10b981"
 										showPoints={true}
 										showGrid={true}
@@ -2735,9 +2635,109 @@
 								</div>
 							{:else}
 								<div class="empty-panel trend-empty">
-									Select a release to view its growth curve.
+									Select a release below to view its growth curve.
 								</div>
 							{/if}
+						</div>
+
+						<div
+							class="table-wrapper release-table-wrapper"
+							role="region"
+							aria-label="Release performance"
+						>
+							<table class="data-table release-table">
+								<thead>
+									<tr>
+										{#each releaseTableColumns as column}
+											<th class:num={column.numeric} aria-sort={getReleaseAriaSort(column.key)}>
+												<button
+													type="button"
+													class="sort-button"
+													class:num={column.numeric}
+													class:active={releaseSortBy === column.key}
+													onclick={() => handleReleaseSort(column.key)}
+												>
+													<span>{column.label}</span>
+													<span class="sort-indicator">{getReleaseSortIndicator(column.key)}</span>
+												</button>
+											</th>
+										{/each}
+									</tr>
+								</thead>
+								<tbody>
+									{#if releaseVisibleRows.length === 0}
+										<tr>
+											<td colspan="8" class="empty">No releases match this performance filter.</td>
+										</tr>
+									{:else}
+										{#each releaseVisibleRows as row}
+											{@const releaseHref = getPageHref(row.path)}
+											<tr class:active-row={selectedReleaseSlug === row.slug}>
+												<td data-label="Release">
+													<div class="release-title-row">
+														<button
+															type="button"
+															class="table-path-button"
+															class:active={selectedReleaseSlug === row.slug}
+															title={row.title || row.slug}
+															onclick={() => void selectRelease(row.slug)}
+														>
+															{row.title || row.slug}
+														</button>
+													</div>
+													{#if releaseHref}
+														<a
+															class="release-path release-path-link"
+															href={releaseHref}
+															title={row.path}
+														>
+															{row.path}
+														</a>
+													{:else}
+														<div class="release-path" title={row.path}>{row.path}</div>
+													{/if}
+												</td>
+												<td data-label="Published">{formatDateTime(row.published_at)}</td>
+												<td data-label="First view"
+													>{formatMinutesToFirstView(row.minutes_to_first_view)}</td
+												>
+												<td class="num" data-label="24h">
+													{row.views_24h.toLocaleString()}
+													<small>{row.unique_24h.toLocaleString()} unique</small>
+													{#if row.views_24h_percentile !== null}
+														<small>{formatPercentile(row.views_24h_percentile)}</small>
+													{/if}
+												</td>
+												<td class="num" data-label="7d">
+													{row.views_7d.toLocaleString()}
+													{#if row.views_7d_percentile !== null}
+														<small>{formatPercentile(row.views_7d_percentile)}</small>
+													{/if}
+												</td>
+												<td class="num" data-label="30d">
+													{row.views_30d.toLocaleString()}
+													{#if row.views_30d_percentile !== null}
+														<small>{formatPercentile(row.views_30d_percentile)}</small>
+													{/if}
+												</td>
+												<td class="num" data-label="Score">
+													{formatBenchmarkScore(row.benchmark_score)}
+													<small>{formatBenchmarkBasis(row.benchmark_basis)}</small>
+													{#if row.benchmark_sample_size > 0}
+														<small>n={row.benchmark_sample_size.toLocaleString()}</small>
+													{/if}
+												</td>
+												<td data-label="Band">
+													<span class={`band-pill ${getBandClass(row.performance_band)}`}>
+														{formatPerformanceBand(row.performance_band)}
+													</span>
+													<small>{formatReleaseStage(row.release_stage)}</small>
+												</td>
+											</tr>
+										{/each}
+									{/if}
+								</tbody>
+							</table>
 						</div>
 					</div>
 				{/if}
@@ -3468,18 +3468,19 @@
 	}
 
 	.release-layout {
-		display: grid;
-		grid-template-columns: minmax(0, 1.08fr) minmax(400px, 0.92fr);
-		gap: 12px;
+		display: flex;
+		flex-direction: column;
+		gap: 16px;
 	}
 
 	.release-table-wrapper {
-		max-height: 660px;
+		max-height: 720px;
 		overflow-y: auto;
+		overflow-x: auto;
 	}
 
 	.release-table {
-		min-width: 1040px;
+		min-width: 960px;
 		table-layout: fixed;
 	}
 
@@ -3614,9 +3615,9 @@
 
 	.release-detail-grid {
 		display: grid;
-		grid-template-columns: repeat(4, minmax(0, 1fr));
+		grid-template-columns: repeat(5, minmax(0, 1fr));
 		gap: 8px;
-		margin-top: 10px;
+		margin-top: 12px;
 	}
 
 	.release-detail-grid div {
@@ -4014,10 +4015,6 @@
 	@media (max-width: 1300px) {
 		.top-lists-grid {
 			grid-template-columns: repeat(2, minmax(0, 1fr));
-		}
-
-		.release-layout {
-			grid-template-columns: 1fr;
 		}
 	}
 

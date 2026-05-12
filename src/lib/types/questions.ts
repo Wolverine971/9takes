@@ -32,11 +32,12 @@ export interface Comment {
 	parent_id: number;
 	parent_type: 'question' | 'comment';
 	created_at: string;
-	modified_at: string | null;
-	removed: boolean;
-	es_id: string | null;
-	fingerprint: string | null;
+	modified_at?: string | null;
+	removed?: boolean;
+	es_id?: string | null;
+	fingerprint?: string | null;
 	comment_count: number;
+	like_count?: number | null;
 	ip?: string;
 	profiles?: Profile | null;
 	profiles_demo?: Profile | null;
@@ -91,7 +92,6 @@ export interface QuestionCategory {
 }
 
 export interface QuestionTag {
-	id: number;
 	question_id: number;
 	tag_id: number;
 	question_categories: QuestionCategory;

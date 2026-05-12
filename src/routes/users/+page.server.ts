@@ -31,7 +31,9 @@ export const load: PageServerLoad = async (event) => {
 		throw redirect(307, '/questions');
 	}
 
-	const { data: profiles, error: profilesError } = (await db.from(profileTable).select('*')) as {
+	const { data: profiles, error: profilesError } = (await db
+		.from(profileTable)
+		.select('id, email, first_name, last_name, created_at, enneagram, admin')) as {
 		data: ProfileRow[] | null;
 		error: unknown;
 	};
@@ -42,7 +44,7 @@ export const load: PageServerLoad = async (event) => {
 
 	const { data: signups, error: signupsError } = await event.locals.supabase
 		.from('signups')
-		.select('*')
+		.select('id, email, name, created_at')
 		.order('created_at', { ascending: false });
 
 	if (signupsError) {

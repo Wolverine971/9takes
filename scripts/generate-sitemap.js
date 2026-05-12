@@ -887,7 +887,7 @@ async function getFamousPeople() {
 	const supabase = getSupabase();
 	const { data, error } = await supabase
 		.from('blogs_famous_people')
-		.select('*')
+		.select('person, loc, lastmod, date, enneagram')
 		.eq('published', true)
 		.order('lastmod')
 		.order('person');

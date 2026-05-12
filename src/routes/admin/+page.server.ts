@@ -265,8 +265,7 @@ export const actions: Actions = {
 			const { error: updateDemoError } = await supabase
 				.from('admin_settings')
 				.update({ value: newDemoTime })
-				.eq('id', 2)
-				.select();
+				.eq('id', 2);
 			// insert(userData);
 			if (!updateDemoError) {
 				invalidateDemoTimeCache();
@@ -340,7 +339,7 @@ export const actions: Actions = {
 			// First, get total count
 			const { count: totalQuestions } = await supabase
 				.from('questions')
-				.select('*', { count: 'exact', head: true });
+				.select('id', { count: 'exact', head: true });
 
 			results.questions.total = totalQuestions || 0;
 
@@ -348,7 +347,9 @@ export const actions: Actions = {
 				// Fetch batch with author information
 				const { data: questionBatch } = await supabase
 					.from('questions')
-					.select('*')
+					.select(
+						'id, es_id, question, question_formatted, author_id, context, url, img_url, comment_count, flagged, removed, created_at, updated_at'
+					)
 					.order('created_at', { ascending: false })
 					.range(questionOffset, questionOffset + QUESTION_BATCH_SIZE - 1);
 
@@ -424,7 +425,7 @@ export const actions: Actions = {
 			// Get total blog count
 			const { count: totalBlogs } = await supabase
 				.from('blogs_famous_people')
-				.select('*', { count: 'exact', head: true })
+				.select('id', { count: 'exact', head: true })
 				.eq('published', true);
 
 			results.blogs.total = totalBlogs || 0;
@@ -432,7 +433,9 @@ export const actions: Actions = {
 			while (hasMoreBlogs) {
 				const { data: blogBatch } = await supabase
 					.from('blogs_famous_people')
-					.select('*')
+					.select(
+						'id, title, person, content, description, author, enneagram, type, loc, meta_title, twitter, instagram, tiktok, wikipedia, published, created_at, lastmod'
+					)
 					.eq('published', true)
 					.order('created_at', { ascending: false })
 					.range(blogOffset, blogOffset + BLOG_BATCH_SIZE - 1);

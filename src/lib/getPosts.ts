@@ -6,6 +6,8 @@ import type { Database } from '../../database.types';
 
 type MdsvexModuleResolver = () => Promise<App.MdsvexFile>;
 type FamousPersonRow = Database['public']['Tables']['blogs_famous_people']['Row'];
+const FAMOUS_PERSON_RSS_FIELDS =
+	'id, person, title, author, description, date, created_at, loc, lastmod, changefreq, priority, published';
 
 // Helper to safely process Mdsvex modules
 function processMdsvexModule(
@@ -61,7 +63,7 @@ export const getPosts = async (): Promise<App.BlogPost[]> => {
 
 	const { data: personData, error: personDataError } = await supabase
 		.from('blogs_famous_people')
-		.select('*')
+		.select(FAMOUS_PERSON_RSS_FIELDS)
 		.eq('published', true);
 	if (personDataError) {
 		console.error('Failed to fetch blogs_famous_people:', personDataError);

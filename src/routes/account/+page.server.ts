@@ -22,7 +22,7 @@ export const load: PageServerLoad = async (event) => {
 
 	const { data: user, error: findUserError } = await event.locals.supabase
 		.from(demo_time === true ? 'profiles_demo' : 'profiles')
-		.select('*')
+		.select('id, first_name, last_name, enneagram, email, admin')
 		.eq('email', session.user.email)
 		.single();
 
@@ -34,7 +34,7 @@ export const load: PageServerLoad = async (event) => {
 	const { data: subscriptions, error: subscriptionsError } = await event.locals.supabase
 		.from(demo_time === true ? 'subscriptions_demo' : 'subscriptions')
 		.select(
-			`*,
+			`id, question_id, user_id,
 		${demo_time === true ? 'questions_demo' : 'questions'}(id, question, question_formatted, url)`
 		)
 		.eq('user_id', user.id);

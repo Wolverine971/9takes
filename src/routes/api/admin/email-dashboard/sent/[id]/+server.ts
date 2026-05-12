@@ -30,7 +30,9 @@ export const GET: RequestHandler = async ({ params, locals }) => {
 	try {
 		const { data: email, error: emailError } = await supabase
 			.from('email_sends')
-			.select('*')
+			.select(
+				'id, bounce_reason, bounced_at, campaign_id, click_count, clicked_at, created_at, error_message, html_content, open_count, opened_at, plain_text_content, recipient_email, recipient_name, recipient_source, recipient_source_id, retry_count, sent_at, sent_by, status, subject, tracking_id, unsubscribed_at'
+			)
 			.eq('id', id)
 			.single();
 
@@ -41,7 +43,7 @@ export const GET: RequestHandler = async ({ params, locals }) => {
 
 		const { data: events, error: eventsError } = await supabase
 			.from('email_tracking_events')
-			.select('*')
+			.select('id, email_send_id, event_type, link_url, created_at')
 			.eq('email_send_id', id)
 			.order('created_at', { ascending: false });
 

@@ -27,7 +27,7 @@ export const GET: RequestHandler = async ({ locals }) => {
 	try {
 		const { data: drafts, error: draftsError } = await supabase
 			.from('email_drafts')
-			.select('*')
+			.select('id, subject, recipients, scheduled_for, created_by, created_at, updated_at')
 			.order('updated_at', { ascending: false });
 
 		if (draftsError) {
@@ -81,7 +81,9 @@ export const POST: RequestHandler = async ({ request, locals }) => {
 				.from('email_drafts')
 				.update(draftData as any)
 				.eq('id', id)
-				.select()
+				.select(
+					'id, subject, html_content, recipients, scheduled_for, created_by, created_at, updated_at'
+				)
 				.single();
 
 			if (updateError) {
@@ -97,7 +99,9 @@ export const POST: RequestHandler = async ({ request, locals }) => {
 					...draftData,
 					created_by: session.user.id
 				} as any)
-				.select()
+				.select(
+					'id, subject, html_content, recipients, scheduled_for, created_by, created_at, updated_at'
+				)
 				.single();
 
 			if (insertError) {

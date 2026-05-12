@@ -31,7 +31,7 @@ export const load: PageServerLoad = async (event) => {
 
 	const { data: userSignups, error: userSignupsfError } = await supabase
 		.from('signups')
-		.select('*');
+		.select('id, email, name, created_at, unsubscribe_id, unsubscribed_date');
 
 	if (userSignupsfError) {
 		console.log(userSignupsfError);

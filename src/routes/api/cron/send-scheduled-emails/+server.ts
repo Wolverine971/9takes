@@ -48,7 +48,7 @@ async function processScheduledEmails(request: Request) {
 	try {
 		// Get pending scheduled emails that are due
 		const { data: scheduledEmailsData, error: fetchError } = await scheduledEmailsTable(supabase)
-			.select('*')
+			.select('id, recipients, subject, html_content, campaign_id, created_by')
 			.eq('status', 'pending')
 			.lte('scheduled_for', new Date().toISOString())
 			.order('scheduled_for', { ascending: true })

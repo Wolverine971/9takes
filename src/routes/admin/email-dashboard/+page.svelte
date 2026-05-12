@@ -144,6 +144,28 @@
 		}
 	}
 
+	async function openDraftForEdit(draft: EmailDraft) {
+		try {
+			const response = await fetch(`/api/admin/email-dashboard/drafts/${draft.id}`);
+			const result = await response.json();
+
+			if (!response.ok) {
+				throw new Error(result.message || 'Failed to fetch draft');
+			}
+
+			const detail = (result.draft || draft) as EmailDraft;
+			initialDraftId = detail.id || undefined;
+			initialSubject = detail.subject || '';
+			initialContent = detail.html_content || '';
+			composeRecipients = (detail.recipients || []) as EmailRecipient[];
+			initialScheduledFor = toLocalDateTimeValue(detail.scheduled_for);
+			showCompose = true;
+		} catch (error) {
+			console.error('Error loading draft:', error);
+			notifications.danger('Failed to load draft', 3000);
+		}
+	}
+
 	async function fetchScheduledEmails() {
 		try {
 			const response = await fetch('/api/admin/email-dashboard/schedule?status=pending');
@@ -1033,17 +1055,9 @@
 								<span class="draft-date">Updated {formatDate(draft.updated_at)}</span>
 							</div>
 							<div class="draft-actions">
-								<button
-									class="btn btn-secondary"
-									onclick={() => {
-										initialDraftId = draft.id || undefined;
-										initialSubject = draft.subject || '';
-										initialContent = draft.html_content || '';
-										composeRecipients = (draft.recipients || []) as EmailRecipient[];
-										initialScheduledFor = toLocalDateTimeValue(draft.scheduled_for);
-										showCompose = true;
-									}}>Edit</button
-								>
+								<button class="btn btn-secondary" onclick={() => openDraftForEdit(draft)}>
+									Edit
+								</button>
 							</div>
 						</div>
 					{/each}

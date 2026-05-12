@@ -74,7 +74,9 @@ export const GET: RequestHandler = async ({ params, locals }) => {
 	try {
 		const { data: draft, error: fetchError } = await supabase
 			.from('email_drafts')
-			.select('*')
+			.select(
+				'id, subject, html_content, recipients, scheduled_for, created_by, created_at, updated_at'
+			)
 			.eq('id', id)
 			.single();
 
