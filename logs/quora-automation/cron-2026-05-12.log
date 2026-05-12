@@ -1,0 +1,25 @@
+Quora warmup complete for 2026-05-12.
+
+Searches run: 40 (Phase A keyword + Phase C topic-page browse)
+Questions evaluated: 8
+Questions queued: 1
+Questions skipped: 6
+
+Priority queue:
+1. "Why do some people say too much sorry and thank you?" — Est. 15K+ views, 14 direct + 44 related — Angle: Type 9 verbal-output self-erasure PRIMARY (fresh), Types 6/2/4 secondary
+
+Type coverage: Types 2, 4, 6, 9 — missing 1, 3, 5, 7, 8
+Blog matches: 1 of 1 has a 9takes link candidate (how-to-apologize-like-a-pro)
+
+Question log: docs/quora/question-log.md
+Session doc: docs/quora/sessions/2026-05-12_quora-warmup.md
+
+```
+MODE: non-interactive
+SESSION: docs/quora/sessions/2026-05-12_quora-warmup.md
+QUEUED: 1
+SKIPPED: 6
+LIMITATIONS: Type 2 stress-arrow probes all DEAD (6th session targeting); Phase C topic-page browse now defunct (Codependency page is nav-only); Type 6 fresh-territory probes all DEAD; built-in-contrast variant probes all DEAD today
+```
+
+Next step: /quora-answer docs/quora/sessions/2026-05-12_quora-warmup.md

@@ -1,0 +1,16 @@
+```text
+Published people blog.
+
+Person: stephen-hawking
+Draft: src/blog/people/drafts/Stephen-Hawking.md
+Date/lastmod: 2026-05-12
+Supabase: published=true (row id=1033)
+Content grade: 9.1 | Word count: 2900
+Images: full + thumbnail present (static/types/5s/Stephen-Hawking.webp + s-Stephen-Hawking.webp)
+Generated files: pnpm gen:all completed
+  - famousTypes.ts: link=true, hasImage=true, lastmod=2026-05-12
+  - sitemap.xml: /personality-analysis/stephen-hawking present
+
+Blockers:
+- none
+```

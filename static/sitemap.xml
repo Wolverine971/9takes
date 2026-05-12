@@ -11,7 +11,7 @@
   </url>
   <url>
     <loc>https://9takes.com/blog</loc>
-    <lastmod>2026-05-11</lastmod>
+    <lastmod>2026-05-12</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/book-session</loc>
@@ -135,7 +135,7 @@
   </url>
   <url>
     <loc>https://9takes.com/corpus-stats</loc>
-    <lastmod>2026-05-10</lastmod>
+    <lastmod>2026-05-11</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/enneagram-corner</loc>
@@ -818,7 +818,7 @@
   </url>
   <url>
     <loc>https://9takes.com/enneagram-corner/subtopic/situational</loc>
-    <lastmod>2026-05-09</lastmod>
+    <lastmod>2026-05-11</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/enneagram-corner/subtopic/workplace</loc>
@@ -949,7 +949,7 @@
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis</loc>
-    <lastmod>2026-05-11</lastmod>
+    <lastmod>2026-05-12</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/abraham-lincoln</loc>
@@ -1310,11 +1310,11 @@
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/categories</loc>
-    <lastmod>2026-05-11</lastmod>
+    <lastmod>2026-05-12</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/categories/authors-thinkers</loc>
-    <lastmod>2026-05-07</lastmod>
+    <lastmod>2026-05-12</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/categories/comedy</loc>
@@ -1334,7 +1334,7 @@
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/categories/politics-public</loc>
-    <lastmod>2026-05-11</lastmod>
+    <lastmod>2026-05-12</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/categories/tech-business</loc>
@@ -2986,6 +2986,13 @@
     </image:image>
   </url>
   <url>
+    <loc>https://9takes.com/personality-analysis/stephen-hawking</loc>
+    <lastmod>2026-05-12</lastmod>
+    <image:image>
+      <image:loc>https://9takes.com/types/5s/Stephen-Hawking.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
     <loc>https://9takes.com/personality-analysis/steve-carell</loc>
     <lastmod>2026-04-14</lastmod>
     <image:image>
@@ -3227,7 +3234,7 @@
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/type/5</loc>
-    <lastmod>2026-05-11</lastmod>
+    <lastmod>2026-05-12</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/type/6</loc>
@@ -3324,13 +3331,20 @@
   </url>
   <url>
     <loc>https://9takes.com/pop-culture</loc>
-    <lastmod>2026-05-09</lastmod>
+    <lastmod>2026-05-11</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/pop-culture/breaking-points-enneagram-analysis</loc>
     <lastmod>2026-03-23</lastmod>
     <image:image>
       <image:loc>https://9takes.com/blogs/breaking-points-enneagram-analysis-composite.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://9takes.com/pop-culture/cancel-culture-enneagram-type</loc>
+    <lastmod>2026-05-11</lastmod>
+    <image:image>
+      <image:loc>https://9takes.com/blogs/twitter-toxic-psychology.webp</image:loc>
     </image:image>
   </url>
   <url>

@@ -1,0 +1,51 @@
+[2026-05-12 02:00:54] [INFO] Starting daily blog creator (non-interactive)
+[2026-05-12 02:00:54] [INFO] override.json - pause: false, currentWeekCount: 3/5
+[2026-05-12 02:00:54] [INFO] inProgress was null - clean state
+[2026-05-12 02:00:54] [INFO] SELECTED: mila-kunis (Type 6, Priority: 81)
+[2026-05-12 02:00:54] [INFO] Reason: Ranker/Instagram beauty-list spike, evergreen sitcom and film recognition, and a grounded Type 6 loyalist-pragmatist angle
+[2026-05-12 02:00:54] [INFO] Marked inProgress with startedAt timestamp
+[2026-05-12 02:11:20] [INFO] Draft created: /src/blog/people/drafts/Mila-Kunis.md (21KB, 3542 words)
+[2026-05-12 02:11:20] [INFO] All 5 gates passed: Testimony (5 quotes), Heading Mix (5 search/hybrid), Self-loop (none), Anti-imitation (clean), Distribution (3 type-theory paragraphs)
+[2026-05-12 02:11:20] [INFO] Internal links added: 4 (Howard-Stern, enneagram-type-6, Natalie-Portman, anxiety-and-enneagram-types-guide)
+[2026-05-12 02:11:20] [INFO] Self-grade: 8.9/B+ (Hook 9.0, Enneagram 8.8, Evidence 9.0, Writing 8.8, Originality 9.0)
+[2026-05-12 02:11:20] [INFO] Queue updated: mila-kunis moved to completed, inProgress cleared
+[2026-05-12 02:11:20] [INFO] Rate limit: 4/5 this week
+[2026-05-12 02:11:20] [SUCCESS] Daily blog creator complete - Mila Kunis
+[2026-05-12 02:11:20] [INFO] Next in queue: kate-beckinsale (Type 7, Priority 80)
+```
+=== DAILY BLOG CREATOR SUMMARY ===
+Date: 2026-05-12
+Status: SUCCESS ✅
+Blog: Mila Kunis (Type 6, Priority 81)
+Grade: 8.9/10 (B+)
+Duration: ~11 min
+Draft: src/blog/people/drafts/Mila-Kunis.md (21KB, 3,542 words)
+
+Self-grade breakdown:
+- Hook: 9.0 — opens on $890-of-$900 acting-class gamble
+- Enneagram: 8.8 — Type 6 lens reframes the Masterson letter as engine misfire
+- Evidence: 9.0 — 5 named-third-party quotes + sourced numbers ($250, $35M, etc.)
+- Writing: 8.8 — short/long rhythm, clean ending cuts to black
+- Originality: 9.0 — "loyalty as risk management with a smile on it" reading
+
+Gates (all pass):
+- Gate 1 Testimony: 5 qualifying quotes (Portman x2, Aronofsky, MacFarlane, Jane Doe #1)
+- Gate 2 Heading Mix: 5 search-intent/hybrid H2s
+- Gate 3 Self-loop: none
+- Gate 4 Anti-imitation: no "A [Type]" anaphora endings
+- Gate 5 Distribution: 3 type-theory paragraphs (≤4 limit)
+
+Internal links (4): Howard-Stern, enneagram-type-6, Natalie-Portman, anxiety-and-enneagram-types-guide
+
+Queue:
+- Rate limit: 4/5 this week
+- Next blog: kate-beckinsale (Type 7, Priority 80)
+- Next run: Tomorrow 2:00 AM
+
+Limitations:
+- Family Guy "$400/episode" claim flagged as unverified by research; deliberately omitted from draft
+- No transcripts directly fetched; research relied on sourced secondary attribution from Maron WTF (2018), Stern (2019), Variety (2025), Deadline (2023)
+
+production_pretext.status = draft (awaiting human review before /blog_content_production_people)
+===================================
+```

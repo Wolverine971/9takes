@@ -266,7 +266,7 @@ export const famousTypes: { [index: number]: FamousTypePerson[] } = {
 		{ name: 'satya-nadella', link: true, hasImage: true, lastmod: '2026-02-18', personaTitle: 'Microsoft\'s Silent Architect', contentGrade: 8.8, types: ['techie'] },
 		{ name: 'sergey-brin', link: true, hasImage: true, lastmod: '2026-05-07', personaTitle: 'Google\'s Restless Mathematician', contentGrade: 8.9, types: ['techie', 'entrepreneur'] },
 		{ name: 'shawn-ryan', link: true, hasImage: true, lastmod: '2026-02-10', personaTitle: 'Intelligence\'s Silent Observer', contentGrade: 9.1, types: ['creator'] },
-		{ name: 'stephen-hawking', link: false, hasImage: true, lastmod: '2026-05-06', personaTitle: 'Cosmology\'s Withdrawn Architect', contentGrade: 9.1, types: ['historical', 'author'] },
+		{ name: 'stephen-hawking', link: true, hasImage: true, lastmod: '2026-05-12', personaTitle: 'Cosmology\'s Withdrawn Architect', contentGrade: 9.1, types: ['historical', 'author'] },
 		{ name: 'tyler-cowen', link: true, hasImage: true, lastmod: '2026-04-19', personaTitle: 'Economics\' Quiet Devourer', contentGrade: 8.9, types: ['techie', 'author'] },
 		{ name: 'daniel-day-lewis', link: false, hasImage: false, lastmod: '2026-04-03', personaTitle: 'Cinema\'s Vanishing Craftsman', contentGrade: 8.9, types: ['movieStar'] },
 		{ name: 'john-d-rockefeller', link: false, hasImage: false, lastmod: '2026-04-24', personaTitle: 'The Ledger\'s First Billionaire', contentGrade: 9, types: ['entrepreneur', 'historical'] },
