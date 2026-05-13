@@ -3,12 +3,12 @@ title: 'Alex Cooper vs Alix Earle: Why the Mentor-Protegee Pipeline Always Explo
 meta_title: 'Alex Cooper and Alix Earle Beef Explained Through Personality Psychology'
 description: "A Type 7 who can't stop moving forward. A Type 3 who learned her worth. The Unwell Network breakup isn't drama — it's the same personality collision that destroyed Call Her Daddy the first time."
 author: 'DJ Wayne'
-date: '2026-03-24'
+date: '2026-05-13'
 loc: 'https://9takes.com/pop-culture/alex-cooper-alix-earle-beef-enneagram-analysis'
-lastmod: '2026-03-24'
+lastmod: '2026-05-13'
 changefreq: 'monthly'
 priority: '0.6'
-published: false
+published: true
 type: ['situational']
 popCulture:
   category: internet-culture
@@ -46,14 +46,14 @@ path: src/blog/pop-culture/alex-cooper-alix-earle-beef-enneagram-analysis.md
           "https://twitter.com/djwayne3"
         ]
       },
-      "dateModified": "2026-03-24",
-      "datePublished": "2026-03-24",
+      "dateModified": "2026-05-13",
+      "datePublished": "2026-05-13",
       "description": "A Type 7 who can't stop moving forward. A Type 3 who learned her worth. The Unwell Network breakup isn't drama — it's the same personality collision that destroyed Call Her Daddy the first time.",
       "headline": "Alex Cooper vs Alix Earle: Why the Mentor-Protegee Pipeline Always Explodes",
       "image": {
         "@type": "ImageObject",
         "height": 900,
-        "url": "https://9takes.com/blogs/alex-cooper-alix-earle-beef.webp",
+        "url": "https://9takes.com/blogs/alex-cooper-alix-earle-beef-enneagram-analysis-composite.webp",
         "width": 900
       },
       "mainEntityOfPage": {
@@ -85,7 +85,7 @@ path: src/blog/pop-culture/alex-cooper-alix-earle-beef-enneagram-analysis.md
         "Alex Cooper Sofia Franklyn pattern"
       ],
       "articleSection": "Pop Culture",
-      "wordCount": 5500
+      "wordCount": 4070
     },
     {
       "@type": "FAQPage",
@@ -95,7 +95,15 @@ path: src/blog/pop-culture/alex-cooper-alix-earle-beef-enneagram-analysis.md
           "name": "What happened between Alex Cooper and Alix Earle?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Alix Earle launched her podcast 'Hot Mess' under Alex Cooper's Unwell Network in September 2023. By early 2025, their relationship had deteriorated. Earle skipped Unwell's Super Bowl party, and in February 2025, Hot Mess was dropped from the network. Sources said Earle 'felt taken advantage of.' Earle paused podcasting entirely before relaunching Hot Mess independently in June 2025."
+            "text": "Alix Earle launched her podcast 'Hot Mess' under Alex Cooper's Unwell Network in September 2023. By early 2025, the relationship had deteriorated. Earle skipped Unwell's Super Bowl party, and in February 2025 Variety reported Hot Mess had been dropped from the network. Sources told outlets Earle 'felt taken advantage of.' Earle paused podcasting before relaunching Hot Mess independently in June 2025. On April 13, 2026, Cooper called Earle out directly on TikTok, telling her there was 'no NDA' and to stop 'hiding behind other people.' On May 12, 2026, Earle addressed it during a Today show appearance promoting her Sports Illustrated Swimsuit cover, telling Craig Melvin the feud was 'exaggerated.'"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What did Alex Cooper say in her April 2026 TikTok callout of Alix Earle?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "In an April 13, 2026 TikTok video, Cooper addressed Earle directly: 'You're going to need to get specific and just say what you've got to say about me. There's no NDA. No one is stopping you. Stop hiding behind other people and just say it yourself.' She added she was 'tired of waking up and seeing you using this fake drama to distract from other shit.' The video followed Earle's repost of a TikTok by creator @TheBravoMom criticizing Cooper. Earle commented 'Okay on it!!' on Cooper's video."
           }
         },
         {
@@ -171,41 +179,31 @@ Both patterns showed up. Exactly on schedule.
 
 ### September 2023: The Honeymoon
 
-Earle launches "Hot Mess" as the inaugural show on Cooper's Unwell Network. The debut episode briefly dethrones [Joe Rogan](/personality-analysis/joe-rogan) from the top of Spotify's podcast charts. A position Rogan held for two years.
+Earle launches "Hot Mess" as the inaugural show on Cooper's Unwell Network. The debut is widely reported to have briefly dethroned [Joe Rogan](/personality-analysis/joe-rogan) from the top of Spotify's podcast charts — a spot Rogan had held for roughly two years.
 
-**What Cooper is likely feeling**: Validation. Her network concept works. She found the right talent. The 7's vision is paying off. This is the high — the new venture, the proof of concept, the next expansion.
+For Cooper, this is the high a Type 7 was built for: a fresh venture, a working thesis, the proof that her network bet wasn't reckless. For Earle, it's the scoreboard moment a Type 3 chases — the biggest female podcaster in history just bet on her, and the charts said the bet paid.
 
-**What Earle is likely feeling**: Recognition. The biggest female podcaster in history just bet on her. The charts prove she belongs. Type 3s live for moments like this — concrete, visible, measurable proof that they're worth the investment.
-
-Cooper posts their interview together. It breaks records with over 100 million Spotify streams. Both women are getting what their type craves.
+Cooper sits Earle down for a Call Her Daddy interview that becomes one of the most-streamed episodes of the year. Both women are getting exactly what their type craves: 7 gets a new horizon, 3 gets a new credential.
 
 ### Early-to-Mid 2024: The Invisible Shift
 
-Fans start noticing something. Unwell's social media accounts reduce promotion of Hot Mess. Cooper begins heavily featuring Hallie Batchelder, signed in June 2024. Then Grace O'Malley.
+Fans start noticing something on Unwell's feeds. Hot Mess is getting less promotional energy. Hallie Batchelder, signed in June 2024, is getting more. Then Grace O'Malley. There's no statement and no announcement — just a reprioritization anyone who watches creator-economy feeds for a living can see in the analytics.
 
-No public statement. No announcement. Just a quiet reprioritization.
+For a Type 7, this kind of drift isn't malice — it's metabolic. Sevens process ventures faster than they process people. The current bet is running; the next bet is more interesting. To Cooper, Hot Mess didn't need her focus. To the partner watching the feeds, "doesn't need my focus" and "doesn't matter to me anymore" can look identical.
 
-**What Cooper is likely feeling**: The 7's attention has moved. Not because Earle failed — because newness is where 7s feel alive. The latest signing is exciting. The next expansion is energizing. Hot Mess is running. It doesn't need her focus. She's already scanning the horizon.
+A Type 3 reads rooms the way other people read text messages. Earle could feel the promotional energy redirect, and for a Three that isn't just a business signal — it's an identity signal. If the boss isn't pushing you, you aren't the priority. If you aren't the priority, what does the deal say about your value?
 
-This isn't malice. It's the Type 7's metabolic rate. They process relationships and ventures faster than other types. What feels like neglect to a partner feels like efficiency to a 7. "Everything's fine — I'm just building the next thing."
-
-**What Earle is likely feeling**: The scoreboard is shifting. A Type 3 reads rooms the way other people read text. She can feel the promotional energy redirecting. The metrics are speaking: her show isn't getting the push. New names are getting the spotlight she was promised.
-
-For a 3, this isn't just business. It's an identity threat. If the boss doesn't prioritize you, you're not the priority. If you're not the priority, what are you worth?
-
-She doesn't say anything publicly. Type 3s under stress go quiet. They perform normalcy while calculating their next move.
+She doesn't say anything publicly. Threes under stress go quiet and start calculating. They perform normalcy. They line up exits before they need them.
 
 ### December 2024: Dad Gets Involved
 
 TJ Earle — Alix's father and manager — appears on Hot Mess and describes handling a "business situation, but it was also something else." He says he "wasn't happy about it" and "still isn't."
 
-**What's happening beneath the surface**: TJ is a construction magnate who survived the Eliot Spitzer scandal, a divorce, and years of tabloid scrutiny. He knows what getting outmaneuvered looks like.
+TJ is a construction magnate who's survived the Eliot Spitzer scandal, a public divorce, and years of tabloid heat. He knows what getting outmaneuvered looks like. When he says the situation is "business but also something else," the "something else" is the relationship. Deals between friends are never just deals. The contract carries the weight of the friendship — and when the contract starts to feel uneven, the friendship starts to feel like a lie.
 
-When he says the situation is "business but also something else," that "something else" is the relationship. Business deals between friends are never just business. The contract carries the weight of the friendship, and when the contract feels unfair, the friendship feels like a lie.
+What Earle was reportedly processing is the structure of the deal itself. Under Cooper's reported $125 million SiriusXM agreement, the public-facing arrangement was that SiriusXM paid Cooper, and Cooper's company paid her network's hosts. In other words: Earle's compensation flowed through the woman who'd just praised her on red carpets.
 
-**What Earle is likely processing**: The structure of the deal. Under Cooper's $125 million SiriusXM agreement, SiriusXM paid Cooper, and Cooper paid her network's hosts. Earle's compensation flowed through the woman who praised her on red carpets.
-
-A Type 3 can tolerate a lot of things. What they cannot tolerate is being undervalued. Especially when the evidence — the chart positions, the download numbers, the brand deals — says they're worth more than the structure reflects.
+A Three can tolerate plenty of things. What a Three cannot tolerate is being undervalued — especially when the public-facing evidence (chart positions, brand deals, the size of the audience she'd built independently) suggests she's worth more than the structure reflects.
 
 Her father saw the numbers. He saw the deal. He had the hard conversation.
 
@@ -215,25 +213,19 @@ Earle is in New Orleans. Cooper's Unwell Network throws a high-profile Super Bow
 
 No explanation. No shade. Just absence.
 
-**What Cooper is likely feeling**: Confusion shifting to frustration. Type 7s don't understand why people can't just talk things out and move forward. To a 7, the logical response to a problem is to solve it and keep going. When someone withdraws instead of engaging, the 7 reads it as passive aggression rather than pain.
-
-**What Earle is likely feeling**: She's already made her decision. Type 3s don't blow up. They pivot. The party skip isn't petty — it's strategic. She's signaling to the industry that she's separating from the brand before the announcement makes it official.
+To a Seven, that kind of absence reads as passive aggression. Sevens want to solve things and move on; they don't understand why people can't just have the conversation. But a Three under real stress doesn't blow up — she pivots. The party skip isn't petty. It's strategic, and it's a signal to anyone in the industry paying attention: she is separating from the brand before any announcement makes it official.
 
 The "it girl" who built an empire on reading rooms just read this one and walked out.
 
 ### February 25, 2025: The Split
 
-Variety breaks the news. Hot Mess has been dropped from the Unwell Network. SiriusXM will no longer sell ads for the show. Unwell "renounces all rights."
+Variety breaks the news: Hot Mess has been dropped from the Unwell Network, SiriusXM will no longer sell ads for the show, and Unwell "renounces all rights."
 
-Hours later, [Dave Portnoy](/personality-analysis/dave-portnoy) posts a screenshot of a 22-minute outgoing call to "Alixearlenew," captioning it with Cooper's own words from the Grace O'Malley announcement: "You can stop tagging me. I know what needs to be done."
+Hours later, [Dave Portnoy](/personality-analysis/dave-portnoy) posts a screenshot of a 22-minute outgoing call to "Alixearlenew," captioned with Cooper's own words from the Grace O'Malley announcement: "You can stop tagging me. I know what needs to be done." He later clarifies: "I didn't call her. I just thought it was funny."
 
-He later clarifies: "I didn't call her. I just thought it was funny."
+For Cooper, the public posture is pure Type 7 closure: clean exit, IP returned, move on. The deeper sting is Portnoy himself — the man she had to fight to escape at Barstool — now circling her former protégée the way he once circled her.
 
-**What Cooper is likely feeling**: Relief mixed with defensiveness. The 7's instinct when something ends is to move forward. "Unwell gave her everything back. She owns her IP." Clean. Closed. Next.
-
-But Portnoy's trolling hits a nerve. He's the ghost of business past — the man she fought to escape at Barstool. And now he's circling her former protegee like he circled her.
-
-**What Earle is likely feeling**: Liberation and loss simultaneously. The Type 3's paradox: she wanted out, and she got out, but the public narrative frames it as being dropped rather than leaving. For a type whose identity is tied to success, being "dropped" stings even when the decision was mutual.
+For Earle, the bind is the Three's classic paradox. She wanted out, and she's out. But the headline reads "dropped," not "left." When your identity is tied to being chosen, "dropped" stings even when the decision was mutual.
 
 ### March 2025: The Contradictions
 
@@ -243,27 +235,25 @@ Cooper fires back on Instagram Stories: "Hi I see ur comments. Alix not being ab
 
 Then she tags Portnoy and adds: "Learned from the best."
 
-**The personality collision in real time**: Cooper's response is pure stressed Type 7 → 1. She's correcting the record, asserting she's right, dismissing the possibility that Unwell bears any responsibility. The Portnoy tag is the tell — she's framing herself as the one who was once in Earle's position, who fought for her IP and won. She's saying: I gave you what I had to fight for. Be grateful.
+This is the personality collision in real time. Cooper's response is stressed Type 7 → 1: correcting the record, asserting she's right, refusing the possibility that Unwell bears any responsibility. The Portnoy tag is the tell. She's casting herself as the one who was once in Earle's seat — the talent who fought for her IP and won — and reframing the gift as a debt. _I gave you what I had to fight for. Be grateful._
 
-Earle's silence is pure stressed Type 3 → 9. She's withdrawing from the public conversation, saying as little as possible, letting the ambiguity speak. "I can't get into the details" could mean legal restrictions. It could mean emotional overwhelm. It could mean she's waiting for the right moment to control the narrative on her terms.
+Earle's silence is stressed Type 3 → 9: withdrawing from the conversation, saying as little as possible, letting the ambiguity speak. "I can't get into the details" can mean legal limits. It can mean emotional overwhelm. It can also mean a Three waiting for a higher-credibility stage to control the narrative on her own terms.
 
 ### May 2025: Earle Breaks the Silence
 
-In her WSJ Magazine cover story, Earle says: "That was, behind the scenes, a little bit of a hot mess." She adds: "It has taken some time to get everything back."
+In her WSJ Magazine cover story, Earle says of the Unwell era: "That was, behind the scenes, a little bit of a hot mess." She adds: "It has taken some time to get everything back."
 
-Seven words that contradict Cooper's narrative. Cooper said the IP was freely returned. Earle says it took time.
+Seven words that don't square with Cooper's version. Cooper said the IP was freely returned. Earle says it took time.
 
-**What this reveals**: The Type 3 found her stage. A cover story isn't a TikTok rant — it's a calculated, controlled, high-credibility platform. She named the situation without naming the person. She contradicted the narrative without creating a scene.
-
-This is how a healthy Type 3 fights: not with drama, but with positioning.
+This is the Three locating her stage. A cover story isn't a TikTok rant — it's a controlled, high-credibility platform. She named the situation without naming the person. She contradicted the narrative without creating a scene. This is how a Three fights when she's playing the long game: with positioning, not with heat.
 
 ### June 2025: The Comeback
 
-Hot Mess relaunches as a video-first "vlogcast" on YouTube and Spotify. Hits #1 on the podcast charts within 24 hours.
+Hot Mess relaunches as a video-first "vlogcast" on YouTube and Spotify. It is widely reported to have shot to the top of the podcast charts almost immediately on relaunch.
 
-**What this proves**: The audience was always hers. The platform was borrowed. The downloads were organic.
+The underlying point is the same regardless of which chart you read: the audience was always hers. The platform was borrowed. The downloads were organic.
 
-For a Type 3, this is the ultimate vindication. The scoreboard lit up. Without Cooper's network. Without SiriusXM's ad sales. Without anyone's permission.
+For a Three, this is the cleanest possible vindication. The scoreboard lights up. Without Cooper's network. Without SiriusXM's ad sales. Without anyone's permission.
 
 ### The Shade Phase: August–October 2025
 
@@ -271,15 +261,51 @@ A fan asks Earle about Cooper. Her response: "How much time do you have?"
 
 Weeks later, Cooper posts a recap video set to "Circus" by Britney Spears — the same song Earle performed on Dancing with the Stars. Caption: "How much time do you have? Cause we could go all night."
 
-**What's happening**: Both women are communicating through subtext. Neither will name the other directly. Both are using the other's words as ammunition.
-
-This is the passive phase of conflict between a 7 and a 3. The 7 converts pain into content (same instinct that built Call Her Daddy). The 3 converts pain into positioning (same instinct that built the Alix Earle Effect). Neither will sit with the loss. Both will monetize it.
+Neither woman names the other directly. Both use the other's words as ammunition. This is the passive phase of conflict between a Seven and a Three. The Seven converts pain into content — the same instinct that built Call Her Daddy. The Three converts pain into positioning — the same instinct that built the Alix Earle Effect. Neither will sit with the loss. Both will monetize it.
 
 ### Early 2026: The Sofia Signal
 
 When Sofia Franklyn — Cooper's original Call Her Daddy co-host — announces her tell-all memoir "Daddy Issues," both Alix Earle and her sister Ashtin like the announcement post.
 
 A double-tap that says more than any interview could.
+
+### April 10–13, 2026: Cooper Drops the Subtext
+
+On April 10, Earle reposts a TikTok from creator @TheBravoMom calling Cooper "awful" and an "ambulance chaser" who profits from women's heartaches. The repost isn't a statement. It's the kind of move Threes specialize in: deniable, on-message, performed through someone else's mouth.
+
+Three days later, Cooper drops the subtext entirely.
+
+In an April 13 TikTok, Cooper looks directly at the camera: "Hey girl, the passive aggressive reposts and the likes and the commenting on things — I've got to call you out here." Then the line that's now everywhere:
+
+> "You're going to need to get specific and just say what you've got to say about me. There's no NDA. No one is stopping you. Stop hiding behind other people and just say it yourself."
+
+She adds that she's "really tired of waking up and seeing you using this fake drama to distract from other shit," and closes with: "I have nothing to hide when it comes to you and me. So unless you actually have something to say, I'm out."
+
+Earle's reply is a single comment under the video: "Okay on it!!"
+
+This is the Seven finally going to 1 in public — rigid, exact, naming the rules. _Reposts count. Likes count. Subtext is cowardice. Speak or shut up._ Sevens are usually allergic to confrontation that doesn't lead somewhere fun, but stressed Sevens at the One point become enforcers. Cooper is enforcing the boundary she previously only gestured at with "Unwell gave her everything back."
+
+A week later, Earle posts a pole-dancing video soundtracked to "You Don't Own Me," captioned "Sorry been busy filming this week." It is, structurally, exactly the move Cooper just told her not to make — subtext aimed at a person she won't name.
+
+The Three's instinct under pressure isn't to engage. It's to look unbothered while she lines up the next stage.
+
+### May 12, 2026: Earle Goes On Air
+
+Earle appears on the Today show to promote her cover of the Sports Illustrated 2026 Swimsuit Issue. Craig Melvin asks her, plainly, what's happening between her and "another internet personality and podcaster."
+
+Her answer is a small masterclass in image control:
+
+> "Well, I'm trying to keep things pretty positive today, you know, we don't have that much time here honestly, so it's like, why ruin such a good day with something not so great?"
+
+Melvin presses: is there legitimate contentiousness, or has it all been exaggerated?
+
+> "No, it's exaggerated. I love everyone."
+
+That's the Three's instrument, played at full volume. She does not name Cooper. She does not concede the framing. She does not get angry. She redirects to the cover, the body of work, the platform — and exits with a line ("I love everyone") that's almost impossible to attack without looking petty.
+
+A Three's deepest fear is being seen as worthless. The defense is image. So when a Seven who's gone to 1 demands, _"Say it yourself,"_ the Three on a national morning show — fresh off a Sports Illustrated cover — has no incentive to say it. The cover is the answer. The cover is the scoreboard.
+
+Cooper moved from subtext to confrontation. Earle moved from subtext to strategic deflection. Both shifts are exactly what their types do under sustained pressure. The conflict didn't escalate. It evolved.
 
 ## The Pattern Nobody Wants to Name
 
@@ -315,9 +341,9 @@ What they want is what the 7 finds hardest to give: stillness. Acknowledgment. T
 
 She's reproduced the exact power dynamic she escaped.
 
-At Barstool, her compensation flowed through Portnoy's company. She had to fight for her IP. The business structure put her talent at someone else's mercy. She experienced that as suffocating — and she was right.
+At Barstool, by every public account, her compensation flowed through Portnoy's company. She had to fight for her IP. The business structure put her talent at someone else's mercy. She experienced that as suffocating — and she was right.
 
-At Unwell, Earle's compensation flowed through Cooper's deal. When Earle felt constrained, Cooper's response wasn't "I understand — I've been where you are." It was "I gave you everything back. What's the problem?"
+At Unwell, by the structure that's been publicly reported, Earle's compensation flowed through Cooper's deal. When Earle reportedly felt constrained, Cooper's posture wasn't "I understand — I've been where you are." It was "I gave you everything back. What's the problem?"
 
 A Type 7 who has been trapped will build an empire to ensure they're never trapped again. But they rarely notice when their empire becomes someone else's trap.
 
@@ -349,17 +375,19 @@ Both audiences are right. That's why the beef won't die.
 
 ## What Would Resolution Actually Look Like?
 
-For Cooper, it would mean acknowledging the pattern. Not the business terms — those were likely fair. The pattern. The fact that two women she partnered with ended up feeling the same way. That's not coincidence. That's information.
+For Cooper, it would mean acknowledging the pattern, not relitigating the deal. Whatever the contracts said, two women she partnered with — first Sofia Franklyn, then Alix Earle — ended up describing the same feeling on the way out. That isn't a coincidence. That's information.
 
-A healthy Type 7 integrates to 5: going inward, examining the pattern, sitting with what's uncomfortable instead of building past it. "Maybe the way I move forward has a cost I haven't been willing to look at."
+A healthy Seven integrates to 5: goes inward, examines the pattern, sits with the discomfort instead of building past it. _Maybe the way I move forward has a cost I haven't been willing to look at._
 
-For Earle, it would mean naming what she actually wants. Not the IP (she got that back). Not the charts (she hit #1 without Unwell). The thing underneath: the acknowledgment that she was worth more than the deal reflected, from the person whose opinion mattered most.
+For Earle, it would mean naming what she actually wants, in her own words, on her own stage. Not the IP — she has that back. Not the charts — she's on the cover of Sports Illustrated. The thing underneath: the acknowledgment that she was worth more than the deal reflected, from the person whose opinion mattered most.
 
-A healthy Type 3 integrates to 6: trusting others instead of performing for them, building loyalty-based relationships instead of achievement-based ones. "Maybe I don't need her validation to know what I'm worth."
+A healthy Three integrates to 6: trusts other people instead of performing for them, builds loyalty-based relationships instead of achievement-based ones. _Maybe I don't need her validation to know what I'm worth._
 
-Neither woman is there yet. Both are still communicating through subtext and liked posts. Both are still letting the audience fill in the blanks.
+Neither woman is there yet. But the conflict is no longer the liked-post phase.
 
-But both are also 25 and 31. They have time. And if there's one thing their personality types share, it's the ability to reinvent.
+Cooper moved from subtext to confrontation — "say it yourself" is a Seven at 1, drawing a line in public when the gestures stopped working. Earle moved from subtext to strategic deflection — "it's exaggerated, I love everyone" is a Three using a national platform to refuse the frame entirely, eight feet from a Sports Illustrated cover. Both moves are sharper than what came before. Neither is resolution. Both are exactly what each type does when the slow-burn version stops paying.
+
+The two women are 25 and 31. They have time. And if there's one thing a Type 7 and a Type 3 share, it's the ability to reinvent.
 
 The question isn't whether this beef ends. It's whether the pattern does.
 
