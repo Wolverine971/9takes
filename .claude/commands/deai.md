@@ -296,4 +296,4 @@ Then output a summary:
 
 - **AI detection guide**: `docs/writing-system/ai-detection-patterns.md`
 - **Brand voice guide**: `docs/brand/brand-style-guide-v2.md`
-- **Blog quality rubric**: `docs/blog-grading-rubric.md` (for writing quality context)
+- **Blog quality rubric**: `docs/content-analysis/blog-grading-rubric.md` (for writing quality context)

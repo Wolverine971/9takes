@@ -3,13 +3,6 @@ import { error, json } from '@sveltejs/kit';
 import { z } from 'zod';
 import type { RequestHandler } from './$types';
 import { analyticsDateSchema } from '$lib/validation/analyticsSchemas';
-import {
-	aggregateAcquisitionMix,
-	aggregateEntrySurfaceOverview,
-	aggregateSourceOverview,
-	aggregateWeeklyCohorts,
-	type CohortFactRow
-} from '$lib/server/cohortAnalytics';
 
 const querySchema = z.object({
 	entrySurface: z.string().max(50).optional().default(''),
@@ -44,7 +37,12 @@ function isMissingRetentionDependency(err: unknown): boolean {
 			: '';
 
 	return (
-		message.includes('daily_visitor_cohorts') || message.includes('get_first_session_next_paths')
+		message.includes('daily_visitor_cohorts') ||
+		message.includes('get_entry_surface_overview') ||
+		message.includes('get_cohort_retention_curve') ||
+		message.includes('get_acquisition_mix_by_week') ||
+		message.includes('get_source_overview') ||
+		message.includes('get_first_session_next_paths')
 	);
 }
 
@@ -64,6 +62,15 @@ async function assertAdmin(locals: App.Locals): Promise<void> {
 		throw error(403, 'Admin access required');
 	}
 }
+
+const EMPTY_RESPONSE = {
+	available: false,
+	overview: [] as unknown[],
+	weeklyCohorts: [] as unknown[],
+	acquisitionMix: [] as unknown[],
+	sourceOverview: [] as unknown[],
+	nextPaths: [] as unknown[]
+};
 
 export const GET: RequestHandler = async ({ url, locals }) => {
 	await assertAdmin(locals);
@@ -85,90 +92,72 @@ export const GET: RequestHandler = async ({ url, locals }) => {
 	const acquisitionSource = entrySurface ? parsedQuery.data.acquisitionSource.trim() : '';
 	const nextPathLimit = parsedQuery.data.nextPathLimit;
 	const supabaseAny = locals.supabase as any;
-	let cohortFactsQuery = locals.supabase
-		.from('daily_visitor_cohorts')
-		.select(
-			'cohort_date, entry_surface, acquisition_source, cohort_size, commented_within_d7, signed_up_within_d7, registered_within_d7, retained_d1, retained_d3, retained_d7, retained_d14, retained_d30, engaged_ms_total_within_d7'
-		)
-		.order('cohort_date', { ascending: true });
 
-	if (fromDate) {
-		cohortFactsQuery = cohortFactsQuery.gte('cohort_date', fromDate);
-	}
-	if (toDate) {
-		cohortFactsQuery = cohortFactsQuery.lte('cohort_date', toDate);
-	}
-
-	const [cohortFactsResult, nextPathsResult] = await Promise.all([
-		cohortFactsQuery,
+	const [overviewRes, retentionRes, mixRes, sourceRes, nextPathsRes] = await Promise.all([
+		supabaseAny.rpc('get_entry_surface_overview', {
+			p_from: fromDate ?? null,
+			p_to: toDate ?? null,
+			p_acquisition_source: acquisitionSource || null
+		}),
+		supabaseAny.rpc('get_cohort_retention_curve', {
+			p_from: fromDate ?? null,
+			p_to: toDate ?? null,
+			p_entry_surface: entrySurface || null,
+			p_acquisition_source: acquisitionSource || null
+		}),
+		supabaseAny.rpc('get_acquisition_mix_by_week', {
+			p_from: fromDate ?? null,
+			p_to: toDate ?? null,
+			p_entry_surface: entrySurface || null
+		}),
+		entrySurface
+			? supabaseAny.rpc('get_source_overview', {
+					p_from: fromDate ?? null,
+					p_to: toDate ?? null,
+					p_entry_surface: entrySurface
+				})
+			: Promise.resolve({ data: [], error: null }),
 		supabaseAny.rpc('get_first_session_next_paths', {
-			p_from: fromDate,
-			p_to: toDate,
+			p_from: fromDate ?? null,
+			p_to: toDate ?? null,
 			p_entry_surface: entrySurface || null,
 			p_limit: nextPathLimit,
 			p_acquisition_source: acquisitionSource || null
 		})
 	]);
 
-	if (cohortFactsResult.error) {
-		if (isMissingRetentionDependency(cohortFactsResult.error)) {
-			return json({
-				available: false,
-				anchorDate: analyticsToday,
-				overview: [],
-				weeklyCohorts: [],
-				acquisitionMix: [],
-				sourceOverview: [],
-				nextPaths: []
-			});
+	for (const res of [overviewRes, retentionRes, mixRes, sourceRes]) {
+		if (res.error) {
+			if (isMissingRetentionDependency(res.error)) {
+				return json({ ...EMPTY_RESPONSE, anchorDate: analyticsToday });
+			}
+			console.error('Failed to fetch cohort analytics', res.error);
+			throw error(500, 'Failed to fetch cohort analytics');
 		}
-		console.error('Failed to fetch cohort analytics', {
-			cohortFacts: cohortFactsResult.error
-		});
-		throw error(500, 'Failed to fetch cohort analytics');
 	}
 
-	if (nextPathsResult.error) {
+	if (nextPathsRes.error) {
 		console.warn('Failed to fetch cohort next paths', {
-			nextPaths: nextPathsResult.error
+			nextPaths: nextPathsRes.error
 		});
 	}
 
-	const cohortFacts = ((cohortFactsResult.data ?? []) as Array<Record<string, unknown>>).map(
-		(row): CohortFactRow => ({
-			cohort_date: String(row.cohort_date ?? ''),
-			entry_surface: String(row.entry_surface ?? 'other'),
-			acquisition_source: String(row.acquisition_source ?? 'direct'),
-			cohort_size: toNumber(row.cohort_size),
-			commented_within_d7: toNumber(row.commented_within_d7),
-			signed_up_within_d7: toNumber(row.signed_up_within_d7),
-			registered_within_d7: toNumber(row.registered_within_d7),
-			retained_d1: toNumber(row.retained_d1),
-			retained_d3: toNumber(row.retained_d3),
-			retained_d7: toNumber(row.retained_d7),
-			retained_d14: toNumber(row.retained_d14),
-			retained_d30: toNumber(row.retained_d30),
-			engaged_ms_total_within_d7: toNumber(row.engaged_ms_total_within_d7)
-		})
-	);
+	const nextPaths = nextPathsRes.error
+		? []
+		: ((nextPathsRes.data ?? []) as Array<Record<string, unknown>>).map((row) => ({
+				next_path: String(row.next_path ?? ''),
+				visitor_count: toNumber(row.visitor_count),
+				share_pct: toNumber(row.share_pct),
+				avg_engaged_ms: toNumber(row.avg_engaged_ms)
+			}));
 
 	return json({
 		available: true,
 		anchorDate: analyticsToday,
-		overview: aggregateEntrySurfaceOverview(cohortFacts, analyticsToday),
-		weeklyCohorts: aggregateWeeklyCohorts(cohortFacts, analyticsToday, {
-			entrySurface: entrySurface || undefined,
-			acquisitionSource: acquisitionSource || undefined
-		}),
-		acquisitionMix: aggregateAcquisitionMix(cohortFacts, entrySurface),
-		sourceOverview: aggregateSourceOverview(cohortFacts, analyticsToday, entrySurface),
-		nextPaths: nextPathsResult.error
-			? []
-			: ((nextPathsResult.data ?? []) as Array<Record<string, unknown>>).map((row) => ({
-					next_path: String(row.next_path ?? ''),
-					visitor_count: toNumber(row.visitor_count),
-					share_pct: toNumber(row.share_pct),
-					avg_engaged_ms: toNumber(row.avg_engaged_ms)
-				}))
+		overview: overviewRes.data ?? [],
+		weeklyCohorts: retentionRes.data ?? [],
+		acquisitionMix: mixRes.data ?? [],
+		sourceOverview: sourceRes.data ?? [],
+		nextPaths
 	});
 };

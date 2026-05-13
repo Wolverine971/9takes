@@ -197,6 +197,16 @@ Blogs have multiple structural layers (intro, TL;DR, evidence list, main section
    - Is any anecdote told in more than one section? → Keep the section where it has the most context
    - Is any concept explained more than once? → Keep the deepest treatment, trim others to a brief reference
 
+### Formula Fingerprint Prevention (CRITICAL)
+
+The draft should not make readers notice the house template more than the person. Before saving, scan for these brand risks and revise:
+
+- **Repeated contrast-pair phrasing**: no more than two main-body sentence engines like "not X but Y," "less X than Y," or "looked like X, was really Y."
+- **Counter-typing ladders**: no three-plus adjacent type comparisons in the main body. Keep alternate-type pressure tests short, or move the fuller debate to the Rabbit Hole.
+- **Ducked critic pressure**: include one real pressure point — a named critic, review, controversy, fan objection, collaborator tension, or the strongest skeptical reading a smart reader would bring.
+- **Missing current-tense anchor**: active public figures need a recent project, interview, controversy, or career turn. Historical/deceased figures need a present-day legacy stake.
+- **Ending swap-test**: if the ending could close several other 9takes posts by swapping the name and type, rewrite it.
+
 ---
 
 ## What Makes a Great Analysis (CRITICAL)
@@ -1142,6 +1152,7 @@ Before finalizing any blog (new or updated):
 - [ ] Do at least half the sections work as pure narrative without explicit Enneagram labeling?
 - [ ] Would a reader who doesn't care about the Enneagram still find this a compelling profile?
 - [ ] Have you cut or compressed any passage that turns into insider typology debate ("Type X vs. Type Y," wing arguments, subtype detours)?
+- [ ] **Formula fingerprint check**: Contrast-pair sentence engines ≤ 2, no main-body counter-typing ladders, one critic-pressure moment, one current-tense/legacy-now anchor, and an ending that passes the swap test.
 
 ### Voice & Evidence
 
@@ -1228,7 +1239,7 @@ Then proceed to grading.
 
 ## Quality Grading (Required Before Hand-Off)
 
-After the Quality Checklist passes, score the blog using the rubric at `docs/blog-grading-rubric.md`. Rate each dimension 1-10:
+After the Quality Checklist passes, score the blog using the rubric at `docs/content-analysis/blog-grading-rubric.md`. Rate each dimension 1-10:
 
 1. **Hook** — Does the opening grab and create a question?
 2. **Enneagram Integration** — Does the framework explain something non-obvious?
@@ -1271,4 +1282,4 @@ Store this in draft frontmatter as `content_quality` when grading is part of the
 - Brand voice guide: `/docs/brand/brand-style-guide-v2.md`
 - Celebrity optimization: `/docs/content-generation/celebrity-page-optimization-instructions.md`
 - **Blog furniture guide: `/docs/content-generation/blog-furniture-guide.md`** — Complete catalog of all visual elements, components, and structural patterns for blogs
-- **Quality grading rubric: `/docs/blog-grading-rubric.md`** — Standardized scoring system for content quality assessments
+- **Quality grading rubric: `/docs/content-analysis/blog-grading-rubric.md`** — Standardized scoring system for content quality assessments

@@ -4,12 +4,12 @@ meta_title: 'Why Anna Wintour Hasn''t Changed Her Hair in 60 Years'
 persona_title: 'Vogue''s Cold Reformer'
 description: 'Most people see Nuclear Wintour as a tyrant. The truth is a Type 1 perfectionist whose austere self-control built American Vogue and never broke composure.'
 author: 'DJ Wayne'
-date: '2026-05-01'
+date: '2026-05-13'
 loc: 'https://9takes.com/personality-analysis/Anna-Wintour'
-lastmod: '2026-05-03'
+lastmod: '2026-05-13'
 changefreq: 'monthly'
 priority: '0.6'
-published: false
+published: true
 enneagram: '1'
 type: ['celebrity', 'entrepreneur']
 person: 'Anna-Wintour'

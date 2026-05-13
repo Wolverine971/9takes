@@ -42,7 +42,7 @@ Use TaskCreate/TaskUpdate to track grading progress when processing batches.
 
 ## Step 2: Read the Full Rubric
 
-Before grading, internalize the rubric from `docs/blog-grading-rubric.md`. The 5 dimensions are:
+Before grading, internalize the rubric from `docs/content-analysis/blog-grading-rubric.md`. The 5 dimensions are:
 
 ### 1. Hook (1-10)
 
@@ -78,17 +78,17 @@ Quality and specificity of quotes, anecdotes, testimony, and sourced material.
 
 Prose quality, structure, pacing, and adherence to 9takes voice.
 
-- **9-10 (Exceptional)**: Distinctive prose with memorable lines. Sections flow as narrative. Half+ sections work as pure storytelling. Ending cuts to black at peak insight. No summary, no CTA. TL;DR teases not spoils. No repeated quotes/anecdotes. Confident framing (minimal hedging).
-- **7-8 (Good)**: Clean, readable. Good structure. Some memorable lines. Minor repetition or hedging.
-- **5-6 (Average)**: Competent but unremarkable. Report-like. Sections feel like bullet points as paragraphs. Conventional ending.
-- **3-4 (Below Average)**: Flat or formulaic. Heavy repetition. Over-hedged. No narrative arc.
+- **9-10 (Exceptional)**: Distinctive prose with memorable lines. Sections flow as narrative. Half+ sections work as pure storytelling. Ending cuts to black at peak insight. No summary, no CTA. TL;DR teases not spoils. No repeated quotes/anecdotes. Confident framing (minimal hedging). No visible formula fingerprint.
+- **7-8 (Good)**: Clean, readable. Good structure. Some memorable lines. Minor repetition or hedging. The 9takes template is present but not distracting.
+- **5-6 (Average)**: Competent but unremarkable. Report-like. Sections feel like bullet points as paragraphs. Conventional ending. Repeated contrast-pair phrasing or counter-typing structure is visible.
+- **3-4 (Below Average)**: Flat or formulaic. Heavy repetition. Over-hedged. No narrative arc. The reader can see the template before the insight.
 - **1-2 (Poor)**: AI slop. Generic phrasing, no voice, no rhythm.
 
 ### 5. Originality (1-10)
 
 How fresh the analysis feels — does it say something new?
 
-- **9-10 (Exceptional)**: Contains at least one genuinely novel insight. Has a "signature detail" — a specific small moment that makes the entire analysis click. Public/private gap explored. Childhood-to-adult thread visible. Would pass the "swap test" (replacing person's name breaks the analysis).
+- **9-10 (Exceptional)**: Contains at least one genuinely novel insight. Has a "signature detail" — a specific small moment that makes the entire analysis click. Public/private gap explored. Childhood-to-adult thread visible. Faces a real critic/skeptical pressure point and includes a current-tense or legacy-now anchor. Would pass the "swap test" (replacing person's name breaks the analysis).
 - **7-8 (Good)**: Some original observations alongside known material. At least one surprising angle.
 - **5-6 (Average)**: Competent compilation through Enneagram lens. No surprising insights. Too generic (fails swap test).
 - **3-4 (Below Average)**: Rehashes widely known info. No private details. No original framing.
@@ -133,6 +133,7 @@ For each blog, score independently on each dimension. Do NOT let one dimension p
 - **Halo effect**: A great hook doesn't mean the evidence is great. Score each dimension on its own merits.
 - **Length bias**: Long blogs aren't automatically better. Short, tight blogs can score higher than long, padded ones.
 - **Insider-baseball reward**: Do not give extra credit just because a draft discusses alternate types, wings, arrows, or counter-typing. Reward that material only if it makes the analysis clearer for a general reader; if it distracts, score it down.
+- **Formula forgiveness**: Penalize repeated contrast-pair sentence engines, three-plus type-comparison ladders in the main body, missing critic pressure, and missing current-tense/legacy-now anchors. These are brand risks, not small style preferences.
 - **Outline penalty**: If a blog is clearly an outline/draft (bullet points, placeholder text, incomplete sections), grade it as-is but note "THIS IS AN OUTLINE — grade reflects current state only."
 
 ---
@@ -243,8 +244,8 @@ When processing batches:
 
 ## Reference Files
 
-- **Full rubric**: `docs/blog-grading-rubric.md`
-- **Blog creator command**: `.claude/commands/blog_content_creator_people.md` (for understanding quality expectations)
+- **Full rubric**: `docs/content-analysis/blog-grading-rubric.md`
+- **Blog creator command**: `.claude/commands/blog_content_creator_people_v2.md` (for understanding quality expectations)
 - **Brand voice guide**: `docs/brand/brand-style-guide-v2.md`
 - **Published celebrities**: `src/lib/components/molecules/famousTypes.ts`
 - **Draft blogs**: `src/blog/people/drafts/`

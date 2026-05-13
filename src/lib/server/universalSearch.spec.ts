@@ -21,6 +21,7 @@ vi.mock('$lib/server/questionSearch', () => ({
 }));
 
 import {
+	clearUniversalSearchTypeaheadCache,
 	parseUniversalSearchScope,
 	searchUniversal,
 	searchUniversalTypeahead
@@ -28,6 +29,7 @@ import {
 
 describe('universalSearch', () => {
 	beforeEach(() => {
+		clearUniversalSearchTypeaheadCache();
 		searchBlogs.mockReset();
 		searchBlogTypeahead.mockReset();
 		searchQuestions.mockReset();
@@ -133,5 +135,35 @@ describe('universalSearch', () => {
 			source: 'question',
 			url: '/questions/how-do-i-set-boundaries-with-friends'
 		});
+	});
+
+	it('reuses cached typeahead results for repeated queries', async () => {
+		searchBlogTypeahead.mockResolvedValue([
+			{
+				id: 1,
+				source: 'famous_people',
+				title: 'Cillian Murphy Enneagram',
+				slug: 'cillian-murphy',
+				url: '/personality-analysis/cillian-murphy',
+				enneagram: 5,
+				category: 'pop-culture',
+				headline: '<mark>Cillian</mark> Murphy Enneagram',
+				rank: 8
+			}
+		]);
+		searchQuestionsTypeahead.mockResolvedValue([]);
+
+		const first = await searchUniversalTypeahead({} as any, 'cillian', {
+			scope: 'all',
+			limit: 8
+		});
+		const second = await searchUniversalTypeahead({} as any, 'cillian', {
+			scope: 'all',
+			limit: 8
+		});
+
+		expect(searchBlogTypeahead).toHaveBeenCalledTimes(1);
+		expect(searchQuestionsTypeahead).toHaveBeenCalledTimes(1);
+		expect(second).toEqual(first);
 	});
 });

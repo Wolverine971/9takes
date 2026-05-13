@@ -71,6 +71,8 @@ As you read, keep these lenses in mind:
 - **Story vs. framework**: does the Enneagram illuminate the person, or does it start sounding like the same label over and over?
 - **Specificity**: are there places where the draft gestures at something important but never really cashes it out?
 - **Contradictions sharpened, not smoothed**: are the person's most intense contradictions and ambivalences the focal points of the draft, or has the writing rounded them off into a coherent-but-flat portrait?
+- **Formula fingerprint**: do repeated contrast-pair sentences, counter-typing ladders, or familiar 9takes ending shapes make the reader notice the template more than the person?
+- **Pressure and now**: does the draft face the strongest critic/skeptical reading and include a current-tense or legacy-now anchor?
 
 ---
 
@@ -125,6 +127,10 @@ What's already working:
 - Duplicate anecdotes across intro, TL;DR, evidence list, and body
 - Sections that feel like filler rather than sharp insight
 - Moments where the draft sounds more like an Enneagram explainer than a compelling profile
+- Repeated "not X but Y" / "looked like X, was really Y" contrast-pair phrasing
+- Counter-typing sequences that compare several types in a row instead of sharpening the subject
+- Missing critic pressure, controversy, review, fan objection, or skeptical reading
+- Missing current-tense anchor for active figures, or missing present-day legacy stake for historical/deceased figures
 - Contradictions named in the intro or TL;DR but never paid off in the body
 - Ambivalences resolved too neatly — the draft picks a side instead of holding the tension
 

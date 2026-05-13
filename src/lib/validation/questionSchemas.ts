@@ -1,6 +1,17 @@
 // src/lib/validation/questionSchemas.ts
 import { z } from 'zod';
 
+const optionalClientUuidSchema = z.preprocess((value) => {
+	if (typeof value !== 'string') return value;
+
+	const trimmed = value.trim();
+	if (!trimmed || trimmed === 'undefined' || trimmed === 'null') {
+		return undefined;
+	}
+
+	return trimmed;
+}, z.string().uuid().optional());
+
 // Comment validation schemas
 export const createCommentSchema = z.object({
 	comment: z
@@ -10,23 +21,23 @@ export const createCommentSchema = z.object({
 		.trim(),
 	parent_id: z.string().regex(/^\d+$/, 'Invalid parent ID'),
 	parent_type: z.enum(['question', 'comment']),
-	author_id: z.string().optional(),
-	fingerprint: z.string().max(100).optional(),
-	es_id: z.string().optional(),
+	author_id: optionalClientUuidSchema,
+	fingerprint: z.string().trim().max(100).optional(),
+	es_id: z.string().trim().optional(),
 	question_id: z.string().regex(/^\d+$/, 'Invalid question ID')
 });
 
 export const likeCommentSchema = z.object({
-	parent_id: z.string().uuid(),
-	user_id: z.string().uuid(),
+	parent_id: z.string().regex(/^\d+$/, 'Invalid comment ID'),
+	user_id: optionalClientUuidSchema,
 	operation: z.enum(['add', 'remove']),
-	es_id: z.string().optional()
+	es_id: z.string().trim().optional()
 });
 
 export const subscribeSchema = z.object({
-	parent_id: z.string(),
-	user_id: z.string().uuid(),
-	es_id: z.string().optional(),
+	parent_id: z.string().regex(/^\d+$/, 'Invalid question ID'),
+	user_id: optionalClientUuidSchema,
+	es_id: z.string().trim().optional(),
 	operation: z.enum(['add', 'remove'])
 });
 

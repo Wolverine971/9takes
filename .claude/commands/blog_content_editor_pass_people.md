@@ -107,6 +107,9 @@ Apply the content-editor standard to the full draft.
 - Collapse duplicate ideas into one strong version
 - Replace vague analytical filler with direct, specific claims
 - Tighten headings if they feel generic or too formulaic
+- Break repeated contrast-pair phrasing ("not X but Y," "less X than Y," "looked like X, was really Y") by replacing the pattern with scenes, stakes, or consequences
+- Cut main-body counter-typing ladders; keep type comparisons to one focused pressure test unless they live in the Rabbit Hole
+- Add or sharpen one critic-pressure moment and one current-tense or legacy-now anchor when the draft dodges them
 - Improve paragraph rhythm for mobile readability
 - Make the ending hit harder instead of summarizing what the reader already knows
 

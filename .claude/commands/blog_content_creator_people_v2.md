@@ -47,7 +47,7 @@ Apply these at every step that would normally wait for a user reply:
 
 1. **Type ambiguity (Step 2)** — pick the leading hypothesis and proceed. Log the unresolved ambiguity in working notes (HTML comment in the draft). Do not pause to ask.
 2. **Transcript gather (Step 3, Substep 3b)** — default to **Option B** (fetch transcripts yourself). Invoke the `/youtube-transcript` skill (or `yt-dlp` + `youtube-transcript-api` directly) on 2-4 shortlisted URLs. If every fetch fails, fall back to Option C, log `research_limitation: no_transcripts` in working notes, and continue. Never present the A/B/C prompt to the user in non-interactive mode.
-3. **Hard gates (Gates 1, 2, 4, 5 in Step 5)** — enforce normally. If a gate blocks the draft, do **not** prompt. Save the draft anyway with `production_pretext.status: blocked` and the appropriate blocker (`thin_collaborator_testimony`, `heading_mix_violation`, `anti_imitation_violation`, `distribution_rule_violation`) in the `blockers` list. Include the gate failure in the final output.
+3. **Hard gates (Gates 1, 2, 4, 5, 6 in Step 5)** — enforce normally. If a gate blocks the draft, do **not** prompt. Save the draft anyway with `production_pretext.status: blocked` and the appropriate blocker (`thin_collaborator_testimony`, `heading_mix_violation`, `anti_imitation_violation`, `distribution_rule_violation`, `formula_fingerprint_violation`) in the `blockers` list. Include the gate failure in the final output.
 4. **Draft save (Step 8)** — always save with `production_pretext.status: draft` (or `blocked` if a gate failed). Never auto-promote to `ready` in non-interactive mode; human review before production is still required.
 5. **Post-save options menu (Step 8)** — skip the numbered-options menu. Report draft location, internal-link summary, grade, and gate status, then exit.
 6. **Review and refinement (Step 9)** — not applicable. There is no user-in-the-loop iteration in non-interactive mode. A single full pass, gated by the Quality Checklist and the hard gates, is the entire run.
@@ -60,7 +60,7 @@ DRAFT: /src/blog/people/drafts/[Person-Name].md
 STATUS: production_pretext.status = [draft | blocked]
 BLOCKERS: [list or "none"]
 GRADE: [overall] ([letter])  # omit if grading skipped
-GATES: [Gate 1: pass/fail, Gate 2: pass/fail, Gate 4: pass/fail, Gate 5: pass/fail]
+GATES: [Gate 1: pass/fail, Gate 2: pass/fail, Gate 4: pass/fail, Gate 5: pass/fail, Gate 6: pass/fail]
 LIMITATIONS: [list or "none"]
 ```
 
@@ -185,6 +185,22 @@ Blogs have multiple structural layers — intro, TL;DR, evidence list, body sect
 3. **TL;DR is a teaser, not a summary.** Name the type in one line, sketch 3–4 patterns in one sentence each, leave the stories for the body. A TL;DR that spoils the best anecdotes kills the reason to keep scrolling.
 
 **Pre-finalize scan:** before saving, read the piece top-to-bottom and flag any quote, anecdote, or concept that appears more than once. Keep the strongest placement, cut the rest.
+
+---
+
+## Formula Fingerprint Prevention
+
+The command should produce a profile, not another visible instance of the 9takes machine. The reader should remember the person, not the sentence architecture.
+
+**Formula risks to actively remove:**
+
+1. **Repeated contrast-pair phrasing.** The core tension can be stated as `[X] vs. [Y]`, but the draft cannot keep using the same sentence engine: "not X but Y," "less X than Y," "wasn't X; it was Y," "looked like X, was really Y." Use scenes, causality, and consequences instead of repeated oppositions.
+2. **Counter-typing ladders.** Do not build a main-body paragraph around three or more adjacent alternate-type comparisons ("A Type 3 would..., a Type 7 would..., a Type 8 would..."). If counter-typing matters, use one tight pressure-test paragraph in the diagnosis section or leave the fuller debate for the Rabbit Hole.
+3. **Ducked critic pressure.** Every draft needs one real pressure point: a named critic, review, controversy, flop, fan objection, collaborator tension, or the strongest skeptical reading a smart reader would bring. Concede what that pressure point gets right before explaining what the type lens adds.
+4. **Missing current-tense anchor.** For living or currently active public figures, include at least one recent anchor from the last 24 months: a new project, controversy, interview, public shift, or career turn. For historical or deceased figures, include a present-tense legacy anchor: why the typing matters now, what debate still surrounds them, or what current readers misunderstand.
+5. **Catalog endings.** The ending should belong only to this person. If it could end three other 9takes posts with a name swap, rewrite it.
+
+**Pre-finalize scan:** make a quick ledger of these risks before saving. If the ledger shows a repeated cadence or a missing pressure/current anchor, revise before metadata.
 
 ---
 
@@ -837,6 +853,28 @@ Locations: [section heading 1], [section heading 2], ...
 -->
 ```
 
+### Gate 6: Formula Fingerprint Ledger
+
+Before saving, produce a **Formula Fingerprint Ledger** as an HTML comment. Enumerate the visible template risks instead of saying "sounds fresh":
+
+```html
+<!-- FORMULA FINGERPRINT LEDGER
+Contrast-pair sentence engines: [N] — [locations or "none"]
+Counter-typing ladders in main body: [N] — [locations or "none"]
+Critic-pressure anchor: [named critic / skeptical reading / controversy / review + section]
+Current-tense or legacy-now anchor: [recent project/event/interview OR present legacy debate]
+Ending swap-test: [pass/fail + one sentence]
+-->
+```
+
+**Gate rule:** the draft is blocked if any of these are true:
+
+- More than 2 contrast-pair sentence engines drive the main body.
+- Any main-body counter-typing ladder compares 3+ types in sequence outside the diagnosis section or Rabbit Hole.
+- The draft has no critic-pressure anchor.
+- The draft has no current-tense anchor for a living/current figure, or no legacy-now anchor for a historical/deceased figure.
+- The ending fails the swap test.
+
 ---
 
 Add reviewer notes as HTML comments (`<!-- -->`) for anything flagged but deliberately left.
@@ -1107,6 +1145,7 @@ Before finalizing any blog (new or updated). Every item must pass. Items marked 
 - [ ] A reader who doesn't care about the Enneagram still finds this a compelling profile?
 - [ ] No passages that turn into insider typology debate (Type-vs-Type, wing arguments, subtype detours).
 - [ ] **[H] Every section has conflict** — no section is a flat list of traits, benefits, or accomplishments. Each contains before/after, public vs. private, expectation vs. reality, or Type-on-Type tension.
+- [ ] **Formula Fingerprint (hard gate — Gate 6)** — Formula Fingerprint Ledger HTML comment is present. Contrast-pair sentence engines ≤ 2, no 3+ type counter-typing ladders in the main body, one critic-pressure anchor, one current-tense/legacy-now anchor, and the ending passes the swap test.
 
 ### Compression & prose discipline
 

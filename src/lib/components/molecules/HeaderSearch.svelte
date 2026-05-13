@@ -23,24 +23,35 @@
 
 	const MIN_QUERY_LENGTH = 2;
 	const SEARCH_SCOPE = 'all';
+	const TYPEAHEAD_DEBOUNCE_MS = 100;
+	const TYPEAHEAD_CACHE_TTL_MS = 60_000;
+	const MAX_TYPEAHEAD_CACHE_SIZE = 40;
 
 	let query = '';
 	let routeQuery = '';
 	let trimmedQuery = '';
+	let resultsQuery = '';
 	let activeIndex = -1;
 	let isFocused = false;
 	let isOpen = false;
 	let isLoading = false;
 	let results: SearchResult[] = [];
 	let showResultsPanel = false;
+	let showResultList = false;
 	let debounceTimer: ReturnType<typeof setTimeout> | null = null;
 	let activeRequest = 0;
 	let abortController: AbortController | null = null;
+	const typeaheadCache = new Map<string, { timestamp: number; results: SearchResult[] }>();
 
 	$: routeQuery =
 		$page.url.pathname === '/search' ? ($page.url.searchParams.get('q') || '').trim() : '';
 	$: trimmedQuery = query.trim();
 	$: showResultsPanel = isOpen && trimmedQuery.length >= MIN_QUERY_LENGTH;
+	$: showResultList =
+		results.length > 0 &&
+		(trimmedQuery === resultsQuery ||
+			trimmedQuery.startsWith(resultsQuery) ||
+			resultsQuery.startsWith(trimmedQuery));
 
 	$: if (!isFocused && !isOpen && query !== routeQuery) {
 		query = routeQuery;
@@ -52,6 +63,7 @@
 		isLoading = false;
 		activeIndex = -1;
 		results = [];
+		resultsQuery = '';
 		query = routeQuery;
 		cancelPendingRequest();
 	});
@@ -129,6 +141,40 @@
 		return '';
 	}
 
+	function getCacheKey(searchQuery: string): string {
+		return `${SEARCH_SCOPE}:${mobile ? '6' : '8'}:${searchQuery.toLowerCase()}`;
+	}
+
+	function readCachedResults(searchQuery: string): SearchResult[] | null {
+		const key = getCacheKey(searchQuery);
+		const cached = typeaheadCache.get(key);
+
+		if (!cached) {
+			return null;
+		}
+
+		if (Date.now() - cached.timestamp > TYPEAHEAD_CACHE_TTL_MS) {
+			typeaheadCache.delete(key);
+			return null;
+		}
+
+		return cached.results;
+	}
+
+	function writeCachedResults(searchQuery: string, nextResults: SearchResult[]) {
+		if (typeaheadCache.size >= MAX_TYPEAHEAD_CACHE_SIZE) {
+			const oldestKey = typeaheadCache.keys().next().value;
+			if (oldestKey) {
+				typeaheadCache.delete(oldestKey);
+			}
+		}
+
+		typeaheadCache.set(getCacheKey(searchQuery), {
+			timestamp: Date.now(),
+			results: nextResults
+		});
+	}
+
 	function closeResults() {
 		isOpen = false;
 		activeIndex = -1;
@@ -151,22 +197,44 @@
 			cancelPendingRequest();
 			isLoading = false;
 			results = [];
+			resultsQuery = '';
 			closeResults();
 			return;
 		}
 
 		isOpen = true;
+		const cachedResults = readCachedResults(normalizedQuery);
+		if (cachedResults) {
+			cancelPendingRequest();
+			results = cachedResults;
+			resultsQuery = normalizedQuery;
+			activeIndex = -1;
+			isLoading = false;
+			return;
+		}
+
 		isLoading = true;
 		debounceTimer = setTimeout(() => {
 			void fetchTypeahead(normalizedQuery);
-		}, 180);
+		}, TYPEAHEAD_DEBOUNCE_MS);
 	}
 
 	async function fetchTypeahead(searchQuery: string) {
 		const normalizedQuery = searchQuery.trim();
 		if (normalizedQuery.length < MIN_QUERY_LENGTH) {
 			results = [];
+			resultsQuery = '';
 			isLoading = false;
+			return;
+		}
+
+		const cachedResults = readCachedResults(normalizedQuery);
+		if (cachedResults) {
+			results = cachedResults;
+			resultsQuery = normalizedQuery;
+			isLoading = false;
+			isOpen = true;
+			activeIndex = -1;
 			return;
 		}
 
@@ -192,12 +260,15 @@
 			}
 
 			results = Array.isArray(payload?.results) ? payload.results : [];
+			resultsQuery = normalizedQuery;
+			writeCachedResults(normalizedQuery, results);
 			isOpen = true;
 			activeIndex = -1;
 		} catch (error) {
 			if ((error as Error)?.name !== 'AbortError') {
 				console.error('Header typeahead failed', error);
 				results = [];
+				resultsQuery = normalizedQuery;
 			}
 		} finally {
 			if (requestId === activeRequest) {
@@ -224,7 +295,7 @@
 	function handleSubmit(event: SubmitEvent) {
 		event.preventDefault();
 
-		if (activeIndex >= 0 && results[activeIndex]) {
+		if (showResultList && activeIndex >= 0 && results[activeIndex]) {
 			navigateToResult(results[activeIndex]);
 			return;
 		}
@@ -256,7 +327,7 @@
 			return;
 		}
 
-		if (!isOpen || results.length === 0) {
+		if (!isOpen || !showResultList) {
 			return;
 		}
 
@@ -275,6 +346,7 @@
 	function clearQuery() {
 		query = '';
 		results = [];
+		resultsQuery = '';
 		activeIndex = -1;
 		isLoading = false;
 		closeResults();
@@ -330,14 +402,8 @@
 
 	{#if showResultsPanel}
 		<div class="results-panel" role="listbox" aria-label="Search suggestions">
-			{#if isLoading}
-				<div class="results-state">Searching…</div>
-			{:else if results.length === 0}
-				<button type="button" class="results-state state-button" on:click={() => goToSearch()}>
-					Search for "{trimmedQuery}"
-				</button>
-			{:else}
-				<ul class="results-list">
+			{#if showResultList}
+				<ul class="results-list" aria-busy={isLoading}>
 					{#each results as result, index}
 						<li>
 							<button
@@ -363,7 +429,13 @@
 				</ul>
 
 				<button type="button" class="results-footer" on:click={() => goToSearch()}>
-					View all results
+					View all results for "{trimmedQuery}"
+				</button>
+			{:else if isLoading}
+				<div class="results-state">Searching…</div>
+			{:else}
+				<button type="button" class="results-state state-button" on:click={() => goToSearch()}>
+					Search for "{trimmedQuery}"
 				</button>
 			{/if}
 		</div>

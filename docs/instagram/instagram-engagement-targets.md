@@ -2,7 +2,7 @@
 
 # Instagram Engagement Targets — @9takesdotcom
 
-_Last Updated: 2026-05-11 (silence-period-2 snapshot appended; no tier-table changes)_
+_Last Updated: 2026-05-13 (silence-period-2 extended to May 13; no tier-table changes)_
 _Purpose: Living document tracking accounts to engage with, organized by tier and category._
 _Updated by: `/instagram-warmup` scans and reviewed alongside `/instagram-reply` account history._
 
@@ -11,6 +11,23 @@ _Updated by: `/instagram-warmup` scans and reviewed alongside `/instagram-reply`
 ---
 
 ## Outbound Activity Snapshots (append-only)
+
+### 2026-05-13 — Block continues (Day 5+ of same Chrome-profile mismatch)
+
+- **Window:** Same block as May 11 and May 12; checked again 2026-05-13 morning.
+- **Cause:** Unchanged. Chrome profile lists `build.os` (active) / `djwayne3` / `dj_pew_pew`. `@9takesdotcom` still absent from the Switch accounts modal.
+- **Action taken:** Opened the Switch accounts modal to confirm state, closed it via Escape without switching. No scanning, queueing, or interaction from build.os. See `docs/instagram/daily-engagement/2026-05-13_instagram-warmup.md`.
+- **Cost so far:** Engagement silence on `@9takesdotcom` now ~6 calendar days (since the May 7 PM recovery posted its draft queue, which itself was never reconciled). May 7 PM drafts are now ~7 days stale by the underlying post age — every target's first-comment slot is gone, and the Vanessa Van Edwards cover-up Anchor (`/p/DYDWMN_SB3a/`) has had no @9takes engagement applied since the May 7 PM draft.
+- **Pattern note:** Fourth consecutive blocked scan (May 8 incomplete, May 11–13 blocked). Combined with the Apr 29 → May 6 silence on a related variant, the bridge's Chrome-profile wiring is now the dominant tax on @9takesdotcom growth.
+- **Resolution required (DJ):** Unchanged from May 11–12 — either sign `@9takesdotcom` into this Chrome profile, or rewire the Claude ↔ Chrome bridge to the Chrome profile where `@9takesdotcom` is the live IG session. Option 2 remains the cleaner long-term fix. Treat as a hard prerequisite blocker for the rest of the Instagram growth plan until resolved.
+
+### 2026-05-12 — Block continues (same Chrome-profile mismatch)
+
+- **Window:** Same block as 2026-05-11; checked again 2026-05-12 morning.
+- **Cause:** Unchanged. Chrome profile lists `build.os` (active) / `djwayne3` / `dj_pew_pew`. `@9takesdotcom` still absent from the Switch accounts modal.
+- **Action taken:** Opened the Switch accounts modal to confirm state, closed it without switching. No scanning, queueing, or interaction from build.os. See `docs/instagram/daily-engagement/2026-05-12_instagram-warmup.md`.
+- **Cost so far:** Engagement silence on `@9takesdotcom` now 5 days (since the May 7 PM recovery posted its draft queue, which itself was never reconciled). May 7 PM drafts have aged past the practical "first-comment slot" window for most of their target posts.
+- **Resolution required (DJ):** Unchanged from May 11 — either sign `@9takesdotcom` into this Chrome profile, or rewire the Claude ↔ Chrome bridge to the Chrome profile where `@9takesdotcom` is the live IG session. Option 2 remains the cleaner long-term fix.
 
 ### 2026-05-09 → 2026-05-11 — Second Chrome-profile block (ongoing)
 

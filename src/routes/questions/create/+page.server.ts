@@ -22,9 +22,16 @@ const getUrlSchema = z.object({
 	question: z.string().min(QUESTION_MIN_LENGTH).max(QUESTION_MAX_LENGTH).trim()
 });
 
+const optionalClientAuthorIdSchema = z.preprocess((value) => {
+	if (typeof value !== 'string') return value;
+
+	const trimmed = value.trim();
+	return trimmed && trimmed !== 'undefined' && trimmed !== 'null' ? trimmed : undefined;
+}, z.string().uuid().optional());
+
 const createQuestionSchema = z.object({
 	question: z.string().min(QUESTION_MIN_LENGTH).max(QUESTION_MAX_LENGTH).trim(),
-	author_id: z.string().uuid(),
+	author_id: optionalClientAuthorIdSchema,
 	context: z
 		.string()
 		.max(2000)
@@ -144,13 +151,24 @@ export const actions: Actions = {
 
 			// Validate all fields with Zod
 			const validatedData = createQuestionSchema.parse(body);
-			const { question, author_id, context, url, img_url } = validatedData;
+			const { question, author_id: claimedAuthorId, context, url, img_url } = validatedData;
+			const sessionUserId = session.user.id;
+
+			if (claimedAuthorId && claimedAuthorId !== sessionUserId) {
+				logger.warn('Rejected question creation with mismatched author_id', {
+					sessionUserId,
+					claimedAuthorId
+				});
+				throw error(403, {
+					message: 'Cannot create a question for another user'
+				});
+			}
 
 			// Check user permissions
 			const { data: user, error: userError } = await supabase
 				.from(demo_time ? 'profiles_demo' : 'profiles')
 				.select('*')
-				.eq('id', author_id)
+				.eq('id', sessionUserId)
 				.single();
 
 			if (userError || !user) {
@@ -168,7 +186,7 @@ export const actions: Actions = {
 			// Insert question into database
 			const qData = {
 				question,
-				author_id,
+				author_id: sessionUserId,
 				context,
 				data: context ? ({ userProvidedContext: true } as Json) : null,
 				url,
@@ -243,14 +261,14 @@ export const actions: Actions = {
 
 				if (!demo_time) {
 					await safelyExitWelcomeSequenceForQuestionCreation({
-						userId: author_id,
+						userId: sessionUserId,
 						onError: (sequenceError) => {
 							logger.error(
 								'Failed to exit welcome sequence after question creation',
 								sequenceError as Error,
 								{
 									questionId,
-									userId: author_id
+									userId: sessionUserId
 								}
 							);
 						}

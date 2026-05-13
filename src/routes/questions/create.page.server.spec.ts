@@ -64,11 +64,14 @@ vi.mock('../../utils/server/openai', () => ({
 import { actions } from './create/+page.server';
 
 const AUTHOR_ID = '123e4567-e89b-12d3-a456-426614174000';
+const OTHER_AUTHOR_ID = '123e4567-e89b-12d3-a456-426614174999';
 
-function buildRequest(context = '') {
+function buildRequest(context = '', authorId: string | null = AUTHOR_ID) {
 	const formData = new FormData();
 	formData.append('question', 'How should I handle this conflict?');
-	formData.append('author_id', AUTHOR_ID);
+	if (authorId !== null) {
+		formData.append('author_id', authorId);
+	}
 	formData.append('context', context);
 	formData.append('url', 'how-should-i-handle-this-conflict');
 
@@ -125,11 +128,11 @@ function buildSupabase() {
 	};
 }
 
-function buildEvent(context = '') {
+function buildEvent(context = '', authorId: string | null = AUTHOR_ID) {
 	const supabaseState = buildSupabase();
 
 	return {
-		request: buildRequest(context),
+		request: buildRequest(context, authorId),
 		locals: {
 			session: {
 				user: {
@@ -157,6 +160,7 @@ describe('questions create action', () => {
 		expect(capturedInsertPayload.current).toEqual(
 			expect.objectContaining({
 				context: 'I need advice about a tense work situation.',
+				author_id: AUTHOR_ID,
 				data: {
 					userProvidedContext: true
 				}
@@ -173,8 +177,18 @@ describe('questions create action', () => {
 		expect(capturedInsertPayload.current).toEqual(
 			expect.objectContaining({
 				context: '',
+				author_id: AUTHOR_ID,
 				data: null
 			})
 		);
+	});
+
+	it('rejects a forged author id instead of trusting form data', async () => {
+		const event = buildEvent('', OTHER_AUTHOR_ID);
+
+		await expect(actions.createQuestion(event as any)).rejects.toMatchObject({
+			status: 403
+		});
+		expect(capturedInsertPayload.current).toBeNull();
 	});
 });

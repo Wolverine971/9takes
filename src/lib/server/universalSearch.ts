@@ -47,6 +47,62 @@ export interface UniversalTypeaheadResponse {
 }
 
 const VALID_SCOPES = new Set<UniversalSearchScope>(['all', 'library', 'questions']);
+const TYPEAHEAD_CACHE_TTL_MS = 30_000;
+const MAX_TYPEAHEAD_CACHE_SIZE = 100;
+
+const typeaheadCache = new Map<
+	string,
+	{ timestamp: number; response: UniversalTypeaheadResponse }
+>();
+
+function getTypeaheadCacheKey(query: string, scope: UniversalSearchScope, limit: number): string {
+	return `${scope}:${limit}:${query.toLowerCase()}`;
+}
+
+function cloneTypeaheadResponse(response: UniversalTypeaheadResponse): UniversalTypeaheadResponse {
+	return {
+		...response,
+		results: response.results.map((result) => ({ ...result, tags: [...result.tags] }))
+	};
+}
+
+function readTypeaheadCache(
+	query: string,
+	scope: UniversalSearchScope,
+	limit: number
+): UniversalTypeaheadResponse | null {
+	const key = getTypeaheadCacheKey(query, scope, limit);
+	const cached = typeaheadCache.get(key);
+
+	if (!cached) {
+		return null;
+	}
+
+	if (Date.now() - cached.timestamp > TYPEAHEAD_CACHE_TTL_MS) {
+		typeaheadCache.delete(key);
+		return null;
+	}
+
+	return cloneTypeaheadResponse(cached.response);
+}
+
+function writeTypeaheadCache(response: UniversalTypeaheadResponse, limit: number) {
+	if (typeaheadCache.size >= MAX_TYPEAHEAD_CACHE_SIZE) {
+		const oldestKey = typeaheadCache.keys().next().value;
+		if (oldestKey) {
+			typeaheadCache.delete(oldestKey);
+		}
+	}
+
+	typeaheadCache.set(getTypeaheadCacheKey(response.query, response.scope, limit), {
+		timestamp: Date.now(),
+		response: cloneTypeaheadResponse(response)
+	});
+}
+
+export function clearUniversalSearchTypeaheadCache() {
+	typeaheadCache.clear();
+}
 
 export function parseUniversalSearchScope(value: string | null | undefined): UniversalSearchScope {
 	const normalized = (value || '').trim().toLowerCase();
@@ -232,6 +288,11 @@ export async function searchUniversalTypeahead(
 		return { results: [], query: normalizedQuery, scope };
 	}
 
+	const cachedResponse = readTypeaheadCache(normalizedQuery, scope, limit);
+	if (cachedResponse) {
+		return cachedResponse;
+	}
+
 	const [blogResults, questionResults] = await Promise.all([
 		includeLibrary(scope)
 			? searchBlogTypeahead(supabase, normalizedQuery, limit)
@@ -248,9 +309,13 @@ export async function searchUniversalTypeahead(
 		.sort(compareUniversalResults)
 		.slice(0, limit);
 
-	return {
+	const response = {
 		results,
 		query: normalizedQuery,
 		scope
 	};
+
+	writeTypeaheadCache(response, limit);
+
+	return response;
 }

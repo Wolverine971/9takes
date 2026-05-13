@@ -1,24 +1,11 @@
 {
-	"lastUpdated": "2026-05-12T06:11:15Z",
+	"lastUpdated": "2026-05-13T06:06:48Z",
 	"stats": {
 		"totalUnpublished": 125,
 		"totalPublished": 266,
 		"completionRate": "68.0%"
 	},
 	"queue": [
-		{
-			"name": "kate-beckinsale",
-			"displayName": "Kate Beckinsale",
-			"type": 7,
-			"priority": 80,
-			"priorityReason": "Ranker/Instagram beauty-list spike, Underworld fame, Oxford wit, and a playful Type 7 performer analysis angle",
-			"estimatedTraffic": "high",
-			"searchVolume": "high",
-			"personaTitle": null,
-			"addedToQueue": "2026-05-06",
-			"retryCount": 0,
-			"strategicValue": "viral-beauty-list-hollywood-cluster"
-		},
 		{
 			"name": "penelope-cruz",
 			"displayName": "Penélope Cruz",
@@ -489,6 +476,35 @@
 		}
 	],
 	"completed": [
+		{
+			"name": "kate-beckinsale",
+			"displayName": "Kate Beckinsale",
+			"type": 7,
+			"priority": 80,
+			"priorityReason": "Ranker/Instagram beauty-list spike, Underworld fame, Oxford wit, and a playful Type 7 performer analysis angle",
+			"estimatedTraffic": "high",
+			"searchVolume": "high",
+			"personaTitle": "Hollywood's Quick-Witted Escapist",
+			"addedToQueue": "2026-05-06",
+			"retryCount": 0,
+			"strategicValue": "viral-beauty-list-hollywood-cluster",
+			"startedAt": "2026-05-13T06:01:10Z",
+			"completedAt": "2026-05-13T06:06:48Z",
+			"contentGrade": 8.9,
+			"letterGrade": "B+",
+			"duration": 6,
+			"draftPath": "src/blog/people/drafts/Kate-Beckinsale.md",
+			"draftSize": 27163,
+			"needsReview": false,
+			"coreTension": "Wit as armor vs. grief as wound — the Type 7 escape system that built a comedic operating system around outrunning pain, until her mother's death burned a literal hole through her esophagus and the strategy met its limit.",
+			"contentRubric": {
+				"hook": 9.0,
+				"enneagram": 9.0,
+				"evidence": 8.5,
+				"writing": 9.0,
+				"originality": 8.8
+			}
+		},
 		{
 			"name": "mila-kunis",
 			"displayName": "Mila Kunis",

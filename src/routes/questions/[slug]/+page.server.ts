@@ -7,7 +7,13 @@ import { safelyExitWelcomeSequenceForCommentCreation } from '$lib/server/welcome
 import { checkDemoTime } from '../../../utils/api';
 import { mapDemoValues } from '../../../utils/demo';
 import { extractFirstURL } from '../../../utils/StringUtils';
-import { createCommentSchema, flagCommentSchema } from '$lib/validation/questionSchemas';
+import {
+	createCommentSchema,
+	flagCommentSchema,
+	likeCommentSchema,
+	subscribeSchema,
+	updateQuestionImgSchema
+} from '$lib/validation/questionSchemas';
 import { uploadQuestionImage } from '$lib/server/questionImages';
 import { buildQuestionCategorySlug } from '$lib/utils/questionCategorySlug';
 import { z } from 'zod';
@@ -151,9 +157,11 @@ export const load: PageServerLoad = async (event) => {
 };
 
 export const actions: Actions = {
-	createComment: async ({ request, getClientAddress }) => {
+	createComment: async ({ request, getClientAddress, locals }) => {
 		const { body, demo_time } = await getRequestData(request);
 		const ip = getClientAddress();
+		const db = locals.supabase as any;
+		const sessionUserId = locals.session?.user?.id ?? null;
 
 		// Validate input
 		const validationResult = createCommentSchema.safeParse(body);
@@ -161,10 +169,11 @@ export const actions: Actions = {
 			const firstError = validationResult.error.errors[0]?.message || 'Invalid comment data';
 			throw error(400, { message: firstError });
 		}
+		const commentInput = validationResult.data;
 
 		// Check rate limit (skip in demo mode)
 		if (!demo_time) {
-			const isAllowed = await checkRateLimit(body.fingerprint as string, ip);
+			const isAllowed = await checkRateLimit(commentInput.fingerprint, ip);
 			if (!isAllowed) {
 				throw error(429, {
 					message: 'Too many comments. Please wait a minute before trying again.'
@@ -172,8 +181,14 @@ export const actions: Actions = {
 			}
 		}
 
-		const commentData = await createCommentData(body, ip, demo_time);
-		const record = await handleCommentCreation(commentData, body.parent_type as string, demo_time);
+		await assertCommentAccess(commentInput, sessionUserId, demo_time);
+		const commentData = await createCommentData(commentInput, ip, sessionUserId);
+		const record = await handleCommentCreation(
+			db,
+			commentData,
+			commentInput.parent_type,
+			demo_time
+		);
 
 		if (!demo_time && commentData.author_id) {
 			await safelyExitWelcomeSequenceForCommentCreation({
@@ -188,9 +203,11 @@ export const actions: Actions = {
 		return record;
 	},
 
-	createCommentRando: async ({ request, getClientAddress }) => {
+	createCommentRando: async ({ request, getClientAddress, locals }) => {
 		const { body, demo_time } = await getRequestData(request);
 		const ip = getClientAddress();
+		const db = locals.supabase as any;
+		const sessionUserId = locals.session?.user?.id ?? null;
 
 		// Validate input
 		const validationResult = createCommentSchema.safeParse(body);
@@ -198,10 +215,11 @@ export const actions: Actions = {
 			const firstError = validationResult.error.errors[0]?.message || 'Invalid comment data';
 			throw error(400, { message: firstError });
 		}
+		const commentInput = validationResult.data;
 
 		// Check rate limit (skip in demo mode)
 		if (!demo_time) {
-			const isAllowed = await checkRateLimit(body.fingerprint as string, ip);
+			const isAllowed = await checkRateLimit(commentInput.fingerprint, ip);
 			if (!isAllowed) {
 				throw error(429, {
 					message: 'Too many comments. Please wait a minute before trying again.'
@@ -209,8 +227,14 @@ export const actions: Actions = {
 			}
 		}
 
-		const commentData = await createCommentData(body, ip, demo_time);
-		const record = await handleCommentCreation(commentData, body.parent_type as string, demo_time);
+		await assertCommentAccess(commentInput, sessionUserId, demo_time);
+		const commentData = await createCommentData(commentInput, ip, sessionUserId);
+		const record = await handleCommentCreation(
+			db,
+			commentData,
+			commentInput.parent_type,
+			demo_time
+		);
 		return mapDemoValues(record as Record<string, unknown> | null);
 	},
 
@@ -220,14 +244,21 @@ export const actions: Actions = {
 			throw error(401, 'Unauthorized');
 		}
 
+		const db = locals.supabase as any;
 		const { body, demo_time } = await getRequestData(request);
-		const { parent_id, user_id, operation } = body;
+		const validationResult = likeCommentSchema.safeParse(body);
+		if (!validationResult.success) {
+			const firstError = validationResult.error.errors[0]?.message || 'Invalid like data';
+			throw error(400, { message: firstError });
+		}
+
+		const { parent_id, user_id, operation } = validationResult.data;
+		const sessionUserId = resolveSessionBoundUserId(user_id, session.user.id, 'like comments');
 
 		if (operation === 'add') {
-			return await addLike(parent_id as string, user_id as string);
-		} else {
-			return await removeLike(parent_id as string, user_id as string, demo_time);
+			return await addLike(db, parent_id, sessionUserId);
 		}
+		return await removeLike(db, parent_id, sessionUserId, demo_time);
 	},
 
 	subscribe: async ({ request, locals }) => {
@@ -236,14 +267,25 @@ export const actions: Actions = {
 			throw error(401, 'Unauthorized');
 		}
 
+		const db = locals.supabase as any;
 		const { body, demo_time } = await getRequestData(request);
-		const { parent_id, user_id, operation } = body;
+		const validationResult = subscribeSchema.safeParse(body);
+		if (!validationResult.success) {
+			const firstError = validationResult.error.errors[0]?.message || 'Invalid subscription data';
+			throw error(400, { message: firstError });
+		}
+
+		const { parent_id, user_id, operation } = validationResult.data;
+		const sessionUserId = resolveSessionBoundUserId(
+			user_id,
+			session.user.id,
+			'manage subscriptions'
+		);
 
 		if (operation === 'add') {
-			return await addSubscription(parent_id as string, user_id as string, demo_time);
-		} else {
-			return await removeSubscription(parent_id as string, user_id as string, demo_time);
+			return await addSubscription(db, parent_id, sessionUserId, demo_time);
 		}
+		return await removeSubscription(db, parent_id, sessionUserId, demo_time);
 	},
 
 	sortComments: async ({ request, locals, cookies }) => {
@@ -301,15 +343,39 @@ export const actions: Actions = {
 		return { success: true };
 	},
 
-	updateQuestionImg: async ({ request }) => {
-		const { img_url, url } = Object.fromEntries(await request.formData());
+	updateQuestionImg: async ({ request, locals, params }) => {
+		const session = locals.session;
+		if (!session?.user?.id) {
+			throw error(401, 'Unauthorized');
+		}
+
+		const db = locals.supabase as any;
+		const demoTime = (await checkDemoTime(db)) === true;
+		if (demoTime) {
+			throw error(403, 'Image updates are unavailable in demo mode');
+		}
+
+		const formData = Object.fromEntries(await request.formData());
+		const parsed = updateQuestionImgSchema.safeParse(formData);
+		if (!parsed.success) {
+			throw error(400, parsed.error.errors[0]?.message || 'Invalid image update payload');
+		}
+
+		const question = await getQuestionForMutation(db, params.slug, demoTime);
+		if (!question) {
+			throw error(404, 'Question not found');
+		}
+		if (question.author_id !== session.user.id) {
+			throw error(403, 'Only the question owner can update the image');
+		}
+
 		const upload = await uploadQuestionImage({
-			supabase,
-			dataUrl: img_url as string,
-			questionUrl: url as string,
+			supabase: db,
+			dataUrl: parsed.data.img_url,
+			questionUrl: question.url || String(question.id),
 			maxBytes: MAX_IMAGE_SIZE_BYTES
 		});
-		await updateQuestionImageUrl(url as string, upload.path);
+		await updateQuestionImageById(db, question.id, upload.path);
 		return true;
 	},
 
@@ -472,6 +538,8 @@ interface RequestData {
 	demo_time: boolean;
 }
 
+type CreateCommentInput = z.infer<typeof createCommentSchema>;
+
 async function getRequestData(request: Request): Promise<RequestData> {
 	const body = Object.fromEntries(await request.formData());
 	const demo_time = (await checkDemoTime()) === true;
@@ -506,6 +574,56 @@ async function checkRateLimit(fingerprint: string | undefined, ip: string): Prom
 	}
 }
 
+function resolveSessionBoundUserId(
+	claimedUserId: string | undefined,
+	sessionUserId: string,
+	action: string
+): string {
+	if (claimedUserId && claimedUserId !== sessionUserId) {
+		throw error(403, { message: `Cannot ${action} as another user` });
+	}
+
+	return sessionUserId;
+}
+
+function resolveCommentAuthorId(
+	claimedAuthorId: string | undefined,
+	sessionUserId: string | null
+): string | null {
+	if (claimedAuthorId && !sessionUserId) {
+		throw error(403, { message: 'Anonymous comments cannot claim a user id' });
+	}
+	if (claimedAuthorId && sessionUserId && claimedAuthorId !== sessionUserId) {
+		throw error(403, { message: 'Cannot comment as another user' });
+	}
+
+	return sessionUserId;
+}
+
+async function assertCommentAccess(
+	input: CreateCommentInput,
+	sessionUserId: string | null,
+	demoTime: boolean
+): Promise<void> {
+	if (sessionUserId) return;
+
+	if (input.parent_type === 'comment') {
+		throw error(401, { message: 'You must register or login to reply to comments' });
+	}
+
+	if (!input.fingerprint) {
+		throw error(400, { message: 'Missing visitor fingerprint' });
+	}
+
+	if (demoTime) return;
+
+	const parentQuestionId = Number.parseInt(input.parent_id, 10);
+	const hasAnswered = await checkUserAnswered(input.fingerprint, parentQuestionId, undefined);
+	if (hasAnswered) {
+		throw error(403, { message: 'You must register or login to comment multiple times' });
+	}
+}
+
 interface CommentData {
 	comment: string;
 	parent_id: number;
@@ -517,16 +635,16 @@ interface CommentData {
 }
 
 async function createCommentData(
-	body: Record<string, FormDataEntryValue>,
+	input: CreateCommentInput,
 	ip: string,
-	demo_time: boolean
+	sessionUserId: string | null
 ): Promise<CommentData> {
-	const question_id = body.question_id as string;
-	const comment = body.comment as string;
-	const parent_id = body.parent_id as string;
-	const author_id = body.author_id as string;
-	const parent_type = body.parent_type as string;
-	const fingerprint = body.fingerprint as string;
+	const question_id = input.question_id;
+	const comment = input.comment;
+	const parent_id = input.parent_id;
+	const parent_type = input.parent_type;
+	const fingerprint = input.fingerprint;
+	const author_id = resolveCommentAuthorId(input.author_id, sessionUserId);
 
 	// Parse URLs in background - don't block comment creation on external HTTP fetch
 	parseUrls(comment, question_id).catch((err) => {
@@ -536,7 +654,7 @@ async function createCommentData(
 	return {
 		comment,
 		parent_id: parseInt(parent_id),
-		author_id: author_id !== 'undefined' ? author_id.toString() : null,
+		author_id,
 		comment_count: 0,
 		ip,
 		parent_type,
@@ -545,6 +663,7 @@ async function createCommentData(
 }
 
 async function handleCommentCreation(
+	db: any,
 	commentData: CommentData,
 	parent_type: string,
 	demo_time: boolean
@@ -552,7 +671,7 @@ async function handleCommentCreation(
 	// For demo mode, use regular insert (demo tables don't have the atomic RPC)
 	if (demo_time) {
 		// eslint-disable-next-line @typescript-eslint/no-explicit-any
-		const { data: record, error: addCommentError } = await (supabase.from('comments_demo') as any)
+		const { data: record, error: addCommentError } = await (db.from('comments_demo') as any)
 			.insert(commentData)
 			.select(PUBLIC_COMMENT_FIELDS)
 			.single();
@@ -567,7 +686,7 @@ async function handleCommentCreation(
 
 	// For production, use atomic RPC that handles insert + count increment in one transaction
 	// eslint-disable-next-line @typescript-eslint/no-explicit-any
-	const { data: record, error: rpcError } = await (supabase.rpc as any)('create_comment_atomic', {
+	const { data: record, error: rpcError } = await (db.rpc as any)('create_comment_atomic', {
 		p_comment: commentData.comment,
 		p_parent_id: commentData.parent_id,
 		p_author_id: commentData.author_id || null,
@@ -584,9 +703,9 @@ async function handleCommentCreation(
 	return record;
 }
 
-async function addLike(parent_id: string, user_id: string) {
+async function addLike(db: any, parent_id: string, user_id: string) {
 	// eslint-disable-next-line @typescript-eslint/no-explicit-any
-	const { data: record, error: addLikeError } = await (supabase.from('comment_like') as any)
+	const { data: record, error: addLikeError } = await (db.from('comment_like') as any)
 		.insert({ comment_id: parseInt(parent_id), user_id })
 		.select('id, comment_id, user_id')
 		.single();
@@ -597,12 +716,12 @@ async function addLike(parent_id: string, user_id: string) {
 	}
 
 	// eslint-disable-next-line @typescript-eslint/no-explicit-any
-	await (supabase.rpc as any)('increment_like_count', { comment_id: parent_id });
+	await (db.rpc as any)('increment_like_count', { comment_id: parent_id });
 	return record;
 }
 
-async function removeLike(parent_id: string, user_id: string, demo_time: boolean) {
-	const { error: removeLikeError } = await supabase
+async function removeLike(db: any, parent_id: string, user_id: string, demo_time: boolean) {
+	const { error: removeLikeError } = await db
 		.from(demo_time ? 'comment_like_demo' : 'comment_like')
 		.delete()
 		.eq('user_id', user_id)
@@ -614,14 +733,14 @@ async function removeLike(parent_id: string, user_id: string, demo_time: boolean
 	}
 
 	// eslint-disable-next-line @typescript-eslint/no-explicit-any
-	await (supabase.rpc as any)('decrement_like_count', { comment_id: parent_id });
+	await (db.rpc as any)('decrement_like_count', { comment_id: parent_id });
 	return null;
 }
 
-async function addSubscription(parent_id: string, user_id: string, demo_time: boolean) {
+async function addSubscription(db: any, parent_id: string, user_id: string, demo_time: boolean) {
 	// eslint-disable-next-line @typescript-eslint/no-explicit-any
 	const { data: subscriptionRecord, error: addSubscriptionError } = await (
-		supabase.from(demo_time ? 'subscriptions_demo' : 'subscriptions') as any
+		db.from(demo_time ? 'subscriptions_demo' : 'subscriptions') as any
 	)
 		.insert({ question_id: parseInt(parent_id), user_id })
 		.select('id, question_id, user_id')
@@ -635,8 +754,8 @@ async function addSubscription(parent_id: string, user_id: string, demo_time: bo
 	return subscriptionRecord;
 }
 
-async function removeSubscription(parent_id: string, user_id: string, demo_time: boolean) {
-	const { error: removeSubscriptionError } = await supabase
+async function removeSubscription(db: any, parent_id: string, user_id: string, demo_time: boolean) {
+	const { error: removeSubscriptionError } = await db
 		.from(demo_time ? 'subscriptions_demo' : 'subscriptions')
 		.delete()
 		.eq('user_id', user_id)
@@ -682,11 +801,11 @@ async function flagComment(
 	}
 }
 
-async function updateQuestionImageUrl(url: string, imgPath: string) {
+async function updateQuestionImageById(db: any, questionId: number, imgPath: string) {
 	// eslint-disable-next-line @typescript-eslint/no-explicit-any
-	const { error: updateError } = await (supabase.from('questions') as any)
+	const { error: updateError } = await (db.from('questions') as any)
 		.update({ img_url: imgPath })
-		.eq('url', url);
+		.eq('id', questionId);
 
 	if (updateError) {
 		console.error('Error updating question image URL:', updateError);
@@ -1122,7 +1241,7 @@ async function getCategoryEditorData() {
 async function getQuestionForMutation(db: any, slug: string, demoTime: boolean) {
 	const questionTable = demoTime ? 'questions_demo' : 'questions';
 	const idAsNumber = Number.parseInt(slug, 10);
-	const query = db.from(questionTable).select('id, author_id');
+	const query = db.from(questionTable).select('id, author_id, url');
 	const { data, error: findQuestionError } = await (Number.isInteger(idAsNumber)
 		? query.eq('id', idAsNumber).maybeSingle()
 		: query.eq('url', slug).maybeSingle());

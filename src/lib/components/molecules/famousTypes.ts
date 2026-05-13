@@ -3,7 +3,7 @@
 export type FamousTypePerson = { name: string; link: boolean; hasImage: boolean; lastmod: string | null; personaTitle: string | null; contentGrade: number | null; types: string[] };
 export const famousTypes: { [index: number]: FamousTypePerson[] } = {
 	1: [
-		{ name: 'anna-wintour', link: false, hasImage: true, lastmod: '2026-05-03', personaTitle: 'Vogue\'s Cold Reformer', contentGrade: 9.1, types: ['celebrity', 'entrepreneur'] },
+		{ name: 'anna-wintour', link: true, hasImage: true, lastmod: '2026-05-13', personaTitle: 'Vogue\'s Cold Reformer', contentGrade: 9.1, types: ['celebrity', 'entrepreneur'] },
 		{ name: 'anne-hathaway', link: true, hasImage: true, lastmod: '2026-03-27', personaTitle: 'The Actress They Hated for Trying', contentGrade: 9.1, types: ['movieStar'] },
 		{ name: 'bernie-sanders', link: true, hasImage: true, lastmod: '2026-04-29', personaTitle: 'Politics\' Unsilenceable Conscience', contentGrade: 8.9, types: ['politician'] },
 		{ name: 'blake-lively', link: true, hasImage: true, lastmod: '2026-04-23', personaTitle: 'The Immaculately Curated', contentGrade: 9.4, types: ['celebrity'] },

@@ -4284,8 +4284,22 @@ export type Database = {
           p_to?: string
         }
         Returns: {
+          avg_engaged_minutes_within_d7: number
           cohort_week: string
+          cohort_week_end: string
+          comment_rate_denominator: number
+          comment_rate_pct: number
+          commented_within_d7: number
+          is_mature_d1: boolean
+          is_mature_d14: boolean
+          is_mature_d3: boolean
+          is_mature_d30: boolean
+          is_mature_d7: boolean
+          is_mature_within_d7: boolean
           new_visitors: number
+          registered_within_d7: number
+          registration_rate_denominator: number
+          registration_rate_pct: number
           retained_d1: number
           retained_d1_denominator: number
           retained_d1_pct: number
@@ -4301,6 +4315,9 @@ export type Database = {
           retained_d7: number
           retained_d7_denominator: number
           retained_d7_pct: number
+          signed_up_within_d7: number
+          signup_rate_denominator: number
+          signup_rate_pct: number
         }[]
       }
       get_content_release_event_impact: {
@@ -4395,11 +4412,13 @@ export type Database = {
         Args: { p_acquisition_source?: string; p_from?: string; p_to?: string }
         Returns: {
           avg_engaged_minutes_within_d7: number
+          comment_rate_denominator: number
           comment_rate_pct: number
           commented_within_d7: number
           entry_surface: string
           new_visitors: number
           registered_within_d7: number
+          registration_rate_denominator: number
           registration_rate_pct: number
           retained_d1: number
           retained_d1_denominator: number
@@ -4411,6 +4430,7 @@ export type Database = {
           retained_d7_denominator: number
           retained_d7_pct: number
           signed_up_within_d7: number
+          signup_rate_denominator: number
           signup_rate_pct: number
         }[]
       }
@@ -4621,6 +4641,26 @@ export type Database = {
           source: string
           title: string
           url: string
+        }[]
+      }
+      get_source_overview: {
+        Args: { p_entry_surface?: string; p_from?: string; p_to?: string }
+        Returns: {
+          acquisition_source: string
+          avg_engaged_minutes_within_d7: number
+          comment_rate_denominator: number
+          comment_rate_pct: number
+          commented_within_d7: number
+          new_visitors: number
+          registered_within_d7: number
+          registration_rate_denominator: number
+          registration_rate_pct: number
+          retained_d7: number
+          retained_d7_denominator: number
+          retained_d7_pct: number
+          signed_up_within_d7: number
+          signup_rate_denominator: number
+          signup_rate_pct: number
         }[]
       }
       get_suppressed_emails: {
