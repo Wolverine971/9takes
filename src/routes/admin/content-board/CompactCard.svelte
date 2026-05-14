@@ -357,42 +357,42 @@
 		}
 	}
 
-	/* Type-specific colors */
+	/* Type-specific colors — pulled from canonical --type-N-color tokens */
 	.enneagram-badge.type-1 {
-		background: rgba(251, 113, 133, 0.2);
-		color: #60a5fa;
+		background: color-mix(in srgb, var(--type-1-color) 20%, transparent);
+		color: var(--type-1-color);
 	}
 	.enneagram-badge.type-2 {
-		background: rgba(236, 72, 153, 0.2);
-		color: #f472b6;
+		background: color-mix(in srgb, var(--type-2-color) 20%, transparent);
+		color: var(--type-2-color);
 	}
 	.enneagram-badge.type-3 {
-		background: rgba(245, 158, 11, 0.2);
-		color: #fbbf24;
+		background: color-mix(in srgb, var(--type-3-color) 20%, transparent);
+		color: var(--type-3-color);
 	}
 	.enneagram-badge.type-4 {
-		background: rgba(139, 92, 246, 0.2);
-		color: var(--lamp-glow);
+		background: color-mix(in srgb, var(--type-4-color) 20%, transparent);
+		color: var(--type-4-color);
 	}
 	.enneagram-badge.type-5 {
-		background: rgba(167, 139, 250, 0.2);
-		color: #22d3ee;
+		background: color-mix(in srgb, var(--type-5-color) 20%, transparent);
+		color: var(--type-5-color);
 	}
 	.enneagram-badge.type-6 {
-		background: rgba(34, 197, 94, 0.2);
-		color: #4ade80;
+		background: color-mix(in srgb, var(--type-6-color) 20%, transparent);
+		color: var(--type-6-color);
 	}
 	.enneagram-badge.type-7 {
-		background: rgba(234, 179, 8, 0.2);
-		color: #facc15;
+		background: color-mix(in srgb, var(--type-7-color) 20%, transparent);
+		color: var(--type-7-color);
 	}
 	.enneagram-badge.type-8 {
-		background: rgba(239, 68, 68, 0.2);
-		color: #f87171;
+		background: color-mix(in srgb, var(--type-8-color) 20%, transparent);
+		color: var(--type-8-color);
 	}
 	.enneagram-badge.type-9 {
-		background: rgba(16, 185, 129, 0.2);
-		color: #34d399;
+		background: color-mix(in srgb, var(--type-9-color) 20%, transparent);
+		color: var(--type-9-color);
 	}
 
 	.category-tag {

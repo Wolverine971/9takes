@@ -732,13 +732,13 @@
 	}
 
 	.question-item.flagged {
-		border-color: color-mix(in srgb, #f59e0b 45%, var(--stone-edge));
-		box-shadow: inset 3px 0 0 rgba(245, 158, 11, 0.7);
+		border-color: color-mix(in srgb, var(--warning) 45%, var(--stone-edge));
+		box-shadow: inset 3px 0 0 color-mix(in srgb, var(--warning) 70%, transparent);
 	}
 
 	.question-item.removed {
-		border-color: color-mix(in srgb, #ef4444 45%, var(--stone-edge));
-		box-shadow: inset 3px 0 0 rgba(239, 68, 68, 0.72);
+		border-color: color-mix(in srgb, var(--error) 45%, var(--stone-edge));
+		box-shadow: inset 3px 0 0 color-mix(in srgb, var(--error) 72%, transparent);
 	}
 
 	.question-content {
@@ -784,33 +784,33 @@
 	}
 
 	.status-badge.tagged {
-		background: rgba(16, 185, 129, 0.13);
-		color: #34d399;
+		background: color-mix(in srgb, var(--success) 16%, transparent);
+		color: var(--success-text);
 	}
 
 	.status-badge.untagged {
-		background: rgba(245, 158, 11, 0.14);
-		color: #fbbf24;
+		background: color-mix(in srgb, var(--warning) 16%, transparent);
+		color: var(--warning);
 	}
 
 	.status-badge.processed {
-		background: rgba(59, 130, 246, 0.14);
-		color: #60a5fa;
+		background: color-mix(in srgb, var(--data-teal) 18%, transparent);
+		color: var(--data-cyan);
 	}
 
 	.status-badge.unprocessed {
-		background: rgba(148, 163, 184, 0.16);
-		color: #cbd5e1;
+		background: color-mix(in srgb, var(--ink-dim) 22%, transparent);
+		color: var(--ink-mid);
 	}
 
 	.status-badge.flagged-badge {
-		background: rgba(245, 158, 11, 0.15);
-		color: #fbbf24;
+		background: color-mix(in srgb, var(--warning) 18%, transparent);
+		color: var(--warning);
 	}
 
 	.status-badge.removed-badge {
-		background: rgba(239, 68, 68, 0.14);
-		color: #fca5a5;
+		background: color-mix(in srgb, var(--error) 16%, transparent);
+		color: var(--error-text);
 	}
 
 	.category-tags {
@@ -851,8 +851,8 @@
 	}
 
 	.meta-item.comments {
-		background: rgba(16, 185, 129, 0.12);
-		color: #34d399;
+		background: color-mix(in srgb, var(--success) 14%, transparent);
+		color: var(--success-text);
 	}
 
 	.meta-icon {

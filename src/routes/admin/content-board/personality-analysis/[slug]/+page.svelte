@@ -471,13 +471,13 @@
 	}
 
 	.btn-danger {
-		background: rgba(239, 68, 68, 0.1);
-		color: #ef4444;
-		border: 1px solid rgba(239, 68, 68, 0.3);
+		background: color-mix(in srgb, var(--error) 12%, transparent);
+		color: var(--error-text);
+		border: 1px solid color-mix(in srgb, var(--error) 32%, transparent);
 
 		&:hover:not(:disabled) {
-			background: rgba(239, 68, 68, 0.2);
-			border-color: #ef4444;
+			background: color-mix(in srgb, var(--error) 22%, transparent);
+			border-color: var(--error);
 		}
 	}
 

@@ -539,7 +539,7 @@
 	.warning-text {
 		margin: 8px 0 0;
 		font-size: 0.8rem;
-		color: #f59e0b;
+		color: var(--warning);
 	}
 
 	/* Message List */
@@ -614,8 +614,8 @@
 	}
 
 	.count-badge.online {
-		background: rgba(16, 185, 129, 0.15);
-		color: #10b981;
+		background: color-mix(in srgb, var(--success) 18%, transparent);
+		color: var(--success-text);
 	}
 
 	.user-list {
@@ -681,7 +681,7 @@
 		width: 8px;
 		height: 8px;
 		border-radius: 50%;
-		background: #10b981;
+		background: var(--success);
 		animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
 	}
 

@@ -24,13 +24,13 @@
 	let showPreview = $state(true);
 
 	const statusColors: Record<string, string> = {
-		draft: '#f59e0b',
-		active: '#22c55e',
-		paused: '#6b7280',
-		processing: '#a855f7',
-		completed: '#3b82f6',
-		exited: '#f59e0b',
-		errored: '#ef4444'
+		draft: 'var(--warning)',
+		active: 'var(--success)',
+		paused: 'var(--ink-dim)',
+		processing: 'var(--lamp-glow)',
+		completed: 'var(--data-teal)',
+		exited: 'var(--warning)',
+		errored: 'var(--error)'
 	};
 
 	let selectedStep = $derived(
@@ -152,7 +152,9 @@
 		{#each data.sequences as sequence}
 			<div class="status-tile">
 				<div class="status-row">
-					<span class="status-dot" style="background: {statusColors[sequence.status] || '#6b7280'}"
+					<span
+						class="status-dot"
+						style="background: {statusColors[sequence.status] || 'var(--ink-dim)'}"
 					></span>
 					<span>{sequence.display_name}</span>
 				</div>
@@ -464,7 +466,7 @@
 								<td>
 									<span
 										class="status-dot"
-										style="background: {statusColors[queued.status] || '#6b7280'}"
+										style="background: {statusColors[queued.status] || 'var(--ink-dim)'}"
 									></span>
 									{queued.status}
 								</td>
@@ -790,9 +792,9 @@
 	iframe {
 		width: 100%;
 		min-height: 46rem;
-		border: 1px solid var(--stone-warm);
-		border-radius: 0.375rem;
-		background: #ffffff;
+		border: 1px solid var(--stone-edge);
+		border-radius: 10px;
+		background: var(--marble-pure);
 	}
 
 	.table-wrapper {

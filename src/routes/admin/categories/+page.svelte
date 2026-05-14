@@ -810,18 +810,18 @@
 	}
 
 	.status-pill--stale {
-		background: color-mix(in srgb, #d97706 14%, var(--night-deep));
-		color: color-mix(in srgb, #d97706 78%, var(--ink-bright));
+		background: color-mix(in srgb, var(--warning) 14%, var(--night-deep));
+		color: var(--warning);
 	}
 
 	.status-pill--failed {
-		background: color-mix(in srgb, #dc2626 12%, var(--night-deep));
-		color: color-mix(in srgb, #dc2626 76%, var(--ink-bright));
+		background: color-mix(in srgb, var(--error) 12%, var(--night-deep));
+		color: var(--error-text);
 	}
 
 	.status-pill--processing {
-		background: color-mix(in srgb, #2563eb 12%, var(--night-deep));
-		color: color-mix(in srgb, #2563eb 78%, var(--ink-bright));
+		background: color-mix(in srgb, var(--data-teal) 12%, var(--night-deep));
+		color: var(--data-cyan);
 	}
 
 	.status-pill--muted {

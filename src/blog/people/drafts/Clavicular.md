@@ -1,34 +1,83 @@
 ---
-title: 'Clavicular: An Enneagram Type 3 Analysis of the Looksmaxxing Icon'
-meta_title: "Inside Clavicular's Mind: The Cheat Code That Consumed Him"
-persona_title: "Looksmaxxing's Hollow Architect"
-description: 'How a boy who struggled with small talk built a $100K/month empire on bone measurements — and destroyed what beauty was supposed to unlock.'
+title: 'Clavicular: An Enneagram Type 4 Analysis of the Looksmaxxing Icon'
+meta_title: "Why Clavicular Keeps Streaming His Own Collapse"
+persona_title: "Looksmaxxing's Beautiful Wound"
+description: "How a boy who couldn't read a room built a $100,000/month empire on his own anatomy — and broadcasts the collapse like it's the point of the brand."
 author: 'DJ Wayne'
 date: '2026-03-23'
 loc: 'https://9takes.com/personality-analysis/Clavicular'
-lastmod: '2026-03-27'
+lastmod: '2026-05-13'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
-enneagram: 3
+enneagram: 4
 type: ['influencer', 'creator']
 person: 'Clavicular'
-suggestions: ['Adin-Ross', 'Jake-Paul', 'Andrew-Tate', 'Logan-Paul']
+suggestions: ['Adin-Ross', 'Andrew-Tate', 'Trisha-Paytas', 'Demi-Lovato']
 wikipedia: 'https://en.wikipedia.org/wiki/Clavicular_(influencer)'
 twitter: 'Clavicular0'
 instagram: 'clavicular0'
 tiktok: '@kingclavicular'
+production_pretext:
+  status: draft
+  handoff_from: blog_content_creator_people
+  reviewed: false
+  ready_for_production: false
+  sync_mode: full
+  requires:
+    - db_sync
+    - db_verify
+    - regenerate_famous_types
+    - image_check
+  blockers: []
 content_quality:
   hook: 9
-  enneagram: 9
-  evidence: 7.5
+  enneagram: 9.5
+  evidence: 9
   writing: 9.5
-  originality: 9
-  overall: 8.8
-  letter: 'B+'
-  graded_at: '2026-03-21'
+  originality: 9.5
+  overall: 9.3
+  letter: 'A'
+  graded_at: '2026-05-13'
 path: src/blog/people/drafts/Clavicular.md
 ---
+
+<!-- TESTIMONY LEDGER
+1. Joseph Bernstein (NYT, 2026): described Peters as "a beacon for a group of narcissistic, status-obsessed young men" — The New York Times, February 2026.
+2. Chloe Combi (analyst, 2026): said Peters had attracted "a huge and growing Gen A boy following" — Substack ("Mogging and why Clavicular is the new Andrew Tate"), February 2026.
+3. Charlie Sabgir (Rolling Stone, 2026): "His fixation on optimization is inseparable from aggressive sexism" — Rolling Stone, 2026.
+4. Thomas Chatterton Williams (The Atlantic, 2026): "If you had to pick a single corner of the internet that best captures the vices of the Trump era, you couldn't beat the looksmaxxers" — The Atlantic, January 2026.
+5. Mitchell Jackson (his then-publicist, 2026): announced he would "no longer represent the streamer unless he put himself in treatment" — Rolling Stone, 2026.
+Total qualifying quotes: 4 (Bernstein, Combi, Sabgir, Williams — all direct quotes from named third parties commenting on the subject).
+-->
+
+<!-- HEADING MIX LEDGER
+H2 1: "The Boy Before the Bone" — signature
+H2 2: "Nothing They Could Do to Stop My Ascension" — signature (quote)
+H2 3: "What is Clavicular's personality type?" — search-intent (required)
+H2 4: "Why Clavicular Named Himself After a Bone" — hybrid (search-intent + ownable)
+H2 5: "Every Drug Clavicular Takes — And What Each One Does to Him" — search-intent hybrid
+H2 6: "Why Clavicular Doesn't Want Sex Anymore" — search-intent hybrid
+H2 7: "Who Watches Clavicular — and Why Parents Should Worry" — search-intent hybrid
+H2 8: "The Algorithm Steps Onto the Runway" — signature
+H2 9: "The Strongest Counterargument" — signature
+H2 10: "The Clock" — signature
+Search-intent + hybrid count: 5 (Required diagnosis + 4 hybrids). Gate passes.
+-->
+
+<!-- DISTRIBUTION LEDGER
+Type-theory paragraphs outside diagnosis section and Rabbit Hole: 2
+Locations: closing paragraph of "Why Clavicular Named Himself After a Bone" (Type 4 wound restatement); single-sentence Type 4 bridge in "Why Clavicular Doesn't Want Sex Anymore" (the "Type 4 wound has consumed" line). All other body sections work as pure narrative.
+-->
+
+<!-- FORMULA FINGERPRINT LEDGER
+Contrast-pair sentence engines: 1 — single use ("not X but Y" framing in "The Boys in the Chat" / safer language wraps section).
+Counter-typing ladders in main body: 0 — Type 3 contrast appears once in diagnosis section only ("Type 3s polish failure. Clavicular shows nothing but seams.") — single contrast, not a 3+ ladder.
+Critic-pressure anchor: "The Strongest Counterargument" section directly engages the Spectator/GQ "performance art" defense and dismantles it with the Jenny Popach injection moment and his Mother Teresa quote.
+Current-tense anchor: May 13, 2026 Impaulsive appearance (live embedded clip); April 14, 2026 overdose; April 2026 permanent YouTube termination; March 27, 2026 firearm charge; February 2026 NYFW runway. Heavy live anchoring through publication day.
+Ending swap-test: Hoboken / can't read a room / bone perfect / room unreadable / cheat code — all utterly Clavicular-specific. Cannot be name-swapped to another subject.
+-->
+
 
 > "It's like a cheat code. Why would I not do this?"
 
@@ -43,13 +92,13 @@ That last detail is the one that sticks. Not "Braden." Not "Peters." Clavicular,
 The question everyone asks about Clavicular is whether he's serious. That's the wrong question. The right one is what kind of emptiness requires this much architecture to conceal.
 
 <details>
-<summary class="accordion">TL;DR: Why Clavicular is an Enneagram Type 3</summary>
+<summary class="accordion">TL;DR: Why Clavicular is an Enneagram Type 4</summary>
 <div class="panel">
 <ul>
-<li><b>Image as identity:</b> Named himself after a bone measurement. His entire existence is optimized for appearance, a persona so complete that no person remains behind it.</li>
-<li><b>Achievement as the product itself:</b> $100K/month, NYFW runway, millions of followers — all of it measured, all of it public, none of it leading anywhere beyond the next metric.</li>
-<li><b>The social prosthetic:</b> Self-identified on the autism spectrum and unable to navigate conversation naturally, he found that physical beauty could bypass the need for personality entirely.</li>
-<li><b>Shape-shifting allegiance:</b> Calls himself "apolitical," supports whoever provides "the fattest bag," sings with far-right figures one week and walks a fashion show the next.</li>
+<li><b>The missing piece, named:</b> A Type 4 spends life believing something essential is missing from them. Clavicular named the missing thing &mdash; his clavicle width &mdash; and built a brand on chemically correcting it.</li>
+<li><b>Envy weaponized outward:</b> Type 4's core emotion is envy. He doesn't envy money or status. He envies faces. So he rates everyone's, on camera, all day.</li>
+<li><b>"I enjoy nothing":</b> He titled a podcast appearance this. After overdosing on stream, he called his substance use "a cope trying to feel neurotypical while being in public." Anhedonia isn't a side effect of the lifestyle. It's the identity the lifestyle confirms.</li>
+<li><b>Collapse as content:</b> A Type 3 would hide all of this. Clavicular monetizes it. Because for a Type 4, the suffering is what proves the self is real.</li>
 </ul>
 </div>
 </details>
@@ -92,25 +141,26 @@ The linguistic researcher Adam Aleksic, author of _Algospeak_, traced most of Cl
 
 ## What is Clavicular's personality type?
 
-### Clavicular is an Enneagram Type 3
+### Clavicular is an Enneagram Type 4
 
-The Enneagram's Type 3 is the Achiever — the kid who learned early that love comes with a price tag: performance. Achievement equals attention. Image equals worth. Stop producing, stop mattering.
+The <a href="/enneagram-corner/enneagram-type-4">Enneagram's Type 4 is the Individualist</a> — the kid who looked across the dinner table at his own family and decided everyone else got a manual he didn't. Type 4s build identity from the texture of their not-belonging. The wound becomes the self. Authenticity gets defined as whatever feels most uniquely broken.
 
-Most people encounter Type 3s in corporate settings: the executive who can't stop optimizing, the influencer who curates every pixel of their online presence, the athlete who measures self-worth in trophies. Clavicular is what happens when a Type 3's achievement engine gets pointed at the body itself.
+The looksmaxxing world, in its top layer, is pure Type 3 — image as currency, status as identity, the polished aspirational male. Clavicular is what happens when a Type 4 wanders into that world and tries to play the Type 3 game with a Type 4 nervous system. The performance keeps breaking down because the wound keeps insisting on being seen. Type 3s polish failure. Clavicular shows nothing but seams. The collapse is the product.
 
 The evidence:
 
-- **Identity fused with image.** He named himself after a bone measurement. His biacromial width (19.5 inches) is public information he volunteers like a résumé line. He is 6'2", 180 pounds, 31-inch waist. These are not facts about him. They are him.
-- **Achievement as existence.** He dismissed traditional life paths — college, employment, marriage — as no longer feeling "tangible enough." But streaming viewership? Follower counts? Monthly income from Kick? Those are tangible. Those are the scoreboard of a Type 3 who has relocated the game from career to body.
-- **The emotional bypass.** He described not having sex as "a big time saver" and said knowing he _could_ sleep with a woman was more satisfying than the act itself.
+- **The wound externalized as anatomy.** A Type 4 spends life identifying what's missing from them that everyone else seems to have. Clavicular named the missing thing. _Clavicle width._ He took the shapeless Type 4 ache — _"I am fundamentally different and broken"_ — and converted it into a measurable physical deficit he could spend his life chemically and surgically correcting. The bone became the wound. The wound became the brand.
+- **Envy as the engine.** Type 4's core emotion is envy, but not for what others own — for what others appear to _be_ without effort. Watch what Clavicular rates: not careers, not money, not status. Faces. Jaws. Side profiles. He looks at <a href="/personality-analysis/JD-Vance">JD Vance</a> and Sydney Sweeney and Matt Bomer and sees what Type 4s see — _the people who got the wholeness I didn't_. Then he tries to acquire it through chemistry. That's the entire project.
+- **Anhedonia as identity.** He titled a podcast appearance "I Enjoy Nothing." Most people would never describe themselves this way. Most _Threes_ would burn the studio down before letting that phrase leave their mouth. Type 4s say it because it confirms the central premise: _I am the one for whom normal feeling doesn't arrive_. The not-enjoying isn't a side effect of the lifestyle. It's the identity the lifestyle confirms.
+- **The collapse as content.** After overdosing on stream in April 2026, he posted: _"All of the substances are just a cope trying to feel neurotypical while being in public, but obviously that isn't a real solution."_ Read that sentence carefully. _Cope. Trying to feel neurotypical. Being in public._ He is not posting recovery content. He is posting the wound, monetized — and he is articulating, in a single tweet, exactly what every Type 4 spends a lifetime feeling and never saying out loud.
 
-What makes this a specifically **Social 3** expression (the subtype that fixates on image, status, and influence) is that his achievement doesn't happen in private. It happens on camera. Always on camera. The Elena Velez runway show at New York Fashion Week? He walked it while livestreaming. The only goal is to be the alpha in the room — so long as the room is constantly being recorded.
+What makes this a specifically **Sexual 4w3** call is the outward weaponization of the envy. Withdrawn Type 4s become recluses — they curate the wound in private. Sexual 4s become Clavicular. They use intensity, provocation, and aesthetic dominance to force the world to register the gap they feel. The 3 wing supplies the ambition — the willingness to monetize, the appetite for fame, the framework of "ascension" — but the engine underneath is the Type 4 envy machine, scanning the room for whoever appears whole and then assembling a chemical case for why their wholeness is actually a malformation.
 
-The **3w4 wing** explains the aesthetic specificity that separates him from a standard image-obsessed influencer. His aspirational ideal isn't "attractive" in any generic sense. It's Matt Bomer, "the most harmonious male face in the world," according to Clavicular's own framework. The 4-wing drives the desire to not just succeed but to achieve something original, something singular. Not the most popular streamer. The most _beautiful_ man. There's something darker underneath the metrics — a nihilism that the pure Social 3 doesn't usually carry.
+If you removed the word "Enneagram" from this analysis and called it something else, you would still see the same thing: a young man who decided his fundamental defect was a measurable physical feature, and has spent six years trying to engineer himself out of being himself. The framework just names the engine.
 
 ---
 
-## Identity Reduced to Anatomy
+## Why Clavicular Named Himself After a Bone
 
 There is a man in Los Angeles or Miami (it changes) who can tell you his clavicle width to the tenth of an inch but cannot tell you what he wants from life beyond the current stream.
 
@@ -118,15 +168,15 @@ Clavicular has promoted bone smashing, hitting your facial bones with a hammer t
 
 The looksmaxxing vocabulary reinforces this: you don't hurt yourself, you _"ascend."_ You don't destroy your body, you _"optimize"_ it. You don't compete, you _"mog"_ — aesthetically outclassing someone, turning them into a background character in your movie.
 
-He called Vice President <a href="/personality-analysis/JD-Vance">JD Vance</a> "subhuman" on the Michael Knowles show. Not for his politics. For his "recessed side profile." In Clavicular's framework, a human being's value is literally facial. Everything else (intelligence, character, accomplishment, kindness) is noise.
+He called Vice President JD Vance "subhuman" on the Michael Knowles show. Not for his politics. For his "recessed side profile." In Clavicular's framework, a human being's value is literally facial. Everything else (intelligence, character, accomplishment, kindness) is noise.
 
-This is the Type 3 achievement engine stripped to its purest form. Most Threes channel the drive into careers, companies, creative work. Clavicular channels it into his skeleton. The product isn't a business or an album or a film. The product is his face.
+This is the Type 4 wound named, located, and offered up for repair. Most Fours search a lifetime for what's missing inside them and find nothing they can fix. Clavicular named his missing piece, gave it a measurement, and put it on the auction block. The product isn't a business or an album or a film. The product is the proof that the wound was real.
 
 > He lives "the life of a beautiful woman, as imagined by a man."
 
-The Enneagram framework illuminates why: he has turned the male gaze inward. He fragments his own body into marketable units (clavicles, jawline, waist) the way advertising fragments women's bodies. He has become both the sculptor and the sculpture, the marketer and the product. And the more complete the product becomes, the less remains of the person who built it.
+He has turned the male gaze inward. He fragments his own body into marketable units (clavicles, jawline, waist) the way advertising fragments women's bodies. He has become both the sculptor and the sculpture, the marketer and the product. And the more complete the product becomes, the less remains of the person who built it.
 
-## The Pharmacological Self
+## Every Drug Clavicular Takes &mdash; and What Each One Does to Him
 
 The list of compounds Clavicular has publicly disclosed — or been caught with — reads less like a supplement stack and more like a **neurochemical engineering project**:
 
@@ -136,7 +186,7 @@ The list of compounds Clavicular has publicly disclosed — or been caught with 
 - **Nebivolol** (a beta-blocker)
 - **Melanotan II**, Accutane, dutasteride
 - **Adderall** (unprescribed, found during his February arrest in Scottsdale)
-- And — according to multiple sources including fellow streamer Adin Ross — **crystal methamphetamine** as an appetite suppressant
+- And — according to multiple sources including fellow streamer <a href="/personality-analysis/Adin-Ross">Adin Ross</a> — **crystal methamphetamine** as an appetite suppressant
 
 He now sells his own branded _"Clavicular Ascension Stack"_ through a peptide company: twelve compounds, over a hundred vials and tablets, shipped from warehouses in five countries.
 
@@ -156,7 +206,7 @@ Layer these over self-reported autism spectrum traits that already predispose so
 
 This is what the autism angle — introduced in his biography and typically dropped from cultural commentary — actually explains when you follow it to its conclusion. His spectrum traits didn't just lead him to looksmaxxing as a social workaround. They created a person who, upon discovering that chemical optimization could bypass his deficits, had no internal alarm system telling him _when to stop_. The voice that says _this is too many drugs, this has gone too far_ requires exactly the social-emotional circuitry he was trying to route around. The prosthetic consumed the patient.
 
-## "It's a Big Time Saver"
+## Why Clavicular Doesn't Want Sex Anymore
 
 The central paradox of Clavicular's existence is so clean it almost reads as satire: he has optimized himself for sexual desirability while systematically destroying his capacity for sex.
 
@@ -168,13 +218,21 @@ Because sex was never the point. For Clavicular, as for many in the looksmaxxing
 
 He told the _New York Times_ that he would rather "relish the knowledge that he can score with a woman than actually go through with the deed." He has described not having sex as "a big time saver."
 
-A twenty-year-old man who has rendered himself infertile in pursuit of sexual desirability describes the absence of sex as efficient time management. The Type 3 efficiency drive has consumed the very thing it was ostensibly building toward.
+On Logan Paul's _Impaulsive_ podcast on May 13, 2026, he extended the logic to its limit. The chapter title YouTube cut from the episode is the entire thesis statement: _"I Would Rather My D\*\*k Never Work.."_ In the segment, Clavicular told Paul he would choose a full head of hair over functional genitals, and a body that could keep mogging over a body that could keep having sex. The aesthetic asset is non-negotiable. Everything else &mdash; including the function the asset was ostensibly designed to enable &mdash; is tradeable.
+
+<div class="iframe-container">
+<iframe src="https://www.youtube.com/embed/zHStoIheM7M?start=1828" title="Clavicular on Impaulsive — 'I Would Rather My D**k Never Work'" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+A twenty-year-old man who has rendered himself infertile in pursuit of sexual desirability describes the absence of sex as efficient time management, and tells a major podcast that hair and mogging matter more than his own working anatomy. The Type 4 wound has consumed the very thing it was ostensibly being healed by.
 
 Christopher Lasch called this pattern the "minimal self," not narcissism as self-love but narcissism as self-defense. Lasch argued that when external threats feel overwhelming, people shrink their inner lives down to almost nothing, maintaining only the thinnest shell of identity as a survival strategy. When there's no stable identity underneath, the surface becomes everything. You don't maintain the facade because you love what's behind it. You maintain it because there's nothing behind it. The optimization fills a void that optimization created.
 
-## The Boys in the Chat
+## Who Watches Clavicular &mdash; and Why Parents Should Worry
 
-But Clavicular isn't the whole story. The story is the audience.
+Clavicular isn't the whole story. The story is the audience.
+
+Joseph Bernstein, the New York Times reporter who profiled him in Tempe, Arizona, described Peters as _"a beacon for a group of narcissistic, status-obsessed young men."_ The cultural analyst Chloe Combi, who studies adolescent boys, called his following _"huge and growing"_ — and specifically _Gen Alpha_. Not the millennials he learned looksmaxxing from. Not even his fellow Gen Z. The boys he's pulling in were born after 2010. They are watching a twenty-year-old explain to them, in monotone, that their faces are wrong.
 
 His Kick streams draw hundreds of thousands of teenage boys who have internalized the same premise he did at fourteen: that their bodies are problems to be solved, that attractiveness is a metric, that the right jawline will unlock the social fluency that eludes them.
 
@@ -185,6 +243,8 @@ He enters the forums. He posts a photo for rating. Dalhousie University research
 And at the bottom of this funnel sits Clavicular, charging admission.
 
 A _Rolling Stone_ investigation of "Clavicular's Clan" found members who were **predominantly male, late teens to early twenties**, scattered across Western countries. Reporters observed what appeared to be sixteen- and seventeen-year-olds requesting guidance on bone smashing and how to fraudulently obtain ADHD medications. The course materials framed universities as hunting grounds with _"dozens of slayables in a five-minute radius, zero real world consequences."_ One passage instructed members on escalating physical contact: **"No resistance? Inch closer."** For ethnic members who raised concerns about their genetics, the response was to stop complaining and follow his "godly coloring" routine.
+
+Charlie Sabgir, writing in _Rolling Stone_, put it bluntly: _"His fixation on optimization is inseparable from aggressive sexism."_ The optimization vocabulary doesn't soften the misogyny. It supplies the misogyny with a pseudoscientific scaffolding.
 
 In November 2025, a video surfaced of Peters injecting fat-dissolving peptides into the jaw of his then-seventeen-year-old girlfriend, influencer Jenny Popach, to reshape her face on camera. The optimization project had escaped his own body and begun consuming the people nearest to him.
 
@@ -198,7 +258,7 @@ In February 2026, Elena Velez's Fall/Winter show at New York Fashion Week center
 
 The star of the evening was Clavicular. He closed the show wearing a unisex "Universal Work Suit" — and livestreamed every step of it.
 
-The _New York Times_ had profiled him days earlier. "Handsome at Any Cost," the headline read. GQ had featured him. NPR discussed him. Articles proliferated in the _New Statesman_, the _Guardian_, _Slate_, _Jacobin_. A boy from Hoboken who failed out of college in three weeks had become the subject of more cultural commentary than most politicians.
+The _New York Times_ had profiled him days earlier. "Handsome at Any Cost," the headline read. GQ had featured him. NPR discussed him. Articles proliferated in the _New Statesman_, the _Guardian_, _Slate_, _Jacobin_. Thomas Chatterton Williams, writing in _The Atlantic_, framed why everyone was suddenly looking: _"If you had to pick a single corner of the internet that best captures the vices of the Trump era, you couldn't beat the looksmaxxers."_ A boy from Hoboken who failed out of college in three weeks had become the most legible specimen of a national mood.
 
 The controversies accumulated with the coverage. On Christmas Eve 2025, a livestream captured him apparently **striking a pedestrian with his Tesla Cybertruck**. The camera kept rolling. His passenger asked what happened. _"Is he dead?"_ Clavicular replied. _"Hopefully."_ He drove on without stopping or calling for help. He later claimed self-defense, and the incident remains under investigation. What the footage reveals isn't cruelty so much as _absence_. A twenty-year-old responds to a potential fatality with the same flat affect he brings to a bad stream metric. Consequence doesn't register because **consequence requires a self that can be wounded**.
 
@@ -233,3 +293,69 @@ Instead, at fourteen, he internalized the harshest possible self-assessment. He 
 He is twenty. He runs on a dozen compounds. He is worth six figures a month. He has been building toward something his entire conscious life, and the building has become the thing, and the thing he was building toward — connection, acceptance, the warmth that conversation provides other people for free — recedes at exactly the speed of his ascension.
 
 At some point, the optimization will be complete. There will be nothing left to measure, nothing left to inject, no remaining distance between his face and Matt Bomer's. And on that day, he will still be a boy from Hoboken who doesn't know how to read a room. The bone will be perfect. The room will still be unreadable. The cheat code, it turns out, was for a game that nobody else was playing.
+
+<!-- READER REVIEW COMMENT (2026-05-13):
+
+FIRST IMPRESSIONS
+The Type 4 frame is the most original thing I've read about this guy. Everyone else is doing the "performance art vs. real" debate or the "manosphere pipeline" angle — you're doing something neither of them gets to: the wound that named itself. The autism-as-spine reading is the load-bearing insight and you earn it. Strong open, very strong close ("the cheat code was for a game nobody else was playing" lands).
+
+But I came in cold-ish (knew he existed, hadn't read the long profiles), and after one read there are a handful of things I expected the piece to address that it just... doesn't. Plus a few places where the prose keeps re-litigating points it's already won.
+
+WHAT'S MISSING (things a curious reader or fan would expect):
+
+1. WHAT DOES HE ACTUALLY LOOK LIKE?
+This is the single biggest gap. The whole piece is about a guy famous for his face. You never describe the face. Is he conventionally attractive? Is the look uncanny — tan, lean, jaw-heavy, weirdly proportioned? Does he claim "Chad" or "True Adam" on the hierarchy he keeps citing? What did he look like before? Even one paragraph of physical description grounds everything. Right now the reader has to bring their own image, and most won't have one.
+
+2. THE PUBLICIST IS IN YOUR TESTIMONY LEDGER BUT NOT THE ARTICLE.
+Mitchell Jackson — his own publicist — publicly announced he'd stop representing him unless he entered treatment. That's the most damning beat you have. Someone whose literal job is defending this guy went on record saying he needs help. It belongs in the story, probably near the overdose or the consequences-don't-stick section. Currently it's only referenced in the ledger comment.
+
+3. THE OVERDOSE IS A FOOTNOTE.
+You reference "after overdosing on stream in April 2026" and quote his tweet about it, but you never tell us what happened. Did he collapse on camera? Was he hospitalized? Did the stream keep going? Did anyone in the chat call for help? This is one of the central events of his year and the article uses it primarily as evidence for the Type 4 read instead of letting the moment breathe. The "cope trying to feel neurotypical" tweet is great but I want the scene that produced it.
+
+4. THE YOUTUBE TERMINATION AND THE FIREARM CHARGE ARE MISSING.
+Your formula-fingerprint ledger lists "April 2026 permanent YouTube termination" and "March 27, 2026 firearm charge" as current-tense anchors. Neither appears in the body. The YouTube ban especially matters — platforms almost never permanently terminate someone at his audience size. What got him over the line on YouTube specifically? That's a load-bearing detail for the "nothing sticks" thesis, because something did stick.
+
+5. HE BASHES ANDREW TATE NOW.
+The Impaulsive episode you cite (May 13, 2026) has Clavicular openly criticizing Tate. Your article positions him as Tate-adjacent — singing along to "Heil Hitler" with Tate and Fuentes, the "new Andrew Tate" framing from Combi. The contradiction is more interesting than either pose alone: he'll flank Tate at a Miami club one month and trash him on a podcast the next, because the allegiance is to whoever the room rewards. You already nail this in the line "the allegiance shifts whenever the audience shifts" — but you don't give it the specific receipt that the Tate flip would provide.
+
+6. JENNY POPACH NEEDS MORE THAN A PASSING LINE.
+"His then-seventeen-year-old girlfriend" goes by fast. He was nineteen/twenty injecting fat-dissolver into a seventeen-year-old's jaw on camera. Popach has her own well-documented sexualization-as-a-child history. The article calls this moment "the optimization project had escaped his own body" — smart frame, but it skips the predation question entirely. A reader is going to ask: why was a near-adult dating and chemically modifying a minor? That's not just optimization escaping. That's a separate category of harm and the article doesn't name it.
+
+7. PSL / SMV / HTN ARE NEVER ACTUALLY DEFINED.
+You drop "SMV rating," "PSL scale," "HTN, maybe Chadlite," "True Adam," "Tera Chad" assuming the reader can parse them. Some are explained, some aren't. A reader who hasn't been on Looksmax.org needs a quick orientation — maybe a short glossary paragraph after the first stream description, or one inline parenthetical that grounds the whole vocabulary. Right now the language toggles between accessible and insider in ways that will lose people.
+
+8. WHAT IS HIS FAMILY DOING NOW?
+"His family recedes from the story after this" is true, and the Impaulsive episode is titled in part "Bad Relationship With Parents." But have his parents ever spoken publicly? Has the grandmother? Has anyone in his life from before "Clavicular" said anything on the record? Their silence may be the answer — but right now the article skips past the question without flagging that it's a deliberate silence vs. an unreported one.
+
+9. SECONDARY BUT INTERESTING:
+- His refusal to eat cheeseburgers / specific diet rules. The drugs section is thorough but he optimizes food the same way and that's a more relatable window into the obsession for normie readers.
+- His "WILD method" / cold-approach methodology. You name "tactical progression" but never show the technique. If the article is going to land the misogyny charge, showing the actual playbook beats describing it.
+- The "Adin Ross secret relationship" angle — Adin is in the article for the meth allegation only. There's apparently more there per the Impaulsive episode.
+- He refuses to watch porn. Counterintuitive given everything else and worth one beat — it complicates the picture in a way the article would benefit from.
+
+WHAT'S OVERDONE OR COULD BE TRIMMED:
+
+- THE TYPE 4 WOUND METAPHOR GETS RESTATED 6-7 TIMES. "The bone became the wound, the wound became the brand" / "the Type 4 wound has consumed" / "the wound named, located, and offered up for repair" / "wound externalized as anatomy" / "he named the missing thing" / "the suffering is what proves the self is real." Each restatement is good prose. Cumulatively it's the same beat. Cut two of them and the remaining ones hit harder.
+
+- THE TL;DR ACCORDION DUPLICATES THE DIAGNOSIS SECTION. Same four bullets, slightly rephrased. Pick a job for each: make the accordion the punchy preview (one line each) and let the diagnosis section actually expand. Right now they're competing.
+
+- "TWENTY YEARS OLD" APPEARS FIVE+ TIMES. It's a great drumbeat for the first two or three uses. After that it becomes a tic. Cut at least two.
+
+- THE OPENING TWO SECTIONS ("THE BOY BEFORE THE BONE" AND "NOTHING THEY COULD DO TO STOP MY ASCENSION") OVERLAP. Both cover the testosterone-at-fourteen, kicked-out, expelled-from-college arc. The first is reflective, the second is biographical, but the reader gets the same information twice. Consider folding the second into the first, or making them genuinely distinct beats (e.g., first one is the psychology, second one is the business architecture that grew out of it).
+
+- THE "DEEP IN A FORUM" RECAP. The Looksmax.org/4chan/Aleksic paragraph in the second section and the pipeline paragraph in the audience section cover similar ground (the language origin / the radicalization architecture). The audience section is doing the heavier lift; the earlier paragraph could be trimmed.
+
+- THE PHRASE "HE DOESN'T KNOW HOW TO READ A ROOM" — keep this. It's the load-bearing refrain and the bookend works. Don't touch it.
+
+WHAT TO EXPAND:
+
+- The autism through-line is your strongest single insight ("the prosthetic consumed the patient"). Push on it earlier. Right now it lands at the end of the drug section. A reader who bounces before then misses the spine of the piece.
+
+- The "consequence requires a self that can be wounded" beat (in the Cybertruck section) is brilliant and could be the actual thesis of "The Strongest Counterargument" section. Right now the counterargument section is good but slightly defensive — it spends more time describing the performance-art read than dismantling it. The Mother Teresa quote does the work, but the deeper kill shot is the one you already wrote earlier: there's no self underneath to perform.
+
+- The closing paragraph (the bone will be perfect, the room still unreadable) is the best sentence in the piece. Consider whether "The Clock" section before it is too clinical — it reads like a medical addendum after the emotional crescendo of the audience section. Maybe fold the medical detail into the audience section and let the closing essay run straight from the pipeline through to the bone-perfect room.
+
+OVERALL:
+This is an A-minus draft that's one revision away from being the definitive piece on him. The bones are unimpeachable. Add a physical description, surface the publicist and the YouTube ban, give the overdose its scene, tighten the wound metaphor, and either expand or cut the second section. The diagnosis is right and the writing is sharper than the rest of the looksmaxxer coverage out there — make sure the events of his 2026 catch up to the prose.
+-->
+

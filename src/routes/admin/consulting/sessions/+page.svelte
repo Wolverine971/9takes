@@ -55,13 +55,13 @@
 	}
 
 	const statusColors: Record<string, string> = {
-		scheduled: '#f59e0b',
-		confirmed: '#3b82f6',
-		in_progress: '#10b981',
-		completed: '#6b7280',
-		cancelled: '#ef4444',
-		no_show: '#ef4444',
-		rescheduled: '#9ca3af'
+		scheduled: 'var(--warning)',
+		confirmed: 'var(--data-teal)',
+		in_progress: 'var(--success)',
+		completed: 'var(--ink-dim)',
+		cancelled: 'var(--error)',
+		no_show: 'var(--error)',
+		rescheduled: 'var(--ink-mid)'
 	};
 </script>
 
@@ -157,7 +157,7 @@
 							<span class="session-duration">{session.duration_minutes} min</span>
 							<span
 								class="session-status"
-								style="--status-color: {statusColors[session.status ?? ''] || '#6b7280'}"
+								style="--status-color: {statusColors[session.status ?? ''] || 'var(--ink-dim)'}"
 							>
 								{session.status?.replace('_', ' ')}
 							</span>
@@ -331,8 +331,8 @@
 	}
 
 	.type-badge {
-		background: rgba(99, 102, 241, 0.1);
-		color: #6366f1;
+		background: color-mix(in srgb, var(--lamp-glow) 12%, transparent);
+		color: var(--lamp-glow);
 		padding: 0.0625rem 0.375rem;
 		border-radius: 4px;
 		font-size: 0.7rem;
@@ -347,16 +347,16 @@
 	}
 
 	.trust-outer {
-		background: rgba(239, 68, 68, 0.1);
-		color: #ef4444;
+		background: color-mix(in srgb, var(--error) 12%, transparent);
+		color: var(--error-text);
 	}
 	.trust-middle {
-		background: rgba(245, 158, 11, 0.1);
-		color: #f59e0b;
+		background: color-mix(in srgb, var(--warning) 12%, transparent);
+		color: var(--warning);
 	}
 	.trust-inner {
-		background: rgba(16, 185, 129, 0.1);
-		color: #10b981;
+		background: color-mix(in srgb, var(--success) 12%, transparent);
+		color: var(--success-text);
 	}
 
 	.session-meta {

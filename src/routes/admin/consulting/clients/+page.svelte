@@ -73,19 +73,19 @@
 	}
 
 	const statusLabels: Record<string, { label: string; color: string }> = {
-		prospect: { label: 'Prospect', color: '#6366f1' },
-		intake_sent: { label: 'Intake Sent', color: '#f59e0b' },
-		intake_completed: { label: 'Intake Done', color: '#10b981' },
-		active: { label: 'Active', color: '#3b82f6' },
-		completed: { label: 'Completed', color: '#6b7280' },
-		paused: { label: 'Paused', color: '#9ca3af' },
-		churned: { label: 'Churned', color: '#ef4444' }
+		prospect: { label: 'Prospect', color: 'var(--lamp-glow)' },
+		intake_sent: { label: 'Intake Sent', color: 'var(--warning)' },
+		intake_completed: { label: 'Intake Done', color: 'var(--success)' },
+		active: { label: 'Active', color: 'var(--data-teal)' },
+		completed: { label: 'Completed', color: 'var(--ink-dim)' },
+		paused: { label: 'Paused', color: 'var(--ink-mid)' },
+		churned: { label: 'Churned', color: 'var(--error)' }
 	};
 
 	const trustLabels: Record<string, { label: string; color: string }> = {
-		outer: { label: 'Outer', color: '#ef4444' },
-		middle: { label: 'Middle', color: '#f59e0b' },
-		inner: { label: 'Inner', color: '#10b981' }
+		outer: { label: 'Outer', color: 'var(--error)' },
+		middle: { label: 'Middle', color: 'var(--warning)' },
+		inner: { label: 'Inner', color: 'var(--success)' }
 	};
 </script>
 
@@ -183,7 +183,8 @@
 							<td>
 								<span
 									class="status-badge"
-									style="--status-color: {statusLabels[client.status ?? '']?.color || '#6b7280'}"
+									style="--status-color: {statusLabels[client.status ?? '']?.color ||
+										'var(--ink-dim)'}"
 								>
 									{statusLabels[client.status ?? '']?.label || client.status}
 								</span>
@@ -192,7 +193,8 @@
 								{#if client.trust_layer}
 									<span
 										class="trust-badge"
-										style="--trust-color: {trustLabels[client.trust_layer]?.color || '#6b7280'}"
+										style="--trust-color: {trustLabels[client.trust_layer]?.color ||
+											'var(--ink-dim)'}"
 									>
 										{trustLabels[client.trust_layer]?.label || client.trust_layer}
 									</span>
@@ -445,8 +447,8 @@
 
 	.type-badge {
 		display: inline-block;
-		background: rgba(99, 102, 241, 0.1);
-		color: #6366f1;
+		background: color-mix(in srgb, var(--lamp-glow) 12%, transparent);
+		color: var(--lamp-glow);
 		padding: 0.125rem 0.5rem;
 		border-radius: 4px;
 		font-weight: 600;
@@ -482,20 +484,20 @@
 	}
 
 	.intake-pending {
-		background: rgba(245, 158, 11, 0.1);
-		color: #f59e0b;
+		background: color-mix(in srgb, var(--warning) 12%, transparent);
+		color: var(--warning);
 	}
 	.intake-sent {
-		background: rgba(251, 113, 133, 0.1);
-		color: #3b82f6;
+		background: color-mix(in srgb, var(--data-teal) 14%, transparent);
+		color: var(--data-cyan);
 	}
 	.intake-completed {
-		background: rgba(16, 185, 129, 0.1);
-		color: #10b981;
+		background: color-mix(in srgb, var(--success) 12%, transparent);
+		color: var(--success-text);
 	}
 	.intake-reviewed {
-		background: rgba(99, 102, 241, 0.1);
-		color: #6366f1;
+		background: color-mix(in srgb, var(--lamp-glow) 12%, transparent);
+		color: var(--lamp-glow);
 	}
 
 	.unknown {

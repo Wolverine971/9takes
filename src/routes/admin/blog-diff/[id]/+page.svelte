@@ -415,8 +415,8 @@
 		display: inline-block;
 		padding: 2px 8px;
 		margin-left: 8px;
-		background: rgba(16, 185, 129, 0.15);
-		color: #10b981;
+		background: color-mix(in srgb, var(--success) 18%, transparent);
+		color: var(--success-text);
 		border-radius: 12px;
 		font-size: 0.7rem;
 		font-weight: 600;
@@ -515,13 +515,13 @@
 	}
 
 	.source-badge.warning {
-		background: rgba(245, 158, 11, 0.15);
-		color: #f59e0b;
+		background: color-mix(in srgb, var(--warning) 18%, transparent);
+		color: var(--warning);
 	}
 
 	.source-badge.success {
-		background: rgba(16, 185, 129, 0.15);
-		color: #10b981;
+		background: color-mix(in srgb, var(--success) 18%, transparent);
+		color: var(--success-text);
 	}
 
 	.content-body {
@@ -606,18 +606,18 @@
 	}
 
 	.legend-swatch.added {
-		background: rgba(16, 185, 129, 0.2);
-		border-left: 3px solid #10b981;
+		background: color-mix(in srgb, var(--success) 22%, transparent);
+		border-left: 3px solid var(--success);
 	}
 
 	.legend-swatch.removed {
-		background: rgba(239, 68, 68, 0.2);
-		border-left: 3px solid #ef4444;
+		background: color-mix(in srgb, var(--error) 22%, transparent);
+		border-left: 3px solid var(--error);
 	}
 
 	.legend-swatch.modified {
-		background: rgba(245, 158, 11, 0.2);
-		border-left: 3px solid #f59e0b;
+		background: color-mix(in srgb, var(--warning) 22%, transparent);
+		border-left: 3px solid var(--warning);
 	}
 
 	.legend-swatch.unchanged {

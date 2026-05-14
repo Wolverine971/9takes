@@ -522,8 +522,8 @@
 	}
 
 	.tab-badge.warning {
-		background: rgba(245, 158, 11, 0.15);
-		color: #d97706;
+		background: color-mix(in srgb, var(--warning) 18%, transparent);
+		color: var(--warning);
 	}
 
 	/* Content Card */
@@ -559,13 +559,13 @@
 	}
 
 	.header-badge.warning {
-		background: rgba(245, 158, 11, 0.15);
-		color: #d97706;
+		background: color-mix(in srgb, var(--warning) 18%, transparent);
+		color: var(--warning);
 	}
 
 	.header-badge.success {
-		background: rgba(16, 185, 129, 0.15);
-		color: #059669;
+		background: color-mix(in srgb, var(--success) 18%, transparent);
+		color: var(--success-text);
 	}
 
 	.card-content {
@@ -595,13 +595,13 @@
 	}
 
 	.comment-item.flagged {
-		border-left: 3px solid #f59e0b;
-		background: rgba(245, 158, 11, 0.05);
+		border-left: 3px solid var(--warning);
+		background: color-mix(in srgb, var(--warning) 6%, transparent);
 	}
 
 	.comment-item.removed {
-		border-left: 3px solid #ef4444;
-		background: rgba(239, 68, 68, 0.05);
+		border-left: 3px solid var(--error);
+		background: color-mix(in srgb, var(--error) 6%, transparent);
 	}
 
 	.comment-body {
@@ -616,7 +616,7 @@
 	}
 
 	.comment-text.error {
-		color: #dc2626;
+		color: var(--error-text);
 		font-style: italic;
 	}
 
@@ -630,8 +630,8 @@
 	}
 
 	.status-badge.removed {
-		background: rgba(239, 68, 68, 0.15);
-		color: #dc2626;
+		background: color-mix(in srgb, var(--error) 18%, transparent);
+		color: var(--error-text);
 	}
 
 	.flag-info {
@@ -713,21 +713,21 @@
 	}
 
 	.btn-success {
-		background: #10b981;
+		background: var(--success);
 		color: white;
 	}
 
 	.btn-success:hover:not(:disabled) {
-		background: #059669;
+		background: color-mix(in srgb, var(--success) 80%, black);
 	}
 
 	.btn-danger {
-		background: #ef4444;
+		background: var(--error);
 		color: white;
 	}
 
 	.btn-danger:hover:not(:disabled) {
-		background: #dc2626;
+		background: var(--error-700);
 	}
 
 	.btn-secondary {

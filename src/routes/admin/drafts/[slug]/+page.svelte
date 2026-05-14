@@ -108,12 +108,12 @@
 	}
 
 	.draft-header {
-		background: white;
+		background: var(--stone-warm);
 		border-radius: 16px;
 		padding: 2rem;
 		margin-bottom: 2rem;
-		box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
-		border: 1px solid #e9ecef;
+		box-shadow: var(--shadow-md);
+		border: 1px solid var(--stone-edge);
 	}
 
 	.navigation {
@@ -122,16 +122,16 @@
 		.back-link {
 			display: inline-flex;
 			align-items: center;
-			color: #667eea;
+			color: var(--lamp-glow);
 			text-decoration: none;
 			font-weight: 600;
 			padding: 0.5rem 1rem;
-			border-radius: 8px;
-			transition: all 0.3s ease;
+			border-radius: 10px;
+			transition: all 0.2s ease;
 
 			&:hover {
-				background: #f8f9ff;
-				color: #4c63d2;
+				background: color-mix(in srgb, var(--lamp-glow) 12%, transparent);
+				color: var(--lamp-light);
 			}
 		}
 	}
@@ -147,32 +147,32 @@
 			flex-wrap: wrap;
 
 			.person-badge {
-				background: #667eea;
+				background: var(--lamp-glow);
 				color: white;
 				padding: 0.5rem 1rem;
-				border-radius: 20px;
+				border-radius: 999px;
 				font-weight: 600;
 				font-size: 0.875rem;
 			}
 
 			.enneagram-badge {
-				background: #74b9ff;
+				background: var(--data-teal);
 				color: white;
 				padding: 0.5rem 1rem;
-				border-radius: 20px;
+				border-radius: 999px;
 				font-weight: 600;
 				font-size: 0.875rem;
 			}
 
 			.status-badge {
 				padding: 0.5rem 1rem;
-				border-radius: 20px;
+				border-radius: 999px;
 				font-weight: 600;
 				font-size: 0.875rem;
 
 				&.draft {
-					background: #fdcb6e;
-					color: #2d3436;
+					background: color-mix(in srgb, var(--warning) 22%, transparent);
+					color: var(--warning);
 				}
 			}
 		}
@@ -180,14 +180,14 @@
 		h1 {
 			font-size: 2.25rem;
 			font-weight: 700;
-			color: #2d3436;
+			color: var(--ink-bright);
 			margin: 0 0 1rem 0;
 			line-height: 1.3;
 		}
 
 		.draft-description {
 			font-size: 1.1rem;
-			color: #636e72;
+			color: var(--ink-mid);
 			line-height: 1.6;
 			margin: 0 0 2rem 0;
 		}
@@ -204,16 +204,17 @@
 					gap: 0.25rem;
 
 					.stat-label {
-						font-size: 0.875rem;
-						color: #868e96;
-						font-weight: 600;
+						font-size: 0.75rem;
+						color: var(--ink-dim);
+						font-weight: 700;
 						text-transform: uppercase;
-						letter-spacing: 0.5px;
+						letter-spacing: 0.08em;
+						font-family: var(--font-mono, 'JetBrains Mono', monospace);
 					}
 
 					span {
 						font-size: 1rem;
-						color: #2d3436;
+						color: var(--ink-bright);
 						font-weight: 600;
 					}
 				}
@@ -229,42 +230,41 @@
 
 		.btn {
 			padding: 0.75rem 1.5rem;
-			border-radius: 8px;
+			border-radius: 10px;
 			font-weight: 600;
 			text-decoration: none;
 			border: none;
 			cursor: pointer;
-			transition: all 0.3s ease;
+			transition: all 0.2s ease;
 			font-size: 0.875rem;
 
 			&.btn-primary {
-				background: #00b894;
+				background: var(--lamp-glow);
 				color: white;
 
 				&:hover {
-					background: #00a085;
-					transform: translateY(-2px);
-					box-shadow: 0 4px 12px rgba(0, 184, 148, 0.3);
+					background: var(--lamp-deep);
+					box-shadow: var(--glow-sm);
 				}
 			}
 
 			&.btn-secondary {
-				background: #ddd;
-				color: #2d3436;
+				background: var(--stone-mid);
+				color: var(--ink-bright);
+				border: 1px solid var(--stone-edge);
 
 				&:hover {
-					background: #ccc;
-					transform: translateY(-2px);
+					background: var(--stone-edge);
 				}
 			}
 		}
 	}
 
 	.draft-content {
-		background: white;
+		background: var(--stone-warm);
 		border-radius: 16px;
-		box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
-		border: 1px solid #e9ecef;
+		box-shadow: var(--shadow-md);
+		border: 1px solid var(--stone-edge);
 		overflow: hidden;
 
 		.content-wrapper {
@@ -279,7 +279,7 @@
 			:global(h1) {
 				font-size: 2rem;
 				font-weight: 700;
-				color: #2d3436;
+				color: var(--ink-bright);
 				margin: 2rem 0 1rem 0;
 				line-height: 1.3;
 			}
@@ -287,7 +287,7 @@
 			:global(h2) {
 				font-size: 1.5rem;
 				font-weight: 700;
-				color: #2d3436;
+				color: var(--ink-bright);
 				margin: 2rem 0 1rem 0;
 				line-height: 1.4;
 			}
@@ -295,13 +295,13 @@
 			:global(h3) {
 				font-size: 1.25rem;
 				font-weight: 600;
-				color: #2d3436;
+				color: var(--ink-bright);
 				margin: 1.5rem 0 0.75rem 0;
 			}
 
 			:global(p) {
 				margin: 0 0 1.5rem 0;
-				color: #2d3436;
+				color: var(--ink-bright);
 			}
 
 			:global(.firstLetter) {
@@ -312,12 +312,12 @@
 			}
 
 			:global(blockquote) {
-				border-left: 4px solid #667eea;
+				border-left: 4px solid var(--lamp-glow);
 				padding: 1rem 1.5rem;
 				margin: 2rem 0;
-				background: #f8f9ff;
+				background: color-mix(in srgb, var(--lamp-glow) 8%, transparent);
 				font-style: italic;
-				color: #495057;
+				color: var(--ink-mid);
 			}
 
 			:global(ul),
@@ -332,19 +332,19 @@
 
 			:global(details) {
 				margin: 2rem 0;
-				border: 1px solid #e9ecef;
-				border-radius: 8px;
+				border: 1px solid var(--stone-edge);
+				border-radius: 10px;
 				overflow: hidden;
 
 				:global(summary) {
-					background: #f8f9fa;
+					background: var(--stone-mid);
 					padding: 1rem;
 					cursor: pointer;
 					font-weight: 600;
-					border-bottom: 1px solid #e9ecef;
+					border-bottom: 1px solid var(--stone-edge);
 
 					&:hover {
-						background: #e9ecef;
+						background: var(--stone-edge);
 					}
 				}
 

@@ -77,14 +77,14 @@
 
 	function getStatusColor(status: string): string {
 		const colors: Record<string, string> = {
-			scheduled: '#f59e0b',
-			confirmed: '#3b82f6',
-			in_progress: '#10b981',
-			completed: '#6b7280',
-			cancelled: '#ef4444',
-			no_show: '#ef4444'
+			scheduled: 'var(--warning)',
+			confirmed: 'var(--data-teal)',
+			in_progress: 'var(--success)',
+			completed: 'var(--ink-dim)',
+			cancelled: 'var(--error)',
+			no_show: 'var(--error)'
 		};
-		return colors[status] || '#6b7280';
+		return colors[status] || 'var(--ink-dim)';
 	}
 
 	const noteTypes = [
@@ -763,7 +763,7 @@
 	.prep-item input[type='checkbox'] {
 		width: 18px;
 		height: 18px;
-		accent-color: #10b981;
+		accent-color: var(--success);
 	}
 
 	.prep-label {
@@ -943,22 +943,22 @@
 	}
 
 	.note-observation {
-		border-left-color: #6366f1;
+		border-left-color: var(--lamp-glow);
 	}
 	.note-insight {
-		border-left-color: #10b981;
+		border-left-color: var(--success);
 	}
 	.note-pattern {
-		border-left-color: #f59e0b;
+		border-left-color: var(--warning);
 	}
 	.note-action_item {
-		border-left-color: #3b82f6;
+		border-left-color: var(--data-teal);
 	}
 	.note-breakthrough {
-		border-left-color: #22c55e;
+		border-left-color: var(--success-text);
 	}
 	.note-concern {
-		border-left-color: #ef4444;
+		border-left-color: var(--error);
 	}
 
 	.note-header {
@@ -1000,8 +1000,12 @@
 
 	/* Type Reference */
 	.type-reference {
-		background: linear-gradient(135deg, rgba(99, 102, 241, 0.05), rgba(168, 85, 247, 0.05));
-		border-color: rgba(99, 102, 241, 0.3);
+		background: linear-gradient(
+			135deg,
+			color-mix(in srgb, var(--lamp-glow) 8%, transparent),
+			color-mix(in srgb, var(--data-teal) 6%, transparent)
+		);
+		border-color: color-mix(in srgb, var(--lamp-glow) 30%, transparent);
 	}
 
 	.type-name {
@@ -1022,13 +1026,13 @@
 	}
 
 	.core-item.fear {
-		background: rgba(239, 68, 68, 0.1);
-		border-left: 3px solid #ef4444;
+		background: color-mix(in srgb, var(--error) 12%, transparent);
+		border-left: 3px solid var(--error);
 	}
 
 	.core-item.desire {
-		background: rgba(16, 185, 129, 0.1);
-		border-left: 3px solid #10b981;
+		background: color-mix(in srgb, var(--success) 12%, transparent);
+		border-left: 3px solid var(--success);
 	}
 
 	.core-label {
@@ -1166,16 +1170,16 @@
 	}
 
 	.trust-outer {
-		background: rgba(239, 68, 68, 0.1);
-		color: #ef4444;
+		background: color-mix(in srgb, var(--error) 12%, transparent);
+		color: var(--error-text);
 	}
 	.trust-middle {
-		background: rgba(245, 158, 11, 0.1);
-		color: #f59e0b;
+		background: color-mix(in srgb, var(--warning) 12%, transparent);
+		color: var(--warning);
 	}
 	.trust-inner {
-		background: rgba(16, 185, 129, 0.1);
-		color: #10b981;
+		background: color-mix(in srgb, var(--success) 12%, transparent);
+		color: var(--success-text);
 	}
 
 	/* Quick Links */
@@ -1194,7 +1198,7 @@
 	}
 
 	.quick-link:hover {
-		background: rgba(99, 102, 241, 0.1);
+		background: color-mix(in srgb, var(--lamp-glow) 12%, transparent);
 	}
 
 	.empty-type {
@@ -1232,7 +1236,7 @@
 	}
 
 	.btn-success {
-		background: #10b981;
+		background: var(--success);
 		color: white;
 	}
 

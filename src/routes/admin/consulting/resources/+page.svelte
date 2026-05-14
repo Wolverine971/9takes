@@ -399,7 +399,7 @@
 		--resource-border: color-mix(in srgb, var(--lamp-glow) 12%, var(--stone-warm));
 		--resource-border-strong: color-mix(in srgb, var(--lamp-glow) 22%, var(--stone-warm));
 		--resource-shadow: 0 22px 44px color-mix(in srgb, var(--night-deep) 16%, transparent);
-		--resource-warning: var(--warning, #f59e0b);
+		--resource-warning: var(--warning);
 		display: flex;
 		flex-direction: column;
 		gap: 1.1rem;

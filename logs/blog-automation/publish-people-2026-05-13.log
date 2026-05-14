@@ -1,0 +1,15 @@
+```
+Published people blog.
+
+Person: anna-wintour
+Draft: src/blog/people/drafts/Anna-Wintour.md
+Date/lastmod: 2026-05-13
+Supabase: published=true (row id 1012)
+Images: full + thumbnail present
+Generated files: pnpm gen:all completed
+  - famousTypes.ts: link=true, hasImage=true, lastmod=2026-05-13
+  - sitemap.xml: /personality-analysis/anna-wintour with lastmod 2026-05-13
+
+Blockers:
+- none
+```

@@ -1142,8 +1142,8 @@
 	}
 
 	.quality-badge.standard {
-		background: rgba(251, 113, 133, 0.15);
-		color: #3b82f6;
+		background: color-mix(in srgb, var(--data-teal) 18%, transparent);
+		color: var(--data-teal);
 	}
 
 	.quality-badge.long {
@@ -1171,8 +1171,8 @@
 	}
 
 	.freshness-badge.recent {
-		background: rgba(251, 113, 133, 0.15);
-		color: #3b82f6;
+		background: color-mix(in srgb, var(--data-teal) 18%, transparent);
+		color: var(--data-teal);
 	}
 
 	.freshness-badge.aging {

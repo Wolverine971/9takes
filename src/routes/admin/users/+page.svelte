@@ -958,8 +958,8 @@
 
 	.admin-badge {
 		padding: 2px 6px;
-		background: rgba(245, 158, 11, 0.1);
-		color: #d97706;
+		background: color-mix(in srgb, var(--warning) 12%, transparent);
+		color: var(--warning);
 		border-radius: 10px;
 		font-size: 0.625rem;
 		font-weight: 600;
@@ -1096,9 +1096,9 @@
 	}
 
 	.error-state {
-		color: #dc2626;
-		background: rgba(220, 38, 38, 0.08);
-		border-color: rgba(220, 38, 38, 0.25);
+		color: var(--error-text);
+		background: color-mix(in srgb, var(--error) 10%, transparent);
+		border-color: color-mix(in srgb, var(--error) 28%, transparent);
 	}
 
 	.activity-stats {
@@ -1243,7 +1243,7 @@
 	}
 
 	.removed-label {
-		color: #dc2626;
+		color: var(--error-text);
 		font-weight: 700;
 	}
 

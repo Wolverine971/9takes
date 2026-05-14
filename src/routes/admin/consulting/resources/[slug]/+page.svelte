@@ -461,7 +461,7 @@
 		--resource-hero-top: color-mix(in srgb, var(--stone-warm) 92%, var(--night-deep));
 		--resource-hero-bottom: color-mix(in srgb, var(--stone-warm) 76%, var(--night-deep));
 		--resource-shadow: 0 20px 40px color-mix(in srgb, var(--night-deep) 20%, transparent);
-		--resource-warning: var(--warning, #f59e0b);
+		--resource-warning: var(--warning);
 		display: flex;
 		flex-direction: column;
 		gap: 1.25rem;

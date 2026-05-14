@@ -177,7 +177,7 @@
 				errorCorrectionLevel: 'H',
 				margin: 1,
 				width: 200,
-				color: { dark: '#6c5ce7', light: '#ffffff' }
+				color: { dark: '#b45309', light: '#ffffff' }
 			});
 		} catch (err) {
 			console.error('Error generating QR code:', err);

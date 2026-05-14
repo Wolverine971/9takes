@@ -1355,11 +1355,11 @@
 	}
 
 	.notice {
-		color: #8ec5ff;
+		color: var(--data-cyan);
 	}
 
 	.error {
-		color: #ff9ba2;
+		color: var(--error-text);
 	}
 
 	.picker-list {

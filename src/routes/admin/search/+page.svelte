@@ -424,10 +424,10 @@
 	.clear-button {
 		padding: 0.4rem 0.875rem;
 		font-size: 0.8rem;
-		background: #ef4444;
+		background: var(--error);
 		color: white;
 		border: none;
-		border-radius: 6px;
+		border-radius: 10px;
 		cursor: pointer;
 		transition: opacity 0.15s ease;
 
@@ -438,10 +438,10 @@
 
 	.error-message {
 		padding: 0.875rem;
-		background: rgba(239, 68, 68, 0.1);
-		color: #ef4444;
-		border: 1px solid rgba(239, 68, 68, 0.2);
-		border-radius: 8px;
+		background: color-mix(in srgb, var(--error) 12%, transparent);
+		color: var(--error-text);
+		border: 1px solid color-mix(in srgb, var(--error) 26%, transparent);
+		border-radius: 10px;
 		margin-bottom: 1rem;
 		font-size: 0.875rem;
 	}
@@ -514,13 +514,13 @@
 	}
 
 	.badge-famous {
-		background: rgba(245, 158, 11, 0.12);
-		color: #f59e0b;
+		background: color-mix(in srgb, var(--lamp-glow) 14%, transparent);
+		color: var(--lamp-glow);
 	}
 
 	.badge-content {
-		background: rgba(251, 113, 133, 0.12);
-		color: #3b82f6;
+		background: color-mix(in srgb, var(--data-teal) 14%, transparent);
+		color: var(--data-cyan);
 	}
 
 	.enneagram-badge {
@@ -564,8 +564,8 @@
 		}
 
 		&.type {
-			background: rgba(16, 185, 129, 0.1);
-			color: #10b981;
+			background: color-mix(in srgb, var(--success) 12%, transparent);
+			color: var(--success-text);
 		}
 	}
 

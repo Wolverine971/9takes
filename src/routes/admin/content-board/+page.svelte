@@ -1517,19 +1517,19 @@
 		border-top-color: var(--ink-dim);
 	}
 	.stage-prioritized {
-		border-top-color: #f59e0b;
+		border-top-color: var(--warning);
 	}
 	.stage-written {
 		border-top-color: var(--data-teal);
 	}
 	.stage-proofread {
-		border-top-color: #6366f1;
+		border-top-color: var(--type-1-color);
 	}
 	.stage-sent-review {
 		border-top-color: var(--lamp-glow);
 	}
 	.stage-reviewed {
-		border-top-color: #ec4899;
+		border-top-color: var(--type-2-color);
 	}
 	.stage-socialized {
 		border-top-color: var(--lamp-glow);

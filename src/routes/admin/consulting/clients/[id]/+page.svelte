@@ -73,7 +73,7 @@
 
 <p>Please take 10-15 minutes to complete this intake form:</p>
 
-<p><a href="${intakeUrl}" style="display: inline-block; background: #6366f1; color: white; padding: 12px 24px; border-radius: 6px; text-decoration: none; font-weight: 500;">Complete Intake Form</a></p>
+<p><a href="${intakeUrl}" style="display: inline-block; background: #b45309; color: white; padding: 12px 24px; border-radius: 6px; text-decoration: none; font-weight: 500;">Complete Intake Form</a></p>
 
 <p>Your responses help me prepare for a more effective first session. Everything you share is confidential.</p>
 
@@ -934,32 +934,32 @@
 	}
 
 	.status-prospect {
-		background: rgba(99, 102, 241, 0.1);
-		color: #6366f1;
+		background: color-mix(in srgb, var(--lamp-glow) 12%, transparent);
+		color: var(--lamp-glow);
 	}
 	.status-intake_sent {
-		background: rgba(245, 158, 11, 0.1);
-		color: #f59e0b;
+		background: color-mix(in srgb, var(--warning) 12%, transparent);
+		color: var(--warning);
 	}
 	.status-intake_completed {
-		background: rgba(16, 185, 129, 0.1);
-		color: #10b981;
+		background: color-mix(in srgb, var(--success) 12%, transparent);
+		color: var(--success-text);
 	}
 	.status-active {
-		background: rgba(251, 113, 133, 0.1);
-		color: #3b82f6;
+		background: color-mix(in srgb, var(--data-teal) 14%, transparent);
+		color: var(--data-cyan);
 	}
 	.status-completed {
-		background: rgba(107, 114, 128, 0.1);
-		color: #6b7280;
+		background: color-mix(in srgb, var(--ink-dim) 14%, transparent);
+		color: var(--ink-mid);
 	}
 	.status-paused {
-		background: rgba(156, 163, 175, 0.1);
-		color: #9ca3af;
+		background: color-mix(in srgb, var(--ink-dim) 12%, transparent);
+		color: var(--ink-mid);
 	}
 	.status-churned {
-		background: rgba(239, 68, 68, 0.1);
-		color: #ef4444;
+		background: color-mix(in srgb, var(--error) 12%, transparent);
+		color: var(--error-text);
 	}
 
 	.trust-badge {
@@ -970,21 +970,21 @@
 	}
 
 	.trust-outer {
-		background: rgba(239, 68, 68, 0.1);
-		color: #ef4444;
+		background: color-mix(in srgb, var(--error) 12%, transparent);
+		color: var(--error-text);
 	}
 	.trust-middle {
-		background: rgba(245, 158, 11, 0.1);
-		color: #f59e0b;
+		background: color-mix(in srgb, var(--warning) 12%, transparent);
+		color: var(--warning);
 	}
 	.trust-inner {
-		background: rgba(16, 185, 129, 0.1);
-		color: #10b981;
+		background: color-mix(in srgb, var(--success) 12%, transparent);
+		color: var(--success-text);
 	}
 
 	.type-badge {
-		background: rgba(99, 102, 241, 0.1);
-		color: #6366f1;
+		background: color-mix(in srgb, var(--lamp-glow) 12%, transparent);
+		color: var(--lamp-glow);
 		padding: 0.125rem 0.5rem;
 		border-radius: 4px;
 		font-weight: 600;
@@ -992,8 +992,8 @@
 	}
 
 	.confirmed-badge {
-		background: rgba(16, 185, 129, 0.2);
-		color: #10b981;
+		background: color-mix(in srgb, var(--success) 22%, transparent);
+		color: var(--success-text);
 		padding: 0.0625rem 0.25rem;
 		border-radius: 3px;
 		font-size: 0.65rem;
@@ -1022,20 +1022,20 @@
 	}
 
 	.intake-pending {
-		background: rgba(245, 158, 11, 0.1);
-		color: #f59e0b;
+		background: color-mix(in srgb, var(--warning) 12%, transparent);
+		color: var(--warning);
 	}
 	.intake-sent {
-		background: rgba(251, 113, 133, 0.1);
-		color: #3b82f6;
+		background: color-mix(in srgb, var(--data-teal) 14%, transparent);
+		color: var(--data-cyan);
 	}
 	.intake-completed {
-		background: rgba(16, 185, 129, 0.1);
-		color: #10b981;
+		background: color-mix(in srgb, var(--success) 12%, transparent);
+		color: var(--success-text);
 	}
 	.intake-reviewed {
-		background: rgba(99, 102, 241, 0.1);
-		color: #6366f1;
+		background: color-mix(in srgb, var(--lamp-glow) 12%, transparent);
+		color: var(--lamp-glow);
 	}
 
 	.intake-date {
@@ -1173,22 +1173,22 @@
 	}
 
 	.note-observation {
-		border-left-color: #6366f1;
+		border-left-color: var(--lamp-glow);
 	}
 	.note-insight {
-		border-left-color: #10b981;
+		border-left-color: var(--success);
 	}
 	.note-pattern {
-		border-left-color: #f59e0b;
+		border-left-color: var(--warning);
 	}
 	.note-action_item {
-		border-left-color: #3b82f6;
+		border-left-color: var(--data-teal);
 	}
 	.note-breakthrough {
-		border-left-color: #22c55e;
+		border-left-color: var(--success-text);
 	}
 	.note-concern {
-		border-left-color: #ef4444;
+		border-left-color: var(--error);
 	}
 
 	.note-header {
@@ -1259,19 +1259,19 @@
 	}
 
 	.action-btn.intake-btn {
-		background: #10b981;
+		background: var(--success);
 		color: white;
-		border-color: #10b981;
+		border-color: var(--success);
 	}
 
 	.action-btn.intake-btn:hover {
-		background: #059669;
-		border-color: #059669;
+		background: color-mix(in srgb, var(--success) 80%, black);
+		border-color: color-mix(in srgb, var(--success) 80%, black);
 	}
 
 	.action-btn.intake-btn:disabled {
-		background: #a7f3d0;
-		border-color: #a7f3d0;
+		background: color-mix(in srgb, var(--success) 35%, transparent);
+		border-color: color-mix(in srgb, var(--success) 35%, transparent);
 		cursor: not-allowed;
 	}
 
@@ -1375,7 +1375,7 @@
 	}
 
 	.btn-danger {
-		background: #ef4444;
+		background: var(--error);
 		color: white;
 	}
 

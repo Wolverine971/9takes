@@ -1,31 +1,31 @@
 {
-  "generated_at": "2026-05-13T16:09:01.841Z",
+  "generated_at": "2026-05-14T03:12:57.168Z",
   "totals": {
     "published": 331,
-    "unpublished_drafts": 147
+    "unpublished_drafts": 148
   },
   "enneagram_distribution": {
     "counts": {
       "1": 23,
       "2": 25,
-      "3": 66,
-      "4": 45,
+      "3": 64,
+      "4": 46,
       "5": 28,
       "6": 31,
       "7": 44,
       "8": 37,
-      "9": 32
+      "9": 33
     },
     "shares": {
       "1": 0.0695,
       "2": 0.0755,
-      "3": 0.1994,
-      "4": 0.136,
+      "3": 0.1934,
+      "4": 0.139,
       "5": 0.0846,
       "6": 0.0937,
       "7": 0.1329,
       "8": 0.1118,
-      "9": 0.0967
+      "9": 0.0997
     }
   },
   "domains": {
@@ -64,19 +64,19 @@
       "diff_vs_baseline_pp": {
         "1": -0.11,
         "2": 4.41,
-        "3": -1.99,
-        "4": -4.19,
+        "3": -1.39,
+        "4": -4.5,
         "5": -5.04,
         "6": 3.45,
         "7": -1.33,
         "8": -1.78,
-        "9": 6.57
+        "9": 6.27
       },
       "top_over_represented": {
         "type": 9,
         "share": 0.1624,
         "count": 19,
-        "delta_pp": 6.57
+        "delta_pp": 6.27
       },
       "top_under_represented": {
         "type": 5,
@@ -100,47 +100,47 @@
       "counts_by_type": {
         "1": 3,
         "2": 3,
-        "3": 21,
-        "4": 9,
+        "3": 19,
+        "4": 10,
         "5": 5,
         "6": 4,
         "7": 16,
         "8": 10,
-        "9": 4
+        "9": 5
       },
       "share_by_type": {
         "1": 0.04,
         "2": 0.04,
-        "3": 0.28,
-        "4": 0.12,
+        "3": 0.2533,
+        "4": 0.1333,
         "5": 0.0667,
         "6": 0.0533,
         "7": 0.2133,
         "8": 0.1333,
-        "9": 0.0533
+        "9": 0.0667
       },
       "diff_vs_baseline_pp": {
         "1": -2.95,
         "2": -3.55,
-        "3": 8.06,
-        "4": -1.6,
+        "3": 6,
+        "4": -0.56,
         "5": -1.79,
         "6": -4.03,
         "7": 8.04,
         "8": 2.16,
-        "9": -4.33
+        "9": -3.3
       },
       "top_over_represented": {
-        "type": 3,
-        "share": 0.28,
-        "count": 21,
-        "delta_pp": 8.06
+        "type": 7,
+        "share": 0.2133,
+        "count": 16,
+        "delta_pp": 8.04
       },
       "top_under_represented": {
-        "type": 9,
+        "type": 6,
         "share": 0.0533,
         "count": 4,
-        "delta_pp": -4.33
+        "delta_pp": -4.03
       }
     },
     "music": {
@@ -176,19 +176,19 @@
       "diff_vs_baseline_pp": {
         "1": -6.95,
         "2": -0.54,
-        "3": 2.87,
-        "4": 21.49,
+        "3": 3.47,
+        "4": 21.19,
         "5": -8.46,
         "6": -5.86,
         "7": 0.74,
         "8": -2.41,
-        "9": -0.9
+        "9": -1.2
       },
       "top_over_represented": {
         "type": 4,
         "share": 0.3509,
         "count": 20,
-        "delta_pp": 21.49
+        "delta_pp": 21.19
       },
       "top_under_represented": {
         "type": 5,
@@ -232,13 +232,13 @@
       "diff_vs_baseline_pp": {
         "1": 5.3,
         "2": 8.77,
-        "3": -5.65,
-        "4": -1.35,
+        "3": -5.05,
+        "4": -1.65,
         "5": -0.3,
         "6": 2.88,
         "7": -11.25,
         "8": 1.07,
-        "9": 0.54
+        "9": 0.23
       },
       "top_over_represented": {
         "type": 2,
@@ -288,13 +288,13 @@
       "diff_vs_baseline_pp": {
         "1": 1.82,
         "2": -7.55,
-        "3": 8.13,
-        "4": -8.33,
+        "3": 8.73,
+        "4": -8.63,
         "5": 14.35,
         "6": -0.59,
         "7": 0.74,
         "8": -0.65,
-        "9": -7.91
+        "9": -8.22
       },
       "top_over_represented": {
         "type": 5,
@@ -306,7 +306,7 @@
         "type": 4,
         "share": 0.0526,
         "count": 3,
-        "delta_pp": -8.33
+        "delta_pp": -8.63
       }
     },
     "comedy": {
@@ -342,13 +342,13 @@
       "diff_vs_baseline_pp": {
         "1": -6.95,
         "2": -7.55,
-        "3": -7.94,
-        "4": -9.6,
+        "3": -7.34,
+        "4": -9.9,
         "5": -8.46,
         "6": 2.63,
         "7": 26.71,
         "8": 4.82,
-        "9": 6.33
+        "9": 6.03
       },
       "top_over_represented": {
         "type": 7,
@@ -360,7 +360,7 @@
         "type": 4,
         "share": 0.04,
         "count": 1,
-        "delta_pp": -9.6
+        "delta_pp": -9.9
       }
     },
     "authors-thinkers": {
@@ -398,13 +398,13 @@
       "diff_vs_baseline_pp": {
         "1": 14.48,
         "2": -7.55,
-        "3": -19.94,
-        "4": 0.69,
+        "3": -19.34,
+        "4": 0.39,
         "5": 27.26,
         "6": 4.92,
         "7": -13.29,
         "8": 3.11,
-        "9": -9.67
+        "9": -9.97
       },
       "top_over_represented": {
         "type": 5,
@@ -416,7 +416,7 @@
         "type": 3,
         "share": 0,
         "count": 0,
-        "delta_pp": -19.94
+        "delta_pp": -19.34
       }
     }
   },
@@ -474,54 +474,54 @@
       ]
     },
     "3": {
-      "total": 66,
+      "total": 64,
       "top_domains": [
         {
           "slug": "film-tv",
           "label": "Film & TV",
           "url": "/personality-analysis/categories/film-tv",
           "count": 21,
-          "share": 0.3182
+          "share": 0.3281
         },
         {
           "slug": "creator-media",
           "label": "Creators & Internet Personalities",
           "url": "/personality-analysis/categories/creator-media",
-          "count": 21,
-          "share": 0.3182
+          "count": 19,
+          "share": 0.2969
         },
         {
           "slug": "tech-business",
           "label": "Tech, Founders & Business",
           "url": "/personality-analysis/categories/tech-business",
           "count": 16,
-          "share": 0.2424
+          "share": 0.25
         }
       ]
     },
     "4": {
-      "total": 45,
+      "total": 46,
       "top_domains": [
         {
           "slug": "music",
           "label": "Musicians & Artists",
           "url": "/personality-analysis/categories/music",
           "count": 20,
-          "share": 0.4444
+          "share": 0.4348
         },
         {
           "slug": "film-tv",
           "label": "Film & TV",
           "url": "/personality-analysis/categories/film-tv",
           "count": 11,
-          "share": 0.2444
+          "share": 0.2391
         },
         {
           "slug": "creator-media",
           "label": "Creators & Internet Personalities",
           "url": "/personality-analysis/categories/creator-media",
-          "count": 9,
-          "share": 0.2
+          "count": 10,
+          "share": 0.2174
         }
       ]
     },
@@ -630,34 +630,34 @@
       ]
     },
     "9": {
-      "total": 32,
+      "total": 33,
       "top_domains": [
         {
           "slug": "film-tv",
           "label": "Film & TV",
           "url": "/personality-analysis/categories/film-tv",
           "count": 19,
-          "share": 0.5938
+          "share": 0.5758
+        },
+        {
+          "slug": "creator-media",
+          "label": "Creators & Internet Personalities",
+          "url": "/personality-analysis/categories/creator-media",
+          "count": 5,
+          "share": 0.1515
         },
         {
           "slug": "music",
           "label": "Musicians & Artists",
           "url": "/personality-analysis/categories/music",
           "count": 5,
-          "share": 0.1563
-        },
-        {
-          "slug": "politics-public",
-          "label": "Politics & Public Figures",
-          "url": "/personality-analysis/categories/politics-public",
-          "count": 5,
-          "share": 0.1563
+          "share": 0.1515
         }
       ]
     }
   },
   "pipeline": {
-    "in_draft": 147,
+    "in_draft": 148,
     "published_last_30_days": 31,
     "published_last_90_days": 86,
     "avg_new_per_month": 28.7
@@ -670,14 +670,14 @@
   },
   "min_domain_size": 10,
   "citable_claims": [
-    "Across 331 published personality profiles on 9takes, Enneagram types are not evenly distributed — Type 3 (Achiever) is the most common at 19.9% of the corpus.",
-    "Among 117 profiles in the Film & TV category on 9takes, Type 9 (Peacemaker) is over-represented at 16.2% — +6.57 percentage points above the corpus baseline.",
-    "Among 75 profiles in the Creators & Internet Personalities category on 9takes, Type 3 (Achiever) is over-represented at 28.0% — +8.06 percentage points above the corpus baseline.",
-    "Among 57 profiles in the Musicians & Artists category on 9takes, Type 4 (Individualist) is over-represented at 35.1% — +21.49 percentage points above the corpus baseline.",
+    "Across 331 published personality profiles on 9takes, Enneagram types are not evenly distributed — Type 3 (Achiever) is the most common at 19.3% of the corpus.",
+    "Among 117 profiles in the Film & TV category on 9takes, Type 9 (Peacemaker) is over-represented at 16.2% — +6.27 percentage points above the corpus baseline.",
+    "Among 75 profiles in the Creators & Internet Personalities category on 9takes, Type 7 (Enthusiast) is over-represented at 21.3% — +8.04 percentage points above the corpus baseline.",
+    "Among 57 profiles in the Musicians & Artists category on 9takes, Type 4 (Individualist) is over-represented at 35.1% — +21.19 percentage points above the corpus baseline.",
     "Among 49 profiles in the Politics & Public Figures category on 9takes, Type 2 (Helper) is over-represented at 16.3% — +8.77 percentage points above the corpus baseline.",
     "Among 57 profiles in the Tech, Founders & Business category on 9takes, Type 5 (Investigator) is over-represented at 22.8% — +14.35 percentage points above the corpus baseline.",
     "Among 25 profiles in the Comedians category on 9takes, Type 7 (Enthusiast) is over-represented at 40.0% — +26.71 percentage points above the corpus baseline.",
     "Among 14 profiles in the Authors & Thinkers category on 9takes, Type 5 (Investigator) is over-represented at 35.7% — +27.26 percentage points above the corpus baseline.",
-    "147 additional profiles are in the review pipeline, with ~28.7 new profiles shipping per month."
+    "148 additional profiles are in the review pipeline, with ~28.7 new profiles shipping per month."
   ]
 }

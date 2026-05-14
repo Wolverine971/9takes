@@ -1881,7 +1881,7 @@
 					data={visitsChartData}
 					title="Visits Over Time"
 					height={280}
-					color="#3b82f6"
+					color="var(--data-teal)"
 					showPoints={true}
 					showGrid={true}
 					showSummary={true}
@@ -1893,7 +1893,7 @@
 					data={avgTimeChartData}
 					title="Average Time on Page (Seconds)"
 					height={280}
-					color="#22c55e"
+					color="var(--success-text)"
 					showPoints={true}
 					showGrid={true}
 					showSummary={true}
@@ -1943,7 +1943,7 @@
 								data={selectedTrendChartData}
 								title={selectedTrendPath ? `Visits Trend - ${selectedTrendPath}` : 'Visits Trend'}
 								height={300}
-								color="#f59e0b"
+								color="var(--lamp-glow)"
 								showPoints={true}
 								showGrid={true}
 								showSummary={true}
@@ -2494,7 +2494,7 @@
 										title="Cumulative Views After Publish"
 										xLabel="Days Since Publish"
 										height={280}
-										color="#10b981"
+										color="var(--success)"
 										showPoints={true}
 										showGrid={true}
 										showSummary={true}
@@ -2781,9 +2781,9 @@
 	}
 
 	.analytics-tab.active {
-		background: rgba(59, 130, 246, 0.12);
-		border-color: rgba(59, 130, 246, 0.3);
-		color: #93c5fd;
+		background: color-mix(in srgb, var(--data-teal) 14%, transparent);
+		border-color: color-mix(in srgb, var(--data-teal) 32%, transparent);
+		color: var(--data-cyan);
 	}
 
 	.page-title {
@@ -2911,8 +2911,8 @@
 		font-size: 0.75rem;
 		padding: 4px 8px;
 		border-radius: 999px;
-		background: rgba(251, 113, 133, 0.15);
-		color: #93c5fd;
+		background: color-mix(in srgb, var(--data-teal) 16%, transparent);
+		color: var(--data-cyan);
 		white-space: nowrap;
 	}
 
@@ -2965,8 +2965,8 @@
 	}
 
 	.path-pill.active {
-		border-color: #f59e0b;
-		background: rgba(245, 158, 11, 0.12);
+		border-color: var(--lamp-glow);
+		background: color-mix(in srgb, var(--lamp-glow) 14%, transparent);
 	}
 
 	.path-rank {
@@ -3060,8 +3060,8 @@
 	}
 
 	.rank-item-button.active {
-		border-color: #f59e0b;
-		background: rgba(245, 158, 11, 0.12);
+		border-color: var(--lamp-glow);
+		background: color-mix(in srgb, var(--lamp-glow) 14%, transparent);
 	}
 
 	.rank-top {
@@ -3078,7 +3078,7 @@
 		width: 24px;
 		height: 24px;
 		border-radius: 999px;
-		background: rgba(148, 163, 184, 0.2);
+		background: color-mix(in srgb, var(--ink-dim) 26%, transparent);
 		color: var(--ink-bright);
 		font-size: 0.75rem;
 		font-weight: 700;
@@ -3100,7 +3100,7 @@
 
 	.bar-track {
 		height: 8px;
-		background: rgba(148, 163, 184, 0.15);
+		background: color-mix(in srgb, var(--ink-dim) 18%, transparent);
 		border-radius: 999px;
 		overflow: hidden;
 	}
@@ -3111,15 +3111,15 @@
 	}
 
 	.bar-week {
-		background: linear-gradient(90deg, #3b82f6 0%, #60a5fa 100%);
+		background: linear-gradient(90deg, var(--data-teal) 0%, var(--data-cyan) 100%);
 	}
 
 	.bar-month {
-		background: linear-gradient(90deg, #10b981 0%, #34d399 100%);
+		background: linear-gradient(90deg, var(--success) 0%, var(--success-text) 100%);
 	}
 
 	.bar-duration {
-		background: linear-gradient(90deg, #f59e0b 0%, #fbbf24 100%);
+		background: linear-gradient(90deg, var(--lamp-glow) 0%, var(--lamp-light) 100%);
 	}
 
 	.rank-meta {
@@ -3176,7 +3176,7 @@
 
 	.heatmap-table th,
 	.heatmap-table td {
-		border: 1px solid rgba(148, 163, 184, 0.15);
+		border: 1px solid var(--stone-edge);
 		padding: 6px;
 		text-align: center;
 	}
@@ -3188,8 +3188,8 @@
 	}
 
 	.heatmap-table td {
-		background: rgba(59, 130, 246, var(--heat));
-		color: #eff6ff;
+		background: color-mix(in srgb, var(--data-teal) calc(var(--heat) * 100%), transparent);
+		color: var(--ink-bright);
 		min-width: 38px;
 		height: 34px;
 	}
@@ -3276,8 +3276,8 @@
 	}
 
 	.range-preset:hover:not(:disabled) {
-		border-color: #93c5fd;
-		color: #93c5fd;
+		border-color: var(--data-cyan);
+		color: var(--data-cyan);
 	}
 
 	.range-preset:disabled {
@@ -3338,18 +3338,18 @@
 	}
 
 	.summary-filter.active {
-		border-color: #3b82f6;
-		background: rgba(59, 130, 246, 0.14);
+		border-color: var(--data-teal);
+		background: color-mix(in srgb, var(--data-teal) 16%, transparent);
 	}
 
 	.summary-filter.above.active {
-		border-color: rgba(16, 185, 129, 0.7);
-		background: rgba(16, 185, 129, 0.14);
+		border-color: color-mix(in srgb, var(--success) 70%, transparent);
+		background: color-mix(in srgb, var(--success) 16%, transparent);
 	}
 
 	.summary-filter.below.active {
-		border-color: rgba(251, 113, 133, 0.7);
-		background: rgba(251, 113, 133, 0.14);
+		border-color: color-mix(in srgb, var(--secondary) 70%, transparent);
+		background: color-mix(in srgb, var(--secondary) 16%, transparent);
 	}
 
 	.release-sort-controls {
@@ -3399,11 +3399,11 @@
 	}
 
 	.release-signal-panel.over {
-		border-color: rgba(16, 185, 129, 0.35);
+		border-color: color-mix(in srgb, var(--success) 38%, transparent);
 	}
 
 	.release-signal-panel.under {
-		border-color: rgba(251, 113, 133, 0.35);
+		border-color: color-mix(in srgb, var(--secondary) 38%, transparent);
 	}
 
 	.signal-header,
@@ -3434,7 +3434,7 @@
 	}
 
 	.release-signal-panel button:hover span {
-		color: #fbbf24;
+		color: var(--lamp-light);
 		text-decoration: underline;
 	}
 
@@ -3552,7 +3552,7 @@
 	}
 
 	.release-path-link:hover {
-		color: #fbbf24;
+		color: var(--lamp-light);
 		text-decoration: underline;
 	}
 
@@ -3567,22 +3567,22 @@
 	}
 
 	.band-above {
-		background: rgba(16, 185, 129, 0.16);
-		color: #86efac;
+		background: color-mix(in srgb, var(--success) 18%, transparent);
+		color: var(--success-text);
 	}
 
 	.band-below {
-		background: rgba(251, 113, 133, 0.16);
-		color: #fda4af;
+		background: color-mix(in srgb, var(--secondary) 18%, transparent);
+		color: var(--secondary-light);
 	}
 
 	.band-collecting {
-		background: rgba(59, 130, 246, 0.16);
-		color: #bfdbfe;
+		background: color-mix(in srgb, var(--data-teal) 18%, transparent);
+		color: var(--data-cyan);
 	}
 
 	.band-neutral {
-		background: rgba(148, 163, 184, 0.18);
+		background: color-mix(in srgb, var(--ink-dim) 22%, transparent);
 		color: var(--ink-mid);
 	}
 
@@ -3720,7 +3720,7 @@
 	}
 
 	.release-event-impact strong.positive {
-		color: #86efac;
+		color: var(--success-text);
 	}
 
 	.table-header {
@@ -3773,9 +3773,9 @@
 	}
 
 	.window-tab.active {
-		border-color: #3b82f6;
-		background: rgba(251, 113, 133, 0.16);
-		color: #bfdbfe;
+		border-color: var(--data-teal);
+		background: color-mix(in srgb, var(--secondary) 18%, transparent);
+		color: var(--data-cyan);
 	}
 
 	.window-tab:disabled {
@@ -3900,7 +3900,7 @@
 		justify-content: center;
 		min-width: 12px;
 		font-size: 0.74rem;
-		color: #fbbf24;
+		color: var(--lamp-light);
 	}
 
 	.table-path-cell {
@@ -3923,14 +3923,14 @@
 	}
 
 	.table-page-link:hover {
-		color: #fbbf24;
+		color: var(--lamp-light);
 		text-decoration: underline;
 	}
 
 	.table-trend-button {
 		border: 1px solid var(--stone-warm);
 		border-radius: 999px;
-		background: rgba(148, 163, 184, 0.1);
+		background: color-mix(in srgb, var(--ink-dim) 12%, transparent);
 		color: var(--ink-mid);
 		font-size: 0.7rem;
 		font-weight: 700;
@@ -3940,9 +3940,9 @@
 	}
 
 	.table-trend-button:hover {
-		border-color: rgba(245, 158, 11, 0.55);
-		background: rgba(245, 158, 11, 0.12);
-		color: #fbbf24;
+		border-color: color-mix(in srgb, var(--lamp-glow) 55%, transparent);
+		background: color-mix(in srgb, var(--lamp-glow) 14%, transparent);
+		color: var(--lamp-light);
 		text-decoration: none;
 	}
 
@@ -3952,9 +3952,9 @@
 	}
 
 	.table-trend-button.active {
-		border-color: rgba(245, 158, 11, 0.7);
-		background: rgba(245, 158, 11, 0.16);
-		color: #fbbf24;
+		border-color: color-mix(in srgb, var(--lamp-glow) 70%, transparent);
+		background: color-mix(in srgb, var(--lamp-glow) 18%, transparent);
+		color: var(--lamp-light);
 	}
 
 	.table-path-button {
@@ -3973,12 +3973,12 @@
 	}
 
 	.table-path-button:hover {
-		color: #fbbf24;
+		color: var(--lamp-light);
 		text-decoration: underline;
 	}
 
 	.table-path-button.active {
-		color: #fbbf24;
+		color: var(--lamp-light);
 	}
 
 	.data-table .num {
@@ -3992,11 +3992,11 @@
 	}
 
 	.data-table tr:hover {
-		background: rgba(148, 163, 184, 0.08);
+		background: color-mix(in srgb, var(--ink-dim) 10%, transparent);
 	}
 
 	.data-table tr.active-row {
-		background: rgba(245, 158, 11, 0.12);
+		background: color-mix(in srgb, var(--lamp-glow) 14%, transparent);
 	}
 
 	.empty {

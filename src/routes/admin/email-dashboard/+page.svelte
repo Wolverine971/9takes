@@ -1518,9 +1518,9 @@
 	}
 
 	.stat-rate {
-		color: #22c55e;
+		color: var(--success-text);
 		font-size: 0.75rem;
-		background: rgba(34, 197, 94, 0.1);
+		background: color-mix(in srgb, var(--success) 12%, transparent);
 		padding: 0.125rem 0.375rem;
 		border-radius: 4px;
 	}
@@ -1655,7 +1655,7 @@
 	}
 
 	.sequence-detail-error {
-		color: #fca5a5;
+		color: var(--error-text);
 		font-size: 0.8125rem;
 		margin-top: 0.25rem;
 		white-space: normal;
@@ -2186,7 +2186,7 @@
 	}
 
 	.email-preview a {
-		color: #6c5ce7;
+		color: #b45309;
 	}
 
 	.raw-html {

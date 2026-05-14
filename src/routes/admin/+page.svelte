@@ -411,7 +411,7 @@
 					data={visitorChartData}
 					title="Visitors"
 					height={380}
-					color="#3b82f6"
+					color="var(--data-teal)"
 					showPoints={true}
 					showGrid={true}
 					showSummary={true}
@@ -424,7 +424,7 @@
 					data={commentChartData}
 					title="Comments"
 					height={380}
-					color="#10b981"
+					color="var(--success)"
 					showPoints={true}
 					showGrid={true}
 					showSummary={true}

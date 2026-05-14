@@ -502,7 +502,7 @@
 		}
 
 		&.has-pending {
-			border-color: #f59e0b;
+			border-color: var(--warning);
 			background: var(--stone-warm);
 		}
 
@@ -531,27 +531,27 @@
 		}
 
 		&.today {
-			background: rgba(251, 113, 133, 0.1);
-			color: #3b82f6;
+			background: color-mix(in srgb, var(--data-teal) 14%, transparent);
+			color: var(--data-cyan);
 		}
 		&.scheduled {
-			background: rgba(99, 102, 241, 0.1);
-			color: #6366f1;
+			background: color-mix(in srgb, var(--lamp-glow) 12%, transparent);
+			color: var(--lamp-glow);
 		}
 		&.active {
-			background: rgba(16, 185, 129, 0.1);
-			color: #10b981;
+			background: color-mix(in srgb, var(--success) 12%, transparent);
+			color: var(--success-text);
 		}
 		&.pending {
-			background: rgba(251, 191, 36, 0.1);
-			color: #f59e0b;
+			background: color-mix(in srgb, var(--warning) 12%, transparent);
+			color: var(--warning);
 		}
 		&.published {
-			background: rgba(34, 197, 94, 0.1);
-			color: #22c55e;
+			background: color-mix(in srgb, var(--success) 14%, transparent);
+			color: var(--success);
 		}
 		&.templates {
-			background: rgba(139, 92, 246, 0.1);
+			background: color-mix(in srgb, var(--lamp-glow) 14%, transparent);
 			color: var(--lamp-glow);
 		}
 	}
@@ -710,16 +710,16 @@
 		font-weight: 600;
 		text-transform: capitalize;
 		&.scheduled {
-			background: rgba(251, 113, 133, 0.12);
-			color: #3b82f6;
+			background: color-mix(in srgb, var(--data-teal) 14%, transparent);
+			color: var(--data-cyan);
 		}
 		&.published {
-			background: rgba(16, 185, 129, 0.12);
-			color: #10b981;
+			background: color-mix(in srgb, var(--success) 14%, transparent);
+			color: var(--success-text);
 		}
 		&.pending {
-			background: rgba(245, 158, 11, 0.12);
-			color: #f59e0b;
+			background: color-mix(in srgb, var(--warning) 14%, transparent);
+			color: var(--warning);
 		}
 	}
 
@@ -841,16 +841,16 @@
 		font-size: 0.65rem;
 		font-weight: 600;
 		&.info {
-			background: rgba(251, 113, 133, 0.12);
-			color: #3b82f6;
+			background: color-mix(in srgb, var(--data-teal) 14%, transparent);
+			color: var(--data-cyan);
 		}
 		&.success {
-			background: rgba(16, 185, 129, 0.12);
-			color: #10b981;
+			background: color-mix(in srgb, var(--success) 14%, transparent);
+			color: var(--success-text);
 		}
 		&.warning {
-			background: rgba(245, 158, 11, 0.12);
-			color: #f59e0b;
+			background: color-mix(in srgb, var(--warning) 14%, transparent);
+			color: var(--warning);
 		}
 		&.neutral {
 			background: var(--stone-warm);

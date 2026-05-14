@@ -138,17 +138,17 @@
 
 	function getEnneagramColor(type: number | null): string {
 		const colors: Record<number, string> = {
-			1: '#E74C3C',
-			2: '#E91E63',
-			3: '#9C27B0',
-			4: '#673AB7',
-			5: '#3F51B5',
-			6: '#2196F3',
-			7: '#FFC107',
-			8: '#FF5722',
-			9: '#4CAF50'
+			1: 'var(--type-1-color)',
+			2: 'var(--type-2-color)',
+			3: 'var(--type-3-color)',
+			4: 'var(--type-4-color)',
+			5: 'var(--type-5-color)',
+			6: 'var(--type-6-color)',
+			7: 'var(--type-7-color)',
+			8: 'var(--type-8-color)',
+			9: 'var(--type-9-color)'
 		};
-		return type ? colors[type] || '#6B7280' : '#6B7280';
+		return type ? colors[type] || 'var(--ink-dim)' : 'var(--ink-dim)';
 	}
 
 	function getSourceIcon(source: string): string {
@@ -568,8 +568,8 @@
 	}
 
 	.source-label {
-		background: rgba(251, 113, 133, 0.12);
-		color: #3b82f6;
+		background: color-mix(in srgb, var(--data-teal) 14%, transparent);
+		color: var(--data-cyan);
 	}
 
 	.category-label {

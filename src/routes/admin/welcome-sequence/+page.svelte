@@ -22,12 +22,12 @@
 	};
 
 	const statusColors: Record<string, string> = {
-		active: '#22c55e',
-		completed: '#3b82f6',
-		exited: '#f59e0b',
-		errored: '#ef4444',
-		processing: '#a855f7',
-		paused: '#6b7280'
+		active: 'var(--success)',
+		completed: 'var(--data-teal)',
+		exited: 'var(--warning)',
+		errored: 'var(--error)',
+		processing: 'var(--lamp-glow)',
+		paused: 'var(--ink-dim)'
 	};
 
 	function formatDate(dateStr: string | null): string {
@@ -254,16 +254,16 @@
 			</div>
 			<div class="funnel-summary">
 				<span class="stat">
-					<span class="stat-value" style="color: #22c55e">{fc.active}</span> active
+					<span class="stat-value" style="color: var(--success)">{fc.active}</span> active
 				</span>
 				<span class="stat">
-					<span class="stat-value" style="color: #f59e0b">{fc.exited}</span> exited
+					<span class="stat-value" style="color: var(--warning)">{fc.exited}</span> exited
 				</span>
 				<span class="stat">
-					<span class="stat-value" style="color: #ef4444">{fc.errored}</span> errored
+					<span class="stat-value" style="color: var(--error)">{fc.errored}</span> errored
 				</span>
 				<span class="stat">
-					<span class="stat-value" style="color: #3b82f6">{returnRate()}%</span> return rate
+					<span class="stat-value" style="color: var(--data-teal)">{returnRate()}%</span> return rate
 				</span>
 			</div>
 		</section>
@@ -325,7 +325,7 @@
 								<td data-label="Status">
 									<span
 										class="status-dot"
-										style="background: {statusColors[queued.status] || '#6b7280'}"
+										style="background: {statusColors[queued.status] || 'var(--ink-dim)'}"
 									></span>
 									{queued.status}
 								</td>
@@ -466,7 +466,7 @@
 							<td data-label="Status">
 								<span
 									class="status-dot"
-									style="background: {statusColors[enrollment.status] || '#6b7280'}"
+									style="background: {statusColors[enrollment.status] || 'var(--ink-dim)'}"
 								></span>
 								{enrollment.status}
 								{#if enrollment.exit_reason}
@@ -603,7 +603,7 @@
 
 	.status-badge.active {
 		background: rgba(34, 197, 94, 0.15);
-		color: #22c55e;
+		color: var(--success);
 	}
 
 	.meta {
@@ -736,7 +736,7 @@
 
 	.funnel-bar {
 		height: 32px;
-		background: linear-gradient(90deg, var(--lamp-glow) 0%, var(--primary-dark, #1a6b5a) 100%);
+		background: linear-gradient(90deg, var(--lamp-glow) 0%, var(--lamp-deep) 100%);
 		border-radius: 6px;
 		display: flex;
 		align-items: center;
@@ -826,7 +826,7 @@
 	}
 
 	.due {
-		color: #ef4444;
+		color: var(--error);
 		font-weight: 700;
 	}
 
@@ -882,7 +882,7 @@
 		margin-bottom: 8px;
 		border-radius: 6px;
 		background: rgba(15, 118, 110, 0.12);
-		color: #0f766e;
+		color: var(--data-teal);
 		font-size: 0.6875rem;
 		font-weight: 600;
 		padding: 3px 8px;
@@ -1131,12 +1131,12 @@
 
 	.badge-yes {
 		background: rgba(34, 197, 94, 0.15);
-		color: #22c55e;
+		color: var(--success);
 	}
 
 	.badge-no {
 		background: rgba(239, 68, 68, 0.15);
-		color: #ef4444;
+		color: var(--error);
 	}
 
 	.badge-unknown {
