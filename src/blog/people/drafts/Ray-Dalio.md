@@ -4,12 +4,12 @@ meta_title: "Why Ray Dalio Wrote 210 Rules: Inside a Type 5's Fortress Mind"
 persona_title: "Wall Street's Principled Recluse"
 description: "He punched his boss in 1974 and spent 50 years writing 210 rules so it would never happen again. The Enneagram lens on Ray Dalio's fortress mind."
 author: 'DJ Wayne'
-date: '2026-05-01'
+date: '2026-05-14'
 loc: 'https://9takes.com/personality-analysis/Ray-Dalio'
-lastmod: '2026-05-01'
+lastmod: '2026-05-14'
 changefreq: 'monthly'
 priority: '0.6'
-published: false
+published: true
 enneagram: '5'
 type: ['entrepreneur', 'author']
 person: 'Ray-Dalio'

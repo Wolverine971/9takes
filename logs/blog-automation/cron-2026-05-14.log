@@ -1,0 +1,14 @@
+Rate limit check: `currentWeekCount: 5` of `maxPerWeek: 5`. Week started 2026-05-08; today is 2026-05-14 (day 7 of the rate limit week — still within bounds).
+
+RATE LIMIT HIT: 5/5 blogs this week
+
+```
+=== DAILY BLOG CREATOR SUMMARY ===
+Date: 2026-05-14
+Status: SKIPPED - Rate limit reached
+Reason: 5/5 blogs created this week (week started 2026-05-08)
+Next Run: Tomorrow 2:00 AM (new week begins 2026-05-15)
+===================================
+```
+
+Exiting without error.

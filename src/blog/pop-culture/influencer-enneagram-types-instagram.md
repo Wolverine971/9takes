@@ -128,7 +128,6 @@ These names show up over and over when you map influencer culture to Type 3 psyc
 
 - **Kim Kardashian** turned image management into a multi-billion-dollar empire. The whole Kardashian dynasty is essentially a family business built on Type 3 instincts.
 - **Kylie Jenner** built a cosmetics brand on photogenic discipline before she could legally drink.
-- **Alix Earle** decoded the "messy but aspirational" formula and rode it to a podcast empire — and a very public split from her Type 7 mentor when their incentives diverged.
 - **MrBeast** is Type 3 in a hoodie — every thumbnail A/B tested, every video benchmarked, every minute optimized for retention.
 - **Gary Vee** and **Alex Hormozi** are Type 3 hustle culture in human form. Hormozi himself appears in the online gurus pattern, and the pattern is unmistakable.
 
@@ -174,7 +173,7 @@ The point isn't that any of these people are "fake." It's that Instagram is the 
 
 **Example niche:** Lifestyle, fashion, fitness transformation, "CEO" personal brand, hustle content.
 
-**Faces:** Kim Kardashian, Kylie Jenner, Alix Earle, MrBeast, Gary Vee, Alex Hormozi, Chiara Ferragni — the people who turned image management into infrastructure.
+**Faces:** Kim Kardashian, Kylie Jenner, MrBeast, Gary Vee, Alex Hormozi, Chiara Ferragni — the people who turned image management into infrastructure.
 
 **Quote:** "My engagement is down 2% — what am I doing wrong?"
 
